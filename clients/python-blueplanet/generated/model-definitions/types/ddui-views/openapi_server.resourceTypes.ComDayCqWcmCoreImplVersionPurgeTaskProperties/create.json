@@ -1,0 +1,21 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "versionpurge_paths" },
+      {"model": "versionpurge_recursive" },
+      {"model": "versionpurge_max_versions" },
+      {"model": "versionpurge_min_versions" },
+      {"model": "versionpurge_max_age_days" },
+    ]
+  }]
+}

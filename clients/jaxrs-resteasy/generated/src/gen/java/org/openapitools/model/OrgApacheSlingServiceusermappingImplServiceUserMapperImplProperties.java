@@ -4,26 +4,30 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2019-08-05T00:59:30.156Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2026-10-07T12:54:21.614735164Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingServiceusermappingImplServiceUserMapperImplProperties   {
   
-  private ConfigNodePropertyArray userMapping = null;
-  private ConfigNodePropertyString userDefault = null;
-  private ConfigNodePropertyBoolean userEnableDefaultMapping = null;
-  private ConfigNodePropertyBoolean requireValidation = null;
+  private ConfigNodePropertyArray userMapping;
+  private ConfigNodePropertyString userDefault;
+  private ConfigNodePropertyBoolean userEnableDefaultMapping;
+  private ConfigNodePropertyBoolean requireValidation;
 
   /**
    **/
   
   @ApiModelProperty(value = "")
   @JsonProperty("user.mapping")
+  @Valid
   public ConfigNodePropertyArray getUserMapping() {
     return userMapping;
   }
@@ -36,6 +40,7 @@ public class OrgApacheSlingServiceusermappingImplServiceUserMapperImplProperties
   
   @ApiModelProperty(value = "")
   @JsonProperty("user.default")
+  @Valid
   public ConfigNodePropertyString getUserDefault() {
     return userDefault;
   }
@@ -48,6 +53,7 @@ public class OrgApacheSlingServiceusermappingImplServiceUserMapperImplProperties
   
   @ApiModelProperty(value = "")
   @JsonProperty("user.enable.default.mapping")
+  @Valid
   public ConfigNodePropertyBoolean getUserEnableDefaultMapping() {
     return userEnableDefaultMapping;
   }
@@ -60,6 +66,7 @@ public class OrgApacheSlingServiceusermappingImplServiceUserMapperImplProperties
   
   @ApiModelProperty(value = "")
   @JsonProperty("require.validation")
+  @Valid
   public ConfigNodePropertyBoolean getRequireValidation() {
     return requireValidation;
   }
@@ -69,7 +76,7 @@ public class OrgApacheSlingServiceusermappingImplServiceUserMapperImplProperties
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -77,10 +84,10 @@ public class OrgApacheSlingServiceusermappingImplServiceUserMapperImplProperties
       return false;
     }
     OrgApacheSlingServiceusermappingImplServiceUserMapperImplProperties orgApacheSlingServiceusermappingImplServiceUserMapperImplProperties = (OrgApacheSlingServiceusermappingImplServiceUserMapperImplProperties) o;
-    return Objects.equals(userMapping, orgApacheSlingServiceusermappingImplServiceUserMapperImplProperties.userMapping) &&
-        Objects.equals(userDefault, orgApacheSlingServiceusermappingImplServiceUserMapperImplProperties.userDefault) &&
-        Objects.equals(userEnableDefaultMapping, orgApacheSlingServiceusermappingImplServiceUserMapperImplProperties.userEnableDefaultMapping) &&
-        Objects.equals(requireValidation, orgApacheSlingServiceusermappingImplServiceUserMapperImplProperties.requireValidation);
+    return Objects.equals(this.userMapping, orgApacheSlingServiceusermappingImplServiceUserMapperImplProperties.userMapping) &&
+        Objects.equals(this.userDefault, orgApacheSlingServiceusermappingImplServiceUserMapperImplProperties.userDefault) &&
+        Objects.equals(this.userEnableDefaultMapping, orgApacheSlingServiceusermappingImplServiceUserMapperImplProperties.userEnableDefaultMapping) &&
+        Objects.equals(this.requireValidation, orgApacheSlingServiceusermappingImplServiceUserMapperImplProperties.requireValidation);
   }
 
   @Override
@@ -105,11 +112,8 @@ public class OrgApacheSlingServiceusermappingImplServiceUserMapperImplProperties
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

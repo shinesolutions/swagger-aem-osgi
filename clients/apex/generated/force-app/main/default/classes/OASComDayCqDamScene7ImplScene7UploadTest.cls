@@ -72,8 +72,8 @@ private class OASComDayCqDamScene7ImplScene7UploadTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqDamScene7ImplScene7Upload comDayCqDamScene7ImplScene7UploadServiceImplProperties = new OASComDayCqDamScene7ImplScene7Upload();
-        Map<String, String> propertyMappings = comDayCqDamScene7ImplScene7UploadServiceImplProperties.getPropertyMappings();
-        System.assertEquals('cqDamScene7UploadserviceActivejobtimeoutLabel', propertyMappings.get('cq.dam.scene7.uploadservice.activejobtimeout.label'));
-        System.assertEquals('cqDamScene7UploadserviceConnectionmaxperrouteLabel', propertyMappings.get('cq.dam.scene7.uploadservice.connectionmaxperroute.label'));
+        Map<String, String> x-property-mappings = comDayCqDamScene7ImplScene7UploadServiceImplProperties.getx-property-mappings();
+        System.assertEquals('cqDamScene7UploadserviceActivejobtimeoutLabel', x-property-mappings.get('cq.dam.scene7.uploadservice.activejobtimeout.label'));
+        System.assertEquals('cqDamScene7UploadserviceConnectionmaxperrouteLabel', x-property-mappings.get('cq.dam.scene7.uploadservice.connectionmaxperroute.label'));
     }
 }

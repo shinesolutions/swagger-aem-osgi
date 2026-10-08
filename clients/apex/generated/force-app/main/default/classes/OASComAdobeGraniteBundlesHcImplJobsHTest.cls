@@ -72,8 +72,8 @@ private class OASComAdobeGraniteBundlesHcImplJobsHTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeGraniteBundlesHcImplJobsH comAdobeGraniteBundlesHcImplJobsHealthCheckProperties = new OASComAdobeGraniteBundlesHcImplJobsH();
-        Map<String, String> propertyMappings = comAdobeGraniteBundlesHcImplJobsHealthCheckProperties.getPropertyMappings();
-        System.assertEquals('hcTags', propertyMappings.get('hc.tags'));
-        System.assertEquals('maxQueuedJobs', propertyMappings.get('max.queued.jobs'));
+        Map<String, String> x-property-mappings = comAdobeGraniteBundlesHcImplJobsHealthCheckProperties.getx-property-mappings();
+        System.assertEquals('hcTags', x-property-mappings.get('hc.tags'));
+        System.assertEquals('maxQueuedJobs', x-property-mappings.get('max.queued.jobs'));
     }
 }

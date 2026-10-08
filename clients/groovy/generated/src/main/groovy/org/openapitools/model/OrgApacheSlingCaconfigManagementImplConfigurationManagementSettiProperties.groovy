@@ -7,8 +7,8 @@ import org.openapitools.model.ConfigNodePropertyArray;
 
 @Canonical
 class OrgApacheSlingCaconfigManagementImplConfigurationManagementSettiProperties {
-    ConfigNodePropertyArray ignorePropertyNameRegex = null
-
-    ConfigNodePropertyArray configCollectionPropertiesResourceNames = null
-
+    
+    ConfigNodePropertyArray ignorePropertyNameRegex
+    
+    ConfigNodePropertyArray configCollectionPropertiesResourceNames
 }

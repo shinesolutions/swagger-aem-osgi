@@ -2,16 +2,17 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**cq_pagesupdatehandler_imageresourcetypes** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **cq_pagesupdatehandler_imageresourcetypes** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComDayCqWcmContentsyncImplHandlerPagesUpdateHandlerProperties.new(cq_pagesupdatehandler_imageresourcetypes: null)
+instance = SwaggerAemOsgiClient::ComDayCqWcmContentsyncImplHandlerPagesUpdateHandlerProperties.new(
+  cq_pagesupdatehandler_imageresourcetypes: null
+)
 ```
-
 

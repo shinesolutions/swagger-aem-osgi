@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqSocialCommonsEmailreplyImplUnknownEmailC
 
 @Canonical
 class ComAdobeCqSocialCommonsEmailreplyImplUnknownEmailClientProviderInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqSocialCommonsEmailreplyImplUnknownEmailClientProviderProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqSocialCommonsEmailreplyImplUnknownEmailClientProviderProperties properties
 }

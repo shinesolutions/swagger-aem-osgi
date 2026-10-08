@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyArray;
 
 @Canonical
 class ComDayCqAnalyticsSitecatalystImplSitecatalystAdapterFactoryProperties {
-    ConfigNodePropertyArray cqAnalyticsAdapterfactoryContextstores = null
-
+    
+    ConfigNodePropertyArray cqAnalyticsAdapterfactoryContextstores
 }

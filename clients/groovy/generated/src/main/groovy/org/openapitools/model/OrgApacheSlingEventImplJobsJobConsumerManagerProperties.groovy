@@ -8,10 +8,10 @@ import org.openapitools.model.ConfigNodePropertyBoolean;
 
 @Canonical
 class OrgApacheSlingEventImplJobsJobConsumerManagerProperties {
-    ConfigNodePropertyBoolean orgApacheSlingInstallerConfigurationPersist = null
-
-    ConfigNodePropertyArray jobConsumermanagerWhitelist = null
-
-    ConfigNodePropertyArray jobConsumermanagerBlacklist = null
-
+    
+    ConfigNodePropertyBoolean orgApacheSlingInstallerConfigurationPersist
+    
+    ConfigNodePropertyArray jobConsumermanagerWhitelist
+    
+    ConfigNodePropertyArray jobConsumermanagerBlacklist
 }

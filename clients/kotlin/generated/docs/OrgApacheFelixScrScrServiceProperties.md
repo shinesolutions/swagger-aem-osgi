@@ -2,14 +2,14 @@
 # OrgApacheFelixScrScrServiceProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**dsPeriodloglevel** | [**ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md) |  |  [optional]
-**dsPeriodfactoryPeriodenabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**dsPerioddelayedPeriodkeepInstances** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**dsPeriodlockPeriodtimeoutPeriodmilliseconds** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**dsPeriodstopPeriodtimeoutPeriodmilliseconds** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**dsPeriodglobalPeriodextender** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **dsLoglevel** | [**ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md) |  |  [optional] |
+| **dsFactoryEnabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **dsDelayedKeepInstances** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **dsLockTimeoutMilliseconds** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **dsStopTimeoutMilliseconds** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **dsGlobalExtender** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
 
 
 

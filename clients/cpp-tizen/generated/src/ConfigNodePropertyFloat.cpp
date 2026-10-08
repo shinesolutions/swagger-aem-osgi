@@ -125,6 +125,9 @@ ConfigNodePropertyFloat::fromJson(char* jsonStr)
 			jsonToValue(&value, node, "long long", "");
 		} else {
 			
+			long long* obj = static_cast<long long*> (&value);
+			obj->fromJson(json_to_string(node, false));
+			
 		}
 	}
 	const gchar *descriptionKey = "description";
@@ -191,6 +194,11 @@ ConfigNodePropertyFloat::toJson()
 		node = converttoJson(&obj, "long long", "");
 	}
 	else {
+		
+		long long obj = static_cast<long long> (getValue());
+		GError *mygerror;
+		mygerror = NULL;
+		node = json_from_string(obj.toJson(), &mygerror);
 		
 	}
 	const gchar *valueKey = "value";

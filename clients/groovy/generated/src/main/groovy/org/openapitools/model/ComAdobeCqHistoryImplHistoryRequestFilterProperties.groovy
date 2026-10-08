@@ -7,8 +7,8 @@ import org.openapitools.model.ConfigNodePropertyArray;
 
 @Canonical
 class ComAdobeCqHistoryImplHistoryRequestFilterProperties {
-    ConfigNodePropertyArray historyRequestFilterExcludedSelectors = null
-
-    ConfigNodePropertyArray historyRequestFilterExcludedExtensions = null
-
+    
+    ConfigNodePropertyArray historyRequestFilterExcludedSelectors
+    
+    ConfigNodePropertyArray historyRequestFilterExcludedExtensions
 }

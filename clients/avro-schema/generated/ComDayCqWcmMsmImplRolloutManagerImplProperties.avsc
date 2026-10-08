@@ -1,0 +1,63 @@
+{
+  "namespace": "model",
+  "type": "record",
+  "doc": "",
+  "name": "ComDayCqWcmMsmImplRolloutManagerImplProperties",
+  "fields": [
+    {
+      "name": "event.filter",
+      "type": ["null", "model.ConfigNodePropertyString"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "rolloutmgr.excludedprops.default",
+      "type": ["null", "model.ConfigNodePropertyArray"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "rolloutmgr.excludedparagraphprops.default",
+      "type": ["null", "model.ConfigNodePropertyArray"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "rolloutmgr.excludednodetypes.default",
+      "type": ["null", "model.ConfigNodePropertyArray"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "rolloutmgr.threadpool.maxsize",
+      "type": ["null", "model.ConfigNodePropertyInteger"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "rolloutmgr.threadpool.maxshutdowntime",
+      "type": ["null", "model.ConfigNodePropertyInteger"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "rolloutmgr.threadpool.priority",
+      "type": ["null", "model.ConfigNodePropertyDropDown"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "rolloutmgr.commit.size",
+      "type": ["null", "model.ConfigNodePropertyInteger"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "rolloutmgr.conflicthandling.enabled",
+      "type": ["null", "model.ConfigNodePropertyBoolean"],
+      "doc": "",
+      "default": null
+    }
+  ]
+
+}

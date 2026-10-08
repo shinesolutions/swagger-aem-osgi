@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTe
 
 @Canonical
 class ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpProperties properties
 }

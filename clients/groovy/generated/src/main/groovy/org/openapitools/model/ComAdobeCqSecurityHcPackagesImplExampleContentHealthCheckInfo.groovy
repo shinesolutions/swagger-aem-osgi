@@ -7,18 +7,18 @@ import org.openapitools.model.ComAdobeCqSecurityHcPackagesImplExampleContentHeal
 
 @Canonical
 class ComAdobeCqSecurityHcPackagesImplExampleContentHealthCheckInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqSecurityHcPackagesImplExampleContentHealthCheckProperties properties = null
-
-    String additionalProperties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqSecurityHcPackagesImplExampleContentHealthCheckProperties properties
+    
+    String additionalProperties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

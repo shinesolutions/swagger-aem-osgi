@@ -1,3 +1,13 @@
+/*
+ * Adobe Experience Manager OSGI config (AEM) API
+ *
+ * Swagger AEM OSGI is an OpenAPI specification for Adobe Experience Manager (AEM) OSGI Configurations API
+ *
+ * OpenAPI document version: 1.0.0-pre.0
+ * Maintained by: opensource@shinesolutions.com
+ *
+ * AUTO-GENERATED FILE, DO NOT MODIFY!
+ */
 package org.openapitools.model;
 
 import java.util.Objects;
@@ -14,23 +24,23 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2019-08-05T00:56:20.785Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2026-10-07T12:53:42.280804918Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties   {
   
-  private ConfigNodePropertyString jdbcDriverClass = null;
-  private ConfigNodePropertyString jdbcConnectionUri = null;
-  private ConfigNodePropertyString jdbcUsername = null;
-  private ConfigNodePropertyString jdbcPassword = null;
-  private ConfigNodePropertyString jdbcValidationQuery = null;
-  private ConfigNodePropertyBoolean defaultReadonly = null;
-  private ConfigNodePropertyBoolean defaultAutocommit = null;
-  private ConfigNodePropertyInteger poolSize = null;
-  private ConfigNodePropertyInteger poolMaxWaitMsec = null;
-  private ConfigNodePropertyString datasourceName = null;
-  private ConfigNodePropertyArray datasourceSvcProperties = null;
+  private ConfigNodePropertyString jdbcDriverClass;
+  private ConfigNodePropertyString jdbcConnectionUri;
+  private ConfigNodePropertyString jdbcUsername;
+  private ConfigNodePropertyString jdbcPassword;
+  private ConfigNodePropertyString jdbcValidationQuery;
+  private ConfigNodePropertyBoolean defaultReadonly;
+  private ConfigNodePropertyBoolean defaultAutocommit;
+  private ConfigNodePropertyInteger poolSize;
+  private ConfigNodePropertyInteger poolMaxWaitMsec;
+  private ConfigNodePropertyString datasourceName;
+  private ConfigNodePropertyArray datasourceSvcProperties;
 
   /**
-   **/
+   */
   public ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties jdbcDriverClass(ConfigNodePropertyString jdbcDriverClass) {
     this.jdbcDriverClass = jdbcDriverClass;
     return this;
@@ -47,7 +57,7 @@ public class ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties   {
   }
 
   /**
-   **/
+   */
   public ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties jdbcConnectionUri(ConfigNodePropertyString jdbcConnectionUri) {
     this.jdbcConnectionUri = jdbcConnectionUri;
     return this;
@@ -64,7 +74,7 @@ public class ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties   {
   }
 
   /**
-   **/
+   */
   public ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties jdbcUsername(ConfigNodePropertyString jdbcUsername) {
     this.jdbcUsername = jdbcUsername;
     return this;
@@ -81,7 +91,7 @@ public class ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties   {
   }
 
   /**
-   **/
+   */
   public ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties jdbcPassword(ConfigNodePropertyString jdbcPassword) {
     this.jdbcPassword = jdbcPassword;
     return this;
@@ -98,7 +108,7 @@ public class ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties   {
   }
 
   /**
-   **/
+   */
   public ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties jdbcValidationQuery(ConfigNodePropertyString jdbcValidationQuery) {
     this.jdbcValidationQuery = jdbcValidationQuery;
     return this;
@@ -115,7 +125,7 @@ public class ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties   {
   }
 
   /**
-   **/
+   */
   public ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties defaultReadonly(ConfigNodePropertyBoolean defaultReadonly) {
     this.defaultReadonly = defaultReadonly;
     return this;
@@ -132,7 +142,7 @@ public class ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties   {
   }
 
   /**
-   **/
+   */
   public ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties defaultAutocommit(ConfigNodePropertyBoolean defaultAutocommit) {
     this.defaultAutocommit = defaultAutocommit;
     return this;
@@ -149,7 +159,7 @@ public class ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties   {
   }
 
   /**
-   **/
+   */
   public ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties poolSize(ConfigNodePropertyInteger poolSize) {
     this.poolSize = poolSize;
     return this;
@@ -166,7 +176,7 @@ public class ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties   {
   }
 
   /**
-   **/
+   */
   public ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties poolMaxWaitMsec(ConfigNodePropertyInteger poolMaxWaitMsec) {
     this.poolMaxWaitMsec = poolMaxWaitMsec;
     return this;
@@ -183,7 +193,7 @@ public class ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties   {
   }
 
   /**
-   **/
+   */
   public ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties datasourceName(ConfigNodePropertyString datasourceName) {
     this.datasourceName = datasourceName;
     return this;
@@ -200,7 +210,7 @@ public class ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties   {
   }
 
   /**
-   **/
+   */
   public ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties datasourceSvcProperties(ConfigNodePropertyArray datasourceSvcProperties) {
     this.datasourceSvcProperties = datasourceSvcProperties;
     return this;
@@ -218,7 +228,7 @@ public class ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -268,11 +278,8 @@ public class ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

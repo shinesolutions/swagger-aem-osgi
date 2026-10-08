@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyString;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
@@ -15,21 +16,20 @@ import io.swagger.annotations.ApiModelProperty;
  * ComDayCqMailerImplCqMailingServiceProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqMailerImplCqMailingServiceProperties   {
   @JsonProperty("max.recipient.count")
-  private ConfigNodePropertyString maxRecipientCount = null;
+  private ConfigNodePropertyString maxRecipientCount;
 
   public ComDayCqMailerImplCqMailingServiceProperties maxRecipientCount(ConfigNodePropertyString maxRecipientCount) {
     this.maxRecipientCount = maxRecipientCount;
     return this;
   }
 
-   /**
+  /**
    * Get maxRecipientCount
    * @return maxRecipientCount
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getMaxRecipientCount() {
     return maxRecipientCount;
@@ -41,7 +41,7 @@ public class ComDayCqMailerImplCqMailingServiceProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -71,11 +71,8 @@ public class ComDayCqMailerImplCqMailingServiceProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -1,0 +1,71 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+}
+resourceTypes {
+
+  ComDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplProperties {
+    title = ComDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplProperties
+    description = ComDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplProperties
+    derivedFrom = Root
+    properties {
+        parameter_whitelist {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        parameter_whitelist_prefixes {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        binary_parameter_whitelist {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        modifier_whitelist {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        operation_whitelist {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        operation_whitelist_prefixes {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        typehint_whitelist {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        resourcetype_whitelist {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplProperties {
+    title = ComDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplProperties
+    description = ComDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplProperties
+    implements = openapi_server.resourceTypes.ComDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplProperties
+
+  }
+}

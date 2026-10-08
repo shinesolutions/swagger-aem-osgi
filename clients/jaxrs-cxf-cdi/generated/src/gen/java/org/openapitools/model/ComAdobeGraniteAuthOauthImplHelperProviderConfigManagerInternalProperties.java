@@ -2,23 +2,24 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerInternalProperties   {
   
-  private ConfigNodePropertyString oauthCookieLoginTimeout = null;
+  private ConfigNodePropertyString oauthCookieLoginTimeout;
 
-  private ConfigNodePropertyString oauthCookieMaxAge = null;
-
+  private ConfigNodePropertyString oauthCookieMaxAge;
 
   /**
    **/
@@ -58,7 +59,7 @@ public class ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerInternalProp
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -66,8 +67,8 @@ public class ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerInternalProp
       return false;
     }
     ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerInternalProperties comAdobeGraniteAuthOauthImplHelperProviderConfigManagerInternalProperties = (ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerInternalProperties) o;
-    return Objects.equals(oauthCookieLoginTimeout, comAdobeGraniteAuthOauthImplHelperProviderConfigManagerInternalProperties.oauthCookieLoginTimeout) &&
-        Objects.equals(oauthCookieMaxAge, comAdobeGraniteAuthOauthImplHelperProviderConfigManagerInternalProperties.oauthCookieMaxAge);
+    return Objects.equals(this.oauthCookieLoginTimeout, comAdobeGraniteAuthOauthImplHelperProviderConfigManagerInternalProperties.oauthCookieLoginTimeout) &&
+        Objects.equals(this.oauthCookieMaxAge, comAdobeGraniteAuthOauthImplHelperProviderConfigManagerInternalProperties.oauthCookieMaxAge);
   }
 
   @Override
@@ -90,11 +91,8 @@ public class ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerInternalProp
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

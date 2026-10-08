@@ -1,0 +1,61 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties = openapi_server.resourceTypes.OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties
+}
+resourceTypes {
+
+  OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplInfo {
+    title = OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplInfo
+    description = OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties
+          description = ""
+          optional = false
+        }
+        bundle_location {
+          type =  string
+          description = ""
+          optional = false
+        }
+        service_location {
+          type =  string
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplInfo {
+    title = OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplInfo
+    description = OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplInfo
+    implements = openapi_server.resourceTypes.OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplInfo
+
+  }
+}

@@ -2,10 +2,10 @@
 # ComAdobeGraniteContexthubImplContextHubImplProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**comPeriodadobePeriodgranitePeriodcontexthubPeriodsilentUnderscoremode** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**comPeriodadobePeriodgranitePeriodcontexthubPeriodshowUnderscoreui** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **comAdobeGraniteContexthubSilentMode** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **comAdobeGraniteContexthubShowUi** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
 
 
 

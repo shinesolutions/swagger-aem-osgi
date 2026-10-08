@@ -1,7 +1,9 @@
 
+
 # OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **name** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
@@ -15,6 +17,7 @@ Name | Type | Description | Notes
 **packageImporterTarget** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
 **requestAuthorizationStrategyTarget** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
 **triggersTarget** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
+
 
 
 

@@ -2,14 +2,14 @@
 # ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**comPeriodadobePeriodgranitePeriodjettyPeriodsslPeriodport** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**comPeriodadobePeriodgranitePeriodjettyPeriodsslPeriodkeystorePerioduser** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodgranitePeriodjettyPeriodsslPeriodkeystorePeriodpassword** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodgranitePeriodjettyPeriodsslPeriodciphersuitesPeriodexcluded** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**comPeriodadobePeriodgranitePeriodjettyPeriodsslPeriodciphersuitesPeriodincluded** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**comPeriodadobePeriodgranitePeriodjettyPeriodsslPeriodclientPeriodcertificate** | [**ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **comAdobeGraniteJettySslPort** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **comAdobeGraniteJettySslKeystoreUser** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeGraniteJettySslKeystorePassword** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeGraniteJettySslCiphersuitesExcluded** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **comAdobeGraniteJettySslCiphersuitesIncluded** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **comAdobeGraniteJettySslClientCertificate** | [**ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md) |  |  [optional] |
 
 
 

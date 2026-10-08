@@ -1,7 +1,9 @@
 
+
 # ComAdobeGraniteCorsImplCORSPolicyImplProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **alloworigin** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
@@ -12,6 +14,7 @@ Name | Type | Description | Notes
 **supportedheaders** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
 **supportedmethods** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
 **supportscredentials** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
+
 
 
 

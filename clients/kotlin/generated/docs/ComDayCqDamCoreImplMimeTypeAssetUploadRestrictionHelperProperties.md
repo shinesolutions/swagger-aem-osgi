@@ -2,10 +2,10 @@
 # ComDayCqDamCoreImplMimeTypeAssetUploadRestrictionHelperProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**cqPerioddamPeriodallowPeriodallPeriodmime** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**cqPerioddamPeriodallowedPeriodassetPeriodmimes** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **cqDamAllowAllMime** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **cqDamAllowedAssetMimes** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
 
 
 

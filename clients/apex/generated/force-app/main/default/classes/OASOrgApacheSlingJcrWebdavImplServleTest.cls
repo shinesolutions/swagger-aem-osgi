@@ -72,16 +72,16 @@ private class OASOrgApacheSlingJcrWebdavImplServleTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASOrgApacheSlingJcrWebdavImplServle orgApacheSlingJcrWebdavImplServletsSimpleWebDavServletProperties = new OASOrgApacheSlingJcrWebdavImplServle();
-        Map<String, String> propertyMappings = orgApacheSlingJcrWebdavImplServletsSimpleWebDavServletProperties.getPropertyMappings();
-        System.assertEquals('davRoot', propertyMappings.get('dav.root'));
-        System.assertEquals('davCreateAbsoluteUri', propertyMappings.get('dav.create-absolute-uri'));
-        System.assertEquals('davRealm', propertyMappings.get('dav.realm'));
-        System.assertEquals('collectionTypes', propertyMappings.get('collection.types'));
-        System.assertEquals('filterPrefixes', propertyMappings.get('filter.prefixes'));
-        System.assertEquals('filterTypes', propertyMappings.get('filter.types'));
-        System.assertEquals('filterUris', propertyMappings.get('filter.uris'));
-        System.assertEquals('typeCollections', propertyMappings.get('type.collections'));
-        System.assertEquals('typeNoncollections', propertyMappings.get('type.noncollections'));
-        System.assertEquals('typeContent', propertyMappings.get('type.content'));
+        Map<String, String> x-property-mappings = orgApacheSlingJcrWebdavImplServletsSimpleWebDavServletProperties.getx-property-mappings();
+        System.assertEquals('davRoot', x-property-mappings.get('dav.root'));
+        System.assertEquals('davCreateAbsoluteUri', x-property-mappings.get('dav.create-absolute-uri'));
+        System.assertEquals('davRealm', x-property-mappings.get('dav.realm'));
+        System.assertEquals('collectionTypes', x-property-mappings.get('collection.types'));
+        System.assertEquals('filterPrefixes', x-property-mappings.get('filter.prefixes'));
+        System.assertEquals('filterTypes', x-property-mappings.get('filter.types'));
+        System.assertEquals('filterUris', x-property-mappings.get('filter.uris'));
+        System.assertEquals('typeCollections', x-property-mappings.get('type.collections'));
+        System.assertEquals('typeNoncollections', x-property-mappings.get('type.noncollections'));
+        System.assertEquals('typeContent', x-property-mappings.get('type.content'));
     }
 }

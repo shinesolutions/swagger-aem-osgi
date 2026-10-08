@@ -1,37 +1,41 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
 import io.swagger.annotations.ApiModelProperty;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlType;
-import javax.xml.bind.annotation.XmlEnum;
-import javax.xml.bind.annotation.XmlEnumValue;
+import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
 
 public class ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigProperties  {
   
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyString operation = null;
+
+  private ConfigNodePropertyString operation;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyString operationIcon = null;
+
+  private ConfigNodePropertyString operationIcon;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyString topicName = null;
+
+  private ConfigNodePropertyString topicName;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyBoolean emailEnabled = null;
+
+  private ConfigNodePropertyBoolean emailEnabled;
  /**
    * Get operation
    * @return operation
@@ -104,6 +108,25 @@ public class ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigPrope
     return this;
   }
 
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigProperties comDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigProperties = (ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigProperties) o;
+    return Objects.equals(this.operation, comDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigProperties.operation) &&
+        Objects.equals(this.operationIcon, comDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigProperties.operationIcon) &&
+        Objects.equals(this.topicName, comDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigProperties.topicName) &&
+        Objects.equals(this.emailEnabled, comDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigProperties.emailEnabled);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(operation, operationIcon, topicName, emailEnabled);
+  }
 
   @Override
   public String toString() {
@@ -122,11 +145,8 @@ public class ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigPrope
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private static String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

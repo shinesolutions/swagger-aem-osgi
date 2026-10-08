@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyArray;
 import com.prokarma.pkmst.model.ConfigNodePropertyInteger;
 import io.swagger.annotations.ApiModel;
@@ -16,27 +17,26 @@ import io.swagger.annotations.ApiModelProperty;
  * ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsIProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsIProperties   {
   @JsonProperty("MaxRetry")
-  private ConfigNodePropertyInteger maxRetry = null;
+  private ConfigNodePropertyInteger maxRetry;
 
   @JsonProperty("fieldWhitelist")
-  private ConfigNodePropertyArray fieldWhitelist = null;
+  private ConfigNodePropertyArray fieldWhitelist;
 
   @JsonProperty("attachmentTypeBlacklist")
-  private ConfigNodePropertyArray attachmentTypeBlacklist = null;
+  private ConfigNodePropertyArray attachmentTypeBlacklist;
 
   public ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsIProperties maxRetry(ConfigNodePropertyInteger maxRetry) {
     this.maxRetry = maxRetry;
     return this;
   }
 
-   /**
+  /**
    * Get maxRetry
    * @return maxRetry
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getMaxRetry() {
     return maxRetry;
@@ -51,10 +51,10 @@ public class ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsIPrope
     return this;
   }
 
-   /**
+  /**
    * Get fieldWhitelist
    * @return fieldWhitelist
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getFieldWhitelist() {
     return fieldWhitelist;
@@ -69,10 +69,10 @@ public class ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsIPrope
     return this;
   }
 
-   /**
+  /**
    * Get attachmentTypeBlacklist
    * @return attachmentTypeBlacklist
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getAttachmentTypeBlacklist() {
     return attachmentTypeBlacklist;
@@ -84,7 +84,7 @@ public class ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsIPrope
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -118,11 +118,8 @@ public class ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsIPrope
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

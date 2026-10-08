@@ -2,10 +2,10 @@
 # ComAdobeAemUpgradePrechecksMbeanImplPreUpgradeTasksMBeanImplProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**preMinusupgradePeriodmaintenancePeriodtasks** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**preMinusupgradePeriodhcPeriodtags** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **preUpgradeMaintenanceTasks** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **preUpgradeHcTags** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
 
 
 

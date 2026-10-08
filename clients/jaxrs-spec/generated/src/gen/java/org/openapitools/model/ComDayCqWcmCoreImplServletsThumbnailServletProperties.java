@@ -1,20 +1,31 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comDayCqWcmCoreImplServletsThumbnailServletProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqWcmCoreImplServletsThumbnailServletProperties   {
-  
-  private @Valid ConfigNodePropertyString workspace = null;
-  private @Valid ConfigNodePropertyArray dimensions = null;
+  private ConfigNodePropertyString workspace;
+  private ConfigNodePropertyArray dimensions;
+
+  public ComDayCqWcmCoreImplServletsThumbnailServletProperties() {
+  }
 
   /**
    **/
@@ -26,9 +37,11 @@ public class ComDayCqWcmCoreImplServletsThumbnailServletProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("workspace")
-  public ConfigNodePropertyString getWorkspace() {
+  @Valid public ConfigNodePropertyString getWorkspace() {
     return workspace;
   }
+
+  @JsonProperty("workspace")
   public void setWorkspace(ConfigNodePropertyString workspace) {
     this.workspace = workspace;
   }
@@ -43,16 +56,18 @@ public class ComDayCqWcmCoreImplServletsThumbnailServletProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("dimensions")
-  public ConfigNodePropertyArray getDimensions() {
+  @Valid public ConfigNodePropertyArray getDimensions() {
     return dimensions;
   }
+
+  @JsonProperty("dimensions")
   public void setDimensions(ConfigNodePropertyArray dimensions) {
     this.dimensions = dimensions;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -60,8 +75,8 @@ public class ComDayCqWcmCoreImplServletsThumbnailServletProperties   {
       return false;
     }
     ComDayCqWcmCoreImplServletsThumbnailServletProperties comDayCqWcmCoreImplServletsThumbnailServletProperties = (ComDayCqWcmCoreImplServletsThumbnailServletProperties) o;
-    return Objects.equals(workspace, comDayCqWcmCoreImplServletsThumbnailServletProperties.workspace) &&
-        Objects.equals(dimensions, comDayCqWcmCoreImplServletsThumbnailServletProperties.dimensions);
+    return Objects.equals(this.workspace, comDayCqWcmCoreImplServletsThumbnailServletProperties.workspace) &&
+        Objects.equals(this.dimensions, comDayCqWcmCoreImplServletsThumbnailServletProperties.dimensions);
   }
 
   @Override
@@ -84,11 +99,9 @@ public class ComDayCqWcmCoreImplServletsThumbnailServletProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

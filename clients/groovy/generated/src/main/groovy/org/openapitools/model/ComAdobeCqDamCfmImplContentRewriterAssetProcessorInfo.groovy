@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqDamCfmImplContentRewriterAssetProcessorP
 
 @Canonical
 class ComAdobeCqDamCfmImplContentRewriterAssetProcessorInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqDamCfmImplContentRewriterAssetProcessorProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqDamCfmImplContentRewriterAssetProcessorProperties properties
 }

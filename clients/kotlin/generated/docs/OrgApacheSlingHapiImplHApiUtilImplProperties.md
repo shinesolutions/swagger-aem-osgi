@@ -2,13 +2,13 @@
 # OrgApacheSlingHapiImplHApiUtilImplProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**orgPeriodapachePeriodslingPeriodhapiPeriodtoolsPeriodresourcetype** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**orgPeriodapachePeriodslingPeriodhapiPeriodtoolsPeriodcollectionresourcetype** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**orgPeriodapachePeriodslingPeriodhapiPeriodtoolsPeriodsearchpaths** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**orgPeriodapachePeriodslingPeriodhapiPeriodtoolsPeriodexternalurl** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**orgPeriodapachePeriodslingPeriodhapiPeriodtoolsPeriodenabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **orgApacheSlingHapiToolsResourcetype** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **orgApacheSlingHapiToolsCollectionresourcetype** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **orgApacheSlingHapiToolsSearchpaths** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **orgApacheSlingHapiToolsExternalurl** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **orgApacheSlingHapiToolsEnabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
 
 
 

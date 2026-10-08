@@ -2,25 +2,25 @@
 # OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**pathPerioddescPeriodfield** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**pathPeriodchildPeriodfield** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**pathPeriodparentPeriodfield** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**pathPeriodexactPeriodfield** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**catchPeriodallPeriodfield** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**collapsedPeriodpathPeriodfield** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**pathPerioddepthPeriodfield** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**commitPeriodpolicy** | [**ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md) |  |  [optional]
-**rows** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**pathPeriodrestrictions** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**propertyPeriodrestrictions** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**primarytypesPeriodrestrictions** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**ignoredPeriodproperties** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**usedPeriodproperties** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**typePeriodmappings** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**propertyPeriodmappings** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**collapsePeriodjcrcontentPeriodnodes** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **pathDescField** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **pathChildField** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **pathParentField** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **pathExactField** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **catchAllField** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **collapsedPathField** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **pathDepthField** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **commitPolicy** | [**ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md) |  |  [optional] |
+| **rows** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **pathRestrictions** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **propertyRestrictions** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **primarytypesRestrictions** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **ignoredProperties** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **usedProperties** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **typeMappings** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **propertyMappings** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **collapseJcrcontentNodes** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
 
 
 

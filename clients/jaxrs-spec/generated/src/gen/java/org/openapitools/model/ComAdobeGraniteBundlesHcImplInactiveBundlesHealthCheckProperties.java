@@ -1,19 +1,30 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comAdobeGraniteBundlesHcImplInactiveBundlesHealthCheckProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteBundlesHcImplInactiveBundlesHealthCheckProperties   {
-  
-  private @Valid ConfigNodePropertyArray hcTags = null;
-  private @Valid ConfigNodePropertyArray ignoredBundles = null;
+  private ConfigNodePropertyArray hcTags;
+  private ConfigNodePropertyArray ignoredBundles;
+
+  public ComAdobeGraniteBundlesHcImplInactiveBundlesHealthCheckProperties() {
+  }
 
   /**
    **/
@@ -25,9 +36,11 @@ public class ComAdobeGraniteBundlesHcImplInactiveBundlesHealthCheckProperties   
   
   @ApiModelProperty(value = "")
   @JsonProperty("hc.tags")
-  public ConfigNodePropertyArray getHcTags() {
+  @Valid public ConfigNodePropertyArray getHcTags() {
     return hcTags;
   }
+
+  @JsonProperty("hc.tags")
   public void setHcTags(ConfigNodePropertyArray hcTags) {
     this.hcTags = hcTags;
   }
@@ -42,16 +55,18 @@ public class ComAdobeGraniteBundlesHcImplInactiveBundlesHealthCheckProperties   
   
   @ApiModelProperty(value = "")
   @JsonProperty("ignored.bundles")
-  public ConfigNodePropertyArray getIgnoredBundles() {
+  @Valid public ConfigNodePropertyArray getIgnoredBundles() {
     return ignoredBundles;
   }
+
+  @JsonProperty("ignored.bundles")
   public void setIgnoredBundles(ConfigNodePropertyArray ignoredBundles) {
     this.ignoredBundles = ignoredBundles;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -59,8 +74,8 @@ public class ComAdobeGraniteBundlesHcImplInactiveBundlesHealthCheckProperties   
       return false;
     }
     ComAdobeGraniteBundlesHcImplInactiveBundlesHealthCheckProperties comAdobeGraniteBundlesHcImplInactiveBundlesHealthCheckProperties = (ComAdobeGraniteBundlesHcImplInactiveBundlesHealthCheckProperties) o;
-    return Objects.equals(hcTags, comAdobeGraniteBundlesHcImplInactiveBundlesHealthCheckProperties.hcTags) &&
-        Objects.equals(ignoredBundles, comAdobeGraniteBundlesHcImplInactiveBundlesHealthCheckProperties.ignoredBundles);
+    return Objects.equals(this.hcTags, comAdobeGraniteBundlesHcImplInactiveBundlesHealthCheckProperties.hcTags) &&
+        Objects.equals(this.ignoredBundles, comAdobeGraniteBundlesHcImplInactiveBundlesHealthCheckProperties.ignoredBundles);
   }
 
   @Override
@@ -83,11 +98,9 @@ public class ComAdobeGraniteBundlesHcImplInactiveBundlesHealthCheckProperties   
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

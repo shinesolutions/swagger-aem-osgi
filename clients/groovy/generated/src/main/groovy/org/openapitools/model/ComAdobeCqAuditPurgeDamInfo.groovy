@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqAuditPurgeDamProperties;
 
 @Canonical
 class ComAdobeCqAuditPurgeDamInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqAuditPurgeDamProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqAuditPurgeDamProperties properties
 }

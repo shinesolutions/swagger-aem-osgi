@@ -1,0 +1,36 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqCommerceImplPromotionPromotionManagerImplProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqCommerceImplPromotionPromotionManagerImplProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComAdobeCqCommerceImplPromotionPromotionManagerImplProperties {
+    title = ComAdobeCqCommerceImplPromotionPromotionManagerImplProperties
+    description = ComAdobeCqCommerceImplPromotionPromotionManagerImplProperties
+    derivedFrom = Root
+    properties {
+        cq_commerce_promotion_root {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqCommerceImplPromotionPromotionManagerImplProperties {
+    title = ComAdobeCqCommerceImplPromotionPromotionManagerImplProperties
+    description = ComAdobeCqCommerceImplPromotionPromotionManagerImplProperties
+    implements = openapi_server.resourceTypes.ComAdobeCqCommerceImplPromotionPromotionManagerImplProperties
+
+  }
+}

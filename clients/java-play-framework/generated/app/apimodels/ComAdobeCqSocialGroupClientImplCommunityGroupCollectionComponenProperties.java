@@ -2,29 +2,38 @@ package apimodels;
 
 import apimodels.ConfigNodePropertyBoolean;
 import apimodels.ConfigNodePropertyInteger;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenProperties   {
   @JsonProperty("group.listing.pagination.enable")
-  private ConfigNodePropertyBoolean groupListingPaginationEnable = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean groupListingPaginationEnable;
 
   @JsonProperty("group.listing.lazyloading.enable")
-  private ConfigNodePropertyBoolean groupListingLazyloadingEnable = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean groupListingLazyloadingEnable;
 
   @JsonProperty("page.size")
-  private ConfigNodePropertyInteger pageSize = null;
+  @Valid
+
+  private ConfigNodePropertyInteger pageSize;
 
   @JsonProperty("priority")
-  private ConfigNodePropertyInteger priority = null;
+  @Valid
+
+  private ConfigNodePropertyInteger priority;
 
   public ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenProperties groupListingPaginationEnable(ConfigNodePropertyBoolean groupListingPaginationEnable) {
     this.groupListingPaginationEnable = groupListingPaginationEnable;
@@ -35,7 +44,6 @@ public class ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenProp
    * Get groupListingPaginationEnable
    * @return groupListingPaginationEnable
   **/
-  @Valid
   public ConfigNodePropertyBoolean getGroupListingPaginationEnable() {
     return groupListingPaginationEnable;
   }
@@ -53,7 +61,6 @@ public class ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenProp
    * Get groupListingLazyloadingEnable
    * @return groupListingLazyloadingEnable
   **/
-  @Valid
   public ConfigNodePropertyBoolean getGroupListingLazyloadingEnable() {
     return groupListingLazyloadingEnable;
   }
@@ -71,7 +78,6 @@ public class ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenProp
    * Get pageSize
    * @return pageSize
   **/
-  @Valid
   public ConfigNodePropertyInteger getPageSize() {
     return pageSize;
   }
@@ -89,7 +95,6 @@ public class ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenProp
    * Get priority
    * @return priority
   **/
-  @Valid
   public ConfigNodePropertyInteger getPriority() {
     return priority;
   }
@@ -100,7 +105,7 @@ public class ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenProp
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -137,11 +142,8 @@ public class ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenProp
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

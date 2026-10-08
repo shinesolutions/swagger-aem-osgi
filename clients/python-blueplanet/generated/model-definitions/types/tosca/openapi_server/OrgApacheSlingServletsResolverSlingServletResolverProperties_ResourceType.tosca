@@ -1,0 +1,53 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingServletsResolverSlingServletResolverProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingServletsResolverSlingServletResolverProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  OrgApacheSlingServletsResolverSlingServletResolverProperties {
+    title = OrgApacheSlingServletsResolverSlingServletResolverProperties
+    description = OrgApacheSlingServletsResolverSlingServletResolverProperties
+    derivedFrom = Root
+    properties {
+        servletresolver_servlet_root {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        servletresolver_cache_size {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        servletresolver_paths {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        servletresolver_default_extensions {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingServletsResolverSlingServletResolverProperties {
+    title = OrgApacheSlingServletsResolverSlingServletResolverProperties
+    description = OrgApacheSlingServletsResolverSlingServletResolverProperties
+    implements = openapi_server.resourceTypes.OrgApacheSlingServletsResolverSlingServletResolverProperties
+
+  }
+}

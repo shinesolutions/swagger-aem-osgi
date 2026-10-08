@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyArray;
 import com.prokarma.pkmst.model.ConfigNodePropertyBoolean;
 import com.prokarma.pkmst.model.ConfigNodePropertyString;
@@ -17,33 +18,32 @@ import io.swagger.annotations.ApiModelProperty;
  * ComDayCqWcmDesignimporterImplMobileCanvasBuilderImplProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqWcmDesignimporterImplMobileCanvasBuilderImplProperties   {
   @JsonProperty("filepattern")
-  private ConfigNodePropertyString filepattern = null;
+  private ConfigNodePropertyString filepattern;
 
   @JsonProperty("device.groups")
-  private ConfigNodePropertyArray deviceGroups = null;
+  private ConfigNodePropertyArray deviceGroups;
 
   @JsonProperty("build.page.nodes")
-  private ConfigNodePropertyBoolean buildPageNodes = null;
+  private ConfigNodePropertyBoolean buildPageNodes;
 
   @JsonProperty("build.client.libs")
-  private ConfigNodePropertyBoolean buildClientLibs = null;
+  private ConfigNodePropertyBoolean buildClientLibs;
 
   @JsonProperty("build.canvas.component")
-  private ConfigNodePropertyBoolean buildCanvasComponent = null;
+  private ConfigNodePropertyBoolean buildCanvasComponent;
 
   public ComDayCqWcmDesignimporterImplMobileCanvasBuilderImplProperties filepattern(ConfigNodePropertyString filepattern) {
     this.filepattern = filepattern;
     return this;
   }
 
-   /**
+  /**
    * Get filepattern
    * @return filepattern
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getFilepattern() {
     return filepattern;
@@ -58,10 +58,10 @@ public class ComDayCqWcmDesignimporterImplMobileCanvasBuilderImplProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get deviceGroups
    * @return deviceGroups
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getDeviceGroups() {
     return deviceGroups;
@@ -76,10 +76,10 @@ public class ComDayCqWcmDesignimporterImplMobileCanvasBuilderImplProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get buildPageNodes
    * @return buildPageNodes
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getBuildPageNodes() {
     return buildPageNodes;
@@ -94,10 +94,10 @@ public class ComDayCqWcmDesignimporterImplMobileCanvasBuilderImplProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get buildClientLibs
    * @return buildClientLibs
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getBuildClientLibs() {
     return buildClientLibs;
@@ -112,10 +112,10 @@ public class ComDayCqWcmDesignimporterImplMobileCanvasBuilderImplProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get buildCanvasComponent
    * @return buildCanvasComponent
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getBuildCanvasComponent() {
     return buildCanvasComponent;
@@ -127,7 +127,7 @@ public class ComDayCqWcmDesignimporterImplMobileCanvasBuilderImplProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -165,11 +165,8 @@ public class ComDayCqWcmDesignimporterImplMobileCanvasBuilderImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

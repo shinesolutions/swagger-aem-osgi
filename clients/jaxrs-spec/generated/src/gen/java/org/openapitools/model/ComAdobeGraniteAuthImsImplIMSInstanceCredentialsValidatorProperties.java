@@ -1,18 +1,29 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comAdobeGraniteAuthImsImplIMSInstanceCredentialsValidatorProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteAuthImsImplIMSInstanceCredentialsValidatorProperties   {
-  
-  private @Valid ConfigNodePropertyString oauthProviderId = null;
+  private ConfigNodePropertyString oauthProviderId;
+
+  public ComAdobeGraniteAuthImsImplIMSInstanceCredentialsValidatorProperties() {
+  }
 
   /**
    **/
@@ -24,16 +35,18 @@ public class ComAdobeGraniteAuthImsImplIMSInstanceCredentialsValidatorProperties
   
   @ApiModelProperty(value = "")
   @JsonProperty("oauth.provider.id")
-  public ConfigNodePropertyString getOauthProviderId() {
+  @Valid public ConfigNodePropertyString getOauthProviderId() {
     return oauthProviderId;
   }
+
+  @JsonProperty("oauth.provider.id")
   public void setOauthProviderId(ConfigNodePropertyString oauthProviderId) {
     this.oauthProviderId = oauthProviderId;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -41,7 +54,7 @@ public class ComAdobeGraniteAuthImsImplIMSInstanceCredentialsValidatorProperties
       return false;
     }
     ComAdobeGraniteAuthImsImplIMSInstanceCredentialsValidatorProperties comAdobeGraniteAuthImsImplIMSInstanceCredentialsValidatorProperties = (ComAdobeGraniteAuthImsImplIMSInstanceCredentialsValidatorProperties) o;
-    return Objects.equals(oauthProviderId, comAdobeGraniteAuthImsImplIMSInstanceCredentialsValidatorProperties.oauthProviderId);
+    return Objects.equals(this.oauthProviderId, comAdobeGraniteAuthImsImplIMSInstanceCredentialsValidatorProperties.oauthProviderId);
   }
 
   @Override
@@ -63,11 +76,9 @@ public class ComAdobeGraniteAuthImsImplIMSInstanceCredentialsValidatorProperties
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

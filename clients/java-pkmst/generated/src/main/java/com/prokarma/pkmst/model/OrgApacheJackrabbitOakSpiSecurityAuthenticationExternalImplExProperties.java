@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyInteger;
 import com.prokarma.pkmst.model.ConfigNodePropertyString;
 import io.swagger.annotations.ApiModel;
@@ -16,33 +17,32 @@ import io.swagger.annotations.ApiModelProperty;
  * OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExProperties   {
   @JsonProperty("jaas.ranking")
-  private ConfigNodePropertyInteger jaasRanking = null;
+  private ConfigNodePropertyInteger jaasRanking;
 
   @JsonProperty("jaas.controlFlag")
-  private ConfigNodePropertyString jaasControlFlag = null;
+  private ConfigNodePropertyString jaasControlFlag;
 
   @JsonProperty("jaas.realmName")
-  private ConfigNodePropertyString jaasRealmName = null;
+  private ConfigNodePropertyString jaasRealmName;
 
   @JsonProperty("idp.name")
-  private ConfigNodePropertyString idpName = null;
+  private ConfigNodePropertyString idpName;
 
   @JsonProperty("sync.handlerName")
-  private ConfigNodePropertyString syncHandlerName = null;
+  private ConfigNodePropertyString syncHandlerName;
 
   public OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExProperties jaasRanking(ConfigNodePropertyInteger jaasRanking) {
     this.jaasRanking = jaasRanking;
     return this;
   }
 
-   /**
+  /**
    * Get jaasRanking
    * @return jaasRanking
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getJaasRanking() {
     return jaasRanking;
@@ -57,10 +57,10 @@ public class OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExProper
     return this;
   }
 
-   /**
+  /**
    * Get jaasControlFlag
    * @return jaasControlFlag
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getJaasControlFlag() {
     return jaasControlFlag;
@@ -75,10 +75,10 @@ public class OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExProper
     return this;
   }
 
-   /**
+  /**
    * Get jaasRealmName
    * @return jaasRealmName
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getJaasRealmName() {
     return jaasRealmName;
@@ -93,10 +93,10 @@ public class OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExProper
     return this;
   }
 
-   /**
+  /**
    * Get idpName
    * @return idpName
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getIdpName() {
     return idpName;
@@ -111,10 +111,10 @@ public class OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExProper
     return this;
   }
 
-   /**
+  /**
    * Get syncHandlerName
    * @return syncHandlerName
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getSyncHandlerName() {
     return syncHandlerName;
@@ -126,7 +126,7 @@ public class OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExProper
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -164,11 +164,8 @@ public class OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExProper
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

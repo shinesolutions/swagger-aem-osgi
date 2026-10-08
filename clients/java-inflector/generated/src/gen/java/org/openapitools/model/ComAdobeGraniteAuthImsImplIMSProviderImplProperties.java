@@ -3,6 +3,7 @@ package org.openapitools.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
@@ -13,46 +14,46 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaInflectorServerCodegen", date = "2019-08-05T00:53:46.291Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaInflectorServerCodegen", date = "2026-10-07T12:53:12.340274163Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteAuthImsImplIMSProviderImplProperties   {
   @JsonProperty("oauth.provider.id")
-  private ConfigNodePropertyString oauthProviderId = null;
+  private ConfigNodePropertyString oauthProviderId;
 
   @JsonProperty("oauth.provider.ims.authorization.url")
-  private ConfigNodePropertyString oauthProviderImsAuthorizationUrl = null;
+  private ConfigNodePropertyString oauthProviderImsAuthorizationUrl;
 
   @JsonProperty("oauth.provider.ims.token.url")
-  private ConfigNodePropertyString oauthProviderImsTokenUrl = null;
+  private ConfigNodePropertyString oauthProviderImsTokenUrl;
 
   @JsonProperty("oauth.provider.ims.profile.url")
-  private ConfigNodePropertyString oauthProviderImsProfileUrl = null;
+  private ConfigNodePropertyString oauthProviderImsProfileUrl;
 
   @JsonProperty("oauth.provider.ims.extended.details.urls")
-  private ConfigNodePropertyArray oauthProviderImsExtendedDetailsUrls = null;
+  private ConfigNodePropertyArray oauthProviderImsExtendedDetailsUrls;
 
   @JsonProperty("oauth.provider.ims.validate.token.url")
-  private ConfigNodePropertyString oauthProviderImsValidateTokenUrl = null;
+  private ConfigNodePropertyString oauthProviderImsValidateTokenUrl;
 
   @JsonProperty("oauth.provider.ims.session.property")
-  private ConfigNodePropertyString oauthProviderImsSessionProperty = null;
+  private ConfigNodePropertyString oauthProviderImsSessionProperty;
 
   @JsonProperty("oauth.provider.ims.service.token.client.id")
-  private ConfigNodePropertyString oauthProviderImsServiceTokenClientId = null;
+  private ConfigNodePropertyString oauthProviderImsServiceTokenClientId;
 
   @JsonProperty("oauth.provider.ims.service.token.client.secret")
-  private ConfigNodePropertyString oauthProviderImsServiceTokenClientSecret = null;
+  private ConfigNodePropertyString oauthProviderImsServiceTokenClientSecret;
 
   @JsonProperty("oauth.provider.ims.service.token")
-  private ConfigNodePropertyString oauthProviderImsServiceToken = null;
+  private ConfigNodePropertyString oauthProviderImsServiceToken;
 
   @JsonProperty("ims.org.ref")
-  private ConfigNodePropertyString imsOrgRef = null;
+  private ConfigNodePropertyString imsOrgRef;
 
   @JsonProperty("ims.group.mapping")
-  private ConfigNodePropertyArray imsGroupMapping = null;
+  private ConfigNodePropertyArray imsGroupMapping;
 
   @JsonProperty("oauth.provider.ims.only.license.group")
-  private ConfigNodePropertyBoolean oauthProviderImsOnlyLicenseGroup = null;
+  private ConfigNodePropertyBoolean oauthProviderImsOnlyLicenseGroup;
 
   /**
    **/
@@ -277,7 +278,7 @@ public class ComAdobeGraniteAuthImsImplIMSProviderImplProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -331,11 +332,8 @@ public class ComAdobeGraniteAuthImsImplIMSProviderImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

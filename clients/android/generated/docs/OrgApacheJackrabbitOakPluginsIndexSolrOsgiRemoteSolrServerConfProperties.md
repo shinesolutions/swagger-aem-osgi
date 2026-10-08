@@ -1,7 +1,9 @@
 
+
 # OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **solrHttpUrl** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
@@ -12,6 +14,7 @@ Name | Type | Description | Notes
 **solrShardsNo** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
 **solrReplicationFactor** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
 **solrConfDir** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
+
 
 
 

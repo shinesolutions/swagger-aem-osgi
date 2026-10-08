@@ -8,12 +8,12 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class OrgApacheJackrabbitOakPluginsIndexAsyncIndexerServiceProperties {
-    ConfigNodePropertyArray asyncConfigs = null
-
-    ConfigNodePropertyInteger leaseTimeOutMinutes = null
-
-    ConfigNodePropertyInteger failingIndexTimeoutSeconds = null
-
-    ConfigNodePropertyInteger errorWarnIntervalSeconds = null
-
+    
+    ConfigNodePropertyArray asyncConfigs
+    
+    ConfigNodePropertyInteger leaseTimeOutMinutes
+    
+    ConfigNodePropertyInteger failingIndexTimeoutSeconds
+    
+    ConfigNodePropertyInteger errorWarnIntervalSeconds
 }

@@ -1,20 +1,31 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comAdobeGraniteDistributionCoreImplCryptoDistributionTransportSeProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSeProperties   {
-  
-  private @Valid ConfigNodePropertyString name = null;
-  private @Valid ConfigNodePropertyString username = null;
-  private @Valid ConfigNodePropertyString encryptedPassword = null;
+  private ConfigNodePropertyString name;
+  private ConfigNodePropertyString username;
+  private ConfigNodePropertyString encryptedPassword;
+
+  public ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSeProperties() {
+  }
 
   /**
    **/
@@ -26,9 +37,11 @@ public class ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSePro
   
   @ApiModelProperty(value = "")
   @JsonProperty("name")
-  public ConfigNodePropertyString getName() {
+  @Valid public ConfigNodePropertyString getName() {
     return name;
   }
+
+  @JsonProperty("name")
   public void setName(ConfigNodePropertyString name) {
     this.name = name;
   }
@@ -43,9 +56,11 @@ public class ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSePro
   
   @ApiModelProperty(value = "")
   @JsonProperty("username")
-  public ConfigNodePropertyString getUsername() {
+  @Valid public ConfigNodePropertyString getUsername() {
     return username;
   }
+
+  @JsonProperty("username")
   public void setUsername(ConfigNodePropertyString username) {
     this.username = username;
   }
@@ -60,16 +75,18 @@ public class ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSePro
   
   @ApiModelProperty(value = "")
   @JsonProperty("encryptedPassword")
-  public ConfigNodePropertyString getEncryptedPassword() {
+  @Valid public ConfigNodePropertyString getEncryptedPassword() {
     return encryptedPassword;
   }
+
+  @JsonProperty("encryptedPassword")
   public void setEncryptedPassword(ConfigNodePropertyString encryptedPassword) {
     this.encryptedPassword = encryptedPassword;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -77,9 +94,9 @@ public class ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSePro
       return false;
     }
     ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSeProperties comAdobeGraniteDistributionCoreImplCryptoDistributionTransportSeProperties = (ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSeProperties) o;
-    return Objects.equals(name, comAdobeGraniteDistributionCoreImplCryptoDistributionTransportSeProperties.name) &&
-        Objects.equals(username, comAdobeGraniteDistributionCoreImplCryptoDistributionTransportSeProperties.username) &&
-        Objects.equals(encryptedPassword, comAdobeGraniteDistributionCoreImplCryptoDistributionTransportSeProperties.encryptedPassword);
+    return Objects.equals(this.name, comAdobeGraniteDistributionCoreImplCryptoDistributionTransportSeProperties.name) &&
+        Objects.equals(this.username, comAdobeGraniteDistributionCoreImplCryptoDistributionTransportSeProperties.username) &&
+        Objects.equals(this.encryptedPassword, comAdobeGraniteDistributionCoreImplCryptoDistributionTransportSeProperties.encryptedPassword);
   }
 
   @Override
@@ -103,11 +120,9 @@ public class ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSePro
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

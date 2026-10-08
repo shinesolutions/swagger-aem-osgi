@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeGraniteRestImplApiEndpointResourceProvider
 
 @Canonical
 class ComAdobeGraniteRestImplApiEndpointResourceProviderFactoryImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteRestImplApiEndpointResourceProviderFactoryImplProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteRestImplApiEndpointResourceProviderFactoryImplProperties properties
 }

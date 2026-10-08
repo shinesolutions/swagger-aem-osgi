@@ -72,9 +72,9 @@ private class OASOrgApacheSlingI18nImplJcrResourceTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASOrgApacheSlingI18nImplJcrResource orgApacheSlingI18nImplJcrResourceBundleProviderProperties = new OASOrgApacheSlingI18nImplJcrResource();
-        Map<String, String> propertyMappings = orgApacheSlingI18nImplJcrResourceBundleProviderProperties.getPropertyMappings();
-        System.assertEquals('localeDefault', propertyMappings.get('locale.default'));
-        System.assertEquals('preloadBundles', propertyMappings.get('preload.bundles'));
-        System.assertEquals('invalidationDelay', propertyMappings.get('invalidation.delay'));
+        Map<String, String> x-property-mappings = orgApacheSlingI18nImplJcrResourceBundleProviderProperties.getx-property-mappings();
+        System.assertEquals('localeDefault', x-property-mappings.get('locale.default'));
+        System.assertEquals('preloadBundles', x-property-mappings.get('preload.bundles'));
+        System.assertEquals('invalidationDelay', x-property-mappings.get('invalidation.delay'));
     }
 }

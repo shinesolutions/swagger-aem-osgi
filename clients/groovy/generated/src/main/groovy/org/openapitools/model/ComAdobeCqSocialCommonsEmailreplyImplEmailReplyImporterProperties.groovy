@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyDropDown;
 
 @Canonical
 class ComAdobeCqSocialCommonsEmailreplyImplEmailReplyImporterProperties {
-    ConfigNodePropertyDropDown connectProtocol = null
-
+    
+    ConfigNodePropertyDropDown connectProtocol
 }

@@ -1,28 +1,39 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComDayCqWcmFoundationFormsImplFormsHandlingServletProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComDayCqWcmFoundationFormsImplFormsHandlingServletProperties   {
-  @JsonProperty("name.whitelist")
-  private ConfigNodePropertyString nameWhitelist = null;
+@JsonTypeName("comDayCqWcmFoundationFormsImplFormsHandlingServletProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComDayCqWcmFoundationFormsImplFormsHandlingServletProperties {
 
-  @JsonProperty("allow.expressions")
-  private ConfigNodePropertyBoolean allowExpressions = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString nameWhitelist;
 
-  public ComDayCqWcmFoundationFormsImplFormsHandlingServletProperties nameWhitelist(ConfigNodePropertyString nameWhitelist) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean allowExpressions;
+
+  public ComDayCqWcmFoundationFormsImplFormsHandlingServletProperties nameWhitelist(@Nullable ConfigNodePropertyString nameWhitelist) {
     this.nameWhitelist = nameWhitelist;
     return this;
   }
@@ -30,20 +41,20 @@ public class ComDayCqWcmFoundationFormsImplFormsHandlingServletProperties   {
   /**
    * Get nameWhitelist
    * @return nameWhitelist
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getNameWhitelist() {
+   */
+  @Valid 
+  @Schema(name = "name.whitelist", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("name.whitelist")
+  public @Nullable ConfigNodePropertyString getNameWhitelist() {
     return nameWhitelist;
   }
 
-  public void setNameWhitelist(ConfigNodePropertyString nameWhitelist) {
+  @JsonProperty("name.whitelist")
+  public void setNameWhitelist(@Nullable ConfigNodePropertyString nameWhitelist) {
     this.nameWhitelist = nameWhitelist;
   }
 
-  public ComDayCqWcmFoundationFormsImplFormsHandlingServletProperties allowExpressions(ConfigNodePropertyBoolean allowExpressions) {
+  public ComDayCqWcmFoundationFormsImplFormsHandlingServletProperties allowExpressions(@Nullable ConfigNodePropertyBoolean allowExpressions) {
     this.allowExpressions = allowExpressions;
     return this;
   }
@@ -51,22 +62,21 @@ public class ComDayCqWcmFoundationFormsImplFormsHandlingServletProperties   {
   /**
    * Get allowExpressions
    * @return allowExpressions
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getAllowExpressions() {
+   */
+  @Valid 
+  @Schema(name = "allow.expressions", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("allow.expressions")
+  public @Nullable ConfigNodePropertyBoolean getAllowExpressions() {
     return allowExpressions;
   }
 
-  public void setAllowExpressions(ConfigNodePropertyBoolean allowExpressions) {
+  @JsonProperty("allow.expressions")
+  public void setAllowExpressions(@Nullable ConfigNodePropertyBoolean allowExpressions) {
     this.allowExpressions = allowExpressions;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -87,7 +97,6 @@ public class ComDayCqWcmFoundationFormsImplFormsHandlingServletProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComDayCqWcmFoundationFormsImplFormsHandlingServletProperties {\n");
-    
     sb.append("    nameWhitelist: ").append(toIndentedString(nameWhitelist)).append("\n");
     sb.append("    allowExpressions: ").append(toIndentedString(allowExpressions)).append("\n");
     sb.append("}");
@@ -98,11 +107,8 @@ public class ComDayCqWcmFoundationFormsImplFormsHandlingServletProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

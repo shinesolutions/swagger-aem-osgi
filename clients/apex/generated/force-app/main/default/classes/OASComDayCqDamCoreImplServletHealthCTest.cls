@@ -72,8 +72,8 @@ private class OASComDayCqDamCoreImplServletHealthCTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqDamCoreImplServletHealthC comDayCqDamCoreImplServletHealthCheckServletProperties = new OASComDayCqDamCoreImplServletHealthC();
-        Map<String, String> propertyMappings = comDayCqDamCoreImplServletHealthCheckServletProperties.getPropertyMappings();
-        System.assertEquals('cqDamSyncWorkflowId', propertyMappings.get('cq.dam.sync.workflow.id'));
-        System.assertEquals('cqDamSyncFolderTypes', propertyMappings.get('cq.dam.sync.folder.types'));
+        Map<String, String> x-property-mappings = comDayCqDamCoreImplServletHealthCheckServletProperties.getx-property-mappings();
+        System.assertEquals('cqDamSyncWorkflowId', x-property-mappings.get('cq.dam.sync.workflow.id'));
+        System.assertEquals('cqDamSyncFolderTypes', x-property-mappings.get('cq.dam.sync.folder.types'));
     }
 }

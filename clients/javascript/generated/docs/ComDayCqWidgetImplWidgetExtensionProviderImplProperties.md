@@ -1,6 +1,7 @@
 # NodeSwaggerAemOsgi.ComDayCqWidgetImplWidgetExtensionProviderImplProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **extendableWidgets** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 

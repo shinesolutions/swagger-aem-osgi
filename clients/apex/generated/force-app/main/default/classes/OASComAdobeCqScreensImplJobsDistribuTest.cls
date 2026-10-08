@@ -72,7 +72,7 @@ private class OASComAdobeCqScreensImplJobsDistribuTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeCqScreensImplJobsDistribu comAdobeCqScreensImplJobsDistributedDevicesStatiUpdateJobProperties = new OASComAdobeCqScreensImplJobsDistribu();
-        Map<String, String> propertyMappings = comAdobeCqScreensImplJobsDistributedDevicesStatiUpdateJobProperties.getPropertyMappings();
-        System.assertEquals('schedulerExpression', propertyMappings.get('scheduler.expression'));
+        Map<String, String> x-property-mappings = comAdobeCqScreensImplJobsDistributedDevicesStatiUpdateJobProperties.getx-property-mappings();
+        System.assertEquals('schedulerExpression', x-property-mappings.get('scheduler.expression'));
     }
 }

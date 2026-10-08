@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqMailerImplCqMailingServiceProperties {
-    ConfigNodePropertyString maxRecipientCount = null
-
+    
+    ConfigNodePropertyString maxRecipientCount
 }

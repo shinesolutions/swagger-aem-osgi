@@ -1,23 +1,34 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ComDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListenerProperties;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListenerInfo")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListenerInfo   {
-  
-  private @Valid String pid = null;
-  private @Valid String title = null;
-  private @Valid String description = null;
-  private @Valid ComDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListenerProperties properties = null;
-  private @Valid String bundleLocation = null;
-  private @Valid String serviceLocation = null;
+  private String pid;
+  private String title;
+  private String description;
+  private ComDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListenerProperties properties;
+  private String bundleLocation;
+  private String serviceLocation;
+
+  public ComDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListenerInfo() {
+  }
 
   /**
    **/
@@ -32,6 +43,8 @@ public class ComDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListenerInf
   public String getPid() {
     return pid;
   }
+
+  @JsonProperty("pid")
   public void setPid(String pid) {
     this.pid = pid;
   }
@@ -49,6 +62,8 @@ public class ComDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListenerInf
   public String getTitle() {
     return title;
   }
+
+  @JsonProperty("title")
   public void setTitle(String title) {
     this.title = title;
   }
@@ -66,6 +81,8 @@ public class ComDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListenerInf
   public String getDescription() {
     return description;
   }
+
+  @JsonProperty("description")
   public void setDescription(String description) {
     this.description = description;
   }
@@ -80,9 +97,11 @@ public class ComDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListenerInf
   
   @ApiModelProperty(value = "")
   @JsonProperty("properties")
-  public ComDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListenerProperties getProperties() {
+  @Valid public ComDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListenerProperties getProperties() {
     return properties;
   }
+
+  @JsonProperty("properties")
   public void setProperties(ComDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListenerProperties properties) {
     this.properties = properties;
   }
@@ -100,6 +119,8 @@ public class ComDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListenerInf
   public String getBundleLocation() {
     return bundleLocation;
   }
+
+  @JsonProperty("bundle_location")
   public void setBundleLocation(String bundleLocation) {
     this.bundleLocation = bundleLocation;
   }
@@ -117,13 +138,15 @@ public class ComDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListenerInf
   public String getServiceLocation() {
     return serviceLocation;
   }
+
+  @JsonProperty("service_location")
   public void setServiceLocation(String serviceLocation) {
     this.serviceLocation = serviceLocation;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -131,12 +154,12 @@ public class ComDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListenerInf
       return false;
     }
     ComDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListenerInfo comDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListenerInfo = (ComDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListenerInfo) o;
-    return Objects.equals(pid, comDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListenerInfo.pid) &&
-        Objects.equals(title, comDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListenerInfo.title) &&
-        Objects.equals(description, comDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListenerInfo.description) &&
-        Objects.equals(properties, comDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListenerInfo.properties) &&
-        Objects.equals(bundleLocation, comDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListenerInfo.bundleLocation) &&
-        Objects.equals(serviceLocation, comDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListenerInfo.serviceLocation);
+    return Objects.equals(this.pid, comDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListenerInfo.pid) &&
+        Objects.equals(this.title, comDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListenerInfo.title) &&
+        Objects.equals(this.description, comDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListenerInfo.description) &&
+        Objects.equals(this.properties, comDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListenerInfo.properties) &&
+        Objects.equals(this.bundleLocation, comDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListenerInfo.bundleLocation) &&
+        Objects.equals(this.serviceLocation, comDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListenerInfo.serviceLocation);
   }
 
   @Override
@@ -163,11 +186,9 @@ public class ComDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListenerInf
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

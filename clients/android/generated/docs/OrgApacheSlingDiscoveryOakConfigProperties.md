@@ -1,7 +1,9 @@
 
+
 # OrgApacheSlingDiscoveryOakConfigProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **connectorPingTimeout** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
@@ -23,6 +25,7 @@ Name | Type | Description | Notes
 **hmacSharedKeyTTL** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
 **backoffStandbyFactor** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
 **backoffStableFactor** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
+
 
 
 

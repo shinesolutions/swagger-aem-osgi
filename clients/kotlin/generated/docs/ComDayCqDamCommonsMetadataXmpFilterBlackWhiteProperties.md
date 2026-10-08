@@ -2,12 +2,12 @@
 # ComDayCqDamCommonsMetadataXmpFilterBlackWhiteProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**xmpPeriodfilterPeriodapplyUnderscorewhitelist** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**xmpPeriodfilterPeriodwhitelist** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**xmpPeriodfilterPeriodapplyUnderscoreblacklist** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**xmpPeriodfilterPeriodblacklist** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **xmpFilterApplyWhitelist** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **xmpFilterWhitelist** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **xmpFilterApplyBlacklist** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **xmpFilterBlacklist** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
 
 
 

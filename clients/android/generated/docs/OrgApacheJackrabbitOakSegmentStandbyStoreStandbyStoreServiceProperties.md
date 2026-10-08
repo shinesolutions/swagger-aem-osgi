@@ -1,7 +1,9 @@
 
+
 # OrgApacheJackrabbitOakSegmentStandbyStoreStandbyStoreServiceProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **orgApacheSlingInstallerConfigurationPersist** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
@@ -13,6 +15,7 @@ Name | Type | Description | Notes
 **secure** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
 **standbyReadtimeout** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
 **standbyAutoclean** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
+
 
 
 

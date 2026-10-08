@@ -1,0 +1,53 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqSocialHandlebarsGuavaTemplateCacheImplProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqSocialHandlebarsGuavaTemplateCacheImplProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComAdobeCqSocialHandlebarsGuavaTemplateCacheImplProperties {
+    title = ComAdobeCqSocialHandlebarsGuavaTemplateCacheImplProperties
+    description = ComAdobeCqSocialHandlebarsGuavaTemplateCacheImplProperties
+    derivedFrom = Root
+    properties {
+        parameter_guava_cache_enabled {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        parameter_guava_cache_params {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        parameter_guava_cache_reload {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        service_ranking {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqSocialHandlebarsGuavaTemplateCacheImplProperties {
+    title = ComAdobeCqSocialHandlebarsGuavaTemplateCacheImplProperties
+    description = ComAdobeCqSocialHandlebarsGuavaTemplateCacheImplProperties
+    implements = openapi_server.resourceTypes.ComAdobeCqSocialHandlebarsGuavaTemplateCacheImplProperties
+
+  }
+}

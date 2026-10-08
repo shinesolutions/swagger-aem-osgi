@@ -1,24 +1,35 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyBoolean;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * OrgApacheSlingJcrResourceInternalJcrSystemUserValidatorProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class OrgApacheSlingJcrResourceInternalJcrSystemUserValidatorProperties   {
-  @JsonProperty("allow.only.system.user")
-  private ConfigNodePropertyBoolean allowOnlySystemUser = null;
+@JsonTypeName("orgApacheSlingJcrResourceInternalJcrSystemUserValidatorProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class OrgApacheSlingJcrResourceInternalJcrSystemUserValidatorProperties {
 
-  public OrgApacheSlingJcrResourceInternalJcrSystemUserValidatorProperties allowOnlySystemUser(ConfigNodePropertyBoolean allowOnlySystemUser) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean allowOnlySystemUser;
+
+  public OrgApacheSlingJcrResourceInternalJcrSystemUserValidatorProperties allowOnlySystemUser(@Nullable ConfigNodePropertyBoolean allowOnlySystemUser) {
     this.allowOnlySystemUser = allowOnlySystemUser;
     return this;
   }
@@ -26,22 +37,21 @@ public class OrgApacheSlingJcrResourceInternalJcrSystemUserValidatorProperties  
   /**
    * Get allowOnlySystemUser
    * @return allowOnlySystemUser
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getAllowOnlySystemUser() {
+   */
+  @Valid 
+  @Schema(name = "allow.only.system.user", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("allow.only.system.user")
+  public @Nullable ConfigNodePropertyBoolean getAllowOnlySystemUser() {
     return allowOnlySystemUser;
   }
 
-  public void setAllowOnlySystemUser(ConfigNodePropertyBoolean allowOnlySystemUser) {
+  @JsonProperty("allow.only.system.user")
+  public void setAllowOnlySystemUser(@Nullable ConfigNodePropertyBoolean allowOnlySystemUser) {
     this.allowOnlySystemUser = allowOnlySystemUser;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -61,7 +71,6 @@ public class OrgApacheSlingJcrResourceInternalJcrSystemUserValidatorProperties  
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class OrgApacheSlingJcrResourceInternalJcrSystemUserValidatorProperties {\n");
-    
     sb.append("    allowOnlySystemUser: ").append(toIndentedString(allowOnlySystemUser)).append("\n");
     sb.append("}");
     return sb.toString();
@@ -71,11 +80,8 @@ public class OrgApacheSlingJcrResourceInternalJcrSystemUserValidatorProperties  
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

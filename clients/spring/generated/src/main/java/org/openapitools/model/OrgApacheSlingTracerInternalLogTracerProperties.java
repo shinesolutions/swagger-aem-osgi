@@ -1,44 +1,55 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * OrgApacheSlingTracerInternalLogTracerProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class OrgApacheSlingTracerInternalLogTracerProperties   {
-  @JsonProperty("tracerSets")
-  private ConfigNodePropertyArray tracerSets = null;
+@JsonTypeName("orgApacheSlingTracerInternalLogTracerProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class OrgApacheSlingTracerInternalLogTracerProperties {
 
-  @JsonProperty("enabled")
-  private ConfigNodePropertyBoolean enabled = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray tracerSets;
 
-  @JsonProperty("servletEnabled")
-  private ConfigNodePropertyBoolean servletEnabled = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean enabled;
 
-  @JsonProperty("recordingCacheSizeInMB")
-  private ConfigNodePropertyInteger recordingCacheSizeInMB = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean servletEnabled;
 
-  @JsonProperty("recordingCacheDurationInSecs")
-  private ConfigNodePropertyInteger recordingCacheDurationInSecs = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger recordingCacheSizeInMB;
 
-  @JsonProperty("recordingCompressionEnabled")
-  private ConfigNodePropertyBoolean recordingCompressionEnabled = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger recordingCacheDurationInSecs;
 
-  @JsonProperty("gzipResponse")
-  private ConfigNodePropertyBoolean gzipResponse = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean recordingCompressionEnabled;
 
-  public OrgApacheSlingTracerInternalLogTracerProperties tracerSets(ConfigNodePropertyArray tracerSets) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean gzipResponse;
+
+  public OrgApacheSlingTracerInternalLogTracerProperties tracerSets(@Nullable ConfigNodePropertyArray tracerSets) {
     this.tracerSets = tracerSets;
     return this;
   }
@@ -46,20 +57,20 @@ public class OrgApacheSlingTracerInternalLogTracerProperties   {
   /**
    * Get tracerSets
    * @return tracerSets
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getTracerSets() {
+   */
+  @Valid 
+  @Schema(name = "tracerSets", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("tracerSets")
+  public @Nullable ConfigNodePropertyArray getTracerSets() {
     return tracerSets;
   }
 
-  public void setTracerSets(ConfigNodePropertyArray tracerSets) {
+  @JsonProperty("tracerSets")
+  public void setTracerSets(@Nullable ConfigNodePropertyArray tracerSets) {
     this.tracerSets = tracerSets;
   }
 
-  public OrgApacheSlingTracerInternalLogTracerProperties enabled(ConfigNodePropertyBoolean enabled) {
+  public OrgApacheSlingTracerInternalLogTracerProperties enabled(@Nullable ConfigNodePropertyBoolean enabled) {
     this.enabled = enabled;
     return this;
   }
@@ -67,20 +78,20 @@ public class OrgApacheSlingTracerInternalLogTracerProperties   {
   /**
    * Get enabled
    * @return enabled
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getEnabled() {
+   */
+  @Valid 
+  @Schema(name = "enabled", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("enabled")
+  public @Nullable ConfigNodePropertyBoolean getEnabled() {
     return enabled;
   }
 
-  public void setEnabled(ConfigNodePropertyBoolean enabled) {
+  @JsonProperty("enabled")
+  public void setEnabled(@Nullable ConfigNodePropertyBoolean enabled) {
     this.enabled = enabled;
   }
 
-  public OrgApacheSlingTracerInternalLogTracerProperties servletEnabled(ConfigNodePropertyBoolean servletEnabled) {
+  public OrgApacheSlingTracerInternalLogTracerProperties servletEnabled(@Nullable ConfigNodePropertyBoolean servletEnabled) {
     this.servletEnabled = servletEnabled;
     return this;
   }
@@ -88,20 +99,20 @@ public class OrgApacheSlingTracerInternalLogTracerProperties   {
   /**
    * Get servletEnabled
    * @return servletEnabled
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getServletEnabled() {
+   */
+  @Valid 
+  @Schema(name = "servletEnabled", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("servletEnabled")
+  public @Nullable ConfigNodePropertyBoolean getServletEnabled() {
     return servletEnabled;
   }
 
-  public void setServletEnabled(ConfigNodePropertyBoolean servletEnabled) {
+  @JsonProperty("servletEnabled")
+  public void setServletEnabled(@Nullable ConfigNodePropertyBoolean servletEnabled) {
     this.servletEnabled = servletEnabled;
   }
 
-  public OrgApacheSlingTracerInternalLogTracerProperties recordingCacheSizeInMB(ConfigNodePropertyInteger recordingCacheSizeInMB) {
+  public OrgApacheSlingTracerInternalLogTracerProperties recordingCacheSizeInMB(@Nullable ConfigNodePropertyInteger recordingCacheSizeInMB) {
     this.recordingCacheSizeInMB = recordingCacheSizeInMB;
     return this;
   }
@@ -109,20 +120,20 @@ public class OrgApacheSlingTracerInternalLogTracerProperties   {
   /**
    * Get recordingCacheSizeInMB
    * @return recordingCacheSizeInMB
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getRecordingCacheSizeInMB() {
+   */
+  @Valid 
+  @Schema(name = "recordingCacheSizeInMB", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("recordingCacheSizeInMB")
+  public @Nullable ConfigNodePropertyInteger getRecordingCacheSizeInMB() {
     return recordingCacheSizeInMB;
   }
 
-  public void setRecordingCacheSizeInMB(ConfigNodePropertyInteger recordingCacheSizeInMB) {
+  @JsonProperty("recordingCacheSizeInMB")
+  public void setRecordingCacheSizeInMB(@Nullable ConfigNodePropertyInteger recordingCacheSizeInMB) {
     this.recordingCacheSizeInMB = recordingCacheSizeInMB;
   }
 
-  public OrgApacheSlingTracerInternalLogTracerProperties recordingCacheDurationInSecs(ConfigNodePropertyInteger recordingCacheDurationInSecs) {
+  public OrgApacheSlingTracerInternalLogTracerProperties recordingCacheDurationInSecs(@Nullable ConfigNodePropertyInteger recordingCacheDurationInSecs) {
     this.recordingCacheDurationInSecs = recordingCacheDurationInSecs;
     return this;
   }
@@ -130,20 +141,20 @@ public class OrgApacheSlingTracerInternalLogTracerProperties   {
   /**
    * Get recordingCacheDurationInSecs
    * @return recordingCacheDurationInSecs
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getRecordingCacheDurationInSecs() {
+   */
+  @Valid 
+  @Schema(name = "recordingCacheDurationInSecs", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("recordingCacheDurationInSecs")
+  public @Nullable ConfigNodePropertyInteger getRecordingCacheDurationInSecs() {
     return recordingCacheDurationInSecs;
   }
 
-  public void setRecordingCacheDurationInSecs(ConfigNodePropertyInteger recordingCacheDurationInSecs) {
+  @JsonProperty("recordingCacheDurationInSecs")
+  public void setRecordingCacheDurationInSecs(@Nullable ConfigNodePropertyInteger recordingCacheDurationInSecs) {
     this.recordingCacheDurationInSecs = recordingCacheDurationInSecs;
   }
 
-  public OrgApacheSlingTracerInternalLogTracerProperties recordingCompressionEnabled(ConfigNodePropertyBoolean recordingCompressionEnabled) {
+  public OrgApacheSlingTracerInternalLogTracerProperties recordingCompressionEnabled(@Nullable ConfigNodePropertyBoolean recordingCompressionEnabled) {
     this.recordingCompressionEnabled = recordingCompressionEnabled;
     return this;
   }
@@ -151,20 +162,20 @@ public class OrgApacheSlingTracerInternalLogTracerProperties   {
   /**
    * Get recordingCompressionEnabled
    * @return recordingCompressionEnabled
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getRecordingCompressionEnabled() {
+   */
+  @Valid 
+  @Schema(name = "recordingCompressionEnabled", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("recordingCompressionEnabled")
+  public @Nullable ConfigNodePropertyBoolean getRecordingCompressionEnabled() {
     return recordingCompressionEnabled;
   }
 
-  public void setRecordingCompressionEnabled(ConfigNodePropertyBoolean recordingCompressionEnabled) {
+  @JsonProperty("recordingCompressionEnabled")
+  public void setRecordingCompressionEnabled(@Nullable ConfigNodePropertyBoolean recordingCompressionEnabled) {
     this.recordingCompressionEnabled = recordingCompressionEnabled;
   }
 
-  public OrgApacheSlingTracerInternalLogTracerProperties gzipResponse(ConfigNodePropertyBoolean gzipResponse) {
+  public OrgApacheSlingTracerInternalLogTracerProperties gzipResponse(@Nullable ConfigNodePropertyBoolean gzipResponse) {
     this.gzipResponse = gzipResponse;
     return this;
   }
@@ -172,22 +183,21 @@ public class OrgApacheSlingTracerInternalLogTracerProperties   {
   /**
    * Get gzipResponse
    * @return gzipResponse
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getGzipResponse() {
+   */
+  @Valid 
+  @Schema(name = "gzipResponse", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("gzipResponse")
+  public @Nullable ConfigNodePropertyBoolean getGzipResponse() {
     return gzipResponse;
   }
 
-  public void setGzipResponse(ConfigNodePropertyBoolean gzipResponse) {
+  @JsonProperty("gzipResponse")
+  public void setGzipResponse(@Nullable ConfigNodePropertyBoolean gzipResponse) {
     this.gzipResponse = gzipResponse;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -213,7 +223,6 @@ public class OrgApacheSlingTracerInternalLogTracerProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class OrgApacheSlingTracerInternalLogTracerProperties {\n");
-    
     sb.append("    tracerSets: ").append(toIndentedString(tracerSets)).append("\n");
     sb.append("    enabled: ").append(toIndentedString(enabled)).append("\n");
     sb.append("    servletEnabled: ").append(toIndentedString(servletEnabled)).append("\n");
@@ -229,11 +238,8 @@ public class OrgApacheSlingTracerInternalLogTracerProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

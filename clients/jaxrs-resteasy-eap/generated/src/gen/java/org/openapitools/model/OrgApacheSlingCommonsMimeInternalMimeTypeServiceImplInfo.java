@@ -4,28 +4,23 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2019-08-05T01:00:05.540Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2026-10-07T12:54:26.576036107Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfo   {
   
-
-  private String pid = null;
-
-  private String title = null;
-
-  private String description = null;
-
-  private OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplProperties properties = null;
-
-  private String bundleLocation = null;
-
-  private String serviceLocation = null;
+  private String pid;
+  private String title;
+  private String description;
+  private OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplProperties properties;
+  private String bundleLocation;
+  private String serviceLocation;
 
   /**
    **/
@@ -109,12 +104,12 @@ public class OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfo   {
       return false;
     }
     OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfo orgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfo = (OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfo) o;
-    return Objects.equals(pid, orgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfo.pid) &&
-        Objects.equals(title, orgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfo.title) &&
-        Objects.equals(description, orgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfo.description) &&
-        Objects.equals(properties, orgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfo.properties) &&
-        Objects.equals(bundleLocation, orgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfo.bundleLocation) &&
-        Objects.equals(serviceLocation, orgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfo.serviceLocation);
+    return Objects.equals(this.pid, orgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfo.pid) &&
+        Objects.equals(this.title, orgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfo.title) &&
+        Objects.equals(this.description, orgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfo.description) &&
+        Objects.equals(this.properties, orgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfo.properties) &&
+        Objects.equals(this.bundleLocation, orgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfo.bundleLocation) &&
+        Objects.equals(this.serviceLocation, orgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfo.serviceLocation);
   }
 
   @Override
@@ -142,10 +137,7 @@ public class OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfo   {
    * (except the first line).
    */
   private String toIndentedString(Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -1,18 +1,29 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("orgApacheSlingCommonsMimeInternalMimeTypeServiceImplProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplProperties   {
-  
-  private @Valid ConfigNodePropertyArray mimeTypes = null;
+  private ConfigNodePropertyArray mimeTypes;
+
+  public OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplProperties() {
+  }
 
   /**
    **/
@@ -24,16 +35,18 @@ public class OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("mime.types")
-  public ConfigNodePropertyArray getMimeTypes() {
+  @Valid public ConfigNodePropertyArray getMimeTypes() {
     return mimeTypes;
   }
+
+  @JsonProperty("mime.types")
   public void setMimeTypes(ConfigNodePropertyArray mimeTypes) {
     this.mimeTypes = mimeTypes;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -41,7 +54,7 @@ public class OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplProperties   {
       return false;
     }
     OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplProperties orgApacheSlingCommonsMimeInternalMimeTypeServiceImplProperties = (OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplProperties) o;
-    return Objects.equals(mimeTypes, orgApacheSlingCommonsMimeInternalMimeTypeServiceImplProperties.mimeTypes);
+    return Objects.equals(this.mimeTypes, orgApacheSlingCommonsMimeInternalMimeTypeServiceImplProperties.mimeTypes);
   }
 
   @Override
@@ -63,11 +76,9 @@ public class OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

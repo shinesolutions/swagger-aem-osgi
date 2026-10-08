@@ -10,14 +10,14 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeCqCdnRewriterImplCDNConfigServiceImplProperties {
-    ConfigNodePropertyString cdnConfigDistributionDomain = null
-
-    ConfigNodePropertyBoolean cdnConfigEnableRewriting = null
-
-    ConfigNodePropertyArray cdnConfigPathPrefixes = null
-
-    ConfigNodePropertyInteger cdnConfigCdnttl = null
-
-    ConfigNodePropertyString cdnConfigApplicationProtocol = null
-
+    
+    ConfigNodePropertyString cdnConfigDistributionDomain
+    
+    ConfigNodePropertyBoolean cdnConfigEnableRewriting
+    
+    ConfigNodePropertyArray cdnConfigPathPrefixes
+    
+    ConfigNodePropertyInteger cdnConfigCdnttl
+    
+    ConfigNodePropertyString cdnConfigApplicationProtocol
 }

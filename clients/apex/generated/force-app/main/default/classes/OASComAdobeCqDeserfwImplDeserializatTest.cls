@@ -72,9 +72,9 @@ private class OASComAdobeCqDeserfwImplDeserializatTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeCqDeserfwImplDeserializat comAdobeCqDeserfwImplDeserializationFirewallImplProperties = new OASComAdobeCqDeserfwImplDeserializat();
-        Map<String, String> propertyMappings = comAdobeCqDeserfwImplDeserializationFirewallImplProperties.getPropertyMappings();
-        System.assertEquals('firewallDeserializationWhitelist', propertyMappings.get('firewall.deserialization.whitelist'));
-        System.assertEquals('firewallDeserializationBlacklist', propertyMappings.get('firewall.deserialization.blacklist'));
-        System.assertEquals('firewallDeserializationDiagnostics', propertyMappings.get('firewall.deserialization.diagnostics'));
+        Map<String, String> x-property-mappings = comAdobeCqDeserfwImplDeserializationFirewallImplProperties.getx-property-mappings();
+        System.assertEquals('firewallDeserializationWhitelist', x-property-mappings.get('firewall.deserialization.whitelist'));
+        System.assertEquals('firewallDeserializationBlacklist', x-property-mappings.get('firewall.deserialization.blacklist'));
+        System.assertEquals('firewallDeserializationDiagnostics', x-property-mappings.get('firewall.deserialization.diagnostics'));
     }
 }

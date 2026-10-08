@@ -72,8 +72,8 @@ private class OASOrgApacheSlingServiceusermappingITest {
     @isTest
     private static void maintainRenamedProperties() {
         OASOrgApacheSlingServiceusermappingI orgApacheSlingServiceusermappingImplServiceUserMapperImplAmendedProperties = new OASOrgApacheSlingServiceusermappingI();
-        Map<String, String> propertyMappings = orgApacheSlingServiceusermappingImplServiceUserMapperImplAmendedProperties.getPropertyMappings();
-        System.assertEquals('serviceRanking', propertyMappings.get('service.ranking'));
-        System.assertEquals('userMapping', propertyMappings.get('user.mapping'));
+        Map<String, String> x-property-mappings = orgApacheSlingServiceusermappingImplServiceUserMapperImplAmendedProperties.getx-property-mappings();
+        System.assertEquals('serviceRanking', x-property-mappings.get('service.ranking'));
+        System.assertEquals('userMapping', x-property-mappings.get('user.mapping'));
     }
 }

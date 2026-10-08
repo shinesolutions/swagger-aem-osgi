@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeGraniteSocialgraphImplSocialGraphFactoryIm
 
 @Canonical
 class ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplProperties properties
 }

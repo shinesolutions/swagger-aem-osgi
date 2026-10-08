@@ -1,0 +1,6 @@
+package models
+
+type ComDayCqWcmCoreImplReferencesContentContentReferenceConfigProperties struct {
+
+	ContentReferenceConfigResourceTypes ConfigNodePropertyArray `json:"contentReferenceConfig.resourceTypes,omitempty"`
+}

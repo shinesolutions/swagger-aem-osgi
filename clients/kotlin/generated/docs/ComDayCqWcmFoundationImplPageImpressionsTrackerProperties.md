@@ -2,9 +2,9 @@
 # ComDayCqWcmFoundationImplPageImpressionsTrackerProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**slingPeriodauthPeriodrequirements** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **slingAuthRequirements** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
 
 
 

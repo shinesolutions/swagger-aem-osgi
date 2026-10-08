@@ -7,8 +7,8 @@ import org.openapitools.model.ConfigNodePropertyArray;
 
 @Canonical
 class ComAdobeCqDamCfmImplConfFeatureConfigImplProperties {
-    ConfigNodePropertyArray damCfmResourceTypes = null
-
-    ConfigNodePropertyArray damCfmReferenceProperties = null
-
+    
+    ConfigNodePropertyArray damCfmResourceTypes
+    
+    ConfigNodePropertyArray damCfmReferenceProperties
 }

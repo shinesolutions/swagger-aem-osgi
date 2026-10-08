@@ -72,9 +72,9 @@ private class OASComAdobeCqWcmJobsAsyncImplAsyncJoTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeCqWcmJobsAsyncImplAsyncJo comAdobeCqWcmJobsAsyncImplAsyncJobCleanUpTaskProperties = new OASComAdobeCqWcmJobsAsyncImplAsyncJo();
-        Map<String, String> propertyMappings = comAdobeCqWcmJobsAsyncImplAsyncJobCleanUpTaskProperties.getPropertyMappings();
-        System.assertEquals('schedulerExpression', propertyMappings.get('scheduler.expression'));
-        System.assertEquals('jobPurgeThreshold', propertyMappings.get('job.purge.threshold'));
-        System.assertEquals('jobPurgeMaxJobs', propertyMappings.get('job.purge.max.jobs'));
+        Map<String, String> x-property-mappings = comAdobeCqWcmJobsAsyncImplAsyncJobCleanUpTaskProperties.getx-property-mappings();
+        System.assertEquals('schedulerExpression', x-property-mappings.get('scheduler.expression'));
+        System.assertEquals('jobPurgeThreshold', x-property-mappings.get('job.purge.threshold'));
+        System.assertEquals('jobPurgeMaxJobs', x-property-mappings.get('job.purge.max.jobs'));
     }
 }

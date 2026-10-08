@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyBoolean;
 import com.prokarma.pkmst.model.ConfigNodePropertyInteger;
 import io.swagger.annotations.ApiModel;
@@ -16,27 +17,26 @@ import io.swagger.annotations.ApiModelProperty;
  * ComAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJobProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJobProperties   {
   @JsonProperty("cq.dam.webdav.version.linking.enable")
-  private ConfigNodePropertyBoolean cqDamWebdavVersionLinkingEnable = null;
+  private ConfigNodePropertyBoolean cqDamWebdavVersionLinkingEnable;
 
   @JsonProperty("cq.dam.webdav.version.linking.scheduler.period")
-  private ConfigNodePropertyInteger cqDamWebdavVersionLinkingSchedulerPeriod = null;
+  private ConfigNodePropertyInteger cqDamWebdavVersionLinkingSchedulerPeriod;
 
   @JsonProperty("cq.dam.webdav.version.linking.staging.timeout")
-  private ConfigNodePropertyInteger cqDamWebdavVersionLinkingStagingTimeout = null;
+  private ConfigNodePropertyInteger cqDamWebdavVersionLinkingStagingTimeout;
 
   public ComAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJobProperties cqDamWebdavVersionLinkingEnable(ConfigNodePropertyBoolean cqDamWebdavVersionLinkingEnable) {
     this.cqDamWebdavVersionLinkingEnable = cqDamWebdavVersionLinkingEnable;
     return this;
   }
 
-   /**
+  /**
    * Get cqDamWebdavVersionLinkingEnable
    * @return cqDamWebdavVersionLinkingEnable
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getCqDamWebdavVersionLinkingEnable() {
     return cqDamWebdavVersionLinkingEnable;
@@ -51,10 +51,10 @@ public class ComAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJobProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get cqDamWebdavVersionLinkingSchedulerPeriod
    * @return cqDamWebdavVersionLinkingSchedulerPeriod
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getCqDamWebdavVersionLinkingSchedulerPeriod() {
     return cqDamWebdavVersionLinkingSchedulerPeriod;
@@ -69,10 +69,10 @@ public class ComAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJobProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get cqDamWebdavVersionLinkingStagingTimeout
    * @return cqDamWebdavVersionLinkingStagingTimeout
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getCqDamWebdavVersionLinkingStagingTimeout() {
     return cqDamWebdavVersionLinkingStagingTimeout;
@@ -84,7 +84,7 @@ public class ComAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJobProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -118,11 +118,8 @@ public class ComAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJobProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

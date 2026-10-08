@@ -5,25 +5,23 @@ import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyString;
 
 import io.swagger.annotations.ApiModelProperty;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlType;
-import javax.xml.bind.annotation.XmlEnum;
-import javax.xml.bind.annotation.XmlEnumValue;
+import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
 
 public class ComDayCqDamCoreImplLightboxLightboxServletProperties  {
   
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString slingServletPaths = null;
+
+  private ConfigNodePropertyString slingServletPaths;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyArray slingServletMethods = null;
+
+  private ConfigNodePropertyArray slingServletMethods;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyBoolean cqDamEnableAnonymous = null;
+
+  private ConfigNodePropertyBoolean cqDamEnableAnonymous;
  /**
    * Get slingServletPaths
    * @return slingServletPaths
@@ -78,6 +76,24 @@ public class ComDayCqDamCoreImplLightboxLightboxServletProperties  {
     return this;
   }
 
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    ComDayCqDamCoreImplLightboxLightboxServletProperties comDayCqDamCoreImplLightboxLightboxServletProperties = (ComDayCqDamCoreImplLightboxLightboxServletProperties) o;
+    return Objects.equals(this.slingServletPaths, comDayCqDamCoreImplLightboxLightboxServletProperties.slingServletPaths) &&
+        Objects.equals(this.slingServletMethods, comDayCqDamCoreImplLightboxLightboxServletProperties.slingServletMethods) &&
+        Objects.equals(this.cqDamEnableAnonymous, comDayCqDamCoreImplLightboxLightboxServletProperties.cqDamEnableAnonymous);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(slingServletPaths, slingServletMethods, cqDamEnableAnonymous);
+  }
 
   @Override
   public String toString() {
@@ -95,11 +111,8 @@ public class ComDayCqDamCoreImplLightboxLightboxServletProperties  {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private static String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

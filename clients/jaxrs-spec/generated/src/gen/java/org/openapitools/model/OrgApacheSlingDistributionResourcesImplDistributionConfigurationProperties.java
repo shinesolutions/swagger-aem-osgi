@@ -1,19 +1,30 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("orgApacheSlingDistributionResourcesImplDistributionConfigurationProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingDistributionResourcesImplDistributionConfigurationProperties   {
-  
-  private @Valid ConfigNodePropertyString providerRoots = null;
-  private @Valid ConfigNodePropertyString kind = null;
+  private ConfigNodePropertyString providerRoots;
+  private ConfigNodePropertyString kind;
+
+  public OrgApacheSlingDistributionResourcesImplDistributionConfigurationProperties() {
+  }
 
   /**
    **/
@@ -25,9 +36,11 @@ public class OrgApacheSlingDistributionResourcesImplDistributionConfigurationPro
   
   @ApiModelProperty(value = "")
   @JsonProperty("provider.roots")
-  public ConfigNodePropertyString getProviderRoots() {
+  @Valid public ConfigNodePropertyString getProviderRoots() {
     return providerRoots;
   }
+
+  @JsonProperty("provider.roots")
   public void setProviderRoots(ConfigNodePropertyString providerRoots) {
     this.providerRoots = providerRoots;
   }
@@ -42,16 +55,18 @@ public class OrgApacheSlingDistributionResourcesImplDistributionConfigurationPro
   
   @ApiModelProperty(value = "")
   @JsonProperty("kind")
-  public ConfigNodePropertyString getKind() {
+  @Valid public ConfigNodePropertyString getKind() {
     return kind;
   }
+
+  @JsonProperty("kind")
   public void setKind(ConfigNodePropertyString kind) {
     this.kind = kind;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -59,8 +74,8 @@ public class OrgApacheSlingDistributionResourcesImplDistributionConfigurationPro
       return false;
     }
     OrgApacheSlingDistributionResourcesImplDistributionConfigurationProperties orgApacheSlingDistributionResourcesImplDistributionConfigurationProperties = (OrgApacheSlingDistributionResourcesImplDistributionConfigurationProperties) o;
-    return Objects.equals(providerRoots, orgApacheSlingDistributionResourcesImplDistributionConfigurationProperties.providerRoots) &&
-        Objects.equals(kind, orgApacheSlingDistributionResourcesImplDistributionConfigurationProperties.kind);
+    return Objects.equals(this.providerRoots, orgApacheSlingDistributionResourcesImplDistributionConfigurationProperties.providerRoots) &&
+        Objects.equals(this.kind, orgApacheSlingDistributionResourcesImplDistributionConfigurationProperties.kind);
   }
 
   @Override
@@ -83,11 +98,9 @@ public class OrgApacheSlingDistributionResourcesImplDistributionConfigurationPro
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

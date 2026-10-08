@@ -2,47 +2,48 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class ComAdobeGraniteAuthImsImplIMSProviderImplProperties   {
   
-  private ConfigNodePropertyString oauthProviderId = null;
+  private ConfigNodePropertyString oauthProviderId;
 
-  private ConfigNodePropertyString oauthProviderImsAuthorizationUrl = null;
+  private ConfigNodePropertyString oauthProviderImsAuthorizationUrl;
 
-  private ConfigNodePropertyString oauthProviderImsTokenUrl = null;
+  private ConfigNodePropertyString oauthProviderImsTokenUrl;
 
-  private ConfigNodePropertyString oauthProviderImsProfileUrl = null;
+  private ConfigNodePropertyString oauthProviderImsProfileUrl;
 
-  private ConfigNodePropertyArray oauthProviderImsExtendedDetailsUrls = null;
+  private ConfigNodePropertyArray oauthProviderImsExtendedDetailsUrls;
 
-  private ConfigNodePropertyString oauthProviderImsValidateTokenUrl = null;
+  private ConfigNodePropertyString oauthProviderImsValidateTokenUrl;
 
-  private ConfigNodePropertyString oauthProviderImsSessionProperty = null;
+  private ConfigNodePropertyString oauthProviderImsSessionProperty;
 
-  private ConfigNodePropertyString oauthProviderImsServiceTokenClientId = null;
+  private ConfigNodePropertyString oauthProviderImsServiceTokenClientId;
 
-  private ConfigNodePropertyString oauthProviderImsServiceTokenClientSecret = null;
+  private ConfigNodePropertyString oauthProviderImsServiceTokenClientSecret;
 
-  private ConfigNodePropertyString oauthProviderImsServiceToken = null;
+  private ConfigNodePropertyString oauthProviderImsServiceToken;
 
-  private ConfigNodePropertyString imsOrgRef = null;
+  private ConfigNodePropertyString imsOrgRef;
 
-  private ConfigNodePropertyArray imsGroupMapping = null;
+  private ConfigNodePropertyArray imsGroupMapping;
 
-  private ConfigNodePropertyBoolean oauthProviderImsOnlyLicenseGroup = null;
-
+  private ConfigNodePropertyBoolean oauthProviderImsOnlyLicenseGroup;
 
   /**
    **/
@@ -280,7 +281,7 @@ public class ComAdobeGraniteAuthImsImplIMSProviderImplProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -288,19 +289,19 @@ public class ComAdobeGraniteAuthImsImplIMSProviderImplProperties   {
       return false;
     }
     ComAdobeGraniteAuthImsImplIMSProviderImplProperties comAdobeGraniteAuthImsImplIMSProviderImplProperties = (ComAdobeGraniteAuthImsImplIMSProviderImplProperties) o;
-    return Objects.equals(oauthProviderId, comAdobeGraniteAuthImsImplIMSProviderImplProperties.oauthProviderId) &&
-        Objects.equals(oauthProviderImsAuthorizationUrl, comAdobeGraniteAuthImsImplIMSProviderImplProperties.oauthProviderImsAuthorizationUrl) &&
-        Objects.equals(oauthProviderImsTokenUrl, comAdobeGraniteAuthImsImplIMSProviderImplProperties.oauthProviderImsTokenUrl) &&
-        Objects.equals(oauthProviderImsProfileUrl, comAdobeGraniteAuthImsImplIMSProviderImplProperties.oauthProviderImsProfileUrl) &&
-        Objects.equals(oauthProviderImsExtendedDetailsUrls, comAdobeGraniteAuthImsImplIMSProviderImplProperties.oauthProviderImsExtendedDetailsUrls) &&
-        Objects.equals(oauthProviderImsValidateTokenUrl, comAdobeGraniteAuthImsImplIMSProviderImplProperties.oauthProviderImsValidateTokenUrl) &&
-        Objects.equals(oauthProviderImsSessionProperty, comAdobeGraniteAuthImsImplIMSProviderImplProperties.oauthProviderImsSessionProperty) &&
-        Objects.equals(oauthProviderImsServiceTokenClientId, comAdobeGraniteAuthImsImplIMSProviderImplProperties.oauthProviderImsServiceTokenClientId) &&
-        Objects.equals(oauthProviderImsServiceTokenClientSecret, comAdobeGraniteAuthImsImplIMSProviderImplProperties.oauthProviderImsServiceTokenClientSecret) &&
-        Objects.equals(oauthProviderImsServiceToken, comAdobeGraniteAuthImsImplIMSProviderImplProperties.oauthProviderImsServiceToken) &&
-        Objects.equals(imsOrgRef, comAdobeGraniteAuthImsImplIMSProviderImplProperties.imsOrgRef) &&
-        Objects.equals(imsGroupMapping, comAdobeGraniteAuthImsImplIMSProviderImplProperties.imsGroupMapping) &&
-        Objects.equals(oauthProviderImsOnlyLicenseGroup, comAdobeGraniteAuthImsImplIMSProviderImplProperties.oauthProviderImsOnlyLicenseGroup);
+    return Objects.equals(this.oauthProviderId, comAdobeGraniteAuthImsImplIMSProviderImplProperties.oauthProviderId) &&
+        Objects.equals(this.oauthProviderImsAuthorizationUrl, comAdobeGraniteAuthImsImplIMSProviderImplProperties.oauthProviderImsAuthorizationUrl) &&
+        Objects.equals(this.oauthProviderImsTokenUrl, comAdobeGraniteAuthImsImplIMSProviderImplProperties.oauthProviderImsTokenUrl) &&
+        Objects.equals(this.oauthProviderImsProfileUrl, comAdobeGraniteAuthImsImplIMSProviderImplProperties.oauthProviderImsProfileUrl) &&
+        Objects.equals(this.oauthProviderImsExtendedDetailsUrls, comAdobeGraniteAuthImsImplIMSProviderImplProperties.oauthProviderImsExtendedDetailsUrls) &&
+        Objects.equals(this.oauthProviderImsValidateTokenUrl, comAdobeGraniteAuthImsImplIMSProviderImplProperties.oauthProviderImsValidateTokenUrl) &&
+        Objects.equals(this.oauthProviderImsSessionProperty, comAdobeGraniteAuthImsImplIMSProviderImplProperties.oauthProviderImsSessionProperty) &&
+        Objects.equals(this.oauthProviderImsServiceTokenClientId, comAdobeGraniteAuthImsImplIMSProviderImplProperties.oauthProviderImsServiceTokenClientId) &&
+        Objects.equals(this.oauthProviderImsServiceTokenClientSecret, comAdobeGraniteAuthImsImplIMSProviderImplProperties.oauthProviderImsServiceTokenClientSecret) &&
+        Objects.equals(this.oauthProviderImsServiceToken, comAdobeGraniteAuthImsImplIMSProviderImplProperties.oauthProviderImsServiceToken) &&
+        Objects.equals(this.imsOrgRef, comAdobeGraniteAuthImsImplIMSProviderImplProperties.imsOrgRef) &&
+        Objects.equals(this.imsGroupMapping, comAdobeGraniteAuthImsImplIMSProviderImplProperties.imsGroupMapping) &&
+        Objects.equals(this.oauthProviderImsOnlyLicenseGroup, comAdobeGraniteAuthImsImplIMSProviderImplProperties.oauthProviderImsOnlyLicenseGroup);
   }
 
   @Override
@@ -334,11 +335,8 @@ public class ComAdobeGraniteAuthImsImplIMSProviderImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

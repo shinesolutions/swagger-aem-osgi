@@ -9,12 +9,12 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterProperties {
-    ConfigNodePropertyArray datasources = null
-
-    ConfigNodePropertyInteger step = null
-
-    ConfigNodePropertyArray archives = null
-
-    ConfigNodePropertyString path = null
-
+    
+    ConfigNodePropertyArray datasources
+    
+    ConfigNodePropertyInteger step
+    
+    ConfigNodePropertyArray archives
+    
+    ConfigNodePropertyString path
 }

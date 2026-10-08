@@ -1,21 +1,32 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comAdobeGraniteLoggingImplLogAnalyserImplProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteLoggingImplLogAnalyserImplProperties   {
-  
-  private @Valid ConfigNodePropertyInteger messagesQueueSize = null;
-  private @Valid ConfigNodePropertyArray loggerConfig = null;
-  private @Valid ConfigNodePropertyInteger messagesSize = null;
+  private ConfigNodePropertyInteger messagesQueueSize;
+  private ConfigNodePropertyArray loggerConfig;
+  private ConfigNodePropertyInteger messagesSize;
+
+  public ComAdobeGraniteLoggingImplLogAnalyserImplProperties() {
+  }
 
   /**
    **/
@@ -27,9 +38,11 @@ public class ComAdobeGraniteLoggingImplLogAnalyserImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("messages.queue.size")
-  public ConfigNodePropertyInteger getMessagesQueueSize() {
+  @Valid public ConfigNodePropertyInteger getMessagesQueueSize() {
     return messagesQueueSize;
   }
+
+  @JsonProperty("messages.queue.size")
   public void setMessagesQueueSize(ConfigNodePropertyInteger messagesQueueSize) {
     this.messagesQueueSize = messagesQueueSize;
   }
@@ -44,9 +57,11 @@ public class ComAdobeGraniteLoggingImplLogAnalyserImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("logger.config")
-  public ConfigNodePropertyArray getLoggerConfig() {
+  @Valid public ConfigNodePropertyArray getLoggerConfig() {
     return loggerConfig;
   }
+
+  @JsonProperty("logger.config")
   public void setLoggerConfig(ConfigNodePropertyArray loggerConfig) {
     this.loggerConfig = loggerConfig;
   }
@@ -61,16 +76,18 @@ public class ComAdobeGraniteLoggingImplLogAnalyserImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("messages.size")
-  public ConfigNodePropertyInteger getMessagesSize() {
+  @Valid public ConfigNodePropertyInteger getMessagesSize() {
     return messagesSize;
   }
+
+  @JsonProperty("messages.size")
   public void setMessagesSize(ConfigNodePropertyInteger messagesSize) {
     this.messagesSize = messagesSize;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -78,9 +95,9 @@ public class ComAdobeGraniteLoggingImplLogAnalyserImplProperties   {
       return false;
     }
     ComAdobeGraniteLoggingImplLogAnalyserImplProperties comAdobeGraniteLoggingImplLogAnalyserImplProperties = (ComAdobeGraniteLoggingImplLogAnalyserImplProperties) o;
-    return Objects.equals(messagesQueueSize, comAdobeGraniteLoggingImplLogAnalyserImplProperties.messagesQueueSize) &&
-        Objects.equals(loggerConfig, comAdobeGraniteLoggingImplLogAnalyserImplProperties.loggerConfig) &&
-        Objects.equals(messagesSize, comAdobeGraniteLoggingImplLogAnalyserImplProperties.messagesSize);
+    return Objects.equals(this.messagesQueueSize, comAdobeGraniteLoggingImplLogAnalyserImplProperties.messagesQueueSize) &&
+        Objects.equals(this.loggerConfig, comAdobeGraniteLoggingImplLogAnalyserImplProperties.loggerConfig) &&
+        Objects.equals(this.messagesSize, comAdobeGraniteLoggingImplLogAnalyserImplProperties.messagesSize);
   }
 
   @Override
@@ -104,11 +121,9 @@ public class ComAdobeGraniteLoggingImplLogAnalyserImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

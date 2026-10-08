@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyArray;
 import com.prokarma.pkmst.model.ConfigNodePropertyBoolean;
 import com.prokarma.pkmst.model.ConfigNodePropertyDropDown;
@@ -19,54 +20,53 @@ import io.swagger.annotations.ApiModelProperty;
  * OrgApacheSlingDistributionSerializationImplDistributionPackageBuProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingDistributionSerializationImplDistributionPackageBuProperties   {
   @JsonProperty("name")
-  private ConfigNodePropertyString name = null;
+  private ConfigNodePropertyString name;
 
   @JsonProperty("type")
-  private ConfigNodePropertyDropDown type = null;
+  private ConfigNodePropertyDropDown type;
 
   @JsonProperty("format.target")
-  private ConfigNodePropertyString formatTarget = null;
+  private ConfigNodePropertyString formatTarget;
 
   @JsonProperty("tempFsFolder")
-  private ConfigNodePropertyString tempFsFolder = null;
+  private ConfigNodePropertyString tempFsFolder;
 
   @JsonProperty("fileThreshold")
-  private ConfigNodePropertyInteger fileThreshold = null;
+  private ConfigNodePropertyInteger fileThreshold;
 
   @JsonProperty("memoryUnit")
-  private ConfigNodePropertyDropDown memoryUnit = null;
+  private ConfigNodePropertyDropDown memoryUnit;
 
   @JsonProperty("useOffHeapMemory")
-  private ConfigNodePropertyBoolean useOffHeapMemory = null;
+  private ConfigNodePropertyBoolean useOffHeapMemory;
 
   @JsonProperty("digestAlgorithm")
-  private ConfigNodePropertyDropDown digestAlgorithm = null;
+  private ConfigNodePropertyDropDown digestAlgorithm;
 
   @JsonProperty("monitoringQueueSize")
-  private ConfigNodePropertyInteger monitoringQueueSize = null;
+  private ConfigNodePropertyInteger monitoringQueueSize;
 
   @JsonProperty("cleanupDelay")
-  private ConfigNodePropertyInteger cleanupDelay = null;
+  private ConfigNodePropertyInteger cleanupDelay;
 
   @JsonProperty("package.filters")
-  private ConfigNodePropertyArray packageFilters = null;
+  private ConfigNodePropertyArray packageFilters;
 
   @JsonProperty("property.filters")
-  private ConfigNodePropertyArray propertyFilters = null;
+  private ConfigNodePropertyArray propertyFilters;
 
   public OrgApacheSlingDistributionSerializationImplDistributionPackageBuProperties name(ConfigNodePropertyString name) {
     this.name = name;
     return this;
   }
 
-   /**
+  /**
    * Get name
    * @return name
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getName() {
     return name;
@@ -81,10 +81,10 @@ public class OrgApacheSlingDistributionSerializationImplDistributionPackageBuPro
     return this;
   }
 
-   /**
+  /**
    * Get type
    * @return type
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyDropDown getType() {
     return type;
@@ -99,10 +99,10 @@ public class OrgApacheSlingDistributionSerializationImplDistributionPackageBuPro
     return this;
   }
 
-   /**
+  /**
    * Get formatTarget
    * @return formatTarget
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getFormatTarget() {
     return formatTarget;
@@ -117,10 +117,10 @@ public class OrgApacheSlingDistributionSerializationImplDistributionPackageBuPro
     return this;
   }
 
-   /**
+  /**
    * Get tempFsFolder
    * @return tempFsFolder
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getTempFsFolder() {
     return tempFsFolder;
@@ -135,10 +135,10 @@ public class OrgApacheSlingDistributionSerializationImplDistributionPackageBuPro
     return this;
   }
 
-   /**
+  /**
    * Get fileThreshold
    * @return fileThreshold
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getFileThreshold() {
     return fileThreshold;
@@ -153,10 +153,10 @@ public class OrgApacheSlingDistributionSerializationImplDistributionPackageBuPro
     return this;
   }
 
-   /**
+  /**
    * Get memoryUnit
    * @return memoryUnit
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyDropDown getMemoryUnit() {
     return memoryUnit;
@@ -171,10 +171,10 @@ public class OrgApacheSlingDistributionSerializationImplDistributionPackageBuPro
     return this;
   }
 
-   /**
+  /**
    * Get useOffHeapMemory
    * @return useOffHeapMemory
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getUseOffHeapMemory() {
     return useOffHeapMemory;
@@ -189,10 +189,10 @@ public class OrgApacheSlingDistributionSerializationImplDistributionPackageBuPro
     return this;
   }
 
-   /**
+  /**
    * Get digestAlgorithm
    * @return digestAlgorithm
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyDropDown getDigestAlgorithm() {
     return digestAlgorithm;
@@ -207,10 +207,10 @@ public class OrgApacheSlingDistributionSerializationImplDistributionPackageBuPro
     return this;
   }
 
-   /**
+  /**
    * Get monitoringQueueSize
    * @return monitoringQueueSize
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getMonitoringQueueSize() {
     return monitoringQueueSize;
@@ -225,10 +225,10 @@ public class OrgApacheSlingDistributionSerializationImplDistributionPackageBuPro
     return this;
   }
 
-   /**
+  /**
    * Get cleanupDelay
    * @return cleanupDelay
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getCleanupDelay() {
     return cleanupDelay;
@@ -243,10 +243,10 @@ public class OrgApacheSlingDistributionSerializationImplDistributionPackageBuPro
     return this;
   }
 
-   /**
+  /**
    * Get packageFilters
    * @return packageFilters
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getPackageFilters() {
     return packageFilters;
@@ -261,10 +261,10 @@ public class OrgApacheSlingDistributionSerializationImplDistributionPackageBuPro
     return this;
   }
 
-   /**
+  /**
    * Get propertyFilters
    * @return propertyFilters
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getPropertyFilters() {
     return propertyFilters;
@@ -276,7 +276,7 @@ public class OrgApacheSlingDistributionSerializationImplDistributionPackageBuPro
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -328,11 +328,8 @@ public class OrgApacheSlingDistributionSerializationImplDistributionPackageBuPro
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

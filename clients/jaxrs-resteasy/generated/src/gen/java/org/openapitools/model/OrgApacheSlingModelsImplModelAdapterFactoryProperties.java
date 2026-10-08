@@ -4,25 +4,29 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2019-08-05T00:59:30.156Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2026-10-07T12:54:21.614735164Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingModelsImplModelAdapterFactoryProperties   {
   
-  private ConfigNodePropertyString osgiHttpWhiteboardListener = null;
-  private ConfigNodePropertyString osgiHttpWhiteboardContextSelect = null;
-  private ConfigNodePropertyInteger maxRecursionDepth = null;
-  private ConfigNodePropertyInteger cleanupJobPeriod = null;
+  private ConfigNodePropertyString osgiHttpWhiteboardListener;
+  private ConfigNodePropertyString osgiHttpWhiteboardContextSelect;
+  private ConfigNodePropertyInteger maxRecursionDepth;
+  private ConfigNodePropertyInteger cleanupJobPeriod;
 
   /**
    **/
   
   @ApiModelProperty(value = "")
   @JsonProperty("osgi.http.whiteboard.listener")
+  @Valid
   public ConfigNodePropertyString getOsgiHttpWhiteboardListener() {
     return osgiHttpWhiteboardListener;
   }
@@ -35,6 +39,7 @@ public class OrgApacheSlingModelsImplModelAdapterFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("osgi.http.whiteboard.context.select")
+  @Valid
   public ConfigNodePropertyString getOsgiHttpWhiteboardContextSelect() {
     return osgiHttpWhiteboardContextSelect;
   }
@@ -47,6 +52,7 @@ public class OrgApacheSlingModelsImplModelAdapterFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("max.recursion.depth")
+  @Valid
   public ConfigNodePropertyInteger getMaxRecursionDepth() {
     return maxRecursionDepth;
   }
@@ -59,6 +65,7 @@ public class OrgApacheSlingModelsImplModelAdapterFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("cleanup.job.period")
+  @Valid
   public ConfigNodePropertyInteger getCleanupJobPeriod() {
     return cleanupJobPeriod;
   }
@@ -68,7 +75,7 @@ public class OrgApacheSlingModelsImplModelAdapterFactoryProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -76,10 +83,10 @@ public class OrgApacheSlingModelsImplModelAdapterFactoryProperties   {
       return false;
     }
     OrgApacheSlingModelsImplModelAdapterFactoryProperties orgApacheSlingModelsImplModelAdapterFactoryProperties = (OrgApacheSlingModelsImplModelAdapterFactoryProperties) o;
-    return Objects.equals(osgiHttpWhiteboardListener, orgApacheSlingModelsImplModelAdapterFactoryProperties.osgiHttpWhiteboardListener) &&
-        Objects.equals(osgiHttpWhiteboardContextSelect, orgApacheSlingModelsImplModelAdapterFactoryProperties.osgiHttpWhiteboardContextSelect) &&
-        Objects.equals(maxRecursionDepth, orgApacheSlingModelsImplModelAdapterFactoryProperties.maxRecursionDepth) &&
-        Objects.equals(cleanupJobPeriod, orgApacheSlingModelsImplModelAdapterFactoryProperties.cleanupJobPeriod);
+    return Objects.equals(this.osgiHttpWhiteboardListener, orgApacheSlingModelsImplModelAdapterFactoryProperties.osgiHttpWhiteboardListener) &&
+        Objects.equals(this.osgiHttpWhiteboardContextSelect, orgApacheSlingModelsImplModelAdapterFactoryProperties.osgiHttpWhiteboardContextSelect) &&
+        Objects.equals(this.maxRecursionDepth, orgApacheSlingModelsImplModelAdapterFactoryProperties.maxRecursionDepth) &&
+        Objects.equals(this.cleanupJobPeriod, orgApacheSlingModelsImplModelAdapterFactoryProperties.cleanupJobPeriod);
   }
 
   @Override
@@ -104,11 +111,8 @@ public class OrgApacheSlingModelsImplModelAdapterFactoryProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

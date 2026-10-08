@@ -1,0 +1,15 @@
+{
+  "namespace": "model",
+  "type": "record",
+  "doc": "",
+  "name": "OrgApacheAriesJmxFrameworkStateConfigProperties",
+  "fields": [
+    {
+      "name": "attributeChangeNotificationEnabled",
+      "type": ["null", "model.ConfigNodePropertyBoolean"],
+      "doc": "",
+      "default": null
+    }
+  ]
+
+}

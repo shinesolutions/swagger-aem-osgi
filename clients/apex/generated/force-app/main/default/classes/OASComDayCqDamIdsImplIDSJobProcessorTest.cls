@@ -72,12 +72,12 @@ private class OASComDayCqDamIdsImplIDSJobProcessorTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqDamIdsImplIDSJobProcessor comDayCqDamIdsImplIDSJobProcessorProperties = new OASComDayCqDamIdsImplIDSJobProcessor();
-        Map<String, String> propertyMappings = comDayCqDamIdsImplIDSJobProcessorProperties.getPropertyMappings();
-        System.assertEquals('enableMultisession', propertyMappings.get('enable.multisession'));
-        System.assertEquals('idsCcEnable', propertyMappings.get('ids.cc.enable'));
-        System.assertEquals('enableRetry', propertyMappings.get('enable.retry'));
-        System.assertEquals('enableRetryScripterror', propertyMappings.get('enable.retry.scripterror'));
-        System.assertEquals('externalizerDomainCqhost', propertyMappings.get('externalizer.domain.cqhost'));
-        System.assertEquals('externalizerDomainHttp', propertyMappings.get('externalizer.domain.http'));
+        Map<String, String> x-property-mappings = comDayCqDamIdsImplIDSJobProcessorProperties.getx-property-mappings();
+        System.assertEquals('enableMultisession', x-property-mappings.get('enable.multisession'));
+        System.assertEquals('idsCcEnable', x-property-mappings.get('ids.cc.enable'));
+        System.assertEquals('enableRetry', x-property-mappings.get('enable.retry'));
+        System.assertEquals('enableRetryScripterror', x-property-mappings.get('enable.retry.scripterror'));
+        System.assertEquals('externalizerDomainCqhost', x-property-mappings.get('externalizer.domain.cqhost'));
+        System.assertEquals('externalizerDomainHttp', x-property-mappings.get('externalizer.domain.http'));
     }
 }

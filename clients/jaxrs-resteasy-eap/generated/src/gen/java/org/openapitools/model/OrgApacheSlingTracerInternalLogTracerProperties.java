@@ -4,32 +4,26 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2019-08-05T01:00:05.540Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2026-10-07T12:54:26.576036107Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingTracerInternalLogTracerProperties   {
   
-
-  private ConfigNodePropertyArray tracerSets = null;
-
-  private ConfigNodePropertyBoolean enabled = null;
-
-  private ConfigNodePropertyBoolean servletEnabled = null;
-
-  private ConfigNodePropertyInteger recordingCacheSizeInMB = null;
-
-  private ConfigNodePropertyInteger recordingCacheDurationInSecs = null;
-
-  private ConfigNodePropertyBoolean recordingCompressionEnabled = null;
-
-  private ConfigNodePropertyBoolean gzipResponse = null;
+  private ConfigNodePropertyArray tracerSets;
+  private ConfigNodePropertyBoolean enabled;
+  private ConfigNodePropertyBoolean servletEnabled;
+  private ConfigNodePropertyInteger recordingCacheSizeInMB;
+  private ConfigNodePropertyInteger recordingCacheDurationInSecs;
+  private ConfigNodePropertyBoolean recordingCompressionEnabled;
+  private ConfigNodePropertyBoolean gzipResponse;
 
   /**
    **/
@@ -125,13 +119,13 @@ public class OrgApacheSlingTracerInternalLogTracerProperties   {
       return false;
     }
     OrgApacheSlingTracerInternalLogTracerProperties orgApacheSlingTracerInternalLogTracerProperties = (OrgApacheSlingTracerInternalLogTracerProperties) o;
-    return Objects.equals(tracerSets, orgApacheSlingTracerInternalLogTracerProperties.tracerSets) &&
-        Objects.equals(enabled, orgApacheSlingTracerInternalLogTracerProperties.enabled) &&
-        Objects.equals(servletEnabled, orgApacheSlingTracerInternalLogTracerProperties.servletEnabled) &&
-        Objects.equals(recordingCacheSizeInMB, orgApacheSlingTracerInternalLogTracerProperties.recordingCacheSizeInMB) &&
-        Objects.equals(recordingCacheDurationInSecs, orgApacheSlingTracerInternalLogTracerProperties.recordingCacheDurationInSecs) &&
-        Objects.equals(recordingCompressionEnabled, orgApacheSlingTracerInternalLogTracerProperties.recordingCompressionEnabled) &&
-        Objects.equals(gzipResponse, orgApacheSlingTracerInternalLogTracerProperties.gzipResponse);
+    return Objects.equals(this.tracerSets, orgApacheSlingTracerInternalLogTracerProperties.tracerSets) &&
+        Objects.equals(this.enabled, orgApacheSlingTracerInternalLogTracerProperties.enabled) &&
+        Objects.equals(this.servletEnabled, orgApacheSlingTracerInternalLogTracerProperties.servletEnabled) &&
+        Objects.equals(this.recordingCacheSizeInMB, orgApacheSlingTracerInternalLogTracerProperties.recordingCacheSizeInMB) &&
+        Objects.equals(this.recordingCacheDurationInSecs, orgApacheSlingTracerInternalLogTracerProperties.recordingCacheDurationInSecs) &&
+        Objects.equals(this.recordingCompressionEnabled, orgApacheSlingTracerInternalLogTracerProperties.recordingCompressionEnabled) &&
+        Objects.equals(this.gzipResponse, orgApacheSlingTracerInternalLogTracerProperties.gzipResponse);
   }
 
   @Override
@@ -160,10 +154,7 @@ public class OrgApacheSlingTracerInternalLogTracerProperties   {
    * (except the first line).
    */
   private String toIndentedString(Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

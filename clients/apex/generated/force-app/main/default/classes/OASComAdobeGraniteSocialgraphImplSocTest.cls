@@ -72,10 +72,10 @@ private class OASComAdobeGraniteSocialgraphImplSocTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeGraniteSocialgraphImplSoc comAdobeGraniteSocialgraphImplSocialGraphFactoryImplProperties = new OASComAdobeGraniteSocialgraphImplSoc();
-        Map<String, String> propertyMappings = comAdobeGraniteSocialgraphImplSocialGraphFactoryImplProperties.getPropertyMappings();
-        System.assertEquals('group2memberRelationshipOutgoing', propertyMappings.get('group2member.relationship.outgoing'));
-        System.assertEquals('group2memberExcludedOutgoing', propertyMappings.get('group2member.excluded.outgoing'));
-        System.assertEquals('group2memberRelationshipIncoming', propertyMappings.get('group2member.relationship.incoming'));
-        System.assertEquals('group2memberExcludedIncoming', propertyMappings.get('group2member.excluded.incoming'));
+        Map<String, String> x-property-mappings = comAdobeGraniteSocialgraphImplSocialGraphFactoryImplProperties.getx-property-mappings();
+        System.assertEquals('group2memberRelationshipOutgoing', x-property-mappings.get('group2member.relationship.outgoing'));
+        System.assertEquals('group2memberExcludedOutgoing', x-property-mappings.get('group2member.excluded.outgoing'));
+        System.assertEquals('group2memberRelationshipIncoming', x-property-mappings.get('group2member.relationship.incoming'));
+        System.assertEquals('group2memberExcludedIncoming', x-property-mappings.get('group2member.excluded.incoming'));
     }
 }

@@ -1,32 +1,43 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderServiceProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderServiceProperties   {
-  @JsonProperty("threshold")
-  private ConfigNodePropertyInteger threshold = null;
+@JsonTypeName("comAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderServiceProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderServiceProperties {
 
-  @JsonProperty("jobTopicName")
-  private ConfigNodePropertyString jobTopicName = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger threshold;
 
-  @JsonProperty("emailEnabled")
-  private ConfigNodePropertyBoolean emailEnabled = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString jobTopicName;
 
-  public ComAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderServiceProperties threshold(ConfigNodePropertyInteger threshold) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean emailEnabled;
+
+  public ComAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderServiceProperties threshold(@Nullable ConfigNodePropertyInteger threshold) {
     this.threshold = threshold;
     return this;
   }
@@ -34,20 +45,20 @@ public class ComAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderServiceProperties 
   /**
    * Get threshold
    * @return threshold
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getThreshold() {
+   */
+  @Valid 
+  @Schema(name = "threshold", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("threshold")
+  public @Nullable ConfigNodePropertyInteger getThreshold() {
     return threshold;
   }
 
-  public void setThreshold(ConfigNodePropertyInteger threshold) {
+  @JsonProperty("threshold")
+  public void setThreshold(@Nullable ConfigNodePropertyInteger threshold) {
     this.threshold = threshold;
   }
 
-  public ComAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderServiceProperties jobTopicName(ConfigNodePropertyString jobTopicName) {
+  public ComAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderServiceProperties jobTopicName(@Nullable ConfigNodePropertyString jobTopicName) {
     this.jobTopicName = jobTopicName;
     return this;
   }
@@ -55,20 +66,20 @@ public class ComAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderServiceProperties 
   /**
    * Get jobTopicName
    * @return jobTopicName
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getJobTopicName() {
+   */
+  @Valid 
+  @Schema(name = "jobTopicName", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("jobTopicName")
+  public @Nullable ConfigNodePropertyString getJobTopicName() {
     return jobTopicName;
   }
 
-  public void setJobTopicName(ConfigNodePropertyString jobTopicName) {
+  @JsonProperty("jobTopicName")
+  public void setJobTopicName(@Nullable ConfigNodePropertyString jobTopicName) {
     this.jobTopicName = jobTopicName;
   }
 
-  public ComAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderServiceProperties emailEnabled(ConfigNodePropertyBoolean emailEnabled) {
+  public ComAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderServiceProperties emailEnabled(@Nullable ConfigNodePropertyBoolean emailEnabled) {
     this.emailEnabled = emailEnabled;
     return this;
   }
@@ -76,22 +87,21 @@ public class ComAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderServiceProperties 
   /**
    * Get emailEnabled
    * @return emailEnabled
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getEmailEnabled() {
+   */
+  @Valid 
+  @Schema(name = "emailEnabled", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("emailEnabled")
+  public @Nullable ConfigNodePropertyBoolean getEmailEnabled() {
     return emailEnabled;
   }
 
-  public void setEmailEnabled(ConfigNodePropertyBoolean emailEnabled) {
+  @JsonProperty("emailEnabled")
+  public void setEmailEnabled(@Nullable ConfigNodePropertyBoolean emailEnabled) {
     this.emailEnabled = emailEnabled;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -113,7 +123,6 @@ public class ComAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderServiceProperties 
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderServiceProperties {\n");
-    
     sb.append("    threshold: ").append(toIndentedString(threshold)).append("\n");
     sb.append("    jobTopicName: ").append(toIndentedString(jobTopicName)).append("\n");
     sb.append("    emailEnabled: ").append(toIndentedString(emailEnabled)).append("\n");
@@ -125,11 +134,8 @@ public class ComAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderServiceProperties 
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

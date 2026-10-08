@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyBoolean;
 import com.prokarma.pkmst.model.ConfigNodePropertyString;
 import io.swagger.annotations.ApiModel;
@@ -16,24 +17,23 @@ import io.swagger.annotations.ApiModelProperty;
  * ComAdobeGraniteMaintenanceCrxImplDataStoreGarbageCollectionTaskProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteMaintenanceCrxImplDataStoreGarbageCollectionTaskProperties   {
   @JsonProperty("granite.maintenance.mandatory")
-  private ConfigNodePropertyBoolean graniteMaintenanceMandatory = null;
+  private ConfigNodePropertyBoolean graniteMaintenanceMandatory;
 
   @JsonProperty("job.topics")
-  private ConfigNodePropertyString jobTopics = null;
+  private ConfigNodePropertyString jobTopics;
 
   public ComAdobeGraniteMaintenanceCrxImplDataStoreGarbageCollectionTaskProperties graniteMaintenanceMandatory(ConfigNodePropertyBoolean graniteMaintenanceMandatory) {
     this.graniteMaintenanceMandatory = graniteMaintenanceMandatory;
     return this;
   }
 
-   /**
+  /**
    * Get graniteMaintenanceMandatory
    * @return graniteMaintenanceMandatory
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getGraniteMaintenanceMandatory() {
     return graniteMaintenanceMandatory;
@@ -48,10 +48,10 @@ public class ComAdobeGraniteMaintenanceCrxImplDataStoreGarbageCollectionTaskProp
     return this;
   }
 
-   /**
+  /**
    * Get jobTopics
    * @return jobTopics
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getJobTopics() {
     return jobTopics;
@@ -63,7 +63,7 @@ public class ComAdobeGraniteMaintenanceCrxImplDataStoreGarbageCollectionTaskProp
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -95,11 +95,8 @@ public class ComAdobeGraniteMaintenanceCrxImplDataStoreGarbageCollectionTaskProp
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

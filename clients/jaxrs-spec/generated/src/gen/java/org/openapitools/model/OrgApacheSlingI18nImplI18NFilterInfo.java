@@ -1,23 +1,34 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.OrgApacheSlingI18nImplI18NFilterProperties;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("orgApacheSlingI18nImplI18NFilterInfo")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingI18nImplI18NFilterInfo   {
-  
-  private @Valid String pid = null;
-  private @Valid String title = null;
-  private @Valid String description = null;
-  private @Valid OrgApacheSlingI18nImplI18NFilterProperties properties = null;
-  private @Valid String bundleLocation = null;
-  private @Valid String serviceLocation = null;
+  private String pid;
+  private String title;
+  private String description;
+  private OrgApacheSlingI18nImplI18NFilterProperties properties;
+  private String bundleLocation;
+  private String serviceLocation;
+
+  public OrgApacheSlingI18nImplI18NFilterInfo() {
+  }
 
   /**
    **/
@@ -32,6 +43,8 @@ public class OrgApacheSlingI18nImplI18NFilterInfo   {
   public String getPid() {
     return pid;
   }
+
+  @JsonProperty("pid")
   public void setPid(String pid) {
     this.pid = pid;
   }
@@ -49,6 +62,8 @@ public class OrgApacheSlingI18nImplI18NFilterInfo   {
   public String getTitle() {
     return title;
   }
+
+  @JsonProperty("title")
   public void setTitle(String title) {
     this.title = title;
   }
@@ -66,6 +81,8 @@ public class OrgApacheSlingI18nImplI18NFilterInfo   {
   public String getDescription() {
     return description;
   }
+
+  @JsonProperty("description")
   public void setDescription(String description) {
     this.description = description;
   }
@@ -80,9 +97,11 @@ public class OrgApacheSlingI18nImplI18NFilterInfo   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("properties")
-  public OrgApacheSlingI18nImplI18NFilterProperties getProperties() {
+  @Valid public OrgApacheSlingI18nImplI18NFilterProperties getProperties() {
     return properties;
   }
+
+  @JsonProperty("properties")
   public void setProperties(OrgApacheSlingI18nImplI18NFilterProperties properties) {
     this.properties = properties;
   }
@@ -100,6 +119,8 @@ public class OrgApacheSlingI18nImplI18NFilterInfo   {
   public String getBundleLocation() {
     return bundleLocation;
   }
+
+  @JsonProperty("bundle_location")
   public void setBundleLocation(String bundleLocation) {
     this.bundleLocation = bundleLocation;
   }
@@ -117,13 +138,15 @@ public class OrgApacheSlingI18nImplI18NFilterInfo   {
   public String getServiceLocation() {
     return serviceLocation;
   }
+
+  @JsonProperty("service_location")
   public void setServiceLocation(String serviceLocation) {
     this.serviceLocation = serviceLocation;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -131,12 +154,12 @@ public class OrgApacheSlingI18nImplI18NFilterInfo   {
       return false;
     }
     OrgApacheSlingI18nImplI18NFilterInfo orgApacheSlingI18nImplI18NFilterInfo = (OrgApacheSlingI18nImplI18NFilterInfo) o;
-    return Objects.equals(pid, orgApacheSlingI18nImplI18NFilterInfo.pid) &&
-        Objects.equals(title, orgApacheSlingI18nImplI18NFilterInfo.title) &&
-        Objects.equals(description, orgApacheSlingI18nImplI18NFilterInfo.description) &&
-        Objects.equals(properties, orgApacheSlingI18nImplI18NFilterInfo.properties) &&
-        Objects.equals(bundleLocation, orgApacheSlingI18nImplI18NFilterInfo.bundleLocation) &&
-        Objects.equals(serviceLocation, orgApacheSlingI18nImplI18NFilterInfo.serviceLocation);
+    return Objects.equals(this.pid, orgApacheSlingI18nImplI18NFilterInfo.pid) &&
+        Objects.equals(this.title, orgApacheSlingI18nImplI18NFilterInfo.title) &&
+        Objects.equals(this.description, orgApacheSlingI18nImplI18NFilterInfo.description) &&
+        Objects.equals(this.properties, orgApacheSlingI18nImplI18NFilterInfo.properties) &&
+        Objects.equals(this.bundleLocation, orgApacheSlingI18nImplI18NFilterInfo.bundleLocation) &&
+        Objects.equals(this.serviceLocation, orgApacheSlingI18nImplI18NFilterInfo.serviceLocation);
   }
 
   @Override
@@ -163,11 +186,9 @@ public class OrgApacheSlingI18nImplI18NFilterInfo   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqDamCoreImplCacheCQBufferedImageCacheInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqDamCoreImplCacheCQBufferedImageCacheInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComDayCqDamCoreImplCacheCQBufferedImageCacheProperties = openapi_server.resourceTypes.ComDayCqDamCoreImplCacheCQBufferedImageCacheProperties
+}
+resourceTypes {
+
+  ComDayCqDamCoreImplCacheCQBufferedImageCacheInfo {
+    title = ComDayCqDamCoreImplCacheCQBufferedImageCacheInfo
+    description = ComDayCqDamCoreImplCacheCQBufferedImageCacheInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComDayCqDamCoreImplCacheCQBufferedImageCacheProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqDamCoreImplCacheCQBufferedImageCacheInfo {
+    title = ComDayCqDamCoreImplCacheCQBufferedImageCacheInfo
+    description = ComDayCqDamCoreImplCacheCQBufferedImageCacheInfo
+    implements = openapi_server.resourceTypes.ComDayCqDamCoreImplCacheCQBufferedImageCacheInfo
+
+  }
+}

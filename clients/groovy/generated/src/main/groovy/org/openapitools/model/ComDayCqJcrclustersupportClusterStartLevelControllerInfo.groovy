@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqJcrclustersupportClusterStartLevelControll
 
 @Canonical
 class ComDayCqJcrclustersupportClusterStartLevelControllerInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqJcrclustersupportClusterStartLevelControllerProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqJcrclustersupportClusterStartLevelControllerProperties properties
 }

@@ -8,10 +8,10 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeCqSocialSiteEndpointsImplSiteOperationServiceProperties {
-    ConfigNodePropertyArray fieldWhitelist = null
-
-    ConfigNodePropertyArray sitePathFilters = null
-
-    ConfigNodePropertyString sitePackageGroup = null
-
+    
+    ConfigNodePropertyArray fieldWhitelist
+    
+    ConfigNodePropertyArray sitePathFilters
+    
+    ConfigNodePropertyString sitePackageGroup
 }

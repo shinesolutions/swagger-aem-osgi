@@ -1,173 +1,184 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
-  
-  private @Valid ConfigNodePropertyString comAdobeCqCdnCdnRewriter = null;
-  private @Valid ConfigNodePropertyString comAdobeCqCloudConfigComponents = null;
-  private @Valid ConfigNodePropertyString comAdobeCqCloudConfigCore = null;
-  private @Valid ConfigNodePropertyString comAdobeCqCloudConfigUi = null;
-  private @Valid ConfigNodePropertyString comAdobeCqComAdobeCqEditor = null;
-  private @Valid ConfigNodePropertyString comAdobeCqComAdobeCqProjectsCore = null;
-  private @Valid ConfigNodePropertyString comAdobeCqComAdobeCqProjectsWcmCore = null;
-  private @Valid ConfigNodePropertyString comAdobeCqComAdobeCqUiCommons = null;
-  private @Valid ConfigNodePropertyString comAdobeCqComAdobeCqWcmStyle = null;
-  private @Valid ConfigNodePropertyString comAdobeCqCqActivitymapIntegration = null;
-  private @Valid ConfigNodePropertyString comAdobeCqCqContexthubCommons = null;
-  private @Valid ConfigNodePropertyString comAdobeCqCqDtm = null;
-  private @Valid ConfigNodePropertyString comAdobeCqCqHealthcheck = null;
-  private @Valid ConfigNodePropertyString comAdobeCqCqMultisiteTargeting = null;
-  private @Valid ConfigNodePropertyString comAdobeCqCqPreUpgradeCleanup = null;
-  private @Valid ConfigNodePropertyString comAdobeCqCqProductInfoProvider = null;
-  private @Valid ConfigNodePropertyString comAdobeCqCqRestSites = null;
-  private @Valid ConfigNodePropertyString comAdobeCqCqSecurityHc = null;
-  private @Valid ConfigNodePropertyString comAdobeCqDamCqDamSvgHandler = null;
-  private @Valid ConfigNodePropertyString comAdobeCqDamCqScene7Imaging = null;
-  private @Valid ConfigNodePropertyString comAdobeCqDtmReactorCore = null;
-  private @Valid ConfigNodePropertyString comAdobeCqDtmReactorUi = null;
-  private @Valid ConfigNodePropertyString comAdobeCqExpJspelResolver = null;
-  private @Valid ConfigNodePropertyString comAdobeCqInboxCqInbox = null;
-  private @Valid ConfigNodePropertyString comAdobeCqJsonSchemaParser = null;
-  private @Valid ConfigNodePropertyString comAdobeCqMediaCqMediaPublishingDpsFpCore = null;
-  private @Valid ConfigNodePropertyString comAdobeCqMobileCqMobileCaas = null;
-  private @Valid ConfigNodePropertyString comAdobeCqMobileCqMobileIndexBuilder = null;
-  private @Valid ConfigNodePropertyString comAdobeCqMobileCqMobilePhonegapBuild = null;
-  private @Valid ConfigNodePropertyString comAdobeCqMyspell = null;
-  private @Valid ConfigNodePropertyString comAdobeCqSampleWeRetailCore = null;
-  private @Valid ConfigNodePropertyString comAdobeCqScreensComAdobeCqScreensDcc = null;
-  private @Valid ConfigNodePropertyString comAdobeCqScreensComAdobeCqScreensMqCore = null;
-  private @Valid ConfigNodePropertyString comAdobeCqSocialCqSocialAsProvider = null;
-  private @Valid ConfigNodePropertyString comAdobeCqSocialCqSocialBadgingBasicImpl = null;
-  private @Valid ConfigNodePropertyString comAdobeCqSocialCqSocialBadgingImpl = null;
-  private @Valid ConfigNodePropertyString comAdobeCqSocialCqSocialCalendarImpl = null;
-  private @Valid ConfigNodePropertyString comAdobeCqSocialCqSocialContentFragmentsImpl = null;
-  private @Valid ConfigNodePropertyString comAdobeCqSocialCqSocialEnablementImpl = null;
-  private @Valid ConfigNodePropertyString comAdobeCqSocialCqSocialGraphImpl = null;
-  private @Valid ConfigNodePropertyString comAdobeCqSocialCqSocialIdeationImpl = null;
-  private @Valid ConfigNodePropertyString comAdobeCqSocialCqSocialJcrProvider = null;
-  private @Valid ConfigNodePropertyString comAdobeCqSocialCqSocialMembersImpl = null;
-  private @Valid ConfigNodePropertyString comAdobeCqSocialCqSocialMsProvider = null;
-  private @Valid ConfigNodePropertyString comAdobeCqSocialCqSocialNotificationsChannelsWeb = null;
-  private @Valid ConfigNodePropertyString comAdobeCqSocialCqSocialNotificationsImpl = null;
-  private @Valid ConfigNodePropertyString comAdobeCqSocialCqSocialRdbProvider = null;
-  private @Valid ConfigNodePropertyString comAdobeCqSocialCqSocialScfImpl = null;
-  private @Valid ConfigNodePropertyString comAdobeCqSocialCqSocialScoringBasicImpl = null;
-  private @Valid ConfigNodePropertyString comAdobeCqSocialCqSocialScoringImpl = null;
-  private @Valid ConfigNodePropertyString comAdobeCqSocialCqSocialServiceusersImpl = null;
-  private @Valid ConfigNodePropertyString comAdobeCqSocialCqSocialSrpImpl = null;
-  private @Valid ConfigNodePropertyString comAdobeCqSocialCqSocialUgcbaseImpl = null;
-  private @Valid ConfigNodePropertyString comAdobeDamCqDamCfmImpl = null;
-  private @Valid ConfigNodePropertyString comAdobeFormsFoundationFormsFoundationBase = null;
-  private @Valid ConfigNodePropertyString comAdobeGraniteApicontroller = null;
-  private @Valid ConfigNodePropertyString comAdobeGraniteAssetCore = null;
-  private @Valid ConfigNodePropertyString comAdobeGraniteAuthSso = null;
-  private @Valid ConfigNodePropertyString comAdobeGraniteBundlesHcImpl = null;
-  private @Valid ConfigNodePropertyString comAdobeGraniteCompatRouter = null;
-  private @Valid ConfigNodePropertyString comAdobeGraniteConf = null;
-  private @Valid ConfigNodePropertyString comAdobeGraniteConfUiCore = null;
-  private @Valid ConfigNodePropertyString comAdobeGraniteCors = null;
-  private @Valid ConfigNodePropertyString comAdobeGraniteCrxExplorer = null;
-  private @Valid ConfigNodePropertyString comAdobeGraniteCrxdeLite = null;
-  private @Valid ConfigNodePropertyString comAdobeGraniteCryptoConfig = null;
-  private @Valid ConfigNodePropertyString comAdobeGraniteCryptoExtension = null;
-  private @Valid ConfigNodePropertyString comAdobeGraniteCryptoFile = null;
-  private @Valid ConfigNodePropertyString comAdobeGraniteCryptoJcr = null;
-  private @Valid ConfigNodePropertyString comAdobeGraniteCsrf = null;
-  private @Valid ConfigNodePropertyString comAdobeGraniteDistributionCore = null;
-  private @Valid ConfigNodePropertyString comAdobeGraniteDropwizardMetrics = null;
-  private @Valid ConfigNodePropertyString comAdobeGraniteFragsImpl = null;
-  private @Valid ConfigNodePropertyString comAdobeGraniteGibson = null;
-  private @Valid ConfigNodePropertyString comAdobeGraniteInfocollector = null;
-  private @Valid ConfigNodePropertyString comAdobeGraniteInstallerFactoryPackages = null;
-  private @Valid ConfigNodePropertyString comAdobeGraniteJettySsl = null;
-  private @Valid ConfigNodePropertyString comAdobeGraniteJobsAsync = null;
-  private @Valid ConfigNodePropertyString comAdobeGraniteMaintenanceOak = null;
-  private @Valid ConfigNodePropertyString comAdobeGraniteMonitoringCore = null;
-  private @Valid ConfigNodePropertyString comAdobeGraniteQueries = null;
-  private @Valid ConfigNodePropertyString comAdobeGraniteReplicationHcImpl = null;
-  private @Valid ConfigNodePropertyString comAdobeGraniteRepositoryChecker = null;
-  private @Valid ConfigNodePropertyString comAdobeGraniteRepositoryHcImpl = null;
-  private @Valid ConfigNodePropertyString comAdobeGraniteRestAssets = null;
-  private @Valid ConfigNodePropertyString comAdobeGraniteSecurityUi = null;
-  private @Valid ConfigNodePropertyString comAdobeGraniteStartup = null;
-  private @Valid ConfigNodePropertyString comAdobeGraniteTagsoup = null;
-  private @Valid ConfigNodePropertyString comAdobeGraniteTaskmanagementCore = null;
-  private @Valid ConfigNodePropertyString comAdobeGraniteTaskmanagementWorkflow = null;
-  private @Valid ConfigNodePropertyString comAdobeGraniteUiClientlibsCompilerLess = null;
-  private @Valid ConfigNodePropertyString comAdobeGraniteUiClientlibsProcessorGcc = null;
-  private @Valid ConfigNodePropertyString comAdobeGraniteWebconsolePlugins = null;
-  private @Valid ConfigNodePropertyString comAdobeGraniteWorkflowConsole = null;
-  private @Valid ConfigNodePropertyString comAdobeXmpWorkerFilesNativeFragmentLinux = null;
-  private @Valid ConfigNodePropertyString comAdobeXmpWorkerFilesNativeFragmentMacosx = null;
-  private @Valid ConfigNodePropertyString comAdobeXmpWorkerFilesNativeFragmentWin = null;
-  private @Valid ConfigNodePropertyString comDayCommonsOsgiWrapperSimpleJndi = null;
-  private @Valid ConfigNodePropertyString comDayCqCqAuthhandler = null;
-  private @Valid ConfigNodePropertyString comDayCqCqCompatConfigupdate = null;
-  private @Valid ConfigNodePropertyString comDayCqCqLicensebranding = null;
-  private @Valid ConfigNodePropertyString comDayCqCqNotifcationImpl = null;
-  private @Valid ConfigNodePropertyString comDayCqCqReplicationAudit = null;
-  private @Valid ConfigNodePropertyString comDayCqCqSearchExt = null;
-  private @Valid ConfigNodePropertyString comDayCqDamCqDamAnnotationPrint = null;
-  private @Valid ConfigNodePropertyString comDayCqDamCqDamAssetUsage = null;
-  private @Valid ConfigNodePropertyString comDayCqDamCqDamS7dam = null;
-  private @Valid ConfigNodePropertyString comDayCqDamCqDamSimilaritysearch = null;
-  private @Valid ConfigNodePropertyString comDayCqDamDamWebdavSupport = null;
-  private @Valid ConfigNodePropertyString comDayCqPreUpgradeTasks = null;
-  private @Valid ConfigNodePropertyString comDayCqReplicationExtensions = null;
-  private @Valid ConfigNodePropertyString comDayCqWcmCqMsmCore = null;
-  private @Valid ConfigNodePropertyString comDayCqWcmCqWcmTranslation = null;
-  private @Valid ConfigNodePropertyString dayCommonsJrawio = null;
-  private @Valid ConfigNodePropertyString orgApacheAriesJmxWhiteboard = null;
-  private @Valid ConfigNodePropertyString orgApacheFelixHttpSslfilter = null;
-  private @Valid ConfigNodePropertyString orgApacheFelixOrgApacheFelixThreaddump = null;
-  private @Valid ConfigNodePropertyString orgApacheFelixWebconsolePluginsDs = null;
-  private @Valid ConfigNodePropertyString orgApacheFelixWebconsolePluginsEvent = null;
-  private @Valid ConfigNodePropertyString orgApacheFelixWebconsolePluginsMemoryusage = null;
-  private @Valid ConfigNodePropertyString orgApacheFelixWebconsolePluginsPackageadmin = null;
-  private @Valid ConfigNodePropertyString orgApacheJackrabbitOakAuthLdap = null;
-  private @Valid ConfigNodePropertyString orgApacheJackrabbitOakSegmentTar = null;
-  private @Valid ConfigNodePropertyString orgApacheJackrabbitOakSolrOsgi = null;
-  private @Valid ConfigNodePropertyString orgApacheSlingBundleresourceImpl = null;
-  private @Valid ConfigNodePropertyString orgApacheSlingCommonsFsclassloader = null;
-  private @Valid ConfigNodePropertyString orgApacheSlingCommonsLogWebconsole = null;
-  private @Valid ConfigNodePropertyString orgApacheSlingDatasource = null;
-  private @Valid ConfigNodePropertyString orgApacheSlingDiscoveryBase = null;
-  private @Valid ConfigNodePropertyString orgApacheSlingDiscoveryOak = null;
-  private @Valid ConfigNodePropertyString orgApacheSlingDiscoverySupport = null;
-  private @Valid ConfigNodePropertyString orgApacheSlingDistributionApi = null;
-  private @Valid ConfigNodePropertyString orgApacheSlingDistributionCore = null;
-  private @Valid ConfigNodePropertyString orgApacheSlingExtensionsWebconsolesecurityprovider = null;
-  private @Valid ConfigNodePropertyString orgApacheSlingHcWebconsole = null;
-  private @Valid ConfigNodePropertyString orgApacheSlingInstallerConsole = null;
-  private @Valid ConfigNodePropertyString orgApacheSlingInstallerProviderFile = null;
-  private @Valid ConfigNodePropertyString orgApacheSlingInstallerProviderJcr = null;
-  private @Valid ConfigNodePropertyString orgApacheSlingJcrDavex = null;
-  private @Valid ConfigNodePropertyString orgApacheSlingJcrResourcesecurity = null;
-  private @Valid ConfigNodePropertyString orgApacheSlingJmxProvider = null;
-  private @Valid ConfigNodePropertyString orgApacheSlingLaunchpadInstaller = null;
-  private @Valid ConfigNodePropertyString orgApacheSlingModelsImpl = null;
-  private @Valid ConfigNodePropertyString orgApacheSlingRepoinitParser = null;
-  private @Valid ConfigNodePropertyString orgApacheSlingResourceInventory = null;
-  private @Valid ConfigNodePropertyString orgApacheSlingResourceresolver = null;
-  private @Valid ConfigNodePropertyString orgApacheSlingScriptingJavascript = null;
-  private @Valid ConfigNodePropertyString orgApacheSlingScriptingJst = null;
-  private @Valid ConfigNodePropertyString orgApacheSlingScriptingSightlyJsProvider = null;
-  private @Valid ConfigNodePropertyString orgApacheSlingScriptingSightlyModelsProvider = null;
-  private @Valid ConfigNodePropertyString orgApacheSlingSecurity = null;
-  private @Valid ConfigNodePropertyString orgApacheSlingServletsCompat = null;
-  private @Valid ConfigNodePropertyString orgApacheSlingServletsGet = null;
-  private @Valid ConfigNodePropertyString orgApacheSlingStartupfilterDisabler = null;
-  private @Valid ConfigNodePropertyString orgApacheSlingTracer = null;
-  private @Valid ConfigNodePropertyString weRetailClientAppCore = null;
+  private ConfigNodePropertyString comAdobeCqCdnCdnRewriter;
+  private ConfigNodePropertyString comAdobeCqCloudConfigComponents;
+  private ConfigNodePropertyString comAdobeCqCloudConfigCore;
+  private ConfigNodePropertyString comAdobeCqCloudConfigUi;
+  private ConfigNodePropertyString comAdobeCqComAdobeCqEditor;
+  private ConfigNodePropertyString comAdobeCqComAdobeCqProjectsCore;
+  private ConfigNodePropertyString comAdobeCqComAdobeCqProjectsWcmCore;
+  private ConfigNodePropertyString comAdobeCqComAdobeCqUiCommons;
+  private ConfigNodePropertyString comAdobeCqComAdobeCqWcmStyle;
+  private ConfigNodePropertyString comAdobeCqCqActivitymapIntegration;
+  private ConfigNodePropertyString comAdobeCqCqContexthubCommons;
+  private ConfigNodePropertyString comAdobeCqCqDtm;
+  private ConfigNodePropertyString comAdobeCqCqHealthcheck;
+  private ConfigNodePropertyString comAdobeCqCqMultisiteTargeting;
+  private ConfigNodePropertyString comAdobeCqCqPreUpgradeCleanup;
+  private ConfigNodePropertyString comAdobeCqCqProductInfoProvider;
+  private ConfigNodePropertyString comAdobeCqCqRestSites;
+  private ConfigNodePropertyString comAdobeCqCqSecurityHc;
+  private ConfigNodePropertyString comAdobeCqDamCqDamSvgHandler;
+  private ConfigNodePropertyString comAdobeCqDamCqScene7Imaging;
+  private ConfigNodePropertyString comAdobeCqDtmReactorCore;
+  private ConfigNodePropertyString comAdobeCqDtmReactorUi;
+  private ConfigNodePropertyString comAdobeCqExpJspelResolver;
+  private ConfigNodePropertyString comAdobeCqInboxCqInbox;
+  private ConfigNodePropertyString comAdobeCqJsonSchemaParser;
+  private ConfigNodePropertyString comAdobeCqMediaCqMediaPublishingDpsFpCore;
+  private ConfigNodePropertyString comAdobeCqMobileCqMobileCaas;
+  private ConfigNodePropertyString comAdobeCqMobileCqMobileIndexBuilder;
+  private ConfigNodePropertyString comAdobeCqMobileCqMobilePhonegapBuild;
+  private ConfigNodePropertyString comAdobeCqMyspell;
+  private ConfigNodePropertyString comAdobeCqSampleWeRetailCore;
+  private ConfigNodePropertyString comAdobeCqScreensComAdobeCqScreensDcc;
+  private ConfigNodePropertyString comAdobeCqScreensComAdobeCqScreensMqCore;
+  private ConfigNodePropertyString comAdobeCqSocialCqSocialAsProvider;
+  private ConfigNodePropertyString comAdobeCqSocialCqSocialBadgingBasicImpl;
+  private ConfigNodePropertyString comAdobeCqSocialCqSocialBadgingImpl;
+  private ConfigNodePropertyString comAdobeCqSocialCqSocialCalendarImpl;
+  private ConfigNodePropertyString comAdobeCqSocialCqSocialContentFragmentsImpl;
+  private ConfigNodePropertyString comAdobeCqSocialCqSocialEnablementImpl;
+  private ConfigNodePropertyString comAdobeCqSocialCqSocialGraphImpl;
+  private ConfigNodePropertyString comAdobeCqSocialCqSocialIdeationImpl;
+  private ConfigNodePropertyString comAdobeCqSocialCqSocialJcrProvider;
+  private ConfigNodePropertyString comAdobeCqSocialCqSocialMembersImpl;
+  private ConfigNodePropertyString comAdobeCqSocialCqSocialMsProvider;
+  private ConfigNodePropertyString comAdobeCqSocialCqSocialNotificationsChannelsWeb;
+  private ConfigNodePropertyString comAdobeCqSocialCqSocialNotificationsImpl;
+  private ConfigNodePropertyString comAdobeCqSocialCqSocialRdbProvider;
+  private ConfigNodePropertyString comAdobeCqSocialCqSocialScfImpl;
+  private ConfigNodePropertyString comAdobeCqSocialCqSocialScoringBasicImpl;
+  private ConfigNodePropertyString comAdobeCqSocialCqSocialScoringImpl;
+  private ConfigNodePropertyString comAdobeCqSocialCqSocialServiceusersImpl;
+  private ConfigNodePropertyString comAdobeCqSocialCqSocialSrpImpl;
+  private ConfigNodePropertyString comAdobeCqSocialCqSocialUgcbaseImpl;
+  private ConfigNodePropertyString comAdobeDamCqDamCfmImpl;
+  private ConfigNodePropertyString comAdobeFormsFoundationFormsFoundationBase;
+  private ConfigNodePropertyString comAdobeGraniteApicontroller;
+  private ConfigNodePropertyString comAdobeGraniteAssetCore;
+  private ConfigNodePropertyString comAdobeGraniteAuthSso;
+  private ConfigNodePropertyString comAdobeGraniteBundlesHcImpl;
+  private ConfigNodePropertyString comAdobeGraniteCompatRouter;
+  private ConfigNodePropertyString comAdobeGraniteConf;
+  private ConfigNodePropertyString comAdobeGraniteConfUiCore;
+  private ConfigNodePropertyString comAdobeGraniteCors;
+  private ConfigNodePropertyString comAdobeGraniteCrxExplorer;
+  private ConfigNodePropertyString comAdobeGraniteCrxdeLite;
+  private ConfigNodePropertyString comAdobeGraniteCryptoConfig;
+  private ConfigNodePropertyString comAdobeGraniteCryptoExtension;
+  private ConfigNodePropertyString comAdobeGraniteCryptoFile;
+  private ConfigNodePropertyString comAdobeGraniteCryptoJcr;
+  private ConfigNodePropertyString comAdobeGraniteCsrf;
+  private ConfigNodePropertyString comAdobeGraniteDistributionCore;
+  private ConfigNodePropertyString comAdobeGraniteDropwizardMetrics;
+  private ConfigNodePropertyString comAdobeGraniteFragsImpl;
+  private ConfigNodePropertyString comAdobeGraniteGibson;
+  private ConfigNodePropertyString comAdobeGraniteInfocollector;
+  private ConfigNodePropertyString comAdobeGraniteInstallerFactoryPackages;
+  private ConfigNodePropertyString comAdobeGraniteJettySsl;
+  private ConfigNodePropertyString comAdobeGraniteJobsAsync;
+  private ConfigNodePropertyString comAdobeGraniteMaintenanceOak;
+  private ConfigNodePropertyString comAdobeGraniteMonitoringCore;
+  private ConfigNodePropertyString comAdobeGraniteQueries;
+  private ConfigNodePropertyString comAdobeGraniteReplicationHcImpl;
+  private ConfigNodePropertyString comAdobeGraniteRepositoryChecker;
+  private ConfigNodePropertyString comAdobeGraniteRepositoryHcImpl;
+  private ConfigNodePropertyString comAdobeGraniteRestAssets;
+  private ConfigNodePropertyString comAdobeGraniteSecurityUi;
+  private ConfigNodePropertyString comAdobeGraniteStartup;
+  private ConfigNodePropertyString comAdobeGraniteTagsoup;
+  private ConfigNodePropertyString comAdobeGraniteTaskmanagementCore;
+  private ConfigNodePropertyString comAdobeGraniteTaskmanagementWorkflow;
+  private ConfigNodePropertyString comAdobeGraniteUiClientlibsCompilerLess;
+  private ConfigNodePropertyString comAdobeGraniteUiClientlibsProcessorGcc;
+  private ConfigNodePropertyString comAdobeGraniteWebconsolePlugins;
+  private ConfigNodePropertyString comAdobeGraniteWorkflowConsole;
+  private ConfigNodePropertyString comAdobeXmpWorkerFilesNativeFragmentLinux;
+  private ConfigNodePropertyString comAdobeXmpWorkerFilesNativeFragmentMacosx;
+  private ConfigNodePropertyString comAdobeXmpWorkerFilesNativeFragmentWin;
+  private ConfigNodePropertyString comDayCommonsOsgiWrapperSimpleJndi;
+  private ConfigNodePropertyString comDayCqCqAuthhandler;
+  private ConfigNodePropertyString comDayCqCqCompatConfigupdate;
+  private ConfigNodePropertyString comDayCqCqLicensebranding;
+  private ConfigNodePropertyString comDayCqCqNotifcationImpl;
+  private ConfigNodePropertyString comDayCqCqReplicationAudit;
+  private ConfigNodePropertyString comDayCqCqSearchExt;
+  private ConfigNodePropertyString comDayCqDamCqDamAnnotationPrint;
+  private ConfigNodePropertyString comDayCqDamCqDamAssetUsage;
+  private ConfigNodePropertyString comDayCqDamCqDamS7dam;
+  private ConfigNodePropertyString comDayCqDamCqDamSimilaritysearch;
+  private ConfigNodePropertyString comDayCqDamDamWebdavSupport;
+  private ConfigNodePropertyString comDayCqPreUpgradeTasks;
+  private ConfigNodePropertyString comDayCqReplicationExtensions;
+  private ConfigNodePropertyString comDayCqWcmCqMsmCore;
+  private ConfigNodePropertyString comDayCqWcmCqWcmTranslation;
+  private ConfigNodePropertyString dayCommonsJrawio;
+  private ConfigNodePropertyString orgApacheAriesJmxWhiteboard;
+  private ConfigNodePropertyString orgApacheFelixHttpSslfilter;
+  private ConfigNodePropertyString orgApacheFelixOrgApacheFelixThreaddump;
+  private ConfigNodePropertyString orgApacheFelixWebconsolePluginsDs;
+  private ConfigNodePropertyString orgApacheFelixWebconsolePluginsEvent;
+  private ConfigNodePropertyString orgApacheFelixWebconsolePluginsMemoryusage;
+  private ConfigNodePropertyString orgApacheFelixWebconsolePluginsPackageadmin;
+  private ConfigNodePropertyString orgApacheJackrabbitOakAuthLdap;
+  private ConfigNodePropertyString orgApacheJackrabbitOakSegmentTar;
+  private ConfigNodePropertyString orgApacheJackrabbitOakSolrOsgi;
+  private ConfigNodePropertyString orgApacheSlingBundleresourceImpl;
+  private ConfigNodePropertyString orgApacheSlingCommonsFsclassloader;
+  private ConfigNodePropertyString orgApacheSlingCommonsLogWebconsole;
+  private ConfigNodePropertyString orgApacheSlingDatasource;
+  private ConfigNodePropertyString orgApacheSlingDiscoveryBase;
+  private ConfigNodePropertyString orgApacheSlingDiscoveryOak;
+  private ConfigNodePropertyString orgApacheSlingDiscoverySupport;
+  private ConfigNodePropertyString orgApacheSlingDistributionApi;
+  private ConfigNodePropertyString orgApacheSlingDistributionCore;
+  private ConfigNodePropertyString orgApacheSlingExtensionsWebconsolesecurityprovider;
+  private ConfigNodePropertyString orgApacheSlingHcWebconsole;
+  private ConfigNodePropertyString orgApacheSlingInstallerConsole;
+  private ConfigNodePropertyString orgApacheSlingInstallerProviderFile;
+  private ConfigNodePropertyString orgApacheSlingInstallerProviderJcr;
+  private ConfigNodePropertyString orgApacheSlingJcrDavex;
+  private ConfigNodePropertyString orgApacheSlingJcrResourcesecurity;
+  private ConfigNodePropertyString orgApacheSlingJmxProvider;
+  private ConfigNodePropertyString orgApacheSlingLaunchpadInstaller;
+  private ConfigNodePropertyString orgApacheSlingModelsImpl;
+  private ConfigNodePropertyString orgApacheSlingRepoinitParser;
+  private ConfigNodePropertyString orgApacheSlingResourceInventory;
+  private ConfigNodePropertyString orgApacheSlingResourceresolver;
+  private ConfigNodePropertyString orgApacheSlingScriptingJavascript;
+  private ConfigNodePropertyString orgApacheSlingScriptingJst;
+  private ConfigNodePropertyString orgApacheSlingScriptingSightlyJsProvider;
+  private ConfigNodePropertyString orgApacheSlingScriptingSightlyModelsProvider;
+  private ConfigNodePropertyString orgApacheSlingSecurity;
+  private ConfigNodePropertyString orgApacheSlingServletsCompat;
+  private ConfigNodePropertyString orgApacheSlingServletsGet;
+  private ConfigNodePropertyString orgApacheSlingStartupfilterDisabler;
+  private ConfigNodePropertyString orgApacheSlingTracer;
+  private ConfigNodePropertyString weRetailClientAppCore;
+
+  public ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties() {
+  }
 
   /**
    **/
@@ -179,9 +190,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.cq.cdn.cdn-rewriter")
-  public ConfigNodePropertyString getComAdobeCqCdnCdnRewriter() {
+  @Valid public ConfigNodePropertyString getComAdobeCqCdnCdnRewriter() {
     return comAdobeCqCdnCdnRewriter;
   }
+
+  @JsonProperty("com.adobe.cq.cdn.cdn-rewriter")
   public void setComAdobeCqCdnCdnRewriter(ConfigNodePropertyString comAdobeCqCdnCdnRewriter) {
     this.comAdobeCqCdnCdnRewriter = comAdobeCqCdnCdnRewriter;
   }
@@ -196,9 +209,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.cq.cloud-config.components")
-  public ConfigNodePropertyString getComAdobeCqCloudConfigComponents() {
+  @Valid public ConfigNodePropertyString getComAdobeCqCloudConfigComponents() {
     return comAdobeCqCloudConfigComponents;
   }
+
+  @JsonProperty("com.adobe.cq.cloud-config.components")
   public void setComAdobeCqCloudConfigComponents(ConfigNodePropertyString comAdobeCqCloudConfigComponents) {
     this.comAdobeCqCloudConfigComponents = comAdobeCqCloudConfigComponents;
   }
@@ -213,9 +228,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.cq.cloud-config.core")
-  public ConfigNodePropertyString getComAdobeCqCloudConfigCore() {
+  @Valid public ConfigNodePropertyString getComAdobeCqCloudConfigCore() {
     return comAdobeCqCloudConfigCore;
   }
+
+  @JsonProperty("com.adobe.cq.cloud-config.core")
   public void setComAdobeCqCloudConfigCore(ConfigNodePropertyString comAdobeCqCloudConfigCore) {
     this.comAdobeCqCloudConfigCore = comAdobeCqCloudConfigCore;
   }
@@ -230,9 +247,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.cq.cloud-config.ui")
-  public ConfigNodePropertyString getComAdobeCqCloudConfigUi() {
+  @Valid public ConfigNodePropertyString getComAdobeCqCloudConfigUi() {
     return comAdobeCqCloudConfigUi;
   }
+
+  @JsonProperty("com.adobe.cq.cloud-config.ui")
   public void setComAdobeCqCloudConfigUi(ConfigNodePropertyString comAdobeCqCloudConfigUi) {
     this.comAdobeCqCloudConfigUi = comAdobeCqCloudConfigUi;
   }
@@ -247,9 +266,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.cq.com.adobe.cq.editor")
-  public ConfigNodePropertyString getComAdobeCqComAdobeCqEditor() {
+  @Valid public ConfigNodePropertyString getComAdobeCqComAdobeCqEditor() {
     return comAdobeCqComAdobeCqEditor;
   }
+
+  @JsonProperty("com.adobe.cq.com.adobe.cq.editor")
   public void setComAdobeCqComAdobeCqEditor(ConfigNodePropertyString comAdobeCqComAdobeCqEditor) {
     this.comAdobeCqComAdobeCqEditor = comAdobeCqComAdobeCqEditor;
   }
@@ -264,9 +285,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.cq.com.adobe.cq.projects.core")
-  public ConfigNodePropertyString getComAdobeCqComAdobeCqProjectsCore() {
+  @Valid public ConfigNodePropertyString getComAdobeCqComAdobeCqProjectsCore() {
     return comAdobeCqComAdobeCqProjectsCore;
   }
+
+  @JsonProperty("com.adobe.cq.com.adobe.cq.projects.core")
   public void setComAdobeCqComAdobeCqProjectsCore(ConfigNodePropertyString comAdobeCqComAdobeCqProjectsCore) {
     this.comAdobeCqComAdobeCqProjectsCore = comAdobeCqComAdobeCqProjectsCore;
   }
@@ -281,9 +304,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.cq.com.adobe.cq.projects.wcm.core")
-  public ConfigNodePropertyString getComAdobeCqComAdobeCqProjectsWcmCore() {
+  @Valid public ConfigNodePropertyString getComAdobeCqComAdobeCqProjectsWcmCore() {
     return comAdobeCqComAdobeCqProjectsWcmCore;
   }
+
+  @JsonProperty("com.adobe.cq.com.adobe.cq.projects.wcm.core")
   public void setComAdobeCqComAdobeCqProjectsWcmCore(ConfigNodePropertyString comAdobeCqComAdobeCqProjectsWcmCore) {
     this.comAdobeCqComAdobeCqProjectsWcmCore = comAdobeCqComAdobeCqProjectsWcmCore;
   }
@@ -298,9 +323,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.cq.com.adobe.cq.ui.commons")
-  public ConfigNodePropertyString getComAdobeCqComAdobeCqUiCommons() {
+  @Valid public ConfigNodePropertyString getComAdobeCqComAdobeCqUiCommons() {
     return comAdobeCqComAdobeCqUiCommons;
   }
+
+  @JsonProperty("com.adobe.cq.com.adobe.cq.ui.commons")
   public void setComAdobeCqComAdobeCqUiCommons(ConfigNodePropertyString comAdobeCqComAdobeCqUiCommons) {
     this.comAdobeCqComAdobeCqUiCommons = comAdobeCqComAdobeCqUiCommons;
   }
@@ -315,9 +342,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.cq.com.adobe.cq.wcm.style")
-  public ConfigNodePropertyString getComAdobeCqComAdobeCqWcmStyle() {
+  @Valid public ConfigNodePropertyString getComAdobeCqComAdobeCqWcmStyle() {
     return comAdobeCqComAdobeCqWcmStyle;
   }
+
+  @JsonProperty("com.adobe.cq.com.adobe.cq.wcm.style")
   public void setComAdobeCqComAdobeCqWcmStyle(ConfigNodePropertyString comAdobeCqComAdobeCqWcmStyle) {
     this.comAdobeCqComAdobeCqWcmStyle = comAdobeCqComAdobeCqWcmStyle;
   }
@@ -332,9 +361,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.cq.cq-activitymap-integration")
-  public ConfigNodePropertyString getComAdobeCqCqActivitymapIntegration() {
+  @Valid public ConfigNodePropertyString getComAdobeCqCqActivitymapIntegration() {
     return comAdobeCqCqActivitymapIntegration;
   }
+
+  @JsonProperty("com.adobe.cq.cq-activitymap-integration")
   public void setComAdobeCqCqActivitymapIntegration(ConfigNodePropertyString comAdobeCqCqActivitymapIntegration) {
     this.comAdobeCqCqActivitymapIntegration = comAdobeCqCqActivitymapIntegration;
   }
@@ -349,9 +380,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.cq.cq-contexthub-commons")
-  public ConfigNodePropertyString getComAdobeCqCqContexthubCommons() {
+  @Valid public ConfigNodePropertyString getComAdobeCqCqContexthubCommons() {
     return comAdobeCqCqContexthubCommons;
   }
+
+  @JsonProperty("com.adobe.cq.cq-contexthub-commons")
   public void setComAdobeCqCqContexthubCommons(ConfigNodePropertyString comAdobeCqCqContexthubCommons) {
     this.comAdobeCqCqContexthubCommons = comAdobeCqCqContexthubCommons;
   }
@@ -366,9 +399,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.cq.cq-dtm")
-  public ConfigNodePropertyString getComAdobeCqCqDtm() {
+  @Valid public ConfigNodePropertyString getComAdobeCqCqDtm() {
     return comAdobeCqCqDtm;
   }
+
+  @JsonProperty("com.adobe.cq.cq-dtm")
   public void setComAdobeCqCqDtm(ConfigNodePropertyString comAdobeCqCqDtm) {
     this.comAdobeCqCqDtm = comAdobeCqCqDtm;
   }
@@ -383,9 +418,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.cq.cq-healthcheck")
-  public ConfigNodePropertyString getComAdobeCqCqHealthcheck() {
+  @Valid public ConfigNodePropertyString getComAdobeCqCqHealthcheck() {
     return comAdobeCqCqHealthcheck;
   }
+
+  @JsonProperty("com.adobe.cq.cq-healthcheck")
   public void setComAdobeCqCqHealthcheck(ConfigNodePropertyString comAdobeCqCqHealthcheck) {
     this.comAdobeCqCqHealthcheck = comAdobeCqCqHealthcheck;
   }
@@ -400,9 +437,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.cq.cq-multisite-targeting")
-  public ConfigNodePropertyString getComAdobeCqCqMultisiteTargeting() {
+  @Valid public ConfigNodePropertyString getComAdobeCqCqMultisiteTargeting() {
     return comAdobeCqCqMultisiteTargeting;
   }
+
+  @JsonProperty("com.adobe.cq.cq-multisite-targeting")
   public void setComAdobeCqCqMultisiteTargeting(ConfigNodePropertyString comAdobeCqCqMultisiteTargeting) {
     this.comAdobeCqCqMultisiteTargeting = comAdobeCqCqMultisiteTargeting;
   }
@@ -417,9 +456,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.cq.cq-pre-upgrade-cleanup")
-  public ConfigNodePropertyString getComAdobeCqCqPreUpgradeCleanup() {
+  @Valid public ConfigNodePropertyString getComAdobeCqCqPreUpgradeCleanup() {
     return comAdobeCqCqPreUpgradeCleanup;
   }
+
+  @JsonProperty("com.adobe.cq.cq-pre-upgrade-cleanup")
   public void setComAdobeCqCqPreUpgradeCleanup(ConfigNodePropertyString comAdobeCqCqPreUpgradeCleanup) {
     this.comAdobeCqCqPreUpgradeCleanup = comAdobeCqCqPreUpgradeCleanup;
   }
@@ -434,9 +475,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.cq.cq-product-info-provider")
-  public ConfigNodePropertyString getComAdobeCqCqProductInfoProvider() {
+  @Valid public ConfigNodePropertyString getComAdobeCqCqProductInfoProvider() {
     return comAdobeCqCqProductInfoProvider;
   }
+
+  @JsonProperty("com.adobe.cq.cq-product-info-provider")
   public void setComAdobeCqCqProductInfoProvider(ConfigNodePropertyString comAdobeCqCqProductInfoProvider) {
     this.comAdobeCqCqProductInfoProvider = comAdobeCqCqProductInfoProvider;
   }
@@ -451,9 +494,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.cq.cq-rest-sites")
-  public ConfigNodePropertyString getComAdobeCqCqRestSites() {
+  @Valid public ConfigNodePropertyString getComAdobeCqCqRestSites() {
     return comAdobeCqCqRestSites;
   }
+
+  @JsonProperty("com.adobe.cq.cq-rest-sites")
   public void setComAdobeCqCqRestSites(ConfigNodePropertyString comAdobeCqCqRestSites) {
     this.comAdobeCqCqRestSites = comAdobeCqCqRestSites;
   }
@@ -468,9 +513,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.cq.cq-security-hc")
-  public ConfigNodePropertyString getComAdobeCqCqSecurityHc() {
+  @Valid public ConfigNodePropertyString getComAdobeCqCqSecurityHc() {
     return comAdobeCqCqSecurityHc;
   }
+
+  @JsonProperty("com.adobe.cq.cq-security-hc")
   public void setComAdobeCqCqSecurityHc(ConfigNodePropertyString comAdobeCqCqSecurityHc) {
     this.comAdobeCqCqSecurityHc = comAdobeCqCqSecurityHc;
   }
@@ -485,9 +532,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.cq.dam.cq-dam-svg-handler")
-  public ConfigNodePropertyString getComAdobeCqDamCqDamSvgHandler() {
+  @Valid public ConfigNodePropertyString getComAdobeCqDamCqDamSvgHandler() {
     return comAdobeCqDamCqDamSvgHandler;
   }
+
+  @JsonProperty("com.adobe.cq.dam.cq-dam-svg-handler")
   public void setComAdobeCqDamCqDamSvgHandler(ConfigNodePropertyString comAdobeCqDamCqDamSvgHandler) {
     this.comAdobeCqDamCqDamSvgHandler = comAdobeCqDamCqDamSvgHandler;
   }
@@ -502,9 +551,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.cq.dam.cq-scene7-imaging")
-  public ConfigNodePropertyString getComAdobeCqDamCqScene7Imaging() {
+  @Valid public ConfigNodePropertyString getComAdobeCqDamCqScene7Imaging() {
     return comAdobeCqDamCqScene7Imaging;
   }
+
+  @JsonProperty("com.adobe.cq.dam.cq-scene7-imaging")
   public void setComAdobeCqDamCqScene7Imaging(ConfigNodePropertyString comAdobeCqDamCqScene7Imaging) {
     this.comAdobeCqDamCqScene7Imaging = comAdobeCqDamCqScene7Imaging;
   }
@@ -519,9 +570,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.cq.dtm-reactor.core")
-  public ConfigNodePropertyString getComAdobeCqDtmReactorCore() {
+  @Valid public ConfigNodePropertyString getComAdobeCqDtmReactorCore() {
     return comAdobeCqDtmReactorCore;
   }
+
+  @JsonProperty("com.adobe.cq.dtm-reactor.core")
   public void setComAdobeCqDtmReactorCore(ConfigNodePropertyString comAdobeCqDtmReactorCore) {
     this.comAdobeCqDtmReactorCore = comAdobeCqDtmReactorCore;
   }
@@ -536,9 +589,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.cq.dtm-reactor.ui")
-  public ConfigNodePropertyString getComAdobeCqDtmReactorUi() {
+  @Valid public ConfigNodePropertyString getComAdobeCqDtmReactorUi() {
     return comAdobeCqDtmReactorUi;
   }
+
+  @JsonProperty("com.adobe.cq.dtm-reactor.ui")
   public void setComAdobeCqDtmReactorUi(ConfigNodePropertyString comAdobeCqDtmReactorUi) {
     this.comAdobeCqDtmReactorUi = comAdobeCqDtmReactorUi;
   }
@@ -553,9 +608,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.cq.exp-jspel-resolver")
-  public ConfigNodePropertyString getComAdobeCqExpJspelResolver() {
+  @Valid public ConfigNodePropertyString getComAdobeCqExpJspelResolver() {
     return comAdobeCqExpJspelResolver;
   }
+
+  @JsonProperty("com.adobe.cq.exp-jspel-resolver")
   public void setComAdobeCqExpJspelResolver(ConfigNodePropertyString comAdobeCqExpJspelResolver) {
     this.comAdobeCqExpJspelResolver = comAdobeCqExpJspelResolver;
   }
@@ -570,9 +627,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.cq.inbox.cq-inbox")
-  public ConfigNodePropertyString getComAdobeCqInboxCqInbox() {
+  @Valid public ConfigNodePropertyString getComAdobeCqInboxCqInbox() {
     return comAdobeCqInboxCqInbox;
   }
+
+  @JsonProperty("com.adobe.cq.inbox.cq-inbox")
   public void setComAdobeCqInboxCqInbox(ConfigNodePropertyString comAdobeCqInboxCqInbox) {
     this.comAdobeCqInboxCqInbox = comAdobeCqInboxCqInbox;
   }
@@ -587,9 +646,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.cq.json-schema-parser")
-  public ConfigNodePropertyString getComAdobeCqJsonSchemaParser() {
+  @Valid public ConfigNodePropertyString getComAdobeCqJsonSchemaParser() {
     return comAdobeCqJsonSchemaParser;
   }
+
+  @JsonProperty("com.adobe.cq.json-schema-parser")
   public void setComAdobeCqJsonSchemaParser(ConfigNodePropertyString comAdobeCqJsonSchemaParser) {
     this.comAdobeCqJsonSchemaParser = comAdobeCqJsonSchemaParser;
   }
@@ -604,9 +665,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.cq.media.cq-media-publishing-dps-fp-core")
-  public ConfigNodePropertyString getComAdobeCqMediaCqMediaPublishingDpsFpCore() {
+  @Valid public ConfigNodePropertyString getComAdobeCqMediaCqMediaPublishingDpsFpCore() {
     return comAdobeCqMediaCqMediaPublishingDpsFpCore;
   }
+
+  @JsonProperty("com.adobe.cq.media.cq-media-publishing-dps-fp-core")
   public void setComAdobeCqMediaCqMediaPublishingDpsFpCore(ConfigNodePropertyString comAdobeCqMediaCqMediaPublishingDpsFpCore) {
     this.comAdobeCqMediaCqMediaPublishingDpsFpCore = comAdobeCqMediaCqMediaPublishingDpsFpCore;
   }
@@ -621,9 +684,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.cq.mobile.cq-mobile-caas")
-  public ConfigNodePropertyString getComAdobeCqMobileCqMobileCaas() {
+  @Valid public ConfigNodePropertyString getComAdobeCqMobileCqMobileCaas() {
     return comAdobeCqMobileCqMobileCaas;
   }
+
+  @JsonProperty("com.adobe.cq.mobile.cq-mobile-caas")
   public void setComAdobeCqMobileCqMobileCaas(ConfigNodePropertyString comAdobeCqMobileCqMobileCaas) {
     this.comAdobeCqMobileCqMobileCaas = comAdobeCqMobileCqMobileCaas;
   }
@@ -638,9 +703,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.cq.mobile.cq-mobile-index-builder")
-  public ConfigNodePropertyString getComAdobeCqMobileCqMobileIndexBuilder() {
+  @Valid public ConfigNodePropertyString getComAdobeCqMobileCqMobileIndexBuilder() {
     return comAdobeCqMobileCqMobileIndexBuilder;
   }
+
+  @JsonProperty("com.adobe.cq.mobile.cq-mobile-index-builder")
   public void setComAdobeCqMobileCqMobileIndexBuilder(ConfigNodePropertyString comAdobeCqMobileCqMobileIndexBuilder) {
     this.comAdobeCqMobileCqMobileIndexBuilder = comAdobeCqMobileCqMobileIndexBuilder;
   }
@@ -655,9 +722,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.cq.mobile.cq-mobile-phonegap-build")
-  public ConfigNodePropertyString getComAdobeCqMobileCqMobilePhonegapBuild() {
+  @Valid public ConfigNodePropertyString getComAdobeCqMobileCqMobilePhonegapBuild() {
     return comAdobeCqMobileCqMobilePhonegapBuild;
   }
+
+  @JsonProperty("com.adobe.cq.mobile.cq-mobile-phonegap-build")
   public void setComAdobeCqMobileCqMobilePhonegapBuild(ConfigNodePropertyString comAdobeCqMobileCqMobilePhonegapBuild) {
     this.comAdobeCqMobileCqMobilePhonegapBuild = comAdobeCqMobileCqMobilePhonegapBuild;
   }
@@ -672,9 +741,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.cq.myspell")
-  public ConfigNodePropertyString getComAdobeCqMyspell() {
+  @Valid public ConfigNodePropertyString getComAdobeCqMyspell() {
     return comAdobeCqMyspell;
   }
+
+  @JsonProperty("com.adobe.cq.myspell")
   public void setComAdobeCqMyspell(ConfigNodePropertyString comAdobeCqMyspell) {
     this.comAdobeCqMyspell = comAdobeCqMyspell;
   }
@@ -689,9 +760,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.cq.sample.we.retail.core")
-  public ConfigNodePropertyString getComAdobeCqSampleWeRetailCore() {
+  @Valid public ConfigNodePropertyString getComAdobeCqSampleWeRetailCore() {
     return comAdobeCqSampleWeRetailCore;
   }
+
+  @JsonProperty("com.adobe.cq.sample.we.retail.core")
   public void setComAdobeCqSampleWeRetailCore(ConfigNodePropertyString comAdobeCqSampleWeRetailCore) {
     this.comAdobeCqSampleWeRetailCore = comAdobeCqSampleWeRetailCore;
   }
@@ -706,9 +779,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.cq.screens.com.adobe.cq.screens.dcc")
-  public ConfigNodePropertyString getComAdobeCqScreensComAdobeCqScreensDcc() {
+  @Valid public ConfigNodePropertyString getComAdobeCqScreensComAdobeCqScreensDcc() {
     return comAdobeCqScreensComAdobeCqScreensDcc;
   }
+
+  @JsonProperty("com.adobe.cq.screens.com.adobe.cq.screens.dcc")
   public void setComAdobeCqScreensComAdobeCqScreensDcc(ConfigNodePropertyString comAdobeCqScreensComAdobeCqScreensDcc) {
     this.comAdobeCqScreensComAdobeCqScreensDcc = comAdobeCqScreensComAdobeCqScreensDcc;
   }
@@ -723,9 +798,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.cq.screens.com.adobe.cq.screens.mq.core")
-  public ConfigNodePropertyString getComAdobeCqScreensComAdobeCqScreensMqCore() {
+  @Valid public ConfigNodePropertyString getComAdobeCqScreensComAdobeCqScreensMqCore() {
     return comAdobeCqScreensComAdobeCqScreensMqCore;
   }
+
+  @JsonProperty("com.adobe.cq.screens.com.adobe.cq.screens.mq.core")
   public void setComAdobeCqScreensComAdobeCqScreensMqCore(ConfigNodePropertyString comAdobeCqScreensComAdobeCqScreensMqCore) {
     this.comAdobeCqScreensComAdobeCqScreensMqCore = comAdobeCqScreensComAdobeCqScreensMqCore;
   }
@@ -740,9 +817,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.cq.social.cq-social-as-provider")
-  public ConfigNodePropertyString getComAdobeCqSocialCqSocialAsProvider() {
+  @Valid public ConfigNodePropertyString getComAdobeCqSocialCqSocialAsProvider() {
     return comAdobeCqSocialCqSocialAsProvider;
   }
+
+  @JsonProperty("com.adobe.cq.social.cq-social-as-provider")
   public void setComAdobeCqSocialCqSocialAsProvider(ConfigNodePropertyString comAdobeCqSocialCqSocialAsProvider) {
     this.comAdobeCqSocialCqSocialAsProvider = comAdobeCqSocialCqSocialAsProvider;
   }
@@ -757,9 +836,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.cq.social.cq-social-badging-basic-impl")
-  public ConfigNodePropertyString getComAdobeCqSocialCqSocialBadgingBasicImpl() {
+  @Valid public ConfigNodePropertyString getComAdobeCqSocialCqSocialBadgingBasicImpl() {
     return comAdobeCqSocialCqSocialBadgingBasicImpl;
   }
+
+  @JsonProperty("com.adobe.cq.social.cq-social-badging-basic-impl")
   public void setComAdobeCqSocialCqSocialBadgingBasicImpl(ConfigNodePropertyString comAdobeCqSocialCqSocialBadgingBasicImpl) {
     this.comAdobeCqSocialCqSocialBadgingBasicImpl = comAdobeCqSocialCqSocialBadgingBasicImpl;
   }
@@ -774,9 +855,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.cq.social.cq-social-badging-impl")
-  public ConfigNodePropertyString getComAdobeCqSocialCqSocialBadgingImpl() {
+  @Valid public ConfigNodePropertyString getComAdobeCqSocialCqSocialBadgingImpl() {
     return comAdobeCqSocialCqSocialBadgingImpl;
   }
+
+  @JsonProperty("com.adobe.cq.social.cq-social-badging-impl")
   public void setComAdobeCqSocialCqSocialBadgingImpl(ConfigNodePropertyString comAdobeCqSocialCqSocialBadgingImpl) {
     this.comAdobeCqSocialCqSocialBadgingImpl = comAdobeCqSocialCqSocialBadgingImpl;
   }
@@ -791,9 +874,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.cq.social.cq-social-calendar-impl")
-  public ConfigNodePropertyString getComAdobeCqSocialCqSocialCalendarImpl() {
+  @Valid public ConfigNodePropertyString getComAdobeCqSocialCqSocialCalendarImpl() {
     return comAdobeCqSocialCqSocialCalendarImpl;
   }
+
+  @JsonProperty("com.adobe.cq.social.cq-social-calendar-impl")
   public void setComAdobeCqSocialCqSocialCalendarImpl(ConfigNodePropertyString comAdobeCqSocialCqSocialCalendarImpl) {
     this.comAdobeCqSocialCqSocialCalendarImpl = comAdobeCqSocialCqSocialCalendarImpl;
   }
@@ -808,9 +893,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.cq.social.cq-social-content-fragments-impl")
-  public ConfigNodePropertyString getComAdobeCqSocialCqSocialContentFragmentsImpl() {
+  @Valid public ConfigNodePropertyString getComAdobeCqSocialCqSocialContentFragmentsImpl() {
     return comAdobeCqSocialCqSocialContentFragmentsImpl;
   }
+
+  @JsonProperty("com.adobe.cq.social.cq-social-content-fragments-impl")
   public void setComAdobeCqSocialCqSocialContentFragmentsImpl(ConfigNodePropertyString comAdobeCqSocialCqSocialContentFragmentsImpl) {
     this.comAdobeCqSocialCqSocialContentFragmentsImpl = comAdobeCqSocialCqSocialContentFragmentsImpl;
   }
@@ -825,9 +912,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.cq.social.cq-social-enablement-impl")
-  public ConfigNodePropertyString getComAdobeCqSocialCqSocialEnablementImpl() {
+  @Valid public ConfigNodePropertyString getComAdobeCqSocialCqSocialEnablementImpl() {
     return comAdobeCqSocialCqSocialEnablementImpl;
   }
+
+  @JsonProperty("com.adobe.cq.social.cq-social-enablement-impl")
   public void setComAdobeCqSocialCqSocialEnablementImpl(ConfigNodePropertyString comAdobeCqSocialCqSocialEnablementImpl) {
     this.comAdobeCqSocialCqSocialEnablementImpl = comAdobeCqSocialCqSocialEnablementImpl;
   }
@@ -842,9 +931,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.cq.social.cq-social-graph-impl")
-  public ConfigNodePropertyString getComAdobeCqSocialCqSocialGraphImpl() {
+  @Valid public ConfigNodePropertyString getComAdobeCqSocialCqSocialGraphImpl() {
     return comAdobeCqSocialCqSocialGraphImpl;
   }
+
+  @JsonProperty("com.adobe.cq.social.cq-social-graph-impl")
   public void setComAdobeCqSocialCqSocialGraphImpl(ConfigNodePropertyString comAdobeCqSocialCqSocialGraphImpl) {
     this.comAdobeCqSocialCqSocialGraphImpl = comAdobeCqSocialCqSocialGraphImpl;
   }
@@ -859,9 +950,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.cq.social.cq-social-ideation-impl")
-  public ConfigNodePropertyString getComAdobeCqSocialCqSocialIdeationImpl() {
+  @Valid public ConfigNodePropertyString getComAdobeCqSocialCqSocialIdeationImpl() {
     return comAdobeCqSocialCqSocialIdeationImpl;
   }
+
+  @JsonProperty("com.adobe.cq.social.cq-social-ideation-impl")
   public void setComAdobeCqSocialCqSocialIdeationImpl(ConfigNodePropertyString comAdobeCqSocialCqSocialIdeationImpl) {
     this.comAdobeCqSocialCqSocialIdeationImpl = comAdobeCqSocialCqSocialIdeationImpl;
   }
@@ -876,9 +969,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.cq.social.cq-social-jcr-provider")
-  public ConfigNodePropertyString getComAdobeCqSocialCqSocialJcrProvider() {
+  @Valid public ConfigNodePropertyString getComAdobeCqSocialCqSocialJcrProvider() {
     return comAdobeCqSocialCqSocialJcrProvider;
   }
+
+  @JsonProperty("com.adobe.cq.social.cq-social-jcr-provider")
   public void setComAdobeCqSocialCqSocialJcrProvider(ConfigNodePropertyString comAdobeCqSocialCqSocialJcrProvider) {
     this.comAdobeCqSocialCqSocialJcrProvider = comAdobeCqSocialCqSocialJcrProvider;
   }
@@ -893,9 +988,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.cq.social.cq-social-members-impl")
-  public ConfigNodePropertyString getComAdobeCqSocialCqSocialMembersImpl() {
+  @Valid public ConfigNodePropertyString getComAdobeCqSocialCqSocialMembersImpl() {
     return comAdobeCqSocialCqSocialMembersImpl;
   }
+
+  @JsonProperty("com.adobe.cq.social.cq-social-members-impl")
   public void setComAdobeCqSocialCqSocialMembersImpl(ConfigNodePropertyString comAdobeCqSocialCqSocialMembersImpl) {
     this.comAdobeCqSocialCqSocialMembersImpl = comAdobeCqSocialCqSocialMembersImpl;
   }
@@ -910,9 +1007,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.cq.social.cq-social-ms-provider")
-  public ConfigNodePropertyString getComAdobeCqSocialCqSocialMsProvider() {
+  @Valid public ConfigNodePropertyString getComAdobeCqSocialCqSocialMsProvider() {
     return comAdobeCqSocialCqSocialMsProvider;
   }
+
+  @JsonProperty("com.adobe.cq.social.cq-social-ms-provider")
   public void setComAdobeCqSocialCqSocialMsProvider(ConfigNodePropertyString comAdobeCqSocialCqSocialMsProvider) {
     this.comAdobeCqSocialCqSocialMsProvider = comAdobeCqSocialCqSocialMsProvider;
   }
@@ -927,9 +1026,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.cq.social.cq-social-notifications-channels-web")
-  public ConfigNodePropertyString getComAdobeCqSocialCqSocialNotificationsChannelsWeb() {
+  @Valid public ConfigNodePropertyString getComAdobeCqSocialCqSocialNotificationsChannelsWeb() {
     return comAdobeCqSocialCqSocialNotificationsChannelsWeb;
   }
+
+  @JsonProperty("com.adobe.cq.social.cq-social-notifications-channels-web")
   public void setComAdobeCqSocialCqSocialNotificationsChannelsWeb(ConfigNodePropertyString comAdobeCqSocialCqSocialNotificationsChannelsWeb) {
     this.comAdobeCqSocialCqSocialNotificationsChannelsWeb = comAdobeCqSocialCqSocialNotificationsChannelsWeb;
   }
@@ -944,9 +1045,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.cq.social.cq-social-notifications-impl")
-  public ConfigNodePropertyString getComAdobeCqSocialCqSocialNotificationsImpl() {
+  @Valid public ConfigNodePropertyString getComAdobeCqSocialCqSocialNotificationsImpl() {
     return comAdobeCqSocialCqSocialNotificationsImpl;
   }
+
+  @JsonProperty("com.adobe.cq.social.cq-social-notifications-impl")
   public void setComAdobeCqSocialCqSocialNotificationsImpl(ConfigNodePropertyString comAdobeCqSocialCqSocialNotificationsImpl) {
     this.comAdobeCqSocialCqSocialNotificationsImpl = comAdobeCqSocialCqSocialNotificationsImpl;
   }
@@ -961,9 +1064,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.cq.social.cq-social-rdb-provider")
-  public ConfigNodePropertyString getComAdobeCqSocialCqSocialRdbProvider() {
+  @Valid public ConfigNodePropertyString getComAdobeCqSocialCqSocialRdbProvider() {
     return comAdobeCqSocialCqSocialRdbProvider;
   }
+
+  @JsonProperty("com.adobe.cq.social.cq-social-rdb-provider")
   public void setComAdobeCqSocialCqSocialRdbProvider(ConfigNodePropertyString comAdobeCqSocialCqSocialRdbProvider) {
     this.comAdobeCqSocialCqSocialRdbProvider = comAdobeCqSocialCqSocialRdbProvider;
   }
@@ -978,9 +1083,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.cq.social.cq-social-scf-impl")
-  public ConfigNodePropertyString getComAdobeCqSocialCqSocialScfImpl() {
+  @Valid public ConfigNodePropertyString getComAdobeCqSocialCqSocialScfImpl() {
     return comAdobeCqSocialCqSocialScfImpl;
   }
+
+  @JsonProperty("com.adobe.cq.social.cq-social-scf-impl")
   public void setComAdobeCqSocialCqSocialScfImpl(ConfigNodePropertyString comAdobeCqSocialCqSocialScfImpl) {
     this.comAdobeCqSocialCqSocialScfImpl = comAdobeCqSocialCqSocialScfImpl;
   }
@@ -995,9 +1102,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.cq.social.cq-social-scoring-basic-impl")
-  public ConfigNodePropertyString getComAdobeCqSocialCqSocialScoringBasicImpl() {
+  @Valid public ConfigNodePropertyString getComAdobeCqSocialCqSocialScoringBasicImpl() {
     return comAdobeCqSocialCqSocialScoringBasicImpl;
   }
+
+  @JsonProperty("com.adobe.cq.social.cq-social-scoring-basic-impl")
   public void setComAdobeCqSocialCqSocialScoringBasicImpl(ConfigNodePropertyString comAdobeCqSocialCqSocialScoringBasicImpl) {
     this.comAdobeCqSocialCqSocialScoringBasicImpl = comAdobeCqSocialCqSocialScoringBasicImpl;
   }
@@ -1012,9 +1121,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.cq.social.cq-social-scoring-impl")
-  public ConfigNodePropertyString getComAdobeCqSocialCqSocialScoringImpl() {
+  @Valid public ConfigNodePropertyString getComAdobeCqSocialCqSocialScoringImpl() {
     return comAdobeCqSocialCqSocialScoringImpl;
   }
+
+  @JsonProperty("com.adobe.cq.social.cq-social-scoring-impl")
   public void setComAdobeCqSocialCqSocialScoringImpl(ConfigNodePropertyString comAdobeCqSocialCqSocialScoringImpl) {
     this.comAdobeCqSocialCqSocialScoringImpl = comAdobeCqSocialCqSocialScoringImpl;
   }
@@ -1029,9 +1140,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.cq.social.cq-social-serviceusers-impl")
-  public ConfigNodePropertyString getComAdobeCqSocialCqSocialServiceusersImpl() {
+  @Valid public ConfigNodePropertyString getComAdobeCqSocialCqSocialServiceusersImpl() {
     return comAdobeCqSocialCqSocialServiceusersImpl;
   }
+
+  @JsonProperty("com.adobe.cq.social.cq-social-serviceusers-impl")
   public void setComAdobeCqSocialCqSocialServiceusersImpl(ConfigNodePropertyString comAdobeCqSocialCqSocialServiceusersImpl) {
     this.comAdobeCqSocialCqSocialServiceusersImpl = comAdobeCqSocialCqSocialServiceusersImpl;
   }
@@ -1046,9 +1159,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.cq.social.cq-social-srp-impl")
-  public ConfigNodePropertyString getComAdobeCqSocialCqSocialSrpImpl() {
+  @Valid public ConfigNodePropertyString getComAdobeCqSocialCqSocialSrpImpl() {
     return comAdobeCqSocialCqSocialSrpImpl;
   }
+
+  @JsonProperty("com.adobe.cq.social.cq-social-srp-impl")
   public void setComAdobeCqSocialCqSocialSrpImpl(ConfigNodePropertyString comAdobeCqSocialCqSocialSrpImpl) {
     this.comAdobeCqSocialCqSocialSrpImpl = comAdobeCqSocialCqSocialSrpImpl;
   }
@@ -1063,9 +1178,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.cq.social.cq-social-ugcbase-impl")
-  public ConfigNodePropertyString getComAdobeCqSocialCqSocialUgcbaseImpl() {
+  @Valid public ConfigNodePropertyString getComAdobeCqSocialCqSocialUgcbaseImpl() {
     return comAdobeCqSocialCqSocialUgcbaseImpl;
   }
+
+  @JsonProperty("com.adobe.cq.social.cq-social-ugcbase-impl")
   public void setComAdobeCqSocialCqSocialUgcbaseImpl(ConfigNodePropertyString comAdobeCqSocialCqSocialUgcbaseImpl) {
     this.comAdobeCqSocialCqSocialUgcbaseImpl = comAdobeCqSocialCqSocialUgcbaseImpl;
   }
@@ -1080,9 +1197,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.dam.cq-dam-cfm-impl")
-  public ConfigNodePropertyString getComAdobeDamCqDamCfmImpl() {
+  @Valid public ConfigNodePropertyString getComAdobeDamCqDamCfmImpl() {
     return comAdobeDamCqDamCfmImpl;
   }
+
+  @JsonProperty("com.adobe.dam.cq-dam-cfm-impl")
   public void setComAdobeDamCqDamCfmImpl(ConfigNodePropertyString comAdobeDamCqDamCfmImpl) {
     this.comAdobeDamCqDamCfmImpl = comAdobeDamCqDamCfmImpl;
   }
@@ -1097,9 +1216,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.forms.foundation-forms-foundation-base")
-  public ConfigNodePropertyString getComAdobeFormsFoundationFormsFoundationBase() {
+  @Valid public ConfigNodePropertyString getComAdobeFormsFoundationFormsFoundationBase() {
     return comAdobeFormsFoundationFormsFoundationBase;
   }
+
+  @JsonProperty("com.adobe.forms.foundation-forms-foundation-base")
   public void setComAdobeFormsFoundationFormsFoundationBase(ConfigNodePropertyString comAdobeFormsFoundationFormsFoundationBase) {
     this.comAdobeFormsFoundationFormsFoundationBase = comAdobeFormsFoundationFormsFoundationBase;
   }
@@ -1114,9 +1235,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.granite.apicontroller")
-  public ConfigNodePropertyString getComAdobeGraniteApicontroller() {
+  @Valid public ConfigNodePropertyString getComAdobeGraniteApicontroller() {
     return comAdobeGraniteApicontroller;
   }
+
+  @JsonProperty("com.adobe.granite.apicontroller")
   public void setComAdobeGraniteApicontroller(ConfigNodePropertyString comAdobeGraniteApicontroller) {
     this.comAdobeGraniteApicontroller = comAdobeGraniteApicontroller;
   }
@@ -1131,9 +1254,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.granite.asset.core")
-  public ConfigNodePropertyString getComAdobeGraniteAssetCore() {
+  @Valid public ConfigNodePropertyString getComAdobeGraniteAssetCore() {
     return comAdobeGraniteAssetCore;
   }
+
+  @JsonProperty("com.adobe.granite.asset.core")
   public void setComAdobeGraniteAssetCore(ConfigNodePropertyString comAdobeGraniteAssetCore) {
     this.comAdobeGraniteAssetCore = comAdobeGraniteAssetCore;
   }
@@ -1148,9 +1273,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.granite.auth.sso")
-  public ConfigNodePropertyString getComAdobeGraniteAuthSso() {
+  @Valid public ConfigNodePropertyString getComAdobeGraniteAuthSso() {
     return comAdobeGraniteAuthSso;
   }
+
+  @JsonProperty("com.adobe.granite.auth.sso")
   public void setComAdobeGraniteAuthSso(ConfigNodePropertyString comAdobeGraniteAuthSso) {
     this.comAdobeGraniteAuthSso = comAdobeGraniteAuthSso;
   }
@@ -1165,9 +1292,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.granite.bundles.hc.impl")
-  public ConfigNodePropertyString getComAdobeGraniteBundlesHcImpl() {
+  @Valid public ConfigNodePropertyString getComAdobeGraniteBundlesHcImpl() {
     return comAdobeGraniteBundlesHcImpl;
   }
+
+  @JsonProperty("com.adobe.granite.bundles.hc.impl")
   public void setComAdobeGraniteBundlesHcImpl(ConfigNodePropertyString comAdobeGraniteBundlesHcImpl) {
     this.comAdobeGraniteBundlesHcImpl = comAdobeGraniteBundlesHcImpl;
   }
@@ -1182,9 +1311,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.granite.compat-router")
-  public ConfigNodePropertyString getComAdobeGraniteCompatRouter() {
+  @Valid public ConfigNodePropertyString getComAdobeGraniteCompatRouter() {
     return comAdobeGraniteCompatRouter;
   }
+
+  @JsonProperty("com.adobe.granite.compat-router")
   public void setComAdobeGraniteCompatRouter(ConfigNodePropertyString comAdobeGraniteCompatRouter) {
     this.comAdobeGraniteCompatRouter = comAdobeGraniteCompatRouter;
   }
@@ -1199,9 +1330,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.granite.conf")
-  public ConfigNodePropertyString getComAdobeGraniteConf() {
+  @Valid public ConfigNodePropertyString getComAdobeGraniteConf() {
     return comAdobeGraniteConf;
   }
+
+  @JsonProperty("com.adobe.granite.conf")
   public void setComAdobeGraniteConf(ConfigNodePropertyString comAdobeGraniteConf) {
     this.comAdobeGraniteConf = comAdobeGraniteConf;
   }
@@ -1216,9 +1349,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.granite.conf.ui.core")
-  public ConfigNodePropertyString getComAdobeGraniteConfUiCore() {
+  @Valid public ConfigNodePropertyString getComAdobeGraniteConfUiCore() {
     return comAdobeGraniteConfUiCore;
   }
+
+  @JsonProperty("com.adobe.granite.conf.ui.core")
   public void setComAdobeGraniteConfUiCore(ConfigNodePropertyString comAdobeGraniteConfUiCore) {
     this.comAdobeGraniteConfUiCore = comAdobeGraniteConfUiCore;
   }
@@ -1233,9 +1368,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.granite.cors")
-  public ConfigNodePropertyString getComAdobeGraniteCors() {
+  @Valid public ConfigNodePropertyString getComAdobeGraniteCors() {
     return comAdobeGraniteCors;
   }
+
+  @JsonProperty("com.adobe.granite.cors")
   public void setComAdobeGraniteCors(ConfigNodePropertyString comAdobeGraniteCors) {
     this.comAdobeGraniteCors = comAdobeGraniteCors;
   }
@@ -1250,9 +1387,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.granite.crx-explorer")
-  public ConfigNodePropertyString getComAdobeGraniteCrxExplorer() {
+  @Valid public ConfigNodePropertyString getComAdobeGraniteCrxExplorer() {
     return comAdobeGraniteCrxExplorer;
   }
+
+  @JsonProperty("com.adobe.granite.crx-explorer")
   public void setComAdobeGraniteCrxExplorer(ConfigNodePropertyString comAdobeGraniteCrxExplorer) {
     this.comAdobeGraniteCrxExplorer = comAdobeGraniteCrxExplorer;
   }
@@ -1267,9 +1406,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.granite.crxde-lite")
-  public ConfigNodePropertyString getComAdobeGraniteCrxdeLite() {
+  @Valid public ConfigNodePropertyString getComAdobeGraniteCrxdeLite() {
     return comAdobeGraniteCrxdeLite;
   }
+
+  @JsonProperty("com.adobe.granite.crxde-lite")
   public void setComAdobeGraniteCrxdeLite(ConfigNodePropertyString comAdobeGraniteCrxdeLite) {
     this.comAdobeGraniteCrxdeLite = comAdobeGraniteCrxdeLite;
   }
@@ -1284,9 +1425,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.granite.crypto.config")
-  public ConfigNodePropertyString getComAdobeGraniteCryptoConfig() {
+  @Valid public ConfigNodePropertyString getComAdobeGraniteCryptoConfig() {
     return comAdobeGraniteCryptoConfig;
   }
+
+  @JsonProperty("com.adobe.granite.crypto.config")
   public void setComAdobeGraniteCryptoConfig(ConfigNodePropertyString comAdobeGraniteCryptoConfig) {
     this.comAdobeGraniteCryptoConfig = comAdobeGraniteCryptoConfig;
   }
@@ -1301,9 +1444,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.granite.crypto.extension")
-  public ConfigNodePropertyString getComAdobeGraniteCryptoExtension() {
+  @Valid public ConfigNodePropertyString getComAdobeGraniteCryptoExtension() {
     return comAdobeGraniteCryptoExtension;
   }
+
+  @JsonProperty("com.adobe.granite.crypto.extension")
   public void setComAdobeGraniteCryptoExtension(ConfigNodePropertyString comAdobeGraniteCryptoExtension) {
     this.comAdobeGraniteCryptoExtension = comAdobeGraniteCryptoExtension;
   }
@@ -1318,9 +1463,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.granite.crypto.file")
-  public ConfigNodePropertyString getComAdobeGraniteCryptoFile() {
+  @Valid public ConfigNodePropertyString getComAdobeGraniteCryptoFile() {
     return comAdobeGraniteCryptoFile;
   }
+
+  @JsonProperty("com.adobe.granite.crypto.file")
   public void setComAdobeGraniteCryptoFile(ConfigNodePropertyString comAdobeGraniteCryptoFile) {
     this.comAdobeGraniteCryptoFile = comAdobeGraniteCryptoFile;
   }
@@ -1335,9 +1482,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.granite.crypto.jcr")
-  public ConfigNodePropertyString getComAdobeGraniteCryptoJcr() {
+  @Valid public ConfigNodePropertyString getComAdobeGraniteCryptoJcr() {
     return comAdobeGraniteCryptoJcr;
   }
+
+  @JsonProperty("com.adobe.granite.crypto.jcr")
   public void setComAdobeGraniteCryptoJcr(ConfigNodePropertyString comAdobeGraniteCryptoJcr) {
     this.comAdobeGraniteCryptoJcr = comAdobeGraniteCryptoJcr;
   }
@@ -1352,9 +1501,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.granite.csrf")
-  public ConfigNodePropertyString getComAdobeGraniteCsrf() {
+  @Valid public ConfigNodePropertyString getComAdobeGraniteCsrf() {
     return comAdobeGraniteCsrf;
   }
+
+  @JsonProperty("com.adobe.granite.csrf")
   public void setComAdobeGraniteCsrf(ConfigNodePropertyString comAdobeGraniteCsrf) {
     this.comAdobeGraniteCsrf = comAdobeGraniteCsrf;
   }
@@ -1369,9 +1520,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.granite.distribution.core")
-  public ConfigNodePropertyString getComAdobeGraniteDistributionCore() {
+  @Valid public ConfigNodePropertyString getComAdobeGraniteDistributionCore() {
     return comAdobeGraniteDistributionCore;
   }
+
+  @JsonProperty("com.adobe.granite.distribution.core")
   public void setComAdobeGraniteDistributionCore(ConfigNodePropertyString comAdobeGraniteDistributionCore) {
     this.comAdobeGraniteDistributionCore = comAdobeGraniteDistributionCore;
   }
@@ -1386,9 +1539,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.granite.dropwizard.metrics")
-  public ConfigNodePropertyString getComAdobeGraniteDropwizardMetrics() {
+  @Valid public ConfigNodePropertyString getComAdobeGraniteDropwizardMetrics() {
     return comAdobeGraniteDropwizardMetrics;
   }
+
+  @JsonProperty("com.adobe.granite.dropwizard.metrics")
   public void setComAdobeGraniteDropwizardMetrics(ConfigNodePropertyString comAdobeGraniteDropwizardMetrics) {
     this.comAdobeGraniteDropwizardMetrics = comAdobeGraniteDropwizardMetrics;
   }
@@ -1403,9 +1558,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.granite.frags.impl")
-  public ConfigNodePropertyString getComAdobeGraniteFragsImpl() {
+  @Valid public ConfigNodePropertyString getComAdobeGraniteFragsImpl() {
     return comAdobeGraniteFragsImpl;
   }
+
+  @JsonProperty("com.adobe.granite.frags.impl")
   public void setComAdobeGraniteFragsImpl(ConfigNodePropertyString comAdobeGraniteFragsImpl) {
     this.comAdobeGraniteFragsImpl = comAdobeGraniteFragsImpl;
   }
@@ -1420,9 +1577,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.granite.gibson")
-  public ConfigNodePropertyString getComAdobeGraniteGibson() {
+  @Valid public ConfigNodePropertyString getComAdobeGraniteGibson() {
     return comAdobeGraniteGibson;
   }
+
+  @JsonProperty("com.adobe.granite.gibson")
   public void setComAdobeGraniteGibson(ConfigNodePropertyString comAdobeGraniteGibson) {
     this.comAdobeGraniteGibson = comAdobeGraniteGibson;
   }
@@ -1437,9 +1596,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.granite.infocollector")
-  public ConfigNodePropertyString getComAdobeGraniteInfocollector() {
+  @Valid public ConfigNodePropertyString getComAdobeGraniteInfocollector() {
     return comAdobeGraniteInfocollector;
   }
+
+  @JsonProperty("com.adobe.granite.infocollector")
   public void setComAdobeGraniteInfocollector(ConfigNodePropertyString comAdobeGraniteInfocollector) {
     this.comAdobeGraniteInfocollector = comAdobeGraniteInfocollector;
   }
@@ -1454,9 +1615,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.granite.installer.factory.packages")
-  public ConfigNodePropertyString getComAdobeGraniteInstallerFactoryPackages() {
+  @Valid public ConfigNodePropertyString getComAdobeGraniteInstallerFactoryPackages() {
     return comAdobeGraniteInstallerFactoryPackages;
   }
+
+  @JsonProperty("com.adobe.granite.installer.factory.packages")
   public void setComAdobeGraniteInstallerFactoryPackages(ConfigNodePropertyString comAdobeGraniteInstallerFactoryPackages) {
     this.comAdobeGraniteInstallerFactoryPackages = comAdobeGraniteInstallerFactoryPackages;
   }
@@ -1471,9 +1634,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.granite.jetty.ssl")
-  public ConfigNodePropertyString getComAdobeGraniteJettySsl() {
+  @Valid public ConfigNodePropertyString getComAdobeGraniteJettySsl() {
     return comAdobeGraniteJettySsl;
   }
+
+  @JsonProperty("com.adobe.granite.jetty.ssl")
   public void setComAdobeGraniteJettySsl(ConfigNodePropertyString comAdobeGraniteJettySsl) {
     this.comAdobeGraniteJettySsl = comAdobeGraniteJettySsl;
   }
@@ -1488,9 +1653,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.granite.jobs.async")
-  public ConfigNodePropertyString getComAdobeGraniteJobsAsync() {
+  @Valid public ConfigNodePropertyString getComAdobeGraniteJobsAsync() {
     return comAdobeGraniteJobsAsync;
   }
+
+  @JsonProperty("com.adobe.granite.jobs.async")
   public void setComAdobeGraniteJobsAsync(ConfigNodePropertyString comAdobeGraniteJobsAsync) {
     this.comAdobeGraniteJobsAsync = comAdobeGraniteJobsAsync;
   }
@@ -1505,9 +1672,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.granite.maintenance.oak")
-  public ConfigNodePropertyString getComAdobeGraniteMaintenanceOak() {
+  @Valid public ConfigNodePropertyString getComAdobeGraniteMaintenanceOak() {
     return comAdobeGraniteMaintenanceOak;
   }
+
+  @JsonProperty("com.adobe.granite.maintenance.oak")
   public void setComAdobeGraniteMaintenanceOak(ConfigNodePropertyString comAdobeGraniteMaintenanceOak) {
     this.comAdobeGraniteMaintenanceOak = comAdobeGraniteMaintenanceOak;
   }
@@ -1522,9 +1691,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.granite.monitoring.core")
-  public ConfigNodePropertyString getComAdobeGraniteMonitoringCore() {
+  @Valid public ConfigNodePropertyString getComAdobeGraniteMonitoringCore() {
     return comAdobeGraniteMonitoringCore;
   }
+
+  @JsonProperty("com.adobe.granite.monitoring.core")
   public void setComAdobeGraniteMonitoringCore(ConfigNodePropertyString comAdobeGraniteMonitoringCore) {
     this.comAdobeGraniteMonitoringCore = comAdobeGraniteMonitoringCore;
   }
@@ -1539,9 +1710,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.granite.queries")
-  public ConfigNodePropertyString getComAdobeGraniteQueries() {
+  @Valid public ConfigNodePropertyString getComAdobeGraniteQueries() {
     return comAdobeGraniteQueries;
   }
+
+  @JsonProperty("com.adobe.granite.queries")
   public void setComAdobeGraniteQueries(ConfigNodePropertyString comAdobeGraniteQueries) {
     this.comAdobeGraniteQueries = comAdobeGraniteQueries;
   }
@@ -1556,9 +1729,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.granite.replication.hc.impl")
-  public ConfigNodePropertyString getComAdobeGraniteReplicationHcImpl() {
+  @Valid public ConfigNodePropertyString getComAdobeGraniteReplicationHcImpl() {
     return comAdobeGraniteReplicationHcImpl;
   }
+
+  @JsonProperty("com.adobe.granite.replication.hc.impl")
   public void setComAdobeGraniteReplicationHcImpl(ConfigNodePropertyString comAdobeGraniteReplicationHcImpl) {
     this.comAdobeGraniteReplicationHcImpl = comAdobeGraniteReplicationHcImpl;
   }
@@ -1573,9 +1748,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.granite.repository.checker")
-  public ConfigNodePropertyString getComAdobeGraniteRepositoryChecker() {
+  @Valid public ConfigNodePropertyString getComAdobeGraniteRepositoryChecker() {
     return comAdobeGraniteRepositoryChecker;
   }
+
+  @JsonProperty("com.adobe.granite.repository.checker")
   public void setComAdobeGraniteRepositoryChecker(ConfigNodePropertyString comAdobeGraniteRepositoryChecker) {
     this.comAdobeGraniteRepositoryChecker = comAdobeGraniteRepositoryChecker;
   }
@@ -1590,9 +1767,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.granite.repository.hc.impl")
-  public ConfigNodePropertyString getComAdobeGraniteRepositoryHcImpl() {
+  @Valid public ConfigNodePropertyString getComAdobeGraniteRepositoryHcImpl() {
     return comAdobeGraniteRepositoryHcImpl;
   }
+
+  @JsonProperty("com.adobe.granite.repository.hc.impl")
   public void setComAdobeGraniteRepositoryHcImpl(ConfigNodePropertyString comAdobeGraniteRepositoryHcImpl) {
     this.comAdobeGraniteRepositoryHcImpl = comAdobeGraniteRepositoryHcImpl;
   }
@@ -1607,9 +1786,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.granite.rest.assets")
-  public ConfigNodePropertyString getComAdobeGraniteRestAssets() {
+  @Valid public ConfigNodePropertyString getComAdobeGraniteRestAssets() {
     return comAdobeGraniteRestAssets;
   }
+
+  @JsonProperty("com.adobe.granite.rest.assets")
   public void setComAdobeGraniteRestAssets(ConfigNodePropertyString comAdobeGraniteRestAssets) {
     this.comAdobeGraniteRestAssets = comAdobeGraniteRestAssets;
   }
@@ -1624,9 +1805,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.granite.security.ui")
-  public ConfigNodePropertyString getComAdobeGraniteSecurityUi() {
+  @Valid public ConfigNodePropertyString getComAdobeGraniteSecurityUi() {
     return comAdobeGraniteSecurityUi;
   }
+
+  @JsonProperty("com.adobe.granite.security.ui")
   public void setComAdobeGraniteSecurityUi(ConfigNodePropertyString comAdobeGraniteSecurityUi) {
     this.comAdobeGraniteSecurityUi = comAdobeGraniteSecurityUi;
   }
@@ -1641,9 +1824,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.granite.startup")
-  public ConfigNodePropertyString getComAdobeGraniteStartup() {
+  @Valid public ConfigNodePropertyString getComAdobeGraniteStartup() {
     return comAdobeGraniteStartup;
   }
+
+  @JsonProperty("com.adobe.granite.startup")
   public void setComAdobeGraniteStartup(ConfigNodePropertyString comAdobeGraniteStartup) {
     this.comAdobeGraniteStartup = comAdobeGraniteStartup;
   }
@@ -1658,9 +1843,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.granite.tagsoup")
-  public ConfigNodePropertyString getComAdobeGraniteTagsoup() {
+  @Valid public ConfigNodePropertyString getComAdobeGraniteTagsoup() {
     return comAdobeGraniteTagsoup;
   }
+
+  @JsonProperty("com.adobe.granite.tagsoup")
   public void setComAdobeGraniteTagsoup(ConfigNodePropertyString comAdobeGraniteTagsoup) {
     this.comAdobeGraniteTagsoup = comAdobeGraniteTagsoup;
   }
@@ -1675,9 +1862,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.granite.taskmanagement.core")
-  public ConfigNodePropertyString getComAdobeGraniteTaskmanagementCore() {
+  @Valid public ConfigNodePropertyString getComAdobeGraniteTaskmanagementCore() {
     return comAdobeGraniteTaskmanagementCore;
   }
+
+  @JsonProperty("com.adobe.granite.taskmanagement.core")
   public void setComAdobeGraniteTaskmanagementCore(ConfigNodePropertyString comAdobeGraniteTaskmanagementCore) {
     this.comAdobeGraniteTaskmanagementCore = comAdobeGraniteTaskmanagementCore;
   }
@@ -1692,9 +1881,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.granite.taskmanagement.workflow")
-  public ConfigNodePropertyString getComAdobeGraniteTaskmanagementWorkflow() {
+  @Valid public ConfigNodePropertyString getComAdobeGraniteTaskmanagementWorkflow() {
     return comAdobeGraniteTaskmanagementWorkflow;
   }
+
+  @JsonProperty("com.adobe.granite.taskmanagement.workflow")
   public void setComAdobeGraniteTaskmanagementWorkflow(ConfigNodePropertyString comAdobeGraniteTaskmanagementWorkflow) {
     this.comAdobeGraniteTaskmanagementWorkflow = comAdobeGraniteTaskmanagementWorkflow;
   }
@@ -1709,9 +1900,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.granite.ui.clientlibs.compiler.less")
-  public ConfigNodePropertyString getComAdobeGraniteUiClientlibsCompilerLess() {
+  @Valid public ConfigNodePropertyString getComAdobeGraniteUiClientlibsCompilerLess() {
     return comAdobeGraniteUiClientlibsCompilerLess;
   }
+
+  @JsonProperty("com.adobe.granite.ui.clientlibs.compiler.less")
   public void setComAdobeGraniteUiClientlibsCompilerLess(ConfigNodePropertyString comAdobeGraniteUiClientlibsCompilerLess) {
     this.comAdobeGraniteUiClientlibsCompilerLess = comAdobeGraniteUiClientlibsCompilerLess;
   }
@@ -1726,9 +1919,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.granite.ui.clientlibs.processor.gcc")
-  public ConfigNodePropertyString getComAdobeGraniteUiClientlibsProcessorGcc() {
+  @Valid public ConfigNodePropertyString getComAdobeGraniteUiClientlibsProcessorGcc() {
     return comAdobeGraniteUiClientlibsProcessorGcc;
   }
+
+  @JsonProperty("com.adobe.granite.ui.clientlibs.processor.gcc")
   public void setComAdobeGraniteUiClientlibsProcessorGcc(ConfigNodePropertyString comAdobeGraniteUiClientlibsProcessorGcc) {
     this.comAdobeGraniteUiClientlibsProcessorGcc = comAdobeGraniteUiClientlibsProcessorGcc;
   }
@@ -1743,9 +1938,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.granite.webconsole.plugins")
-  public ConfigNodePropertyString getComAdobeGraniteWebconsolePlugins() {
+  @Valid public ConfigNodePropertyString getComAdobeGraniteWebconsolePlugins() {
     return comAdobeGraniteWebconsolePlugins;
   }
+
+  @JsonProperty("com.adobe.granite.webconsole.plugins")
   public void setComAdobeGraniteWebconsolePlugins(ConfigNodePropertyString comAdobeGraniteWebconsolePlugins) {
     this.comAdobeGraniteWebconsolePlugins = comAdobeGraniteWebconsolePlugins;
   }
@@ -1760,9 +1957,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.granite.workflow.console")
-  public ConfigNodePropertyString getComAdobeGraniteWorkflowConsole() {
+  @Valid public ConfigNodePropertyString getComAdobeGraniteWorkflowConsole() {
     return comAdobeGraniteWorkflowConsole;
   }
+
+  @JsonProperty("com.adobe.granite.workflow.console")
   public void setComAdobeGraniteWorkflowConsole(ConfigNodePropertyString comAdobeGraniteWorkflowConsole) {
     this.comAdobeGraniteWorkflowConsole = comAdobeGraniteWorkflowConsole;
   }
@@ -1777,9 +1976,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.xmp.worker.files.native.fragment.linux")
-  public ConfigNodePropertyString getComAdobeXmpWorkerFilesNativeFragmentLinux() {
+  @Valid public ConfigNodePropertyString getComAdobeXmpWorkerFilesNativeFragmentLinux() {
     return comAdobeXmpWorkerFilesNativeFragmentLinux;
   }
+
+  @JsonProperty("com.adobe.xmp.worker.files.native.fragment.linux")
   public void setComAdobeXmpWorkerFilesNativeFragmentLinux(ConfigNodePropertyString comAdobeXmpWorkerFilesNativeFragmentLinux) {
     this.comAdobeXmpWorkerFilesNativeFragmentLinux = comAdobeXmpWorkerFilesNativeFragmentLinux;
   }
@@ -1794,9 +1995,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.xmp.worker.files.native.fragment.macosx")
-  public ConfigNodePropertyString getComAdobeXmpWorkerFilesNativeFragmentMacosx() {
+  @Valid public ConfigNodePropertyString getComAdobeXmpWorkerFilesNativeFragmentMacosx() {
     return comAdobeXmpWorkerFilesNativeFragmentMacosx;
   }
+
+  @JsonProperty("com.adobe.xmp.worker.files.native.fragment.macosx")
   public void setComAdobeXmpWorkerFilesNativeFragmentMacosx(ConfigNodePropertyString comAdobeXmpWorkerFilesNativeFragmentMacosx) {
     this.comAdobeXmpWorkerFilesNativeFragmentMacosx = comAdobeXmpWorkerFilesNativeFragmentMacosx;
   }
@@ -1811,9 +2014,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.xmp.worker.files.native.fragment.win")
-  public ConfigNodePropertyString getComAdobeXmpWorkerFilesNativeFragmentWin() {
+  @Valid public ConfigNodePropertyString getComAdobeXmpWorkerFilesNativeFragmentWin() {
     return comAdobeXmpWorkerFilesNativeFragmentWin;
   }
+
+  @JsonProperty("com.adobe.xmp.worker.files.native.fragment.win")
   public void setComAdobeXmpWorkerFilesNativeFragmentWin(ConfigNodePropertyString comAdobeXmpWorkerFilesNativeFragmentWin) {
     this.comAdobeXmpWorkerFilesNativeFragmentWin = comAdobeXmpWorkerFilesNativeFragmentWin;
   }
@@ -1828,9 +2033,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.day.commons.osgi.wrapper.simple-jndi")
-  public ConfigNodePropertyString getComDayCommonsOsgiWrapperSimpleJndi() {
+  @Valid public ConfigNodePropertyString getComDayCommonsOsgiWrapperSimpleJndi() {
     return comDayCommonsOsgiWrapperSimpleJndi;
   }
+
+  @JsonProperty("com.day.commons.osgi.wrapper.simple-jndi")
   public void setComDayCommonsOsgiWrapperSimpleJndi(ConfigNodePropertyString comDayCommonsOsgiWrapperSimpleJndi) {
     this.comDayCommonsOsgiWrapperSimpleJndi = comDayCommonsOsgiWrapperSimpleJndi;
   }
@@ -1845,9 +2052,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.day.cq.cq-authhandler")
-  public ConfigNodePropertyString getComDayCqCqAuthhandler() {
+  @Valid public ConfigNodePropertyString getComDayCqCqAuthhandler() {
     return comDayCqCqAuthhandler;
   }
+
+  @JsonProperty("com.day.cq.cq-authhandler")
   public void setComDayCqCqAuthhandler(ConfigNodePropertyString comDayCqCqAuthhandler) {
     this.comDayCqCqAuthhandler = comDayCqCqAuthhandler;
   }
@@ -1862,9 +2071,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.day.cq.cq-compat-configupdate")
-  public ConfigNodePropertyString getComDayCqCqCompatConfigupdate() {
+  @Valid public ConfigNodePropertyString getComDayCqCqCompatConfigupdate() {
     return comDayCqCqCompatConfigupdate;
   }
+
+  @JsonProperty("com.day.cq.cq-compat-configupdate")
   public void setComDayCqCqCompatConfigupdate(ConfigNodePropertyString comDayCqCqCompatConfigupdate) {
     this.comDayCqCqCompatConfigupdate = comDayCqCqCompatConfigupdate;
   }
@@ -1879,9 +2090,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.day.cq.cq-licensebranding")
-  public ConfigNodePropertyString getComDayCqCqLicensebranding() {
+  @Valid public ConfigNodePropertyString getComDayCqCqLicensebranding() {
     return comDayCqCqLicensebranding;
   }
+
+  @JsonProperty("com.day.cq.cq-licensebranding")
   public void setComDayCqCqLicensebranding(ConfigNodePropertyString comDayCqCqLicensebranding) {
     this.comDayCqCqLicensebranding = comDayCqCqLicensebranding;
   }
@@ -1896,9 +2109,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.day.cq.cq-notifcation-impl")
-  public ConfigNodePropertyString getComDayCqCqNotifcationImpl() {
+  @Valid public ConfigNodePropertyString getComDayCqCqNotifcationImpl() {
     return comDayCqCqNotifcationImpl;
   }
+
+  @JsonProperty("com.day.cq.cq-notifcation-impl")
   public void setComDayCqCqNotifcationImpl(ConfigNodePropertyString comDayCqCqNotifcationImpl) {
     this.comDayCqCqNotifcationImpl = comDayCqCqNotifcationImpl;
   }
@@ -1913,9 +2128,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.day.cq.cq-replication-audit")
-  public ConfigNodePropertyString getComDayCqCqReplicationAudit() {
+  @Valid public ConfigNodePropertyString getComDayCqCqReplicationAudit() {
     return comDayCqCqReplicationAudit;
   }
+
+  @JsonProperty("com.day.cq.cq-replication-audit")
   public void setComDayCqCqReplicationAudit(ConfigNodePropertyString comDayCqCqReplicationAudit) {
     this.comDayCqCqReplicationAudit = comDayCqCqReplicationAudit;
   }
@@ -1930,9 +2147,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.day.cq.cq-search-ext")
-  public ConfigNodePropertyString getComDayCqCqSearchExt() {
+  @Valid public ConfigNodePropertyString getComDayCqCqSearchExt() {
     return comDayCqCqSearchExt;
   }
+
+  @JsonProperty("com.day.cq.cq-search-ext")
   public void setComDayCqCqSearchExt(ConfigNodePropertyString comDayCqCqSearchExt) {
     this.comDayCqCqSearchExt = comDayCqCqSearchExt;
   }
@@ -1947,9 +2166,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.day.cq.dam.cq-dam-annotation-print")
-  public ConfigNodePropertyString getComDayCqDamCqDamAnnotationPrint() {
+  @Valid public ConfigNodePropertyString getComDayCqDamCqDamAnnotationPrint() {
     return comDayCqDamCqDamAnnotationPrint;
   }
+
+  @JsonProperty("com.day.cq.dam.cq-dam-annotation-print")
   public void setComDayCqDamCqDamAnnotationPrint(ConfigNodePropertyString comDayCqDamCqDamAnnotationPrint) {
     this.comDayCqDamCqDamAnnotationPrint = comDayCqDamCqDamAnnotationPrint;
   }
@@ -1964,9 +2185,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.day.cq.dam.cq-dam-asset-usage")
-  public ConfigNodePropertyString getComDayCqDamCqDamAssetUsage() {
+  @Valid public ConfigNodePropertyString getComDayCqDamCqDamAssetUsage() {
     return comDayCqDamCqDamAssetUsage;
   }
+
+  @JsonProperty("com.day.cq.dam.cq-dam-asset-usage")
   public void setComDayCqDamCqDamAssetUsage(ConfigNodePropertyString comDayCqDamCqDamAssetUsage) {
     this.comDayCqDamCqDamAssetUsage = comDayCqDamCqDamAssetUsage;
   }
@@ -1981,9 +2204,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.day.cq.dam.cq-dam-s7dam")
-  public ConfigNodePropertyString getComDayCqDamCqDamS7dam() {
+  @Valid public ConfigNodePropertyString getComDayCqDamCqDamS7dam() {
     return comDayCqDamCqDamS7dam;
   }
+
+  @JsonProperty("com.day.cq.dam.cq-dam-s7dam")
   public void setComDayCqDamCqDamS7dam(ConfigNodePropertyString comDayCqDamCqDamS7dam) {
     this.comDayCqDamCqDamS7dam = comDayCqDamCqDamS7dam;
   }
@@ -1998,9 +2223,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.day.cq.dam.cq-dam-similaritysearch")
-  public ConfigNodePropertyString getComDayCqDamCqDamSimilaritysearch() {
+  @Valid public ConfigNodePropertyString getComDayCqDamCqDamSimilaritysearch() {
     return comDayCqDamCqDamSimilaritysearch;
   }
+
+  @JsonProperty("com.day.cq.dam.cq-dam-similaritysearch")
   public void setComDayCqDamCqDamSimilaritysearch(ConfigNodePropertyString comDayCqDamCqDamSimilaritysearch) {
     this.comDayCqDamCqDamSimilaritysearch = comDayCqDamCqDamSimilaritysearch;
   }
@@ -2015,9 +2242,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.day.cq.dam.dam-webdav-support")
-  public ConfigNodePropertyString getComDayCqDamDamWebdavSupport() {
+  @Valid public ConfigNodePropertyString getComDayCqDamDamWebdavSupport() {
     return comDayCqDamDamWebdavSupport;
   }
+
+  @JsonProperty("com.day.cq.dam.dam-webdav-support")
   public void setComDayCqDamDamWebdavSupport(ConfigNodePropertyString comDayCqDamDamWebdavSupport) {
     this.comDayCqDamDamWebdavSupport = comDayCqDamDamWebdavSupport;
   }
@@ -2032,9 +2261,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.day.cq.pre-upgrade-tasks")
-  public ConfigNodePropertyString getComDayCqPreUpgradeTasks() {
+  @Valid public ConfigNodePropertyString getComDayCqPreUpgradeTasks() {
     return comDayCqPreUpgradeTasks;
   }
+
+  @JsonProperty("com.day.cq.pre-upgrade-tasks")
   public void setComDayCqPreUpgradeTasks(ConfigNodePropertyString comDayCqPreUpgradeTasks) {
     this.comDayCqPreUpgradeTasks = comDayCqPreUpgradeTasks;
   }
@@ -2049,9 +2280,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.day.cq.replication.extensions")
-  public ConfigNodePropertyString getComDayCqReplicationExtensions() {
+  @Valid public ConfigNodePropertyString getComDayCqReplicationExtensions() {
     return comDayCqReplicationExtensions;
   }
+
+  @JsonProperty("com.day.cq.replication.extensions")
   public void setComDayCqReplicationExtensions(ConfigNodePropertyString comDayCqReplicationExtensions) {
     this.comDayCqReplicationExtensions = comDayCqReplicationExtensions;
   }
@@ -2066,9 +2299,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.day.cq.wcm.cq-msm-core")
-  public ConfigNodePropertyString getComDayCqWcmCqMsmCore() {
+  @Valid public ConfigNodePropertyString getComDayCqWcmCqMsmCore() {
     return comDayCqWcmCqMsmCore;
   }
+
+  @JsonProperty("com.day.cq.wcm.cq-msm-core")
   public void setComDayCqWcmCqMsmCore(ConfigNodePropertyString comDayCqWcmCqMsmCore) {
     this.comDayCqWcmCqMsmCore = comDayCqWcmCqMsmCore;
   }
@@ -2083,9 +2318,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.day.cq.wcm.cq-wcm-translation")
-  public ConfigNodePropertyString getComDayCqWcmCqWcmTranslation() {
+  @Valid public ConfigNodePropertyString getComDayCqWcmCqWcmTranslation() {
     return comDayCqWcmCqWcmTranslation;
   }
+
+  @JsonProperty("com.day.cq.wcm.cq-wcm-translation")
   public void setComDayCqWcmCqWcmTranslation(ConfigNodePropertyString comDayCqWcmCqWcmTranslation) {
     this.comDayCqWcmCqWcmTranslation = comDayCqWcmCqWcmTranslation;
   }
@@ -2100,9 +2337,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("day-commons-jrawio")
-  public ConfigNodePropertyString getDayCommonsJrawio() {
+  @Valid public ConfigNodePropertyString getDayCommonsJrawio() {
     return dayCommonsJrawio;
   }
+
+  @JsonProperty("day-commons-jrawio")
   public void setDayCommonsJrawio(ConfigNodePropertyString dayCommonsJrawio) {
     this.dayCommonsJrawio = dayCommonsJrawio;
   }
@@ -2117,9 +2356,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("org.apache.aries.jmx.whiteboard")
-  public ConfigNodePropertyString getOrgApacheAriesJmxWhiteboard() {
+  @Valid public ConfigNodePropertyString getOrgApacheAriesJmxWhiteboard() {
     return orgApacheAriesJmxWhiteboard;
   }
+
+  @JsonProperty("org.apache.aries.jmx.whiteboard")
   public void setOrgApacheAriesJmxWhiteboard(ConfigNodePropertyString orgApacheAriesJmxWhiteboard) {
     this.orgApacheAriesJmxWhiteboard = orgApacheAriesJmxWhiteboard;
   }
@@ -2134,9 +2375,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("org.apache.felix.http.sslfilter")
-  public ConfigNodePropertyString getOrgApacheFelixHttpSslfilter() {
+  @Valid public ConfigNodePropertyString getOrgApacheFelixHttpSslfilter() {
     return orgApacheFelixHttpSslfilter;
   }
+
+  @JsonProperty("org.apache.felix.http.sslfilter")
   public void setOrgApacheFelixHttpSslfilter(ConfigNodePropertyString orgApacheFelixHttpSslfilter) {
     this.orgApacheFelixHttpSslfilter = orgApacheFelixHttpSslfilter;
   }
@@ -2151,9 +2394,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("org.apache.felix.org.apache.felix.threaddump")
-  public ConfigNodePropertyString getOrgApacheFelixOrgApacheFelixThreaddump() {
+  @Valid public ConfigNodePropertyString getOrgApacheFelixOrgApacheFelixThreaddump() {
     return orgApacheFelixOrgApacheFelixThreaddump;
   }
+
+  @JsonProperty("org.apache.felix.org.apache.felix.threaddump")
   public void setOrgApacheFelixOrgApacheFelixThreaddump(ConfigNodePropertyString orgApacheFelixOrgApacheFelixThreaddump) {
     this.orgApacheFelixOrgApacheFelixThreaddump = orgApacheFelixOrgApacheFelixThreaddump;
   }
@@ -2168,9 +2413,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("org.apache.felix.webconsole.plugins.ds")
-  public ConfigNodePropertyString getOrgApacheFelixWebconsolePluginsDs() {
+  @Valid public ConfigNodePropertyString getOrgApacheFelixWebconsolePluginsDs() {
     return orgApacheFelixWebconsolePluginsDs;
   }
+
+  @JsonProperty("org.apache.felix.webconsole.plugins.ds")
   public void setOrgApacheFelixWebconsolePluginsDs(ConfigNodePropertyString orgApacheFelixWebconsolePluginsDs) {
     this.orgApacheFelixWebconsolePluginsDs = orgApacheFelixWebconsolePluginsDs;
   }
@@ -2185,9 +2432,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("org.apache.felix.webconsole.plugins.event")
-  public ConfigNodePropertyString getOrgApacheFelixWebconsolePluginsEvent() {
+  @Valid public ConfigNodePropertyString getOrgApacheFelixWebconsolePluginsEvent() {
     return orgApacheFelixWebconsolePluginsEvent;
   }
+
+  @JsonProperty("org.apache.felix.webconsole.plugins.event")
   public void setOrgApacheFelixWebconsolePluginsEvent(ConfigNodePropertyString orgApacheFelixWebconsolePluginsEvent) {
     this.orgApacheFelixWebconsolePluginsEvent = orgApacheFelixWebconsolePluginsEvent;
   }
@@ -2202,9 +2451,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("org.apache.felix.webconsole.plugins.memoryusage")
-  public ConfigNodePropertyString getOrgApacheFelixWebconsolePluginsMemoryusage() {
+  @Valid public ConfigNodePropertyString getOrgApacheFelixWebconsolePluginsMemoryusage() {
     return orgApacheFelixWebconsolePluginsMemoryusage;
   }
+
+  @JsonProperty("org.apache.felix.webconsole.plugins.memoryusage")
   public void setOrgApacheFelixWebconsolePluginsMemoryusage(ConfigNodePropertyString orgApacheFelixWebconsolePluginsMemoryusage) {
     this.orgApacheFelixWebconsolePluginsMemoryusage = orgApacheFelixWebconsolePluginsMemoryusage;
   }
@@ -2219,9 +2470,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("org.apache.felix.webconsole.plugins.packageadmin")
-  public ConfigNodePropertyString getOrgApacheFelixWebconsolePluginsPackageadmin() {
+  @Valid public ConfigNodePropertyString getOrgApacheFelixWebconsolePluginsPackageadmin() {
     return orgApacheFelixWebconsolePluginsPackageadmin;
   }
+
+  @JsonProperty("org.apache.felix.webconsole.plugins.packageadmin")
   public void setOrgApacheFelixWebconsolePluginsPackageadmin(ConfigNodePropertyString orgApacheFelixWebconsolePluginsPackageadmin) {
     this.orgApacheFelixWebconsolePluginsPackageadmin = orgApacheFelixWebconsolePluginsPackageadmin;
   }
@@ -2236,9 +2489,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("org.apache.jackrabbit.oak-auth-ldap")
-  public ConfigNodePropertyString getOrgApacheJackrabbitOakAuthLdap() {
+  @Valid public ConfigNodePropertyString getOrgApacheJackrabbitOakAuthLdap() {
     return orgApacheJackrabbitOakAuthLdap;
   }
+
+  @JsonProperty("org.apache.jackrabbit.oak-auth-ldap")
   public void setOrgApacheJackrabbitOakAuthLdap(ConfigNodePropertyString orgApacheJackrabbitOakAuthLdap) {
     this.orgApacheJackrabbitOakAuthLdap = orgApacheJackrabbitOakAuthLdap;
   }
@@ -2253,9 +2508,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("org.apache.jackrabbit.oak-segment-tar")
-  public ConfigNodePropertyString getOrgApacheJackrabbitOakSegmentTar() {
+  @Valid public ConfigNodePropertyString getOrgApacheJackrabbitOakSegmentTar() {
     return orgApacheJackrabbitOakSegmentTar;
   }
+
+  @JsonProperty("org.apache.jackrabbit.oak-segment-tar")
   public void setOrgApacheJackrabbitOakSegmentTar(ConfigNodePropertyString orgApacheJackrabbitOakSegmentTar) {
     this.orgApacheJackrabbitOakSegmentTar = orgApacheJackrabbitOakSegmentTar;
   }
@@ -2270,9 +2527,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("org.apache.jackrabbit.oak-solr-osgi")
-  public ConfigNodePropertyString getOrgApacheJackrabbitOakSolrOsgi() {
+  @Valid public ConfigNodePropertyString getOrgApacheJackrabbitOakSolrOsgi() {
     return orgApacheJackrabbitOakSolrOsgi;
   }
+
+  @JsonProperty("org.apache.jackrabbit.oak-solr-osgi")
   public void setOrgApacheJackrabbitOakSolrOsgi(ConfigNodePropertyString orgApacheJackrabbitOakSolrOsgi) {
     this.orgApacheJackrabbitOakSolrOsgi = orgApacheJackrabbitOakSolrOsgi;
   }
@@ -2287,9 +2546,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("org.apache.sling.bundleresource.impl")
-  public ConfigNodePropertyString getOrgApacheSlingBundleresourceImpl() {
+  @Valid public ConfigNodePropertyString getOrgApacheSlingBundleresourceImpl() {
     return orgApacheSlingBundleresourceImpl;
   }
+
+  @JsonProperty("org.apache.sling.bundleresource.impl")
   public void setOrgApacheSlingBundleresourceImpl(ConfigNodePropertyString orgApacheSlingBundleresourceImpl) {
     this.orgApacheSlingBundleresourceImpl = orgApacheSlingBundleresourceImpl;
   }
@@ -2304,9 +2565,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("org.apache.sling.commons.fsclassloader")
-  public ConfigNodePropertyString getOrgApacheSlingCommonsFsclassloader() {
+  @Valid public ConfigNodePropertyString getOrgApacheSlingCommonsFsclassloader() {
     return orgApacheSlingCommonsFsclassloader;
   }
+
+  @JsonProperty("org.apache.sling.commons.fsclassloader")
   public void setOrgApacheSlingCommonsFsclassloader(ConfigNodePropertyString orgApacheSlingCommonsFsclassloader) {
     this.orgApacheSlingCommonsFsclassloader = orgApacheSlingCommonsFsclassloader;
   }
@@ -2321,9 +2584,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("org.apache.sling.commons.log.webconsole")
-  public ConfigNodePropertyString getOrgApacheSlingCommonsLogWebconsole() {
+  @Valid public ConfigNodePropertyString getOrgApacheSlingCommonsLogWebconsole() {
     return orgApacheSlingCommonsLogWebconsole;
   }
+
+  @JsonProperty("org.apache.sling.commons.log.webconsole")
   public void setOrgApacheSlingCommonsLogWebconsole(ConfigNodePropertyString orgApacheSlingCommonsLogWebconsole) {
     this.orgApacheSlingCommonsLogWebconsole = orgApacheSlingCommonsLogWebconsole;
   }
@@ -2338,9 +2603,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("org.apache.sling.datasource")
-  public ConfigNodePropertyString getOrgApacheSlingDatasource() {
+  @Valid public ConfigNodePropertyString getOrgApacheSlingDatasource() {
     return orgApacheSlingDatasource;
   }
+
+  @JsonProperty("org.apache.sling.datasource")
   public void setOrgApacheSlingDatasource(ConfigNodePropertyString orgApacheSlingDatasource) {
     this.orgApacheSlingDatasource = orgApacheSlingDatasource;
   }
@@ -2355,9 +2622,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("org.apache.sling.discovery.base")
-  public ConfigNodePropertyString getOrgApacheSlingDiscoveryBase() {
+  @Valid public ConfigNodePropertyString getOrgApacheSlingDiscoveryBase() {
     return orgApacheSlingDiscoveryBase;
   }
+
+  @JsonProperty("org.apache.sling.discovery.base")
   public void setOrgApacheSlingDiscoveryBase(ConfigNodePropertyString orgApacheSlingDiscoveryBase) {
     this.orgApacheSlingDiscoveryBase = orgApacheSlingDiscoveryBase;
   }
@@ -2372,9 +2641,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("org.apache.sling.discovery.oak")
-  public ConfigNodePropertyString getOrgApacheSlingDiscoveryOak() {
+  @Valid public ConfigNodePropertyString getOrgApacheSlingDiscoveryOak() {
     return orgApacheSlingDiscoveryOak;
   }
+
+  @JsonProperty("org.apache.sling.discovery.oak")
   public void setOrgApacheSlingDiscoveryOak(ConfigNodePropertyString orgApacheSlingDiscoveryOak) {
     this.orgApacheSlingDiscoveryOak = orgApacheSlingDiscoveryOak;
   }
@@ -2389,9 +2660,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("org.apache.sling.discovery.support")
-  public ConfigNodePropertyString getOrgApacheSlingDiscoverySupport() {
+  @Valid public ConfigNodePropertyString getOrgApacheSlingDiscoverySupport() {
     return orgApacheSlingDiscoverySupport;
   }
+
+  @JsonProperty("org.apache.sling.discovery.support")
   public void setOrgApacheSlingDiscoverySupport(ConfigNodePropertyString orgApacheSlingDiscoverySupport) {
     this.orgApacheSlingDiscoverySupport = orgApacheSlingDiscoverySupport;
   }
@@ -2406,9 +2679,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("org.apache.sling.distribution.api")
-  public ConfigNodePropertyString getOrgApacheSlingDistributionApi() {
+  @Valid public ConfigNodePropertyString getOrgApacheSlingDistributionApi() {
     return orgApacheSlingDistributionApi;
   }
+
+  @JsonProperty("org.apache.sling.distribution.api")
   public void setOrgApacheSlingDistributionApi(ConfigNodePropertyString orgApacheSlingDistributionApi) {
     this.orgApacheSlingDistributionApi = orgApacheSlingDistributionApi;
   }
@@ -2423,9 +2698,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("org.apache.sling.distribution.core")
-  public ConfigNodePropertyString getOrgApacheSlingDistributionCore() {
+  @Valid public ConfigNodePropertyString getOrgApacheSlingDistributionCore() {
     return orgApacheSlingDistributionCore;
   }
+
+  @JsonProperty("org.apache.sling.distribution.core")
   public void setOrgApacheSlingDistributionCore(ConfigNodePropertyString orgApacheSlingDistributionCore) {
     this.orgApacheSlingDistributionCore = orgApacheSlingDistributionCore;
   }
@@ -2440,9 +2717,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("org.apache.sling.extensions.webconsolesecurityprovider")
-  public ConfigNodePropertyString getOrgApacheSlingExtensionsWebconsolesecurityprovider() {
+  @Valid public ConfigNodePropertyString getOrgApacheSlingExtensionsWebconsolesecurityprovider() {
     return orgApacheSlingExtensionsWebconsolesecurityprovider;
   }
+
+  @JsonProperty("org.apache.sling.extensions.webconsolesecurityprovider")
   public void setOrgApacheSlingExtensionsWebconsolesecurityprovider(ConfigNodePropertyString orgApacheSlingExtensionsWebconsolesecurityprovider) {
     this.orgApacheSlingExtensionsWebconsolesecurityprovider = orgApacheSlingExtensionsWebconsolesecurityprovider;
   }
@@ -2457,9 +2736,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("org.apache.sling.hc.webconsole")
-  public ConfigNodePropertyString getOrgApacheSlingHcWebconsole() {
+  @Valid public ConfigNodePropertyString getOrgApacheSlingHcWebconsole() {
     return orgApacheSlingHcWebconsole;
   }
+
+  @JsonProperty("org.apache.sling.hc.webconsole")
   public void setOrgApacheSlingHcWebconsole(ConfigNodePropertyString orgApacheSlingHcWebconsole) {
     this.orgApacheSlingHcWebconsole = orgApacheSlingHcWebconsole;
   }
@@ -2474,9 +2755,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("org.apache.sling.installer.console")
-  public ConfigNodePropertyString getOrgApacheSlingInstallerConsole() {
+  @Valid public ConfigNodePropertyString getOrgApacheSlingInstallerConsole() {
     return orgApacheSlingInstallerConsole;
   }
+
+  @JsonProperty("org.apache.sling.installer.console")
   public void setOrgApacheSlingInstallerConsole(ConfigNodePropertyString orgApacheSlingInstallerConsole) {
     this.orgApacheSlingInstallerConsole = orgApacheSlingInstallerConsole;
   }
@@ -2491,9 +2774,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("org.apache.sling.installer.provider.file")
-  public ConfigNodePropertyString getOrgApacheSlingInstallerProviderFile() {
+  @Valid public ConfigNodePropertyString getOrgApacheSlingInstallerProviderFile() {
     return orgApacheSlingInstallerProviderFile;
   }
+
+  @JsonProperty("org.apache.sling.installer.provider.file")
   public void setOrgApacheSlingInstallerProviderFile(ConfigNodePropertyString orgApacheSlingInstallerProviderFile) {
     this.orgApacheSlingInstallerProviderFile = orgApacheSlingInstallerProviderFile;
   }
@@ -2508,9 +2793,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("org.apache.sling.installer.provider.jcr")
-  public ConfigNodePropertyString getOrgApacheSlingInstallerProviderJcr() {
+  @Valid public ConfigNodePropertyString getOrgApacheSlingInstallerProviderJcr() {
     return orgApacheSlingInstallerProviderJcr;
   }
+
+  @JsonProperty("org.apache.sling.installer.provider.jcr")
   public void setOrgApacheSlingInstallerProviderJcr(ConfigNodePropertyString orgApacheSlingInstallerProviderJcr) {
     this.orgApacheSlingInstallerProviderJcr = orgApacheSlingInstallerProviderJcr;
   }
@@ -2525,9 +2812,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("org.apache.sling.jcr.davex")
-  public ConfigNodePropertyString getOrgApacheSlingJcrDavex() {
+  @Valid public ConfigNodePropertyString getOrgApacheSlingJcrDavex() {
     return orgApacheSlingJcrDavex;
   }
+
+  @JsonProperty("org.apache.sling.jcr.davex")
   public void setOrgApacheSlingJcrDavex(ConfigNodePropertyString orgApacheSlingJcrDavex) {
     this.orgApacheSlingJcrDavex = orgApacheSlingJcrDavex;
   }
@@ -2542,9 +2831,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("org.apache.sling.jcr.resourcesecurity")
-  public ConfigNodePropertyString getOrgApacheSlingJcrResourcesecurity() {
+  @Valid public ConfigNodePropertyString getOrgApacheSlingJcrResourcesecurity() {
     return orgApacheSlingJcrResourcesecurity;
   }
+
+  @JsonProperty("org.apache.sling.jcr.resourcesecurity")
   public void setOrgApacheSlingJcrResourcesecurity(ConfigNodePropertyString orgApacheSlingJcrResourcesecurity) {
     this.orgApacheSlingJcrResourcesecurity = orgApacheSlingJcrResourcesecurity;
   }
@@ -2559,9 +2850,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("org.apache.sling.jmx.provider")
-  public ConfigNodePropertyString getOrgApacheSlingJmxProvider() {
+  @Valid public ConfigNodePropertyString getOrgApacheSlingJmxProvider() {
     return orgApacheSlingJmxProvider;
   }
+
+  @JsonProperty("org.apache.sling.jmx.provider")
   public void setOrgApacheSlingJmxProvider(ConfigNodePropertyString orgApacheSlingJmxProvider) {
     this.orgApacheSlingJmxProvider = orgApacheSlingJmxProvider;
   }
@@ -2576,9 +2869,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("org.apache.sling.launchpad.installer")
-  public ConfigNodePropertyString getOrgApacheSlingLaunchpadInstaller() {
+  @Valid public ConfigNodePropertyString getOrgApacheSlingLaunchpadInstaller() {
     return orgApacheSlingLaunchpadInstaller;
   }
+
+  @JsonProperty("org.apache.sling.launchpad.installer")
   public void setOrgApacheSlingLaunchpadInstaller(ConfigNodePropertyString orgApacheSlingLaunchpadInstaller) {
     this.orgApacheSlingLaunchpadInstaller = orgApacheSlingLaunchpadInstaller;
   }
@@ -2593,9 +2888,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("org.apache.sling.models.impl")
-  public ConfigNodePropertyString getOrgApacheSlingModelsImpl() {
+  @Valid public ConfigNodePropertyString getOrgApacheSlingModelsImpl() {
     return orgApacheSlingModelsImpl;
   }
+
+  @JsonProperty("org.apache.sling.models.impl")
   public void setOrgApacheSlingModelsImpl(ConfigNodePropertyString orgApacheSlingModelsImpl) {
     this.orgApacheSlingModelsImpl = orgApacheSlingModelsImpl;
   }
@@ -2610,9 +2907,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("org.apache.sling.repoinit.parser")
-  public ConfigNodePropertyString getOrgApacheSlingRepoinitParser() {
+  @Valid public ConfigNodePropertyString getOrgApacheSlingRepoinitParser() {
     return orgApacheSlingRepoinitParser;
   }
+
+  @JsonProperty("org.apache.sling.repoinit.parser")
   public void setOrgApacheSlingRepoinitParser(ConfigNodePropertyString orgApacheSlingRepoinitParser) {
     this.orgApacheSlingRepoinitParser = orgApacheSlingRepoinitParser;
   }
@@ -2627,9 +2926,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("org.apache.sling.resource.inventory")
-  public ConfigNodePropertyString getOrgApacheSlingResourceInventory() {
+  @Valid public ConfigNodePropertyString getOrgApacheSlingResourceInventory() {
     return orgApacheSlingResourceInventory;
   }
+
+  @JsonProperty("org.apache.sling.resource.inventory")
   public void setOrgApacheSlingResourceInventory(ConfigNodePropertyString orgApacheSlingResourceInventory) {
     this.orgApacheSlingResourceInventory = orgApacheSlingResourceInventory;
   }
@@ -2644,9 +2945,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("org.apache.sling.resourceresolver")
-  public ConfigNodePropertyString getOrgApacheSlingResourceresolver() {
+  @Valid public ConfigNodePropertyString getOrgApacheSlingResourceresolver() {
     return orgApacheSlingResourceresolver;
   }
+
+  @JsonProperty("org.apache.sling.resourceresolver")
   public void setOrgApacheSlingResourceresolver(ConfigNodePropertyString orgApacheSlingResourceresolver) {
     this.orgApacheSlingResourceresolver = orgApacheSlingResourceresolver;
   }
@@ -2661,9 +2964,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("org.apache.sling.scripting.javascript")
-  public ConfigNodePropertyString getOrgApacheSlingScriptingJavascript() {
+  @Valid public ConfigNodePropertyString getOrgApacheSlingScriptingJavascript() {
     return orgApacheSlingScriptingJavascript;
   }
+
+  @JsonProperty("org.apache.sling.scripting.javascript")
   public void setOrgApacheSlingScriptingJavascript(ConfigNodePropertyString orgApacheSlingScriptingJavascript) {
     this.orgApacheSlingScriptingJavascript = orgApacheSlingScriptingJavascript;
   }
@@ -2678,9 +2983,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("org.apache.sling.scripting.jst")
-  public ConfigNodePropertyString getOrgApacheSlingScriptingJst() {
+  @Valid public ConfigNodePropertyString getOrgApacheSlingScriptingJst() {
     return orgApacheSlingScriptingJst;
   }
+
+  @JsonProperty("org.apache.sling.scripting.jst")
   public void setOrgApacheSlingScriptingJst(ConfigNodePropertyString orgApacheSlingScriptingJst) {
     this.orgApacheSlingScriptingJst = orgApacheSlingScriptingJst;
   }
@@ -2695,9 +3002,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("org.apache.sling.scripting.sightly.js.provider")
-  public ConfigNodePropertyString getOrgApacheSlingScriptingSightlyJsProvider() {
+  @Valid public ConfigNodePropertyString getOrgApacheSlingScriptingSightlyJsProvider() {
     return orgApacheSlingScriptingSightlyJsProvider;
   }
+
+  @JsonProperty("org.apache.sling.scripting.sightly.js.provider")
   public void setOrgApacheSlingScriptingSightlyJsProvider(ConfigNodePropertyString orgApacheSlingScriptingSightlyJsProvider) {
     this.orgApacheSlingScriptingSightlyJsProvider = orgApacheSlingScriptingSightlyJsProvider;
   }
@@ -2712,9 +3021,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("org.apache.sling.scripting.sightly.models.provider")
-  public ConfigNodePropertyString getOrgApacheSlingScriptingSightlyModelsProvider() {
+  @Valid public ConfigNodePropertyString getOrgApacheSlingScriptingSightlyModelsProvider() {
     return orgApacheSlingScriptingSightlyModelsProvider;
   }
+
+  @JsonProperty("org.apache.sling.scripting.sightly.models.provider")
   public void setOrgApacheSlingScriptingSightlyModelsProvider(ConfigNodePropertyString orgApacheSlingScriptingSightlyModelsProvider) {
     this.orgApacheSlingScriptingSightlyModelsProvider = orgApacheSlingScriptingSightlyModelsProvider;
   }
@@ -2729,9 +3040,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("org.apache.sling.security")
-  public ConfigNodePropertyString getOrgApacheSlingSecurity() {
+  @Valid public ConfigNodePropertyString getOrgApacheSlingSecurity() {
     return orgApacheSlingSecurity;
   }
+
+  @JsonProperty("org.apache.sling.security")
   public void setOrgApacheSlingSecurity(ConfigNodePropertyString orgApacheSlingSecurity) {
     this.orgApacheSlingSecurity = orgApacheSlingSecurity;
   }
@@ -2746,9 +3059,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("org.apache.sling.servlets.compat")
-  public ConfigNodePropertyString getOrgApacheSlingServletsCompat() {
+  @Valid public ConfigNodePropertyString getOrgApacheSlingServletsCompat() {
     return orgApacheSlingServletsCompat;
   }
+
+  @JsonProperty("org.apache.sling.servlets.compat")
   public void setOrgApacheSlingServletsCompat(ConfigNodePropertyString orgApacheSlingServletsCompat) {
     this.orgApacheSlingServletsCompat = orgApacheSlingServletsCompat;
   }
@@ -2763,9 +3078,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("org.apache.sling.servlets.get")
-  public ConfigNodePropertyString getOrgApacheSlingServletsGet() {
+  @Valid public ConfigNodePropertyString getOrgApacheSlingServletsGet() {
     return orgApacheSlingServletsGet;
   }
+
+  @JsonProperty("org.apache.sling.servlets.get")
   public void setOrgApacheSlingServletsGet(ConfigNodePropertyString orgApacheSlingServletsGet) {
     this.orgApacheSlingServletsGet = orgApacheSlingServletsGet;
   }
@@ -2780,9 +3097,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("org.apache.sling.startupfilter.disabler")
-  public ConfigNodePropertyString getOrgApacheSlingStartupfilterDisabler() {
+  @Valid public ConfigNodePropertyString getOrgApacheSlingStartupfilterDisabler() {
     return orgApacheSlingStartupfilterDisabler;
   }
+
+  @JsonProperty("org.apache.sling.startupfilter.disabler")
   public void setOrgApacheSlingStartupfilterDisabler(ConfigNodePropertyString orgApacheSlingStartupfilterDisabler) {
     this.orgApacheSlingStartupfilterDisabler = orgApacheSlingStartupfilterDisabler;
   }
@@ -2797,9 +3116,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("org.apache.sling.tracer")
-  public ConfigNodePropertyString getOrgApacheSlingTracer() {
+  @Valid public ConfigNodePropertyString getOrgApacheSlingTracer() {
     return orgApacheSlingTracer;
   }
+
+  @JsonProperty("org.apache.sling.tracer")
   public void setOrgApacheSlingTracer(ConfigNodePropertyString orgApacheSlingTracer) {
     this.orgApacheSlingTracer = orgApacheSlingTracer;
   }
@@ -2814,16 +3135,18 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("we.retail.client.app.core")
-  public ConfigNodePropertyString getWeRetailClientAppCore() {
+  @Valid public ConfigNodePropertyString getWeRetailClientAppCore() {
     return weRetailClientAppCore;
   }
+
+  @JsonProperty("we.retail.client.app.core")
   public void setWeRetailClientAppCore(ConfigNodePropertyString weRetailClientAppCore) {
     this.weRetailClientAppCore = weRetailClientAppCore;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -2831,162 +3154,162 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
       return false;
     }
     ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties = (ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties) o;
-    return Objects.equals(comAdobeCqCdnCdnRewriter, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqCdnCdnRewriter) &&
-        Objects.equals(comAdobeCqCloudConfigComponents, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqCloudConfigComponents) &&
-        Objects.equals(comAdobeCqCloudConfigCore, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqCloudConfigCore) &&
-        Objects.equals(comAdobeCqCloudConfigUi, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqCloudConfigUi) &&
-        Objects.equals(comAdobeCqComAdobeCqEditor, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqComAdobeCqEditor) &&
-        Objects.equals(comAdobeCqComAdobeCqProjectsCore, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqComAdobeCqProjectsCore) &&
-        Objects.equals(comAdobeCqComAdobeCqProjectsWcmCore, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqComAdobeCqProjectsWcmCore) &&
-        Objects.equals(comAdobeCqComAdobeCqUiCommons, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqComAdobeCqUiCommons) &&
-        Objects.equals(comAdobeCqComAdobeCqWcmStyle, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqComAdobeCqWcmStyle) &&
-        Objects.equals(comAdobeCqCqActivitymapIntegration, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqCqActivitymapIntegration) &&
-        Objects.equals(comAdobeCqCqContexthubCommons, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqCqContexthubCommons) &&
-        Objects.equals(comAdobeCqCqDtm, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqCqDtm) &&
-        Objects.equals(comAdobeCqCqHealthcheck, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqCqHealthcheck) &&
-        Objects.equals(comAdobeCqCqMultisiteTargeting, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqCqMultisiteTargeting) &&
-        Objects.equals(comAdobeCqCqPreUpgradeCleanup, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqCqPreUpgradeCleanup) &&
-        Objects.equals(comAdobeCqCqProductInfoProvider, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqCqProductInfoProvider) &&
-        Objects.equals(comAdobeCqCqRestSites, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqCqRestSites) &&
-        Objects.equals(comAdobeCqCqSecurityHc, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqCqSecurityHc) &&
-        Objects.equals(comAdobeCqDamCqDamSvgHandler, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqDamCqDamSvgHandler) &&
-        Objects.equals(comAdobeCqDamCqScene7Imaging, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqDamCqScene7Imaging) &&
-        Objects.equals(comAdobeCqDtmReactorCore, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqDtmReactorCore) &&
-        Objects.equals(comAdobeCqDtmReactorUi, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqDtmReactorUi) &&
-        Objects.equals(comAdobeCqExpJspelResolver, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqExpJspelResolver) &&
-        Objects.equals(comAdobeCqInboxCqInbox, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqInboxCqInbox) &&
-        Objects.equals(comAdobeCqJsonSchemaParser, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqJsonSchemaParser) &&
-        Objects.equals(comAdobeCqMediaCqMediaPublishingDpsFpCore, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqMediaCqMediaPublishingDpsFpCore) &&
-        Objects.equals(comAdobeCqMobileCqMobileCaas, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqMobileCqMobileCaas) &&
-        Objects.equals(comAdobeCqMobileCqMobileIndexBuilder, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqMobileCqMobileIndexBuilder) &&
-        Objects.equals(comAdobeCqMobileCqMobilePhonegapBuild, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqMobileCqMobilePhonegapBuild) &&
-        Objects.equals(comAdobeCqMyspell, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqMyspell) &&
-        Objects.equals(comAdobeCqSampleWeRetailCore, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqSampleWeRetailCore) &&
-        Objects.equals(comAdobeCqScreensComAdobeCqScreensDcc, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqScreensComAdobeCqScreensDcc) &&
-        Objects.equals(comAdobeCqScreensComAdobeCqScreensMqCore, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqScreensComAdobeCqScreensMqCore) &&
-        Objects.equals(comAdobeCqSocialCqSocialAsProvider, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqSocialCqSocialAsProvider) &&
-        Objects.equals(comAdobeCqSocialCqSocialBadgingBasicImpl, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqSocialCqSocialBadgingBasicImpl) &&
-        Objects.equals(comAdobeCqSocialCqSocialBadgingImpl, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqSocialCqSocialBadgingImpl) &&
-        Objects.equals(comAdobeCqSocialCqSocialCalendarImpl, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqSocialCqSocialCalendarImpl) &&
-        Objects.equals(comAdobeCqSocialCqSocialContentFragmentsImpl, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqSocialCqSocialContentFragmentsImpl) &&
-        Objects.equals(comAdobeCqSocialCqSocialEnablementImpl, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqSocialCqSocialEnablementImpl) &&
-        Objects.equals(comAdobeCqSocialCqSocialGraphImpl, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqSocialCqSocialGraphImpl) &&
-        Objects.equals(comAdobeCqSocialCqSocialIdeationImpl, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqSocialCqSocialIdeationImpl) &&
-        Objects.equals(comAdobeCqSocialCqSocialJcrProvider, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqSocialCqSocialJcrProvider) &&
-        Objects.equals(comAdobeCqSocialCqSocialMembersImpl, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqSocialCqSocialMembersImpl) &&
-        Objects.equals(comAdobeCqSocialCqSocialMsProvider, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqSocialCqSocialMsProvider) &&
-        Objects.equals(comAdobeCqSocialCqSocialNotificationsChannelsWeb, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqSocialCqSocialNotificationsChannelsWeb) &&
-        Objects.equals(comAdobeCqSocialCqSocialNotificationsImpl, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqSocialCqSocialNotificationsImpl) &&
-        Objects.equals(comAdobeCqSocialCqSocialRdbProvider, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqSocialCqSocialRdbProvider) &&
-        Objects.equals(comAdobeCqSocialCqSocialScfImpl, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqSocialCqSocialScfImpl) &&
-        Objects.equals(comAdobeCqSocialCqSocialScoringBasicImpl, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqSocialCqSocialScoringBasicImpl) &&
-        Objects.equals(comAdobeCqSocialCqSocialScoringImpl, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqSocialCqSocialScoringImpl) &&
-        Objects.equals(comAdobeCqSocialCqSocialServiceusersImpl, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqSocialCqSocialServiceusersImpl) &&
-        Objects.equals(comAdobeCqSocialCqSocialSrpImpl, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqSocialCqSocialSrpImpl) &&
-        Objects.equals(comAdobeCqSocialCqSocialUgcbaseImpl, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqSocialCqSocialUgcbaseImpl) &&
-        Objects.equals(comAdobeDamCqDamCfmImpl, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeDamCqDamCfmImpl) &&
-        Objects.equals(comAdobeFormsFoundationFormsFoundationBase, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeFormsFoundationFormsFoundationBase) &&
-        Objects.equals(comAdobeGraniteApicontroller, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeGraniteApicontroller) &&
-        Objects.equals(comAdobeGraniteAssetCore, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeGraniteAssetCore) &&
-        Objects.equals(comAdobeGraniteAuthSso, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeGraniteAuthSso) &&
-        Objects.equals(comAdobeGraniteBundlesHcImpl, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeGraniteBundlesHcImpl) &&
-        Objects.equals(comAdobeGraniteCompatRouter, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeGraniteCompatRouter) &&
-        Objects.equals(comAdobeGraniteConf, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeGraniteConf) &&
-        Objects.equals(comAdobeGraniteConfUiCore, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeGraniteConfUiCore) &&
-        Objects.equals(comAdobeGraniteCors, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeGraniteCors) &&
-        Objects.equals(comAdobeGraniteCrxExplorer, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeGraniteCrxExplorer) &&
-        Objects.equals(comAdobeGraniteCrxdeLite, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeGraniteCrxdeLite) &&
-        Objects.equals(comAdobeGraniteCryptoConfig, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeGraniteCryptoConfig) &&
-        Objects.equals(comAdobeGraniteCryptoExtension, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeGraniteCryptoExtension) &&
-        Objects.equals(comAdobeGraniteCryptoFile, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeGraniteCryptoFile) &&
-        Objects.equals(comAdobeGraniteCryptoJcr, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeGraniteCryptoJcr) &&
-        Objects.equals(comAdobeGraniteCsrf, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeGraniteCsrf) &&
-        Objects.equals(comAdobeGraniteDistributionCore, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeGraniteDistributionCore) &&
-        Objects.equals(comAdobeGraniteDropwizardMetrics, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeGraniteDropwizardMetrics) &&
-        Objects.equals(comAdobeGraniteFragsImpl, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeGraniteFragsImpl) &&
-        Objects.equals(comAdobeGraniteGibson, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeGraniteGibson) &&
-        Objects.equals(comAdobeGraniteInfocollector, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeGraniteInfocollector) &&
-        Objects.equals(comAdobeGraniteInstallerFactoryPackages, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeGraniteInstallerFactoryPackages) &&
-        Objects.equals(comAdobeGraniteJettySsl, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeGraniteJettySsl) &&
-        Objects.equals(comAdobeGraniteJobsAsync, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeGraniteJobsAsync) &&
-        Objects.equals(comAdobeGraniteMaintenanceOak, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeGraniteMaintenanceOak) &&
-        Objects.equals(comAdobeGraniteMonitoringCore, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeGraniteMonitoringCore) &&
-        Objects.equals(comAdobeGraniteQueries, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeGraniteQueries) &&
-        Objects.equals(comAdobeGraniteReplicationHcImpl, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeGraniteReplicationHcImpl) &&
-        Objects.equals(comAdobeGraniteRepositoryChecker, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeGraniteRepositoryChecker) &&
-        Objects.equals(comAdobeGraniteRepositoryHcImpl, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeGraniteRepositoryHcImpl) &&
-        Objects.equals(comAdobeGraniteRestAssets, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeGraniteRestAssets) &&
-        Objects.equals(comAdobeGraniteSecurityUi, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeGraniteSecurityUi) &&
-        Objects.equals(comAdobeGraniteStartup, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeGraniteStartup) &&
-        Objects.equals(comAdobeGraniteTagsoup, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeGraniteTagsoup) &&
-        Objects.equals(comAdobeGraniteTaskmanagementCore, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeGraniteTaskmanagementCore) &&
-        Objects.equals(comAdobeGraniteTaskmanagementWorkflow, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeGraniteTaskmanagementWorkflow) &&
-        Objects.equals(comAdobeGraniteUiClientlibsCompilerLess, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeGraniteUiClientlibsCompilerLess) &&
-        Objects.equals(comAdobeGraniteUiClientlibsProcessorGcc, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeGraniteUiClientlibsProcessorGcc) &&
-        Objects.equals(comAdobeGraniteWebconsolePlugins, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeGraniteWebconsolePlugins) &&
-        Objects.equals(comAdobeGraniteWorkflowConsole, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeGraniteWorkflowConsole) &&
-        Objects.equals(comAdobeXmpWorkerFilesNativeFragmentLinux, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeXmpWorkerFilesNativeFragmentLinux) &&
-        Objects.equals(comAdobeXmpWorkerFilesNativeFragmentMacosx, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeXmpWorkerFilesNativeFragmentMacosx) &&
-        Objects.equals(comAdobeXmpWorkerFilesNativeFragmentWin, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeXmpWorkerFilesNativeFragmentWin) &&
-        Objects.equals(comDayCommonsOsgiWrapperSimpleJndi, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comDayCommonsOsgiWrapperSimpleJndi) &&
-        Objects.equals(comDayCqCqAuthhandler, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comDayCqCqAuthhandler) &&
-        Objects.equals(comDayCqCqCompatConfigupdate, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comDayCqCqCompatConfigupdate) &&
-        Objects.equals(comDayCqCqLicensebranding, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comDayCqCqLicensebranding) &&
-        Objects.equals(comDayCqCqNotifcationImpl, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comDayCqCqNotifcationImpl) &&
-        Objects.equals(comDayCqCqReplicationAudit, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comDayCqCqReplicationAudit) &&
-        Objects.equals(comDayCqCqSearchExt, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comDayCqCqSearchExt) &&
-        Objects.equals(comDayCqDamCqDamAnnotationPrint, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comDayCqDamCqDamAnnotationPrint) &&
-        Objects.equals(comDayCqDamCqDamAssetUsage, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comDayCqDamCqDamAssetUsage) &&
-        Objects.equals(comDayCqDamCqDamS7dam, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comDayCqDamCqDamS7dam) &&
-        Objects.equals(comDayCqDamCqDamSimilaritysearch, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comDayCqDamCqDamSimilaritysearch) &&
-        Objects.equals(comDayCqDamDamWebdavSupport, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comDayCqDamDamWebdavSupport) &&
-        Objects.equals(comDayCqPreUpgradeTasks, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comDayCqPreUpgradeTasks) &&
-        Objects.equals(comDayCqReplicationExtensions, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comDayCqReplicationExtensions) &&
-        Objects.equals(comDayCqWcmCqMsmCore, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comDayCqWcmCqMsmCore) &&
-        Objects.equals(comDayCqWcmCqWcmTranslation, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comDayCqWcmCqWcmTranslation) &&
-        Objects.equals(dayCommonsJrawio, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.dayCommonsJrawio) &&
-        Objects.equals(orgApacheAriesJmxWhiteboard, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.orgApacheAriesJmxWhiteboard) &&
-        Objects.equals(orgApacheFelixHttpSslfilter, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.orgApacheFelixHttpSslfilter) &&
-        Objects.equals(orgApacheFelixOrgApacheFelixThreaddump, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.orgApacheFelixOrgApacheFelixThreaddump) &&
-        Objects.equals(orgApacheFelixWebconsolePluginsDs, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.orgApacheFelixWebconsolePluginsDs) &&
-        Objects.equals(orgApacheFelixWebconsolePluginsEvent, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.orgApacheFelixWebconsolePluginsEvent) &&
-        Objects.equals(orgApacheFelixWebconsolePluginsMemoryusage, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.orgApacheFelixWebconsolePluginsMemoryusage) &&
-        Objects.equals(orgApacheFelixWebconsolePluginsPackageadmin, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.orgApacheFelixWebconsolePluginsPackageadmin) &&
-        Objects.equals(orgApacheJackrabbitOakAuthLdap, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.orgApacheJackrabbitOakAuthLdap) &&
-        Objects.equals(orgApacheJackrabbitOakSegmentTar, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.orgApacheJackrabbitOakSegmentTar) &&
-        Objects.equals(orgApacheJackrabbitOakSolrOsgi, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.orgApacheJackrabbitOakSolrOsgi) &&
-        Objects.equals(orgApacheSlingBundleresourceImpl, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.orgApacheSlingBundleresourceImpl) &&
-        Objects.equals(orgApacheSlingCommonsFsclassloader, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.orgApacheSlingCommonsFsclassloader) &&
-        Objects.equals(orgApacheSlingCommonsLogWebconsole, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.orgApacheSlingCommonsLogWebconsole) &&
-        Objects.equals(orgApacheSlingDatasource, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.orgApacheSlingDatasource) &&
-        Objects.equals(orgApacheSlingDiscoveryBase, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.orgApacheSlingDiscoveryBase) &&
-        Objects.equals(orgApacheSlingDiscoveryOak, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.orgApacheSlingDiscoveryOak) &&
-        Objects.equals(orgApacheSlingDiscoverySupport, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.orgApacheSlingDiscoverySupport) &&
-        Objects.equals(orgApacheSlingDistributionApi, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.orgApacheSlingDistributionApi) &&
-        Objects.equals(orgApacheSlingDistributionCore, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.orgApacheSlingDistributionCore) &&
-        Objects.equals(orgApacheSlingExtensionsWebconsolesecurityprovider, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.orgApacheSlingExtensionsWebconsolesecurityprovider) &&
-        Objects.equals(orgApacheSlingHcWebconsole, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.orgApacheSlingHcWebconsole) &&
-        Objects.equals(orgApacheSlingInstallerConsole, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.orgApacheSlingInstallerConsole) &&
-        Objects.equals(orgApacheSlingInstallerProviderFile, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.orgApacheSlingInstallerProviderFile) &&
-        Objects.equals(orgApacheSlingInstallerProviderJcr, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.orgApacheSlingInstallerProviderJcr) &&
-        Objects.equals(orgApacheSlingJcrDavex, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.orgApacheSlingJcrDavex) &&
-        Objects.equals(orgApacheSlingJcrResourcesecurity, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.orgApacheSlingJcrResourcesecurity) &&
-        Objects.equals(orgApacheSlingJmxProvider, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.orgApacheSlingJmxProvider) &&
-        Objects.equals(orgApacheSlingLaunchpadInstaller, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.orgApacheSlingLaunchpadInstaller) &&
-        Objects.equals(orgApacheSlingModelsImpl, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.orgApacheSlingModelsImpl) &&
-        Objects.equals(orgApacheSlingRepoinitParser, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.orgApacheSlingRepoinitParser) &&
-        Objects.equals(orgApacheSlingResourceInventory, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.orgApacheSlingResourceInventory) &&
-        Objects.equals(orgApacheSlingResourceresolver, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.orgApacheSlingResourceresolver) &&
-        Objects.equals(orgApacheSlingScriptingJavascript, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.orgApacheSlingScriptingJavascript) &&
-        Objects.equals(orgApacheSlingScriptingJst, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.orgApacheSlingScriptingJst) &&
-        Objects.equals(orgApacheSlingScriptingSightlyJsProvider, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.orgApacheSlingScriptingSightlyJsProvider) &&
-        Objects.equals(orgApacheSlingScriptingSightlyModelsProvider, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.orgApacheSlingScriptingSightlyModelsProvider) &&
-        Objects.equals(orgApacheSlingSecurity, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.orgApacheSlingSecurity) &&
-        Objects.equals(orgApacheSlingServletsCompat, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.orgApacheSlingServletsCompat) &&
-        Objects.equals(orgApacheSlingServletsGet, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.orgApacheSlingServletsGet) &&
-        Objects.equals(orgApacheSlingStartupfilterDisabler, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.orgApacheSlingStartupfilterDisabler) &&
-        Objects.equals(orgApacheSlingTracer, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.orgApacheSlingTracer) &&
-        Objects.equals(weRetailClientAppCore, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.weRetailClientAppCore);
+    return Objects.equals(this.comAdobeCqCdnCdnRewriter, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqCdnCdnRewriter) &&
+        Objects.equals(this.comAdobeCqCloudConfigComponents, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqCloudConfigComponents) &&
+        Objects.equals(this.comAdobeCqCloudConfigCore, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqCloudConfigCore) &&
+        Objects.equals(this.comAdobeCqCloudConfigUi, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqCloudConfigUi) &&
+        Objects.equals(this.comAdobeCqComAdobeCqEditor, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqComAdobeCqEditor) &&
+        Objects.equals(this.comAdobeCqComAdobeCqProjectsCore, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqComAdobeCqProjectsCore) &&
+        Objects.equals(this.comAdobeCqComAdobeCqProjectsWcmCore, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqComAdobeCqProjectsWcmCore) &&
+        Objects.equals(this.comAdobeCqComAdobeCqUiCommons, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqComAdobeCqUiCommons) &&
+        Objects.equals(this.comAdobeCqComAdobeCqWcmStyle, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqComAdobeCqWcmStyle) &&
+        Objects.equals(this.comAdobeCqCqActivitymapIntegration, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqCqActivitymapIntegration) &&
+        Objects.equals(this.comAdobeCqCqContexthubCommons, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqCqContexthubCommons) &&
+        Objects.equals(this.comAdobeCqCqDtm, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqCqDtm) &&
+        Objects.equals(this.comAdobeCqCqHealthcheck, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqCqHealthcheck) &&
+        Objects.equals(this.comAdobeCqCqMultisiteTargeting, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqCqMultisiteTargeting) &&
+        Objects.equals(this.comAdobeCqCqPreUpgradeCleanup, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqCqPreUpgradeCleanup) &&
+        Objects.equals(this.comAdobeCqCqProductInfoProvider, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqCqProductInfoProvider) &&
+        Objects.equals(this.comAdobeCqCqRestSites, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqCqRestSites) &&
+        Objects.equals(this.comAdobeCqCqSecurityHc, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqCqSecurityHc) &&
+        Objects.equals(this.comAdobeCqDamCqDamSvgHandler, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqDamCqDamSvgHandler) &&
+        Objects.equals(this.comAdobeCqDamCqScene7Imaging, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqDamCqScene7Imaging) &&
+        Objects.equals(this.comAdobeCqDtmReactorCore, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqDtmReactorCore) &&
+        Objects.equals(this.comAdobeCqDtmReactorUi, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqDtmReactorUi) &&
+        Objects.equals(this.comAdobeCqExpJspelResolver, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqExpJspelResolver) &&
+        Objects.equals(this.comAdobeCqInboxCqInbox, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqInboxCqInbox) &&
+        Objects.equals(this.comAdobeCqJsonSchemaParser, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqJsonSchemaParser) &&
+        Objects.equals(this.comAdobeCqMediaCqMediaPublishingDpsFpCore, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqMediaCqMediaPublishingDpsFpCore) &&
+        Objects.equals(this.comAdobeCqMobileCqMobileCaas, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqMobileCqMobileCaas) &&
+        Objects.equals(this.comAdobeCqMobileCqMobileIndexBuilder, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqMobileCqMobileIndexBuilder) &&
+        Objects.equals(this.comAdobeCqMobileCqMobilePhonegapBuild, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqMobileCqMobilePhonegapBuild) &&
+        Objects.equals(this.comAdobeCqMyspell, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqMyspell) &&
+        Objects.equals(this.comAdobeCqSampleWeRetailCore, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqSampleWeRetailCore) &&
+        Objects.equals(this.comAdobeCqScreensComAdobeCqScreensDcc, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqScreensComAdobeCqScreensDcc) &&
+        Objects.equals(this.comAdobeCqScreensComAdobeCqScreensMqCore, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqScreensComAdobeCqScreensMqCore) &&
+        Objects.equals(this.comAdobeCqSocialCqSocialAsProvider, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqSocialCqSocialAsProvider) &&
+        Objects.equals(this.comAdobeCqSocialCqSocialBadgingBasicImpl, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqSocialCqSocialBadgingBasicImpl) &&
+        Objects.equals(this.comAdobeCqSocialCqSocialBadgingImpl, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqSocialCqSocialBadgingImpl) &&
+        Objects.equals(this.comAdobeCqSocialCqSocialCalendarImpl, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqSocialCqSocialCalendarImpl) &&
+        Objects.equals(this.comAdobeCqSocialCqSocialContentFragmentsImpl, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqSocialCqSocialContentFragmentsImpl) &&
+        Objects.equals(this.comAdobeCqSocialCqSocialEnablementImpl, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqSocialCqSocialEnablementImpl) &&
+        Objects.equals(this.comAdobeCqSocialCqSocialGraphImpl, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqSocialCqSocialGraphImpl) &&
+        Objects.equals(this.comAdobeCqSocialCqSocialIdeationImpl, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqSocialCqSocialIdeationImpl) &&
+        Objects.equals(this.comAdobeCqSocialCqSocialJcrProvider, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqSocialCqSocialJcrProvider) &&
+        Objects.equals(this.comAdobeCqSocialCqSocialMembersImpl, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqSocialCqSocialMembersImpl) &&
+        Objects.equals(this.comAdobeCqSocialCqSocialMsProvider, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqSocialCqSocialMsProvider) &&
+        Objects.equals(this.comAdobeCqSocialCqSocialNotificationsChannelsWeb, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqSocialCqSocialNotificationsChannelsWeb) &&
+        Objects.equals(this.comAdobeCqSocialCqSocialNotificationsImpl, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqSocialCqSocialNotificationsImpl) &&
+        Objects.equals(this.comAdobeCqSocialCqSocialRdbProvider, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqSocialCqSocialRdbProvider) &&
+        Objects.equals(this.comAdobeCqSocialCqSocialScfImpl, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqSocialCqSocialScfImpl) &&
+        Objects.equals(this.comAdobeCqSocialCqSocialScoringBasicImpl, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqSocialCqSocialScoringBasicImpl) &&
+        Objects.equals(this.comAdobeCqSocialCqSocialScoringImpl, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqSocialCqSocialScoringImpl) &&
+        Objects.equals(this.comAdobeCqSocialCqSocialServiceusersImpl, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqSocialCqSocialServiceusersImpl) &&
+        Objects.equals(this.comAdobeCqSocialCqSocialSrpImpl, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqSocialCqSocialSrpImpl) &&
+        Objects.equals(this.comAdobeCqSocialCqSocialUgcbaseImpl, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeCqSocialCqSocialUgcbaseImpl) &&
+        Objects.equals(this.comAdobeDamCqDamCfmImpl, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeDamCqDamCfmImpl) &&
+        Objects.equals(this.comAdobeFormsFoundationFormsFoundationBase, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeFormsFoundationFormsFoundationBase) &&
+        Objects.equals(this.comAdobeGraniteApicontroller, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeGraniteApicontroller) &&
+        Objects.equals(this.comAdobeGraniteAssetCore, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeGraniteAssetCore) &&
+        Objects.equals(this.comAdobeGraniteAuthSso, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeGraniteAuthSso) &&
+        Objects.equals(this.comAdobeGraniteBundlesHcImpl, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeGraniteBundlesHcImpl) &&
+        Objects.equals(this.comAdobeGraniteCompatRouter, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeGraniteCompatRouter) &&
+        Objects.equals(this.comAdobeGraniteConf, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeGraniteConf) &&
+        Objects.equals(this.comAdobeGraniteConfUiCore, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeGraniteConfUiCore) &&
+        Objects.equals(this.comAdobeGraniteCors, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeGraniteCors) &&
+        Objects.equals(this.comAdobeGraniteCrxExplorer, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeGraniteCrxExplorer) &&
+        Objects.equals(this.comAdobeGraniteCrxdeLite, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeGraniteCrxdeLite) &&
+        Objects.equals(this.comAdobeGraniteCryptoConfig, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeGraniteCryptoConfig) &&
+        Objects.equals(this.comAdobeGraniteCryptoExtension, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeGraniteCryptoExtension) &&
+        Objects.equals(this.comAdobeGraniteCryptoFile, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeGraniteCryptoFile) &&
+        Objects.equals(this.comAdobeGraniteCryptoJcr, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeGraniteCryptoJcr) &&
+        Objects.equals(this.comAdobeGraniteCsrf, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeGraniteCsrf) &&
+        Objects.equals(this.comAdobeGraniteDistributionCore, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeGraniteDistributionCore) &&
+        Objects.equals(this.comAdobeGraniteDropwizardMetrics, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeGraniteDropwizardMetrics) &&
+        Objects.equals(this.comAdobeGraniteFragsImpl, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeGraniteFragsImpl) &&
+        Objects.equals(this.comAdobeGraniteGibson, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeGraniteGibson) &&
+        Objects.equals(this.comAdobeGraniteInfocollector, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeGraniteInfocollector) &&
+        Objects.equals(this.comAdobeGraniteInstallerFactoryPackages, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeGraniteInstallerFactoryPackages) &&
+        Objects.equals(this.comAdobeGraniteJettySsl, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeGraniteJettySsl) &&
+        Objects.equals(this.comAdobeGraniteJobsAsync, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeGraniteJobsAsync) &&
+        Objects.equals(this.comAdobeGraniteMaintenanceOak, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeGraniteMaintenanceOak) &&
+        Objects.equals(this.comAdobeGraniteMonitoringCore, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeGraniteMonitoringCore) &&
+        Objects.equals(this.comAdobeGraniteQueries, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeGraniteQueries) &&
+        Objects.equals(this.comAdobeGraniteReplicationHcImpl, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeGraniteReplicationHcImpl) &&
+        Objects.equals(this.comAdobeGraniteRepositoryChecker, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeGraniteRepositoryChecker) &&
+        Objects.equals(this.comAdobeGraniteRepositoryHcImpl, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeGraniteRepositoryHcImpl) &&
+        Objects.equals(this.comAdobeGraniteRestAssets, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeGraniteRestAssets) &&
+        Objects.equals(this.comAdobeGraniteSecurityUi, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeGraniteSecurityUi) &&
+        Objects.equals(this.comAdobeGraniteStartup, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeGraniteStartup) &&
+        Objects.equals(this.comAdobeGraniteTagsoup, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeGraniteTagsoup) &&
+        Objects.equals(this.comAdobeGraniteTaskmanagementCore, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeGraniteTaskmanagementCore) &&
+        Objects.equals(this.comAdobeGraniteTaskmanagementWorkflow, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeGraniteTaskmanagementWorkflow) &&
+        Objects.equals(this.comAdobeGraniteUiClientlibsCompilerLess, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeGraniteUiClientlibsCompilerLess) &&
+        Objects.equals(this.comAdobeGraniteUiClientlibsProcessorGcc, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeGraniteUiClientlibsProcessorGcc) &&
+        Objects.equals(this.comAdobeGraniteWebconsolePlugins, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeGraniteWebconsolePlugins) &&
+        Objects.equals(this.comAdobeGraniteWorkflowConsole, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeGraniteWorkflowConsole) &&
+        Objects.equals(this.comAdobeXmpWorkerFilesNativeFragmentLinux, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeXmpWorkerFilesNativeFragmentLinux) &&
+        Objects.equals(this.comAdobeXmpWorkerFilesNativeFragmentMacosx, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeXmpWorkerFilesNativeFragmentMacosx) &&
+        Objects.equals(this.comAdobeXmpWorkerFilesNativeFragmentWin, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comAdobeXmpWorkerFilesNativeFragmentWin) &&
+        Objects.equals(this.comDayCommonsOsgiWrapperSimpleJndi, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comDayCommonsOsgiWrapperSimpleJndi) &&
+        Objects.equals(this.comDayCqCqAuthhandler, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comDayCqCqAuthhandler) &&
+        Objects.equals(this.comDayCqCqCompatConfigupdate, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comDayCqCqCompatConfigupdate) &&
+        Objects.equals(this.comDayCqCqLicensebranding, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comDayCqCqLicensebranding) &&
+        Objects.equals(this.comDayCqCqNotifcationImpl, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comDayCqCqNotifcationImpl) &&
+        Objects.equals(this.comDayCqCqReplicationAudit, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comDayCqCqReplicationAudit) &&
+        Objects.equals(this.comDayCqCqSearchExt, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comDayCqCqSearchExt) &&
+        Objects.equals(this.comDayCqDamCqDamAnnotationPrint, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comDayCqDamCqDamAnnotationPrint) &&
+        Objects.equals(this.comDayCqDamCqDamAssetUsage, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comDayCqDamCqDamAssetUsage) &&
+        Objects.equals(this.comDayCqDamCqDamS7dam, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comDayCqDamCqDamS7dam) &&
+        Objects.equals(this.comDayCqDamCqDamSimilaritysearch, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comDayCqDamCqDamSimilaritysearch) &&
+        Objects.equals(this.comDayCqDamDamWebdavSupport, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comDayCqDamDamWebdavSupport) &&
+        Objects.equals(this.comDayCqPreUpgradeTasks, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comDayCqPreUpgradeTasks) &&
+        Objects.equals(this.comDayCqReplicationExtensions, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comDayCqReplicationExtensions) &&
+        Objects.equals(this.comDayCqWcmCqMsmCore, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comDayCqWcmCqMsmCore) &&
+        Objects.equals(this.comDayCqWcmCqWcmTranslation, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.comDayCqWcmCqWcmTranslation) &&
+        Objects.equals(this.dayCommonsJrawio, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.dayCommonsJrawio) &&
+        Objects.equals(this.orgApacheAriesJmxWhiteboard, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.orgApacheAriesJmxWhiteboard) &&
+        Objects.equals(this.orgApacheFelixHttpSslfilter, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.orgApacheFelixHttpSslfilter) &&
+        Objects.equals(this.orgApacheFelixOrgApacheFelixThreaddump, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.orgApacheFelixOrgApacheFelixThreaddump) &&
+        Objects.equals(this.orgApacheFelixWebconsolePluginsDs, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.orgApacheFelixWebconsolePluginsDs) &&
+        Objects.equals(this.orgApacheFelixWebconsolePluginsEvent, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.orgApacheFelixWebconsolePluginsEvent) &&
+        Objects.equals(this.orgApacheFelixWebconsolePluginsMemoryusage, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.orgApacheFelixWebconsolePluginsMemoryusage) &&
+        Objects.equals(this.orgApacheFelixWebconsolePluginsPackageadmin, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.orgApacheFelixWebconsolePluginsPackageadmin) &&
+        Objects.equals(this.orgApacheJackrabbitOakAuthLdap, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.orgApacheJackrabbitOakAuthLdap) &&
+        Objects.equals(this.orgApacheJackrabbitOakSegmentTar, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.orgApacheJackrabbitOakSegmentTar) &&
+        Objects.equals(this.orgApacheJackrabbitOakSolrOsgi, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.orgApacheJackrabbitOakSolrOsgi) &&
+        Objects.equals(this.orgApacheSlingBundleresourceImpl, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.orgApacheSlingBundleresourceImpl) &&
+        Objects.equals(this.orgApacheSlingCommonsFsclassloader, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.orgApacheSlingCommonsFsclassloader) &&
+        Objects.equals(this.orgApacheSlingCommonsLogWebconsole, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.orgApacheSlingCommonsLogWebconsole) &&
+        Objects.equals(this.orgApacheSlingDatasource, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.orgApacheSlingDatasource) &&
+        Objects.equals(this.orgApacheSlingDiscoveryBase, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.orgApacheSlingDiscoveryBase) &&
+        Objects.equals(this.orgApacheSlingDiscoveryOak, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.orgApacheSlingDiscoveryOak) &&
+        Objects.equals(this.orgApacheSlingDiscoverySupport, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.orgApacheSlingDiscoverySupport) &&
+        Objects.equals(this.orgApacheSlingDistributionApi, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.orgApacheSlingDistributionApi) &&
+        Objects.equals(this.orgApacheSlingDistributionCore, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.orgApacheSlingDistributionCore) &&
+        Objects.equals(this.orgApacheSlingExtensionsWebconsolesecurityprovider, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.orgApacheSlingExtensionsWebconsolesecurityprovider) &&
+        Objects.equals(this.orgApacheSlingHcWebconsole, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.orgApacheSlingHcWebconsole) &&
+        Objects.equals(this.orgApacheSlingInstallerConsole, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.orgApacheSlingInstallerConsole) &&
+        Objects.equals(this.orgApacheSlingInstallerProviderFile, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.orgApacheSlingInstallerProviderFile) &&
+        Objects.equals(this.orgApacheSlingInstallerProviderJcr, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.orgApacheSlingInstallerProviderJcr) &&
+        Objects.equals(this.orgApacheSlingJcrDavex, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.orgApacheSlingJcrDavex) &&
+        Objects.equals(this.orgApacheSlingJcrResourcesecurity, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.orgApacheSlingJcrResourcesecurity) &&
+        Objects.equals(this.orgApacheSlingJmxProvider, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.orgApacheSlingJmxProvider) &&
+        Objects.equals(this.orgApacheSlingLaunchpadInstaller, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.orgApacheSlingLaunchpadInstaller) &&
+        Objects.equals(this.orgApacheSlingModelsImpl, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.orgApacheSlingModelsImpl) &&
+        Objects.equals(this.orgApacheSlingRepoinitParser, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.orgApacheSlingRepoinitParser) &&
+        Objects.equals(this.orgApacheSlingResourceInventory, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.orgApacheSlingResourceInventory) &&
+        Objects.equals(this.orgApacheSlingResourceresolver, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.orgApacheSlingResourceresolver) &&
+        Objects.equals(this.orgApacheSlingScriptingJavascript, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.orgApacheSlingScriptingJavascript) &&
+        Objects.equals(this.orgApacheSlingScriptingJst, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.orgApacheSlingScriptingJst) &&
+        Objects.equals(this.orgApacheSlingScriptingSightlyJsProvider, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.orgApacheSlingScriptingSightlyJsProvider) &&
+        Objects.equals(this.orgApacheSlingScriptingSightlyModelsProvider, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.orgApacheSlingScriptingSightlyModelsProvider) &&
+        Objects.equals(this.orgApacheSlingSecurity, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.orgApacheSlingSecurity) &&
+        Objects.equals(this.orgApacheSlingServletsCompat, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.orgApacheSlingServletsCompat) &&
+        Objects.equals(this.orgApacheSlingServletsGet, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.orgApacheSlingServletsGet) &&
+        Objects.equals(this.orgApacheSlingStartupfilterDisabler, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.orgApacheSlingStartupfilterDisabler) &&
+        Objects.equals(this.orgApacheSlingTracer, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.orgApacheSlingTracer) &&
+        Objects.equals(this.weRetailClientAppCore, comAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.weRetailClientAppCore);
   }
 
   @Override
@@ -3163,11 +3486,9 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

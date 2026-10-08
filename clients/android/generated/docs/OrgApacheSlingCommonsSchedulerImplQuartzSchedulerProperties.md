@@ -1,7 +1,9 @@
 
+
 # OrgApacheSlingCommonsSchedulerImplQuartzSchedulerProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **poolName** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
@@ -9,6 +11,7 @@ Name | Type | Description | Notes
 **schedulerUseleaderforsingle** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
 **metricsFilters** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
 **slowThresholdMillis** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
+
 
 
 

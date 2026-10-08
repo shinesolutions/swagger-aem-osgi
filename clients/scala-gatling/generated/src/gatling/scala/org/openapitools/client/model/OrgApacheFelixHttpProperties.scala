@@ -1,0 +1,67 @@
+
+package org.openapitools.client.model
+
+
+case class OrgApacheFelixHttpProperties (
+    _orgApacheFelixHttpHost: Option[ConfigNodePropertyString],
+    _orgApacheFelixHttpEnable: Option[ConfigNodePropertyBoolean],
+    _orgOsgiServiceHttpPort: Option[ConfigNodePropertyInteger],
+    _orgApacheFelixHttpTimeout: Option[ConfigNodePropertyInteger],
+    _orgApacheFelixHttpsEnable: Option[ConfigNodePropertyBoolean],
+    _orgOsgiServiceHttpPortSecure: Option[ConfigNodePropertyInteger],
+    _orgApacheFelixHttpsKeystore: Option[ConfigNodePropertyString],
+    _orgApacheFelixHttpsKeystorePassword: Option[ConfigNodePropertyString],
+    _orgApacheFelixHttpsKeystoreKeyPassword: Option[ConfigNodePropertyString],
+    _orgApacheFelixHttpsTruststore: Option[ConfigNodePropertyString],
+    _orgApacheFelixHttpsTruststorePassword: Option[ConfigNodePropertyString],
+    _orgApacheFelixHttpsClientcertificate: Option[ConfigNodePropertyDropDown],
+    _orgApacheFelixHttpContextPath: Option[ConfigNodePropertyString],
+    _orgApacheFelixHttpMbeans: Option[ConfigNodePropertyBoolean],
+    _orgApacheFelixHttpSessionTimeout: Option[ConfigNodePropertyInteger],
+    _orgApacheFelixHttpJettyThreadpoolMax: Option[ConfigNodePropertyInteger],
+    _orgApacheFelixHttpJettyAcceptors: Option[ConfigNodePropertyInteger],
+    _orgApacheFelixHttpJettySelectors: Option[ConfigNodePropertyInteger],
+    _orgApacheFelixHttpJettyHeaderBufferSize: Option[ConfigNodePropertyInteger],
+    _orgApacheFelixHttpJettyRequestBufferSize: Option[ConfigNodePropertyInteger],
+    _orgApacheFelixHttpJettyResponseBufferSize: Option[ConfigNodePropertyInteger],
+    _orgApacheFelixHttpJettyMaxFormSize: Option[ConfigNodePropertyInteger],
+    _orgApacheFelixHttpPathExclusions: Option[ConfigNodePropertyArray],
+    _orgApacheFelixHttpsJettyCiphersuitesExcluded: Option[ConfigNodePropertyArray],
+    _orgApacheFelixHttpsJettyCiphersuitesIncluded: Option[ConfigNodePropertyArray],
+    _orgApacheFelixHttpJettySendServerHeader: Option[ConfigNodePropertyBoolean],
+    _orgApacheFelixHttpsJettyProtocolsIncluded: Option[ConfigNodePropertyArray],
+    _orgApacheFelixHttpsJettyProtocolsExcluded: Option[ConfigNodePropertyArray],
+    _orgApacheFelixProxyLoadBalancerConnectionEnable: Option[ConfigNodePropertyBoolean],
+    _orgApacheFelixHttpsJettyRenegotiateAllowed: Option[ConfigNodePropertyBoolean],
+    _orgApacheFelixHttpsJettySessionCookieHttpOnly: Option[ConfigNodePropertyBoolean],
+    _orgApacheFelixHttpsJettySessionCookieSecure: Option[ConfigNodePropertyBoolean],
+    _orgEclipseJettyServletSessionIdPathParameterName: Option[ConfigNodePropertyString],
+    _orgEclipseJettyServletCheckingRemoteSessionIdEncoding: Option[ConfigNodePropertyBoolean],
+    _orgEclipseJettyServletSessionCookie: Option[ConfigNodePropertyString],
+    _orgEclipseJettyServletSessionDomain: Option[ConfigNodePropertyString],
+    _orgEclipseJettyServletSessionPath: Option[ConfigNodePropertyString],
+    _orgEclipseJettyServletMaxAge: Option[ConfigNodePropertyInteger],
+    _orgApacheFelixHttpName: Option[ConfigNodePropertyString],
+    _orgApacheFelixJettyGziphandlerEnable: Option[ConfigNodePropertyBoolean],
+    _orgApacheFelixJettyGzipMinGzipSize: Option[ConfigNodePropertyInteger],
+    _orgApacheFelixJettyGzipCompressionLevel: Option[ConfigNodePropertyInteger],
+    _orgApacheFelixJettyGzipInflateBufferSize: Option[ConfigNodePropertyInteger],
+    _orgApacheFelixJettyGzipSyncFlush: Option[ConfigNodePropertyBoolean],
+    _orgApacheFelixJettyGzipExcludedUserAgents: Option[ConfigNodePropertyArray],
+    _orgApacheFelixJettyGzipIncludedMethods: Option[ConfigNodePropertyArray],
+    _orgApacheFelixJettyGzipExcludedMethods: Option[ConfigNodePropertyArray],
+    _orgApacheFelixJettyGzipIncludedPaths: Option[ConfigNodePropertyArray],
+    _orgApacheFelixJettyGzipExcludedPaths: Option[ConfigNodePropertyArray],
+    _orgApacheFelixJettyGzipIncludedMimeTypes: Option[ConfigNodePropertyArray],
+    _orgApacheFelixJettyGzipExcludedMimeTypes: Option[ConfigNodePropertyArray],
+    _orgApacheFelixHttpSessionInvalidate: Option[ConfigNodePropertyBoolean],
+    _orgApacheFelixHttpSessionUniqueid: Option[ConfigNodePropertyBoolean]
+)
+object OrgApacheFelixHttpProperties {
+    def toStringBody(var_orgApacheFelixHttpHost: Object, var_orgApacheFelixHttpEnable: Object, var_orgOsgiServiceHttpPort: Object, var_orgApacheFelixHttpTimeout: Object, var_orgApacheFelixHttpsEnable: Object, var_orgOsgiServiceHttpPortSecure: Object, var_orgApacheFelixHttpsKeystore: Object, var_orgApacheFelixHttpsKeystorePassword: Object, var_orgApacheFelixHttpsKeystoreKeyPassword: Object, var_orgApacheFelixHttpsTruststore: Object, var_orgApacheFelixHttpsTruststorePassword: Object, var_orgApacheFelixHttpsClientcertificate: Object, var_orgApacheFelixHttpContextPath: Object, var_orgApacheFelixHttpMbeans: Object, var_orgApacheFelixHttpSessionTimeout: Object, var_orgApacheFelixHttpJettyThreadpoolMax: Object, var_orgApacheFelixHttpJettyAcceptors: Object, var_orgApacheFelixHttpJettySelectors: Object, var_orgApacheFelixHttpJettyHeaderBufferSize: Object, var_orgApacheFelixHttpJettyRequestBufferSize: Object, var_orgApacheFelixHttpJettyResponseBufferSize: Object, var_orgApacheFelixHttpJettyMaxFormSize: Object, var_orgApacheFelixHttpPathExclusions: Object, var_orgApacheFelixHttpsJettyCiphersuitesExcluded: Object, var_orgApacheFelixHttpsJettyCiphersuitesIncluded: Object, var_orgApacheFelixHttpJettySendServerHeader: Object, var_orgApacheFelixHttpsJettyProtocolsIncluded: Object, var_orgApacheFelixHttpsJettyProtocolsExcluded: Object, var_orgApacheFelixProxyLoadBalancerConnectionEnable: Object, var_orgApacheFelixHttpsJettyRenegotiateAllowed: Object, var_orgApacheFelixHttpsJettySessionCookieHttpOnly: Object, var_orgApacheFelixHttpsJettySessionCookieSecure: Object, var_orgEclipseJettyServletSessionIdPathParameterName: Object, var_orgEclipseJettyServletCheckingRemoteSessionIdEncoding: Object, var_orgEclipseJettyServletSessionCookie: Object, var_orgEclipseJettyServletSessionDomain: Object, var_orgEclipseJettyServletSessionPath: Object, var_orgEclipseJettyServletMaxAge: Object, var_orgApacheFelixHttpName: Object, var_orgApacheFelixJettyGziphandlerEnable: Object, var_orgApacheFelixJettyGzipMinGzipSize: Object, var_orgApacheFelixJettyGzipCompressionLevel: Object, var_orgApacheFelixJettyGzipInflateBufferSize: Object, var_orgApacheFelixJettyGzipSyncFlush: Object, var_orgApacheFelixJettyGzipExcludedUserAgents: Object, var_orgApacheFelixJettyGzipIncludedMethods: Object, var_orgApacheFelixJettyGzipExcludedMethods: Object, var_orgApacheFelixJettyGzipIncludedPaths: Object, var_orgApacheFelixJettyGzipExcludedPaths: Object, var_orgApacheFelixJettyGzipIncludedMimeTypes: Object, var_orgApacheFelixJettyGzipExcludedMimeTypes: Object, var_orgApacheFelixHttpSessionInvalidate: Object, var_orgApacheFelixHttpSessionUniqueid: Object) =
+        s"""
+        | {
+        | "orgApacheFelixHttpHost":$var_orgApacheFelixHttpHost,"orgApacheFelixHttpEnable":$var_orgApacheFelixHttpEnable,"orgOsgiServiceHttpPort":$var_orgOsgiServiceHttpPort,"orgApacheFelixHttpTimeout":$var_orgApacheFelixHttpTimeout,"orgApacheFelixHttpsEnable":$var_orgApacheFelixHttpsEnable,"orgOsgiServiceHttpPortSecure":$var_orgOsgiServiceHttpPortSecure,"orgApacheFelixHttpsKeystore":$var_orgApacheFelixHttpsKeystore,"orgApacheFelixHttpsKeystorePassword":$var_orgApacheFelixHttpsKeystorePassword,"orgApacheFelixHttpsKeystoreKeyPassword":$var_orgApacheFelixHttpsKeystoreKeyPassword,"orgApacheFelixHttpsTruststore":$var_orgApacheFelixHttpsTruststore,"orgApacheFelixHttpsTruststorePassword":$var_orgApacheFelixHttpsTruststorePassword,"orgApacheFelixHttpsClientcertificate":$var_orgApacheFelixHttpsClientcertificate,"orgApacheFelixHttpContextPath":$var_orgApacheFelixHttpContextPath,"orgApacheFelixHttpMbeans":$var_orgApacheFelixHttpMbeans,"orgApacheFelixHttpSessionTimeout":$var_orgApacheFelixHttpSessionTimeout,"orgApacheFelixHttpJettyThreadpoolMax":$var_orgApacheFelixHttpJettyThreadpoolMax,"orgApacheFelixHttpJettyAcceptors":$var_orgApacheFelixHttpJettyAcceptors,"orgApacheFelixHttpJettySelectors":$var_orgApacheFelixHttpJettySelectors,"orgApacheFelixHttpJettyHeaderBufferSize":$var_orgApacheFelixHttpJettyHeaderBufferSize,"orgApacheFelixHttpJettyRequestBufferSize":$var_orgApacheFelixHttpJettyRequestBufferSize,"orgApacheFelixHttpJettyResponseBufferSize":$var_orgApacheFelixHttpJettyResponseBufferSize,"orgApacheFelixHttpJettyMaxFormSize":$var_orgApacheFelixHttpJettyMaxFormSize,"orgApacheFelixHttpPathExclusions":$var_orgApacheFelixHttpPathExclusions,"orgApacheFelixHttpsJettyCiphersuitesExcluded":$var_orgApacheFelixHttpsJettyCiphersuitesExcluded,"orgApacheFelixHttpsJettyCiphersuitesIncluded":$var_orgApacheFelixHttpsJettyCiphersuitesIncluded,"orgApacheFelixHttpJettySendServerHeader":$var_orgApacheFelixHttpJettySendServerHeader,"orgApacheFelixHttpsJettyProtocolsIncluded":$var_orgApacheFelixHttpsJettyProtocolsIncluded,"orgApacheFelixHttpsJettyProtocolsExcluded":$var_orgApacheFelixHttpsJettyProtocolsExcluded,"orgApacheFelixProxyLoadBalancerConnectionEnable":$var_orgApacheFelixProxyLoadBalancerConnectionEnable,"orgApacheFelixHttpsJettyRenegotiateAllowed":$var_orgApacheFelixHttpsJettyRenegotiateAllowed,"orgApacheFelixHttpsJettySessionCookieHttpOnly":$var_orgApacheFelixHttpsJettySessionCookieHttpOnly,"orgApacheFelixHttpsJettySessionCookieSecure":$var_orgApacheFelixHttpsJettySessionCookieSecure,"orgEclipseJettyServletSessionIdPathParameterName":$var_orgEclipseJettyServletSessionIdPathParameterName,"orgEclipseJettyServletCheckingRemoteSessionIdEncoding":$var_orgEclipseJettyServletCheckingRemoteSessionIdEncoding,"orgEclipseJettyServletSessionCookie":$var_orgEclipseJettyServletSessionCookie,"orgEclipseJettyServletSessionDomain":$var_orgEclipseJettyServletSessionDomain,"orgEclipseJettyServletSessionPath":$var_orgEclipseJettyServletSessionPath,"orgEclipseJettyServletMaxAge":$var_orgEclipseJettyServletMaxAge,"orgApacheFelixHttpName":$var_orgApacheFelixHttpName,"orgApacheFelixJettyGziphandlerEnable":$var_orgApacheFelixJettyGziphandlerEnable,"orgApacheFelixJettyGzipMinGzipSize":$var_orgApacheFelixJettyGzipMinGzipSize,"orgApacheFelixJettyGzipCompressionLevel":$var_orgApacheFelixJettyGzipCompressionLevel,"orgApacheFelixJettyGzipInflateBufferSize":$var_orgApacheFelixJettyGzipInflateBufferSize,"orgApacheFelixJettyGzipSyncFlush":$var_orgApacheFelixJettyGzipSyncFlush,"orgApacheFelixJettyGzipExcludedUserAgents":$var_orgApacheFelixJettyGzipExcludedUserAgents,"orgApacheFelixJettyGzipIncludedMethods":$var_orgApacheFelixJettyGzipIncludedMethods,"orgApacheFelixJettyGzipExcludedMethods":$var_orgApacheFelixJettyGzipExcludedMethods,"orgApacheFelixJettyGzipIncludedPaths":$var_orgApacheFelixJettyGzipIncludedPaths,"orgApacheFelixJettyGzipExcludedPaths":$var_orgApacheFelixJettyGzipExcludedPaths,"orgApacheFelixJettyGzipIncludedMimeTypes":$var_orgApacheFelixJettyGzipIncludedMimeTypes,"orgApacheFelixJettyGzipExcludedMimeTypes":$var_orgApacheFelixJettyGzipExcludedMimeTypes,"orgApacheFelixHttpSessionInvalidate":$var_orgApacheFelixHttpSessionInvalidate,"orgApacheFelixHttpSessionUniqueid":$var_orgApacheFelixHttpSessionUniqueid
+        | }
+        """.stripMargin
+}

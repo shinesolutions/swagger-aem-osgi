@@ -9,12 +9,12 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourProperties {
-    ConfigNodePropertyBoolean enabled = null
-
-    ConfigNodePropertyString configPath = null
-
-    ConfigNodePropertyArray fallbackPaths = null
-
-    ConfigNodePropertyArray configCollectionInheritancePropertyNames = null
-
+    
+    ConfigNodePropertyBoolean enabled
+    
+    ConfigNodePropertyString configPath
+    
+    ConfigNodePropertyArray fallbackPaths
+    
+    ConfigNodePropertyArray configCollectionInheritancePropertyNames
 }

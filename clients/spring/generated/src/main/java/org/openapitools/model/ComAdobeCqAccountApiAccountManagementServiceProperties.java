@@ -1,31 +1,42 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComAdobeCqAccountApiAccountManagementServiceProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComAdobeCqAccountApiAccountManagementServiceProperties   {
-  @JsonProperty("cq.accountmanager.token.validity.period")
-  private ConfigNodePropertyInteger cqAccountmanagerTokenValidityPeriod = null;
+@JsonTypeName("comAdobeCqAccountApiAccountManagementServiceProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComAdobeCqAccountApiAccountManagementServiceProperties {
 
-  @JsonProperty("cq.accountmanager.config.requestnewaccount.mail")
-  private ConfigNodePropertyString cqAccountmanagerConfigRequestnewaccountMail = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger cqAccountmanagerTokenValidityPeriod;
 
-  @JsonProperty("cq.accountmanager.config.requestnewpwd.mail")
-  private ConfigNodePropertyString cqAccountmanagerConfigRequestnewpwdMail = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString cqAccountmanagerConfigRequestnewaccountMail;
 
-  public ComAdobeCqAccountApiAccountManagementServiceProperties cqAccountmanagerTokenValidityPeriod(ConfigNodePropertyInteger cqAccountmanagerTokenValidityPeriod) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString cqAccountmanagerConfigRequestnewpwdMail;
+
+  public ComAdobeCqAccountApiAccountManagementServiceProperties cqAccountmanagerTokenValidityPeriod(@Nullable ConfigNodePropertyInteger cqAccountmanagerTokenValidityPeriod) {
     this.cqAccountmanagerTokenValidityPeriod = cqAccountmanagerTokenValidityPeriod;
     return this;
   }
@@ -33,20 +44,20 @@ public class ComAdobeCqAccountApiAccountManagementServiceProperties   {
   /**
    * Get cqAccountmanagerTokenValidityPeriod
    * @return cqAccountmanagerTokenValidityPeriod
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getCqAccountmanagerTokenValidityPeriod() {
+   */
+  @Valid 
+  @Schema(name = "cq.accountmanager.token.validity.period", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cq.accountmanager.token.validity.period")
+  public @Nullable ConfigNodePropertyInteger getCqAccountmanagerTokenValidityPeriod() {
     return cqAccountmanagerTokenValidityPeriod;
   }
 
-  public void setCqAccountmanagerTokenValidityPeriod(ConfigNodePropertyInteger cqAccountmanagerTokenValidityPeriod) {
+  @JsonProperty("cq.accountmanager.token.validity.period")
+  public void setCqAccountmanagerTokenValidityPeriod(@Nullable ConfigNodePropertyInteger cqAccountmanagerTokenValidityPeriod) {
     this.cqAccountmanagerTokenValidityPeriod = cqAccountmanagerTokenValidityPeriod;
   }
 
-  public ComAdobeCqAccountApiAccountManagementServiceProperties cqAccountmanagerConfigRequestnewaccountMail(ConfigNodePropertyString cqAccountmanagerConfigRequestnewaccountMail) {
+  public ComAdobeCqAccountApiAccountManagementServiceProperties cqAccountmanagerConfigRequestnewaccountMail(@Nullable ConfigNodePropertyString cqAccountmanagerConfigRequestnewaccountMail) {
     this.cqAccountmanagerConfigRequestnewaccountMail = cqAccountmanagerConfigRequestnewaccountMail;
     return this;
   }
@@ -54,20 +65,20 @@ public class ComAdobeCqAccountApiAccountManagementServiceProperties   {
   /**
    * Get cqAccountmanagerConfigRequestnewaccountMail
    * @return cqAccountmanagerConfigRequestnewaccountMail
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getCqAccountmanagerConfigRequestnewaccountMail() {
+   */
+  @Valid 
+  @Schema(name = "cq.accountmanager.config.requestnewaccount.mail", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cq.accountmanager.config.requestnewaccount.mail")
+  public @Nullable ConfigNodePropertyString getCqAccountmanagerConfigRequestnewaccountMail() {
     return cqAccountmanagerConfigRequestnewaccountMail;
   }
 
-  public void setCqAccountmanagerConfigRequestnewaccountMail(ConfigNodePropertyString cqAccountmanagerConfigRequestnewaccountMail) {
+  @JsonProperty("cq.accountmanager.config.requestnewaccount.mail")
+  public void setCqAccountmanagerConfigRequestnewaccountMail(@Nullable ConfigNodePropertyString cqAccountmanagerConfigRequestnewaccountMail) {
     this.cqAccountmanagerConfigRequestnewaccountMail = cqAccountmanagerConfigRequestnewaccountMail;
   }
 
-  public ComAdobeCqAccountApiAccountManagementServiceProperties cqAccountmanagerConfigRequestnewpwdMail(ConfigNodePropertyString cqAccountmanagerConfigRequestnewpwdMail) {
+  public ComAdobeCqAccountApiAccountManagementServiceProperties cqAccountmanagerConfigRequestnewpwdMail(@Nullable ConfigNodePropertyString cqAccountmanagerConfigRequestnewpwdMail) {
     this.cqAccountmanagerConfigRequestnewpwdMail = cqAccountmanagerConfigRequestnewpwdMail;
     return this;
   }
@@ -75,22 +86,21 @@ public class ComAdobeCqAccountApiAccountManagementServiceProperties   {
   /**
    * Get cqAccountmanagerConfigRequestnewpwdMail
    * @return cqAccountmanagerConfigRequestnewpwdMail
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getCqAccountmanagerConfigRequestnewpwdMail() {
+   */
+  @Valid 
+  @Schema(name = "cq.accountmanager.config.requestnewpwd.mail", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cq.accountmanager.config.requestnewpwd.mail")
+  public @Nullable ConfigNodePropertyString getCqAccountmanagerConfigRequestnewpwdMail() {
     return cqAccountmanagerConfigRequestnewpwdMail;
   }
 
-  public void setCqAccountmanagerConfigRequestnewpwdMail(ConfigNodePropertyString cqAccountmanagerConfigRequestnewpwdMail) {
+  @JsonProperty("cq.accountmanager.config.requestnewpwd.mail")
+  public void setCqAccountmanagerConfigRequestnewpwdMail(@Nullable ConfigNodePropertyString cqAccountmanagerConfigRequestnewpwdMail) {
     this.cqAccountmanagerConfigRequestnewpwdMail = cqAccountmanagerConfigRequestnewpwdMail;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -112,7 +122,6 @@ public class ComAdobeCqAccountApiAccountManagementServiceProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComAdobeCqAccountApiAccountManagementServiceProperties {\n");
-    
     sb.append("    cqAccountmanagerTokenValidityPeriod: ").append(toIndentedString(cqAccountmanagerTokenValidityPeriod)).append("\n");
     sb.append("    cqAccountmanagerConfigRequestnewaccountMail: ").append(toIndentedString(cqAccountmanagerConfigRequestnewaccountMail)).append("\n");
     sb.append("    cqAccountmanagerConfigRequestnewpwdMail: ").append(toIndentedString(cqAccountmanagerConfigRequestnewpwdMail)).append("\n");
@@ -124,11 +133,8 @@ public class ComAdobeCqAccountApiAccountManagementServiceProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

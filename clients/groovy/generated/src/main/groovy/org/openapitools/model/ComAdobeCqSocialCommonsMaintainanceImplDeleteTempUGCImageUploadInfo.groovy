@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqSocialCommonsMaintainanceImplDeleteTempU
 
 @Canonical
 class ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadProperties properties
 }

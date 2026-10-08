@@ -1,21 +1,32 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ComAdobeGraniteCompatrouterImplSwitchMappingConfigProperties;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comAdobeGraniteCompatrouterImplSwitchMappingConfigInfo")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteCompatrouterImplSwitchMappingConfigInfo   {
-  
-  private @Valid String pid = null;
-  private @Valid String title = null;
-  private @Valid String description = null;
-  private @Valid ComAdobeGraniteCompatrouterImplSwitchMappingConfigProperties properties = null;
+  private String pid;
+  private String title;
+  private String description;
+  private ComAdobeGraniteCompatrouterImplSwitchMappingConfigProperties properties;
+
+  public ComAdobeGraniteCompatrouterImplSwitchMappingConfigInfo() {
+  }
 
   /**
    **/
@@ -30,6 +41,8 @@ public class ComAdobeGraniteCompatrouterImplSwitchMappingConfigInfo   {
   public String getPid() {
     return pid;
   }
+
+  @JsonProperty("pid")
   public void setPid(String pid) {
     this.pid = pid;
   }
@@ -47,6 +60,8 @@ public class ComAdobeGraniteCompatrouterImplSwitchMappingConfigInfo   {
   public String getTitle() {
     return title;
   }
+
+  @JsonProperty("title")
   public void setTitle(String title) {
     this.title = title;
   }
@@ -64,6 +79,8 @@ public class ComAdobeGraniteCompatrouterImplSwitchMappingConfigInfo   {
   public String getDescription() {
     return description;
   }
+
+  @JsonProperty("description")
   public void setDescription(String description) {
     this.description = description;
   }
@@ -78,16 +95,18 @@ public class ComAdobeGraniteCompatrouterImplSwitchMappingConfigInfo   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("properties")
-  public ComAdobeGraniteCompatrouterImplSwitchMappingConfigProperties getProperties() {
+  @Valid public ComAdobeGraniteCompatrouterImplSwitchMappingConfigProperties getProperties() {
     return properties;
   }
+
+  @JsonProperty("properties")
   public void setProperties(ComAdobeGraniteCompatrouterImplSwitchMappingConfigProperties properties) {
     this.properties = properties;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -95,10 +114,10 @@ public class ComAdobeGraniteCompatrouterImplSwitchMappingConfigInfo   {
       return false;
     }
     ComAdobeGraniteCompatrouterImplSwitchMappingConfigInfo comAdobeGraniteCompatrouterImplSwitchMappingConfigInfo = (ComAdobeGraniteCompatrouterImplSwitchMappingConfigInfo) o;
-    return Objects.equals(pid, comAdobeGraniteCompatrouterImplSwitchMappingConfigInfo.pid) &&
-        Objects.equals(title, comAdobeGraniteCompatrouterImplSwitchMappingConfigInfo.title) &&
-        Objects.equals(description, comAdobeGraniteCompatrouterImplSwitchMappingConfigInfo.description) &&
-        Objects.equals(properties, comAdobeGraniteCompatrouterImplSwitchMappingConfigInfo.properties);
+    return Objects.equals(this.pid, comAdobeGraniteCompatrouterImplSwitchMappingConfigInfo.pid) &&
+        Objects.equals(this.title, comAdobeGraniteCompatrouterImplSwitchMappingConfigInfo.title) &&
+        Objects.equals(this.description, comAdobeGraniteCompatrouterImplSwitchMappingConfigInfo.description) &&
+        Objects.equals(this.properties, comAdobeGraniteCompatrouterImplSwitchMappingConfigInfo.properties);
   }
 
   @Override
@@ -123,11 +142,9 @@ public class ComAdobeGraniteCompatrouterImplSwitchMappingConfigInfo   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

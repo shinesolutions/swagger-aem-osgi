@@ -1,6 +1,7 @@
 # NodeSwaggerAemOsgi.OrgApacheSlingHcCoreImplCompositeHealthCheckProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **hcName** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 

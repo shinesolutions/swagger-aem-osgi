@@ -2,9 +2,9 @@
 # ComDayCqAnalyticsTestandtargetImplSegmentImporterProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**cqPeriodanalyticsPeriodtestandtargetPeriodsegmentimporterPeriodenabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **cqAnalyticsTestandtargetSegmentimporterEnabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
 
 
 

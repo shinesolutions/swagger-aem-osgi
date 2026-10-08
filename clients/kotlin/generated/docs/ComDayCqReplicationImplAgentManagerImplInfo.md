@@ -2,12 +2,12 @@
 # ComDayCqReplicationImplAgentManagerImplInfo
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**pid** | **kotlin.String** |  |  [optional]
-**title** | **kotlin.String** |  |  [optional]
-**description** | **kotlin.String** |  |  [optional]
-**properties** | [**ComDayCqReplicationImplAgentManagerImplProperties**](ComDayCqReplicationImplAgentManagerImplProperties.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **pid** | **kotlin.String** |  |  [optional] |
+| **title** | **kotlin.String** |  |  [optional] |
+| **description** | **kotlin.String** |  |  [optional] |
+| **properties** | [**ComDayCqReplicationImplAgentManagerImplProperties**](ComDayCqReplicationImplAgentManagerImplProperties.md) |  |  [optional] |
 
 
 

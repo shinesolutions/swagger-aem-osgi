@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqSocialModerationDashboardInternalImplFil
 
 @Canonical
 class ComAdobeCqSocialModerationDashboardInternalImplFilterGroupSociInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqSocialModerationDashboardInternalImplFilterGroupSociProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqSocialModerationDashboardInternalImplFilterGroupSociProperties properties
 }

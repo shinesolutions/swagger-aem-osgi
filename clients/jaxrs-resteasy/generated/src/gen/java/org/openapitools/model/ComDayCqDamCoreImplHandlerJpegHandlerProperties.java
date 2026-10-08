@@ -4,24 +4,28 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2019-08-05T00:59:30.156Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2026-10-07T12:54:21.614735164Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqDamCoreImplHandlerJpegHandlerProperties   {
   
-  private ConfigNodePropertyBoolean cqDamEnableExtMetaExtraction = null;
-  private ConfigNodePropertyInteger largeFileThreshold = null;
-  private ConfigNodePropertyInteger largeCommentThreshold = null;
+  private ConfigNodePropertyBoolean cqDamEnableExtMetaExtraction;
+  private ConfigNodePropertyInteger largeFileThreshold;
+  private ConfigNodePropertyInteger largeCommentThreshold;
 
   /**
    **/
   
   @ApiModelProperty(value = "")
   @JsonProperty("cq.dam.enable.ext.meta.extraction")
+  @Valid
   public ConfigNodePropertyBoolean getCqDamEnableExtMetaExtraction() {
     return cqDamEnableExtMetaExtraction;
   }
@@ -34,6 +38,7 @@ public class ComDayCqDamCoreImplHandlerJpegHandlerProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("large_file_threshold")
+  @Valid
   public ConfigNodePropertyInteger getLargeFileThreshold() {
     return largeFileThreshold;
   }
@@ -46,6 +51,7 @@ public class ComDayCqDamCoreImplHandlerJpegHandlerProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("large_comment_threshold")
+  @Valid
   public ConfigNodePropertyInteger getLargeCommentThreshold() {
     return largeCommentThreshold;
   }
@@ -55,7 +61,7 @@ public class ComDayCqDamCoreImplHandlerJpegHandlerProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -63,9 +69,9 @@ public class ComDayCqDamCoreImplHandlerJpegHandlerProperties   {
       return false;
     }
     ComDayCqDamCoreImplHandlerJpegHandlerProperties comDayCqDamCoreImplHandlerJpegHandlerProperties = (ComDayCqDamCoreImplHandlerJpegHandlerProperties) o;
-    return Objects.equals(cqDamEnableExtMetaExtraction, comDayCqDamCoreImplHandlerJpegHandlerProperties.cqDamEnableExtMetaExtraction) &&
-        Objects.equals(largeFileThreshold, comDayCqDamCoreImplHandlerJpegHandlerProperties.largeFileThreshold) &&
-        Objects.equals(largeCommentThreshold, comDayCqDamCoreImplHandlerJpegHandlerProperties.largeCommentThreshold);
+    return Objects.equals(this.cqDamEnableExtMetaExtraction, comDayCqDamCoreImplHandlerJpegHandlerProperties.cqDamEnableExtMetaExtraction) &&
+        Objects.equals(this.largeFileThreshold, comDayCqDamCoreImplHandlerJpegHandlerProperties.largeFileThreshold) &&
+        Objects.equals(this.largeCommentThreshold, comDayCqDamCoreImplHandlerJpegHandlerProperties.largeCommentThreshold);
   }
 
   @Override
@@ -89,11 +95,8 @@ public class ComDayCqDamCoreImplHandlerJpegHandlerProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

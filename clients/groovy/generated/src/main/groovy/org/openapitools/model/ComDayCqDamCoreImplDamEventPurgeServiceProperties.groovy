@@ -10,14 +10,14 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqDamCoreImplDamEventPurgeServiceProperties {
-    ConfigNodePropertyString schedulerExpression = null
-
-    ConfigNodePropertyInteger maxSavedActivities = null
-
-    ConfigNodePropertyInteger saveInterval = null
-
-    ConfigNodePropertyBoolean enableActivityPurge = null
-
-    ConfigNodePropertyDropDown eventTypes = null
-
+    
+    ConfigNodePropertyString schedulerExpression
+    
+    ConfigNodePropertyInteger maxSavedActivities
+    
+    ConfigNodePropertyInteger saveInterval
+    
+    ConfigNodePropertyBoolean enableActivityPurge
+    
+    ConfigNodePropertyDropDown eventTypes
 }

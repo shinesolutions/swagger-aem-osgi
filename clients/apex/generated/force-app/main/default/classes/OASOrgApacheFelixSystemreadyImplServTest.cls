@@ -72,8 +72,8 @@ private class OASOrgApacheFelixSystemreadyImplServTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASOrgApacheFelixSystemreadyImplServ orgApacheFelixSystemreadyImplServletSystemReadyServletProperties = new OASOrgApacheFelixSystemreadyImplServ();
-        Map<String, String> propertyMappings = orgApacheFelixSystemreadyImplServletSystemReadyServletProperties.getPropertyMappings();
-        System.assertEquals('osgiHttpWhiteboardServletPattern', propertyMappings.get('osgi.http.whiteboard.servlet.pattern'));
-        System.assertEquals('osgiHttpWhiteboardContextSelect', propertyMappings.get('osgi.http.whiteboard.context.select'));
+        Map<String, String> x-property-mappings = orgApacheFelixSystemreadyImplServletSystemReadyServletProperties.getx-property-mappings();
+        System.assertEquals('osgiHttpWhiteboardServletPattern', x-property-mappings.get('osgi.http.whiteboard.servlet.pattern'));
+        System.assertEquals('osgiHttpWhiteboardContextSelect', x-property-mappings.get('osgi.http.whiteboard.context.select'));
     }
 }

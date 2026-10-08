@@ -560,6 +560,7 @@ import org.openapitools.model.ComDayCqWorkflowImplEmailTaskEMailNotificationServ
 import org.openapitools.model.ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerInfo;
 import org.openapitools.model.ComDayCrxSecurityTokenImplTokenCleanupTaskInfo;
 import org.openapitools.model.GuideLocalizationServiceInfo;
+import java.util.List;
 import org.openapitools.model.MessagingUserComponentFactoryInfo;
 import org.openapitools.model.OrgApacheAriesJmxFrameworkStateConfigInfo;
 import org.openapitools.model.OrgApacheFelixEventadminImplEventAdminInfo;
@@ -737,7 +738,7 @@ import org.wso2.msf4j.formparam.FileInfo;
 import javax.ws.rs.core.Response;
 import javax.ws.rs.core.SecurityContext;
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaMSF4JServerCodegen", date = "2019-08-05T00:54:29.762Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaMSF4JServerCodegen", date = "2026-10-07T12:53:29.980508721Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class SystemApiServiceImpl extends SystemApiService {
     @Override
     public Response adaptiveFormAndInteractiveCommunicationWebChannelConfiguration(Boolean post
@@ -5937,7 +5938,7 @@ public class SystemApiServiceImpl extends SystemApiService {
 , String action
 , String $location
 , List<String> propertylist
-, List<String> graniteColonData
+, List<String> graniteData
  ) throws NotFoundException {
         // do some magic!
         return Response.ok().entity(new ApiResponseMessage(ApiResponseMessage.OK, "magic!")).build();
@@ -6146,7 +6147,7 @@ public class SystemApiServiceImpl extends SystemApiService {
 , String $location
 , List<String> propertylist
 , String moreInfo
-, String slashMntSlashOverlaySlashDamSlashGuiSlashContentSlashAssetsSlashMoreinfoHtmlSlash$LeftCurlyBracketPathRightCurlyBracket
+, String mntOverlayDamGuiContentAssetsMoreinfoHtml$LeftCurlyBracketPathRightCurlyBracket
  ) throws NotFoundException {
         // do some magic!
         return Response.ok().entity(new ApiResponseMessage(ApiResponseMessage.OK, "magic!")).build();

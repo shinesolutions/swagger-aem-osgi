@@ -9,18 +9,18 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCommonsHttpclientProperties {
-    ConfigNodePropertyBoolean proxyEnabled = null
-
-    ConfigNodePropertyString proxyHost = null
-
-    ConfigNodePropertyString proxyUser = null
-
-    ConfigNodePropertyString proxyPassword = null
-
-    ConfigNodePropertyString proxyNtlmHost = null
-
-    ConfigNodePropertyString proxyNtlmDomain = null
-
-    ConfigNodePropertyArray proxyExceptions = null
-
+    
+    ConfigNodePropertyBoolean proxyEnabled
+    
+    ConfigNodePropertyString proxyHost
+    
+    ConfigNodePropertyString proxyUser
+    
+    ConfigNodePropertyString proxyPassword
+    
+    ConfigNodePropertyString proxyNtlmHost
+    
+    ConfigNodePropertyString proxyNtlmDomain
+    
+    ConfigNodePropertyArray proxyExceptions
 }

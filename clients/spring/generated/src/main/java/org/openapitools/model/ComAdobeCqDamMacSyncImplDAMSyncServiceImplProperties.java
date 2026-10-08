@@ -1,36 +1,47 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyDropDown;
 import org.openapitools.model.ConfigNodePropertyInteger;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComAdobeCqDamMacSyncImplDAMSyncServiceImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComAdobeCqDamMacSyncImplDAMSyncServiceImplProperties   {
-  @JsonProperty("com.adobe.cq.dam.mac.sync.damsyncservice.registered_paths")
-  private ConfigNodePropertyArray comAdobeCqDamMacSyncDamsyncserviceRegisteredPaths = null;
+@JsonTypeName("comAdobeCqDamMacSyncImplDAMSyncServiceImplProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComAdobeCqDamMacSyncImplDAMSyncServiceImplProperties {
 
-  @JsonProperty("com.adobe.cq.dam.mac.sync.damsyncservice.sync.renditions")
-  private ConfigNodePropertyBoolean comAdobeCqDamMacSyncDamsyncserviceSyncRenditions = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray comAdobeCqDamMacSyncDamsyncserviceRegisteredPaths;
 
-  @JsonProperty("com.adobe.cq.dam.mac.sync.damsyncservice.replicate.thread.wait.ms")
-  private ConfigNodePropertyInteger comAdobeCqDamMacSyncDamsyncserviceReplicateThreadWaitMs = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean comAdobeCqDamMacSyncDamsyncserviceSyncRenditions;
 
-  @JsonProperty("com.adobe.cq.dam.mac.sync.damsyncservice.platform")
-  private ConfigNodePropertyDropDown comAdobeCqDamMacSyncDamsyncservicePlatform = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger comAdobeCqDamMacSyncDamsyncserviceReplicateThreadWaitMs;
 
-  public ComAdobeCqDamMacSyncImplDAMSyncServiceImplProperties comAdobeCqDamMacSyncDamsyncserviceRegisteredPaths(ConfigNodePropertyArray comAdobeCqDamMacSyncDamsyncserviceRegisteredPaths) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyDropDown comAdobeCqDamMacSyncDamsyncservicePlatform;
+
+  public ComAdobeCqDamMacSyncImplDAMSyncServiceImplProperties comAdobeCqDamMacSyncDamsyncserviceRegisteredPaths(@Nullable ConfigNodePropertyArray comAdobeCqDamMacSyncDamsyncserviceRegisteredPaths) {
     this.comAdobeCqDamMacSyncDamsyncserviceRegisteredPaths = comAdobeCqDamMacSyncDamsyncserviceRegisteredPaths;
     return this;
   }
@@ -38,20 +49,20 @@ public class ComAdobeCqDamMacSyncImplDAMSyncServiceImplProperties   {
   /**
    * Get comAdobeCqDamMacSyncDamsyncserviceRegisteredPaths
    * @return comAdobeCqDamMacSyncDamsyncserviceRegisteredPaths
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getComAdobeCqDamMacSyncDamsyncserviceRegisteredPaths() {
+   */
+  @Valid 
+  @Schema(name = "com.adobe.cq.dam.mac.sync.damsyncservice.registered_paths", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("com.adobe.cq.dam.mac.sync.damsyncservice.registered_paths")
+  public @Nullable ConfigNodePropertyArray getComAdobeCqDamMacSyncDamsyncserviceRegisteredPaths() {
     return comAdobeCqDamMacSyncDamsyncserviceRegisteredPaths;
   }
 
-  public void setComAdobeCqDamMacSyncDamsyncserviceRegisteredPaths(ConfigNodePropertyArray comAdobeCqDamMacSyncDamsyncserviceRegisteredPaths) {
+  @JsonProperty("com.adobe.cq.dam.mac.sync.damsyncservice.registered_paths")
+  public void setComAdobeCqDamMacSyncDamsyncserviceRegisteredPaths(@Nullable ConfigNodePropertyArray comAdobeCqDamMacSyncDamsyncserviceRegisteredPaths) {
     this.comAdobeCqDamMacSyncDamsyncserviceRegisteredPaths = comAdobeCqDamMacSyncDamsyncserviceRegisteredPaths;
   }
 
-  public ComAdobeCqDamMacSyncImplDAMSyncServiceImplProperties comAdobeCqDamMacSyncDamsyncserviceSyncRenditions(ConfigNodePropertyBoolean comAdobeCqDamMacSyncDamsyncserviceSyncRenditions) {
+  public ComAdobeCqDamMacSyncImplDAMSyncServiceImplProperties comAdobeCqDamMacSyncDamsyncserviceSyncRenditions(@Nullable ConfigNodePropertyBoolean comAdobeCqDamMacSyncDamsyncserviceSyncRenditions) {
     this.comAdobeCqDamMacSyncDamsyncserviceSyncRenditions = comAdobeCqDamMacSyncDamsyncserviceSyncRenditions;
     return this;
   }
@@ -59,20 +70,20 @@ public class ComAdobeCqDamMacSyncImplDAMSyncServiceImplProperties   {
   /**
    * Get comAdobeCqDamMacSyncDamsyncserviceSyncRenditions
    * @return comAdobeCqDamMacSyncDamsyncserviceSyncRenditions
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getComAdobeCqDamMacSyncDamsyncserviceSyncRenditions() {
+   */
+  @Valid 
+  @Schema(name = "com.adobe.cq.dam.mac.sync.damsyncservice.sync.renditions", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("com.adobe.cq.dam.mac.sync.damsyncservice.sync.renditions")
+  public @Nullable ConfigNodePropertyBoolean getComAdobeCqDamMacSyncDamsyncserviceSyncRenditions() {
     return comAdobeCqDamMacSyncDamsyncserviceSyncRenditions;
   }
 
-  public void setComAdobeCqDamMacSyncDamsyncserviceSyncRenditions(ConfigNodePropertyBoolean comAdobeCqDamMacSyncDamsyncserviceSyncRenditions) {
+  @JsonProperty("com.adobe.cq.dam.mac.sync.damsyncservice.sync.renditions")
+  public void setComAdobeCqDamMacSyncDamsyncserviceSyncRenditions(@Nullable ConfigNodePropertyBoolean comAdobeCqDamMacSyncDamsyncserviceSyncRenditions) {
     this.comAdobeCqDamMacSyncDamsyncserviceSyncRenditions = comAdobeCqDamMacSyncDamsyncserviceSyncRenditions;
   }
 
-  public ComAdobeCqDamMacSyncImplDAMSyncServiceImplProperties comAdobeCqDamMacSyncDamsyncserviceReplicateThreadWaitMs(ConfigNodePropertyInteger comAdobeCqDamMacSyncDamsyncserviceReplicateThreadWaitMs) {
+  public ComAdobeCqDamMacSyncImplDAMSyncServiceImplProperties comAdobeCqDamMacSyncDamsyncserviceReplicateThreadWaitMs(@Nullable ConfigNodePropertyInteger comAdobeCqDamMacSyncDamsyncserviceReplicateThreadWaitMs) {
     this.comAdobeCqDamMacSyncDamsyncserviceReplicateThreadWaitMs = comAdobeCqDamMacSyncDamsyncserviceReplicateThreadWaitMs;
     return this;
   }
@@ -80,20 +91,20 @@ public class ComAdobeCqDamMacSyncImplDAMSyncServiceImplProperties   {
   /**
    * Get comAdobeCqDamMacSyncDamsyncserviceReplicateThreadWaitMs
    * @return comAdobeCqDamMacSyncDamsyncserviceReplicateThreadWaitMs
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getComAdobeCqDamMacSyncDamsyncserviceReplicateThreadWaitMs() {
+   */
+  @Valid 
+  @Schema(name = "com.adobe.cq.dam.mac.sync.damsyncservice.replicate.thread.wait.ms", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("com.adobe.cq.dam.mac.sync.damsyncservice.replicate.thread.wait.ms")
+  public @Nullable ConfigNodePropertyInteger getComAdobeCqDamMacSyncDamsyncserviceReplicateThreadWaitMs() {
     return comAdobeCqDamMacSyncDamsyncserviceReplicateThreadWaitMs;
   }
 
-  public void setComAdobeCqDamMacSyncDamsyncserviceReplicateThreadWaitMs(ConfigNodePropertyInteger comAdobeCqDamMacSyncDamsyncserviceReplicateThreadWaitMs) {
+  @JsonProperty("com.adobe.cq.dam.mac.sync.damsyncservice.replicate.thread.wait.ms")
+  public void setComAdobeCqDamMacSyncDamsyncserviceReplicateThreadWaitMs(@Nullable ConfigNodePropertyInteger comAdobeCqDamMacSyncDamsyncserviceReplicateThreadWaitMs) {
     this.comAdobeCqDamMacSyncDamsyncserviceReplicateThreadWaitMs = comAdobeCqDamMacSyncDamsyncserviceReplicateThreadWaitMs;
   }
 
-  public ComAdobeCqDamMacSyncImplDAMSyncServiceImplProperties comAdobeCqDamMacSyncDamsyncservicePlatform(ConfigNodePropertyDropDown comAdobeCqDamMacSyncDamsyncservicePlatform) {
+  public ComAdobeCqDamMacSyncImplDAMSyncServiceImplProperties comAdobeCqDamMacSyncDamsyncservicePlatform(@Nullable ConfigNodePropertyDropDown comAdobeCqDamMacSyncDamsyncservicePlatform) {
     this.comAdobeCqDamMacSyncDamsyncservicePlatform = comAdobeCqDamMacSyncDamsyncservicePlatform;
     return this;
   }
@@ -101,22 +112,21 @@ public class ComAdobeCqDamMacSyncImplDAMSyncServiceImplProperties   {
   /**
    * Get comAdobeCqDamMacSyncDamsyncservicePlatform
    * @return comAdobeCqDamMacSyncDamsyncservicePlatform
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyDropDown getComAdobeCqDamMacSyncDamsyncservicePlatform() {
+   */
+  @Valid 
+  @Schema(name = "com.adobe.cq.dam.mac.sync.damsyncservice.platform", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("com.adobe.cq.dam.mac.sync.damsyncservice.platform")
+  public @Nullable ConfigNodePropertyDropDown getComAdobeCqDamMacSyncDamsyncservicePlatform() {
     return comAdobeCqDamMacSyncDamsyncservicePlatform;
   }
 
-  public void setComAdobeCqDamMacSyncDamsyncservicePlatform(ConfigNodePropertyDropDown comAdobeCqDamMacSyncDamsyncservicePlatform) {
+  @JsonProperty("com.adobe.cq.dam.mac.sync.damsyncservice.platform")
+  public void setComAdobeCqDamMacSyncDamsyncservicePlatform(@Nullable ConfigNodePropertyDropDown comAdobeCqDamMacSyncDamsyncservicePlatform) {
     this.comAdobeCqDamMacSyncDamsyncservicePlatform = comAdobeCqDamMacSyncDamsyncservicePlatform;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -139,7 +149,6 @@ public class ComAdobeCqDamMacSyncImplDAMSyncServiceImplProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComAdobeCqDamMacSyncImplDAMSyncServiceImplProperties {\n");
-    
     sb.append("    comAdobeCqDamMacSyncDamsyncserviceRegisteredPaths: ").append(toIndentedString(comAdobeCqDamMacSyncDamsyncserviceRegisteredPaths)).append("\n");
     sb.append("    comAdobeCqDamMacSyncDamsyncserviceSyncRenditions: ").append(toIndentedString(comAdobeCqDamMacSyncDamsyncserviceSyncRenditions)).append("\n");
     sb.append("    comAdobeCqDamMacSyncDamsyncserviceReplicateThreadWaitMs: ").append(toIndentedString(comAdobeCqDamMacSyncDamsyncserviceReplicateThreadWaitMs)).append("\n");
@@ -152,11 +161,8 @@ public class ComAdobeCqDamMacSyncImplDAMSyncServiceImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class ComDayCqReplicationImplReverseReplicatorProperties {
-    ConfigNodePropertyInteger schedulerPeriod = null
-
+    
+    ConfigNodePropertyInteger schedulerPeriod
 }

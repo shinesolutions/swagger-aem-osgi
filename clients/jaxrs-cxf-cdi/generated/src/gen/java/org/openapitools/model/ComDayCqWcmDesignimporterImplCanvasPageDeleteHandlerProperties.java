@@ -2,23 +2,24 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class ComDayCqWcmDesignimporterImplCanvasPageDeleteHandlerProperties   {
   
-  private ConfigNodePropertyInteger minThreadPoolSize = null;
+  private ConfigNodePropertyInteger minThreadPoolSize;
 
-  private ConfigNodePropertyInteger maxThreadPoolSize = null;
-
+  private ConfigNodePropertyInteger maxThreadPoolSize;
 
   /**
    **/
@@ -58,7 +59,7 @@ public class ComDayCqWcmDesignimporterImplCanvasPageDeleteHandlerProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -66,8 +67,8 @@ public class ComDayCqWcmDesignimporterImplCanvasPageDeleteHandlerProperties   {
       return false;
     }
     ComDayCqWcmDesignimporterImplCanvasPageDeleteHandlerProperties comDayCqWcmDesignimporterImplCanvasPageDeleteHandlerProperties = (ComDayCqWcmDesignimporterImplCanvasPageDeleteHandlerProperties) o;
-    return Objects.equals(minThreadPoolSize, comDayCqWcmDesignimporterImplCanvasPageDeleteHandlerProperties.minThreadPoolSize) &&
-        Objects.equals(maxThreadPoolSize, comDayCqWcmDesignimporterImplCanvasPageDeleteHandlerProperties.maxThreadPoolSize);
+    return Objects.equals(this.minThreadPoolSize, comDayCqWcmDesignimporterImplCanvasPageDeleteHandlerProperties.minThreadPoolSize) &&
+        Objects.equals(this.maxThreadPoolSize, comDayCqWcmDesignimporterImplCanvasPageDeleteHandlerProperties.maxThreadPoolSize);
   }
 
   @Override
@@ -90,11 +91,8 @@ public class ComDayCqWcmDesignimporterImplCanvasPageDeleteHandlerProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

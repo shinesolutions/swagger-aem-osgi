@@ -2,11 +2,11 @@
 # ComAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJobProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**cqPerioddamPeriodwebdavPeriodversionPeriodlinkingPeriodenable** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**cqPerioddamPeriodwebdavPeriodversionPeriodlinkingPeriodschedulerPeriodperiod** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**cqPerioddamPeriodwebdavPeriodversionPeriodlinkingPeriodstagingPeriodtimeout** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **cqDamWebdavVersionLinkingEnable** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **cqDamWebdavVersionLinkingSchedulerPeriod** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **cqDamWebdavVersionLinkingStagingTimeout** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
 
 
 

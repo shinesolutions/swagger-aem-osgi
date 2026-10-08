@@ -72,9 +72,9 @@ private class OASComDayCqDamCoreImplServletBinaryPTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqDamCoreImplServletBinaryP comDayCqDamCoreImplServletBinaryProviderServletProperties = new OASComDayCqDamCoreImplServletBinaryP();
-        Map<String, String> propertyMappings = comDayCqDamCoreImplServletBinaryProviderServletProperties.getPropertyMappings();
-        System.assertEquals('slingServletResourceTypes', propertyMappings.get('sling.servlet.resourceTypes'));
-        System.assertEquals('slingServletMethods', propertyMappings.get('sling.servlet.methods'));
-        System.assertEquals('cqDamDrmEnable', propertyMappings.get('cq.dam.drm.enable'));
+        Map<String, String> x-property-mappings = comDayCqDamCoreImplServletBinaryProviderServletProperties.getx-property-mappings();
+        System.assertEquals('slingServletResourceTypes', x-property-mappings.get('sling.servlet.resourceTypes'));
+        System.assertEquals('slingServletMethods', x-property-mappings.get('sling.servlet.methods'));
+        System.assertEquals('cqDamDrmEnable', x-property-mappings.get('cq.dam.drm.enable'));
     }
 }

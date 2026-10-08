@@ -72,8 +72,8 @@ private class OASComAdobeCqHistoryImplHistoryRequeTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeCqHistoryImplHistoryReque comAdobeCqHistoryImplHistoryRequestFilterProperties = new OASComAdobeCqHistoryImplHistoryReque();
-        Map<String, String> propertyMappings = comAdobeCqHistoryImplHistoryRequestFilterProperties.getPropertyMappings();
-        System.assertEquals('historyRequestFilterExcludedSelectors', propertyMappings.get('history.requestFilter.excludedSelectors'));
-        System.assertEquals('historyRequestFilterExcludedExtensions', propertyMappings.get('history.requestFilter.excludedExtensions'));
+        Map<String, String> x-property-mappings = comAdobeCqHistoryImplHistoryRequestFilterProperties.getx-property-mappings();
+        System.assertEquals('historyRequestFilterExcludedSelectors', x-property-mappings.get('history.requestFilter.excludedSelectors'));
+        System.assertEquals('historyRequestFilterExcludedExtensions', x-property-mappings.get('history.requestFilter.excludedExtensions'));
     }
 }

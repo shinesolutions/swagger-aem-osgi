@@ -72,7 +72,7 @@ private class OASComDayCqWcmNotificationImplNotifiTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqWcmNotificationImplNotifi comDayCqWcmNotificationImplNotificationManagerImplProperties = new OASComDayCqWcmNotificationImplNotifi();
-        Map<String, String> propertyMappings = comDayCqWcmNotificationImplNotificationManagerImplProperties.getPropertyMappings();
-        System.assertEquals('eventTopics', propertyMappings.get('event.topics'));
+        Map<String, String> x-property-mappings = comDayCqWcmNotificationImplNotificationManagerImplProperties.getx-property-mappings();
+        System.assertEquals('eventTopics', x-property-mappings.get('event.topics'));
     }
 }

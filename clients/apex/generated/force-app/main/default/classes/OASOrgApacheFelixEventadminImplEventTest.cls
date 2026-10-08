@@ -72,12 +72,12 @@ private class OASOrgApacheFelixEventadminImplEventTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASOrgApacheFelixEventadminImplEvent orgApacheFelixEventadminImplEventAdminProperties = new OASOrgApacheFelixEventadminImplEvent();
-        Map<String, String> propertyMappings = orgApacheFelixEventadminImplEventAdminProperties.getPropertyMappings();
-        System.assertEquals('orgApacheFelixEventadminThreadPoolSize', propertyMappings.get('org.apache.felix.eventadmin.ThreadPoolSize'));
-        System.assertEquals('orgApacheFelixEventadminAsyncToSyncThreadRatio', propertyMappings.get('org.apache.felix.eventadmin.AsyncToSyncThreadRatio'));
-        System.assertEquals('orgApacheFelixEventadminTimeout', propertyMappings.get('org.apache.felix.eventadmin.Timeout'));
-        System.assertEquals('orgApacheFelixEventadminRequireTopic', propertyMappings.get('org.apache.felix.eventadmin.RequireTopic'));
-        System.assertEquals('orgApacheFelixEventadminIgnoreTimeout', propertyMappings.get('org.apache.felix.eventadmin.IgnoreTimeout'));
-        System.assertEquals('orgApacheFelixEventadminIgnoreTopic', propertyMappings.get('org.apache.felix.eventadmin.IgnoreTopic'));
+        Map<String, String> x-property-mappings = orgApacheFelixEventadminImplEventAdminProperties.getx-property-mappings();
+        System.assertEquals('orgApacheFelixEventadminThreadPoolSize', x-property-mappings.get('org.apache.felix.eventadmin.ThreadPoolSize'));
+        System.assertEquals('orgApacheFelixEventadminAsyncToSyncThreadRatio', x-property-mappings.get('org.apache.felix.eventadmin.AsyncToSyncThreadRatio'));
+        System.assertEquals('orgApacheFelixEventadminTimeout', x-property-mappings.get('org.apache.felix.eventadmin.Timeout'));
+        System.assertEquals('orgApacheFelixEventadminRequireTopic', x-property-mappings.get('org.apache.felix.eventadmin.RequireTopic'));
+        System.assertEquals('orgApacheFelixEventadminIgnoreTimeout', x-property-mappings.get('org.apache.felix.eventadmin.IgnoreTimeout'));
+        System.assertEquals('orgApacheFelixEventadminIgnoreTopic', x-property-mappings.get('org.apache.felix.eventadmin.IgnoreTopic'));
     }
 }

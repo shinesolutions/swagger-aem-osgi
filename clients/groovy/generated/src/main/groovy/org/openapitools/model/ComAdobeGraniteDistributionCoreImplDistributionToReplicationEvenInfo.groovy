@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeGraniteDistributionCoreImplDistributionToR
 
 @Canonical
 class ComAdobeGraniteDistributionCoreImplDistributionToReplicationEvenInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteDistributionCoreImplDistributionToReplicationEvenProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteDistributionCoreImplDistributionToReplicationEvenProperties properties
 }

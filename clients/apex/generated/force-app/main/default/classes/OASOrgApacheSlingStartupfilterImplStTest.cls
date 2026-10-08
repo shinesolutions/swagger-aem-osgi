@@ -72,8 +72,8 @@ private class OASOrgApacheSlingStartupfilterImplStTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASOrgApacheSlingStartupfilterImplSt orgApacheSlingStartupfilterImplStartupFilterImplProperties = new OASOrgApacheSlingStartupfilterImplSt();
-        Map<String, String> propertyMappings = orgApacheSlingStartupfilterImplStartupFilterImplProperties.getPropertyMappings();
-        System.assertEquals('activeByDefault', propertyMappings.get('active.by.default'));
-        System.assertEquals('defaultMessage', propertyMappings.get('default.message'));
+        Map<String, String> x-property-mappings = orgApacheSlingStartupfilterImplStartupFilterImplProperties.getx-property-mappings();
+        System.assertEquals('activeByDefault', x-property-mappings.get('active.by.default'));
+        System.assertEquals('defaultMessage', x-property-mappings.get('default.message'));
     }
 }

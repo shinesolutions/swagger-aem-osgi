@@ -9,14 +9,14 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class OrgApacheSlingHcCoreImplCompositeHealthCheckProperties {
-    ConfigNodePropertyString hcName = null
-
-    ConfigNodePropertyArray hcTags = null
-
-    ConfigNodePropertyString hcMbeanName = null
-
-    ConfigNodePropertyArray filterTags = null
-
-    ConfigNodePropertyBoolean filterCombineTagsWithOr = null
-
+    
+    ConfigNodePropertyString hcName
+    
+    ConfigNodePropertyArray hcTags
+    
+    ConfigNodePropertyString hcMbeanName
+    
+    ConfigNodePropertyArray filterTags
+    
+    ConfigNodePropertyBoolean filterCombineTagsWithOr
 }

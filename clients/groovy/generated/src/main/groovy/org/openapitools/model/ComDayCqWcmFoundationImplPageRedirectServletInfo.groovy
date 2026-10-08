@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqWcmFoundationImplPageRedirectServletProper
 
 @Canonical
 class ComDayCqWcmFoundationImplPageRedirectServletInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqWcmFoundationImplPageRedirectServletProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqWcmFoundationImplPageRedirectServletProperties properties
 }

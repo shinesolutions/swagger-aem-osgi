@@ -72,7 +72,7 @@ private class OASComAdobeGraniteAuthCertImplClientTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeGraniteAuthCertImplClient comAdobeGraniteAuthCertImplClientCertAuthHandlerProperties = new OASComAdobeGraniteAuthCertImplClient();
-        Map<String, String> propertyMappings = comAdobeGraniteAuthCertImplClientCertAuthHandlerProperties.getPropertyMappings();
-        System.assertEquals('serviceRanking', propertyMappings.get('service.ranking'));
+        Map<String, String> x-property-mappings = comAdobeGraniteAuthCertImplClientCertAuthHandlerProperties.getx-property-mappings();
+        System.assertEquals('serviceRanking', x-property-mappings.get('service.ranking'));
     }
 }

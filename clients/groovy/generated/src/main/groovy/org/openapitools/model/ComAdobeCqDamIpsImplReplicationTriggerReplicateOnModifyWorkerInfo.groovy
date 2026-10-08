@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqDamIpsImplReplicationTriggerReplicateOnM
 
 @Canonical
 class ComAdobeCqDamIpsImplReplicationTriggerReplicateOnModifyWorkerInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqDamIpsImplReplicationTriggerReplicateOnModifyWorkerProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqDamIpsImplReplicationTriggerReplicateOnModifyWorkerProperties properties
 }

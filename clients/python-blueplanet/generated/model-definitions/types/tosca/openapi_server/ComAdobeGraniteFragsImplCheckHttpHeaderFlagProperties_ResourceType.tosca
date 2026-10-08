@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeGraniteFragsImplCheckHttpHeaderFlagProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeGraniteFragsImplCheckHttpHeaderFlagProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComAdobeGraniteFragsImplCheckHttpHeaderFlagProperties {
+    title = ComAdobeGraniteFragsImplCheckHttpHeaderFlagProperties
+    description = ComAdobeGraniteFragsImplCheckHttpHeaderFlagProperties
+    derivedFrom = Root
+    properties {
+        feature_name {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        feature_description {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        http_header_name {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        http_header_valuepattern {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeGraniteFragsImplCheckHttpHeaderFlagProperties {
+    title = ComAdobeGraniteFragsImplCheckHttpHeaderFlagProperties
+    description = ComAdobeGraniteFragsImplCheckHttpHeaderFlagProperties
+    implements = openapi_server.resourceTypes.ComAdobeGraniteFragsImplCheckHttpHeaderFlagProperties
+
+  }
+}

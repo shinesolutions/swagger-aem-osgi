@@ -1,0 +1,15 @@
+{
+  "namespace": "model",
+  "type": "record",
+  "doc": "",
+  "name": "OrgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFaProperties",
+  "fields": [
+    {
+      "name": "org.apache.sling.scripting.javascript.rhino.optLevel",
+      "type": ["null", "model.ConfigNodePropertyInteger"],
+      "doc": "",
+      "default": null
+    }
+  ]
+
+}

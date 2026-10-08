@@ -72,14 +72,14 @@ private class OASComAdobeCqSocialConnectOauthImplFTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeCqSocialConnectOauthImplF comAdobeCqSocialConnectOauthImplFacebookProviderImplProperties = new OASComAdobeCqSocialConnectOauthImplF();
-        Map<String, String> propertyMappings = comAdobeCqSocialConnectOauthImplFacebookProviderImplProperties.getPropertyMappings();
-        System.assertEquals('oauthProviderId', propertyMappings.get('oauth.provider.id'));
-        System.assertEquals('oauthCloudConfigRoot', propertyMappings.get('oauth.cloud.config.root'));
-        System.assertEquals('providerConfigRoot', propertyMappings.get('provider.config.root'));
-        System.assertEquals('providerConfigCreateTagsEnabled', propertyMappings.get('provider.config.create.tags.enabled'));
-        System.assertEquals('providerConfigUserFolder', propertyMappings.get('provider.config.user.folder'));
-        System.assertEquals('providerConfigFacebookFetchFields', propertyMappings.get('provider.config.facebook.fetch.fields'));
-        System.assertEquals('providerConfigFacebookFields', propertyMappings.get('provider.config.facebook.fields'));
-        System.assertEquals('providerConfigRefreshUserdataEnabled', propertyMappings.get('provider.config.refresh.userdata.enabled'));
+        Map<String, String> x-property-mappings = comAdobeCqSocialConnectOauthImplFacebookProviderImplProperties.getx-property-mappings();
+        System.assertEquals('oauthProviderId', x-property-mappings.get('oauth.provider.id'));
+        System.assertEquals('oauthCloudConfigRoot', x-property-mappings.get('oauth.cloud.config.root'));
+        System.assertEquals('providerConfigRoot', x-property-mappings.get('provider.config.root'));
+        System.assertEquals('providerConfigCreateTagsEnabled', x-property-mappings.get('provider.config.create.tags.enabled'));
+        System.assertEquals('providerConfigUserFolder', x-property-mappings.get('provider.config.user.folder'));
+        System.assertEquals('providerConfigFacebookFetchFields', x-property-mappings.get('provider.config.facebook.fetch.fields'));
+        System.assertEquals('providerConfigFacebookFields', x-property-mappings.get('provider.config.facebook.fields'));
+        System.assertEquals('providerConfigRefreshUserdataEnabled', x-property-mappings.get('provider.config.refresh.userdata.enabled'));
     }
 }

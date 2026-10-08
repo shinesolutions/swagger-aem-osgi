@@ -1,6 +1,8 @@
 # ConfigNodePropertyString
 
+
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **name** | **str** | property name | [optional] 
@@ -10,6 +12,23 @@ Name | Type | Description | Notes
 **value** | **str** | Property value | [optional] 
 **description** | **str** | Property description | [optional] 
 
+## Example
+
+```python
+from swaggeraemosgi.models.config_node_property_string import ConfigNodePropertyString
+
+# TODO update the JSON string below
+json = "{}"
+# create an instance of ConfigNodePropertyString from a JSON string
+config_node_property_string_instance = ConfigNodePropertyString.from_json(json)
+# print the JSON string representation of the object
+print(ConfigNodePropertyString.to_json())
+
+# convert the object into a dict
+config_node_property_string_dict = config_node_property_string_instance.to_dict()
+# create an instance of ConfigNodePropertyString from a dict
+config_node_property_string_from_dict = ConfigNodePropertyString.from_dict(config_node_property_string_dict)
+```
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 
 

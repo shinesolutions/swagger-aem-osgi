@@ -2,27 +2,28 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ComAdobeAemTransactionCoreImplTransactionRecorderProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class ComAdobeAemTransactionCoreImplTransactionRecorderInfo   {
   
-  private String pid = null;
+  private String pid;
 
-  private String title = null;
+  private String title;
 
-  private String description = null;
+  private String description;
 
-  private ComAdobeAemTransactionCoreImplTransactionRecorderProperties properties = null;
-
+  private ComAdobeAemTransactionCoreImplTransactionRecorderProperties properties;
 
   /**
    **/
@@ -98,7 +99,7 @@ public class ComAdobeAemTransactionCoreImplTransactionRecorderInfo   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -106,10 +107,10 @@ public class ComAdobeAemTransactionCoreImplTransactionRecorderInfo   {
       return false;
     }
     ComAdobeAemTransactionCoreImplTransactionRecorderInfo comAdobeAemTransactionCoreImplTransactionRecorderInfo = (ComAdobeAemTransactionCoreImplTransactionRecorderInfo) o;
-    return Objects.equals(pid, comAdobeAemTransactionCoreImplTransactionRecorderInfo.pid) &&
-        Objects.equals(title, comAdobeAemTransactionCoreImplTransactionRecorderInfo.title) &&
-        Objects.equals(description, comAdobeAemTransactionCoreImplTransactionRecorderInfo.description) &&
-        Objects.equals(properties, comAdobeAemTransactionCoreImplTransactionRecorderInfo.properties);
+    return Objects.equals(this.pid, comAdobeAemTransactionCoreImplTransactionRecorderInfo.pid) &&
+        Objects.equals(this.title, comAdobeAemTransactionCoreImplTransactionRecorderInfo.title) &&
+        Objects.equals(this.description, comAdobeAemTransactionCoreImplTransactionRecorderInfo.description) &&
+        Objects.equals(this.properties, comAdobeAemTransactionCoreImplTransactionRecorderInfo.properties);
   }
 
   @Override
@@ -134,11 +135,8 @@ public class ComAdobeAemTransactionCoreImplTransactionRecorderInfo   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

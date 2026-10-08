@@ -11,44 +11,44 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties {
-    ConfigNodePropertyString name = null
-
-    ConfigNodePropertyString title = null
-
-    ConfigNodePropertyString details = null
-
-    ConfigNodePropertyBoolean enabled = null
-
-    ConfigNodePropertyString serviceName = null
-
-    ConfigNodePropertyDropDown logLevel = null
-
-    ConfigNodePropertyArray allowedRoots = null
-
-    ConfigNodePropertyBoolean queueProcessingEnabled = null
-
-    ConfigNodePropertyArray packageImporterEndpoints = null
-
-    ConfigNodePropertyArray passiveQueues = null
-
-    ConfigNodePropertyArray priorityQueues = null
-
-    ConfigNodePropertyDropDown retryStrategy = null
-
-    ConfigNodePropertyInteger retryAttempts = null
-
-    ConfigNodePropertyString requestAuthorizationStrategyTarget = null
-
-    ConfigNodePropertyString transportSecretProviderTarget = null
-
-    ConfigNodePropertyString packageBuilderTarget = null
-
-    ConfigNodePropertyString triggersTarget = null
-
-    ConfigNodePropertyDropDown queueProvider = null
-
-    ConfigNodePropertyBoolean asyncDelivery = null
-
-    ConfigNodePropertyInteger httpConnTimeout = null
-
+    
+    ConfigNodePropertyString name
+    
+    ConfigNodePropertyString title
+    
+    ConfigNodePropertyString details
+    
+    ConfigNodePropertyBoolean enabled
+    
+    ConfigNodePropertyString serviceName
+    
+    ConfigNodePropertyDropDown logLevel
+    
+    ConfigNodePropertyArray allowedRoots
+    
+    ConfigNodePropertyBoolean queueProcessingEnabled
+    
+    ConfigNodePropertyArray packageImporterEndpoints
+    
+    ConfigNodePropertyArray passiveQueues
+    
+    ConfigNodePropertyArray priorityQueues
+    
+    ConfigNodePropertyDropDown retryStrategy
+    
+    ConfigNodePropertyInteger retryAttempts
+    
+    ConfigNodePropertyString requestAuthorizationStrategyTarget
+    
+    ConfigNodePropertyString transportSecretProviderTarget
+    
+    ConfigNodePropertyString packageBuilderTarget
+    
+    ConfigNodePropertyString triggersTarget
+    
+    ConfigNodePropertyDropDown queueProvider
+    
+    ConfigNodePropertyBoolean asyncDelivery
+    
+    ConfigNodePropertyInteger httpConnTimeout
 }

@@ -3,32 +3,43 @@ package apimodels;
 import apimodels.ConfigNodePropertyArray;
 import apimodels.ConfigNodePropertyBoolean;
 import apimodels.ConfigNodePropertyString;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * OrgApacheSlingHapiImplHApiUtilImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class OrgApacheSlingHapiImplHApiUtilImplProperties   {
   @JsonProperty("org.apache.sling.hapi.tools.resourcetype")
-  private ConfigNodePropertyString orgApacheSlingHapiToolsResourcetype = null;
+  @Valid
+
+  private ConfigNodePropertyString orgApacheSlingHapiToolsResourcetype;
 
   @JsonProperty("org.apache.sling.hapi.tools.collectionresourcetype")
-  private ConfigNodePropertyString orgApacheSlingHapiToolsCollectionresourcetype = null;
+  @Valid
+
+  private ConfigNodePropertyString orgApacheSlingHapiToolsCollectionresourcetype;
 
   @JsonProperty("org.apache.sling.hapi.tools.searchpaths")
-  private ConfigNodePropertyArray orgApacheSlingHapiToolsSearchpaths = null;
+  @Valid
+
+  private ConfigNodePropertyArray orgApacheSlingHapiToolsSearchpaths;
 
   @JsonProperty("org.apache.sling.hapi.tools.externalurl")
-  private ConfigNodePropertyString orgApacheSlingHapiToolsExternalurl = null;
+  @Valid
+
+  private ConfigNodePropertyString orgApacheSlingHapiToolsExternalurl;
 
   @JsonProperty("org.apache.sling.hapi.tools.enabled")
-  private ConfigNodePropertyBoolean orgApacheSlingHapiToolsEnabled = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean orgApacheSlingHapiToolsEnabled;
 
   public OrgApacheSlingHapiImplHApiUtilImplProperties orgApacheSlingHapiToolsResourcetype(ConfigNodePropertyString orgApacheSlingHapiToolsResourcetype) {
     this.orgApacheSlingHapiToolsResourcetype = orgApacheSlingHapiToolsResourcetype;
@@ -39,7 +50,6 @@ public class OrgApacheSlingHapiImplHApiUtilImplProperties   {
    * Get orgApacheSlingHapiToolsResourcetype
    * @return orgApacheSlingHapiToolsResourcetype
   **/
-  @Valid
   public ConfigNodePropertyString getOrgApacheSlingHapiToolsResourcetype() {
     return orgApacheSlingHapiToolsResourcetype;
   }
@@ -57,7 +67,6 @@ public class OrgApacheSlingHapiImplHApiUtilImplProperties   {
    * Get orgApacheSlingHapiToolsCollectionresourcetype
    * @return orgApacheSlingHapiToolsCollectionresourcetype
   **/
-  @Valid
   public ConfigNodePropertyString getOrgApacheSlingHapiToolsCollectionresourcetype() {
     return orgApacheSlingHapiToolsCollectionresourcetype;
   }
@@ -75,7 +84,6 @@ public class OrgApacheSlingHapiImplHApiUtilImplProperties   {
    * Get orgApacheSlingHapiToolsSearchpaths
    * @return orgApacheSlingHapiToolsSearchpaths
   **/
-  @Valid
   public ConfigNodePropertyArray getOrgApacheSlingHapiToolsSearchpaths() {
     return orgApacheSlingHapiToolsSearchpaths;
   }
@@ -93,7 +101,6 @@ public class OrgApacheSlingHapiImplHApiUtilImplProperties   {
    * Get orgApacheSlingHapiToolsExternalurl
    * @return orgApacheSlingHapiToolsExternalurl
   **/
-  @Valid
   public ConfigNodePropertyString getOrgApacheSlingHapiToolsExternalurl() {
     return orgApacheSlingHapiToolsExternalurl;
   }
@@ -111,7 +118,6 @@ public class OrgApacheSlingHapiImplHApiUtilImplProperties   {
    * Get orgApacheSlingHapiToolsEnabled
    * @return orgApacheSlingHapiToolsEnabled
   **/
-  @Valid
   public ConfigNodePropertyBoolean getOrgApacheSlingHapiToolsEnabled() {
     return orgApacheSlingHapiToolsEnabled;
   }
@@ -122,7 +128,7 @@ public class OrgApacheSlingHapiImplHApiUtilImplProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -161,11 +167,8 @@ public class OrgApacheSlingHapiImplHApiUtilImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

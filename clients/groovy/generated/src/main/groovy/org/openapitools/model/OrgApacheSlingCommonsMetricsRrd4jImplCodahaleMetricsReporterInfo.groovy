@@ -7,16 +7,16 @@ import org.openapitools.model.OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetri
 
 @Canonical
 class OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterProperties properties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterProperties properties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

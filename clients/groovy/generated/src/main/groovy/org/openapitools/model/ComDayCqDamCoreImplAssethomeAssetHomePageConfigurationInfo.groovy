@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqDamCoreImplAssethomeAssetHomePageConfigura
 
 @Canonical
 class ComDayCqDamCoreImplAssethomeAssetHomePageConfigurationInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqDamCoreImplAssethomeAssetHomePageConfigurationProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqDamCoreImplAssethomeAssetHomePageConfigurationProperties properties
 }

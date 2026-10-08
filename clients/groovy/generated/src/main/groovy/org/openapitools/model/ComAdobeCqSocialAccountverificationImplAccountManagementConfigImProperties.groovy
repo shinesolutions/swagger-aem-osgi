@@ -8,10 +8,10 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class ComAdobeCqSocialAccountverificationImplAccountManagementConfigImProperties {
-    ConfigNodePropertyBoolean enable = null
-
-    ConfigNodePropertyInteger ttl1 = null
-
-    ConfigNodePropertyInteger ttl2 = null
-
+    
+    ConfigNodePropertyBoolean enable
+    
+    ConfigNodePropertyInteger ttl1
+    
+    ConfigNodePropertyInteger ttl2
 }

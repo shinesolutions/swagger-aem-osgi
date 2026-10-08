@@ -2,12 +2,12 @@
 # ComAdobeCqWcmTranslationImplTranslationPlatformConfigurationImplProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**syncTranslationStatePeriodschedulingFormat** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**schedulingRepeatTranslationPeriodschedulingFormat** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**syncTranslationStatePeriodlockTimeoutInMinutes** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**exportPeriodformat** | [**ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **syncTranslationStateSchedulingFormat** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **schedulingRepeatTranslationSchedulingFormat** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **syncTranslationStateLockTimeoutInMinutes** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **exportFormat** | [**ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md) |  |  [optional] |
 
 
 

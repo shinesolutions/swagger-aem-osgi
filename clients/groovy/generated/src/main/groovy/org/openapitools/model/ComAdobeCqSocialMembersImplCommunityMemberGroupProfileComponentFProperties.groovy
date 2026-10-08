@@ -7,8 +7,8 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class ComAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentFProperties {
-    ConfigNodePropertyInteger everyoneLimit = null
-
-    ConfigNodePropertyInteger priority = null
-
+    
+    ConfigNodePropertyInteger everyoneLimit
+    
+    ConfigNodePropertyInteger priority
 }

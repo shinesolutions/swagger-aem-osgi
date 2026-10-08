@@ -72,8 +72,8 @@ private class OASComAdobeCqDamIpsImplReplicationTrTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeCqDamIpsImplReplicationTr comAdobeCqDamIpsImplReplicationTriggerReplicateOnModifyWorkerProperties = new OASComAdobeCqDamIpsImplReplicationTr();
-        Map<String, String> propertyMappings = comAdobeCqDamIpsImplReplicationTriggerReplicateOnModifyWorkerProperties.getPropertyMappings();
-        System.assertEquals('dmreplicateonmodifyEnabled', propertyMappings.get('dmreplicateonmodify.enabled'));
-        System.assertEquals('dmreplicateonmodifyForcesyncdeletes', propertyMappings.get('dmreplicateonmodify.forcesyncdeletes'));
+        Map<String, String> x-property-mappings = comAdobeCqDamIpsImplReplicationTriggerReplicateOnModifyWorkerProperties.getx-property-mappings();
+        System.assertEquals('dmreplicateonmodifyEnabled', x-property-mappings.get('dmreplicateonmodify.enabled'));
+        System.assertEquals('dmreplicateonmodifyForcesyncdeletes', x-property-mappings.get('dmreplicateonmodify.forcesyncdeletes'));
     }
 }

@@ -1,0 +1,27 @@
+{
+  "namespace": "model",
+  "type": "record",
+  "doc": "",
+  "name": "ComAdobeGraniteSecurityUserUserPropertiesServiceProperties",
+  "fields": [
+    {
+      "name": "adapter.condition",
+      "type": ["null", "model.ConfigNodePropertyString"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "granite.userproperties.nodetypes",
+      "type": ["null", "model.ConfigNodePropertyArray"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "granite.userproperties.resourcetypes",
+      "type": ["null", "model.ConfigNodePropertyArray"],
+      "doc": "",
+      "default": null
+    }
+  ]
+
+}

@@ -1,0 +1,42 @@
+package models
+
+type OrgApacheSlingDiscoveryOakConfigProperties struct {
+
+	ConnectorPingTimeout ConfigNodePropertyInteger `json:"connectorPingTimeout,omitempty"`
+
+	ConnectorPingInterval ConfigNodePropertyInteger `json:"connectorPingInterval,omitempty"`
+
+	DiscoveryLiteCheckInterval ConfigNodePropertyInteger `json:"discoveryLiteCheckInterval,omitempty"`
+
+	ClusterSyncServiceTimeout ConfigNodePropertyInteger `json:"clusterSyncServiceTimeout,omitempty"`
+
+	ClusterSyncServiceInterval ConfigNodePropertyInteger `json:"clusterSyncServiceInterval,omitempty"`
+
+	EnableSyncToken ConfigNodePropertyBoolean `json:"enableSyncToken,omitempty"`
+
+	MinEventDelay ConfigNodePropertyInteger `json:"minEventDelay,omitempty"`
+
+	SocketConnectTimeout ConfigNodePropertyInteger `json:"socketConnectTimeout,omitempty"`
+
+	SoTimeout ConfigNodePropertyInteger `json:"soTimeout,omitempty"`
+
+	TopologyConnectorUrls ConfigNodePropertyArray `json:"topologyConnectorUrls,omitempty"`
+
+	TopologyConnectorWhitelist ConfigNodePropertyArray `json:"topologyConnectorWhitelist,omitempty"`
+
+	AutoStopLocalLoopEnabled ConfigNodePropertyBoolean `json:"autoStopLocalLoopEnabled,omitempty"`
+
+	GzipConnectorRequestsEnabled ConfigNodePropertyBoolean `json:"gzipConnectorRequestsEnabled,omitempty"`
+
+	HmacEnabled ConfigNodePropertyBoolean `json:"hmacEnabled,omitempty"`
+
+	EnableEncryption ConfigNodePropertyBoolean `json:"enableEncryption,omitempty"`
+
+	SharedKey ConfigNodePropertyString `json:"sharedKey,omitempty"`
+
+	HmacSharedKeyTTL ConfigNodePropertyInteger `json:"hmacSharedKeyTTL,omitempty"`
+
+	BackoffStandbyFactor ConfigNodePropertyString `json:"backoffStandbyFactor,omitempty"`
+
+	BackoffStableFactor ConfigNodePropertyString `json:"backoffStableFactor,omitempty"`
+}

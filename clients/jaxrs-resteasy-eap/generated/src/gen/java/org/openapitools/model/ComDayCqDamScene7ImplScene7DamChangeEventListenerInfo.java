@@ -4,28 +4,23 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ComDayCqDamScene7ImplScene7DamChangeEventListenerProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2019-08-05T01:00:05.540Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2026-10-07T12:54:26.576036107Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqDamScene7ImplScene7DamChangeEventListenerInfo   {
   
-
-  private String pid = null;
-
-  private String title = null;
-
-  private String description = null;
-
-  private ComDayCqDamScene7ImplScene7DamChangeEventListenerProperties properties = null;
-
-  private String bundleLocation = null;
-
-  private String serviceLocation = null;
+  private String pid;
+  private String title;
+  private String description;
+  private ComDayCqDamScene7ImplScene7DamChangeEventListenerProperties properties;
+  private String bundleLocation;
+  private String serviceLocation;
 
   /**
    **/
@@ -109,12 +104,12 @@ public class ComDayCqDamScene7ImplScene7DamChangeEventListenerInfo   {
       return false;
     }
     ComDayCqDamScene7ImplScene7DamChangeEventListenerInfo comDayCqDamScene7ImplScene7DamChangeEventListenerInfo = (ComDayCqDamScene7ImplScene7DamChangeEventListenerInfo) o;
-    return Objects.equals(pid, comDayCqDamScene7ImplScene7DamChangeEventListenerInfo.pid) &&
-        Objects.equals(title, comDayCqDamScene7ImplScene7DamChangeEventListenerInfo.title) &&
-        Objects.equals(description, comDayCqDamScene7ImplScene7DamChangeEventListenerInfo.description) &&
-        Objects.equals(properties, comDayCqDamScene7ImplScene7DamChangeEventListenerInfo.properties) &&
-        Objects.equals(bundleLocation, comDayCqDamScene7ImplScene7DamChangeEventListenerInfo.bundleLocation) &&
-        Objects.equals(serviceLocation, comDayCqDamScene7ImplScene7DamChangeEventListenerInfo.serviceLocation);
+    return Objects.equals(this.pid, comDayCqDamScene7ImplScene7DamChangeEventListenerInfo.pid) &&
+        Objects.equals(this.title, comDayCqDamScene7ImplScene7DamChangeEventListenerInfo.title) &&
+        Objects.equals(this.description, comDayCqDamScene7ImplScene7DamChangeEventListenerInfo.description) &&
+        Objects.equals(this.properties, comDayCqDamScene7ImplScene7DamChangeEventListenerInfo.properties) &&
+        Objects.equals(this.bundleLocation, comDayCqDamScene7ImplScene7DamChangeEventListenerInfo.bundleLocation) &&
+        Objects.equals(this.serviceLocation, comDayCqDamScene7ImplScene7DamChangeEventListenerInfo.serviceLocation);
   }
 
   @Override
@@ -142,10 +137,7 @@ public class ComDayCqDamScene7ImplScene7DamChangeEventListenerInfo   {
    * (except the first line).
    */
   private String toIndentedString(Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -2,9 +2,9 @@
 # OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**orgPeriodapachePeriodslingPeriodscriptingPeriodsightlyPeriodjsPeriodbindings** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **orgApacheSlingScriptingSightlyJsBindings** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
 
 
 

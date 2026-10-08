@@ -7,12 +7,12 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class ComAdobeCqSocialUgcbaseImplAysncReverseReplicatorImplProperties {
-    ConfigNodePropertyInteger poolSize = null
-
-    ConfigNodePropertyInteger maxPoolSize = null
-
-    ConfigNodePropertyInteger queueSize = null
-
-    ConfigNodePropertyInteger keepAliveTime = null
-
+    
+    ConfigNodePropertyInteger poolSize
+    
+    ConfigNodePropertyInteger maxPoolSize
+    
+    ConfigNodePropertyInteger queueSize
+    
+    ConfigNodePropertyInteger keepAliveTime
 }

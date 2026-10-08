@@ -1,18 +1,29 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comDayCqWcmCoreImplServletsContentfinderConnectorConnectorVieProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorVieProperties   {
-  
-  private @Valid ConfigNodePropertyArray itemResourceTypes = null;
+  private ConfigNodePropertyArray itemResourceTypes;
+
+  public ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorVieProperties() {
+  }
 
   /**
    **/
@@ -24,16 +35,18 @@ public class ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorVieProper
   
   @ApiModelProperty(value = "")
   @JsonProperty("item.resource.types")
-  public ConfigNodePropertyArray getItemResourceTypes() {
+  @Valid public ConfigNodePropertyArray getItemResourceTypes() {
     return itemResourceTypes;
   }
+
+  @JsonProperty("item.resource.types")
   public void setItemResourceTypes(ConfigNodePropertyArray itemResourceTypes) {
     this.itemResourceTypes = itemResourceTypes;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -41,7 +54,7 @@ public class ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorVieProper
       return false;
     }
     ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorVieProperties comDayCqWcmCoreImplServletsContentfinderConnectorConnectorVieProperties = (ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorVieProperties) o;
-    return Objects.equals(itemResourceTypes, comDayCqWcmCoreImplServletsContentfinderConnectorConnectorVieProperties.itemResourceTypes);
+    return Objects.equals(this.itemResourceTypes, comDayCqWcmCoreImplServletsContentfinderConnectorConnectorVieProperties.itemResourceTypes);
   }
 
   @Override
@@ -63,11 +76,9 @@ public class ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorVieProper
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

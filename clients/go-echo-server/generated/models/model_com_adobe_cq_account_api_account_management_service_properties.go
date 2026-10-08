@@ -1,0 +1,10 @@
+package models
+
+type ComAdobeCqAccountApiAccountManagementServiceProperties struct {
+
+	CqAccountmanagerTokenValidityPeriod ConfigNodePropertyInteger `json:"cq.accountmanager.token.validity.period,omitempty"`
+
+	CqAccountmanagerConfigRequestnewaccountMail ConfigNodePropertyString `json:"cq.accountmanager.config.requestnewaccount.mail,omitempty"`
+
+	CqAccountmanagerConfigRequestnewpwdMail ConfigNodePropertyString `json:"cq.accountmanager.config.requestnewpwd.mail,omitempty"`
+}

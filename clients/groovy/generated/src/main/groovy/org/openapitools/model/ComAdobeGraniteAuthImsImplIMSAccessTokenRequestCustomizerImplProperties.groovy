@@ -7,8 +7,8 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeGraniteAuthImsImplIMSAccessTokenRequestCustomizerImplProperties {
-    ConfigNodePropertyString authImsClientSecret = null
-
-    ConfigNodePropertyString customizerType = null
-
+    
+    ConfigNodePropertyString authImsClientSecret
+    
+    ConfigNodePropertyString customizerType
 }

@@ -4,20 +4,23 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.OrgApacheSlingSecurityImplReferrerFilterProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2019-08-05T00:59:30.156Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2026-10-07T12:54:21.614735164Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingSecurityImplReferrerFilterInfo   {
   
-  private String pid = null;
-  private String title = null;
-  private String description = null;
-  private OrgApacheSlingSecurityImplReferrerFilterProperties properties = null;
-  private String bundleLocation = null;
-  private String serviceLocation = null;
+  private String pid;
+  private String title;
+  private String description;
+  private OrgApacheSlingSecurityImplReferrerFilterProperties properties;
+  private String bundleLocation;
+  private String serviceLocation;
 
   /**
    **/
@@ -60,6 +63,7 @@ public class OrgApacheSlingSecurityImplReferrerFilterInfo   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("properties")
+  @Valid
   public OrgApacheSlingSecurityImplReferrerFilterProperties getProperties() {
     return properties;
   }
@@ -93,7 +97,7 @@ public class OrgApacheSlingSecurityImplReferrerFilterInfo   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -101,12 +105,12 @@ public class OrgApacheSlingSecurityImplReferrerFilterInfo   {
       return false;
     }
     OrgApacheSlingSecurityImplReferrerFilterInfo orgApacheSlingSecurityImplReferrerFilterInfo = (OrgApacheSlingSecurityImplReferrerFilterInfo) o;
-    return Objects.equals(pid, orgApacheSlingSecurityImplReferrerFilterInfo.pid) &&
-        Objects.equals(title, orgApacheSlingSecurityImplReferrerFilterInfo.title) &&
-        Objects.equals(description, orgApacheSlingSecurityImplReferrerFilterInfo.description) &&
-        Objects.equals(properties, orgApacheSlingSecurityImplReferrerFilterInfo.properties) &&
-        Objects.equals(bundleLocation, orgApacheSlingSecurityImplReferrerFilterInfo.bundleLocation) &&
-        Objects.equals(serviceLocation, orgApacheSlingSecurityImplReferrerFilterInfo.serviceLocation);
+    return Objects.equals(this.pid, orgApacheSlingSecurityImplReferrerFilterInfo.pid) &&
+        Objects.equals(this.title, orgApacheSlingSecurityImplReferrerFilterInfo.title) &&
+        Objects.equals(this.description, orgApacheSlingSecurityImplReferrerFilterInfo.description) &&
+        Objects.equals(this.properties, orgApacheSlingSecurityImplReferrerFilterInfo.properties) &&
+        Objects.equals(this.bundleLocation, orgApacheSlingSecurityImplReferrerFilterInfo.bundleLocation) &&
+        Objects.equals(this.serviceLocation, orgApacheSlingSecurityImplReferrerFilterInfo.serviceLocation);
   }
 
   @Override
@@ -133,11 +137,8 @@ public class OrgApacheSlingSecurityImplReferrerFilterInfo   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

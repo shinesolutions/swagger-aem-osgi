@@ -1,7 +1,9 @@
 
+
 # ComAdobeCqScreensDeviceImplDeviceServiceProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **comAdobeAemScreensPlayerPingfrequency** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
@@ -11,6 +13,7 @@ Name | Type | Description | Notes
 **comAdobeAemScreensDevicePaswordMinnumberchars** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
 **comAdobeAemScreensDevicePaswordMinspecialchars** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
 **comAdobeAemScreensDevicePaswordMinlength** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
+
 
 
 

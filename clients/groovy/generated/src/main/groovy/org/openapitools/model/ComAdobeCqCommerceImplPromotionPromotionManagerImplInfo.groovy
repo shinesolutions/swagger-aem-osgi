@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqCommerceImplPromotionPromotionManagerImp
 
 @Canonical
 class ComAdobeCqCommerceImplPromotionPromotionManagerImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqCommerceImplPromotionPromotionManagerImplProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqCommerceImplPromotionPromotionManagerImplProperties properties
 }

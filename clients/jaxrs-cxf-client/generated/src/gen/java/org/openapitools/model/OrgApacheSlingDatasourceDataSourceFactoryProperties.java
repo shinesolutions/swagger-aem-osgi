@@ -7,103 +7,127 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
 
 import io.swagger.annotations.ApiModelProperty;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlType;
-import javax.xml.bind.annotation.XmlEnum;
-import javax.xml.bind.annotation.XmlEnumValue;
+import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
 
 public class OrgApacheSlingDatasourceDataSourceFactoryProperties  {
   
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString datasourceName = null;
+
+  private ConfigNodePropertyString datasourceName;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString datasourceSvcPropName = null;
+
+  private ConfigNodePropertyString datasourceSvcPropName;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString driverClassName = null;
+
+  private ConfigNodePropertyString driverClassName;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString url = null;
+
+  private ConfigNodePropertyString url;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString username = null;
+
+  private ConfigNodePropertyString username;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString password = null;
+
+  private ConfigNodePropertyString password;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyDropDown defaultAutoCommit = null;
+
+  private ConfigNodePropertyDropDown defaultAutoCommit;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyDropDown defaultReadOnly = null;
+
+  private ConfigNodePropertyDropDown defaultReadOnly;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyDropDown defaultTransactionIsolation = null;
+
+  private ConfigNodePropertyDropDown defaultTransactionIsolation;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString defaultCatalog = null;
+
+  private ConfigNodePropertyString defaultCatalog;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyInteger maxActive = null;
+
+  private ConfigNodePropertyInteger maxActive;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyInteger maxIdle = null;
+
+  private ConfigNodePropertyInteger maxIdle;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyInteger minIdle = null;
+
+  private ConfigNodePropertyInteger minIdle;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyInteger initialSize = null;
+
+  private ConfigNodePropertyInteger initialSize;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyInteger maxWait = null;
+
+  private ConfigNodePropertyInteger maxWait;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyInteger maxAge = null;
+
+  private ConfigNodePropertyInteger maxAge;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyBoolean testOnBorrow = null;
+
+  private ConfigNodePropertyBoolean testOnBorrow;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyBoolean testOnReturn = null;
+
+  private ConfigNodePropertyBoolean testOnReturn;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyBoolean testWhileIdle = null;
+
+  private ConfigNodePropertyBoolean testWhileIdle;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString validationQuery = null;
+
+  private ConfigNodePropertyString validationQuery;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyInteger validationQueryTimeout = null;
+
+  private ConfigNodePropertyInteger validationQueryTimeout;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyInteger timeBetweenEvictionRunsMillis = null;
+
+  private ConfigNodePropertyInteger timeBetweenEvictionRunsMillis;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyInteger minEvictableIdleTimeMillis = null;
+
+  private ConfigNodePropertyInteger minEvictableIdleTimeMillis;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString connectionProperties = null;
+
+  private ConfigNodePropertyString connectionProperties;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString initSQL = null;
+
+  private ConfigNodePropertyString initSQL;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString jdbcInterceptors = null;
+
+  private ConfigNodePropertyString jdbcInterceptors;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyInteger validationInterval = null;
+
+  private ConfigNodePropertyInteger validationInterval;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyBoolean logValidationErrors = null;
+
+  private ConfigNodePropertyBoolean logValidationErrors;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyArray datasourceSvcProperties = null;
+
+  private ConfigNodePropertyArray datasourceSvcProperties;
  /**
    * Get datasourceName
    * @return datasourceName
@@ -626,6 +650,50 @@ public class OrgApacheSlingDatasourceDataSourceFactoryProperties  {
     return this;
   }
 
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    OrgApacheSlingDatasourceDataSourceFactoryProperties orgApacheSlingDatasourceDataSourceFactoryProperties = (OrgApacheSlingDatasourceDataSourceFactoryProperties) o;
+    return Objects.equals(this.datasourceName, orgApacheSlingDatasourceDataSourceFactoryProperties.datasourceName) &&
+        Objects.equals(this.datasourceSvcPropName, orgApacheSlingDatasourceDataSourceFactoryProperties.datasourceSvcPropName) &&
+        Objects.equals(this.driverClassName, orgApacheSlingDatasourceDataSourceFactoryProperties.driverClassName) &&
+        Objects.equals(this.url, orgApacheSlingDatasourceDataSourceFactoryProperties.url) &&
+        Objects.equals(this.username, orgApacheSlingDatasourceDataSourceFactoryProperties.username) &&
+        Objects.equals(this.password, orgApacheSlingDatasourceDataSourceFactoryProperties.password) &&
+        Objects.equals(this.defaultAutoCommit, orgApacheSlingDatasourceDataSourceFactoryProperties.defaultAutoCommit) &&
+        Objects.equals(this.defaultReadOnly, orgApacheSlingDatasourceDataSourceFactoryProperties.defaultReadOnly) &&
+        Objects.equals(this.defaultTransactionIsolation, orgApacheSlingDatasourceDataSourceFactoryProperties.defaultTransactionIsolation) &&
+        Objects.equals(this.defaultCatalog, orgApacheSlingDatasourceDataSourceFactoryProperties.defaultCatalog) &&
+        Objects.equals(this.maxActive, orgApacheSlingDatasourceDataSourceFactoryProperties.maxActive) &&
+        Objects.equals(this.maxIdle, orgApacheSlingDatasourceDataSourceFactoryProperties.maxIdle) &&
+        Objects.equals(this.minIdle, orgApacheSlingDatasourceDataSourceFactoryProperties.minIdle) &&
+        Objects.equals(this.initialSize, orgApacheSlingDatasourceDataSourceFactoryProperties.initialSize) &&
+        Objects.equals(this.maxWait, orgApacheSlingDatasourceDataSourceFactoryProperties.maxWait) &&
+        Objects.equals(this.maxAge, orgApacheSlingDatasourceDataSourceFactoryProperties.maxAge) &&
+        Objects.equals(this.testOnBorrow, orgApacheSlingDatasourceDataSourceFactoryProperties.testOnBorrow) &&
+        Objects.equals(this.testOnReturn, orgApacheSlingDatasourceDataSourceFactoryProperties.testOnReturn) &&
+        Objects.equals(this.testWhileIdle, orgApacheSlingDatasourceDataSourceFactoryProperties.testWhileIdle) &&
+        Objects.equals(this.validationQuery, orgApacheSlingDatasourceDataSourceFactoryProperties.validationQuery) &&
+        Objects.equals(this.validationQueryTimeout, orgApacheSlingDatasourceDataSourceFactoryProperties.validationQueryTimeout) &&
+        Objects.equals(this.timeBetweenEvictionRunsMillis, orgApacheSlingDatasourceDataSourceFactoryProperties.timeBetweenEvictionRunsMillis) &&
+        Objects.equals(this.minEvictableIdleTimeMillis, orgApacheSlingDatasourceDataSourceFactoryProperties.minEvictableIdleTimeMillis) &&
+        Objects.equals(this.connectionProperties, orgApacheSlingDatasourceDataSourceFactoryProperties.connectionProperties) &&
+        Objects.equals(this.initSQL, orgApacheSlingDatasourceDataSourceFactoryProperties.initSQL) &&
+        Objects.equals(this.jdbcInterceptors, orgApacheSlingDatasourceDataSourceFactoryProperties.jdbcInterceptors) &&
+        Objects.equals(this.validationInterval, orgApacheSlingDatasourceDataSourceFactoryProperties.validationInterval) &&
+        Objects.equals(this.logValidationErrors, orgApacheSlingDatasourceDataSourceFactoryProperties.logValidationErrors) &&
+        Objects.equals(this.datasourceSvcProperties, orgApacheSlingDatasourceDataSourceFactoryProperties.datasourceSvcProperties);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(datasourceName, datasourceSvcPropName, driverClassName, url, username, password, defaultAutoCommit, defaultReadOnly, defaultTransactionIsolation, defaultCatalog, maxActive, maxIdle, minIdle, initialSize, maxWait, maxAge, testOnBorrow, testOnReturn, testWhileIdle, validationQuery, validationQueryTimeout, timeBetweenEvictionRunsMillis, minEvictableIdleTimeMillis, connectionProperties, initSQL, jdbcInterceptors, validationInterval, logValidationErrors, datasourceSvcProperties);
+  }
 
   @Override
   public String toString() {
@@ -669,11 +737,8 @@ public class OrgApacheSlingDatasourceDataSourceFactoryProperties  {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private static String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

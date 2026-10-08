@@ -9,14 +9,14 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class OrgApacheSlingHapiImplHApiUtilImplProperties {
-    ConfigNodePropertyString orgApacheSlingHapiToolsResourcetype = null
-
-    ConfigNodePropertyString orgApacheSlingHapiToolsCollectionresourcetype = null
-
-    ConfigNodePropertyArray orgApacheSlingHapiToolsSearchpaths = null
-
-    ConfigNodePropertyString orgApacheSlingHapiToolsExternalurl = null
-
-    ConfigNodePropertyBoolean orgApacheSlingHapiToolsEnabled = null
-
+    
+    ConfigNodePropertyString orgApacheSlingHapiToolsResourcetype
+    
+    ConfigNodePropertyString orgApacheSlingHapiToolsCollectionresourcetype
+    
+    ConfigNodePropertyArray orgApacheSlingHapiToolsSearchpaths
+    
+    ConfigNodePropertyString orgApacheSlingHapiToolsExternalurl
+    
+    ConfigNodePropertyBoolean orgApacheSlingHapiToolsEnabled
 }

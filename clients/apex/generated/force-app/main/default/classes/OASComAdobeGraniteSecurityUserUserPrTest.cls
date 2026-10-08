@@ -72,9 +72,9 @@ private class OASComAdobeGraniteSecurityUserUserPrTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeGraniteSecurityUserUserPr comAdobeGraniteSecurityUserUserPropertiesServiceProperties = new OASComAdobeGraniteSecurityUserUserPr();
-        Map<String, String> propertyMappings = comAdobeGraniteSecurityUserUserPropertiesServiceProperties.getPropertyMappings();
-        System.assertEquals('adapterCondition', propertyMappings.get('adapter.condition'));
-        System.assertEquals('graniteUserpropertiesNodetypes', propertyMappings.get('granite.userproperties.nodetypes'));
-        System.assertEquals('graniteUserpropertiesResourcetypes', propertyMappings.get('granite.userproperties.resourcetypes'));
+        Map<String, String> x-property-mappings = comAdobeGraniteSecurityUserUserPropertiesServiceProperties.getx-property-mappings();
+        System.assertEquals('adapterCondition', x-property-mappings.get('adapter.condition'));
+        System.assertEquals('graniteUserpropertiesNodetypes', x-property-mappings.get('granite.userproperties.nodetypes'));
+        System.assertEquals('graniteUserpropertiesResourcetypes', x-property-mappings.get('granite.userproperties.resourcetypes'));
     }
 }

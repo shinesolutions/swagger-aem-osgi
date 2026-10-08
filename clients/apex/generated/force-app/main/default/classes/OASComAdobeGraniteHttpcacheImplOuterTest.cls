@@ -72,7 +72,7 @@ private class OASComAdobeGraniteHttpcacheImplOuterTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeGraniteHttpcacheImplOuter comAdobeGraniteHttpcacheImplOuterCacheFilterProperties = new OASComAdobeGraniteHttpcacheImplOuter();
-        Map<String, String> propertyMappings = comAdobeGraniteHttpcacheImplOuterCacheFilterProperties.getPropertyMappings();
-        System.assertEquals('comAdobeGraniteHttpcacheUrlPaths', propertyMappings.get('com.adobe.granite.httpcache.url.paths'));
+        Map<String, String> x-property-mappings = comAdobeGraniteHttpcacheImplOuterCacheFilterProperties.getx-property-mappings();
+        System.assertEquals('comAdobeGraniteHttpcacheUrlPaths', x-property-mappings.get('com.adobe.granite.httpcache.url.paths'));
     }
 }

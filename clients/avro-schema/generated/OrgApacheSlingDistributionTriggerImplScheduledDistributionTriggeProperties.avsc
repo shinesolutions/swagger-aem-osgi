@@ -1,0 +1,33 @@
+{
+  "namespace": "model",
+  "type": "record",
+  "doc": "",
+  "name": "OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggeProperties",
+  "fields": [
+    {
+      "name": "name",
+      "type": ["null", "model.ConfigNodePropertyString"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "path",
+      "type": ["null", "model.ConfigNodePropertyString"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "seconds",
+      "type": ["null", "model.ConfigNodePropertyString"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "serviceName",
+      "type": ["null", "model.ConfigNodePropertyString"],
+      "doc": "",
+      "default": null
+    }
+  ]
+
+}

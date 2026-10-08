@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqDamCoreImplProcessSendTransientWorkflowCom
 
 @Canonical
 class ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrProperties properties
 }

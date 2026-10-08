@@ -7,58 +7,67 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
 
 import io.swagger.annotations.ApiModelProperty;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlType;
-import javax.xml.bind.annotation.XmlEnum;
-import javax.xml.bind.annotation.XmlEnumValue;
+import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
 
 public class OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties  {
   
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString name = null;
+
+  private ConfigNodePropertyString name;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString title = null;
+
+  private ConfigNodePropertyString title;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString details = null;
+
+  private ConfigNodePropertyString details;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyBoolean enabled = null;
+
+  private ConfigNodePropertyBoolean enabled;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString serviceName = null;
+
+  private ConfigNodePropertyString serviceName;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyDropDown logLevel = null;
+
+  private ConfigNodePropertyDropDown logLevel;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyBoolean queueProcessingEnabled = null;
+
+  private ConfigNodePropertyBoolean queueProcessingEnabled;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyArray packageExporterEndpoints = null;
+
+  private ConfigNodePropertyArray packageExporterEndpoints;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyInteger pullItems = null;
+
+  private ConfigNodePropertyInteger pullItems;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyInteger httpConnTimeout = null;
+
+  private ConfigNodePropertyInteger httpConnTimeout;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString requestAuthorizationStrategyTarget = null;
+
+  private ConfigNodePropertyString requestAuthorizationStrategyTarget;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString transportSecretProviderTarget = null;
+
+  private ConfigNodePropertyString transportSecretProviderTarget;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString packageBuilderTarget = null;
+
+  private ConfigNodePropertyString packageBuilderTarget;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString triggersTarget = null;
+
+  private ConfigNodePropertyString triggersTarget;
  /**
    * Get name
    * @return name
@@ -311,6 +320,35 @@ public class OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoPro
     return this;
   }
 
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties orgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties = (OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties) o;
+    return Objects.equals(this.name, orgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties.name) &&
+        Objects.equals(this.title, orgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties.title) &&
+        Objects.equals(this.details, orgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties.details) &&
+        Objects.equals(this.enabled, orgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties.enabled) &&
+        Objects.equals(this.serviceName, orgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties.serviceName) &&
+        Objects.equals(this.logLevel, orgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties.logLevel) &&
+        Objects.equals(this.queueProcessingEnabled, orgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties.queueProcessingEnabled) &&
+        Objects.equals(this.packageExporterEndpoints, orgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties.packageExporterEndpoints) &&
+        Objects.equals(this.pullItems, orgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties.pullItems) &&
+        Objects.equals(this.httpConnTimeout, orgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties.httpConnTimeout) &&
+        Objects.equals(this.requestAuthorizationStrategyTarget, orgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties.requestAuthorizationStrategyTarget) &&
+        Objects.equals(this.transportSecretProviderTarget, orgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties.transportSecretProviderTarget) &&
+        Objects.equals(this.packageBuilderTarget, orgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties.packageBuilderTarget) &&
+        Objects.equals(this.triggersTarget, orgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties.triggersTarget);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(name, title, details, enabled, serviceName, logLevel, queueProcessingEnabled, packageExporterEndpoints, pullItems, httpConnTimeout, requestAuthorizationStrategyTarget, transportSecretProviderTarget, packageBuilderTarget, triggersTarget);
+  }
 
   @Override
   public String toString() {
@@ -339,11 +377,8 @@ public class OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoPro
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private static String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

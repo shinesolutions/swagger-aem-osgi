@@ -1,0 +1,51 @@
+{
+  "namespace": "model",
+  "type": "record",
+  "doc": "",
+  "name": "ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoProperties",
+  "fields": [
+    {
+      "name": "default.transport.agent-to-worker.prefix",
+      "type": ["null", "model.ConfigNodePropertyString"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "default.transport.agent-to-master.prefix",
+      "type": ["null", "model.ConfigNodePropertyString"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "default.transport.input.package",
+      "type": ["null", "model.ConfigNodePropertyString"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "default.transport.output.package",
+      "type": ["null", "model.ConfigNodePropertyString"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "default.transport.replication.synchronous",
+      "type": ["null", "model.ConfigNodePropertyBoolean"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "default.transport.contentpackage",
+      "type": ["null", "model.ConfigNodePropertyBoolean"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "offloading.transporter.default.enabled",
+      "type": ["null", "model.ConfigNodePropertyBoolean"],
+      "doc": "",
+      "default": null
+    }
+  ]
+
+}

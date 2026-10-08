@@ -3,38 +3,53 @@ package apimodels;
 import apimodels.ConfigNodePropertyDropDown;
 import apimodels.ConfigNodePropertyInteger;
 import apimodels.ConfigNodePropertyString;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * OrgApacheSlingCommonsMetricsInternalLogReporterProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class OrgApacheSlingCommonsMetricsInternalLogReporterProperties   {
   @JsonProperty("period")
-  private ConfigNodePropertyInteger period = null;
+  @Valid
+
+  private ConfigNodePropertyInteger period;
 
   @JsonProperty("timeUnit")
-  private ConfigNodePropertyDropDown timeUnit = null;
+  @Valid
+
+  private ConfigNodePropertyDropDown timeUnit;
 
   @JsonProperty("level")
-  private ConfigNodePropertyDropDown level = null;
+  @Valid
+
+  private ConfigNodePropertyDropDown level;
 
   @JsonProperty("loggerName")
-  private ConfigNodePropertyString loggerName = null;
+  @Valid
+
+  private ConfigNodePropertyString loggerName;
 
   @JsonProperty("prefix")
-  private ConfigNodePropertyString prefix = null;
+  @Valid
+
+  private ConfigNodePropertyString prefix;
 
   @JsonProperty("pattern")
-  private ConfigNodePropertyString pattern = null;
+  @Valid
+
+  private ConfigNodePropertyString pattern;
 
   @JsonProperty("registryName")
-  private ConfigNodePropertyString registryName = null;
+  @Valid
+
+  private ConfigNodePropertyString registryName;
 
   public OrgApacheSlingCommonsMetricsInternalLogReporterProperties period(ConfigNodePropertyInteger period) {
     this.period = period;
@@ -45,7 +60,6 @@ public class OrgApacheSlingCommonsMetricsInternalLogReporterProperties   {
    * Get period
    * @return period
   **/
-  @Valid
   public ConfigNodePropertyInteger getPeriod() {
     return period;
   }
@@ -63,7 +77,6 @@ public class OrgApacheSlingCommonsMetricsInternalLogReporterProperties   {
    * Get timeUnit
    * @return timeUnit
   **/
-  @Valid
   public ConfigNodePropertyDropDown getTimeUnit() {
     return timeUnit;
   }
@@ -81,7 +94,6 @@ public class OrgApacheSlingCommonsMetricsInternalLogReporterProperties   {
    * Get level
    * @return level
   **/
-  @Valid
   public ConfigNodePropertyDropDown getLevel() {
     return level;
   }
@@ -99,7 +111,6 @@ public class OrgApacheSlingCommonsMetricsInternalLogReporterProperties   {
    * Get loggerName
    * @return loggerName
   **/
-  @Valid
   public ConfigNodePropertyString getLoggerName() {
     return loggerName;
   }
@@ -117,7 +128,6 @@ public class OrgApacheSlingCommonsMetricsInternalLogReporterProperties   {
    * Get prefix
    * @return prefix
   **/
-  @Valid
   public ConfigNodePropertyString getPrefix() {
     return prefix;
   }
@@ -135,7 +145,6 @@ public class OrgApacheSlingCommonsMetricsInternalLogReporterProperties   {
    * Get pattern
    * @return pattern
   **/
-  @Valid
   public ConfigNodePropertyString getPattern() {
     return pattern;
   }
@@ -153,7 +162,6 @@ public class OrgApacheSlingCommonsMetricsInternalLogReporterProperties   {
    * Get registryName
    * @return registryName
   **/
-  @Valid
   public ConfigNodePropertyString getRegistryName() {
     return registryName;
   }
@@ -164,7 +172,7 @@ public class OrgApacheSlingCommonsMetricsInternalLogReporterProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -207,11 +215,8 @@ public class OrgApacheSlingCommonsMetricsInternalLogReporterProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

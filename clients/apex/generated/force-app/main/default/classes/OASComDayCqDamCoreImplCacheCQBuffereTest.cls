@@ -72,9 +72,9 @@ private class OASComDayCqDamCoreImplCacheCQBuffereTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqDamCoreImplCacheCQBuffere comDayCqDamCoreImplCacheCQBufferedImageCacheProperties = new OASComDayCqDamCoreImplCacheCQBuffere();
-        Map<String, String> propertyMappings = comDayCqDamCoreImplCacheCQBufferedImageCacheProperties.getPropertyMappings();
-        System.assertEquals('cqDamImageCacheMaxMemory', propertyMappings.get('cq.dam.image.cache.max.memory'));
-        System.assertEquals('cqDamImageCacheMaxAge', propertyMappings.get('cq.dam.image.cache.max.age'));
-        System.assertEquals('cqDamImageCacheMaxDimension', propertyMappings.get('cq.dam.image.cache.max.dimension'));
+        Map<String, String> x-property-mappings = comDayCqDamCoreImplCacheCQBufferedImageCacheProperties.getx-property-mappings();
+        System.assertEquals('cqDamImageCacheMaxMemory', x-property-mappings.get('cq.dam.image.cache.max.memory'));
+        System.assertEquals('cqDamImageCacheMaxAge', x-property-mappings.get('cq.dam.image.cache.max.age'));
+        System.assertEquals('cqDamImageCacheMaxDimension', x-property-mappings.get('cq.dam.image.cache.max.dimension'));
     }
 }

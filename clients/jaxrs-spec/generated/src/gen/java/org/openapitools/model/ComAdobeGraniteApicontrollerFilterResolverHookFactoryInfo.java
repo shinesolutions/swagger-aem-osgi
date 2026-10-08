@@ -1,23 +1,34 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comAdobeGraniteApicontrollerFilterResolverHookFactoryInfo")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryInfo   {
-  
-  private @Valid String pid = null;
-  private @Valid String title = null;
-  private @Valid String description = null;
-  private @Valid ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties properties = null;
-  private @Valid String bundleLocation = null;
-  private @Valid String serviceLocation = null;
+  private String pid;
+  private String title;
+  private String description;
+  private ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties properties;
+  private String bundleLocation;
+  private String serviceLocation;
+
+  public ComAdobeGraniteApicontrollerFilterResolverHookFactoryInfo() {
+  }
 
   /**
    **/
@@ -32,6 +43,8 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryInfo   {
   public String getPid() {
     return pid;
   }
+
+  @JsonProperty("pid")
   public void setPid(String pid) {
     this.pid = pid;
   }
@@ -49,6 +62,8 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryInfo   {
   public String getTitle() {
     return title;
   }
+
+  @JsonProperty("title")
   public void setTitle(String title) {
     this.title = title;
   }
@@ -66,6 +81,8 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryInfo   {
   public String getDescription() {
     return description;
   }
+
+  @JsonProperty("description")
   public void setDescription(String description) {
     this.description = description;
   }
@@ -80,9 +97,11 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryInfo   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("properties")
-  public ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties getProperties() {
+  @Valid public ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties getProperties() {
     return properties;
   }
+
+  @JsonProperty("properties")
   public void setProperties(ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties properties) {
     this.properties = properties;
   }
@@ -100,6 +119,8 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryInfo   {
   public String getBundleLocation() {
     return bundleLocation;
   }
+
+  @JsonProperty("bundle_location")
   public void setBundleLocation(String bundleLocation) {
     this.bundleLocation = bundleLocation;
   }
@@ -117,13 +138,15 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryInfo   {
   public String getServiceLocation() {
     return serviceLocation;
   }
+
+  @JsonProperty("service_location")
   public void setServiceLocation(String serviceLocation) {
     this.serviceLocation = serviceLocation;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -131,12 +154,12 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryInfo   {
       return false;
     }
     ComAdobeGraniteApicontrollerFilterResolverHookFactoryInfo comAdobeGraniteApicontrollerFilterResolverHookFactoryInfo = (ComAdobeGraniteApicontrollerFilterResolverHookFactoryInfo) o;
-    return Objects.equals(pid, comAdobeGraniteApicontrollerFilterResolverHookFactoryInfo.pid) &&
-        Objects.equals(title, comAdobeGraniteApicontrollerFilterResolverHookFactoryInfo.title) &&
-        Objects.equals(description, comAdobeGraniteApicontrollerFilterResolverHookFactoryInfo.description) &&
-        Objects.equals(properties, comAdobeGraniteApicontrollerFilterResolverHookFactoryInfo.properties) &&
-        Objects.equals(bundleLocation, comAdobeGraniteApicontrollerFilterResolverHookFactoryInfo.bundleLocation) &&
-        Objects.equals(serviceLocation, comAdobeGraniteApicontrollerFilterResolverHookFactoryInfo.serviceLocation);
+    return Objects.equals(this.pid, comAdobeGraniteApicontrollerFilterResolverHookFactoryInfo.pid) &&
+        Objects.equals(this.title, comAdobeGraniteApicontrollerFilterResolverHookFactoryInfo.title) &&
+        Objects.equals(this.description, comAdobeGraniteApicontrollerFilterResolverHookFactoryInfo.description) &&
+        Objects.equals(this.properties, comAdobeGraniteApicontrollerFilterResolverHookFactoryInfo.properties) &&
+        Objects.equals(this.bundleLocation, comAdobeGraniteApicontrollerFilterResolverHookFactoryInfo.bundleLocation) &&
+        Objects.equals(this.serviceLocation, comAdobeGraniteApicontrollerFilterResolverHookFactoryInfo.serviceLocation);
   }
 
   @Override
@@ -163,11 +186,9 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryInfo   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

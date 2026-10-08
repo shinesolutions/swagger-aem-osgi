@@ -1,41 +1,52 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComDayCqStatisticsImplStatisticsServiceImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComDayCqStatisticsImplStatisticsServiceImplProperties   {
-  @JsonProperty("scheduler.period")
-  private ConfigNodePropertyInteger schedulerPeriod = null;
+@JsonTypeName("comDayCqStatisticsImplStatisticsServiceImplProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComDayCqStatisticsImplStatisticsServiceImplProperties {
 
-  @JsonProperty("scheduler.concurrent")
-  private ConfigNodePropertyBoolean schedulerConcurrent = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger schedulerPeriod;
 
-  @JsonProperty("path")
-  private ConfigNodePropertyString path = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean schedulerConcurrent;
 
-  @JsonProperty("workspace")
-  private ConfigNodePropertyString workspace = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString path;
 
-  @JsonProperty("keywordsPath")
-  private ConfigNodePropertyString keywordsPath = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString workspace;
 
-  @JsonProperty("asyncEntries")
-  private ConfigNodePropertyBoolean asyncEntries = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString keywordsPath;
 
-  public ComDayCqStatisticsImplStatisticsServiceImplProperties schedulerPeriod(ConfigNodePropertyInteger schedulerPeriod) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean asyncEntries;
+
+  public ComDayCqStatisticsImplStatisticsServiceImplProperties schedulerPeriod(@Nullable ConfigNodePropertyInteger schedulerPeriod) {
     this.schedulerPeriod = schedulerPeriod;
     return this;
   }
@@ -43,20 +54,20 @@ public class ComDayCqStatisticsImplStatisticsServiceImplProperties   {
   /**
    * Get schedulerPeriod
    * @return schedulerPeriod
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getSchedulerPeriod() {
+   */
+  @Valid 
+  @Schema(name = "scheduler.period", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("scheduler.period")
+  public @Nullable ConfigNodePropertyInteger getSchedulerPeriod() {
     return schedulerPeriod;
   }
 
-  public void setSchedulerPeriod(ConfigNodePropertyInteger schedulerPeriod) {
+  @JsonProperty("scheduler.period")
+  public void setSchedulerPeriod(@Nullable ConfigNodePropertyInteger schedulerPeriod) {
     this.schedulerPeriod = schedulerPeriod;
   }
 
-  public ComDayCqStatisticsImplStatisticsServiceImplProperties schedulerConcurrent(ConfigNodePropertyBoolean schedulerConcurrent) {
+  public ComDayCqStatisticsImplStatisticsServiceImplProperties schedulerConcurrent(@Nullable ConfigNodePropertyBoolean schedulerConcurrent) {
     this.schedulerConcurrent = schedulerConcurrent;
     return this;
   }
@@ -64,20 +75,20 @@ public class ComDayCqStatisticsImplStatisticsServiceImplProperties   {
   /**
    * Get schedulerConcurrent
    * @return schedulerConcurrent
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getSchedulerConcurrent() {
+   */
+  @Valid 
+  @Schema(name = "scheduler.concurrent", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("scheduler.concurrent")
+  public @Nullable ConfigNodePropertyBoolean getSchedulerConcurrent() {
     return schedulerConcurrent;
   }
 
-  public void setSchedulerConcurrent(ConfigNodePropertyBoolean schedulerConcurrent) {
+  @JsonProperty("scheduler.concurrent")
+  public void setSchedulerConcurrent(@Nullable ConfigNodePropertyBoolean schedulerConcurrent) {
     this.schedulerConcurrent = schedulerConcurrent;
   }
 
-  public ComDayCqStatisticsImplStatisticsServiceImplProperties path(ConfigNodePropertyString path) {
+  public ComDayCqStatisticsImplStatisticsServiceImplProperties path(@Nullable ConfigNodePropertyString path) {
     this.path = path;
     return this;
   }
@@ -85,20 +96,20 @@ public class ComDayCqStatisticsImplStatisticsServiceImplProperties   {
   /**
    * Get path
    * @return path
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getPath() {
+   */
+  @Valid 
+  @Schema(name = "path", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("path")
+  public @Nullable ConfigNodePropertyString getPath() {
     return path;
   }
 
-  public void setPath(ConfigNodePropertyString path) {
+  @JsonProperty("path")
+  public void setPath(@Nullable ConfigNodePropertyString path) {
     this.path = path;
   }
 
-  public ComDayCqStatisticsImplStatisticsServiceImplProperties workspace(ConfigNodePropertyString workspace) {
+  public ComDayCqStatisticsImplStatisticsServiceImplProperties workspace(@Nullable ConfigNodePropertyString workspace) {
     this.workspace = workspace;
     return this;
   }
@@ -106,20 +117,20 @@ public class ComDayCqStatisticsImplStatisticsServiceImplProperties   {
   /**
    * Get workspace
    * @return workspace
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getWorkspace() {
+   */
+  @Valid 
+  @Schema(name = "workspace", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("workspace")
+  public @Nullable ConfigNodePropertyString getWorkspace() {
     return workspace;
   }
 
-  public void setWorkspace(ConfigNodePropertyString workspace) {
+  @JsonProperty("workspace")
+  public void setWorkspace(@Nullable ConfigNodePropertyString workspace) {
     this.workspace = workspace;
   }
 
-  public ComDayCqStatisticsImplStatisticsServiceImplProperties keywordsPath(ConfigNodePropertyString keywordsPath) {
+  public ComDayCqStatisticsImplStatisticsServiceImplProperties keywordsPath(@Nullable ConfigNodePropertyString keywordsPath) {
     this.keywordsPath = keywordsPath;
     return this;
   }
@@ -127,20 +138,20 @@ public class ComDayCqStatisticsImplStatisticsServiceImplProperties   {
   /**
    * Get keywordsPath
    * @return keywordsPath
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getKeywordsPath() {
+   */
+  @Valid 
+  @Schema(name = "keywordsPath", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("keywordsPath")
+  public @Nullable ConfigNodePropertyString getKeywordsPath() {
     return keywordsPath;
   }
 
-  public void setKeywordsPath(ConfigNodePropertyString keywordsPath) {
+  @JsonProperty("keywordsPath")
+  public void setKeywordsPath(@Nullable ConfigNodePropertyString keywordsPath) {
     this.keywordsPath = keywordsPath;
   }
 
-  public ComDayCqStatisticsImplStatisticsServiceImplProperties asyncEntries(ConfigNodePropertyBoolean asyncEntries) {
+  public ComDayCqStatisticsImplStatisticsServiceImplProperties asyncEntries(@Nullable ConfigNodePropertyBoolean asyncEntries) {
     this.asyncEntries = asyncEntries;
     return this;
   }
@@ -148,22 +159,21 @@ public class ComDayCqStatisticsImplStatisticsServiceImplProperties   {
   /**
    * Get asyncEntries
    * @return asyncEntries
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getAsyncEntries() {
+   */
+  @Valid 
+  @Schema(name = "asyncEntries", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("asyncEntries")
+  public @Nullable ConfigNodePropertyBoolean getAsyncEntries() {
     return asyncEntries;
   }
 
-  public void setAsyncEntries(ConfigNodePropertyBoolean asyncEntries) {
+  @JsonProperty("asyncEntries")
+  public void setAsyncEntries(@Nullable ConfigNodePropertyBoolean asyncEntries) {
     this.asyncEntries = asyncEntries;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -188,7 +198,6 @@ public class ComDayCqStatisticsImplStatisticsServiceImplProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComDayCqStatisticsImplStatisticsServiceImplProperties {\n");
-    
     sb.append("    schedulerPeriod: ").append(toIndentedString(schedulerPeriod)).append("\n");
     sb.append("    schedulerConcurrent: ").append(toIndentedString(schedulerConcurrent)).append("\n");
     sb.append("    path: ").append(toIndentedString(path)).append("\n");
@@ -203,11 +212,8 @@ public class ComDayCqStatisticsImplStatisticsServiceImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

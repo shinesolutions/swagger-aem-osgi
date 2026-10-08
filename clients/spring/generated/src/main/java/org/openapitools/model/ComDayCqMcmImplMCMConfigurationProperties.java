@@ -1,27 +1,38 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComDayCqMcmImplMCMConfigurationProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComDayCqMcmImplMCMConfigurationProperties   {
-  @JsonProperty("experience.indirection")
-  private ConfigNodePropertyArray experienceIndirection = null;
+@JsonTypeName("comDayCqMcmImplMCMConfigurationProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComDayCqMcmImplMCMConfigurationProperties {
 
-  @JsonProperty("touchpoint.indirection")
-  private ConfigNodePropertyArray touchpointIndirection = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray experienceIndirection;
 
-  public ComDayCqMcmImplMCMConfigurationProperties experienceIndirection(ConfigNodePropertyArray experienceIndirection) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray touchpointIndirection;
+
+  public ComDayCqMcmImplMCMConfigurationProperties experienceIndirection(@Nullable ConfigNodePropertyArray experienceIndirection) {
     this.experienceIndirection = experienceIndirection;
     return this;
   }
@@ -29,20 +40,20 @@ public class ComDayCqMcmImplMCMConfigurationProperties   {
   /**
    * Get experienceIndirection
    * @return experienceIndirection
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getExperienceIndirection() {
+   */
+  @Valid 
+  @Schema(name = "experience.indirection", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("experience.indirection")
+  public @Nullable ConfigNodePropertyArray getExperienceIndirection() {
     return experienceIndirection;
   }
 
-  public void setExperienceIndirection(ConfigNodePropertyArray experienceIndirection) {
+  @JsonProperty("experience.indirection")
+  public void setExperienceIndirection(@Nullable ConfigNodePropertyArray experienceIndirection) {
     this.experienceIndirection = experienceIndirection;
   }
 
-  public ComDayCqMcmImplMCMConfigurationProperties touchpointIndirection(ConfigNodePropertyArray touchpointIndirection) {
+  public ComDayCqMcmImplMCMConfigurationProperties touchpointIndirection(@Nullable ConfigNodePropertyArray touchpointIndirection) {
     this.touchpointIndirection = touchpointIndirection;
     return this;
   }
@@ -50,22 +61,21 @@ public class ComDayCqMcmImplMCMConfigurationProperties   {
   /**
    * Get touchpointIndirection
    * @return touchpointIndirection
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getTouchpointIndirection() {
+   */
+  @Valid 
+  @Schema(name = "touchpoint.indirection", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("touchpoint.indirection")
+  public @Nullable ConfigNodePropertyArray getTouchpointIndirection() {
     return touchpointIndirection;
   }
 
-  public void setTouchpointIndirection(ConfigNodePropertyArray touchpointIndirection) {
+  @JsonProperty("touchpoint.indirection")
+  public void setTouchpointIndirection(@Nullable ConfigNodePropertyArray touchpointIndirection) {
     this.touchpointIndirection = touchpointIndirection;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -86,7 +96,6 @@ public class ComDayCqMcmImplMCMConfigurationProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComDayCqMcmImplMCMConfigurationProperties {\n");
-    
     sb.append("    experienceIndirection: ").append(toIndentedString(experienceIndirection)).append("\n");
     sb.append("    touchpointIndirection: ").append(toIndentedString(touchpointIndirection)).append("\n");
     sb.append("}");
@@ -97,11 +106,8 @@ public class ComDayCqMcmImplMCMConfigurationProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

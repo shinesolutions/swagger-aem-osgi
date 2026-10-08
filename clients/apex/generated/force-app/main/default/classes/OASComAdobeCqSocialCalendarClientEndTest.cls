@@ -72,7 +72,7 @@ private class OASComAdobeCqSocialCalendarClientEndTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeCqSocialCalendarClientEnd comAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsIProperties = new OASComAdobeCqSocialCalendarClientEnd();
-        Map<String, String> propertyMappings = comAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsIProperties.getPropertyMappings();
-        System.assertEquals('maxRetry', propertyMappings.get('MaxRetry'));
+        Map<String, String> x-property-mappings = comAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsIProperties.getx-property-mappings();
+        System.assertEquals('maxRetry', x-property-mappings.get('MaxRetry'));
     }
 }

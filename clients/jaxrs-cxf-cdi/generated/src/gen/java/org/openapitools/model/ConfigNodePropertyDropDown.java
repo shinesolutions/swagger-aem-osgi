@@ -2,31 +2,33 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
+import org.openapitools.jackson.nullable.JsonNullable;
 import org.openapitools.model.ConfigNodePropertyDropDownType;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class ConfigNodePropertyDropDown   {
   
-  private String name = null;
+  private String name;
 
-  private Boolean optional = null;
+  private Boolean optional;
 
-  private Boolean isSet = null;
+  private Boolean isSet;
 
-  private ConfigNodePropertyDropDownType type = null;
+  private ConfigNodePropertyDropDownType type;
 
   private Object value = null;
 
-  private String description = null;
-
+  private String description;
 
   /**
    * property name
@@ -143,7 +145,7 @@ public class ConfigNodePropertyDropDown   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -151,12 +153,12 @@ public class ConfigNodePropertyDropDown   {
       return false;
     }
     ConfigNodePropertyDropDown configNodePropertyDropDown = (ConfigNodePropertyDropDown) o;
-    return Objects.equals(name, configNodePropertyDropDown.name) &&
-        Objects.equals(optional, configNodePropertyDropDown.optional) &&
-        Objects.equals(isSet, configNodePropertyDropDown.isSet) &&
-        Objects.equals(type, configNodePropertyDropDown.type) &&
-        Objects.equals(value, configNodePropertyDropDown.value) &&
-        Objects.equals(description, configNodePropertyDropDown.description);
+    return Objects.equals(this.name, configNodePropertyDropDown.name) &&
+        Objects.equals(this.optional, configNodePropertyDropDown.optional) &&
+        Objects.equals(this.isSet, configNodePropertyDropDown.isSet) &&
+        Objects.equals(this.type, configNodePropertyDropDown.type) &&
+        Objects.equals(this.value, configNodePropertyDropDown.value) &&
+        Objects.equals(this.description, configNodePropertyDropDown.description);
   }
 
   @Override
@@ -183,11 +185,8 @@ public class ConfigNodePropertyDropDown   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

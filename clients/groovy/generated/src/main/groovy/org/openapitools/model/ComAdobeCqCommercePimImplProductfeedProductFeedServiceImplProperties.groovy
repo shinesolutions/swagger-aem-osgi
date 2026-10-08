@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyDropDown;
 
 @Canonical
 class ComAdobeCqCommercePimImplProductfeedProductFeedServiceImplProperties {
-    ConfigNodePropertyDropDown feedGeneratorAlgorithm = null
-
+    
+    ConfigNodePropertyDropDown feedGeneratorAlgorithm
 }

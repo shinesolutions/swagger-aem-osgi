@@ -7,16 +7,16 @@ import org.openapitools.model.OrgApacheSlingCaconfigResourceImplDefDefaultConfig
 
 @Canonical
 class OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourProperties properties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourProperties properties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

@@ -7,12 +7,12 @@ import org.openapitools.model.OrgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStat
 
 @Canonical
 class OrgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersProperties properties
 }

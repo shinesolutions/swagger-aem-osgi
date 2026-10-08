@@ -5,40 +5,43 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
 
 import io.swagger.annotations.ApiModelProperty;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlType;
-import javax.xml.bind.annotation.XmlEnum;
-import javax.xml.bind.annotation.XmlEnumValue;
+import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
 
 public class ComDayCqMailerDefaultMailServiceProperties  {
   
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString smtpHost = null;
+
+  private ConfigNodePropertyString smtpHost;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyInteger smtpPort = null;
+
+  private ConfigNodePropertyInteger smtpPort;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString smtpUser = null;
+
+  private ConfigNodePropertyString smtpUser;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString smtpPassword = null;
+
+  private ConfigNodePropertyString smtpPassword;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString fromAddress = null;
+
+  private ConfigNodePropertyString fromAddress;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyBoolean smtpSsl = null;
+
+  private ConfigNodePropertyBoolean smtpSsl;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyBoolean smtpStarttls = null;
+
+  private ConfigNodePropertyBoolean smtpStarttls;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyBoolean debugEmail = null;
+
+  private ConfigNodePropertyBoolean debugEmail;
  /**
    * Get smtpHost
    * @return smtpHost
@@ -183,6 +186,29 @@ public class ComDayCqMailerDefaultMailServiceProperties  {
     return this;
   }
 
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    ComDayCqMailerDefaultMailServiceProperties comDayCqMailerDefaultMailServiceProperties = (ComDayCqMailerDefaultMailServiceProperties) o;
+    return Objects.equals(this.smtpHost, comDayCqMailerDefaultMailServiceProperties.smtpHost) &&
+        Objects.equals(this.smtpPort, comDayCqMailerDefaultMailServiceProperties.smtpPort) &&
+        Objects.equals(this.smtpUser, comDayCqMailerDefaultMailServiceProperties.smtpUser) &&
+        Objects.equals(this.smtpPassword, comDayCqMailerDefaultMailServiceProperties.smtpPassword) &&
+        Objects.equals(this.fromAddress, comDayCqMailerDefaultMailServiceProperties.fromAddress) &&
+        Objects.equals(this.smtpSsl, comDayCqMailerDefaultMailServiceProperties.smtpSsl) &&
+        Objects.equals(this.smtpStarttls, comDayCqMailerDefaultMailServiceProperties.smtpStarttls) &&
+        Objects.equals(this.debugEmail, comDayCqMailerDefaultMailServiceProperties.debugEmail);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(smtpHost, smtpPort, smtpUser, smtpPassword, fromAddress, smtpSsl, smtpStarttls, debugEmail);
+  }
 
   @Override
   public String toString() {
@@ -205,11 +231,8 @@ public class ComDayCqMailerDefaultMailServiceProperties  {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private static String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -3,47 +3,68 @@ package apimodels;
 import apimodels.ConfigNodePropertyArray;
 import apimodels.ConfigNodePropertyBoolean;
 import apimodels.ConfigNodePropertyString;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletProperties   {
   @JsonProperty("dav.root")
-  private ConfigNodePropertyString davRoot = null;
+  @Valid
+
+  private ConfigNodePropertyString davRoot;
 
   @JsonProperty("dav.create-absolute-uri")
-  private ConfigNodePropertyBoolean davCreateAbsoluteUri = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean davCreateAbsoluteUri;
 
   @JsonProperty("dav.realm")
-  private ConfigNodePropertyString davRealm = null;
+  @Valid
+
+  private ConfigNodePropertyString davRealm;
 
   @JsonProperty("collection.types")
-  private ConfigNodePropertyArray collectionTypes = null;
+  @Valid
+
+  private ConfigNodePropertyArray collectionTypes;
 
   @JsonProperty("filter.prefixes")
-  private ConfigNodePropertyArray filterPrefixes = null;
+  @Valid
+
+  private ConfigNodePropertyArray filterPrefixes;
 
   @JsonProperty("filter.types")
-  private ConfigNodePropertyString filterTypes = null;
+  @Valid
+
+  private ConfigNodePropertyString filterTypes;
 
   @JsonProperty("filter.uris")
-  private ConfigNodePropertyString filterUris = null;
+  @Valid
+
+  private ConfigNodePropertyString filterUris;
 
   @JsonProperty("type.collections")
-  private ConfigNodePropertyString typeCollections = null;
+  @Valid
+
+  private ConfigNodePropertyString typeCollections;
 
   @JsonProperty("type.noncollections")
-  private ConfigNodePropertyString typeNoncollections = null;
+  @Valid
+
+  private ConfigNodePropertyString typeNoncollections;
 
   @JsonProperty("type.content")
-  private ConfigNodePropertyString typeContent = null;
+  @Valid
+
+  private ConfigNodePropertyString typeContent;
 
   public OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletProperties davRoot(ConfigNodePropertyString davRoot) {
     this.davRoot = davRoot;
@@ -54,7 +75,6 @@ public class OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletProperties   
    * Get davRoot
    * @return davRoot
   **/
-  @Valid
   public ConfigNodePropertyString getDavRoot() {
     return davRoot;
   }
@@ -72,7 +92,6 @@ public class OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletProperties   
    * Get davCreateAbsoluteUri
    * @return davCreateAbsoluteUri
   **/
-  @Valid
   public ConfigNodePropertyBoolean getDavCreateAbsoluteUri() {
     return davCreateAbsoluteUri;
   }
@@ -90,7 +109,6 @@ public class OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletProperties   
    * Get davRealm
    * @return davRealm
   **/
-  @Valid
   public ConfigNodePropertyString getDavRealm() {
     return davRealm;
   }
@@ -108,7 +126,6 @@ public class OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletProperties   
    * Get collectionTypes
    * @return collectionTypes
   **/
-  @Valid
   public ConfigNodePropertyArray getCollectionTypes() {
     return collectionTypes;
   }
@@ -126,7 +143,6 @@ public class OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletProperties   
    * Get filterPrefixes
    * @return filterPrefixes
   **/
-  @Valid
   public ConfigNodePropertyArray getFilterPrefixes() {
     return filterPrefixes;
   }
@@ -144,7 +160,6 @@ public class OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletProperties   
    * Get filterTypes
    * @return filterTypes
   **/
-  @Valid
   public ConfigNodePropertyString getFilterTypes() {
     return filterTypes;
   }
@@ -162,7 +177,6 @@ public class OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletProperties   
    * Get filterUris
    * @return filterUris
   **/
-  @Valid
   public ConfigNodePropertyString getFilterUris() {
     return filterUris;
   }
@@ -180,7 +194,6 @@ public class OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletProperties   
    * Get typeCollections
    * @return typeCollections
   **/
-  @Valid
   public ConfigNodePropertyString getTypeCollections() {
     return typeCollections;
   }
@@ -198,7 +211,6 @@ public class OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletProperties   
    * Get typeNoncollections
    * @return typeNoncollections
   **/
-  @Valid
   public ConfigNodePropertyString getTypeNoncollections() {
     return typeNoncollections;
   }
@@ -216,7 +228,6 @@ public class OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletProperties   
    * Get typeContent
    * @return typeContent
   **/
-  @Valid
   public ConfigNodePropertyString getTypeContent() {
     return typeContent;
   }
@@ -227,7 +238,7 @@ public class OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletProperties   
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -276,11 +287,8 @@ public class OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletProperties   
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeAemFormsndocumentsConfigAEMFormsManagerCon
 
 @Canonical
 class ComAdobeAemFormsndocumentsConfigAEMFormsManagerConfigurationInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeAemFormsndocumentsConfigAEMFormsManagerConfigurationProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeAemFormsndocumentsConfigAEMFormsManagerConfigurationProperties properties
 }

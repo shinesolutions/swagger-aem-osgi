@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyArray;
 
 @Canonical
 class ComAdobeGraniteMaintenanceCrxImplRevisionCleanupTaskProperties {
-    ConfigNodePropertyArray fullGcDays = null
-
+    
+    ConfigNodePropertyArray fullGcDays
 }

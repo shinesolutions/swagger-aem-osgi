@@ -1,34 +1,45 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * OrgApacheFelixHttpSslfilterSslFilterProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class OrgApacheFelixHttpSslfilterSslFilterProperties   {
-  @JsonProperty("ssl-forward.header")
-  private ConfigNodePropertyString sslForwardHeader = null;
+@JsonTypeName("orgApacheFelixHttpSslfilterSslFilterProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class OrgApacheFelixHttpSslfilterSslFilterProperties {
 
-  @JsonProperty("ssl-forward.value")
-  private ConfigNodePropertyString sslForwardValue = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString sslForwardHeader;
 
-  @JsonProperty("ssl-forward-cert.header")
-  private ConfigNodePropertyString sslForwardCertHeader = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString sslForwardValue;
 
-  @JsonProperty("rewrite.absolute.urls")
-  private ConfigNodePropertyBoolean rewriteAbsoluteUrls = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString sslForwardCertHeader;
 
-  public OrgApacheFelixHttpSslfilterSslFilterProperties sslForwardHeader(ConfigNodePropertyString sslForwardHeader) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean rewriteAbsoluteUrls;
+
+  public OrgApacheFelixHttpSslfilterSslFilterProperties sslForwardHeader(@Nullable ConfigNodePropertyString sslForwardHeader) {
     this.sslForwardHeader = sslForwardHeader;
     return this;
   }
@@ -36,20 +47,20 @@ public class OrgApacheFelixHttpSslfilterSslFilterProperties   {
   /**
    * Get sslForwardHeader
    * @return sslForwardHeader
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getSslForwardHeader() {
+   */
+  @Valid 
+  @Schema(name = "ssl-forward.header", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("ssl-forward.header")
+  public @Nullable ConfigNodePropertyString getSslForwardHeader() {
     return sslForwardHeader;
   }
 
-  public void setSslForwardHeader(ConfigNodePropertyString sslForwardHeader) {
+  @JsonProperty("ssl-forward.header")
+  public void setSslForwardHeader(@Nullable ConfigNodePropertyString sslForwardHeader) {
     this.sslForwardHeader = sslForwardHeader;
   }
 
-  public OrgApacheFelixHttpSslfilterSslFilterProperties sslForwardValue(ConfigNodePropertyString sslForwardValue) {
+  public OrgApacheFelixHttpSslfilterSslFilterProperties sslForwardValue(@Nullable ConfigNodePropertyString sslForwardValue) {
     this.sslForwardValue = sslForwardValue;
     return this;
   }
@@ -57,20 +68,20 @@ public class OrgApacheFelixHttpSslfilterSslFilterProperties   {
   /**
    * Get sslForwardValue
    * @return sslForwardValue
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getSslForwardValue() {
+   */
+  @Valid 
+  @Schema(name = "ssl-forward.value", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("ssl-forward.value")
+  public @Nullable ConfigNodePropertyString getSslForwardValue() {
     return sslForwardValue;
   }
 
-  public void setSslForwardValue(ConfigNodePropertyString sslForwardValue) {
+  @JsonProperty("ssl-forward.value")
+  public void setSslForwardValue(@Nullable ConfigNodePropertyString sslForwardValue) {
     this.sslForwardValue = sslForwardValue;
   }
 
-  public OrgApacheFelixHttpSslfilterSslFilterProperties sslForwardCertHeader(ConfigNodePropertyString sslForwardCertHeader) {
+  public OrgApacheFelixHttpSslfilterSslFilterProperties sslForwardCertHeader(@Nullable ConfigNodePropertyString sslForwardCertHeader) {
     this.sslForwardCertHeader = sslForwardCertHeader;
     return this;
   }
@@ -78,20 +89,20 @@ public class OrgApacheFelixHttpSslfilterSslFilterProperties   {
   /**
    * Get sslForwardCertHeader
    * @return sslForwardCertHeader
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getSslForwardCertHeader() {
+   */
+  @Valid 
+  @Schema(name = "ssl-forward-cert.header", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("ssl-forward-cert.header")
+  public @Nullable ConfigNodePropertyString getSslForwardCertHeader() {
     return sslForwardCertHeader;
   }
 
-  public void setSslForwardCertHeader(ConfigNodePropertyString sslForwardCertHeader) {
+  @JsonProperty("ssl-forward-cert.header")
+  public void setSslForwardCertHeader(@Nullable ConfigNodePropertyString sslForwardCertHeader) {
     this.sslForwardCertHeader = sslForwardCertHeader;
   }
 
-  public OrgApacheFelixHttpSslfilterSslFilterProperties rewriteAbsoluteUrls(ConfigNodePropertyBoolean rewriteAbsoluteUrls) {
+  public OrgApacheFelixHttpSslfilterSslFilterProperties rewriteAbsoluteUrls(@Nullable ConfigNodePropertyBoolean rewriteAbsoluteUrls) {
     this.rewriteAbsoluteUrls = rewriteAbsoluteUrls;
     return this;
   }
@@ -99,22 +110,21 @@ public class OrgApacheFelixHttpSslfilterSslFilterProperties   {
   /**
    * Get rewriteAbsoluteUrls
    * @return rewriteAbsoluteUrls
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getRewriteAbsoluteUrls() {
+   */
+  @Valid 
+  @Schema(name = "rewrite.absolute.urls", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("rewrite.absolute.urls")
+  public @Nullable ConfigNodePropertyBoolean getRewriteAbsoluteUrls() {
     return rewriteAbsoluteUrls;
   }
 
-  public void setRewriteAbsoluteUrls(ConfigNodePropertyBoolean rewriteAbsoluteUrls) {
+  @JsonProperty("rewrite.absolute.urls")
+  public void setRewriteAbsoluteUrls(@Nullable ConfigNodePropertyBoolean rewriteAbsoluteUrls) {
     this.rewriteAbsoluteUrls = rewriteAbsoluteUrls;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -137,7 +147,6 @@ public class OrgApacheFelixHttpSslfilterSslFilterProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class OrgApacheFelixHttpSslfilterSslFilterProperties {\n");
-    
     sb.append("    sslForwardHeader: ").append(toIndentedString(sslForwardHeader)).append("\n");
     sb.append("    sslForwardValue: ").append(toIndentedString(sslForwardValue)).append("\n");
     sb.append("    sslForwardCertHeader: ").append(toIndentedString(sslForwardCertHeader)).append("\n");
@@ -150,11 +159,8 @@ public class OrgApacheFelixHttpSslfilterSslFilterProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

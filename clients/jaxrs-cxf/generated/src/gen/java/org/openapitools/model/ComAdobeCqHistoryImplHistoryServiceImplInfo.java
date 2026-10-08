@@ -1,42 +1,46 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ComAdobeCqHistoryImplHistoryServiceImplProperties;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
 import io.swagger.annotations.ApiModelProperty;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlType;
-import javax.xml.bind.annotation.XmlEnum;
-import javax.xml.bind.annotation.XmlEnumValue;
+import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
 
 public class ComAdobeCqHistoryImplHistoryServiceImplInfo  {
   
   @ApiModelProperty(value = "")
-  private String pid = null;
+
+  private String pid;
 
   @ApiModelProperty(value = "")
-  private String title = null;
+
+  private String title;
 
   @ApiModelProperty(value = "")
-  private String description = null;
+
+  private String description;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ComAdobeCqHistoryImplHistoryServiceImplProperties properties = null;
+
+  private ComAdobeCqHistoryImplHistoryServiceImplProperties properties;
 
   @ApiModelProperty(value = "")
-  private String additionalProperties = null;
+
+  private String additionalProperties;
 
   @ApiModelProperty(value = "")
-  private String bundleLocation = null;
+
+  private String bundleLocation;
 
   @ApiModelProperty(value = "")
-  private String serviceLocation = null;
+
+  private String serviceLocation;
  /**
    * Get pid
    * @return pid
@@ -163,6 +167,28 @@ public class ComAdobeCqHistoryImplHistoryServiceImplInfo  {
     return this;
   }
 
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    ComAdobeCqHistoryImplHistoryServiceImplInfo comAdobeCqHistoryImplHistoryServiceImplInfo = (ComAdobeCqHistoryImplHistoryServiceImplInfo) o;
+    return Objects.equals(this.pid, comAdobeCqHistoryImplHistoryServiceImplInfo.pid) &&
+        Objects.equals(this.title, comAdobeCqHistoryImplHistoryServiceImplInfo.title) &&
+        Objects.equals(this.description, comAdobeCqHistoryImplHistoryServiceImplInfo.description) &&
+        Objects.equals(this.properties, comAdobeCqHistoryImplHistoryServiceImplInfo.properties) &&
+        Objects.equals(this.additionalProperties, comAdobeCqHistoryImplHistoryServiceImplInfo.additionalProperties) &&
+        Objects.equals(this.bundleLocation, comAdobeCqHistoryImplHistoryServiceImplInfo.bundleLocation) &&
+        Objects.equals(this.serviceLocation, comAdobeCqHistoryImplHistoryServiceImplInfo.serviceLocation);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(pid, title, description, properties, additionalProperties, bundleLocation, serviceLocation);
+  }
 
   @Override
   public String toString() {
@@ -184,11 +210,8 @@ public class ComAdobeCqHistoryImplHistoryServiceImplInfo  {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private static String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

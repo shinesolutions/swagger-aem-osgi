@@ -1,7 +1,9 @@
 
+
 # ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **cqContentsyncPathrewritertransformerMappingLinks** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
@@ -10,6 +12,7 @@ Name | Type | Description | Notes
 **cqContentsyncPathrewritertransformerAttributePattern** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
 **cqContentsyncPathrewritertransformerClientlibraryPattern** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
 **cqContentsyncPathrewritertransformerClientlibraryReplace** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
+
 
 
 

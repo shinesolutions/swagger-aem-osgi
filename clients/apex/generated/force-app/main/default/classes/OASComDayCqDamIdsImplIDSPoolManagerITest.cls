@@ -72,12 +72,12 @@ private class OASComDayCqDamIdsImplIDSPoolManagerITest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqDamIdsImplIDSPoolManagerI comDayCqDamIdsImplIDSPoolManagerImplProperties = new OASComDayCqDamIdsImplIDSPoolManagerI();
-        Map<String, String> propertyMappings = comDayCqDamIdsImplIDSPoolManagerImplProperties.getPropertyMappings();
-        System.assertEquals('maxErrorsToBlacklist', propertyMappings.get('max.errors.to.blacklist'));
-        System.assertEquals('retryIntervalToWhitelist', propertyMappings.get('retry.interval.to.whitelist'));
-        System.assertEquals('connectTimeout', propertyMappings.get('connect.timeout'));
-        System.assertEquals('socketTimeout', propertyMappings.get('socket.timeout'));
-        System.assertEquals('processLabel', propertyMappings.get('process.label'));
-        System.assertEquals('connectionUseMax', propertyMappings.get('connection.use.max'));
+        Map<String, String> x-property-mappings = comDayCqDamIdsImplIDSPoolManagerImplProperties.getx-property-mappings();
+        System.assertEquals('maxErrorsToBlacklist', x-property-mappings.get('max.errors.to.blacklist'));
+        System.assertEquals('retryIntervalToWhitelist', x-property-mappings.get('retry.interval.to.whitelist'));
+        System.assertEquals('connectTimeout', x-property-mappings.get('connect.timeout'));
+        System.assertEquals('socketTimeout', x-property-mappings.get('socket.timeout'));
+        System.assertEquals('processLabel', x-property-mappings.get('process.label'));
+        System.assertEquals('connectionUseMax', x-property-mappings.get('connection.use.max'));
     }
 }

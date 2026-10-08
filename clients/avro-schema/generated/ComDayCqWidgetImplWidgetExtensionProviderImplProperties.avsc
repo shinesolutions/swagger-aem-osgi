@@ -1,0 +1,21 @@
+{
+  "namespace": "model",
+  "type": "record",
+  "doc": "",
+  "name": "ComDayCqWidgetImplWidgetExtensionProviderImplProperties",
+  "fields": [
+    {
+      "name": "extendable.widgets",
+      "type": ["null", "model.ConfigNodePropertyArray"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "widgetextensionprovider.debug",
+      "type": ["null", "model.ConfigNodePropertyBoolean"],
+      "doc": "",
+      "default": null
+    }
+  ]
+
+}

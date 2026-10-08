@@ -1,20 +1,31 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comDayCqDamCoreImplProcessTextExtractionProcessProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqDamCoreImplProcessTextExtractionProcessProperties   {
-  
-  private @Valid ConfigNodePropertyArray mimeTypes = null;
-  private @Valid ConfigNodePropertyInteger maxExtract = null;
+  private ConfigNodePropertyArray mimeTypes;
+  private ConfigNodePropertyInteger maxExtract;
+
+  public ComDayCqDamCoreImplProcessTextExtractionProcessProperties() {
+  }
 
   /**
    **/
@@ -26,9 +37,11 @@ public class ComDayCqDamCoreImplProcessTextExtractionProcessProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("mimeTypes")
-  public ConfigNodePropertyArray getMimeTypes() {
+  @Valid public ConfigNodePropertyArray getMimeTypes() {
     return mimeTypes;
   }
+
+  @JsonProperty("mimeTypes")
   public void setMimeTypes(ConfigNodePropertyArray mimeTypes) {
     this.mimeTypes = mimeTypes;
   }
@@ -43,16 +56,18 @@ public class ComDayCqDamCoreImplProcessTextExtractionProcessProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("maxExtract")
-  public ConfigNodePropertyInteger getMaxExtract() {
+  @Valid public ConfigNodePropertyInteger getMaxExtract() {
     return maxExtract;
   }
+
+  @JsonProperty("maxExtract")
   public void setMaxExtract(ConfigNodePropertyInteger maxExtract) {
     this.maxExtract = maxExtract;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -60,8 +75,8 @@ public class ComDayCqDamCoreImplProcessTextExtractionProcessProperties   {
       return false;
     }
     ComDayCqDamCoreImplProcessTextExtractionProcessProperties comDayCqDamCoreImplProcessTextExtractionProcessProperties = (ComDayCqDamCoreImplProcessTextExtractionProcessProperties) o;
-    return Objects.equals(mimeTypes, comDayCqDamCoreImplProcessTextExtractionProcessProperties.mimeTypes) &&
-        Objects.equals(maxExtract, comDayCqDamCoreImplProcessTextExtractionProcessProperties.maxExtract);
+    return Objects.equals(this.mimeTypes, comDayCqDamCoreImplProcessTextExtractionProcessProperties.mimeTypes) &&
+        Objects.equals(this.maxExtract, comDayCqDamCoreImplProcessTextExtractionProcessProperties.maxExtract);
   }
 
   @Override
@@ -84,11 +99,9 @@ public class ComDayCqDamCoreImplProcessTextExtractionProcessProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

@@ -2,16 +2,17 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**protect_external_id** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **protect_external_id** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrProperties.new(protect_external_id: null)
+instance = SwaggerAemOsgiClient::OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrProperties.new(
+  protect_external_id: null
+)
 ```
-
 

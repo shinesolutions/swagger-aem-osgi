@@ -4,21 +4,25 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2019-08-05T00:59:30.156Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2026-10-07T12:54:21.614735164Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeCqSocialSiteImplSiteConfiguratorImplProperties   {
   
-  private ConfigNodePropertyArray componentsUsingTags = null;
+  private ConfigNodePropertyArray componentsUsingTags;
 
   /**
    **/
   
   @ApiModelProperty(value = "")
   @JsonProperty("componentsUsingTags")
+  @Valid
   public ConfigNodePropertyArray getComponentsUsingTags() {
     return componentsUsingTags;
   }
@@ -28,7 +32,7 @@ public class ComAdobeCqSocialSiteImplSiteConfiguratorImplProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -36,7 +40,7 @@ public class ComAdobeCqSocialSiteImplSiteConfiguratorImplProperties   {
       return false;
     }
     ComAdobeCqSocialSiteImplSiteConfiguratorImplProperties comAdobeCqSocialSiteImplSiteConfiguratorImplProperties = (ComAdobeCqSocialSiteImplSiteConfiguratorImplProperties) o;
-    return Objects.equals(componentsUsingTags, comAdobeCqSocialSiteImplSiteConfiguratorImplProperties.componentsUsingTags);
+    return Objects.equals(this.componentsUsingTags, comAdobeCqSocialSiteImplSiteConfiguratorImplProperties.componentsUsingTags);
   }
 
   @Override
@@ -58,11 +62,8 @@ public class ComAdobeCqSocialSiteImplSiteConfiguratorImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

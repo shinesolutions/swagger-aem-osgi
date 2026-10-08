@@ -5,31 +5,31 @@ import org.openapitools.model.ConfigNodePropertyDropDown;
 import org.openapitools.model.ConfigNodePropertyInteger;
 
 import io.swagger.annotations.ApiModelProperty;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlType;
-import javax.xml.bind.annotation.XmlEnum;
-import javax.xml.bind.annotation.XmlEnumValue;
+import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
 
 public class OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurProperties  {
   
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyDropDown permissionsJr2 = null;
+
+  private ConfigNodePropertyDropDown permissionsJr2;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyDropDown importBehavior = null;
+
+  private ConfigNodePropertyDropDown importBehavior;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyArray readPaths = null;
+
+  private ConfigNodePropertyArray readPaths;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyArray administrativePrincipals = null;
+
+  private ConfigNodePropertyArray administrativePrincipals;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyInteger configurationRanking = null;
+
+  private ConfigNodePropertyInteger configurationRanking;
  /**
    * Get permissionsJr2
    * @return permissionsJr2
@@ -120,6 +120,26 @@ public class OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurPro
     return this;
   }
 
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurProperties orgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurProperties = (OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurProperties) o;
+    return Objects.equals(this.permissionsJr2, orgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurProperties.permissionsJr2) &&
+        Objects.equals(this.importBehavior, orgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurProperties.importBehavior) &&
+        Objects.equals(this.readPaths, orgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurProperties.readPaths) &&
+        Objects.equals(this.administrativePrincipals, orgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurProperties.administrativePrincipals) &&
+        Objects.equals(this.configurationRanking, orgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurProperties.configurationRanking);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(permissionsJr2, importBehavior, readPaths, administrativePrincipals, configurationRanking);
+  }
 
   @Override
   public String toString() {
@@ -139,11 +159,8 @@ public class OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurPro
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private static String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

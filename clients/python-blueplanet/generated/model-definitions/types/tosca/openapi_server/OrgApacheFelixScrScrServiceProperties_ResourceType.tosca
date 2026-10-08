@@ -1,0 +1,63 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheFelixScrScrServiceProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheFelixScrScrServiceProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyDropDown = openapi_server.resourceTypes.ConfigNodePropertyDropDown
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+}
+resourceTypes {
+
+  OrgApacheFelixScrScrServiceProperties {
+    title = OrgApacheFelixScrScrServiceProperties
+    description = OrgApacheFelixScrScrServiceProperties
+    derivedFrom = Root
+    properties {
+        ds_loglevel {
+          type = ConfigNodePropertyDropDown
+          description = ""
+          optional = false
+        }
+        ds_factory_enabled {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        ds_delayed_keep_instances {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        ds_lock_timeout_milliseconds {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        ds_stop_timeout_milliseconds {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        ds_global_extender {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheFelixScrScrServiceProperties {
+    title = OrgApacheFelixScrScrServiceProperties
+    description = OrgApacheFelixScrScrServiceProperties
+    implements = openapi_server.resourceTypes.OrgApacheFelixScrScrServiceProperties
+
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "namespace": "model",
+  "type": "record",
+  "doc": "",
+  "name": "OrgApacheSlingHcCoreImplJmxAttributeHealthCheckProperties",
+  "fields": [
+    {
+      "name": "hc.name",
+      "type": ["null", "model.ConfigNodePropertyString"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "hc.tags",
+      "type": ["null", "model.ConfigNodePropertyArray"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "hc.mbean.name",
+      "type": ["null", "model.ConfigNodePropertyString"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "mbean.name",
+      "type": ["null", "model.ConfigNodePropertyString"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "attribute.name",
+      "type": ["null", "model.ConfigNodePropertyString"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "attribute.value.constraint",
+      "type": ["null", "model.ConfigNodePropertyString"],
+      "doc": "",
+      "default": null
+    }
+  ]
+
+}

@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqSocialCommonsEmailreplyImplYahooEmailClientProviderInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqSocialCommonsEmailreplyImplYahooEmailClientProviderInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComAdobeCqSocialCommonsEmailreplyImplYahooEmailClientProviderProperties = openapi_server.resourceTypes.ComAdobeCqSocialCommonsEmailreplyImplYahooEmailClientProviderProperties
+}
+resourceTypes {
+
+  ComAdobeCqSocialCommonsEmailreplyImplYahooEmailClientProviderInfo {
+    title = ComAdobeCqSocialCommonsEmailreplyImplYahooEmailClientProviderInfo
+    description = ComAdobeCqSocialCommonsEmailreplyImplYahooEmailClientProviderInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComAdobeCqSocialCommonsEmailreplyImplYahooEmailClientProviderProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqSocialCommonsEmailreplyImplYahooEmailClientProviderInfo {
+    title = ComAdobeCqSocialCommonsEmailreplyImplYahooEmailClientProviderInfo
+    description = ComAdobeCqSocialCommonsEmailreplyImplYahooEmailClientProviderInfo
+    implements = openapi_server.resourceTypes.ComAdobeCqSocialCommonsEmailreplyImplYahooEmailClientProviderInfo
+
+  }
+}

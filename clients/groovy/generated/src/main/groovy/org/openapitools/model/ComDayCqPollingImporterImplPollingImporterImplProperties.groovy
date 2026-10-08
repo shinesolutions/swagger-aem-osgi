@@ -9,12 +9,12 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqPollingImporterImplPollingImporterImplProperties {
-    ConfigNodePropertyInteger importerMinInterval = null
-
-    ConfigNodePropertyString importerUser = null
-
-    ConfigNodePropertyArray excludePaths = null
-
-    ConfigNodePropertyArray includePaths = null
-
+    
+    ConfigNodePropertyInteger importerMinInterval
+    
+    ConfigNodePropertyString importerUser
+    
+    ConfigNodePropertyArray excludePaths
+    
+    ConfigNodePropertyArray includePaths
 }

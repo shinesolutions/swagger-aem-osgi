@@ -7,16 +7,16 @@ import org.openapitools.model.OrgApacheSlingCaconfigManagementImplConfigurationM
 
 @Canonical
 class OrgApacheSlingCaconfigManagementImplConfigurationManagementSettiInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheSlingCaconfigManagementImplConfigurationManagementSettiProperties properties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheSlingCaconfigManagementImplConfigurationManagementSettiProperties properties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

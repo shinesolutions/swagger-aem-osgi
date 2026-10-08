@@ -1,41 +1,52 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyDropDown;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * OrgApacheSlingEngineImplLogRequestLoggerProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class OrgApacheSlingEngineImplLogRequestLoggerProperties   {
-  @JsonProperty("request.log.output")
-  private ConfigNodePropertyString requestLogOutput = null;
+@JsonTypeName("orgApacheSlingEngineImplLogRequestLoggerProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class OrgApacheSlingEngineImplLogRequestLoggerProperties {
 
-  @JsonProperty("request.log.outputtype")
-  private ConfigNodePropertyDropDown requestLogOutputtype = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString requestLogOutput;
 
-  @JsonProperty("request.log.enabled")
-  private ConfigNodePropertyBoolean requestLogEnabled = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyDropDown requestLogOutputtype;
 
-  @JsonProperty("access.log.output")
-  private ConfigNodePropertyString accessLogOutput = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean requestLogEnabled;
 
-  @JsonProperty("access.log.outputtype")
-  private ConfigNodePropertyDropDown accessLogOutputtype = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString accessLogOutput;
 
-  @JsonProperty("access.log.enabled")
-  private ConfigNodePropertyBoolean accessLogEnabled = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyDropDown accessLogOutputtype;
 
-  public OrgApacheSlingEngineImplLogRequestLoggerProperties requestLogOutput(ConfigNodePropertyString requestLogOutput) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean accessLogEnabled;
+
+  public OrgApacheSlingEngineImplLogRequestLoggerProperties requestLogOutput(@Nullable ConfigNodePropertyString requestLogOutput) {
     this.requestLogOutput = requestLogOutput;
     return this;
   }
@@ -43,20 +54,20 @@ public class OrgApacheSlingEngineImplLogRequestLoggerProperties   {
   /**
    * Get requestLogOutput
    * @return requestLogOutput
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getRequestLogOutput() {
+   */
+  @Valid 
+  @Schema(name = "request.log.output", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("request.log.output")
+  public @Nullable ConfigNodePropertyString getRequestLogOutput() {
     return requestLogOutput;
   }
 
-  public void setRequestLogOutput(ConfigNodePropertyString requestLogOutput) {
+  @JsonProperty("request.log.output")
+  public void setRequestLogOutput(@Nullable ConfigNodePropertyString requestLogOutput) {
     this.requestLogOutput = requestLogOutput;
   }
 
-  public OrgApacheSlingEngineImplLogRequestLoggerProperties requestLogOutputtype(ConfigNodePropertyDropDown requestLogOutputtype) {
+  public OrgApacheSlingEngineImplLogRequestLoggerProperties requestLogOutputtype(@Nullable ConfigNodePropertyDropDown requestLogOutputtype) {
     this.requestLogOutputtype = requestLogOutputtype;
     return this;
   }
@@ -64,20 +75,20 @@ public class OrgApacheSlingEngineImplLogRequestLoggerProperties   {
   /**
    * Get requestLogOutputtype
    * @return requestLogOutputtype
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyDropDown getRequestLogOutputtype() {
+   */
+  @Valid 
+  @Schema(name = "request.log.outputtype", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("request.log.outputtype")
+  public @Nullable ConfigNodePropertyDropDown getRequestLogOutputtype() {
     return requestLogOutputtype;
   }
 
-  public void setRequestLogOutputtype(ConfigNodePropertyDropDown requestLogOutputtype) {
+  @JsonProperty("request.log.outputtype")
+  public void setRequestLogOutputtype(@Nullable ConfigNodePropertyDropDown requestLogOutputtype) {
     this.requestLogOutputtype = requestLogOutputtype;
   }
 
-  public OrgApacheSlingEngineImplLogRequestLoggerProperties requestLogEnabled(ConfigNodePropertyBoolean requestLogEnabled) {
+  public OrgApacheSlingEngineImplLogRequestLoggerProperties requestLogEnabled(@Nullable ConfigNodePropertyBoolean requestLogEnabled) {
     this.requestLogEnabled = requestLogEnabled;
     return this;
   }
@@ -85,20 +96,20 @@ public class OrgApacheSlingEngineImplLogRequestLoggerProperties   {
   /**
    * Get requestLogEnabled
    * @return requestLogEnabled
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getRequestLogEnabled() {
+   */
+  @Valid 
+  @Schema(name = "request.log.enabled", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("request.log.enabled")
+  public @Nullable ConfigNodePropertyBoolean getRequestLogEnabled() {
     return requestLogEnabled;
   }
 
-  public void setRequestLogEnabled(ConfigNodePropertyBoolean requestLogEnabled) {
+  @JsonProperty("request.log.enabled")
+  public void setRequestLogEnabled(@Nullable ConfigNodePropertyBoolean requestLogEnabled) {
     this.requestLogEnabled = requestLogEnabled;
   }
 
-  public OrgApacheSlingEngineImplLogRequestLoggerProperties accessLogOutput(ConfigNodePropertyString accessLogOutput) {
+  public OrgApacheSlingEngineImplLogRequestLoggerProperties accessLogOutput(@Nullable ConfigNodePropertyString accessLogOutput) {
     this.accessLogOutput = accessLogOutput;
     return this;
   }
@@ -106,20 +117,20 @@ public class OrgApacheSlingEngineImplLogRequestLoggerProperties   {
   /**
    * Get accessLogOutput
    * @return accessLogOutput
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getAccessLogOutput() {
+   */
+  @Valid 
+  @Schema(name = "access.log.output", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("access.log.output")
+  public @Nullable ConfigNodePropertyString getAccessLogOutput() {
     return accessLogOutput;
   }
 
-  public void setAccessLogOutput(ConfigNodePropertyString accessLogOutput) {
+  @JsonProperty("access.log.output")
+  public void setAccessLogOutput(@Nullable ConfigNodePropertyString accessLogOutput) {
     this.accessLogOutput = accessLogOutput;
   }
 
-  public OrgApacheSlingEngineImplLogRequestLoggerProperties accessLogOutputtype(ConfigNodePropertyDropDown accessLogOutputtype) {
+  public OrgApacheSlingEngineImplLogRequestLoggerProperties accessLogOutputtype(@Nullable ConfigNodePropertyDropDown accessLogOutputtype) {
     this.accessLogOutputtype = accessLogOutputtype;
     return this;
   }
@@ -127,20 +138,20 @@ public class OrgApacheSlingEngineImplLogRequestLoggerProperties   {
   /**
    * Get accessLogOutputtype
    * @return accessLogOutputtype
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyDropDown getAccessLogOutputtype() {
+   */
+  @Valid 
+  @Schema(name = "access.log.outputtype", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("access.log.outputtype")
+  public @Nullable ConfigNodePropertyDropDown getAccessLogOutputtype() {
     return accessLogOutputtype;
   }
 
-  public void setAccessLogOutputtype(ConfigNodePropertyDropDown accessLogOutputtype) {
+  @JsonProperty("access.log.outputtype")
+  public void setAccessLogOutputtype(@Nullable ConfigNodePropertyDropDown accessLogOutputtype) {
     this.accessLogOutputtype = accessLogOutputtype;
   }
 
-  public OrgApacheSlingEngineImplLogRequestLoggerProperties accessLogEnabled(ConfigNodePropertyBoolean accessLogEnabled) {
+  public OrgApacheSlingEngineImplLogRequestLoggerProperties accessLogEnabled(@Nullable ConfigNodePropertyBoolean accessLogEnabled) {
     this.accessLogEnabled = accessLogEnabled;
     return this;
   }
@@ -148,22 +159,21 @@ public class OrgApacheSlingEngineImplLogRequestLoggerProperties   {
   /**
    * Get accessLogEnabled
    * @return accessLogEnabled
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getAccessLogEnabled() {
+   */
+  @Valid 
+  @Schema(name = "access.log.enabled", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("access.log.enabled")
+  public @Nullable ConfigNodePropertyBoolean getAccessLogEnabled() {
     return accessLogEnabled;
   }
 
-  public void setAccessLogEnabled(ConfigNodePropertyBoolean accessLogEnabled) {
+  @JsonProperty("access.log.enabled")
+  public void setAccessLogEnabled(@Nullable ConfigNodePropertyBoolean accessLogEnabled) {
     this.accessLogEnabled = accessLogEnabled;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -188,7 +198,6 @@ public class OrgApacheSlingEngineImplLogRequestLoggerProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class OrgApacheSlingEngineImplLogRequestLoggerProperties {\n");
-    
     sb.append("    requestLogOutput: ").append(toIndentedString(requestLogOutput)).append("\n");
     sb.append("    requestLogOutputtype: ").append(toIndentedString(requestLogOutputtype)).append("\n");
     sb.append("    requestLogEnabled: ").append(toIndentedString(requestLogEnabled)).append("\n");
@@ -203,11 +212,8 @@ public class OrgApacheSlingEngineImplLogRequestLoggerProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

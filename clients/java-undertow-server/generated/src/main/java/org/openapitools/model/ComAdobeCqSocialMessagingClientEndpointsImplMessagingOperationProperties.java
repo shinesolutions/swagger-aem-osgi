@@ -1,3 +1,13 @@
+/*
+ * Adobe Experience Manager OSGI config (AEM) API
+ *
+ * Swagger AEM OSGI is an OpenAPI specification for Adobe Experience Manager (AEM) OSGI Configurations API
+ *
+ * OpenAPI document version: 1.0.0-pre.0
+ * Maintained by: opensource@shinesolutions.com
+ *
+ * AUTO-GENERATED FILE, DO NOT MODIFY!
+ */
 package org.openapitools.model;
 
 import java.util.Objects;
@@ -14,32 +24,32 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2019-08-05T00:56:20.785Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2026-10-07T12:53:42.280804918Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties   {
   
-  private ConfigNodePropertyArray messageProperties = null;
-  private ConfigNodePropertyInteger messageBoxSizeLimit = null;
-  private ConfigNodePropertyInteger messageCountLimit = null;
-  private ConfigNodePropertyBoolean notifyFailure = null;
-  private ConfigNodePropertyString failureMessageFrom = null;
-  private ConfigNodePropertyString failureTemplatePath = null;
-  private ConfigNodePropertyInteger maxRetries = null;
-  private ConfigNodePropertyInteger minWaitBetweenRetries = null;
-  private ConfigNodePropertyInteger countUpdatePoolSize = null;
-  private ConfigNodePropertyString inboxPath = null;
-  private ConfigNodePropertyString sentitemsPath = null;
-  private ConfigNodePropertyBoolean supportAttachments = null;
-  private ConfigNodePropertyBoolean supportGroupMessaging = null;
-  private ConfigNodePropertyInteger maxTotalRecipients = null;
-  private ConfigNodePropertyInteger batchSize = null;
-  private ConfigNodePropertyInteger maxTotalAttachmentSize = null;
-  private ConfigNodePropertyArray attachmentTypeBlacklist = null;
-  private ConfigNodePropertyArray allowedAttachmentTypes = null;
-  private ConfigNodePropertyString serviceSelector = null;
-  private ConfigNodePropertyArray fieldWhitelist = null;
+  private ConfigNodePropertyArray messageProperties;
+  private ConfigNodePropertyInteger messageBoxSizeLimit;
+  private ConfigNodePropertyInteger messageCountLimit;
+  private ConfigNodePropertyBoolean notifyFailure;
+  private ConfigNodePropertyString failureMessageFrom;
+  private ConfigNodePropertyString failureTemplatePath;
+  private ConfigNodePropertyInteger maxRetries;
+  private ConfigNodePropertyInteger minWaitBetweenRetries;
+  private ConfigNodePropertyInteger countUpdatePoolSize;
+  private ConfigNodePropertyString inboxPath;
+  private ConfigNodePropertyString sentitemsPath;
+  private ConfigNodePropertyBoolean supportAttachments;
+  private ConfigNodePropertyBoolean supportGroupMessaging;
+  private ConfigNodePropertyInteger maxTotalRecipients;
+  private ConfigNodePropertyInteger batchSize;
+  private ConfigNodePropertyInteger maxTotalAttachmentSize;
+  private ConfigNodePropertyArray attachmentTypeBlacklist;
+  private ConfigNodePropertyArray allowedAttachmentTypes;
+  private ConfigNodePropertyString serviceSelector;
+  private ConfigNodePropertyArray fieldWhitelist;
 
   /**
-   **/
+   */
   public ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties messageProperties(ConfigNodePropertyArray messageProperties) {
     this.messageProperties = messageProperties;
     return this;
@@ -56,7 +66,7 @@ public class ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationPrope
   }
 
   /**
-   **/
+   */
   public ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties messageBoxSizeLimit(ConfigNodePropertyInteger messageBoxSizeLimit) {
     this.messageBoxSizeLimit = messageBoxSizeLimit;
     return this;
@@ -73,7 +83,7 @@ public class ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationPrope
   }
 
   /**
-   **/
+   */
   public ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties messageCountLimit(ConfigNodePropertyInteger messageCountLimit) {
     this.messageCountLimit = messageCountLimit;
     return this;
@@ -90,7 +100,7 @@ public class ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationPrope
   }
 
   /**
-   **/
+   */
   public ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties notifyFailure(ConfigNodePropertyBoolean notifyFailure) {
     this.notifyFailure = notifyFailure;
     return this;
@@ -107,7 +117,7 @@ public class ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationPrope
   }
 
   /**
-   **/
+   */
   public ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties failureMessageFrom(ConfigNodePropertyString failureMessageFrom) {
     this.failureMessageFrom = failureMessageFrom;
     return this;
@@ -124,7 +134,7 @@ public class ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationPrope
   }
 
   /**
-   **/
+   */
   public ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties failureTemplatePath(ConfigNodePropertyString failureTemplatePath) {
     this.failureTemplatePath = failureTemplatePath;
     return this;
@@ -141,7 +151,7 @@ public class ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationPrope
   }
 
   /**
-   **/
+   */
   public ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties maxRetries(ConfigNodePropertyInteger maxRetries) {
     this.maxRetries = maxRetries;
     return this;
@@ -158,7 +168,7 @@ public class ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationPrope
   }
 
   /**
-   **/
+   */
   public ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties minWaitBetweenRetries(ConfigNodePropertyInteger minWaitBetweenRetries) {
     this.minWaitBetweenRetries = minWaitBetweenRetries;
     return this;
@@ -175,7 +185,7 @@ public class ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationPrope
   }
 
   /**
-   **/
+   */
   public ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties countUpdatePoolSize(ConfigNodePropertyInteger countUpdatePoolSize) {
     this.countUpdatePoolSize = countUpdatePoolSize;
     return this;
@@ -192,7 +202,7 @@ public class ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationPrope
   }
 
   /**
-   **/
+   */
   public ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties inboxPath(ConfigNodePropertyString inboxPath) {
     this.inboxPath = inboxPath;
     return this;
@@ -209,7 +219,7 @@ public class ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationPrope
   }
 
   /**
-   **/
+   */
   public ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties sentitemsPath(ConfigNodePropertyString sentitemsPath) {
     this.sentitemsPath = sentitemsPath;
     return this;
@@ -226,7 +236,7 @@ public class ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationPrope
   }
 
   /**
-   **/
+   */
   public ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties supportAttachments(ConfigNodePropertyBoolean supportAttachments) {
     this.supportAttachments = supportAttachments;
     return this;
@@ -243,7 +253,7 @@ public class ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationPrope
   }
 
   /**
-   **/
+   */
   public ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties supportGroupMessaging(ConfigNodePropertyBoolean supportGroupMessaging) {
     this.supportGroupMessaging = supportGroupMessaging;
     return this;
@@ -260,7 +270,7 @@ public class ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationPrope
   }
 
   /**
-   **/
+   */
   public ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties maxTotalRecipients(ConfigNodePropertyInteger maxTotalRecipients) {
     this.maxTotalRecipients = maxTotalRecipients;
     return this;
@@ -277,7 +287,7 @@ public class ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationPrope
   }
 
   /**
-   **/
+   */
   public ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties batchSize(ConfigNodePropertyInteger batchSize) {
     this.batchSize = batchSize;
     return this;
@@ -294,7 +304,7 @@ public class ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationPrope
   }
 
   /**
-   **/
+   */
   public ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties maxTotalAttachmentSize(ConfigNodePropertyInteger maxTotalAttachmentSize) {
     this.maxTotalAttachmentSize = maxTotalAttachmentSize;
     return this;
@@ -311,7 +321,7 @@ public class ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationPrope
   }
 
   /**
-   **/
+   */
   public ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties attachmentTypeBlacklist(ConfigNodePropertyArray attachmentTypeBlacklist) {
     this.attachmentTypeBlacklist = attachmentTypeBlacklist;
     return this;
@@ -328,7 +338,7 @@ public class ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationPrope
   }
 
   /**
-   **/
+   */
   public ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties allowedAttachmentTypes(ConfigNodePropertyArray allowedAttachmentTypes) {
     this.allowedAttachmentTypes = allowedAttachmentTypes;
     return this;
@@ -345,7 +355,7 @@ public class ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationPrope
   }
 
   /**
-   **/
+   */
   public ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties serviceSelector(ConfigNodePropertyString serviceSelector) {
     this.serviceSelector = serviceSelector;
     return this;
@@ -362,7 +372,7 @@ public class ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationPrope
   }
 
   /**
-   **/
+   */
   public ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties fieldWhitelist(ConfigNodePropertyArray fieldWhitelist) {
     this.fieldWhitelist = fieldWhitelist;
     return this;
@@ -380,7 +390,7 @@ public class ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationPrope
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -448,11 +458,8 @@ public class ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationPrope
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

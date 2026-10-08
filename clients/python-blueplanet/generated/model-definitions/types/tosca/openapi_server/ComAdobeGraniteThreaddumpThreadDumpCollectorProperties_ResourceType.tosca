@@ -1,0 +1,79 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeGraniteThreaddumpThreadDumpCollectorProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeGraniteThreaddumpThreadDumpCollectorProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyDropDown = openapi_server.resourceTypes.ConfigNodePropertyDropDown
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComAdobeGraniteThreaddumpThreadDumpCollectorProperties {
+    title = ComAdobeGraniteThreaddumpThreadDumpCollectorProperties
+    description = ComAdobeGraniteThreaddumpThreadDumpCollectorProperties
+    derivedFrom = Root
+    properties {
+        scheduler_period {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        scheduler_run_on {
+          type = ConfigNodePropertyDropDown
+          description = ""
+          optional = false
+        }
+        granite_threaddump_enabled {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        granite_threaddump_dumps_per_file {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        granite_threaddump_enable_gzip_compression {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        granite_threaddump_enable_directories_compression {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        granite_threaddump_enable_j_stack {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        granite_threaddump_max_backup_days {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        granite_threaddump_backup_clean_trigger {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeGraniteThreaddumpThreadDumpCollectorProperties {
+    title = ComAdobeGraniteThreaddumpThreadDumpCollectorProperties
+    description = ComAdobeGraniteThreaddumpThreadDumpCollectorProperties
+    implements = openapi_server.resourceTypes.ComAdobeGraniteThreaddumpThreadDumpCollectorProperties
+
+  }
+}

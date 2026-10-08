@@ -72,10 +72,10 @@ private class OASComAdobeCqWcmTranslationImplTransTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeCqWcmTranslationImplTrans comAdobeCqWcmTranslationImplTranslationPlatformConfigurationImplProperties = new OASComAdobeCqWcmTranslationImplTrans();
-        Map<String, String> propertyMappings = comAdobeCqWcmTranslationImplTranslationPlatformConfigurationImplProperties.getPropertyMappings();
-        System.assertEquals('syncTranslationStateSchedulingFormat', propertyMappings.get('syncTranslationState.schedulingFormat'));
-        System.assertEquals('schedulingRepeatTranslationSchedulingFormat', propertyMappings.get('schedulingRepeatTranslation.schedulingFormat'));
-        System.assertEquals('syncTranslationStateLockTimeoutInMinutes', propertyMappings.get('syncTranslationState.lockTimeoutInMinutes'));
-        System.assertEquals('exportFormat', propertyMappings.get('export.format'));
+        Map<String, String> x-property-mappings = comAdobeCqWcmTranslationImplTranslationPlatformConfigurationImplProperties.getx-property-mappings();
+        System.assertEquals('syncTranslationStateSchedulingFormat', x-property-mappings.get('syncTranslationState.schedulingFormat'));
+        System.assertEquals('schedulingRepeatTranslationSchedulingFormat', x-property-mappings.get('schedulingRepeatTranslation.schedulingFormat'));
+        System.assertEquals('syncTranslationStateLockTimeoutInMinutes', x-property-mappings.get('syncTranslationState.lockTimeoutInMinutes'));
+        System.assertEquals('exportFormat', x-property-mappings.get('export.format'));
     }
 }

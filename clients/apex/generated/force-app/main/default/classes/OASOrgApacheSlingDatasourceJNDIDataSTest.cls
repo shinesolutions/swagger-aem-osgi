@@ -72,10 +72,10 @@ private class OASOrgApacheSlingDatasourceJNDIDataSTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASOrgApacheSlingDatasourceJNDIDataS orgApacheSlingDatasourceJNDIDataSourceFactoryProperties = new OASOrgApacheSlingDatasourceJNDIDataS();
-        Map<String, String> propertyMappings = orgApacheSlingDatasourceJNDIDataSourceFactoryProperties.getPropertyMappings();
-        System.assertEquals('datasourceName', propertyMappings.get('datasource.name'));
-        System.assertEquals('datasourceSvcPropName', propertyMappings.get('datasource.svc.prop.name'));
-        System.assertEquals('datasourceJndiName', propertyMappings.get('datasource.jndi.name'));
-        System.assertEquals('jndiProperties', propertyMappings.get('jndi.properties'));
+        Map<String, String> x-property-mappings = orgApacheSlingDatasourceJNDIDataSourceFactoryProperties.getx-property-mappings();
+        System.assertEquals('datasourceName', x-property-mappings.get('datasource.name'));
+        System.assertEquals('datasourceSvcPropName', x-property-mappings.get('datasource.svc.prop.name'));
+        System.assertEquals('datasourceJndiName', x-property-mappings.get('datasource.jndi.name'));
+        System.assertEquals('jndiProperties', x-property-mappings.get('jndi.properties'));
     }
 }

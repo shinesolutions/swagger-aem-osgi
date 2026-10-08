@@ -1,0 +1,68 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqRewriterLinkcheckerImplLinkCheckerImplProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqRewriterLinkcheckerImplLinkCheckerImplProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+}
+resourceTypes {
+
+  ComDayCqRewriterLinkcheckerImplLinkCheckerImplProperties {
+    title = ComDayCqRewriterLinkcheckerImplLinkCheckerImplProperties
+    description = ComDayCqRewriterLinkcheckerImplLinkCheckerImplProperties
+    derivedFrom = Root
+    properties {
+        scheduler_period {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        scheduler_concurrent {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        service_bad_link_tolerance_interval {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        service_check_override_patterns {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        service_cache_broken_internal_links {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        service_special_link_prefix {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        service_special_link_patterns {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqRewriterLinkcheckerImplLinkCheckerImplProperties {
+    title = ComDayCqRewriterLinkcheckerImplLinkCheckerImplProperties
+    description = ComDayCqRewriterLinkcheckerImplLinkCheckerImplProperties
+    implements = openapi_server.resourceTypes.ComDayCqRewriterLinkcheckerImplLinkCheckerImplProperties
+
+  }
+}

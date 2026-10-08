@@ -1,23 +1,34 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ComDayCqWcmCoreImplVariantsPageVariantsProviderImplProperties;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comDayCqWcmCoreImplVariantsPageVariantsProviderImplInfo")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqWcmCoreImplVariantsPageVariantsProviderImplInfo   {
-  
-  private @Valid String pid = null;
-  private @Valid String title = null;
-  private @Valid String description = null;
-  private @Valid ComDayCqWcmCoreImplVariantsPageVariantsProviderImplProperties properties = null;
-  private @Valid String bundleLocation = null;
-  private @Valid String serviceLocation = null;
+  private String pid;
+  private String title;
+  private String description;
+  private ComDayCqWcmCoreImplVariantsPageVariantsProviderImplProperties properties;
+  private String bundleLocation;
+  private String serviceLocation;
+
+  public ComDayCqWcmCoreImplVariantsPageVariantsProviderImplInfo() {
+  }
 
   /**
    **/
@@ -32,6 +43,8 @@ public class ComDayCqWcmCoreImplVariantsPageVariantsProviderImplInfo   {
   public String getPid() {
     return pid;
   }
+
+  @JsonProperty("pid")
   public void setPid(String pid) {
     this.pid = pid;
   }
@@ -49,6 +62,8 @@ public class ComDayCqWcmCoreImplVariantsPageVariantsProviderImplInfo   {
   public String getTitle() {
     return title;
   }
+
+  @JsonProperty("title")
   public void setTitle(String title) {
     this.title = title;
   }
@@ -66,6 +81,8 @@ public class ComDayCqWcmCoreImplVariantsPageVariantsProviderImplInfo   {
   public String getDescription() {
     return description;
   }
+
+  @JsonProperty("description")
   public void setDescription(String description) {
     this.description = description;
   }
@@ -80,9 +97,11 @@ public class ComDayCqWcmCoreImplVariantsPageVariantsProviderImplInfo   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("properties")
-  public ComDayCqWcmCoreImplVariantsPageVariantsProviderImplProperties getProperties() {
+  @Valid public ComDayCqWcmCoreImplVariantsPageVariantsProviderImplProperties getProperties() {
     return properties;
   }
+
+  @JsonProperty("properties")
   public void setProperties(ComDayCqWcmCoreImplVariantsPageVariantsProviderImplProperties properties) {
     this.properties = properties;
   }
@@ -100,6 +119,8 @@ public class ComDayCqWcmCoreImplVariantsPageVariantsProviderImplInfo   {
   public String getBundleLocation() {
     return bundleLocation;
   }
+
+  @JsonProperty("bundle_location")
   public void setBundleLocation(String bundleLocation) {
     this.bundleLocation = bundleLocation;
   }
@@ -117,13 +138,15 @@ public class ComDayCqWcmCoreImplVariantsPageVariantsProviderImplInfo   {
   public String getServiceLocation() {
     return serviceLocation;
   }
+
+  @JsonProperty("service_location")
   public void setServiceLocation(String serviceLocation) {
     this.serviceLocation = serviceLocation;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -131,12 +154,12 @@ public class ComDayCqWcmCoreImplVariantsPageVariantsProviderImplInfo   {
       return false;
     }
     ComDayCqWcmCoreImplVariantsPageVariantsProviderImplInfo comDayCqWcmCoreImplVariantsPageVariantsProviderImplInfo = (ComDayCqWcmCoreImplVariantsPageVariantsProviderImplInfo) o;
-    return Objects.equals(pid, comDayCqWcmCoreImplVariantsPageVariantsProviderImplInfo.pid) &&
-        Objects.equals(title, comDayCqWcmCoreImplVariantsPageVariantsProviderImplInfo.title) &&
-        Objects.equals(description, comDayCqWcmCoreImplVariantsPageVariantsProviderImplInfo.description) &&
-        Objects.equals(properties, comDayCqWcmCoreImplVariantsPageVariantsProviderImplInfo.properties) &&
-        Objects.equals(bundleLocation, comDayCqWcmCoreImplVariantsPageVariantsProviderImplInfo.bundleLocation) &&
-        Objects.equals(serviceLocation, comDayCqWcmCoreImplVariantsPageVariantsProviderImplInfo.serviceLocation);
+    return Objects.equals(this.pid, comDayCqWcmCoreImplVariantsPageVariantsProviderImplInfo.pid) &&
+        Objects.equals(this.title, comDayCqWcmCoreImplVariantsPageVariantsProviderImplInfo.title) &&
+        Objects.equals(this.description, comDayCqWcmCoreImplVariantsPageVariantsProviderImplInfo.description) &&
+        Objects.equals(this.properties, comDayCqWcmCoreImplVariantsPageVariantsProviderImplInfo.properties) &&
+        Objects.equals(this.bundleLocation, comDayCqWcmCoreImplVariantsPageVariantsProviderImplInfo.bundleLocation) &&
+        Objects.equals(this.serviceLocation, comDayCqWcmCoreImplVariantsPageVariantsProviderImplInfo.serviceLocation);
   }
 
   @Override
@@ -163,11 +186,9 @@ public class ComDayCqWcmCoreImplVariantsPageVariantsProviderImplInfo   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

@@ -2,27 +2,28 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ComDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class ComDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlInfo   {
   
-  private String pid = null;
+  private String pid;
 
-  private String title = null;
+  private String title;
 
-  private String description = null;
+  private String description;
 
-  private ComDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlProperties properties = null;
-
+  private ComDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlProperties properties;
 
   /**
    **/
@@ -98,7 +99,7 @@ public class ComDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlInfo 
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -106,10 +107,10 @@ public class ComDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlInfo 
       return false;
     }
     ComDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlInfo comDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlInfo = (ComDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlInfo) o;
-    return Objects.equals(pid, comDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlInfo.pid) &&
-        Objects.equals(title, comDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlInfo.title) &&
-        Objects.equals(description, comDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlInfo.description) &&
-        Objects.equals(properties, comDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlInfo.properties);
+    return Objects.equals(this.pid, comDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlInfo.pid) &&
+        Objects.equals(this.title, comDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlInfo.title) &&
+        Objects.equals(this.description, comDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlInfo.description) &&
+        Objects.equals(this.properties, comDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlInfo.properties);
   }
 
   @Override
@@ -134,11 +135,8 @@ public class ComDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlInfo 
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

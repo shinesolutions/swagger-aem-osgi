@@ -1,28 +1,39 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyInteger;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComDayCqImageInternalFontFontHelperProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComDayCqImageInternalFontFontHelperProperties   {
-  @JsonProperty("fontpath")
-  private ConfigNodePropertyArray fontpath = null;
+@JsonTypeName("comDayCqImageInternalFontFontHelperProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComDayCqImageInternalFontFontHelperProperties {
 
-  @JsonProperty("oversamplingFactor")
-  private ConfigNodePropertyInteger oversamplingFactor = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray fontpath;
 
-  public ComDayCqImageInternalFontFontHelperProperties fontpath(ConfigNodePropertyArray fontpath) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger oversamplingFactor;
+
+  public ComDayCqImageInternalFontFontHelperProperties fontpath(@Nullable ConfigNodePropertyArray fontpath) {
     this.fontpath = fontpath;
     return this;
   }
@@ -30,20 +41,20 @@ public class ComDayCqImageInternalFontFontHelperProperties   {
   /**
    * Get fontpath
    * @return fontpath
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getFontpath() {
+   */
+  @Valid 
+  @Schema(name = "fontpath", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("fontpath")
+  public @Nullable ConfigNodePropertyArray getFontpath() {
     return fontpath;
   }
 
-  public void setFontpath(ConfigNodePropertyArray fontpath) {
+  @JsonProperty("fontpath")
+  public void setFontpath(@Nullable ConfigNodePropertyArray fontpath) {
     this.fontpath = fontpath;
   }
 
-  public ComDayCqImageInternalFontFontHelperProperties oversamplingFactor(ConfigNodePropertyInteger oversamplingFactor) {
+  public ComDayCqImageInternalFontFontHelperProperties oversamplingFactor(@Nullable ConfigNodePropertyInteger oversamplingFactor) {
     this.oversamplingFactor = oversamplingFactor;
     return this;
   }
@@ -51,22 +62,21 @@ public class ComDayCqImageInternalFontFontHelperProperties   {
   /**
    * Get oversamplingFactor
    * @return oversamplingFactor
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getOversamplingFactor() {
+   */
+  @Valid 
+  @Schema(name = "oversamplingFactor", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("oversamplingFactor")
+  public @Nullable ConfigNodePropertyInteger getOversamplingFactor() {
     return oversamplingFactor;
   }
 
-  public void setOversamplingFactor(ConfigNodePropertyInteger oversamplingFactor) {
+  @JsonProperty("oversamplingFactor")
+  public void setOversamplingFactor(@Nullable ConfigNodePropertyInteger oversamplingFactor) {
     this.oversamplingFactor = oversamplingFactor;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -87,7 +97,6 @@ public class ComDayCqImageInternalFontFontHelperProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComDayCqImageInternalFontFontHelperProperties {\n");
-    
     sb.append("    fontpath: ").append(toIndentedString(fontpath)).append("\n");
     sb.append("    oversamplingFactor: ").append(toIndentedString(oversamplingFactor)).append("\n");
     sb.append("}");
@@ -98,11 +107,8 @@ public class ComDayCqImageInternalFontFontHelperProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

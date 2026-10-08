@@ -1,35 +1,46 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComDayCqAuthImplCugCugSupportImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComDayCqAuthImplCugCugSupportImplProperties   {
-  @JsonProperty("cug.exempted.principals")
-  private ConfigNodePropertyArray cugExemptedPrincipals = null;
+@JsonTypeName("comDayCqAuthImplCugCugSupportImplProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComDayCqAuthImplCugCugSupportImplProperties {
 
-  @JsonProperty("cug.enabled")
-  private ConfigNodePropertyBoolean cugEnabled = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray cugExemptedPrincipals;
 
-  @JsonProperty("cug.principals.regex")
-  private ConfigNodePropertyString cugPrincipalsRegex = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean cugEnabled;
 
-  @JsonProperty("cug.principals.replacement")
-  private ConfigNodePropertyString cugPrincipalsReplacement = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString cugPrincipalsRegex;
 
-  public ComDayCqAuthImplCugCugSupportImplProperties cugExemptedPrincipals(ConfigNodePropertyArray cugExemptedPrincipals) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString cugPrincipalsReplacement;
+
+  public ComDayCqAuthImplCugCugSupportImplProperties cugExemptedPrincipals(@Nullable ConfigNodePropertyArray cugExemptedPrincipals) {
     this.cugExemptedPrincipals = cugExemptedPrincipals;
     return this;
   }
@@ -37,20 +48,20 @@ public class ComDayCqAuthImplCugCugSupportImplProperties   {
   /**
    * Get cugExemptedPrincipals
    * @return cugExemptedPrincipals
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getCugExemptedPrincipals() {
+   */
+  @Valid 
+  @Schema(name = "cug.exempted.principals", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cug.exempted.principals")
+  public @Nullable ConfigNodePropertyArray getCugExemptedPrincipals() {
     return cugExemptedPrincipals;
   }
 
-  public void setCugExemptedPrincipals(ConfigNodePropertyArray cugExemptedPrincipals) {
+  @JsonProperty("cug.exempted.principals")
+  public void setCugExemptedPrincipals(@Nullable ConfigNodePropertyArray cugExemptedPrincipals) {
     this.cugExemptedPrincipals = cugExemptedPrincipals;
   }
 
-  public ComDayCqAuthImplCugCugSupportImplProperties cugEnabled(ConfigNodePropertyBoolean cugEnabled) {
+  public ComDayCqAuthImplCugCugSupportImplProperties cugEnabled(@Nullable ConfigNodePropertyBoolean cugEnabled) {
     this.cugEnabled = cugEnabled;
     return this;
   }
@@ -58,20 +69,20 @@ public class ComDayCqAuthImplCugCugSupportImplProperties   {
   /**
    * Get cugEnabled
    * @return cugEnabled
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getCugEnabled() {
+   */
+  @Valid 
+  @Schema(name = "cug.enabled", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cug.enabled")
+  public @Nullable ConfigNodePropertyBoolean getCugEnabled() {
     return cugEnabled;
   }
 
-  public void setCugEnabled(ConfigNodePropertyBoolean cugEnabled) {
+  @JsonProperty("cug.enabled")
+  public void setCugEnabled(@Nullable ConfigNodePropertyBoolean cugEnabled) {
     this.cugEnabled = cugEnabled;
   }
 
-  public ComDayCqAuthImplCugCugSupportImplProperties cugPrincipalsRegex(ConfigNodePropertyString cugPrincipalsRegex) {
+  public ComDayCqAuthImplCugCugSupportImplProperties cugPrincipalsRegex(@Nullable ConfigNodePropertyString cugPrincipalsRegex) {
     this.cugPrincipalsRegex = cugPrincipalsRegex;
     return this;
   }
@@ -79,20 +90,20 @@ public class ComDayCqAuthImplCugCugSupportImplProperties   {
   /**
    * Get cugPrincipalsRegex
    * @return cugPrincipalsRegex
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getCugPrincipalsRegex() {
+   */
+  @Valid 
+  @Schema(name = "cug.principals.regex", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cug.principals.regex")
+  public @Nullable ConfigNodePropertyString getCugPrincipalsRegex() {
     return cugPrincipalsRegex;
   }
 
-  public void setCugPrincipalsRegex(ConfigNodePropertyString cugPrincipalsRegex) {
+  @JsonProperty("cug.principals.regex")
+  public void setCugPrincipalsRegex(@Nullable ConfigNodePropertyString cugPrincipalsRegex) {
     this.cugPrincipalsRegex = cugPrincipalsRegex;
   }
 
-  public ComDayCqAuthImplCugCugSupportImplProperties cugPrincipalsReplacement(ConfigNodePropertyString cugPrincipalsReplacement) {
+  public ComDayCqAuthImplCugCugSupportImplProperties cugPrincipalsReplacement(@Nullable ConfigNodePropertyString cugPrincipalsReplacement) {
     this.cugPrincipalsReplacement = cugPrincipalsReplacement;
     return this;
   }
@@ -100,22 +111,21 @@ public class ComDayCqAuthImplCugCugSupportImplProperties   {
   /**
    * Get cugPrincipalsReplacement
    * @return cugPrincipalsReplacement
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getCugPrincipalsReplacement() {
+   */
+  @Valid 
+  @Schema(name = "cug.principals.replacement", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cug.principals.replacement")
+  public @Nullable ConfigNodePropertyString getCugPrincipalsReplacement() {
     return cugPrincipalsReplacement;
   }
 
-  public void setCugPrincipalsReplacement(ConfigNodePropertyString cugPrincipalsReplacement) {
+  @JsonProperty("cug.principals.replacement")
+  public void setCugPrincipalsReplacement(@Nullable ConfigNodePropertyString cugPrincipalsReplacement) {
     this.cugPrincipalsReplacement = cugPrincipalsReplacement;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -138,7 +148,6 @@ public class ComDayCqAuthImplCugCugSupportImplProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComDayCqAuthImplCugCugSupportImplProperties {\n");
-    
     sb.append("    cugExemptedPrincipals: ").append(toIndentedString(cugExemptedPrincipals)).append("\n");
     sb.append("    cugEnabled: ").append(toIndentedString(cugEnabled)).append("\n");
     sb.append("    cugPrincipalsRegex: ").append(toIndentedString(cugPrincipalsRegex)).append("\n");
@@ -151,11 +160,8 @@ public class ComDayCqAuthImplCugCugSupportImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

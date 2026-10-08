@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeGraniteRepositoryHcImplAuthorizableNodeNam
 
 @Canonical
 class ComAdobeGraniteRepositoryHcImplAuthorizableNodeNameHealthCheckInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteRepositoryHcImplAuthorizableNodeNameHealthCheckProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteRepositoryHcImplAuthorizableNodeNameHealthCheckProperties properties
 }

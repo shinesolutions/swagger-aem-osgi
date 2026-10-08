@@ -7,12 +7,12 @@ import org.openapitools.model.OrgApacheSlingDistributionPackagingImplExporterAge
 
 @Canonical
 class OrgApacheSlingDistributionPackagingImplExporterAgentDistributioInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheSlingDistributionPackagingImplExporterAgentDistributioProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheSlingDistributionPackagingImplExporterAgentDistributioProperties properties
 }

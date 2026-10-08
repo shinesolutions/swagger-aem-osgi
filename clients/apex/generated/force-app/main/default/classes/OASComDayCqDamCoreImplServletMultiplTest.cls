@@ -72,7 +72,7 @@ private class OASComDayCqDamCoreImplServletMultiplTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqDamCoreImplServletMultipl comDayCqDamCoreImplServletMultipleLicenseAcceptServletProperties = new OASComDayCqDamCoreImplServletMultipl();
-        Map<String, String> propertyMappings = comDayCqDamCoreImplServletMultipleLicenseAcceptServletProperties.getPropertyMappings();
-        System.assertEquals('cqDamDrmEnable', propertyMappings.get('cq.dam.drm.enable'));
+        Map<String, String> x-property-mappings = comDayCqDamCoreImplServletMultipleLicenseAcceptServletProperties.getx-property-mappings();
+        System.assertEquals('cqDamDrmEnable', x-property-mappings.get('cq.dam.drm.enable'));
     }
 }

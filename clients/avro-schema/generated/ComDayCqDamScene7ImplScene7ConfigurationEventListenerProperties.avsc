@@ -1,0 +1,15 @@
+{
+  "namespace": "model",
+  "type": "record",
+  "doc": "",
+  "name": "ComDayCqDamScene7ImplScene7ConfigurationEventListenerProperties",
+  "fields": [
+    {
+      "name": "cq.dam.scene7.configurationeventlistener.enabled",
+      "type": ["null", "model.ConfigNodePropertyBoolean"],
+      "doc": "",
+      "default": null
+    }
+  ]
+
+}

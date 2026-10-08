@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqWcmCoreImplEventPageEventAuditListenerProperties {
-    ConfigNodePropertyString configured = null
-
+    
+    ConfigNodePropertyString configured
 }

@@ -1,5 +1,8 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
@@ -7,19 +10,27 @@ import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties   {
-  
-  private @Valid ConfigNodePropertyString eventFilter = null;
-  private @Valid ConfigNodePropertyInteger minThreadPoolSize = null;
-  private @Valid ConfigNodePropertyInteger maxThreadPoolSize = null;
-  private @Valid ConfigNodePropertyBoolean cqWcmWorkflowTerminateOnActivate = null;
-  private @Valid ConfigNodePropertyArray cqWcmWorklfowTerminateExclusionList = null;
+  private ConfigNodePropertyString eventFilter;
+  private ConfigNodePropertyInteger minThreadPoolSize;
+  private ConfigNodePropertyInteger maxThreadPoolSize;
+  private ConfigNodePropertyBoolean cqWcmWorkflowTerminateOnActivate;
+  private ConfigNodePropertyArray cqWcmWorklfowTerminateExclusionList;
+
+  public ComDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties() {
+  }
 
   /**
    **/
@@ -31,9 +42,11 @@ public class ComDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("event.filter")
-  public ConfigNodePropertyString getEventFilter() {
+  @Valid public ConfigNodePropertyString getEventFilter() {
     return eventFilter;
   }
+
+  @JsonProperty("event.filter")
   public void setEventFilter(ConfigNodePropertyString eventFilter) {
     this.eventFilter = eventFilter;
   }
@@ -48,9 +61,11 @@ public class ComDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("minThreadPoolSize")
-  public ConfigNodePropertyInteger getMinThreadPoolSize() {
+  @Valid public ConfigNodePropertyInteger getMinThreadPoolSize() {
     return minThreadPoolSize;
   }
+
+  @JsonProperty("minThreadPoolSize")
   public void setMinThreadPoolSize(ConfigNodePropertyInteger minThreadPoolSize) {
     this.minThreadPoolSize = minThreadPoolSize;
   }
@@ -65,9 +80,11 @@ public class ComDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("maxThreadPoolSize")
-  public ConfigNodePropertyInteger getMaxThreadPoolSize() {
+  @Valid public ConfigNodePropertyInteger getMaxThreadPoolSize() {
     return maxThreadPoolSize;
   }
+
+  @JsonProperty("maxThreadPoolSize")
   public void setMaxThreadPoolSize(ConfigNodePropertyInteger maxThreadPoolSize) {
     this.maxThreadPoolSize = maxThreadPoolSize;
   }
@@ -82,9 +99,11 @@ public class ComDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("cq.wcm.workflow.terminate.on.activate")
-  public ConfigNodePropertyBoolean getCqWcmWorkflowTerminateOnActivate() {
+  @Valid public ConfigNodePropertyBoolean getCqWcmWorkflowTerminateOnActivate() {
     return cqWcmWorkflowTerminateOnActivate;
   }
+
+  @JsonProperty("cq.wcm.workflow.terminate.on.activate")
   public void setCqWcmWorkflowTerminateOnActivate(ConfigNodePropertyBoolean cqWcmWorkflowTerminateOnActivate) {
     this.cqWcmWorkflowTerminateOnActivate = cqWcmWorkflowTerminateOnActivate;
   }
@@ -99,16 +118,18 @@ public class ComDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("cq.wcm.worklfow.terminate.exclusion.list")
-  public ConfigNodePropertyArray getCqWcmWorklfowTerminateExclusionList() {
+  @Valid public ConfigNodePropertyArray getCqWcmWorklfowTerminateExclusionList() {
     return cqWcmWorklfowTerminateExclusionList;
   }
+
+  @JsonProperty("cq.wcm.worklfow.terminate.exclusion.list")
   public void setCqWcmWorklfowTerminateExclusionList(ConfigNodePropertyArray cqWcmWorklfowTerminateExclusionList) {
     this.cqWcmWorklfowTerminateExclusionList = cqWcmWorklfowTerminateExclusionList;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -116,11 +137,11 @@ public class ComDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties   {
       return false;
     }
     ComDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties comDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties = (ComDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties) o;
-    return Objects.equals(eventFilter, comDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties.eventFilter) &&
-        Objects.equals(minThreadPoolSize, comDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties.minThreadPoolSize) &&
-        Objects.equals(maxThreadPoolSize, comDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties.maxThreadPoolSize) &&
-        Objects.equals(cqWcmWorkflowTerminateOnActivate, comDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties.cqWcmWorkflowTerminateOnActivate) &&
-        Objects.equals(cqWcmWorklfowTerminateExclusionList, comDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties.cqWcmWorklfowTerminateExclusionList);
+    return Objects.equals(this.eventFilter, comDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties.eventFilter) &&
+        Objects.equals(this.minThreadPoolSize, comDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties.minThreadPoolSize) &&
+        Objects.equals(this.maxThreadPoolSize, comDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties.maxThreadPoolSize) &&
+        Objects.equals(this.cqWcmWorkflowTerminateOnActivate, comDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties.cqWcmWorkflowTerminateOnActivate) &&
+        Objects.equals(this.cqWcmWorklfowTerminateExclusionList, comDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties.cqWcmWorklfowTerminateExclusionList);
   }
 
   @Override
@@ -146,11 +167,9 @@ public class ComDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

@@ -72,7 +72,7 @@ private class OASComAdobeCqDamWebdavImplIoAssetIOHTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeCqDamWebdavImplIoAssetIOH comAdobeCqDamWebdavImplIoAssetIOHandlerProperties = new OASComAdobeCqDamWebdavImplIoAssetIOH();
-        Map<String, String> propertyMappings = comAdobeCqDamWebdavImplIoAssetIOHandlerProperties.getPropertyMappings();
-        System.assertEquals('serviceRanking', propertyMappings.get('service.ranking'));
+        Map<String, String> x-property-mappings = comAdobeCqDamWebdavImplIoAssetIOHandlerProperties.getx-property-mappings();
+        System.assertEquals('serviceRanking', x-property-mappings.get('service.ranking'));
     }
 }

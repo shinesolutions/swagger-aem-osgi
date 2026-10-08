@@ -7,12 +7,12 @@ import org.openapitools.model.OrgApacheFelixSystemreadyImplFrameworkStartCheckPr
 
 @Canonical
 class OrgApacheFelixSystemreadyImplFrameworkStartCheckInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheFelixSystemreadyImplFrameworkStartCheckProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheFelixSystemreadyImplFrameworkStartCheckProperties properties
 }

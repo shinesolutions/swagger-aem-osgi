@@ -1,0 +1,46 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+}
+resourceTypes {
+
+  ComAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerProperties {
+    title = ComAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerProperties
+    description = ComAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerProperties
+    derivedFrom = Root
+    properties {
+        default_timeout {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        max_timeout {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        default_period {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerProperties {
+    title = ComAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerProperties
+    description = ComAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerProperties
+    implements = openapi_server.resourceTypes.ComAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerProperties
+
+  }
+}

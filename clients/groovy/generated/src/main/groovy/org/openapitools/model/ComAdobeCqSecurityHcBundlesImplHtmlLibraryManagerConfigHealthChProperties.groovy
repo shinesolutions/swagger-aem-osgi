@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyArray;
 
 @Canonical
 class ComAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthChProperties {
-    ConfigNodePropertyArray hcTags = null
-
+    
+    ConfigNodePropertyArray hcTags
 }

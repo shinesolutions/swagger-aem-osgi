@@ -1,0 +1,41 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqReplicationImplTransportHttpProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqReplicationImplTransportHttpProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+}
+resourceTypes {
+
+  ComDayCqReplicationImplTransportHttpProperties {
+    title = ComDayCqReplicationImplTransportHttpProperties
+    description = ComDayCqReplicationImplTransportHttpProperties
+    derivedFrom = Root
+    properties {
+        disabled_cipher_suites {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        enabled_cipher_suites {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqReplicationImplTransportHttpProperties {
+    title = ComDayCqReplicationImplTransportHttpProperties
+    description = ComDayCqReplicationImplTransportHttpProperties
+    implements = openapi_server.resourceTypes.ComDayCqReplicationImplTransportHttpProperties
+
+  }
+}

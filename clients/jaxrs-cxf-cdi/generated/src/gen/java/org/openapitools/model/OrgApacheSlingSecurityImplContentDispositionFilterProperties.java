@@ -2,26 +2,27 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class OrgApacheSlingSecurityImplContentDispositionFilterProperties   {
   
-  private ConfigNodePropertyArray slingContentDispositionPaths = null;
+  private ConfigNodePropertyArray slingContentDispositionPaths;
 
-  private ConfigNodePropertyArray slingContentDispositionExcludedPaths = null;
+  private ConfigNodePropertyArray slingContentDispositionExcludedPaths;
 
-  private ConfigNodePropertyBoolean slingContentDispositionAllPaths = null;
-
+  private ConfigNodePropertyBoolean slingContentDispositionAllPaths;
 
   /**
    **/
@@ -79,7 +80,7 @@ public class OrgApacheSlingSecurityImplContentDispositionFilterProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -87,9 +88,9 @@ public class OrgApacheSlingSecurityImplContentDispositionFilterProperties   {
       return false;
     }
     OrgApacheSlingSecurityImplContentDispositionFilterProperties orgApacheSlingSecurityImplContentDispositionFilterProperties = (OrgApacheSlingSecurityImplContentDispositionFilterProperties) o;
-    return Objects.equals(slingContentDispositionPaths, orgApacheSlingSecurityImplContentDispositionFilterProperties.slingContentDispositionPaths) &&
-        Objects.equals(slingContentDispositionExcludedPaths, orgApacheSlingSecurityImplContentDispositionFilterProperties.slingContentDispositionExcludedPaths) &&
-        Objects.equals(slingContentDispositionAllPaths, orgApacheSlingSecurityImplContentDispositionFilterProperties.slingContentDispositionAllPaths);
+    return Objects.equals(this.slingContentDispositionPaths, orgApacheSlingSecurityImplContentDispositionFilterProperties.slingContentDispositionPaths) &&
+        Objects.equals(this.slingContentDispositionExcludedPaths, orgApacheSlingSecurityImplContentDispositionFilterProperties.slingContentDispositionExcludedPaths) &&
+        Objects.equals(this.slingContentDispositionAllPaths, orgApacheSlingSecurityImplContentDispositionFilterProperties.slingContentDispositionAllPaths);
   }
 
   @Override
@@ -113,11 +114,8 @@ public class OrgApacheSlingSecurityImplContentDispositionFilterProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

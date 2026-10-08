@@ -72,7 +72,7 @@ private class OASOrgApacheSlingCommonsSchedulerImpTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASOrgApacheSlingCommonsSchedulerImp orgApacheSlingCommonsSchedulerImplSchedulerHealthCheckProperties = new OASOrgApacheSlingCommonsSchedulerImp();
-        Map<String, String> propertyMappings = orgApacheSlingCommonsSchedulerImplSchedulerHealthCheckProperties.getPropertyMappings();
-        System.assertEquals('maxQuartzJobDurationAcceptable', propertyMappings.get('max.quartzJob.duration.acceptable'));
+        Map<String, String> x-property-mappings = orgApacheSlingCommonsSchedulerImplSchedulerHealthCheckProperties.getx-property-mappings();
+        System.assertEquals('maxQuartzJobDurationAcceptable', x-property-mappings.get('max.quartzJob.duration.acceptable'));
     }
 }

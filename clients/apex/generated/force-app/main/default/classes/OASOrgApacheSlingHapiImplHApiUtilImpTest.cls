@@ -72,11 +72,11 @@ private class OASOrgApacheSlingHapiImplHApiUtilImpTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASOrgApacheSlingHapiImplHApiUtilImp orgApacheSlingHapiImplHApiUtilImplProperties = new OASOrgApacheSlingHapiImplHApiUtilImp();
-        Map<String, String> propertyMappings = orgApacheSlingHapiImplHApiUtilImplProperties.getPropertyMappings();
-        System.assertEquals('orgApacheSlingHapiToolsResourcetype', propertyMappings.get('org.apache.sling.hapi.tools.resourcetype'));
-        System.assertEquals('orgApacheSlingHapiToolsCollectionresourcetype', propertyMappings.get('org.apache.sling.hapi.tools.collectionresourcetype'));
-        System.assertEquals('orgApacheSlingHapiToolsSearchpaths', propertyMappings.get('org.apache.sling.hapi.tools.searchpaths'));
-        System.assertEquals('orgApacheSlingHapiToolsExternalurl', propertyMappings.get('org.apache.sling.hapi.tools.externalurl'));
-        System.assertEquals('orgApacheSlingHapiToolsEnabled', propertyMappings.get('org.apache.sling.hapi.tools.enabled'));
+        Map<String, String> x-property-mappings = orgApacheSlingHapiImplHApiUtilImplProperties.getx-property-mappings();
+        System.assertEquals('orgApacheSlingHapiToolsResourcetype', x-property-mappings.get('org.apache.sling.hapi.tools.resourcetype'));
+        System.assertEquals('orgApacheSlingHapiToolsCollectionresourcetype', x-property-mappings.get('org.apache.sling.hapi.tools.collectionresourcetype'));
+        System.assertEquals('orgApacheSlingHapiToolsSearchpaths', x-property-mappings.get('org.apache.sling.hapi.tools.searchpaths'));
+        System.assertEquals('orgApacheSlingHapiToolsExternalurl', x-property-mappings.get('org.apache.sling.hapi.tools.externalurl'));
+        System.assertEquals('orgApacheSlingHapiToolsEnabled', x-property-mappings.get('org.apache.sling.hapi.tools.enabled'));
     }
 }

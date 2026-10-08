@@ -2,17 +2,17 @@
 # ComDayCqWcmUndoUndoConfigProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**cqPeriodwcmPeriodundoPeriodenabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**cqPeriodwcmPeriodundoPeriodpath** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**cqPeriodwcmPeriodundoPeriodvalidity** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**cqPeriodwcmPeriodundoPeriodsteps** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**cqPeriodwcmPeriodundoPeriodpersistence** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**cqPeriodwcmPeriodundoPeriodpersistencePeriodmode** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**cqPeriodwcmPeriodundoPeriodmarkermode** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**cqPeriodwcmPeriodundoPeriodwhitelist** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**cqPeriodwcmPeriodundoPeriodblacklist** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **cqWcmUndoEnabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **cqWcmUndoPath** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **cqWcmUndoValidity** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **cqWcmUndoSteps** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **cqWcmUndoPersistence** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **cqWcmUndoPersistenceMode** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **cqWcmUndoMarkermode** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **cqWcmUndoWhitelist** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **cqWcmUndoBlacklist** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
 
 
 

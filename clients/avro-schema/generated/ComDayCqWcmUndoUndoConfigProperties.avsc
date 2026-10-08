@@ -1,0 +1,63 @@
+{
+  "namespace": "model",
+  "type": "record",
+  "doc": "",
+  "name": "ComDayCqWcmUndoUndoConfigProperties",
+  "fields": [
+    {
+      "name": "cq.wcm.undo.enabled",
+      "type": ["null", "model.ConfigNodePropertyBoolean"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "cq.wcm.undo.path",
+      "type": ["null", "model.ConfigNodePropertyString"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "cq.wcm.undo.validity",
+      "type": ["null", "model.ConfigNodePropertyInteger"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "cq.wcm.undo.steps",
+      "type": ["null", "model.ConfigNodePropertyInteger"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "cq.wcm.undo.persistence",
+      "type": ["null", "model.ConfigNodePropertyString"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "cq.wcm.undo.persistence.mode",
+      "type": ["null", "model.ConfigNodePropertyBoolean"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "cq.wcm.undo.markermode",
+      "type": ["null", "model.ConfigNodePropertyString"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "cq.wcm.undo.whitelist",
+      "type": ["null", "model.ConfigNodePropertyArray"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "cq.wcm.undo.blacklist",
+      "type": ["null", "model.ConfigNodePropertyArray"],
+      "doc": "",
+      "default": null
+    }
+  ]
+
+}

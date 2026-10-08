@@ -72,22 +72,22 @@ private class OASComDayCqDamCoreImplAnnotationPdfATest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqDamCoreImplAnnotationPdfA comDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties = new OASComDayCqDamCoreImplAnnotationPdfA();
-        Map<String, String> propertyMappings = comDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties.getPropertyMappings();
-        System.assertEquals('cqDamConfigAnnotationPdfDocumentWidth', propertyMappings.get('cq.dam.config.annotation.pdf.document.width'));
-        System.assertEquals('cqDamConfigAnnotationPdfDocumentHeight', propertyMappings.get('cq.dam.config.annotation.pdf.document.height'));
-        System.assertEquals('cqDamConfigAnnotationPdfDocumentPaddingHorizontal', propertyMappings.get('cq.dam.config.annotation.pdf.document.padding.horizontal'));
-        System.assertEquals('cqDamConfigAnnotationPdfDocumentPaddingVertical', propertyMappings.get('cq.dam.config.annotation.pdf.document.padding.vertical'));
-        System.assertEquals('cqDamConfigAnnotationPdfFontSize', propertyMappings.get('cq.dam.config.annotation.pdf.font.size'));
-        System.assertEquals('cqDamConfigAnnotationPdfFontColor', propertyMappings.get('cq.dam.config.annotation.pdf.font.color'));
-        System.assertEquals('cqDamConfigAnnotationPdfFontFamily', propertyMappings.get('cq.dam.config.annotation.pdf.font.family'));
-        System.assertEquals('cqDamConfigAnnotationPdfFontLight', propertyMappings.get('cq.dam.config.annotation.pdf.font.light'));
-        System.assertEquals('cqDamConfigAnnotationPdfMarginTextImage', propertyMappings.get('cq.dam.config.annotation.pdf.marginTextImage'));
-        System.assertEquals('cqDamConfigAnnotationPdfMinImageHeight', propertyMappings.get('cq.dam.config.annotation.pdf.minImageHeight'));
-        System.assertEquals('cqDamConfigAnnotationPdfReviewStatusWidth', propertyMappings.get('cq.dam.config.annotation.pdf.reviewStatus.width'));
-        System.assertEquals('cqDamConfigAnnotationPdfReviewStatusColorApproved', propertyMappings.get('cq.dam.config.annotation.pdf.reviewStatus.color.approved'));
-        System.assertEquals('cqDamConfigAnnotationPdfReviewStatusColorRejected', propertyMappings.get('cq.dam.config.annotation.pdf.reviewStatus.color.rejected'));
-        System.assertEquals('cqDamConfigAnnotationPdfReviewStatusColorChangesRequested', propertyMappings.get('cq.dam.config.annotation.pdf.reviewStatus.color.changesRequested'));
-        System.assertEquals('cqDamConfigAnnotationPdfAnnotationMarkerWidth', propertyMappings.get('cq.dam.config.annotation.pdf.annotationMarker.width'));
-        System.assertEquals('cqDamConfigAnnotationPdfAssetMinheight', propertyMappings.get('cq.dam.config.annotation.pdf.asset.minheight'));
+        Map<String, String> x-property-mappings = comDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties.getx-property-mappings();
+        System.assertEquals('cqDamConfigAnnotationPdfDocumentWidth', x-property-mappings.get('cq.dam.config.annotation.pdf.document.width'));
+        System.assertEquals('cqDamConfigAnnotationPdfDocumentHeight', x-property-mappings.get('cq.dam.config.annotation.pdf.document.height'));
+        System.assertEquals('cqDamConfigAnnotationPdfDocumentPaddingHorizontal', x-property-mappings.get('cq.dam.config.annotation.pdf.document.padding.horizontal'));
+        System.assertEquals('cqDamConfigAnnotationPdfDocumentPaddingVertical', x-property-mappings.get('cq.dam.config.annotation.pdf.document.padding.vertical'));
+        System.assertEquals('cqDamConfigAnnotationPdfFontSize', x-property-mappings.get('cq.dam.config.annotation.pdf.font.size'));
+        System.assertEquals('cqDamConfigAnnotationPdfFontColor', x-property-mappings.get('cq.dam.config.annotation.pdf.font.color'));
+        System.assertEquals('cqDamConfigAnnotationPdfFontFamily', x-property-mappings.get('cq.dam.config.annotation.pdf.font.family'));
+        System.assertEquals('cqDamConfigAnnotationPdfFontLight', x-property-mappings.get('cq.dam.config.annotation.pdf.font.light'));
+        System.assertEquals('cqDamConfigAnnotationPdfMarginTextImage', x-property-mappings.get('cq.dam.config.annotation.pdf.marginTextImage'));
+        System.assertEquals('cqDamConfigAnnotationPdfMinImageHeight', x-property-mappings.get('cq.dam.config.annotation.pdf.minImageHeight'));
+        System.assertEquals('cqDamConfigAnnotationPdfReviewStatusWidth', x-property-mappings.get('cq.dam.config.annotation.pdf.reviewStatus.width'));
+        System.assertEquals('cqDamConfigAnnotationPdfReviewStatusColorApproved', x-property-mappings.get('cq.dam.config.annotation.pdf.reviewStatus.color.approved'));
+        System.assertEquals('cqDamConfigAnnotationPdfReviewStatusColorRejected', x-property-mappings.get('cq.dam.config.annotation.pdf.reviewStatus.color.rejected'));
+        System.assertEquals('cqDamConfigAnnotationPdfReviewStatusColorChangesRequested', x-property-mappings.get('cq.dam.config.annotation.pdf.reviewStatus.color.changesRequested'));
+        System.assertEquals('cqDamConfigAnnotationPdfAnnotationMarkerWidth', x-property-mappings.get('cq.dam.config.annotation.pdf.annotationMarker.width'));
+        System.assertEquals('cqDamConfigAnnotationPdfAssetMinheight', x-property-mappings.get('cq.dam.config.annotation.pdf.asset.minheight'));
     }
 }

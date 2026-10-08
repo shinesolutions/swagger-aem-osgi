@@ -1,20 +1,31 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("orgApacheSlingJcrBaseInternalLoginAdminWhitelistFragmentProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingJcrBaseInternalLoginAdminWhitelistFragmentProperties   {
-  
-  private @Valid ConfigNodePropertyString whitelistName = null;
-  private @Valid ConfigNodePropertyArray whitelistBundles = null;
+  private ConfigNodePropertyString whitelistName;
+  private ConfigNodePropertyArray whitelistBundles;
+
+  public OrgApacheSlingJcrBaseInternalLoginAdminWhitelistFragmentProperties() {
+  }
 
   /**
    **/
@@ -26,9 +37,11 @@ public class OrgApacheSlingJcrBaseInternalLoginAdminWhitelistFragmentProperties 
   
   @ApiModelProperty(value = "")
   @JsonProperty("whitelist.name")
-  public ConfigNodePropertyString getWhitelistName() {
+  @Valid public ConfigNodePropertyString getWhitelistName() {
     return whitelistName;
   }
+
+  @JsonProperty("whitelist.name")
   public void setWhitelistName(ConfigNodePropertyString whitelistName) {
     this.whitelistName = whitelistName;
   }
@@ -43,16 +56,18 @@ public class OrgApacheSlingJcrBaseInternalLoginAdminWhitelistFragmentProperties 
   
   @ApiModelProperty(value = "")
   @JsonProperty("whitelist.bundles")
-  public ConfigNodePropertyArray getWhitelistBundles() {
+  @Valid public ConfigNodePropertyArray getWhitelistBundles() {
     return whitelistBundles;
   }
+
+  @JsonProperty("whitelist.bundles")
   public void setWhitelistBundles(ConfigNodePropertyArray whitelistBundles) {
     this.whitelistBundles = whitelistBundles;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -60,8 +75,8 @@ public class OrgApacheSlingJcrBaseInternalLoginAdminWhitelistFragmentProperties 
       return false;
     }
     OrgApacheSlingJcrBaseInternalLoginAdminWhitelistFragmentProperties orgApacheSlingJcrBaseInternalLoginAdminWhitelistFragmentProperties = (OrgApacheSlingJcrBaseInternalLoginAdminWhitelistFragmentProperties) o;
-    return Objects.equals(whitelistName, orgApacheSlingJcrBaseInternalLoginAdminWhitelistFragmentProperties.whitelistName) &&
-        Objects.equals(whitelistBundles, orgApacheSlingJcrBaseInternalLoginAdminWhitelistFragmentProperties.whitelistBundles);
+    return Objects.equals(this.whitelistName, orgApacheSlingJcrBaseInternalLoginAdminWhitelistFragmentProperties.whitelistName) &&
+        Objects.equals(this.whitelistBundles, orgApacheSlingJcrBaseInternalLoginAdminWhitelistFragmentProperties.whitelistBundles);
   }
 
   @Override
@@ -84,11 +99,9 @@ public class OrgApacheSlingJcrBaseInternalLoginAdminWhitelistFragmentProperties 
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

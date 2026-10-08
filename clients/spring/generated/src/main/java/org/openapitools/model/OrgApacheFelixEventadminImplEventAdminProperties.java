@@ -1,42 +1,53 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyFloat;
 import org.openapitools.model.ConfigNodePropertyInteger;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * OrgApacheFelixEventadminImplEventAdminProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class OrgApacheFelixEventadminImplEventAdminProperties   {
-  @JsonProperty("org.apache.felix.eventadmin.ThreadPoolSize")
-  private ConfigNodePropertyInteger orgApacheFelixEventadminThreadPoolSize = null;
+@JsonTypeName("orgApacheFelixEventadminImplEventAdminProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class OrgApacheFelixEventadminImplEventAdminProperties {
 
-  @JsonProperty("org.apache.felix.eventadmin.AsyncToSyncThreadRatio")
-  private ConfigNodePropertyFloat orgApacheFelixEventadminAsyncToSyncThreadRatio = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger orgApacheFelixEventadminThreadPoolSize;
 
-  @JsonProperty("org.apache.felix.eventadmin.Timeout")
-  private ConfigNodePropertyInteger orgApacheFelixEventadminTimeout = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyFloat orgApacheFelixEventadminAsyncToSyncThreadRatio;
 
-  @JsonProperty("org.apache.felix.eventadmin.RequireTopic")
-  private ConfigNodePropertyBoolean orgApacheFelixEventadminRequireTopic = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger orgApacheFelixEventadminTimeout;
 
-  @JsonProperty("org.apache.felix.eventadmin.IgnoreTimeout")
-  private ConfigNodePropertyArray orgApacheFelixEventadminIgnoreTimeout = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean orgApacheFelixEventadminRequireTopic;
 
-  @JsonProperty("org.apache.felix.eventadmin.IgnoreTopic")
-  private ConfigNodePropertyArray orgApacheFelixEventadminIgnoreTopic = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray orgApacheFelixEventadminIgnoreTimeout;
 
-  public OrgApacheFelixEventadminImplEventAdminProperties orgApacheFelixEventadminThreadPoolSize(ConfigNodePropertyInteger orgApacheFelixEventadminThreadPoolSize) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray orgApacheFelixEventadminIgnoreTopic;
+
+  public OrgApacheFelixEventadminImplEventAdminProperties orgApacheFelixEventadminThreadPoolSize(@Nullable ConfigNodePropertyInteger orgApacheFelixEventadminThreadPoolSize) {
     this.orgApacheFelixEventadminThreadPoolSize = orgApacheFelixEventadminThreadPoolSize;
     return this;
   }
@@ -44,20 +55,20 @@ public class OrgApacheFelixEventadminImplEventAdminProperties   {
   /**
    * Get orgApacheFelixEventadminThreadPoolSize
    * @return orgApacheFelixEventadminThreadPoolSize
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getOrgApacheFelixEventadminThreadPoolSize() {
+   */
+  @Valid 
+  @Schema(name = "org.apache.felix.eventadmin.ThreadPoolSize", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("org.apache.felix.eventadmin.ThreadPoolSize")
+  public @Nullable ConfigNodePropertyInteger getOrgApacheFelixEventadminThreadPoolSize() {
     return orgApacheFelixEventadminThreadPoolSize;
   }
 
-  public void setOrgApacheFelixEventadminThreadPoolSize(ConfigNodePropertyInteger orgApacheFelixEventadminThreadPoolSize) {
+  @JsonProperty("org.apache.felix.eventadmin.ThreadPoolSize")
+  public void setOrgApacheFelixEventadminThreadPoolSize(@Nullable ConfigNodePropertyInteger orgApacheFelixEventadminThreadPoolSize) {
     this.orgApacheFelixEventadminThreadPoolSize = orgApacheFelixEventadminThreadPoolSize;
   }
 
-  public OrgApacheFelixEventadminImplEventAdminProperties orgApacheFelixEventadminAsyncToSyncThreadRatio(ConfigNodePropertyFloat orgApacheFelixEventadminAsyncToSyncThreadRatio) {
+  public OrgApacheFelixEventadminImplEventAdminProperties orgApacheFelixEventadminAsyncToSyncThreadRatio(@Nullable ConfigNodePropertyFloat orgApacheFelixEventadminAsyncToSyncThreadRatio) {
     this.orgApacheFelixEventadminAsyncToSyncThreadRatio = orgApacheFelixEventadminAsyncToSyncThreadRatio;
     return this;
   }
@@ -65,20 +76,20 @@ public class OrgApacheFelixEventadminImplEventAdminProperties   {
   /**
    * Get orgApacheFelixEventadminAsyncToSyncThreadRatio
    * @return orgApacheFelixEventadminAsyncToSyncThreadRatio
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyFloat getOrgApacheFelixEventadminAsyncToSyncThreadRatio() {
+   */
+  @Valid 
+  @Schema(name = "org.apache.felix.eventadmin.AsyncToSyncThreadRatio", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("org.apache.felix.eventadmin.AsyncToSyncThreadRatio")
+  public @Nullable ConfigNodePropertyFloat getOrgApacheFelixEventadminAsyncToSyncThreadRatio() {
     return orgApacheFelixEventadminAsyncToSyncThreadRatio;
   }
 
-  public void setOrgApacheFelixEventadminAsyncToSyncThreadRatio(ConfigNodePropertyFloat orgApacheFelixEventadminAsyncToSyncThreadRatio) {
+  @JsonProperty("org.apache.felix.eventadmin.AsyncToSyncThreadRatio")
+  public void setOrgApacheFelixEventadminAsyncToSyncThreadRatio(@Nullable ConfigNodePropertyFloat orgApacheFelixEventadminAsyncToSyncThreadRatio) {
     this.orgApacheFelixEventadminAsyncToSyncThreadRatio = orgApacheFelixEventadminAsyncToSyncThreadRatio;
   }
 
-  public OrgApacheFelixEventadminImplEventAdminProperties orgApacheFelixEventadminTimeout(ConfigNodePropertyInteger orgApacheFelixEventadminTimeout) {
+  public OrgApacheFelixEventadminImplEventAdminProperties orgApacheFelixEventadminTimeout(@Nullable ConfigNodePropertyInteger orgApacheFelixEventadminTimeout) {
     this.orgApacheFelixEventadminTimeout = orgApacheFelixEventadminTimeout;
     return this;
   }
@@ -86,20 +97,20 @@ public class OrgApacheFelixEventadminImplEventAdminProperties   {
   /**
    * Get orgApacheFelixEventadminTimeout
    * @return orgApacheFelixEventadminTimeout
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getOrgApacheFelixEventadminTimeout() {
+   */
+  @Valid 
+  @Schema(name = "org.apache.felix.eventadmin.Timeout", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("org.apache.felix.eventadmin.Timeout")
+  public @Nullable ConfigNodePropertyInteger getOrgApacheFelixEventadminTimeout() {
     return orgApacheFelixEventadminTimeout;
   }
 
-  public void setOrgApacheFelixEventadminTimeout(ConfigNodePropertyInteger orgApacheFelixEventadminTimeout) {
+  @JsonProperty("org.apache.felix.eventadmin.Timeout")
+  public void setOrgApacheFelixEventadminTimeout(@Nullable ConfigNodePropertyInteger orgApacheFelixEventadminTimeout) {
     this.orgApacheFelixEventadminTimeout = orgApacheFelixEventadminTimeout;
   }
 
-  public OrgApacheFelixEventadminImplEventAdminProperties orgApacheFelixEventadminRequireTopic(ConfigNodePropertyBoolean orgApacheFelixEventadminRequireTopic) {
+  public OrgApacheFelixEventadminImplEventAdminProperties orgApacheFelixEventadminRequireTopic(@Nullable ConfigNodePropertyBoolean orgApacheFelixEventadminRequireTopic) {
     this.orgApacheFelixEventadminRequireTopic = orgApacheFelixEventadminRequireTopic;
     return this;
   }
@@ -107,20 +118,20 @@ public class OrgApacheFelixEventadminImplEventAdminProperties   {
   /**
    * Get orgApacheFelixEventadminRequireTopic
    * @return orgApacheFelixEventadminRequireTopic
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getOrgApacheFelixEventadminRequireTopic() {
+   */
+  @Valid 
+  @Schema(name = "org.apache.felix.eventadmin.RequireTopic", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("org.apache.felix.eventadmin.RequireTopic")
+  public @Nullable ConfigNodePropertyBoolean getOrgApacheFelixEventadminRequireTopic() {
     return orgApacheFelixEventadminRequireTopic;
   }
 
-  public void setOrgApacheFelixEventadminRequireTopic(ConfigNodePropertyBoolean orgApacheFelixEventadminRequireTopic) {
+  @JsonProperty("org.apache.felix.eventadmin.RequireTopic")
+  public void setOrgApacheFelixEventadminRequireTopic(@Nullable ConfigNodePropertyBoolean orgApacheFelixEventadminRequireTopic) {
     this.orgApacheFelixEventadminRequireTopic = orgApacheFelixEventadminRequireTopic;
   }
 
-  public OrgApacheFelixEventadminImplEventAdminProperties orgApacheFelixEventadminIgnoreTimeout(ConfigNodePropertyArray orgApacheFelixEventadminIgnoreTimeout) {
+  public OrgApacheFelixEventadminImplEventAdminProperties orgApacheFelixEventadminIgnoreTimeout(@Nullable ConfigNodePropertyArray orgApacheFelixEventadminIgnoreTimeout) {
     this.orgApacheFelixEventadminIgnoreTimeout = orgApacheFelixEventadminIgnoreTimeout;
     return this;
   }
@@ -128,20 +139,20 @@ public class OrgApacheFelixEventadminImplEventAdminProperties   {
   /**
    * Get orgApacheFelixEventadminIgnoreTimeout
    * @return orgApacheFelixEventadminIgnoreTimeout
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getOrgApacheFelixEventadminIgnoreTimeout() {
+   */
+  @Valid 
+  @Schema(name = "org.apache.felix.eventadmin.IgnoreTimeout", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("org.apache.felix.eventadmin.IgnoreTimeout")
+  public @Nullable ConfigNodePropertyArray getOrgApacheFelixEventadminIgnoreTimeout() {
     return orgApacheFelixEventadminIgnoreTimeout;
   }
 
-  public void setOrgApacheFelixEventadminIgnoreTimeout(ConfigNodePropertyArray orgApacheFelixEventadminIgnoreTimeout) {
+  @JsonProperty("org.apache.felix.eventadmin.IgnoreTimeout")
+  public void setOrgApacheFelixEventadminIgnoreTimeout(@Nullable ConfigNodePropertyArray orgApacheFelixEventadminIgnoreTimeout) {
     this.orgApacheFelixEventadminIgnoreTimeout = orgApacheFelixEventadminIgnoreTimeout;
   }
 
-  public OrgApacheFelixEventadminImplEventAdminProperties orgApacheFelixEventadminIgnoreTopic(ConfigNodePropertyArray orgApacheFelixEventadminIgnoreTopic) {
+  public OrgApacheFelixEventadminImplEventAdminProperties orgApacheFelixEventadminIgnoreTopic(@Nullable ConfigNodePropertyArray orgApacheFelixEventadminIgnoreTopic) {
     this.orgApacheFelixEventadminIgnoreTopic = orgApacheFelixEventadminIgnoreTopic;
     return this;
   }
@@ -149,22 +160,21 @@ public class OrgApacheFelixEventadminImplEventAdminProperties   {
   /**
    * Get orgApacheFelixEventadminIgnoreTopic
    * @return orgApacheFelixEventadminIgnoreTopic
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getOrgApacheFelixEventadminIgnoreTopic() {
+   */
+  @Valid 
+  @Schema(name = "org.apache.felix.eventadmin.IgnoreTopic", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("org.apache.felix.eventadmin.IgnoreTopic")
+  public @Nullable ConfigNodePropertyArray getOrgApacheFelixEventadminIgnoreTopic() {
     return orgApacheFelixEventadminIgnoreTopic;
   }
 
-  public void setOrgApacheFelixEventadminIgnoreTopic(ConfigNodePropertyArray orgApacheFelixEventadminIgnoreTopic) {
+  @JsonProperty("org.apache.felix.eventadmin.IgnoreTopic")
+  public void setOrgApacheFelixEventadminIgnoreTopic(@Nullable ConfigNodePropertyArray orgApacheFelixEventadminIgnoreTopic) {
     this.orgApacheFelixEventadminIgnoreTopic = orgApacheFelixEventadminIgnoreTopic;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -189,7 +199,6 @@ public class OrgApacheFelixEventadminImplEventAdminProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class OrgApacheFelixEventadminImplEventAdminProperties {\n");
-    
     sb.append("    orgApacheFelixEventadminThreadPoolSize: ").append(toIndentedString(orgApacheFelixEventadminThreadPoolSize)).append("\n");
     sb.append("    orgApacheFelixEventadminAsyncToSyncThreadRatio: ").append(toIndentedString(orgApacheFelixEventadminAsyncToSyncThreadRatio)).append("\n");
     sb.append("    orgApacheFelixEventadminTimeout: ").append(toIndentedString(orgApacheFelixEventadminTimeout)).append("\n");
@@ -204,11 +213,8 @@ public class OrgApacheFelixEventadminImplEventAdminProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

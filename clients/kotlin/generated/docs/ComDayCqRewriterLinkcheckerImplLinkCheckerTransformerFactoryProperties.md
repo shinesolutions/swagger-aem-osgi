@@ -2,15 +2,15 @@
 # ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**linkcheckertransformerPerioddisableRewriting** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**linkcheckertransformerPerioddisableChecking** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**linkcheckertransformerPeriodmapCacheSize** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**linkcheckertransformerPeriodstrictExtensionCheck** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**linkcheckertransformerPeriodstripHtmltExtension** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**linkcheckertransformerPeriodrewriteElements** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**linkcheckertransformerPeriodstripExtensionPathBlacklist** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **linkcheckertransformerDisableRewriting** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **linkcheckertransformerDisableChecking** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **linkcheckertransformerMapCacheSize** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **linkcheckertransformerStrictExtensionCheck** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **linkcheckertransformerStripHtmltExtension** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **linkcheckertransformerRewriteElements** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **linkcheckertransformerStripExtensionPathBlacklist** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
 
 
 

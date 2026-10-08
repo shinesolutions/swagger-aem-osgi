@@ -1,28 +1,39 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyInteger;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * OrgApacheSlingI18nImplI18NFilterProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class OrgApacheSlingI18nImplI18NFilterProperties   {
-  @JsonProperty("service.ranking")
-  private ConfigNodePropertyInteger serviceRanking = null;
+@JsonTypeName("orgApacheSlingI18nImplI18NFilterProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class OrgApacheSlingI18nImplI18NFilterProperties {
 
-  @JsonProperty("sling.filter.scope")
-  private ConfigNodePropertyArray slingFilterScope = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger serviceRanking;
 
-  public OrgApacheSlingI18nImplI18NFilterProperties serviceRanking(ConfigNodePropertyInteger serviceRanking) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray slingFilterScope;
+
+  public OrgApacheSlingI18nImplI18NFilterProperties serviceRanking(@Nullable ConfigNodePropertyInteger serviceRanking) {
     this.serviceRanking = serviceRanking;
     return this;
   }
@@ -30,20 +41,20 @@ public class OrgApacheSlingI18nImplI18NFilterProperties   {
   /**
    * Get serviceRanking
    * @return serviceRanking
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getServiceRanking() {
+   */
+  @Valid 
+  @Schema(name = "service.ranking", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("service.ranking")
+  public @Nullable ConfigNodePropertyInteger getServiceRanking() {
     return serviceRanking;
   }
 
-  public void setServiceRanking(ConfigNodePropertyInteger serviceRanking) {
+  @JsonProperty("service.ranking")
+  public void setServiceRanking(@Nullable ConfigNodePropertyInteger serviceRanking) {
     this.serviceRanking = serviceRanking;
   }
 
-  public OrgApacheSlingI18nImplI18NFilterProperties slingFilterScope(ConfigNodePropertyArray slingFilterScope) {
+  public OrgApacheSlingI18nImplI18NFilterProperties slingFilterScope(@Nullable ConfigNodePropertyArray slingFilterScope) {
     this.slingFilterScope = slingFilterScope;
     return this;
   }
@@ -51,22 +62,21 @@ public class OrgApacheSlingI18nImplI18NFilterProperties   {
   /**
    * Get slingFilterScope
    * @return slingFilterScope
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getSlingFilterScope() {
+   */
+  @Valid 
+  @Schema(name = "sling.filter.scope", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("sling.filter.scope")
+  public @Nullable ConfigNodePropertyArray getSlingFilterScope() {
     return slingFilterScope;
   }
 
-  public void setSlingFilterScope(ConfigNodePropertyArray slingFilterScope) {
+  @JsonProperty("sling.filter.scope")
+  public void setSlingFilterScope(@Nullable ConfigNodePropertyArray slingFilterScope) {
     this.slingFilterScope = slingFilterScope;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -87,7 +97,6 @@ public class OrgApacheSlingI18nImplI18NFilterProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class OrgApacheSlingI18nImplI18NFilterProperties {\n");
-    
     sb.append("    serviceRanking: ").append(toIndentedString(serviceRanking)).append("\n");
     sb.append("    slingFilterScope: ").append(toIndentedString(slingFilterScope)).append("\n");
     sb.append("}");
@@ -98,11 +107,8 @@ public class OrgApacheSlingI18nImplI18NFilterProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

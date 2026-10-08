@@ -2,10 +2,10 @@
 # ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmenProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**cqPeriodsocialPeriodcontentPeriodfragmentsPeriodservicesPeriodenabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**cqPeriodsocialPeriodcontentPeriodfragmentsPeriodservicesPeriodwaitTimeSeconds** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **cqSocialContentFragmentsServicesEnabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **cqSocialContentFragmentsServicesWaitTimeSeconds** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
 
 
 

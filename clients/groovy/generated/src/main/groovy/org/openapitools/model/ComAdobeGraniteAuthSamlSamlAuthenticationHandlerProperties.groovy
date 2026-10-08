@@ -11,56 +11,56 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties {
-    ConfigNodePropertyArray path = null
-
-    ConfigNodePropertyInteger serviceRanking = null
-
-    ConfigNodePropertyString idpUrl = null
-
-    ConfigNodePropertyString idpCertAlias = null
-
-    ConfigNodePropertyBoolean idpHttpRedirect = null
-
-    ConfigNodePropertyString serviceProviderEntityId = null
-
-    ConfigNodePropertyString assertionConsumerServiceURL = null
-
-    ConfigNodePropertyString spPrivateKeyAlias = null
-
-    ConfigNodePropertyString keyStorePassword = null
-
-    ConfigNodePropertyString defaultRedirectUrl = null
-
-    ConfigNodePropertyString userIDAttribute = null
-
-    ConfigNodePropertyBoolean useEncryption = null
-
-    ConfigNodePropertyBoolean createUser = null
-
-    ConfigNodePropertyString userIntermediatePath = null
-
-    ConfigNodePropertyBoolean addGroupMemberships = null
-
-    ConfigNodePropertyString groupMembershipAttribute = null
-
-    ConfigNodePropertyArray defaultGroups = null
-
-    ConfigNodePropertyString nameIdFormat = null
-
-    ConfigNodePropertyArray synchronizeAttributes = null
-
-    ConfigNodePropertyBoolean handleLogout = null
-
-    ConfigNodePropertyString logoutUrl = null
-
-    ConfigNodePropertyInteger clockTolerance = null
-
-    ConfigNodePropertyString digestMethod = null
-
-    ConfigNodePropertyString signatureMethod = null
-
-    ConfigNodePropertyDropDown identitySyncType = null
-
-    ConfigNodePropertyString idpIdentifier = null
-
+    
+    ConfigNodePropertyArray path
+    
+    ConfigNodePropertyInteger serviceRanking
+    
+    ConfigNodePropertyString idpUrl
+    
+    ConfigNodePropertyString idpCertAlias
+    
+    ConfigNodePropertyBoolean idpHttpRedirect
+    
+    ConfigNodePropertyString serviceProviderEntityId
+    
+    ConfigNodePropertyString assertionConsumerServiceURL
+    
+    ConfigNodePropertyString spPrivateKeyAlias
+    
+    ConfigNodePropertyString keyStorePassword
+    
+    ConfigNodePropertyString defaultRedirectUrl
+    
+    ConfigNodePropertyString userIDAttribute
+    
+    ConfigNodePropertyBoolean useEncryption
+    
+    ConfigNodePropertyBoolean createUser
+    
+    ConfigNodePropertyString userIntermediatePath
+    
+    ConfigNodePropertyBoolean addGroupMemberships
+    
+    ConfigNodePropertyString groupMembershipAttribute
+    
+    ConfigNodePropertyArray defaultGroups
+    
+    ConfigNodePropertyString nameIdFormat
+    
+    ConfigNodePropertyArray synchronizeAttributes
+    
+    ConfigNodePropertyBoolean handleLogout
+    
+    ConfigNodePropertyString logoutUrl
+    
+    ConfigNodePropertyInteger clockTolerance
+    
+    ConfigNodePropertyString digestMethod
+    
+    ConfigNodePropertyString signatureMethod
+    
+    ConfigNodePropertyDropDown identitySyncType
+    
+    ConfigNodePropertyString idpIdentifier
 }

@@ -72,7 +72,7 @@ private class OASComAdobeCqSecurityHcBundlesImplWcTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeCqSecurityHcBundlesImplWc comAdobeCqSecurityHcBundlesImplWcmFilterHealthCheckProperties = new OASComAdobeCqSecurityHcBundlesImplWc();
-        Map<String, String> propertyMappings = comAdobeCqSecurityHcBundlesImplWcmFilterHealthCheckProperties.getPropertyMappings();
-        System.assertEquals('hcTags', propertyMappings.get('hc.tags'));
+        Map<String, String> x-property-mappings = comAdobeCqSecurityHcBundlesImplWcmFilterHealthCheckProperties.getx-property-mappings();
+        System.assertEquals('hcTags', x-property-mappings.get('hc.tags'));
     }
 }

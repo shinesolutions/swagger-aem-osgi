@@ -1,0 +1,93 @@
+{
+  "namespace": "model",
+  "type": "record",
+  "doc": "",
+  "name": "ComAdobeGraniteAuthOauthAccesstokenProviderProperties",
+  "fields": [
+    {
+      "name": "name",
+      "type": ["null", "model.ConfigNodePropertyString"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "auth.token.provider.title",
+      "type": ["null", "model.ConfigNodePropertyString"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "auth.token.provider.default.claims",
+      "type": ["null", "model.ConfigNodePropertyArray"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "auth.token.provider.endpoint",
+      "type": ["null", "model.ConfigNodePropertyString"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "auth.access.token.request",
+      "type": ["null", "model.ConfigNodePropertyString"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "auth.token.provider.keypair.alias",
+      "type": ["null", "model.ConfigNodePropertyString"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "auth.token.provider.conn.timeout",
+      "type": ["null", "model.ConfigNodePropertyInteger"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "auth.token.provider.so.timeout",
+      "type": ["null", "model.ConfigNodePropertyInteger"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "auth.token.provider.client.id",
+      "type": ["null", "model.ConfigNodePropertyString"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "auth.token.provider.scope",
+      "type": ["null", "model.ConfigNodePropertyString"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "auth.token.provider.reuse.access.token",
+      "type": ["null", "model.ConfigNodePropertyBoolean"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "auth.token.provider.relaxed.ssl",
+      "type": ["null", "model.ConfigNodePropertyBoolean"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "token.request.customizer.type",
+      "type": ["null", "model.ConfigNodePropertyString"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "auth.token.validator.type",
+      "type": ["null", "model.ConfigNodePropertyString"],
+      "doc": "",
+      "default": null
+    }
+  ]
+
+}

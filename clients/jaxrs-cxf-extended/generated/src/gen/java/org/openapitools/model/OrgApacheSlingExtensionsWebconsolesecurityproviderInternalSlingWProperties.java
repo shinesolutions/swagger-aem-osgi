@@ -1,0 +1,108 @@
+package org.openapitools.model;
+
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.model.ConfigNodePropertyArray;
+import javax.validation.constraints.*;
+import javax.validation.Valid;
+
+import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.annotation.JsonProperty;
+
+
+public class OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWProperties  {
+  
+  @ApiModelProperty(value = "")
+  @Valid
+  private ConfigNodePropertyArray users;
+
+  @ApiModelProperty(value = "")
+  @Valid
+  private ConfigNodePropertyArray groups;
+ /**
+  * Get users
+  * @return users
+  */
+  @JsonProperty("users")
+  public ConfigNodePropertyArray getUsers() {
+    return users;
+  }
+
+  /**
+   * Sets the <code>users</code> property.
+   */
+ public void setUsers(ConfigNodePropertyArray users) {
+    this.users = users;
+  }
+
+  /**
+   * Sets the <code>users</code> property.
+   */
+  public OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWProperties users(ConfigNodePropertyArray users) {
+    this.users = users;
+    return this;
+  }
+
+ /**
+  * Get groups
+  * @return groups
+  */
+  @JsonProperty("groups")
+  public ConfigNodePropertyArray getGroups() {
+    return groups;
+  }
+
+  /**
+   * Sets the <code>groups</code> property.
+   */
+ public void setGroups(ConfigNodePropertyArray groups) {
+    this.groups = groups;
+  }
+
+  /**
+   * Sets the <code>groups</code> property.
+   */
+  public OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWProperties groups(ConfigNodePropertyArray groups) {
+    this.groups = groups;
+    return this;
+  }
+
+
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWProperties orgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWProperties = (OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWProperties) o;
+    return Objects.equals(this.users, orgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWProperties.users) &&
+        Objects.equals(this.groups, orgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWProperties.groups);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(users, groups);
+  }
+
+  @Override
+  public String toString() {
+    StringBuilder sb = new StringBuilder();
+    sb.append("class OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWProperties {\n");
+    
+    sb.append("    users: ").append(toIndentedString(users)).append("\n");
+    sb.append("    groups: ").append(toIndentedString(groups)).append("\n");
+    sb.append("}");
+    return sb.toString();
+  }
+
+  /**
+   * Convert the given object to string with each line indented by 4 spaces
+   * (except the first line).
+   */
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
+  }
+}
+

@@ -7,18 +7,18 @@ import org.openapitools.model.OrgApacheSlingI18nImplJcrResourceBundleProviderPro
 
 @Canonical
 class OrgApacheSlingI18nImplJcrResourceBundleProviderInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheSlingI18nImplJcrResourceBundleProviderProperties properties = null
-
-    String additionalProperties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheSlingI18nImplJcrResourceBundleProviderProperties properties
+    
+    String additionalProperties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

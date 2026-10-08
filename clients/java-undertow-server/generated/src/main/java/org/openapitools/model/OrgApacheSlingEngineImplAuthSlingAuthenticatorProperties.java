@@ -1,3 +1,13 @@
+/*
+ * Adobe Experience Manager OSGI config (AEM) API
+ *
+ * Swagger AEM OSGI is an OpenAPI specification for Adobe Experience Manager (AEM) OSGI Configurations API
+ *
+ * OpenAPI document version: 1.0.0-pre.0
+ * Maintained by: opensource@shinesolutions.com
+ *
+ * AUTO-GENERATED FILE, DO NOT MODIFY!
+ */
 package org.openapitools.model;
 
 import java.util.Objects;
@@ -14,23 +24,23 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2019-08-05T00:56:20.785Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2026-10-07T12:53:42.280804918Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties   {
   
-  private ConfigNodePropertyString osgiHttpWhiteboardContextSelect = null;
-  private ConfigNodePropertyString osgiHttpWhiteboardListener = null;
-  private ConfigNodePropertyString authSudoCookie = null;
-  private ConfigNodePropertyString authSudoParameter = null;
-  private ConfigNodePropertyBoolean authAnnonymous = null;
-  private ConfigNodePropertyArray slingAuthRequirements = null;
-  private ConfigNodePropertyString slingAuthAnonymousUser = null;
-  private ConfigNodePropertyString slingAuthAnonymousPassword = null;
-  private ConfigNodePropertyDropDown authHttp = null;
-  private ConfigNodePropertyString authHttpRealm = null;
-  private ConfigNodePropertyArray authUriSuffix = null;
+  private ConfigNodePropertyString osgiHttpWhiteboardContextSelect;
+  private ConfigNodePropertyString osgiHttpWhiteboardListener;
+  private ConfigNodePropertyString authSudoCookie;
+  private ConfigNodePropertyString authSudoParameter;
+  private ConfigNodePropertyBoolean authAnnonymous;
+  private ConfigNodePropertyArray slingAuthRequirements;
+  private ConfigNodePropertyString slingAuthAnonymousUser;
+  private ConfigNodePropertyString slingAuthAnonymousPassword;
+  private ConfigNodePropertyDropDown authHttp;
+  private ConfigNodePropertyString authHttpRealm;
+  private ConfigNodePropertyArray authUriSuffix;
 
   /**
-   **/
+   */
   public OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties osgiHttpWhiteboardContextSelect(ConfigNodePropertyString osgiHttpWhiteboardContextSelect) {
     this.osgiHttpWhiteboardContextSelect = osgiHttpWhiteboardContextSelect;
     return this;
@@ -47,7 +57,7 @@ public class OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties osgiHttpWhiteboardListener(ConfigNodePropertyString osgiHttpWhiteboardListener) {
     this.osgiHttpWhiteboardListener = osgiHttpWhiteboardListener;
     return this;
@@ -64,7 +74,7 @@ public class OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties authSudoCookie(ConfigNodePropertyString authSudoCookie) {
     this.authSudoCookie = authSudoCookie;
     return this;
@@ -81,7 +91,7 @@ public class OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties authSudoParameter(ConfigNodePropertyString authSudoParameter) {
     this.authSudoParameter = authSudoParameter;
     return this;
@@ -98,7 +108,7 @@ public class OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties authAnnonymous(ConfigNodePropertyBoolean authAnnonymous) {
     this.authAnnonymous = authAnnonymous;
     return this;
@@ -115,7 +125,7 @@ public class OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties slingAuthRequirements(ConfigNodePropertyArray slingAuthRequirements) {
     this.slingAuthRequirements = slingAuthRequirements;
     return this;
@@ -132,7 +142,7 @@ public class OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties slingAuthAnonymousUser(ConfigNodePropertyString slingAuthAnonymousUser) {
     this.slingAuthAnonymousUser = slingAuthAnonymousUser;
     return this;
@@ -149,7 +159,7 @@ public class OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties slingAuthAnonymousPassword(ConfigNodePropertyString slingAuthAnonymousPassword) {
     this.slingAuthAnonymousPassword = slingAuthAnonymousPassword;
     return this;
@@ -166,7 +176,7 @@ public class OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties authHttp(ConfigNodePropertyDropDown authHttp) {
     this.authHttp = authHttp;
     return this;
@@ -183,7 +193,7 @@ public class OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties authHttpRealm(ConfigNodePropertyString authHttpRealm) {
     this.authHttpRealm = authHttpRealm;
     return this;
@@ -200,7 +210,7 @@ public class OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties authUriSuffix(ConfigNodePropertyArray authUriSuffix) {
     this.authUriSuffix = authUriSuffix;
     return this;
@@ -218,7 +228,7 @@ public class OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -268,11 +278,8 @@ public class OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

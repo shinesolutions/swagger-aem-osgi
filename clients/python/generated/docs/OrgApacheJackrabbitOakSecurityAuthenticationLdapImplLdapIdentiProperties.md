@@ -1,6 +1,8 @@
 # OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties
 
+
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **provider_name** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
@@ -30,6 +32,23 @@ Name | Type | Description | Notes
 **use_uid_for_ext_id** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] 
 **customattributes** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 
 
+## Example
+
+```python
+from swaggeraemosgi.models.org_apache_jackrabbit_oak_security_authentication_ldap_impl_ldap_identi_properties import OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties
+
+# TODO update the JSON string below
+json = "{}"
+# create an instance of OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties from a JSON string
+org_apache_jackrabbit_oak_security_authentication_ldap_impl_ldap_identi_properties_instance = OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties.from_json(json)
+# print the JSON string representation of the object
+print(OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties.to_json())
+
+# convert the object into a dict
+org_apache_jackrabbit_oak_security_authentication_ldap_impl_ldap_identi_properties_dict = org_apache_jackrabbit_oak_security_authentication_ldap_impl_ldap_identi_properties_instance.to_dict()
+# create an instance of OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties from a dict
+org_apache_jackrabbit_oak_security_authentication_ldap_impl_ldap_identi_properties_from_dict = OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties.from_dict(org_apache_jackrabbit_oak_security_authentication_ldap_impl_ldap_identi_properties_dict)
+```
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 
 

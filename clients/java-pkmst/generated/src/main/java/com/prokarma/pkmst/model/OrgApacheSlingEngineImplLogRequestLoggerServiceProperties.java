@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyBoolean;
 import com.prokarma.pkmst.model.ConfigNodePropertyDropDown;
 import com.prokarma.pkmst.model.ConfigNodePropertyString;
@@ -17,30 +18,29 @@ import io.swagger.annotations.ApiModelProperty;
  * OrgApacheSlingEngineImplLogRequestLoggerServiceProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingEngineImplLogRequestLoggerServiceProperties   {
   @JsonProperty("request.log.service.format")
-  private ConfigNodePropertyString requestLogServiceFormat = null;
+  private ConfigNodePropertyString requestLogServiceFormat;
 
   @JsonProperty("request.log.service.output")
-  private ConfigNodePropertyString requestLogServiceOutput = null;
+  private ConfigNodePropertyString requestLogServiceOutput;
 
   @JsonProperty("request.log.service.outputtype")
-  private ConfigNodePropertyDropDown requestLogServiceOutputtype = null;
+  private ConfigNodePropertyDropDown requestLogServiceOutputtype;
 
   @JsonProperty("request.log.service.onentry")
-  private ConfigNodePropertyBoolean requestLogServiceOnentry = null;
+  private ConfigNodePropertyBoolean requestLogServiceOnentry;
 
   public OrgApacheSlingEngineImplLogRequestLoggerServiceProperties requestLogServiceFormat(ConfigNodePropertyString requestLogServiceFormat) {
     this.requestLogServiceFormat = requestLogServiceFormat;
     return this;
   }
 
-   /**
+  /**
    * Get requestLogServiceFormat
    * @return requestLogServiceFormat
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getRequestLogServiceFormat() {
     return requestLogServiceFormat;
@@ -55,10 +55,10 @@ public class OrgApacheSlingEngineImplLogRequestLoggerServiceProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get requestLogServiceOutput
    * @return requestLogServiceOutput
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getRequestLogServiceOutput() {
     return requestLogServiceOutput;
@@ -73,10 +73,10 @@ public class OrgApacheSlingEngineImplLogRequestLoggerServiceProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get requestLogServiceOutputtype
    * @return requestLogServiceOutputtype
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyDropDown getRequestLogServiceOutputtype() {
     return requestLogServiceOutputtype;
@@ -91,10 +91,10 @@ public class OrgApacheSlingEngineImplLogRequestLoggerServiceProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get requestLogServiceOnentry
    * @return requestLogServiceOnentry
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getRequestLogServiceOnentry() {
     return requestLogServiceOnentry;
@@ -106,7 +106,7 @@ public class OrgApacheSlingEngineImplLogRequestLoggerServiceProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -142,11 +142,8 @@ public class OrgApacheSlingEngineImplLogRequestLoggerServiceProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -9,10 +9,10 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiProperties {
-    ConfigNodePropertyArray cugSupportedPaths = null
-
-    ConfigNodePropertyBoolean cugEnabled = null
-
-    ConfigNodePropertyInteger configurationRanking = null
-
+    
+    ConfigNodePropertyArray cugSupportedPaths
+    
+    ConfigNodePropertyBoolean cugEnabled
+    
+    ConfigNodePropertyInteger configurationRanking
 }

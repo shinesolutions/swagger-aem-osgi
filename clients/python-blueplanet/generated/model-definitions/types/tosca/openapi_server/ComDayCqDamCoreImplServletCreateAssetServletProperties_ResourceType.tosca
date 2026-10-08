@@ -1,0 +1,36 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqDamCoreImplServletCreateAssetServletProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqDamCoreImplServletCreateAssetServletProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+}
+resourceTypes {
+
+  ComDayCqDamCoreImplServletCreateAssetServletProperties {
+    title = ComDayCqDamCoreImplServletCreateAssetServletProperties
+    description = ComDayCqDamCoreImplServletCreateAssetServletProperties
+    derivedFrom = Root
+    properties {
+        detect_duplicate {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqDamCoreImplServletCreateAssetServletProperties {
+    title = ComDayCqDamCoreImplServletCreateAssetServletProperties
+    description = ComDayCqDamCoreImplServletCreateAssetServletProperties
+    implements = openapi_server.resourceTypes.ComDayCqDamCoreImplServletCreateAssetServletProperties
+
+  }
+}

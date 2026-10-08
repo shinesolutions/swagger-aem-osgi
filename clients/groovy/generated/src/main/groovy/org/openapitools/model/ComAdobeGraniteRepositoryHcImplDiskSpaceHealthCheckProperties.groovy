@@ -8,10 +8,10 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class ComAdobeGraniteRepositoryHcImplDiskSpaceHealthCheckProperties {
-    ConfigNodePropertyArray hcTags = null
-
-    ConfigNodePropertyInteger diskSpaceWarnThreshold = null
-
-    ConfigNodePropertyInteger diskSpaceErrorThreshold = null
-
+    
+    ConfigNodePropertyArray hcTags
+    
+    ConfigNodePropertyInteger diskSpaceWarnThreshold
+    
+    ConfigNodePropertyInteger diskSpaceErrorThreshold
 }

@@ -1,34 +1,45 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryProperties   {
-  @JsonProperty("java.classdebuginfo")
-  private ConfigNodePropertyBoolean javaClassdebuginfo = null;
+@JsonTypeName("orgApacheSlingScriptingJavaImplJavaScriptEngineFactoryProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryProperties {
 
-  @JsonProperty("java.javaEncoding")
-  private ConfigNodePropertyString javaJavaEncoding = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean javaClassdebuginfo;
 
-  @JsonProperty("java.compilerSourceVM")
-  private ConfigNodePropertyString javaCompilerSourceVM = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString javaJavaEncoding;
 
-  @JsonProperty("java.compilerTargetVM")
-  private ConfigNodePropertyString javaCompilerTargetVM = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString javaCompilerSourceVM;
 
-  public OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryProperties javaClassdebuginfo(ConfigNodePropertyBoolean javaClassdebuginfo) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString javaCompilerTargetVM;
+
+  public OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryProperties javaClassdebuginfo(@Nullable ConfigNodePropertyBoolean javaClassdebuginfo) {
     this.javaClassdebuginfo = javaClassdebuginfo;
     return this;
   }
@@ -36,20 +47,20 @@ public class OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryProperties   
   /**
    * Get javaClassdebuginfo
    * @return javaClassdebuginfo
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getJavaClassdebuginfo() {
+   */
+  @Valid 
+  @Schema(name = "java.classdebuginfo", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("java.classdebuginfo")
+  public @Nullable ConfigNodePropertyBoolean getJavaClassdebuginfo() {
     return javaClassdebuginfo;
   }
 
-  public void setJavaClassdebuginfo(ConfigNodePropertyBoolean javaClassdebuginfo) {
+  @JsonProperty("java.classdebuginfo")
+  public void setJavaClassdebuginfo(@Nullable ConfigNodePropertyBoolean javaClassdebuginfo) {
     this.javaClassdebuginfo = javaClassdebuginfo;
   }
 
-  public OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryProperties javaJavaEncoding(ConfigNodePropertyString javaJavaEncoding) {
+  public OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryProperties javaJavaEncoding(@Nullable ConfigNodePropertyString javaJavaEncoding) {
     this.javaJavaEncoding = javaJavaEncoding;
     return this;
   }
@@ -57,20 +68,20 @@ public class OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryProperties   
   /**
    * Get javaJavaEncoding
    * @return javaJavaEncoding
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getJavaJavaEncoding() {
+   */
+  @Valid 
+  @Schema(name = "java.javaEncoding", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("java.javaEncoding")
+  public @Nullable ConfigNodePropertyString getJavaJavaEncoding() {
     return javaJavaEncoding;
   }
 
-  public void setJavaJavaEncoding(ConfigNodePropertyString javaJavaEncoding) {
+  @JsonProperty("java.javaEncoding")
+  public void setJavaJavaEncoding(@Nullable ConfigNodePropertyString javaJavaEncoding) {
     this.javaJavaEncoding = javaJavaEncoding;
   }
 
-  public OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryProperties javaCompilerSourceVM(ConfigNodePropertyString javaCompilerSourceVM) {
+  public OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryProperties javaCompilerSourceVM(@Nullable ConfigNodePropertyString javaCompilerSourceVM) {
     this.javaCompilerSourceVM = javaCompilerSourceVM;
     return this;
   }
@@ -78,20 +89,20 @@ public class OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryProperties   
   /**
    * Get javaCompilerSourceVM
    * @return javaCompilerSourceVM
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getJavaCompilerSourceVM() {
+   */
+  @Valid 
+  @Schema(name = "java.compilerSourceVM", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("java.compilerSourceVM")
+  public @Nullable ConfigNodePropertyString getJavaCompilerSourceVM() {
     return javaCompilerSourceVM;
   }
 
-  public void setJavaCompilerSourceVM(ConfigNodePropertyString javaCompilerSourceVM) {
+  @JsonProperty("java.compilerSourceVM")
+  public void setJavaCompilerSourceVM(@Nullable ConfigNodePropertyString javaCompilerSourceVM) {
     this.javaCompilerSourceVM = javaCompilerSourceVM;
   }
 
-  public OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryProperties javaCompilerTargetVM(ConfigNodePropertyString javaCompilerTargetVM) {
+  public OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryProperties javaCompilerTargetVM(@Nullable ConfigNodePropertyString javaCompilerTargetVM) {
     this.javaCompilerTargetVM = javaCompilerTargetVM;
     return this;
   }
@@ -99,22 +110,21 @@ public class OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryProperties   
   /**
    * Get javaCompilerTargetVM
    * @return javaCompilerTargetVM
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getJavaCompilerTargetVM() {
+   */
+  @Valid 
+  @Schema(name = "java.compilerTargetVM", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("java.compilerTargetVM")
+  public @Nullable ConfigNodePropertyString getJavaCompilerTargetVM() {
     return javaCompilerTargetVM;
   }
 
-  public void setJavaCompilerTargetVM(ConfigNodePropertyString javaCompilerTargetVM) {
+  @JsonProperty("java.compilerTargetVM")
+  public void setJavaCompilerTargetVM(@Nullable ConfigNodePropertyString javaCompilerTargetVM) {
     this.javaCompilerTargetVM = javaCompilerTargetVM;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -137,7 +147,6 @@ public class OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryProperties   
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryProperties {\n");
-    
     sb.append("    javaClassdebuginfo: ").append(toIndentedString(javaClassdebuginfo)).append("\n");
     sb.append("    javaJavaEncoding: ").append(toIndentedString(javaJavaEncoding)).append("\n");
     sb.append("    javaCompilerSourceVM: ").append(toIndentedString(javaCompilerSourceVM)).append("\n");
@@ -150,11 +159,8 @@ public class OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryProperties   
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

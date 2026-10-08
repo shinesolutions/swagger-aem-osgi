@@ -8,8 +8,8 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmenProperties {
-    ConfigNodePropertyBoolean cqSocialContentFragmentsServicesEnabled = null
-
-    ConfigNodePropertyInteger cqSocialContentFragmentsServicesWaitTimeSeconds = null
-
+    
+    ConfigNodePropertyBoolean cqSocialContentFragmentsServicesEnabled
+    
+    ConfigNodePropertyInteger cqSocialContentFragmentsServicesWaitTimeSeconds
 }

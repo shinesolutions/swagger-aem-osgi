@@ -3,6 +3,7 @@ package org.openapitools.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
@@ -14,28 +15,28 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaInflectorServerCodegen", date = "2019-08-05T00:53:46.291Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaInflectorServerCodegen", date = "2026-10-07T12:53:12.340274163Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingServletsPostImplSlingPostServletProperties   {
   @JsonProperty("servlet.post.dateFormats")
-  private ConfigNodePropertyArray servletPostDateFormats = null;
+  private ConfigNodePropertyArray servletPostDateFormats;
 
   @JsonProperty("servlet.post.nodeNameHints")
-  private ConfigNodePropertyArray servletPostNodeNameHints = null;
+  private ConfigNodePropertyArray servletPostNodeNameHints;
 
   @JsonProperty("servlet.post.nodeNameMaxLength")
-  private ConfigNodePropertyInteger servletPostNodeNameMaxLength = null;
+  private ConfigNodePropertyInteger servletPostNodeNameMaxLength;
 
   @JsonProperty("servlet.post.checkinNewVersionableNodes")
-  private ConfigNodePropertyBoolean servletPostCheckinNewVersionableNodes = null;
+  private ConfigNodePropertyBoolean servletPostCheckinNewVersionableNodes;
 
   @JsonProperty("servlet.post.autoCheckout")
-  private ConfigNodePropertyBoolean servletPostAutoCheckout = null;
+  private ConfigNodePropertyBoolean servletPostAutoCheckout;
 
   @JsonProperty("servlet.post.autoCheckin")
-  private ConfigNodePropertyBoolean servletPostAutoCheckin = null;
+  private ConfigNodePropertyBoolean servletPostAutoCheckin;
 
   @JsonProperty("servlet.post.ignorePattern")
-  private ConfigNodePropertyString servletPostIgnorePattern = null;
+  private ConfigNodePropertyString servletPostIgnorePattern;
 
   /**
    **/
@@ -158,7 +159,7 @@ public class OrgApacheSlingServletsPostImplSlingPostServletProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -200,11 +201,8 @@ public class OrgApacheSlingServletsPostImplSlingPostServletProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

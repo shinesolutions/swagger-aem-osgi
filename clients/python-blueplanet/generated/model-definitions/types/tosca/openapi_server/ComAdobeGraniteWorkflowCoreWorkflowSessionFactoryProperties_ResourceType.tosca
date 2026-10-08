@@ -1,0 +1,90 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyDropDown = openapi_server.resourceTypes.ConfigNodePropertyDropDown
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties {
+    title = ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties
+    description = ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties
+    derivedFrom = Root
+    properties {
+        granite_workflowinbox_sort_property_name {
+          type = ConfigNodePropertyDropDown
+          description = ""
+          optional = false
+        }
+        granite_workflowinbox_sort_order {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        cq_workflow_job_retry {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        cq_workflow_superuser {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        granite_workflow_inbox_query_size {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        granite_workflow_admin_user_group_filter {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        granite_workflow_enforce_workitem_assignee_permissions {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        granite_workflow_enforce_workflow_initiator_permissions {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        granite_workflow_inject_tenant_id_in_job_topics {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        granite_workflow_max_purge_save_threshold {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        granite_workflow_max_purge_query_count {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties {
+    title = ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties
+    description = ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties
+    implements = openapi_server.resourceTypes.ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties
+
+  }
+}

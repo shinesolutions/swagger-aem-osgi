@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqDamWebdavImplIoSpecialFilesHandlerProper
 
 @Canonical
 class ComAdobeCqDamWebdavImplIoSpecialFilesHandlerInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqDamWebdavImplIoSpecialFilesHandlerProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqDamWebdavImplIoSpecialFilesHandlerProperties properties
 }

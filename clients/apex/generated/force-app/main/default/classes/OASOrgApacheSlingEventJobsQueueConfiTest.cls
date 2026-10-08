@@ -72,17 +72,17 @@ private class OASOrgApacheSlingEventJobsQueueConfiTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASOrgApacheSlingEventJobsQueueConfi orgApacheSlingEventJobsQueueConfigurationProperties = new OASOrgApacheSlingEventJobsQueueConfi();
-        Map<String, String> propertyMappings = orgApacheSlingEventJobsQueueConfigurationProperties.getPropertyMappings();
-        System.assertEquals('queueName', propertyMappings.get('queue.name'));
-        System.assertEquals('queueTopics', propertyMappings.get('queue.topics'));
-        System.assertEquals('queueType', propertyMappings.get('queue.type'));
-        System.assertEquals('queuePriority', propertyMappings.get('queue.priority'));
-        System.assertEquals('queueRetries', propertyMappings.get('queue.retries'));
-        System.assertEquals('queueRetrydelay', propertyMappings.get('queue.retrydelay'));
-        System.assertEquals('queueMaxparallel', propertyMappings.get('queue.maxparallel'));
-        System.assertEquals('queueKeepJobs', propertyMappings.get('queue.keepJobs'));
-        System.assertEquals('queuePreferRunOnCreationInstance', propertyMappings.get('queue.preferRunOnCreationInstance'));
-        System.assertEquals('queueThreadPoolSize', propertyMappings.get('queue.threadPoolSize'));
-        System.assertEquals('serviceRanking', propertyMappings.get('service.ranking'));
+        Map<String, String> x-property-mappings = orgApacheSlingEventJobsQueueConfigurationProperties.getx-property-mappings();
+        System.assertEquals('queueName', x-property-mappings.get('queue.name'));
+        System.assertEquals('queueTopics', x-property-mappings.get('queue.topics'));
+        System.assertEquals('queueType', x-property-mappings.get('queue.type'));
+        System.assertEquals('queuePriority', x-property-mappings.get('queue.priority'));
+        System.assertEquals('queueRetries', x-property-mappings.get('queue.retries'));
+        System.assertEquals('queueRetrydelay', x-property-mappings.get('queue.retrydelay'));
+        System.assertEquals('queueMaxparallel', x-property-mappings.get('queue.maxparallel'));
+        System.assertEquals('queueKeepJobs', x-property-mappings.get('queue.keepJobs'));
+        System.assertEquals('queuePreferRunOnCreationInstance', x-property-mappings.get('queue.preferRunOnCreationInstance'));
+        System.assertEquals('queueThreadPoolSize', x-property-mappings.get('queue.threadPoolSize'));
+        System.assertEquals('serviceRanking', x-property-mappings.get('service.ranking'));
     }
 }

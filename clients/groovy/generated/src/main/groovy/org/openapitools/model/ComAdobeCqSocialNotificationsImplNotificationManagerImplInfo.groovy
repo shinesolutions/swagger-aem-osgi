@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqSocialNotificationsImplNotificationManag
 
 @Canonical
 class ComAdobeCqSocialNotificationsImplNotificationManagerImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqSocialNotificationsImplNotificationManagerImplProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqSocialNotificationsImplNotificationManagerImplProperties properties
 }

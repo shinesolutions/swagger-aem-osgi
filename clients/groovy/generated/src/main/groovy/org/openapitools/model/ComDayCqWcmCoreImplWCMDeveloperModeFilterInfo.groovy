@@ -7,18 +7,18 @@ import org.openapitools.model.ComDayCqWcmCoreImplWCMDeveloperModeFilterPropertie
 
 @Canonical
 class ComDayCqWcmCoreImplWCMDeveloperModeFilterInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqWcmCoreImplWCMDeveloperModeFilterProperties properties = null
-
-    String additionalProperties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqWcmCoreImplWCMDeveloperModeFilterProperties properties
+    
+    String additionalProperties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

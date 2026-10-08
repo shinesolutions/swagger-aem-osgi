@@ -2,9 +2,9 @@
 # ComDayCqDamCoreImplJmxAssetMigrationMBeanImplProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**jmxPeriodobjectname** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **jmxObjectname** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
 
 
 

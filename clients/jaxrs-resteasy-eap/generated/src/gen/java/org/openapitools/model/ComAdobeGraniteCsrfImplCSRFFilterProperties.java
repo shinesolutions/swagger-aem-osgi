@@ -4,25 +4,22 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2019-08-05T01:00:05.540Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2026-10-07T12:54:26.576036107Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteCsrfImplCSRFFilterProperties   {
   
-
-  private ConfigNodePropertyArray filterMethods = null;
-
-  private ConfigNodePropertyBoolean filterEnableSafeUserAgents = null;
-
-  private ConfigNodePropertyArray filterSafeUserAgents = null;
-
-  private ConfigNodePropertyArray filterExcludedPaths = null;
+  private ConfigNodePropertyArray filterMethods;
+  private ConfigNodePropertyBoolean filterEnableSafeUserAgents;
+  private ConfigNodePropertyArray filterSafeUserAgents;
+  private ConfigNodePropertyArray filterExcludedPaths;
 
   /**
    **/
@@ -82,10 +79,10 @@ public class ComAdobeGraniteCsrfImplCSRFFilterProperties   {
       return false;
     }
     ComAdobeGraniteCsrfImplCSRFFilterProperties comAdobeGraniteCsrfImplCSRFFilterProperties = (ComAdobeGraniteCsrfImplCSRFFilterProperties) o;
-    return Objects.equals(filterMethods, comAdobeGraniteCsrfImplCSRFFilterProperties.filterMethods) &&
-        Objects.equals(filterEnableSafeUserAgents, comAdobeGraniteCsrfImplCSRFFilterProperties.filterEnableSafeUserAgents) &&
-        Objects.equals(filterSafeUserAgents, comAdobeGraniteCsrfImplCSRFFilterProperties.filterSafeUserAgents) &&
-        Objects.equals(filterExcludedPaths, comAdobeGraniteCsrfImplCSRFFilterProperties.filterExcludedPaths);
+    return Objects.equals(this.filterMethods, comAdobeGraniteCsrfImplCSRFFilterProperties.filterMethods) &&
+        Objects.equals(this.filterEnableSafeUserAgents, comAdobeGraniteCsrfImplCSRFFilterProperties.filterEnableSafeUserAgents) &&
+        Objects.equals(this.filterSafeUserAgents, comAdobeGraniteCsrfImplCSRFFilterProperties.filterSafeUserAgents) &&
+        Objects.equals(this.filterExcludedPaths, comAdobeGraniteCsrfImplCSRFFilterProperties.filterExcludedPaths);
   }
 
   @Override
@@ -111,10 +108,7 @@ public class ComAdobeGraniteCsrfImplCSRFFilterProperties   {
    * (except the first line).
    */
   private String toIndentedString(Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

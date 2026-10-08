@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqSocialCalendarServletsTimeZoneServletInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqSocialCalendarServletsTimeZoneServletInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComAdobeCqSocialCalendarServletsTimeZoneServletProperties = openapi_server.resourceTypes.ComAdobeCqSocialCalendarServletsTimeZoneServletProperties
+}
+resourceTypes {
+
+  ComAdobeCqSocialCalendarServletsTimeZoneServletInfo {
+    title = ComAdobeCqSocialCalendarServletsTimeZoneServletInfo
+    description = ComAdobeCqSocialCalendarServletsTimeZoneServletInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComAdobeCqSocialCalendarServletsTimeZoneServletProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqSocialCalendarServletsTimeZoneServletInfo {
+    title = ComAdobeCqSocialCalendarServletsTimeZoneServletInfo
+    description = ComAdobeCqSocialCalendarServletsTimeZoneServletInfo
+    implements = openapi_server.resourceTypes.ComAdobeCqSocialCalendarServletsTimeZoneServletInfo
+
+  }
+}

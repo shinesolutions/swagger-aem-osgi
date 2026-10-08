@@ -8,12 +8,12 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqWcmFoundationFormsImplMailServletProperties {
-    ConfigNodePropertyString slingServletResourceTypes = null
-
-    ConfigNodePropertyString slingServletSelectors = null
-
-    ConfigNodePropertyArray resourceWhitelist = null
-
-    ConfigNodePropertyString resourceBlacklist = null
-
+    
+    ConfigNodePropertyString slingServletResourceTypes
+    
+    ConfigNodePropertyString slingServletSelectors
+    
+    ConfigNodePropertyArray resourceWhitelist
+    
+    ConfigNodePropertyString resourceBlacklist
 }

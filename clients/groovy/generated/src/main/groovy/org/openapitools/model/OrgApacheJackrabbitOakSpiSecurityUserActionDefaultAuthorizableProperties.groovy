@@ -9,12 +9,12 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableProperties {
-    ConfigNodePropertyDropDown enabledActions = null
-
-    ConfigNodePropertyArray userPrivilegeNames = null
-
-    ConfigNodePropertyArray groupPrivilegeNames = null
-
-    ConfigNodePropertyString constraint = null
-
+    
+    ConfigNodePropertyDropDown enabledActions
+    
+    ConfigNodePropertyArray userPrivilegeNames
+    
+    ConfigNodePropertyArray groupPrivilegeNames
+    
+    ConfigNodePropertyString constraint
 }

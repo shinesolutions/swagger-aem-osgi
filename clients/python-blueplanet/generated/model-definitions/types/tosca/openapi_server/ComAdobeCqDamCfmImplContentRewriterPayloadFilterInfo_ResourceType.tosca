@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqDamCfmImplContentRewriterPayloadFilterInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqDamCfmImplContentRewriterPayloadFilterInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComAdobeCqDamCfmImplContentRewriterPayloadFilterProperties = openapi_server.resourceTypes.ComAdobeCqDamCfmImplContentRewriterPayloadFilterProperties
+}
+resourceTypes {
+
+  ComAdobeCqDamCfmImplContentRewriterPayloadFilterInfo {
+    title = ComAdobeCqDamCfmImplContentRewriterPayloadFilterInfo
+    description = ComAdobeCqDamCfmImplContentRewriterPayloadFilterInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComAdobeCqDamCfmImplContentRewriterPayloadFilterProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqDamCfmImplContentRewriterPayloadFilterInfo {
+    title = ComAdobeCqDamCfmImplContentRewriterPayloadFilterInfo
+    description = ComAdobeCqDamCfmImplContentRewriterPayloadFilterInfo
+    implements = openapi_server.resourceTypes.ComAdobeCqDamCfmImplContentRewriterPayloadFilterInfo
+
+  }
+}

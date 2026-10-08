@@ -1,0 +1,36 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "message_properties" },
+      {"model": "message_box_size_limit" },
+      {"model": "message_count_limit" },
+      {"model": "notify_failure" },
+      {"model": "failure_message_from" },
+      {"model": "failure_template_path" },
+      {"model": "max_retries" },
+      {"model": "min_wait_between_retries" },
+      {"model": "count_update_pool_size" },
+      {"model": "inbox_path" },
+      {"model": "sentitems_path" },
+      {"model": "support_attachments" },
+      {"model": "support_group_messaging" },
+      {"model": "max_total_recipients" },
+      {"model": "batch_size" },
+      {"model": "max_total_attachment_size" },
+      {"model": "attachment_type_blacklist" },
+      {"model": "allowed_attachment_types" },
+      {"model": "service_selector" },
+      {"model": "field_whitelist" },
+    ]
+  }]
+}

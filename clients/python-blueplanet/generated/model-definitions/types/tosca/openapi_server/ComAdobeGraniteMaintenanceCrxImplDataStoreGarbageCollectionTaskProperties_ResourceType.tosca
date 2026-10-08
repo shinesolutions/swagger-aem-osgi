@@ -1,0 +1,42 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeGraniteMaintenanceCrxImplDataStoreGarbageCollectionTaskProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeGraniteMaintenanceCrxImplDataStoreGarbageCollectionTaskProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComAdobeGraniteMaintenanceCrxImplDataStoreGarbageCollectionTaskProperties {
+    title = ComAdobeGraniteMaintenanceCrxImplDataStoreGarbageCollectionTaskProperties
+    description = ComAdobeGraniteMaintenanceCrxImplDataStoreGarbageCollectionTaskProperties
+    derivedFrom = Root
+    properties {
+        granite_maintenance_mandatory {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        job_topics {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeGraniteMaintenanceCrxImplDataStoreGarbageCollectionTaskProperties {
+    title = ComAdobeGraniteMaintenanceCrxImplDataStoreGarbageCollectionTaskProperties
+    description = ComAdobeGraniteMaintenanceCrxImplDataStoreGarbageCollectionTaskProperties
+    implements = openapi_server.resourceTypes.ComAdobeGraniteMaintenanceCrxImplDataStoreGarbageCollectionTaskProperties
+
+  }
+}

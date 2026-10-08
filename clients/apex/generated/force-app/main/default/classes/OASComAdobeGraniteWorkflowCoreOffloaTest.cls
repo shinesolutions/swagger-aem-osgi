@@ -72,7 +72,7 @@ private class OASComAdobeGraniteWorkflowCoreOffloaTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeGraniteWorkflowCoreOffloa comAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumProperties = new OASComAdobeGraniteWorkflowCoreOffloa();
-        Map<String, String> propertyMappings = comAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumProperties.getPropertyMappings();
-        System.assertEquals('jobTopics', propertyMappings.get('job.topics'));
+        Map<String, String> x-property-mappings = comAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumProperties.getx-property-mappings();
+        System.assertEquals('jobTopics', x-property-mappings.get('job.topics'));
     }
 }

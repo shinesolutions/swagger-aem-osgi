@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyArray;
 
 @Canonical
 class ComDayCqDamCoreImplHandlerXmpNCommXMPHandlerProperties {
-    ConfigNodePropertyArray xmphandlerCqFormats = null
-
+    
+    ConfigNodePropertyArray xmphandlerCqFormats
 }

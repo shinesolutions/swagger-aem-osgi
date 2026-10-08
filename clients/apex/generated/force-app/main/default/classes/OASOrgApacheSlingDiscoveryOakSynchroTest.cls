@@ -72,9 +72,9 @@ private class OASOrgApacheSlingDiscoveryOakSynchroTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASOrgApacheSlingDiscoveryOakSynchro orgApacheSlingDiscoveryOakSynchronizedClocksHealthCheckProperties = new OASOrgApacheSlingDiscoveryOakSynchro();
-        Map<String, String> propertyMappings = orgApacheSlingDiscoveryOakSynchronizedClocksHealthCheckProperties.getPropertyMappings();
-        System.assertEquals('hcName', propertyMappings.get('hc.name'));
-        System.assertEquals('hcTags', propertyMappings.get('hc.tags'));
-        System.assertEquals('hcMbeanName', propertyMappings.get('hc.mbean.name'));
+        Map<String, String> x-property-mappings = orgApacheSlingDiscoveryOakSynchronizedClocksHealthCheckProperties.getx-property-mappings();
+        System.assertEquals('hcName', x-property-mappings.get('hc.name'));
+        System.assertEquals('hcTags', x-property-mappings.get('hc.tags'));
+        System.assertEquals('hcMbeanName', x-property-mappings.get('hc.mbean.name'));
     }
 }

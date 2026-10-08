@@ -2,16 +2,17 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**enable_fallback** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **enable_fallback** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComAdobeCqSocialServiceusersInternalImplServiceUserWrapperImplProperties.new(enable_fallback: null)
+instance = SwaggerAemOsgiClient::ComAdobeCqSocialServiceusersInternalImplServiceUserWrapperImplProperties.new(
+  enable_fallback: null
+)
 ```
-
 

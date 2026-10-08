@@ -1,31 +1,42 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * OrgApacheSlingHcCoreImplServletHealthCheckExecutorServletProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class OrgApacheSlingHcCoreImplServletHealthCheckExecutorServletProperties   {
-  @JsonProperty("servletPath")
-  private ConfigNodePropertyString servletPath = null;
+@JsonTypeName("orgApacheSlingHcCoreImplServletHealthCheckExecutorServletProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class OrgApacheSlingHcCoreImplServletHealthCheckExecutorServletProperties {
 
-  @JsonProperty("disabled")
-  private ConfigNodePropertyBoolean disabled = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString servletPath;
 
-  @JsonProperty("cors.accessControlAllowOrigin")
-  private ConfigNodePropertyString corsAccessControlAllowOrigin = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean disabled;
 
-  public OrgApacheSlingHcCoreImplServletHealthCheckExecutorServletProperties servletPath(ConfigNodePropertyString servletPath) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString corsAccessControlAllowOrigin;
+
+  public OrgApacheSlingHcCoreImplServletHealthCheckExecutorServletProperties servletPath(@Nullable ConfigNodePropertyString servletPath) {
     this.servletPath = servletPath;
     return this;
   }
@@ -33,20 +44,20 @@ public class OrgApacheSlingHcCoreImplServletHealthCheckExecutorServletProperties
   /**
    * Get servletPath
    * @return servletPath
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getServletPath() {
+   */
+  @Valid 
+  @Schema(name = "servletPath", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("servletPath")
+  public @Nullable ConfigNodePropertyString getServletPath() {
     return servletPath;
   }
 
-  public void setServletPath(ConfigNodePropertyString servletPath) {
+  @JsonProperty("servletPath")
+  public void setServletPath(@Nullable ConfigNodePropertyString servletPath) {
     this.servletPath = servletPath;
   }
 
-  public OrgApacheSlingHcCoreImplServletHealthCheckExecutorServletProperties disabled(ConfigNodePropertyBoolean disabled) {
+  public OrgApacheSlingHcCoreImplServletHealthCheckExecutorServletProperties disabled(@Nullable ConfigNodePropertyBoolean disabled) {
     this.disabled = disabled;
     return this;
   }
@@ -54,20 +65,20 @@ public class OrgApacheSlingHcCoreImplServletHealthCheckExecutorServletProperties
   /**
    * Get disabled
    * @return disabled
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getDisabled() {
+   */
+  @Valid 
+  @Schema(name = "disabled", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("disabled")
+  public @Nullable ConfigNodePropertyBoolean getDisabled() {
     return disabled;
   }
 
-  public void setDisabled(ConfigNodePropertyBoolean disabled) {
+  @JsonProperty("disabled")
+  public void setDisabled(@Nullable ConfigNodePropertyBoolean disabled) {
     this.disabled = disabled;
   }
 
-  public OrgApacheSlingHcCoreImplServletHealthCheckExecutorServletProperties corsAccessControlAllowOrigin(ConfigNodePropertyString corsAccessControlAllowOrigin) {
+  public OrgApacheSlingHcCoreImplServletHealthCheckExecutorServletProperties corsAccessControlAllowOrigin(@Nullable ConfigNodePropertyString corsAccessControlAllowOrigin) {
     this.corsAccessControlAllowOrigin = corsAccessControlAllowOrigin;
     return this;
   }
@@ -75,22 +86,21 @@ public class OrgApacheSlingHcCoreImplServletHealthCheckExecutorServletProperties
   /**
    * Get corsAccessControlAllowOrigin
    * @return corsAccessControlAllowOrigin
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getCorsAccessControlAllowOrigin() {
+   */
+  @Valid 
+  @Schema(name = "cors.accessControlAllowOrigin", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cors.accessControlAllowOrigin")
+  public @Nullable ConfigNodePropertyString getCorsAccessControlAllowOrigin() {
     return corsAccessControlAllowOrigin;
   }
 
-  public void setCorsAccessControlAllowOrigin(ConfigNodePropertyString corsAccessControlAllowOrigin) {
+  @JsonProperty("cors.accessControlAllowOrigin")
+  public void setCorsAccessControlAllowOrigin(@Nullable ConfigNodePropertyString corsAccessControlAllowOrigin) {
     this.corsAccessControlAllowOrigin = corsAccessControlAllowOrigin;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -112,7 +122,6 @@ public class OrgApacheSlingHcCoreImplServletHealthCheckExecutorServletProperties
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class OrgApacheSlingHcCoreImplServletHealthCheckExecutorServletProperties {\n");
-    
     sb.append("    servletPath: ").append(toIndentedString(servletPath)).append("\n");
     sb.append("    disabled: ").append(toIndentedString(disabled)).append("\n");
     sb.append("    corsAccessControlAllowOrigin: ").append(toIndentedString(corsAccessControlAllowOrigin)).append("\n");
@@ -124,11 +133,8 @@ public class OrgApacheSlingHcCoreImplServletHealthCheckExecutorServletProperties
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

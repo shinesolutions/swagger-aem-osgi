@@ -7,16 +7,16 @@ import org.openapitools.model.ComDayCqWidgetImplWidgetExtensionProviderImplPrope
 
 @Canonical
 class ComDayCqWidgetImplWidgetExtensionProviderImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqWidgetImplWidgetExtensionProviderImplProperties properties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqWidgetImplWidgetExtensionProviderImplProperties properties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

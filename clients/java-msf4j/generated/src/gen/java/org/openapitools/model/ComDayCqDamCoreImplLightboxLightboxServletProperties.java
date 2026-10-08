@@ -3,6 +3,7 @@ package org.openapitools.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
@@ -12,16 +13,16 @@ import org.openapitools.model.ConfigNodePropertyString;
 /**
  * ComDayCqDamCoreImplLightboxLightboxServletProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaMSF4JServerCodegen", date = "2019-08-05T00:54:29.762Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaMSF4JServerCodegen", date = "2026-10-07T12:53:29.980508721Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqDamCoreImplLightboxLightboxServletProperties   {
   @JsonProperty("sling.servlet.paths")
-  private ConfigNodePropertyString slingServletPaths = null;
+  private ConfigNodePropertyString slingServletPaths;
 
   @JsonProperty("sling.servlet.methods")
-  private ConfigNodePropertyArray slingServletMethods = null;
+  private ConfigNodePropertyArray slingServletMethods;
 
   @JsonProperty("cq.dam.enable.anonymous")
-  private ConfigNodePropertyBoolean cqDamEnableAnonymous = null;
+  private ConfigNodePropertyBoolean cqDamEnableAnonymous;
 
   public ComDayCqDamCoreImplLightboxLightboxServletProperties slingServletPaths(ConfigNodePropertyString slingServletPaths) {
     this.slingServletPaths = slingServletPaths;
@@ -79,7 +80,7 @@ public class ComDayCqDamCoreImplLightboxLightboxServletProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -113,11 +114,8 @@ public class ComDayCqDamCoreImplLightboxLightboxServletProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

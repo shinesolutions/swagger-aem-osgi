@@ -8,10 +8,10 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class OrgApacheSlingHcCoreImplServletHealthCheckExecutorServletProperties {
-    ConfigNodePropertyString servletPath = null
-
-    ConfigNodePropertyBoolean disabled = null
-
-    ConfigNodePropertyString corsAccessControlAllowOrigin = null
-
+    
+    ConfigNodePropertyString servletPath
+    
+    ConfigNodePropertyBoolean disabled
+    
+    ConfigNodePropertyString corsAccessControlAllowOrigin
 }

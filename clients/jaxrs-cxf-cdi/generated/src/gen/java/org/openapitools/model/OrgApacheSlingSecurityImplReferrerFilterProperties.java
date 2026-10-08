@@ -2,30 +2,31 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class OrgApacheSlingSecurityImplReferrerFilterProperties   {
   
-  private ConfigNodePropertyBoolean allowEmpty = null;
+  private ConfigNodePropertyBoolean allowEmpty;
 
-  private ConfigNodePropertyArray allowHosts = null;
+  private ConfigNodePropertyArray allowHosts;
 
-  private ConfigNodePropertyArray allowHostsRegexp = null;
+  private ConfigNodePropertyArray allowHostsRegexp;
 
-  private ConfigNodePropertyArray filterMethods = null;
+  private ConfigNodePropertyArray filterMethods;
 
-  private ConfigNodePropertyArray excludeAgentsRegexp = null;
-
+  private ConfigNodePropertyArray excludeAgentsRegexp;
 
   /**
    **/
@@ -119,7 +120,7 @@ public class OrgApacheSlingSecurityImplReferrerFilterProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -127,11 +128,11 @@ public class OrgApacheSlingSecurityImplReferrerFilterProperties   {
       return false;
     }
     OrgApacheSlingSecurityImplReferrerFilterProperties orgApacheSlingSecurityImplReferrerFilterProperties = (OrgApacheSlingSecurityImplReferrerFilterProperties) o;
-    return Objects.equals(allowEmpty, orgApacheSlingSecurityImplReferrerFilterProperties.allowEmpty) &&
-        Objects.equals(allowHosts, orgApacheSlingSecurityImplReferrerFilterProperties.allowHosts) &&
-        Objects.equals(allowHostsRegexp, orgApacheSlingSecurityImplReferrerFilterProperties.allowHostsRegexp) &&
-        Objects.equals(filterMethods, orgApacheSlingSecurityImplReferrerFilterProperties.filterMethods) &&
-        Objects.equals(excludeAgentsRegexp, orgApacheSlingSecurityImplReferrerFilterProperties.excludeAgentsRegexp);
+    return Objects.equals(this.allowEmpty, orgApacheSlingSecurityImplReferrerFilterProperties.allowEmpty) &&
+        Objects.equals(this.allowHosts, orgApacheSlingSecurityImplReferrerFilterProperties.allowHosts) &&
+        Objects.equals(this.allowHostsRegexp, orgApacheSlingSecurityImplReferrerFilterProperties.allowHostsRegexp) &&
+        Objects.equals(this.filterMethods, orgApacheSlingSecurityImplReferrerFilterProperties.filterMethods) &&
+        Objects.equals(this.excludeAgentsRegexp, orgApacheSlingSecurityImplReferrerFilterProperties.excludeAgentsRegexp);
   }
 
   @Override
@@ -157,11 +158,8 @@ public class OrgApacheSlingSecurityImplReferrerFilterProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

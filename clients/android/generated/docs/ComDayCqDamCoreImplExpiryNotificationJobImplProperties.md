@@ -1,7 +1,9 @@
 
+
 # ComDayCqDamCoreImplExpiryNotificationJobImplProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **cqDamExpiryNotificationSchedulerIstimebased** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
@@ -11,6 +13,7 @@ Name | Type | Description | Notes
 **assetExpiredLimit** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
 **priorNotificationSeconds** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
 **cqDamExpiryNotificationUrlProtocol** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
+
 
 
 

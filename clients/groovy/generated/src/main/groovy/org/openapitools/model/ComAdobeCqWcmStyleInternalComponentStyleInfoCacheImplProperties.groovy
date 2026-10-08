@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class ComAdobeCqWcmStyleInternalComponentStyleInfoCacheImplProperties {
-    ConfigNodePropertyInteger size = null
-
+    
+    ConfigNodePropertyInteger size
 }

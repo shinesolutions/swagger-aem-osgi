@@ -1,0 +1,63 @@
+
+/*
+ * ComDayCqWcmMsmImplLiveRelationshipManagerImplProperties.h
+ *
+ * 
+ */
+
+#ifndef TINY_CPP_CLIENT_ComDayCqWcmMsmImplLiveRelationshipManagerImplProperties_H_
+#define TINY_CPP_CLIENT_ComDayCqWcmMsmImplLiveRelationshipManagerImplProperties_H_
+
+
+#include <string>
+#include "bourne/json.hpp"
+#include "Helpers.h"
+#include "ConfigNodePropertyString.h"
+
+namespace Tiny {
+
+
+/*! \brief 
+ *
+ *  \ingroup Models
+ *
+ */
+
+class ComDayCqWcmMsmImplLiveRelationshipManagerImplProperties{
+public:
+
+    /*! \brief Constructor.
+	 */
+    ComDayCqWcmMsmImplLiveRelationshipManagerImplProperties();
+    ComDayCqWcmMsmImplLiveRelationshipManagerImplProperties(std::string jsonString);
+
+
+    /*! \brief Destructor.
+	 */
+    virtual ~ComDayCqWcmMsmImplLiveRelationshipManagerImplProperties();
+
+
+    /*! \brief Retrieve a bourne JSON representation of this class.
+	 */
+    bourne::json toJson();
+
+
+    /*! \brief Fills in members of this class from bourne JSON object representing it.
+	 */
+    void fromJson(std::string jsonObj);
+
+	/*! \brief Get 
+	 */
+	ConfigNodePropertyString getLiverelationshipmgrrelationsconfigdefault();
+
+	/*! \brief Set 
+	 */
+	void setLiverelationshipmgrrelationsconfigdefault(ConfigNodePropertyString liverelationshipmgrrelationsconfigdefault);
+
+
+    private:
+    ConfigNodePropertyString liverelationshipmgrrelationsconfigdefault;
+};
+}
+
+#endif /* TINY_CPP_CLIENT_ComDayCqWcmMsmImplLiveRelationshipManagerImplProperties_H_ */

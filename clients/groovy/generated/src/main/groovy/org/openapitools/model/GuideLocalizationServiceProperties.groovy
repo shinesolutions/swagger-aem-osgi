@@ -7,8 +7,8 @@ import org.openapitools.model.ConfigNodePropertyArray;
 
 @Canonical
 class GuideLocalizationServiceProperties {
-    ConfigNodePropertyArray supportedLocales = null
-
-    ConfigNodePropertyArray localizableProperties = null
-
+    
+    ConfigNodePropertyArray supportedLocales
+    
+    ConfigNodePropertyArray localizableProperties
 }

@@ -1,0 +1,69 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingServletsPostImplSlingPostServletProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingServletsPostImplSlingPostServletProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  OrgApacheSlingServletsPostImplSlingPostServletProperties {
+    title = OrgApacheSlingServletsPostImplSlingPostServletProperties
+    description = OrgApacheSlingServletsPostImplSlingPostServletProperties
+    derivedFrom = Root
+    properties {
+        servlet_post_date_formats {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        servlet_post_node_name_hints {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        servlet_post_node_name_max_length {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        servlet_post_checkin_new_versionable_nodes {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        servlet_post_auto_checkout {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        servlet_post_auto_checkin {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        servlet_post_ignore_pattern {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingServletsPostImplSlingPostServletProperties {
+    title = OrgApacheSlingServletsPostImplSlingPostServletProperties
+    description = OrgApacheSlingServletsPostImplSlingPostServletProperties
+    implements = openapi_server.resourceTypes.OrgApacheSlingServletsPostImplSlingPostServletProperties
+
+  }
+}

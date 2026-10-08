@@ -7,8 +7,8 @@ import org.openapitools.model.ConfigNodePropertyArray;
 
 @Canonical
 class ComAdobeGraniteBundlesHcImplInactiveBundlesHealthCheckProperties {
-    ConfigNodePropertyArray hcTags = null
-
-    ConfigNodePropertyArray ignoredBundles = null
-
+    
+    ConfigNodePropertyArray hcTags
+    
+    ConfigNodePropertyArray ignoredBundles
 }

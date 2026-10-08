@@ -1,0 +1,24 @@
+package models
+
+type ComDayCqReportingImplConfigServiceImplProperties struct {
+
+	RepconfTimezone ConfigNodePropertyString `json:"repconf.timezone,omitempty"`
+
+	RepconfLocale ConfigNodePropertyString `json:"repconf.locale,omitempty"`
+
+	RepconfSnapshots ConfigNodePropertyString `json:"repconf.snapshots,omitempty"`
+
+	RepconfRepdir ConfigNodePropertyString `json:"repconf.repdir,omitempty"`
+
+	RepconfHourofday ConfigNodePropertyInteger `json:"repconf.hourofday,omitempty"`
+
+	RepconfMinofhour ConfigNodePropertyInteger `json:"repconf.minofhour,omitempty"`
+
+	RepconfMaxrows ConfigNodePropertyInteger `json:"repconf.maxrows,omitempty"`
+
+	RepconfFakedata ConfigNodePropertyBoolean `json:"repconf.fakedata,omitempty"`
+
+	RepconfSnapshotuser ConfigNodePropertyString `json:"repconf.snapshotuser,omitempty"`
+
+	RepconfEnforcesnapshotuser ConfigNodePropertyBoolean `json:"repconf.enforcesnapshotuser,omitempty"`
+}

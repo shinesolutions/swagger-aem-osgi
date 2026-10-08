@@ -72,9 +72,9 @@ private class OASComAdobeCqDamWebdavImplIoDamWebdaTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeCqDamWebdavImplIoDamWebda comAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJobProperties = new OASComAdobeCqDamWebdavImplIoDamWebda();
-        Map<String, String> propertyMappings = comAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJobProperties.getPropertyMappings();
-        System.assertEquals('cqDamWebdavVersionLinkingEnable', propertyMappings.get('cq.dam.webdav.version.linking.enable'));
-        System.assertEquals('cqDamWebdavVersionLinkingSchedulerPeriod', propertyMappings.get('cq.dam.webdav.version.linking.scheduler.period'));
-        System.assertEquals('cqDamWebdavVersionLinkingStagingTimeout', propertyMappings.get('cq.dam.webdav.version.linking.staging.timeout'));
+        Map<String, String> x-property-mappings = comAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJobProperties.getx-property-mappings();
+        System.assertEquals('cqDamWebdavVersionLinkingEnable', x-property-mappings.get('cq.dam.webdav.version.linking.enable'));
+        System.assertEquals('cqDamWebdavVersionLinkingSchedulerPeriod', x-property-mappings.get('cq.dam.webdav.version.linking.scheduler.period'));
+        System.assertEquals('cqDamWebdavVersionLinkingStagingTimeout', x-property-mappings.get('cq.dam.webdav.version.linking.staging.timeout'));
     }
 }

@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqDamCoreImplAssetMoveListenerProperties;
 
 @Canonical
 class ComDayCqDamCoreImplAssetMoveListenerInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqDamCoreImplAssetMoveListenerProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqDamCoreImplAssetMoveListenerProperties properties
 }

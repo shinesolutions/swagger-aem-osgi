@@ -72,10 +72,10 @@ private class OASComAdobeCqSocialUserImplTransportTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeCqSocialUserImplTransport comAdobeCqSocialUserImplTransportHttpToPublisherProperties = new OASComAdobeCqSocialUserImplTransport();
-        Map<String, String> propertyMappings = comAdobeCqSocialUserImplTransportHttpToPublisherProperties.getPropertyMappings();
-        System.assertEquals('agentConfiguration', propertyMappings.get('agent.configuration'));
-        System.assertEquals('contextPath', propertyMappings.get('context.path'));
-        System.assertEquals('disabledCipherSuites', propertyMappings.get('disabled.cipher.suites'));
-        System.assertEquals('enabledCipherSuites', propertyMappings.get('enabled.cipher.suites'));
+        Map<String, String> x-property-mappings = comAdobeCqSocialUserImplTransportHttpToPublisherProperties.getx-property-mappings();
+        System.assertEquals('agentConfiguration', x-property-mappings.get('agent.configuration'));
+        System.assertEquals('contextPath', x-property-mappings.get('context.path'));
+        System.assertEquals('disabledCipherSuites', x-property-mappings.get('disabled.cipher.suites'));
+        System.assertEquals('enabledCipherSuites', x-property-mappings.get('enabled.cipher.suites'));
     }
 }

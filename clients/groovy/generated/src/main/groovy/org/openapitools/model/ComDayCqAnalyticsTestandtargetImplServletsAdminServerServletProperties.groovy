@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqAnalyticsTestandtargetImplServletsAdminServerServletProperties {
-    ConfigNodePropertyString testandtargetEndpointUrl = null
-
+    
+    ConfigNodePropertyString testandtargetEndpointUrl
 }

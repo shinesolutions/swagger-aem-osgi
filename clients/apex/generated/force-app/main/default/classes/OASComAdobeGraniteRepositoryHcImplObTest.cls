@@ -72,7 +72,7 @@ private class OASComAdobeGraniteRepositoryHcImplObTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeGraniteRepositoryHcImplOb comAdobeGraniteRepositoryHcImplObservationQueueLengthHealthCheckProperties = new OASComAdobeGraniteRepositoryHcImplOb();
-        Map<String, String> propertyMappings = comAdobeGraniteRepositoryHcImplObservationQueueLengthHealthCheckProperties.getPropertyMappings();
-        System.assertEquals('hcTags', propertyMappings.get('hc.tags'));
+        Map<String, String> x-property-mappings = comAdobeGraniteRepositoryHcImplObservationQueueLengthHealthCheckProperties.getx-property-mappings();
+        System.assertEquals('hcTags', x-property-mappings.get('hc.tags'));
     }
 }

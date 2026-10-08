@@ -1,6 +1,8 @@
 # OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceProperties
 
+
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **mongouri** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
@@ -34,6 +36,23 @@ Name | Type | Description | Notes
 **persistent_cache_includes** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 
 **lease_check_mode** | [**ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md) |  | [optional] 
 
+## Example
+
+```python
+from swaggeraemosgi.models.org_apache_jackrabbit_oak_plugins_document_document_node_store_service_properties import OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceProperties
+
+# TODO update the JSON string below
+json = "{}"
+# create an instance of OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceProperties from a JSON string
+org_apache_jackrabbit_oak_plugins_document_document_node_store_service_properties_instance = OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceProperties.from_json(json)
+# print the JSON string representation of the object
+print(OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceProperties.to_json())
+
+# convert the object into a dict
+org_apache_jackrabbit_oak_plugins_document_document_node_store_service_properties_dict = org_apache_jackrabbit_oak_plugins_document_document_node_store_service_properties_instance.to_dict()
+# create an instance of OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceProperties from a dict
+org_apache_jackrabbit_oak_plugins_document_document_node_store_service_properties_from_dict = OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceProperties.from_dict(org_apache_jackrabbit_oak_plugins_document_document_node_store_service_properties_dict)
+```
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 
 

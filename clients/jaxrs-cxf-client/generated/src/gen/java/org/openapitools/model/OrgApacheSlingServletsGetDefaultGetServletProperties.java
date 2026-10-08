@@ -5,43 +5,47 @@ import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
 
 import io.swagger.annotations.ApiModelProperty;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlType;
-import javax.xml.bind.annotation.XmlEnum;
-import javax.xml.bind.annotation.XmlEnumValue;
+import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
 
 public class OrgApacheSlingServletsGetDefaultGetServletProperties  {
   
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyArray aliases = null;
+
+  private ConfigNodePropertyArray aliases;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyBoolean index = null;
+
+  private ConfigNodePropertyBoolean index;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyArray indexFiles = null;
+
+  private ConfigNodePropertyArray indexFiles;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyBoolean enableHtml = null;
+
+  private ConfigNodePropertyBoolean enableHtml;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyBoolean enableJson = null;
+
+  private ConfigNodePropertyBoolean enableJson;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyBoolean enableTxt = null;
+
+  private ConfigNodePropertyBoolean enableTxt;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyBoolean enableXml = null;
+
+  private ConfigNodePropertyBoolean enableXml;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyInteger jsonMaximumresults = null;
+
+  private ConfigNodePropertyInteger jsonMaximumresults;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyBoolean ecmaSuport = null;
+
+  private ConfigNodePropertyBoolean ecmaSuport;
  /**
    * Get aliases
    * @return aliases
@@ -204,6 +208,30 @@ public class OrgApacheSlingServletsGetDefaultGetServletProperties  {
     return this;
   }
 
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    OrgApacheSlingServletsGetDefaultGetServletProperties orgApacheSlingServletsGetDefaultGetServletProperties = (OrgApacheSlingServletsGetDefaultGetServletProperties) o;
+    return Objects.equals(this.aliases, orgApacheSlingServletsGetDefaultGetServletProperties.aliases) &&
+        Objects.equals(this.index, orgApacheSlingServletsGetDefaultGetServletProperties.index) &&
+        Objects.equals(this.indexFiles, orgApacheSlingServletsGetDefaultGetServletProperties.indexFiles) &&
+        Objects.equals(this.enableHtml, orgApacheSlingServletsGetDefaultGetServletProperties.enableHtml) &&
+        Objects.equals(this.enableJson, orgApacheSlingServletsGetDefaultGetServletProperties.enableJson) &&
+        Objects.equals(this.enableTxt, orgApacheSlingServletsGetDefaultGetServletProperties.enableTxt) &&
+        Objects.equals(this.enableXml, orgApacheSlingServletsGetDefaultGetServletProperties.enableXml) &&
+        Objects.equals(this.jsonMaximumresults, orgApacheSlingServletsGetDefaultGetServletProperties.jsonMaximumresults) &&
+        Objects.equals(this.ecmaSuport, orgApacheSlingServletsGetDefaultGetServletProperties.ecmaSuport);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(aliases, index, indexFiles, enableHtml, enableJson, enableTxt, enableXml, jsonMaximumresults, ecmaSuport);
+  }
 
   @Override
   public String toString() {
@@ -227,11 +255,8 @@ public class OrgApacheSlingServletsGetDefaultGetServletProperties  {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private static String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

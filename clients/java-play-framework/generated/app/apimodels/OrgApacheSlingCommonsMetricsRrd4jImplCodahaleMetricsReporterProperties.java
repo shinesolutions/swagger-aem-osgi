@@ -3,29 +3,38 @@ package apimodels;
 import apimodels.ConfigNodePropertyArray;
 import apimodels.ConfigNodePropertyInteger;
 import apimodels.ConfigNodePropertyString;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterProperties   {
   @JsonProperty("datasources")
-  private ConfigNodePropertyArray datasources = null;
+  @Valid
+
+  private ConfigNodePropertyArray datasources;
 
   @JsonProperty("step")
-  private ConfigNodePropertyInteger step = null;
+  @Valid
+
+  private ConfigNodePropertyInteger step;
 
   @JsonProperty("archives")
-  private ConfigNodePropertyArray archives = null;
+  @Valid
+
+  private ConfigNodePropertyArray archives;
 
   @JsonProperty("path")
-  private ConfigNodePropertyString path = null;
+  @Valid
+
+  private ConfigNodePropertyString path;
 
   public OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterProperties datasources(ConfigNodePropertyArray datasources) {
     this.datasources = datasources;
@@ -36,7 +45,6 @@ public class OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterPropert
    * Get datasources
    * @return datasources
   **/
-  @Valid
   public ConfigNodePropertyArray getDatasources() {
     return datasources;
   }
@@ -54,7 +62,6 @@ public class OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterPropert
    * Get step
    * @return step
   **/
-  @Valid
   public ConfigNodePropertyInteger getStep() {
     return step;
   }
@@ -72,7 +79,6 @@ public class OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterPropert
    * Get archives
    * @return archives
   **/
-  @Valid
   public ConfigNodePropertyArray getArchives() {
     return archives;
   }
@@ -90,7 +96,6 @@ public class OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterPropert
    * Get path
    * @return path
   **/
-  @Valid
   public ConfigNodePropertyString getPath() {
     return path;
   }
@@ -101,7 +106,7 @@ public class OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterPropert
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -138,11 +143,8 @@ public class OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterPropert
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

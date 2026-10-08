@@ -738,16 +738,17 @@ import javax.ws.rs.core.Response;
 import javax.ws.rs.core.SecurityContext;
 import javax.ws.rs.*;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
-@Path("/system")
+@Path("/system/console/configMgr")
 
 
 @io.swagger.annotations.Api(description = "the system API")
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2019-08-05T01:00:05.540Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2026-10-07T12:54:26.576036107Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public interface SystemApi  {
-   
+
     @POST
-    @Path("/console/configMgr/Adaptive Form and Interactive Communication Web Channel Configuration")
+    @Path("/Adaptive Form and Interactive Communication Web Channel Configuration")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationInfo.class, authorizations = {
@@ -761,7 +762,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response adaptiveFormAndInteractiveCommunicationWebChannelConfiguration( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("showPlaceholder") Boolean showPlaceholder, @QueryParam("maximumCacheEntries") Integer maximumCacheEntries, @QueryParam("af.scripting.compatversion") String afScriptingCompatversion, @QueryParam("makeFileNameUnique") Boolean makeFileNameUnique, @QueryParam("generatingCompliantData") Boolean generatingCompliantData,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/Adaptive Form and Interactive Communication Web Channel Theme Configuration")
+    @Path("/Adaptive Form and Interactive Communication Web Channel Theme Configuration")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurInfo.class, authorizations = {
@@ -775,7 +776,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response adaptiveFormAndInteractiveCommunicationWebChannelThemeConfigur( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("fontList") List<String> fontList,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/Analytics Component Query Cache Service")
+    @Path("/Analytics Component Query Cache Service")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = AnalyticsComponentQueryCacheServiceInfo.class, authorizations = {
@@ -789,7 +790,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response analyticsComponentQueryCacheService( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("cq.analytics.component.query.cache.size") Integer cqAnalyticsComponentQueryCacheSize,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/Apache Sling Health Check Result HTML Serializer")
+    @Path("/Apache Sling Health Check Result HTML Serializer")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ApacheSlingHealthCheckResultHTMLSerializerInfo.class, authorizations = {
@@ -803,7 +804,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response apacheSlingHealthCheckResultHTMLSerializer( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("styleString") String styleString,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.aem.formsndocuments.config.AEMFormsManagerConfiguration")
+    @Path("/com.adobe.aem.formsndocuments.config.AEMFormsManagerConfiguration")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeAemFormsndocumentsConfigAEMFormsManagerConfigurationInfo.class, authorizations = {
@@ -817,7 +818,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeAemFormsndocumentsConfigAEMFormsManagerConfiguration( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("formsManagerConfig.includeOOTBTemplates") Boolean formsManagerConfigIncludeOOTBTemplates, @QueryParam("formsManagerConfig.includeDeprecatedTemplates") Boolean formsManagerConfigIncludeDeprecatedTemplates,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.aem.transaction.core.impl.TransactionRecorder")
+    @Path("/com.adobe.aem.transaction.core.impl.TransactionRecorder")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeAemTransactionCoreImplTransactionRecorderInfo.class, authorizations = {
@@ -831,7 +832,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeAemTransactionCoreImplTransactionRecorder( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("isTransactionRecordingEnabled") Boolean isTransactionRecordingEnabled,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.aem.upgrade.prechecks.hc.impl.DeprecateIndexesHC")
+    @Path("/com.adobe.aem.upgrade.prechecks.hc.impl.DeprecateIndexesHC")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeAemUpgradePrechecksHcImplDeprecateIndexesHCInfo.class, authorizations = {
@@ -845,7 +846,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeAemUpgradePrechecksHcImplDeprecateIndexesHC( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("hc.name") String hcName, @QueryParam("hc.tags") List<String> hcTags, @QueryParam("hc.mbean.name") String hcMbeanName,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.aem.upgrade.prechecks.hc.impl.ReplicationAgentsDisabledHC")
+    @Path("/com.adobe.aem.upgrade.prechecks.hc.impl.ReplicationAgentsDisabledHC")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeAemUpgradePrechecksHcImplReplicationAgentsDisabledHCInfo.class, authorizations = {
@@ -859,7 +860,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeAemUpgradePrechecksHcImplReplicationAgentsDisabledHC( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("hc.name") String hcName, @QueryParam("hc.tags") List<String> hcTags, @QueryParam("hc.mbean.name") String hcMbeanName,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.aem.upgrade.prechecks.mbean.impl.PreUpgradeTasksMBeanImpl")
+    @Path("/com.adobe.aem.upgrade.prechecks.mbean.impl.PreUpgradeTasksMBeanImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeAemUpgradePrechecksMbeanImplPreUpgradeTasksMBeanImplInfo.class, authorizations = {
@@ -873,7 +874,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeAemUpgradePrechecksMbeanImplPreUpgradeTasksMBeanImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("pre-upgrade.maintenance.tasks") List<String> preUpgradeMaintenanceTasks, @QueryParam("pre-upgrade.hc.tags") List<String> preUpgradeHcTags,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.aem.upgrade.prechecks.tasks.impl.ConsistencyCheckTaskImpl")
+    @Path("/com.adobe.aem.upgrade.prechecks.tasks.impl.ConsistencyCheckTaskImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeAemUpgradePrechecksTasksImplConsistencyCheckTaskImplInfo.class, authorizations = {
@@ -887,7 +888,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeAemUpgradePrechecksTasksImplConsistencyCheckTaskImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("root.path") String rootPath, @QueryParam("fix.inconsistencies") Boolean fixInconsistencies,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.account.api.AccountManagementService")
+    @Path("/com.adobe.cq.account.api.AccountManagementService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqAccountApiAccountManagementServiceInfo.class, authorizations = {
@@ -901,7 +902,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqAccountApiAccountManagementService( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("cq.accountmanager.token.validity.period") Integer cqAccountmanagerTokenValidityPeriod, @QueryParam("cq.accountmanager.config.requestnewaccount.mail") String cqAccountmanagerConfigRequestnewaccountMail, @QueryParam("cq.accountmanager.config.requestnewpwd.mail") String cqAccountmanagerConfigRequestnewpwdMail,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.account.impl.AccountManagementServlet")
+    @Path("/com.adobe.cq.account.impl.AccountManagementServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqAccountImplAccountManagementServletInfo.class, authorizations = {
@@ -915,7 +916,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqAccountImplAccountManagementServlet( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("cq.accountmanager.config.informnewaccount.mail") String cqAccountmanagerConfigInformnewaccountMail, @QueryParam("cq.accountmanager.config.informnewpwd.mail") String cqAccountmanagerConfigInformnewpwdMail,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.address.impl.location.LocationListServlet")
+    @Path("/com.adobe.cq.address.impl.location.LocationListServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqAddressImplLocationLocationListServletInfo.class, authorizations = {
@@ -929,7 +930,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqAddressImplLocationLocationListServlet( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("cq.address.location.default.maxResults") Integer cqAddressLocationDefaultMaxResults,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.audit.purge.Dam")
+    @Path("/com.adobe.cq.audit.purge.Dam")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqAuditPurgeDamInfo.class, authorizations = {
@@ -943,7 +944,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqAuditPurgeDam( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("auditlog.rule.name") String auditlogRuleName, @QueryParam("auditlog.rule.contentpath") String auditlogRuleContentpath, @QueryParam("auditlog.rule.minimumage") Integer auditlogRuleMinimumage, @QueryParam("auditlog.rule.types") String auditlogRuleTypes,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.audit.purge.Pages")
+    @Path("/com.adobe.cq.audit.purge.Pages")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqAuditPurgePagesInfo.class, authorizations = {
@@ -957,7 +958,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqAuditPurgePages( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("auditlog.rule.name") String auditlogRuleName, @QueryParam("auditlog.rule.contentpath") String auditlogRuleContentpath, @QueryParam("auditlog.rule.minimumage") Integer auditlogRuleMinimumage, @QueryParam("auditlog.rule.types") String auditlogRuleTypes,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.audit.purge.Replication")
+    @Path("/com.adobe.cq.audit.purge.Replication")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqAuditPurgeReplicationInfo.class, authorizations = {
@@ -971,7 +972,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqAuditPurgeReplication( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("auditlog.rule.name") String auditlogRuleName, @QueryParam("auditlog.rule.contentpath") String auditlogRuleContentpath, @QueryParam("auditlog.rule.minimumage") Integer auditlogRuleMinimumage, @QueryParam("auditlog.rule.types") String auditlogRuleTypes,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.cdn.rewriter.impl.AWSCloudFrontRewriter")
+    @Path("/com.adobe.cq.cdn.rewriter.impl.AWSCloudFrontRewriter")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqCdnRewriterImplAWSCloudFrontRewriterInfo.class, authorizations = {
@@ -985,7 +986,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqCdnRewriterImplAWSCloudFrontRewriter( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("service.ranking") Integer serviceRanking, @QueryParam("keypair.id") String keypairId, @QueryParam("keypair.alias") String keypairAlias, @QueryParam("cdnrewriter.attributes") List<String> cdnrewriterAttributes, @QueryParam("cdn.rewriter.distribution.domain") String cdnRewriterDistributionDomain,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.cdn.rewriter.impl.CDNConfigServiceImpl")
+    @Path("/com.adobe.cq.cdn.rewriter.impl.CDNConfigServiceImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqCdnRewriterImplCDNConfigServiceImplInfo.class, authorizations = {
@@ -999,7 +1000,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqCdnRewriterImplCDNConfigServiceImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("cdn.config.distribution.domain") String cdnConfigDistributionDomain, @QueryParam("cdn.config.enable.rewriting") Boolean cdnConfigEnableRewriting, @QueryParam("cdn.config.path.prefixes") List<String> cdnConfigPathPrefixes, @QueryParam("cdn.config.cdnttl") Integer cdnConfigCdnttl, @QueryParam("cdn.config.application.protocol") String cdnConfigApplicationProtocol,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.cdn.rewriter.impl.CDNRewriter")
+    @Path("/com.adobe.cq.cdn.rewriter.impl.CDNRewriter")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqCdnRewriterImplCDNRewriterInfo.class, authorizations = {
@@ -1013,7 +1014,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqCdnRewriterImplCDNRewriter( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("service.ranking") Integer serviceRanking, @QueryParam("cdnrewriter.attributes") List<String> cdnrewriterAttributes, @QueryParam("cdn.rewriter.distribution.domain") String cdnRewriterDistributionDomain,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.cloudconfig.core.impl.ConfigurationReplicationEventHandler")
+    @Path("/com.adobe.cq.cloudconfig.core.impl.ConfigurationReplicationEventHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandleInfo.class, authorizations = {
@@ -1027,7 +1028,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandle( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("flush.agents") List<String> flushAgents,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.commerce.impl.asset.DynamicImageHandler")
+    @Path("/com.adobe.cq.commerce.impl.asset.DynamicImageHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqCommerceImplAssetDynamicImageHandlerInfo.class, authorizations = {
@@ -1041,7 +1042,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqCommerceImplAssetDynamicImageHandler( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("cq.commerce.asset.handler.active") Boolean cqCommerceAssetHandlerActive, @QueryParam("cq.commerce.asset.handler.name") String cqCommerceAssetHandlerName,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.commerce.impl.asset.ProductAssetHandlerProviderImpl")
+    @Path("/com.adobe.cq.commerce.impl.asset.ProductAssetHandlerProviderImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqCommerceImplAssetProductAssetHandlerProviderImplInfo.class, authorizations = {
@@ -1055,7 +1056,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqCommerceImplAssetProductAssetHandlerProviderImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("cq.commerce.asset.handler.fallback") String cqCommerceAssetHandlerFallback,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.commerce.impl.asset.StaticImageHandler")
+    @Path("/com.adobe.cq.commerce.impl.asset.StaticImageHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqCommerceImplAssetStaticImageHandlerInfo.class, authorizations = {
@@ -1069,7 +1070,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqCommerceImplAssetStaticImageHandler( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("cq.commerce.asset.handler.active") Boolean cqCommerceAssetHandlerActive, @QueryParam("cq.commerce.asset.handler.name") String cqCommerceAssetHandlerName,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.commerce.impl.asset.VideoHandler")
+    @Path("/com.adobe.cq.commerce.impl.asset.VideoHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqCommerceImplAssetVideoHandlerInfo.class, authorizations = {
@@ -1083,7 +1084,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqCommerceImplAssetVideoHandler( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("cq.commerce.asset.handler.active") Boolean cqCommerceAssetHandlerActive, @QueryParam("cq.commerce.asset.handler.name") String cqCommerceAssetHandlerName,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.commerce.impl.promotion.PromotionManagerImpl")
+    @Path("/com.adobe.cq.commerce.impl.promotion.PromotionManagerImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqCommerceImplPromotionPromotionManagerImplInfo.class, authorizations = {
@@ -1097,7 +1098,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqCommerceImplPromotionPromotionManagerImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("cq.commerce.promotion.root") String cqCommercePromotionRoot,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.commerce.pim.impl.cataloggenerator.CatalogGeneratorImpl")
+    @Path("/com.adobe.cq.commerce.pim.impl.cataloggenerator.CatalogGeneratorImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqCommercePimImplCataloggeneratorCatalogGeneratorImplInfo.class, authorizations = {
@@ -1111,7 +1112,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqCommercePimImplCataloggeneratorCatalogGeneratorImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("cq.commerce.cataloggenerator.bucketsize") Integer cqCommerceCataloggeneratorBucketsize, @QueryParam("cq.commerce.cataloggenerator.bucketname") String cqCommerceCataloggeneratorBucketname, @QueryParam("cq.commerce.cataloggenerator.excludedtemplateproperties") List<String> cqCommerceCataloggeneratorExcludedtemplateproperties,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.commerce.pim.impl.PageEventListener")
+    @Path("/com.adobe.cq.commerce.pim.impl.PageEventListener")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqCommercePimImplPageEventListenerInfo.class, authorizations = {
@@ -1125,7 +1126,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqCommercePimImplPageEventListener( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("cq.commerce.pageeventlistener.enabled") Boolean cqCommercePageeventlistenerEnabled,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.commerce.pim.impl.productfeed.ProductFeedServiceImpl")
+    @Path("/com.adobe.cq.commerce.pim.impl.productfeed.ProductFeedServiceImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqCommercePimImplProductfeedProductFeedServiceImplInfo.class, authorizations = {
@@ -1139,7 +1140,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqCommercePimImplProductfeedProductFeedServiceImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("Feed generator algorithm") String feedGeneratorAlgorithm,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.contentinsight.impl.ReportingServicesSettingsProvider")
+    @Path("/com.adobe.cq.contentinsight.impl.ReportingServicesSettingsProvider")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqContentinsightImplReportingServicesSettingsProviderInfo.class, authorizations = {
@@ -1153,7 +1154,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqContentinsightImplReportingServicesSettingsProvider( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("reportingservices.url") String reportingservicesUrl,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.contentinsight.impl.servlets.BrightEdgeProxyServlet")
+    @Path("/com.adobe.cq.contentinsight.impl.servlets.BrightEdgeProxyServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqContentinsightImplServletsBrightEdgeProxyServletInfo.class, authorizations = {
@@ -1167,7 +1168,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqContentinsightImplServletsBrightEdgeProxyServlet( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("brightedge.url") String brightedgeUrl,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.contentinsight.impl.servlets.ReportingServicesProxyServlet")
+    @Path("/com.adobe.cq.contentinsight.impl.servlets.ReportingServicesProxyServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqContentinsightImplServletsReportingServicesProxyServleInfo.class, authorizations = {
@@ -1181,7 +1182,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqContentinsightImplServletsReportingServicesProxyServle( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("reportingservices.proxy.whitelist") List<String> reportingservicesProxyWhitelist,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.dam.cfm.impl.component.ComponentConfigImpl")
+    @Path("/com.adobe.cq.dam.cfm.impl.component.ComponentConfigImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqDamCfmImplComponentComponentConfigImplInfo.class, authorizations = {
@@ -1195,7 +1196,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqDamCfmImplComponentComponentConfigImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("dam.cfm.component.resourceType") String damCfmComponentResourceType, @QueryParam("dam.cfm.component.fileReferenceProp") String damCfmComponentFileReferenceProp, @QueryParam("dam.cfm.component.elementsProp") String damCfmComponentElementsProp, @QueryParam("dam.cfm.component.variationProp") String damCfmComponentVariationProp,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.dam.cfm.impl.conf.FeatureConfigImpl")
+    @Path("/com.adobe.cq.dam.cfm.impl.conf.FeatureConfigImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqDamCfmImplConfFeatureConfigImplInfo.class, authorizations = {
@@ -1209,7 +1210,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqDamCfmImplConfFeatureConfigImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("dam.cfm.resourceTypes") List<String> damCfmResourceTypes, @QueryParam("dam.cfm.referenceProperties") List<String> damCfmReferenceProperties,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.dam.cfm.impl.content.rewriter.AssetProcessor")
+    @Path("/com.adobe.cq.dam.cfm.impl.content.rewriter.AssetProcessor")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqDamCfmImplContentRewriterAssetProcessorInfo.class, authorizations = {
@@ -1223,7 +1224,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqDamCfmImplContentRewriterAssetProcessor( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("pipeline.type") String pipelineType,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.dam.cfm.impl.content.rewriter.ParRangeFilter")
+    @Path("/com.adobe.cq.dam.cfm.impl.content.rewriter.ParRangeFilter")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqDamCfmImplContentRewriterParRangeFilterInfo.class, authorizations = {
@@ -1237,7 +1238,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqDamCfmImplContentRewriterParRangeFilter( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("pipeline.type") String pipelineType,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.dam.cfm.impl.content.rewriter.PayloadFilter")
+    @Path("/com.adobe.cq.dam.cfm.impl.content.rewriter.PayloadFilter")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqDamCfmImplContentRewriterPayloadFilterInfo.class, authorizations = {
@@ -1251,7 +1252,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqDamCfmImplContentRewriterPayloadFilter( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("pipeline.type") String pipelineType,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.dam.dm.process.image.PTiffManagerImpl")
+    @Path("/com.adobe.cq.dam.dm.process.image.PTiffManagerImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqDamDmProcessImagePTiffManagerImplInfo.class, authorizations = {
@@ -1265,7 +1266,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqDamDmProcessImagePTiffManagerImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("maxMemory") Integer maxMemory,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.dam.ips.impl.replication.trigger.ReplicateOnModifyWorker")
+    @Path("/com.adobe.cq.dam.ips.impl.replication.trigger.ReplicateOnModifyWorker")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqDamIpsImplReplicationTriggerReplicateOnModifyWorkerInfo.class, authorizations = {
@@ -1279,7 +1280,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqDamIpsImplReplicationTriggerReplicateOnModifyWorker( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("dmreplicateonmodify.enabled") Boolean dmreplicateonmodifyEnabled, @QueryParam("dmreplicateonmodify.forcesyncdeletes") Boolean dmreplicateonmodifyForcesyncdeletes,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.dam.mac.sync.helper.impl.MACSyncClientImpl")
+    @Path("/com.adobe.cq.dam.mac.sync.helper.impl.MACSyncClientImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqDamMacSyncHelperImplMACSyncClientImplInfo.class, authorizations = {
@@ -1293,7 +1294,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqDamMacSyncHelperImplMACSyncClientImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("com.adobe.dam.mac.sync.client.so.timeout") Integer comAdobeDamMacSyncClientSoTimeout,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.dam.mac.sync.impl.DAMSyncServiceImpl")
+    @Path("/com.adobe.cq.dam.mac.sync.impl.DAMSyncServiceImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqDamMacSyncImplDAMSyncServiceImplInfo.class, authorizations = {
@@ -1307,7 +1308,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqDamMacSyncImplDAMSyncServiceImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("com.adobe.cq.dam.mac.sync.damsyncservice.registered_paths") List<String> comAdobeCqDamMacSyncDamsyncserviceRegisteredPaths, @QueryParam("com.adobe.cq.dam.mac.sync.damsyncservice.sync.renditions") Boolean comAdobeCqDamMacSyncDamsyncserviceSyncRenditions, @QueryParam("com.adobe.cq.dam.mac.sync.damsyncservice.replicate.thread.wait.ms") Integer comAdobeCqDamMacSyncDamsyncserviceReplicateThreadWaitMs, @QueryParam("com.adobe.cq.dam.mac.sync.damsyncservice.platform") String comAdobeCqDamMacSyncDamsyncservicePlatform,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.dam.processor.nui.impl.NuiAssetProcessor")
+    @Path("/com.adobe.cq.dam.processor.nui.impl.NuiAssetProcessor")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqDamProcessorNuiImplNuiAssetProcessorInfo.class, authorizations = {
@@ -1321,7 +1322,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqDamProcessorNuiImplNuiAssetProcessor( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("nuiEnabled") Boolean nuiEnabled, @QueryParam("nuiServiceUrl") String nuiServiceUrl, @QueryParam("nuiApiKey") String nuiApiKey,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.dam.s7imaging.impl.is.ImageServerComponent")
+    @Path("/com.adobe.cq.dam.s7imaging.impl.is.ImageServerComponent")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqDamS7imagingImplIsImageServerComponentInfo.class, authorizations = {
@@ -1335,7 +1336,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqDamS7imagingImplIsImageServerComponent( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("TcpPort") String tcpPort, @QueryParam("AllowRemoteAccess") Boolean allowRemoteAccess, @QueryParam("MaxRenderRgnPixels") String maxRenderRgnPixels, @QueryParam("MaxMessageSize") String maxMessageSize, @QueryParam("RandomAccessUrlTimeout") Integer randomAccessUrlTimeout, @QueryParam("WorkerThreads") Integer workerThreads,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.dam.s7imaging.impl.ps.PlatformServerServlet")
+    @Path("/com.adobe.cq.dam.s7imaging.impl.ps.PlatformServerServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqDamS7imagingImplPsPlatformServerServletInfo.class, authorizations = {
@@ -1349,7 +1350,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqDamS7imagingImplPsPlatformServerServlet( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("cache.enable") Boolean cacheEnable, @QueryParam("cache.rootPaths") List<String> cacheRootPaths, @QueryParam("cache.maxSize") Integer cacheMaxSize, @QueryParam("cache.maxEntries") Integer cacheMaxEntries,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.dam.webdav.impl.io.AssetIOHandler")
+    @Path("/com.adobe.cq.dam.webdav.impl.io.AssetIOHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqDamWebdavImplIoAssetIOHandlerInfo.class, authorizations = {
@@ -1363,7 +1364,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqDamWebdavImplIoAssetIOHandler( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("service.ranking") Integer serviceRanking, @QueryParam("pathPrefix") String pathPrefix, @QueryParam("createVersion") Boolean createVersion,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.dam.webdav.impl.io.DamWebdavVersionLinkingJob")
+    @Path("/com.adobe.cq.dam.webdav.impl.io.DamWebdavVersionLinkingJob")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJobInfo.class, authorizations = {
@@ -1377,7 +1378,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJob( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("cq.dam.webdav.version.linking.enable") Boolean cqDamWebdavVersionLinkingEnable, @QueryParam("cq.dam.webdav.version.linking.scheduler.period") Integer cqDamWebdavVersionLinkingSchedulerPeriod, @QueryParam("cq.dam.webdav.version.linking.staging.timeout") Integer cqDamWebdavVersionLinkingStagingTimeout,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.dam.webdav.impl.io.SpecialFilesHandler")
+    @Path("/com.adobe.cq.dam.webdav.impl.io.SpecialFilesHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqDamWebdavImplIoSpecialFilesHandlerInfo.class, authorizations = {
@@ -1391,7 +1392,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqDamWebdavImplIoSpecialFilesHandler( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("com.day.cq.dam.core.impl.io.SpecialFilesHandler.filepatters") List<String> comDayCqDamCoreImplIoSpecialFilesHandlerFilepatters,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.deserfw.impl.DeserializationFirewallImpl")
+    @Path("/com.adobe.cq.deserfw.impl.DeserializationFirewallImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqDeserfwImplDeserializationFirewallImplInfo.class, authorizations = {
@@ -1405,7 +1406,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqDeserfwImplDeserializationFirewallImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("firewall.deserialization.whitelist") List<String> firewallDeserializationWhitelist, @QueryParam("firewall.deserialization.blacklist") List<String> firewallDeserializationBlacklist, @QueryParam("firewall.deserialization.diagnostics") String firewallDeserializationDiagnostics,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.dtm.impl.service.DTMWebServiceImpl")
+    @Path("/com.adobe.cq.dtm.impl.service.DTMWebServiceImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqDtmImplServiceDTMWebServiceImplInfo.class, authorizations = {
@@ -1419,7 +1420,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqDtmImplServiceDTMWebServiceImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("connection.timeout") Integer connectionTimeout, @QueryParam("socket.timeout") Integer socketTimeout,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.dtm.impl.servlets.DTMDeployHookServlet")
+    @Path("/com.adobe.cq.dtm.impl.servlets.DTMDeployHookServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqDtmImplServletsDTMDeployHookServletInfo.class, authorizations = {
@@ -1433,7 +1434,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqDtmImplServletsDTMDeployHookServlet( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("dtm.staging.ip.whitelist") List<String> dtmStagingIpWhitelist, @QueryParam("dtm.production.ip.whitelist") List<String> dtmProductionIpWhitelist,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.dtm.reactor.impl.service.WebServiceImpl")
+    @Path("/com.adobe.cq.dtm.reactor.impl.service.WebServiceImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqDtmReactorImplServiceWebServiceImplInfo.class, authorizations = {
@@ -1447,7 +1448,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqDtmReactorImplServiceWebServiceImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("endpointUri") String endpointUri, @QueryParam("connectionTimeout") Integer connectionTimeout, @QueryParam("socketTimeout") Integer socketTimeout,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.experiencelog.impl.ExperienceLogConfigServlet")
+    @Path("/com.adobe.cq.experiencelog.impl.ExperienceLogConfigServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqExperiencelogImplExperienceLogConfigServletInfo.class, authorizations = {
@@ -1461,7 +1462,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqExperiencelogImplExperienceLogConfigServlet( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("enabled") Boolean enabled, @QueryParam("disabledForGroups") List<String> disabledForGroups,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.hc.ContentPackagesHealthCheck")
+    @Path("/com.adobe.cq.hc.ContentPackagesHealthCheck")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqHcContentPackagesHealthCheckInfo.class, authorizations = {
@@ -1475,7 +1476,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqHcContentPackagesHealthCheck( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("hc.name") String hcName, @QueryParam("hc.tags") List<String> hcTags, @QueryParam("hc.mbean.name") String hcMbeanName, @QueryParam("package.names") List<String> packageNames,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.history.impl.HistoryRequestFilter")
+    @Path("/com.adobe.cq.history.impl.HistoryRequestFilter")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqHistoryImplHistoryRequestFilterInfo.class, authorizations = {
@@ -1489,7 +1490,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqHistoryImplHistoryRequestFilter( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("history.requestFilter.excludedSelectors") List<String> historyRequestFilterExcludedSelectors, @QueryParam("history.requestFilter.excludedExtensions") List<String> historyRequestFilterExcludedExtensions,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.history.impl.HistoryServiceImpl")
+    @Path("/com.adobe.cq.history.impl.HistoryServiceImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqHistoryImplHistoryServiceImplInfo.class, authorizations = {
@@ -1503,7 +1504,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqHistoryImplHistoryServiceImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("history.service.resourceTypes") List<String> historyServiceResourceTypes, @QueryParam("history.service.pathFilter") List<String> historyServicePathFilter,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.inbox.impl.typeprovider.ItemTypeProvider")
+    @Path("/com.adobe.cq.inbox.impl.typeprovider.ItemTypeProvider")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqInboxImplTypeproviderItemTypeProviderInfo.class, authorizations = {
@@ -1517,7 +1518,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqInboxImplTypeproviderItemTypeProvider( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("inbox.impl.typeprovider.registrypaths") List<String> inboxImplTypeproviderRegistrypaths, @QueryParam("inbox.impl.typeprovider.legacypaths") List<String> inboxImplTypeproviderLegacypaths, @QueryParam("inbox.impl.typeprovider.defaulturl.failureitem") String inboxImplTypeproviderDefaulturlFailureitem, @QueryParam("inbox.impl.typeprovider.defaulturl.workitem") String inboxImplTypeproviderDefaulturlWorkitem, @QueryParam("inbox.impl.typeprovider.defaulturl.task") String inboxImplTypeproviderDefaulturlTask,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.projects.impl.servlet.ProjectImageServlet")
+    @Path("/com.adobe.cq.projects.impl.servlet.ProjectImageServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqProjectsImplServletProjectImageServletInfo.class, authorizations = {
@@ -1531,7 +1532,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqProjectsImplServletProjectImageServlet( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("image.quality") String imageQuality, @QueryParam("image.supported.resolutions") String imageSupportedResolutions,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.projects.purge.Scheduler")
+    @Path("/com.adobe.cq.projects.purge.Scheduler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqProjectsPurgeSchedulerInfo.class, authorizations = {
@@ -1545,7 +1546,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqProjectsPurgeScheduler( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("scheduledpurge.name") String scheduledpurgeName, @QueryParam("scheduledpurge.purgeActive") Boolean scheduledpurgePurgeActive, @QueryParam("scheduledpurge.templates") List<String> scheduledpurgeTemplates, @QueryParam("scheduledpurge.purgeGroups") Boolean scheduledpurgePurgeGroups, @QueryParam("scheduledpurge.purgeAssets") Boolean scheduledpurgePurgeAssets, @QueryParam("scheduledpurge.terminateRunningWorkflows") Boolean scheduledpurgeTerminateRunningWorkflows, @QueryParam("scheduledpurge.daysold") Integer scheduledpurgeDaysold, @QueryParam("scheduledpurge.saveThreshold") Integer scheduledpurgeSaveThreshold,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.scheduled.exporter.impl.ScheduledExporterImpl")
+    @Path("/com.adobe.cq.scheduled.exporter.impl.ScheduledExporterImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqScheduledExporterImplScheduledExporterImplInfo.class, authorizations = {
@@ -1559,7 +1560,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqScheduledExporterImplScheduledExporterImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("include.paths") List<String> includePaths, @QueryParam("exporter.user") String exporterUser,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.screens.analytics.impl.ScreensAnalyticsServiceImpl")
+    @Path("/com.adobe.cq.screens.analytics.impl.ScreensAnalyticsServiceImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqScreensAnalyticsImplScreensAnalyticsServiceImplInfo.class, authorizations = {
@@ -1573,7 +1574,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqScreensAnalyticsImplScreensAnalyticsServiceImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("com.adobe.cq.screens.analytics.impl.url") String comAdobeCqScreensAnalyticsImplUrl, @QueryParam("com.adobe.cq.screens.analytics.impl.apikey") String comAdobeCqScreensAnalyticsImplApikey, @QueryParam("com.adobe.cq.screens.analytics.impl.project") String comAdobeCqScreensAnalyticsImplProject, @QueryParam("com.adobe.cq.screens.analytics.impl.environment") String comAdobeCqScreensAnalyticsImplEnvironment, @QueryParam("com.adobe.cq.screens.analytics.impl.sendFrequency") Integer comAdobeCqScreensAnalyticsImplSendFrequency,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.screens.device.impl.DeviceService")
+    @Path("/com.adobe.cq.screens.device.impl.DeviceService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqScreensDeviceImplDeviceServiceInfo.class, authorizations = {
@@ -1587,7 +1588,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqScreensDeviceImplDeviceService( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("com.adobe.aem.screens.player.pingfrequency") Integer comAdobeAemScreensPlayerPingfrequency, @QueryParam("com.adobe.aem.screens.device.pasword.specialchars") String comAdobeAemScreensDevicePaswordSpecialchars, @QueryParam("com.adobe.aem.screens.device.pasword.minlowercasechars") Integer comAdobeAemScreensDevicePaswordMinlowercasechars, @QueryParam("com.adobe.aem.screens.device.pasword.minuppercasechars") Integer comAdobeAemScreensDevicePaswordMinuppercasechars, @QueryParam("com.adobe.aem.screens.device.pasword.minnumberchars") Integer comAdobeAemScreensDevicePaswordMinnumberchars, @QueryParam("com.adobe.aem.screens.device.pasword.minspecialchars") Integer comAdobeAemScreensDevicePaswordMinspecialchars, @QueryParam("com.adobe.aem.screens.device.pasword.minlength") Integer comAdobeAemScreensDevicePaswordMinlength,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.screens.device.registration.impl.RegistrationServiceImpl")
+    @Path("/com.adobe.cq.screens.device.registration.impl.RegistrationServiceImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqScreensDeviceRegistrationImplRegistrationServiceImplInfo.class, authorizations = {
@@ -1601,7 +1602,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqScreensDeviceRegistrationImplRegistrationServiceImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("deviceRegistrationTimeout") Integer deviceRegistrationTimeout,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.screens.impl.handler.ChannelsUpdateHandler")
+    @Path("/com.adobe.cq.screens.impl.handler.ChannelsUpdateHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqScreensImplHandlerChannelsUpdateHandlerInfo.class, authorizations = {
@@ -1615,7 +1616,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqScreensImplHandlerChannelsUpdateHandler( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("cq.pagesupdatehandler.imageresourcetypes") List<String> cqPagesupdatehandlerImageresourcetypes, @QueryParam("cq.pagesupdatehandler.productresourcetypes") List<String> cqPagesupdatehandlerProductresourcetypes, @QueryParam("cq.pagesupdatehandler.videoresourcetypes") List<String> cqPagesupdatehandlerVideoresourcetypes, @QueryParam("cq.pagesupdatehandler.dynamicsequenceresourcetypes") List<String> cqPagesupdatehandlerDynamicsequenceresourcetypes, @QueryParam("cq.pagesupdatehandler.previewmodepaths") List<String> cqPagesupdatehandlerPreviewmodepaths,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.screens.impl.jobs.DistributedDevicesStatiUpdateJob")
+    @Path("/com.adobe.cq.screens.impl.jobs.DistributedDevicesStatiUpdateJob")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqScreensImplJobsDistributedDevicesStatiUpdateJobInfo.class, authorizations = {
@@ -1629,7 +1630,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqScreensImplJobsDistributedDevicesStatiUpdateJob( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("scheduler.expression") String schedulerExpression,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.screens.impl.remote.impl.DistributedHttpClientImpl")
+    @Path("/com.adobe.cq.screens.impl.remote.impl.DistributedHttpClientImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqScreensImplRemoteImplDistributedHttpClientImplInfo.class, authorizations = {
@@ -1643,7 +1644,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqScreensImplRemoteImplDistributedHttpClientImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("com.adobe.aem.screens.impl.remote.request_timeout") Integer comAdobeAemScreensImplRemoteRequestTimeout,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.screens.impl.ScreensChannelPostProcessor")
+    @Path("/com.adobe.cq.screens.impl.ScreensChannelPostProcessor")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqScreensImplScreensChannelPostProcessorInfo.class, authorizations = {
@@ -1657,7 +1658,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqScreensImplScreensChannelPostProcessor( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("screens.channels.properties.to.remove") List<String> screensChannelsPropertiesToRemove,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.screens.monitoring.impl.ScreensMonitoringServiceImpl")
+    @Path("/com.adobe.cq.screens.monitoring.impl.ScreensMonitoringServiceImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplInfo.class, authorizations = {
@@ -1671,7 +1672,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqScreensMonitoringImplScreensMonitoringServiceImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("com.adobe.cq.screens.monitoring.impl.ScreensMonitoringServiceImpl.projectPath") List<String> comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProjectPath, @QueryParam("com.adobe.cq.screens.monitoring.impl.ScreensMonitoringServiceImpl.scheduleFrequency") String comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplScheduleFrequency, @QueryParam("com.adobe.cq.screens.monitoring.impl.ScreensMonitoringServiceImpl.pingTimeout") Integer comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplPingTimeout, @QueryParam("com.adobe.cq.screens.monitoring.impl.ScreensMonitoringServiceImpl.recipients") String comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplRecipients, @QueryParam("com.adobe.cq.screens.monitoring.impl.ScreensMonitoringServiceImpl.smtpserver") String comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplSmtpserver, @QueryParam("com.adobe.cq.screens.monitoring.impl.ScreensMonitoringServiceImpl.smtpport") Integer comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplSmtpport, @QueryParam("com.adobe.cq.screens.monitoring.impl.ScreensMonitoringServiceImpl.usetls") Boolean comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplUsetls, @QueryParam("com.adobe.cq.screens.monitoring.impl.ScreensMonitoringServiceImpl.username") String comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplUsername, @QueryParam("com.adobe.cq.screens.monitoring.impl.ScreensMonitoringServiceImpl.password") String comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplPassword,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.screens.mq.activemq.impl.ArtemisJMSProvider")
+    @Path("/com.adobe.cq.screens.mq.activemq.impl.ArtemisJMSProvider")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqScreensMqActivemqImplArtemisJMSProviderInfo.class, authorizations = {
@@ -1685,7 +1686,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqScreensMqActivemqImplArtemisJMSProvider( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("service.ranking") Integer serviceRanking, @QueryParam("global.size") Integer globalSize, @QueryParam("max.disk.usage") Integer maxDiskUsage, @QueryParam("persistence.enabled") Boolean persistenceEnabled, @QueryParam("thread.pool.max.size") Integer threadPoolMaxSize, @QueryParam("scheduled.thread.pool.max.size") Integer scheduledThreadPoolMaxSize, @QueryParam("graceful.shutdown.timeout") Integer gracefulShutdownTimeout, @QueryParam("queues") List<String> queues, @QueryParam("topics") List<String> topics, @QueryParam("addresses.max.delivery.attempts") Integer addressesMaxDeliveryAttempts, @QueryParam("addresses.expiry.delay") Integer addressesExpiryDelay, @QueryParam("addresses.address.full.message.policy") String addressesAddressFullMessagePolicy, @QueryParam("addresses.max.size.bytes") Integer addressesMaxSizeBytes, @QueryParam("addresses.page.size.bytes") Integer addressesPageSizeBytes, @QueryParam("addresses.page.cache.max.size") Integer addressesPageCacheMaxSize, @QueryParam("cluster.user") String clusterUser, @QueryParam("cluster.password") String clusterPassword, @QueryParam("cluster.call.timeout") Integer clusterCallTimeout, @QueryParam("cluster.call.failover.timeout") Integer clusterCallFailoverTimeout, @QueryParam("cluster.client.failure.check.period") Integer clusterClientFailureCheckPeriod, @QueryParam("cluster.notification.attempts") Integer clusterNotificationAttempts, @QueryParam("cluster.notification.interval") Integer clusterNotificationInterval, @QueryParam("id.cache.size") Integer idCacheSize, @QueryParam("cluster.confirmation.window.size") Integer clusterConfirmationWindowSize, @QueryParam("cluster.connection.ttl") Integer clusterConnectionTtl, @QueryParam("cluster.duplicate.detection") Boolean clusterDuplicateDetection, @QueryParam("cluster.initial.connect.attempts") Integer clusterInitialConnectAttempts, @QueryParam("cluster.max.retry.interval") Integer clusterMaxRetryInterval, @QueryParam("cluster.min.large.message.size") Integer clusterMinLargeMessageSize, @QueryParam("cluster.producer.window.size") Integer clusterProducerWindowSize, @QueryParam("cluster.reconnect.attempts") Integer clusterReconnectAttempts, @QueryParam("cluster.retry.interval") Integer clusterRetryInterval, @QueryParam("cluster.retry.interval.multiplier") BigDecimal clusterRetryIntervalMultiplier,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.BulkOfflineUpdateServiceImpl")
+    @Path("/com.adobe.cq.screens.offlinecontent.impl.BulkOfflineUpdateServiceImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqScreensOfflinecontentImplBulkOfflineUpdateServiceImplInfo.class, authorizations = {
@@ -1699,7 +1700,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqScreensOfflinecontentImplBulkOfflineUpdateServiceImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("com.adobe.cq.screens.offlinecontent.impl.BulkOfflineUpdateServiceImpl.projectPath") List<String> comAdobeCqScreensOfflinecontentImplBulkOfflineUpdateServiceImplProjectPath, @QueryParam("com.adobe.cq.screens.offlinecontent.impl.BulkOfflineUpdateServiceImpl.scheduleFrequency") String comAdobeCqScreensOfflinecontentImplBulkOfflineUpdateServiceImplScheduleFrequency,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl")
+    @Path("/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqScreensOfflinecontentImplOfflineContentServiceImplInfo.class, authorizations = {
@@ -1713,7 +1714,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqScreensOfflinecontentImplOfflineContentServiceImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("disableSmartSync") Boolean disableSmartSync,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.screens.segmentation.impl.SegmentationFeatureFlag")
+    @Path("/com.adobe.cq.screens.segmentation.impl.SegmentationFeatureFlag")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqScreensSegmentationImplSegmentationFeatureFlagInfo.class, authorizations = {
@@ -1727,7 +1728,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqScreensSegmentationImplSegmentationFeatureFlag( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("enableDataTriggeredContent") Boolean enableDataTriggeredContent,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.security.hc.bundles.impl.HtmlLibraryManagerConfigHealthCheck")
+    @Path("/com.adobe.cq.security.hc.bundles.impl.HtmlLibraryManagerConfigHealthCheck")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthChInfo.class, authorizations = {
@@ -1741,7 +1742,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthCh( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("hc.tags") List<String> hcTags,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.security.hc.bundles.impl.WcmFilterHealthCheck")
+    @Path("/com.adobe.cq.security.hc.bundles.impl.WcmFilterHealthCheck")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSecurityHcBundlesImplWcmFilterHealthCheckInfo.class, authorizations = {
@@ -1755,7 +1756,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSecurityHcBundlesImplWcmFilterHealthCheck( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("hc.tags") List<String> hcTags,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.security.hc.dispatcher.impl.DispatcherAccessHealthCheck")
+    @Path("/com.adobe.cq.security.hc.dispatcher.impl.DispatcherAccessHealthCheck")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheckInfo.class, authorizations = {
@@ -1769,7 +1770,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheck( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("hc.tags") List<String> hcTags, @QueryParam("dispatcher.address") String dispatcherAddress, @QueryParam("dispatcher.filter.allowed") List<String> dispatcherFilterAllowed, @QueryParam("dispatcher.filter.blocked") List<String> dispatcherFilterBlocked,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.security.hc.packages.impl.ExampleContentHealthCheck")
+    @Path("/com.adobe.cq.security.hc.packages.impl.ExampleContentHealthCheck")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSecurityHcPackagesImplExampleContentHealthCheckInfo.class, authorizations = {
@@ -1783,7 +1784,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSecurityHcPackagesImplExampleContentHealthCheck( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("hc.tags") List<String> hcTags,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.security.hc.webserver.impl.ClickjackingHealthCheck")
+    @Path("/com.adobe.cq.security.hc.webserver.impl.ClickjackingHealthCheck")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSecurityHcWebserverImplClickjackingHealthCheckInfo.class, authorizations = {
@@ -1797,7 +1798,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSecurityHcWebserverImplClickjackingHealthCheck( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("hc.tags") List<String> hcTags, @QueryParam("webserver.address") String webserverAddress,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.accountverification.impl.AccountManagementConfigImpl")
+    @Path("/com.adobe.cq.social.accountverification.impl.AccountManagementConfigImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialAccountverificationImplAccountManagementConfigImInfo.class, authorizations = {
@@ -1811,7 +1812,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialAccountverificationImplAccountManagementConfigIm( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("enable") Boolean enable, @QueryParam("ttl1") Integer ttl1, @QueryParam("ttl2") Integer ttl2,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.activitystreams.client.impl.SocialActivityComponentFactoryImpl")
+    @Path("/com.adobe.cq.social.activitystreams.client.impl.SocialActivityComponentFactoryImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialActivitystreamsClientImplSocialActivityComponenInfo.class, authorizations = {
@@ -1825,7 +1826,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialActivitystreamsClientImplSocialActivityComponen( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("priority") Integer priority,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.activitystreams.client.impl.SocialActivityStreamComponentFactory")
+    @Path("/com.adobe.cq.social.activitystreams.client.impl.SocialActivityStreamComponentFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialActivitystreamsClientImplSocialActivityStreamCoInfo.class, authorizations = {
@@ -1839,7 +1840,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialActivitystreamsClientImplSocialActivityStreamCo( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("priority") Integer priority,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.activitystreams.listener.impl.EventListenerHandler")
+    @Path("/com.adobe.cq.social.activitystreams.listener.impl.EventListenerHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialActivitystreamsListenerImplEventListenerHandlerInfo.class, authorizations = {
@@ -1853,7 +1854,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialActivitystreamsListenerImplEventListenerHandler( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("event.topics") String eventTopics, @QueryParam("event.filter") String eventFilter,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.activitystreams.listener.impl.ModerationEventExtension")
+    @Path("/com.adobe.cq.social.activitystreams.listener.impl.ModerationEventExtension")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialActivitystreamsListenerImplModerationEventExtenInfo.class, authorizations = {
@@ -1867,7 +1868,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialActivitystreamsListenerImplModerationEventExten( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("accepted") Boolean accepted, @QueryParam("ranked") Integer ranked,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.activitystreams.listener.impl.RatingEventActivitySuppressor")
+    @Path("/com.adobe.cq.social.activitystreams.listener.impl.RatingEventActivitySuppressor")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySInfo.class, authorizations = {
@@ -1881,7 +1882,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialActivitystreamsListenerImplRatingEventActivityS( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("ranking") Integer ranking, @QueryParam("enable") Boolean enable,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.activitystreams.listener.impl.ResourceActivityStreamProviderFactory")
+    @Path("/com.adobe.cq.social.activitystreams.listener.impl.ResourceActivityStreamProviderFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialActivitystreamsListenerImplResourceActivityStreInfo.class, authorizations = {
@@ -1895,7 +1896,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialActivitystreamsListenerImplResourceActivityStre( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("streamPath") String streamPath, @QueryParam("streamName") String streamName,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.calendar.client.endpoints.impl.CalendarOperationsImpl")
+    @Path("/com.adobe.cq.social.calendar.client.endpoints.impl.CalendarOperationsImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsIInfo.class, authorizations = {
@@ -1909,7 +1910,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsI( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("MaxRetry") Integer maxRetry, @QueryParam("fieldWhitelist") List<String> fieldWhitelist, @QueryParam("attachmentTypeBlacklist") List<String> attachmentTypeBlacklist,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.calendar.client.operationextensions.EventAttachment")
+    @Path("/com.adobe.cq.social.calendar.client.operationextensions.EventAttachment")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmenInfo.class, authorizations = {
@@ -1923,7 +1924,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialCalendarClientOperationextensionsEventAttachmen( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("attachmentTypeBlacklist") String attachmentTypeBlacklist, @QueryParam("extension.order") Integer extensionOrder,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.calendar.servlets.TimeZoneServlet")
+    @Path("/com.adobe.cq.social.calendar.servlets.TimeZoneServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialCalendarServletsTimeZoneServletInfo.class, authorizations = {
@@ -1937,7 +1938,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialCalendarServletsTimeZoneServlet( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("timezones.expirytime") Integer timezonesExpirytime,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.commons.comments.endpoints.impl.CommentDeleteEventActivitySuppressor")
+    @Path("/com.adobe.cq.social.commons.comments.endpoints.impl.CommentDeleteEventActivitySuppressor")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventInfo.class, authorizations = {
@@ -1951,7 +1952,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEvent( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("ranking") Integer ranking,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.commons.comments.endpoints.impl.CommentOperationService")
+    @Path("/com.adobe.cq.social.commons.comments.endpoints.impl.CommentOperationService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSeInfo.class, authorizations = {
@@ -1965,7 +1966,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSe( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("fieldWhitelist") List<String> fieldWhitelist, @QueryParam("attachmentTypeBlacklist") List<String> attachmentTypeBlacklist,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.commons.comments.endpoints.impl.TranslationOperationService")
+    @Path("/com.adobe.cq.social.commons.comments.endpoints.impl.TranslationOperationService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperatiInfo.class, authorizations = {
@@ -1979,7 +1980,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperati( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("fieldWhitelist") List<String> fieldWhitelist, @QueryParam("attachmentTypeBlacklist") List<String> attachmentTypeBlacklist,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.commons.comments.listing.impl.SearchCommentSocialComponentListProvider")
+    @Path("/com.adobe.cq.social.commons.comments.listing.impl.SearchCommentSocialComponentListProvider")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialCInfo.class, authorizations = {
@@ -1993,7 +1994,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialC( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("numUserLimit") Integer numUserLimit,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.commons.comments.scheduler.impl.SearchScheduledPosts")
+    @Path("/com.adobe.cq.social.commons.comments.scheduler.impl.SearchScheduledPosts")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosInfo.class, authorizations = {
@@ -2007,7 +2008,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPos( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("enableScheduledPostsSearch") Boolean enableScheduledPostsSearch, @QueryParam("numberOfMinutes") Integer numberOfMinutes, @QueryParam("maxSearchLimit") Integer maxSearchLimit,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.commons.cors.CORSAuthenticationFilter")
+    @Path("/com.adobe.cq.social.commons.cors.CORSAuthenticationFilter")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialCommonsCorsCORSAuthenticationFilterInfo.class, authorizations = {
@@ -2021,7 +2022,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialCommonsCorsCORSAuthenticationFilter( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("cors.enabling") Boolean corsEnabling,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.AndroidEmailClientProvider")
+    @Path("/com.adobe.cq.social.commons.emailreply.impl.AndroidEmailClientProvider")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialCommonsEmailreplyImplAndroidEmailClientProviderInfo.class, authorizations = {
@@ -2035,7 +2036,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialCommonsEmailreplyImplAndroidEmailClientProvider( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("priorityOrder") Integer priorityOrder, @QueryParam("replyEmailPatterns") List<String> replyEmailPatterns,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.CommentEmailBuilderImpl")
+    @Path("/com.adobe.cq.social.commons.emailreply.impl.CommentEmailBuilderImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialCommonsEmailreplyImplCommentEmailBuilderImplInfo.class, authorizations = {
@@ -2049,7 +2050,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialCommonsEmailreplyImplCommentEmailBuilderImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("context.path") String contextPath,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.CommentEmailEventListener")
+    @Path("/com.adobe.cq.social.commons.emailreply.impl.CommentEmailEventListener")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialCommonsEmailreplyImplCommentEmailEventListenerInfo.class, authorizations = {
@@ -2063,7 +2064,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialCommonsEmailreplyImplCommentEmailEventListener( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("event.topics") String eventTopics,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.CustomEmailClientProvider")
+    @Path("/com.adobe.cq.social.commons.emailreply.impl.CustomEmailClientProvider")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialCommonsEmailreplyImplCustomEmailClientProviderInfo.class, authorizations = {
@@ -2077,7 +2078,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialCommonsEmailreplyImplCustomEmailClientProvider( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("priorityOrder") Integer priorityOrder, @QueryParam("replyEmailPatterns") List<String> replyEmailPatterns,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.EmailQuotedTextPatternsImpl")
+    @Path("/com.adobe.cq.social.commons.emailreply.impl.EmailQuotedTextPatternsImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpInfo.class, authorizations = {
@@ -2091,7 +2092,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImp( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("pattern.time") String patternTime, @QueryParam("pattern.newline") String patternNewline, @QueryParam("pattern.dayOfMonth") String patternDayOfMonth, @QueryParam("pattern.month") String patternMonth, @QueryParam("pattern.year") String patternYear, @QueryParam("pattern.date") String patternDate, @QueryParam("pattern.dateTime") String patternDateTime, @QueryParam("pattern.email") String patternEmail,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.EmailReplyConfigurationImpl")
+    @Path("/com.adobe.cq.social.commons.emailreply.impl.EmailReplyConfigurationImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpInfo.class, authorizations = {
@@ -2105,7 +2106,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImp( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("email.name") String emailName, @QueryParam("email.createPostFromReply") Boolean emailCreatePostFromReply, @QueryParam("email.addCommentIdTo") String emailAddCommentIdTo, @QueryParam("email.subjectMaximumLength") Integer emailSubjectMaximumLength, @QueryParam("email.replyToAddress") String emailReplyToAddress, @QueryParam("email.replyToDelimiter") String emailReplyToDelimiter, @QueryParam("email.trackerIdPrefixInSubject") String emailTrackerIdPrefixInSubject, @QueryParam("email.trackerIdPrefixInBody") String emailTrackerIdPrefixInBody, @QueryParam("email.asHTML") Boolean emailAsHTML, @QueryParam("email.defaultUserName") String emailDefaultUserName, @QueryParam("email.templates.rootPath") String emailTemplatesRootPath,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.EmailReplyImporter")
+    @Path("/com.adobe.cq.social.commons.emailreply.impl.EmailReplyImporter")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialCommonsEmailreplyImplEmailReplyImporterInfo.class, authorizations = {
@@ -2119,7 +2120,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialCommonsEmailreplyImplEmailReplyImporter( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("connectProtocol") String connectProtocol,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.GmailEmailClientProvider")
+    @Path("/com.adobe.cq.social.commons.emailreply.impl.GmailEmailClientProvider")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialCommonsEmailreplyImplGmailEmailClientProviderInfo.class, authorizations = {
@@ -2133,7 +2134,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialCommonsEmailreplyImplGmailEmailClientProvider( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("priorityOrder") Integer priorityOrder, @QueryParam("replyEmailPatterns") List<String> replyEmailPatterns,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.IOSEmailClientProvider")
+    @Path("/com.adobe.cq.social.commons.emailreply.impl.IOSEmailClientProvider")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialCommonsEmailreplyImplIOSEmailClientProviderInfo.class, authorizations = {
@@ -2147,7 +2148,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialCommonsEmailreplyImplIOSEmailClientProvider( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("priorityOrder") Integer priorityOrder, @QueryParam("replyEmailPatterns") List<String> replyEmailPatterns,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.MacmailEmailClientProvider")
+    @Path("/com.adobe.cq.social.commons.emailreply.impl.MacmailEmailClientProvider")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialCommonsEmailreplyImplMacmailEmailClientProviderInfo.class, authorizations = {
@@ -2161,7 +2162,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialCommonsEmailreplyImplMacmailEmailClientProvider( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("priorityOrder") Integer priorityOrder, @QueryParam("replyEmailPatterns") List<String> replyEmailPatterns,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.OutLookEmailClientProvider")
+    @Path("/com.adobe.cq.social.commons.emailreply.impl.OutLookEmailClientProvider")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialCommonsEmailreplyImplOutLookEmailClientProviderInfo.class, authorizations = {
@@ -2175,7 +2176,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialCommonsEmailreplyImplOutLookEmailClientProvider( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("priorityOrder") Integer priorityOrder, @QueryParam("replyEmailPatterns") List<String> replyEmailPatterns,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.UnknownEmailClientProvider")
+    @Path("/com.adobe.cq.social.commons.emailreply.impl.UnknownEmailClientProvider")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialCommonsEmailreplyImplUnknownEmailClientProviderInfo.class, authorizations = {
@@ -2189,7 +2190,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialCommonsEmailreplyImplUnknownEmailClientProvider( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("replyEmailPatterns") List<String> replyEmailPatterns, @QueryParam("priorityOrder") Integer priorityOrder,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.YahooEmailClientProvider")
+    @Path("/com.adobe.cq.social.commons.emailreply.impl.YahooEmailClientProvider")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialCommonsEmailreplyImplYahooEmailClientProviderInfo.class, authorizations = {
@@ -2203,7 +2204,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialCommonsEmailreplyImplYahooEmailClientProvider( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("priorityOrder") Integer priorityOrder, @QueryParam("replyEmailPatterns") List<String> replyEmailPatterns,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.commons.maintainance.impl.DeleteTempUGCImageUploads")
+    @Path("/com.adobe.cq.social.commons.maintainance.impl.DeleteTempUGCImageUploads")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadInfo.class, authorizations = {
@@ -2217,7 +2218,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUpload( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("numberOfDays") Integer numberOfDays, @QueryParam("ageOfFile") Integer ageOfFile,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.commons.ugclimiter.impl.UGCLimiterServiceImpl")
+    @Path("/com.adobe.cq.social.commons.ugclimiter.impl.UGCLimiterServiceImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialCommonsUgclimiterImplUGCLimiterServiceImplInfo.class, authorizations = {
@@ -2231,7 +2232,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialCommonsUgclimiterImplUGCLimiterServiceImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("event.topics") String eventTopics, @QueryParam("event.filter") String eventFilter, @QueryParam("verbs") List<String> verbs,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.commons.ugclimitsconfig.impl.CommunityUserUGCLimitsConfigImpl")
+    @Path("/com.adobe.cq.social.commons.ugclimitsconfig.impl.CommunityUserUGCLimitsConfigImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitInfo.class, authorizations = {
@@ -2245,7 +2246,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimit( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("enable") Boolean enable, @QueryParam("UGCLimit") Integer ugCLimit, @QueryParam("ugcLimitDuration") Integer ugcLimitDuration, @QueryParam("domains") List<String> domains, @QueryParam("toList") List<String> toList,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.connect.oauth.impl.FacebookProviderImpl")
+    @Path("/com.adobe.cq.social.connect.oauth.impl.FacebookProviderImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialConnectOauthImplFacebookProviderImplInfo.class, authorizations = {
@@ -2259,7 +2260,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialConnectOauthImplFacebookProviderImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("oauth.provider.id") String oauthProviderId, @QueryParam("oauth.cloud.config.root") String oauthCloudConfigRoot, @QueryParam("provider.config.root") String providerConfigRoot, @QueryParam("provider.config.create.tags.enabled") Boolean providerConfigCreateTagsEnabled, @QueryParam("provider.config.user.folder") String providerConfigUserFolder, @QueryParam("provider.config.facebook.fetch.fields") Boolean providerConfigFacebookFetchFields, @QueryParam("provider.config.facebook.fields") List<String> providerConfigFacebookFields, @QueryParam("provider.config.refresh.userdata.enabled") Boolean providerConfigRefreshUserdataEnabled,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.connect.oauth.impl.SocialOAuthAuthenticationHandler")
+    @Path("/com.adobe.cq.social.connect.oauth.impl.SocialOAuthAuthenticationHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandleInfo.class, authorizations = {
@@ -2273,7 +2274,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandle( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("path") List<String> path, @QueryParam("service.ranking") Integer serviceRanking,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.connect.oauth.impl.SocialOAuthUserProfileMapper")
+    @Path("/com.adobe.cq.social.connect.oauth.impl.SocialOAuthUserProfileMapper")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialConnectOauthImplSocialOAuthUserProfileMapperInfo.class, authorizations = {
@@ -2287,7 +2288,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialConnectOauthImplSocialOAuthUserProfileMapper( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("facebook") List<String> facebook, @QueryParam("twitter") List<String> twitter, @QueryParam("provider.config.user.folder") String providerConfigUserFolder,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.connect.oauth.impl.TwitterProviderImpl")
+    @Path("/com.adobe.cq.social.connect.oauth.impl.TwitterProviderImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialConnectOauthImplTwitterProviderImplInfo.class, authorizations = {
@@ -2301,7 +2302,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialConnectOauthImplTwitterProviderImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("oauth.provider.id") String oauthProviderId, @QueryParam("oauth.cloud.config.root") String oauthCloudConfigRoot, @QueryParam("provider.config.root") String providerConfigRoot, @QueryParam("provider.config.user.folder") String providerConfigUserFolder, @QueryParam("provider.config.twitter.enable.params") Boolean providerConfigTwitterEnableParams, @QueryParam("provider.config.twitter.params") List<String> providerConfigTwitterParams, @QueryParam("provider.config.refresh.userdata.enabled") Boolean providerConfigRefreshUserdataEnabled,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.content.fragments.services.impl.CommunitiesFragmentCreationServiceImpl")
+    @Path("/com.adobe.cq.social.content.fragments.services.impl.CommunitiesFragmentCreationServiceImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmenInfo.class, authorizations = {
@@ -2315,7 +2316,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmen( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("cq.social.content.fragments.services.enabled") Boolean cqSocialContentFragmentsServicesEnabled, @QueryParam("cq.social.content.fragments.services.waitTimeSeconds") Integer cqSocialContentFragmentsServicesWaitTimeSeconds,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.datastore.as.impl.ASResourceProviderFactory")
+    @Path("/com.adobe.cq.social.datastore.as.impl.ASResourceProviderFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryInfo.class, authorizations = {
@@ -2329,7 +2330,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialDatastoreAsImplASResourceProviderFactory( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("version.id") String versionId, @QueryParam("cache.on") Boolean cacheOn, @QueryParam("concurrency.level") Integer concurrencyLevel, @QueryParam("cache.start.size") Integer cacheStartSize, @QueryParam("cache.ttl") Integer cacheTtl, @QueryParam("cache.size") Integer cacheSize, @QueryParam("time.limit") Integer timeLimit,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.datastore.op.impl.SocialMSResourceProviderFactory")
+    @Path("/com.adobe.cq.social.datastore.op.impl.SocialMSResourceProviderFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactoryInfo.class, authorizations = {
@@ -2343,7 +2344,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactory( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("solr.zk.timeout") String solrZkTimeout, @QueryParam("solr.commit") String solrCommit, @QueryParam("cache.on") Boolean cacheOn, @QueryParam("concurrency.level") Integer concurrencyLevel, @QueryParam("cache.start.size") Integer cacheStartSize, @QueryParam("cache.ttl") Integer cacheTtl, @QueryParam("cache.size") Integer cacheSize,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.datastore.rdb.impl.SocialRDBResourceProviderFactory")
+    @Path("/com.adobe.cq.social.datastore.rdb.impl.SocialRDBResourceProviderFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorInfo.class, authorizations = {
@@ -2357,7 +2358,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactor( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("solr.zk.timeout") String solrZkTimeout, @QueryParam("solr.commit") String solrCommit, @QueryParam("cache.on") Boolean cacheOn, @QueryParam("concurrency.level") Integer concurrencyLevel, @QueryParam("cache.start.size") Integer cacheStartSize, @QueryParam("cache.ttl") Integer cacheTtl, @QueryParam("cache.size") Integer cacheSize,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.enablement.adaptors.EnablementLearningPathAdaptorFactory")
+    @Path("/com.adobe.cq.social.enablement.adaptors.EnablementLearningPathAdaptorFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorFInfo.class, authorizations = {
@@ -2371,7 +2372,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorF( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("isMemberCheck") Boolean isMemberCheck,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.enablement.adaptors.EnablementResourceAdaptorFactory")
+    @Path("/com.adobe.cq.social.enablement.adaptors.EnablementResourceAdaptorFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFactoInfo.class, authorizations = {
@@ -2385,7 +2386,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFacto( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("isMemberCheck") Boolean isMemberCheck,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.enablement.learningpath.endpoints.impl.EnablementLearningPathModelOperationService")
+    @Path("/com.adobe.cq.social.enablement.learningpath.endpoints.impl.EnablementLearningPathModelOperationService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialEnablementLearningpathEndpointsImplEnablementLInfo.class, authorizations = {
@@ -2399,7 +2400,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialEnablementLearningpathEndpointsImplEnablementL( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("fieldWhitelist") List<String> fieldWhitelist,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.enablement.resource.endpoints.impl.EnablementResourceModelOperationService")
+    @Path("/com.adobe.cq.social.enablement.resource.endpoints.impl.EnablementResourceModelOperationService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouInfo.class, authorizations = {
@@ -2413,7 +2414,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialEnablementResourceEndpointsImplEnablementResou( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("fieldWhitelist") List<String> fieldWhitelist,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.enablement.services.impl.AuthorMarkerImpl")
+    @Path("/com.adobe.cq.social.enablement.services.impl.AuthorMarkerImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialEnablementServicesImplAuthorMarkerImplInfo.class, authorizations = {
@@ -2427,7 +2428,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialEnablementServicesImplAuthorMarkerImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("service.ranking") Integer serviceRanking,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.filelibrary.client.endpoints.FilelibraryDownloadGetServlet")
+    @Path("/com.adobe.cq.social.filelibrary.client.endpoints.FilelibraryDownloadGetServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGeInfo.class, authorizations = {
@@ -2441,7 +2442,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGe( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("sling.servlet.selectors") String slingServletSelectors, @QueryParam("sling.servlet.extensions") String slingServletExtensions,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.filelibrary.client.endpoints.impl.FileLibraryOperationsService")
+    @Path("/com.adobe.cq.social.filelibrary.client.endpoints.impl.FileLibraryOperationsService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperaInfo.class, authorizations = {
@@ -2455,7 +2456,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOpera( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("fieldWhitelist") List<String> fieldWhitelist, @QueryParam("attachmentTypeBlacklist") List<String> attachmentTypeBlacklist,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.forum.client.endpoints.impl.ForumOperationsService")
+    @Path("/com.adobe.cq.social.forum.client.endpoints.impl.ForumOperationsService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialForumClientEndpointsImplForumOperationsServiceInfo.class, authorizations = {
@@ -2469,7 +2470,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialForumClientEndpointsImplForumOperationsService( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("fieldWhitelist") List<String> fieldWhitelist, @QueryParam("attachmentTypeBlacklist") List<String> attachmentTypeBlacklist,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.forum.dispatcher.impl.FlushOperations")
+    @Path("/com.adobe.cq.social.forum.dispatcher.impl.FlushOperations")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialForumDispatcherImplFlushOperationsInfo.class, authorizations = {
@@ -2483,7 +2484,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialForumDispatcherImplFlushOperations( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("extension.order") Integer extensionOrder, @QueryParam("flush.forumontopic") Boolean flushForumontopic,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.group.client.impl.CommunityGroupCollectionComponentFactory")
+    @Path("/com.adobe.cq.social.group.client.impl.CommunityGroupCollectionComponentFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenInfo.class, authorizations = {
@@ -2497,7 +2498,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialGroupClientImplCommunityGroupCollectionComponen( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("group.listing.pagination.enable") Boolean groupListingPaginationEnable, @QueryParam("group.listing.lazyloading.enable") Boolean groupListingLazyloadingEnable, @QueryParam("page.size") Integer pageSize, @QueryParam("priority") Integer priority,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.group.impl.GroupServiceImpl")
+    @Path("/com.adobe.cq.social.group.impl.GroupServiceImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialGroupImplGroupServiceImplInfo.class, authorizations = {
@@ -2511,7 +2512,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialGroupImplGroupServiceImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("maxWaitTime") Integer maxWaitTime, @QueryParam("minWaitBetweenRetries") Integer minWaitBetweenRetries,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.handlebars.GuavaTemplateCacheImpl")
+    @Path("/com.adobe.cq.social.handlebars.GuavaTemplateCacheImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialHandlebarsGuavaTemplateCacheImplInfo.class, authorizations = {
@@ -2525,7 +2526,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialHandlebarsGuavaTemplateCacheImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("parameter.guava.cache.enabled") Boolean parameterGuavaCacheEnabled, @QueryParam("parameter.guava.cache.params") String parameterGuavaCacheParams, @QueryParam("parameter.guava.cache.reload") Boolean parameterGuavaCacheReload, @QueryParam("service.ranking") Integer serviceRanking,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.ideation.client.endpoints.impl.IdeationOperationsService")
+    @Path("/com.adobe.cq.social.ideation.client.endpoints.impl.IdeationOperationsService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsSInfo.class, authorizations = {
@@ -2539,7 +2540,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsS( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("fieldWhitelist") List<String> fieldWhitelist, @QueryParam("attachmentTypeBlacklist") List<String> attachmentTypeBlacklist,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.journal.client.endpoints.impl.JournalOperationsService")
+    @Path("/com.adobe.cq.social.journal.client.endpoints.impl.JournalOperationsService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsSerInfo.class, authorizations = {
@@ -2553,7 +2554,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialJournalClientEndpointsImplJournalOperationsSer( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("fieldWhitelist") List<String> fieldWhitelist, @QueryParam("attachmentTypeBlacklist") List<String> attachmentTypeBlacklist,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.members.endpoints.impl.CommunityMemberGroupProfileOperationService")
+    @Path("/com.adobe.cq.social.members.endpoints.impl.CommunityMemberGroupProfileOperationService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileInfo.class, authorizations = {
@@ -2567,7 +2568,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfile( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("fieldWhitelist") List<String> fieldWhitelist,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.members.endpoints.impl.CommunityMemberUserProfileOperationService")
+    @Path("/com.adobe.cq.social.members.endpoints.impl.CommunityMemberUserProfileOperationService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileOInfo.class, authorizations = {
@@ -2581,7 +2582,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileO( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("fieldWhitelist") List<String> fieldWhitelist,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.members.impl.CommunityMemberGroupProfileComponentFactory")
+    @Path("/com.adobe.cq.social.members.impl.CommunityMemberGroupProfileComponentFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentFInfo.class, authorizations = {
@@ -2595,7 +2596,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentF( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("everyoneLimit") Integer everyoneLimit, @QueryParam("priority") Integer priority,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.messaging.client.endpoints.impl.MessagingOperationsServiceImpl")
+    @Path("/com.adobe.cq.social.messaging.client.endpoints.impl.MessagingOperationsServiceImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationInfo.class, authorizations = {
@@ -2609,7 +2610,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialMessagingClientEndpointsImplMessagingOperation( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("message.properties") List<String> messageProperties, @QueryParam("messageBoxSizeLimit") Integer messageBoxSizeLimit, @QueryParam("messageCountLimit") Integer messageCountLimit, @QueryParam("notifyFailure") Boolean notifyFailure, @QueryParam("failureMessageFrom") String failureMessageFrom, @QueryParam("failureTemplatePath") String failureTemplatePath, @QueryParam("maxRetries") Integer maxRetries, @QueryParam("minWaitBetweenRetries") Integer minWaitBetweenRetries, @QueryParam("countUpdatePoolSize") Integer countUpdatePoolSize, @QueryParam("inbox.path") String inboxPath, @QueryParam("sentitems.path") String sentitemsPath, @QueryParam("supportAttachments") Boolean supportAttachments, @QueryParam("supportGroupMessaging") Boolean supportGroupMessaging, @QueryParam("maxTotalRecipients") Integer maxTotalRecipients, @QueryParam("batchSize") Integer batchSize, @QueryParam("maxTotalAttachmentSize") Integer maxTotalAttachmentSize, @QueryParam("attachmentTypeBlacklist") List<String> attachmentTypeBlacklist, @QueryParam("allowedAttachmentTypes") List<String> allowedAttachmentTypes, @QueryParam("serviceSelector") String serviceSelector, @QueryParam("fieldWhitelist") List<String> fieldWhitelist,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.moderation.dashboard.api.FilterGroupSocialComponentFactory")
+    @Path("/com.adobe.cq.social.moderation.dashboard.api.FilterGroupSocialComponentFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialModerationDashboardApiFilterGroupSocialComponenInfo.class, authorizations = {
@@ -2623,7 +2624,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialModerationDashboardApiFilterGroupSocialComponen( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("resourceType.filters") List<String> resourceTypeFilters, @QueryParam("priority") Integer priority,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.moderation.dashboard.api.ModerationDashboardSocialComponentFactory")
+    @Path("/com.adobe.cq.social.moderation.dashboard.api.ModerationDashboardSocialComponentFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialInfo.class, authorizations = {
@@ -2637,7 +2638,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialModerationDashboardApiModerationDashboardSocial( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("priority") Integer priority,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.moderation.dashboard.api.UserDetailsSocialComponentFactory")
+    @Path("/com.adobe.cq.social.moderation.dashboard.api.UserDetailsSocialComponentFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialModerationDashboardApiUserDetailsSocialComponenInfo.class, authorizations = {
@@ -2651,7 +2652,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialModerationDashboardApiUserDetailsSocialComponen( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("priority") Integer priority,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.moderation.dashboard.internal.impl.FilterGroupSocialComponentFactoryV2")
+    @Path("/com.adobe.cq.social.moderation.dashboard.internal.impl.FilterGroupSocialComponentFactoryV2")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialModerationDashboardInternalImplFilterGroupSociInfo.class, authorizations = {
@@ -2665,7 +2666,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialModerationDashboardInternalImplFilterGroupSoci( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("resourceType.filters") List<String> resourceTypeFilters, @QueryParam("priority") Integer priority,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.notifications.impl.MentionsRouter")
+    @Path("/com.adobe.cq.social.notifications.impl.MentionsRouter")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialNotificationsImplMentionsRouterInfo.class, authorizations = {
@@ -2679,7 +2680,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialNotificationsImplMentionsRouter( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("event.topics") String eventTopics, @QueryParam("event.filter") String eventFilter,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.notifications.impl.NotificationManagerImpl")
+    @Path("/com.adobe.cq.social.notifications.impl.NotificationManagerImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialNotificationsImplNotificationManagerImplInfo.class, authorizations = {
@@ -2693,7 +2694,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialNotificationsImplNotificationManagerImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("max.unread.notification.count") Integer maxUnreadNotificationCount,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.notifications.impl.NotificationsRouter")
+    @Path("/com.adobe.cq.social.notifications.impl.NotificationsRouter")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialNotificationsImplNotificationsRouterInfo.class, authorizations = {
@@ -2707,7 +2708,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialNotificationsImplNotificationsRouter( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("event.topics") String eventTopics, @QueryParam("event.filter") String eventFilter,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.qna.client.endpoints.impl.QnaForumOperationsService")
+    @Path("/com.adobe.cq.social.qna.client.endpoints.impl.QnaForumOperationsService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServicInfo.class, authorizations = {
@@ -2721,7 +2722,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServic( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("fieldWhitelist") List<String> fieldWhitelist, @QueryParam("attachmentTypeBlacklist") List<String> attachmentTypeBlacklist,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.reporting.analytics.services.impl.AnalyticsReportImporterServiceImpl")
+    @Path("/com.adobe.cq.social.reporting.analytics.services.impl.AnalyticsReportImporterServiceImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportIInfo.class, authorizations = {
@@ -2735,7 +2736,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportI( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("cq.social.reporting.analytics.polling.importer.interval") Integer cqSocialReportingAnalyticsPollingImporterInterval, @QueryParam("cq.social.reporting.analytics.polling.importer.pageSize") Integer cqSocialReportingAnalyticsPollingImporterPageSize,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.reporting.analytics.services.impl.AnalyticsReportManagementServiceImpl")
+    @Path("/com.adobe.cq.social.reporting.analytics.services.impl.AnalyticsReportManagementServiceImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportMInfo.class, authorizations = {
@@ -2749,7 +2750,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportM( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("report.fetch.delay") Integer reportFetchDelay,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.reporting.analytics.services.impl.SiteTrendReportSocialComponentFactory")
+    @Path("/com.adobe.cq.social.reporting.analytics.services.impl.SiteTrendReportSocialComponentFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSInfo.class, authorizations = {
@@ -2763,7 +2764,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportS( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("cq.social.console.analytics.sites.mapping") List<String> cqSocialConsoleAnalyticsSitesMapping, @QueryParam("priority") Integer priority,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.review.client.endpoints.impl.ReviewOperationsService")
+    @Path("/com.adobe.cq.social.review.client.endpoints.impl.ReviewOperationsService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialReviewClientEndpointsImplReviewOperationsServiInfo.class, authorizations = {
@@ -2777,7 +2778,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialReviewClientEndpointsImplReviewOperationsServi( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("fieldWhitelist") List<String> fieldWhitelist, @QueryParam("attachmentTypeBlacklist") List<String> attachmentTypeBlacklist,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.scf.core.operations.impl.SocialOperationsServlet")
+    @Path("/com.adobe.cq.social.scf.core.operations.impl.SocialOperationsServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialScfCoreOperationsImplSocialOperationsServletInfo.class, authorizations = {
@@ -2791,7 +2792,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialScfCoreOperationsImplSocialOperationsServlet( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("sling.servlet.selectors") String slingServletSelectors, @QueryParam("sling.servlet.extensions") String slingServletExtensions,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.scf.endpoints.impl.DefaultSocialGetServlet")
+    @Path("/com.adobe.cq.social.scf.endpoints.impl.DefaultSocialGetServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialScfEndpointsImplDefaultSocialGetServletInfo.class, authorizations = {
@@ -2805,7 +2806,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialScfEndpointsImplDefaultSocialGetServlet( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("sling.servlet.selectors") List<String> slingServletSelectors, @QueryParam("sling.servlet.extensions") String slingServletExtensions,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.scoring.impl.ScoringEventListener")
+    @Path("/com.adobe.cq.social.scoring.impl.ScoringEventListener")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialScoringImplScoringEventListenerInfo.class, authorizations = {
@@ -2819,7 +2820,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialScoringImplScoringEventListener( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("event.topics") String eventTopics, @QueryParam("event.filter") String eventFilter,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.serviceusers.internal.impl.ServiceUserWrapperImpl")
+    @Path("/com.adobe.cq.social.serviceusers.internal.impl.ServiceUserWrapperImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialServiceusersInternalImplServiceUserWrapperImplInfo.class, authorizations = {
@@ -2833,7 +2834,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialServiceusersInternalImplServiceUserWrapperImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("enableFallback") Boolean enableFallback,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.site.endpoints.impl.SiteOperationService")
+    @Path("/com.adobe.cq.social.site.endpoints.impl.SiteOperationService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialSiteEndpointsImplSiteOperationServiceInfo.class, authorizations = {
@@ -2847,7 +2848,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialSiteEndpointsImplSiteOperationService( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("fieldWhitelist") List<String> fieldWhitelist, @QueryParam("sitePathFilters") List<String> sitePathFilters, @QueryParam("sitePackageGroup") String sitePackageGroup,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.site.impl.AnalyticsComponentConfigurationServiceImpl")
+    @Path("/com.adobe.cq.social.site.impl.AnalyticsComponentConfigurationServiceImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImInfo.class, authorizations = {
@@ -2861,7 +2862,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceIm( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("cq.social.console.analytics.components") List<String> cqSocialConsoleAnalyticsComponents,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.site.impl.SiteConfiguratorImpl")
+    @Path("/com.adobe.cq.social.site.impl.SiteConfiguratorImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialSiteImplSiteConfiguratorImplInfo.class, authorizations = {
@@ -2875,7 +2876,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialSiteImplSiteConfiguratorImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("componentsUsingTags") List<String> componentsUsingTags,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.srp.impl.SocialSolrConnector")
+    @Path("/com.adobe.cq.social.srp.impl.SocialSolrConnector")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialSrpImplSocialSolrConnectorInfo.class, authorizations = {
@@ -2889,7 +2890,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialSrpImplSocialSolrConnector( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("srp.type") String srpType,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.sync.impl.DiffChangesObserver")
+    @Path("/com.adobe.cq.social.sync.impl.DiffChangesObserver")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialSyncImplDiffChangesObserverInfo.class, authorizations = {
@@ -2903,7 +2904,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialSyncImplDiffChangesObserver( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("enabled") Boolean enabled, @QueryParam("agentName") String agentName, @QueryParam("diffPath") String diffPath, @QueryParam("propertyNames") String propertyNames,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.sync.impl.GroupSyncListenerImpl")
+    @Path("/com.adobe.cq.social.sync.impl.GroupSyncListenerImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialSyncImplGroupSyncListenerImplInfo.class, authorizations = {
@@ -2917,7 +2918,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialSyncImplGroupSyncListenerImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("nodetypes") List<String> nodetypes, @QueryParam("ignorableprops") List<String> ignorableprops, @QueryParam("ignorablenodes") String ignorablenodes, @QueryParam("enabled") Boolean enabled, @QueryParam("distfolders") String distfolders,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.sync.impl.PublisherSyncServiceImpl")
+    @Path("/com.adobe.cq.social.sync.impl.PublisherSyncServiceImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialSyncImplPublisherSyncServiceImplInfo.class, authorizations = {
@@ -2931,7 +2932,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialSyncImplPublisherSyncServiceImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("activeRunModes") List<String> activeRunModes,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.sync.impl.UserSyncListenerImpl")
+    @Path("/com.adobe.cq.social.sync.impl.UserSyncListenerImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialSyncImplUserSyncListenerImplInfo.class, authorizations = {
@@ -2945,7 +2946,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialSyncImplUserSyncListenerImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("nodetypes") List<String> nodetypes, @QueryParam("ignorableprops") List<String> ignorableprops, @QueryParam("ignorablenodes") List<String> ignorablenodes, @QueryParam("enabled") Boolean enabled, @QueryParam("distfolders") List<String> distfolders,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.translation.impl.TranslationServiceConfigManager")
+    @Path("/com.adobe.cq.social.translation.impl.TranslationServiceConfigManager")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerInfo.class, authorizations = {
@@ -2959,7 +2960,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialTranslationImplTranslationServiceConfigManager( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("translate.language") String translateLanguage, @QueryParam("translate.display") String translateDisplay, @QueryParam("translate.attribution") Boolean translateAttribution, @QueryParam("translate.caching") String translateCaching, @QueryParam("translate.smart.rendering") String translateSmartRendering, @QueryParam("translate.caching.duration") String translateCachingDuration, @QueryParam("translate.session.save.interval") String translateSessionSaveInterval, @QueryParam("translate.session.save.batchLimit") String translateSessionSaveBatchLimit,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.translation.impl.UGCLanguageDetector")
+    @Path("/com.adobe.cq.social.translation.impl.UGCLanguageDetector")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialTranslationImplUGCLanguageDetectorInfo.class, authorizations = {
@@ -2973,7 +2974,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialTranslationImplUGCLanguageDetector( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("event.topics") String eventTopics, @QueryParam("event.filter") String eventFilter, @QueryParam("translate.listener.type") List<String> translateListenerType, @QueryParam("translate.property.list") List<String> translatePropertyList, @QueryParam("poolSize") Integer poolSize, @QueryParam("maxPoolSize") Integer maxPoolSize, @QueryParam("queueSize") Integer queueSize, @QueryParam("keepAliveTime") Integer keepAliveTime,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.ugcbase.dispatcher.impl.FlushServiceImpl")
+    @Path("/com.adobe.cq.social.ugcbase.dispatcher.impl.FlushServiceImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialUgcbaseDispatcherImplFlushServiceImplInfo.class, authorizations = {
@@ -2987,7 +2988,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialUgcbaseDispatcherImplFlushServiceImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("threadPoolSize") Integer threadPoolSize, @QueryParam("delayTime") Integer delayTime, @QueryParam("workerSleepTime") Integer workerSleepTime,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.ugcbase.impl.AysncReverseReplicatorImpl")
+    @Path("/com.adobe.cq.social.ugcbase.impl.AysncReverseReplicatorImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialUgcbaseImplAysncReverseReplicatorImplInfo.class, authorizations = {
@@ -3001,7 +3002,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialUgcbaseImplAysncReverseReplicatorImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("poolSize") Integer poolSize, @QueryParam("maxPoolSize") Integer maxPoolSize, @QueryParam("queueSize") Integer queueSize, @QueryParam("keepAliveTime") Integer keepAliveTime,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.ugcbase.impl.PublisherConfigurationImpl")
+    @Path("/com.adobe.cq.social.ugcbase.impl.PublisherConfigurationImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialUgcbaseImplPublisherConfigurationImplInfo.class, authorizations = {
@@ -3015,7 +3016,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialUgcbaseImplPublisherConfigurationImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("isPrimaryPublisher") Boolean isPrimaryPublisher,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.ugcbase.impl.SocialUtilsImpl")
+    @Path("/com.adobe.cq.social.ugcbase.impl.SocialUtilsImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialUgcbaseImplSocialUtilsImplInfo.class, authorizations = {
@@ -3029,7 +3030,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialUgcbaseImplSocialUtilsImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("legacyCloudUGCPathMapping") Boolean legacyCloudUGCPathMapping,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.ugcbase.moderation.impl.AutoModerationImpl")
+    @Path("/com.adobe.cq.social.ugcbase.moderation.impl.AutoModerationImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialUgcbaseModerationImplAutoModerationImplInfo.class, authorizations = {
@@ -3043,7 +3044,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialUgcbaseModerationImplAutoModerationImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("automoderation.sequence") List<String> automoderationSequence, @QueryParam("automoderation.onfailurestop") Boolean automoderationOnfailurestop,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.ugcbase.moderation.impl.SentimentProcess")
+    @Path("/com.adobe.cq.social.ugcbase.moderation.impl.SentimentProcess")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialUgcbaseModerationImplSentimentProcessInfo.class, authorizations = {
@@ -3057,7 +3058,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialUgcbaseModerationImplSentimentProcess( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("watchwords.positive") List<String> watchwordsPositive, @QueryParam("watchwords.negative") List<String> watchwordsNegative, @QueryParam("watchwords.path") String watchwordsPath, @QueryParam("sentiment.path") String sentimentPath,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.ugcbase.security.impl.DefaultAttachmentTypeBlacklistService")
+    @Path("/com.adobe.cq.social.ugcbase.security.impl.DefaultAttachmentTypeBlacklistService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliInfo.class, authorizations = {
@@ -3071,7 +3072,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackli( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("default.attachment.type.blacklist") List<String> defaultAttachmentTypeBlacklist, @QueryParam("baseline.attachment.type.blacklist") List<String> baselineAttachmentTypeBlacklist,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.ugcbase.security.impl.SaferSlingPostValidatorImpl")
+    @Path("/com.adobe.cq.social.ugcbase.security.impl.SaferSlingPostValidatorImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImplInfo.class, authorizations = {
@@ -3085,7 +3086,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("parameter.whitelist") List<String> parameterWhitelist, @QueryParam("parameter.whitelist.prefixes") List<String> parameterWhitelistPrefixes, @QueryParam("binary.parameter.whitelist") List<String> binaryParameterWhitelist, @QueryParam("modifier.whitelist") List<String> modifierWhitelist, @QueryParam("operation.whitelist") List<String> operationWhitelist, @QueryParam("operation.whitelist.prefixes") List<String> operationWhitelistPrefixes, @QueryParam("typehint.whitelist") List<String> typehintWhitelist, @QueryParam("resourcetype.whitelist") List<String> resourcetypeWhitelist,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.user.endpoints.impl.UsersGroupFromPublishServlet")
+    @Path("/com.adobe.cq.social.user.endpoints.impl.UsersGroupFromPublishServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialUserEndpointsImplUsersGroupFromPublishServletInfo.class, authorizations = {
@@ -3099,7 +3100,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialUserEndpointsImplUsersGroupFromPublishServlet( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("sling.servlet.extensions") String slingServletExtensions, @QueryParam("sling.servlet.paths") String slingServletPaths, @QueryParam("sling.servlet.methods") String slingServletMethods,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.user.impl.transport.HttpToPublisher")
+    @Path("/com.adobe.cq.social.user.impl.transport.HttpToPublisher")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialUserImplTransportHttpToPublisherInfo.class, authorizations = {
@@ -3113,7 +3114,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqSocialUserImplTransportHttpToPublisher( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("enable") Boolean enable, @QueryParam("agent.configuration") List<String> agentConfiguration, @QueryParam("context.path") String contextPath, @QueryParam("disabled.cipher.suites") List<String> disabledCipherSuites, @QueryParam("enabled.cipher.suites") List<String> enabledCipherSuites,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.ui.wcm.commons.internal.servlets.rte.RTEFilterServletFactory.amended")
+    @Path("/com.adobe.cq.ui.wcm.commons.internal.servlets.rte.RTEFilterServletFactory.amended")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactInfo.class, authorizations = {
@@ -3127,7 +3128,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFact( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("resource.types") List<String> resourceTypes,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.upgrades.cleanup.impl.UpgradeContentCleanup")
+    @Path("/com.adobe.cq.upgrades.cleanup.impl.UpgradeContentCleanup")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqUpgradesCleanupImplUpgradeContentCleanupInfo.class, authorizations = {
@@ -3141,7 +3142,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqUpgradesCleanupImplUpgradeContentCleanup( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("delete.path.regexps") List<String> deletePathRegexps, @QueryParam("delete.sql2.query") String deleteSql2Query,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.upgrades.cleanup.impl.UpgradeInstallFolderCleanup")
+    @Path("/com.adobe.cq.upgrades.cleanup.impl.UpgradeInstallFolderCleanup")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanupInfo.class, authorizations = {
@@ -3155,7 +3156,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanup( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("delete.name.regexps") List<String> deleteNameRegexps,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.wcm.jobs.async.impl.AsyncDeleteConfigProviderService")
+    @Path("/com.adobe.cq.wcm.jobs.async.impl.AsyncDeleteConfigProviderService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqWcmJobsAsyncImplAsyncDeleteConfigProviderServiceInfo.class, authorizations = {
@@ -3169,7 +3170,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqWcmJobsAsyncImplAsyncDeleteConfigProviderService( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("threshold") Integer threshold, @QueryParam("jobTopicName") String jobTopicName, @QueryParam("emailEnabled") Boolean emailEnabled,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.wcm.jobs.async.impl.AsyncJobCleanUpTask")
+    @Path("/com.adobe.cq.wcm.jobs.async.impl.AsyncJobCleanUpTask")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqWcmJobsAsyncImplAsyncJobCleanUpTaskInfo.class, authorizations = {
@@ -3183,7 +3184,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqWcmJobsAsyncImplAsyncJobCleanUpTask( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("scheduler.expression") String schedulerExpression, @QueryParam("job.purge.threshold") Integer jobPurgeThreshold, @QueryParam("job.purge.max.jobs") Integer jobPurgeMaxJobs,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.wcm.jobs.async.impl.AsyncMoveConfigProviderService")
+    @Path("/com.adobe.cq.wcm.jobs.async.impl.AsyncMoveConfigProviderService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderServiceInfo.class, authorizations = {
@@ -3197,7 +3198,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderService( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("threshold") Integer threshold, @QueryParam("jobTopicName") String jobTopicName, @QueryParam("emailEnabled") Boolean emailEnabled,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.wcm.jobs.async.impl.AsyncPageMoveConfigProviderService")
+    @Path("/com.adobe.cq.wcm.jobs.async.impl.AsyncPageMoveConfigProviderService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqWcmJobsAsyncImplAsyncPageMoveConfigProviderServiceInfo.class, authorizations = {
@@ -3211,7 +3212,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqWcmJobsAsyncImplAsyncPageMoveConfigProviderService( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("threshold") Integer threshold, @QueryParam("jobTopicName") String jobTopicName, @QueryParam("emailEnabled") Boolean emailEnabled,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler")
+    @Path("/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqWcmLaunchesImplLaunchesEventHandlerInfo.class, authorizations = {
@@ -3225,7 +3226,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqWcmLaunchesImplLaunchesEventHandler( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("event.filter") String eventFilter, @QueryParam("launches.eventhandler.threadpool.maxsize") Integer launchesEventhandlerThreadpoolMaxsize, @QueryParam("launches.eventhandler.threadpool.priority") String launchesEventhandlerThreadpoolPriority, @QueryParam("launches.eventhandler.updatelastmodification") Boolean launchesEventhandlerUpdatelastmodification,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.wcm.mobile.qrcode.servlet.QRCodeImageGenerator")
+    @Path("/com.adobe.cq.wcm.mobile.qrcode.servlet.QRCodeImageGenerator")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqWcmMobileQrcodeServletQRCodeImageGeneratorInfo.class, authorizations = {
@@ -3239,7 +3240,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqWcmMobileQrcodeServletQRCodeImageGenerator( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("cq.wcm.qrcode.servlet.whitelist") List<String> cqWcmQrcodeServletWhitelist,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.wcm.style.internal.ComponentStyleInfoCacheImpl")
+    @Path("/com.adobe.cq.wcm.style.internal.ComponentStyleInfoCacheImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqWcmStyleInternalComponentStyleInfoCacheImplInfo.class, authorizations = {
@@ -3253,7 +3254,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqWcmStyleInternalComponentStyleInfoCacheImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("size") Integer size,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.cq.wcm.translation.impl.TranslationPlatformConfigurationImpl")
+    @Path("/com.adobe.cq.wcm.translation.impl.TranslationPlatformConfigurationImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqWcmTranslationImplTranslationPlatformConfigurationImplInfo.class, authorizations = {
@@ -3267,7 +3268,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeCqWcmTranslationImplTranslationPlatformConfigurationImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("syncTranslationState.schedulingFormat") String syncTranslationStateSchedulingFormat, @QueryParam("schedulingRepeatTranslation.schedulingFormat") String schedulingRepeatTranslationSchedulingFormat, @QueryParam("syncTranslationState.lockTimeoutInMinutes") String syncTranslationStateLockTimeoutInMinutes, @QueryParam("export.format") String exportFormat,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.fd.fp.config.FormsPortalDraftsandSubmissionConfigService")
+    @Path("/com.adobe.fd.fp.config.FormsPortalDraftsandSubmissionConfigService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServiceInfo.class, authorizations = {
@@ -3281,7 +3282,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigService( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("portal.outboxes") List<String> portalOutboxes, @QueryParam("draft.data.service") String draftDataService, @QueryParam("draft.metadata.service") String draftMetadataService, @QueryParam("submit.data.service") String submitDataService, @QueryParam("submit.metadata.service") String submitMetadataService, @QueryParam("pendingSign.data.service") String pendingSignDataService, @QueryParam("pendingSign.metadata.service") String pendingSignMetadataService,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.fd.fp.config.FormsPortalSchedulerService")
+    @Path("/com.adobe.fd.fp.config.FormsPortalSchedulerService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeFdFpConfigFormsPortalSchedulerServiceInfo.class, authorizations = {
@@ -3295,7 +3296,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeFdFpConfigFormsPortalSchedulerService( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("formportal.interval") String formportalInterval,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.forms.common.service.impl.DefaultDataProvider")
+    @Path("/com.adobe.forms.common.service.impl.DefaultDataProvider")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeFormsCommonServiceImplDefaultDataProviderInfo.class, authorizations = {
@@ -3309,7 +3310,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeFormsCommonServiceImplDefaultDataProvider( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("alloweddataFileLocations") List<String> alloweddataFileLocations,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.forms.common.service.impl.FormsCommonConfigurationServiceImpl")
+    @Path("/com.adobe.forms.common.service.impl.FormsCommonConfigurationServiceImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImpInfo.class, authorizations = {
@@ -3323,7 +3324,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImp( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("tempStorageConfig") String tempStorageConfig,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.forms.common.servlet.TempCleanUpTask")
+    @Path("/com.adobe.forms.common.servlet.TempCleanUpTask")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeFormsCommonServletTempCleanUpTaskInfo.class, authorizations = {
@@ -3337,7 +3338,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeFormsCommonServletTempCleanUpTask( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("scheduler.expression") String schedulerExpression, @QueryParam("Duration for Temporary Storage") String durationForTemporaryStorage, @QueryParam("Duration for Anonymous Storage") String durationForAnonymousStorage,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.acp.platform.PlatformServlet")
+    @Path("/com.adobe.granite.acp.platform.PlatformServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteAcpPlatformPlatformServletInfo.class, authorizations = {
@@ -3351,7 +3352,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteAcpPlatformPlatformServlet( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("query.limit") Integer queryLimit, @QueryParam("file.type.extension.map") List<String> fileTypeExtensionMap,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.activitystreams.impl.ActivityManagerImpl")
+    @Path("/com.adobe.granite.activitystreams.impl.ActivityManagerImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteActivitystreamsImplActivityManagerImplInfo.class, authorizations = {
@@ -3365,7 +3366,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteActivitystreamsImplActivityManagerImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("aggregate.relationships") List<String> aggregateRelationships, @QueryParam("aggregate.descend.virtual") Boolean aggregateDescendVirtual,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.analyzer.base.SystemStatusServlet")
+    @Path("/com.adobe.granite.analyzer.base.SystemStatusServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteAnalyzerBaseSystemStatusServletInfo.class, authorizations = {
@@ -3379,7 +3380,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteAnalyzerBaseSystemStatusServlet( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("disabled") Boolean disabled,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.analyzer.scripts.compile.AllScriptsCompilerServlet")
+    @Path("/com.adobe.granite.analyzer.scripts.compile.AllScriptsCompilerServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteAnalyzerScriptsCompileAllScriptsCompilerServletInfo.class, authorizations = {
@@ -3393,7 +3394,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteAnalyzerScriptsCompileAllScriptsCompilerServlet( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("disabled") Boolean disabled,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.apicontroller.FilterResolverHookFactory")
+    @Path("/com.adobe.granite.apicontroller.FilterResolverHookFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteApicontrollerFilterResolverHookFactoryInfo.class, authorizations = {
@@ -3407,7 +3408,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteApicontrollerFilterResolverHookFactory( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("com.adobe.cq.cdn.cdn-rewriter") String comAdobeCqCdnCdnRewriter, @QueryParam("com.adobe.cq.cloud-config.components") String comAdobeCqCloudConfigComponents, @QueryParam("com.adobe.cq.cloud-config.core") String comAdobeCqCloudConfigCore, @QueryParam("com.adobe.cq.cloud-config.ui") String comAdobeCqCloudConfigUi, @QueryParam("com.adobe.cq.com.adobe.cq.editor") String comAdobeCqComAdobeCqEditor, @QueryParam("com.adobe.cq.com.adobe.cq.projects.core") String comAdobeCqComAdobeCqProjectsCore, @QueryParam("com.adobe.cq.com.adobe.cq.projects.wcm.core") String comAdobeCqComAdobeCqProjectsWcmCore, @QueryParam("com.adobe.cq.com.adobe.cq.ui.commons") String comAdobeCqComAdobeCqUiCommons, @QueryParam("com.adobe.cq.com.adobe.cq.wcm.style") String comAdobeCqComAdobeCqWcmStyle, @QueryParam("com.adobe.cq.cq-activitymap-integration") String comAdobeCqCqActivitymapIntegration, @QueryParam("com.adobe.cq.cq-contexthub-commons") String comAdobeCqCqContexthubCommons, @QueryParam("com.adobe.cq.cq-dtm") String comAdobeCqCqDtm, @QueryParam("com.adobe.cq.cq-healthcheck") String comAdobeCqCqHealthcheck, @QueryParam("com.adobe.cq.cq-multisite-targeting") String comAdobeCqCqMultisiteTargeting, @QueryParam("com.adobe.cq.cq-pre-upgrade-cleanup") String comAdobeCqCqPreUpgradeCleanup, @QueryParam("com.adobe.cq.cq-product-info-provider") String comAdobeCqCqProductInfoProvider, @QueryParam("com.adobe.cq.cq-rest-sites") String comAdobeCqCqRestSites, @QueryParam("com.adobe.cq.cq-security-hc") String comAdobeCqCqSecurityHc, @QueryParam("com.adobe.cq.dam.cq-dam-svg-handler") String comAdobeCqDamCqDamSvgHandler, @QueryParam("com.adobe.cq.dam.cq-scene7-imaging") String comAdobeCqDamCqScene7Imaging, @QueryParam("com.adobe.cq.dtm-reactor.core") String comAdobeCqDtmReactorCore, @QueryParam("com.adobe.cq.dtm-reactor.ui") String comAdobeCqDtmReactorUi, @QueryParam("com.adobe.cq.exp-jspel-resolver") String comAdobeCqExpJspelResolver, @QueryParam("com.adobe.cq.inbox.cq-inbox") String comAdobeCqInboxCqInbox, @QueryParam("com.adobe.cq.json-schema-parser") String comAdobeCqJsonSchemaParser, @QueryParam("com.adobe.cq.media.cq-media-publishing-dps-fp-core") String comAdobeCqMediaCqMediaPublishingDpsFpCore, @QueryParam("com.adobe.cq.mobile.cq-mobile-caas") String comAdobeCqMobileCqMobileCaas, @QueryParam("com.adobe.cq.mobile.cq-mobile-index-builder") String comAdobeCqMobileCqMobileIndexBuilder, @QueryParam("com.adobe.cq.mobile.cq-mobile-phonegap-build") String comAdobeCqMobileCqMobilePhonegapBuild, @QueryParam("com.adobe.cq.myspell") String comAdobeCqMyspell, @QueryParam("com.adobe.cq.sample.we.retail.core") String comAdobeCqSampleWeRetailCore, @QueryParam("com.adobe.cq.screens.com.adobe.cq.screens.dcc") String comAdobeCqScreensComAdobeCqScreensDcc, @QueryParam("com.adobe.cq.screens.com.adobe.cq.screens.mq.core") String comAdobeCqScreensComAdobeCqScreensMqCore, @QueryParam("com.adobe.cq.social.cq-social-as-provider") String comAdobeCqSocialCqSocialAsProvider, @QueryParam("com.adobe.cq.social.cq-social-badging-basic-impl") String comAdobeCqSocialCqSocialBadgingBasicImpl, @QueryParam("com.adobe.cq.social.cq-social-badging-impl") String comAdobeCqSocialCqSocialBadgingImpl, @QueryParam("com.adobe.cq.social.cq-social-calendar-impl") String comAdobeCqSocialCqSocialCalendarImpl, @QueryParam("com.adobe.cq.social.cq-social-content-fragments-impl") String comAdobeCqSocialCqSocialContentFragmentsImpl, @QueryParam("com.adobe.cq.social.cq-social-enablement-impl") String comAdobeCqSocialCqSocialEnablementImpl, @QueryParam("com.adobe.cq.social.cq-social-graph-impl") String comAdobeCqSocialCqSocialGraphImpl, @QueryParam("com.adobe.cq.social.cq-social-ideation-impl") String comAdobeCqSocialCqSocialIdeationImpl, @QueryParam("com.adobe.cq.social.cq-social-jcr-provider") String comAdobeCqSocialCqSocialJcrProvider, @QueryParam("com.adobe.cq.social.cq-social-members-impl") String comAdobeCqSocialCqSocialMembersImpl, @QueryParam("com.adobe.cq.social.cq-social-ms-provider") String comAdobeCqSocialCqSocialMsProvider, @QueryParam("com.adobe.cq.social.cq-social-notifications-channels-web") String comAdobeCqSocialCqSocialNotificationsChannelsWeb, @QueryParam("com.adobe.cq.social.cq-social-notifications-impl") String comAdobeCqSocialCqSocialNotificationsImpl, @QueryParam("com.adobe.cq.social.cq-social-rdb-provider") String comAdobeCqSocialCqSocialRdbProvider, @QueryParam("com.adobe.cq.social.cq-social-scf-impl") String comAdobeCqSocialCqSocialScfImpl, @QueryParam("com.adobe.cq.social.cq-social-scoring-basic-impl") String comAdobeCqSocialCqSocialScoringBasicImpl, @QueryParam("com.adobe.cq.social.cq-social-scoring-impl") String comAdobeCqSocialCqSocialScoringImpl, @QueryParam("com.adobe.cq.social.cq-social-serviceusers-impl") String comAdobeCqSocialCqSocialServiceusersImpl, @QueryParam("com.adobe.cq.social.cq-social-srp-impl") String comAdobeCqSocialCqSocialSrpImpl, @QueryParam("com.adobe.cq.social.cq-social-ugcbase-impl") String comAdobeCqSocialCqSocialUgcbaseImpl, @QueryParam("com.adobe.dam.cq-dam-cfm-impl") String comAdobeDamCqDamCfmImpl, @QueryParam("com.adobe.forms.foundation-forms-foundation-base") String comAdobeFormsFoundationFormsFoundationBase, @QueryParam("com.adobe.granite.apicontroller") String comAdobeGraniteApicontroller, @QueryParam("com.adobe.granite.asset.core") String comAdobeGraniteAssetCore, @QueryParam("com.adobe.granite.auth.sso") String comAdobeGraniteAuthSso, @QueryParam("com.adobe.granite.bundles.hc.impl") String comAdobeGraniteBundlesHcImpl, @QueryParam("com.adobe.granite.compat-router") String comAdobeGraniteCompatRouter, @QueryParam("com.adobe.granite.conf") String comAdobeGraniteConf, @QueryParam("com.adobe.granite.conf.ui.core") String comAdobeGraniteConfUiCore, @QueryParam("com.adobe.granite.cors") String comAdobeGraniteCors, @QueryParam("com.adobe.granite.crx-explorer") String comAdobeGraniteCrxExplorer, @QueryParam("com.adobe.granite.crxde-lite") String comAdobeGraniteCrxdeLite, @QueryParam("com.adobe.granite.crypto.config") String comAdobeGraniteCryptoConfig, @QueryParam("com.adobe.granite.crypto.extension") String comAdobeGraniteCryptoExtension, @QueryParam("com.adobe.granite.crypto.file") String comAdobeGraniteCryptoFile, @QueryParam("com.adobe.granite.crypto.jcr") String comAdobeGraniteCryptoJcr, @QueryParam("com.adobe.granite.csrf") String comAdobeGraniteCsrf, @QueryParam("com.adobe.granite.distribution.core") String comAdobeGraniteDistributionCore, @QueryParam("com.adobe.granite.dropwizard.metrics") String comAdobeGraniteDropwizardMetrics, @QueryParam("com.adobe.granite.frags.impl") String comAdobeGraniteFragsImpl, @QueryParam("com.adobe.granite.gibson") String comAdobeGraniteGibson, @QueryParam("com.adobe.granite.infocollector") String comAdobeGraniteInfocollector, @QueryParam("com.adobe.granite.installer.factory.packages") String comAdobeGraniteInstallerFactoryPackages, @QueryParam("com.adobe.granite.jetty.ssl") String comAdobeGraniteJettySsl, @QueryParam("com.adobe.granite.jobs.async") String comAdobeGraniteJobsAsync, @QueryParam("com.adobe.granite.maintenance.oak") String comAdobeGraniteMaintenanceOak, @QueryParam("com.adobe.granite.monitoring.core") String comAdobeGraniteMonitoringCore, @QueryParam("com.adobe.granite.queries") String comAdobeGraniteQueries, @QueryParam("com.adobe.granite.replication.hc.impl") String comAdobeGraniteReplicationHcImpl, @QueryParam("com.adobe.granite.repository.checker") String comAdobeGraniteRepositoryChecker, @QueryParam("com.adobe.granite.repository.hc.impl") String comAdobeGraniteRepositoryHcImpl, @QueryParam("com.adobe.granite.rest.assets") String comAdobeGraniteRestAssets, @QueryParam("com.adobe.granite.security.ui") String comAdobeGraniteSecurityUi, @QueryParam("com.adobe.granite.startup") String comAdobeGraniteStartup, @QueryParam("com.adobe.granite.tagsoup") String comAdobeGraniteTagsoup, @QueryParam("com.adobe.granite.taskmanagement.core") String comAdobeGraniteTaskmanagementCore, @QueryParam("com.adobe.granite.taskmanagement.workflow") String comAdobeGraniteTaskmanagementWorkflow, @QueryParam("com.adobe.granite.ui.clientlibs.compiler.less") String comAdobeGraniteUiClientlibsCompilerLess, @QueryParam("com.adobe.granite.ui.clientlibs.processor.gcc") String comAdobeGraniteUiClientlibsProcessorGcc, @QueryParam("com.adobe.granite.webconsole.plugins") String comAdobeGraniteWebconsolePlugins, @QueryParam("com.adobe.granite.workflow.console") String comAdobeGraniteWorkflowConsole, @QueryParam("com.adobe.xmp.worker.files.native.fragment.linux") String comAdobeXmpWorkerFilesNativeFragmentLinux, @QueryParam("com.adobe.xmp.worker.files.native.fragment.macosx") String comAdobeXmpWorkerFilesNativeFragmentMacosx, @QueryParam("com.adobe.xmp.worker.files.native.fragment.win") String comAdobeXmpWorkerFilesNativeFragmentWin, @QueryParam("com.day.commons.osgi.wrapper.simple-jndi") String comDayCommonsOsgiWrapperSimpleJndi, @QueryParam("com.day.cq.cq-authhandler") String comDayCqCqAuthhandler, @QueryParam("com.day.cq.cq-compat-configupdate") String comDayCqCqCompatConfigupdate, @QueryParam("com.day.cq.cq-licensebranding") String comDayCqCqLicensebranding, @QueryParam("com.day.cq.cq-notifcation-impl") String comDayCqCqNotifcationImpl, @QueryParam("com.day.cq.cq-replication-audit") String comDayCqCqReplicationAudit, @QueryParam("com.day.cq.cq-search-ext") String comDayCqCqSearchExt, @QueryParam("com.day.cq.dam.cq-dam-annotation-print") String comDayCqDamCqDamAnnotationPrint, @QueryParam("com.day.cq.dam.cq-dam-asset-usage") String comDayCqDamCqDamAssetUsage, @QueryParam("com.day.cq.dam.cq-dam-s7dam") String comDayCqDamCqDamS7dam, @QueryParam("com.day.cq.dam.cq-dam-similaritysearch") String comDayCqDamCqDamSimilaritysearch, @QueryParam("com.day.cq.dam.dam-webdav-support") String comDayCqDamDamWebdavSupport, @QueryParam("com.day.cq.pre-upgrade-tasks") String comDayCqPreUpgradeTasks, @QueryParam("com.day.cq.replication.extensions") String comDayCqReplicationExtensions, @QueryParam("com.day.cq.wcm.cq-msm-core") String comDayCqWcmCqMsmCore, @QueryParam("com.day.cq.wcm.cq-wcm-translation") String comDayCqWcmCqWcmTranslation, @QueryParam("day-commons-jrawio") String dayCommonsJrawio, @QueryParam("org.apache.aries.jmx.whiteboard") String orgApacheAriesJmxWhiteboard, @QueryParam("org.apache.felix.http.sslfilter") String orgApacheFelixHttpSslfilter, @QueryParam("org.apache.felix.org.apache.felix.threaddump") String orgApacheFelixOrgApacheFelixThreaddump, @QueryParam("org.apache.felix.webconsole.plugins.ds") String orgApacheFelixWebconsolePluginsDs, @QueryParam("org.apache.felix.webconsole.plugins.event") String orgApacheFelixWebconsolePluginsEvent, @QueryParam("org.apache.felix.webconsole.plugins.memoryusage") String orgApacheFelixWebconsolePluginsMemoryusage, @QueryParam("org.apache.felix.webconsole.plugins.packageadmin") String orgApacheFelixWebconsolePluginsPackageadmin, @QueryParam("org.apache.jackrabbit.oak-auth-ldap") String orgApacheJackrabbitOakAuthLdap, @QueryParam("org.apache.jackrabbit.oak-segment-tar") String orgApacheJackrabbitOakSegmentTar, @QueryParam("org.apache.jackrabbit.oak-solr-osgi") String orgApacheJackrabbitOakSolrOsgi, @QueryParam("org.apache.sling.bundleresource.impl") String orgApacheSlingBundleresourceImpl, @QueryParam("org.apache.sling.commons.fsclassloader") String orgApacheSlingCommonsFsclassloader, @QueryParam("org.apache.sling.commons.log.webconsole") String orgApacheSlingCommonsLogWebconsole, @QueryParam("org.apache.sling.datasource") String orgApacheSlingDatasource, @QueryParam("org.apache.sling.discovery.base") String orgApacheSlingDiscoveryBase, @QueryParam("org.apache.sling.discovery.oak") String orgApacheSlingDiscoveryOak, @QueryParam("org.apache.sling.discovery.support") String orgApacheSlingDiscoverySupport, @QueryParam("org.apache.sling.distribution.api") String orgApacheSlingDistributionApi, @QueryParam("org.apache.sling.distribution.core") String orgApacheSlingDistributionCore, @QueryParam("org.apache.sling.extensions.webconsolesecurityprovider") String orgApacheSlingExtensionsWebconsolesecurityprovider, @QueryParam("org.apache.sling.hc.webconsole") String orgApacheSlingHcWebconsole, @QueryParam("org.apache.sling.installer.console") String orgApacheSlingInstallerConsole, @QueryParam("org.apache.sling.installer.provider.file") String orgApacheSlingInstallerProviderFile, @QueryParam("org.apache.sling.installer.provider.jcr") String orgApacheSlingInstallerProviderJcr, @QueryParam("org.apache.sling.jcr.davex") String orgApacheSlingJcrDavex, @QueryParam("org.apache.sling.jcr.resourcesecurity") String orgApacheSlingJcrResourcesecurity, @QueryParam("org.apache.sling.jmx.provider") String orgApacheSlingJmxProvider, @QueryParam("org.apache.sling.launchpad.installer") String orgApacheSlingLaunchpadInstaller, @QueryParam("org.apache.sling.models.impl") String orgApacheSlingModelsImpl, @QueryParam("org.apache.sling.repoinit.parser") String orgApacheSlingRepoinitParser, @QueryParam("org.apache.sling.resource.inventory") String orgApacheSlingResourceInventory, @QueryParam("org.apache.sling.resourceresolver") String orgApacheSlingResourceresolver, @QueryParam("org.apache.sling.scripting.javascript") String orgApacheSlingScriptingJavascript, @QueryParam("org.apache.sling.scripting.jst") String orgApacheSlingScriptingJst, @QueryParam("org.apache.sling.scripting.sightly.js.provider") String orgApacheSlingScriptingSightlyJsProvider, @QueryParam("org.apache.sling.scripting.sightly.models.provider") String orgApacheSlingScriptingSightlyModelsProvider, @QueryParam("org.apache.sling.security") String orgApacheSlingSecurity, @QueryParam("org.apache.sling.servlets.compat") String orgApacheSlingServletsCompat, @QueryParam("org.apache.sling.servlets.get") String orgApacheSlingServletsGet, @QueryParam("org.apache.sling.startupfilter.disabler") String orgApacheSlingStartupfilterDisabler, @QueryParam("org.apache.sling.tracer") String orgApacheSlingTracer, @QueryParam("we.retail.client.app.core") String weRetailClientAppCore,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.auth.cert.impl.ClientCertAuthHandler")
+    @Path("/com.adobe.granite.auth.cert.impl.ClientCertAuthHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteAuthCertImplClientCertAuthHandlerInfo.class, authorizations = {
@@ -3421,7 +3422,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteAuthCertImplClientCertAuthHandler( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("path") String path, @QueryParam("service.ranking") Integer serviceRanking,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.auth.ims")
+    @Path("/com.adobe.granite.auth.ims")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteAuthImsInfo.class, authorizations = {
@@ -3435,7 +3436,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteAuthIms( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("configid") String configid, @QueryParam("scope") String scope,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.auth.ims.impl.ExternalUserIdMappingProviderExtension")
+    @Path("/com.adobe.granite.auth.ims.impl.ExternalUserIdMappingProviderExtension")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteAuthImsImplExternalUserIdMappingProviderExtensionInfo.class, authorizations = {
@@ -3449,7 +3450,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteAuthImsImplExternalUserIdMappingProviderExtension( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("oauth.provider.id") String oauthProviderId,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.auth.ims.impl.IMSAccessTokenRequestCustomizerImpl")
+    @Path("/com.adobe.granite.auth.ims.impl.IMSAccessTokenRequestCustomizerImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteAuthImsImplIMSAccessTokenRequestCustomizerImplInfo.class, authorizations = {
@@ -3463,7 +3464,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteAuthImsImplIMSAccessTokenRequestCustomizerImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("auth.ims.client.secret") String authImsClientSecret, @QueryParam("customizer.type") String customizerType,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.auth.ims.impl.IMSInstanceCredentialsValidator")
+    @Path("/com.adobe.granite.auth.ims.impl.IMSInstanceCredentialsValidator")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteAuthImsImplIMSInstanceCredentialsValidatorInfo.class, authorizations = {
@@ -3477,7 +3478,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteAuthImsImplIMSInstanceCredentialsValidator( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("oauth.provider.id") String oauthProviderId,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.auth.ims.impl.IMSProviderImpl")
+    @Path("/com.adobe.granite.auth.ims.impl.IMSProviderImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteAuthImsImplIMSProviderImplInfo.class, authorizations = {
@@ -3491,7 +3492,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteAuthImsImplIMSProviderImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("oauth.provider.id") String oauthProviderId, @QueryParam("oauth.provider.ims.authorization.url") String oauthProviderImsAuthorizationUrl, @QueryParam("oauth.provider.ims.token.url") String oauthProviderImsTokenUrl, @QueryParam("oauth.provider.ims.profile.url") String oauthProviderImsProfileUrl, @QueryParam("oauth.provider.ims.extended.details.urls") List<String> oauthProviderImsExtendedDetailsUrls, @QueryParam("oauth.provider.ims.validate.token.url") String oauthProviderImsValidateTokenUrl, @QueryParam("oauth.provider.ims.session.property") String oauthProviderImsSessionProperty, @QueryParam("oauth.provider.ims.service.token.client.id") String oauthProviderImsServiceTokenClientId, @QueryParam("oauth.provider.ims.service.token.client.secret") String oauthProviderImsServiceTokenClientSecret, @QueryParam("oauth.provider.ims.service.token") String oauthProviderImsServiceToken, @QueryParam("ims.org.ref") String imsOrgRef, @QueryParam("ims.group.mapping") List<String> imsGroupMapping, @QueryParam("oauth.provider.ims.only.license.group") Boolean oauthProviderImsOnlyLicenseGroup,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.auth.ims.impl.ImsConfigProviderImpl")
+    @Path("/com.adobe.granite.auth.ims.impl.ImsConfigProviderImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteAuthImsImplImsConfigProviderImplInfo.class, authorizations = {
@@ -3505,7 +3506,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteAuthImsImplImsConfigProviderImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("oauth.configmanager.ims.configid") String oauthConfigmanagerImsConfigid, @QueryParam("ims.owningEntity") String imsOwningEntity, @QueryParam("aem.instanceId") String aemInstanceId, @QueryParam("ims.serviceCode") String imsServiceCode,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.auth.oauth.accesstoken.provider")
+    @Path("/com.adobe.granite.auth.oauth.accesstoken.provider")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteAuthOauthAccesstokenProviderInfo.class, authorizations = {
@@ -3519,7 +3520,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteAuthOauthAccesstokenProvider( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("name") String name, @QueryParam("auth.token.provider.title") String authTokenProviderTitle, @QueryParam("auth.token.provider.default.claims") List<String> authTokenProviderDefaultClaims, @QueryParam("auth.token.provider.endpoint") String authTokenProviderEndpoint, @QueryParam("auth.access.token.request") String authAccessTokenRequest, @QueryParam("auth.token.provider.keypair.alias") String authTokenProviderKeypairAlias, @QueryParam("auth.token.provider.conn.timeout") Integer authTokenProviderConnTimeout, @QueryParam("auth.token.provider.so.timeout") Integer authTokenProviderSoTimeout, @QueryParam("auth.token.provider.client.id") String authTokenProviderClientId, @QueryParam("auth.token.provider.scope") String authTokenProviderScope, @QueryParam("auth.token.provider.reuse.access.token") Boolean authTokenProviderReuseAccessToken, @QueryParam("auth.token.provider.relaxed.ssl") Boolean authTokenProviderRelaxedSsl, @QueryParam("token.request.customizer.type") String tokenRequestCustomizerType, @QueryParam("auth.token.validator.type") String authTokenValidatorType,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.auth.oauth.impl.BearerAuthenticationHandler")
+    @Path("/com.adobe.granite.auth.oauth.impl.BearerAuthenticationHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerInfo.class, authorizations = {
@@ -3533,7 +3534,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteAuthOauthImplBearerAuthenticationHandler( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("path") String path, @QueryParam("oauth.clientIds.allowed") List<String> oauthClientIdsAllowed, @QueryParam("auth.bearer.sync.ims") Boolean authBearerSyncIms, @QueryParam("auth.tokenRequestParameter") String authTokenRequestParameter, @QueryParam("oauth.bearer.configid") String oauthBearerConfigid, @QueryParam("oauth.jwt.support") Boolean oauthJwtSupport,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.auth.oauth.impl.DefaultTokenValidatorImpl")
+    @Path("/com.adobe.granite.auth.oauth.impl.DefaultTokenValidatorImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteAuthOauthImplDefaultTokenValidatorImplInfo.class, authorizations = {
@@ -3547,7 +3548,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteAuthOauthImplDefaultTokenValidatorImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("auth.token.validator.type") String authTokenValidatorType,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.auth.oauth.impl.FacebookProviderImpl")
+    @Path("/com.adobe.granite.auth.oauth.impl.FacebookProviderImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteAuthOauthImplFacebookProviderImplInfo.class, authorizations = {
@@ -3561,7 +3562,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteAuthOauthImplFacebookProviderImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("oauth.provider.id") String oauthProviderId,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.auth.oauth.impl.GithubProviderImpl")
+    @Path("/com.adobe.granite.auth.oauth.impl.GithubProviderImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteAuthOauthImplGithubProviderImplInfo.class, authorizations = {
@@ -3575,7 +3576,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteAuthOauthImplGithubProviderImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("oauth.provider.id") String oauthProviderId, @QueryParam("oauth.provider.github.authorization.url") String oauthProviderGithubAuthorizationUrl, @QueryParam("oauth.provider.github.token.url") String oauthProviderGithubTokenUrl, @QueryParam("oauth.provider.github.profile.url") String oauthProviderGithubProfileUrl,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.auth.oauth.impl.GraniteProvider")
+    @Path("/com.adobe.granite.auth.oauth.impl.GraniteProvider")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteAuthOauthImplGraniteProviderInfo.class, authorizations = {
@@ -3589,7 +3590,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteAuthOauthImplGraniteProvider( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("oauth.provider.id") String oauthProviderId, @QueryParam("oauth.provider.granite.authorization.url") String oauthProviderGraniteAuthorizationUrl, @QueryParam("oauth.provider.granite.token.url") String oauthProviderGraniteTokenUrl, @QueryParam("oauth.provider.granite.profile.url") String oauthProviderGraniteProfileUrl, @QueryParam("oauth.provider.granite.extended.details.urls") String oauthProviderGraniteExtendedDetailsUrls,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.auth.oauth.impl.helper.ProviderConfigManager")
+    @Path("/com.adobe.granite.auth.oauth.impl.helper.ProviderConfigManager")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerInfo.class, authorizations = {
@@ -3603,7 +3604,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteAuthOauthImplHelperProviderConfigManager( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("oauth.cookie.login.timeout") String oauthCookieLoginTimeout, @QueryParam("oauth.cookie.max.age") String oauthCookieMaxAge,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.auth.oauth.impl.helper.ProviderConfigManagerInternal")
+    @Path("/com.adobe.granite.auth.oauth.impl.helper.ProviderConfigManagerInternal")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerInternalInfo.class, authorizations = {
@@ -3617,7 +3618,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteAuthOauthImplHelperProviderConfigManagerInternal( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("oauth.cookie.login.timeout") String oauthCookieLoginTimeout, @QueryParam("oauth.cookie.max.age") String oauthCookieMaxAge,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.auth.oauth.impl.OAuthAuthenticationHandler")
+    @Path("/com.adobe.granite.auth.oauth.impl.OAuthAuthenticationHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteAuthOauthImplOAuthAuthenticationHandlerInfo.class, authorizations = {
@@ -3631,7 +3632,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteAuthOauthImplOAuthAuthenticationHandler( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("path") String path,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.auth.oauth.impl.TwitterProviderImpl")
+    @Path("/com.adobe.granite.auth.oauth.impl.TwitterProviderImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteAuthOauthImplTwitterProviderImplInfo.class, authorizations = {
@@ -3645,7 +3646,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteAuthOauthImplTwitterProviderImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("oauth.provider.id") String oauthProviderId,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.auth.oauth.provider")
+    @Path("/com.adobe.granite.auth.oauth.provider")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteAuthOauthProviderInfo.class, authorizations = {
@@ -3659,7 +3660,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteAuthOauthProvider( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("oauth.config.id") String oauthConfigId, @QueryParam("oauth.client.id") String oauthClientId, @QueryParam("oauth.client.secret") String oauthClientSecret, @QueryParam("oauth.scope") List<String> oauthScope, @QueryParam("oauth.config.provider.id") String oauthConfigProviderId, @QueryParam("oauth.create.users") Boolean oauthCreateUsers, @QueryParam("oauth.userid.property") String oauthUseridProperty, @QueryParam("force.strict.username.matching") Boolean forceStrictUsernameMatching, @QueryParam("oauth.encode.userids") Boolean oauthEncodeUserids, @QueryParam("oauth.hash.userids") Boolean oauthHashUserids, @QueryParam("oauth.callBackUrl") String oauthCallBackUrl, @QueryParam("oauth.access.token.persist") Boolean oauthAccessTokenPersist, @QueryParam("oauth.access.token.persist.cookie") Boolean oauthAccessTokenPersistCookie, @QueryParam("oauth.csrf.state.protection") Boolean oauthCsrfStateProtection, @QueryParam("oauth.redirect.request.params") Boolean oauthRedirectRequestParams, @QueryParam("oauth.config.siblings.allow") Boolean oauthConfigSiblingsAllow,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.auth.requirement.impl.DefaultRequirementHandler")
+    @Path("/com.adobe.granite.auth.requirement.impl.DefaultRequirementHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteAuthRequirementImplDefaultRequirementHandlerInfo.class, authorizations = {
@@ -3673,7 +3674,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteAuthRequirementImplDefaultRequirementHandler( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("supportedPaths") List<String> supportedPaths,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.auth.saml.SamlAuthenticationHandler")
+    @Path("/com.adobe.granite.auth.saml.SamlAuthenticationHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteAuthSamlSamlAuthenticationHandlerInfo.class, authorizations = {
@@ -3687,7 +3688,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteAuthSamlSamlAuthenticationHandler( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("path") List<String> path, @QueryParam("service.ranking") Integer serviceRanking, @QueryParam("idpUrl") String idpUrl, @QueryParam("idpCertAlias") String idpCertAlias, @QueryParam("idpHttpRedirect") Boolean idpHttpRedirect, @QueryParam("serviceProviderEntityId") String serviceProviderEntityId, @QueryParam("assertionConsumerServiceURL") String assertionConsumerServiceURL, @QueryParam("spPrivateKeyAlias") String spPrivateKeyAlias, @QueryParam("keyStorePassword") String keyStorePassword, @QueryParam("defaultRedirectUrl") String defaultRedirectUrl, @QueryParam("userIDAttribute") String userIDAttribute, @QueryParam("useEncryption") Boolean useEncryption, @QueryParam("createUser") Boolean createUser, @QueryParam("userIntermediatePath") String userIntermediatePath, @QueryParam("addGroupMemberships") Boolean addGroupMemberships, @QueryParam("groupMembershipAttribute") String groupMembershipAttribute, @QueryParam("defaultGroups") List<String> defaultGroups, @QueryParam("nameIdFormat") String nameIdFormat, @QueryParam("synchronizeAttributes") List<String> synchronizeAttributes, @QueryParam("handleLogout") Boolean handleLogout, @QueryParam("logoutUrl") String logoutUrl, @QueryParam("clockTolerance") Integer clockTolerance, @QueryParam("digestMethod") String digestMethod, @QueryParam("signatureMethod") String signatureMethod, @QueryParam("identitySyncType") String identitySyncType, @QueryParam("idpIdentifier") String idpIdentifier,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.auth.sso.impl.SsoAuthenticationHandler")
+    @Path("/com.adobe.granite.auth.sso.impl.SsoAuthenticationHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteAuthSsoImplSsoAuthenticationHandlerInfo.class, authorizations = {
@@ -3701,7 +3702,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteAuthSsoImplSsoAuthenticationHandler( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("path") String path, @QueryParam("service.ranking") Integer serviceRanking, @QueryParam("jaas.controlFlag") String jaasControlFlag, @QueryParam("jaas.realmName") String jaasRealmName, @QueryParam("jaas.ranking") Integer jaasRanking, @QueryParam("headers") List<String> headers, @QueryParam("cookies") List<String> cookies, @QueryParam("parameters") List<String> parameters, @QueryParam("usermap") List<String> usermap, @QueryParam("format") String format, @QueryParam("trustedCredentialsAttribute") String trustedCredentialsAttribute,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.bundles.hc.impl.CodeCacheHealthCheck")
+    @Path("/com.adobe.granite.bundles.hc.impl.CodeCacheHealthCheck")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteBundlesHcImplCodeCacheHealthCheckInfo.class, authorizations = {
@@ -3715,7 +3716,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteBundlesHcImplCodeCacheHealthCheck( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("hc.tags") List<String> hcTags, @QueryParam("minimum.code.cache.size") Integer minimumCodeCacheSize,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.bundles.hc.impl.CrxdeSupportBundleHealthCheck")
+    @Path("/com.adobe.granite.bundles.hc.impl.CrxdeSupportBundleHealthCheck")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteBundlesHcImplCrxdeSupportBundleHealthCheckInfo.class, authorizations = {
@@ -3729,7 +3730,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteBundlesHcImplCrxdeSupportBundleHealthCheck( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("hc.tags") List<String> hcTags,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.bundles.hc.impl.DavExBundleHealthCheck")
+    @Path("/com.adobe.granite.bundles.hc.impl.DavExBundleHealthCheck")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteBundlesHcImplDavExBundleHealthCheckInfo.class, authorizations = {
@@ -3743,7 +3744,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteBundlesHcImplDavExBundleHealthCheck( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("hc.tags") List<String> hcTags,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.bundles.hc.impl.InactiveBundlesHealthCheck")
+    @Path("/com.adobe.granite.bundles.hc.impl.InactiveBundlesHealthCheck")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteBundlesHcImplInactiveBundlesHealthCheckInfo.class, authorizations = {
@@ -3757,7 +3758,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteBundlesHcImplInactiveBundlesHealthCheck( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("hc.tags") List<String> hcTags, @QueryParam("ignored.bundles") List<String> ignoredBundles,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.bundles.hc.impl.JobsHealthCheck")
+    @Path("/com.adobe.granite.bundles.hc.impl.JobsHealthCheck")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteBundlesHcImplJobsHealthCheckInfo.class, authorizations = {
@@ -3771,7 +3772,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteBundlesHcImplJobsHealthCheck( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("hc.tags") List<String> hcTags, @QueryParam("max.queued.jobs") Integer maxQueuedJobs,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.bundles.hc.impl.SlingGetServletHealthCheck")
+    @Path("/com.adobe.granite.bundles.hc.impl.SlingGetServletHealthCheck")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteBundlesHcImplSlingGetServletHealthCheckInfo.class, authorizations = {
@@ -3785,7 +3786,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteBundlesHcImplSlingGetServletHealthCheck( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("hc.tags") List<String> hcTags,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.bundles.hc.impl.SlingJavaScriptHandlerHealthCheck")
+    @Path("/com.adobe.granite.bundles.hc.impl.SlingJavaScriptHandlerHealthCheck")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteBundlesHcImplSlingJavaScriptHandlerHealthCheckInfo.class, authorizations = {
@@ -3799,7 +3800,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteBundlesHcImplSlingJavaScriptHandlerHealthCheck( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("hc.tags") List<String> hcTags,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.bundles.hc.impl.SlingJspScriptHandlerHealthCheck")
+    @Path("/com.adobe.granite.bundles.hc.impl.SlingJspScriptHandlerHealthCheck")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteBundlesHcImplSlingJspScriptHandlerHealthCheckInfo.class, authorizations = {
@@ -3813,7 +3814,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteBundlesHcImplSlingJspScriptHandlerHealthCheck( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("hc.tags") List<String> hcTags,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.bundles.hc.impl.SlingReferrerFilterHealthCheck")
+    @Path("/com.adobe.granite.bundles.hc.impl.SlingReferrerFilterHealthCheck")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteBundlesHcImplSlingReferrerFilterHealthCheckInfo.class, authorizations = {
@@ -3827,7 +3828,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteBundlesHcImplSlingReferrerFilterHealthCheck( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("hc.tags") List<String> hcTags,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.bundles.hc.impl.WebDavBundleHealthCheck")
+    @Path("/com.adobe.granite.bundles.hc.impl.WebDavBundleHealthCheck")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteBundlesHcImplWebDavBundleHealthCheckInfo.class, authorizations = {
@@ -3841,7 +3842,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteBundlesHcImplWebDavBundleHealthCheck( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("hc.tags") List<String> hcTags,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.comments.internal.CommentReplicationContentFilterFactory")
+    @Path("/com.adobe.granite.comments.internal.CommentReplicationContentFilterFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteCommentsInternalCommentReplicationContentFilterFacInfo.class, authorizations = {
@@ -3855,7 +3856,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteCommentsInternalCommentReplicationContentFilterFac( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("replicate.comment.resourceTypes") List<String> replicateCommentResourceTypes,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.compatrouter.impl.CompatSwitchingServiceImpl")
+    @Path("/com.adobe.granite.compatrouter.impl.CompatSwitchingServiceImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteCompatrouterImplCompatSwitchingServiceImplInfo.class, authorizations = {
@@ -3869,7 +3870,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteCompatrouterImplCompatSwitchingServiceImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("compatgroups") List<String> compatgroups, @QueryParam("enabled") Boolean enabled,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.compatrouter.impl.RoutingConfig")
+    @Path("/com.adobe.granite.compatrouter.impl.RoutingConfig")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteCompatrouterImplRoutingConfigInfo.class, authorizations = {
@@ -3883,7 +3884,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteCompatrouterImplRoutingConfig( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("id") String id, @QueryParam("compatPath") String compatPath, @QueryParam("newPath") String newPath,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.compatrouter.impl.SwitchMappingConfig")
+    @Path("/com.adobe.granite.compatrouter.impl.SwitchMappingConfig")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteCompatrouterImplSwitchMappingConfigInfo.class, authorizations = {
@@ -3897,7 +3898,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteCompatrouterImplSwitchMappingConfig( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("group") String group, @QueryParam("ids") List<String> ids,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.conf.impl.RuntimeAwareConfigurationResourceResolvingStrategy")
+    @Path("/com.adobe.granite.conf.impl.RuntimeAwareConfigurationResourceResolvingStrategy")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingInfo.class, authorizations = {
@@ -3911,7 +3912,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolving( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("enabled") Boolean enabled, @QueryParam("fallbackPaths") List<String> fallbackPaths,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.contexthub.impl.ContextHubImpl")
+    @Path("/com.adobe.granite.contexthub.impl.ContextHubImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteContexthubImplContextHubImplInfo.class, authorizations = {
@@ -3925,7 +3926,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteContexthubImplContextHubImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("com.adobe.granite.contexthub.silent_mode") Boolean comAdobeGraniteContexthubSilentMode, @QueryParam("com.adobe.granite.contexthub.show_ui") Boolean comAdobeGraniteContexthubShowUi,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.cors.impl.CORSPolicyImpl")
+    @Path("/com.adobe.granite.cors.impl.CORSPolicyImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteCorsImplCORSPolicyImplInfo.class, authorizations = {
@@ -3939,7 +3940,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteCorsImplCORSPolicyImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("alloworigin") List<String> alloworigin, @QueryParam("alloworiginregexp") List<String> alloworiginregexp, @QueryParam("allowedpaths") List<String> allowedpaths, @QueryParam("exposedheaders") List<String> exposedheaders, @QueryParam("maxage") Integer maxage, @QueryParam("supportedheaders") List<String> supportedheaders, @QueryParam("supportedmethods") List<String> supportedmethods, @QueryParam("supportscredentials") Boolean supportscredentials,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.csrf.impl.CSRFFilter")
+    @Path("/com.adobe.granite.csrf.impl.CSRFFilter")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteCsrfImplCSRFFilterInfo.class, authorizations = {
@@ -3953,7 +3954,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteCsrfImplCSRFFilter( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("filter.methods") List<String> filterMethods, @QueryParam("filter.enable.safe.user.agents") Boolean filterEnableSafeUserAgents, @QueryParam("filter.safe.user.agents") List<String> filterSafeUserAgents, @QueryParam("filter.excluded.paths") List<String> filterExcludedPaths,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.csrf.impl.CSRFServlet")
+    @Path("/com.adobe.granite.csrf.impl.CSRFServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteCsrfImplCSRFServletInfo.class, authorizations = {
@@ -3967,7 +3968,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteCsrfImplCSRFServlet( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("csrf.token.expires.in") Integer csrfTokenExpiresIn, @QueryParam("sling.auth.requirements") String slingAuthRequirements,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.distribution.core.impl.CryptoDistributionTransportSecretProvider")
+    @Path("/com.adobe.granite.distribution.core.impl.CryptoDistributionTransportSecretProvider")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSeInfo.class, authorizations = {
@@ -3981,7 +3982,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteDistributionCoreImplCryptoDistributionTransportSe( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("name") String name, @QueryParam("username") String username, @QueryParam("encryptedPassword") String encryptedPassword,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.distribution.core.impl.diff.DiffChangesObserver")
+    @Path("/com.adobe.granite.distribution.core.impl.diff.DiffChangesObserver")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteDistributionCoreImplDiffDiffChangesObserverInfo.class, authorizations = {
@@ -3995,7 +3996,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteDistributionCoreImplDiffDiffChangesObserver( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("enabled") Boolean enabled, @QueryParam("agentName") String agentName, @QueryParam("diffPath") String diffPath, @QueryParam("observedPath") String observedPath, @QueryParam("serviceName") String serviceName, @QueryParam("propertyNames") String propertyNames, @QueryParam("distributionDelay") Integer distributionDelay, @QueryParam("serviceUser.target") String serviceUserTarget,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.distribution.core.impl.diff.DiffEventListener")
+    @Path("/com.adobe.granite.distribution.core.impl.diff.DiffEventListener")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteDistributionCoreImplDiffDiffEventListenerInfo.class, authorizations = {
@@ -4009,7 +4010,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteDistributionCoreImplDiffDiffEventListener( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("diffPath") String diffPath, @QueryParam("serviceName") String serviceName, @QueryParam("serviceUser.target") String serviceUserTarget,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.distribution.core.impl.DistributionToReplicationEventTransformer")
+    @Path("/com.adobe.granite.distribution.core.impl.DistributionToReplicationEventTransformer")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteDistributionCoreImplDistributionToReplicationEvenInfo.class, authorizations = {
@@ -4023,7 +4024,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteDistributionCoreImplDistributionToReplicationEven( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("importer.name") List<String> importerName,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.distribution.core.impl.replication.adapters.ReplicationAgentProvider")
+    @Path("/com.adobe.granite.distribution.core.impl.replication.adapters.ReplicationAgentProvider")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteDistributionCoreImplReplicationAdaptersReplicatInfo.class, authorizations = {
@@ -4037,7 +4038,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteDistributionCoreImplReplicationAdaptersReplicat( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("providerName") String providerName, @QueryParam("forward.requests") Boolean forwardRequests,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.distribution.core.impl.replication.DistributionTransportHandler")
+    @Path("/com.adobe.granite.distribution.core.impl.replication.DistributionTransportHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteDistributionCoreImplReplicationDistributionTransInfo.class, authorizations = {
@@ -4051,7 +4052,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteDistributionCoreImplReplicationDistributionTrans( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("forward.requests") Boolean forwardRequests,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.distribution.core.impl.transport.AccessTokenDistributionTransportSecretProvider")
+    @Path("/com.adobe.granite.distribution.core.impl.transport.AccessTokenDistributionTransportSecretProvider")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuInfo.class, authorizations = {
@@ -4065,7 +4066,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteDistributionCoreImplTransportAccessTokenDistribu( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("name") String name, @QueryParam("serviceName") String serviceName, @QueryParam("userId") String userId, @QueryParam("accessTokenProvider.target") String accessTokenProviderTarget,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.frags.impl.CheckHttpHeaderFlag")
+    @Path("/com.adobe.granite.frags.impl.CheckHttpHeaderFlag")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteFragsImplCheckHttpHeaderFlagInfo.class, authorizations = {
@@ -4079,7 +4080,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteFragsImplCheckHttpHeaderFlag( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("feature.name") String featureName, @QueryParam("feature.description") String featureDescription, @QueryParam("http.header.name") String httpHeaderName, @QueryParam("http.header.valuepattern") String httpHeaderValuepattern,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.frags.impl.RandomFeature")
+    @Path("/com.adobe.granite.frags.impl.RandomFeature")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteFragsImplRandomFeatureInfo.class, authorizations = {
@@ -4093,7 +4094,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteFragsImplRandomFeature( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("feature.name") String featureName, @QueryParam("feature.description") String featureDescription, @QueryParam("active.percentage") String activePercentage, @QueryParam("cookie.name") String cookieName, @QueryParam("cookie.maxAge") Integer cookieMaxAge,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.httpcache.file.FileCacheStore")
+    @Path("/com.adobe.granite.httpcache.file.FileCacheStore")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteHttpcacheFileFileCacheStoreInfo.class, authorizations = {
@@ -4107,7 +4108,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteHttpcacheFileFileCacheStore( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("com.adobe.granite.httpcache.file.documentRoot") String comAdobeGraniteHttpcacheFileDocumentRoot, @QueryParam("com.adobe.granite.httpcache.file.includeHost") String comAdobeGraniteHttpcacheFileIncludeHost,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.httpcache.impl.OuterCacheFilter")
+    @Path("/com.adobe.granite.httpcache.impl.OuterCacheFilter")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteHttpcacheImplOuterCacheFilterInfo.class, authorizations = {
@@ -4121,7 +4122,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteHttpcacheImplOuterCacheFilter( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("com.adobe.granite.httpcache.url.paths") List<String> comAdobeGraniteHttpcacheUrlPaths,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.i18n.impl.bundle.PseudoTranslations")
+    @Path("/com.adobe.granite.i18n.impl.bundle.PseudoTranslations")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteI18nImplBundlePseudoTranslationsInfo.class, authorizations = {
@@ -4135,7 +4136,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteI18nImplBundlePseudoTranslations( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("pseudo.patterns") List<String> pseudoPatterns,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.i18n.impl.PreferencesLocaleResolverService")
+    @Path("/com.adobe.granite.i18n.impl.PreferencesLocaleResolverService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteI18nImplPreferencesLocaleResolverServiceInfo.class, authorizations = {
@@ -4149,7 +4150,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteI18nImplPreferencesLocaleResolverService( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("security.preferences.name") String securityPreferencesName,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.infocollector.InfoCollector")
+    @Path("/com.adobe.granite.infocollector.InfoCollector")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteInfocollectorInfoCollectorInfo.class, authorizations = {
@@ -4163,7 +4164,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteInfocollectorInfoCollector( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("granite.infocollector.includeThreadDumps") Boolean graniteInfocollectorIncludeThreadDumps, @QueryParam("granite.infocollector.includeHeapDump") Boolean graniteInfocollectorIncludeHeapDump,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.jetty.ssl.internal.GraniteSslConnectorFactory")
+    @Path("/com.adobe.granite.jetty.ssl.internal.GraniteSslConnectorFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryInfo.class, authorizations = {
@@ -4177,7 +4178,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteJettySslInternalGraniteSslConnectorFactory( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("com.adobe.granite.jetty.ssl.port") Integer comAdobeGraniteJettySslPort, @QueryParam("com.adobe.granite.jetty.ssl.keystore.user") String comAdobeGraniteJettySslKeystoreUser, @QueryParam("com.adobe.granite.jetty.ssl.keystore.password") String comAdobeGraniteJettySslKeystorePassword, @QueryParam("com.adobe.granite.jetty.ssl.ciphersuites.excluded") List<String> comAdobeGraniteJettySslCiphersuitesExcluded, @QueryParam("com.adobe.granite.jetty.ssl.ciphersuites.included") List<String> comAdobeGraniteJettySslCiphersuitesIncluded, @QueryParam("com.adobe.granite.jetty.ssl.client.certificate") String comAdobeGraniteJettySslClientCertificate,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.license.impl.LicenseCheckFilter")
+    @Path("/com.adobe.granite.license.impl.LicenseCheckFilter")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteLicenseImplLicenseCheckFilterInfo.class, authorizations = {
@@ -4191,7 +4192,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteLicenseImplLicenseCheckFilter( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("checkInternval") Integer checkInternval, @QueryParam("excludeIds") List<String> excludeIds, @QueryParam("encryptPing") Boolean encryptPing,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.logging.impl.LogAnalyserImpl")
+    @Path("/com.adobe.granite.logging.impl.LogAnalyserImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteLoggingImplLogAnalyserImplInfo.class, authorizations = {
@@ -4205,7 +4206,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteLoggingImplLogAnalyserImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("messages.queue.size") Integer messagesQueueSize, @QueryParam("logger.config") List<String> loggerConfig, @QueryParam("messages.size") Integer messagesSize,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.logging.impl.LogErrorHealthCheck")
+    @Path("/com.adobe.granite.logging.impl.LogErrorHealthCheck")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteLoggingImplLogErrorHealthCheckInfo.class, authorizations = {
@@ -4219,7 +4220,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteLoggingImplLogErrorHealthCheck( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("hc.tags") List<String> hcTags,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.maintenance.crx.impl.DataStoreGarbageCollectionTask")
+    @Path("/com.adobe.granite.maintenance.crx.impl.DataStoreGarbageCollectionTask")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteMaintenanceCrxImplDataStoreGarbageCollectionTaskInfo.class, authorizations = {
@@ -4233,7 +4234,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteMaintenanceCrxImplDataStoreGarbageCollectionTask( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("granite.maintenance.mandatory") Boolean graniteMaintenanceMandatory, @QueryParam("job.topics") String jobTopics,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.maintenance.crx.impl.LuceneBinariesCleanupTask")
+    @Path("/com.adobe.granite.maintenance.crx.impl.LuceneBinariesCleanupTask")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteMaintenanceCrxImplLuceneBinariesCleanupTaskInfo.class, authorizations = {
@@ -4247,7 +4248,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteMaintenanceCrxImplLuceneBinariesCleanupTask( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("job.topics") String jobTopics,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.maintenance.crx.impl.RevisionCleanupTask")
+    @Path("/com.adobe.granite.maintenance.crx.impl.RevisionCleanupTask")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteMaintenanceCrxImplRevisionCleanupTaskInfo.class, authorizations = {
@@ -4261,7 +4262,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteMaintenanceCrxImplRevisionCleanupTask( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("full.gc.days") List<String> fullGcDays,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.monitoring.impl.ScriptConfigImpl")
+    @Path("/com.adobe.granite.monitoring.impl.ScriptConfigImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteMonitoringImplScriptConfigImplInfo.class, authorizations = {
@@ -4275,7 +4276,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteMonitoringImplScriptConfigImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("script.filename") String scriptFilename, @QueryParam("script.display") String scriptDisplay, @QueryParam("script.path") String scriptPath, @QueryParam("script.platform") List<String> scriptPlatform, @QueryParam("interval") Integer interval, @QueryParam("jmxdomain") String jmxdomain,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.oauth.server.auth.impl.OAuth2ServerAuthenticationHandler")
+    @Path("/com.adobe.granite.oauth.server.auth.impl.OAuth2ServerAuthenticationHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanInfo.class, authorizations = {
@@ -4289,7 +4290,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHan( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("path") String path, @QueryParam("jaas.controlFlag") String jaasControlFlag, @QueryParam("jaas.realmName") String jaasRealmName, @QueryParam("jaas.ranking") Integer jaasRanking, @QueryParam("oauth.offline.validation") Boolean oauthOfflineValidation,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.oauth.server.impl.AccessTokenCleanupTask")
+    @Path("/com.adobe.granite.oauth.server.impl.AccessTokenCleanupTask")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteOauthServerImplAccessTokenCleanupTaskInfo.class, authorizations = {
@@ -4303,7 +4304,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteOauthServerImplAccessTokenCleanupTask( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("scheduler.expression") String schedulerExpression,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.oauth.server.impl.OAuth2ClientRevocationServlet")
+    @Path("/com.adobe.granite.oauth.server.impl.OAuth2ClientRevocationServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteOauthServerImplOAuth2ClientRevocationServletInfo.class, authorizations = {
@@ -4317,7 +4318,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteOauthServerImplOAuth2ClientRevocationServlet( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("oauth.client.revocation.active") Boolean oauthClientRevocationActive,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.oauth.server.impl.OAuth2RevocationEndpointServlet")
+    @Path("/com.adobe.granite.oauth.server.impl.OAuth2RevocationEndpointServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteOauthServerImplOAuth2RevocationEndpointServletInfo.class, authorizations = {
@@ -4331,7 +4332,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteOauthServerImplOAuth2RevocationEndpointServlet( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("sling.servlet.paths") String slingServletPaths, @QueryParam("oauth.revocation.active") Boolean oauthRevocationActive,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.oauth.server.impl.OAuth2TokenEndpointServlet")
+    @Path("/com.adobe.granite.oauth.server.impl.OAuth2TokenEndpointServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteOauthServerImplOAuth2TokenEndpointServletInfo.class, authorizations = {
@@ -4345,7 +4346,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteOauthServerImplOAuth2TokenEndpointServlet( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("oauth.issuer") String oauthIssuer, @QueryParam("oauth.access.token.expires.in") String oauthAccessTokenExpiresIn, @QueryParam("osgi.http.whiteboard.servlet.pattern") String osgiHttpWhiteboardServletPattern, @QueryParam("osgi.http.whiteboard.context.select") String osgiHttpWhiteboardContextSelect,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.oauth.server.impl.OAuth2TokenRevocationServlet")
+    @Path("/com.adobe.granite.oauth.server.impl.OAuth2TokenRevocationServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteOauthServerImplOAuth2TokenRevocationServletInfo.class, authorizations = {
@@ -4359,7 +4360,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteOauthServerImplOAuth2TokenRevocationServlet( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("oauth.token.revocation.active") Boolean oauthTokenRevocationActive,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.offloading.impl.OffloadingConfigurator")
+    @Path("/com.adobe.granite.offloading.impl.OffloadingConfigurator")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteOffloadingImplOffloadingConfiguratorInfo.class, authorizations = {
@@ -4373,7 +4374,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteOffloadingImplOffloadingConfigurator( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("offloading.transporter") String offloadingTransporter, @QueryParam("offloading.cleanup.payload") Boolean offloadingCleanupPayload,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.offloading.impl.OffloadingJobCloner")
+    @Path("/com.adobe.granite.offloading.impl.OffloadingJobCloner")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteOffloadingImplOffloadingJobClonerInfo.class, authorizations = {
@@ -4387,7 +4388,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteOffloadingImplOffloadingJobCloner( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("offloading.jobcloner.enabled") Boolean offloadingJobclonerEnabled,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.offloading.impl.OffloadingJobOffloader")
+    @Path("/com.adobe.granite.offloading.impl.OffloadingJobOffloader")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteOffloadingImplOffloadingJobOffloaderInfo.class, authorizations = {
@@ -4401,7 +4402,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteOffloadingImplOffloadingJobOffloader( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("offloading.offloader.enabled") Boolean offloadingOffloaderEnabled,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.offloading.impl.transporter.OffloadingAgentManager")
+    @Path("/com.adobe.granite.offloading.impl.transporter.OffloadingAgentManager")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteOffloadingImplTransporterOffloadingAgentManagerInfo.class, authorizations = {
@@ -4415,7 +4416,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteOffloadingImplTransporterOffloadingAgentManager( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("offloading.agentmanager.enabled") Boolean offloadingAgentmanagerEnabled,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.offloading.impl.transporter.OffloadingDefaultTransporter")
+    @Path("/com.adobe.granite.offloading.impl.transporter.OffloadingDefaultTransporter")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoInfo.class, authorizations = {
@@ -4429,7 +4430,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspo( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("default.transport.agent-to-worker.prefix") String defaultTransportAgentToWorkerPrefix, @QueryParam("default.transport.agent-to-master.prefix") String defaultTransportAgentToMasterPrefix, @QueryParam("default.transport.input.package") String defaultTransportInputPackage, @QueryParam("default.transport.output.package") String defaultTransportOutputPackage, @QueryParam("default.transport.replication.synchronous") Boolean defaultTransportReplicationSynchronous, @QueryParam("default.transport.contentpackage") Boolean defaultTransportContentpackage, @QueryParam("offloading.transporter.default.enabled") Boolean offloadingTransporterDefaultEnabled,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.omnisearch.impl.core.OmniSearchServiceImpl")
+    @Path("/com.adobe.granite.omnisearch.impl.core.OmniSearchServiceImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteOmnisearchImplCoreOmniSearchServiceImplInfo.class, authorizations = {
@@ -4443,7 +4444,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteOmnisearchImplCoreOmniSearchServiceImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("omnisearch.suggestion.requiretext.min") Integer omnisearchSuggestionRequiretextMin, @QueryParam("omnisearch.suggestion.spellcheck.require") Boolean omnisearchSuggestionSpellcheckRequire,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.optout.impl.OptOutServiceImpl")
+    @Path("/com.adobe.granite.optout.impl.OptOutServiceImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteOptoutImplOptOutServiceImplInfo.class, authorizations = {
@@ -4457,7 +4458,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteOptoutImplOptOutServiceImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("optout.cookies") List<String> optoutCookies, @QueryParam("optout.headers") List<String> optoutHeaders, @QueryParam("optout.whitelist.cookies") List<String> optoutWhitelistCookies,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.queries.impl.hc.AsyncIndexHealthCheck")
+    @Path("/com.adobe.granite.queries.impl.hc.AsyncIndexHealthCheck")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteQueriesImplHcAsyncIndexHealthCheckInfo.class, authorizations = {
@@ -4471,7 +4472,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteQueriesImplHcAsyncIndexHealthCheck( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("indexing.critical.threshold") Integer indexingCriticalThreshold, @QueryParam("indexing.warn.threshold") Integer indexingWarnThreshold, @QueryParam("hc.tags") List<String> hcTags,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.queries.impl.hc.LargeIndexHealthCheck")
+    @Path("/com.adobe.granite.queries.impl.hc.LargeIndexHealthCheck")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteQueriesImplHcLargeIndexHealthCheckInfo.class, authorizations = {
@@ -4485,7 +4486,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteQueriesImplHcLargeIndexHealthCheck( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("large.index.critical.threshold") Integer largeIndexCriticalThreshold, @QueryParam("large.index.warn.threshold") Integer largeIndexWarnThreshold, @QueryParam("hc.tags") List<String> hcTags,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.queries.impl.hc.QueriesStatusHealthCheck")
+    @Path("/com.adobe.granite.queries.impl.hc.QueriesStatusHealthCheck")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteQueriesImplHcQueriesStatusHealthCheckInfo.class, authorizations = {
@@ -4499,7 +4500,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteQueriesImplHcQueriesStatusHealthCheck( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("hc.tags") List<String> hcTags,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.queries.impl.hc.QueryHealthCheckMetrics")
+    @Path("/com.adobe.granite.queries.impl.hc.QueryHealthCheckMetrics")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteQueriesImplHcQueryHealthCheckMetricsInfo.class, authorizations = {
@@ -4513,7 +4514,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteQueriesImplHcQueryHealthCheckMetrics( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("getPeriod") Integer getPeriod,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.queries.impl.hc.QueryLimitsHealthCheck")
+    @Path("/com.adobe.granite.queries.impl.hc.QueryLimitsHealthCheck")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteQueriesImplHcQueryLimitsHealthCheckInfo.class, authorizations = {
@@ -4527,7 +4528,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteQueriesImplHcQueryLimitsHealthCheck( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("hc.tags") List<String> hcTags,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.replication.hc.impl.ReplicationQueueHealthCheck")
+    @Path("/com.adobe.granite.replication.hc.impl.ReplicationQueueHealthCheck")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteReplicationHcImplReplicationQueueHealthCheckInfo.class, authorizations = {
@@ -4541,7 +4542,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteReplicationHcImplReplicationQueueHealthCheck( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("number.of.retries.allowed") Integer numberOfRetriesAllowed, @QueryParam("hc.tags") List<String> hcTags,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.replication.hc.impl.ReplicationTransportUsersHealthCheck")
+    @Path("/com.adobe.granite.replication.hc.impl.ReplicationTransportUsersHealthCheck")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCInfo.class, authorizations = {
@@ -4555,7 +4556,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteReplicationHcImplReplicationTransportUsersHealthC( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("hc.tags") List<String> hcTags,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.repository.hc.impl.AuthorizableNodeNameHealthCheck")
+    @Path("/com.adobe.granite.repository.hc.impl.AuthorizableNodeNameHealthCheck")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteRepositoryHcImplAuthorizableNodeNameHealthCheckInfo.class, authorizations = {
@@ -4569,7 +4570,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteRepositoryHcImplAuthorizableNodeNameHealthCheck( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("hc.tags") List<String> hcTags,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.repository.hc.impl.content.sling.SlingContentHealthCheck")
+    @Path("/com.adobe.granite.repository.hc.impl.content.sling.SlingContentHealthCheck")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCInfo.class, authorizations = {
@@ -4583,7 +4584,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthC( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("hc.tags") List<String> hcTags, @QueryParam("exclude.search.path") List<String> excludeSearchPath,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.repository.hc.impl.ContinuousRGCHealthCheck")
+    @Path("/com.adobe.granite.repository.hc.impl.ContinuousRGCHealthCheck")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteRepositoryHcImplContinuousRGCHealthCheckInfo.class, authorizations = {
@@ -4597,7 +4598,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteRepositoryHcImplContinuousRGCHealthCheck( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("hc.tags") List<String> hcTags,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.repository.hc.impl.DefaultAccessUserProfileHealthCheck")
+    @Path("/com.adobe.granite.repository.hc.impl.DefaultAccessUserProfileHealthCheck")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheInfo.class, authorizations = {
@@ -4611,7 +4612,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthChe( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("hc.tags") List<String> hcTags,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.repository.hc.impl.DefaultLoginsHealthCheck")
+    @Path("/com.adobe.granite.repository.hc.impl.DefaultLoginsHealthCheck")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteRepositoryHcImplDefaultLoginsHealthCheckInfo.class, authorizations = {
@@ -4625,7 +4626,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteRepositoryHcImplDefaultLoginsHealthCheck( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("hc.tags") List<String> hcTags, @QueryParam("account.logins") List<String> accountLogins, @QueryParam("console.logins") List<String> consoleLogins,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.repository.hc.impl.DiskSpaceHealthCheck")
+    @Path("/com.adobe.granite.repository.hc.impl.DiskSpaceHealthCheck")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteRepositoryHcImplDiskSpaceHealthCheckInfo.class, authorizations = {
@@ -4639,7 +4640,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteRepositoryHcImplDiskSpaceHealthCheck( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("hc.tags") List<String> hcTags, @QueryParam("disk.space.warn.threshold") Integer diskSpaceWarnThreshold, @QueryParam("disk.space.error.threshold") Integer diskSpaceErrorThreshold,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.repository.hc.impl.ObservationQueueLengthHealthCheck")
+    @Path("/com.adobe.granite.repository.hc.impl.ObservationQueueLengthHealthCheck")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteRepositoryHcImplObservationQueueLengthHealthCheckInfo.class, authorizations = {
@@ -4653,7 +4654,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteRepositoryHcImplObservationQueueLengthHealthCheck( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("hc.tags") List<String> hcTags,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.repository.impl.CommitStatsConfig")
+    @Path("/com.adobe.granite.repository.impl.CommitStatsConfig")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteRepositoryImplCommitStatsConfigInfo.class, authorizations = {
@@ -4667,7 +4668,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteRepositoryImplCommitStatsConfig( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("enabled") Boolean enabled, @QueryParam("intervalSeconds") Integer intervalSeconds, @QueryParam("commitsPerIntervalThreshold") Integer commitsPerIntervalThreshold, @QueryParam("maxLocationLength") Integer maxLocationLength, @QueryParam("maxDetailsShown") Integer maxDetailsShown, @QueryParam("minDetailsPercentage") Integer minDetailsPercentage, @QueryParam("threadMatchers") List<String> threadMatchers, @QueryParam("maxGreedyDepth") Integer maxGreedyDepth, @QueryParam("greedyStackMatchers") String greedyStackMatchers, @QueryParam("stackFilters") List<String> stackFilters, @QueryParam("stackMatchers") List<String> stackMatchers, @QueryParam("stackCategorizers") List<String> stackCategorizers, @QueryParam("stackShorteners") List<String> stackShorteners,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.repository.ServiceUserConfiguration")
+    @Path("/com.adobe.granite.repository.ServiceUserConfiguration")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteRepositoryServiceUserConfigurationInfo.class, authorizations = {
@@ -4681,7 +4682,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteRepositoryServiceUserConfiguration( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("service.ranking") Integer serviceRanking, @QueryParam("serviceusers.simpleSubjectPopulation") Boolean serviceusersSimpleSubjectPopulation, @QueryParam("serviceusers.list") List<String> serviceusersList,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.requests.logging.impl.hc.RequestsStatusHealthCheckImpl")
+    @Path("/com.adobe.granite.requests.logging.impl.hc.RequestsStatusHealthCheckImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckImInfo.class, authorizations = {
@@ -4695,7 +4696,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckIm( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("hc.tags") List<String> hcTags,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.resourcestatus.impl.CompositeStatusType")
+    @Path("/com.adobe.granite.resourcestatus.impl.CompositeStatusType")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteResourcestatusImplCompositeStatusTypeInfo.class, authorizations = {
@@ -4709,7 +4710,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteResourcestatusImplCompositeStatusType( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("name") String name, @QueryParam("types") List<String> types,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.resourcestatus.impl.StatusResourceProviderImpl")
+    @Path("/com.adobe.granite.resourcestatus.impl.StatusResourceProviderImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteResourcestatusImplStatusResourceProviderImplInfo.class, authorizations = {
@@ -4723,7 +4724,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteResourcestatusImplStatusResourceProviderImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("provider.root") String providerRoot,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.rest.assets.impl.AssetContentDispositionFilter")
+    @Path("/com.adobe.granite.rest.assets.impl.AssetContentDispositionFilter")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteRestAssetsImplAssetContentDispositionFilterInfo.class, authorizations = {
@@ -4737,7 +4738,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteRestAssetsImplAssetContentDispositionFilter( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("mime.allowEmpty") Boolean mimeAllowEmpty, @QueryParam("mime.allowed") List<String> mimeAllowed,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.rest.impl.ApiEndpointResourceProviderFactoryImpl")
+    @Path("/com.adobe.granite.rest.impl.ApiEndpointResourceProviderFactoryImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteRestImplApiEndpointResourceProviderFactoryImplInfo.class, authorizations = {
@@ -4751,7 +4752,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteRestImplApiEndpointResourceProviderFactoryImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("provider.roots") String providerRoots,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.rest.impl.servlet.DefaultGETServlet")
+    @Path("/com.adobe.granite.rest.impl.servlet.DefaultGETServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteRestImplServletDefaultGETServletInfo.class, authorizations = {
@@ -4765,7 +4766,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteRestImplServletDefaultGETServlet( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("default.limit") Integer defaultLimit, @QueryParam("use.absolute.uri") Boolean useAbsoluteUri,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.security.user.ui.internal.servlets.SSLConfigurationServlet")
+    @Path("/com.adobe.granite.security.user.ui.internal.servlets.SSLConfigurationServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationSInfo.class, authorizations = {
@@ -4779,7 +4780,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationS( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("hc.tags") List<String> hcTags,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.security.user.UserPropertiesService")
+    @Path("/com.adobe.granite.security.user.UserPropertiesService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteSecurityUserUserPropertiesServiceInfo.class, authorizations = {
@@ -4793,7 +4794,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteSecurityUserUserPropertiesService( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("adapter.condition") String adapterCondition, @QueryParam("granite.userproperties.nodetypes") List<String> graniteUserpropertiesNodetypes, @QueryParam("granite.userproperties.resourcetypes") List<String> graniteUserpropertiesResourcetypes,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.socialgraph.impl.SocialGraphFactoryImpl")
+    @Path("/com.adobe.granite.socialgraph.impl.SocialGraphFactoryImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplInfo.class, authorizations = {
@@ -4807,7 +4808,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteSocialgraphImplSocialGraphFactoryImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("group2member.relationship.outgoing") String group2memberRelationshipOutgoing, @QueryParam("group2member.excluded.outgoing") List<String> group2memberExcludedOutgoing, @QueryParam("group2member.relationship.incoming") String group2memberRelationshipIncoming, @QueryParam("group2member.excluded.incoming") List<String> group2memberExcludedIncoming,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.system.monitoring.impl.SystemStatsMBeanImpl")
+    @Path("/com.adobe.granite.system.monitoring.impl.SystemStatsMBeanImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteSystemMonitoringImplSystemStatsMBeanImplInfo.class, authorizations = {
@@ -4821,7 +4822,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteSystemMonitoringImplSystemStatsMBeanImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("scheduler.expression") String schedulerExpression, @QueryParam("jmx.objectname") String jmxObjectname,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.taskmanagement.impl.jcr.TaskAdapterFactory")
+    @Path("/com.adobe.granite.taskmanagement.impl.jcr.TaskAdapterFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteTaskmanagementImplJcrTaskAdapterFactoryInfo.class, authorizations = {
@@ -4835,7 +4836,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteTaskmanagementImplJcrTaskAdapterFactory( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("adapter.condition") String adapterCondition,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.taskmanagement.impl.jcr.TaskArchiveService")
+    @Path("/com.adobe.granite.taskmanagement.impl.jcr.TaskArchiveService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteTaskmanagementImplJcrTaskArchiveServiceInfo.class, authorizations = {
@@ -4849,7 +4850,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteTaskmanagementImplJcrTaskArchiveService( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("archiving.enabled") Boolean archivingEnabled, @QueryParam("scheduler.expression") String schedulerExpression, @QueryParam("archive.since.days.completed") Integer archiveSinceDaysCompleted,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.taskmanagement.impl.purge.TaskPurgeMaintenanceTask")
+    @Path("/com.adobe.granite.taskmanagement.impl.purge.TaskPurgeMaintenanceTask")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskInfo.class, authorizations = {
@@ -4863,7 +4864,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTask( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("purgeCompleted") Boolean purgeCompleted, @QueryParam("completedAge") Integer completedAge, @QueryParam("purgeActive") Boolean purgeActive, @QueryParam("activeAge") Integer activeAge, @QueryParam("saveThreshold") Integer saveThreshold,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.taskmanagement.impl.service.TaskManagerAdapterFactory")
+    @Path("/com.adobe.granite.taskmanagement.impl.service.TaskManagerAdapterFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactorInfo.class, authorizations = {
@@ -4877,7 +4878,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactor( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("adapter.condition") String adapterCondition, @QueryParam("taskmanager.admingroups") List<String> taskmanagerAdmingroups,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.threaddump.ThreadDumpCollector")
+    @Path("/com.adobe.granite.threaddump.ThreadDumpCollector")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteThreaddumpThreadDumpCollectorInfo.class, authorizations = {
@@ -4891,7 +4892,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteThreaddumpThreadDumpCollector( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("scheduler.period") Integer schedulerPeriod, @QueryParam("scheduler.runOn") String schedulerRunOn, @QueryParam("granite.threaddump.enabled") Boolean graniteThreaddumpEnabled, @QueryParam("granite.threaddump.dumpsPerFile") Integer graniteThreaddumpDumpsPerFile, @QueryParam("granite.threaddump.enableGzipCompression") Boolean graniteThreaddumpEnableGzipCompression, @QueryParam("granite.threaddump.enableDirectoriesCompression") Boolean graniteThreaddumpEnableDirectoriesCompression, @QueryParam("granite.threaddump.enableJStack") Boolean graniteThreaddumpEnableJStack, @QueryParam("granite.threaddump.maxBackupDays") Integer graniteThreaddumpMaxBackupDays, @QueryParam("granite.threaddump.backupCleanTrigger") String graniteThreaddumpBackupCleanTrigger,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.translation.connector.msft.core.impl.MicrosoftTranslationServiceFactoryImpl")
+    @Path("/com.adobe.granite.translation.connector.msft.core.impl.MicrosoftTranslationServiceFactoryImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslInfo.class, authorizations = {
@@ -4905,7 +4906,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTransl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("translationFactory") String translationFactory, @QueryParam("defaultConnectorLabel") String defaultConnectorLabel, @QueryParam("defaultConnectorAttribution") String defaultConnectorAttribution, @QueryParam("defaultConnectorWorkspaceId") String defaultConnectorWorkspaceId, @QueryParam("defaultConnectorSubscriptionKey") String defaultConnectorSubscriptionKey, @QueryParam("languageMapLocation") String languageMapLocation, @QueryParam("categoryMapLocation") String categoryMapLocation, @QueryParam("retryAttempts") Integer retryAttempts, @QueryParam("timeoutCount") Integer timeoutCount,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.translation.core.impl.TranslationManagerImpl")
+    @Path("/com.adobe.granite.translation.core.impl.TranslationManagerImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteTranslationCoreImplTranslationManagerImplInfo.class, authorizations = {
@@ -4919,7 +4920,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteTranslationCoreImplTranslationManagerImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("defaultConnectorName") String defaultConnectorName, @QueryParam("defaultCategory") String defaultCategory,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.ui.clientlibs.impl.HtmlLibraryManagerImpl")
+    @Path("/com.adobe.granite.ui.clientlibs.impl.HtmlLibraryManagerImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplInfo.class, authorizations = {
@@ -4933,7 +4934,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteUiClientlibsImplHtmlLibraryManagerImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("htmllibmanager.timing") Boolean htmllibmanagerTiming, @QueryParam("htmllibmanager.debug.init.js") String htmllibmanagerDebugInitJs, @QueryParam("htmllibmanager.minify") Boolean htmllibmanagerMinify, @QueryParam("htmllibmanager.debug") Boolean htmllibmanagerDebug, @QueryParam("htmllibmanager.gzip") Boolean htmllibmanagerGzip, @QueryParam("htmllibmanager.maxDataUriSize") Integer htmllibmanagerMaxDataUriSize, @QueryParam("htmllibmanager.maxage") Integer htmllibmanagerMaxage, @QueryParam("htmllibmanager.forceCQUrlInfo") Boolean htmllibmanagerForceCQUrlInfo, @QueryParam("htmllibmanager.defaultthemename") String htmllibmanagerDefaultthemename, @QueryParam("htmllibmanager.defaultuserthemename") String htmllibmanagerDefaultuserthemename, @QueryParam("htmllibmanager.clientmanager") String htmllibmanagerClientmanager, @QueryParam("htmllibmanager.path.list") List<String> htmllibmanagerPathList, @QueryParam("htmllibmanager.excluded.path.list") List<String> htmllibmanagerExcludedPathList, @QueryParam("htmllibmanager.processor.js") List<String> htmllibmanagerProcessorJs, @QueryParam("htmllibmanager.processor.css") List<String> htmllibmanagerProcessorCss, @QueryParam("htmllibmanager.longcache.patterns") List<String> htmllibmanagerLongcachePatterns, @QueryParam("htmllibmanager.longcache.format") String htmllibmanagerLongcacheFormat, @QueryParam("htmllibmanager.useFileSystemOutputCache") Boolean htmllibmanagerUseFileSystemOutputCache, @QueryParam("htmllibmanager.fileSystemOutputCacheLocation") String htmllibmanagerFileSystemOutputCacheLocation, @QueryParam("htmllibmanager.disable.replacement") List<String> htmllibmanagerDisableReplacement,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.workflow.console.frags.WorkflowWithdrawFeature")
+    @Path("/com.adobe.granite.workflow.console.frags.WorkflowWithdrawFeature")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteWorkflowConsoleFragsWorkflowWithdrawFeatureInfo.class, authorizations = {
@@ -4947,7 +4948,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteWorkflowConsoleFragsWorkflowWithdrawFeature( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("enabled") Boolean enabled,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.workflow.console.publish.WorkflowPublishEventService")
+    @Path("/com.adobe.granite.workflow.console.publish.WorkflowPublishEventService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteWorkflowConsolePublishWorkflowPublishEventServiceInfo.class, authorizations = {
@@ -4961,7 +4962,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteWorkflowConsolePublishWorkflowPublishEventService( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("granite.workflow.WorkflowPublishEventService.enabled") Boolean graniteWorkflowWorkflowPublishEventServiceEnabled,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.workflow.core.jcr.WorkflowBucketManager")
+    @Path("/com.adobe.granite.workflow.core.jcr.WorkflowBucketManager")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteWorkflowCoreJcrWorkflowBucketManagerInfo.class, authorizations = {
@@ -4975,7 +4976,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteWorkflowCoreJcrWorkflowBucketManager( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("bucketSize") Integer bucketSize,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.workflow.core.job.ExternalProcessJobHandler")
+    @Path("/com.adobe.granite.workflow.core.job.ExternalProcessJobHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerInfo.class, authorizations = {
@@ -4989,7 +4990,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteWorkflowCoreJobExternalProcessJobHandler( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("default.timeout") Integer defaultTimeout, @QueryParam("max.timeout") Integer maxTimeout, @QueryParam("default.period") Integer defaultPeriod,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.workflow.core.job.JobHandler")
+    @Path("/com.adobe.granite.workflow.core.job.JobHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteWorkflowCoreJobJobHandlerInfo.class, authorizations = {
@@ -5003,7 +5004,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteWorkflowCoreJobJobHandler( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("job.topics") List<String> jobTopics, @QueryParam("allow.self.process.termination") Boolean allowSelfProcessTermination,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.workflow.core.offloading.WorkflowOffloadingJobConsumer")
+    @Path("/com.adobe.granite.workflow.core.offloading.WorkflowOffloadingJobConsumer")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumInfo.class, authorizations = {
@@ -5017,7 +5018,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsum( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("job.topics") String jobTopics,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.workflow.core.PayloadMapCache")
+    @Path("/com.adobe.granite.workflow.core.PayloadMapCache")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteWorkflowCorePayloadMapCacheInfo.class, authorizations = {
@@ -5031,7 +5032,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteWorkflowCorePayloadMapCache( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("getSystemWorkflowModels") List<String> getSystemWorkflowModels, @QueryParam("getPackageRootPath") String getPackageRootPath,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.workflow.core.payloadmap.PayloadMoveListener")
+    @Path("/com.adobe.granite.workflow.core.payloadmap.PayloadMoveListener")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteWorkflowCorePayloadmapPayloadMoveListenerInfo.class, authorizations = {
@@ -5045,7 +5046,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteWorkflowCorePayloadmapPayloadMoveListener( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("payload.move.white.list") List<String> payloadMoveWhiteList, @QueryParam("payload.move.handle.from.workflow.process") Boolean payloadMoveHandleFromWorkflowProcess,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.workflow.core.WorkflowConfig")
+    @Path("/com.adobe.granite.workflow.core.WorkflowConfig")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteWorkflowCoreWorkflowConfigInfo.class, authorizations = {
@@ -5059,7 +5060,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteWorkflowCoreWorkflowConfig( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("cq.workflow.config.workflow.packages.root.path") List<String> cqWorkflowConfigWorkflowPackagesRootPath, @QueryParam("cq.workflow.config.workflow.process.legacy.mode") Boolean cqWorkflowConfigWorkflowProcessLegacyMode, @QueryParam("cq.workflow.config.allow.locking") Boolean cqWorkflowConfigAllowLocking,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.workflow.core.WorkflowSessionFactory")
+    @Path("/com.adobe.granite.workflow.core.WorkflowSessionFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryInfo.class, authorizations = {
@@ -5073,7 +5074,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteWorkflowCoreWorkflowSessionFactory( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("granite.workflowinbox.sort.propertyName") String graniteWorkflowinboxSortPropertyName, @QueryParam("granite.workflowinbox.sort.order") String graniteWorkflowinboxSortOrder, @QueryParam("cq.workflow.job.retry") Integer cqWorkflowJobRetry, @QueryParam("cq.workflow.superuser") List<String> cqWorkflowSuperuser, @QueryParam("granite.workflow.inboxQuerySize") Integer graniteWorkflowInboxQuerySize, @QueryParam("granite.workflow.adminUserGroupFilter") Boolean graniteWorkflowAdminUserGroupFilter, @QueryParam("granite.workflow.enforceWorkitemAssigneePermissions") Boolean graniteWorkflowEnforceWorkitemAssigneePermissions, @QueryParam("granite.workflow.enforceWorkflowInitiatorPermissions") Boolean graniteWorkflowEnforceWorkflowInitiatorPermissions, @QueryParam("granite.workflow.injectTenantIdInJobTopics") Boolean graniteWorkflowInjectTenantIdInJobTopics, @QueryParam("granite.workflow.maxPurgeSaveThreshold") Integer graniteWorkflowMaxPurgeSaveThreshold, @QueryParam("granite.workflow.maxPurgeQueryCount") Integer graniteWorkflowMaxPurgeQueryCount,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.granite.workflow.purge.Scheduler")
+    @Path("/com.adobe.granite.workflow.purge.Scheduler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteWorkflowPurgeSchedulerInfo.class, authorizations = {
@@ -5087,7 +5088,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeGraniteWorkflowPurgeScheduler( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("scheduledpurge.name") String scheduledpurgeName, @QueryParam("scheduledpurge.workflowStatus") String scheduledpurgeWorkflowStatus, @QueryParam("scheduledpurge.modelIds") List<String> scheduledpurgeModelIds, @QueryParam("scheduledpurge.daysold") Integer scheduledpurgeDaysold,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.octopus.ncomm.bootstrap")
+    @Path("/com.adobe.octopus.ncomm.bootstrap")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeOctopusNcommBootstrapInfo.class, authorizations = {
@@ -5101,7 +5102,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeOctopusNcommBootstrap( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("maxConnections") Integer maxConnections, @QueryParam("maxRequests") Integer maxRequests, @QueryParam("requestTimeout") Integer requestTimeout, @QueryParam("requestRetries") Integer requestRetries, @QueryParam("launchTimeout") Integer launchTimeout,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.social.integrations.livefyre.user.pingforpull.impl.PingPullServlet")
+    @Path("/com.adobe.social.integrations.livefyre.user.pingforpull.impl.PingPullServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullSInfo.class, authorizations = {
@@ -5115,7 +5116,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullS( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("communities.integration.livefyre.sling.event.filter") String communitiesIntegrationLivefyreSlingEventFilter,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.adobe.xmp.worker.files.ncomm.XMPFilesNComm")
+    @Path("/com.adobe.xmp.worker.files.ncomm.XMPFilesNComm")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeXmpWorkerFilesNcommXMPFilesNCommInfo.class, authorizations = {
@@ -5129,7 +5130,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comAdobeXmpWorkerFilesNcommXMPFilesNComm( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("maxConnections") String maxConnections, @QueryParam("maxRequests") String maxRequests, @QueryParam("requestTimeout") String requestTimeout, @QueryParam("logDir") String logDir,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.commons.datasource.jdbcpool.JdbcPoolService")
+    @Path("/com.day.commons.datasource.jdbcpool.JdbcPoolService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceInfo.class, authorizations = {
@@ -5143,7 +5144,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCommonsDatasourceJdbcpoolJdbcPoolService( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("jdbc.driver.class") String jdbcDriverClass, @QueryParam("jdbc.connection.uri") String jdbcConnectionUri, @QueryParam("jdbc.username") String jdbcUsername, @QueryParam("jdbc.password") String jdbcPassword, @QueryParam("jdbc.validation.query") String jdbcValidationQuery, @QueryParam("default.readonly") Boolean defaultReadonly, @QueryParam("default.autocommit") Boolean defaultAutocommit, @QueryParam("pool.size") Integer poolSize, @QueryParam("pool.max.wait.msec") Integer poolMaxWaitMsec, @QueryParam("datasource.name") String datasourceName, @QueryParam("datasource.svc.properties") List<String> datasourceSvcProperties,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.commons.httpclient")
+    @Path("/com.day.commons.httpclient")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCommonsHttpclientInfo.class, authorizations = {
@@ -5157,7 +5158,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCommonsHttpclient( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("proxy.enabled") Boolean proxyEnabled, @QueryParam("proxy.host") String proxyHost, @QueryParam("proxy.user") String proxyUser, @QueryParam("proxy.password") String proxyPassword, @QueryParam("proxy.ntlm.host") String proxyNtlmHost, @QueryParam("proxy.ntlm.domain") String proxyNtlmDomain, @QueryParam("proxy.exceptions") List<String> proxyExceptions,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.analytics.impl.StorePropertiesChangeListener")
+    @Path("/com.day.cq.analytics.impl.StorePropertiesChangeListener")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqAnalyticsImplStorePropertiesChangeListenerInfo.class, authorizations = {
@@ -5171,7 +5172,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqAnalyticsImplStorePropertiesChangeListener( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("cq.store.listener.additionalStorePaths") List<String> cqStoreListenerAdditionalStorePaths,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.analytics.sitecatalyst.impl.exporter.ClassificationsExporter")
+    @Path("/com.day.cq.analytics.sitecatalyst.impl.exporter.ClassificationsExporter")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteInfo.class, authorizations = {
@@ -5185,7 +5186,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqAnalyticsSitecatalystImplExporterClassificationsExporte( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("allowed.paths") List<String> allowedPaths, @QueryParam("cq.analytics.saint.exporter.pagesize") Integer cqAnalyticsSaintExporterPagesize,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.analytics.sitecatalyst.impl.importer.ReportImporter")
+    @Path("/com.day.cq.analytics.sitecatalyst.impl.importer.ReportImporter")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqAnalyticsSitecatalystImplImporterReportImporterInfo.class, authorizations = {
@@ -5199,7 +5200,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqAnalyticsSitecatalystImplImporterReportImporter( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("report.fetch.attempts") Integer reportFetchAttempts, @QueryParam("report.fetch.delay") Integer reportFetchDelay,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.analytics.sitecatalyst.impl.SitecatalystAdapterFactory")
+    @Path("/com.day.cq.analytics.sitecatalyst.impl.SitecatalystAdapterFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqAnalyticsSitecatalystImplSitecatalystAdapterFactoryInfo.class, authorizations = {
@@ -5213,7 +5214,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqAnalyticsSitecatalystImplSitecatalystAdapterFactory( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("cq.analytics.adapterfactory.contextstores") List<String> cqAnalyticsAdapterfactoryContextstores,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.analytics.sitecatalyst.impl.SitecatalystHttpClientImpl")
+    @Path("/com.day.cq.analytics.sitecatalyst.impl.SitecatalystHttpClientImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfo.class, authorizations = {
@@ -5227,7 +5228,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("cq.analytics.sitecatalyst.service.datacenter.url") List<String> cqAnalyticsSitecatalystServiceDatacenterUrl, @QueryParam("devhostnamepatterns") List<String> devhostnamepatterns, @QueryParam("connection.timeout") Integer connectionTimeout, @QueryParam("socket.timeout") Integer socketTimeout,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.analytics.testandtarget.impl.AccountOptionsUpdater")
+    @Path("/com.day.cq.analytics.testandtarget.impl.AccountOptionsUpdater")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqAnalyticsTestandtargetImplAccountOptionsUpdaterInfo.class, authorizations = {
@@ -5241,7 +5242,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqAnalyticsTestandtargetImplAccountOptionsUpdater( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("cq.analytics.testandtarget.accountoptionsupdater.enabled") Boolean cqAnalyticsTestandtargetAccountoptionsupdaterEnabled,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.analytics.testandtarget.impl.DeleteAuthorActivityListener")
+    @Path("/com.day.cq.analytics.testandtarget.impl.DeleteAuthorActivityListener")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqAnalyticsTestandtargetImplDeleteAuthorActivityListenerInfo.class, authorizations = {
@@ -5255,7 +5256,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqAnalyticsTestandtargetImplDeleteAuthorActivityListener( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("cq.analytics.testandtarget.deleteauthoractivitylistener.enabled") Boolean cqAnalyticsTestandtargetDeleteauthoractivitylistenerEnabled,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.analytics.testandtarget.impl.PushAuthorCampaignPageListener")
+    @Path("/com.day.cq.analytics.testandtarget.impl.PushAuthorCampaignPageListener")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListenerInfo.class, authorizations = {
@@ -5269,7 +5270,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListener( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("cq.analytics.testandtarget.pushauthorcampaignpagelistener.enabled") Boolean cqAnalyticsTestandtargetPushauthorcampaignpagelistenerEnabled,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.analytics.testandtarget.impl.SegmentImporter")
+    @Path("/com.day.cq.analytics.testandtarget.impl.SegmentImporter")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqAnalyticsTestandtargetImplSegmentImporterInfo.class, authorizations = {
@@ -5283,7 +5284,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqAnalyticsTestandtargetImplSegmentImporter( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("cq.analytics.testandtarget.segmentimporter.enabled") Boolean cqAnalyticsTestandtargetSegmentimporterEnabled,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.analytics.testandtarget.impl.service.WebServiceImpl")
+    @Path("/com.day.cq.analytics.testandtarget.impl.service.WebServiceImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqAnalyticsTestandtargetImplServiceWebServiceImplInfo.class, authorizations = {
@@ -5297,7 +5298,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqAnalyticsTestandtargetImplServiceWebServiceImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("endpointUri") String endpointUri, @QueryParam("connectionTimeout") Integer connectionTimeout, @QueryParam("socketTimeout") Integer socketTimeout,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.analytics.testandtarget.impl.servlets.AdminServerServlet")
+    @Path("/com.day.cq.analytics.testandtarget.impl.servlets.AdminServerServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqAnalyticsTestandtargetImplServletsAdminServerServletInfo.class, authorizations = {
@@ -5311,7 +5312,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqAnalyticsTestandtargetImplServletsAdminServerServlet( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("testandtarget.endpoint.url") String testandtargetEndpointUrl,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.analytics.testandtarget.impl.TestandtargetHttpClientImpl")
+    @Path("/com.day.cq.analytics.testandtarget.impl.TestandtargetHttpClientImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplInfo.class, authorizations = {
@@ -5325,7 +5326,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("cq.analytics.testandtarget.api.url") String cqAnalyticsTestandtargetApiUrl, @QueryParam("cq.analytics.testandtarget.timeout") Integer cqAnalyticsTestandtargetTimeout, @QueryParam("cq.analytics.testandtarget.sockettimeout") Integer cqAnalyticsTestandtargetSockettimeout, @QueryParam("cq.analytics.testandtarget.recommendations.url.replace") String cqAnalyticsTestandtargetRecommendationsUrlReplace, @QueryParam("cq.analytics.testandtarget.recommendations.url.replacewith") String cqAnalyticsTestandtargetRecommendationsUrlReplacewith,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.auth.impl.cug.CugSupportImpl")
+    @Path("/com.day.cq.auth.impl.cug.CugSupportImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqAuthImplCugCugSupportImplInfo.class, authorizations = {
@@ -5339,7 +5340,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqAuthImplCugCugSupportImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("cug.exempted.principals") List<String> cugExemptedPrincipals, @QueryParam("cug.enabled") Boolean cugEnabled, @QueryParam("cug.principals.regex") String cugPrincipalsRegex, @QueryParam("cug.principals.replacement") String cugPrincipalsReplacement,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.auth.impl.LoginSelectorHandler")
+    @Path("/com.day.cq.auth.impl.LoginSelectorHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqAuthImplLoginSelectorHandlerInfo.class, authorizations = {
@@ -5353,7 +5354,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqAuthImplLoginSelectorHandler( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("path") String path, @QueryParam("service.ranking") Integer serviceRanking, @QueryParam("auth.loginselector.mappings") List<String> authLoginselectorMappings, @QueryParam("auth.loginselector.changepw.mappings") List<String> authLoginselectorChangepwMappings, @QueryParam("auth.loginselector.defaultloginpage") String authLoginselectorDefaultloginpage, @QueryParam("auth.loginselector.defaultchangepwpage") String authLoginselectorDefaultchangepwpage, @QueryParam("auth.loginselector.handle") List<String> authLoginselectorHandle, @QueryParam("auth.loginselector.handle.all.extensions") Boolean authLoginselectorHandleAllExtensions,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.commons.impl.ExternalizerImpl")
+    @Path("/com.day.cq.commons.impl.ExternalizerImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqCommonsImplExternalizerImplInfo.class, authorizations = {
@@ -5367,7 +5368,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqCommonsImplExternalizerImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("externalizer.domains") List<String> externalizerDomains, @QueryParam("externalizer.host") String externalizerHost, @QueryParam("externalizer.contextpath") String externalizerContextpath, @QueryParam("externalizer.encodedpath") Boolean externalizerEncodedpath,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.commons.servlets.RootMappingServlet")
+    @Path("/com.day.cq.commons.servlets.RootMappingServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqCommonsServletsRootMappingServletInfo.class, authorizations = {
@@ -5381,7 +5382,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqCommonsServletsRootMappingServlet( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("rootmapping.target") String rootmappingTarget,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.compat.codeupgrade.impl.CodeUpgradeExecutionConditionChecker")
+    @Path("/com.day.cq.compat.codeupgrade.impl.CodeUpgradeExecutionConditionChecker")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckeInfo.class, authorizations = {
@@ -5395,7 +5396,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionChecke( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("codeupgradetasks") List<String> codeupgradetasks, @QueryParam("codeupgradetaskfilters") List<String> codeupgradetaskfilters,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.compat.codeupgrade.impl.UpgradeTaskIgnoreList")
+    @Path("/com.day.cq.compat.codeupgrade.impl.UpgradeTaskIgnoreList")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqCompatCodeupgradeImplUpgradeTaskIgnoreListInfo.class, authorizations = {
@@ -5409,7 +5410,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqCompatCodeupgradeImplUpgradeTaskIgnoreList( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("upgradeTaskIgnoreList") List<String> upgradeTaskIgnoreList,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.compat.codeupgrade.impl.VersionRangeTaskIgnorelist")
+    @Path("/com.day.cq.compat.codeupgrade.impl.VersionRangeTaskIgnorelist")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqCompatCodeupgradeImplVersionRangeTaskIgnorelistInfo.class, authorizations = {
@@ -5423,7 +5424,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqCompatCodeupgradeImplVersionRangeTaskIgnorelist( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("effectiveBundleListPath") String effectiveBundleListPath,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.contentsync.impl.ContentSyncManagerImpl")
+    @Path("/com.day.cq.contentsync.impl.ContentSyncManagerImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqContentsyncImplContentSyncManagerImplInfo.class, authorizations = {
@@ -5437,7 +5438,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqContentsyncImplContentSyncManagerImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("contentsync.fallback.authorizable") String contentsyncFallbackAuthorizable, @QueryParam("contentsync.fallback.updateuser") String contentsyncFallbackUpdateuser,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.commons.handler.StandardImageHandler")
+    @Path("/com.day.cq.dam.commons.handler.StandardImageHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCommonsHandlerStandardImageHandlerInfo.class, authorizations = {
@@ -5451,7 +5452,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqDamCommonsHandlerStandardImageHandler( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("large_file_threshold") Integer largeFileThreshold, @QueryParam("large_comment_threshold") Integer largeCommentThreshold, @QueryParam("cq.dam.enable.ext.meta.extraction") Boolean cqDamEnableExtMetaExtraction,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.commons.metadata.XmpFilterBlackWhite")
+    @Path("/com.day.cq.dam.commons.metadata.XmpFilterBlackWhite")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCommonsMetadataXmpFilterBlackWhiteInfo.class, authorizations = {
@@ -5465,7 +5466,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqDamCommonsMetadataXmpFilterBlackWhite( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("xmp.filter.apply_whitelist") Boolean xmpFilterApplyWhitelist, @QueryParam("xmp.filter.whitelist") List<String> xmpFilterWhitelist, @QueryParam("xmp.filter.apply_blacklist") Boolean xmpFilterApplyBlacklist, @QueryParam("xmp.filter.blacklist") List<String> xmpFilterBlacklist,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.commons.util.impl.AssetCacheImpl")
+    @Path("/com.day.cq.dam.commons.util.impl.AssetCacheImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCommonsUtilImplAssetCacheImplInfo.class, authorizations = {
@@ -5479,7 +5480,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqDamCommonsUtilImplAssetCacheImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("large.file.min") Integer largeFileMin, @QueryParam("cache.apply") Boolean cacheApply, @QueryParam("mime.types") List<String> mimeTypes,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.annotation.pdf.AnnotationPdfConfig")
+    @Path("/com.day.cq.dam.core.impl.annotation.pdf.AnnotationPdfConfig")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigInfo.class, authorizations = {
@@ -5493,7 +5494,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqDamCoreImplAnnotationPdfAnnotationPdfConfig( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("cq.dam.config.annotation.pdf.document.width") Integer cqDamConfigAnnotationPdfDocumentWidth, @QueryParam("cq.dam.config.annotation.pdf.document.height") Integer cqDamConfigAnnotationPdfDocumentHeight, @QueryParam("cq.dam.config.annotation.pdf.document.padding.horizontal") Integer cqDamConfigAnnotationPdfDocumentPaddingHorizontal, @QueryParam("cq.dam.config.annotation.pdf.document.padding.vertical") Integer cqDamConfigAnnotationPdfDocumentPaddingVertical, @QueryParam("cq.dam.config.annotation.pdf.font.size") Integer cqDamConfigAnnotationPdfFontSize, @QueryParam("cq.dam.config.annotation.pdf.font.color") String cqDamConfigAnnotationPdfFontColor, @QueryParam("cq.dam.config.annotation.pdf.font.family") String cqDamConfigAnnotationPdfFontFamily, @QueryParam("cq.dam.config.annotation.pdf.font.light") String cqDamConfigAnnotationPdfFontLight, @QueryParam("cq.dam.config.annotation.pdf.marginTextImage") Integer cqDamConfigAnnotationPdfMarginTextImage, @QueryParam("cq.dam.config.annotation.pdf.minImageHeight") Integer cqDamConfigAnnotationPdfMinImageHeight, @QueryParam("cq.dam.config.annotation.pdf.reviewStatus.width") Integer cqDamConfigAnnotationPdfReviewStatusWidth, @QueryParam("cq.dam.config.annotation.pdf.reviewStatus.color.approved") String cqDamConfigAnnotationPdfReviewStatusColorApproved, @QueryParam("cq.dam.config.annotation.pdf.reviewStatus.color.rejected") String cqDamConfigAnnotationPdfReviewStatusColorRejected, @QueryParam("cq.dam.config.annotation.pdf.reviewStatus.color.changesRequested") String cqDamConfigAnnotationPdfReviewStatusColorChangesRequested, @QueryParam("cq.dam.config.annotation.pdf.annotationMarker.width") Integer cqDamConfigAnnotationPdfAnnotationMarkerWidth, @QueryParam("cq.dam.config.annotation.pdf.asset.minheight") Integer cqDamConfigAnnotationPdfAssetMinheight,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.AssetMoveListener")
+    @Path("/com.day.cq.dam.core.impl.AssetMoveListener")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplAssetMoveListenerInfo.class, authorizations = {
@@ -5507,7 +5508,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqDamCoreImplAssetMoveListener( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("enabled") Boolean enabled,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.assethome.AssetHomePageConfiguration")
+    @Path("/com.day.cq.dam.core.impl.assethome.AssetHomePageConfiguration")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplAssethomeAssetHomePageConfigurationInfo.class, authorizations = {
@@ -5521,7 +5522,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqDamCoreImplAssethomeAssetHomePageConfiguration( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("isEnabled") Boolean isEnabled,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.assetlinkshare.AdhocAssetShareProxyServlet")
+    @Path("/com.day.cq.dam.core.impl.assetlinkshare.AdhocAssetShareProxyServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplAssetlinkshareAdhocAssetShareProxyServletInfo.class, authorizations = {
@@ -5535,7 +5536,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqDamCoreImplAssetlinkshareAdhocAssetShareProxyServlet( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("cq.dam.adhoc.asset.share.prezip.maxcontentsize") Integer cqDamAdhocAssetSharePrezipMaxcontentsize,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.cache.CQBufferedImageCache")
+    @Path("/com.day.cq.dam.core.impl.cache.CQBufferedImageCache")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplCacheCQBufferedImageCacheInfo.class, authorizations = {
@@ -5549,7 +5550,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqDamCoreImplCacheCQBufferedImageCache( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("cq.dam.image.cache.max.memory") Integer cqDamImageCacheMaxMemory, @QueryParam("cq.dam.image.cache.max.age") Integer cqDamImageCacheMaxAge, @QueryParam("cq.dam.image.cache.max.dimension") String cqDamImageCacheMaxDimension,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.DamChangeEventListener")
+    @Path("/com.day.cq.dam.core.impl.DamChangeEventListener")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplDamChangeEventListenerInfo.class, authorizations = {
@@ -5563,7 +5564,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqDamCoreImplDamChangeEventListener( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("changeeventlistener.observed.paths") List<String> changeeventlistenerObservedPaths,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.DamEventPurgeService")
+    @Path("/com.day.cq.dam.core.impl.DamEventPurgeService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplDamEventPurgeServiceInfo.class, authorizations = {
@@ -5577,7 +5578,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqDamCoreImplDamEventPurgeService( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("scheduler.expression") String schedulerExpression, @QueryParam("maxSavedActivities") Integer maxSavedActivities, @QueryParam("saveInterval") Integer saveInterval, @QueryParam("enableActivityPurge") Boolean enableActivityPurge, @QueryParam("eventTypes") String eventTypes,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.DamEventRecorderImpl")
+    @Path("/com.day.cq.dam.core.impl.DamEventRecorderImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplDamEventRecorderImplInfo.class, authorizations = {
@@ -5591,7 +5592,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqDamCoreImplDamEventRecorderImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("event.filter") String eventFilter, @QueryParam("event.queue.length") Integer eventQueueLength, @QueryParam("eventrecorder.enabled") Boolean eventrecorderEnabled, @QueryParam("eventrecorder.blacklist") List<String> eventrecorderBlacklist, @QueryParam("eventrecorder.eventtypes") String eventrecorderEventtypes,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.event.DamEventAuditListener")
+    @Path("/com.day.cq.dam.core.impl.event.DamEventAuditListener")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplEventDamEventAuditListenerInfo.class, authorizations = {
@@ -5605,7 +5606,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqDamCoreImplEventDamEventAuditListener( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("event.filter") String eventFilter, @QueryParam("enabled") Boolean enabled,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.ExpiryNotificationJobImpl")
+    @Path("/com.day.cq.dam.core.impl.ExpiryNotificationJobImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplExpiryNotificationJobImplInfo.class, authorizations = {
@@ -5619,7 +5620,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqDamCoreImplExpiryNotificationJobImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("cq.dam.expiry.notification.scheduler.istimebased") Boolean cqDamExpiryNotificationSchedulerIstimebased, @QueryParam("cq.dam.expiry.notification.scheduler.timebased.rule") String cqDamExpiryNotificationSchedulerTimebasedRule, @QueryParam("cq.dam.expiry.notification.scheduler.period.rule") Integer cqDamExpiryNotificationSchedulerPeriodRule, @QueryParam("send_email") Boolean sendEmail, @QueryParam("asset_expired_limit") Integer assetExpiredLimit, @QueryParam("prior_notification_seconds") Integer priorNotificationSeconds, @QueryParam("cq.dam.expiry.notification.url.protocol") String cqDamExpiryNotificationUrlProtocol,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.foldermetadataschema.FolderMetadataSchemaFeatureFlag")
+    @Path("/com.day.cq.dam.core.impl.foldermetadataschema.FolderMetadataSchemaFeatureFlag")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatInfo.class, authorizations = {
@@ -5633,7 +5634,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeat( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("isEnabled") Boolean isEnabled,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.gfx.CommonsGfxRenderer")
+    @Path("/com.day.cq.dam.core.impl.gfx.CommonsGfxRenderer")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplGfxCommonsGfxRendererInfo.class, authorizations = {
@@ -5647,7 +5648,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqDamCoreImplGfxCommonsGfxRenderer( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("skip.bufferedcache") Boolean skipBufferedcache,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.handler.EPSFormatHandler")
+    @Path("/com.day.cq.dam.core.impl.handler.EPSFormatHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplHandlerEPSFormatHandlerInfo.class, authorizations = {
@@ -5661,7 +5662,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqDamCoreImplHandlerEPSFormatHandler( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("mimetype") String mimetype,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.handler.IndesignFormatHandler")
+    @Path("/com.day.cq.dam.core.impl.handler.IndesignFormatHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplHandlerIndesignFormatHandlerInfo.class, authorizations = {
@@ -5675,7 +5676,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqDamCoreImplHandlerIndesignFormatHandler( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("mimetype") List<String> mimetype,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.handler.JpegHandler")
+    @Path("/com.day.cq.dam.core.impl.handler.JpegHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplHandlerJpegHandlerInfo.class, authorizations = {
@@ -5689,7 +5690,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqDamCoreImplHandlerJpegHandler( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("cq.dam.enable.ext.meta.extraction") Boolean cqDamEnableExtMetaExtraction, @QueryParam("large_file_threshold") Integer largeFileThreshold, @QueryParam("large_comment_threshold") Integer largeCommentThreshold,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.handler.xmp.NCommXMPHandler")
+    @Path("/com.day.cq.dam.core.impl.handler.xmp.NCommXMPHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplHandlerXmpNCommXMPHandlerInfo.class, authorizations = {
@@ -5703,7 +5704,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqDamCoreImplHandlerXmpNCommXMPHandler( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("xmphandler.cq.formats") List<String> xmphandlerCqFormats,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.jmx.AssetIndexUpdateMonitor")
+    @Path("/com.day.cq.dam.core.impl.jmx.AssetIndexUpdateMonitor")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplJmxAssetIndexUpdateMonitorInfo.class, authorizations = {
@@ -5717,7 +5718,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqDamCoreImplJmxAssetIndexUpdateMonitor( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("jmx.objectname") String jmxObjectname, @QueryParam("property.measure.enabled") Boolean propertyMeasureEnabled, @QueryParam("property.name") String propertyName, @QueryParam("property.max.wait.ms") Integer propertyMaxWaitMs, @QueryParam("property.max.rate") BigDecimal propertyMaxRate, @QueryParam("fulltext.measure.enabled") Boolean fulltextMeasureEnabled, @QueryParam("fulltext.name") String fulltextName, @QueryParam("fulltext.max.wait.ms") Integer fulltextMaxWaitMs, @QueryParam("fulltext.max.rate") BigDecimal fulltextMaxRate,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.jmx.AssetMigrationMBeanImpl")
+    @Path("/com.day.cq.dam.core.impl.jmx.AssetMigrationMBeanImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplJmxAssetMigrationMBeanImplInfo.class, authorizations = {
@@ -5731,7 +5732,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqDamCoreImplJmxAssetMigrationMBeanImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("jmx.objectname") String jmxObjectname,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.jmx.AssetUpdateMonitorImpl")
+    @Path("/com.day.cq.dam.core.impl.jmx.AssetUpdateMonitorImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplJmxAssetUpdateMonitorImplInfo.class, authorizations = {
@@ -5745,7 +5746,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqDamCoreImplJmxAssetUpdateMonitorImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("jmx.objectname") String jmxObjectname, @QueryParam("active") Boolean active,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.jobs.metadataexport.AsyncMetadataExportConfigProviderService")
+    @Path("/com.day.cq.dam.core.impl.jobs.metadataexport.AsyncMetadataExportConfigProviderService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigInfo.class, authorizations = {
@@ -5759,7 +5760,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfig( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("operation") String operation, @QueryParam("emailEnabled") Boolean emailEnabled,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.jobs.metadataimport.AsyncMetadataImportConfigProviderService")
+    @Path("/com.day.cq.dam.core.impl.jobs.metadataimport.AsyncMetadataImportConfigProviderService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigInfo.class, authorizations = {
@@ -5773,7 +5774,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfig( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("operation") String operation, @QueryParam("operationIcon") String operationIcon, @QueryParam("topicName") String topicName, @QueryParam("emailEnabled") Boolean emailEnabled,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.lightbox.LightboxServlet")
+    @Path("/com.day.cq.dam.core.impl.lightbox.LightboxServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplLightboxLightboxServletInfo.class, authorizations = {
@@ -5787,7 +5788,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqDamCoreImplLightboxLightboxServlet( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("sling.servlet.paths") String slingServletPaths, @QueryParam("sling.servlet.methods") List<String> slingServletMethods, @QueryParam("cq.dam.enable.anonymous") Boolean cqDamEnableAnonymous,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.metadata.editor.SelectComponentHandler")
+    @Path("/com.day.cq.dam.core.impl.metadata.editor.SelectComponentHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplMetadataEditorSelectComponentHandlerInfo.class, authorizations = {
@@ -5799,9 +5800,9 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 302, message = "Default response", response = String.class),
         
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
-    public Response comDayCqDamCoreImplMetadataEditorSelectComponentHandler( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("granite:data") List<String> graniteColonData,@Context SecurityContext securityContext);
+    public Response comDayCqDamCoreImplMetadataEditorSelectComponentHandler( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("granite:data") List<String> graniteData,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.mimeType.AssetUploadRestrictionHelper")
+    @Path("/com.day.cq.dam.core.impl.mimeType.AssetUploadRestrictionHelper")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplMimeTypeAssetUploadRestrictionHelperInfo.class, authorizations = {
@@ -5815,7 +5816,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqDamCoreImplMimeTypeAssetUploadRestrictionHelper( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("cq.dam.allow.all.mime") Boolean cqDamAllowAllMime, @QueryParam("cq.dam.allowed.asset.mimes") List<String> cqDamAllowedAssetMimes,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.mimeType.DamMimeTypeServiceImpl")
+    @Path("/com.day.cq.dam.core.impl.mimeType.DamMimeTypeServiceImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplMimeTypeDamMimeTypeServiceImplInfo.class, authorizations = {
@@ -5829,7 +5830,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqDamCoreImplMimeTypeDamMimeTypeServiceImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("cq.dam.detect.asset.mime.from.content") Boolean cqDamDetectAssetMimeFromContent,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.MissingMetadataNotificationJob")
+    @Path("/com.day.cq.dam.core.impl.MissingMetadataNotificationJob")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplMissingMetadataNotificationJobInfo.class, authorizations = {
@@ -5843,7 +5844,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqDamCoreImplMissingMetadataNotificationJob( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("cq.dam.missingmetadata.notification.scheduler.istimebased") Boolean cqDamMissingmetadataNotificationSchedulerIstimebased, @QueryParam("cq.dam.missingmetadata.notification.scheduler.timebased.rule") String cqDamMissingmetadataNotificationSchedulerTimebasedRule, @QueryParam("cq.dam.missingmetadata.notification.scheduler.period.rule") Integer cqDamMissingmetadataNotificationSchedulerPeriodRule, @QueryParam("cq.dam.missingmetadata.notification.recipient") String cqDamMissingmetadataNotificationRecipient,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.process.SendTransientWorkflowCompletedEmailProcess")
+    @Path("/com.day.cq.dam.core.impl.process.SendTransientWorkflowCompletedEmailProcess")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrInfo.class, authorizations = {
@@ -5857,7 +5858,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPr( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("process.label") String processLabel, @QueryParam("Notify on Complete") Boolean notifyOnComplete,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.process.TextExtractionProcess")
+    @Path("/com.day.cq.dam.core.impl.process.TextExtractionProcess")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplProcessTextExtractionProcessInfo.class, authorizations = {
@@ -5871,7 +5872,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqDamCoreImplProcessTextExtractionProcess( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("mimeTypes") List<String> mimeTypes, @QueryParam("maxExtract") Integer maxExtract,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.RenditionMakerImpl")
+    @Path("/com.day.cq.dam.core.impl.RenditionMakerImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplRenditionMakerImplInfo.class, authorizations = {
@@ -5885,7 +5886,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqDamCoreImplRenditionMakerImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("xmp.propagate") Boolean xmpPropagate, @QueryParam("xmp.excludes") List<String> xmpExcludes,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.reports.ReportExportService")
+    @Path("/com.day.cq.dam.core.impl.reports.ReportExportService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplReportsReportExportServiceInfo.class, authorizations = {
@@ -5899,7 +5900,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqDamCoreImplReportsReportExportService( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("queryBatchSize") Integer queryBatchSize,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.reports.ReportPurgeService")
+    @Path("/com.day.cq.dam.core.impl.reports.ReportPurgeService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplReportsReportPurgeServiceInfo.class, authorizations = {
@@ -5913,7 +5914,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqDamCoreImplReportsReportPurgeService( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("scheduler.expression") String schedulerExpression, @QueryParam("maxSavedReports") Integer maxSavedReports, @QueryParam("timeDuration") Integer timeDuration, @QueryParam("enableReportPurge") Boolean enableReportPurge,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.servlet.AssetDownloadServlet")
+    @Path("/com.day.cq.dam.core.impl.servlet.AssetDownloadServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplServletAssetDownloadServletInfo.class, authorizations = {
@@ -5927,7 +5928,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqDamCoreImplServletAssetDownloadServlet( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("enabled") Boolean enabled,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.servlet.AssetStatusServlet")
+    @Path("/com.day.cq.dam.core.impl.servlet.AssetStatusServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplServletAssetStatusServletInfo.class, authorizations = {
@@ -5941,7 +5942,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqDamCoreImplServletAssetStatusServlet( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("cq.dam.batch.status.maxassets") Integer cqDamBatchStatusMaxassets,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.servlet.AssetXMPSearchServlet")
+    @Path("/com.day.cq.dam.core.impl.servlet.AssetXMPSearchServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplServletAssetXMPSearchServletInfo.class, authorizations = {
@@ -5955,7 +5956,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqDamCoreImplServletAssetXMPSearchServlet( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("cq.dam.batch.indesign.maxassets") Integer cqDamBatchIndesignMaxassets,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.servlet.BatchMetadataServlet")
+    @Path("/com.day.cq.dam.core.impl.servlet.BatchMetadataServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplServletBatchMetadataServletInfo.class, authorizations = {
@@ -5969,7 +5970,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqDamCoreImplServletBatchMetadataServlet( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("cq.dam.batch.metadata.asset.default") List<String> cqDamBatchMetadataAssetDefault, @QueryParam("cq.dam.batch.metadata.collection.default") List<String> cqDamBatchMetadataCollectionDefault, @QueryParam("cq.dam.batch.metadata.maxresources") Integer cqDamBatchMetadataMaxresources,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.servlet.BinaryProviderServlet")
+    @Path("/com.day.cq.dam.core.impl.servlet.BinaryProviderServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplServletBinaryProviderServletInfo.class, authorizations = {
@@ -5983,7 +5984,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqDamCoreImplServletBinaryProviderServlet( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("sling.servlet.resourceTypes") List<String> slingServletResourceTypes, @QueryParam("sling.servlet.methods") List<String> slingServletMethods, @QueryParam("cq.dam.drm.enable") Boolean cqDamDrmEnable,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.servlet.CollectionServlet")
+    @Path("/com.day.cq.dam.core.impl.servlet.CollectionServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplServletCollectionServletInfo.class, authorizations = {
@@ -5997,7 +5998,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqDamCoreImplServletCollectionServlet( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("cq.dam.batch.collection.properties") List<String> cqDamBatchCollectionProperties, @QueryParam("cq.dam.batch.collection.maxcollections") Integer cqDamBatchCollectionMaxcollections,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.servlet.CollectionsServlet")
+    @Path("/com.day.cq.dam.core.impl.servlet.CollectionsServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplServletCollectionsServletInfo.class, authorizations = {
@@ -6011,7 +6012,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqDamCoreImplServletCollectionsServlet( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("cq.dam.batch.collections.properties") List<String> cqDamBatchCollectionsProperties, @QueryParam("cq.dam.batch.collections.limit") Integer cqDamBatchCollectionsLimit,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.servlet.CompanionServlet")
+    @Path("/com.day.cq.dam.core.impl.servlet.CompanionServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplServletCompanionServletInfo.class, authorizations = {
@@ -6023,9 +6024,9 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 302, message = "Default response", response = String.class),
         
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
-    public Response comDayCqDamCoreImplServletCompanionServlet( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("More Info") String moreInfo, @QueryParam("/mnt/overlay/dam/gui/content/assets/moreinfo.html/${path}") String slashMntSlashOverlaySlashDamSlashGuiSlashContentSlashAssetsSlashMoreinfoHtmlSlash$LeftCurlyBracketPathRightCurlyBracket,@Context SecurityContext securityContext);
+    public Response comDayCqDamCoreImplServletCompanionServlet( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("More Info") String moreInfo, @QueryParam("/mnt/overlay/dam/gui/content/assets/moreinfo.html/${path}") String mntOverlayDamGuiContentAssetsMoreinfoHtml$LeftCurlyBracketPathRightCurlyBracket,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.servlet.CreateAssetServlet")
+    @Path("/com.day.cq.dam.core.impl.servlet.CreateAssetServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplServletCreateAssetServletInfo.class, authorizations = {
@@ -6039,7 +6040,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqDamCoreImplServletCreateAssetServlet( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("detect_duplicate") Boolean detectDuplicate,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.servlet.DamContentDispositionFilter")
+    @Path("/com.day.cq.dam.core.impl.servlet.DamContentDispositionFilter")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplServletDamContentDispositionFilterInfo.class, authorizations = {
@@ -6053,7 +6054,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqDamCoreImplServletDamContentDispositionFilter( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("cq.mime.type.blacklist") List<String> cqMimeTypeBlacklist, @QueryParam("cq.dam.empty.mime") Boolean cqDamEmptyMime,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.servlet.GuidLookupFilter")
+    @Path("/com.day.cq.dam.core.impl.servlet.GuidLookupFilter")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplServletGuidLookupFilterInfo.class, authorizations = {
@@ -6067,7 +6068,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqDamCoreImplServletGuidLookupFilter( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("cq.dam.core.guidlookupfilter.enabled") Boolean cqDamCoreGuidlookupfilterEnabled,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.servlet.HealthCheckServlet")
+    @Path("/com.day.cq.dam.core.impl.servlet.HealthCheckServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplServletHealthCheckServletInfo.class, authorizations = {
@@ -6081,7 +6082,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqDamCoreImplServletHealthCheckServlet( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("cq.dam.sync.workflow.id") String cqDamSyncWorkflowId, @QueryParam("cq.dam.sync.folder.types") List<String> cqDamSyncFolderTypes,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.servlet.MetadataGetServlet")
+    @Path("/com.day.cq.dam.core.impl.servlet.MetadataGetServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplServletMetadataGetServletInfo.class, authorizations = {
@@ -6095,7 +6096,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqDamCoreImplServletMetadataGetServlet( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("sling.servlet.resourceTypes") String slingServletResourceTypes, @QueryParam("sling.servlet.methods") String slingServletMethods, @QueryParam("sling.servlet.extensions") String slingServletExtensions, @QueryParam("sling.servlet.selectors") String slingServletSelectors,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.servlet.MultipleLicenseAcceptServlet")
+    @Path("/com.day.cq.dam.core.impl.servlet.MultipleLicenseAcceptServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplServletMultipleLicenseAcceptServletInfo.class, authorizations = {
@@ -6109,7 +6110,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqDamCoreImplServletMultipleLicenseAcceptServlet( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("cq.dam.drm.enable") Boolean cqDamDrmEnable,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.servlet.ResourceCollectionServlet")
+    @Path("/com.day.cq.dam.core.impl.servlet.ResourceCollectionServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplServletResourceCollectionServletInfo.class, authorizations = {
@@ -6123,7 +6124,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqDamCoreImplServletResourceCollectionServlet( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("sling.servlet.resourceTypes") List<String> slingServletResourceTypes, @QueryParam("sling.servlet.methods") String slingServletMethods, @QueryParam("sling.servlet.selectors") String slingServletSelectors, @QueryParam("download.config") String downloadConfig, @QueryParam("view.selector") String viewSelector, @QueryParam("send_email") Boolean sendEmail,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.ui.preview.FolderPreviewUpdaterImpl")
+    @Path("/com.day.cq.dam.core.impl.ui.preview.FolderPreviewUpdaterImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplUiPreviewFolderPreviewUpdaterImplInfo.class, authorizations = {
@@ -6137,7 +6138,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqDamCoreImplUiPreviewFolderPreviewUpdaterImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("createPreviewEnabled") Boolean createPreviewEnabled, @QueryParam("updatePreviewEnabled") Boolean updatePreviewEnabled, @QueryParam("queueSize") Integer queueSize, @QueryParam("folderPreviewRenditionRegex") String folderPreviewRenditionRegex,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.unzip.UnzipConfig")
+    @Path("/com.day.cq.dam.core.impl.unzip.UnzipConfig")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplUnzipUnzipConfigInfo.class, authorizations = {
@@ -6151,7 +6152,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqDamCoreImplUnzipUnzipConfig( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("cq.dam.config.unzip.maxuncompressedsize") Integer cqDamConfigUnzipMaxuncompressedsize, @QueryParam("cq.dam.config.unzip.encoding") String cqDamConfigUnzipEncoding,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.process.ExifToolExtractMetadataProcess")
+    @Path("/com.day.cq.dam.core.process.ExifToolExtractMetadataProcess")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreProcessExifToolExtractMetadataProcessInfo.class, authorizations = {
@@ -6165,7 +6166,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqDamCoreProcessExifToolExtractMetadataProcess( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("process.label") String processLabel, @QueryParam("cq.dam.enable.sha1") Boolean cqDamEnableSha1,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.process.ExtractMetadataProcess")
+    @Path("/com.day.cq.dam.core.process.ExtractMetadataProcess")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreProcessExtractMetadataProcessInfo.class, authorizations = {
@@ -6179,7 +6180,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqDamCoreProcessExtractMetadataProcess( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("process.label") String processLabel, @QueryParam("cq.dam.enable.sha1") Boolean cqDamEnableSha1,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.process.MetadataProcessorProcess")
+    @Path("/com.day.cq.dam.core.process.MetadataProcessorProcess")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreProcessMetadataProcessorProcessInfo.class, authorizations = {
@@ -6193,7 +6194,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqDamCoreProcessMetadataProcessorProcess( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("process.label") String processLabel, @QueryParam("cq.dam.enable.sha1") Boolean cqDamEnableSha1, @QueryParam("cq.dam.metadata.xssprotected.properties") List<String> cqDamMetadataXssprotectedProperties,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.handler.ffmpeg.LocatorImpl")
+    @Path("/com.day.cq.dam.handler.ffmpeg.LocatorImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamHandlerFfmpegLocatorImplInfo.class, authorizations = {
@@ -6207,7 +6208,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqDamHandlerFfmpegLocatorImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("executable.searchpath") List<String> executableSearchpath,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.handler.gibson.fontmanager.impl.FontManagerServiceImpl")
+    @Path("/com.day.cq.dam.handler.gibson.fontmanager.impl.FontManagerServiceImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamHandlerGibsonFontmanagerImplFontManagerServiceImplInfo.class, authorizations = {
@@ -6221,7 +6222,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqDamHandlerGibsonFontmanagerImplFontManagerServiceImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("event.filter") String eventFilter, @QueryParam("fontmgr.system.font.dir") List<String> fontmgrSystemFontDir, @QueryParam("fontmgr.adobe.font.dir") String fontmgrAdobeFontDir, @QueryParam("fontmgr.customer.font.dir") String fontmgrCustomerFontDir,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.handler.standard.pdf.PdfHandler")
+    @Path("/com.day.cq.dam.handler.standard.pdf.PdfHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamHandlerStandardPdfPdfHandlerInfo.class, authorizations = {
@@ -6235,7 +6236,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqDamHandlerStandardPdfPdfHandler( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("raster.annotation") Boolean rasterAnnotation,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.handler.standard.ps.PostScriptHandler")
+    @Path("/com.day.cq.dam.handler.standard.ps.PostScriptHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamHandlerStandardPsPostScriptHandlerInfo.class, authorizations = {
@@ -6249,7 +6250,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqDamHandlerStandardPsPostScriptHandler( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("raster.annotation") Boolean rasterAnnotation,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.handler.standard.psd.PsdHandler")
+    @Path("/com.day.cq.dam.handler.standard.psd.PsdHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamHandlerStandardPsdPsdHandlerInfo.class, authorizations = {
@@ -6263,7 +6264,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqDamHandlerStandardPsdPsdHandler( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("large_file_threshold") Integer largeFileThreshold,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.ids.impl.IDSJobProcessor")
+    @Path("/com.day.cq.dam.ids.impl.IDSJobProcessor")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamIdsImplIDSJobProcessorInfo.class, authorizations = {
@@ -6277,7 +6278,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqDamIdsImplIDSJobProcessor( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("enable.multisession") Boolean enableMultisession, @QueryParam("ids.cc.enable") Boolean idsCcEnable, @QueryParam("enable.retry") Boolean enableRetry, @QueryParam("enable.retry.scripterror") Boolean enableRetryScripterror, @QueryParam("externalizer.domain.cqhost") String externalizerDomainCqhost, @QueryParam("externalizer.domain.http") String externalizerDomainHttp,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.ids.impl.IDSPoolManagerImpl")
+    @Path("/com.day.cq.dam.ids.impl.IDSPoolManagerImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamIdsImplIDSPoolManagerImplInfo.class, authorizations = {
@@ -6291,7 +6292,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqDamIdsImplIDSPoolManagerImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("max.errors.to.blacklist") Integer maxErrorsToBlacklist, @QueryParam("retry.interval.to.whitelist") Integer retryIntervalToWhitelist, @QueryParam("connect.timeout") Integer connectTimeout, @QueryParam("socket.timeout") Integer socketTimeout, @QueryParam("process.label") String processLabel, @QueryParam("connection.use.max") Integer connectionUseMax,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.indd.impl.handler.IndesignXMPHandler")
+    @Path("/com.day.cq.dam.indd.impl.handler.IndesignXMPHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamInddImplHandlerIndesignXMPHandlerInfo.class, authorizations = {
@@ -6305,7 +6306,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqDamInddImplHandlerIndesignXMPHandler( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("process.label") String processLabel, @QueryParam("extract.pages") Boolean extractPages,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.indd.impl.servlet.SnippetCreationServlet")
+    @Path("/com.day.cq.dam.indd.impl.servlet.SnippetCreationServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamInddImplServletSnippetCreationServletInfo.class, authorizations = {
@@ -6319,7 +6320,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqDamInddImplServletSnippetCreationServlet( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("snippetcreation.maxcollections") Integer snippetcreationMaxcollections,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.indd.process.INDDMediaExtractProcess")
+    @Path("/com.day.cq.dam.indd.process.INDDMediaExtractProcess")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamInddProcessINDDMediaExtractProcessInfo.class, authorizations = {
@@ -6333,7 +6334,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqDamInddProcessINDDMediaExtractProcess( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("process.label") String processLabel, @QueryParam("cq.dam.indd.pages.regex") String cqDamInddPagesRegex, @QueryParam("ids.job.decoupled") Boolean idsJobDecoupled, @QueryParam("ids.job.workflow.model") String idsJobWorkflowModel,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.performance.internal.AssetPerformanceDataHandlerImpl")
+    @Path("/com.day.cq.dam.performance.internal.AssetPerformanceDataHandlerImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamPerformanceInternalAssetPerformanceDataHandlerImplInfo.class, authorizations = {
@@ -6347,7 +6348,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqDamPerformanceInternalAssetPerformanceDataHandlerImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("batch.commit.size") Integer batchCommitSize,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.performance.internal.AssetPerformanceReportSyncJob")
+    @Path("/com.day.cq.dam.performance.internal.AssetPerformanceReportSyncJob")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamPerformanceInternalAssetPerformanceReportSyncJobInfo.class, authorizations = {
@@ -6361,7 +6362,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqDamPerformanceInternalAssetPerformanceReportSyncJob( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("scheduler.expression") String schedulerExpression,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.pim.impl.sourcing.upload.process.ProductAssetsUploadProcess")
+    @Path("/com.day.cq.dam.pim.impl.sourcing.upload.process.ProductAssetsUploadProcess")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProInfo.class, authorizations = {
@@ -6375,7 +6376,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqDamPimImplSourcingUploadProcessProductAssetsUploadPro( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("delete.zip.file") Boolean deleteZipFile,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.s7dam.common.analytics.impl.S7damDynamicMediaConfigEventListener")
+    @Path("/com.day.cq.dam.s7dam.common.analytics.impl.S7damDynamicMediaConfigEventListener")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenInfo.class, authorizations = {
@@ -6389,7 +6390,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEven( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("cq.dam.s7dam.dynamicmediaconfigeventlistener.enabled") Boolean cqDamS7damDynamicmediaconfigeventlistenerEnabled,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.s7dam.common.analytics.impl.SiteCatalystReportRunner")
+    @Path("/com.day.cq.dam.s7dam.common.analytics.impl.SiteCatalystReportRunner")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerInfo.class, authorizations = {
@@ -6403,7 +6404,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunner( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("scheduler.expression") String schedulerExpression, @QueryParam("scheduler.concurrent") Boolean schedulerConcurrent,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.s7dam.common.post.servlets.SetCreateHandler")
+    @Path("/com.day.cq.dam.s7dam.common.post.servlets.SetCreateHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamS7damCommonPostServletsSetCreateHandlerInfo.class, authorizations = {
@@ -6417,7 +6418,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqDamS7damCommonPostServletsSetCreateHandler( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("sling.post.operation") String slingPostOperation, @QueryParam("sling.servlet.methods") String slingServletMethods,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.s7dam.common.post.servlets.SetModifyHandler")
+    @Path("/com.day.cq.dam.s7dam.common.post.servlets.SetModifyHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamS7damCommonPostServletsSetModifyHandlerInfo.class, authorizations = {
@@ -6431,7 +6432,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqDamS7damCommonPostServletsSetModifyHandler( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("sling.post.operation") String slingPostOperation, @QueryParam("sling.servlet.methods") String slingServletMethods,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.s7dam.common.process.VideoThumbnailDownloadProcess")
+    @Path("/com.day.cq.dam.s7dam.common.process.VideoThumbnailDownloadProcess")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamS7damCommonProcessVideoThumbnailDownloadProcessInfo.class, authorizations = {
@@ -6445,7 +6446,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqDamS7damCommonProcessVideoThumbnailDownloadProcess( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("process.label") String processLabel,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.s7dam.common.S7damDamChangeEventListener")
+    @Path("/com.day.cq.dam.s7dam.common.S7damDamChangeEventListener")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamS7damCommonS7damDamChangeEventListenerInfo.class, authorizations = {
@@ -6459,7 +6460,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqDamS7damCommonS7damDamChangeEventListener( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("cq.dam.s7dam.damchangeeventlistener.enabled") Boolean cqDamS7damDamchangeeventlistenerEnabled,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.s7dam.common.servlets.S7damProductInfoServlet")
+    @Path("/com.day.cq.dam.s7dam.common.servlets.S7damProductInfoServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamS7damCommonServletsS7damProductInfoServletInfo.class, authorizations = {
@@ -6473,7 +6474,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqDamS7damCommonServletsS7damProductInfoServlet( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("sling.servlet.paths") String slingServletPaths, @QueryParam("sling.servlet.methods") String slingServletMethods,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.s7dam.common.video.impl.VideoProxyClientServiceImpl")
+    @Path("/com.day.cq.dam.s7dam.common.video.impl.VideoProxyClientServiceImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplInfo.class, authorizations = {
@@ -6487,7 +6488,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqDamS7damCommonVideoImplVideoProxyClientServiceImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("cq.dam.s7dam.videoproxyclientservice.multipartupload.minsize.name") Integer cqDamS7damVideoproxyclientserviceMultipartuploadMinsizeName, @QueryParam("cq.dam.s7dam.videoproxyclientservice.multipartupload.partsize.name") Integer cqDamS7damVideoproxyclientserviceMultipartuploadPartsizeName, @QueryParam("cq.dam.s7dam.videoproxyclientservice.multipartupload.numthread.name") Integer cqDamS7damVideoproxyclientserviceMultipartuploadNumthreadName, @QueryParam("cq.dam.s7dam.videoproxyclientservice.http.readtimeout.name") Integer cqDamS7damVideoproxyclientserviceHttpReadtimeoutName, @QueryParam("cq.dam.s7dam.videoproxyclientservice.http.connectiontimeout.name") Integer cqDamS7damVideoproxyclientserviceHttpConnectiontimeoutName, @QueryParam("cq.dam.s7dam.videoproxyclientservice.http.maxretrycount.name") Integer cqDamS7damVideoproxyclientserviceHttpMaxretrycountName, @QueryParam("cq.dam.s7dam.videoproxyclientservice.uploadprogress.interval.name") Integer cqDamS7damVideoproxyclientserviceUploadprogressIntervalName,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.scene7.impl.Scene7APIClientImpl")
+    @Path("/com.day.cq.dam.scene7.impl.Scene7APIClientImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamScene7ImplScene7APIClientImplInfo.class, authorizations = {
@@ -6501,7 +6502,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqDamScene7ImplScene7APIClientImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("cq.dam.scene7.apiclient.recordsperpage.nofilter.name") Integer cqDamScene7ApiclientRecordsperpageNofilterName, @QueryParam("cq.dam.scene7.apiclient.recordsperpage.withfilter.name") Integer cqDamScene7ApiclientRecordsperpageWithfilterName,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.scene7.impl.Scene7AssetMimeTypeServiceImpl")
+    @Path("/com.day.cq.dam.scene7.impl.Scene7AssetMimeTypeServiceImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamScene7ImplScene7AssetMimeTypeServiceImplInfo.class, authorizations = {
@@ -6515,7 +6516,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqDamScene7ImplScene7AssetMimeTypeServiceImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("cq.dam.scene7.assetmimetypeservice.mapping") List<String> cqDamScene7AssetmimetypeserviceMapping,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.scene7.impl.Scene7ConfigurationEventListener")
+    @Path("/com.day.cq.dam.scene7.impl.Scene7ConfigurationEventListener")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamScene7ImplScene7ConfigurationEventListenerInfo.class, authorizations = {
@@ -6529,7 +6530,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqDamScene7ImplScene7ConfigurationEventListener( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("cq.dam.scene7.configurationeventlistener.enabled") Boolean cqDamScene7ConfigurationeventlistenerEnabled,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.scene7.impl.Scene7DamChangeEventListener")
+    @Path("/com.day.cq.dam.scene7.impl.Scene7DamChangeEventListener")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamScene7ImplScene7DamChangeEventListenerInfo.class, authorizations = {
@@ -6543,7 +6544,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqDamScene7ImplScene7DamChangeEventListener( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("cq.dam.scene7.damchangeeventlistener.enabled") Boolean cqDamScene7DamchangeeventlistenerEnabled, @QueryParam("cq.dam.scene7.damchangeeventlistener.observed.paths") List<String> cqDamScene7DamchangeeventlistenerObservedPaths,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.scene7.impl.Scene7FlashTemplatesServiceImpl")
+    @Path("/com.day.cq.dam.scene7.impl.Scene7FlashTemplatesServiceImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamScene7ImplScene7FlashTemplatesServiceImplInfo.class, authorizations = {
@@ -6557,7 +6558,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqDamScene7ImplScene7FlashTemplatesServiceImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("scene7FlashTemplates.rti") String scene7FlashTemplatesRti, @QueryParam("scene7FlashTemplates.rsi") String scene7FlashTemplatesRsi, @QueryParam("scene7FlashTemplates.rb") String scene7FlashTemplatesRb, @QueryParam("scene7FlashTemplates.rurl") String scene7FlashTemplatesRurl, @QueryParam("scene7FlashTemplate.urlFormatParameter") String scene7FlashTemplateUrlFormatParameter,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.scene7.impl.Scene7UploadServiceImpl")
+    @Path("/com.day.cq.dam.scene7.impl.Scene7UploadServiceImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamScene7ImplScene7UploadServiceImplInfo.class, authorizations = {
@@ -6571,7 +6572,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqDamScene7ImplScene7UploadServiceImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("cq.dam.scene7.uploadservice.activejobtimeout.label") Integer cqDamScene7UploadserviceActivejobtimeoutLabel, @QueryParam("cq.dam.scene7.uploadservice.connectionmaxperroute.label") Integer cqDamScene7UploadserviceConnectionmaxperrouteLabel,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.stock.integration.impl.cache.StockCacheConfigurationServiceImpl")
+    @Path("/com.day.cq.dam.stock.integration.impl.cache.StockCacheConfigurationServiceImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationSerInfo.class, authorizations = {
@@ -6585,7 +6586,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqDamStockIntegrationImplCacheStockCacheConfigurationSer( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("getCacheExpirationUnit") String getCacheExpirationUnit, @QueryParam("getCacheExpirationValue") Integer getCacheExpirationValue,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.stock.integration.impl.configuration.StockConfigurationImpl")
+    @Path("/com.day.cq.dam.stock.integration.impl.configuration.StockConfigurationImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamStockIntegrationImplConfigurationStockConfigurationInfo.class, authorizations = {
@@ -6599,7 +6600,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqDamStockIntegrationImplConfigurationStockConfiguration( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("name") String name, @QueryParam("locale") String locale, @QueryParam("imsConfig") String imsConfig,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.video.impl.servlet.VideoTestServlet")
+    @Path("/com.day.cq.dam.video.impl.servlet.VideoTestServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamVideoImplServletVideoTestServletInfo.class, authorizations = {
@@ -6613,7 +6614,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqDamVideoImplServletVideoTestServlet( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("enabled") Boolean enabled,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.extwidget.servlets.ImageSpriteServlet")
+    @Path("/com.day.cq.extwidget.servlets.ImageSpriteServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqExtwidgetServletsImageSpriteServletInfo.class, authorizations = {
@@ -6627,7 +6628,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqExtwidgetServletsImageSpriteServlet( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("maxWidth") Integer maxWidth, @QueryParam("maxHeight") Integer maxHeight,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.image.internal.font.FontHelper")
+    @Path("/com.day.cq.image.internal.font.FontHelper")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqImageInternalFontFontHelperInfo.class, authorizations = {
@@ -6641,7 +6642,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqImageInternalFontFontHelper( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("fontpath") List<String> fontpath, @QueryParam("oversamplingFactor") Integer oversamplingFactor,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.jcrclustersupport.ClusterStartLevelController")
+    @Path("/com.day.cq.jcrclustersupport.ClusterStartLevelController")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqJcrclustersupportClusterStartLevelControllerInfo.class, authorizations = {
@@ -6655,7 +6656,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqJcrclustersupportClusterStartLevelController( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("cluster.level.enable") Boolean clusterLevelEnable, @QueryParam("cluster.master.level") Integer clusterMasterLevel, @QueryParam("cluster.slave.level") Integer clusterSlaveLevel,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.mailer.DefaultMailService")
+    @Path("/com.day.cq.mailer.DefaultMailService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqMailerDefaultMailServiceInfo.class, authorizations = {
@@ -6669,7 +6670,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqMailerDefaultMailService( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("smtp.host") String smtpHost, @QueryParam("smtp.port") Integer smtpPort, @QueryParam("smtp.user") String smtpUser, @QueryParam("smtp.password") String smtpPassword, @QueryParam("from.address") String fromAddress, @QueryParam("smtp.ssl") Boolean smtpSsl, @QueryParam("smtp.starttls") Boolean smtpStarttls, @QueryParam("debug.email") Boolean debugEmail,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.mailer.impl.CqMailingService")
+    @Path("/com.day.cq.mailer.impl.CqMailingService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqMailerImplCqMailingServiceInfo.class, authorizations = {
@@ -6683,7 +6684,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqMailerImplCqMailingService( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("max.recipient.count") String maxRecipientCount,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.mailer.impl.email.CqEmailTemplateFactory")
+    @Path("/com.day.cq.mailer.impl.email.CqEmailTemplateFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqMailerImplEmailCqEmailTemplateFactoryInfo.class, authorizations = {
@@ -6697,7 +6698,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqMailerImplEmailCqEmailTemplateFactory( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("mailer.email.charset") String mailerEmailCharset,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.mailer.impl.email.CqRetrieverTemplateFactory")
+    @Path("/com.day.cq.mailer.impl.email.CqRetrieverTemplateFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqMailerImplEmailCqRetrieverTemplateFactoryInfo.class, authorizations = {
@@ -6711,7 +6712,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqMailerImplEmailCqRetrieverTemplateFactory( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("mailer.email.embed") Boolean mailerEmailEmbed, @QueryParam("mailer.email.charset") String mailerEmailCharset, @QueryParam("mailer.email.retrieverUserID") String mailerEmailRetrieverUserID, @QueryParam("mailer.email.retrieverUserPWD") String mailerEmailRetrieverUserPWD,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.mcm.campaign.impl.IntegrationConfigImpl")
+    @Path("/com.day.cq.mcm.campaign.impl.IntegrationConfigImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqMcmCampaignImplIntegrationConfigImplInfo.class, authorizations = {
@@ -6725,7 +6726,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqMcmCampaignImplIntegrationConfigImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("aem.mcm.campaign.formConstraints") List<String> aemMcmCampaignFormConstraints, @QueryParam("aem.mcm.campaign.publicUrl") String aemMcmCampaignPublicUrl, @QueryParam("aem.mcm.campaign.relaxedSSL") Boolean aemMcmCampaignRelaxedSSL,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.mcm.campaign.importer.PersonalizedTextHandlerFactory")
+    @Path("/com.day.cq.mcm.campaign.importer.PersonalizedTextHandlerFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqMcmCampaignImporterPersonalizedTextHandlerFactoryInfo.class, authorizations = {
@@ -6739,7 +6740,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqMcmCampaignImporterPersonalizedTextHandlerFactory( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("service.ranking") Integer serviceRanking, @QueryParam("tagpattern") String tagpattern,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.mcm.core.newsletter.NewsletterEmailServiceImpl")
+    @Path("/com.day.cq.mcm.core.newsletter.NewsletterEmailServiceImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqMcmCoreNewsletterNewsletterEmailServiceImplInfo.class, authorizations = {
@@ -6753,7 +6754,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqMcmCoreNewsletterNewsletterEmailServiceImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("from.address") String fromAddress, @QueryParam("sender.host") String senderHost, @QueryParam("max.bounce.count") String maxBounceCount,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.mcm.impl.MCMConfiguration")
+    @Path("/com.day.cq.mcm.impl.MCMConfiguration")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqMcmImplMCMConfigurationInfo.class, authorizations = {
@@ -6767,7 +6768,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqMcmImplMCMConfiguration( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("experience.indirection") List<String> experienceIndirection, @QueryParam("touchpoint.indirection") List<String> touchpointIndirection,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.mcm.landingpage.parser.taghandlers.cta.ClickThroughComponentTagHandlerFactory")
+    @Path("/com.day.cq.mcm.landingpage.parser.taghandlers.cta.ClickThroughComponentTagHandlerFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponenInfo.class, authorizations = {
@@ -6781,7 +6782,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponen( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("service.ranking") Integer serviceRanking, @QueryParam("tagpattern") String tagpattern, @QueryParam("component.resourceType") String componentResourceType,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.mcm.landingpage.parser.taghandlers.cta.GraphicalClickThroughComponentTagHandlerFactory")
+    @Path("/com.day.cq.mcm.landingpage.parser.taghandlers.cta.GraphicalClickThroughComponentTagHandlerFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThrougInfo.class, authorizations = {
@@ -6795,7 +6796,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThroug( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("service.ranking") Integer serviceRanking, @QueryParam("tagpattern") String tagpattern, @QueryParam("component.resourceType") String componentResourceType,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.mcm.landingpage.parser.taghandlers.cta.LeadFormCTAComponentTagHandlerFactory")
+    @Path("/com.day.cq.mcm.landingpage.parser.taghandlers.cta.LeadFormCTAComponentTagHandlerFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentInfo.class, authorizations = {
@@ -6809,7 +6810,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponent( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("service.ranking") Integer serviceRanking, @QueryParam("tagpattern") String tagpattern,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.mcm.landingpage.parser.taghandlers.mbox.MBoxExperienceTagHandlerFactory")
+    @Path("/com.day.cq.mcm.landingpage.parser.taghandlers.mbox.MBoxExperienceTagHandlerFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHaInfo.class, authorizations = {
@@ -6823,7 +6824,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHa( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("service.ranking") Integer serviceRanking, @QueryParam("tagpattern") String tagpattern,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.mcm.landingpage.parser.taghandlers.mbox.TargetComponentTagHandlerFactory")
+    @Path("/com.day.cq.mcm.landingpage.parser.taghandlers.mbox.TargetComponentTagHandlerFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHInfo.class, authorizations = {
@@ -6837,7 +6838,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagH( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("service.ranking") Integer serviceRanking, @QueryParam("tagpattern") String tagpattern, @QueryParam("component.resourceType") String componentResourceType,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.notification.impl.NotificationServiceImpl")
+    @Path("/com.day.cq.notification.impl.NotificationServiceImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqNotificationImplNotificationServiceImplInfo.class, authorizations = {
@@ -6851,7 +6852,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqNotificationImplNotificationServiceImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("event.filter") String eventFilter,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.personalization.impl.servlets.TargetingConfigurationServlet")
+    @Path("/com.day.cq.personalization.impl.servlets.TargetingConfigurationServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqPersonalizationImplServletsTargetingConfigurationServletInfo.class, authorizations = {
@@ -6865,7 +6866,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqPersonalizationImplServletsTargetingConfigurationServlet( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("forcelocation") Boolean forcelocation,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.polling.importer.impl.ManagedPollConfigImpl")
+    @Path("/com.day.cq.polling.importer.impl.ManagedPollConfigImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqPollingImporterImplManagedPollConfigImplInfo.class, authorizations = {
@@ -6879,7 +6880,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqPollingImporterImplManagedPollConfigImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("id") String id, @QueryParam("enabled") Boolean enabled, @QueryParam("reference") Boolean reference, @QueryParam("interval") Integer interval, @QueryParam("expression") String expression, @QueryParam("source") String source, @QueryParam("target") String target, @QueryParam("login") String login, @QueryParam("password") String password,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.polling.importer.impl.ManagedPollingImporterImpl")
+    @Path("/com.day.cq.polling.importer.impl.ManagedPollingImporterImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqPollingImporterImplManagedPollingImporterImplInfo.class, authorizations = {
@@ -6893,7 +6894,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqPollingImporterImplManagedPollingImporterImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("importer.user") String importerUser,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.polling.importer.impl.PollingImporterImpl")
+    @Path("/com.day.cq.polling.importer.impl.PollingImporterImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqPollingImporterImplPollingImporterImplInfo.class, authorizations = {
@@ -6907,7 +6908,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqPollingImporterImplPollingImporterImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("importer.min.interval") Integer importerMinInterval, @QueryParam("importer.user") String importerUser, @QueryParam("exclude.paths") List<String> excludePaths, @QueryParam("include.paths") List<String> includePaths,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.replication.audit.ReplicationEventListener")
+    @Path("/com.day.cq.replication.audit.ReplicationEventListener")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqReplicationAuditReplicationEventListenerInfo.class, authorizations = {
@@ -6921,7 +6922,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqReplicationAuditReplicationEventListener( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("service.ranking") Integer serviceRanking,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.replication.content.StaticContentBuilder")
+    @Path("/com.day.cq.replication.content.StaticContentBuilder")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqReplicationContentStaticContentBuilderInfo.class, authorizations = {
@@ -6935,7 +6936,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqReplicationContentStaticContentBuilder( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("host") String host, @QueryParam("port") Integer port,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.replication.impl.AgentManagerImpl")
+    @Path("/com.day.cq.replication.impl.AgentManagerImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqReplicationImplAgentManagerImplInfo.class, authorizations = {
@@ -6949,7 +6950,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqReplicationImplAgentManagerImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("job.topics") String jobTopics, @QueryParam("serviceUser.target") String serviceUserTarget, @QueryParam("agentProvider.target") String agentProviderTarget,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.replication.impl.content.durbo.BinaryLessContentBuilder")
+    @Path("/com.day.cq.replication.impl.content.durbo.BinaryLessContentBuilder")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqReplicationImplContentDurboBinaryLessContentBuilderInfo.class, authorizations = {
@@ -6963,7 +6964,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqReplicationImplContentDurboBinaryLessContentBuilder( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("binary.threshold") Integer binaryThreshold,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.replication.impl.content.durbo.DurboImportConfigurationProviderService")
+    @Path("/com.day.cq.replication.impl.content.durbo.DurboImportConfigurationProviderService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqReplicationImplContentDurboDurboImportConfigurationProvInfo.class, authorizations = {
@@ -6977,7 +6978,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqReplicationImplContentDurboDurboImportConfigurationProv( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("preserve.hierarchy.nodes") Boolean preserveHierarchyNodes, @QueryParam("ignore.versioning") Boolean ignoreVersioning, @QueryParam("import.acl") Boolean importAcl, @QueryParam("save.threshold") Integer saveThreshold, @QueryParam("preserve.user.paths") Boolean preserveUserPaths, @QueryParam("preserve.uuid") Boolean preserveUuid, @QueryParam("preserve.uuid.nodetypes") List<String> preserveUuidNodetypes, @QueryParam("preserve.uuid.subtrees") List<String> preserveUuidSubtrees, @QueryParam("auto.commit") Boolean autoCommit,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.replication.impl.ReplicationContentFactoryProviderImpl")
+    @Path("/com.day.cq.replication.impl.ReplicationContentFactoryProviderImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqReplicationImplReplicationContentFactoryProviderImplInfo.class, authorizations = {
@@ -6991,7 +6992,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqReplicationImplReplicationContentFactoryProviderImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("replication.content.useFileStorage") Boolean replicationContentUseFileStorage, @QueryParam("replication.content.maxCommitAttempts") Integer replicationContentMaxCommitAttempts,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.replication.impl.ReplicationReceiverImpl")
+    @Path("/com.day.cq.replication.impl.ReplicationReceiverImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqReplicationImplReplicationReceiverImplInfo.class, authorizations = {
@@ -7005,7 +7006,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqReplicationImplReplicationReceiverImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("receiver.tmpfile.threshold") Integer receiverTmpfileThreshold, @QueryParam("receiver.packages.use.install") Boolean receiverPackagesUseInstall,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.replication.impl.ReplicatorImpl")
+    @Path("/com.day.cq.replication.impl.ReplicatorImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqReplicationImplReplicatorImplInfo.class, authorizations = {
@@ -7019,7 +7020,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqReplicationImplReplicatorImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("distribute_events") Boolean distributeEvents,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.replication.impl.ReverseReplicator")
+    @Path("/com.day.cq.replication.impl.ReverseReplicator")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqReplicationImplReverseReplicatorInfo.class, authorizations = {
@@ -7033,7 +7034,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqReplicationImplReverseReplicator( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("scheduler.period") Integer schedulerPeriod,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.replication.impl.transport.BinaryLessTransportHandler")
+    @Path("/com.day.cq.replication.impl.transport.BinaryLessTransportHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqReplicationImplTransportBinaryLessTransportHandlerInfo.class, authorizations = {
@@ -7047,7 +7048,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqReplicationImplTransportBinaryLessTransportHandler( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("disabled.cipher.suites") List<String> disabledCipherSuites, @QueryParam("enabled.cipher.suites") List<String> enabledCipherSuites,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.replication.impl.transport.Http")
+    @Path("/com.day.cq.replication.impl.transport.Http")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqReplicationImplTransportHttpInfo.class, authorizations = {
@@ -7061,7 +7062,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqReplicationImplTransportHttp( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("disabled.cipher.suites") List<String> disabledCipherSuites, @QueryParam("enabled.cipher.suites") List<String> enabledCipherSuites,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.reporting.impl.cache.CacheImpl")
+    @Path("/com.day.cq.reporting.impl.cache.CacheImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqReportingImplCacheCacheImplInfo.class, authorizations = {
@@ -7075,7 +7076,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqReportingImplCacheCacheImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("repcache.enable") Boolean repcacheEnable, @QueryParam("repcache.ttl") Integer repcacheTtl, @QueryParam("repcache.max") Integer repcacheMax,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.reporting.impl.ConfigServiceImpl")
+    @Path("/com.day.cq.reporting.impl.ConfigServiceImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqReportingImplConfigServiceImplInfo.class, authorizations = {
@@ -7089,7 +7090,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqReportingImplConfigServiceImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("repconf.timezone") String repconfTimezone, @QueryParam("repconf.locale") String repconfLocale, @QueryParam("repconf.snapshots") String repconfSnapshots, @QueryParam("repconf.repdir") String repconfRepdir, @QueryParam("repconf.hourofday") Integer repconfHourofday, @QueryParam("repconf.minofhour") Integer repconfMinofhour, @QueryParam("repconf.maxrows") Integer repconfMaxrows, @QueryParam("repconf.fakedata") Boolean repconfFakedata, @QueryParam("repconf.snapshotuser") String repconfSnapshotuser, @QueryParam("repconf.enforcesnapshotuser") Boolean repconfEnforcesnapshotuser,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.reporting.impl.RLogAnalyzer")
+    @Path("/com.day.cq.reporting.impl.RLogAnalyzer")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqReportingImplRLogAnalyzerInfo.class, authorizations = {
@@ -7103,7 +7104,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqReportingImplRLogAnalyzer( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("request.log.output") String requestLogOutput,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.rewriter.linkchecker.impl.LinkCheckerImpl")
+    @Path("/com.day.cq.rewriter.linkchecker.impl.LinkCheckerImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqRewriterLinkcheckerImplLinkCheckerImplInfo.class, authorizations = {
@@ -7117,7 +7118,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqRewriterLinkcheckerImplLinkCheckerImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("scheduler.period") Integer schedulerPeriod, @QueryParam("scheduler.concurrent") Boolean schedulerConcurrent, @QueryParam("service.bad_link_tolerance_interval") Integer serviceBadLinkToleranceInterval, @QueryParam("service.check_override_patterns") List<String> serviceCheckOverridePatterns, @QueryParam("service.cache_broken_internal_links") Boolean serviceCacheBrokenInternalLinks, @QueryParam("service.special_link_prefix") List<String> serviceSpecialLinkPrefix, @QueryParam("service.special_link_patterns") List<String> serviceSpecialLinkPatterns,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.rewriter.linkchecker.impl.LinkCheckerTask")
+    @Path("/com.day.cq.rewriter.linkchecker.impl.LinkCheckerTask")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqRewriterLinkcheckerImplLinkCheckerTaskInfo.class, authorizations = {
@@ -7131,7 +7132,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqRewriterLinkcheckerImplLinkCheckerTask( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("scheduler.period") Integer schedulerPeriod, @QueryParam("scheduler.concurrent") Boolean schedulerConcurrent, @QueryParam("good_link_test_interval") Integer goodLinkTestInterval, @QueryParam("bad_link_test_interval") Integer badLinkTestInterval, @QueryParam("link_unused_interval") Integer linkUnusedInterval, @QueryParam("connection.timeout") Integer connectionTimeout,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.rewriter.linkchecker.impl.LinkCheckerTransformerFactory")
+    @Path("/com.day.cq.rewriter.linkchecker.impl.LinkCheckerTransformerFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryInfo.class, authorizations = {
@@ -7145,7 +7146,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactory( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("linkcheckertransformer.disableRewriting") Boolean linkcheckertransformerDisableRewriting, @QueryParam("linkcheckertransformer.disableChecking") Boolean linkcheckertransformerDisableChecking, @QueryParam("linkcheckertransformer.mapCacheSize") Integer linkcheckertransformerMapCacheSize, @QueryParam("linkcheckertransformer.strictExtensionCheck") Boolean linkcheckertransformerStrictExtensionCheck, @QueryParam("linkcheckertransformer.stripHtmltExtension") Boolean linkcheckertransformerStripHtmltExtension, @QueryParam("linkcheckertransformer.rewriteElements") List<String> linkcheckertransformerRewriteElements, @QueryParam("linkcheckertransformer.stripExtensionPathBlacklist") List<String> linkcheckertransformerStripExtensionPathBlacklist,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.rewriter.linkchecker.impl.LinkInfoStorageImpl")
+    @Path("/com.day.cq.rewriter.linkchecker.impl.LinkInfoStorageImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqRewriterLinkcheckerImplLinkInfoStorageImplInfo.class, authorizations = {
@@ -7159,7 +7160,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqRewriterLinkcheckerImplLinkInfoStorageImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("service.max_links_per_host") Integer serviceMaxLinksPerHost, @QueryParam("service.save_external_link_references") Boolean serviceSaveExternalLinkReferences,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.rewriter.processor.impl.HtmlParserFactory")
+    @Path("/com.day.cq.rewriter.processor.impl.HtmlParserFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqRewriterProcessorImplHtmlParserFactoryInfo.class, authorizations = {
@@ -7173,7 +7174,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqRewriterProcessorImplHtmlParserFactory( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("htmlparser.processTags") List<String> htmlparserProcessTags, @QueryParam("htmlparser.preserveCamelCase") Boolean htmlparserPreserveCamelCase,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.search.impl.builder.QueryBuilderImpl")
+    @Path("/com.day.cq.search.impl.builder.QueryBuilderImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqSearchImplBuilderQueryBuilderImplInfo.class, authorizations = {
@@ -7187,7 +7188,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqSearchImplBuilderQueryBuilderImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("excerpt.properties") List<String> excerptProperties, @QueryParam("cache.max.entries") Integer cacheMaxEntries, @QueryParam("cache.entry.lifetime") Integer cacheEntryLifetime, @QueryParam("xpath.union") Boolean xpathUnion,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.search.suggest.impl.SuggestionIndexManagerImpl")
+    @Path("/com.day.cq.search.suggest.impl.SuggestionIndexManagerImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqSearchSuggestImplSuggestionIndexManagerImplInfo.class, authorizations = {
@@ -7201,7 +7202,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqSearchSuggestImplSuggestionIndexManagerImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("pathBuilder.target") String pathBuilderTarget, @QueryParam("suggest.basepath") String suggestBasepath,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.searchpromote.impl.PublishSearchPromoteConfigHandler")
+    @Path("/com.day.cq.searchpromote.impl.PublishSearchPromoteConfigHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqSearchpromoteImplPublishSearchPromoteConfigHandlerInfo.class, authorizations = {
@@ -7215,7 +7216,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqSearchpromoteImplPublishSearchPromoteConfigHandler( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("cq.searchpromote.confighandler.enabled") Boolean cqSearchpromoteConfighandlerEnabled,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.searchpromote.impl.SearchPromoteServiceImpl")
+    @Path("/com.day.cq.searchpromote.impl.SearchPromoteServiceImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqSearchpromoteImplSearchPromoteServiceImplInfo.class, authorizations = {
@@ -7229,7 +7230,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqSearchpromoteImplSearchPromoteServiceImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("cq.searchpromote.configuration.server.uri") String cqSearchpromoteConfigurationServerUri, @QueryParam("cq.searchpromote.configuration.environment") String cqSearchpromoteConfigurationEnvironment, @QueryParam("connection.timeout") Integer connectionTimeout, @QueryParam("socket.timeout") Integer socketTimeout,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.security.ACLSetup")
+    @Path("/com.day.cq.security.ACLSetup")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqSecurityACLSetupInfo.class, authorizations = {
@@ -7243,7 +7244,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqSecurityACLSetup( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("cq.aclsetup.rules") List<String> cqAclsetupRules,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.statistics.impl.StatisticsServiceImpl")
+    @Path("/com.day.cq.statistics.impl.StatisticsServiceImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqStatisticsImplStatisticsServiceImplInfo.class, authorizations = {
@@ -7257,7 +7258,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqStatisticsImplStatisticsServiceImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("scheduler.period") Integer schedulerPeriod, @QueryParam("scheduler.concurrent") Boolean schedulerConcurrent, @QueryParam("path") String path, @QueryParam("workspace") String workspace, @QueryParam("keywordsPath") String keywordsPath, @QueryParam("asyncEntries") Boolean asyncEntries,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.tagging.impl.JcrTagManagerFactoryImpl")
+    @Path("/com.day.cq.tagging.impl.JcrTagManagerFactoryImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqTaggingImplJcrTagManagerFactoryImplInfo.class, authorizations = {
@@ -7271,7 +7272,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqTaggingImplJcrTagManagerFactoryImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("validation.enabled") Boolean validationEnabled,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.tagging.impl.search.TagPredicateEvaluator")
+    @Path("/com.day.cq.tagging.impl.search.TagPredicateEvaluator")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqTaggingImplSearchTagPredicateEvaluatorInfo.class, authorizations = {
@@ -7285,7 +7286,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqTaggingImplSearchTagPredicateEvaluator( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("ignore_path") Boolean ignorePath,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.tagging.impl.TagGarbageCollector")
+    @Path("/com.day.cq.tagging.impl.TagGarbageCollector")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqTaggingImplTagGarbageCollectorInfo.class, authorizations = {
@@ -7299,7 +7300,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqTaggingImplTagGarbageCollector( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("scheduler.expression") String schedulerExpression,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.contentsync.impl.handler.PagesUpdateHandler")
+    @Path("/com.day.cq.wcm.contentsync.impl.handler.PagesUpdateHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmContentsyncImplHandlerPagesUpdateHandlerInfo.class, authorizations = {
@@ -7313,7 +7314,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqWcmContentsyncImplHandlerPagesUpdateHandler( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("cq.pagesupdatehandler.imageresourcetypes") List<String> cqPagesupdatehandlerImageresourcetypes,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.contentsync.impl.rewriter.PathRewriterTransformerFactory")
+    @Path("/com.day.cq.wcm.contentsync.impl.rewriter.PathRewriterTransformerFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorInfo.class, authorizations = {
@@ -7327,7 +7328,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactor( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("cq.contentsync.pathrewritertransformer.mapping.links") List<String> cqContentsyncPathrewritertransformerMappingLinks, @QueryParam("cq.contentsync.pathrewritertransformer.mapping.clientlibs") List<String> cqContentsyncPathrewritertransformerMappingClientlibs, @QueryParam("cq.contentsync.pathrewritertransformer.mapping.images") List<String> cqContentsyncPathrewritertransformerMappingImages, @QueryParam("cq.contentsync.pathrewritertransformer.attribute.pattern") String cqContentsyncPathrewritertransformerAttributePattern, @QueryParam("cq.contentsync.pathrewritertransformer.clientlibrary.pattern") String cqContentsyncPathrewritertransformerClientlibraryPattern, @QueryParam("cq.contentsync.pathrewritertransformer.clientlibrary.replace") String cqContentsyncPathrewritertransformerClientlibraryReplace,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl")
+    @Path("/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmCoreImplAuthoringUIModeServiceImplInfo.class, authorizations = {
@@ -7341,7 +7342,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqWcmCoreImplAuthoringUIModeServiceImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("authoringUIModeService.default") String authoringUIModeServiceDefault,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.core.impl.commands.WCMCommandServlet")
+    @Path("/com.day.cq.wcm.core.impl.commands.WCMCommandServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmCoreImplCommandsWCMCommandServletInfo.class, authorizations = {
@@ -7355,7 +7356,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqWcmCoreImplCommandsWCMCommandServlet( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("wcmcommandservlet.delete_whitelist") List<String> wcmcommandservletDeleteWhitelist,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.core.impl.devicedetection.DeviceIdentificationModeImpl")
+    @Path("/com.day.cq.wcm.core.impl.devicedetection.DeviceIdentificationModeImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmCoreImplDevicedetectionDeviceIdentificationModeImplInfo.class, authorizations = {
@@ -7369,7 +7370,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqWcmCoreImplDevicedetectionDeviceIdentificationModeImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("dim.default.mode") String dimDefaultMode, @QueryParam("dim.appcache.enabled") Boolean dimAppcacheEnabled,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.core.impl.event.PageEventAuditListener")
+    @Path("/com.day.cq.wcm.core.impl.event.PageEventAuditListener")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmCoreImplEventPageEventAuditListenerInfo.class, authorizations = {
@@ -7383,7 +7384,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqWcmCoreImplEventPageEventAuditListener( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("configured") String configured,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.core.impl.event.PagePostProcessor")
+    @Path("/com.day.cq.wcm.core.impl.event.PagePostProcessor")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmCoreImplEventPagePostProcessorInfo.class, authorizations = {
@@ -7397,7 +7398,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqWcmCoreImplEventPagePostProcessor( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("paths") List<String> paths,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.core.impl.event.RepositoryChangeEventListener")
+    @Path("/com.day.cq.wcm.core.impl.event.RepositoryChangeEventListener")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmCoreImplEventRepositoryChangeEventListenerInfo.class, authorizations = {
@@ -7411,7 +7412,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqWcmCoreImplEventRepositoryChangeEventListener( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("paths") List<String> paths, @QueryParam("excludedPaths") List<String> excludedPaths,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.core.impl.event.TemplatePostProcessor")
+    @Path("/com.day.cq.wcm.core.impl.event.TemplatePostProcessor")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmCoreImplEventTemplatePostProcessorInfo.class, authorizations = {
@@ -7425,7 +7426,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqWcmCoreImplEventTemplatePostProcessor( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("paths") String paths,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.core.impl.LanguageManagerImpl")
+    @Path("/com.day.cq.wcm.core.impl.LanguageManagerImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmCoreImplLanguageManagerImplInfo.class, authorizations = {
@@ -7439,7 +7440,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqWcmCoreImplLanguageManagerImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("langmgr.list.path") String langmgrListPath, @QueryParam("langmgr.country.default") List<String> langmgrCountryDefault,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.core.impl.LinkCheckerConfigurationFactoryImpl")
+    @Path("/com.day.cq.wcm.core.impl.LinkCheckerConfigurationFactoryImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplInfo.class, authorizations = {
@@ -7453,7 +7454,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqWcmCoreImplLinkCheckerConfigurationFactoryImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("link.expired.prefix") String linkExpiredPrefix, @QueryParam("link.expired.remove") Boolean linkExpiredRemove, @QueryParam("link.expired.suffix") String linkExpiredSuffix, @QueryParam("link.invalid.prefix") String linkInvalidPrefix, @QueryParam("link.invalid.remove") Boolean linkInvalidRemove, @QueryParam("link.invalid.suffix") String linkInvalidSuffix, @QueryParam("link.predated.prefix") String linkPredatedPrefix, @QueryParam("link.predated.remove") Boolean linkPredatedRemove, @QueryParam("link.predated.suffix") String linkPredatedSuffix, @QueryParam("link.wcmmodes") List<String> linkWcmmodes,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.core.impl.page.PageInfoAggregatorImpl")
+    @Path("/com.day.cq.wcm.core.impl.page.PageInfoAggregatorImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmCoreImplPagePageInfoAggregatorImplInfo.class, authorizations = {
@@ -7467,7 +7468,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqWcmCoreImplPagePageInfoAggregatorImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("page.info.provider.property.regex.default") String pageInfoProviderPropertyRegexDefault, @QueryParam("page.info.provider.property.name") String pageInfoProviderPropertyName,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.core.impl.page.PageManagerFactoryImpl")
+    @Path("/com.day.cq.wcm.core.impl.page.PageManagerFactoryImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmCoreImplPagePageManagerFactoryImplInfo.class, authorizations = {
@@ -7481,7 +7482,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqWcmCoreImplPagePageManagerFactoryImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("illegalCharMapping") String illegalCharMapping, @QueryParam("pageSubTreeActivationCheck") Boolean pageSubTreeActivationCheck,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.core.impl.references.content.ContentReferenceConfig")
+    @Path("/com.day.cq.wcm.core.impl.references.content.ContentReferenceConfig")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmCoreImplReferencesContentContentReferenceConfigInfo.class, authorizations = {
@@ -7495,7 +7496,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqWcmCoreImplReferencesContentContentReferenceConfig( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("contentReferenceConfig.resourceTypes") List<String> contentReferenceConfigResourceTypes,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.core.impl.servlets.contentfinder.AssetViewHandler")
+    @Path("/com.day.cq.wcm.core.impl.servlets.contentfinder.AssetViewHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerInfo.class, authorizations = {
@@ -7509,7 +7510,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqWcmCoreImplServletsContentfinderAssetViewHandler( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("dam.showexpired") Boolean damShowexpired, @QueryParam("dam.showhidden") Boolean damShowhidden, @QueryParam("tagTitleSearch") Boolean tagTitleSearch, @QueryParam("guessTotal") String guessTotal, @QueryParam("dam.expiryProperty") String damExpiryProperty,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.core.impl.servlets.contentfinder.connector.ConnectorViewHandler")
+    @Path("/com.day.cq.wcm.core.impl.servlets.contentfinder.connector.ConnectorViewHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorVieInfo.class, authorizations = {
@@ -7523,7 +7524,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqWcmCoreImplServletsContentfinderConnectorConnectorVie( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("item.resource.types") List<String> itemResourceTypes,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.core.impl.servlets.contentfinder.PageViewHandler")
+    @Path("/com.day.cq.wcm.core.impl.servlets.contentfinder.PageViewHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmCoreImplServletsContentfinderPageViewHandlerInfo.class, authorizations = {
@@ -7537,7 +7538,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqWcmCoreImplServletsContentfinderPageViewHandler( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("guessTotal") String guessTotal, @QueryParam("tagTitleSearch") Boolean tagTitleSearch,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.core.impl.servlets.FindReplaceServlet")
+    @Path("/com.day.cq.wcm.core.impl.servlets.FindReplaceServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmCoreImplServletsFindReplaceServletInfo.class, authorizations = {
@@ -7551,7 +7552,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqWcmCoreImplServletsFindReplaceServlet( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("scope") List<String> scope,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.core.impl.servlets.ReferenceSearchServlet")
+    @Path("/com.day.cq.wcm.core.impl.servlets.ReferenceSearchServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmCoreImplServletsReferenceSearchServletInfo.class, authorizations = {
@@ -7565,7 +7566,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqWcmCoreImplServletsReferenceSearchServlet( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("referencesearchservlet.maxReferencesPerPage") Integer referencesearchservletMaxReferencesPerPage, @QueryParam("referencesearchservlet.maxPages") Integer referencesearchservletMaxPages,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.core.impl.servlets.ThumbnailServlet")
+    @Path("/com.day.cq.wcm.core.impl.servlets.ThumbnailServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmCoreImplServletsThumbnailServletInfo.class, authorizations = {
@@ -7579,7 +7580,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqWcmCoreImplServletsThumbnailServlet( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("workspace") String workspace, @QueryParam("dimensions") List<String> dimensions,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.core.impl.utils.DefaultPageNameValidator")
+    @Path("/com.day.cq.wcm.core.impl.utils.DefaultPageNameValidator")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmCoreImplUtilsDefaultPageNameValidatorInfo.class, authorizations = {
@@ -7593,7 +7594,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqWcmCoreImplUtilsDefaultPageNameValidator( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("nonValidChars") String nonValidChars,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.core.impl.variants.PageVariantsProviderImpl")
+    @Path("/com.day.cq.wcm.core.impl.variants.PageVariantsProviderImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmCoreImplVariantsPageVariantsProviderImplInfo.class, authorizations = {
@@ -7607,7 +7608,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqWcmCoreImplVariantsPageVariantsProviderImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("default.externalizer.domain") String defaultExternalizerDomain,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.core.impl.VersionManagerImpl")
+    @Path("/com.day.cq.wcm.core.impl.VersionManagerImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmCoreImplVersionManagerImplInfo.class, authorizations = {
@@ -7621,7 +7622,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqWcmCoreImplVersionManagerImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("versionmanager.createVersionOnActivation") Boolean versionmanagerCreateVersionOnActivation, @QueryParam("versionmanager.purgingEnabled") Boolean versionmanagerPurgingEnabled, @QueryParam("versionmanager.purgePaths") List<String> versionmanagerPurgePaths, @QueryParam("versionmanager.ivPaths") List<String> versionmanagerIvPaths, @QueryParam("versionmanager.maxAgeDays") Integer versionmanagerMaxAgeDays, @QueryParam("versionmanager.maxNumberVersions") Integer versionmanagerMaxNumberVersions, @QueryParam("versionmanager.minNumberVersions") Integer versionmanagerMinNumberVersions,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.core.impl.VersionPurgeTask")
+    @Path("/com.day.cq.wcm.core.impl.VersionPurgeTask")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmCoreImplVersionPurgeTaskInfo.class, authorizations = {
@@ -7635,7 +7636,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqWcmCoreImplVersionPurgeTask( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("versionpurge.paths") List<String> versionpurgePaths, @QueryParam("versionpurge.recursive") Boolean versionpurgeRecursive, @QueryParam("versionpurge.maxVersions") Integer versionpurgeMaxVersions, @QueryParam("versionpurge.minVersions") Integer versionpurgeMinVersions, @QueryParam("versionpurge.maxAgeDays") Integer versionpurgeMaxAgeDays,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.core.impl.WCMDebugFilter")
+    @Path("/com.day.cq.wcm.core.impl.WCMDebugFilter")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmCoreImplWCMDebugFilterInfo.class, authorizations = {
@@ -7649,7 +7650,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqWcmCoreImplWCMDebugFilter( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("wcmdbgfilter.enabled") Boolean wcmdbgfilterEnabled, @QueryParam("wcmdbgfilter.jspDebug") Boolean wcmdbgfilterJspDebug,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.core.impl.WCMDeveloperModeFilter")
+    @Path("/com.day.cq.wcm.core.impl.WCMDeveloperModeFilter")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmCoreImplWCMDeveloperModeFilterInfo.class, authorizations = {
@@ -7663,7 +7664,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqWcmCoreImplWCMDeveloperModeFilter( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("wcmdevmodefilter.enabled") Boolean wcmdevmodefilterEnabled,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.core.impl.warp.TimeWarpFilter")
+    @Path("/com.day.cq.wcm.core.impl.warp.TimeWarpFilter")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmCoreImplWarpTimeWarpFilterInfo.class, authorizations = {
@@ -7677,7 +7678,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqWcmCoreImplWarpTimeWarpFilter( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("filter.order") String filterOrder, @QueryParam("filter.scope") String filterScope,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.core.mvt.MVTStatisticsImpl")
+    @Path("/com.day.cq.wcm.core.mvt.MVTStatisticsImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmCoreMvtMVTStatisticsImplInfo.class, authorizations = {
@@ -7691,7 +7692,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqWcmCoreMvtMVTStatisticsImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("mvtstatistics.trackingurl") String mvtstatisticsTrackingurl,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.core.stats.PageViewStatisticsImpl")
+    @Path("/com.day.cq.wcm.core.stats.PageViewStatisticsImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmCoreStatsPageViewStatisticsImplInfo.class, authorizations = {
@@ -7705,7 +7706,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqWcmCoreStatsPageViewStatisticsImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("pageviewstatistics.trackingurl") String pageviewstatisticsTrackingurl, @QueryParam("pageviewstatistics.trackingscript.enabled") String pageviewstatisticsTrackingscriptEnabled,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.core.WCMRequestFilter")
+    @Path("/com.day.cq.wcm.core.WCMRequestFilter")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmCoreWCMRequestFilterInfo.class, authorizations = {
@@ -7719,7 +7720,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqWcmCoreWCMRequestFilter( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("wcmfilter.mode") String wcmfilterMode,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.designimporter.DesignPackageImporter")
+    @Path("/com.day.cq.wcm.designimporter.DesignPackageImporter")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmDesignimporterDesignPackageImporterInfo.class, authorizations = {
@@ -7733,7 +7734,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqWcmDesignimporterDesignPackageImporter( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("extract.filter") List<String> extractFilter,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.designimporter.impl.CanvasBuilderImpl")
+    @Path("/com.day.cq.wcm.designimporter.impl.CanvasBuilderImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmDesignimporterImplCanvasBuilderImplInfo.class, authorizations = {
@@ -7747,7 +7748,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqWcmDesignimporterImplCanvasBuilderImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("filepattern") String filepattern, @QueryParam("build.page.nodes") Boolean buildPageNodes, @QueryParam("build.client.libs") Boolean buildClientLibs, @QueryParam("build.canvas.component") Boolean buildCanvasComponent,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.designimporter.impl.CanvasPageDeleteHandler")
+    @Path("/com.day.cq.wcm.designimporter.impl.CanvasPageDeleteHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmDesignimporterImplCanvasPageDeleteHandlerInfo.class, authorizations = {
@@ -7761,7 +7762,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqWcmDesignimporterImplCanvasPageDeleteHandler( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("minThreadPoolSize") Integer minThreadPoolSize, @QueryParam("maxThreadPoolSize") Integer maxThreadPoolSize,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.designimporter.impl.EntryPreprocessorImpl")
+    @Path("/com.day.cq.wcm.designimporter.impl.EntryPreprocessorImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmDesignimporterImplEntryPreprocessorImplInfo.class, authorizations = {
@@ -7775,7 +7776,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqWcmDesignimporterImplEntryPreprocessorImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("search.pattern") String searchPattern, @QueryParam("replace.pattern") String replacePattern,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.designimporter.impl.MobileCanvasBuilderImpl")
+    @Path("/com.day.cq.wcm.designimporter.impl.MobileCanvasBuilderImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmDesignimporterImplMobileCanvasBuilderImplInfo.class, authorizations = {
@@ -7789,7 +7790,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqWcmDesignimporterImplMobileCanvasBuilderImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("filepattern") String filepattern, @QueryParam("device.groups") List<String> deviceGroups, @QueryParam("build.page.nodes") Boolean buildPageNodes, @QueryParam("build.client.libs") Boolean buildClientLibs, @QueryParam("build.canvas.component") Boolean buildCanvasComponent,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.CanvasComponentTagHandlerFactory")
+    @Path("/com.day.cq.wcm.designimporter.parser.taghandlers.factory.CanvasComponentTagHandlerFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeInfo.class, authorizations = {
@@ -7803,7 +7804,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqWcmDesignimporterParserTaghandlersFactoryCanvasCompone( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("service.ranking") Integer serviceRanking, @QueryParam("tagpattern") String tagpattern,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.DefaultComponentTagHandlerFactory")
+    @Path("/com.day.cq.wcm.designimporter.parser.taghandlers.factory.DefaultComponentTagHandlerFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultComponInfo.class, authorizations = {
@@ -7817,7 +7818,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqWcmDesignimporterParserTaghandlersFactoryDefaultCompon( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("service.ranking") Integer serviceRanking, @QueryParam("tagpattern") String tagpattern,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.DefaultTagHandlerFactory")
+    @Path("/com.day.cq.wcm.designimporter.parser.taghandlers.factory.DefaultTagHandlerFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHanInfo.class, authorizations = {
@@ -7831,7 +7832,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHan( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("service.ranking") Integer serviceRanking, @QueryParam("tagpattern") String tagpattern,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.HeadTagHandlerFactory")
+    @Path("/com.day.cq.wcm.designimporter.parser.taghandlers.factory.HeadTagHandlerFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandleInfo.class, authorizations = {
@@ -7845,7 +7846,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandle( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("service.ranking") Integer serviceRanking, @QueryParam("tagpattern") String tagpattern,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.IFrameTagHandlerFactory")
+    @Path("/com.day.cq.wcm.designimporter.parser.taghandlers.factory.IFrameTagHandlerFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHandInfo.class, authorizations = {
@@ -7859,7 +7860,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHand( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("service.ranking") Integer serviceRanking, @QueryParam("tagpattern") String tagpattern,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.ImageComponentTagHandlerFactory")
+    @Path("/com.day.cq.wcm.designimporter.parser.taghandlers.factory.ImageComponentTagHandlerFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponenInfo.class, authorizations = {
@@ -7873,7 +7874,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqWcmDesignimporterParserTaghandlersFactoryImageComponen( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("service.ranking") Integer serviceRanking, @QueryParam("tagpattern") String tagpattern, @QueryParam("component.resourceType") String componentResourceType,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.ImgTagHandlerFactory")
+    @Path("/com.day.cq.wcm.designimporter.parser.taghandlers.factory.ImgTagHandlerFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandlerInfo.class, authorizations = {
@@ -7887,7 +7888,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandler( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("service.ranking") Integer serviceRanking, @QueryParam("tagpattern") String tagpattern,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.InlineScriptTagHandlerFactory")
+    @Path("/com.day.cq.wcm.designimporter.parser.taghandlers.factory.InlineScriptTagHandlerFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTInfo.class, authorizations = {
@@ -7901,7 +7902,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptT( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("service.ranking") Integer serviceRanking, @QueryParam("tagpattern") String tagpattern,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.LinkTagHandlerFactory")
+    @Path("/com.day.cq.wcm.designimporter.parser.taghandlers.factory.LinkTagHandlerFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandleInfo.class, authorizations = {
@@ -7915,7 +7916,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandle( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("service.ranking") Integer serviceRanking, @QueryParam("tagpattern") String tagpattern,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.MetaTagHandlerFactory")
+    @Path("/com.day.cq.wcm.designimporter.parser.taghandlers.factory.MetaTagHandlerFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandleInfo.class, authorizations = {
@@ -7929,7 +7930,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandle( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("service.ranking") Integer serviceRanking, @QueryParam("tagpattern") String tagpattern,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.NonScriptTagHandlerFactory")
+    @Path("/com.day.cq.wcm.designimporter.parser.taghandlers.factory.NonScriptTagHandlerFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagHInfo.class, authorizations = {
@@ -7943,7 +7944,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagH( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("service.ranking") Integer serviceRanking, @QueryParam("tagpattern") String tagpattern,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.ParsysComponentTagHandlerFactory")
+    @Path("/com.day.cq.wcm.designimporter.parser.taghandlers.factory.ParsysComponentTagHandlerFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmDesignimporterParserTaghandlersFactoryParsysComponeInfo.class, authorizations = {
@@ -7957,7 +7958,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqWcmDesignimporterParserTaghandlersFactoryParsysCompone( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("service.ranking") Integer serviceRanking, @QueryParam("tagpattern") String tagpattern, @QueryParam("component.resourceType") String componentResourceType,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.ScriptTagHandlerFactory")
+    @Path("/com.day.cq.wcm.designimporter.parser.taghandlers.factory.ScriptTagHandlerFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandInfo.class, authorizations = {
@@ -7971,7 +7972,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHand( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("service.ranking") Integer serviceRanking, @QueryParam("tagpattern") String tagpattern,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.StyleTagHandlerFactory")
+    @Path("/com.day.cq.wcm.designimporter.parser.taghandlers.factory.StyleTagHandlerFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlInfo.class, authorizations = {
@@ -7985,7 +7986,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("service.ranking") Integer serviceRanking, @QueryParam("tagpattern") String tagpattern,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.TextComponentTagHandlerFactory")
+    @Path("/com.day.cq.wcm.designimporter.parser.taghandlers.factory.TextComponentTagHandlerFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmDesignimporterParserTaghandlersFactoryTextComponentInfo.class, authorizations = {
@@ -7999,7 +8000,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqWcmDesignimporterParserTaghandlersFactoryTextComponent( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("service.ranking") Integer serviceRanking, @QueryParam("tagpattern") String tagpattern, @QueryParam("component.resourceType") String componentResourceType,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.TitleComponentTagHandlerFactory")
+    @Path("/com.day.cq.wcm.designimporter.parser.taghandlers.factory.TitleComponentTagHandlerFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponenInfo.class, authorizations = {
@@ -8013,7 +8014,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponen( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("service.ranking") Integer serviceRanking, @QueryParam("tagpattern") String tagpattern, @QueryParam("component.resourceType") String componentResourceType,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.TitleTagHandlerFactory")
+    @Path("/com.day.cq.wcm.designimporter.parser.taghandlers.factory.TitleTagHandlerFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandlInfo.class, authorizations = {
@@ -8027,7 +8028,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("service.ranking") Integer serviceRanking, @QueryParam("tagpattern") String tagpattern,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.foundation.forms.impl.FormChooserServlet")
+    @Path("/com.day.cq.wcm.foundation.forms.impl.FormChooserServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmFoundationFormsImplFormChooserServletInfo.class, authorizations = {
@@ -8041,7 +8042,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqWcmFoundationFormsImplFormChooserServlet( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("service.name") String serviceName, @QueryParam("sling.servlet.resourceTypes") String slingServletResourceTypes, @QueryParam("sling.servlet.selectors") String slingServletSelectors, @QueryParam("sling.servlet.methods") List<String> slingServletMethods, @QueryParam("forms.formchooserservlet.advansesearch.require") Boolean formsFormchooserservletAdvansesearchRequire,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.foundation.forms.impl.FormParagraphPostProcessor")
+    @Path("/com.day.cq.wcm.foundation.forms.impl.FormParagraphPostProcessor")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmFoundationFormsImplFormParagraphPostProcessorInfo.class, authorizations = {
@@ -8055,7 +8056,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqWcmFoundationFormsImplFormParagraphPostProcessor( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("forms.formparagraphpostprocessor.enabled") Boolean formsFormparagraphpostprocessorEnabled, @QueryParam("forms.formparagraphpostprocessor.formresourcetypes") List<String> formsFormparagraphpostprocessorFormresourcetypes,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.foundation.forms.impl.FormsHandlingServlet")
+    @Path("/com.day.cq.wcm.foundation.forms.impl.FormsHandlingServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmFoundationFormsImplFormsHandlingServletInfo.class, authorizations = {
@@ -8069,7 +8070,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqWcmFoundationFormsImplFormsHandlingServlet( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("name.whitelist") String nameWhitelist, @QueryParam("allow.expressions") Boolean allowExpressions,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.foundation.forms.impl.MailServlet")
+    @Path("/com.day.cq.wcm.foundation.forms.impl.MailServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmFoundationFormsImplMailServletInfo.class, authorizations = {
@@ -8083,7 +8084,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqWcmFoundationFormsImplMailServlet( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("sling.servlet.resourceTypes") String slingServletResourceTypes, @QueryParam("sling.servlet.selectors") String slingServletSelectors, @QueryParam("resource.whitelist") List<String> resourceWhitelist, @QueryParam("resource.blacklist") String resourceBlacklist,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.foundation.impl.AdaptiveImageComponentServlet")
+    @Path("/com.day.cq.wcm.foundation.impl.AdaptiveImageComponentServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmFoundationImplAdaptiveImageComponentServletInfo.class, authorizations = {
@@ -8097,7 +8098,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqWcmFoundationImplAdaptiveImageComponentServlet( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("adapt.supported.widths") List<String> adaptSupportedWidths,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.foundation.impl.HTTPAuthHandler")
+    @Path("/com.day.cq.wcm.foundation.impl.HTTPAuthHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmFoundationImplHTTPAuthHandlerInfo.class, authorizations = {
@@ -8111,7 +8112,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqWcmFoundationImplHTTPAuthHandler( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("path") String path, @QueryParam("auth.http.nologin") Boolean authHttpNologin, @QueryParam("auth.http.realm") String authHttpRealm, @QueryParam("auth.default.loginpage") String authDefaultLoginpage, @QueryParam("auth.cred.form") List<String> authCredForm, @QueryParam("auth.cred.utf8") List<String> authCredUtf8,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.foundation.impl.PageImpressionsTracker")
+    @Path("/com.day.cq.wcm.foundation.impl.PageImpressionsTracker")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmFoundationImplPageImpressionsTrackerInfo.class, authorizations = {
@@ -8125,7 +8126,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqWcmFoundationImplPageImpressionsTracker( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("sling.auth.requirements") String slingAuthRequirements,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.foundation.impl.PageRedirectServlet")
+    @Path("/com.day.cq.wcm.foundation.impl.PageRedirectServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmFoundationImplPageRedirectServletInfo.class, authorizations = {
@@ -8139,7 +8140,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqWcmFoundationImplPageRedirectServlet( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("excluded.resource.types") List<String> excludedResourceTypes,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.foundation.security.impl.DefaultAttachmentTypeBlacklistService")
+    @Path("/com.day.cq.wcm.foundation.security.impl.DefaultAttachmentTypeBlacklistService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistInfo.class, authorizations = {
@@ -8153,7 +8154,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklist( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("default.attachment.type.blacklist") List<String> defaultAttachmentTypeBlacklist, @QueryParam("baseline.attachment.type.blacklist") List<String> baselineAttachmentTypeBlacklist,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.foundation.security.impl.SaferSlingPostValidatorImpl")
+    @Path("/com.day.cq.wcm.foundation.security.impl.SaferSlingPostValidatorImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplInfo.class, authorizations = {
@@ -8167,7 +8168,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("parameter.whitelist") List<String> parameterWhitelist, @QueryParam("parameter.whitelist.prefixes") List<String> parameterWhitelistPrefixes, @QueryParam("binary.parameter.whitelist") List<String> binaryParameterWhitelist, @QueryParam("modifier.whitelist") List<String> modifierWhitelist, @QueryParam("operation.whitelist") List<String> operationWhitelist, @QueryParam("operation.whitelist.prefixes") List<String> operationWhitelistPrefixes, @QueryParam("typehint.whitelist") List<String> typehintWhitelist, @QueryParam("resourcetype.whitelist") List<String> resourcetypeWhitelist,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.mobile.core.impl.device.DeviceInfoTransformerFactory")
+    @Path("/com.day.cq.wcm.mobile.core.impl.device.DeviceInfoTransformerFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactoryInfo.class, authorizations = {
@@ -8181,7 +8182,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactory( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("device.info.transformer.enabled") Boolean deviceInfoTransformerEnabled, @QueryParam("device.info.transformer.css.style") String deviceInfoTransformerCssStyle,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.mobile.core.impl.redirect.RedirectFilter")
+    @Path("/com.day.cq.wcm.mobile.core.impl.redirect.RedirectFilter")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmMobileCoreImplRedirectRedirectFilterInfo.class, authorizations = {
@@ -8195,7 +8196,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqWcmMobileCoreImplRedirectRedirectFilter( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("redirect.enabled") Boolean redirectEnabled, @QueryParam("redirect.stats.enabled") Boolean redirectStatsEnabled, @QueryParam("redirect.extensions") List<String> redirectExtensions, @QueryParam("redirect.paths") List<String> redirectPaths,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.msm.impl.actions.ContentCopyActionFactory")
+    @Path("/com.day.cq.wcm.msm.impl.actions.ContentCopyActionFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmMsmImplActionsContentCopyActionFactoryInfo.class, authorizations = {
@@ -8209,7 +8210,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqWcmMsmImplActionsContentCopyActionFactory( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("cq.wcm.msm.action.excludednodetypes") List<String> cqWcmMsmActionExcludednodetypes, @QueryParam("cq.wcm.msm.action.excludedparagraphitems") List<String> cqWcmMsmActionExcludedparagraphitems, @QueryParam("cq.wcm.msm.action.excludedprops") List<String> cqWcmMsmActionExcludedprops, @QueryParam("contentcopyaction.order.style") String contentcopyactionOrderStyle,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.msm.impl.actions.ContentDeleteActionFactory")
+    @Path("/com.day.cq.wcm.msm.impl.actions.ContentDeleteActionFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmMsmImplActionsContentDeleteActionFactoryInfo.class, authorizations = {
@@ -8223,7 +8224,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqWcmMsmImplActionsContentDeleteActionFactory( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("cq.wcm.msm.action.excludednodetypes") List<String> cqWcmMsmActionExcludednodetypes, @QueryParam("cq.wcm.msm.action.excludedparagraphitems") List<String> cqWcmMsmActionExcludedparagraphitems, @QueryParam("cq.wcm.msm.action.excludedprops") List<String> cqWcmMsmActionExcludedprops,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.msm.impl.actions.ContentUpdateActionFactory")
+    @Path("/com.day.cq.wcm.msm.impl.actions.ContentUpdateActionFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmMsmImplActionsContentUpdateActionFactoryInfo.class, authorizations = {
@@ -8237,7 +8238,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqWcmMsmImplActionsContentUpdateActionFactory( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("cq.wcm.msm.action.excludednodetypes") List<String> cqWcmMsmActionExcludednodetypes, @QueryParam("cq.wcm.msm.action.excludedparagraphitems") List<String> cqWcmMsmActionExcludedparagraphitems, @QueryParam("cq.wcm.msm.action.excludedprops") List<String> cqWcmMsmActionExcludedprops, @QueryParam("cq.wcm.msm.action.ignoredMixin") List<String> cqWcmMsmActionIgnoredMixin,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.msm.impl.actions.OrderChildrenActionFactory")
+    @Path("/com.day.cq.wcm.msm.impl.actions.OrderChildrenActionFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmMsmImplActionsOrderChildrenActionFactoryInfo.class, authorizations = {
@@ -8251,7 +8252,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqWcmMsmImplActionsOrderChildrenActionFactory( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("cq.wcm.msm.action.excludednodetypes") List<String> cqWcmMsmActionExcludednodetypes, @QueryParam("cq.wcm.msm.action.excludedparagraphitems") List<String> cqWcmMsmActionExcludedparagraphitems, @QueryParam("cq.wcm.msm.action.excludedprops") List<String> cqWcmMsmActionExcludedprops,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.msm.impl.actions.PageMoveActionFactory")
+    @Path("/com.day.cq.wcm.msm.impl.actions.PageMoveActionFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmMsmImplActionsPageMoveActionFactoryInfo.class, authorizations = {
@@ -8265,7 +8266,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqWcmMsmImplActionsPageMoveActionFactory( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("cq.wcm.msm.action.excludednodetypes") List<String> cqWcmMsmActionExcludednodetypes, @QueryParam("cq.wcm.msm.action.excludedparagraphitems") List<String> cqWcmMsmActionExcludedparagraphitems, @QueryParam("cq.wcm.msm.action.excludedprops") List<String> cqWcmMsmActionExcludedprops, @QueryParam("cq.wcm.msm.impl.actions.pagemove.prop_referenceUpdate") Boolean cqWcmMsmImplActionsPagemovePropReferenceUpdate,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.msm.impl.actions.ReferencesUpdateActionFactory")
+    @Path("/com.day.cq.wcm.msm.impl.actions.ReferencesUpdateActionFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmMsmImplActionsReferencesUpdateActionFactoryInfo.class, authorizations = {
@@ -8279,7 +8280,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqWcmMsmImplActionsReferencesUpdateActionFactory( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("cq.wcm.msm.action.excludednodetypes") List<String> cqWcmMsmActionExcludednodetypes, @QueryParam("cq.wcm.msm.action.excludedparagraphitems") List<String> cqWcmMsmActionExcludedparagraphitems, @QueryParam("cq.wcm.msm.action.excludedprops") List<String> cqWcmMsmActionExcludedprops, @QueryParam("cq.wcm.msm.impl.action.referencesupdate.prop_updateNested") Boolean cqWcmMsmImplActionReferencesupdatePropUpdateNested,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.msm.impl.actions.VersionCopyActionFactory")
+    @Path("/com.day.cq.wcm.msm.impl.actions.VersionCopyActionFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmMsmImplActionsVersionCopyActionFactoryInfo.class, authorizations = {
@@ -8293,7 +8294,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqWcmMsmImplActionsVersionCopyActionFactory( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("cq.wcm.msm.action.excludednodetypes") List<String> cqWcmMsmActionExcludednodetypes, @QueryParam("cq.wcm.msm.action.excludedparagraphitems") List<String> cqWcmMsmActionExcludedparagraphitems, @QueryParam("cq.wcm.msm.action.excludedprops") List<String> cqWcmMsmActionExcludedprops,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.msm.impl.LiveRelationshipManagerImpl")
+    @Path("/com.day.cq.wcm.msm.impl.LiveRelationshipManagerImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmMsmImplLiveRelationshipManagerImplInfo.class, authorizations = {
@@ -8307,7 +8308,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqWcmMsmImplLiveRelationshipManagerImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("liverelationshipmgr.relationsconfig.default") String liverelationshipmgrRelationsconfigDefault,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.msm.impl.RolloutManagerImpl")
+    @Path("/com.day.cq.wcm.msm.impl.RolloutManagerImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmMsmImplRolloutManagerImplInfo.class, authorizations = {
@@ -8321,7 +8322,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqWcmMsmImplRolloutManagerImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("event.filter") String eventFilter, @QueryParam("rolloutmgr.excludedprops.default") List<String> rolloutmgrExcludedpropsDefault, @QueryParam("rolloutmgr.excludedparagraphprops.default") List<String> rolloutmgrExcludedparagraphpropsDefault, @QueryParam("rolloutmgr.excludednodetypes.default") List<String> rolloutmgrExcludednodetypesDefault, @QueryParam("rolloutmgr.threadpool.maxsize") Integer rolloutmgrThreadpoolMaxsize, @QueryParam("rolloutmgr.threadpool.maxshutdowntime") Integer rolloutmgrThreadpoolMaxshutdowntime, @QueryParam("rolloutmgr.threadpool.priority") String rolloutmgrThreadpoolPriority, @QueryParam("rolloutmgr.commit.size") Integer rolloutmgrCommitSize, @QueryParam("rolloutmgr.conflicthandling.enabled") Boolean rolloutmgrConflicthandlingEnabled,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.msm.impl.servlets.AuditLogServlet")
+    @Path("/com.day.cq.wcm.msm.impl.servlets.AuditLogServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmMsmImplServletsAuditLogServletInfo.class, authorizations = {
@@ -8335,7 +8336,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqWcmMsmImplServletsAuditLogServlet( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("auditlogservlet.default.events.count") Integer auditlogservletDefaultEventsCount, @QueryParam("auditlogservlet.default.path") String auditlogservletDefaultPath,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.notification.email.impl.EmailChannel")
+    @Path("/com.day.cq.wcm.notification.email.impl.EmailChannel")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmNotificationEmailImplEmailChannelInfo.class, authorizations = {
@@ -8349,7 +8350,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqWcmNotificationEmailImplEmailChannel( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("email.from") String emailFrom,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.notification.impl.NotificationManagerImpl")
+    @Path("/com.day.cq.wcm.notification.impl.NotificationManagerImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmNotificationImplNotificationManagerImplInfo.class, authorizations = {
@@ -8363,7 +8364,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqWcmNotificationImplNotificationManagerImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("event.topics") List<String> eventTopics,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.scripting.impl.BVPManager")
+    @Path("/com.day.cq.wcm.scripting.impl.BVPManager")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmScriptingImplBVPManagerInfo.class, authorizations = {
@@ -8377,7 +8378,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqWcmScriptingImplBVPManager( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("com.day.cq.wcm.scripting.bvp.script.engines") List<String> comDayCqWcmScriptingBvpScriptEngines,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.undo.UndoConfig")
+    @Path("/com.day.cq.wcm.undo.UndoConfig")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmUndoUndoConfigInfo.class, authorizations = {
@@ -8391,7 +8392,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqWcmUndoUndoConfig( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("cq.wcm.undo.enabled") Boolean cqWcmUndoEnabled, @QueryParam("cq.wcm.undo.path") String cqWcmUndoPath, @QueryParam("cq.wcm.undo.validity") Integer cqWcmUndoValidity, @QueryParam("cq.wcm.undo.steps") Integer cqWcmUndoSteps, @QueryParam("cq.wcm.undo.persistence") String cqWcmUndoPersistence, @QueryParam("cq.wcm.undo.persistence.mode") Boolean cqWcmUndoPersistenceMode, @QueryParam("cq.wcm.undo.markermode") String cqWcmUndoMarkermode, @QueryParam("cq.wcm.undo.whitelist") List<String> cqWcmUndoWhitelist, @QueryParam("cq.wcm.undo.blacklist") List<String> cqWcmUndoBlacklist,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.webservicesupport.impl.ReplicationEventListener")
+    @Path("/com.day.cq.wcm.webservicesupport.impl.ReplicationEventListener")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmWebservicesupportImplReplicationEventListenerInfo.class, authorizations = {
@@ -8405,7 +8406,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqWcmWebservicesupportImplReplicationEventListener( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("Flush agents") List<String> flushAgents,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.workflow.impl.WcmWorkflowServiceImpl")
+    @Path("/com.day.cq.wcm.workflow.impl.WcmWorkflowServiceImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmWorkflowImplWcmWorkflowServiceImplInfo.class, authorizations = {
@@ -8419,7 +8420,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqWcmWorkflowImplWcmWorkflowServiceImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("event.filter") String eventFilter, @QueryParam("minThreadPoolSize") Integer minThreadPoolSize, @QueryParam("maxThreadPoolSize") Integer maxThreadPoolSize, @QueryParam("cq.wcm.workflow.terminate.on.activate") Boolean cqWcmWorkflowTerminateOnActivate, @QueryParam("cq.wcm.worklfow.terminate.exclusion.list") List<String> cqWcmWorklfowTerminateExclusionList,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.workflow.impl.WorkflowPackageInfoProvider")
+    @Path("/com.day.cq.wcm.workflow.impl.WorkflowPackageInfoProvider")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmWorkflowImplWorkflowPackageInfoProviderInfo.class, authorizations = {
@@ -8433,7 +8434,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqWcmWorkflowImplWorkflowPackageInfoProvider( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("workflowpackageinfoprovider.filter") List<String> workflowpackageinfoproviderFilter, @QueryParam("workflowpackageinfoprovider.filter.rootpath") String workflowpackageinfoproviderFilterRootpath,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.widget.impl.HtmlLibraryManagerImpl")
+    @Path("/com.day.cq.widget.impl.HtmlLibraryManagerImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWidgetImplHtmlLibraryManagerImplInfo.class, authorizations = {
@@ -8447,7 +8448,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqWidgetImplHtmlLibraryManagerImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("htmllibmanager.clientmanager") String htmllibmanagerClientmanager, @QueryParam("htmllibmanager.debug") Boolean htmllibmanagerDebug, @QueryParam("htmllibmanager.debug.console") Boolean htmllibmanagerDebugConsole, @QueryParam("htmllibmanager.debug.init.js") String htmllibmanagerDebugInitJs, @QueryParam("htmllibmanager.defaultthemename") String htmllibmanagerDefaultthemename, @QueryParam("htmllibmanager.defaultuserthemename") String htmllibmanagerDefaultuserthemename, @QueryParam("htmllibmanager.firebuglite.path") String htmllibmanagerFirebuglitePath, @QueryParam("htmllibmanager.forceCQUrlInfo") Boolean htmllibmanagerForceCQUrlInfo, @QueryParam("htmllibmanager.gzip") Boolean htmllibmanagerGzip, @QueryParam("htmllibmanager.maxage") Integer htmllibmanagerMaxage, @QueryParam("htmllibmanager.maxDataUriSize") Integer htmllibmanagerMaxDataUriSize, @QueryParam("htmllibmanager.minify") Boolean htmllibmanagerMinify, @QueryParam("htmllibmanager.path.list") List<String> htmllibmanagerPathList, @QueryParam("htmllibmanager.timing") Boolean htmllibmanagerTiming,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.widget.impl.WidgetExtensionProviderImpl")
+    @Path("/com.day.cq.widget.impl.WidgetExtensionProviderImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWidgetImplWidgetExtensionProviderImplInfo.class, authorizations = {
@@ -8461,7 +8462,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqWidgetImplWidgetExtensionProviderImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("extendable.widgets") List<String> extendableWidgets, @QueryParam("widgetextensionprovider.debug") Boolean widgetextensionproviderDebug,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.workflow.impl.email.EMailNotificationService")
+    @Path("/com.day.cq.workflow.impl.email.EMailNotificationService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWorkflowImplEmailEMailNotificationServiceInfo.class, authorizations = {
@@ -8475,7 +8476,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqWorkflowImplEmailEMailNotificationService( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("from.address") String fromAddress, @QueryParam("host.prefix") String hostPrefix, @QueryParam("notify.onabort") Boolean notifyOnabort, @QueryParam("notify.oncomplete") Boolean notifyOncomplete, @QueryParam("notify.oncontainercomplete") Boolean notifyOncontainercomplete, @QueryParam("notify.useronly") Boolean notifyUseronly,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.cq.workflow.impl.email.TaskEMailNotificationService")
+    @Path("/com.day.cq.workflow.impl.email.TaskEMailNotificationService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWorkflowImplEmailTaskEMailNotificationServiceInfo.class, authorizations = {
@@ -8489,7 +8490,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCqWorkflowImplEmailTaskEMailNotificationService( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("notify.onupdate") Boolean notifyOnupdate, @QueryParam("notify.oncomplete") Boolean notifyOncomplete,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.crx.security.token.impl.impl.TokenAuthenticationHandler")
+    @Path("/com.day.crx.security.token.impl.impl.TokenAuthenticationHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerInfo.class, authorizations = {
@@ -8503,7 +8504,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCrxSecurityTokenImplImplTokenAuthenticationHandler( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("path") String path, @QueryParam("token.required.attr") String tokenRequiredAttr, @QueryParam("token.alternate.url") String tokenAlternateUrl, @QueryParam("token.encapsulated") Boolean tokenEncapsulated, @QueryParam("skip.token.refresh") List<String> skipTokenRefresh,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/com.day.crx.security.token.impl.TokenCleanupTask")
+    @Path("/com.day.crx.security.token.impl.TokenCleanupTask")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCrxSecurityTokenImplTokenCleanupTaskInfo.class, authorizations = {
@@ -8517,7 +8518,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response comDayCrxSecurityTokenImplTokenCleanupTask( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("enable.token.cleanup.task") Boolean enableTokenCleanupTask, @QueryParam("scheduler.expression") String schedulerExpression, @QueryParam("batch.size") Integer batchSize,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/Guide Localization Service")
+    @Path("/Guide Localization Service")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = GuideLocalizationServiceInfo.class, authorizations = {
@@ -8531,7 +8532,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response guideLocalizationService( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("supportedLocales") List<String> supportedLocales, @QueryParam("Localizable Properties") List<String> localizableProperties,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/MessagingUserComponentFactory")
+    @Path("/MessagingUserComponentFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = MessagingUserComponentFactoryInfo.class, authorizations = {
@@ -8545,7 +8546,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response messagingUserComponentFactory( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("priority") Integer priority,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.aries.jmx.framework.StateConfig")
+    @Path("/org.apache.aries.jmx.framework.StateConfig")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheAriesJmxFrameworkStateConfigInfo.class, authorizations = {
@@ -8559,7 +8560,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheAriesJmxFrameworkStateConfig( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("attributeChangeNotificationEnabled") Boolean attributeChangeNotificationEnabled,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.felix.eventadmin.impl.EventAdmin")
+    @Path("/org.apache.felix.eventadmin.impl.EventAdmin")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheFelixEventadminImplEventAdminInfo.class, authorizations = {
@@ -8573,7 +8574,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheFelixEventadminImplEventAdmin( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("org.apache.felix.eventadmin.ThreadPoolSize") Integer orgApacheFelixEventadminThreadPoolSize, @QueryParam("org.apache.felix.eventadmin.AsyncToSyncThreadRatio") BigDecimal orgApacheFelixEventadminAsyncToSyncThreadRatio, @QueryParam("org.apache.felix.eventadmin.Timeout") Integer orgApacheFelixEventadminTimeout, @QueryParam("org.apache.felix.eventadmin.RequireTopic") Boolean orgApacheFelixEventadminRequireTopic, @QueryParam("org.apache.felix.eventadmin.IgnoreTimeout") List<String> orgApacheFelixEventadminIgnoreTimeout, @QueryParam("org.apache.felix.eventadmin.IgnoreTopic") List<String> orgApacheFelixEventadminIgnoreTopic,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.felix.http")
+    @Path("/org.apache.felix.http")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheFelixHttpInfo.class, authorizations = {
@@ -8587,7 +8588,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheFelixHttp( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("org.apache.felix.http.host") String orgApacheFelixHttpHost, @QueryParam("org.apache.felix.http.enable") Boolean orgApacheFelixHttpEnable, @QueryParam("org.osgi.service.http.port") Integer orgOsgiServiceHttpPort, @QueryParam("org.apache.felix.http.timeout") Integer orgApacheFelixHttpTimeout, @QueryParam("org.apache.felix.https.enable") Boolean orgApacheFelixHttpsEnable, @QueryParam("org.osgi.service.http.port.secure") Integer orgOsgiServiceHttpPortSecure, @QueryParam("org.apache.felix.https.keystore") String orgApacheFelixHttpsKeystore, @QueryParam("org.apache.felix.https.keystore.password") String orgApacheFelixHttpsKeystorePassword, @QueryParam("org.apache.felix.https.keystore.key.password") String orgApacheFelixHttpsKeystoreKeyPassword, @QueryParam("org.apache.felix.https.truststore") String orgApacheFelixHttpsTruststore, @QueryParam("org.apache.felix.https.truststore.password") String orgApacheFelixHttpsTruststorePassword, @QueryParam("org.apache.felix.https.clientcertificate") String orgApacheFelixHttpsClientcertificate, @QueryParam("org.apache.felix.http.context_path") String orgApacheFelixHttpContextPath, @QueryParam("org.apache.felix.http.mbeans") Boolean orgApacheFelixHttpMbeans, @QueryParam("org.apache.felix.http.session.timeout") Integer orgApacheFelixHttpSessionTimeout, @QueryParam("org.apache.felix.http.jetty.threadpool.max") Integer orgApacheFelixHttpJettyThreadpoolMax, @QueryParam("org.apache.felix.http.jetty.acceptors") Integer orgApacheFelixHttpJettyAcceptors, @QueryParam("org.apache.felix.http.jetty.selectors") Integer orgApacheFelixHttpJettySelectors, @QueryParam("org.apache.felix.http.jetty.headerBufferSize") Integer orgApacheFelixHttpJettyHeaderBufferSize, @QueryParam("org.apache.felix.http.jetty.requestBufferSize") Integer orgApacheFelixHttpJettyRequestBufferSize, @QueryParam("org.apache.felix.http.jetty.responseBufferSize") Integer orgApacheFelixHttpJettyResponseBufferSize, @QueryParam("org.apache.felix.http.jetty.maxFormSize") Integer orgApacheFelixHttpJettyMaxFormSize, @QueryParam("org.apache.felix.http.path_exclusions") List<String> orgApacheFelixHttpPathExclusions, @QueryParam("org.apache.felix.https.jetty.ciphersuites.excluded") List<String> orgApacheFelixHttpsJettyCiphersuitesExcluded, @QueryParam("org.apache.felix.https.jetty.ciphersuites.included") List<String> orgApacheFelixHttpsJettyCiphersuitesIncluded, @QueryParam("org.apache.felix.http.jetty.sendServerHeader") Boolean orgApacheFelixHttpJettySendServerHeader, @QueryParam("org.apache.felix.https.jetty.protocols.included") List<String> orgApacheFelixHttpsJettyProtocolsIncluded, @QueryParam("org.apache.felix.https.jetty.protocols.excluded") List<String> orgApacheFelixHttpsJettyProtocolsExcluded, @QueryParam("org.apache.felix.proxy.load.balancer.connection.enable") Boolean orgApacheFelixProxyLoadBalancerConnectionEnable, @QueryParam("org.apache.felix.https.jetty.renegotiateAllowed") Boolean orgApacheFelixHttpsJettyRenegotiateAllowed, @QueryParam("org.apache.felix.https.jetty.session.cookie.httpOnly") Boolean orgApacheFelixHttpsJettySessionCookieHttpOnly, @QueryParam("org.apache.felix.https.jetty.session.cookie.secure") Boolean orgApacheFelixHttpsJettySessionCookieSecure, @QueryParam("org.eclipse.jetty.servlet.SessionIdPathParameterName") String orgEclipseJettyServletSessionIdPathParameterName, @QueryParam("org.eclipse.jetty.servlet.CheckingRemoteSessionIdEncoding") Boolean orgEclipseJettyServletCheckingRemoteSessionIdEncoding, @QueryParam("org.eclipse.jetty.servlet.SessionCookie") String orgEclipseJettyServletSessionCookie, @QueryParam("org.eclipse.jetty.servlet.SessionDomain") String orgEclipseJettyServletSessionDomain, @QueryParam("org.eclipse.jetty.servlet.SessionPath") String orgEclipseJettyServletSessionPath, @QueryParam("org.eclipse.jetty.servlet.MaxAge") Integer orgEclipseJettyServletMaxAge, @QueryParam("org.apache.felix.http.name") String orgApacheFelixHttpName, @QueryParam("org.apache.felix.jetty.gziphandler.enable") Boolean orgApacheFelixJettyGziphandlerEnable, @QueryParam("org.apache.felix.jetty.gzip.minGzipSize") Integer orgApacheFelixJettyGzipMinGzipSize, @QueryParam("org.apache.felix.jetty.gzip.compressionLevel") Integer orgApacheFelixJettyGzipCompressionLevel, @QueryParam("org.apache.felix.jetty.gzip.inflateBufferSize") Integer orgApacheFelixJettyGzipInflateBufferSize, @QueryParam("org.apache.felix.jetty.gzip.syncFlush") Boolean orgApacheFelixJettyGzipSyncFlush, @QueryParam("org.apache.felix.jetty.gzip.excludedUserAgents") List<String> orgApacheFelixJettyGzipExcludedUserAgents, @QueryParam("org.apache.felix.jetty.gzip.includedMethods") List<String> orgApacheFelixJettyGzipIncludedMethods, @QueryParam("org.apache.felix.jetty.gzip.excludedMethods") List<String> orgApacheFelixJettyGzipExcludedMethods, @QueryParam("org.apache.felix.jetty.gzip.includedPaths") List<String> orgApacheFelixJettyGzipIncludedPaths, @QueryParam("org.apache.felix.jetty.gzip.excludedPaths") List<String> orgApacheFelixJettyGzipExcludedPaths, @QueryParam("org.apache.felix.jetty.gzip.includedMimeTypes") List<String> orgApacheFelixJettyGzipIncludedMimeTypes, @QueryParam("org.apache.felix.jetty.gzip.excludedMimeTypes") List<String> orgApacheFelixJettyGzipExcludedMimeTypes, @QueryParam("org.apache.felix.http.session.invalidate") Boolean orgApacheFelixHttpSessionInvalidate, @QueryParam("org.apache.felix.http.session.uniqueid") Boolean orgApacheFelixHttpSessionUniqueid,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.felix.http.sslfilter.SslFilter")
+    @Path("/org.apache.felix.http.sslfilter.SslFilter")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheFelixHttpSslfilterSslFilterInfo.class, authorizations = {
@@ -8601,7 +8602,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheFelixHttpSslfilterSslFilter( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("ssl-forward.header") String sslForwardHeader, @QueryParam("ssl-forward.value") String sslForwardValue, @QueryParam("ssl-forward-cert.header") String sslForwardCertHeader, @QueryParam("rewrite.absolute.urls") Boolean rewriteAbsoluteUrls,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.felix.jaas.Configuration.factory")
+    @Path("/org.apache.felix.jaas.Configuration.factory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheFelixJaasConfigurationFactoryInfo.class, authorizations = {
@@ -8615,7 +8616,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheFelixJaasConfigurationFactory( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("jaas.controlFlag") String jaasControlFlag, @QueryParam("jaas.ranking") Integer jaasRanking, @QueryParam("jaas.realmName") String jaasRealmName, @QueryParam("jaas.classname") String jaasClassname, @QueryParam("jaas.options") List<String> jaasOptions,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.felix.jaas.ConfigurationSpi")
+    @Path("/org.apache.felix.jaas.ConfigurationSpi")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheFelixJaasConfigurationSpiInfo.class, authorizations = {
@@ -8629,7 +8630,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheFelixJaasConfigurationSpi( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("jaas.defaultRealmName") String jaasDefaultRealmName, @QueryParam("jaas.configProviderName") String jaasConfigProviderName, @QueryParam("jaas.globalConfigPolicy") String jaasGlobalConfigPolicy,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.felix.scr.ScrService")
+    @Path("/org.apache.felix.scr.ScrService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheFelixScrScrServiceInfo.class, authorizations = {
@@ -8643,7 +8644,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheFelixScrScrService( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("ds.loglevel") Integer dsLoglevel, @QueryParam("ds.factory.enabled") Boolean dsFactoryEnabled, @QueryParam("ds.delayed.keepInstances") Boolean dsDelayedKeepInstances, @QueryParam("ds.lock.timeout.milliseconds") Integer dsLockTimeoutMilliseconds, @QueryParam("ds.stop.timeout.milliseconds") Integer dsStopTimeoutMilliseconds, @QueryParam("ds.global.extender") Boolean dsGlobalExtender,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.felix.systemready.impl.ComponentsCheck")
+    @Path("/org.apache.felix.systemready.impl.ComponentsCheck")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheFelixSystemreadyImplComponentsCheckInfo.class, authorizations = {
@@ -8657,7 +8658,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheFelixSystemreadyImplComponentsCheck( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("components.list") List<String> componentsList, @QueryParam("type") String type,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.felix.systemready.impl.FrameworkStartCheck")
+    @Path("/org.apache.felix.systemready.impl.FrameworkStartCheck")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheFelixSystemreadyImplFrameworkStartCheckInfo.class, authorizations = {
@@ -8671,7 +8672,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheFelixSystemreadyImplFrameworkStartCheck( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("timeout") Integer timeout, @QueryParam("target.start.level") Integer targetStartLevel, @QueryParam("target.start.level.prop.name") String targetStartLevelPropName, @QueryParam("type") String type,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.felix.systemready.impl.ServicesCheck")
+    @Path("/org.apache.felix.systemready.impl.ServicesCheck")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheFelixSystemreadyImplServicesCheckInfo.class, authorizations = {
@@ -8685,7 +8686,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheFelixSystemreadyImplServicesCheck( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("services.list") List<String> servicesList, @QueryParam("type") String type,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.felix.systemready.impl.servlet.SystemAliveServlet")
+    @Path("/org.apache.felix.systemready.impl.servlet.SystemAliveServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheFelixSystemreadyImplServletSystemAliveServletInfo.class, authorizations = {
@@ -8699,7 +8700,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheFelixSystemreadyImplServletSystemAliveServlet( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("osgi.http.whiteboard.servlet.pattern") String osgiHttpWhiteboardServletPattern, @QueryParam("osgi.http.whiteboard.context.select") String osgiHttpWhiteboardContextSelect,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.felix.systemready.impl.servlet.SystemReadyServlet")
+    @Path("/org.apache.felix.systemready.impl.servlet.SystemReadyServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheFelixSystemreadyImplServletSystemReadyServletInfo.class, authorizations = {
@@ -8713,7 +8714,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheFelixSystemreadyImplServletSystemReadyServlet( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("osgi.http.whiteboard.servlet.pattern") String osgiHttpWhiteboardServletPattern, @QueryParam("osgi.http.whiteboard.context.select") String osgiHttpWhiteboardContextSelect,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.felix.systemready.SystemReadyMonitor")
+    @Path("/org.apache.felix.systemready.SystemReadyMonitor")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheFelixSystemreadySystemReadyMonitorInfo.class, authorizations = {
@@ -8727,7 +8728,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheFelixSystemreadySystemReadyMonitor( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("poll.interval") Integer pollInterval,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.felix.webconsole.internal.servlet.OsgiManager")
+    @Path("/org.apache.felix.webconsole.internal.servlet.OsgiManager")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheFelixWebconsoleInternalServletOsgiManagerInfo.class, authorizations = {
@@ -8741,7 +8742,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheFelixWebconsoleInternalServletOsgiManager( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("manager.root") String managerRoot, @QueryParam("http.service.filter") String httpServiceFilter, @QueryParam("default.render") String defaultRender, @QueryParam("realm") String realm, @QueryParam("username") String username, @QueryParam("password") String password, @QueryParam("category") String category, @QueryParam("locale") String locale, @QueryParam("loglevel") Integer loglevel, @QueryParam("plugins") String plugins,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.felix.webconsole.plugins.event.internal.PluginServlet")
+    @Path("/org.apache.felix.webconsole.plugins.event.internal.PluginServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheFelixWebconsolePluginsEventInternalPluginServletInfo.class, authorizations = {
@@ -8755,7 +8756,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheFelixWebconsolePluginsEventInternalPluginServlet( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("max.size") Integer maxSize,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.felix.webconsole.plugins.memoryusage.internal.MemoryUsageConfigurator")
+    @Path("/org.apache.felix.webconsole.plugins.memoryusage.internal.MemoryUsageConfigurator")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCoInfo.class, authorizations = {
@@ -8769,7 +8770,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCo( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("felix.memoryusage.dump.threshold") Integer felixMemoryusageDumpThreshold, @QueryParam("felix.memoryusage.dump.interval") Integer felixMemoryusageDumpInterval, @QueryParam("felix.memoryusage.dump.location") String felixMemoryusageDumpLocation,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.http.proxyconfigurator")
+    @Path("/org.apache.http.proxyconfigurator")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheHttpProxyconfiguratorInfo.class, authorizations = {
@@ -8783,7 +8784,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheHttpProxyconfigurator( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("proxy.enabled") Boolean proxyEnabled, @QueryParam("proxy.host") String proxyHost, @QueryParam("proxy.port") Integer proxyPort, @QueryParam("proxy.user") String proxyUser, @QueryParam("proxy.password") String proxyPassword, @QueryParam("proxy.exceptions") List<String> proxyExceptions,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.jackrabbit.oak.plugins.blob.datastore.DataStoreTextProviderService")
+    @Path("/org.apache.jackrabbit.oak.plugins.blob.datastore.DataStoreTextProviderService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProviderInfo.class, authorizations = {
@@ -8797,7 +8798,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProvider( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("dir") String dir,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore")
+    @Path("/org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheJackrabbitOakPluginsBlobDatastoreFileDataStoreInfo.class, authorizations = {
@@ -8811,7 +8812,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheJackrabbitOakPluginsBlobDatastoreFileDataStore( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("path") String path,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.jackrabbit.oak.plugins.document.DocumentNodeStoreService")
+    @Path("/org.apache.jackrabbit.oak.plugins.document.DocumentNodeStoreService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceInfo.class, authorizations = {
@@ -8825,7 +8826,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreService( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("mongouri") String mongouri, @QueryParam("db") String db, @QueryParam("socketKeepAlive") Boolean socketKeepAlive, @QueryParam("cache") Integer cache, @QueryParam("nodeCachePercentage") Integer nodeCachePercentage, @QueryParam("prevDocCachePercentage") Integer prevDocCachePercentage, @QueryParam("childrenCachePercentage") Integer childrenCachePercentage, @QueryParam("diffCachePercentage") Integer diffCachePercentage, @QueryParam("cacheSegmentCount") Integer cacheSegmentCount, @QueryParam("cacheStackMoveDistance") Integer cacheStackMoveDistance, @QueryParam("blobCacheSize") Integer blobCacheSize, @QueryParam("persistentCache") String persistentCache, @QueryParam("journalCache") String journalCache, @QueryParam("customBlobStore") Boolean customBlobStore, @QueryParam("journalGCInterval") Integer journalGCInterval, @QueryParam("journalGCMaxAge") Integer journalGCMaxAge, @QueryParam("prefetchExternalChanges") Boolean prefetchExternalChanges, @QueryParam("role") String role, @QueryParam("versionGcMaxAgeInSecs") Integer versionGcMaxAgeInSecs, @QueryParam("versionGCExpression") String versionGCExpression, @QueryParam("versionGCTimeLimitInSecs") Integer versionGCTimeLimitInSecs, @QueryParam("blobGcMaxAgeInSecs") Integer blobGcMaxAgeInSecs, @QueryParam("blobTrackSnapshotIntervalInSecs") Integer blobTrackSnapshotIntervalInSecs, @QueryParam("repository.home") String repositoryHome, @QueryParam("maxReplicationLagInSecs") Integer maxReplicationLagInSecs, @QueryParam("documentStoreType") String documentStoreType, @QueryParam("bundlingDisabled") Boolean bundlingDisabled, @QueryParam("updateLimit") Integer updateLimit, @QueryParam("persistentCacheIncludes") List<String> persistentCacheIncludes, @QueryParam("leaseCheckMode") String leaseCheckMode,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.jackrabbit.oak.plugins.document.DocumentNodeStoreServicePreset")
+    @Path("/org.apache.jackrabbit.oak.plugins.document.DocumentNodeStoreServicePreset")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePreInfo.class, authorizations = {
@@ -8839,7 +8840,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePre( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("persistentCacheIncludes") List<String> persistentCacheIncludes,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.jackrabbit.oak.plugins.document.secondary.SecondaryStoreCacheService")
+    @Path("/org.apache.jackrabbit.oak.plugins.document.secondary.SecondaryStoreCacheService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacInfo.class, authorizations = {
@@ -8853,7 +8854,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCac( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("includedPaths") List<String> includedPaths, @QueryParam("enableAsyncObserver") Boolean enableAsyncObserver, @QueryParam("observerQueueSize") Integer observerQueueSize,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.jackrabbit.oak.plugins.index.AsyncIndexerService")
+    @Path("/org.apache.jackrabbit.oak.plugins.index.AsyncIndexerService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheJackrabbitOakPluginsIndexAsyncIndexerServiceInfo.class, authorizations = {
@@ -8867,7 +8868,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheJackrabbitOakPluginsIndexAsyncIndexerService( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("asyncConfigs") List<String> asyncConfigs, @QueryParam("leaseTimeOutMinutes") Integer leaseTimeOutMinutes, @QueryParam("failingIndexTimeoutSeconds") Integer failingIndexTimeoutSeconds, @QueryParam("errorWarnIntervalSeconds") Integer errorWarnIntervalSeconds,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.jackrabbit.oak.plugins.index.lucene.LuceneIndexProviderService")
+    @Path("/org.apache.jackrabbit.oak.plugins.index.lucene.LuceneIndexProviderService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServInfo.class, authorizations = {
@@ -8881,7 +8882,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServ( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("disabled") Boolean disabled, @QueryParam("debug") Boolean debug, @QueryParam("localIndexDir") String localIndexDir, @QueryParam("enableOpenIndexAsync") Boolean enableOpenIndexAsync, @QueryParam("threadPoolSize") Integer threadPoolSize, @QueryParam("prefetchIndexFiles") Boolean prefetchIndexFiles, @QueryParam("extractedTextCacheSizeInMB") Integer extractedTextCacheSizeInMB, @QueryParam("extractedTextCacheExpiryInSecs") Integer extractedTextCacheExpiryInSecs, @QueryParam("alwaysUsePreExtractedCache") Boolean alwaysUsePreExtractedCache, @QueryParam("booleanClauseLimit") Integer booleanClauseLimit, @QueryParam("enableHybridIndexing") Boolean enableHybridIndexing, @QueryParam("hybridQueueSize") Integer hybridQueueSize, @QueryParam("disableStoredIndexDefinition") Boolean disableStoredIndexDefinition, @QueryParam("deletedBlobsCollectionEnabled") Boolean deletedBlobsCollectionEnabled, @QueryParam("propIndexCleanerIntervalInSecs") Integer propIndexCleanerIntervalInSecs, @QueryParam("enableSingleBlobIndexFiles") Boolean enableSingleBlobIndexFiles,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.jackrabbit.oak.plugins.index.solr.osgi.EmbeddedSolrServerConfigurationProvider")
+    @Path("/org.apache.jackrabbit.oak.plugins.index.solr.osgi.EmbeddedSolrServerConfigurationProvider")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCoInfo.class, authorizations = {
@@ -8895,7 +8896,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCo( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("solr.home.path") String solrHomePath, @QueryParam("solr.core.name") String solrCoreName,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.jackrabbit.oak.plugins.index.solr.osgi.NodeStateSolrServersObserverService")
+    @Path("/org.apache.jackrabbit.oak.plugins.index.solr.osgi.NodeStateSolrServersObserverService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersInfo.class, authorizations = {
@@ -8909,7 +8910,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServers( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("enabled") Boolean enabled,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.jackrabbit.oak.plugins.index.solr.osgi.OakSolrConfigurationProviderService")
+    @Path("/org.apache.jackrabbit.oak.plugins.index.solr.osgi.OakSolrConfigurationProviderService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationInfo.class, authorizations = {
@@ -8923,7 +8924,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfiguration( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("path.desc.field") String pathDescField, @QueryParam("path.child.field") String pathChildField, @QueryParam("path.parent.field") String pathParentField, @QueryParam("path.exact.field") String pathExactField, @QueryParam("catch.all.field") String catchAllField, @QueryParam("collapsed.path.field") String collapsedPathField, @QueryParam("path.depth.field") String pathDepthField, @QueryParam("commit.policy") String commitPolicy, @QueryParam("rows") Integer rows, @QueryParam("path.restrictions") Boolean pathRestrictions, @QueryParam("property.restrictions") Boolean propertyRestrictions, @QueryParam("primarytypes.restrictions") Boolean primarytypesRestrictions, @QueryParam("ignored.properties") List<String> ignoredProperties, @QueryParam("used.properties") List<String> usedProperties, @QueryParam("type.mappings") List<String> typeMappings, @QueryParam("property.mappings") List<String> propertyMappings, @QueryParam("collapse.jcrcontent.nodes") Boolean collapseJcrcontentNodes,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.jackrabbit.oak.plugins.index.solr.osgi.RemoteSolrServerConfigurationProvider")
+    @Path("/org.apache.jackrabbit.oak.plugins.index.solr.osgi.RemoteSolrServerConfigurationProvider")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfInfo.class, authorizations = {
@@ -8937,7 +8938,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConf( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("solr.http.url") String solrHttpUrl, @QueryParam("solr.zk.host") String solrZkHost, @QueryParam("solr.collection") String solrCollection, @QueryParam("solr.socket.timeout") Integer solrSocketTimeout, @QueryParam("solr.connection.timeout") Integer solrConnectionTimeout, @QueryParam("solr.shards.no") Integer solrShardsNo, @QueryParam("solr.replication.factor") Integer solrReplicationFactor, @QueryParam("solr.conf.dir") String solrConfDir,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.jackrabbit.oak.plugins.index.solr.osgi.SolrQueryIndexProviderService")
+    @Path("/org.apache.jackrabbit.oak.plugins.index.solr.osgi.SolrQueryIndexProviderService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProvidInfo.class, authorizations = {
@@ -8951,7 +8952,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProvid( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("query.aggregation") Boolean queryAggregation,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.jackrabbit.oak.plugins.index.solr.osgi.SolrServerProviderService")
+    @Path("/org.apache.jackrabbit.oak.plugins.index.solr.osgi.SolrServerProviderService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderSeInfo.class, authorizations = {
@@ -8965,7 +8966,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderSe( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("server.type") String serverType,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.jackrabbit.oak.plugins.metric.StatisticsProviderFactory")
+    @Path("/org.apache.jackrabbit.oak.plugins.metric.StatisticsProviderFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheJackrabbitOakPluginsMetricStatisticsProviderFactoryInfo.class, authorizations = {
@@ -8979,7 +8980,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheJackrabbitOakPluginsMetricStatisticsProviderFactory( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("providerType") String providerType,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.jackrabbit.oak.plugins.observation.ChangeCollectorProvider")
+    @Path("/org.apache.jackrabbit.oak.plugins.observation.ChangeCollectorProvider")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheJackrabbitOakPluginsObservationChangeCollectorProviderInfo.class, authorizations = {
@@ -8993,7 +8994,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheJackrabbitOakPluginsObservationChangeCollectorProvider( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("maxItems") Integer maxItems, @QueryParam("maxPathDepth") Integer maxPathDepth, @QueryParam("enabled") Boolean enabled,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.jackrabbit.oak.query.QueryEngineSettingsService")
+    @Path("/org.apache.jackrabbit.oak.query.QueryEngineSettingsService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceInfo.class, authorizations = {
@@ -9007,7 +9008,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheJackrabbitOakQueryQueryEngineSettingsService( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("queryLimitInMemory") Integer queryLimitInMemory, @QueryParam("queryLimitReads") Integer queryLimitReads, @QueryParam("queryFailTraversal") Boolean queryFailTraversal, @QueryParam("fastQuerySize") Boolean fastQuerySize,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.jackrabbit.oak.security.authentication.AuthenticationConfigurationImpl")
+    @Path("/org.apache.jackrabbit.oak.security.authentication.AuthenticationConfigurationImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigInfo.class, authorizations = {
@@ -9021,7 +9022,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfig( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("org.apache.jackrabbit.oak.authentication.appName") String orgApacheJackrabbitOakAuthenticationAppName, @QueryParam("org.apache.jackrabbit.oak.authentication.configSpiName") String orgApacheJackrabbitOakAuthenticationConfigSpiName,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.jackrabbit.oak.security.authentication.ldap.impl.LdapIdentityProvider")
+    @Path("/org.apache.jackrabbit.oak.security.authentication.ldap.impl.LdapIdentityProvider")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiInfo.class, authorizations = {
@@ -9035,7 +9036,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdenti( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("provider.name") String providerName, @QueryParam("host.name") String hostName, @QueryParam("host.port") Integer hostPort, @QueryParam("host.ssl") Boolean hostSsl, @QueryParam("host.tls") Boolean hostTls, @QueryParam("host.noCertCheck") Boolean hostNoCertCheck, @QueryParam("bind.dn") String bindDn, @QueryParam("bind.password") String bindPassword, @QueryParam("searchTimeout") String searchTimeout, @QueryParam("adminPool.maxActive") Integer adminPoolMaxActive, @QueryParam("adminPool.lookupOnValidate") Boolean adminPoolLookupOnValidate, @QueryParam("userPool.maxActive") Integer userPoolMaxActive, @QueryParam("userPool.lookupOnValidate") Boolean userPoolLookupOnValidate, @QueryParam("user.baseDN") String userBaseDN, @QueryParam("user.objectclass") List<String> userObjectclass, @QueryParam("user.idAttribute") String userIdAttribute, @QueryParam("user.extraFilter") String userExtraFilter, @QueryParam("user.makeDnPath") Boolean userMakeDnPath, @QueryParam("group.baseDN") String groupBaseDN, @QueryParam("group.objectclass") List<String> groupObjectclass, @QueryParam("group.nameAttribute") String groupNameAttribute, @QueryParam("group.extraFilter") String groupExtraFilter, @QueryParam("group.makeDnPath") Boolean groupMakeDnPath, @QueryParam("group.memberAttribute") String groupMemberAttribute, @QueryParam("useUidForExtId") Boolean useUidForExtId, @QueryParam("customattributes") List<String> customattributes,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.jackrabbit.oak.security.authentication.token.TokenConfigurationImpl")
+    @Path("/org.apache.jackrabbit.oak.security.authentication.token.TokenConfigurationImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraInfo.class, authorizations = {
@@ -9049,7 +9050,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfigura( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("tokenExpiration") String tokenExpiration, @QueryParam("tokenLength") String tokenLength, @QueryParam("tokenRefresh") Boolean tokenRefresh, @QueryParam("tokenCleanupThreshold") Integer tokenCleanupThreshold, @QueryParam("passwordHashAlgorithm") String passwordHashAlgorithm, @QueryParam("passwordHashIterations") Integer passwordHashIterations, @QueryParam("passwordSaltSize") Integer passwordSaltSize,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.jackrabbit.oak.security.authorization.AuthorizationConfigurationImpl")
+    @Path("/org.apache.jackrabbit.oak.security.authorization.AuthorizationConfigurationImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurInfo.class, authorizations = {
@@ -9063,7 +9064,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigur( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("permissionsJr2") String permissionsJr2, @QueryParam("importBehavior") String importBehavior, @QueryParam("readPaths") List<String> readPaths, @QueryParam("administrativePrincipals") List<String> administrativePrincipals, @QueryParam("configurationRanking") Integer configurationRanking,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.jackrabbit.oak.security.internal.SecurityProviderRegistration")
+    @Path("/org.apache.jackrabbit.oak.security.internal.SecurityProviderRegistration")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistratiInfo.class, authorizations = {
@@ -9077,7 +9078,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheJackrabbitOakSecurityInternalSecurityProviderRegistrati( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("requiredServicePids") List<String> requiredServicePids, @QueryParam("authorizationCompositionType") String authorizationCompositionType,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.jackrabbit.oak.security.user.RandomAuthorizableNodeName")
+    @Path("/org.apache.jackrabbit.oak.security.user.RandomAuthorizableNodeName")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheJackrabbitOakSecurityUserRandomAuthorizableNodeNameInfo.class, authorizations = {
@@ -9091,7 +9092,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheJackrabbitOakSecurityUserRandomAuthorizableNodeName( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("length") Integer length,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.jackrabbit.oak.security.user.UserConfigurationImpl")
+    @Path("/org.apache.jackrabbit.oak.security.user.UserConfigurationImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheJackrabbitOakSecurityUserUserConfigurationImplInfo.class, authorizations = {
@@ -9105,7 +9106,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheJackrabbitOakSecurityUserUserConfigurationImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("usersPath") String usersPath, @QueryParam("groupsPath") String groupsPath, @QueryParam("systemRelativePath") String systemRelativePath, @QueryParam("defaultDepth") Integer defaultDepth, @QueryParam("importBehavior") String importBehavior, @QueryParam("passwordHashAlgorithm") String passwordHashAlgorithm, @QueryParam("passwordHashIterations") Integer passwordHashIterations, @QueryParam("passwordSaltSize") Integer passwordSaltSize, @QueryParam("omitAdminPw") Boolean omitAdminPw, @QueryParam("supportAutoSave") Boolean supportAutoSave, @QueryParam("passwordMaxAge") Integer passwordMaxAge, @QueryParam("initialPasswordChange") Boolean initialPasswordChange, @QueryParam("passwordHistorySize") Integer passwordHistorySize, @QueryParam("passwordExpiryForAdmin") Boolean passwordExpiryForAdmin, @QueryParam("cacheExpiration") Integer cacheExpiration, @QueryParam("enableRFC7613UsercaseMappedProfile") Boolean enableRFC7613UsercaseMappedProfile,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.jackrabbit.oak.segment.azure.AzureSegmentStoreService")
+    @Path("/org.apache.jackrabbit.oak.segment.azure.AzureSegmentStoreService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServiceInfo.class, authorizations = {
@@ -9119,7 +9120,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheJackrabbitOakSegmentAzureAzureSegmentStoreService( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("accountName") String accountName, @QueryParam("containerName") String containerName, @QueryParam("accessKey") String accessKey, @QueryParam("rootPath") String rootPath, @QueryParam("connectionURL") String connectionURL,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.jackrabbit.oak.segment.SegmentNodeStoreFactory")
+    @Path("/org.apache.jackrabbit.oak.segment.SegmentNodeStoreFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryInfo.class, authorizations = {
@@ -9133,7 +9134,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheJackrabbitOakSegmentSegmentNodeStoreFactory( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("repository.home") String repositoryHome, @QueryParam("tarmk.mode") String tarmkMode, @QueryParam("tarmk.size") Integer tarmkSize, @QueryParam("segmentCache.size") Integer segmentCacheSize, @QueryParam("stringCache.size") Integer stringCacheSize, @QueryParam("templateCache.size") Integer templateCacheSize, @QueryParam("stringDeduplicationCache.size") Integer stringDeduplicationCacheSize, @QueryParam("templateDeduplicationCache.size") Integer templateDeduplicationCacheSize, @QueryParam("nodeDeduplicationCache.size") Integer nodeDeduplicationCacheSize, @QueryParam("pauseCompaction") Boolean pauseCompaction, @QueryParam("compaction.retryCount") Integer compactionRetryCount, @QueryParam("compaction.force.timeout") Integer compactionForceTimeout, @QueryParam("compaction.sizeDeltaEstimation") Integer compactionSizeDeltaEstimation, @QueryParam("compaction.disableEstimation") Boolean compactionDisableEstimation, @QueryParam("compaction.retainedGenerations") Integer compactionRetainedGenerations, @QueryParam("compaction.memoryThreshold") Integer compactionMemoryThreshold, @QueryParam("compaction.progressLog") Integer compactionProgressLog, @QueryParam("standby") Boolean standby, @QueryParam("customBlobStore") Boolean customBlobStore, @QueryParam("customSegmentStore") Boolean customSegmentStore, @QueryParam("splitPersistence") Boolean splitPersistence, @QueryParam("repository.backup.dir") String repositoryBackupDir, @QueryParam("blobGcMaxAgeInSecs") Integer blobGcMaxAgeInSecs, @QueryParam("blobTrackSnapshotIntervalInSecs") Integer blobTrackSnapshotIntervalInSecs, @QueryParam("role") String role, @QueryParam("registerDescriptors") Boolean registerDescriptors, @QueryParam("dispatchChanges") Boolean dispatchChanges,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.jackrabbit.oak.segment.SegmentNodeStoreMonitorService")
+    @Path("/org.apache.jackrabbit.oak.segment.SegmentNodeStoreMonitorService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheJackrabbitOakSegmentSegmentNodeStoreMonitorServiceInfo.class, authorizations = {
@@ -9147,7 +9148,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheJackrabbitOakSegmentSegmentNodeStoreMonitorService( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("commitsTrackerWriterGroups") List<String> commitsTrackerWriterGroups,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.jackrabbit.oak.segment.SegmentNodeStoreService")
+    @Path("/org.apache.jackrabbit.oak.segment.SegmentNodeStoreService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheJackrabbitOakSegmentSegmentNodeStoreServiceInfo.class, authorizations = {
@@ -9161,7 +9162,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheJackrabbitOakSegmentSegmentNodeStoreService( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("repository.home") String repositoryHome, @QueryParam("tarmk.mode") String tarmkMode, @QueryParam("tarmk.size") Integer tarmkSize, @QueryParam("segmentCache.size") Integer segmentCacheSize, @QueryParam("stringCache.size") Integer stringCacheSize, @QueryParam("templateCache.size") Integer templateCacheSize, @QueryParam("stringDeduplicationCache.size") Integer stringDeduplicationCacheSize, @QueryParam("templateDeduplicationCache.size") Integer templateDeduplicationCacheSize, @QueryParam("nodeDeduplicationCache.size") Integer nodeDeduplicationCacheSize, @QueryParam("pauseCompaction") Boolean pauseCompaction, @QueryParam("compaction.retryCount") Integer compactionRetryCount, @QueryParam("compaction.force.timeout") Integer compactionForceTimeout, @QueryParam("compaction.sizeDeltaEstimation") Integer compactionSizeDeltaEstimation, @QueryParam("compaction.disableEstimation") Boolean compactionDisableEstimation, @QueryParam("compaction.retainedGenerations") Integer compactionRetainedGenerations, @QueryParam("compaction.memoryThreshold") Integer compactionMemoryThreshold, @QueryParam("compaction.progressLog") Integer compactionProgressLog, @QueryParam("standby") Boolean standby, @QueryParam("customBlobStore") Boolean customBlobStore, @QueryParam("customSegmentStore") Boolean customSegmentStore, @QueryParam("splitPersistence") Boolean splitPersistence, @QueryParam("repository.backup.dir") String repositoryBackupDir, @QueryParam("blobGcMaxAgeInSecs") Integer blobGcMaxAgeInSecs, @QueryParam("blobTrackSnapshotIntervalInSecs") Integer blobTrackSnapshotIntervalInSecs,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.jackrabbit.oak.segment.standby.store.StandbyStoreService")
+    @Path("/org.apache.jackrabbit.oak.segment.standby.store.StandbyStoreService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheJackrabbitOakSegmentStandbyStoreStandbyStoreServiceInfo.class, authorizations = {
@@ -9175,7 +9176,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheJackrabbitOakSegmentStandbyStoreStandbyStoreService( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("org.apache.sling.installer.configuration.persist") Boolean orgApacheSlingInstallerConfigurationPersist, @QueryParam("mode") String mode, @QueryParam("port") Integer port, @QueryParam("primary.host") String primaryHost, @QueryParam("interval") Integer interval, @QueryParam("primary.allowed-client-ip-ranges") List<String> primaryAllowedClientIpRanges, @QueryParam("secure") Boolean secure, @QueryParam("standby.readtimeout") Integer standbyReadtimeout, @QueryParam("standby.autoclean") Boolean standbyAutoclean,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.jackrabbit.oak.spi.security.authentication.external.impl.DefaultSyncHandler")
+    @Path("/org.apache.jackrabbit.oak.spi.security.authentication.external.impl.DefaultSyncHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeInfo.class, authorizations = {
@@ -9189,7 +9190,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDe( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("handler.name") String handlerName, @QueryParam("user.expirationTime") String userExpirationTime, @QueryParam("user.autoMembership") List<String> userAutoMembership, @QueryParam("user.propertyMapping") List<String> userPropertyMapping, @QueryParam("user.pathPrefix") String userPathPrefix, @QueryParam("user.membershipExpTime") String userMembershipExpTime, @QueryParam("user.membershipNestingDepth") Integer userMembershipNestingDepth, @QueryParam("user.dynamicMembership") Boolean userDynamicMembership, @QueryParam("user.disableMissing") Boolean userDisableMissing, @QueryParam("group.expirationTime") String groupExpirationTime, @QueryParam("group.autoMembership") List<String> groupAutoMembership, @QueryParam("group.propertyMapping") List<String> groupPropertyMapping, @QueryParam("group.pathPrefix") String groupPathPrefix, @QueryParam("enableRFC7613UsercaseMappedProfile") Boolean enableRFC7613UsercaseMappedProfile,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.jackrabbit.oak.spi.security.authentication.external.impl.ExternalLoginModuleFactory")
+    @Path("/org.apache.jackrabbit.oak.spi.security.authentication.external.impl.ExternalLoginModuleFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExInfo.class, authorizations = {
@@ -9203,7 +9204,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplEx( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("jaas.ranking") Integer jaasRanking, @QueryParam("jaas.controlFlag") String jaasControlFlag, @QueryParam("jaas.realmName") String jaasRealmName, @QueryParam("idp.name") String idpName, @QueryParam("sync.handlerName") String syncHandlerName,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.jackrabbit.oak.spi.security.authentication.external.impl.principal.ExternalPrincipalConfiguration")
+    @Path("/org.apache.jackrabbit.oak.spi.security.authentication.external.impl.principal.ExternalPrincipalConfiguration")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrInfo.class, authorizations = {
@@ -9217,7 +9218,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPr( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("protectExternalId") Boolean protectExternalId,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.jackrabbit.oak.spi.security.authorization.cug.impl.CugConfiguration")
+    @Path("/org.apache.jackrabbit.oak.spi.security.authorization.cug.impl.CugConfiguration")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiInfo.class, authorizations = {
@@ -9231,7 +9232,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfi( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("cugSupportedPaths") List<String> cugSupportedPaths, @QueryParam("cugEnabled") Boolean cugEnabled, @QueryParam("configurationRanking") Integer configurationRanking,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.jackrabbit.oak.spi.security.authorization.cug.impl.CugExcludeImpl")
+    @Path("/org.apache.jackrabbit.oak.spi.security.authorization.cug.impl.CugExcludeImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExcluInfo.class, authorizations = {
@@ -9245,7 +9246,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExclu( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("principalNames") List<String> principalNames,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.jackrabbit.oak.spi.security.user.action.DefaultAuthorizableActionProvider")
+    @Path("/org.apache.jackrabbit.oak.spi.security.user.action.DefaultAuthorizableActionProvider")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableInfo.class, authorizations = {
@@ -9259,7 +9260,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizable( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("enabledActions") String enabledActions, @QueryParam("userPrivilegeNames") List<String> userPrivilegeNames, @QueryParam("groupPrivilegeNames") List<String> groupPrivilegeNames, @QueryParam("constraint") String constraint,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.jackrabbit.vault.packaging.impl.PackagingImpl")
+    @Path("/org.apache.jackrabbit.vault.packaging.impl.PackagingImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheJackrabbitVaultPackagingImplPackagingImplInfo.class, authorizations = {
@@ -9273,7 +9274,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheJackrabbitVaultPackagingImplPackagingImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("packageRoots") List<String> packageRoots,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.jackrabbit.vault.packaging.registry.impl.FSPackageRegistry")
+    @Path("/org.apache.jackrabbit.vault.packaging.registry.impl.FSPackageRegistry")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheJackrabbitVaultPackagingRegistryImplFSPackageRegistryInfo.class, authorizations = {
@@ -9287,7 +9288,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheJackrabbitVaultPackagingRegistryImplFSPackageRegistry( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("homePath") String homePath,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.auth.core.impl.LogoutServlet")
+    @Path("/org.apache.sling.auth.core.impl.LogoutServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingAuthCoreImplLogoutServletInfo.class, authorizations = {
@@ -9301,7 +9302,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingAuthCoreImplLogoutServlet( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("sling.servlet.methods") List<String> slingServletMethods, @QueryParam("sling.servlet.paths") String slingServletPaths,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.caconfig.impl.ConfigurationBindingsValueProvider")
+    @Path("/org.apache.sling.caconfig.impl.ConfigurationBindingsValueProvider")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingCaconfigImplConfigurationBindingsValueProviderInfo.class, authorizations = {
@@ -9315,7 +9316,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingCaconfigImplConfigurationBindingsValueProvider( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("enabled") Boolean enabled,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.caconfig.impl.ConfigurationResolverImpl")
+    @Path("/org.apache.sling.caconfig.impl.ConfigurationResolverImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingCaconfigImplConfigurationResolverImplInfo.class, authorizations = {
@@ -9329,7 +9330,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingCaconfigImplConfigurationResolverImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("configBucketNames") List<String> configBucketNames,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.caconfig.impl.def.DefaultConfigurationInheritanceStrategy")
+    @Path("/org.apache.sling.caconfig.impl.def.DefaultConfigurationInheritanceStrategy")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStraInfo.class, authorizations = {
@@ -9343,7 +9344,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStra( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("enabled") Boolean enabled, @QueryParam("configPropertyInheritancePropertyNames") List<String> configPropertyInheritancePropertyNames,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.caconfig.impl.def.DefaultConfigurationPersistenceStrategy")
+    @Path("/org.apache.sling.caconfig.impl.def.DefaultConfigurationPersistenceStrategy")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStraInfo.class, authorizations = {
@@ -9357,7 +9358,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStra( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("enabled") Boolean enabled,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.caconfig.impl.override.OsgiConfigurationOverrideProvider")
+    @Path("/org.apache.sling.caconfig.impl.override.OsgiConfigurationOverrideProvider")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviInfo.class, authorizations = {
@@ -9371,7 +9372,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProvi( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("description") String description, @QueryParam("overrides") List<String> overrides, @QueryParam("enabled") Boolean enabled, @QueryParam("service.ranking") Integer serviceRanking,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.caconfig.impl.override.SystemPropertyConfigurationOverrideProvider")
+    @Path("/org.apache.sling.caconfig.impl.override.SystemPropertyConfigurationOverrideProvider")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOveInfo.class, authorizations = {
@@ -9385,7 +9386,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOve( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("enabled") Boolean enabled, @QueryParam("service.ranking") Integer serviceRanking,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.caconfig.management.impl.ConfigurationManagementSettingsImpl")
+    @Path("/org.apache.sling.caconfig.management.impl.ConfigurationManagementSettingsImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingCaconfigManagementImplConfigurationManagementSettiInfo.class, authorizations = {
@@ -9399,7 +9400,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingCaconfigManagementImplConfigurationManagementSetti( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("ignorePropertyNameRegex") List<String> ignorePropertyNameRegex, @QueryParam("configCollectionPropertiesResourceNames") List<String> configCollectionPropertiesResourceNames,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.caconfig.resource.impl.def.DefaultConfigurationResourceResolvingStrategy")
+    @Path("/org.apache.sling.caconfig.resource.impl.def.DefaultConfigurationResourceResolvingStrategy")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourInfo.class, authorizations = {
@@ -9413,7 +9414,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingCaconfigResourceImplDefDefaultConfigurationResour( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("enabled") Boolean enabled, @QueryParam("configPath") String configPath, @QueryParam("fallbackPaths") List<String> fallbackPaths, @QueryParam("configCollectionInheritancePropertyNames") List<String> configCollectionInheritancePropertyNames,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.caconfig.resource.impl.def.DefaultContextPathStrategy")
+    @Path("/org.apache.sling.caconfig.resource.impl.def.DefaultContextPathStrategy")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyInfo.class, authorizations = {
@@ -9427,7 +9428,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategy( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("enabled") Boolean enabled, @QueryParam("configRefResourceNames") List<String> configRefResourceNames, @QueryParam("configRefPropertyNames") List<String> configRefPropertyNames, @QueryParam("service.ranking") Integer serviceRanking,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.commons.html.internal.TagsoupHtmlParser")
+    @Path("/org.apache.sling.commons.html.internal.TagsoupHtmlParser")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingCommonsHtmlInternalTagsoupHtmlParserInfo.class, authorizations = {
@@ -9441,7 +9442,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingCommonsHtmlInternalTagsoupHtmlParser( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("parser.features") List<String> parserFeatures,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.commons.log.LogManager")
+    @Path("/org.apache.sling.commons.log.LogManager")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingCommonsLogLogManagerInfo.class, authorizations = {
@@ -9455,7 +9456,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingCommonsLogLogManager( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("org.apache.sling.commons.log.level") String orgApacheSlingCommonsLogLevel, @QueryParam("org.apache.sling.commons.log.file") String orgApacheSlingCommonsLogFile, @QueryParam("org.apache.sling.commons.log.file.number") Integer orgApacheSlingCommonsLogFileNumber, @QueryParam("org.apache.sling.commons.log.file.size") String orgApacheSlingCommonsLogFileSize, @QueryParam("org.apache.sling.commons.log.pattern") String orgApacheSlingCommonsLogPattern, @QueryParam("org.apache.sling.commons.log.configurationFile") String orgApacheSlingCommonsLogConfigurationFile, @QueryParam("org.apache.sling.commons.log.packagingDataEnabled") Boolean orgApacheSlingCommonsLogPackagingDataEnabled, @QueryParam("org.apache.sling.commons.log.maxCallerDataDepth") Integer orgApacheSlingCommonsLogMaxCallerDataDepth, @QueryParam("org.apache.sling.commons.log.maxOldFileCountInDump") Integer orgApacheSlingCommonsLogMaxOldFileCountInDump, @QueryParam("org.apache.sling.commons.log.numOfLines") Integer orgApacheSlingCommonsLogNumOfLines,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.commons.log.LogManager.factory.config")
+    @Path("/org.apache.sling.commons.log.LogManager.factory.config")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingCommonsLogLogManagerFactoryConfigInfo.class, authorizations = {
@@ -9469,7 +9470,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingCommonsLogLogManagerFactoryConfig( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("org.apache.sling.commons.log.level") String orgApacheSlingCommonsLogLevel, @QueryParam("org.apache.sling.commons.log.file") String orgApacheSlingCommonsLogFile, @QueryParam("org.apache.sling.commons.log.pattern") String orgApacheSlingCommonsLogPattern, @QueryParam("org.apache.sling.commons.log.names") List<String> orgApacheSlingCommonsLogNames, @QueryParam("org.apache.sling.commons.log.additiv") Boolean orgApacheSlingCommonsLogAdditiv,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.commons.log.LogManager.factory.writer")
+    @Path("/org.apache.sling.commons.log.LogManager.factory.writer")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingCommonsLogLogManagerFactoryWriterInfo.class, authorizations = {
@@ -9483,7 +9484,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingCommonsLogLogManagerFactoryWriter( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("org.apache.sling.commons.log.file") String orgApacheSlingCommonsLogFile, @QueryParam("org.apache.sling.commons.log.file.number") Integer orgApacheSlingCommonsLogFileNumber, @QueryParam("org.apache.sling.commons.log.file.size") String orgApacheSlingCommonsLogFileSize, @QueryParam("org.apache.sling.commons.log.file.buffered") Boolean orgApacheSlingCommonsLogFileBuffered,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.commons.metrics.internal.LogReporter")
+    @Path("/org.apache.sling.commons.metrics.internal.LogReporter")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingCommonsMetricsInternalLogReporterInfo.class, authorizations = {
@@ -9497,7 +9498,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingCommonsMetricsInternalLogReporter( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("period") Integer period, @QueryParam("timeUnit") String timeUnit, @QueryParam("level") String level, @QueryParam("loggerName") String loggerName, @QueryParam("prefix") String prefix, @QueryParam("pattern") String pattern, @QueryParam("registryName") String registryName,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.commons.metrics.rrd4j.impl.CodahaleMetricsReporter")
+    @Path("/org.apache.sling.commons.metrics.rrd4j.impl.CodahaleMetricsReporter")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterInfo.class, authorizations = {
@@ -9511,7 +9512,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporter( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("datasources") List<String> datasources, @QueryParam("step") Integer step, @QueryParam("archives") List<String> archives, @QueryParam("path") String path,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.commons.mime.internal.MimeTypeServiceImpl")
+    @Path("/org.apache.sling.commons.mime.internal.MimeTypeServiceImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfo.class, authorizations = {
@@ -9525,7 +9526,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingCommonsMimeInternalMimeTypeServiceImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("mime.types") List<String> mimeTypes,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.commons.scheduler.impl.QuartzScheduler")
+    @Path("/org.apache.sling.commons.scheduler.impl.QuartzScheduler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingCommonsSchedulerImplQuartzSchedulerInfo.class, authorizations = {
@@ -9539,7 +9540,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingCommonsSchedulerImplQuartzScheduler( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("poolName") String poolName, @QueryParam("allowedPoolNames") List<String> allowedPoolNames, @QueryParam("scheduler.useleaderforsingle") Boolean schedulerUseleaderforsingle, @QueryParam("metrics.filters") List<String> metricsFilters, @QueryParam("slowThresholdMillis") Integer slowThresholdMillis,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.commons.scheduler.impl.SchedulerHealthCheck")
+    @Path("/org.apache.sling.commons.scheduler.impl.SchedulerHealthCheck")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingCommonsSchedulerImplSchedulerHealthCheckInfo.class, authorizations = {
@@ -9553,7 +9554,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingCommonsSchedulerImplSchedulerHealthCheck( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("max.quartzJob.duration.acceptable") Integer maxQuartzJobDurationAcceptable,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.commons.threads.impl.DefaultThreadPool.factory")
+    @Path("/org.apache.sling.commons.threads.impl.DefaultThreadPool.factory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryInfo.class, authorizations = {
@@ -9567,7 +9568,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingCommonsThreadsImplDefaultThreadPoolFactory( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("name") String name, @QueryParam("minPoolSize") Integer minPoolSize, @QueryParam("maxPoolSize") Integer maxPoolSize, @QueryParam("queueSize") Integer queueSize, @QueryParam("maxThreadAge") Integer maxThreadAge, @QueryParam("keepAliveTime") Integer keepAliveTime, @QueryParam("blockPolicy") String blockPolicy, @QueryParam("shutdownGraceful") Boolean shutdownGraceful, @QueryParam("daemon") Boolean daemon, @QueryParam("shutdownWaitTime") Integer shutdownWaitTime, @QueryParam("priority") String priority,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.datasource.DataSourceFactory")
+    @Path("/org.apache.sling.datasource.DataSourceFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingDatasourceDataSourceFactoryInfo.class, authorizations = {
@@ -9581,7 +9582,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingDatasourceDataSourceFactory( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("datasource.name") String datasourceName, @QueryParam("datasource.svc.prop.name") String datasourceSvcPropName, @QueryParam("driverClassName") String driverClassName, @QueryParam("url") String url, @QueryParam("username") String username, @QueryParam("password") String password, @QueryParam("defaultAutoCommit") String defaultAutoCommit, @QueryParam("defaultReadOnly") String defaultReadOnly, @QueryParam("defaultTransactionIsolation") String defaultTransactionIsolation, @QueryParam("defaultCatalog") String defaultCatalog, @QueryParam("maxActive") Integer maxActive, @QueryParam("maxIdle") Integer maxIdle, @QueryParam("minIdle") Integer minIdle, @QueryParam("initialSize") Integer initialSize, @QueryParam("maxWait") Integer maxWait, @QueryParam("maxAge") Integer maxAge, @QueryParam("testOnBorrow") Boolean testOnBorrow, @QueryParam("testOnReturn") Boolean testOnReturn, @QueryParam("testWhileIdle") Boolean testWhileIdle, @QueryParam("validationQuery") String validationQuery, @QueryParam("validationQueryTimeout") Integer validationQueryTimeout, @QueryParam("timeBetweenEvictionRunsMillis") Integer timeBetweenEvictionRunsMillis, @QueryParam("minEvictableIdleTimeMillis") Integer minEvictableIdleTimeMillis, @QueryParam("connectionProperties") String connectionProperties, @QueryParam("initSQL") String initSQL, @QueryParam("jdbcInterceptors") String jdbcInterceptors, @QueryParam("validationInterval") Integer validationInterval, @QueryParam("logValidationErrors") Boolean logValidationErrors, @QueryParam("datasource.svc.properties") List<String> datasourceSvcProperties,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.datasource.JNDIDataSourceFactory")
+    @Path("/org.apache.sling.datasource.JNDIDataSourceFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingDatasourceJNDIDataSourceFactoryInfo.class, authorizations = {
@@ -9595,7 +9596,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingDatasourceJNDIDataSourceFactory( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("datasource.name") String datasourceName, @QueryParam("datasource.svc.prop.name") String datasourceSvcPropName, @QueryParam("datasource.jndi.name") String datasourceJndiName, @QueryParam("jndi.properties") List<String> jndiProperties,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.discovery.oak.Config")
+    @Path("/org.apache.sling.discovery.oak.Config")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingDiscoveryOakConfigInfo.class, authorizations = {
@@ -9609,7 +9610,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingDiscoveryOakConfig( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("connectorPingTimeout") Integer connectorPingTimeout, @QueryParam("connectorPingInterval") Integer connectorPingInterval, @QueryParam("discoveryLiteCheckInterval") Integer discoveryLiteCheckInterval, @QueryParam("clusterSyncServiceTimeout") Integer clusterSyncServiceTimeout, @QueryParam("clusterSyncServiceInterval") Integer clusterSyncServiceInterval, @QueryParam("enableSyncToken") Boolean enableSyncToken, @QueryParam("minEventDelay") Integer minEventDelay, @QueryParam("socketConnectTimeout") Integer socketConnectTimeout, @QueryParam("soTimeout") Integer soTimeout, @QueryParam("topologyConnectorUrls") List<String> topologyConnectorUrls, @QueryParam("topologyConnectorWhitelist") List<String> topologyConnectorWhitelist, @QueryParam("autoStopLocalLoopEnabled") Boolean autoStopLocalLoopEnabled, @QueryParam("gzipConnectorRequestsEnabled") Boolean gzipConnectorRequestsEnabled, @QueryParam("hmacEnabled") Boolean hmacEnabled, @QueryParam("enableEncryption") Boolean enableEncryption, @QueryParam("sharedKey") String sharedKey, @QueryParam("hmacSharedKeyTTL") Integer hmacSharedKeyTTL, @QueryParam("backoffStandbyFactor") String backoffStandbyFactor, @QueryParam("backoffStableFactor") String backoffStableFactor,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.discovery.oak.SynchronizedClocksHealthCheck")
+    @Path("/org.apache.sling.discovery.oak.SynchronizedClocksHealthCheck")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingDiscoveryOakSynchronizedClocksHealthCheckInfo.class, authorizations = {
@@ -9623,7 +9624,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingDiscoveryOakSynchronizedClocksHealthCheck( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("hc.name") String hcName, @QueryParam("hc.tags") List<String> hcTags, @QueryParam("hc.mbean.name") String hcMbeanName,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.distribution.agent.impl.ForwardDistributionAgentFactory")
+    @Path("/org.apache.sling.distribution.agent.impl.ForwardDistributionAgentFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoInfo.class, authorizations = {
@@ -9637,7 +9638,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingDistributionAgentImplForwardDistributionAgentFacto( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("name") String name, @QueryParam("title") String title, @QueryParam("details") String details, @QueryParam("enabled") Boolean enabled, @QueryParam("serviceName") String serviceName, @QueryParam("log.level") String logLevel, @QueryParam("allowed.roots") List<String> allowedRoots, @QueryParam("queue.processing.enabled") Boolean queueProcessingEnabled, @QueryParam("packageImporter.endpoints") List<String> packageImporterEndpoints, @QueryParam("passiveQueues") List<String> passiveQueues, @QueryParam("priorityQueues") List<String> priorityQueues, @QueryParam("retry.strategy") String retryStrategy, @QueryParam("retry.attempts") Integer retryAttempts, @QueryParam("requestAuthorizationStrategy.target") String requestAuthorizationStrategyTarget, @QueryParam("transportSecretProvider.target") String transportSecretProviderTarget, @QueryParam("packageBuilder.target") String packageBuilderTarget, @QueryParam("triggers.target") String triggersTarget, @QueryParam("queue.provider") String queueProvider, @QueryParam("async.delivery") Boolean asyncDelivery, @QueryParam("http.conn.timeout") Integer httpConnTimeout,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.distribution.agent.impl.PrivilegeDistributionRequestAuthorizationStrategyFactory")
+    @Path("/org.apache.sling.distribution.agent.impl.PrivilegeDistributionRequestAuthorizationStrategyFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAInfo.class, authorizations = {
@@ -9651,7 +9652,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingDistributionAgentImplPrivilegeDistributionRequestA( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("name") String name, @QueryParam("jcrPrivilege") String jcrPrivilege,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.distribution.agent.impl.QueueDistributionAgentFactory")
+    @Path("/org.apache.sling.distribution.agent.impl.QueueDistributionAgentFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingDistributionAgentImplQueueDistributionAgentFactoryInfo.class, authorizations = {
@@ -9665,7 +9666,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingDistributionAgentImplQueueDistributionAgentFactory( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("name") String name, @QueryParam("title") String title, @QueryParam("details") String details, @QueryParam("enabled") Boolean enabled, @QueryParam("serviceName") String serviceName, @QueryParam("log.level") String logLevel, @QueryParam("allowed.roots") List<String> allowedRoots, @QueryParam("requestAuthorizationStrategy.target") String requestAuthorizationStrategyTarget, @QueryParam("queueProviderFactory.target") String queueProviderFactoryTarget, @QueryParam("packageBuilder.target") String packageBuilderTarget, @QueryParam("triggers.target") String triggersTarget, @QueryParam("priorityQueues") List<String> priorityQueues,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.distribution.agent.impl.ReverseDistributionAgentFactory")
+    @Path("/org.apache.sling.distribution.agent.impl.ReverseDistributionAgentFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoInfo.class, authorizations = {
@@ -9679,7 +9680,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingDistributionAgentImplReverseDistributionAgentFacto( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("name") String name, @QueryParam("title") String title, @QueryParam("details") String details, @QueryParam("enabled") Boolean enabled, @QueryParam("serviceName") String serviceName, @QueryParam("log.level") String logLevel, @QueryParam("queue.processing.enabled") Boolean queueProcessingEnabled, @QueryParam("packageExporter.endpoints") List<String> packageExporterEndpoints, @QueryParam("pull.items") Integer pullItems, @QueryParam("http.conn.timeout") Integer httpConnTimeout, @QueryParam("requestAuthorizationStrategy.target") String requestAuthorizationStrategyTarget, @QueryParam("transportSecretProvider.target") String transportSecretProviderTarget, @QueryParam("packageBuilder.target") String packageBuilderTarget, @QueryParam("triggers.target") String triggersTarget,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.distribution.agent.impl.SimpleDistributionAgentFactory")
+    @Path("/org.apache.sling.distribution.agent.impl.SimpleDistributionAgentFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorInfo.class, authorizations = {
@@ -9693,7 +9694,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingDistributionAgentImplSimpleDistributionAgentFactor( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("name") String name, @QueryParam("title") String title, @QueryParam("details") String details, @QueryParam("enabled") Boolean enabled, @QueryParam("serviceName") String serviceName, @QueryParam("log.level") String logLevel, @QueryParam("queue.processing.enabled") Boolean queueProcessingEnabled, @QueryParam("packageExporter.target") String packageExporterTarget, @QueryParam("packageImporter.target") String packageImporterTarget, @QueryParam("requestAuthorizationStrategy.target") String requestAuthorizationStrategyTarget, @QueryParam("triggers.target") String triggersTarget,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.distribution.agent.impl.SyncDistributionAgentFactory")
+    @Path("/org.apache.sling.distribution.agent.impl.SyncDistributionAgentFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingDistributionAgentImplSyncDistributionAgentFactoryInfo.class, authorizations = {
@@ -9707,7 +9708,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingDistributionAgentImplSyncDistributionAgentFactory( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("name") String name, @QueryParam("title") String title, @QueryParam("details") String details, @QueryParam("enabled") Boolean enabled, @QueryParam("serviceName") String serviceName, @QueryParam("log.level") String logLevel, @QueryParam("queue.processing.enabled") Boolean queueProcessingEnabled, @QueryParam("passiveQueues") List<String> passiveQueues, @QueryParam("packageExporter.endpoints") List<String> packageExporterEndpoints, @QueryParam("packageImporter.endpoints") List<String> packageImporterEndpoints, @QueryParam("retry.strategy") String retryStrategy, @QueryParam("retry.attempts") Integer retryAttempts, @QueryParam("pull.items") Integer pullItems, @QueryParam("http.conn.timeout") Integer httpConnTimeout, @QueryParam("requestAuthorizationStrategy.target") String requestAuthorizationStrategyTarget, @QueryParam("transportSecretProvider.target") String transportSecretProviderTarget, @QueryParam("packageBuilder.target") String packageBuilderTarget, @QueryParam("triggers.target") String triggersTarget,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.distribution.monitor.DistributionQueueHealthCheck")
+    @Path("/org.apache.sling.distribution.monitor.DistributionQueueHealthCheck")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingDistributionMonitorDistributionQueueHealthCheckInfo.class, authorizations = {
@@ -9721,7 +9722,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingDistributionMonitorDistributionQueueHealthCheck( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("hc.name") String hcName, @QueryParam("hc.tags") List<String> hcTags, @QueryParam("hc.mbean.name") String hcMbeanName, @QueryParam("numberOfRetriesAllowed") Integer numberOfRetriesAllowed,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.distribution.packaging.impl.exporter.AgentDistributionPackageExporterFactory")
+    @Path("/org.apache.sling.distribution.packaging.impl.exporter.AgentDistributionPackageExporterFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingDistributionPackagingImplExporterAgentDistributioInfo.class, authorizations = {
@@ -9735,7 +9736,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingDistributionPackagingImplExporterAgentDistributio( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("name") String name, @QueryParam("queue") String queue, @QueryParam("drop.invalid.items") Boolean dropInvalidItems, @QueryParam("agent.target") String agentTarget,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.distribution.packaging.impl.exporter.LocalDistributionPackageExporterFactory")
+    @Path("/org.apache.sling.distribution.packaging.impl.exporter.LocalDistributionPackageExporterFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingDistributionPackagingImplExporterLocalDistributioInfo.class, authorizations = {
@@ -9749,7 +9750,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingDistributionPackagingImplExporterLocalDistributio( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("name") String name, @QueryParam("packageBuilder.target") String packageBuilderTarget,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.distribution.packaging.impl.exporter.RemoteDistributionPackageExporterFactory")
+    @Path("/org.apache.sling.distribution.packaging.impl.exporter.RemoteDistributionPackageExporterFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiInfo.class, authorizations = {
@@ -9763,7 +9764,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingDistributionPackagingImplExporterRemoteDistributi( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("name") String name, @QueryParam("endpoints") List<String> endpoints, @QueryParam("pull.items") Integer pullItems, @QueryParam("packageBuilder.target") String packageBuilderTarget, @QueryParam("transportSecretProvider.target") String transportSecretProviderTarget,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.distribution.packaging.impl.importer.LocalDistributionPackageImporterFactory")
+    @Path("/org.apache.sling.distribution.packaging.impl.importer.LocalDistributionPackageImporterFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingDistributionPackagingImplImporterLocalDistributioInfo.class, authorizations = {
@@ -9777,7 +9778,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingDistributionPackagingImplImporterLocalDistributio( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("name") String name, @QueryParam("packageBuilder.target") String packageBuilderTarget,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.distribution.packaging.impl.importer.RemoteDistributionPackageImporterFactory")
+    @Path("/org.apache.sling.distribution.packaging.impl.importer.RemoteDistributionPackageImporterFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingDistributionPackagingImplImporterRemoteDistributiInfo.class, authorizations = {
@@ -9791,7 +9792,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingDistributionPackagingImplImporterRemoteDistributi( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("name") String name, @QueryParam("endpoints") List<String> endpoints, @QueryParam("transportSecretProvider.target") String transportSecretProviderTarget,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.distribution.packaging.impl.importer.RepositoryDistributionPackageImporterFactory")
+    @Path("/org.apache.sling.distribution.packaging.impl.importer.RepositoryDistributionPackageImporterFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingDistributionPackagingImplImporterRepositoryDistriInfo.class, authorizations = {
@@ -9805,7 +9806,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingDistributionPackagingImplImporterRepositoryDistri( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("name") String name, @QueryParam("service.name") String serviceName, @QueryParam("path") String path, @QueryParam("privilege.name") String privilegeName,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.distribution.resources.impl.DistributionConfigurationResourceProviderFactory")
+    @Path("/org.apache.sling.distribution.resources.impl.DistributionConfigurationResourceProviderFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingDistributionResourcesImplDistributionConfigurationInfo.class, authorizations = {
@@ -9819,7 +9820,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingDistributionResourcesImplDistributionConfiguration( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("provider.roots") String providerRoots, @QueryParam("kind") String kind,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.distribution.resources.impl.DistributionServiceResourceProviderFactory")
+    @Path("/org.apache.sling.distribution.resources.impl.DistributionServiceResourceProviderFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingDistributionResourcesImplDistributionServiceResourInfo.class, authorizations = {
@@ -9833,7 +9834,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingDistributionResourcesImplDistributionServiceResour( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("provider.roots") String providerRoots, @QueryParam("kind") String kind,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.distribution.serialization.impl.DistributionPackageBuilderFactory")
+    @Path("/org.apache.sling.distribution.serialization.impl.DistributionPackageBuilderFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingDistributionSerializationImplDistributionPackageBuInfo.class, authorizations = {
@@ -9847,7 +9848,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingDistributionSerializationImplDistributionPackageBu( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("name") String name, @QueryParam("type") String type, @QueryParam("format.target") String formatTarget, @QueryParam("tempFsFolder") String tempFsFolder, @QueryParam("fileThreshold") Integer fileThreshold, @QueryParam("memoryUnit") String memoryUnit, @QueryParam("useOffHeapMemory") Boolean useOffHeapMemory, @QueryParam("digestAlgorithm") String digestAlgorithm, @QueryParam("monitoringQueueSize") Integer monitoringQueueSize, @QueryParam("cleanupDelay") Integer cleanupDelay, @QueryParam("package.filters") List<String> packageFilters, @QueryParam("property.filters") List<String> propertyFilters,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.distribution.serialization.impl.vlt.VaultDistributionPackageBuilderFactory")
+    @Path("/org.apache.sling.distribution.serialization.impl.vlt.VaultDistributionPackageBuilderFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingDistributionSerializationImplVltVaultDistributionInfo.class, authorizations = {
@@ -9861,7 +9862,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingDistributionSerializationImplVltVaultDistribution( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("name") String name, @QueryParam("type") String type, @QueryParam("importMode") String importMode, @QueryParam("aclHandling") String aclHandling, @QueryParam("package.roots") String packageRoots, @QueryParam("package.filters") List<String> packageFilters, @QueryParam("property.filters") List<String> propertyFilters, @QueryParam("tempFsFolder") String tempFsFolder, @QueryParam("useBinaryReferences") Boolean useBinaryReferences, @QueryParam("autoSaveThreshold") Integer autoSaveThreshold, @QueryParam("cleanupDelay") Integer cleanupDelay, @QueryParam("fileThreshold") Integer fileThreshold, @QueryParam("MEGA_BYTES") String MEGA_BYTES, @QueryParam("useOffHeapMemory") Boolean useOffHeapMemory, @QueryParam("digestAlgorithm") String digestAlgorithm, @QueryParam("monitoringQueueSize") Integer monitoringQueueSize, @QueryParam("pathsMapping") List<String> pathsMapping, @QueryParam("strictImport") Boolean strictImport,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.distribution.transport.impl.UserCredentialsDistributionTransportSecretProvider")
+    @Path("/org.apache.sling.distribution.transport.impl.UserCredentialsDistributionTransportSecretProvider")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingDistributionTransportImplUserCredentialsDistributiInfo.class, authorizations = {
@@ -9875,7 +9876,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingDistributionTransportImplUserCredentialsDistributi( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("name") String name, @QueryParam("username") String username, @QueryParam("password") String password,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.distribution.trigger.impl.DistributionEventDistributeDistributionTriggerFactory")
+    @Path("/org.apache.sling.distribution.trigger.impl.DistributionEventDistributeDistributionTriggerFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingDistributionTriggerImplDistributionEventDistributeInfo.class, authorizations = {
@@ -9889,7 +9890,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingDistributionTriggerImplDistributionEventDistribute( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("name") String name, @QueryParam("path") String path,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.distribution.trigger.impl.JcrEventDistributionTriggerFactory")
+    @Path("/org.apache.sling.distribution.trigger.impl.JcrEventDistributionTriggerFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerInfo.class, authorizations = {
@@ -9903,7 +9904,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingDistributionTriggerImplJcrEventDistributionTrigger( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("name") String name, @QueryParam("path") String path, @QueryParam("ignoredPathsPatterns") List<String> ignoredPathsPatterns, @QueryParam("serviceName") String serviceName, @QueryParam("deep") Boolean deep,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.distribution.trigger.impl.PersistedJcrEventDistributionTriggerFactory")
+    @Path("/org.apache.sling.distribution.trigger.impl.PersistedJcrEventDistributionTriggerFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiInfo.class, authorizations = {
@@ -9917,7 +9918,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingDistributionTriggerImplPersistedJcrEventDistributi( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("name") String name, @QueryParam("path") String path, @QueryParam("serviceName") String serviceName, @QueryParam("nuggetsPath") String nuggetsPath,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.distribution.trigger.impl.RemoteEventDistributionTriggerFactory")
+    @Path("/org.apache.sling.distribution.trigger.impl.RemoteEventDistributionTriggerFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingDistributionTriggerImplRemoteEventDistributionTrigInfo.class, authorizations = {
@@ -9931,7 +9932,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingDistributionTriggerImplRemoteEventDistributionTrig( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("name") String name, @QueryParam("endpoint") String endpoint, @QueryParam("transportSecretProvider.target") String transportSecretProviderTarget,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.distribution.trigger.impl.ResourceEventDistributionTriggerFactory")
+    @Path("/org.apache.sling.distribution.trigger.impl.ResourceEventDistributionTriggerFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingDistributionTriggerImplResourceEventDistributionTrInfo.class, authorizations = {
@@ -9945,7 +9946,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingDistributionTriggerImplResourceEventDistributionTr( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("name") String name, @QueryParam("path") String path,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.distribution.trigger.impl.ScheduledDistributionTriggerFactory")
+    @Path("/org.apache.sling.distribution.trigger.impl.ScheduledDistributionTriggerFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggeInfo.class, authorizations = {
@@ -9959,7 +9960,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingDistributionTriggerImplScheduledDistributionTrigge( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("name") String name, @QueryParam("path") String path, @QueryParam("seconds") String seconds, @QueryParam("serviceName") String serviceName,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.engine.impl.auth.SlingAuthenticator")
+    @Path("/org.apache.sling.engine.impl.auth.SlingAuthenticator")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingEngineImplAuthSlingAuthenticatorInfo.class, authorizations = {
@@ -9973,7 +9974,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingEngineImplAuthSlingAuthenticator( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("osgi.http.whiteboard.context.select") String osgiHttpWhiteboardContextSelect, @QueryParam("osgi.http.whiteboard.listener") String osgiHttpWhiteboardListener, @QueryParam("auth.sudo.cookie") String authSudoCookie, @QueryParam("auth.sudo.parameter") String authSudoParameter, @QueryParam("auth.annonymous") Boolean authAnnonymous, @QueryParam("sling.auth.requirements") List<String> slingAuthRequirements, @QueryParam("sling.auth.anonymous.user") String slingAuthAnonymousUser, @QueryParam("sling.auth.anonymous.password") String slingAuthAnonymousPassword, @QueryParam("auth.http") String authHttp, @QueryParam("auth.http.realm") String authHttpRealm, @QueryParam("auth.uri.suffix") List<String> authUriSuffix,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.engine.impl.debug.RequestProgressTrackerLogFilter")
+    @Path("/org.apache.sling.engine.impl.debug.RequestProgressTrackerLogFilter")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingEngineImplDebugRequestProgressTrackerLogFilterInfo.class, authorizations = {
@@ -9987,7 +9988,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingEngineImplDebugRequestProgressTrackerLogFilter( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("extensions") List<String> extensions, @QueryParam("minDurationMs") Integer minDurationMs, @QueryParam("maxDurationMs") Integer maxDurationMs, @QueryParam("compactLogFormat") Boolean compactLogFormat,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.engine.impl.log.RequestLogger")
+    @Path("/org.apache.sling.engine.impl.log.RequestLogger")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingEngineImplLogRequestLoggerInfo.class, authorizations = {
@@ -10001,7 +10002,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingEngineImplLogRequestLogger( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("request.log.output") String requestLogOutput, @QueryParam("request.log.outputtype") Integer requestLogOutputtype, @QueryParam("request.log.enabled") Boolean requestLogEnabled, @QueryParam("access.log.output") String accessLogOutput, @QueryParam("access.log.outputtype") Integer accessLogOutputtype, @QueryParam("access.log.enabled") Boolean accessLogEnabled,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.engine.impl.log.RequestLoggerService")
+    @Path("/org.apache.sling.engine.impl.log.RequestLoggerService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingEngineImplLogRequestLoggerServiceInfo.class, authorizations = {
@@ -10015,7 +10016,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingEngineImplLogRequestLoggerService( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("request.log.service.format") String requestLogServiceFormat, @QueryParam("request.log.service.output") String requestLogServiceOutput, @QueryParam("request.log.service.outputtype") Integer requestLogServiceOutputtype, @QueryParam("request.log.service.onentry") Boolean requestLogServiceOnentry,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.engine.impl.SlingMainServlet")
+    @Path("/org.apache.sling.engine.impl.SlingMainServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingEngineImplSlingMainServletInfo.class, authorizations = {
@@ -10029,7 +10030,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingEngineImplSlingMainServlet( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("sling.max.calls") Integer slingMaxCalls, @QueryParam("sling.max.inclusions") Integer slingMaxInclusions, @QueryParam("sling.trace.allow") Boolean slingTraceAllow, @QueryParam("sling.max.record.requests") Integer slingMaxRecordRequests, @QueryParam("sling.store.pattern.requests") List<String> slingStorePatternRequests, @QueryParam("sling.serverinfo") String slingServerinfo, @QueryParam("sling.additional.response.headers") List<String> slingAdditionalResponseHeaders,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.engine.parameters")
+    @Path("/org.apache.sling.engine.parameters")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingEngineParametersInfo.class, authorizations = {
@@ -10043,7 +10044,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingEngineParameters( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("sling.default.parameter.encoding") String slingDefaultParameterEncoding, @QueryParam("sling.default.max.parameters") Integer slingDefaultMaxParameters, @QueryParam("file.location") String fileLocation, @QueryParam("file.threshold") Integer fileThreshold, @QueryParam("file.max") Integer fileMax, @QueryParam("request.max") Integer requestMax, @QueryParam("sling.default.parameter.checkForAdditionalContainerParameters") Boolean slingDefaultParameterCheckForAdditionalContainerParameters,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.event.impl.EventingThreadPool")
+    @Path("/org.apache.sling.event.impl.EventingThreadPool")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingEventImplEventingThreadPoolInfo.class, authorizations = {
@@ -10057,7 +10058,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingEventImplEventingThreadPool( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("minPoolSize") Integer minPoolSize,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.event.impl.jobs.DefaultJobManager")
+    @Path("/org.apache.sling.event.impl.jobs.DefaultJobManager")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingEventImplJobsDefaultJobManagerInfo.class, authorizations = {
@@ -10071,7 +10072,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingEventImplJobsDefaultJobManager( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("queue.priority") String queuePriority, @QueryParam("queue.retries") Integer queueRetries, @QueryParam("queue.retrydelay") Integer queueRetrydelay, @QueryParam("queue.maxparallel") Integer queueMaxparallel,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.event.impl.jobs.jcr.PersistenceHandler")
+    @Path("/org.apache.sling.event.impl.jobs.jcr.PersistenceHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingEventImplJobsJcrPersistenceHandlerInfo.class, authorizations = {
@@ -10085,7 +10086,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingEventImplJobsJcrPersistenceHandler( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("job.consumermanager.disableDistribution") Boolean jobConsumermanagerDisableDistribution, @QueryParam("startup.delay") Integer startupDelay, @QueryParam("cleanup.period") Integer cleanupPeriod,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.event.impl.jobs.JobConsumerManager")
+    @Path("/org.apache.sling.event.impl.jobs.JobConsumerManager")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingEventImplJobsJobConsumerManagerInfo.class, authorizations = {
@@ -10099,7 +10100,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingEventImplJobsJobConsumerManager( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("org.apache.sling.installer.configuration.persist") Boolean orgApacheSlingInstallerConfigurationPersist, @QueryParam("job.consumermanager.whitelist") List<String> jobConsumermanagerWhitelist, @QueryParam("job.consumermanager.blacklist") List<String> jobConsumermanagerBlacklist,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.event.jobs.QueueConfiguration")
+    @Path("/org.apache.sling.event.jobs.QueueConfiguration")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingEventJobsQueueConfigurationInfo.class, authorizations = {
@@ -10113,7 +10114,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingEventJobsQueueConfiguration( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("queue.name") String queueName, @QueryParam("queue.topics") List<String> queueTopics, @QueryParam("queue.type") String queueType, @QueryParam("queue.priority") String queuePriority, @QueryParam("queue.retries") Integer queueRetries, @QueryParam("queue.retrydelay") Integer queueRetrydelay, @QueryParam("queue.maxparallel") BigDecimal queueMaxparallel, @QueryParam("queue.keepJobs") Boolean queueKeepJobs, @QueryParam("queue.preferRunOnCreationInstance") Boolean queuePreferRunOnCreationInstance, @QueryParam("queue.threadPoolSize") Integer queueThreadPoolSize, @QueryParam("service.ranking") Integer serviceRanking,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.extensions.webconsolesecurityprovider.internal.SlingWebConsoleSecurityProvider")
+    @Path("/org.apache.sling.extensions.webconsolesecurityprovider.internal.SlingWebConsoleSecurityProvider")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWInfo.class, authorizations = {
@@ -10127,7 +10128,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingW( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("users") List<String> users, @QueryParam("groups") List<String> groups,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.featureflags.Feature")
+    @Path("/org.apache.sling.featureflags.Feature")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingFeatureflagsFeatureInfo.class, authorizations = {
@@ -10141,7 +10142,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingFeatureflagsFeature( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("name") String name, @QueryParam("description") String description, @QueryParam("enabled") Boolean enabled,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.featureflags.impl.ConfiguredFeature")
+    @Path("/org.apache.sling.featureflags.impl.ConfiguredFeature")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingFeatureflagsImplConfiguredFeatureInfo.class, authorizations = {
@@ -10155,7 +10156,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingFeatureflagsImplConfiguredFeature( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("name") String name, @QueryParam("description") String description, @QueryParam("enabled") Boolean enabled,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.hapi.impl.HApiUtilImpl")
+    @Path("/org.apache.sling.hapi.impl.HApiUtilImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingHapiImplHApiUtilImplInfo.class, authorizations = {
@@ -10169,7 +10170,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingHapiImplHApiUtilImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("org.apache.sling.hapi.tools.resourcetype") String orgApacheSlingHapiToolsResourcetype, @QueryParam("org.apache.sling.hapi.tools.collectionresourcetype") String orgApacheSlingHapiToolsCollectionresourcetype, @QueryParam("org.apache.sling.hapi.tools.searchpaths") List<String> orgApacheSlingHapiToolsSearchpaths, @QueryParam("org.apache.sling.hapi.tools.externalurl") String orgApacheSlingHapiToolsExternalurl, @QueryParam("org.apache.sling.hapi.tools.enabled") Boolean orgApacheSlingHapiToolsEnabled,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.hc.core.impl.CompositeHealthCheck")
+    @Path("/org.apache.sling.hc.core.impl.CompositeHealthCheck")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingHcCoreImplCompositeHealthCheckInfo.class, authorizations = {
@@ -10183,7 +10184,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingHcCoreImplCompositeHealthCheck( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("hc.name") String hcName, @QueryParam("hc.tags") List<String> hcTags, @QueryParam("hc.mbean.name") String hcMbeanName, @QueryParam("filter.tags") List<String> filterTags, @QueryParam("filter.combineTagsWithOr") Boolean filterCombineTagsWithOr,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.hc.core.impl.executor.HealthCheckExecutorImpl")
+    @Path("/org.apache.sling.hc.core.impl.executor.HealthCheckExecutorImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingHcCoreImplExecutorHealthCheckExecutorImplInfo.class, authorizations = {
@@ -10197,7 +10198,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingHcCoreImplExecutorHealthCheckExecutorImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("timeoutInMs") Integer timeoutInMs, @QueryParam("longRunningFutureThresholdForCriticalMs") Integer longRunningFutureThresholdForCriticalMs, @QueryParam("resultCacheTtlInMs") Integer resultCacheTtlInMs,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.hc.core.impl.JmxAttributeHealthCheck")
+    @Path("/org.apache.sling.hc.core.impl.JmxAttributeHealthCheck")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingHcCoreImplJmxAttributeHealthCheckInfo.class, authorizations = {
@@ -10211,7 +10212,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingHcCoreImplJmxAttributeHealthCheck( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("hc.name") String hcName, @QueryParam("hc.tags") List<String> hcTags, @QueryParam("hc.mbean.name") String hcMbeanName, @QueryParam("mbean.name") String mbeanName, @QueryParam("attribute.name") String attributeName, @QueryParam("attribute.value.constraint") String attributeValueConstraint,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.hc.core.impl.ScriptableHealthCheck")
+    @Path("/org.apache.sling.hc.core.impl.ScriptableHealthCheck")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingHcCoreImplScriptableHealthCheckInfo.class, authorizations = {
@@ -10225,7 +10226,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingHcCoreImplScriptableHealthCheck( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("hc.name") String hcName, @QueryParam("hc.tags") List<String> hcTags, @QueryParam("hc.mbean.name") String hcMbeanName, @QueryParam("expression") String expression, @QueryParam("language.extension") String languageExtension,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.hc.core.impl.servlet.HealthCheckExecutorServlet")
+    @Path("/org.apache.sling.hc.core.impl.servlet.HealthCheckExecutorServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingHcCoreImplServletHealthCheckExecutorServletInfo.class, authorizations = {
@@ -10239,7 +10240,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingHcCoreImplServletHealthCheckExecutorServlet( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("servletPath") String servletPath, @QueryParam("disabled") Boolean disabled, @QueryParam("cors.accessControlAllowOrigin") String corsAccessControlAllowOrigin,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.hc.core.impl.servlet.ResultTxtVerboseSerializer")
+    @Path("/org.apache.sling.hc.core.impl.servlet.ResultTxtVerboseSerializer")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingHcCoreImplServletResultTxtVerboseSerializerInfo.class, authorizations = {
@@ -10253,7 +10254,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingHcCoreImplServletResultTxtVerboseSerializer( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("totalWidth") Integer totalWidth, @QueryParam("colWidthName") Integer colWidthName, @QueryParam("colWidthResult") Integer colWidthResult, @QueryParam("colWidthTiming") Integer colWidthTiming,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.i18n.impl.I18NFilter")
+    @Path("/org.apache.sling.i18n.impl.I18NFilter")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingI18nImplI18NFilterInfo.class, authorizations = {
@@ -10267,7 +10268,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingI18nImplI18NFilter( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("service.ranking") Integer serviceRanking, @QueryParam("sling.filter.scope") List<String> slingFilterScope,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.i18n.impl.JcrResourceBundleProvider")
+    @Path("/org.apache.sling.i18n.impl.JcrResourceBundleProvider")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingI18nImplJcrResourceBundleProviderInfo.class, authorizations = {
@@ -10281,7 +10282,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingI18nImplJcrResourceBundleProvider( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("locale.default") String localeDefault, @QueryParam("preload.bundles") Boolean preloadBundles, @QueryParam("invalidation.delay") Integer invalidationDelay,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.installer.provider.jcr.impl.JcrInstaller")
+    @Path("/org.apache.sling.installer.provider.jcr.impl.JcrInstaller")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingInstallerProviderJcrImplJcrInstallerInfo.class, authorizations = {
@@ -10295,7 +10296,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingInstallerProviderJcrImplJcrInstaller( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("handler.schemes") List<String> handlerSchemes, @QueryParam("sling.jcrinstall.folder.name.regexp") String slingJcrinstallFolderNameRegexp, @QueryParam("sling.jcrinstall.folder.max.depth") Integer slingJcrinstallFolderMaxDepth, @QueryParam("sling.jcrinstall.search.path") List<String> slingJcrinstallSearchPath, @QueryParam("sling.jcrinstall.new.config.path") String slingJcrinstallNewConfigPath, @QueryParam("sling.jcrinstall.signal.path") String slingJcrinstallSignalPath, @QueryParam("sling.jcrinstall.enable.writeback") Boolean slingJcrinstallEnableWriteback,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.jcr.base.internal.LoginAdminWhitelist")
+    @Path("/org.apache.sling.jcr.base.internal.LoginAdminWhitelist")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingJcrBaseInternalLoginAdminWhitelistInfo.class, authorizations = {
@@ -10309,7 +10310,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingJcrBaseInternalLoginAdminWhitelist( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("whitelist.bypass") Boolean whitelistBypass, @QueryParam("whitelist.bundles.regexp") String whitelistBundlesRegexp,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.jcr.base.internal.LoginAdminWhitelist.fragment")
+    @Path("/org.apache.sling.jcr.base.internal.LoginAdminWhitelist.fragment")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingJcrBaseInternalLoginAdminWhitelistFragmentInfo.class, authorizations = {
@@ -10323,7 +10324,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingJcrBaseInternalLoginAdminWhitelistFragment( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("whitelist.name") String whitelistName, @QueryParam("whitelist.bundles") List<String> whitelistBundles,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.jcr.davex.impl.servlets.SlingDavExServlet")
+    @Path("/org.apache.sling.jcr.davex.impl.servlets.SlingDavExServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingJcrDavexImplServletsSlingDavExServletInfo.class, authorizations = {
@@ -10337,7 +10338,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingJcrDavexImplServletsSlingDavExServlet( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("alias") String alias, @QueryParam("dav.create-absolute-uri") Boolean davCreateAbsoluteUri, @QueryParam("dav.protectedhandlers") String davProtectedhandlers,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.jcr.jackrabbit.server.JndiRegistrationSupport")
+    @Path("/org.apache.sling.jcr.jackrabbit.server.JndiRegistrationSupport")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingJcrJackrabbitServerJndiRegistrationSupportInfo.class, authorizations = {
@@ -10351,7 +10352,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingJcrJackrabbitServerJndiRegistrationSupport( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("java.naming.factory.initial") String javaNamingFactoryInitial, @QueryParam("java.naming.provider.url") String javaNamingProviderUrl,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.jcr.jackrabbit.server.RmiRegistrationSupport")
+    @Path("/org.apache.sling.jcr.jackrabbit.server.RmiRegistrationSupport")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingJcrJackrabbitServerRmiRegistrationSupportInfo.class, authorizations = {
@@ -10365,7 +10366,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingJcrJackrabbitServerRmiRegistrationSupport( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("port") Integer port,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.jcr.repoinit.impl.RepositoryInitializer")
+    @Path("/org.apache.sling.jcr.repoinit.impl.RepositoryInitializer")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingJcrRepoinitImplRepositoryInitializerInfo.class, authorizations = {
@@ -10379,7 +10380,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingJcrRepoinitImplRepositoryInitializer( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("references") List<String> references,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.jcr.repoinit.RepositoryInitializer")
+    @Path("/org.apache.sling.jcr.repoinit.RepositoryInitializer")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingJcrRepoinitRepositoryInitializerInfo.class, authorizations = {
@@ -10393,7 +10394,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingJcrRepoinitRepositoryInitializer( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("references") List<String> references, @QueryParam("scripts") List<String> scripts,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.jcr.resource.internal.JcrResourceResolverFactoryImpl")
+    @Path("/org.apache.sling.jcr.resource.internal.JcrResourceResolverFactoryImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplInfo.class, authorizations = {
@@ -10407,7 +10408,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("resource.resolver.searchpath") List<String> resourceResolverSearchpath, @QueryParam("resource.resolver.manglenamespaces") Boolean resourceResolverManglenamespaces, @QueryParam("resource.resolver.allowDirect") Boolean resourceResolverAllowDirect, @QueryParam("resource.resolver.required.providers") List<String> resourceResolverRequiredProviders, @QueryParam("resource.resolver.required.providernames") List<String> resourceResolverRequiredProvidernames, @QueryParam("resource.resolver.virtual") List<String> resourceResolverVirtual, @QueryParam("resource.resolver.mapping") List<String> resourceResolverMapping, @QueryParam("resource.resolver.map.location") String resourceResolverMapLocation, @QueryParam("resource.resolver.map.observation") List<String> resourceResolverMapObservation, @QueryParam("resource.resolver.default.vanity.redirect.status") Integer resourceResolverDefaultVanityRedirectStatus, @QueryParam("resource.resolver.enable.vanitypath") Boolean resourceResolverEnableVanitypath, @QueryParam("resource.resolver.vanitypath.maxEntries") Integer resourceResolverVanitypathMaxEntries, @QueryParam("resource.resolver.vanitypath.maxEntries.startup") Boolean resourceResolverVanitypathMaxEntriesStartup, @QueryParam("resource.resolver.vanitypath.bloomfilter.maxBytes") Integer resourceResolverVanitypathBloomfilterMaxBytes, @QueryParam("resource.resolver.optimize.alias.resolution") Boolean resourceResolverOptimizeAliasResolution, @QueryParam("resource.resolver.vanitypath.whitelist") List<String> resourceResolverVanitypathWhitelist, @QueryParam("resource.resolver.vanitypath.blacklist") List<String> resourceResolverVanitypathBlacklist, @QueryParam("resource.resolver.vanity.precedence") Boolean resourceResolverVanityPrecedence, @QueryParam("resource.resolver.providerhandling.paranoid") Boolean resourceResolverProviderhandlingParanoid, @QueryParam("resource.resolver.log.closing") Boolean resourceResolverLogClosing, @QueryParam("resource.resolver.log.unclosed") Boolean resourceResolverLogUnclosed,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.jcr.resource.internal.JcrSystemUserValidator")
+    @Path("/org.apache.sling.jcr.resource.internal.JcrSystemUserValidator")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingJcrResourceInternalJcrSystemUserValidatorInfo.class, authorizations = {
@@ -10421,7 +10422,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingJcrResourceInternalJcrSystemUserValidator( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("allow.only.system.user") Boolean allowOnlySystemUser,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.jcr.resourcesecurity.impl.ResourceAccessGateFactory")
+    @Path("/org.apache.sling.jcr.resourcesecurity.impl.ResourceAccessGateFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingJcrResourcesecurityImplResourceAccessGateFactoryInfo.class, authorizations = {
@@ -10435,7 +10436,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingJcrResourcesecurityImplResourceAccessGateFactory( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("path") String path, @QueryParam("checkpath.prefix") String checkpathPrefix, @QueryParam("jcrPath") String jcrPath,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.jcr.webdav.impl.handler.DefaultHandlerService")
+    @Path("/org.apache.sling.jcr.webdav.impl.handler.DefaultHandlerService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingJcrWebdavImplHandlerDefaultHandlerServiceInfo.class, authorizations = {
@@ -10449,7 +10450,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingJcrWebdavImplHandlerDefaultHandlerService( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("service.ranking") Integer serviceRanking, @QueryParam("type.collections") String typeCollections, @QueryParam("type.noncollections") String typeNoncollections, @QueryParam("type.content") String typeContent,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.jcr.webdav.impl.handler.DirListingExportHandlerService")
+    @Path("/org.apache.sling.jcr.webdav.impl.handler.DirListingExportHandlerService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServicInfo.class, authorizations = {
@@ -10463,7 +10464,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServic( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("service.ranking") Integer serviceRanking,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.jcr.webdav.impl.servlets.SimpleWebDavServlet")
+    @Path("/org.apache.sling.jcr.webdav.impl.servlets.SimpleWebDavServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletInfo.class, authorizations = {
@@ -10477,7 +10478,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingJcrWebdavImplServletsSimpleWebDavServlet( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("dav.root") String davRoot, @QueryParam("dav.create-absolute-uri") Boolean davCreateAbsoluteUri, @QueryParam("dav.realm") String davRealm, @QueryParam("collection.types") List<String> collectionTypes, @QueryParam("filter.prefixes") List<String> filterPrefixes, @QueryParam("filter.types") String filterTypes, @QueryParam("filter.uris") String filterUris, @QueryParam("type.collections") String typeCollections, @QueryParam("type.noncollections") String typeNoncollections, @QueryParam("type.content") String typeContent,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.jmx.provider.impl.JMXResourceProvider")
+    @Path("/org.apache.sling.jmx.provider.impl.JMXResourceProvider")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingJmxProviderImplJMXResourceProviderInfo.class, authorizations = {
@@ -10491,7 +10492,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingJmxProviderImplJMXResourceProvider( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("provider.roots") String providerRoots,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.models.impl.ModelAdapterFactory")
+    @Path("/org.apache.sling.models.impl.ModelAdapterFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingModelsImplModelAdapterFactoryInfo.class, authorizations = {
@@ -10505,7 +10506,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingModelsImplModelAdapterFactory( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("osgi.http.whiteboard.listener") String osgiHttpWhiteboardListener, @QueryParam("osgi.http.whiteboard.context.select") String osgiHttpWhiteboardContextSelect, @QueryParam("max.recursion.depth") Integer maxRecursionDepth, @QueryParam("cleanup.job.period") Integer cleanupJobPeriod,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.models.jacksonexporter.impl.ResourceModuleProvider")
+    @Path("/org.apache.sling.models.jacksonexporter.impl.ResourceModuleProvider")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingModelsJacksonexporterImplResourceModuleProviderInfo.class, authorizations = {
@@ -10519,7 +10520,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingModelsJacksonexporterImplResourceModuleProvider( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("max.recursion.levels") Integer maxRecursionLevels,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.resource.inventory.impl.ResourceInventoryPrinterFactory")
+    @Path("/org.apache.sling.resource.inventory.impl.ResourceInventoryPrinterFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoInfo.class, authorizations = {
@@ -10533,7 +10534,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingResourceInventoryImplResourceInventoryPrinterFacto( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("felix.inventory.printer.name") String felixInventoryPrinterName, @QueryParam("felix.inventory.printer.title") String felixInventoryPrinterTitle, @QueryParam("path") String path,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.resourcemerger.impl.MergedResourceProviderFactory")
+    @Path("/org.apache.sling.resourcemerger.impl.MergedResourceProviderFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingResourcemergerImplMergedResourceProviderFactoryInfo.class, authorizations = {
@@ -10547,7 +10548,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingResourcemergerImplMergedResourceProviderFactory( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("merge.root") String mergeRoot, @QueryParam("merge.readOnly") Boolean mergeReadOnly,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.resourcemerger.picker.overriding")
+    @Path("/org.apache.sling.resourcemerger.picker.overriding")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingResourcemergerPickerOverridingInfo.class, authorizations = {
@@ -10561,7 +10562,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingResourcemergerPickerOverriding( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("merge.root") String mergeRoot, @QueryParam("merge.readOnly") Boolean mergeReadOnly,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.scripting.core.impl.ScriptCacheImpl")
+    @Path("/org.apache.sling.scripting.core.impl.ScriptCacheImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingScriptingCoreImplScriptCacheImplInfo.class, authorizations = {
@@ -10575,7 +10576,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingScriptingCoreImplScriptCacheImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("org.apache.sling.scripting.cache.size") Integer orgApacheSlingScriptingCacheSize, @QueryParam("org.apache.sling.scripting.cache.additional_extensions") List<String> orgApacheSlingScriptingCacheAdditionalExtensions,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.scripting.core.impl.ScriptingResourceResolverProviderImpl")
+    @Path("/org.apache.sling.scripting.core.impl.ScriptingResourceResolverProviderImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderInfo.class, authorizations = {
@@ -10589,7 +10590,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingScriptingCoreImplScriptingResourceResolverProvider( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("log.stacktrace.onclose") Boolean logStacktraceOnclose,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.scripting.java.impl.JavaScriptEngineFactory")
+    @Path("/org.apache.sling.scripting.java.impl.JavaScriptEngineFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryInfo.class, authorizations = {
@@ -10603,7 +10604,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingScriptingJavaImplJavaScriptEngineFactory( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("java.classdebuginfo") Boolean javaClassdebuginfo, @QueryParam("java.javaEncoding") String javaJavaEncoding, @QueryParam("java.compilerSourceVM") String javaCompilerSourceVM, @QueryParam("java.compilerTargetVM") String javaCompilerTargetVM,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.scripting.javascript.internal.RhinoJavaScriptEngineFactory")
+    @Path("/org.apache.sling.scripting.javascript.internal.RhinoJavaScriptEngineFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFaInfo.class, authorizations = {
@@ -10617,7 +10618,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFa( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("org.apache.sling.scripting.javascript.rhino.optLevel") Integer orgApacheSlingScriptingJavascriptRhinoOptLevel,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.scripting.jsp.JspScriptEngineFactory")
+    @Path("/org.apache.sling.scripting.jsp.JspScriptEngineFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingScriptingJspJspScriptEngineFactoryInfo.class, authorizations = {
@@ -10631,7 +10632,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingScriptingJspJspScriptEngineFactory( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("jasper.compilerTargetVM") String jasperCompilerTargetVM, @QueryParam("jasper.compilerSourceVM") String jasperCompilerSourceVM, @QueryParam("jasper.classdebuginfo") Boolean jasperClassdebuginfo, @QueryParam("jasper.enablePooling") Boolean jasperEnablePooling, @QueryParam("jasper.ieClassId") String jasperIeClassId, @QueryParam("jasper.genStringAsCharArray") Boolean jasperGenStringAsCharArray, @QueryParam("jasper.keepgenerated") Boolean jasperKeepgenerated, @QueryParam("jasper.mappedfile") Boolean jasperMappedfile, @QueryParam("jasper.trimSpaces") Boolean jasperTrimSpaces, @QueryParam("jasper.displaySourceFragments") Boolean jasperDisplaySourceFragments, @QueryParam("default.is.session") Boolean defaultIsSession,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.scripting.sightly.js.impl.jsapi.SlyBindingsValuesProvider")
+    @Path("/org.apache.sling.scripting.sightly.js.impl.jsapi.SlyBindingsValuesProvider")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvInfo.class, authorizations = {
@@ -10645,7 +10646,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProv( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("org.apache.sling.scripting.sightly.js.bindings") List<String> orgApacheSlingScriptingSightlyJsBindings,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.security.impl.ContentDispositionFilter")
+    @Path("/org.apache.sling.security.impl.ContentDispositionFilter")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingSecurityImplContentDispositionFilterInfo.class, authorizations = {
@@ -10659,7 +10660,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingSecurityImplContentDispositionFilter( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("sling.content.disposition.paths") List<String> slingContentDispositionPaths, @QueryParam("sling.content.disposition.excluded.paths") List<String> slingContentDispositionExcludedPaths, @QueryParam("sling.content.disposition.all.paths") Boolean slingContentDispositionAllPaths,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.security.impl.ReferrerFilter")
+    @Path("/org.apache.sling.security.impl.ReferrerFilter")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingSecurityImplReferrerFilterInfo.class, authorizations = {
@@ -10673,7 +10674,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingSecurityImplReferrerFilter( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("allow.empty") Boolean allowEmpty, @QueryParam("allow.hosts") List<String> allowHosts, @QueryParam("allow.hosts.regexp") List<String> allowHostsRegexp, @QueryParam("filter.methods") List<String> filterMethods, @QueryParam("exclude.agents.regexp") List<String> excludeAgentsRegexp,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.serviceusermapping.impl.ServiceUserMapperImpl")
+    @Path("/org.apache.sling.serviceusermapping.impl.ServiceUserMapperImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingServiceusermappingImplServiceUserMapperImplInfo.class, authorizations = {
@@ -10687,7 +10688,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingServiceusermappingImplServiceUserMapperImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("user.mapping") List<String> userMapping, @QueryParam("user.default") String userDefault, @QueryParam("user.enable.default.mapping") Boolean userEnableDefaultMapping, @QueryParam("require.validation") Boolean requireValidation,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.serviceusermapping.impl.ServiceUserMapperImpl.amended")
+    @Path("/org.apache.sling.serviceusermapping.impl.ServiceUserMapperImpl.amended")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingServiceusermappingImplServiceUserMapperImplAmendedInfo.class, authorizations = {
@@ -10701,7 +10702,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingServiceusermappingImplServiceUserMapperImplAmended( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("service.ranking") Integer serviceRanking, @QueryParam("user.mapping") List<String> userMapping,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.servlets.get.DefaultGetServlet")
+    @Path("/org.apache.sling.servlets.get.DefaultGetServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingServletsGetDefaultGetServletInfo.class, authorizations = {
@@ -10715,7 +10716,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingServletsGetDefaultGetServlet( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("aliases") List<String> aliases, @QueryParam("index") Boolean index, @QueryParam("index.files") List<String> indexFiles, @QueryParam("enable.html") Boolean enableHtml, @QueryParam("enable.json") Boolean enableJson, @QueryParam("enable.txt") Boolean enableTxt, @QueryParam("enable.xml") Boolean enableXml, @QueryParam("json.maximumresults") Integer jsonMaximumresults, @QueryParam("ecmaSuport") Boolean ecmaSuport,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.servlets.get.impl.version.VersionInfoServlet")
+    @Path("/org.apache.sling.servlets.get.impl.version.VersionInfoServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingServletsGetImplVersionVersionInfoServletInfo.class, authorizations = {
@@ -10729,7 +10730,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingServletsGetImplVersionVersionInfoServlet( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("sling.servlet.selectors") List<String> slingServletSelectors, @QueryParam("ecmaSuport") Boolean ecmaSuport,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.servlets.post.impl.helper.ChunkCleanUpTask")
+    @Path("/org.apache.sling.servlets.post.impl.helper.ChunkCleanUpTask")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingServletsPostImplHelperChunkCleanUpTaskInfo.class, authorizations = {
@@ -10743,7 +10744,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingServletsPostImplHelperChunkCleanUpTask( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("scheduler.expression") String schedulerExpression, @QueryParam("scheduler.concurrent") Boolean schedulerConcurrent, @QueryParam("chunk.cleanup.age") Integer chunkCleanupAge,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.servlets.post.impl.SlingPostServlet")
+    @Path("/org.apache.sling.servlets.post.impl.SlingPostServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingServletsPostImplSlingPostServletInfo.class, authorizations = {
@@ -10757,7 +10758,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingServletsPostImplSlingPostServlet( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("servlet.post.dateFormats") List<String> servletPostDateFormats, @QueryParam("servlet.post.nodeNameHints") List<String> servletPostNodeNameHints, @QueryParam("servlet.post.nodeNameMaxLength") Integer servletPostNodeNameMaxLength, @QueryParam("servlet.post.checkinNewVersionableNodes") Boolean servletPostCheckinNewVersionableNodes, @QueryParam("servlet.post.autoCheckout") Boolean servletPostAutoCheckout, @QueryParam("servlet.post.autoCheckin") Boolean servletPostAutoCheckin, @QueryParam("servlet.post.ignorePattern") String servletPostIgnorePattern,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.servlets.resolver.SlingServletResolver")
+    @Path("/org.apache.sling.servlets.resolver.SlingServletResolver")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingServletsResolverSlingServletResolverInfo.class, authorizations = {
@@ -10771,7 +10772,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingServletsResolverSlingServletResolver( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("servletresolver.servletRoot") String servletresolverServletRoot, @QueryParam("servletresolver.cacheSize") Integer servletresolverCacheSize, @QueryParam("servletresolver.paths") List<String> servletresolverPaths, @QueryParam("servletresolver.defaultExtensions") List<String> servletresolverDefaultExtensions,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.settings.impl.SlingSettingsServiceImpl")
+    @Path("/org.apache.sling.settings.impl.SlingSettingsServiceImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingSettingsImplSlingSettingsServiceImplInfo.class, authorizations = {
@@ -10785,7 +10786,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingSettingsImplSlingSettingsServiceImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("sling.name") String slingName, @QueryParam("sling.description") String slingDescription,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.startupfilter.impl.StartupFilterImpl")
+    @Path("/org.apache.sling.startupfilter.impl.StartupFilterImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingStartupfilterImplStartupFilterImplInfo.class, authorizations = {
@@ -10799,7 +10800,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingStartupfilterImplStartupFilterImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("active.by.default") Boolean activeByDefault, @QueryParam("default.message") String defaultMessage,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.tenant.internal.TenantProviderImpl")
+    @Path("/org.apache.sling.tenant.internal.TenantProviderImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingTenantInternalTenantProviderImplInfo.class, authorizations = {
@@ -10813,7 +10814,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingTenantInternalTenantProviderImpl( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("tenant.root") String tenantRoot, @QueryParam("tenant.path.matcher") List<String> tenantPathMatcher,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.tracer.internal.LogTracer")
+    @Path("/org.apache.sling.tracer.internal.LogTracer")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingTracerInternalLogTracerInfo.class, authorizations = {
@@ -10827,7 +10828,7 @@ public interface SystemApi  {
         @io.swagger.annotations.ApiResponse(code = 200, message = "Default response", response = String.class) })
     public Response orgApacheSlingTracerInternalLogTracer( @QueryParam("post") Boolean post, @QueryParam("apply") Boolean apply, @QueryParam("delete") Boolean delete, @QueryParam("action") String action, @QueryParam("$location") String $location, @QueryParam("propertylist") List<String> propertylist, @QueryParam("tracerSets") List<String> tracerSets, @QueryParam("enabled") Boolean enabled, @QueryParam("servletEnabled") Boolean servletEnabled, @QueryParam("recordingCacheSizeInMB") Integer recordingCacheSizeInMB, @QueryParam("recordingCacheDurationInSecs") Integer recordingCacheDurationInSecs, @QueryParam("recordingCompressionEnabled") Boolean recordingCompressionEnabled, @QueryParam("gzipResponse") Boolean gzipResponse,@Context SecurityContext securityContext);
     @POST
-    @Path("/console/configMgr/org.apache.sling.xss.impl.XSSFilterImpl")
+    @Path("/org.apache.sling.xss.impl.XSSFilterImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingXssImplXSSFilterImplInfo.class, authorizations = {

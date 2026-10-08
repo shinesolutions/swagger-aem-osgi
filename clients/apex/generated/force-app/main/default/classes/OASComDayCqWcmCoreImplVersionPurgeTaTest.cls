@@ -72,11 +72,11 @@ private class OASComDayCqWcmCoreImplVersionPurgeTaTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqWcmCoreImplVersionPurgeTa comDayCqWcmCoreImplVersionPurgeTaskProperties = new OASComDayCqWcmCoreImplVersionPurgeTa();
-        Map<String, String> propertyMappings = comDayCqWcmCoreImplVersionPurgeTaskProperties.getPropertyMappings();
-        System.assertEquals('versionpurgePaths', propertyMappings.get('versionpurge.paths'));
-        System.assertEquals('versionpurgeRecursive', propertyMappings.get('versionpurge.recursive'));
-        System.assertEquals('versionpurgeMaxVersions', propertyMappings.get('versionpurge.maxVersions'));
-        System.assertEquals('versionpurgeMinVersions', propertyMappings.get('versionpurge.minVersions'));
-        System.assertEquals('versionpurgeMaxAgeDays', propertyMappings.get('versionpurge.maxAgeDays'));
+        Map<String, String> x-property-mappings = comDayCqWcmCoreImplVersionPurgeTaskProperties.getx-property-mappings();
+        System.assertEquals('versionpurgePaths', x-property-mappings.get('versionpurge.paths'));
+        System.assertEquals('versionpurgeRecursive', x-property-mappings.get('versionpurge.recursive'));
+        System.assertEquals('versionpurgeMaxVersions', x-property-mappings.get('versionpurge.maxVersions'));
+        System.assertEquals('versionpurgeMinVersions', x-property-mappings.get('versionpurge.minVersions'));
+        System.assertEquals('versionpurgeMaxAgeDays', x-property-mappings.get('versionpurge.maxAgeDays'));
     }
 }

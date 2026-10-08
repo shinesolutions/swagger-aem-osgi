@@ -2,26 +2,27 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class ComDayCqDamCoreImplCacheCQBufferedImageCacheProperties   {
   
-  private ConfigNodePropertyInteger cqDamImageCacheMaxMemory = null;
+  private ConfigNodePropertyInteger cqDamImageCacheMaxMemory;
 
-  private ConfigNodePropertyInteger cqDamImageCacheMaxAge = null;
+  private ConfigNodePropertyInteger cqDamImageCacheMaxAge;
 
-  private ConfigNodePropertyString cqDamImageCacheMaxDimension = null;
-
+  private ConfigNodePropertyString cqDamImageCacheMaxDimension;
 
   /**
    **/
@@ -79,7 +80,7 @@ public class ComDayCqDamCoreImplCacheCQBufferedImageCacheProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -87,9 +88,9 @@ public class ComDayCqDamCoreImplCacheCQBufferedImageCacheProperties   {
       return false;
     }
     ComDayCqDamCoreImplCacheCQBufferedImageCacheProperties comDayCqDamCoreImplCacheCQBufferedImageCacheProperties = (ComDayCqDamCoreImplCacheCQBufferedImageCacheProperties) o;
-    return Objects.equals(cqDamImageCacheMaxMemory, comDayCqDamCoreImplCacheCQBufferedImageCacheProperties.cqDamImageCacheMaxMemory) &&
-        Objects.equals(cqDamImageCacheMaxAge, comDayCqDamCoreImplCacheCQBufferedImageCacheProperties.cqDamImageCacheMaxAge) &&
-        Objects.equals(cqDamImageCacheMaxDimension, comDayCqDamCoreImplCacheCQBufferedImageCacheProperties.cqDamImageCacheMaxDimension);
+    return Objects.equals(this.cqDamImageCacheMaxMemory, comDayCqDamCoreImplCacheCQBufferedImageCacheProperties.cqDamImageCacheMaxMemory) &&
+        Objects.equals(this.cqDamImageCacheMaxAge, comDayCqDamCoreImplCacheCQBufferedImageCacheProperties.cqDamImageCacheMaxAge) &&
+        Objects.equals(this.cqDamImageCacheMaxDimension, comDayCqDamCoreImplCacheCQBufferedImageCacheProperties.cqDamImageCacheMaxDimension);
   }
 
   @Override
@@ -113,11 +114,8 @@ public class ComDayCqDamCoreImplCacheCQBufferedImageCacheProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

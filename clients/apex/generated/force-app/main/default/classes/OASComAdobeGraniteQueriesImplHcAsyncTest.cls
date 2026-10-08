@@ -72,9 +72,9 @@ private class OASComAdobeGraniteQueriesImplHcAsyncTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeGraniteQueriesImplHcAsync comAdobeGraniteQueriesImplHcAsyncIndexHealthCheckProperties = new OASComAdobeGraniteQueriesImplHcAsync();
-        Map<String, String> propertyMappings = comAdobeGraniteQueriesImplHcAsyncIndexHealthCheckProperties.getPropertyMappings();
-        System.assertEquals('indexingCriticalThreshold', propertyMappings.get('indexing.critical.threshold'));
-        System.assertEquals('indexingWarnThreshold', propertyMappings.get('indexing.warn.threshold'));
-        System.assertEquals('hcTags', propertyMappings.get('hc.tags'));
+        Map<String, String> x-property-mappings = comAdobeGraniteQueriesImplHcAsyncIndexHealthCheckProperties.getx-property-mappings();
+        System.assertEquals('indexingCriticalThreshold', x-property-mappings.get('indexing.critical.threshold'));
+        System.assertEquals('indexingWarnThreshold', x-property-mappings.get('indexing.warn.threshold'));
+        System.assertEquals('hcTags', x-property-mappings.get('hc.tags'));
     }
 }

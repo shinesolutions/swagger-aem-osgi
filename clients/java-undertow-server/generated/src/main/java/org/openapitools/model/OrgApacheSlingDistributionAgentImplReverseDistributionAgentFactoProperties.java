@@ -1,3 +1,13 @@
+/*
+ * Adobe Experience Manager OSGI config (AEM) API
+ *
+ * Swagger AEM OSGI is an OpenAPI specification for Adobe Experience Manager (AEM) OSGI Configurations API
+ *
+ * OpenAPI document version: 1.0.0-pre.0
+ * Maintained by: opensource@shinesolutions.com
+ *
+ * AUTO-GENERATED FILE, DO NOT MODIFY!
+ */
 package org.openapitools.model;
 
 import java.util.Objects;
@@ -15,26 +25,26 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2019-08-05T00:56:20.785Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2026-10-07T12:53:42.280804918Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties   {
   
-  private ConfigNodePropertyString name = null;
-  private ConfigNodePropertyString title = null;
-  private ConfigNodePropertyString details = null;
-  private ConfigNodePropertyBoolean enabled = null;
-  private ConfigNodePropertyString serviceName = null;
-  private ConfigNodePropertyDropDown logLevel = null;
-  private ConfigNodePropertyBoolean queueProcessingEnabled = null;
-  private ConfigNodePropertyArray packageExporterEndpoints = null;
-  private ConfigNodePropertyInteger pullItems = null;
-  private ConfigNodePropertyInteger httpConnTimeout = null;
-  private ConfigNodePropertyString requestAuthorizationStrategyTarget = null;
-  private ConfigNodePropertyString transportSecretProviderTarget = null;
-  private ConfigNodePropertyString packageBuilderTarget = null;
-  private ConfigNodePropertyString triggersTarget = null;
+  private ConfigNodePropertyString name;
+  private ConfigNodePropertyString title;
+  private ConfigNodePropertyString details;
+  private ConfigNodePropertyBoolean enabled;
+  private ConfigNodePropertyString serviceName;
+  private ConfigNodePropertyDropDown logLevel;
+  private ConfigNodePropertyBoolean queueProcessingEnabled;
+  private ConfigNodePropertyArray packageExporterEndpoints;
+  private ConfigNodePropertyInteger pullItems;
+  private ConfigNodePropertyInteger httpConnTimeout;
+  private ConfigNodePropertyString requestAuthorizationStrategyTarget;
+  private ConfigNodePropertyString transportSecretProviderTarget;
+  private ConfigNodePropertyString packageBuilderTarget;
+  private ConfigNodePropertyString triggersTarget;
 
   /**
-   **/
+   */
   public OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties name(ConfigNodePropertyString name) {
     this.name = name;
     return this;
@@ -51,7 +61,7 @@ public class OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoPro
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties title(ConfigNodePropertyString title) {
     this.title = title;
     return this;
@@ -68,7 +78,7 @@ public class OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoPro
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties details(ConfigNodePropertyString details) {
     this.details = details;
     return this;
@@ -85,7 +95,7 @@ public class OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoPro
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties enabled(ConfigNodePropertyBoolean enabled) {
     this.enabled = enabled;
     return this;
@@ -102,7 +112,7 @@ public class OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoPro
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties serviceName(ConfigNodePropertyString serviceName) {
     this.serviceName = serviceName;
     return this;
@@ -119,7 +129,7 @@ public class OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoPro
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties logLevel(ConfigNodePropertyDropDown logLevel) {
     this.logLevel = logLevel;
     return this;
@@ -136,7 +146,7 @@ public class OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoPro
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties queueProcessingEnabled(ConfigNodePropertyBoolean queueProcessingEnabled) {
     this.queueProcessingEnabled = queueProcessingEnabled;
     return this;
@@ -153,7 +163,7 @@ public class OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoPro
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties packageExporterEndpoints(ConfigNodePropertyArray packageExporterEndpoints) {
     this.packageExporterEndpoints = packageExporterEndpoints;
     return this;
@@ -170,7 +180,7 @@ public class OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoPro
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties pullItems(ConfigNodePropertyInteger pullItems) {
     this.pullItems = pullItems;
     return this;
@@ -187,7 +197,7 @@ public class OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoPro
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties httpConnTimeout(ConfigNodePropertyInteger httpConnTimeout) {
     this.httpConnTimeout = httpConnTimeout;
     return this;
@@ -204,7 +214,7 @@ public class OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoPro
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties requestAuthorizationStrategyTarget(ConfigNodePropertyString requestAuthorizationStrategyTarget) {
     this.requestAuthorizationStrategyTarget = requestAuthorizationStrategyTarget;
     return this;
@@ -221,7 +231,7 @@ public class OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoPro
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties transportSecretProviderTarget(ConfigNodePropertyString transportSecretProviderTarget) {
     this.transportSecretProviderTarget = transportSecretProviderTarget;
     return this;
@@ -238,7 +248,7 @@ public class OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoPro
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties packageBuilderTarget(ConfigNodePropertyString packageBuilderTarget) {
     this.packageBuilderTarget = packageBuilderTarget;
     return this;
@@ -255,7 +265,7 @@ public class OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoPro
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties triggersTarget(ConfigNodePropertyString triggersTarget) {
     this.triggersTarget = triggersTarget;
     return this;
@@ -273,7 +283,7 @@ public class OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoPro
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -329,11 +339,8 @@ public class OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoPro
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

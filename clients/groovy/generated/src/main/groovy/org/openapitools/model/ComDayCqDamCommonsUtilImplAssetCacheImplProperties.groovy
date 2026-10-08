@@ -9,10 +9,10 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class ComDayCqDamCommonsUtilImplAssetCacheImplProperties {
-    ConfigNodePropertyInteger largeFileMin = null
-
-    ConfigNodePropertyBoolean cacheApply = null
-
-    ConfigNodePropertyArray mimeTypes = null
-
+    
+    ConfigNodePropertyInteger largeFileMin
+    
+    ConfigNodePropertyBoolean cacheApply
+    
+    ConfigNodePropertyArray mimeTypes
 }

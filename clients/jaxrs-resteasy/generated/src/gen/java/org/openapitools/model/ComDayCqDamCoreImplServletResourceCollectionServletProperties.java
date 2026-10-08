@@ -4,28 +4,32 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2019-08-05T00:59:30.156Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2026-10-07T12:54:21.614735164Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqDamCoreImplServletResourceCollectionServletProperties   {
   
-  private ConfigNodePropertyArray slingServletResourceTypes = null;
-  private ConfigNodePropertyString slingServletMethods = null;
-  private ConfigNodePropertyString slingServletSelectors = null;
-  private ConfigNodePropertyString downloadConfig = null;
-  private ConfigNodePropertyString viewSelector = null;
-  private ConfigNodePropertyBoolean sendEmail = null;
+  private ConfigNodePropertyArray slingServletResourceTypes;
+  private ConfigNodePropertyString slingServletMethods;
+  private ConfigNodePropertyString slingServletSelectors;
+  private ConfigNodePropertyString downloadConfig;
+  private ConfigNodePropertyString viewSelector;
+  private ConfigNodePropertyBoolean sendEmail;
 
   /**
    **/
   
   @ApiModelProperty(value = "")
   @JsonProperty("sling.servlet.resourceTypes")
+  @Valid
   public ConfigNodePropertyArray getSlingServletResourceTypes() {
     return slingServletResourceTypes;
   }
@@ -38,6 +42,7 @@ public class ComDayCqDamCoreImplServletResourceCollectionServletProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("sling.servlet.methods")
+  @Valid
   public ConfigNodePropertyString getSlingServletMethods() {
     return slingServletMethods;
   }
@@ -50,6 +55,7 @@ public class ComDayCqDamCoreImplServletResourceCollectionServletProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("sling.servlet.selectors")
+  @Valid
   public ConfigNodePropertyString getSlingServletSelectors() {
     return slingServletSelectors;
   }
@@ -62,6 +68,7 @@ public class ComDayCqDamCoreImplServletResourceCollectionServletProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("download.config")
+  @Valid
   public ConfigNodePropertyString getDownloadConfig() {
     return downloadConfig;
   }
@@ -74,6 +81,7 @@ public class ComDayCqDamCoreImplServletResourceCollectionServletProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("view.selector")
+  @Valid
   public ConfigNodePropertyString getViewSelector() {
     return viewSelector;
   }
@@ -86,6 +94,7 @@ public class ComDayCqDamCoreImplServletResourceCollectionServletProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("send_email")
+  @Valid
   public ConfigNodePropertyBoolean getSendEmail() {
     return sendEmail;
   }
@@ -95,7 +104,7 @@ public class ComDayCqDamCoreImplServletResourceCollectionServletProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -103,12 +112,12 @@ public class ComDayCqDamCoreImplServletResourceCollectionServletProperties   {
       return false;
     }
     ComDayCqDamCoreImplServletResourceCollectionServletProperties comDayCqDamCoreImplServletResourceCollectionServletProperties = (ComDayCqDamCoreImplServletResourceCollectionServletProperties) o;
-    return Objects.equals(slingServletResourceTypes, comDayCqDamCoreImplServletResourceCollectionServletProperties.slingServletResourceTypes) &&
-        Objects.equals(slingServletMethods, comDayCqDamCoreImplServletResourceCollectionServletProperties.slingServletMethods) &&
-        Objects.equals(slingServletSelectors, comDayCqDamCoreImplServletResourceCollectionServletProperties.slingServletSelectors) &&
-        Objects.equals(downloadConfig, comDayCqDamCoreImplServletResourceCollectionServletProperties.downloadConfig) &&
-        Objects.equals(viewSelector, comDayCqDamCoreImplServletResourceCollectionServletProperties.viewSelector) &&
-        Objects.equals(sendEmail, comDayCqDamCoreImplServletResourceCollectionServletProperties.sendEmail);
+    return Objects.equals(this.slingServletResourceTypes, comDayCqDamCoreImplServletResourceCollectionServletProperties.slingServletResourceTypes) &&
+        Objects.equals(this.slingServletMethods, comDayCqDamCoreImplServletResourceCollectionServletProperties.slingServletMethods) &&
+        Objects.equals(this.slingServletSelectors, comDayCqDamCoreImplServletResourceCollectionServletProperties.slingServletSelectors) &&
+        Objects.equals(this.downloadConfig, comDayCqDamCoreImplServletResourceCollectionServletProperties.downloadConfig) &&
+        Objects.equals(this.viewSelector, comDayCqDamCoreImplServletResourceCollectionServletProperties.viewSelector) &&
+        Objects.equals(this.sendEmail, comDayCqDamCoreImplServletResourceCollectionServletProperties.sendEmail);
   }
 
   @Override
@@ -135,11 +144,8 @@ public class ComDayCqDamCoreImplServletResourceCollectionServletProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

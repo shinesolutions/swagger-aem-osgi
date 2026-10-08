@@ -8,8 +8,8 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqDamCoreImplUnzipUnzipConfigProperties {
-    ConfigNodePropertyInteger cqDamConfigUnzipMaxuncompressedsize = null
-
-    ConfigNodePropertyString cqDamConfigUnzipEncoding = null
-
+    
+    ConfigNodePropertyInteger cqDamConfigUnzipMaxuncompressedsize
+    
+    ConfigNodePropertyString cqDamConfigUnzipEncoding
 }

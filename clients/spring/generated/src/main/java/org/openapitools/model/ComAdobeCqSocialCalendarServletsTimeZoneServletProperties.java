@@ -1,24 +1,35 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyInteger;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComAdobeCqSocialCalendarServletsTimeZoneServletProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComAdobeCqSocialCalendarServletsTimeZoneServletProperties   {
-  @JsonProperty("timezones.expirytime")
-  private ConfigNodePropertyInteger timezonesExpirytime = null;
+@JsonTypeName("comAdobeCqSocialCalendarServletsTimeZoneServletProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComAdobeCqSocialCalendarServletsTimeZoneServletProperties {
 
-  public ComAdobeCqSocialCalendarServletsTimeZoneServletProperties timezonesExpirytime(ConfigNodePropertyInteger timezonesExpirytime) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger timezonesExpirytime;
+
+  public ComAdobeCqSocialCalendarServletsTimeZoneServletProperties timezonesExpirytime(@Nullable ConfigNodePropertyInteger timezonesExpirytime) {
     this.timezonesExpirytime = timezonesExpirytime;
     return this;
   }
@@ -26,22 +37,21 @@ public class ComAdobeCqSocialCalendarServletsTimeZoneServletProperties   {
   /**
    * Get timezonesExpirytime
    * @return timezonesExpirytime
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getTimezonesExpirytime() {
+   */
+  @Valid 
+  @Schema(name = "timezones.expirytime", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("timezones.expirytime")
+  public @Nullable ConfigNodePropertyInteger getTimezonesExpirytime() {
     return timezonesExpirytime;
   }
 
-  public void setTimezonesExpirytime(ConfigNodePropertyInteger timezonesExpirytime) {
+  @JsonProperty("timezones.expirytime")
+  public void setTimezonesExpirytime(@Nullable ConfigNodePropertyInteger timezonesExpirytime) {
     this.timezonesExpirytime = timezonesExpirytime;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -61,7 +71,6 @@ public class ComAdobeCqSocialCalendarServletsTimeZoneServletProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComAdobeCqSocialCalendarServletsTimeZoneServletProperties {\n");
-    
     sb.append("    timezonesExpirytime: ").append(toIndentedString(timezonesExpirytime)).append("\n");
     sb.append("}");
     return sb.toString();
@@ -71,11 +80,8 @@ public class ComAdobeCqSocialCalendarServletsTimeZoneServletProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

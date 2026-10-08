@@ -1,6 +1,7 @@
 # NodeSwaggerAemOsgi.OrgApacheJackrabbitOakSegmentStandbyStoreStandbyStoreServiceProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **orgApacheSlingInstallerConfigurationPersist** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] 

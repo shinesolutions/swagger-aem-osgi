@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqDamCfmImplContentRewriterParRangeFilterP
 
 @Canonical
 class ComAdobeCqDamCfmImplContentRewriterParRangeFilterInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqDamCfmImplContentRewriterParRangeFilterProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqDamCfmImplContentRewriterParRangeFilterProperties properties
 }

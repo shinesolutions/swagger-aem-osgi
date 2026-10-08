@@ -1,7 +1,9 @@
 
+
 # ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **purgeCompleted** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
@@ -9,6 +11,7 @@ Name | Type | Description | Notes
 **purgeActive** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
 **activeAge** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
 **saveThreshold** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
+
 
 
 

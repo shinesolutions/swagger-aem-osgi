@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqDamCoreImplAssetMoveListenerInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqDamCoreImplAssetMoveListenerInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComDayCqDamCoreImplAssetMoveListenerProperties = openapi_server.resourceTypes.ComDayCqDamCoreImplAssetMoveListenerProperties
+}
+resourceTypes {
+
+  ComDayCqDamCoreImplAssetMoveListenerInfo {
+    title = ComDayCqDamCoreImplAssetMoveListenerInfo
+    description = ComDayCqDamCoreImplAssetMoveListenerInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComDayCqDamCoreImplAssetMoveListenerProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqDamCoreImplAssetMoveListenerInfo {
+    title = ComDayCqDamCoreImplAssetMoveListenerInfo
+    description = ComDayCqDamCoreImplAssetMoveListenerInfo
+    implements = openapi_server.resourceTypes.ComDayCqDamCoreImplAssetMoveListenerInfo
+
+  }
+}

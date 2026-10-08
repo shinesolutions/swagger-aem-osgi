@@ -1,0 +1,21 @@
+{
+  "namespace": "model",
+  "type": "record",
+  "doc": "",
+  "name": "ComAdobeCqSocialCommonsEmailreplyImplUnknownEmailClientProviderProperties",
+  "fields": [
+    {
+      "name": "replyEmailPatterns",
+      "type": ["null", "model.ConfigNodePropertyArray"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "priorityOrder",
+      "type": ["null", "model.ConfigNodePropertyInteger"],
+      "doc": "",
+      "default": null
+    }
+  ]
+
+}

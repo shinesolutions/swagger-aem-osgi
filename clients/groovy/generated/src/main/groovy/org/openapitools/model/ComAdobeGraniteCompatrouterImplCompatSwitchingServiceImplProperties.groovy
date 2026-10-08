@@ -8,8 +8,8 @@ import org.openapitools.model.ConfigNodePropertyBoolean;
 
 @Canonical
 class ComAdobeGraniteCompatrouterImplCompatSwitchingServiceImplProperties {
-    ConfigNodePropertyArray compatgroups = null
-
-    ConfigNodePropertyBoolean enabled = null
-
+    
+    ConfigNodePropertyArray compatgroups
+    
+    ConfigNodePropertyBoolean enabled
 }

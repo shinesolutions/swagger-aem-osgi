@@ -1,0 +1,42 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqDamCoreImplEventDamEventAuditListenerProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqDamCoreImplEventDamEventAuditListenerProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComDayCqDamCoreImplEventDamEventAuditListenerProperties {
+    title = ComDayCqDamCoreImplEventDamEventAuditListenerProperties
+    description = ComDayCqDamCoreImplEventDamEventAuditListenerProperties
+    derivedFrom = Root
+    properties {
+        event_filter {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        enabled {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqDamCoreImplEventDamEventAuditListenerProperties {
+    title = ComDayCqDamCoreImplEventDamEventAuditListenerProperties
+    description = ComDayCqDamCoreImplEventDamEventAuditListenerProperties
+    implements = openapi_server.resourceTypes.ComDayCqDamCoreImplEventDamEventAuditListenerProperties
+
+  }
+}

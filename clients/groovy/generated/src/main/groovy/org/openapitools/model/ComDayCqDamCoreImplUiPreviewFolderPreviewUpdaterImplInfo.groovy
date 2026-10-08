@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqDamCoreImplUiPreviewFolderPreviewUpdaterIm
 
 @Canonical
 class ComDayCqDamCoreImplUiPreviewFolderPreviewUpdaterImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqDamCoreImplUiPreviewFolderPreviewUpdaterImplProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqDamCoreImplUiPreviewFolderPreviewUpdaterImplProperties properties
 }

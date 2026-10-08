@@ -9,10 +9,10 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class OrgApacheSlingServletsPostImplHelperChunkCleanUpTaskProperties {
-    ConfigNodePropertyString schedulerExpression = null
-
-    ConfigNodePropertyBoolean schedulerConcurrent = null
-
-    ConfigNodePropertyInteger chunkCleanupAge = null
-
+    
+    ConfigNodePropertyString schedulerExpression
+    
+    ConfigNodePropertyBoolean schedulerConcurrent
+    
+    ConfigNodePropertyInteger chunkCleanupAge
 }

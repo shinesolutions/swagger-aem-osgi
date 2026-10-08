@@ -72,7 +72,7 @@ private class OASOrgApacheSlingHcCoreImplServletHeTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASOrgApacheSlingHcCoreImplServletHe orgApacheSlingHcCoreImplServletHealthCheckExecutorServletProperties = new OASOrgApacheSlingHcCoreImplServletHe();
-        Map<String, String> propertyMappings = orgApacheSlingHcCoreImplServletHealthCheckExecutorServletProperties.getPropertyMappings();
-        System.assertEquals('corsAccessControlAllowOrigin', propertyMappings.get('cors.accessControlAllowOrigin'));
+        Map<String, String> x-property-mappings = orgApacheSlingHcCoreImplServletHealthCheckExecutorServletProperties.getx-property-mappings();
+        System.assertEquals('corsAccessControlAllowOrigin', x-property-mappings.get('cors.accessControlAllowOrigin'));
     }
 }

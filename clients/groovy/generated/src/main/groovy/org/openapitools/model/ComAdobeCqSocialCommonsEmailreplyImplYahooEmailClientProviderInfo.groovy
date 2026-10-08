@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqSocialCommonsEmailreplyImplYahooEmailCli
 
 @Canonical
 class ComAdobeCqSocialCommonsEmailreplyImplYahooEmailClientProviderInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqSocialCommonsEmailreplyImplYahooEmailClientProviderProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqSocialCommonsEmailreplyImplYahooEmailClientProviderProperties properties
 }

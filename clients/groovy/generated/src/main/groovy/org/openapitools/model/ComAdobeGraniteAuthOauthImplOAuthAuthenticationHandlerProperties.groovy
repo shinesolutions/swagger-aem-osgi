@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeGraniteAuthOauthImplOAuthAuthenticationHandlerProperties {
-    ConfigNodePropertyString path = null
-
+    
+    ConfigNodePropertyString path
 }

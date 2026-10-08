@@ -2,21 +2,21 @@
 # ComAdobeGraniteAuthImsImplIMSProviderImplProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**oauthPeriodproviderPeriodid** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**oauthPeriodproviderPeriodimsPeriodauthorizationPeriodurl** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**oauthPeriodproviderPeriodimsPeriodtokenPeriodurl** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**oauthPeriodproviderPeriodimsPeriodprofilePeriodurl** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**oauthPeriodproviderPeriodimsPeriodextendedPerioddetailsPeriodurls** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**oauthPeriodproviderPeriodimsPeriodvalidatePeriodtokenPeriodurl** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**oauthPeriodproviderPeriodimsPeriodsessionPeriodproperty** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**oauthPeriodproviderPeriodimsPeriodservicePeriodtokenPeriodclientPeriodid** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**oauthPeriodproviderPeriodimsPeriodservicePeriodtokenPeriodclientPeriodsecret** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**oauthPeriodproviderPeriodimsPeriodservicePeriodtoken** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**imsPeriodorgPeriodref** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**imsPeriodgroupPeriodmapping** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**oauthPeriodproviderPeriodimsPeriodonlyPeriodlicensePeriodgroup** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **oauthProviderId** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **oauthProviderImsAuthorizationUrl** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **oauthProviderImsTokenUrl** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **oauthProviderImsProfileUrl** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **oauthProviderImsExtendedDetailsUrls** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **oauthProviderImsValidateTokenUrl** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **oauthProviderImsSessionProperty** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **oauthProviderImsServiceTokenClientId** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **oauthProviderImsServiceTokenClientSecret** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **oauthProviderImsServiceToken** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **imsOrgRef** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **imsGroupMapping** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **oauthProviderImsOnlyLicenseGroup** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
 
 
 

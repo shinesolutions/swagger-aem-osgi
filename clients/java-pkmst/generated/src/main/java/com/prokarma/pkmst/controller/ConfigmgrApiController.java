@@ -557,6 +557,7 @@ import com.prokarma.pkmst.model.ComDayCqWorkflowImplEmailTaskEMailNotificationSe
 import com.prokarma.pkmst.model.ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerInfo;
 import com.prokarma.pkmst.model.ComDayCrxSecurityTokenImplTokenCleanupTaskInfo;
 import com.prokarma.pkmst.model.GuideLocalizationServiceInfo;
+import java.util.List;
 import com.prokarma.pkmst.model.MessagingUserComponentFactoryInfo;
 import com.prokarma.pkmst.model.OrgApacheAriesJmxFrameworkStateConfigInfo;
 import com.prokarma.pkmst.model.OrgApacheFelixEventadminImplEventAdminInfo;
@@ -740,12 +741,11 @@ import java.util.List;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import java.io.IOException;
 /**
- * Api implemention
+ * Api implementation
  * @author pkmst
  *
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @Controller
 public class ConfigmgrApiController implements ConfigmgrApi {
     private final ObjectMapper objectMapper;
@@ -7751,7 +7751,7 @@ public class ConfigmgrApiController implements ConfigmgrApi {
         @ApiParam(value = "")  @RequestParam(value = "action", required = false) String action,
         @ApiParam(value = "")  @RequestParam(value = "$location", required = false) String $location,
         @ApiParam(value = "")  @RequestParam(value = "propertylist", required = false) List<String> propertylist,
-        @ApiParam(value = "")  @RequestParam(value = "granite:data", required = false) List<String> graniteColonData,
+        @ApiParam(value = "")  @RequestParam(value = "granite:data", required = false) List<String> graniteData,
         @RequestHeader(value = "Accept", required = false) String accept) throws Exception {
         // do some magic!
 
@@ -8040,7 +8040,7 @@ public class ConfigmgrApiController implements ConfigmgrApi {
         @ApiParam(value = "")  @RequestParam(value = "$location", required = false) String $location,
         @ApiParam(value = "")  @RequestParam(value = "propertylist", required = false) List<String> propertylist,
         @ApiParam(value = "")  @RequestParam(value = "More Info", required = false) String moreInfo,
-        @ApiParam(value = "")  @RequestParam(value = "/mnt/overlay/dam/gui/content/assets/moreinfo.html/${path}", required = false) String slashMntSlashOverlaySlashDamSlashGuiSlashContentSlashAssetsSlashMoreinfoHtmlSlash$LeftCurlyBracketPathRightCurlyBracket,
+        @ApiParam(value = "")  @RequestParam(value = "/mnt/overlay/dam/gui/content/assets/moreinfo.html/${path}", required = false) String mntOverlayDamGuiContentAssetsMoreinfoHtml$LeftCurlyBracketPathRightCurlyBracket,
         @RequestHeader(value = "Accept", required = false) String accept) throws Exception {
         // do some magic!
 

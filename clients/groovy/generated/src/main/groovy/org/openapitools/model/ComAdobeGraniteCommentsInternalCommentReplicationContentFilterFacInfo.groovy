@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeGraniteCommentsInternalCommentReplicationC
 
 @Canonical
 class ComAdobeGraniteCommentsInternalCommentReplicationContentFilterFacInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteCommentsInternalCommentReplicationContentFilterFacProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteCommentsInternalCommentReplicationContentFilterFacProperties properties
 }

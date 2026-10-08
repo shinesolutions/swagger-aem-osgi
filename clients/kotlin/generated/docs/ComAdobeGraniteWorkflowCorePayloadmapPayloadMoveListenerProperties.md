@@ -2,10 +2,10 @@
 # ComAdobeGraniteWorkflowCorePayloadmapPayloadMoveListenerProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**payloadPeriodmovePeriodwhitePeriodlist** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**payloadPeriodmovePeriodhandlePeriodfromPeriodworkflowPeriodprocess** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **payloadMoveWhiteList** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **payloadMoveHandleFromWorkflowProcess** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
 
 
 

@@ -7,8 +7,8 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeGraniteHttpcacheFileFileCacheStoreProperties {
-    ConfigNodePropertyString comAdobeGraniteHttpcacheFileDocumentRoot = null
-
-    ConfigNodePropertyString comAdobeGraniteHttpcacheFileIncludeHost = null
-
+    
+    ConfigNodePropertyString comAdobeGraniteHttpcacheFileDocumentRoot
+    
+    ConfigNodePropertyString comAdobeGraniteHttpcacheFileIncludeHost
 }

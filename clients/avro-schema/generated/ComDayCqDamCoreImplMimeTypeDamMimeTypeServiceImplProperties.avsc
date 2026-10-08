@@ -1,0 +1,15 @@
+{
+  "namespace": "model",
+  "type": "record",
+  "doc": "",
+  "name": "ComDayCqDamCoreImplMimeTypeDamMimeTypeServiceImplProperties",
+  "fields": [
+    {
+      "name": "cq.dam.detect.asset.mime.from.content",
+      "type": ["null", "model.ConfigNodePropertyBoolean"],
+      "doc": "",
+      "default": null
+    }
+  ]
+
+}

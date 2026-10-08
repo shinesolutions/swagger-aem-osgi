@@ -72,7 +72,7 @@ private class OASComAdobeGraniteLoggingImplLogErroTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeGraniteLoggingImplLogErro comAdobeGraniteLoggingImplLogErrorHealthCheckProperties = new OASComAdobeGraniteLoggingImplLogErro();
-        Map<String, String> propertyMappings = comAdobeGraniteLoggingImplLogErrorHealthCheckProperties.getPropertyMappings();
-        System.assertEquals('hcTags', propertyMappings.get('hc.tags'));
+        Map<String, String> x-property-mappings = comAdobeGraniteLoggingImplLogErrorHealthCheckProperties.getx-property-mappings();
+        System.assertEquals('hcTags', x-property-mappings.get('hc.tags'));
     }
 }

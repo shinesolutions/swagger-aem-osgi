@@ -1,7 +1,9 @@
 
+
 # ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **jdbcDriverClass** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
@@ -15,6 +17,7 @@ Name | Type | Description | Notes
 **poolMaxWaitMsec** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
 **datasourceName** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
 **datasourceSvcProperties** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
+
 
 
 

@@ -2,29 +2,30 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyDropDown;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class OrgApacheFelixSystemreadyImplFrameworkStartCheckProperties   {
   
-  private ConfigNodePropertyInteger timeout = null;
+  private ConfigNodePropertyInteger timeout;
 
-  private ConfigNodePropertyInteger targetStartLevel = null;
+  private ConfigNodePropertyInteger targetStartLevel;
 
-  private ConfigNodePropertyString targetStartLevelPropName = null;
+  private ConfigNodePropertyString targetStartLevelPropName;
 
-  private ConfigNodePropertyDropDown type = null;
-
+  private ConfigNodePropertyDropDown type;
 
   /**
    **/
@@ -100,7 +101,7 @@ public class OrgApacheFelixSystemreadyImplFrameworkStartCheckProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -108,10 +109,10 @@ public class OrgApacheFelixSystemreadyImplFrameworkStartCheckProperties   {
       return false;
     }
     OrgApacheFelixSystemreadyImplFrameworkStartCheckProperties orgApacheFelixSystemreadyImplFrameworkStartCheckProperties = (OrgApacheFelixSystemreadyImplFrameworkStartCheckProperties) o;
-    return Objects.equals(timeout, orgApacheFelixSystemreadyImplFrameworkStartCheckProperties.timeout) &&
-        Objects.equals(targetStartLevel, orgApacheFelixSystemreadyImplFrameworkStartCheckProperties.targetStartLevel) &&
-        Objects.equals(targetStartLevelPropName, orgApacheFelixSystemreadyImplFrameworkStartCheckProperties.targetStartLevelPropName) &&
-        Objects.equals(type, orgApacheFelixSystemreadyImplFrameworkStartCheckProperties.type);
+    return Objects.equals(this.timeout, orgApacheFelixSystemreadyImplFrameworkStartCheckProperties.timeout) &&
+        Objects.equals(this.targetStartLevel, orgApacheFelixSystemreadyImplFrameworkStartCheckProperties.targetStartLevel) &&
+        Objects.equals(this.targetStartLevelPropName, orgApacheFelixSystemreadyImplFrameworkStartCheckProperties.targetStartLevelPropName) &&
+        Objects.equals(this.type, orgApacheFelixSystemreadyImplFrameworkStartCheckProperties.type);
   }
 
   @Override
@@ -136,11 +137,8 @@ public class OrgApacheFelixSystemreadyImplFrameworkStartCheckProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -10,12 +10,12 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeGraniteWorkflowPurgeSchedulerProperties {
-    ConfigNodePropertyString scheduledpurgeName = null
-
-    ConfigNodePropertyDropDown scheduledpurgeWorkflowStatus = null
-
-    ConfigNodePropertyArray scheduledpurgeModelIds = null
-
-    ConfigNodePropertyInteger scheduledpurgeDaysold = null
-
+    
+    ConfigNodePropertyString scheduledpurgeName
+    
+    ConfigNodePropertyDropDown scheduledpurgeWorkflowStatus
+    
+    ConfigNodePropertyArray scheduledpurgeModelIds
+    
+    ConfigNodePropertyInteger scheduledpurgeDaysold
 }

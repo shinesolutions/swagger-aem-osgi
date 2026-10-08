@@ -7,12 +7,12 @@ import org.openapitools.model.OrgApacheJackrabbitOakQueryQueryEngineSettingsServ
 
 @Canonical
 class OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceProperties properties
 }

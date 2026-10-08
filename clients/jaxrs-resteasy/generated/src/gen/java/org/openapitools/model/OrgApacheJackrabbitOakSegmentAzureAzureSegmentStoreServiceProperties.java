@@ -4,25 +4,29 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2019-08-05T00:59:30.156Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2026-10-07T12:54:21.614735164Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServiceProperties   {
   
-  private ConfigNodePropertyString accountName = null;
-  private ConfigNodePropertyString containerName = null;
-  private ConfigNodePropertyString accessKey = null;
-  private ConfigNodePropertyString rootPath = null;
-  private ConfigNodePropertyString connectionURL = null;
+  private ConfigNodePropertyString accountName;
+  private ConfigNodePropertyString containerName;
+  private ConfigNodePropertyString accessKey;
+  private ConfigNodePropertyString rootPath;
+  private ConfigNodePropertyString connectionURL;
 
   /**
    **/
   
   @ApiModelProperty(value = "")
   @JsonProperty("accountName")
+  @Valid
   public ConfigNodePropertyString getAccountName() {
     return accountName;
   }
@@ -35,6 +39,7 @@ public class OrgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServicePropertie
   
   @ApiModelProperty(value = "")
   @JsonProperty("containerName")
+  @Valid
   public ConfigNodePropertyString getContainerName() {
     return containerName;
   }
@@ -47,6 +52,7 @@ public class OrgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServicePropertie
   
   @ApiModelProperty(value = "")
   @JsonProperty("accessKey")
+  @Valid
   public ConfigNodePropertyString getAccessKey() {
     return accessKey;
   }
@@ -59,6 +65,7 @@ public class OrgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServicePropertie
   
   @ApiModelProperty(value = "")
   @JsonProperty("rootPath")
+  @Valid
   public ConfigNodePropertyString getRootPath() {
     return rootPath;
   }
@@ -71,6 +78,7 @@ public class OrgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServicePropertie
   
   @ApiModelProperty(value = "")
   @JsonProperty("connectionURL")
+  @Valid
   public ConfigNodePropertyString getConnectionURL() {
     return connectionURL;
   }
@@ -80,7 +88,7 @@ public class OrgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServicePropertie
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -88,11 +96,11 @@ public class OrgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServicePropertie
       return false;
     }
     OrgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServiceProperties orgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServiceProperties = (OrgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServiceProperties) o;
-    return Objects.equals(accountName, orgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServiceProperties.accountName) &&
-        Objects.equals(containerName, orgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServiceProperties.containerName) &&
-        Objects.equals(accessKey, orgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServiceProperties.accessKey) &&
-        Objects.equals(rootPath, orgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServiceProperties.rootPath) &&
-        Objects.equals(connectionURL, orgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServiceProperties.connectionURL);
+    return Objects.equals(this.accountName, orgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServiceProperties.accountName) &&
+        Objects.equals(this.containerName, orgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServiceProperties.containerName) &&
+        Objects.equals(this.accessKey, orgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServiceProperties.accessKey) &&
+        Objects.equals(this.rootPath, orgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServiceProperties.rootPath) &&
+        Objects.equals(this.connectionURL, orgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServiceProperties.connectionURL);
   }
 
   @Override
@@ -118,11 +126,8 @@ public class OrgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServicePropertie
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

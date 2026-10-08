@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeGraniteQueriesImplHcLargeIndexHealthCheckP
 
 @Canonical
 class ComAdobeGraniteQueriesImplHcLargeIndexHealthCheckInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteQueriesImplHcLargeIndexHealthCheckProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteQueriesImplHcLargeIndexHealthCheckProperties properties
 }

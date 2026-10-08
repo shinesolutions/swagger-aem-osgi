@@ -124,11 +124,11 @@ ConfigNodePropertyDropDown::fromJson(char* jsonStr)
 	if (node !=NULL) {
 	
 
-		if (isprimitive("std::string")) {
-			jsonToValue(&value, node, "std::string", "");
+		if (isprimitive("AnyType")) {
+			jsonToValue(&value, node, "AnyType", "");
 		} else {
 			
-			std::string* obj = static_cast<std::string*> (&value);
+			AnyType* obj = static_cast<AnyType*> (&value);
 			obj->fromJson(json_to_string(node, false));
 			
 		}
@@ -197,13 +197,13 @@ ConfigNodePropertyDropDown::toJson()
 	}
 	const gchar *typeKey = "type";
 	json_object_set_member(pJsonObject, typeKey, node);
-	if (isprimitive("std::string")) {
-		std::string obj = getValue();
-		node = converttoJson(&obj, "std::string", "");
+	if (isprimitive("AnyType")) {
+		AnyType obj = getValue();
+		node = converttoJson(&obj, "AnyType", "");
 	}
 	else {
 		
-		std::string obj = static_cast<std::string> (getValue());
+		AnyType obj = static_cast<AnyType> (getValue());
 		GError *mygerror;
 		mygerror = NULL;
 		node = json_from_string(obj.toJson(), &mygerror);
@@ -276,14 +276,14 @@ ConfigNodePropertyDropDown::setType(ConfigNodePropertyDropDown_type  type)
 	this->type = type;
 }
 
-std::string
+AnyType
 ConfigNodePropertyDropDown::getValue()
 {
 	return value;
 }
 
 void
-ConfigNodePropertyDropDown::setValue(std::string  value)
+ConfigNodePropertyDropDown::setValue(AnyType  value)
 {
 	this->value = value;
 }

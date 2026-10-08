@@ -2,29 +2,30 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class ComAdobeGraniteAuthOauthImplGraniteProviderProperties   {
   
-  private ConfigNodePropertyString oauthProviderId = null;
+  private ConfigNodePropertyString oauthProviderId;
 
-  private ConfigNodePropertyString oauthProviderGraniteAuthorizationUrl = null;
+  private ConfigNodePropertyString oauthProviderGraniteAuthorizationUrl;
 
-  private ConfigNodePropertyString oauthProviderGraniteTokenUrl = null;
+  private ConfigNodePropertyString oauthProviderGraniteTokenUrl;
 
-  private ConfigNodePropertyString oauthProviderGraniteProfileUrl = null;
+  private ConfigNodePropertyString oauthProviderGraniteProfileUrl;
 
-  private ConfigNodePropertyString oauthProviderGraniteExtendedDetailsUrls = null;
-
+  private ConfigNodePropertyString oauthProviderGraniteExtendedDetailsUrls;
 
   /**
    **/
@@ -118,7 +119,7 @@ public class ComAdobeGraniteAuthOauthImplGraniteProviderProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -126,11 +127,11 @@ public class ComAdobeGraniteAuthOauthImplGraniteProviderProperties   {
       return false;
     }
     ComAdobeGraniteAuthOauthImplGraniteProviderProperties comAdobeGraniteAuthOauthImplGraniteProviderProperties = (ComAdobeGraniteAuthOauthImplGraniteProviderProperties) o;
-    return Objects.equals(oauthProviderId, comAdobeGraniteAuthOauthImplGraniteProviderProperties.oauthProviderId) &&
-        Objects.equals(oauthProviderGraniteAuthorizationUrl, comAdobeGraniteAuthOauthImplGraniteProviderProperties.oauthProviderGraniteAuthorizationUrl) &&
-        Objects.equals(oauthProviderGraniteTokenUrl, comAdobeGraniteAuthOauthImplGraniteProviderProperties.oauthProviderGraniteTokenUrl) &&
-        Objects.equals(oauthProviderGraniteProfileUrl, comAdobeGraniteAuthOauthImplGraniteProviderProperties.oauthProviderGraniteProfileUrl) &&
-        Objects.equals(oauthProviderGraniteExtendedDetailsUrls, comAdobeGraniteAuthOauthImplGraniteProviderProperties.oauthProviderGraniteExtendedDetailsUrls);
+    return Objects.equals(this.oauthProviderId, comAdobeGraniteAuthOauthImplGraniteProviderProperties.oauthProviderId) &&
+        Objects.equals(this.oauthProviderGraniteAuthorizationUrl, comAdobeGraniteAuthOauthImplGraniteProviderProperties.oauthProviderGraniteAuthorizationUrl) &&
+        Objects.equals(this.oauthProviderGraniteTokenUrl, comAdobeGraniteAuthOauthImplGraniteProviderProperties.oauthProviderGraniteTokenUrl) &&
+        Objects.equals(this.oauthProviderGraniteProfileUrl, comAdobeGraniteAuthOauthImplGraniteProviderProperties.oauthProviderGraniteProfileUrl) &&
+        Objects.equals(this.oauthProviderGraniteExtendedDetailsUrls, comAdobeGraniteAuthOauthImplGraniteProviderProperties.oauthProviderGraniteExtendedDetailsUrls);
   }
 
   @Override
@@ -156,11 +157,8 @@ public class ComAdobeGraniteAuthOauthImplGraniteProviderProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

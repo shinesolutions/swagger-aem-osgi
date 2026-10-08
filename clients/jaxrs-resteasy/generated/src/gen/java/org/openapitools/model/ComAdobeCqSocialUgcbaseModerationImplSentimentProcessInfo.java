@@ -4,18 +4,21 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ComAdobeCqSocialUgcbaseModerationImplSentimentProcessProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2019-08-05T00:59:30.156Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2026-10-07T12:54:21.614735164Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeCqSocialUgcbaseModerationImplSentimentProcessInfo   {
   
-  private String pid = null;
-  private String title = null;
-  private String description = null;
-  private ComAdobeCqSocialUgcbaseModerationImplSentimentProcessProperties properties = null;
+  private String pid;
+  private String title;
+  private String description;
+  private ComAdobeCqSocialUgcbaseModerationImplSentimentProcessProperties properties;
 
   /**
    **/
@@ -58,6 +61,7 @@ public class ComAdobeCqSocialUgcbaseModerationImplSentimentProcessInfo   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("properties")
+  @Valid
   public ComAdobeCqSocialUgcbaseModerationImplSentimentProcessProperties getProperties() {
     return properties;
   }
@@ -67,7 +71,7 @@ public class ComAdobeCqSocialUgcbaseModerationImplSentimentProcessInfo   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -75,10 +79,10 @@ public class ComAdobeCqSocialUgcbaseModerationImplSentimentProcessInfo   {
       return false;
     }
     ComAdobeCqSocialUgcbaseModerationImplSentimentProcessInfo comAdobeCqSocialUgcbaseModerationImplSentimentProcessInfo = (ComAdobeCqSocialUgcbaseModerationImplSentimentProcessInfo) o;
-    return Objects.equals(pid, comAdobeCqSocialUgcbaseModerationImplSentimentProcessInfo.pid) &&
-        Objects.equals(title, comAdobeCqSocialUgcbaseModerationImplSentimentProcessInfo.title) &&
-        Objects.equals(description, comAdobeCqSocialUgcbaseModerationImplSentimentProcessInfo.description) &&
-        Objects.equals(properties, comAdobeCqSocialUgcbaseModerationImplSentimentProcessInfo.properties);
+    return Objects.equals(this.pid, comAdobeCqSocialUgcbaseModerationImplSentimentProcessInfo.pid) &&
+        Objects.equals(this.title, comAdobeCqSocialUgcbaseModerationImplSentimentProcessInfo.title) &&
+        Objects.equals(this.description, comAdobeCqSocialUgcbaseModerationImplSentimentProcessInfo.description) &&
+        Objects.equals(this.properties, comAdobeCqSocialUgcbaseModerationImplSentimentProcessInfo.properties);
   }
 
   @Override
@@ -103,11 +107,8 @@ public class ComAdobeCqSocialUgcbaseModerationImplSentimentProcessInfo   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

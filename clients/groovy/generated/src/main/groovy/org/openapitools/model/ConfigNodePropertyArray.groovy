@@ -4,26 +4,20 @@ import groovy.transform.Canonical
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import java.util.ArrayList;
-import java.util.List;
+import java.util.Arrays;
 
 @Canonical
 class ConfigNodePropertyArray {
     /* property name */
-    String name = null
-
+    String name
     /* True if optional */
-    Boolean optional = null
-
+    Boolean optional
     /* True if property is set */
-    Boolean isSet = null
-
+    Boolean isSet
     /* Property type, 1=String, 2=Long, 3=Integer, 7=Float, 11=Boolean, 12=Secrets(String) */
-    Integer type = null
-
+    Integer type
     /* Property value */
-    List<String> values = new ArrayList<String>()
-
+    List<String> values = new ArrayList<>()
     /* Property description */
-    String description = null
-
+    String description
 }

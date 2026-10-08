@@ -2,11 +2,11 @@
 # ComAdobeAemUpgradePrechecksHcImplReplicationAgentsDisabledHCProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**hcPeriodname** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**hcPeriodtags** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**hcPeriodmbeanPeriodname** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **hcName** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **hcTags** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **hcMbeanName** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
 
 
 

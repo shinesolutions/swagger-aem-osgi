@@ -9,16 +9,16 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqDamCoreImplServletResourceCollectionServletProperties {
-    ConfigNodePropertyArray slingServletResourceTypes = null
-
-    ConfigNodePropertyString slingServletMethods = null
-
-    ConfigNodePropertyString slingServletSelectors = null
-
-    ConfigNodePropertyString downloadConfig = null
-
-    ConfigNodePropertyString viewSelector = null
-
-    ConfigNodePropertyBoolean sendEmail = null
-
+    
+    ConfigNodePropertyArray slingServletResourceTypes
+    
+    ConfigNodePropertyString slingServletMethods
+    
+    ConfigNodePropertyString slingServletSelectors
+    
+    ConfigNodePropertyString downloadConfig
+    
+    ConfigNodePropertyString viewSelector
+    
+    ConfigNodePropertyBoolean sendEmail
 }

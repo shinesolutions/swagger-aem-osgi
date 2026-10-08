@@ -1,21 +1,32 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comAdobeGraniteFragsImplCheckHttpHeaderFlagProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteFragsImplCheckHttpHeaderFlagProperties   {
-  
-  private @Valid ConfigNodePropertyString featureName = null;
-  private @Valid ConfigNodePropertyString featureDescription = null;
-  private @Valid ConfigNodePropertyString httpHeaderName = null;
-  private @Valid ConfigNodePropertyString httpHeaderValuepattern = null;
+  private ConfigNodePropertyString featureName;
+  private ConfigNodePropertyString featureDescription;
+  private ConfigNodePropertyString httpHeaderName;
+  private ConfigNodePropertyString httpHeaderValuepattern;
+
+  public ComAdobeGraniteFragsImplCheckHttpHeaderFlagProperties() {
+  }
 
   /**
    **/
@@ -27,9 +38,11 @@ public class ComAdobeGraniteFragsImplCheckHttpHeaderFlagProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("feature.name")
-  public ConfigNodePropertyString getFeatureName() {
+  @Valid public ConfigNodePropertyString getFeatureName() {
     return featureName;
   }
+
+  @JsonProperty("feature.name")
   public void setFeatureName(ConfigNodePropertyString featureName) {
     this.featureName = featureName;
   }
@@ -44,9 +57,11 @@ public class ComAdobeGraniteFragsImplCheckHttpHeaderFlagProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("feature.description")
-  public ConfigNodePropertyString getFeatureDescription() {
+  @Valid public ConfigNodePropertyString getFeatureDescription() {
     return featureDescription;
   }
+
+  @JsonProperty("feature.description")
   public void setFeatureDescription(ConfigNodePropertyString featureDescription) {
     this.featureDescription = featureDescription;
   }
@@ -61,9 +76,11 @@ public class ComAdobeGraniteFragsImplCheckHttpHeaderFlagProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("http.header.name")
-  public ConfigNodePropertyString getHttpHeaderName() {
+  @Valid public ConfigNodePropertyString getHttpHeaderName() {
     return httpHeaderName;
   }
+
+  @JsonProperty("http.header.name")
   public void setHttpHeaderName(ConfigNodePropertyString httpHeaderName) {
     this.httpHeaderName = httpHeaderName;
   }
@@ -78,16 +95,18 @@ public class ComAdobeGraniteFragsImplCheckHttpHeaderFlagProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("http.header.valuepattern")
-  public ConfigNodePropertyString getHttpHeaderValuepattern() {
+  @Valid public ConfigNodePropertyString getHttpHeaderValuepattern() {
     return httpHeaderValuepattern;
   }
+
+  @JsonProperty("http.header.valuepattern")
   public void setHttpHeaderValuepattern(ConfigNodePropertyString httpHeaderValuepattern) {
     this.httpHeaderValuepattern = httpHeaderValuepattern;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -95,10 +114,10 @@ public class ComAdobeGraniteFragsImplCheckHttpHeaderFlagProperties   {
       return false;
     }
     ComAdobeGraniteFragsImplCheckHttpHeaderFlagProperties comAdobeGraniteFragsImplCheckHttpHeaderFlagProperties = (ComAdobeGraniteFragsImplCheckHttpHeaderFlagProperties) o;
-    return Objects.equals(featureName, comAdobeGraniteFragsImplCheckHttpHeaderFlagProperties.featureName) &&
-        Objects.equals(featureDescription, comAdobeGraniteFragsImplCheckHttpHeaderFlagProperties.featureDescription) &&
-        Objects.equals(httpHeaderName, comAdobeGraniteFragsImplCheckHttpHeaderFlagProperties.httpHeaderName) &&
-        Objects.equals(httpHeaderValuepattern, comAdobeGraniteFragsImplCheckHttpHeaderFlagProperties.httpHeaderValuepattern);
+    return Objects.equals(this.featureName, comAdobeGraniteFragsImplCheckHttpHeaderFlagProperties.featureName) &&
+        Objects.equals(this.featureDescription, comAdobeGraniteFragsImplCheckHttpHeaderFlagProperties.featureDescription) &&
+        Objects.equals(this.httpHeaderName, comAdobeGraniteFragsImplCheckHttpHeaderFlagProperties.httpHeaderName) &&
+        Objects.equals(this.httpHeaderValuepattern, comAdobeGraniteFragsImplCheckHttpHeaderFlagProperties.httpHeaderValuepattern);
   }
 
   @Override
@@ -123,11 +142,9 @@ public class ComAdobeGraniteFragsImplCheckHttpHeaderFlagProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

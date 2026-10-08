@@ -72,9 +72,9 @@ private class OASComAdobeGraniteQueriesImplHcLargeTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeGraniteQueriesImplHcLarge comAdobeGraniteQueriesImplHcLargeIndexHealthCheckProperties = new OASComAdobeGraniteQueriesImplHcLarge();
-        Map<String, String> propertyMappings = comAdobeGraniteQueriesImplHcLargeIndexHealthCheckProperties.getPropertyMappings();
-        System.assertEquals('largeIndexCriticalThreshold', propertyMappings.get('large.index.critical.threshold'));
-        System.assertEquals('largeIndexWarnThreshold', propertyMappings.get('large.index.warn.threshold'));
-        System.assertEquals('hcTags', propertyMappings.get('hc.tags'));
+        Map<String, String> x-property-mappings = comAdobeGraniteQueriesImplHcLargeIndexHealthCheckProperties.getx-property-mappings();
+        System.assertEquals('largeIndexCriticalThreshold', x-property-mappings.get('large.index.critical.threshold'));
+        System.assertEquals('largeIndexWarnThreshold', x-property-mappings.get('large.index.warn.threshold'));
+        System.assertEquals('hcTags', x-property-mappings.get('hc.tags'));
     }
 }

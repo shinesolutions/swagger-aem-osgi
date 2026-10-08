@@ -1,0 +1,22 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "scheduler_period" },
+      {"model": "scheduler_concurrent" },
+      {"model": "good_link_test_interval" },
+      {"model": "bad_link_test_interval" },
+      {"model": "link_unused_interval" },
+      {"model": "connection_timeout" },
+    ]
+  }]
+}

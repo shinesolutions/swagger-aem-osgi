@@ -1,0 +1,61 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheAriesJmxFrameworkStateConfigInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheAriesJmxFrameworkStateConfigInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  OrgApacheAriesJmxFrameworkStateConfigProperties = openapi_server.resourceTypes.OrgApacheAriesJmxFrameworkStateConfigProperties
+}
+resourceTypes {
+
+  OrgApacheAriesJmxFrameworkStateConfigInfo {
+    title = OrgApacheAriesJmxFrameworkStateConfigInfo
+    description = OrgApacheAriesJmxFrameworkStateConfigInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = OrgApacheAriesJmxFrameworkStateConfigProperties
+          description = ""
+          optional = false
+        }
+        bundle_location {
+          type =  string
+          description = ""
+          optional = false
+        }
+        service_location {
+          type =  string
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheAriesJmxFrameworkStateConfigInfo {
+    title = OrgApacheAriesJmxFrameworkStateConfigInfo
+    description = OrgApacheAriesJmxFrameworkStateConfigInfo
+    implements = openapi_server.resourceTypes.OrgApacheAriesJmxFrameworkStateConfigInfo
+
+  }
+}

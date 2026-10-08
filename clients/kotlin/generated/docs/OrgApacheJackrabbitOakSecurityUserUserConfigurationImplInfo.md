@@ -2,14 +2,14 @@
 # OrgApacheJackrabbitOakSecurityUserUserConfigurationImplInfo
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**pid** | **kotlin.String** |  |  [optional]
-**title** | **kotlin.String** |  |  [optional]
-**description** | **kotlin.String** |  |  [optional]
-**properties** | [**OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties**](OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties.md) |  |  [optional]
-**bundleUnderscorelocation** | **kotlin.String** |  |  [optional]
-**serviceUnderscorelocation** | **kotlin.String** |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **pid** | **kotlin.String** |  |  [optional] |
+| **title** | **kotlin.String** |  |  [optional] |
+| **description** | **kotlin.String** |  |  [optional] |
+| **properties** | [**OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties**](OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties.md) |  |  [optional] |
+| **bundleLocation** | **kotlin.String** |  |  [optional] |
+| **serviceLocation** | **kotlin.String** |  |  [optional] |
 
 
 

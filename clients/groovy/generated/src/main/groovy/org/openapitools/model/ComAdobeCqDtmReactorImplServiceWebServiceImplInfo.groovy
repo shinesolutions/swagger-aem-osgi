@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqDtmReactorImplServiceWebServiceImplPrope
 
 @Canonical
 class ComAdobeCqDtmReactorImplServiceWebServiceImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqDtmReactorImplServiceWebServiceImplProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqDtmReactorImplServiceWebServiceImplProperties properties
 }

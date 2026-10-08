@@ -3,6 +3,7 @@ package org.openapitools.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyBoolean;
@@ -11,16 +12,16 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 /**
  * ComDayCqDamCoreImplHandlerJpegHandlerProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaMSF4JServerCodegen", date = "2019-08-05T00:54:29.762Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaMSF4JServerCodegen", date = "2026-10-07T12:53:29.980508721Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqDamCoreImplHandlerJpegHandlerProperties   {
   @JsonProperty("cq.dam.enable.ext.meta.extraction")
-  private ConfigNodePropertyBoolean cqDamEnableExtMetaExtraction = null;
+  private ConfigNodePropertyBoolean cqDamEnableExtMetaExtraction;
 
   @JsonProperty("large_file_threshold")
-  private ConfigNodePropertyInteger largeFileThreshold = null;
+  private ConfigNodePropertyInteger largeFileThreshold;
 
   @JsonProperty("large_comment_threshold")
-  private ConfigNodePropertyInteger largeCommentThreshold = null;
+  private ConfigNodePropertyInteger largeCommentThreshold;
 
   public ComDayCqDamCoreImplHandlerJpegHandlerProperties cqDamEnableExtMetaExtraction(ConfigNodePropertyBoolean cqDamEnableExtMetaExtraction) {
     this.cqDamEnableExtMetaExtraction = cqDamEnableExtMetaExtraction;
@@ -78,7 +79,7 @@ public class ComDayCqDamCoreImplHandlerJpegHandlerProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -112,11 +113,8 @@ public class ComDayCqDamCoreImplHandlerJpegHandlerProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

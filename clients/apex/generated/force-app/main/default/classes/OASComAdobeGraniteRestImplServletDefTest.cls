@@ -72,8 +72,8 @@ private class OASComAdobeGraniteRestImplServletDefTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeGraniteRestImplServletDef comAdobeGraniteRestImplServletDefaultGETServletProperties = new OASComAdobeGraniteRestImplServletDef();
-        Map<String, String> propertyMappings = comAdobeGraniteRestImplServletDefaultGETServletProperties.getPropertyMappings();
-        System.assertEquals('defaultLimit', propertyMappings.get('default.limit'));
-        System.assertEquals('useAbsoluteUri', propertyMappings.get('use.absolute.uri'));
+        Map<String, String> x-property-mappings = comAdobeGraniteRestImplServletDefaultGETServletProperties.getx-property-mappings();
+        System.assertEquals('defaultLimit', x-property-mappings.get('default.limit'));
+        System.assertEquals('useAbsoluteUri', x-property-mappings.get('use.absolute.uri'));
     }
 }

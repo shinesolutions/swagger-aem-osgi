@@ -8,12 +8,12 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeCqSocialSyncImplDiffChangesObserverProperties {
-    ConfigNodePropertyBoolean enabled = null
-
-    ConfigNodePropertyString agentName = null
-
-    ConfigNodePropertyString diffPath = null
-
-    ConfigNodePropertyString propertyNames = null
-
+    
+    ConfigNodePropertyBoolean enabled
+    
+    ConfigNodePropertyString agentName
+    
+    ConfigNodePropertyString diffPath
+    
+    ConfigNodePropertyString propertyNames
 }

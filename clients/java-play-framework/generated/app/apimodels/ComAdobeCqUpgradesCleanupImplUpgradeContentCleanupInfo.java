@@ -1,29 +1,35 @@
 package apimodels;
 
 import apimodels.ComAdobeCqUpgradesCleanupImplUpgradeContentCleanupProperties;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * ComAdobeCqUpgradesCleanupImplUpgradeContentCleanupInfo
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class ComAdobeCqUpgradesCleanupImplUpgradeContentCleanupInfo   {
   @JsonProperty("pid")
-  private String pid = null;
+  
+  private String pid;
 
   @JsonProperty("title")
-  private String title = null;
+  
+  private String title;
 
   @JsonProperty("description")
-  private String description = null;
+  
+  private String description;
 
   @JsonProperty("properties")
-  private ComAdobeCqUpgradesCleanupImplUpgradeContentCleanupProperties properties = null;
+  @Valid
+
+  private ComAdobeCqUpgradesCleanupImplUpgradeContentCleanupProperties properties;
 
   public ComAdobeCqUpgradesCleanupImplUpgradeContentCleanupInfo pid(String pid) {
     this.pid = pid;
@@ -34,7 +40,7 @@ public class ComAdobeCqUpgradesCleanupImplUpgradeContentCleanupInfo   {
    * Get pid
    * @return pid
   **/
-    public String getPid() {
+  public String getPid() {
     return pid;
   }
 
@@ -51,7 +57,7 @@ public class ComAdobeCqUpgradesCleanupImplUpgradeContentCleanupInfo   {
    * Get title
    * @return title
   **/
-    public String getTitle() {
+  public String getTitle() {
     return title;
   }
 
@@ -68,7 +74,7 @@ public class ComAdobeCqUpgradesCleanupImplUpgradeContentCleanupInfo   {
    * Get description
    * @return description
   **/
-    public String getDescription() {
+  public String getDescription() {
     return description;
   }
 
@@ -85,7 +91,6 @@ public class ComAdobeCqUpgradesCleanupImplUpgradeContentCleanupInfo   {
    * Get properties
    * @return properties
   **/
-  @Valid
   public ComAdobeCqUpgradesCleanupImplUpgradeContentCleanupProperties getProperties() {
     return properties;
   }
@@ -96,7 +101,7 @@ public class ComAdobeCqUpgradesCleanupImplUpgradeContentCleanupInfo   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -133,11 +138,8 @@ public class ComAdobeCqUpgradesCleanupImplUpgradeContentCleanupInfo   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

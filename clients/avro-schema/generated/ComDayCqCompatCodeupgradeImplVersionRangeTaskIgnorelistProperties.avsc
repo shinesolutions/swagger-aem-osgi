@@ -1,0 +1,15 @@
+{
+  "namespace": "model",
+  "type": "record",
+  "doc": "",
+  "name": "ComDayCqCompatCodeupgradeImplVersionRangeTaskIgnorelistProperties",
+  "fields": [
+    {
+      "name": "effectiveBundleListPath",
+      "type": ["null", "model.ConfigNodePropertyString"],
+      "doc": "",
+      "default": null
+    }
+  ]
+
+}

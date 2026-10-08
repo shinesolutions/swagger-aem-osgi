@@ -7,16 +7,16 @@ import org.openapitools.model.ComDayCqAuthImplLoginSelectorHandlerProperties;
 
 @Canonical
 class ComDayCqAuthImplLoginSelectorHandlerInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqAuthImplLoginSelectorHandlerProperties properties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqAuthImplLoginSelectorHandlerProperties properties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

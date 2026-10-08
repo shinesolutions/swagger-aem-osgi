@@ -1,18 +1,29 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImProperties   {
-  
-  private @Valid ConfigNodePropertyArray cqSocialConsoleAnalyticsComponents = null;
+  private ConfigNodePropertyArray cqSocialConsoleAnalyticsComponents;
+
+  public ComAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImProperties() {
+  }
 
   /**
    **/
@@ -24,16 +35,18 @@ public class ComAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImPro
   
   @ApiModelProperty(value = "")
   @JsonProperty("cq.social.console.analytics.components")
-  public ConfigNodePropertyArray getCqSocialConsoleAnalyticsComponents() {
+  @Valid public ConfigNodePropertyArray getCqSocialConsoleAnalyticsComponents() {
     return cqSocialConsoleAnalyticsComponents;
   }
+
+  @JsonProperty("cq.social.console.analytics.components")
   public void setCqSocialConsoleAnalyticsComponents(ConfigNodePropertyArray cqSocialConsoleAnalyticsComponents) {
     this.cqSocialConsoleAnalyticsComponents = cqSocialConsoleAnalyticsComponents;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -41,7 +54,7 @@ public class ComAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImPro
       return false;
     }
     ComAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImProperties comAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImProperties = (ComAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImProperties) o;
-    return Objects.equals(cqSocialConsoleAnalyticsComponents, comAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImProperties.cqSocialConsoleAnalyticsComponents);
+    return Objects.equals(this.cqSocialConsoleAnalyticsComponents, comAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImProperties.cqSocialConsoleAnalyticsComponents);
   }
 
   @Override
@@ -63,11 +76,9 @@ public class ComAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImPro
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

@@ -1,0 +1,26 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "link_expired_prefix" },
+      {"model": "link_expired_remove" },
+      {"model": "link_expired_suffix" },
+      {"model": "link_invalid_prefix" },
+      {"model": "link_invalid_remove" },
+      {"model": "link_invalid_suffix" },
+      {"model": "link_predated_prefix" },
+      {"model": "link_predated_remove" },
+      {"model": "link_predated_suffix" },
+      {"model": "link_wcmmodes" },
+    ]
+  }]
+}

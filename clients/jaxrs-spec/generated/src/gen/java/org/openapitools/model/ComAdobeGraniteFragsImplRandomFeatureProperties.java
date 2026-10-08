@@ -1,23 +1,34 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comAdobeGraniteFragsImplRandomFeatureProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteFragsImplRandomFeatureProperties   {
-  
-  private @Valid ConfigNodePropertyString featureName = null;
-  private @Valid ConfigNodePropertyString featureDescription = null;
-  private @Valid ConfigNodePropertyString activePercentage = null;
-  private @Valid ConfigNodePropertyString cookieName = null;
-  private @Valid ConfigNodePropertyInteger cookieMaxAge = null;
+  private ConfigNodePropertyString featureName;
+  private ConfigNodePropertyString featureDescription;
+  private ConfigNodePropertyString activePercentage;
+  private ConfigNodePropertyString cookieName;
+  private ConfigNodePropertyInteger cookieMaxAge;
+
+  public ComAdobeGraniteFragsImplRandomFeatureProperties() {
+  }
 
   /**
    **/
@@ -29,9 +40,11 @@ public class ComAdobeGraniteFragsImplRandomFeatureProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("feature.name")
-  public ConfigNodePropertyString getFeatureName() {
+  @Valid public ConfigNodePropertyString getFeatureName() {
     return featureName;
   }
+
+  @JsonProperty("feature.name")
   public void setFeatureName(ConfigNodePropertyString featureName) {
     this.featureName = featureName;
   }
@@ -46,9 +59,11 @@ public class ComAdobeGraniteFragsImplRandomFeatureProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("feature.description")
-  public ConfigNodePropertyString getFeatureDescription() {
+  @Valid public ConfigNodePropertyString getFeatureDescription() {
     return featureDescription;
   }
+
+  @JsonProperty("feature.description")
   public void setFeatureDescription(ConfigNodePropertyString featureDescription) {
     this.featureDescription = featureDescription;
   }
@@ -63,9 +78,11 @@ public class ComAdobeGraniteFragsImplRandomFeatureProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("active.percentage")
-  public ConfigNodePropertyString getActivePercentage() {
+  @Valid public ConfigNodePropertyString getActivePercentage() {
     return activePercentage;
   }
+
+  @JsonProperty("active.percentage")
   public void setActivePercentage(ConfigNodePropertyString activePercentage) {
     this.activePercentage = activePercentage;
   }
@@ -80,9 +97,11 @@ public class ComAdobeGraniteFragsImplRandomFeatureProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("cookie.name")
-  public ConfigNodePropertyString getCookieName() {
+  @Valid public ConfigNodePropertyString getCookieName() {
     return cookieName;
   }
+
+  @JsonProperty("cookie.name")
   public void setCookieName(ConfigNodePropertyString cookieName) {
     this.cookieName = cookieName;
   }
@@ -97,16 +116,18 @@ public class ComAdobeGraniteFragsImplRandomFeatureProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("cookie.maxAge")
-  public ConfigNodePropertyInteger getCookieMaxAge() {
+  @Valid public ConfigNodePropertyInteger getCookieMaxAge() {
     return cookieMaxAge;
   }
+
+  @JsonProperty("cookie.maxAge")
   public void setCookieMaxAge(ConfigNodePropertyInteger cookieMaxAge) {
     this.cookieMaxAge = cookieMaxAge;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -114,11 +135,11 @@ public class ComAdobeGraniteFragsImplRandomFeatureProperties   {
       return false;
     }
     ComAdobeGraniteFragsImplRandomFeatureProperties comAdobeGraniteFragsImplRandomFeatureProperties = (ComAdobeGraniteFragsImplRandomFeatureProperties) o;
-    return Objects.equals(featureName, comAdobeGraniteFragsImplRandomFeatureProperties.featureName) &&
-        Objects.equals(featureDescription, comAdobeGraniteFragsImplRandomFeatureProperties.featureDescription) &&
-        Objects.equals(activePercentage, comAdobeGraniteFragsImplRandomFeatureProperties.activePercentage) &&
-        Objects.equals(cookieName, comAdobeGraniteFragsImplRandomFeatureProperties.cookieName) &&
-        Objects.equals(cookieMaxAge, comAdobeGraniteFragsImplRandomFeatureProperties.cookieMaxAge);
+    return Objects.equals(this.featureName, comAdobeGraniteFragsImplRandomFeatureProperties.featureName) &&
+        Objects.equals(this.featureDescription, comAdobeGraniteFragsImplRandomFeatureProperties.featureDescription) &&
+        Objects.equals(this.activePercentage, comAdobeGraniteFragsImplRandomFeatureProperties.activePercentage) &&
+        Objects.equals(this.cookieName, comAdobeGraniteFragsImplRandomFeatureProperties.cookieName) &&
+        Objects.equals(this.cookieMaxAge, comAdobeGraniteFragsImplRandomFeatureProperties.cookieMaxAge);
   }
 
   @Override
@@ -144,11 +165,9 @@ public class ComAdobeGraniteFragsImplRandomFeatureProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

@@ -7,12 +7,12 @@ import org.openapitools.model.OrgApacheSlingCaconfigImplConfigurationBindingsVal
 
 @Canonical
 class OrgApacheSlingCaconfigImplConfigurationBindingsValueProviderInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheSlingCaconfigImplConfigurationBindingsValueProviderProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheSlingCaconfigImplConfigurationBindingsValueProviderProperties properties
 }

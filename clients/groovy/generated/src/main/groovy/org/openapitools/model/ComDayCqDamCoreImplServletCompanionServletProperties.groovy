@@ -7,8 +7,8 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqDamCoreImplServletCompanionServletProperties {
-    ConfigNodePropertyString moreInfo = null
-
-    ConfigNodePropertyString slashMntSlashOverlaySlashDamSlashGuiSlashContentSlashAssetsSlashMoreinfoHtmlSlash$LeftCurlyBracketPathRightCurlyBracket = null
-
+    
+    ConfigNodePropertyString moreInfo
+    
+    ConfigNodePropertyString mntOverlayDamGuiContentAssetsMoreinfoHtml$LeftCurlyBracketPathRightCurlyBracket
 }

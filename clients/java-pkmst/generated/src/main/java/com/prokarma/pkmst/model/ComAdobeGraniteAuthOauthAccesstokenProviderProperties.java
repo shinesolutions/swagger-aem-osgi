@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyArray;
 import com.prokarma.pkmst.model.ConfigNodePropertyBoolean;
 import com.prokarma.pkmst.model.ConfigNodePropertyInteger;
@@ -18,60 +19,59 @@ import io.swagger.annotations.ApiModelProperty;
  * ComAdobeGraniteAuthOauthAccesstokenProviderProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteAuthOauthAccesstokenProviderProperties   {
   @JsonProperty("name")
-  private ConfigNodePropertyString name = null;
+  private ConfigNodePropertyString name;
 
   @JsonProperty("auth.token.provider.title")
-  private ConfigNodePropertyString authTokenProviderTitle = null;
+  private ConfigNodePropertyString authTokenProviderTitle;
 
   @JsonProperty("auth.token.provider.default.claims")
-  private ConfigNodePropertyArray authTokenProviderDefaultClaims = null;
+  private ConfigNodePropertyArray authTokenProviderDefaultClaims;
 
   @JsonProperty("auth.token.provider.endpoint")
-  private ConfigNodePropertyString authTokenProviderEndpoint = null;
+  private ConfigNodePropertyString authTokenProviderEndpoint;
 
   @JsonProperty("auth.access.token.request")
-  private ConfigNodePropertyString authAccessTokenRequest = null;
+  private ConfigNodePropertyString authAccessTokenRequest;
 
   @JsonProperty("auth.token.provider.keypair.alias")
-  private ConfigNodePropertyString authTokenProviderKeypairAlias = null;
+  private ConfigNodePropertyString authTokenProviderKeypairAlias;
 
   @JsonProperty("auth.token.provider.conn.timeout")
-  private ConfigNodePropertyInteger authTokenProviderConnTimeout = null;
+  private ConfigNodePropertyInteger authTokenProviderConnTimeout;
 
   @JsonProperty("auth.token.provider.so.timeout")
-  private ConfigNodePropertyInteger authTokenProviderSoTimeout = null;
+  private ConfigNodePropertyInteger authTokenProviderSoTimeout;
 
   @JsonProperty("auth.token.provider.client.id")
-  private ConfigNodePropertyString authTokenProviderClientId = null;
+  private ConfigNodePropertyString authTokenProviderClientId;
 
   @JsonProperty("auth.token.provider.scope")
-  private ConfigNodePropertyString authTokenProviderScope = null;
+  private ConfigNodePropertyString authTokenProviderScope;
 
   @JsonProperty("auth.token.provider.reuse.access.token")
-  private ConfigNodePropertyBoolean authTokenProviderReuseAccessToken = null;
+  private ConfigNodePropertyBoolean authTokenProviderReuseAccessToken;
 
   @JsonProperty("auth.token.provider.relaxed.ssl")
-  private ConfigNodePropertyBoolean authTokenProviderRelaxedSsl = null;
+  private ConfigNodePropertyBoolean authTokenProviderRelaxedSsl;
 
   @JsonProperty("token.request.customizer.type")
-  private ConfigNodePropertyString tokenRequestCustomizerType = null;
+  private ConfigNodePropertyString tokenRequestCustomizerType;
 
   @JsonProperty("auth.token.validator.type")
-  private ConfigNodePropertyString authTokenValidatorType = null;
+  private ConfigNodePropertyString authTokenValidatorType;
 
   public ComAdobeGraniteAuthOauthAccesstokenProviderProperties name(ConfigNodePropertyString name) {
     this.name = name;
     return this;
   }
 
-   /**
+  /**
    * Get name
    * @return name
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getName() {
     return name;
@@ -86,10 +86,10 @@ public class ComAdobeGraniteAuthOauthAccesstokenProviderProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get authTokenProviderTitle
    * @return authTokenProviderTitle
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getAuthTokenProviderTitle() {
     return authTokenProviderTitle;
@@ -104,10 +104,10 @@ public class ComAdobeGraniteAuthOauthAccesstokenProviderProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get authTokenProviderDefaultClaims
    * @return authTokenProviderDefaultClaims
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getAuthTokenProviderDefaultClaims() {
     return authTokenProviderDefaultClaims;
@@ -122,10 +122,10 @@ public class ComAdobeGraniteAuthOauthAccesstokenProviderProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get authTokenProviderEndpoint
    * @return authTokenProviderEndpoint
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getAuthTokenProviderEndpoint() {
     return authTokenProviderEndpoint;
@@ -140,10 +140,10 @@ public class ComAdobeGraniteAuthOauthAccesstokenProviderProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get authAccessTokenRequest
    * @return authAccessTokenRequest
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getAuthAccessTokenRequest() {
     return authAccessTokenRequest;
@@ -158,10 +158,10 @@ public class ComAdobeGraniteAuthOauthAccesstokenProviderProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get authTokenProviderKeypairAlias
    * @return authTokenProviderKeypairAlias
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getAuthTokenProviderKeypairAlias() {
     return authTokenProviderKeypairAlias;
@@ -176,10 +176,10 @@ public class ComAdobeGraniteAuthOauthAccesstokenProviderProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get authTokenProviderConnTimeout
    * @return authTokenProviderConnTimeout
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getAuthTokenProviderConnTimeout() {
     return authTokenProviderConnTimeout;
@@ -194,10 +194,10 @@ public class ComAdobeGraniteAuthOauthAccesstokenProviderProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get authTokenProviderSoTimeout
    * @return authTokenProviderSoTimeout
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getAuthTokenProviderSoTimeout() {
     return authTokenProviderSoTimeout;
@@ -212,10 +212,10 @@ public class ComAdobeGraniteAuthOauthAccesstokenProviderProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get authTokenProviderClientId
    * @return authTokenProviderClientId
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getAuthTokenProviderClientId() {
     return authTokenProviderClientId;
@@ -230,10 +230,10 @@ public class ComAdobeGraniteAuthOauthAccesstokenProviderProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get authTokenProviderScope
    * @return authTokenProviderScope
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getAuthTokenProviderScope() {
     return authTokenProviderScope;
@@ -248,10 +248,10 @@ public class ComAdobeGraniteAuthOauthAccesstokenProviderProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get authTokenProviderReuseAccessToken
    * @return authTokenProviderReuseAccessToken
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getAuthTokenProviderReuseAccessToken() {
     return authTokenProviderReuseAccessToken;
@@ -266,10 +266,10 @@ public class ComAdobeGraniteAuthOauthAccesstokenProviderProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get authTokenProviderRelaxedSsl
    * @return authTokenProviderRelaxedSsl
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getAuthTokenProviderRelaxedSsl() {
     return authTokenProviderRelaxedSsl;
@@ -284,10 +284,10 @@ public class ComAdobeGraniteAuthOauthAccesstokenProviderProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get tokenRequestCustomizerType
    * @return tokenRequestCustomizerType
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getTokenRequestCustomizerType() {
     return tokenRequestCustomizerType;
@@ -302,10 +302,10 @@ public class ComAdobeGraniteAuthOauthAccesstokenProviderProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get authTokenValidatorType
    * @return authTokenValidatorType
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getAuthTokenValidatorType() {
     return authTokenValidatorType;
@@ -317,7 +317,7 @@ public class ComAdobeGraniteAuthOauthAccesstokenProviderProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -373,11 +373,8 @@ public class ComAdobeGraniteAuthOauthAccesstokenProviderProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

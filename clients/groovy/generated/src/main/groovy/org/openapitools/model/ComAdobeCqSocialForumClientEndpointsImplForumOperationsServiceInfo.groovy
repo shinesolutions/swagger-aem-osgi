@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqSocialForumClientEndpointsImplForumOpera
 
 @Canonical
 class ComAdobeCqSocialForumClientEndpointsImplForumOperationsServiceInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqSocialForumClientEndpointsImplForumOperationsServiceProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqSocialForumClientEndpointsImplForumOperationsServiceProperties properties
 }

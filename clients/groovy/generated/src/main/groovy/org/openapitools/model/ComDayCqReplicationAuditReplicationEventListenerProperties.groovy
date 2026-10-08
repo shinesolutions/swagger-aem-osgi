@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class ComDayCqReplicationAuditReplicationEventListenerProperties {
-    ConfigNodePropertyInteger serviceRanking = null
-
+    
+    ConfigNodePropertyInteger serviceRanking
 }

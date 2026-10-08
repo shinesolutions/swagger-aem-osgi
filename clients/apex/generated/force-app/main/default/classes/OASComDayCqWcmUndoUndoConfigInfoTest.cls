@@ -72,8 +72,8 @@ private class OASComDayCqWcmUndoUndoConfigInfoTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqWcmUndoUndoConfigInfo comDayCqWcmUndoUndoConfigInfo = new OASComDayCqWcmUndoUndoConfigInfo();
-        Map<String, String> propertyMappings = comDayCqWcmUndoUndoConfigInfo.getPropertyMappings();
-        System.assertEquals('bundleLocation', propertyMappings.get('bundle_location'));
-        System.assertEquals('serviceLocation', propertyMappings.get('service_location'));
+        Map<String, String> x-property-mappings = comDayCqWcmUndoUndoConfigInfo.getx-property-mappings();
+        System.assertEquals('bundleLocation', x-property-mappings.get('bundle_location'));
+        System.assertEquals('serviceLocation', x-property-mappings.get('service_location'));
     }
 }

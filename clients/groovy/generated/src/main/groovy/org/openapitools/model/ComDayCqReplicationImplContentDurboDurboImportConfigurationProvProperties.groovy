@@ -9,22 +9,22 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class ComDayCqReplicationImplContentDurboDurboImportConfigurationProvProperties {
-    ConfigNodePropertyBoolean preserveHierarchyNodes = null
-
-    ConfigNodePropertyBoolean ignoreVersioning = null
-
-    ConfigNodePropertyBoolean importAcl = null
-
-    ConfigNodePropertyInteger saveThreshold = null
-
-    ConfigNodePropertyBoolean preserveUserPaths = null
-
-    ConfigNodePropertyBoolean preserveUuid = null
-
-    ConfigNodePropertyArray preserveUuidNodetypes = null
-
-    ConfigNodePropertyArray preserveUuidSubtrees = null
-
-    ConfigNodePropertyBoolean autoCommit = null
-
+    
+    ConfigNodePropertyBoolean preserveHierarchyNodes
+    
+    ConfigNodePropertyBoolean ignoreVersioning
+    
+    ConfigNodePropertyBoolean importAcl
+    
+    ConfigNodePropertyInteger saveThreshold
+    
+    ConfigNodePropertyBoolean preserveUserPaths
+    
+    ConfigNodePropertyBoolean preserveUuid
+    
+    ConfigNodePropertyArray preserveUuidNodetypes
+    
+    ConfigNodePropertyArray preserveUuidSubtrees
+    
+    ConfigNodePropertyBoolean autoCommit
 }

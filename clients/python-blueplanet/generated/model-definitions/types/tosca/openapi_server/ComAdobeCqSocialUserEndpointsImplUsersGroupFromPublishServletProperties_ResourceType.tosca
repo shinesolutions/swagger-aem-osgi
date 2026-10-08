@@ -1,0 +1,46 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqSocialUserEndpointsImplUsersGroupFromPublishServletProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqSocialUserEndpointsImplUsersGroupFromPublishServletProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComAdobeCqSocialUserEndpointsImplUsersGroupFromPublishServletProperties {
+    title = ComAdobeCqSocialUserEndpointsImplUsersGroupFromPublishServletProperties
+    description = ComAdobeCqSocialUserEndpointsImplUsersGroupFromPublishServletProperties
+    derivedFrom = Root
+    properties {
+        sling_servlet_extensions {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        sling_servlet_paths {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        sling_servlet_methods {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqSocialUserEndpointsImplUsersGroupFromPublishServletProperties {
+    title = ComAdobeCqSocialUserEndpointsImplUsersGroupFromPublishServletProperties
+    description = ComAdobeCqSocialUserEndpointsImplUsersGroupFromPublishServletProperties
+    implements = openapi_server.resourceTypes.ComAdobeCqSocialUserEndpointsImplUsersGroupFromPublishServletProperties
+
+  }
+}

@@ -9,12 +9,12 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class OrgApacheFelixSystemreadyImplFrameworkStartCheckProperties {
-    ConfigNodePropertyInteger timeout = null
-
-    ConfigNodePropertyInteger targetStartLevel = null
-
-    ConfigNodePropertyString targetStartLevelPropName = null
-
-    ConfigNodePropertyDropDown type = null
-
+    
+    ConfigNodePropertyInteger timeout
+    
+    ConfigNodePropertyInteger targetStartLevel
+    
+    ConfigNodePropertyString targetStartLevelPropName
+    
+    ConfigNodePropertyDropDown type
 }

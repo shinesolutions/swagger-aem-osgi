@@ -2,9 +2,9 @@
 # ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**cqPerioddamPeriods7damPerioddynamicmediaconfigeventlistenerPeriodenabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **cqDamS7damDynamicmediaconfigeventlistenerEnabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
 
 
 

@@ -1,22 +1,33 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("orgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacProperties   {
-  
-  private @Valid ConfigNodePropertyArray includedPaths = null;
-  private @Valid ConfigNodePropertyBoolean enableAsyncObserver = null;
-  private @Valid ConfigNodePropertyInteger observerQueueSize = null;
+  private ConfigNodePropertyArray includedPaths;
+  private ConfigNodePropertyBoolean enableAsyncObserver;
+  private ConfigNodePropertyInteger observerQueueSize;
+
+  public OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacProperties() {
+  }
 
   /**
    **/
@@ -28,9 +39,11 @@ public class OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("includedPaths")
-  public ConfigNodePropertyArray getIncludedPaths() {
+  @Valid public ConfigNodePropertyArray getIncludedPaths() {
     return includedPaths;
   }
+
+  @JsonProperty("includedPaths")
   public void setIncludedPaths(ConfigNodePropertyArray includedPaths) {
     this.includedPaths = includedPaths;
   }
@@ -45,9 +58,11 @@ public class OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("enableAsyncObserver")
-  public ConfigNodePropertyBoolean getEnableAsyncObserver() {
+  @Valid public ConfigNodePropertyBoolean getEnableAsyncObserver() {
     return enableAsyncObserver;
   }
+
+  @JsonProperty("enableAsyncObserver")
   public void setEnableAsyncObserver(ConfigNodePropertyBoolean enableAsyncObserver) {
     this.enableAsyncObserver = enableAsyncObserver;
   }
@@ -62,16 +77,18 @@ public class OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("observerQueueSize")
-  public ConfigNodePropertyInteger getObserverQueueSize() {
+  @Valid public ConfigNodePropertyInteger getObserverQueueSize() {
     return observerQueueSize;
   }
+
+  @JsonProperty("observerQueueSize")
   public void setObserverQueueSize(ConfigNodePropertyInteger observerQueueSize) {
     this.observerQueueSize = observerQueueSize;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -79,9 +96,9 @@ public class OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacProp
       return false;
     }
     OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacProperties orgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacProperties = (OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacProperties) o;
-    return Objects.equals(includedPaths, orgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacProperties.includedPaths) &&
-        Objects.equals(enableAsyncObserver, orgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacProperties.enableAsyncObserver) &&
-        Objects.equals(observerQueueSize, orgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacProperties.observerQueueSize);
+    return Objects.equals(this.includedPaths, orgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacProperties.includedPaths) &&
+        Objects.equals(this.enableAsyncObserver, orgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacProperties.enableAsyncObserver) &&
+        Objects.equals(this.observerQueueSize, orgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacProperties.observerQueueSize);
   }
 
   @Override
@@ -105,11 +122,9 @@ public class OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacProp
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

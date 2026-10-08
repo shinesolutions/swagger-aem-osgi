@@ -1,21 +1,32 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comAdobeXmpWorkerFilesNcommXMPFilesNCommProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeXmpWorkerFilesNcommXMPFilesNCommProperties   {
-  
-  private @Valid ConfigNodePropertyString maxConnections = null;
-  private @Valid ConfigNodePropertyString maxRequests = null;
-  private @Valid ConfigNodePropertyString requestTimeout = null;
-  private @Valid ConfigNodePropertyString logDir = null;
+  private ConfigNodePropertyString maxConnections;
+  private ConfigNodePropertyString maxRequests;
+  private ConfigNodePropertyString requestTimeout;
+  private ConfigNodePropertyString logDir;
+
+  public ComAdobeXmpWorkerFilesNcommXMPFilesNCommProperties() {
+  }
 
   /**
    **/
@@ -27,9 +38,11 @@ public class ComAdobeXmpWorkerFilesNcommXMPFilesNCommProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("maxConnections")
-  public ConfigNodePropertyString getMaxConnections() {
+  @Valid public ConfigNodePropertyString getMaxConnections() {
     return maxConnections;
   }
+
+  @JsonProperty("maxConnections")
   public void setMaxConnections(ConfigNodePropertyString maxConnections) {
     this.maxConnections = maxConnections;
   }
@@ -44,9 +57,11 @@ public class ComAdobeXmpWorkerFilesNcommXMPFilesNCommProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("maxRequests")
-  public ConfigNodePropertyString getMaxRequests() {
+  @Valid public ConfigNodePropertyString getMaxRequests() {
     return maxRequests;
   }
+
+  @JsonProperty("maxRequests")
   public void setMaxRequests(ConfigNodePropertyString maxRequests) {
     this.maxRequests = maxRequests;
   }
@@ -61,9 +76,11 @@ public class ComAdobeXmpWorkerFilesNcommXMPFilesNCommProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("requestTimeout")
-  public ConfigNodePropertyString getRequestTimeout() {
+  @Valid public ConfigNodePropertyString getRequestTimeout() {
     return requestTimeout;
   }
+
+  @JsonProperty("requestTimeout")
   public void setRequestTimeout(ConfigNodePropertyString requestTimeout) {
     this.requestTimeout = requestTimeout;
   }
@@ -78,16 +95,18 @@ public class ComAdobeXmpWorkerFilesNcommXMPFilesNCommProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("logDir")
-  public ConfigNodePropertyString getLogDir() {
+  @Valid public ConfigNodePropertyString getLogDir() {
     return logDir;
   }
+
+  @JsonProperty("logDir")
   public void setLogDir(ConfigNodePropertyString logDir) {
     this.logDir = logDir;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -95,10 +114,10 @@ public class ComAdobeXmpWorkerFilesNcommXMPFilesNCommProperties   {
       return false;
     }
     ComAdobeXmpWorkerFilesNcommXMPFilesNCommProperties comAdobeXmpWorkerFilesNcommXMPFilesNCommProperties = (ComAdobeXmpWorkerFilesNcommXMPFilesNCommProperties) o;
-    return Objects.equals(maxConnections, comAdobeXmpWorkerFilesNcommXMPFilesNCommProperties.maxConnections) &&
-        Objects.equals(maxRequests, comAdobeXmpWorkerFilesNcommXMPFilesNCommProperties.maxRequests) &&
-        Objects.equals(requestTimeout, comAdobeXmpWorkerFilesNcommXMPFilesNCommProperties.requestTimeout) &&
-        Objects.equals(logDir, comAdobeXmpWorkerFilesNcommXMPFilesNCommProperties.logDir);
+    return Objects.equals(this.maxConnections, comAdobeXmpWorkerFilesNcommXMPFilesNCommProperties.maxConnections) &&
+        Objects.equals(this.maxRequests, comAdobeXmpWorkerFilesNcommXMPFilesNCommProperties.maxRequests) &&
+        Objects.equals(this.requestTimeout, comAdobeXmpWorkerFilesNcommXMPFilesNCommProperties.requestTimeout) &&
+        Objects.equals(this.logDir, comAdobeXmpWorkerFilesNcommXMPFilesNCommProperties.logDir);
   }
 
   @Override
@@ -123,11 +142,9 @@ public class ComAdobeXmpWorkerFilesNcommXMPFilesNCommProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

@@ -1,7 +1,9 @@
 
+
 # ComAdobeGraniteThreaddumpThreadDumpCollectorProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **schedulerPeriod** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
@@ -13,6 +15,7 @@ Name | Type | Description | Notes
 **graniteThreaddumpEnableJStack** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
 **graniteThreaddumpMaxBackupDays** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
 **graniteThreaddumpBackupCleanTrigger** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
+
 
 
 

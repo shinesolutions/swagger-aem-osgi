@@ -4,18 +4,21 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ComDayCqMcmCampaignImporterPersonalizedTextHandlerFactoryProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2019-08-05T00:59:30.156Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2026-10-07T12:54:21.614735164Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqMcmCampaignImporterPersonalizedTextHandlerFactoryInfo   {
   
-  private String pid = null;
-  private String title = null;
-  private String description = null;
-  private ComDayCqMcmCampaignImporterPersonalizedTextHandlerFactoryProperties properties = null;
+  private String pid;
+  private String title;
+  private String description;
+  private ComDayCqMcmCampaignImporterPersonalizedTextHandlerFactoryProperties properties;
 
   /**
    **/
@@ -58,6 +61,7 @@ public class ComDayCqMcmCampaignImporterPersonalizedTextHandlerFactoryInfo   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("properties")
+  @Valid
   public ComDayCqMcmCampaignImporterPersonalizedTextHandlerFactoryProperties getProperties() {
     return properties;
   }
@@ -67,7 +71,7 @@ public class ComDayCqMcmCampaignImporterPersonalizedTextHandlerFactoryInfo   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -75,10 +79,10 @@ public class ComDayCqMcmCampaignImporterPersonalizedTextHandlerFactoryInfo   {
       return false;
     }
     ComDayCqMcmCampaignImporterPersonalizedTextHandlerFactoryInfo comDayCqMcmCampaignImporterPersonalizedTextHandlerFactoryInfo = (ComDayCqMcmCampaignImporterPersonalizedTextHandlerFactoryInfo) o;
-    return Objects.equals(pid, comDayCqMcmCampaignImporterPersonalizedTextHandlerFactoryInfo.pid) &&
-        Objects.equals(title, comDayCqMcmCampaignImporterPersonalizedTextHandlerFactoryInfo.title) &&
-        Objects.equals(description, comDayCqMcmCampaignImporterPersonalizedTextHandlerFactoryInfo.description) &&
-        Objects.equals(properties, comDayCqMcmCampaignImporterPersonalizedTextHandlerFactoryInfo.properties);
+    return Objects.equals(this.pid, comDayCqMcmCampaignImporterPersonalizedTextHandlerFactoryInfo.pid) &&
+        Objects.equals(this.title, comDayCqMcmCampaignImporterPersonalizedTextHandlerFactoryInfo.title) &&
+        Objects.equals(this.description, comDayCqMcmCampaignImporterPersonalizedTextHandlerFactoryInfo.description) &&
+        Objects.equals(this.properties, comDayCqMcmCampaignImporterPersonalizedTextHandlerFactoryInfo.properties);
   }
 
   @Override
@@ -103,11 +107,8 @@ public class ComDayCqMcmCampaignImporterPersonalizedTextHandlerFactoryInfo   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

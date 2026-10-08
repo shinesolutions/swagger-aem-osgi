@@ -72,10 +72,10 @@ private class OASComAdobeCqDamCfmImplComponentCompTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeCqDamCfmImplComponentComp comAdobeCqDamCfmImplComponentComponentConfigImplProperties = new OASComAdobeCqDamCfmImplComponentComp();
-        Map<String, String> propertyMappings = comAdobeCqDamCfmImplComponentComponentConfigImplProperties.getPropertyMappings();
-        System.assertEquals('damCfmComponentResourceType', propertyMappings.get('dam.cfm.component.resourceType'));
-        System.assertEquals('damCfmComponentFileReferenceProp', propertyMappings.get('dam.cfm.component.fileReferenceProp'));
-        System.assertEquals('damCfmComponentElementsProp', propertyMappings.get('dam.cfm.component.elementsProp'));
-        System.assertEquals('damCfmComponentVariationProp', propertyMappings.get('dam.cfm.component.variationProp'));
+        Map<String, String> x-property-mappings = comAdobeCqDamCfmImplComponentComponentConfigImplProperties.getx-property-mappings();
+        System.assertEquals('damCfmComponentResourceType', x-property-mappings.get('dam.cfm.component.resourceType'));
+        System.assertEquals('damCfmComponentFileReferenceProp', x-property-mappings.get('dam.cfm.component.fileReferenceProp'));
+        System.assertEquals('damCfmComponentElementsProp', x-property-mappings.get('dam.cfm.component.elementsProp'));
+        System.assertEquals('damCfmComponentVariationProp', x-property-mappings.get('dam.cfm.component.variationProp'));
     }
 }

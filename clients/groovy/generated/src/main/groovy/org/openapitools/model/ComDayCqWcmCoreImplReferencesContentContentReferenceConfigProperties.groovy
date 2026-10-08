@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyArray;
 
 @Canonical
 class ComDayCqWcmCoreImplReferencesContentContentReferenceConfigProperties {
-    ConfigNodePropertyArray contentReferenceConfigResourceTypes = null
-
+    
+    ConfigNodePropertyArray contentReferenceConfigResourceTypes
 }

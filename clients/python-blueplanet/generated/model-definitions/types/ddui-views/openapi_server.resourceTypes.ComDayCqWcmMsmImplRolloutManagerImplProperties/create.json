@@ -1,0 +1,25 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "event_filter" },
+      {"model": "rolloutmgr_excludedprops_default" },
+      {"model": "rolloutmgr_excludedparagraphprops_default" },
+      {"model": "rolloutmgr_excludednodetypes_default" },
+      {"model": "rolloutmgr_threadpool_maxsize" },
+      {"model": "rolloutmgr_threadpool_maxshutdowntime" },
+      {"model": "rolloutmgr_threadpool_priority" },
+      {"model": "rolloutmgr_commit_size" },
+      {"model": "rolloutmgr_conflicthandling_enabled" },
+    ]
+  }]
+}

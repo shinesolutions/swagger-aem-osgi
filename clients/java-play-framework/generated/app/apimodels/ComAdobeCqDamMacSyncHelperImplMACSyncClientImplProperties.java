@@ -1,20 +1,23 @@
 package apimodels;
 
 import apimodels.ConfigNodePropertyInteger;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * ComAdobeCqDamMacSyncHelperImplMACSyncClientImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class ComAdobeCqDamMacSyncHelperImplMACSyncClientImplProperties   {
   @JsonProperty("com.adobe.dam.mac.sync.client.so.timeout")
-  private ConfigNodePropertyInteger comAdobeDamMacSyncClientSoTimeout = null;
+  @Valid
+
+  private ConfigNodePropertyInteger comAdobeDamMacSyncClientSoTimeout;
 
   public ComAdobeCqDamMacSyncHelperImplMACSyncClientImplProperties comAdobeDamMacSyncClientSoTimeout(ConfigNodePropertyInteger comAdobeDamMacSyncClientSoTimeout) {
     this.comAdobeDamMacSyncClientSoTimeout = comAdobeDamMacSyncClientSoTimeout;
@@ -25,7 +28,6 @@ public class ComAdobeCqDamMacSyncHelperImplMACSyncClientImplProperties   {
    * Get comAdobeDamMacSyncClientSoTimeout
    * @return comAdobeDamMacSyncClientSoTimeout
   **/
-  @Valid
   public ConfigNodePropertyInteger getComAdobeDamMacSyncClientSoTimeout() {
     return comAdobeDamMacSyncClientSoTimeout;
   }
@@ -36,7 +38,7 @@ public class ComAdobeCqDamMacSyncHelperImplMACSyncClientImplProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -67,11 +69,8 @@ public class ComAdobeCqDamMacSyncHelperImplMACSyncClientImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

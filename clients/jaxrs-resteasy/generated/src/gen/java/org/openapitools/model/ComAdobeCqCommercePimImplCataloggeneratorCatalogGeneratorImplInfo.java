@@ -4,18 +4,21 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ComAdobeCqCommercePimImplCataloggeneratorCatalogGeneratorImplProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2019-08-05T00:59:30.156Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2026-10-07T12:54:21.614735164Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeCqCommercePimImplCataloggeneratorCatalogGeneratorImplInfo   {
   
-  private String pid = null;
-  private String title = null;
-  private String description = null;
-  private ComAdobeCqCommercePimImplCataloggeneratorCatalogGeneratorImplProperties properties = null;
+  private String pid;
+  private String title;
+  private String description;
+  private ComAdobeCqCommercePimImplCataloggeneratorCatalogGeneratorImplProperties properties;
 
   /**
    **/
@@ -58,6 +61,7 @@ public class ComAdobeCqCommercePimImplCataloggeneratorCatalogGeneratorImplInfo  
   
   @ApiModelProperty(value = "")
   @JsonProperty("properties")
+  @Valid
   public ComAdobeCqCommercePimImplCataloggeneratorCatalogGeneratorImplProperties getProperties() {
     return properties;
   }
@@ -67,7 +71,7 @@ public class ComAdobeCqCommercePimImplCataloggeneratorCatalogGeneratorImplInfo  
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -75,10 +79,10 @@ public class ComAdobeCqCommercePimImplCataloggeneratorCatalogGeneratorImplInfo  
       return false;
     }
     ComAdobeCqCommercePimImplCataloggeneratorCatalogGeneratorImplInfo comAdobeCqCommercePimImplCataloggeneratorCatalogGeneratorImplInfo = (ComAdobeCqCommercePimImplCataloggeneratorCatalogGeneratorImplInfo) o;
-    return Objects.equals(pid, comAdobeCqCommercePimImplCataloggeneratorCatalogGeneratorImplInfo.pid) &&
-        Objects.equals(title, comAdobeCqCommercePimImplCataloggeneratorCatalogGeneratorImplInfo.title) &&
-        Objects.equals(description, comAdobeCqCommercePimImplCataloggeneratorCatalogGeneratorImplInfo.description) &&
-        Objects.equals(properties, comAdobeCqCommercePimImplCataloggeneratorCatalogGeneratorImplInfo.properties);
+    return Objects.equals(this.pid, comAdobeCqCommercePimImplCataloggeneratorCatalogGeneratorImplInfo.pid) &&
+        Objects.equals(this.title, comAdobeCqCommercePimImplCataloggeneratorCatalogGeneratorImplInfo.title) &&
+        Objects.equals(this.description, comAdobeCqCommercePimImplCataloggeneratorCatalogGeneratorImplInfo.description) &&
+        Objects.equals(this.properties, comAdobeCqCommercePimImplCataloggeneratorCatalogGeneratorImplInfo.properties);
   }
 
   @Override
@@ -103,11 +107,8 @@ public class ComAdobeCqCommercePimImplCataloggeneratorCatalogGeneratorImplInfo  
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

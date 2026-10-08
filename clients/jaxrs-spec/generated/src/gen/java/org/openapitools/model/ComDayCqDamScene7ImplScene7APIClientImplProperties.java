@@ -1,19 +1,30 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comDayCqDamScene7ImplScene7APIClientImplProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqDamScene7ImplScene7APIClientImplProperties   {
-  
-  private @Valid ConfigNodePropertyInteger cqDamScene7ApiclientRecordsperpageNofilterName = null;
-  private @Valid ConfigNodePropertyInteger cqDamScene7ApiclientRecordsperpageWithfilterName = null;
+  private ConfigNodePropertyInteger cqDamScene7ApiclientRecordsperpageNofilterName;
+  private ConfigNodePropertyInteger cqDamScene7ApiclientRecordsperpageWithfilterName;
+
+  public ComDayCqDamScene7ImplScene7APIClientImplProperties() {
+  }
 
   /**
    **/
@@ -25,9 +36,11 @@ public class ComDayCqDamScene7ImplScene7APIClientImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("cq.dam.scene7.apiclient.recordsperpage.nofilter.name")
-  public ConfigNodePropertyInteger getCqDamScene7ApiclientRecordsperpageNofilterName() {
+  @Valid public ConfigNodePropertyInteger getCqDamScene7ApiclientRecordsperpageNofilterName() {
     return cqDamScene7ApiclientRecordsperpageNofilterName;
   }
+
+  @JsonProperty("cq.dam.scene7.apiclient.recordsperpage.nofilter.name")
   public void setCqDamScene7ApiclientRecordsperpageNofilterName(ConfigNodePropertyInteger cqDamScene7ApiclientRecordsperpageNofilterName) {
     this.cqDamScene7ApiclientRecordsperpageNofilterName = cqDamScene7ApiclientRecordsperpageNofilterName;
   }
@@ -42,16 +55,18 @@ public class ComDayCqDamScene7ImplScene7APIClientImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("cq.dam.scene7.apiclient.recordsperpage.withfilter.name")
-  public ConfigNodePropertyInteger getCqDamScene7ApiclientRecordsperpageWithfilterName() {
+  @Valid public ConfigNodePropertyInteger getCqDamScene7ApiclientRecordsperpageWithfilterName() {
     return cqDamScene7ApiclientRecordsperpageWithfilterName;
   }
+
+  @JsonProperty("cq.dam.scene7.apiclient.recordsperpage.withfilter.name")
   public void setCqDamScene7ApiclientRecordsperpageWithfilterName(ConfigNodePropertyInteger cqDamScene7ApiclientRecordsperpageWithfilterName) {
     this.cqDamScene7ApiclientRecordsperpageWithfilterName = cqDamScene7ApiclientRecordsperpageWithfilterName;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -59,8 +74,8 @@ public class ComDayCqDamScene7ImplScene7APIClientImplProperties   {
       return false;
     }
     ComDayCqDamScene7ImplScene7APIClientImplProperties comDayCqDamScene7ImplScene7APIClientImplProperties = (ComDayCqDamScene7ImplScene7APIClientImplProperties) o;
-    return Objects.equals(cqDamScene7ApiclientRecordsperpageNofilterName, comDayCqDamScene7ImplScene7APIClientImplProperties.cqDamScene7ApiclientRecordsperpageNofilterName) &&
-        Objects.equals(cqDamScene7ApiclientRecordsperpageWithfilterName, comDayCqDamScene7ImplScene7APIClientImplProperties.cqDamScene7ApiclientRecordsperpageWithfilterName);
+    return Objects.equals(this.cqDamScene7ApiclientRecordsperpageNofilterName, comDayCqDamScene7ImplScene7APIClientImplProperties.cqDamScene7ApiclientRecordsperpageNofilterName) &&
+        Objects.equals(this.cqDamScene7ApiclientRecordsperpageWithfilterName, comDayCqDamScene7ImplScene7APIClientImplProperties.cqDamScene7ApiclientRecordsperpageWithfilterName);
   }
 
   @Override
@@ -83,11 +98,9 @@ public class ComDayCqDamScene7ImplScene7APIClientImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

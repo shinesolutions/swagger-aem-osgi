@@ -1,20 +1,31 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comDayCqAnalyticsSitecatalystImplExporterClassificationsExporteProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteProperties   {
-  
-  private @Valid ConfigNodePropertyArray allowedPaths = null;
-  private @Valid ConfigNodePropertyInteger cqAnalyticsSaintExporterPagesize = null;
+  private ConfigNodePropertyArray allowedPaths;
+  private ConfigNodePropertyInteger cqAnalyticsSaintExporterPagesize;
+
+  public ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteProperties() {
+  }
 
   /**
    **/
@@ -26,9 +37,11 @@ public class ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("allowed.paths")
-  public ConfigNodePropertyArray getAllowedPaths() {
+  @Valid public ConfigNodePropertyArray getAllowedPaths() {
     return allowedPaths;
   }
+
+  @JsonProperty("allowed.paths")
   public void setAllowedPaths(ConfigNodePropertyArray allowedPaths) {
     this.allowedPaths = allowedPaths;
   }
@@ -43,16 +56,18 @@ public class ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("cq.analytics.saint.exporter.pagesize")
-  public ConfigNodePropertyInteger getCqAnalyticsSaintExporterPagesize() {
+  @Valid public ConfigNodePropertyInteger getCqAnalyticsSaintExporterPagesize() {
     return cqAnalyticsSaintExporterPagesize;
   }
+
+  @JsonProperty("cq.analytics.saint.exporter.pagesize")
   public void setCqAnalyticsSaintExporterPagesize(ConfigNodePropertyInteger cqAnalyticsSaintExporterPagesize) {
     this.cqAnalyticsSaintExporterPagesize = cqAnalyticsSaintExporterPagesize;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -60,8 +75,8 @@ public class ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteProp
       return false;
     }
     ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteProperties comDayCqAnalyticsSitecatalystImplExporterClassificationsExporteProperties = (ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteProperties) o;
-    return Objects.equals(allowedPaths, comDayCqAnalyticsSitecatalystImplExporterClassificationsExporteProperties.allowedPaths) &&
-        Objects.equals(cqAnalyticsSaintExporterPagesize, comDayCqAnalyticsSitecatalystImplExporterClassificationsExporteProperties.cqAnalyticsSaintExporterPagesize);
+    return Objects.equals(this.allowedPaths, comDayCqAnalyticsSitecatalystImplExporterClassificationsExporteProperties.allowedPaths) &&
+        Objects.equals(this.cqAnalyticsSaintExporterPagesize, comDayCqAnalyticsSitecatalystImplExporterClassificationsExporteProperties.cqAnalyticsSaintExporterPagesize);
   }
 
   @Override
@@ -84,11 +99,9 @@ public class ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteProp
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

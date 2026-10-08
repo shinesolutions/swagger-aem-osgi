@@ -72,10 +72,10 @@ private class OASOrgApacheSlingScriptingJavaImplJaTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASOrgApacheSlingScriptingJavaImplJa orgApacheSlingScriptingJavaImplJavaScriptEngineFactoryProperties = new OASOrgApacheSlingScriptingJavaImplJa();
-        Map<String, String> propertyMappings = orgApacheSlingScriptingJavaImplJavaScriptEngineFactoryProperties.getPropertyMappings();
-        System.assertEquals('javaClassdebuginfo', propertyMappings.get('java.classdebuginfo'));
-        System.assertEquals('javaJavaEncoding', propertyMappings.get('java.javaEncoding'));
-        System.assertEquals('javaCompilerSourceVM', propertyMappings.get('java.compilerSourceVM'));
-        System.assertEquals('javaCompilerTargetVM', propertyMappings.get('java.compilerTargetVM'));
+        Map<String, String> x-property-mappings = orgApacheSlingScriptingJavaImplJavaScriptEngineFactoryProperties.getx-property-mappings();
+        System.assertEquals('javaClassdebuginfo', x-property-mappings.get('java.classdebuginfo'));
+        System.assertEquals('javaJavaEncoding', x-property-mappings.get('java.javaEncoding'));
+        System.assertEquals('javaCompilerSourceVM', x-property-mappings.get('java.compilerSourceVM'));
+        System.assertEquals('javaCompilerTargetVM', x-property-mappings.get('java.compilerTargetVM'));
     }
 }

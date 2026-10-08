@@ -2,38 +2,53 @@ package apimodels;
 
 import apimodels.ConfigNodePropertyBoolean;
 import apimodels.ConfigNodePropertyString;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoProperties   {
   @JsonProperty("default.transport.agent-to-worker.prefix")
-  private ConfigNodePropertyString defaultTransportAgentToWorkerPrefix = null;
+  @Valid
+
+  private ConfigNodePropertyString defaultTransportAgentToWorkerPrefix;
 
   @JsonProperty("default.transport.agent-to-master.prefix")
-  private ConfigNodePropertyString defaultTransportAgentToMasterPrefix = null;
+  @Valid
+
+  private ConfigNodePropertyString defaultTransportAgentToMasterPrefix;
 
   @JsonProperty("default.transport.input.package")
-  private ConfigNodePropertyString defaultTransportInputPackage = null;
+  @Valid
+
+  private ConfigNodePropertyString defaultTransportInputPackage;
 
   @JsonProperty("default.transport.output.package")
-  private ConfigNodePropertyString defaultTransportOutputPackage = null;
+  @Valid
+
+  private ConfigNodePropertyString defaultTransportOutputPackage;
 
   @JsonProperty("default.transport.replication.synchronous")
-  private ConfigNodePropertyBoolean defaultTransportReplicationSynchronous = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean defaultTransportReplicationSynchronous;
 
   @JsonProperty("default.transport.contentpackage")
-  private ConfigNodePropertyBoolean defaultTransportContentpackage = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean defaultTransportContentpackage;
 
   @JsonProperty("offloading.transporter.default.enabled")
-  private ConfigNodePropertyBoolean offloadingTransporterDefaultEnabled = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean offloadingTransporterDefaultEnabled;
 
   public ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoProperties defaultTransportAgentToWorkerPrefix(ConfigNodePropertyString defaultTransportAgentToWorkerPrefix) {
     this.defaultTransportAgentToWorkerPrefix = defaultTransportAgentToWorkerPrefix;
@@ -44,7 +59,6 @@ public class ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoPro
    * Get defaultTransportAgentToWorkerPrefix
    * @return defaultTransportAgentToWorkerPrefix
   **/
-  @Valid
   public ConfigNodePropertyString getDefaultTransportAgentToWorkerPrefix() {
     return defaultTransportAgentToWorkerPrefix;
   }
@@ -62,7 +76,6 @@ public class ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoPro
    * Get defaultTransportAgentToMasterPrefix
    * @return defaultTransportAgentToMasterPrefix
   **/
-  @Valid
   public ConfigNodePropertyString getDefaultTransportAgentToMasterPrefix() {
     return defaultTransportAgentToMasterPrefix;
   }
@@ -80,7 +93,6 @@ public class ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoPro
    * Get defaultTransportInputPackage
    * @return defaultTransportInputPackage
   **/
-  @Valid
   public ConfigNodePropertyString getDefaultTransportInputPackage() {
     return defaultTransportInputPackage;
   }
@@ -98,7 +110,6 @@ public class ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoPro
    * Get defaultTransportOutputPackage
    * @return defaultTransportOutputPackage
   **/
-  @Valid
   public ConfigNodePropertyString getDefaultTransportOutputPackage() {
     return defaultTransportOutputPackage;
   }
@@ -116,7 +127,6 @@ public class ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoPro
    * Get defaultTransportReplicationSynchronous
    * @return defaultTransportReplicationSynchronous
   **/
-  @Valid
   public ConfigNodePropertyBoolean getDefaultTransportReplicationSynchronous() {
     return defaultTransportReplicationSynchronous;
   }
@@ -134,7 +144,6 @@ public class ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoPro
    * Get defaultTransportContentpackage
    * @return defaultTransportContentpackage
   **/
-  @Valid
   public ConfigNodePropertyBoolean getDefaultTransportContentpackage() {
     return defaultTransportContentpackage;
   }
@@ -152,7 +161,6 @@ public class ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoPro
    * Get offloadingTransporterDefaultEnabled
    * @return offloadingTransporterDefaultEnabled
   **/
-  @Valid
   public ConfigNodePropertyBoolean getOffloadingTransporterDefaultEnabled() {
     return offloadingTransporterDefaultEnabled;
   }
@@ -163,7 +171,7 @@ public class ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoPro
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -206,11 +214,8 @@ public class ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoPro
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

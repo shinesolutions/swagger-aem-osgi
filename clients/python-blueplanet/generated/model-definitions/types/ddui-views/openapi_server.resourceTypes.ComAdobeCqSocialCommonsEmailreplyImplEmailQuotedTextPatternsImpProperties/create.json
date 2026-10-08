@@ -1,0 +1,24 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "pattern_time" },
+      {"model": "pattern_newline" },
+      {"model": "pattern_day_of_month" },
+      {"model": "pattern_month" },
+      {"model": "pattern_year" },
+      {"model": "pattern_date" },
+      {"model": "pattern_date_time" },
+      {"model": "pattern_email" },
+    ]
+  }]
+}

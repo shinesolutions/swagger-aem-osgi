@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyArray;
 import com.prokarma.pkmst.model.ConfigNodePropertyBoolean;
 import com.prokarma.pkmst.model.ConfigNodePropertyDropDown;
@@ -19,78 +20,77 @@ import io.swagger.annotations.ApiModelProperty;
  * OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties   {
   @JsonProperty("name")
-  private ConfigNodePropertyString name = null;
+  private ConfigNodePropertyString name;
 
   @JsonProperty("title")
-  private ConfigNodePropertyString title = null;
+  private ConfigNodePropertyString title;
 
   @JsonProperty("details")
-  private ConfigNodePropertyString details = null;
+  private ConfigNodePropertyString details;
 
   @JsonProperty("enabled")
-  private ConfigNodePropertyBoolean enabled = null;
+  private ConfigNodePropertyBoolean enabled;
 
   @JsonProperty("serviceName")
-  private ConfigNodePropertyString serviceName = null;
+  private ConfigNodePropertyString serviceName;
 
   @JsonProperty("log.level")
-  private ConfigNodePropertyDropDown logLevel = null;
+  private ConfigNodePropertyDropDown logLevel;
 
   @JsonProperty("allowed.roots")
-  private ConfigNodePropertyArray allowedRoots = null;
+  private ConfigNodePropertyArray allowedRoots;
 
   @JsonProperty("queue.processing.enabled")
-  private ConfigNodePropertyBoolean queueProcessingEnabled = null;
+  private ConfigNodePropertyBoolean queueProcessingEnabled;
 
   @JsonProperty("packageImporter.endpoints")
-  private ConfigNodePropertyArray packageImporterEndpoints = null;
+  private ConfigNodePropertyArray packageImporterEndpoints;
 
   @JsonProperty("passiveQueues")
-  private ConfigNodePropertyArray passiveQueues = null;
+  private ConfigNodePropertyArray passiveQueues;
 
   @JsonProperty("priorityQueues")
-  private ConfigNodePropertyArray priorityQueues = null;
+  private ConfigNodePropertyArray priorityQueues;
 
   @JsonProperty("retry.strategy")
-  private ConfigNodePropertyDropDown retryStrategy = null;
+  private ConfigNodePropertyDropDown retryStrategy;
 
   @JsonProperty("retry.attempts")
-  private ConfigNodePropertyInteger retryAttempts = null;
+  private ConfigNodePropertyInteger retryAttempts;
 
   @JsonProperty("requestAuthorizationStrategy.target")
-  private ConfigNodePropertyString requestAuthorizationStrategyTarget = null;
+  private ConfigNodePropertyString requestAuthorizationStrategyTarget;
 
   @JsonProperty("transportSecretProvider.target")
-  private ConfigNodePropertyString transportSecretProviderTarget = null;
+  private ConfigNodePropertyString transportSecretProviderTarget;
 
   @JsonProperty("packageBuilder.target")
-  private ConfigNodePropertyString packageBuilderTarget = null;
+  private ConfigNodePropertyString packageBuilderTarget;
 
   @JsonProperty("triggers.target")
-  private ConfigNodePropertyString triggersTarget = null;
+  private ConfigNodePropertyString triggersTarget;
 
   @JsonProperty("queue.provider")
-  private ConfigNodePropertyDropDown queueProvider = null;
+  private ConfigNodePropertyDropDown queueProvider;
 
   @JsonProperty("async.delivery")
-  private ConfigNodePropertyBoolean asyncDelivery = null;
+  private ConfigNodePropertyBoolean asyncDelivery;
 
   @JsonProperty("http.conn.timeout")
-  private ConfigNodePropertyInteger httpConnTimeout = null;
+  private ConfigNodePropertyInteger httpConnTimeout;
 
   public OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties name(ConfigNodePropertyString name) {
     this.name = name;
     return this;
   }
 
-   /**
+  /**
    * Get name
    * @return name
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getName() {
     return name;
@@ -105,10 +105,10 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
     return this;
   }
 
-   /**
+  /**
    * Get title
    * @return title
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getTitle() {
     return title;
@@ -123,10 +123,10 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
     return this;
   }
 
-   /**
+  /**
    * Get details
    * @return details
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getDetails() {
     return details;
@@ -141,10 +141,10 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
     return this;
   }
 
-   /**
+  /**
    * Get enabled
    * @return enabled
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getEnabled() {
     return enabled;
@@ -159,10 +159,10 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
     return this;
   }
 
-   /**
+  /**
    * Get serviceName
    * @return serviceName
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getServiceName() {
     return serviceName;
@@ -177,10 +177,10 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
     return this;
   }
 
-   /**
+  /**
    * Get logLevel
    * @return logLevel
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyDropDown getLogLevel() {
     return logLevel;
@@ -195,10 +195,10 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
     return this;
   }
 
-   /**
+  /**
    * Get allowedRoots
    * @return allowedRoots
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getAllowedRoots() {
     return allowedRoots;
@@ -213,10 +213,10 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
     return this;
   }
 
-   /**
+  /**
    * Get queueProcessingEnabled
    * @return queueProcessingEnabled
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getQueueProcessingEnabled() {
     return queueProcessingEnabled;
@@ -231,10 +231,10 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
     return this;
   }
 
-   /**
+  /**
    * Get packageImporterEndpoints
    * @return packageImporterEndpoints
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getPackageImporterEndpoints() {
     return packageImporterEndpoints;
@@ -249,10 +249,10 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
     return this;
   }
 
-   /**
+  /**
    * Get passiveQueues
    * @return passiveQueues
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getPassiveQueues() {
     return passiveQueues;
@@ -267,10 +267,10 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
     return this;
   }
 
-   /**
+  /**
    * Get priorityQueues
    * @return priorityQueues
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getPriorityQueues() {
     return priorityQueues;
@@ -285,10 +285,10 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
     return this;
   }
 
-   /**
+  /**
    * Get retryStrategy
    * @return retryStrategy
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyDropDown getRetryStrategy() {
     return retryStrategy;
@@ -303,10 +303,10 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
     return this;
   }
 
-   /**
+  /**
    * Get retryAttempts
    * @return retryAttempts
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getRetryAttempts() {
     return retryAttempts;
@@ -321,10 +321,10 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
     return this;
   }
 
-   /**
+  /**
    * Get requestAuthorizationStrategyTarget
    * @return requestAuthorizationStrategyTarget
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getRequestAuthorizationStrategyTarget() {
     return requestAuthorizationStrategyTarget;
@@ -339,10 +339,10 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
     return this;
   }
 
-   /**
+  /**
    * Get transportSecretProviderTarget
    * @return transportSecretProviderTarget
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getTransportSecretProviderTarget() {
     return transportSecretProviderTarget;
@@ -357,10 +357,10 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
     return this;
   }
 
-   /**
+  /**
    * Get packageBuilderTarget
    * @return packageBuilderTarget
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getPackageBuilderTarget() {
     return packageBuilderTarget;
@@ -375,10 +375,10 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
     return this;
   }
 
-   /**
+  /**
    * Get triggersTarget
    * @return triggersTarget
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getTriggersTarget() {
     return triggersTarget;
@@ -393,10 +393,10 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
     return this;
   }
 
-   /**
+  /**
    * Get queueProvider
    * @return queueProvider
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyDropDown getQueueProvider() {
     return queueProvider;
@@ -411,10 +411,10 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
     return this;
   }
 
-   /**
+  /**
    * Get asyncDelivery
    * @return asyncDelivery
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getAsyncDelivery() {
     return asyncDelivery;
@@ -429,10 +429,10 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
     return this;
   }
 
-   /**
+  /**
    * Get httpConnTimeout
    * @return httpConnTimeout
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getHttpConnTimeout() {
     return httpConnTimeout;
@@ -444,7 +444,7 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -512,11 +512,8 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

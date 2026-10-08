@@ -9,12 +9,12 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class OrgApacheSlingEngineImplDebugRequestProgressTrackerLogFilterProperties {
-    ConfigNodePropertyArray extensions = null
-
-    ConfigNodePropertyInteger minDurationMs = null
-
-    ConfigNodePropertyInteger maxDurationMs = null
-
-    ConfigNodePropertyBoolean compactLogFormat = null
-
+    
+    ConfigNodePropertyArray extensions
+    
+    ConfigNodePropertyInteger minDurationMs
+    
+    ConfigNodePropertyInteger maxDurationMs
+    
+    ConfigNodePropertyBoolean compactLogFormat
 }

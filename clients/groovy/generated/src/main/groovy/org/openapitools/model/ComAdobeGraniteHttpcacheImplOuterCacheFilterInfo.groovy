@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeGraniteHttpcacheImplOuterCacheFilterProper
 
 @Canonical
 class ComAdobeGraniteHttpcacheImplOuterCacheFilterInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteHttpcacheImplOuterCacheFilterProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteHttpcacheImplOuterCacheFilterProperties properties
 }

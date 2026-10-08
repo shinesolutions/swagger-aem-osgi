@@ -2,31 +2,32 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ComDayCqCommonsImplExternalizerImplProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class ComDayCqCommonsImplExternalizerImplInfo   {
   
-  private String pid = null;
+  private String pid;
 
-  private String title = null;
+  private String title;
 
-  private String description = null;
+  private String description;
 
-  private ComDayCqCommonsImplExternalizerImplProperties properties = null;
+  private ComDayCqCommonsImplExternalizerImplProperties properties;
 
-  private String bundleLocation = null;
+  private String bundleLocation;
 
-  private String serviceLocation = null;
-
+  private String serviceLocation;
 
   /**
    **/
@@ -138,7 +139,7 @@ public class ComDayCqCommonsImplExternalizerImplInfo   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -146,12 +147,12 @@ public class ComDayCqCommonsImplExternalizerImplInfo   {
       return false;
     }
     ComDayCqCommonsImplExternalizerImplInfo comDayCqCommonsImplExternalizerImplInfo = (ComDayCqCommonsImplExternalizerImplInfo) o;
-    return Objects.equals(pid, comDayCqCommonsImplExternalizerImplInfo.pid) &&
-        Objects.equals(title, comDayCqCommonsImplExternalizerImplInfo.title) &&
-        Objects.equals(description, comDayCqCommonsImplExternalizerImplInfo.description) &&
-        Objects.equals(properties, comDayCqCommonsImplExternalizerImplInfo.properties) &&
-        Objects.equals(bundleLocation, comDayCqCommonsImplExternalizerImplInfo.bundleLocation) &&
-        Objects.equals(serviceLocation, comDayCqCommonsImplExternalizerImplInfo.serviceLocation);
+    return Objects.equals(this.pid, comDayCqCommonsImplExternalizerImplInfo.pid) &&
+        Objects.equals(this.title, comDayCqCommonsImplExternalizerImplInfo.title) &&
+        Objects.equals(this.description, comDayCqCommonsImplExternalizerImplInfo.description) &&
+        Objects.equals(this.properties, comDayCqCommonsImplExternalizerImplInfo.properties) &&
+        Objects.equals(this.bundleLocation, comDayCqCommonsImplExternalizerImplInfo.bundleLocation) &&
+        Objects.equals(this.serviceLocation, comDayCqCommonsImplExternalizerImplInfo.serviceLocation);
   }
 
   @Override
@@ -178,11 +179,8 @@ public class ComDayCqCommonsImplExternalizerImplInfo   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

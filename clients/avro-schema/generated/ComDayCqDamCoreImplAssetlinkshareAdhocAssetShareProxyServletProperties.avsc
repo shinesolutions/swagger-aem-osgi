@@ -1,0 +1,15 @@
+{
+  "namespace": "model",
+  "type": "record",
+  "doc": "",
+  "name": "ComDayCqDamCoreImplAssetlinkshareAdhocAssetShareProxyServletProperties",
+  "fields": [
+    {
+      "name": "cq.dam.adhoc.asset.share.prezip.maxcontentsize",
+      "type": ["null", "model.ConfigNodePropertyInteger"],
+      "doc": "",
+      "default": null
+    }
+  ]
+
+}

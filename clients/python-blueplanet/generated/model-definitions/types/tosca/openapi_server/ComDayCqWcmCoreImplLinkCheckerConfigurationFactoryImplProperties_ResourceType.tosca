@@ -1,0 +1,83 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplProperties {
+    title = ComDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplProperties
+    description = ComDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplProperties
+    derivedFrom = Root
+    properties {
+        link_expired_prefix {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        link_expired_remove {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        link_expired_suffix {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        link_invalid_prefix {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        link_invalid_remove {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        link_invalid_suffix {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        link_predated_prefix {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        link_predated_remove {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        link_predated_suffix {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        link_wcmmodes {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplProperties {
+    title = ComDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplProperties
+    description = ComDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplProperties
+    implements = openapi_server.resourceTypes.ComDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplProperties
+
+  }
+}

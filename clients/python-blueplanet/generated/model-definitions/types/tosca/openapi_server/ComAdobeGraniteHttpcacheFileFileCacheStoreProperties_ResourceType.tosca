@@ -1,0 +1,41 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeGraniteHttpcacheFileFileCacheStoreProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeGraniteHttpcacheFileFileCacheStoreProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComAdobeGraniteHttpcacheFileFileCacheStoreProperties {
+    title = ComAdobeGraniteHttpcacheFileFileCacheStoreProperties
+    description = ComAdobeGraniteHttpcacheFileFileCacheStoreProperties
+    derivedFrom = Root
+    properties {
+        com_adobe_granite_httpcache_file_document_root {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_granite_httpcache_file_include_host {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeGraniteHttpcacheFileFileCacheStoreProperties {
+    title = ComAdobeGraniteHttpcacheFileFileCacheStoreProperties
+    description = ComAdobeGraniteHttpcacheFileFileCacheStoreProperties
+    implements = openapi_server.resourceTypes.ComAdobeGraniteHttpcacheFileFileCacheStoreProperties
+
+  }
+}

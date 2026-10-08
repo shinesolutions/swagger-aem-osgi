@@ -1,26 +1,33 @@
 package apimodels;
 
 import apimodels.ConfigNodePropertyString;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * ComAdobeGraniteDistributionCoreImplDiffDiffEventListenerProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class ComAdobeGraniteDistributionCoreImplDiffDiffEventListenerProperties   {
   @JsonProperty("diffPath")
-  private ConfigNodePropertyString diffPath = null;
+  @Valid
+
+  private ConfigNodePropertyString diffPath;
 
   @JsonProperty("serviceName")
-  private ConfigNodePropertyString serviceName = null;
+  @Valid
+
+  private ConfigNodePropertyString serviceName;
 
   @JsonProperty("serviceUser.target")
-  private ConfigNodePropertyString serviceUserTarget = null;
+  @Valid
+
+  private ConfigNodePropertyString serviceUserTarget;
 
   public ComAdobeGraniteDistributionCoreImplDiffDiffEventListenerProperties diffPath(ConfigNodePropertyString diffPath) {
     this.diffPath = diffPath;
@@ -31,7 +38,6 @@ public class ComAdobeGraniteDistributionCoreImplDiffDiffEventListenerProperties 
    * Get diffPath
    * @return diffPath
   **/
-  @Valid
   public ConfigNodePropertyString getDiffPath() {
     return diffPath;
   }
@@ -49,7 +55,6 @@ public class ComAdobeGraniteDistributionCoreImplDiffDiffEventListenerProperties 
    * Get serviceName
    * @return serviceName
   **/
-  @Valid
   public ConfigNodePropertyString getServiceName() {
     return serviceName;
   }
@@ -67,7 +72,6 @@ public class ComAdobeGraniteDistributionCoreImplDiffDiffEventListenerProperties 
    * Get serviceUserTarget
    * @return serviceUserTarget
   **/
-  @Valid
   public ConfigNodePropertyString getServiceUserTarget() {
     return serviceUserTarget;
   }
@@ -78,7 +82,7 @@ public class ComAdobeGraniteDistributionCoreImplDiffDiffEventListenerProperties 
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -113,11 +117,8 @@ public class ComAdobeGraniteDistributionCoreImplDiffDiffEventListenerProperties 
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -2,23 +2,28 @@ package apimodels;
 
 import apimodels.ConfigNodePropertyArray;
 import apimodels.ConfigNodePropertyDropDown;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * OrgApacheFelixSystemreadyImplServicesCheckProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class OrgApacheFelixSystemreadyImplServicesCheckProperties   {
   @JsonProperty("services.list")
-  private ConfigNodePropertyArray servicesList = null;
+  @Valid
+
+  private ConfigNodePropertyArray servicesList;
 
   @JsonProperty("type")
-  private ConfigNodePropertyDropDown type = null;
+  @Valid
+
+  private ConfigNodePropertyDropDown type;
 
   public OrgApacheFelixSystemreadyImplServicesCheckProperties servicesList(ConfigNodePropertyArray servicesList) {
     this.servicesList = servicesList;
@@ -29,7 +34,6 @@ public class OrgApacheFelixSystemreadyImplServicesCheckProperties   {
    * Get servicesList
    * @return servicesList
   **/
-  @Valid
   public ConfigNodePropertyArray getServicesList() {
     return servicesList;
   }
@@ -47,7 +51,6 @@ public class OrgApacheFelixSystemreadyImplServicesCheckProperties   {
    * Get type
    * @return type
   **/
-  @Valid
   public ConfigNodePropertyDropDown getType() {
     return type;
   }
@@ -58,7 +61,7 @@ public class OrgApacheFelixSystemreadyImplServicesCheckProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -91,11 +94,8 @@ public class OrgApacheFelixSystemreadyImplServicesCheckProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

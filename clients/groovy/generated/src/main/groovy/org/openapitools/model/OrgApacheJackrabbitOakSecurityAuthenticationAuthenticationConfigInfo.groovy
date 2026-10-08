@@ -7,12 +7,12 @@ import org.openapitools.model.OrgApacheJackrabbitOakSecurityAuthenticationAuthen
 
 @Canonical
 class OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigProperties properties
 }

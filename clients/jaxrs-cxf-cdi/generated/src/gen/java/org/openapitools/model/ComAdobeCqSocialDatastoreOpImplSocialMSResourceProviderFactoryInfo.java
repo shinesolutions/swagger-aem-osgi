@@ -2,27 +2,28 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ComAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactoryProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class ComAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactoryInfo   {
   
-  private String pid = null;
+  private String pid;
 
-  private String title = null;
+  private String title;
 
-  private String description = null;
+  private String description;
 
-  private ComAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactoryProperties properties = null;
-
+  private ComAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactoryProperties properties;
 
   /**
    **/
@@ -98,7 +99,7 @@ public class ComAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactoryInfo 
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -106,10 +107,10 @@ public class ComAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactoryInfo 
       return false;
     }
     ComAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactoryInfo comAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactoryInfo = (ComAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactoryInfo) o;
-    return Objects.equals(pid, comAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactoryInfo.pid) &&
-        Objects.equals(title, comAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactoryInfo.title) &&
-        Objects.equals(description, comAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactoryInfo.description) &&
-        Objects.equals(properties, comAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactoryInfo.properties);
+    return Objects.equals(this.pid, comAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactoryInfo.pid) &&
+        Objects.equals(this.title, comAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactoryInfo.title) &&
+        Objects.equals(this.description, comAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactoryInfo.description) &&
+        Objects.equals(this.properties, comAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactoryInfo.properties);
   }
 
   @Override
@@ -134,11 +135,8 @@ public class ComAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactoryInfo 
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

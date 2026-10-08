@@ -1,28 +1,39 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComDayCqWcmCoreImplLanguageManagerImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComDayCqWcmCoreImplLanguageManagerImplProperties   {
-  @JsonProperty("langmgr.list.path")
-  private ConfigNodePropertyString langmgrListPath = null;
+@JsonTypeName("comDayCqWcmCoreImplLanguageManagerImplProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComDayCqWcmCoreImplLanguageManagerImplProperties {
 
-  @JsonProperty("langmgr.country.default")
-  private ConfigNodePropertyArray langmgrCountryDefault = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString langmgrListPath;
 
-  public ComDayCqWcmCoreImplLanguageManagerImplProperties langmgrListPath(ConfigNodePropertyString langmgrListPath) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray langmgrCountryDefault;
+
+  public ComDayCqWcmCoreImplLanguageManagerImplProperties langmgrListPath(@Nullable ConfigNodePropertyString langmgrListPath) {
     this.langmgrListPath = langmgrListPath;
     return this;
   }
@@ -30,20 +41,20 @@ public class ComDayCqWcmCoreImplLanguageManagerImplProperties   {
   /**
    * Get langmgrListPath
    * @return langmgrListPath
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getLangmgrListPath() {
+   */
+  @Valid 
+  @Schema(name = "langmgr.list.path", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("langmgr.list.path")
+  public @Nullable ConfigNodePropertyString getLangmgrListPath() {
     return langmgrListPath;
   }
 
-  public void setLangmgrListPath(ConfigNodePropertyString langmgrListPath) {
+  @JsonProperty("langmgr.list.path")
+  public void setLangmgrListPath(@Nullable ConfigNodePropertyString langmgrListPath) {
     this.langmgrListPath = langmgrListPath;
   }
 
-  public ComDayCqWcmCoreImplLanguageManagerImplProperties langmgrCountryDefault(ConfigNodePropertyArray langmgrCountryDefault) {
+  public ComDayCqWcmCoreImplLanguageManagerImplProperties langmgrCountryDefault(@Nullable ConfigNodePropertyArray langmgrCountryDefault) {
     this.langmgrCountryDefault = langmgrCountryDefault;
     return this;
   }
@@ -51,22 +62,21 @@ public class ComDayCqWcmCoreImplLanguageManagerImplProperties   {
   /**
    * Get langmgrCountryDefault
    * @return langmgrCountryDefault
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getLangmgrCountryDefault() {
+   */
+  @Valid 
+  @Schema(name = "langmgr.country.default", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("langmgr.country.default")
+  public @Nullable ConfigNodePropertyArray getLangmgrCountryDefault() {
     return langmgrCountryDefault;
   }
 
-  public void setLangmgrCountryDefault(ConfigNodePropertyArray langmgrCountryDefault) {
+  @JsonProperty("langmgr.country.default")
+  public void setLangmgrCountryDefault(@Nullable ConfigNodePropertyArray langmgrCountryDefault) {
     this.langmgrCountryDefault = langmgrCountryDefault;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -87,7 +97,6 @@ public class ComDayCqWcmCoreImplLanguageManagerImplProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComDayCqWcmCoreImplLanguageManagerImplProperties {\n");
-    
     sb.append("    langmgrListPath: ").append(toIndentedString(langmgrListPath)).append("\n");
     sb.append("    langmgrCountryDefault: ").append(toIndentedString(langmgrCountryDefault)).append("\n");
     sb.append("}");
@@ -98,11 +107,8 @@ public class ComDayCqWcmCoreImplLanguageManagerImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

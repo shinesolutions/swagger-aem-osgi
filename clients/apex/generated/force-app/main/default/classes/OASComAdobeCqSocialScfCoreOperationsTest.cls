@@ -72,8 +72,8 @@ private class OASComAdobeCqSocialScfCoreOperationsTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeCqSocialScfCoreOperations comAdobeCqSocialScfCoreOperationsImplSocialOperationsServletProperties = new OASComAdobeCqSocialScfCoreOperations();
-        Map<String, String> propertyMappings = comAdobeCqSocialScfCoreOperationsImplSocialOperationsServletProperties.getPropertyMappings();
-        System.assertEquals('slingServletSelectors', propertyMappings.get('sling.servlet.selectors'));
-        System.assertEquals('slingServletExtensions', propertyMappings.get('sling.servlet.extensions'));
+        Map<String, String> x-property-mappings = comAdobeCqSocialScfCoreOperationsImplSocialOperationsServletProperties.getx-property-mappings();
+        System.assertEquals('slingServletSelectors', x-property-mappings.get('sling.servlet.selectors'));
+        System.assertEquals('slingServletExtensions', x-property-mappings.get('sling.servlet.extensions'));
     }
 }

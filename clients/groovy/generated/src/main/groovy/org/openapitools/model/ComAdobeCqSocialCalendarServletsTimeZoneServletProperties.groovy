@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class ComAdobeCqSocialCalendarServletsTimeZoneServletProperties {
-    ConfigNodePropertyInteger timezonesExpirytime = null
-
+    
+    ConfigNodePropertyInteger timezonesExpirytime
 }

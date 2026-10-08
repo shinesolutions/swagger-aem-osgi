@@ -4,6 +4,7 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
@@ -12,22 +13,17 @@ import org.openapitools.model.ConfigNodePropertyDropDown;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2019-08-05T01:00:05.540Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2026-10-07T12:54:26.576036107Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqDamCoreImplDamEventRecorderImplProperties   {
   
-
-  private ConfigNodePropertyString eventFilter = null;
-
-  private ConfigNodePropertyInteger eventQueueLength = null;
-
-  private ConfigNodePropertyBoolean eventrecorderEnabled = null;
-
-  private ConfigNodePropertyArray eventrecorderBlacklist = null;
-
-  private ConfigNodePropertyDropDown eventrecorderEventtypes = null;
+  private ConfigNodePropertyString eventFilter;
+  private ConfigNodePropertyInteger eventQueueLength;
+  private ConfigNodePropertyBoolean eventrecorderEnabled;
+  private ConfigNodePropertyArray eventrecorderBlacklist;
+  private ConfigNodePropertyDropDown eventrecorderEventtypes;
 
   /**
    **/
@@ -99,11 +95,11 @@ public class ComDayCqDamCoreImplDamEventRecorderImplProperties   {
       return false;
     }
     ComDayCqDamCoreImplDamEventRecorderImplProperties comDayCqDamCoreImplDamEventRecorderImplProperties = (ComDayCqDamCoreImplDamEventRecorderImplProperties) o;
-    return Objects.equals(eventFilter, comDayCqDamCoreImplDamEventRecorderImplProperties.eventFilter) &&
-        Objects.equals(eventQueueLength, comDayCqDamCoreImplDamEventRecorderImplProperties.eventQueueLength) &&
-        Objects.equals(eventrecorderEnabled, comDayCqDamCoreImplDamEventRecorderImplProperties.eventrecorderEnabled) &&
-        Objects.equals(eventrecorderBlacklist, comDayCqDamCoreImplDamEventRecorderImplProperties.eventrecorderBlacklist) &&
-        Objects.equals(eventrecorderEventtypes, comDayCqDamCoreImplDamEventRecorderImplProperties.eventrecorderEventtypes);
+    return Objects.equals(this.eventFilter, comDayCqDamCoreImplDamEventRecorderImplProperties.eventFilter) &&
+        Objects.equals(this.eventQueueLength, comDayCqDamCoreImplDamEventRecorderImplProperties.eventQueueLength) &&
+        Objects.equals(this.eventrecorderEnabled, comDayCqDamCoreImplDamEventRecorderImplProperties.eventrecorderEnabled) &&
+        Objects.equals(this.eventrecorderBlacklist, comDayCqDamCoreImplDamEventRecorderImplProperties.eventrecorderBlacklist) &&
+        Objects.equals(this.eventrecorderEventtypes, comDayCqDamCoreImplDamEventRecorderImplProperties.eventrecorderEventtypes);
   }
 
   @Override
@@ -130,10 +126,7 @@ public class ComDayCqDamCoreImplDamEventRecorderImplProperties   {
    * (except the first line).
    */
   private String toIndentedString(Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

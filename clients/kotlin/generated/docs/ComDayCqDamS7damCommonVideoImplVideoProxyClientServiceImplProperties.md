@@ -2,15 +2,15 @@
 # ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**cqPerioddamPeriods7damPeriodvideoproxyclientservicePeriodmultipartuploadPeriodminsizePeriodname** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**cqPerioddamPeriods7damPeriodvideoproxyclientservicePeriodmultipartuploadPeriodpartsizePeriodname** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**cqPerioddamPeriods7damPeriodvideoproxyclientservicePeriodmultipartuploadPeriodnumthreadPeriodname** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**cqPerioddamPeriods7damPeriodvideoproxyclientservicePeriodhttpPeriodreadtimeoutPeriodname** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**cqPerioddamPeriods7damPeriodvideoproxyclientservicePeriodhttpPeriodconnectiontimeoutPeriodname** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**cqPerioddamPeriods7damPeriodvideoproxyclientservicePeriodhttpPeriodmaxretrycountPeriodname** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**cqPerioddamPeriods7damPeriodvideoproxyclientservicePerioduploadprogressPeriodintervalPeriodname** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **cqDamS7damVideoproxyclientserviceMultipartuploadMinsizeName** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **cqDamS7damVideoproxyclientserviceMultipartuploadPartsizeName** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **cqDamS7damVideoproxyclientserviceMultipartuploadNumthreadName** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **cqDamS7damVideoproxyclientserviceHttpReadtimeoutName** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **cqDamS7damVideoproxyclientserviceHttpConnectiontimeoutName** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **cqDamS7damVideoproxyclientserviceHttpMaxretrycountName** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **cqDamS7damVideoproxyclientserviceUploadprogressIntervalName** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
 
 
 

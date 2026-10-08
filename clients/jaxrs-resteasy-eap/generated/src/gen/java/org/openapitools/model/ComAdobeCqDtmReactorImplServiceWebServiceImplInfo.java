@@ -4,24 +4,21 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ComAdobeCqDtmReactorImplServiceWebServiceImplProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2019-08-05T01:00:05.540Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2026-10-07T12:54:26.576036107Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeCqDtmReactorImplServiceWebServiceImplInfo   {
   
-
-  private String pid = null;
-
-  private String title = null;
-
-  private String description = null;
-
-  private ComAdobeCqDtmReactorImplServiceWebServiceImplProperties properties = null;
+  private String pid;
+  private String title;
+  private String description;
+  private ComAdobeCqDtmReactorImplServiceWebServiceImplProperties properties;
 
   /**
    **/
@@ -81,10 +78,10 @@ public class ComAdobeCqDtmReactorImplServiceWebServiceImplInfo   {
       return false;
     }
     ComAdobeCqDtmReactorImplServiceWebServiceImplInfo comAdobeCqDtmReactorImplServiceWebServiceImplInfo = (ComAdobeCqDtmReactorImplServiceWebServiceImplInfo) o;
-    return Objects.equals(pid, comAdobeCqDtmReactorImplServiceWebServiceImplInfo.pid) &&
-        Objects.equals(title, comAdobeCqDtmReactorImplServiceWebServiceImplInfo.title) &&
-        Objects.equals(description, comAdobeCqDtmReactorImplServiceWebServiceImplInfo.description) &&
-        Objects.equals(properties, comAdobeCqDtmReactorImplServiceWebServiceImplInfo.properties);
+    return Objects.equals(this.pid, comAdobeCqDtmReactorImplServiceWebServiceImplInfo.pid) &&
+        Objects.equals(this.title, comAdobeCqDtmReactorImplServiceWebServiceImplInfo.title) &&
+        Objects.equals(this.description, comAdobeCqDtmReactorImplServiceWebServiceImplInfo.description) &&
+        Objects.equals(this.properties, comAdobeCqDtmReactorImplServiceWebServiceImplInfo.properties);
   }
 
   @Override
@@ -110,10 +107,7 @@ public class ComAdobeCqDtmReactorImplServiceWebServiceImplInfo   {
    * (except the first line).
    */
   private String toIndentedString(Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

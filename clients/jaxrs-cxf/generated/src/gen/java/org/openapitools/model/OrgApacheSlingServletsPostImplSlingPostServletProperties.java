@@ -1,5 +1,6 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
@@ -8,44 +9,53 @@ import javax.validation.constraints.*;
 import javax.validation.Valid;
 
 import io.swagger.annotations.ApiModelProperty;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlType;
-import javax.xml.bind.annotation.XmlEnum;
-import javax.xml.bind.annotation.XmlEnumValue;
+import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
 
 public class OrgApacheSlingServletsPostImplSlingPostServletProperties  {
   
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyArray servletPostDateFormats = null;
+
+  private ConfigNodePropertyArray servletPostDateFormats;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyArray servletPostNodeNameHints = null;
+
+  private ConfigNodePropertyArray servletPostNodeNameHints;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyInteger servletPostNodeNameMaxLength = null;
+
+  private ConfigNodePropertyInteger servletPostNodeNameMaxLength;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyBoolean servletPostCheckinNewVersionableNodes = null;
+
+  private ConfigNodePropertyBoolean servletPostCheckinNewVersionableNodes;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyBoolean servletPostAutoCheckout = null;
+
+  private ConfigNodePropertyBoolean servletPostAutoCheckout;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyBoolean servletPostAutoCheckin = null;
+
+  private ConfigNodePropertyBoolean servletPostAutoCheckin;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyString servletPostIgnorePattern = null;
+
+  private ConfigNodePropertyString servletPostIgnorePattern;
  /**
    * Get servletPostDateFormats
    * @return servletPostDateFormats
@@ -172,6 +182,28 @@ public class OrgApacheSlingServletsPostImplSlingPostServletProperties  {
     return this;
   }
 
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    OrgApacheSlingServletsPostImplSlingPostServletProperties orgApacheSlingServletsPostImplSlingPostServletProperties = (OrgApacheSlingServletsPostImplSlingPostServletProperties) o;
+    return Objects.equals(this.servletPostDateFormats, orgApacheSlingServletsPostImplSlingPostServletProperties.servletPostDateFormats) &&
+        Objects.equals(this.servletPostNodeNameHints, orgApacheSlingServletsPostImplSlingPostServletProperties.servletPostNodeNameHints) &&
+        Objects.equals(this.servletPostNodeNameMaxLength, orgApacheSlingServletsPostImplSlingPostServletProperties.servletPostNodeNameMaxLength) &&
+        Objects.equals(this.servletPostCheckinNewVersionableNodes, orgApacheSlingServletsPostImplSlingPostServletProperties.servletPostCheckinNewVersionableNodes) &&
+        Objects.equals(this.servletPostAutoCheckout, orgApacheSlingServletsPostImplSlingPostServletProperties.servletPostAutoCheckout) &&
+        Objects.equals(this.servletPostAutoCheckin, orgApacheSlingServletsPostImplSlingPostServletProperties.servletPostAutoCheckin) &&
+        Objects.equals(this.servletPostIgnorePattern, orgApacheSlingServletsPostImplSlingPostServletProperties.servletPostIgnorePattern);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(servletPostDateFormats, servletPostNodeNameHints, servletPostNodeNameMaxLength, servletPostCheckinNewVersionableNodes, servletPostAutoCheckout, servletPostAutoCheckin, servletPostIgnorePattern);
+  }
 
   @Override
   public String toString() {
@@ -193,11 +225,8 @@ public class OrgApacheSlingServletsPostImplSlingPostServletProperties  {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private static String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

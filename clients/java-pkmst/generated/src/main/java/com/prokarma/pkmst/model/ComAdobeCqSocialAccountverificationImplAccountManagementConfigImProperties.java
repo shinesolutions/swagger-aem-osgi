@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyBoolean;
 import com.prokarma.pkmst.model.ConfigNodePropertyInteger;
 import io.swagger.annotations.ApiModel;
@@ -16,27 +17,26 @@ import io.swagger.annotations.ApiModelProperty;
  * ComAdobeCqSocialAccountverificationImplAccountManagementConfigImProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeCqSocialAccountverificationImplAccountManagementConfigImProperties   {
   @JsonProperty("enable")
-  private ConfigNodePropertyBoolean enable = null;
+  private ConfigNodePropertyBoolean enable;
 
   @JsonProperty("ttl1")
-  private ConfigNodePropertyInteger ttl1 = null;
+  private ConfigNodePropertyInteger ttl1;
 
   @JsonProperty("ttl2")
-  private ConfigNodePropertyInteger ttl2 = null;
+  private ConfigNodePropertyInteger ttl2;
 
   public ComAdobeCqSocialAccountverificationImplAccountManagementConfigImProperties enable(ConfigNodePropertyBoolean enable) {
     this.enable = enable;
     return this;
   }
 
-   /**
+  /**
    * Get enable
    * @return enable
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getEnable() {
     return enable;
@@ -51,10 +51,10 @@ public class ComAdobeCqSocialAccountverificationImplAccountManagementConfigImPro
     return this;
   }
 
-   /**
+  /**
    * Get ttl1
    * @return ttl1
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getTtl1() {
     return ttl1;
@@ -69,10 +69,10 @@ public class ComAdobeCqSocialAccountverificationImplAccountManagementConfigImPro
     return this;
   }
 
-   /**
+  /**
    * Get ttl2
    * @return ttl2
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getTtl2() {
     return ttl2;
@@ -84,7 +84,7 @@ public class ComAdobeCqSocialAccountverificationImplAccountManagementConfigImPro
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -118,11 +118,8 @@ public class ComAdobeCqSocialAccountverificationImplAccountManagementConfigImPro
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

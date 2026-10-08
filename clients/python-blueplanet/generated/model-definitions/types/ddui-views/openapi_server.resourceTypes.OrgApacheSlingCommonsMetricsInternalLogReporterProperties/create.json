@@ -1,0 +1,23 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "period" },
+      {"model": "time_unit" },
+      {"model": "level" },
+      {"model": "logger_name" },
+      {"model": "prefix" },
+      {"model": "pattern" },
+      {"model": "registry_name" },
+    ]
+  }]
+}

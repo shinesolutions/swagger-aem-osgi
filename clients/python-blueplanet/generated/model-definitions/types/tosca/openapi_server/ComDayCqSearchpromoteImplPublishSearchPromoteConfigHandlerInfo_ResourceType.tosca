@@ -1,0 +1,61 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqSearchpromoteImplPublishSearchPromoteConfigHandlerInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqSearchpromoteImplPublishSearchPromoteConfigHandlerInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComDayCqSearchpromoteImplPublishSearchPromoteConfigHandlerProperties = openapi_server.resourceTypes.ComDayCqSearchpromoteImplPublishSearchPromoteConfigHandlerProperties
+}
+resourceTypes {
+
+  ComDayCqSearchpromoteImplPublishSearchPromoteConfigHandlerInfo {
+    title = ComDayCqSearchpromoteImplPublishSearchPromoteConfigHandlerInfo
+    description = ComDayCqSearchpromoteImplPublishSearchPromoteConfigHandlerInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComDayCqSearchpromoteImplPublishSearchPromoteConfigHandlerProperties
+          description = ""
+          optional = false
+        }
+        bundle_location {
+          type =  string
+          description = ""
+          optional = false
+        }
+        service_location {
+          type =  string
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqSearchpromoteImplPublishSearchPromoteConfigHandlerInfo {
+    title = ComDayCqSearchpromoteImplPublishSearchPromoteConfigHandlerInfo
+    description = ComDayCqSearchpromoteImplPublishSearchPromoteConfigHandlerInfo
+    implements = openapi_server.resourceTypes.ComDayCqSearchpromoteImplPublishSearchPromoteConfigHandlerInfo
+
+  }
+}

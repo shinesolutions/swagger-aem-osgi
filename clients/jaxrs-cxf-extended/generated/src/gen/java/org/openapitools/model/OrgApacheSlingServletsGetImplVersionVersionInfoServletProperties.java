@@ -1,0 +1,109 @@
+package org.openapitools.model;
+
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.model.ConfigNodePropertyArray;
+import org.openapitools.model.ConfigNodePropertyBoolean;
+import javax.validation.constraints.*;
+import javax.validation.Valid;
+
+import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.annotation.JsonProperty;
+
+
+public class OrgApacheSlingServletsGetImplVersionVersionInfoServletProperties  {
+  
+  @ApiModelProperty(value = "")
+  @Valid
+  private ConfigNodePropertyArray slingServletSelectors;
+
+  @ApiModelProperty(value = "")
+  @Valid
+  private ConfigNodePropertyBoolean ecmaSuport;
+ /**
+  * Get slingServletSelectors
+  * @return slingServletSelectors
+  */
+  @JsonProperty("sling.servlet.selectors")
+  public ConfigNodePropertyArray getSlingServletSelectors() {
+    return slingServletSelectors;
+  }
+
+  /**
+   * Sets the <code>slingServletSelectors</code> property.
+   */
+ public void setSlingServletSelectors(ConfigNodePropertyArray slingServletSelectors) {
+    this.slingServletSelectors = slingServletSelectors;
+  }
+
+  /**
+   * Sets the <code>slingServletSelectors</code> property.
+   */
+  public OrgApacheSlingServletsGetImplVersionVersionInfoServletProperties slingServletSelectors(ConfigNodePropertyArray slingServletSelectors) {
+    this.slingServletSelectors = slingServletSelectors;
+    return this;
+  }
+
+ /**
+  * Get ecmaSuport
+  * @return ecmaSuport
+  */
+  @JsonProperty("ecmaSuport")
+  public ConfigNodePropertyBoolean getEcmaSuport() {
+    return ecmaSuport;
+  }
+
+  /**
+   * Sets the <code>ecmaSuport</code> property.
+   */
+ public void setEcmaSuport(ConfigNodePropertyBoolean ecmaSuport) {
+    this.ecmaSuport = ecmaSuport;
+  }
+
+  /**
+   * Sets the <code>ecmaSuport</code> property.
+   */
+  public OrgApacheSlingServletsGetImplVersionVersionInfoServletProperties ecmaSuport(ConfigNodePropertyBoolean ecmaSuport) {
+    this.ecmaSuport = ecmaSuport;
+    return this;
+  }
+
+
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    OrgApacheSlingServletsGetImplVersionVersionInfoServletProperties orgApacheSlingServletsGetImplVersionVersionInfoServletProperties = (OrgApacheSlingServletsGetImplVersionVersionInfoServletProperties) o;
+    return Objects.equals(this.slingServletSelectors, orgApacheSlingServletsGetImplVersionVersionInfoServletProperties.slingServletSelectors) &&
+        Objects.equals(this.ecmaSuport, orgApacheSlingServletsGetImplVersionVersionInfoServletProperties.ecmaSuport);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(slingServletSelectors, ecmaSuport);
+  }
+
+  @Override
+  public String toString() {
+    StringBuilder sb = new StringBuilder();
+    sb.append("class OrgApacheSlingServletsGetImplVersionVersionInfoServletProperties {\n");
+    
+    sb.append("    slingServletSelectors: ").append(toIndentedString(slingServletSelectors)).append("\n");
+    sb.append("    ecmaSuport: ").append(toIndentedString(ecmaSuport)).append("\n");
+    sb.append("}");
+    return sb.toString();
+  }
+
+  /**
+   * Convert the given object to string with each line indented by 4 spaces
+   * (except the first line).
+   */
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
+  }
+}
+

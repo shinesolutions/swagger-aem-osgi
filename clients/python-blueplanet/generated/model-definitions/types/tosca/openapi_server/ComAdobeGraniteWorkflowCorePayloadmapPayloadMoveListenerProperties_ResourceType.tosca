@@ -1,0 +1,42 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeGraniteWorkflowCorePayloadmapPayloadMoveListenerProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeGraniteWorkflowCorePayloadmapPayloadMoveListenerProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+}
+resourceTypes {
+
+  ComAdobeGraniteWorkflowCorePayloadmapPayloadMoveListenerProperties {
+    title = ComAdobeGraniteWorkflowCorePayloadmapPayloadMoveListenerProperties
+    description = ComAdobeGraniteWorkflowCorePayloadmapPayloadMoveListenerProperties
+    derivedFrom = Root
+    properties {
+        payload_move_white_list {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        payload_move_handle_from_workflow_process {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeGraniteWorkflowCorePayloadmapPayloadMoveListenerProperties {
+    title = ComAdobeGraniteWorkflowCorePayloadmapPayloadMoveListenerProperties
+    description = ComAdobeGraniteWorkflowCorePayloadmapPayloadMoveListenerProperties
+    implements = openapi_server.resourceTypes.ComAdobeGraniteWorkflowCorePayloadmapPayloadMoveListenerProperties
+
+  }
+}

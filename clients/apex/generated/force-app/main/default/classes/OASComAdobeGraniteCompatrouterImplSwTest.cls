@@ -72,7 +72,7 @@ private class OASComAdobeGraniteCompatrouterImplSwTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeGraniteCompatrouterImplSw comAdobeGraniteCompatrouterImplSwitchMappingConfigProperties = new OASComAdobeGraniteCompatrouterImplSw();
-        Map<String, String> propertyMappings = comAdobeGraniteCompatrouterImplSwitchMappingConfigProperties.getPropertyMappings();
-        System.assertEquals('r_group', propertyMappings.get('group'));
+        Map<String, String> x-property-mappings = comAdobeGraniteCompatrouterImplSwitchMappingConfigProperties.getx-property-mappings();
+        System.assertEquals('r_group', x-property-mappings.get('group'));
     }
 }

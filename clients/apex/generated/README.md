@@ -1,11 +1,11 @@
 # Adobe Experience Manager OSGI config (AEM) API API Client
 
+
 Swagger AEM OSGI is an OpenAPI specification for Adobe Experience Manager (AEM) OSGI Configurations API
 
 ## Requirements
 
 - [Salesforce DX](https://www.salesforce.com/products/platform/products/salesforce-dx/)
-
 
 If everything is set correctly:
 
@@ -15,27 +15,27 @@ If everything is set correctly:
   sfdx-cli/5.7.5-05549de (darwin-amd64) go1.7.5 sfdxstable
   ```
 
-
 ## Installation
 
 1. Copy the output into your Salesforce DX folder - or alternatively deploy the output directly into the workspace.
 2. Deploy the code via Salesforce DX to your Scratch Org
 
    ```bash
-   $ sfdx force:source:push
+      sfdx force:source:push
    ```
+
 3. If the API needs authentication update the Named Credential in Setup.
 4. Run your Apex tests using
 
-    ```bash
-    $ sfdx sfdx force:apex:test:run
-    ```
+   ```bash
+       sfdx sfdx force:apex:test:run
+   ```
+
 5. Retrieve the job id from the console and check the test results.
 
   ```bash
-  $ sfdx force:apex:test:report -i theJobId
+  sfdx force:apex:test:report -i theJobId
   ```
-
 
 ## Getting Started
 
@@ -47,17 +47,17 @@ OASClient client = api.getClient();
 
 
 Map<String, Object> params = new Map<String, Object>{
-    'post' => Boolean.getExample(),
-    'apply' => Boolean.getExample(),
-    'r_delete' => Boolean.getExample(),
+    'post' => '',
+    'apply' => '',
+    'r_delete' => '',
     'action' => 'null',
     'location' => 'null',
     'propertylist' => new List<String>{''},
-    'showPlaceholder' => Boolean.getExample(),
-    'maximumCacheEntries' => Integer.getExample(),
+    'showPlaceholder' => '',
+    'maximumCacheEntries' => '',
     'afScriptingCompatversion' => 'null',
-    'makeFileNameUnique' => Boolean.getExample(),
-    'generatingCompliantData' => Boolean.getExample()
+    'makeFileNameUnique' => '',
+    'generatingCompliantData' => ''
 };
 
 try {
@@ -1386,6 +1386,7 @@ Class | Method | HTTP request | Description
 
 
 ## Documentation for Authorization
+
 
 Authentication schemes defined for the API:
 ### aemAuth

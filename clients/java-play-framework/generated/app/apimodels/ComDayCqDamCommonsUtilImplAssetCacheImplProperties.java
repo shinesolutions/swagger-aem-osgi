@@ -3,26 +3,33 @@ package apimodels;
 import apimodels.ConfigNodePropertyArray;
 import apimodels.ConfigNodePropertyBoolean;
 import apimodels.ConfigNodePropertyInteger;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * ComDayCqDamCommonsUtilImplAssetCacheImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class ComDayCqDamCommonsUtilImplAssetCacheImplProperties   {
   @JsonProperty("large.file.min")
-  private ConfigNodePropertyInteger largeFileMin = null;
+  @Valid
+
+  private ConfigNodePropertyInteger largeFileMin;
 
   @JsonProperty("cache.apply")
-  private ConfigNodePropertyBoolean cacheApply = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean cacheApply;
 
   @JsonProperty("mime.types")
-  private ConfigNodePropertyArray mimeTypes = null;
+  @Valid
+
+  private ConfigNodePropertyArray mimeTypes;
 
   public ComDayCqDamCommonsUtilImplAssetCacheImplProperties largeFileMin(ConfigNodePropertyInteger largeFileMin) {
     this.largeFileMin = largeFileMin;
@@ -33,7 +40,6 @@ public class ComDayCqDamCommonsUtilImplAssetCacheImplProperties   {
    * Get largeFileMin
    * @return largeFileMin
   **/
-  @Valid
   public ConfigNodePropertyInteger getLargeFileMin() {
     return largeFileMin;
   }
@@ -51,7 +57,6 @@ public class ComDayCqDamCommonsUtilImplAssetCacheImplProperties   {
    * Get cacheApply
    * @return cacheApply
   **/
-  @Valid
   public ConfigNodePropertyBoolean getCacheApply() {
     return cacheApply;
   }
@@ -69,7 +74,6 @@ public class ComDayCqDamCommonsUtilImplAssetCacheImplProperties   {
    * Get mimeTypes
    * @return mimeTypes
   **/
-  @Valid
   public ConfigNodePropertyArray getMimeTypes() {
     return mimeTypes;
   }
@@ -80,7 +84,7 @@ public class ComDayCqDamCommonsUtilImplAssetCacheImplProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -115,11 +119,8 @@ public class ComDayCqDamCommonsUtilImplAssetCacheImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

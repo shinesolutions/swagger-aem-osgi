@@ -72,17 +72,17 @@ private class OASComAdobeCqSocialCommonsEmailreplyTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeCqSocialCommonsEmailreply comAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpProperties = new OASComAdobeCqSocialCommonsEmailreply();
-        Map<String, String> propertyMappings = comAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpProperties.getPropertyMappings();
-        System.assertEquals('emailName', propertyMappings.get('email.name'));
-        System.assertEquals('emailCreatePostFromReply', propertyMappings.get('email.createPostFromReply'));
-        System.assertEquals('emailAddCommentIdTo', propertyMappings.get('email.addCommentIdTo'));
-        System.assertEquals('emailSubjectMaximumLength', propertyMappings.get('email.subjectMaximumLength'));
-        System.assertEquals('emailReplyToAddress', propertyMappings.get('email.replyToAddress'));
-        System.assertEquals('emailReplyToDelimiter', propertyMappings.get('email.replyToDelimiter'));
-        System.assertEquals('emailTrackerIdPrefixInSubject', propertyMappings.get('email.trackerIdPrefixInSubject'));
-        System.assertEquals('emailTrackerIdPrefixInBody', propertyMappings.get('email.trackerIdPrefixInBody'));
-        System.assertEquals('emailAsHTML', propertyMappings.get('email.asHTML'));
-        System.assertEquals('emailDefaultUserName', propertyMappings.get('email.defaultUserName'));
-        System.assertEquals('emailTemplatesRootPath', propertyMappings.get('email.templates.rootPath'));
+        Map<String, String> x-property-mappings = comAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpProperties.getx-property-mappings();
+        System.assertEquals('emailName', x-property-mappings.get('email.name'));
+        System.assertEquals('emailCreatePostFromReply', x-property-mappings.get('email.createPostFromReply'));
+        System.assertEquals('emailAddCommentIdTo', x-property-mappings.get('email.addCommentIdTo'));
+        System.assertEquals('emailSubjectMaximumLength', x-property-mappings.get('email.subjectMaximumLength'));
+        System.assertEquals('emailReplyToAddress', x-property-mappings.get('email.replyToAddress'));
+        System.assertEquals('emailReplyToDelimiter', x-property-mappings.get('email.replyToDelimiter'));
+        System.assertEquals('emailTrackerIdPrefixInSubject', x-property-mappings.get('email.trackerIdPrefixInSubject'));
+        System.assertEquals('emailTrackerIdPrefixInBody', x-property-mappings.get('email.trackerIdPrefixInBody'));
+        System.assertEquals('emailAsHTML', x-property-mappings.get('email.asHTML'));
+        System.assertEquals('emailDefaultUserName', x-property-mappings.get('email.defaultUserName'));
+        System.assertEquals('emailTemplatesRootPath', x-property-mappings.get('email.templates.rootPath'));
     }
 }

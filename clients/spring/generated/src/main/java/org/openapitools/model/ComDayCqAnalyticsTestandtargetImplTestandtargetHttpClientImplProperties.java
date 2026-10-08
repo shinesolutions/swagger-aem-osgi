@@ -1,37 +1,48 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplProperties   {
-  @JsonProperty("cq.analytics.testandtarget.api.url")
-  private ConfigNodePropertyString cqAnalyticsTestandtargetApiUrl = null;
+@JsonTypeName("comDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplProperties {
 
-  @JsonProperty("cq.analytics.testandtarget.timeout")
-  private ConfigNodePropertyInteger cqAnalyticsTestandtargetTimeout = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString cqAnalyticsTestandtargetApiUrl;
 
-  @JsonProperty("cq.analytics.testandtarget.sockettimeout")
-  private ConfigNodePropertyInteger cqAnalyticsTestandtargetSockettimeout = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger cqAnalyticsTestandtargetTimeout;
 
-  @JsonProperty("cq.analytics.testandtarget.recommendations.url.replace")
-  private ConfigNodePropertyString cqAnalyticsTestandtargetRecommendationsUrlReplace = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger cqAnalyticsTestandtargetSockettimeout;
 
-  @JsonProperty("cq.analytics.testandtarget.recommendations.url.replacewith")
-  private ConfigNodePropertyString cqAnalyticsTestandtargetRecommendationsUrlReplacewith = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString cqAnalyticsTestandtargetRecommendationsUrlReplace;
 
-  public ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplProperties cqAnalyticsTestandtargetApiUrl(ConfigNodePropertyString cqAnalyticsTestandtargetApiUrl) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString cqAnalyticsTestandtargetRecommendationsUrlReplacewith;
+
+  public ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplProperties cqAnalyticsTestandtargetApiUrl(@Nullable ConfigNodePropertyString cqAnalyticsTestandtargetApiUrl) {
     this.cqAnalyticsTestandtargetApiUrl = cqAnalyticsTestandtargetApiUrl;
     return this;
   }
@@ -39,20 +50,20 @@ public class ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplProper
   /**
    * Get cqAnalyticsTestandtargetApiUrl
    * @return cqAnalyticsTestandtargetApiUrl
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getCqAnalyticsTestandtargetApiUrl() {
+   */
+  @Valid 
+  @Schema(name = "cq.analytics.testandtarget.api.url", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cq.analytics.testandtarget.api.url")
+  public @Nullable ConfigNodePropertyString getCqAnalyticsTestandtargetApiUrl() {
     return cqAnalyticsTestandtargetApiUrl;
   }
 
-  public void setCqAnalyticsTestandtargetApiUrl(ConfigNodePropertyString cqAnalyticsTestandtargetApiUrl) {
+  @JsonProperty("cq.analytics.testandtarget.api.url")
+  public void setCqAnalyticsTestandtargetApiUrl(@Nullable ConfigNodePropertyString cqAnalyticsTestandtargetApiUrl) {
     this.cqAnalyticsTestandtargetApiUrl = cqAnalyticsTestandtargetApiUrl;
   }
 
-  public ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplProperties cqAnalyticsTestandtargetTimeout(ConfigNodePropertyInteger cqAnalyticsTestandtargetTimeout) {
+  public ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplProperties cqAnalyticsTestandtargetTimeout(@Nullable ConfigNodePropertyInteger cqAnalyticsTestandtargetTimeout) {
     this.cqAnalyticsTestandtargetTimeout = cqAnalyticsTestandtargetTimeout;
     return this;
   }
@@ -60,20 +71,20 @@ public class ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplProper
   /**
    * Get cqAnalyticsTestandtargetTimeout
    * @return cqAnalyticsTestandtargetTimeout
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getCqAnalyticsTestandtargetTimeout() {
+   */
+  @Valid 
+  @Schema(name = "cq.analytics.testandtarget.timeout", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cq.analytics.testandtarget.timeout")
+  public @Nullable ConfigNodePropertyInteger getCqAnalyticsTestandtargetTimeout() {
     return cqAnalyticsTestandtargetTimeout;
   }
 
-  public void setCqAnalyticsTestandtargetTimeout(ConfigNodePropertyInteger cqAnalyticsTestandtargetTimeout) {
+  @JsonProperty("cq.analytics.testandtarget.timeout")
+  public void setCqAnalyticsTestandtargetTimeout(@Nullable ConfigNodePropertyInteger cqAnalyticsTestandtargetTimeout) {
     this.cqAnalyticsTestandtargetTimeout = cqAnalyticsTestandtargetTimeout;
   }
 
-  public ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplProperties cqAnalyticsTestandtargetSockettimeout(ConfigNodePropertyInteger cqAnalyticsTestandtargetSockettimeout) {
+  public ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplProperties cqAnalyticsTestandtargetSockettimeout(@Nullable ConfigNodePropertyInteger cqAnalyticsTestandtargetSockettimeout) {
     this.cqAnalyticsTestandtargetSockettimeout = cqAnalyticsTestandtargetSockettimeout;
     return this;
   }
@@ -81,20 +92,20 @@ public class ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplProper
   /**
    * Get cqAnalyticsTestandtargetSockettimeout
    * @return cqAnalyticsTestandtargetSockettimeout
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getCqAnalyticsTestandtargetSockettimeout() {
+   */
+  @Valid 
+  @Schema(name = "cq.analytics.testandtarget.sockettimeout", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cq.analytics.testandtarget.sockettimeout")
+  public @Nullable ConfigNodePropertyInteger getCqAnalyticsTestandtargetSockettimeout() {
     return cqAnalyticsTestandtargetSockettimeout;
   }
 
-  public void setCqAnalyticsTestandtargetSockettimeout(ConfigNodePropertyInteger cqAnalyticsTestandtargetSockettimeout) {
+  @JsonProperty("cq.analytics.testandtarget.sockettimeout")
+  public void setCqAnalyticsTestandtargetSockettimeout(@Nullable ConfigNodePropertyInteger cqAnalyticsTestandtargetSockettimeout) {
     this.cqAnalyticsTestandtargetSockettimeout = cqAnalyticsTestandtargetSockettimeout;
   }
 
-  public ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplProperties cqAnalyticsTestandtargetRecommendationsUrlReplace(ConfigNodePropertyString cqAnalyticsTestandtargetRecommendationsUrlReplace) {
+  public ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplProperties cqAnalyticsTestandtargetRecommendationsUrlReplace(@Nullable ConfigNodePropertyString cqAnalyticsTestandtargetRecommendationsUrlReplace) {
     this.cqAnalyticsTestandtargetRecommendationsUrlReplace = cqAnalyticsTestandtargetRecommendationsUrlReplace;
     return this;
   }
@@ -102,20 +113,20 @@ public class ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplProper
   /**
    * Get cqAnalyticsTestandtargetRecommendationsUrlReplace
    * @return cqAnalyticsTestandtargetRecommendationsUrlReplace
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getCqAnalyticsTestandtargetRecommendationsUrlReplace() {
+   */
+  @Valid 
+  @Schema(name = "cq.analytics.testandtarget.recommendations.url.replace", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cq.analytics.testandtarget.recommendations.url.replace")
+  public @Nullable ConfigNodePropertyString getCqAnalyticsTestandtargetRecommendationsUrlReplace() {
     return cqAnalyticsTestandtargetRecommendationsUrlReplace;
   }
 
-  public void setCqAnalyticsTestandtargetRecommendationsUrlReplace(ConfigNodePropertyString cqAnalyticsTestandtargetRecommendationsUrlReplace) {
+  @JsonProperty("cq.analytics.testandtarget.recommendations.url.replace")
+  public void setCqAnalyticsTestandtargetRecommendationsUrlReplace(@Nullable ConfigNodePropertyString cqAnalyticsTestandtargetRecommendationsUrlReplace) {
     this.cqAnalyticsTestandtargetRecommendationsUrlReplace = cqAnalyticsTestandtargetRecommendationsUrlReplace;
   }
 
-  public ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplProperties cqAnalyticsTestandtargetRecommendationsUrlReplacewith(ConfigNodePropertyString cqAnalyticsTestandtargetRecommendationsUrlReplacewith) {
+  public ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplProperties cqAnalyticsTestandtargetRecommendationsUrlReplacewith(@Nullable ConfigNodePropertyString cqAnalyticsTestandtargetRecommendationsUrlReplacewith) {
     this.cqAnalyticsTestandtargetRecommendationsUrlReplacewith = cqAnalyticsTestandtargetRecommendationsUrlReplacewith;
     return this;
   }
@@ -123,22 +134,21 @@ public class ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplProper
   /**
    * Get cqAnalyticsTestandtargetRecommendationsUrlReplacewith
    * @return cqAnalyticsTestandtargetRecommendationsUrlReplacewith
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getCqAnalyticsTestandtargetRecommendationsUrlReplacewith() {
+   */
+  @Valid 
+  @Schema(name = "cq.analytics.testandtarget.recommendations.url.replacewith", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cq.analytics.testandtarget.recommendations.url.replacewith")
+  public @Nullable ConfigNodePropertyString getCqAnalyticsTestandtargetRecommendationsUrlReplacewith() {
     return cqAnalyticsTestandtargetRecommendationsUrlReplacewith;
   }
 
-  public void setCqAnalyticsTestandtargetRecommendationsUrlReplacewith(ConfigNodePropertyString cqAnalyticsTestandtargetRecommendationsUrlReplacewith) {
+  @JsonProperty("cq.analytics.testandtarget.recommendations.url.replacewith")
+  public void setCqAnalyticsTestandtargetRecommendationsUrlReplacewith(@Nullable ConfigNodePropertyString cqAnalyticsTestandtargetRecommendationsUrlReplacewith) {
     this.cqAnalyticsTestandtargetRecommendationsUrlReplacewith = cqAnalyticsTestandtargetRecommendationsUrlReplacewith;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -162,7 +172,6 @@ public class ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplProper
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplProperties {\n");
-    
     sb.append("    cqAnalyticsTestandtargetApiUrl: ").append(toIndentedString(cqAnalyticsTestandtargetApiUrl)).append("\n");
     sb.append("    cqAnalyticsTestandtargetTimeout: ").append(toIndentedString(cqAnalyticsTestandtargetTimeout)).append("\n");
     sb.append("    cqAnalyticsTestandtargetSockettimeout: ").append(toIndentedString(cqAnalyticsTestandtargetSockettimeout)).append("\n");
@@ -176,11 +185,8 @@ public class ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplProper
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -10,22 +10,22 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqDamCoreImplJmxAssetIndexUpdateMonitorProperties {
-    ConfigNodePropertyString jmxObjectname = null
-
-    ConfigNodePropertyBoolean propertyMeasureEnabled = null
-
-    ConfigNodePropertyString propertyName = null
-
-    ConfigNodePropertyInteger propertyMaxWaitMs = null
-
-    ConfigNodePropertyFloat propertyMaxRate = null
-
-    ConfigNodePropertyBoolean fulltextMeasureEnabled = null
-
-    ConfigNodePropertyString fulltextName = null
-
-    ConfigNodePropertyInteger fulltextMaxWaitMs = null
-
-    ConfigNodePropertyFloat fulltextMaxRate = null
-
+    
+    ConfigNodePropertyString jmxObjectname
+    
+    ConfigNodePropertyBoolean propertyMeasureEnabled
+    
+    ConfigNodePropertyString propertyName
+    
+    ConfigNodePropertyInteger propertyMaxWaitMs
+    
+    ConfigNodePropertyFloat propertyMaxRate
+    
+    ConfigNodePropertyBoolean fulltextMeasureEnabled
+    
+    ConfigNodePropertyString fulltextName
+    
+    ConfigNodePropertyInteger fulltextMaxWaitMs
+    
+    ConfigNodePropertyFloat fulltextMaxRate
 }

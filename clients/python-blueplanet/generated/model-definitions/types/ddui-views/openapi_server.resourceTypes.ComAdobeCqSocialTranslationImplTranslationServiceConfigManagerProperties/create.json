@@ -1,0 +1,24 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "translate_language" },
+      {"model": "translate_display" },
+      {"model": "translate_attribution" },
+      {"model": "translate_caching" },
+      {"model": "translate_smart_rendering" },
+      {"model": "translate_caching_duration" },
+      {"model": "translate_session_save_interval" },
+      {"model": "translate_session_save_batch_limit" },
+    ]
+  }]
+}

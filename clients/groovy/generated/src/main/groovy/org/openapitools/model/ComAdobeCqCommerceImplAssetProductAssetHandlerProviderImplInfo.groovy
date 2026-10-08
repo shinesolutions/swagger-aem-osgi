@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqCommerceImplAssetProductAssetHandlerProv
 
 @Canonical
 class ComAdobeCqCommerceImplAssetProductAssetHandlerProviderImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqCommerceImplAssetProductAssetHandlerProviderImplProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqCommerceImplAssetProductAssetHandlerProviderImplProperties properties
 }

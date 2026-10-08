@@ -1,0 +1,75 @@
+{
+  "namespace": "model",
+  "type": "record",
+  "doc": "",
+  "name": "OrgApacheSlingScriptingJspJspScriptEngineFactoryProperties",
+  "fields": [
+    {
+      "name": "jasper.compilerTargetVM",
+      "type": ["null", "model.ConfigNodePropertyString"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "jasper.compilerSourceVM",
+      "type": ["null", "model.ConfigNodePropertyString"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "jasper.classdebuginfo",
+      "type": ["null", "model.ConfigNodePropertyBoolean"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "jasper.enablePooling",
+      "type": ["null", "model.ConfigNodePropertyBoolean"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "jasper.ieClassId",
+      "type": ["null", "model.ConfigNodePropertyString"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "jasper.genStringAsCharArray",
+      "type": ["null", "model.ConfigNodePropertyBoolean"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "jasper.keepgenerated",
+      "type": ["null", "model.ConfigNodePropertyBoolean"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "jasper.mappedfile",
+      "type": ["null", "model.ConfigNodePropertyBoolean"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "jasper.trimSpaces",
+      "type": ["null", "model.ConfigNodePropertyBoolean"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "jasper.displaySourceFragments",
+      "type": ["null", "model.ConfigNodePropertyBoolean"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "default.is.session",
+      "type": ["null", "model.ConfigNodePropertyBoolean"],
+      "doc": "",
+      "default": null
+    }
+  ]
+
+}

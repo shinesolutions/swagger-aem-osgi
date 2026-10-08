@@ -1,32 +1,43 @@
 package apimodels;
 
 import apimodels.ConfigNodePropertyString;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * ComAdobeGraniteAuthOauthImplGraniteProviderProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class ComAdobeGraniteAuthOauthImplGraniteProviderProperties   {
   @JsonProperty("oauth.provider.id")
-  private ConfigNodePropertyString oauthProviderId = null;
+  @Valid
+
+  private ConfigNodePropertyString oauthProviderId;
 
   @JsonProperty("oauth.provider.granite.authorization.url")
-  private ConfigNodePropertyString oauthProviderGraniteAuthorizationUrl = null;
+  @Valid
+
+  private ConfigNodePropertyString oauthProviderGraniteAuthorizationUrl;
 
   @JsonProperty("oauth.provider.granite.token.url")
-  private ConfigNodePropertyString oauthProviderGraniteTokenUrl = null;
+  @Valid
+
+  private ConfigNodePropertyString oauthProviderGraniteTokenUrl;
 
   @JsonProperty("oauth.provider.granite.profile.url")
-  private ConfigNodePropertyString oauthProviderGraniteProfileUrl = null;
+  @Valid
+
+  private ConfigNodePropertyString oauthProviderGraniteProfileUrl;
 
   @JsonProperty("oauth.provider.granite.extended.details.urls")
-  private ConfigNodePropertyString oauthProviderGraniteExtendedDetailsUrls = null;
+  @Valid
+
+  private ConfigNodePropertyString oauthProviderGraniteExtendedDetailsUrls;
 
   public ComAdobeGraniteAuthOauthImplGraniteProviderProperties oauthProviderId(ConfigNodePropertyString oauthProviderId) {
     this.oauthProviderId = oauthProviderId;
@@ -37,7 +48,6 @@ public class ComAdobeGraniteAuthOauthImplGraniteProviderProperties   {
    * Get oauthProviderId
    * @return oauthProviderId
   **/
-  @Valid
   public ConfigNodePropertyString getOauthProviderId() {
     return oauthProviderId;
   }
@@ -55,7 +65,6 @@ public class ComAdobeGraniteAuthOauthImplGraniteProviderProperties   {
    * Get oauthProviderGraniteAuthorizationUrl
    * @return oauthProviderGraniteAuthorizationUrl
   **/
-  @Valid
   public ConfigNodePropertyString getOauthProviderGraniteAuthorizationUrl() {
     return oauthProviderGraniteAuthorizationUrl;
   }
@@ -73,7 +82,6 @@ public class ComAdobeGraniteAuthOauthImplGraniteProviderProperties   {
    * Get oauthProviderGraniteTokenUrl
    * @return oauthProviderGraniteTokenUrl
   **/
-  @Valid
   public ConfigNodePropertyString getOauthProviderGraniteTokenUrl() {
     return oauthProviderGraniteTokenUrl;
   }
@@ -91,7 +99,6 @@ public class ComAdobeGraniteAuthOauthImplGraniteProviderProperties   {
    * Get oauthProviderGraniteProfileUrl
    * @return oauthProviderGraniteProfileUrl
   **/
-  @Valid
   public ConfigNodePropertyString getOauthProviderGraniteProfileUrl() {
     return oauthProviderGraniteProfileUrl;
   }
@@ -109,7 +116,6 @@ public class ComAdobeGraniteAuthOauthImplGraniteProviderProperties   {
    * Get oauthProviderGraniteExtendedDetailsUrls
    * @return oauthProviderGraniteExtendedDetailsUrls
   **/
-  @Valid
   public ConfigNodePropertyString getOauthProviderGraniteExtendedDetailsUrls() {
     return oauthProviderGraniteExtendedDetailsUrls;
   }
@@ -120,7 +126,7 @@ public class ComAdobeGraniteAuthOauthImplGraniteProviderProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -159,11 +165,8 @@ public class ComAdobeGraniteAuthOauthImplGraniteProviderProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

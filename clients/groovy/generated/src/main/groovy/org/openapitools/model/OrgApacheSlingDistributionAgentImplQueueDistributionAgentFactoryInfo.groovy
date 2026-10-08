@@ -7,12 +7,12 @@ import org.openapitools.model.OrgApacheSlingDistributionAgentImplQueueDistributi
 
 @Canonical
 class OrgApacheSlingDistributionAgentImplQueueDistributionAgentFactoryInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheSlingDistributionAgentImplQueueDistributionAgentFactoryProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheSlingDistributionAgentImplQueueDistributionAgentFactoryProperties properties
 }

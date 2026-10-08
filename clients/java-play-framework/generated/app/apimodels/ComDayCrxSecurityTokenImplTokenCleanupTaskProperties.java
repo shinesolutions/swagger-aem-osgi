@@ -3,26 +3,33 @@ package apimodels;
 import apimodels.ConfigNodePropertyBoolean;
 import apimodels.ConfigNodePropertyInteger;
 import apimodels.ConfigNodePropertyString;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * ComDayCrxSecurityTokenImplTokenCleanupTaskProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class ComDayCrxSecurityTokenImplTokenCleanupTaskProperties   {
   @JsonProperty("enable.token.cleanup.task")
-  private ConfigNodePropertyBoolean enableTokenCleanupTask = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean enableTokenCleanupTask;
 
   @JsonProperty("scheduler.expression")
-  private ConfigNodePropertyString schedulerExpression = null;
+  @Valid
+
+  private ConfigNodePropertyString schedulerExpression;
 
   @JsonProperty("batch.size")
-  private ConfigNodePropertyInteger batchSize = null;
+  @Valid
+
+  private ConfigNodePropertyInteger batchSize;
 
   public ComDayCrxSecurityTokenImplTokenCleanupTaskProperties enableTokenCleanupTask(ConfigNodePropertyBoolean enableTokenCleanupTask) {
     this.enableTokenCleanupTask = enableTokenCleanupTask;
@@ -33,7 +40,6 @@ public class ComDayCrxSecurityTokenImplTokenCleanupTaskProperties   {
    * Get enableTokenCleanupTask
    * @return enableTokenCleanupTask
   **/
-  @Valid
   public ConfigNodePropertyBoolean getEnableTokenCleanupTask() {
     return enableTokenCleanupTask;
   }
@@ -51,7 +57,6 @@ public class ComDayCrxSecurityTokenImplTokenCleanupTaskProperties   {
    * Get schedulerExpression
    * @return schedulerExpression
   **/
-  @Valid
   public ConfigNodePropertyString getSchedulerExpression() {
     return schedulerExpression;
   }
@@ -69,7 +74,6 @@ public class ComDayCrxSecurityTokenImplTokenCleanupTaskProperties   {
    * Get batchSize
    * @return batchSize
   **/
-  @Valid
   public ConfigNodePropertyInteger getBatchSize() {
     return batchSize;
   }
@@ -80,7 +84,7 @@ public class ComDayCrxSecurityTokenImplTokenCleanupTaskProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -115,11 +119,8 @@ public class ComDayCrxSecurityTokenImplTokenCleanupTaskProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

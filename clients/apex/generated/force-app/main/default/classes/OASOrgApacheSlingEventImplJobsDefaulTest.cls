@@ -72,10 +72,10 @@ private class OASOrgApacheSlingEventImplJobsDefaulTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASOrgApacheSlingEventImplJobsDefaul orgApacheSlingEventImplJobsDefaultJobManagerProperties = new OASOrgApacheSlingEventImplJobsDefaul();
-        Map<String, String> propertyMappings = orgApacheSlingEventImplJobsDefaultJobManagerProperties.getPropertyMappings();
-        System.assertEquals('queuePriority', propertyMappings.get('queue.priority'));
-        System.assertEquals('queueRetries', propertyMappings.get('queue.retries'));
-        System.assertEquals('queueRetrydelay', propertyMappings.get('queue.retrydelay'));
-        System.assertEquals('queueMaxparallel', propertyMappings.get('queue.maxparallel'));
+        Map<String, String> x-property-mappings = orgApacheSlingEventImplJobsDefaultJobManagerProperties.getx-property-mappings();
+        System.assertEquals('queuePriority', x-property-mappings.get('queue.priority'));
+        System.assertEquals('queueRetries', x-property-mappings.get('queue.retries'));
+        System.assertEquals('queueRetrydelay', x-property-mappings.get('queue.retrydelay'));
+        System.assertEquals('queueMaxparallel', x-property-mappings.get('queue.maxparallel'));
     }
 }

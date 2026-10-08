@@ -10,12 +10,12 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviProperties {
-    ConfigNodePropertyString description = null
-
-    ConfigNodePropertyArray overrides = null
-
-    ConfigNodePropertyBoolean enabled = null
-
-    ConfigNodePropertyInteger serviceRanking = null
-
+    
+    ConfigNodePropertyString description
+    
+    ConfigNodePropertyArray overrides
+    
+    ConfigNodePropertyBoolean enabled
+    
+    ConfigNodePropertyInteger serviceRanking
 }

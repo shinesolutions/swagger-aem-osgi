@@ -9,18 +9,18 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class OrgApacheSlingCommonsMetricsInternalLogReporterProperties {
-    ConfigNodePropertyInteger period = null
-
-    ConfigNodePropertyDropDown timeUnit = null
-
-    ConfigNodePropertyDropDown level = null
-
-    ConfigNodePropertyString loggerName = null
-
-    ConfigNodePropertyString prefix = null
-
-    ConfigNodePropertyString pattern = null
-
-    ConfigNodePropertyString registryName = null
-
+    
+    ConfigNodePropertyInteger period
+    
+    ConfigNodePropertyDropDown timeUnit
+    
+    ConfigNodePropertyDropDown level
+    
+    ConfigNodePropertyString loggerName
+    
+    ConfigNodePropertyString prefix
+    
+    ConfigNodePropertyString pattern
+    
+    ConfigNodePropertyString registryName
 }

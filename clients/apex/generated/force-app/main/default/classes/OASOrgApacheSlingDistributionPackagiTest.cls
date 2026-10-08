@@ -72,8 +72,8 @@ private class OASOrgApacheSlingDistributionPackagiTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASOrgApacheSlingDistributionPackagi orgApacheSlingDistributionPackagingImplImporterRepositoryDistriProperties = new OASOrgApacheSlingDistributionPackagi();
-        Map<String, String> propertyMappings = orgApacheSlingDistributionPackagingImplImporterRepositoryDistriProperties.getPropertyMappings();
-        System.assertEquals('serviceName', propertyMappings.get('service.name'));
-        System.assertEquals('privilegeName', propertyMappings.get('privilege.name'));
+        Map<String, String> x-property-mappings = orgApacheSlingDistributionPackagingImplImporterRepositoryDistriProperties.getx-property-mappings();
+        System.assertEquals('serviceName', x-property-mappings.get('service.name'));
+        System.assertEquals('privilegeName', x-property-mappings.get('privilege.name'));
     }
 }

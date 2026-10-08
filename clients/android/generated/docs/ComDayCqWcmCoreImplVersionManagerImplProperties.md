@@ -1,7 +1,9 @@
 
+
 # ComDayCqWcmCoreImplVersionManagerImplProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **versionmanagerCreateVersionOnActivation** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
@@ -11,6 +13,7 @@ Name | Type | Description | Notes
 **versionmanagerMaxAgeDays** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
 **versionmanagerMaxNumberVersions** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
 **versionmanagerMinNumberVersions** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
+
 
 
 

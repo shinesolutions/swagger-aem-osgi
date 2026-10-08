@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteProperties = openapi_server.resourceTypes.ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteProperties
+}
+resourceTypes {
+
+  ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteInfo {
+    title = ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteInfo
+    description = ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteInfo {
+    title = ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteInfo
+    description = ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteInfo
+    implements = openapi_server.resourceTypes.ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteInfo
+
+  }
+}

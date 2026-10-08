@@ -1,0 +1,15 @@
+# ConfigNodePropertyArray
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**name** | **String** | property name | [optional] [default to None]
+**optional** | **bool** | True if optional | [optional] [default to None]
+**is_set** | **bool** | True if property is set | [optional] [default to None]
+**r#type** | **i32** | Property type, 1=String, 2=Long, 3=Integer, 7=Float, 11=Boolean, 12=Secrets(String) | [optional] [default to None]
+**values** | **Vec<String>** | Property value | [optional] [default to None]
+**description** | **String** | Property description | [optional] [default to None]
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+

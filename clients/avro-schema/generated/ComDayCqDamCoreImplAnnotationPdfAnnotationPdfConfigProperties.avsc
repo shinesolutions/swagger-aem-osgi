@@ -1,0 +1,105 @@
+{
+  "namespace": "model",
+  "type": "record",
+  "doc": "",
+  "name": "ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties",
+  "fields": [
+    {
+      "name": "cq.dam.config.annotation.pdf.document.width",
+      "type": ["null", "model.ConfigNodePropertyInteger"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "cq.dam.config.annotation.pdf.document.height",
+      "type": ["null", "model.ConfigNodePropertyInteger"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "cq.dam.config.annotation.pdf.document.padding.horizontal",
+      "type": ["null", "model.ConfigNodePropertyInteger"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "cq.dam.config.annotation.pdf.document.padding.vertical",
+      "type": ["null", "model.ConfigNodePropertyInteger"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "cq.dam.config.annotation.pdf.font.size",
+      "type": ["null", "model.ConfigNodePropertyInteger"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "cq.dam.config.annotation.pdf.font.color",
+      "type": ["null", "model.ConfigNodePropertyString"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "cq.dam.config.annotation.pdf.font.family",
+      "type": ["null", "model.ConfigNodePropertyString"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "cq.dam.config.annotation.pdf.font.light",
+      "type": ["null", "model.ConfigNodePropertyString"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "cq.dam.config.annotation.pdf.marginTextImage",
+      "type": ["null", "model.ConfigNodePropertyInteger"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "cq.dam.config.annotation.pdf.minImageHeight",
+      "type": ["null", "model.ConfigNodePropertyInteger"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "cq.dam.config.annotation.pdf.reviewStatus.width",
+      "type": ["null", "model.ConfigNodePropertyInteger"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "cq.dam.config.annotation.pdf.reviewStatus.color.approved",
+      "type": ["null", "model.ConfigNodePropertyString"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "cq.dam.config.annotation.pdf.reviewStatus.color.rejected",
+      "type": ["null", "model.ConfigNodePropertyString"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "cq.dam.config.annotation.pdf.reviewStatus.color.changesRequested",
+      "type": ["null", "model.ConfigNodePropertyString"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "cq.dam.config.annotation.pdf.annotationMarker.width",
+      "type": ["null", "model.ConfigNodePropertyInteger"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "cq.dam.config.annotation.pdf.asset.minheight",
+      "type": ["null", "model.ConfigNodePropertyInteger"],
+      "doc": "",
+      "default": null
+    }
+  ]
+
+}

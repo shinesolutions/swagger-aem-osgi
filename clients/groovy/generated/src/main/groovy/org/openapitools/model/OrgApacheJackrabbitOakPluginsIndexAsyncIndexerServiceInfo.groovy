@@ -7,16 +7,16 @@ import org.openapitools.model.OrgApacheJackrabbitOakPluginsIndexAsyncIndexerServ
 
 @Canonical
 class OrgApacheJackrabbitOakPluginsIndexAsyncIndexerServiceInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheJackrabbitOakPluginsIndexAsyncIndexerServiceProperties properties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheJackrabbitOakPluginsIndexAsyncIndexerServiceProperties properties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

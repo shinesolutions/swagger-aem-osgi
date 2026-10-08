@@ -7,12 +7,12 @@ import org.openapitools.model.OrgApacheSlingFeatureflagsImplConfiguredFeaturePro
 
 @Canonical
 class OrgApacheSlingFeatureflagsImplConfiguredFeatureInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheSlingFeatureflagsImplConfiguredFeatureProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheSlingFeatureflagsImplConfiguredFeatureProperties properties
 }

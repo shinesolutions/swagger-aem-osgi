@@ -72,7 +72,7 @@ private class OASComDayCqMailerImplEmailCqEmailTemTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqMailerImplEmailCqEmailTem comDayCqMailerImplEmailCqEmailTemplateFactoryProperties = new OASComDayCqMailerImplEmailCqEmailTem();
-        Map<String, String> propertyMappings = comDayCqMailerImplEmailCqEmailTemplateFactoryProperties.getPropertyMappings();
-        System.assertEquals('mailerEmailCharset', propertyMappings.get('mailer.email.charset'));
+        Map<String, String> x-property-mappings = comDayCqMailerImplEmailCqEmailTemplateFactoryProperties.getx-property-mappings();
+        System.assertEquals('mailerEmailCharset', x-property-mappings.get('mailer.email.charset'));
     }
 }

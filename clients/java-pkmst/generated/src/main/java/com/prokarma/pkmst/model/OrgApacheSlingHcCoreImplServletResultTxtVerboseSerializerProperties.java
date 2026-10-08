@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyInteger;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
@@ -15,30 +16,29 @@ import io.swagger.annotations.ApiModelProperty;
  * OrgApacheSlingHcCoreImplServletResultTxtVerboseSerializerProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingHcCoreImplServletResultTxtVerboseSerializerProperties   {
   @JsonProperty("totalWidth")
-  private ConfigNodePropertyInteger totalWidth = null;
+  private ConfigNodePropertyInteger totalWidth;
 
   @JsonProperty("colWidthName")
-  private ConfigNodePropertyInteger colWidthName = null;
+  private ConfigNodePropertyInteger colWidthName;
 
   @JsonProperty("colWidthResult")
-  private ConfigNodePropertyInteger colWidthResult = null;
+  private ConfigNodePropertyInteger colWidthResult;
 
   @JsonProperty("colWidthTiming")
-  private ConfigNodePropertyInteger colWidthTiming = null;
+  private ConfigNodePropertyInteger colWidthTiming;
 
   public OrgApacheSlingHcCoreImplServletResultTxtVerboseSerializerProperties totalWidth(ConfigNodePropertyInteger totalWidth) {
     this.totalWidth = totalWidth;
     return this;
   }
 
-   /**
+  /**
    * Get totalWidth
    * @return totalWidth
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getTotalWidth() {
     return totalWidth;
@@ -53,10 +53,10 @@ public class OrgApacheSlingHcCoreImplServletResultTxtVerboseSerializerProperties
     return this;
   }
 
-   /**
+  /**
    * Get colWidthName
    * @return colWidthName
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getColWidthName() {
     return colWidthName;
@@ -71,10 +71,10 @@ public class OrgApacheSlingHcCoreImplServletResultTxtVerboseSerializerProperties
     return this;
   }
 
-   /**
+  /**
    * Get colWidthResult
    * @return colWidthResult
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getColWidthResult() {
     return colWidthResult;
@@ -89,10 +89,10 @@ public class OrgApacheSlingHcCoreImplServletResultTxtVerboseSerializerProperties
     return this;
   }
 
-   /**
+  /**
    * Get colWidthTiming
    * @return colWidthTiming
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getColWidthTiming() {
     return colWidthTiming;
@@ -104,7 +104,7 @@ public class OrgApacheSlingHcCoreImplServletResultTxtVerboseSerializerProperties
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -140,11 +140,8 @@ public class OrgApacheSlingHcCoreImplServletResultTxtVerboseSerializerProperties
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

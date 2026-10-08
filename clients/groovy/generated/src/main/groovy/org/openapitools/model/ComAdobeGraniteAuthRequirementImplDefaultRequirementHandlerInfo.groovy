@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeGraniteAuthRequirementImplDefaultRequireme
 
 @Canonical
 class ComAdobeGraniteAuthRequirementImplDefaultRequirementHandlerInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteAuthRequirementImplDefaultRequirementHandlerProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteAuthRequirementImplDefaultRequirementHandlerProperties properties
 }

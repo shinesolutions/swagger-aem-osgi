@@ -72,10 +72,10 @@ private class OASComAdobeGraniteCsrfImplCSRFFilterTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeGraniteCsrfImplCSRFFilter comAdobeGraniteCsrfImplCSRFFilterProperties = new OASComAdobeGraniteCsrfImplCSRFFilter();
-        Map<String, String> propertyMappings = comAdobeGraniteCsrfImplCSRFFilterProperties.getPropertyMappings();
-        System.assertEquals('filterMethods', propertyMappings.get('filter.methods'));
-        System.assertEquals('filterEnableSafeUserAgents', propertyMappings.get('filter.enable.safe.user.agents'));
-        System.assertEquals('filterSafeUserAgents', propertyMappings.get('filter.safe.user.agents'));
-        System.assertEquals('filterExcludedPaths', propertyMappings.get('filter.excluded.paths'));
+        Map<String, String> x-property-mappings = comAdobeGraniteCsrfImplCSRFFilterProperties.getx-property-mappings();
+        System.assertEquals('filterMethods', x-property-mappings.get('filter.methods'));
+        System.assertEquals('filterEnableSafeUserAgents', x-property-mappings.get('filter.enable.safe.user.agents'));
+        System.assertEquals('filterSafeUserAgents', x-property-mappings.get('filter.safe.user.agents'));
+        System.assertEquals('filterExcludedPaths', x-property-mappings.get('filter.excluded.paths'));
     }
 }

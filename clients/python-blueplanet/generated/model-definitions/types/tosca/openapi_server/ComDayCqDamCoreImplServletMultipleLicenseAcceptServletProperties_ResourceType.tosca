@@ -1,0 +1,36 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqDamCoreImplServletMultipleLicenseAcceptServletProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqDamCoreImplServletMultipleLicenseAcceptServletProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+}
+resourceTypes {
+
+  ComDayCqDamCoreImplServletMultipleLicenseAcceptServletProperties {
+    title = ComDayCqDamCoreImplServletMultipleLicenseAcceptServletProperties
+    description = ComDayCqDamCoreImplServletMultipleLicenseAcceptServletProperties
+    derivedFrom = Root
+    properties {
+        cq_dam_drm_enable {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqDamCoreImplServletMultipleLicenseAcceptServletProperties {
+    title = ComDayCqDamCoreImplServletMultipleLicenseAcceptServletProperties
+    description = ComDayCqDamCoreImplServletMultipleLicenseAcceptServletProperties
+    implements = openapi_server.resourceTypes.ComDayCqDamCoreImplServletMultipleLicenseAcceptServletProperties
+
+  }
+}

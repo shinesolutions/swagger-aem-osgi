@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqWcmCoreImplEventTemplatePostProcessorProperties {
-    ConfigNodePropertyString paths = null
-
+    
+    ConfigNodePropertyString paths
 }

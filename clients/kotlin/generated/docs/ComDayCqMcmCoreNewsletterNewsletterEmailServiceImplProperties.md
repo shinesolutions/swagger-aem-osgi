@@ -2,11 +2,11 @@
 # ComDayCqMcmCoreNewsletterNewsletterEmailServiceImplProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**fromPeriodaddress** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**senderPeriodhost** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**maxPeriodbouncePeriodcount** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **fromAddress** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **senderHost** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **maxBounceCount** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
 
 
 

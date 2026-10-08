@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeGraniteInfocollectorInfoCollectorPropertie
 
 @Canonical
 class ComAdobeGraniteInfocollectorInfoCollectorInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteInfocollectorInfoCollectorProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteInfocollectorInfoCollectorProperties properties
 }

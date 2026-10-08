@@ -1,3 +1,13 @@
+/*
+ * Adobe Experience Manager OSGI config (AEM) API
+ *
+ * Swagger AEM OSGI is an OpenAPI specification for Adobe Experience Manager (AEM) OSGI Configurations API
+ *
+ * OpenAPI document version: 1.0.0-pre.0
+ * Maintained by: opensource@shinesolutions.com
+ *
+ * AUTO-GENERATED FILE, DO NOT MODIFY!
+ */
 package org.openapitools.model;
 
 import java.util.Objects;
@@ -14,25 +24,25 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2019-08-05T00:56:20.785Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2026-10-07T12:53:42.280804918Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteRepositoryImplCommitStatsConfigProperties   {
   
-  private ConfigNodePropertyBoolean enabled = null;
-  private ConfigNodePropertyInteger intervalSeconds = null;
-  private ConfigNodePropertyInteger commitsPerIntervalThreshold = null;
-  private ConfigNodePropertyInteger maxLocationLength = null;
-  private ConfigNodePropertyInteger maxDetailsShown = null;
-  private ConfigNodePropertyInteger minDetailsPercentage = null;
-  private ConfigNodePropertyArray threadMatchers = null;
-  private ConfigNodePropertyInteger maxGreedyDepth = null;
-  private ConfigNodePropertyString greedyStackMatchers = null;
-  private ConfigNodePropertyArray stackFilters = null;
-  private ConfigNodePropertyArray stackMatchers = null;
-  private ConfigNodePropertyArray stackCategorizers = null;
-  private ConfigNodePropertyArray stackShorteners = null;
+  private ConfigNodePropertyBoolean enabled;
+  private ConfigNodePropertyInteger intervalSeconds;
+  private ConfigNodePropertyInteger commitsPerIntervalThreshold;
+  private ConfigNodePropertyInteger maxLocationLength;
+  private ConfigNodePropertyInteger maxDetailsShown;
+  private ConfigNodePropertyInteger minDetailsPercentage;
+  private ConfigNodePropertyArray threadMatchers;
+  private ConfigNodePropertyInteger maxGreedyDepth;
+  private ConfigNodePropertyString greedyStackMatchers;
+  private ConfigNodePropertyArray stackFilters;
+  private ConfigNodePropertyArray stackMatchers;
+  private ConfigNodePropertyArray stackCategorizers;
+  private ConfigNodePropertyArray stackShorteners;
 
   /**
-   **/
+   */
   public ComAdobeGraniteRepositoryImplCommitStatsConfigProperties enabled(ConfigNodePropertyBoolean enabled) {
     this.enabled = enabled;
     return this;
@@ -49,7 +59,7 @@ public class ComAdobeGraniteRepositoryImplCommitStatsConfigProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeGraniteRepositoryImplCommitStatsConfigProperties intervalSeconds(ConfigNodePropertyInteger intervalSeconds) {
     this.intervalSeconds = intervalSeconds;
     return this;
@@ -66,7 +76,7 @@ public class ComAdobeGraniteRepositoryImplCommitStatsConfigProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeGraniteRepositoryImplCommitStatsConfigProperties commitsPerIntervalThreshold(ConfigNodePropertyInteger commitsPerIntervalThreshold) {
     this.commitsPerIntervalThreshold = commitsPerIntervalThreshold;
     return this;
@@ -83,7 +93,7 @@ public class ComAdobeGraniteRepositoryImplCommitStatsConfigProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeGraniteRepositoryImplCommitStatsConfigProperties maxLocationLength(ConfigNodePropertyInteger maxLocationLength) {
     this.maxLocationLength = maxLocationLength;
     return this;
@@ -100,7 +110,7 @@ public class ComAdobeGraniteRepositoryImplCommitStatsConfigProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeGraniteRepositoryImplCommitStatsConfigProperties maxDetailsShown(ConfigNodePropertyInteger maxDetailsShown) {
     this.maxDetailsShown = maxDetailsShown;
     return this;
@@ -117,7 +127,7 @@ public class ComAdobeGraniteRepositoryImplCommitStatsConfigProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeGraniteRepositoryImplCommitStatsConfigProperties minDetailsPercentage(ConfigNodePropertyInteger minDetailsPercentage) {
     this.minDetailsPercentage = minDetailsPercentage;
     return this;
@@ -134,7 +144,7 @@ public class ComAdobeGraniteRepositoryImplCommitStatsConfigProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeGraniteRepositoryImplCommitStatsConfigProperties threadMatchers(ConfigNodePropertyArray threadMatchers) {
     this.threadMatchers = threadMatchers;
     return this;
@@ -151,7 +161,7 @@ public class ComAdobeGraniteRepositoryImplCommitStatsConfigProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeGraniteRepositoryImplCommitStatsConfigProperties maxGreedyDepth(ConfigNodePropertyInteger maxGreedyDepth) {
     this.maxGreedyDepth = maxGreedyDepth;
     return this;
@@ -168,7 +178,7 @@ public class ComAdobeGraniteRepositoryImplCommitStatsConfigProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeGraniteRepositoryImplCommitStatsConfigProperties greedyStackMatchers(ConfigNodePropertyString greedyStackMatchers) {
     this.greedyStackMatchers = greedyStackMatchers;
     return this;
@@ -185,7 +195,7 @@ public class ComAdobeGraniteRepositoryImplCommitStatsConfigProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeGraniteRepositoryImplCommitStatsConfigProperties stackFilters(ConfigNodePropertyArray stackFilters) {
     this.stackFilters = stackFilters;
     return this;
@@ -202,7 +212,7 @@ public class ComAdobeGraniteRepositoryImplCommitStatsConfigProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeGraniteRepositoryImplCommitStatsConfigProperties stackMatchers(ConfigNodePropertyArray stackMatchers) {
     this.stackMatchers = stackMatchers;
     return this;
@@ -219,7 +229,7 @@ public class ComAdobeGraniteRepositoryImplCommitStatsConfigProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeGraniteRepositoryImplCommitStatsConfigProperties stackCategorizers(ConfigNodePropertyArray stackCategorizers) {
     this.stackCategorizers = stackCategorizers;
     return this;
@@ -236,7 +246,7 @@ public class ComAdobeGraniteRepositoryImplCommitStatsConfigProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeGraniteRepositoryImplCommitStatsConfigProperties stackShorteners(ConfigNodePropertyArray stackShorteners) {
     this.stackShorteners = stackShorteners;
     return this;
@@ -254,7 +264,7 @@ public class ComAdobeGraniteRepositoryImplCommitStatsConfigProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -308,11 +318,8 @@ public class ComAdobeGraniteRepositoryImplCommitStatsConfigProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

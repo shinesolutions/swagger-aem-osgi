@@ -1,0 +1,15 @@
+{
+  "namespace": "model",
+  "type": "record",
+  "doc": "",
+  "name": "ComDayCqSecurityACLSetupProperties",
+  "fields": [
+    {
+      "name": "cq.aclsetup.rules",
+      "type": ["null", "model.ConfigNodePropertyArray"],
+      "doc": "",
+      "default": null
+    }
+  ]
+
+}

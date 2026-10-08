@@ -1,0 +1,47 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsIProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsIProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+}
+resourceTypes {
+
+  ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsIProperties {
+    title = ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsIProperties
+    description = ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsIProperties
+    derivedFrom = Root
+    properties {
+        max_retry {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        field_whitelist {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        attachment_type_blacklist {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsIProperties {
+    title = ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsIProperties
+    description = ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsIProperties
+    implements = openapi_server.resourceTypes.ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsIProperties
+
+  }
+}

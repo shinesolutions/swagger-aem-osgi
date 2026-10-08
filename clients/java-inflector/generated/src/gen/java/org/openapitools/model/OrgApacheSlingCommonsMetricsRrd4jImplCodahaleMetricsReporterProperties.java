@@ -3,6 +3,7 @@ package org.openapitools.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
@@ -13,19 +14,19 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaInflectorServerCodegen", date = "2019-08-05T00:53:46.291Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaInflectorServerCodegen", date = "2026-10-07T12:53:12.340274163Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterProperties   {
   @JsonProperty("datasources")
-  private ConfigNodePropertyArray datasources = null;
+  private ConfigNodePropertyArray datasources;
 
   @JsonProperty("step")
-  private ConfigNodePropertyInteger step = null;
+  private ConfigNodePropertyInteger step;
 
   @JsonProperty("archives")
-  private ConfigNodePropertyArray archives = null;
+  private ConfigNodePropertyArray archives;
 
   @JsonProperty("path")
-  private ConfigNodePropertyString path = null;
+  private ConfigNodePropertyString path;
 
   /**
    **/
@@ -97,7 +98,7 @@ public class OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterPropert
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -133,11 +134,8 @@ public class OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterPropert
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

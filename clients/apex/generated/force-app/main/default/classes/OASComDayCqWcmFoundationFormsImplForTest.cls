@@ -72,8 +72,8 @@ private class OASComDayCqWcmFoundationFormsImplForTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqWcmFoundationFormsImplFor comDayCqWcmFoundationFormsImplFormParagraphPostProcessorProperties = new OASComDayCqWcmFoundationFormsImplFor();
-        Map<String, String> propertyMappings = comDayCqWcmFoundationFormsImplFormParagraphPostProcessorProperties.getPropertyMappings();
-        System.assertEquals('formsFormparagraphpostprocessorEnabled', propertyMappings.get('forms.formparagraphpostprocessor.enabled'));
-        System.assertEquals('formsFormparagraphpostprocessorFormresourcetypes', propertyMappings.get('forms.formparagraphpostprocessor.formresourcetypes'));
+        Map<String, String> x-property-mappings = comDayCqWcmFoundationFormsImplFormParagraphPostProcessorProperties.getx-property-mappings();
+        System.assertEquals('formsFormparagraphpostprocessorEnabled', x-property-mappings.get('forms.formparagraphpostprocessor.enabled'));
+        System.assertEquals('formsFormparagraphpostprocessorFormresourcetypes', x-property-mappings.get('forms.formparagraphpostprocessor.formresourcetypes'));
     }
 }

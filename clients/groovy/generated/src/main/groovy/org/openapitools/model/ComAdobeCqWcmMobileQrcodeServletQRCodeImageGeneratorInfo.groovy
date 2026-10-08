@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqWcmMobileQrcodeServletQRCodeImageGenerat
 
 @Canonical
 class ComAdobeCqWcmMobileQrcodeServletQRCodeImageGeneratorInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqWcmMobileQrcodeServletQRCodeImageGeneratorProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqWcmMobileQrcodeServletQRCodeImageGeneratorProperties properties
 }

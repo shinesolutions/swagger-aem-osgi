@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyArray;
 import com.prokarma.pkmst.model.ConfigNodePropertyString;
 import io.swagger.annotations.ApiModel;
@@ -16,24 +17,23 @@ import io.swagger.annotations.ApiModelProperty;
  * ComAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactorProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactorProperties   {
   @JsonProperty("adapter.condition")
-  private ConfigNodePropertyString adapterCondition = null;
+  private ConfigNodePropertyString adapterCondition;
 
   @JsonProperty("taskmanager.admingroups")
-  private ConfigNodePropertyArray taskmanagerAdmingroups = null;
+  private ConfigNodePropertyArray taskmanagerAdmingroups;
 
   public ComAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactorProperties adapterCondition(ConfigNodePropertyString adapterCondition) {
     this.adapterCondition = adapterCondition;
     return this;
   }
 
-   /**
+  /**
    * Get adapterCondition
    * @return adapterCondition
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getAdapterCondition() {
     return adapterCondition;
@@ -48,10 +48,10 @@ public class ComAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactorPro
     return this;
   }
 
-   /**
+  /**
    * Get taskmanagerAdmingroups
    * @return taskmanagerAdmingroups
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getTaskmanagerAdmingroups() {
     return taskmanagerAdmingroups;
@@ -63,7 +63,7 @@ public class ComAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactorPro
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -95,11 +95,8 @@ public class ComAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactorPro
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

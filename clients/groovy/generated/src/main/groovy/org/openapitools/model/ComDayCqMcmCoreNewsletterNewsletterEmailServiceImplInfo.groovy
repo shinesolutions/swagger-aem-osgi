@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqMcmCoreNewsletterNewsletterEmailServiceImp
 
 @Canonical
 class ComDayCqMcmCoreNewsletterNewsletterEmailServiceImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqMcmCoreNewsletterNewsletterEmailServiceImplProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqMcmCoreNewsletterNewsletterEmailServiceImplProperties properties
 }

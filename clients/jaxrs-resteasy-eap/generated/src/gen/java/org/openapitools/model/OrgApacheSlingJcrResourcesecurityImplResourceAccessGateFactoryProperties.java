@@ -4,22 +4,20 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2019-08-05T01:00:05.540Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2026-10-07T12:54:26.576036107Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingJcrResourcesecurityImplResourceAccessGateFactoryProperties   {
   
-
-  private ConfigNodePropertyString path = null;
-
-  private ConfigNodePropertyString checkpathPrefix = null;
-
-  private ConfigNodePropertyString jcrPath = null;
+  private ConfigNodePropertyString path;
+  private ConfigNodePropertyString checkpathPrefix;
+  private ConfigNodePropertyString jcrPath;
 
   /**
    **/
@@ -67,9 +65,9 @@ public class OrgApacheSlingJcrResourcesecurityImplResourceAccessGateFactoryPrope
       return false;
     }
     OrgApacheSlingJcrResourcesecurityImplResourceAccessGateFactoryProperties orgApacheSlingJcrResourcesecurityImplResourceAccessGateFactoryProperties = (OrgApacheSlingJcrResourcesecurityImplResourceAccessGateFactoryProperties) o;
-    return Objects.equals(path, orgApacheSlingJcrResourcesecurityImplResourceAccessGateFactoryProperties.path) &&
-        Objects.equals(checkpathPrefix, orgApacheSlingJcrResourcesecurityImplResourceAccessGateFactoryProperties.checkpathPrefix) &&
-        Objects.equals(jcrPath, orgApacheSlingJcrResourcesecurityImplResourceAccessGateFactoryProperties.jcrPath);
+    return Objects.equals(this.path, orgApacheSlingJcrResourcesecurityImplResourceAccessGateFactoryProperties.path) &&
+        Objects.equals(this.checkpathPrefix, orgApacheSlingJcrResourcesecurityImplResourceAccessGateFactoryProperties.checkpathPrefix) &&
+        Objects.equals(this.jcrPath, orgApacheSlingJcrResourcesecurityImplResourceAccessGateFactoryProperties.jcrPath);
   }
 
   @Override
@@ -94,10 +92,7 @@ public class OrgApacheSlingJcrResourcesecurityImplResourceAccessGateFactoryPrope
    * (except the first line).
    */
   private String toIndentedString(Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

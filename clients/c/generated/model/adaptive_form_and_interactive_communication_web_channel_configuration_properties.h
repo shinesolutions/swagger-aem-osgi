@@ -1,0 +1,49 @@
+/*
+ * adaptive_form_and_interactive_communication_web_channel_configuration_properties.h
+ *
+ * 
+ */
+
+#ifndef _adaptive_form_and_interactive_communication_web_channel_configuration_properties_H_
+#define _adaptive_form_and_interactive_communication_web_channel_configuration_properties_H_
+
+#include <string.h>
+#include "../external/cJSON.h"
+#include "../include/list.h"
+#include "../include/keyValuePair.h"
+#include "../include/binary.h"
+
+typedef struct adaptive_form_and_interactive_communication_web_channel_configuration_properties_t adaptive_form_and_interactive_communication_web_channel_configuration_properties_t;
+
+#include "config_node_property_boolean.h"
+#include "config_node_property_drop_down.h"
+#include "config_node_property_integer.h"
+
+
+
+typedef struct adaptive_form_and_interactive_communication_web_channel_configuration_properties_t {
+    struct config_node_property_boolean_t *show_placeholder; //model
+    struct config_node_property_integer_t *maximum_cache_entries; //model
+    struct config_node_property_drop_down_t *af_scripting_compatversion; //model
+    struct config_node_property_boolean_t *make_file_name_unique; //model
+    struct config_node_property_boolean_t *generating_compliant_data; //model
+
+    int _library_owned; // Is the library responsible for freeing this object?
+} adaptive_form_and_interactive_communication_web_channel_configuration_properties_t;
+
+__attribute__((deprecated)) adaptive_form_and_interactive_communication_web_channel_configuration_properties_t *adaptive_form_and_interactive_communication_web_channel_configuration_properties_create(
+    config_node_property_boolean_t *show_placeholder,
+    config_node_property_integer_t *maximum_cache_entries,
+    config_node_property_drop_down_t *af_scripting_compatversion,
+    config_node_property_boolean_t *make_file_name_unique,
+    config_node_property_boolean_t *generating_compliant_data
+);
+
+void adaptive_form_and_interactive_communication_web_channel_configuration_properties_free(adaptive_form_and_interactive_communication_web_channel_configuration_properties_t *adaptive_form_and_interactive_communication_web_channel_configuration_properties);
+
+adaptive_form_and_interactive_communication_web_channel_configuration_properties_t *adaptive_form_and_interactive_communication_web_channel_configuration_properties_parseFromJSON(cJSON *adaptive_form_and_interactive_communication_web_channel_configuration_propertiesJSON);
+
+cJSON *adaptive_form_and_interactive_communication_web_channel_configuration_properties_convertToJSON(adaptive_form_and_interactive_communication_web_channel_configuration_properties_t *adaptive_form_and_interactive_communication_web_channel_configuration_properties);
+
+#endif /* _adaptive_form_and_interactive_communication_web_channel_configuration_properties_H_ */
+

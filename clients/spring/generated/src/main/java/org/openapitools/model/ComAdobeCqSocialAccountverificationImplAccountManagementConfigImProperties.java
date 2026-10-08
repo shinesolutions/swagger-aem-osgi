@@ -1,31 +1,42 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComAdobeCqSocialAccountverificationImplAccountManagementConfigImProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComAdobeCqSocialAccountverificationImplAccountManagementConfigImProperties   {
-  @JsonProperty("enable")
-  private ConfigNodePropertyBoolean enable = null;
+@JsonTypeName("comAdobeCqSocialAccountverificationImplAccountManagementConfigImProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComAdobeCqSocialAccountverificationImplAccountManagementConfigImProperties {
 
-  @JsonProperty("ttl1")
-  private ConfigNodePropertyInteger ttl1 = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean enable;
 
-  @JsonProperty("ttl2")
-  private ConfigNodePropertyInteger ttl2 = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger ttl1;
 
-  public ComAdobeCqSocialAccountverificationImplAccountManagementConfigImProperties enable(ConfigNodePropertyBoolean enable) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger ttl2;
+
+  public ComAdobeCqSocialAccountverificationImplAccountManagementConfigImProperties enable(@Nullable ConfigNodePropertyBoolean enable) {
     this.enable = enable;
     return this;
   }
@@ -33,20 +44,20 @@ public class ComAdobeCqSocialAccountverificationImplAccountManagementConfigImPro
   /**
    * Get enable
    * @return enable
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getEnable() {
+   */
+  @Valid 
+  @Schema(name = "enable", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("enable")
+  public @Nullable ConfigNodePropertyBoolean getEnable() {
     return enable;
   }
 
-  public void setEnable(ConfigNodePropertyBoolean enable) {
+  @JsonProperty("enable")
+  public void setEnable(@Nullable ConfigNodePropertyBoolean enable) {
     this.enable = enable;
   }
 
-  public ComAdobeCqSocialAccountverificationImplAccountManagementConfigImProperties ttl1(ConfigNodePropertyInteger ttl1) {
+  public ComAdobeCqSocialAccountverificationImplAccountManagementConfigImProperties ttl1(@Nullable ConfigNodePropertyInteger ttl1) {
     this.ttl1 = ttl1;
     return this;
   }
@@ -54,20 +65,20 @@ public class ComAdobeCqSocialAccountverificationImplAccountManagementConfigImPro
   /**
    * Get ttl1
    * @return ttl1
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getTtl1() {
+   */
+  @Valid 
+  @Schema(name = "ttl1", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("ttl1")
+  public @Nullable ConfigNodePropertyInteger getTtl1() {
     return ttl1;
   }
 
-  public void setTtl1(ConfigNodePropertyInteger ttl1) {
+  @JsonProperty("ttl1")
+  public void setTtl1(@Nullable ConfigNodePropertyInteger ttl1) {
     this.ttl1 = ttl1;
   }
 
-  public ComAdobeCqSocialAccountverificationImplAccountManagementConfigImProperties ttl2(ConfigNodePropertyInteger ttl2) {
+  public ComAdobeCqSocialAccountverificationImplAccountManagementConfigImProperties ttl2(@Nullable ConfigNodePropertyInteger ttl2) {
     this.ttl2 = ttl2;
     return this;
   }
@@ -75,22 +86,21 @@ public class ComAdobeCqSocialAccountverificationImplAccountManagementConfigImPro
   /**
    * Get ttl2
    * @return ttl2
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getTtl2() {
+   */
+  @Valid 
+  @Schema(name = "ttl2", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("ttl2")
+  public @Nullable ConfigNodePropertyInteger getTtl2() {
     return ttl2;
   }
 
-  public void setTtl2(ConfigNodePropertyInteger ttl2) {
+  @JsonProperty("ttl2")
+  public void setTtl2(@Nullable ConfigNodePropertyInteger ttl2) {
     this.ttl2 = ttl2;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -112,7 +122,6 @@ public class ComAdobeCqSocialAccountverificationImplAccountManagementConfigImPro
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComAdobeCqSocialAccountverificationImplAccountManagementConfigImProperties {\n");
-    
     sb.append("    enable: ").append(toIndentedString(enable)).append("\n");
     sb.append("    ttl1: ").append(toIndentedString(ttl1)).append("\n");
     sb.append("    ttl2: ").append(toIndentedString(ttl2)).append("\n");
@@ -124,11 +133,8 @@ public class ComAdobeCqSocialAccountverificationImplAccountManagementConfigImPro
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

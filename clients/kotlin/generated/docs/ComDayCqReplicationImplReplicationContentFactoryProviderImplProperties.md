@@ -2,10 +2,10 @@
 # ComDayCqReplicationImplReplicationContentFactoryProviderImplProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**replicationPeriodcontentPerioduseFileStorage** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**replicationPeriodcontentPeriodmaxCommitAttempts** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **replicationContentUseFileStorage** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **replicationContentMaxCommitAttempts** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
 
 
 

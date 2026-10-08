@@ -9,10 +9,10 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeCqWcmJobsAsyncImplAsyncDeleteConfigProviderServiceProperties {
-    ConfigNodePropertyInteger threshold = null
-
-    ConfigNodePropertyString jobTopicName = null
-
-    ConfigNodePropertyBoolean emailEnabled = null
-
+    
+    ConfigNodePropertyInteger threshold
+    
+    ConfigNodePropertyString jobTopicName
+    
+    ConfigNodePropertyBoolean emailEnabled
 }

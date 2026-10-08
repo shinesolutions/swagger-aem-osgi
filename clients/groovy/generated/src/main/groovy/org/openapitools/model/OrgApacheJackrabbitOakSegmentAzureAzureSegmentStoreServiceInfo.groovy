@@ -7,12 +7,12 @@ import org.openapitools.model.OrgApacheJackrabbitOakSegmentAzureAzureSegmentStor
 
 @Canonical
 class OrgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServiceInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServiceProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServiceProperties properties
 }

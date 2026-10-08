@@ -1,0 +1,24 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "solr_http_url" },
+      {"model": "solr_zk_host" },
+      {"model": "solr_collection" },
+      {"model": "solr_socket_timeout" },
+      {"model": "solr_connection_timeout" },
+      {"model": "solr_shards_no" },
+      {"model": "solr_replication_factor" },
+      {"model": "solr_conf_dir" },
+    ]
+  }]
+}

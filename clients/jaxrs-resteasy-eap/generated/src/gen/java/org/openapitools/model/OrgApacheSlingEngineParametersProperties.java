@@ -4,32 +4,26 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2019-08-05T01:00:05.540Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2026-10-07T12:54:26.576036107Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingEngineParametersProperties   {
   
-
-  private ConfigNodePropertyString slingDefaultParameterEncoding = null;
-
-  private ConfigNodePropertyInteger slingDefaultMaxParameters = null;
-
-  private ConfigNodePropertyString fileLocation = null;
-
-  private ConfigNodePropertyInteger fileThreshold = null;
-
-  private ConfigNodePropertyInteger fileMax = null;
-
-  private ConfigNodePropertyInteger requestMax = null;
-
-  private ConfigNodePropertyBoolean slingDefaultParameterCheckForAdditionalContainerParameters = null;
+  private ConfigNodePropertyString slingDefaultParameterEncoding;
+  private ConfigNodePropertyInteger slingDefaultMaxParameters;
+  private ConfigNodePropertyString fileLocation;
+  private ConfigNodePropertyInteger fileThreshold;
+  private ConfigNodePropertyInteger fileMax;
+  private ConfigNodePropertyInteger requestMax;
+  private ConfigNodePropertyBoolean slingDefaultParameterCheckForAdditionalContainerParameters;
 
   /**
    **/
@@ -125,13 +119,13 @@ public class OrgApacheSlingEngineParametersProperties   {
       return false;
     }
     OrgApacheSlingEngineParametersProperties orgApacheSlingEngineParametersProperties = (OrgApacheSlingEngineParametersProperties) o;
-    return Objects.equals(slingDefaultParameterEncoding, orgApacheSlingEngineParametersProperties.slingDefaultParameterEncoding) &&
-        Objects.equals(slingDefaultMaxParameters, orgApacheSlingEngineParametersProperties.slingDefaultMaxParameters) &&
-        Objects.equals(fileLocation, orgApacheSlingEngineParametersProperties.fileLocation) &&
-        Objects.equals(fileThreshold, orgApacheSlingEngineParametersProperties.fileThreshold) &&
-        Objects.equals(fileMax, orgApacheSlingEngineParametersProperties.fileMax) &&
-        Objects.equals(requestMax, orgApacheSlingEngineParametersProperties.requestMax) &&
-        Objects.equals(slingDefaultParameterCheckForAdditionalContainerParameters, orgApacheSlingEngineParametersProperties.slingDefaultParameterCheckForAdditionalContainerParameters);
+    return Objects.equals(this.slingDefaultParameterEncoding, orgApacheSlingEngineParametersProperties.slingDefaultParameterEncoding) &&
+        Objects.equals(this.slingDefaultMaxParameters, orgApacheSlingEngineParametersProperties.slingDefaultMaxParameters) &&
+        Objects.equals(this.fileLocation, orgApacheSlingEngineParametersProperties.fileLocation) &&
+        Objects.equals(this.fileThreshold, orgApacheSlingEngineParametersProperties.fileThreshold) &&
+        Objects.equals(this.fileMax, orgApacheSlingEngineParametersProperties.fileMax) &&
+        Objects.equals(this.requestMax, orgApacheSlingEngineParametersProperties.requestMax) &&
+        Objects.equals(this.slingDefaultParameterCheckForAdditionalContainerParameters, orgApacheSlingEngineParametersProperties.slingDefaultParameterCheckForAdditionalContainerParameters);
   }
 
   @Override
@@ -160,10 +154,7 @@ public class OrgApacheSlingEngineParametersProperties   {
    * (except the first line).
    */
   private String toIndentedString(Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

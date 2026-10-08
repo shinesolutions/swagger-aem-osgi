@@ -2,10 +2,10 @@
 # ComAdobeCqUpgradesCleanupImplUpgradeContentCleanupProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**deletePeriodpathPeriodregexps** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**deletePeriodsql2Periodquery** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **deletePathRegexps** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **deleteSql2Query** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
 
 
 

@@ -3,6 +3,7 @@ package org.openapitools.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
@@ -15,97 +16,97 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaInflectorServerCodegen", date = "2019-08-05T00:53:46.291Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaInflectorServerCodegen", date = "2026-10-07T12:53:12.340274163Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceProperties   {
   @JsonProperty("mongouri")
-  private ConfigNodePropertyString mongouri = null;
+  private ConfigNodePropertyString mongouri;
 
   @JsonProperty("db")
-  private ConfigNodePropertyString db = null;
+  private ConfigNodePropertyString db;
 
   @JsonProperty("socketKeepAlive")
-  private ConfigNodePropertyBoolean socketKeepAlive = null;
+  private ConfigNodePropertyBoolean socketKeepAlive;
 
   @JsonProperty("cache")
-  private ConfigNodePropertyInteger cache = null;
+  private ConfigNodePropertyInteger cache;
 
   @JsonProperty("nodeCachePercentage")
-  private ConfigNodePropertyInteger nodeCachePercentage = null;
+  private ConfigNodePropertyInteger nodeCachePercentage;
 
   @JsonProperty("prevDocCachePercentage")
-  private ConfigNodePropertyInteger prevDocCachePercentage = null;
+  private ConfigNodePropertyInteger prevDocCachePercentage;
 
   @JsonProperty("childrenCachePercentage")
-  private ConfigNodePropertyInteger childrenCachePercentage = null;
+  private ConfigNodePropertyInteger childrenCachePercentage;
 
   @JsonProperty("diffCachePercentage")
-  private ConfigNodePropertyInteger diffCachePercentage = null;
+  private ConfigNodePropertyInteger diffCachePercentage;
 
   @JsonProperty("cacheSegmentCount")
-  private ConfigNodePropertyInteger cacheSegmentCount = null;
+  private ConfigNodePropertyInteger cacheSegmentCount;
 
   @JsonProperty("cacheStackMoveDistance")
-  private ConfigNodePropertyInteger cacheStackMoveDistance = null;
+  private ConfigNodePropertyInteger cacheStackMoveDistance;
 
   @JsonProperty("blobCacheSize")
-  private ConfigNodePropertyInteger blobCacheSize = null;
+  private ConfigNodePropertyInteger blobCacheSize;
 
   @JsonProperty("persistentCache")
-  private ConfigNodePropertyString persistentCache = null;
+  private ConfigNodePropertyString persistentCache;
 
   @JsonProperty("journalCache")
-  private ConfigNodePropertyString journalCache = null;
+  private ConfigNodePropertyString journalCache;
 
   @JsonProperty("customBlobStore")
-  private ConfigNodePropertyBoolean customBlobStore = null;
+  private ConfigNodePropertyBoolean customBlobStore;
 
   @JsonProperty("journalGCInterval")
-  private ConfigNodePropertyInteger journalGCInterval = null;
+  private ConfigNodePropertyInteger journalGCInterval;
 
   @JsonProperty("journalGCMaxAge")
-  private ConfigNodePropertyInteger journalGCMaxAge = null;
+  private ConfigNodePropertyInteger journalGCMaxAge;
 
   @JsonProperty("prefetchExternalChanges")
-  private ConfigNodePropertyBoolean prefetchExternalChanges = null;
+  private ConfigNodePropertyBoolean prefetchExternalChanges;
 
   @JsonProperty("role")
-  private ConfigNodePropertyString role = null;
+  private ConfigNodePropertyString role;
 
   @JsonProperty("versionGcMaxAgeInSecs")
-  private ConfigNodePropertyInteger versionGcMaxAgeInSecs = null;
+  private ConfigNodePropertyInteger versionGcMaxAgeInSecs;
 
   @JsonProperty("versionGCExpression")
-  private ConfigNodePropertyString versionGCExpression = null;
+  private ConfigNodePropertyString versionGCExpression;
 
   @JsonProperty("versionGCTimeLimitInSecs")
-  private ConfigNodePropertyInteger versionGCTimeLimitInSecs = null;
+  private ConfigNodePropertyInteger versionGCTimeLimitInSecs;
 
   @JsonProperty("blobGcMaxAgeInSecs")
-  private ConfigNodePropertyInteger blobGcMaxAgeInSecs = null;
+  private ConfigNodePropertyInteger blobGcMaxAgeInSecs;
 
   @JsonProperty("blobTrackSnapshotIntervalInSecs")
-  private ConfigNodePropertyInteger blobTrackSnapshotIntervalInSecs = null;
+  private ConfigNodePropertyInteger blobTrackSnapshotIntervalInSecs;
 
   @JsonProperty("repository.home")
-  private ConfigNodePropertyString repositoryHome = null;
+  private ConfigNodePropertyString repositoryHome;
 
   @JsonProperty("maxReplicationLagInSecs")
-  private ConfigNodePropertyInteger maxReplicationLagInSecs = null;
+  private ConfigNodePropertyInteger maxReplicationLagInSecs;
 
   @JsonProperty("documentStoreType")
-  private ConfigNodePropertyDropDown documentStoreType = null;
+  private ConfigNodePropertyDropDown documentStoreType;
 
   @JsonProperty("bundlingDisabled")
-  private ConfigNodePropertyBoolean bundlingDisabled = null;
+  private ConfigNodePropertyBoolean bundlingDisabled;
 
   @JsonProperty("updateLimit")
-  private ConfigNodePropertyInteger updateLimit = null;
+  private ConfigNodePropertyInteger updateLimit;
 
   @JsonProperty("persistentCacheIncludes")
-  private ConfigNodePropertyArray persistentCacheIncludes = null;
+  private ConfigNodePropertyArray persistentCacheIncludes;
 
   @JsonProperty("leaseCheckMode")
-  private ConfigNodePropertyDropDown leaseCheckMode = null;
+  private ConfigNodePropertyDropDown leaseCheckMode;
 
   /**
    **/
@@ -619,7 +620,7 @@ public class OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceProper
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -707,11 +708,8 @@ public class OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceProper
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

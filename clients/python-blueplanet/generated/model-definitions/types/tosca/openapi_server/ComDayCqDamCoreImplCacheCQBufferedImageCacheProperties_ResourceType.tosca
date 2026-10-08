@@ -1,0 +1,47 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqDamCoreImplCacheCQBufferedImageCacheProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqDamCoreImplCacheCQBufferedImageCacheProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComDayCqDamCoreImplCacheCQBufferedImageCacheProperties {
+    title = ComDayCqDamCoreImplCacheCQBufferedImageCacheProperties
+    description = ComDayCqDamCoreImplCacheCQBufferedImageCacheProperties
+    derivedFrom = Root
+    properties {
+        cq_dam_image_cache_max_memory {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        cq_dam_image_cache_max_age {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        cq_dam_image_cache_max_dimension {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqDamCoreImplCacheCQBufferedImageCacheProperties {
+    title = ComDayCqDamCoreImplCacheCQBufferedImageCacheProperties
+    description = ComDayCqDamCoreImplCacheCQBufferedImageCacheProperties
+    implements = openapi_server.resourceTypes.ComDayCqDamCoreImplCacheCQBufferedImageCacheProperties
+
+  }
+}

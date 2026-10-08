@@ -1,19 +1,30 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comAdobeCqProjectsImplServletProjectImageServletProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeCqProjectsImplServletProjectImageServletProperties   {
-  
-  private @Valid ConfigNodePropertyString imageQuality = null;
-  private @Valid ConfigNodePropertyString imageSupportedResolutions = null;
+  private ConfigNodePropertyString imageQuality;
+  private ConfigNodePropertyString imageSupportedResolutions;
+
+  public ComAdobeCqProjectsImplServletProjectImageServletProperties() {
+  }
 
   /**
    **/
@@ -25,9 +36,11 @@ public class ComAdobeCqProjectsImplServletProjectImageServletProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("image.quality")
-  public ConfigNodePropertyString getImageQuality() {
+  @Valid public ConfigNodePropertyString getImageQuality() {
     return imageQuality;
   }
+
+  @JsonProperty("image.quality")
   public void setImageQuality(ConfigNodePropertyString imageQuality) {
     this.imageQuality = imageQuality;
   }
@@ -42,16 +55,18 @@ public class ComAdobeCqProjectsImplServletProjectImageServletProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("image.supported.resolutions")
-  public ConfigNodePropertyString getImageSupportedResolutions() {
+  @Valid public ConfigNodePropertyString getImageSupportedResolutions() {
     return imageSupportedResolutions;
   }
+
+  @JsonProperty("image.supported.resolutions")
   public void setImageSupportedResolutions(ConfigNodePropertyString imageSupportedResolutions) {
     this.imageSupportedResolutions = imageSupportedResolutions;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -59,8 +74,8 @@ public class ComAdobeCqProjectsImplServletProjectImageServletProperties   {
       return false;
     }
     ComAdobeCqProjectsImplServletProjectImageServletProperties comAdobeCqProjectsImplServletProjectImageServletProperties = (ComAdobeCqProjectsImplServletProjectImageServletProperties) o;
-    return Objects.equals(imageQuality, comAdobeCqProjectsImplServletProjectImageServletProperties.imageQuality) &&
-        Objects.equals(imageSupportedResolutions, comAdobeCqProjectsImplServletProjectImageServletProperties.imageSupportedResolutions);
+    return Objects.equals(this.imageQuality, comAdobeCqProjectsImplServletProjectImageServletProperties.imageQuality) &&
+        Objects.equals(this.imageSupportedResolutions, comAdobeCqProjectsImplServletProjectImageServletProperties.imageSupportedResolutions);
   }
 
   @Override
@@ -83,11 +98,9 @@ public class ComAdobeCqProjectsImplServletProjectImageServletProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

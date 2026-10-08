@@ -72,9 +72,9 @@ private class OASOrgApacheSlingEventImplJobsJcrPerTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASOrgApacheSlingEventImplJobsJcrPer orgApacheSlingEventImplJobsJcrPersistenceHandlerProperties = new OASOrgApacheSlingEventImplJobsJcrPer();
-        Map<String, String> propertyMappings = orgApacheSlingEventImplJobsJcrPersistenceHandlerProperties.getPropertyMappings();
-        System.assertEquals('jobConsumermanagerDisableDistribution', propertyMappings.get('job.consumermanager.disableDistribution'));
-        System.assertEquals('startupDelay', propertyMappings.get('startup.delay'));
-        System.assertEquals('cleanupPeriod', propertyMappings.get('cleanup.period'));
+        Map<String, String> x-property-mappings = orgApacheSlingEventImplJobsJcrPersistenceHandlerProperties.getx-property-mappings();
+        System.assertEquals('jobConsumermanagerDisableDistribution', x-property-mappings.get('job.consumermanager.disableDistribution'));
+        System.assertEquals('startupDelay', x-property-mappings.get('startup.delay'));
+        System.assertEquals('cleanupPeriod', x-property-mappings.get('cleanup.period'));
     }
 }

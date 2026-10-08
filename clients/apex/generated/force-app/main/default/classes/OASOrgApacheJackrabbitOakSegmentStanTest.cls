@@ -72,11 +72,11 @@ private class OASOrgApacheJackrabbitOakSegmentStanTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASOrgApacheJackrabbitOakSegmentStan orgApacheJackrabbitOakSegmentStandbyStoreStandbyStoreServiceProperties = new OASOrgApacheJackrabbitOakSegmentStan();
-        Map<String, String> propertyMappings = orgApacheJackrabbitOakSegmentStandbyStoreStandbyStoreServiceProperties.getPropertyMappings();
-        System.assertEquals('orgApacheSlingInstallerConfigurationPersist', propertyMappings.get('org.apache.sling.installer.configuration.persist'));
-        System.assertEquals('primaryHost', propertyMappings.get('primary.host'));
-        System.assertEquals('primaryAllowedClientIpRanges', propertyMappings.get('primary.allowed-client-ip-ranges'));
-        System.assertEquals('standbyReadtimeout', propertyMappings.get('standby.readtimeout'));
-        System.assertEquals('standbyAutoclean', propertyMappings.get('standby.autoclean'));
+        Map<String, String> x-property-mappings = orgApacheJackrabbitOakSegmentStandbyStoreStandbyStoreServiceProperties.getx-property-mappings();
+        System.assertEquals('orgApacheSlingInstallerConfigurationPersist', x-property-mappings.get('org.apache.sling.installer.configuration.persist'));
+        System.assertEquals('primaryHost', x-property-mappings.get('primary.host'));
+        System.assertEquals('primaryAllowedClientIpRanges', x-property-mappings.get('primary.allowed-client-ip-ranges'));
+        System.assertEquals('standbyReadtimeout', x-property-mappings.get('standby.readtimeout'));
+        System.assertEquals('standbyAutoclean', x-property-mappings.get('standby.autoclean'));
     }
 }

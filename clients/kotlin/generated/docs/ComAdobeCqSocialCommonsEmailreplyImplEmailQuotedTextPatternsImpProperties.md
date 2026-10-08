@@ -2,16 +2,16 @@
 # ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**patternPeriodtime** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**patternPeriodnewline** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**patternPerioddayOfMonth** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**patternPeriodmonth** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**patternPeriodyear** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**patternPerioddate** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**patternPerioddateTime** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**patternPeriodemail** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **patternTime** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **patternNewline** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **patternDayOfMonth** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **patternMonth** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **patternYear** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **patternDate** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **patternDateTime** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **patternEmail** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
 
 
 

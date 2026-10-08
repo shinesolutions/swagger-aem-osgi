@@ -4,25 +4,22 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyDropDown;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2019-08-05T01:00:05.540Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2026-10-07T12:54:26.576036107Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingEventImplJobsDefaultJobManagerProperties   {
   
-
-  private ConfigNodePropertyDropDown queuePriority = null;
-
-  private ConfigNodePropertyInteger queueRetries = null;
-
-  private ConfigNodePropertyInteger queueRetrydelay = null;
-
-  private ConfigNodePropertyInteger queueMaxparallel = null;
+  private ConfigNodePropertyDropDown queuePriority;
+  private ConfigNodePropertyInteger queueRetries;
+  private ConfigNodePropertyInteger queueRetrydelay;
+  private ConfigNodePropertyInteger queueMaxparallel;
 
   /**
    **/
@@ -82,10 +79,10 @@ public class OrgApacheSlingEventImplJobsDefaultJobManagerProperties   {
       return false;
     }
     OrgApacheSlingEventImplJobsDefaultJobManagerProperties orgApacheSlingEventImplJobsDefaultJobManagerProperties = (OrgApacheSlingEventImplJobsDefaultJobManagerProperties) o;
-    return Objects.equals(queuePriority, orgApacheSlingEventImplJobsDefaultJobManagerProperties.queuePriority) &&
-        Objects.equals(queueRetries, orgApacheSlingEventImplJobsDefaultJobManagerProperties.queueRetries) &&
-        Objects.equals(queueRetrydelay, orgApacheSlingEventImplJobsDefaultJobManagerProperties.queueRetrydelay) &&
-        Objects.equals(queueMaxparallel, orgApacheSlingEventImplJobsDefaultJobManagerProperties.queueMaxparallel);
+    return Objects.equals(this.queuePriority, orgApacheSlingEventImplJobsDefaultJobManagerProperties.queuePriority) &&
+        Objects.equals(this.queueRetries, orgApacheSlingEventImplJobsDefaultJobManagerProperties.queueRetries) &&
+        Objects.equals(this.queueRetrydelay, orgApacheSlingEventImplJobsDefaultJobManagerProperties.queueRetrydelay) &&
+        Objects.equals(this.queueMaxparallel, orgApacheSlingEventImplJobsDefaultJobManagerProperties.queueMaxparallel);
   }
 
   @Override
@@ -111,10 +108,7 @@ public class OrgApacheSlingEventImplJobsDefaultJobManagerProperties   {
    * (except the first line).
    */
   private String toIndentedString(Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

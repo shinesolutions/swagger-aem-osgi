@@ -72,8 +72,8 @@ private class OASComAdobeAemUpgradePrechecksTasksITest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeAemUpgradePrechecksTasksI comAdobeAemUpgradePrechecksTasksImplConsistencyCheckTaskImplProperties = new OASComAdobeAemUpgradePrechecksTasksI();
-        Map<String, String> propertyMappings = comAdobeAemUpgradePrechecksTasksImplConsistencyCheckTaskImplProperties.getPropertyMappings();
-        System.assertEquals('rootPath', propertyMappings.get('root.path'));
-        System.assertEquals('fixInconsistencies', propertyMappings.get('fix.inconsistencies'));
+        Map<String, String> x-property-mappings = comAdobeAemUpgradePrechecksTasksImplConsistencyCheckTaskImplProperties.getx-property-mappings();
+        System.assertEquals('rootPath', x-property-mappings.get('root.path'));
+        System.assertEquals('fixInconsistencies', x-property-mappings.get('fix.inconsistencies'));
     }
 }

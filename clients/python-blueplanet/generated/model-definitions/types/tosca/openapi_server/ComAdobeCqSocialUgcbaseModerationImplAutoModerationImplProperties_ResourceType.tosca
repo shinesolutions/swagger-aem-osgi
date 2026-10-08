@@ -1,0 +1,42 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqSocialUgcbaseModerationImplAutoModerationImplProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqSocialUgcbaseModerationImplAutoModerationImplProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+}
+resourceTypes {
+
+  ComAdobeCqSocialUgcbaseModerationImplAutoModerationImplProperties {
+    title = ComAdobeCqSocialUgcbaseModerationImplAutoModerationImplProperties
+    description = ComAdobeCqSocialUgcbaseModerationImplAutoModerationImplProperties
+    derivedFrom = Root
+    properties {
+        automoderation_sequence {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        automoderation_onfailurestop {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqSocialUgcbaseModerationImplAutoModerationImplProperties {
+    title = ComAdobeCqSocialUgcbaseModerationImplAutoModerationImplProperties
+    description = ComAdobeCqSocialUgcbaseModerationImplAutoModerationImplProperties
+    implements = openapi_server.resourceTypes.ComAdobeCqSocialUgcbaseModerationImplAutoModerationImplProperties
+
+  }
+}

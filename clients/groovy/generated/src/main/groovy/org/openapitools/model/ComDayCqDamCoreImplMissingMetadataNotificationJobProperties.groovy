@@ -9,12 +9,12 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqDamCoreImplMissingMetadataNotificationJobProperties {
-    ConfigNodePropertyBoolean cqDamMissingmetadataNotificationSchedulerIstimebased = null
-
-    ConfigNodePropertyString cqDamMissingmetadataNotificationSchedulerTimebasedRule = null
-
-    ConfigNodePropertyInteger cqDamMissingmetadataNotificationSchedulerPeriodRule = null
-
-    ConfigNodePropertyString cqDamMissingmetadataNotificationRecipient = null
-
+    
+    ConfigNodePropertyBoolean cqDamMissingmetadataNotificationSchedulerIstimebased
+    
+    ConfigNodePropertyString cqDamMissingmetadataNotificationSchedulerTimebasedRule
+    
+    ConfigNodePropertyInteger cqDamMissingmetadataNotificationSchedulerPeriodRule
+    
+    ConfigNodePropertyString cqDamMissingmetadataNotificationRecipient
 }

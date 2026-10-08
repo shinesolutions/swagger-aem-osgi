@@ -1,20 +1,31 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comDayCqDamCoreImplServletCollectionsServletProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqDamCoreImplServletCollectionsServletProperties   {
-  
-  private @Valid ConfigNodePropertyArray cqDamBatchCollectionsProperties = null;
-  private @Valid ConfigNodePropertyInteger cqDamBatchCollectionsLimit = null;
+  private ConfigNodePropertyArray cqDamBatchCollectionsProperties;
+  private ConfigNodePropertyInteger cqDamBatchCollectionsLimit;
+
+  public ComDayCqDamCoreImplServletCollectionsServletProperties() {
+  }
 
   /**
    **/
@@ -26,9 +37,11 @@ public class ComDayCqDamCoreImplServletCollectionsServletProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("cq.dam.batch.collections.properties")
-  public ConfigNodePropertyArray getCqDamBatchCollectionsProperties() {
+  @Valid public ConfigNodePropertyArray getCqDamBatchCollectionsProperties() {
     return cqDamBatchCollectionsProperties;
   }
+
+  @JsonProperty("cq.dam.batch.collections.properties")
   public void setCqDamBatchCollectionsProperties(ConfigNodePropertyArray cqDamBatchCollectionsProperties) {
     this.cqDamBatchCollectionsProperties = cqDamBatchCollectionsProperties;
   }
@@ -43,16 +56,18 @@ public class ComDayCqDamCoreImplServletCollectionsServletProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("cq.dam.batch.collections.limit")
-  public ConfigNodePropertyInteger getCqDamBatchCollectionsLimit() {
+  @Valid public ConfigNodePropertyInteger getCqDamBatchCollectionsLimit() {
     return cqDamBatchCollectionsLimit;
   }
+
+  @JsonProperty("cq.dam.batch.collections.limit")
   public void setCqDamBatchCollectionsLimit(ConfigNodePropertyInteger cqDamBatchCollectionsLimit) {
     this.cqDamBatchCollectionsLimit = cqDamBatchCollectionsLimit;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -60,8 +75,8 @@ public class ComDayCqDamCoreImplServletCollectionsServletProperties   {
       return false;
     }
     ComDayCqDamCoreImplServletCollectionsServletProperties comDayCqDamCoreImplServletCollectionsServletProperties = (ComDayCqDamCoreImplServletCollectionsServletProperties) o;
-    return Objects.equals(cqDamBatchCollectionsProperties, comDayCqDamCoreImplServletCollectionsServletProperties.cqDamBatchCollectionsProperties) &&
-        Objects.equals(cqDamBatchCollectionsLimit, comDayCqDamCoreImplServletCollectionsServletProperties.cqDamBatchCollectionsLimit);
+    return Objects.equals(this.cqDamBatchCollectionsProperties, comDayCqDamCoreImplServletCollectionsServletProperties.cqDamBatchCollectionsProperties) &&
+        Objects.equals(this.cqDamBatchCollectionsLimit, comDayCqDamCoreImplServletCollectionsServletProperties.cqDamBatchCollectionsLimit);
   }
 
   @Override
@@ -84,11 +99,9 @@ public class ComDayCqDamCoreImplServletCollectionsServletProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

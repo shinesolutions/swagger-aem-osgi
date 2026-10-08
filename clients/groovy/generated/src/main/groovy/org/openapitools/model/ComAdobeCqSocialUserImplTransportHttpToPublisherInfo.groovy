@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqSocialUserImplTransportHttpToPublisherPr
 
 @Canonical
 class ComAdobeCqSocialUserImplTransportHttpToPublisherInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqSocialUserImplTransportHttpToPublisherProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqSocialUserImplTransportHttpToPublisherProperties properties
 }

@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyBoolean;
 
 @Canonical
 class OrgApacheAriesJmxFrameworkStateConfigProperties {
-    ConfigNodePropertyBoolean attributeChangeNotificationEnabled = null
-
+    
+    ConfigNodePropertyBoolean attributeChangeNotificationEnabled
 }

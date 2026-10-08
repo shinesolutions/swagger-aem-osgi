@@ -72,7 +72,7 @@ private class OASComDayCqWcmCoreWCMRequestFilterPrTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqWcmCoreWCMRequestFilterPr comDayCqWcmCoreWCMRequestFilterProperties = new OASComDayCqWcmCoreWCMRequestFilterPr();
-        Map<String, String> propertyMappings = comDayCqWcmCoreWCMRequestFilterProperties.getPropertyMappings();
-        System.assertEquals('wcmfilterMode', propertyMappings.get('wcmfilter.mode'));
+        Map<String, String> x-property-mappings = comDayCqWcmCoreWCMRequestFilterProperties.getx-property-mappings();
+        System.assertEquals('wcmfilterMode', x-property-mappings.get('wcmfilter.mode'));
     }
 }

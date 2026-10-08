@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyArray;
 
 @Canonical
 class ComAdobeGraniteBundlesHcImplSlingReferrerFilterHealthCheckProperties {
-    ConfigNodePropertyArray hcTags = null
-
+    
+    ConfigNodePropertyArray hcTags
 }

@@ -1,0 +1,61 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqWcmCoreImplWarpTimeWarpFilterInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqWcmCoreImplWarpTimeWarpFilterInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComDayCqWcmCoreImplWarpTimeWarpFilterProperties = openapi_server.resourceTypes.ComDayCqWcmCoreImplWarpTimeWarpFilterProperties
+}
+resourceTypes {
+
+  ComDayCqWcmCoreImplWarpTimeWarpFilterInfo {
+    title = ComDayCqWcmCoreImplWarpTimeWarpFilterInfo
+    description = ComDayCqWcmCoreImplWarpTimeWarpFilterInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComDayCqWcmCoreImplWarpTimeWarpFilterProperties
+          description = ""
+          optional = false
+        }
+        bundle_location {
+          type =  string
+          description = ""
+          optional = false
+        }
+        service_location {
+          type =  string
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqWcmCoreImplWarpTimeWarpFilterInfo {
+    title = ComDayCqWcmCoreImplWarpTimeWarpFilterInfo
+    description = ComDayCqWcmCoreImplWarpTimeWarpFilterInfo
+    implements = openapi_server.resourceTypes.ComDayCqWcmCoreImplWarpTimeWarpFilterInfo
+
+  }
+}

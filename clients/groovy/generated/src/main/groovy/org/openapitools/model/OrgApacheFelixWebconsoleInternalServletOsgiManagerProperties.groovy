@@ -8,24 +8,24 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties {
-    ConfigNodePropertyString managerRoot = null
-
-    ConfigNodePropertyString httpServiceFilter = null
-
-    ConfigNodePropertyString defaultRender = null
-
-    ConfigNodePropertyString realm = null
-
-    ConfigNodePropertyString username = null
-
-    ConfigNodePropertyString password = null
-
-    ConfigNodePropertyString category = null
-
-    ConfigNodePropertyString locale = null
-
-    ConfigNodePropertyDropDown loglevel = null
-
-    ConfigNodePropertyDropDown plugins = null
-
+    
+    ConfigNodePropertyString managerRoot
+    
+    ConfigNodePropertyString httpServiceFilter
+    
+    ConfigNodePropertyString defaultRender
+    
+    ConfigNodePropertyString realm
+    
+    ConfigNodePropertyString username
+    
+    ConfigNodePropertyString password
+    
+    ConfigNodePropertyString category
+    
+    ConfigNodePropertyString locale
+    
+    ConfigNodePropertyDropDown loglevel
+    
+    ConfigNodePropertyDropDown plugins
 }

@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeGraniteWorkflowCoreJobJobHandlerProperties
 
 @Canonical
 class ComAdobeGraniteWorkflowCoreJobJobHandlerInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteWorkflowCoreJobJobHandlerProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteWorkflowCoreJobJobHandlerProperties properties
 }

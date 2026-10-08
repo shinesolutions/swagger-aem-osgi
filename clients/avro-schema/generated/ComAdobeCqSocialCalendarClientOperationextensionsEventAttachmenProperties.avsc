@@ -1,0 +1,21 @@
+{
+  "namespace": "model",
+  "type": "record",
+  "doc": "",
+  "name": "ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmenProperties",
+  "fields": [
+    {
+      "name": "attachmentTypeBlacklist",
+      "type": ["null", "model.ConfigNodePropertyString"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "extension.order",
+      "type": ["null", "model.ConfigNodePropertyInteger"],
+      "doc": "",
+      "default": null
+    }
+  ]
+
+}

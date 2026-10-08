@@ -1,31 +1,42 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComAdobeGraniteWorkflowCoreWorkflowConfigProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComAdobeGraniteWorkflowCoreWorkflowConfigProperties   {
-  @JsonProperty("cq.workflow.config.workflow.packages.root.path")
-  private ConfigNodePropertyArray cqWorkflowConfigWorkflowPackagesRootPath = null;
+@JsonTypeName("comAdobeGraniteWorkflowCoreWorkflowConfigProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComAdobeGraniteWorkflowCoreWorkflowConfigProperties {
 
-  @JsonProperty("cq.workflow.config.workflow.process.legacy.mode")
-  private ConfigNodePropertyBoolean cqWorkflowConfigWorkflowProcessLegacyMode = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray cqWorkflowConfigWorkflowPackagesRootPath;
 
-  @JsonProperty("cq.workflow.config.allow.locking")
-  private ConfigNodePropertyBoolean cqWorkflowConfigAllowLocking = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean cqWorkflowConfigWorkflowProcessLegacyMode;
 
-  public ComAdobeGraniteWorkflowCoreWorkflowConfigProperties cqWorkflowConfigWorkflowPackagesRootPath(ConfigNodePropertyArray cqWorkflowConfigWorkflowPackagesRootPath) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean cqWorkflowConfigAllowLocking;
+
+  public ComAdobeGraniteWorkflowCoreWorkflowConfigProperties cqWorkflowConfigWorkflowPackagesRootPath(@Nullable ConfigNodePropertyArray cqWorkflowConfigWorkflowPackagesRootPath) {
     this.cqWorkflowConfigWorkflowPackagesRootPath = cqWorkflowConfigWorkflowPackagesRootPath;
     return this;
   }
@@ -33,20 +44,20 @@ public class ComAdobeGraniteWorkflowCoreWorkflowConfigProperties   {
   /**
    * Get cqWorkflowConfigWorkflowPackagesRootPath
    * @return cqWorkflowConfigWorkflowPackagesRootPath
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getCqWorkflowConfigWorkflowPackagesRootPath() {
+   */
+  @Valid 
+  @Schema(name = "cq.workflow.config.workflow.packages.root.path", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cq.workflow.config.workflow.packages.root.path")
+  public @Nullable ConfigNodePropertyArray getCqWorkflowConfigWorkflowPackagesRootPath() {
     return cqWorkflowConfigWorkflowPackagesRootPath;
   }
 
-  public void setCqWorkflowConfigWorkflowPackagesRootPath(ConfigNodePropertyArray cqWorkflowConfigWorkflowPackagesRootPath) {
+  @JsonProperty("cq.workflow.config.workflow.packages.root.path")
+  public void setCqWorkflowConfigWorkflowPackagesRootPath(@Nullable ConfigNodePropertyArray cqWorkflowConfigWorkflowPackagesRootPath) {
     this.cqWorkflowConfigWorkflowPackagesRootPath = cqWorkflowConfigWorkflowPackagesRootPath;
   }
 
-  public ComAdobeGraniteWorkflowCoreWorkflowConfigProperties cqWorkflowConfigWorkflowProcessLegacyMode(ConfigNodePropertyBoolean cqWorkflowConfigWorkflowProcessLegacyMode) {
+  public ComAdobeGraniteWorkflowCoreWorkflowConfigProperties cqWorkflowConfigWorkflowProcessLegacyMode(@Nullable ConfigNodePropertyBoolean cqWorkflowConfigWorkflowProcessLegacyMode) {
     this.cqWorkflowConfigWorkflowProcessLegacyMode = cqWorkflowConfigWorkflowProcessLegacyMode;
     return this;
   }
@@ -54,20 +65,20 @@ public class ComAdobeGraniteWorkflowCoreWorkflowConfigProperties   {
   /**
    * Get cqWorkflowConfigWorkflowProcessLegacyMode
    * @return cqWorkflowConfigWorkflowProcessLegacyMode
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getCqWorkflowConfigWorkflowProcessLegacyMode() {
+   */
+  @Valid 
+  @Schema(name = "cq.workflow.config.workflow.process.legacy.mode", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cq.workflow.config.workflow.process.legacy.mode")
+  public @Nullable ConfigNodePropertyBoolean getCqWorkflowConfigWorkflowProcessLegacyMode() {
     return cqWorkflowConfigWorkflowProcessLegacyMode;
   }
 
-  public void setCqWorkflowConfigWorkflowProcessLegacyMode(ConfigNodePropertyBoolean cqWorkflowConfigWorkflowProcessLegacyMode) {
+  @JsonProperty("cq.workflow.config.workflow.process.legacy.mode")
+  public void setCqWorkflowConfigWorkflowProcessLegacyMode(@Nullable ConfigNodePropertyBoolean cqWorkflowConfigWorkflowProcessLegacyMode) {
     this.cqWorkflowConfigWorkflowProcessLegacyMode = cqWorkflowConfigWorkflowProcessLegacyMode;
   }
 
-  public ComAdobeGraniteWorkflowCoreWorkflowConfigProperties cqWorkflowConfigAllowLocking(ConfigNodePropertyBoolean cqWorkflowConfigAllowLocking) {
+  public ComAdobeGraniteWorkflowCoreWorkflowConfigProperties cqWorkflowConfigAllowLocking(@Nullable ConfigNodePropertyBoolean cqWorkflowConfigAllowLocking) {
     this.cqWorkflowConfigAllowLocking = cqWorkflowConfigAllowLocking;
     return this;
   }
@@ -75,22 +86,21 @@ public class ComAdobeGraniteWorkflowCoreWorkflowConfigProperties   {
   /**
    * Get cqWorkflowConfigAllowLocking
    * @return cqWorkflowConfigAllowLocking
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getCqWorkflowConfigAllowLocking() {
+   */
+  @Valid 
+  @Schema(name = "cq.workflow.config.allow.locking", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cq.workflow.config.allow.locking")
+  public @Nullable ConfigNodePropertyBoolean getCqWorkflowConfigAllowLocking() {
     return cqWorkflowConfigAllowLocking;
   }
 
-  public void setCqWorkflowConfigAllowLocking(ConfigNodePropertyBoolean cqWorkflowConfigAllowLocking) {
+  @JsonProperty("cq.workflow.config.allow.locking")
+  public void setCqWorkflowConfigAllowLocking(@Nullable ConfigNodePropertyBoolean cqWorkflowConfigAllowLocking) {
     this.cqWorkflowConfigAllowLocking = cqWorkflowConfigAllowLocking;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -112,7 +122,6 @@ public class ComAdobeGraniteWorkflowCoreWorkflowConfigProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComAdobeGraniteWorkflowCoreWorkflowConfigProperties {\n");
-    
     sb.append("    cqWorkflowConfigWorkflowPackagesRootPath: ").append(toIndentedString(cqWorkflowConfigWorkflowPackagesRootPath)).append("\n");
     sb.append("    cqWorkflowConfigWorkflowProcessLegacyMode: ").append(toIndentedString(cqWorkflowConfigWorkflowProcessLegacyMode)).append("\n");
     sb.append("    cqWorkflowConfigAllowLocking: ").append(toIndentedString(cqWorkflowConfigAllowLocking)).append("\n");
@@ -124,11 +133,8 @@ public class ComAdobeGraniteWorkflowCoreWorkflowConfigProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

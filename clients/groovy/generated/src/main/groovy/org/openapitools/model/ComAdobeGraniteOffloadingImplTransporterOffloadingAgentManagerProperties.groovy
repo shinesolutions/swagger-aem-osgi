@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyBoolean;
 
 @Canonical
 class ComAdobeGraniteOffloadingImplTransporterOffloadingAgentManagerProperties {
-    ConfigNodePropertyBoolean offloadingAgentmanagerEnabled = null
-
+    
+    ConfigNodePropertyBoolean offloadingAgentmanagerEnabled
 }

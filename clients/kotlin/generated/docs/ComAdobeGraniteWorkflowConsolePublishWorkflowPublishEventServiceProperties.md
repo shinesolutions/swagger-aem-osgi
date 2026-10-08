@@ -2,9 +2,9 @@
 # ComAdobeGraniteWorkflowConsolePublishWorkflowPublishEventServiceProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**granitePeriodworkflowPeriodWorkflowPublishEventServicePeriodenabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **graniteWorkflowWorkflowPublishEventServiceEnabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
 
 
 

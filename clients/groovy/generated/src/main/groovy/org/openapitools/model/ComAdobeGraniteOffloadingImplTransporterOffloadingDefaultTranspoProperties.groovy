@@ -8,18 +8,18 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoProperties {
-    ConfigNodePropertyString defaultTransportAgentToWorkerPrefix = null
-
-    ConfigNodePropertyString defaultTransportAgentToMasterPrefix = null
-
-    ConfigNodePropertyString defaultTransportInputPackage = null
-
-    ConfigNodePropertyString defaultTransportOutputPackage = null
-
-    ConfigNodePropertyBoolean defaultTransportReplicationSynchronous = null
-
-    ConfigNodePropertyBoolean defaultTransportContentpackage = null
-
-    ConfigNodePropertyBoolean offloadingTransporterDefaultEnabled = null
-
+    
+    ConfigNodePropertyString defaultTransportAgentToWorkerPrefix
+    
+    ConfigNodePropertyString defaultTransportAgentToMasterPrefix
+    
+    ConfigNodePropertyString defaultTransportInputPackage
+    
+    ConfigNodePropertyString defaultTransportOutputPackage
+    
+    ConfigNodePropertyBoolean defaultTransportReplicationSynchronous
+    
+    ConfigNodePropertyBoolean defaultTransportContentpackage
+    
+    ConfigNodePropertyBoolean offloadingTransporterDefaultEnabled
 }

@@ -72,8 +72,8 @@ private class OASComAdobeGraniteAuthImsInfoTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeGraniteAuthImsInfo comAdobeGraniteAuthImsInfo = new OASComAdobeGraniteAuthImsInfo();
-        Map<String, String> propertyMappings = comAdobeGraniteAuthImsInfo.getPropertyMappings();
-        System.assertEquals('bundleLocation', propertyMappings.get('bundle_location'));
-        System.assertEquals('serviceLocation', propertyMappings.get('service_location'));
+        Map<String, String> x-property-mappings = comAdobeGraniteAuthImsInfo.getx-property-mappings();
+        System.assertEquals('bundleLocation', x-property-mappings.get('bundle_location'));
+        System.assertEquals('serviceLocation', x-property-mappings.get('service_location'));
     }
 }

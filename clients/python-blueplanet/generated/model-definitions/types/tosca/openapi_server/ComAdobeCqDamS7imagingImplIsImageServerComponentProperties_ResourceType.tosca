@@ -1,0 +1,63 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqDamS7imagingImplIsImageServerComponentProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqDamS7imagingImplIsImageServerComponentProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComAdobeCqDamS7imagingImplIsImageServerComponentProperties {
+    title = ComAdobeCqDamS7imagingImplIsImageServerComponentProperties
+    description = ComAdobeCqDamS7imagingImplIsImageServerComponentProperties
+    derivedFrom = Root
+    properties {
+        tcp_port {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        allow_remote_access {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        max_render_rgn_pixels {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        max_message_size {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        random_access_url_timeout {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        worker_threads {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqDamS7imagingImplIsImageServerComponentProperties {
+    title = ComAdobeCqDamS7imagingImplIsImageServerComponentProperties
+    description = ComAdobeCqDamS7imagingImplIsImageServerComponentProperties
+    implements = openapi_server.resourceTypes.ComAdobeCqDamS7imagingImplIsImageServerComponentProperties
+
+  }
+}

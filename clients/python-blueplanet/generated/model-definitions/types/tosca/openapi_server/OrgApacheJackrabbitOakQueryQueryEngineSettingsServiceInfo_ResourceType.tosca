@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceProperties = openapi_server.resourceTypes.OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceProperties
+}
+resourceTypes {
+
+  OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceInfo {
+    title = OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceInfo
+    description = OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceInfo {
+    title = OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceInfo
+    description = OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceInfo
+    implements = openapi_server.resourceTypes.OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceInfo
+
+  }
+}

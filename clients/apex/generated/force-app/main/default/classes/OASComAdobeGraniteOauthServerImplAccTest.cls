@@ -72,7 +72,7 @@ private class OASComAdobeGraniteOauthServerImplAccTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeGraniteOauthServerImplAcc comAdobeGraniteOauthServerImplAccessTokenCleanupTaskProperties = new OASComAdobeGraniteOauthServerImplAcc();
-        Map<String, String> propertyMappings = comAdobeGraniteOauthServerImplAccessTokenCleanupTaskProperties.getPropertyMappings();
-        System.assertEquals('schedulerExpression', propertyMappings.get('scheduler.expression'));
+        Map<String, String> x-property-mappings = comAdobeGraniteOauthServerImplAccessTokenCleanupTaskProperties.getx-property-mappings();
+        System.assertEquals('schedulerExpression', x-property-mappings.get('scheduler.expression'));
     }
 }

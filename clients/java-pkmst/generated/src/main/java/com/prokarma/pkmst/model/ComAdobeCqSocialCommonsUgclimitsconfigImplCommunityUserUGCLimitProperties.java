@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyArray;
 import com.prokarma.pkmst.model.ConfigNodePropertyBoolean;
 import com.prokarma.pkmst.model.ConfigNodePropertyInteger;
@@ -17,33 +18,32 @@ import io.swagger.annotations.ApiModelProperty;
  * ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitProperties   {
   @JsonProperty("enable")
-  private ConfigNodePropertyBoolean enable = null;
+  private ConfigNodePropertyBoolean enable;
 
   @JsonProperty("UGCLimit")
-  private ConfigNodePropertyInteger ugCLimit = null;
+  private ConfigNodePropertyInteger ugCLimit;
 
   @JsonProperty("ugcLimitDuration")
-  private ConfigNodePropertyInteger ugcLimitDuration = null;
+  private ConfigNodePropertyInteger ugcLimitDuration;
 
   @JsonProperty("domains")
-  private ConfigNodePropertyArray domains = null;
+  private ConfigNodePropertyArray domains;
 
   @JsonProperty("toList")
-  private ConfigNodePropertyArray toList = null;
+  private ConfigNodePropertyArray toList;
 
   public ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitProperties enable(ConfigNodePropertyBoolean enable) {
     this.enable = enable;
     return this;
   }
 
-   /**
+  /**
    * Get enable
    * @return enable
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getEnable() {
     return enable;
@@ -58,10 +58,10 @@ public class ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitProp
     return this;
   }
 
-   /**
+  /**
    * Get ugCLimit
    * @return ugCLimit
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getUgCLimit() {
     return ugCLimit;
@@ -76,10 +76,10 @@ public class ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitProp
     return this;
   }
 
-   /**
+  /**
    * Get ugcLimitDuration
    * @return ugcLimitDuration
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getUgcLimitDuration() {
     return ugcLimitDuration;
@@ -94,10 +94,10 @@ public class ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitProp
     return this;
   }
 
-   /**
+  /**
    * Get domains
    * @return domains
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getDomains() {
     return domains;
@@ -112,10 +112,10 @@ public class ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitProp
     return this;
   }
 
-   /**
+  /**
    * Get toList
    * @return toList
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getToList() {
     return toList;
@@ -127,7 +127,7 @@ public class ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitProp
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -165,11 +165,8 @@ public class ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitProp
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

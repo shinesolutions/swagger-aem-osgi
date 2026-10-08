@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqDeserfwImplDeserializationFirewallImplPr
 
 @Canonical
 class ComAdobeCqDeserfwImplDeserializationFirewallImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqDeserfwImplDeserializationFirewallImplProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqDeserfwImplDeserializationFirewallImplProperties properties
 }

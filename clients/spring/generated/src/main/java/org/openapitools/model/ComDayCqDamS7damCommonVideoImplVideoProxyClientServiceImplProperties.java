@@ -1,42 +1,53 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyInteger;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplProperties   {
-  @JsonProperty("cq.dam.s7dam.videoproxyclientservice.multipartupload.minsize.name")
-  private ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceMultipartuploadMinsizeName = null;
+@JsonTypeName("comDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplProperties {
 
-  @JsonProperty("cq.dam.s7dam.videoproxyclientservice.multipartupload.partsize.name")
-  private ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceMultipartuploadPartsizeName = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceMultipartuploadMinsizeName;
 
-  @JsonProperty("cq.dam.s7dam.videoproxyclientservice.multipartupload.numthread.name")
-  private ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceMultipartuploadNumthreadName = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceMultipartuploadPartsizeName;
 
-  @JsonProperty("cq.dam.s7dam.videoproxyclientservice.http.readtimeout.name")
-  private ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceHttpReadtimeoutName = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceMultipartuploadNumthreadName;
 
-  @JsonProperty("cq.dam.s7dam.videoproxyclientservice.http.connectiontimeout.name")
-  private ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceHttpConnectiontimeoutName = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceHttpReadtimeoutName;
 
-  @JsonProperty("cq.dam.s7dam.videoproxyclientservice.http.maxretrycount.name")
-  private ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceHttpMaxretrycountName = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceHttpConnectiontimeoutName;
 
-  @JsonProperty("cq.dam.s7dam.videoproxyclientservice.uploadprogress.interval.name")
-  private ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceUploadprogressIntervalName = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceHttpMaxretrycountName;
 
-  public ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplProperties cqDamS7damVideoproxyclientserviceMultipartuploadMinsizeName(ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceMultipartuploadMinsizeName) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceUploadprogressIntervalName;
+
+  public ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplProperties cqDamS7damVideoproxyclientserviceMultipartuploadMinsizeName(@Nullable ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceMultipartuploadMinsizeName) {
     this.cqDamS7damVideoproxyclientserviceMultipartuploadMinsizeName = cqDamS7damVideoproxyclientserviceMultipartuploadMinsizeName;
     return this;
   }
@@ -44,20 +55,20 @@ public class ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplPropertie
   /**
    * Get cqDamS7damVideoproxyclientserviceMultipartuploadMinsizeName
    * @return cqDamS7damVideoproxyclientserviceMultipartuploadMinsizeName
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getCqDamS7damVideoproxyclientserviceMultipartuploadMinsizeName() {
+   */
+  @Valid 
+  @Schema(name = "cq.dam.s7dam.videoproxyclientservice.multipartupload.minsize.name", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cq.dam.s7dam.videoproxyclientservice.multipartupload.minsize.name")
+  public @Nullable ConfigNodePropertyInteger getCqDamS7damVideoproxyclientserviceMultipartuploadMinsizeName() {
     return cqDamS7damVideoproxyclientserviceMultipartuploadMinsizeName;
   }
 
-  public void setCqDamS7damVideoproxyclientserviceMultipartuploadMinsizeName(ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceMultipartuploadMinsizeName) {
+  @JsonProperty("cq.dam.s7dam.videoproxyclientservice.multipartupload.minsize.name")
+  public void setCqDamS7damVideoproxyclientserviceMultipartuploadMinsizeName(@Nullable ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceMultipartuploadMinsizeName) {
     this.cqDamS7damVideoproxyclientserviceMultipartuploadMinsizeName = cqDamS7damVideoproxyclientserviceMultipartuploadMinsizeName;
   }
 
-  public ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplProperties cqDamS7damVideoproxyclientserviceMultipartuploadPartsizeName(ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceMultipartuploadPartsizeName) {
+  public ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplProperties cqDamS7damVideoproxyclientserviceMultipartuploadPartsizeName(@Nullable ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceMultipartuploadPartsizeName) {
     this.cqDamS7damVideoproxyclientserviceMultipartuploadPartsizeName = cqDamS7damVideoproxyclientserviceMultipartuploadPartsizeName;
     return this;
   }
@@ -65,20 +76,20 @@ public class ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplPropertie
   /**
    * Get cqDamS7damVideoproxyclientserviceMultipartuploadPartsizeName
    * @return cqDamS7damVideoproxyclientserviceMultipartuploadPartsizeName
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getCqDamS7damVideoproxyclientserviceMultipartuploadPartsizeName() {
+   */
+  @Valid 
+  @Schema(name = "cq.dam.s7dam.videoproxyclientservice.multipartupload.partsize.name", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cq.dam.s7dam.videoproxyclientservice.multipartupload.partsize.name")
+  public @Nullable ConfigNodePropertyInteger getCqDamS7damVideoproxyclientserviceMultipartuploadPartsizeName() {
     return cqDamS7damVideoproxyclientserviceMultipartuploadPartsizeName;
   }
 
-  public void setCqDamS7damVideoproxyclientserviceMultipartuploadPartsizeName(ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceMultipartuploadPartsizeName) {
+  @JsonProperty("cq.dam.s7dam.videoproxyclientservice.multipartupload.partsize.name")
+  public void setCqDamS7damVideoproxyclientserviceMultipartuploadPartsizeName(@Nullable ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceMultipartuploadPartsizeName) {
     this.cqDamS7damVideoproxyclientserviceMultipartuploadPartsizeName = cqDamS7damVideoproxyclientserviceMultipartuploadPartsizeName;
   }
 
-  public ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplProperties cqDamS7damVideoproxyclientserviceMultipartuploadNumthreadName(ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceMultipartuploadNumthreadName) {
+  public ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplProperties cqDamS7damVideoproxyclientserviceMultipartuploadNumthreadName(@Nullable ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceMultipartuploadNumthreadName) {
     this.cqDamS7damVideoproxyclientserviceMultipartuploadNumthreadName = cqDamS7damVideoproxyclientserviceMultipartuploadNumthreadName;
     return this;
   }
@@ -86,20 +97,20 @@ public class ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplPropertie
   /**
    * Get cqDamS7damVideoproxyclientserviceMultipartuploadNumthreadName
    * @return cqDamS7damVideoproxyclientserviceMultipartuploadNumthreadName
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getCqDamS7damVideoproxyclientserviceMultipartuploadNumthreadName() {
+   */
+  @Valid 
+  @Schema(name = "cq.dam.s7dam.videoproxyclientservice.multipartupload.numthread.name", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cq.dam.s7dam.videoproxyclientservice.multipartupload.numthread.name")
+  public @Nullable ConfigNodePropertyInteger getCqDamS7damVideoproxyclientserviceMultipartuploadNumthreadName() {
     return cqDamS7damVideoproxyclientserviceMultipartuploadNumthreadName;
   }
 
-  public void setCqDamS7damVideoproxyclientserviceMultipartuploadNumthreadName(ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceMultipartuploadNumthreadName) {
+  @JsonProperty("cq.dam.s7dam.videoproxyclientservice.multipartupload.numthread.name")
+  public void setCqDamS7damVideoproxyclientserviceMultipartuploadNumthreadName(@Nullable ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceMultipartuploadNumthreadName) {
     this.cqDamS7damVideoproxyclientserviceMultipartuploadNumthreadName = cqDamS7damVideoproxyclientserviceMultipartuploadNumthreadName;
   }
 
-  public ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplProperties cqDamS7damVideoproxyclientserviceHttpReadtimeoutName(ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceHttpReadtimeoutName) {
+  public ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplProperties cqDamS7damVideoproxyclientserviceHttpReadtimeoutName(@Nullable ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceHttpReadtimeoutName) {
     this.cqDamS7damVideoproxyclientserviceHttpReadtimeoutName = cqDamS7damVideoproxyclientserviceHttpReadtimeoutName;
     return this;
   }
@@ -107,20 +118,20 @@ public class ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplPropertie
   /**
    * Get cqDamS7damVideoproxyclientserviceHttpReadtimeoutName
    * @return cqDamS7damVideoproxyclientserviceHttpReadtimeoutName
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getCqDamS7damVideoproxyclientserviceHttpReadtimeoutName() {
+   */
+  @Valid 
+  @Schema(name = "cq.dam.s7dam.videoproxyclientservice.http.readtimeout.name", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cq.dam.s7dam.videoproxyclientservice.http.readtimeout.name")
+  public @Nullable ConfigNodePropertyInteger getCqDamS7damVideoproxyclientserviceHttpReadtimeoutName() {
     return cqDamS7damVideoproxyclientserviceHttpReadtimeoutName;
   }
 
-  public void setCqDamS7damVideoproxyclientserviceHttpReadtimeoutName(ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceHttpReadtimeoutName) {
+  @JsonProperty("cq.dam.s7dam.videoproxyclientservice.http.readtimeout.name")
+  public void setCqDamS7damVideoproxyclientserviceHttpReadtimeoutName(@Nullable ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceHttpReadtimeoutName) {
     this.cqDamS7damVideoproxyclientserviceHttpReadtimeoutName = cqDamS7damVideoproxyclientserviceHttpReadtimeoutName;
   }
 
-  public ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplProperties cqDamS7damVideoproxyclientserviceHttpConnectiontimeoutName(ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceHttpConnectiontimeoutName) {
+  public ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplProperties cqDamS7damVideoproxyclientserviceHttpConnectiontimeoutName(@Nullable ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceHttpConnectiontimeoutName) {
     this.cqDamS7damVideoproxyclientserviceHttpConnectiontimeoutName = cqDamS7damVideoproxyclientserviceHttpConnectiontimeoutName;
     return this;
   }
@@ -128,20 +139,20 @@ public class ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplPropertie
   /**
    * Get cqDamS7damVideoproxyclientserviceHttpConnectiontimeoutName
    * @return cqDamS7damVideoproxyclientserviceHttpConnectiontimeoutName
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getCqDamS7damVideoproxyclientserviceHttpConnectiontimeoutName() {
+   */
+  @Valid 
+  @Schema(name = "cq.dam.s7dam.videoproxyclientservice.http.connectiontimeout.name", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cq.dam.s7dam.videoproxyclientservice.http.connectiontimeout.name")
+  public @Nullable ConfigNodePropertyInteger getCqDamS7damVideoproxyclientserviceHttpConnectiontimeoutName() {
     return cqDamS7damVideoproxyclientserviceHttpConnectiontimeoutName;
   }
 
-  public void setCqDamS7damVideoproxyclientserviceHttpConnectiontimeoutName(ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceHttpConnectiontimeoutName) {
+  @JsonProperty("cq.dam.s7dam.videoproxyclientservice.http.connectiontimeout.name")
+  public void setCqDamS7damVideoproxyclientserviceHttpConnectiontimeoutName(@Nullable ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceHttpConnectiontimeoutName) {
     this.cqDamS7damVideoproxyclientserviceHttpConnectiontimeoutName = cqDamS7damVideoproxyclientserviceHttpConnectiontimeoutName;
   }
 
-  public ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplProperties cqDamS7damVideoproxyclientserviceHttpMaxretrycountName(ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceHttpMaxretrycountName) {
+  public ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplProperties cqDamS7damVideoproxyclientserviceHttpMaxretrycountName(@Nullable ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceHttpMaxretrycountName) {
     this.cqDamS7damVideoproxyclientserviceHttpMaxretrycountName = cqDamS7damVideoproxyclientserviceHttpMaxretrycountName;
     return this;
   }
@@ -149,20 +160,20 @@ public class ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplPropertie
   /**
    * Get cqDamS7damVideoproxyclientserviceHttpMaxretrycountName
    * @return cqDamS7damVideoproxyclientserviceHttpMaxretrycountName
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getCqDamS7damVideoproxyclientserviceHttpMaxretrycountName() {
+   */
+  @Valid 
+  @Schema(name = "cq.dam.s7dam.videoproxyclientservice.http.maxretrycount.name", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cq.dam.s7dam.videoproxyclientservice.http.maxretrycount.name")
+  public @Nullable ConfigNodePropertyInteger getCqDamS7damVideoproxyclientserviceHttpMaxretrycountName() {
     return cqDamS7damVideoproxyclientserviceHttpMaxretrycountName;
   }
 
-  public void setCqDamS7damVideoproxyclientserviceHttpMaxretrycountName(ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceHttpMaxretrycountName) {
+  @JsonProperty("cq.dam.s7dam.videoproxyclientservice.http.maxretrycount.name")
+  public void setCqDamS7damVideoproxyclientserviceHttpMaxretrycountName(@Nullable ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceHttpMaxretrycountName) {
     this.cqDamS7damVideoproxyclientserviceHttpMaxretrycountName = cqDamS7damVideoproxyclientserviceHttpMaxretrycountName;
   }
 
-  public ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplProperties cqDamS7damVideoproxyclientserviceUploadprogressIntervalName(ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceUploadprogressIntervalName) {
+  public ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplProperties cqDamS7damVideoproxyclientserviceUploadprogressIntervalName(@Nullable ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceUploadprogressIntervalName) {
     this.cqDamS7damVideoproxyclientserviceUploadprogressIntervalName = cqDamS7damVideoproxyclientserviceUploadprogressIntervalName;
     return this;
   }
@@ -170,22 +181,21 @@ public class ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplPropertie
   /**
    * Get cqDamS7damVideoproxyclientserviceUploadprogressIntervalName
    * @return cqDamS7damVideoproxyclientserviceUploadprogressIntervalName
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getCqDamS7damVideoproxyclientserviceUploadprogressIntervalName() {
+   */
+  @Valid 
+  @Schema(name = "cq.dam.s7dam.videoproxyclientservice.uploadprogress.interval.name", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cq.dam.s7dam.videoproxyclientservice.uploadprogress.interval.name")
+  public @Nullable ConfigNodePropertyInteger getCqDamS7damVideoproxyclientserviceUploadprogressIntervalName() {
     return cqDamS7damVideoproxyclientserviceUploadprogressIntervalName;
   }
 
-  public void setCqDamS7damVideoproxyclientserviceUploadprogressIntervalName(ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceUploadprogressIntervalName) {
+  @JsonProperty("cq.dam.s7dam.videoproxyclientservice.uploadprogress.interval.name")
+  public void setCqDamS7damVideoproxyclientserviceUploadprogressIntervalName(@Nullable ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceUploadprogressIntervalName) {
     this.cqDamS7damVideoproxyclientserviceUploadprogressIntervalName = cqDamS7damVideoproxyclientserviceUploadprogressIntervalName;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -211,7 +221,6 @@ public class ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplPropertie
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplProperties {\n");
-    
     sb.append("    cqDamS7damVideoproxyclientserviceMultipartuploadMinsizeName: ").append(toIndentedString(cqDamS7damVideoproxyclientserviceMultipartuploadMinsizeName)).append("\n");
     sb.append("    cqDamS7damVideoproxyclientserviceMultipartuploadPartsizeName: ").append(toIndentedString(cqDamS7damVideoproxyclientserviceMultipartuploadPartsizeName)).append("\n");
     sb.append("    cqDamS7damVideoproxyclientserviceMultipartuploadNumthreadName: ").append(toIndentedString(cqDamS7damVideoproxyclientserviceMultipartuploadNumthreadName)).append("\n");
@@ -227,11 +236,8 @@ public class ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplPropertie
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

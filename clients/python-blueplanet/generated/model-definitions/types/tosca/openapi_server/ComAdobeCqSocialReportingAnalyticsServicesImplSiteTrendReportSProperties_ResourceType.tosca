@@ -1,0 +1,42 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+}
+resourceTypes {
+
+  ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSProperties {
+    title = ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSProperties
+    description = ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSProperties
+    derivedFrom = Root
+    properties {
+        cq_social_console_analytics_sites_mapping {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        priority {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSProperties {
+    title = ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSProperties
+    description = ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSProperties
+    implements = openapi_server.resourceTypes.ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSProperties
+
+  }
+}

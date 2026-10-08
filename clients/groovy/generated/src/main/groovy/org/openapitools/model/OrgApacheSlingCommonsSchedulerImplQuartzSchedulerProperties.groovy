@@ -10,14 +10,14 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class OrgApacheSlingCommonsSchedulerImplQuartzSchedulerProperties {
-    ConfigNodePropertyString poolName = null
-
-    ConfigNodePropertyArray allowedPoolNames = null
-
-    ConfigNodePropertyBoolean schedulerUseleaderforsingle = null
-
-    ConfigNodePropertyArray metricsFilters = null
-
-    ConfigNodePropertyInteger slowThresholdMillis = null
-
+    
+    ConfigNodePropertyString poolName
+    
+    ConfigNodePropertyArray allowedPoolNames
+    
+    ConfigNodePropertyBoolean schedulerUseleaderforsingle
+    
+    ConfigNodePropertyArray metricsFilters
+    
+    ConfigNodePropertyInteger slowThresholdMillis
 }

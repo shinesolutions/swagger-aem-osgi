@@ -72,7 +72,7 @@ private class OASComDayCqMcmCampaignImporterPersonTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqMcmCampaignImporterPerson comDayCqMcmCampaignImporterPersonalizedTextHandlerFactoryProperties = new OASComDayCqMcmCampaignImporterPerson();
-        Map<String, String> propertyMappings = comDayCqMcmCampaignImporterPersonalizedTextHandlerFactoryProperties.getPropertyMappings();
-        System.assertEquals('serviceRanking', propertyMappings.get('service.ranking'));
+        Map<String, String> x-property-mappings = comDayCqMcmCampaignImporterPersonalizedTextHandlerFactoryProperties.getx-property-mappings();
+        System.assertEquals('serviceRanking', x-property-mappings.get('service.ranking'));
     }
 }

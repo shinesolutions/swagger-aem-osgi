@@ -1,7 +1,9 @@
 
+
 # ComAdobeCqSocialUserImplTransportHttpToPublisherProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **enable** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
@@ -9,6 +11,7 @@ Name | Type | Description | Notes
 **contextPath** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
 **disabledCipherSuites** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
 **enabledCipherSuites** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
+
 
 
 

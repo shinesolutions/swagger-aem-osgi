@@ -1,39 +1,50 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties   {
-  @JsonProperty("event.filter")
-  private ConfigNodePropertyString eventFilter = null;
+@JsonTypeName("comDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties {
 
-  @JsonProperty("minThreadPoolSize")
-  private ConfigNodePropertyInteger minThreadPoolSize = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString eventFilter;
 
-  @JsonProperty("maxThreadPoolSize")
-  private ConfigNodePropertyInteger maxThreadPoolSize = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger minThreadPoolSize;
 
-  @JsonProperty("cq.wcm.workflow.terminate.on.activate")
-  private ConfigNodePropertyBoolean cqWcmWorkflowTerminateOnActivate = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger maxThreadPoolSize;
 
-  @JsonProperty("cq.wcm.worklfow.terminate.exclusion.list")
-  private ConfigNodePropertyArray cqWcmWorklfowTerminateExclusionList = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean cqWcmWorkflowTerminateOnActivate;
 
-  public ComDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties eventFilter(ConfigNodePropertyString eventFilter) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray cqWcmWorklfowTerminateExclusionList;
+
+  public ComDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties eventFilter(@Nullable ConfigNodePropertyString eventFilter) {
     this.eventFilter = eventFilter;
     return this;
   }
@@ -41,20 +52,20 @@ public class ComDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties   {
   /**
    * Get eventFilter
    * @return eventFilter
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getEventFilter() {
+   */
+  @Valid 
+  @Schema(name = "event.filter", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("event.filter")
+  public @Nullable ConfigNodePropertyString getEventFilter() {
     return eventFilter;
   }
 
-  public void setEventFilter(ConfigNodePropertyString eventFilter) {
+  @JsonProperty("event.filter")
+  public void setEventFilter(@Nullable ConfigNodePropertyString eventFilter) {
     this.eventFilter = eventFilter;
   }
 
-  public ComDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties minThreadPoolSize(ConfigNodePropertyInteger minThreadPoolSize) {
+  public ComDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties minThreadPoolSize(@Nullable ConfigNodePropertyInteger minThreadPoolSize) {
     this.minThreadPoolSize = minThreadPoolSize;
     return this;
   }
@@ -62,20 +73,20 @@ public class ComDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties   {
   /**
    * Get minThreadPoolSize
    * @return minThreadPoolSize
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getMinThreadPoolSize() {
+   */
+  @Valid 
+  @Schema(name = "minThreadPoolSize", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("minThreadPoolSize")
+  public @Nullable ConfigNodePropertyInteger getMinThreadPoolSize() {
     return minThreadPoolSize;
   }
 
-  public void setMinThreadPoolSize(ConfigNodePropertyInteger minThreadPoolSize) {
+  @JsonProperty("minThreadPoolSize")
+  public void setMinThreadPoolSize(@Nullable ConfigNodePropertyInteger minThreadPoolSize) {
     this.minThreadPoolSize = minThreadPoolSize;
   }
 
-  public ComDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties maxThreadPoolSize(ConfigNodePropertyInteger maxThreadPoolSize) {
+  public ComDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties maxThreadPoolSize(@Nullable ConfigNodePropertyInteger maxThreadPoolSize) {
     this.maxThreadPoolSize = maxThreadPoolSize;
     return this;
   }
@@ -83,20 +94,20 @@ public class ComDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties   {
   /**
    * Get maxThreadPoolSize
    * @return maxThreadPoolSize
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getMaxThreadPoolSize() {
+   */
+  @Valid 
+  @Schema(name = "maxThreadPoolSize", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("maxThreadPoolSize")
+  public @Nullable ConfigNodePropertyInteger getMaxThreadPoolSize() {
     return maxThreadPoolSize;
   }
 
-  public void setMaxThreadPoolSize(ConfigNodePropertyInteger maxThreadPoolSize) {
+  @JsonProperty("maxThreadPoolSize")
+  public void setMaxThreadPoolSize(@Nullable ConfigNodePropertyInteger maxThreadPoolSize) {
     this.maxThreadPoolSize = maxThreadPoolSize;
   }
 
-  public ComDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties cqWcmWorkflowTerminateOnActivate(ConfigNodePropertyBoolean cqWcmWorkflowTerminateOnActivate) {
+  public ComDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties cqWcmWorkflowTerminateOnActivate(@Nullable ConfigNodePropertyBoolean cqWcmWorkflowTerminateOnActivate) {
     this.cqWcmWorkflowTerminateOnActivate = cqWcmWorkflowTerminateOnActivate;
     return this;
   }
@@ -104,20 +115,20 @@ public class ComDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties   {
   /**
    * Get cqWcmWorkflowTerminateOnActivate
    * @return cqWcmWorkflowTerminateOnActivate
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getCqWcmWorkflowTerminateOnActivate() {
+   */
+  @Valid 
+  @Schema(name = "cq.wcm.workflow.terminate.on.activate", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cq.wcm.workflow.terminate.on.activate")
+  public @Nullable ConfigNodePropertyBoolean getCqWcmWorkflowTerminateOnActivate() {
     return cqWcmWorkflowTerminateOnActivate;
   }
 
-  public void setCqWcmWorkflowTerminateOnActivate(ConfigNodePropertyBoolean cqWcmWorkflowTerminateOnActivate) {
+  @JsonProperty("cq.wcm.workflow.terminate.on.activate")
+  public void setCqWcmWorkflowTerminateOnActivate(@Nullable ConfigNodePropertyBoolean cqWcmWorkflowTerminateOnActivate) {
     this.cqWcmWorkflowTerminateOnActivate = cqWcmWorkflowTerminateOnActivate;
   }
 
-  public ComDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties cqWcmWorklfowTerminateExclusionList(ConfigNodePropertyArray cqWcmWorklfowTerminateExclusionList) {
+  public ComDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties cqWcmWorklfowTerminateExclusionList(@Nullable ConfigNodePropertyArray cqWcmWorklfowTerminateExclusionList) {
     this.cqWcmWorklfowTerminateExclusionList = cqWcmWorklfowTerminateExclusionList;
     return this;
   }
@@ -125,22 +136,21 @@ public class ComDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties   {
   /**
    * Get cqWcmWorklfowTerminateExclusionList
    * @return cqWcmWorklfowTerminateExclusionList
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getCqWcmWorklfowTerminateExclusionList() {
+   */
+  @Valid 
+  @Schema(name = "cq.wcm.worklfow.terminate.exclusion.list", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cq.wcm.worklfow.terminate.exclusion.list")
+  public @Nullable ConfigNodePropertyArray getCqWcmWorklfowTerminateExclusionList() {
     return cqWcmWorklfowTerminateExclusionList;
   }
 
-  public void setCqWcmWorklfowTerminateExclusionList(ConfigNodePropertyArray cqWcmWorklfowTerminateExclusionList) {
+  @JsonProperty("cq.wcm.worklfow.terminate.exclusion.list")
+  public void setCqWcmWorklfowTerminateExclusionList(@Nullable ConfigNodePropertyArray cqWcmWorklfowTerminateExclusionList) {
     this.cqWcmWorklfowTerminateExclusionList = cqWcmWorklfowTerminateExclusionList;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -164,7 +174,6 @@ public class ComDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties {\n");
-    
     sb.append("    eventFilter: ").append(toIndentedString(eventFilter)).append("\n");
     sb.append("    minThreadPoolSize: ").append(toIndentedString(minThreadPoolSize)).append("\n");
     sb.append("    maxThreadPoolSize: ").append(toIndentedString(maxThreadPoolSize)).append("\n");
@@ -178,11 +187,8 @@ public class ComDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

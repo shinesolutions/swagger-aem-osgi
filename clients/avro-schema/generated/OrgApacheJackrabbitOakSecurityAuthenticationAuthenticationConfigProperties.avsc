@@ -1,0 +1,21 @@
+{
+  "namespace": "model",
+  "type": "record",
+  "doc": "",
+  "name": "OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigProperties",
+  "fields": [
+    {
+      "name": "org.apache.jackrabbit.oak.authentication.appName",
+      "type": ["null", "model.ConfigNodePropertyString"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "org.apache.jackrabbit.oak.authentication.configSpiName",
+      "type": ["null", "model.ConfigNodePropertyString"],
+      "doc": "",
+      "default": null
+    }
+  ]
+
+}

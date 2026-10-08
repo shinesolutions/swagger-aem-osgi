@@ -7,12 +7,12 @@ import org.openapitools.model.OrgApacheSlingCommonsSchedulerImplSchedulerHealthC
 
 @Canonical
 class OrgApacheSlingCommonsSchedulerImplSchedulerHealthCheckInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheSlingCommonsSchedulerImplSchedulerHealthCheckProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheSlingCommonsSchedulerImplSchedulerHealthCheckProperties properties
 }

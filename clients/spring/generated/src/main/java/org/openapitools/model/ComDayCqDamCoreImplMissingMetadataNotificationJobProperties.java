@@ -1,35 +1,46 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComDayCqDamCoreImplMissingMetadataNotificationJobProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComDayCqDamCoreImplMissingMetadataNotificationJobProperties   {
-  @JsonProperty("cq.dam.missingmetadata.notification.scheduler.istimebased")
-  private ConfigNodePropertyBoolean cqDamMissingmetadataNotificationSchedulerIstimebased = null;
+@JsonTypeName("comDayCqDamCoreImplMissingMetadataNotificationJobProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComDayCqDamCoreImplMissingMetadataNotificationJobProperties {
 
-  @JsonProperty("cq.dam.missingmetadata.notification.scheduler.timebased.rule")
-  private ConfigNodePropertyString cqDamMissingmetadataNotificationSchedulerTimebasedRule = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean cqDamMissingmetadataNotificationSchedulerIstimebased;
 
-  @JsonProperty("cq.dam.missingmetadata.notification.scheduler.period.rule")
-  private ConfigNodePropertyInteger cqDamMissingmetadataNotificationSchedulerPeriodRule = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString cqDamMissingmetadataNotificationSchedulerTimebasedRule;
 
-  @JsonProperty("cq.dam.missingmetadata.notification.recipient")
-  private ConfigNodePropertyString cqDamMissingmetadataNotificationRecipient = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger cqDamMissingmetadataNotificationSchedulerPeriodRule;
 
-  public ComDayCqDamCoreImplMissingMetadataNotificationJobProperties cqDamMissingmetadataNotificationSchedulerIstimebased(ConfigNodePropertyBoolean cqDamMissingmetadataNotificationSchedulerIstimebased) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString cqDamMissingmetadataNotificationRecipient;
+
+  public ComDayCqDamCoreImplMissingMetadataNotificationJobProperties cqDamMissingmetadataNotificationSchedulerIstimebased(@Nullable ConfigNodePropertyBoolean cqDamMissingmetadataNotificationSchedulerIstimebased) {
     this.cqDamMissingmetadataNotificationSchedulerIstimebased = cqDamMissingmetadataNotificationSchedulerIstimebased;
     return this;
   }
@@ -37,20 +48,20 @@ public class ComDayCqDamCoreImplMissingMetadataNotificationJobProperties   {
   /**
    * Get cqDamMissingmetadataNotificationSchedulerIstimebased
    * @return cqDamMissingmetadataNotificationSchedulerIstimebased
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getCqDamMissingmetadataNotificationSchedulerIstimebased() {
+   */
+  @Valid 
+  @Schema(name = "cq.dam.missingmetadata.notification.scheduler.istimebased", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cq.dam.missingmetadata.notification.scheduler.istimebased")
+  public @Nullable ConfigNodePropertyBoolean getCqDamMissingmetadataNotificationSchedulerIstimebased() {
     return cqDamMissingmetadataNotificationSchedulerIstimebased;
   }
 
-  public void setCqDamMissingmetadataNotificationSchedulerIstimebased(ConfigNodePropertyBoolean cqDamMissingmetadataNotificationSchedulerIstimebased) {
+  @JsonProperty("cq.dam.missingmetadata.notification.scheduler.istimebased")
+  public void setCqDamMissingmetadataNotificationSchedulerIstimebased(@Nullable ConfigNodePropertyBoolean cqDamMissingmetadataNotificationSchedulerIstimebased) {
     this.cqDamMissingmetadataNotificationSchedulerIstimebased = cqDamMissingmetadataNotificationSchedulerIstimebased;
   }
 
-  public ComDayCqDamCoreImplMissingMetadataNotificationJobProperties cqDamMissingmetadataNotificationSchedulerTimebasedRule(ConfigNodePropertyString cqDamMissingmetadataNotificationSchedulerTimebasedRule) {
+  public ComDayCqDamCoreImplMissingMetadataNotificationJobProperties cqDamMissingmetadataNotificationSchedulerTimebasedRule(@Nullable ConfigNodePropertyString cqDamMissingmetadataNotificationSchedulerTimebasedRule) {
     this.cqDamMissingmetadataNotificationSchedulerTimebasedRule = cqDamMissingmetadataNotificationSchedulerTimebasedRule;
     return this;
   }
@@ -58,20 +69,20 @@ public class ComDayCqDamCoreImplMissingMetadataNotificationJobProperties   {
   /**
    * Get cqDamMissingmetadataNotificationSchedulerTimebasedRule
    * @return cqDamMissingmetadataNotificationSchedulerTimebasedRule
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getCqDamMissingmetadataNotificationSchedulerTimebasedRule() {
+   */
+  @Valid 
+  @Schema(name = "cq.dam.missingmetadata.notification.scheduler.timebased.rule", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cq.dam.missingmetadata.notification.scheduler.timebased.rule")
+  public @Nullable ConfigNodePropertyString getCqDamMissingmetadataNotificationSchedulerTimebasedRule() {
     return cqDamMissingmetadataNotificationSchedulerTimebasedRule;
   }
 
-  public void setCqDamMissingmetadataNotificationSchedulerTimebasedRule(ConfigNodePropertyString cqDamMissingmetadataNotificationSchedulerTimebasedRule) {
+  @JsonProperty("cq.dam.missingmetadata.notification.scheduler.timebased.rule")
+  public void setCqDamMissingmetadataNotificationSchedulerTimebasedRule(@Nullable ConfigNodePropertyString cqDamMissingmetadataNotificationSchedulerTimebasedRule) {
     this.cqDamMissingmetadataNotificationSchedulerTimebasedRule = cqDamMissingmetadataNotificationSchedulerTimebasedRule;
   }
 
-  public ComDayCqDamCoreImplMissingMetadataNotificationJobProperties cqDamMissingmetadataNotificationSchedulerPeriodRule(ConfigNodePropertyInteger cqDamMissingmetadataNotificationSchedulerPeriodRule) {
+  public ComDayCqDamCoreImplMissingMetadataNotificationJobProperties cqDamMissingmetadataNotificationSchedulerPeriodRule(@Nullable ConfigNodePropertyInteger cqDamMissingmetadataNotificationSchedulerPeriodRule) {
     this.cqDamMissingmetadataNotificationSchedulerPeriodRule = cqDamMissingmetadataNotificationSchedulerPeriodRule;
     return this;
   }
@@ -79,20 +90,20 @@ public class ComDayCqDamCoreImplMissingMetadataNotificationJobProperties   {
   /**
    * Get cqDamMissingmetadataNotificationSchedulerPeriodRule
    * @return cqDamMissingmetadataNotificationSchedulerPeriodRule
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getCqDamMissingmetadataNotificationSchedulerPeriodRule() {
+   */
+  @Valid 
+  @Schema(name = "cq.dam.missingmetadata.notification.scheduler.period.rule", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cq.dam.missingmetadata.notification.scheduler.period.rule")
+  public @Nullable ConfigNodePropertyInteger getCqDamMissingmetadataNotificationSchedulerPeriodRule() {
     return cqDamMissingmetadataNotificationSchedulerPeriodRule;
   }
 
-  public void setCqDamMissingmetadataNotificationSchedulerPeriodRule(ConfigNodePropertyInteger cqDamMissingmetadataNotificationSchedulerPeriodRule) {
+  @JsonProperty("cq.dam.missingmetadata.notification.scheduler.period.rule")
+  public void setCqDamMissingmetadataNotificationSchedulerPeriodRule(@Nullable ConfigNodePropertyInteger cqDamMissingmetadataNotificationSchedulerPeriodRule) {
     this.cqDamMissingmetadataNotificationSchedulerPeriodRule = cqDamMissingmetadataNotificationSchedulerPeriodRule;
   }
 
-  public ComDayCqDamCoreImplMissingMetadataNotificationJobProperties cqDamMissingmetadataNotificationRecipient(ConfigNodePropertyString cqDamMissingmetadataNotificationRecipient) {
+  public ComDayCqDamCoreImplMissingMetadataNotificationJobProperties cqDamMissingmetadataNotificationRecipient(@Nullable ConfigNodePropertyString cqDamMissingmetadataNotificationRecipient) {
     this.cqDamMissingmetadataNotificationRecipient = cqDamMissingmetadataNotificationRecipient;
     return this;
   }
@@ -100,22 +111,21 @@ public class ComDayCqDamCoreImplMissingMetadataNotificationJobProperties   {
   /**
    * Get cqDamMissingmetadataNotificationRecipient
    * @return cqDamMissingmetadataNotificationRecipient
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getCqDamMissingmetadataNotificationRecipient() {
+   */
+  @Valid 
+  @Schema(name = "cq.dam.missingmetadata.notification.recipient", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cq.dam.missingmetadata.notification.recipient")
+  public @Nullable ConfigNodePropertyString getCqDamMissingmetadataNotificationRecipient() {
     return cqDamMissingmetadataNotificationRecipient;
   }
 
-  public void setCqDamMissingmetadataNotificationRecipient(ConfigNodePropertyString cqDamMissingmetadataNotificationRecipient) {
+  @JsonProperty("cq.dam.missingmetadata.notification.recipient")
+  public void setCqDamMissingmetadataNotificationRecipient(@Nullable ConfigNodePropertyString cqDamMissingmetadataNotificationRecipient) {
     this.cqDamMissingmetadataNotificationRecipient = cqDamMissingmetadataNotificationRecipient;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -138,7 +148,6 @@ public class ComDayCqDamCoreImplMissingMetadataNotificationJobProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComDayCqDamCoreImplMissingMetadataNotificationJobProperties {\n");
-    
     sb.append("    cqDamMissingmetadataNotificationSchedulerIstimebased: ").append(toIndentedString(cqDamMissingmetadataNotificationSchedulerIstimebased)).append("\n");
     sb.append("    cqDamMissingmetadataNotificationSchedulerTimebasedRule: ").append(toIndentedString(cqDamMissingmetadataNotificationSchedulerTimebasedRule)).append("\n");
     sb.append("    cqDamMissingmetadataNotificationSchedulerPeriodRule: ").append(toIndentedString(cqDamMissingmetadataNotificationSchedulerPeriodRule)).append("\n");
@@ -151,11 +160,8 @@ public class ComDayCqDamCoreImplMissingMetadataNotificationJobProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

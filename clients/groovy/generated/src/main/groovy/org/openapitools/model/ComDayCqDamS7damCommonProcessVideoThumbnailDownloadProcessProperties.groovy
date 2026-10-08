@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqDamS7damCommonProcessVideoThumbnailDownloadProcessProperties {
-    ConfigNodePropertyString processLabel = null
-
+    
+    ConfigNodePropertyString processLabel
 }

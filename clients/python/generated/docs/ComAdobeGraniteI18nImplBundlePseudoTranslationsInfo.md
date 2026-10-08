@@ -1,6 +1,8 @@
 # ComAdobeGraniteI18nImplBundlePseudoTranslationsInfo
 
+
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **pid** | **str** |  | [optional] 
@@ -8,6 +10,23 @@ Name | Type | Description | Notes
 **description** | **str** |  | [optional] 
 **properties** | [**ComAdobeGraniteI18nImplBundlePseudoTranslationsProperties**](ComAdobeGraniteI18nImplBundlePseudoTranslationsProperties.md) |  | [optional] 
 
+## Example
+
+```python
+from swaggeraemosgi.models.com_adobe_granite_i18n_impl_bundle_pseudo_translations_info import ComAdobeGraniteI18nImplBundlePseudoTranslationsInfo
+
+# TODO update the JSON string below
+json = "{}"
+# create an instance of ComAdobeGraniteI18nImplBundlePseudoTranslationsInfo from a JSON string
+com_adobe_granite_i18n_impl_bundle_pseudo_translations_info_instance = ComAdobeGraniteI18nImplBundlePseudoTranslationsInfo.from_json(json)
+# print the JSON string representation of the object
+print(ComAdobeGraniteI18nImplBundlePseudoTranslationsInfo.to_json())
+
+# convert the object into a dict
+com_adobe_granite_i18n_impl_bundle_pseudo_translations_info_dict = com_adobe_granite_i18n_impl_bundle_pseudo_translations_info_instance.to_dict()
+# create an instance of ComAdobeGraniteI18nImplBundlePseudoTranslationsInfo from a dict
+com_adobe_granite_i18n_impl_bundle_pseudo_translations_info_from_dict = ComAdobeGraniteI18nImplBundlePseudoTranslationsInfo.from_dict(com_adobe_granite_i18n_impl_bundle_pseudo_translations_info_dict)
+```
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 
 

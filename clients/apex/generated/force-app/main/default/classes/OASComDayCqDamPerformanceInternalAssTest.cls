@@ -72,7 +72,7 @@ private class OASComDayCqDamPerformanceInternalAssTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqDamPerformanceInternalAss comDayCqDamPerformanceInternalAssetPerformanceReportSyncJobProperties = new OASComDayCqDamPerformanceInternalAss();
-        Map<String, String> propertyMappings = comDayCqDamPerformanceInternalAssetPerformanceReportSyncJobProperties.getPropertyMappings();
-        System.assertEquals('schedulerExpression', propertyMappings.get('scheduler.expression'));
+        Map<String, String> x-property-mappings = comDayCqDamPerformanceInternalAssetPerformanceReportSyncJobProperties.getx-property-mappings();
+        System.assertEquals('schedulerExpression', x-property-mappings.get('scheduler.expression'));
     }
 }

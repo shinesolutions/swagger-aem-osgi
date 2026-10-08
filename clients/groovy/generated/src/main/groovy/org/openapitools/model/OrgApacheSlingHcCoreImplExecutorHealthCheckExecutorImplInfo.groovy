@@ -7,12 +7,12 @@ import org.openapitools.model.OrgApacheSlingHcCoreImplExecutorHealthCheckExecuto
 
 @Canonical
 class OrgApacheSlingHcCoreImplExecutorHealthCheckExecutorImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheSlingHcCoreImplExecutorHealthCheckExecutorImplProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheSlingHcCoreImplExecutorHealthCheckExecutorImplProperties properties
 }

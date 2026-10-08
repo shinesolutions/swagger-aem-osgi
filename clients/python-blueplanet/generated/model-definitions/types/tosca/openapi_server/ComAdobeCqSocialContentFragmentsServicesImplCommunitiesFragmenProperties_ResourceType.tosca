@@ -1,0 +1,42 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmenProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmenProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+}
+resourceTypes {
+
+  ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmenProperties {
+    title = ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmenProperties
+    description = ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmenProperties
+    derivedFrom = Root
+    properties {
+        cq_social_content_fragments_services_enabled {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        cq_social_content_fragments_services_wait_time_seconds {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmenProperties {
+    title = ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmenProperties
+    description = ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmenProperties
+    implements = openapi_server.resourceTypes.ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmenProperties
+
+  }
+}

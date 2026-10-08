@@ -1,24 +1,35 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comDayCqWorkflowImplEmailEMailNotificationServiceProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqWorkflowImplEmailEMailNotificationServiceProperties   {
-  
-  private @Valid ConfigNodePropertyString fromAddress = null;
-  private @Valid ConfigNodePropertyString hostPrefix = null;
-  private @Valid ConfigNodePropertyBoolean notifyOnabort = null;
-  private @Valid ConfigNodePropertyBoolean notifyOncomplete = null;
-  private @Valid ConfigNodePropertyBoolean notifyOncontainercomplete = null;
-  private @Valid ConfigNodePropertyBoolean notifyUseronly = null;
+  private ConfigNodePropertyString fromAddress;
+  private ConfigNodePropertyString hostPrefix;
+  private ConfigNodePropertyBoolean notifyOnabort;
+  private ConfigNodePropertyBoolean notifyOncomplete;
+  private ConfigNodePropertyBoolean notifyOncontainercomplete;
+  private ConfigNodePropertyBoolean notifyUseronly;
+
+  public ComDayCqWorkflowImplEmailEMailNotificationServiceProperties() {
+  }
 
   /**
    **/
@@ -30,9 +41,11 @@ public class ComDayCqWorkflowImplEmailEMailNotificationServiceProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("from.address")
-  public ConfigNodePropertyString getFromAddress() {
+  @Valid public ConfigNodePropertyString getFromAddress() {
     return fromAddress;
   }
+
+  @JsonProperty("from.address")
   public void setFromAddress(ConfigNodePropertyString fromAddress) {
     this.fromAddress = fromAddress;
   }
@@ -47,9 +60,11 @@ public class ComDayCqWorkflowImplEmailEMailNotificationServiceProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("host.prefix")
-  public ConfigNodePropertyString getHostPrefix() {
+  @Valid public ConfigNodePropertyString getHostPrefix() {
     return hostPrefix;
   }
+
+  @JsonProperty("host.prefix")
   public void setHostPrefix(ConfigNodePropertyString hostPrefix) {
     this.hostPrefix = hostPrefix;
   }
@@ -64,9 +79,11 @@ public class ComDayCqWorkflowImplEmailEMailNotificationServiceProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("notify.onabort")
-  public ConfigNodePropertyBoolean getNotifyOnabort() {
+  @Valid public ConfigNodePropertyBoolean getNotifyOnabort() {
     return notifyOnabort;
   }
+
+  @JsonProperty("notify.onabort")
   public void setNotifyOnabort(ConfigNodePropertyBoolean notifyOnabort) {
     this.notifyOnabort = notifyOnabort;
   }
@@ -81,9 +98,11 @@ public class ComDayCqWorkflowImplEmailEMailNotificationServiceProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("notify.oncomplete")
-  public ConfigNodePropertyBoolean getNotifyOncomplete() {
+  @Valid public ConfigNodePropertyBoolean getNotifyOncomplete() {
     return notifyOncomplete;
   }
+
+  @JsonProperty("notify.oncomplete")
   public void setNotifyOncomplete(ConfigNodePropertyBoolean notifyOncomplete) {
     this.notifyOncomplete = notifyOncomplete;
   }
@@ -98,9 +117,11 @@ public class ComDayCqWorkflowImplEmailEMailNotificationServiceProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("notify.oncontainercomplete")
-  public ConfigNodePropertyBoolean getNotifyOncontainercomplete() {
+  @Valid public ConfigNodePropertyBoolean getNotifyOncontainercomplete() {
     return notifyOncontainercomplete;
   }
+
+  @JsonProperty("notify.oncontainercomplete")
   public void setNotifyOncontainercomplete(ConfigNodePropertyBoolean notifyOncontainercomplete) {
     this.notifyOncontainercomplete = notifyOncontainercomplete;
   }
@@ -115,16 +136,18 @@ public class ComDayCqWorkflowImplEmailEMailNotificationServiceProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("notify.useronly")
-  public ConfigNodePropertyBoolean getNotifyUseronly() {
+  @Valid public ConfigNodePropertyBoolean getNotifyUseronly() {
     return notifyUseronly;
   }
+
+  @JsonProperty("notify.useronly")
   public void setNotifyUseronly(ConfigNodePropertyBoolean notifyUseronly) {
     this.notifyUseronly = notifyUseronly;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -132,12 +155,12 @@ public class ComDayCqWorkflowImplEmailEMailNotificationServiceProperties   {
       return false;
     }
     ComDayCqWorkflowImplEmailEMailNotificationServiceProperties comDayCqWorkflowImplEmailEMailNotificationServiceProperties = (ComDayCqWorkflowImplEmailEMailNotificationServiceProperties) o;
-    return Objects.equals(fromAddress, comDayCqWorkflowImplEmailEMailNotificationServiceProperties.fromAddress) &&
-        Objects.equals(hostPrefix, comDayCqWorkflowImplEmailEMailNotificationServiceProperties.hostPrefix) &&
-        Objects.equals(notifyOnabort, comDayCqWorkflowImplEmailEMailNotificationServiceProperties.notifyOnabort) &&
-        Objects.equals(notifyOncomplete, comDayCqWorkflowImplEmailEMailNotificationServiceProperties.notifyOncomplete) &&
-        Objects.equals(notifyOncontainercomplete, comDayCqWorkflowImplEmailEMailNotificationServiceProperties.notifyOncontainercomplete) &&
-        Objects.equals(notifyUseronly, comDayCqWorkflowImplEmailEMailNotificationServiceProperties.notifyUseronly);
+    return Objects.equals(this.fromAddress, comDayCqWorkflowImplEmailEMailNotificationServiceProperties.fromAddress) &&
+        Objects.equals(this.hostPrefix, comDayCqWorkflowImplEmailEMailNotificationServiceProperties.hostPrefix) &&
+        Objects.equals(this.notifyOnabort, comDayCqWorkflowImplEmailEMailNotificationServiceProperties.notifyOnabort) &&
+        Objects.equals(this.notifyOncomplete, comDayCqWorkflowImplEmailEMailNotificationServiceProperties.notifyOncomplete) &&
+        Objects.equals(this.notifyOncontainercomplete, comDayCqWorkflowImplEmailEMailNotificationServiceProperties.notifyOncontainercomplete) &&
+        Objects.equals(this.notifyUseronly, comDayCqWorkflowImplEmailEMailNotificationServiceProperties.notifyUseronly);
   }
 
   @Override
@@ -164,11 +187,9 @@ public class ComDayCqWorkflowImplEmailEMailNotificationServiceProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

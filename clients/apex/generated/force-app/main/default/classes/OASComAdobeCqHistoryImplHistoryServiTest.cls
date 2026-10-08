@@ -72,8 +72,8 @@ private class OASComAdobeCqHistoryImplHistoryServiTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeCqHistoryImplHistoryServi comAdobeCqHistoryImplHistoryServiceImplProperties = new OASComAdobeCqHistoryImplHistoryServi();
-        Map<String, String> propertyMappings = comAdobeCqHistoryImplHistoryServiceImplProperties.getPropertyMappings();
-        System.assertEquals('historyServiceResourceTypes', propertyMappings.get('history.service.resourceTypes'));
-        System.assertEquals('historyServicePathFilter', propertyMappings.get('history.service.pathFilter'));
+        Map<String, String> x-property-mappings = comAdobeCqHistoryImplHistoryServiceImplProperties.getx-property-mappings();
+        System.assertEquals('historyServiceResourceTypes', x-property-mappings.get('history.service.resourceTypes'));
+        System.assertEquals('historyServicePathFilter', x-property-mappings.get('history.service.pathFilter'));
     }
 }

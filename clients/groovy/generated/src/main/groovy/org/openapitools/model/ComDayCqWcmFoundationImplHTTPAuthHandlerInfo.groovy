@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqWcmFoundationImplHTTPAuthHandlerProperties
 
 @Canonical
 class ComDayCqWcmFoundationImplHTTPAuthHandlerInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqWcmFoundationImplHTTPAuthHandlerProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqWcmFoundationImplHTTPAuthHandlerProperties properties
 }

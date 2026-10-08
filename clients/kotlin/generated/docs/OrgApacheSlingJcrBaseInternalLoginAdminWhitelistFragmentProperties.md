@@ -2,10 +2,10 @@
 # OrgApacheSlingJcrBaseInternalLoginAdminWhitelistFragmentProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**whitelistPeriodname** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**whitelistPeriodbundles** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **whitelistName** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **whitelistBundles** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
 
 
 

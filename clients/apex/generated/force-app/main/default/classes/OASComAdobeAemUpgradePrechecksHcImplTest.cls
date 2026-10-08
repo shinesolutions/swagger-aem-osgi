@@ -72,9 +72,9 @@ private class OASComAdobeAemUpgradePrechecksHcImplTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeAemUpgradePrechecksHcImpl comAdobeAemUpgradePrechecksHcImplReplicationAgentsDisabledHCProperties = new OASComAdobeAemUpgradePrechecksHcImpl();
-        Map<String, String> propertyMappings = comAdobeAemUpgradePrechecksHcImplReplicationAgentsDisabledHCProperties.getPropertyMappings();
-        System.assertEquals('hcName', propertyMappings.get('hc.name'));
-        System.assertEquals('hcTags', propertyMappings.get('hc.tags'));
-        System.assertEquals('hcMbeanName', propertyMappings.get('hc.mbean.name'));
+        Map<String, String> x-property-mappings = comAdobeAemUpgradePrechecksHcImplReplicationAgentsDisabledHCProperties.getx-property-mappings();
+        System.assertEquals('hcName', x-property-mappings.get('hc.name'));
+        System.assertEquals('hcTags', x-property-mappings.get('hc.tags'));
+        System.assertEquals('hcMbeanName', x-property-mappings.get('hc.mbean.name'));
     }
 }

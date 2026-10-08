@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqWcmJobsAsyncImplAsyncDeleteConfigProvide
 
 @Canonical
 class ComAdobeCqWcmJobsAsyncImplAsyncDeleteConfigProviderServiceInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqWcmJobsAsyncImplAsyncDeleteConfigProviderServiceProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqWcmJobsAsyncImplAsyncDeleteConfigProviderServiceProperties properties
 }

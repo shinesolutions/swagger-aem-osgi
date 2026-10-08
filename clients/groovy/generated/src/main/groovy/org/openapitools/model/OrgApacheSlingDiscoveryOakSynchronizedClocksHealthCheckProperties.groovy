@@ -8,10 +8,10 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class OrgApacheSlingDiscoveryOakSynchronizedClocksHealthCheckProperties {
-    ConfigNodePropertyString hcName = null
-
-    ConfigNodePropertyArray hcTags = null
-
-    ConfigNodePropertyString hcMbeanName = null
-
+    
+    ConfigNodePropertyString hcName
+    
+    ConfigNodePropertyArray hcTags
+    
+    ConfigNodePropertyString hcMbeanName
 }

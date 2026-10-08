@@ -7,12 +7,12 @@ import org.openapitools.model.OrgApacheSlingJcrResourceInternalJcrSystemUserVali
 
 @Canonical
 class OrgApacheSlingJcrResourceInternalJcrSystemUserValidatorInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheSlingJcrResourceInternalJcrSystemUserValidatorProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheSlingJcrResourceInternalJcrSystemUserValidatorProperties properties
 }

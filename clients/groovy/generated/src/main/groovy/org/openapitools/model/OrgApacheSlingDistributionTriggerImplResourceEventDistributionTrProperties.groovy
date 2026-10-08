@@ -7,8 +7,8 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class OrgApacheSlingDistributionTriggerImplResourceEventDistributionTrProperties {
-    ConfigNodePropertyString name = null
-
-    ConfigNodePropertyString path = null
-
+    
+    ConfigNodePropertyString name
+    
+    ConfigNodePropertyString path
 }

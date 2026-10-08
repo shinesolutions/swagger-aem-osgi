@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqWcmCoreImplVersionPurgeTaskProperties;
 
 @Canonical
 class ComDayCqWcmCoreImplVersionPurgeTaskInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqWcmCoreImplVersionPurgeTaskProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqWcmCoreImplVersionPurgeTaskProperties properties
 }

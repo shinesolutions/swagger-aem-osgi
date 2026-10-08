@@ -1,0 +1,73 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqMailerDefaultMailServiceProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqMailerDefaultMailServiceProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComDayCqMailerDefaultMailServiceProperties {
+    title = ComDayCqMailerDefaultMailServiceProperties
+    description = ComDayCqMailerDefaultMailServiceProperties
+    derivedFrom = Root
+    properties {
+        smtp_host {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        smtp_port {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        smtp_user {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        smtp_password {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        from_address {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        smtp_ssl {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        smtp_starttls {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        debug_email {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqMailerDefaultMailServiceProperties {
+    title = ComDayCqMailerDefaultMailServiceProperties
+    description = ComDayCqMailerDefaultMailServiceProperties
+    implements = openapi_server.resourceTypes.ComDayCqMailerDefaultMailServiceProperties
+
+  }
+}

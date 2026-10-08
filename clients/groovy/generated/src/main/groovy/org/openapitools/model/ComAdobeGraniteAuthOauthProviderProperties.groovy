@@ -9,36 +9,36 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeGraniteAuthOauthProviderProperties {
-    ConfigNodePropertyString oauthConfigId = null
-
-    ConfigNodePropertyString oauthClientId = null
-
-    ConfigNodePropertyString oauthClientSecret = null
-
-    ConfigNodePropertyArray oauthScope = null
-
-    ConfigNodePropertyString oauthConfigProviderId = null
-
-    ConfigNodePropertyBoolean oauthCreateUsers = null
-
-    ConfigNodePropertyString oauthUseridProperty = null
-
-    ConfigNodePropertyBoolean forceStrictUsernameMatching = null
-
-    ConfigNodePropertyBoolean oauthEncodeUserids = null
-
-    ConfigNodePropertyBoolean oauthHashUserids = null
-
-    ConfigNodePropertyString oauthCallBackUrl = null
-
-    ConfigNodePropertyBoolean oauthAccessTokenPersist = null
-
-    ConfigNodePropertyBoolean oauthAccessTokenPersistCookie = null
-
-    ConfigNodePropertyBoolean oauthCsrfStateProtection = null
-
-    ConfigNodePropertyBoolean oauthRedirectRequestParams = null
-
-    ConfigNodePropertyBoolean oauthConfigSiblingsAllow = null
-
+    
+    ConfigNodePropertyString oauthConfigId
+    
+    ConfigNodePropertyString oauthClientId
+    
+    ConfigNodePropertyString oauthClientSecret
+    
+    ConfigNodePropertyArray oauthScope
+    
+    ConfigNodePropertyString oauthConfigProviderId
+    
+    ConfigNodePropertyBoolean oauthCreateUsers
+    
+    ConfigNodePropertyString oauthUseridProperty
+    
+    ConfigNodePropertyBoolean forceStrictUsernameMatching
+    
+    ConfigNodePropertyBoolean oauthEncodeUserids
+    
+    ConfigNodePropertyBoolean oauthHashUserids
+    
+    ConfigNodePropertyString oauthCallBackUrl
+    
+    ConfigNodePropertyBoolean oauthAccessTokenPersist
+    
+    ConfigNodePropertyBoolean oauthAccessTokenPersistCookie
+    
+    ConfigNodePropertyBoolean oauthCsrfStateProtection
+    
+    ConfigNodePropertyBoolean oauthRedirectRequestParams
+    
+    ConfigNodePropertyBoolean oauthConfigSiblingsAllow
 }

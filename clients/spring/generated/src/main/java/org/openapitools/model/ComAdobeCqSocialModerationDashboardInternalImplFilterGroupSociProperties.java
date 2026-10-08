@@ -1,28 +1,39 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyInteger;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComAdobeCqSocialModerationDashboardInternalImplFilterGroupSociProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComAdobeCqSocialModerationDashboardInternalImplFilterGroupSociProperties   {
-  @JsonProperty("resourceType.filters")
-  private ConfigNodePropertyArray resourceTypeFilters = null;
+@JsonTypeName("comAdobeCqSocialModerationDashboardInternalImplFilterGroupSociProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComAdobeCqSocialModerationDashboardInternalImplFilterGroupSociProperties {
 
-  @JsonProperty("priority")
-  private ConfigNodePropertyInteger priority = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray resourceTypeFilters;
 
-  public ComAdobeCqSocialModerationDashboardInternalImplFilterGroupSociProperties resourceTypeFilters(ConfigNodePropertyArray resourceTypeFilters) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger priority;
+
+  public ComAdobeCqSocialModerationDashboardInternalImplFilterGroupSociProperties resourceTypeFilters(@Nullable ConfigNodePropertyArray resourceTypeFilters) {
     this.resourceTypeFilters = resourceTypeFilters;
     return this;
   }
@@ -30,20 +41,20 @@ public class ComAdobeCqSocialModerationDashboardInternalImplFilterGroupSociPrope
   /**
    * Get resourceTypeFilters
    * @return resourceTypeFilters
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getResourceTypeFilters() {
+   */
+  @Valid 
+  @Schema(name = "resourceType.filters", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("resourceType.filters")
+  public @Nullable ConfigNodePropertyArray getResourceTypeFilters() {
     return resourceTypeFilters;
   }
 
-  public void setResourceTypeFilters(ConfigNodePropertyArray resourceTypeFilters) {
+  @JsonProperty("resourceType.filters")
+  public void setResourceTypeFilters(@Nullable ConfigNodePropertyArray resourceTypeFilters) {
     this.resourceTypeFilters = resourceTypeFilters;
   }
 
-  public ComAdobeCqSocialModerationDashboardInternalImplFilterGroupSociProperties priority(ConfigNodePropertyInteger priority) {
+  public ComAdobeCqSocialModerationDashboardInternalImplFilterGroupSociProperties priority(@Nullable ConfigNodePropertyInteger priority) {
     this.priority = priority;
     return this;
   }
@@ -51,22 +62,21 @@ public class ComAdobeCqSocialModerationDashboardInternalImplFilterGroupSociPrope
   /**
    * Get priority
    * @return priority
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getPriority() {
+   */
+  @Valid 
+  @Schema(name = "priority", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("priority")
+  public @Nullable ConfigNodePropertyInteger getPriority() {
     return priority;
   }
 
-  public void setPriority(ConfigNodePropertyInteger priority) {
+  @JsonProperty("priority")
+  public void setPriority(@Nullable ConfigNodePropertyInteger priority) {
     this.priority = priority;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -87,7 +97,6 @@ public class ComAdobeCqSocialModerationDashboardInternalImplFilterGroupSociPrope
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComAdobeCqSocialModerationDashboardInternalImplFilterGroupSociProperties {\n");
-    
     sb.append("    resourceTypeFilters: ").append(toIndentedString(resourceTypeFilters)).append("\n");
     sb.append("    priority: ").append(toIndentedString(priority)).append("\n");
     sb.append("}");
@@ -98,11 +107,8 @@ public class ComAdobeCqSocialModerationDashboardInternalImplFilterGroupSociPrope
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

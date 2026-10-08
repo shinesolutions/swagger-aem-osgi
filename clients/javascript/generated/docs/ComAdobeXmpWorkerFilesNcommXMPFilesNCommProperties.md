@@ -1,6 +1,7 @@
 # NodeSwaggerAemOsgi.ComAdobeXmpWorkerFilesNcommXMPFilesNCommProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **maxConnections** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 

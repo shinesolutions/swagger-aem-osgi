@@ -72,9 +72,9 @@ private class OASComAdobeCqSocialGroupClientImplCoTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeCqSocialGroupClientImplCo comAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenProperties = new OASComAdobeCqSocialGroupClientImplCo();
-        Map<String, String> propertyMappings = comAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenProperties.getPropertyMappings();
-        System.assertEquals('groupListingPaginationEnable', propertyMappings.get('group.listing.pagination.enable'));
-        System.assertEquals('groupListingLazyloadingEnable', propertyMappings.get('group.listing.lazyloading.enable'));
-        System.assertEquals('pageSize', propertyMappings.get('page.size'));
+        Map<String, String> x-property-mappings = comAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenProperties.getx-property-mappings();
+        System.assertEquals('groupListingPaginationEnable', x-property-mappings.get('group.listing.pagination.enable'));
+        System.assertEquals('groupListingLazyloadingEnable', x-property-mappings.get('group.listing.lazyloading.enable'));
+        System.assertEquals('pageSize', x-property-mappings.get('page.size'));
     }
 }

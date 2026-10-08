@@ -72,10 +72,10 @@ private class OASComAdobeGraniteWorkflowPurgeSchedTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeGraniteWorkflowPurgeSched comAdobeGraniteWorkflowPurgeSchedulerProperties = new OASComAdobeGraniteWorkflowPurgeSched();
-        Map<String, String> propertyMappings = comAdobeGraniteWorkflowPurgeSchedulerProperties.getPropertyMappings();
-        System.assertEquals('scheduledpurgeName', propertyMappings.get('scheduledpurge.name'));
-        System.assertEquals('scheduledpurgeWorkflowStatus', propertyMappings.get('scheduledpurge.workflowStatus'));
-        System.assertEquals('scheduledpurgeModelIds', propertyMappings.get('scheduledpurge.modelIds'));
-        System.assertEquals('scheduledpurgeDaysold', propertyMappings.get('scheduledpurge.daysold'));
+        Map<String, String> x-property-mappings = comAdobeGraniteWorkflowPurgeSchedulerProperties.getx-property-mappings();
+        System.assertEquals('scheduledpurgeName', x-property-mappings.get('scheduledpurge.name'));
+        System.assertEquals('scheduledpurgeWorkflowStatus', x-property-mappings.get('scheduledpurge.workflowStatus'));
+        System.assertEquals('scheduledpurgeModelIds', x-property-mappings.get('scheduledpurge.modelIds'));
+        System.assertEquals('scheduledpurgeDaysold', x-property-mappings.get('scheduledpurge.daysold'));
     }
 }

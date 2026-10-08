@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyBoolean;
 
 @Canonical
 class OrgApacheSlingJcrResourceInternalJcrSystemUserValidatorProperties {
-    ConfigNodePropertyBoolean allowOnlySystemUser = null
-
+    
+    ConfigNodePropertyBoolean allowOnlySystemUser
 }

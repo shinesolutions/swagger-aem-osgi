@@ -9,10 +9,10 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeGraniteTaskmanagementImplJcrTaskArchiveServiceProperties {
-    ConfigNodePropertyBoolean archivingEnabled = null
-
-    ConfigNodePropertyString schedulerExpression = null
-
-    ConfigNodePropertyInteger archiveSinceDaysCompleted = null
-
+    
+    ConfigNodePropertyBoolean archivingEnabled
+    
+    ConfigNodePropertyString schedulerExpression
+    
+    ConfigNodePropertyInteger archiveSinceDaysCompleted
 }

@@ -7,12 +7,12 @@ import org.openapitools.model.OrgApacheSlingHapiImplHApiUtilImplProperties;
 
 @Canonical
 class OrgApacheSlingHapiImplHApiUtilImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheSlingHapiImplHApiUtilImplProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheSlingHapiImplHApiUtilImplProperties properties
 }

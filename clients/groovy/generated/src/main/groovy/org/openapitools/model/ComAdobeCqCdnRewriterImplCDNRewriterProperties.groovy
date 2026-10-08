@@ -9,10 +9,10 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeCqCdnRewriterImplCDNRewriterProperties {
-    ConfigNodePropertyInteger serviceRanking = null
-
-    ConfigNodePropertyArray cdnrewriterAttributes = null
-
-    ConfigNodePropertyString cdnRewriterDistributionDomain = null
-
+    
+    ConfigNodePropertyInteger serviceRanking
+    
+    ConfigNodePropertyArray cdnrewriterAttributes
+    
+    ConfigNodePropertyString cdnRewriterDistributionDomain
 }

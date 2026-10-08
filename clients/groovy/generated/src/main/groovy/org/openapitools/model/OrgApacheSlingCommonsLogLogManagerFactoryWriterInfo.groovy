@@ -7,12 +7,12 @@ import org.openapitools.model.OrgApacheSlingCommonsLogLogManagerFactoryWriterPro
 
 @Canonical
 class OrgApacheSlingCommonsLogLogManagerFactoryWriterInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheSlingCommonsLogLogManagerFactoryWriterProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheSlingCommonsLogLogManagerFactoryWriterProperties properties
 }

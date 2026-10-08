@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyArray;
 
 @Canonical
 class ComAdobeGraniteRepositoryHcImplContinuousRGCHealthCheckProperties {
-    ConfigNodePropertyArray hcTags = null
-
+    
+    ConfigNodePropertyArray hcTags
 }

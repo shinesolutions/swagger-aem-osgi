@@ -1,29 +1,38 @@
 package apimodels;
 
 import apimodels.ConfigNodePropertyString;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * ComAdobeCqDamCfmImplComponentComponentConfigImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class ComAdobeCqDamCfmImplComponentComponentConfigImplProperties   {
   @JsonProperty("dam.cfm.component.resourceType")
-  private ConfigNodePropertyString damCfmComponentResourceType = null;
+  @Valid
+
+  private ConfigNodePropertyString damCfmComponentResourceType;
 
   @JsonProperty("dam.cfm.component.fileReferenceProp")
-  private ConfigNodePropertyString damCfmComponentFileReferenceProp = null;
+  @Valid
+
+  private ConfigNodePropertyString damCfmComponentFileReferenceProp;
 
   @JsonProperty("dam.cfm.component.elementsProp")
-  private ConfigNodePropertyString damCfmComponentElementsProp = null;
+  @Valid
+
+  private ConfigNodePropertyString damCfmComponentElementsProp;
 
   @JsonProperty("dam.cfm.component.variationProp")
-  private ConfigNodePropertyString damCfmComponentVariationProp = null;
+  @Valid
+
+  private ConfigNodePropertyString damCfmComponentVariationProp;
 
   public ComAdobeCqDamCfmImplComponentComponentConfigImplProperties damCfmComponentResourceType(ConfigNodePropertyString damCfmComponentResourceType) {
     this.damCfmComponentResourceType = damCfmComponentResourceType;
@@ -34,7 +43,6 @@ public class ComAdobeCqDamCfmImplComponentComponentConfigImplProperties   {
    * Get damCfmComponentResourceType
    * @return damCfmComponentResourceType
   **/
-  @Valid
   public ConfigNodePropertyString getDamCfmComponentResourceType() {
     return damCfmComponentResourceType;
   }
@@ -52,7 +60,6 @@ public class ComAdobeCqDamCfmImplComponentComponentConfigImplProperties   {
    * Get damCfmComponentFileReferenceProp
    * @return damCfmComponentFileReferenceProp
   **/
-  @Valid
   public ConfigNodePropertyString getDamCfmComponentFileReferenceProp() {
     return damCfmComponentFileReferenceProp;
   }
@@ -70,7 +77,6 @@ public class ComAdobeCqDamCfmImplComponentComponentConfigImplProperties   {
    * Get damCfmComponentElementsProp
    * @return damCfmComponentElementsProp
   **/
-  @Valid
   public ConfigNodePropertyString getDamCfmComponentElementsProp() {
     return damCfmComponentElementsProp;
   }
@@ -88,7 +94,6 @@ public class ComAdobeCqDamCfmImplComponentComponentConfigImplProperties   {
    * Get damCfmComponentVariationProp
    * @return damCfmComponentVariationProp
   **/
-  @Valid
   public ConfigNodePropertyString getDamCfmComponentVariationProp() {
     return damCfmComponentVariationProp;
   }
@@ -99,7 +104,7 @@ public class ComAdobeCqDamCfmImplComponentComponentConfigImplProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -136,11 +141,8 @@ public class ComAdobeCqDamCfmImplComponentComponentConfigImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

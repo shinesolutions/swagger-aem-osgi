@@ -8,8 +8,8 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrProperties {
-    ConfigNodePropertyString processLabel = null
-
-    ConfigNodePropertyBoolean notifyOnComplete = null
-
+    
+    ConfigNodePropertyString processLabel
+    
+    ConfigNodePropertyBoolean notifyOnComplete
 }

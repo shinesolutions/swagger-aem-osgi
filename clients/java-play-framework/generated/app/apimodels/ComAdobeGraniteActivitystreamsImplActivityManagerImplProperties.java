@@ -2,23 +2,28 @@ package apimodels;
 
 import apimodels.ConfigNodePropertyArray;
 import apimodels.ConfigNodePropertyBoolean;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * ComAdobeGraniteActivitystreamsImplActivityManagerImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class ComAdobeGraniteActivitystreamsImplActivityManagerImplProperties   {
   @JsonProperty("aggregate.relationships")
-  private ConfigNodePropertyArray aggregateRelationships = null;
+  @Valid
+
+  private ConfigNodePropertyArray aggregateRelationships;
 
   @JsonProperty("aggregate.descend.virtual")
-  private ConfigNodePropertyBoolean aggregateDescendVirtual = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean aggregateDescendVirtual;
 
   public ComAdobeGraniteActivitystreamsImplActivityManagerImplProperties aggregateRelationships(ConfigNodePropertyArray aggregateRelationships) {
     this.aggregateRelationships = aggregateRelationships;
@@ -29,7 +34,6 @@ public class ComAdobeGraniteActivitystreamsImplActivityManagerImplProperties   {
    * Get aggregateRelationships
    * @return aggregateRelationships
   **/
-  @Valid
   public ConfigNodePropertyArray getAggregateRelationships() {
     return aggregateRelationships;
   }
@@ -47,7 +51,6 @@ public class ComAdobeGraniteActivitystreamsImplActivityManagerImplProperties   {
    * Get aggregateDescendVirtual
    * @return aggregateDescendVirtual
   **/
-  @Valid
   public ConfigNodePropertyBoolean getAggregateDescendVirtual() {
     return aggregateDescendVirtual;
   }
@@ -58,7 +61,7 @@ public class ComAdobeGraniteActivitystreamsImplActivityManagerImplProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -91,11 +94,8 @@ public class ComAdobeGraniteActivitystreamsImplActivityManagerImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

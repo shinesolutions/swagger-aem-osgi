@@ -2,10 +2,10 @@
 # ComDayCqWcmCoreImplWarpTimeWarpFilterProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**filterPeriodorder** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**filterPeriodscope** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **filterOrder** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **filterScope** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
 
 
 

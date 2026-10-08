@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class AnalyticsComponentQueryCacheServiceProperties {
-    ConfigNodePropertyInteger cqAnalyticsComponentQueryCacheSize = null
-
+    
+    ConfigNodePropertyInteger cqAnalyticsComponentQueryCacheSize
 }

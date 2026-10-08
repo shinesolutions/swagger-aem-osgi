@@ -1,34 +1,45 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplProperties   {
-  @JsonProperty("group2member.relationship.outgoing")
-  private ConfigNodePropertyString group2memberRelationshipOutgoing = null;
+@JsonTypeName("comAdobeGraniteSocialgraphImplSocialGraphFactoryImplProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplProperties {
 
-  @JsonProperty("group2member.excluded.outgoing")
-  private ConfigNodePropertyArray group2memberExcludedOutgoing = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString group2memberRelationshipOutgoing;
 
-  @JsonProperty("group2member.relationship.incoming")
-  private ConfigNodePropertyString group2memberRelationshipIncoming = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray group2memberExcludedOutgoing;
 
-  @JsonProperty("group2member.excluded.incoming")
-  private ConfigNodePropertyArray group2memberExcludedIncoming = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString group2memberRelationshipIncoming;
 
-  public ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplProperties group2memberRelationshipOutgoing(ConfigNodePropertyString group2memberRelationshipOutgoing) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray group2memberExcludedIncoming;
+
+  public ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplProperties group2memberRelationshipOutgoing(@Nullable ConfigNodePropertyString group2memberRelationshipOutgoing) {
     this.group2memberRelationshipOutgoing = group2memberRelationshipOutgoing;
     return this;
   }
@@ -36,20 +47,20 @@ public class ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplProperties   {
   /**
    * Get group2memberRelationshipOutgoing
    * @return group2memberRelationshipOutgoing
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getGroup2memberRelationshipOutgoing() {
+   */
+  @Valid 
+  @Schema(name = "group2member.relationship.outgoing", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("group2member.relationship.outgoing")
+  public @Nullable ConfigNodePropertyString getGroup2memberRelationshipOutgoing() {
     return group2memberRelationshipOutgoing;
   }
 
-  public void setGroup2memberRelationshipOutgoing(ConfigNodePropertyString group2memberRelationshipOutgoing) {
+  @JsonProperty("group2member.relationship.outgoing")
+  public void setGroup2memberRelationshipOutgoing(@Nullable ConfigNodePropertyString group2memberRelationshipOutgoing) {
     this.group2memberRelationshipOutgoing = group2memberRelationshipOutgoing;
   }
 
-  public ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplProperties group2memberExcludedOutgoing(ConfigNodePropertyArray group2memberExcludedOutgoing) {
+  public ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplProperties group2memberExcludedOutgoing(@Nullable ConfigNodePropertyArray group2memberExcludedOutgoing) {
     this.group2memberExcludedOutgoing = group2memberExcludedOutgoing;
     return this;
   }
@@ -57,20 +68,20 @@ public class ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplProperties   {
   /**
    * Get group2memberExcludedOutgoing
    * @return group2memberExcludedOutgoing
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getGroup2memberExcludedOutgoing() {
+   */
+  @Valid 
+  @Schema(name = "group2member.excluded.outgoing", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("group2member.excluded.outgoing")
+  public @Nullable ConfigNodePropertyArray getGroup2memberExcludedOutgoing() {
     return group2memberExcludedOutgoing;
   }
 
-  public void setGroup2memberExcludedOutgoing(ConfigNodePropertyArray group2memberExcludedOutgoing) {
+  @JsonProperty("group2member.excluded.outgoing")
+  public void setGroup2memberExcludedOutgoing(@Nullable ConfigNodePropertyArray group2memberExcludedOutgoing) {
     this.group2memberExcludedOutgoing = group2memberExcludedOutgoing;
   }
 
-  public ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplProperties group2memberRelationshipIncoming(ConfigNodePropertyString group2memberRelationshipIncoming) {
+  public ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplProperties group2memberRelationshipIncoming(@Nullable ConfigNodePropertyString group2memberRelationshipIncoming) {
     this.group2memberRelationshipIncoming = group2memberRelationshipIncoming;
     return this;
   }
@@ -78,20 +89,20 @@ public class ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplProperties   {
   /**
    * Get group2memberRelationshipIncoming
    * @return group2memberRelationshipIncoming
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getGroup2memberRelationshipIncoming() {
+   */
+  @Valid 
+  @Schema(name = "group2member.relationship.incoming", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("group2member.relationship.incoming")
+  public @Nullable ConfigNodePropertyString getGroup2memberRelationshipIncoming() {
     return group2memberRelationshipIncoming;
   }
 
-  public void setGroup2memberRelationshipIncoming(ConfigNodePropertyString group2memberRelationshipIncoming) {
+  @JsonProperty("group2member.relationship.incoming")
+  public void setGroup2memberRelationshipIncoming(@Nullable ConfigNodePropertyString group2memberRelationshipIncoming) {
     this.group2memberRelationshipIncoming = group2memberRelationshipIncoming;
   }
 
-  public ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplProperties group2memberExcludedIncoming(ConfigNodePropertyArray group2memberExcludedIncoming) {
+  public ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplProperties group2memberExcludedIncoming(@Nullable ConfigNodePropertyArray group2memberExcludedIncoming) {
     this.group2memberExcludedIncoming = group2memberExcludedIncoming;
     return this;
   }
@@ -99,22 +110,21 @@ public class ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplProperties   {
   /**
    * Get group2memberExcludedIncoming
    * @return group2memberExcludedIncoming
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getGroup2memberExcludedIncoming() {
+   */
+  @Valid 
+  @Schema(name = "group2member.excluded.incoming", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("group2member.excluded.incoming")
+  public @Nullable ConfigNodePropertyArray getGroup2memberExcludedIncoming() {
     return group2memberExcludedIncoming;
   }
 
-  public void setGroup2memberExcludedIncoming(ConfigNodePropertyArray group2memberExcludedIncoming) {
+  @JsonProperty("group2member.excluded.incoming")
+  public void setGroup2memberExcludedIncoming(@Nullable ConfigNodePropertyArray group2memberExcludedIncoming) {
     this.group2memberExcludedIncoming = group2memberExcludedIncoming;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -137,7 +147,6 @@ public class ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplProperties {\n");
-    
     sb.append("    group2memberRelationshipOutgoing: ").append(toIndentedString(group2memberRelationshipOutgoing)).append("\n");
     sb.append("    group2memberExcludedOutgoing: ").append(toIndentedString(group2memberExcludedOutgoing)).append("\n");
     sb.append("    group2memberRelationshipIncoming: ").append(toIndentedString(group2memberRelationshipIncoming)).append("\n");
@@ -150,11 +159,8 @@ public class ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

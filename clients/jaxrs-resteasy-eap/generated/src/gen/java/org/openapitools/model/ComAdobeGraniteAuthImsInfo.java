@@ -4,28 +4,23 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ComAdobeGraniteAuthImsProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2019-08-05T01:00:05.540Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2026-10-07T12:54:26.576036107Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteAuthImsInfo   {
   
-
-  private String pid = null;
-
-  private String title = null;
-
-  private String description = null;
-
-  private ComAdobeGraniteAuthImsProperties properties = null;
-
-  private String bundleLocation = null;
-
-  private String serviceLocation = null;
+  private String pid;
+  private String title;
+  private String description;
+  private ComAdobeGraniteAuthImsProperties properties;
+  private String bundleLocation;
+  private String serviceLocation;
 
   /**
    **/
@@ -109,12 +104,12 @@ public class ComAdobeGraniteAuthImsInfo   {
       return false;
     }
     ComAdobeGraniteAuthImsInfo comAdobeGraniteAuthImsInfo = (ComAdobeGraniteAuthImsInfo) o;
-    return Objects.equals(pid, comAdobeGraniteAuthImsInfo.pid) &&
-        Objects.equals(title, comAdobeGraniteAuthImsInfo.title) &&
-        Objects.equals(description, comAdobeGraniteAuthImsInfo.description) &&
-        Objects.equals(properties, comAdobeGraniteAuthImsInfo.properties) &&
-        Objects.equals(bundleLocation, comAdobeGraniteAuthImsInfo.bundleLocation) &&
-        Objects.equals(serviceLocation, comAdobeGraniteAuthImsInfo.serviceLocation);
+    return Objects.equals(this.pid, comAdobeGraniteAuthImsInfo.pid) &&
+        Objects.equals(this.title, comAdobeGraniteAuthImsInfo.title) &&
+        Objects.equals(this.description, comAdobeGraniteAuthImsInfo.description) &&
+        Objects.equals(this.properties, comAdobeGraniteAuthImsInfo.properties) &&
+        Objects.equals(this.bundleLocation, comAdobeGraniteAuthImsInfo.bundleLocation) &&
+        Objects.equals(this.serviceLocation, comAdobeGraniteAuthImsInfo.serviceLocation);
   }
 
   @Override
@@ -142,10 +137,7 @@ public class ComAdobeGraniteAuthImsInfo   {
    * (except the first line).
    */
   private String toIndentedString(Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -1,41 +1,52 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComDayCqWcmFoundationImplHTTPAuthHandlerProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComDayCqWcmFoundationImplHTTPAuthHandlerProperties   {
-  @JsonProperty("path")
-  private ConfigNodePropertyString path = null;
+@JsonTypeName("comDayCqWcmFoundationImplHTTPAuthHandlerProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComDayCqWcmFoundationImplHTTPAuthHandlerProperties {
 
-  @JsonProperty("auth.http.nologin")
-  private ConfigNodePropertyBoolean authHttpNologin = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString path;
 
-  @JsonProperty("auth.http.realm")
-  private ConfigNodePropertyString authHttpRealm = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean authHttpNologin;
 
-  @JsonProperty("auth.default.loginpage")
-  private ConfigNodePropertyString authDefaultLoginpage = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString authHttpRealm;
 
-  @JsonProperty("auth.cred.form")
-  private ConfigNodePropertyArray authCredForm = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString authDefaultLoginpage;
 
-  @JsonProperty("auth.cred.utf8")
-  private ConfigNodePropertyArray authCredUtf8 = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray authCredForm;
 
-  public ComDayCqWcmFoundationImplHTTPAuthHandlerProperties path(ConfigNodePropertyString path) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray authCredUtf8;
+
+  public ComDayCqWcmFoundationImplHTTPAuthHandlerProperties path(@Nullable ConfigNodePropertyString path) {
     this.path = path;
     return this;
   }
@@ -43,20 +54,20 @@ public class ComDayCqWcmFoundationImplHTTPAuthHandlerProperties   {
   /**
    * Get path
    * @return path
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getPath() {
+   */
+  @Valid 
+  @Schema(name = "path", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("path")
+  public @Nullable ConfigNodePropertyString getPath() {
     return path;
   }
 
-  public void setPath(ConfigNodePropertyString path) {
+  @JsonProperty("path")
+  public void setPath(@Nullable ConfigNodePropertyString path) {
     this.path = path;
   }
 
-  public ComDayCqWcmFoundationImplHTTPAuthHandlerProperties authHttpNologin(ConfigNodePropertyBoolean authHttpNologin) {
+  public ComDayCqWcmFoundationImplHTTPAuthHandlerProperties authHttpNologin(@Nullable ConfigNodePropertyBoolean authHttpNologin) {
     this.authHttpNologin = authHttpNologin;
     return this;
   }
@@ -64,20 +75,20 @@ public class ComDayCqWcmFoundationImplHTTPAuthHandlerProperties   {
   /**
    * Get authHttpNologin
    * @return authHttpNologin
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getAuthHttpNologin() {
+   */
+  @Valid 
+  @Schema(name = "auth.http.nologin", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("auth.http.nologin")
+  public @Nullable ConfigNodePropertyBoolean getAuthHttpNologin() {
     return authHttpNologin;
   }
 
-  public void setAuthHttpNologin(ConfigNodePropertyBoolean authHttpNologin) {
+  @JsonProperty("auth.http.nologin")
+  public void setAuthHttpNologin(@Nullable ConfigNodePropertyBoolean authHttpNologin) {
     this.authHttpNologin = authHttpNologin;
   }
 
-  public ComDayCqWcmFoundationImplHTTPAuthHandlerProperties authHttpRealm(ConfigNodePropertyString authHttpRealm) {
+  public ComDayCqWcmFoundationImplHTTPAuthHandlerProperties authHttpRealm(@Nullable ConfigNodePropertyString authHttpRealm) {
     this.authHttpRealm = authHttpRealm;
     return this;
   }
@@ -85,20 +96,20 @@ public class ComDayCqWcmFoundationImplHTTPAuthHandlerProperties   {
   /**
    * Get authHttpRealm
    * @return authHttpRealm
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getAuthHttpRealm() {
+   */
+  @Valid 
+  @Schema(name = "auth.http.realm", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("auth.http.realm")
+  public @Nullable ConfigNodePropertyString getAuthHttpRealm() {
     return authHttpRealm;
   }
 
-  public void setAuthHttpRealm(ConfigNodePropertyString authHttpRealm) {
+  @JsonProperty("auth.http.realm")
+  public void setAuthHttpRealm(@Nullable ConfigNodePropertyString authHttpRealm) {
     this.authHttpRealm = authHttpRealm;
   }
 
-  public ComDayCqWcmFoundationImplHTTPAuthHandlerProperties authDefaultLoginpage(ConfigNodePropertyString authDefaultLoginpage) {
+  public ComDayCqWcmFoundationImplHTTPAuthHandlerProperties authDefaultLoginpage(@Nullable ConfigNodePropertyString authDefaultLoginpage) {
     this.authDefaultLoginpage = authDefaultLoginpage;
     return this;
   }
@@ -106,20 +117,20 @@ public class ComDayCqWcmFoundationImplHTTPAuthHandlerProperties   {
   /**
    * Get authDefaultLoginpage
    * @return authDefaultLoginpage
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getAuthDefaultLoginpage() {
+   */
+  @Valid 
+  @Schema(name = "auth.default.loginpage", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("auth.default.loginpage")
+  public @Nullable ConfigNodePropertyString getAuthDefaultLoginpage() {
     return authDefaultLoginpage;
   }
 
-  public void setAuthDefaultLoginpage(ConfigNodePropertyString authDefaultLoginpage) {
+  @JsonProperty("auth.default.loginpage")
+  public void setAuthDefaultLoginpage(@Nullable ConfigNodePropertyString authDefaultLoginpage) {
     this.authDefaultLoginpage = authDefaultLoginpage;
   }
 
-  public ComDayCqWcmFoundationImplHTTPAuthHandlerProperties authCredForm(ConfigNodePropertyArray authCredForm) {
+  public ComDayCqWcmFoundationImplHTTPAuthHandlerProperties authCredForm(@Nullable ConfigNodePropertyArray authCredForm) {
     this.authCredForm = authCredForm;
     return this;
   }
@@ -127,20 +138,20 @@ public class ComDayCqWcmFoundationImplHTTPAuthHandlerProperties   {
   /**
    * Get authCredForm
    * @return authCredForm
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getAuthCredForm() {
+   */
+  @Valid 
+  @Schema(name = "auth.cred.form", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("auth.cred.form")
+  public @Nullable ConfigNodePropertyArray getAuthCredForm() {
     return authCredForm;
   }
 
-  public void setAuthCredForm(ConfigNodePropertyArray authCredForm) {
+  @JsonProperty("auth.cred.form")
+  public void setAuthCredForm(@Nullable ConfigNodePropertyArray authCredForm) {
     this.authCredForm = authCredForm;
   }
 
-  public ComDayCqWcmFoundationImplHTTPAuthHandlerProperties authCredUtf8(ConfigNodePropertyArray authCredUtf8) {
+  public ComDayCqWcmFoundationImplHTTPAuthHandlerProperties authCredUtf8(@Nullable ConfigNodePropertyArray authCredUtf8) {
     this.authCredUtf8 = authCredUtf8;
     return this;
   }
@@ -148,22 +159,21 @@ public class ComDayCqWcmFoundationImplHTTPAuthHandlerProperties   {
   /**
    * Get authCredUtf8
    * @return authCredUtf8
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getAuthCredUtf8() {
+   */
+  @Valid 
+  @Schema(name = "auth.cred.utf8", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("auth.cred.utf8")
+  public @Nullable ConfigNodePropertyArray getAuthCredUtf8() {
     return authCredUtf8;
   }
 
-  public void setAuthCredUtf8(ConfigNodePropertyArray authCredUtf8) {
+  @JsonProperty("auth.cred.utf8")
+  public void setAuthCredUtf8(@Nullable ConfigNodePropertyArray authCredUtf8) {
     this.authCredUtf8 = authCredUtf8;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -188,7 +198,6 @@ public class ComDayCqWcmFoundationImplHTTPAuthHandlerProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComDayCqWcmFoundationImplHTTPAuthHandlerProperties {\n");
-    
     sb.append("    path: ").append(toIndentedString(path)).append("\n");
     sb.append("    authHttpNologin: ").append(toIndentedString(authHttpNologin)).append("\n");
     sb.append("    authHttpRealm: ").append(toIndentedString(authHttpRealm)).append("\n");
@@ -203,11 +212,8 @@ public class ComDayCqWcmFoundationImplHTTPAuthHandlerProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

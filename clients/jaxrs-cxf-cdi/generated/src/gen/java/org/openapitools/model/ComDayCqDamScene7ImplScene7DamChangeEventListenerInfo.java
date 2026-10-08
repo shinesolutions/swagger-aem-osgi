@@ -2,31 +2,32 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ComDayCqDamScene7ImplScene7DamChangeEventListenerProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class ComDayCqDamScene7ImplScene7DamChangeEventListenerInfo   {
   
-  private String pid = null;
+  private String pid;
 
-  private String title = null;
+  private String title;
 
-  private String description = null;
+  private String description;
 
-  private ComDayCqDamScene7ImplScene7DamChangeEventListenerProperties properties = null;
+  private ComDayCqDamScene7ImplScene7DamChangeEventListenerProperties properties;
 
-  private String bundleLocation = null;
+  private String bundleLocation;
 
-  private String serviceLocation = null;
-
+  private String serviceLocation;
 
   /**
    **/
@@ -138,7 +139,7 @@ public class ComDayCqDamScene7ImplScene7DamChangeEventListenerInfo   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -146,12 +147,12 @@ public class ComDayCqDamScene7ImplScene7DamChangeEventListenerInfo   {
       return false;
     }
     ComDayCqDamScene7ImplScene7DamChangeEventListenerInfo comDayCqDamScene7ImplScene7DamChangeEventListenerInfo = (ComDayCqDamScene7ImplScene7DamChangeEventListenerInfo) o;
-    return Objects.equals(pid, comDayCqDamScene7ImplScene7DamChangeEventListenerInfo.pid) &&
-        Objects.equals(title, comDayCqDamScene7ImplScene7DamChangeEventListenerInfo.title) &&
-        Objects.equals(description, comDayCqDamScene7ImplScene7DamChangeEventListenerInfo.description) &&
-        Objects.equals(properties, comDayCqDamScene7ImplScene7DamChangeEventListenerInfo.properties) &&
-        Objects.equals(bundleLocation, comDayCqDamScene7ImplScene7DamChangeEventListenerInfo.bundleLocation) &&
-        Objects.equals(serviceLocation, comDayCqDamScene7ImplScene7DamChangeEventListenerInfo.serviceLocation);
+    return Objects.equals(this.pid, comDayCqDamScene7ImplScene7DamChangeEventListenerInfo.pid) &&
+        Objects.equals(this.title, comDayCqDamScene7ImplScene7DamChangeEventListenerInfo.title) &&
+        Objects.equals(this.description, comDayCqDamScene7ImplScene7DamChangeEventListenerInfo.description) &&
+        Objects.equals(this.properties, comDayCqDamScene7ImplScene7DamChangeEventListenerInfo.properties) &&
+        Objects.equals(this.bundleLocation, comDayCqDamScene7ImplScene7DamChangeEventListenerInfo.bundleLocation) &&
+        Objects.equals(this.serviceLocation, comDayCqDamScene7ImplScene7DamChangeEventListenerInfo.serviceLocation);
   }
 
   @Override
@@ -178,11 +179,8 @@ public class ComDayCqDamScene7ImplScene7DamChangeEventListenerInfo   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

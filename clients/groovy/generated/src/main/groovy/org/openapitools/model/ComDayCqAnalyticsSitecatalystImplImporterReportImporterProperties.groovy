@@ -7,8 +7,8 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class ComDayCqAnalyticsSitecatalystImplImporterReportImporterProperties {
-    ConfigNodePropertyInteger reportFetchAttempts = null
-
-    ConfigNodePropertyInteger reportFetchDelay = null
-
+    
+    ConfigNodePropertyInteger reportFetchAttempts
+    
+    ConfigNodePropertyInteger reportFetchDelay
 }

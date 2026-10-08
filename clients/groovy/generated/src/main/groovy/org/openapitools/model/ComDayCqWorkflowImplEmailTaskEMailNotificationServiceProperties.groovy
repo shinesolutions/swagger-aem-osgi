@@ -7,8 +7,8 @@ import org.openapitools.model.ConfigNodePropertyBoolean;
 
 @Canonical
 class ComDayCqWorkflowImplEmailTaskEMailNotificationServiceProperties {
-    ConfigNodePropertyBoolean notifyOnupdate = null
-
-    ConfigNodePropertyBoolean notifyOncomplete = null
-
+    
+    ConfigNodePropertyBoolean notifyOnupdate
+    
+    ConfigNodePropertyBoolean notifyOncomplete
 }

@@ -1,0 +1,20 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "enabled" },
+      {"model": "config_path" },
+      {"model": "fallback_paths" },
+      {"model": "config_collection_inheritance_property_names" },
+    ]
+  }]
+}

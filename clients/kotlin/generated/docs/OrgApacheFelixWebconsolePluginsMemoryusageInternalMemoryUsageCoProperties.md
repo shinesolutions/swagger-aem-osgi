@@ -2,11 +2,11 @@
 # OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCoProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**felixPeriodmemoryusagePerioddumpPeriodthreshold** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**felixPeriodmemoryusagePerioddumpPeriodinterval** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**felixPeriodmemoryusagePerioddumpPeriodlocation** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **felixMemoryusageDumpThreshold** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **felixMemoryusageDumpInterval** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **felixMemoryusageDumpLocation** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
 
 
 

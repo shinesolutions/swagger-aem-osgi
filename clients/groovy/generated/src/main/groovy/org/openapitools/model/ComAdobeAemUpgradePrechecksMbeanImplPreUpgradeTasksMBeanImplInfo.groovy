@@ -7,16 +7,16 @@ import org.openapitools.model.ComAdobeAemUpgradePrechecksMbeanImplPreUpgradeTask
 
 @Canonical
 class ComAdobeAemUpgradePrechecksMbeanImplPreUpgradeTasksMBeanImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeAemUpgradePrechecksMbeanImplPreUpgradeTasksMBeanImplProperties properties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeAemUpgradePrechecksMbeanImplPreUpgradeTasksMBeanImplProperties properties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

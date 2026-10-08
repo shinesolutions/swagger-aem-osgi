@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqWcmDesignimporterParserTaghandlersFactoryI
 
 @Canonical
 class ComDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTProperties properties
 }

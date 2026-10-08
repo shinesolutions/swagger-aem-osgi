@@ -72,9 +72,9 @@ private class OASOrgApacheSlingSecurityImplContentTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASOrgApacheSlingSecurityImplContent orgApacheSlingSecurityImplContentDispositionFilterProperties = new OASOrgApacheSlingSecurityImplContent();
-        Map<String, String> propertyMappings = orgApacheSlingSecurityImplContentDispositionFilterProperties.getPropertyMappings();
-        System.assertEquals('slingContentDispositionPaths', propertyMappings.get('sling.content.disposition.paths'));
-        System.assertEquals('slingContentDispositionExcludedPaths', propertyMappings.get('sling.content.disposition.excluded.paths'));
-        System.assertEquals('slingContentDispositionAllPaths', propertyMappings.get('sling.content.disposition.all.paths'));
+        Map<String, String> x-property-mappings = orgApacheSlingSecurityImplContentDispositionFilterProperties.getx-property-mappings();
+        System.assertEquals('slingContentDispositionPaths', x-property-mappings.get('sling.content.disposition.paths'));
+        System.assertEquals('slingContentDispositionExcludedPaths', x-property-mappings.get('sling.content.disposition.excluded.paths'));
+        System.assertEquals('slingContentDispositionAllPaths', x-property-mappings.get('sling.content.disposition.all.paths'));
     }
 }

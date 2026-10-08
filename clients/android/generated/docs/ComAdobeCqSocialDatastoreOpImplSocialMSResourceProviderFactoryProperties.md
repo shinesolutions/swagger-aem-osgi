@@ -1,7 +1,9 @@
 
+
 # ComAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactoryProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **solrZkTimeout** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
@@ -11,6 +13,7 @@ Name | Type | Description | Notes
 **cacheStartSize** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
 **cacheTtl** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
 **cacheSize** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
+
 
 
 

@@ -2,27 +2,28 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ComAdobeCqSocialForumDispatcherImplFlushOperationsProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class ComAdobeCqSocialForumDispatcherImplFlushOperationsInfo   {
   
-  private String pid = null;
+  private String pid;
 
-  private String title = null;
+  private String title;
 
-  private String description = null;
+  private String description;
 
-  private ComAdobeCqSocialForumDispatcherImplFlushOperationsProperties properties = null;
-
+  private ComAdobeCqSocialForumDispatcherImplFlushOperationsProperties properties;
 
   /**
    **/
@@ -98,7 +99,7 @@ public class ComAdobeCqSocialForumDispatcherImplFlushOperationsInfo   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -106,10 +107,10 @@ public class ComAdobeCqSocialForumDispatcherImplFlushOperationsInfo   {
       return false;
     }
     ComAdobeCqSocialForumDispatcherImplFlushOperationsInfo comAdobeCqSocialForumDispatcherImplFlushOperationsInfo = (ComAdobeCqSocialForumDispatcherImplFlushOperationsInfo) o;
-    return Objects.equals(pid, comAdobeCqSocialForumDispatcherImplFlushOperationsInfo.pid) &&
-        Objects.equals(title, comAdobeCqSocialForumDispatcherImplFlushOperationsInfo.title) &&
-        Objects.equals(description, comAdobeCqSocialForumDispatcherImplFlushOperationsInfo.description) &&
-        Objects.equals(properties, comAdobeCqSocialForumDispatcherImplFlushOperationsInfo.properties);
+    return Objects.equals(this.pid, comAdobeCqSocialForumDispatcherImplFlushOperationsInfo.pid) &&
+        Objects.equals(this.title, comAdobeCqSocialForumDispatcherImplFlushOperationsInfo.title) &&
+        Objects.equals(this.description, comAdobeCqSocialForumDispatcherImplFlushOperationsInfo.description) &&
+        Objects.equals(this.properties, comAdobeCqSocialForumDispatcherImplFlushOperationsInfo.properties);
   }
 
   @Override
@@ -134,11 +135,8 @@ public class ComAdobeCqSocialForumDispatcherImplFlushOperationsInfo   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

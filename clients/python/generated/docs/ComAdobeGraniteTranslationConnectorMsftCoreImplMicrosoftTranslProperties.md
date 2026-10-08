@@ -1,6 +1,8 @@
 # ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslProperties
 
+
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **translation_factory** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
@@ -13,6 +15,23 @@ Name | Type | Description | Notes
 **retry_attempts** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  | [optional] 
 **timeout_count** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  | [optional] 
 
+## Example
+
+```python
+from swaggeraemosgi.models.com_adobe_granite_translation_connector_msft_core_impl_microsoft_transl_properties import ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslProperties
+
+# TODO update the JSON string below
+json = "{}"
+# create an instance of ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslProperties from a JSON string
+com_adobe_granite_translation_connector_msft_core_impl_microsoft_transl_properties_instance = ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslProperties.from_json(json)
+# print the JSON string representation of the object
+print(ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslProperties.to_json())
+
+# convert the object into a dict
+com_adobe_granite_translation_connector_msft_core_impl_microsoft_transl_properties_dict = com_adobe_granite_translation_connector_msft_core_impl_microsoft_transl_properties_instance.to_dict()
+# create an instance of ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslProperties from a dict
+com_adobe_granite_translation_connector_msft_core_impl_microsoft_transl_properties_from_dict = ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslProperties.from_dict(com_adobe_granite_translation_connector_msft_core_impl_microsoft_transl_properties_dict)
+```
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 
 

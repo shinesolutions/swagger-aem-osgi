@@ -2,35 +2,48 @@ package apimodels;
 
 import apimodels.ConfigNodePropertyInteger;
 import apimodels.ConfigNodePropertyString;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * ComDayCqDamIdsImplIDSPoolManagerImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class ComDayCqDamIdsImplIDSPoolManagerImplProperties   {
   @JsonProperty("max.errors.to.blacklist")
-  private ConfigNodePropertyInteger maxErrorsToBlacklist = null;
+  @Valid
+
+  private ConfigNodePropertyInteger maxErrorsToBlacklist;
 
   @JsonProperty("retry.interval.to.whitelist")
-  private ConfigNodePropertyInteger retryIntervalToWhitelist = null;
+  @Valid
+
+  private ConfigNodePropertyInteger retryIntervalToWhitelist;
 
   @JsonProperty("connect.timeout")
-  private ConfigNodePropertyInteger connectTimeout = null;
+  @Valid
+
+  private ConfigNodePropertyInteger connectTimeout;
 
   @JsonProperty("socket.timeout")
-  private ConfigNodePropertyInteger socketTimeout = null;
+  @Valid
+
+  private ConfigNodePropertyInteger socketTimeout;
 
   @JsonProperty("process.label")
-  private ConfigNodePropertyString processLabel = null;
+  @Valid
+
+  private ConfigNodePropertyString processLabel;
 
   @JsonProperty("connection.use.max")
-  private ConfigNodePropertyInteger connectionUseMax = null;
+  @Valid
+
+  private ConfigNodePropertyInteger connectionUseMax;
 
   public ComDayCqDamIdsImplIDSPoolManagerImplProperties maxErrorsToBlacklist(ConfigNodePropertyInteger maxErrorsToBlacklist) {
     this.maxErrorsToBlacklist = maxErrorsToBlacklist;
@@ -41,7 +54,6 @@ public class ComDayCqDamIdsImplIDSPoolManagerImplProperties   {
    * Get maxErrorsToBlacklist
    * @return maxErrorsToBlacklist
   **/
-  @Valid
   public ConfigNodePropertyInteger getMaxErrorsToBlacklist() {
     return maxErrorsToBlacklist;
   }
@@ -59,7 +71,6 @@ public class ComDayCqDamIdsImplIDSPoolManagerImplProperties   {
    * Get retryIntervalToWhitelist
    * @return retryIntervalToWhitelist
   **/
-  @Valid
   public ConfigNodePropertyInteger getRetryIntervalToWhitelist() {
     return retryIntervalToWhitelist;
   }
@@ -77,7 +88,6 @@ public class ComDayCqDamIdsImplIDSPoolManagerImplProperties   {
    * Get connectTimeout
    * @return connectTimeout
   **/
-  @Valid
   public ConfigNodePropertyInteger getConnectTimeout() {
     return connectTimeout;
   }
@@ -95,7 +105,6 @@ public class ComDayCqDamIdsImplIDSPoolManagerImplProperties   {
    * Get socketTimeout
    * @return socketTimeout
   **/
-  @Valid
   public ConfigNodePropertyInteger getSocketTimeout() {
     return socketTimeout;
   }
@@ -113,7 +122,6 @@ public class ComDayCqDamIdsImplIDSPoolManagerImplProperties   {
    * Get processLabel
    * @return processLabel
   **/
-  @Valid
   public ConfigNodePropertyString getProcessLabel() {
     return processLabel;
   }
@@ -131,7 +139,6 @@ public class ComDayCqDamIdsImplIDSPoolManagerImplProperties   {
    * Get connectionUseMax
    * @return connectionUseMax
   **/
-  @Valid
   public ConfigNodePropertyInteger getConnectionUseMax() {
     return connectionUseMax;
   }
@@ -142,7 +149,7 @@ public class ComDayCqDamIdsImplIDSPoolManagerImplProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -183,11 +190,8 @@ public class ComDayCqDamIdsImplIDSPoolManagerImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

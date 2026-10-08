@@ -8,8 +8,8 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmenProperties {
-    ConfigNodePropertyString attachmentTypeBlacklist = null
-
-    ConfigNodePropertyInteger extensionOrder = null
-
+    
+    ConfigNodePropertyString attachmentTypeBlacklist
+    
+    ConfigNodePropertyInteger extensionOrder
 }

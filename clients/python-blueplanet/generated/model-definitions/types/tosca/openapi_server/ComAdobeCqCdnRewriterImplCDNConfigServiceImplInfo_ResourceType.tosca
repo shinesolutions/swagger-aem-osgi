@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqCdnRewriterImplCDNConfigServiceImplInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqCdnRewriterImplCDNConfigServiceImplInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComAdobeCqCdnRewriterImplCDNConfigServiceImplProperties = openapi_server.resourceTypes.ComAdobeCqCdnRewriterImplCDNConfigServiceImplProperties
+}
+resourceTypes {
+
+  ComAdobeCqCdnRewriterImplCDNConfigServiceImplInfo {
+    title = ComAdobeCqCdnRewriterImplCDNConfigServiceImplInfo
+    description = ComAdobeCqCdnRewriterImplCDNConfigServiceImplInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComAdobeCqCdnRewriterImplCDNConfigServiceImplProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqCdnRewriterImplCDNConfigServiceImplInfo {
+    title = ComAdobeCqCdnRewriterImplCDNConfigServiceImplInfo
+    description = ComAdobeCqCdnRewriterImplCDNConfigServiceImplInfo
+    implements = openapi_server.resourceTypes.ComAdobeCqCdnRewriterImplCDNConfigServiceImplInfo
+
+  }
+}

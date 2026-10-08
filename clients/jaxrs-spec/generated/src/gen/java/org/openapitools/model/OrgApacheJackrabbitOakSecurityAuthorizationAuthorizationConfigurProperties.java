@@ -1,24 +1,35 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyDropDown;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("orgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurProperties   {
-  
-  private @Valid ConfigNodePropertyDropDown permissionsJr2 = null;
-  private @Valid ConfigNodePropertyDropDown importBehavior = null;
-  private @Valid ConfigNodePropertyArray readPaths = null;
-  private @Valid ConfigNodePropertyArray administrativePrincipals = null;
-  private @Valid ConfigNodePropertyInteger configurationRanking = null;
+  private ConfigNodePropertyDropDown permissionsJr2;
+  private ConfigNodePropertyDropDown importBehavior;
+  private ConfigNodePropertyArray readPaths;
+  private ConfigNodePropertyArray administrativePrincipals;
+  private ConfigNodePropertyInteger configurationRanking;
+
+  public OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurProperties() {
+  }
 
   /**
    **/
@@ -30,9 +41,11 @@ public class OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurPro
   
   @ApiModelProperty(value = "")
   @JsonProperty("permissionsJr2")
-  public ConfigNodePropertyDropDown getPermissionsJr2() {
+  @Valid public ConfigNodePropertyDropDown getPermissionsJr2() {
     return permissionsJr2;
   }
+
+  @JsonProperty("permissionsJr2")
   public void setPermissionsJr2(ConfigNodePropertyDropDown permissionsJr2) {
     this.permissionsJr2 = permissionsJr2;
   }
@@ -47,9 +60,11 @@ public class OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurPro
   
   @ApiModelProperty(value = "")
   @JsonProperty("importBehavior")
-  public ConfigNodePropertyDropDown getImportBehavior() {
+  @Valid public ConfigNodePropertyDropDown getImportBehavior() {
     return importBehavior;
   }
+
+  @JsonProperty("importBehavior")
   public void setImportBehavior(ConfigNodePropertyDropDown importBehavior) {
     this.importBehavior = importBehavior;
   }
@@ -64,9 +79,11 @@ public class OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurPro
   
   @ApiModelProperty(value = "")
   @JsonProperty("readPaths")
-  public ConfigNodePropertyArray getReadPaths() {
+  @Valid public ConfigNodePropertyArray getReadPaths() {
     return readPaths;
   }
+
+  @JsonProperty("readPaths")
   public void setReadPaths(ConfigNodePropertyArray readPaths) {
     this.readPaths = readPaths;
   }
@@ -81,9 +98,11 @@ public class OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurPro
   
   @ApiModelProperty(value = "")
   @JsonProperty("administrativePrincipals")
-  public ConfigNodePropertyArray getAdministrativePrincipals() {
+  @Valid public ConfigNodePropertyArray getAdministrativePrincipals() {
     return administrativePrincipals;
   }
+
+  @JsonProperty("administrativePrincipals")
   public void setAdministrativePrincipals(ConfigNodePropertyArray administrativePrincipals) {
     this.administrativePrincipals = administrativePrincipals;
   }
@@ -98,16 +117,18 @@ public class OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurPro
   
   @ApiModelProperty(value = "")
   @JsonProperty("configurationRanking")
-  public ConfigNodePropertyInteger getConfigurationRanking() {
+  @Valid public ConfigNodePropertyInteger getConfigurationRanking() {
     return configurationRanking;
   }
+
+  @JsonProperty("configurationRanking")
   public void setConfigurationRanking(ConfigNodePropertyInteger configurationRanking) {
     this.configurationRanking = configurationRanking;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -115,11 +136,11 @@ public class OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurPro
       return false;
     }
     OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurProperties orgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurProperties = (OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurProperties) o;
-    return Objects.equals(permissionsJr2, orgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurProperties.permissionsJr2) &&
-        Objects.equals(importBehavior, orgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurProperties.importBehavior) &&
-        Objects.equals(readPaths, orgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurProperties.readPaths) &&
-        Objects.equals(administrativePrincipals, orgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurProperties.administrativePrincipals) &&
-        Objects.equals(configurationRanking, orgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurProperties.configurationRanking);
+    return Objects.equals(this.permissionsJr2, orgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurProperties.permissionsJr2) &&
+        Objects.equals(this.importBehavior, orgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurProperties.importBehavior) &&
+        Objects.equals(this.readPaths, orgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurProperties.readPaths) &&
+        Objects.equals(this.administrativePrincipals, orgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurProperties.administrativePrincipals) &&
+        Objects.equals(this.configurationRanking, orgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurProperties.configurationRanking);
   }
 
   @Override
@@ -145,11 +166,9 @@ public class OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurPro
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

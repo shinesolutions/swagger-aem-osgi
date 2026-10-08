@@ -72,10 +72,10 @@ private class OASComAdobeGraniteAuthOauthImplGithuTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeGraniteAuthOauthImplGithu comAdobeGraniteAuthOauthImplGithubProviderImplProperties = new OASComAdobeGraniteAuthOauthImplGithu();
-        Map<String, String> propertyMappings = comAdobeGraniteAuthOauthImplGithubProviderImplProperties.getPropertyMappings();
-        System.assertEquals('oauthProviderId', propertyMappings.get('oauth.provider.id'));
-        System.assertEquals('oauthProviderGithubAuthorizationUrl', propertyMappings.get('oauth.provider.github.authorization.url'));
-        System.assertEquals('oauthProviderGithubTokenUrl', propertyMappings.get('oauth.provider.github.token.url'));
-        System.assertEquals('oauthProviderGithubProfileUrl', propertyMappings.get('oauth.provider.github.profile.url'));
+        Map<String, String> x-property-mappings = comAdobeGraniteAuthOauthImplGithubProviderImplProperties.getx-property-mappings();
+        System.assertEquals('oauthProviderId', x-property-mappings.get('oauth.provider.id'));
+        System.assertEquals('oauthProviderGithubAuthorizationUrl', x-property-mappings.get('oauth.provider.github.authorization.url'));
+        System.assertEquals('oauthProviderGithubTokenUrl', x-property-mappings.get('oauth.provider.github.token.url'));
+        System.assertEquals('oauthProviderGithubProfileUrl', x-property-mappings.get('oauth.provider.github.profile.url'));
     }
 }

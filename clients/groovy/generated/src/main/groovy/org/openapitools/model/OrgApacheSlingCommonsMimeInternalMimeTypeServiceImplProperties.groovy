@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyArray;
 
 @Canonical
 class OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplProperties {
-    ConfigNodePropertyArray mimeTypes = null
-
+    
+    ConfigNodePropertyArray mimeTypes
 }

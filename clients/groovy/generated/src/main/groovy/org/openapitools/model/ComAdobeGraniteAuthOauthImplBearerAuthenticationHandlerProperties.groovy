@@ -9,16 +9,16 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerProperties {
-    ConfigNodePropertyString path = null
-
-    ConfigNodePropertyArray oauthClientIdsAllowed = null
-
-    ConfigNodePropertyBoolean authBearerSyncIms = null
-
-    ConfigNodePropertyString authTokenRequestParameter = null
-
-    ConfigNodePropertyString oauthBearerConfigid = null
-
-    ConfigNodePropertyBoolean oauthJwtSupport = null
-
+    
+    ConfigNodePropertyString path
+    
+    ConfigNodePropertyArray oauthClientIdsAllowed
+    
+    ConfigNodePropertyBoolean authBearerSyncIms
+    
+    ConfigNodePropertyString authTokenRequestParameter
+    
+    ConfigNodePropertyString oauthBearerConfigid
+    
+    ConfigNodePropertyBoolean oauthJwtSupport
 }

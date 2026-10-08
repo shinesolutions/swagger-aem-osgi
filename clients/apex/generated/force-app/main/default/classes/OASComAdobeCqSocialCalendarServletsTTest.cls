@@ -72,7 +72,7 @@ private class OASComAdobeCqSocialCalendarServletsTTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeCqSocialCalendarServletsT comAdobeCqSocialCalendarServletsTimeZoneServletProperties = new OASComAdobeCqSocialCalendarServletsT();
-        Map<String, String> propertyMappings = comAdobeCqSocialCalendarServletsTimeZoneServletProperties.getPropertyMappings();
-        System.assertEquals('timezonesExpirytime', propertyMappings.get('timezones.expirytime'));
+        Map<String, String> x-property-mappings = comAdobeCqSocialCalendarServletsTimeZoneServletProperties.getx-property-mappings();
+        System.assertEquals('timezonesExpirytime', x-property-mappings.get('timezones.expirytime'));
     }
 }

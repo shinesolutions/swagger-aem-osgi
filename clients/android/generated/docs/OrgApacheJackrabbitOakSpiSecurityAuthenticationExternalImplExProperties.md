@@ -1,7 +1,9 @@
 
+
 # OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **jaasRanking** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
@@ -9,6 +11,7 @@ Name | Type | Description | Notes
 **jaasRealmName** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
 **idpName** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
 **syncHandlerName** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
+
 
 
 

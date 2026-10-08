@@ -8,8 +8,8 @@ import org.openapitools.model.ConfigNodePropertyBoolean;
 
 @Canonical
 class ComDayCqWidgetImplWidgetExtensionProviderImplProperties {
-    ConfigNodePropertyArray extendableWidgets = null
-
-    ConfigNodePropertyBoolean widgetextensionproviderDebug = null
-
+    
+    ConfigNodePropertyArray extendableWidgets
+    
+    ConfigNodePropertyBoolean widgetextensionproviderDebug
 }

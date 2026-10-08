@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyArray;
 
 @Canonical
 class ComDayCqDamCoreImplDamChangeEventListenerProperties {
-    ConfigNodePropertyArray changeeventlistenerObservedPaths = null
-
+    
+    ConfigNodePropertyArray changeeventlistenerObservedPaths
 }

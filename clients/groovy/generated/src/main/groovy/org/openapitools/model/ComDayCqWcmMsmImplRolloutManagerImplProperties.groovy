@@ -11,22 +11,22 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqWcmMsmImplRolloutManagerImplProperties {
-    ConfigNodePropertyString eventFilter = null
-
-    ConfigNodePropertyArray rolloutmgrExcludedpropsDefault = null
-
-    ConfigNodePropertyArray rolloutmgrExcludedparagraphpropsDefault = null
-
-    ConfigNodePropertyArray rolloutmgrExcludednodetypesDefault = null
-
-    ConfigNodePropertyInteger rolloutmgrThreadpoolMaxsize = null
-
-    ConfigNodePropertyInteger rolloutmgrThreadpoolMaxshutdowntime = null
-
-    ConfigNodePropertyDropDown rolloutmgrThreadpoolPriority = null
-
-    ConfigNodePropertyInteger rolloutmgrCommitSize = null
-
-    ConfigNodePropertyBoolean rolloutmgrConflicthandlingEnabled = null
-
+    
+    ConfigNodePropertyString eventFilter
+    
+    ConfigNodePropertyArray rolloutmgrExcludedpropsDefault
+    
+    ConfigNodePropertyArray rolloutmgrExcludedparagraphpropsDefault
+    
+    ConfigNodePropertyArray rolloutmgrExcludednodetypesDefault
+    
+    ConfigNodePropertyInteger rolloutmgrThreadpoolMaxsize
+    
+    ConfigNodePropertyInteger rolloutmgrThreadpoolMaxshutdowntime
+    
+    ConfigNodePropertyDropDown rolloutmgrThreadpoolPriority
+    
+    ConfigNodePropertyInteger rolloutmgrCommitSize
+    
+    ConfigNodePropertyBoolean rolloutmgrConflicthandlingEnabled
 }

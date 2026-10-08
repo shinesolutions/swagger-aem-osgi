@@ -2,10 +2,10 @@
 # ComAdobeCqSocialUgcbaseModerationImplAutoModerationImplProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**automoderationPeriodsequence** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**automoderationPeriodonfailurestop** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **automoderationSequence** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **automoderationOnfailurestop** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
 
 
 

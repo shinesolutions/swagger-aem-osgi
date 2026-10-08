@@ -2,20 +2,21 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**nui_enabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] 
-**nui_service_url** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
-**nui_api_key** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **nui_enabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] |
+| **nui_service_url** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] |
+| **nui_api_key** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComAdobeCqDamProcessorNuiImplNuiAssetProcessorProperties.new(nui_enabled: null,
-                                 nui_service_url: null,
-                                 nui_api_key: null)
+instance = SwaggerAemOsgiClient::ComAdobeCqDamProcessorNuiImplNuiAssetProcessorProperties.new(
+  nui_enabled: null,
+  nui_service_url: null,
+  nui_api_key: null
+)
 ```
-
 

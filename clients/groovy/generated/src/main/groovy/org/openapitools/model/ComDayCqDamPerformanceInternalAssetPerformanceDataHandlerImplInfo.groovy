@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqDamPerformanceInternalAssetPerformanceData
 
 @Canonical
 class ComDayCqDamPerformanceInternalAssetPerformanceDataHandlerImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqDamPerformanceInternalAssetPerformanceDataHandlerImplProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqDamPerformanceInternalAssetPerformanceDataHandlerImplProperties properties
 }

@@ -1,0 +1,20 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "datasource_name" },
+      {"model": "datasource_svc_prop_name" },
+      {"model": "datasource_jndi_name" },
+      {"model": "jndi_properties" },
+    ]
+  }]
+}

@@ -1,0 +1,105 @@
+{
+  "namespace": "model",
+  "type": "record",
+  "doc": "",
+  "name": "OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties",
+  "fields": [
+    {
+      "name": "usersPath",
+      "type": ["null", "model.ConfigNodePropertyString"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "groupsPath",
+      "type": ["null", "model.ConfigNodePropertyString"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "systemRelativePath",
+      "type": ["null", "model.ConfigNodePropertyString"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "defaultDepth",
+      "type": ["null", "model.ConfigNodePropertyInteger"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "importBehavior",
+      "type": ["null", "model.ConfigNodePropertyDropDown"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "passwordHashAlgorithm",
+      "type": ["null", "model.ConfigNodePropertyString"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "passwordHashIterations",
+      "type": ["null", "model.ConfigNodePropertyInteger"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "passwordSaltSize",
+      "type": ["null", "model.ConfigNodePropertyInteger"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "omitAdminPw",
+      "type": ["null", "model.ConfigNodePropertyBoolean"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "supportAutoSave",
+      "type": ["null", "model.ConfigNodePropertyBoolean"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "passwordMaxAge",
+      "type": ["null", "model.ConfigNodePropertyInteger"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "initialPasswordChange",
+      "type": ["null", "model.ConfigNodePropertyBoolean"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "passwordHistorySize",
+      "type": ["null", "model.ConfigNodePropertyInteger"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "passwordExpiryForAdmin",
+      "type": ["null", "model.ConfigNodePropertyBoolean"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "cacheExpiration",
+      "type": ["null", "model.ConfigNodePropertyInteger"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "enableRFC7613UsercaseMappedProfile",
+      "type": ["null", "model.ConfigNodePropertyBoolean"],
+      "doc": "",
+      "default": null
+    }
+  ]
+
+}

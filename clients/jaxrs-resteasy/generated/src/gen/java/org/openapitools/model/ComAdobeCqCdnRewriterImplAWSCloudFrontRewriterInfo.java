@@ -4,18 +4,21 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ComAdobeCqCdnRewriterImplAWSCloudFrontRewriterProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2019-08-05T00:59:30.156Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2026-10-07T12:54:21.614735164Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeCqCdnRewriterImplAWSCloudFrontRewriterInfo   {
   
-  private String pid = null;
-  private String title = null;
-  private String description = null;
-  private ComAdobeCqCdnRewriterImplAWSCloudFrontRewriterProperties properties = null;
+  private String pid;
+  private String title;
+  private String description;
+  private ComAdobeCqCdnRewriterImplAWSCloudFrontRewriterProperties properties;
 
   /**
    **/
@@ -58,6 +61,7 @@ public class ComAdobeCqCdnRewriterImplAWSCloudFrontRewriterInfo   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("properties")
+  @Valid
   public ComAdobeCqCdnRewriterImplAWSCloudFrontRewriterProperties getProperties() {
     return properties;
   }
@@ -67,7 +71,7 @@ public class ComAdobeCqCdnRewriterImplAWSCloudFrontRewriterInfo   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -75,10 +79,10 @@ public class ComAdobeCqCdnRewriterImplAWSCloudFrontRewriterInfo   {
       return false;
     }
     ComAdobeCqCdnRewriterImplAWSCloudFrontRewriterInfo comAdobeCqCdnRewriterImplAWSCloudFrontRewriterInfo = (ComAdobeCqCdnRewriterImplAWSCloudFrontRewriterInfo) o;
-    return Objects.equals(pid, comAdobeCqCdnRewriterImplAWSCloudFrontRewriterInfo.pid) &&
-        Objects.equals(title, comAdobeCqCdnRewriterImplAWSCloudFrontRewriterInfo.title) &&
-        Objects.equals(description, comAdobeCqCdnRewriterImplAWSCloudFrontRewriterInfo.description) &&
-        Objects.equals(properties, comAdobeCqCdnRewriterImplAWSCloudFrontRewriterInfo.properties);
+    return Objects.equals(this.pid, comAdobeCqCdnRewriterImplAWSCloudFrontRewriterInfo.pid) &&
+        Objects.equals(this.title, comAdobeCqCdnRewriterImplAWSCloudFrontRewriterInfo.title) &&
+        Objects.equals(this.description, comAdobeCqCdnRewriterImplAWSCloudFrontRewriterInfo.description) &&
+        Objects.equals(this.properties, comAdobeCqCdnRewriterImplAWSCloudFrontRewriterInfo.properties);
   }
 
   @Override
@@ -103,11 +107,8 @@ public class ComAdobeCqCdnRewriterImplAWSCloudFrontRewriterInfo   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

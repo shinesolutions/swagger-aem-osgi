@@ -8,10 +8,10 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class OrgApacheJackrabbitOakPluginsObservationChangeCollectorProviderProperties {
-    ConfigNodePropertyInteger maxItems = null
-
-    ConfigNodePropertyInteger maxPathDepth = null
-
-    ConfigNodePropertyBoolean enabled = null
-
+    
+    ConfigNodePropertyInteger maxItems
+    
+    ConfigNodePropertyInteger maxPathDepth
+    
+    ConfigNodePropertyBoolean enabled
 }

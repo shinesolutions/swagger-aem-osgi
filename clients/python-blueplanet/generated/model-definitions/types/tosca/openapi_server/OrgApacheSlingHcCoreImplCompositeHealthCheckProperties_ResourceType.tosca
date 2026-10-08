@@ -1,0 +1,58 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingHcCoreImplCompositeHealthCheckProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingHcCoreImplCompositeHealthCheckProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  OrgApacheSlingHcCoreImplCompositeHealthCheckProperties {
+    title = OrgApacheSlingHcCoreImplCompositeHealthCheckProperties
+    description = OrgApacheSlingHcCoreImplCompositeHealthCheckProperties
+    derivedFrom = Root
+    properties {
+        hc_name {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        hc_tags {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        hc_mbean_name {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        filter_tags {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        filter_combine_tags_with_or {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingHcCoreImplCompositeHealthCheckProperties {
+    title = OrgApacheSlingHcCoreImplCompositeHealthCheckProperties
+    description = OrgApacheSlingHcCoreImplCompositeHealthCheckProperties
+    implements = openapi_server.resourceTypes.OrgApacheSlingHcCoreImplCompositeHealthCheckProperties
+
+  }
+}

@@ -2,15 +2,15 @@
 # OrgApacheSlingInstallerProviderJcrImplJcrInstallerProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**handlerPeriodschemes** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**slingPeriodjcrinstallPeriodfolderPeriodnamePeriodregexp** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**slingPeriodjcrinstallPeriodfolderPeriodmaxPerioddepth** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**slingPeriodjcrinstallPeriodsearchPeriodpath** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**slingPeriodjcrinstallPeriodnewPeriodconfigPeriodpath** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**slingPeriodjcrinstallPeriodsignalPeriodpath** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**slingPeriodjcrinstallPeriodenablePeriodwriteback** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **handlerSchemes** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **slingJcrinstallFolderNameRegexp** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **slingJcrinstallFolderMaxDepth** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **slingJcrinstallSearchPath** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **slingJcrinstallNewConfigPath** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **slingJcrinstallSignalPath** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **slingJcrinstallEnableWriteback** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
 
 
 

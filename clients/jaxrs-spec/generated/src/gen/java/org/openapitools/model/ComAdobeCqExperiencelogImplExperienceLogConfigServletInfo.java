@@ -1,24 +1,35 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ComAdobeCqExperiencelogImplExperienceLogConfigServletProperties;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comAdobeCqExperiencelogImplExperienceLogConfigServletInfo")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeCqExperiencelogImplExperienceLogConfigServletInfo   {
-  
-  private @Valid String pid = null;
-  private @Valid String title = null;
-  private @Valid String description = null;
-  private @Valid ComAdobeCqExperiencelogImplExperienceLogConfigServletProperties properties = null;
-  private @Valid String additionalProperties = null;
-  private @Valid String bundleLocation = null;
-  private @Valid String serviceLocation = null;
+  private String pid;
+  private String title;
+  private String description;
+  private ComAdobeCqExperiencelogImplExperienceLogConfigServletProperties properties;
+  private String additionalProperties;
+  private String bundleLocation;
+  private String serviceLocation;
+
+  public ComAdobeCqExperiencelogImplExperienceLogConfigServletInfo() {
+  }
 
   /**
    **/
@@ -33,6 +44,8 @@ public class ComAdobeCqExperiencelogImplExperienceLogConfigServletInfo   {
   public String getPid() {
     return pid;
   }
+
+  @JsonProperty("pid")
   public void setPid(String pid) {
     this.pid = pid;
   }
@@ -50,6 +63,8 @@ public class ComAdobeCqExperiencelogImplExperienceLogConfigServletInfo   {
   public String getTitle() {
     return title;
   }
+
+  @JsonProperty("title")
   public void setTitle(String title) {
     this.title = title;
   }
@@ -67,6 +82,8 @@ public class ComAdobeCqExperiencelogImplExperienceLogConfigServletInfo   {
   public String getDescription() {
     return description;
   }
+
+  @JsonProperty("description")
   public void setDescription(String description) {
     this.description = description;
   }
@@ -81,9 +98,11 @@ public class ComAdobeCqExperiencelogImplExperienceLogConfigServletInfo   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("properties")
-  public ComAdobeCqExperiencelogImplExperienceLogConfigServletProperties getProperties() {
+  @Valid public ComAdobeCqExperiencelogImplExperienceLogConfigServletProperties getProperties() {
     return properties;
   }
+
+  @JsonProperty("properties")
   public void setProperties(ComAdobeCqExperiencelogImplExperienceLogConfigServletProperties properties) {
     this.properties = properties;
   }
@@ -101,6 +120,8 @@ public class ComAdobeCqExperiencelogImplExperienceLogConfigServletInfo   {
   public String getAdditionalProperties() {
     return additionalProperties;
   }
+
+  @JsonProperty("additionalProperties")
   public void setAdditionalProperties(String additionalProperties) {
     this.additionalProperties = additionalProperties;
   }
@@ -118,6 +139,8 @@ public class ComAdobeCqExperiencelogImplExperienceLogConfigServletInfo   {
   public String getBundleLocation() {
     return bundleLocation;
   }
+
+  @JsonProperty("bundle_location")
   public void setBundleLocation(String bundleLocation) {
     this.bundleLocation = bundleLocation;
   }
@@ -135,13 +158,15 @@ public class ComAdobeCqExperiencelogImplExperienceLogConfigServletInfo   {
   public String getServiceLocation() {
     return serviceLocation;
   }
+
+  @JsonProperty("service_location")
   public void setServiceLocation(String serviceLocation) {
     this.serviceLocation = serviceLocation;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -149,13 +174,13 @@ public class ComAdobeCqExperiencelogImplExperienceLogConfigServletInfo   {
       return false;
     }
     ComAdobeCqExperiencelogImplExperienceLogConfigServletInfo comAdobeCqExperiencelogImplExperienceLogConfigServletInfo = (ComAdobeCqExperiencelogImplExperienceLogConfigServletInfo) o;
-    return Objects.equals(pid, comAdobeCqExperiencelogImplExperienceLogConfigServletInfo.pid) &&
-        Objects.equals(title, comAdobeCqExperiencelogImplExperienceLogConfigServletInfo.title) &&
-        Objects.equals(description, comAdobeCqExperiencelogImplExperienceLogConfigServletInfo.description) &&
-        Objects.equals(properties, comAdobeCqExperiencelogImplExperienceLogConfigServletInfo.properties) &&
-        Objects.equals(additionalProperties, comAdobeCqExperiencelogImplExperienceLogConfigServletInfo.additionalProperties) &&
-        Objects.equals(bundleLocation, comAdobeCqExperiencelogImplExperienceLogConfigServletInfo.bundleLocation) &&
-        Objects.equals(serviceLocation, comAdobeCqExperiencelogImplExperienceLogConfigServletInfo.serviceLocation);
+    return Objects.equals(this.pid, comAdobeCqExperiencelogImplExperienceLogConfigServletInfo.pid) &&
+        Objects.equals(this.title, comAdobeCqExperiencelogImplExperienceLogConfigServletInfo.title) &&
+        Objects.equals(this.description, comAdobeCqExperiencelogImplExperienceLogConfigServletInfo.description) &&
+        Objects.equals(this.properties, comAdobeCqExperiencelogImplExperienceLogConfigServletInfo.properties) &&
+        Objects.equals(this.additionalProperties, comAdobeCqExperiencelogImplExperienceLogConfigServletInfo.additionalProperties) &&
+        Objects.equals(this.bundleLocation, comAdobeCqExperiencelogImplExperienceLogConfigServletInfo.bundleLocation) &&
+        Objects.equals(this.serviceLocation, comAdobeCqExperiencelogImplExperienceLogConfigServletInfo.serviceLocation);
   }
 
   @Override
@@ -183,11 +208,9 @@ public class ComAdobeCqExperiencelogImplExperienceLogConfigServletInfo   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

@@ -1,0 +1,21 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "org_apache_sling_commons_log_level" },
+      {"model": "org_apache_sling_commons_log_file" },
+      {"model": "org_apache_sling_commons_log_pattern" },
+      {"model": "org_apache_sling_commons_log_names" },
+      {"model": "org_apache_sling_commons_log_additiv" },
+    ]
+  }]
+}

@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyArray;
 import com.prokarma.pkmst.model.ConfigNodePropertyInteger;
 import com.prokarma.pkmst.model.ConfigNodePropertyString;
@@ -17,42 +18,41 @@ import io.swagger.annotations.ApiModelProperty;
  * ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties   {
   @JsonProperty("event.topics")
-  private ConfigNodePropertyString eventTopics = null;
+  private ConfigNodePropertyString eventTopics;
 
   @JsonProperty("event.filter")
-  private ConfigNodePropertyString eventFilter = null;
+  private ConfigNodePropertyString eventFilter;
 
   @JsonProperty("translate.listener.type")
-  private ConfigNodePropertyArray translateListenerType = null;
+  private ConfigNodePropertyArray translateListenerType;
 
   @JsonProperty("translate.property.list")
-  private ConfigNodePropertyArray translatePropertyList = null;
+  private ConfigNodePropertyArray translatePropertyList;
 
   @JsonProperty("poolSize")
-  private ConfigNodePropertyInteger poolSize = null;
+  private ConfigNodePropertyInteger poolSize;
 
   @JsonProperty("maxPoolSize")
-  private ConfigNodePropertyInteger maxPoolSize = null;
+  private ConfigNodePropertyInteger maxPoolSize;
 
   @JsonProperty("queueSize")
-  private ConfigNodePropertyInteger queueSize = null;
+  private ConfigNodePropertyInteger queueSize;
 
   @JsonProperty("keepAliveTime")
-  private ConfigNodePropertyInteger keepAliveTime = null;
+  private ConfigNodePropertyInteger keepAliveTime;
 
   public ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties eventTopics(ConfigNodePropertyString eventTopics) {
     this.eventTopics = eventTopics;
     return this;
   }
 
-   /**
+  /**
    * Get eventTopics
    * @return eventTopics
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getEventTopics() {
     return eventTopics;
@@ -67,10 +67,10 @@ public class ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get eventFilter
    * @return eventFilter
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getEventFilter() {
     return eventFilter;
@@ -85,10 +85,10 @@ public class ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get translateListenerType
    * @return translateListenerType
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getTranslateListenerType() {
     return translateListenerType;
@@ -103,10 +103,10 @@ public class ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get translatePropertyList
    * @return translatePropertyList
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getTranslatePropertyList() {
     return translatePropertyList;
@@ -121,10 +121,10 @@ public class ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get poolSize
    * @return poolSize
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getPoolSize() {
     return poolSize;
@@ -139,10 +139,10 @@ public class ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get maxPoolSize
    * @return maxPoolSize
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getMaxPoolSize() {
     return maxPoolSize;
@@ -157,10 +157,10 @@ public class ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get queueSize
    * @return queueSize
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getQueueSize() {
     return queueSize;
@@ -175,10 +175,10 @@ public class ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get keepAliveTime
    * @return keepAliveTime
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getKeepAliveTime() {
     return keepAliveTime;
@@ -190,7 +190,7 @@ public class ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -234,11 +234,8 @@ public class ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

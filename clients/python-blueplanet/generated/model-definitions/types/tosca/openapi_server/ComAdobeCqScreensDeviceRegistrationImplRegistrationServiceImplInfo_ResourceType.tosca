@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqScreensDeviceRegistrationImplRegistrationServiceImplInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqScreensDeviceRegistrationImplRegistrationServiceImplInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComAdobeCqScreensDeviceRegistrationImplRegistrationServiceImplProperties = openapi_server.resourceTypes.ComAdobeCqScreensDeviceRegistrationImplRegistrationServiceImplProperties
+}
+resourceTypes {
+
+  ComAdobeCqScreensDeviceRegistrationImplRegistrationServiceImplInfo {
+    title = ComAdobeCqScreensDeviceRegistrationImplRegistrationServiceImplInfo
+    description = ComAdobeCqScreensDeviceRegistrationImplRegistrationServiceImplInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComAdobeCqScreensDeviceRegistrationImplRegistrationServiceImplProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqScreensDeviceRegistrationImplRegistrationServiceImplInfo {
+    title = ComAdobeCqScreensDeviceRegistrationImplRegistrationServiceImplInfo
+    description = ComAdobeCqScreensDeviceRegistrationImplRegistrationServiceImplInfo
+    implements = openapi_server.resourceTypes.ComAdobeCqScreensDeviceRegistrationImplRegistrationServiceImplInfo
+
+  }
+}

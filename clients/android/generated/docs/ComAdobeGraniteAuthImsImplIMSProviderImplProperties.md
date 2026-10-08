@@ -1,7 +1,9 @@
 
+
 # ComAdobeGraniteAuthImsImplIMSProviderImplProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **oauthProviderId** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
@@ -17,6 +19,7 @@ Name | Type | Description | Notes
 **imsOrgRef** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
 **imsGroupMapping** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
 **oauthProviderImsOnlyLicenseGroup** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
+
 
 
 

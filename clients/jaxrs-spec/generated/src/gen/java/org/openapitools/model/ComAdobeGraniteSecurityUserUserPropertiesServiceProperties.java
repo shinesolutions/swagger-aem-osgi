@@ -1,21 +1,32 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comAdobeGraniteSecurityUserUserPropertiesServiceProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteSecurityUserUserPropertiesServiceProperties   {
-  
-  private @Valid ConfigNodePropertyString adapterCondition = null;
-  private @Valid ConfigNodePropertyArray graniteUserpropertiesNodetypes = null;
-  private @Valid ConfigNodePropertyArray graniteUserpropertiesResourcetypes = null;
+  private ConfigNodePropertyString adapterCondition;
+  private ConfigNodePropertyArray graniteUserpropertiesNodetypes;
+  private ConfigNodePropertyArray graniteUserpropertiesResourcetypes;
+
+  public ComAdobeGraniteSecurityUserUserPropertiesServiceProperties() {
+  }
 
   /**
    **/
@@ -27,9 +38,11 @@ public class ComAdobeGraniteSecurityUserUserPropertiesServiceProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("adapter.condition")
-  public ConfigNodePropertyString getAdapterCondition() {
+  @Valid public ConfigNodePropertyString getAdapterCondition() {
     return adapterCondition;
   }
+
+  @JsonProperty("adapter.condition")
   public void setAdapterCondition(ConfigNodePropertyString adapterCondition) {
     this.adapterCondition = adapterCondition;
   }
@@ -44,9 +57,11 @@ public class ComAdobeGraniteSecurityUserUserPropertiesServiceProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("granite.userproperties.nodetypes")
-  public ConfigNodePropertyArray getGraniteUserpropertiesNodetypes() {
+  @Valid public ConfigNodePropertyArray getGraniteUserpropertiesNodetypes() {
     return graniteUserpropertiesNodetypes;
   }
+
+  @JsonProperty("granite.userproperties.nodetypes")
   public void setGraniteUserpropertiesNodetypes(ConfigNodePropertyArray graniteUserpropertiesNodetypes) {
     this.graniteUserpropertiesNodetypes = graniteUserpropertiesNodetypes;
   }
@@ -61,16 +76,18 @@ public class ComAdobeGraniteSecurityUserUserPropertiesServiceProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("granite.userproperties.resourcetypes")
-  public ConfigNodePropertyArray getGraniteUserpropertiesResourcetypes() {
+  @Valid public ConfigNodePropertyArray getGraniteUserpropertiesResourcetypes() {
     return graniteUserpropertiesResourcetypes;
   }
+
+  @JsonProperty("granite.userproperties.resourcetypes")
   public void setGraniteUserpropertiesResourcetypes(ConfigNodePropertyArray graniteUserpropertiesResourcetypes) {
     this.graniteUserpropertiesResourcetypes = graniteUserpropertiesResourcetypes;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -78,9 +95,9 @@ public class ComAdobeGraniteSecurityUserUserPropertiesServiceProperties   {
       return false;
     }
     ComAdobeGraniteSecurityUserUserPropertiesServiceProperties comAdobeGraniteSecurityUserUserPropertiesServiceProperties = (ComAdobeGraniteSecurityUserUserPropertiesServiceProperties) o;
-    return Objects.equals(adapterCondition, comAdobeGraniteSecurityUserUserPropertiesServiceProperties.adapterCondition) &&
-        Objects.equals(graniteUserpropertiesNodetypes, comAdobeGraniteSecurityUserUserPropertiesServiceProperties.graniteUserpropertiesNodetypes) &&
-        Objects.equals(graniteUserpropertiesResourcetypes, comAdobeGraniteSecurityUserUserPropertiesServiceProperties.graniteUserpropertiesResourcetypes);
+    return Objects.equals(this.adapterCondition, comAdobeGraniteSecurityUserUserPropertiesServiceProperties.adapterCondition) &&
+        Objects.equals(this.graniteUserpropertiesNodetypes, comAdobeGraniteSecurityUserUserPropertiesServiceProperties.graniteUserpropertiesNodetypes) &&
+        Objects.equals(this.graniteUserpropertiesResourcetypes, comAdobeGraniteSecurityUserUserPropertiesServiceProperties.graniteUserpropertiesResourcetypes);
   }
 
   @Override
@@ -104,11 +121,9 @@ public class ComAdobeGraniteSecurityUserUserPropertiesServiceProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqWcmFoundationFormsImplFormsHandlingServlet
 
 @Canonical
 class ComDayCqWcmFoundationFormsImplFormsHandlingServletInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqWcmFoundationFormsImplFormsHandlingServletProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqWcmFoundationFormsImplFormsHandlingServletProperties properties
 }

@@ -1,26 +1,37 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comDayCommonsHttpclientProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCommonsHttpclientProperties   {
-  
-  private @Valid ConfigNodePropertyBoolean proxyEnabled = null;
-  private @Valid ConfigNodePropertyString proxyHost = null;
-  private @Valid ConfigNodePropertyString proxyUser = null;
-  private @Valid ConfigNodePropertyString proxyPassword = null;
-  private @Valid ConfigNodePropertyString proxyNtlmHost = null;
-  private @Valid ConfigNodePropertyString proxyNtlmDomain = null;
-  private @Valid ConfigNodePropertyArray proxyExceptions = null;
+  private ConfigNodePropertyBoolean proxyEnabled;
+  private ConfigNodePropertyString proxyHost;
+  private ConfigNodePropertyString proxyUser;
+  private ConfigNodePropertyString proxyPassword;
+  private ConfigNodePropertyString proxyNtlmHost;
+  private ConfigNodePropertyString proxyNtlmDomain;
+  private ConfigNodePropertyArray proxyExceptions;
+
+  public ComDayCommonsHttpclientProperties() {
+  }
 
   /**
    **/
@@ -32,9 +43,11 @@ public class ComDayCommonsHttpclientProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("proxy.enabled")
-  public ConfigNodePropertyBoolean getProxyEnabled() {
+  @Valid public ConfigNodePropertyBoolean getProxyEnabled() {
     return proxyEnabled;
   }
+
+  @JsonProperty("proxy.enabled")
   public void setProxyEnabled(ConfigNodePropertyBoolean proxyEnabled) {
     this.proxyEnabled = proxyEnabled;
   }
@@ -49,9 +62,11 @@ public class ComDayCommonsHttpclientProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("proxy.host")
-  public ConfigNodePropertyString getProxyHost() {
+  @Valid public ConfigNodePropertyString getProxyHost() {
     return proxyHost;
   }
+
+  @JsonProperty("proxy.host")
   public void setProxyHost(ConfigNodePropertyString proxyHost) {
     this.proxyHost = proxyHost;
   }
@@ -66,9 +81,11 @@ public class ComDayCommonsHttpclientProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("proxy.user")
-  public ConfigNodePropertyString getProxyUser() {
+  @Valid public ConfigNodePropertyString getProxyUser() {
     return proxyUser;
   }
+
+  @JsonProperty("proxy.user")
   public void setProxyUser(ConfigNodePropertyString proxyUser) {
     this.proxyUser = proxyUser;
   }
@@ -83,9 +100,11 @@ public class ComDayCommonsHttpclientProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("proxy.password")
-  public ConfigNodePropertyString getProxyPassword() {
+  @Valid public ConfigNodePropertyString getProxyPassword() {
     return proxyPassword;
   }
+
+  @JsonProperty("proxy.password")
   public void setProxyPassword(ConfigNodePropertyString proxyPassword) {
     this.proxyPassword = proxyPassword;
   }
@@ -100,9 +119,11 @@ public class ComDayCommonsHttpclientProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("proxy.ntlm.host")
-  public ConfigNodePropertyString getProxyNtlmHost() {
+  @Valid public ConfigNodePropertyString getProxyNtlmHost() {
     return proxyNtlmHost;
   }
+
+  @JsonProperty("proxy.ntlm.host")
   public void setProxyNtlmHost(ConfigNodePropertyString proxyNtlmHost) {
     this.proxyNtlmHost = proxyNtlmHost;
   }
@@ -117,9 +138,11 @@ public class ComDayCommonsHttpclientProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("proxy.ntlm.domain")
-  public ConfigNodePropertyString getProxyNtlmDomain() {
+  @Valid public ConfigNodePropertyString getProxyNtlmDomain() {
     return proxyNtlmDomain;
   }
+
+  @JsonProperty("proxy.ntlm.domain")
   public void setProxyNtlmDomain(ConfigNodePropertyString proxyNtlmDomain) {
     this.proxyNtlmDomain = proxyNtlmDomain;
   }
@@ -134,16 +157,18 @@ public class ComDayCommonsHttpclientProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("proxy.exceptions")
-  public ConfigNodePropertyArray getProxyExceptions() {
+  @Valid public ConfigNodePropertyArray getProxyExceptions() {
     return proxyExceptions;
   }
+
+  @JsonProperty("proxy.exceptions")
   public void setProxyExceptions(ConfigNodePropertyArray proxyExceptions) {
     this.proxyExceptions = proxyExceptions;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -151,13 +176,13 @@ public class ComDayCommonsHttpclientProperties   {
       return false;
     }
     ComDayCommonsHttpclientProperties comDayCommonsHttpclientProperties = (ComDayCommonsHttpclientProperties) o;
-    return Objects.equals(proxyEnabled, comDayCommonsHttpclientProperties.proxyEnabled) &&
-        Objects.equals(proxyHost, comDayCommonsHttpclientProperties.proxyHost) &&
-        Objects.equals(proxyUser, comDayCommonsHttpclientProperties.proxyUser) &&
-        Objects.equals(proxyPassword, comDayCommonsHttpclientProperties.proxyPassword) &&
-        Objects.equals(proxyNtlmHost, comDayCommonsHttpclientProperties.proxyNtlmHost) &&
-        Objects.equals(proxyNtlmDomain, comDayCommonsHttpclientProperties.proxyNtlmDomain) &&
-        Objects.equals(proxyExceptions, comDayCommonsHttpclientProperties.proxyExceptions);
+    return Objects.equals(this.proxyEnabled, comDayCommonsHttpclientProperties.proxyEnabled) &&
+        Objects.equals(this.proxyHost, comDayCommonsHttpclientProperties.proxyHost) &&
+        Objects.equals(this.proxyUser, comDayCommonsHttpclientProperties.proxyUser) &&
+        Objects.equals(this.proxyPassword, comDayCommonsHttpclientProperties.proxyPassword) &&
+        Objects.equals(this.proxyNtlmHost, comDayCommonsHttpclientProperties.proxyNtlmHost) &&
+        Objects.equals(this.proxyNtlmDomain, comDayCommonsHttpclientProperties.proxyNtlmDomain) &&
+        Objects.equals(this.proxyExceptions, comDayCommonsHttpclientProperties.proxyExceptions);
   }
 
   @Override
@@ -185,11 +210,9 @@ public class ComDayCommonsHttpclientProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

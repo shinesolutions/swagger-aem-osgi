@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqSocialUserEndpointsImplUsersGroupFromPub
 
 @Canonical
 class ComAdobeCqSocialUserEndpointsImplUsersGroupFromPublishServletInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqSocialUserEndpointsImplUsersGroupFromPublishServletProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqSocialUserEndpointsImplUsersGroupFromPublishServletProperties properties
 }

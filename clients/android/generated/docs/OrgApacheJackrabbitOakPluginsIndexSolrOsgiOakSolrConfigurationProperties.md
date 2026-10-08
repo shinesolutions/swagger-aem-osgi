@@ -1,7 +1,9 @@
 
+
 # OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **pathDescField** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
@@ -21,6 +23,7 @@ Name | Type | Description | Notes
 **typeMappings** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
 **propertyMappings** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
 **collapseJcrcontentNodes** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
+
 
 
 

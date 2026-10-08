@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyBoolean;
 import com.prokarma.pkmst.model.ConfigNodePropertyInteger;
 import io.swagger.annotations.ApiModel;
@@ -16,36 +17,35 @@ import io.swagger.annotations.ApiModelProperty;
  * ComDayCqRewriterLinkcheckerImplLinkCheckerTaskProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqRewriterLinkcheckerImplLinkCheckerTaskProperties   {
   @JsonProperty("scheduler.period")
-  private ConfigNodePropertyInteger schedulerPeriod = null;
+  private ConfigNodePropertyInteger schedulerPeriod;
 
   @JsonProperty("scheduler.concurrent")
-  private ConfigNodePropertyBoolean schedulerConcurrent = null;
+  private ConfigNodePropertyBoolean schedulerConcurrent;
 
   @JsonProperty("good_link_test_interval")
-  private ConfigNodePropertyInteger goodLinkTestInterval = null;
+  private ConfigNodePropertyInteger goodLinkTestInterval;
 
   @JsonProperty("bad_link_test_interval")
-  private ConfigNodePropertyInteger badLinkTestInterval = null;
+  private ConfigNodePropertyInteger badLinkTestInterval;
 
   @JsonProperty("link_unused_interval")
-  private ConfigNodePropertyInteger linkUnusedInterval = null;
+  private ConfigNodePropertyInteger linkUnusedInterval;
 
   @JsonProperty("connection.timeout")
-  private ConfigNodePropertyInteger connectionTimeout = null;
+  private ConfigNodePropertyInteger connectionTimeout;
 
   public ComDayCqRewriterLinkcheckerImplLinkCheckerTaskProperties schedulerPeriod(ConfigNodePropertyInteger schedulerPeriod) {
     this.schedulerPeriod = schedulerPeriod;
     return this;
   }
 
-   /**
+  /**
    * Get schedulerPeriod
    * @return schedulerPeriod
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getSchedulerPeriod() {
     return schedulerPeriod;
@@ -60,10 +60,10 @@ public class ComDayCqRewriterLinkcheckerImplLinkCheckerTaskProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get schedulerConcurrent
    * @return schedulerConcurrent
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getSchedulerConcurrent() {
     return schedulerConcurrent;
@@ -78,10 +78,10 @@ public class ComDayCqRewriterLinkcheckerImplLinkCheckerTaskProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get goodLinkTestInterval
    * @return goodLinkTestInterval
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getGoodLinkTestInterval() {
     return goodLinkTestInterval;
@@ -96,10 +96,10 @@ public class ComDayCqRewriterLinkcheckerImplLinkCheckerTaskProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get badLinkTestInterval
    * @return badLinkTestInterval
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getBadLinkTestInterval() {
     return badLinkTestInterval;
@@ -114,10 +114,10 @@ public class ComDayCqRewriterLinkcheckerImplLinkCheckerTaskProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get linkUnusedInterval
    * @return linkUnusedInterval
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getLinkUnusedInterval() {
     return linkUnusedInterval;
@@ -132,10 +132,10 @@ public class ComDayCqRewriterLinkcheckerImplLinkCheckerTaskProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get connectionTimeout
    * @return connectionTimeout
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getConnectionTimeout() {
     return connectionTimeout;
@@ -147,7 +147,7 @@ public class ComDayCqRewriterLinkcheckerImplLinkCheckerTaskProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -187,11 +187,8 @@ public class ComDayCqRewriterLinkcheckerImplLinkCheckerTaskProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

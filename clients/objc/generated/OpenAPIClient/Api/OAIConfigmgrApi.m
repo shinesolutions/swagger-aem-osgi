@@ -39490,7 +39490,7 @@ NSInteger kOAIConfigmgrApiMissingParamErrorCode = 234513;
 ///
 ///  @param propertylist  (optional)
 ///
-///  @param granitedata  (optional)
+///  @param graniteData  (optional)
 ///
 ///  @returns OAIComDayCqDamCoreImplMetadataEditorSelectComponentHandlerInfo*
 ///
@@ -39500,7 +39500,7 @@ NSInteger kOAIConfigmgrApiMissingParamErrorCode = 234513;
     action: (NSString*) action
     location: (NSString*) location
     propertylist: (NSArray<NSString*>*) propertylist
-    granitedata: (NSArray<NSString*>*) granitedata
+    graniteData: (NSArray<NSString*>*) graniteData
     completionHandler: (void (^)(OAIComDayCqDamCoreImplMetadataEditorSelectComponentHandlerInfo* output, NSError* error)) handler {
     NSMutableString* resourcePath = [NSMutableString stringWithFormat:@"/system/console/configMgr/com.day.cq.dam.core.impl.metadata.editor.SelectComponentHandler"];
 
@@ -39525,8 +39525,8 @@ NSInteger kOAIConfigmgrApiMissingParamErrorCode = 234513;
     if (propertylist != nil) {
         queryParams[@"propertylist"] = [[OAIQueryParamCollection alloc] initWithValuesAndFormat: propertylist format: @"csv"];
     }
-    if (granitedata != nil) {
-        queryParams[@"granite:data"] = [[OAIQueryParamCollection alloc] initWithValuesAndFormat: granitedata format: @"multi"];
+    if (graniteData != nil) {
+        queryParams[@"granite:data"] = [[OAIQueryParamCollection alloc] initWithValuesAndFormat: graniteData format: @"multi"];
     }
     NSMutableDictionary* headerParams = [NSMutableDictionary dictionaryWithDictionary:self.apiClient.configuration.defaultHeaders];
     [headerParams addEntriesFromDictionary:self.defaultHeaders];
@@ -41076,7 +41076,7 @@ NSInteger kOAIConfigmgrApiMissingParamErrorCode = 234513;
 ///
 ///  @param moreInfo  (optional)
 ///
-///  @param mntoverlaydamguicontentassetsmoreinfoHtmlpath  (optional)
+///  @param mntOverlayDamGuiContentAssetsMoreinfoHtmlPath  (optional)
 ///
 ///  @returns OAIComDayCqDamCoreImplServletCompanionServletInfo*
 ///
@@ -41087,7 +41087,7 @@ NSInteger kOAIConfigmgrApiMissingParamErrorCode = 234513;
     location: (NSString*) location
     propertylist: (NSArray<NSString*>*) propertylist
     moreInfo: (NSString*) moreInfo
-    mntoverlaydamguicontentassetsmoreinfoHtmlpath: (NSString*) mntoverlaydamguicontentassetsmoreinfoHtmlpath
+    mntOverlayDamGuiContentAssetsMoreinfoHtmlPath: (NSString*) mntOverlayDamGuiContentAssetsMoreinfoHtmlPath
     completionHandler: (void (^)(OAIComDayCqDamCoreImplServletCompanionServletInfo* output, NSError* error)) handler {
     NSMutableString* resourcePath = [NSMutableString stringWithFormat:@"/system/console/configMgr/com.day.cq.dam.core.impl.servlet.CompanionServlet"];
 
@@ -41115,8 +41115,8 @@ NSInteger kOAIConfigmgrApiMissingParamErrorCode = 234513;
     if (moreInfo != nil) {
         queryParams[@"More Info"] = moreInfo;
     }
-    if (mntoverlaydamguicontentassetsmoreinfoHtmlpath != nil) {
-        queryParams[@"/mnt/overlay/dam/gui/content/assets/moreinfo.html/${path}"] = mntoverlaydamguicontentassetsmoreinfoHtmlpath;
+    if (mntOverlayDamGuiContentAssetsMoreinfoHtmlPath != nil) {
+        queryParams[@"/mnt/overlay/dam/gui/content/assets/moreinfo.html/${path}"] = mntOverlayDamGuiContentAssetsMoreinfoHtmlPath;
     }
     NSMutableDictionary* headerParams = [NSMutableDictionary dictionaryWithDictionary:self.apiClient.configuration.defaultHeaders];
     [headerParams addEntriesFromDictionary:self.defaultHeaders];

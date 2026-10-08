@@ -8,8 +8,8 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class ComDayCqImageInternalFontFontHelperProperties {
-    ConfigNodePropertyArray fontpath = null
-
-    ConfigNodePropertyInteger oversamplingFactor = null
-
+    
+    ConfigNodePropertyArray fontpath
+    
+    ConfigNodePropertyInteger oversamplingFactor
 }

@@ -5,59 +5,88 @@ import apimodels.ConfigNodePropertyBoolean;
 import apimodels.ConfigNodePropertyDropDown;
 import apimodels.ConfigNodePropertyInteger;
 import apimodels.ConfigNodePropertyString;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties   {
   @JsonProperty("name")
-  private ConfigNodePropertyString name = null;
+  @Valid
+
+  private ConfigNodePropertyString name;
 
   @JsonProperty("title")
-  private ConfigNodePropertyString title = null;
+  @Valid
+
+  private ConfigNodePropertyString title;
 
   @JsonProperty("details")
-  private ConfigNodePropertyString details = null;
+  @Valid
+
+  private ConfigNodePropertyString details;
 
   @JsonProperty("enabled")
-  private ConfigNodePropertyBoolean enabled = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean enabled;
 
   @JsonProperty("serviceName")
-  private ConfigNodePropertyString serviceName = null;
+  @Valid
+
+  private ConfigNodePropertyString serviceName;
 
   @JsonProperty("log.level")
-  private ConfigNodePropertyDropDown logLevel = null;
+  @Valid
+
+  private ConfigNodePropertyDropDown logLevel;
 
   @JsonProperty("queue.processing.enabled")
-  private ConfigNodePropertyBoolean queueProcessingEnabled = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean queueProcessingEnabled;
 
   @JsonProperty("packageExporter.endpoints")
-  private ConfigNodePropertyArray packageExporterEndpoints = null;
+  @Valid
+
+  private ConfigNodePropertyArray packageExporterEndpoints;
 
   @JsonProperty("pull.items")
-  private ConfigNodePropertyInteger pullItems = null;
+  @Valid
+
+  private ConfigNodePropertyInteger pullItems;
 
   @JsonProperty("http.conn.timeout")
-  private ConfigNodePropertyInteger httpConnTimeout = null;
+  @Valid
+
+  private ConfigNodePropertyInteger httpConnTimeout;
 
   @JsonProperty("requestAuthorizationStrategy.target")
-  private ConfigNodePropertyString requestAuthorizationStrategyTarget = null;
+  @Valid
+
+  private ConfigNodePropertyString requestAuthorizationStrategyTarget;
 
   @JsonProperty("transportSecretProvider.target")
-  private ConfigNodePropertyString transportSecretProviderTarget = null;
+  @Valid
+
+  private ConfigNodePropertyString transportSecretProviderTarget;
 
   @JsonProperty("packageBuilder.target")
-  private ConfigNodePropertyString packageBuilderTarget = null;
+  @Valid
+
+  private ConfigNodePropertyString packageBuilderTarget;
 
   @JsonProperty("triggers.target")
-  private ConfigNodePropertyString triggersTarget = null;
+  @Valid
+
+  private ConfigNodePropertyString triggersTarget;
 
   public OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties name(ConfigNodePropertyString name) {
     this.name = name;
@@ -68,7 +97,6 @@ public class OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoPro
    * Get name
    * @return name
   **/
-  @Valid
   public ConfigNodePropertyString getName() {
     return name;
   }
@@ -86,7 +114,6 @@ public class OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoPro
    * Get title
    * @return title
   **/
-  @Valid
   public ConfigNodePropertyString getTitle() {
     return title;
   }
@@ -104,7 +131,6 @@ public class OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoPro
    * Get details
    * @return details
   **/
-  @Valid
   public ConfigNodePropertyString getDetails() {
     return details;
   }
@@ -122,7 +148,6 @@ public class OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoPro
    * Get enabled
    * @return enabled
   **/
-  @Valid
   public ConfigNodePropertyBoolean getEnabled() {
     return enabled;
   }
@@ -140,7 +165,6 @@ public class OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoPro
    * Get serviceName
    * @return serviceName
   **/
-  @Valid
   public ConfigNodePropertyString getServiceName() {
     return serviceName;
   }
@@ -158,7 +182,6 @@ public class OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoPro
    * Get logLevel
    * @return logLevel
   **/
-  @Valid
   public ConfigNodePropertyDropDown getLogLevel() {
     return logLevel;
   }
@@ -176,7 +199,6 @@ public class OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoPro
    * Get queueProcessingEnabled
    * @return queueProcessingEnabled
   **/
-  @Valid
   public ConfigNodePropertyBoolean getQueueProcessingEnabled() {
     return queueProcessingEnabled;
   }
@@ -194,7 +216,6 @@ public class OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoPro
    * Get packageExporterEndpoints
    * @return packageExporterEndpoints
   **/
-  @Valid
   public ConfigNodePropertyArray getPackageExporterEndpoints() {
     return packageExporterEndpoints;
   }
@@ -212,7 +233,6 @@ public class OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoPro
    * Get pullItems
    * @return pullItems
   **/
-  @Valid
   public ConfigNodePropertyInteger getPullItems() {
     return pullItems;
   }
@@ -230,7 +250,6 @@ public class OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoPro
    * Get httpConnTimeout
    * @return httpConnTimeout
   **/
-  @Valid
   public ConfigNodePropertyInteger getHttpConnTimeout() {
     return httpConnTimeout;
   }
@@ -248,7 +267,6 @@ public class OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoPro
    * Get requestAuthorizationStrategyTarget
    * @return requestAuthorizationStrategyTarget
   **/
-  @Valid
   public ConfigNodePropertyString getRequestAuthorizationStrategyTarget() {
     return requestAuthorizationStrategyTarget;
   }
@@ -266,7 +284,6 @@ public class OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoPro
    * Get transportSecretProviderTarget
    * @return transportSecretProviderTarget
   **/
-  @Valid
   public ConfigNodePropertyString getTransportSecretProviderTarget() {
     return transportSecretProviderTarget;
   }
@@ -284,7 +301,6 @@ public class OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoPro
    * Get packageBuilderTarget
    * @return packageBuilderTarget
   **/
-  @Valid
   public ConfigNodePropertyString getPackageBuilderTarget() {
     return packageBuilderTarget;
   }
@@ -302,7 +318,6 @@ public class OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoPro
    * Get triggersTarget
    * @return triggersTarget
   **/
-  @Valid
   public ConfigNodePropertyString getTriggersTarget() {
     return triggersTarget;
   }
@@ -313,7 +328,7 @@ public class OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoPro
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -370,11 +385,8 @@ public class OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoPro
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

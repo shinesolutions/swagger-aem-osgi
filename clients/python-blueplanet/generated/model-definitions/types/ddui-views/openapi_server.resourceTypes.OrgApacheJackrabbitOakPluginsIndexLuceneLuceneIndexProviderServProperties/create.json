@@ -1,0 +1,32 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "disabled" },
+      {"model": "debug" },
+      {"model": "local_index_dir" },
+      {"model": "enable_open_index_async" },
+      {"model": "thread_pool_size" },
+      {"model": "prefetch_index_files" },
+      {"model": "extracted_text_cache_size_in_mb" },
+      {"model": "extracted_text_cache_expiry_in_secs" },
+      {"model": "always_use_pre_extracted_cache" },
+      {"model": "boolean_clause_limit" },
+      {"model": "enable_hybrid_indexing" },
+      {"model": "hybrid_queue_size" },
+      {"model": "disable_stored_index_definition" },
+      {"model": "deleted_blobs_collection_enabled" },
+      {"model": "prop_index_cleaner_interval_in_secs" },
+      {"model": "enable_single_blob_index_files" },
+    ]
+  }]
+}

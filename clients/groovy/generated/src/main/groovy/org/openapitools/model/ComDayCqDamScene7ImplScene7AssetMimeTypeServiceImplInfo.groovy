@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqDamScene7ImplScene7AssetMimeTypeServiceImp
 
 @Canonical
 class ComDayCqDamScene7ImplScene7AssetMimeTypeServiceImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqDamScene7ImplScene7AssetMimeTypeServiceImplProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqDamScene7ImplScene7AssetMimeTypeServiceImplProperties properties
 }

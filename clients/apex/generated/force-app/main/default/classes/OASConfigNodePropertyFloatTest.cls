@@ -72,8 +72,7 @@ private class OASConfigNodePropertyFloatTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASConfigNodePropertyFloat configNodePropertyFloat = new OASConfigNodePropertyFloat();
-        Map<String, String> propertyMappings = configNodePropertyFloat.getPropertyMappings();
-        System.assertEquals('isSet', propertyMappings.get('is_set'));
-        System.assertEquals('r_type', propertyMappings.get('type'));
+        Map<String, String> x-property-mappings = configNodePropertyFloat.getx-property-mappings();
+        System.assertEquals('isSet', x-property-mappings.get('is_set'));
     }
 }

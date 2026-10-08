@@ -1,0 +1,21 @@
+{
+  "namespace": "model",
+  "type": "record",
+  "doc": "",
+  "name": "ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmenProperties",
+  "fields": [
+    {
+      "name": "cq.social.content.fragments.services.enabled",
+      "type": ["null", "model.ConfigNodePropertyBoolean"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "cq.social.content.fragments.services.waitTimeSeconds",
+      "type": ["null", "model.ConfigNodePropertyInteger"],
+      "doc": "",
+      "default": null
+    }
+  ]
+
+}

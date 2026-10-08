@@ -8,12 +8,12 @@ import org.openapitools.model.ConfigNodePropertyBoolean;
 
 @Canonical
 class ComDayCqWcmMsmImplActionsReferencesUpdateActionFactoryProperties {
-    ConfigNodePropertyArray cqWcmMsmActionExcludednodetypes = null
-
-    ConfigNodePropertyArray cqWcmMsmActionExcludedparagraphitems = null
-
-    ConfigNodePropertyArray cqWcmMsmActionExcludedprops = null
-
-    ConfigNodePropertyBoolean cqWcmMsmImplActionReferencesupdatePropUpdateNested = null
-
+    
+    ConfigNodePropertyArray cqWcmMsmActionExcludednodetypes
+    
+    ConfigNodePropertyArray cqWcmMsmActionExcludedparagraphitems
+    
+    ConfigNodePropertyArray cqWcmMsmActionExcludedprops
+    
+    ConfigNodePropertyBoolean cqWcmMsmImplActionReferencesupdatePropUpdateNested
 }

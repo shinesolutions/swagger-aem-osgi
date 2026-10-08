@@ -2,24 +2,25 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class OrgApacheSlingStartupfilterImplStartupFilterImplProperties   {
   
-  private ConfigNodePropertyBoolean activeByDefault = null;
+  private ConfigNodePropertyBoolean activeByDefault;
 
-  private ConfigNodePropertyString defaultMessage = null;
-
+  private ConfigNodePropertyString defaultMessage;
 
   /**
    **/
@@ -59,7 +60,7 @@ public class OrgApacheSlingStartupfilterImplStartupFilterImplProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -67,8 +68,8 @@ public class OrgApacheSlingStartupfilterImplStartupFilterImplProperties   {
       return false;
     }
     OrgApacheSlingStartupfilterImplStartupFilterImplProperties orgApacheSlingStartupfilterImplStartupFilterImplProperties = (OrgApacheSlingStartupfilterImplStartupFilterImplProperties) o;
-    return Objects.equals(activeByDefault, orgApacheSlingStartupfilterImplStartupFilterImplProperties.activeByDefault) &&
-        Objects.equals(defaultMessage, orgApacheSlingStartupfilterImplStartupFilterImplProperties.defaultMessage);
+    return Objects.equals(this.activeByDefault, orgApacheSlingStartupfilterImplStartupFilterImplProperties.activeByDefault) &&
+        Objects.equals(this.defaultMessage, orgApacheSlingStartupfilterImplStartupFilterImplProperties.defaultMessage);
   }
 
   @Override
@@ -91,11 +92,8 @@ public class OrgApacheSlingStartupfilterImplStartupFilterImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

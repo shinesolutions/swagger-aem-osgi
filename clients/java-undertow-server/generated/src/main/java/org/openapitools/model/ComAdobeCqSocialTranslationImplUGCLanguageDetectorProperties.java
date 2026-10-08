@@ -1,3 +1,13 @@
+/*
+ * Adobe Experience Manager OSGI config (AEM) API
+ *
+ * Swagger AEM OSGI is an OpenAPI specification for Adobe Experience Manager (AEM) OSGI Configurations API
+ *
+ * OpenAPI document version: 1.0.0-pre.0
+ * Maintained by: opensource@shinesolutions.com
+ *
+ * AUTO-GENERATED FILE, DO NOT MODIFY!
+ */
 package org.openapitools.model;
 
 import java.util.Objects;
@@ -13,20 +23,20 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2019-08-05T00:56:20.785Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2026-10-07T12:53:42.280804918Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties   {
   
-  private ConfigNodePropertyString eventTopics = null;
-  private ConfigNodePropertyString eventFilter = null;
-  private ConfigNodePropertyArray translateListenerType = null;
-  private ConfigNodePropertyArray translatePropertyList = null;
-  private ConfigNodePropertyInteger poolSize = null;
-  private ConfigNodePropertyInteger maxPoolSize = null;
-  private ConfigNodePropertyInteger queueSize = null;
-  private ConfigNodePropertyInteger keepAliveTime = null;
+  private ConfigNodePropertyString eventTopics;
+  private ConfigNodePropertyString eventFilter;
+  private ConfigNodePropertyArray translateListenerType;
+  private ConfigNodePropertyArray translatePropertyList;
+  private ConfigNodePropertyInteger poolSize;
+  private ConfigNodePropertyInteger maxPoolSize;
+  private ConfigNodePropertyInteger queueSize;
+  private ConfigNodePropertyInteger keepAliveTime;
 
   /**
-   **/
+   */
   public ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties eventTopics(ConfigNodePropertyString eventTopics) {
     this.eventTopics = eventTopics;
     return this;
@@ -43,7 +53,7 @@ public class ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties eventFilter(ConfigNodePropertyString eventFilter) {
     this.eventFilter = eventFilter;
     return this;
@@ -60,7 +70,7 @@ public class ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties translateListenerType(ConfigNodePropertyArray translateListenerType) {
     this.translateListenerType = translateListenerType;
     return this;
@@ -77,7 +87,7 @@ public class ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties translatePropertyList(ConfigNodePropertyArray translatePropertyList) {
     this.translatePropertyList = translatePropertyList;
     return this;
@@ -94,7 +104,7 @@ public class ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties poolSize(ConfigNodePropertyInteger poolSize) {
     this.poolSize = poolSize;
     return this;
@@ -111,7 +121,7 @@ public class ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties maxPoolSize(ConfigNodePropertyInteger maxPoolSize) {
     this.maxPoolSize = maxPoolSize;
     return this;
@@ -128,7 +138,7 @@ public class ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties queueSize(ConfigNodePropertyInteger queueSize) {
     this.queueSize = queueSize;
     return this;
@@ -145,7 +155,7 @@ public class ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties keepAliveTime(ConfigNodePropertyInteger keepAliveTime) {
     this.keepAliveTime = keepAliveTime;
     return this;
@@ -163,7 +173,7 @@ public class ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -207,11 +217,8 @@ public class ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

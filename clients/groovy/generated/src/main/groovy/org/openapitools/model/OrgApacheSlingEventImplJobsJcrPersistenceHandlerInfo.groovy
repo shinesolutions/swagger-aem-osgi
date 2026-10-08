@@ -7,16 +7,16 @@ import org.openapitools.model.OrgApacheSlingEventImplJobsJcrPersistenceHandlerPr
 
 @Canonical
 class OrgApacheSlingEventImplJobsJcrPersistenceHandlerInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheSlingEventImplJobsJcrPersistenceHandlerProperties properties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheSlingEventImplJobsJcrPersistenceHandlerProperties properties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

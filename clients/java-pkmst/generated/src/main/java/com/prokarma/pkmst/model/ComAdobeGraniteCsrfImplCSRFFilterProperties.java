@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyArray;
 import com.prokarma.pkmst.model.ConfigNodePropertyBoolean;
 import io.swagger.annotations.ApiModel;
@@ -16,30 +17,29 @@ import io.swagger.annotations.ApiModelProperty;
  * ComAdobeGraniteCsrfImplCSRFFilterProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteCsrfImplCSRFFilterProperties   {
   @JsonProperty("filter.methods")
-  private ConfigNodePropertyArray filterMethods = null;
+  private ConfigNodePropertyArray filterMethods;
 
   @JsonProperty("filter.enable.safe.user.agents")
-  private ConfigNodePropertyBoolean filterEnableSafeUserAgents = null;
+  private ConfigNodePropertyBoolean filterEnableSafeUserAgents;
 
   @JsonProperty("filter.safe.user.agents")
-  private ConfigNodePropertyArray filterSafeUserAgents = null;
+  private ConfigNodePropertyArray filterSafeUserAgents;
 
   @JsonProperty("filter.excluded.paths")
-  private ConfigNodePropertyArray filterExcludedPaths = null;
+  private ConfigNodePropertyArray filterExcludedPaths;
 
   public ComAdobeGraniteCsrfImplCSRFFilterProperties filterMethods(ConfigNodePropertyArray filterMethods) {
     this.filterMethods = filterMethods;
     return this;
   }
 
-   /**
+  /**
    * Get filterMethods
    * @return filterMethods
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getFilterMethods() {
     return filterMethods;
@@ -54,10 +54,10 @@ public class ComAdobeGraniteCsrfImplCSRFFilterProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get filterEnableSafeUserAgents
    * @return filterEnableSafeUserAgents
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getFilterEnableSafeUserAgents() {
     return filterEnableSafeUserAgents;
@@ -72,10 +72,10 @@ public class ComAdobeGraniteCsrfImplCSRFFilterProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get filterSafeUserAgents
    * @return filterSafeUserAgents
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getFilterSafeUserAgents() {
     return filterSafeUserAgents;
@@ -90,10 +90,10 @@ public class ComAdobeGraniteCsrfImplCSRFFilterProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get filterExcludedPaths
    * @return filterExcludedPaths
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getFilterExcludedPaths() {
     return filterExcludedPaths;
@@ -105,7 +105,7 @@ public class ComAdobeGraniteCsrfImplCSRFFilterProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -141,11 +141,8 @@ public class ComAdobeGraniteCsrfImplCSRFFilterProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

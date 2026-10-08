@@ -1,20 +1,31 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comAdobeCqScheduledExporterImplScheduledExporterImplProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeCqScheduledExporterImplScheduledExporterImplProperties   {
-  
-  private @Valid ConfigNodePropertyArray includePaths = null;
-  private @Valid ConfigNodePropertyString exporterUser = null;
+  private ConfigNodePropertyArray includePaths;
+  private ConfigNodePropertyString exporterUser;
+
+  public ComAdobeCqScheduledExporterImplScheduledExporterImplProperties() {
+  }
 
   /**
    **/
@@ -26,9 +37,11 @@ public class ComAdobeCqScheduledExporterImplScheduledExporterImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("include.paths")
-  public ConfigNodePropertyArray getIncludePaths() {
+  @Valid public ConfigNodePropertyArray getIncludePaths() {
     return includePaths;
   }
+
+  @JsonProperty("include.paths")
   public void setIncludePaths(ConfigNodePropertyArray includePaths) {
     this.includePaths = includePaths;
   }
@@ -43,16 +56,18 @@ public class ComAdobeCqScheduledExporterImplScheduledExporterImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("exporter.user")
-  public ConfigNodePropertyString getExporterUser() {
+  @Valid public ConfigNodePropertyString getExporterUser() {
     return exporterUser;
   }
+
+  @JsonProperty("exporter.user")
   public void setExporterUser(ConfigNodePropertyString exporterUser) {
     this.exporterUser = exporterUser;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -60,8 +75,8 @@ public class ComAdobeCqScheduledExporterImplScheduledExporterImplProperties   {
       return false;
     }
     ComAdobeCqScheduledExporterImplScheduledExporterImplProperties comAdobeCqScheduledExporterImplScheduledExporterImplProperties = (ComAdobeCqScheduledExporterImplScheduledExporterImplProperties) o;
-    return Objects.equals(includePaths, comAdobeCqScheduledExporterImplScheduledExporterImplProperties.includePaths) &&
-        Objects.equals(exporterUser, comAdobeCqScheduledExporterImplScheduledExporterImplProperties.exporterUser);
+    return Objects.equals(this.includePaths, comAdobeCqScheduledExporterImplScheduledExporterImplProperties.includePaths) &&
+        Objects.equals(this.exporterUser, comAdobeCqScheduledExporterImplScheduledExporterImplProperties.exporterUser);
   }
 
   @Override
@@ -84,11 +99,9 @@ public class ComAdobeCqScheduledExporterImplScheduledExporterImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

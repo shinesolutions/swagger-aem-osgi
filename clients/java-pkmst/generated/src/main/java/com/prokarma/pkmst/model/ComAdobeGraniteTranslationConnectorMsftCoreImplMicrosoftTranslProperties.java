@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyInteger;
 import com.prokarma.pkmst.model.ConfigNodePropertyString;
 import io.swagger.annotations.ApiModel;
@@ -16,45 +17,44 @@ import io.swagger.annotations.ApiModelProperty;
  * ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslProperties   {
   @JsonProperty("translationFactory")
-  private ConfigNodePropertyString translationFactory = null;
+  private ConfigNodePropertyString translationFactory;
 
   @JsonProperty("defaultConnectorLabel")
-  private ConfigNodePropertyString defaultConnectorLabel = null;
+  private ConfigNodePropertyString defaultConnectorLabel;
 
   @JsonProperty("defaultConnectorAttribution")
-  private ConfigNodePropertyString defaultConnectorAttribution = null;
+  private ConfigNodePropertyString defaultConnectorAttribution;
 
   @JsonProperty("defaultConnectorWorkspaceId")
-  private ConfigNodePropertyString defaultConnectorWorkspaceId = null;
+  private ConfigNodePropertyString defaultConnectorWorkspaceId;
 
   @JsonProperty("defaultConnectorSubscriptionKey")
-  private ConfigNodePropertyString defaultConnectorSubscriptionKey = null;
+  private ConfigNodePropertyString defaultConnectorSubscriptionKey;
 
   @JsonProperty("languageMapLocation")
-  private ConfigNodePropertyString languageMapLocation = null;
+  private ConfigNodePropertyString languageMapLocation;
 
   @JsonProperty("categoryMapLocation")
-  private ConfigNodePropertyString categoryMapLocation = null;
+  private ConfigNodePropertyString categoryMapLocation;
 
   @JsonProperty("retryAttempts")
-  private ConfigNodePropertyInteger retryAttempts = null;
+  private ConfigNodePropertyInteger retryAttempts;
 
   @JsonProperty("timeoutCount")
-  private ConfigNodePropertyInteger timeoutCount = null;
+  private ConfigNodePropertyInteger timeoutCount;
 
   public ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslProperties translationFactory(ConfigNodePropertyString translationFactory) {
     this.translationFactory = translationFactory;
     return this;
   }
 
-   /**
+  /**
    * Get translationFactory
    * @return translationFactory
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getTranslationFactory() {
     return translationFactory;
@@ -69,10 +69,10 @@ public class ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslPrope
     return this;
   }
 
-   /**
+  /**
    * Get defaultConnectorLabel
    * @return defaultConnectorLabel
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getDefaultConnectorLabel() {
     return defaultConnectorLabel;
@@ -87,10 +87,10 @@ public class ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslPrope
     return this;
   }
 
-   /**
+  /**
    * Get defaultConnectorAttribution
    * @return defaultConnectorAttribution
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getDefaultConnectorAttribution() {
     return defaultConnectorAttribution;
@@ -105,10 +105,10 @@ public class ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslPrope
     return this;
   }
 
-   /**
+  /**
    * Get defaultConnectorWorkspaceId
    * @return defaultConnectorWorkspaceId
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getDefaultConnectorWorkspaceId() {
     return defaultConnectorWorkspaceId;
@@ -123,10 +123,10 @@ public class ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslPrope
     return this;
   }
 
-   /**
+  /**
    * Get defaultConnectorSubscriptionKey
    * @return defaultConnectorSubscriptionKey
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getDefaultConnectorSubscriptionKey() {
     return defaultConnectorSubscriptionKey;
@@ -141,10 +141,10 @@ public class ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslPrope
     return this;
   }
 
-   /**
+  /**
    * Get languageMapLocation
    * @return languageMapLocation
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getLanguageMapLocation() {
     return languageMapLocation;
@@ -159,10 +159,10 @@ public class ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslPrope
     return this;
   }
 
-   /**
+  /**
    * Get categoryMapLocation
    * @return categoryMapLocation
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getCategoryMapLocation() {
     return categoryMapLocation;
@@ -177,10 +177,10 @@ public class ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslPrope
     return this;
   }
 
-   /**
+  /**
    * Get retryAttempts
    * @return retryAttempts
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getRetryAttempts() {
     return retryAttempts;
@@ -195,10 +195,10 @@ public class ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslPrope
     return this;
   }
 
-   /**
+  /**
    * Get timeoutCount
    * @return timeoutCount
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getTimeoutCount() {
     return timeoutCount;
@@ -210,7 +210,7 @@ public class ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslPrope
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -256,11 +256,8 @@ public class ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslPrope
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

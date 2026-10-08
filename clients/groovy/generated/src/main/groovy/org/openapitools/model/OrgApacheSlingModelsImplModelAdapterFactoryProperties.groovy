@@ -8,12 +8,12 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class OrgApacheSlingModelsImplModelAdapterFactoryProperties {
-    ConfigNodePropertyString osgiHttpWhiteboardListener = null
-
-    ConfigNodePropertyString osgiHttpWhiteboardContextSelect = null
-
-    ConfigNodePropertyInteger maxRecursionDepth = null
-
-    ConfigNodePropertyInteger cleanupJobPeriod = null
-
+    
+    ConfigNodePropertyString osgiHttpWhiteboardListener
+    
+    ConfigNodePropertyString osgiHttpWhiteboardContextSelect
+    
+    ConfigNodePropertyInteger maxRecursionDepth
+    
+    ConfigNodePropertyInteger cleanupJobPeriod
 }

@@ -1,0 +1,27 @@
+{
+  "namespace": "model",
+  "type": "record",
+  "doc": "",
+  "name": "ComDayCqWcmMsmImplActionsOrderChildrenActionFactoryProperties",
+  "fields": [
+    {
+      "name": "cq.wcm.msm.action.excludednodetypes",
+      "type": ["null", "model.ConfigNodePropertyArray"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "cq.wcm.msm.action.excludedparagraphitems",
+      "type": ["null", "model.ConfigNodePropertyArray"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "cq.wcm.msm.action.excludedprops",
+      "type": ["null", "model.ConfigNodePropertyArray"],
+      "doc": "",
+      "default": null
+    }
+  ]
+
+}

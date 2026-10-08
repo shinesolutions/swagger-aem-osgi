@@ -2,16 +2,17 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**replicate_comment_resource_types** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **replicate_comment_resource_types** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComAdobeGraniteCommentsInternalCommentReplicationContentFilterFacProperties.new(replicate_comment_resource_types: null)
+instance = SwaggerAemOsgiClient::ComAdobeGraniteCommentsInternalCommentReplicationContentFilterFacProperties.new(
+  replicate_comment_resource_types: null
+)
 ```
-
 

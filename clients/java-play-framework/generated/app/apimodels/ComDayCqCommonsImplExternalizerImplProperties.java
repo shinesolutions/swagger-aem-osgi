@@ -3,29 +3,38 @@ package apimodels;
 import apimodels.ConfigNodePropertyArray;
 import apimodels.ConfigNodePropertyBoolean;
 import apimodels.ConfigNodePropertyString;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * ComDayCqCommonsImplExternalizerImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class ComDayCqCommonsImplExternalizerImplProperties   {
   @JsonProperty("externalizer.domains")
-  private ConfigNodePropertyArray externalizerDomains = null;
+  @Valid
+
+  private ConfigNodePropertyArray externalizerDomains;
 
   @JsonProperty("externalizer.host")
-  private ConfigNodePropertyString externalizerHost = null;
+  @Valid
+
+  private ConfigNodePropertyString externalizerHost;
 
   @JsonProperty("externalizer.contextpath")
-  private ConfigNodePropertyString externalizerContextpath = null;
+  @Valid
+
+  private ConfigNodePropertyString externalizerContextpath;
 
   @JsonProperty("externalizer.encodedpath")
-  private ConfigNodePropertyBoolean externalizerEncodedpath = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean externalizerEncodedpath;
 
   public ComDayCqCommonsImplExternalizerImplProperties externalizerDomains(ConfigNodePropertyArray externalizerDomains) {
     this.externalizerDomains = externalizerDomains;
@@ -36,7 +45,6 @@ public class ComDayCqCommonsImplExternalizerImplProperties   {
    * Get externalizerDomains
    * @return externalizerDomains
   **/
-  @Valid
   public ConfigNodePropertyArray getExternalizerDomains() {
     return externalizerDomains;
   }
@@ -54,7 +62,6 @@ public class ComDayCqCommonsImplExternalizerImplProperties   {
    * Get externalizerHost
    * @return externalizerHost
   **/
-  @Valid
   public ConfigNodePropertyString getExternalizerHost() {
     return externalizerHost;
   }
@@ -72,7 +79,6 @@ public class ComDayCqCommonsImplExternalizerImplProperties   {
    * Get externalizerContextpath
    * @return externalizerContextpath
   **/
-  @Valid
   public ConfigNodePropertyString getExternalizerContextpath() {
     return externalizerContextpath;
   }
@@ -90,7 +96,6 @@ public class ComDayCqCommonsImplExternalizerImplProperties   {
    * Get externalizerEncodedpath
    * @return externalizerEncodedpath
   **/
-  @Valid
   public ConfigNodePropertyBoolean getExternalizerEncodedpath() {
     return externalizerEncodedpath;
   }
@@ -101,7 +106,7 @@ public class ComDayCqCommonsImplExternalizerImplProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -138,11 +143,8 @@ public class ComDayCqCommonsImplExternalizerImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

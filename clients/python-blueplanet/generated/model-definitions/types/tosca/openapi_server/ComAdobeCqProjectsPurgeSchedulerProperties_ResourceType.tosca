@@ -1,0 +1,74 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqProjectsPurgeSchedulerProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqProjectsPurgeSchedulerProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComAdobeCqProjectsPurgeSchedulerProperties {
+    title = ComAdobeCqProjectsPurgeSchedulerProperties
+    description = ComAdobeCqProjectsPurgeSchedulerProperties
+    derivedFrom = Root
+    properties {
+        scheduledpurge_name {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        scheduledpurge_purge_active {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        scheduledpurge_templates {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        scheduledpurge_purge_groups {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        scheduledpurge_purge_assets {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        scheduledpurge_terminate_running_workflows {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        scheduledpurge_daysold {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        scheduledpurge_save_threshold {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqProjectsPurgeSchedulerProperties {
+    title = ComAdobeCqProjectsPurgeSchedulerProperties
+    description = ComAdobeCqProjectsPurgeSchedulerProperties
+    implements = openapi_server.resourceTypes.ComAdobeCqProjectsPurgeSchedulerProperties
+
+  }
+}

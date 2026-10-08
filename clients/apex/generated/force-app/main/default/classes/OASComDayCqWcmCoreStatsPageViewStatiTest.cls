@@ -72,8 +72,8 @@ private class OASComDayCqWcmCoreStatsPageViewStatiTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqWcmCoreStatsPageViewStati comDayCqWcmCoreStatsPageViewStatisticsImplProperties = new OASComDayCqWcmCoreStatsPageViewStati();
-        Map<String, String> propertyMappings = comDayCqWcmCoreStatsPageViewStatisticsImplProperties.getPropertyMappings();
-        System.assertEquals('pageviewstatisticsTrackingurl', propertyMappings.get('pageviewstatistics.trackingurl'));
-        System.assertEquals('pageviewstatisticsTrackingscriptEnabled', propertyMappings.get('pageviewstatistics.trackingscript.enabled'));
+        Map<String, String> x-property-mappings = comDayCqWcmCoreStatsPageViewStatisticsImplProperties.getx-property-mappings();
+        System.assertEquals('pageviewstatisticsTrackingurl', x-property-mappings.get('pageviewstatistics.trackingurl'));
+        System.assertEquals('pageviewstatisticsTrackingscriptEnabled', x-property-mappings.get('pageviewstatistics.trackingscript.enabled'));
     }
 }

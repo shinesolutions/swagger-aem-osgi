@@ -4,24 +4,21 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2019-08-05T01:00:05.540Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2026-10-07T12:54:26.576036107Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoInfo   {
   
-
-  private String pid = null;
-
-  private String title = null;
-
-  private String description = null;
-
-  private OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties properties = null;
+  private String pid;
+  private String title;
+  private String description;
+  private OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties properties;
 
   /**
    **/
@@ -81,10 +78,10 @@ public class OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoInf
       return false;
     }
     OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoInfo orgApacheSlingDistributionAgentImplReverseDistributionAgentFactoInfo = (OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoInfo) o;
-    return Objects.equals(pid, orgApacheSlingDistributionAgentImplReverseDistributionAgentFactoInfo.pid) &&
-        Objects.equals(title, orgApacheSlingDistributionAgentImplReverseDistributionAgentFactoInfo.title) &&
-        Objects.equals(description, orgApacheSlingDistributionAgentImplReverseDistributionAgentFactoInfo.description) &&
-        Objects.equals(properties, orgApacheSlingDistributionAgentImplReverseDistributionAgentFactoInfo.properties);
+    return Objects.equals(this.pid, orgApacheSlingDistributionAgentImplReverseDistributionAgentFactoInfo.pid) &&
+        Objects.equals(this.title, orgApacheSlingDistributionAgentImplReverseDistributionAgentFactoInfo.title) &&
+        Objects.equals(this.description, orgApacheSlingDistributionAgentImplReverseDistributionAgentFactoInfo.description) &&
+        Objects.equals(this.properties, orgApacheSlingDistributionAgentImplReverseDistributionAgentFactoInfo.properties);
   }
 
   @Override
@@ -110,10 +107,7 @@ public class OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoInf
    * (except the first line).
    */
   private String toIndentedString(Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

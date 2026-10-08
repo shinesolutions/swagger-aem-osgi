@@ -7,12 +7,12 @@ import org.openapitools.model.OrgApacheSlingCaconfigImplOverrideSystemPropertyCo
 
 @Canonical
 class OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOveInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOveProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOveProperties properties
 }

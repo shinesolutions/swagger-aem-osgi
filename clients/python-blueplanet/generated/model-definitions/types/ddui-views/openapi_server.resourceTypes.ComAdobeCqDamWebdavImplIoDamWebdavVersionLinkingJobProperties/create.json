@@ -1,0 +1,19 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "cq_dam_webdav_version_linking_enable" },
+      {"model": "cq_dam_webdav_version_linking_scheduler_period" },
+      {"model": "cq_dam_webdav_version_linking_staging_timeout" },
+    ]
+  }]
+}

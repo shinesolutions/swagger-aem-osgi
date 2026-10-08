@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyArray;
 
 @Canonical
 class ComAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCProperties {
-    ConfigNodePropertyArray hcTags = null
-
+    
+    ConfigNodePropertyArray hcTags
 }

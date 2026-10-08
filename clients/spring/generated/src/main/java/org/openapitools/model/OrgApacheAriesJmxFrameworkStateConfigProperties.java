@@ -1,24 +1,35 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyBoolean;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * OrgApacheAriesJmxFrameworkStateConfigProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class OrgApacheAriesJmxFrameworkStateConfigProperties   {
-  @JsonProperty("attributeChangeNotificationEnabled")
-  private ConfigNodePropertyBoolean attributeChangeNotificationEnabled = null;
+@JsonTypeName("orgApacheAriesJmxFrameworkStateConfigProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class OrgApacheAriesJmxFrameworkStateConfigProperties {
 
-  public OrgApacheAriesJmxFrameworkStateConfigProperties attributeChangeNotificationEnabled(ConfigNodePropertyBoolean attributeChangeNotificationEnabled) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean attributeChangeNotificationEnabled;
+
+  public OrgApacheAriesJmxFrameworkStateConfigProperties attributeChangeNotificationEnabled(@Nullable ConfigNodePropertyBoolean attributeChangeNotificationEnabled) {
     this.attributeChangeNotificationEnabled = attributeChangeNotificationEnabled;
     return this;
   }
@@ -26,22 +37,21 @@ public class OrgApacheAriesJmxFrameworkStateConfigProperties   {
   /**
    * Get attributeChangeNotificationEnabled
    * @return attributeChangeNotificationEnabled
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getAttributeChangeNotificationEnabled() {
+   */
+  @Valid 
+  @Schema(name = "attributeChangeNotificationEnabled", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("attributeChangeNotificationEnabled")
+  public @Nullable ConfigNodePropertyBoolean getAttributeChangeNotificationEnabled() {
     return attributeChangeNotificationEnabled;
   }
 
-  public void setAttributeChangeNotificationEnabled(ConfigNodePropertyBoolean attributeChangeNotificationEnabled) {
+  @JsonProperty("attributeChangeNotificationEnabled")
+  public void setAttributeChangeNotificationEnabled(@Nullable ConfigNodePropertyBoolean attributeChangeNotificationEnabled) {
     this.attributeChangeNotificationEnabled = attributeChangeNotificationEnabled;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -61,7 +71,6 @@ public class OrgApacheAriesJmxFrameworkStateConfigProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class OrgApacheAriesJmxFrameworkStateConfigProperties {\n");
-    
     sb.append("    attributeChangeNotificationEnabled: ").append(toIndentedString(attributeChangeNotificationEnabled)).append("\n");
     sb.append("}");
     return sb.toString();
@@ -71,11 +80,8 @@ public class OrgApacheAriesJmxFrameworkStateConfigProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

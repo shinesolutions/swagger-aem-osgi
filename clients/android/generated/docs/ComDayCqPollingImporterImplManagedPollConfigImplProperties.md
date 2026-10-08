@@ -1,7 +1,9 @@
 
+
 # ComDayCqPollingImporterImplManagedPollConfigImplProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **id** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
@@ -13,6 +15,7 @@ Name | Type | Description | Notes
 **target** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
 **login** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
 **password** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
+
 
 
 

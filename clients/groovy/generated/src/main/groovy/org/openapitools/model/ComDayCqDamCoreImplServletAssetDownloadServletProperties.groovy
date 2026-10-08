@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyBoolean;
 
 @Canonical
 class ComDayCqDamCoreImplServletAssetDownloadServletProperties {
-    ConfigNodePropertyBoolean enabled = null
-
+    
+    ConfigNodePropertyBoolean enabled
 }

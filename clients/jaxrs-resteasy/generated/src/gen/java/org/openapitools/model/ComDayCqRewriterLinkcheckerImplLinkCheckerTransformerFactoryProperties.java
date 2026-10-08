@@ -4,29 +4,33 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2019-08-05T00:59:30.156Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2026-10-07T12:54:21.614735164Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties   {
   
-  private ConfigNodePropertyBoolean linkcheckertransformerDisableRewriting = null;
-  private ConfigNodePropertyBoolean linkcheckertransformerDisableChecking = null;
-  private ConfigNodePropertyInteger linkcheckertransformerMapCacheSize = null;
-  private ConfigNodePropertyBoolean linkcheckertransformerStrictExtensionCheck = null;
-  private ConfigNodePropertyBoolean linkcheckertransformerStripHtmltExtension = null;
-  private ConfigNodePropertyArray linkcheckertransformerRewriteElements = null;
-  private ConfigNodePropertyArray linkcheckertransformerStripExtensionPathBlacklist = null;
+  private ConfigNodePropertyBoolean linkcheckertransformerDisableRewriting;
+  private ConfigNodePropertyBoolean linkcheckertransformerDisableChecking;
+  private ConfigNodePropertyInteger linkcheckertransformerMapCacheSize;
+  private ConfigNodePropertyBoolean linkcheckertransformerStrictExtensionCheck;
+  private ConfigNodePropertyBoolean linkcheckertransformerStripHtmltExtension;
+  private ConfigNodePropertyArray linkcheckertransformerRewriteElements;
+  private ConfigNodePropertyArray linkcheckertransformerStripExtensionPathBlacklist;
 
   /**
    **/
   
   @ApiModelProperty(value = "")
   @JsonProperty("linkcheckertransformer.disableRewriting")
+  @Valid
   public ConfigNodePropertyBoolean getLinkcheckertransformerDisableRewriting() {
     return linkcheckertransformerDisableRewriting;
   }
@@ -39,6 +43,7 @@ public class ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryPropert
   
   @ApiModelProperty(value = "")
   @JsonProperty("linkcheckertransformer.disableChecking")
+  @Valid
   public ConfigNodePropertyBoolean getLinkcheckertransformerDisableChecking() {
     return linkcheckertransformerDisableChecking;
   }
@@ -51,6 +56,7 @@ public class ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryPropert
   
   @ApiModelProperty(value = "")
   @JsonProperty("linkcheckertransformer.mapCacheSize")
+  @Valid
   public ConfigNodePropertyInteger getLinkcheckertransformerMapCacheSize() {
     return linkcheckertransformerMapCacheSize;
   }
@@ -63,6 +69,7 @@ public class ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryPropert
   
   @ApiModelProperty(value = "")
   @JsonProperty("linkcheckertransformer.strictExtensionCheck")
+  @Valid
   public ConfigNodePropertyBoolean getLinkcheckertransformerStrictExtensionCheck() {
     return linkcheckertransformerStrictExtensionCheck;
   }
@@ -75,6 +82,7 @@ public class ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryPropert
   
   @ApiModelProperty(value = "")
   @JsonProperty("linkcheckertransformer.stripHtmltExtension")
+  @Valid
   public ConfigNodePropertyBoolean getLinkcheckertransformerStripHtmltExtension() {
     return linkcheckertransformerStripHtmltExtension;
   }
@@ -87,6 +95,7 @@ public class ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryPropert
   
   @ApiModelProperty(value = "")
   @JsonProperty("linkcheckertransformer.rewriteElements")
+  @Valid
   public ConfigNodePropertyArray getLinkcheckertransformerRewriteElements() {
     return linkcheckertransformerRewriteElements;
   }
@@ -99,6 +108,7 @@ public class ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryPropert
   
   @ApiModelProperty(value = "")
   @JsonProperty("linkcheckertransformer.stripExtensionPathBlacklist")
+  @Valid
   public ConfigNodePropertyArray getLinkcheckertransformerStripExtensionPathBlacklist() {
     return linkcheckertransformerStripExtensionPathBlacklist;
   }
@@ -108,7 +118,7 @@ public class ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryPropert
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -116,13 +126,13 @@ public class ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryPropert
       return false;
     }
     ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties comDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties = (ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties) o;
-    return Objects.equals(linkcheckertransformerDisableRewriting, comDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties.linkcheckertransformerDisableRewriting) &&
-        Objects.equals(linkcheckertransformerDisableChecking, comDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties.linkcheckertransformerDisableChecking) &&
-        Objects.equals(linkcheckertransformerMapCacheSize, comDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties.linkcheckertransformerMapCacheSize) &&
-        Objects.equals(linkcheckertransformerStrictExtensionCheck, comDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties.linkcheckertransformerStrictExtensionCheck) &&
-        Objects.equals(linkcheckertransformerStripHtmltExtension, comDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties.linkcheckertransformerStripHtmltExtension) &&
-        Objects.equals(linkcheckertransformerRewriteElements, comDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties.linkcheckertransformerRewriteElements) &&
-        Objects.equals(linkcheckertransformerStripExtensionPathBlacklist, comDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties.linkcheckertransformerStripExtensionPathBlacklist);
+    return Objects.equals(this.linkcheckertransformerDisableRewriting, comDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties.linkcheckertransformerDisableRewriting) &&
+        Objects.equals(this.linkcheckertransformerDisableChecking, comDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties.linkcheckertransformerDisableChecking) &&
+        Objects.equals(this.linkcheckertransformerMapCacheSize, comDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties.linkcheckertransformerMapCacheSize) &&
+        Objects.equals(this.linkcheckertransformerStrictExtensionCheck, comDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties.linkcheckertransformerStrictExtensionCheck) &&
+        Objects.equals(this.linkcheckertransformerStripHtmltExtension, comDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties.linkcheckertransformerStripHtmltExtension) &&
+        Objects.equals(this.linkcheckertransformerRewriteElements, comDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties.linkcheckertransformerRewriteElements) &&
+        Objects.equals(this.linkcheckertransformerStripExtensionPathBlacklist, comDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties.linkcheckertransformerStripExtensionPathBlacklist);
   }
 
   @Override
@@ -150,11 +160,8 @@ public class ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryPropert
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

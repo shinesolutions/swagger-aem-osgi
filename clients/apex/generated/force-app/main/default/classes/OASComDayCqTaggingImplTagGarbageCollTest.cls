@@ -72,7 +72,7 @@ private class OASComDayCqTaggingImplTagGarbageCollTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqTaggingImplTagGarbageColl comDayCqTaggingImplTagGarbageCollectorProperties = new OASComDayCqTaggingImplTagGarbageColl();
-        Map<String, String> propertyMappings = comDayCqTaggingImplTagGarbageCollectorProperties.getPropertyMappings();
-        System.assertEquals('schedulerExpression', propertyMappings.get('scheduler.expression'));
+        Map<String, String> x-property-mappings = comDayCqTaggingImplTagGarbageCollectorProperties.getx-property-mappings();
+        System.assertEquals('schedulerExpression', x-property-mappings.get('scheduler.expression'));
     }
 }

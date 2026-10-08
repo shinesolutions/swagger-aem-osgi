@@ -3,6 +3,7 @@ package org.openapitools.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyBoolean;
@@ -13,31 +14,31 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaInflectorServerCodegen", date = "2019-08-05T00:53:46.291Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaInflectorServerCodegen", date = "2026-10-07T12:53:12.340274163Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerProperties   {
   @JsonProperty("translate.language")
-  private ConfigNodePropertyDropDown translateLanguage = null;
+  private ConfigNodePropertyDropDown translateLanguage;
 
   @JsonProperty("translate.display")
-  private ConfigNodePropertyDropDown translateDisplay = null;
+  private ConfigNodePropertyDropDown translateDisplay;
 
   @JsonProperty("translate.attribution")
-  private ConfigNodePropertyBoolean translateAttribution = null;
+  private ConfigNodePropertyBoolean translateAttribution;
 
   @JsonProperty("translate.caching")
-  private ConfigNodePropertyDropDown translateCaching = null;
+  private ConfigNodePropertyDropDown translateCaching;
 
   @JsonProperty("translate.smart.rendering")
-  private ConfigNodePropertyDropDown translateSmartRendering = null;
+  private ConfigNodePropertyDropDown translateSmartRendering;
 
   @JsonProperty("translate.caching.duration")
-  private ConfigNodePropertyString translateCachingDuration = null;
+  private ConfigNodePropertyString translateCachingDuration;
 
   @JsonProperty("translate.session.save.interval")
-  private ConfigNodePropertyString translateSessionSaveInterval = null;
+  private ConfigNodePropertyString translateSessionSaveInterval;
 
   @JsonProperty("translate.session.save.batchLimit")
-  private ConfigNodePropertyString translateSessionSaveBatchLimit = null;
+  private ConfigNodePropertyString translateSessionSaveBatchLimit;
 
   /**
    **/
@@ -177,7 +178,7 @@ public class ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerPrope
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -221,11 +222,8 @@ public class ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerPrope
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

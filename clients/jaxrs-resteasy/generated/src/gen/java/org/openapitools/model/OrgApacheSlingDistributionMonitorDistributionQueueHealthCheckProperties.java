@@ -4,26 +4,30 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2019-08-05T00:59:30.156Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2026-10-07T12:54:21.614735164Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingDistributionMonitorDistributionQueueHealthCheckProperties   {
   
-  private ConfigNodePropertyString hcName = null;
-  private ConfigNodePropertyArray hcTags = null;
-  private ConfigNodePropertyString hcMbeanName = null;
-  private ConfigNodePropertyInteger numberOfRetriesAllowed = null;
+  private ConfigNodePropertyString hcName;
+  private ConfigNodePropertyArray hcTags;
+  private ConfigNodePropertyString hcMbeanName;
+  private ConfigNodePropertyInteger numberOfRetriesAllowed;
 
   /**
    **/
   
   @ApiModelProperty(value = "")
   @JsonProperty("hc.name")
+  @Valid
   public ConfigNodePropertyString getHcName() {
     return hcName;
   }
@@ -36,6 +40,7 @@ public class OrgApacheSlingDistributionMonitorDistributionQueueHealthCheckProper
   
   @ApiModelProperty(value = "")
   @JsonProperty("hc.tags")
+  @Valid
   public ConfigNodePropertyArray getHcTags() {
     return hcTags;
   }
@@ -48,6 +53,7 @@ public class OrgApacheSlingDistributionMonitorDistributionQueueHealthCheckProper
   
   @ApiModelProperty(value = "")
   @JsonProperty("hc.mbean.name")
+  @Valid
   public ConfigNodePropertyString getHcMbeanName() {
     return hcMbeanName;
   }
@@ -60,6 +66,7 @@ public class OrgApacheSlingDistributionMonitorDistributionQueueHealthCheckProper
   
   @ApiModelProperty(value = "")
   @JsonProperty("numberOfRetriesAllowed")
+  @Valid
   public ConfigNodePropertyInteger getNumberOfRetriesAllowed() {
     return numberOfRetriesAllowed;
   }
@@ -69,7 +76,7 @@ public class OrgApacheSlingDistributionMonitorDistributionQueueHealthCheckProper
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -77,10 +84,10 @@ public class OrgApacheSlingDistributionMonitorDistributionQueueHealthCheckProper
       return false;
     }
     OrgApacheSlingDistributionMonitorDistributionQueueHealthCheckProperties orgApacheSlingDistributionMonitorDistributionQueueHealthCheckProperties = (OrgApacheSlingDistributionMonitorDistributionQueueHealthCheckProperties) o;
-    return Objects.equals(hcName, orgApacheSlingDistributionMonitorDistributionQueueHealthCheckProperties.hcName) &&
-        Objects.equals(hcTags, orgApacheSlingDistributionMonitorDistributionQueueHealthCheckProperties.hcTags) &&
-        Objects.equals(hcMbeanName, orgApacheSlingDistributionMonitorDistributionQueueHealthCheckProperties.hcMbeanName) &&
-        Objects.equals(numberOfRetriesAllowed, orgApacheSlingDistributionMonitorDistributionQueueHealthCheckProperties.numberOfRetriesAllowed);
+    return Objects.equals(this.hcName, orgApacheSlingDistributionMonitorDistributionQueueHealthCheckProperties.hcName) &&
+        Objects.equals(this.hcTags, orgApacheSlingDistributionMonitorDistributionQueueHealthCheckProperties.hcTags) &&
+        Objects.equals(this.hcMbeanName, orgApacheSlingDistributionMonitorDistributionQueueHealthCheckProperties.hcMbeanName) &&
+        Objects.equals(this.numberOfRetriesAllowed, orgApacheSlingDistributionMonitorDistributionQueueHealthCheckProperties.numberOfRetriesAllowed);
   }
 
   @Override
@@ -105,11 +112,8 @@ public class OrgApacheSlingDistributionMonitorDistributionQueueHealthCheckProper
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeGraniteI18nImplPreferencesLocaleResolverServiceProperties {
-    ConfigNodePropertyString securityPreferencesName = null
-
+    
+    ConfigNodePropertyString securityPreferencesName
 }

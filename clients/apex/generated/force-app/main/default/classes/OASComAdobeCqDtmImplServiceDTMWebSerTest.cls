@@ -72,8 +72,8 @@ private class OASComAdobeCqDtmImplServiceDTMWebSerTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeCqDtmImplServiceDTMWebSer comAdobeCqDtmImplServiceDTMWebServiceImplProperties = new OASComAdobeCqDtmImplServiceDTMWebSer();
-        Map<String, String> propertyMappings = comAdobeCqDtmImplServiceDTMWebServiceImplProperties.getPropertyMappings();
-        System.assertEquals('connectionTimeout', propertyMappings.get('connection.timeout'));
-        System.assertEquals('socketTimeout', propertyMappings.get('socket.timeout'));
+        Map<String, String> x-property-mappings = comAdobeCqDtmImplServiceDTMWebServiceImplProperties.getx-property-mappings();
+        System.assertEquals('connectionTimeout', x-property-mappings.get('connection.timeout'));
+        System.assertEquals('socketTimeout', x-property-mappings.get('socket.timeout'));
     }
 }

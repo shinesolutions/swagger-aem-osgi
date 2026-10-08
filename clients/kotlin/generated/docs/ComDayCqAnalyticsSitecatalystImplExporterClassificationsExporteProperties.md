@@ -2,10 +2,10 @@
 # ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**allowedPeriodpaths** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**cqPeriodanalyticsPeriodsaintPeriodexporterPeriodpagesize** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **allowedPaths** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **cqAnalyticsSaintExporterPagesize** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
 
 
 

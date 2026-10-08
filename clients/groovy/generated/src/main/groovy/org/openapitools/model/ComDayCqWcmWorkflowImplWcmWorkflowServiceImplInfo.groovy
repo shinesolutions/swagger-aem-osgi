@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqWcmWorkflowImplWcmWorkflowServiceImplPrope
 
 @Canonical
 class ComDayCqWcmWorkflowImplWcmWorkflowServiceImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties properties
 }

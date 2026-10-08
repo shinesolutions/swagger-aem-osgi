@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqUpgradesCleanupImplUpgradeContentCleanup
 
 @Canonical
 class ComAdobeCqUpgradesCleanupImplUpgradeContentCleanupInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqUpgradesCleanupImplUpgradeContentCleanupProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqUpgradesCleanupImplUpgradeContentCleanupProperties properties
 }

@@ -2,18 +2,19 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**enabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] 
-**config_property_inheritance_property_names** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **enabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] |
+| **config_property_inheritance_property_names** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStraProperties.new(enabled: null,
-                                 config_property_inheritance_property_names: null)
+instance = SwaggerAemOsgiClient::OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStraProperties.new(
+  enabled: null,
+  config_property_inheritance_property_names: null
+)
 ```
-
 

@@ -1,5 +1,7 @@
-import connexion
-import six
+import flask
+from typing import Dict
+from typing import Tuple
+from typing import Union
 
 from openapi_server.models.adaptive_form_and_interactive_communication_web_channel_configuration_info import AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationInfo  # noqa: E501
 from openapi_server.models.adaptive_form_and_interactive_communication_web_channel_theme_configur_info import AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurInfo  # noqa: E501
@@ -753,7 +755,7 @@ def adaptive_form_and_interactive_communication_web_channel_configuration(post=N
     :param generating_compliant_data: 
     :type generating_compliant_data: bool
 
-    :rtype: AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationInfo
+    :rtype: Union[AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationInfo, Tuple[AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationInfo, int], Tuple[AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -778,7 +780,7 @@ def adaptive_form_and_interactive_communication_web_channel_theme_configur(post=
     :param font_list: 
     :type font_list: List[str]
 
-    :rtype: AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurInfo
+    :rtype: Union[AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurInfo, Tuple[AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurInfo, int], Tuple[AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -803,7 +805,7 @@ def analytics_component_query_cache_service(post=None, apply=None, delete=None, 
     :param cq_analytics_component_query_cache_size: 
     :type cq_analytics_component_query_cache_size: int
 
-    :rtype: AnalyticsComponentQueryCacheServiceInfo
+    :rtype: Union[AnalyticsComponentQueryCacheServiceInfo, Tuple[AnalyticsComponentQueryCacheServiceInfo, int], Tuple[AnalyticsComponentQueryCacheServiceInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -828,7 +830,7 @@ def apache_sling_health_check_result_html_serializer(post=None, apply=None, dele
     :param style_string: 
     :type style_string: str
 
-    :rtype: ApacheSlingHealthCheckResultHTMLSerializerInfo
+    :rtype: Union[ApacheSlingHealthCheckResultHTMLSerializerInfo, Tuple[ApacheSlingHealthCheckResultHTMLSerializerInfo, int], Tuple[ApacheSlingHealthCheckResultHTMLSerializerInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -855,7 +857,7 @@ def com_adobe_aem_formsndocuments_config_aem_forms_manager_configuration(post=No
     :param forms_manager_config_include_deprecated_templates: 
     :type forms_manager_config_include_deprecated_templates: bool
 
-    :rtype: ComAdobeAemFormsndocumentsConfigAEMFormsManagerConfigurationInfo
+    :rtype: Union[ComAdobeAemFormsndocumentsConfigAEMFormsManagerConfigurationInfo, Tuple[ComAdobeAemFormsndocumentsConfigAEMFormsManagerConfigurationInfo, int], Tuple[ComAdobeAemFormsndocumentsConfigAEMFormsManagerConfigurationInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -880,7 +882,7 @@ def com_adobe_aem_transaction_core_impl_transaction_recorder(post=None, apply=No
     :param is_transaction_recording_enabled: 
     :type is_transaction_recording_enabled: bool
 
-    :rtype: ComAdobeAemTransactionCoreImplTransactionRecorderInfo
+    :rtype: Union[ComAdobeAemTransactionCoreImplTransactionRecorderInfo, Tuple[ComAdobeAemTransactionCoreImplTransactionRecorderInfo, int], Tuple[ComAdobeAemTransactionCoreImplTransactionRecorderInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -909,7 +911,7 @@ def com_adobe_aem_upgrade_prechecks_hc_impl_deprecate_indexes_hc(post=None, appl
     :param hc_mbean_name: 
     :type hc_mbean_name: str
 
-    :rtype: ComAdobeAemUpgradePrechecksHcImplDeprecateIndexesHCInfo
+    :rtype: Union[ComAdobeAemUpgradePrechecksHcImplDeprecateIndexesHCInfo, Tuple[ComAdobeAemUpgradePrechecksHcImplDeprecateIndexesHCInfo, int], Tuple[ComAdobeAemUpgradePrechecksHcImplDeprecateIndexesHCInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -938,7 +940,7 @@ def com_adobe_aem_upgrade_prechecks_hc_impl_replication_agents_disabled_hc(post=
     :param hc_mbean_name: 
     :type hc_mbean_name: str
 
-    :rtype: ComAdobeAemUpgradePrechecksHcImplReplicationAgentsDisabledHCInfo
+    :rtype: Union[ComAdobeAemUpgradePrechecksHcImplReplicationAgentsDisabledHCInfo, Tuple[ComAdobeAemUpgradePrechecksHcImplReplicationAgentsDisabledHCInfo, int], Tuple[ComAdobeAemUpgradePrechecksHcImplReplicationAgentsDisabledHCInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -965,7 +967,7 @@ def com_adobe_aem_upgrade_prechecks_mbean_impl_pre_upgrade_tasks_m_bean_impl(pos
     :param pre_upgrade_hc_tags: 
     :type pre_upgrade_hc_tags: List[str]
 
-    :rtype: ComAdobeAemUpgradePrechecksMbeanImplPreUpgradeTasksMBeanImplInfo
+    :rtype: Union[ComAdobeAemUpgradePrechecksMbeanImplPreUpgradeTasksMBeanImplInfo, Tuple[ComAdobeAemUpgradePrechecksMbeanImplPreUpgradeTasksMBeanImplInfo, int], Tuple[ComAdobeAemUpgradePrechecksMbeanImplPreUpgradeTasksMBeanImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -992,7 +994,7 @@ def com_adobe_aem_upgrade_prechecks_tasks_impl_consistency_check_task_impl(post=
     :param fix_inconsistencies: 
     :type fix_inconsistencies: bool
 
-    :rtype: ComAdobeAemUpgradePrechecksTasksImplConsistencyCheckTaskImplInfo
+    :rtype: Union[ComAdobeAemUpgradePrechecksTasksImplConsistencyCheckTaskImplInfo, Tuple[ComAdobeAemUpgradePrechecksTasksImplConsistencyCheckTaskImplInfo, int], Tuple[ComAdobeAemUpgradePrechecksTasksImplConsistencyCheckTaskImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -1021,7 +1023,7 @@ def com_adobe_cq_account_api_account_management_service(post=None, apply=None, d
     :param cq_accountmanager_config_requestnewpwd_mail: 
     :type cq_accountmanager_config_requestnewpwd_mail: str
 
-    :rtype: ComAdobeCqAccountApiAccountManagementServiceInfo
+    :rtype: Union[ComAdobeCqAccountApiAccountManagementServiceInfo, Tuple[ComAdobeCqAccountApiAccountManagementServiceInfo, int], Tuple[ComAdobeCqAccountApiAccountManagementServiceInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -1048,7 +1050,7 @@ def com_adobe_cq_account_impl_account_management_servlet(post=None, apply=None, 
     :param cq_accountmanager_config_informnewpwd_mail: 
     :type cq_accountmanager_config_informnewpwd_mail: str
 
-    :rtype: ComAdobeCqAccountImplAccountManagementServletInfo
+    :rtype: Union[ComAdobeCqAccountImplAccountManagementServletInfo, Tuple[ComAdobeCqAccountImplAccountManagementServletInfo, int], Tuple[ComAdobeCqAccountImplAccountManagementServletInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -1073,7 +1075,7 @@ def com_adobe_cq_address_impl_location_location_list_servlet(post=None, apply=No
     :param cq_address_location_default_max_results: 
     :type cq_address_location_default_max_results: int
 
-    :rtype: ComAdobeCqAddressImplLocationLocationListServletInfo
+    :rtype: Union[ComAdobeCqAddressImplLocationLocationListServletInfo, Tuple[ComAdobeCqAddressImplLocationLocationListServletInfo, int], Tuple[ComAdobeCqAddressImplLocationLocationListServletInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -1104,7 +1106,7 @@ def com_adobe_cq_audit_purge_dam(post=None, apply=None, delete=None, action=None
     :param auditlog_rule_types: 
     :type auditlog_rule_types: str
 
-    :rtype: ComAdobeCqAuditPurgeDamInfo
+    :rtype: Union[ComAdobeCqAuditPurgeDamInfo, Tuple[ComAdobeCqAuditPurgeDamInfo, int], Tuple[ComAdobeCqAuditPurgeDamInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -1135,7 +1137,7 @@ def com_adobe_cq_audit_purge_pages(post=None, apply=None, delete=None, action=No
     :param auditlog_rule_types: 
     :type auditlog_rule_types: str
 
-    :rtype: ComAdobeCqAuditPurgePagesInfo
+    :rtype: Union[ComAdobeCqAuditPurgePagesInfo, Tuple[ComAdobeCqAuditPurgePagesInfo, int], Tuple[ComAdobeCqAuditPurgePagesInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -1166,7 +1168,7 @@ def com_adobe_cq_audit_purge_replication(post=None, apply=None, delete=None, act
     :param auditlog_rule_types: 
     :type auditlog_rule_types: str
 
-    :rtype: ComAdobeCqAuditPurgeReplicationInfo
+    :rtype: Union[ComAdobeCqAuditPurgeReplicationInfo, Tuple[ComAdobeCqAuditPurgeReplicationInfo, int], Tuple[ComAdobeCqAuditPurgeReplicationInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -1199,7 +1201,7 @@ def com_adobe_cq_cdn_rewriter_impl_aws_cloud_front_rewriter(post=None, apply=Non
     :param cdn_rewriter_distribution_domain: 
     :type cdn_rewriter_distribution_domain: str
 
-    :rtype: ComAdobeCqCdnRewriterImplAWSCloudFrontRewriterInfo
+    :rtype: Union[ComAdobeCqCdnRewriterImplAWSCloudFrontRewriterInfo, Tuple[ComAdobeCqCdnRewriterImplAWSCloudFrontRewriterInfo, int], Tuple[ComAdobeCqCdnRewriterImplAWSCloudFrontRewriterInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -1232,7 +1234,7 @@ def com_adobe_cq_cdn_rewriter_impl_cdn_config_service_impl(post=None, apply=None
     :param cdn_config_application_protocol: 
     :type cdn_config_application_protocol: str
 
-    :rtype: ComAdobeCqCdnRewriterImplCDNConfigServiceImplInfo
+    :rtype: Union[ComAdobeCqCdnRewriterImplCDNConfigServiceImplInfo, Tuple[ComAdobeCqCdnRewriterImplCDNConfigServiceImplInfo, int], Tuple[ComAdobeCqCdnRewriterImplCDNConfigServiceImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -1261,7 +1263,7 @@ def com_adobe_cq_cdn_rewriter_impl_cdn_rewriter(post=None, apply=None, delete=No
     :param cdn_rewriter_distribution_domain: 
     :type cdn_rewriter_distribution_domain: str
 
-    :rtype: ComAdobeCqCdnRewriterImplCDNRewriterInfo
+    :rtype: Union[ComAdobeCqCdnRewriterImplCDNRewriterInfo, Tuple[ComAdobeCqCdnRewriterImplCDNRewriterInfo, int], Tuple[ComAdobeCqCdnRewriterImplCDNRewriterInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -1286,7 +1288,7 @@ def com_adobe_cq_cloudconfig_core_impl_configuration_replication_event_handle(po
     :param flush_agents: 
     :type flush_agents: List[str]
 
-    :rtype: ComAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandleInfo
+    :rtype: Union[ComAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandleInfo, Tuple[ComAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandleInfo, int], Tuple[ComAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandleInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -1313,7 +1315,7 @@ def com_adobe_cq_commerce_impl_asset_dynamic_image_handler(post=None, apply=None
     :param cq_commerce_asset_handler_name: 
     :type cq_commerce_asset_handler_name: str
 
-    :rtype: ComAdobeCqCommerceImplAssetDynamicImageHandlerInfo
+    :rtype: Union[ComAdobeCqCommerceImplAssetDynamicImageHandlerInfo, Tuple[ComAdobeCqCommerceImplAssetDynamicImageHandlerInfo, int], Tuple[ComAdobeCqCommerceImplAssetDynamicImageHandlerInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -1338,7 +1340,7 @@ def com_adobe_cq_commerce_impl_asset_product_asset_handler_provider_impl(post=No
     :param cq_commerce_asset_handler_fallback: 
     :type cq_commerce_asset_handler_fallback: str
 
-    :rtype: ComAdobeCqCommerceImplAssetProductAssetHandlerProviderImplInfo
+    :rtype: Union[ComAdobeCqCommerceImplAssetProductAssetHandlerProviderImplInfo, Tuple[ComAdobeCqCommerceImplAssetProductAssetHandlerProviderImplInfo, int], Tuple[ComAdobeCqCommerceImplAssetProductAssetHandlerProviderImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -1365,7 +1367,7 @@ def com_adobe_cq_commerce_impl_asset_static_image_handler(post=None, apply=None,
     :param cq_commerce_asset_handler_name: 
     :type cq_commerce_asset_handler_name: str
 
-    :rtype: ComAdobeCqCommerceImplAssetStaticImageHandlerInfo
+    :rtype: Union[ComAdobeCqCommerceImplAssetStaticImageHandlerInfo, Tuple[ComAdobeCqCommerceImplAssetStaticImageHandlerInfo, int], Tuple[ComAdobeCqCommerceImplAssetStaticImageHandlerInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -1392,7 +1394,7 @@ def com_adobe_cq_commerce_impl_asset_video_handler(post=None, apply=None, delete
     :param cq_commerce_asset_handler_name: 
     :type cq_commerce_asset_handler_name: str
 
-    :rtype: ComAdobeCqCommerceImplAssetVideoHandlerInfo
+    :rtype: Union[ComAdobeCqCommerceImplAssetVideoHandlerInfo, Tuple[ComAdobeCqCommerceImplAssetVideoHandlerInfo, int], Tuple[ComAdobeCqCommerceImplAssetVideoHandlerInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -1417,7 +1419,7 @@ def com_adobe_cq_commerce_impl_promotion_promotion_manager_impl(post=None, apply
     :param cq_commerce_promotion_root: 
     :type cq_commerce_promotion_root: str
 
-    :rtype: ComAdobeCqCommerceImplPromotionPromotionManagerImplInfo
+    :rtype: Union[ComAdobeCqCommerceImplPromotionPromotionManagerImplInfo, Tuple[ComAdobeCqCommerceImplPromotionPromotionManagerImplInfo, int], Tuple[ComAdobeCqCommerceImplPromotionPromotionManagerImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -1446,7 +1448,7 @@ def com_adobe_cq_commerce_pim_impl_cataloggenerator_catalog_generator_impl(post=
     :param cq_commerce_cataloggenerator_excludedtemplateproperties: 
     :type cq_commerce_cataloggenerator_excludedtemplateproperties: List[str]
 
-    :rtype: ComAdobeCqCommercePimImplCataloggeneratorCatalogGeneratorImplInfo
+    :rtype: Union[ComAdobeCqCommercePimImplCataloggeneratorCatalogGeneratorImplInfo, Tuple[ComAdobeCqCommercePimImplCataloggeneratorCatalogGeneratorImplInfo, int], Tuple[ComAdobeCqCommercePimImplCataloggeneratorCatalogGeneratorImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -1471,7 +1473,7 @@ def com_adobe_cq_commerce_pim_impl_page_event_listener(post=None, apply=None, de
     :param cq_commerce_pageeventlistener_enabled: 
     :type cq_commerce_pageeventlistener_enabled: bool
 
-    :rtype: ComAdobeCqCommercePimImplPageEventListenerInfo
+    :rtype: Union[ComAdobeCqCommercePimImplPageEventListenerInfo, Tuple[ComAdobeCqCommercePimImplPageEventListenerInfo, int], Tuple[ComAdobeCqCommercePimImplPageEventListenerInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -1496,7 +1498,7 @@ def com_adobe_cq_commerce_pim_impl_productfeed_product_feed_service_impl(post=No
     :param feed_generator_algorithm: 
     :type feed_generator_algorithm: str
 
-    :rtype: ComAdobeCqCommercePimImplProductfeedProductFeedServiceImplInfo
+    :rtype: Union[ComAdobeCqCommercePimImplProductfeedProductFeedServiceImplInfo, Tuple[ComAdobeCqCommercePimImplProductfeedProductFeedServiceImplInfo, int], Tuple[ComAdobeCqCommercePimImplProductfeedProductFeedServiceImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -1521,7 +1523,7 @@ def com_adobe_cq_contentinsight_impl_reporting_services_settings_provider(post=N
     :param reportingservices_url: 
     :type reportingservices_url: str
 
-    :rtype: ComAdobeCqContentinsightImplReportingServicesSettingsProviderInfo
+    :rtype: Union[ComAdobeCqContentinsightImplReportingServicesSettingsProviderInfo, Tuple[ComAdobeCqContentinsightImplReportingServicesSettingsProviderInfo, int], Tuple[ComAdobeCqContentinsightImplReportingServicesSettingsProviderInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -1546,7 +1548,7 @@ def com_adobe_cq_contentinsight_impl_servlets_bright_edge_proxy_servlet(post=Non
     :param brightedge_url: 
     :type brightedge_url: str
 
-    :rtype: ComAdobeCqContentinsightImplServletsBrightEdgeProxyServletInfo
+    :rtype: Union[ComAdobeCqContentinsightImplServletsBrightEdgeProxyServletInfo, Tuple[ComAdobeCqContentinsightImplServletsBrightEdgeProxyServletInfo, int], Tuple[ComAdobeCqContentinsightImplServletsBrightEdgeProxyServletInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -1571,7 +1573,7 @@ def com_adobe_cq_contentinsight_impl_servlets_reporting_services_proxy_servle(po
     :param reportingservices_proxy_whitelist: 
     :type reportingservices_proxy_whitelist: List[str]
 
-    :rtype: ComAdobeCqContentinsightImplServletsReportingServicesProxyServleInfo
+    :rtype: Union[ComAdobeCqContentinsightImplServletsReportingServicesProxyServleInfo, Tuple[ComAdobeCqContentinsightImplServletsReportingServicesProxyServleInfo, int], Tuple[ComAdobeCqContentinsightImplServletsReportingServicesProxyServleInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -1602,7 +1604,7 @@ def com_adobe_cq_dam_cfm_impl_component_component_config_impl(post=None, apply=N
     :param dam_cfm_component_variation_prop: 
     :type dam_cfm_component_variation_prop: str
 
-    :rtype: ComAdobeCqDamCfmImplComponentComponentConfigImplInfo
+    :rtype: Union[ComAdobeCqDamCfmImplComponentComponentConfigImplInfo, Tuple[ComAdobeCqDamCfmImplComponentComponentConfigImplInfo, int], Tuple[ComAdobeCqDamCfmImplComponentComponentConfigImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -1629,7 +1631,7 @@ def com_adobe_cq_dam_cfm_impl_conf_feature_config_impl(post=None, apply=None, de
     :param dam_cfm_reference_properties: 
     :type dam_cfm_reference_properties: List[str]
 
-    :rtype: ComAdobeCqDamCfmImplConfFeatureConfigImplInfo
+    :rtype: Union[ComAdobeCqDamCfmImplConfFeatureConfigImplInfo, Tuple[ComAdobeCqDamCfmImplConfFeatureConfigImplInfo, int], Tuple[ComAdobeCqDamCfmImplConfFeatureConfigImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -1654,7 +1656,7 @@ def com_adobe_cq_dam_cfm_impl_content_rewriter_asset_processor(post=None, apply=
     :param pipeline_type: 
     :type pipeline_type: str
 
-    :rtype: ComAdobeCqDamCfmImplContentRewriterAssetProcessorInfo
+    :rtype: Union[ComAdobeCqDamCfmImplContentRewriterAssetProcessorInfo, Tuple[ComAdobeCqDamCfmImplContentRewriterAssetProcessorInfo, int], Tuple[ComAdobeCqDamCfmImplContentRewriterAssetProcessorInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -1679,7 +1681,7 @@ def com_adobe_cq_dam_cfm_impl_content_rewriter_par_range_filter(post=None, apply
     :param pipeline_type: 
     :type pipeline_type: str
 
-    :rtype: ComAdobeCqDamCfmImplContentRewriterParRangeFilterInfo
+    :rtype: Union[ComAdobeCqDamCfmImplContentRewriterParRangeFilterInfo, Tuple[ComAdobeCqDamCfmImplContentRewriterParRangeFilterInfo, int], Tuple[ComAdobeCqDamCfmImplContentRewriterParRangeFilterInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -1704,7 +1706,7 @@ def com_adobe_cq_dam_cfm_impl_content_rewriter_payload_filter(post=None, apply=N
     :param pipeline_type: 
     :type pipeline_type: str
 
-    :rtype: ComAdobeCqDamCfmImplContentRewriterPayloadFilterInfo
+    :rtype: Union[ComAdobeCqDamCfmImplContentRewriterPayloadFilterInfo, Tuple[ComAdobeCqDamCfmImplContentRewriterPayloadFilterInfo, int], Tuple[ComAdobeCqDamCfmImplContentRewriterPayloadFilterInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -1729,7 +1731,7 @@ def com_adobe_cq_dam_dm_process_image_p_tiff_manager_impl(post=None, apply=None,
     :param max_memory: 
     :type max_memory: int
 
-    :rtype: ComAdobeCqDamDmProcessImagePTiffManagerImplInfo
+    :rtype: Union[ComAdobeCqDamDmProcessImagePTiffManagerImplInfo, Tuple[ComAdobeCqDamDmProcessImagePTiffManagerImplInfo, int], Tuple[ComAdobeCqDamDmProcessImagePTiffManagerImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -1756,7 +1758,7 @@ def com_adobe_cq_dam_ips_impl_replication_trigger_replicate_on_modify_worker(pos
     :param dmreplicateonmodify_forcesyncdeletes: 
     :type dmreplicateonmodify_forcesyncdeletes: bool
 
-    :rtype: ComAdobeCqDamIpsImplReplicationTriggerReplicateOnModifyWorkerInfo
+    :rtype: Union[ComAdobeCqDamIpsImplReplicationTriggerReplicateOnModifyWorkerInfo, Tuple[ComAdobeCqDamIpsImplReplicationTriggerReplicateOnModifyWorkerInfo, int], Tuple[ComAdobeCqDamIpsImplReplicationTriggerReplicateOnModifyWorkerInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -1781,7 +1783,7 @@ def com_adobe_cq_dam_mac_sync_helper_impl_mac_sync_client_impl(post=None, apply=
     :param com_adobe_dam_mac_sync_client_so_timeout: 
     :type com_adobe_dam_mac_sync_client_so_timeout: int
 
-    :rtype: ComAdobeCqDamMacSyncHelperImplMACSyncClientImplInfo
+    :rtype: Union[ComAdobeCqDamMacSyncHelperImplMACSyncClientImplInfo, Tuple[ComAdobeCqDamMacSyncHelperImplMACSyncClientImplInfo, int], Tuple[ComAdobeCqDamMacSyncHelperImplMACSyncClientImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -1812,7 +1814,7 @@ def com_adobe_cq_dam_mac_sync_impl_dam_sync_service_impl(post=None, apply=None, 
     :param com_adobe_cq_dam_mac_sync_damsyncservice_platform: 
     :type com_adobe_cq_dam_mac_sync_damsyncservice_platform: str
 
-    :rtype: ComAdobeCqDamMacSyncImplDAMSyncServiceImplInfo
+    :rtype: Union[ComAdobeCqDamMacSyncImplDAMSyncServiceImplInfo, Tuple[ComAdobeCqDamMacSyncImplDAMSyncServiceImplInfo, int], Tuple[ComAdobeCqDamMacSyncImplDAMSyncServiceImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -1841,7 +1843,7 @@ def com_adobe_cq_dam_processor_nui_impl_nui_asset_processor(post=None, apply=Non
     :param nui_api_key: 
     :type nui_api_key: str
 
-    :rtype: ComAdobeCqDamProcessorNuiImplNuiAssetProcessorInfo
+    :rtype: Union[ComAdobeCqDamProcessorNuiImplNuiAssetProcessorInfo, Tuple[ComAdobeCqDamProcessorNuiImplNuiAssetProcessorInfo, int], Tuple[ComAdobeCqDamProcessorNuiImplNuiAssetProcessorInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -1876,7 +1878,7 @@ def com_adobe_cq_dam_s7imaging_impl_is_image_server_component(post=None, apply=N
     :param worker_threads: 
     :type worker_threads: int
 
-    :rtype: ComAdobeCqDamS7imagingImplIsImageServerComponentInfo
+    :rtype: Union[ComAdobeCqDamS7imagingImplIsImageServerComponentInfo, Tuple[ComAdobeCqDamS7imagingImplIsImageServerComponentInfo, int], Tuple[ComAdobeCqDamS7imagingImplIsImageServerComponentInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -1907,7 +1909,7 @@ def com_adobe_cq_dam_s7imaging_impl_ps_platform_server_servlet(post=None, apply=
     :param cache_max_entries: 
     :type cache_max_entries: int
 
-    :rtype: ComAdobeCqDamS7imagingImplPsPlatformServerServletInfo
+    :rtype: Union[ComAdobeCqDamS7imagingImplPsPlatformServerServletInfo, Tuple[ComAdobeCqDamS7imagingImplPsPlatformServerServletInfo, int], Tuple[ComAdobeCqDamS7imagingImplPsPlatformServerServletInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -1936,7 +1938,7 @@ def com_adobe_cq_dam_webdav_impl_io_asset_io_handler(post=None, apply=None, dele
     :param create_version: 
     :type create_version: bool
 
-    :rtype: ComAdobeCqDamWebdavImplIoAssetIOHandlerInfo
+    :rtype: Union[ComAdobeCqDamWebdavImplIoAssetIOHandlerInfo, Tuple[ComAdobeCqDamWebdavImplIoAssetIOHandlerInfo, int], Tuple[ComAdobeCqDamWebdavImplIoAssetIOHandlerInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -1965,7 +1967,7 @@ def com_adobe_cq_dam_webdav_impl_io_dam_webdav_version_linking_job(post=None, ap
     :param cq_dam_webdav_version_linking_staging_timeout: 
     :type cq_dam_webdav_version_linking_staging_timeout: int
 
-    :rtype: ComAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJobInfo
+    :rtype: Union[ComAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJobInfo, Tuple[ComAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJobInfo, int], Tuple[ComAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJobInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -1990,7 +1992,7 @@ def com_adobe_cq_dam_webdav_impl_io_special_files_handler(post=None, apply=None,
     :param com_day_cq_dam_core_impl_io_special_files_handler_filepatters: 
     :type com_day_cq_dam_core_impl_io_special_files_handler_filepatters: List[str]
 
-    :rtype: ComAdobeCqDamWebdavImplIoSpecialFilesHandlerInfo
+    :rtype: Union[ComAdobeCqDamWebdavImplIoSpecialFilesHandlerInfo, Tuple[ComAdobeCqDamWebdavImplIoSpecialFilesHandlerInfo, int], Tuple[ComAdobeCqDamWebdavImplIoSpecialFilesHandlerInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -2019,7 +2021,7 @@ def com_adobe_cq_deserfw_impl_deserialization_firewall_impl(post=None, apply=Non
     :param firewall_deserialization_diagnostics: 
     :type firewall_deserialization_diagnostics: str
 
-    :rtype: ComAdobeCqDeserfwImplDeserializationFirewallImplInfo
+    :rtype: Union[ComAdobeCqDeserfwImplDeserializationFirewallImplInfo, Tuple[ComAdobeCqDeserfwImplDeserializationFirewallImplInfo, int], Tuple[ComAdobeCqDeserfwImplDeserializationFirewallImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -2046,7 +2048,7 @@ def com_adobe_cq_dtm_impl_service_dtm_web_service_impl(post=None, apply=None, de
     :param socket_timeout: 
     :type socket_timeout: int
 
-    :rtype: ComAdobeCqDtmImplServiceDTMWebServiceImplInfo
+    :rtype: Union[ComAdobeCqDtmImplServiceDTMWebServiceImplInfo, Tuple[ComAdobeCqDtmImplServiceDTMWebServiceImplInfo, int], Tuple[ComAdobeCqDtmImplServiceDTMWebServiceImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -2073,7 +2075,7 @@ def com_adobe_cq_dtm_impl_servlets_dtm_deploy_hook_servlet(post=None, apply=None
     :param dtm_production_ip_whitelist: 
     :type dtm_production_ip_whitelist: List[str]
 
-    :rtype: ComAdobeCqDtmImplServletsDTMDeployHookServletInfo
+    :rtype: Union[ComAdobeCqDtmImplServletsDTMDeployHookServletInfo, Tuple[ComAdobeCqDtmImplServletsDTMDeployHookServletInfo, int], Tuple[ComAdobeCqDtmImplServletsDTMDeployHookServletInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -2102,7 +2104,7 @@ def com_adobe_cq_dtm_reactor_impl_service_web_service_impl(post=None, apply=None
     :param socket_timeout: 
     :type socket_timeout: int
 
-    :rtype: ComAdobeCqDtmReactorImplServiceWebServiceImplInfo
+    :rtype: Union[ComAdobeCqDtmReactorImplServiceWebServiceImplInfo, Tuple[ComAdobeCqDtmReactorImplServiceWebServiceImplInfo, int], Tuple[ComAdobeCqDtmReactorImplServiceWebServiceImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -2129,7 +2131,7 @@ def com_adobe_cq_experiencelog_impl_experience_log_config_servlet(post=None, app
     :param disabled_for_groups: 
     :type disabled_for_groups: List[str]
 
-    :rtype: ComAdobeCqExperiencelogImplExperienceLogConfigServletInfo
+    :rtype: Union[ComAdobeCqExperiencelogImplExperienceLogConfigServletInfo, Tuple[ComAdobeCqExperiencelogImplExperienceLogConfigServletInfo, int], Tuple[ComAdobeCqExperiencelogImplExperienceLogConfigServletInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -2160,7 +2162,7 @@ def com_adobe_cq_hc_content_packages_health_check(post=None, apply=None, delete=
     :param package_names: 
     :type package_names: List[str]
 
-    :rtype: ComAdobeCqHcContentPackagesHealthCheckInfo
+    :rtype: Union[ComAdobeCqHcContentPackagesHealthCheckInfo, Tuple[ComAdobeCqHcContentPackagesHealthCheckInfo, int], Tuple[ComAdobeCqHcContentPackagesHealthCheckInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -2187,7 +2189,7 @@ def com_adobe_cq_history_impl_history_request_filter(post=None, apply=None, dele
     :param history_request_filter_excluded_extensions: 
     :type history_request_filter_excluded_extensions: List[str]
 
-    :rtype: ComAdobeCqHistoryImplHistoryRequestFilterInfo
+    :rtype: Union[ComAdobeCqHistoryImplHistoryRequestFilterInfo, Tuple[ComAdobeCqHistoryImplHistoryRequestFilterInfo, int], Tuple[ComAdobeCqHistoryImplHistoryRequestFilterInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -2214,7 +2216,7 @@ def com_adobe_cq_history_impl_history_service_impl(post=None, apply=None, delete
     :param history_service_path_filter: 
     :type history_service_path_filter: List[str]
 
-    :rtype: ComAdobeCqHistoryImplHistoryServiceImplInfo
+    :rtype: Union[ComAdobeCqHistoryImplHistoryServiceImplInfo, Tuple[ComAdobeCqHistoryImplHistoryServiceImplInfo, int], Tuple[ComAdobeCqHistoryImplHistoryServiceImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -2247,7 +2249,7 @@ def com_adobe_cq_inbox_impl_typeprovider_item_type_provider(post=None, apply=Non
     :param inbox_impl_typeprovider_defaulturl_task: 
     :type inbox_impl_typeprovider_defaulturl_task: str
 
-    :rtype: ComAdobeCqInboxImplTypeproviderItemTypeProviderInfo
+    :rtype: Union[ComAdobeCqInboxImplTypeproviderItemTypeProviderInfo, Tuple[ComAdobeCqInboxImplTypeproviderItemTypeProviderInfo, int], Tuple[ComAdobeCqInboxImplTypeproviderItemTypeProviderInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -2274,7 +2276,7 @@ def com_adobe_cq_projects_impl_servlet_project_image_servlet(post=None, apply=No
     :param image_supported_resolutions: 
     :type image_supported_resolutions: str
 
-    :rtype: ComAdobeCqProjectsImplServletProjectImageServletInfo
+    :rtype: Union[ComAdobeCqProjectsImplServletProjectImageServletInfo, Tuple[ComAdobeCqProjectsImplServletProjectImageServletInfo, int], Tuple[ComAdobeCqProjectsImplServletProjectImageServletInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -2313,7 +2315,7 @@ def com_adobe_cq_projects_purge_scheduler(post=None, apply=None, delete=None, ac
     :param scheduledpurge_save_threshold: 
     :type scheduledpurge_save_threshold: int
 
-    :rtype: ComAdobeCqProjectsPurgeSchedulerInfo
+    :rtype: Union[ComAdobeCqProjectsPurgeSchedulerInfo, Tuple[ComAdobeCqProjectsPurgeSchedulerInfo, int], Tuple[ComAdobeCqProjectsPurgeSchedulerInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -2340,7 +2342,7 @@ def com_adobe_cq_scheduled_exporter_impl_scheduled_exporter_impl(post=None, appl
     :param exporter_user: 
     :type exporter_user: str
 
-    :rtype: ComAdobeCqScheduledExporterImplScheduledExporterImplInfo
+    :rtype: Union[ComAdobeCqScheduledExporterImplScheduledExporterImplInfo, Tuple[ComAdobeCqScheduledExporterImplScheduledExporterImplInfo, int], Tuple[ComAdobeCqScheduledExporterImplScheduledExporterImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -2373,7 +2375,7 @@ def com_adobe_cq_screens_analytics_impl_screens_analytics_service_impl(post=None
     :param com_adobe_cq_screens_analytics_impl_send_frequency: 
     :type com_adobe_cq_screens_analytics_impl_send_frequency: int
 
-    :rtype: ComAdobeCqScreensAnalyticsImplScreensAnalyticsServiceImplInfo
+    :rtype: Union[ComAdobeCqScreensAnalyticsImplScreensAnalyticsServiceImplInfo, Tuple[ComAdobeCqScreensAnalyticsImplScreensAnalyticsServiceImplInfo, int], Tuple[ComAdobeCqScreensAnalyticsImplScreensAnalyticsServiceImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -2410,7 +2412,7 @@ def com_adobe_cq_screens_device_impl_device_service(post=None, apply=None, delet
     :param com_adobe_aem_screens_device_pasword_minlength: 
     :type com_adobe_aem_screens_device_pasword_minlength: int
 
-    :rtype: ComAdobeCqScreensDeviceImplDeviceServiceInfo
+    :rtype: Union[ComAdobeCqScreensDeviceImplDeviceServiceInfo, Tuple[ComAdobeCqScreensDeviceImplDeviceServiceInfo, int], Tuple[ComAdobeCqScreensDeviceImplDeviceServiceInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -2435,7 +2437,7 @@ def com_adobe_cq_screens_device_registration_impl_registration_service_impl(post
     :param device_registration_timeout: 
     :type device_registration_timeout: int
 
-    :rtype: ComAdobeCqScreensDeviceRegistrationImplRegistrationServiceImplInfo
+    :rtype: Union[ComAdobeCqScreensDeviceRegistrationImplRegistrationServiceImplInfo, Tuple[ComAdobeCqScreensDeviceRegistrationImplRegistrationServiceImplInfo, int], Tuple[ComAdobeCqScreensDeviceRegistrationImplRegistrationServiceImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -2468,7 +2470,7 @@ def com_adobe_cq_screens_impl_handler_channels_update_handler(post=None, apply=N
     :param cq_pagesupdatehandler_previewmodepaths: 
     :type cq_pagesupdatehandler_previewmodepaths: List[str]
 
-    :rtype: ComAdobeCqScreensImplHandlerChannelsUpdateHandlerInfo
+    :rtype: Union[ComAdobeCqScreensImplHandlerChannelsUpdateHandlerInfo, Tuple[ComAdobeCqScreensImplHandlerChannelsUpdateHandlerInfo, int], Tuple[ComAdobeCqScreensImplHandlerChannelsUpdateHandlerInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -2493,7 +2495,7 @@ def com_adobe_cq_screens_impl_jobs_distributed_devices_stati_update_job(post=Non
     :param scheduler_expression: 
     :type scheduler_expression: str
 
-    :rtype: ComAdobeCqScreensImplJobsDistributedDevicesStatiUpdateJobInfo
+    :rtype: Union[ComAdobeCqScreensImplJobsDistributedDevicesStatiUpdateJobInfo, Tuple[ComAdobeCqScreensImplJobsDistributedDevicesStatiUpdateJobInfo, int], Tuple[ComAdobeCqScreensImplJobsDistributedDevicesStatiUpdateJobInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -2518,7 +2520,7 @@ def com_adobe_cq_screens_impl_remote_impl_distributed_http_client_impl(post=None
     :param com_adobe_aem_screens_impl_remote_request_timeout: 
     :type com_adobe_aem_screens_impl_remote_request_timeout: int
 
-    :rtype: ComAdobeCqScreensImplRemoteImplDistributedHttpClientImplInfo
+    :rtype: Union[ComAdobeCqScreensImplRemoteImplDistributedHttpClientImplInfo, Tuple[ComAdobeCqScreensImplRemoteImplDistributedHttpClientImplInfo, int], Tuple[ComAdobeCqScreensImplRemoteImplDistributedHttpClientImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -2543,7 +2545,7 @@ def com_adobe_cq_screens_impl_screens_channel_post_processor(post=None, apply=No
     :param screens_channels_properties_to_remove: 
     :type screens_channels_properties_to_remove: List[str]
 
-    :rtype: ComAdobeCqScreensImplScreensChannelPostProcessorInfo
+    :rtype: Union[ComAdobeCqScreensImplScreensChannelPostProcessorInfo, Tuple[ComAdobeCqScreensImplScreensChannelPostProcessorInfo, int], Tuple[ComAdobeCqScreensImplScreensChannelPostProcessorInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -2584,7 +2586,7 @@ def com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl(post=No
     :param com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_password: 
     :type com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_password: str
 
-    :rtype: ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplInfo
+    :rtype: Union[ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplInfo, Tuple[ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplInfo, int], Tuple[ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -2671,9 +2673,9 @@ def com_adobe_cq_screens_mq_activemq_impl_artemis_jms_provider(post=None, apply=
     :param cluster_retry_interval: 
     :type cluster_retry_interval: int
     :param cluster_retry_interval_multiplier: 
-    :type cluster_retry_interval_multiplier: float
+    :type cluster_retry_interval_multiplier: 
 
-    :rtype: ComAdobeCqScreensMqActivemqImplArtemisJMSProviderInfo
+    :rtype: Union[ComAdobeCqScreensMqActivemqImplArtemisJMSProviderInfo, Tuple[ComAdobeCqScreensMqActivemqImplArtemisJMSProviderInfo, int], Tuple[ComAdobeCqScreensMqActivemqImplArtemisJMSProviderInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -2700,7 +2702,7 @@ def com_adobe_cq_screens_offlinecontent_impl_bulk_offline_update_service_impl(po
     :param com_adobe_cq_screens_offlinecontent_impl_bulk_offline_update_service_impl_schedule_frequency: 
     :type com_adobe_cq_screens_offlinecontent_impl_bulk_offline_update_service_impl_schedule_frequency: str
 
-    :rtype: ComAdobeCqScreensOfflinecontentImplBulkOfflineUpdateServiceImplInfo
+    :rtype: Union[ComAdobeCqScreensOfflinecontentImplBulkOfflineUpdateServiceImplInfo, Tuple[ComAdobeCqScreensOfflinecontentImplBulkOfflineUpdateServiceImplInfo, int], Tuple[ComAdobeCqScreensOfflinecontentImplBulkOfflineUpdateServiceImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -2725,7 +2727,7 @@ def com_adobe_cq_screens_offlinecontent_impl_offline_content_service_impl(post=N
     :param disable_smart_sync: 
     :type disable_smart_sync: bool
 
-    :rtype: ComAdobeCqScreensOfflinecontentImplOfflineContentServiceImplInfo
+    :rtype: Union[ComAdobeCqScreensOfflinecontentImplOfflineContentServiceImplInfo, Tuple[ComAdobeCqScreensOfflinecontentImplOfflineContentServiceImplInfo, int], Tuple[ComAdobeCqScreensOfflinecontentImplOfflineContentServiceImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -2750,7 +2752,7 @@ def com_adobe_cq_screens_segmentation_impl_segmentation_feature_flag(post=None, 
     :param enable_data_triggered_content: 
     :type enable_data_triggered_content: bool
 
-    :rtype: ComAdobeCqScreensSegmentationImplSegmentationFeatureFlagInfo
+    :rtype: Union[ComAdobeCqScreensSegmentationImplSegmentationFeatureFlagInfo, Tuple[ComAdobeCqScreensSegmentationImplSegmentationFeatureFlagInfo, int], Tuple[ComAdobeCqScreensSegmentationImplSegmentationFeatureFlagInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -2775,7 +2777,7 @@ def com_adobe_cq_security_hc_bundles_impl_html_library_manager_config_health_ch(
     :param hc_tags: 
     :type hc_tags: List[str]
 
-    :rtype: ComAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthChInfo
+    :rtype: Union[ComAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthChInfo, Tuple[ComAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthChInfo, int], Tuple[ComAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthChInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -2800,7 +2802,7 @@ def com_adobe_cq_security_hc_bundles_impl_wcm_filter_health_check(post=None, app
     :param hc_tags: 
     :type hc_tags: List[str]
 
-    :rtype: ComAdobeCqSecurityHcBundlesImplWcmFilterHealthCheckInfo
+    :rtype: Union[ComAdobeCqSecurityHcBundlesImplWcmFilterHealthCheckInfo, Tuple[ComAdobeCqSecurityHcBundlesImplWcmFilterHealthCheckInfo, int], Tuple[ComAdobeCqSecurityHcBundlesImplWcmFilterHealthCheckInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -2831,7 +2833,7 @@ def com_adobe_cq_security_hc_dispatcher_impl_dispatcher_access_health_check(post
     :param dispatcher_filter_blocked: 
     :type dispatcher_filter_blocked: List[str]
 
-    :rtype: ComAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheckInfo
+    :rtype: Union[ComAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheckInfo, Tuple[ComAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheckInfo, int], Tuple[ComAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheckInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -2856,7 +2858,7 @@ def com_adobe_cq_security_hc_packages_impl_example_content_health_check(post=Non
     :param hc_tags: 
     :type hc_tags: List[str]
 
-    :rtype: ComAdobeCqSecurityHcPackagesImplExampleContentHealthCheckInfo
+    :rtype: Union[ComAdobeCqSecurityHcPackagesImplExampleContentHealthCheckInfo, Tuple[ComAdobeCqSecurityHcPackagesImplExampleContentHealthCheckInfo, int], Tuple[ComAdobeCqSecurityHcPackagesImplExampleContentHealthCheckInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -2883,7 +2885,7 @@ def com_adobe_cq_security_hc_webserver_impl_clickjacking_health_check(post=None,
     :param webserver_address: 
     :type webserver_address: str
 
-    :rtype: ComAdobeCqSecurityHcWebserverImplClickjackingHealthCheckInfo
+    :rtype: Union[ComAdobeCqSecurityHcWebserverImplClickjackingHealthCheckInfo, Tuple[ComAdobeCqSecurityHcWebserverImplClickjackingHealthCheckInfo, int], Tuple[ComAdobeCqSecurityHcWebserverImplClickjackingHealthCheckInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -2912,7 +2914,7 @@ def com_adobe_cq_social_accountverification_impl_account_management_config_im(po
     :param ttl2: 
     :type ttl2: int
 
-    :rtype: ComAdobeCqSocialAccountverificationImplAccountManagementConfigImInfo
+    :rtype: Union[ComAdobeCqSocialAccountverificationImplAccountManagementConfigImInfo, Tuple[ComAdobeCqSocialAccountverificationImplAccountManagementConfigImInfo, int], Tuple[ComAdobeCqSocialAccountverificationImplAccountManagementConfigImInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -2937,7 +2939,7 @@ def com_adobe_cq_social_activitystreams_client_impl_social_activity_componen(pos
     :param priority: 
     :type priority: int
 
-    :rtype: ComAdobeCqSocialActivitystreamsClientImplSocialActivityComponenInfo
+    :rtype: Union[ComAdobeCqSocialActivitystreamsClientImplSocialActivityComponenInfo, Tuple[ComAdobeCqSocialActivitystreamsClientImplSocialActivityComponenInfo, int], Tuple[ComAdobeCqSocialActivitystreamsClientImplSocialActivityComponenInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -2962,7 +2964,7 @@ def com_adobe_cq_social_activitystreams_client_impl_social_activity_stream_co(po
     :param priority: 
     :type priority: int
 
-    :rtype: ComAdobeCqSocialActivitystreamsClientImplSocialActivityStreamCoInfo
+    :rtype: Union[ComAdobeCqSocialActivitystreamsClientImplSocialActivityStreamCoInfo, Tuple[ComAdobeCqSocialActivitystreamsClientImplSocialActivityStreamCoInfo, int], Tuple[ComAdobeCqSocialActivitystreamsClientImplSocialActivityStreamCoInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -2989,7 +2991,7 @@ def com_adobe_cq_social_activitystreams_listener_impl_event_listener_handler(pos
     :param event_filter: 
     :type event_filter: str
 
-    :rtype: ComAdobeCqSocialActivitystreamsListenerImplEventListenerHandlerInfo
+    :rtype: Union[ComAdobeCqSocialActivitystreamsListenerImplEventListenerHandlerInfo, Tuple[ComAdobeCqSocialActivitystreamsListenerImplEventListenerHandlerInfo, int], Tuple[ComAdobeCqSocialActivitystreamsListenerImplEventListenerHandlerInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -3016,7 +3018,7 @@ def com_adobe_cq_social_activitystreams_listener_impl_moderation_event_exten(pos
     :param ranked: 
     :type ranked: int
 
-    :rtype: ComAdobeCqSocialActivitystreamsListenerImplModerationEventExtenInfo
+    :rtype: Union[ComAdobeCqSocialActivitystreamsListenerImplModerationEventExtenInfo, Tuple[ComAdobeCqSocialActivitystreamsListenerImplModerationEventExtenInfo, int], Tuple[ComAdobeCqSocialActivitystreamsListenerImplModerationEventExtenInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -3043,7 +3045,7 @@ def com_adobe_cq_social_activitystreams_listener_impl_rating_event_activity_s(po
     :param enable: 
     :type enable: bool
 
-    :rtype: ComAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySInfo
+    :rtype: Union[ComAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySInfo, Tuple[ComAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySInfo, int], Tuple[ComAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -3070,7 +3072,7 @@ def com_adobe_cq_social_activitystreams_listener_impl_resource_activity_stre(pos
     :param stream_name: 
     :type stream_name: str
 
-    :rtype: ComAdobeCqSocialActivitystreamsListenerImplResourceActivityStreInfo
+    :rtype: Union[ComAdobeCqSocialActivitystreamsListenerImplResourceActivityStreInfo, Tuple[ComAdobeCqSocialActivitystreamsListenerImplResourceActivityStreInfo, int], Tuple[ComAdobeCqSocialActivitystreamsListenerImplResourceActivityStreInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -3099,7 +3101,7 @@ def com_adobe_cq_social_calendar_client_endpoints_impl_calendar_operations_i(pos
     :param attachment_type_blacklist: 
     :type attachment_type_blacklist: List[str]
 
-    :rtype: ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsIInfo
+    :rtype: Union[ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsIInfo, Tuple[ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsIInfo, int], Tuple[ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsIInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -3126,7 +3128,7 @@ def com_adobe_cq_social_calendar_client_operationextensions_event_attachmen(post
     :param extension_order: 
     :type extension_order: int
 
-    :rtype: ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmenInfo
+    :rtype: Union[ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmenInfo, Tuple[ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmenInfo, int], Tuple[ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmenInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -3151,7 +3153,7 @@ def com_adobe_cq_social_calendar_servlets_time_zone_servlet(post=None, apply=Non
     :param timezones_expirytime: 
     :type timezones_expirytime: int
 
-    :rtype: ComAdobeCqSocialCalendarServletsTimeZoneServletInfo
+    :rtype: Union[ComAdobeCqSocialCalendarServletsTimeZoneServletInfo, Tuple[ComAdobeCqSocialCalendarServletsTimeZoneServletInfo, int], Tuple[ComAdobeCqSocialCalendarServletsTimeZoneServletInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -3176,7 +3178,7 @@ def com_adobe_cq_social_commons_comments_endpoints_impl_comment_delete_event(pos
     :param ranking: 
     :type ranking: int
 
-    :rtype: ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventInfo
+    :rtype: Union[ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventInfo, Tuple[ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventInfo, int], Tuple[ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -3203,7 +3205,7 @@ def com_adobe_cq_social_commons_comments_endpoints_impl_comment_operation_se(pos
     :param attachment_type_blacklist: 
     :type attachment_type_blacklist: List[str]
 
-    :rtype: ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSeInfo
+    :rtype: Union[ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSeInfo, Tuple[ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSeInfo, int], Tuple[ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSeInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -3230,7 +3232,7 @@ def com_adobe_cq_social_commons_comments_endpoints_impl_translation_operati(post
     :param attachment_type_blacklist: 
     :type attachment_type_blacklist: List[str]
 
-    :rtype: ComAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperatiInfo
+    :rtype: Union[ComAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperatiInfo, Tuple[ComAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperatiInfo, int], Tuple[ComAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperatiInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -3255,7 +3257,7 @@ def com_adobe_cq_social_commons_comments_listing_impl_search_comment_social_c(po
     :param num_user_limit: 
     :type num_user_limit: int
 
-    :rtype: ComAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialCInfo
+    :rtype: Union[ComAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialCInfo, Tuple[ComAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialCInfo, int], Tuple[ComAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialCInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -3284,7 +3286,7 @@ def com_adobe_cq_social_commons_comments_scheduler_impl_search_scheduled_pos(pos
     :param max_search_limit: 
     :type max_search_limit: int
 
-    :rtype: ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosInfo
+    :rtype: Union[ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosInfo, Tuple[ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosInfo, int], Tuple[ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -3309,7 +3311,7 @@ def com_adobe_cq_social_commons_cors_cors_authentication_filter(post=None, apply
     :param cors_enabling: 
     :type cors_enabling: bool
 
-    :rtype: ComAdobeCqSocialCommonsCorsCORSAuthenticationFilterInfo
+    :rtype: Union[ComAdobeCqSocialCommonsCorsCORSAuthenticationFilterInfo, Tuple[ComAdobeCqSocialCommonsCorsCORSAuthenticationFilterInfo, int], Tuple[ComAdobeCqSocialCommonsCorsCORSAuthenticationFilterInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -3336,7 +3338,7 @@ def com_adobe_cq_social_commons_emailreply_impl_android_email_client_provider(po
     :param reply_email_patterns: 
     :type reply_email_patterns: List[str]
 
-    :rtype: ComAdobeCqSocialCommonsEmailreplyImplAndroidEmailClientProviderInfo
+    :rtype: Union[ComAdobeCqSocialCommonsEmailreplyImplAndroidEmailClientProviderInfo, Tuple[ComAdobeCqSocialCommonsEmailreplyImplAndroidEmailClientProviderInfo, int], Tuple[ComAdobeCqSocialCommonsEmailreplyImplAndroidEmailClientProviderInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -3361,7 +3363,7 @@ def com_adobe_cq_social_commons_emailreply_impl_comment_email_builder_impl(post=
     :param context_path: 
     :type context_path: str
 
-    :rtype: ComAdobeCqSocialCommonsEmailreplyImplCommentEmailBuilderImplInfo
+    :rtype: Union[ComAdobeCqSocialCommonsEmailreplyImplCommentEmailBuilderImplInfo, Tuple[ComAdobeCqSocialCommonsEmailreplyImplCommentEmailBuilderImplInfo, int], Tuple[ComAdobeCqSocialCommonsEmailreplyImplCommentEmailBuilderImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -3386,7 +3388,7 @@ def com_adobe_cq_social_commons_emailreply_impl_comment_email_event_listener(pos
     :param event_topics: 
     :type event_topics: str
 
-    :rtype: ComAdobeCqSocialCommonsEmailreplyImplCommentEmailEventListenerInfo
+    :rtype: Union[ComAdobeCqSocialCommonsEmailreplyImplCommentEmailEventListenerInfo, Tuple[ComAdobeCqSocialCommonsEmailreplyImplCommentEmailEventListenerInfo, int], Tuple[ComAdobeCqSocialCommonsEmailreplyImplCommentEmailEventListenerInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -3413,7 +3415,7 @@ def com_adobe_cq_social_commons_emailreply_impl_custom_email_client_provider(pos
     :param reply_email_patterns: 
     :type reply_email_patterns: List[str]
 
-    :rtype: ComAdobeCqSocialCommonsEmailreplyImplCustomEmailClientProviderInfo
+    :rtype: Union[ComAdobeCqSocialCommonsEmailreplyImplCustomEmailClientProviderInfo, Tuple[ComAdobeCqSocialCommonsEmailreplyImplCustomEmailClientProviderInfo, int], Tuple[ComAdobeCqSocialCommonsEmailreplyImplCustomEmailClientProviderInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -3452,7 +3454,7 @@ def com_adobe_cq_social_commons_emailreply_impl_email_quoted_text_patterns_imp(p
     :param pattern_email: 
     :type pattern_email: str
 
-    :rtype: ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpInfo
+    :rtype: Union[ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpInfo, Tuple[ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpInfo, int], Tuple[ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -3497,7 +3499,7 @@ def com_adobe_cq_social_commons_emailreply_impl_email_reply_configuration_imp(po
     :param email_templates_root_path: 
     :type email_templates_root_path: str
 
-    :rtype: ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpInfo
+    :rtype: Union[ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpInfo, Tuple[ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpInfo, int], Tuple[ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -3522,7 +3524,7 @@ def com_adobe_cq_social_commons_emailreply_impl_email_reply_importer(post=None, 
     :param connect_protocol: 
     :type connect_protocol: str
 
-    :rtype: ComAdobeCqSocialCommonsEmailreplyImplEmailReplyImporterInfo
+    :rtype: Union[ComAdobeCqSocialCommonsEmailreplyImplEmailReplyImporterInfo, Tuple[ComAdobeCqSocialCommonsEmailreplyImplEmailReplyImporterInfo, int], Tuple[ComAdobeCqSocialCommonsEmailreplyImplEmailReplyImporterInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -3549,7 +3551,7 @@ def com_adobe_cq_social_commons_emailreply_impl_gmail_email_client_provider(post
     :param reply_email_patterns: 
     :type reply_email_patterns: List[str]
 
-    :rtype: ComAdobeCqSocialCommonsEmailreplyImplGmailEmailClientProviderInfo
+    :rtype: Union[ComAdobeCqSocialCommonsEmailreplyImplGmailEmailClientProviderInfo, Tuple[ComAdobeCqSocialCommonsEmailreplyImplGmailEmailClientProviderInfo, int], Tuple[ComAdobeCqSocialCommonsEmailreplyImplGmailEmailClientProviderInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -3576,7 +3578,7 @@ def com_adobe_cq_social_commons_emailreply_impl_ios_email_client_provider(post=N
     :param reply_email_patterns: 
     :type reply_email_patterns: List[str]
 
-    :rtype: ComAdobeCqSocialCommonsEmailreplyImplIOSEmailClientProviderInfo
+    :rtype: Union[ComAdobeCqSocialCommonsEmailreplyImplIOSEmailClientProviderInfo, Tuple[ComAdobeCqSocialCommonsEmailreplyImplIOSEmailClientProviderInfo, int], Tuple[ComAdobeCqSocialCommonsEmailreplyImplIOSEmailClientProviderInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -3603,7 +3605,7 @@ def com_adobe_cq_social_commons_emailreply_impl_macmail_email_client_provider(po
     :param reply_email_patterns: 
     :type reply_email_patterns: List[str]
 
-    :rtype: ComAdobeCqSocialCommonsEmailreplyImplMacmailEmailClientProviderInfo
+    :rtype: Union[ComAdobeCqSocialCommonsEmailreplyImplMacmailEmailClientProviderInfo, Tuple[ComAdobeCqSocialCommonsEmailreplyImplMacmailEmailClientProviderInfo, int], Tuple[ComAdobeCqSocialCommonsEmailreplyImplMacmailEmailClientProviderInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -3630,7 +3632,7 @@ def com_adobe_cq_social_commons_emailreply_impl_out_look_email_client_provider(p
     :param reply_email_patterns: 
     :type reply_email_patterns: List[str]
 
-    :rtype: ComAdobeCqSocialCommonsEmailreplyImplOutLookEmailClientProviderInfo
+    :rtype: Union[ComAdobeCqSocialCommonsEmailreplyImplOutLookEmailClientProviderInfo, Tuple[ComAdobeCqSocialCommonsEmailreplyImplOutLookEmailClientProviderInfo, int], Tuple[ComAdobeCqSocialCommonsEmailreplyImplOutLookEmailClientProviderInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -3657,7 +3659,7 @@ def com_adobe_cq_social_commons_emailreply_impl_unknown_email_client_provider(po
     :param priority_order: 
     :type priority_order: int
 
-    :rtype: ComAdobeCqSocialCommonsEmailreplyImplUnknownEmailClientProviderInfo
+    :rtype: Union[ComAdobeCqSocialCommonsEmailreplyImplUnknownEmailClientProviderInfo, Tuple[ComAdobeCqSocialCommonsEmailreplyImplUnknownEmailClientProviderInfo, int], Tuple[ComAdobeCqSocialCommonsEmailreplyImplUnknownEmailClientProviderInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -3684,7 +3686,7 @@ def com_adobe_cq_social_commons_emailreply_impl_yahoo_email_client_provider(post
     :param reply_email_patterns: 
     :type reply_email_patterns: List[str]
 
-    :rtype: ComAdobeCqSocialCommonsEmailreplyImplYahooEmailClientProviderInfo
+    :rtype: Union[ComAdobeCqSocialCommonsEmailreplyImplYahooEmailClientProviderInfo, Tuple[ComAdobeCqSocialCommonsEmailreplyImplYahooEmailClientProviderInfo, int], Tuple[ComAdobeCqSocialCommonsEmailreplyImplYahooEmailClientProviderInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -3711,7 +3713,7 @@ def com_adobe_cq_social_commons_maintainance_impl_delete_temp_ugc_image_upload(p
     :param age_of_file: 
     :type age_of_file: int
 
-    :rtype: ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadInfo
+    :rtype: Union[ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadInfo, Tuple[ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadInfo, int], Tuple[ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -3740,7 +3742,7 @@ def com_adobe_cq_social_commons_ugclimiter_impl_ugc_limiter_service_impl(post=No
     :param verbs: 
     :type verbs: List[str]
 
-    :rtype: ComAdobeCqSocialCommonsUgclimiterImplUGCLimiterServiceImplInfo
+    :rtype: Union[ComAdobeCqSocialCommonsUgclimiterImplUGCLimiterServiceImplInfo, Tuple[ComAdobeCqSocialCommonsUgclimiterImplUGCLimiterServiceImplInfo, int], Tuple[ComAdobeCqSocialCommonsUgclimiterImplUGCLimiterServiceImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -3773,7 +3775,7 @@ def com_adobe_cq_social_commons_ugclimitsconfig_impl_community_user_ugc_limit(po
     :param to_list: 
     :type to_list: List[str]
 
-    :rtype: ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitInfo
+    :rtype: Union[ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitInfo, Tuple[ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitInfo, int], Tuple[ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -3812,7 +3814,7 @@ def com_adobe_cq_social_connect_oauth_impl_facebook_provider_impl(post=None, app
     :param provider_config_refresh_userdata_enabled: 
     :type provider_config_refresh_userdata_enabled: bool
 
-    :rtype: ComAdobeCqSocialConnectOauthImplFacebookProviderImplInfo
+    :rtype: Union[ComAdobeCqSocialConnectOauthImplFacebookProviderImplInfo, Tuple[ComAdobeCqSocialConnectOauthImplFacebookProviderImplInfo, int], Tuple[ComAdobeCqSocialConnectOauthImplFacebookProviderImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -3839,7 +3841,7 @@ def com_adobe_cq_social_connect_oauth_impl_social_o_auth_authentication_handle(p
     :param service_ranking: 
     :type service_ranking: int
 
-    :rtype: ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandleInfo
+    :rtype: Union[ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandleInfo, Tuple[ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandleInfo, int], Tuple[ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandleInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -3868,7 +3870,7 @@ def com_adobe_cq_social_connect_oauth_impl_social_o_auth_user_profile_mapper(pos
     :param provider_config_user_folder: 
     :type provider_config_user_folder: str
 
-    :rtype: ComAdobeCqSocialConnectOauthImplSocialOAuthUserProfileMapperInfo
+    :rtype: Union[ComAdobeCqSocialConnectOauthImplSocialOAuthUserProfileMapperInfo, Tuple[ComAdobeCqSocialConnectOauthImplSocialOAuthUserProfileMapperInfo, int], Tuple[ComAdobeCqSocialConnectOauthImplSocialOAuthUserProfileMapperInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -3905,7 +3907,7 @@ def com_adobe_cq_social_connect_oauth_impl_twitter_provider_impl(post=None, appl
     :param provider_config_refresh_userdata_enabled: 
     :type provider_config_refresh_userdata_enabled: bool
 
-    :rtype: ComAdobeCqSocialConnectOauthImplTwitterProviderImplInfo
+    :rtype: Union[ComAdobeCqSocialConnectOauthImplTwitterProviderImplInfo, Tuple[ComAdobeCqSocialConnectOauthImplTwitterProviderImplInfo, int], Tuple[ComAdobeCqSocialConnectOauthImplTwitterProviderImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -3932,7 +3934,7 @@ def com_adobe_cq_social_content_fragments_services_impl_communities_fragmen(post
     :param cq_social_content_fragments_services_wait_time_seconds: 
     :type cq_social_content_fragments_services_wait_time_seconds: int
 
-    :rtype: ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmenInfo
+    :rtype: Union[ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmenInfo, Tuple[ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmenInfo, int], Tuple[ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmenInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -3969,7 +3971,7 @@ def com_adobe_cq_social_datastore_as_impl_as_resource_provider_factory(post=None
     :param time_limit: 
     :type time_limit: int
 
-    :rtype: ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryInfo
+    :rtype: Union[ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryInfo, Tuple[ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryInfo, int], Tuple[ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -4006,7 +4008,7 @@ def com_adobe_cq_social_datastore_op_impl_social_ms_resource_provider_factory(po
     :param cache_size: 
     :type cache_size: int
 
-    :rtype: ComAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactoryInfo
+    :rtype: Union[ComAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactoryInfo, Tuple[ComAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactoryInfo, int], Tuple[ComAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactoryInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -4043,7 +4045,7 @@ def com_adobe_cq_social_datastore_rdb_impl_social_rdb_resource_provider_factor(p
     :param cache_size: 
     :type cache_size: int
 
-    :rtype: ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorInfo
+    :rtype: Union[ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorInfo, Tuple[ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorInfo, int], Tuple[ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -4068,7 +4070,7 @@ def com_adobe_cq_social_enablement_adaptors_enablement_learning_path_adaptor_f(p
     :param is_member_check: 
     :type is_member_check: bool
 
-    :rtype: ComAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorFInfo
+    :rtype: Union[ComAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorFInfo, Tuple[ComAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorFInfo, int], Tuple[ComAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorFInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -4093,7 +4095,7 @@ def com_adobe_cq_social_enablement_adaptors_enablement_resource_adaptor_facto(po
     :param is_member_check: 
     :type is_member_check: bool
 
-    :rtype: ComAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFactoInfo
+    :rtype: Union[ComAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFactoInfo, Tuple[ComAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFactoInfo, int], Tuple[ComAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFactoInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -4118,7 +4120,7 @@ def com_adobe_cq_social_enablement_learningpath_endpoints_impl_enablement_l(post
     :param field_whitelist: 
     :type field_whitelist: List[str]
 
-    :rtype: ComAdobeCqSocialEnablementLearningpathEndpointsImplEnablementLInfo
+    :rtype: Union[ComAdobeCqSocialEnablementLearningpathEndpointsImplEnablementLInfo, Tuple[ComAdobeCqSocialEnablementLearningpathEndpointsImplEnablementLInfo, int], Tuple[ComAdobeCqSocialEnablementLearningpathEndpointsImplEnablementLInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -4143,7 +4145,7 @@ def com_adobe_cq_social_enablement_resource_endpoints_impl_enablement_resou(post
     :param field_whitelist: 
     :type field_whitelist: List[str]
 
-    :rtype: ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouInfo
+    :rtype: Union[ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouInfo, Tuple[ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouInfo, int], Tuple[ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -4168,7 +4170,7 @@ def com_adobe_cq_social_enablement_services_impl_author_marker_impl(post=None, a
     :param service_ranking: 
     :type service_ranking: int
 
-    :rtype: ComAdobeCqSocialEnablementServicesImplAuthorMarkerImplInfo
+    :rtype: Union[ComAdobeCqSocialEnablementServicesImplAuthorMarkerImplInfo, Tuple[ComAdobeCqSocialEnablementServicesImplAuthorMarkerImplInfo, int], Tuple[ComAdobeCqSocialEnablementServicesImplAuthorMarkerImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -4195,7 +4197,7 @@ def com_adobe_cq_social_filelibrary_client_endpoints_filelibrary_download_ge(pos
     :param sling_servlet_extensions: 
     :type sling_servlet_extensions: str
 
-    :rtype: ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGeInfo
+    :rtype: Union[ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGeInfo, Tuple[ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGeInfo, int], Tuple[ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGeInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -4222,7 +4224,7 @@ def com_adobe_cq_social_filelibrary_client_endpoints_impl_file_library_opera(pos
     :param attachment_type_blacklist: 
     :type attachment_type_blacklist: List[str]
 
-    :rtype: ComAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperaInfo
+    :rtype: Union[ComAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperaInfo, Tuple[ComAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperaInfo, int], Tuple[ComAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperaInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -4249,7 +4251,7 @@ def com_adobe_cq_social_forum_client_endpoints_impl_forum_operations_service(pos
     :param attachment_type_blacklist: 
     :type attachment_type_blacklist: List[str]
 
-    :rtype: ComAdobeCqSocialForumClientEndpointsImplForumOperationsServiceInfo
+    :rtype: Union[ComAdobeCqSocialForumClientEndpointsImplForumOperationsServiceInfo, Tuple[ComAdobeCqSocialForumClientEndpointsImplForumOperationsServiceInfo, int], Tuple[ComAdobeCqSocialForumClientEndpointsImplForumOperationsServiceInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -4276,7 +4278,7 @@ def com_adobe_cq_social_forum_dispatcher_impl_flush_operations(post=None, apply=
     :param flush_forumontopic: 
     :type flush_forumontopic: bool
 
-    :rtype: ComAdobeCqSocialForumDispatcherImplFlushOperationsInfo
+    :rtype: Union[ComAdobeCqSocialForumDispatcherImplFlushOperationsInfo, Tuple[ComAdobeCqSocialForumDispatcherImplFlushOperationsInfo, int], Tuple[ComAdobeCqSocialForumDispatcherImplFlushOperationsInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -4307,7 +4309,7 @@ def com_adobe_cq_social_group_client_impl_community_group_collection_componen(po
     :param priority: 
     :type priority: int
 
-    :rtype: ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenInfo
+    :rtype: Union[ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenInfo, Tuple[ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenInfo, int], Tuple[ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -4334,7 +4336,7 @@ def com_adobe_cq_social_group_impl_group_service_impl(post=None, apply=None, del
     :param min_wait_between_retries: 
     :type min_wait_between_retries: int
 
-    :rtype: ComAdobeCqSocialGroupImplGroupServiceImplInfo
+    :rtype: Union[ComAdobeCqSocialGroupImplGroupServiceImplInfo, Tuple[ComAdobeCqSocialGroupImplGroupServiceImplInfo, int], Tuple[ComAdobeCqSocialGroupImplGroupServiceImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -4365,7 +4367,7 @@ def com_adobe_cq_social_handlebars_guava_template_cache_impl(post=None, apply=No
     :param service_ranking: 
     :type service_ranking: int
 
-    :rtype: ComAdobeCqSocialHandlebarsGuavaTemplateCacheImplInfo
+    :rtype: Union[ComAdobeCqSocialHandlebarsGuavaTemplateCacheImplInfo, Tuple[ComAdobeCqSocialHandlebarsGuavaTemplateCacheImplInfo, int], Tuple[ComAdobeCqSocialHandlebarsGuavaTemplateCacheImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -4392,7 +4394,7 @@ def com_adobe_cq_social_ideation_client_endpoints_impl_ideation_operations_s(pos
     :param attachment_type_blacklist: 
     :type attachment_type_blacklist: List[str]
 
-    :rtype: ComAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsSInfo
+    :rtype: Union[ComAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsSInfo, Tuple[ComAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsSInfo, int], Tuple[ComAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsSInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -4419,7 +4421,7 @@ def com_adobe_cq_social_journal_client_endpoints_impl_journal_operations_ser(pos
     :param attachment_type_blacklist: 
     :type attachment_type_blacklist: List[str]
 
-    :rtype: ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsSerInfo
+    :rtype: Union[ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsSerInfo, Tuple[ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsSerInfo, int], Tuple[ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsSerInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -4444,7 +4446,7 @@ def com_adobe_cq_social_members_endpoints_impl_community_member_group_profile(po
     :param field_whitelist: 
     :type field_whitelist: List[str]
 
-    :rtype: ComAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileInfo
+    :rtype: Union[ComAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileInfo, Tuple[ComAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileInfo, int], Tuple[ComAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -4469,7 +4471,7 @@ def com_adobe_cq_social_members_endpoints_impl_community_member_user_profile_o(p
     :param field_whitelist: 
     :type field_whitelist: List[str]
 
-    :rtype: ComAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileOInfo
+    :rtype: Union[ComAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileOInfo, Tuple[ComAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileOInfo, int], Tuple[ComAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileOInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -4496,7 +4498,7 @@ def com_adobe_cq_social_members_impl_community_member_group_profile_component_f(
     :param priority: 
     :type priority: int
 
-    :rtype: ComAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentFInfo
+    :rtype: Union[ComAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentFInfo, Tuple[ComAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentFInfo, int], Tuple[ComAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentFInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -4559,7 +4561,7 @@ def com_adobe_cq_social_messaging_client_endpoints_impl_messaging_operation(post
     :param field_whitelist: 
     :type field_whitelist: List[str]
 
-    :rtype: ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationInfo
+    :rtype: Union[ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationInfo, Tuple[ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationInfo, int], Tuple[ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -4586,7 +4588,7 @@ def com_adobe_cq_social_moderation_dashboard_api_filter_group_social_componen(po
     :param priority: 
     :type priority: int
 
-    :rtype: ComAdobeCqSocialModerationDashboardApiFilterGroupSocialComponenInfo
+    :rtype: Union[ComAdobeCqSocialModerationDashboardApiFilterGroupSocialComponenInfo, Tuple[ComAdobeCqSocialModerationDashboardApiFilterGroupSocialComponenInfo, int], Tuple[ComAdobeCqSocialModerationDashboardApiFilterGroupSocialComponenInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -4611,7 +4613,7 @@ def com_adobe_cq_social_moderation_dashboard_api_moderation_dashboard_social(pos
     :param priority: 
     :type priority: int
 
-    :rtype: ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialInfo
+    :rtype: Union[ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialInfo, Tuple[ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialInfo, int], Tuple[ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -4636,7 +4638,7 @@ def com_adobe_cq_social_moderation_dashboard_api_user_details_social_componen(po
     :param priority: 
     :type priority: int
 
-    :rtype: ComAdobeCqSocialModerationDashboardApiUserDetailsSocialComponenInfo
+    :rtype: Union[ComAdobeCqSocialModerationDashboardApiUserDetailsSocialComponenInfo, Tuple[ComAdobeCqSocialModerationDashboardApiUserDetailsSocialComponenInfo, int], Tuple[ComAdobeCqSocialModerationDashboardApiUserDetailsSocialComponenInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -4663,7 +4665,7 @@ def com_adobe_cq_social_moderation_dashboard_internal_impl_filter_group_soci(pos
     :param priority: 
     :type priority: int
 
-    :rtype: ComAdobeCqSocialModerationDashboardInternalImplFilterGroupSociInfo
+    :rtype: Union[ComAdobeCqSocialModerationDashboardInternalImplFilterGroupSociInfo, Tuple[ComAdobeCqSocialModerationDashboardInternalImplFilterGroupSociInfo, int], Tuple[ComAdobeCqSocialModerationDashboardInternalImplFilterGroupSociInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -4690,7 +4692,7 @@ def com_adobe_cq_social_notifications_impl_mentions_router(post=None, apply=None
     :param event_filter: 
     :type event_filter: str
 
-    :rtype: ComAdobeCqSocialNotificationsImplMentionsRouterInfo
+    :rtype: Union[ComAdobeCqSocialNotificationsImplMentionsRouterInfo, Tuple[ComAdobeCqSocialNotificationsImplMentionsRouterInfo, int], Tuple[ComAdobeCqSocialNotificationsImplMentionsRouterInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -4715,7 +4717,7 @@ def com_adobe_cq_social_notifications_impl_notification_manager_impl(post=None, 
     :param max_unread_notification_count: 
     :type max_unread_notification_count: int
 
-    :rtype: ComAdobeCqSocialNotificationsImplNotificationManagerImplInfo
+    :rtype: Union[ComAdobeCqSocialNotificationsImplNotificationManagerImplInfo, Tuple[ComAdobeCqSocialNotificationsImplNotificationManagerImplInfo, int], Tuple[ComAdobeCqSocialNotificationsImplNotificationManagerImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -4742,7 +4744,7 @@ def com_adobe_cq_social_notifications_impl_notifications_router(post=None, apply
     :param event_filter: 
     :type event_filter: str
 
-    :rtype: ComAdobeCqSocialNotificationsImplNotificationsRouterInfo
+    :rtype: Union[ComAdobeCqSocialNotificationsImplNotificationsRouterInfo, Tuple[ComAdobeCqSocialNotificationsImplNotificationsRouterInfo, int], Tuple[ComAdobeCqSocialNotificationsImplNotificationsRouterInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -4769,7 +4771,7 @@ def com_adobe_cq_social_qna_client_endpoints_impl_qna_forum_operations_servic(po
     :param attachment_type_blacklist: 
     :type attachment_type_blacklist: List[str]
 
-    :rtype: ComAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServicInfo
+    :rtype: Union[ComAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServicInfo, Tuple[ComAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServicInfo, int], Tuple[ComAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServicInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -4796,7 +4798,7 @@ def com_adobe_cq_social_reporting_analytics_services_impl_analytics_report_i(pos
     :param cq_social_reporting_analytics_polling_importer_page_size: 
     :type cq_social_reporting_analytics_polling_importer_page_size: int
 
-    :rtype: ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportIInfo
+    :rtype: Union[ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportIInfo, Tuple[ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportIInfo, int], Tuple[ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportIInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -4821,7 +4823,7 @@ def com_adobe_cq_social_reporting_analytics_services_impl_analytics_report_m(pos
     :param report_fetch_delay: 
     :type report_fetch_delay: int
 
-    :rtype: ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportMInfo
+    :rtype: Union[ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportMInfo, Tuple[ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportMInfo, int], Tuple[ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportMInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -4848,7 +4850,7 @@ def com_adobe_cq_social_reporting_analytics_services_impl_site_trend_report_s(po
     :param priority: 
     :type priority: int
 
-    :rtype: ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSInfo
+    :rtype: Union[ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSInfo, Tuple[ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSInfo, int], Tuple[ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -4875,7 +4877,7 @@ def com_adobe_cq_social_review_client_endpoints_impl_review_operations_servi(pos
     :param attachment_type_blacklist: 
     :type attachment_type_blacklist: List[str]
 
-    :rtype: ComAdobeCqSocialReviewClientEndpointsImplReviewOperationsServiInfo
+    :rtype: Union[ComAdobeCqSocialReviewClientEndpointsImplReviewOperationsServiInfo, Tuple[ComAdobeCqSocialReviewClientEndpointsImplReviewOperationsServiInfo, int], Tuple[ComAdobeCqSocialReviewClientEndpointsImplReviewOperationsServiInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -4902,7 +4904,7 @@ def com_adobe_cq_social_scf_core_operations_impl_social_operations_servlet(post=
     :param sling_servlet_extensions: 
     :type sling_servlet_extensions: str
 
-    :rtype: ComAdobeCqSocialScfCoreOperationsImplSocialOperationsServletInfo
+    :rtype: Union[ComAdobeCqSocialScfCoreOperationsImplSocialOperationsServletInfo, Tuple[ComAdobeCqSocialScfCoreOperationsImplSocialOperationsServletInfo, int], Tuple[ComAdobeCqSocialScfCoreOperationsImplSocialOperationsServletInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -4929,7 +4931,7 @@ def com_adobe_cq_social_scf_endpoints_impl_default_social_get_servlet(post=None,
     :param sling_servlet_extensions: 
     :type sling_servlet_extensions: str
 
-    :rtype: ComAdobeCqSocialScfEndpointsImplDefaultSocialGetServletInfo
+    :rtype: Union[ComAdobeCqSocialScfEndpointsImplDefaultSocialGetServletInfo, Tuple[ComAdobeCqSocialScfEndpointsImplDefaultSocialGetServletInfo, int], Tuple[ComAdobeCqSocialScfEndpointsImplDefaultSocialGetServletInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -4956,7 +4958,7 @@ def com_adobe_cq_social_scoring_impl_scoring_event_listener(post=None, apply=Non
     :param event_filter: 
     :type event_filter: str
 
-    :rtype: ComAdobeCqSocialScoringImplScoringEventListenerInfo
+    :rtype: Union[ComAdobeCqSocialScoringImplScoringEventListenerInfo, Tuple[ComAdobeCqSocialScoringImplScoringEventListenerInfo, int], Tuple[ComAdobeCqSocialScoringImplScoringEventListenerInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -4981,7 +4983,7 @@ def com_adobe_cq_social_serviceusers_internal_impl_service_user_wrapper_impl(pos
     :param enable_fallback: 
     :type enable_fallback: bool
 
-    :rtype: ComAdobeCqSocialServiceusersInternalImplServiceUserWrapperImplInfo
+    :rtype: Union[ComAdobeCqSocialServiceusersInternalImplServiceUserWrapperImplInfo, Tuple[ComAdobeCqSocialServiceusersInternalImplServiceUserWrapperImplInfo, int], Tuple[ComAdobeCqSocialServiceusersInternalImplServiceUserWrapperImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -5010,7 +5012,7 @@ def com_adobe_cq_social_site_endpoints_impl_site_operation_service(post=None, ap
     :param site_package_group: 
     :type site_package_group: str
 
-    :rtype: ComAdobeCqSocialSiteEndpointsImplSiteOperationServiceInfo
+    :rtype: Union[ComAdobeCqSocialSiteEndpointsImplSiteOperationServiceInfo, Tuple[ComAdobeCqSocialSiteEndpointsImplSiteOperationServiceInfo, int], Tuple[ComAdobeCqSocialSiteEndpointsImplSiteOperationServiceInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -5035,7 +5037,7 @@ def com_adobe_cq_social_site_impl_analytics_component_configuration_service_im(p
     :param cq_social_console_analytics_components: 
     :type cq_social_console_analytics_components: List[str]
 
-    :rtype: ComAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImInfo
+    :rtype: Union[ComAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImInfo, Tuple[ComAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImInfo, int], Tuple[ComAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -5060,7 +5062,7 @@ def com_adobe_cq_social_site_impl_site_configurator_impl(post=None, apply=None, 
     :param components_using_tags: 
     :type components_using_tags: List[str]
 
-    :rtype: ComAdobeCqSocialSiteImplSiteConfiguratorImplInfo
+    :rtype: Union[ComAdobeCqSocialSiteImplSiteConfiguratorImplInfo, Tuple[ComAdobeCqSocialSiteImplSiteConfiguratorImplInfo, int], Tuple[ComAdobeCqSocialSiteImplSiteConfiguratorImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -5085,7 +5087,7 @@ def com_adobe_cq_social_srp_impl_social_solr_connector(post=None, apply=None, de
     :param srp_type: 
     :type srp_type: str
 
-    :rtype: ComAdobeCqSocialSrpImplSocialSolrConnectorInfo
+    :rtype: Union[ComAdobeCqSocialSrpImplSocialSolrConnectorInfo, Tuple[ComAdobeCqSocialSrpImplSocialSolrConnectorInfo, int], Tuple[ComAdobeCqSocialSrpImplSocialSolrConnectorInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -5116,7 +5118,7 @@ def com_adobe_cq_social_sync_impl_diff_changes_observer(post=None, apply=None, d
     :param property_names: 
     :type property_names: str
 
-    :rtype: ComAdobeCqSocialSyncImplDiffChangesObserverInfo
+    :rtype: Union[ComAdobeCqSocialSyncImplDiffChangesObserverInfo, Tuple[ComAdobeCqSocialSyncImplDiffChangesObserverInfo, int], Tuple[ComAdobeCqSocialSyncImplDiffChangesObserverInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -5149,7 +5151,7 @@ def com_adobe_cq_social_sync_impl_group_sync_listener_impl(post=None, apply=None
     :param distfolders: 
     :type distfolders: str
 
-    :rtype: ComAdobeCqSocialSyncImplGroupSyncListenerImplInfo
+    :rtype: Union[ComAdobeCqSocialSyncImplGroupSyncListenerImplInfo, Tuple[ComAdobeCqSocialSyncImplGroupSyncListenerImplInfo, int], Tuple[ComAdobeCqSocialSyncImplGroupSyncListenerImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -5174,7 +5176,7 @@ def com_adobe_cq_social_sync_impl_publisher_sync_service_impl(post=None, apply=N
     :param active_run_modes: 
     :type active_run_modes: List[str]
 
-    :rtype: ComAdobeCqSocialSyncImplPublisherSyncServiceImplInfo
+    :rtype: Union[ComAdobeCqSocialSyncImplPublisherSyncServiceImplInfo, Tuple[ComAdobeCqSocialSyncImplPublisherSyncServiceImplInfo, int], Tuple[ComAdobeCqSocialSyncImplPublisherSyncServiceImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -5207,7 +5209,7 @@ def com_adobe_cq_social_sync_impl_user_sync_listener_impl(post=None, apply=None,
     :param distfolders: 
     :type distfolders: List[str]
 
-    :rtype: ComAdobeCqSocialSyncImplUserSyncListenerImplInfo
+    :rtype: Union[ComAdobeCqSocialSyncImplUserSyncListenerImplInfo, Tuple[ComAdobeCqSocialSyncImplUserSyncListenerImplInfo, int], Tuple[ComAdobeCqSocialSyncImplUserSyncListenerImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -5246,7 +5248,7 @@ def com_adobe_cq_social_translation_impl_translation_service_config_manager(post
     :param translate_session_save_batch_limit: 
     :type translate_session_save_batch_limit: str
 
-    :rtype: ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerInfo
+    :rtype: Union[ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerInfo, Tuple[ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerInfo, int], Tuple[ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -5285,7 +5287,7 @@ def com_adobe_cq_social_translation_impl_ugc_language_detector(post=None, apply=
     :param keep_alive_time: 
     :type keep_alive_time: int
 
-    :rtype: ComAdobeCqSocialTranslationImplUGCLanguageDetectorInfo
+    :rtype: Union[ComAdobeCqSocialTranslationImplUGCLanguageDetectorInfo, Tuple[ComAdobeCqSocialTranslationImplUGCLanguageDetectorInfo, int], Tuple[ComAdobeCqSocialTranslationImplUGCLanguageDetectorInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -5314,7 +5316,7 @@ def com_adobe_cq_social_ugcbase_dispatcher_impl_flush_service_impl(post=None, ap
     :param worker_sleep_time: 
     :type worker_sleep_time: int
 
-    :rtype: ComAdobeCqSocialUgcbaseDispatcherImplFlushServiceImplInfo
+    :rtype: Union[ComAdobeCqSocialUgcbaseDispatcherImplFlushServiceImplInfo, Tuple[ComAdobeCqSocialUgcbaseDispatcherImplFlushServiceImplInfo, int], Tuple[ComAdobeCqSocialUgcbaseDispatcherImplFlushServiceImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -5345,7 +5347,7 @@ def com_adobe_cq_social_ugcbase_impl_aysnc_reverse_replicator_impl(post=None, ap
     :param keep_alive_time: 
     :type keep_alive_time: int
 
-    :rtype: ComAdobeCqSocialUgcbaseImplAysncReverseReplicatorImplInfo
+    :rtype: Union[ComAdobeCqSocialUgcbaseImplAysncReverseReplicatorImplInfo, Tuple[ComAdobeCqSocialUgcbaseImplAysncReverseReplicatorImplInfo, int], Tuple[ComAdobeCqSocialUgcbaseImplAysncReverseReplicatorImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -5370,7 +5372,7 @@ def com_adobe_cq_social_ugcbase_impl_publisher_configuration_impl(post=None, app
     :param is_primary_publisher: 
     :type is_primary_publisher: bool
 
-    :rtype: ComAdobeCqSocialUgcbaseImplPublisherConfigurationImplInfo
+    :rtype: Union[ComAdobeCqSocialUgcbaseImplPublisherConfigurationImplInfo, Tuple[ComAdobeCqSocialUgcbaseImplPublisherConfigurationImplInfo, int], Tuple[ComAdobeCqSocialUgcbaseImplPublisherConfigurationImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -5395,7 +5397,7 @@ def com_adobe_cq_social_ugcbase_impl_social_utils_impl(post=None, apply=None, de
     :param legacy_cloud_ugc_path_mapping: 
     :type legacy_cloud_ugc_path_mapping: bool
 
-    :rtype: ComAdobeCqSocialUgcbaseImplSocialUtilsImplInfo
+    :rtype: Union[ComAdobeCqSocialUgcbaseImplSocialUtilsImplInfo, Tuple[ComAdobeCqSocialUgcbaseImplSocialUtilsImplInfo, int], Tuple[ComAdobeCqSocialUgcbaseImplSocialUtilsImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -5422,7 +5424,7 @@ def com_adobe_cq_social_ugcbase_moderation_impl_auto_moderation_impl(post=None, 
     :param automoderation_onfailurestop: 
     :type automoderation_onfailurestop: bool
 
-    :rtype: ComAdobeCqSocialUgcbaseModerationImplAutoModerationImplInfo
+    :rtype: Union[ComAdobeCqSocialUgcbaseModerationImplAutoModerationImplInfo, Tuple[ComAdobeCqSocialUgcbaseModerationImplAutoModerationImplInfo, int], Tuple[ComAdobeCqSocialUgcbaseModerationImplAutoModerationImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -5453,7 +5455,7 @@ def com_adobe_cq_social_ugcbase_moderation_impl_sentiment_process(post=None, app
     :param sentiment_path: 
     :type sentiment_path: str
 
-    :rtype: ComAdobeCqSocialUgcbaseModerationImplSentimentProcessInfo
+    :rtype: Union[ComAdobeCqSocialUgcbaseModerationImplSentimentProcessInfo, Tuple[ComAdobeCqSocialUgcbaseModerationImplSentimentProcessInfo, int], Tuple[ComAdobeCqSocialUgcbaseModerationImplSentimentProcessInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -5480,7 +5482,7 @@ def com_adobe_cq_social_ugcbase_security_impl_default_attachment_type_blackli(po
     :param baseline_attachment_type_blacklist: 
     :type baseline_attachment_type_blacklist: List[str]
 
-    :rtype: ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliInfo
+    :rtype: Union[ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliInfo, Tuple[ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliInfo, int], Tuple[ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -5519,7 +5521,7 @@ def com_adobe_cq_social_ugcbase_security_impl_safer_sling_post_validator_impl(po
     :param resourcetype_whitelist: 
     :type resourcetype_whitelist: List[str]
 
-    :rtype: ComAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImplInfo
+    :rtype: Union[ComAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImplInfo, Tuple[ComAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImplInfo, int], Tuple[ComAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -5548,7 +5550,7 @@ def com_adobe_cq_social_user_endpoints_impl_users_group_from_publish_servlet(pos
     :param sling_servlet_methods: 
     :type sling_servlet_methods: str
 
-    :rtype: ComAdobeCqSocialUserEndpointsImplUsersGroupFromPublishServletInfo
+    :rtype: Union[ComAdobeCqSocialUserEndpointsImplUsersGroupFromPublishServletInfo, Tuple[ComAdobeCqSocialUserEndpointsImplUsersGroupFromPublishServletInfo, int], Tuple[ComAdobeCqSocialUserEndpointsImplUsersGroupFromPublishServletInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -5581,7 +5583,7 @@ def com_adobe_cq_social_user_impl_transport_http_to_publisher(post=None, apply=N
     :param enabled_cipher_suites: 
     :type enabled_cipher_suites: List[str]
 
-    :rtype: ComAdobeCqSocialUserImplTransportHttpToPublisherInfo
+    :rtype: Union[ComAdobeCqSocialUserImplTransportHttpToPublisherInfo, Tuple[ComAdobeCqSocialUserImplTransportHttpToPublisherInfo, int], Tuple[ComAdobeCqSocialUserImplTransportHttpToPublisherInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -5606,7 +5608,7 @@ def com_adobe_cq_ui_wcm_commons_internal_servlets_rte_rte_filter_servlet_fact(po
     :param resource_types: 
     :type resource_types: List[str]
 
-    :rtype: ComAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactInfo
+    :rtype: Union[ComAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactInfo, Tuple[ComAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactInfo, int], Tuple[ComAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -5633,7 +5635,7 @@ def com_adobe_cq_upgrades_cleanup_impl_upgrade_content_cleanup(post=None, apply=
     :param delete_sql2_query: 
     :type delete_sql2_query: str
 
-    :rtype: ComAdobeCqUpgradesCleanupImplUpgradeContentCleanupInfo
+    :rtype: Union[ComAdobeCqUpgradesCleanupImplUpgradeContentCleanupInfo, Tuple[ComAdobeCqUpgradesCleanupImplUpgradeContentCleanupInfo, int], Tuple[ComAdobeCqUpgradesCleanupImplUpgradeContentCleanupInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -5658,7 +5660,7 @@ def com_adobe_cq_upgrades_cleanup_impl_upgrade_install_folder_cleanup(post=None,
     :param delete_name_regexps: 
     :type delete_name_regexps: List[str]
 
-    :rtype: ComAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanupInfo
+    :rtype: Union[ComAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanupInfo, Tuple[ComAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanupInfo, int], Tuple[ComAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanupInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -5687,7 +5689,7 @@ def com_adobe_cq_wcm_jobs_async_impl_async_delete_config_provider_service(post=N
     :param email_enabled: 
     :type email_enabled: bool
 
-    :rtype: ComAdobeCqWcmJobsAsyncImplAsyncDeleteConfigProviderServiceInfo
+    :rtype: Union[ComAdobeCqWcmJobsAsyncImplAsyncDeleteConfigProviderServiceInfo, Tuple[ComAdobeCqWcmJobsAsyncImplAsyncDeleteConfigProviderServiceInfo, int], Tuple[ComAdobeCqWcmJobsAsyncImplAsyncDeleteConfigProviderServiceInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -5716,7 +5718,7 @@ def com_adobe_cq_wcm_jobs_async_impl_async_job_clean_up_task(post=None, apply=No
     :param job_purge_max_jobs: 
     :type job_purge_max_jobs: int
 
-    :rtype: ComAdobeCqWcmJobsAsyncImplAsyncJobCleanUpTaskInfo
+    :rtype: Union[ComAdobeCqWcmJobsAsyncImplAsyncJobCleanUpTaskInfo, Tuple[ComAdobeCqWcmJobsAsyncImplAsyncJobCleanUpTaskInfo, int], Tuple[ComAdobeCqWcmJobsAsyncImplAsyncJobCleanUpTaskInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -5745,7 +5747,7 @@ def com_adobe_cq_wcm_jobs_async_impl_async_move_config_provider_service(post=Non
     :param email_enabled: 
     :type email_enabled: bool
 
-    :rtype: ComAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderServiceInfo
+    :rtype: Union[ComAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderServiceInfo, Tuple[ComAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderServiceInfo, int], Tuple[ComAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderServiceInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -5774,7 +5776,7 @@ def com_adobe_cq_wcm_jobs_async_impl_async_page_move_config_provider_service(pos
     :param email_enabled: 
     :type email_enabled: bool
 
-    :rtype: ComAdobeCqWcmJobsAsyncImplAsyncPageMoveConfigProviderServiceInfo
+    :rtype: Union[ComAdobeCqWcmJobsAsyncImplAsyncPageMoveConfigProviderServiceInfo, Tuple[ComAdobeCqWcmJobsAsyncImplAsyncPageMoveConfigProviderServiceInfo, int], Tuple[ComAdobeCqWcmJobsAsyncImplAsyncPageMoveConfigProviderServiceInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -5805,7 +5807,7 @@ def com_adobe_cq_wcm_launches_impl_launches_event_handler(post=None, apply=None,
     :param launches_eventhandler_updatelastmodification: 
     :type launches_eventhandler_updatelastmodification: bool
 
-    :rtype: ComAdobeCqWcmLaunchesImplLaunchesEventHandlerInfo
+    :rtype: Union[ComAdobeCqWcmLaunchesImplLaunchesEventHandlerInfo, Tuple[ComAdobeCqWcmLaunchesImplLaunchesEventHandlerInfo, int], Tuple[ComAdobeCqWcmLaunchesImplLaunchesEventHandlerInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -5830,7 +5832,7 @@ def com_adobe_cq_wcm_mobile_qrcode_servlet_qr_code_image_generator(post=None, ap
     :param cq_wcm_qrcode_servlet_whitelist: 
     :type cq_wcm_qrcode_servlet_whitelist: List[str]
 
-    :rtype: ComAdobeCqWcmMobileQrcodeServletQRCodeImageGeneratorInfo
+    :rtype: Union[ComAdobeCqWcmMobileQrcodeServletQRCodeImageGeneratorInfo, Tuple[ComAdobeCqWcmMobileQrcodeServletQRCodeImageGeneratorInfo, int], Tuple[ComAdobeCqWcmMobileQrcodeServletQRCodeImageGeneratorInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -5855,7 +5857,7 @@ def com_adobe_cq_wcm_style_internal_component_style_info_cache_impl(post=None, a
     :param size: 
     :type size: int
 
-    :rtype: ComAdobeCqWcmStyleInternalComponentStyleInfoCacheImplInfo
+    :rtype: Union[ComAdobeCqWcmStyleInternalComponentStyleInfoCacheImplInfo, Tuple[ComAdobeCqWcmStyleInternalComponentStyleInfoCacheImplInfo, int], Tuple[ComAdobeCqWcmStyleInternalComponentStyleInfoCacheImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -5886,7 +5888,7 @@ def com_adobe_cq_wcm_translation_impl_translation_platform_configuration_impl(po
     :param export_format: 
     :type export_format: str
 
-    :rtype: ComAdobeCqWcmTranslationImplTranslationPlatformConfigurationImplInfo
+    :rtype: Union[ComAdobeCqWcmTranslationImplTranslationPlatformConfigurationImplInfo, Tuple[ComAdobeCqWcmTranslationImplTranslationPlatformConfigurationImplInfo, int], Tuple[ComAdobeCqWcmTranslationImplTranslationPlatformConfigurationImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -5923,7 +5925,7 @@ def com_adobe_fd_fp_config_forms_portal_draftsand_submission_config_service(post
     :param pending_sign_metadata_service: 
     :type pending_sign_metadata_service: str
 
-    :rtype: ComAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServiceInfo
+    :rtype: Union[ComAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServiceInfo, Tuple[ComAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServiceInfo, int], Tuple[ComAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServiceInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -5948,7 +5950,7 @@ def com_adobe_fd_fp_config_forms_portal_scheduler_service(post=None, apply=None,
     :param formportal_interval: 
     :type formportal_interval: str
 
-    :rtype: ComAdobeFdFpConfigFormsPortalSchedulerServiceInfo
+    :rtype: Union[ComAdobeFdFpConfigFormsPortalSchedulerServiceInfo, Tuple[ComAdobeFdFpConfigFormsPortalSchedulerServiceInfo, int], Tuple[ComAdobeFdFpConfigFormsPortalSchedulerServiceInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -5973,7 +5975,7 @@ def com_adobe_forms_common_service_impl_default_data_provider(post=None, apply=N
     :param alloweddata_file_locations: 
     :type alloweddata_file_locations: List[str]
 
-    :rtype: ComAdobeFormsCommonServiceImplDefaultDataProviderInfo
+    :rtype: Union[ComAdobeFormsCommonServiceImplDefaultDataProviderInfo, Tuple[ComAdobeFormsCommonServiceImplDefaultDataProviderInfo, int], Tuple[ComAdobeFormsCommonServiceImplDefaultDataProviderInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -5998,7 +6000,7 @@ def com_adobe_forms_common_service_impl_forms_common_configuration_service_imp(p
     :param temp_storage_config: 
     :type temp_storage_config: str
 
-    :rtype: ComAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImpInfo
+    :rtype: Union[ComAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImpInfo, Tuple[ComAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImpInfo, int], Tuple[ComAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImpInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -6027,7 +6029,7 @@ def com_adobe_forms_common_servlet_temp_clean_up_task(post=None, apply=None, del
     :param duration_for_anonymous_storage: 
     :type duration_for_anonymous_storage: str
 
-    :rtype: ComAdobeFormsCommonServletTempCleanUpTaskInfo
+    :rtype: Union[ComAdobeFormsCommonServletTempCleanUpTaskInfo, Tuple[ComAdobeFormsCommonServletTempCleanUpTaskInfo, int], Tuple[ComAdobeFormsCommonServletTempCleanUpTaskInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -6054,7 +6056,7 @@ def com_adobe_granite_acp_platform_platform_servlet(post=None, apply=None, delet
     :param file_type_extension_map: 
     :type file_type_extension_map: List[str]
 
-    :rtype: ComAdobeGraniteAcpPlatformPlatformServletInfo
+    :rtype: Union[ComAdobeGraniteAcpPlatformPlatformServletInfo, Tuple[ComAdobeGraniteAcpPlatformPlatformServletInfo, int], Tuple[ComAdobeGraniteAcpPlatformPlatformServletInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -6081,7 +6083,7 @@ def com_adobe_granite_activitystreams_impl_activity_manager_impl(post=None, appl
     :param aggregate_descend_virtual: 
     :type aggregate_descend_virtual: bool
 
-    :rtype: ComAdobeGraniteActivitystreamsImplActivityManagerImplInfo
+    :rtype: Union[ComAdobeGraniteActivitystreamsImplActivityManagerImplInfo, Tuple[ComAdobeGraniteActivitystreamsImplActivityManagerImplInfo, int], Tuple[ComAdobeGraniteActivitystreamsImplActivityManagerImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -6106,7 +6108,7 @@ def com_adobe_granite_analyzer_base_system_status_servlet(post=None, apply=None,
     :param disabled: 
     :type disabled: bool
 
-    :rtype: ComAdobeGraniteAnalyzerBaseSystemStatusServletInfo
+    :rtype: Union[ComAdobeGraniteAnalyzerBaseSystemStatusServletInfo, Tuple[ComAdobeGraniteAnalyzerBaseSystemStatusServletInfo, int], Tuple[ComAdobeGraniteAnalyzerBaseSystemStatusServletInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -6131,7 +6133,7 @@ def com_adobe_granite_analyzer_scripts_compile_all_scripts_compiler_servlet(post
     :param disabled: 
     :type disabled: bool
 
-    :rtype: ComAdobeGraniteAnalyzerScriptsCompileAllScriptsCompilerServletInfo
+    :rtype: Union[ComAdobeGraniteAnalyzerScriptsCompileAllScriptsCompilerServletInfo, Tuple[ComAdobeGraniteAnalyzerScriptsCompileAllScriptsCompilerServletInfo, int], Tuple[ComAdobeGraniteAnalyzerScriptsCompileAllScriptsCompilerServletInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -6466,7 +6468,7 @@ def com_adobe_granite_apicontroller_filter_resolver_hook_factory(post=None, appl
     :param we_retail_client_app_core: 
     :type we_retail_client_app_core: str
 
-    :rtype: ComAdobeGraniteApicontrollerFilterResolverHookFactoryInfo
+    :rtype: Union[ComAdobeGraniteApicontrollerFilterResolverHookFactoryInfo, Tuple[ComAdobeGraniteApicontrollerFilterResolverHookFactoryInfo, int], Tuple[ComAdobeGraniteApicontrollerFilterResolverHookFactoryInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -6493,7 +6495,7 @@ def com_adobe_granite_auth_cert_impl_client_cert_auth_handler(post=None, apply=N
     :param service_ranking: 
     :type service_ranking: int
 
-    :rtype: ComAdobeGraniteAuthCertImplClientCertAuthHandlerInfo
+    :rtype: Union[ComAdobeGraniteAuthCertImplClientCertAuthHandlerInfo, Tuple[ComAdobeGraniteAuthCertImplClientCertAuthHandlerInfo, int], Tuple[ComAdobeGraniteAuthCertImplClientCertAuthHandlerInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -6520,7 +6522,7 @@ def com_adobe_granite_auth_ims(post=None, apply=None, delete=None, action=None, 
     :param scope: 
     :type scope: str
 
-    :rtype: ComAdobeGraniteAuthImsInfo
+    :rtype: Union[ComAdobeGraniteAuthImsInfo, Tuple[ComAdobeGraniteAuthImsInfo, int], Tuple[ComAdobeGraniteAuthImsInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -6545,7 +6547,7 @@ def com_adobe_granite_auth_ims_impl_external_user_id_mapping_provider_extension(
     :param oauth_provider_id: 
     :type oauth_provider_id: str
 
-    :rtype: ComAdobeGraniteAuthImsImplExternalUserIdMappingProviderExtensionInfo
+    :rtype: Union[ComAdobeGraniteAuthImsImplExternalUserIdMappingProviderExtensionInfo, Tuple[ComAdobeGraniteAuthImsImplExternalUserIdMappingProviderExtensionInfo, int], Tuple[ComAdobeGraniteAuthImsImplExternalUserIdMappingProviderExtensionInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -6572,7 +6574,7 @@ def com_adobe_granite_auth_ims_impl_ims_access_token_request_customizer_impl(pos
     :param customizer_type: 
     :type customizer_type: str
 
-    :rtype: ComAdobeGraniteAuthImsImplIMSAccessTokenRequestCustomizerImplInfo
+    :rtype: Union[ComAdobeGraniteAuthImsImplIMSAccessTokenRequestCustomizerImplInfo, Tuple[ComAdobeGraniteAuthImsImplIMSAccessTokenRequestCustomizerImplInfo, int], Tuple[ComAdobeGraniteAuthImsImplIMSAccessTokenRequestCustomizerImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -6603,7 +6605,7 @@ def com_adobe_granite_auth_ims_impl_ims_config_provider_impl(post=None, apply=No
     :param ims_service_code: 
     :type ims_service_code: str
 
-    :rtype: ComAdobeGraniteAuthImsImplImsConfigProviderImplInfo
+    :rtype: Union[ComAdobeGraniteAuthImsImplImsConfigProviderImplInfo, Tuple[ComAdobeGraniteAuthImsImplImsConfigProviderImplInfo, int], Tuple[ComAdobeGraniteAuthImsImplImsConfigProviderImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -6628,7 +6630,7 @@ def com_adobe_granite_auth_ims_impl_ims_instance_credentials_validator(post=None
     :param oauth_provider_id: 
     :type oauth_provider_id: str
 
-    :rtype: ComAdobeGraniteAuthImsImplIMSInstanceCredentialsValidatorInfo
+    :rtype: Union[ComAdobeGraniteAuthImsImplIMSInstanceCredentialsValidatorInfo, Tuple[ComAdobeGraniteAuthImsImplIMSInstanceCredentialsValidatorInfo, int], Tuple[ComAdobeGraniteAuthImsImplIMSInstanceCredentialsValidatorInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -6677,7 +6679,7 @@ def com_adobe_granite_auth_ims_impl_ims_provider_impl(post=None, apply=None, del
     :param oauth_provider_ims_only_license_group: 
     :type oauth_provider_ims_only_license_group: bool
 
-    :rtype: ComAdobeGraniteAuthImsImplIMSProviderImplInfo
+    :rtype: Union[ComAdobeGraniteAuthImsImplIMSProviderImplInfo, Tuple[ComAdobeGraniteAuthImsImplIMSProviderImplInfo, int], Tuple[ComAdobeGraniteAuthImsImplIMSProviderImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -6728,7 +6730,7 @@ def com_adobe_granite_auth_oauth_accesstoken_provider(post=None, apply=None, del
     :param auth_token_validator_type: 
     :type auth_token_validator_type: str
 
-    :rtype: ComAdobeGraniteAuthOauthAccesstokenProviderInfo
+    :rtype: Union[ComAdobeGraniteAuthOauthAccesstokenProviderInfo, Tuple[ComAdobeGraniteAuthOauthAccesstokenProviderInfo, int], Tuple[ComAdobeGraniteAuthOauthAccesstokenProviderInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -6763,7 +6765,7 @@ def com_adobe_granite_auth_oauth_impl_bearer_authentication_handler(post=None, a
     :param oauth_jwt_support: 
     :type oauth_jwt_support: bool
 
-    :rtype: ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerInfo
+    :rtype: Union[ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerInfo, Tuple[ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerInfo, int], Tuple[ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -6788,7 +6790,7 @@ def com_adobe_granite_auth_oauth_impl_default_token_validator_impl(post=None, ap
     :param auth_token_validator_type: 
     :type auth_token_validator_type: str
 
-    :rtype: ComAdobeGraniteAuthOauthImplDefaultTokenValidatorImplInfo
+    :rtype: Union[ComAdobeGraniteAuthOauthImplDefaultTokenValidatorImplInfo, Tuple[ComAdobeGraniteAuthOauthImplDefaultTokenValidatorImplInfo, int], Tuple[ComAdobeGraniteAuthOauthImplDefaultTokenValidatorImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -6813,7 +6815,7 @@ def com_adobe_granite_auth_oauth_impl_facebook_provider_impl(post=None, apply=No
     :param oauth_provider_id: 
     :type oauth_provider_id: str
 
-    :rtype: ComAdobeGraniteAuthOauthImplFacebookProviderImplInfo
+    :rtype: Union[ComAdobeGraniteAuthOauthImplFacebookProviderImplInfo, Tuple[ComAdobeGraniteAuthOauthImplFacebookProviderImplInfo, int], Tuple[ComAdobeGraniteAuthOauthImplFacebookProviderImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -6844,7 +6846,7 @@ def com_adobe_granite_auth_oauth_impl_github_provider_impl(post=None, apply=None
     :param oauth_provider_github_profile_url: 
     :type oauth_provider_github_profile_url: str
 
-    :rtype: ComAdobeGraniteAuthOauthImplGithubProviderImplInfo
+    :rtype: Union[ComAdobeGraniteAuthOauthImplGithubProviderImplInfo, Tuple[ComAdobeGraniteAuthOauthImplGithubProviderImplInfo, int], Tuple[ComAdobeGraniteAuthOauthImplGithubProviderImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -6877,7 +6879,7 @@ def com_adobe_granite_auth_oauth_impl_granite_provider(post=None, apply=None, de
     :param oauth_provider_granite_extended_details_urls: 
     :type oauth_provider_granite_extended_details_urls: str
 
-    :rtype: ComAdobeGraniteAuthOauthImplGraniteProviderInfo
+    :rtype: Union[ComAdobeGraniteAuthOauthImplGraniteProviderInfo, Tuple[ComAdobeGraniteAuthOauthImplGraniteProviderInfo, int], Tuple[ComAdobeGraniteAuthOauthImplGraniteProviderInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -6904,7 +6906,7 @@ def com_adobe_granite_auth_oauth_impl_helper_provider_config_manager(post=None, 
     :param oauth_cookie_max_age: 
     :type oauth_cookie_max_age: str
 
-    :rtype: ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerInfo
+    :rtype: Union[ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerInfo, Tuple[ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerInfo, int], Tuple[ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -6931,7 +6933,7 @@ def com_adobe_granite_auth_oauth_impl_helper_provider_config_manager_internal(po
     :param oauth_cookie_max_age: 
     :type oauth_cookie_max_age: str
 
-    :rtype: ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerInternalInfo
+    :rtype: Union[ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerInternalInfo, Tuple[ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerInternalInfo, int], Tuple[ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerInternalInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -6956,7 +6958,7 @@ def com_adobe_granite_auth_oauth_impl_o_auth_authentication_handler(post=None, a
     :param path: 
     :type path: str
 
-    :rtype: ComAdobeGraniteAuthOauthImplOAuthAuthenticationHandlerInfo
+    :rtype: Union[ComAdobeGraniteAuthOauthImplOAuthAuthenticationHandlerInfo, Tuple[ComAdobeGraniteAuthOauthImplOAuthAuthenticationHandlerInfo, int], Tuple[ComAdobeGraniteAuthOauthImplOAuthAuthenticationHandlerInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -6981,7 +6983,7 @@ def com_adobe_granite_auth_oauth_impl_twitter_provider_impl(post=None, apply=Non
     :param oauth_provider_id: 
     :type oauth_provider_id: str
 
-    :rtype: ComAdobeGraniteAuthOauthImplTwitterProviderImplInfo
+    :rtype: Union[ComAdobeGraniteAuthOauthImplTwitterProviderImplInfo, Tuple[ComAdobeGraniteAuthOauthImplTwitterProviderImplInfo, int], Tuple[ComAdobeGraniteAuthOauthImplTwitterProviderImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -7036,7 +7038,7 @@ def com_adobe_granite_auth_oauth_provider(post=None, apply=None, delete=None, ac
     :param oauth_config_siblings_allow: 
     :type oauth_config_siblings_allow: bool
 
-    :rtype: ComAdobeGraniteAuthOauthProviderInfo
+    :rtype: Union[ComAdobeGraniteAuthOauthProviderInfo, Tuple[ComAdobeGraniteAuthOauthProviderInfo, int], Tuple[ComAdobeGraniteAuthOauthProviderInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -7061,7 +7063,7 @@ def com_adobe_granite_auth_requirement_impl_default_requirement_handler(post=Non
     :param supported_paths: 
     :type supported_paths: List[str]
 
-    :rtype: ComAdobeGraniteAuthRequirementImplDefaultRequirementHandlerInfo
+    :rtype: Union[ComAdobeGraniteAuthRequirementImplDefaultRequirementHandlerInfo, Tuple[ComAdobeGraniteAuthRequirementImplDefaultRequirementHandlerInfo, int], Tuple[ComAdobeGraniteAuthRequirementImplDefaultRequirementHandlerInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -7136,7 +7138,7 @@ def com_adobe_granite_auth_saml_saml_authentication_handler(post=None, apply=Non
     :param idp_identifier: 
     :type idp_identifier: str
 
-    :rtype: ComAdobeGraniteAuthSamlSamlAuthenticationHandlerInfo
+    :rtype: Union[ComAdobeGraniteAuthSamlSamlAuthenticationHandlerInfo, Tuple[ComAdobeGraniteAuthSamlSamlAuthenticationHandlerInfo, int], Tuple[ComAdobeGraniteAuthSamlSamlAuthenticationHandlerInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -7181,7 +7183,7 @@ def com_adobe_granite_auth_sso_impl_sso_authentication_handler(post=None, apply=
     :param trusted_credentials_attribute: 
     :type trusted_credentials_attribute: str
 
-    :rtype: ComAdobeGraniteAuthSsoImplSsoAuthenticationHandlerInfo
+    :rtype: Union[ComAdobeGraniteAuthSsoImplSsoAuthenticationHandlerInfo, Tuple[ComAdobeGraniteAuthSsoImplSsoAuthenticationHandlerInfo, int], Tuple[ComAdobeGraniteAuthSsoImplSsoAuthenticationHandlerInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -7208,7 +7210,7 @@ def com_adobe_granite_bundles_hc_impl_code_cache_health_check(post=None, apply=N
     :param minimum_code_cache_size: 
     :type minimum_code_cache_size: int
 
-    :rtype: ComAdobeGraniteBundlesHcImplCodeCacheHealthCheckInfo
+    :rtype: Union[ComAdobeGraniteBundlesHcImplCodeCacheHealthCheckInfo, Tuple[ComAdobeGraniteBundlesHcImplCodeCacheHealthCheckInfo, int], Tuple[ComAdobeGraniteBundlesHcImplCodeCacheHealthCheckInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -7233,7 +7235,7 @@ def com_adobe_granite_bundles_hc_impl_crxde_support_bundle_health_check(post=Non
     :param hc_tags: 
     :type hc_tags: List[str]
 
-    :rtype: ComAdobeGraniteBundlesHcImplCrxdeSupportBundleHealthCheckInfo
+    :rtype: Union[ComAdobeGraniteBundlesHcImplCrxdeSupportBundleHealthCheckInfo, Tuple[ComAdobeGraniteBundlesHcImplCrxdeSupportBundleHealthCheckInfo, int], Tuple[ComAdobeGraniteBundlesHcImplCrxdeSupportBundleHealthCheckInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -7258,7 +7260,7 @@ def com_adobe_granite_bundles_hc_impl_dav_ex_bundle_health_check(post=None, appl
     :param hc_tags: 
     :type hc_tags: List[str]
 
-    :rtype: ComAdobeGraniteBundlesHcImplDavExBundleHealthCheckInfo
+    :rtype: Union[ComAdobeGraniteBundlesHcImplDavExBundleHealthCheckInfo, Tuple[ComAdobeGraniteBundlesHcImplDavExBundleHealthCheckInfo, int], Tuple[ComAdobeGraniteBundlesHcImplDavExBundleHealthCheckInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -7285,7 +7287,7 @@ def com_adobe_granite_bundles_hc_impl_inactive_bundles_health_check(post=None, a
     :param ignored_bundles: 
     :type ignored_bundles: List[str]
 
-    :rtype: ComAdobeGraniteBundlesHcImplInactiveBundlesHealthCheckInfo
+    :rtype: Union[ComAdobeGraniteBundlesHcImplInactiveBundlesHealthCheckInfo, Tuple[ComAdobeGraniteBundlesHcImplInactiveBundlesHealthCheckInfo, int], Tuple[ComAdobeGraniteBundlesHcImplInactiveBundlesHealthCheckInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -7312,7 +7314,7 @@ def com_adobe_granite_bundles_hc_impl_jobs_health_check(post=None, apply=None, d
     :param max_queued_jobs: 
     :type max_queued_jobs: int
 
-    :rtype: ComAdobeGraniteBundlesHcImplJobsHealthCheckInfo
+    :rtype: Union[ComAdobeGraniteBundlesHcImplJobsHealthCheckInfo, Tuple[ComAdobeGraniteBundlesHcImplJobsHealthCheckInfo, int], Tuple[ComAdobeGraniteBundlesHcImplJobsHealthCheckInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -7337,7 +7339,7 @@ def com_adobe_granite_bundles_hc_impl_sling_get_servlet_health_check(post=None, 
     :param hc_tags: 
     :type hc_tags: List[str]
 
-    :rtype: ComAdobeGraniteBundlesHcImplSlingGetServletHealthCheckInfo
+    :rtype: Union[ComAdobeGraniteBundlesHcImplSlingGetServletHealthCheckInfo, Tuple[ComAdobeGraniteBundlesHcImplSlingGetServletHealthCheckInfo, int], Tuple[ComAdobeGraniteBundlesHcImplSlingGetServletHealthCheckInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -7362,7 +7364,7 @@ def com_adobe_granite_bundles_hc_impl_sling_java_script_handler_health_check(pos
     :param hc_tags: 
     :type hc_tags: List[str]
 
-    :rtype: ComAdobeGraniteBundlesHcImplSlingJavaScriptHandlerHealthCheckInfo
+    :rtype: Union[ComAdobeGraniteBundlesHcImplSlingJavaScriptHandlerHealthCheckInfo, Tuple[ComAdobeGraniteBundlesHcImplSlingJavaScriptHandlerHealthCheckInfo, int], Tuple[ComAdobeGraniteBundlesHcImplSlingJavaScriptHandlerHealthCheckInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -7387,7 +7389,7 @@ def com_adobe_granite_bundles_hc_impl_sling_jsp_script_handler_health_check(post
     :param hc_tags: 
     :type hc_tags: List[str]
 
-    :rtype: ComAdobeGraniteBundlesHcImplSlingJspScriptHandlerHealthCheckInfo
+    :rtype: Union[ComAdobeGraniteBundlesHcImplSlingJspScriptHandlerHealthCheckInfo, Tuple[ComAdobeGraniteBundlesHcImplSlingJspScriptHandlerHealthCheckInfo, int], Tuple[ComAdobeGraniteBundlesHcImplSlingJspScriptHandlerHealthCheckInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -7412,7 +7414,7 @@ def com_adobe_granite_bundles_hc_impl_sling_referrer_filter_health_check(post=No
     :param hc_tags: 
     :type hc_tags: List[str]
 
-    :rtype: ComAdobeGraniteBundlesHcImplSlingReferrerFilterHealthCheckInfo
+    :rtype: Union[ComAdobeGraniteBundlesHcImplSlingReferrerFilterHealthCheckInfo, Tuple[ComAdobeGraniteBundlesHcImplSlingReferrerFilterHealthCheckInfo, int], Tuple[ComAdobeGraniteBundlesHcImplSlingReferrerFilterHealthCheckInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -7437,7 +7439,7 @@ def com_adobe_granite_bundles_hc_impl_web_dav_bundle_health_check(post=None, app
     :param hc_tags: 
     :type hc_tags: List[str]
 
-    :rtype: ComAdobeGraniteBundlesHcImplWebDavBundleHealthCheckInfo
+    :rtype: Union[ComAdobeGraniteBundlesHcImplWebDavBundleHealthCheckInfo, Tuple[ComAdobeGraniteBundlesHcImplWebDavBundleHealthCheckInfo, int], Tuple[ComAdobeGraniteBundlesHcImplWebDavBundleHealthCheckInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -7462,7 +7464,7 @@ def com_adobe_granite_comments_internal_comment_replication_content_filter_fac(p
     :param replicate_comment_resource_types: 
     :type replicate_comment_resource_types: List[str]
 
-    :rtype: ComAdobeGraniteCommentsInternalCommentReplicationContentFilterFacInfo
+    :rtype: Union[ComAdobeGraniteCommentsInternalCommentReplicationContentFilterFacInfo, Tuple[ComAdobeGraniteCommentsInternalCommentReplicationContentFilterFacInfo, int], Tuple[ComAdobeGraniteCommentsInternalCommentReplicationContentFilterFacInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -7489,7 +7491,7 @@ def com_adobe_granite_compatrouter_impl_compat_switching_service_impl(post=None,
     :param enabled: 
     :type enabled: bool
 
-    :rtype: ComAdobeGraniteCompatrouterImplCompatSwitchingServiceImplInfo
+    :rtype: Union[ComAdobeGraniteCompatrouterImplCompatSwitchingServiceImplInfo, Tuple[ComAdobeGraniteCompatrouterImplCompatSwitchingServiceImplInfo, int], Tuple[ComAdobeGraniteCompatrouterImplCompatSwitchingServiceImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -7518,7 +7520,7 @@ def com_adobe_granite_compatrouter_impl_routing_config(post=None, apply=None, de
     :param new_path: 
     :type new_path: str
 
-    :rtype: ComAdobeGraniteCompatrouterImplRoutingConfigInfo
+    :rtype: Union[ComAdobeGraniteCompatrouterImplRoutingConfigInfo, Tuple[ComAdobeGraniteCompatrouterImplRoutingConfigInfo, int], Tuple[ComAdobeGraniteCompatrouterImplRoutingConfigInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -7545,7 +7547,7 @@ def com_adobe_granite_compatrouter_impl_switch_mapping_config(post=None, apply=N
     :param ids: 
     :type ids: List[str]
 
-    :rtype: ComAdobeGraniteCompatrouterImplSwitchMappingConfigInfo
+    :rtype: Union[ComAdobeGraniteCompatrouterImplSwitchMappingConfigInfo, Tuple[ComAdobeGraniteCompatrouterImplSwitchMappingConfigInfo, int], Tuple[ComAdobeGraniteCompatrouterImplSwitchMappingConfigInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -7572,7 +7574,7 @@ def com_adobe_granite_conf_impl_runtime_aware_configuration_resource_resolving(p
     :param fallback_paths: 
     :type fallback_paths: List[str]
 
-    :rtype: ComAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingInfo
+    :rtype: Union[ComAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingInfo, Tuple[ComAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingInfo, int], Tuple[ComAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -7599,7 +7601,7 @@ def com_adobe_granite_contexthub_impl_context_hub_impl(post=None, apply=None, de
     :param com_adobe_granite_contexthub_show_ui: 
     :type com_adobe_granite_contexthub_show_ui: bool
 
-    :rtype: ComAdobeGraniteContexthubImplContextHubImplInfo
+    :rtype: Union[ComAdobeGraniteContexthubImplContextHubImplInfo, Tuple[ComAdobeGraniteContexthubImplContextHubImplInfo, int], Tuple[ComAdobeGraniteContexthubImplContextHubImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -7638,7 +7640,7 @@ def com_adobe_granite_cors_impl_cors_policy_impl(post=None, apply=None, delete=N
     :param supportscredentials: 
     :type supportscredentials: bool
 
-    :rtype: ComAdobeGraniteCorsImplCORSPolicyImplInfo
+    :rtype: Union[ComAdobeGraniteCorsImplCORSPolicyImplInfo, Tuple[ComAdobeGraniteCorsImplCORSPolicyImplInfo, int], Tuple[ComAdobeGraniteCorsImplCORSPolicyImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -7669,7 +7671,7 @@ def com_adobe_granite_csrf_impl_csrf_filter(post=None, apply=None, delete=None, 
     :param filter_excluded_paths: 
     :type filter_excluded_paths: List[str]
 
-    :rtype: ComAdobeGraniteCsrfImplCSRFFilterInfo
+    :rtype: Union[ComAdobeGraniteCsrfImplCSRFFilterInfo, Tuple[ComAdobeGraniteCsrfImplCSRFFilterInfo, int], Tuple[ComAdobeGraniteCsrfImplCSRFFilterInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -7696,7 +7698,7 @@ def com_adobe_granite_csrf_impl_csrf_servlet(post=None, apply=None, delete=None,
     :param sling_auth_requirements: 
     :type sling_auth_requirements: str
 
-    :rtype: ComAdobeGraniteCsrfImplCSRFServletInfo
+    :rtype: Union[ComAdobeGraniteCsrfImplCSRFServletInfo, Tuple[ComAdobeGraniteCsrfImplCSRFServletInfo, int], Tuple[ComAdobeGraniteCsrfImplCSRFServletInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -7725,7 +7727,7 @@ def com_adobe_granite_distribution_core_impl_crypto_distribution_transport_se(po
     :param encrypted_password: 
     :type encrypted_password: str
 
-    :rtype: ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSeInfo
+    :rtype: Union[ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSeInfo, Tuple[ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSeInfo, int], Tuple[ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSeInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -7764,7 +7766,7 @@ def com_adobe_granite_distribution_core_impl_diff_diff_changes_observer(post=Non
     :param service_user_target: 
     :type service_user_target: str
 
-    :rtype: ComAdobeGraniteDistributionCoreImplDiffDiffChangesObserverInfo
+    :rtype: Union[ComAdobeGraniteDistributionCoreImplDiffDiffChangesObserverInfo, Tuple[ComAdobeGraniteDistributionCoreImplDiffDiffChangesObserverInfo, int], Tuple[ComAdobeGraniteDistributionCoreImplDiffDiffChangesObserverInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -7793,7 +7795,7 @@ def com_adobe_granite_distribution_core_impl_diff_diff_event_listener(post=None,
     :param service_user_target: 
     :type service_user_target: str
 
-    :rtype: ComAdobeGraniteDistributionCoreImplDiffDiffEventListenerInfo
+    :rtype: Union[ComAdobeGraniteDistributionCoreImplDiffDiffEventListenerInfo, Tuple[ComAdobeGraniteDistributionCoreImplDiffDiffEventListenerInfo, int], Tuple[ComAdobeGraniteDistributionCoreImplDiffDiffEventListenerInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -7818,7 +7820,7 @@ def com_adobe_granite_distribution_core_impl_distribution_to_replication_even(po
     :param importer_name: 
     :type importer_name: List[str]
 
-    :rtype: ComAdobeGraniteDistributionCoreImplDistributionToReplicationEvenInfo
+    :rtype: Union[ComAdobeGraniteDistributionCoreImplDistributionToReplicationEvenInfo, Tuple[ComAdobeGraniteDistributionCoreImplDistributionToReplicationEvenInfo, int], Tuple[ComAdobeGraniteDistributionCoreImplDistributionToReplicationEvenInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -7845,7 +7847,7 @@ def com_adobe_granite_distribution_core_impl_replication_adapters_replicat(post=
     :param forward_requests: 
     :type forward_requests: bool
 
-    :rtype: ComAdobeGraniteDistributionCoreImplReplicationAdaptersReplicatInfo
+    :rtype: Union[ComAdobeGraniteDistributionCoreImplReplicationAdaptersReplicatInfo, Tuple[ComAdobeGraniteDistributionCoreImplReplicationAdaptersReplicatInfo, int], Tuple[ComAdobeGraniteDistributionCoreImplReplicationAdaptersReplicatInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -7870,7 +7872,7 @@ def com_adobe_granite_distribution_core_impl_replication_distribution_trans(post
     :param forward_requests: 
     :type forward_requests: bool
 
-    :rtype: ComAdobeGraniteDistributionCoreImplReplicationDistributionTransInfo
+    :rtype: Union[ComAdobeGraniteDistributionCoreImplReplicationDistributionTransInfo, Tuple[ComAdobeGraniteDistributionCoreImplReplicationDistributionTransInfo, int], Tuple[ComAdobeGraniteDistributionCoreImplReplicationDistributionTransInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -7901,7 +7903,7 @@ def com_adobe_granite_distribution_core_impl_transport_access_token_distribu(pos
     :param access_token_provider_target: 
     :type access_token_provider_target: str
 
-    :rtype: ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuInfo
+    :rtype: Union[ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuInfo, Tuple[ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuInfo, int], Tuple[ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -7932,7 +7934,7 @@ def com_adobe_granite_frags_impl_check_http_header_flag(post=None, apply=None, d
     :param http_header_valuepattern: 
     :type http_header_valuepattern: str
 
-    :rtype: ComAdobeGraniteFragsImplCheckHttpHeaderFlagInfo
+    :rtype: Union[ComAdobeGraniteFragsImplCheckHttpHeaderFlagInfo, Tuple[ComAdobeGraniteFragsImplCheckHttpHeaderFlagInfo, int], Tuple[ComAdobeGraniteFragsImplCheckHttpHeaderFlagInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -7965,7 +7967,7 @@ def com_adobe_granite_frags_impl_random_feature(post=None, apply=None, delete=No
     :param cookie_max_age: 
     :type cookie_max_age: int
 
-    :rtype: ComAdobeGraniteFragsImplRandomFeatureInfo
+    :rtype: Union[ComAdobeGraniteFragsImplRandomFeatureInfo, Tuple[ComAdobeGraniteFragsImplRandomFeatureInfo, int], Tuple[ComAdobeGraniteFragsImplRandomFeatureInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -7992,7 +7994,7 @@ def com_adobe_granite_httpcache_file_file_cache_store(post=None, apply=None, del
     :param com_adobe_granite_httpcache_file_include_host: 
     :type com_adobe_granite_httpcache_file_include_host: str
 
-    :rtype: ComAdobeGraniteHttpcacheFileFileCacheStoreInfo
+    :rtype: Union[ComAdobeGraniteHttpcacheFileFileCacheStoreInfo, Tuple[ComAdobeGraniteHttpcacheFileFileCacheStoreInfo, int], Tuple[ComAdobeGraniteHttpcacheFileFileCacheStoreInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -8017,7 +8019,7 @@ def com_adobe_granite_httpcache_impl_outer_cache_filter(post=None, apply=None, d
     :param com_adobe_granite_httpcache_url_paths: 
     :type com_adobe_granite_httpcache_url_paths: List[str]
 
-    :rtype: ComAdobeGraniteHttpcacheImplOuterCacheFilterInfo
+    :rtype: Union[ComAdobeGraniteHttpcacheImplOuterCacheFilterInfo, Tuple[ComAdobeGraniteHttpcacheImplOuterCacheFilterInfo, int], Tuple[ComAdobeGraniteHttpcacheImplOuterCacheFilterInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -8042,7 +8044,7 @@ def com_adobe_granite_i18n_impl_bundle_pseudo_translations(post=None, apply=None
     :param pseudo_patterns: 
     :type pseudo_patterns: List[str]
 
-    :rtype: ComAdobeGraniteI18nImplBundlePseudoTranslationsInfo
+    :rtype: Union[ComAdobeGraniteI18nImplBundlePseudoTranslationsInfo, Tuple[ComAdobeGraniteI18nImplBundlePseudoTranslationsInfo, int], Tuple[ComAdobeGraniteI18nImplBundlePseudoTranslationsInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -8067,7 +8069,7 @@ def com_adobe_granite_i18n_impl_preferences_locale_resolver_service(post=None, a
     :param security_preferences_name: 
     :type security_preferences_name: str
 
-    :rtype: ComAdobeGraniteI18nImplPreferencesLocaleResolverServiceInfo
+    :rtype: Union[ComAdobeGraniteI18nImplPreferencesLocaleResolverServiceInfo, Tuple[ComAdobeGraniteI18nImplPreferencesLocaleResolverServiceInfo, int], Tuple[ComAdobeGraniteI18nImplPreferencesLocaleResolverServiceInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -8094,7 +8096,7 @@ def com_adobe_granite_infocollector_info_collector(post=None, apply=None, delete
     :param granite_infocollector_include_heap_dump: 
     :type granite_infocollector_include_heap_dump: bool
 
-    :rtype: ComAdobeGraniteInfocollectorInfoCollectorInfo
+    :rtype: Union[ComAdobeGraniteInfocollectorInfoCollectorInfo, Tuple[ComAdobeGraniteInfocollectorInfoCollectorInfo, int], Tuple[ComAdobeGraniteInfocollectorInfoCollectorInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -8129,7 +8131,7 @@ def com_adobe_granite_jetty_ssl_internal_granite_ssl_connector_factory(post=None
     :param com_adobe_granite_jetty_ssl_client_certificate: 
     :type com_adobe_granite_jetty_ssl_client_certificate: str
 
-    :rtype: ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryInfo
+    :rtype: Union[ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryInfo, Tuple[ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryInfo, int], Tuple[ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -8158,7 +8160,7 @@ def com_adobe_granite_license_impl_license_check_filter(post=None, apply=None, d
     :param encrypt_ping: 
     :type encrypt_ping: bool
 
-    :rtype: ComAdobeGraniteLicenseImplLicenseCheckFilterInfo
+    :rtype: Union[ComAdobeGraniteLicenseImplLicenseCheckFilterInfo, Tuple[ComAdobeGraniteLicenseImplLicenseCheckFilterInfo, int], Tuple[ComAdobeGraniteLicenseImplLicenseCheckFilterInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -8187,7 +8189,7 @@ def com_adobe_granite_logging_impl_log_analyser_impl(post=None, apply=None, dele
     :param messages_size: 
     :type messages_size: int
 
-    :rtype: ComAdobeGraniteLoggingImplLogAnalyserImplInfo
+    :rtype: Union[ComAdobeGraniteLoggingImplLogAnalyserImplInfo, Tuple[ComAdobeGraniteLoggingImplLogAnalyserImplInfo, int], Tuple[ComAdobeGraniteLoggingImplLogAnalyserImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -8212,7 +8214,7 @@ def com_adobe_granite_logging_impl_log_error_health_check(post=None, apply=None,
     :param hc_tags: 
     :type hc_tags: List[str]
 
-    :rtype: ComAdobeGraniteLoggingImplLogErrorHealthCheckInfo
+    :rtype: Union[ComAdobeGraniteLoggingImplLogErrorHealthCheckInfo, Tuple[ComAdobeGraniteLoggingImplLogErrorHealthCheckInfo, int], Tuple[ComAdobeGraniteLoggingImplLogErrorHealthCheckInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -8239,7 +8241,7 @@ def com_adobe_granite_maintenance_crx_impl_data_store_garbage_collection_task(po
     :param job_topics: 
     :type job_topics: str
 
-    :rtype: ComAdobeGraniteMaintenanceCrxImplDataStoreGarbageCollectionTaskInfo
+    :rtype: Union[ComAdobeGraniteMaintenanceCrxImplDataStoreGarbageCollectionTaskInfo, Tuple[ComAdobeGraniteMaintenanceCrxImplDataStoreGarbageCollectionTaskInfo, int], Tuple[ComAdobeGraniteMaintenanceCrxImplDataStoreGarbageCollectionTaskInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -8264,7 +8266,7 @@ def com_adobe_granite_maintenance_crx_impl_lucene_binaries_cleanup_task(post=Non
     :param job_topics: 
     :type job_topics: str
 
-    :rtype: ComAdobeGraniteMaintenanceCrxImplLuceneBinariesCleanupTaskInfo
+    :rtype: Union[ComAdobeGraniteMaintenanceCrxImplLuceneBinariesCleanupTaskInfo, Tuple[ComAdobeGraniteMaintenanceCrxImplLuceneBinariesCleanupTaskInfo, int], Tuple[ComAdobeGraniteMaintenanceCrxImplLuceneBinariesCleanupTaskInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -8289,7 +8291,7 @@ def com_adobe_granite_maintenance_crx_impl_revision_cleanup_task(post=None, appl
     :param full_gc_days: 
     :type full_gc_days: List[str]
 
-    :rtype: ComAdobeGraniteMaintenanceCrxImplRevisionCleanupTaskInfo
+    :rtype: Union[ComAdobeGraniteMaintenanceCrxImplRevisionCleanupTaskInfo, Tuple[ComAdobeGraniteMaintenanceCrxImplRevisionCleanupTaskInfo, int], Tuple[ComAdobeGraniteMaintenanceCrxImplRevisionCleanupTaskInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -8324,7 +8326,7 @@ def com_adobe_granite_monitoring_impl_script_config_impl(post=None, apply=None, 
     :param jmxdomain: 
     :type jmxdomain: str
 
-    :rtype: ComAdobeGraniteMonitoringImplScriptConfigImplInfo
+    :rtype: Union[ComAdobeGraniteMonitoringImplScriptConfigImplInfo, Tuple[ComAdobeGraniteMonitoringImplScriptConfigImplInfo, int], Tuple[ComAdobeGraniteMonitoringImplScriptConfigImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -8357,7 +8359,7 @@ def com_adobe_granite_oauth_server_auth_impl_o_auth2_server_authentication_han(p
     :param oauth_offline_validation: 
     :type oauth_offline_validation: bool
 
-    :rtype: ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanInfo
+    :rtype: Union[ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanInfo, Tuple[ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanInfo, int], Tuple[ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -8382,7 +8384,7 @@ def com_adobe_granite_oauth_server_impl_access_token_cleanup_task(post=None, app
     :param scheduler_expression: 
     :type scheduler_expression: str
 
-    :rtype: ComAdobeGraniteOauthServerImplAccessTokenCleanupTaskInfo
+    :rtype: Union[ComAdobeGraniteOauthServerImplAccessTokenCleanupTaskInfo, Tuple[ComAdobeGraniteOauthServerImplAccessTokenCleanupTaskInfo, int], Tuple[ComAdobeGraniteOauthServerImplAccessTokenCleanupTaskInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -8407,7 +8409,7 @@ def com_adobe_granite_oauth_server_impl_o_auth2_client_revocation_servlet(post=N
     :param oauth_client_revocation_active: 
     :type oauth_client_revocation_active: bool
 
-    :rtype: ComAdobeGraniteOauthServerImplOAuth2ClientRevocationServletInfo
+    :rtype: Union[ComAdobeGraniteOauthServerImplOAuth2ClientRevocationServletInfo, Tuple[ComAdobeGraniteOauthServerImplOAuth2ClientRevocationServletInfo, int], Tuple[ComAdobeGraniteOauthServerImplOAuth2ClientRevocationServletInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -8434,7 +8436,7 @@ def com_adobe_granite_oauth_server_impl_o_auth2_revocation_endpoint_servlet(post
     :param oauth_revocation_active: 
     :type oauth_revocation_active: bool
 
-    :rtype: ComAdobeGraniteOauthServerImplOAuth2RevocationEndpointServletInfo
+    :rtype: Union[ComAdobeGraniteOauthServerImplOAuth2RevocationEndpointServletInfo, Tuple[ComAdobeGraniteOauthServerImplOAuth2RevocationEndpointServletInfo, int], Tuple[ComAdobeGraniteOauthServerImplOAuth2RevocationEndpointServletInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -8465,7 +8467,7 @@ def com_adobe_granite_oauth_server_impl_o_auth2_token_endpoint_servlet(post=None
     :param osgi_http_whiteboard_context_select: 
     :type osgi_http_whiteboard_context_select: str
 
-    :rtype: ComAdobeGraniteOauthServerImplOAuth2TokenEndpointServletInfo
+    :rtype: Union[ComAdobeGraniteOauthServerImplOAuth2TokenEndpointServletInfo, Tuple[ComAdobeGraniteOauthServerImplOAuth2TokenEndpointServletInfo, int], Tuple[ComAdobeGraniteOauthServerImplOAuth2TokenEndpointServletInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -8490,7 +8492,7 @@ def com_adobe_granite_oauth_server_impl_o_auth2_token_revocation_servlet(post=No
     :param oauth_token_revocation_active: 
     :type oauth_token_revocation_active: bool
 
-    :rtype: ComAdobeGraniteOauthServerImplOAuth2TokenRevocationServletInfo
+    :rtype: Union[ComAdobeGraniteOauthServerImplOAuth2TokenRevocationServletInfo, Tuple[ComAdobeGraniteOauthServerImplOAuth2TokenRevocationServletInfo, int], Tuple[ComAdobeGraniteOauthServerImplOAuth2TokenRevocationServletInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -8517,7 +8519,7 @@ def com_adobe_granite_offloading_impl_offloading_configurator(post=None, apply=N
     :param offloading_cleanup_payload: 
     :type offloading_cleanup_payload: bool
 
-    :rtype: ComAdobeGraniteOffloadingImplOffloadingConfiguratorInfo
+    :rtype: Union[ComAdobeGraniteOffloadingImplOffloadingConfiguratorInfo, Tuple[ComAdobeGraniteOffloadingImplOffloadingConfiguratorInfo, int], Tuple[ComAdobeGraniteOffloadingImplOffloadingConfiguratorInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -8542,7 +8544,7 @@ def com_adobe_granite_offloading_impl_offloading_job_cloner(post=None, apply=Non
     :param offloading_jobcloner_enabled: 
     :type offloading_jobcloner_enabled: bool
 
-    :rtype: ComAdobeGraniteOffloadingImplOffloadingJobClonerInfo
+    :rtype: Union[ComAdobeGraniteOffloadingImplOffloadingJobClonerInfo, Tuple[ComAdobeGraniteOffloadingImplOffloadingJobClonerInfo, int], Tuple[ComAdobeGraniteOffloadingImplOffloadingJobClonerInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -8567,7 +8569,7 @@ def com_adobe_granite_offloading_impl_offloading_job_offloader(post=None, apply=
     :param offloading_offloader_enabled: 
     :type offloading_offloader_enabled: bool
 
-    :rtype: ComAdobeGraniteOffloadingImplOffloadingJobOffloaderInfo
+    :rtype: Union[ComAdobeGraniteOffloadingImplOffloadingJobOffloaderInfo, Tuple[ComAdobeGraniteOffloadingImplOffloadingJobOffloaderInfo, int], Tuple[ComAdobeGraniteOffloadingImplOffloadingJobOffloaderInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -8592,7 +8594,7 @@ def com_adobe_granite_offloading_impl_transporter_offloading_agent_manager(post=
     :param offloading_agentmanager_enabled: 
     :type offloading_agentmanager_enabled: bool
 
-    :rtype: ComAdobeGraniteOffloadingImplTransporterOffloadingAgentManagerInfo
+    :rtype: Union[ComAdobeGraniteOffloadingImplTransporterOffloadingAgentManagerInfo, Tuple[ComAdobeGraniteOffloadingImplTransporterOffloadingAgentManagerInfo, int], Tuple[ComAdobeGraniteOffloadingImplTransporterOffloadingAgentManagerInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -8629,7 +8631,7 @@ def com_adobe_granite_offloading_impl_transporter_offloading_default_transpo(pos
     :param offloading_transporter_default_enabled: 
     :type offloading_transporter_default_enabled: bool
 
-    :rtype: ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoInfo
+    :rtype: Union[ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoInfo, Tuple[ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoInfo, int], Tuple[ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -8656,7 +8658,7 @@ def com_adobe_granite_omnisearch_impl_core_omni_search_service_impl(post=None, a
     :param omnisearch_suggestion_spellcheck_require: 
     :type omnisearch_suggestion_spellcheck_require: bool
 
-    :rtype: ComAdobeGraniteOmnisearchImplCoreOmniSearchServiceImplInfo
+    :rtype: Union[ComAdobeGraniteOmnisearchImplCoreOmniSearchServiceImplInfo, Tuple[ComAdobeGraniteOmnisearchImplCoreOmniSearchServiceImplInfo, int], Tuple[ComAdobeGraniteOmnisearchImplCoreOmniSearchServiceImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -8685,7 +8687,7 @@ def com_adobe_granite_optout_impl_opt_out_service_impl(post=None, apply=None, de
     :param optout_whitelist_cookies: 
     :type optout_whitelist_cookies: List[str]
 
-    :rtype: ComAdobeGraniteOptoutImplOptOutServiceImplInfo
+    :rtype: Union[ComAdobeGraniteOptoutImplOptOutServiceImplInfo, Tuple[ComAdobeGraniteOptoutImplOptOutServiceImplInfo, int], Tuple[ComAdobeGraniteOptoutImplOptOutServiceImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -8714,7 +8716,7 @@ def com_adobe_granite_queries_impl_hc_async_index_health_check(post=None, apply=
     :param hc_tags: 
     :type hc_tags: List[str]
 
-    :rtype: ComAdobeGraniteQueriesImplHcAsyncIndexHealthCheckInfo
+    :rtype: Union[ComAdobeGraniteQueriesImplHcAsyncIndexHealthCheckInfo, Tuple[ComAdobeGraniteQueriesImplHcAsyncIndexHealthCheckInfo, int], Tuple[ComAdobeGraniteQueriesImplHcAsyncIndexHealthCheckInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -8743,7 +8745,7 @@ def com_adobe_granite_queries_impl_hc_large_index_health_check(post=None, apply=
     :param hc_tags: 
     :type hc_tags: List[str]
 
-    :rtype: ComAdobeGraniteQueriesImplHcLargeIndexHealthCheckInfo
+    :rtype: Union[ComAdobeGraniteQueriesImplHcLargeIndexHealthCheckInfo, Tuple[ComAdobeGraniteQueriesImplHcLargeIndexHealthCheckInfo, int], Tuple[ComAdobeGraniteQueriesImplHcLargeIndexHealthCheckInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -8768,7 +8770,7 @@ def com_adobe_granite_queries_impl_hc_queries_status_health_check(post=None, app
     :param hc_tags: 
     :type hc_tags: List[str]
 
-    :rtype: ComAdobeGraniteQueriesImplHcQueriesStatusHealthCheckInfo
+    :rtype: Union[ComAdobeGraniteQueriesImplHcQueriesStatusHealthCheckInfo, Tuple[ComAdobeGraniteQueriesImplHcQueriesStatusHealthCheckInfo, int], Tuple[ComAdobeGraniteQueriesImplHcQueriesStatusHealthCheckInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -8793,7 +8795,7 @@ def com_adobe_granite_queries_impl_hc_query_health_check_metrics(post=None, appl
     :param get_period: 
     :type get_period: int
 
-    :rtype: ComAdobeGraniteQueriesImplHcQueryHealthCheckMetricsInfo
+    :rtype: Union[ComAdobeGraniteQueriesImplHcQueryHealthCheckMetricsInfo, Tuple[ComAdobeGraniteQueriesImplHcQueryHealthCheckMetricsInfo, int], Tuple[ComAdobeGraniteQueriesImplHcQueryHealthCheckMetricsInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -8818,7 +8820,7 @@ def com_adobe_granite_queries_impl_hc_query_limits_health_check(post=None, apply
     :param hc_tags: 
     :type hc_tags: List[str]
 
-    :rtype: ComAdobeGraniteQueriesImplHcQueryLimitsHealthCheckInfo
+    :rtype: Union[ComAdobeGraniteQueriesImplHcQueryLimitsHealthCheckInfo, Tuple[ComAdobeGraniteQueriesImplHcQueryLimitsHealthCheckInfo, int], Tuple[ComAdobeGraniteQueriesImplHcQueryLimitsHealthCheckInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -8845,7 +8847,7 @@ def com_adobe_granite_replication_hc_impl_replication_queue_health_check(post=No
     :param hc_tags: 
     :type hc_tags: List[str]
 
-    :rtype: ComAdobeGraniteReplicationHcImplReplicationQueueHealthCheckInfo
+    :rtype: Union[ComAdobeGraniteReplicationHcImplReplicationQueueHealthCheckInfo, Tuple[ComAdobeGraniteReplicationHcImplReplicationQueueHealthCheckInfo, int], Tuple[ComAdobeGraniteReplicationHcImplReplicationQueueHealthCheckInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -8870,7 +8872,7 @@ def com_adobe_granite_replication_hc_impl_replication_transport_users_health_c(p
     :param hc_tags: 
     :type hc_tags: List[str]
 
-    :rtype: ComAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCInfo
+    :rtype: Union[ComAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCInfo, Tuple[ComAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCInfo, int], Tuple[ComAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -8895,7 +8897,7 @@ def com_adobe_granite_repository_hc_impl_authorizable_node_name_health_check(pos
     :param hc_tags: 
     :type hc_tags: List[str]
 
-    :rtype: ComAdobeGraniteRepositoryHcImplAuthorizableNodeNameHealthCheckInfo
+    :rtype: Union[ComAdobeGraniteRepositoryHcImplAuthorizableNodeNameHealthCheckInfo, Tuple[ComAdobeGraniteRepositoryHcImplAuthorizableNodeNameHealthCheckInfo, int], Tuple[ComAdobeGraniteRepositoryHcImplAuthorizableNodeNameHealthCheckInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -8922,7 +8924,7 @@ def com_adobe_granite_repository_hc_impl_content_sling_sling_content_health_c(po
     :param exclude_search_path: 
     :type exclude_search_path: List[str]
 
-    :rtype: ComAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCInfo
+    :rtype: Union[ComAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCInfo, Tuple[ComAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCInfo, int], Tuple[ComAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -8947,7 +8949,7 @@ def com_adobe_granite_repository_hc_impl_continuous_rgc_health_check(post=None, 
     :param hc_tags: 
     :type hc_tags: List[str]
 
-    :rtype: ComAdobeGraniteRepositoryHcImplContinuousRGCHealthCheckInfo
+    :rtype: Union[ComAdobeGraniteRepositoryHcImplContinuousRGCHealthCheckInfo, Tuple[ComAdobeGraniteRepositoryHcImplContinuousRGCHealthCheckInfo, int], Tuple[ComAdobeGraniteRepositoryHcImplContinuousRGCHealthCheckInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -8972,7 +8974,7 @@ def com_adobe_granite_repository_hc_impl_default_access_user_profile_health_che(
     :param hc_tags: 
     :type hc_tags: List[str]
 
-    :rtype: ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheInfo
+    :rtype: Union[ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheInfo, Tuple[ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheInfo, int], Tuple[ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -9001,7 +9003,7 @@ def com_adobe_granite_repository_hc_impl_default_logins_health_check(post=None, 
     :param console_logins: 
     :type console_logins: List[str]
 
-    :rtype: ComAdobeGraniteRepositoryHcImplDefaultLoginsHealthCheckInfo
+    :rtype: Union[ComAdobeGraniteRepositoryHcImplDefaultLoginsHealthCheckInfo, Tuple[ComAdobeGraniteRepositoryHcImplDefaultLoginsHealthCheckInfo, int], Tuple[ComAdobeGraniteRepositoryHcImplDefaultLoginsHealthCheckInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -9030,7 +9032,7 @@ def com_adobe_granite_repository_hc_impl_disk_space_health_check(post=None, appl
     :param disk_space_error_threshold: 
     :type disk_space_error_threshold: int
 
-    :rtype: ComAdobeGraniteRepositoryHcImplDiskSpaceHealthCheckInfo
+    :rtype: Union[ComAdobeGraniteRepositoryHcImplDiskSpaceHealthCheckInfo, Tuple[ComAdobeGraniteRepositoryHcImplDiskSpaceHealthCheckInfo, int], Tuple[ComAdobeGraniteRepositoryHcImplDiskSpaceHealthCheckInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -9055,7 +9057,7 @@ def com_adobe_granite_repository_hc_impl_observation_queue_length_health_check(p
     :param hc_tags: 
     :type hc_tags: List[str]
 
-    :rtype: ComAdobeGraniteRepositoryHcImplObservationQueueLengthHealthCheckInfo
+    :rtype: Union[ComAdobeGraniteRepositoryHcImplObservationQueueLengthHealthCheckInfo, Tuple[ComAdobeGraniteRepositoryHcImplObservationQueueLengthHealthCheckInfo, int], Tuple[ComAdobeGraniteRepositoryHcImplObservationQueueLengthHealthCheckInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -9104,7 +9106,7 @@ def com_adobe_granite_repository_impl_commit_stats_config(post=None, apply=None,
     :param stack_shorteners: 
     :type stack_shorteners: List[str]
 
-    :rtype: ComAdobeGraniteRepositoryImplCommitStatsConfigInfo
+    :rtype: Union[ComAdobeGraniteRepositoryImplCommitStatsConfigInfo, Tuple[ComAdobeGraniteRepositoryImplCommitStatsConfigInfo, int], Tuple[ComAdobeGraniteRepositoryImplCommitStatsConfigInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -9133,7 +9135,7 @@ def com_adobe_granite_repository_service_user_configuration(post=None, apply=Non
     :param serviceusers_list: 
     :type serviceusers_list: List[str]
 
-    :rtype: ComAdobeGraniteRepositoryServiceUserConfigurationInfo
+    :rtype: Union[ComAdobeGraniteRepositoryServiceUserConfigurationInfo, Tuple[ComAdobeGraniteRepositoryServiceUserConfigurationInfo, int], Tuple[ComAdobeGraniteRepositoryServiceUserConfigurationInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -9158,7 +9160,7 @@ def com_adobe_granite_requests_logging_impl_hc_requests_status_health_check_im(p
     :param hc_tags: 
     :type hc_tags: List[str]
 
-    :rtype: ComAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckImInfo
+    :rtype: Union[ComAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckImInfo, Tuple[ComAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckImInfo, int], Tuple[ComAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckImInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -9185,7 +9187,7 @@ def com_adobe_granite_resourcestatus_impl_composite_status_type(post=None, apply
     :param types: 
     :type types: List[str]
 
-    :rtype: ComAdobeGraniteResourcestatusImplCompositeStatusTypeInfo
+    :rtype: Union[ComAdobeGraniteResourcestatusImplCompositeStatusTypeInfo, Tuple[ComAdobeGraniteResourcestatusImplCompositeStatusTypeInfo, int], Tuple[ComAdobeGraniteResourcestatusImplCompositeStatusTypeInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -9210,7 +9212,7 @@ def com_adobe_granite_resourcestatus_impl_status_resource_provider_impl(post=Non
     :param provider_root: 
     :type provider_root: str
 
-    :rtype: ComAdobeGraniteResourcestatusImplStatusResourceProviderImplInfo
+    :rtype: Union[ComAdobeGraniteResourcestatusImplStatusResourceProviderImplInfo, Tuple[ComAdobeGraniteResourcestatusImplStatusResourceProviderImplInfo, int], Tuple[ComAdobeGraniteResourcestatusImplStatusResourceProviderImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -9237,7 +9239,7 @@ def com_adobe_granite_rest_assets_impl_asset_content_disposition_filter(post=Non
     :param mime_allowed: 
     :type mime_allowed: List[str]
 
-    :rtype: ComAdobeGraniteRestAssetsImplAssetContentDispositionFilterInfo
+    :rtype: Union[ComAdobeGraniteRestAssetsImplAssetContentDispositionFilterInfo, Tuple[ComAdobeGraniteRestAssetsImplAssetContentDispositionFilterInfo, int], Tuple[ComAdobeGraniteRestAssetsImplAssetContentDispositionFilterInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -9262,7 +9264,7 @@ def com_adobe_granite_rest_impl_api_endpoint_resource_provider_factory_impl(post
     :param provider_roots: 
     :type provider_roots: str
 
-    :rtype: ComAdobeGraniteRestImplApiEndpointResourceProviderFactoryImplInfo
+    :rtype: Union[ComAdobeGraniteRestImplApiEndpointResourceProviderFactoryImplInfo, Tuple[ComAdobeGraniteRestImplApiEndpointResourceProviderFactoryImplInfo, int], Tuple[ComAdobeGraniteRestImplApiEndpointResourceProviderFactoryImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -9289,7 +9291,7 @@ def com_adobe_granite_rest_impl_servlet_default_get_servlet(post=None, apply=Non
     :param use_absolute_uri: 
     :type use_absolute_uri: bool
 
-    :rtype: ComAdobeGraniteRestImplServletDefaultGETServletInfo
+    :rtype: Union[ComAdobeGraniteRestImplServletDefaultGETServletInfo, Tuple[ComAdobeGraniteRestImplServletDefaultGETServletInfo, int], Tuple[ComAdobeGraniteRestImplServletDefaultGETServletInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -9314,7 +9316,7 @@ def com_adobe_granite_security_user_ui_internal_servlets_ssl_configuration_s(pos
     :param hc_tags: 
     :type hc_tags: List[str]
 
-    :rtype: ComAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationSInfo
+    :rtype: Union[ComAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationSInfo, Tuple[ComAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationSInfo, int], Tuple[ComAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationSInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -9343,7 +9345,7 @@ def com_adobe_granite_security_user_user_properties_service(post=None, apply=Non
     :param granite_userproperties_resourcetypes: 
     :type granite_userproperties_resourcetypes: List[str]
 
-    :rtype: ComAdobeGraniteSecurityUserUserPropertiesServiceInfo
+    :rtype: Union[ComAdobeGraniteSecurityUserUserPropertiesServiceInfo, Tuple[ComAdobeGraniteSecurityUserUserPropertiesServiceInfo, int], Tuple[ComAdobeGraniteSecurityUserUserPropertiesServiceInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -9374,7 +9376,7 @@ def com_adobe_granite_socialgraph_impl_social_graph_factory_impl(post=None, appl
     :param group2member_excluded_incoming: 
     :type group2member_excluded_incoming: List[str]
 
-    :rtype: ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplInfo
+    :rtype: Union[ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplInfo, Tuple[ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplInfo, int], Tuple[ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -9401,7 +9403,7 @@ def com_adobe_granite_system_monitoring_impl_system_stats_m_bean_impl(post=None,
     :param jmx_objectname: 
     :type jmx_objectname: str
 
-    :rtype: ComAdobeGraniteSystemMonitoringImplSystemStatsMBeanImplInfo
+    :rtype: Union[ComAdobeGraniteSystemMonitoringImplSystemStatsMBeanImplInfo, Tuple[ComAdobeGraniteSystemMonitoringImplSystemStatsMBeanImplInfo, int], Tuple[ComAdobeGraniteSystemMonitoringImplSystemStatsMBeanImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -9426,7 +9428,7 @@ def com_adobe_granite_taskmanagement_impl_jcr_task_adapter_factory(post=None, ap
     :param adapter_condition: 
     :type adapter_condition: str
 
-    :rtype: ComAdobeGraniteTaskmanagementImplJcrTaskAdapterFactoryInfo
+    :rtype: Union[ComAdobeGraniteTaskmanagementImplJcrTaskAdapterFactoryInfo, Tuple[ComAdobeGraniteTaskmanagementImplJcrTaskAdapterFactoryInfo, int], Tuple[ComAdobeGraniteTaskmanagementImplJcrTaskAdapterFactoryInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -9455,7 +9457,7 @@ def com_adobe_granite_taskmanagement_impl_jcr_task_archive_service(post=None, ap
     :param archive_since_days_completed: 
     :type archive_since_days_completed: int
 
-    :rtype: ComAdobeGraniteTaskmanagementImplJcrTaskArchiveServiceInfo
+    :rtype: Union[ComAdobeGraniteTaskmanagementImplJcrTaskArchiveServiceInfo, Tuple[ComAdobeGraniteTaskmanagementImplJcrTaskArchiveServiceInfo, int], Tuple[ComAdobeGraniteTaskmanagementImplJcrTaskArchiveServiceInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -9488,7 +9490,7 @@ def com_adobe_granite_taskmanagement_impl_purge_task_purge_maintenance_task(post
     :param save_threshold: 
     :type save_threshold: int
 
-    :rtype: ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskInfo
+    :rtype: Union[ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskInfo, Tuple[ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskInfo, int], Tuple[ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -9515,7 +9517,7 @@ def com_adobe_granite_taskmanagement_impl_service_task_manager_adapter_factor(po
     :param taskmanager_admingroups: 
     :type taskmanager_admingroups: List[str]
 
-    :rtype: ComAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactorInfo
+    :rtype: Union[ComAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactorInfo, Tuple[ComAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactorInfo, int], Tuple[ComAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactorInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -9556,7 +9558,7 @@ def com_adobe_granite_threaddump_thread_dump_collector(post=None, apply=None, de
     :param granite_threaddump_backup_clean_trigger: 
     :type granite_threaddump_backup_clean_trigger: str
 
-    :rtype: ComAdobeGraniteThreaddumpThreadDumpCollectorInfo
+    :rtype: Union[ComAdobeGraniteThreaddumpThreadDumpCollectorInfo, Tuple[ComAdobeGraniteThreaddumpThreadDumpCollectorInfo, int], Tuple[ComAdobeGraniteThreaddumpThreadDumpCollectorInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -9597,7 +9599,7 @@ def com_adobe_granite_translation_connector_msft_core_impl_microsoft_transl(post
     :param timeout_count: 
     :type timeout_count: int
 
-    :rtype: ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslInfo
+    :rtype: Union[ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslInfo, Tuple[ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslInfo, int], Tuple[ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -9624,7 +9626,7 @@ def com_adobe_granite_translation_core_impl_translation_manager_impl(post=None, 
     :param default_category: 
     :type default_category: str
 
-    :rtype: ComAdobeGraniteTranslationCoreImplTranslationManagerImplInfo
+    :rtype: Union[ComAdobeGraniteTranslationCoreImplTranslationManagerImplInfo, Tuple[ComAdobeGraniteTranslationCoreImplTranslationManagerImplInfo, int], Tuple[ComAdobeGraniteTranslationCoreImplTranslationManagerImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -9687,7 +9689,7 @@ def com_adobe_granite_ui_clientlibs_impl_html_library_manager_impl(post=None, ap
     :param htmllibmanager_disable_replacement: 
     :type htmllibmanager_disable_replacement: List[str]
 
-    :rtype: ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplInfo
+    :rtype: Union[ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplInfo, Tuple[ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplInfo, int], Tuple[ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -9712,7 +9714,7 @@ def com_adobe_granite_workflow_console_frags_workflow_withdraw_feature(post=None
     :param enabled: 
     :type enabled: bool
 
-    :rtype: ComAdobeGraniteWorkflowConsoleFragsWorkflowWithdrawFeatureInfo
+    :rtype: Union[ComAdobeGraniteWorkflowConsoleFragsWorkflowWithdrawFeatureInfo, Tuple[ComAdobeGraniteWorkflowConsoleFragsWorkflowWithdrawFeatureInfo, int], Tuple[ComAdobeGraniteWorkflowConsoleFragsWorkflowWithdrawFeatureInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -9737,7 +9739,7 @@ def com_adobe_granite_workflow_console_publish_workflow_publish_event_service(po
     :param granite_workflow_workflow_publish_event_service_enabled: 
     :type granite_workflow_workflow_publish_event_service_enabled: bool
 
-    :rtype: ComAdobeGraniteWorkflowConsolePublishWorkflowPublishEventServiceInfo
+    :rtype: Union[ComAdobeGraniteWorkflowConsolePublishWorkflowPublishEventServiceInfo, Tuple[ComAdobeGraniteWorkflowConsolePublishWorkflowPublishEventServiceInfo, int], Tuple[ComAdobeGraniteWorkflowConsolePublishWorkflowPublishEventServiceInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -9762,7 +9764,7 @@ def com_adobe_granite_workflow_core_jcr_workflow_bucket_manager(post=None, apply
     :param bucket_size: 
     :type bucket_size: int
 
-    :rtype: ComAdobeGraniteWorkflowCoreJcrWorkflowBucketManagerInfo
+    :rtype: Union[ComAdobeGraniteWorkflowCoreJcrWorkflowBucketManagerInfo, Tuple[ComAdobeGraniteWorkflowCoreJcrWorkflowBucketManagerInfo, int], Tuple[ComAdobeGraniteWorkflowCoreJcrWorkflowBucketManagerInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -9791,7 +9793,7 @@ def com_adobe_granite_workflow_core_job_external_process_job_handler(post=None, 
     :param default_period: 
     :type default_period: int
 
-    :rtype: ComAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerInfo
+    :rtype: Union[ComAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerInfo, Tuple[ComAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerInfo, int], Tuple[ComAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -9818,7 +9820,7 @@ def com_adobe_granite_workflow_core_job_job_handler(post=None, apply=None, delet
     :param allow_self_process_termination: 
     :type allow_self_process_termination: bool
 
-    :rtype: ComAdobeGraniteWorkflowCoreJobJobHandlerInfo
+    :rtype: Union[ComAdobeGraniteWorkflowCoreJobJobHandlerInfo, Tuple[ComAdobeGraniteWorkflowCoreJobJobHandlerInfo, int], Tuple[ComAdobeGraniteWorkflowCoreJobJobHandlerInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -9843,7 +9845,7 @@ def com_adobe_granite_workflow_core_offloading_workflow_offloading_job_consum(po
     :param job_topics: 
     :type job_topics: str
 
-    :rtype: ComAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumInfo
+    :rtype: Union[ComAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumInfo, Tuple[ComAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumInfo, int], Tuple[ComAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -9870,7 +9872,7 @@ def com_adobe_granite_workflow_core_payload_map_cache(post=None, apply=None, del
     :param get_package_root_path: 
     :type get_package_root_path: str
 
-    :rtype: ComAdobeGraniteWorkflowCorePayloadMapCacheInfo
+    :rtype: Union[ComAdobeGraniteWorkflowCorePayloadMapCacheInfo, Tuple[ComAdobeGraniteWorkflowCorePayloadMapCacheInfo, int], Tuple[ComAdobeGraniteWorkflowCorePayloadMapCacheInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -9897,7 +9899,7 @@ def com_adobe_granite_workflow_core_payloadmap_payload_move_listener(post=None, 
     :param payload_move_handle_from_workflow_process: 
     :type payload_move_handle_from_workflow_process: bool
 
-    :rtype: ComAdobeGraniteWorkflowCorePayloadmapPayloadMoveListenerInfo
+    :rtype: Union[ComAdobeGraniteWorkflowCorePayloadmapPayloadMoveListenerInfo, Tuple[ComAdobeGraniteWorkflowCorePayloadmapPayloadMoveListenerInfo, int], Tuple[ComAdobeGraniteWorkflowCorePayloadmapPayloadMoveListenerInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -9926,7 +9928,7 @@ def com_adobe_granite_workflow_core_workflow_config(post=None, apply=None, delet
     :param cq_workflow_config_allow_locking: 
     :type cq_workflow_config_allow_locking: bool
 
-    :rtype: ComAdobeGraniteWorkflowCoreWorkflowConfigInfo
+    :rtype: Union[ComAdobeGraniteWorkflowCoreWorkflowConfigInfo, Tuple[ComAdobeGraniteWorkflowCoreWorkflowConfigInfo, int], Tuple[ComAdobeGraniteWorkflowCoreWorkflowConfigInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -9971,7 +9973,7 @@ def com_adobe_granite_workflow_core_workflow_session_factory(post=None, apply=No
     :param granite_workflow_max_purge_query_count: 
     :type granite_workflow_max_purge_query_count: int
 
-    :rtype: ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryInfo
+    :rtype: Union[ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryInfo, Tuple[ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryInfo, int], Tuple[ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -10002,7 +10004,7 @@ def com_adobe_granite_workflow_purge_scheduler(post=None, apply=None, delete=Non
     :param scheduledpurge_daysold: 
     :type scheduledpurge_daysold: int
 
-    :rtype: ComAdobeGraniteWorkflowPurgeSchedulerInfo
+    :rtype: Union[ComAdobeGraniteWorkflowPurgeSchedulerInfo, Tuple[ComAdobeGraniteWorkflowPurgeSchedulerInfo, int], Tuple[ComAdobeGraniteWorkflowPurgeSchedulerInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -10035,7 +10037,7 @@ def com_adobe_octopus_ncomm_bootstrap(post=None, apply=None, delete=None, action
     :param launch_timeout: 
     :type launch_timeout: int
 
-    :rtype: ComAdobeOctopusNcommBootstrapInfo
+    :rtype: Union[ComAdobeOctopusNcommBootstrapInfo, Tuple[ComAdobeOctopusNcommBootstrapInfo, int], Tuple[ComAdobeOctopusNcommBootstrapInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -10060,7 +10062,7 @@ def com_adobe_social_integrations_livefyre_user_pingforpull_impl_ping_pull_s(pos
     :param communities_integration_livefyre_sling_event_filter: 
     :type communities_integration_livefyre_sling_event_filter: str
 
-    :rtype: ComAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullSInfo
+    :rtype: Union[ComAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullSInfo, Tuple[ComAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullSInfo, int], Tuple[ComAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullSInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -10091,7 +10093,7 @@ def com_adobe_xmp_worker_files_ncomm_xmp_files_n_comm(post=None, apply=None, del
     :param log_dir: 
     :type log_dir: str
 
-    :rtype: ComAdobeXmpWorkerFilesNcommXMPFilesNCommInfo
+    :rtype: Union[ComAdobeXmpWorkerFilesNcommXMPFilesNCommInfo, Tuple[ComAdobeXmpWorkerFilesNcommXMPFilesNCommInfo, int], Tuple[ComAdobeXmpWorkerFilesNcommXMPFilesNCommInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -10136,7 +10138,7 @@ def com_day_commons_datasource_jdbcpool_jdbc_pool_service(post=None, apply=None,
     :param datasource_svc_properties: 
     :type datasource_svc_properties: List[str]
 
-    :rtype: ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceInfo
+    :rtype: Union[ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceInfo, Tuple[ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceInfo, int], Tuple[ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -10173,7 +10175,7 @@ def com_day_commons_httpclient(post=None, apply=None, delete=None, action=None, 
     :param proxy_exceptions: 
     :type proxy_exceptions: List[str]
 
-    :rtype: ComDayCommonsHttpclientInfo
+    :rtype: Union[ComDayCommonsHttpclientInfo, Tuple[ComDayCommonsHttpclientInfo, int], Tuple[ComDayCommonsHttpclientInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -10198,7 +10200,7 @@ def com_day_cq_analytics_impl_store_properties_change_listener(post=None, apply=
     :param cq_store_listener_additional_store_paths: 
     :type cq_store_listener_additional_store_paths: List[str]
 
-    :rtype: ComDayCqAnalyticsImplStorePropertiesChangeListenerInfo
+    :rtype: Union[ComDayCqAnalyticsImplStorePropertiesChangeListenerInfo, Tuple[ComDayCqAnalyticsImplStorePropertiesChangeListenerInfo, int], Tuple[ComDayCqAnalyticsImplStorePropertiesChangeListenerInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -10225,7 +10227,7 @@ def com_day_cq_analytics_sitecatalyst_impl_exporter_classifications_exporte(post
     :param cq_analytics_saint_exporter_pagesize: 
     :type cq_analytics_saint_exporter_pagesize: int
 
-    :rtype: ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteInfo
+    :rtype: Union[ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteInfo, Tuple[ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteInfo, int], Tuple[ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -10252,7 +10254,7 @@ def com_day_cq_analytics_sitecatalyst_impl_importer_report_importer(post=None, a
     :param report_fetch_delay: 
     :type report_fetch_delay: int
 
-    :rtype: ComDayCqAnalyticsSitecatalystImplImporterReportImporterInfo
+    :rtype: Union[ComDayCqAnalyticsSitecatalystImplImporterReportImporterInfo, Tuple[ComDayCqAnalyticsSitecatalystImplImporterReportImporterInfo, int], Tuple[ComDayCqAnalyticsSitecatalystImplImporterReportImporterInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -10277,7 +10279,7 @@ def com_day_cq_analytics_sitecatalyst_impl_sitecatalyst_adapter_factory(post=Non
     :param cq_analytics_adapterfactory_contextstores: 
     :type cq_analytics_adapterfactory_contextstores: List[str]
 
-    :rtype: ComDayCqAnalyticsSitecatalystImplSitecatalystAdapterFactoryInfo
+    :rtype: Union[ComDayCqAnalyticsSitecatalystImplSitecatalystAdapterFactoryInfo, Tuple[ComDayCqAnalyticsSitecatalystImplSitecatalystAdapterFactoryInfo, int], Tuple[ComDayCqAnalyticsSitecatalystImplSitecatalystAdapterFactoryInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -10308,7 +10310,7 @@ def com_day_cq_analytics_sitecatalyst_impl_sitecatalyst_http_client_impl(post=No
     :param socket_timeout: 
     :type socket_timeout: int
 
-    :rtype: ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfo
+    :rtype: Union[ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfo, Tuple[ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfo, int], Tuple[ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -10333,7 +10335,7 @@ def com_day_cq_analytics_testandtarget_impl_account_options_updater(post=None, a
     :param cq_analytics_testandtarget_accountoptionsupdater_enabled: 
     :type cq_analytics_testandtarget_accountoptionsupdater_enabled: bool
 
-    :rtype: ComDayCqAnalyticsTestandtargetImplAccountOptionsUpdaterInfo
+    :rtype: Union[ComDayCqAnalyticsTestandtargetImplAccountOptionsUpdaterInfo, Tuple[ComDayCqAnalyticsTestandtargetImplAccountOptionsUpdaterInfo, int], Tuple[ComDayCqAnalyticsTestandtargetImplAccountOptionsUpdaterInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -10358,7 +10360,7 @@ def com_day_cq_analytics_testandtarget_impl_delete_author_activity_listener(post
     :param cq_analytics_testandtarget_deleteauthoractivitylistener_enabled: 
     :type cq_analytics_testandtarget_deleteauthoractivitylistener_enabled: bool
 
-    :rtype: ComDayCqAnalyticsTestandtargetImplDeleteAuthorActivityListenerInfo
+    :rtype: Union[ComDayCqAnalyticsTestandtargetImplDeleteAuthorActivityListenerInfo, Tuple[ComDayCqAnalyticsTestandtargetImplDeleteAuthorActivityListenerInfo, int], Tuple[ComDayCqAnalyticsTestandtargetImplDeleteAuthorActivityListenerInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -10383,7 +10385,7 @@ def com_day_cq_analytics_testandtarget_impl_push_author_campaign_page_listener(p
     :param cq_analytics_testandtarget_pushauthorcampaignpagelistener_enabled: 
     :type cq_analytics_testandtarget_pushauthorcampaignpagelistener_enabled: bool
 
-    :rtype: ComDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListenerInfo
+    :rtype: Union[ComDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListenerInfo, Tuple[ComDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListenerInfo, int], Tuple[ComDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListenerInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -10408,7 +10410,7 @@ def com_day_cq_analytics_testandtarget_impl_segment_importer(post=None, apply=No
     :param cq_analytics_testandtarget_segmentimporter_enabled: 
     :type cq_analytics_testandtarget_segmentimporter_enabled: bool
 
-    :rtype: ComDayCqAnalyticsTestandtargetImplSegmentImporterInfo
+    :rtype: Union[ComDayCqAnalyticsTestandtargetImplSegmentImporterInfo, Tuple[ComDayCqAnalyticsTestandtargetImplSegmentImporterInfo, int], Tuple[ComDayCqAnalyticsTestandtargetImplSegmentImporterInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -10437,7 +10439,7 @@ def com_day_cq_analytics_testandtarget_impl_service_web_service_impl(post=None, 
     :param socket_timeout: 
     :type socket_timeout: int
 
-    :rtype: ComDayCqAnalyticsTestandtargetImplServiceWebServiceImplInfo
+    :rtype: Union[ComDayCqAnalyticsTestandtargetImplServiceWebServiceImplInfo, Tuple[ComDayCqAnalyticsTestandtargetImplServiceWebServiceImplInfo, int], Tuple[ComDayCqAnalyticsTestandtargetImplServiceWebServiceImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -10462,7 +10464,7 @@ def com_day_cq_analytics_testandtarget_impl_servlets_admin_server_servlet(post=N
     :param testandtarget_endpoint_url: 
     :type testandtarget_endpoint_url: str
 
-    :rtype: ComDayCqAnalyticsTestandtargetImplServletsAdminServerServletInfo
+    :rtype: Union[ComDayCqAnalyticsTestandtargetImplServletsAdminServerServletInfo, Tuple[ComDayCqAnalyticsTestandtargetImplServletsAdminServerServletInfo, int], Tuple[ComDayCqAnalyticsTestandtargetImplServletsAdminServerServletInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -10495,7 +10497,7 @@ def com_day_cq_analytics_testandtarget_impl_testandtarget_http_client_impl(post=
     :param cq_analytics_testandtarget_recommendations_url_replacewith: 
     :type cq_analytics_testandtarget_recommendations_url_replacewith: str
 
-    :rtype: ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplInfo
+    :rtype: Union[ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplInfo, Tuple[ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplInfo, int], Tuple[ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -10526,7 +10528,7 @@ def com_day_cq_auth_impl_cug_cug_support_impl(post=None, apply=None, delete=None
     :param cug_principals_replacement: 
     :type cug_principals_replacement: str
 
-    :rtype: ComDayCqAuthImplCugCugSupportImplInfo
+    :rtype: Union[ComDayCqAuthImplCugCugSupportImplInfo, Tuple[ComDayCqAuthImplCugCugSupportImplInfo, int], Tuple[ComDayCqAuthImplCugCugSupportImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -10565,7 +10567,7 @@ def com_day_cq_auth_impl_login_selector_handler(post=None, apply=None, delete=No
     :param auth_loginselector_handle_all_extensions: 
     :type auth_loginselector_handle_all_extensions: bool
 
-    :rtype: ComDayCqAuthImplLoginSelectorHandlerInfo
+    :rtype: Union[ComDayCqAuthImplLoginSelectorHandlerInfo, Tuple[ComDayCqAuthImplLoginSelectorHandlerInfo, int], Tuple[ComDayCqAuthImplLoginSelectorHandlerInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -10596,7 +10598,7 @@ def com_day_cq_commons_impl_externalizer_impl(post=None, apply=None, delete=None
     :param externalizer_encodedpath: 
     :type externalizer_encodedpath: bool
 
-    :rtype: ComDayCqCommonsImplExternalizerImplInfo
+    :rtype: Union[ComDayCqCommonsImplExternalizerImplInfo, Tuple[ComDayCqCommonsImplExternalizerImplInfo, int], Tuple[ComDayCqCommonsImplExternalizerImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -10621,7 +10623,7 @@ def com_day_cq_commons_servlets_root_mapping_servlet(post=None, apply=None, dele
     :param rootmapping_target: 
     :type rootmapping_target: str
 
-    :rtype: ComDayCqCommonsServletsRootMappingServletInfo
+    :rtype: Union[ComDayCqCommonsServletsRootMappingServletInfo, Tuple[ComDayCqCommonsServletsRootMappingServletInfo, int], Tuple[ComDayCqCommonsServletsRootMappingServletInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -10648,7 +10650,7 @@ def com_day_cq_compat_codeupgrade_impl_code_upgrade_execution_condition_checke(p
     :param codeupgradetaskfilters: 
     :type codeupgradetaskfilters: List[str]
 
-    :rtype: ComDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckeInfo
+    :rtype: Union[ComDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckeInfo, Tuple[ComDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckeInfo, int], Tuple[ComDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckeInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -10673,7 +10675,7 @@ def com_day_cq_compat_codeupgrade_impl_upgrade_task_ignore_list(post=None, apply
     :param upgrade_task_ignore_list: 
     :type upgrade_task_ignore_list: List[str]
 
-    :rtype: ComDayCqCompatCodeupgradeImplUpgradeTaskIgnoreListInfo
+    :rtype: Union[ComDayCqCompatCodeupgradeImplUpgradeTaskIgnoreListInfo, Tuple[ComDayCqCompatCodeupgradeImplUpgradeTaskIgnoreListInfo, int], Tuple[ComDayCqCompatCodeupgradeImplUpgradeTaskIgnoreListInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -10698,7 +10700,7 @@ def com_day_cq_compat_codeupgrade_impl_version_range_task_ignorelist(post=None, 
     :param effective_bundle_list_path: 
     :type effective_bundle_list_path: str
 
-    :rtype: ComDayCqCompatCodeupgradeImplVersionRangeTaskIgnorelistInfo
+    :rtype: Union[ComDayCqCompatCodeupgradeImplVersionRangeTaskIgnorelistInfo, Tuple[ComDayCqCompatCodeupgradeImplVersionRangeTaskIgnorelistInfo, int], Tuple[ComDayCqCompatCodeupgradeImplVersionRangeTaskIgnorelistInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -10725,7 +10727,7 @@ def com_day_cq_contentsync_impl_content_sync_manager_impl(post=None, apply=None,
     :param contentsync_fallback_updateuser: 
     :type contentsync_fallback_updateuser: str
 
-    :rtype: ComDayCqContentsyncImplContentSyncManagerImplInfo
+    :rtype: Union[ComDayCqContentsyncImplContentSyncManagerImplInfo, Tuple[ComDayCqContentsyncImplContentSyncManagerImplInfo, int], Tuple[ComDayCqContentsyncImplContentSyncManagerImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -10754,7 +10756,7 @@ def com_day_cq_dam_commons_handler_standard_image_handler(post=None, apply=None,
     :param cq_dam_enable_ext_meta_extraction: 
     :type cq_dam_enable_ext_meta_extraction: bool
 
-    :rtype: ComDayCqDamCommonsHandlerStandardImageHandlerInfo
+    :rtype: Union[ComDayCqDamCommonsHandlerStandardImageHandlerInfo, Tuple[ComDayCqDamCommonsHandlerStandardImageHandlerInfo, int], Tuple[ComDayCqDamCommonsHandlerStandardImageHandlerInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -10785,7 +10787,7 @@ def com_day_cq_dam_commons_metadata_xmp_filter_black_white(post=None, apply=None
     :param xmp_filter_blacklist: 
     :type xmp_filter_blacklist: List[str]
 
-    :rtype: ComDayCqDamCommonsMetadataXmpFilterBlackWhiteInfo
+    :rtype: Union[ComDayCqDamCommonsMetadataXmpFilterBlackWhiteInfo, Tuple[ComDayCqDamCommonsMetadataXmpFilterBlackWhiteInfo, int], Tuple[ComDayCqDamCommonsMetadataXmpFilterBlackWhiteInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -10814,7 +10816,7 @@ def com_day_cq_dam_commons_util_impl_asset_cache_impl(post=None, apply=None, del
     :param mime_types: 
     :type mime_types: List[str]
 
-    :rtype: ComDayCqDamCommonsUtilImplAssetCacheImplInfo
+    :rtype: Union[ComDayCqDamCommonsUtilImplAssetCacheImplInfo, Tuple[ComDayCqDamCommonsUtilImplAssetCacheImplInfo, int], Tuple[ComDayCqDamCommonsUtilImplAssetCacheImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -10869,7 +10871,7 @@ def com_day_cq_dam_core_impl_annotation_pdf_annotation_pdf_config(post=None, app
     :param cq_dam_config_annotation_pdf_asset_minheight: 
     :type cq_dam_config_annotation_pdf_asset_minheight: int
 
-    :rtype: ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigInfo
+    :rtype: Union[ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigInfo, Tuple[ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigInfo, int], Tuple[ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -10894,7 +10896,7 @@ def com_day_cq_dam_core_impl_asset_move_listener(post=None, apply=None, delete=N
     :param enabled: 
     :type enabled: bool
 
-    :rtype: ComDayCqDamCoreImplAssetMoveListenerInfo
+    :rtype: Union[ComDayCqDamCoreImplAssetMoveListenerInfo, Tuple[ComDayCqDamCoreImplAssetMoveListenerInfo, int], Tuple[ComDayCqDamCoreImplAssetMoveListenerInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -10919,7 +10921,7 @@ def com_day_cq_dam_core_impl_assethome_asset_home_page_configuration(post=None, 
     :param is_enabled: 
     :type is_enabled: bool
 
-    :rtype: ComDayCqDamCoreImplAssethomeAssetHomePageConfigurationInfo
+    :rtype: Union[ComDayCqDamCoreImplAssethomeAssetHomePageConfigurationInfo, Tuple[ComDayCqDamCoreImplAssethomeAssetHomePageConfigurationInfo, int], Tuple[ComDayCqDamCoreImplAssethomeAssetHomePageConfigurationInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -10944,7 +10946,7 @@ def com_day_cq_dam_core_impl_assetlinkshare_adhoc_asset_share_proxy_servlet(post
     :param cq_dam_adhoc_asset_share_prezip_maxcontentsize: 
     :type cq_dam_adhoc_asset_share_prezip_maxcontentsize: int
 
-    :rtype: ComDayCqDamCoreImplAssetlinkshareAdhocAssetShareProxyServletInfo
+    :rtype: Union[ComDayCqDamCoreImplAssetlinkshareAdhocAssetShareProxyServletInfo, Tuple[ComDayCqDamCoreImplAssetlinkshareAdhocAssetShareProxyServletInfo, int], Tuple[ComDayCqDamCoreImplAssetlinkshareAdhocAssetShareProxyServletInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -10973,7 +10975,7 @@ def com_day_cq_dam_core_impl_cache_cq_buffered_image_cache(post=None, apply=None
     :param cq_dam_image_cache_max_dimension: 
     :type cq_dam_image_cache_max_dimension: str
 
-    :rtype: ComDayCqDamCoreImplCacheCQBufferedImageCacheInfo
+    :rtype: Union[ComDayCqDamCoreImplCacheCQBufferedImageCacheInfo, Tuple[ComDayCqDamCoreImplCacheCQBufferedImageCacheInfo, int], Tuple[ComDayCqDamCoreImplCacheCQBufferedImageCacheInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -10998,7 +11000,7 @@ def com_day_cq_dam_core_impl_dam_change_event_listener(post=None, apply=None, de
     :param changeeventlistener_observed_paths: 
     :type changeeventlistener_observed_paths: List[str]
 
-    :rtype: ComDayCqDamCoreImplDamChangeEventListenerInfo
+    :rtype: Union[ComDayCqDamCoreImplDamChangeEventListenerInfo, Tuple[ComDayCqDamCoreImplDamChangeEventListenerInfo, int], Tuple[ComDayCqDamCoreImplDamChangeEventListenerInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -11031,7 +11033,7 @@ def com_day_cq_dam_core_impl_dam_event_purge_service(post=None, apply=None, dele
     :param event_types: 
     :type event_types: str
 
-    :rtype: ComDayCqDamCoreImplDamEventPurgeServiceInfo
+    :rtype: Union[ComDayCqDamCoreImplDamEventPurgeServiceInfo, Tuple[ComDayCqDamCoreImplDamEventPurgeServiceInfo, int], Tuple[ComDayCqDamCoreImplDamEventPurgeServiceInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -11064,7 +11066,7 @@ def com_day_cq_dam_core_impl_dam_event_recorder_impl(post=None, apply=None, dele
     :param eventrecorder_eventtypes: 
     :type eventrecorder_eventtypes: str
 
-    :rtype: ComDayCqDamCoreImplDamEventRecorderImplInfo
+    :rtype: Union[ComDayCqDamCoreImplDamEventRecorderImplInfo, Tuple[ComDayCqDamCoreImplDamEventRecorderImplInfo, int], Tuple[ComDayCqDamCoreImplDamEventRecorderImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -11091,7 +11093,7 @@ def com_day_cq_dam_core_impl_event_dam_event_audit_listener(post=None, apply=Non
     :param enabled: 
     :type enabled: bool
 
-    :rtype: ComDayCqDamCoreImplEventDamEventAuditListenerInfo
+    :rtype: Union[ComDayCqDamCoreImplEventDamEventAuditListenerInfo, Tuple[ComDayCqDamCoreImplEventDamEventAuditListenerInfo, int], Tuple[ComDayCqDamCoreImplEventDamEventAuditListenerInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -11128,7 +11130,7 @@ def com_day_cq_dam_core_impl_expiry_notification_job_impl(post=None, apply=None,
     :param cq_dam_expiry_notification_url_protocol: 
     :type cq_dam_expiry_notification_url_protocol: str
 
-    :rtype: ComDayCqDamCoreImplExpiryNotificationJobImplInfo
+    :rtype: Union[ComDayCqDamCoreImplExpiryNotificationJobImplInfo, Tuple[ComDayCqDamCoreImplExpiryNotificationJobImplInfo, int], Tuple[ComDayCqDamCoreImplExpiryNotificationJobImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -11153,7 +11155,7 @@ def com_day_cq_dam_core_impl_foldermetadataschema_folder_metadata_schema_feat(po
     :param is_enabled: 
     :type is_enabled: bool
 
-    :rtype: ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatInfo
+    :rtype: Union[ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatInfo, Tuple[ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatInfo, int], Tuple[ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -11178,7 +11180,7 @@ def com_day_cq_dam_core_impl_gfx_commons_gfx_renderer(post=None, apply=None, del
     :param skip_bufferedcache: 
     :type skip_bufferedcache: bool
 
-    :rtype: ComDayCqDamCoreImplGfxCommonsGfxRendererInfo
+    :rtype: Union[ComDayCqDamCoreImplGfxCommonsGfxRendererInfo, Tuple[ComDayCqDamCoreImplGfxCommonsGfxRendererInfo, int], Tuple[ComDayCqDamCoreImplGfxCommonsGfxRendererInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -11203,7 +11205,7 @@ def com_day_cq_dam_core_impl_handler_eps_format_handler(post=None, apply=None, d
     :param mimetype: 
     :type mimetype: str
 
-    :rtype: ComDayCqDamCoreImplHandlerEPSFormatHandlerInfo
+    :rtype: Union[ComDayCqDamCoreImplHandlerEPSFormatHandlerInfo, Tuple[ComDayCqDamCoreImplHandlerEPSFormatHandlerInfo, int], Tuple[ComDayCqDamCoreImplHandlerEPSFormatHandlerInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -11228,7 +11230,7 @@ def com_day_cq_dam_core_impl_handler_indesign_format_handler(post=None, apply=No
     :param mimetype: 
     :type mimetype: List[str]
 
-    :rtype: ComDayCqDamCoreImplHandlerIndesignFormatHandlerInfo
+    :rtype: Union[ComDayCqDamCoreImplHandlerIndesignFormatHandlerInfo, Tuple[ComDayCqDamCoreImplHandlerIndesignFormatHandlerInfo, int], Tuple[ComDayCqDamCoreImplHandlerIndesignFormatHandlerInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -11257,7 +11259,7 @@ def com_day_cq_dam_core_impl_handler_jpeg_handler(post=None, apply=None, delete=
     :param large_comment_threshold: 
     :type large_comment_threshold: int
 
-    :rtype: ComDayCqDamCoreImplHandlerJpegHandlerInfo
+    :rtype: Union[ComDayCqDamCoreImplHandlerJpegHandlerInfo, Tuple[ComDayCqDamCoreImplHandlerJpegHandlerInfo, int], Tuple[ComDayCqDamCoreImplHandlerJpegHandlerInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -11282,7 +11284,7 @@ def com_day_cq_dam_core_impl_handler_xmp_n_comm_xmp_handler(post=None, apply=Non
     :param xmphandler_cq_formats: 
     :type xmphandler_cq_formats: List[str]
 
-    :rtype: ComDayCqDamCoreImplHandlerXmpNCommXMPHandlerInfo
+    :rtype: Union[ComDayCqDamCoreImplHandlerXmpNCommXMPHandlerInfo, Tuple[ComDayCqDamCoreImplHandlerXmpNCommXMPHandlerInfo, int], Tuple[ComDayCqDamCoreImplHandlerXmpNCommXMPHandlerInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -11313,7 +11315,7 @@ def com_day_cq_dam_core_impl_jmx_asset_index_update_monitor(post=None, apply=Non
     :param property_max_wait_ms: 
     :type property_max_wait_ms: int
     :param property_max_rate: 
-    :type property_max_rate: float
+    :type property_max_rate: 
     :param fulltext_measure_enabled: 
     :type fulltext_measure_enabled: bool
     :param fulltext_name: 
@@ -11321,9 +11323,9 @@ def com_day_cq_dam_core_impl_jmx_asset_index_update_monitor(post=None, apply=Non
     :param fulltext_max_wait_ms: 
     :type fulltext_max_wait_ms: int
     :param fulltext_max_rate: 
-    :type fulltext_max_rate: float
+    :type fulltext_max_rate: 
 
-    :rtype: ComDayCqDamCoreImplJmxAssetIndexUpdateMonitorInfo
+    :rtype: Union[ComDayCqDamCoreImplJmxAssetIndexUpdateMonitorInfo, Tuple[ComDayCqDamCoreImplJmxAssetIndexUpdateMonitorInfo, int], Tuple[ComDayCqDamCoreImplJmxAssetIndexUpdateMonitorInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -11348,7 +11350,7 @@ def com_day_cq_dam_core_impl_jmx_asset_migration_m_bean_impl(post=None, apply=No
     :param jmx_objectname: 
     :type jmx_objectname: str
 
-    :rtype: ComDayCqDamCoreImplJmxAssetMigrationMBeanImplInfo
+    :rtype: Union[ComDayCqDamCoreImplJmxAssetMigrationMBeanImplInfo, Tuple[ComDayCqDamCoreImplJmxAssetMigrationMBeanImplInfo, int], Tuple[ComDayCqDamCoreImplJmxAssetMigrationMBeanImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -11375,7 +11377,7 @@ def com_day_cq_dam_core_impl_jmx_asset_update_monitor_impl(post=None, apply=None
     :param active: 
     :type active: bool
 
-    :rtype: ComDayCqDamCoreImplJmxAssetUpdateMonitorImplInfo
+    :rtype: Union[ComDayCqDamCoreImplJmxAssetUpdateMonitorImplInfo, Tuple[ComDayCqDamCoreImplJmxAssetUpdateMonitorImplInfo, int], Tuple[ComDayCqDamCoreImplJmxAssetUpdateMonitorImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -11402,7 +11404,7 @@ def com_day_cq_dam_core_impl_jobs_metadataexport_async_metadata_export_config(po
     :param email_enabled: 
     :type email_enabled: bool
 
-    :rtype: ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigInfo
+    :rtype: Union[ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigInfo, Tuple[ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigInfo, int], Tuple[ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -11433,7 +11435,7 @@ def com_day_cq_dam_core_impl_jobs_metadataimport_async_metadata_import_config(po
     :param email_enabled: 
     :type email_enabled: bool
 
-    :rtype: ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigInfo
+    :rtype: Union[ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigInfo, Tuple[ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigInfo, int], Tuple[ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -11462,12 +11464,12 @@ def com_day_cq_dam_core_impl_lightbox_lightbox_servlet(post=None, apply=None, de
     :param cq_dam_enable_anonymous: 
     :type cq_dam_enable_anonymous: bool
 
-    :rtype: ComDayCqDamCoreImplLightboxLightboxServletInfo
+    :rtype: Union[ComDayCqDamCoreImplLightboxLightboxServletInfo, Tuple[ComDayCqDamCoreImplLightboxLightboxServletInfo, int], Tuple[ComDayCqDamCoreImplLightboxLightboxServletInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
 
-def com_day_cq_dam_core_impl_metadata_editor_select_component_handler(post=None, apply=None, delete=None, action=None, location=None, propertylist=None, granitedata=None):  # noqa: E501
+def com_day_cq_dam_core_impl_metadata_editor_select_component_handler(post=None, apply=None, delete=None, action=None, location=None, propertylist=None, granite_data=None):  # noqa: E501
     """com_day_cq_dam_core_impl_metadata_editor_select_component_handler
 
      # noqa: E501
@@ -11484,10 +11486,10 @@ def com_day_cq_dam_core_impl_metadata_editor_select_component_handler(post=None,
     :type location: str
     :param propertylist: 
     :type propertylist: List[str]
-    :param granitedata: 
-    :type granitedata: List[str]
+    :param granite_data: 
+    :type granite_data: List[str]
 
-    :rtype: ComDayCqDamCoreImplMetadataEditorSelectComponentHandlerInfo
+    :rtype: Union[ComDayCqDamCoreImplMetadataEditorSelectComponentHandlerInfo, Tuple[ComDayCqDamCoreImplMetadataEditorSelectComponentHandlerInfo, int], Tuple[ComDayCqDamCoreImplMetadataEditorSelectComponentHandlerInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -11514,7 +11516,7 @@ def com_day_cq_dam_core_impl_mime_type_asset_upload_restriction_helper(post=None
     :param cq_dam_allowed_asset_mimes: 
     :type cq_dam_allowed_asset_mimes: List[str]
 
-    :rtype: ComDayCqDamCoreImplMimeTypeAssetUploadRestrictionHelperInfo
+    :rtype: Union[ComDayCqDamCoreImplMimeTypeAssetUploadRestrictionHelperInfo, Tuple[ComDayCqDamCoreImplMimeTypeAssetUploadRestrictionHelperInfo, int], Tuple[ComDayCqDamCoreImplMimeTypeAssetUploadRestrictionHelperInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -11539,7 +11541,7 @@ def com_day_cq_dam_core_impl_mime_type_dam_mime_type_service_impl(post=None, app
     :param cq_dam_detect_asset_mime_from_content: 
     :type cq_dam_detect_asset_mime_from_content: bool
 
-    :rtype: ComDayCqDamCoreImplMimeTypeDamMimeTypeServiceImplInfo
+    :rtype: Union[ComDayCqDamCoreImplMimeTypeDamMimeTypeServiceImplInfo, Tuple[ComDayCqDamCoreImplMimeTypeDamMimeTypeServiceImplInfo, int], Tuple[ComDayCqDamCoreImplMimeTypeDamMimeTypeServiceImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -11570,7 +11572,7 @@ def com_day_cq_dam_core_impl_missing_metadata_notification_job(post=None, apply=
     :param cq_dam_missingmetadata_notification_recipient: 
     :type cq_dam_missingmetadata_notification_recipient: str
 
-    :rtype: ComDayCqDamCoreImplMissingMetadataNotificationJobInfo
+    :rtype: Union[ComDayCqDamCoreImplMissingMetadataNotificationJobInfo, Tuple[ComDayCqDamCoreImplMissingMetadataNotificationJobInfo, int], Tuple[ComDayCqDamCoreImplMissingMetadataNotificationJobInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -11597,7 +11599,7 @@ def com_day_cq_dam_core_impl_process_send_transient_workflow_completed_email_pr(
     :param notify_on_complete: 
     :type notify_on_complete: bool
 
-    :rtype: ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrInfo
+    :rtype: Union[ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrInfo, Tuple[ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrInfo, int], Tuple[ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -11624,7 +11626,7 @@ def com_day_cq_dam_core_impl_process_text_extraction_process(post=None, apply=No
     :param max_extract: 
     :type max_extract: int
 
-    :rtype: ComDayCqDamCoreImplProcessTextExtractionProcessInfo
+    :rtype: Union[ComDayCqDamCoreImplProcessTextExtractionProcessInfo, Tuple[ComDayCqDamCoreImplProcessTextExtractionProcessInfo, int], Tuple[ComDayCqDamCoreImplProcessTextExtractionProcessInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -11651,7 +11653,7 @@ def com_day_cq_dam_core_impl_rendition_maker_impl(post=None, apply=None, delete=
     :param xmp_excludes: 
     :type xmp_excludes: List[str]
 
-    :rtype: ComDayCqDamCoreImplRenditionMakerImplInfo
+    :rtype: Union[ComDayCqDamCoreImplRenditionMakerImplInfo, Tuple[ComDayCqDamCoreImplRenditionMakerImplInfo, int], Tuple[ComDayCqDamCoreImplRenditionMakerImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -11676,7 +11678,7 @@ def com_day_cq_dam_core_impl_reports_report_export_service(post=None, apply=None
     :param query_batch_size: 
     :type query_batch_size: int
 
-    :rtype: ComDayCqDamCoreImplReportsReportExportServiceInfo
+    :rtype: Union[ComDayCqDamCoreImplReportsReportExportServiceInfo, Tuple[ComDayCqDamCoreImplReportsReportExportServiceInfo, int], Tuple[ComDayCqDamCoreImplReportsReportExportServiceInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -11707,7 +11709,7 @@ def com_day_cq_dam_core_impl_reports_report_purge_service(post=None, apply=None,
     :param enable_report_purge: 
     :type enable_report_purge: bool
 
-    :rtype: ComDayCqDamCoreImplReportsReportPurgeServiceInfo
+    :rtype: Union[ComDayCqDamCoreImplReportsReportPurgeServiceInfo, Tuple[ComDayCqDamCoreImplReportsReportPurgeServiceInfo, int], Tuple[ComDayCqDamCoreImplReportsReportPurgeServiceInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -11732,7 +11734,7 @@ def com_day_cq_dam_core_impl_servlet_asset_download_servlet(post=None, apply=Non
     :param enabled: 
     :type enabled: bool
 
-    :rtype: ComDayCqDamCoreImplServletAssetDownloadServletInfo
+    :rtype: Union[ComDayCqDamCoreImplServletAssetDownloadServletInfo, Tuple[ComDayCqDamCoreImplServletAssetDownloadServletInfo, int], Tuple[ComDayCqDamCoreImplServletAssetDownloadServletInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -11757,7 +11759,7 @@ def com_day_cq_dam_core_impl_servlet_asset_status_servlet(post=None, apply=None,
     :param cq_dam_batch_status_maxassets: 
     :type cq_dam_batch_status_maxassets: int
 
-    :rtype: ComDayCqDamCoreImplServletAssetStatusServletInfo
+    :rtype: Union[ComDayCqDamCoreImplServletAssetStatusServletInfo, Tuple[ComDayCqDamCoreImplServletAssetStatusServletInfo, int], Tuple[ComDayCqDamCoreImplServletAssetStatusServletInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -11782,7 +11784,7 @@ def com_day_cq_dam_core_impl_servlet_asset_xmp_search_servlet(post=None, apply=N
     :param cq_dam_batch_indesign_maxassets: 
     :type cq_dam_batch_indesign_maxassets: int
 
-    :rtype: ComDayCqDamCoreImplServletAssetXMPSearchServletInfo
+    :rtype: Union[ComDayCqDamCoreImplServletAssetXMPSearchServletInfo, Tuple[ComDayCqDamCoreImplServletAssetXMPSearchServletInfo, int], Tuple[ComDayCqDamCoreImplServletAssetXMPSearchServletInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -11811,7 +11813,7 @@ def com_day_cq_dam_core_impl_servlet_batch_metadata_servlet(post=None, apply=Non
     :param cq_dam_batch_metadata_maxresources: 
     :type cq_dam_batch_metadata_maxresources: int
 
-    :rtype: ComDayCqDamCoreImplServletBatchMetadataServletInfo
+    :rtype: Union[ComDayCqDamCoreImplServletBatchMetadataServletInfo, Tuple[ComDayCqDamCoreImplServletBatchMetadataServletInfo, int], Tuple[ComDayCqDamCoreImplServletBatchMetadataServletInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -11840,7 +11842,7 @@ def com_day_cq_dam_core_impl_servlet_binary_provider_servlet(post=None, apply=No
     :param cq_dam_drm_enable: 
     :type cq_dam_drm_enable: bool
 
-    :rtype: ComDayCqDamCoreImplServletBinaryProviderServletInfo
+    :rtype: Union[ComDayCqDamCoreImplServletBinaryProviderServletInfo, Tuple[ComDayCqDamCoreImplServletBinaryProviderServletInfo, int], Tuple[ComDayCqDamCoreImplServletBinaryProviderServletInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -11867,7 +11869,7 @@ def com_day_cq_dam_core_impl_servlet_collection_servlet(post=None, apply=None, d
     :param cq_dam_batch_collection_maxcollections: 
     :type cq_dam_batch_collection_maxcollections: int
 
-    :rtype: ComDayCqDamCoreImplServletCollectionServletInfo
+    :rtype: Union[ComDayCqDamCoreImplServletCollectionServletInfo, Tuple[ComDayCqDamCoreImplServletCollectionServletInfo, int], Tuple[ComDayCqDamCoreImplServletCollectionServletInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -11894,12 +11896,12 @@ def com_day_cq_dam_core_impl_servlet_collections_servlet(post=None, apply=None, 
     :param cq_dam_batch_collections_limit: 
     :type cq_dam_batch_collections_limit: int
 
-    :rtype: ComDayCqDamCoreImplServletCollectionsServletInfo
+    :rtype: Union[ComDayCqDamCoreImplServletCollectionsServletInfo, Tuple[ComDayCqDamCoreImplServletCollectionsServletInfo, int], Tuple[ComDayCqDamCoreImplServletCollectionsServletInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
 
-def com_day_cq_dam_core_impl_servlet_companion_servlet(post=None, apply=None, delete=None, action=None, location=None, propertylist=None, more_info=None, mntoverlaydamguicontentassetsmoreinfo_htmlpath=None):  # noqa: E501
+def com_day_cq_dam_core_impl_servlet_companion_servlet(post=None, apply=None, delete=None, action=None, location=None, propertylist=None, more_info=None, mnt_overlay_dam_gui_content_assets_moreinfo_html_path=None):  # noqa: E501
     """com_day_cq_dam_core_impl_servlet_companion_servlet
 
      # noqa: E501
@@ -11918,10 +11920,10 @@ def com_day_cq_dam_core_impl_servlet_companion_servlet(post=None, apply=None, de
     :type propertylist: List[str]
     :param more_info: 
     :type more_info: str
-    :param mntoverlaydamguicontentassetsmoreinfo_htmlpath: 
-    :type mntoverlaydamguicontentassetsmoreinfo_htmlpath: str
+    :param mnt_overlay_dam_gui_content_assets_moreinfo_html_path: 
+    :type mnt_overlay_dam_gui_content_assets_moreinfo_html_path: str
 
-    :rtype: ComDayCqDamCoreImplServletCompanionServletInfo
+    :rtype: Union[ComDayCqDamCoreImplServletCompanionServletInfo, Tuple[ComDayCqDamCoreImplServletCompanionServletInfo, int], Tuple[ComDayCqDamCoreImplServletCompanionServletInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -11946,7 +11948,7 @@ def com_day_cq_dam_core_impl_servlet_create_asset_servlet(post=None, apply=None,
     :param detect_duplicate: 
     :type detect_duplicate: bool
 
-    :rtype: ComDayCqDamCoreImplServletCreateAssetServletInfo
+    :rtype: Union[ComDayCqDamCoreImplServletCreateAssetServletInfo, Tuple[ComDayCqDamCoreImplServletCreateAssetServletInfo, int], Tuple[ComDayCqDamCoreImplServletCreateAssetServletInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -11973,7 +11975,7 @@ def com_day_cq_dam_core_impl_servlet_dam_content_disposition_filter(post=None, a
     :param cq_dam_empty_mime: 
     :type cq_dam_empty_mime: bool
 
-    :rtype: ComDayCqDamCoreImplServletDamContentDispositionFilterInfo
+    :rtype: Union[ComDayCqDamCoreImplServletDamContentDispositionFilterInfo, Tuple[ComDayCqDamCoreImplServletDamContentDispositionFilterInfo, int], Tuple[ComDayCqDamCoreImplServletDamContentDispositionFilterInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -11998,7 +12000,7 @@ def com_day_cq_dam_core_impl_servlet_guid_lookup_filter(post=None, apply=None, d
     :param cq_dam_core_guidlookupfilter_enabled: 
     :type cq_dam_core_guidlookupfilter_enabled: bool
 
-    :rtype: ComDayCqDamCoreImplServletGuidLookupFilterInfo
+    :rtype: Union[ComDayCqDamCoreImplServletGuidLookupFilterInfo, Tuple[ComDayCqDamCoreImplServletGuidLookupFilterInfo, int], Tuple[ComDayCqDamCoreImplServletGuidLookupFilterInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -12025,7 +12027,7 @@ def com_day_cq_dam_core_impl_servlet_health_check_servlet(post=None, apply=None,
     :param cq_dam_sync_folder_types: 
     :type cq_dam_sync_folder_types: List[str]
 
-    :rtype: ComDayCqDamCoreImplServletHealthCheckServletInfo
+    :rtype: Union[ComDayCqDamCoreImplServletHealthCheckServletInfo, Tuple[ComDayCqDamCoreImplServletHealthCheckServletInfo, int], Tuple[ComDayCqDamCoreImplServletHealthCheckServletInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -12056,7 +12058,7 @@ def com_day_cq_dam_core_impl_servlet_metadata_get_servlet(post=None, apply=None,
     :param sling_servlet_selectors: 
     :type sling_servlet_selectors: str
 
-    :rtype: ComDayCqDamCoreImplServletMetadataGetServletInfo
+    :rtype: Union[ComDayCqDamCoreImplServletMetadataGetServletInfo, Tuple[ComDayCqDamCoreImplServletMetadataGetServletInfo, int], Tuple[ComDayCqDamCoreImplServletMetadataGetServletInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -12081,7 +12083,7 @@ def com_day_cq_dam_core_impl_servlet_multiple_license_accept_servlet(post=None, 
     :param cq_dam_drm_enable: 
     :type cq_dam_drm_enable: bool
 
-    :rtype: ComDayCqDamCoreImplServletMultipleLicenseAcceptServletInfo
+    :rtype: Union[ComDayCqDamCoreImplServletMultipleLicenseAcceptServletInfo, Tuple[ComDayCqDamCoreImplServletMultipleLicenseAcceptServletInfo, int], Tuple[ComDayCqDamCoreImplServletMultipleLicenseAcceptServletInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -12116,7 +12118,7 @@ def com_day_cq_dam_core_impl_servlet_resource_collection_servlet(post=None, appl
     :param send_email: 
     :type send_email: bool
 
-    :rtype: ComDayCqDamCoreImplServletResourceCollectionServletInfo
+    :rtype: Union[ComDayCqDamCoreImplServletResourceCollectionServletInfo, Tuple[ComDayCqDamCoreImplServletResourceCollectionServletInfo, int], Tuple[ComDayCqDamCoreImplServletResourceCollectionServletInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -12147,7 +12149,7 @@ def com_day_cq_dam_core_impl_ui_preview_folder_preview_updater_impl(post=None, a
     :param folder_preview_rendition_regex: 
     :type folder_preview_rendition_regex: str
 
-    :rtype: ComDayCqDamCoreImplUiPreviewFolderPreviewUpdaterImplInfo
+    :rtype: Union[ComDayCqDamCoreImplUiPreviewFolderPreviewUpdaterImplInfo, Tuple[ComDayCqDamCoreImplUiPreviewFolderPreviewUpdaterImplInfo, int], Tuple[ComDayCqDamCoreImplUiPreviewFolderPreviewUpdaterImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -12174,7 +12176,7 @@ def com_day_cq_dam_core_impl_unzip_unzip_config(post=None, apply=None, delete=No
     :param cq_dam_config_unzip_encoding: 
     :type cq_dam_config_unzip_encoding: str
 
-    :rtype: ComDayCqDamCoreImplUnzipUnzipConfigInfo
+    :rtype: Union[ComDayCqDamCoreImplUnzipUnzipConfigInfo, Tuple[ComDayCqDamCoreImplUnzipUnzipConfigInfo, int], Tuple[ComDayCqDamCoreImplUnzipUnzipConfigInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -12201,7 +12203,7 @@ def com_day_cq_dam_core_process_exif_tool_extract_metadata_process(post=None, ap
     :param cq_dam_enable_sha1: 
     :type cq_dam_enable_sha1: bool
 
-    :rtype: ComDayCqDamCoreProcessExifToolExtractMetadataProcessInfo
+    :rtype: Union[ComDayCqDamCoreProcessExifToolExtractMetadataProcessInfo, Tuple[ComDayCqDamCoreProcessExifToolExtractMetadataProcessInfo, int], Tuple[ComDayCqDamCoreProcessExifToolExtractMetadataProcessInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -12228,7 +12230,7 @@ def com_day_cq_dam_core_process_extract_metadata_process(post=None, apply=None, 
     :param cq_dam_enable_sha1: 
     :type cq_dam_enable_sha1: bool
 
-    :rtype: ComDayCqDamCoreProcessExtractMetadataProcessInfo
+    :rtype: Union[ComDayCqDamCoreProcessExtractMetadataProcessInfo, Tuple[ComDayCqDamCoreProcessExtractMetadataProcessInfo, int], Tuple[ComDayCqDamCoreProcessExtractMetadataProcessInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -12257,7 +12259,7 @@ def com_day_cq_dam_core_process_metadata_processor_process(post=None, apply=None
     :param cq_dam_metadata_xssprotected_properties: 
     :type cq_dam_metadata_xssprotected_properties: List[str]
 
-    :rtype: ComDayCqDamCoreProcessMetadataProcessorProcessInfo
+    :rtype: Union[ComDayCqDamCoreProcessMetadataProcessorProcessInfo, Tuple[ComDayCqDamCoreProcessMetadataProcessorProcessInfo, int], Tuple[ComDayCqDamCoreProcessMetadataProcessorProcessInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -12282,7 +12284,7 @@ def com_day_cq_dam_handler_ffmpeg_locator_impl(post=None, apply=None, delete=Non
     :param executable_searchpath: 
     :type executable_searchpath: List[str]
 
-    :rtype: ComDayCqDamHandlerFfmpegLocatorImplInfo
+    :rtype: Union[ComDayCqDamHandlerFfmpegLocatorImplInfo, Tuple[ComDayCqDamHandlerFfmpegLocatorImplInfo, int], Tuple[ComDayCqDamHandlerFfmpegLocatorImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -12313,7 +12315,7 @@ def com_day_cq_dam_handler_gibson_fontmanager_impl_font_manager_service_impl(pos
     :param fontmgr_customer_font_dir: 
     :type fontmgr_customer_font_dir: str
 
-    :rtype: ComDayCqDamHandlerGibsonFontmanagerImplFontManagerServiceImplInfo
+    :rtype: Union[ComDayCqDamHandlerGibsonFontmanagerImplFontManagerServiceImplInfo, Tuple[ComDayCqDamHandlerGibsonFontmanagerImplFontManagerServiceImplInfo, int], Tuple[ComDayCqDamHandlerGibsonFontmanagerImplFontManagerServiceImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -12338,7 +12340,7 @@ def com_day_cq_dam_handler_standard_pdf_pdf_handler(post=None, apply=None, delet
     :param raster_annotation: 
     :type raster_annotation: bool
 
-    :rtype: ComDayCqDamHandlerStandardPdfPdfHandlerInfo
+    :rtype: Union[ComDayCqDamHandlerStandardPdfPdfHandlerInfo, Tuple[ComDayCqDamHandlerStandardPdfPdfHandlerInfo, int], Tuple[ComDayCqDamHandlerStandardPdfPdfHandlerInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -12363,7 +12365,7 @@ def com_day_cq_dam_handler_standard_ps_post_script_handler(post=None, apply=None
     :param raster_annotation: 
     :type raster_annotation: bool
 
-    :rtype: ComDayCqDamHandlerStandardPsPostScriptHandlerInfo
+    :rtype: Union[ComDayCqDamHandlerStandardPsPostScriptHandlerInfo, Tuple[ComDayCqDamHandlerStandardPsPostScriptHandlerInfo, int], Tuple[ComDayCqDamHandlerStandardPsPostScriptHandlerInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -12388,7 +12390,7 @@ def com_day_cq_dam_handler_standard_psd_psd_handler(post=None, apply=None, delet
     :param large_file_threshold: 
     :type large_file_threshold: int
 
-    :rtype: ComDayCqDamHandlerStandardPsdPsdHandlerInfo
+    :rtype: Union[ComDayCqDamHandlerStandardPsdPsdHandlerInfo, Tuple[ComDayCqDamHandlerStandardPsdPsdHandlerInfo, int], Tuple[ComDayCqDamHandlerStandardPsdPsdHandlerInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -12423,7 +12425,7 @@ def com_day_cq_dam_ids_impl_ids_job_processor(post=None, apply=None, delete=None
     :param externalizer_domain_http: 
     :type externalizer_domain_http: str
 
-    :rtype: ComDayCqDamIdsImplIDSJobProcessorInfo
+    :rtype: Union[ComDayCqDamIdsImplIDSJobProcessorInfo, Tuple[ComDayCqDamIdsImplIDSJobProcessorInfo, int], Tuple[ComDayCqDamIdsImplIDSJobProcessorInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -12458,7 +12460,7 @@ def com_day_cq_dam_ids_impl_ids_pool_manager_impl(post=None, apply=None, delete=
     :param connection_use_max: 
     :type connection_use_max: int
 
-    :rtype: ComDayCqDamIdsImplIDSPoolManagerImplInfo
+    :rtype: Union[ComDayCqDamIdsImplIDSPoolManagerImplInfo, Tuple[ComDayCqDamIdsImplIDSPoolManagerImplInfo, int], Tuple[ComDayCqDamIdsImplIDSPoolManagerImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -12485,7 +12487,7 @@ def com_day_cq_dam_indd_impl_handler_indesign_xmp_handler(post=None, apply=None,
     :param extract_pages: 
     :type extract_pages: bool
 
-    :rtype: ComDayCqDamInddImplHandlerIndesignXMPHandlerInfo
+    :rtype: Union[ComDayCqDamInddImplHandlerIndesignXMPHandlerInfo, Tuple[ComDayCqDamInddImplHandlerIndesignXMPHandlerInfo, int], Tuple[ComDayCqDamInddImplHandlerIndesignXMPHandlerInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -12510,7 +12512,7 @@ def com_day_cq_dam_indd_impl_servlet_snippet_creation_servlet(post=None, apply=N
     :param snippetcreation_maxcollections: 
     :type snippetcreation_maxcollections: int
 
-    :rtype: ComDayCqDamInddImplServletSnippetCreationServletInfo
+    :rtype: Union[ComDayCqDamInddImplServletSnippetCreationServletInfo, Tuple[ComDayCqDamInddImplServletSnippetCreationServletInfo, int], Tuple[ComDayCqDamInddImplServletSnippetCreationServletInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -12541,7 +12543,7 @@ def com_day_cq_dam_indd_process_indd_media_extract_process(post=None, apply=None
     :param ids_job_workflow_model: 
     :type ids_job_workflow_model: str
 
-    :rtype: ComDayCqDamInddProcessINDDMediaExtractProcessInfo
+    :rtype: Union[ComDayCqDamInddProcessINDDMediaExtractProcessInfo, Tuple[ComDayCqDamInddProcessINDDMediaExtractProcessInfo, int], Tuple[ComDayCqDamInddProcessINDDMediaExtractProcessInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -12566,7 +12568,7 @@ def com_day_cq_dam_performance_internal_asset_performance_data_handler_impl(post
     :param batch_commit_size: 
     :type batch_commit_size: int
 
-    :rtype: ComDayCqDamPerformanceInternalAssetPerformanceDataHandlerImplInfo
+    :rtype: Union[ComDayCqDamPerformanceInternalAssetPerformanceDataHandlerImplInfo, Tuple[ComDayCqDamPerformanceInternalAssetPerformanceDataHandlerImplInfo, int], Tuple[ComDayCqDamPerformanceInternalAssetPerformanceDataHandlerImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -12591,7 +12593,7 @@ def com_day_cq_dam_performance_internal_asset_performance_report_sync_job(post=N
     :param scheduler_expression: 
     :type scheduler_expression: str
 
-    :rtype: ComDayCqDamPerformanceInternalAssetPerformanceReportSyncJobInfo
+    :rtype: Union[ComDayCqDamPerformanceInternalAssetPerformanceReportSyncJobInfo, Tuple[ComDayCqDamPerformanceInternalAssetPerformanceReportSyncJobInfo, int], Tuple[ComDayCqDamPerformanceInternalAssetPerformanceReportSyncJobInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -12616,7 +12618,7 @@ def com_day_cq_dam_pim_impl_sourcing_upload_process_product_assets_upload_pro(po
     :param delete_zip_file: 
     :type delete_zip_file: bool
 
-    :rtype: ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProInfo
+    :rtype: Union[ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProInfo, Tuple[ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProInfo, int], Tuple[ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -12641,7 +12643,7 @@ def com_day_cq_dam_s7dam_common_analytics_impl_s7dam_dynamic_media_config_even(p
     :param cq_dam_s7dam_dynamicmediaconfigeventlistener_enabled: 
     :type cq_dam_s7dam_dynamicmediaconfigeventlistener_enabled: bool
 
-    :rtype: ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenInfo
+    :rtype: Union[ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenInfo, Tuple[ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenInfo, int], Tuple[ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -12668,7 +12670,7 @@ def com_day_cq_dam_s7dam_common_analytics_impl_site_catalyst_report_runner(post=
     :param scheduler_concurrent: 
     :type scheduler_concurrent: bool
 
-    :rtype: ComDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerInfo
+    :rtype: Union[ComDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerInfo, Tuple[ComDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerInfo, int], Tuple[ComDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -12695,7 +12697,7 @@ def com_day_cq_dam_s7dam_common_post_servlets_set_create_handler(post=None, appl
     :param sling_servlet_methods: 
     :type sling_servlet_methods: str
 
-    :rtype: ComDayCqDamS7damCommonPostServletsSetCreateHandlerInfo
+    :rtype: Union[ComDayCqDamS7damCommonPostServletsSetCreateHandlerInfo, Tuple[ComDayCqDamS7damCommonPostServletsSetCreateHandlerInfo, int], Tuple[ComDayCqDamS7damCommonPostServletsSetCreateHandlerInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -12722,7 +12724,7 @@ def com_day_cq_dam_s7dam_common_post_servlets_set_modify_handler(post=None, appl
     :param sling_servlet_methods: 
     :type sling_servlet_methods: str
 
-    :rtype: ComDayCqDamS7damCommonPostServletsSetModifyHandlerInfo
+    :rtype: Union[ComDayCqDamS7damCommonPostServletsSetModifyHandlerInfo, Tuple[ComDayCqDamS7damCommonPostServletsSetModifyHandlerInfo, int], Tuple[ComDayCqDamS7damCommonPostServletsSetModifyHandlerInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -12747,7 +12749,7 @@ def com_day_cq_dam_s7dam_common_process_video_thumbnail_download_process(post=No
     :param process_label: 
     :type process_label: str
 
-    :rtype: ComDayCqDamS7damCommonProcessVideoThumbnailDownloadProcessInfo
+    :rtype: Union[ComDayCqDamS7damCommonProcessVideoThumbnailDownloadProcessInfo, Tuple[ComDayCqDamS7damCommonProcessVideoThumbnailDownloadProcessInfo, int], Tuple[ComDayCqDamS7damCommonProcessVideoThumbnailDownloadProcessInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -12772,7 +12774,7 @@ def com_day_cq_dam_s7dam_common_s7dam_dam_change_event_listener(post=None, apply
     :param cq_dam_s7dam_damchangeeventlistener_enabled: 
     :type cq_dam_s7dam_damchangeeventlistener_enabled: bool
 
-    :rtype: ComDayCqDamS7damCommonS7damDamChangeEventListenerInfo
+    :rtype: Union[ComDayCqDamS7damCommonS7damDamChangeEventListenerInfo, Tuple[ComDayCqDamS7damCommonS7damDamChangeEventListenerInfo, int], Tuple[ComDayCqDamS7damCommonS7damDamChangeEventListenerInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -12799,7 +12801,7 @@ def com_day_cq_dam_s7dam_common_servlets_s7dam_product_info_servlet(post=None, a
     :param sling_servlet_methods: 
     :type sling_servlet_methods: str
 
-    :rtype: ComDayCqDamS7damCommonServletsS7damProductInfoServletInfo
+    :rtype: Union[ComDayCqDamS7damCommonServletsS7damProductInfoServletInfo, Tuple[ComDayCqDamS7damCommonServletsS7damProductInfoServletInfo, int], Tuple[ComDayCqDamS7damCommonServletsS7damProductInfoServletInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -12836,7 +12838,7 @@ def com_day_cq_dam_s7dam_common_video_impl_video_proxy_client_service_impl(post=
     :param cq_dam_s7dam_videoproxyclientservice_uploadprogress_interval_name: 
     :type cq_dam_s7dam_videoproxyclientservice_uploadprogress_interval_name: int
 
-    :rtype: ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplInfo
+    :rtype: Union[ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplInfo, Tuple[ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplInfo, int], Tuple[ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -12863,7 +12865,7 @@ def com_day_cq_dam_scene7_impl_scene7_api_client_impl(post=None, apply=None, del
     :param cq_dam_scene7_apiclient_recordsperpage_withfilter_name: 
     :type cq_dam_scene7_apiclient_recordsperpage_withfilter_name: int
 
-    :rtype: ComDayCqDamScene7ImplScene7APIClientImplInfo
+    :rtype: Union[ComDayCqDamScene7ImplScene7APIClientImplInfo, Tuple[ComDayCqDamScene7ImplScene7APIClientImplInfo, int], Tuple[ComDayCqDamScene7ImplScene7APIClientImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -12888,7 +12890,7 @@ def com_day_cq_dam_scene7_impl_scene7_asset_mime_type_service_impl(post=None, ap
     :param cq_dam_scene7_assetmimetypeservice_mapping: 
     :type cq_dam_scene7_assetmimetypeservice_mapping: List[str]
 
-    :rtype: ComDayCqDamScene7ImplScene7AssetMimeTypeServiceImplInfo
+    :rtype: Union[ComDayCqDamScene7ImplScene7AssetMimeTypeServiceImplInfo, Tuple[ComDayCqDamScene7ImplScene7AssetMimeTypeServiceImplInfo, int], Tuple[ComDayCqDamScene7ImplScene7AssetMimeTypeServiceImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -12913,7 +12915,7 @@ def com_day_cq_dam_scene7_impl_scene7_configuration_event_listener(post=None, ap
     :param cq_dam_scene7_configurationeventlistener_enabled: 
     :type cq_dam_scene7_configurationeventlistener_enabled: bool
 
-    :rtype: ComDayCqDamScene7ImplScene7ConfigurationEventListenerInfo
+    :rtype: Union[ComDayCqDamScene7ImplScene7ConfigurationEventListenerInfo, Tuple[ComDayCqDamScene7ImplScene7ConfigurationEventListenerInfo, int], Tuple[ComDayCqDamScene7ImplScene7ConfigurationEventListenerInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -12940,7 +12942,7 @@ def com_day_cq_dam_scene7_impl_scene7_dam_change_event_listener(post=None, apply
     :param cq_dam_scene7_damchangeeventlistener_observed_paths: 
     :type cq_dam_scene7_damchangeeventlistener_observed_paths: List[str]
 
-    :rtype: ComDayCqDamScene7ImplScene7DamChangeEventListenerInfo
+    :rtype: Union[ComDayCqDamScene7ImplScene7DamChangeEventListenerInfo, Tuple[ComDayCqDamScene7ImplScene7DamChangeEventListenerInfo, int], Tuple[ComDayCqDamScene7ImplScene7DamChangeEventListenerInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -12973,7 +12975,7 @@ def com_day_cq_dam_scene7_impl_scene7_flash_templates_service_impl(post=None, ap
     :param scene7_flash_template_url_format_parameter: 
     :type scene7_flash_template_url_format_parameter: str
 
-    :rtype: ComDayCqDamScene7ImplScene7FlashTemplatesServiceImplInfo
+    :rtype: Union[ComDayCqDamScene7ImplScene7FlashTemplatesServiceImplInfo, Tuple[ComDayCqDamScene7ImplScene7FlashTemplatesServiceImplInfo, int], Tuple[ComDayCqDamScene7ImplScene7FlashTemplatesServiceImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -13000,7 +13002,7 @@ def com_day_cq_dam_scene7_impl_scene7_upload_service_impl(post=None, apply=None,
     :param cq_dam_scene7_uploadservice_connectionmaxperroute_label: 
     :type cq_dam_scene7_uploadservice_connectionmaxperroute_label: int
 
-    :rtype: ComDayCqDamScene7ImplScene7UploadServiceImplInfo
+    :rtype: Union[ComDayCqDamScene7ImplScene7UploadServiceImplInfo, Tuple[ComDayCqDamScene7ImplScene7UploadServiceImplInfo, int], Tuple[ComDayCqDamScene7ImplScene7UploadServiceImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -13027,7 +13029,7 @@ def com_day_cq_dam_stock_integration_impl_cache_stock_cache_configuration_ser(po
     :param get_cache_expiration_value: 
     :type get_cache_expiration_value: int
 
-    :rtype: ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationSerInfo
+    :rtype: Union[ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationSerInfo, Tuple[ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationSerInfo, int], Tuple[ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationSerInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -13056,7 +13058,7 @@ def com_day_cq_dam_stock_integration_impl_configuration_stock_configuration(post
     :param ims_config: 
     :type ims_config: str
 
-    :rtype: ComDayCqDamStockIntegrationImplConfigurationStockConfigurationInfo
+    :rtype: Union[ComDayCqDamStockIntegrationImplConfigurationStockConfigurationInfo, Tuple[ComDayCqDamStockIntegrationImplConfigurationStockConfigurationInfo, int], Tuple[ComDayCqDamStockIntegrationImplConfigurationStockConfigurationInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -13081,7 +13083,7 @@ def com_day_cq_dam_video_impl_servlet_video_test_servlet(post=None, apply=None, 
     :param enabled: 
     :type enabled: bool
 
-    :rtype: ComDayCqDamVideoImplServletVideoTestServletInfo
+    :rtype: Union[ComDayCqDamVideoImplServletVideoTestServletInfo, Tuple[ComDayCqDamVideoImplServletVideoTestServletInfo, int], Tuple[ComDayCqDamVideoImplServletVideoTestServletInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -13108,7 +13110,7 @@ def com_day_cq_extwidget_servlets_image_sprite_servlet(post=None, apply=None, de
     :param max_height: 
     :type max_height: int
 
-    :rtype: ComDayCqExtwidgetServletsImageSpriteServletInfo
+    :rtype: Union[ComDayCqExtwidgetServletsImageSpriteServletInfo, Tuple[ComDayCqExtwidgetServletsImageSpriteServletInfo, int], Tuple[ComDayCqExtwidgetServletsImageSpriteServletInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -13135,7 +13137,7 @@ def com_day_cq_image_internal_font_font_helper(post=None, apply=None, delete=Non
     :param oversampling_factor: 
     :type oversampling_factor: int
 
-    :rtype: ComDayCqImageInternalFontFontHelperInfo
+    :rtype: Union[ComDayCqImageInternalFontFontHelperInfo, Tuple[ComDayCqImageInternalFontFontHelperInfo, int], Tuple[ComDayCqImageInternalFontFontHelperInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -13164,7 +13166,7 @@ def com_day_cq_jcrclustersupport_cluster_start_level_controller(post=None, apply
     :param cluster_slave_level: 
     :type cluster_slave_level: int
 
-    :rtype: ComDayCqJcrclustersupportClusterStartLevelControllerInfo
+    :rtype: Union[ComDayCqJcrclustersupportClusterStartLevelControllerInfo, Tuple[ComDayCqJcrclustersupportClusterStartLevelControllerInfo, int], Tuple[ComDayCqJcrclustersupportClusterStartLevelControllerInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -13203,7 +13205,7 @@ def com_day_cq_mailer_default_mail_service(post=None, apply=None, delete=None, a
     :param debug_email: 
     :type debug_email: bool
 
-    :rtype: ComDayCqMailerDefaultMailServiceInfo
+    :rtype: Union[ComDayCqMailerDefaultMailServiceInfo, Tuple[ComDayCqMailerDefaultMailServiceInfo, int], Tuple[ComDayCqMailerDefaultMailServiceInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -13228,7 +13230,7 @@ def com_day_cq_mailer_impl_cq_mailing_service(post=None, apply=None, delete=None
     :param max_recipient_count: 
     :type max_recipient_count: str
 
-    :rtype: ComDayCqMailerImplCqMailingServiceInfo
+    :rtype: Union[ComDayCqMailerImplCqMailingServiceInfo, Tuple[ComDayCqMailerImplCqMailingServiceInfo, int], Tuple[ComDayCqMailerImplCqMailingServiceInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -13253,7 +13255,7 @@ def com_day_cq_mailer_impl_email_cq_email_template_factory(post=None, apply=None
     :param mailer_email_charset: 
     :type mailer_email_charset: str
 
-    :rtype: ComDayCqMailerImplEmailCqEmailTemplateFactoryInfo
+    :rtype: Union[ComDayCqMailerImplEmailCqEmailTemplateFactoryInfo, Tuple[ComDayCqMailerImplEmailCqEmailTemplateFactoryInfo, int], Tuple[ComDayCqMailerImplEmailCqEmailTemplateFactoryInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -13284,7 +13286,7 @@ def com_day_cq_mailer_impl_email_cq_retriever_template_factory(post=None, apply=
     :param mailer_email_retriever_user_pwd: 
     :type mailer_email_retriever_user_pwd: str
 
-    :rtype: ComDayCqMailerImplEmailCqRetrieverTemplateFactoryInfo
+    :rtype: Union[ComDayCqMailerImplEmailCqRetrieverTemplateFactoryInfo, Tuple[ComDayCqMailerImplEmailCqRetrieverTemplateFactoryInfo, int], Tuple[ComDayCqMailerImplEmailCqRetrieverTemplateFactoryInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -13313,7 +13315,7 @@ def com_day_cq_mcm_campaign_impl_integration_config_impl(post=None, apply=None, 
     :param aem_mcm_campaign_relaxed_ssl: 
     :type aem_mcm_campaign_relaxed_ssl: bool
 
-    :rtype: ComDayCqMcmCampaignImplIntegrationConfigImplInfo
+    :rtype: Union[ComDayCqMcmCampaignImplIntegrationConfigImplInfo, Tuple[ComDayCqMcmCampaignImplIntegrationConfigImplInfo, int], Tuple[ComDayCqMcmCampaignImplIntegrationConfigImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -13340,7 +13342,7 @@ def com_day_cq_mcm_campaign_importer_personalized_text_handler_factory(post=None
     :param tagpattern: 
     :type tagpattern: str
 
-    :rtype: ComDayCqMcmCampaignImporterPersonalizedTextHandlerFactoryInfo
+    :rtype: Union[ComDayCqMcmCampaignImporterPersonalizedTextHandlerFactoryInfo, Tuple[ComDayCqMcmCampaignImporterPersonalizedTextHandlerFactoryInfo, int], Tuple[ComDayCqMcmCampaignImporterPersonalizedTextHandlerFactoryInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -13369,7 +13371,7 @@ def com_day_cq_mcm_core_newsletter_newsletter_email_service_impl(post=None, appl
     :param max_bounce_count: 
     :type max_bounce_count: str
 
-    :rtype: ComDayCqMcmCoreNewsletterNewsletterEmailServiceImplInfo
+    :rtype: Union[ComDayCqMcmCoreNewsletterNewsletterEmailServiceImplInfo, Tuple[ComDayCqMcmCoreNewsletterNewsletterEmailServiceImplInfo, int], Tuple[ComDayCqMcmCoreNewsletterNewsletterEmailServiceImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -13396,7 +13398,7 @@ def com_day_cq_mcm_impl_mcm_configuration(post=None, apply=None, delete=None, ac
     :param touchpoint_indirection: 
     :type touchpoint_indirection: List[str]
 
-    :rtype: ComDayCqMcmImplMCMConfigurationInfo
+    :rtype: Union[ComDayCqMcmImplMCMConfigurationInfo, Tuple[ComDayCqMcmImplMCMConfigurationInfo, int], Tuple[ComDayCqMcmImplMCMConfigurationInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -13425,7 +13427,7 @@ def com_day_cq_mcm_landingpage_parser_taghandlers_cta_click_through_componen(pos
     :param component_resource_type: 
     :type component_resource_type: str
 
-    :rtype: ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponenInfo
+    :rtype: Union[ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponenInfo, Tuple[ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponenInfo, int], Tuple[ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponenInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -13454,7 +13456,7 @@ def com_day_cq_mcm_landingpage_parser_taghandlers_cta_graphical_click_throug(pos
     :param component_resource_type: 
     :type component_resource_type: str
 
-    :rtype: ComDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThrougInfo
+    :rtype: Union[ComDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThrougInfo, Tuple[ComDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThrougInfo, int], Tuple[ComDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThrougInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -13481,7 +13483,7 @@ def com_day_cq_mcm_landingpage_parser_taghandlers_cta_lead_form_cta_component(po
     :param tagpattern: 
     :type tagpattern: str
 
-    :rtype: ComDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentInfo
+    :rtype: Union[ComDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentInfo, Tuple[ComDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentInfo, int], Tuple[ComDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -13508,7 +13510,7 @@ def com_day_cq_mcm_landingpage_parser_taghandlers_mbox_m_box_experience_tag_ha(p
     :param tagpattern: 
     :type tagpattern: str
 
-    :rtype: ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHaInfo
+    :rtype: Union[ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHaInfo, Tuple[ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHaInfo, int], Tuple[ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHaInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -13537,7 +13539,7 @@ def com_day_cq_mcm_landingpage_parser_taghandlers_mbox_target_component_tag_h(po
     :param component_resource_type: 
     :type component_resource_type: str
 
-    :rtype: ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHInfo
+    :rtype: Union[ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHInfo, Tuple[ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHInfo, int], Tuple[ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -13562,7 +13564,7 @@ def com_day_cq_notification_impl_notification_service_impl(post=None, apply=None
     :param event_filter: 
     :type event_filter: str
 
-    :rtype: ComDayCqNotificationImplNotificationServiceImplInfo
+    :rtype: Union[ComDayCqNotificationImplNotificationServiceImplInfo, Tuple[ComDayCqNotificationImplNotificationServiceImplInfo, int], Tuple[ComDayCqNotificationImplNotificationServiceImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -13587,7 +13589,7 @@ def com_day_cq_personalization_impl_servlets_targeting_configuration_servlet(pos
     :param forcelocation: 
     :type forcelocation: bool
 
-    :rtype: ComDayCqPersonalizationImplServletsTargetingConfigurationServletInfo
+    :rtype: Union[ComDayCqPersonalizationImplServletsTargetingConfigurationServletInfo, Tuple[ComDayCqPersonalizationImplServletsTargetingConfigurationServletInfo, int], Tuple[ComDayCqPersonalizationImplServletsTargetingConfigurationServletInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -13628,7 +13630,7 @@ def com_day_cq_polling_importer_impl_managed_poll_config_impl(post=None, apply=N
     :param password: 
     :type password: str
 
-    :rtype: ComDayCqPollingImporterImplManagedPollConfigImplInfo
+    :rtype: Union[ComDayCqPollingImporterImplManagedPollConfigImplInfo, Tuple[ComDayCqPollingImporterImplManagedPollConfigImplInfo, int], Tuple[ComDayCqPollingImporterImplManagedPollConfigImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -13653,7 +13655,7 @@ def com_day_cq_polling_importer_impl_managed_polling_importer_impl(post=None, ap
     :param importer_user: 
     :type importer_user: str
 
-    :rtype: ComDayCqPollingImporterImplManagedPollingImporterImplInfo
+    :rtype: Union[ComDayCqPollingImporterImplManagedPollingImporterImplInfo, Tuple[ComDayCqPollingImporterImplManagedPollingImporterImplInfo, int], Tuple[ComDayCqPollingImporterImplManagedPollingImporterImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -13684,7 +13686,7 @@ def com_day_cq_polling_importer_impl_polling_importer_impl(post=None, apply=None
     :param include_paths: 
     :type include_paths: List[str]
 
-    :rtype: ComDayCqPollingImporterImplPollingImporterImplInfo
+    :rtype: Union[ComDayCqPollingImporterImplPollingImporterImplInfo, Tuple[ComDayCqPollingImporterImplPollingImporterImplInfo, int], Tuple[ComDayCqPollingImporterImplPollingImporterImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -13709,7 +13711,7 @@ def com_day_cq_replication_audit_replication_event_listener(post=None, apply=Non
     :param service_ranking: 
     :type service_ranking: int
 
-    :rtype: ComDayCqReplicationAuditReplicationEventListenerInfo
+    :rtype: Union[ComDayCqReplicationAuditReplicationEventListenerInfo, Tuple[ComDayCqReplicationAuditReplicationEventListenerInfo, int], Tuple[ComDayCqReplicationAuditReplicationEventListenerInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -13736,7 +13738,7 @@ def com_day_cq_replication_content_static_content_builder(post=None, apply=None,
     :param port: 
     :type port: int
 
-    :rtype: ComDayCqReplicationContentStaticContentBuilderInfo
+    :rtype: Union[ComDayCqReplicationContentStaticContentBuilderInfo, Tuple[ComDayCqReplicationContentStaticContentBuilderInfo, int], Tuple[ComDayCqReplicationContentStaticContentBuilderInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -13765,7 +13767,7 @@ def com_day_cq_replication_impl_agent_manager_impl(post=None, apply=None, delete
     :param agent_provider_target: 
     :type agent_provider_target: str
 
-    :rtype: ComDayCqReplicationImplAgentManagerImplInfo
+    :rtype: Union[ComDayCqReplicationImplAgentManagerImplInfo, Tuple[ComDayCqReplicationImplAgentManagerImplInfo, int], Tuple[ComDayCqReplicationImplAgentManagerImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -13790,7 +13792,7 @@ def com_day_cq_replication_impl_content_durbo_binary_less_content_builder(post=N
     :param binary_threshold: 
     :type binary_threshold: int
 
-    :rtype: ComDayCqReplicationImplContentDurboBinaryLessContentBuilderInfo
+    :rtype: Union[ComDayCqReplicationImplContentDurboBinaryLessContentBuilderInfo, Tuple[ComDayCqReplicationImplContentDurboBinaryLessContentBuilderInfo, int], Tuple[ComDayCqReplicationImplContentDurboBinaryLessContentBuilderInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -13831,7 +13833,7 @@ def com_day_cq_replication_impl_content_durbo_durbo_import_configuration_prov(po
     :param auto_commit: 
     :type auto_commit: bool
 
-    :rtype: ComDayCqReplicationImplContentDurboDurboImportConfigurationProvInfo
+    :rtype: Union[ComDayCqReplicationImplContentDurboDurboImportConfigurationProvInfo, Tuple[ComDayCqReplicationImplContentDurboDurboImportConfigurationProvInfo, int], Tuple[ComDayCqReplicationImplContentDurboDurboImportConfigurationProvInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -13858,7 +13860,7 @@ def com_day_cq_replication_impl_replication_content_factory_provider_impl(post=N
     :param replication_content_max_commit_attempts: 
     :type replication_content_max_commit_attempts: int
 
-    :rtype: ComDayCqReplicationImplReplicationContentFactoryProviderImplInfo
+    :rtype: Union[ComDayCqReplicationImplReplicationContentFactoryProviderImplInfo, Tuple[ComDayCqReplicationImplReplicationContentFactoryProviderImplInfo, int], Tuple[ComDayCqReplicationImplReplicationContentFactoryProviderImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -13885,7 +13887,7 @@ def com_day_cq_replication_impl_replication_receiver_impl(post=None, apply=None,
     :param receiver_packages_use_install: 
     :type receiver_packages_use_install: bool
 
-    :rtype: ComDayCqReplicationImplReplicationReceiverImplInfo
+    :rtype: Union[ComDayCqReplicationImplReplicationReceiverImplInfo, Tuple[ComDayCqReplicationImplReplicationReceiverImplInfo, int], Tuple[ComDayCqReplicationImplReplicationReceiverImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -13910,7 +13912,7 @@ def com_day_cq_replication_impl_replicator_impl(post=None, apply=None, delete=No
     :param distribute_events: 
     :type distribute_events: bool
 
-    :rtype: ComDayCqReplicationImplReplicatorImplInfo
+    :rtype: Union[ComDayCqReplicationImplReplicatorImplInfo, Tuple[ComDayCqReplicationImplReplicatorImplInfo, int], Tuple[ComDayCqReplicationImplReplicatorImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -13935,7 +13937,7 @@ def com_day_cq_replication_impl_reverse_replicator(post=None, apply=None, delete
     :param scheduler_period: 
     :type scheduler_period: int
 
-    :rtype: ComDayCqReplicationImplReverseReplicatorInfo
+    :rtype: Union[ComDayCqReplicationImplReverseReplicatorInfo, Tuple[ComDayCqReplicationImplReverseReplicatorInfo, int], Tuple[ComDayCqReplicationImplReverseReplicatorInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -13962,7 +13964,7 @@ def com_day_cq_replication_impl_transport_binary_less_transport_handler(post=Non
     :param enabled_cipher_suites: 
     :type enabled_cipher_suites: List[str]
 
-    :rtype: ComDayCqReplicationImplTransportBinaryLessTransportHandlerInfo
+    :rtype: Union[ComDayCqReplicationImplTransportBinaryLessTransportHandlerInfo, Tuple[ComDayCqReplicationImplTransportBinaryLessTransportHandlerInfo, int], Tuple[ComDayCqReplicationImplTransportBinaryLessTransportHandlerInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -13989,7 +13991,7 @@ def com_day_cq_replication_impl_transport_http(post=None, apply=None, delete=Non
     :param enabled_cipher_suites: 
     :type enabled_cipher_suites: List[str]
 
-    :rtype: ComDayCqReplicationImplTransportHttpInfo
+    :rtype: Union[ComDayCqReplicationImplTransportHttpInfo, Tuple[ComDayCqReplicationImplTransportHttpInfo, int], Tuple[ComDayCqReplicationImplTransportHttpInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -14018,7 +14020,7 @@ def com_day_cq_reporting_impl_cache_cache_impl(post=None, apply=None, delete=Non
     :param repcache_max: 
     :type repcache_max: int
 
-    :rtype: ComDayCqReportingImplCacheCacheImplInfo
+    :rtype: Union[ComDayCqReportingImplCacheCacheImplInfo, Tuple[ComDayCqReportingImplCacheCacheImplInfo, int], Tuple[ComDayCqReportingImplCacheCacheImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -14061,7 +14063,7 @@ def com_day_cq_reporting_impl_config_service_impl(post=None, apply=None, delete=
     :param repconf_enforcesnapshotuser: 
     :type repconf_enforcesnapshotuser: bool
 
-    :rtype: ComDayCqReportingImplConfigServiceImplInfo
+    :rtype: Union[ComDayCqReportingImplConfigServiceImplInfo, Tuple[ComDayCqReportingImplConfigServiceImplInfo, int], Tuple[ComDayCqReportingImplConfigServiceImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -14086,7 +14088,7 @@ def com_day_cq_reporting_impl_r_log_analyzer(post=None, apply=None, delete=None,
     :param request_log_output: 
     :type request_log_output: str
 
-    :rtype: ComDayCqReportingImplRLogAnalyzerInfo
+    :rtype: Union[ComDayCqReportingImplRLogAnalyzerInfo, Tuple[ComDayCqReportingImplRLogAnalyzerInfo, int], Tuple[ComDayCqReportingImplRLogAnalyzerInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -14123,7 +14125,7 @@ def com_day_cq_rewriter_linkchecker_impl_link_checker_impl(post=None, apply=None
     :param service_special_link_patterns: 
     :type service_special_link_patterns: List[str]
 
-    :rtype: ComDayCqRewriterLinkcheckerImplLinkCheckerImplInfo
+    :rtype: Union[ComDayCqRewriterLinkcheckerImplLinkCheckerImplInfo, Tuple[ComDayCqRewriterLinkcheckerImplLinkCheckerImplInfo, int], Tuple[ComDayCqRewriterLinkcheckerImplLinkCheckerImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -14158,7 +14160,7 @@ def com_day_cq_rewriter_linkchecker_impl_link_checker_task(post=None, apply=None
     :param connection_timeout: 
     :type connection_timeout: int
 
-    :rtype: ComDayCqRewriterLinkcheckerImplLinkCheckerTaskInfo
+    :rtype: Union[ComDayCqRewriterLinkcheckerImplLinkCheckerTaskInfo, Tuple[ComDayCqRewriterLinkcheckerImplLinkCheckerTaskInfo, int], Tuple[ComDayCqRewriterLinkcheckerImplLinkCheckerTaskInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -14195,7 +14197,7 @@ def com_day_cq_rewriter_linkchecker_impl_link_checker_transformer_factory(post=N
     :param linkcheckertransformer_strip_extension_path_blacklist: 
     :type linkcheckertransformer_strip_extension_path_blacklist: List[str]
 
-    :rtype: ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryInfo
+    :rtype: Union[ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryInfo, Tuple[ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryInfo, int], Tuple[ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -14222,7 +14224,7 @@ def com_day_cq_rewriter_linkchecker_impl_link_info_storage_impl(post=None, apply
     :param service_save_external_link_references: 
     :type service_save_external_link_references: bool
 
-    :rtype: ComDayCqRewriterLinkcheckerImplLinkInfoStorageImplInfo
+    :rtype: Union[ComDayCqRewriterLinkcheckerImplLinkInfoStorageImplInfo, Tuple[ComDayCqRewriterLinkcheckerImplLinkInfoStorageImplInfo, int], Tuple[ComDayCqRewriterLinkcheckerImplLinkInfoStorageImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -14249,7 +14251,7 @@ def com_day_cq_rewriter_processor_impl_html_parser_factory(post=None, apply=None
     :param htmlparser_preserve_camel_case: 
     :type htmlparser_preserve_camel_case: bool
 
-    :rtype: ComDayCqRewriterProcessorImplHtmlParserFactoryInfo
+    :rtype: Union[ComDayCqRewriterProcessorImplHtmlParserFactoryInfo, Tuple[ComDayCqRewriterProcessorImplHtmlParserFactoryInfo, int], Tuple[ComDayCqRewriterProcessorImplHtmlParserFactoryInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -14280,7 +14282,7 @@ def com_day_cq_search_impl_builder_query_builder_impl(post=None, apply=None, del
     :param xpath_union: 
     :type xpath_union: bool
 
-    :rtype: ComDayCqSearchImplBuilderQueryBuilderImplInfo
+    :rtype: Union[ComDayCqSearchImplBuilderQueryBuilderImplInfo, Tuple[ComDayCqSearchImplBuilderQueryBuilderImplInfo, int], Tuple[ComDayCqSearchImplBuilderQueryBuilderImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -14307,7 +14309,7 @@ def com_day_cq_search_suggest_impl_suggestion_index_manager_impl(post=None, appl
     :param suggest_basepath: 
     :type suggest_basepath: str
 
-    :rtype: ComDayCqSearchSuggestImplSuggestionIndexManagerImplInfo
+    :rtype: Union[ComDayCqSearchSuggestImplSuggestionIndexManagerImplInfo, Tuple[ComDayCqSearchSuggestImplSuggestionIndexManagerImplInfo, int], Tuple[ComDayCqSearchSuggestImplSuggestionIndexManagerImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -14332,7 +14334,7 @@ def com_day_cq_searchpromote_impl_publish_search_promote_config_handler(post=Non
     :param cq_searchpromote_confighandler_enabled: 
     :type cq_searchpromote_confighandler_enabled: bool
 
-    :rtype: ComDayCqSearchpromoteImplPublishSearchPromoteConfigHandlerInfo
+    :rtype: Union[ComDayCqSearchpromoteImplPublishSearchPromoteConfigHandlerInfo, Tuple[ComDayCqSearchpromoteImplPublishSearchPromoteConfigHandlerInfo, int], Tuple[ComDayCqSearchpromoteImplPublishSearchPromoteConfigHandlerInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -14363,7 +14365,7 @@ def com_day_cq_searchpromote_impl_search_promote_service_impl(post=None, apply=N
     :param socket_timeout: 
     :type socket_timeout: int
 
-    :rtype: ComDayCqSearchpromoteImplSearchPromoteServiceImplInfo
+    :rtype: Union[ComDayCqSearchpromoteImplSearchPromoteServiceImplInfo, Tuple[ComDayCqSearchpromoteImplSearchPromoteServiceImplInfo, int], Tuple[ComDayCqSearchpromoteImplSearchPromoteServiceImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -14388,7 +14390,7 @@ def com_day_cq_security_acl_setup(post=None, apply=None, delete=None, action=Non
     :param cq_aclsetup_rules: 
     :type cq_aclsetup_rules: List[str]
 
-    :rtype: ComDayCqSecurityACLSetupInfo
+    :rtype: Union[ComDayCqSecurityACLSetupInfo, Tuple[ComDayCqSecurityACLSetupInfo, int], Tuple[ComDayCqSecurityACLSetupInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -14423,7 +14425,7 @@ def com_day_cq_statistics_impl_statistics_service_impl(post=None, apply=None, de
     :param async_entries: 
     :type async_entries: bool
 
-    :rtype: ComDayCqStatisticsImplStatisticsServiceImplInfo
+    :rtype: Union[ComDayCqStatisticsImplStatisticsServiceImplInfo, Tuple[ComDayCqStatisticsImplStatisticsServiceImplInfo, int], Tuple[ComDayCqStatisticsImplStatisticsServiceImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -14448,7 +14450,7 @@ def com_day_cq_tagging_impl_jcr_tag_manager_factory_impl(post=None, apply=None, 
     :param validation_enabled: 
     :type validation_enabled: bool
 
-    :rtype: ComDayCqTaggingImplJcrTagManagerFactoryImplInfo
+    :rtype: Union[ComDayCqTaggingImplJcrTagManagerFactoryImplInfo, Tuple[ComDayCqTaggingImplJcrTagManagerFactoryImplInfo, int], Tuple[ComDayCqTaggingImplJcrTagManagerFactoryImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -14473,7 +14475,7 @@ def com_day_cq_tagging_impl_search_tag_predicate_evaluator(post=None, apply=None
     :param ignore_path: 
     :type ignore_path: bool
 
-    :rtype: ComDayCqTaggingImplSearchTagPredicateEvaluatorInfo
+    :rtype: Union[ComDayCqTaggingImplSearchTagPredicateEvaluatorInfo, Tuple[ComDayCqTaggingImplSearchTagPredicateEvaluatorInfo, int], Tuple[ComDayCqTaggingImplSearchTagPredicateEvaluatorInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -14498,7 +14500,7 @@ def com_day_cq_tagging_impl_tag_garbage_collector(post=None, apply=None, delete=
     :param scheduler_expression: 
     :type scheduler_expression: str
 
-    :rtype: ComDayCqTaggingImplTagGarbageCollectorInfo
+    :rtype: Union[ComDayCqTaggingImplTagGarbageCollectorInfo, Tuple[ComDayCqTaggingImplTagGarbageCollectorInfo, int], Tuple[ComDayCqTaggingImplTagGarbageCollectorInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -14523,7 +14525,7 @@ def com_day_cq_wcm_contentsync_impl_handler_pages_update_handler(post=None, appl
     :param cq_pagesupdatehandler_imageresourcetypes: 
     :type cq_pagesupdatehandler_imageresourcetypes: List[str]
 
-    :rtype: ComDayCqWcmContentsyncImplHandlerPagesUpdateHandlerInfo
+    :rtype: Union[ComDayCqWcmContentsyncImplHandlerPagesUpdateHandlerInfo, Tuple[ComDayCqWcmContentsyncImplHandlerPagesUpdateHandlerInfo, int], Tuple[ComDayCqWcmContentsyncImplHandlerPagesUpdateHandlerInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -14558,7 +14560,7 @@ def com_day_cq_wcm_contentsync_impl_rewriter_path_rewriter_transformer_factor(po
     :param cq_contentsync_pathrewritertransformer_clientlibrary_replace: 
     :type cq_contentsync_pathrewritertransformer_clientlibrary_replace: str
 
-    :rtype: ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorInfo
+    :rtype: Union[ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorInfo, Tuple[ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorInfo, int], Tuple[ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -14583,7 +14585,7 @@ def com_day_cq_wcm_core_impl_authoring_ui_mode_service_impl(post=None, apply=Non
     :param authoring_ui_mode_service_default: 
     :type authoring_ui_mode_service_default: str
 
-    :rtype: ComDayCqWcmCoreImplAuthoringUIModeServiceImplInfo
+    :rtype: Union[ComDayCqWcmCoreImplAuthoringUIModeServiceImplInfo, Tuple[ComDayCqWcmCoreImplAuthoringUIModeServiceImplInfo, int], Tuple[ComDayCqWcmCoreImplAuthoringUIModeServiceImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -14608,7 +14610,7 @@ def com_day_cq_wcm_core_impl_commands_wcm_command_servlet(post=None, apply=None,
     :param wcmcommandservlet_delete_whitelist: 
     :type wcmcommandservlet_delete_whitelist: List[str]
 
-    :rtype: ComDayCqWcmCoreImplCommandsWCMCommandServletInfo
+    :rtype: Union[ComDayCqWcmCoreImplCommandsWCMCommandServletInfo, Tuple[ComDayCqWcmCoreImplCommandsWCMCommandServletInfo, int], Tuple[ComDayCqWcmCoreImplCommandsWCMCommandServletInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -14635,7 +14637,7 @@ def com_day_cq_wcm_core_impl_devicedetection_device_identification_mode_impl(pos
     :param dim_appcache_enabled: 
     :type dim_appcache_enabled: bool
 
-    :rtype: ComDayCqWcmCoreImplDevicedetectionDeviceIdentificationModeImplInfo
+    :rtype: Union[ComDayCqWcmCoreImplDevicedetectionDeviceIdentificationModeImplInfo, Tuple[ComDayCqWcmCoreImplDevicedetectionDeviceIdentificationModeImplInfo, int], Tuple[ComDayCqWcmCoreImplDevicedetectionDeviceIdentificationModeImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -14660,7 +14662,7 @@ def com_day_cq_wcm_core_impl_event_page_event_audit_listener(post=None, apply=No
     :param configured: 
     :type configured: str
 
-    :rtype: ComDayCqWcmCoreImplEventPageEventAuditListenerInfo
+    :rtype: Union[ComDayCqWcmCoreImplEventPageEventAuditListenerInfo, Tuple[ComDayCqWcmCoreImplEventPageEventAuditListenerInfo, int], Tuple[ComDayCqWcmCoreImplEventPageEventAuditListenerInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -14685,7 +14687,7 @@ def com_day_cq_wcm_core_impl_event_page_post_processor(post=None, apply=None, de
     :param paths: 
     :type paths: List[str]
 
-    :rtype: ComDayCqWcmCoreImplEventPagePostProcessorInfo
+    :rtype: Union[ComDayCqWcmCoreImplEventPagePostProcessorInfo, Tuple[ComDayCqWcmCoreImplEventPagePostProcessorInfo, int], Tuple[ComDayCqWcmCoreImplEventPagePostProcessorInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -14712,7 +14714,7 @@ def com_day_cq_wcm_core_impl_event_repository_change_event_listener(post=None, a
     :param excluded_paths: 
     :type excluded_paths: List[str]
 
-    :rtype: ComDayCqWcmCoreImplEventRepositoryChangeEventListenerInfo
+    :rtype: Union[ComDayCqWcmCoreImplEventRepositoryChangeEventListenerInfo, Tuple[ComDayCqWcmCoreImplEventRepositoryChangeEventListenerInfo, int], Tuple[ComDayCqWcmCoreImplEventRepositoryChangeEventListenerInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -14737,7 +14739,7 @@ def com_day_cq_wcm_core_impl_event_template_post_processor(post=None, apply=None
     :param paths: 
     :type paths: str
 
-    :rtype: ComDayCqWcmCoreImplEventTemplatePostProcessorInfo
+    :rtype: Union[ComDayCqWcmCoreImplEventTemplatePostProcessorInfo, Tuple[ComDayCqWcmCoreImplEventTemplatePostProcessorInfo, int], Tuple[ComDayCqWcmCoreImplEventTemplatePostProcessorInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -14764,7 +14766,7 @@ def com_day_cq_wcm_core_impl_language_manager_impl(post=None, apply=None, delete
     :param langmgr_country_default: 
     :type langmgr_country_default: List[str]
 
-    :rtype: ComDayCqWcmCoreImplLanguageManagerImplInfo
+    :rtype: Union[ComDayCqWcmCoreImplLanguageManagerImplInfo, Tuple[ComDayCqWcmCoreImplLanguageManagerImplInfo, int], Tuple[ComDayCqWcmCoreImplLanguageManagerImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -14807,7 +14809,7 @@ def com_day_cq_wcm_core_impl_link_checker_configuration_factory_impl(post=None, 
     :param link_wcmmodes: 
     :type link_wcmmodes: List[str]
 
-    :rtype: ComDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplInfo
+    :rtype: Union[ComDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplInfo, Tuple[ComDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplInfo, int], Tuple[ComDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -14834,7 +14836,7 @@ def com_day_cq_wcm_core_impl_page_page_info_aggregator_impl(post=None, apply=Non
     :param page_info_provider_property_name: 
     :type page_info_provider_property_name: str
 
-    :rtype: ComDayCqWcmCoreImplPagePageInfoAggregatorImplInfo
+    :rtype: Union[ComDayCqWcmCoreImplPagePageInfoAggregatorImplInfo, Tuple[ComDayCqWcmCoreImplPagePageInfoAggregatorImplInfo, int], Tuple[ComDayCqWcmCoreImplPagePageInfoAggregatorImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -14861,7 +14863,7 @@ def com_day_cq_wcm_core_impl_page_page_manager_factory_impl(post=None, apply=Non
     :param page_sub_tree_activation_check: 
     :type page_sub_tree_activation_check: bool
 
-    :rtype: ComDayCqWcmCoreImplPagePageManagerFactoryImplInfo
+    :rtype: Union[ComDayCqWcmCoreImplPagePageManagerFactoryImplInfo, Tuple[ComDayCqWcmCoreImplPagePageManagerFactoryImplInfo, int], Tuple[ComDayCqWcmCoreImplPagePageManagerFactoryImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -14886,7 +14888,7 @@ def com_day_cq_wcm_core_impl_references_content_content_reference_config(post=No
     :param content_reference_config_resource_types: 
     :type content_reference_config_resource_types: List[str]
 
-    :rtype: ComDayCqWcmCoreImplReferencesContentContentReferenceConfigInfo
+    :rtype: Union[ComDayCqWcmCoreImplReferencesContentContentReferenceConfigInfo, Tuple[ComDayCqWcmCoreImplReferencesContentContentReferenceConfigInfo, int], Tuple[ComDayCqWcmCoreImplReferencesContentContentReferenceConfigInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -14919,7 +14921,7 @@ def com_day_cq_wcm_core_impl_servlets_contentfinder_asset_view_handler(post=None
     :param dam_expiry_property: 
     :type dam_expiry_property: str
 
-    :rtype: ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerInfo
+    :rtype: Union[ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerInfo, Tuple[ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerInfo, int], Tuple[ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -14944,7 +14946,7 @@ def com_day_cq_wcm_core_impl_servlets_contentfinder_connector_connector_vie(post
     :param item_resource_types: 
     :type item_resource_types: List[str]
 
-    :rtype: ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorVieInfo
+    :rtype: Union[ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorVieInfo, Tuple[ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorVieInfo, int], Tuple[ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorVieInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -14971,7 +14973,7 @@ def com_day_cq_wcm_core_impl_servlets_contentfinder_page_view_handler(post=None,
     :param tag_title_search: 
     :type tag_title_search: bool
 
-    :rtype: ComDayCqWcmCoreImplServletsContentfinderPageViewHandlerInfo
+    :rtype: Union[ComDayCqWcmCoreImplServletsContentfinderPageViewHandlerInfo, Tuple[ComDayCqWcmCoreImplServletsContentfinderPageViewHandlerInfo, int], Tuple[ComDayCqWcmCoreImplServletsContentfinderPageViewHandlerInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -14996,7 +14998,7 @@ def com_day_cq_wcm_core_impl_servlets_find_replace_servlet(post=None, apply=None
     :param scope: 
     :type scope: List[str]
 
-    :rtype: ComDayCqWcmCoreImplServletsFindReplaceServletInfo
+    :rtype: Union[ComDayCqWcmCoreImplServletsFindReplaceServletInfo, Tuple[ComDayCqWcmCoreImplServletsFindReplaceServletInfo, int], Tuple[ComDayCqWcmCoreImplServletsFindReplaceServletInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -15023,7 +15025,7 @@ def com_day_cq_wcm_core_impl_servlets_reference_search_servlet(post=None, apply=
     :param referencesearchservlet_max_pages: 
     :type referencesearchservlet_max_pages: int
 
-    :rtype: ComDayCqWcmCoreImplServletsReferenceSearchServletInfo
+    :rtype: Union[ComDayCqWcmCoreImplServletsReferenceSearchServletInfo, Tuple[ComDayCqWcmCoreImplServletsReferenceSearchServletInfo, int], Tuple[ComDayCqWcmCoreImplServletsReferenceSearchServletInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -15050,7 +15052,7 @@ def com_day_cq_wcm_core_impl_servlets_thumbnail_servlet(post=None, apply=None, d
     :param dimensions: 
     :type dimensions: List[str]
 
-    :rtype: ComDayCqWcmCoreImplServletsThumbnailServletInfo
+    :rtype: Union[ComDayCqWcmCoreImplServletsThumbnailServletInfo, Tuple[ComDayCqWcmCoreImplServletsThumbnailServletInfo, int], Tuple[ComDayCqWcmCoreImplServletsThumbnailServletInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -15075,7 +15077,7 @@ def com_day_cq_wcm_core_impl_utils_default_page_name_validator(post=None, apply=
     :param non_valid_chars: 
     :type non_valid_chars: str
 
-    :rtype: ComDayCqWcmCoreImplUtilsDefaultPageNameValidatorInfo
+    :rtype: Union[ComDayCqWcmCoreImplUtilsDefaultPageNameValidatorInfo, Tuple[ComDayCqWcmCoreImplUtilsDefaultPageNameValidatorInfo, int], Tuple[ComDayCqWcmCoreImplUtilsDefaultPageNameValidatorInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -15100,7 +15102,7 @@ def com_day_cq_wcm_core_impl_variants_page_variants_provider_impl(post=None, app
     :param default_externalizer_domain: 
     :type default_externalizer_domain: str
 
-    :rtype: ComDayCqWcmCoreImplVariantsPageVariantsProviderImplInfo
+    :rtype: Union[ComDayCqWcmCoreImplVariantsPageVariantsProviderImplInfo, Tuple[ComDayCqWcmCoreImplVariantsPageVariantsProviderImplInfo, int], Tuple[ComDayCqWcmCoreImplVariantsPageVariantsProviderImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -15137,7 +15139,7 @@ def com_day_cq_wcm_core_impl_version_manager_impl(post=None, apply=None, delete=
     :param versionmanager_min_number_versions: 
     :type versionmanager_min_number_versions: int
 
-    :rtype: ComDayCqWcmCoreImplVersionManagerImplInfo
+    :rtype: Union[ComDayCqWcmCoreImplVersionManagerImplInfo, Tuple[ComDayCqWcmCoreImplVersionManagerImplInfo, int], Tuple[ComDayCqWcmCoreImplVersionManagerImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -15170,7 +15172,7 @@ def com_day_cq_wcm_core_impl_version_purge_task(post=None, apply=None, delete=No
     :param versionpurge_max_age_days: 
     :type versionpurge_max_age_days: int
 
-    :rtype: ComDayCqWcmCoreImplVersionPurgeTaskInfo
+    :rtype: Union[ComDayCqWcmCoreImplVersionPurgeTaskInfo, Tuple[ComDayCqWcmCoreImplVersionPurgeTaskInfo, int], Tuple[ComDayCqWcmCoreImplVersionPurgeTaskInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -15197,7 +15199,7 @@ def com_day_cq_wcm_core_impl_warp_time_warp_filter(post=None, apply=None, delete
     :param filter_scope: 
     :type filter_scope: str
 
-    :rtype: ComDayCqWcmCoreImplWarpTimeWarpFilterInfo
+    :rtype: Union[ComDayCqWcmCoreImplWarpTimeWarpFilterInfo, Tuple[ComDayCqWcmCoreImplWarpTimeWarpFilterInfo, int], Tuple[ComDayCqWcmCoreImplWarpTimeWarpFilterInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -15224,7 +15226,7 @@ def com_day_cq_wcm_core_impl_wcm_debug_filter(post=None, apply=None, delete=None
     :param wcmdbgfilter_jsp_debug: 
     :type wcmdbgfilter_jsp_debug: bool
 
-    :rtype: ComDayCqWcmCoreImplWCMDebugFilterInfo
+    :rtype: Union[ComDayCqWcmCoreImplWCMDebugFilterInfo, Tuple[ComDayCqWcmCoreImplWCMDebugFilterInfo, int], Tuple[ComDayCqWcmCoreImplWCMDebugFilterInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -15249,7 +15251,7 @@ def com_day_cq_wcm_core_impl_wcm_developer_mode_filter(post=None, apply=None, de
     :param wcmdevmodefilter_enabled: 
     :type wcmdevmodefilter_enabled: bool
 
-    :rtype: ComDayCqWcmCoreImplWCMDeveloperModeFilterInfo
+    :rtype: Union[ComDayCqWcmCoreImplWCMDeveloperModeFilterInfo, Tuple[ComDayCqWcmCoreImplWCMDeveloperModeFilterInfo, int], Tuple[ComDayCqWcmCoreImplWCMDeveloperModeFilterInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -15274,7 +15276,7 @@ def com_day_cq_wcm_core_mvt_mvt_statistics_impl(post=None, apply=None, delete=No
     :param mvtstatistics_trackingurl: 
     :type mvtstatistics_trackingurl: str
 
-    :rtype: ComDayCqWcmCoreMvtMVTStatisticsImplInfo
+    :rtype: Union[ComDayCqWcmCoreMvtMVTStatisticsImplInfo, Tuple[ComDayCqWcmCoreMvtMVTStatisticsImplInfo, int], Tuple[ComDayCqWcmCoreMvtMVTStatisticsImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -15301,7 +15303,7 @@ def com_day_cq_wcm_core_stats_page_view_statistics_impl(post=None, apply=None, d
     :param pageviewstatistics_trackingscript_enabled: 
     :type pageviewstatistics_trackingscript_enabled: str
 
-    :rtype: ComDayCqWcmCoreStatsPageViewStatisticsImplInfo
+    :rtype: Union[ComDayCqWcmCoreStatsPageViewStatisticsImplInfo, Tuple[ComDayCqWcmCoreStatsPageViewStatisticsImplInfo, int], Tuple[ComDayCqWcmCoreStatsPageViewStatisticsImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -15326,7 +15328,7 @@ def com_day_cq_wcm_core_wcm_request_filter(post=None, apply=None, delete=None, a
     :param wcmfilter_mode: 
     :type wcmfilter_mode: str
 
-    :rtype: ComDayCqWcmCoreWCMRequestFilterInfo
+    :rtype: Union[ComDayCqWcmCoreWCMRequestFilterInfo, Tuple[ComDayCqWcmCoreWCMRequestFilterInfo, int], Tuple[ComDayCqWcmCoreWCMRequestFilterInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -15351,7 +15353,7 @@ def com_day_cq_wcm_designimporter_design_package_importer(post=None, apply=None,
     :param extract_filter: 
     :type extract_filter: List[str]
 
-    :rtype: ComDayCqWcmDesignimporterDesignPackageImporterInfo
+    :rtype: Union[ComDayCqWcmDesignimporterDesignPackageImporterInfo, Tuple[ComDayCqWcmDesignimporterDesignPackageImporterInfo, int], Tuple[ComDayCqWcmDesignimporterDesignPackageImporterInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -15382,7 +15384,7 @@ def com_day_cq_wcm_designimporter_impl_canvas_builder_impl(post=None, apply=None
     :param build_canvas_component: 
     :type build_canvas_component: bool
 
-    :rtype: ComDayCqWcmDesignimporterImplCanvasBuilderImplInfo
+    :rtype: Union[ComDayCqWcmDesignimporterImplCanvasBuilderImplInfo, Tuple[ComDayCqWcmDesignimporterImplCanvasBuilderImplInfo, int], Tuple[ComDayCqWcmDesignimporterImplCanvasBuilderImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -15409,7 +15411,7 @@ def com_day_cq_wcm_designimporter_impl_canvas_page_delete_handler(post=None, app
     :param max_thread_pool_size: 
     :type max_thread_pool_size: int
 
-    :rtype: ComDayCqWcmDesignimporterImplCanvasPageDeleteHandlerInfo
+    :rtype: Union[ComDayCqWcmDesignimporterImplCanvasPageDeleteHandlerInfo, Tuple[ComDayCqWcmDesignimporterImplCanvasPageDeleteHandlerInfo, int], Tuple[ComDayCqWcmDesignimporterImplCanvasPageDeleteHandlerInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -15436,7 +15438,7 @@ def com_day_cq_wcm_designimporter_impl_entry_preprocessor_impl(post=None, apply=
     :param replace_pattern: 
     :type replace_pattern: str
 
-    :rtype: ComDayCqWcmDesignimporterImplEntryPreprocessorImplInfo
+    :rtype: Union[ComDayCqWcmDesignimporterImplEntryPreprocessorImplInfo, Tuple[ComDayCqWcmDesignimporterImplEntryPreprocessorImplInfo, int], Tuple[ComDayCqWcmDesignimporterImplEntryPreprocessorImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -15469,7 +15471,7 @@ def com_day_cq_wcm_designimporter_impl_mobile_canvas_builder_impl(post=None, app
     :param build_canvas_component: 
     :type build_canvas_component: bool
 
-    :rtype: ComDayCqWcmDesignimporterImplMobileCanvasBuilderImplInfo
+    :rtype: Union[ComDayCqWcmDesignimporterImplMobileCanvasBuilderImplInfo, Tuple[ComDayCqWcmDesignimporterImplMobileCanvasBuilderImplInfo, int], Tuple[ComDayCqWcmDesignimporterImplMobileCanvasBuilderImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -15496,7 +15498,7 @@ def com_day_cq_wcm_designimporter_parser_taghandlers_factory_canvas_compone(post
     :param tagpattern: 
     :type tagpattern: str
 
-    :rtype: ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeInfo
+    :rtype: Union[ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeInfo, Tuple[ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeInfo, int], Tuple[ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -15523,7 +15525,7 @@ def com_day_cq_wcm_designimporter_parser_taghandlers_factory_default_compon(post
     :param tagpattern: 
     :type tagpattern: str
 
-    :rtype: ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultComponInfo
+    :rtype: Union[ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultComponInfo, Tuple[ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultComponInfo, int], Tuple[ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultComponInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -15550,7 +15552,7 @@ def com_day_cq_wcm_designimporter_parser_taghandlers_factory_default_tag_han(pos
     :param tagpattern: 
     :type tagpattern: str
 
-    :rtype: ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHanInfo
+    :rtype: Union[ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHanInfo, Tuple[ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHanInfo, int], Tuple[ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHanInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -15577,7 +15579,7 @@ def com_day_cq_wcm_designimporter_parser_taghandlers_factory_head_tag_handle(pos
     :param tagpattern: 
     :type tagpattern: str
 
-    :rtype: ComDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandleInfo
+    :rtype: Union[ComDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandleInfo, Tuple[ComDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandleInfo, int], Tuple[ComDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandleInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -15604,7 +15606,7 @@ def com_day_cq_wcm_designimporter_parser_taghandlers_factory_i_frame_tag_hand(po
     :param tagpattern: 
     :type tagpattern: str
 
-    :rtype: ComDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHandInfo
+    :rtype: Union[ComDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHandInfo, Tuple[ComDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHandInfo, int], Tuple[ComDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHandInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -15633,7 +15635,7 @@ def com_day_cq_wcm_designimporter_parser_taghandlers_factory_image_componen(post
     :param component_resource_type: 
     :type component_resource_type: str
 
-    :rtype: ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponenInfo
+    :rtype: Union[ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponenInfo, Tuple[ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponenInfo, int], Tuple[ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponenInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -15660,7 +15662,7 @@ def com_day_cq_wcm_designimporter_parser_taghandlers_factory_img_tag_handler(pos
     :param tagpattern: 
     :type tagpattern: str
 
-    :rtype: ComDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandlerInfo
+    :rtype: Union[ComDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandlerInfo, Tuple[ComDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandlerInfo, int], Tuple[ComDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandlerInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -15687,7 +15689,7 @@ def com_day_cq_wcm_designimporter_parser_taghandlers_factory_inline_script_t(pos
     :param tagpattern: 
     :type tagpattern: str
 
-    :rtype: ComDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTInfo
+    :rtype: Union[ComDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTInfo, Tuple[ComDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTInfo, int], Tuple[ComDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -15714,7 +15716,7 @@ def com_day_cq_wcm_designimporter_parser_taghandlers_factory_link_tag_handle(pos
     :param tagpattern: 
     :type tagpattern: str
 
-    :rtype: ComDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandleInfo
+    :rtype: Union[ComDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandleInfo, Tuple[ComDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandleInfo, int], Tuple[ComDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandleInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -15741,7 +15743,7 @@ def com_day_cq_wcm_designimporter_parser_taghandlers_factory_meta_tag_handle(pos
     :param tagpattern: 
     :type tagpattern: str
 
-    :rtype: ComDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandleInfo
+    :rtype: Union[ComDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandleInfo, Tuple[ComDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandleInfo, int], Tuple[ComDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandleInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -15768,7 +15770,7 @@ def com_day_cq_wcm_designimporter_parser_taghandlers_factory_non_script_tag_h(po
     :param tagpattern: 
     :type tagpattern: str
 
-    :rtype: ComDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagHInfo
+    :rtype: Union[ComDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagHInfo, Tuple[ComDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagHInfo, int], Tuple[ComDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagHInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -15797,7 +15799,7 @@ def com_day_cq_wcm_designimporter_parser_taghandlers_factory_parsys_compone(post
     :param component_resource_type: 
     :type component_resource_type: str
 
-    :rtype: ComDayCqWcmDesignimporterParserTaghandlersFactoryParsysComponeInfo
+    :rtype: Union[ComDayCqWcmDesignimporterParserTaghandlersFactoryParsysComponeInfo, Tuple[ComDayCqWcmDesignimporterParserTaghandlersFactoryParsysComponeInfo, int], Tuple[ComDayCqWcmDesignimporterParserTaghandlersFactoryParsysComponeInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -15824,7 +15826,7 @@ def com_day_cq_wcm_designimporter_parser_taghandlers_factory_script_tag_hand(pos
     :param tagpattern: 
     :type tagpattern: str
 
-    :rtype: ComDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandInfo
+    :rtype: Union[ComDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandInfo, Tuple[ComDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandInfo, int], Tuple[ComDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -15851,7 +15853,7 @@ def com_day_cq_wcm_designimporter_parser_taghandlers_factory_style_tag_handl(pos
     :param tagpattern: 
     :type tagpattern: str
 
-    :rtype: ComDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlInfo
+    :rtype: Union[ComDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlInfo, Tuple[ComDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlInfo, int], Tuple[ComDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -15880,7 +15882,7 @@ def com_day_cq_wcm_designimporter_parser_taghandlers_factory_text_component(post
     :param component_resource_type: 
     :type component_resource_type: str
 
-    :rtype: ComDayCqWcmDesignimporterParserTaghandlersFactoryTextComponentInfo
+    :rtype: Union[ComDayCqWcmDesignimporterParserTaghandlersFactoryTextComponentInfo, Tuple[ComDayCqWcmDesignimporterParserTaghandlersFactoryTextComponentInfo, int], Tuple[ComDayCqWcmDesignimporterParserTaghandlersFactoryTextComponentInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -15909,7 +15911,7 @@ def com_day_cq_wcm_designimporter_parser_taghandlers_factory_title_componen(post
     :param component_resource_type: 
     :type component_resource_type: str
 
-    :rtype: ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponenInfo
+    :rtype: Union[ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponenInfo, Tuple[ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponenInfo, int], Tuple[ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponenInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -15936,7 +15938,7 @@ def com_day_cq_wcm_designimporter_parser_taghandlers_factory_title_tag_handl(pos
     :param tagpattern: 
     :type tagpattern: str
 
-    :rtype: ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandlInfo
+    :rtype: Union[ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandlInfo, Tuple[ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandlInfo, int], Tuple[ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandlInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -15969,7 +15971,7 @@ def com_day_cq_wcm_foundation_forms_impl_form_chooser_servlet(post=None, apply=N
     :param forms_formchooserservlet_advansesearch_require: 
     :type forms_formchooserservlet_advansesearch_require: bool
 
-    :rtype: ComDayCqWcmFoundationFormsImplFormChooserServletInfo
+    :rtype: Union[ComDayCqWcmFoundationFormsImplFormChooserServletInfo, Tuple[ComDayCqWcmFoundationFormsImplFormChooserServletInfo, int], Tuple[ComDayCqWcmFoundationFormsImplFormChooserServletInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -15996,7 +15998,7 @@ def com_day_cq_wcm_foundation_forms_impl_form_paragraph_post_processor(post=None
     :param forms_formparagraphpostprocessor_formresourcetypes: 
     :type forms_formparagraphpostprocessor_formresourcetypes: List[str]
 
-    :rtype: ComDayCqWcmFoundationFormsImplFormParagraphPostProcessorInfo
+    :rtype: Union[ComDayCqWcmFoundationFormsImplFormParagraphPostProcessorInfo, Tuple[ComDayCqWcmFoundationFormsImplFormParagraphPostProcessorInfo, int], Tuple[ComDayCqWcmFoundationFormsImplFormParagraphPostProcessorInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -16023,7 +16025,7 @@ def com_day_cq_wcm_foundation_forms_impl_forms_handling_servlet(post=None, apply
     :param allow_expressions: 
     :type allow_expressions: bool
 
-    :rtype: ComDayCqWcmFoundationFormsImplFormsHandlingServletInfo
+    :rtype: Union[ComDayCqWcmFoundationFormsImplFormsHandlingServletInfo, Tuple[ComDayCqWcmFoundationFormsImplFormsHandlingServletInfo, int], Tuple[ComDayCqWcmFoundationFormsImplFormsHandlingServletInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -16054,7 +16056,7 @@ def com_day_cq_wcm_foundation_forms_impl_mail_servlet(post=None, apply=None, del
     :param resource_blacklist: 
     :type resource_blacklist: str
 
-    :rtype: ComDayCqWcmFoundationFormsImplMailServletInfo
+    :rtype: Union[ComDayCqWcmFoundationFormsImplMailServletInfo, Tuple[ComDayCqWcmFoundationFormsImplMailServletInfo, int], Tuple[ComDayCqWcmFoundationFormsImplMailServletInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -16079,7 +16081,7 @@ def com_day_cq_wcm_foundation_impl_adaptive_image_component_servlet(post=None, a
     :param adapt_supported_widths: 
     :type adapt_supported_widths: List[str]
 
-    :rtype: ComDayCqWcmFoundationImplAdaptiveImageComponentServletInfo
+    :rtype: Union[ComDayCqWcmFoundationImplAdaptiveImageComponentServletInfo, Tuple[ComDayCqWcmFoundationImplAdaptiveImageComponentServletInfo, int], Tuple[ComDayCqWcmFoundationImplAdaptiveImageComponentServletInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -16114,7 +16116,7 @@ def com_day_cq_wcm_foundation_impl_http_auth_handler(post=None, apply=None, dele
     :param auth_cred_utf8: 
     :type auth_cred_utf8: List[str]
 
-    :rtype: ComDayCqWcmFoundationImplHTTPAuthHandlerInfo
+    :rtype: Union[ComDayCqWcmFoundationImplHTTPAuthHandlerInfo, Tuple[ComDayCqWcmFoundationImplHTTPAuthHandlerInfo, int], Tuple[ComDayCqWcmFoundationImplHTTPAuthHandlerInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -16139,7 +16141,7 @@ def com_day_cq_wcm_foundation_impl_page_impressions_tracker(post=None, apply=Non
     :param sling_auth_requirements: 
     :type sling_auth_requirements: str
 
-    :rtype: ComDayCqWcmFoundationImplPageImpressionsTrackerInfo
+    :rtype: Union[ComDayCqWcmFoundationImplPageImpressionsTrackerInfo, Tuple[ComDayCqWcmFoundationImplPageImpressionsTrackerInfo, int], Tuple[ComDayCqWcmFoundationImplPageImpressionsTrackerInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -16164,7 +16166,7 @@ def com_day_cq_wcm_foundation_impl_page_redirect_servlet(post=None, apply=None, 
     :param excluded_resource_types: 
     :type excluded_resource_types: List[str]
 
-    :rtype: ComDayCqWcmFoundationImplPageRedirectServletInfo
+    :rtype: Union[ComDayCqWcmFoundationImplPageRedirectServletInfo, Tuple[ComDayCqWcmFoundationImplPageRedirectServletInfo, int], Tuple[ComDayCqWcmFoundationImplPageRedirectServletInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -16191,7 +16193,7 @@ def com_day_cq_wcm_foundation_security_impl_default_attachment_type_blacklist(po
     :param baseline_attachment_type_blacklist: 
     :type baseline_attachment_type_blacklist: List[str]
 
-    :rtype: ComDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistInfo
+    :rtype: Union[ComDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistInfo, Tuple[ComDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistInfo, int], Tuple[ComDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -16230,7 +16232,7 @@ def com_day_cq_wcm_foundation_security_impl_safer_sling_post_validator_impl(post
     :param resourcetype_whitelist: 
     :type resourcetype_whitelist: List[str]
 
-    :rtype: ComDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplInfo
+    :rtype: Union[ComDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplInfo, Tuple[ComDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplInfo, int], Tuple[ComDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -16257,7 +16259,7 @@ def com_day_cq_wcm_mobile_core_impl_device_device_info_transformer_factory(post=
     :param device_info_transformer_css_style: 
     :type device_info_transformer_css_style: str
 
-    :rtype: ComDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactoryInfo
+    :rtype: Union[ComDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactoryInfo, Tuple[ComDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactoryInfo, int], Tuple[ComDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactoryInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -16288,7 +16290,7 @@ def com_day_cq_wcm_mobile_core_impl_redirect_redirect_filter(post=None, apply=No
     :param redirect_paths: 
     :type redirect_paths: List[str]
 
-    :rtype: ComDayCqWcmMobileCoreImplRedirectRedirectFilterInfo
+    :rtype: Union[ComDayCqWcmMobileCoreImplRedirectRedirectFilterInfo, Tuple[ComDayCqWcmMobileCoreImplRedirectRedirectFilterInfo, int], Tuple[ComDayCqWcmMobileCoreImplRedirectRedirectFilterInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -16319,7 +16321,7 @@ def com_day_cq_wcm_msm_impl_actions_content_copy_action_factory(post=None, apply
     :param contentcopyaction_order_style: 
     :type contentcopyaction_order_style: str
 
-    :rtype: ComDayCqWcmMsmImplActionsContentCopyActionFactoryInfo
+    :rtype: Union[ComDayCqWcmMsmImplActionsContentCopyActionFactoryInfo, Tuple[ComDayCqWcmMsmImplActionsContentCopyActionFactoryInfo, int], Tuple[ComDayCqWcmMsmImplActionsContentCopyActionFactoryInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -16348,7 +16350,7 @@ def com_day_cq_wcm_msm_impl_actions_content_delete_action_factory(post=None, app
     :param cq_wcm_msm_action_excludedprops: 
     :type cq_wcm_msm_action_excludedprops: List[str]
 
-    :rtype: ComDayCqWcmMsmImplActionsContentDeleteActionFactoryInfo
+    :rtype: Union[ComDayCqWcmMsmImplActionsContentDeleteActionFactoryInfo, Tuple[ComDayCqWcmMsmImplActionsContentDeleteActionFactoryInfo, int], Tuple[ComDayCqWcmMsmImplActionsContentDeleteActionFactoryInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -16379,7 +16381,7 @@ def com_day_cq_wcm_msm_impl_actions_content_update_action_factory(post=None, app
     :param cq_wcm_msm_action_ignored_mixin: 
     :type cq_wcm_msm_action_ignored_mixin: List[str]
 
-    :rtype: ComDayCqWcmMsmImplActionsContentUpdateActionFactoryInfo
+    :rtype: Union[ComDayCqWcmMsmImplActionsContentUpdateActionFactoryInfo, Tuple[ComDayCqWcmMsmImplActionsContentUpdateActionFactoryInfo, int], Tuple[ComDayCqWcmMsmImplActionsContentUpdateActionFactoryInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -16408,7 +16410,7 @@ def com_day_cq_wcm_msm_impl_actions_order_children_action_factory(post=None, app
     :param cq_wcm_msm_action_excludedprops: 
     :type cq_wcm_msm_action_excludedprops: List[str]
 
-    :rtype: ComDayCqWcmMsmImplActionsOrderChildrenActionFactoryInfo
+    :rtype: Union[ComDayCqWcmMsmImplActionsOrderChildrenActionFactoryInfo, Tuple[ComDayCqWcmMsmImplActionsOrderChildrenActionFactoryInfo, int], Tuple[ComDayCqWcmMsmImplActionsOrderChildrenActionFactoryInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -16439,7 +16441,7 @@ def com_day_cq_wcm_msm_impl_actions_page_move_action_factory(post=None, apply=No
     :param cq_wcm_msm_impl_actions_pagemove_prop_reference_update: 
     :type cq_wcm_msm_impl_actions_pagemove_prop_reference_update: bool
 
-    :rtype: ComDayCqWcmMsmImplActionsPageMoveActionFactoryInfo
+    :rtype: Union[ComDayCqWcmMsmImplActionsPageMoveActionFactoryInfo, Tuple[ComDayCqWcmMsmImplActionsPageMoveActionFactoryInfo, int], Tuple[ComDayCqWcmMsmImplActionsPageMoveActionFactoryInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -16470,7 +16472,7 @@ def com_day_cq_wcm_msm_impl_actions_references_update_action_factory(post=None, 
     :param cq_wcm_msm_impl_action_referencesupdate_prop_update_nested: 
     :type cq_wcm_msm_impl_action_referencesupdate_prop_update_nested: bool
 
-    :rtype: ComDayCqWcmMsmImplActionsReferencesUpdateActionFactoryInfo
+    :rtype: Union[ComDayCqWcmMsmImplActionsReferencesUpdateActionFactoryInfo, Tuple[ComDayCqWcmMsmImplActionsReferencesUpdateActionFactoryInfo, int], Tuple[ComDayCqWcmMsmImplActionsReferencesUpdateActionFactoryInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -16499,7 +16501,7 @@ def com_day_cq_wcm_msm_impl_actions_version_copy_action_factory(post=None, apply
     :param cq_wcm_msm_action_excludedprops: 
     :type cq_wcm_msm_action_excludedprops: List[str]
 
-    :rtype: ComDayCqWcmMsmImplActionsVersionCopyActionFactoryInfo
+    :rtype: Union[ComDayCqWcmMsmImplActionsVersionCopyActionFactoryInfo, Tuple[ComDayCqWcmMsmImplActionsVersionCopyActionFactoryInfo, int], Tuple[ComDayCqWcmMsmImplActionsVersionCopyActionFactoryInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -16524,7 +16526,7 @@ def com_day_cq_wcm_msm_impl_live_relationship_manager_impl(post=None, apply=None
     :param liverelationshipmgr_relationsconfig_default: 
     :type liverelationshipmgr_relationsconfig_default: str
 
-    :rtype: ComDayCqWcmMsmImplLiveRelationshipManagerImplInfo
+    :rtype: Union[ComDayCqWcmMsmImplLiveRelationshipManagerImplInfo, Tuple[ComDayCqWcmMsmImplLiveRelationshipManagerImplInfo, int], Tuple[ComDayCqWcmMsmImplLiveRelationshipManagerImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -16565,7 +16567,7 @@ def com_day_cq_wcm_msm_impl_rollout_manager_impl(post=None, apply=None, delete=N
     :param rolloutmgr_conflicthandling_enabled: 
     :type rolloutmgr_conflicthandling_enabled: bool
 
-    :rtype: ComDayCqWcmMsmImplRolloutManagerImplInfo
+    :rtype: Union[ComDayCqWcmMsmImplRolloutManagerImplInfo, Tuple[ComDayCqWcmMsmImplRolloutManagerImplInfo, int], Tuple[ComDayCqWcmMsmImplRolloutManagerImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -16592,7 +16594,7 @@ def com_day_cq_wcm_msm_impl_servlets_audit_log_servlet(post=None, apply=None, de
     :param auditlogservlet_default_path: 
     :type auditlogservlet_default_path: str
 
-    :rtype: ComDayCqWcmMsmImplServletsAuditLogServletInfo
+    :rtype: Union[ComDayCqWcmMsmImplServletsAuditLogServletInfo, Tuple[ComDayCqWcmMsmImplServletsAuditLogServletInfo, int], Tuple[ComDayCqWcmMsmImplServletsAuditLogServletInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -16617,7 +16619,7 @@ def com_day_cq_wcm_notification_email_impl_email_channel(post=None, apply=None, 
     :param email_from: 
     :type email_from: str
 
-    :rtype: ComDayCqWcmNotificationEmailImplEmailChannelInfo
+    :rtype: Union[ComDayCqWcmNotificationEmailImplEmailChannelInfo, Tuple[ComDayCqWcmNotificationEmailImplEmailChannelInfo, int], Tuple[ComDayCqWcmNotificationEmailImplEmailChannelInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -16642,7 +16644,7 @@ def com_day_cq_wcm_notification_impl_notification_manager_impl(post=None, apply=
     :param event_topics: 
     :type event_topics: List[str]
 
-    :rtype: ComDayCqWcmNotificationImplNotificationManagerImplInfo
+    :rtype: Union[ComDayCqWcmNotificationImplNotificationManagerImplInfo, Tuple[ComDayCqWcmNotificationImplNotificationManagerImplInfo, int], Tuple[ComDayCqWcmNotificationImplNotificationManagerImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -16667,7 +16669,7 @@ def com_day_cq_wcm_scripting_impl_bvp_manager(post=None, apply=None, delete=None
     :param com_day_cq_wcm_scripting_bvp_script_engines: 
     :type com_day_cq_wcm_scripting_bvp_script_engines: List[str]
 
-    :rtype: ComDayCqWcmScriptingImplBVPManagerInfo
+    :rtype: Union[ComDayCqWcmScriptingImplBVPManagerInfo, Tuple[ComDayCqWcmScriptingImplBVPManagerInfo, int], Tuple[ComDayCqWcmScriptingImplBVPManagerInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -16708,7 +16710,7 @@ def com_day_cq_wcm_undo_undo_config(post=None, apply=None, delete=None, action=N
     :param cq_wcm_undo_blacklist: 
     :type cq_wcm_undo_blacklist: List[str]
 
-    :rtype: ComDayCqWcmUndoUndoConfigInfo
+    :rtype: Union[ComDayCqWcmUndoUndoConfigInfo, Tuple[ComDayCqWcmUndoUndoConfigInfo, int], Tuple[ComDayCqWcmUndoUndoConfigInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -16733,7 +16735,7 @@ def com_day_cq_wcm_webservicesupport_impl_replication_event_listener(post=None, 
     :param flush_agents: 
     :type flush_agents: List[str]
 
-    :rtype: ComDayCqWcmWebservicesupportImplReplicationEventListenerInfo
+    :rtype: Union[ComDayCqWcmWebservicesupportImplReplicationEventListenerInfo, Tuple[ComDayCqWcmWebservicesupportImplReplicationEventListenerInfo, int], Tuple[ComDayCqWcmWebservicesupportImplReplicationEventListenerInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -16766,7 +16768,7 @@ def com_day_cq_wcm_workflow_impl_wcm_workflow_service_impl(post=None, apply=None
     :param cq_wcm_worklfow_terminate_exclusion_list: 
     :type cq_wcm_worklfow_terminate_exclusion_list: List[str]
 
-    :rtype: ComDayCqWcmWorkflowImplWcmWorkflowServiceImplInfo
+    :rtype: Union[ComDayCqWcmWorkflowImplWcmWorkflowServiceImplInfo, Tuple[ComDayCqWcmWorkflowImplWcmWorkflowServiceImplInfo, int], Tuple[ComDayCqWcmWorkflowImplWcmWorkflowServiceImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -16793,7 +16795,7 @@ def com_day_cq_wcm_workflow_impl_workflow_package_info_provider(post=None, apply
     :param workflowpackageinfoprovider_filter_rootpath: 
     :type workflowpackageinfoprovider_filter_rootpath: str
 
-    :rtype: ComDayCqWcmWorkflowImplWorkflowPackageInfoProviderInfo
+    :rtype: Union[ComDayCqWcmWorkflowImplWorkflowPackageInfoProviderInfo, Tuple[ComDayCqWcmWorkflowImplWorkflowPackageInfoProviderInfo, int], Tuple[ComDayCqWcmWorkflowImplWorkflowPackageInfoProviderInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -16844,7 +16846,7 @@ def com_day_cq_widget_impl_html_library_manager_impl(post=None, apply=None, dele
     :param htmllibmanager_timing: 
     :type htmllibmanager_timing: bool
 
-    :rtype: ComDayCqWidgetImplHtmlLibraryManagerImplInfo
+    :rtype: Union[ComDayCqWidgetImplHtmlLibraryManagerImplInfo, Tuple[ComDayCqWidgetImplHtmlLibraryManagerImplInfo, int], Tuple[ComDayCqWidgetImplHtmlLibraryManagerImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -16871,7 +16873,7 @@ def com_day_cq_widget_impl_widget_extension_provider_impl(post=None, apply=None,
     :param widgetextensionprovider_debug: 
     :type widgetextensionprovider_debug: bool
 
-    :rtype: ComDayCqWidgetImplWidgetExtensionProviderImplInfo
+    :rtype: Union[ComDayCqWidgetImplWidgetExtensionProviderImplInfo, Tuple[ComDayCqWidgetImplWidgetExtensionProviderImplInfo, int], Tuple[ComDayCqWidgetImplWidgetExtensionProviderImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -16906,7 +16908,7 @@ def com_day_cq_workflow_impl_email_e_mail_notification_service(post=None, apply=
     :param notify_useronly: 
     :type notify_useronly: bool
 
-    :rtype: ComDayCqWorkflowImplEmailEMailNotificationServiceInfo
+    :rtype: Union[ComDayCqWorkflowImplEmailEMailNotificationServiceInfo, Tuple[ComDayCqWorkflowImplEmailEMailNotificationServiceInfo, int], Tuple[ComDayCqWorkflowImplEmailEMailNotificationServiceInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -16933,7 +16935,7 @@ def com_day_cq_workflow_impl_email_task_e_mail_notification_service(post=None, a
     :param notify_oncomplete: 
     :type notify_oncomplete: bool
 
-    :rtype: ComDayCqWorkflowImplEmailTaskEMailNotificationServiceInfo
+    :rtype: Union[ComDayCqWorkflowImplEmailTaskEMailNotificationServiceInfo, Tuple[ComDayCqWorkflowImplEmailTaskEMailNotificationServiceInfo, int], Tuple[ComDayCqWorkflowImplEmailTaskEMailNotificationServiceInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -16966,7 +16968,7 @@ def com_day_crx_security_token_impl_impl_token_authentication_handler(post=None,
     :param skip_token_refresh: 
     :type skip_token_refresh: List[str]
 
-    :rtype: ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerInfo
+    :rtype: Union[ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerInfo, Tuple[ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerInfo, int], Tuple[ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -16995,7 +16997,7 @@ def com_day_crx_security_token_impl_token_cleanup_task(post=None, apply=None, de
     :param batch_size: 
     :type batch_size: int
 
-    :rtype: ComDayCrxSecurityTokenImplTokenCleanupTaskInfo
+    :rtype: Union[ComDayCrxSecurityTokenImplTokenCleanupTaskInfo, Tuple[ComDayCrxSecurityTokenImplTokenCleanupTaskInfo, int], Tuple[ComDayCrxSecurityTokenImplTokenCleanupTaskInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -17022,7 +17024,7 @@ def guide_localization_service(post=None, apply=None, delete=None, action=None, 
     :param localizable_properties: 
     :type localizable_properties: List[str]
 
-    :rtype: GuideLocalizationServiceInfo
+    :rtype: Union[GuideLocalizationServiceInfo, Tuple[GuideLocalizationServiceInfo, int], Tuple[GuideLocalizationServiceInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -17047,7 +17049,7 @@ def messaging_user_component_factory(post=None, apply=None, delete=None, action=
     :param priority: 
     :type priority: int
 
-    :rtype: MessagingUserComponentFactoryInfo
+    :rtype: Union[MessagingUserComponentFactoryInfo, Tuple[MessagingUserComponentFactoryInfo, int], Tuple[MessagingUserComponentFactoryInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -17072,7 +17074,7 @@ def org_apache_aries_jmx_framework_state_config(post=None, apply=None, delete=No
     :param attribute_change_notification_enabled: 
     :type attribute_change_notification_enabled: bool
 
-    :rtype: OrgApacheAriesJmxFrameworkStateConfigInfo
+    :rtype: Union[OrgApacheAriesJmxFrameworkStateConfigInfo, Tuple[OrgApacheAriesJmxFrameworkStateConfigInfo, int], Tuple[OrgApacheAriesJmxFrameworkStateConfigInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -17097,7 +17099,7 @@ def org_apache_felix_eventadmin_impl_event_admin(post=None, apply=None, delete=N
     :param org_apache_felix_eventadmin_thread_pool_size: 
     :type org_apache_felix_eventadmin_thread_pool_size: int
     :param org_apache_felix_eventadmin_async_to_sync_thread_ratio: 
-    :type org_apache_felix_eventadmin_async_to_sync_thread_ratio: float
+    :type org_apache_felix_eventadmin_async_to_sync_thread_ratio: 
     :param org_apache_felix_eventadmin_timeout: 
     :type org_apache_felix_eventadmin_timeout: int
     :param org_apache_felix_eventadmin_require_topic: 
@@ -17107,7 +17109,7 @@ def org_apache_felix_eventadmin_impl_event_admin(post=None, apply=None, delete=N
     :param org_apache_felix_eventadmin_ignore_topic: 
     :type org_apache_felix_eventadmin_ignore_topic: List[str]
 
-    :rtype: OrgApacheFelixEventadminImplEventAdminInfo
+    :rtype: Union[OrgApacheFelixEventadminImplEventAdminInfo, Tuple[OrgApacheFelixEventadminImplEventAdminInfo, int], Tuple[OrgApacheFelixEventadminImplEventAdminInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -17236,7 +17238,7 @@ def org_apache_felix_http(post=None, apply=None, delete=None, action=None, locat
     :param org_apache_felix_http_session_uniqueid: 
     :type org_apache_felix_http_session_uniqueid: bool
 
-    :rtype: OrgApacheFelixHttpInfo
+    :rtype: Union[OrgApacheFelixHttpInfo, Tuple[OrgApacheFelixHttpInfo, int], Tuple[OrgApacheFelixHttpInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -17267,7 +17269,7 @@ def org_apache_felix_http_sslfilter_ssl_filter(post=None, apply=None, delete=Non
     :param rewrite_absolute_urls: 
     :type rewrite_absolute_urls: bool
 
-    :rtype: OrgApacheFelixHttpSslfilterSslFilterInfo
+    :rtype: Union[OrgApacheFelixHttpSslfilterSslFilterInfo, Tuple[OrgApacheFelixHttpSslfilterSslFilterInfo, int], Tuple[OrgApacheFelixHttpSslfilterSslFilterInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -17300,7 +17302,7 @@ def org_apache_felix_jaas_configuration_factory(post=None, apply=None, delete=No
     :param jaas_options: 
     :type jaas_options: List[str]
 
-    :rtype: OrgApacheFelixJaasConfigurationFactoryInfo
+    :rtype: Union[OrgApacheFelixJaasConfigurationFactoryInfo, Tuple[OrgApacheFelixJaasConfigurationFactoryInfo, int], Tuple[OrgApacheFelixJaasConfigurationFactoryInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -17329,7 +17331,7 @@ def org_apache_felix_jaas_configuration_spi(post=None, apply=None, delete=None, 
     :param jaas_global_config_policy: 
     :type jaas_global_config_policy: str
 
-    :rtype: OrgApacheFelixJaasConfigurationSpiInfo
+    :rtype: Union[OrgApacheFelixJaasConfigurationSpiInfo, Tuple[OrgApacheFelixJaasConfigurationSpiInfo, int], Tuple[OrgApacheFelixJaasConfigurationSpiInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -17364,7 +17366,7 @@ def org_apache_felix_scr_scr_service(post=None, apply=None, delete=None, action=
     :param ds_global_extender: 
     :type ds_global_extender: bool
 
-    :rtype: OrgApacheFelixScrScrServiceInfo
+    :rtype: Union[OrgApacheFelixScrScrServiceInfo, Tuple[OrgApacheFelixScrScrServiceInfo, int], Tuple[OrgApacheFelixScrScrServiceInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -17391,7 +17393,7 @@ def org_apache_felix_systemready_impl_components_check(post=None, apply=None, de
     :param type: 
     :type type: str
 
-    :rtype: OrgApacheFelixSystemreadyImplComponentsCheckInfo
+    :rtype: Union[OrgApacheFelixSystemreadyImplComponentsCheckInfo, Tuple[OrgApacheFelixSystemreadyImplComponentsCheckInfo, int], Tuple[OrgApacheFelixSystemreadyImplComponentsCheckInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -17422,7 +17424,7 @@ def org_apache_felix_systemready_impl_framework_start_check(post=None, apply=Non
     :param type: 
     :type type: str
 
-    :rtype: OrgApacheFelixSystemreadyImplFrameworkStartCheckInfo
+    :rtype: Union[OrgApacheFelixSystemreadyImplFrameworkStartCheckInfo, Tuple[OrgApacheFelixSystemreadyImplFrameworkStartCheckInfo, int], Tuple[OrgApacheFelixSystemreadyImplFrameworkStartCheckInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -17449,7 +17451,7 @@ def org_apache_felix_systemready_impl_services_check(post=None, apply=None, dele
     :param type: 
     :type type: str
 
-    :rtype: OrgApacheFelixSystemreadyImplServicesCheckInfo
+    :rtype: Union[OrgApacheFelixSystemreadyImplServicesCheckInfo, Tuple[OrgApacheFelixSystemreadyImplServicesCheckInfo, int], Tuple[OrgApacheFelixSystemreadyImplServicesCheckInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -17476,7 +17478,7 @@ def org_apache_felix_systemready_impl_servlet_system_alive_servlet(post=None, ap
     :param osgi_http_whiteboard_context_select: 
     :type osgi_http_whiteboard_context_select: str
 
-    :rtype: OrgApacheFelixSystemreadyImplServletSystemAliveServletInfo
+    :rtype: Union[OrgApacheFelixSystemreadyImplServletSystemAliveServletInfo, Tuple[OrgApacheFelixSystemreadyImplServletSystemAliveServletInfo, int], Tuple[OrgApacheFelixSystemreadyImplServletSystemAliveServletInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -17503,7 +17505,7 @@ def org_apache_felix_systemready_impl_servlet_system_ready_servlet(post=None, ap
     :param osgi_http_whiteboard_context_select: 
     :type osgi_http_whiteboard_context_select: str
 
-    :rtype: OrgApacheFelixSystemreadyImplServletSystemReadyServletInfo
+    :rtype: Union[OrgApacheFelixSystemreadyImplServletSystemReadyServletInfo, Tuple[OrgApacheFelixSystemreadyImplServletSystemReadyServletInfo, int], Tuple[OrgApacheFelixSystemreadyImplServletSystemReadyServletInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -17528,7 +17530,7 @@ def org_apache_felix_systemready_system_ready_monitor(post=None, apply=None, del
     :param poll_interval: 
     :type poll_interval: int
 
-    :rtype: OrgApacheFelixSystemreadySystemReadyMonitorInfo
+    :rtype: Union[OrgApacheFelixSystemreadySystemReadyMonitorInfo, Tuple[OrgApacheFelixSystemreadySystemReadyMonitorInfo, int], Tuple[OrgApacheFelixSystemreadySystemReadyMonitorInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -17571,7 +17573,7 @@ def org_apache_felix_webconsole_internal_servlet_osgi_manager(post=None, apply=N
     :param plugins: 
     :type plugins: str
 
-    :rtype: OrgApacheFelixWebconsoleInternalServletOsgiManagerInfo
+    :rtype: Union[OrgApacheFelixWebconsoleInternalServletOsgiManagerInfo, Tuple[OrgApacheFelixWebconsoleInternalServletOsgiManagerInfo, int], Tuple[OrgApacheFelixWebconsoleInternalServletOsgiManagerInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -17596,7 +17598,7 @@ def org_apache_felix_webconsole_plugins_event_internal_plugin_servlet(post=None,
     :param max_size: 
     :type max_size: int
 
-    :rtype: OrgApacheFelixWebconsolePluginsEventInternalPluginServletInfo
+    :rtype: Union[OrgApacheFelixWebconsolePluginsEventInternalPluginServletInfo, Tuple[OrgApacheFelixWebconsolePluginsEventInternalPluginServletInfo, int], Tuple[OrgApacheFelixWebconsolePluginsEventInternalPluginServletInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -17625,7 +17627,7 @@ def org_apache_felix_webconsole_plugins_memoryusage_internal_memory_usage_co(pos
     :param felix_memoryusage_dump_location: 
     :type felix_memoryusage_dump_location: str
 
-    :rtype: OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCoInfo
+    :rtype: Union[OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCoInfo, Tuple[OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCoInfo, int], Tuple[OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCoInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -17660,7 +17662,7 @@ def org_apache_http_proxyconfigurator(post=None, apply=None, delete=None, action
     :param proxy_exceptions: 
     :type proxy_exceptions: List[str]
 
-    :rtype: OrgApacheHttpProxyconfiguratorInfo
+    :rtype: Union[OrgApacheHttpProxyconfiguratorInfo, Tuple[OrgApacheHttpProxyconfiguratorInfo, int], Tuple[OrgApacheHttpProxyconfiguratorInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -17685,7 +17687,7 @@ def org_apache_jackrabbit_oak_plugins_blob_datastore_data_store_text_provider(po
     :param dir: 
     :type dir: str
 
-    :rtype: OrgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProviderInfo
+    :rtype: Union[OrgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProviderInfo, Tuple[OrgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProviderInfo, int], Tuple[OrgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProviderInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -17710,7 +17712,7 @@ def org_apache_jackrabbit_oak_plugins_blob_datastore_file_data_store(post=None, 
     :param path: 
     :type path: str
 
-    :rtype: OrgApacheJackrabbitOakPluginsBlobDatastoreFileDataStoreInfo
+    :rtype: Union[OrgApacheJackrabbitOakPluginsBlobDatastoreFileDataStoreInfo, Tuple[OrgApacheJackrabbitOakPluginsBlobDatastoreFileDataStoreInfo, int], Tuple[OrgApacheJackrabbitOakPluginsBlobDatastoreFileDataStoreInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -17793,7 +17795,7 @@ def org_apache_jackrabbit_oak_plugins_document_document_node_store_service(post=
     :param lease_check_mode: 
     :type lease_check_mode: str
 
-    :rtype: OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceInfo
+    :rtype: Union[OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceInfo, Tuple[OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceInfo, int], Tuple[OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -17818,7 +17820,7 @@ def org_apache_jackrabbit_oak_plugins_document_document_node_store_service_pre(p
     :param persistent_cache_includes: 
     :type persistent_cache_includes: List[str]
 
-    :rtype: OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePreInfo
+    :rtype: Union[OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePreInfo, Tuple[OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePreInfo, int], Tuple[OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePreInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -17847,7 +17849,7 @@ def org_apache_jackrabbit_oak_plugins_document_secondary_secondary_store_cac(pos
     :param observer_queue_size: 
     :type observer_queue_size: int
 
-    :rtype: OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacInfo
+    :rtype: Union[OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacInfo, Tuple[OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacInfo, int], Tuple[OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -17878,7 +17880,7 @@ def org_apache_jackrabbit_oak_plugins_index_async_indexer_service(post=None, app
     :param error_warn_interval_seconds: 
     :type error_warn_interval_seconds: int
 
-    :rtype: OrgApacheJackrabbitOakPluginsIndexAsyncIndexerServiceInfo
+    :rtype: Union[OrgApacheJackrabbitOakPluginsIndexAsyncIndexerServiceInfo, Tuple[OrgApacheJackrabbitOakPluginsIndexAsyncIndexerServiceInfo, int], Tuple[OrgApacheJackrabbitOakPluginsIndexAsyncIndexerServiceInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -17933,7 +17935,7 @@ def org_apache_jackrabbit_oak_plugins_index_lucene_lucene_index_provider_serv(po
     :param enable_single_blob_index_files: 
     :type enable_single_blob_index_files: bool
 
-    :rtype: OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServInfo
+    :rtype: Union[OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServInfo, Tuple[OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServInfo, int], Tuple[OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -17960,7 +17962,7 @@ def org_apache_jackrabbit_oak_plugins_index_solr_osgi_embedded_solr_server_co(po
     :param solr_core_name: 
     :type solr_core_name: str
 
-    :rtype: OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCoInfo
+    :rtype: Union[OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCoInfo, Tuple[OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCoInfo, int], Tuple[OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCoInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -17985,7 +17987,7 @@ def org_apache_jackrabbit_oak_plugins_index_solr_osgi_node_state_solr_servers(po
     :param enabled: 
     :type enabled: bool
 
-    :rtype: OrgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersInfo
+    :rtype: Union[OrgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersInfo, Tuple[OrgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersInfo, int], Tuple[OrgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -18042,7 +18044,7 @@ def org_apache_jackrabbit_oak_plugins_index_solr_osgi_oak_solr_configuration(pos
     :param collapse_jcrcontent_nodes: 
     :type collapse_jcrcontent_nodes: bool
 
-    :rtype: OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationInfo
+    :rtype: Union[OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationInfo, Tuple[OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationInfo, int], Tuple[OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -18081,7 +18083,7 @@ def org_apache_jackrabbit_oak_plugins_index_solr_osgi_remote_solr_server_conf(po
     :param solr_conf_dir: 
     :type solr_conf_dir: str
 
-    :rtype: OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfInfo
+    :rtype: Union[OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfInfo, Tuple[OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfInfo, int], Tuple[OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -18106,7 +18108,7 @@ def org_apache_jackrabbit_oak_plugins_index_solr_osgi_solr_query_index_provid(po
     :param query_aggregation: 
     :type query_aggregation: bool
 
-    :rtype: OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProvidInfo
+    :rtype: Union[OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProvidInfo, Tuple[OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProvidInfo, int], Tuple[OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProvidInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -18131,7 +18133,7 @@ def org_apache_jackrabbit_oak_plugins_index_solr_osgi_solr_server_provider_se(po
     :param server_type: 
     :type server_type: str
 
-    :rtype: OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderSeInfo
+    :rtype: Union[OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderSeInfo, Tuple[OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderSeInfo, int], Tuple[OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderSeInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -18156,7 +18158,7 @@ def org_apache_jackrabbit_oak_plugins_metric_statistics_provider_factory(post=No
     :param provider_type: 
     :type provider_type: str
 
-    :rtype: OrgApacheJackrabbitOakPluginsMetricStatisticsProviderFactoryInfo
+    :rtype: Union[OrgApacheJackrabbitOakPluginsMetricStatisticsProviderFactoryInfo, Tuple[OrgApacheJackrabbitOakPluginsMetricStatisticsProviderFactoryInfo, int], Tuple[OrgApacheJackrabbitOakPluginsMetricStatisticsProviderFactoryInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -18185,7 +18187,7 @@ def org_apache_jackrabbit_oak_plugins_observation_change_collector_provider(post
     :param enabled: 
     :type enabled: bool
 
-    :rtype: OrgApacheJackrabbitOakPluginsObservationChangeCollectorProviderInfo
+    :rtype: Union[OrgApacheJackrabbitOakPluginsObservationChangeCollectorProviderInfo, Tuple[OrgApacheJackrabbitOakPluginsObservationChangeCollectorProviderInfo, int], Tuple[OrgApacheJackrabbitOakPluginsObservationChangeCollectorProviderInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -18216,7 +18218,7 @@ def org_apache_jackrabbit_oak_query_query_engine_settings_service(post=None, app
     :param fast_query_size: 
     :type fast_query_size: bool
 
-    :rtype: OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceInfo
+    :rtype: Union[OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceInfo, Tuple[OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceInfo, int], Tuple[OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -18243,7 +18245,7 @@ def org_apache_jackrabbit_oak_security_authentication_authentication_config(post
     :param org_apache_jackrabbit_oak_authentication_config_spi_name: 
     :type org_apache_jackrabbit_oak_authentication_config_spi_name: str
 
-    :rtype: OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigInfo
+    :rtype: Union[OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigInfo, Tuple[OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigInfo, int], Tuple[OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -18318,7 +18320,7 @@ def org_apache_jackrabbit_oak_security_authentication_ldap_impl_ldap_identi(post
     :param customattributes: 
     :type customattributes: List[str]
 
-    :rtype: OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiInfo
+    :rtype: Union[OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiInfo, Tuple[OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiInfo, int], Tuple[OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -18355,7 +18357,7 @@ def org_apache_jackrabbit_oak_security_authentication_token_token_configura(post
     :param password_salt_size: 
     :type password_salt_size: int
 
-    :rtype: OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraInfo
+    :rtype: Union[OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraInfo, Tuple[OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraInfo, int], Tuple[OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -18388,7 +18390,7 @@ def org_apache_jackrabbit_oak_security_authorization_authorization_configur(post
     :param configuration_ranking: 
     :type configuration_ranking: int
 
-    :rtype: OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurInfo
+    :rtype: Union[OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurInfo, Tuple[OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurInfo, int], Tuple[OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -18415,7 +18417,7 @@ def org_apache_jackrabbit_oak_security_internal_security_provider_registrati(pos
     :param authorization_composition_type: 
     :type authorization_composition_type: str
 
-    :rtype: OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistratiInfo
+    :rtype: Union[OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistratiInfo, Tuple[OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistratiInfo, int], Tuple[OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistratiInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -18440,7 +18442,7 @@ def org_apache_jackrabbit_oak_security_user_random_authorizable_node_name(post=N
     :param length: 
     :type length: int
 
-    :rtype: OrgApacheJackrabbitOakSecurityUserRandomAuthorizableNodeNameInfo
+    :rtype: Union[OrgApacheJackrabbitOakSecurityUserRandomAuthorizableNodeNameInfo, Tuple[OrgApacheJackrabbitOakSecurityUserRandomAuthorizableNodeNameInfo, int], Tuple[OrgApacheJackrabbitOakSecurityUserRandomAuthorizableNodeNameInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -18495,7 +18497,7 @@ def org_apache_jackrabbit_oak_security_user_user_configuration_impl(post=None, a
     :param enable_rfc7613_usercase_mapped_profile: 
     :type enable_rfc7613_usercase_mapped_profile: bool
 
-    :rtype: OrgApacheJackrabbitOakSecurityUserUserConfigurationImplInfo
+    :rtype: Union[OrgApacheJackrabbitOakSecurityUserUserConfigurationImplInfo, Tuple[OrgApacheJackrabbitOakSecurityUserUserConfigurationImplInfo, int], Tuple[OrgApacheJackrabbitOakSecurityUserUserConfigurationImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -18528,7 +18530,7 @@ def org_apache_jackrabbit_oak_segment_azure_azure_segment_store_service(post=Non
     :param connection_url: 
     :type connection_url: str
 
-    :rtype: OrgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServiceInfo
+    :rtype: Union[OrgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServiceInfo, Tuple[OrgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServiceInfo, int], Tuple[OrgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServiceInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -18605,7 +18607,7 @@ def org_apache_jackrabbit_oak_segment_segment_node_store_factory(post=None, appl
     :param dispatch_changes: 
     :type dispatch_changes: bool
 
-    :rtype: OrgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryInfo
+    :rtype: Union[OrgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryInfo, Tuple[OrgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryInfo, int], Tuple[OrgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -18630,7 +18632,7 @@ def org_apache_jackrabbit_oak_segment_segment_node_store_monitor_service(post=No
     :param commits_tracker_writer_groups: 
     :type commits_tracker_writer_groups: List[str]
 
-    :rtype: OrgApacheJackrabbitOakSegmentSegmentNodeStoreMonitorServiceInfo
+    :rtype: Union[OrgApacheJackrabbitOakSegmentSegmentNodeStoreMonitorServiceInfo, Tuple[OrgApacheJackrabbitOakSegmentSegmentNodeStoreMonitorServiceInfo, int], Tuple[OrgApacheJackrabbitOakSegmentSegmentNodeStoreMonitorServiceInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -18701,7 +18703,7 @@ def org_apache_jackrabbit_oak_segment_segment_node_store_service(post=None, appl
     :param blob_track_snapshot_interval_in_secs: 
     :type blob_track_snapshot_interval_in_secs: int
 
-    :rtype: OrgApacheJackrabbitOakSegmentSegmentNodeStoreServiceInfo
+    :rtype: Union[OrgApacheJackrabbitOakSegmentSegmentNodeStoreServiceInfo, Tuple[OrgApacheJackrabbitOakSegmentSegmentNodeStoreServiceInfo, int], Tuple[OrgApacheJackrabbitOakSegmentSegmentNodeStoreServiceInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -18742,7 +18744,7 @@ def org_apache_jackrabbit_oak_segment_standby_store_standby_store_service(post=N
     :param standby_autoclean: 
     :type standby_autoclean: bool
 
-    :rtype: OrgApacheJackrabbitOakSegmentStandbyStoreStandbyStoreServiceInfo
+    :rtype: Union[OrgApacheJackrabbitOakSegmentStandbyStoreStandbyStoreServiceInfo, Tuple[OrgApacheJackrabbitOakSegmentStandbyStoreStandbyStoreServiceInfo, int], Tuple[OrgApacheJackrabbitOakSegmentStandbyStoreStandbyStoreServiceInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -18793,7 +18795,7 @@ def org_apache_jackrabbit_oak_spi_security_authentication_external_impl_de(post=
     :param enable_rfc7613_usercase_mapped_profile: 
     :type enable_rfc7613_usercase_mapped_profile: bool
 
-    :rtype: OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeInfo
+    :rtype: Union[OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeInfo, Tuple[OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeInfo, int], Tuple[OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -18826,7 +18828,7 @@ def org_apache_jackrabbit_oak_spi_security_authentication_external_impl_ex(post=
     :param sync_handler_name: 
     :type sync_handler_name: str
 
-    :rtype: OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExInfo
+    :rtype: Union[OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExInfo, Tuple[OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExInfo, int], Tuple[OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -18851,7 +18853,7 @@ def org_apache_jackrabbit_oak_spi_security_authentication_external_impl_pr(post=
     :param protect_external_id: 
     :type protect_external_id: bool
 
-    :rtype: OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrInfo
+    :rtype: Union[OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrInfo, Tuple[OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrInfo, int], Tuple[OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -18880,7 +18882,7 @@ def org_apache_jackrabbit_oak_spi_security_authorization_cug_impl_cug_confi(post
     :param configuration_ranking: 
     :type configuration_ranking: int
 
-    :rtype: OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiInfo
+    :rtype: Union[OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiInfo, Tuple[OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiInfo, int], Tuple[OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -18905,7 +18907,7 @@ def org_apache_jackrabbit_oak_spi_security_authorization_cug_impl_cug_exclu(post
     :param principal_names: 
     :type principal_names: List[str]
 
-    :rtype: OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExcluInfo
+    :rtype: Union[OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExcluInfo, Tuple[OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExcluInfo, int], Tuple[OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExcluInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -18936,7 +18938,7 @@ def org_apache_jackrabbit_oak_spi_security_user_action_default_authorizable(post
     :param constraint: 
     :type constraint: str
 
-    :rtype: OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableInfo
+    :rtype: Union[OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableInfo, Tuple[OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableInfo, int], Tuple[OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -18961,7 +18963,7 @@ def org_apache_jackrabbit_vault_packaging_impl_packaging_impl(post=None, apply=N
     :param package_roots: 
     :type package_roots: List[str]
 
-    :rtype: OrgApacheJackrabbitVaultPackagingImplPackagingImplInfo
+    :rtype: Union[OrgApacheJackrabbitVaultPackagingImplPackagingImplInfo, Tuple[OrgApacheJackrabbitVaultPackagingImplPackagingImplInfo, int], Tuple[OrgApacheJackrabbitVaultPackagingImplPackagingImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -18986,7 +18988,7 @@ def org_apache_jackrabbit_vault_packaging_registry_impl_fs_package_registry(post
     :param home_path: 
     :type home_path: str
 
-    :rtype: OrgApacheJackrabbitVaultPackagingRegistryImplFSPackageRegistryInfo
+    :rtype: Union[OrgApacheJackrabbitVaultPackagingRegistryImplFSPackageRegistryInfo, Tuple[OrgApacheJackrabbitVaultPackagingRegistryImplFSPackageRegistryInfo, int], Tuple[OrgApacheJackrabbitVaultPackagingRegistryImplFSPackageRegistryInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -19013,7 +19015,7 @@ def org_apache_sling_auth_core_impl_logout_servlet(post=None, apply=None, delete
     :param sling_servlet_paths: 
     :type sling_servlet_paths: str
 
-    :rtype: OrgApacheSlingAuthCoreImplLogoutServletInfo
+    :rtype: Union[OrgApacheSlingAuthCoreImplLogoutServletInfo, Tuple[OrgApacheSlingAuthCoreImplLogoutServletInfo, int], Tuple[OrgApacheSlingAuthCoreImplLogoutServletInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -19038,7 +19040,7 @@ def org_apache_sling_caconfig_impl_configuration_bindings_value_provider(post=No
     :param enabled: 
     :type enabled: bool
 
-    :rtype: OrgApacheSlingCaconfigImplConfigurationBindingsValueProviderInfo
+    :rtype: Union[OrgApacheSlingCaconfigImplConfigurationBindingsValueProviderInfo, Tuple[OrgApacheSlingCaconfigImplConfigurationBindingsValueProviderInfo, int], Tuple[OrgApacheSlingCaconfigImplConfigurationBindingsValueProviderInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -19063,7 +19065,7 @@ def org_apache_sling_caconfig_impl_configuration_resolver_impl(post=None, apply=
     :param config_bucket_names: 
     :type config_bucket_names: List[str]
 
-    :rtype: OrgApacheSlingCaconfigImplConfigurationResolverImplInfo
+    :rtype: Union[OrgApacheSlingCaconfigImplConfigurationResolverImplInfo, Tuple[OrgApacheSlingCaconfigImplConfigurationResolverImplInfo, int], Tuple[OrgApacheSlingCaconfigImplConfigurationResolverImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -19090,7 +19092,7 @@ def org_apache_sling_caconfig_impl_def_default_configuration_inheritance_stra(po
     :param config_property_inheritance_property_names: 
     :type config_property_inheritance_property_names: List[str]
 
-    :rtype: OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStraInfo
+    :rtype: Union[OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStraInfo, Tuple[OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStraInfo, int], Tuple[OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStraInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -19115,7 +19117,7 @@ def org_apache_sling_caconfig_impl_def_default_configuration_persistence_stra(po
     :param enabled: 
     :type enabled: bool
 
-    :rtype: OrgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStraInfo
+    :rtype: Union[OrgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStraInfo, Tuple[OrgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStraInfo, int], Tuple[OrgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStraInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -19146,7 +19148,7 @@ def org_apache_sling_caconfig_impl_override_osgi_configuration_override_provi(po
     :param service_ranking: 
     :type service_ranking: int
 
-    :rtype: OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviInfo
+    :rtype: Union[OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviInfo, Tuple[OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviInfo, int], Tuple[OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -19173,7 +19175,7 @@ def org_apache_sling_caconfig_impl_override_system_property_configuration_ove(po
     :param service_ranking: 
     :type service_ranking: int
 
-    :rtype: OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOveInfo
+    :rtype: Union[OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOveInfo, Tuple[OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOveInfo, int], Tuple[OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOveInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -19200,7 +19202,7 @@ def org_apache_sling_caconfig_management_impl_configuration_management_setti(pos
     :param config_collection_properties_resource_names: 
     :type config_collection_properties_resource_names: List[str]
 
-    :rtype: OrgApacheSlingCaconfigManagementImplConfigurationManagementSettiInfo
+    :rtype: Union[OrgApacheSlingCaconfigManagementImplConfigurationManagementSettiInfo, Tuple[OrgApacheSlingCaconfigManagementImplConfigurationManagementSettiInfo, int], Tuple[OrgApacheSlingCaconfigManagementImplConfigurationManagementSettiInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -19231,7 +19233,7 @@ def org_apache_sling_caconfig_resource_impl_def_default_configuration_resour(pos
     :param config_collection_inheritance_property_names: 
     :type config_collection_inheritance_property_names: List[str]
 
-    :rtype: OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourInfo
+    :rtype: Union[OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourInfo, Tuple[OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourInfo, int], Tuple[OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -19262,7 +19264,7 @@ def org_apache_sling_caconfig_resource_impl_def_default_context_path_strategy(po
     :param service_ranking: 
     :type service_ranking: int
 
-    :rtype: OrgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyInfo
+    :rtype: Union[OrgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyInfo, Tuple[OrgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyInfo, int], Tuple[OrgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -19287,7 +19289,7 @@ def org_apache_sling_commons_html_internal_tagsoup_html_parser(post=None, apply=
     :param parser_features: 
     :type parser_features: List[str]
 
-    :rtype: OrgApacheSlingCommonsHtmlInternalTagsoupHtmlParserInfo
+    :rtype: Union[OrgApacheSlingCommonsHtmlInternalTagsoupHtmlParserInfo, Tuple[OrgApacheSlingCommonsHtmlInternalTagsoupHtmlParserInfo, int], Tuple[OrgApacheSlingCommonsHtmlInternalTagsoupHtmlParserInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -19330,7 +19332,7 @@ def org_apache_sling_commons_log_log_manager(post=None, apply=None, delete=None,
     :param org_apache_sling_commons_log_num_of_lines: 
     :type org_apache_sling_commons_log_num_of_lines: int
 
-    :rtype: OrgApacheSlingCommonsLogLogManagerInfo
+    :rtype: Union[OrgApacheSlingCommonsLogLogManagerInfo, Tuple[OrgApacheSlingCommonsLogLogManagerInfo, int], Tuple[OrgApacheSlingCommonsLogLogManagerInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -19363,7 +19365,7 @@ def org_apache_sling_commons_log_log_manager_factory_config(post=None, apply=Non
     :param org_apache_sling_commons_log_additiv: 
     :type org_apache_sling_commons_log_additiv: bool
 
-    :rtype: OrgApacheSlingCommonsLogLogManagerFactoryConfigInfo
+    :rtype: Union[OrgApacheSlingCommonsLogLogManagerFactoryConfigInfo, Tuple[OrgApacheSlingCommonsLogLogManagerFactoryConfigInfo, int], Tuple[OrgApacheSlingCommonsLogLogManagerFactoryConfigInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -19394,7 +19396,7 @@ def org_apache_sling_commons_log_log_manager_factory_writer(post=None, apply=Non
     :param org_apache_sling_commons_log_file_buffered: 
     :type org_apache_sling_commons_log_file_buffered: bool
 
-    :rtype: OrgApacheSlingCommonsLogLogManagerFactoryWriterInfo
+    :rtype: Union[OrgApacheSlingCommonsLogLogManagerFactoryWriterInfo, Tuple[OrgApacheSlingCommonsLogLogManagerFactoryWriterInfo, int], Tuple[OrgApacheSlingCommonsLogLogManagerFactoryWriterInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -19431,7 +19433,7 @@ def org_apache_sling_commons_metrics_internal_log_reporter(post=None, apply=None
     :param registry_name: 
     :type registry_name: str
 
-    :rtype: OrgApacheSlingCommonsMetricsInternalLogReporterInfo
+    :rtype: Union[OrgApacheSlingCommonsMetricsInternalLogReporterInfo, Tuple[OrgApacheSlingCommonsMetricsInternalLogReporterInfo, int], Tuple[OrgApacheSlingCommonsMetricsInternalLogReporterInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -19462,7 +19464,7 @@ def org_apache_sling_commons_metrics_rrd4j_impl_codahale_metrics_reporter(post=N
     :param path: 
     :type path: str
 
-    :rtype: OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterInfo
+    :rtype: Union[OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterInfo, Tuple[OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterInfo, int], Tuple[OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -19487,7 +19489,7 @@ def org_apache_sling_commons_mime_internal_mime_type_service_impl(post=None, app
     :param mime_types: 
     :type mime_types: List[str]
 
-    :rtype: OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfo
+    :rtype: Union[OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfo, Tuple[OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfo, int], Tuple[OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -19520,7 +19522,7 @@ def org_apache_sling_commons_scheduler_impl_quartz_scheduler(post=None, apply=No
     :param slow_threshold_millis: 
     :type slow_threshold_millis: int
 
-    :rtype: OrgApacheSlingCommonsSchedulerImplQuartzSchedulerInfo
+    :rtype: Union[OrgApacheSlingCommonsSchedulerImplQuartzSchedulerInfo, Tuple[OrgApacheSlingCommonsSchedulerImplQuartzSchedulerInfo, int], Tuple[OrgApacheSlingCommonsSchedulerImplQuartzSchedulerInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -19545,7 +19547,7 @@ def org_apache_sling_commons_scheduler_impl_scheduler_health_check(post=None, ap
     :param max_quartz_job_duration_acceptable: 
     :type max_quartz_job_duration_acceptable: int
 
-    :rtype: OrgApacheSlingCommonsSchedulerImplSchedulerHealthCheckInfo
+    :rtype: Union[OrgApacheSlingCommonsSchedulerImplSchedulerHealthCheckInfo, Tuple[OrgApacheSlingCommonsSchedulerImplSchedulerHealthCheckInfo, int], Tuple[OrgApacheSlingCommonsSchedulerImplSchedulerHealthCheckInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -19590,7 +19592,7 @@ def org_apache_sling_commons_threads_impl_default_thread_pool_factory(post=None,
     :param priority: 
     :type priority: str
 
-    :rtype: OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryInfo
+    :rtype: Union[OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryInfo, Tuple[OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryInfo, int], Tuple[OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -19671,7 +19673,7 @@ def org_apache_sling_datasource_data_source_factory(post=None, apply=None, delet
     :param datasource_svc_properties: 
     :type datasource_svc_properties: List[str]
 
-    :rtype: OrgApacheSlingDatasourceDataSourceFactoryInfo
+    :rtype: Union[OrgApacheSlingDatasourceDataSourceFactoryInfo, Tuple[OrgApacheSlingDatasourceDataSourceFactoryInfo, int], Tuple[OrgApacheSlingDatasourceDataSourceFactoryInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -19702,7 +19704,7 @@ def org_apache_sling_datasource_jndi_data_source_factory(post=None, apply=None, 
     :param jndi_properties: 
     :type jndi_properties: List[str]
 
-    :rtype: OrgApacheSlingDatasourceJNDIDataSourceFactoryInfo
+    :rtype: Union[OrgApacheSlingDatasourceJNDIDataSourceFactoryInfo, Tuple[OrgApacheSlingDatasourceJNDIDataSourceFactoryInfo, int], Tuple[OrgApacheSlingDatasourceJNDIDataSourceFactoryInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -19763,7 +19765,7 @@ def org_apache_sling_discovery_oak_config(post=None, apply=None, delete=None, ac
     :param backoff_stable_factor: 
     :type backoff_stable_factor: str
 
-    :rtype: OrgApacheSlingDiscoveryOakConfigInfo
+    :rtype: Union[OrgApacheSlingDiscoveryOakConfigInfo, Tuple[OrgApacheSlingDiscoveryOakConfigInfo, int], Tuple[OrgApacheSlingDiscoveryOakConfigInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -19792,7 +19794,7 @@ def org_apache_sling_discovery_oak_synchronized_clocks_health_check(post=None, a
     :param hc_mbean_name: 
     :type hc_mbean_name: str
 
-    :rtype: OrgApacheSlingDiscoveryOakSynchronizedClocksHealthCheckInfo
+    :rtype: Union[OrgApacheSlingDiscoveryOakSynchronizedClocksHealthCheckInfo, Tuple[OrgApacheSlingDiscoveryOakSynchronizedClocksHealthCheckInfo, int], Tuple[OrgApacheSlingDiscoveryOakSynchronizedClocksHealthCheckInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -19855,7 +19857,7 @@ def org_apache_sling_distribution_agent_impl_forward_distribution_agent_facto(po
     :param http_conn_timeout: 
     :type http_conn_timeout: int
 
-    :rtype: OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoInfo
+    :rtype: Union[OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoInfo, Tuple[OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoInfo, int], Tuple[OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -19882,7 +19884,7 @@ def org_apache_sling_distribution_agent_impl_privilege_distribution_request_a(po
     :param jcr_privilege: 
     :type jcr_privilege: str
 
-    :rtype: OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAInfo
+    :rtype: Union[OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAInfo, Tuple[OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAInfo, int], Tuple[OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -19929,7 +19931,7 @@ def org_apache_sling_distribution_agent_impl_queue_distribution_agent_factory(po
     :param priority_queues: 
     :type priority_queues: List[str]
 
-    :rtype: OrgApacheSlingDistributionAgentImplQueueDistributionAgentFactoryInfo
+    :rtype: Union[OrgApacheSlingDistributionAgentImplQueueDistributionAgentFactoryInfo, Tuple[OrgApacheSlingDistributionAgentImplQueueDistributionAgentFactoryInfo, int], Tuple[OrgApacheSlingDistributionAgentImplQueueDistributionAgentFactoryInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -19980,7 +19982,7 @@ def org_apache_sling_distribution_agent_impl_reverse_distribution_agent_facto(po
     :param triggers_target: 
     :type triggers_target: str
 
-    :rtype: OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoInfo
+    :rtype: Union[OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoInfo, Tuple[OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoInfo, int], Tuple[OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -20025,7 +20027,7 @@ def org_apache_sling_distribution_agent_impl_simple_distribution_agent_factor(po
     :param triggers_target: 
     :type triggers_target: str
 
-    :rtype: OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorInfo
+    :rtype: Union[OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorInfo, Tuple[OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorInfo, int], Tuple[OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -20084,7 +20086,7 @@ def org_apache_sling_distribution_agent_impl_sync_distribution_agent_factory(pos
     :param triggers_target: 
     :type triggers_target: str
 
-    :rtype: OrgApacheSlingDistributionAgentImplSyncDistributionAgentFactoryInfo
+    :rtype: Union[OrgApacheSlingDistributionAgentImplSyncDistributionAgentFactoryInfo, Tuple[OrgApacheSlingDistributionAgentImplSyncDistributionAgentFactoryInfo, int], Tuple[OrgApacheSlingDistributionAgentImplSyncDistributionAgentFactoryInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -20115,7 +20117,7 @@ def org_apache_sling_distribution_monitor_distribution_queue_health_check(post=N
     :param number_of_retries_allowed: 
     :type number_of_retries_allowed: int
 
-    :rtype: OrgApacheSlingDistributionMonitorDistributionQueueHealthCheckInfo
+    :rtype: Union[OrgApacheSlingDistributionMonitorDistributionQueueHealthCheckInfo, Tuple[OrgApacheSlingDistributionMonitorDistributionQueueHealthCheckInfo, int], Tuple[OrgApacheSlingDistributionMonitorDistributionQueueHealthCheckInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -20146,7 +20148,7 @@ def org_apache_sling_distribution_packaging_impl_exporter_agent_distributio(post
     :param agent_target: 
     :type agent_target: str
 
-    :rtype: OrgApacheSlingDistributionPackagingImplExporterAgentDistributioInfo
+    :rtype: Union[OrgApacheSlingDistributionPackagingImplExporterAgentDistributioInfo, Tuple[OrgApacheSlingDistributionPackagingImplExporterAgentDistributioInfo, int], Tuple[OrgApacheSlingDistributionPackagingImplExporterAgentDistributioInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -20173,7 +20175,7 @@ def org_apache_sling_distribution_packaging_impl_exporter_local_distributio(post
     :param package_builder_target: 
     :type package_builder_target: str
 
-    :rtype: OrgApacheSlingDistributionPackagingImplExporterLocalDistributioInfo
+    :rtype: Union[OrgApacheSlingDistributionPackagingImplExporterLocalDistributioInfo, Tuple[OrgApacheSlingDistributionPackagingImplExporterLocalDistributioInfo, int], Tuple[OrgApacheSlingDistributionPackagingImplExporterLocalDistributioInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -20206,7 +20208,7 @@ def org_apache_sling_distribution_packaging_impl_exporter_remote_distributi(post
     :param transport_secret_provider_target: 
     :type transport_secret_provider_target: str
 
-    :rtype: OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiInfo
+    :rtype: Union[OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiInfo, Tuple[OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiInfo, int], Tuple[OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -20233,7 +20235,7 @@ def org_apache_sling_distribution_packaging_impl_importer_local_distributio(post
     :param package_builder_target: 
     :type package_builder_target: str
 
-    :rtype: OrgApacheSlingDistributionPackagingImplImporterLocalDistributioInfo
+    :rtype: Union[OrgApacheSlingDistributionPackagingImplImporterLocalDistributioInfo, Tuple[OrgApacheSlingDistributionPackagingImplImporterLocalDistributioInfo, int], Tuple[OrgApacheSlingDistributionPackagingImplImporterLocalDistributioInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -20262,7 +20264,7 @@ def org_apache_sling_distribution_packaging_impl_importer_remote_distributi(post
     :param transport_secret_provider_target: 
     :type transport_secret_provider_target: str
 
-    :rtype: OrgApacheSlingDistributionPackagingImplImporterRemoteDistributiInfo
+    :rtype: Union[OrgApacheSlingDistributionPackagingImplImporterRemoteDistributiInfo, Tuple[OrgApacheSlingDistributionPackagingImplImporterRemoteDistributiInfo, int], Tuple[OrgApacheSlingDistributionPackagingImplImporterRemoteDistributiInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -20293,7 +20295,7 @@ def org_apache_sling_distribution_packaging_impl_importer_repository_distri(post
     :param privilege_name: 
     :type privilege_name: str
 
-    :rtype: OrgApacheSlingDistributionPackagingImplImporterRepositoryDistriInfo
+    :rtype: Union[OrgApacheSlingDistributionPackagingImplImporterRepositoryDistriInfo, Tuple[OrgApacheSlingDistributionPackagingImplImporterRepositoryDistriInfo, int], Tuple[OrgApacheSlingDistributionPackagingImplImporterRepositoryDistriInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -20320,7 +20322,7 @@ def org_apache_sling_distribution_resources_impl_distribution_configuration(post
     :param kind: 
     :type kind: str
 
-    :rtype: OrgApacheSlingDistributionResourcesImplDistributionConfigurationInfo
+    :rtype: Union[OrgApacheSlingDistributionResourcesImplDistributionConfigurationInfo, Tuple[OrgApacheSlingDistributionResourcesImplDistributionConfigurationInfo, int], Tuple[OrgApacheSlingDistributionResourcesImplDistributionConfigurationInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -20347,7 +20349,7 @@ def org_apache_sling_distribution_resources_impl_distribution_service_resour(pos
     :param kind: 
     :type kind: str
 
-    :rtype: OrgApacheSlingDistributionResourcesImplDistributionServiceResourInfo
+    :rtype: Union[OrgApacheSlingDistributionResourcesImplDistributionServiceResourInfo, Tuple[OrgApacheSlingDistributionResourcesImplDistributionServiceResourInfo, int], Tuple[OrgApacheSlingDistributionResourcesImplDistributionServiceResourInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -20394,7 +20396,7 @@ def org_apache_sling_distribution_serialization_impl_distribution_package_bu(pos
     :param property_filters: 
     :type property_filters: List[str]
 
-    :rtype: OrgApacheSlingDistributionSerializationImplDistributionPackageBuInfo
+    :rtype: Union[OrgApacheSlingDistributionSerializationImplDistributionPackageBuInfo, Tuple[OrgApacheSlingDistributionSerializationImplDistributionPackageBuInfo, int], Tuple[OrgApacheSlingDistributionSerializationImplDistributionPackageBuInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -20453,7 +20455,7 @@ def org_apache_sling_distribution_serialization_impl_vlt_vault_distribution(post
     :param strict_import: 
     :type strict_import: bool
 
-    :rtype: OrgApacheSlingDistributionSerializationImplVltVaultDistributionInfo
+    :rtype: Union[OrgApacheSlingDistributionSerializationImplVltVaultDistributionInfo, Tuple[OrgApacheSlingDistributionSerializationImplVltVaultDistributionInfo, int], Tuple[OrgApacheSlingDistributionSerializationImplVltVaultDistributionInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -20482,7 +20484,7 @@ def org_apache_sling_distribution_transport_impl_user_credentials_distributi(pos
     :param password: 
     :type password: str
 
-    :rtype: OrgApacheSlingDistributionTransportImplUserCredentialsDistributiInfo
+    :rtype: Union[OrgApacheSlingDistributionTransportImplUserCredentialsDistributiInfo, Tuple[OrgApacheSlingDistributionTransportImplUserCredentialsDistributiInfo, int], Tuple[OrgApacheSlingDistributionTransportImplUserCredentialsDistributiInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -20509,7 +20511,7 @@ def org_apache_sling_distribution_trigger_impl_distribution_event_distribute(pos
     :param path: 
     :type path: str
 
-    :rtype: OrgApacheSlingDistributionTriggerImplDistributionEventDistributeInfo
+    :rtype: Union[OrgApacheSlingDistributionTriggerImplDistributionEventDistributeInfo, Tuple[OrgApacheSlingDistributionTriggerImplDistributionEventDistributeInfo, int], Tuple[OrgApacheSlingDistributionTriggerImplDistributionEventDistributeInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -20542,7 +20544,7 @@ def org_apache_sling_distribution_trigger_impl_jcr_event_distribution_trigger(po
     :param deep: 
     :type deep: bool
 
-    :rtype: OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerInfo
+    :rtype: Union[OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerInfo, Tuple[OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerInfo, int], Tuple[OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -20573,7 +20575,7 @@ def org_apache_sling_distribution_trigger_impl_persisted_jcr_event_distributi(po
     :param nuggets_path: 
     :type nuggets_path: str
 
-    :rtype: OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiInfo
+    :rtype: Union[OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiInfo, Tuple[OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiInfo, int], Tuple[OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -20602,7 +20604,7 @@ def org_apache_sling_distribution_trigger_impl_remote_event_distribution_trig(po
     :param transport_secret_provider_target: 
     :type transport_secret_provider_target: str
 
-    :rtype: OrgApacheSlingDistributionTriggerImplRemoteEventDistributionTrigInfo
+    :rtype: Union[OrgApacheSlingDistributionTriggerImplRemoteEventDistributionTrigInfo, Tuple[OrgApacheSlingDistributionTriggerImplRemoteEventDistributionTrigInfo, int], Tuple[OrgApacheSlingDistributionTriggerImplRemoteEventDistributionTrigInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -20629,7 +20631,7 @@ def org_apache_sling_distribution_trigger_impl_resource_event_distribution_tr(po
     :param path: 
     :type path: str
 
-    :rtype: OrgApacheSlingDistributionTriggerImplResourceEventDistributionTrInfo
+    :rtype: Union[OrgApacheSlingDistributionTriggerImplResourceEventDistributionTrInfo, Tuple[OrgApacheSlingDistributionTriggerImplResourceEventDistributionTrInfo, int], Tuple[OrgApacheSlingDistributionTriggerImplResourceEventDistributionTrInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -20660,7 +20662,7 @@ def org_apache_sling_distribution_trigger_impl_scheduled_distribution_trigge(pos
     :param service_name: 
     :type service_name: str
 
-    :rtype: OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggeInfo
+    :rtype: Union[OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggeInfo, Tuple[OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggeInfo, int], Tuple[OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggeInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -20705,7 +20707,7 @@ def org_apache_sling_engine_impl_auth_sling_authenticator(post=None, apply=None,
     :param auth_uri_suffix: 
     :type auth_uri_suffix: List[str]
 
-    :rtype: OrgApacheSlingEngineImplAuthSlingAuthenticatorInfo
+    :rtype: Union[OrgApacheSlingEngineImplAuthSlingAuthenticatorInfo, Tuple[OrgApacheSlingEngineImplAuthSlingAuthenticatorInfo, int], Tuple[OrgApacheSlingEngineImplAuthSlingAuthenticatorInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -20736,7 +20738,7 @@ def org_apache_sling_engine_impl_debug_request_progress_tracker_log_filter(post=
     :param compact_log_format: 
     :type compact_log_format: bool
 
-    :rtype: OrgApacheSlingEngineImplDebugRequestProgressTrackerLogFilterInfo
+    :rtype: Union[OrgApacheSlingEngineImplDebugRequestProgressTrackerLogFilterInfo, Tuple[OrgApacheSlingEngineImplDebugRequestProgressTrackerLogFilterInfo, int], Tuple[OrgApacheSlingEngineImplDebugRequestProgressTrackerLogFilterInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -20771,7 +20773,7 @@ def org_apache_sling_engine_impl_log_request_logger(post=None, apply=None, delet
     :param access_log_enabled: 
     :type access_log_enabled: bool
 
-    :rtype: OrgApacheSlingEngineImplLogRequestLoggerInfo
+    :rtype: Union[OrgApacheSlingEngineImplLogRequestLoggerInfo, Tuple[OrgApacheSlingEngineImplLogRequestLoggerInfo, int], Tuple[OrgApacheSlingEngineImplLogRequestLoggerInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -20802,7 +20804,7 @@ def org_apache_sling_engine_impl_log_request_logger_service(post=None, apply=Non
     :param request_log_service_onentry: 
     :type request_log_service_onentry: bool
 
-    :rtype: OrgApacheSlingEngineImplLogRequestLoggerServiceInfo
+    :rtype: Union[OrgApacheSlingEngineImplLogRequestLoggerServiceInfo, Tuple[OrgApacheSlingEngineImplLogRequestLoggerServiceInfo, int], Tuple[OrgApacheSlingEngineImplLogRequestLoggerServiceInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -20839,7 +20841,7 @@ def org_apache_sling_engine_impl_sling_main_servlet(post=None, apply=None, delet
     :param sling_additional_response_headers: 
     :type sling_additional_response_headers: List[str]
 
-    :rtype: OrgApacheSlingEngineImplSlingMainServletInfo
+    :rtype: Union[OrgApacheSlingEngineImplSlingMainServletInfo, Tuple[OrgApacheSlingEngineImplSlingMainServletInfo, int], Tuple[OrgApacheSlingEngineImplSlingMainServletInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -20876,7 +20878,7 @@ def org_apache_sling_engine_parameters(post=None, apply=None, delete=None, actio
     :param sling_default_parameter_check_for_additional_container_parameters: 
     :type sling_default_parameter_check_for_additional_container_parameters: bool
 
-    :rtype: OrgApacheSlingEngineParametersInfo
+    :rtype: Union[OrgApacheSlingEngineParametersInfo, Tuple[OrgApacheSlingEngineParametersInfo, int], Tuple[OrgApacheSlingEngineParametersInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -20901,7 +20903,7 @@ def org_apache_sling_event_impl_eventing_thread_pool(post=None, apply=None, dele
     :param min_pool_size: 
     :type min_pool_size: int
 
-    :rtype: OrgApacheSlingEventImplEventingThreadPoolInfo
+    :rtype: Union[OrgApacheSlingEventImplEventingThreadPoolInfo, Tuple[OrgApacheSlingEventImplEventingThreadPoolInfo, int], Tuple[OrgApacheSlingEventImplEventingThreadPoolInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -20932,7 +20934,7 @@ def org_apache_sling_event_impl_jobs_default_job_manager(post=None, apply=None, 
     :param queue_maxparallel: 
     :type queue_maxparallel: int
 
-    :rtype: OrgApacheSlingEventImplJobsDefaultJobManagerInfo
+    :rtype: Union[OrgApacheSlingEventImplJobsDefaultJobManagerInfo, Tuple[OrgApacheSlingEventImplJobsDefaultJobManagerInfo, int], Tuple[OrgApacheSlingEventImplJobsDefaultJobManagerInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -20961,7 +20963,7 @@ def org_apache_sling_event_impl_jobs_jcr_persistence_handler(post=None, apply=No
     :param cleanup_period: 
     :type cleanup_period: int
 
-    :rtype: OrgApacheSlingEventImplJobsJcrPersistenceHandlerInfo
+    :rtype: Union[OrgApacheSlingEventImplJobsJcrPersistenceHandlerInfo, Tuple[OrgApacheSlingEventImplJobsJcrPersistenceHandlerInfo, int], Tuple[OrgApacheSlingEventImplJobsJcrPersistenceHandlerInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -20990,7 +20992,7 @@ def org_apache_sling_event_impl_jobs_job_consumer_manager(post=None, apply=None,
     :param job_consumermanager_blacklist: 
     :type job_consumermanager_blacklist: List[str]
 
-    :rtype: OrgApacheSlingEventImplJobsJobConsumerManagerInfo
+    :rtype: Union[OrgApacheSlingEventImplJobsJobConsumerManagerInfo, Tuple[OrgApacheSlingEventImplJobsJobConsumerManagerInfo, int], Tuple[OrgApacheSlingEventImplJobsJobConsumerManagerInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -21025,7 +21027,7 @@ def org_apache_sling_event_jobs_queue_configuration(post=None, apply=None, delet
     :param queue_retrydelay: 
     :type queue_retrydelay: int
     :param queue_maxparallel: 
-    :type queue_maxparallel: float
+    :type queue_maxparallel: 
     :param queue_keep_jobs: 
     :type queue_keep_jobs: bool
     :param queue_prefer_run_on_creation_instance: 
@@ -21035,7 +21037,7 @@ def org_apache_sling_event_jobs_queue_configuration(post=None, apply=None, delet
     :param service_ranking: 
     :type service_ranking: int
 
-    :rtype: OrgApacheSlingEventJobsQueueConfigurationInfo
+    :rtype: Union[OrgApacheSlingEventJobsQueueConfigurationInfo, Tuple[OrgApacheSlingEventJobsQueueConfigurationInfo, int], Tuple[OrgApacheSlingEventJobsQueueConfigurationInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -21062,7 +21064,7 @@ def org_apache_sling_extensions_webconsolesecurityprovider_internal_sling_w(post
     :param groups: 
     :type groups: List[str]
 
-    :rtype: OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWInfo
+    :rtype: Union[OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWInfo, Tuple[OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWInfo, int], Tuple[OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -21091,7 +21093,7 @@ def org_apache_sling_featureflags_feature(post=None, apply=None, delete=None, ac
     :param enabled: 
     :type enabled: bool
 
-    :rtype: OrgApacheSlingFeatureflagsFeatureInfo
+    :rtype: Union[OrgApacheSlingFeatureflagsFeatureInfo, Tuple[OrgApacheSlingFeatureflagsFeatureInfo, int], Tuple[OrgApacheSlingFeatureflagsFeatureInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -21120,7 +21122,7 @@ def org_apache_sling_featureflags_impl_configured_feature(post=None, apply=None,
     :param enabled: 
     :type enabled: bool
 
-    :rtype: OrgApacheSlingFeatureflagsImplConfiguredFeatureInfo
+    :rtype: Union[OrgApacheSlingFeatureflagsImplConfiguredFeatureInfo, Tuple[OrgApacheSlingFeatureflagsImplConfiguredFeatureInfo, int], Tuple[OrgApacheSlingFeatureflagsImplConfiguredFeatureInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -21153,7 +21155,7 @@ def org_apache_sling_hapi_impl_h_api_util_impl(post=None, apply=None, delete=Non
     :param org_apache_sling_hapi_tools_enabled: 
     :type org_apache_sling_hapi_tools_enabled: bool
 
-    :rtype: OrgApacheSlingHapiImplHApiUtilImplInfo
+    :rtype: Union[OrgApacheSlingHapiImplHApiUtilImplInfo, Tuple[OrgApacheSlingHapiImplHApiUtilImplInfo, int], Tuple[OrgApacheSlingHapiImplHApiUtilImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -21186,7 +21188,7 @@ def org_apache_sling_hc_core_impl_composite_health_check(post=None, apply=None, 
     :param filter_combine_tags_with_or: 
     :type filter_combine_tags_with_or: bool
 
-    :rtype: OrgApacheSlingHcCoreImplCompositeHealthCheckInfo
+    :rtype: Union[OrgApacheSlingHcCoreImplCompositeHealthCheckInfo, Tuple[OrgApacheSlingHcCoreImplCompositeHealthCheckInfo, int], Tuple[OrgApacheSlingHcCoreImplCompositeHealthCheckInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -21215,7 +21217,7 @@ def org_apache_sling_hc_core_impl_executor_health_check_executor_impl(post=None,
     :param result_cache_ttl_in_ms: 
     :type result_cache_ttl_in_ms: int
 
-    :rtype: OrgApacheSlingHcCoreImplExecutorHealthCheckExecutorImplInfo
+    :rtype: Union[OrgApacheSlingHcCoreImplExecutorHealthCheckExecutorImplInfo, Tuple[OrgApacheSlingHcCoreImplExecutorHealthCheckExecutorImplInfo, int], Tuple[OrgApacheSlingHcCoreImplExecutorHealthCheckExecutorImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -21250,7 +21252,7 @@ def org_apache_sling_hc_core_impl_jmx_attribute_health_check(post=None, apply=No
     :param attribute_value_constraint: 
     :type attribute_value_constraint: str
 
-    :rtype: OrgApacheSlingHcCoreImplJmxAttributeHealthCheckInfo
+    :rtype: Union[OrgApacheSlingHcCoreImplJmxAttributeHealthCheckInfo, Tuple[OrgApacheSlingHcCoreImplJmxAttributeHealthCheckInfo, int], Tuple[OrgApacheSlingHcCoreImplJmxAttributeHealthCheckInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -21283,7 +21285,7 @@ def org_apache_sling_hc_core_impl_scriptable_health_check(post=None, apply=None,
     :param language_extension: 
     :type language_extension: str
 
-    :rtype: OrgApacheSlingHcCoreImplScriptableHealthCheckInfo
+    :rtype: Union[OrgApacheSlingHcCoreImplScriptableHealthCheckInfo, Tuple[OrgApacheSlingHcCoreImplScriptableHealthCheckInfo, int], Tuple[OrgApacheSlingHcCoreImplScriptableHealthCheckInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -21312,7 +21314,7 @@ def org_apache_sling_hc_core_impl_servlet_health_check_executor_servlet(post=Non
     :param cors_access_control_allow_origin: 
     :type cors_access_control_allow_origin: str
 
-    :rtype: OrgApacheSlingHcCoreImplServletHealthCheckExecutorServletInfo
+    :rtype: Union[OrgApacheSlingHcCoreImplServletHealthCheckExecutorServletInfo, Tuple[OrgApacheSlingHcCoreImplServletHealthCheckExecutorServletInfo, int], Tuple[OrgApacheSlingHcCoreImplServletHealthCheckExecutorServletInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -21343,7 +21345,7 @@ def org_apache_sling_hc_core_impl_servlet_result_txt_verbose_serializer(post=Non
     :param col_width_timing: 
     :type col_width_timing: int
 
-    :rtype: OrgApacheSlingHcCoreImplServletResultTxtVerboseSerializerInfo
+    :rtype: Union[OrgApacheSlingHcCoreImplServletResultTxtVerboseSerializerInfo, Tuple[OrgApacheSlingHcCoreImplServletResultTxtVerboseSerializerInfo, int], Tuple[OrgApacheSlingHcCoreImplServletResultTxtVerboseSerializerInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -21370,7 +21372,7 @@ def org_apache_sling_i18n_impl_i18_n_filter(post=None, apply=None, delete=None, 
     :param sling_filter_scope: 
     :type sling_filter_scope: List[str]
 
-    :rtype: OrgApacheSlingI18nImplI18NFilterInfo
+    :rtype: Union[OrgApacheSlingI18nImplI18NFilterInfo, Tuple[OrgApacheSlingI18nImplI18NFilterInfo, int], Tuple[OrgApacheSlingI18nImplI18NFilterInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -21399,7 +21401,7 @@ def org_apache_sling_i18n_impl_jcr_resource_bundle_provider(post=None, apply=Non
     :param invalidation_delay: 
     :type invalidation_delay: int
 
-    :rtype: OrgApacheSlingI18nImplJcrResourceBundleProviderInfo
+    :rtype: Union[OrgApacheSlingI18nImplJcrResourceBundleProviderInfo, Tuple[OrgApacheSlingI18nImplJcrResourceBundleProviderInfo, int], Tuple[OrgApacheSlingI18nImplJcrResourceBundleProviderInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -21436,7 +21438,7 @@ def org_apache_sling_installer_provider_jcr_impl_jcr_installer(post=None, apply=
     :param sling_jcrinstall_enable_writeback: 
     :type sling_jcrinstall_enable_writeback: bool
 
-    :rtype: OrgApacheSlingInstallerProviderJcrImplJcrInstallerInfo
+    :rtype: Union[OrgApacheSlingInstallerProviderJcrImplJcrInstallerInfo, Tuple[OrgApacheSlingInstallerProviderJcrImplJcrInstallerInfo, int], Tuple[OrgApacheSlingInstallerProviderJcrImplJcrInstallerInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -21463,7 +21465,7 @@ def org_apache_sling_jcr_base_internal_login_admin_whitelist(post=None, apply=No
     :param whitelist_bundles_regexp: 
     :type whitelist_bundles_regexp: str
 
-    :rtype: OrgApacheSlingJcrBaseInternalLoginAdminWhitelistInfo
+    :rtype: Union[OrgApacheSlingJcrBaseInternalLoginAdminWhitelistInfo, Tuple[OrgApacheSlingJcrBaseInternalLoginAdminWhitelistInfo, int], Tuple[OrgApacheSlingJcrBaseInternalLoginAdminWhitelistInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -21490,7 +21492,7 @@ def org_apache_sling_jcr_base_internal_login_admin_whitelist_fragment(post=None,
     :param whitelist_bundles: 
     :type whitelist_bundles: List[str]
 
-    :rtype: OrgApacheSlingJcrBaseInternalLoginAdminWhitelistFragmentInfo
+    :rtype: Union[OrgApacheSlingJcrBaseInternalLoginAdminWhitelistFragmentInfo, Tuple[OrgApacheSlingJcrBaseInternalLoginAdminWhitelistFragmentInfo, int], Tuple[OrgApacheSlingJcrBaseInternalLoginAdminWhitelistFragmentInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -21519,7 +21521,7 @@ def org_apache_sling_jcr_davex_impl_servlets_sling_dav_ex_servlet(post=None, app
     :param dav_protectedhandlers: 
     :type dav_protectedhandlers: str
 
-    :rtype: OrgApacheSlingJcrDavexImplServletsSlingDavExServletInfo
+    :rtype: Union[OrgApacheSlingJcrDavexImplServletsSlingDavExServletInfo, Tuple[OrgApacheSlingJcrDavexImplServletsSlingDavExServletInfo, int], Tuple[OrgApacheSlingJcrDavexImplServletsSlingDavExServletInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -21546,7 +21548,7 @@ def org_apache_sling_jcr_jackrabbit_server_jndi_registration_support(post=None, 
     :param java_naming_provider_url: 
     :type java_naming_provider_url: str
 
-    :rtype: OrgApacheSlingJcrJackrabbitServerJndiRegistrationSupportInfo
+    :rtype: Union[OrgApacheSlingJcrJackrabbitServerJndiRegistrationSupportInfo, Tuple[OrgApacheSlingJcrJackrabbitServerJndiRegistrationSupportInfo, int], Tuple[OrgApacheSlingJcrJackrabbitServerJndiRegistrationSupportInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -21571,7 +21573,7 @@ def org_apache_sling_jcr_jackrabbit_server_rmi_registration_support(post=None, a
     :param port: 
     :type port: int
 
-    :rtype: OrgApacheSlingJcrJackrabbitServerRmiRegistrationSupportInfo
+    :rtype: Union[OrgApacheSlingJcrJackrabbitServerRmiRegistrationSupportInfo, Tuple[OrgApacheSlingJcrJackrabbitServerRmiRegistrationSupportInfo, int], Tuple[OrgApacheSlingJcrJackrabbitServerRmiRegistrationSupportInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -21596,7 +21598,7 @@ def org_apache_sling_jcr_repoinit_impl_repository_initializer(post=None, apply=N
     :param references: 
     :type references: List[str]
 
-    :rtype: OrgApacheSlingJcrRepoinitImplRepositoryInitializerInfo
+    :rtype: Union[OrgApacheSlingJcrRepoinitImplRepositoryInitializerInfo, Tuple[OrgApacheSlingJcrRepoinitImplRepositoryInitializerInfo, int], Tuple[OrgApacheSlingJcrRepoinitImplRepositoryInitializerInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -21623,7 +21625,7 @@ def org_apache_sling_jcr_repoinit_repository_initializer(post=None, apply=None, 
     :param scripts: 
     :type scripts: List[str]
 
-    :rtype: OrgApacheSlingJcrRepoinitRepositoryInitializerInfo
+    :rtype: Union[OrgApacheSlingJcrRepoinitRepositoryInitializerInfo, Tuple[OrgApacheSlingJcrRepoinitRepositoryInitializerInfo, int], Tuple[OrgApacheSlingJcrRepoinitRepositoryInitializerInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -21688,7 +21690,7 @@ def org_apache_sling_jcr_resource_internal_jcr_resource_resolver_factory_impl(po
     :param resource_resolver_log_unclosed: 
     :type resource_resolver_log_unclosed: bool
 
-    :rtype: OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplInfo
+    :rtype: Union[OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplInfo, Tuple[OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplInfo, int], Tuple[OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -21713,7 +21715,7 @@ def org_apache_sling_jcr_resource_internal_jcr_system_user_validator(post=None, 
     :param allow_only_system_user: 
     :type allow_only_system_user: bool
 
-    :rtype: OrgApacheSlingJcrResourceInternalJcrSystemUserValidatorInfo
+    :rtype: Union[OrgApacheSlingJcrResourceInternalJcrSystemUserValidatorInfo, Tuple[OrgApacheSlingJcrResourceInternalJcrSystemUserValidatorInfo, int], Tuple[OrgApacheSlingJcrResourceInternalJcrSystemUserValidatorInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -21742,7 +21744,7 @@ def org_apache_sling_jcr_resourcesecurity_impl_resource_access_gate_factory(post
     :param jcr_path: 
     :type jcr_path: str
 
-    :rtype: OrgApacheSlingJcrResourcesecurityImplResourceAccessGateFactoryInfo
+    :rtype: Union[OrgApacheSlingJcrResourcesecurityImplResourceAccessGateFactoryInfo, Tuple[OrgApacheSlingJcrResourcesecurityImplResourceAccessGateFactoryInfo, int], Tuple[OrgApacheSlingJcrResourcesecurityImplResourceAccessGateFactoryInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -21773,7 +21775,7 @@ def org_apache_sling_jcr_webdav_impl_handler_default_handler_service(post=None, 
     :param type_content: 
     :type type_content: str
 
-    :rtype: OrgApacheSlingJcrWebdavImplHandlerDefaultHandlerServiceInfo
+    :rtype: Union[OrgApacheSlingJcrWebdavImplHandlerDefaultHandlerServiceInfo, Tuple[OrgApacheSlingJcrWebdavImplHandlerDefaultHandlerServiceInfo, int], Tuple[OrgApacheSlingJcrWebdavImplHandlerDefaultHandlerServiceInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -21798,7 +21800,7 @@ def org_apache_sling_jcr_webdav_impl_handler_dir_listing_export_handler_servic(p
     :param service_ranking: 
     :type service_ranking: int
 
-    :rtype: OrgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServicInfo
+    :rtype: Union[OrgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServicInfo, Tuple[OrgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServicInfo, int], Tuple[OrgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServicInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -21841,7 +21843,7 @@ def org_apache_sling_jcr_webdav_impl_servlets_simple_web_dav_servlet(post=None, 
     :param type_content: 
     :type type_content: str
 
-    :rtype: OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletInfo
+    :rtype: Union[OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletInfo, Tuple[OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletInfo, int], Tuple[OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -21866,7 +21868,7 @@ def org_apache_sling_jmx_provider_impl_jmx_resource_provider(post=None, apply=No
     :param provider_roots: 
     :type provider_roots: str
 
-    :rtype: OrgApacheSlingJmxProviderImplJMXResourceProviderInfo
+    :rtype: Union[OrgApacheSlingJmxProviderImplJMXResourceProviderInfo, Tuple[OrgApacheSlingJmxProviderImplJMXResourceProviderInfo, int], Tuple[OrgApacheSlingJmxProviderImplJMXResourceProviderInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -21897,7 +21899,7 @@ def org_apache_sling_models_impl_model_adapter_factory(post=None, apply=None, de
     :param cleanup_job_period: 
     :type cleanup_job_period: int
 
-    :rtype: OrgApacheSlingModelsImplModelAdapterFactoryInfo
+    :rtype: Union[OrgApacheSlingModelsImplModelAdapterFactoryInfo, Tuple[OrgApacheSlingModelsImplModelAdapterFactoryInfo, int], Tuple[OrgApacheSlingModelsImplModelAdapterFactoryInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -21922,7 +21924,7 @@ def org_apache_sling_models_jacksonexporter_impl_resource_module_provider(post=N
     :param max_recursion_levels: 
     :type max_recursion_levels: int
 
-    :rtype: OrgApacheSlingModelsJacksonexporterImplResourceModuleProviderInfo
+    :rtype: Union[OrgApacheSlingModelsJacksonexporterImplResourceModuleProviderInfo, Tuple[OrgApacheSlingModelsJacksonexporterImplResourceModuleProviderInfo, int], Tuple[OrgApacheSlingModelsJacksonexporterImplResourceModuleProviderInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -21951,7 +21953,7 @@ def org_apache_sling_resource_inventory_impl_resource_inventory_printer_facto(po
     :param path: 
     :type path: str
 
-    :rtype: OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoInfo
+    :rtype: Union[OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoInfo, Tuple[OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoInfo, int], Tuple[OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -21978,7 +21980,7 @@ def org_apache_sling_resourcemerger_impl_merged_resource_provider_factory(post=N
     :param merge_read_only: 
     :type merge_read_only: bool
 
-    :rtype: OrgApacheSlingResourcemergerImplMergedResourceProviderFactoryInfo
+    :rtype: Union[OrgApacheSlingResourcemergerImplMergedResourceProviderFactoryInfo, Tuple[OrgApacheSlingResourcemergerImplMergedResourceProviderFactoryInfo, int], Tuple[OrgApacheSlingResourcemergerImplMergedResourceProviderFactoryInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -22005,7 +22007,7 @@ def org_apache_sling_resourcemerger_picker_overriding(post=None, apply=None, del
     :param merge_read_only: 
     :type merge_read_only: bool
 
-    :rtype: OrgApacheSlingResourcemergerPickerOverridingInfo
+    :rtype: Union[OrgApacheSlingResourcemergerPickerOverridingInfo, Tuple[OrgApacheSlingResourcemergerPickerOverridingInfo, int], Tuple[OrgApacheSlingResourcemergerPickerOverridingInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -22032,7 +22034,7 @@ def org_apache_sling_scripting_core_impl_script_cache_impl(post=None, apply=None
     :param org_apache_sling_scripting_cache_additional_extensions: 
     :type org_apache_sling_scripting_cache_additional_extensions: List[str]
 
-    :rtype: OrgApacheSlingScriptingCoreImplScriptCacheImplInfo
+    :rtype: Union[OrgApacheSlingScriptingCoreImplScriptCacheImplInfo, Tuple[OrgApacheSlingScriptingCoreImplScriptCacheImplInfo, int], Tuple[OrgApacheSlingScriptingCoreImplScriptCacheImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -22057,7 +22059,7 @@ def org_apache_sling_scripting_core_impl_scripting_resource_resolver_provider(po
     :param log_stacktrace_onclose: 
     :type log_stacktrace_onclose: bool
 
-    :rtype: OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderInfo
+    :rtype: Union[OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderInfo, Tuple[OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderInfo, int], Tuple[OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -22088,7 +22090,7 @@ def org_apache_sling_scripting_java_impl_java_script_engine_factory(post=None, a
     :param java_compiler_target_vm: 
     :type java_compiler_target_vm: str
 
-    :rtype: OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryInfo
+    :rtype: Union[OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryInfo, Tuple[OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryInfo, int], Tuple[OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -22113,7 +22115,7 @@ def org_apache_sling_scripting_javascript_internal_rhino_java_script_engine_fa(p
     :param org_apache_sling_scripting_javascript_rhino_opt_level: 
     :type org_apache_sling_scripting_javascript_rhino_opt_level: int
 
-    :rtype: OrgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFaInfo
+    :rtype: Union[OrgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFaInfo, Tuple[OrgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFaInfo, int], Tuple[OrgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFaInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -22158,7 +22160,7 @@ def org_apache_sling_scripting_jsp_jsp_script_engine_factory(post=None, apply=No
     :param default_is_session: 
     :type default_is_session: bool
 
-    :rtype: OrgApacheSlingScriptingJspJspScriptEngineFactoryInfo
+    :rtype: Union[OrgApacheSlingScriptingJspJspScriptEngineFactoryInfo, Tuple[OrgApacheSlingScriptingJspJspScriptEngineFactoryInfo, int], Tuple[OrgApacheSlingScriptingJspJspScriptEngineFactoryInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -22183,7 +22185,7 @@ def org_apache_sling_scripting_sightly_js_impl_jsapi_sly_bindings_values_prov(po
     :param org_apache_sling_scripting_sightly_js_bindings: 
     :type org_apache_sling_scripting_sightly_js_bindings: List[str]
 
-    :rtype: OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvInfo
+    :rtype: Union[OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvInfo, Tuple[OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvInfo, int], Tuple[OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -22212,7 +22214,7 @@ def org_apache_sling_security_impl_content_disposition_filter(post=None, apply=N
     :param sling_content_disposition_all_paths: 
     :type sling_content_disposition_all_paths: bool
 
-    :rtype: OrgApacheSlingSecurityImplContentDispositionFilterInfo
+    :rtype: Union[OrgApacheSlingSecurityImplContentDispositionFilterInfo, Tuple[OrgApacheSlingSecurityImplContentDispositionFilterInfo, int], Tuple[OrgApacheSlingSecurityImplContentDispositionFilterInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -22245,7 +22247,7 @@ def org_apache_sling_security_impl_referrer_filter(post=None, apply=None, delete
     :param exclude_agents_regexp: 
     :type exclude_agents_regexp: List[str]
 
-    :rtype: OrgApacheSlingSecurityImplReferrerFilterInfo
+    :rtype: Union[OrgApacheSlingSecurityImplReferrerFilterInfo, Tuple[OrgApacheSlingSecurityImplReferrerFilterInfo, int], Tuple[OrgApacheSlingSecurityImplReferrerFilterInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -22276,7 +22278,7 @@ def org_apache_sling_serviceusermapping_impl_service_user_mapper_impl(post=None,
     :param require_validation: 
     :type require_validation: bool
 
-    :rtype: OrgApacheSlingServiceusermappingImplServiceUserMapperImplInfo
+    :rtype: Union[OrgApacheSlingServiceusermappingImplServiceUserMapperImplInfo, Tuple[OrgApacheSlingServiceusermappingImplServiceUserMapperImplInfo, int], Tuple[OrgApacheSlingServiceusermappingImplServiceUserMapperImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -22303,7 +22305,7 @@ def org_apache_sling_serviceusermapping_impl_service_user_mapper_impl_amended(po
     :param user_mapping: 
     :type user_mapping: List[str]
 
-    :rtype: OrgApacheSlingServiceusermappingImplServiceUserMapperImplAmendedInfo
+    :rtype: Union[OrgApacheSlingServiceusermappingImplServiceUserMapperImplAmendedInfo, Tuple[OrgApacheSlingServiceusermappingImplServiceUserMapperImplAmendedInfo, int], Tuple[OrgApacheSlingServiceusermappingImplServiceUserMapperImplAmendedInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -22344,7 +22346,7 @@ def org_apache_sling_servlets_get_default_get_servlet(post=None, apply=None, del
     :param ecma_suport: 
     :type ecma_suport: bool
 
-    :rtype: OrgApacheSlingServletsGetDefaultGetServletInfo
+    :rtype: Union[OrgApacheSlingServletsGetDefaultGetServletInfo, Tuple[OrgApacheSlingServletsGetDefaultGetServletInfo, int], Tuple[OrgApacheSlingServletsGetDefaultGetServletInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -22371,7 +22373,7 @@ def org_apache_sling_servlets_get_impl_version_version_info_servlet(post=None, a
     :param ecma_suport: 
     :type ecma_suport: bool
 
-    :rtype: OrgApacheSlingServletsGetImplVersionVersionInfoServletInfo
+    :rtype: Union[OrgApacheSlingServletsGetImplVersionVersionInfoServletInfo, Tuple[OrgApacheSlingServletsGetImplVersionVersionInfoServletInfo, int], Tuple[OrgApacheSlingServletsGetImplVersionVersionInfoServletInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -22400,7 +22402,7 @@ def org_apache_sling_servlets_post_impl_helper_chunk_clean_up_task(post=None, ap
     :param chunk_cleanup_age: 
     :type chunk_cleanup_age: int
 
-    :rtype: OrgApacheSlingServletsPostImplHelperChunkCleanUpTaskInfo
+    :rtype: Union[OrgApacheSlingServletsPostImplHelperChunkCleanUpTaskInfo, Tuple[OrgApacheSlingServletsPostImplHelperChunkCleanUpTaskInfo, int], Tuple[OrgApacheSlingServletsPostImplHelperChunkCleanUpTaskInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -22437,7 +22439,7 @@ def org_apache_sling_servlets_post_impl_sling_post_servlet(post=None, apply=None
     :param servlet_post_ignore_pattern: 
     :type servlet_post_ignore_pattern: str
 
-    :rtype: OrgApacheSlingServletsPostImplSlingPostServletInfo
+    :rtype: Union[OrgApacheSlingServletsPostImplSlingPostServletInfo, Tuple[OrgApacheSlingServletsPostImplSlingPostServletInfo, int], Tuple[OrgApacheSlingServletsPostImplSlingPostServletInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -22468,7 +22470,7 @@ def org_apache_sling_servlets_resolver_sling_servlet_resolver(post=None, apply=N
     :param servletresolver_default_extensions: 
     :type servletresolver_default_extensions: List[str]
 
-    :rtype: OrgApacheSlingServletsResolverSlingServletResolverInfo
+    :rtype: Union[OrgApacheSlingServletsResolverSlingServletResolverInfo, Tuple[OrgApacheSlingServletsResolverSlingServletResolverInfo, int], Tuple[OrgApacheSlingServletsResolverSlingServletResolverInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -22495,7 +22497,7 @@ def org_apache_sling_settings_impl_sling_settings_service_impl(post=None, apply=
     :param sling_description: 
     :type sling_description: str
 
-    :rtype: OrgApacheSlingSettingsImplSlingSettingsServiceImplInfo
+    :rtype: Union[OrgApacheSlingSettingsImplSlingSettingsServiceImplInfo, Tuple[OrgApacheSlingSettingsImplSlingSettingsServiceImplInfo, int], Tuple[OrgApacheSlingSettingsImplSlingSettingsServiceImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -22522,7 +22524,7 @@ def org_apache_sling_startupfilter_impl_startup_filter_impl(post=None, apply=Non
     :param default_message: 
     :type default_message: str
 
-    :rtype: OrgApacheSlingStartupfilterImplStartupFilterImplInfo
+    :rtype: Union[OrgApacheSlingStartupfilterImplStartupFilterImplInfo, Tuple[OrgApacheSlingStartupfilterImplStartupFilterImplInfo, int], Tuple[OrgApacheSlingStartupfilterImplStartupFilterImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -22549,7 +22551,7 @@ def org_apache_sling_tenant_internal_tenant_provider_impl(post=None, apply=None,
     :param tenant_path_matcher: 
     :type tenant_path_matcher: List[str]
 
-    :rtype: OrgApacheSlingTenantInternalTenantProviderImplInfo
+    :rtype: Union[OrgApacheSlingTenantInternalTenantProviderImplInfo, Tuple[OrgApacheSlingTenantInternalTenantProviderImplInfo, int], Tuple[OrgApacheSlingTenantInternalTenantProviderImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -22586,7 +22588,7 @@ def org_apache_sling_tracer_internal_log_tracer(post=None, apply=None, delete=No
     :param gzip_response: 
     :type gzip_response: bool
 
-    :rtype: OrgApacheSlingTracerInternalLogTracerInfo
+    :rtype: Union[OrgApacheSlingTracerInternalLogTracerInfo, Tuple[OrgApacheSlingTracerInternalLogTracerInfo, int], Tuple[OrgApacheSlingTracerInternalLogTracerInfo, int, Dict[str, str]]
     """
     return 'do some magic!'
 
@@ -22611,6 +22613,6 @@ def org_apache_sling_xss_impl_xss_filter_impl(post=None, apply=None, delete=None
     :param policy_path: 
     :type policy_path: str
 
-    :rtype: OrgApacheSlingXssImplXSSFilterImplInfo
+    :rtype: Union[OrgApacheSlingXssImplXSSFilterImplInfo, Tuple[OrgApacheSlingXssImplXSSFilterImplInfo, int], Tuple[OrgApacheSlingXssImplXSSFilterImplInfo, int, Dict[str, str]]
     """
     return 'do some magic!'

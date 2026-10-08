@@ -8,8 +8,8 @@ import org.openapitools.model.ConfigNodePropertyDropDown;
 
 @Canonical
 class OrgApacheFelixSystemreadyImplServicesCheckProperties {
-    ConfigNodePropertyArray servicesList = null
-
-    ConfigNodePropertyDropDown type = null
-
+    
+    ConfigNodePropertyArray servicesList
+    
+    ConfigNodePropertyDropDown type
 }

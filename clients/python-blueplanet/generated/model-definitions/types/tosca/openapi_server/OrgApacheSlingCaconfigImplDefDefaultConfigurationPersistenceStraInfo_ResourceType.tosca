@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStraInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStraInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  OrgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStraProperties = openapi_server.resourceTypes.OrgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStraProperties
+}
+resourceTypes {
+
+  OrgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStraInfo {
+    title = OrgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStraInfo
+    description = OrgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStraInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = OrgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStraProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStraInfo {
+    title = OrgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStraInfo
+    description = OrgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStraInfo
+    implements = openapi_server.resourceTypes.OrgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStraInfo
+
+  }
+}

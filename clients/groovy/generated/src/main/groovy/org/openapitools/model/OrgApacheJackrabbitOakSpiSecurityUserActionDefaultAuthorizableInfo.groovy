@@ -7,16 +7,16 @@ import org.openapitools.model.OrgApacheJackrabbitOakSpiSecurityUserActionDefault
 
 @Canonical
 class OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableProperties properties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableProperties properties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

@@ -72,7 +72,7 @@ private class OASComAdobeCqSocialCalendarClientOpeTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeCqSocialCalendarClientOpe comAdobeCqSocialCalendarClientOperationextensionsEventAttachmenProperties = new OASComAdobeCqSocialCalendarClientOpe();
-        Map<String, String> propertyMappings = comAdobeCqSocialCalendarClientOperationextensionsEventAttachmenProperties.getPropertyMappings();
-        System.assertEquals('extensionOrder', propertyMappings.get('extension.order'));
+        Map<String, String> x-property-mappings = comAdobeCqSocialCalendarClientOperationextensionsEventAttachmenProperties.getx-property-mappings();
+        System.assertEquals('extensionOrder', x-property-mappings.get('extension.order'));
     }
 }

@@ -1,0 +1,24 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "enabled" },
+      {"model": "agent_name" },
+      {"model": "diff_path" },
+      {"model": "observed_path" },
+      {"model": "service_name" },
+      {"model": "property_names" },
+      {"model": "distribution_delay" },
+      {"model": "service_user_target" },
+    ]
+  }]
+}

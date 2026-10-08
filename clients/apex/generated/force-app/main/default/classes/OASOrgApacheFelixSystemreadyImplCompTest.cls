@@ -72,8 +72,7 @@ private class OASOrgApacheFelixSystemreadyImplCompTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASOrgApacheFelixSystemreadyImplComp orgApacheFelixSystemreadyImplComponentsCheckProperties = new OASOrgApacheFelixSystemreadyImplComp();
-        Map<String, String> propertyMappings = orgApacheFelixSystemreadyImplComponentsCheckProperties.getPropertyMappings();
-        System.assertEquals('componentsList', propertyMappings.get('components.list'));
-        System.assertEquals('r_type', propertyMappings.get('type'));
+        Map<String, String> x-property-mappings = orgApacheFelixSystemreadyImplComponentsCheckProperties.getx-property-mappings();
+        System.assertEquals('componentsList', x-property-mappings.get('components.list'));
     }
 }

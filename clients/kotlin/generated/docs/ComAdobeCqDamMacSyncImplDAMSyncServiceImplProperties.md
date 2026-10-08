@@ -2,12 +2,12 @@
 # ComAdobeCqDamMacSyncImplDAMSyncServiceImplProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**comPeriodadobePeriodcqPerioddamPeriodmacPeriodsyncPerioddamsyncservicePeriodregisteredUnderscorepaths** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**comPeriodadobePeriodcqPerioddamPeriodmacPeriodsyncPerioddamsyncservicePeriodsyncPeriodrenditions** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**comPeriodadobePeriodcqPerioddamPeriodmacPeriodsyncPerioddamsyncservicePeriodreplicatePeriodthreadPeriodwaitPeriodms** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**comPeriodadobePeriodcqPerioddamPeriodmacPeriodsyncPerioddamsyncservicePeriodplatform** | [**ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **comAdobeCqDamMacSyncDamsyncserviceRegisteredPaths** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **comAdobeCqDamMacSyncDamsyncserviceSyncRenditions** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **comAdobeCqDamMacSyncDamsyncserviceReplicateThreadWaitMs** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **comAdobeCqDamMacSyncDamsyncservicePlatform** | [**ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md) |  |  [optional] |
 
 
 

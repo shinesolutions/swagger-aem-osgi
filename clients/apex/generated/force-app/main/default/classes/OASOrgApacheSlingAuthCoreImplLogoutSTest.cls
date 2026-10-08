@@ -72,8 +72,8 @@ private class OASOrgApacheSlingAuthCoreImplLogoutSTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASOrgApacheSlingAuthCoreImplLogoutS orgApacheSlingAuthCoreImplLogoutServletProperties = new OASOrgApacheSlingAuthCoreImplLogoutS();
-        Map<String, String> propertyMappings = orgApacheSlingAuthCoreImplLogoutServletProperties.getPropertyMappings();
-        System.assertEquals('slingServletMethods', propertyMappings.get('sling.servlet.methods'));
-        System.assertEquals('slingServletPaths', propertyMappings.get('sling.servlet.paths'));
+        Map<String, String> x-property-mappings = orgApacheSlingAuthCoreImplLogoutServletProperties.getx-property-mappings();
+        System.assertEquals('slingServletMethods', x-property-mappings.get('sling.servlet.methods'));
+        System.assertEquals('slingServletPaths', x-property-mappings.get('sling.servlet.paths'));
     }
 }

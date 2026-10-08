@@ -8,12 +8,12 @@ import org.openapitools.model.ConfigNodePropertyBoolean;
 
 @Canonical
 class ComDayCqWcmMsmImplActionsPageMoveActionFactoryProperties {
-    ConfigNodePropertyArray cqWcmMsmActionExcludednodetypes = null
-
-    ConfigNodePropertyArray cqWcmMsmActionExcludedparagraphitems = null
-
-    ConfigNodePropertyArray cqWcmMsmActionExcludedprops = null
-
-    ConfigNodePropertyBoolean cqWcmMsmImplActionsPagemovePropReferenceUpdate = null
-
+    
+    ConfigNodePropertyArray cqWcmMsmActionExcludednodetypes
+    
+    ConfigNodePropertyArray cqWcmMsmActionExcludedparagraphitems
+    
+    ConfigNodePropertyArray cqWcmMsmActionExcludedprops
+    
+    ConfigNodePropertyBoolean cqWcmMsmImplActionsPagemovePropReferenceUpdate
 }

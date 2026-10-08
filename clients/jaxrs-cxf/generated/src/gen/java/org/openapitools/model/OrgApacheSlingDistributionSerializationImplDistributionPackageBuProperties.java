@@ -1,5 +1,6 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyDropDown;
@@ -9,64 +10,83 @@ import javax.validation.constraints.*;
 import javax.validation.Valid;
 
 import io.swagger.annotations.ApiModelProperty;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlType;
-import javax.xml.bind.annotation.XmlEnum;
-import javax.xml.bind.annotation.XmlEnumValue;
+import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
 
 public class OrgApacheSlingDistributionSerializationImplDistributionPackageBuProperties  {
   
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyString name = null;
+
+  private ConfigNodePropertyString name;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyDropDown type = null;
+
+  private ConfigNodePropertyDropDown type;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyString formatTarget = null;
+
+  private ConfigNodePropertyString formatTarget;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyString tempFsFolder = null;
+
+  private ConfigNodePropertyString tempFsFolder;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyInteger fileThreshold = null;
+
+  private ConfigNodePropertyInteger fileThreshold;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyDropDown memoryUnit = null;
+
+  private ConfigNodePropertyDropDown memoryUnit;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyBoolean useOffHeapMemory = null;
+
+  private ConfigNodePropertyBoolean useOffHeapMemory;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyDropDown digestAlgorithm = null;
+
+  private ConfigNodePropertyDropDown digestAlgorithm;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyInteger monitoringQueueSize = null;
+
+  private ConfigNodePropertyInteger monitoringQueueSize;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyInteger cleanupDelay = null;
+
+  private ConfigNodePropertyInteger cleanupDelay;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyArray packageFilters = null;
+
+  private ConfigNodePropertyArray packageFilters;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyArray propertyFilters = null;
+
+  private ConfigNodePropertyArray propertyFilters;
  /**
    * Get name
    * @return name
@@ -283,6 +303,33 @@ public class OrgApacheSlingDistributionSerializationImplDistributionPackageBuPro
     return this;
   }
 
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    OrgApacheSlingDistributionSerializationImplDistributionPackageBuProperties orgApacheSlingDistributionSerializationImplDistributionPackageBuProperties = (OrgApacheSlingDistributionSerializationImplDistributionPackageBuProperties) o;
+    return Objects.equals(this.name, orgApacheSlingDistributionSerializationImplDistributionPackageBuProperties.name) &&
+        Objects.equals(this.type, orgApacheSlingDistributionSerializationImplDistributionPackageBuProperties.type) &&
+        Objects.equals(this.formatTarget, orgApacheSlingDistributionSerializationImplDistributionPackageBuProperties.formatTarget) &&
+        Objects.equals(this.tempFsFolder, orgApacheSlingDistributionSerializationImplDistributionPackageBuProperties.tempFsFolder) &&
+        Objects.equals(this.fileThreshold, orgApacheSlingDistributionSerializationImplDistributionPackageBuProperties.fileThreshold) &&
+        Objects.equals(this.memoryUnit, orgApacheSlingDistributionSerializationImplDistributionPackageBuProperties.memoryUnit) &&
+        Objects.equals(this.useOffHeapMemory, orgApacheSlingDistributionSerializationImplDistributionPackageBuProperties.useOffHeapMemory) &&
+        Objects.equals(this.digestAlgorithm, orgApacheSlingDistributionSerializationImplDistributionPackageBuProperties.digestAlgorithm) &&
+        Objects.equals(this.monitoringQueueSize, orgApacheSlingDistributionSerializationImplDistributionPackageBuProperties.monitoringQueueSize) &&
+        Objects.equals(this.cleanupDelay, orgApacheSlingDistributionSerializationImplDistributionPackageBuProperties.cleanupDelay) &&
+        Objects.equals(this.packageFilters, orgApacheSlingDistributionSerializationImplDistributionPackageBuProperties.packageFilters) &&
+        Objects.equals(this.propertyFilters, orgApacheSlingDistributionSerializationImplDistributionPackageBuProperties.propertyFilters);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(name, type, formatTarget, tempFsFolder, fileThreshold, memoryUnit, useOffHeapMemory, digestAlgorithm, monitoringQueueSize, cleanupDelay, packageFilters, propertyFilters);
+  }
 
   @Override
   public String toString() {
@@ -309,11 +356,8 @@ public class OrgApacheSlingDistributionSerializationImplDistributionPackageBuPro
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private static String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

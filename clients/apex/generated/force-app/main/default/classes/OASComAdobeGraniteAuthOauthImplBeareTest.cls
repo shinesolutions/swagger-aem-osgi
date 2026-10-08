@@ -72,11 +72,11 @@ private class OASComAdobeGraniteAuthOauthImplBeareTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeGraniteAuthOauthImplBeare comAdobeGraniteAuthOauthImplBearerAuthenticationHandlerProperties = new OASComAdobeGraniteAuthOauthImplBeare();
-        Map<String, String> propertyMappings = comAdobeGraniteAuthOauthImplBearerAuthenticationHandlerProperties.getPropertyMappings();
-        System.assertEquals('oauthClientIdsAllowed', propertyMappings.get('oauth.clientIds.allowed'));
-        System.assertEquals('authBearerSyncIms', propertyMappings.get('auth.bearer.sync.ims'));
-        System.assertEquals('authTokenRequestParameter', propertyMappings.get('auth.tokenRequestParameter'));
-        System.assertEquals('oauthBearerConfigid', propertyMappings.get('oauth.bearer.configid'));
-        System.assertEquals('oauthJwtSupport', propertyMappings.get('oauth.jwt.support'));
+        Map<String, String> x-property-mappings = comAdobeGraniteAuthOauthImplBearerAuthenticationHandlerProperties.getx-property-mappings();
+        System.assertEquals('oauthClientIdsAllowed', x-property-mappings.get('oauth.clientIds.allowed'));
+        System.assertEquals('authBearerSyncIms', x-property-mappings.get('auth.bearer.sync.ims'));
+        System.assertEquals('authTokenRequestParameter', x-property-mappings.get('auth.tokenRequestParameter'));
+        System.assertEquals('oauthBearerConfigid', x-property-mappings.get('oauth.bearer.configid'));
+        System.assertEquals('oauthJwtSupport', x-property-mappings.get('oauth.jwt.support'));
     }
 }

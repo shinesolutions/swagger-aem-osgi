@@ -72,9 +72,9 @@ private class OASOrgApacheFelixWebconsoleInternalSTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASOrgApacheFelixWebconsoleInternalS orgApacheFelixWebconsoleInternalServletOsgiManagerProperties = new OASOrgApacheFelixWebconsoleInternalS();
-        Map<String, String> propertyMappings = orgApacheFelixWebconsoleInternalServletOsgiManagerProperties.getPropertyMappings();
-        System.assertEquals('managerRoot', propertyMappings.get('manager.root'));
-        System.assertEquals('httpServiceFilter', propertyMappings.get('http.service.filter'));
-        System.assertEquals('defaultRender', propertyMappings.get('default.render'));
+        Map<String, String> x-property-mappings = orgApacheFelixWebconsoleInternalServletOsgiManagerProperties.getx-property-mappings();
+        System.assertEquals('managerRoot', x-property-mappings.get('manager.root'));
+        System.assertEquals('httpServiceFilter', x-property-mappings.get('http.service.filter'));
+        System.assertEquals('defaultRender', x-property-mappings.get('default.render'));
     }
 }

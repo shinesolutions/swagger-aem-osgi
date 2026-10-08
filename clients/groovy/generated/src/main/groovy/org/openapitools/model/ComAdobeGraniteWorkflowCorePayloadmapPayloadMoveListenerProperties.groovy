@@ -8,8 +8,8 @@ import org.openapitools.model.ConfigNodePropertyBoolean;
 
 @Canonical
 class ComAdobeGraniteWorkflowCorePayloadmapPayloadMoveListenerProperties {
-    ConfigNodePropertyArray payloadMoveWhiteList = null
-
-    ConfigNodePropertyBoolean payloadMoveHandleFromWorkflowProcess = null
-
+    
+    ConfigNodePropertyArray payloadMoveWhiteList
+    
+    ConfigNodePropertyBoolean payloadMoveHandleFromWorkflowProcess
 }

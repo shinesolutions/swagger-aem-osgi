@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeGraniteTaskmanagementImplJcrTaskArchiveServiceInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeGraniteTaskmanagementImplJcrTaskArchiveServiceInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComAdobeGraniteTaskmanagementImplJcrTaskArchiveServiceProperties = openapi_server.resourceTypes.ComAdobeGraniteTaskmanagementImplJcrTaskArchiveServiceProperties
+}
+resourceTypes {
+
+  ComAdobeGraniteTaskmanagementImplJcrTaskArchiveServiceInfo {
+    title = ComAdobeGraniteTaskmanagementImplJcrTaskArchiveServiceInfo
+    description = ComAdobeGraniteTaskmanagementImplJcrTaskArchiveServiceInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComAdobeGraniteTaskmanagementImplJcrTaskArchiveServiceProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeGraniteTaskmanagementImplJcrTaskArchiveServiceInfo {
+    title = ComAdobeGraniteTaskmanagementImplJcrTaskArchiveServiceInfo
+    description = ComAdobeGraniteTaskmanagementImplJcrTaskArchiveServiceInfo
+    implements = openapi_server.resourceTypes.ComAdobeGraniteTaskmanagementImplJcrTaskArchiveServiceInfo
+
+  }
+}

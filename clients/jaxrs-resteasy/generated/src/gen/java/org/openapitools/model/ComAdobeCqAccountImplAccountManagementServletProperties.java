@@ -4,22 +4,26 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2019-08-05T00:59:30.156Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2026-10-07T12:54:21.614735164Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeCqAccountImplAccountManagementServletProperties   {
   
-  private ConfigNodePropertyString cqAccountmanagerConfigInformnewaccountMail = null;
-  private ConfigNodePropertyString cqAccountmanagerConfigInformnewpwdMail = null;
+  private ConfigNodePropertyString cqAccountmanagerConfigInformnewaccountMail;
+  private ConfigNodePropertyString cqAccountmanagerConfigInformnewpwdMail;
 
   /**
    **/
   
   @ApiModelProperty(value = "")
   @JsonProperty("cq.accountmanager.config.informnewaccount.mail")
+  @Valid
   public ConfigNodePropertyString getCqAccountmanagerConfigInformnewaccountMail() {
     return cqAccountmanagerConfigInformnewaccountMail;
   }
@@ -32,6 +36,7 @@ public class ComAdobeCqAccountImplAccountManagementServletProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("cq.accountmanager.config.informnewpwd.mail")
+  @Valid
   public ConfigNodePropertyString getCqAccountmanagerConfigInformnewpwdMail() {
     return cqAccountmanagerConfigInformnewpwdMail;
   }
@@ -41,7 +46,7 @@ public class ComAdobeCqAccountImplAccountManagementServletProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -49,8 +54,8 @@ public class ComAdobeCqAccountImplAccountManagementServletProperties   {
       return false;
     }
     ComAdobeCqAccountImplAccountManagementServletProperties comAdobeCqAccountImplAccountManagementServletProperties = (ComAdobeCqAccountImplAccountManagementServletProperties) o;
-    return Objects.equals(cqAccountmanagerConfigInformnewaccountMail, comAdobeCqAccountImplAccountManagementServletProperties.cqAccountmanagerConfigInformnewaccountMail) &&
-        Objects.equals(cqAccountmanagerConfigInformnewpwdMail, comAdobeCqAccountImplAccountManagementServletProperties.cqAccountmanagerConfigInformnewpwdMail);
+    return Objects.equals(this.cqAccountmanagerConfigInformnewaccountMail, comAdobeCqAccountImplAccountManagementServletProperties.cqAccountmanagerConfigInformnewaccountMail) &&
+        Objects.equals(this.cqAccountmanagerConfigInformnewpwdMail, comAdobeCqAccountImplAccountManagementServletProperties.cqAccountmanagerConfigInformnewpwdMail);
   }
 
   @Override
@@ -73,11 +78,8 @@ public class ComAdobeCqAccountImplAccountManagementServletProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

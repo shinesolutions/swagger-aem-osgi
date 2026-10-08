@@ -1,20 +1,31 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comAdobeGraniteActivitystreamsImplActivityManagerImplProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteActivitystreamsImplActivityManagerImplProperties   {
-  
-  private @Valid ConfigNodePropertyArray aggregateRelationships = null;
-  private @Valid ConfigNodePropertyBoolean aggregateDescendVirtual = null;
+  private ConfigNodePropertyArray aggregateRelationships;
+  private ConfigNodePropertyBoolean aggregateDescendVirtual;
+
+  public ComAdobeGraniteActivitystreamsImplActivityManagerImplProperties() {
+  }
 
   /**
    **/
@@ -26,9 +37,11 @@ public class ComAdobeGraniteActivitystreamsImplActivityManagerImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("aggregate.relationships")
-  public ConfigNodePropertyArray getAggregateRelationships() {
+  @Valid public ConfigNodePropertyArray getAggregateRelationships() {
     return aggregateRelationships;
   }
+
+  @JsonProperty("aggregate.relationships")
   public void setAggregateRelationships(ConfigNodePropertyArray aggregateRelationships) {
     this.aggregateRelationships = aggregateRelationships;
   }
@@ -43,16 +56,18 @@ public class ComAdobeGraniteActivitystreamsImplActivityManagerImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("aggregate.descend.virtual")
-  public ConfigNodePropertyBoolean getAggregateDescendVirtual() {
+  @Valid public ConfigNodePropertyBoolean getAggregateDescendVirtual() {
     return aggregateDescendVirtual;
   }
+
+  @JsonProperty("aggregate.descend.virtual")
   public void setAggregateDescendVirtual(ConfigNodePropertyBoolean aggregateDescendVirtual) {
     this.aggregateDescendVirtual = aggregateDescendVirtual;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -60,8 +75,8 @@ public class ComAdobeGraniteActivitystreamsImplActivityManagerImplProperties   {
       return false;
     }
     ComAdobeGraniteActivitystreamsImplActivityManagerImplProperties comAdobeGraniteActivitystreamsImplActivityManagerImplProperties = (ComAdobeGraniteActivitystreamsImplActivityManagerImplProperties) o;
-    return Objects.equals(aggregateRelationships, comAdobeGraniteActivitystreamsImplActivityManagerImplProperties.aggregateRelationships) &&
-        Objects.equals(aggregateDescendVirtual, comAdobeGraniteActivitystreamsImplActivityManagerImplProperties.aggregateDescendVirtual);
+    return Objects.equals(this.aggregateRelationships, comAdobeGraniteActivitystreamsImplActivityManagerImplProperties.aggregateRelationships) &&
+        Objects.equals(this.aggregateDescendVirtual, comAdobeGraniteActivitystreamsImplActivityManagerImplProperties.aggregateDescendVirtual);
   }
 
   @Override
@@ -84,11 +99,9 @@ public class ComAdobeGraniteActivitystreamsImplActivityManagerImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

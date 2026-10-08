@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeGraniteAuthImsImplIMSInstanceCredentialsVa
 
 @Canonical
 class ComAdobeGraniteAuthImsImplIMSInstanceCredentialsValidatorInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteAuthImsImplIMSInstanceCredentialsValidatorProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteAuthImsImplIMSInstanceCredentialsValidatorProperties properties
 }

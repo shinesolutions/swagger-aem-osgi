@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyBoolean;
 import com.prokarma.pkmst.model.ConfigNodePropertyString;
 import io.swagger.annotations.ApiModel;
@@ -16,27 +17,26 @@ import io.swagger.annotations.ApiModelProperty;
  * ComAdobeCqDamProcessorNuiImplNuiAssetProcessorProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeCqDamProcessorNuiImplNuiAssetProcessorProperties   {
   @JsonProperty("nuiEnabled")
-  private ConfigNodePropertyBoolean nuiEnabled = null;
+  private ConfigNodePropertyBoolean nuiEnabled;
 
   @JsonProperty("nuiServiceUrl")
-  private ConfigNodePropertyString nuiServiceUrl = null;
+  private ConfigNodePropertyString nuiServiceUrl;
 
   @JsonProperty("nuiApiKey")
-  private ConfigNodePropertyString nuiApiKey = null;
+  private ConfigNodePropertyString nuiApiKey;
 
   public ComAdobeCqDamProcessorNuiImplNuiAssetProcessorProperties nuiEnabled(ConfigNodePropertyBoolean nuiEnabled) {
     this.nuiEnabled = nuiEnabled;
     return this;
   }
 
-   /**
+  /**
    * Get nuiEnabled
    * @return nuiEnabled
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getNuiEnabled() {
     return nuiEnabled;
@@ -51,10 +51,10 @@ public class ComAdobeCqDamProcessorNuiImplNuiAssetProcessorProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get nuiServiceUrl
    * @return nuiServiceUrl
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getNuiServiceUrl() {
     return nuiServiceUrl;
@@ -69,10 +69,10 @@ public class ComAdobeCqDamProcessorNuiImplNuiAssetProcessorProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get nuiApiKey
    * @return nuiApiKey
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getNuiApiKey() {
     return nuiApiKey;
@@ -84,7 +84,7 @@ public class ComAdobeCqDamProcessorNuiImplNuiAssetProcessorProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -118,11 +118,8 @@ public class ComAdobeCqDamProcessorNuiImplNuiAssetProcessorProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

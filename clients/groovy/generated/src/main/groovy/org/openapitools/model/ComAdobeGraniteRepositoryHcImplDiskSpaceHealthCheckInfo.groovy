@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeGraniteRepositoryHcImplDiskSpaceHealthChec
 
 @Canonical
 class ComAdobeGraniteRepositoryHcImplDiskSpaceHealthCheckInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteRepositoryHcImplDiskSpaceHealthCheckProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteRepositoryHcImplDiskSpaceHealthCheckProperties properties
 }

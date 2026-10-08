@@ -4,28 +4,24 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2019-08-05T01:00:05.540Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2026-10-07T12:54:26.576036107Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiProperties   {
   
-
-  private ConfigNodePropertyString name = null;
-
-  private ConfigNodePropertyArray endpoints = null;
-
-  private ConfigNodePropertyInteger pullItems = null;
-
-  private ConfigNodePropertyString packageBuilderTarget = null;
-
-  private ConfigNodePropertyString transportSecretProviderTarget = null;
+  private ConfigNodePropertyString name;
+  private ConfigNodePropertyArray endpoints;
+  private ConfigNodePropertyInteger pullItems;
+  private ConfigNodePropertyString packageBuilderTarget;
+  private ConfigNodePropertyString transportSecretProviderTarget;
 
   /**
    **/
@@ -97,11 +93,11 @@ public class OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiProp
       return false;
     }
     OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiProperties orgApacheSlingDistributionPackagingImplExporterRemoteDistributiProperties = (OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiProperties) o;
-    return Objects.equals(name, orgApacheSlingDistributionPackagingImplExporterRemoteDistributiProperties.name) &&
-        Objects.equals(endpoints, orgApacheSlingDistributionPackagingImplExporterRemoteDistributiProperties.endpoints) &&
-        Objects.equals(pullItems, orgApacheSlingDistributionPackagingImplExporterRemoteDistributiProperties.pullItems) &&
-        Objects.equals(packageBuilderTarget, orgApacheSlingDistributionPackagingImplExporterRemoteDistributiProperties.packageBuilderTarget) &&
-        Objects.equals(transportSecretProviderTarget, orgApacheSlingDistributionPackagingImplExporterRemoteDistributiProperties.transportSecretProviderTarget);
+    return Objects.equals(this.name, orgApacheSlingDistributionPackagingImplExporterRemoteDistributiProperties.name) &&
+        Objects.equals(this.endpoints, orgApacheSlingDistributionPackagingImplExporterRemoteDistributiProperties.endpoints) &&
+        Objects.equals(this.pullItems, orgApacheSlingDistributionPackagingImplExporterRemoteDistributiProperties.pullItems) &&
+        Objects.equals(this.packageBuilderTarget, orgApacheSlingDistributionPackagingImplExporterRemoteDistributiProperties.packageBuilderTarget) &&
+        Objects.equals(this.transportSecretProviderTarget, orgApacheSlingDistributionPackagingImplExporterRemoteDistributiProperties.transportSecretProviderTarget);
   }
 
   @Override
@@ -128,10 +124,7 @@ public class OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiProp
    * (except the first line).
    */
   private String toIndentedString(Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

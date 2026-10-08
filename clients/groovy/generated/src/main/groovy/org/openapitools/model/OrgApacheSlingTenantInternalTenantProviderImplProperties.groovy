@@ -8,8 +8,8 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class OrgApacheSlingTenantInternalTenantProviderImplProperties {
-    ConfigNodePropertyString tenantRoot = null
-
-    ConfigNodePropertyArray tenantPathMatcher = null
-
+    
+    ConfigNodePropertyString tenantRoot
+    
+    ConfigNodePropertyArray tenantPathMatcher
 }

@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyBoolean;
 import com.prokarma.pkmst.model.ConfigNodePropertyInteger;
 import com.prokarma.pkmst.model.ConfigNodePropertyString;
@@ -17,33 +18,32 @@ import io.swagger.annotations.ApiModelProperty;
  * ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanProperties   {
   @JsonProperty("path")
-  private ConfigNodePropertyString path = null;
+  private ConfigNodePropertyString path;
 
   @JsonProperty("jaas.controlFlag")
-  private ConfigNodePropertyString jaasControlFlag = null;
+  private ConfigNodePropertyString jaasControlFlag;
 
   @JsonProperty("jaas.realmName")
-  private ConfigNodePropertyString jaasRealmName = null;
+  private ConfigNodePropertyString jaasRealmName;
 
   @JsonProperty("jaas.ranking")
-  private ConfigNodePropertyInteger jaasRanking = null;
+  private ConfigNodePropertyInteger jaasRanking;
 
   @JsonProperty("oauth.offline.validation")
-  private ConfigNodePropertyBoolean oauthOfflineValidation = null;
+  private ConfigNodePropertyBoolean oauthOfflineValidation;
 
   public ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanProperties path(ConfigNodePropertyString path) {
     this.path = path;
     return this;
   }
 
-   /**
+  /**
    * Get path
    * @return path
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getPath() {
     return path;
@@ -58,10 +58,10 @@ public class ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanProp
     return this;
   }
 
-   /**
+  /**
    * Get jaasControlFlag
    * @return jaasControlFlag
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getJaasControlFlag() {
     return jaasControlFlag;
@@ -76,10 +76,10 @@ public class ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanProp
     return this;
   }
 
-   /**
+  /**
    * Get jaasRealmName
    * @return jaasRealmName
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getJaasRealmName() {
     return jaasRealmName;
@@ -94,10 +94,10 @@ public class ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanProp
     return this;
   }
 
-   /**
+  /**
    * Get jaasRanking
    * @return jaasRanking
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getJaasRanking() {
     return jaasRanking;
@@ -112,10 +112,10 @@ public class ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanProp
     return this;
   }
 
-   /**
+  /**
    * Get oauthOfflineValidation
    * @return oauthOfflineValidation
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getOauthOfflineValidation() {
     return oauthOfflineValidation;
@@ -127,7 +127,7 @@ public class ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanProp
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -165,11 +165,8 @@ public class ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanProp
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -1,33 +1,44 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * OrgApacheSlingDistributionPackagingImplImporterRepositoryDistriProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class OrgApacheSlingDistributionPackagingImplImporterRepositoryDistriProperties   {
-  @JsonProperty("name")
-  private ConfigNodePropertyString name = null;
+@JsonTypeName("orgApacheSlingDistributionPackagingImplImporterRepositoryDistriProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class OrgApacheSlingDistributionPackagingImplImporterRepositoryDistriProperties {
 
-  @JsonProperty("service.name")
-  private ConfigNodePropertyString serviceName = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString name;
 
-  @JsonProperty("path")
-  private ConfigNodePropertyString path = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString serviceName;
 
-  @JsonProperty("privilege.name")
-  private ConfigNodePropertyString privilegeName = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString path;
 
-  public OrgApacheSlingDistributionPackagingImplImporterRepositoryDistriProperties name(ConfigNodePropertyString name) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString privilegeName;
+
+  public OrgApacheSlingDistributionPackagingImplImporterRepositoryDistriProperties name(@Nullable ConfigNodePropertyString name) {
     this.name = name;
     return this;
   }
@@ -35,20 +46,20 @@ public class OrgApacheSlingDistributionPackagingImplImporterRepositoryDistriProp
   /**
    * Get name
    * @return name
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getName() {
+   */
+  @Valid 
+  @Schema(name = "name", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("name")
+  public @Nullable ConfigNodePropertyString getName() {
     return name;
   }
 
-  public void setName(ConfigNodePropertyString name) {
+  @JsonProperty("name")
+  public void setName(@Nullable ConfigNodePropertyString name) {
     this.name = name;
   }
 
-  public OrgApacheSlingDistributionPackagingImplImporterRepositoryDistriProperties serviceName(ConfigNodePropertyString serviceName) {
+  public OrgApacheSlingDistributionPackagingImplImporterRepositoryDistriProperties serviceName(@Nullable ConfigNodePropertyString serviceName) {
     this.serviceName = serviceName;
     return this;
   }
@@ -56,20 +67,20 @@ public class OrgApacheSlingDistributionPackagingImplImporterRepositoryDistriProp
   /**
    * Get serviceName
    * @return serviceName
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getServiceName() {
+   */
+  @Valid 
+  @Schema(name = "service.name", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("service.name")
+  public @Nullable ConfigNodePropertyString getServiceName() {
     return serviceName;
   }
 
-  public void setServiceName(ConfigNodePropertyString serviceName) {
+  @JsonProperty("service.name")
+  public void setServiceName(@Nullable ConfigNodePropertyString serviceName) {
     this.serviceName = serviceName;
   }
 
-  public OrgApacheSlingDistributionPackagingImplImporterRepositoryDistriProperties path(ConfigNodePropertyString path) {
+  public OrgApacheSlingDistributionPackagingImplImporterRepositoryDistriProperties path(@Nullable ConfigNodePropertyString path) {
     this.path = path;
     return this;
   }
@@ -77,20 +88,20 @@ public class OrgApacheSlingDistributionPackagingImplImporterRepositoryDistriProp
   /**
    * Get path
    * @return path
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getPath() {
+   */
+  @Valid 
+  @Schema(name = "path", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("path")
+  public @Nullable ConfigNodePropertyString getPath() {
     return path;
   }
 
-  public void setPath(ConfigNodePropertyString path) {
+  @JsonProperty("path")
+  public void setPath(@Nullable ConfigNodePropertyString path) {
     this.path = path;
   }
 
-  public OrgApacheSlingDistributionPackagingImplImporterRepositoryDistriProperties privilegeName(ConfigNodePropertyString privilegeName) {
+  public OrgApacheSlingDistributionPackagingImplImporterRepositoryDistriProperties privilegeName(@Nullable ConfigNodePropertyString privilegeName) {
     this.privilegeName = privilegeName;
     return this;
   }
@@ -98,22 +109,21 @@ public class OrgApacheSlingDistributionPackagingImplImporterRepositoryDistriProp
   /**
    * Get privilegeName
    * @return privilegeName
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getPrivilegeName() {
+   */
+  @Valid 
+  @Schema(name = "privilege.name", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("privilege.name")
+  public @Nullable ConfigNodePropertyString getPrivilegeName() {
     return privilegeName;
   }
 
-  public void setPrivilegeName(ConfigNodePropertyString privilegeName) {
+  @JsonProperty("privilege.name")
+  public void setPrivilegeName(@Nullable ConfigNodePropertyString privilegeName) {
     this.privilegeName = privilegeName;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -136,7 +146,6 @@ public class OrgApacheSlingDistributionPackagingImplImporterRepositoryDistriProp
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class OrgApacheSlingDistributionPackagingImplImporterRepositoryDistriProperties {\n");
-    
     sb.append("    name: ").append(toIndentedString(name)).append("\n");
     sb.append("    serviceName: ").append(toIndentedString(serviceName)).append("\n");
     sb.append("    path: ").append(toIndentedString(path)).append("\n");
@@ -149,11 +158,8 @@ public class OrgApacheSlingDistributionPackagingImplImporterRepositoryDistriProp
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

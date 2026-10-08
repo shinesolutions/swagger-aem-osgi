@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqDamCoreImplHandlerEPSFormatHandlerProperties {
-    ConfigNodePropertyString mimetype = null
-
+    
+    ConfigNodePropertyString mimetype
 }

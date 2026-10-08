@@ -72,8 +72,8 @@ private class OASComAdobeCqSocialScoringImplScorinTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeCqSocialScoringImplScorin comAdobeCqSocialScoringImplScoringEventListenerProperties = new OASComAdobeCqSocialScoringImplScorin();
-        Map<String, String> propertyMappings = comAdobeCqSocialScoringImplScoringEventListenerProperties.getPropertyMappings();
-        System.assertEquals('eventTopics', propertyMappings.get('event.topics'));
-        System.assertEquals('eventFilter', propertyMappings.get('event.filter'));
+        Map<String, String> x-property-mappings = comAdobeCqSocialScoringImplScoringEventListenerProperties.getx-property-mappings();
+        System.assertEquals('eventTopics', x-property-mappings.get('event.topics'));
+        System.assertEquals('eventFilter', x-property-mappings.get('event.filter'));
     }
 }

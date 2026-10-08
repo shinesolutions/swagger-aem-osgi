@@ -1,6 +1,7 @@
 # NodeSwaggerAemOsgi.OrgApacheSlingEngineImplDebugRequestProgressTrackerLogFilterProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **extensions** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 

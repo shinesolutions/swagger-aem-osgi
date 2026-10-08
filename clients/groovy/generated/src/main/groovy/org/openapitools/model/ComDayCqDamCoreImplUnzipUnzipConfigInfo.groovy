@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqDamCoreImplUnzipUnzipConfigProperties;
 
 @Canonical
 class ComDayCqDamCoreImplUnzipUnzipConfigInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqDamCoreImplUnzipUnzipConfigProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqDamCoreImplUnzipUnzipConfigProperties properties
 }

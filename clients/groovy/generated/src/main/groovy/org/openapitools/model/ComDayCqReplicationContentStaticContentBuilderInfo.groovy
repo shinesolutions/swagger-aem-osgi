@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqReplicationContentStaticContentBuilderProp
 
 @Canonical
 class ComDayCqReplicationContentStaticContentBuilderInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqReplicationContentStaticContentBuilderProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqReplicationContentStaticContentBuilderProperties properties
 }

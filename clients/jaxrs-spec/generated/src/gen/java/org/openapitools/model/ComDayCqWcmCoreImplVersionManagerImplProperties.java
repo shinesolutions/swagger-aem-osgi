@@ -1,26 +1,37 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comDayCqWcmCoreImplVersionManagerImplProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqWcmCoreImplVersionManagerImplProperties   {
-  
-  private @Valid ConfigNodePropertyBoolean versionmanagerCreateVersionOnActivation = null;
-  private @Valid ConfigNodePropertyBoolean versionmanagerPurgingEnabled = null;
-  private @Valid ConfigNodePropertyArray versionmanagerPurgePaths = null;
-  private @Valid ConfigNodePropertyArray versionmanagerIvPaths = null;
-  private @Valid ConfigNodePropertyInteger versionmanagerMaxAgeDays = null;
-  private @Valid ConfigNodePropertyInteger versionmanagerMaxNumberVersions = null;
-  private @Valid ConfigNodePropertyInteger versionmanagerMinNumberVersions = null;
+  private ConfigNodePropertyBoolean versionmanagerCreateVersionOnActivation;
+  private ConfigNodePropertyBoolean versionmanagerPurgingEnabled;
+  private ConfigNodePropertyArray versionmanagerPurgePaths;
+  private ConfigNodePropertyArray versionmanagerIvPaths;
+  private ConfigNodePropertyInteger versionmanagerMaxAgeDays;
+  private ConfigNodePropertyInteger versionmanagerMaxNumberVersions;
+  private ConfigNodePropertyInteger versionmanagerMinNumberVersions;
+
+  public ComDayCqWcmCoreImplVersionManagerImplProperties() {
+  }
 
   /**
    **/
@@ -32,9 +43,11 @@ public class ComDayCqWcmCoreImplVersionManagerImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("versionmanager.createVersionOnActivation")
-  public ConfigNodePropertyBoolean getVersionmanagerCreateVersionOnActivation() {
+  @Valid public ConfigNodePropertyBoolean getVersionmanagerCreateVersionOnActivation() {
     return versionmanagerCreateVersionOnActivation;
   }
+
+  @JsonProperty("versionmanager.createVersionOnActivation")
   public void setVersionmanagerCreateVersionOnActivation(ConfigNodePropertyBoolean versionmanagerCreateVersionOnActivation) {
     this.versionmanagerCreateVersionOnActivation = versionmanagerCreateVersionOnActivation;
   }
@@ -49,9 +62,11 @@ public class ComDayCqWcmCoreImplVersionManagerImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("versionmanager.purgingEnabled")
-  public ConfigNodePropertyBoolean getVersionmanagerPurgingEnabled() {
+  @Valid public ConfigNodePropertyBoolean getVersionmanagerPurgingEnabled() {
     return versionmanagerPurgingEnabled;
   }
+
+  @JsonProperty("versionmanager.purgingEnabled")
   public void setVersionmanagerPurgingEnabled(ConfigNodePropertyBoolean versionmanagerPurgingEnabled) {
     this.versionmanagerPurgingEnabled = versionmanagerPurgingEnabled;
   }
@@ -66,9 +81,11 @@ public class ComDayCqWcmCoreImplVersionManagerImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("versionmanager.purgePaths")
-  public ConfigNodePropertyArray getVersionmanagerPurgePaths() {
+  @Valid public ConfigNodePropertyArray getVersionmanagerPurgePaths() {
     return versionmanagerPurgePaths;
   }
+
+  @JsonProperty("versionmanager.purgePaths")
   public void setVersionmanagerPurgePaths(ConfigNodePropertyArray versionmanagerPurgePaths) {
     this.versionmanagerPurgePaths = versionmanagerPurgePaths;
   }
@@ -83,9 +100,11 @@ public class ComDayCqWcmCoreImplVersionManagerImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("versionmanager.ivPaths")
-  public ConfigNodePropertyArray getVersionmanagerIvPaths() {
+  @Valid public ConfigNodePropertyArray getVersionmanagerIvPaths() {
     return versionmanagerIvPaths;
   }
+
+  @JsonProperty("versionmanager.ivPaths")
   public void setVersionmanagerIvPaths(ConfigNodePropertyArray versionmanagerIvPaths) {
     this.versionmanagerIvPaths = versionmanagerIvPaths;
   }
@@ -100,9 +119,11 @@ public class ComDayCqWcmCoreImplVersionManagerImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("versionmanager.maxAgeDays")
-  public ConfigNodePropertyInteger getVersionmanagerMaxAgeDays() {
+  @Valid public ConfigNodePropertyInteger getVersionmanagerMaxAgeDays() {
     return versionmanagerMaxAgeDays;
   }
+
+  @JsonProperty("versionmanager.maxAgeDays")
   public void setVersionmanagerMaxAgeDays(ConfigNodePropertyInteger versionmanagerMaxAgeDays) {
     this.versionmanagerMaxAgeDays = versionmanagerMaxAgeDays;
   }
@@ -117,9 +138,11 @@ public class ComDayCqWcmCoreImplVersionManagerImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("versionmanager.maxNumberVersions")
-  public ConfigNodePropertyInteger getVersionmanagerMaxNumberVersions() {
+  @Valid public ConfigNodePropertyInteger getVersionmanagerMaxNumberVersions() {
     return versionmanagerMaxNumberVersions;
   }
+
+  @JsonProperty("versionmanager.maxNumberVersions")
   public void setVersionmanagerMaxNumberVersions(ConfigNodePropertyInteger versionmanagerMaxNumberVersions) {
     this.versionmanagerMaxNumberVersions = versionmanagerMaxNumberVersions;
   }
@@ -134,16 +157,18 @@ public class ComDayCqWcmCoreImplVersionManagerImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("versionmanager.minNumberVersions")
-  public ConfigNodePropertyInteger getVersionmanagerMinNumberVersions() {
+  @Valid public ConfigNodePropertyInteger getVersionmanagerMinNumberVersions() {
     return versionmanagerMinNumberVersions;
   }
+
+  @JsonProperty("versionmanager.minNumberVersions")
   public void setVersionmanagerMinNumberVersions(ConfigNodePropertyInteger versionmanagerMinNumberVersions) {
     this.versionmanagerMinNumberVersions = versionmanagerMinNumberVersions;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -151,13 +176,13 @@ public class ComDayCqWcmCoreImplVersionManagerImplProperties   {
       return false;
     }
     ComDayCqWcmCoreImplVersionManagerImplProperties comDayCqWcmCoreImplVersionManagerImplProperties = (ComDayCqWcmCoreImplVersionManagerImplProperties) o;
-    return Objects.equals(versionmanagerCreateVersionOnActivation, comDayCqWcmCoreImplVersionManagerImplProperties.versionmanagerCreateVersionOnActivation) &&
-        Objects.equals(versionmanagerPurgingEnabled, comDayCqWcmCoreImplVersionManagerImplProperties.versionmanagerPurgingEnabled) &&
-        Objects.equals(versionmanagerPurgePaths, comDayCqWcmCoreImplVersionManagerImplProperties.versionmanagerPurgePaths) &&
-        Objects.equals(versionmanagerIvPaths, comDayCqWcmCoreImplVersionManagerImplProperties.versionmanagerIvPaths) &&
-        Objects.equals(versionmanagerMaxAgeDays, comDayCqWcmCoreImplVersionManagerImplProperties.versionmanagerMaxAgeDays) &&
-        Objects.equals(versionmanagerMaxNumberVersions, comDayCqWcmCoreImplVersionManagerImplProperties.versionmanagerMaxNumberVersions) &&
-        Objects.equals(versionmanagerMinNumberVersions, comDayCqWcmCoreImplVersionManagerImplProperties.versionmanagerMinNumberVersions);
+    return Objects.equals(this.versionmanagerCreateVersionOnActivation, comDayCqWcmCoreImplVersionManagerImplProperties.versionmanagerCreateVersionOnActivation) &&
+        Objects.equals(this.versionmanagerPurgingEnabled, comDayCqWcmCoreImplVersionManagerImplProperties.versionmanagerPurgingEnabled) &&
+        Objects.equals(this.versionmanagerPurgePaths, comDayCqWcmCoreImplVersionManagerImplProperties.versionmanagerPurgePaths) &&
+        Objects.equals(this.versionmanagerIvPaths, comDayCqWcmCoreImplVersionManagerImplProperties.versionmanagerIvPaths) &&
+        Objects.equals(this.versionmanagerMaxAgeDays, comDayCqWcmCoreImplVersionManagerImplProperties.versionmanagerMaxAgeDays) &&
+        Objects.equals(this.versionmanagerMaxNumberVersions, comDayCqWcmCoreImplVersionManagerImplProperties.versionmanagerMaxNumberVersions) &&
+        Objects.equals(this.versionmanagerMinNumberVersions, comDayCqWcmCoreImplVersionManagerImplProperties.versionmanagerMinNumberVersions);
   }
 
   @Override
@@ -185,11 +210,9 @@ public class ComDayCqWcmCoreImplVersionManagerImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

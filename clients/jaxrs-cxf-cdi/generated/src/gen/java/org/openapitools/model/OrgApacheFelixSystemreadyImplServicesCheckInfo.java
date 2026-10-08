@@ -2,31 +2,32 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.OrgApacheFelixSystemreadyImplServicesCheckProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class OrgApacheFelixSystemreadyImplServicesCheckInfo   {
   
-  private String pid = null;
+  private String pid;
 
-  private String title = null;
+  private String title;
 
-  private String description = null;
+  private String description;
 
-  private OrgApacheFelixSystemreadyImplServicesCheckProperties properties = null;
+  private OrgApacheFelixSystemreadyImplServicesCheckProperties properties;
 
-  private String bundleLocation = null;
+  private String bundleLocation;
 
-  private String serviceLocation = null;
-
+  private String serviceLocation;
 
   /**
    **/
@@ -138,7 +139,7 @@ public class OrgApacheFelixSystemreadyImplServicesCheckInfo   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -146,12 +147,12 @@ public class OrgApacheFelixSystemreadyImplServicesCheckInfo   {
       return false;
     }
     OrgApacheFelixSystemreadyImplServicesCheckInfo orgApacheFelixSystemreadyImplServicesCheckInfo = (OrgApacheFelixSystemreadyImplServicesCheckInfo) o;
-    return Objects.equals(pid, orgApacheFelixSystemreadyImplServicesCheckInfo.pid) &&
-        Objects.equals(title, orgApacheFelixSystemreadyImplServicesCheckInfo.title) &&
-        Objects.equals(description, orgApacheFelixSystemreadyImplServicesCheckInfo.description) &&
-        Objects.equals(properties, orgApacheFelixSystemreadyImplServicesCheckInfo.properties) &&
-        Objects.equals(bundleLocation, orgApacheFelixSystemreadyImplServicesCheckInfo.bundleLocation) &&
-        Objects.equals(serviceLocation, orgApacheFelixSystemreadyImplServicesCheckInfo.serviceLocation);
+    return Objects.equals(this.pid, orgApacheFelixSystemreadyImplServicesCheckInfo.pid) &&
+        Objects.equals(this.title, orgApacheFelixSystemreadyImplServicesCheckInfo.title) &&
+        Objects.equals(this.description, orgApacheFelixSystemreadyImplServicesCheckInfo.description) &&
+        Objects.equals(this.properties, orgApacheFelixSystemreadyImplServicesCheckInfo.properties) &&
+        Objects.equals(this.bundleLocation, orgApacheFelixSystemreadyImplServicesCheckInfo.bundleLocation) &&
+        Objects.equals(this.serviceLocation, orgApacheFelixSystemreadyImplServicesCheckInfo.serviceLocation);
   }
 
   @Override
@@ -178,11 +179,8 @@ public class OrgApacheFelixSystemreadyImplServicesCheckInfo   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

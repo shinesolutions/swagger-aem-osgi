@@ -1,28 +1,39 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmenProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmenProperties   {
-  @JsonProperty("cq.social.content.fragments.services.enabled")
-  private ConfigNodePropertyBoolean cqSocialContentFragmentsServicesEnabled = null;
+@JsonTypeName("comAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmenProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmenProperties {
 
-  @JsonProperty("cq.social.content.fragments.services.waitTimeSeconds")
-  private ConfigNodePropertyInteger cqSocialContentFragmentsServicesWaitTimeSeconds = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean cqSocialContentFragmentsServicesEnabled;
 
-  public ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmenProperties cqSocialContentFragmentsServicesEnabled(ConfigNodePropertyBoolean cqSocialContentFragmentsServicesEnabled) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger cqSocialContentFragmentsServicesWaitTimeSeconds;
+
+  public ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmenProperties cqSocialContentFragmentsServicesEnabled(@Nullable ConfigNodePropertyBoolean cqSocialContentFragmentsServicesEnabled) {
     this.cqSocialContentFragmentsServicesEnabled = cqSocialContentFragmentsServicesEnabled;
     return this;
   }
@@ -30,20 +41,20 @@ public class ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmenPrope
   /**
    * Get cqSocialContentFragmentsServicesEnabled
    * @return cqSocialContentFragmentsServicesEnabled
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getCqSocialContentFragmentsServicesEnabled() {
+   */
+  @Valid 
+  @Schema(name = "cq.social.content.fragments.services.enabled", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cq.social.content.fragments.services.enabled")
+  public @Nullable ConfigNodePropertyBoolean getCqSocialContentFragmentsServicesEnabled() {
     return cqSocialContentFragmentsServicesEnabled;
   }
 
-  public void setCqSocialContentFragmentsServicesEnabled(ConfigNodePropertyBoolean cqSocialContentFragmentsServicesEnabled) {
+  @JsonProperty("cq.social.content.fragments.services.enabled")
+  public void setCqSocialContentFragmentsServicesEnabled(@Nullable ConfigNodePropertyBoolean cqSocialContentFragmentsServicesEnabled) {
     this.cqSocialContentFragmentsServicesEnabled = cqSocialContentFragmentsServicesEnabled;
   }
 
-  public ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmenProperties cqSocialContentFragmentsServicesWaitTimeSeconds(ConfigNodePropertyInteger cqSocialContentFragmentsServicesWaitTimeSeconds) {
+  public ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmenProperties cqSocialContentFragmentsServicesWaitTimeSeconds(@Nullable ConfigNodePropertyInteger cqSocialContentFragmentsServicesWaitTimeSeconds) {
     this.cqSocialContentFragmentsServicesWaitTimeSeconds = cqSocialContentFragmentsServicesWaitTimeSeconds;
     return this;
   }
@@ -51,22 +62,21 @@ public class ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmenPrope
   /**
    * Get cqSocialContentFragmentsServicesWaitTimeSeconds
    * @return cqSocialContentFragmentsServicesWaitTimeSeconds
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getCqSocialContentFragmentsServicesWaitTimeSeconds() {
+   */
+  @Valid 
+  @Schema(name = "cq.social.content.fragments.services.waitTimeSeconds", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cq.social.content.fragments.services.waitTimeSeconds")
+  public @Nullable ConfigNodePropertyInteger getCqSocialContentFragmentsServicesWaitTimeSeconds() {
     return cqSocialContentFragmentsServicesWaitTimeSeconds;
   }
 
-  public void setCqSocialContentFragmentsServicesWaitTimeSeconds(ConfigNodePropertyInteger cqSocialContentFragmentsServicesWaitTimeSeconds) {
+  @JsonProperty("cq.social.content.fragments.services.waitTimeSeconds")
+  public void setCqSocialContentFragmentsServicesWaitTimeSeconds(@Nullable ConfigNodePropertyInteger cqSocialContentFragmentsServicesWaitTimeSeconds) {
     this.cqSocialContentFragmentsServicesWaitTimeSeconds = cqSocialContentFragmentsServicesWaitTimeSeconds;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -87,7 +97,6 @@ public class ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmenPrope
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmenProperties {\n");
-    
     sb.append("    cqSocialContentFragmentsServicesEnabled: ").append(toIndentedString(cqSocialContentFragmentsServicesEnabled)).append("\n");
     sb.append("    cqSocialContentFragmentsServicesWaitTimeSeconds: ").append(toIndentedString(cqSocialContentFragmentsServicesWaitTimeSeconds)).append("\n");
     sb.append("}");
@@ -98,11 +107,8 @@ public class ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmenPrope
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

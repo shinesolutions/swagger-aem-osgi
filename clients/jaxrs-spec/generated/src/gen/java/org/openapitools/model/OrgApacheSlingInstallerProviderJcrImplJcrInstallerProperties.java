@@ -1,5 +1,8 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
@@ -7,21 +10,29 @@ import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("orgApacheSlingInstallerProviderJcrImplJcrInstallerProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingInstallerProviderJcrImplJcrInstallerProperties   {
-  
-  private @Valid ConfigNodePropertyArray handlerSchemes = null;
-  private @Valid ConfigNodePropertyString slingJcrinstallFolderNameRegexp = null;
-  private @Valid ConfigNodePropertyInteger slingJcrinstallFolderMaxDepth = null;
-  private @Valid ConfigNodePropertyArray slingJcrinstallSearchPath = null;
-  private @Valid ConfigNodePropertyString slingJcrinstallNewConfigPath = null;
-  private @Valid ConfigNodePropertyString slingJcrinstallSignalPath = null;
-  private @Valid ConfigNodePropertyBoolean slingJcrinstallEnableWriteback = null;
+  private ConfigNodePropertyArray handlerSchemes;
+  private ConfigNodePropertyString slingJcrinstallFolderNameRegexp;
+  private ConfigNodePropertyInteger slingJcrinstallFolderMaxDepth;
+  private ConfigNodePropertyArray slingJcrinstallSearchPath;
+  private ConfigNodePropertyString slingJcrinstallNewConfigPath;
+  private ConfigNodePropertyString slingJcrinstallSignalPath;
+  private ConfigNodePropertyBoolean slingJcrinstallEnableWriteback;
+
+  public OrgApacheSlingInstallerProviderJcrImplJcrInstallerProperties() {
+  }
 
   /**
    **/
@@ -33,9 +44,11 @@ public class OrgApacheSlingInstallerProviderJcrImplJcrInstallerProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("handler.schemes")
-  public ConfigNodePropertyArray getHandlerSchemes() {
+  @Valid public ConfigNodePropertyArray getHandlerSchemes() {
     return handlerSchemes;
   }
+
+  @JsonProperty("handler.schemes")
   public void setHandlerSchemes(ConfigNodePropertyArray handlerSchemes) {
     this.handlerSchemes = handlerSchemes;
   }
@@ -50,9 +63,11 @@ public class OrgApacheSlingInstallerProviderJcrImplJcrInstallerProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("sling.jcrinstall.folder.name.regexp")
-  public ConfigNodePropertyString getSlingJcrinstallFolderNameRegexp() {
+  @Valid public ConfigNodePropertyString getSlingJcrinstallFolderNameRegexp() {
     return slingJcrinstallFolderNameRegexp;
   }
+
+  @JsonProperty("sling.jcrinstall.folder.name.regexp")
   public void setSlingJcrinstallFolderNameRegexp(ConfigNodePropertyString slingJcrinstallFolderNameRegexp) {
     this.slingJcrinstallFolderNameRegexp = slingJcrinstallFolderNameRegexp;
   }
@@ -67,9 +82,11 @@ public class OrgApacheSlingInstallerProviderJcrImplJcrInstallerProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("sling.jcrinstall.folder.max.depth")
-  public ConfigNodePropertyInteger getSlingJcrinstallFolderMaxDepth() {
+  @Valid public ConfigNodePropertyInteger getSlingJcrinstallFolderMaxDepth() {
     return slingJcrinstallFolderMaxDepth;
   }
+
+  @JsonProperty("sling.jcrinstall.folder.max.depth")
   public void setSlingJcrinstallFolderMaxDepth(ConfigNodePropertyInteger slingJcrinstallFolderMaxDepth) {
     this.slingJcrinstallFolderMaxDepth = slingJcrinstallFolderMaxDepth;
   }
@@ -84,9 +101,11 @@ public class OrgApacheSlingInstallerProviderJcrImplJcrInstallerProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("sling.jcrinstall.search.path")
-  public ConfigNodePropertyArray getSlingJcrinstallSearchPath() {
+  @Valid public ConfigNodePropertyArray getSlingJcrinstallSearchPath() {
     return slingJcrinstallSearchPath;
   }
+
+  @JsonProperty("sling.jcrinstall.search.path")
   public void setSlingJcrinstallSearchPath(ConfigNodePropertyArray slingJcrinstallSearchPath) {
     this.slingJcrinstallSearchPath = slingJcrinstallSearchPath;
   }
@@ -101,9 +120,11 @@ public class OrgApacheSlingInstallerProviderJcrImplJcrInstallerProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("sling.jcrinstall.new.config.path")
-  public ConfigNodePropertyString getSlingJcrinstallNewConfigPath() {
+  @Valid public ConfigNodePropertyString getSlingJcrinstallNewConfigPath() {
     return slingJcrinstallNewConfigPath;
   }
+
+  @JsonProperty("sling.jcrinstall.new.config.path")
   public void setSlingJcrinstallNewConfigPath(ConfigNodePropertyString slingJcrinstallNewConfigPath) {
     this.slingJcrinstallNewConfigPath = slingJcrinstallNewConfigPath;
   }
@@ -118,9 +139,11 @@ public class OrgApacheSlingInstallerProviderJcrImplJcrInstallerProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("sling.jcrinstall.signal.path")
-  public ConfigNodePropertyString getSlingJcrinstallSignalPath() {
+  @Valid public ConfigNodePropertyString getSlingJcrinstallSignalPath() {
     return slingJcrinstallSignalPath;
   }
+
+  @JsonProperty("sling.jcrinstall.signal.path")
   public void setSlingJcrinstallSignalPath(ConfigNodePropertyString slingJcrinstallSignalPath) {
     this.slingJcrinstallSignalPath = slingJcrinstallSignalPath;
   }
@@ -135,16 +158,18 @@ public class OrgApacheSlingInstallerProviderJcrImplJcrInstallerProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("sling.jcrinstall.enable.writeback")
-  public ConfigNodePropertyBoolean getSlingJcrinstallEnableWriteback() {
+  @Valid public ConfigNodePropertyBoolean getSlingJcrinstallEnableWriteback() {
     return slingJcrinstallEnableWriteback;
   }
+
+  @JsonProperty("sling.jcrinstall.enable.writeback")
   public void setSlingJcrinstallEnableWriteback(ConfigNodePropertyBoolean slingJcrinstallEnableWriteback) {
     this.slingJcrinstallEnableWriteback = slingJcrinstallEnableWriteback;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -152,13 +177,13 @@ public class OrgApacheSlingInstallerProviderJcrImplJcrInstallerProperties   {
       return false;
     }
     OrgApacheSlingInstallerProviderJcrImplJcrInstallerProperties orgApacheSlingInstallerProviderJcrImplJcrInstallerProperties = (OrgApacheSlingInstallerProviderJcrImplJcrInstallerProperties) o;
-    return Objects.equals(handlerSchemes, orgApacheSlingInstallerProviderJcrImplJcrInstallerProperties.handlerSchemes) &&
-        Objects.equals(slingJcrinstallFolderNameRegexp, orgApacheSlingInstallerProviderJcrImplJcrInstallerProperties.slingJcrinstallFolderNameRegexp) &&
-        Objects.equals(slingJcrinstallFolderMaxDepth, orgApacheSlingInstallerProviderJcrImplJcrInstallerProperties.slingJcrinstallFolderMaxDepth) &&
-        Objects.equals(slingJcrinstallSearchPath, orgApacheSlingInstallerProviderJcrImplJcrInstallerProperties.slingJcrinstallSearchPath) &&
-        Objects.equals(slingJcrinstallNewConfigPath, orgApacheSlingInstallerProviderJcrImplJcrInstallerProperties.slingJcrinstallNewConfigPath) &&
-        Objects.equals(slingJcrinstallSignalPath, orgApacheSlingInstallerProviderJcrImplJcrInstallerProperties.slingJcrinstallSignalPath) &&
-        Objects.equals(slingJcrinstallEnableWriteback, orgApacheSlingInstallerProviderJcrImplJcrInstallerProperties.slingJcrinstallEnableWriteback);
+    return Objects.equals(this.handlerSchemes, orgApacheSlingInstallerProviderJcrImplJcrInstallerProperties.handlerSchemes) &&
+        Objects.equals(this.slingJcrinstallFolderNameRegexp, orgApacheSlingInstallerProviderJcrImplJcrInstallerProperties.slingJcrinstallFolderNameRegexp) &&
+        Objects.equals(this.slingJcrinstallFolderMaxDepth, orgApacheSlingInstallerProviderJcrImplJcrInstallerProperties.slingJcrinstallFolderMaxDepth) &&
+        Objects.equals(this.slingJcrinstallSearchPath, orgApacheSlingInstallerProviderJcrImplJcrInstallerProperties.slingJcrinstallSearchPath) &&
+        Objects.equals(this.slingJcrinstallNewConfigPath, orgApacheSlingInstallerProviderJcrImplJcrInstallerProperties.slingJcrinstallNewConfigPath) &&
+        Objects.equals(this.slingJcrinstallSignalPath, orgApacheSlingInstallerProviderJcrImplJcrInstallerProperties.slingJcrinstallSignalPath) &&
+        Objects.equals(this.slingJcrinstallEnableWriteback, orgApacheSlingInstallerProviderJcrImplJcrInstallerProperties.slingJcrinstallEnableWriteback);
   }
 
   @Override
@@ -186,11 +211,9 @@ public class OrgApacheSlingInstallerProviderJcrImplJcrInstallerProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

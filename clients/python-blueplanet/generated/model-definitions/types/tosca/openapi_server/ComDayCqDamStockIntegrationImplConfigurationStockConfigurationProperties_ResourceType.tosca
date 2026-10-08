@@ -1,0 +1,46 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqDamStockIntegrationImplConfigurationStockConfigurationProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqDamStockIntegrationImplConfigurationStockConfigurationProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComDayCqDamStockIntegrationImplConfigurationStockConfigurationProperties {
+    title = ComDayCqDamStockIntegrationImplConfigurationStockConfigurationProperties
+    description = ComDayCqDamStockIntegrationImplConfigurationStockConfigurationProperties
+    derivedFrom = Root
+    properties {
+        name {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        locale {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        ims_config {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqDamStockIntegrationImplConfigurationStockConfigurationProperties {
+    title = ComDayCqDamStockIntegrationImplConfigurationStockConfigurationProperties
+    description = ComDayCqDamStockIntegrationImplConfigurationStockConfigurationProperties
+    implements = openapi_server.resourceTypes.ComDayCqDamStockIntegrationImplConfigurationStockConfigurationProperties
+
+  }
+}

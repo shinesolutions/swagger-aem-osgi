@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqSocialGroupImplGroupServiceImplPropertie
 
 @Canonical
 class ComAdobeCqSocialGroupImplGroupServiceImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqSocialGroupImplGroupServiceImplProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqSocialGroupImplGroupServiceImplProperties properties
 }

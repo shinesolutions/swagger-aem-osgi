@@ -72,8 +72,8 @@ private class OASComDayCqDamCoreProcessExifToolExtTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqDamCoreProcessExifToolExt comDayCqDamCoreProcessExifToolExtractMetadataProcessProperties = new OASComDayCqDamCoreProcessExifToolExt();
-        Map<String, String> propertyMappings = comDayCqDamCoreProcessExifToolExtractMetadataProcessProperties.getPropertyMappings();
-        System.assertEquals('processLabel', propertyMappings.get('process.label'));
-        System.assertEquals('cqDamEnableSha1', propertyMappings.get('cq.dam.enable.sha1'));
+        Map<String, String> x-property-mappings = comDayCqDamCoreProcessExifToolExtractMetadataProcessProperties.getx-property-mappings();
+        System.assertEquals('processLabel', x-property-mappings.get('process.label'));
+        System.assertEquals('cqDamEnableSha1', x-property-mappings.get('cq.dam.enable.sha1'));
     }
 }

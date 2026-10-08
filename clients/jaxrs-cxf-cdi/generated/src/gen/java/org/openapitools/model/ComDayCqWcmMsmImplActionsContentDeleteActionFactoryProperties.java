@@ -2,25 +2,26 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class ComDayCqWcmMsmImplActionsContentDeleteActionFactoryProperties   {
   
-  private ConfigNodePropertyArray cqWcmMsmActionExcludednodetypes = null;
+  private ConfigNodePropertyArray cqWcmMsmActionExcludednodetypes;
 
-  private ConfigNodePropertyArray cqWcmMsmActionExcludedparagraphitems = null;
+  private ConfigNodePropertyArray cqWcmMsmActionExcludedparagraphitems;
 
-  private ConfigNodePropertyArray cqWcmMsmActionExcludedprops = null;
-
+  private ConfigNodePropertyArray cqWcmMsmActionExcludedprops;
 
   /**
    **/
@@ -78,7 +79,7 @@ public class ComDayCqWcmMsmImplActionsContentDeleteActionFactoryProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -86,9 +87,9 @@ public class ComDayCqWcmMsmImplActionsContentDeleteActionFactoryProperties   {
       return false;
     }
     ComDayCqWcmMsmImplActionsContentDeleteActionFactoryProperties comDayCqWcmMsmImplActionsContentDeleteActionFactoryProperties = (ComDayCqWcmMsmImplActionsContentDeleteActionFactoryProperties) o;
-    return Objects.equals(cqWcmMsmActionExcludednodetypes, comDayCqWcmMsmImplActionsContentDeleteActionFactoryProperties.cqWcmMsmActionExcludednodetypes) &&
-        Objects.equals(cqWcmMsmActionExcludedparagraphitems, comDayCqWcmMsmImplActionsContentDeleteActionFactoryProperties.cqWcmMsmActionExcludedparagraphitems) &&
-        Objects.equals(cqWcmMsmActionExcludedprops, comDayCqWcmMsmImplActionsContentDeleteActionFactoryProperties.cqWcmMsmActionExcludedprops);
+    return Objects.equals(this.cqWcmMsmActionExcludednodetypes, comDayCqWcmMsmImplActionsContentDeleteActionFactoryProperties.cqWcmMsmActionExcludednodetypes) &&
+        Objects.equals(this.cqWcmMsmActionExcludedparagraphitems, comDayCqWcmMsmImplActionsContentDeleteActionFactoryProperties.cqWcmMsmActionExcludedparagraphitems) &&
+        Objects.equals(this.cqWcmMsmActionExcludedprops, comDayCqWcmMsmImplActionsContentDeleteActionFactoryProperties.cqWcmMsmActionExcludedprops);
   }
 
   @Override
@@ -112,11 +113,8 @@ public class ComDayCqWcmMsmImplActionsContentDeleteActionFactoryProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

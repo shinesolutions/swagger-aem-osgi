@@ -1,0 +1,47 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheFelixJaasConfigurationSpiProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheFelixJaasConfigurationSpiProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyDropDown = openapi_server.resourceTypes.ConfigNodePropertyDropDown
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  OrgApacheFelixJaasConfigurationSpiProperties {
+    title = OrgApacheFelixJaasConfigurationSpiProperties
+    description = OrgApacheFelixJaasConfigurationSpiProperties
+    derivedFrom = Root
+    properties {
+        jaas_default_realm_name {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        jaas_config_provider_name {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        jaas_global_config_policy {
+          type = ConfigNodePropertyDropDown
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheFelixJaasConfigurationSpiProperties {
+    title = OrgApacheFelixJaasConfigurationSpiProperties
+    description = OrgApacheFelixJaasConfigurationSpiProperties
+    implements = openapi_server.resourceTypes.OrgApacheFelixJaasConfigurationSpiProperties
+
+  }
+}

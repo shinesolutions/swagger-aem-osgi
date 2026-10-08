@@ -1,46 +1,57 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("orgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties   {
-  
-  private @Valid ConfigNodePropertyString repositoryHome = null;
-  private @Valid ConfigNodePropertyString tarmkMode = null;
-  private @Valid ConfigNodePropertyInteger tarmkSize = null;
-  private @Valid ConfigNodePropertyInteger segmentCacheSize = null;
-  private @Valid ConfigNodePropertyInteger stringCacheSize = null;
-  private @Valid ConfigNodePropertyInteger templateCacheSize = null;
-  private @Valid ConfigNodePropertyInteger stringDeduplicationCacheSize = null;
-  private @Valid ConfigNodePropertyInteger templateDeduplicationCacheSize = null;
-  private @Valid ConfigNodePropertyInteger nodeDeduplicationCacheSize = null;
-  private @Valid ConfigNodePropertyBoolean pauseCompaction = null;
-  private @Valid ConfigNodePropertyInteger compactionRetryCount = null;
-  private @Valid ConfigNodePropertyInteger compactionForceTimeout = null;
-  private @Valid ConfigNodePropertyInteger compactionSizeDeltaEstimation = null;
-  private @Valid ConfigNodePropertyBoolean compactionDisableEstimation = null;
-  private @Valid ConfigNodePropertyInteger compactionRetainedGenerations = null;
-  private @Valid ConfigNodePropertyInteger compactionMemoryThreshold = null;
-  private @Valid ConfigNodePropertyInteger compactionProgressLog = null;
-  private @Valid ConfigNodePropertyBoolean standby = null;
-  private @Valid ConfigNodePropertyBoolean customBlobStore = null;
-  private @Valid ConfigNodePropertyBoolean customSegmentStore = null;
-  private @Valid ConfigNodePropertyBoolean splitPersistence = null;
-  private @Valid ConfigNodePropertyString repositoryBackupDir = null;
-  private @Valid ConfigNodePropertyInteger blobGcMaxAgeInSecs = null;
-  private @Valid ConfigNodePropertyInteger blobTrackSnapshotIntervalInSecs = null;
-  private @Valid ConfigNodePropertyString role = null;
-  private @Valid ConfigNodePropertyBoolean registerDescriptors = null;
-  private @Valid ConfigNodePropertyBoolean dispatchChanges = null;
+  private ConfigNodePropertyString repositoryHome;
+  private ConfigNodePropertyString tarmkMode;
+  private ConfigNodePropertyInteger tarmkSize;
+  private ConfigNodePropertyInteger segmentCacheSize;
+  private ConfigNodePropertyInteger stringCacheSize;
+  private ConfigNodePropertyInteger templateCacheSize;
+  private ConfigNodePropertyInteger stringDeduplicationCacheSize;
+  private ConfigNodePropertyInteger templateDeduplicationCacheSize;
+  private ConfigNodePropertyInteger nodeDeduplicationCacheSize;
+  private ConfigNodePropertyBoolean pauseCompaction;
+  private ConfigNodePropertyInteger compactionRetryCount;
+  private ConfigNodePropertyInteger compactionForceTimeout;
+  private ConfigNodePropertyInteger compactionSizeDeltaEstimation;
+  private ConfigNodePropertyBoolean compactionDisableEstimation;
+  private ConfigNodePropertyInteger compactionRetainedGenerations;
+  private ConfigNodePropertyInteger compactionMemoryThreshold;
+  private ConfigNodePropertyInteger compactionProgressLog;
+  private ConfigNodePropertyBoolean standby;
+  private ConfigNodePropertyBoolean customBlobStore;
+  private ConfigNodePropertyBoolean customSegmentStore;
+  private ConfigNodePropertyBoolean splitPersistence;
+  private ConfigNodePropertyString repositoryBackupDir;
+  private ConfigNodePropertyInteger blobGcMaxAgeInSecs;
+  private ConfigNodePropertyInteger blobTrackSnapshotIntervalInSecs;
+  private ConfigNodePropertyString role;
+  private ConfigNodePropertyBoolean registerDescriptors;
+  private ConfigNodePropertyBoolean dispatchChanges;
+
+  public OrgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties() {
+  }
 
   /**
    **/
@@ -52,9 +63,11 @@ public class OrgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("repository.home")
-  public ConfigNodePropertyString getRepositoryHome() {
+  @Valid public ConfigNodePropertyString getRepositoryHome() {
     return repositoryHome;
   }
+
+  @JsonProperty("repository.home")
   public void setRepositoryHome(ConfigNodePropertyString repositoryHome) {
     this.repositoryHome = repositoryHome;
   }
@@ -69,9 +82,11 @@ public class OrgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("tarmk.mode")
-  public ConfigNodePropertyString getTarmkMode() {
+  @Valid public ConfigNodePropertyString getTarmkMode() {
     return tarmkMode;
   }
+
+  @JsonProperty("tarmk.mode")
   public void setTarmkMode(ConfigNodePropertyString tarmkMode) {
     this.tarmkMode = tarmkMode;
   }
@@ -86,9 +101,11 @@ public class OrgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("tarmk.size")
-  public ConfigNodePropertyInteger getTarmkSize() {
+  @Valid public ConfigNodePropertyInteger getTarmkSize() {
     return tarmkSize;
   }
+
+  @JsonProperty("tarmk.size")
   public void setTarmkSize(ConfigNodePropertyInteger tarmkSize) {
     this.tarmkSize = tarmkSize;
   }
@@ -103,9 +120,11 @@ public class OrgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("segmentCache.size")
-  public ConfigNodePropertyInteger getSegmentCacheSize() {
+  @Valid public ConfigNodePropertyInteger getSegmentCacheSize() {
     return segmentCacheSize;
   }
+
+  @JsonProperty("segmentCache.size")
   public void setSegmentCacheSize(ConfigNodePropertyInteger segmentCacheSize) {
     this.segmentCacheSize = segmentCacheSize;
   }
@@ -120,9 +139,11 @@ public class OrgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("stringCache.size")
-  public ConfigNodePropertyInteger getStringCacheSize() {
+  @Valid public ConfigNodePropertyInteger getStringCacheSize() {
     return stringCacheSize;
   }
+
+  @JsonProperty("stringCache.size")
   public void setStringCacheSize(ConfigNodePropertyInteger stringCacheSize) {
     this.stringCacheSize = stringCacheSize;
   }
@@ -137,9 +158,11 @@ public class OrgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("templateCache.size")
-  public ConfigNodePropertyInteger getTemplateCacheSize() {
+  @Valid public ConfigNodePropertyInteger getTemplateCacheSize() {
     return templateCacheSize;
   }
+
+  @JsonProperty("templateCache.size")
   public void setTemplateCacheSize(ConfigNodePropertyInteger templateCacheSize) {
     this.templateCacheSize = templateCacheSize;
   }
@@ -154,9 +177,11 @@ public class OrgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("stringDeduplicationCache.size")
-  public ConfigNodePropertyInteger getStringDeduplicationCacheSize() {
+  @Valid public ConfigNodePropertyInteger getStringDeduplicationCacheSize() {
     return stringDeduplicationCacheSize;
   }
+
+  @JsonProperty("stringDeduplicationCache.size")
   public void setStringDeduplicationCacheSize(ConfigNodePropertyInteger stringDeduplicationCacheSize) {
     this.stringDeduplicationCacheSize = stringDeduplicationCacheSize;
   }
@@ -171,9 +196,11 @@ public class OrgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("templateDeduplicationCache.size")
-  public ConfigNodePropertyInteger getTemplateDeduplicationCacheSize() {
+  @Valid public ConfigNodePropertyInteger getTemplateDeduplicationCacheSize() {
     return templateDeduplicationCacheSize;
   }
+
+  @JsonProperty("templateDeduplicationCache.size")
   public void setTemplateDeduplicationCacheSize(ConfigNodePropertyInteger templateDeduplicationCacheSize) {
     this.templateDeduplicationCacheSize = templateDeduplicationCacheSize;
   }
@@ -188,9 +215,11 @@ public class OrgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("nodeDeduplicationCache.size")
-  public ConfigNodePropertyInteger getNodeDeduplicationCacheSize() {
+  @Valid public ConfigNodePropertyInteger getNodeDeduplicationCacheSize() {
     return nodeDeduplicationCacheSize;
   }
+
+  @JsonProperty("nodeDeduplicationCache.size")
   public void setNodeDeduplicationCacheSize(ConfigNodePropertyInteger nodeDeduplicationCacheSize) {
     this.nodeDeduplicationCacheSize = nodeDeduplicationCacheSize;
   }
@@ -205,9 +234,11 @@ public class OrgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("pauseCompaction")
-  public ConfigNodePropertyBoolean getPauseCompaction() {
+  @Valid public ConfigNodePropertyBoolean getPauseCompaction() {
     return pauseCompaction;
   }
+
+  @JsonProperty("pauseCompaction")
   public void setPauseCompaction(ConfigNodePropertyBoolean pauseCompaction) {
     this.pauseCompaction = pauseCompaction;
   }
@@ -222,9 +253,11 @@ public class OrgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("compaction.retryCount")
-  public ConfigNodePropertyInteger getCompactionRetryCount() {
+  @Valid public ConfigNodePropertyInteger getCompactionRetryCount() {
     return compactionRetryCount;
   }
+
+  @JsonProperty("compaction.retryCount")
   public void setCompactionRetryCount(ConfigNodePropertyInteger compactionRetryCount) {
     this.compactionRetryCount = compactionRetryCount;
   }
@@ -239,9 +272,11 @@ public class OrgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("compaction.force.timeout")
-  public ConfigNodePropertyInteger getCompactionForceTimeout() {
+  @Valid public ConfigNodePropertyInteger getCompactionForceTimeout() {
     return compactionForceTimeout;
   }
+
+  @JsonProperty("compaction.force.timeout")
   public void setCompactionForceTimeout(ConfigNodePropertyInteger compactionForceTimeout) {
     this.compactionForceTimeout = compactionForceTimeout;
   }
@@ -256,9 +291,11 @@ public class OrgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("compaction.sizeDeltaEstimation")
-  public ConfigNodePropertyInteger getCompactionSizeDeltaEstimation() {
+  @Valid public ConfigNodePropertyInteger getCompactionSizeDeltaEstimation() {
     return compactionSizeDeltaEstimation;
   }
+
+  @JsonProperty("compaction.sizeDeltaEstimation")
   public void setCompactionSizeDeltaEstimation(ConfigNodePropertyInteger compactionSizeDeltaEstimation) {
     this.compactionSizeDeltaEstimation = compactionSizeDeltaEstimation;
   }
@@ -273,9 +310,11 @@ public class OrgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("compaction.disableEstimation")
-  public ConfigNodePropertyBoolean getCompactionDisableEstimation() {
+  @Valid public ConfigNodePropertyBoolean getCompactionDisableEstimation() {
     return compactionDisableEstimation;
   }
+
+  @JsonProperty("compaction.disableEstimation")
   public void setCompactionDisableEstimation(ConfigNodePropertyBoolean compactionDisableEstimation) {
     this.compactionDisableEstimation = compactionDisableEstimation;
   }
@@ -290,9 +329,11 @@ public class OrgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("compaction.retainedGenerations")
-  public ConfigNodePropertyInteger getCompactionRetainedGenerations() {
+  @Valid public ConfigNodePropertyInteger getCompactionRetainedGenerations() {
     return compactionRetainedGenerations;
   }
+
+  @JsonProperty("compaction.retainedGenerations")
   public void setCompactionRetainedGenerations(ConfigNodePropertyInteger compactionRetainedGenerations) {
     this.compactionRetainedGenerations = compactionRetainedGenerations;
   }
@@ -307,9 +348,11 @@ public class OrgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("compaction.memoryThreshold")
-  public ConfigNodePropertyInteger getCompactionMemoryThreshold() {
+  @Valid public ConfigNodePropertyInteger getCompactionMemoryThreshold() {
     return compactionMemoryThreshold;
   }
+
+  @JsonProperty("compaction.memoryThreshold")
   public void setCompactionMemoryThreshold(ConfigNodePropertyInteger compactionMemoryThreshold) {
     this.compactionMemoryThreshold = compactionMemoryThreshold;
   }
@@ -324,9 +367,11 @@ public class OrgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("compaction.progressLog")
-  public ConfigNodePropertyInteger getCompactionProgressLog() {
+  @Valid public ConfigNodePropertyInteger getCompactionProgressLog() {
     return compactionProgressLog;
   }
+
+  @JsonProperty("compaction.progressLog")
   public void setCompactionProgressLog(ConfigNodePropertyInteger compactionProgressLog) {
     this.compactionProgressLog = compactionProgressLog;
   }
@@ -341,9 +386,11 @@ public class OrgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("standby")
-  public ConfigNodePropertyBoolean getStandby() {
+  @Valid public ConfigNodePropertyBoolean getStandby() {
     return standby;
   }
+
+  @JsonProperty("standby")
   public void setStandby(ConfigNodePropertyBoolean standby) {
     this.standby = standby;
   }
@@ -358,9 +405,11 @@ public class OrgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("customBlobStore")
-  public ConfigNodePropertyBoolean getCustomBlobStore() {
+  @Valid public ConfigNodePropertyBoolean getCustomBlobStore() {
     return customBlobStore;
   }
+
+  @JsonProperty("customBlobStore")
   public void setCustomBlobStore(ConfigNodePropertyBoolean customBlobStore) {
     this.customBlobStore = customBlobStore;
   }
@@ -375,9 +424,11 @@ public class OrgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("customSegmentStore")
-  public ConfigNodePropertyBoolean getCustomSegmentStore() {
+  @Valid public ConfigNodePropertyBoolean getCustomSegmentStore() {
     return customSegmentStore;
   }
+
+  @JsonProperty("customSegmentStore")
   public void setCustomSegmentStore(ConfigNodePropertyBoolean customSegmentStore) {
     this.customSegmentStore = customSegmentStore;
   }
@@ -392,9 +443,11 @@ public class OrgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("splitPersistence")
-  public ConfigNodePropertyBoolean getSplitPersistence() {
+  @Valid public ConfigNodePropertyBoolean getSplitPersistence() {
     return splitPersistence;
   }
+
+  @JsonProperty("splitPersistence")
   public void setSplitPersistence(ConfigNodePropertyBoolean splitPersistence) {
     this.splitPersistence = splitPersistence;
   }
@@ -409,9 +462,11 @@ public class OrgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("repository.backup.dir")
-  public ConfigNodePropertyString getRepositoryBackupDir() {
+  @Valid public ConfigNodePropertyString getRepositoryBackupDir() {
     return repositoryBackupDir;
   }
+
+  @JsonProperty("repository.backup.dir")
   public void setRepositoryBackupDir(ConfigNodePropertyString repositoryBackupDir) {
     this.repositoryBackupDir = repositoryBackupDir;
   }
@@ -426,9 +481,11 @@ public class OrgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("blobGcMaxAgeInSecs")
-  public ConfigNodePropertyInteger getBlobGcMaxAgeInSecs() {
+  @Valid public ConfigNodePropertyInteger getBlobGcMaxAgeInSecs() {
     return blobGcMaxAgeInSecs;
   }
+
+  @JsonProperty("blobGcMaxAgeInSecs")
   public void setBlobGcMaxAgeInSecs(ConfigNodePropertyInteger blobGcMaxAgeInSecs) {
     this.blobGcMaxAgeInSecs = blobGcMaxAgeInSecs;
   }
@@ -443,9 +500,11 @@ public class OrgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("blobTrackSnapshotIntervalInSecs")
-  public ConfigNodePropertyInteger getBlobTrackSnapshotIntervalInSecs() {
+  @Valid public ConfigNodePropertyInteger getBlobTrackSnapshotIntervalInSecs() {
     return blobTrackSnapshotIntervalInSecs;
   }
+
+  @JsonProperty("blobTrackSnapshotIntervalInSecs")
   public void setBlobTrackSnapshotIntervalInSecs(ConfigNodePropertyInteger blobTrackSnapshotIntervalInSecs) {
     this.blobTrackSnapshotIntervalInSecs = blobTrackSnapshotIntervalInSecs;
   }
@@ -460,9 +519,11 @@ public class OrgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("role")
-  public ConfigNodePropertyString getRole() {
+  @Valid public ConfigNodePropertyString getRole() {
     return role;
   }
+
+  @JsonProperty("role")
   public void setRole(ConfigNodePropertyString role) {
     this.role = role;
   }
@@ -477,9 +538,11 @@ public class OrgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("registerDescriptors")
-  public ConfigNodePropertyBoolean getRegisterDescriptors() {
+  @Valid public ConfigNodePropertyBoolean getRegisterDescriptors() {
     return registerDescriptors;
   }
+
+  @JsonProperty("registerDescriptors")
   public void setRegisterDescriptors(ConfigNodePropertyBoolean registerDescriptors) {
     this.registerDescriptors = registerDescriptors;
   }
@@ -494,16 +557,18 @@ public class OrgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("dispatchChanges")
-  public ConfigNodePropertyBoolean getDispatchChanges() {
+  @Valid public ConfigNodePropertyBoolean getDispatchChanges() {
     return dispatchChanges;
   }
+
+  @JsonProperty("dispatchChanges")
   public void setDispatchChanges(ConfigNodePropertyBoolean dispatchChanges) {
     this.dispatchChanges = dispatchChanges;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -511,33 +576,33 @@ public class OrgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties   {
       return false;
     }
     OrgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties orgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties = (OrgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties) o;
-    return Objects.equals(repositoryHome, orgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties.repositoryHome) &&
-        Objects.equals(tarmkMode, orgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties.tarmkMode) &&
-        Objects.equals(tarmkSize, orgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties.tarmkSize) &&
-        Objects.equals(segmentCacheSize, orgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties.segmentCacheSize) &&
-        Objects.equals(stringCacheSize, orgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties.stringCacheSize) &&
-        Objects.equals(templateCacheSize, orgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties.templateCacheSize) &&
-        Objects.equals(stringDeduplicationCacheSize, orgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties.stringDeduplicationCacheSize) &&
-        Objects.equals(templateDeduplicationCacheSize, orgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties.templateDeduplicationCacheSize) &&
-        Objects.equals(nodeDeduplicationCacheSize, orgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties.nodeDeduplicationCacheSize) &&
-        Objects.equals(pauseCompaction, orgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties.pauseCompaction) &&
-        Objects.equals(compactionRetryCount, orgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties.compactionRetryCount) &&
-        Objects.equals(compactionForceTimeout, orgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties.compactionForceTimeout) &&
-        Objects.equals(compactionSizeDeltaEstimation, orgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties.compactionSizeDeltaEstimation) &&
-        Objects.equals(compactionDisableEstimation, orgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties.compactionDisableEstimation) &&
-        Objects.equals(compactionRetainedGenerations, orgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties.compactionRetainedGenerations) &&
-        Objects.equals(compactionMemoryThreshold, orgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties.compactionMemoryThreshold) &&
-        Objects.equals(compactionProgressLog, orgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties.compactionProgressLog) &&
-        Objects.equals(standby, orgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties.standby) &&
-        Objects.equals(customBlobStore, orgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties.customBlobStore) &&
-        Objects.equals(customSegmentStore, orgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties.customSegmentStore) &&
-        Objects.equals(splitPersistence, orgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties.splitPersistence) &&
-        Objects.equals(repositoryBackupDir, orgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties.repositoryBackupDir) &&
-        Objects.equals(blobGcMaxAgeInSecs, orgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties.blobGcMaxAgeInSecs) &&
-        Objects.equals(blobTrackSnapshotIntervalInSecs, orgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties.blobTrackSnapshotIntervalInSecs) &&
-        Objects.equals(role, orgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties.role) &&
-        Objects.equals(registerDescriptors, orgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties.registerDescriptors) &&
-        Objects.equals(dispatchChanges, orgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties.dispatchChanges);
+    return Objects.equals(this.repositoryHome, orgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties.repositoryHome) &&
+        Objects.equals(this.tarmkMode, orgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties.tarmkMode) &&
+        Objects.equals(this.tarmkSize, orgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties.tarmkSize) &&
+        Objects.equals(this.segmentCacheSize, orgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties.segmentCacheSize) &&
+        Objects.equals(this.stringCacheSize, orgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties.stringCacheSize) &&
+        Objects.equals(this.templateCacheSize, orgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties.templateCacheSize) &&
+        Objects.equals(this.stringDeduplicationCacheSize, orgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties.stringDeduplicationCacheSize) &&
+        Objects.equals(this.templateDeduplicationCacheSize, orgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties.templateDeduplicationCacheSize) &&
+        Objects.equals(this.nodeDeduplicationCacheSize, orgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties.nodeDeduplicationCacheSize) &&
+        Objects.equals(this.pauseCompaction, orgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties.pauseCompaction) &&
+        Objects.equals(this.compactionRetryCount, orgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties.compactionRetryCount) &&
+        Objects.equals(this.compactionForceTimeout, orgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties.compactionForceTimeout) &&
+        Objects.equals(this.compactionSizeDeltaEstimation, orgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties.compactionSizeDeltaEstimation) &&
+        Objects.equals(this.compactionDisableEstimation, orgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties.compactionDisableEstimation) &&
+        Objects.equals(this.compactionRetainedGenerations, orgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties.compactionRetainedGenerations) &&
+        Objects.equals(this.compactionMemoryThreshold, orgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties.compactionMemoryThreshold) &&
+        Objects.equals(this.compactionProgressLog, orgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties.compactionProgressLog) &&
+        Objects.equals(this.standby, orgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties.standby) &&
+        Objects.equals(this.customBlobStore, orgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties.customBlobStore) &&
+        Objects.equals(this.customSegmentStore, orgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties.customSegmentStore) &&
+        Objects.equals(this.splitPersistence, orgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties.splitPersistence) &&
+        Objects.equals(this.repositoryBackupDir, orgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties.repositoryBackupDir) &&
+        Objects.equals(this.blobGcMaxAgeInSecs, orgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties.blobGcMaxAgeInSecs) &&
+        Objects.equals(this.blobTrackSnapshotIntervalInSecs, orgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties.blobTrackSnapshotIntervalInSecs) &&
+        Objects.equals(this.role, orgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties.role) &&
+        Objects.equals(this.registerDescriptors, orgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties.registerDescriptors) &&
+        Objects.equals(this.dispatchChanges, orgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties.dispatchChanges);
   }
 
   @Override
@@ -585,11 +650,9 @@ public class OrgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

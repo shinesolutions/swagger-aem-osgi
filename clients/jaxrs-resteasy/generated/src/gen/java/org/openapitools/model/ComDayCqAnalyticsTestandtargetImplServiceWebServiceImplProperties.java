@@ -4,24 +4,28 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2019-08-05T00:59:30.156Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2026-10-07T12:54:21.614735164Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqAnalyticsTestandtargetImplServiceWebServiceImplProperties   {
   
-  private ConfigNodePropertyString endpointUri = null;
-  private ConfigNodePropertyInteger connectionTimeout = null;
-  private ConfigNodePropertyInteger socketTimeout = null;
+  private ConfigNodePropertyString endpointUri;
+  private ConfigNodePropertyInteger connectionTimeout;
+  private ConfigNodePropertyInteger socketTimeout;
 
   /**
    **/
   
   @ApiModelProperty(value = "")
   @JsonProperty("endpointUri")
+  @Valid
   public ConfigNodePropertyString getEndpointUri() {
     return endpointUri;
   }
@@ -34,6 +38,7 @@ public class ComDayCqAnalyticsTestandtargetImplServiceWebServiceImplProperties  
   
   @ApiModelProperty(value = "")
   @JsonProperty("connectionTimeout")
+  @Valid
   public ConfigNodePropertyInteger getConnectionTimeout() {
     return connectionTimeout;
   }
@@ -46,6 +51,7 @@ public class ComDayCqAnalyticsTestandtargetImplServiceWebServiceImplProperties  
   
   @ApiModelProperty(value = "")
   @JsonProperty("socketTimeout")
+  @Valid
   public ConfigNodePropertyInteger getSocketTimeout() {
     return socketTimeout;
   }
@@ -55,7 +61,7 @@ public class ComDayCqAnalyticsTestandtargetImplServiceWebServiceImplProperties  
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -63,9 +69,9 @@ public class ComDayCqAnalyticsTestandtargetImplServiceWebServiceImplProperties  
       return false;
     }
     ComDayCqAnalyticsTestandtargetImplServiceWebServiceImplProperties comDayCqAnalyticsTestandtargetImplServiceWebServiceImplProperties = (ComDayCqAnalyticsTestandtargetImplServiceWebServiceImplProperties) o;
-    return Objects.equals(endpointUri, comDayCqAnalyticsTestandtargetImplServiceWebServiceImplProperties.endpointUri) &&
-        Objects.equals(connectionTimeout, comDayCqAnalyticsTestandtargetImplServiceWebServiceImplProperties.connectionTimeout) &&
-        Objects.equals(socketTimeout, comDayCqAnalyticsTestandtargetImplServiceWebServiceImplProperties.socketTimeout);
+    return Objects.equals(this.endpointUri, comDayCqAnalyticsTestandtargetImplServiceWebServiceImplProperties.endpointUri) &&
+        Objects.equals(this.connectionTimeout, comDayCqAnalyticsTestandtargetImplServiceWebServiceImplProperties.connectionTimeout) &&
+        Objects.equals(this.socketTimeout, comDayCqAnalyticsTestandtargetImplServiceWebServiceImplProperties.socketTimeout);
   }
 
   @Override
@@ -89,11 +95,8 @@ public class ComDayCqAnalyticsTestandtargetImplServiceWebServiceImplProperties  
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

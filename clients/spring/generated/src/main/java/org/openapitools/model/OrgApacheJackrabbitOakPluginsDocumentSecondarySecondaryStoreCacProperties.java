@@ -1,32 +1,43 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacProperties   {
-  @JsonProperty("includedPaths")
-  private ConfigNodePropertyArray includedPaths = null;
+@JsonTypeName("orgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacProperties {
 
-  @JsonProperty("enableAsyncObserver")
-  private ConfigNodePropertyBoolean enableAsyncObserver = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray includedPaths;
 
-  @JsonProperty("observerQueueSize")
-  private ConfigNodePropertyInteger observerQueueSize = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean enableAsyncObserver;
 
-  public OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacProperties includedPaths(ConfigNodePropertyArray includedPaths) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger observerQueueSize;
+
+  public OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacProperties includedPaths(@Nullable ConfigNodePropertyArray includedPaths) {
     this.includedPaths = includedPaths;
     return this;
   }
@@ -34,20 +45,20 @@ public class OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacProp
   /**
    * Get includedPaths
    * @return includedPaths
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getIncludedPaths() {
+   */
+  @Valid 
+  @Schema(name = "includedPaths", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("includedPaths")
+  public @Nullable ConfigNodePropertyArray getIncludedPaths() {
     return includedPaths;
   }
 
-  public void setIncludedPaths(ConfigNodePropertyArray includedPaths) {
+  @JsonProperty("includedPaths")
+  public void setIncludedPaths(@Nullable ConfigNodePropertyArray includedPaths) {
     this.includedPaths = includedPaths;
   }
 
-  public OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacProperties enableAsyncObserver(ConfigNodePropertyBoolean enableAsyncObserver) {
+  public OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacProperties enableAsyncObserver(@Nullable ConfigNodePropertyBoolean enableAsyncObserver) {
     this.enableAsyncObserver = enableAsyncObserver;
     return this;
   }
@@ -55,20 +66,20 @@ public class OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacProp
   /**
    * Get enableAsyncObserver
    * @return enableAsyncObserver
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getEnableAsyncObserver() {
+   */
+  @Valid 
+  @Schema(name = "enableAsyncObserver", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("enableAsyncObserver")
+  public @Nullable ConfigNodePropertyBoolean getEnableAsyncObserver() {
     return enableAsyncObserver;
   }
 
-  public void setEnableAsyncObserver(ConfigNodePropertyBoolean enableAsyncObserver) {
+  @JsonProperty("enableAsyncObserver")
+  public void setEnableAsyncObserver(@Nullable ConfigNodePropertyBoolean enableAsyncObserver) {
     this.enableAsyncObserver = enableAsyncObserver;
   }
 
-  public OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacProperties observerQueueSize(ConfigNodePropertyInteger observerQueueSize) {
+  public OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacProperties observerQueueSize(@Nullable ConfigNodePropertyInteger observerQueueSize) {
     this.observerQueueSize = observerQueueSize;
     return this;
   }
@@ -76,22 +87,21 @@ public class OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacProp
   /**
    * Get observerQueueSize
    * @return observerQueueSize
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getObserverQueueSize() {
+   */
+  @Valid 
+  @Schema(name = "observerQueueSize", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("observerQueueSize")
+  public @Nullable ConfigNodePropertyInteger getObserverQueueSize() {
     return observerQueueSize;
   }
 
-  public void setObserverQueueSize(ConfigNodePropertyInteger observerQueueSize) {
+  @JsonProperty("observerQueueSize")
+  public void setObserverQueueSize(@Nullable ConfigNodePropertyInteger observerQueueSize) {
     this.observerQueueSize = observerQueueSize;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -113,7 +123,6 @@ public class OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacProp
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacProperties {\n");
-    
     sb.append("    includedPaths: ").append(toIndentedString(includedPaths)).append("\n");
     sb.append("    enableAsyncObserver: ").append(toIndentedString(enableAsyncObserver)).append("\n");
     sb.append("    observerQueueSize: ").append(toIndentedString(observerQueueSize)).append("\n");
@@ -125,11 +134,8 @@ public class OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacProp
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

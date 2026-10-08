@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqMcmCampaignImplIntegrationConfigImplProper
 
 @Canonical
 class ComDayCqMcmCampaignImplIntegrationConfigImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqMcmCampaignImplIntegrationConfigImplProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqMcmCampaignImplIntegrationConfigImplProperties properties
 }

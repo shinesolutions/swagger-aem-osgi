@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeFdFpConfigFormsPortalDraftsandSubmissionCo
 
 @Canonical
 class ComAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServiceInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServiceProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServiceProperties properties
 }

@@ -1,0 +1,1 @@
+oauth.bearer.configid,propertylist,$location,apply,path,auth.tokenRequestParameter,delete,oauth.jwt.support,action,oauth.clientIds.allowed,post,auth.bearer.sync.ims

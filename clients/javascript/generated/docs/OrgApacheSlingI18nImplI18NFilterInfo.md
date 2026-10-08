@@ -1,6 +1,7 @@
 # NodeSwaggerAemOsgi.OrgApacheSlingI18nImplI18NFilterInfo
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **pid** | **String** |  | [optional] 

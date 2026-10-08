@@ -1,18 +1,29 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyDropDown;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comAdobeCqSocialCommonsEmailreplyImplEmailReplyImporterProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeCqSocialCommonsEmailreplyImplEmailReplyImporterProperties   {
-  
-  private @Valid ConfigNodePropertyDropDown connectProtocol = null;
+  private ConfigNodePropertyDropDown connectProtocol;
+
+  public ComAdobeCqSocialCommonsEmailreplyImplEmailReplyImporterProperties() {
+  }
 
   /**
    **/
@@ -24,16 +35,18 @@ public class ComAdobeCqSocialCommonsEmailreplyImplEmailReplyImporterProperties  
   
   @ApiModelProperty(value = "")
   @JsonProperty("connectProtocol")
-  public ConfigNodePropertyDropDown getConnectProtocol() {
+  @Valid public ConfigNodePropertyDropDown getConnectProtocol() {
     return connectProtocol;
   }
+
+  @JsonProperty("connectProtocol")
   public void setConnectProtocol(ConfigNodePropertyDropDown connectProtocol) {
     this.connectProtocol = connectProtocol;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -41,7 +54,7 @@ public class ComAdobeCqSocialCommonsEmailreplyImplEmailReplyImporterProperties  
       return false;
     }
     ComAdobeCqSocialCommonsEmailreplyImplEmailReplyImporterProperties comAdobeCqSocialCommonsEmailreplyImplEmailReplyImporterProperties = (ComAdobeCqSocialCommonsEmailreplyImplEmailReplyImporterProperties) o;
-    return Objects.equals(connectProtocol, comAdobeCqSocialCommonsEmailreplyImplEmailReplyImporterProperties.connectProtocol);
+    return Objects.equals(this.connectProtocol, comAdobeCqSocialCommonsEmailreplyImplEmailReplyImporterProperties.connectProtocol);
   }
 
   @Override
@@ -63,11 +76,9 @@ public class ComAdobeCqSocialCommonsEmailreplyImplEmailReplyImporterProperties  
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

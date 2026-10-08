@@ -1,11 +1,14 @@
 
+
 # ConfigNodePropertyDropDownType
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**labels** | **Object** | Drop Down label |  [optional]
-**values** | **Object** | Drown Down value |  [optional]
+**labels** | [**OasAnyTypeNotMapped**](.md) | Drop Down label |  [optional]
+**values** | [**OasAnyTypeNotMapped**](.md) | Drown Down value |  [optional]
+
 
 
 

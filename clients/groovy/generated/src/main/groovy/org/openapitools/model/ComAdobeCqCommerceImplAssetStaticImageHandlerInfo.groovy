@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqCommerceImplAssetStaticImageHandlerPrope
 
 @Canonical
 class ComAdobeCqCommerceImplAssetStaticImageHandlerInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqCommerceImplAssetStaticImageHandlerProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqCommerceImplAssetStaticImageHandlerProperties properties
 }

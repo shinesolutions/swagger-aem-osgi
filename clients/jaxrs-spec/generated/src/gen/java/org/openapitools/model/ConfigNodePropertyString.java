@@ -1,22 +1,33 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
-
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("configNodePropertyString")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ConfigNodePropertyString   {
-  
-  private @Valid String name = null;
-  private @Valid Boolean optional = null;
-  private @Valid Boolean isSet = null;
-  private @Valid Integer type = null;
-  private @Valid String value = null;
-  private @Valid String description = null;
+  private String name;
+  private Boolean optional;
+  private Boolean isSet;
+  private Integer type;
+  private String value;
+  private String description;
+
+  public ConfigNodePropertyString() {
+  }
 
   /**
    * property name
@@ -32,6 +43,8 @@ public class ConfigNodePropertyString   {
   public String getName() {
     return name;
   }
+
+  @JsonProperty("name")
   public void setName(String name) {
     this.name = name;
   }
@@ -50,6 +63,8 @@ public class ConfigNodePropertyString   {
   public Boolean getOptional() {
     return optional;
   }
+
+  @JsonProperty("optional")
   public void setOptional(Boolean optional) {
     this.optional = optional;
   }
@@ -68,6 +83,8 @@ public class ConfigNodePropertyString   {
   public Boolean getIsSet() {
     return isSet;
   }
+
+  @JsonProperty("is_set")
   public void setIsSet(Boolean isSet) {
     this.isSet = isSet;
   }
@@ -86,6 +103,8 @@ public class ConfigNodePropertyString   {
   public Integer getType() {
     return type;
   }
+
+  @JsonProperty("type")
   public void setType(Integer type) {
     this.type = type;
   }
@@ -104,6 +123,8 @@ public class ConfigNodePropertyString   {
   public String getValue() {
     return value;
   }
+
+  @JsonProperty("value")
   public void setValue(String value) {
     this.value = value;
   }
@@ -122,13 +143,15 @@ public class ConfigNodePropertyString   {
   public String getDescription() {
     return description;
   }
+
+  @JsonProperty("description")
   public void setDescription(String description) {
     this.description = description;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -136,12 +159,12 @@ public class ConfigNodePropertyString   {
       return false;
     }
     ConfigNodePropertyString configNodePropertyString = (ConfigNodePropertyString) o;
-    return Objects.equals(name, configNodePropertyString.name) &&
-        Objects.equals(optional, configNodePropertyString.optional) &&
-        Objects.equals(isSet, configNodePropertyString.isSet) &&
-        Objects.equals(type, configNodePropertyString.type) &&
-        Objects.equals(value, configNodePropertyString.value) &&
-        Objects.equals(description, configNodePropertyString.description);
+    return Objects.equals(this.name, configNodePropertyString.name) &&
+        Objects.equals(this.optional, configNodePropertyString.optional) &&
+        Objects.equals(this.isSet, configNodePropertyString.isSet) &&
+        Objects.equals(this.type, configNodePropertyString.type) &&
+        Objects.equals(this.value, configNodePropertyString.value) &&
+        Objects.equals(this.description, configNodePropertyString.description);
   }
 
   @Override
@@ -168,11 +191,9 @@ public class ConfigNodePropertyString   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

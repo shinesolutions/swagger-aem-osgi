@@ -1,5 +1,6 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
@@ -7,32 +8,35 @@ import javax.validation.constraints.*;
 import javax.validation.Valid;
 
 import io.swagger.annotations.ApiModelProperty;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlType;
-import javax.xml.bind.annotation.XmlEnum;
-import javax.xml.bind.annotation.XmlEnumValue;
+import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
 
 public class ComDayCqPollingImporterImplPollingImporterImplProperties  {
   
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyInteger importerMinInterval = null;
+
+  private ConfigNodePropertyInteger importerMinInterval;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyString importerUser = null;
+
+  private ConfigNodePropertyString importerUser;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyArray excludePaths = null;
+
+  private ConfigNodePropertyArray excludePaths;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyArray includePaths = null;
+
+  private ConfigNodePropertyArray includePaths;
  /**
    * Get importerMinInterval
    * @return importerMinInterval
@@ -105,6 +109,25 @@ public class ComDayCqPollingImporterImplPollingImporterImplProperties  {
     return this;
   }
 
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    ComDayCqPollingImporterImplPollingImporterImplProperties comDayCqPollingImporterImplPollingImporterImplProperties = (ComDayCqPollingImporterImplPollingImporterImplProperties) o;
+    return Objects.equals(this.importerMinInterval, comDayCqPollingImporterImplPollingImporterImplProperties.importerMinInterval) &&
+        Objects.equals(this.importerUser, comDayCqPollingImporterImplPollingImporterImplProperties.importerUser) &&
+        Objects.equals(this.excludePaths, comDayCqPollingImporterImplPollingImporterImplProperties.excludePaths) &&
+        Objects.equals(this.includePaths, comDayCqPollingImporterImplPollingImporterImplProperties.includePaths);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(importerMinInterval, importerUser, excludePaths, includePaths);
+  }
 
   @Override
   public String toString() {
@@ -123,11 +146,8 @@ public class ComDayCqPollingImporterImplPollingImporterImplProperties  {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private static String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

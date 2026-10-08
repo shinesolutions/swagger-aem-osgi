@@ -72,7 +72,7 @@ private class OASOrgApacheSlingCommonsHtmlInternalTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASOrgApacheSlingCommonsHtmlInternal orgApacheSlingCommonsHtmlInternalTagsoupHtmlParserProperties = new OASOrgApacheSlingCommonsHtmlInternal();
-        Map<String, String> propertyMappings = orgApacheSlingCommonsHtmlInternalTagsoupHtmlParserProperties.getPropertyMappings();
-        System.assertEquals('parserFeatures', propertyMappings.get('parser.features'));
+        Map<String, String> x-property-mappings = orgApacheSlingCommonsHtmlInternalTagsoupHtmlParserProperties.getx-property-mappings();
+        System.assertEquals('parserFeatures', x-property-mappings.get('parser.features'));
     }
 }

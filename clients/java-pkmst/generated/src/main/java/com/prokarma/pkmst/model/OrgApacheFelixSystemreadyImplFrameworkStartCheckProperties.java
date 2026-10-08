@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyDropDown;
 import com.prokarma.pkmst.model.ConfigNodePropertyInteger;
 import com.prokarma.pkmst.model.ConfigNodePropertyString;
@@ -17,30 +18,29 @@ import io.swagger.annotations.ApiModelProperty;
  * OrgApacheFelixSystemreadyImplFrameworkStartCheckProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheFelixSystemreadyImplFrameworkStartCheckProperties   {
   @JsonProperty("timeout")
-  private ConfigNodePropertyInteger timeout = null;
+  private ConfigNodePropertyInteger timeout;
 
   @JsonProperty("target.start.level")
-  private ConfigNodePropertyInteger targetStartLevel = null;
+  private ConfigNodePropertyInteger targetStartLevel;
 
   @JsonProperty("target.start.level.prop.name")
-  private ConfigNodePropertyString targetStartLevelPropName = null;
+  private ConfigNodePropertyString targetStartLevelPropName;
 
   @JsonProperty("type")
-  private ConfigNodePropertyDropDown type = null;
+  private ConfigNodePropertyDropDown type;
 
   public OrgApacheFelixSystemreadyImplFrameworkStartCheckProperties timeout(ConfigNodePropertyInteger timeout) {
     this.timeout = timeout;
     return this;
   }
 
-   /**
+  /**
    * Get timeout
    * @return timeout
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getTimeout() {
     return timeout;
@@ -55,10 +55,10 @@ public class OrgApacheFelixSystemreadyImplFrameworkStartCheckProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get targetStartLevel
    * @return targetStartLevel
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getTargetStartLevel() {
     return targetStartLevel;
@@ -73,10 +73,10 @@ public class OrgApacheFelixSystemreadyImplFrameworkStartCheckProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get targetStartLevelPropName
    * @return targetStartLevelPropName
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getTargetStartLevelPropName() {
     return targetStartLevelPropName;
@@ -91,10 +91,10 @@ public class OrgApacheFelixSystemreadyImplFrameworkStartCheckProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get type
    * @return type
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyDropDown getType() {
     return type;
@@ -106,7 +106,7 @@ public class OrgApacheFelixSystemreadyImplFrameworkStartCheckProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -142,11 +142,8 @@ public class OrgApacheFelixSystemreadyImplFrameworkStartCheckProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

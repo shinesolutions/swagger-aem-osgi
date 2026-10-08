@@ -9,20 +9,20 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerProperties {
-    ConfigNodePropertyDropDown translateLanguage = null
-
-    ConfigNodePropertyDropDown translateDisplay = null
-
-    ConfigNodePropertyBoolean translateAttribution = null
-
-    ConfigNodePropertyDropDown translateCaching = null
-
-    ConfigNodePropertyDropDown translateSmartRendering = null
-
-    ConfigNodePropertyString translateCachingDuration = null
-
-    ConfigNodePropertyString translateSessionSaveInterval = null
-
-    ConfigNodePropertyString translateSessionSaveBatchLimit = null
-
+    
+    ConfigNodePropertyDropDown translateLanguage
+    
+    ConfigNodePropertyDropDown translateDisplay
+    
+    ConfigNodePropertyBoolean translateAttribution
+    
+    ConfigNodePropertyDropDown translateCaching
+    
+    ConfigNodePropertyDropDown translateSmartRendering
+    
+    ConfigNodePropertyString translateCachingDuration
+    
+    ConfigNodePropertyString translateSessionSaveInterval
+    
+    ConfigNodePropertyString translateSessionSaveBatchLimit
 }

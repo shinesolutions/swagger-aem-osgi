@@ -7,8 +7,8 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigProperties {
-    ConfigNodePropertyString orgApacheJackrabbitOakAuthenticationAppName = null
-
-    ConfigNodePropertyString orgApacheJackrabbitOakAuthenticationConfigSpiName = null
-
+    
+    ConfigNodePropertyString orgApacheJackrabbitOakAuthenticationAppName
+    
+    ConfigNodePropertyString orgApacheJackrabbitOakAuthenticationConfigSpiName
 }

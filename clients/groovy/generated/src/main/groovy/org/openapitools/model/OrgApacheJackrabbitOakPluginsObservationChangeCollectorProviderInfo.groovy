@@ -7,16 +7,16 @@ import org.openapitools.model.OrgApacheJackrabbitOakPluginsObservationChangeColl
 
 @Canonical
 class OrgApacheJackrabbitOakPluginsObservationChangeCollectorProviderInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheJackrabbitOakPluginsObservationChangeCollectorProviderProperties properties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheJackrabbitOakPluginsObservationChangeCollectorProviderProperties properties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

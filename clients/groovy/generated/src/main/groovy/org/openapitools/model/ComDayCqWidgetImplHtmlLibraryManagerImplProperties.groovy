@@ -10,32 +10,32 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqWidgetImplHtmlLibraryManagerImplProperties {
-    ConfigNodePropertyString htmllibmanagerClientmanager = null
-
-    ConfigNodePropertyBoolean htmllibmanagerDebug = null
-
-    ConfigNodePropertyBoolean htmllibmanagerDebugConsole = null
-
-    ConfigNodePropertyString htmllibmanagerDebugInitJs = null
-
-    ConfigNodePropertyString htmllibmanagerDefaultthemename = null
-
-    ConfigNodePropertyString htmllibmanagerDefaultuserthemename = null
-
-    ConfigNodePropertyString htmllibmanagerFirebuglitePath = null
-
-    ConfigNodePropertyBoolean htmllibmanagerForceCQUrlInfo = null
-
-    ConfigNodePropertyBoolean htmllibmanagerGzip = null
-
-    ConfigNodePropertyInteger htmllibmanagerMaxage = null
-
-    ConfigNodePropertyInteger htmllibmanagerMaxDataUriSize = null
-
-    ConfigNodePropertyBoolean htmllibmanagerMinify = null
-
-    ConfigNodePropertyArray htmllibmanagerPathList = null
-
-    ConfigNodePropertyBoolean htmllibmanagerTiming = null
-
+    
+    ConfigNodePropertyString htmllibmanagerClientmanager
+    
+    ConfigNodePropertyBoolean htmllibmanagerDebug
+    
+    ConfigNodePropertyBoolean htmllibmanagerDebugConsole
+    
+    ConfigNodePropertyString htmllibmanagerDebugInitJs
+    
+    ConfigNodePropertyString htmllibmanagerDefaultthemename
+    
+    ConfigNodePropertyString htmllibmanagerDefaultuserthemename
+    
+    ConfigNodePropertyString htmllibmanagerFirebuglitePath
+    
+    ConfigNodePropertyBoolean htmllibmanagerForceCQUrlInfo
+    
+    ConfigNodePropertyBoolean htmllibmanagerGzip
+    
+    ConfigNodePropertyInteger htmllibmanagerMaxage
+    
+    ConfigNodePropertyInteger htmllibmanagerMaxDataUriSize
+    
+    ConfigNodePropertyBoolean htmllibmanagerMinify
+    
+    ConfigNodePropertyArray htmllibmanagerPathList
+    
+    ConfigNodePropertyBoolean htmllibmanagerTiming
 }

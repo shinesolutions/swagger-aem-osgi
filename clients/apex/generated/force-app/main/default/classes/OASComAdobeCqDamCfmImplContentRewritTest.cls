@@ -72,7 +72,7 @@ private class OASComAdobeCqDamCfmImplContentRewritTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeCqDamCfmImplContentRewrit comAdobeCqDamCfmImplContentRewriterPayloadFilterProperties = new OASComAdobeCqDamCfmImplContentRewrit();
-        Map<String, String> propertyMappings = comAdobeCqDamCfmImplContentRewriterPayloadFilterProperties.getPropertyMappings();
-        System.assertEquals('pipelineType', propertyMappings.get('pipeline.type'));
+        Map<String, String> x-property-mappings = comAdobeCqDamCfmImplContentRewriterPayloadFilterProperties.getx-property-mappings();
+        System.assertEquals('pipelineType', x-property-mappings.get('pipeline.type'));
     }
 }

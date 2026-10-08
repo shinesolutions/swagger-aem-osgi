@@ -7,12 +7,12 @@ import org.openapitools.model.OrgApacheSlingServletsPostImplSlingPostServletProp
 
 @Canonical
 class OrgApacheSlingServletsPostImplSlingPostServletInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheSlingServletsPostImplSlingPostServletProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheSlingServletsPostImplSlingPostServletProperties properties
 }

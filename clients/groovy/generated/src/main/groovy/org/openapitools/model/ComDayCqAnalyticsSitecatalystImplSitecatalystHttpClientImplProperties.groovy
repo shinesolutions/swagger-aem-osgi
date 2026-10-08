@@ -8,12 +8,12 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplProperties {
-    ConfigNodePropertyArray cqAnalyticsSitecatalystServiceDatacenterUrl = null
-
-    ConfigNodePropertyArray devhostnamepatterns = null
-
-    ConfigNodePropertyInteger connectionTimeout = null
-
-    ConfigNodePropertyInteger socketTimeout = null
-
+    
+    ConfigNodePropertyArray cqAnalyticsSitecatalystServiceDatacenterUrl
+    
+    ConfigNodePropertyArray devhostnamepatterns
+    
+    ConfigNodePropertyInteger connectionTimeout
+    
+    ConfigNodePropertyInteger socketTimeout
 }

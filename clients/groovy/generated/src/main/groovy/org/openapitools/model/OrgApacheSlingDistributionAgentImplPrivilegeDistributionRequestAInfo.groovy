@@ -7,12 +7,12 @@ import org.openapitools.model.OrgApacheSlingDistributionAgentImplPrivilegeDistri
 
 @Canonical
 class OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAProperties properties
 }

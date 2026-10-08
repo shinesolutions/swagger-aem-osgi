@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqDamPerformanceInternalAssetPerformanceDataHandlerImplInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqDamPerformanceInternalAssetPerformanceDataHandlerImplInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComDayCqDamPerformanceInternalAssetPerformanceDataHandlerImplProperties = openapi_server.resourceTypes.ComDayCqDamPerformanceInternalAssetPerformanceDataHandlerImplProperties
+}
+resourceTypes {
+
+  ComDayCqDamPerformanceInternalAssetPerformanceDataHandlerImplInfo {
+    title = ComDayCqDamPerformanceInternalAssetPerformanceDataHandlerImplInfo
+    description = ComDayCqDamPerformanceInternalAssetPerformanceDataHandlerImplInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComDayCqDamPerformanceInternalAssetPerformanceDataHandlerImplProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqDamPerformanceInternalAssetPerformanceDataHandlerImplInfo {
+    title = ComDayCqDamPerformanceInternalAssetPerformanceDataHandlerImplInfo
+    description = ComDayCqDamPerformanceInternalAssetPerformanceDataHandlerImplInfo
+    implements = openapi_server.resourceTypes.ComDayCqDamPerformanceInternalAssetPerformanceDataHandlerImplInfo
+
+  }
+}

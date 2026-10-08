@@ -2,9 +2,9 @@
 # OrgApacheJackrabbitOakSegmentSegmentNodeStoreMonitorServiceProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**commitsTrackerWriterGroups** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **commitsTrackerWriterGroups** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
 
 
 

@@ -1,52 +1,63 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyDropDown;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComDayCqWcmMsmImplRolloutManagerImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComDayCqWcmMsmImplRolloutManagerImplProperties   {
-  @JsonProperty("event.filter")
-  private ConfigNodePropertyString eventFilter = null;
+@JsonTypeName("comDayCqWcmMsmImplRolloutManagerImplProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComDayCqWcmMsmImplRolloutManagerImplProperties {
 
-  @JsonProperty("rolloutmgr.excludedprops.default")
-  private ConfigNodePropertyArray rolloutmgrExcludedpropsDefault = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString eventFilter;
 
-  @JsonProperty("rolloutmgr.excludedparagraphprops.default")
-  private ConfigNodePropertyArray rolloutmgrExcludedparagraphpropsDefault = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray rolloutmgrExcludedpropsDefault;
 
-  @JsonProperty("rolloutmgr.excludednodetypes.default")
-  private ConfigNodePropertyArray rolloutmgrExcludednodetypesDefault = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray rolloutmgrExcludedparagraphpropsDefault;
 
-  @JsonProperty("rolloutmgr.threadpool.maxsize")
-  private ConfigNodePropertyInteger rolloutmgrThreadpoolMaxsize = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray rolloutmgrExcludednodetypesDefault;
 
-  @JsonProperty("rolloutmgr.threadpool.maxshutdowntime")
-  private ConfigNodePropertyInteger rolloutmgrThreadpoolMaxshutdowntime = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger rolloutmgrThreadpoolMaxsize;
 
-  @JsonProperty("rolloutmgr.threadpool.priority")
-  private ConfigNodePropertyDropDown rolloutmgrThreadpoolPriority = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger rolloutmgrThreadpoolMaxshutdowntime;
 
-  @JsonProperty("rolloutmgr.commit.size")
-  private ConfigNodePropertyInteger rolloutmgrCommitSize = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyDropDown rolloutmgrThreadpoolPriority;
 
-  @JsonProperty("rolloutmgr.conflicthandling.enabled")
-  private ConfigNodePropertyBoolean rolloutmgrConflicthandlingEnabled = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger rolloutmgrCommitSize;
 
-  public ComDayCqWcmMsmImplRolloutManagerImplProperties eventFilter(ConfigNodePropertyString eventFilter) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean rolloutmgrConflicthandlingEnabled;
+
+  public ComDayCqWcmMsmImplRolloutManagerImplProperties eventFilter(@Nullable ConfigNodePropertyString eventFilter) {
     this.eventFilter = eventFilter;
     return this;
   }
@@ -54,20 +65,20 @@ public class ComDayCqWcmMsmImplRolloutManagerImplProperties   {
   /**
    * Get eventFilter
    * @return eventFilter
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getEventFilter() {
+   */
+  @Valid 
+  @Schema(name = "event.filter", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("event.filter")
+  public @Nullable ConfigNodePropertyString getEventFilter() {
     return eventFilter;
   }
 
-  public void setEventFilter(ConfigNodePropertyString eventFilter) {
+  @JsonProperty("event.filter")
+  public void setEventFilter(@Nullable ConfigNodePropertyString eventFilter) {
     this.eventFilter = eventFilter;
   }
 
-  public ComDayCqWcmMsmImplRolloutManagerImplProperties rolloutmgrExcludedpropsDefault(ConfigNodePropertyArray rolloutmgrExcludedpropsDefault) {
+  public ComDayCqWcmMsmImplRolloutManagerImplProperties rolloutmgrExcludedpropsDefault(@Nullable ConfigNodePropertyArray rolloutmgrExcludedpropsDefault) {
     this.rolloutmgrExcludedpropsDefault = rolloutmgrExcludedpropsDefault;
     return this;
   }
@@ -75,20 +86,20 @@ public class ComDayCqWcmMsmImplRolloutManagerImplProperties   {
   /**
    * Get rolloutmgrExcludedpropsDefault
    * @return rolloutmgrExcludedpropsDefault
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getRolloutmgrExcludedpropsDefault() {
+   */
+  @Valid 
+  @Schema(name = "rolloutmgr.excludedprops.default", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("rolloutmgr.excludedprops.default")
+  public @Nullable ConfigNodePropertyArray getRolloutmgrExcludedpropsDefault() {
     return rolloutmgrExcludedpropsDefault;
   }
 
-  public void setRolloutmgrExcludedpropsDefault(ConfigNodePropertyArray rolloutmgrExcludedpropsDefault) {
+  @JsonProperty("rolloutmgr.excludedprops.default")
+  public void setRolloutmgrExcludedpropsDefault(@Nullable ConfigNodePropertyArray rolloutmgrExcludedpropsDefault) {
     this.rolloutmgrExcludedpropsDefault = rolloutmgrExcludedpropsDefault;
   }
 
-  public ComDayCqWcmMsmImplRolloutManagerImplProperties rolloutmgrExcludedparagraphpropsDefault(ConfigNodePropertyArray rolloutmgrExcludedparagraphpropsDefault) {
+  public ComDayCqWcmMsmImplRolloutManagerImplProperties rolloutmgrExcludedparagraphpropsDefault(@Nullable ConfigNodePropertyArray rolloutmgrExcludedparagraphpropsDefault) {
     this.rolloutmgrExcludedparagraphpropsDefault = rolloutmgrExcludedparagraphpropsDefault;
     return this;
   }
@@ -96,20 +107,20 @@ public class ComDayCqWcmMsmImplRolloutManagerImplProperties   {
   /**
    * Get rolloutmgrExcludedparagraphpropsDefault
    * @return rolloutmgrExcludedparagraphpropsDefault
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getRolloutmgrExcludedparagraphpropsDefault() {
+   */
+  @Valid 
+  @Schema(name = "rolloutmgr.excludedparagraphprops.default", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("rolloutmgr.excludedparagraphprops.default")
+  public @Nullable ConfigNodePropertyArray getRolloutmgrExcludedparagraphpropsDefault() {
     return rolloutmgrExcludedparagraphpropsDefault;
   }
 
-  public void setRolloutmgrExcludedparagraphpropsDefault(ConfigNodePropertyArray rolloutmgrExcludedparagraphpropsDefault) {
+  @JsonProperty("rolloutmgr.excludedparagraphprops.default")
+  public void setRolloutmgrExcludedparagraphpropsDefault(@Nullable ConfigNodePropertyArray rolloutmgrExcludedparagraphpropsDefault) {
     this.rolloutmgrExcludedparagraphpropsDefault = rolloutmgrExcludedparagraphpropsDefault;
   }
 
-  public ComDayCqWcmMsmImplRolloutManagerImplProperties rolloutmgrExcludednodetypesDefault(ConfigNodePropertyArray rolloutmgrExcludednodetypesDefault) {
+  public ComDayCqWcmMsmImplRolloutManagerImplProperties rolloutmgrExcludednodetypesDefault(@Nullable ConfigNodePropertyArray rolloutmgrExcludednodetypesDefault) {
     this.rolloutmgrExcludednodetypesDefault = rolloutmgrExcludednodetypesDefault;
     return this;
   }
@@ -117,20 +128,20 @@ public class ComDayCqWcmMsmImplRolloutManagerImplProperties   {
   /**
    * Get rolloutmgrExcludednodetypesDefault
    * @return rolloutmgrExcludednodetypesDefault
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getRolloutmgrExcludednodetypesDefault() {
+   */
+  @Valid 
+  @Schema(name = "rolloutmgr.excludednodetypes.default", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("rolloutmgr.excludednodetypes.default")
+  public @Nullable ConfigNodePropertyArray getRolloutmgrExcludednodetypesDefault() {
     return rolloutmgrExcludednodetypesDefault;
   }
 
-  public void setRolloutmgrExcludednodetypesDefault(ConfigNodePropertyArray rolloutmgrExcludednodetypesDefault) {
+  @JsonProperty("rolloutmgr.excludednodetypes.default")
+  public void setRolloutmgrExcludednodetypesDefault(@Nullable ConfigNodePropertyArray rolloutmgrExcludednodetypesDefault) {
     this.rolloutmgrExcludednodetypesDefault = rolloutmgrExcludednodetypesDefault;
   }
 
-  public ComDayCqWcmMsmImplRolloutManagerImplProperties rolloutmgrThreadpoolMaxsize(ConfigNodePropertyInteger rolloutmgrThreadpoolMaxsize) {
+  public ComDayCqWcmMsmImplRolloutManagerImplProperties rolloutmgrThreadpoolMaxsize(@Nullable ConfigNodePropertyInteger rolloutmgrThreadpoolMaxsize) {
     this.rolloutmgrThreadpoolMaxsize = rolloutmgrThreadpoolMaxsize;
     return this;
   }
@@ -138,20 +149,20 @@ public class ComDayCqWcmMsmImplRolloutManagerImplProperties   {
   /**
    * Get rolloutmgrThreadpoolMaxsize
    * @return rolloutmgrThreadpoolMaxsize
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getRolloutmgrThreadpoolMaxsize() {
+   */
+  @Valid 
+  @Schema(name = "rolloutmgr.threadpool.maxsize", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("rolloutmgr.threadpool.maxsize")
+  public @Nullable ConfigNodePropertyInteger getRolloutmgrThreadpoolMaxsize() {
     return rolloutmgrThreadpoolMaxsize;
   }
 
-  public void setRolloutmgrThreadpoolMaxsize(ConfigNodePropertyInteger rolloutmgrThreadpoolMaxsize) {
+  @JsonProperty("rolloutmgr.threadpool.maxsize")
+  public void setRolloutmgrThreadpoolMaxsize(@Nullable ConfigNodePropertyInteger rolloutmgrThreadpoolMaxsize) {
     this.rolloutmgrThreadpoolMaxsize = rolloutmgrThreadpoolMaxsize;
   }
 
-  public ComDayCqWcmMsmImplRolloutManagerImplProperties rolloutmgrThreadpoolMaxshutdowntime(ConfigNodePropertyInteger rolloutmgrThreadpoolMaxshutdowntime) {
+  public ComDayCqWcmMsmImplRolloutManagerImplProperties rolloutmgrThreadpoolMaxshutdowntime(@Nullable ConfigNodePropertyInteger rolloutmgrThreadpoolMaxshutdowntime) {
     this.rolloutmgrThreadpoolMaxshutdowntime = rolloutmgrThreadpoolMaxshutdowntime;
     return this;
   }
@@ -159,20 +170,20 @@ public class ComDayCqWcmMsmImplRolloutManagerImplProperties   {
   /**
    * Get rolloutmgrThreadpoolMaxshutdowntime
    * @return rolloutmgrThreadpoolMaxshutdowntime
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getRolloutmgrThreadpoolMaxshutdowntime() {
+   */
+  @Valid 
+  @Schema(name = "rolloutmgr.threadpool.maxshutdowntime", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("rolloutmgr.threadpool.maxshutdowntime")
+  public @Nullable ConfigNodePropertyInteger getRolloutmgrThreadpoolMaxshutdowntime() {
     return rolloutmgrThreadpoolMaxshutdowntime;
   }
 
-  public void setRolloutmgrThreadpoolMaxshutdowntime(ConfigNodePropertyInteger rolloutmgrThreadpoolMaxshutdowntime) {
+  @JsonProperty("rolloutmgr.threadpool.maxshutdowntime")
+  public void setRolloutmgrThreadpoolMaxshutdowntime(@Nullable ConfigNodePropertyInteger rolloutmgrThreadpoolMaxshutdowntime) {
     this.rolloutmgrThreadpoolMaxshutdowntime = rolloutmgrThreadpoolMaxshutdowntime;
   }
 
-  public ComDayCqWcmMsmImplRolloutManagerImplProperties rolloutmgrThreadpoolPriority(ConfigNodePropertyDropDown rolloutmgrThreadpoolPriority) {
+  public ComDayCqWcmMsmImplRolloutManagerImplProperties rolloutmgrThreadpoolPriority(@Nullable ConfigNodePropertyDropDown rolloutmgrThreadpoolPriority) {
     this.rolloutmgrThreadpoolPriority = rolloutmgrThreadpoolPriority;
     return this;
   }
@@ -180,20 +191,20 @@ public class ComDayCqWcmMsmImplRolloutManagerImplProperties   {
   /**
    * Get rolloutmgrThreadpoolPriority
    * @return rolloutmgrThreadpoolPriority
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyDropDown getRolloutmgrThreadpoolPriority() {
+   */
+  @Valid 
+  @Schema(name = "rolloutmgr.threadpool.priority", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("rolloutmgr.threadpool.priority")
+  public @Nullable ConfigNodePropertyDropDown getRolloutmgrThreadpoolPriority() {
     return rolloutmgrThreadpoolPriority;
   }
 
-  public void setRolloutmgrThreadpoolPriority(ConfigNodePropertyDropDown rolloutmgrThreadpoolPriority) {
+  @JsonProperty("rolloutmgr.threadpool.priority")
+  public void setRolloutmgrThreadpoolPriority(@Nullable ConfigNodePropertyDropDown rolloutmgrThreadpoolPriority) {
     this.rolloutmgrThreadpoolPriority = rolloutmgrThreadpoolPriority;
   }
 
-  public ComDayCqWcmMsmImplRolloutManagerImplProperties rolloutmgrCommitSize(ConfigNodePropertyInteger rolloutmgrCommitSize) {
+  public ComDayCqWcmMsmImplRolloutManagerImplProperties rolloutmgrCommitSize(@Nullable ConfigNodePropertyInteger rolloutmgrCommitSize) {
     this.rolloutmgrCommitSize = rolloutmgrCommitSize;
     return this;
   }
@@ -201,20 +212,20 @@ public class ComDayCqWcmMsmImplRolloutManagerImplProperties   {
   /**
    * Get rolloutmgrCommitSize
    * @return rolloutmgrCommitSize
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getRolloutmgrCommitSize() {
+   */
+  @Valid 
+  @Schema(name = "rolloutmgr.commit.size", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("rolloutmgr.commit.size")
+  public @Nullable ConfigNodePropertyInteger getRolloutmgrCommitSize() {
     return rolloutmgrCommitSize;
   }
 
-  public void setRolloutmgrCommitSize(ConfigNodePropertyInteger rolloutmgrCommitSize) {
+  @JsonProperty("rolloutmgr.commit.size")
+  public void setRolloutmgrCommitSize(@Nullable ConfigNodePropertyInteger rolloutmgrCommitSize) {
     this.rolloutmgrCommitSize = rolloutmgrCommitSize;
   }
 
-  public ComDayCqWcmMsmImplRolloutManagerImplProperties rolloutmgrConflicthandlingEnabled(ConfigNodePropertyBoolean rolloutmgrConflicthandlingEnabled) {
+  public ComDayCqWcmMsmImplRolloutManagerImplProperties rolloutmgrConflicthandlingEnabled(@Nullable ConfigNodePropertyBoolean rolloutmgrConflicthandlingEnabled) {
     this.rolloutmgrConflicthandlingEnabled = rolloutmgrConflicthandlingEnabled;
     return this;
   }
@@ -222,22 +233,21 @@ public class ComDayCqWcmMsmImplRolloutManagerImplProperties   {
   /**
    * Get rolloutmgrConflicthandlingEnabled
    * @return rolloutmgrConflicthandlingEnabled
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getRolloutmgrConflicthandlingEnabled() {
+   */
+  @Valid 
+  @Schema(name = "rolloutmgr.conflicthandling.enabled", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("rolloutmgr.conflicthandling.enabled")
+  public @Nullable ConfigNodePropertyBoolean getRolloutmgrConflicthandlingEnabled() {
     return rolloutmgrConflicthandlingEnabled;
   }
 
-  public void setRolloutmgrConflicthandlingEnabled(ConfigNodePropertyBoolean rolloutmgrConflicthandlingEnabled) {
+  @JsonProperty("rolloutmgr.conflicthandling.enabled")
+  public void setRolloutmgrConflicthandlingEnabled(@Nullable ConfigNodePropertyBoolean rolloutmgrConflicthandlingEnabled) {
     this.rolloutmgrConflicthandlingEnabled = rolloutmgrConflicthandlingEnabled;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -265,7 +275,6 @@ public class ComDayCqWcmMsmImplRolloutManagerImplProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComDayCqWcmMsmImplRolloutManagerImplProperties {\n");
-    
     sb.append("    eventFilter: ").append(toIndentedString(eventFilter)).append("\n");
     sb.append("    rolloutmgrExcludedpropsDefault: ").append(toIndentedString(rolloutmgrExcludedpropsDefault)).append("\n");
     sb.append("    rolloutmgrExcludedparagraphpropsDefault: ").append(toIndentedString(rolloutmgrExcludedparagraphpropsDefault)).append("\n");
@@ -283,11 +292,8 @@ public class ComDayCqWcmMsmImplRolloutManagerImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -1,0 +1,15 @@
+{
+  "namespace": "model",
+  "type": "record",
+  "doc": "",
+  "name": "OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrProperties",
+  "fields": [
+    {
+      "name": "protectExternalId",
+      "type": ["null", "model.ConfigNodePropertyBoolean"],
+      "doc": "",
+      "default": null
+    }
+  ]
+
+}

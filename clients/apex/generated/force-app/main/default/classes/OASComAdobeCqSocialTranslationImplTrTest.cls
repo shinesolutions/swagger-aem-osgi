@@ -72,14 +72,14 @@ private class OASComAdobeCqSocialTranslationImplTrTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeCqSocialTranslationImplTr comAdobeCqSocialTranslationImplTranslationServiceConfigManagerProperties = new OASComAdobeCqSocialTranslationImplTr();
-        Map<String, String> propertyMappings = comAdobeCqSocialTranslationImplTranslationServiceConfigManagerProperties.getPropertyMappings();
-        System.assertEquals('translateLanguage', propertyMappings.get('translate.language'));
-        System.assertEquals('translateDisplay', propertyMappings.get('translate.display'));
-        System.assertEquals('translateAttribution', propertyMappings.get('translate.attribution'));
-        System.assertEquals('translateCaching', propertyMappings.get('translate.caching'));
-        System.assertEquals('translateSmartRendering', propertyMappings.get('translate.smart.rendering'));
-        System.assertEquals('translateCachingDuration', propertyMappings.get('translate.caching.duration'));
-        System.assertEquals('translateSessionSaveInterval', propertyMappings.get('translate.session.save.interval'));
-        System.assertEquals('translateSessionSaveBatchLimit', propertyMappings.get('translate.session.save.batchLimit'));
+        Map<String, String> x-property-mappings = comAdobeCqSocialTranslationImplTranslationServiceConfigManagerProperties.getx-property-mappings();
+        System.assertEquals('translateLanguage', x-property-mappings.get('translate.language'));
+        System.assertEquals('translateDisplay', x-property-mappings.get('translate.display'));
+        System.assertEquals('translateAttribution', x-property-mappings.get('translate.attribution'));
+        System.assertEquals('translateCaching', x-property-mappings.get('translate.caching'));
+        System.assertEquals('translateSmartRendering', x-property-mappings.get('translate.smart.rendering'));
+        System.assertEquals('translateCachingDuration', x-property-mappings.get('translate.caching.duration'));
+        System.assertEquals('translateSessionSaveInterval', x-property-mappings.get('translate.session.save.interval'));
+        System.assertEquals('translateSessionSaveBatchLimit', x-property-mappings.get('translate.session.save.batchLimit'));
     }
 }

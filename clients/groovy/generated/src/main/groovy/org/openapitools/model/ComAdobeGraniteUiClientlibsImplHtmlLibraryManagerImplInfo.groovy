@@ -7,16 +7,16 @@ import org.openapitools.model.ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerI
 
 @Canonical
 class ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties properties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties properties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

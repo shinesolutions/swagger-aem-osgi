@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeGraniteRepositoryServiceUserConfigurationP
 
 @Canonical
 class ComAdobeGraniteRepositoryServiceUserConfigurationInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteRepositoryServiceUserConfigurationProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteRepositoryServiceUserConfigurationProperties properties
 }

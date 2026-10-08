@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqSocialSyncImplGroupSyncListenerImplPrope
 
 @Canonical
 class ComAdobeCqSocialSyncImplGroupSyncListenerImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqSocialSyncImplGroupSyncListenerImplProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqSocialSyncImplGroupSyncListenerImplProperties properties
 }

@@ -1,6 +1,7 @@
 # NodeSwaggerAemOsgi.OrgApacheFelixSystemreadyImplFrameworkStartCheckProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **timeout** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  | [optional] 

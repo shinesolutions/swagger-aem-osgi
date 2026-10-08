@@ -9,20 +9,20 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeGraniteDistributionCoreImplDiffDiffChangesObserverProperties {
-    ConfigNodePropertyBoolean enabled = null
-
-    ConfigNodePropertyString agentName = null
-
-    ConfigNodePropertyString diffPath = null
-
-    ConfigNodePropertyString observedPath = null
-
-    ConfigNodePropertyString serviceName = null
-
-    ConfigNodePropertyString propertyNames = null
-
-    ConfigNodePropertyInteger distributionDelay = null
-
-    ConfigNodePropertyString serviceUserTarget = null
-
+    
+    ConfigNodePropertyBoolean enabled
+    
+    ConfigNodePropertyString agentName
+    
+    ConfigNodePropertyString diffPath
+    
+    ConfigNodePropertyString observedPath
+    
+    ConfigNodePropertyString serviceName
+    
+    ConfigNodePropertyString propertyNames
+    
+    ConfigNodePropertyInteger distributionDelay
+    
+    ConfigNodePropertyString serviceUserTarget
 }

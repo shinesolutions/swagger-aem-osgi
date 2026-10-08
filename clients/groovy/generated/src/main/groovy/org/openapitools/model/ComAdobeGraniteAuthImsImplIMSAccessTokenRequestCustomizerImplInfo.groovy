@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeGraniteAuthImsImplIMSAccessTokenRequestCus
 
 @Canonical
 class ComAdobeGraniteAuthImsImplIMSAccessTokenRequestCustomizerImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteAuthImsImplIMSAccessTokenRequestCustomizerImplProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteAuthImsImplIMSAccessTokenRequestCustomizerImplProperties properties
 }

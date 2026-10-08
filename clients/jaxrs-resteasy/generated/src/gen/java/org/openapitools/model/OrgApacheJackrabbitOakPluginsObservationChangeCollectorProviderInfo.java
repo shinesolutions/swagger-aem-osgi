@@ -4,20 +4,23 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.OrgApacheJackrabbitOakPluginsObservationChangeCollectorProviderProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2019-08-05T00:59:30.156Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2026-10-07T12:54:21.614735164Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheJackrabbitOakPluginsObservationChangeCollectorProviderInfo   {
   
-  private String pid = null;
-  private String title = null;
-  private String description = null;
-  private OrgApacheJackrabbitOakPluginsObservationChangeCollectorProviderProperties properties = null;
-  private String bundleLocation = null;
-  private String serviceLocation = null;
+  private String pid;
+  private String title;
+  private String description;
+  private OrgApacheJackrabbitOakPluginsObservationChangeCollectorProviderProperties properties;
+  private String bundleLocation;
+  private String serviceLocation;
 
   /**
    **/
@@ -60,6 +63,7 @@ public class OrgApacheJackrabbitOakPluginsObservationChangeCollectorProviderInfo
   
   @ApiModelProperty(value = "")
   @JsonProperty("properties")
+  @Valid
   public OrgApacheJackrabbitOakPluginsObservationChangeCollectorProviderProperties getProperties() {
     return properties;
   }
@@ -93,7 +97,7 @@ public class OrgApacheJackrabbitOakPluginsObservationChangeCollectorProviderInfo
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -101,12 +105,12 @@ public class OrgApacheJackrabbitOakPluginsObservationChangeCollectorProviderInfo
       return false;
     }
     OrgApacheJackrabbitOakPluginsObservationChangeCollectorProviderInfo orgApacheJackrabbitOakPluginsObservationChangeCollectorProviderInfo = (OrgApacheJackrabbitOakPluginsObservationChangeCollectorProviderInfo) o;
-    return Objects.equals(pid, orgApacheJackrabbitOakPluginsObservationChangeCollectorProviderInfo.pid) &&
-        Objects.equals(title, orgApacheJackrabbitOakPluginsObservationChangeCollectorProviderInfo.title) &&
-        Objects.equals(description, orgApacheJackrabbitOakPluginsObservationChangeCollectorProviderInfo.description) &&
-        Objects.equals(properties, orgApacheJackrabbitOakPluginsObservationChangeCollectorProviderInfo.properties) &&
-        Objects.equals(bundleLocation, orgApacheJackrabbitOakPluginsObservationChangeCollectorProviderInfo.bundleLocation) &&
-        Objects.equals(serviceLocation, orgApacheJackrabbitOakPluginsObservationChangeCollectorProviderInfo.serviceLocation);
+    return Objects.equals(this.pid, orgApacheJackrabbitOakPluginsObservationChangeCollectorProviderInfo.pid) &&
+        Objects.equals(this.title, orgApacheJackrabbitOakPluginsObservationChangeCollectorProviderInfo.title) &&
+        Objects.equals(this.description, orgApacheJackrabbitOakPluginsObservationChangeCollectorProviderInfo.description) &&
+        Objects.equals(this.properties, orgApacheJackrabbitOakPluginsObservationChangeCollectorProviderInfo.properties) &&
+        Objects.equals(this.bundleLocation, orgApacheJackrabbitOakPluginsObservationChangeCollectorProviderInfo.bundleLocation) &&
+        Objects.equals(this.serviceLocation, orgApacheJackrabbitOakPluginsObservationChangeCollectorProviderInfo.serviceLocation);
   }
 
   @Override
@@ -133,11 +137,8 @@ public class OrgApacheJackrabbitOakPluginsObservationChangeCollectorProviderInfo
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

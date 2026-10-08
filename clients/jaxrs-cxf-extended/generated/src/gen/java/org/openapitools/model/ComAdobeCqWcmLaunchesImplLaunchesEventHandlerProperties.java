@@ -1,0 +1,171 @@
+package org.openapitools.model;
+
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.model.ConfigNodePropertyBoolean;
+import org.openapitools.model.ConfigNodePropertyDropDown;
+import org.openapitools.model.ConfigNodePropertyInteger;
+import org.openapitools.model.ConfigNodePropertyString;
+import javax.validation.constraints.*;
+import javax.validation.Valid;
+
+import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.annotation.JsonProperty;
+
+
+public class ComAdobeCqWcmLaunchesImplLaunchesEventHandlerProperties  {
+  
+  @ApiModelProperty(value = "")
+  @Valid
+  private ConfigNodePropertyString eventFilter;
+
+  @ApiModelProperty(value = "")
+  @Valid
+  private ConfigNodePropertyInteger launchesEventhandlerThreadpoolMaxsize;
+
+  @ApiModelProperty(value = "")
+  @Valid
+  private ConfigNodePropertyDropDown launchesEventhandlerThreadpoolPriority;
+
+  @ApiModelProperty(value = "")
+  @Valid
+  private ConfigNodePropertyBoolean launchesEventhandlerUpdatelastmodification;
+ /**
+  * Get eventFilter
+  * @return eventFilter
+  */
+  @JsonProperty("event.filter")
+  public ConfigNodePropertyString getEventFilter() {
+    return eventFilter;
+  }
+
+  /**
+   * Sets the <code>eventFilter</code> property.
+   */
+ public void setEventFilter(ConfigNodePropertyString eventFilter) {
+    this.eventFilter = eventFilter;
+  }
+
+  /**
+   * Sets the <code>eventFilter</code> property.
+   */
+  public ComAdobeCqWcmLaunchesImplLaunchesEventHandlerProperties eventFilter(ConfigNodePropertyString eventFilter) {
+    this.eventFilter = eventFilter;
+    return this;
+  }
+
+ /**
+  * Get launchesEventhandlerThreadpoolMaxsize
+  * @return launchesEventhandlerThreadpoolMaxsize
+  */
+  @JsonProperty("launches.eventhandler.threadpool.maxsize")
+  public ConfigNodePropertyInteger getLaunchesEventhandlerThreadpoolMaxsize() {
+    return launchesEventhandlerThreadpoolMaxsize;
+  }
+
+  /**
+   * Sets the <code>launchesEventhandlerThreadpoolMaxsize</code> property.
+   */
+ public void setLaunchesEventhandlerThreadpoolMaxsize(ConfigNodePropertyInteger launchesEventhandlerThreadpoolMaxsize) {
+    this.launchesEventhandlerThreadpoolMaxsize = launchesEventhandlerThreadpoolMaxsize;
+  }
+
+  /**
+   * Sets the <code>launchesEventhandlerThreadpoolMaxsize</code> property.
+   */
+  public ComAdobeCqWcmLaunchesImplLaunchesEventHandlerProperties launchesEventhandlerThreadpoolMaxsize(ConfigNodePropertyInteger launchesEventhandlerThreadpoolMaxsize) {
+    this.launchesEventhandlerThreadpoolMaxsize = launchesEventhandlerThreadpoolMaxsize;
+    return this;
+  }
+
+ /**
+  * Get launchesEventhandlerThreadpoolPriority
+  * @return launchesEventhandlerThreadpoolPriority
+  */
+  @JsonProperty("launches.eventhandler.threadpool.priority")
+  public ConfigNodePropertyDropDown getLaunchesEventhandlerThreadpoolPriority() {
+    return launchesEventhandlerThreadpoolPriority;
+  }
+
+  /**
+   * Sets the <code>launchesEventhandlerThreadpoolPriority</code> property.
+   */
+ public void setLaunchesEventhandlerThreadpoolPriority(ConfigNodePropertyDropDown launchesEventhandlerThreadpoolPriority) {
+    this.launchesEventhandlerThreadpoolPriority = launchesEventhandlerThreadpoolPriority;
+  }
+
+  /**
+   * Sets the <code>launchesEventhandlerThreadpoolPriority</code> property.
+   */
+  public ComAdobeCqWcmLaunchesImplLaunchesEventHandlerProperties launchesEventhandlerThreadpoolPriority(ConfigNodePropertyDropDown launchesEventhandlerThreadpoolPriority) {
+    this.launchesEventhandlerThreadpoolPriority = launchesEventhandlerThreadpoolPriority;
+    return this;
+  }
+
+ /**
+  * Get launchesEventhandlerUpdatelastmodification
+  * @return launchesEventhandlerUpdatelastmodification
+  */
+  @JsonProperty("launches.eventhandler.updatelastmodification")
+  public ConfigNodePropertyBoolean getLaunchesEventhandlerUpdatelastmodification() {
+    return launchesEventhandlerUpdatelastmodification;
+  }
+
+  /**
+   * Sets the <code>launchesEventhandlerUpdatelastmodification</code> property.
+   */
+ public void setLaunchesEventhandlerUpdatelastmodification(ConfigNodePropertyBoolean launchesEventhandlerUpdatelastmodification) {
+    this.launchesEventhandlerUpdatelastmodification = launchesEventhandlerUpdatelastmodification;
+  }
+
+  /**
+   * Sets the <code>launchesEventhandlerUpdatelastmodification</code> property.
+   */
+  public ComAdobeCqWcmLaunchesImplLaunchesEventHandlerProperties launchesEventhandlerUpdatelastmodification(ConfigNodePropertyBoolean launchesEventhandlerUpdatelastmodification) {
+    this.launchesEventhandlerUpdatelastmodification = launchesEventhandlerUpdatelastmodification;
+    return this;
+  }
+
+
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    ComAdobeCqWcmLaunchesImplLaunchesEventHandlerProperties comAdobeCqWcmLaunchesImplLaunchesEventHandlerProperties = (ComAdobeCqWcmLaunchesImplLaunchesEventHandlerProperties) o;
+    return Objects.equals(this.eventFilter, comAdobeCqWcmLaunchesImplLaunchesEventHandlerProperties.eventFilter) &&
+        Objects.equals(this.launchesEventhandlerThreadpoolMaxsize, comAdobeCqWcmLaunchesImplLaunchesEventHandlerProperties.launchesEventhandlerThreadpoolMaxsize) &&
+        Objects.equals(this.launchesEventhandlerThreadpoolPriority, comAdobeCqWcmLaunchesImplLaunchesEventHandlerProperties.launchesEventhandlerThreadpoolPriority) &&
+        Objects.equals(this.launchesEventhandlerUpdatelastmodification, comAdobeCqWcmLaunchesImplLaunchesEventHandlerProperties.launchesEventhandlerUpdatelastmodification);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(eventFilter, launchesEventhandlerThreadpoolMaxsize, launchesEventhandlerThreadpoolPriority, launchesEventhandlerUpdatelastmodification);
+  }
+
+  @Override
+  public String toString() {
+    StringBuilder sb = new StringBuilder();
+    sb.append("class ComAdobeCqWcmLaunchesImplLaunchesEventHandlerProperties {\n");
+    
+    sb.append("    eventFilter: ").append(toIndentedString(eventFilter)).append("\n");
+    sb.append("    launchesEventhandlerThreadpoolMaxsize: ").append(toIndentedString(launchesEventhandlerThreadpoolMaxsize)).append("\n");
+    sb.append("    launchesEventhandlerThreadpoolPriority: ").append(toIndentedString(launchesEventhandlerThreadpoolPriority)).append("\n");
+    sb.append("    launchesEventhandlerUpdatelastmodification: ").append(toIndentedString(launchesEventhandlerUpdatelastmodification)).append("\n");
+    sb.append("}");
+    return sb.toString();
+  }
+
+  /**
+   * Convert the given object to string with each line indented by 4 spaces
+   * (except the first line).
+   */
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
+  }
+}
+

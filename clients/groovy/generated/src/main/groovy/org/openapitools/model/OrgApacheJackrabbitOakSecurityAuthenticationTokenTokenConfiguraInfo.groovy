@@ -7,16 +7,16 @@ import org.openapitools.model.OrgApacheJackrabbitOakSecurityAuthenticationTokenT
 
 @Canonical
 class OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraProperties properties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraProperties properties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

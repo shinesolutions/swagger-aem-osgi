@@ -1,0 +1,42 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOveProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOveProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+}
+resourceTypes {
+
+  OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOveProperties {
+    title = OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOveProperties
+    description = OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOveProperties
+    derivedFrom = Root
+    properties {
+        enabled {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        service_ranking {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOveProperties {
+    title = OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOveProperties
+    description = OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOveProperties
+    implements = openapi_server.resourceTypes.OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOveProperties
+
+  }
+}

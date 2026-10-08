@@ -3,26 +3,33 @@ package apimodels;
 import apimodels.ConfigNodePropertyArray;
 import apimodels.ConfigNodePropertyInteger;
 import apimodels.ConfigNodePropertyString;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * ComAdobeCqCdnRewriterImplCDNRewriterProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class ComAdobeCqCdnRewriterImplCDNRewriterProperties   {
   @JsonProperty("service.ranking")
-  private ConfigNodePropertyInteger serviceRanking = null;
+  @Valid
+
+  private ConfigNodePropertyInteger serviceRanking;
 
   @JsonProperty("cdnrewriter.attributes")
-  private ConfigNodePropertyArray cdnrewriterAttributes = null;
+  @Valid
+
+  private ConfigNodePropertyArray cdnrewriterAttributes;
 
   @JsonProperty("cdn.rewriter.distribution.domain")
-  private ConfigNodePropertyString cdnRewriterDistributionDomain = null;
+  @Valid
+
+  private ConfigNodePropertyString cdnRewriterDistributionDomain;
 
   public ComAdobeCqCdnRewriterImplCDNRewriterProperties serviceRanking(ConfigNodePropertyInteger serviceRanking) {
     this.serviceRanking = serviceRanking;
@@ -33,7 +40,6 @@ public class ComAdobeCqCdnRewriterImplCDNRewriterProperties   {
    * Get serviceRanking
    * @return serviceRanking
   **/
-  @Valid
   public ConfigNodePropertyInteger getServiceRanking() {
     return serviceRanking;
   }
@@ -51,7 +57,6 @@ public class ComAdobeCqCdnRewriterImplCDNRewriterProperties   {
    * Get cdnrewriterAttributes
    * @return cdnrewriterAttributes
   **/
-  @Valid
   public ConfigNodePropertyArray getCdnrewriterAttributes() {
     return cdnrewriterAttributes;
   }
@@ -69,7 +74,6 @@ public class ComAdobeCqCdnRewriterImplCDNRewriterProperties   {
    * Get cdnRewriterDistributionDomain
    * @return cdnRewriterDistributionDomain
   **/
-  @Valid
   public ConfigNodePropertyString getCdnRewriterDistributionDomain() {
     return cdnRewriterDistributionDomain;
   }
@@ -80,7 +84,7 @@ public class ComAdobeCqCdnRewriterImplCDNRewriterProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -115,11 +119,8 @@ public class ComAdobeCqCdnRewriterImplCDNRewriterProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

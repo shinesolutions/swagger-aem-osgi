@@ -7,10 +7,10 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class ComAdobeCqSocialUgcbaseDispatcherImplFlushServiceImplProperties {
-    ConfigNodePropertyInteger threadPoolSize = null
-
-    ConfigNodePropertyInteger delayTime = null
-
-    ConfigNodePropertyInteger workerSleepTime = null
-
+    
+    ConfigNodePropertyInteger threadPoolSize
+    
+    ConfigNodePropertyInteger delayTime
+    
+    ConfigNodePropertyInteger workerSleepTime
 }

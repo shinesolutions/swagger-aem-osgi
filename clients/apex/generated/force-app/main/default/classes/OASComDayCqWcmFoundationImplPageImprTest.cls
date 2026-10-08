@@ -72,7 +72,7 @@ private class OASComDayCqWcmFoundationImplPageImprTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqWcmFoundationImplPageImpr comDayCqWcmFoundationImplPageImpressionsTrackerProperties = new OASComDayCqWcmFoundationImplPageImpr();
-        Map<String, String> propertyMappings = comDayCqWcmFoundationImplPageImpressionsTrackerProperties.getPropertyMappings();
-        System.assertEquals('slingAuthRequirements', propertyMappings.get('sling.auth.requirements'));
+        Map<String, String> x-property-mappings = comDayCqWcmFoundationImplPageImpressionsTrackerProperties.getx-property-mappings();
+        System.assertEquals('slingAuthRequirements', x-property-mappings.get('sling.auth.requirements'));
     }
 }

@@ -1,0 +1,60 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ConfigNodePropertyInteger"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ConfigNodePropertyInteger"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+}
+resourceTypes {
+
+  ConfigNodePropertyInteger {
+    title = ConfigNodePropertyInteger
+    description = ConfigNodePropertyInteger
+    derivedFrom = Root
+    properties {
+        name {
+          type =  string
+          description = "property name"
+          optional = false
+        }
+        optional {
+          type =  boolean
+          description = "True if optional"
+          optional = false
+        }
+        is_set {
+          type =  boolean
+          description = "True if property is set"
+          optional = false
+        }
+        type {
+          type =  integer
+          description = "Property type, 1&#x3D;String, 2&#x3D;Long, 3&#x3D;Integer, 7&#x3D;Float, 11&#x3D;Boolean, 12&#x3D;Secrets(String)"
+          optional = false
+        }
+        value {
+          type =  integer
+          description = "Property value"
+          optional = false
+        }
+        description {
+          type =  string
+          description = "Property description"
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ConfigNodePropertyInteger {
+    title = ConfigNodePropertyInteger
+    description = ConfigNodePropertyInteger
+    implements = openapi_server.resourceTypes.ConfigNodePropertyInteger
+
+  }
+}

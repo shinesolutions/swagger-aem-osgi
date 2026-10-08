@@ -4,6 +4,7 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
@@ -11,40 +12,26 @@ import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2019-08-05T01:00:05.540Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2026-10-07T12:54:26.576036107Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqWidgetImplHtmlLibraryManagerImplProperties   {
   
-
-  private ConfigNodePropertyString htmllibmanagerClientmanager = null;
-
-  private ConfigNodePropertyBoolean htmllibmanagerDebug = null;
-
-  private ConfigNodePropertyBoolean htmllibmanagerDebugConsole = null;
-
-  private ConfigNodePropertyString htmllibmanagerDebugInitJs = null;
-
-  private ConfigNodePropertyString htmllibmanagerDefaultthemename = null;
-
-  private ConfigNodePropertyString htmllibmanagerDefaultuserthemename = null;
-
-  private ConfigNodePropertyString htmllibmanagerFirebuglitePath = null;
-
-  private ConfigNodePropertyBoolean htmllibmanagerForceCQUrlInfo = null;
-
-  private ConfigNodePropertyBoolean htmllibmanagerGzip = null;
-
-  private ConfigNodePropertyInteger htmllibmanagerMaxage = null;
-
-  private ConfigNodePropertyInteger htmllibmanagerMaxDataUriSize = null;
-
-  private ConfigNodePropertyBoolean htmllibmanagerMinify = null;
-
-  private ConfigNodePropertyArray htmllibmanagerPathList = null;
-
-  private ConfigNodePropertyBoolean htmllibmanagerTiming = null;
+  private ConfigNodePropertyString htmllibmanagerClientmanager;
+  private ConfigNodePropertyBoolean htmllibmanagerDebug;
+  private ConfigNodePropertyBoolean htmllibmanagerDebugConsole;
+  private ConfigNodePropertyString htmllibmanagerDebugInitJs;
+  private ConfigNodePropertyString htmllibmanagerDefaultthemename;
+  private ConfigNodePropertyString htmllibmanagerDefaultuserthemename;
+  private ConfigNodePropertyString htmllibmanagerFirebuglitePath;
+  private ConfigNodePropertyBoolean htmllibmanagerForceCQUrlInfo;
+  private ConfigNodePropertyBoolean htmllibmanagerGzip;
+  private ConfigNodePropertyInteger htmllibmanagerMaxage;
+  private ConfigNodePropertyInteger htmllibmanagerMaxDataUriSize;
+  private ConfigNodePropertyBoolean htmllibmanagerMinify;
+  private ConfigNodePropertyArray htmllibmanagerPathList;
+  private ConfigNodePropertyBoolean htmllibmanagerTiming;
 
   /**
    **/
@@ -224,20 +211,20 @@ public class ComDayCqWidgetImplHtmlLibraryManagerImplProperties   {
       return false;
     }
     ComDayCqWidgetImplHtmlLibraryManagerImplProperties comDayCqWidgetImplHtmlLibraryManagerImplProperties = (ComDayCqWidgetImplHtmlLibraryManagerImplProperties) o;
-    return Objects.equals(htmllibmanagerClientmanager, comDayCqWidgetImplHtmlLibraryManagerImplProperties.htmllibmanagerClientmanager) &&
-        Objects.equals(htmllibmanagerDebug, comDayCqWidgetImplHtmlLibraryManagerImplProperties.htmllibmanagerDebug) &&
-        Objects.equals(htmllibmanagerDebugConsole, comDayCqWidgetImplHtmlLibraryManagerImplProperties.htmllibmanagerDebugConsole) &&
-        Objects.equals(htmllibmanagerDebugInitJs, comDayCqWidgetImplHtmlLibraryManagerImplProperties.htmllibmanagerDebugInitJs) &&
-        Objects.equals(htmllibmanagerDefaultthemename, comDayCqWidgetImplHtmlLibraryManagerImplProperties.htmllibmanagerDefaultthemename) &&
-        Objects.equals(htmllibmanagerDefaultuserthemename, comDayCqWidgetImplHtmlLibraryManagerImplProperties.htmllibmanagerDefaultuserthemename) &&
-        Objects.equals(htmllibmanagerFirebuglitePath, comDayCqWidgetImplHtmlLibraryManagerImplProperties.htmllibmanagerFirebuglitePath) &&
-        Objects.equals(htmllibmanagerForceCQUrlInfo, comDayCqWidgetImplHtmlLibraryManagerImplProperties.htmllibmanagerForceCQUrlInfo) &&
-        Objects.equals(htmllibmanagerGzip, comDayCqWidgetImplHtmlLibraryManagerImplProperties.htmllibmanagerGzip) &&
-        Objects.equals(htmllibmanagerMaxage, comDayCqWidgetImplHtmlLibraryManagerImplProperties.htmllibmanagerMaxage) &&
-        Objects.equals(htmllibmanagerMaxDataUriSize, comDayCqWidgetImplHtmlLibraryManagerImplProperties.htmllibmanagerMaxDataUriSize) &&
-        Objects.equals(htmllibmanagerMinify, comDayCqWidgetImplHtmlLibraryManagerImplProperties.htmllibmanagerMinify) &&
-        Objects.equals(htmllibmanagerPathList, comDayCqWidgetImplHtmlLibraryManagerImplProperties.htmllibmanagerPathList) &&
-        Objects.equals(htmllibmanagerTiming, comDayCqWidgetImplHtmlLibraryManagerImplProperties.htmllibmanagerTiming);
+    return Objects.equals(this.htmllibmanagerClientmanager, comDayCqWidgetImplHtmlLibraryManagerImplProperties.htmllibmanagerClientmanager) &&
+        Objects.equals(this.htmllibmanagerDebug, comDayCqWidgetImplHtmlLibraryManagerImplProperties.htmllibmanagerDebug) &&
+        Objects.equals(this.htmllibmanagerDebugConsole, comDayCqWidgetImplHtmlLibraryManagerImplProperties.htmllibmanagerDebugConsole) &&
+        Objects.equals(this.htmllibmanagerDebugInitJs, comDayCqWidgetImplHtmlLibraryManagerImplProperties.htmllibmanagerDebugInitJs) &&
+        Objects.equals(this.htmllibmanagerDefaultthemename, comDayCqWidgetImplHtmlLibraryManagerImplProperties.htmllibmanagerDefaultthemename) &&
+        Objects.equals(this.htmllibmanagerDefaultuserthemename, comDayCqWidgetImplHtmlLibraryManagerImplProperties.htmllibmanagerDefaultuserthemename) &&
+        Objects.equals(this.htmllibmanagerFirebuglitePath, comDayCqWidgetImplHtmlLibraryManagerImplProperties.htmllibmanagerFirebuglitePath) &&
+        Objects.equals(this.htmllibmanagerForceCQUrlInfo, comDayCqWidgetImplHtmlLibraryManagerImplProperties.htmllibmanagerForceCQUrlInfo) &&
+        Objects.equals(this.htmllibmanagerGzip, comDayCqWidgetImplHtmlLibraryManagerImplProperties.htmllibmanagerGzip) &&
+        Objects.equals(this.htmllibmanagerMaxage, comDayCqWidgetImplHtmlLibraryManagerImplProperties.htmllibmanagerMaxage) &&
+        Objects.equals(this.htmllibmanagerMaxDataUriSize, comDayCqWidgetImplHtmlLibraryManagerImplProperties.htmllibmanagerMaxDataUriSize) &&
+        Objects.equals(this.htmllibmanagerMinify, comDayCqWidgetImplHtmlLibraryManagerImplProperties.htmllibmanagerMinify) &&
+        Objects.equals(this.htmllibmanagerPathList, comDayCqWidgetImplHtmlLibraryManagerImplProperties.htmllibmanagerPathList) &&
+        Objects.equals(this.htmllibmanagerTiming, comDayCqWidgetImplHtmlLibraryManagerImplProperties.htmllibmanagerTiming);
   }
 
   @Override
@@ -273,10 +260,7 @@ public class ComDayCqWidgetImplHtmlLibraryManagerImplProperties   {
    * (except the first line).
    */
   private String toIndentedString(Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

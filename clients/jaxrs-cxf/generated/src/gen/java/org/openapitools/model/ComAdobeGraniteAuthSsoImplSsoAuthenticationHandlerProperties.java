@@ -1,5 +1,6 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
@@ -7,60 +8,77 @@ import javax.validation.constraints.*;
 import javax.validation.Valid;
 
 import io.swagger.annotations.ApiModelProperty;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlType;
-import javax.xml.bind.annotation.XmlEnum;
-import javax.xml.bind.annotation.XmlEnumValue;
+import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
 
 public class ComAdobeGraniteAuthSsoImplSsoAuthenticationHandlerProperties  {
   
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyString path = null;
+
+  private ConfigNodePropertyString path;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyInteger serviceRanking = null;
+
+  private ConfigNodePropertyInteger serviceRanking;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyString jaasControlFlag = null;
+
+  private ConfigNodePropertyString jaasControlFlag;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyString jaasRealmName = null;
+
+  private ConfigNodePropertyString jaasRealmName;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyInteger jaasRanking = null;
+
+  private ConfigNodePropertyInteger jaasRanking;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyArray headers = null;
+
+  private ConfigNodePropertyArray headers;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyArray cookies = null;
+
+  private ConfigNodePropertyArray cookies;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyArray parameters = null;
+
+  private ConfigNodePropertyArray parameters;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyArray usermap = null;
+
+  private ConfigNodePropertyArray usermap;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyString format = null;
+
+  private ConfigNodePropertyString format;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyString trustedCredentialsAttribute = null;
+
+  private ConfigNodePropertyString trustedCredentialsAttribute;
  /**
    * Get path
    * @return path
@@ -259,6 +277,32 @@ public class ComAdobeGraniteAuthSsoImplSsoAuthenticationHandlerProperties  {
     return this;
   }
 
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    ComAdobeGraniteAuthSsoImplSsoAuthenticationHandlerProperties comAdobeGraniteAuthSsoImplSsoAuthenticationHandlerProperties = (ComAdobeGraniteAuthSsoImplSsoAuthenticationHandlerProperties) o;
+    return Objects.equals(this.path, comAdobeGraniteAuthSsoImplSsoAuthenticationHandlerProperties.path) &&
+        Objects.equals(this.serviceRanking, comAdobeGraniteAuthSsoImplSsoAuthenticationHandlerProperties.serviceRanking) &&
+        Objects.equals(this.jaasControlFlag, comAdobeGraniteAuthSsoImplSsoAuthenticationHandlerProperties.jaasControlFlag) &&
+        Objects.equals(this.jaasRealmName, comAdobeGraniteAuthSsoImplSsoAuthenticationHandlerProperties.jaasRealmName) &&
+        Objects.equals(this.jaasRanking, comAdobeGraniteAuthSsoImplSsoAuthenticationHandlerProperties.jaasRanking) &&
+        Objects.equals(this.headers, comAdobeGraniteAuthSsoImplSsoAuthenticationHandlerProperties.headers) &&
+        Objects.equals(this.cookies, comAdobeGraniteAuthSsoImplSsoAuthenticationHandlerProperties.cookies) &&
+        Objects.equals(this.parameters, comAdobeGraniteAuthSsoImplSsoAuthenticationHandlerProperties.parameters) &&
+        Objects.equals(this.usermap, comAdobeGraniteAuthSsoImplSsoAuthenticationHandlerProperties.usermap) &&
+        Objects.equals(this.format, comAdobeGraniteAuthSsoImplSsoAuthenticationHandlerProperties.format) &&
+        Objects.equals(this.trustedCredentialsAttribute, comAdobeGraniteAuthSsoImplSsoAuthenticationHandlerProperties.trustedCredentialsAttribute);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(path, serviceRanking, jaasControlFlag, jaasRealmName, jaasRanking, headers, cookies, parameters, usermap, format, trustedCredentialsAttribute);
+  }
 
   @Override
   public String toString() {
@@ -284,11 +328,8 @@ public class ComAdobeGraniteAuthSsoImplSsoAuthenticationHandlerProperties  {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private static String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

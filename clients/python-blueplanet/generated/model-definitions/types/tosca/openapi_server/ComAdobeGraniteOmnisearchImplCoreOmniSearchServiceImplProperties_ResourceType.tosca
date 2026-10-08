@@ -1,0 +1,42 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeGraniteOmnisearchImplCoreOmniSearchServiceImplProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeGraniteOmnisearchImplCoreOmniSearchServiceImplProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+}
+resourceTypes {
+
+  ComAdobeGraniteOmnisearchImplCoreOmniSearchServiceImplProperties {
+    title = ComAdobeGraniteOmnisearchImplCoreOmniSearchServiceImplProperties
+    description = ComAdobeGraniteOmnisearchImplCoreOmniSearchServiceImplProperties
+    derivedFrom = Root
+    properties {
+        omnisearch_suggestion_requiretext_min {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        omnisearch_suggestion_spellcheck_require {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeGraniteOmnisearchImplCoreOmniSearchServiceImplProperties {
+    title = ComAdobeGraniteOmnisearchImplCoreOmniSearchServiceImplProperties
+    description = ComAdobeGraniteOmnisearchImplCoreOmniSearchServiceImplProperties
+    implements = openapi_server.resourceTypes.ComAdobeGraniteOmnisearchImplCoreOmniSearchServiceImplProperties
+
+  }
+}

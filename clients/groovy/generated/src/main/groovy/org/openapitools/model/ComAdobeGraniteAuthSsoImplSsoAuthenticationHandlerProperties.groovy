@@ -9,26 +9,26 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeGraniteAuthSsoImplSsoAuthenticationHandlerProperties {
-    ConfigNodePropertyString path = null
-
-    ConfigNodePropertyInteger serviceRanking = null
-
-    ConfigNodePropertyString jaasControlFlag = null
-
-    ConfigNodePropertyString jaasRealmName = null
-
-    ConfigNodePropertyInteger jaasRanking = null
-
-    ConfigNodePropertyArray headers = null
-
-    ConfigNodePropertyArray cookies = null
-
-    ConfigNodePropertyArray parameters = null
-
-    ConfigNodePropertyArray usermap = null
-
-    ConfigNodePropertyString format = null
-
-    ConfigNodePropertyString trustedCredentialsAttribute = null
-
+    
+    ConfigNodePropertyString path
+    
+    ConfigNodePropertyInteger serviceRanking
+    
+    ConfigNodePropertyString jaasControlFlag
+    
+    ConfigNodePropertyString jaasRealmName
+    
+    ConfigNodePropertyInteger jaasRanking
+    
+    ConfigNodePropertyArray headers
+    
+    ConfigNodePropertyArray cookies
+    
+    ConfigNodePropertyArray parameters
+    
+    ConfigNodePropertyArray usermap
+    
+    ConfigNodePropertyString format
+    
+    ConfigNodePropertyString trustedCredentialsAttribute
 }

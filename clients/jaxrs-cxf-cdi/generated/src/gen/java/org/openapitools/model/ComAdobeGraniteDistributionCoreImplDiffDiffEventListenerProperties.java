@@ -2,25 +2,26 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class ComAdobeGraniteDistributionCoreImplDiffDiffEventListenerProperties   {
   
-  private ConfigNodePropertyString diffPath = null;
+  private ConfigNodePropertyString diffPath;
 
-  private ConfigNodePropertyString serviceName = null;
+  private ConfigNodePropertyString serviceName;
 
-  private ConfigNodePropertyString serviceUserTarget = null;
-
+  private ConfigNodePropertyString serviceUserTarget;
 
   /**
    **/
@@ -78,7 +79,7 @@ public class ComAdobeGraniteDistributionCoreImplDiffDiffEventListenerProperties 
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -86,9 +87,9 @@ public class ComAdobeGraniteDistributionCoreImplDiffDiffEventListenerProperties 
       return false;
     }
     ComAdobeGraniteDistributionCoreImplDiffDiffEventListenerProperties comAdobeGraniteDistributionCoreImplDiffDiffEventListenerProperties = (ComAdobeGraniteDistributionCoreImplDiffDiffEventListenerProperties) o;
-    return Objects.equals(diffPath, comAdobeGraniteDistributionCoreImplDiffDiffEventListenerProperties.diffPath) &&
-        Objects.equals(serviceName, comAdobeGraniteDistributionCoreImplDiffDiffEventListenerProperties.serviceName) &&
-        Objects.equals(serviceUserTarget, comAdobeGraniteDistributionCoreImplDiffDiffEventListenerProperties.serviceUserTarget);
+    return Objects.equals(this.diffPath, comAdobeGraniteDistributionCoreImplDiffDiffEventListenerProperties.diffPath) &&
+        Objects.equals(this.serviceName, comAdobeGraniteDistributionCoreImplDiffDiffEventListenerProperties.serviceName) &&
+        Objects.equals(this.serviceUserTarget, comAdobeGraniteDistributionCoreImplDiffDiffEventListenerProperties.serviceUserTarget);
   }
 
   @Override
@@ -112,11 +113,8 @@ public class ComAdobeGraniteDistributionCoreImplDiffDiffEventListenerProperties 
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

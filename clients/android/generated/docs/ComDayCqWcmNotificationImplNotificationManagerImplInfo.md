@@ -1,7 +1,9 @@
 
+
 # ComDayCqWcmNotificationImplNotificationManagerImplInfo
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **pid** | **String** |  |  [optional]
@@ -10,6 +12,7 @@ Name | Type | Description | Notes
 **properties** | [**ComDayCqWcmNotificationImplNotificationManagerImplProperties**](ComDayCqWcmNotificationImplNotificationManagerImplProperties.md) |  |  [optional]
 **bundleLocation** | **String** |  |  [optional]
 **serviceLocation** | **String** |  |  [optional]
+
 
 
 

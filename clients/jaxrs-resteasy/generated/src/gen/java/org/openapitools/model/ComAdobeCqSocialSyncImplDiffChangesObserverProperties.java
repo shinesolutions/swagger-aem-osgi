@@ -4,25 +4,29 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2019-08-05T00:59:30.156Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2026-10-07T12:54:21.614735164Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeCqSocialSyncImplDiffChangesObserverProperties   {
   
-  private ConfigNodePropertyBoolean enabled = null;
-  private ConfigNodePropertyString agentName = null;
-  private ConfigNodePropertyString diffPath = null;
-  private ConfigNodePropertyString propertyNames = null;
+  private ConfigNodePropertyBoolean enabled;
+  private ConfigNodePropertyString agentName;
+  private ConfigNodePropertyString diffPath;
+  private ConfigNodePropertyString propertyNames;
 
   /**
    **/
   
   @ApiModelProperty(value = "")
   @JsonProperty("enabled")
+  @Valid
   public ConfigNodePropertyBoolean getEnabled() {
     return enabled;
   }
@@ -35,6 +39,7 @@ public class ComAdobeCqSocialSyncImplDiffChangesObserverProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("agentName")
+  @Valid
   public ConfigNodePropertyString getAgentName() {
     return agentName;
   }
@@ -47,6 +52,7 @@ public class ComAdobeCqSocialSyncImplDiffChangesObserverProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("diffPath")
+  @Valid
   public ConfigNodePropertyString getDiffPath() {
     return diffPath;
   }
@@ -59,6 +65,7 @@ public class ComAdobeCqSocialSyncImplDiffChangesObserverProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("propertyNames")
+  @Valid
   public ConfigNodePropertyString getPropertyNames() {
     return propertyNames;
   }
@@ -68,7 +75,7 @@ public class ComAdobeCqSocialSyncImplDiffChangesObserverProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -76,10 +83,10 @@ public class ComAdobeCqSocialSyncImplDiffChangesObserverProperties   {
       return false;
     }
     ComAdobeCqSocialSyncImplDiffChangesObserverProperties comAdobeCqSocialSyncImplDiffChangesObserverProperties = (ComAdobeCqSocialSyncImplDiffChangesObserverProperties) o;
-    return Objects.equals(enabled, comAdobeCqSocialSyncImplDiffChangesObserverProperties.enabled) &&
-        Objects.equals(agentName, comAdobeCqSocialSyncImplDiffChangesObserverProperties.agentName) &&
-        Objects.equals(diffPath, comAdobeCqSocialSyncImplDiffChangesObserverProperties.diffPath) &&
-        Objects.equals(propertyNames, comAdobeCqSocialSyncImplDiffChangesObserverProperties.propertyNames);
+    return Objects.equals(this.enabled, comAdobeCqSocialSyncImplDiffChangesObserverProperties.enabled) &&
+        Objects.equals(this.agentName, comAdobeCqSocialSyncImplDiffChangesObserverProperties.agentName) &&
+        Objects.equals(this.diffPath, comAdobeCqSocialSyncImplDiffChangesObserverProperties.diffPath) &&
+        Objects.equals(this.propertyNames, comAdobeCqSocialSyncImplDiffChangesObserverProperties.propertyNames);
   }
 
   @Override
@@ -104,11 +111,8 @@ public class ComAdobeCqSocialSyncImplDiffChangesObserverProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

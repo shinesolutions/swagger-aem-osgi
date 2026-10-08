@@ -1,0 +1,68 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties {
+    title = ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties
+    description = ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties
+    derivedFrom = Root
+    properties {
+        version_id {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        cache_on {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        concurrency_level {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        cache_start_size {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        cache_ttl {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        cache_size {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        time_limit {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties {
+    title = ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties
+    description = ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties
+    implements = openapi_server.resourceTypes.ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties
+
+  }
+}

@@ -7,16 +7,16 @@ import org.openapitools.model.ComDayCqWcmMobileCoreImplDeviceDeviceInfoTransform
 
 @Canonical
 class ComDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactoryInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactoryProperties properties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactoryProperties properties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqReplicationImplTransportBinaryLessTranspor
 
 @Canonical
 class ComDayCqReplicationImplTransportBinaryLessTransportHandlerInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqReplicationImplTransportBinaryLessTransportHandlerProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqReplicationImplTransportBinaryLessTransportHandlerProperties properties
 }

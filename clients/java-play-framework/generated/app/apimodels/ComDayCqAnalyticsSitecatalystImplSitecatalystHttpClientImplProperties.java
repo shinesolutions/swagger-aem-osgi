@@ -2,29 +2,38 @@ package apimodels;
 
 import apimodels.ConfigNodePropertyArray;
 import apimodels.ConfigNodePropertyInteger;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplProperties   {
   @JsonProperty("cq.analytics.sitecatalyst.service.datacenter.url")
-  private ConfigNodePropertyArray cqAnalyticsSitecatalystServiceDatacenterUrl = null;
+  @Valid
+
+  private ConfigNodePropertyArray cqAnalyticsSitecatalystServiceDatacenterUrl;
 
   @JsonProperty("devhostnamepatterns")
-  private ConfigNodePropertyArray devhostnamepatterns = null;
+  @Valid
+
+  private ConfigNodePropertyArray devhostnamepatterns;
 
   @JsonProperty("connection.timeout")
-  private ConfigNodePropertyInteger connectionTimeout = null;
+  @Valid
+
+  private ConfigNodePropertyInteger connectionTimeout;
 
   @JsonProperty("socket.timeout")
-  private ConfigNodePropertyInteger socketTimeout = null;
+  @Valid
+
+  private ConfigNodePropertyInteger socketTimeout;
 
   public ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplProperties cqAnalyticsSitecatalystServiceDatacenterUrl(ConfigNodePropertyArray cqAnalyticsSitecatalystServiceDatacenterUrl) {
     this.cqAnalyticsSitecatalystServiceDatacenterUrl = cqAnalyticsSitecatalystServiceDatacenterUrl;
@@ -35,7 +44,6 @@ public class ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplProperti
    * Get cqAnalyticsSitecatalystServiceDatacenterUrl
    * @return cqAnalyticsSitecatalystServiceDatacenterUrl
   **/
-  @Valid
   public ConfigNodePropertyArray getCqAnalyticsSitecatalystServiceDatacenterUrl() {
     return cqAnalyticsSitecatalystServiceDatacenterUrl;
   }
@@ -53,7 +61,6 @@ public class ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplProperti
    * Get devhostnamepatterns
    * @return devhostnamepatterns
   **/
-  @Valid
   public ConfigNodePropertyArray getDevhostnamepatterns() {
     return devhostnamepatterns;
   }
@@ -71,7 +78,6 @@ public class ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplProperti
    * Get connectionTimeout
    * @return connectionTimeout
   **/
-  @Valid
   public ConfigNodePropertyInteger getConnectionTimeout() {
     return connectionTimeout;
   }
@@ -89,7 +95,6 @@ public class ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplProperti
    * Get socketTimeout
    * @return socketTimeout
   **/
-  @Valid
   public ConfigNodePropertyInteger getSocketTimeout() {
     return socketTimeout;
   }
@@ -100,7 +105,7 @@ public class ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplProperti
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -137,11 +142,8 @@ public class ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplProperti
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

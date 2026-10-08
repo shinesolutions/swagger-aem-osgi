@@ -1,7 +1,9 @@
 
+
 # OrgApacheSlingServletsPostImplSlingPostServletProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **servletPostDateFormats** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
@@ -11,6 +13,7 @@ Name | Type | Description | Notes
 **servletPostAutoCheckout** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
 **servletPostAutoCheckin** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
 **servletPostIgnorePattern** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
+
 
 
 

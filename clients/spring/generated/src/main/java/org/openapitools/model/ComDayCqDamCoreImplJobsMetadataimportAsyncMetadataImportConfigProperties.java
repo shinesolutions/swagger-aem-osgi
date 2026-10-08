@@ -1,34 +1,45 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigProperties   {
-  @JsonProperty("operation")
-  private ConfigNodePropertyString operation = null;
+@JsonTypeName("comDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigProperties {
 
-  @JsonProperty("operationIcon")
-  private ConfigNodePropertyString operationIcon = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString operation;
 
-  @JsonProperty("topicName")
-  private ConfigNodePropertyString topicName = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString operationIcon;
 
-  @JsonProperty("emailEnabled")
-  private ConfigNodePropertyBoolean emailEnabled = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString topicName;
 
-  public ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigProperties operation(ConfigNodePropertyString operation) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean emailEnabled;
+
+  public ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigProperties operation(@Nullable ConfigNodePropertyString operation) {
     this.operation = operation;
     return this;
   }
@@ -36,20 +47,20 @@ public class ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigPrope
   /**
    * Get operation
    * @return operation
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getOperation() {
+   */
+  @Valid 
+  @Schema(name = "operation", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("operation")
+  public @Nullable ConfigNodePropertyString getOperation() {
     return operation;
   }
 
-  public void setOperation(ConfigNodePropertyString operation) {
+  @JsonProperty("operation")
+  public void setOperation(@Nullable ConfigNodePropertyString operation) {
     this.operation = operation;
   }
 
-  public ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigProperties operationIcon(ConfigNodePropertyString operationIcon) {
+  public ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigProperties operationIcon(@Nullable ConfigNodePropertyString operationIcon) {
     this.operationIcon = operationIcon;
     return this;
   }
@@ -57,20 +68,20 @@ public class ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigPrope
   /**
    * Get operationIcon
    * @return operationIcon
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getOperationIcon() {
+   */
+  @Valid 
+  @Schema(name = "operationIcon", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("operationIcon")
+  public @Nullable ConfigNodePropertyString getOperationIcon() {
     return operationIcon;
   }
 
-  public void setOperationIcon(ConfigNodePropertyString operationIcon) {
+  @JsonProperty("operationIcon")
+  public void setOperationIcon(@Nullable ConfigNodePropertyString operationIcon) {
     this.operationIcon = operationIcon;
   }
 
-  public ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigProperties topicName(ConfigNodePropertyString topicName) {
+  public ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigProperties topicName(@Nullable ConfigNodePropertyString topicName) {
     this.topicName = topicName;
     return this;
   }
@@ -78,20 +89,20 @@ public class ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigPrope
   /**
    * Get topicName
    * @return topicName
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getTopicName() {
+   */
+  @Valid 
+  @Schema(name = "topicName", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("topicName")
+  public @Nullable ConfigNodePropertyString getTopicName() {
     return topicName;
   }
 
-  public void setTopicName(ConfigNodePropertyString topicName) {
+  @JsonProperty("topicName")
+  public void setTopicName(@Nullable ConfigNodePropertyString topicName) {
     this.topicName = topicName;
   }
 
-  public ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigProperties emailEnabled(ConfigNodePropertyBoolean emailEnabled) {
+  public ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigProperties emailEnabled(@Nullable ConfigNodePropertyBoolean emailEnabled) {
     this.emailEnabled = emailEnabled;
     return this;
   }
@@ -99,22 +110,21 @@ public class ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigPrope
   /**
    * Get emailEnabled
    * @return emailEnabled
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getEmailEnabled() {
+   */
+  @Valid 
+  @Schema(name = "emailEnabled", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("emailEnabled")
+  public @Nullable ConfigNodePropertyBoolean getEmailEnabled() {
     return emailEnabled;
   }
 
-  public void setEmailEnabled(ConfigNodePropertyBoolean emailEnabled) {
+  @JsonProperty("emailEnabled")
+  public void setEmailEnabled(@Nullable ConfigNodePropertyBoolean emailEnabled) {
     this.emailEnabled = emailEnabled;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -137,7 +147,6 @@ public class ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigPrope
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigProperties {\n");
-    
     sb.append("    operation: ").append(toIndentedString(operation)).append("\n");
     sb.append("    operationIcon: ").append(toIndentedString(operationIcon)).append("\n");
     sb.append("    topicName: ").append(toIndentedString(topicName)).append("\n");
@@ -150,11 +159,8 @@ public class ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigPrope
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

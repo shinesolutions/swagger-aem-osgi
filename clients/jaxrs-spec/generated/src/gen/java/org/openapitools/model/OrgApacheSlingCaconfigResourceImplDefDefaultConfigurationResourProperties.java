@@ -1,23 +1,34 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("orgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourProperties   {
-  
-  private @Valid ConfigNodePropertyBoolean enabled = null;
-  private @Valid ConfigNodePropertyString configPath = null;
-  private @Valid ConfigNodePropertyArray fallbackPaths = null;
-  private @Valid ConfigNodePropertyArray configCollectionInheritancePropertyNames = null;
+  private ConfigNodePropertyBoolean enabled;
+  private ConfigNodePropertyString configPath;
+  private ConfigNodePropertyArray fallbackPaths;
+  private ConfigNodePropertyArray configCollectionInheritancePropertyNames;
+
+  public OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourProperties() {
+  }
 
   /**
    **/
@@ -29,9 +40,11 @@ public class OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("enabled")
-  public ConfigNodePropertyBoolean getEnabled() {
+  @Valid public ConfigNodePropertyBoolean getEnabled() {
     return enabled;
   }
+
+  @JsonProperty("enabled")
   public void setEnabled(ConfigNodePropertyBoolean enabled) {
     this.enabled = enabled;
   }
@@ -46,9 +59,11 @@ public class OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("configPath")
-  public ConfigNodePropertyString getConfigPath() {
+  @Valid public ConfigNodePropertyString getConfigPath() {
     return configPath;
   }
+
+  @JsonProperty("configPath")
   public void setConfigPath(ConfigNodePropertyString configPath) {
     this.configPath = configPath;
   }
@@ -63,9 +78,11 @@ public class OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("fallbackPaths")
-  public ConfigNodePropertyArray getFallbackPaths() {
+  @Valid public ConfigNodePropertyArray getFallbackPaths() {
     return fallbackPaths;
   }
+
+  @JsonProperty("fallbackPaths")
   public void setFallbackPaths(ConfigNodePropertyArray fallbackPaths) {
     this.fallbackPaths = fallbackPaths;
   }
@@ -80,16 +97,18 @@ public class OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("configCollectionInheritancePropertyNames")
-  public ConfigNodePropertyArray getConfigCollectionInheritancePropertyNames() {
+  @Valid public ConfigNodePropertyArray getConfigCollectionInheritancePropertyNames() {
     return configCollectionInheritancePropertyNames;
   }
+
+  @JsonProperty("configCollectionInheritancePropertyNames")
   public void setConfigCollectionInheritancePropertyNames(ConfigNodePropertyArray configCollectionInheritancePropertyNames) {
     this.configCollectionInheritancePropertyNames = configCollectionInheritancePropertyNames;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -97,10 +116,10 @@ public class OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourProp
       return false;
     }
     OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourProperties orgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourProperties = (OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourProperties) o;
-    return Objects.equals(enabled, orgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourProperties.enabled) &&
-        Objects.equals(configPath, orgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourProperties.configPath) &&
-        Objects.equals(fallbackPaths, orgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourProperties.fallbackPaths) &&
-        Objects.equals(configCollectionInheritancePropertyNames, orgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourProperties.configCollectionInheritancePropertyNames);
+    return Objects.equals(this.enabled, orgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourProperties.enabled) &&
+        Objects.equals(this.configPath, orgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourProperties.configPath) &&
+        Objects.equals(this.fallbackPaths, orgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourProperties.fallbackPaths) &&
+        Objects.equals(this.configCollectionInheritancePropertyNames, orgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourProperties.configCollectionInheritancePropertyNames);
   }
 
   @Override
@@ -125,11 +144,9 @@ public class OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourProp
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

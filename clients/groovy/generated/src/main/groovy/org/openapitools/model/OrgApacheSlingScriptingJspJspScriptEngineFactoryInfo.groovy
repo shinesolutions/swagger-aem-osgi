@@ -7,16 +7,16 @@ import org.openapitools.model.OrgApacheSlingScriptingJspJspScriptEngineFactoryPr
 
 @Canonical
 class OrgApacheSlingScriptingJspJspScriptEngineFactoryInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheSlingScriptingJspJspScriptEngineFactoryProperties properties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheSlingScriptingJspJspScriptEngineFactoryProperties properties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

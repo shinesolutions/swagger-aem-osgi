@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeAemUpgradePrechecksHcImplReplicationAgents
 
 @Canonical
 class ComAdobeAemUpgradePrechecksHcImplReplicationAgentsDisabledHCInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeAemUpgradePrechecksHcImplReplicationAgentsDisabledHCProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeAemUpgradePrechecksHcImplReplicationAgentsDisabledHCProperties properties
 }

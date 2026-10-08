@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeGraniteWorkflowConsolePublishWorkflowPubli
 
 @Canonical
 class ComAdobeGraniteWorkflowConsolePublishWorkflowPublishEventServiceInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteWorkflowConsolePublishWorkflowPublishEventServiceProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteWorkflowConsolePublishWorkflowPublishEventServiceProperties properties
 }

@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyBoolean;
 
 @Canonical
 class OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrProperties {
-    ConfigNodePropertyBoolean protectExternalId = null
-
+    
+    ConfigNodePropertyBoolean protectExternalId
 }

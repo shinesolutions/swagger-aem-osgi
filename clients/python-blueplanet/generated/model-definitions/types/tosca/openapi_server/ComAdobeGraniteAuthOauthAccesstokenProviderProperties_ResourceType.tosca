@@ -1,0 +1,104 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeGraniteAuthOauthAccesstokenProviderProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeGraniteAuthOauthAccesstokenProviderProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComAdobeGraniteAuthOauthAccesstokenProviderProperties {
+    title = ComAdobeGraniteAuthOauthAccesstokenProviderProperties
+    description = ComAdobeGraniteAuthOauthAccesstokenProviderProperties
+    derivedFrom = Root
+    properties {
+        name {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        auth_token_provider_title {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        auth_token_provider_default_claims {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        auth_token_provider_endpoint {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        auth_access_token_request {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        auth_token_provider_keypair_alias {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        auth_token_provider_conn_timeout {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        auth_token_provider_so_timeout {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        auth_token_provider_client_id {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        auth_token_provider_scope {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        auth_token_provider_reuse_access_token {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        auth_token_provider_relaxed_ssl {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        token_request_customizer_type {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        auth_token_validator_type {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeGraniteAuthOauthAccesstokenProviderProperties {
+    title = ComAdobeGraniteAuthOauthAccesstokenProviderProperties
+    description = ComAdobeGraniteAuthOauthAccesstokenProviderProperties
+    implements = openapi_server.resourceTypes.ComAdobeGraniteAuthOauthAccesstokenProviderProperties
+
+  }
+}

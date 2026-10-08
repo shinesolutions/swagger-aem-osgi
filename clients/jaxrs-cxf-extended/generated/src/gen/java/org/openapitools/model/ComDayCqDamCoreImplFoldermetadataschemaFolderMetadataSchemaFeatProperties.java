@@ -1,0 +1,78 @@
+package org.openapitools.model;
+
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.model.ConfigNodePropertyBoolean;
+import javax.validation.constraints.*;
+import javax.validation.Valid;
+
+import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.annotation.JsonProperty;
+
+
+public class ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatProperties  {
+  
+  @ApiModelProperty(value = "")
+  @Valid
+  private ConfigNodePropertyBoolean isEnabled;
+ /**
+  * Get isEnabled
+  * @return isEnabled
+  */
+  @JsonProperty("isEnabled")
+  public ConfigNodePropertyBoolean getIsEnabled() {
+    return isEnabled;
+  }
+
+  /**
+   * Sets the <code>isEnabled</code> property.
+   */
+ public void setIsEnabled(ConfigNodePropertyBoolean isEnabled) {
+    this.isEnabled = isEnabled;
+  }
+
+  /**
+   * Sets the <code>isEnabled</code> property.
+   */
+  public ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatProperties isEnabled(ConfigNodePropertyBoolean isEnabled) {
+    this.isEnabled = isEnabled;
+    return this;
+  }
+
+
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatProperties comDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatProperties = (ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatProperties) o;
+    return Objects.equals(this.isEnabled, comDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatProperties.isEnabled);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(isEnabled);
+  }
+
+  @Override
+  public String toString() {
+    StringBuilder sb = new StringBuilder();
+    sb.append("class ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatProperties {\n");
+    
+    sb.append("    isEnabled: ").append(toIndentedString(isEnabled)).append("\n");
+    sb.append("}");
+    return sb.toString();
+  }
+
+  /**
+   * Convert the given object to string with each line indented by 4 spaces
+   * (except the first line).
+   */
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
+  }
+}
+

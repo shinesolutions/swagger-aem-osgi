@@ -2,61 +2,61 @@
 # OrgApacheFelixHttpProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**orgPeriodapachePeriodfelixPeriodhttpPeriodhost** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**orgPeriodapachePeriodfelixPeriodhttpPeriodenable** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**orgPeriodosgiPeriodservicePeriodhttpPeriodport** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**orgPeriodapachePeriodfelixPeriodhttpPeriodtimeout** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**orgPeriodapachePeriodfelixPeriodhttpsPeriodenable** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**orgPeriodosgiPeriodservicePeriodhttpPeriodportPeriodsecure** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**orgPeriodapachePeriodfelixPeriodhttpsPeriodkeystore** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**orgPeriodapachePeriodfelixPeriodhttpsPeriodkeystorePeriodpassword** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**orgPeriodapachePeriodfelixPeriodhttpsPeriodkeystorePeriodkeyPeriodpassword** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**orgPeriodapachePeriodfelixPeriodhttpsPeriodtruststore** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**orgPeriodapachePeriodfelixPeriodhttpsPeriodtruststorePeriodpassword** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**orgPeriodapachePeriodfelixPeriodhttpsPeriodclientcertificate** | [**ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md) |  |  [optional]
-**orgPeriodapachePeriodfelixPeriodhttpPeriodcontextUnderscorepath** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**orgPeriodapachePeriodfelixPeriodhttpPeriodmbeans** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**orgPeriodapachePeriodfelixPeriodhttpPeriodsessionPeriodtimeout** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**orgPeriodapachePeriodfelixPeriodhttpPeriodjettyPeriodthreadpoolPeriodmax** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**orgPeriodapachePeriodfelixPeriodhttpPeriodjettyPeriodacceptors** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**orgPeriodapachePeriodfelixPeriodhttpPeriodjettyPeriodselectors** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**orgPeriodapachePeriodfelixPeriodhttpPeriodjettyPeriodheaderBufferSize** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**orgPeriodapachePeriodfelixPeriodhttpPeriodjettyPeriodrequestBufferSize** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**orgPeriodapachePeriodfelixPeriodhttpPeriodjettyPeriodresponseBufferSize** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**orgPeriodapachePeriodfelixPeriodhttpPeriodjettyPeriodmaxFormSize** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**orgPeriodapachePeriodfelixPeriodhttpPeriodpathUnderscoreexclusions** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**orgPeriodapachePeriodfelixPeriodhttpsPeriodjettyPeriodciphersuitesPeriodexcluded** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**orgPeriodapachePeriodfelixPeriodhttpsPeriodjettyPeriodciphersuitesPeriodincluded** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**orgPeriodapachePeriodfelixPeriodhttpPeriodjettyPeriodsendServerHeader** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**orgPeriodapachePeriodfelixPeriodhttpsPeriodjettyPeriodprotocolsPeriodincluded** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**orgPeriodapachePeriodfelixPeriodhttpsPeriodjettyPeriodprotocolsPeriodexcluded** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**orgPeriodapachePeriodfelixPeriodproxyPeriodloadPeriodbalancerPeriodconnectionPeriodenable** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**orgPeriodapachePeriodfelixPeriodhttpsPeriodjettyPeriodrenegotiateAllowed** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**orgPeriodapachePeriodfelixPeriodhttpsPeriodjettyPeriodsessionPeriodcookiePeriodhttpOnly** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**orgPeriodapachePeriodfelixPeriodhttpsPeriodjettyPeriodsessionPeriodcookiePeriodsecure** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**orgPeriodeclipsePeriodjettyPeriodservletPeriodSessionIdPathParameterName** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**orgPeriodeclipsePeriodjettyPeriodservletPeriodCheckingRemoteSessionIdEncoding** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**orgPeriodeclipsePeriodjettyPeriodservletPeriodSessionCookie** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**orgPeriodeclipsePeriodjettyPeriodservletPeriodSessionDomain** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**orgPeriodeclipsePeriodjettyPeriodservletPeriodSessionPath** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**orgPeriodeclipsePeriodjettyPeriodservletPeriodMaxAge** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**orgPeriodapachePeriodfelixPeriodhttpPeriodname** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**orgPeriodapachePeriodfelixPeriodjettyPeriodgziphandlerPeriodenable** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**orgPeriodapachePeriodfelixPeriodjettyPeriodgzipPeriodminGzipSize** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**orgPeriodapachePeriodfelixPeriodjettyPeriodgzipPeriodcompressionLevel** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**orgPeriodapachePeriodfelixPeriodjettyPeriodgzipPeriodinflateBufferSize** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**orgPeriodapachePeriodfelixPeriodjettyPeriodgzipPeriodsyncFlush** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**orgPeriodapachePeriodfelixPeriodjettyPeriodgzipPeriodexcludedUserAgents** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**orgPeriodapachePeriodfelixPeriodjettyPeriodgzipPeriodincludedMethods** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**orgPeriodapachePeriodfelixPeriodjettyPeriodgzipPeriodexcludedMethods** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**orgPeriodapachePeriodfelixPeriodjettyPeriodgzipPeriodincludedPaths** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**orgPeriodapachePeriodfelixPeriodjettyPeriodgzipPeriodexcludedPaths** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**orgPeriodapachePeriodfelixPeriodjettyPeriodgzipPeriodincludedMimeTypes** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**orgPeriodapachePeriodfelixPeriodjettyPeriodgzipPeriodexcludedMimeTypes** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**orgPeriodapachePeriodfelixPeriodhttpPeriodsessionPeriodinvalidate** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**orgPeriodapachePeriodfelixPeriodhttpPeriodsessionPerioduniqueid** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **orgApacheFelixHttpHost** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **orgApacheFelixHttpEnable** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **orgOsgiServiceHttpPort** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **orgApacheFelixHttpTimeout** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **orgApacheFelixHttpsEnable** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **orgOsgiServiceHttpPortSecure** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **orgApacheFelixHttpsKeystore** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **orgApacheFelixHttpsKeystorePassword** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **orgApacheFelixHttpsKeystoreKeyPassword** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **orgApacheFelixHttpsTruststore** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **orgApacheFelixHttpsTruststorePassword** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **orgApacheFelixHttpsClientcertificate** | [**ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md) |  |  [optional] |
+| **orgApacheFelixHttpContextPath** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **orgApacheFelixHttpMbeans** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **orgApacheFelixHttpSessionTimeout** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **orgApacheFelixHttpJettyThreadpoolMax** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **orgApacheFelixHttpJettyAcceptors** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **orgApacheFelixHttpJettySelectors** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **orgApacheFelixHttpJettyHeaderBufferSize** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **orgApacheFelixHttpJettyRequestBufferSize** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **orgApacheFelixHttpJettyResponseBufferSize** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **orgApacheFelixHttpJettyMaxFormSize** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **orgApacheFelixHttpPathExclusions** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **orgApacheFelixHttpsJettyCiphersuitesExcluded** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **orgApacheFelixHttpsJettyCiphersuitesIncluded** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **orgApacheFelixHttpJettySendServerHeader** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **orgApacheFelixHttpsJettyProtocolsIncluded** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **orgApacheFelixHttpsJettyProtocolsExcluded** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **orgApacheFelixProxyLoadBalancerConnectionEnable** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **orgApacheFelixHttpsJettyRenegotiateAllowed** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **orgApacheFelixHttpsJettySessionCookieHttpOnly** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **orgApacheFelixHttpsJettySessionCookieSecure** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **orgEclipseJettyServletSessionIdPathParameterName** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **orgEclipseJettyServletCheckingRemoteSessionIdEncoding** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **orgEclipseJettyServletSessionCookie** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **orgEclipseJettyServletSessionDomain** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **orgEclipseJettyServletSessionPath** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **orgEclipseJettyServletMaxAge** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **orgApacheFelixHttpName** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **orgApacheFelixJettyGziphandlerEnable** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **orgApacheFelixJettyGzipMinGzipSize** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **orgApacheFelixJettyGzipCompressionLevel** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **orgApacheFelixJettyGzipInflateBufferSize** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **orgApacheFelixJettyGzipSyncFlush** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **orgApacheFelixJettyGzipExcludedUserAgents** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **orgApacheFelixJettyGzipIncludedMethods** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **orgApacheFelixJettyGzipExcludedMethods** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **orgApacheFelixJettyGzipIncludedPaths** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **orgApacheFelixJettyGzipExcludedPaths** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **orgApacheFelixJettyGzipIncludedMimeTypes** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **orgApacheFelixJettyGzipExcludedMimeTypes** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **orgApacheFelixHttpSessionInvalidate** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **orgApacheFelixHttpSessionUniqueid** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
 
 
 

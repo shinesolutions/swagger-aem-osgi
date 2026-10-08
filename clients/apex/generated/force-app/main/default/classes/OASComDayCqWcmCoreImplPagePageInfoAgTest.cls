@@ -72,8 +72,8 @@ private class OASComDayCqWcmCoreImplPagePageInfoAgTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqWcmCoreImplPagePageInfoAg comDayCqWcmCoreImplPagePageInfoAggregatorImplProperties = new OASComDayCqWcmCoreImplPagePageInfoAg();
-        Map<String, String> propertyMappings = comDayCqWcmCoreImplPagePageInfoAggregatorImplProperties.getPropertyMappings();
-        System.assertEquals('pageInfoProviderPropertyRegexDefault', propertyMappings.get('page.info.provider.property.regex.default'));
-        System.assertEquals('pageInfoProviderPropertyName', propertyMappings.get('page.info.provider.property.name'));
+        Map<String, String> x-property-mappings = comDayCqWcmCoreImplPagePageInfoAggregatorImplProperties.getx-property-mappings();
+        System.assertEquals('pageInfoProviderPropertyRegexDefault', x-property-mappings.get('page.info.provider.property.regex.default'));
+        System.assertEquals('pageInfoProviderPropertyName', x-property-mappings.get('page.info.provider.property.name'));
     }
 }

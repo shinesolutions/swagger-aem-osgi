@@ -10,46 +10,46 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties {
-    ConfigNodePropertyArray resourceResolverSearchpath = null
-
-    ConfigNodePropertyBoolean resourceResolverManglenamespaces = null
-
-    ConfigNodePropertyBoolean resourceResolverAllowDirect = null
-
-    ConfigNodePropertyArray resourceResolverRequiredProviders = null
-
-    ConfigNodePropertyArray resourceResolverRequiredProvidernames = null
-
-    ConfigNodePropertyArray resourceResolverVirtual = null
-
-    ConfigNodePropertyArray resourceResolverMapping = null
-
-    ConfigNodePropertyString resourceResolverMapLocation = null
-
-    ConfigNodePropertyArray resourceResolverMapObservation = null
-
-    ConfigNodePropertyInteger resourceResolverDefaultVanityRedirectStatus = null
-
-    ConfigNodePropertyBoolean resourceResolverEnableVanitypath = null
-
-    ConfigNodePropertyInteger resourceResolverVanitypathMaxEntries = null
-
-    ConfigNodePropertyBoolean resourceResolverVanitypathMaxEntriesStartup = null
-
-    ConfigNodePropertyInteger resourceResolverVanitypathBloomfilterMaxBytes = null
-
-    ConfigNodePropertyBoolean resourceResolverOptimizeAliasResolution = null
-
-    ConfigNodePropertyArray resourceResolverVanitypathWhitelist = null
-
-    ConfigNodePropertyArray resourceResolverVanitypathBlacklist = null
-
-    ConfigNodePropertyBoolean resourceResolverVanityPrecedence = null
-
-    ConfigNodePropertyBoolean resourceResolverProviderhandlingParanoid = null
-
-    ConfigNodePropertyBoolean resourceResolverLogClosing = null
-
-    ConfigNodePropertyBoolean resourceResolverLogUnclosed = null
-
+    
+    ConfigNodePropertyArray resourceResolverSearchpath
+    
+    ConfigNodePropertyBoolean resourceResolverManglenamespaces
+    
+    ConfigNodePropertyBoolean resourceResolverAllowDirect
+    
+    ConfigNodePropertyArray resourceResolverRequiredProviders
+    
+    ConfigNodePropertyArray resourceResolverRequiredProvidernames
+    
+    ConfigNodePropertyArray resourceResolverVirtual
+    
+    ConfigNodePropertyArray resourceResolverMapping
+    
+    ConfigNodePropertyString resourceResolverMapLocation
+    
+    ConfigNodePropertyArray resourceResolverMapObservation
+    
+    ConfigNodePropertyInteger resourceResolverDefaultVanityRedirectStatus
+    
+    ConfigNodePropertyBoolean resourceResolverEnableVanitypath
+    
+    ConfigNodePropertyInteger resourceResolverVanitypathMaxEntries
+    
+    ConfigNodePropertyBoolean resourceResolverVanitypathMaxEntriesStartup
+    
+    ConfigNodePropertyInteger resourceResolverVanitypathBloomfilterMaxBytes
+    
+    ConfigNodePropertyBoolean resourceResolverOptimizeAliasResolution
+    
+    ConfigNodePropertyArray resourceResolverVanitypathWhitelist
+    
+    ConfigNodePropertyArray resourceResolverVanitypathBlacklist
+    
+    ConfigNodePropertyBoolean resourceResolverVanityPrecedence
+    
+    ConfigNodePropertyBoolean resourceResolverProviderhandlingParanoid
+    
+    ConfigNodePropertyBoolean resourceResolverLogClosing
+    
+    ConfigNodePropertyBoolean resourceResolverLogUnclosed
 }

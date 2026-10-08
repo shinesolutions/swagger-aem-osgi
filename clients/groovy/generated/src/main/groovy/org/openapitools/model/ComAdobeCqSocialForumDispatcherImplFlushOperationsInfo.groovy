@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqSocialForumDispatcherImplFlushOperations
 
 @Canonical
 class ComAdobeCqSocialForumDispatcherImplFlushOperationsInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqSocialForumDispatcherImplFlushOperationsProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqSocialForumDispatcherImplFlushOperationsProperties properties
 }

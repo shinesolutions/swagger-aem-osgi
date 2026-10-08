@@ -72,8 +72,8 @@ private class OASComDayCqDamScene7ImplScene7DamChaTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqDamScene7ImplScene7DamCha comDayCqDamScene7ImplScene7DamChangeEventListenerProperties = new OASComDayCqDamScene7ImplScene7DamCha();
-        Map<String, String> propertyMappings = comDayCqDamScene7ImplScene7DamChangeEventListenerProperties.getPropertyMappings();
-        System.assertEquals('cqDamScene7DamchangeeventlistenerEnabled', propertyMappings.get('cq.dam.scene7.damchangeeventlistener.enabled'));
-        System.assertEquals('cqDamScene7DamchangeeventlistenerObservedPaths', propertyMappings.get('cq.dam.scene7.damchangeeventlistener.observed.paths'));
+        Map<String, String> x-property-mappings = comDayCqDamScene7ImplScene7DamChangeEventListenerProperties.getx-property-mappings();
+        System.assertEquals('cqDamScene7DamchangeeventlistenerEnabled', x-property-mappings.get('cq.dam.scene7.damchangeeventlistener.enabled'));
+        System.assertEquals('cqDamScene7DamchangeeventlistenerObservedPaths', x-property-mappings.get('cq.dam.scene7.damchangeeventlistener.observed.paths'));
     }
 }

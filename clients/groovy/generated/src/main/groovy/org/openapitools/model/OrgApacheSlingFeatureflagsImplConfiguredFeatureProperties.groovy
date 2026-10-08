@@ -8,10 +8,10 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class OrgApacheSlingFeatureflagsImplConfiguredFeatureProperties {
-    ConfigNodePropertyString name = null
-
-    ConfigNodePropertyString description = null
-
-    ConfigNodePropertyBoolean enabled = null
-
+    
+    ConfigNodePropertyString name
+    
+    ConfigNodePropertyString description
+    
+    ConfigNodePropertyBoolean enabled
 }

@@ -2,9 +2,9 @@
 # AnalyticsComponentQueryCacheServiceProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**cqPeriodanalyticsPeriodcomponentPeriodqueryPeriodcachePeriodsize** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **cqAnalyticsComponentQueryCacheSize** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
 
 
 

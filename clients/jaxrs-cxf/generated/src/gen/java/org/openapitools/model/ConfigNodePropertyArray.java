@@ -1,57 +1,60 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
 import io.swagger.annotations.ApiModelProperty;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlType;
-import javax.xml.bind.annotation.XmlEnum;
-import javax.xml.bind.annotation.XmlEnumValue;
+import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
 
 public class ConfigNodePropertyArray  {
   
+ /**
+  * property name
+  */
   @ApiModelProperty(value = "property name")
- /**
-   * property name
-  **/
-  private String name = null;
 
+  private String name;
+
+ /**
+  * True if optional
+  */
   @ApiModelProperty(value = "True if optional")
- /**
-   * True if optional
-  **/
-  private Boolean optional = null;
 
+  private Boolean optional;
+
+ /**
+  * True if property is set
+  */
   @ApiModelProperty(value = "True if property is set")
- /**
-   * True if property is set
-  **/
-  private Boolean isSet = null;
 
+  private Boolean isSet;
+
+ /**
+  * Property type, 1=String, 2=Long, 3=Integer, 7=Float, 11=Boolean, 12=Secrets(String)
+  */
   @ApiModelProperty(value = "Property type, 1=String, 2=Long, 3=Integer, 7=Float, 11=Boolean, 12=Secrets(String)")
- /**
-   * Property type, 1=String, 2=Long, 3=Integer, 7=Float, 11=Boolean, 12=Secrets(String)
-  **/
-  private Integer type = null;
 
+  private Integer type;
+
+ /**
+  * Property value
+  */
   @ApiModelProperty(value = "Property value")
- /**
-   * Property value
-  **/
-  private List<String> values = null;
 
-  @ApiModelProperty(value = "Property description")
+  private List<String> values = new ArrayList<>();
+
  /**
-   * Property description
-  **/
-  private String description = null;
+  * Property description
+  */
+  @ApiModelProperty(value = "Property description")
+
+  private String description;
  /**
    * property name
    * @return name
@@ -165,6 +168,27 @@ public class ConfigNodePropertyArray  {
     return this;
   }
 
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    ConfigNodePropertyArray configNodePropertyArray = (ConfigNodePropertyArray) o;
+    return Objects.equals(this.name, configNodePropertyArray.name) &&
+        Objects.equals(this.optional, configNodePropertyArray.optional) &&
+        Objects.equals(this.isSet, configNodePropertyArray.isSet) &&
+        Objects.equals(this.type, configNodePropertyArray.type) &&
+        Objects.equals(this.values, configNodePropertyArray.values) &&
+        Objects.equals(this.description, configNodePropertyArray.description);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(name, optional, isSet, type, values, description);
+  }
 
   @Override
   public String toString() {
@@ -185,11 +209,8 @@ public class ConfigNodePropertyArray  {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private static String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

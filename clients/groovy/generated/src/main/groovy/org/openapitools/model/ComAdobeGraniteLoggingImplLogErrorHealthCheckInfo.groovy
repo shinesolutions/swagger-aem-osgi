@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeGraniteLoggingImplLogErrorHealthCheckPrope
 
 @Canonical
 class ComAdobeGraniteLoggingImplLogErrorHealthCheckInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteLoggingImplLogErrorHealthCheckProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteLoggingImplLogErrorHealthCheckProperties properties
 }

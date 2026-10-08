@@ -1,0 +1,1 @@
+resource.whitelist,resource.blacklist,propertylist,$location,apply,sling.servlet.selectors,sling.servlet.resourceTypes,delete,action,post

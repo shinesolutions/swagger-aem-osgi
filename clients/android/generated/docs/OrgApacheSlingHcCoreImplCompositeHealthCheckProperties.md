@@ -1,7 +1,9 @@
 
+
 # OrgApacheSlingHcCoreImplCompositeHealthCheckProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **hcName** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
@@ -9,6 +11,7 @@ Name | Type | Description | Notes
 **hcMbeanName** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
 **filterTags** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
 **filterCombineTagsWithOr** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
+
 
 
 

@@ -1,0 +1,64 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyDropDown = openapi_server.resourceTypes.ConfigNodePropertyDropDown
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryProperties {
+    title = ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryProperties
+    description = ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryProperties
+    derivedFrom = Root
+    properties {
+        com_adobe_granite_jetty_ssl_port {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        com_adobe_granite_jetty_ssl_keystore_user {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_granite_jetty_ssl_keystore_password {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_granite_jetty_ssl_ciphersuites_excluded {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        com_adobe_granite_jetty_ssl_ciphersuites_included {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        com_adobe_granite_jetty_ssl_client_certificate {
+          type = ConfigNodePropertyDropDown
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryProperties {
+    title = ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryProperties
+    description = ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryProperties
+    implements = openapi_server.resourceTypes.ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryProperties
+
+  }
+}

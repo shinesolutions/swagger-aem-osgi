@@ -7,12 +7,12 @@ import org.openapitools.model.OrgApacheSlingCaconfigImplOverrideOsgiConfiguratio
 
 @Canonical
 class OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviProperties properties
 }

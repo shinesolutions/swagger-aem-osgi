@@ -733,10 +733,13 @@ import java.util.List;
 
 import java.io.InputStream;
 
+import javax.validation.constraints.*;
+import javax.validation.Valid;
+
 import javax.ws.rs.core.Response;
 import javax.ws.rs.core.SecurityContext;
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSCXFCDIServerCodegen", date = "2019-08-05T00:58:05.920Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSCXFCDIServerCodegen", date = "2026-10-07T12:54:05.120862681Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public interface SystemApiService {
       public Response adaptiveFormAndInteractiveCommunicationWebChannelConfiguration(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean showPlaceholder, Integer maximumCacheEntries, String afScriptingCompatversion, Boolean makeFileNameUnique, Boolean generatingCompliantData, SecurityContext securityContext);
       public Response adaptiveFormAndInteractiveCommunicationWebChannelThemeConfigur(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> fontList, SecurityContext securityContext);
@@ -1098,7 +1101,7 @@ public interface SystemApiService {
       public Response comDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfig(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String operation, Boolean emailEnabled, SecurityContext securityContext);
       public Response comDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfig(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String operation, String operationIcon, String topicName, Boolean emailEnabled, SecurityContext securityContext);
       public Response comDayCqDamCoreImplLightboxLightboxServlet(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String slingServletPaths, List<String> slingServletMethods, Boolean cqDamEnableAnonymous, SecurityContext securityContext);
-      public Response comDayCqDamCoreImplMetadataEditorSelectComponentHandler(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> graniteColonData, SecurityContext securityContext);
+      public Response comDayCqDamCoreImplMetadataEditorSelectComponentHandler(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> graniteData, SecurityContext securityContext);
       public Response comDayCqDamCoreImplMimeTypeAssetUploadRestrictionHelper(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean cqDamAllowAllMime, List<String> cqDamAllowedAssetMimes, SecurityContext securityContext);
       public Response comDayCqDamCoreImplMimeTypeDamMimeTypeServiceImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean cqDamDetectAssetMimeFromContent, SecurityContext securityContext);
       public Response comDayCqDamCoreImplMissingMetadataNotificationJob(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean cqDamMissingmetadataNotificationSchedulerIstimebased, String cqDamMissingmetadataNotificationSchedulerTimebasedRule, Integer cqDamMissingmetadataNotificationSchedulerPeriodRule, String cqDamMissingmetadataNotificationRecipient, SecurityContext securityContext);
@@ -1114,7 +1117,7 @@ public interface SystemApiService {
       public Response comDayCqDamCoreImplServletBinaryProviderServlet(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> slingServletResourceTypes, List<String> slingServletMethods, Boolean cqDamDrmEnable, SecurityContext securityContext);
       public Response comDayCqDamCoreImplServletCollectionServlet(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> cqDamBatchCollectionProperties, Integer cqDamBatchCollectionMaxcollections, SecurityContext securityContext);
       public Response comDayCqDamCoreImplServletCollectionsServlet(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> cqDamBatchCollectionsProperties, Integer cqDamBatchCollectionsLimit, SecurityContext securityContext);
-      public Response comDayCqDamCoreImplServletCompanionServlet(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String moreInfo, String slashMntSlashOverlaySlashDamSlashGuiSlashContentSlashAssetsSlashMoreinfoHtmlSlash$LeftCurlyBracketPathRightCurlyBracket, SecurityContext securityContext);
+      public Response comDayCqDamCoreImplServletCompanionServlet(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String moreInfo, String mntOverlayDamGuiContentAssetsMoreinfoHtml$LeftCurlyBracketPathRightCurlyBracket, SecurityContext securityContext);
       public Response comDayCqDamCoreImplServletCreateAssetServlet(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean detectDuplicate, SecurityContext securityContext);
       public Response comDayCqDamCoreImplServletDamContentDispositionFilter(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> cqMimeTypeBlacklist, Boolean cqDamEmptyMime, SecurityContext securityContext);
       public Response comDayCqDamCoreImplServletGuidLookupFilter(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean cqDamCoreGuidlookupfilterEnabled, SecurityContext securityContext);

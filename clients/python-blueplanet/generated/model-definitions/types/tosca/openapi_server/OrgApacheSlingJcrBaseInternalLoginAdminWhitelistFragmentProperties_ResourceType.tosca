@@ -1,0 +1,42 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingJcrBaseInternalLoginAdminWhitelistFragmentProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingJcrBaseInternalLoginAdminWhitelistFragmentProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  OrgApacheSlingJcrBaseInternalLoginAdminWhitelistFragmentProperties {
+    title = OrgApacheSlingJcrBaseInternalLoginAdminWhitelistFragmentProperties
+    description = OrgApacheSlingJcrBaseInternalLoginAdminWhitelistFragmentProperties
+    derivedFrom = Root
+    properties {
+        whitelist_name {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        whitelist_bundles {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingJcrBaseInternalLoginAdminWhitelistFragmentProperties {
+    title = OrgApacheSlingJcrBaseInternalLoginAdminWhitelistFragmentProperties
+    description = OrgApacheSlingJcrBaseInternalLoginAdminWhitelistFragmentProperties
+    implements = openapi_server.resourceTypes.OrgApacheSlingJcrBaseInternalLoginAdminWhitelistFragmentProperties
+
+  }
+}

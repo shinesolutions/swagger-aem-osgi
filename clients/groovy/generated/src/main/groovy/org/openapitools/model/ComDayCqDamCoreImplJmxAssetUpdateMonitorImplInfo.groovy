@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqDamCoreImplJmxAssetUpdateMonitorImplProper
 
 @Canonical
 class ComDayCqDamCoreImplJmxAssetUpdateMonitorImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqDamCoreImplJmxAssetUpdateMonitorImplProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqDamCoreImplJmxAssetUpdateMonitorImplProperties properties
 }

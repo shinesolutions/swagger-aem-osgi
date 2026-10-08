@@ -8,8 +8,8 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeGraniteCsrfImplCSRFServletProperties {
-    ConfigNodePropertyInteger csrfTokenExpiresIn = null
-
-    ConfigNodePropertyString slingAuthRequirements = null
-
+    
+    ConfigNodePropertyInteger csrfTokenExpiresIn
+    
+    ConfigNodePropertyString slingAuthRequirements
 }

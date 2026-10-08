@@ -10,24 +10,24 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class OrgApacheSlingCommonsLogLogManagerProperties {
-    ConfigNodePropertyDropDown orgApacheSlingCommonsLogLevel = null
-
-    ConfigNodePropertyString orgApacheSlingCommonsLogFile = null
-
-    ConfigNodePropertyInteger orgApacheSlingCommonsLogFileNumber = null
-
-    ConfigNodePropertyString orgApacheSlingCommonsLogFileSize = null
-
-    ConfigNodePropertyString orgApacheSlingCommonsLogPattern = null
-
-    ConfigNodePropertyString orgApacheSlingCommonsLogConfigurationFile = null
-
-    ConfigNodePropertyBoolean orgApacheSlingCommonsLogPackagingDataEnabled = null
-
-    ConfigNodePropertyInteger orgApacheSlingCommonsLogMaxCallerDataDepth = null
-
-    ConfigNodePropertyInteger orgApacheSlingCommonsLogMaxOldFileCountInDump = null
-
-    ConfigNodePropertyInteger orgApacheSlingCommonsLogNumOfLines = null
-
+    
+    ConfigNodePropertyDropDown orgApacheSlingCommonsLogLevel
+    
+    ConfigNodePropertyString orgApacheSlingCommonsLogFile
+    
+    ConfigNodePropertyInteger orgApacheSlingCommonsLogFileNumber
+    
+    ConfigNodePropertyString orgApacheSlingCommonsLogFileSize
+    
+    ConfigNodePropertyString orgApacheSlingCommonsLogPattern
+    
+    ConfigNodePropertyString orgApacheSlingCommonsLogConfigurationFile
+    
+    ConfigNodePropertyBoolean orgApacheSlingCommonsLogPackagingDataEnabled
+    
+    ConfigNodePropertyInteger orgApacheSlingCommonsLogMaxCallerDataDepth
+    
+    ConfigNodePropertyInteger orgApacheSlingCommonsLogMaxOldFileCountInDump
+    
+    ConfigNodePropertyInteger orgApacheSlingCommonsLogNumOfLines
 }

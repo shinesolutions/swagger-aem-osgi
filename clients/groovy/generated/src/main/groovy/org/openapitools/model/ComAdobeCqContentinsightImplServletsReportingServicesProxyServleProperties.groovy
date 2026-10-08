@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyArray;
 
 @Canonical
 class ComAdobeCqContentinsightImplServletsReportingServicesProxyServleProperties {
-    ConfigNodePropertyArray reportingservicesProxyWhitelist = null
-
+    
+    ConfigNodePropertyArray reportingservicesProxyWhitelist
 }

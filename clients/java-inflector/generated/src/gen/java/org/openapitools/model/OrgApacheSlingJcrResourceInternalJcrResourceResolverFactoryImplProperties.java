@@ -3,6 +3,7 @@ package org.openapitools.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
@@ -14,70 +15,70 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaInflectorServerCodegen", date = "2019-08-05T00:53:46.291Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaInflectorServerCodegen", date = "2026-10-07T12:53:12.340274163Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties   {
   @JsonProperty("resource.resolver.searchpath")
-  private ConfigNodePropertyArray resourceResolverSearchpath = null;
+  private ConfigNodePropertyArray resourceResolverSearchpath;
 
   @JsonProperty("resource.resolver.manglenamespaces")
-  private ConfigNodePropertyBoolean resourceResolverManglenamespaces = null;
+  private ConfigNodePropertyBoolean resourceResolverManglenamespaces;
 
   @JsonProperty("resource.resolver.allowDirect")
-  private ConfigNodePropertyBoolean resourceResolverAllowDirect = null;
+  private ConfigNodePropertyBoolean resourceResolverAllowDirect;
 
   @JsonProperty("resource.resolver.required.providers")
-  private ConfigNodePropertyArray resourceResolverRequiredProviders = null;
+  private ConfigNodePropertyArray resourceResolverRequiredProviders;
 
   @JsonProperty("resource.resolver.required.providernames")
-  private ConfigNodePropertyArray resourceResolverRequiredProvidernames = null;
+  private ConfigNodePropertyArray resourceResolverRequiredProvidernames;
 
   @JsonProperty("resource.resolver.virtual")
-  private ConfigNodePropertyArray resourceResolverVirtual = null;
+  private ConfigNodePropertyArray resourceResolverVirtual;
 
   @JsonProperty("resource.resolver.mapping")
-  private ConfigNodePropertyArray resourceResolverMapping = null;
+  private ConfigNodePropertyArray resourceResolverMapping;
 
   @JsonProperty("resource.resolver.map.location")
-  private ConfigNodePropertyString resourceResolverMapLocation = null;
+  private ConfigNodePropertyString resourceResolverMapLocation;
 
   @JsonProperty("resource.resolver.map.observation")
-  private ConfigNodePropertyArray resourceResolverMapObservation = null;
+  private ConfigNodePropertyArray resourceResolverMapObservation;
 
   @JsonProperty("resource.resolver.default.vanity.redirect.status")
-  private ConfigNodePropertyInteger resourceResolverDefaultVanityRedirectStatus = null;
+  private ConfigNodePropertyInteger resourceResolverDefaultVanityRedirectStatus;
 
   @JsonProperty("resource.resolver.enable.vanitypath")
-  private ConfigNodePropertyBoolean resourceResolverEnableVanitypath = null;
+  private ConfigNodePropertyBoolean resourceResolverEnableVanitypath;
 
   @JsonProperty("resource.resolver.vanitypath.maxEntries")
-  private ConfigNodePropertyInteger resourceResolverVanitypathMaxEntries = null;
+  private ConfigNodePropertyInteger resourceResolverVanitypathMaxEntries;
 
   @JsonProperty("resource.resolver.vanitypath.maxEntries.startup")
-  private ConfigNodePropertyBoolean resourceResolverVanitypathMaxEntriesStartup = null;
+  private ConfigNodePropertyBoolean resourceResolverVanitypathMaxEntriesStartup;
 
   @JsonProperty("resource.resolver.vanitypath.bloomfilter.maxBytes")
-  private ConfigNodePropertyInteger resourceResolverVanitypathBloomfilterMaxBytes = null;
+  private ConfigNodePropertyInteger resourceResolverVanitypathBloomfilterMaxBytes;
 
   @JsonProperty("resource.resolver.optimize.alias.resolution")
-  private ConfigNodePropertyBoolean resourceResolverOptimizeAliasResolution = null;
+  private ConfigNodePropertyBoolean resourceResolverOptimizeAliasResolution;
 
   @JsonProperty("resource.resolver.vanitypath.whitelist")
-  private ConfigNodePropertyArray resourceResolverVanitypathWhitelist = null;
+  private ConfigNodePropertyArray resourceResolverVanitypathWhitelist;
 
   @JsonProperty("resource.resolver.vanitypath.blacklist")
-  private ConfigNodePropertyArray resourceResolverVanitypathBlacklist = null;
+  private ConfigNodePropertyArray resourceResolverVanitypathBlacklist;
 
   @JsonProperty("resource.resolver.vanity.precedence")
-  private ConfigNodePropertyBoolean resourceResolverVanityPrecedence = null;
+  private ConfigNodePropertyBoolean resourceResolverVanityPrecedence;
 
   @JsonProperty("resource.resolver.providerhandling.paranoid")
-  private ConfigNodePropertyBoolean resourceResolverProviderhandlingParanoid = null;
+  private ConfigNodePropertyBoolean resourceResolverProviderhandlingParanoid;
 
   @JsonProperty("resource.resolver.log.closing")
-  private ConfigNodePropertyBoolean resourceResolverLogClosing = null;
+  private ConfigNodePropertyBoolean resourceResolverLogClosing;
 
   @JsonProperty("resource.resolver.log.unclosed")
-  private ConfigNodePropertyBoolean resourceResolverLogUnclosed = null;
+  private ConfigNodePropertyBoolean resourceResolverLogUnclosed;
 
   /**
    **/
@@ -438,7 +439,7 @@ public class OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProp
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -508,11 +509,8 @@ public class OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProp
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

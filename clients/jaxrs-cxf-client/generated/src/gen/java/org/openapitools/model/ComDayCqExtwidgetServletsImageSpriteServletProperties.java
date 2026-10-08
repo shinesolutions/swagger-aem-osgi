@@ -3,22 +3,19 @@ package org.openapitools.model;
 import org.openapitools.model.ConfigNodePropertyInteger;
 
 import io.swagger.annotations.ApiModelProperty;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlType;
-import javax.xml.bind.annotation.XmlEnum;
-import javax.xml.bind.annotation.XmlEnumValue;
+import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
 
 public class ComDayCqExtwidgetServletsImageSpriteServletProperties  {
   
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyInteger maxWidth = null;
+
+  private ConfigNodePropertyInteger maxWidth;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyInteger maxHeight = null;
+
+  private ConfigNodePropertyInteger maxHeight;
  /**
    * Get maxWidth
    * @return maxWidth
@@ -55,6 +52,23 @@ public class ComDayCqExtwidgetServletsImageSpriteServletProperties  {
     return this;
   }
 
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    ComDayCqExtwidgetServletsImageSpriteServletProperties comDayCqExtwidgetServletsImageSpriteServletProperties = (ComDayCqExtwidgetServletsImageSpriteServletProperties) o;
+    return Objects.equals(this.maxWidth, comDayCqExtwidgetServletsImageSpriteServletProperties.maxWidth) &&
+        Objects.equals(this.maxHeight, comDayCqExtwidgetServletsImageSpriteServletProperties.maxHeight);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(maxWidth, maxHeight);
+  }
 
   @Override
   public String toString() {
@@ -71,11 +85,8 @@ public class ComDayCqExtwidgetServletsImageSpriteServletProperties  {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private static String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

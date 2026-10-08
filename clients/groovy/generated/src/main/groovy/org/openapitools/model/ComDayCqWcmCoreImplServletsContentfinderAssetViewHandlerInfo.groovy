@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqWcmCoreImplServletsContentfinderAssetViewH
 
 @Canonical
 class ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerProperties properties
 }

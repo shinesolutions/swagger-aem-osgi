@@ -72,7 +72,7 @@ private class OASComAdobeGraniteAuthOauthImplDefauTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeGraniteAuthOauthImplDefau comAdobeGraniteAuthOauthImplDefaultTokenValidatorImplProperties = new OASComAdobeGraniteAuthOauthImplDefau();
-        Map<String, String> propertyMappings = comAdobeGraniteAuthOauthImplDefaultTokenValidatorImplProperties.getPropertyMappings();
-        System.assertEquals('authTokenValidatorType', propertyMappings.get('auth.token.validator.type'));
+        Map<String, String> x-property-mappings = comAdobeGraniteAuthOauthImplDefaultTokenValidatorImplProperties.getx-property-mappings();
+        System.assertEquals('authTokenValidatorType', x-property-mappings.get('auth.token.validator.type'));
     }
 }

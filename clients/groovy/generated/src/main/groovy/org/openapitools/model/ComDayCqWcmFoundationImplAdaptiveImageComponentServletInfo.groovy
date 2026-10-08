@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqWcmFoundationImplAdaptiveImageComponentSer
 
 @Canonical
 class ComDayCqWcmFoundationImplAdaptiveImageComponentServletInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqWcmFoundationImplAdaptiveImageComponentServletProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqWcmFoundationImplAdaptiveImageComponentServletProperties properties
 }

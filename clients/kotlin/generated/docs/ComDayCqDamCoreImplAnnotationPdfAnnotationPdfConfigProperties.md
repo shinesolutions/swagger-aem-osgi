@@ -2,24 +2,24 @@
 # ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**cqPerioddamPeriodconfigPeriodannotationPeriodpdfPerioddocumentPeriodwidth** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**cqPerioddamPeriodconfigPeriodannotationPeriodpdfPerioddocumentPeriodheight** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**cqPerioddamPeriodconfigPeriodannotationPeriodpdfPerioddocumentPeriodpaddingPeriodhorizontal** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**cqPerioddamPeriodconfigPeriodannotationPeriodpdfPerioddocumentPeriodpaddingPeriodvertical** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**cqPerioddamPeriodconfigPeriodannotationPeriodpdfPeriodfontPeriodsize** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**cqPerioddamPeriodconfigPeriodannotationPeriodpdfPeriodfontPeriodcolor** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**cqPerioddamPeriodconfigPeriodannotationPeriodpdfPeriodfontPeriodfamily** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**cqPerioddamPeriodconfigPeriodannotationPeriodpdfPeriodfontPeriodlight** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**cqPerioddamPeriodconfigPeriodannotationPeriodpdfPeriodmarginTextImage** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**cqPerioddamPeriodconfigPeriodannotationPeriodpdfPeriodminImageHeight** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**cqPerioddamPeriodconfigPeriodannotationPeriodpdfPeriodreviewStatusPeriodwidth** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**cqPerioddamPeriodconfigPeriodannotationPeriodpdfPeriodreviewStatusPeriodcolorPeriodapproved** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**cqPerioddamPeriodconfigPeriodannotationPeriodpdfPeriodreviewStatusPeriodcolorPeriodrejected** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**cqPerioddamPeriodconfigPeriodannotationPeriodpdfPeriodreviewStatusPeriodcolorPeriodchangesRequested** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**cqPerioddamPeriodconfigPeriodannotationPeriodpdfPeriodannotationMarkerPeriodwidth** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**cqPerioddamPeriodconfigPeriodannotationPeriodpdfPeriodassetPeriodminheight** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **cqDamConfigAnnotationPdfDocumentWidth** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **cqDamConfigAnnotationPdfDocumentHeight** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **cqDamConfigAnnotationPdfDocumentPaddingHorizontal** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **cqDamConfigAnnotationPdfDocumentPaddingVertical** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **cqDamConfigAnnotationPdfFontSize** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **cqDamConfigAnnotationPdfFontColor** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **cqDamConfigAnnotationPdfFontFamily** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **cqDamConfigAnnotationPdfFontLight** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **cqDamConfigAnnotationPdfMarginTextImage** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **cqDamConfigAnnotationPdfMinImageHeight** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **cqDamConfigAnnotationPdfReviewStatusWidth** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **cqDamConfigAnnotationPdfReviewStatusColorApproved** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **cqDamConfigAnnotationPdfReviewStatusColorRejected** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **cqDamConfigAnnotationPdfReviewStatusColorChangesRequested** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **cqDamConfigAnnotationPdfAnnotationMarkerWidth** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **cqDamConfigAnnotationPdfAssetMinheight** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
 
 
 

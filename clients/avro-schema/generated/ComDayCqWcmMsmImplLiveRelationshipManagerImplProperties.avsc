@@ -1,0 +1,15 @@
+{
+  "namespace": "model",
+  "type": "record",
+  "doc": "",
+  "name": "ComDayCqWcmMsmImplLiveRelationshipManagerImplProperties",
+  "fields": [
+    {
+      "name": "liverelationshipmgr.relationsconfig.default",
+      "type": ["null", "model.ConfigNodePropertyString"],
+      "doc": "",
+      "default": null
+    }
+  ]
+
+}

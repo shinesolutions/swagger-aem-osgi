@@ -7,16 +7,16 @@ import org.openapitools.model.ComAdobeCqSocialHandlebarsGuavaTemplateCacheImplPr
 
 @Canonical
 class ComAdobeCqSocialHandlebarsGuavaTemplateCacheImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqSocialHandlebarsGuavaTemplateCacheImplProperties properties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqSocialHandlebarsGuavaTemplateCacheImplProperties properties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

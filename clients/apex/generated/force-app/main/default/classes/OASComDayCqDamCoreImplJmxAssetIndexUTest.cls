@@ -72,15 +72,15 @@ private class OASComDayCqDamCoreImplJmxAssetIndexUTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqDamCoreImplJmxAssetIndexU comDayCqDamCoreImplJmxAssetIndexUpdateMonitorProperties = new OASComDayCqDamCoreImplJmxAssetIndexU();
-        Map<String, String> propertyMappings = comDayCqDamCoreImplJmxAssetIndexUpdateMonitorProperties.getPropertyMappings();
-        System.assertEquals('jmxObjectname', propertyMappings.get('jmx.objectname'));
-        System.assertEquals('propertyMeasureEnabled', propertyMappings.get('property.measure.enabled'));
-        System.assertEquals('propertyName', propertyMappings.get('property.name'));
-        System.assertEquals('propertyMaxWaitMs', propertyMappings.get('property.max.wait.ms'));
-        System.assertEquals('propertyMaxRate', propertyMappings.get('property.max.rate'));
-        System.assertEquals('fulltextMeasureEnabled', propertyMappings.get('fulltext.measure.enabled'));
-        System.assertEquals('fulltextName', propertyMappings.get('fulltext.name'));
-        System.assertEquals('fulltextMaxWaitMs', propertyMappings.get('fulltext.max.wait.ms'));
-        System.assertEquals('fulltextMaxRate', propertyMappings.get('fulltext.max.rate'));
+        Map<String, String> x-property-mappings = comDayCqDamCoreImplJmxAssetIndexUpdateMonitorProperties.getx-property-mappings();
+        System.assertEquals('jmxObjectname', x-property-mappings.get('jmx.objectname'));
+        System.assertEquals('propertyMeasureEnabled', x-property-mappings.get('property.measure.enabled'));
+        System.assertEquals('propertyName', x-property-mappings.get('property.name'));
+        System.assertEquals('propertyMaxWaitMs', x-property-mappings.get('property.max.wait.ms'));
+        System.assertEquals('propertyMaxRate', x-property-mappings.get('property.max.rate'));
+        System.assertEquals('fulltextMeasureEnabled', x-property-mappings.get('fulltext.measure.enabled'));
+        System.assertEquals('fulltextName', x-property-mappings.get('fulltext.name'));
+        System.assertEquals('fulltextMaxWaitMs', x-property-mappings.get('fulltext.max.wait.ms'));
+        System.assertEquals('fulltextMaxRate', x-property-mappings.get('fulltext.max.rate'));
     }
 }

@@ -1,0 +1,48 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingServletsPostImplHelperChunkCleanUpTaskProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingServletsPostImplHelperChunkCleanUpTaskProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  OrgApacheSlingServletsPostImplHelperChunkCleanUpTaskProperties {
+    title = OrgApacheSlingServletsPostImplHelperChunkCleanUpTaskProperties
+    description = OrgApacheSlingServletsPostImplHelperChunkCleanUpTaskProperties
+    derivedFrom = Root
+    properties {
+        scheduler_expression {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        scheduler_concurrent {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        chunk_cleanup_age {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingServletsPostImplHelperChunkCleanUpTaskProperties {
+    title = OrgApacheSlingServletsPostImplHelperChunkCleanUpTaskProperties
+    description = OrgApacheSlingServletsPostImplHelperChunkCleanUpTaskProperties
+    implements = openapi_server.resourceTypes.OrgApacheSlingServletsPostImplHelperChunkCleanUpTaskProperties
+
+  }
+}

@@ -3,6 +3,7 @@ package org.openapitools.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyBoolean;
@@ -11,40 +12,40 @@ import org.openapitools.model.ConfigNodePropertyString;
 /**
  * OrgApacheSlingScriptingJspJspScriptEngineFactoryProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaMSF4JServerCodegen", date = "2019-08-05T00:54:29.762Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaMSF4JServerCodegen", date = "2026-10-07T12:53:29.980508721Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingScriptingJspJspScriptEngineFactoryProperties   {
   @JsonProperty("jasper.compilerTargetVM")
-  private ConfigNodePropertyString jasperCompilerTargetVM = null;
+  private ConfigNodePropertyString jasperCompilerTargetVM;
 
   @JsonProperty("jasper.compilerSourceVM")
-  private ConfigNodePropertyString jasperCompilerSourceVM = null;
+  private ConfigNodePropertyString jasperCompilerSourceVM;
 
   @JsonProperty("jasper.classdebuginfo")
-  private ConfigNodePropertyBoolean jasperClassdebuginfo = null;
+  private ConfigNodePropertyBoolean jasperClassdebuginfo;
 
   @JsonProperty("jasper.enablePooling")
-  private ConfigNodePropertyBoolean jasperEnablePooling = null;
+  private ConfigNodePropertyBoolean jasperEnablePooling;
 
   @JsonProperty("jasper.ieClassId")
-  private ConfigNodePropertyString jasperIeClassId = null;
+  private ConfigNodePropertyString jasperIeClassId;
 
   @JsonProperty("jasper.genStringAsCharArray")
-  private ConfigNodePropertyBoolean jasperGenStringAsCharArray = null;
+  private ConfigNodePropertyBoolean jasperGenStringAsCharArray;
 
   @JsonProperty("jasper.keepgenerated")
-  private ConfigNodePropertyBoolean jasperKeepgenerated = null;
+  private ConfigNodePropertyBoolean jasperKeepgenerated;
 
   @JsonProperty("jasper.mappedfile")
-  private ConfigNodePropertyBoolean jasperMappedfile = null;
+  private ConfigNodePropertyBoolean jasperMappedfile;
 
   @JsonProperty("jasper.trimSpaces")
-  private ConfigNodePropertyBoolean jasperTrimSpaces = null;
+  private ConfigNodePropertyBoolean jasperTrimSpaces;
 
   @JsonProperty("jasper.displaySourceFragments")
-  private ConfigNodePropertyBoolean jasperDisplaySourceFragments = null;
+  private ConfigNodePropertyBoolean jasperDisplaySourceFragments;
 
   @JsonProperty("default.is.session")
-  private ConfigNodePropertyBoolean defaultIsSession = null;
+  private ConfigNodePropertyBoolean defaultIsSession;
 
   public OrgApacheSlingScriptingJspJspScriptEngineFactoryProperties jasperCompilerTargetVM(ConfigNodePropertyString jasperCompilerTargetVM) {
     this.jasperCompilerTargetVM = jasperCompilerTargetVM;
@@ -246,7 +247,7 @@ public class OrgApacheSlingScriptingJspJspScriptEngineFactoryProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -296,11 +297,8 @@ public class OrgApacheSlingScriptingJspJspScriptEngineFactoryProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class ComAdobeCqDamDmProcessImagePTiffManagerImplProperties {
-    ConfigNodePropertyInteger maxMemory = null
-
+    
+    ConfigNodePropertyInteger maxMemory
 }

@@ -1,0 +1,15 @@
+{
+  "namespace": "model",
+  "type": "record",
+  "doc": "",
+  "name": "ComAdobeGraniteHttpcacheImplOuterCacheFilterProperties",
+  "fields": [
+    {
+      "name": "com.adobe.granite.httpcache.url.paths",
+      "type": ["null", "model.ConfigNodePropertyArray"],
+      "doc": "",
+      "default": null
+    }
+  ]
+
+}

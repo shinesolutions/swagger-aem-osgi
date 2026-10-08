@@ -1,0 +1,15 @@
+{
+  "namespace": "model",
+  "type": "record",
+  "doc": "",
+  "name": "ComDayCqDamPerformanceInternalAssetPerformanceDataHandlerImplProperties",
+  "fields": [
+    {
+      "name": "batch.commit.size",
+      "type": ["null", "model.ConfigNodePropertyInteger"],
+      "doc": "",
+      "default": null
+    }
+  ]
+
+}

@@ -4,36 +4,28 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2019-08-05T01:00:05.540Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2026-10-07T12:54:26.576036107Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqPollingImporterImplManagedPollConfigImplProperties   {
   
-
-  private ConfigNodePropertyString id = null;
-
-  private ConfigNodePropertyBoolean enabled = null;
-
-  private ConfigNodePropertyBoolean reference = null;
-
-  private ConfigNodePropertyInteger interval = null;
-
-  private ConfigNodePropertyString expression = null;
-
-  private ConfigNodePropertyString source = null;
-
-  private ConfigNodePropertyString target = null;
-
-  private ConfigNodePropertyString login = null;
-
-  private ConfigNodePropertyString password = null;
+  private ConfigNodePropertyString id;
+  private ConfigNodePropertyBoolean enabled;
+  private ConfigNodePropertyBoolean reference;
+  private ConfigNodePropertyInteger interval;
+  private ConfigNodePropertyString expression;
+  private ConfigNodePropertyString source;
+  private ConfigNodePropertyString target;
+  private ConfigNodePropertyString login;
+  private ConfigNodePropertyString password;
 
   /**
    **/
@@ -153,15 +145,15 @@ public class ComDayCqPollingImporterImplManagedPollConfigImplProperties   {
       return false;
     }
     ComDayCqPollingImporterImplManagedPollConfigImplProperties comDayCqPollingImporterImplManagedPollConfigImplProperties = (ComDayCqPollingImporterImplManagedPollConfigImplProperties) o;
-    return Objects.equals(id, comDayCqPollingImporterImplManagedPollConfigImplProperties.id) &&
-        Objects.equals(enabled, comDayCqPollingImporterImplManagedPollConfigImplProperties.enabled) &&
-        Objects.equals(reference, comDayCqPollingImporterImplManagedPollConfigImplProperties.reference) &&
-        Objects.equals(interval, comDayCqPollingImporterImplManagedPollConfigImplProperties.interval) &&
-        Objects.equals(expression, comDayCqPollingImporterImplManagedPollConfigImplProperties.expression) &&
-        Objects.equals(source, comDayCqPollingImporterImplManagedPollConfigImplProperties.source) &&
-        Objects.equals(target, comDayCqPollingImporterImplManagedPollConfigImplProperties.target) &&
-        Objects.equals(login, comDayCqPollingImporterImplManagedPollConfigImplProperties.login) &&
-        Objects.equals(password, comDayCqPollingImporterImplManagedPollConfigImplProperties.password);
+    return Objects.equals(this.id, comDayCqPollingImporterImplManagedPollConfigImplProperties.id) &&
+        Objects.equals(this.enabled, comDayCqPollingImporterImplManagedPollConfigImplProperties.enabled) &&
+        Objects.equals(this.reference, comDayCqPollingImporterImplManagedPollConfigImplProperties.reference) &&
+        Objects.equals(this.interval, comDayCqPollingImporterImplManagedPollConfigImplProperties.interval) &&
+        Objects.equals(this.expression, comDayCqPollingImporterImplManagedPollConfigImplProperties.expression) &&
+        Objects.equals(this.source, comDayCqPollingImporterImplManagedPollConfigImplProperties.source) &&
+        Objects.equals(this.target, comDayCqPollingImporterImplManagedPollConfigImplProperties.target) &&
+        Objects.equals(this.login, comDayCqPollingImporterImplManagedPollConfigImplProperties.login) &&
+        Objects.equals(this.password, comDayCqPollingImporterImplManagedPollConfigImplProperties.password);
   }
 
   @Override
@@ -192,10 +184,7 @@ public class ComDayCqPollingImporterImplManagedPollConfigImplProperties   {
    * (except the first line).
    */
   private String toIndentedString(Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

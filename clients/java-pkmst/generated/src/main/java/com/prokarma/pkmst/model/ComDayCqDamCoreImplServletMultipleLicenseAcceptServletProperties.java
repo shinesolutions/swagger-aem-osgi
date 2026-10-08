@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyBoolean;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
@@ -15,21 +16,20 @@ import io.swagger.annotations.ApiModelProperty;
  * ComDayCqDamCoreImplServletMultipleLicenseAcceptServletProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqDamCoreImplServletMultipleLicenseAcceptServletProperties   {
   @JsonProperty("cq.dam.drm.enable")
-  private ConfigNodePropertyBoolean cqDamDrmEnable = null;
+  private ConfigNodePropertyBoolean cqDamDrmEnable;
 
   public ComDayCqDamCoreImplServletMultipleLicenseAcceptServletProperties cqDamDrmEnable(ConfigNodePropertyBoolean cqDamDrmEnable) {
     this.cqDamDrmEnable = cqDamDrmEnable;
     return this;
   }
 
-   /**
+  /**
    * Get cqDamDrmEnable
    * @return cqDamDrmEnable
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getCqDamDrmEnable() {
     return cqDamDrmEnable;
@@ -41,7 +41,7 @@ public class ComDayCqDamCoreImplServletMultipleLicenseAcceptServletProperties   
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -71,11 +71,8 @@ public class ComDayCqDamCoreImplServletMultipleLicenseAcceptServletProperties   
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

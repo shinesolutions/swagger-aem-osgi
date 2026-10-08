@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyBoolean;
 
 @Canonical
 class ComDayCqDamCoreImplAssetMoveListenerProperties {
-    ConfigNodePropertyBoolean enabled = null
-
+    
+    ConfigNodePropertyBoolean enabled
 }

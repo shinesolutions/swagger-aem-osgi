@@ -1,38 +1,49 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComDayCqWcmFoundationFormsImplFormChooserServletProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComDayCqWcmFoundationFormsImplFormChooserServletProperties   {
-  @JsonProperty("service.name")
-  private ConfigNodePropertyString serviceName = null;
+@JsonTypeName("comDayCqWcmFoundationFormsImplFormChooserServletProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComDayCqWcmFoundationFormsImplFormChooserServletProperties {
 
-  @JsonProperty("sling.servlet.resourceTypes")
-  private ConfigNodePropertyString slingServletResourceTypes = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString serviceName;
 
-  @JsonProperty("sling.servlet.selectors")
-  private ConfigNodePropertyString slingServletSelectors = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString slingServletResourceTypes;
 
-  @JsonProperty("sling.servlet.methods")
-  private ConfigNodePropertyArray slingServletMethods = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString slingServletSelectors;
 
-  @JsonProperty("forms.formchooserservlet.advansesearch.require")
-  private ConfigNodePropertyBoolean formsFormchooserservletAdvansesearchRequire = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray slingServletMethods;
 
-  public ComDayCqWcmFoundationFormsImplFormChooserServletProperties serviceName(ConfigNodePropertyString serviceName) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean formsFormchooserservletAdvansesearchRequire;
+
+  public ComDayCqWcmFoundationFormsImplFormChooserServletProperties serviceName(@Nullable ConfigNodePropertyString serviceName) {
     this.serviceName = serviceName;
     return this;
   }
@@ -40,20 +51,20 @@ public class ComDayCqWcmFoundationFormsImplFormChooserServletProperties   {
   /**
    * Get serviceName
    * @return serviceName
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getServiceName() {
+   */
+  @Valid 
+  @Schema(name = "service.name", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("service.name")
+  public @Nullable ConfigNodePropertyString getServiceName() {
     return serviceName;
   }
 
-  public void setServiceName(ConfigNodePropertyString serviceName) {
+  @JsonProperty("service.name")
+  public void setServiceName(@Nullable ConfigNodePropertyString serviceName) {
     this.serviceName = serviceName;
   }
 
-  public ComDayCqWcmFoundationFormsImplFormChooserServletProperties slingServletResourceTypes(ConfigNodePropertyString slingServletResourceTypes) {
+  public ComDayCqWcmFoundationFormsImplFormChooserServletProperties slingServletResourceTypes(@Nullable ConfigNodePropertyString slingServletResourceTypes) {
     this.slingServletResourceTypes = slingServletResourceTypes;
     return this;
   }
@@ -61,20 +72,20 @@ public class ComDayCqWcmFoundationFormsImplFormChooserServletProperties   {
   /**
    * Get slingServletResourceTypes
    * @return slingServletResourceTypes
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getSlingServletResourceTypes() {
+   */
+  @Valid 
+  @Schema(name = "sling.servlet.resourceTypes", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("sling.servlet.resourceTypes")
+  public @Nullable ConfigNodePropertyString getSlingServletResourceTypes() {
     return slingServletResourceTypes;
   }
 
-  public void setSlingServletResourceTypes(ConfigNodePropertyString slingServletResourceTypes) {
+  @JsonProperty("sling.servlet.resourceTypes")
+  public void setSlingServletResourceTypes(@Nullable ConfigNodePropertyString slingServletResourceTypes) {
     this.slingServletResourceTypes = slingServletResourceTypes;
   }
 
-  public ComDayCqWcmFoundationFormsImplFormChooserServletProperties slingServletSelectors(ConfigNodePropertyString slingServletSelectors) {
+  public ComDayCqWcmFoundationFormsImplFormChooserServletProperties slingServletSelectors(@Nullable ConfigNodePropertyString slingServletSelectors) {
     this.slingServletSelectors = slingServletSelectors;
     return this;
   }
@@ -82,20 +93,20 @@ public class ComDayCqWcmFoundationFormsImplFormChooserServletProperties   {
   /**
    * Get slingServletSelectors
    * @return slingServletSelectors
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getSlingServletSelectors() {
+   */
+  @Valid 
+  @Schema(name = "sling.servlet.selectors", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("sling.servlet.selectors")
+  public @Nullable ConfigNodePropertyString getSlingServletSelectors() {
     return slingServletSelectors;
   }
 
-  public void setSlingServletSelectors(ConfigNodePropertyString slingServletSelectors) {
+  @JsonProperty("sling.servlet.selectors")
+  public void setSlingServletSelectors(@Nullable ConfigNodePropertyString slingServletSelectors) {
     this.slingServletSelectors = slingServletSelectors;
   }
 
-  public ComDayCqWcmFoundationFormsImplFormChooserServletProperties slingServletMethods(ConfigNodePropertyArray slingServletMethods) {
+  public ComDayCqWcmFoundationFormsImplFormChooserServletProperties slingServletMethods(@Nullable ConfigNodePropertyArray slingServletMethods) {
     this.slingServletMethods = slingServletMethods;
     return this;
   }
@@ -103,20 +114,20 @@ public class ComDayCqWcmFoundationFormsImplFormChooserServletProperties   {
   /**
    * Get slingServletMethods
    * @return slingServletMethods
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getSlingServletMethods() {
+   */
+  @Valid 
+  @Schema(name = "sling.servlet.methods", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("sling.servlet.methods")
+  public @Nullable ConfigNodePropertyArray getSlingServletMethods() {
     return slingServletMethods;
   }
 
-  public void setSlingServletMethods(ConfigNodePropertyArray slingServletMethods) {
+  @JsonProperty("sling.servlet.methods")
+  public void setSlingServletMethods(@Nullable ConfigNodePropertyArray slingServletMethods) {
     this.slingServletMethods = slingServletMethods;
   }
 
-  public ComDayCqWcmFoundationFormsImplFormChooserServletProperties formsFormchooserservletAdvansesearchRequire(ConfigNodePropertyBoolean formsFormchooserservletAdvansesearchRequire) {
+  public ComDayCqWcmFoundationFormsImplFormChooserServletProperties formsFormchooserservletAdvansesearchRequire(@Nullable ConfigNodePropertyBoolean formsFormchooserservletAdvansesearchRequire) {
     this.formsFormchooserservletAdvansesearchRequire = formsFormchooserservletAdvansesearchRequire;
     return this;
   }
@@ -124,22 +135,21 @@ public class ComDayCqWcmFoundationFormsImplFormChooserServletProperties   {
   /**
    * Get formsFormchooserservletAdvansesearchRequire
    * @return formsFormchooserservletAdvansesearchRequire
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getFormsFormchooserservletAdvansesearchRequire() {
+   */
+  @Valid 
+  @Schema(name = "forms.formchooserservlet.advansesearch.require", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("forms.formchooserservlet.advansesearch.require")
+  public @Nullable ConfigNodePropertyBoolean getFormsFormchooserservletAdvansesearchRequire() {
     return formsFormchooserservletAdvansesearchRequire;
   }
 
-  public void setFormsFormchooserservletAdvansesearchRequire(ConfigNodePropertyBoolean formsFormchooserservletAdvansesearchRequire) {
+  @JsonProperty("forms.formchooserservlet.advansesearch.require")
+  public void setFormsFormchooserservletAdvansesearchRequire(@Nullable ConfigNodePropertyBoolean formsFormchooserservletAdvansesearchRequire) {
     this.formsFormchooserservletAdvansesearchRequire = formsFormchooserservletAdvansesearchRequire;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -163,7 +173,6 @@ public class ComDayCqWcmFoundationFormsImplFormChooserServletProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComDayCqWcmFoundationFormsImplFormChooserServletProperties {\n");
-    
     sb.append("    serviceName: ").append(toIndentedString(serviceName)).append("\n");
     sb.append("    slingServletResourceTypes: ").append(toIndentedString(slingServletResourceTypes)).append("\n");
     sb.append("    slingServletSelectors: ").append(toIndentedString(slingServletSelectors)).append("\n");
@@ -177,11 +186,8 @@ public class ComDayCqWcmFoundationFormsImplFormChooserServletProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

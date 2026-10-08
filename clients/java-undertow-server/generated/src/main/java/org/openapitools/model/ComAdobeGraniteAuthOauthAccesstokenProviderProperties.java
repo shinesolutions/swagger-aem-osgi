@@ -1,3 +1,13 @@
+/*
+ * Adobe Experience Manager OSGI config (AEM) API
+ *
+ * Swagger AEM OSGI is an OpenAPI specification for Adobe Experience Manager (AEM) OSGI Configurations API
+ *
+ * OpenAPI document version: 1.0.0-pre.0
+ * Maintained by: opensource@shinesolutions.com
+ *
+ * AUTO-GENERATED FILE, DO NOT MODIFY!
+ */
 package org.openapitools.model;
 
 import java.util.Objects;
@@ -14,26 +24,26 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2019-08-05T00:56:20.785Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2026-10-07T12:53:42.280804918Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteAuthOauthAccesstokenProviderProperties   {
   
-  private ConfigNodePropertyString name = null;
-  private ConfigNodePropertyString authTokenProviderTitle = null;
-  private ConfigNodePropertyArray authTokenProviderDefaultClaims = null;
-  private ConfigNodePropertyString authTokenProviderEndpoint = null;
-  private ConfigNodePropertyString authAccessTokenRequest = null;
-  private ConfigNodePropertyString authTokenProviderKeypairAlias = null;
-  private ConfigNodePropertyInteger authTokenProviderConnTimeout = null;
-  private ConfigNodePropertyInteger authTokenProviderSoTimeout = null;
-  private ConfigNodePropertyString authTokenProviderClientId = null;
-  private ConfigNodePropertyString authTokenProviderScope = null;
-  private ConfigNodePropertyBoolean authTokenProviderReuseAccessToken = null;
-  private ConfigNodePropertyBoolean authTokenProviderRelaxedSsl = null;
-  private ConfigNodePropertyString tokenRequestCustomizerType = null;
-  private ConfigNodePropertyString authTokenValidatorType = null;
+  private ConfigNodePropertyString name;
+  private ConfigNodePropertyString authTokenProviderTitle;
+  private ConfigNodePropertyArray authTokenProviderDefaultClaims;
+  private ConfigNodePropertyString authTokenProviderEndpoint;
+  private ConfigNodePropertyString authAccessTokenRequest;
+  private ConfigNodePropertyString authTokenProviderKeypairAlias;
+  private ConfigNodePropertyInteger authTokenProviderConnTimeout;
+  private ConfigNodePropertyInteger authTokenProviderSoTimeout;
+  private ConfigNodePropertyString authTokenProviderClientId;
+  private ConfigNodePropertyString authTokenProviderScope;
+  private ConfigNodePropertyBoolean authTokenProviderReuseAccessToken;
+  private ConfigNodePropertyBoolean authTokenProviderRelaxedSsl;
+  private ConfigNodePropertyString tokenRequestCustomizerType;
+  private ConfigNodePropertyString authTokenValidatorType;
 
   /**
-   **/
+   */
   public ComAdobeGraniteAuthOauthAccesstokenProviderProperties name(ConfigNodePropertyString name) {
     this.name = name;
     return this;
@@ -50,7 +60,7 @@ public class ComAdobeGraniteAuthOauthAccesstokenProviderProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeGraniteAuthOauthAccesstokenProviderProperties authTokenProviderTitle(ConfigNodePropertyString authTokenProviderTitle) {
     this.authTokenProviderTitle = authTokenProviderTitle;
     return this;
@@ -67,7 +77,7 @@ public class ComAdobeGraniteAuthOauthAccesstokenProviderProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeGraniteAuthOauthAccesstokenProviderProperties authTokenProviderDefaultClaims(ConfigNodePropertyArray authTokenProviderDefaultClaims) {
     this.authTokenProviderDefaultClaims = authTokenProviderDefaultClaims;
     return this;
@@ -84,7 +94,7 @@ public class ComAdobeGraniteAuthOauthAccesstokenProviderProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeGraniteAuthOauthAccesstokenProviderProperties authTokenProviderEndpoint(ConfigNodePropertyString authTokenProviderEndpoint) {
     this.authTokenProviderEndpoint = authTokenProviderEndpoint;
     return this;
@@ -101,7 +111,7 @@ public class ComAdobeGraniteAuthOauthAccesstokenProviderProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeGraniteAuthOauthAccesstokenProviderProperties authAccessTokenRequest(ConfigNodePropertyString authAccessTokenRequest) {
     this.authAccessTokenRequest = authAccessTokenRequest;
     return this;
@@ -118,7 +128,7 @@ public class ComAdobeGraniteAuthOauthAccesstokenProviderProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeGraniteAuthOauthAccesstokenProviderProperties authTokenProviderKeypairAlias(ConfigNodePropertyString authTokenProviderKeypairAlias) {
     this.authTokenProviderKeypairAlias = authTokenProviderKeypairAlias;
     return this;
@@ -135,7 +145,7 @@ public class ComAdobeGraniteAuthOauthAccesstokenProviderProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeGraniteAuthOauthAccesstokenProviderProperties authTokenProviderConnTimeout(ConfigNodePropertyInteger authTokenProviderConnTimeout) {
     this.authTokenProviderConnTimeout = authTokenProviderConnTimeout;
     return this;
@@ -152,7 +162,7 @@ public class ComAdobeGraniteAuthOauthAccesstokenProviderProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeGraniteAuthOauthAccesstokenProviderProperties authTokenProviderSoTimeout(ConfigNodePropertyInteger authTokenProviderSoTimeout) {
     this.authTokenProviderSoTimeout = authTokenProviderSoTimeout;
     return this;
@@ -169,7 +179,7 @@ public class ComAdobeGraniteAuthOauthAccesstokenProviderProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeGraniteAuthOauthAccesstokenProviderProperties authTokenProviderClientId(ConfigNodePropertyString authTokenProviderClientId) {
     this.authTokenProviderClientId = authTokenProviderClientId;
     return this;
@@ -186,7 +196,7 @@ public class ComAdobeGraniteAuthOauthAccesstokenProviderProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeGraniteAuthOauthAccesstokenProviderProperties authTokenProviderScope(ConfigNodePropertyString authTokenProviderScope) {
     this.authTokenProviderScope = authTokenProviderScope;
     return this;
@@ -203,7 +213,7 @@ public class ComAdobeGraniteAuthOauthAccesstokenProviderProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeGraniteAuthOauthAccesstokenProviderProperties authTokenProviderReuseAccessToken(ConfigNodePropertyBoolean authTokenProviderReuseAccessToken) {
     this.authTokenProviderReuseAccessToken = authTokenProviderReuseAccessToken;
     return this;
@@ -220,7 +230,7 @@ public class ComAdobeGraniteAuthOauthAccesstokenProviderProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeGraniteAuthOauthAccesstokenProviderProperties authTokenProviderRelaxedSsl(ConfigNodePropertyBoolean authTokenProviderRelaxedSsl) {
     this.authTokenProviderRelaxedSsl = authTokenProviderRelaxedSsl;
     return this;
@@ -237,7 +247,7 @@ public class ComAdobeGraniteAuthOauthAccesstokenProviderProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeGraniteAuthOauthAccesstokenProviderProperties tokenRequestCustomizerType(ConfigNodePropertyString tokenRequestCustomizerType) {
     this.tokenRequestCustomizerType = tokenRequestCustomizerType;
     return this;
@@ -254,7 +264,7 @@ public class ComAdobeGraniteAuthOauthAccesstokenProviderProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeGraniteAuthOauthAccesstokenProviderProperties authTokenValidatorType(ConfigNodePropertyString authTokenValidatorType) {
     this.authTokenValidatorType = authTokenValidatorType;
     return this;
@@ -272,7 +282,7 @@ public class ComAdobeGraniteAuthOauthAccesstokenProviderProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -328,11 +338,8 @@ public class ComAdobeGraniteAuthOauthAccesstokenProviderProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -8,14 +8,14 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskProperties {
-    ConfigNodePropertyBoolean purgeCompleted = null
-
-    ConfigNodePropertyInteger completedAge = null
-
-    ConfigNodePropertyBoolean purgeActive = null
-
-    ConfigNodePropertyInteger activeAge = null
-
-    ConfigNodePropertyInteger saveThreshold = null
-
+    
+    ConfigNodePropertyBoolean purgeCompleted
+    
+    ConfigNodePropertyInteger completedAge
+    
+    ConfigNodePropertyBoolean purgeActive
+    
+    ConfigNodePropertyInteger activeAge
+    
+    ConfigNodePropertyInteger saveThreshold
 }

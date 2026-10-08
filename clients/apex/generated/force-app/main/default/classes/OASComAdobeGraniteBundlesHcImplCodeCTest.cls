@@ -72,8 +72,8 @@ private class OASComAdobeGraniteBundlesHcImplCodeCTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeGraniteBundlesHcImplCodeC comAdobeGraniteBundlesHcImplCodeCacheHealthCheckProperties = new OASComAdobeGraniteBundlesHcImplCodeC();
-        Map<String, String> propertyMappings = comAdobeGraniteBundlesHcImplCodeCacheHealthCheckProperties.getPropertyMappings();
-        System.assertEquals('hcTags', propertyMappings.get('hc.tags'));
-        System.assertEquals('minimumCodeCacheSize', propertyMappings.get('minimum.code.cache.size'));
+        Map<String, String> x-property-mappings = comAdobeGraniteBundlesHcImplCodeCacheHealthCheckProperties.getx-property-mappings();
+        System.assertEquals('hcTags', x-property-mappings.get('hc.tags'));
+        System.assertEquals('minimumCodeCacheSize', x-property-mappings.get('minimum.code.cache.size'));
     }
 }

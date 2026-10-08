@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class ComDayCqDamCoreImplServletAssetXMPSearchServletProperties {
-    ConfigNodePropertyInteger cqDamBatchIndesignMaxassets = null
-
+    
+    ConfigNodePropertyInteger cqDamBatchIndesignMaxassets
 }

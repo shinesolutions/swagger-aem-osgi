@@ -2,29 +2,38 @@ package apimodels;
 
 import apimodels.ConfigNodePropertyBoolean;
 import apimodels.ConfigNodePropertyString;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * ComAdobeCqSocialSyncImplDiffChangesObserverProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class ComAdobeCqSocialSyncImplDiffChangesObserverProperties   {
   @JsonProperty("enabled")
-  private ConfigNodePropertyBoolean enabled = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean enabled;
 
   @JsonProperty("agentName")
-  private ConfigNodePropertyString agentName = null;
+  @Valid
+
+  private ConfigNodePropertyString agentName;
 
   @JsonProperty("diffPath")
-  private ConfigNodePropertyString diffPath = null;
+  @Valid
+
+  private ConfigNodePropertyString diffPath;
 
   @JsonProperty("propertyNames")
-  private ConfigNodePropertyString propertyNames = null;
+  @Valid
+
+  private ConfigNodePropertyString propertyNames;
 
   public ComAdobeCqSocialSyncImplDiffChangesObserverProperties enabled(ConfigNodePropertyBoolean enabled) {
     this.enabled = enabled;
@@ -35,7 +44,6 @@ public class ComAdobeCqSocialSyncImplDiffChangesObserverProperties   {
    * Get enabled
    * @return enabled
   **/
-  @Valid
   public ConfigNodePropertyBoolean getEnabled() {
     return enabled;
   }
@@ -53,7 +61,6 @@ public class ComAdobeCqSocialSyncImplDiffChangesObserverProperties   {
    * Get agentName
    * @return agentName
   **/
-  @Valid
   public ConfigNodePropertyString getAgentName() {
     return agentName;
   }
@@ -71,7 +78,6 @@ public class ComAdobeCqSocialSyncImplDiffChangesObserverProperties   {
    * Get diffPath
    * @return diffPath
   **/
-  @Valid
   public ConfigNodePropertyString getDiffPath() {
     return diffPath;
   }
@@ -89,7 +95,6 @@ public class ComAdobeCqSocialSyncImplDiffChangesObserverProperties   {
    * Get propertyNames
    * @return propertyNames
   **/
-  @Valid
   public ConfigNodePropertyString getPropertyNames() {
     return propertyNames;
   }
@@ -100,7 +105,7 @@ public class ComAdobeCqSocialSyncImplDiffChangesObserverProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -137,11 +142,8 @@ public class ComAdobeCqSocialSyncImplDiffChangesObserverProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

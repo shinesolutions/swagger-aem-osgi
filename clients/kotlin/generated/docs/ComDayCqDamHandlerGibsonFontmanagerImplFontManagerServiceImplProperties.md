@@ -2,12 +2,12 @@
 # ComDayCqDamHandlerGibsonFontmanagerImplFontManagerServiceImplProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**eventPeriodfilter** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**fontmgrPeriodsystemPeriodfontPerioddir** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**fontmgrPeriodadobePeriodfontPerioddir** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**fontmgrPeriodcustomerPeriodfontPerioddir** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **eventFilter** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **fontmgrSystemFontDir** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **fontmgrAdobeFontDir** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **fontmgrCustomerFontDir** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
 
 
 

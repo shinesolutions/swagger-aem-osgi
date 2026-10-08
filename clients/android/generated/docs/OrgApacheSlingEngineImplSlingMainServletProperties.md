@@ -1,7 +1,9 @@
 
+
 # OrgApacheSlingEngineImplSlingMainServletProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **slingMaxCalls** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
@@ -11,6 +13,7 @@ Name | Type | Description | Notes
 **slingStorePatternRequests** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
 **slingServerinfo** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
 **slingAdditionalResponseHeaders** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
+
 
 
 

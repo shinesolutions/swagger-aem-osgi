@@ -2,28 +2,29 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class ComDayCqWcmMsmImplActionsReferencesUpdateActionFactoryProperties   {
   
-  private ConfigNodePropertyArray cqWcmMsmActionExcludednodetypes = null;
+  private ConfigNodePropertyArray cqWcmMsmActionExcludednodetypes;
 
-  private ConfigNodePropertyArray cqWcmMsmActionExcludedparagraphitems = null;
+  private ConfigNodePropertyArray cqWcmMsmActionExcludedparagraphitems;
 
-  private ConfigNodePropertyArray cqWcmMsmActionExcludedprops = null;
+  private ConfigNodePropertyArray cqWcmMsmActionExcludedprops;
 
-  private ConfigNodePropertyBoolean cqWcmMsmImplActionReferencesupdatePropUpdateNested = null;
-
+  private ConfigNodePropertyBoolean cqWcmMsmImplActionReferencesupdatePropUpdateNested;
 
   /**
    **/
@@ -99,7 +100,7 @@ public class ComDayCqWcmMsmImplActionsReferencesUpdateActionFactoryProperties   
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -107,10 +108,10 @@ public class ComDayCqWcmMsmImplActionsReferencesUpdateActionFactoryProperties   
       return false;
     }
     ComDayCqWcmMsmImplActionsReferencesUpdateActionFactoryProperties comDayCqWcmMsmImplActionsReferencesUpdateActionFactoryProperties = (ComDayCqWcmMsmImplActionsReferencesUpdateActionFactoryProperties) o;
-    return Objects.equals(cqWcmMsmActionExcludednodetypes, comDayCqWcmMsmImplActionsReferencesUpdateActionFactoryProperties.cqWcmMsmActionExcludednodetypes) &&
-        Objects.equals(cqWcmMsmActionExcludedparagraphitems, comDayCqWcmMsmImplActionsReferencesUpdateActionFactoryProperties.cqWcmMsmActionExcludedparagraphitems) &&
-        Objects.equals(cqWcmMsmActionExcludedprops, comDayCqWcmMsmImplActionsReferencesUpdateActionFactoryProperties.cqWcmMsmActionExcludedprops) &&
-        Objects.equals(cqWcmMsmImplActionReferencesupdatePropUpdateNested, comDayCqWcmMsmImplActionsReferencesUpdateActionFactoryProperties.cqWcmMsmImplActionReferencesupdatePropUpdateNested);
+    return Objects.equals(this.cqWcmMsmActionExcludednodetypes, comDayCqWcmMsmImplActionsReferencesUpdateActionFactoryProperties.cqWcmMsmActionExcludednodetypes) &&
+        Objects.equals(this.cqWcmMsmActionExcludedparagraphitems, comDayCqWcmMsmImplActionsReferencesUpdateActionFactoryProperties.cqWcmMsmActionExcludedparagraphitems) &&
+        Objects.equals(this.cqWcmMsmActionExcludedprops, comDayCqWcmMsmImplActionsReferencesUpdateActionFactoryProperties.cqWcmMsmActionExcludedprops) &&
+        Objects.equals(this.cqWcmMsmImplActionReferencesupdatePropUpdateNested, comDayCqWcmMsmImplActionsReferencesUpdateActionFactoryProperties.cqWcmMsmImplActionReferencesupdatePropUpdateNested);
   }
 
   @Override
@@ -135,11 +136,8 @@ public class ComDayCqWcmMsmImplActionsReferencesUpdateActionFactoryProperties   
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

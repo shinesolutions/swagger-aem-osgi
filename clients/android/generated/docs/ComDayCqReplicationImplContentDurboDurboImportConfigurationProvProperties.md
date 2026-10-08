@@ -1,7 +1,9 @@
 
+
 # ComDayCqReplicationImplContentDurboDurboImportConfigurationProvProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **preserveHierarchyNodes** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
@@ -13,6 +15,7 @@ Name | Type | Description | Notes
 **preserveUuidNodetypes** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
 **preserveUuidSubtrees** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
 **autoCommit** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
+
 
 
 

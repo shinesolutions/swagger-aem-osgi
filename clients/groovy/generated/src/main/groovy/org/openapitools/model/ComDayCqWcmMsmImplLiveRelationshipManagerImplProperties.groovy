@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqWcmMsmImplLiveRelationshipManagerImplProperties {
-    ConfigNodePropertyString liverelationshipmgrRelationsconfigDefault = null
-
+    
+    ConfigNodePropertyString liverelationshipmgrRelationsconfigDefault
 }

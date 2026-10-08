@@ -1,19 +1,30 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comAdobeGraniteInfocollectorInfoCollectorProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteInfocollectorInfoCollectorProperties   {
-  
-  private @Valid ConfigNodePropertyBoolean graniteInfocollectorIncludeThreadDumps = null;
-  private @Valid ConfigNodePropertyBoolean graniteInfocollectorIncludeHeapDump = null;
+  private ConfigNodePropertyBoolean graniteInfocollectorIncludeThreadDumps;
+  private ConfigNodePropertyBoolean graniteInfocollectorIncludeHeapDump;
+
+  public ComAdobeGraniteInfocollectorInfoCollectorProperties() {
+  }
 
   /**
    **/
@@ -25,9 +36,11 @@ public class ComAdobeGraniteInfocollectorInfoCollectorProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("granite.infocollector.includeThreadDumps")
-  public ConfigNodePropertyBoolean getGraniteInfocollectorIncludeThreadDumps() {
+  @Valid public ConfigNodePropertyBoolean getGraniteInfocollectorIncludeThreadDumps() {
     return graniteInfocollectorIncludeThreadDumps;
   }
+
+  @JsonProperty("granite.infocollector.includeThreadDumps")
   public void setGraniteInfocollectorIncludeThreadDumps(ConfigNodePropertyBoolean graniteInfocollectorIncludeThreadDumps) {
     this.graniteInfocollectorIncludeThreadDumps = graniteInfocollectorIncludeThreadDumps;
   }
@@ -42,16 +55,18 @@ public class ComAdobeGraniteInfocollectorInfoCollectorProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("granite.infocollector.includeHeapDump")
-  public ConfigNodePropertyBoolean getGraniteInfocollectorIncludeHeapDump() {
+  @Valid public ConfigNodePropertyBoolean getGraniteInfocollectorIncludeHeapDump() {
     return graniteInfocollectorIncludeHeapDump;
   }
+
+  @JsonProperty("granite.infocollector.includeHeapDump")
   public void setGraniteInfocollectorIncludeHeapDump(ConfigNodePropertyBoolean graniteInfocollectorIncludeHeapDump) {
     this.graniteInfocollectorIncludeHeapDump = graniteInfocollectorIncludeHeapDump;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -59,8 +74,8 @@ public class ComAdobeGraniteInfocollectorInfoCollectorProperties   {
       return false;
     }
     ComAdobeGraniteInfocollectorInfoCollectorProperties comAdobeGraniteInfocollectorInfoCollectorProperties = (ComAdobeGraniteInfocollectorInfoCollectorProperties) o;
-    return Objects.equals(graniteInfocollectorIncludeThreadDumps, comAdobeGraniteInfocollectorInfoCollectorProperties.graniteInfocollectorIncludeThreadDumps) &&
-        Objects.equals(graniteInfocollectorIncludeHeapDump, comAdobeGraniteInfocollectorInfoCollectorProperties.graniteInfocollectorIncludeHeapDump);
+    return Objects.equals(this.graniteInfocollectorIncludeThreadDumps, comAdobeGraniteInfocollectorInfoCollectorProperties.graniteInfocollectorIncludeThreadDumps) &&
+        Objects.equals(this.graniteInfocollectorIncludeHeapDump, comAdobeGraniteInfocollectorInfoCollectorProperties.graniteInfocollectorIncludeHeapDump);
   }
 
   @Override
@@ -83,11 +98,9 @@ public class ComAdobeGraniteInfocollectorInfoCollectorProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyArray;
 
 @Canonical
 class ComDayCqDamCoreImplHandlerIndesignFormatHandlerProperties {
-    ConfigNodePropertyArray mimetype = null
-
+    
+    ConfigNodePropertyArray mimetype
 }

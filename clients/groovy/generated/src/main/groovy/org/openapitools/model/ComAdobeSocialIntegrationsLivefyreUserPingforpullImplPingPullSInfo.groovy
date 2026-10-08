@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeSocialIntegrationsLivefyreUserPingforpullI
 
 @Canonical
 class ComAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullSInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullSProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullSProperties properties
 }

@@ -72,8 +72,8 @@ private class OASComDayCqRewriterLinkcheckerImplLiTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqRewriterLinkcheckerImplLi comDayCqRewriterLinkcheckerImplLinkInfoStorageImplProperties = new OASComDayCqRewriterLinkcheckerImplLi();
-        Map<String, String> propertyMappings = comDayCqRewriterLinkcheckerImplLinkInfoStorageImplProperties.getPropertyMappings();
-        System.assertEquals('serviceMaxLinksPerHost', propertyMappings.get('service.max_links_per_host'));
-        System.assertEquals('serviceSaveExternalLinkReferences', propertyMappings.get('service.save_external_link_references'));
+        Map<String, String> x-property-mappings = comDayCqRewriterLinkcheckerImplLinkInfoStorageImplProperties.getx-property-mappings();
+        System.assertEquals('serviceMaxLinksPerHost', x-property-mappings.get('service.max_links_per_host'));
+        System.assertEquals('serviceSaveExternalLinkReferences', x-property-mappings.get('service.save_external_link_references'));
     }
 }

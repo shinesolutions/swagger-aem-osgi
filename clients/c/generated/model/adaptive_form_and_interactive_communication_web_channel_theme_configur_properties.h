@@ -1,0 +1,39 @@
+/*
+ * adaptive_form_and_interactive_communication_web_channel_theme_configur_properties.h
+ *
+ * 
+ */
+
+#ifndef _adaptive_form_and_interactive_communication_web_channel_theme_configur_properties_H_
+#define _adaptive_form_and_interactive_communication_web_channel_theme_configur_properties_H_
+
+#include <string.h>
+#include "../external/cJSON.h"
+#include "../include/list.h"
+#include "../include/keyValuePair.h"
+#include "../include/binary.h"
+
+typedef struct adaptive_form_and_interactive_communication_web_channel_theme_configur_properties_t adaptive_form_and_interactive_communication_web_channel_theme_configur_properties_t;
+
+#include "config_node_property_array.h"
+
+
+
+typedef struct adaptive_form_and_interactive_communication_web_channel_theme_configur_properties_t {
+    struct config_node_property_array_t *font_list; //model
+
+    int _library_owned; // Is the library responsible for freeing this object?
+} adaptive_form_and_interactive_communication_web_channel_theme_configur_properties_t;
+
+__attribute__((deprecated)) adaptive_form_and_interactive_communication_web_channel_theme_configur_properties_t *adaptive_form_and_interactive_communication_web_channel_theme_configur_properties_create(
+    config_node_property_array_t *font_list
+);
+
+void adaptive_form_and_interactive_communication_web_channel_theme_configur_properties_free(adaptive_form_and_interactive_communication_web_channel_theme_configur_properties_t *adaptive_form_and_interactive_communication_web_channel_theme_configur_properties);
+
+adaptive_form_and_interactive_communication_web_channel_theme_configur_properties_t *adaptive_form_and_interactive_communication_web_channel_theme_configur_properties_parseFromJSON(cJSON *adaptive_form_and_interactive_communication_web_channel_theme_configur_propertiesJSON);
+
+cJSON *adaptive_form_and_interactive_communication_web_channel_theme_configur_properties_convertToJSON(adaptive_form_and_interactive_communication_web_channel_theme_configur_properties_t *adaptive_form_and_interactive_communication_web_channel_theme_configur_properties);
+
+#endif /* _adaptive_form_and_interactive_communication_web_channel_theme_configur_properties_H_ */
+

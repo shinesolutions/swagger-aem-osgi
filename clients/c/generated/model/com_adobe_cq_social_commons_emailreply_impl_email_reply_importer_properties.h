@@ -1,0 +1,39 @@
+/*
+ * com_adobe_cq_social_commons_emailreply_impl_email_reply_importer_properties.h
+ *
+ * 
+ */
+
+#ifndef _com_adobe_cq_social_commons_emailreply_impl_email_reply_importer_properties_H_
+#define _com_adobe_cq_social_commons_emailreply_impl_email_reply_importer_properties_H_
+
+#include <string.h>
+#include "../external/cJSON.h"
+#include "../include/list.h"
+#include "../include/keyValuePair.h"
+#include "../include/binary.h"
+
+typedef struct com_adobe_cq_social_commons_emailreply_impl_email_reply_importer_properties_t com_adobe_cq_social_commons_emailreply_impl_email_reply_importer_properties_t;
+
+#include "config_node_property_drop_down.h"
+
+
+
+typedef struct com_adobe_cq_social_commons_emailreply_impl_email_reply_importer_properties_t {
+    struct config_node_property_drop_down_t *connect_protocol; //model
+
+    int _library_owned; // Is the library responsible for freeing this object?
+} com_adobe_cq_social_commons_emailreply_impl_email_reply_importer_properties_t;
+
+__attribute__((deprecated)) com_adobe_cq_social_commons_emailreply_impl_email_reply_importer_properties_t *com_adobe_cq_social_commons_emailreply_impl_email_reply_importer_properties_create(
+    config_node_property_drop_down_t *connect_protocol
+);
+
+void com_adobe_cq_social_commons_emailreply_impl_email_reply_importer_properties_free(com_adobe_cq_social_commons_emailreply_impl_email_reply_importer_properties_t *com_adobe_cq_social_commons_emailreply_impl_email_reply_importer_properties);
+
+com_adobe_cq_social_commons_emailreply_impl_email_reply_importer_properties_t *com_adobe_cq_social_commons_emailreply_impl_email_reply_importer_properties_parseFromJSON(cJSON *com_adobe_cq_social_commons_emailreply_impl_email_reply_importer_propertiesJSON);
+
+cJSON *com_adobe_cq_social_commons_emailreply_impl_email_reply_importer_properties_convertToJSON(com_adobe_cq_social_commons_emailreply_impl_email_reply_importer_properties_t *com_adobe_cq_social_commons_emailreply_impl_email_reply_importer_properties);
+
+#endif /* _com_adobe_cq_social_commons_emailreply_impl_email_reply_importer_properties_H_ */
+

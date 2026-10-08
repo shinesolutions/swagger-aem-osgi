@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyBoolean;
 
 @Canonical
 class ComDayCqReplicationImplReplicatorImplProperties {
-    ConfigNodePropertyBoolean distributeEvents = null
-
+    
+    ConfigNodePropertyBoolean distributeEvents
 }

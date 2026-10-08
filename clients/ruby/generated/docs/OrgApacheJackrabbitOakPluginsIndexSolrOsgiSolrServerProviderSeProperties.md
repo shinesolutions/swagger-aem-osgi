@@ -2,16 +2,17 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**server_type** | [**ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **server_type** | [**ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderSeProperties.new(server_type: null)
+instance = SwaggerAemOsgiClient::OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderSeProperties.new(
+  server_type: null
+)
 ```
-
 

@@ -2,27 +2,28 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ComAdobeGraniteQueriesImplHcQueryHealthCheckMetricsProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class ComAdobeGraniteQueriesImplHcQueryHealthCheckMetricsInfo   {
   
-  private String pid = null;
+  private String pid;
 
-  private String title = null;
+  private String title;
 
-  private String description = null;
+  private String description;
 
-  private ComAdobeGraniteQueriesImplHcQueryHealthCheckMetricsProperties properties = null;
-
+  private ComAdobeGraniteQueriesImplHcQueryHealthCheckMetricsProperties properties;
 
   /**
    **/
@@ -98,7 +99,7 @@ public class ComAdobeGraniteQueriesImplHcQueryHealthCheckMetricsInfo   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -106,10 +107,10 @@ public class ComAdobeGraniteQueriesImplHcQueryHealthCheckMetricsInfo   {
       return false;
     }
     ComAdobeGraniteQueriesImplHcQueryHealthCheckMetricsInfo comAdobeGraniteQueriesImplHcQueryHealthCheckMetricsInfo = (ComAdobeGraniteQueriesImplHcQueryHealthCheckMetricsInfo) o;
-    return Objects.equals(pid, comAdobeGraniteQueriesImplHcQueryHealthCheckMetricsInfo.pid) &&
-        Objects.equals(title, comAdobeGraniteQueriesImplHcQueryHealthCheckMetricsInfo.title) &&
-        Objects.equals(description, comAdobeGraniteQueriesImplHcQueryHealthCheckMetricsInfo.description) &&
-        Objects.equals(properties, comAdobeGraniteQueriesImplHcQueryHealthCheckMetricsInfo.properties);
+    return Objects.equals(this.pid, comAdobeGraniteQueriesImplHcQueryHealthCheckMetricsInfo.pid) &&
+        Objects.equals(this.title, comAdobeGraniteQueriesImplHcQueryHealthCheckMetricsInfo.title) &&
+        Objects.equals(this.description, comAdobeGraniteQueriesImplHcQueryHealthCheckMetricsInfo.description) &&
+        Objects.equals(this.properties, comAdobeGraniteQueriesImplHcQueryHealthCheckMetricsInfo.properties);
   }
 
   @Override
@@ -134,11 +135,8 @@ public class ComAdobeGraniteQueriesImplHcQueryHealthCheckMetricsInfo   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

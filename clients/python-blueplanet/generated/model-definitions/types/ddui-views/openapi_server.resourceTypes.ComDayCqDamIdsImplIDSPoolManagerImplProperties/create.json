@@ -1,0 +1,22 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "max_errors_to_blacklist" },
+      {"model": "retry_interval_to_whitelist" },
+      {"model": "connect_timeout" },
+      {"model": "socket_timeout" },
+      {"model": "process_label" },
+      {"model": "connection_use_max" },
+    ]
+  }]
+}

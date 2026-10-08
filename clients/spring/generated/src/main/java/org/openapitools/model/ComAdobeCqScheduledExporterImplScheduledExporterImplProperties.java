@@ -1,28 +1,39 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComAdobeCqScheduledExporterImplScheduledExporterImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComAdobeCqScheduledExporterImplScheduledExporterImplProperties   {
-  @JsonProperty("include.paths")
-  private ConfigNodePropertyArray includePaths = null;
+@JsonTypeName("comAdobeCqScheduledExporterImplScheduledExporterImplProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComAdobeCqScheduledExporterImplScheduledExporterImplProperties {
 
-  @JsonProperty("exporter.user")
-  private ConfigNodePropertyString exporterUser = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray includePaths;
 
-  public ComAdobeCqScheduledExporterImplScheduledExporterImplProperties includePaths(ConfigNodePropertyArray includePaths) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString exporterUser;
+
+  public ComAdobeCqScheduledExporterImplScheduledExporterImplProperties includePaths(@Nullable ConfigNodePropertyArray includePaths) {
     this.includePaths = includePaths;
     return this;
   }
@@ -30,20 +41,20 @@ public class ComAdobeCqScheduledExporterImplScheduledExporterImplProperties   {
   /**
    * Get includePaths
    * @return includePaths
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getIncludePaths() {
+   */
+  @Valid 
+  @Schema(name = "include.paths", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("include.paths")
+  public @Nullable ConfigNodePropertyArray getIncludePaths() {
     return includePaths;
   }
 
-  public void setIncludePaths(ConfigNodePropertyArray includePaths) {
+  @JsonProperty("include.paths")
+  public void setIncludePaths(@Nullable ConfigNodePropertyArray includePaths) {
     this.includePaths = includePaths;
   }
 
-  public ComAdobeCqScheduledExporterImplScheduledExporterImplProperties exporterUser(ConfigNodePropertyString exporterUser) {
+  public ComAdobeCqScheduledExporterImplScheduledExporterImplProperties exporterUser(@Nullable ConfigNodePropertyString exporterUser) {
     this.exporterUser = exporterUser;
     return this;
   }
@@ -51,22 +62,21 @@ public class ComAdobeCqScheduledExporterImplScheduledExporterImplProperties   {
   /**
    * Get exporterUser
    * @return exporterUser
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getExporterUser() {
+   */
+  @Valid 
+  @Schema(name = "exporter.user", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("exporter.user")
+  public @Nullable ConfigNodePropertyString getExporterUser() {
     return exporterUser;
   }
 
-  public void setExporterUser(ConfigNodePropertyString exporterUser) {
+  @JsonProperty("exporter.user")
+  public void setExporterUser(@Nullable ConfigNodePropertyString exporterUser) {
     this.exporterUser = exporterUser;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -87,7 +97,6 @@ public class ComAdobeCqScheduledExporterImplScheduledExporterImplProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComAdobeCqScheduledExporterImplScheduledExporterImplProperties {\n");
-    
     sb.append("    includePaths: ").append(toIndentedString(includePaths)).append("\n");
     sb.append("    exporterUser: ").append(toIndentedString(exporterUser)).append("\n");
     sb.append("}");
@@ -98,11 +107,8 @@ public class ComAdobeCqScheduledExporterImplScheduledExporterImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -1,8 +1,9 @@
 # NodeSwaggerAemOsgi.ComDayCqDamCoreImplMetadataEditorSelectComponentHandlerProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**granitedata** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 
+**graniteData** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 
 
 

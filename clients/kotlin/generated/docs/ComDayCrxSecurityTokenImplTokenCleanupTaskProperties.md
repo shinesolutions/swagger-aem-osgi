@@ -2,11 +2,11 @@
 # ComDayCrxSecurityTokenImplTokenCleanupTaskProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**enablePeriodtokenPeriodcleanupPeriodtask** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**schedulerPeriodexpression** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**batchPeriodsize** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **enableTokenCleanupTask** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **schedulerExpression** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **batchSize** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
 
 
 

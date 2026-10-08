@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyBoolean;
 
 @Canonical
 class ComDayCqAnalyticsTestandtargetImplSegmentImporterProperties {
-    ConfigNodePropertyBoolean cqAnalyticsTestandtargetSegmentimporterEnabled = null
-
+    
+    ConfigNodePropertyBoolean cqAnalyticsTestandtargetSegmentimporterEnabled
 }

@@ -2,10 +2,10 @@
 # ComDayCqWcmDesignimporterImplEntryPreprocessorImplProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**searchPeriodpattern** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**replacePeriodpattern** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **searchPattern** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **replacePattern** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
 
 
 

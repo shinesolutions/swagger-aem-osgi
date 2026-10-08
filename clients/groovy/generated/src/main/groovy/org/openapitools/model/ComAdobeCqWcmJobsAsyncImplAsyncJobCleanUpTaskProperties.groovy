@@ -8,10 +8,10 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeCqWcmJobsAsyncImplAsyncJobCleanUpTaskProperties {
-    ConfigNodePropertyString schedulerExpression = null
-
-    ConfigNodePropertyInteger jobPurgeThreshold = null
-
-    ConfigNodePropertyInteger jobPurgeMaxJobs = null
-
+    
+    ConfigNodePropertyString schedulerExpression
+    
+    ConfigNodePropertyInteger jobPurgeThreshold
+    
+    ConfigNodePropertyInteger jobPurgeMaxJobs
 }

@@ -72,7 +72,7 @@ private class OASComDayCqWcmCoreImplReferencesContTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqWcmCoreImplReferencesCont comDayCqWcmCoreImplReferencesContentContentReferenceConfigProperties = new OASComDayCqWcmCoreImplReferencesCont();
-        Map<String, String> propertyMappings = comDayCqWcmCoreImplReferencesContentContentReferenceConfigProperties.getPropertyMappings();
-        System.assertEquals('contentReferenceConfigResourceTypes', propertyMappings.get('contentReferenceConfig.resourceTypes'));
+        Map<String, String> x-property-mappings = comDayCqWcmCoreImplReferencesContentContentReferenceConfigProperties.getx-property-mappings();
+        System.assertEquals('contentReferenceConfigResourceTypes', x-property-mappings.get('contentReferenceConfig.resourceTypes'));
     }
 }

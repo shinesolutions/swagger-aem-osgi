@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqWcmCoreImplVersionManagerImplProperties;
 
 @Canonical
 class ComDayCqWcmCoreImplVersionManagerImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqWcmCoreImplVersionManagerImplProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqWcmCoreImplVersionManagerImplProperties properties
 }

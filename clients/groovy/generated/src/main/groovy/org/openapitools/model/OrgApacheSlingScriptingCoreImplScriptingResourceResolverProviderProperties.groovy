@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyBoolean;
 
 @Canonical
 class OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderProperties {
-    ConfigNodePropertyBoolean logStacktraceOnclose = null
-
+    
+    ConfigNodePropertyBoolean logStacktraceOnclose
 }

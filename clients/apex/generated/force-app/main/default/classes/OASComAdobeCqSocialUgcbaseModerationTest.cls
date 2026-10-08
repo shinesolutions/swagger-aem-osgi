@@ -72,10 +72,10 @@ private class OASComAdobeCqSocialUgcbaseModerationTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeCqSocialUgcbaseModeration comAdobeCqSocialUgcbaseModerationImplSentimentProcessProperties = new OASComAdobeCqSocialUgcbaseModeration();
-        Map<String, String> propertyMappings = comAdobeCqSocialUgcbaseModerationImplSentimentProcessProperties.getPropertyMappings();
-        System.assertEquals('watchwordsPositive', propertyMappings.get('watchwords.positive'));
-        System.assertEquals('watchwordsNegative', propertyMappings.get('watchwords.negative'));
-        System.assertEquals('watchwordsPath', propertyMappings.get('watchwords.path'));
-        System.assertEquals('sentimentPath', propertyMappings.get('sentiment.path'));
+        Map<String, String> x-property-mappings = comAdobeCqSocialUgcbaseModerationImplSentimentProcessProperties.getx-property-mappings();
+        System.assertEquals('watchwordsPositive', x-property-mappings.get('watchwords.positive'));
+        System.assertEquals('watchwordsNegative', x-property-mappings.get('watchwords.negative'));
+        System.assertEquals('watchwordsPath', x-property-mappings.get('watchwords.path'));
+        System.assertEquals('sentimentPath', x-property-mappings.get('sentiment.path'));
     }
 }

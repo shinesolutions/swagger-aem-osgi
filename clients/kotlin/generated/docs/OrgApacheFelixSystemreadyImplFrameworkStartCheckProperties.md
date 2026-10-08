@@ -2,12 +2,12 @@
 # OrgApacheFelixSystemreadyImplFrameworkStartCheckProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**timeout** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**targetPeriodstartPeriodlevel** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**targetPeriodstartPeriodlevelPeriodpropPeriodname** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**type** | [**ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **timeout** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **targetStartLevel** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **targetStartLevelPropName** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **type** | [**ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md) |  |  [optional] |
 
 
 

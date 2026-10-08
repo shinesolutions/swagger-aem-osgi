@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqAnalyticsTestandtargetImplServletsAdminSer
 
 @Canonical
 class ComDayCqAnalyticsTestandtargetImplServletsAdminServerServletInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqAnalyticsTestandtargetImplServletsAdminServerServletProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqAnalyticsTestandtargetImplServletsAdminServerServletProperties properties
 }

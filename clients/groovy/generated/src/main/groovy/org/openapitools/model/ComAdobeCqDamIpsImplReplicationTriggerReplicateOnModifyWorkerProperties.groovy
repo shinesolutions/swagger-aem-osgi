@@ -7,8 +7,8 @@ import org.openapitools.model.ConfigNodePropertyBoolean;
 
 @Canonical
 class ComAdobeCqDamIpsImplReplicationTriggerReplicateOnModifyWorkerProperties {
-    ConfigNodePropertyBoolean dmreplicateonmodifyEnabled = null
-
-    ConfigNodePropertyBoolean dmreplicateonmodifyForcesyncdeletes = null
-
+    
+    ConfigNodePropertyBoolean dmreplicateonmodifyEnabled
+    
+    ConfigNodePropertyBoolean dmreplicateonmodifyForcesyncdeletes
 }

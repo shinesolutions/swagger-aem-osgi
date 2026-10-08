@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceProp
 
 @Canonical
 class ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties properties
 }

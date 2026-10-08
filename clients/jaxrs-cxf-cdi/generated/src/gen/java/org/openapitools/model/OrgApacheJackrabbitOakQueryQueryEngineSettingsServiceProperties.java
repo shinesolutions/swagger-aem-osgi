@@ -2,28 +2,29 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceProperties   {
   
-  private ConfigNodePropertyInteger queryLimitInMemory = null;
+  private ConfigNodePropertyInteger queryLimitInMemory;
 
-  private ConfigNodePropertyInteger queryLimitReads = null;
+  private ConfigNodePropertyInteger queryLimitReads;
 
-  private ConfigNodePropertyBoolean queryFailTraversal = null;
+  private ConfigNodePropertyBoolean queryFailTraversal;
 
-  private ConfigNodePropertyBoolean fastQuerySize = null;
-
+  private ConfigNodePropertyBoolean fastQuerySize;
 
   /**
    **/
@@ -99,7 +100,7 @@ public class OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -107,10 +108,10 @@ public class OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceProperties   {
       return false;
     }
     OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceProperties orgApacheJackrabbitOakQueryQueryEngineSettingsServiceProperties = (OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceProperties) o;
-    return Objects.equals(queryLimitInMemory, orgApacheJackrabbitOakQueryQueryEngineSettingsServiceProperties.queryLimitInMemory) &&
-        Objects.equals(queryLimitReads, orgApacheJackrabbitOakQueryQueryEngineSettingsServiceProperties.queryLimitReads) &&
-        Objects.equals(queryFailTraversal, orgApacheJackrabbitOakQueryQueryEngineSettingsServiceProperties.queryFailTraversal) &&
-        Objects.equals(fastQuerySize, orgApacheJackrabbitOakQueryQueryEngineSettingsServiceProperties.fastQuerySize);
+    return Objects.equals(this.queryLimitInMemory, orgApacheJackrabbitOakQueryQueryEngineSettingsServiceProperties.queryLimitInMemory) &&
+        Objects.equals(this.queryLimitReads, orgApacheJackrabbitOakQueryQueryEngineSettingsServiceProperties.queryLimitReads) &&
+        Objects.equals(this.queryFailTraversal, orgApacheJackrabbitOakQueryQueryEngineSettingsServiceProperties.queryFailTraversal) &&
+        Objects.equals(this.fastQuerySize, orgApacheJackrabbitOakQueryQueryEngineSettingsServiceProperties.fastQuerySize);
   }
 
   @Override
@@ -135,11 +136,8 @@ public class OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

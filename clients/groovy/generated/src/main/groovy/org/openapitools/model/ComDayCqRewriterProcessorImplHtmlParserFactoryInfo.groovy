@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqRewriterProcessorImplHtmlParserFactoryProp
 
 @Canonical
 class ComDayCqRewriterProcessorImplHtmlParserFactoryInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqRewriterProcessorImplHtmlParserFactoryProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqRewriterProcessorImplHtmlParserFactoryProperties properties
 }

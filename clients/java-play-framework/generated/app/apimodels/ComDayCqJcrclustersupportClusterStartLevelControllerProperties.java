@@ -2,26 +2,33 @@ package apimodels;
 
 import apimodels.ConfigNodePropertyBoolean;
 import apimodels.ConfigNodePropertyInteger;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * ComDayCqJcrclustersupportClusterStartLevelControllerProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class ComDayCqJcrclustersupportClusterStartLevelControllerProperties   {
   @JsonProperty("cluster.level.enable")
-  private ConfigNodePropertyBoolean clusterLevelEnable = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean clusterLevelEnable;
 
   @JsonProperty("cluster.master.level")
-  private ConfigNodePropertyInteger clusterMasterLevel = null;
+  @Valid
+
+  private ConfigNodePropertyInteger clusterMasterLevel;
 
   @JsonProperty("cluster.slave.level")
-  private ConfigNodePropertyInteger clusterSlaveLevel = null;
+  @Valid
+
+  private ConfigNodePropertyInteger clusterSlaveLevel;
 
   public ComDayCqJcrclustersupportClusterStartLevelControllerProperties clusterLevelEnable(ConfigNodePropertyBoolean clusterLevelEnable) {
     this.clusterLevelEnable = clusterLevelEnable;
@@ -32,7 +39,6 @@ public class ComDayCqJcrclustersupportClusterStartLevelControllerProperties   {
    * Get clusterLevelEnable
    * @return clusterLevelEnable
   **/
-  @Valid
   public ConfigNodePropertyBoolean getClusterLevelEnable() {
     return clusterLevelEnable;
   }
@@ -50,7 +56,6 @@ public class ComDayCqJcrclustersupportClusterStartLevelControllerProperties   {
    * Get clusterMasterLevel
    * @return clusterMasterLevel
   **/
-  @Valid
   public ConfigNodePropertyInteger getClusterMasterLevel() {
     return clusterMasterLevel;
   }
@@ -68,7 +73,6 @@ public class ComDayCqJcrclustersupportClusterStartLevelControllerProperties   {
    * Get clusterSlaveLevel
    * @return clusterSlaveLevel
   **/
-  @Valid
   public ConfigNodePropertyInteger getClusterSlaveLevel() {
     return clusterSlaveLevel;
   }
@@ -79,7 +83,7 @@ public class ComDayCqJcrclustersupportClusterStartLevelControllerProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -114,11 +118,8 @@ public class ComDayCqJcrclustersupportClusterStartLevelControllerProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -1,20 +1,31 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingProperties   {
-  
-  private @Valid ConfigNodePropertyBoolean enabled = null;
-  private @Valid ConfigNodePropertyArray fallbackPaths = null;
+  private ConfigNodePropertyBoolean enabled;
+  private ConfigNodePropertyArray fallbackPaths;
+
+  public ComAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingProperties() {
+  }
 
   /**
    **/
@@ -26,9 +37,11 @@ public class ComAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingPr
   
   @ApiModelProperty(value = "")
   @JsonProperty("enabled")
-  public ConfigNodePropertyBoolean getEnabled() {
+  @Valid public ConfigNodePropertyBoolean getEnabled() {
     return enabled;
   }
+
+  @JsonProperty("enabled")
   public void setEnabled(ConfigNodePropertyBoolean enabled) {
     this.enabled = enabled;
   }
@@ -43,16 +56,18 @@ public class ComAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingPr
   
   @ApiModelProperty(value = "")
   @JsonProperty("fallbackPaths")
-  public ConfigNodePropertyArray getFallbackPaths() {
+  @Valid public ConfigNodePropertyArray getFallbackPaths() {
     return fallbackPaths;
   }
+
+  @JsonProperty("fallbackPaths")
   public void setFallbackPaths(ConfigNodePropertyArray fallbackPaths) {
     this.fallbackPaths = fallbackPaths;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -60,8 +75,8 @@ public class ComAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingPr
       return false;
     }
     ComAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingProperties comAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingProperties = (ComAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingProperties) o;
-    return Objects.equals(enabled, comAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingProperties.enabled) &&
-        Objects.equals(fallbackPaths, comAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingProperties.fallbackPaths);
+    return Objects.equals(this.enabled, comAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingProperties.enabled) &&
+        Objects.equals(this.fallbackPaths, comAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingProperties.fallbackPaths);
   }
 
   @Override
@@ -84,11 +99,9 @@ public class ComAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingPr
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

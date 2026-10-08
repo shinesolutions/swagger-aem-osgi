@@ -1,0 +1,42 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqDamInddImplHandlerIndesignXMPHandlerProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqDamInddImplHandlerIndesignXMPHandlerProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComDayCqDamInddImplHandlerIndesignXMPHandlerProperties {
+    title = ComDayCqDamInddImplHandlerIndesignXMPHandlerProperties
+    description = ComDayCqDamInddImplHandlerIndesignXMPHandlerProperties
+    derivedFrom = Root
+    properties {
+        process_label {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        extract_pages {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqDamInddImplHandlerIndesignXMPHandlerProperties {
+    title = ComDayCqDamInddImplHandlerIndesignXMPHandlerProperties
+    description = ComDayCqDamInddImplHandlerIndesignXMPHandlerProperties
+    implements = openapi_server.resourceTypes.ComDayCqDamInddImplHandlerIndesignXMPHandlerProperties
+
+  }
+}

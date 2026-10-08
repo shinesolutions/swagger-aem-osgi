@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeGraniteRestImplServletDefaultGETServletPro
 
 @Canonical
 class ComAdobeGraniteRestImplServletDefaultGETServletInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteRestImplServletDefaultGETServletProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteRestImplServletDefaultGETServletProperties properties
 }

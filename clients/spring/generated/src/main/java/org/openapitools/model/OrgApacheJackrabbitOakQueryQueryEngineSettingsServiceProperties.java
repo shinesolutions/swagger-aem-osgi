@@ -1,34 +1,45 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceProperties   {
-  @JsonProperty("queryLimitInMemory")
-  private ConfigNodePropertyInteger queryLimitInMemory = null;
+@JsonTypeName("orgApacheJackrabbitOakQueryQueryEngineSettingsServiceProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceProperties {
 
-  @JsonProperty("queryLimitReads")
-  private ConfigNodePropertyInteger queryLimitReads = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger queryLimitInMemory;
 
-  @JsonProperty("queryFailTraversal")
-  private ConfigNodePropertyBoolean queryFailTraversal = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger queryLimitReads;
 
-  @JsonProperty("fastQuerySize")
-  private ConfigNodePropertyBoolean fastQuerySize = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean queryFailTraversal;
 
-  public OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceProperties queryLimitInMemory(ConfigNodePropertyInteger queryLimitInMemory) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean fastQuerySize;
+
+  public OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceProperties queryLimitInMemory(@Nullable ConfigNodePropertyInteger queryLimitInMemory) {
     this.queryLimitInMemory = queryLimitInMemory;
     return this;
   }
@@ -36,20 +47,20 @@ public class OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceProperties   {
   /**
    * Get queryLimitInMemory
    * @return queryLimitInMemory
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getQueryLimitInMemory() {
+   */
+  @Valid 
+  @Schema(name = "queryLimitInMemory", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("queryLimitInMemory")
+  public @Nullable ConfigNodePropertyInteger getQueryLimitInMemory() {
     return queryLimitInMemory;
   }
 
-  public void setQueryLimitInMemory(ConfigNodePropertyInteger queryLimitInMemory) {
+  @JsonProperty("queryLimitInMemory")
+  public void setQueryLimitInMemory(@Nullable ConfigNodePropertyInteger queryLimitInMemory) {
     this.queryLimitInMemory = queryLimitInMemory;
   }
 
-  public OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceProperties queryLimitReads(ConfigNodePropertyInteger queryLimitReads) {
+  public OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceProperties queryLimitReads(@Nullable ConfigNodePropertyInteger queryLimitReads) {
     this.queryLimitReads = queryLimitReads;
     return this;
   }
@@ -57,20 +68,20 @@ public class OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceProperties   {
   /**
    * Get queryLimitReads
    * @return queryLimitReads
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getQueryLimitReads() {
+   */
+  @Valid 
+  @Schema(name = "queryLimitReads", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("queryLimitReads")
+  public @Nullable ConfigNodePropertyInteger getQueryLimitReads() {
     return queryLimitReads;
   }
 
-  public void setQueryLimitReads(ConfigNodePropertyInteger queryLimitReads) {
+  @JsonProperty("queryLimitReads")
+  public void setQueryLimitReads(@Nullable ConfigNodePropertyInteger queryLimitReads) {
     this.queryLimitReads = queryLimitReads;
   }
 
-  public OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceProperties queryFailTraversal(ConfigNodePropertyBoolean queryFailTraversal) {
+  public OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceProperties queryFailTraversal(@Nullable ConfigNodePropertyBoolean queryFailTraversal) {
     this.queryFailTraversal = queryFailTraversal;
     return this;
   }
@@ -78,20 +89,20 @@ public class OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceProperties   {
   /**
    * Get queryFailTraversal
    * @return queryFailTraversal
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getQueryFailTraversal() {
+   */
+  @Valid 
+  @Schema(name = "queryFailTraversal", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("queryFailTraversal")
+  public @Nullable ConfigNodePropertyBoolean getQueryFailTraversal() {
     return queryFailTraversal;
   }
 
-  public void setQueryFailTraversal(ConfigNodePropertyBoolean queryFailTraversal) {
+  @JsonProperty("queryFailTraversal")
+  public void setQueryFailTraversal(@Nullable ConfigNodePropertyBoolean queryFailTraversal) {
     this.queryFailTraversal = queryFailTraversal;
   }
 
-  public OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceProperties fastQuerySize(ConfigNodePropertyBoolean fastQuerySize) {
+  public OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceProperties fastQuerySize(@Nullable ConfigNodePropertyBoolean fastQuerySize) {
     this.fastQuerySize = fastQuerySize;
     return this;
   }
@@ -99,22 +110,21 @@ public class OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceProperties   {
   /**
    * Get fastQuerySize
    * @return fastQuerySize
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getFastQuerySize() {
+   */
+  @Valid 
+  @Schema(name = "fastQuerySize", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("fastQuerySize")
+  public @Nullable ConfigNodePropertyBoolean getFastQuerySize() {
     return fastQuerySize;
   }
 
-  public void setFastQuerySize(ConfigNodePropertyBoolean fastQuerySize) {
+  @JsonProperty("fastQuerySize")
+  public void setFastQuerySize(@Nullable ConfigNodePropertyBoolean fastQuerySize) {
     this.fastQuerySize = fastQuerySize;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -137,7 +147,6 @@ public class OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceProperties {\n");
-    
     sb.append("    queryLimitInMemory: ").append(toIndentedString(queryLimitInMemory)).append("\n");
     sb.append("    queryLimitReads: ").append(toIndentedString(queryLimitReads)).append("\n");
     sb.append("    queryFailTraversal: ").append(toIndentedString(queryFailTraversal)).append("\n");
@@ -150,11 +159,8 @@ public class OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

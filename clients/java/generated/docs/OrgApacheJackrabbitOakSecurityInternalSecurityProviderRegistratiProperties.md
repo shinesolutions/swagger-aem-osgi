@@ -1,11 +1,14 @@
 
+
 # OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistratiProperties
 
+
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**requiredServicePids** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**authorizationCompositionType** | [**ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md) |  |  [optional]
+
+| Name | Type | Description | Notes |
+|------------ | ------------- | ------------- | -------------|
+|**requiredServicePids** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+|**authorizationCompositionType** | [**ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md) |  |  [optional] |
 
 
 

@@ -1,0 +1,21 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "show_placeholder" },
+      {"model": "maximum_cache_entries" },
+      {"model": "af_scripting_compatversion" },
+      {"model": "make_file_name_unique" },
+      {"model": "generating_compliant_data" },
+    ]
+  }]
+}

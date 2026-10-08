@@ -2,31 +2,32 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class OrgApacheSlingEngineImplAuthSlingAuthenticatorInfo   {
   
-  private String pid = null;
+  private String pid;
 
-  private String title = null;
+  private String title;
 
-  private String description = null;
+  private String description;
 
-  private OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties properties = null;
+  private OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties properties;
 
-  private String bundleLocation = null;
+  private String bundleLocation;
 
-  private String serviceLocation = null;
-
+  private String serviceLocation;
 
   /**
    **/
@@ -138,7 +139,7 @@ public class OrgApacheSlingEngineImplAuthSlingAuthenticatorInfo   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -146,12 +147,12 @@ public class OrgApacheSlingEngineImplAuthSlingAuthenticatorInfo   {
       return false;
     }
     OrgApacheSlingEngineImplAuthSlingAuthenticatorInfo orgApacheSlingEngineImplAuthSlingAuthenticatorInfo = (OrgApacheSlingEngineImplAuthSlingAuthenticatorInfo) o;
-    return Objects.equals(pid, orgApacheSlingEngineImplAuthSlingAuthenticatorInfo.pid) &&
-        Objects.equals(title, orgApacheSlingEngineImplAuthSlingAuthenticatorInfo.title) &&
-        Objects.equals(description, orgApacheSlingEngineImplAuthSlingAuthenticatorInfo.description) &&
-        Objects.equals(properties, orgApacheSlingEngineImplAuthSlingAuthenticatorInfo.properties) &&
-        Objects.equals(bundleLocation, orgApacheSlingEngineImplAuthSlingAuthenticatorInfo.bundleLocation) &&
-        Objects.equals(serviceLocation, orgApacheSlingEngineImplAuthSlingAuthenticatorInfo.serviceLocation);
+    return Objects.equals(this.pid, orgApacheSlingEngineImplAuthSlingAuthenticatorInfo.pid) &&
+        Objects.equals(this.title, orgApacheSlingEngineImplAuthSlingAuthenticatorInfo.title) &&
+        Objects.equals(this.description, orgApacheSlingEngineImplAuthSlingAuthenticatorInfo.description) &&
+        Objects.equals(this.properties, orgApacheSlingEngineImplAuthSlingAuthenticatorInfo.properties) &&
+        Objects.equals(this.bundleLocation, orgApacheSlingEngineImplAuthSlingAuthenticatorInfo.bundleLocation) &&
+        Objects.equals(this.serviceLocation, orgApacheSlingEngineImplAuthSlingAuthenticatorInfo.serviceLocation);
   }
 
   @Override
@@ -178,11 +179,8 @@ public class OrgApacheSlingEngineImplAuthSlingAuthenticatorInfo   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -11,32 +11,32 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties {
-    ConfigNodePropertyString name = null
-
-    ConfigNodePropertyString title = null
-
-    ConfigNodePropertyString details = null
-
-    ConfigNodePropertyBoolean enabled = null
-
-    ConfigNodePropertyString serviceName = null
-
-    ConfigNodePropertyDropDown logLevel = null
-
-    ConfigNodePropertyBoolean queueProcessingEnabled = null
-
-    ConfigNodePropertyArray packageExporterEndpoints = null
-
-    ConfigNodePropertyInteger pullItems = null
-
-    ConfigNodePropertyInteger httpConnTimeout = null
-
-    ConfigNodePropertyString requestAuthorizationStrategyTarget = null
-
-    ConfigNodePropertyString transportSecretProviderTarget = null
-
-    ConfigNodePropertyString packageBuilderTarget = null
-
-    ConfigNodePropertyString triggersTarget = null
-
+    
+    ConfigNodePropertyString name
+    
+    ConfigNodePropertyString title
+    
+    ConfigNodePropertyString details
+    
+    ConfigNodePropertyBoolean enabled
+    
+    ConfigNodePropertyString serviceName
+    
+    ConfigNodePropertyDropDown logLevel
+    
+    ConfigNodePropertyBoolean queueProcessingEnabled
+    
+    ConfigNodePropertyArray packageExporterEndpoints
+    
+    ConfigNodePropertyInteger pullItems
+    
+    ConfigNodePropertyInteger httpConnTimeout
+    
+    ConfigNodePropertyString requestAuthorizationStrategyTarget
+    
+    ConfigNodePropertyString transportSecretProviderTarget
+    
+    ConfigNodePropertyString packageBuilderTarget
+    
+    ConfigNodePropertyString triggersTarget
 }

@@ -1,7 +1,9 @@
 
+
 # ComDayCqReportingImplConfigServiceImplProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **repconfTimezone** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
@@ -14,6 +16,7 @@ Name | Type | Description | Notes
 **repconfFakedata** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
 **repconfSnapshotuser** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
 **repconfEnforcesnapshotuser** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
+
 
 
 

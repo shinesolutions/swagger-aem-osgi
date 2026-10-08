@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqDamCoreImplMetadataEditorSelectComponentHa
 
 @Canonical
 class ComDayCqDamCoreImplMetadataEditorSelectComponentHandlerInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqDamCoreImplMetadataEditorSelectComponentHandlerProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqDamCoreImplMetadataEditorSelectComponentHandlerProperties properties
 }

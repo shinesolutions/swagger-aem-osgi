@@ -72,8 +72,8 @@ private class OASComDayCqWcmMsmImplServletsAuditLoTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqWcmMsmImplServletsAuditLo comDayCqWcmMsmImplServletsAuditLogServletProperties = new OASComDayCqWcmMsmImplServletsAuditLo();
-        Map<String, String> propertyMappings = comDayCqWcmMsmImplServletsAuditLogServletProperties.getPropertyMappings();
-        System.assertEquals('auditlogservletDefaultEventsCount', propertyMappings.get('auditlogservlet.default.events.count'));
-        System.assertEquals('auditlogservletDefaultPath', propertyMappings.get('auditlogservlet.default.path'));
+        Map<String, String> x-property-mappings = comDayCqWcmMsmImplServletsAuditLogServletProperties.getx-property-mappings();
+        System.assertEquals('auditlogservletDefaultEventsCount', x-property-mappings.get('auditlogservlet.default.events.count'));
+        System.assertEquals('auditlogservletDefaultPath', x-property-mappings.get('auditlogservlet.default.path'));
     }
 }

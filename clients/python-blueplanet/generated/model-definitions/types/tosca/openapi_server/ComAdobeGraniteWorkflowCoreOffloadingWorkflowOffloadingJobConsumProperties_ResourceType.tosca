@@ -1,0 +1,36 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumProperties {
+    title = ComAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumProperties
+    description = ComAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumProperties
+    derivedFrom = Root
+    properties {
+        job_topics {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumProperties {
+    title = ComAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumProperties
+    description = ComAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumProperties
+    implements = openapi_server.resourceTypes.ComAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumProperties
+
+  }
+}

@@ -10,56 +10,56 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties {
-    ConfigNodePropertyString providerName = null
-
-    ConfigNodePropertyString hostName = null
-
-    ConfigNodePropertyInteger hostPort = null
-
-    ConfigNodePropertyBoolean hostSsl = null
-
-    ConfigNodePropertyBoolean hostTls = null
-
-    ConfigNodePropertyBoolean hostNoCertCheck = null
-
-    ConfigNodePropertyString bindDn = null
-
-    ConfigNodePropertyString bindPassword = null
-
-    ConfigNodePropertyString searchTimeout = null
-
-    ConfigNodePropertyInteger adminPoolMaxActive = null
-
-    ConfigNodePropertyBoolean adminPoolLookupOnValidate = null
-
-    ConfigNodePropertyInteger userPoolMaxActive = null
-
-    ConfigNodePropertyBoolean userPoolLookupOnValidate = null
-
-    ConfigNodePropertyString userBaseDN = null
-
-    ConfigNodePropertyArray userObjectclass = null
-
-    ConfigNodePropertyString userIdAttribute = null
-
-    ConfigNodePropertyString userExtraFilter = null
-
-    ConfigNodePropertyBoolean userMakeDnPath = null
-
-    ConfigNodePropertyString groupBaseDN = null
-
-    ConfigNodePropertyArray groupObjectclass = null
-
-    ConfigNodePropertyString groupNameAttribute = null
-
-    ConfigNodePropertyString groupExtraFilter = null
-
-    ConfigNodePropertyBoolean groupMakeDnPath = null
-
-    ConfigNodePropertyString groupMemberAttribute = null
-
-    ConfigNodePropertyBoolean useUidForExtId = null
-
-    ConfigNodePropertyArray customattributes = null
-
+    
+    ConfigNodePropertyString providerName
+    
+    ConfigNodePropertyString hostName
+    
+    ConfigNodePropertyInteger hostPort
+    
+    ConfigNodePropertyBoolean hostSsl
+    
+    ConfigNodePropertyBoolean hostTls
+    
+    ConfigNodePropertyBoolean hostNoCertCheck
+    
+    ConfigNodePropertyString bindDn
+    
+    ConfigNodePropertyString bindPassword
+    
+    ConfigNodePropertyString searchTimeout
+    
+    ConfigNodePropertyInteger adminPoolMaxActive
+    
+    ConfigNodePropertyBoolean adminPoolLookupOnValidate
+    
+    ConfigNodePropertyInteger userPoolMaxActive
+    
+    ConfigNodePropertyBoolean userPoolLookupOnValidate
+    
+    ConfigNodePropertyString userBaseDN
+    
+    ConfigNodePropertyArray userObjectclass
+    
+    ConfigNodePropertyString userIdAttribute
+    
+    ConfigNodePropertyString userExtraFilter
+    
+    ConfigNodePropertyBoolean userMakeDnPath
+    
+    ConfigNodePropertyString groupBaseDN
+    
+    ConfigNodePropertyArray groupObjectclass
+    
+    ConfigNodePropertyString groupNameAttribute
+    
+    ConfigNodePropertyString groupExtraFilter
+    
+    ConfigNodePropertyBoolean groupMakeDnPath
+    
+    ConfigNodePropertyString groupMemberAttribute
+    
+    ConfigNodePropertyBoolean useUidForExtId
+    
+    ConfigNodePropertyArray customattributes
 }

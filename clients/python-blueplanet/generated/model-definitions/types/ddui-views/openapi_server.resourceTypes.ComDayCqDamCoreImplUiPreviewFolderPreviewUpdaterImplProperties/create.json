@@ -1,0 +1,20 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "create_preview_enabled" },
+      {"model": "update_preview_enabled" },
+      {"model": "queue_size" },
+      {"model": "folder_preview_rendition_regex" },
+    ]
+  }]
+}

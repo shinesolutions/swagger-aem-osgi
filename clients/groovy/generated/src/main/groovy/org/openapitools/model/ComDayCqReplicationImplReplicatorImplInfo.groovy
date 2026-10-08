@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqReplicationImplReplicatorImplProperties;
 
 @Canonical
 class ComDayCqReplicationImplReplicatorImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqReplicationImplReplicatorImplProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqReplicationImplReplicatorImplProperties properties
 }

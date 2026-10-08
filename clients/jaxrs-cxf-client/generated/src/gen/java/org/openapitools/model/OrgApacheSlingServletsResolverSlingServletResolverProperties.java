@@ -5,28 +5,27 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
 
 import io.swagger.annotations.ApiModelProperty;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlType;
-import javax.xml.bind.annotation.XmlEnum;
-import javax.xml.bind.annotation.XmlEnumValue;
+import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
 
 public class OrgApacheSlingServletsResolverSlingServletResolverProperties  {
   
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString servletresolverServletRoot = null;
+
+  private ConfigNodePropertyString servletresolverServletRoot;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyInteger servletresolverCacheSize = null;
+
+  private ConfigNodePropertyInteger servletresolverCacheSize;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyArray servletresolverPaths = null;
+
+  private ConfigNodePropertyArray servletresolverPaths;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyArray servletresolverDefaultExtensions = null;
+
+  private ConfigNodePropertyArray servletresolverDefaultExtensions;
  /**
    * Get servletresolverServletRoot
    * @return servletresolverServletRoot
@@ -99,6 +98,25 @@ public class OrgApacheSlingServletsResolverSlingServletResolverProperties  {
     return this;
   }
 
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    OrgApacheSlingServletsResolverSlingServletResolverProperties orgApacheSlingServletsResolverSlingServletResolverProperties = (OrgApacheSlingServletsResolverSlingServletResolverProperties) o;
+    return Objects.equals(this.servletresolverServletRoot, orgApacheSlingServletsResolverSlingServletResolverProperties.servletresolverServletRoot) &&
+        Objects.equals(this.servletresolverCacheSize, orgApacheSlingServletsResolverSlingServletResolverProperties.servletresolverCacheSize) &&
+        Objects.equals(this.servletresolverPaths, orgApacheSlingServletsResolverSlingServletResolverProperties.servletresolverPaths) &&
+        Objects.equals(this.servletresolverDefaultExtensions, orgApacheSlingServletsResolverSlingServletResolverProperties.servletresolverDefaultExtensions);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(servletresolverServletRoot, servletresolverCacheSize, servletresolverPaths, servletresolverDefaultExtensions);
+  }
 
   @Override
   public String toString() {
@@ -117,11 +135,8 @@ public class OrgApacheSlingServletsResolverSlingServletResolverProperties  {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private static String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

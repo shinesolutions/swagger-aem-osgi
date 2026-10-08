@@ -8,8 +8,8 @@ import org.openapitools.model.ConfigNodePropertyDropDown;
 
 @Canonical
 class ComDayCqWcmCoreImplDevicedetectionDeviceIdentificationModeImplProperties {
-    ConfigNodePropertyDropDown dimDefaultMode = null
-
-    ConfigNodePropertyBoolean dimAppcacheEnabled = null
-
+    
+    ConfigNodePropertyDropDown dimDefaultMode
+    
+    ConfigNodePropertyBoolean dimAppcacheEnabled
 }

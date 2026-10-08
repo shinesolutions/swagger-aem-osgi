@@ -1,19 +1,30 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comDayCqDamS7damCommonPostServletsSetCreateHandlerProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqDamS7damCommonPostServletsSetCreateHandlerProperties   {
-  
-  private @Valid ConfigNodePropertyString slingPostOperation = null;
-  private @Valid ConfigNodePropertyString slingServletMethods = null;
+  private ConfigNodePropertyString slingPostOperation;
+  private ConfigNodePropertyString slingServletMethods;
+
+  public ComDayCqDamS7damCommonPostServletsSetCreateHandlerProperties() {
+  }
 
   /**
    **/
@@ -25,9 +36,11 @@ public class ComDayCqDamS7damCommonPostServletsSetCreateHandlerProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("sling.post.operation")
-  public ConfigNodePropertyString getSlingPostOperation() {
+  @Valid public ConfigNodePropertyString getSlingPostOperation() {
     return slingPostOperation;
   }
+
+  @JsonProperty("sling.post.operation")
   public void setSlingPostOperation(ConfigNodePropertyString slingPostOperation) {
     this.slingPostOperation = slingPostOperation;
   }
@@ -42,16 +55,18 @@ public class ComDayCqDamS7damCommonPostServletsSetCreateHandlerProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("sling.servlet.methods")
-  public ConfigNodePropertyString getSlingServletMethods() {
+  @Valid public ConfigNodePropertyString getSlingServletMethods() {
     return slingServletMethods;
   }
+
+  @JsonProperty("sling.servlet.methods")
   public void setSlingServletMethods(ConfigNodePropertyString slingServletMethods) {
     this.slingServletMethods = slingServletMethods;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -59,8 +74,8 @@ public class ComDayCqDamS7damCommonPostServletsSetCreateHandlerProperties   {
       return false;
     }
     ComDayCqDamS7damCommonPostServletsSetCreateHandlerProperties comDayCqDamS7damCommonPostServletsSetCreateHandlerProperties = (ComDayCqDamS7damCommonPostServletsSetCreateHandlerProperties) o;
-    return Objects.equals(slingPostOperation, comDayCqDamS7damCommonPostServletsSetCreateHandlerProperties.slingPostOperation) &&
-        Objects.equals(slingServletMethods, comDayCqDamS7damCommonPostServletsSetCreateHandlerProperties.slingServletMethods);
+    return Objects.equals(this.slingPostOperation, comDayCqDamS7damCommonPostServletsSetCreateHandlerProperties.slingPostOperation) &&
+        Objects.equals(this.slingServletMethods, comDayCqDamS7damCommonPostServletsSetCreateHandlerProperties.slingServletMethods);
   }
 
   @Override
@@ -83,11 +98,9 @@ public class ComDayCqDamS7damCommonPostServletsSetCreateHandlerProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

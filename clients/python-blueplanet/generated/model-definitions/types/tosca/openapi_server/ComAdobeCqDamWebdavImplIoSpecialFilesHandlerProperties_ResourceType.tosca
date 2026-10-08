@@ -1,0 +1,36 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqDamWebdavImplIoSpecialFilesHandlerProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqDamWebdavImplIoSpecialFilesHandlerProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+}
+resourceTypes {
+
+  ComAdobeCqDamWebdavImplIoSpecialFilesHandlerProperties {
+    title = ComAdobeCqDamWebdavImplIoSpecialFilesHandlerProperties
+    description = ComAdobeCqDamWebdavImplIoSpecialFilesHandlerProperties
+    derivedFrom = Root
+    properties {
+        com_day_cq_dam_core_impl_io_special_files_handler_filepatters {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqDamWebdavImplIoSpecialFilesHandlerProperties {
+    title = ComAdobeCqDamWebdavImplIoSpecialFilesHandlerProperties
+    description = ComAdobeCqDamWebdavImplIoSpecialFilesHandlerProperties
+    implements = openapi_server.resourceTypes.ComAdobeCqDamWebdavImplIoSpecialFilesHandlerProperties
+
+  }
+}

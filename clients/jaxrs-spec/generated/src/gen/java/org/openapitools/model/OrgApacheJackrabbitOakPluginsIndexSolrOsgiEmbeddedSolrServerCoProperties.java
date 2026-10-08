@@ -1,19 +1,30 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("orgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCoProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCoProperties   {
-  
-  private @Valid ConfigNodePropertyString solrHomePath = null;
-  private @Valid ConfigNodePropertyString solrCoreName = null;
+  private ConfigNodePropertyString solrHomePath;
+  private ConfigNodePropertyString solrCoreName;
+
+  public OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCoProperties() {
+  }
 
   /**
    **/
@@ -25,9 +36,11 @@ public class OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCoPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("solr.home.path")
-  public ConfigNodePropertyString getSolrHomePath() {
+  @Valid public ConfigNodePropertyString getSolrHomePath() {
     return solrHomePath;
   }
+
+  @JsonProperty("solr.home.path")
   public void setSolrHomePath(ConfigNodePropertyString solrHomePath) {
     this.solrHomePath = solrHomePath;
   }
@@ -42,16 +55,18 @@ public class OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCoPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("solr.core.name")
-  public ConfigNodePropertyString getSolrCoreName() {
+  @Valid public ConfigNodePropertyString getSolrCoreName() {
     return solrCoreName;
   }
+
+  @JsonProperty("solr.core.name")
   public void setSolrCoreName(ConfigNodePropertyString solrCoreName) {
     this.solrCoreName = solrCoreName;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -59,8 +74,8 @@ public class OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCoPrope
       return false;
     }
     OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCoProperties orgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCoProperties = (OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCoProperties) o;
-    return Objects.equals(solrHomePath, orgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCoProperties.solrHomePath) &&
-        Objects.equals(solrCoreName, orgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCoProperties.solrCoreName);
+    return Objects.equals(this.solrHomePath, orgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCoProperties.solrHomePath) &&
+        Objects.equals(this.solrCoreName, orgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCoProperties.solrCoreName);
   }
 
   @Override
@@ -83,11 +98,9 @@ public class OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCoPrope
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

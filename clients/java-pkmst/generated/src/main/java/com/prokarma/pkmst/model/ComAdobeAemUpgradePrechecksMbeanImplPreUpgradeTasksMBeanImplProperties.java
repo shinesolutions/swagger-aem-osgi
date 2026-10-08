@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyArray;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
@@ -15,24 +16,23 @@ import io.swagger.annotations.ApiModelProperty;
  * ComAdobeAemUpgradePrechecksMbeanImplPreUpgradeTasksMBeanImplProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeAemUpgradePrechecksMbeanImplPreUpgradeTasksMBeanImplProperties   {
   @JsonProperty("pre-upgrade.maintenance.tasks")
-  private ConfigNodePropertyArray preUpgradeMaintenanceTasks = null;
+  private ConfigNodePropertyArray preUpgradeMaintenanceTasks;
 
   @JsonProperty("pre-upgrade.hc.tags")
-  private ConfigNodePropertyArray preUpgradeHcTags = null;
+  private ConfigNodePropertyArray preUpgradeHcTags;
 
   public ComAdobeAemUpgradePrechecksMbeanImplPreUpgradeTasksMBeanImplProperties preUpgradeMaintenanceTasks(ConfigNodePropertyArray preUpgradeMaintenanceTasks) {
     this.preUpgradeMaintenanceTasks = preUpgradeMaintenanceTasks;
     return this;
   }
 
-   /**
+  /**
    * Get preUpgradeMaintenanceTasks
    * @return preUpgradeMaintenanceTasks
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getPreUpgradeMaintenanceTasks() {
     return preUpgradeMaintenanceTasks;
@@ -47,10 +47,10 @@ public class ComAdobeAemUpgradePrechecksMbeanImplPreUpgradeTasksMBeanImplPropert
     return this;
   }
 
-   /**
+  /**
    * Get preUpgradeHcTags
    * @return preUpgradeHcTags
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getPreUpgradeHcTags() {
     return preUpgradeHcTags;
@@ -62,7 +62,7 @@ public class ComAdobeAemUpgradePrechecksMbeanImplPreUpgradeTasksMBeanImplPropert
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -94,11 +94,8 @@ public class ComAdobeAemUpgradePrechecksMbeanImplPreUpgradeTasksMBeanImplPropert
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

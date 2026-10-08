@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqWcmLaunchesImplLaunchesEventHandlerPrope
 
 @Canonical
 class ComAdobeCqWcmLaunchesImplLaunchesEventHandlerInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqWcmLaunchesImplLaunchesEventHandlerProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqWcmLaunchesImplLaunchesEventHandlerProperties properties
 }

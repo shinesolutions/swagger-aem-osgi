@@ -1,24 +1,35 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comDayCqDamIdsImplIDSPoolManagerImplProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqDamIdsImplIDSPoolManagerImplProperties   {
-  
-  private @Valid ConfigNodePropertyInteger maxErrorsToBlacklist = null;
-  private @Valid ConfigNodePropertyInteger retryIntervalToWhitelist = null;
-  private @Valid ConfigNodePropertyInteger connectTimeout = null;
-  private @Valid ConfigNodePropertyInteger socketTimeout = null;
-  private @Valid ConfigNodePropertyString processLabel = null;
-  private @Valid ConfigNodePropertyInteger connectionUseMax = null;
+  private ConfigNodePropertyInteger maxErrorsToBlacklist;
+  private ConfigNodePropertyInteger retryIntervalToWhitelist;
+  private ConfigNodePropertyInteger connectTimeout;
+  private ConfigNodePropertyInteger socketTimeout;
+  private ConfigNodePropertyString processLabel;
+  private ConfigNodePropertyInteger connectionUseMax;
+
+  public ComDayCqDamIdsImplIDSPoolManagerImplProperties() {
+  }
 
   /**
    **/
@@ -30,9 +41,11 @@ public class ComDayCqDamIdsImplIDSPoolManagerImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("max.errors.to.blacklist")
-  public ConfigNodePropertyInteger getMaxErrorsToBlacklist() {
+  @Valid public ConfigNodePropertyInteger getMaxErrorsToBlacklist() {
     return maxErrorsToBlacklist;
   }
+
+  @JsonProperty("max.errors.to.blacklist")
   public void setMaxErrorsToBlacklist(ConfigNodePropertyInteger maxErrorsToBlacklist) {
     this.maxErrorsToBlacklist = maxErrorsToBlacklist;
   }
@@ -47,9 +60,11 @@ public class ComDayCqDamIdsImplIDSPoolManagerImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("retry.interval.to.whitelist")
-  public ConfigNodePropertyInteger getRetryIntervalToWhitelist() {
+  @Valid public ConfigNodePropertyInteger getRetryIntervalToWhitelist() {
     return retryIntervalToWhitelist;
   }
+
+  @JsonProperty("retry.interval.to.whitelist")
   public void setRetryIntervalToWhitelist(ConfigNodePropertyInteger retryIntervalToWhitelist) {
     this.retryIntervalToWhitelist = retryIntervalToWhitelist;
   }
@@ -64,9 +79,11 @@ public class ComDayCqDamIdsImplIDSPoolManagerImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("connect.timeout")
-  public ConfigNodePropertyInteger getConnectTimeout() {
+  @Valid public ConfigNodePropertyInteger getConnectTimeout() {
     return connectTimeout;
   }
+
+  @JsonProperty("connect.timeout")
   public void setConnectTimeout(ConfigNodePropertyInteger connectTimeout) {
     this.connectTimeout = connectTimeout;
   }
@@ -81,9 +98,11 @@ public class ComDayCqDamIdsImplIDSPoolManagerImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("socket.timeout")
-  public ConfigNodePropertyInteger getSocketTimeout() {
+  @Valid public ConfigNodePropertyInteger getSocketTimeout() {
     return socketTimeout;
   }
+
+  @JsonProperty("socket.timeout")
   public void setSocketTimeout(ConfigNodePropertyInteger socketTimeout) {
     this.socketTimeout = socketTimeout;
   }
@@ -98,9 +117,11 @@ public class ComDayCqDamIdsImplIDSPoolManagerImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("process.label")
-  public ConfigNodePropertyString getProcessLabel() {
+  @Valid public ConfigNodePropertyString getProcessLabel() {
     return processLabel;
   }
+
+  @JsonProperty("process.label")
   public void setProcessLabel(ConfigNodePropertyString processLabel) {
     this.processLabel = processLabel;
   }
@@ -115,16 +136,18 @@ public class ComDayCqDamIdsImplIDSPoolManagerImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("connection.use.max")
-  public ConfigNodePropertyInteger getConnectionUseMax() {
+  @Valid public ConfigNodePropertyInteger getConnectionUseMax() {
     return connectionUseMax;
   }
+
+  @JsonProperty("connection.use.max")
   public void setConnectionUseMax(ConfigNodePropertyInteger connectionUseMax) {
     this.connectionUseMax = connectionUseMax;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -132,12 +155,12 @@ public class ComDayCqDamIdsImplIDSPoolManagerImplProperties   {
       return false;
     }
     ComDayCqDamIdsImplIDSPoolManagerImplProperties comDayCqDamIdsImplIDSPoolManagerImplProperties = (ComDayCqDamIdsImplIDSPoolManagerImplProperties) o;
-    return Objects.equals(maxErrorsToBlacklist, comDayCqDamIdsImplIDSPoolManagerImplProperties.maxErrorsToBlacklist) &&
-        Objects.equals(retryIntervalToWhitelist, comDayCqDamIdsImplIDSPoolManagerImplProperties.retryIntervalToWhitelist) &&
-        Objects.equals(connectTimeout, comDayCqDamIdsImplIDSPoolManagerImplProperties.connectTimeout) &&
-        Objects.equals(socketTimeout, comDayCqDamIdsImplIDSPoolManagerImplProperties.socketTimeout) &&
-        Objects.equals(processLabel, comDayCqDamIdsImplIDSPoolManagerImplProperties.processLabel) &&
-        Objects.equals(connectionUseMax, comDayCqDamIdsImplIDSPoolManagerImplProperties.connectionUseMax);
+    return Objects.equals(this.maxErrorsToBlacklist, comDayCqDamIdsImplIDSPoolManagerImplProperties.maxErrorsToBlacklist) &&
+        Objects.equals(this.retryIntervalToWhitelist, comDayCqDamIdsImplIDSPoolManagerImplProperties.retryIntervalToWhitelist) &&
+        Objects.equals(this.connectTimeout, comDayCqDamIdsImplIDSPoolManagerImplProperties.connectTimeout) &&
+        Objects.equals(this.socketTimeout, comDayCqDamIdsImplIDSPoolManagerImplProperties.socketTimeout) &&
+        Objects.equals(this.processLabel, comDayCqDamIdsImplIDSPoolManagerImplProperties.processLabel) &&
+        Objects.equals(this.connectionUseMax, comDayCqDamIdsImplIDSPoolManagerImplProperties.connectionUseMax);
   }
 
   @Override
@@ -164,11 +187,9 @@ public class ComDayCqDamIdsImplIDSPoolManagerImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

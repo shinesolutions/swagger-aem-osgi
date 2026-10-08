@@ -1,20 +1,31 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerProperties   {
-  
-  private @Valid ConfigNodePropertyInteger defaultTimeout = null;
-  private @Valid ConfigNodePropertyInteger maxTimeout = null;
-  private @Valid ConfigNodePropertyInteger defaultPeriod = null;
+  private ConfigNodePropertyInteger defaultTimeout;
+  private ConfigNodePropertyInteger maxTimeout;
+  private ConfigNodePropertyInteger defaultPeriod;
+
+  public ComAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerProperties() {
+  }
 
   /**
    **/
@@ -26,9 +37,11 @@ public class ComAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerProperties  
   
   @ApiModelProperty(value = "")
   @JsonProperty("default.timeout")
-  public ConfigNodePropertyInteger getDefaultTimeout() {
+  @Valid public ConfigNodePropertyInteger getDefaultTimeout() {
     return defaultTimeout;
   }
+
+  @JsonProperty("default.timeout")
   public void setDefaultTimeout(ConfigNodePropertyInteger defaultTimeout) {
     this.defaultTimeout = defaultTimeout;
   }
@@ -43,9 +56,11 @@ public class ComAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerProperties  
   
   @ApiModelProperty(value = "")
   @JsonProperty("max.timeout")
-  public ConfigNodePropertyInteger getMaxTimeout() {
+  @Valid public ConfigNodePropertyInteger getMaxTimeout() {
     return maxTimeout;
   }
+
+  @JsonProperty("max.timeout")
   public void setMaxTimeout(ConfigNodePropertyInteger maxTimeout) {
     this.maxTimeout = maxTimeout;
   }
@@ -60,16 +75,18 @@ public class ComAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerProperties  
   
   @ApiModelProperty(value = "")
   @JsonProperty("default.period")
-  public ConfigNodePropertyInteger getDefaultPeriod() {
+  @Valid public ConfigNodePropertyInteger getDefaultPeriod() {
     return defaultPeriod;
   }
+
+  @JsonProperty("default.period")
   public void setDefaultPeriod(ConfigNodePropertyInteger defaultPeriod) {
     this.defaultPeriod = defaultPeriod;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -77,9 +94,9 @@ public class ComAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerProperties  
       return false;
     }
     ComAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerProperties comAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerProperties = (ComAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerProperties) o;
-    return Objects.equals(defaultTimeout, comAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerProperties.defaultTimeout) &&
-        Objects.equals(maxTimeout, comAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerProperties.maxTimeout) &&
-        Objects.equals(defaultPeriod, comAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerProperties.defaultPeriod);
+    return Objects.equals(this.defaultTimeout, comAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerProperties.defaultTimeout) &&
+        Objects.equals(this.maxTimeout, comAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerProperties.maxTimeout) &&
+        Objects.equals(this.defaultPeriod, comAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerProperties.defaultPeriod);
   }
 
   @Override
@@ -103,11 +120,9 @@ public class ComAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerProperties  
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

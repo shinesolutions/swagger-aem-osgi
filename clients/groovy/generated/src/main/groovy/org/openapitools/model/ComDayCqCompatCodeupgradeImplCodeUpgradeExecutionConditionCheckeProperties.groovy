@@ -7,8 +7,8 @@ import org.openapitools.model.ConfigNodePropertyArray;
 
 @Canonical
 class ComDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckeProperties {
-    ConfigNodePropertyArray codeupgradetasks = null
-
-    ConfigNodePropertyArray codeupgradetaskfilters = null
-
+    
+    ConfigNodePropertyArray codeupgradetasks
+    
+    ConfigNodePropertyArray codeupgradetaskfilters
 }

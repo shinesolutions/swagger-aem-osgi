@@ -72,7 +72,7 @@ private class OASComAdobeGraniteAuthSamlSamlAuthenTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeGraniteAuthSamlSamlAuthen comAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties = new OASComAdobeGraniteAuthSamlSamlAuthen();
-        Map<String, String> propertyMappings = comAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties.getPropertyMappings();
-        System.assertEquals('serviceRanking', propertyMappings.get('service.ranking'));
+        Map<String, String> x-property-mappings = comAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties.getx-property-mappings();
+        System.assertEquals('serviceRanking', x-property-mappings.get('service.ranking'));
     }
 }

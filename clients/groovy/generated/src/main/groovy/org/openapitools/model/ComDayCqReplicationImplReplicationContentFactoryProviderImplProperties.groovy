@@ -8,8 +8,8 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class ComDayCqReplicationImplReplicationContentFactoryProviderImplProperties {
-    ConfigNodePropertyBoolean replicationContentUseFileStorage = null
-
-    ConfigNodePropertyInteger replicationContentMaxCommitAttempts = null
-
+    
+    ConfigNodePropertyBoolean replicationContentUseFileStorage
+    
+    ConfigNodePropertyInteger replicationContentMaxCommitAttempts
 }

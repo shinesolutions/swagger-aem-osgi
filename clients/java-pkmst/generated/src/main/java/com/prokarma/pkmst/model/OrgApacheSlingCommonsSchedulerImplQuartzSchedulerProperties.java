@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyArray;
 import com.prokarma.pkmst.model.ConfigNodePropertyBoolean;
 import com.prokarma.pkmst.model.ConfigNodePropertyInteger;
@@ -18,33 +19,32 @@ import io.swagger.annotations.ApiModelProperty;
  * OrgApacheSlingCommonsSchedulerImplQuartzSchedulerProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingCommonsSchedulerImplQuartzSchedulerProperties   {
   @JsonProperty("poolName")
-  private ConfigNodePropertyString poolName = null;
+  private ConfigNodePropertyString poolName;
 
   @JsonProperty("allowedPoolNames")
-  private ConfigNodePropertyArray allowedPoolNames = null;
+  private ConfigNodePropertyArray allowedPoolNames;
 
   @JsonProperty("scheduler.useleaderforsingle")
-  private ConfigNodePropertyBoolean schedulerUseleaderforsingle = null;
+  private ConfigNodePropertyBoolean schedulerUseleaderforsingle;
 
   @JsonProperty("metrics.filters")
-  private ConfigNodePropertyArray metricsFilters = null;
+  private ConfigNodePropertyArray metricsFilters;
 
   @JsonProperty("slowThresholdMillis")
-  private ConfigNodePropertyInteger slowThresholdMillis = null;
+  private ConfigNodePropertyInteger slowThresholdMillis;
 
   public OrgApacheSlingCommonsSchedulerImplQuartzSchedulerProperties poolName(ConfigNodePropertyString poolName) {
     this.poolName = poolName;
     return this;
   }
 
-   /**
+  /**
    * Get poolName
    * @return poolName
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getPoolName() {
     return poolName;
@@ -59,10 +59,10 @@ public class OrgApacheSlingCommonsSchedulerImplQuartzSchedulerProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get allowedPoolNames
    * @return allowedPoolNames
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getAllowedPoolNames() {
     return allowedPoolNames;
@@ -77,10 +77,10 @@ public class OrgApacheSlingCommonsSchedulerImplQuartzSchedulerProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get schedulerUseleaderforsingle
    * @return schedulerUseleaderforsingle
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getSchedulerUseleaderforsingle() {
     return schedulerUseleaderforsingle;
@@ -95,10 +95,10 @@ public class OrgApacheSlingCommonsSchedulerImplQuartzSchedulerProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get metricsFilters
    * @return metricsFilters
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getMetricsFilters() {
     return metricsFilters;
@@ -113,10 +113,10 @@ public class OrgApacheSlingCommonsSchedulerImplQuartzSchedulerProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get slowThresholdMillis
    * @return slowThresholdMillis
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getSlowThresholdMillis() {
     return slowThresholdMillis;
@@ -128,7 +128,7 @@ public class OrgApacheSlingCommonsSchedulerImplQuartzSchedulerProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -166,11 +166,8 @@ public class OrgApacheSlingCommonsSchedulerImplQuartzSchedulerProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

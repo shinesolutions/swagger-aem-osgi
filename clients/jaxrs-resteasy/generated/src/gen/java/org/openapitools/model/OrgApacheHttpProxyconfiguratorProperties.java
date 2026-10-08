@@ -4,29 +4,33 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2019-08-05T00:59:30.156Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2026-10-07T12:54:21.614735164Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheHttpProxyconfiguratorProperties   {
   
-  private ConfigNodePropertyBoolean proxyEnabled = null;
-  private ConfigNodePropertyString proxyHost = null;
-  private ConfigNodePropertyInteger proxyPort = null;
-  private ConfigNodePropertyString proxyUser = null;
-  private ConfigNodePropertyString proxyPassword = null;
-  private ConfigNodePropertyArray proxyExceptions = null;
+  private ConfigNodePropertyBoolean proxyEnabled;
+  private ConfigNodePropertyString proxyHost;
+  private ConfigNodePropertyInteger proxyPort;
+  private ConfigNodePropertyString proxyUser;
+  private ConfigNodePropertyString proxyPassword;
+  private ConfigNodePropertyArray proxyExceptions;
 
   /**
    **/
   
   @ApiModelProperty(value = "")
   @JsonProperty("proxy.enabled")
+  @Valid
   public ConfigNodePropertyBoolean getProxyEnabled() {
     return proxyEnabled;
   }
@@ -39,6 +43,7 @@ public class OrgApacheHttpProxyconfiguratorProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("proxy.host")
+  @Valid
   public ConfigNodePropertyString getProxyHost() {
     return proxyHost;
   }
@@ -51,6 +56,7 @@ public class OrgApacheHttpProxyconfiguratorProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("proxy.port")
+  @Valid
   public ConfigNodePropertyInteger getProxyPort() {
     return proxyPort;
   }
@@ -63,6 +69,7 @@ public class OrgApacheHttpProxyconfiguratorProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("proxy.user")
+  @Valid
   public ConfigNodePropertyString getProxyUser() {
     return proxyUser;
   }
@@ -75,6 +82,7 @@ public class OrgApacheHttpProxyconfiguratorProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("proxy.password")
+  @Valid
   public ConfigNodePropertyString getProxyPassword() {
     return proxyPassword;
   }
@@ -87,6 +95,7 @@ public class OrgApacheHttpProxyconfiguratorProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("proxy.exceptions")
+  @Valid
   public ConfigNodePropertyArray getProxyExceptions() {
     return proxyExceptions;
   }
@@ -96,7 +105,7 @@ public class OrgApacheHttpProxyconfiguratorProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -104,12 +113,12 @@ public class OrgApacheHttpProxyconfiguratorProperties   {
       return false;
     }
     OrgApacheHttpProxyconfiguratorProperties orgApacheHttpProxyconfiguratorProperties = (OrgApacheHttpProxyconfiguratorProperties) o;
-    return Objects.equals(proxyEnabled, orgApacheHttpProxyconfiguratorProperties.proxyEnabled) &&
-        Objects.equals(proxyHost, orgApacheHttpProxyconfiguratorProperties.proxyHost) &&
-        Objects.equals(proxyPort, orgApacheHttpProxyconfiguratorProperties.proxyPort) &&
-        Objects.equals(proxyUser, orgApacheHttpProxyconfiguratorProperties.proxyUser) &&
-        Objects.equals(proxyPassword, orgApacheHttpProxyconfiguratorProperties.proxyPassword) &&
-        Objects.equals(proxyExceptions, orgApacheHttpProxyconfiguratorProperties.proxyExceptions);
+    return Objects.equals(this.proxyEnabled, orgApacheHttpProxyconfiguratorProperties.proxyEnabled) &&
+        Objects.equals(this.proxyHost, orgApacheHttpProxyconfiguratorProperties.proxyHost) &&
+        Objects.equals(this.proxyPort, orgApacheHttpProxyconfiguratorProperties.proxyPort) &&
+        Objects.equals(this.proxyUser, orgApacheHttpProxyconfiguratorProperties.proxyUser) &&
+        Objects.equals(this.proxyPassword, orgApacheHttpProxyconfiguratorProperties.proxyPassword) &&
+        Objects.equals(this.proxyExceptions, orgApacheHttpProxyconfiguratorProperties.proxyExceptions);
   }
 
   @Override
@@ -136,11 +145,8 @@ public class OrgApacheHttpProxyconfiguratorProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

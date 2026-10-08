@@ -7,8 +7,8 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeGraniteAuthImsProperties {
-    ConfigNodePropertyString configid = null
-
-    ConfigNodePropertyString scope = null
-
+    
+    ConfigNodePropertyString configid
+    
+    ConfigNodePropertyString scope
 }

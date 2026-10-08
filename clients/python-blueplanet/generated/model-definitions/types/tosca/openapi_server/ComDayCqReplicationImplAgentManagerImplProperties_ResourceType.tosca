@@ -1,0 +1,46 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqReplicationImplAgentManagerImplProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqReplicationImplAgentManagerImplProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComDayCqReplicationImplAgentManagerImplProperties {
+    title = ComDayCqReplicationImplAgentManagerImplProperties
+    description = ComDayCqReplicationImplAgentManagerImplProperties
+    derivedFrom = Root
+    properties {
+        job_topics {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        service_user_target {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        agent_provider_target {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqReplicationImplAgentManagerImplProperties {
+    title = ComDayCqReplicationImplAgentManagerImplProperties
+    description = ComDayCqReplicationImplAgentManagerImplProperties
+    implements = openapi_server.resourceTypes.ComDayCqReplicationImplAgentManagerImplProperties
+
+  }
+}

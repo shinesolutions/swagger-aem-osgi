@@ -9,12 +9,12 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqAuthImplCugCugSupportImplProperties {
-    ConfigNodePropertyArray cugExemptedPrincipals = null
-
-    ConfigNodePropertyBoolean cugEnabled = null
-
-    ConfigNodePropertyString cugPrincipalsRegex = null
-
-    ConfigNodePropertyString cugPrincipalsReplacement = null
-
+    
+    ConfigNodePropertyArray cugExemptedPrincipals
+    
+    ConfigNodePropertyBoolean cugEnabled
+    
+    ConfigNodePropertyString cugPrincipalsRegex
+    
+    ConfigNodePropertyString cugPrincipalsReplacement
 }

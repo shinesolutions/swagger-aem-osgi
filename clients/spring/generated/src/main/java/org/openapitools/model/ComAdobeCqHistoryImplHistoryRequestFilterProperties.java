@@ -1,27 +1,38 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComAdobeCqHistoryImplHistoryRequestFilterProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComAdobeCqHistoryImplHistoryRequestFilterProperties   {
-  @JsonProperty("history.requestFilter.excludedSelectors")
-  private ConfigNodePropertyArray historyRequestFilterExcludedSelectors = null;
+@JsonTypeName("comAdobeCqHistoryImplHistoryRequestFilterProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComAdobeCqHistoryImplHistoryRequestFilterProperties {
 
-  @JsonProperty("history.requestFilter.excludedExtensions")
-  private ConfigNodePropertyArray historyRequestFilterExcludedExtensions = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray historyRequestFilterExcludedSelectors;
 
-  public ComAdobeCqHistoryImplHistoryRequestFilterProperties historyRequestFilterExcludedSelectors(ConfigNodePropertyArray historyRequestFilterExcludedSelectors) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray historyRequestFilterExcludedExtensions;
+
+  public ComAdobeCqHistoryImplHistoryRequestFilterProperties historyRequestFilterExcludedSelectors(@Nullable ConfigNodePropertyArray historyRequestFilterExcludedSelectors) {
     this.historyRequestFilterExcludedSelectors = historyRequestFilterExcludedSelectors;
     return this;
   }
@@ -29,20 +40,20 @@ public class ComAdobeCqHistoryImplHistoryRequestFilterProperties   {
   /**
    * Get historyRequestFilterExcludedSelectors
    * @return historyRequestFilterExcludedSelectors
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getHistoryRequestFilterExcludedSelectors() {
+   */
+  @Valid 
+  @Schema(name = "history.requestFilter.excludedSelectors", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("history.requestFilter.excludedSelectors")
+  public @Nullable ConfigNodePropertyArray getHistoryRequestFilterExcludedSelectors() {
     return historyRequestFilterExcludedSelectors;
   }
 
-  public void setHistoryRequestFilterExcludedSelectors(ConfigNodePropertyArray historyRequestFilterExcludedSelectors) {
+  @JsonProperty("history.requestFilter.excludedSelectors")
+  public void setHistoryRequestFilterExcludedSelectors(@Nullable ConfigNodePropertyArray historyRequestFilterExcludedSelectors) {
     this.historyRequestFilterExcludedSelectors = historyRequestFilterExcludedSelectors;
   }
 
-  public ComAdobeCqHistoryImplHistoryRequestFilterProperties historyRequestFilterExcludedExtensions(ConfigNodePropertyArray historyRequestFilterExcludedExtensions) {
+  public ComAdobeCqHistoryImplHistoryRequestFilterProperties historyRequestFilterExcludedExtensions(@Nullable ConfigNodePropertyArray historyRequestFilterExcludedExtensions) {
     this.historyRequestFilterExcludedExtensions = historyRequestFilterExcludedExtensions;
     return this;
   }
@@ -50,22 +61,21 @@ public class ComAdobeCqHistoryImplHistoryRequestFilterProperties   {
   /**
    * Get historyRequestFilterExcludedExtensions
    * @return historyRequestFilterExcludedExtensions
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getHistoryRequestFilterExcludedExtensions() {
+   */
+  @Valid 
+  @Schema(name = "history.requestFilter.excludedExtensions", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("history.requestFilter.excludedExtensions")
+  public @Nullable ConfigNodePropertyArray getHistoryRequestFilterExcludedExtensions() {
     return historyRequestFilterExcludedExtensions;
   }
 
-  public void setHistoryRequestFilterExcludedExtensions(ConfigNodePropertyArray historyRequestFilterExcludedExtensions) {
+  @JsonProperty("history.requestFilter.excludedExtensions")
+  public void setHistoryRequestFilterExcludedExtensions(@Nullable ConfigNodePropertyArray historyRequestFilterExcludedExtensions) {
     this.historyRequestFilterExcludedExtensions = historyRequestFilterExcludedExtensions;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -86,7 +96,6 @@ public class ComAdobeCqHistoryImplHistoryRequestFilterProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComAdobeCqHistoryImplHistoryRequestFilterProperties {\n");
-    
     sb.append("    historyRequestFilterExcludedSelectors: ").append(toIndentedString(historyRequestFilterExcludedSelectors)).append("\n");
     sb.append("    historyRequestFilterExcludedExtensions: ").append(toIndentedString(historyRequestFilterExcludedExtensions)).append("\n");
     sb.append("}");
@@ -97,11 +106,8 @@ public class ComAdobeCqHistoryImplHistoryRequestFilterProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -1,34 +1,45 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheckProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheckProperties   {
-  @JsonProperty("hc.tags")
-  private ConfigNodePropertyArray hcTags = null;
+@JsonTypeName("comAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheckProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheckProperties {
 
-  @JsonProperty("dispatcher.address")
-  private ConfigNodePropertyString dispatcherAddress = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray hcTags;
 
-  @JsonProperty("dispatcher.filter.allowed")
-  private ConfigNodePropertyArray dispatcherFilterAllowed = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString dispatcherAddress;
 
-  @JsonProperty("dispatcher.filter.blocked")
-  private ConfigNodePropertyArray dispatcherFilterBlocked = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray dispatcherFilterAllowed;
 
-  public ComAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheckProperties hcTags(ConfigNodePropertyArray hcTags) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray dispatcherFilterBlocked;
+
+  public ComAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheckProperties hcTags(@Nullable ConfigNodePropertyArray hcTags) {
     this.hcTags = hcTags;
     return this;
   }
@@ -36,20 +47,20 @@ public class ComAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheckProper
   /**
    * Get hcTags
    * @return hcTags
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getHcTags() {
+   */
+  @Valid 
+  @Schema(name = "hc.tags", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("hc.tags")
+  public @Nullable ConfigNodePropertyArray getHcTags() {
     return hcTags;
   }
 
-  public void setHcTags(ConfigNodePropertyArray hcTags) {
+  @JsonProperty("hc.tags")
+  public void setHcTags(@Nullable ConfigNodePropertyArray hcTags) {
     this.hcTags = hcTags;
   }
 
-  public ComAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheckProperties dispatcherAddress(ConfigNodePropertyString dispatcherAddress) {
+  public ComAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheckProperties dispatcherAddress(@Nullable ConfigNodePropertyString dispatcherAddress) {
     this.dispatcherAddress = dispatcherAddress;
     return this;
   }
@@ -57,20 +68,20 @@ public class ComAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheckProper
   /**
    * Get dispatcherAddress
    * @return dispatcherAddress
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getDispatcherAddress() {
+   */
+  @Valid 
+  @Schema(name = "dispatcher.address", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("dispatcher.address")
+  public @Nullable ConfigNodePropertyString getDispatcherAddress() {
     return dispatcherAddress;
   }
 
-  public void setDispatcherAddress(ConfigNodePropertyString dispatcherAddress) {
+  @JsonProperty("dispatcher.address")
+  public void setDispatcherAddress(@Nullable ConfigNodePropertyString dispatcherAddress) {
     this.dispatcherAddress = dispatcherAddress;
   }
 
-  public ComAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheckProperties dispatcherFilterAllowed(ConfigNodePropertyArray dispatcherFilterAllowed) {
+  public ComAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheckProperties dispatcherFilterAllowed(@Nullable ConfigNodePropertyArray dispatcherFilterAllowed) {
     this.dispatcherFilterAllowed = dispatcherFilterAllowed;
     return this;
   }
@@ -78,20 +89,20 @@ public class ComAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheckProper
   /**
    * Get dispatcherFilterAllowed
    * @return dispatcherFilterAllowed
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getDispatcherFilterAllowed() {
+   */
+  @Valid 
+  @Schema(name = "dispatcher.filter.allowed", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("dispatcher.filter.allowed")
+  public @Nullable ConfigNodePropertyArray getDispatcherFilterAllowed() {
     return dispatcherFilterAllowed;
   }
 
-  public void setDispatcherFilterAllowed(ConfigNodePropertyArray dispatcherFilterAllowed) {
+  @JsonProperty("dispatcher.filter.allowed")
+  public void setDispatcherFilterAllowed(@Nullable ConfigNodePropertyArray dispatcherFilterAllowed) {
     this.dispatcherFilterAllowed = dispatcherFilterAllowed;
   }
 
-  public ComAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheckProperties dispatcherFilterBlocked(ConfigNodePropertyArray dispatcherFilterBlocked) {
+  public ComAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheckProperties dispatcherFilterBlocked(@Nullable ConfigNodePropertyArray dispatcherFilterBlocked) {
     this.dispatcherFilterBlocked = dispatcherFilterBlocked;
     return this;
   }
@@ -99,22 +110,21 @@ public class ComAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheckProper
   /**
    * Get dispatcherFilterBlocked
    * @return dispatcherFilterBlocked
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getDispatcherFilterBlocked() {
+   */
+  @Valid 
+  @Schema(name = "dispatcher.filter.blocked", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("dispatcher.filter.blocked")
+  public @Nullable ConfigNodePropertyArray getDispatcherFilterBlocked() {
     return dispatcherFilterBlocked;
   }
 
-  public void setDispatcherFilterBlocked(ConfigNodePropertyArray dispatcherFilterBlocked) {
+  @JsonProperty("dispatcher.filter.blocked")
+  public void setDispatcherFilterBlocked(@Nullable ConfigNodePropertyArray dispatcherFilterBlocked) {
     this.dispatcherFilterBlocked = dispatcherFilterBlocked;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -137,7 +147,6 @@ public class ComAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheckProper
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheckProperties {\n");
-    
     sb.append("    hcTags: ").append(toIndentedString(hcTags)).append("\n");
     sb.append("    dispatcherAddress: ").append(toIndentedString(dispatcherAddress)).append("\n");
     sb.append("    dispatcherFilterAllowed: ").append(toIndentedString(dispatcherFilterAllowed)).append("\n");
@@ -150,11 +159,8 @@ public class ComAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheckProper
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

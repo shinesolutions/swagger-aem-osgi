@@ -7,8 +7,8 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class OrgApacheSlingSettingsImplSlingSettingsServiceImplProperties {
-    ConfigNodePropertyString slingName = null
-
-    ConfigNodePropertyString slingDescription = null
-
+    
+    ConfigNodePropertyString slingName
+    
+    ConfigNodePropertyString slingDescription
 }

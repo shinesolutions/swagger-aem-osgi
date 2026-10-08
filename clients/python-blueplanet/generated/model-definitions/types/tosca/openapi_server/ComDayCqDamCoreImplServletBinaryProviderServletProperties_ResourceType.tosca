@@ -1,0 +1,47 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqDamCoreImplServletBinaryProviderServletProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqDamCoreImplServletBinaryProviderServletProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+}
+resourceTypes {
+
+  ComDayCqDamCoreImplServletBinaryProviderServletProperties {
+    title = ComDayCqDamCoreImplServletBinaryProviderServletProperties
+    description = ComDayCqDamCoreImplServletBinaryProviderServletProperties
+    derivedFrom = Root
+    properties {
+        sling_servlet_resource_types {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        sling_servlet_methods {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        cq_dam_drm_enable {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqDamCoreImplServletBinaryProviderServletProperties {
+    title = ComDayCqDamCoreImplServletBinaryProviderServletProperties
+    description = ComDayCqDamCoreImplServletBinaryProviderServletProperties
+    implements = openapi_server.resourceTypes.ComDayCqDamCoreImplServletBinaryProviderServletProperties
+
+  }
+}

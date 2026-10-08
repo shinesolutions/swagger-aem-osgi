@@ -1,0 +1,48 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeGraniteLicenseImplLicenseCheckFilterProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeGraniteLicenseImplLicenseCheckFilterProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+}
+resourceTypes {
+
+  ComAdobeGraniteLicenseImplLicenseCheckFilterProperties {
+    title = ComAdobeGraniteLicenseImplLicenseCheckFilterProperties
+    description = ComAdobeGraniteLicenseImplLicenseCheckFilterProperties
+    derivedFrom = Root
+    properties {
+        check_internval {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        exclude_ids {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        encrypt_ping {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeGraniteLicenseImplLicenseCheckFilterProperties {
+    title = ComAdobeGraniteLicenseImplLicenseCheckFilterProperties
+    description = ComAdobeGraniteLicenseImplLicenseCheckFilterProperties
+    implements = openapi_server.resourceTypes.ComAdobeGraniteLicenseImplLicenseCheckFilterProperties
+
+  }
+}

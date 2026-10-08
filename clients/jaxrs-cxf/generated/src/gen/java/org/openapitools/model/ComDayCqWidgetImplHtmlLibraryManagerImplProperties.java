@@ -1,5 +1,6 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
@@ -8,72 +9,95 @@ import javax.validation.constraints.*;
 import javax.validation.Valid;
 
 import io.swagger.annotations.ApiModelProperty;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlType;
-import javax.xml.bind.annotation.XmlEnum;
-import javax.xml.bind.annotation.XmlEnumValue;
+import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
 
 public class ComDayCqWidgetImplHtmlLibraryManagerImplProperties  {
   
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyString htmllibmanagerClientmanager = null;
+
+  private ConfigNodePropertyString htmllibmanagerClientmanager;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyBoolean htmllibmanagerDebug = null;
+
+  private ConfigNodePropertyBoolean htmllibmanagerDebug;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyBoolean htmllibmanagerDebugConsole = null;
+
+  private ConfigNodePropertyBoolean htmllibmanagerDebugConsole;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyString htmllibmanagerDebugInitJs = null;
+
+  private ConfigNodePropertyString htmllibmanagerDebugInitJs;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyString htmllibmanagerDefaultthemename = null;
+
+  private ConfigNodePropertyString htmllibmanagerDefaultthemename;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyString htmllibmanagerDefaultuserthemename = null;
+
+  private ConfigNodePropertyString htmllibmanagerDefaultuserthemename;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyString htmllibmanagerFirebuglitePath = null;
+
+  private ConfigNodePropertyString htmllibmanagerFirebuglitePath;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyBoolean htmllibmanagerForceCQUrlInfo = null;
+
+  private ConfigNodePropertyBoolean htmllibmanagerForceCQUrlInfo;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyBoolean htmllibmanagerGzip = null;
+
+  private ConfigNodePropertyBoolean htmllibmanagerGzip;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyInteger htmllibmanagerMaxage = null;
+
+  private ConfigNodePropertyInteger htmllibmanagerMaxage;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyInteger htmllibmanagerMaxDataUriSize = null;
+
+  private ConfigNodePropertyInteger htmllibmanagerMaxDataUriSize;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyBoolean htmllibmanagerMinify = null;
+
+  private ConfigNodePropertyBoolean htmllibmanagerMinify;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyArray htmllibmanagerPathList = null;
+
+  private ConfigNodePropertyArray htmllibmanagerPathList;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyBoolean htmllibmanagerTiming = null;
+
+  private ConfigNodePropertyBoolean htmllibmanagerTiming;
  /**
    * Get htmllibmanagerClientmanager
    * @return htmllibmanagerClientmanager
@@ -326,6 +350,35 @@ public class ComDayCqWidgetImplHtmlLibraryManagerImplProperties  {
     return this;
   }
 
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    ComDayCqWidgetImplHtmlLibraryManagerImplProperties comDayCqWidgetImplHtmlLibraryManagerImplProperties = (ComDayCqWidgetImplHtmlLibraryManagerImplProperties) o;
+    return Objects.equals(this.htmllibmanagerClientmanager, comDayCqWidgetImplHtmlLibraryManagerImplProperties.htmllibmanagerClientmanager) &&
+        Objects.equals(this.htmllibmanagerDebug, comDayCqWidgetImplHtmlLibraryManagerImplProperties.htmllibmanagerDebug) &&
+        Objects.equals(this.htmllibmanagerDebugConsole, comDayCqWidgetImplHtmlLibraryManagerImplProperties.htmllibmanagerDebugConsole) &&
+        Objects.equals(this.htmllibmanagerDebugInitJs, comDayCqWidgetImplHtmlLibraryManagerImplProperties.htmllibmanagerDebugInitJs) &&
+        Objects.equals(this.htmllibmanagerDefaultthemename, comDayCqWidgetImplHtmlLibraryManagerImplProperties.htmllibmanagerDefaultthemename) &&
+        Objects.equals(this.htmllibmanagerDefaultuserthemename, comDayCqWidgetImplHtmlLibraryManagerImplProperties.htmllibmanagerDefaultuserthemename) &&
+        Objects.equals(this.htmllibmanagerFirebuglitePath, comDayCqWidgetImplHtmlLibraryManagerImplProperties.htmllibmanagerFirebuglitePath) &&
+        Objects.equals(this.htmllibmanagerForceCQUrlInfo, comDayCqWidgetImplHtmlLibraryManagerImplProperties.htmllibmanagerForceCQUrlInfo) &&
+        Objects.equals(this.htmllibmanagerGzip, comDayCqWidgetImplHtmlLibraryManagerImplProperties.htmllibmanagerGzip) &&
+        Objects.equals(this.htmllibmanagerMaxage, comDayCqWidgetImplHtmlLibraryManagerImplProperties.htmllibmanagerMaxage) &&
+        Objects.equals(this.htmllibmanagerMaxDataUriSize, comDayCqWidgetImplHtmlLibraryManagerImplProperties.htmllibmanagerMaxDataUriSize) &&
+        Objects.equals(this.htmllibmanagerMinify, comDayCqWidgetImplHtmlLibraryManagerImplProperties.htmllibmanagerMinify) &&
+        Objects.equals(this.htmllibmanagerPathList, comDayCqWidgetImplHtmlLibraryManagerImplProperties.htmllibmanagerPathList) &&
+        Objects.equals(this.htmllibmanagerTiming, comDayCqWidgetImplHtmlLibraryManagerImplProperties.htmllibmanagerTiming);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(htmllibmanagerClientmanager, htmllibmanagerDebug, htmllibmanagerDebugConsole, htmllibmanagerDebugInitJs, htmllibmanagerDefaultthemename, htmllibmanagerDefaultuserthemename, htmllibmanagerFirebuglitePath, htmllibmanagerForceCQUrlInfo, htmllibmanagerGzip, htmllibmanagerMaxage, htmllibmanagerMaxDataUriSize, htmllibmanagerMinify, htmllibmanagerPathList, htmllibmanagerTiming);
+  }
 
   @Override
   public String toString() {
@@ -354,11 +407,8 @@ public class ComDayCqWidgetImplHtmlLibraryManagerImplProperties  {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private static String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

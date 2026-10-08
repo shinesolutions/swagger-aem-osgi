@@ -1,0 +1,79 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqWcmUndoUndoConfigProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqWcmUndoUndoConfigProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComDayCqWcmUndoUndoConfigProperties {
+    title = ComDayCqWcmUndoUndoConfigProperties
+    description = ComDayCqWcmUndoUndoConfigProperties
+    derivedFrom = Root
+    properties {
+        cq_wcm_undo_enabled {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        cq_wcm_undo_path {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        cq_wcm_undo_validity {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        cq_wcm_undo_steps {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        cq_wcm_undo_persistence {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        cq_wcm_undo_persistence_mode {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        cq_wcm_undo_markermode {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        cq_wcm_undo_whitelist {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        cq_wcm_undo_blacklist {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqWcmUndoUndoConfigProperties {
+    title = ComDayCqWcmUndoUndoConfigProperties
+    description = ComDayCqWcmUndoUndoConfigProperties
+    implements = openapi_server.resourceTypes.ComDayCqWcmUndoUndoConfigProperties
+
+  }
+}

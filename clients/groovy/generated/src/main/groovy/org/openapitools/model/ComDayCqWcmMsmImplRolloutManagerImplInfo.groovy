@@ -7,18 +7,18 @@ import org.openapitools.model.ComDayCqWcmMsmImplRolloutManagerImplProperties;
 
 @Canonical
 class ComDayCqWcmMsmImplRolloutManagerImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqWcmMsmImplRolloutManagerImplProperties properties = null
-
-    String additionalProperties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqWcmMsmImplRolloutManagerImplProperties properties
+    
+    String additionalProperties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

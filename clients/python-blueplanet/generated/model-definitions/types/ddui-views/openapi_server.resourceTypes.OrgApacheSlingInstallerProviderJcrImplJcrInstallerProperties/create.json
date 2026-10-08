@@ -1,0 +1,23 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "handler_schemes" },
+      {"model": "sling_jcrinstall_folder_name_regexp" },
+      {"model": "sling_jcrinstall_folder_max_depth" },
+      {"model": "sling_jcrinstall_search_path" },
+      {"model": "sling_jcrinstall_new_config_path" },
+      {"model": "sling_jcrinstall_signal_path" },
+      {"model": "sling_jcrinstall_enable_writeback" },
+    ]
+  }]
+}

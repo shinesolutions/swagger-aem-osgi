@@ -1,0 +1,61 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingI18nImplI18NFilterInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingI18nImplI18NFilterInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  OrgApacheSlingI18nImplI18NFilterProperties = openapi_server.resourceTypes.OrgApacheSlingI18nImplI18NFilterProperties
+}
+resourceTypes {
+
+  OrgApacheSlingI18nImplI18NFilterInfo {
+    title = OrgApacheSlingI18nImplI18NFilterInfo
+    description = OrgApacheSlingI18nImplI18NFilterInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = OrgApacheSlingI18nImplI18NFilterProperties
+          description = ""
+          optional = false
+        }
+        bundle_location {
+          type =  string
+          description = ""
+          optional = false
+        }
+        service_location {
+          type =  string
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingI18nImplI18NFilterInfo {
+    title = OrgApacheSlingI18nImplI18NFilterInfo
+    description = OrgApacheSlingI18nImplI18NFilterInfo
+    implements = openapi_server.resourceTypes.OrgApacheSlingI18nImplI18NFilterInfo
+
+  }
+}

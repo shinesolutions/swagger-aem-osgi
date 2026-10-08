@@ -7,12 +7,12 @@ import org.openapitools.model.OrgApacheSlingEventJobsQueueConfigurationPropertie
 
 @Canonical
 class OrgApacheSlingEventJobsQueueConfigurationInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheSlingEventJobsQueueConfigurationProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheSlingEventJobsQueueConfigurationProperties properties
 }

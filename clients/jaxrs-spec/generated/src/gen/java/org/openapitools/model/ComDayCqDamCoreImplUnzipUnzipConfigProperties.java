@@ -1,20 +1,31 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comDayCqDamCoreImplUnzipUnzipConfigProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqDamCoreImplUnzipUnzipConfigProperties   {
-  
-  private @Valid ConfigNodePropertyInteger cqDamConfigUnzipMaxuncompressedsize = null;
-  private @Valid ConfigNodePropertyString cqDamConfigUnzipEncoding = null;
+  private ConfigNodePropertyInteger cqDamConfigUnzipMaxuncompressedsize;
+  private ConfigNodePropertyString cqDamConfigUnzipEncoding;
+
+  public ComDayCqDamCoreImplUnzipUnzipConfigProperties() {
+  }
 
   /**
    **/
@@ -26,9 +37,11 @@ public class ComDayCqDamCoreImplUnzipUnzipConfigProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("cq.dam.config.unzip.maxuncompressedsize")
-  public ConfigNodePropertyInteger getCqDamConfigUnzipMaxuncompressedsize() {
+  @Valid public ConfigNodePropertyInteger getCqDamConfigUnzipMaxuncompressedsize() {
     return cqDamConfigUnzipMaxuncompressedsize;
   }
+
+  @JsonProperty("cq.dam.config.unzip.maxuncompressedsize")
   public void setCqDamConfigUnzipMaxuncompressedsize(ConfigNodePropertyInteger cqDamConfigUnzipMaxuncompressedsize) {
     this.cqDamConfigUnzipMaxuncompressedsize = cqDamConfigUnzipMaxuncompressedsize;
   }
@@ -43,16 +56,18 @@ public class ComDayCqDamCoreImplUnzipUnzipConfigProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("cq.dam.config.unzip.encoding")
-  public ConfigNodePropertyString getCqDamConfigUnzipEncoding() {
+  @Valid public ConfigNodePropertyString getCqDamConfigUnzipEncoding() {
     return cqDamConfigUnzipEncoding;
   }
+
+  @JsonProperty("cq.dam.config.unzip.encoding")
   public void setCqDamConfigUnzipEncoding(ConfigNodePropertyString cqDamConfigUnzipEncoding) {
     this.cqDamConfigUnzipEncoding = cqDamConfigUnzipEncoding;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -60,8 +75,8 @@ public class ComDayCqDamCoreImplUnzipUnzipConfigProperties   {
       return false;
     }
     ComDayCqDamCoreImplUnzipUnzipConfigProperties comDayCqDamCoreImplUnzipUnzipConfigProperties = (ComDayCqDamCoreImplUnzipUnzipConfigProperties) o;
-    return Objects.equals(cqDamConfigUnzipMaxuncompressedsize, comDayCqDamCoreImplUnzipUnzipConfigProperties.cqDamConfigUnzipMaxuncompressedsize) &&
-        Objects.equals(cqDamConfigUnzipEncoding, comDayCqDamCoreImplUnzipUnzipConfigProperties.cqDamConfigUnzipEncoding);
+    return Objects.equals(this.cqDamConfigUnzipMaxuncompressedsize, comDayCqDamCoreImplUnzipUnzipConfigProperties.cqDamConfigUnzipMaxuncompressedsize) &&
+        Objects.equals(this.cqDamConfigUnzipEncoding, comDayCqDamCoreImplUnzipUnzipConfigProperties.cqDamConfigUnzipEncoding);
   }
 
   @Override
@@ -84,11 +99,9 @@ public class ComDayCqDamCoreImplUnzipUnzipConfigProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

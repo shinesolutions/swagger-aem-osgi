@@ -7,8 +7,8 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqDamS7damCommonServletsS7damProductInfoServletProperties {
-    ConfigNodePropertyString slingServletPaths = null
-
-    ConfigNodePropertyString slingServletMethods = null
-
+    
+    ConfigNodePropertyString slingServletPaths
+    
+    ConfigNodePropertyString slingServletMethods
 }

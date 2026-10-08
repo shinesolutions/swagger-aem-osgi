@@ -7,10 +7,10 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqReplicationImplAgentManagerImplProperties {
-    ConfigNodePropertyString jobTopics = null
-
-    ConfigNodePropertyString serviceUserTarget = null
-
-    ConfigNodePropertyString agentProviderTarget = null
-
+    
+    ConfigNodePropertyString jobTopics
+    
+    ConfigNodePropertyString serviceUserTarget
+    
+    ConfigNodePropertyString agentProviderTarget
 }

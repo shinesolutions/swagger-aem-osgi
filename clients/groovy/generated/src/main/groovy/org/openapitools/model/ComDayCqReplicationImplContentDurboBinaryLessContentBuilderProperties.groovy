@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class ComDayCqReplicationImplContentDurboBinaryLessContentBuilderProperties {
-    ConfigNodePropertyInteger binaryThreshold = null
-
+    
+    ConfigNodePropertyInteger binaryThreshold
 }

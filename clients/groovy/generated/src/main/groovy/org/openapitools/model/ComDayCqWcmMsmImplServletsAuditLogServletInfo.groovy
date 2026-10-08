@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqWcmMsmImplServletsAuditLogServletPropertie
 
 @Canonical
 class ComDayCqWcmMsmImplServletsAuditLogServletInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqWcmMsmImplServletsAuditLogServletProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqWcmMsmImplServletsAuditLogServletProperties properties
 }

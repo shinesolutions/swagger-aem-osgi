@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyArray;
 
 @Canonical
 class ComDayCqWcmNotificationImplNotificationManagerImplProperties {
-    ConfigNodePropertyArray eventTopics = null
-
+    
+    ConfigNodePropertyArray eventTopics
 }

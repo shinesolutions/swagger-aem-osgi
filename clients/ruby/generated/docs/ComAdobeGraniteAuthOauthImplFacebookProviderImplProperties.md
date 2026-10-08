@@ -2,16 +2,17 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**oauth_provider_id** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **oauth_provider_id** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComAdobeGraniteAuthOauthImplFacebookProviderImplProperties.new(oauth_provider_id: null)
+instance = SwaggerAemOsgiClient::ComAdobeGraniteAuthOauthImplFacebookProviderImplProperties.new(
+  oauth_provider_id: null
+)
 ```
-
 

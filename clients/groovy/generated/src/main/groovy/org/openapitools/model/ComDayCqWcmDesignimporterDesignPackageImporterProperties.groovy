@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyArray;
 
 @Canonical
 class ComDayCqWcmDesignimporterDesignPackageImporterProperties {
-    ConfigNodePropertyArray extractFilter = null
-
+    
+    ConfigNodePropertyArray extractFilter
 }

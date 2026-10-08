@@ -72,7 +72,7 @@ private class OASOrgApacheSlingScriptingSightlyJsITest {
     @isTest
     private static void maintainRenamedProperties() {
         OASOrgApacheSlingScriptingSightlyJsI orgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvProperties = new OASOrgApacheSlingScriptingSightlyJsI();
-        Map<String, String> propertyMappings = orgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvProperties.getPropertyMappings();
-        System.assertEquals('orgApacheSlingScriptingSightlyJsBindings', propertyMappings.get('org.apache.sling.scripting.sightly.js.bindings'));
+        Map<String, String> x-property-mappings = orgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvProperties.getx-property-mappings();
+        System.assertEquals('orgApacheSlingScriptingSightlyJsBindings', x-property-mappings.get('org.apache.sling.scripting.sightly.js.bindings'));
     }
 }

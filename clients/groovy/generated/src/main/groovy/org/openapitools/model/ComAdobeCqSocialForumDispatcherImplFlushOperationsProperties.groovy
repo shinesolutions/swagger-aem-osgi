@@ -8,8 +8,8 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class ComAdobeCqSocialForumDispatcherImplFlushOperationsProperties {
-    ConfigNodePropertyInteger extensionOrder = null
-
-    ConfigNodePropertyBoolean flushForumontopic = null
-
+    
+    ConfigNodePropertyInteger extensionOrder
+    
+    ConfigNodePropertyBoolean flushForumontopic
 }

@@ -8,8 +8,8 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeCqScheduledExporterImplScheduledExporterImplProperties {
-    ConfigNodePropertyArray includePaths = null
-
-    ConfigNodePropertyString exporterUser = null
-
+    
+    ConfigNodePropertyArray includePaths
+    
+    ConfigNodePropertyString exporterUser
 }

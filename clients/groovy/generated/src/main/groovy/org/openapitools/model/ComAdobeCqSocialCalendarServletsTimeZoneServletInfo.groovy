@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqSocialCalendarServletsTimeZoneServletPro
 
 @Canonical
 class ComAdobeCqSocialCalendarServletsTimeZoneServletInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqSocialCalendarServletsTimeZoneServletProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqSocialCalendarServletsTimeZoneServletProperties properties
 }

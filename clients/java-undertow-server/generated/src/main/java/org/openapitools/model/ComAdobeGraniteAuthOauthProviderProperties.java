@@ -1,3 +1,13 @@
+/*
+ * Adobe Experience Manager OSGI config (AEM) API
+ *
+ * Swagger AEM OSGI is an OpenAPI specification for Adobe Experience Manager (AEM) OSGI Configurations API
+ *
+ * OpenAPI document version: 1.0.0-pre.0
+ * Maintained by: opensource@shinesolutions.com
+ *
+ * AUTO-GENERATED FILE, DO NOT MODIFY!
+ */
 package org.openapitools.model;
 
 import java.util.Objects;
@@ -13,28 +23,28 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2019-08-05T00:56:20.785Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2026-10-07T12:53:42.280804918Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteAuthOauthProviderProperties   {
   
-  private ConfigNodePropertyString oauthConfigId = null;
-  private ConfigNodePropertyString oauthClientId = null;
-  private ConfigNodePropertyString oauthClientSecret = null;
-  private ConfigNodePropertyArray oauthScope = null;
-  private ConfigNodePropertyString oauthConfigProviderId = null;
-  private ConfigNodePropertyBoolean oauthCreateUsers = null;
-  private ConfigNodePropertyString oauthUseridProperty = null;
-  private ConfigNodePropertyBoolean forceStrictUsernameMatching = null;
-  private ConfigNodePropertyBoolean oauthEncodeUserids = null;
-  private ConfigNodePropertyBoolean oauthHashUserids = null;
-  private ConfigNodePropertyString oauthCallBackUrl = null;
-  private ConfigNodePropertyBoolean oauthAccessTokenPersist = null;
-  private ConfigNodePropertyBoolean oauthAccessTokenPersistCookie = null;
-  private ConfigNodePropertyBoolean oauthCsrfStateProtection = null;
-  private ConfigNodePropertyBoolean oauthRedirectRequestParams = null;
-  private ConfigNodePropertyBoolean oauthConfigSiblingsAllow = null;
+  private ConfigNodePropertyString oauthConfigId;
+  private ConfigNodePropertyString oauthClientId;
+  private ConfigNodePropertyString oauthClientSecret;
+  private ConfigNodePropertyArray oauthScope;
+  private ConfigNodePropertyString oauthConfigProviderId;
+  private ConfigNodePropertyBoolean oauthCreateUsers;
+  private ConfigNodePropertyString oauthUseridProperty;
+  private ConfigNodePropertyBoolean forceStrictUsernameMatching;
+  private ConfigNodePropertyBoolean oauthEncodeUserids;
+  private ConfigNodePropertyBoolean oauthHashUserids;
+  private ConfigNodePropertyString oauthCallBackUrl;
+  private ConfigNodePropertyBoolean oauthAccessTokenPersist;
+  private ConfigNodePropertyBoolean oauthAccessTokenPersistCookie;
+  private ConfigNodePropertyBoolean oauthCsrfStateProtection;
+  private ConfigNodePropertyBoolean oauthRedirectRequestParams;
+  private ConfigNodePropertyBoolean oauthConfigSiblingsAllow;
 
   /**
-   **/
+   */
   public ComAdobeGraniteAuthOauthProviderProperties oauthConfigId(ConfigNodePropertyString oauthConfigId) {
     this.oauthConfigId = oauthConfigId;
     return this;
@@ -51,7 +61,7 @@ public class ComAdobeGraniteAuthOauthProviderProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeGraniteAuthOauthProviderProperties oauthClientId(ConfigNodePropertyString oauthClientId) {
     this.oauthClientId = oauthClientId;
     return this;
@@ -68,7 +78,7 @@ public class ComAdobeGraniteAuthOauthProviderProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeGraniteAuthOauthProviderProperties oauthClientSecret(ConfigNodePropertyString oauthClientSecret) {
     this.oauthClientSecret = oauthClientSecret;
     return this;
@@ -85,7 +95,7 @@ public class ComAdobeGraniteAuthOauthProviderProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeGraniteAuthOauthProviderProperties oauthScope(ConfigNodePropertyArray oauthScope) {
     this.oauthScope = oauthScope;
     return this;
@@ -102,7 +112,7 @@ public class ComAdobeGraniteAuthOauthProviderProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeGraniteAuthOauthProviderProperties oauthConfigProviderId(ConfigNodePropertyString oauthConfigProviderId) {
     this.oauthConfigProviderId = oauthConfigProviderId;
     return this;
@@ -119,7 +129,7 @@ public class ComAdobeGraniteAuthOauthProviderProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeGraniteAuthOauthProviderProperties oauthCreateUsers(ConfigNodePropertyBoolean oauthCreateUsers) {
     this.oauthCreateUsers = oauthCreateUsers;
     return this;
@@ -136,7 +146,7 @@ public class ComAdobeGraniteAuthOauthProviderProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeGraniteAuthOauthProviderProperties oauthUseridProperty(ConfigNodePropertyString oauthUseridProperty) {
     this.oauthUseridProperty = oauthUseridProperty;
     return this;
@@ -153,7 +163,7 @@ public class ComAdobeGraniteAuthOauthProviderProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeGraniteAuthOauthProviderProperties forceStrictUsernameMatching(ConfigNodePropertyBoolean forceStrictUsernameMatching) {
     this.forceStrictUsernameMatching = forceStrictUsernameMatching;
     return this;
@@ -170,7 +180,7 @@ public class ComAdobeGraniteAuthOauthProviderProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeGraniteAuthOauthProviderProperties oauthEncodeUserids(ConfigNodePropertyBoolean oauthEncodeUserids) {
     this.oauthEncodeUserids = oauthEncodeUserids;
     return this;
@@ -187,7 +197,7 @@ public class ComAdobeGraniteAuthOauthProviderProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeGraniteAuthOauthProviderProperties oauthHashUserids(ConfigNodePropertyBoolean oauthHashUserids) {
     this.oauthHashUserids = oauthHashUserids;
     return this;
@@ -204,7 +214,7 @@ public class ComAdobeGraniteAuthOauthProviderProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeGraniteAuthOauthProviderProperties oauthCallBackUrl(ConfigNodePropertyString oauthCallBackUrl) {
     this.oauthCallBackUrl = oauthCallBackUrl;
     return this;
@@ -221,7 +231,7 @@ public class ComAdobeGraniteAuthOauthProviderProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeGraniteAuthOauthProviderProperties oauthAccessTokenPersist(ConfigNodePropertyBoolean oauthAccessTokenPersist) {
     this.oauthAccessTokenPersist = oauthAccessTokenPersist;
     return this;
@@ -238,7 +248,7 @@ public class ComAdobeGraniteAuthOauthProviderProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeGraniteAuthOauthProviderProperties oauthAccessTokenPersistCookie(ConfigNodePropertyBoolean oauthAccessTokenPersistCookie) {
     this.oauthAccessTokenPersistCookie = oauthAccessTokenPersistCookie;
     return this;
@@ -255,7 +265,7 @@ public class ComAdobeGraniteAuthOauthProviderProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeGraniteAuthOauthProviderProperties oauthCsrfStateProtection(ConfigNodePropertyBoolean oauthCsrfStateProtection) {
     this.oauthCsrfStateProtection = oauthCsrfStateProtection;
     return this;
@@ -272,7 +282,7 @@ public class ComAdobeGraniteAuthOauthProviderProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeGraniteAuthOauthProviderProperties oauthRedirectRequestParams(ConfigNodePropertyBoolean oauthRedirectRequestParams) {
     this.oauthRedirectRequestParams = oauthRedirectRequestParams;
     return this;
@@ -289,7 +299,7 @@ public class ComAdobeGraniteAuthOauthProviderProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeGraniteAuthOauthProviderProperties oauthConfigSiblingsAllow(ConfigNodePropertyBoolean oauthConfigSiblingsAllow) {
     this.oauthConfigSiblingsAllow = oauthConfigSiblingsAllow;
     return this;
@@ -307,7 +317,7 @@ public class ComAdobeGraniteAuthOauthProviderProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -367,11 +377,8 @@ public class ComAdobeGraniteAuthOauthProviderProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

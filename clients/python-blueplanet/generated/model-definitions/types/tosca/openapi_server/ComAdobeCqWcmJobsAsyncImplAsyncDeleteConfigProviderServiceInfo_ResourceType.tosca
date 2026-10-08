@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqWcmJobsAsyncImplAsyncDeleteConfigProviderServiceInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqWcmJobsAsyncImplAsyncDeleteConfigProviderServiceInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComAdobeCqWcmJobsAsyncImplAsyncDeleteConfigProviderServiceProperties = openapi_server.resourceTypes.ComAdobeCqWcmJobsAsyncImplAsyncDeleteConfigProviderServiceProperties
+}
+resourceTypes {
+
+  ComAdobeCqWcmJobsAsyncImplAsyncDeleteConfigProviderServiceInfo {
+    title = ComAdobeCqWcmJobsAsyncImplAsyncDeleteConfigProviderServiceInfo
+    description = ComAdobeCqWcmJobsAsyncImplAsyncDeleteConfigProviderServiceInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComAdobeCqWcmJobsAsyncImplAsyncDeleteConfigProviderServiceProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqWcmJobsAsyncImplAsyncDeleteConfigProviderServiceInfo {
+    title = ComAdobeCqWcmJobsAsyncImplAsyncDeleteConfigProviderServiceInfo
+    description = ComAdobeCqWcmJobsAsyncImplAsyncDeleteConfigProviderServiceInfo
+    implements = openapi_server.resourceTypes.ComAdobeCqWcmJobsAsyncImplAsyncDeleteConfigProviderServiceInfo
+
+  }
+}

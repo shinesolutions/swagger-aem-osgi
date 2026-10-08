@@ -1,0 +1,57 @@
+{
+  "namespace": "model",
+  "type": "record",
+  "doc": "",
+  "name": "ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerProperties",
+  "fields": [
+    {
+      "name": "translate.language",
+      "type": ["null", "model.ConfigNodePropertyDropDown"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "translate.display",
+      "type": ["null", "model.ConfigNodePropertyDropDown"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "translate.attribution",
+      "type": ["null", "model.ConfigNodePropertyBoolean"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "translate.caching",
+      "type": ["null", "model.ConfigNodePropertyDropDown"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "translate.smart.rendering",
+      "type": ["null", "model.ConfigNodePropertyDropDown"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "translate.caching.duration",
+      "type": ["null", "model.ConfigNodePropertyString"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "translate.session.save.interval",
+      "type": ["null", "model.ConfigNodePropertyString"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "translate.session.save.batchLimit",
+      "type": ["null", "model.ConfigNodePropertyString"],
+      "doc": "",
+      "default": null
+    }
+  ]
+
+}

@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqDamInddImplServletSnippetCreationServletPr
 
 @Canonical
 class ComDayCqDamInddImplServletSnippetCreationServletInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqDamInddImplServletSnippetCreationServletProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqDamInddImplServletSnippetCreationServletProperties properties
 }

@@ -2,31 +2,32 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ComDayCqWcmUndoUndoConfigProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class ComDayCqWcmUndoUndoConfigInfo   {
   
-  private String pid = null;
+  private String pid;
 
-  private String title = null;
+  private String title;
 
-  private String description = null;
+  private String description;
 
-  private ComDayCqWcmUndoUndoConfigProperties properties = null;
+  private ComDayCqWcmUndoUndoConfigProperties properties;
 
-  private String bundleLocation = null;
+  private String bundleLocation;
 
-  private String serviceLocation = null;
-
+  private String serviceLocation;
 
   /**
    **/
@@ -138,7 +139,7 @@ public class ComDayCqWcmUndoUndoConfigInfo   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -146,12 +147,12 @@ public class ComDayCqWcmUndoUndoConfigInfo   {
       return false;
     }
     ComDayCqWcmUndoUndoConfigInfo comDayCqWcmUndoUndoConfigInfo = (ComDayCqWcmUndoUndoConfigInfo) o;
-    return Objects.equals(pid, comDayCqWcmUndoUndoConfigInfo.pid) &&
-        Objects.equals(title, comDayCqWcmUndoUndoConfigInfo.title) &&
-        Objects.equals(description, comDayCqWcmUndoUndoConfigInfo.description) &&
-        Objects.equals(properties, comDayCqWcmUndoUndoConfigInfo.properties) &&
-        Objects.equals(bundleLocation, comDayCqWcmUndoUndoConfigInfo.bundleLocation) &&
-        Objects.equals(serviceLocation, comDayCqWcmUndoUndoConfigInfo.serviceLocation);
+    return Objects.equals(this.pid, comDayCqWcmUndoUndoConfigInfo.pid) &&
+        Objects.equals(this.title, comDayCqWcmUndoUndoConfigInfo.title) &&
+        Objects.equals(this.description, comDayCqWcmUndoUndoConfigInfo.description) &&
+        Objects.equals(this.properties, comDayCqWcmUndoUndoConfigInfo.properties) &&
+        Objects.equals(this.bundleLocation, comDayCqWcmUndoUndoConfigInfo.bundleLocation) &&
+        Objects.equals(this.serviceLocation, comDayCqWcmUndoUndoConfigInfo.serviceLocation);
   }
 
   @Override
@@ -178,11 +179,8 @@ public class ComDayCqWcmUndoUndoConfigInfo   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

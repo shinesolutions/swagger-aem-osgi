@@ -72,10 +72,10 @@ private class OASComDayCqCommonsImplExternalizerImTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqCommonsImplExternalizerIm comDayCqCommonsImplExternalizerImplProperties = new OASComDayCqCommonsImplExternalizerIm();
-        Map<String, String> propertyMappings = comDayCqCommonsImplExternalizerImplProperties.getPropertyMappings();
-        System.assertEquals('externalizerDomains', propertyMappings.get('externalizer.domains'));
-        System.assertEquals('externalizerHost', propertyMappings.get('externalizer.host'));
-        System.assertEquals('externalizerContextpath', propertyMappings.get('externalizer.contextpath'));
-        System.assertEquals('externalizerEncodedpath', propertyMappings.get('externalizer.encodedpath'));
+        Map<String, String> x-property-mappings = comDayCqCommonsImplExternalizerImplProperties.getx-property-mappings();
+        System.assertEquals('externalizerDomains', x-property-mappings.get('externalizer.domains'));
+        System.assertEquals('externalizerHost', x-property-mappings.get('externalizer.host'));
+        System.assertEquals('externalizerContextpath', x-property-mappings.get('externalizer.contextpath'));
+        System.assertEquals('externalizerEncodedpath', x-property-mappings.get('externalizer.encodedpath'));
     }
 }

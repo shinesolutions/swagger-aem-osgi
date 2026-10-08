@@ -1,7 +1,9 @@
 
+
 # OrgApacheSlingCommonsMetricsInternalLogReporterProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **period** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
@@ -11,6 +13,7 @@ Name | Type | Description | Notes
 **prefix** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
 **pattern** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
 **registryName** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
+
 
 
 

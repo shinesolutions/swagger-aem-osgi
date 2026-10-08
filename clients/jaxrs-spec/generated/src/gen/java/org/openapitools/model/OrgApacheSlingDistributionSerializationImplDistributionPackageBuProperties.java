@@ -1,5 +1,8 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyDropDown;
@@ -8,26 +11,34 @@ import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("orgApacheSlingDistributionSerializationImplDistributionPackageBuProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingDistributionSerializationImplDistributionPackageBuProperties   {
-  
-  private @Valid ConfigNodePropertyString name = null;
-  private @Valid ConfigNodePropertyDropDown type = null;
-  private @Valid ConfigNodePropertyString formatTarget = null;
-  private @Valid ConfigNodePropertyString tempFsFolder = null;
-  private @Valid ConfigNodePropertyInteger fileThreshold = null;
-  private @Valid ConfigNodePropertyDropDown memoryUnit = null;
-  private @Valid ConfigNodePropertyBoolean useOffHeapMemory = null;
-  private @Valid ConfigNodePropertyDropDown digestAlgorithm = null;
-  private @Valid ConfigNodePropertyInteger monitoringQueueSize = null;
-  private @Valid ConfigNodePropertyInteger cleanupDelay = null;
-  private @Valid ConfigNodePropertyArray packageFilters = null;
-  private @Valid ConfigNodePropertyArray propertyFilters = null;
+  private ConfigNodePropertyString name;
+  private ConfigNodePropertyDropDown type;
+  private ConfigNodePropertyString formatTarget;
+  private ConfigNodePropertyString tempFsFolder;
+  private ConfigNodePropertyInteger fileThreshold;
+  private ConfigNodePropertyDropDown memoryUnit;
+  private ConfigNodePropertyBoolean useOffHeapMemory;
+  private ConfigNodePropertyDropDown digestAlgorithm;
+  private ConfigNodePropertyInteger monitoringQueueSize;
+  private ConfigNodePropertyInteger cleanupDelay;
+  private ConfigNodePropertyArray packageFilters;
+  private ConfigNodePropertyArray propertyFilters;
+
+  public OrgApacheSlingDistributionSerializationImplDistributionPackageBuProperties() {
+  }
 
   /**
    **/
@@ -39,9 +50,11 @@ public class OrgApacheSlingDistributionSerializationImplDistributionPackageBuPro
   
   @ApiModelProperty(value = "")
   @JsonProperty("name")
-  public ConfigNodePropertyString getName() {
+  @Valid public ConfigNodePropertyString getName() {
     return name;
   }
+
+  @JsonProperty("name")
   public void setName(ConfigNodePropertyString name) {
     this.name = name;
   }
@@ -56,9 +69,11 @@ public class OrgApacheSlingDistributionSerializationImplDistributionPackageBuPro
   
   @ApiModelProperty(value = "")
   @JsonProperty("type")
-  public ConfigNodePropertyDropDown getType() {
+  @Valid public ConfigNodePropertyDropDown getType() {
     return type;
   }
+
+  @JsonProperty("type")
   public void setType(ConfigNodePropertyDropDown type) {
     this.type = type;
   }
@@ -73,9 +88,11 @@ public class OrgApacheSlingDistributionSerializationImplDistributionPackageBuPro
   
   @ApiModelProperty(value = "")
   @JsonProperty("format.target")
-  public ConfigNodePropertyString getFormatTarget() {
+  @Valid public ConfigNodePropertyString getFormatTarget() {
     return formatTarget;
   }
+
+  @JsonProperty("format.target")
   public void setFormatTarget(ConfigNodePropertyString formatTarget) {
     this.formatTarget = formatTarget;
   }
@@ -90,9 +107,11 @@ public class OrgApacheSlingDistributionSerializationImplDistributionPackageBuPro
   
   @ApiModelProperty(value = "")
   @JsonProperty("tempFsFolder")
-  public ConfigNodePropertyString getTempFsFolder() {
+  @Valid public ConfigNodePropertyString getTempFsFolder() {
     return tempFsFolder;
   }
+
+  @JsonProperty("tempFsFolder")
   public void setTempFsFolder(ConfigNodePropertyString tempFsFolder) {
     this.tempFsFolder = tempFsFolder;
   }
@@ -107,9 +126,11 @@ public class OrgApacheSlingDistributionSerializationImplDistributionPackageBuPro
   
   @ApiModelProperty(value = "")
   @JsonProperty("fileThreshold")
-  public ConfigNodePropertyInteger getFileThreshold() {
+  @Valid public ConfigNodePropertyInteger getFileThreshold() {
     return fileThreshold;
   }
+
+  @JsonProperty("fileThreshold")
   public void setFileThreshold(ConfigNodePropertyInteger fileThreshold) {
     this.fileThreshold = fileThreshold;
   }
@@ -124,9 +145,11 @@ public class OrgApacheSlingDistributionSerializationImplDistributionPackageBuPro
   
   @ApiModelProperty(value = "")
   @JsonProperty("memoryUnit")
-  public ConfigNodePropertyDropDown getMemoryUnit() {
+  @Valid public ConfigNodePropertyDropDown getMemoryUnit() {
     return memoryUnit;
   }
+
+  @JsonProperty("memoryUnit")
   public void setMemoryUnit(ConfigNodePropertyDropDown memoryUnit) {
     this.memoryUnit = memoryUnit;
   }
@@ -141,9 +164,11 @@ public class OrgApacheSlingDistributionSerializationImplDistributionPackageBuPro
   
   @ApiModelProperty(value = "")
   @JsonProperty("useOffHeapMemory")
-  public ConfigNodePropertyBoolean getUseOffHeapMemory() {
+  @Valid public ConfigNodePropertyBoolean getUseOffHeapMemory() {
     return useOffHeapMemory;
   }
+
+  @JsonProperty("useOffHeapMemory")
   public void setUseOffHeapMemory(ConfigNodePropertyBoolean useOffHeapMemory) {
     this.useOffHeapMemory = useOffHeapMemory;
   }
@@ -158,9 +183,11 @@ public class OrgApacheSlingDistributionSerializationImplDistributionPackageBuPro
   
   @ApiModelProperty(value = "")
   @JsonProperty("digestAlgorithm")
-  public ConfigNodePropertyDropDown getDigestAlgorithm() {
+  @Valid public ConfigNodePropertyDropDown getDigestAlgorithm() {
     return digestAlgorithm;
   }
+
+  @JsonProperty("digestAlgorithm")
   public void setDigestAlgorithm(ConfigNodePropertyDropDown digestAlgorithm) {
     this.digestAlgorithm = digestAlgorithm;
   }
@@ -175,9 +202,11 @@ public class OrgApacheSlingDistributionSerializationImplDistributionPackageBuPro
   
   @ApiModelProperty(value = "")
   @JsonProperty("monitoringQueueSize")
-  public ConfigNodePropertyInteger getMonitoringQueueSize() {
+  @Valid public ConfigNodePropertyInteger getMonitoringQueueSize() {
     return monitoringQueueSize;
   }
+
+  @JsonProperty("monitoringQueueSize")
   public void setMonitoringQueueSize(ConfigNodePropertyInteger monitoringQueueSize) {
     this.monitoringQueueSize = monitoringQueueSize;
   }
@@ -192,9 +221,11 @@ public class OrgApacheSlingDistributionSerializationImplDistributionPackageBuPro
   
   @ApiModelProperty(value = "")
   @JsonProperty("cleanupDelay")
-  public ConfigNodePropertyInteger getCleanupDelay() {
+  @Valid public ConfigNodePropertyInteger getCleanupDelay() {
     return cleanupDelay;
   }
+
+  @JsonProperty("cleanupDelay")
   public void setCleanupDelay(ConfigNodePropertyInteger cleanupDelay) {
     this.cleanupDelay = cleanupDelay;
   }
@@ -209,9 +240,11 @@ public class OrgApacheSlingDistributionSerializationImplDistributionPackageBuPro
   
   @ApiModelProperty(value = "")
   @JsonProperty("package.filters")
-  public ConfigNodePropertyArray getPackageFilters() {
+  @Valid public ConfigNodePropertyArray getPackageFilters() {
     return packageFilters;
   }
+
+  @JsonProperty("package.filters")
   public void setPackageFilters(ConfigNodePropertyArray packageFilters) {
     this.packageFilters = packageFilters;
   }
@@ -226,16 +259,18 @@ public class OrgApacheSlingDistributionSerializationImplDistributionPackageBuPro
   
   @ApiModelProperty(value = "")
   @JsonProperty("property.filters")
-  public ConfigNodePropertyArray getPropertyFilters() {
+  @Valid public ConfigNodePropertyArray getPropertyFilters() {
     return propertyFilters;
   }
+
+  @JsonProperty("property.filters")
   public void setPropertyFilters(ConfigNodePropertyArray propertyFilters) {
     this.propertyFilters = propertyFilters;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -243,18 +278,18 @@ public class OrgApacheSlingDistributionSerializationImplDistributionPackageBuPro
       return false;
     }
     OrgApacheSlingDistributionSerializationImplDistributionPackageBuProperties orgApacheSlingDistributionSerializationImplDistributionPackageBuProperties = (OrgApacheSlingDistributionSerializationImplDistributionPackageBuProperties) o;
-    return Objects.equals(name, orgApacheSlingDistributionSerializationImplDistributionPackageBuProperties.name) &&
-        Objects.equals(type, orgApacheSlingDistributionSerializationImplDistributionPackageBuProperties.type) &&
-        Objects.equals(formatTarget, orgApacheSlingDistributionSerializationImplDistributionPackageBuProperties.formatTarget) &&
-        Objects.equals(tempFsFolder, orgApacheSlingDistributionSerializationImplDistributionPackageBuProperties.tempFsFolder) &&
-        Objects.equals(fileThreshold, orgApacheSlingDistributionSerializationImplDistributionPackageBuProperties.fileThreshold) &&
-        Objects.equals(memoryUnit, orgApacheSlingDistributionSerializationImplDistributionPackageBuProperties.memoryUnit) &&
-        Objects.equals(useOffHeapMemory, orgApacheSlingDistributionSerializationImplDistributionPackageBuProperties.useOffHeapMemory) &&
-        Objects.equals(digestAlgorithm, orgApacheSlingDistributionSerializationImplDistributionPackageBuProperties.digestAlgorithm) &&
-        Objects.equals(monitoringQueueSize, orgApacheSlingDistributionSerializationImplDistributionPackageBuProperties.monitoringQueueSize) &&
-        Objects.equals(cleanupDelay, orgApacheSlingDistributionSerializationImplDistributionPackageBuProperties.cleanupDelay) &&
-        Objects.equals(packageFilters, orgApacheSlingDistributionSerializationImplDistributionPackageBuProperties.packageFilters) &&
-        Objects.equals(propertyFilters, orgApacheSlingDistributionSerializationImplDistributionPackageBuProperties.propertyFilters);
+    return Objects.equals(this.name, orgApacheSlingDistributionSerializationImplDistributionPackageBuProperties.name) &&
+        Objects.equals(this.type, orgApacheSlingDistributionSerializationImplDistributionPackageBuProperties.type) &&
+        Objects.equals(this.formatTarget, orgApacheSlingDistributionSerializationImplDistributionPackageBuProperties.formatTarget) &&
+        Objects.equals(this.tempFsFolder, orgApacheSlingDistributionSerializationImplDistributionPackageBuProperties.tempFsFolder) &&
+        Objects.equals(this.fileThreshold, orgApacheSlingDistributionSerializationImplDistributionPackageBuProperties.fileThreshold) &&
+        Objects.equals(this.memoryUnit, orgApacheSlingDistributionSerializationImplDistributionPackageBuProperties.memoryUnit) &&
+        Objects.equals(this.useOffHeapMemory, orgApacheSlingDistributionSerializationImplDistributionPackageBuProperties.useOffHeapMemory) &&
+        Objects.equals(this.digestAlgorithm, orgApacheSlingDistributionSerializationImplDistributionPackageBuProperties.digestAlgorithm) &&
+        Objects.equals(this.monitoringQueueSize, orgApacheSlingDistributionSerializationImplDistributionPackageBuProperties.monitoringQueueSize) &&
+        Objects.equals(this.cleanupDelay, orgApacheSlingDistributionSerializationImplDistributionPackageBuProperties.cleanupDelay) &&
+        Objects.equals(this.packageFilters, orgApacheSlingDistributionSerializationImplDistributionPackageBuProperties.packageFilters) &&
+        Objects.equals(this.propertyFilters, orgApacheSlingDistributionSerializationImplDistributionPackageBuProperties.propertyFilters);
   }
 
   @Override
@@ -287,11 +322,9 @@ public class OrgApacheSlingDistributionSerializationImplDistributionPackageBuPro
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

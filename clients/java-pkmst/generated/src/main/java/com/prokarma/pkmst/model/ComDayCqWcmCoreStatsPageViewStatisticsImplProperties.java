@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyString;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
@@ -15,24 +16,23 @@ import io.swagger.annotations.ApiModelProperty;
  * ComDayCqWcmCoreStatsPageViewStatisticsImplProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqWcmCoreStatsPageViewStatisticsImplProperties   {
   @JsonProperty("pageviewstatistics.trackingurl")
-  private ConfigNodePropertyString pageviewstatisticsTrackingurl = null;
+  private ConfigNodePropertyString pageviewstatisticsTrackingurl;
 
   @JsonProperty("pageviewstatistics.trackingscript.enabled")
-  private ConfigNodePropertyString pageviewstatisticsTrackingscriptEnabled = null;
+  private ConfigNodePropertyString pageviewstatisticsTrackingscriptEnabled;
 
   public ComDayCqWcmCoreStatsPageViewStatisticsImplProperties pageviewstatisticsTrackingurl(ConfigNodePropertyString pageviewstatisticsTrackingurl) {
     this.pageviewstatisticsTrackingurl = pageviewstatisticsTrackingurl;
     return this;
   }
 
-   /**
+  /**
    * Get pageviewstatisticsTrackingurl
    * @return pageviewstatisticsTrackingurl
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getPageviewstatisticsTrackingurl() {
     return pageviewstatisticsTrackingurl;
@@ -47,10 +47,10 @@ public class ComDayCqWcmCoreStatsPageViewStatisticsImplProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get pageviewstatisticsTrackingscriptEnabled
    * @return pageviewstatisticsTrackingscriptEnabled
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getPageviewstatisticsTrackingscriptEnabled() {
     return pageviewstatisticsTrackingscriptEnabled;
@@ -62,7 +62,7 @@ public class ComDayCqWcmCoreStatsPageViewStatisticsImplProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -94,11 +94,8 @@ public class ComDayCqWcmCoreStatsPageViewStatisticsImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

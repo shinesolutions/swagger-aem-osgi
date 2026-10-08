@@ -7,10 +7,10 @@ import org.openapitools.model.ConfigNodePropertyArray;
 
 @Canonical
 class ComAdobeGraniteRepositoryHcImplDefaultLoginsHealthCheckProperties {
-    ConfigNodePropertyArray hcTags = null
-
-    ConfigNodePropertyArray accountLogins = null
-
-    ConfigNodePropertyArray consoleLogins = null
-
+    
+    ConfigNodePropertyArray hcTags
+    
+    ConfigNodePropertyArray accountLogins
+    
+    ConfigNodePropertyArray consoleLogins
 }

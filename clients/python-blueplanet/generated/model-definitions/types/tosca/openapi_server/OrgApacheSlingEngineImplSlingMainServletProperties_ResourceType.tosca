@@ -1,0 +1,69 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingEngineImplSlingMainServletProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingEngineImplSlingMainServletProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  OrgApacheSlingEngineImplSlingMainServletProperties {
+    title = OrgApacheSlingEngineImplSlingMainServletProperties
+    description = OrgApacheSlingEngineImplSlingMainServletProperties
+    derivedFrom = Root
+    properties {
+        sling_max_calls {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        sling_max_inclusions {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        sling_trace_allow {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        sling_max_record_requests {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        sling_store_pattern_requests {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        sling_serverinfo {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        sling_additional_response_headers {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingEngineImplSlingMainServletProperties {
+    title = OrgApacheSlingEngineImplSlingMainServletProperties
+    description = OrgApacheSlingEngineImplSlingMainServletProperties
+    implements = openapi_server.resourceTypes.OrgApacheSlingEngineImplSlingMainServletProperties
+
+  }
+}

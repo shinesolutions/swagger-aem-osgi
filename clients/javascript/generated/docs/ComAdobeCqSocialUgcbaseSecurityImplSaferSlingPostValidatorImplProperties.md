@@ -1,6 +1,7 @@
 # NodeSwaggerAemOsgi.ComAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImplProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **parameterWhitelist** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 

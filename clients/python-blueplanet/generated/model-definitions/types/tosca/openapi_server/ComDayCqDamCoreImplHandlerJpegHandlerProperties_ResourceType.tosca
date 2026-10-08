@@ -1,0 +1,47 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqDamCoreImplHandlerJpegHandlerProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqDamCoreImplHandlerJpegHandlerProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+}
+resourceTypes {
+
+  ComDayCqDamCoreImplHandlerJpegHandlerProperties {
+    title = ComDayCqDamCoreImplHandlerJpegHandlerProperties
+    description = ComDayCqDamCoreImplHandlerJpegHandlerProperties
+    derivedFrom = Root
+    properties {
+        cq_dam_enable_ext_meta_extraction {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        large_file_threshold {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        large_comment_threshold {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqDamCoreImplHandlerJpegHandlerProperties {
+    title = ComDayCqDamCoreImplHandlerJpegHandlerProperties
+    description = ComDayCqDamCoreImplHandlerJpegHandlerProperties
+    implements = openapi_server.resourceTypes.ComDayCqDamCoreImplHandlerJpegHandlerProperties
+
+  }
+}

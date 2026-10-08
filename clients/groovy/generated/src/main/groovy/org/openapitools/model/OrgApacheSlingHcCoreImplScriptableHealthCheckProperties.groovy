@@ -8,14 +8,14 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class OrgApacheSlingHcCoreImplScriptableHealthCheckProperties {
-    ConfigNodePropertyString hcName = null
-
-    ConfigNodePropertyArray hcTags = null
-
-    ConfigNodePropertyString hcMbeanName = null
-
-    ConfigNodePropertyString expression = null
-
-    ConfigNodePropertyString languageExtension = null
-
+    
+    ConfigNodePropertyString hcName
+    
+    ConfigNodePropertyArray hcTags
+    
+    ConfigNodePropertyString hcMbeanName
+    
+    ConfigNodePropertyString expression
+    
+    ConfigNodePropertyString languageExtension
 }

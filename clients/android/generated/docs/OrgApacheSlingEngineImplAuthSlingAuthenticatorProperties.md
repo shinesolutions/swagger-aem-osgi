@@ -1,7 +1,9 @@
 
+
 # OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **osgiHttpWhiteboardContextSelect** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
@@ -15,6 +17,7 @@ Name | Type | Description | Notes
 **authHttp** | [**ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md) |  |  [optional]
 **authHttpRealm** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
 **authUriSuffix** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
+
 
 
 

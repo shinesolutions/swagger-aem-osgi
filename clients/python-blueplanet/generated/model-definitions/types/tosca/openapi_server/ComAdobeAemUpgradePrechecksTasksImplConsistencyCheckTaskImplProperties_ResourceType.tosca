@@ -1,0 +1,42 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeAemUpgradePrechecksTasksImplConsistencyCheckTaskImplProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeAemUpgradePrechecksTasksImplConsistencyCheckTaskImplProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComAdobeAemUpgradePrechecksTasksImplConsistencyCheckTaskImplProperties {
+    title = ComAdobeAemUpgradePrechecksTasksImplConsistencyCheckTaskImplProperties
+    description = ComAdobeAemUpgradePrechecksTasksImplConsistencyCheckTaskImplProperties
+    derivedFrom = Root
+    properties {
+        root_path {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        fix_inconsistencies {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeAemUpgradePrechecksTasksImplConsistencyCheckTaskImplProperties {
+    title = ComAdobeAemUpgradePrechecksTasksImplConsistencyCheckTaskImplProperties
+    description = ComAdobeAemUpgradePrechecksTasksImplConsistencyCheckTaskImplProperties
+    implements = openapi_server.resourceTypes.ComAdobeAemUpgradePrechecksTasksImplConsistencyCheckTaskImplProperties
+
+  }
+}

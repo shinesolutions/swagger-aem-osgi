@@ -72,8 +72,8 @@ private class OASComAdobeCqDtmImplServletsDTMDeploTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeCqDtmImplServletsDTMDeplo comAdobeCqDtmImplServletsDTMDeployHookServletProperties = new OASComAdobeCqDtmImplServletsDTMDeplo();
-        Map<String, String> propertyMappings = comAdobeCqDtmImplServletsDTMDeployHookServletProperties.getPropertyMappings();
-        System.assertEquals('dtmStagingIpWhitelist', propertyMappings.get('dtm.staging.ip.whitelist'));
-        System.assertEquals('dtmProductionIpWhitelist', propertyMappings.get('dtm.production.ip.whitelist'));
+        Map<String, String> x-property-mappings = comAdobeCqDtmImplServletsDTMDeployHookServletProperties.getx-property-mappings();
+        System.assertEquals('dtmStagingIpWhitelist', x-property-mappings.get('dtm.staging.ip.whitelist'));
+        System.assertEquals('dtmProductionIpWhitelist', x-property-mappings.get('dtm.production.ip.whitelist'));
     }
 }

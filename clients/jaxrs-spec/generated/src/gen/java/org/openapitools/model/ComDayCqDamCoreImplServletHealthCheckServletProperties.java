@@ -1,20 +1,31 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comDayCqDamCoreImplServletHealthCheckServletProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqDamCoreImplServletHealthCheckServletProperties   {
-  
-  private @Valid ConfigNodePropertyString cqDamSyncWorkflowId = null;
-  private @Valid ConfigNodePropertyArray cqDamSyncFolderTypes = null;
+  private ConfigNodePropertyString cqDamSyncWorkflowId;
+  private ConfigNodePropertyArray cqDamSyncFolderTypes;
+
+  public ComDayCqDamCoreImplServletHealthCheckServletProperties() {
+  }
 
   /**
    **/
@@ -26,9 +37,11 @@ public class ComDayCqDamCoreImplServletHealthCheckServletProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("cq.dam.sync.workflow.id")
-  public ConfigNodePropertyString getCqDamSyncWorkflowId() {
+  @Valid public ConfigNodePropertyString getCqDamSyncWorkflowId() {
     return cqDamSyncWorkflowId;
   }
+
+  @JsonProperty("cq.dam.sync.workflow.id")
   public void setCqDamSyncWorkflowId(ConfigNodePropertyString cqDamSyncWorkflowId) {
     this.cqDamSyncWorkflowId = cqDamSyncWorkflowId;
   }
@@ -43,16 +56,18 @@ public class ComDayCqDamCoreImplServletHealthCheckServletProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("cq.dam.sync.folder.types")
-  public ConfigNodePropertyArray getCqDamSyncFolderTypes() {
+  @Valid public ConfigNodePropertyArray getCqDamSyncFolderTypes() {
     return cqDamSyncFolderTypes;
   }
+
+  @JsonProperty("cq.dam.sync.folder.types")
   public void setCqDamSyncFolderTypes(ConfigNodePropertyArray cqDamSyncFolderTypes) {
     this.cqDamSyncFolderTypes = cqDamSyncFolderTypes;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -60,8 +75,8 @@ public class ComDayCqDamCoreImplServletHealthCheckServletProperties   {
       return false;
     }
     ComDayCqDamCoreImplServletHealthCheckServletProperties comDayCqDamCoreImplServletHealthCheckServletProperties = (ComDayCqDamCoreImplServletHealthCheckServletProperties) o;
-    return Objects.equals(cqDamSyncWorkflowId, comDayCqDamCoreImplServletHealthCheckServletProperties.cqDamSyncWorkflowId) &&
-        Objects.equals(cqDamSyncFolderTypes, comDayCqDamCoreImplServletHealthCheckServletProperties.cqDamSyncFolderTypes);
+    return Objects.equals(this.cqDamSyncWorkflowId, comDayCqDamCoreImplServletHealthCheckServletProperties.cqDamSyncWorkflowId) &&
+        Objects.equals(this.cqDamSyncFolderTypes, comDayCqDamCoreImplServletHealthCheckServletProperties.cqDamSyncFolderTypes);
   }
 
   @Override
@@ -84,11 +99,9 @@ public class ComDayCqDamCoreImplServletHealthCheckServletProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

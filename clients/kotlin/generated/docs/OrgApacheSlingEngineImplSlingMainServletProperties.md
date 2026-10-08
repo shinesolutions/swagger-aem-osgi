@@ -2,15 +2,15 @@
 # OrgApacheSlingEngineImplSlingMainServletProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**slingPeriodmaxPeriodcalls** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**slingPeriodmaxPeriodinclusions** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**slingPeriodtracePeriodallow** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**slingPeriodmaxPeriodrecordPeriodrequests** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**slingPeriodstorePeriodpatternPeriodrequests** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**slingPeriodserverinfo** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**slingPeriodadditionalPeriodresponsePeriodheaders** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **slingMaxCalls** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **slingMaxInclusions** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **slingTraceAllow** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **slingMaxRecordRequests** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **slingStorePatternRequests** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **slingServerinfo** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **slingAdditionalResponseHeaders** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
 
 
 

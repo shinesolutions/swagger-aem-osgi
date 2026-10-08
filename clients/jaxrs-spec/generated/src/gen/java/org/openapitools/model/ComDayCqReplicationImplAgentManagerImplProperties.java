@@ -1,20 +1,31 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comDayCqReplicationImplAgentManagerImplProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqReplicationImplAgentManagerImplProperties   {
-  
-  private @Valid ConfigNodePropertyString jobTopics = null;
-  private @Valid ConfigNodePropertyString serviceUserTarget = null;
-  private @Valid ConfigNodePropertyString agentProviderTarget = null;
+  private ConfigNodePropertyString jobTopics;
+  private ConfigNodePropertyString serviceUserTarget;
+  private ConfigNodePropertyString agentProviderTarget;
+
+  public ComDayCqReplicationImplAgentManagerImplProperties() {
+  }
 
   /**
    **/
@@ -26,9 +37,11 @@ public class ComDayCqReplicationImplAgentManagerImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("job.topics")
-  public ConfigNodePropertyString getJobTopics() {
+  @Valid public ConfigNodePropertyString getJobTopics() {
     return jobTopics;
   }
+
+  @JsonProperty("job.topics")
   public void setJobTopics(ConfigNodePropertyString jobTopics) {
     this.jobTopics = jobTopics;
   }
@@ -43,9 +56,11 @@ public class ComDayCqReplicationImplAgentManagerImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("serviceUser.target")
-  public ConfigNodePropertyString getServiceUserTarget() {
+  @Valid public ConfigNodePropertyString getServiceUserTarget() {
     return serviceUserTarget;
   }
+
+  @JsonProperty("serviceUser.target")
   public void setServiceUserTarget(ConfigNodePropertyString serviceUserTarget) {
     this.serviceUserTarget = serviceUserTarget;
   }
@@ -60,16 +75,18 @@ public class ComDayCqReplicationImplAgentManagerImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("agentProvider.target")
-  public ConfigNodePropertyString getAgentProviderTarget() {
+  @Valid public ConfigNodePropertyString getAgentProviderTarget() {
     return agentProviderTarget;
   }
+
+  @JsonProperty("agentProvider.target")
   public void setAgentProviderTarget(ConfigNodePropertyString agentProviderTarget) {
     this.agentProviderTarget = agentProviderTarget;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -77,9 +94,9 @@ public class ComDayCqReplicationImplAgentManagerImplProperties   {
       return false;
     }
     ComDayCqReplicationImplAgentManagerImplProperties comDayCqReplicationImplAgentManagerImplProperties = (ComDayCqReplicationImplAgentManagerImplProperties) o;
-    return Objects.equals(jobTopics, comDayCqReplicationImplAgentManagerImplProperties.jobTopics) &&
-        Objects.equals(serviceUserTarget, comDayCqReplicationImplAgentManagerImplProperties.serviceUserTarget) &&
-        Objects.equals(agentProviderTarget, comDayCqReplicationImplAgentManagerImplProperties.agentProviderTarget);
+    return Objects.equals(this.jobTopics, comDayCqReplicationImplAgentManagerImplProperties.jobTopics) &&
+        Objects.equals(this.serviceUserTarget, comDayCqReplicationImplAgentManagerImplProperties.serviceUserTarget) &&
+        Objects.equals(this.agentProviderTarget, comDayCqReplicationImplAgentManagerImplProperties.agentProviderTarget);
   }
 
   @Override
@@ -103,11 +120,9 @@ public class ComDayCqReplicationImplAgentManagerImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

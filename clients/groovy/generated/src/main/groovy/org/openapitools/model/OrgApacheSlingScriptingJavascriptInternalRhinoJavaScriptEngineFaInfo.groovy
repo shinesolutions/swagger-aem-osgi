@@ -7,12 +7,12 @@ import org.openapitools.model.OrgApacheSlingScriptingJavascriptInternalRhinoJava
 
 @Canonical
 class OrgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFaInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFaProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFaProperties properties
 }

@@ -2,31 +2,32 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.OrgApacheSlingDiscoveryOakConfigProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class OrgApacheSlingDiscoveryOakConfigInfo   {
   
-  private String pid = null;
+  private String pid;
 
-  private String title = null;
+  private String title;
 
-  private String description = null;
+  private String description;
 
-  private OrgApacheSlingDiscoveryOakConfigProperties properties = null;
+  private OrgApacheSlingDiscoveryOakConfigProperties properties;
 
-  private String bundleLocation = null;
+  private String bundleLocation;
 
-  private String serviceLocation = null;
-
+  private String serviceLocation;
 
   /**
    **/
@@ -138,7 +139,7 @@ public class OrgApacheSlingDiscoveryOakConfigInfo   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -146,12 +147,12 @@ public class OrgApacheSlingDiscoveryOakConfigInfo   {
       return false;
     }
     OrgApacheSlingDiscoveryOakConfigInfo orgApacheSlingDiscoveryOakConfigInfo = (OrgApacheSlingDiscoveryOakConfigInfo) o;
-    return Objects.equals(pid, orgApacheSlingDiscoveryOakConfigInfo.pid) &&
-        Objects.equals(title, orgApacheSlingDiscoveryOakConfigInfo.title) &&
-        Objects.equals(description, orgApacheSlingDiscoveryOakConfigInfo.description) &&
-        Objects.equals(properties, orgApacheSlingDiscoveryOakConfigInfo.properties) &&
-        Objects.equals(bundleLocation, orgApacheSlingDiscoveryOakConfigInfo.bundleLocation) &&
-        Objects.equals(serviceLocation, orgApacheSlingDiscoveryOakConfigInfo.serviceLocation);
+    return Objects.equals(this.pid, orgApacheSlingDiscoveryOakConfigInfo.pid) &&
+        Objects.equals(this.title, orgApacheSlingDiscoveryOakConfigInfo.title) &&
+        Objects.equals(this.description, orgApacheSlingDiscoveryOakConfigInfo.description) &&
+        Objects.equals(this.properties, orgApacheSlingDiscoveryOakConfigInfo.properties) &&
+        Objects.equals(this.bundleLocation, orgApacheSlingDiscoveryOakConfigInfo.bundleLocation) &&
+        Objects.equals(this.serviceLocation, orgApacheSlingDiscoveryOakConfigInfo.serviceLocation);
   }
 
   @Override
@@ -178,11 +179,8 @@ public class OrgApacheSlingDiscoveryOakConfigInfo   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

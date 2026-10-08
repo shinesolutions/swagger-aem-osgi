@@ -7,8 +7,8 @@ import org.openapitools.model.ConfigNodePropertyArray;
 
 @Canonical
 class ComAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServicProperties {
-    ConfigNodePropertyArray fieldWhitelist = null
-
-    ConfigNodePropertyArray attachmentTypeBlacklist = null
-
+    
+    ConfigNodePropertyArray fieldWhitelist
+    
+    ConfigNodePropertyArray attachmentTypeBlacklist
 }

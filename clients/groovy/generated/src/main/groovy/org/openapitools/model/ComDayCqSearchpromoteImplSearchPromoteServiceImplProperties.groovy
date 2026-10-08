@@ -8,12 +8,12 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqSearchpromoteImplSearchPromoteServiceImplProperties {
-    ConfigNodePropertyString cqSearchpromoteConfigurationServerUri = null
-
-    ConfigNodePropertyString cqSearchpromoteConfigurationEnvironment = null
-
-    ConfigNodePropertyInteger connectionTimeout = null
-
-    ConfigNodePropertyInteger socketTimeout = null
-
+    
+    ConfigNodePropertyString cqSearchpromoteConfigurationServerUri
+    
+    ConfigNodePropertyString cqSearchpromoteConfigurationEnvironment
+    
+    ConfigNodePropertyInteger connectionTimeout
+    
+    ConfigNodePropertyInteger socketTimeout
 }

@@ -1,50 +1,61 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComDayCqPollingImporterImplManagedPollConfigImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComDayCqPollingImporterImplManagedPollConfigImplProperties   {
-  @JsonProperty("id")
-  private ConfigNodePropertyString id = null;
+@JsonTypeName("comDayCqPollingImporterImplManagedPollConfigImplProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComDayCqPollingImporterImplManagedPollConfigImplProperties {
 
-  @JsonProperty("enabled")
-  private ConfigNodePropertyBoolean enabled = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString id;
 
-  @JsonProperty("reference")
-  private ConfigNodePropertyBoolean reference = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean enabled;
 
-  @JsonProperty("interval")
-  private ConfigNodePropertyInteger interval = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean reference;
 
-  @JsonProperty("expression")
-  private ConfigNodePropertyString expression = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger interval;
 
-  @JsonProperty("source")
-  private ConfigNodePropertyString source = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString expression;
 
-  @JsonProperty("target")
-  private ConfigNodePropertyString target = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString source;
 
-  @JsonProperty("login")
-  private ConfigNodePropertyString login = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString target;
 
-  @JsonProperty("password")
-  private ConfigNodePropertyString password = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString login;
 
-  public ComDayCqPollingImporterImplManagedPollConfigImplProperties id(ConfigNodePropertyString id) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString password;
+
+  public ComDayCqPollingImporterImplManagedPollConfigImplProperties id(@Nullable ConfigNodePropertyString id) {
     this.id = id;
     return this;
   }
@@ -52,20 +63,20 @@ public class ComDayCqPollingImporterImplManagedPollConfigImplProperties   {
   /**
    * Get id
    * @return id
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getId() {
+   */
+  @Valid 
+  @Schema(name = "id", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("id")
+  public @Nullable ConfigNodePropertyString getId() {
     return id;
   }
 
-  public void setId(ConfigNodePropertyString id) {
+  @JsonProperty("id")
+  public void setId(@Nullable ConfigNodePropertyString id) {
     this.id = id;
   }
 
-  public ComDayCqPollingImporterImplManagedPollConfigImplProperties enabled(ConfigNodePropertyBoolean enabled) {
+  public ComDayCqPollingImporterImplManagedPollConfigImplProperties enabled(@Nullable ConfigNodePropertyBoolean enabled) {
     this.enabled = enabled;
     return this;
   }
@@ -73,20 +84,20 @@ public class ComDayCqPollingImporterImplManagedPollConfigImplProperties   {
   /**
    * Get enabled
    * @return enabled
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getEnabled() {
+   */
+  @Valid 
+  @Schema(name = "enabled", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("enabled")
+  public @Nullable ConfigNodePropertyBoolean getEnabled() {
     return enabled;
   }
 
-  public void setEnabled(ConfigNodePropertyBoolean enabled) {
+  @JsonProperty("enabled")
+  public void setEnabled(@Nullable ConfigNodePropertyBoolean enabled) {
     this.enabled = enabled;
   }
 
-  public ComDayCqPollingImporterImplManagedPollConfigImplProperties reference(ConfigNodePropertyBoolean reference) {
+  public ComDayCqPollingImporterImplManagedPollConfigImplProperties reference(@Nullable ConfigNodePropertyBoolean reference) {
     this.reference = reference;
     return this;
   }
@@ -94,20 +105,20 @@ public class ComDayCqPollingImporterImplManagedPollConfigImplProperties   {
   /**
    * Get reference
    * @return reference
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getReference() {
+   */
+  @Valid 
+  @Schema(name = "reference", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("reference")
+  public @Nullable ConfigNodePropertyBoolean getReference() {
     return reference;
   }
 
-  public void setReference(ConfigNodePropertyBoolean reference) {
+  @JsonProperty("reference")
+  public void setReference(@Nullable ConfigNodePropertyBoolean reference) {
     this.reference = reference;
   }
 
-  public ComDayCqPollingImporterImplManagedPollConfigImplProperties interval(ConfigNodePropertyInteger interval) {
+  public ComDayCqPollingImporterImplManagedPollConfigImplProperties interval(@Nullable ConfigNodePropertyInteger interval) {
     this.interval = interval;
     return this;
   }
@@ -115,20 +126,20 @@ public class ComDayCqPollingImporterImplManagedPollConfigImplProperties   {
   /**
    * Get interval
    * @return interval
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getInterval() {
+   */
+  @Valid 
+  @Schema(name = "interval", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("interval")
+  public @Nullable ConfigNodePropertyInteger getInterval() {
     return interval;
   }
 
-  public void setInterval(ConfigNodePropertyInteger interval) {
+  @JsonProperty("interval")
+  public void setInterval(@Nullable ConfigNodePropertyInteger interval) {
     this.interval = interval;
   }
 
-  public ComDayCqPollingImporterImplManagedPollConfigImplProperties expression(ConfigNodePropertyString expression) {
+  public ComDayCqPollingImporterImplManagedPollConfigImplProperties expression(@Nullable ConfigNodePropertyString expression) {
     this.expression = expression;
     return this;
   }
@@ -136,20 +147,20 @@ public class ComDayCqPollingImporterImplManagedPollConfigImplProperties   {
   /**
    * Get expression
    * @return expression
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getExpression() {
+   */
+  @Valid 
+  @Schema(name = "expression", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("expression")
+  public @Nullable ConfigNodePropertyString getExpression() {
     return expression;
   }
 
-  public void setExpression(ConfigNodePropertyString expression) {
+  @JsonProperty("expression")
+  public void setExpression(@Nullable ConfigNodePropertyString expression) {
     this.expression = expression;
   }
 
-  public ComDayCqPollingImporterImplManagedPollConfigImplProperties source(ConfigNodePropertyString source) {
+  public ComDayCqPollingImporterImplManagedPollConfigImplProperties source(@Nullable ConfigNodePropertyString source) {
     this.source = source;
     return this;
   }
@@ -157,20 +168,20 @@ public class ComDayCqPollingImporterImplManagedPollConfigImplProperties   {
   /**
    * Get source
    * @return source
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getSource() {
+   */
+  @Valid 
+  @Schema(name = "source", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("source")
+  public @Nullable ConfigNodePropertyString getSource() {
     return source;
   }
 
-  public void setSource(ConfigNodePropertyString source) {
+  @JsonProperty("source")
+  public void setSource(@Nullable ConfigNodePropertyString source) {
     this.source = source;
   }
 
-  public ComDayCqPollingImporterImplManagedPollConfigImplProperties target(ConfigNodePropertyString target) {
+  public ComDayCqPollingImporterImplManagedPollConfigImplProperties target(@Nullable ConfigNodePropertyString target) {
     this.target = target;
     return this;
   }
@@ -178,20 +189,20 @@ public class ComDayCqPollingImporterImplManagedPollConfigImplProperties   {
   /**
    * Get target
    * @return target
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getTarget() {
+   */
+  @Valid 
+  @Schema(name = "target", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("target")
+  public @Nullable ConfigNodePropertyString getTarget() {
     return target;
   }
 
-  public void setTarget(ConfigNodePropertyString target) {
+  @JsonProperty("target")
+  public void setTarget(@Nullable ConfigNodePropertyString target) {
     this.target = target;
   }
 
-  public ComDayCqPollingImporterImplManagedPollConfigImplProperties login(ConfigNodePropertyString login) {
+  public ComDayCqPollingImporterImplManagedPollConfigImplProperties login(@Nullable ConfigNodePropertyString login) {
     this.login = login;
     return this;
   }
@@ -199,20 +210,20 @@ public class ComDayCqPollingImporterImplManagedPollConfigImplProperties   {
   /**
    * Get login
    * @return login
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getLogin() {
+   */
+  @Valid 
+  @Schema(name = "login", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("login")
+  public @Nullable ConfigNodePropertyString getLogin() {
     return login;
   }
 
-  public void setLogin(ConfigNodePropertyString login) {
+  @JsonProperty("login")
+  public void setLogin(@Nullable ConfigNodePropertyString login) {
     this.login = login;
   }
 
-  public ComDayCqPollingImporterImplManagedPollConfigImplProperties password(ConfigNodePropertyString password) {
+  public ComDayCqPollingImporterImplManagedPollConfigImplProperties password(@Nullable ConfigNodePropertyString password) {
     this.password = password;
     return this;
   }
@@ -220,22 +231,21 @@ public class ComDayCqPollingImporterImplManagedPollConfigImplProperties   {
   /**
    * Get password
    * @return password
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getPassword() {
+   */
+  @Valid 
+  @Schema(name = "password", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("password")
+  public @Nullable ConfigNodePropertyString getPassword() {
     return password;
   }
 
-  public void setPassword(ConfigNodePropertyString password) {
+  @JsonProperty("password")
+  public void setPassword(@Nullable ConfigNodePropertyString password) {
     this.password = password;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -263,7 +273,6 @@ public class ComDayCqPollingImporterImplManagedPollConfigImplProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComDayCqPollingImporterImplManagedPollConfigImplProperties {\n");
-    
     sb.append("    id: ").append(toIndentedString(id)).append("\n");
     sb.append("    enabled: ").append(toIndentedString(enabled)).append("\n");
     sb.append("    reference: ").append(toIndentedString(reference)).append("\n");
@@ -281,11 +290,8 @@ public class ComDayCqPollingImporterImplManagedPollConfigImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

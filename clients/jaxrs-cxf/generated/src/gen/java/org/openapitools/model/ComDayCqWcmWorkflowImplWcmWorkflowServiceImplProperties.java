@@ -1,5 +1,6 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
@@ -8,36 +9,41 @@ import javax.validation.constraints.*;
 import javax.validation.Valid;
 
 import io.swagger.annotations.ApiModelProperty;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlType;
-import javax.xml.bind.annotation.XmlEnum;
-import javax.xml.bind.annotation.XmlEnumValue;
+import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
 
 public class ComDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties  {
   
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyString eventFilter = null;
+
+  private ConfigNodePropertyString eventFilter;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyInteger minThreadPoolSize = null;
+
+  private ConfigNodePropertyInteger minThreadPoolSize;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyInteger maxThreadPoolSize = null;
+
+  private ConfigNodePropertyInteger maxThreadPoolSize;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyBoolean cqWcmWorkflowTerminateOnActivate = null;
+
+  private ConfigNodePropertyBoolean cqWcmWorkflowTerminateOnActivate;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyArray cqWcmWorklfowTerminateExclusionList = null;
+
+  private ConfigNodePropertyArray cqWcmWorklfowTerminateExclusionList;
  /**
    * Get eventFilter
    * @return eventFilter
@@ -128,6 +134,26 @@ public class ComDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties  {
     return this;
   }
 
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    ComDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties comDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties = (ComDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties) o;
+    return Objects.equals(this.eventFilter, comDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties.eventFilter) &&
+        Objects.equals(this.minThreadPoolSize, comDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties.minThreadPoolSize) &&
+        Objects.equals(this.maxThreadPoolSize, comDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties.maxThreadPoolSize) &&
+        Objects.equals(this.cqWcmWorkflowTerminateOnActivate, comDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties.cqWcmWorkflowTerminateOnActivate) &&
+        Objects.equals(this.cqWcmWorklfowTerminateExclusionList, comDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties.cqWcmWorklfowTerminateExclusionList);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(eventFilter, minThreadPoolSize, maxThreadPoolSize, cqWcmWorkflowTerminateOnActivate, cqWcmWorklfowTerminateExclusionList);
+  }
 
   @Override
   public String toString() {
@@ -147,11 +173,8 @@ public class ComDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties  {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private static String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

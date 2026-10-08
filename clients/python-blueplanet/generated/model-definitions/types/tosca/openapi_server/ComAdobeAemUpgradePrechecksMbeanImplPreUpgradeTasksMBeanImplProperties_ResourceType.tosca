@@ -1,0 +1,41 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeAemUpgradePrechecksMbeanImplPreUpgradeTasksMBeanImplProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeAemUpgradePrechecksMbeanImplPreUpgradeTasksMBeanImplProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+}
+resourceTypes {
+
+  ComAdobeAemUpgradePrechecksMbeanImplPreUpgradeTasksMBeanImplProperties {
+    title = ComAdobeAemUpgradePrechecksMbeanImplPreUpgradeTasksMBeanImplProperties
+    description = ComAdobeAemUpgradePrechecksMbeanImplPreUpgradeTasksMBeanImplProperties
+    derivedFrom = Root
+    properties {
+        pre_upgrade_maintenance_tasks {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        pre_upgrade_hc_tags {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeAemUpgradePrechecksMbeanImplPreUpgradeTasksMBeanImplProperties {
+    title = ComAdobeAemUpgradePrechecksMbeanImplPreUpgradeTasksMBeanImplProperties
+    description = ComAdobeAemUpgradePrechecksMbeanImplPreUpgradeTasksMBeanImplProperties
+    implements = openapi_server.resourceTypes.ComAdobeAemUpgradePrechecksMbeanImplPreUpgradeTasksMBeanImplProperties
+
+  }
+}

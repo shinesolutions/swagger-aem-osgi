@@ -2,12 +2,12 @@
 # ComDayCqPollingImporterImplPollingImporterImplProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**importerPeriodminPeriodinterval** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**importerPerioduser** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**excludePeriodpaths** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**includePeriodpaths** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **importerMinInterval** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **importerUser** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **excludePaths** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **includePaths** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
 
 
 

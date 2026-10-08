@@ -3,32 +3,43 @@ package apimodels;
 import apimodels.ConfigNodePropertyArray;
 import apimodels.ConfigNodePropertyBoolean;
 import apimodels.ConfigNodePropertyInteger;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * ComDayCqWcmCoreImplVersionPurgeTaskProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class ComDayCqWcmCoreImplVersionPurgeTaskProperties   {
   @JsonProperty("versionpurge.paths")
-  private ConfigNodePropertyArray versionpurgePaths = null;
+  @Valid
+
+  private ConfigNodePropertyArray versionpurgePaths;
 
   @JsonProperty("versionpurge.recursive")
-  private ConfigNodePropertyBoolean versionpurgeRecursive = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean versionpurgeRecursive;
 
   @JsonProperty("versionpurge.maxVersions")
-  private ConfigNodePropertyInteger versionpurgeMaxVersions = null;
+  @Valid
+
+  private ConfigNodePropertyInteger versionpurgeMaxVersions;
 
   @JsonProperty("versionpurge.minVersions")
-  private ConfigNodePropertyInteger versionpurgeMinVersions = null;
+  @Valid
+
+  private ConfigNodePropertyInteger versionpurgeMinVersions;
 
   @JsonProperty("versionpurge.maxAgeDays")
-  private ConfigNodePropertyInteger versionpurgeMaxAgeDays = null;
+  @Valid
+
+  private ConfigNodePropertyInteger versionpurgeMaxAgeDays;
 
   public ComDayCqWcmCoreImplVersionPurgeTaskProperties versionpurgePaths(ConfigNodePropertyArray versionpurgePaths) {
     this.versionpurgePaths = versionpurgePaths;
@@ -39,7 +50,6 @@ public class ComDayCqWcmCoreImplVersionPurgeTaskProperties   {
    * Get versionpurgePaths
    * @return versionpurgePaths
   **/
-  @Valid
   public ConfigNodePropertyArray getVersionpurgePaths() {
     return versionpurgePaths;
   }
@@ -57,7 +67,6 @@ public class ComDayCqWcmCoreImplVersionPurgeTaskProperties   {
    * Get versionpurgeRecursive
    * @return versionpurgeRecursive
   **/
-  @Valid
   public ConfigNodePropertyBoolean getVersionpurgeRecursive() {
     return versionpurgeRecursive;
   }
@@ -75,7 +84,6 @@ public class ComDayCqWcmCoreImplVersionPurgeTaskProperties   {
    * Get versionpurgeMaxVersions
    * @return versionpurgeMaxVersions
   **/
-  @Valid
   public ConfigNodePropertyInteger getVersionpurgeMaxVersions() {
     return versionpurgeMaxVersions;
   }
@@ -93,7 +101,6 @@ public class ComDayCqWcmCoreImplVersionPurgeTaskProperties   {
    * Get versionpurgeMinVersions
    * @return versionpurgeMinVersions
   **/
-  @Valid
   public ConfigNodePropertyInteger getVersionpurgeMinVersions() {
     return versionpurgeMinVersions;
   }
@@ -111,7 +118,6 @@ public class ComDayCqWcmCoreImplVersionPurgeTaskProperties   {
    * Get versionpurgeMaxAgeDays
    * @return versionpurgeMaxAgeDays
   **/
-  @Valid
   public ConfigNodePropertyInteger getVersionpurgeMaxAgeDays() {
     return versionpurgeMaxAgeDays;
   }
@@ -122,7 +128,7 @@ public class ComDayCqWcmCoreImplVersionPurgeTaskProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -161,11 +167,8 @@ public class ComDayCqWcmCoreImplVersionPurgeTaskProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

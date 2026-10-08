@@ -72,26 +72,26 @@ private class OASComAdobeGraniteUiClientlibsImplHtTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeGraniteUiClientlibsImplHt comAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties = new OASComAdobeGraniteUiClientlibsImplHt();
-        Map<String, String> propertyMappings = comAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties.getPropertyMappings();
-        System.assertEquals('htmllibmanagerTiming', propertyMappings.get('htmllibmanager.timing'));
-        System.assertEquals('htmllibmanagerDebugInitJs', propertyMappings.get('htmllibmanager.debug.init.js'));
-        System.assertEquals('htmllibmanagerMinify', propertyMappings.get('htmllibmanager.minify'));
-        System.assertEquals('htmllibmanagerDebug', propertyMappings.get('htmllibmanager.debug'));
-        System.assertEquals('htmllibmanagerGzip', propertyMappings.get('htmllibmanager.gzip'));
-        System.assertEquals('htmllibmanagerMaxDataUriSize', propertyMappings.get('htmllibmanager.maxDataUriSize'));
-        System.assertEquals('htmllibmanagerMaxage', propertyMappings.get('htmllibmanager.maxage'));
-        System.assertEquals('htmllibmanagerForceCQUrlInfo', propertyMappings.get('htmllibmanager.forceCQUrlInfo'));
-        System.assertEquals('htmllibmanagerDefaultthemename', propertyMappings.get('htmllibmanager.defaultthemename'));
-        System.assertEquals('htmllibmanagerDefaultuserthemename', propertyMappings.get('htmllibmanager.defaultuserthemename'));
-        System.assertEquals('htmllibmanagerClientmanager', propertyMappings.get('htmllibmanager.clientmanager'));
-        System.assertEquals('htmllibmanagerPathList', propertyMappings.get('htmllibmanager.path.list'));
-        System.assertEquals('htmllibmanagerExcludedPathList', propertyMappings.get('htmllibmanager.excluded.path.list'));
-        System.assertEquals('htmllibmanagerProcessorJs', propertyMappings.get('htmllibmanager.processor.js'));
-        System.assertEquals('htmllibmanagerProcessorCss', propertyMappings.get('htmllibmanager.processor.css'));
-        System.assertEquals('htmllibmanagerLongcachePatterns', propertyMappings.get('htmllibmanager.longcache.patterns'));
-        System.assertEquals('htmllibmanagerLongcacheFormat', propertyMappings.get('htmllibmanager.longcache.format'));
-        System.assertEquals('htmllibmanagerUseFileSystemOutputCache', propertyMappings.get('htmllibmanager.useFileSystemOutputCache'));
-        System.assertEquals('htmllibmanagerFileSystemOutputCacheLocation', propertyMappings.get('htmllibmanager.fileSystemOutputCacheLocation'));
-        System.assertEquals('htmllibmanagerDisableReplacement', propertyMappings.get('htmllibmanager.disable.replacement'));
+        Map<String, String> x-property-mappings = comAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties.getx-property-mappings();
+        System.assertEquals('htmllibmanagerTiming', x-property-mappings.get('htmllibmanager.timing'));
+        System.assertEquals('htmllibmanagerDebugInitJs', x-property-mappings.get('htmllibmanager.debug.init.js'));
+        System.assertEquals('htmllibmanagerMinify', x-property-mappings.get('htmllibmanager.minify'));
+        System.assertEquals('htmllibmanagerDebug', x-property-mappings.get('htmllibmanager.debug'));
+        System.assertEquals('htmllibmanagerGzip', x-property-mappings.get('htmllibmanager.gzip'));
+        System.assertEquals('htmllibmanagerMaxDataUriSize', x-property-mappings.get('htmllibmanager.maxDataUriSize'));
+        System.assertEquals('htmllibmanagerMaxage', x-property-mappings.get('htmllibmanager.maxage'));
+        System.assertEquals('htmllibmanagerForceCQUrlInfo', x-property-mappings.get('htmllibmanager.forceCQUrlInfo'));
+        System.assertEquals('htmllibmanagerDefaultthemename', x-property-mappings.get('htmllibmanager.defaultthemename'));
+        System.assertEquals('htmllibmanagerDefaultuserthemename', x-property-mappings.get('htmllibmanager.defaultuserthemename'));
+        System.assertEquals('htmllibmanagerClientmanager', x-property-mappings.get('htmllibmanager.clientmanager'));
+        System.assertEquals('htmllibmanagerPathList', x-property-mappings.get('htmllibmanager.path.list'));
+        System.assertEquals('htmllibmanagerExcludedPathList', x-property-mappings.get('htmllibmanager.excluded.path.list'));
+        System.assertEquals('htmllibmanagerProcessorJs', x-property-mappings.get('htmllibmanager.processor.js'));
+        System.assertEquals('htmllibmanagerProcessorCss', x-property-mappings.get('htmllibmanager.processor.css'));
+        System.assertEquals('htmllibmanagerLongcachePatterns', x-property-mappings.get('htmllibmanager.longcache.patterns'));
+        System.assertEquals('htmllibmanagerLongcacheFormat', x-property-mappings.get('htmllibmanager.longcache.format'));
+        System.assertEquals('htmllibmanagerUseFileSystemOutputCache', x-property-mappings.get('htmllibmanager.useFileSystemOutputCache'));
+        System.assertEquals('htmllibmanagerFileSystemOutputCacheLocation', x-property-mappings.get('htmllibmanager.fileSystemOutputCacheLocation'));
+        System.assertEquals('htmllibmanagerDisableReplacement', x-property-mappings.get('htmllibmanager.disable.replacement'));
     }
 }

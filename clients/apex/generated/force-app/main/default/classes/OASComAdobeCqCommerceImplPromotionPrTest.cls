@@ -72,7 +72,7 @@ private class OASComAdobeCqCommerceImplPromotionPrTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeCqCommerceImplPromotionPr comAdobeCqCommerceImplPromotionPromotionManagerImplProperties = new OASComAdobeCqCommerceImplPromotionPr();
-        Map<String, String> propertyMappings = comAdobeCqCommerceImplPromotionPromotionManagerImplProperties.getPropertyMappings();
-        System.assertEquals('cqCommercePromotionRoot', propertyMappings.get('cq.commerce.promotion.root'));
+        Map<String, String> x-property-mappings = comAdobeCqCommerceImplPromotionPromotionManagerImplProperties.getx-property-mappings();
+        System.assertEquals('cqCommercePromotionRoot', x-property-mappings.get('cq.commerce.promotion.root'));
     }
 }

@@ -72,9 +72,9 @@ private class OASOrgApacheSlingEventImplJobsJobConTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASOrgApacheSlingEventImplJobsJobCon orgApacheSlingEventImplJobsJobConsumerManagerProperties = new OASOrgApacheSlingEventImplJobsJobCon();
-        Map<String, String> propertyMappings = orgApacheSlingEventImplJobsJobConsumerManagerProperties.getPropertyMappings();
-        System.assertEquals('orgApacheSlingInstallerConfigurationPersist', propertyMappings.get('org.apache.sling.installer.configuration.persist'));
-        System.assertEquals('jobConsumermanagerWhitelist', propertyMappings.get('job.consumermanager.whitelist'));
-        System.assertEquals('jobConsumermanagerBlacklist', propertyMappings.get('job.consumermanager.blacklist'));
+        Map<String, String> x-property-mappings = orgApacheSlingEventImplJobsJobConsumerManagerProperties.getx-property-mappings();
+        System.assertEquals('orgApacheSlingInstallerConfigurationPersist', x-property-mappings.get('org.apache.sling.installer.configuration.persist'));
+        System.assertEquals('jobConsumermanagerWhitelist', x-property-mappings.get('job.consumermanager.whitelist'));
+        System.assertEquals('jobConsumermanagerBlacklist', x-property-mappings.get('job.consumermanager.blacklist'));
     }
 }

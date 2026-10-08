@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeGraniteRepositoryHcImplContinuousRGCHealthCheckInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeGraniteRepositoryHcImplContinuousRGCHealthCheckInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComAdobeGraniteRepositoryHcImplContinuousRGCHealthCheckProperties = openapi_server.resourceTypes.ComAdobeGraniteRepositoryHcImplContinuousRGCHealthCheckProperties
+}
+resourceTypes {
+
+  ComAdobeGraniteRepositoryHcImplContinuousRGCHealthCheckInfo {
+    title = ComAdobeGraniteRepositoryHcImplContinuousRGCHealthCheckInfo
+    description = ComAdobeGraniteRepositoryHcImplContinuousRGCHealthCheckInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComAdobeGraniteRepositoryHcImplContinuousRGCHealthCheckProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeGraniteRepositoryHcImplContinuousRGCHealthCheckInfo {
+    title = ComAdobeGraniteRepositoryHcImplContinuousRGCHealthCheckInfo
+    description = ComAdobeGraniteRepositoryHcImplContinuousRGCHealthCheckInfo
+    implements = openapi_server.resourceTypes.ComAdobeGraniteRepositoryHcImplContinuousRGCHealthCheckInfo
+
+  }
+}

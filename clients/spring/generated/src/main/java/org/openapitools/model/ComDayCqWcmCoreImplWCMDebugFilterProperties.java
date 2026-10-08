@@ -1,27 +1,38 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyBoolean;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComDayCqWcmCoreImplWCMDebugFilterProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComDayCqWcmCoreImplWCMDebugFilterProperties   {
-  @JsonProperty("wcmdbgfilter.enabled")
-  private ConfigNodePropertyBoolean wcmdbgfilterEnabled = null;
+@JsonTypeName("comDayCqWcmCoreImplWCMDebugFilterProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComDayCqWcmCoreImplWCMDebugFilterProperties {
 
-  @JsonProperty("wcmdbgfilter.jspDebug")
-  private ConfigNodePropertyBoolean wcmdbgfilterJspDebug = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean wcmdbgfilterEnabled;
 
-  public ComDayCqWcmCoreImplWCMDebugFilterProperties wcmdbgfilterEnabled(ConfigNodePropertyBoolean wcmdbgfilterEnabled) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean wcmdbgfilterJspDebug;
+
+  public ComDayCqWcmCoreImplWCMDebugFilterProperties wcmdbgfilterEnabled(@Nullable ConfigNodePropertyBoolean wcmdbgfilterEnabled) {
     this.wcmdbgfilterEnabled = wcmdbgfilterEnabled;
     return this;
   }
@@ -29,20 +40,20 @@ public class ComDayCqWcmCoreImplWCMDebugFilterProperties   {
   /**
    * Get wcmdbgfilterEnabled
    * @return wcmdbgfilterEnabled
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getWcmdbgfilterEnabled() {
+   */
+  @Valid 
+  @Schema(name = "wcmdbgfilter.enabled", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("wcmdbgfilter.enabled")
+  public @Nullable ConfigNodePropertyBoolean getWcmdbgfilterEnabled() {
     return wcmdbgfilterEnabled;
   }
 
-  public void setWcmdbgfilterEnabled(ConfigNodePropertyBoolean wcmdbgfilterEnabled) {
+  @JsonProperty("wcmdbgfilter.enabled")
+  public void setWcmdbgfilterEnabled(@Nullable ConfigNodePropertyBoolean wcmdbgfilterEnabled) {
     this.wcmdbgfilterEnabled = wcmdbgfilterEnabled;
   }
 
-  public ComDayCqWcmCoreImplWCMDebugFilterProperties wcmdbgfilterJspDebug(ConfigNodePropertyBoolean wcmdbgfilterJspDebug) {
+  public ComDayCqWcmCoreImplWCMDebugFilterProperties wcmdbgfilterJspDebug(@Nullable ConfigNodePropertyBoolean wcmdbgfilterJspDebug) {
     this.wcmdbgfilterJspDebug = wcmdbgfilterJspDebug;
     return this;
   }
@@ -50,22 +61,21 @@ public class ComDayCqWcmCoreImplWCMDebugFilterProperties   {
   /**
    * Get wcmdbgfilterJspDebug
    * @return wcmdbgfilterJspDebug
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getWcmdbgfilterJspDebug() {
+   */
+  @Valid 
+  @Schema(name = "wcmdbgfilter.jspDebug", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("wcmdbgfilter.jspDebug")
+  public @Nullable ConfigNodePropertyBoolean getWcmdbgfilterJspDebug() {
     return wcmdbgfilterJspDebug;
   }
 
-  public void setWcmdbgfilterJspDebug(ConfigNodePropertyBoolean wcmdbgfilterJspDebug) {
+  @JsonProperty("wcmdbgfilter.jspDebug")
+  public void setWcmdbgfilterJspDebug(@Nullable ConfigNodePropertyBoolean wcmdbgfilterJspDebug) {
     this.wcmdbgfilterJspDebug = wcmdbgfilterJspDebug;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -86,7 +96,6 @@ public class ComDayCqWcmCoreImplWCMDebugFilterProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComDayCqWcmCoreImplWCMDebugFilterProperties {\n");
-    
     sb.append("    wcmdbgfilterEnabled: ").append(toIndentedString(wcmdbgfilterEnabled)).append("\n");
     sb.append("    wcmdbgfilterJspDebug: ").append(toIndentedString(wcmdbgfilterJspDebug)).append("\n");
     sb.append("}");
@@ -97,11 +106,8 @@ public class ComDayCqWcmCoreImplWCMDebugFilterProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -2,31 +2,32 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.OrgApacheSlingCommonsSchedulerImplQuartzSchedulerProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class OrgApacheSlingCommonsSchedulerImplQuartzSchedulerInfo   {
   
-  private String pid = null;
+  private String pid;
 
-  private String title = null;
+  private String title;
 
-  private String description = null;
+  private String description;
 
-  private OrgApacheSlingCommonsSchedulerImplQuartzSchedulerProperties properties = null;
+  private OrgApacheSlingCommonsSchedulerImplQuartzSchedulerProperties properties;
 
-  private String bundleLocation = null;
+  private String bundleLocation;
 
-  private String serviceLocation = null;
-
+  private String serviceLocation;
 
   /**
    **/
@@ -138,7 +139,7 @@ public class OrgApacheSlingCommonsSchedulerImplQuartzSchedulerInfo   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -146,12 +147,12 @@ public class OrgApacheSlingCommonsSchedulerImplQuartzSchedulerInfo   {
       return false;
     }
     OrgApacheSlingCommonsSchedulerImplQuartzSchedulerInfo orgApacheSlingCommonsSchedulerImplQuartzSchedulerInfo = (OrgApacheSlingCommonsSchedulerImplQuartzSchedulerInfo) o;
-    return Objects.equals(pid, orgApacheSlingCommonsSchedulerImplQuartzSchedulerInfo.pid) &&
-        Objects.equals(title, orgApacheSlingCommonsSchedulerImplQuartzSchedulerInfo.title) &&
-        Objects.equals(description, orgApacheSlingCommonsSchedulerImplQuartzSchedulerInfo.description) &&
-        Objects.equals(properties, orgApacheSlingCommonsSchedulerImplQuartzSchedulerInfo.properties) &&
-        Objects.equals(bundleLocation, orgApacheSlingCommonsSchedulerImplQuartzSchedulerInfo.bundleLocation) &&
-        Objects.equals(serviceLocation, orgApacheSlingCommonsSchedulerImplQuartzSchedulerInfo.serviceLocation);
+    return Objects.equals(this.pid, orgApacheSlingCommonsSchedulerImplQuartzSchedulerInfo.pid) &&
+        Objects.equals(this.title, orgApacheSlingCommonsSchedulerImplQuartzSchedulerInfo.title) &&
+        Objects.equals(this.description, orgApacheSlingCommonsSchedulerImplQuartzSchedulerInfo.description) &&
+        Objects.equals(this.properties, orgApacheSlingCommonsSchedulerImplQuartzSchedulerInfo.properties) &&
+        Objects.equals(this.bundleLocation, orgApacheSlingCommonsSchedulerImplQuartzSchedulerInfo.bundleLocation) &&
+        Objects.equals(this.serviceLocation, orgApacheSlingCommonsSchedulerImplQuartzSchedulerInfo.serviceLocation);
   }
 
   @Override
@@ -178,11 +179,8 @@ public class OrgApacheSlingCommonsSchedulerImplQuartzSchedulerInfo   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

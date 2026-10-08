@@ -1,0 +1,54 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqWcmLaunchesImplLaunchesEventHandlerProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqWcmLaunchesImplLaunchesEventHandlerProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyDropDown = openapi_server.resourceTypes.ConfigNodePropertyDropDown
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComAdobeCqWcmLaunchesImplLaunchesEventHandlerProperties {
+    title = ComAdobeCqWcmLaunchesImplLaunchesEventHandlerProperties
+    description = ComAdobeCqWcmLaunchesImplLaunchesEventHandlerProperties
+    derivedFrom = Root
+    properties {
+        event_filter {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        launches_eventhandler_threadpool_maxsize {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        launches_eventhandler_threadpool_priority {
+          type = ConfigNodePropertyDropDown
+          description = ""
+          optional = false
+        }
+        launches_eventhandler_updatelastmodification {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqWcmLaunchesImplLaunchesEventHandlerProperties {
+    title = ComAdobeCqWcmLaunchesImplLaunchesEventHandlerProperties
+    description = ComAdobeCqWcmLaunchesImplLaunchesEventHandlerProperties
+    implements = openapi_server.resourceTypes.ComAdobeCqWcmLaunchesImplLaunchesEventHandlerProperties
+
+  }
+}

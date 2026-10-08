@@ -2,10 +2,10 @@
 # ComAdobeCqAccountImplAccountManagementServletProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**cqPeriodaccountmanagerPeriodconfigPeriodinformnewaccountPeriodmail** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**cqPeriodaccountmanagerPeriodconfigPeriodinformnewpwdPeriodmail** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **cqAccountmanagerConfigInformnewaccountMail** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **cqAccountmanagerConfigInformnewpwdMail** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
 
 
 

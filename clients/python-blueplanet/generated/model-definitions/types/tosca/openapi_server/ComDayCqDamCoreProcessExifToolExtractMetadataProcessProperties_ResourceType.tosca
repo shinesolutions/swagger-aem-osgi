@@ -1,0 +1,42 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqDamCoreProcessExifToolExtractMetadataProcessProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqDamCoreProcessExifToolExtractMetadataProcessProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComDayCqDamCoreProcessExifToolExtractMetadataProcessProperties {
+    title = ComDayCqDamCoreProcessExifToolExtractMetadataProcessProperties
+    description = ComDayCqDamCoreProcessExifToolExtractMetadataProcessProperties
+    derivedFrom = Root
+    properties {
+        process_label {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        cq_dam_enable_sha1 {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqDamCoreProcessExifToolExtractMetadataProcessProperties {
+    title = ComDayCqDamCoreProcessExifToolExtractMetadataProcessProperties
+    description = ComDayCqDamCoreProcessExifToolExtractMetadataProcessProperties
+    implements = openapi_server.resourceTypes.ComDayCqDamCoreProcessExifToolExtractMetadataProcessProperties
+
+  }
+}

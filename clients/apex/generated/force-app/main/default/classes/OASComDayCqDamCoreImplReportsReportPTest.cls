@@ -72,7 +72,7 @@ private class OASComDayCqDamCoreImplReportsReportPTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqDamCoreImplReportsReportP comDayCqDamCoreImplReportsReportPurgeServiceProperties = new OASComDayCqDamCoreImplReportsReportP();
-        Map<String, String> propertyMappings = comDayCqDamCoreImplReportsReportPurgeServiceProperties.getPropertyMappings();
-        System.assertEquals('schedulerExpression', propertyMappings.get('scheduler.expression'));
+        Map<String, String> x-property-mappings = comDayCqDamCoreImplReportsReportPurgeServiceProperties.getx-property-mappings();
+        System.assertEquals('schedulerExpression', x-property-mappings.get('scheduler.expression'));
     }
 }

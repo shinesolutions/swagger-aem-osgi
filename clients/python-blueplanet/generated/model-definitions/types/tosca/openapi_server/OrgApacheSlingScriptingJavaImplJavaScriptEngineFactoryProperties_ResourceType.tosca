@@ -1,0 +1,52 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryProperties {
+    title = OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryProperties
+    description = OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryProperties
+    derivedFrom = Root
+    properties {
+        java_classdebuginfo {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        java_java_encoding {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        java_compiler_source_vm {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        java_compiler_target_vm {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryProperties {
+    title = OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryProperties
+    description = OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryProperties
+    implements = openapi_server.resourceTypes.OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryProperties
+
+  }
+}

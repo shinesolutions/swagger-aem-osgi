@@ -1,0 +1,41 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqSocialScfCoreOperationsImplSocialOperationsServletProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqSocialScfCoreOperationsImplSocialOperationsServletProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComAdobeCqSocialScfCoreOperationsImplSocialOperationsServletProperties {
+    title = ComAdobeCqSocialScfCoreOperationsImplSocialOperationsServletProperties
+    description = ComAdobeCqSocialScfCoreOperationsImplSocialOperationsServletProperties
+    derivedFrom = Root
+    properties {
+        sling_servlet_selectors {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        sling_servlet_extensions {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqSocialScfCoreOperationsImplSocialOperationsServletProperties {
+    title = ComAdobeCqSocialScfCoreOperationsImplSocialOperationsServletProperties
+    description = ComAdobeCqSocialScfCoreOperationsImplSocialOperationsServletProperties
+    implements = openapi_server.resourceTypes.ComAdobeCqSocialScfCoreOperationsImplSocialOperationsServletProperties
+
+  }
+}

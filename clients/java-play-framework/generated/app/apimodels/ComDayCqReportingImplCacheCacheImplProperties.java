@@ -2,26 +2,33 @@ package apimodels;
 
 import apimodels.ConfigNodePropertyBoolean;
 import apimodels.ConfigNodePropertyInteger;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * ComDayCqReportingImplCacheCacheImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class ComDayCqReportingImplCacheCacheImplProperties   {
   @JsonProperty("repcache.enable")
-  private ConfigNodePropertyBoolean repcacheEnable = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean repcacheEnable;
 
   @JsonProperty("repcache.ttl")
-  private ConfigNodePropertyInteger repcacheTtl = null;
+  @Valid
+
+  private ConfigNodePropertyInteger repcacheTtl;
 
   @JsonProperty("repcache.max")
-  private ConfigNodePropertyInteger repcacheMax = null;
+  @Valid
+
+  private ConfigNodePropertyInteger repcacheMax;
 
   public ComDayCqReportingImplCacheCacheImplProperties repcacheEnable(ConfigNodePropertyBoolean repcacheEnable) {
     this.repcacheEnable = repcacheEnable;
@@ -32,7 +39,6 @@ public class ComDayCqReportingImplCacheCacheImplProperties   {
    * Get repcacheEnable
    * @return repcacheEnable
   **/
-  @Valid
   public ConfigNodePropertyBoolean getRepcacheEnable() {
     return repcacheEnable;
   }
@@ -50,7 +56,6 @@ public class ComDayCqReportingImplCacheCacheImplProperties   {
    * Get repcacheTtl
    * @return repcacheTtl
   **/
-  @Valid
   public ConfigNodePropertyInteger getRepcacheTtl() {
     return repcacheTtl;
   }
@@ -68,7 +73,6 @@ public class ComDayCqReportingImplCacheCacheImplProperties   {
    * Get repcacheMax
    * @return repcacheMax
   **/
-  @Valid
   public ConfigNodePropertyInteger getRepcacheMax() {
     return repcacheMax;
   }
@@ -79,7 +83,7 @@ public class ComDayCqReportingImplCacheCacheImplProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -114,11 +118,8 @@ public class ComDayCqReportingImplCacheCacheImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

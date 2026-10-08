@@ -1,28 +1,39 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComDayCqWcmMsmImplServletsAuditLogServletProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComDayCqWcmMsmImplServletsAuditLogServletProperties   {
-  @JsonProperty("auditlogservlet.default.events.count")
-  private ConfigNodePropertyInteger auditlogservletDefaultEventsCount = null;
+@JsonTypeName("comDayCqWcmMsmImplServletsAuditLogServletProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComDayCqWcmMsmImplServletsAuditLogServletProperties {
 
-  @JsonProperty("auditlogservlet.default.path")
-  private ConfigNodePropertyString auditlogservletDefaultPath = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger auditlogservletDefaultEventsCount;
 
-  public ComDayCqWcmMsmImplServletsAuditLogServletProperties auditlogservletDefaultEventsCount(ConfigNodePropertyInteger auditlogservletDefaultEventsCount) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString auditlogservletDefaultPath;
+
+  public ComDayCqWcmMsmImplServletsAuditLogServletProperties auditlogservletDefaultEventsCount(@Nullable ConfigNodePropertyInteger auditlogservletDefaultEventsCount) {
     this.auditlogservletDefaultEventsCount = auditlogservletDefaultEventsCount;
     return this;
   }
@@ -30,20 +41,20 @@ public class ComDayCqWcmMsmImplServletsAuditLogServletProperties   {
   /**
    * Get auditlogservletDefaultEventsCount
    * @return auditlogservletDefaultEventsCount
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getAuditlogservletDefaultEventsCount() {
+   */
+  @Valid 
+  @Schema(name = "auditlogservlet.default.events.count", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("auditlogservlet.default.events.count")
+  public @Nullable ConfigNodePropertyInteger getAuditlogservletDefaultEventsCount() {
     return auditlogservletDefaultEventsCount;
   }
 
-  public void setAuditlogservletDefaultEventsCount(ConfigNodePropertyInteger auditlogservletDefaultEventsCount) {
+  @JsonProperty("auditlogservlet.default.events.count")
+  public void setAuditlogservletDefaultEventsCount(@Nullable ConfigNodePropertyInteger auditlogservletDefaultEventsCount) {
     this.auditlogservletDefaultEventsCount = auditlogservletDefaultEventsCount;
   }
 
-  public ComDayCqWcmMsmImplServletsAuditLogServletProperties auditlogservletDefaultPath(ConfigNodePropertyString auditlogservletDefaultPath) {
+  public ComDayCqWcmMsmImplServletsAuditLogServletProperties auditlogservletDefaultPath(@Nullable ConfigNodePropertyString auditlogservletDefaultPath) {
     this.auditlogservletDefaultPath = auditlogservletDefaultPath;
     return this;
   }
@@ -51,22 +62,21 @@ public class ComDayCqWcmMsmImplServletsAuditLogServletProperties   {
   /**
    * Get auditlogservletDefaultPath
    * @return auditlogservletDefaultPath
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getAuditlogservletDefaultPath() {
+   */
+  @Valid 
+  @Schema(name = "auditlogservlet.default.path", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("auditlogservlet.default.path")
+  public @Nullable ConfigNodePropertyString getAuditlogservletDefaultPath() {
     return auditlogservletDefaultPath;
   }
 
-  public void setAuditlogservletDefaultPath(ConfigNodePropertyString auditlogservletDefaultPath) {
+  @JsonProperty("auditlogservlet.default.path")
+  public void setAuditlogservletDefaultPath(@Nullable ConfigNodePropertyString auditlogservletDefaultPath) {
     this.auditlogservletDefaultPath = auditlogservletDefaultPath;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -87,7 +97,6 @@ public class ComDayCqWcmMsmImplServletsAuditLogServletProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComDayCqWcmMsmImplServletsAuditLogServletProperties {\n");
-    
     sb.append("    auditlogservletDefaultEventsCount: ").append(toIndentedString(auditlogservletDefaultEventsCount)).append("\n");
     sb.append("    auditlogservletDefaultPath: ").append(toIndentedString(auditlogservletDefaultPath)).append("\n");
     sb.append("}");
@@ -98,11 +107,8 @@ public class ComDayCqWcmMsmImplServletsAuditLogServletProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

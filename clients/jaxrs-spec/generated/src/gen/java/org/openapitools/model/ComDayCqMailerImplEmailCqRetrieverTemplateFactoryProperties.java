@@ -1,22 +1,33 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comDayCqMailerImplEmailCqRetrieverTemplateFactoryProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqMailerImplEmailCqRetrieverTemplateFactoryProperties   {
-  
-  private @Valid ConfigNodePropertyBoolean mailerEmailEmbed = null;
-  private @Valid ConfigNodePropertyString mailerEmailCharset = null;
-  private @Valid ConfigNodePropertyString mailerEmailRetrieverUserID = null;
-  private @Valid ConfigNodePropertyString mailerEmailRetrieverUserPWD = null;
+  private ConfigNodePropertyBoolean mailerEmailEmbed;
+  private ConfigNodePropertyString mailerEmailCharset;
+  private ConfigNodePropertyString mailerEmailRetrieverUserID;
+  private ConfigNodePropertyString mailerEmailRetrieverUserPWD;
+
+  public ComDayCqMailerImplEmailCqRetrieverTemplateFactoryProperties() {
+  }
 
   /**
    **/
@@ -28,9 +39,11 @@ public class ComDayCqMailerImplEmailCqRetrieverTemplateFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("mailer.email.embed")
-  public ConfigNodePropertyBoolean getMailerEmailEmbed() {
+  @Valid public ConfigNodePropertyBoolean getMailerEmailEmbed() {
     return mailerEmailEmbed;
   }
+
+  @JsonProperty("mailer.email.embed")
   public void setMailerEmailEmbed(ConfigNodePropertyBoolean mailerEmailEmbed) {
     this.mailerEmailEmbed = mailerEmailEmbed;
   }
@@ -45,9 +58,11 @@ public class ComDayCqMailerImplEmailCqRetrieverTemplateFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("mailer.email.charset")
-  public ConfigNodePropertyString getMailerEmailCharset() {
+  @Valid public ConfigNodePropertyString getMailerEmailCharset() {
     return mailerEmailCharset;
   }
+
+  @JsonProperty("mailer.email.charset")
   public void setMailerEmailCharset(ConfigNodePropertyString mailerEmailCharset) {
     this.mailerEmailCharset = mailerEmailCharset;
   }
@@ -62,9 +77,11 @@ public class ComDayCqMailerImplEmailCqRetrieverTemplateFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("mailer.email.retrieverUserID")
-  public ConfigNodePropertyString getMailerEmailRetrieverUserID() {
+  @Valid public ConfigNodePropertyString getMailerEmailRetrieverUserID() {
     return mailerEmailRetrieverUserID;
   }
+
+  @JsonProperty("mailer.email.retrieverUserID")
   public void setMailerEmailRetrieverUserID(ConfigNodePropertyString mailerEmailRetrieverUserID) {
     this.mailerEmailRetrieverUserID = mailerEmailRetrieverUserID;
   }
@@ -79,16 +96,18 @@ public class ComDayCqMailerImplEmailCqRetrieverTemplateFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("mailer.email.retrieverUserPWD")
-  public ConfigNodePropertyString getMailerEmailRetrieverUserPWD() {
+  @Valid public ConfigNodePropertyString getMailerEmailRetrieverUserPWD() {
     return mailerEmailRetrieverUserPWD;
   }
+
+  @JsonProperty("mailer.email.retrieverUserPWD")
   public void setMailerEmailRetrieverUserPWD(ConfigNodePropertyString mailerEmailRetrieverUserPWD) {
     this.mailerEmailRetrieverUserPWD = mailerEmailRetrieverUserPWD;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -96,10 +115,10 @@ public class ComDayCqMailerImplEmailCqRetrieverTemplateFactoryProperties   {
       return false;
     }
     ComDayCqMailerImplEmailCqRetrieverTemplateFactoryProperties comDayCqMailerImplEmailCqRetrieverTemplateFactoryProperties = (ComDayCqMailerImplEmailCqRetrieverTemplateFactoryProperties) o;
-    return Objects.equals(mailerEmailEmbed, comDayCqMailerImplEmailCqRetrieverTemplateFactoryProperties.mailerEmailEmbed) &&
-        Objects.equals(mailerEmailCharset, comDayCqMailerImplEmailCqRetrieverTemplateFactoryProperties.mailerEmailCharset) &&
-        Objects.equals(mailerEmailRetrieverUserID, comDayCqMailerImplEmailCqRetrieverTemplateFactoryProperties.mailerEmailRetrieverUserID) &&
-        Objects.equals(mailerEmailRetrieverUserPWD, comDayCqMailerImplEmailCqRetrieverTemplateFactoryProperties.mailerEmailRetrieverUserPWD);
+    return Objects.equals(this.mailerEmailEmbed, comDayCqMailerImplEmailCqRetrieverTemplateFactoryProperties.mailerEmailEmbed) &&
+        Objects.equals(this.mailerEmailCharset, comDayCqMailerImplEmailCqRetrieverTemplateFactoryProperties.mailerEmailCharset) &&
+        Objects.equals(this.mailerEmailRetrieverUserID, comDayCqMailerImplEmailCqRetrieverTemplateFactoryProperties.mailerEmailRetrieverUserID) &&
+        Objects.equals(this.mailerEmailRetrieverUserPWD, comDayCqMailerImplEmailCqRetrieverTemplateFactoryProperties.mailerEmailRetrieverUserPWD);
   }
 
   @Override
@@ -124,11 +143,9 @@ public class ComDayCqMailerImplEmailCqRetrieverTemplateFactoryProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

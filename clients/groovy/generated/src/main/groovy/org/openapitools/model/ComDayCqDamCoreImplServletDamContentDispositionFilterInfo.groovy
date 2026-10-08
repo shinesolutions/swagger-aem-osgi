@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqDamCoreImplServletDamContentDispositionFil
 
 @Canonical
 class ComDayCqDamCoreImplServletDamContentDispositionFilterInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqDamCoreImplServletDamContentDispositionFilterProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqDamCoreImplServletDamContentDispositionFilterProperties properties
 }

@@ -72,7 +72,7 @@ private class OASComDayCqDamCoreImplDamChangeEventTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqDamCoreImplDamChangeEvent comDayCqDamCoreImplDamChangeEventListenerProperties = new OASComDayCqDamCoreImplDamChangeEvent();
-        Map<String, String> propertyMappings = comDayCqDamCoreImplDamChangeEventListenerProperties.getPropertyMappings();
-        System.assertEquals('changeeventlistenerObservedPaths', propertyMappings.get('changeeventlistener.observed.paths'));
+        Map<String, String> x-property-mappings = comDayCqDamCoreImplDamChangeEventListenerProperties.getx-property-mappings();
+        System.assertEquals('changeeventlistenerObservedPaths', x-property-mappings.get('changeeventlistener.observed.paths'));
     }
 }

@@ -72,7 +72,7 @@ private class OASComAdobeGraniteBundlesHcImplSlingTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeGraniteBundlesHcImplSling comAdobeGraniteBundlesHcImplSlingReferrerFilterHealthCheckProperties = new OASComAdobeGraniteBundlesHcImplSling();
-        Map<String, String> propertyMappings = comAdobeGraniteBundlesHcImplSlingReferrerFilterHealthCheckProperties.getPropertyMappings();
-        System.assertEquals('hcTags', propertyMappings.get('hc.tags'));
+        Map<String, String> x-property-mappings = comAdobeGraniteBundlesHcImplSlingReferrerFilterHealthCheckProperties.getx-property-mappings();
+        System.assertEquals('hcTags', x-property-mappings.get('hc.tags'));
     }
 }

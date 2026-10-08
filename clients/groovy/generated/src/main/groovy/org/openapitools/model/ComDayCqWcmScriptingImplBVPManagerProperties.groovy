@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyArray;
 
 @Canonical
 class ComDayCqWcmScriptingImplBVPManagerProperties {
-    ConfigNodePropertyArray comDayCqWcmScriptingBvpScriptEngines = null
-
+    
+    ConfigNodePropertyArray comDayCqWcmScriptingBvpScriptEngines
 }

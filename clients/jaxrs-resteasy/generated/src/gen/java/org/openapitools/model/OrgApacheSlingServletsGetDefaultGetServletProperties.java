@@ -4,31 +4,35 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2019-08-05T00:59:30.156Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2026-10-07T12:54:21.614735164Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingServletsGetDefaultGetServletProperties   {
   
-  private ConfigNodePropertyArray aliases = null;
-  private ConfigNodePropertyBoolean index = null;
-  private ConfigNodePropertyArray indexFiles = null;
-  private ConfigNodePropertyBoolean enableHtml = null;
-  private ConfigNodePropertyBoolean enableJson = null;
-  private ConfigNodePropertyBoolean enableTxt = null;
-  private ConfigNodePropertyBoolean enableXml = null;
-  private ConfigNodePropertyInteger jsonMaximumresults = null;
-  private ConfigNodePropertyBoolean ecmaSuport = null;
+  private ConfigNodePropertyArray aliases;
+  private ConfigNodePropertyBoolean index;
+  private ConfigNodePropertyArray indexFiles;
+  private ConfigNodePropertyBoolean enableHtml;
+  private ConfigNodePropertyBoolean enableJson;
+  private ConfigNodePropertyBoolean enableTxt;
+  private ConfigNodePropertyBoolean enableXml;
+  private ConfigNodePropertyInteger jsonMaximumresults;
+  private ConfigNodePropertyBoolean ecmaSuport;
 
   /**
    **/
   
   @ApiModelProperty(value = "")
   @JsonProperty("aliases")
+  @Valid
   public ConfigNodePropertyArray getAliases() {
     return aliases;
   }
@@ -41,6 +45,7 @@ public class OrgApacheSlingServletsGetDefaultGetServletProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("index")
+  @Valid
   public ConfigNodePropertyBoolean getIndex() {
     return index;
   }
@@ -53,6 +58,7 @@ public class OrgApacheSlingServletsGetDefaultGetServletProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("index.files")
+  @Valid
   public ConfigNodePropertyArray getIndexFiles() {
     return indexFiles;
   }
@@ -65,6 +71,7 @@ public class OrgApacheSlingServletsGetDefaultGetServletProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("enable.html")
+  @Valid
   public ConfigNodePropertyBoolean getEnableHtml() {
     return enableHtml;
   }
@@ -77,6 +84,7 @@ public class OrgApacheSlingServletsGetDefaultGetServletProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("enable.json")
+  @Valid
   public ConfigNodePropertyBoolean getEnableJson() {
     return enableJson;
   }
@@ -89,6 +97,7 @@ public class OrgApacheSlingServletsGetDefaultGetServletProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("enable.txt")
+  @Valid
   public ConfigNodePropertyBoolean getEnableTxt() {
     return enableTxt;
   }
@@ -101,6 +110,7 @@ public class OrgApacheSlingServletsGetDefaultGetServletProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("enable.xml")
+  @Valid
   public ConfigNodePropertyBoolean getEnableXml() {
     return enableXml;
   }
@@ -113,6 +123,7 @@ public class OrgApacheSlingServletsGetDefaultGetServletProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("json.maximumresults")
+  @Valid
   public ConfigNodePropertyInteger getJsonMaximumresults() {
     return jsonMaximumresults;
   }
@@ -125,6 +136,7 @@ public class OrgApacheSlingServletsGetDefaultGetServletProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("ecmaSuport")
+  @Valid
   public ConfigNodePropertyBoolean getEcmaSuport() {
     return ecmaSuport;
   }
@@ -134,7 +146,7 @@ public class OrgApacheSlingServletsGetDefaultGetServletProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -142,15 +154,15 @@ public class OrgApacheSlingServletsGetDefaultGetServletProperties   {
       return false;
     }
     OrgApacheSlingServletsGetDefaultGetServletProperties orgApacheSlingServletsGetDefaultGetServletProperties = (OrgApacheSlingServletsGetDefaultGetServletProperties) o;
-    return Objects.equals(aliases, orgApacheSlingServletsGetDefaultGetServletProperties.aliases) &&
-        Objects.equals(index, orgApacheSlingServletsGetDefaultGetServletProperties.index) &&
-        Objects.equals(indexFiles, orgApacheSlingServletsGetDefaultGetServletProperties.indexFiles) &&
-        Objects.equals(enableHtml, orgApacheSlingServletsGetDefaultGetServletProperties.enableHtml) &&
-        Objects.equals(enableJson, orgApacheSlingServletsGetDefaultGetServletProperties.enableJson) &&
-        Objects.equals(enableTxt, orgApacheSlingServletsGetDefaultGetServletProperties.enableTxt) &&
-        Objects.equals(enableXml, orgApacheSlingServletsGetDefaultGetServletProperties.enableXml) &&
-        Objects.equals(jsonMaximumresults, orgApacheSlingServletsGetDefaultGetServletProperties.jsonMaximumresults) &&
-        Objects.equals(ecmaSuport, orgApacheSlingServletsGetDefaultGetServletProperties.ecmaSuport);
+    return Objects.equals(this.aliases, orgApacheSlingServletsGetDefaultGetServletProperties.aliases) &&
+        Objects.equals(this.index, orgApacheSlingServletsGetDefaultGetServletProperties.index) &&
+        Objects.equals(this.indexFiles, orgApacheSlingServletsGetDefaultGetServletProperties.indexFiles) &&
+        Objects.equals(this.enableHtml, orgApacheSlingServletsGetDefaultGetServletProperties.enableHtml) &&
+        Objects.equals(this.enableJson, orgApacheSlingServletsGetDefaultGetServletProperties.enableJson) &&
+        Objects.equals(this.enableTxt, orgApacheSlingServletsGetDefaultGetServletProperties.enableTxt) &&
+        Objects.equals(this.enableXml, orgApacheSlingServletsGetDefaultGetServletProperties.enableXml) &&
+        Objects.equals(this.jsonMaximumresults, orgApacheSlingServletsGetDefaultGetServletProperties.jsonMaximumresults) &&
+        Objects.equals(this.ecmaSuport, orgApacheSlingServletsGetDefaultGetServletProperties.ecmaSuport);
   }
 
   @Override
@@ -180,11 +192,8 @@ public class OrgApacheSlingServletsGetDefaultGetServletProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

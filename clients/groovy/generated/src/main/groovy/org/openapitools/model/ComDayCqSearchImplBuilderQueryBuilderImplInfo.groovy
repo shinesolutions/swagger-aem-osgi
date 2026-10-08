@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqSearchImplBuilderQueryBuilderImplPropertie
 
 @Canonical
 class ComDayCqSearchImplBuilderQueryBuilderImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqSearchImplBuilderQueryBuilderImplProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqSearchImplBuilderQueryBuilderImplProperties properties
 }

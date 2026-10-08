@@ -2,9 +2,9 @@
 # OrgApacheSlingCommonsSchedulerImplSchedulerHealthCheckProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**maxPeriodquartzJobPerioddurationPeriodacceptable** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **maxQuartzJobDurationAcceptable** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
 
 
 

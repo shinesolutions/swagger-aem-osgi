@@ -8,10 +8,10 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class ComDayCqDamCoreImplHandlerJpegHandlerProperties {
-    ConfigNodePropertyBoolean cqDamEnableExtMetaExtraction = null
-
-    ConfigNodePropertyInteger largeFileThreshold = null
-
-    ConfigNodePropertyInteger largeCommentThreshold = null
-
+    
+    ConfigNodePropertyBoolean cqDamEnableExtMetaExtraction
+    
+    ConfigNodePropertyInteger largeFileThreshold
+    
+    ConfigNodePropertyInteger largeCommentThreshold
 }

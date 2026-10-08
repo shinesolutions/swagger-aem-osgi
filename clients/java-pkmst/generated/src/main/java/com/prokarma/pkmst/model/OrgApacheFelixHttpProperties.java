@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyArray;
 import com.prokarma.pkmst.model.ConfigNodePropertyBoolean;
 import com.prokarma.pkmst.model.ConfigNodePropertyDropDown;
@@ -19,177 +20,176 @@ import io.swagger.annotations.ApiModelProperty;
  * OrgApacheFelixHttpProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheFelixHttpProperties   {
   @JsonProperty("org.apache.felix.http.host")
-  private ConfigNodePropertyString orgApacheFelixHttpHost = null;
+  private ConfigNodePropertyString orgApacheFelixHttpHost;
 
   @JsonProperty("org.apache.felix.http.enable")
-  private ConfigNodePropertyBoolean orgApacheFelixHttpEnable = null;
+  private ConfigNodePropertyBoolean orgApacheFelixHttpEnable;
 
   @JsonProperty("org.osgi.service.http.port")
-  private ConfigNodePropertyInteger orgOsgiServiceHttpPort = null;
+  private ConfigNodePropertyInteger orgOsgiServiceHttpPort;
 
   @JsonProperty("org.apache.felix.http.timeout")
-  private ConfigNodePropertyInteger orgApacheFelixHttpTimeout = null;
+  private ConfigNodePropertyInteger orgApacheFelixHttpTimeout;
 
   @JsonProperty("org.apache.felix.https.enable")
-  private ConfigNodePropertyBoolean orgApacheFelixHttpsEnable = null;
+  private ConfigNodePropertyBoolean orgApacheFelixHttpsEnable;
 
   @JsonProperty("org.osgi.service.http.port.secure")
-  private ConfigNodePropertyInteger orgOsgiServiceHttpPortSecure = null;
+  private ConfigNodePropertyInteger orgOsgiServiceHttpPortSecure;
 
   @JsonProperty("org.apache.felix.https.keystore")
-  private ConfigNodePropertyString orgApacheFelixHttpsKeystore = null;
+  private ConfigNodePropertyString orgApacheFelixHttpsKeystore;
 
   @JsonProperty("org.apache.felix.https.keystore.password")
-  private ConfigNodePropertyString orgApacheFelixHttpsKeystorePassword = null;
+  private ConfigNodePropertyString orgApacheFelixHttpsKeystorePassword;
 
   @JsonProperty("org.apache.felix.https.keystore.key.password")
-  private ConfigNodePropertyString orgApacheFelixHttpsKeystoreKeyPassword = null;
+  private ConfigNodePropertyString orgApacheFelixHttpsKeystoreKeyPassword;
 
   @JsonProperty("org.apache.felix.https.truststore")
-  private ConfigNodePropertyString orgApacheFelixHttpsTruststore = null;
+  private ConfigNodePropertyString orgApacheFelixHttpsTruststore;
 
   @JsonProperty("org.apache.felix.https.truststore.password")
-  private ConfigNodePropertyString orgApacheFelixHttpsTruststorePassword = null;
+  private ConfigNodePropertyString orgApacheFelixHttpsTruststorePassword;
 
   @JsonProperty("org.apache.felix.https.clientcertificate")
-  private ConfigNodePropertyDropDown orgApacheFelixHttpsClientcertificate = null;
+  private ConfigNodePropertyDropDown orgApacheFelixHttpsClientcertificate;
 
   @JsonProperty("org.apache.felix.http.context_path")
-  private ConfigNodePropertyString orgApacheFelixHttpContextPath = null;
+  private ConfigNodePropertyString orgApacheFelixHttpContextPath;
 
   @JsonProperty("org.apache.felix.http.mbeans")
-  private ConfigNodePropertyBoolean orgApacheFelixHttpMbeans = null;
+  private ConfigNodePropertyBoolean orgApacheFelixHttpMbeans;
 
   @JsonProperty("org.apache.felix.http.session.timeout")
-  private ConfigNodePropertyInteger orgApacheFelixHttpSessionTimeout = null;
+  private ConfigNodePropertyInteger orgApacheFelixHttpSessionTimeout;
 
   @JsonProperty("org.apache.felix.http.jetty.threadpool.max")
-  private ConfigNodePropertyInteger orgApacheFelixHttpJettyThreadpoolMax = null;
+  private ConfigNodePropertyInteger orgApacheFelixHttpJettyThreadpoolMax;
 
   @JsonProperty("org.apache.felix.http.jetty.acceptors")
-  private ConfigNodePropertyInteger orgApacheFelixHttpJettyAcceptors = null;
+  private ConfigNodePropertyInteger orgApacheFelixHttpJettyAcceptors;
 
   @JsonProperty("org.apache.felix.http.jetty.selectors")
-  private ConfigNodePropertyInteger orgApacheFelixHttpJettySelectors = null;
+  private ConfigNodePropertyInteger orgApacheFelixHttpJettySelectors;
 
   @JsonProperty("org.apache.felix.http.jetty.headerBufferSize")
-  private ConfigNodePropertyInteger orgApacheFelixHttpJettyHeaderBufferSize = null;
+  private ConfigNodePropertyInteger orgApacheFelixHttpJettyHeaderBufferSize;
 
   @JsonProperty("org.apache.felix.http.jetty.requestBufferSize")
-  private ConfigNodePropertyInteger orgApacheFelixHttpJettyRequestBufferSize = null;
+  private ConfigNodePropertyInteger orgApacheFelixHttpJettyRequestBufferSize;
 
   @JsonProperty("org.apache.felix.http.jetty.responseBufferSize")
-  private ConfigNodePropertyInteger orgApacheFelixHttpJettyResponseBufferSize = null;
+  private ConfigNodePropertyInteger orgApacheFelixHttpJettyResponseBufferSize;
 
   @JsonProperty("org.apache.felix.http.jetty.maxFormSize")
-  private ConfigNodePropertyInteger orgApacheFelixHttpJettyMaxFormSize = null;
+  private ConfigNodePropertyInteger orgApacheFelixHttpJettyMaxFormSize;
 
   @JsonProperty("org.apache.felix.http.path_exclusions")
-  private ConfigNodePropertyArray orgApacheFelixHttpPathExclusions = null;
+  private ConfigNodePropertyArray orgApacheFelixHttpPathExclusions;
 
   @JsonProperty("org.apache.felix.https.jetty.ciphersuites.excluded")
-  private ConfigNodePropertyArray orgApacheFelixHttpsJettyCiphersuitesExcluded = null;
+  private ConfigNodePropertyArray orgApacheFelixHttpsJettyCiphersuitesExcluded;
 
   @JsonProperty("org.apache.felix.https.jetty.ciphersuites.included")
-  private ConfigNodePropertyArray orgApacheFelixHttpsJettyCiphersuitesIncluded = null;
+  private ConfigNodePropertyArray orgApacheFelixHttpsJettyCiphersuitesIncluded;
 
   @JsonProperty("org.apache.felix.http.jetty.sendServerHeader")
-  private ConfigNodePropertyBoolean orgApacheFelixHttpJettySendServerHeader = null;
+  private ConfigNodePropertyBoolean orgApacheFelixHttpJettySendServerHeader;
 
   @JsonProperty("org.apache.felix.https.jetty.protocols.included")
-  private ConfigNodePropertyArray orgApacheFelixHttpsJettyProtocolsIncluded = null;
+  private ConfigNodePropertyArray orgApacheFelixHttpsJettyProtocolsIncluded;
 
   @JsonProperty("org.apache.felix.https.jetty.protocols.excluded")
-  private ConfigNodePropertyArray orgApacheFelixHttpsJettyProtocolsExcluded = null;
+  private ConfigNodePropertyArray orgApacheFelixHttpsJettyProtocolsExcluded;
 
   @JsonProperty("org.apache.felix.proxy.load.balancer.connection.enable")
-  private ConfigNodePropertyBoolean orgApacheFelixProxyLoadBalancerConnectionEnable = null;
+  private ConfigNodePropertyBoolean orgApacheFelixProxyLoadBalancerConnectionEnable;
 
   @JsonProperty("org.apache.felix.https.jetty.renegotiateAllowed")
-  private ConfigNodePropertyBoolean orgApacheFelixHttpsJettyRenegotiateAllowed = null;
+  private ConfigNodePropertyBoolean orgApacheFelixHttpsJettyRenegotiateAllowed;
 
   @JsonProperty("org.apache.felix.https.jetty.session.cookie.httpOnly")
-  private ConfigNodePropertyBoolean orgApacheFelixHttpsJettySessionCookieHttpOnly = null;
+  private ConfigNodePropertyBoolean orgApacheFelixHttpsJettySessionCookieHttpOnly;
 
   @JsonProperty("org.apache.felix.https.jetty.session.cookie.secure")
-  private ConfigNodePropertyBoolean orgApacheFelixHttpsJettySessionCookieSecure = null;
+  private ConfigNodePropertyBoolean orgApacheFelixHttpsJettySessionCookieSecure;
 
   @JsonProperty("org.eclipse.jetty.servlet.SessionIdPathParameterName")
-  private ConfigNodePropertyString orgEclipseJettyServletSessionIdPathParameterName = null;
+  private ConfigNodePropertyString orgEclipseJettyServletSessionIdPathParameterName;
 
   @JsonProperty("org.eclipse.jetty.servlet.CheckingRemoteSessionIdEncoding")
-  private ConfigNodePropertyBoolean orgEclipseJettyServletCheckingRemoteSessionIdEncoding = null;
+  private ConfigNodePropertyBoolean orgEclipseJettyServletCheckingRemoteSessionIdEncoding;
 
   @JsonProperty("org.eclipse.jetty.servlet.SessionCookie")
-  private ConfigNodePropertyString orgEclipseJettyServletSessionCookie = null;
+  private ConfigNodePropertyString orgEclipseJettyServletSessionCookie;
 
   @JsonProperty("org.eclipse.jetty.servlet.SessionDomain")
-  private ConfigNodePropertyString orgEclipseJettyServletSessionDomain = null;
+  private ConfigNodePropertyString orgEclipseJettyServletSessionDomain;
 
   @JsonProperty("org.eclipse.jetty.servlet.SessionPath")
-  private ConfigNodePropertyString orgEclipseJettyServletSessionPath = null;
+  private ConfigNodePropertyString orgEclipseJettyServletSessionPath;
 
   @JsonProperty("org.eclipse.jetty.servlet.MaxAge")
-  private ConfigNodePropertyInteger orgEclipseJettyServletMaxAge = null;
+  private ConfigNodePropertyInteger orgEclipseJettyServletMaxAge;
 
   @JsonProperty("org.apache.felix.http.name")
-  private ConfigNodePropertyString orgApacheFelixHttpName = null;
+  private ConfigNodePropertyString orgApacheFelixHttpName;
 
   @JsonProperty("org.apache.felix.jetty.gziphandler.enable")
-  private ConfigNodePropertyBoolean orgApacheFelixJettyGziphandlerEnable = null;
+  private ConfigNodePropertyBoolean orgApacheFelixJettyGziphandlerEnable;
 
   @JsonProperty("org.apache.felix.jetty.gzip.minGzipSize")
-  private ConfigNodePropertyInteger orgApacheFelixJettyGzipMinGzipSize = null;
+  private ConfigNodePropertyInteger orgApacheFelixJettyGzipMinGzipSize;
 
   @JsonProperty("org.apache.felix.jetty.gzip.compressionLevel")
-  private ConfigNodePropertyInteger orgApacheFelixJettyGzipCompressionLevel = null;
+  private ConfigNodePropertyInteger orgApacheFelixJettyGzipCompressionLevel;
 
   @JsonProperty("org.apache.felix.jetty.gzip.inflateBufferSize")
-  private ConfigNodePropertyInteger orgApacheFelixJettyGzipInflateBufferSize = null;
+  private ConfigNodePropertyInteger orgApacheFelixJettyGzipInflateBufferSize;
 
   @JsonProperty("org.apache.felix.jetty.gzip.syncFlush")
-  private ConfigNodePropertyBoolean orgApacheFelixJettyGzipSyncFlush = null;
+  private ConfigNodePropertyBoolean orgApacheFelixJettyGzipSyncFlush;
 
   @JsonProperty("org.apache.felix.jetty.gzip.excludedUserAgents")
-  private ConfigNodePropertyArray orgApacheFelixJettyGzipExcludedUserAgents = null;
+  private ConfigNodePropertyArray orgApacheFelixJettyGzipExcludedUserAgents;
 
   @JsonProperty("org.apache.felix.jetty.gzip.includedMethods")
-  private ConfigNodePropertyArray orgApacheFelixJettyGzipIncludedMethods = null;
+  private ConfigNodePropertyArray orgApacheFelixJettyGzipIncludedMethods;
 
   @JsonProperty("org.apache.felix.jetty.gzip.excludedMethods")
-  private ConfigNodePropertyArray orgApacheFelixJettyGzipExcludedMethods = null;
+  private ConfigNodePropertyArray orgApacheFelixJettyGzipExcludedMethods;
 
   @JsonProperty("org.apache.felix.jetty.gzip.includedPaths")
-  private ConfigNodePropertyArray orgApacheFelixJettyGzipIncludedPaths = null;
+  private ConfigNodePropertyArray orgApacheFelixJettyGzipIncludedPaths;
 
   @JsonProperty("org.apache.felix.jetty.gzip.excludedPaths")
-  private ConfigNodePropertyArray orgApacheFelixJettyGzipExcludedPaths = null;
+  private ConfigNodePropertyArray orgApacheFelixJettyGzipExcludedPaths;
 
   @JsonProperty("org.apache.felix.jetty.gzip.includedMimeTypes")
-  private ConfigNodePropertyArray orgApacheFelixJettyGzipIncludedMimeTypes = null;
+  private ConfigNodePropertyArray orgApacheFelixJettyGzipIncludedMimeTypes;
 
   @JsonProperty("org.apache.felix.jetty.gzip.excludedMimeTypes")
-  private ConfigNodePropertyArray orgApacheFelixJettyGzipExcludedMimeTypes = null;
+  private ConfigNodePropertyArray orgApacheFelixJettyGzipExcludedMimeTypes;
 
   @JsonProperty("org.apache.felix.http.session.invalidate")
-  private ConfigNodePropertyBoolean orgApacheFelixHttpSessionInvalidate = null;
+  private ConfigNodePropertyBoolean orgApacheFelixHttpSessionInvalidate;
 
   @JsonProperty("org.apache.felix.http.session.uniqueid")
-  private ConfigNodePropertyBoolean orgApacheFelixHttpSessionUniqueid = null;
+  private ConfigNodePropertyBoolean orgApacheFelixHttpSessionUniqueid;
 
   public OrgApacheFelixHttpProperties orgApacheFelixHttpHost(ConfigNodePropertyString orgApacheFelixHttpHost) {
     this.orgApacheFelixHttpHost = orgApacheFelixHttpHost;
     return this;
   }
 
-   /**
+  /**
    * Get orgApacheFelixHttpHost
    * @return orgApacheFelixHttpHost
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getOrgApacheFelixHttpHost() {
     return orgApacheFelixHttpHost;
@@ -204,10 +204,10 @@ public class OrgApacheFelixHttpProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get orgApacheFelixHttpEnable
    * @return orgApacheFelixHttpEnable
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getOrgApacheFelixHttpEnable() {
     return orgApacheFelixHttpEnable;
@@ -222,10 +222,10 @@ public class OrgApacheFelixHttpProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get orgOsgiServiceHttpPort
    * @return orgOsgiServiceHttpPort
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getOrgOsgiServiceHttpPort() {
     return orgOsgiServiceHttpPort;
@@ -240,10 +240,10 @@ public class OrgApacheFelixHttpProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get orgApacheFelixHttpTimeout
    * @return orgApacheFelixHttpTimeout
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getOrgApacheFelixHttpTimeout() {
     return orgApacheFelixHttpTimeout;
@@ -258,10 +258,10 @@ public class OrgApacheFelixHttpProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get orgApacheFelixHttpsEnable
    * @return orgApacheFelixHttpsEnable
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getOrgApacheFelixHttpsEnable() {
     return orgApacheFelixHttpsEnable;
@@ -276,10 +276,10 @@ public class OrgApacheFelixHttpProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get orgOsgiServiceHttpPortSecure
    * @return orgOsgiServiceHttpPortSecure
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getOrgOsgiServiceHttpPortSecure() {
     return orgOsgiServiceHttpPortSecure;
@@ -294,10 +294,10 @@ public class OrgApacheFelixHttpProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get orgApacheFelixHttpsKeystore
    * @return orgApacheFelixHttpsKeystore
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getOrgApacheFelixHttpsKeystore() {
     return orgApacheFelixHttpsKeystore;
@@ -312,10 +312,10 @@ public class OrgApacheFelixHttpProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get orgApacheFelixHttpsKeystorePassword
    * @return orgApacheFelixHttpsKeystorePassword
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getOrgApacheFelixHttpsKeystorePassword() {
     return orgApacheFelixHttpsKeystorePassword;
@@ -330,10 +330,10 @@ public class OrgApacheFelixHttpProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get orgApacheFelixHttpsKeystoreKeyPassword
    * @return orgApacheFelixHttpsKeystoreKeyPassword
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getOrgApacheFelixHttpsKeystoreKeyPassword() {
     return orgApacheFelixHttpsKeystoreKeyPassword;
@@ -348,10 +348,10 @@ public class OrgApacheFelixHttpProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get orgApacheFelixHttpsTruststore
    * @return orgApacheFelixHttpsTruststore
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getOrgApacheFelixHttpsTruststore() {
     return orgApacheFelixHttpsTruststore;
@@ -366,10 +366,10 @@ public class OrgApacheFelixHttpProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get orgApacheFelixHttpsTruststorePassword
    * @return orgApacheFelixHttpsTruststorePassword
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getOrgApacheFelixHttpsTruststorePassword() {
     return orgApacheFelixHttpsTruststorePassword;
@@ -384,10 +384,10 @@ public class OrgApacheFelixHttpProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get orgApacheFelixHttpsClientcertificate
    * @return orgApacheFelixHttpsClientcertificate
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyDropDown getOrgApacheFelixHttpsClientcertificate() {
     return orgApacheFelixHttpsClientcertificate;
@@ -402,10 +402,10 @@ public class OrgApacheFelixHttpProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get orgApacheFelixHttpContextPath
    * @return orgApacheFelixHttpContextPath
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getOrgApacheFelixHttpContextPath() {
     return orgApacheFelixHttpContextPath;
@@ -420,10 +420,10 @@ public class OrgApacheFelixHttpProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get orgApacheFelixHttpMbeans
    * @return orgApacheFelixHttpMbeans
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getOrgApacheFelixHttpMbeans() {
     return orgApacheFelixHttpMbeans;
@@ -438,10 +438,10 @@ public class OrgApacheFelixHttpProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get orgApacheFelixHttpSessionTimeout
    * @return orgApacheFelixHttpSessionTimeout
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getOrgApacheFelixHttpSessionTimeout() {
     return orgApacheFelixHttpSessionTimeout;
@@ -456,10 +456,10 @@ public class OrgApacheFelixHttpProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get orgApacheFelixHttpJettyThreadpoolMax
    * @return orgApacheFelixHttpJettyThreadpoolMax
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getOrgApacheFelixHttpJettyThreadpoolMax() {
     return orgApacheFelixHttpJettyThreadpoolMax;
@@ -474,10 +474,10 @@ public class OrgApacheFelixHttpProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get orgApacheFelixHttpJettyAcceptors
    * @return orgApacheFelixHttpJettyAcceptors
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getOrgApacheFelixHttpJettyAcceptors() {
     return orgApacheFelixHttpJettyAcceptors;
@@ -492,10 +492,10 @@ public class OrgApacheFelixHttpProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get orgApacheFelixHttpJettySelectors
    * @return orgApacheFelixHttpJettySelectors
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getOrgApacheFelixHttpJettySelectors() {
     return orgApacheFelixHttpJettySelectors;
@@ -510,10 +510,10 @@ public class OrgApacheFelixHttpProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get orgApacheFelixHttpJettyHeaderBufferSize
    * @return orgApacheFelixHttpJettyHeaderBufferSize
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getOrgApacheFelixHttpJettyHeaderBufferSize() {
     return orgApacheFelixHttpJettyHeaderBufferSize;
@@ -528,10 +528,10 @@ public class OrgApacheFelixHttpProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get orgApacheFelixHttpJettyRequestBufferSize
    * @return orgApacheFelixHttpJettyRequestBufferSize
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getOrgApacheFelixHttpJettyRequestBufferSize() {
     return orgApacheFelixHttpJettyRequestBufferSize;
@@ -546,10 +546,10 @@ public class OrgApacheFelixHttpProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get orgApacheFelixHttpJettyResponseBufferSize
    * @return orgApacheFelixHttpJettyResponseBufferSize
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getOrgApacheFelixHttpJettyResponseBufferSize() {
     return orgApacheFelixHttpJettyResponseBufferSize;
@@ -564,10 +564,10 @@ public class OrgApacheFelixHttpProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get orgApacheFelixHttpJettyMaxFormSize
    * @return orgApacheFelixHttpJettyMaxFormSize
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getOrgApacheFelixHttpJettyMaxFormSize() {
     return orgApacheFelixHttpJettyMaxFormSize;
@@ -582,10 +582,10 @@ public class OrgApacheFelixHttpProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get orgApacheFelixHttpPathExclusions
    * @return orgApacheFelixHttpPathExclusions
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getOrgApacheFelixHttpPathExclusions() {
     return orgApacheFelixHttpPathExclusions;
@@ -600,10 +600,10 @@ public class OrgApacheFelixHttpProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get orgApacheFelixHttpsJettyCiphersuitesExcluded
    * @return orgApacheFelixHttpsJettyCiphersuitesExcluded
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getOrgApacheFelixHttpsJettyCiphersuitesExcluded() {
     return orgApacheFelixHttpsJettyCiphersuitesExcluded;
@@ -618,10 +618,10 @@ public class OrgApacheFelixHttpProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get orgApacheFelixHttpsJettyCiphersuitesIncluded
    * @return orgApacheFelixHttpsJettyCiphersuitesIncluded
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getOrgApacheFelixHttpsJettyCiphersuitesIncluded() {
     return orgApacheFelixHttpsJettyCiphersuitesIncluded;
@@ -636,10 +636,10 @@ public class OrgApacheFelixHttpProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get orgApacheFelixHttpJettySendServerHeader
    * @return orgApacheFelixHttpJettySendServerHeader
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getOrgApacheFelixHttpJettySendServerHeader() {
     return orgApacheFelixHttpJettySendServerHeader;
@@ -654,10 +654,10 @@ public class OrgApacheFelixHttpProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get orgApacheFelixHttpsJettyProtocolsIncluded
    * @return orgApacheFelixHttpsJettyProtocolsIncluded
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getOrgApacheFelixHttpsJettyProtocolsIncluded() {
     return orgApacheFelixHttpsJettyProtocolsIncluded;
@@ -672,10 +672,10 @@ public class OrgApacheFelixHttpProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get orgApacheFelixHttpsJettyProtocolsExcluded
    * @return orgApacheFelixHttpsJettyProtocolsExcluded
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getOrgApacheFelixHttpsJettyProtocolsExcluded() {
     return orgApacheFelixHttpsJettyProtocolsExcluded;
@@ -690,10 +690,10 @@ public class OrgApacheFelixHttpProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get orgApacheFelixProxyLoadBalancerConnectionEnable
    * @return orgApacheFelixProxyLoadBalancerConnectionEnable
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getOrgApacheFelixProxyLoadBalancerConnectionEnable() {
     return orgApacheFelixProxyLoadBalancerConnectionEnable;
@@ -708,10 +708,10 @@ public class OrgApacheFelixHttpProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get orgApacheFelixHttpsJettyRenegotiateAllowed
    * @return orgApacheFelixHttpsJettyRenegotiateAllowed
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getOrgApacheFelixHttpsJettyRenegotiateAllowed() {
     return orgApacheFelixHttpsJettyRenegotiateAllowed;
@@ -726,10 +726,10 @@ public class OrgApacheFelixHttpProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get orgApacheFelixHttpsJettySessionCookieHttpOnly
    * @return orgApacheFelixHttpsJettySessionCookieHttpOnly
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getOrgApacheFelixHttpsJettySessionCookieHttpOnly() {
     return orgApacheFelixHttpsJettySessionCookieHttpOnly;
@@ -744,10 +744,10 @@ public class OrgApacheFelixHttpProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get orgApacheFelixHttpsJettySessionCookieSecure
    * @return orgApacheFelixHttpsJettySessionCookieSecure
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getOrgApacheFelixHttpsJettySessionCookieSecure() {
     return orgApacheFelixHttpsJettySessionCookieSecure;
@@ -762,10 +762,10 @@ public class OrgApacheFelixHttpProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get orgEclipseJettyServletSessionIdPathParameterName
    * @return orgEclipseJettyServletSessionIdPathParameterName
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getOrgEclipseJettyServletSessionIdPathParameterName() {
     return orgEclipseJettyServletSessionIdPathParameterName;
@@ -780,10 +780,10 @@ public class OrgApacheFelixHttpProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get orgEclipseJettyServletCheckingRemoteSessionIdEncoding
    * @return orgEclipseJettyServletCheckingRemoteSessionIdEncoding
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getOrgEclipseJettyServletCheckingRemoteSessionIdEncoding() {
     return orgEclipseJettyServletCheckingRemoteSessionIdEncoding;
@@ -798,10 +798,10 @@ public class OrgApacheFelixHttpProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get orgEclipseJettyServletSessionCookie
    * @return orgEclipseJettyServletSessionCookie
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getOrgEclipseJettyServletSessionCookie() {
     return orgEclipseJettyServletSessionCookie;
@@ -816,10 +816,10 @@ public class OrgApacheFelixHttpProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get orgEclipseJettyServletSessionDomain
    * @return orgEclipseJettyServletSessionDomain
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getOrgEclipseJettyServletSessionDomain() {
     return orgEclipseJettyServletSessionDomain;
@@ -834,10 +834,10 @@ public class OrgApacheFelixHttpProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get orgEclipseJettyServletSessionPath
    * @return orgEclipseJettyServletSessionPath
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getOrgEclipseJettyServletSessionPath() {
     return orgEclipseJettyServletSessionPath;
@@ -852,10 +852,10 @@ public class OrgApacheFelixHttpProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get orgEclipseJettyServletMaxAge
    * @return orgEclipseJettyServletMaxAge
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getOrgEclipseJettyServletMaxAge() {
     return orgEclipseJettyServletMaxAge;
@@ -870,10 +870,10 @@ public class OrgApacheFelixHttpProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get orgApacheFelixHttpName
    * @return orgApacheFelixHttpName
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getOrgApacheFelixHttpName() {
     return orgApacheFelixHttpName;
@@ -888,10 +888,10 @@ public class OrgApacheFelixHttpProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get orgApacheFelixJettyGziphandlerEnable
    * @return orgApacheFelixJettyGziphandlerEnable
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getOrgApacheFelixJettyGziphandlerEnable() {
     return orgApacheFelixJettyGziphandlerEnable;
@@ -906,10 +906,10 @@ public class OrgApacheFelixHttpProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get orgApacheFelixJettyGzipMinGzipSize
    * @return orgApacheFelixJettyGzipMinGzipSize
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getOrgApacheFelixJettyGzipMinGzipSize() {
     return orgApacheFelixJettyGzipMinGzipSize;
@@ -924,10 +924,10 @@ public class OrgApacheFelixHttpProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get orgApacheFelixJettyGzipCompressionLevel
    * @return orgApacheFelixJettyGzipCompressionLevel
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getOrgApacheFelixJettyGzipCompressionLevel() {
     return orgApacheFelixJettyGzipCompressionLevel;
@@ -942,10 +942,10 @@ public class OrgApacheFelixHttpProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get orgApacheFelixJettyGzipInflateBufferSize
    * @return orgApacheFelixJettyGzipInflateBufferSize
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getOrgApacheFelixJettyGzipInflateBufferSize() {
     return orgApacheFelixJettyGzipInflateBufferSize;
@@ -960,10 +960,10 @@ public class OrgApacheFelixHttpProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get orgApacheFelixJettyGzipSyncFlush
    * @return orgApacheFelixJettyGzipSyncFlush
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getOrgApacheFelixJettyGzipSyncFlush() {
     return orgApacheFelixJettyGzipSyncFlush;
@@ -978,10 +978,10 @@ public class OrgApacheFelixHttpProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get orgApacheFelixJettyGzipExcludedUserAgents
    * @return orgApacheFelixJettyGzipExcludedUserAgents
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getOrgApacheFelixJettyGzipExcludedUserAgents() {
     return orgApacheFelixJettyGzipExcludedUserAgents;
@@ -996,10 +996,10 @@ public class OrgApacheFelixHttpProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get orgApacheFelixJettyGzipIncludedMethods
    * @return orgApacheFelixJettyGzipIncludedMethods
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getOrgApacheFelixJettyGzipIncludedMethods() {
     return orgApacheFelixJettyGzipIncludedMethods;
@@ -1014,10 +1014,10 @@ public class OrgApacheFelixHttpProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get orgApacheFelixJettyGzipExcludedMethods
    * @return orgApacheFelixJettyGzipExcludedMethods
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getOrgApacheFelixJettyGzipExcludedMethods() {
     return orgApacheFelixJettyGzipExcludedMethods;
@@ -1032,10 +1032,10 @@ public class OrgApacheFelixHttpProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get orgApacheFelixJettyGzipIncludedPaths
    * @return orgApacheFelixJettyGzipIncludedPaths
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getOrgApacheFelixJettyGzipIncludedPaths() {
     return orgApacheFelixJettyGzipIncludedPaths;
@@ -1050,10 +1050,10 @@ public class OrgApacheFelixHttpProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get orgApacheFelixJettyGzipExcludedPaths
    * @return orgApacheFelixJettyGzipExcludedPaths
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getOrgApacheFelixJettyGzipExcludedPaths() {
     return orgApacheFelixJettyGzipExcludedPaths;
@@ -1068,10 +1068,10 @@ public class OrgApacheFelixHttpProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get orgApacheFelixJettyGzipIncludedMimeTypes
    * @return orgApacheFelixJettyGzipIncludedMimeTypes
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getOrgApacheFelixJettyGzipIncludedMimeTypes() {
     return orgApacheFelixJettyGzipIncludedMimeTypes;
@@ -1086,10 +1086,10 @@ public class OrgApacheFelixHttpProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get orgApacheFelixJettyGzipExcludedMimeTypes
    * @return orgApacheFelixJettyGzipExcludedMimeTypes
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getOrgApacheFelixJettyGzipExcludedMimeTypes() {
     return orgApacheFelixJettyGzipExcludedMimeTypes;
@@ -1104,10 +1104,10 @@ public class OrgApacheFelixHttpProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get orgApacheFelixHttpSessionInvalidate
    * @return orgApacheFelixHttpSessionInvalidate
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getOrgApacheFelixHttpSessionInvalidate() {
     return orgApacheFelixHttpSessionInvalidate;
@@ -1122,10 +1122,10 @@ public class OrgApacheFelixHttpProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get orgApacheFelixHttpSessionUniqueid
    * @return orgApacheFelixHttpSessionUniqueid
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getOrgApacheFelixHttpSessionUniqueid() {
     return orgApacheFelixHttpSessionUniqueid;
@@ -1137,7 +1137,7 @@ public class OrgApacheFelixHttpProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -1271,11 +1271,8 @@ public class OrgApacheFelixHttpProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

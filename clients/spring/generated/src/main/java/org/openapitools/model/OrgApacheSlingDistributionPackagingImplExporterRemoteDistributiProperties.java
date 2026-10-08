@@ -1,38 +1,49 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiProperties   {
-  @JsonProperty("name")
-  private ConfigNodePropertyString name = null;
+@JsonTypeName("orgApacheSlingDistributionPackagingImplExporterRemoteDistributiProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiProperties {
 
-  @JsonProperty("endpoints")
-  private ConfigNodePropertyArray endpoints = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString name;
 
-  @JsonProperty("pull.items")
-  private ConfigNodePropertyInteger pullItems = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray endpoints;
 
-  @JsonProperty("packageBuilder.target")
-  private ConfigNodePropertyString packageBuilderTarget = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger pullItems;
 
-  @JsonProperty("transportSecretProvider.target")
-  private ConfigNodePropertyString transportSecretProviderTarget = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString packageBuilderTarget;
 
-  public OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiProperties name(ConfigNodePropertyString name) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString transportSecretProviderTarget;
+
+  public OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiProperties name(@Nullable ConfigNodePropertyString name) {
     this.name = name;
     return this;
   }
@@ -40,20 +51,20 @@ public class OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiProp
   /**
    * Get name
    * @return name
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getName() {
+   */
+  @Valid 
+  @Schema(name = "name", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("name")
+  public @Nullable ConfigNodePropertyString getName() {
     return name;
   }
 
-  public void setName(ConfigNodePropertyString name) {
+  @JsonProperty("name")
+  public void setName(@Nullable ConfigNodePropertyString name) {
     this.name = name;
   }
 
-  public OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiProperties endpoints(ConfigNodePropertyArray endpoints) {
+  public OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiProperties endpoints(@Nullable ConfigNodePropertyArray endpoints) {
     this.endpoints = endpoints;
     return this;
   }
@@ -61,20 +72,20 @@ public class OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiProp
   /**
    * Get endpoints
    * @return endpoints
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getEndpoints() {
+   */
+  @Valid 
+  @Schema(name = "endpoints", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("endpoints")
+  public @Nullable ConfigNodePropertyArray getEndpoints() {
     return endpoints;
   }
 
-  public void setEndpoints(ConfigNodePropertyArray endpoints) {
+  @JsonProperty("endpoints")
+  public void setEndpoints(@Nullable ConfigNodePropertyArray endpoints) {
     this.endpoints = endpoints;
   }
 
-  public OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiProperties pullItems(ConfigNodePropertyInteger pullItems) {
+  public OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiProperties pullItems(@Nullable ConfigNodePropertyInteger pullItems) {
     this.pullItems = pullItems;
     return this;
   }
@@ -82,20 +93,20 @@ public class OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiProp
   /**
    * Get pullItems
    * @return pullItems
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getPullItems() {
+   */
+  @Valid 
+  @Schema(name = "pull.items", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("pull.items")
+  public @Nullable ConfigNodePropertyInteger getPullItems() {
     return pullItems;
   }
 
-  public void setPullItems(ConfigNodePropertyInteger pullItems) {
+  @JsonProperty("pull.items")
+  public void setPullItems(@Nullable ConfigNodePropertyInteger pullItems) {
     this.pullItems = pullItems;
   }
 
-  public OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiProperties packageBuilderTarget(ConfigNodePropertyString packageBuilderTarget) {
+  public OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiProperties packageBuilderTarget(@Nullable ConfigNodePropertyString packageBuilderTarget) {
     this.packageBuilderTarget = packageBuilderTarget;
     return this;
   }
@@ -103,20 +114,20 @@ public class OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiProp
   /**
    * Get packageBuilderTarget
    * @return packageBuilderTarget
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getPackageBuilderTarget() {
+   */
+  @Valid 
+  @Schema(name = "packageBuilder.target", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("packageBuilder.target")
+  public @Nullable ConfigNodePropertyString getPackageBuilderTarget() {
     return packageBuilderTarget;
   }
 
-  public void setPackageBuilderTarget(ConfigNodePropertyString packageBuilderTarget) {
+  @JsonProperty("packageBuilder.target")
+  public void setPackageBuilderTarget(@Nullable ConfigNodePropertyString packageBuilderTarget) {
     this.packageBuilderTarget = packageBuilderTarget;
   }
 
-  public OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiProperties transportSecretProviderTarget(ConfigNodePropertyString transportSecretProviderTarget) {
+  public OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiProperties transportSecretProviderTarget(@Nullable ConfigNodePropertyString transportSecretProviderTarget) {
     this.transportSecretProviderTarget = transportSecretProviderTarget;
     return this;
   }
@@ -124,22 +135,21 @@ public class OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiProp
   /**
    * Get transportSecretProviderTarget
    * @return transportSecretProviderTarget
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getTransportSecretProviderTarget() {
+   */
+  @Valid 
+  @Schema(name = "transportSecretProvider.target", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("transportSecretProvider.target")
+  public @Nullable ConfigNodePropertyString getTransportSecretProviderTarget() {
     return transportSecretProviderTarget;
   }
 
-  public void setTransportSecretProviderTarget(ConfigNodePropertyString transportSecretProviderTarget) {
+  @JsonProperty("transportSecretProvider.target")
+  public void setTransportSecretProviderTarget(@Nullable ConfigNodePropertyString transportSecretProviderTarget) {
     this.transportSecretProviderTarget = transportSecretProviderTarget;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -163,7 +173,6 @@ public class OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiProp
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiProperties {\n");
-    
     sb.append("    name: ").append(toIndentedString(name)).append("\n");
     sb.append("    endpoints: ").append(toIndentedString(endpoints)).append("\n");
     sb.append("    pullItems: ").append(toIndentedString(pullItems)).append("\n");
@@ -177,11 +186,8 @@ public class OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiProp
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

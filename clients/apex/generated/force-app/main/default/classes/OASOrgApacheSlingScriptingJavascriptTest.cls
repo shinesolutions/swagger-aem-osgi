@@ -72,7 +72,7 @@ private class OASOrgApacheSlingScriptingJavascriptTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASOrgApacheSlingScriptingJavascript orgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFaProperties = new OASOrgApacheSlingScriptingJavascript();
-        Map<String, String> propertyMappings = orgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFaProperties.getPropertyMappings();
-        System.assertEquals('orgApacheSlingScriptingJavascriptRhinoOptLevel', propertyMappings.get('org.apache.sling.scripting.javascript.rhino.optLevel'));
+        Map<String, String> x-property-mappings = orgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFaProperties.getx-property-mappings();
+        System.assertEquals('orgApacheSlingScriptingJavascriptRhinoOptLevel', x-property-mappings.get('org.apache.sling.scripting.javascript.rhino.optLevel'));
     }
 }

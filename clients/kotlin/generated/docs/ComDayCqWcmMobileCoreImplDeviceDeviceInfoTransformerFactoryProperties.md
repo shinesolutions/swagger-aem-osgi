@@ -2,10 +2,10 @@
 # ComDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactoryProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**devicePeriodinfoPeriodtransformerPeriodenabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**devicePeriodinfoPeriodtransformerPeriodcssPeriodstyle** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **deviceInfoTransformerEnabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **deviceInfoTransformerCssStyle** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
 
 
 

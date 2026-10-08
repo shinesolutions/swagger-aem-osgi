@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeAemUpgradePrechecksTasksImplConsistencyChe
 
 @Canonical
 class ComAdobeAemUpgradePrechecksTasksImplConsistencyCheckTaskImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeAemUpgradePrechecksTasksImplConsistencyCheckTaskImplProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeAemUpgradePrechecksTasksImplConsistencyCheckTaskImplProperties properties
 }

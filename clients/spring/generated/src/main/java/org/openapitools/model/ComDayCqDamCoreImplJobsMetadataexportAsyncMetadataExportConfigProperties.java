@@ -1,28 +1,39 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigProperties   {
-  @JsonProperty("operation")
-  private ConfigNodePropertyString operation = null;
+@JsonTypeName("comDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigProperties {
 
-  @JsonProperty("emailEnabled")
-  private ConfigNodePropertyBoolean emailEnabled = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString operation;
 
-  public ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigProperties operation(ConfigNodePropertyString operation) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean emailEnabled;
+
+  public ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigProperties operation(@Nullable ConfigNodePropertyString operation) {
     this.operation = operation;
     return this;
   }
@@ -30,20 +41,20 @@ public class ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigPrope
   /**
    * Get operation
    * @return operation
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getOperation() {
+   */
+  @Valid 
+  @Schema(name = "operation", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("operation")
+  public @Nullable ConfigNodePropertyString getOperation() {
     return operation;
   }
 
-  public void setOperation(ConfigNodePropertyString operation) {
+  @JsonProperty("operation")
+  public void setOperation(@Nullable ConfigNodePropertyString operation) {
     this.operation = operation;
   }
 
-  public ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigProperties emailEnabled(ConfigNodePropertyBoolean emailEnabled) {
+  public ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigProperties emailEnabled(@Nullable ConfigNodePropertyBoolean emailEnabled) {
     this.emailEnabled = emailEnabled;
     return this;
   }
@@ -51,22 +62,21 @@ public class ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigPrope
   /**
    * Get emailEnabled
    * @return emailEnabled
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getEmailEnabled() {
+   */
+  @Valid 
+  @Schema(name = "emailEnabled", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("emailEnabled")
+  public @Nullable ConfigNodePropertyBoolean getEmailEnabled() {
     return emailEnabled;
   }
 
-  public void setEmailEnabled(ConfigNodePropertyBoolean emailEnabled) {
+  @JsonProperty("emailEnabled")
+  public void setEmailEnabled(@Nullable ConfigNodePropertyBoolean emailEnabled) {
     this.emailEnabled = emailEnabled;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -87,7 +97,6 @@ public class ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigPrope
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigProperties {\n");
-    
     sb.append("    operation: ").append(toIndentedString(operation)).append("\n");
     sb.append("    emailEnabled: ").append(toIndentedString(emailEnabled)).append("\n");
     sb.append("}");
@@ -98,11 +107,8 @@ public class ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigPrope
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

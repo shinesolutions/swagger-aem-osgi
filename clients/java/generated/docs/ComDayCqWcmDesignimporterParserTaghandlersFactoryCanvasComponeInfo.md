@@ -1,13 +1,16 @@
 
+
 # ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeInfo
 
+
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**pid** | **String** |  |  [optional]
-**title** | **String** |  |  [optional]
-**description** | **String** |  |  [optional]
-**properties** | [**ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeProperties**](ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeProperties.md) |  |  [optional]
+
+| Name | Type | Description | Notes |
+|------------ | ------------- | ------------- | -------------|
+|**pid** | **String** |  |  [optional] |
+|**title** | **String** |  |  [optional] |
+|**description** | **String** |  |  [optional] |
+|**properties** | [**ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeProperties**](ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeProperties.md) |  |  [optional] |
 
 
 

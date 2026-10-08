@@ -1,0 +1,1 @@
+org.apache.sling.hapi.tools.resourcetype,org.apache.sling.hapi.tools.enabled,propertylist,org.apache.sling.hapi.tools.externalurl,$location,apply,delete,action,org.apache.sling.hapi.tools.collectionresourcetype,post,org.apache.sling.hapi.tools.searchpaths

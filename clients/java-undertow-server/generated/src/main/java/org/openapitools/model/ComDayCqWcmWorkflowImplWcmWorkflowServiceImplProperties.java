@@ -1,3 +1,13 @@
+/*
+ * Adobe Experience Manager OSGI config (AEM) API
+ *
+ * Swagger AEM OSGI is an OpenAPI specification for Adobe Experience Manager (AEM) OSGI Configurations API
+ *
+ * OpenAPI document version: 1.0.0-pre.0
+ * Maintained by: opensource@shinesolutions.com
+ *
+ * AUTO-GENERATED FILE, DO NOT MODIFY!
+ */
 package org.openapitools.model;
 
 import java.util.Objects;
@@ -14,17 +24,17 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2019-08-05T00:56:20.785Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2026-10-07T12:53:42.280804918Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties   {
   
-  private ConfigNodePropertyString eventFilter = null;
-  private ConfigNodePropertyInteger minThreadPoolSize = null;
-  private ConfigNodePropertyInteger maxThreadPoolSize = null;
-  private ConfigNodePropertyBoolean cqWcmWorkflowTerminateOnActivate = null;
-  private ConfigNodePropertyArray cqWcmWorklfowTerminateExclusionList = null;
+  private ConfigNodePropertyString eventFilter;
+  private ConfigNodePropertyInteger minThreadPoolSize;
+  private ConfigNodePropertyInteger maxThreadPoolSize;
+  private ConfigNodePropertyBoolean cqWcmWorkflowTerminateOnActivate;
+  private ConfigNodePropertyArray cqWcmWorklfowTerminateExclusionList;
 
   /**
-   **/
+   */
   public ComDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties eventFilter(ConfigNodePropertyString eventFilter) {
     this.eventFilter = eventFilter;
     return this;
@@ -41,7 +51,7 @@ public class ComDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties   {
   }
 
   /**
-   **/
+   */
   public ComDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties minThreadPoolSize(ConfigNodePropertyInteger minThreadPoolSize) {
     this.minThreadPoolSize = minThreadPoolSize;
     return this;
@@ -58,7 +68,7 @@ public class ComDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties   {
   }
 
   /**
-   **/
+   */
   public ComDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties maxThreadPoolSize(ConfigNodePropertyInteger maxThreadPoolSize) {
     this.maxThreadPoolSize = maxThreadPoolSize;
     return this;
@@ -75,7 +85,7 @@ public class ComDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties   {
   }
 
   /**
-   **/
+   */
   public ComDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties cqWcmWorkflowTerminateOnActivate(ConfigNodePropertyBoolean cqWcmWorkflowTerminateOnActivate) {
     this.cqWcmWorkflowTerminateOnActivate = cqWcmWorkflowTerminateOnActivate;
     return this;
@@ -92,7 +102,7 @@ public class ComDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties   {
   }
 
   /**
-   **/
+   */
   public ComDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties cqWcmWorklfowTerminateExclusionList(ConfigNodePropertyArray cqWcmWorklfowTerminateExclusionList) {
     this.cqWcmWorklfowTerminateExclusionList = cqWcmWorklfowTerminateExclusionList;
     return this;
@@ -110,7 +120,7 @@ public class ComDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -148,11 +158,8 @@ public class ComDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

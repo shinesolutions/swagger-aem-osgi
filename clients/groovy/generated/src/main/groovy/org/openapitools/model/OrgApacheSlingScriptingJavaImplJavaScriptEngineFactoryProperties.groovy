@@ -8,12 +8,12 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryProperties {
-    ConfigNodePropertyBoolean javaClassdebuginfo = null
-
-    ConfigNodePropertyString javaJavaEncoding = null
-
-    ConfigNodePropertyString javaCompilerSourceVM = null
-
-    ConfigNodePropertyString javaCompilerTargetVM = null
-
+    
+    ConfigNodePropertyBoolean javaClassdebuginfo
+    
+    ConfigNodePropertyString javaJavaEncoding
+    
+    ConfigNodePropertyString javaCompilerSourceVM
+    
+    ConfigNodePropertyString javaCompilerTargetVM
 }

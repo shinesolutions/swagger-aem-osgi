@@ -72,8 +72,8 @@ private class OASComDayCqSecurityACLSetupInfoTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqSecurityACLSetupInfo comDayCqSecurityACLSetupInfo = new OASComDayCqSecurityACLSetupInfo();
-        Map<String, String> propertyMappings = comDayCqSecurityACLSetupInfo.getPropertyMappings();
-        System.assertEquals('bundleLocation', propertyMappings.get('bundle_location'));
-        System.assertEquals('serviceLocation', propertyMappings.get('service_location'));
+        Map<String, String> x-property-mappings = comDayCqSecurityACLSetupInfo.getx-property-mappings();
+        System.assertEquals('bundleLocation', x-property-mappings.get('bundle_location'));
+        System.assertEquals('serviceLocation', x-property-mappings.get('service_location'));
     }
 }

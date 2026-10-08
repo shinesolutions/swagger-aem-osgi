@@ -1,0 +1,117 @@
+<?php
+declare(strict_types=1);
+
+namespace App\DTO;
+
+use Articus\DataTransfer\Annotation as DTA;
+
+/**
+ * Query parameters for orgApacheSlingEngineParameters
+ */
+class OrgApacheSlingEngineParametersQueryData
+{
+    /**
+     * @DTA\Data(field="sling.default.parameter.encoding", nullable=true)
+     * @DTA\Strategy(name="QueryStringScalar", options={"type":"string"})
+     * @DTA\Validator(name="QueryStringScalar", options={"type":"string"})
+     * @var string|null
+     */
+    public $sling_default_parameter_encoding;
+
+    /**
+     * @DTA\Data(field="apply", nullable=true)
+     * @DTA\Strategy(name="QueryStringScalar", options={"type":"bool"})
+     * @DTA\Validator(name="QueryStringScalar", options={"type":"bool"})
+     * @var bool|null
+     */
+    public $apply;
+
+    /**
+     * @DTA\Data(field="file.location", nullable=true)
+     * @DTA\Strategy(name="QueryStringScalar", options={"type":"string"})
+     * @DTA\Validator(name="QueryStringScalar", options={"type":"string"})
+     * @var string|null
+     */
+    public $file_location;
+
+    /**
+     * @DTA\Data(field="file.threshold", nullable=true)
+     * @DTA\Strategy(name="QueryStringScalar", options={"type":"int"})
+     * @DTA\Validator(name="QueryStringScalar", options={"type":"int"})
+     * @var int|null
+     */
+    public $file_threshold;
+
+    /**
+     * @DTA\Data(field="file.max", nullable=true)
+     * @DTA\Strategy(name="QueryStringScalar", options={"type":"int"})
+     * @DTA\Validator(name="QueryStringScalar", options={"type":"int"})
+     * @var int|null
+     */
+    public $file_max;
+
+    /**
+     * @DTA\Data(field="sling.default.max.parameters", nullable=true)
+     * @DTA\Strategy(name="QueryStringScalar", options={"type":"int"})
+     * @DTA\Validator(name="QueryStringScalar", options={"type":"int"})
+     * @var int|null
+     */
+    public $sling_default_max_parameters;
+
+    /**
+     * @DTA\Data(field="delete", nullable=true)
+     * @DTA\Strategy(name="QueryStringScalar", options={"type":"bool"})
+     * @DTA\Validator(name="QueryStringScalar", options={"type":"bool"})
+     * @var bool|null
+     */
+    public $delete;
+
+    /**
+     * @DTA\Data(field="propertylist", nullable=true)
+     * @DTA\Strategy(name="QueryStringScalarArray", options={"type":"string", "format":"csv"})
+     * @DTA\Validator(name="QueryStringScalarArray", options={"type":"string", "format":"csv"})
+     * @var string[]|null
+     */
+    public $propertylist;
+
+    /**
+     * @DTA\Data(field="post", nullable=true)
+     * @DTA\Strategy(name="QueryStringScalar", options={"type":"bool"})
+     * @DTA\Validator(name="QueryStringScalar", options={"type":"bool"})
+     * @var bool|null
+     */
+    public $post;
+
+    /**
+     * @DTA\Data(field="$location", nullable=true)
+     * @DTA\Strategy(name="QueryStringScalar", options={"type":"string"})
+     * @DTA\Validator(name="QueryStringScalar", options={"type":"string"})
+     * @var string|null
+     */
+    public $location;
+
+    /**
+     * @DTA\Data(field="action", nullable=true)
+     * @DTA\Strategy(name="QueryStringScalar", options={"type":"string"})
+     * @DTA\Validator(name="QueryStringScalar", options={"type":"string"})
+     * @var string|null
+     */
+    public $action;
+
+    /**
+     * @DTA\Data(field="sling.default.parameter.checkForAdditionalContainerParameters", nullable=true)
+     * @DTA\Strategy(name="QueryStringScalar", options={"type":"bool"})
+     * @DTA\Validator(name="QueryStringScalar", options={"type":"bool"})
+     * @var bool|null
+     */
+    public $sling_default_parameter_check_for_additional_container_parameters;
+
+    /**
+     * @DTA\Data(field="request.max", nullable=true)
+     * @DTA\Strategy(name="QueryStringScalar", options={"type":"int"})
+     * @DTA\Validator(name="QueryStringScalar", options={"type":"int"})
+     * @var int|null
+     */
+    public $request_max;
+
+}

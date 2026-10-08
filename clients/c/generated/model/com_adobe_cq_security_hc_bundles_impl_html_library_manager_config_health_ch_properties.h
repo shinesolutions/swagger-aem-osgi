@@ -1,0 +1,39 @@
+/*
+ * com_adobe_cq_security_hc_bundles_impl_html_library_manager_config_health_ch_properties.h
+ *
+ * 
+ */
+
+#ifndef _com_adobe_cq_security_hc_bundles_impl_html_library_manager_config_health_ch_properties_H_
+#define _com_adobe_cq_security_hc_bundles_impl_html_library_manager_config_health_ch_properties_H_
+
+#include <string.h>
+#include "../external/cJSON.h"
+#include "../include/list.h"
+#include "../include/keyValuePair.h"
+#include "../include/binary.h"
+
+typedef struct com_adobe_cq_security_hc_bundles_impl_html_library_manager_config_health_ch_properties_t com_adobe_cq_security_hc_bundles_impl_html_library_manager_config_health_ch_properties_t;
+
+#include "config_node_property_array.h"
+
+
+
+typedef struct com_adobe_cq_security_hc_bundles_impl_html_library_manager_config_health_ch_properties_t {
+    struct config_node_property_array_t *hc_tags; //model
+
+    int _library_owned; // Is the library responsible for freeing this object?
+} com_adobe_cq_security_hc_bundles_impl_html_library_manager_config_health_ch_properties_t;
+
+__attribute__((deprecated)) com_adobe_cq_security_hc_bundles_impl_html_library_manager_config_health_ch_properties_t *com_adobe_cq_security_hc_bundles_impl_html_library_manager_config_health_ch_properties_create(
+    config_node_property_array_t *hc_tags
+);
+
+void com_adobe_cq_security_hc_bundles_impl_html_library_manager_config_health_ch_properties_free(com_adobe_cq_security_hc_bundles_impl_html_library_manager_config_health_ch_properties_t *com_adobe_cq_security_hc_bundles_impl_html_library_manager_config_health_ch_properties);
+
+com_adobe_cq_security_hc_bundles_impl_html_library_manager_config_health_ch_properties_t *com_adobe_cq_security_hc_bundles_impl_html_library_manager_config_health_ch_properties_parseFromJSON(cJSON *com_adobe_cq_security_hc_bundles_impl_html_library_manager_config_health_ch_propertiesJSON);
+
+cJSON *com_adobe_cq_security_hc_bundles_impl_html_library_manager_config_health_ch_properties_convertToJSON(com_adobe_cq_security_hc_bundles_impl_html_library_manager_config_health_ch_properties_t *com_adobe_cq_security_hc_bundles_impl_html_library_manager_config_health_ch_properties);
+
+#endif /* _com_adobe_cq_security_hc_bundles_impl_html_library_manager_config_health_ch_properties_H_ */
+

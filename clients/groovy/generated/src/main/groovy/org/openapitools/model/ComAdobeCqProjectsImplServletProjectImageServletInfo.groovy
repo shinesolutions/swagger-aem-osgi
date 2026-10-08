@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqProjectsImplServletProjectImageServletPr
 
 @Canonical
 class ComAdobeCqProjectsImplServletProjectImageServletInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqProjectsImplServletProjectImageServletProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqProjectsImplServletProjectImageServletProperties properties
 }

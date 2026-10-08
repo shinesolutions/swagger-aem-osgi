@@ -1,21 +1,32 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ComAdobeCqScreensOfflinecontentImplBulkOfflineUpdateServiceImplProperties;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comAdobeCqScreensOfflinecontentImplBulkOfflineUpdateServiceImplInfo")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeCqScreensOfflinecontentImplBulkOfflineUpdateServiceImplInfo   {
-  
-  private @Valid String pid = null;
-  private @Valid String title = null;
-  private @Valid String description = null;
-  private @Valid ComAdobeCqScreensOfflinecontentImplBulkOfflineUpdateServiceImplProperties properties = null;
+  private String pid;
+  private String title;
+  private String description;
+  private ComAdobeCqScreensOfflinecontentImplBulkOfflineUpdateServiceImplProperties properties;
+
+  public ComAdobeCqScreensOfflinecontentImplBulkOfflineUpdateServiceImplInfo() {
+  }
 
   /**
    **/
@@ -30,6 +41,8 @@ public class ComAdobeCqScreensOfflinecontentImplBulkOfflineUpdateServiceImplInfo
   public String getPid() {
     return pid;
   }
+
+  @JsonProperty("pid")
   public void setPid(String pid) {
     this.pid = pid;
   }
@@ -47,6 +60,8 @@ public class ComAdobeCqScreensOfflinecontentImplBulkOfflineUpdateServiceImplInfo
   public String getTitle() {
     return title;
   }
+
+  @JsonProperty("title")
   public void setTitle(String title) {
     this.title = title;
   }
@@ -64,6 +79,8 @@ public class ComAdobeCqScreensOfflinecontentImplBulkOfflineUpdateServiceImplInfo
   public String getDescription() {
     return description;
   }
+
+  @JsonProperty("description")
   public void setDescription(String description) {
     this.description = description;
   }
@@ -78,16 +95,18 @@ public class ComAdobeCqScreensOfflinecontentImplBulkOfflineUpdateServiceImplInfo
   
   @ApiModelProperty(value = "")
   @JsonProperty("properties")
-  public ComAdobeCqScreensOfflinecontentImplBulkOfflineUpdateServiceImplProperties getProperties() {
+  @Valid public ComAdobeCqScreensOfflinecontentImplBulkOfflineUpdateServiceImplProperties getProperties() {
     return properties;
   }
+
+  @JsonProperty("properties")
   public void setProperties(ComAdobeCqScreensOfflinecontentImplBulkOfflineUpdateServiceImplProperties properties) {
     this.properties = properties;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -95,10 +114,10 @@ public class ComAdobeCqScreensOfflinecontentImplBulkOfflineUpdateServiceImplInfo
       return false;
     }
     ComAdobeCqScreensOfflinecontentImplBulkOfflineUpdateServiceImplInfo comAdobeCqScreensOfflinecontentImplBulkOfflineUpdateServiceImplInfo = (ComAdobeCqScreensOfflinecontentImplBulkOfflineUpdateServiceImplInfo) o;
-    return Objects.equals(pid, comAdobeCqScreensOfflinecontentImplBulkOfflineUpdateServiceImplInfo.pid) &&
-        Objects.equals(title, comAdobeCqScreensOfflinecontentImplBulkOfflineUpdateServiceImplInfo.title) &&
-        Objects.equals(description, comAdobeCqScreensOfflinecontentImplBulkOfflineUpdateServiceImplInfo.description) &&
-        Objects.equals(properties, comAdobeCqScreensOfflinecontentImplBulkOfflineUpdateServiceImplInfo.properties);
+    return Objects.equals(this.pid, comAdobeCqScreensOfflinecontentImplBulkOfflineUpdateServiceImplInfo.pid) &&
+        Objects.equals(this.title, comAdobeCqScreensOfflinecontentImplBulkOfflineUpdateServiceImplInfo.title) &&
+        Objects.equals(this.description, comAdobeCqScreensOfflinecontentImplBulkOfflineUpdateServiceImplInfo.description) &&
+        Objects.equals(this.properties, comAdobeCqScreensOfflinecontentImplBulkOfflineUpdateServiceImplInfo.properties);
   }
 
   @Override
@@ -123,11 +142,9 @@ public class ComAdobeCqScreensOfflinecontentImplBulkOfflineUpdateServiceImplInfo
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

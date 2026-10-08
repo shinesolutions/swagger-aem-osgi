@@ -2,33 +2,34 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ComDayCqWcmMsmImplRolloutManagerImplProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class ComDayCqWcmMsmImplRolloutManagerImplInfo   {
   
-  private String pid = null;
+  private String pid;
 
-  private String title = null;
+  private String title;
 
-  private String description = null;
+  private String description;
 
-  private ComDayCqWcmMsmImplRolloutManagerImplProperties properties = null;
+  private ComDayCqWcmMsmImplRolloutManagerImplProperties properties;
 
-  private String additionalProperties = null;
+  private String additionalProperties;
 
-  private String bundleLocation = null;
+  private String bundleLocation;
 
-  private String serviceLocation = null;
-
+  private String serviceLocation;
 
   /**
    **/
@@ -158,7 +159,7 @@ public class ComDayCqWcmMsmImplRolloutManagerImplInfo   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -166,13 +167,13 @@ public class ComDayCqWcmMsmImplRolloutManagerImplInfo   {
       return false;
     }
     ComDayCqWcmMsmImplRolloutManagerImplInfo comDayCqWcmMsmImplRolloutManagerImplInfo = (ComDayCqWcmMsmImplRolloutManagerImplInfo) o;
-    return Objects.equals(pid, comDayCqWcmMsmImplRolloutManagerImplInfo.pid) &&
-        Objects.equals(title, comDayCqWcmMsmImplRolloutManagerImplInfo.title) &&
-        Objects.equals(description, comDayCqWcmMsmImplRolloutManagerImplInfo.description) &&
-        Objects.equals(properties, comDayCqWcmMsmImplRolloutManagerImplInfo.properties) &&
-        Objects.equals(additionalProperties, comDayCqWcmMsmImplRolloutManagerImplInfo.additionalProperties) &&
-        Objects.equals(bundleLocation, comDayCqWcmMsmImplRolloutManagerImplInfo.bundleLocation) &&
-        Objects.equals(serviceLocation, comDayCqWcmMsmImplRolloutManagerImplInfo.serviceLocation);
+    return Objects.equals(this.pid, comDayCqWcmMsmImplRolloutManagerImplInfo.pid) &&
+        Objects.equals(this.title, comDayCqWcmMsmImplRolloutManagerImplInfo.title) &&
+        Objects.equals(this.description, comDayCqWcmMsmImplRolloutManagerImplInfo.description) &&
+        Objects.equals(this.properties, comDayCqWcmMsmImplRolloutManagerImplInfo.properties) &&
+        Objects.equals(this.additionalProperties, comDayCqWcmMsmImplRolloutManagerImplInfo.additionalProperties) &&
+        Objects.equals(this.bundleLocation, comDayCqWcmMsmImplRolloutManagerImplInfo.bundleLocation) &&
+        Objects.equals(this.serviceLocation, comDayCqWcmMsmImplRolloutManagerImplInfo.serviceLocation);
   }
 
   @Override
@@ -200,11 +201,8 @@ public class ComDayCqWcmMsmImplRolloutManagerImplInfo   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

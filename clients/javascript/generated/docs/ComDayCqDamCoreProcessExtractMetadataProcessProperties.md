@@ -1,6 +1,7 @@
 # NodeSwaggerAemOsgi.ComDayCqDamCoreProcessExtractMetadataProcessProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **processLabel** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 

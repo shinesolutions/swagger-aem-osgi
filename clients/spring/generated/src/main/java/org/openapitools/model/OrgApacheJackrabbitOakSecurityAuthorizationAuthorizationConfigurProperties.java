@@ -1,38 +1,49 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyDropDown;
 import org.openapitools.model.ConfigNodePropertyInteger;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurProperties   {
-  @JsonProperty("permissionsJr2")
-  private ConfigNodePropertyDropDown permissionsJr2 = null;
+@JsonTypeName("orgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurProperties {
 
-  @JsonProperty("importBehavior")
-  private ConfigNodePropertyDropDown importBehavior = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyDropDown permissionsJr2;
 
-  @JsonProperty("readPaths")
-  private ConfigNodePropertyArray readPaths = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyDropDown importBehavior;
 
-  @JsonProperty("administrativePrincipals")
-  private ConfigNodePropertyArray administrativePrincipals = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray readPaths;
 
-  @JsonProperty("configurationRanking")
-  private ConfigNodePropertyInteger configurationRanking = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray administrativePrincipals;
 
-  public OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurProperties permissionsJr2(ConfigNodePropertyDropDown permissionsJr2) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger configurationRanking;
+
+  public OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurProperties permissionsJr2(@Nullable ConfigNodePropertyDropDown permissionsJr2) {
     this.permissionsJr2 = permissionsJr2;
     return this;
   }
@@ -40,20 +51,20 @@ public class OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurPro
   /**
    * Get permissionsJr2
    * @return permissionsJr2
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyDropDown getPermissionsJr2() {
+   */
+  @Valid 
+  @Schema(name = "permissionsJr2", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("permissionsJr2")
+  public @Nullable ConfigNodePropertyDropDown getPermissionsJr2() {
     return permissionsJr2;
   }
 
-  public void setPermissionsJr2(ConfigNodePropertyDropDown permissionsJr2) {
+  @JsonProperty("permissionsJr2")
+  public void setPermissionsJr2(@Nullable ConfigNodePropertyDropDown permissionsJr2) {
     this.permissionsJr2 = permissionsJr2;
   }
 
-  public OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurProperties importBehavior(ConfigNodePropertyDropDown importBehavior) {
+  public OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurProperties importBehavior(@Nullable ConfigNodePropertyDropDown importBehavior) {
     this.importBehavior = importBehavior;
     return this;
   }
@@ -61,20 +72,20 @@ public class OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurPro
   /**
    * Get importBehavior
    * @return importBehavior
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyDropDown getImportBehavior() {
+   */
+  @Valid 
+  @Schema(name = "importBehavior", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("importBehavior")
+  public @Nullable ConfigNodePropertyDropDown getImportBehavior() {
     return importBehavior;
   }
 
-  public void setImportBehavior(ConfigNodePropertyDropDown importBehavior) {
+  @JsonProperty("importBehavior")
+  public void setImportBehavior(@Nullable ConfigNodePropertyDropDown importBehavior) {
     this.importBehavior = importBehavior;
   }
 
-  public OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurProperties readPaths(ConfigNodePropertyArray readPaths) {
+  public OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurProperties readPaths(@Nullable ConfigNodePropertyArray readPaths) {
     this.readPaths = readPaths;
     return this;
   }
@@ -82,20 +93,20 @@ public class OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurPro
   /**
    * Get readPaths
    * @return readPaths
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getReadPaths() {
+   */
+  @Valid 
+  @Schema(name = "readPaths", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("readPaths")
+  public @Nullable ConfigNodePropertyArray getReadPaths() {
     return readPaths;
   }
 
-  public void setReadPaths(ConfigNodePropertyArray readPaths) {
+  @JsonProperty("readPaths")
+  public void setReadPaths(@Nullable ConfigNodePropertyArray readPaths) {
     this.readPaths = readPaths;
   }
 
-  public OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurProperties administrativePrincipals(ConfigNodePropertyArray administrativePrincipals) {
+  public OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurProperties administrativePrincipals(@Nullable ConfigNodePropertyArray administrativePrincipals) {
     this.administrativePrincipals = administrativePrincipals;
     return this;
   }
@@ -103,20 +114,20 @@ public class OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurPro
   /**
    * Get administrativePrincipals
    * @return administrativePrincipals
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getAdministrativePrincipals() {
+   */
+  @Valid 
+  @Schema(name = "administrativePrincipals", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("administrativePrincipals")
+  public @Nullable ConfigNodePropertyArray getAdministrativePrincipals() {
     return administrativePrincipals;
   }
 
-  public void setAdministrativePrincipals(ConfigNodePropertyArray administrativePrincipals) {
+  @JsonProperty("administrativePrincipals")
+  public void setAdministrativePrincipals(@Nullable ConfigNodePropertyArray administrativePrincipals) {
     this.administrativePrincipals = administrativePrincipals;
   }
 
-  public OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurProperties configurationRanking(ConfigNodePropertyInteger configurationRanking) {
+  public OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurProperties configurationRanking(@Nullable ConfigNodePropertyInteger configurationRanking) {
     this.configurationRanking = configurationRanking;
     return this;
   }
@@ -124,22 +135,21 @@ public class OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurPro
   /**
    * Get configurationRanking
    * @return configurationRanking
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getConfigurationRanking() {
+   */
+  @Valid 
+  @Schema(name = "configurationRanking", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("configurationRanking")
+  public @Nullable ConfigNodePropertyInteger getConfigurationRanking() {
     return configurationRanking;
   }
 
-  public void setConfigurationRanking(ConfigNodePropertyInteger configurationRanking) {
+  @JsonProperty("configurationRanking")
+  public void setConfigurationRanking(@Nullable ConfigNodePropertyInteger configurationRanking) {
     this.configurationRanking = configurationRanking;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -163,7 +173,6 @@ public class OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurPro
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurProperties {\n");
-    
     sb.append("    permissionsJr2: ").append(toIndentedString(permissionsJr2)).append("\n");
     sb.append("    importBehavior: ").append(toIndentedString(importBehavior)).append("\n");
     sb.append("    readPaths: ").append(toIndentedString(readPaths)).append("\n");
@@ -177,11 +186,8 @@ public class OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurPro
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

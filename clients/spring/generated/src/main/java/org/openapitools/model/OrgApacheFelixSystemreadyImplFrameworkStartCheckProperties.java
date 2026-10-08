@@ -1,35 +1,46 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyDropDown;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * OrgApacheFelixSystemreadyImplFrameworkStartCheckProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class OrgApacheFelixSystemreadyImplFrameworkStartCheckProperties   {
-  @JsonProperty("timeout")
-  private ConfigNodePropertyInteger timeout = null;
+@JsonTypeName("orgApacheFelixSystemreadyImplFrameworkStartCheckProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class OrgApacheFelixSystemreadyImplFrameworkStartCheckProperties {
 
-  @JsonProperty("target.start.level")
-  private ConfigNodePropertyInteger targetStartLevel = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger timeout;
 
-  @JsonProperty("target.start.level.prop.name")
-  private ConfigNodePropertyString targetStartLevelPropName = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger targetStartLevel;
 
-  @JsonProperty("type")
-  private ConfigNodePropertyDropDown type = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString targetStartLevelPropName;
 
-  public OrgApacheFelixSystemreadyImplFrameworkStartCheckProperties timeout(ConfigNodePropertyInteger timeout) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyDropDown type;
+
+  public OrgApacheFelixSystemreadyImplFrameworkStartCheckProperties timeout(@Nullable ConfigNodePropertyInteger timeout) {
     this.timeout = timeout;
     return this;
   }
@@ -37,20 +48,20 @@ public class OrgApacheFelixSystemreadyImplFrameworkStartCheckProperties   {
   /**
    * Get timeout
    * @return timeout
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getTimeout() {
+   */
+  @Valid 
+  @Schema(name = "timeout", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("timeout")
+  public @Nullable ConfigNodePropertyInteger getTimeout() {
     return timeout;
   }
 
-  public void setTimeout(ConfigNodePropertyInteger timeout) {
+  @JsonProperty("timeout")
+  public void setTimeout(@Nullable ConfigNodePropertyInteger timeout) {
     this.timeout = timeout;
   }
 
-  public OrgApacheFelixSystemreadyImplFrameworkStartCheckProperties targetStartLevel(ConfigNodePropertyInteger targetStartLevel) {
+  public OrgApacheFelixSystemreadyImplFrameworkStartCheckProperties targetStartLevel(@Nullable ConfigNodePropertyInteger targetStartLevel) {
     this.targetStartLevel = targetStartLevel;
     return this;
   }
@@ -58,20 +69,20 @@ public class OrgApacheFelixSystemreadyImplFrameworkStartCheckProperties   {
   /**
    * Get targetStartLevel
    * @return targetStartLevel
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getTargetStartLevel() {
+   */
+  @Valid 
+  @Schema(name = "target.start.level", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("target.start.level")
+  public @Nullable ConfigNodePropertyInteger getTargetStartLevel() {
     return targetStartLevel;
   }
 
-  public void setTargetStartLevel(ConfigNodePropertyInteger targetStartLevel) {
+  @JsonProperty("target.start.level")
+  public void setTargetStartLevel(@Nullable ConfigNodePropertyInteger targetStartLevel) {
     this.targetStartLevel = targetStartLevel;
   }
 
-  public OrgApacheFelixSystemreadyImplFrameworkStartCheckProperties targetStartLevelPropName(ConfigNodePropertyString targetStartLevelPropName) {
+  public OrgApacheFelixSystemreadyImplFrameworkStartCheckProperties targetStartLevelPropName(@Nullable ConfigNodePropertyString targetStartLevelPropName) {
     this.targetStartLevelPropName = targetStartLevelPropName;
     return this;
   }
@@ -79,20 +90,20 @@ public class OrgApacheFelixSystemreadyImplFrameworkStartCheckProperties   {
   /**
    * Get targetStartLevelPropName
    * @return targetStartLevelPropName
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getTargetStartLevelPropName() {
+   */
+  @Valid 
+  @Schema(name = "target.start.level.prop.name", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("target.start.level.prop.name")
+  public @Nullable ConfigNodePropertyString getTargetStartLevelPropName() {
     return targetStartLevelPropName;
   }
 
-  public void setTargetStartLevelPropName(ConfigNodePropertyString targetStartLevelPropName) {
+  @JsonProperty("target.start.level.prop.name")
+  public void setTargetStartLevelPropName(@Nullable ConfigNodePropertyString targetStartLevelPropName) {
     this.targetStartLevelPropName = targetStartLevelPropName;
   }
 
-  public OrgApacheFelixSystemreadyImplFrameworkStartCheckProperties type(ConfigNodePropertyDropDown type) {
+  public OrgApacheFelixSystemreadyImplFrameworkStartCheckProperties type(@Nullable ConfigNodePropertyDropDown type) {
     this.type = type;
     return this;
   }
@@ -100,22 +111,21 @@ public class OrgApacheFelixSystemreadyImplFrameworkStartCheckProperties   {
   /**
    * Get type
    * @return type
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyDropDown getType() {
+   */
+  @Valid 
+  @Schema(name = "type", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("type")
+  public @Nullable ConfigNodePropertyDropDown getType() {
     return type;
   }
 
-  public void setType(ConfigNodePropertyDropDown type) {
+  @JsonProperty("type")
+  public void setType(@Nullable ConfigNodePropertyDropDown type) {
     this.type = type;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -138,7 +148,6 @@ public class OrgApacheFelixSystemreadyImplFrameworkStartCheckProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class OrgApacheFelixSystemreadyImplFrameworkStartCheckProperties {\n");
-    
     sb.append("    timeout: ").append(toIndentedString(timeout)).append("\n");
     sb.append("    targetStartLevel: ").append(toIndentedString(targetStartLevel)).append("\n");
     sb.append("    targetStartLevelPropName: ").append(toIndentedString(targetStartLevelPropName)).append("\n");
@@ -151,11 +160,8 @@ public class OrgApacheFelixSystemreadyImplFrameworkStartCheckProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyBoolean;
 
 @Canonical
 class ComAdobeCqCommercePimImplPageEventListenerProperties {
-    ConfigNodePropertyBoolean cqCommercePageeventlistenerEnabled = null
-
+    
+    ConfigNodePropertyBoolean cqCommercePageeventlistenerEnabled
 }

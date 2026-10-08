@@ -3,6 +3,7 @@ package org.openapitools.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
@@ -12,19 +13,19 @@ import org.openapitools.model.ConfigNodePropertyBoolean;
 
 
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaInflectorServerCodegen", date = "2019-08-05T00:53:46.291Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaInflectorServerCodegen", date = "2026-10-07T12:53:12.340274163Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqWcmMobileCoreImplRedirectRedirectFilterProperties   {
   @JsonProperty("redirect.enabled")
-  private ConfigNodePropertyBoolean redirectEnabled = null;
+  private ConfigNodePropertyBoolean redirectEnabled;
 
   @JsonProperty("redirect.stats.enabled")
-  private ConfigNodePropertyBoolean redirectStatsEnabled = null;
+  private ConfigNodePropertyBoolean redirectStatsEnabled;
 
   @JsonProperty("redirect.extensions")
-  private ConfigNodePropertyArray redirectExtensions = null;
+  private ConfigNodePropertyArray redirectExtensions;
 
   @JsonProperty("redirect.paths")
-  private ConfigNodePropertyArray redirectPaths = null;
+  private ConfigNodePropertyArray redirectPaths;
 
   /**
    **/
@@ -96,7 +97,7 @@ public class ComDayCqWcmMobileCoreImplRedirectRedirectFilterProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -132,11 +133,8 @@ public class ComDayCqWcmMobileCoreImplRedirectRedirectFilterProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

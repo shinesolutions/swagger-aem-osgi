@@ -1,22 +1,33 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comAdobeGraniteSocialgraphImplSocialGraphFactoryImplProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplProperties   {
-  
-  private @Valid ConfigNodePropertyString group2memberRelationshipOutgoing = null;
-  private @Valid ConfigNodePropertyArray group2memberExcludedOutgoing = null;
-  private @Valid ConfigNodePropertyString group2memberRelationshipIncoming = null;
-  private @Valid ConfigNodePropertyArray group2memberExcludedIncoming = null;
+  private ConfigNodePropertyString group2memberRelationshipOutgoing;
+  private ConfigNodePropertyArray group2memberExcludedOutgoing;
+  private ConfigNodePropertyString group2memberRelationshipIncoming;
+  private ConfigNodePropertyArray group2memberExcludedIncoming;
+
+  public ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplProperties() {
+  }
 
   /**
    **/
@@ -28,9 +39,11 @@ public class ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("group2member.relationship.outgoing")
-  public ConfigNodePropertyString getGroup2memberRelationshipOutgoing() {
+  @Valid public ConfigNodePropertyString getGroup2memberRelationshipOutgoing() {
     return group2memberRelationshipOutgoing;
   }
+
+  @JsonProperty("group2member.relationship.outgoing")
   public void setGroup2memberRelationshipOutgoing(ConfigNodePropertyString group2memberRelationshipOutgoing) {
     this.group2memberRelationshipOutgoing = group2memberRelationshipOutgoing;
   }
@@ -45,9 +58,11 @@ public class ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("group2member.excluded.outgoing")
-  public ConfigNodePropertyArray getGroup2memberExcludedOutgoing() {
+  @Valid public ConfigNodePropertyArray getGroup2memberExcludedOutgoing() {
     return group2memberExcludedOutgoing;
   }
+
+  @JsonProperty("group2member.excluded.outgoing")
   public void setGroup2memberExcludedOutgoing(ConfigNodePropertyArray group2memberExcludedOutgoing) {
     this.group2memberExcludedOutgoing = group2memberExcludedOutgoing;
   }
@@ -62,9 +77,11 @@ public class ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("group2member.relationship.incoming")
-  public ConfigNodePropertyString getGroup2memberRelationshipIncoming() {
+  @Valid public ConfigNodePropertyString getGroup2memberRelationshipIncoming() {
     return group2memberRelationshipIncoming;
   }
+
+  @JsonProperty("group2member.relationship.incoming")
   public void setGroup2memberRelationshipIncoming(ConfigNodePropertyString group2memberRelationshipIncoming) {
     this.group2memberRelationshipIncoming = group2memberRelationshipIncoming;
   }
@@ -79,16 +96,18 @@ public class ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("group2member.excluded.incoming")
-  public ConfigNodePropertyArray getGroup2memberExcludedIncoming() {
+  @Valid public ConfigNodePropertyArray getGroup2memberExcludedIncoming() {
     return group2memberExcludedIncoming;
   }
+
+  @JsonProperty("group2member.excluded.incoming")
   public void setGroup2memberExcludedIncoming(ConfigNodePropertyArray group2memberExcludedIncoming) {
     this.group2memberExcludedIncoming = group2memberExcludedIncoming;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -96,10 +115,10 @@ public class ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplProperties   {
       return false;
     }
     ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplProperties comAdobeGraniteSocialgraphImplSocialGraphFactoryImplProperties = (ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplProperties) o;
-    return Objects.equals(group2memberRelationshipOutgoing, comAdobeGraniteSocialgraphImplSocialGraphFactoryImplProperties.group2memberRelationshipOutgoing) &&
-        Objects.equals(group2memberExcludedOutgoing, comAdobeGraniteSocialgraphImplSocialGraphFactoryImplProperties.group2memberExcludedOutgoing) &&
-        Objects.equals(group2memberRelationshipIncoming, comAdobeGraniteSocialgraphImplSocialGraphFactoryImplProperties.group2memberRelationshipIncoming) &&
-        Objects.equals(group2memberExcludedIncoming, comAdobeGraniteSocialgraphImplSocialGraphFactoryImplProperties.group2memberExcludedIncoming);
+    return Objects.equals(this.group2memberRelationshipOutgoing, comAdobeGraniteSocialgraphImplSocialGraphFactoryImplProperties.group2memberRelationshipOutgoing) &&
+        Objects.equals(this.group2memberExcludedOutgoing, comAdobeGraniteSocialgraphImplSocialGraphFactoryImplProperties.group2memberExcludedOutgoing) &&
+        Objects.equals(this.group2memberRelationshipIncoming, comAdobeGraniteSocialgraphImplSocialGraphFactoryImplProperties.group2memberRelationshipIncoming) &&
+        Objects.equals(this.group2memberExcludedIncoming, comAdobeGraniteSocialgraphImplSocialGraphFactoryImplProperties.group2memberExcludedIncoming);
   }
 
   @Override
@@ -124,11 +143,9 @@ public class ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

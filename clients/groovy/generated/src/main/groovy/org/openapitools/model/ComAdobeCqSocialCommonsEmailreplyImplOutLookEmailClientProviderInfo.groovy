@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqSocialCommonsEmailreplyImplOutLookEmailC
 
 @Canonical
 class ComAdobeCqSocialCommonsEmailreplyImplOutLookEmailClientProviderInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqSocialCommonsEmailreplyImplOutLookEmailClientProviderProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqSocialCommonsEmailreplyImplOutLookEmailClientProviderProperties properties
 }

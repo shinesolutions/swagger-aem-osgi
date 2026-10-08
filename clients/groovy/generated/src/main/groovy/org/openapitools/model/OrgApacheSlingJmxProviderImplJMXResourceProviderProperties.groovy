@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class OrgApacheSlingJmxProviderImplJMXResourceProviderProperties {
-    ConfigNodePropertyString providerRoots = null
-
+    
+    ConfigNodePropertyString providerRoots
 }

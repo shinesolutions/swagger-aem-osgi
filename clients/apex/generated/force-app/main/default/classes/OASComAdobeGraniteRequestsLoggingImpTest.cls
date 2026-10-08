@@ -72,7 +72,7 @@ private class OASComAdobeGraniteRequestsLoggingImpTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeGraniteRequestsLoggingImp comAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckImProperties = new OASComAdobeGraniteRequestsLoggingImp();
-        Map<String, String> propertyMappings = comAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckImProperties.getPropertyMappings();
-        System.assertEquals('hcTags', propertyMappings.get('hc.tags'));
+        Map<String, String> x-property-mappings = comAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckImProperties.getx-property-mappings();
+        System.assertEquals('hcTags', x-property-mappings.get('hc.tags'));
     }
 }

@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqSocialCalendarClientEndpointsImplCalenda
 
 @Canonical
 class ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsIInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsIProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsIProperties properties
 }

@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqSocialUgcbaseModerationImplAutoModeratio
 
 @Canonical
 class ComAdobeCqSocialUgcbaseModerationImplAutoModerationImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqSocialUgcbaseModerationImplAutoModerationImplProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqSocialUgcbaseModerationImplAutoModerationImplProperties properties
 }

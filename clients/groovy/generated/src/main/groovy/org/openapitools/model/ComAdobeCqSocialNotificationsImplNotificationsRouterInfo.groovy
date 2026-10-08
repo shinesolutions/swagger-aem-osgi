@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqSocialNotificationsImplNotificationsRout
 
 @Canonical
 class ComAdobeCqSocialNotificationsImplNotificationsRouterInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqSocialNotificationsImplNotificationsRouterProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqSocialNotificationsImplNotificationsRouterProperties properties
 }

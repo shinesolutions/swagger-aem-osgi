@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeGraniteResourcestatusImplCompositeStatusTy
 
 @Canonical
 class ComAdobeGraniteResourcestatusImplCompositeStatusTypeInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteResourcestatusImplCompositeStatusTypeProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteResourcestatusImplCompositeStatusTypeProperties properties
 }

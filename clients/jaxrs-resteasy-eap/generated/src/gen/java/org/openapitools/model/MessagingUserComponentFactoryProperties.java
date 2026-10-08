@@ -8,14 +8,13 @@ import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2019-08-05T01:00:05.540Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2026-10-07T12:54:26.576036107Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class MessagingUserComponentFactoryProperties   {
   
-
-  private ConfigNodePropertyInteger priority = null;
+  private ConfigNodePropertyInteger priority;
 
   /**
    **/
@@ -39,7 +38,7 @@ public class MessagingUserComponentFactoryProperties   {
       return false;
     }
     MessagingUserComponentFactoryProperties messagingUserComponentFactoryProperties = (MessagingUserComponentFactoryProperties) o;
-    return Objects.equals(priority, messagingUserComponentFactoryProperties.priority);
+    return Objects.equals(this.priority, messagingUserComponentFactoryProperties.priority);
   }
 
   @Override
@@ -62,10 +61,7 @@ public class MessagingUserComponentFactoryProperties   {
    * (except the first line).
    */
   private String toIndentedString(Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

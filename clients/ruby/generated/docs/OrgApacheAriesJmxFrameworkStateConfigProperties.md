@@ -2,16 +2,17 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**attribute_change_notification_enabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **attribute_change_notification_enabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::OrgApacheAriesJmxFrameworkStateConfigProperties.new(attribute_change_notification_enabled: null)
+instance = SwaggerAemOsgiClient::OrgApacheAriesJmxFrameworkStateConfigProperties.new(
+  attribute_change_notification_enabled: null
+)
 ```
-
 

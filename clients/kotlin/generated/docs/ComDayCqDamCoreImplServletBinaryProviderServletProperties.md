@@ -2,11 +2,11 @@
 # ComDayCqDamCoreImplServletBinaryProviderServletProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**slingPeriodservletPeriodresourceTypes** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**slingPeriodservletPeriodmethods** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**cqPerioddamPerioddrmPeriodenable** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **slingServletResourceTypes** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **slingServletMethods** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **cqDamDrmEnable** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
 
 
 

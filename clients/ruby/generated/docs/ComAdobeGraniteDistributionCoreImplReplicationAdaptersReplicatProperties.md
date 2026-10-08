@@ -2,18 +2,19 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**provider_name** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
-**forward_requests** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **provider_name** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] |
+| **forward_requests** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComAdobeGraniteDistributionCoreImplReplicationAdaptersReplicatProperties.new(provider_name: null,
-                                 forward_requests: null)
+instance = SwaggerAemOsgiClient::ComAdobeGraniteDistributionCoreImplReplicationAdaptersReplicatProperties.new(
+  provider_name: null,
+  forward_requests: null
+)
 ```
-
 

@@ -4,24 +4,21 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ComDayCqDamPerformanceInternalAssetPerformanceDataHandlerImplProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2019-08-05T01:00:05.540Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2026-10-07T12:54:26.576036107Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqDamPerformanceInternalAssetPerformanceDataHandlerImplInfo   {
   
-
-  private String pid = null;
-
-  private String title = null;
-
-  private String description = null;
-
-  private ComDayCqDamPerformanceInternalAssetPerformanceDataHandlerImplProperties properties = null;
+  private String pid;
+  private String title;
+  private String description;
+  private ComDayCqDamPerformanceInternalAssetPerformanceDataHandlerImplProperties properties;
 
   /**
    **/
@@ -81,10 +78,10 @@ public class ComDayCqDamPerformanceInternalAssetPerformanceDataHandlerImplInfo  
       return false;
     }
     ComDayCqDamPerformanceInternalAssetPerformanceDataHandlerImplInfo comDayCqDamPerformanceInternalAssetPerformanceDataHandlerImplInfo = (ComDayCqDamPerformanceInternalAssetPerformanceDataHandlerImplInfo) o;
-    return Objects.equals(pid, comDayCqDamPerformanceInternalAssetPerformanceDataHandlerImplInfo.pid) &&
-        Objects.equals(title, comDayCqDamPerformanceInternalAssetPerformanceDataHandlerImplInfo.title) &&
-        Objects.equals(description, comDayCqDamPerformanceInternalAssetPerformanceDataHandlerImplInfo.description) &&
-        Objects.equals(properties, comDayCqDamPerformanceInternalAssetPerformanceDataHandlerImplInfo.properties);
+    return Objects.equals(this.pid, comDayCqDamPerformanceInternalAssetPerformanceDataHandlerImplInfo.pid) &&
+        Objects.equals(this.title, comDayCqDamPerformanceInternalAssetPerformanceDataHandlerImplInfo.title) &&
+        Objects.equals(this.description, comDayCqDamPerformanceInternalAssetPerformanceDataHandlerImplInfo.description) &&
+        Objects.equals(this.properties, comDayCqDamPerformanceInternalAssetPerformanceDataHandlerImplInfo.properties);
   }
 
   @Override
@@ -110,10 +107,7 @@ public class ComDayCqDamPerformanceInternalAssetPerformanceDataHandlerImplInfo  
    * (except the first line).
    */
   private String toIndentedString(Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

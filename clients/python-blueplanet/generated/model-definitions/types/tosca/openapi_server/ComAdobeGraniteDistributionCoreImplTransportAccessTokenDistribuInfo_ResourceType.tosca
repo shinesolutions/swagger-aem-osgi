@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProperties = openapi_server.resourceTypes.ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProperties
+}
+resourceTypes {
+
+  ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuInfo {
+    title = ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuInfo
+    description = ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuInfo {
+    title = ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuInfo
+    description = ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuInfo
+    implements = openapi_server.resourceTypes.ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuInfo
+
+  }
+}

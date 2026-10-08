@@ -2,33 +2,34 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfo   {
   
-  private String pid = null;
+  private String pid;
 
-  private String title = null;
+  private String title;
 
-  private String description = null;
+  private String description;
 
-  private ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplProperties properties = null;
+  private ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplProperties properties;
 
-  private String additionalProperties = null;
+  private String additionalProperties;
 
-  private String bundleLocation = null;
+  private String bundleLocation;
 
-  private String serviceLocation = null;
-
+  private String serviceLocation;
 
   /**
    **/
@@ -158,7 +159,7 @@ public class ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfo   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -166,13 +167,13 @@ public class ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfo   {
       return false;
     }
     ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfo comDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfo = (ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfo) o;
-    return Objects.equals(pid, comDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfo.pid) &&
-        Objects.equals(title, comDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfo.title) &&
-        Objects.equals(description, comDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfo.description) &&
-        Objects.equals(properties, comDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfo.properties) &&
-        Objects.equals(additionalProperties, comDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfo.additionalProperties) &&
-        Objects.equals(bundleLocation, comDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfo.bundleLocation) &&
-        Objects.equals(serviceLocation, comDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfo.serviceLocation);
+    return Objects.equals(this.pid, comDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfo.pid) &&
+        Objects.equals(this.title, comDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfo.title) &&
+        Objects.equals(this.description, comDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfo.description) &&
+        Objects.equals(this.properties, comDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfo.properties) &&
+        Objects.equals(this.additionalProperties, comDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfo.additionalProperties) &&
+        Objects.equals(this.bundleLocation, comDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfo.bundleLocation) &&
+        Objects.equals(this.serviceLocation, comDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfo.serviceLocation);
   }
 
   @Override
@@ -200,11 +201,8 @@ public class ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfo   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -8,8 +8,8 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactoryProperties {
-    ConfigNodePropertyBoolean deviceInfoTransformerEnabled = null
-
-    ConfigNodePropertyString deviceInfoTransformerCssStyle = null
-
+    
+    ConfigNodePropertyBoolean deviceInfoTransformerEnabled
+    
+    ConfigNodePropertyString deviceInfoTransformerCssStyle
 }

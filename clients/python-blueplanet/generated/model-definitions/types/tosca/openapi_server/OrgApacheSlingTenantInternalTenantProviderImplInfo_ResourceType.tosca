@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingTenantInternalTenantProviderImplInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingTenantInternalTenantProviderImplInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  OrgApacheSlingTenantInternalTenantProviderImplProperties = openapi_server.resourceTypes.OrgApacheSlingTenantInternalTenantProviderImplProperties
+}
+resourceTypes {
+
+  OrgApacheSlingTenantInternalTenantProviderImplInfo {
+    title = OrgApacheSlingTenantInternalTenantProviderImplInfo
+    description = OrgApacheSlingTenantInternalTenantProviderImplInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = OrgApacheSlingTenantInternalTenantProviderImplProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingTenantInternalTenantProviderImplInfo {
+    title = OrgApacheSlingTenantInternalTenantProviderImplInfo
+    description = OrgApacheSlingTenantInternalTenantProviderImplInfo
+    implements = openapi_server.resourceTypes.OrgApacheSlingTenantInternalTenantProviderImplInfo
+
+  }
+}

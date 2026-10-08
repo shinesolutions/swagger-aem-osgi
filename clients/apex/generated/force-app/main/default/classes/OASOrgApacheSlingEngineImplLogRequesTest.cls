@@ -72,10 +72,10 @@ private class OASOrgApacheSlingEngineImplLogRequesTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASOrgApacheSlingEngineImplLogReques orgApacheSlingEngineImplLogRequestLoggerServiceProperties = new OASOrgApacheSlingEngineImplLogReques();
-        Map<String, String> propertyMappings = orgApacheSlingEngineImplLogRequestLoggerServiceProperties.getPropertyMappings();
-        System.assertEquals('requestLogServiceFormat', propertyMappings.get('request.log.service.format'));
-        System.assertEquals('requestLogServiceOutput', propertyMappings.get('request.log.service.output'));
-        System.assertEquals('requestLogServiceOutputtype', propertyMappings.get('request.log.service.outputtype'));
-        System.assertEquals('requestLogServiceOnentry', propertyMappings.get('request.log.service.onentry'));
+        Map<String, String> x-property-mappings = orgApacheSlingEngineImplLogRequestLoggerServiceProperties.getx-property-mappings();
+        System.assertEquals('requestLogServiceFormat', x-property-mappings.get('request.log.service.format'));
+        System.assertEquals('requestLogServiceOutput', x-property-mappings.get('request.log.service.output'));
+        System.assertEquals('requestLogServiceOutputtype', x-property-mappings.get('request.log.service.outputtype'));
+        System.assertEquals('requestLogServiceOnentry', x-property-mappings.get('request.log.service.onentry'));
     }
 }

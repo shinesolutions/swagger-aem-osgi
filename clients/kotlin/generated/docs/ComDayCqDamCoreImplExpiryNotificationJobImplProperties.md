@@ -2,15 +2,15 @@
 # ComDayCqDamCoreImplExpiryNotificationJobImplProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**cqPerioddamPeriodexpiryPeriodnotificationPeriodschedulerPeriodistimebased** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**cqPerioddamPeriodexpiryPeriodnotificationPeriodschedulerPeriodtimebasedPeriodrule** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**cqPerioddamPeriodexpiryPeriodnotificationPeriodschedulerPeriodperiodPeriodrule** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**sendUnderscoreemail** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**assetUnderscoreexpiredUnderscorelimit** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**priorUnderscorenotificationUnderscoreseconds** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**cqPerioddamPeriodexpiryPeriodnotificationPeriodurlPeriodprotocol** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **cqDamExpiryNotificationSchedulerIstimebased** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **cqDamExpiryNotificationSchedulerTimebasedRule** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **cqDamExpiryNotificationSchedulerPeriodRule** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **sendEmail** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **assetExpiredLimit** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **priorNotificationSeconds** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **cqDamExpiryNotificationUrlProtocol** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
 
 
 

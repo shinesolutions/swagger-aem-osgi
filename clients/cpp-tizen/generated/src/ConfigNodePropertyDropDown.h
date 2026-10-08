@@ -9,6 +9,7 @@
 
 
 #include <string>
+#include "AnyType.h"
 #include "ConfigNodePropertyDropDown_type.h"
 #include "Object.h"
 
@@ -76,11 +77,11 @@ public:
 	void setType(ConfigNodePropertyDropDown_type  type);
 	/*! \brief Get Property value
 	 */
-	std::string getValue();
+	AnyType getValue();
 
 	/*! \brief Set Property value
 	 */
-	void setValue(std::string  value);
+	void setValue(AnyType  value);
 	/*! \brief Get Property description
 	 */
 	std::string getDescription();
@@ -94,7 +95,7 @@ private:
 	bool optional;
 	bool is_set;
 	ConfigNodePropertyDropDown_type type;
-	std::string value;
+	AnyType value;
 	std::string description;
 	void __init();
 	void __cleanup();

@@ -9,14 +9,14 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqWcmDesignimporterImplMobileCanvasBuilderImplProperties {
-    ConfigNodePropertyString filepattern = null
-
-    ConfigNodePropertyArray deviceGroups = null
-
-    ConfigNodePropertyBoolean buildPageNodes = null
-
-    ConfigNodePropertyBoolean buildClientLibs = null
-
-    ConfigNodePropertyBoolean buildCanvasComponent = null
-
+    
+    ConfigNodePropertyString filepattern
+    
+    ConfigNodePropertyArray deviceGroups
+    
+    ConfigNodePropertyBoolean buildPageNodes
+    
+    ConfigNodePropertyBoolean buildClientLibs
+    
+    ConfigNodePropertyBoolean buildCanvasComponent
 }

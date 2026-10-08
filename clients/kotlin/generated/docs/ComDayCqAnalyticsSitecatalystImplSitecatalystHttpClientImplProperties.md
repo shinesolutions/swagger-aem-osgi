@@ -2,12 +2,12 @@
 # ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**cqPeriodanalyticsPeriodsitecatalystPeriodservicePerioddatacenterPeriodurl** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**devhostnamepatterns** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**connectionPeriodtimeout** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**socketPeriodtimeout** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **cqAnalyticsSitecatalystServiceDatacenterUrl** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **devhostnamepatterns** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **connectionTimeout** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **socketTimeout** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
 
 
 

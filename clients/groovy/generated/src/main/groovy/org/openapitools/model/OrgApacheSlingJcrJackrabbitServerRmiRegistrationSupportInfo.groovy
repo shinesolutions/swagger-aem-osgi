@@ -7,12 +7,12 @@ import org.openapitools.model.OrgApacheSlingJcrJackrabbitServerRmiRegistrationSu
 
 @Canonical
 class OrgApacheSlingJcrJackrabbitServerRmiRegistrationSupportInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheSlingJcrJackrabbitServerRmiRegistrationSupportProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheSlingJcrJackrabbitServerRmiRegistrationSupportProperties properties
 }

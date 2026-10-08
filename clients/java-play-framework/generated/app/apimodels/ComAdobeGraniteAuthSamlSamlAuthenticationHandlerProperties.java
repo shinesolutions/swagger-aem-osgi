@@ -5,95 +5,148 @@ import apimodels.ConfigNodePropertyBoolean;
 import apimodels.ConfigNodePropertyDropDown;
 import apimodels.ConfigNodePropertyInteger;
 import apimodels.ConfigNodePropertyString;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties   {
   @JsonProperty("path")
-  private ConfigNodePropertyArray path = null;
+  @Valid
+
+  private ConfigNodePropertyArray path;
 
   @JsonProperty("service.ranking")
-  private ConfigNodePropertyInteger serviceRanking = null;
+  @Valid
+
+  private ConfigNodePropertyInteger serviceRanking;
 
   @JsonProperty("idpUrl")
-  private ConfigNodePropertyString idpUrl = null;
+  @Valid
+
+  private ConfigNodePropertyString idpUrl;
 
   @JsonProperty("idpCertAlias")
-  private ConfigNodePropertyString idpCertAlias = null;
+  @Valid
+
+  private ConfigNodePropertyString idpCertAlias;
 
   @JsonProperty("idpHttpRedirect")
-  private ConfigNodePropertyBoolean idpHttpRedirect = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean idpHttpRedirect;
 
   @JsonProperty("serviceProviderEntityId")
-  private ConfigNodePropertyString serviceProviderEntityId = null;
+  @Valid
+
+  private ConfigNodePropertyString serviceProviderEntityId;
 
   @JsonProperty("assertionConsumerServiceURL")
-  private ConfigNodePropertyString assertionConsumerServiceURL = null;
+  @Valid
+
+  private ConfigNodePropertyString assertionConsumerServiceURL;
 
   @JsonProperty("spPrivateKeyAlias")
-  private ConfigNodePropertyString spPrivateKeyAlias = null;
+  @Valid
+
+  private ConfigNodePropertyString spPrivateKeyAlias;
 
   @JsonProperty("keyStorePassword")
-  private ConfigNodePropertyString keyStorePassword = null;
+  @Valid
+
+  private ConfigNodePropertyString keyStorePassword;
 
   @JsonProperty("defaultRedirectUrl")
-  private ConfigNodePropertyString defaultRedirectUrl = null;
+  @Valid
+
+  private ConfigNodePropertyString defaultRedirectUrl;
 
   @JsonProperty("userIDAttribute")
-  private ConfigNodePropertyString userIDAttribute = null;
+  @Valid
+
+  private ConfigNodePropertyString userIDAttribute;
 
   @JsonProperty("useEncryption")
-  private ConfigNodePropertyBoolean useEncryption = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean useEncryption;
 
   @JsonProperty("createUser")
-  private ConfigNodePropertyBoolean createUser = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean createUser;
 
   @JsonProperty("userIntermediatePath")
-  private ConfigNodePropertyString userIntermediatePath = null;
+  @Valid
+
+  private ConfigNodePropertyString userIntermediatePath;
 
   @JsonProperty("addGroupMemberships")
-  private ConfigNodePropertyBoolean addGroupMemberships = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean addGroupMemberships;
 
   @JsonProperty("groupMembershipAttribute")
-  private ConfigNodePropertyString groupMembershipAttribute = null;
+  @Valid
+
+  private ConfigNodePropertyString groupMembershipAttribute;
 
   @JsonProperty("defaultGroups")
-  private ConfigNodePropertyArray defaultGroups = null;
+  @Valid
+
+  private ConfigNodePropertyArray defaultGroups;
 
   @JsonProperty("nameIdFormat")
-  private ConfigNodePropertyString nameIdFormat = null;
+  @Valid
+
+  private ConfigNodePropertyString nameIdFormat;
 
   @JsonProperty("synchronizeAttributes")
-  private ConfigNodePropertyArray synchronizeAttributes = null;
+  @Valid
+
+  private ConfigNodePropertyArray synchronizeAttributes;
 
   @JsonProperty("handleLogout")
-  private ConfigNodePropertyBoolean handleLogout = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean handleLogout;
 
   @JsonProperty("logoutUrl")
-  private ConfigNodePropertyString logoutUrl = null;
+  @Valid
+
+  private ConfigNodePropertyString logoutUrl;
 
   @JsonProperty("clockTolerance")
-  private ConfigNodePropertyInteger clockTolerance = null;
+  @Valid
+
+  private ConfigNodePropertyInteger clockTolerance;
 
   @JsonProperty("digestMethod")
-  private ConfigNodePropertyString digestMethod = null;
+  @Valid
+
+  private ConfigNodePropertyString digestMethod;
 
   @JsonProperty("signatureMethod")
-  private ConfigNodePropertyString signatureMethod = null;
+  @Valid
+
+  private ConfigNodePropertyString signatureMethod;
 
   @JsonProperty("identitySyncType")
-  private ConfigNodePropertyDropDown identitySyncType = null;
+  @Valid
+
+  private ConfigNodePropertyDropDown identitySyncType;
 
   @JsonProperty("idpIdentifier")
-  private ConfigNodePropertyString idpIdentifier = null;
+  @Valid
+
+  private ConfigNodePropertyString idpIdentifier;
 
   public ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties path(ConfigNodePropertyArray path) {
     this.path = path;
@@ -104,7 +157,6 @@ public class ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties   {
    * Get path
    * @return path
   **/
-  @Valid
   public ConfigNodePropertyArray getPath() {
     return path;
   }
@@ -122,7 +174,6 @@ public class ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties   {
    * Get serviceRanking
    * @return serviceRanking
   **/
-  @Valid
   public ConfigNodePropertyInteger getServiceRanking() {
     return serviceRanking;
   }
@@ -140,7 +191,6 @@ public class ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties   {
    * Get idpUrl
    * @return idpUrl
   **/
-  @Valid
   public ConfigNodePropertyString getIdpUrl() {
     return idpUrl;
   }
@@ -158,7 +208,6 @@ public class ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties   {
    * Get idpCertAlias
    * @return idpCertAlias
   **/
-  @Valid
   public ConfigNodePropertyString getIdpCertAlias() {
     return idpCertAlias;
   }
@@ -176,7 +225,6 @@ public class ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties   {
    * Get idpHttpRedirect
    * @return idpHttpRedirect
   **/
-  @Valid
   public ConfigNodePropertyBoolean getIdpHttpRedirect() {
     return idpHttpRedirect;
   }
@@ -194,7 +242,6 @@ public class ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties   {
    * Get serviceProviderEntityId
    * @return serviceProviderEntityId
   **/
-  @Valid
   public ConfigNodePropertyString getServiceProviderEntityId() {
     return serviceProviderEntityId;
   }
@@ -212,7 +259,6 @@ public class ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties   {
    * Get assertionConsumerServiceURL
    * @return assertionConsumerServiceURL
   **/
-  @Valid
   public ConfigNodePropertyString getAssertionConsumerServiceURL() {
     return assertionConsumerServiceURL;
   }
@@ -230,7 +276,6 @@ public class ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties   {
    * Get spPrivateKeyAlias
    * @return spPrivateKeyAlias
   **/
-  @Valid
   public ConfigNodePropertyString getSpPrivateKeyAlias() {
     return spPrivateKeyAlias;
   }
@@ -248,7 +293,6 @@ public class ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties   {
    * Get keyStorePassword
    * @return keyStorePassword
   **/
-  @Valid
   public ConfigNodePropertyString getKeyStorePassword() {
     return keyStorePassword;
   }
@@ -266,7 +310,6 @@ public class ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties   {
    * Get defaultRedirectUrl
    * @return defaultRedirectUrl
   **/
-  @Valid
   public ConfigNodePropertyString getDefaultRedirectUrl() {
     return defaultRedirectUrl;
   }
@@ -284,7 +327,6 @@ public class ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties   {
    * Get userIDAttribute
    * @return userIDAttribute
   **/
-  @Valid
   public ConfigNodePropertyString getUserIDAttribute() {
     return userIDAttribute;
   }
@@ -302,7 +344,6 @@ public class ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties   {
    * Get useEncryption
    * @return useEncryption
   **/
-  @Valid
   public ConfigNodePropertyBoolean getUseEncryption() {
     return useEncryption;
   }
@@ -320,7 +361,6 @@ public class ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties   {
    * Get createUser
    * @return createUser
   **/
-  @Valid
   public ConfigNodePropertyBoolean getCreateUser() {
     return createUser;
   }
@@ -338,7 +378,6 @@ public class ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties   {
    * Get userIntermediatePath
    * @return userIntermediatePath
   **/
-  @Valid
   public ConfigNodePropertyString getUserIntermediatePath() {
     return userIntermediatePath;
   }
@@ -356,7 +395,6 @@ public class ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties   {
    * Get addGroupMemberships
    * @return addGroupMemberships
   **/
-  @Valid
   public ConfigNodePropertyBoolean getAddGroupMemberships() {
     return addGroupMemberships;
   }
@@ -374,7 +412,6 @@ public class ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties   {
    * Get groupMembershipAttribute
    * @return groupMembershipAttribute
   **/
-  @Valid
   public ConfigNodePropertyString getGroupMembershipAttribute() {
     return groupMembershipAttribute;
   }
@@ -392,7 +429,6 @@ public class ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties   {
    * Get defaultGroups
    * @return defaultGroups
   **/
-  @Valid
   public ConfigNodePropertyArray getDefaultGroups() {
     return defaultGroups;
   }
@@ -410,7 +446,6 @@ public class ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties   {
    * Get nameIdFormat
    * @return nameIdFormat
   **/
-  @Valid
   public ConfigNodePropertyString getNameIdFormat() {
     return nameIdFormat;
   }
@@ -428,7 +463,6 @@ public class ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties   {
    * Get synchronizeAttributes
    * @return synchronizeAttributes
   **/
-  @Valid
   public ConfigNodePropertyArray getSynchronizeAttributes() {
     return synchronizeAttributes;
   }
@@ -446,7 +480,6 @@ public class ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties   {
    * Get handleLogout
    * @return handleLogout
   **/
-  @Valid
   public ConfigNodePropertyBoolean getHandleLogout() {
     return handleLogout;
   }
@@ -464,7 +497,6 @@ public class ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties   {
    * Get logoutUrl
    * @return logoutUrl
   **/
-  @Valid
   public ConfigNodePropertyString getLogoutUrl() {
     return logoutUrl;
   }
@@ -482,7 +514,6 @@ public class ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties   {
    * Get clockTolerance
    * @return clockTolerance
   **/
-  @Valid
   public ConfigNodePropertyInteger getClockTolerance() {
     return clockTolerance;
   }
@@ -500,7 +531,6 @@ public class ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties   {
    * Get digestMethod
    * @return digestMethod
   **/
-  @Valid
   public ConfigNodePropertyString getDigestMethod() {
     return digestMethod;
   }
@@ -518,7 +548,6 @@ public class ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties   {
    * Get signatureMethod
    * @return signatureMethod
   **/
-  @Valid
   public ConfigNodePropertyString getSignatureMethod() {
     return signatureMethod;
   }
@@ -536,7 +565,6 @@ public class ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties   {
    * Get identitySyncType
    * @return identitySyncType
   **/
-  @Valid
   public ConfigNodePropertyDropDown getIdentitySyncType() {
     return identitySyncType;
   }
@@ -554,7 +582,6 @@ public class ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties   {
    * Get idpIdentifier
    * @return idpIdentifier
   **/
-  @Valid
   public ConfigNodePropertyString getIdpIdentifier() {
     return idpIdentifier;
   }
@@ -565,7 +592,7 @@ public class ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -646,11 +673,8 @@ public class ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

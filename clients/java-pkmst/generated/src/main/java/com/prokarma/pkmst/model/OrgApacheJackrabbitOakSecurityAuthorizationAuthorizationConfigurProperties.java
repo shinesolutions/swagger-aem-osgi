@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyArray;
 import com.prokarma.pkmst.model.ConfigNodePropertyDropDown;
 import com.prokarma.pkmst.model.ConfigNodePropertyInteger;
@@ -17,33 +18,32 @@ import io.swagger.annotations.ApiModelProperty;
  * OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurProperties   {
   @JsonProperty("permissionsJr2")
-  private ConfigNodePropertyDropDown permissionsJr2 = null;
+  private ConfigNodePropertyDropDown permissionsJr2;
 
   @JsonProperty("importBehavior")
-  private ConfigNodePropertyDropDown importBehavior = null;
+  private ConfigNodePropertyDropDown importBehavior;
 
   @JsonProperty("readPaths")
-  private ConfigNodePropertyArray readPaths = null;
+  private ConfigNodePropertyArray readPaths;
 
   @JsonProperty("administrativePrincipals")
-  private ConfigNodePropertyArray administrativePrincipals = null;
+  private ConfigNodePropertyArray administrativePrincipals;
 
   @JsonProperty("configurationRanking")
-  private ConfigNodePropertyInteger configurationRanking = null;
+  private ConfigNodePropertyInteger configurationRanking;
 
   public OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurProperties permissionsJr2(ConfigNodePropertyDropDown permissionsJr2) {
     this.permissionsJr2 = permissionsJr2;
     return this;
   }
 
-   /**
+  /**
    * Get permissionsJr2
    * @return permissionsJr2
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyDropDown getPermissionsJr2() {
     return permissionsJr2;
@@ -58,10 +58,10 @@ public class OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurPro
     return this;
   }
 
-   /**
+  /**
    * Get importBehavior
    * @return importBehavior
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyDropDown getImportBehavior() {
     return importBehavior;
@@ -76,10 +76,10 @@ public class OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurPro
     return this;
   }
 
-   /**
+  /**
    * Get readPaths
    * @return readPaths
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getReadPaths() {
     return readPaths;
@@ -94,10 +94,10 @@ public class OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurPro
     return this;
   }
 
-   /**
+  /**
    * Get administrativePrincipals
    * @return administrativePrincipals
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getAdministrativePrincipals() {
     return administrativePrincipals;
@@ -112,10 +112,10 @@ public class OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurPro
     return this;
   }
 
-   /**
+  /**
    * Get configurationRanking
    * @return configurationRanking
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getConfigurationRanking() {
     return configurationRanking;
@@ -127,7 +127,7 @@ public class OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurPro
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -165,11 +165,8 @@ public class OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurPro
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

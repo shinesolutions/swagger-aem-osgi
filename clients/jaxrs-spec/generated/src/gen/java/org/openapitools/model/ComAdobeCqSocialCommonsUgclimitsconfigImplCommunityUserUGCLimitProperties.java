@@ -1,24 +1,35 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitProperties   {
-  
-  private @Valid ConfigNodePropertyBoolean enable = null;
-  private @Valid ConfigNodePropertyInteger ugCLimit = null;
-  private @Valid ConfigNodePropertyInteger ugcLimitDuration = null;
-  private @Valid ConfigNodePropertyArray domains = null;
-  private @Valid ConfigNodePropertyArray toList = null;
+  private ConfigNodePropertyBoolean enable;
+  private ConfigNodePropertyInteger ugCLimit;
+  private ConfigNodePropertyInteger ugcLimitDuration;
+  private ConfigNodePropertyArray domains;
+  private ConfigNodePropertyArray toList;
+
+  public ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitProperties() {
+  }
 
   /**
    **/
@@ -30,9 +41,11 @@ public class ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("enable")
-  public ConfigNodePropertyBoolean getEnable() {
+  @Valid public ConfigNodePropertyBoolean getEnable() {
     return enable;
   }
+
+  @JsonProperty("enable")
   public void setEnable(ConfigNodePropertyBoolean enable) {
     this.enable = enable;
   }
@@ -47,9 +60,11 @@ public class ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("UGCLimit")
-  public ConfigNodePropertyInteger getUgCLimit() {
+  @Valid public ConfigNodePropertyInteger getUgCLimit() {
     return ugCLimit;
   }
+
+  @JsonProperty("UGCLimit")
   public void setUgCLimit(ConfigNodePropertyInteger ugCLimit) {
     this.ugCLimit = ugCLimit;
   }
@@ -64,9 +79,11 @@ public class ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("ugcLimitDuration")
-  public ConfigNodePropertyInteger getUgcLimitDuration() {
+  @Valid public ConfigNodePropertyInteger getUgcLimitDuration() {
     return ugcLimitDuration;
   }
+
+  @JsonProperty("ugcLimitDuration")
   public void setUgcLimitDuration(ConfigNodePropertyInteger ugcLimitDuration) {
     this.ugcLimitDuration = ugcLimitDuration;
   }
@@ -81,9 +98,11 @@ public class ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("domains")
-  public ConfigNodePropertyArray getDomains() {
+  @Valid public ConfigNodePropertyArray getDomains() {
     return domains;
   }
+
+  @JsonProperty("domains")
   public void setDomains(ConfigNodePropertyArray domains) {
     this.domains = domains;
   }
@@ -98,16 +117,18 @@ public class ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("toList")
-  public ConfigNodePropertyArray getToList() {
+  @Valid public ConfigNodePropertyArray getToList() {
     return toList;
   }
+
+  @JsonProperty("toList")
   public void setToList(ConfigNodePropertyArray toList) {
     this.toList = toList;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -115,11 +136,11 @@ public class ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitProp
       return false;
     }
     ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitProperties comAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitProperties = (ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitProperties) o;
-    return Objects.equals(enable, comAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitProperties.enable) &&
-        Objects.equals(ugCLimit, comAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitProperties.ugCLimit) &&
-        Objects.equals(ugcLimitDuration, comAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitProperties.ugcLimitDuration) &&
-        Objects.equals(domains, comAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitProperties.domains) &&
-        Objects.equals(toList, comAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitProperties.toList);
+    return Objects.equals(this.enable, comAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitProperties.enable) &&
+        Objects.equals(this.ugCLimit, comAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitProperties.ugCLimit) &&
+        Objects.equals(this.ugcLimitDuration, comAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitProperties.ugcLimitDuration) &&
+        Objects.equals(this.domains, comAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitProperties.domains) &&
+        Objects.equals(this.toList, comAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitProperties.toList);
   }
 
   @Override
@@ -145,11 +166,9 @@ public class ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitProp
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

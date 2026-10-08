@@ -1,20 +1,31 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("orgApacheSlingHcCoreImplExecutorHealthCheckExecutorImplProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingHcCoreImplExecutorHealthCheckExecutorImplProperties   {
-  
-  private @Valid ConfigNodePropertyInteger timeoutInMs = null;
-  private @Valid ConfigNodePropertyInteger longRunningFutureThresholdForCriticalMs = null;
-  private @Valid ConfigNodePropertyInteger resultCacheTtlInMs = null;
+  private ConfigNodePropertyInteger timeoutInMs;
+  private ConfigNodePropertyInteger longRunningFutureThresholdForCriticalMs;
+  private ConfigNodePropertyInteger resultCacheTtlInMs;
+
+  public OrgApacheSlingHcCoreImplExecutorHealthCheckExecutorImplProperties() {
+  }
 
   /**
    **/
@@ -26,9 +37,11 @@ public class OrgApacheSlingHcCoreImplExecutorHealthCheckExecutorImplProperties  
   
   @ApiModelProperty(value = "")
   @JsonProperty("timeoutInMs")
-  public ConfigNodePropertyInteger getTimeoutInMs() {
+  @Valid public ConfigNodePropertyInteger getTimeoutInMs() {
     return timeoutInMs;
   }
+
+  @JsonProperty("timeoutInMs")
   public void setTimeoutInMs(ConfigNodePropertyInteger timeoutInMs) {
     this.timeoutInMs = timeoutInMs;
   }
@@ -43,9 +56,11 @@ public class OrgApacheSlingHcCoreImplExecutorHealthCheckExecutorImplProperties  
   
   @ApiModelProperty(value = "")
   @JsonProperty("longRunningFutureThresholdForCriticalMs")
-  public ConfigNodePropertyInteger getLongRunningFutureThresholdForCriticalMs() {
+  @Valid public ConfigNodePropertyInteger getLongRunningFutureThresholdForCriticalMs() {
     return longRunningFutureThresholdForCriticalMs;
   }
+
+  @JsonProperty("longRunningFutureThresholdForCriticalMs")
   public void setLongRunningFutureThresholdForCriticalMs(ConfigNodePropertyInteger longRunningFutureThresholdForCriticalMs) {
     this.longRunningFutureThresholdForCriticalMs = longRunningFutureThresholdForCriticalMs;
   }
@@ -60,16 +75,18 @@ public class OrgApacheSlingHcCoreImplExecutorHealthCheckExecutorImplProperties  
   
   @ApiModelProperty(value = "")
   @JsonProperty("resultCacheTtlInMs")
-  public ConfigNodePropertyInteger getResultCacheTtlInMs() {
+  @Valid public ConfigNodePropertyInteger getResultCacheTtlInMs() {
     return resultCacheTtlInMs;
   }
+
+  @JsonProperty("resultCacheTtlInMs")
   public void setResultCacheTtlInMs(ConfigNodePropertyInteger resultCacheTtlInMs) {
     this.resultCacheTtlInMs = resultCacheTtlInMs;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -77,9 +94,9 @@ public class OrgApacheSlingHcCoreImplExecutorHealthCheckExecutorImplProperties  
       return false;
     }
     OrgApacheSlingHcCoreImplExecutorHealthCheckExecutorImplProperties orgApacheSlingHcCoreImplExecutorHealthCheckExecutorImplProperties = (OrgApacheSlingHcCoreImplExecutorHealthCheckExecutorImplProperties) o;
-    return Objects.equals(timeoutInMs, orgApacheSlingHcCoreImplExecutorHealthCheckExecutorImplProperties.timeoutInMs) &&
-        Objects.equals(longRunningFutureThresholdForCriticalMs, orgApacheSlingHcCoreImplExecutorHealthCheckExecutorImplProperties.longRunningFutureThresholdForCriticalMs) &&
-        Objects.equals(resultCacheTtlInMs, orgApacheSlingHcCoreImplExecutorHealthCheckExecutorImplProperties.resultCacheTtlInMs);
+    return Objects.equals(this.timeoutInMs, orgApacheSlingHcCoreImplExecutorHealthCheckExecutorImplProperties.timeoutInMs) &&
+        Objects.equals(this.longRunningFutureThresholdForCriticalMs, orgApacheSlingHcCoreImplExecutorHealthCheckExecutorImplProperties.longRunningFutureThresholdForCriticalMs) &&
+        Objects.equals(this.resultCacheTtlInMs, orgApacheSlingHcCoreImplExecutorHealthCheckExecutorImplProperties.resultCacheTtlInMs);
   }
 
   @Override
@@ -103,11 +120,9 @@ public class OrgApacheSlingHcCoreImplExecutorHealthCheckExecutorImplProperties  
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

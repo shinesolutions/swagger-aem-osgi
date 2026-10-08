@@ -2,27 +2,28 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class ComAdobeXmpWorkerFilesNcommXMPFilesNCommProperties   {
   
-  private ConfigNodePropertyString maxConnections = null;
+  private ConfigNodePropertyString maxConnections;
 
-  private ConfigNodePropertyString maxRequests = null;
+  private ConfigNodePropertyString maxRequests;
 
-  private ConfigNodePropertyString requestTimeout = null;
+  private ConfigNodePropertyString requestTimeout;
 
-  private ConfigNodePropertyString logDir = null;
-
+  private ConfigNodePropertyString logDir;
 
   /**
    **/
@@ -98,7 +99,7 @@ public class ComAdobeXmpWorkerFilesNcommXMPFilesNCommProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -106,10 +107,10 @@ public class ComAdobeXmpWorkerFilesNcommXMPFilesNCommProperties   {
       return false;
     }
     ComAdobeXmpWorkerFilesNcommXMPFilesNCommProperties comAdobeXmpWorkerFilesNcommXMPFilesNCommProperties = (ComAdobeXmpWorkerFilesNcommXMPFilesNCommProperties) o;
-    return Objects.equals(maxConnections, comAdobeXmpWorkerFilesNcommXMPFilesNCommProperties.maxConnections) &&
-        Objects.equals(maxRequests, comAdobeXmpWorkerFilesNcommXMPFilesNCommProperties.maxRequests) &&
-        Objects.equals(requestTimeout, comAdobeXmpWorkerFilesNcommXMPFilesNCommProperties.requestTimeout) &&
-        Objects.equals(logDir, comAdobeXmpWorkerFilesNcommXMPFilesNCommProperties.logDir);
+    return Objects.equals(this.maxConnections, comAdobeXmpWorkerFilesNcommXMPFilesNCommProperties.maxConnections) &&
+        Objects.equals(this.maxRequests, comAdobeXmpWorkerFilesNcommXMPFilesNCommProperties.maxRequests) &&
+        Objects.equals(this.requestTimeout, comAdobeXmpWorkerFilesNcommXMPFilesNCommProperties.requestTimeout) &&
+        Objects.equals(this.logDir, comAdobeXmpWorkerFilesNcommXMPFilesNCommProperties.logDir);
   }
 
   @Override
@@ -134,11 +135,8 @@ public class ComAdobeXmpWorkerFilesNcommXMPFilesNCommProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

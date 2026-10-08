@@ -1,0 +1,112 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties {
+    title = ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties
+    description = ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties
+    derivedFrom = Root
+    properties {
+        cq_dam_config_annotation_pdf_document_width {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        cq_dam_config_annotation_pdf_document_height {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        cq_dam_config_annotation_pdf_document_padding_horizontal {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        cq_dam_config_annotation_pdf_document_padding_vertical {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        cq_dam_config_annotation_pdf_font_size {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        cq_dam_config_annotation_pdf_font_color {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        cq_dam_config_annotation_pdf_font_family {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        cq_dam_config_annotation_pdf_font_light {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        cq_dam_config_annotation_pdf_margin_text_image {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        cq_dam_config_annotation_pdf_min_image_height {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        cq_dam_config_annotation_pdf_review_status_width {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        cq_dam_config_annotation_pdf_review_status_color_approved {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        cq_dam_config_annotation_pdf_review_status_color_rejected {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        cq_dam_config_annotation_pdf_review_status_color_changes_requested {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        cq_dam_config_annotation_pdf_annotation_marker_width {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        cq_dam_config_annotation_pdf_asset_minheight {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties {
+    title = ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties
+    description = ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties
+    implements = openapi_server.resourceTypes.ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties
+
+  }
+}

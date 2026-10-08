@@ -1,31 +1,42 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * OrgApacheSlingFeatureflagsFeatureProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class OrgApacheSlingFeatureflagsFeatureProperties   {
-  @JsonProperty("name")
-  private ConfigNodePropertyString name = null;
+@JsonTypeName("orgApacheSlingFeatureflagsFeatureProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class OrgApacheSlingFeatureflagsFeatureProperties {
 
-  @JsonProperty("description")
-  private ConfigNodePropertyString description = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString name;
 
-  @JsonProperty("enabled")
-  private ConfigNodePropertyBoolean enabled = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString description;
 
-  public OrgApacheSlingFeatureflagsFeatureProperties name(ConfigNodePropertyString name) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean enabled;
+
+  public OrgApacheSlingFeatureflagsFeatureProperties name(@Nullable ConfigNodePropertyString name) {
     this.name = name;
     return this;
   }
@@ -33,20 +44,20 @@ public class OrgApacheSlingFeatureflagsFeatureProperties   {
   /**
    * Get name
    * @return name
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getName() {
+   */
+  @Valid 
+  @Schema(name = "name", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("name")
+  public @Nullable ConfigNodePropertyString getName() {
     return name;
   }
 
-  public void setName(ConfigNodePropertyString name) {
+  @JsonProperty("name")
+  public void setName(@Nullable ConfigNodePropertyString name) {
     this.name = name;
   }
 
-  public OrgApacheSlingFeatureflagsFeatureProperties description(ConfigNodePropertyString description) {
+  public OrgApacheSlingFeatureflagsFeatureProperties description(@Nullable ConfigNodePropertyString description) {
     this.description = description;
     return this;
   }
@@ -54,20 +65,20 @@ public class OrgApacheSlingFeatureflagsFeatureProperties   {
   /**
    * Get description
    * @return description
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getDescription() {
+   */
+  @Valid 
+  @Schema(name = "description", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("description")
+  public @Nullable ConfigNodePropertyString getDescription() {
     return description;
   }
 
-  public void setDescription(ConfigNodePropertyString description) {
+  @JsonProperty("description")
+  public void setDescription(@Nullable ConfigNodePropertyString description) {
     this.description = description;
   }
 
-  public OrgApacheSlingFeatureflagsFeatureProperties enabled(ConfigNodePropertyBoolean enabled) {
+  public OrgApacheSlingFeatureflagsFeatureProperties enabled(@Nullable ConfigNodePropertyBoolean enabled) {
     this.enabled = enabled;
     return this;
   }
@@ -75,22 +86,21 @@ public class OrgApacheSlingFeatureflagsFeatureProperties   {
   /**
    * Get enabled
    * @return enabled
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getEnabled() {
+   */
+  @Valid 
+  @Schema(name = "enabled", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("enabled")
+  public @Nullable ConfigNodePropertyBoolean getEnabled() {
     return enabled;
   }
 
-  public void setEnabled(ConfigNodePropertyBoolean enabled) {
+  @JsonProperty("enabled")
+  public void setEnabled(@Nullable ConfigNodePropertyBoolean enabled) {
     this.enabled = enabled;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -112,7 +122,6 @@ public class OrgApacheSlingFeatureflagsFeatureProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class OrgApacheSlingFeatureflagsFeatureProperties {\n");
-    
     sb.append("    name: ").append(toIndentedString(name)).append("\n");
     sb.append("    description: ").append(toIndentedString(description)).append("\n");
     sb.append("    enabled: ").append(toIndentedString(enabled)).append("\n");
@@ -124,11 +133,8 @@ public class OrgApacheSlingFeatureflagsFeatureProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

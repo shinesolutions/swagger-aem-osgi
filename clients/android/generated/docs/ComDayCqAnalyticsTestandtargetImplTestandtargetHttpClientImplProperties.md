@@ -1,7 +1,9 @@
 
+
 # ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **cqAnalyticsTestandtargetApiUrl** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
@@ -9,6 +11,7 @@ Name | Type | Description | Notes
 **cqAnalyticsTestandtargetSockettimeout** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
 **cqAnalyticsTestandtargetRecommendationsUrlReplace** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
 **cqAnalyticsTestandtargetRecommendationsUrlReplacewith** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
+
 
 
 

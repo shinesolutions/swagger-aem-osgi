@@ -72,11 +72,11 @@ private class OASComAdobeCqCdnRewriterImplAWSCloudTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeCqCdnRewriterImplAWSCloud comAdobeCqCdnRewriterImplAWSCloudFrontRewriterProperties = new OASComAdobeCqCdnRewriterImplAWSCloud();
-        Map<String, String> propertyMappings = comAdobeCqCdnRewriterImplAWSCloudFrontRewriterProperties.getPropertyMappings();
-        System.assertEquals('serviceRanking', propertyMappings.get('service.ranking'));
-        System.assertEquals('keypairId', propertyMappings.get('keypair.id'));
-        System.assertEquals('keypairAlias', propertyMappings.get('keypair.alias'));
-        System.assertEquals('cdnrewriterAttributes', propertyMappings.get('cdnrewriter.attributes'));
-        System.assertEquals('cdnRewriterDistributionDomain', propertyMappings.get('cdn.rewriter.distribution.domain'));
+        Map<String, String> x-property-mappings = comAdobeCqCdnRewriterImplAWSCloudFrontRewriterProperties.getx-property-mappings();
+        System.assertEquals('serviceRanking', x-property-mappings.get('service.ranking'));
+        System.assertEquals('keypairId', x-property-mappings.get('keypair.id'));
+        System.assertEquals('keypairAlias', x-property-mappings.get('keypair.alias'));
+        System.assertEquals('cdnrewriterAttributes', x-property-mappings.get('cdnrewriter.attributes'));
+        System.assertEquals('cdnRewriterDistributionDomain', x-property-mappings.get('cdn.rewriter.distribution.domain'));
     }
 }

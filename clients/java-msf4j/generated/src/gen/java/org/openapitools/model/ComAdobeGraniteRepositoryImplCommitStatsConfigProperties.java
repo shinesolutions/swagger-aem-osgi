@@ -3,6 +3,7 @@ package org.openapitools.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
@@ -13,46 +14,46 @@ import org.openapitools.model.ConfigNodePropertyString;
 /**
  * ComAdobeGraniteRepositoryImplCommitStatsConfigProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaMSF4JServerCodegen", date = "2019-08-05T00:54:29.762Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaMSF4JServerCodegen", date = "2026-10-07T12:53:29.980508721Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteRepositoryImplCommitStatsConfigProperties   {
   @JsonProperty("enabled")
-  private ConfigNodePropertyBoolean enabled = null;
+  private ConfigNodePropertyBoolean enabled;
 
   @JsonProperty("intervalSeconds")
-  private ConfigNodePropertyInteger intervalSeconds = null;
+  private ConfigNodePropertyInteger intervalSeconds;
 
   @JsonProperty("commitsPerIntervalThreshold")
-  private ConfigNodePropertyInteger commitsPerIntervalThreshold = null;
+  private ConfigNodePropertyInteger commitsPerIntervalThreshold;
 
   @JsonProperty("maxLocationLength")
-  private ConfigNodePropertyInteger maxLocationLength = null;
+  private ConfigNodePropertyInteger maxLocationLength;
 
   @JsonProperty("maxDetailsShown")
-  private ConfigNodePropertyInteger maxDetailsShown = null;
+  private ConfigNodePropertyInteger maxDetailsShown;
 
   @JsonProperty("minDetailsPercentage")
-  private ConfigNodePropertyInteger minDetailsPercentage = null;
+  private ConfigNodePropertyInteger minDetailsPercentage;
 
   @JsonProperty("threadMatchers")
-  private ConfigNodePropertyArray threadMatchers = null;
+  private ConfigNodePropertyArray threadMatchers;
 
   @JsonProperty("maxGreedyDepth")
-  private ConfigNodePropertyInteger maxGreedyDepth = null;
+  private ConfigNodePropertyInteger maxGreedyDepth;
 
   @JsonProperty("greedyStackMatchers")
-  private ConfigNodePropertyString greedyStackMatchers = null;
+  private ConfigNodePropertyString greedyStackMatchers;
 
   @JsonProperty("stackFilters")
-  private ConfigNodePropertyArray stackFilters = null;
+  private ConfigNodePropertyArray stackFilters;
 
   @JsonProperty("stackMatchers")
-  private ConfigNodePropertyArray stackMatchers = null;
+  private ConfigNodePropertyArray stackMatchers;
 
   @JsonProperty("stackCategorizers")
-  private ConfigNodePropertyArray stackCategorizers = null;
+  private ConfigNodePropertyArray stackCategorizers;
 
   @JsonProperty("stackShorteners")
-  private ConfigNodePropertyArray stackShorteners = null;
+  private ConfigNodePropertyArray stackShorteners;
 
   public ComAdobeGraniteRepositoryImplCommitStatsConfigProperties enabled(ConfigNodePropertyBoolean enabled) {
     this.enabled = enabled;
@@ -290,7 +291,7 @@ public class ComAdobeGraniteRepositoryImplCommitStatsConfigProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -344,11 +345,8 @@ public class ComAdobeGraniteRepositoryImplCommitStatsConfigProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -1,0 +1,25 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "scheduler_period" },
+      {"model": "scheduler_run_on" },
+      {"model": "granite_threaddump_enabled" },
+      {"model": "granite_threaddump_dumps_per_file" },
+      {"model": "granite_threaddump_enable_gzip_compression" },
+      {"model": "granite_threaddump_enable_directories_compression" },
+      {"model": "granite_threaddump_enable_j_stack" },
+      {"model": "granite_threaddump_max_backup_days" },
+      {"model": "granite_threaddump_backup_clean_trigger" },
+    ]
+  }]
+}

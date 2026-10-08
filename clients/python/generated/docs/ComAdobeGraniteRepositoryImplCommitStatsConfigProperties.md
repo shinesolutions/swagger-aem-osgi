@@ -1,6 +1,8 @@
 # ComAdobeGraniteRepositoryImplCommitStatsConfigProperties
 
+
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **enabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] 
@@ -17,6 +19,23 @@ Name | Type | Description | Notes
 **stack_categorizers** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 
 **stack_shorteners** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 
 
+## Example
+
+```python
+from swaggeraemosgi.models.com_adobe_granite_repository_impl_commit_stats_config_properties import ComAdobeGraniteRepositoryImplCommitStatsConfigProperties
+
+# TODO update the JSON string below
+json = "{}"
+# create an instance of ComAdobeGraniteRepositoryImplCommitStatsConfigProperties from a JSON string
+com_adobe_granite_repository_impl_commit_stats_config_properties_instance = ComAdobeGraniteRepositoryImplCommitStatsConfigProperties.from_json(json)
+# print the JSON string representation of the object
+print(ComAdobeGraniteRepositoryImplCommitStatsConfigProperties.to_json())
+
+# convert the object into a dict
+com_adobe_granite_repository_impl_commit_stats_config_properties_dict = com_adobe_granite_repository_impl_commit_stats_config_properties_instance.to_dict()
+# create an instance of ComAdobeGraniteRepositoryImplCommitStatsConfigProperties from a dict
+com_adobe_granite_repository_impl_commit_stats_config_properties_from_dict = ComAdobeGraniteRepositoryImplCommitStatsConfigProperties.from_dict(com_adobe_granite_repository_impl_commit_stats_config_properties_dict)
+```
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 
 

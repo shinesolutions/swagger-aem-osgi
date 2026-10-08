@@ -1,5 +1,5 @@
 {
-    "name": "openapi/server-bundle",
+    "name": "shinesolutions/swagger-aem-osgi",
     "description": "",
     "keywords": [
         "openapi",
@@ -7,32 +7,34 @@
         "sdk",
         "api"
     ],
-    "homepage": "https://github.com/openapitools/openapi-generator",
-    "license": "proprietary",
+    "homepage": "https://openapi-generator.tech",
+    "license": "unlicense",
     "authors": [
         {
-            "name": "openapi-generator contributors",
-            "homepage": "https://github.com/openapitools/openapi-generator"
+            "name": "OpenAPI",
+            "homepage": "https://openapi-generator.tech"
         }
     ],
     "require": {
-        "php": ">=5.4",
+        "php": "^8.1",
         "ext-curl": "*",
         "ext-json": "*",
         "ext-mbstring": "*",
-        "symfony/validator": "*",
-        "jms/serializer-bundle": "*",
-        "symfony/framework-bundle": "^2.3|^3.0"
+        "doctrine/annotations": "^2.0",
+        "symfony/validator": "^6.4|^7.0",
+        "jms/serializer-bundle": "^5.4",
+        "symfony/framework-bundle": "^6.4|^7.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "~4.8",
-        "satooshi/php-coveralls": "~1.0",
-        "squizlabs/php_codesniffer": "~2.6",
-        "friendsofphp/php-cs-fixer": "~1.12",
-        "symfony/browser-kit": "*",
+        "phpunit/phpunit": "^10.5|^11.0",
+        "friendsofphp/php-cs-fixer": "*",
+        "symfony/browser-kit": "^6.4|7.0",
+        "symfony/yaml": "^6.4|^7.0",
         "hoa/regex": "~1.0"
     },
     "autoload": {
-        "psr-4": { "OpenAPI\\Server\\" : "./" }
+        "psr-4": {
+            "OpenAPI\\Server\\" : ""
+        }
     }
 }

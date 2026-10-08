@@ -4,29 +4,24 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2019-08-05T01:00:05.540Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2026-10-07T12:54:26.576036107Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqDamIdsImplIDSJobProcessorProperties   {
   
-
-  private ConfigNodePropertyBoolean enableMultisession = null;
-
-  private ConfigNodePropertyBoolean idsCcEnable = null;
-
-  private ConfigNodePropertyBoolean enableRetry = null;
-
-  private ConfigNodePropertyBoolean enableRetryScripterror = null;
-
-  private ConfigNodePropertyString externalizerDomainCqhost = null;
-
-  private ConfigNodePropertyString externalizerDomainHttp = null;
+  private ConfigNodePropertyBoolean enableMultisession;
+  private ConfigNodePropertyBoolean idsCcEnable;
+  private ConfigNodePropertyBoolean enableRetry;
+  private ConfigNodePropertyBoolean enableRetryScripterror;
+  private ConfigNodePropertyString externalizerDomainCqhost;
+  private ConfigNodePropertyString externalizerDomainHttp;
 
   /**
    **/
@@ -110,12 +105,12 @@ public class ComDayCqDamIdsImplIDSJobProcessorProperties   {
       return false;
     }
     ComDayCqDamIdsImplIDSJobProcessorProperties comDayCqDamIdsImplIDSJobProcessorProperties = (ComDayCqDamIdsImplIDSJobProcessorProperties) o;
-    return Objects.equals(enableMultisession, comDayCqDamIdsImplIDSJobProcessorProperties.enableMultisession) &&
-        Objects.equals(idsCcEnable, comDayCqDamIdsImplIDSJobProcessorProperties.idsCcEnable) &&
-        Objects.equals(enableRetry, comDayCqDamIdsImplIDSJobProcessorProperties.enableRetry) &&
-        Objects.equals(enableRetryScripterror, comDayCqDamIdsImplIDSJobProcessorProperties.enableRetryScripterror) &&
-        Objects.equals(externalizerDomainCqhost, comDayCqDamIdsImplIDSJobProcessorProperties.externalizerDomainCqhost) &&
-        Objects.equals(externalizerDomainHttp, comDayCqDamIdsImplIDSJobProcessorProperties.externalizerDomainHttp);
+    return Objects.equals(this.enableMultisession, comDayCqDamIdsImplIDSJobProcessorProperties.enableMultisession) &&
+        Objects.equals(this.idsCcEnable, comDayCqDamIdsImplIDSJobProcessorProperties.idsCcEnable) &&
+        Objects.equals(this.enableRetry, comDayCqDamIdsImplIDSJobProcessorProperties.enableRetry) &&
+        Objects.equals(this.enableRetryScripterror, comDayCqDamIdsImplIDSJobProcessorProperties.enableRetryScripterror) &&
+        Objects.equals(this.externalizerDomainCqhost, comDayCqDamIdsImplIDSJobProcessorProperties.externalizerDomainCqhost) &&
+        Objects.equals(this.externalizerDomainHttp, comDayCqDamIdsImplIDSJobProcessorProperties.externalizerDomainHttp);
   }
 
   @Override
@@ -143,10 +138,7 @@ public class ComDayCqDamIdsImplIDSJobProcessorProperties   {
    * (except the first line).
    */
   private String toIndentedString(Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

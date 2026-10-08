@@ -1,20 +1,31 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comDayCqWcmMsmImplActionsContentDeleteActionFactoryProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqWcmMsmImplActionsContentDeleteActionFactoryProperties   {
-  
-  private @Valid ConfigNodePropertyArray cqWcmMsmActionExcludednodetypes = null;
-  private @Valid ConfigNodePropertyArray cqWcmMsmActionExcludedparagraphitems = null;
-  private @Valid ConfigNodePropertyArray cqWcmMsmActionExcludedprops = null;
+  private ConfigNodePropertyArray cqWcmMsmActionExcludednodetypes;
+  private ConfigNodePropertyArray cqWcmMsmActionExcludedparagraphitems;
+  private ConfigNodePropertyArray cqWcmMsmActionExcludedprops;
+
+  public ComDayCqWcmMsmImplActionsContentDeleteActionFactoryProperties() {
+  }
 
   /**
    **/
@@ -26,9 +37,11 @@ public class ComDayCqWcmMsmImplActionsContentDeleteActionFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("cq.wcm.msm.action.excludednodetypes")
-  public ConfigNodePropertyArray getCqWcmMsmActionExcludednodetypes() {
+  @Valid public ConfigNodePropertyArray getCqWcmMsmActionExcludednodetypes() {
     return cqWcmMsmActionExcludednodetypes;
   }
+
+  @JsonProperty("cq.wcm.msm.action.excludednodetypes")
   public void setCqWcmMsmActionExcludednodetypes(ConfigNodePropertyArray cqWcmMsmActionExcludednodetypes) {
     this.cqWcmMsmActionExcludednodetypes = cqWcmMsmActionExcludednodetypes;
   }
@@ -43,9 +56,11 @@ public class ComDayCqWcmMsmImplActionsContentDeleteActionFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("cq.wcm.msm.action.excludedparagraphitems")
-  public ConfigNodePropertyArray getCqWcmMsmActionExcludedparagraphitems() {
+  @Valid public ConfigNodePropertyArray getCqWcmMsmActionExcludedparagraphitems() {
     return cqWcmMsmActionExcludedparagraphitems;
   }
+
+  @JsonProperty("cq.wcm.msm.action.excludedparagraphitems")
   public void setCqWcmMsmActionExcludedparagraphitems(ConfigNodePropertyArray cqWcmMsmActionExcludedparagraphitems) {
     this.cqWcmMsmActionExcludedparagraphitems = cqWcmMsmActionExcludedparagraphitems;
   }
@@ -60,16 +75,18 @@ public class ComDayCqWcmMsmImplActionsContentDeleteActionFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("cq.wcm.msm.action.excludedprops")
-  public ConfigNodePropertyArray getCqWcmMsmActionExcludedprops() {
+  @Valid public ConfigNodePropertyArray getCqWcmMsmActionExcludedprops() {
     return cqWcmMsmActionExcludedprops;
   }
+
+  @JsonProperty("cq.wcm.msm.action.excludedprops")
   public void setCqWcmMsmActionExcludedprops(ConfigNodePropertyArray cqWcmMsmActionExcludedprops) {
     this.cqWcmMsmActionExcludedprops = cqWcmMsmActionExcludedprops;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -77,9 +94,9 @@ public class ComDayCqWcmMsmImplActionsContentDeleteActionFactoryProperties   {
       return false;
     }
     ComDayCqWcmMsmImplActionsContentDeleteActionFactoryProperties comDayCqWcmMsmImplActionsContentDeleteActionFactoryProperties = (ComDayCqWcmMsmImplActionsContentDeleteActionFactoryProperties) o;
-    return Objects.equals(cqWcmMsmActionExcludednodetypes, comDayCqWcmMsmImplActionsContentDeleteActionFactoryProperties.cqWcmMsmActionExcludednodetypes) &&
-        Objects.equals(cqWcmMsmActionExcludedparagraphitems, comDayCqWcmMsmImplActionsContentDeleteActionFactoryProperties.cqWcmMsmActionExcludedparagraphitems) &&
-        Objects.equals(cqWcmMsmActionExcludedprops, comDayCqWcmMsmImplActionsContentDeleteActionFactoryProperties.cqWcmMsmActionExcludedprops);
+    return Objects.equals(this.cqWcmMsmActionExcludednodetypes, comDayCqWcmMsmImplActionsContentDeleteActionFactoryProperties.cqWcmMsmActionExcludednodetypes) &&
+        Objects.equals(this.cqWcmMsmActionExcludedparagraphitems, comDayCqWcmMsmImplActionsContentDeleteActionFactoryProperties.cqWcmMsmActionExcludedparagraphitems) &&
+        Objects.equals(this.cqWcmMsmActionExcludedprops, comDayCqWcmMsmImplActionsContentDeleteActionFactoryProperties.cqWcmMsmActionExcludedprops);
   }
 
   @Override
@@ -103,11 +120,9 @@ public class ComDayCqWcmMsmImplActionsContentDeleteActionFactoryProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

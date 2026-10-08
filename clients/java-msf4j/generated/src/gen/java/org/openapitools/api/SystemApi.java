@@ -564,6 +564,7 @@ import org.openapitools.model.ComDayCqWorkflowImplEmailTaskEMailNotificationServ
 import org.openapitools.model.ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerInfo;
 import org.openapitools.model.ComDayCrxSecurityTokenImplTokenCleanupTaskInfo;
 import org.openapitools.model.GuideLocalizationServiceInfo;
+import java.util.List;
 import org.openapitools.model.MessagingUserComponentFactoryInfo;
 import org.openapitools.model.OrgApacheAriesJmxFrameworkStateConfigInfo;
 import org.openapitools.model.OrgApacheFelixEventadminImplEventAdminInfo;
@@ -743,16 +744,16 @@ import javax.ws.rs.core.Response;
 import javax.ws.rs.core.SecurityContext;
 import javax.ws.rs.*;
 
-@Path("/system")
+@Path("/system/console/configMgr")
 
 
 @io.swagger.annotations.Api(description = "the system API")
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaMSF4JServerCodegen", date = "2019-08-05T00:54:29.762Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaMSF4JServerCodegen", date = "2026-10-07T12:53:29.980508721Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class SystemApi  {
    private final SystemApiService delegate = SystemApiServiceFactory.getSystemApi();
 
     @POST
-    @Path("/console/configMgr/Adaptive Form and Interactive Communication Web Channel Configuration")
+    @Path("/Adaptive Form and Interactive Communication Web Channel Configuration")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationInfo.class, authorizations = {
@@ -780,7 +781,7 @@ public class SystemApi  {
         return delegate.adaptiveFormAndInteractiveCommunicationWebChannelConfiguration(post,apply,delete,action,$location,propertylist,showPlaceholder,maximumCacheEntries,afScriptingCompatversion,makeFileNameUnique,generatingCompliantData);
     }
     @POST
-    @Path("/console/configMgr/Adaptive Form and Interactive Communication Web Channel Theme Configuration")
+    @Path("/Adaptive Form and Interactive Communication Web Channel Theme Configuration")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurInfo.class, authorizations = {
@@ -804,7 +805,7 @@ public class SystemApi  {
         return delegate.adaptiveFormAndInteractiveCommunicationWebChannelThemeConfigur(post,apply,delete,action,$location,propertylist,fontList);
     }
     @POST
-    @Path("/console/configMgr/Analytics Component Query Cache Service")
+    @Path("/Analytics Component Query Cache Service")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = AnalyticsComponentQueryCacheServiceInfo.class, authorizations = {
@@ -828,7 +829,7 @@ public class SystemApi  {
         return delegate.analyticsComponentQueryCacheService(post,apply,delete,action,$location,propertylist,cqAnalyticsComponentQueryCacheSize);
     }
     @POST
-    @Path("/console/configMgr/Apache Sling Health Check Result HTML Serializer")
+    @Path("/Apache Sling Health Check Result HTML Serializer")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ApacheSlingHealthCheckResultHTMLSerializerInfo.class, authorizations = {
@@ -852,7 +853,7 @@ public class SystemApi  {
         return delegate.apacheSlingHealthCheckResultHTMLSerializer(post,apply,delete,action,$location,propertylist,styleString);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.aem.formsndocuments.config.AEMFormsManagerConfiguration")
+    @Path("/com.adobe.aem.formsndocuments.config.AEMFormsManagerConfiguration")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeAemFormsndocumentsConfigAEMFormsManagerConfigurationInfo.class, authorizations = {
@@ -877,7 +878,7 @@ public class SystemApi  {
         return delegate.comAdobeAemFormsndocumentsConfigAEMFormsManagerConfiguration(post,apply,delete,action,$location,propertylist,formsManagerConfigIncludeOOTBTemplates,formsManagerConfigIncludeDeprecatedTemplates);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.aem.transaction.core.impl.TransactionRecorder")
+    @Path("/com.adobe.aem.transaction.core.impl.TransactionRecorder")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeAemTransactionCoreImplTransactionRecorderInfo.class, authorizations = {
@@ -901,7 +902,7 @@ public class SystemApi  {
         return delegate.comAdobeAemTransactionCoreImplTransactionRecorder(post,apply,delete,action,$location,propertylist,isTransactionRecordingEnabled);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.aem.upgrade.prechecks.hc.impl.DeprecateIndexesHC")
+    @Path("/com.adobe.aem.upgrade.prechecks.hc.impl.DeprecateIndexesHC")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeAemUpgradePrechecksHcImplDeprecateIndexesHCInfo.class, authorizations = {
@@ -927,7 +928,7 @@ public class SystemApi  {
         return delegate.comAdobeAemUpgradePrechecksHcImplDeprecateIndexesHC(post,apply,delete,action,$location,propertylist,hcName,hcTags,hcMbeanName);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.aem.upgrade.prechecks.hc.impl.ReplicationAgentsDisabledHC")
+    @Path("/com.adobe.aem.upgrade.prechecks.hc.impl.ReplicationAgentsDisabledHC")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeAemUpgradePrechecksHcImplReplicationAgentsDisabledHCInfo.class, authorizations = {
@@ -953,7 +954,7 @@ public class SystemApi  {
         return delegate.comAdobeAemUpgradePrechecksHcImplReplicationAgentsDisabledHC(post,apply,delete,action,$location,propertylist,hcName,hcTags,hcMbeanName);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.aem.upgrade.prechecks.mbean.impl.PreUpgradeTasksMBeanImpl")
+    @Path("/com.adobe.aem.upgrade.prechecks.mbean.impl.PreUpgradeTasksMBeanImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeAemUpgradePrechecksMbeanImplPreUpgradeTasksMBeanImplInfo.class, authorizations = {
@@ -978,7 +979,7 @@ public class SystemApi  {
         return delegate.comAdobeAemUpgradePrechecksMbeanImplPreUpgradeTasksMBeanImpl(post,apply,delete,action,$location,propertylist,preUpgradeMaintenanceTasks,preUpgradeHcTags);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.aem.upgrade.prechecks.tasks.impl.ConsistencyCheckTaskImpl")
+    @Path("/com.adobe.aem.upgrade.prechecks.tasks.impl.ConsistencyCheckTaskImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeAemUpgradePrechecksTasksImplConsistencyCheckTaskImplInfo.class, authorizations = {
@@ -1003,7 +1004,7 @@ public class SystemApi  {
         return delegate.comAdobeAemUpgradePrechecksTasksImplConsistencyCheckTaskImpl(post,apply,delete,action,$location,propertylist,rootPath,fixInconsistencies);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.account.api.AccountManagementService")
+    @Path("/com.adobe.cq.account.api.AccountManagementService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqAccountApiAccountManagementServiceInfo.class, authorizations = {
@@ -1029,7 +1030,7 @@ public class SystemApi  {
         return delegate.comAdobeCqAccountApiAccountManagementService(post,apply,delete,action,$location,propertylist,cqAccountmanagerTokenValidityPeriod,cqAccountmanagerConfigRequestnewaccountMail,cqAccountmanagerConfigRequestnewpwdMail);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.account.impl.AccountManagementServlet")
+    @Path("/com.adobe.cq.account.impl.AccountManagementServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqAccountImplAccountManagementServletInfo.class, authorizations = {
@@ -1054,7 +1055,7 @@ public class SystemApi  {
         return delegate.comAdobeCqAccountImplAccountManagementServlet(post,apply,delete,action,$location,propertylist,cqAccountmanagerConfigInformnewaccountMail,cqAccountmanagerConfigInformnewpwdMail);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.address.impl.location.LocationListServlet")
+    @Path("/com.adobe.cq.address.impl.location.LocationListServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqAddressImplLocationLocationListServletInfo.class, authorizations = {
@@ -1078,7 +1079,7 @@ public class SystemApi  {
         return delegate.comAdobeCqAddressImplLocationLocationListServlet(post,apply,delete,action,$location,propertylist,cqAddressLocationDefaultMaxResults);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.audit.purge.Dam")
+    @Path("/com.adobe.cq.audit.purge.Dam")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqAuditPurgeDamInfo.class, authorizations = {
@@ -1105,7 +1106,7 @@ public class SystemApi  {
         return delegate.comAdobeCqAuditPurgeDam(post,apply,delete,action,$location,propertylist,auditlogRuleName,auditlogRuleContentpath,auditlogRuleMinimumage,auditlogRuleTypes);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.audit.purge.Pages")
+    @Path("/com.adobe.cq.audit.purge.Pages")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqAuditPurgePagesInfo.class, authorizations = {
@@ -1132,7 +1133,7 @@ public class SystemApi  {
         return delegate.comAdobeCqAuditPurgePages(post,apply,delete,action,$location,propertylist,auditlogRuleName,auditlogRuleContentpath,auditlogRuleMinimumage,auditlogRuleTypes);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.audit.purge.Replication")
+    @Path("/com.adobe.cq.audit.purge.Replication")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqAuditPurgeReplicationInfo.class, authorizations = {
@@ -1159,7 +1160,7 @@ public class SystemApi  {
         return delegate.comAdobeCqAuditPurgeReplication(post,apply,delete,action,$location,propertylist,auditlogRuleName,auditlogRuleContentpath,auditlogRuleMinimumage,auditlogRuleTypes);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.cdn.rewriter.impl.AWSCloudFrontRewriter")
+    @Path("/com.adobe.cq.cdn.rewriter.impl.AWSCloudFrontRewriter")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqCdnRewriterImplAWSCloudFrontRewriterInfo.class, authorizations = {
@@ -1187,7 +1188,7 @@ public class SystemApi  {
         return delegate.comAdobeCqCdnRewriterImplAWSCloudFrontRewriter(post,apply,delete,action,$location,propertylist,serviceRanking,keypairId,keypairAlias,cdnrewriterAttributes,cdnRewriterDistributionDomain);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.cdn.rewriter.impl.CDNConfigServiceImpl")
+    @Path("/com.adobe.cq.cdn.rewriter.impl.CDNConfigServiceImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqCdnRewriterImplCDNConfigServiceImplInfo.class, authorizations = {
@@ -1215,7 +1216,7 @@ public class SystemApi  {
         return delegate.comAdobeCqCdnRewriterImplCDNConfigServiceImpl(post,apply,delete,action,$location,propertylist,cdnConfigDistributionDomain,cdnConfigEnableRewriting,cdnConfigPathPrefixes,cdnConfigCdnttl,cdnConfigApplicationProtocol);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.cdn.rewriter.impl.CDNRewriter")
+    @Path("/com.adobe.cq.cdn.rewriter.impl.CDNRewriter")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqCdnRewriterImplCDNRewriterInfo.class, authorizations = {
@@ -1241,7 +1242,7 @@ public class SystemApi  {
         return delegate.comAdobeCqCdnRewriterImplCDNRewriter(post,apply,delete,action,$location,propertylist,serviceRanking,cdnrewriterAttributes,cdnRewriterDistributionDomain);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.cloudconfig.core.impl.ConfigurationReplicationEventHandler")
+    @Path("/com.adobe.cq.cloudconfig.core.impl.ConfigurationReplicationEventHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandleInfo.class, authorizations = {
@@ -1265,7 +1266,7 @@ public class SystemApi  {
         return delegate.comAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandle(post,apply,delete,action,$location,propertylist,flushAgents);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.commerce.impl.asset.DynamicImageHandler")
+    @Path("/com.adobe.cq.commerce.impl.asset.DynamicImageHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqCommerceImplAssetDynamicImageHandlerInfo.class, authorizations = {
@@ -1290,7 +1291,7 @@ public class SystemApi  {
         return delegate.comAdobeCqCommerceImplAssetDynamicImageHandler(post,apply,delete,action,$location,propertylist,cqCommerceAssetHandlerActive,cqCommerceAssetHandlerName);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.commerce.impl.asset.ProductAssetHandlerProviderImpl")
+    @Path("/com.adobe.cq.commerce.impl.asset.ProductAssetHandlerProviderImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqCommerceImplAssetProductAssetHandlerProviderImplInfo.class, authorizations = {
@@ -1314,7 +1315,7 @@ public class SystemApi  {
         return delegate.comAdobeCqCommerceImplAssetProductAssetHandlerProviderImpl(post,apply,delete,action,$location,propertylist,cqCommerceAssetHandlerFallback);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.commerce.impl.asset.StaticImageHandler")
+    @Path("/com.adobe.cq.commerce.impl.asset.StaticImageHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqCommerceImplAssetStaticImageHandlerInfo.class, authorizations = {
@@ -1339,7 +1340,7 @@ public class SystemApi  {
         return delegate.comAdobeCqCommerceImplAssetStaticImageHandler(post,apply,delete,action,$location,propertylist,cqCommerceAssetHandlerActive,cqCommerceAssetHandlerName);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.commerce.impl.asset.VideoHandler")
+    @Path("/com.adobe.cq.commerce.impl.asset.VideoHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqCommerceImplAssetVideoHandlerInfo.class, authorizations = {
@@ -1364,7 +1365,7 @@ public class SystemApi  {
         return delegate.comAdobeCqCommerceImplAssetVideoHandler(post,apply,delete,action,$location,propertylist,cqCommerceAssetHandlerActive,cqCommerceAssetHandlerName);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.commerce.impl.promotion.PromotionManagerImpl")
+    @Path("/com.adobe.cq.commerce.impl.promotion.PromotionManagerImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqCommerceImplPromotionPromotionManagerImplInfo.class, authorizations = {
@@ -1388,7 +1389,7 @@ public class SystemApi  {
         return delegate.comAdobeCqCommerceImplPromotionPromotionManagerImpl(post,apply,delete,action,$location,propertylist,cqCommercePromotionRoot);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.commerce.pim.impl.cataloggenerator.CatalogGeneratorImpl")
+    @Path("/com.adobe.cq.commerce.pim.impl.cataloggenerator.CatalogGeneratorImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqCommercePimImplCataloggeneratorCatalogGeneratorImplInfo.class, authorizations = {
@@ -1414,7 +1415,7 @@ public class SystemApi  {
         return delegate.comAdobeCqCommercePimImplCataloggeneratorCatalogGeneratorImpl(post,apply,delete,action,$location,propertylist,cqCommerceCataloggeneratorBucketsize,cqCommerceCataloggeneratorBucketname,cqCommerceCataloggeneratorExcludedtemplateproperties);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.commerce.pim.impl.PageEventListener")
+    @Path("/com.adobe.cq.commerce.pim.impl.PageEventListener")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqCommercePimImplPageEventListenerInfo.class, authorizations = {
@@ -1438,7 +1439,7 @@ public class SystemApi  {
         return delegate.comAdobeCqCommercePimImplPageEventListener(post,apply,delete,action,$location,propertylist,cqCommercePageeventlistenerEnabled);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.commerce.pim.impl.productfeed.ProductFeedServiceImpl")
+    @Path("/com.adobe.cq.commerce.pim.impl.productfeed.ProductFeedServiceImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqCommercePimImplProductfeedProductFeedServiceImplInfo.class, authorizations = {
@@ -1462,7 +1463,7 @@ public class SystemApi  {
         return delegate.comAdobeCqCommercePimImplProductfeedProductFeedServiceImpl(post,apply,delete,action,$location,propertylist,feedGeneratorAlgorithm);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.contentinsight.impl.ReportingServicesSettingsProvider")
+    @Path("/com.adobe.cq.contentinsight.impl.ReportingServicesSettingsProvider")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqContentinsightImplReportingServicesSettingsProviderInfo.class, authorizations = {
@@ -1486,7 +1487,7 @@ public class SystemApi  {
         return delegate.comAdobeCqContentinsightImplReportingServicesSettingsProvider(post,apply,delete,action,$location,propertylist,reportingservicesUrl);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.contentinsight.impl.servlets.BrightEdgeProxyServlet")
+    @Path("/com.adobe.cq.contentinsight.impl.servlets.BrightEdgeProxyServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqContentinsightImplServletsBrightEdgeProxyServletInfo.class, authorizations = {
@@ -1510,7 +1511,7 @@ public class SystemApi  {
         return delegate.comAdobeCqContentinsightImplServletsBrightEdgeProxyServlet(post,apply,delete,action,$location,propertylist,brightedgeUrl);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.contentinsight.impl.servlets.ReportingServicesProxyServlet")
+    @Path("/com.adobe.cq.contentinsight.impl.servlets.ReportingServicesProxyServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqContentinsightImplServletsReportingServicesProxyServleInfo.class, authorizations = {
@@ -1534,7 +1535,7 @@ public class SystemApi  {
         return delegate.comAdobeCqContentinsightImplServletsReportingServicesProxyServle(post,apply,delete,action,$location,propertylist,reportingservicesProxyWhitelist);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.dam.cfm.impl.component.ComponentConfigImpl")
+    @Path("/com.adobe.cq.dam.cfm.impl.component.ComponentConfigImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqDamCfmImplComponentComponentConfigImplInfo.class, authorizations = {
@@ -1561,7 +1562,7 @@ public class SystemApi  {
         return delegate.comAdobeCqDamCfmImplComponentComponentConfigImpl(post,apply,delete,action,$location,propertylist,damCfmComponentResourceType,damCfmComponentFileReferenceProp,damCfmComponentElementsProp,damCfmComponentVariationProp);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.dam.cfm.impl.conf.FeatureConfigImpl")
+    @Path("/com.adobe.cq.dam.cfm.impl.conf.FeatureConfigImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqDamCfmImplConfFeatureConfigImplInfo.class, authorizations = {
@@ -1586,7 +1587,7 @@ public class SystemApi  {
         return delegate.comAdobeCqDamCfmImplConfFeatureConfigImpl(post,apply,delete,action,$location,propertylist,damCfmResourceTypes,damCfmReferenceProperties);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.dam.cfm.impl.content.rewriter.AssetProcessor")
+    @Path("/com.adobe.cq.dam.cfm.impl.content.rewriter.AssetProcessor")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqDamCfmImplContentRewriterAssetProcessorInfo.class, authorizations = {
@@ -1610,7 +1611,7 @@ public class SystemApi  {
         return delegate.comAdobeCqDamCfmImplContentRewriterAssetProcessor(post,apply,delete,action,$location,propertylist,pipelineType);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.dam.cfm.impl.content.rewriter.ParRangeFilter")
+    @Path("/com.adobe.cq.dam.cfm.impl.content.rewriter.ParRangeFilter")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqDamCfmImplContentRewriterParRangeFilterInfo.class, authorizations = {
@@ -1634,7 +1635,7 @@ public class SystemApi  {
         return delegate.comAdobeCqDamCfmImplContentRewriterParRangeFilter(post,apply,delete,action,$location,propertylist,pipelineType);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.dam.cfm.impl.content.rewriter.PayloadFilter")
+    @Path("/com.adobe.cq.dam.cfm.impl.content.rewriter.PayloadFilter")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqDamCfmImplContentRewriterPayloadFilterInfo.class, authorizations = {
@@ -1658,7 +1659,7 @@ public class SystemApi  {
         return delegate.comAdobeCqDamCfmImplContentRewriterPayloadFilter(post,apply,delete,action,$location,propertylist,pipelineType);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.dam.dm.process.image.PTiffManagerImpl")
+    @Path("/com.adobe.cq.dam.dm.process.image.PTiffManagerImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqDamDmProcessImagePTiffManagerImplInfo.class, authorizations = {
@@ -1682,7 +1683,7 @@ public class SystemApi  {
         return delegate.comAdobeCqDamDmProcessImagePTiffManagerImpl(post,apply,delete,action,$location,propertylist,maxMemory);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.dam.ips.impl.replication.trigger.ReplicateOnModifyWorker")
+    @Path("/com.adobe.cq.dam.ips.impl.replication.trigger.ReplicateOnModifyWorker")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqDamIpsImplReplicationTriggerReplicateOnModifyWorkerInfo.class, authorizations = {
@@ -1707,7 +1708,7 @@ public class SystemApi  {
         return delegate.comAdobeCqDamIpsImplReplicationTriggerReplicateOnModifyWorker(post,apply,delete,action,$location,propertylist,dmreplicateonmodifyEnabled,dmreplicateonmodifyForcesyncdeletes);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.dam.mac.sync.helper.impl.MACSyncClientImpl")
+    @Path("/com.adobe.cq.dam.mac.sync.helper.impl.MACSyncClientImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqDamMacSyncHelperImplMACSyncClientImplInfo.class, authorizations = {
@@ -1731,7 +1732,7 @@ public class SystemApi  {
         return delegate.comAdobeCqDamMacSyncHelperImplMACSyncClientImpl(post,apply,delete,action,$location,propertylist,comAdobeDamMacSyncClientSoTimeout);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.dam.mac.sync.impl.DAMSyncServiceImpl")
+    @Path("/com.adobe.cq.dam.mac.sync.impl.DAMSyncServiceImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqDamMacSyncImplDAMSyncServiceImplInfo.class, authorizations = {
@@ -1758,7 +1759,7 @@ public class SystemApi  {
         return delegate.comAdobeCqDamMacSyncImplDAMSyncServiceImpl(post,apply,delete,action,$location,propertylist,comAdobeCqDamMacSyncDamsyncserviceRegisteredPaths,comAdobeCqDamMacSyncDamsyncserviceSyncRenditions,comAdobeCqDamMacSyncDamsyncserviceReplicateThreadWaitMs,comAdobeCqDamMacSyncDamsyncservicePlatform);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.dam.processor.nui.impl.NuiAssetProcessor")
+    @Path("/com.adobe.cq.dam.processor.nui.impl.NuiAssetProcessor")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqDamProcessorNuiImplNuiAssetProcessorInfo.class, authorizations = {
@@ -1784,7 +1785,7 @@ public class SystemApi  {
         return delegate.comAdobeCqDamProcessorNuiImplNuiAssetProcessor(post,apply,delete,action,$location,propertylist,nuiEnabled,nuiServiceUrl,nuiApiKey);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.dam.s7imaging.impl.is.ImageServerComponent")
+    @Path("/com.adobe.cq.dam.s7imaging.impl.is.ImageServerComponent")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqDamS7imagingImplIsImageServerComponentInfo.class, authorizations = {
@@ -1813,7 +1814,7 @@ public class SystemApi  {
         return delegate.comAdobeCqDamS7imagingImplIsImageServerComponent(post,apply,delete,action,$location,propertylist,tcpPort,allowRemoteAccess,maxRenderRgnPixels,maxMessageSize,randomAccessUrlTimeout,workerThreads);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.dam.s7imaging.impl.ps.PlatformServerServlet")
+    @Path("/com.adobe.cq.dam.s7imaging.impl.ps.PlatformServerServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqDamS7imagingImplPsPlatformServerServletInfo.class, authorizations = {
@@ -1840,7 +1841,7 @@ public class SystemApi  {
         return delegate.comAdobeCqDamS7imagingImplPsPlatformServerServlet(post,apply,delete,action,$location,propertylist,cacheEnable,cacheRootPaths,cacheMaxSize,cacheMaxEntries);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.dam.webdav.impl.io.AssetIOHandler")
+    @Path("/com.adobe.cq.dam.webdav.impl.io.AssetIOHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqDamWebdavImplIoAssetIOHandlerInfo.class, authorizations = {
@@ -1866,7 +1867,7 @@ public class SystemApi  {
         return delegate.comAdobeCqDamWebdavImplIoAssetIOHandler(post,apply,delete,action,$location,propertylist,serviceRanking,pathPrefix,createVersion);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.dam.webdav.impl.io.DamWebdavVersionLinkingJob")
+    @Path("/com.adobe.cq.dam.webdav.impl.io.DamWebdavVersionLinkingJob")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJobInfo.class, authorizations = {
@@ -1892,7 +1893,7 @@ public class SystemApi  {
         return delegate.comAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJob(post,apply,delete,action,$location,propertylist,cqDamWebdavVersionLinkingEnable,cqDamWebdavVersionLinkingSchedulerPeriod,cqDamWebdavVersionLinkingStagingTimeout);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.dam.webdav.impl.io.SpecialFilesHandler")
+    @Path("/com.adobe.cq.dam.webdav.impl.io.SpecialFilesHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqDamWebdavImplIoSpecialFilesHandlerInfo.class, authorizations = {
@@ -1916,7 +1917,7 @@ public class SystemApi  {
         return delegate.comAdobeCqDamWebdavImplIoSpecialFilesHandler(post,apply,delete,action,$location,propertylist,comDayCqDamCoreImplIoSpecialFilesHandlerFilepatters);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.deserfw.impl.DeserializationFirewallImpl")
+    @Path("/com.adobe.cq.deserfw.impl.DeserializationFirewallImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqDeserfwImplDeserializationFirewallImplInfo.class, authorizations = {
@@ -1942,7 +1943,7 @@ public class SystemApi  {
         return delegate.comAdobeCqDeserfwImplDeserializationFirewallImpl(post,apply,delete,action,$location,propertylist,firewallDeserializationWhitelist,firewallDeserializationBlacklist,firewallDeserializationDiagnostics);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.dtm.impl.service.DTMWebServiceImpl")
+    @Path("/com.adobe.cq.dtm.impl.service.DTMWebServiceImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqDtmImplServiceDTMWebServiceImplInfo.class, authorizations = {
@@ -1967,7 +1968,7 @@ public class SystemApi  {
         return delegate.comAdobeCqDtmImplServiceDTMWebServiceImpl(post,apply,delete,action,$location,propertylist,connectionTimeout,socketTimeout);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.dtm.impl.servlets.DTMDeployHookServlet")
+    @Path("/com.adobe.cq.dtm.impl.servlets.DTMDeployHookServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqDtmImplServletsDTMDeployHookServletInfo.class, authorizations = {
@@ -1992,7 +1993,7 @@ public class SystemApi  {
         return delegate.comAdobeCqDtmImplServletsDTMDeployHookServlet(post,apply,delete,action,$location,propertylist,dtmStagingIpWhitelist,dtmProductionIpWhitelist);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.dtm.reactor.impl.service.WebServiceImpl")
+    @Path("/com.adobe.cq.dtm.reactor.impl.service.WebServiceImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqDtmReactorImplServiceWebServiceImplInfo.class, authorizations = {
@@ -2018,7 +2019,7 @@ public class SystemApi  {
         return delegate.comAdobeCqDtmReactorImplServiceWebServiceImpl(post,apply,delete,action,$location,propertylist,endpointUri,connectionTimeout,socketTimeout);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.experiencelog.impl.ExperienceLogConfigServlet")
+    @Path("/com.adobe.cq.experiencelog.impl.ExperienceLogConfigServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqExperiencelogImplExperienceLogConfigServletInfo.class, authorizations = {
@@ -2043,7 +2044,7 @@ public class SystemApi  {
         return delegate.comAdobeCqExperiencelogImplExperienceLogConfigServlet(post,apply,delete,action,$location,propertylist,enabled,disabledForGroups);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.hc.ContentPackagesHealthCheck")
+    @Path("/com.adobe.cq.hc.ContentPackagesHealthCheck")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqHcContentPackagesHealthCheckInfo.class, authorizations = {
@@ -2070,7 +2071,7 @@ public class SystemApi  {
         return delegate.comAdobeCqHcContentPackagesHealthCheck(post,apply,delete,action,$location,propertylist,hcName,hcTags,hcMbeanName,packageNames);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.history.impl.HistoryRequestFilter")
+    @Path("/com.adobe.cq.history.impl.HistoryRequestFilter")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqHistoryImplHistoryRequestFilterInfo.class, authorizations = {
@@ -2095,7 +2096,7 @@ public class SystemApi  {
         return delegate.comAdobeCqHistoryImplHistoryRequestFilter(post,apply,delete,action,$location,propertylist,historyRequestFilterExcludedSelectors,historyRequestFilterExcludedExtensions);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.history.impl.HistoryServiceImpl")
+    @Path("/com.adobe.cq.history.impl.HistoryServiceImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqHistoryImplHistoryServiceImplInfo.class, authorizations = {
@@ -2120,7 +2121,7 @@ public class SystemApi  {
         return delegate.comAdobeCqHistoryImplHistoryServiceImpl(post,apply,delete,action,$location,propertylist,historyServiceResourceTypes,historyServicePathFilter);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.inbox.impl.typeprovider.ItemTypeProvider")
+    @Path("/com.adobe.cq.inbox.impl.typeprovider.ItemTypeProvider")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqInboxImplTypeproviderItemTypeProviderInfo.class, authorizations = {
@@ -2148,7 +2149,7 @@ public class SystemApi  {
         return delegate.comAdobeCqInboxImplTypeproviderItemTypeProvider(post,apply,delete,action,$location,propertylist,inboxImplTypeproviderRegistrypaths,inboxImplTypeproviderLegacypaths,inboxImplTypeproviderDefaulturlFailureitem,inboxImplTypeproviderDefaulturlWorkitem,inboxImplTypeproviderDefaulturlTask);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.projects.impl.servlet.ProjectImageServlet")
+    @Path("/com.adobe.cq.projects.impl.servlet.ProjectImageServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqProjectsImplServletProjectImageServletInfo.class, authorizations = {
@@ -2173,7 +2174,7 @@ public class SystemApi  {
         return delegate.comAdobeCqProjectsImplServletProjectImageServlet(post,apply,delete,action,$location,propertylist,imageQuality,imageSupportedResolutions);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.projects.purge.Scheduler")
+    @Path("/com.adobe.cq.projects.purge.Scheduler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqProjectsPurgeSchedulerInfo.class, authorizations = {
@@ -2204,7 +2205,7 @@ public class SystemApi  {
         return delegate.comAdobeCqProjectsPurgeScheduler(post,apply,delete,action,$location,propertylist,scheduledpurgeName,scheduledpurgePurgeActive,scheduledpurgeTemplates,scheduledpurgePurgeGroups,scheduledpurgePurgeAssets,scheduledpurgeTerminateRunningWorkflows,scheduledpurgeDaysold,scheduledpurgeSaveThreshold);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.scheduled.exporter.impl.ScheduledExporterImpl")
+    @Path("/com.adobe.cq.scheduled.exporter.impl.ScheduledExporterImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqScheduledExporterImplScheduledExporterImplInfo.class, authorizations = {
@@ -2229,7 +2230,7 @@ public class SystemApi  {
         return delegate.comAdobeCqScheduledExporterImplScheduledExporterImpl(post,apply,delete,action,$location,propertylist,includePaths,exporterUser);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.screens.analytics.impl.ScreensAnalyticsServiceImpl")
+    @Path("/com.adobe.cq.screens.analytics.impl.ScreensAnalyticsServiceImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqScreensAnalyticsImplScreensAnalyticsServiceImplInfo.class, authorizations = {
@@ -2257,7 +2258,7 @@ public class SystemApi  {
         return delegate.comAdobeCqScreensAnalyticsImplScreensAnalyticsServiceImpl(post,apply,delete,action,$location,propertylist,comAdobeCqScreensAnalyticsImplUrl,comAdobeCqScreensAnalyticsImplApikey,comAdobeCqScreensAnalyticsImplProject,comAdobeCqScreensAnalyticsImplEnvironment,comAdobeCqScreensAnalyticsImplSendFrequency);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.screens.device.impl.DeviceService")
+    @Path("/com.adobe.cq.screens.device.impl.DeviceService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqScreensDeviceImplDeviceServiceInfo.class, authorizations = {
@@ -2287,7 +2288,7 @@ public class SystemApi  {
         return delegate.comAdobeCqScreensDeviceImplDeviceService(post,apply,delete,action,$location,propertylist,comAdobeAemScreensPlayerPingfrequency,comAdobeAemScreensDevicePaswordSpecialchars,comAdobeAemScreensDevicePaswordMinlowercasechars,comAdobeAemScreensDevicePaswordMinuppercasechars,comAdobeAemScreensDevicePaswordMinnumberchars,comAdobeAemScreensDevicePaswordMinspecialchars,comAdobeAemScreensDevicePaswordMinlength);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.screens.device.registration.impl.RegistrationServiceImpl")
+    @Path("/com.adobe.cq.screens.device.registration.impl.RegistrationServiceImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqScreensDeviceRegistrationImplRegistrationServiceImplInfo.class, authorizations = {
@@ -2311,7 +2312,7 @@ public class SystemApi  {
         return delegate.comAdobeCqScreensDeviceRegistrationImplRegistrationServiceImpl(post,apply,delete,action,$location,propertylist,deviceRegistrationTimeout);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.screens.impl.handler.ChannelsUpdateHandler")
+    @Path("/com.adobe.cq.screens.impl.handler.ChannelsUpdateHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqScreensImplHandlerChannelsUpdateHandlerInfo.class, authorizations = {
@@ -2339,7 +2340,7 @@ public class SystemApi  {
         return delegate.comAdobeCqScreensImplHandlerChannelsUpdateHandler(post,apply,delete,action,$location,propertylist,cqPagesupdatehandlerImageresourcetypes,cqPagesupdatehandlerProductresourcetypes,cqPagesupdatehandlerVideoresourcetypes,cqPagesupdatehandlerDynamicsequenceresourcetypes,cqPagesupdatehandlerPreviewmodepaths);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.screens.impl.jobs.DistributedDevicesStatiUpdateJob")
+    @Path("/com.adobe.cq.screens.impl.jobs.DistributedDevicesStatiUpdateJob")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqScreensImplJobsDistributedDevicesStatiUpdateJobInfo.class, authorizations = {
@@ -2363,7 +2364,7 @@ public class SystemApi  {
         return delegate.comAdobeCqScreensImplJobsDistributedDevicesStatiUpdateJob(post,apply,delete,action,$location,propertylist,schedulerExpression);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.screens.impl.remote.impl.DistributedHttpClientImpl")
+    @Path("/com.adobe.cq.screens.impl.remote.impl.DistributedHttpClientImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqScreensImplRemoteImplDistributedHttpClientImplInfo.class, authorizations = {
@@ -2387,7 +2388,7 @@ public class SystemApi  {
         return delegate.comAdobeCqScreensImplRemoteImplDistributedHttpClientImpl(post,apply,delete,action,$location,propertylist,comAdobeAemScreensImplRemoteRequestTimeout);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.screens.impl.ScreensChannelPostProcessor")
+    @Path("/com.adobe.cq.screens.impl.ScreensChannelPostProcessor")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqScreensImplScreensChannelPostProcessorInfo.class, authorizations = {
@@ -2411,7 +2412,7 @@ public class SystemApi  {
         return delegate.comAdobeCqScreensImplScreensChannelPostProcessor(post,apply,delete,action,$location,propertylist,screensChannelsPropertiesToRemove);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.screens.monitoring.impl.ScreensMonitoringServiceImpl")
+    @Path("/com.adobe.cq.screens.monitoring.impl.ScreensMonitoringServiceImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplInfo.class, authorizations = {
@@ -2443,7 +2444,7 @@ public class SystemApi  {
         return delegate.comAdobeCqScreensMonitoringImplScreensMonitoringServiceImpl(post,apply,delete,action,$location,propertylist,comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProjectPath,comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplScheduleFrequency,comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplPingTimeout,comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplRecipients,comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplSmtpserver,comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplSmtpport,comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplUsetls,comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplUsername,comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplPassword);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.screens.mq.activemq.impl.ArtemisJMSProvider")
+    @Path("/com.adobe.cq.screens.mq.activemq.impl.ArtemisJMSProvider")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqScreensMqActivemqImplArtemisJMSProviderInfo.class, authorizations = {
@@ -2499,7 +2500,7 @@ public class SystemApi  {
         return delegate.comAdobeCqScreensMqActivemqImplArtemisJMSProvider(post,apply,delete,action,$location,propertylist,serviceRanking,globalSize,maxDiskUsage,persistenceEnabled,threadPoolMaxSize,scheduledThreadPoolMaxSize,gracefulShutdownTimeout,queues,topics,addressesMaxDeliveryAttempts,addressesExpiryDelay,addressesAddressFullMessagePolicy,addressesMaxSizeBytes,addressesPageSizeBytes,addressesPageCacheMaxSize,clusterUser,clusterPassword,clusterCallTimeout,clusterCallFailoverTimeout,clusterClientFailureCheckPeriod,clusterNotificationAttempts,clusterNotificationInterval,idCacheSize,clusterConfirmationWindowSize,clusterConnectionTtl,clusterDuplicateDetection,clusterInitialConnectAttempts,clusterMaxRetryInterval,clusterMinLargeMessageSize,clusterProducerWindowSize,clusterReconnectAttempts,clusterRetryInterval,clusterRetryIntervalMultiplier);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.BulkOfflineUpdateServiceImpl")
+    @Path("/com.adobe.cq.screens.offlinecontent.impl.BulkOfflineUpdateServiceImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqScreensOfflinecontentImplBulkOfflineUpdateServiceImplInfo.class, authorizations = {
@@ -2524,7 +2525,7 @@ public class SystemApi  {
         return delegate.comAdobeCqScreensOfflinecontentImplBulkOfflineUpdateServiceImpl(post,apply,delete,action,$location,propertylist,comAdobeCqScreensOfflinecontentImplBulkOfflineUpdateServiceImplProjectPath,comAdobeCqScreensOfflinecontentImplBulkOfflineUpdateServiceImplScheduleFrequency);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl")
+    @Path("/com.adobe.cq.screens.offlinecontent.impl.OfflineContentServiceImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqScreensOfflinecontentImplOfflineContentServiceImplInfo.class, authorizations = {
@@ -2548,7 +2549,7 @@ public class SystemApi  {
         return delegate.comAdobeCqScreensOfflinecontentImplOfflineContentServiceImpl(post,apply,delete,action,$location,propertylist,disableSmartSync);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.screens.segmentation.impl.SegmentationFeatureFlag")
+    @Path("/com.adobe.cq.screens.segmentation.impl.SegmentationFeatureFlag")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqScreensSegmentationImplSegmentationFeatureFlagInfo.class, authorizations = {
@@ -2572,7 +2573,7 @@ public class SystemApi  {
         return delegate.comAdobeCqScreensSegmentationImplSegmentationFeatureFlag(post,apply,delete,action,$location,propertylist,enableDataTriggeredContent);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.security.hc.bundles.impl.HtmlLibraryManagerConfigHealthCheck")
+    @Path("/com.adobe.cq.security.hc.bundles.impl.HtmlLibraryManagerConfigHealthCheck")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthChInfo.class, authorizations = {
@@ -2596,7 +2597,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthCh(post,apply,delete,action,$location,propertylist,hcTags);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.security.hc.bundles.impl.WcmFilterHealthCheck")
+    @Path("/com.adobe.cq.security.hc.bundles.impl.WcmFilterHealthCheck")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSecurityHcBundlesImplWcmFilterHealthCheckInfo.class, authorizations = {
@@ -2620,7 +2621,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSecurityHcBundlesImplWcmFilterHealthCheck(post,apply,delete,action,$location,propertylist,hcTags);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.security.hc.dispatcher.impl.DispatcherAccessHealthCheck")
+    @Path("/com.adobe.cq.security.hc.dispatcher.impl.DispatcherAccessHealthCheck")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheckInfo.class, authorizations = {
@@ -2647,7 +2648,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheck(post,apply,delete,action,$location,propertylist,hcTags,dispatcherAddress,dispatcherFilterAllowed,dispatcherFilterBlocked);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.security.hc.packages.impl.ExampleContentHealthCheck")
+    @Path("/com.adobe.cq.security.hc.packages.impl.ExampleContentHealthCheck")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSecurityHcPackagesImplExampleContentHealthCheckInfo.class, authorizations = {
@@ -2671,7 +2672,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSecurityHcPackagesImplExampleContentHealthCheck(post,apply,delete,action,$location,propertylist,hcTags);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.security.hc.webserver.impl.ClickjackingHealthCheck")
+    @Path("/com.adobe.cq.security.hc.webserver.impl.ClickjackingHealthCheck")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSecurityHcWebserverImplClickjackingHealthCheckInfo.class, authorizations = {
@@ -2696,7 +2697,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSecurityHcWebserverImplClickjackingHealthCheck(post,apply,delete,action,$location,propertylist,hcTags,webserverAddress);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.accountverification.impl.AccountManagementConfigImpl")
+    @Path("/com.adobe.cq.social.accountverification.impl.AccountManagementConfigImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialAccountverificationImplAccountManagementConfigImInfo.class, authorizations = {
@@ -2722,7 +2723,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialAccountverificationImplAccountManagementConfigIm(post,apply,delete,action,$location,propertylist,enable,ttl1,ttl2);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.activitystreams.client.impl.SocialActivityComponentFactoryImpl")
+    @Path("/com.adobe.cq.social.activitystreams.client.impl.SocialActivityComponentFactoryImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialActivitystreamsClientImplSocialActivityComponenInfo.class, authorizations = {
@@ -2746,7 +2747,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialActivitystreamsClientImplSocialActivityComponen(post,apply,delete,action,$location,propertylist,priority);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.activitystreams.client.impl.SocialActivityStreamComponentFactory")
+    @Path("/com.adobe.cq.social.activitystreams.client.impl.SocialActivityStreamComponentFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialActivitystreamsClientImplSocialActivityStreamCoInfo.class, authorizations = {
@@ -2770,7 +2771,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialActivitystreamsClientImplSocialActivityStreamCo(post,apply,delete,action,$location,propertylist,priority);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.activitystreams.listener.impl.EventListenerHandler")
+    @Path("/com.adobe.cq.social.activitystreams.listener.impl.EventListenerHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialActivitystreamsListenerImplEventListenerHandlerInfo.class, authorizations = {
@@ -2795,7 +2796,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialActivitystreamsListenerImplEventListenerHandler(post,apply,delete,action,$location,propertylist,eventTopics,eventFilter);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.activitystreams.listener.impl.ModerationEventExtension")
+    @Path("/com.adobe.cq.social.activitystreams.listener.impl.ModerationEventExtension")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialActivitystreamsListenerImplModerationEventExtenInfo.class, authorizations = {
@@ -2820,7 +2821,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialActivitystreamsListenerImplModerationEventExten(post,apply,delete,action,$location,propertylist,accepted,ranked);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.activitystreams.listener.impl.RatingEventActivitySuppressor")
+    @Path("/com.adobe.cq.social.activitystreams.listener.impl.RatingEventActivitySuppressor")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySInfo.class, authorizations = {
@@ -2845,7 +2846,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialActivitystreamsListenerImplRatingEventActivityS(post,apply,delete,action,$location,propertylist,ranking,enable);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.activitystreams.listener.impl.ResourceActivityStreamProviderFactory")
+    @Path("/com.adobe.cq.social.activitystreams.listener.impl.ResourceActivityStreamProviderFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialActivitystreamsListenerImplResourceActivityStreInfo.class, authorizations = {
@@ -2870,7 +2871,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialActivitystreamsListenerImplResourceActivityStre(post,apply,delete,action,$location,propertylist,streamPath,streamName);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.calendar.client.endpoints.impl.CalendarOperationsImpl")
+    @Path("/com.adobe.cq.social.calendar.client.endpoints.impl.CalendarOperationsImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsIInfo.class, authorizations = {
@@ -2896,7 +2897,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsI(post,apply,delete,action,$location,propertylist,maxRetry,fieldWhitelist,attachmentTypeBlacklist);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.calendar.client.operationextensions.EventAttachment")
+    @Path("/com.adobe.cq.social.calendar.client.operationextensions.EventAttachment")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmenInfo.class, authorizations = {
@@ -2921,7 +2922,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialCalendarClientOperationextensionsEventAttachmen(post,apply,delete,action,$location,propertylist,attachmentTypeBlacklist,extensionOrder);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.calendar.servlets.TimeZoneServlet")
+    @Path("/com.adobe.cq.social.calendar.servlets.TimeZoneServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialCalendarServletsTimeZoneServletInfo.class, authorizations = {
@@ -2945,7 +2946,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialCalendarServletsTimeZoneServlet(post,apply,delete,action,$location,propertylist,timezonesExpirytime);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.commons.comments.endpoints.impl.CommentDeleteEventActivitySuppressor")
+    @Path("/com.adobe.cq.social.commons.comments.endpoints.impl.CommentDeleteEventActivitySuppressor")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventInfo.class, authorizations = {
@@ -2969,7 +2970,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEvent(post,apply,delete,action,$location,propertylist,ranking);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.commons.comments.endpoints.impl.CommentOperationService")
+    @Path("/com.adobe.cq.social.commons.comments.endpoints.impl.CommentOperationService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSeInfo.class, authorizations = {
@@ -2994,7 +2995,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSe(post,apply,delete,action,$location,propertylist,fieldWhitelist,attachmentTypeBlacklist);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.commons.comments.endpoints.impl.TranslationOperationService")
+    @Path("/com.adobe.cq.social.commons.comments.endpoints.impl.TranslationOperationService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperatiInfo.class, authorizations = {
@@ -3019,7 +3020,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperati(post,apply,delete,action,$location,propertylist,fieldWhitelist,attachmentTypeBlacklist);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.commons.comments.listing.impl.SearchCommentSocialComponentListProvider")
+    @Path("/com.adobe.cq.social.commons.comments.listing.impl.SearchCommentSocialComponentListProvider")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialCInfo.class, authorizations = {
@@ -3043,7 +3044,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialC(post,apply,delete,action,$location,propertylist,numUserLimit);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.commons.comments.scheduler.impl.SearchScheduledPosts")
+    @Path("/com.adobe.cq.social.commons.comments.scheduler.impl.SearchScheduledPosts")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosInfo.class, authorizations = {
@@ -3069,7 +3070,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPos(post,apply,delete,action,$location,propertylist,enableScheduledPostsSearch,numberOfMinutes,maxSearchLimit);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.commons.cors.CORSAuthenticationFilter")
+    @Path("/com.adobe.cq.social.commons.cors.CORSAuthenticationFilter")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialCommonsCorsCORSAuthenticationFilterInfo.class, authorizations = {
@@ -3093,7 +3094,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialCommonsCorsCORSAuthenticationFilter(post,apply,delete,action,$location,propertylist,corsEnabling);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.AndroidEmailClientProvider")
+    @Path("/com.adobe.cq.social.commons.emailreply.impl.AndroidEmailClientProvider")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialCommonsEmailreplyImplAndroidEmailClientProviderInfo.class, authorizations = {
@@ -3118,7 +3119,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialCommonsEmailreplyImplAndroidEmailClientProvider(post,apply,delete,action,$location,propertylist,priorityOrder,replyEmailPatterns);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.CommentEmailBuilderImpl")
+    @Path("/com.adobe.cq.social.commons.emailreply.impl.CommentEmailBuilderImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialCommonsEmailreplyImplCommentEmailBuilderImplInfo.class, authorizations = {
@@ -3142,7 +3143,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialCommonsEmailreplyImplCommentEmailBuilderImpl(post,apply,delete,action,$location,propertylist,contextPath);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.CommentEmailEventListener")
+    @Path("/com.adobe.cq.social.commons.emailreply.impl.CommentEmailEventListener")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialCommonsEmailreplyImplCommentEmailEventListenerInfo.class, authorizations = {
@@ -3166,7 +3167,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialCommonsEmailreplyImplCommentEmailEventListener(post,apply,delete,action,$location,propertylist,eventTopics);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.CustomEmailClientProvider")
+    @Path("/com.adobe.cq.social.commons.emailreply.impl.CustomEmailClientProvider")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialCommonsEmailreplyImplCustomEmailClientProviderInfo.class, authorizations = {
@@ -3191,7 +3192,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialCommonsEmailreplyImplCustomEmailClientProvider(post,apply,delete,action,$location,propertylist,priorityOrder,replyEmailPatterns);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.EmailQuotedTextPatternsImpl")
+    @Path("/com.adobe.cq.social.commons.emailreply.impl.EmailQuotedTextPatternsImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpInfo.class, authorizations = {
@@ -3222,7 +3223,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImp(post,apply,delete,action,$location,propertylist,patternTime,patternNewline,patternDayOfMonth,patternMonth,patternYear,patternDate,patternDateTime,patternEmail);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.EmailReplyConfigurationImpl")
+    @Path("/com.adobe.cq.social.commons.emailreply.impl.EmailReplyConfigurationImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpInfo.class, authorizations = {
@@ -3256,7 +3257,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImp(post,apply,delete,action,$location,propertylist,emailName,emailCreatePostFromReply,emailAddCommentIdTo,emailSubjectMaximumLength,emailReplyToAddress,emailReplyToDelimiter,emailTrackerIdPrefixInSubject,emailTrackerIdPrefixInBody,emailAsHTML,emailDefaultUserName,emailTemplatesRootPath);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.EmailReplyImporter")
+    @Path("/com.adobe.cq.social.commons.emailreply.impl.EmailReplyImporter")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialCommonsEmailreplyImplEmailReplyImporterInfo.class, authorizations = {
@@ -3280,7 +3281,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialCommonsEmailreplyImplEmailReplyImporter(post,apply,delete,action,$location,propertylist,connectProtocol);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.GmailEmailClientProvider")
+    @Path("/com.adobe.cq.social.commons.emailreply.impl.GmailEmailClientProvider")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialCommonsEmailreplyImplGmailEmailClientProviderInfo.class, authorizations = {
@@ -3305,7 +3306,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialCommonsEmailreplyImplGmailEmailClientProvider(post,apply,delete,action,$location,propertylist,priorityOrder,replyEmailPatterns);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.IOSEmailClientProvider")
+    @Path("/com.adobe.cq.social.commons.emailreply.impl.IOSEmailClientProvider")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialCommonsEmailreplyImplIOSEmailClientProviderInfo.class, authorizations = {
@@ -3330,7 +3331,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialCommonsEmailreplyImplIOSEmailClientProvider(post,apply,delete,action,$location,propertylist,priorityOrder,replyEmailPatterns);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.MacmailEmailClientProvider")
+    @Path("/com.adobe.cq.social.commons.emailreply.impl.MacmailEmailClientProvider")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialCommonsEmailreplyImplMacmailEmailClientProviderInfo.class, authorizations = {
@@ -3355,7 +3356,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialCommonsEmailreplyImplMacmailEmailClientProvider(post,apply,delete,action,$location,propertylist,priorityOrder,replyEmailPatterns);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.OutLookEmailClientProvider")
+    @Path("/com.adobe.cq.social.commons.emailreply.impl.OutLookEmailClientProvider")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialCommonsEmailreplyImplOutLookEmailClientProviderInfo.class, authorizations = {
@@ -3380,7 +3381,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialCommonsEmailreplyImplOutLookEmailClientProvider(post,apply,delete,action,$location,propertylist,priorityOrder,replyEmailPatterns);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.UnknownEmailClientProvider")
+    @Path("/com.adobe.cq.social.commons.emailreply.impl.UnknownEmailClientProvider")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialCommonsEmailreplyImplUnknownEmailClientProviderInfo.class, authorizations = {
@@ -3405,7 +3406,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialCommonsEmailreplyImplUnknownEmailClientProvider(post,apply,delete,action,$location,propertylist,replyEmailPatterns,priorityOrder);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.commons.emailreply.impl.YahooEmailClientProvider")
+    @Path("/com.adobe.cq.social.commons.emailreply.impl.YahooEmailClientProvider")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialCommonsEmailreplyImplYahooEmailClientProviderInfo.class, authorizations = {
@@ -3430,7 +3431,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialCommonsEmailreplyImplYahooEmailClientProvider(post,apply,delete,action,$location,propertylist,priorityOrder,replyEmailPatterns);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.commons.maintainance.impl.DeleteTempUGCImageUploads")
+    @Path("/com.adobe.cq.social.commons.maintainance.impl.DeleteTempUGCImageUploads")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadInfo.class, authorizations = {
@@ -3455,7 +3456,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUpload(post,apply,delete,action,$location,propertylist,numberOfDays,ageOfFile);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.commons.ugclimiter.impl.UGCLimiterServiceImpl")
+    @Path("/com.adobe.cq.social.commons.ugclimiter.impl.UGCLimiterServiceImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialCommonsUgclimiterImplUGCLimiterServiceImplInfo.class, authorizations = {
@@ -3481,7 +3482,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialCommonsUgclimiterImplUGCLimiterServiceImpl(post,apply,delete,action,$location,propertylist,eventTopics,eventFilter,verbs);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.commons.ugclimitsconfig.impl.CommunityUserUGCLimitsConfigImpl")
+    @Path("/com.adobe.cq.social.commons.ugclimitsconfig.impl.CommunityUserUGCLimitsConfigImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitInfo.class, authorizations = {
@@ -3509,7 +3510,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimit(post,apply,delete,action,$location,propertylist,enable,ugCLimit,ugcLimitDuration,domains,toList);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.connect.oauth.impl.FacebookProviderImpl")
+    @Path("/com.adobe.cq.social.connect.oauth.impl.FacebookProviderImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialConnectOauthImplFacebookProviderImplInfo.class, authorizations = {
@@ -3540,7 +3541,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialConnectOauthImplFacebookProviderImpl(post,apply,delete,action,$location,propertylist,oauthProviderId,oauthCloudConfigRoot,providerConfigRoot,providerConfigCreateTagsEnabled,providerConfigUserFolder,providerConfigFacebookFetchFields,providerConfigFacebookFields,providerConfigRefreshUserdataEnabled);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.connect.oauth.impl.SocialOAuthAuthenticationHandler")
+    @Path("/com.adobe.cq.social.connect.oauth.impl.SocialOAuthAuthenticationHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandleInfo.class, authorizations = {
@@ -3565,7 +3566,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandle(post,apply,delete,action,$location,propertylist,path,serviceRanking);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.connect.oauth.impl.SocialOAuthUserProfileMapper")
+    @Path("/com.adobe.cq.social.connect.oauth.impl.SocialOAuthUserProfileMapper")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialConnectOauthImplSocialOAuthUserProfileMapperInfo.class, authorizations = {
@@ -3591,7 +3592,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialConnectOauthImplSocialOAuthUserProfileMapper(post,apply,delete,action,$location,propertylist,facebook,twitter,providerConfigUserFolder);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.connect.oauth.impl.TwitterProviderImpl")
+    @Path("/com.adobe.cq.social.connect.oauth.impl.TwitterProviderImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialConnectOauthImplTwitterProviderImplInfo.class, authorizations = {
@@ -3621,7 +3622,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialConnectOauthImplTwitterProviderImpl(post,apply,delete,action,$location,propertylist,oauthProviderId,oauthCloudConfigRoot,providerConfigRoot,providerConfigUserFolder,providerConfigTwitterEnableParams,providerConfigTwitterParams,providerConfigRefreshUserdataEnabled);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.content.fragments.services.impl.CommunitiesFragmentCreationServiceImpl")
+    @Path("/com.adobe.cq.social.content.fragments.services.impl.CommunitiesFragmentCreationServiceImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmenInfo.class, authorizations = {
@@ -3646,7 +3647,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmen(post,apply,delete,action,$location,propertylist,cqSocialContentFragmentsServicesEnabled,cqSocialContentFragmentsServicesWaitTimeSeconds);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.datastore.as.impl.ASResourceProviderFactory")
+    @Path("/com.adobe.cq.social.datastore.as.impl.ASResourceProviderFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryInfo.class, authorizations = {
@@ -3676,7 +3677,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialDatastoreAsImplASResourceProviderFactory(post,apply,delete,action,$location,propertylist,versionId,cacheOn,concurrencyLevel,cacheStartSize,cacheTtl,cacheSize,timeLimit);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.datastore.op.impl.SocialMSResourceProviderFactory")
+    @Path("/com.adobe.cq.social.datastore.op.impl.SocialMSResourceProviderFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactoryInfo.class, authorizations = {
@@ -3706,7 +3707,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactory(post,apply,delete,action,$location,propertylist,solrZkTimeout,solrCommit,cacheOn,concurrencyLevel,cacheStartSize,cacheTtl,cacheSize);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.datastore.rdb.impl.SocialRDBResourceProviderFactory")
+    @Path("/com.adobe.cq.social.datastore.rdb.impl.SocialRDBResourceProviderFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorInfo.class, authorizations = {
@@ -3736,7 +3737,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactor(post,apply,delete,action,$location,propertylist,solrZkTimeout,solrCommit,cacheOn,concurrencyLevel,cacheStartSize,cacheTtl,cacheSize);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.enablement.adaptors.EnablementLearningPathAdaptorFactory")
+    @Path("/com.adobe.cq.social.enablement.adaptors.EnablementLearningPathAdaptorFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorFInfo.class, authorizations = {
@@ -3760,7 +3761,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorF(post,apply,delete,action,$location,propertylist,isMemberCheck);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.enablement.adaptors.EnablementResourceAdaptorFactory")
+    @Path("/com.adobe.cq.social.enablement.adaptors.EnablementResourceAdaptorFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFactoInfo.class, authorizations = {
@@ -3784,7 +3785,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFacto(post,apply,delete,action,$location,propertylist,isMemberCheck);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.enablement.learningpath.endpoints.impl.EnablementLearningPathModelOperationService")
+    @Path("/com.adobe.cq.social.enablement.learningpath.endpoints.impl.EnablementLearningPathModelOperationService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialEnablementLearningpathEndpointsImplEnablementLInfo.class, authorizations = {
@@ -3808,7 +3809,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialEnablementLearningpathEndpointsImplEnablementL(post,apply,delete,action,$location,propertylist,fieldWhitelist);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.enablement.resource.endpoints.impl.EnablementResourceModelOperationService")
+    @Path("/com.adobe.cq.social.enablement.resource.endpoints.impl.EnablementResourceModelOperationService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouInfo.class, authorizations = {
@@ -3832,7 +3833,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialEnablementResourceEndpointsImplEnablementResou(post,apply,delete,action,$location,propertylist,fieldWhitelist);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.enablement.services.impl.AuthorMarkerImpl")
+    @Path("/com.adobe.cq.social.enablement.services.impl.AuthorMarkerImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialEnablementServicesImplAuthorMarkerImplInfo.class, authorizations = {
@@ -3856,7 +3857,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialEnablementServicesImplAuthorMarkerImpl(post,apply,delete,action,$location,propertylist,serviceRanking);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.filelibrary.client.endpoints.FilelibraryDownloadGetServlet")
+    @Path("/com.adobe.cq.social.filelibrary.client.endpoints.FilelibraryDownloadGetServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGeInfo.class, authorizations = {
@@ -3881,7 +3882,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGe(post,apply,delete,action,$location,propertylist,slingServletSelectors,slingServletExtensions);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.filelibrary.client.endpoints.impl.FileLibraryOperationsService")
+    @Path("/com.adobe.cq.social.filelibrary.client.endpoints.impl.FileLibraryOperationsService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperaInfo.class, authorizations = {
@@ -3906,7 +3907,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOpera(post,apply,delete,action,$location,propertylist,fieldWhitelist,attachmentTypeBlacklist);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.forum.client.endpoints.impl.ForumOperationsService")
+    @Path("/com.adobe.cq.social.forum.client.endpoints.impl.ForumOperationsService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialForumClientEndpointsImplForumOperationsServiceInfo.class, authorizations = {
@@ -3931,7 +3932,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialForumClientEndpointsImplForumOperationsService(post,apply,delete,action,$location,propertylist,fieldWhitelist,attachmentTypeBlacklist);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.forum.dispatcher.impl.FlushOperations")
+    @Path("/com.adobe.cq.social.forum.dispatcher.impl.FlushOperations")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialForumDispatcherImplFlushOperationsInfo.class, authorizations = {
@@ -3956,7 +3957,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialForumDispatcherImplFlushOperations(post,apply,delete,action,$location,propertylist,extensionOrder,flushForumontopic);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.group.client.impl.CommunityGroupCollectionComponentFactory")
+    @Path("/com.adobe.cq.social.group.client.impl.CommunityGroupCollectionComponentFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenInfo.class, authorizations = {
@@ -3983,7 +3984,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialGroupClientImplCommunityGroupCollectionComponen(post,apply,delete,action,$location,propertylist,groupListingPaginationEnable,groupListingLazyloadingEnable,pageSize,priority);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.group.impl.GroupServiceImpl")
+    @Path("/com.adobe.cq.social.group.impl.GroupServiceImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialGroupImplGroupServiceImplInfo.class, authorizations = {
@@ -4008,7 +4009,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialGroupImplGroupServiceImpl(post,apply,delete,action,$location,propertylist,maxWaitTime,minWaitBetweenRetries);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.handlebars.GuavaTemplateCacheImpl")
+    @Path("/com.adobe.cq.social.handlebars.GuavaTemplateCacheImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialHandlebarsGuavaTemplateCacheImplInfo.class, authorizations = {
@@ -4035,7 +4036,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialHandlebarsGuavaTemplateCacheImpl(post,apply,delete,action,$location,propertylist,parameterGuavaCacheEnabled,parameterGuavaCacheParams,parameterGuavaCacheReload,serviceRanking);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.ideation.client.endpoints.impl.IdeationOperationsService")
+    @Path("/com.adobe.cq.social.ideation.client.endpoints.impl.IdeationOperationsService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsSInfo.class, authorizations = {
@@ -4060,7 +4061,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsS(post,apply,delete,action,$location,propertylist,fieldWhitelist,attachmentTypeBlacklist);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.journal.client.endpoints.impl.JournalOperationsService")
+    @Path("/com.adobe.cq.social.journal.client.endpoints.impl.JournalOperationsService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsSerInfo.class, authorizations = {
@@ -4085,7 +4086,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialJournalClientEndpointsImplJournalOperationsSer(post,apply,delete,action,$location,propertylist,fieldWhitelist,attachmentTypeBlacklist);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.members.endpoints.impl.CommunityMemberGroupProfileOperationService")
+    @Path("/com.adobe.cq.social.members.endpoints.impl.CommunityMemberGroupProfileOperationService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileInfo.class, authorizations = {
@@ -4109,7 +4110,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfile(post,apply,delete,action,$location,propertylist,fieldWhitelist);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.members.endpoints.impl.CommunityMemberUserProfileOperationService")
+    @Path("/com.adobe.cq.social.members.endpoints.impl.CommunityMemberUserProfileOperationService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileOInfo.class, authorizations = {
@@ -4133,7 +4134,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileO(post,apply,delete,action,$location,propertylist,fieldWhitelist);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.members.impl.CommunityMemberGroupProfileComponentFactory")
+    @Path("/com.adobe.cq.social.members.impl.CommunityMemberGroupProfileComponentFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentFInfo.class, authorizations = {
@@ -4158,7 +4159,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentF(post,apply,delete,action,$location,propertylist,everyoneLimit,priority);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.messaging.client.endpoints.impl.MessagingOperationsServiceImpl")
+    @Path("/com.adobe.cq.social.messaging.client.endpoints.impl.MessagingOperationsServiceImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationInfo.class, authorizations = {
@@ -4201,7 +4202,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialMessagingClientEndpointsImplMessagingOperation(post,apply,delete,action,$location,propertylist,messageProperties,messageBoxSizeLimit,messageCountLimit,notifyFailure,failureMessageFrom,failureTemplatePath,maxRetries,minWaitBetweenRetries,countUpdatePoolSize,inboxPath,sentitemsPath,supportAttachments,supportGroupMessaging,maxTotalRecipients,batchSize,maxTotalAttachmentSize,attachmentTypeBlacklist,allowedAttachmentTypes,serviceSelector,fieldWhitelist);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.moderation.dashboard.api.FilterGroupSocialComponentFactory")
+    @Path("/com.adobe.cq.social.moderation.dashboard.api.FilterGroupSocialComponentFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialModerationDashboardApiFilterGroupSocialComponenInfo.class, authorizations = {
@@ -4226,7 +4227,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialModerationDashboardApiFilterGroupSocialComponen(post,apply,delete,action,$location,propertylist,resourceTypeFilters,priority);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.moderation.dashboard.api.ModerationDashboardSocialComponentFactory")
+    @Path("/com.adobe.cq.social.moderation.dashboard.api.ModerationDashboardSocialComponentFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialInfo.class, authorizations = {
@@ -4250,7 +4251,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialModerationDashboardApiModerationDashboardSocial(post,apply,delete,action,$location,propertylist,priority);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.moderation.dashboard.api.UserDetailsSocialComponentFactory")
+    @Path("/com.adobe.cq.social.moderation.dashboard.api.UserDetailsSocialComponentFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialModerationDashboardApiUserDetailsSocialComponenInfo.class, authorizations = {
@@ -4274,7 +4275,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialModerationDashboardApiUserDetailsSocialComponen(post,apply,delete,action,$location,propertylist,priority);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.moderation.dashboard.internal.impl.FilterGroupSocialComponentFactoryV2")
+    @Path("/com.adobe.cq.social.moderation.dashboard.internal.impl.FilterGroupSocialComponentFactoryV2")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialModerationDashboardInternalImplFilterGroupSociInfo.class, authorizations = {
@@ -4299,7 +4300,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialModerationDashboardInternalImplFilterGroupSoci(post,apply,delete,action,$location,propertylist,resourceTypeFilters,priority);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.notifications.impl.MentionsRouter")
+    @Path("/com.adobe.cq.social.notifications.impl.MentionsRouter")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialNotificationsImplMentionsRouterInfo.class, authorizations = {
@@ -4324,7 +4325,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialNotificationsImplMentionsRouter(post,apply,delete,action,$location,propertylist,eventTopics,eventFilter);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.notifications.impl.NotificationManagerImpl")
+    @Path("/com.adobe.cq.social.notifications.impl.NotificationManagerImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialNotificationsImplNotificationManagerImplInfo.class, authorizations = {
@@ -4348,7 +4349,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialNotificationsImplNotificationManagerImpl(post,apply,delete,action,$location,propertylist,maxUnreadNotificationCount);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.notifications.impl.NotificationsRouter")
+    @Path("/com.adobe.cq.social.notifications.impl.NotificationsRouter")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialNotificationsImplNotificationsRouterInfo.class, authorizations = {
@@ -4373,7 +4374,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialNotificationsImplNotificationsRouter(post,apply,delete,action,$location,propertylist,eventTopics,eventFilter);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.qna.client.endpoints.impl.QnaForumOperationsService")
+    @Path("/com.adobe.cq.social.qna.client.endpoints.impl.QnaForumOperationsService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServicInfo.class, authorizations = {
@@ -4398,7 +4399,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServic(post,apply,delete,action,$location,propertylist,fieldWhitelist,attachmentTypeBlacklist);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.reporting.analytics.services.impl.AnalyticsReportImporterServiceImpl")
+    @Path("/com.adobe.cq.social.reporting.analytics.services.impl.AnalyticsReportImporterServiceImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportIInfo.class, authorizations = {
@@ -4423,7 +4424,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportI(post,apply,delete,action,$location,propertylist,cqSocialReportingAnalyticsPollingImporterInterval,cqSocialReportingAnalyticsPollingImporterPageSize);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.reporting.analytics.services.impl.AnalyticsReportManagementServiceImpl")
+    @Path("/com.adobe.cq.social.reporting.analytics.services.impl.AnalyticsReportManagementServiceImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportMInfo.class, authorizations = {
@@ -4447,7 +4448,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportM(post,apply,delete,action,$location,propertylist,reportFetchDelay);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.reporting.analytics.services.impl.SiteTrendReportSocialComponentFactory")
+    @Path("/com.adobe.cq.social.reporting.analytics.services.impl.SiteTrendReportSocialComponentFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSInfo.class, authorizations = {
@@ -4472,7 +4473,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportS(post,apply,delete,action,$location,propertylist,cqSocialConsoleAnalyticsSitesMapping,priority);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.review.client.endpoints.impl.ReviewOperationsService")
+    @Path("/com.adobe.cq.social.review.client.endpoints.impl.ReviewOperationsService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialReviewClientEndpointsImplReviewOperationsServiInfo.class, authorizations = {
@@ -4497,7 +4498,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialReviewClientEndpointsImplReviewOperationsServi(post,apply,delete,action,$location,propertylist,fieldWhitelist,attachmentTypeBlacklist);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.scf.core.operations.impl.SocialOperationsServlet")
+    @Path("/com.adobe.cq.social.scf.core.operations.impl.SocialOperationsServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialScfCoreOperationsImplSocialOperationsServletInfo.class, authorizations = {
@@ -4522,7 +4523,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialScfCoreOperationsImplSocialOperationsServlet(post,apply,delete,action,$location,propertylist,slingServletSelectors,slingServletExtensions);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.scf.endpoints.impl.DefaultSocialGetServlet")
+    @Path("/com.adobe.cq.social.scf.endpoints.impl.DefaultSocialGetServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialScfEndpointsImplDefaultSocialGetServletInfo.class, authorizations = {
@@ -4547,7 +4548,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialScfEndpointsImplDefaultSocialGetServlet(post,apply,delete,action,$location,propertylist,slingServletSelectors,slingServletExtensions);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.scoring.impl.ScoringEventListener")
+    @Path("/com.adobe.cq.social.scoring.impl.ScoringEventListener")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialScoringImplScoringEventListenerInfo.class, authorizations = {
@@ -4572,7 +4573,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialScoringImplScoringEventListener(post,apply,delete,action,$location,propertylist,eventTopics,eventFilter);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.serviceusers.internal.impl.ServiceUserWrapperImpl")
+    @Path("/com.adobe.cq.social.serviceusers.internal.impl.ServiceUserWrapperImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialServiceusersInternalImplServiceUserWrapperImplInfo.class, authorizations = {
@@ -4596,7 +4597,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialServiceusersInternalImplServiceUserWrapperImpl(post,apply,delete,action,$location,propertylist,enableFallback);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.site.endpoints.impl.SiteOperationService")
+    @Path("/com.adobe.cq.social.site.endpoints.impl.SiteOperationService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialSiteEndpointsImplSiteOperationServiceInfo.class, authorizations = {
@@ -4622,7 +4623,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialSiteEndpointsImplSiteOperationService(post,apply,delete,action,$location,propertylist,fieldWhitelist,sitePathFilters,sitePackageGroup);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.site.impl.AnalyticsComponentConfigurationServiceImpl")
+    @Path("/com.adobe.cq.social.site.impl.AnalyticsComponentConfigurationServiceImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImInfo.class, authorizations = {
@@ -4646,7 +4647,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceIm(post,apply,delete,action,$location,propertylist,cqSocialConsoleAnalyticsComponents);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.site.impl.SiteConfiguratorImpl")
+    @Path("/com.adobe.cq.social.site.impl.SiteConfiguratorImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialSiteImplSiteConfiguratorImplInfo.class, authorizations = {
@@ -4670,7 +4671,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialSiteImplSiteConfiguratorImpl(post,apply,delete,action,$location,propertylist,componentsUsingTags);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.srp.impl.SocialSolrConnector")
+    @Path("/com.adobe.cq.social.srp.impl.SocialSolrConnector")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialSrpImplSocialSolrConnectorInfo.class, authorizations = {
@@ -4694,7 +4695,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialSrpImplSocialSolrConnector(post,apply,delete,action,$location,propertylist,srpType);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.sync.impl.DiffChangesObserver")
+    @Path("/com.adobe.cq.social.sync.impl.DiffChangesObserver")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialSyncImplDiffChangesObserverInfo.class, authorizations = {
@@ -4721,7 +4722,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialSyncImplDiffChangesObserver(post,apply,delete,action,$location,propertylist,enabled,agentName,diffPath,propertyNames);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.sync.impl.GroupSyncListenerImpl")
+    @Path("/com.adobe.cq.social.sync.impl.GroupSyncListenerImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialSyncImplGroupSyncListenerImplInfo.class, authorizations = {
@@ -4749,7 +4750,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialSyncImplGroupSyncListenerImpl(post,apply,delete,action,$location,propertylist,nodetypes,ignorableprops,ignorablenodes,enabled,distfolders);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.sync.impl.PublisherSyncServiceImpl")
+    @Path("/com.adobe.cq.social.sync.impl.PublisherSyncServiceImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialSyncImplPublisherSyncServiceImplInfo.class, authorizations = {
@@ -4773,7 +4774,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialSyncImplPublisherSyncServiceImpl(post,apply,delete,action,$location,propertylist,activeRunModes);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.sync.impl.UserSyncListenerImpl")
+    @Path("/com.adobe.cq.social.sync.impl.UserSyncListenerImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialSyncImplUserSyncListenerImplInfo.class, authorizations = {
@@ -4801,7 +4802,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialSyncImplUserSyncListenerImpl(post,apply,delete,action,$location,propertylist,nodetypes,ignorableprops,ignorablenodes,enabled,distfolders);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.translation.impl.TranslationServiceConfigManager")
+    @Path("/com.adobe.cq.social.translation.impl.TranslationServiceConfigManager")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerInfo.class, authorizations = {
@@ -4832,7 +4833,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialTranslationImplTranslationServiceConfigManager(post,apply,delete,action,$location,propertylist,translateLanguage,translateDisplay,translateAttribution,translateCaching,translateSmartRendering,translateCachingDuration,translateSessionSaveInterval,translateSessionSaveBatchLimit);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.translation.impl.UGCLanguageDetector")
+    @Path("/com.adobe.cq.social.translation.impl.UGCLanguageDetector")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialTranslationImplUGCLanguageDetectorInfo.class, authorizations = {
@@ -4863,7 +4864,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialTranslationImplUGCLanguageDetector(post,apply,delete,action,$location,propertylist,eventTopics,eventFilter,translateListenerType,translatePropertyList,poolSize,maxPoolSize,queueSize,keepAliveTime);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.ugcbase.dispatcher.impl.FlushServiceImpl")
+    @Path("/com.adobe.cq.social.ugcbase.dispatcher.impl.FlushServiceImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialUgcbaseDispatcherImplFlushServiceImplInfo.class, authorizations = {
@@ -4889,7 +4890,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialUgcbaseDispatcherImplFlushServiceImpl(post,apply,delete,action,$location,propertylist,threadPoolSize,delayTime,workerSleepTime);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.ugcbase.impl.AysncReverseReplicatorImpl")
+    @Path("/com.adobe.cq.social.ugcbase.impl.AysncReverseReplicatorImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialUgcbaseImplAysncReverseReplicatorImplInfo.class, authorizations = {
@@ -4916,7 +4917,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialUgcbaseImplAysncReverseReplicatorImpl(post,apply,delete,action,$location,propertylist,poolSize,maxPoolSize,queueSize,keepAliveTime);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.ugcbase.impl.PublisherConfigurationImpl")
+    @Path("/com.adobe.cq.social.ugcbase.impl.PublisherConfigurationImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialUgcbaseImplPublisherConfigurationImplInfo.class, authorizations = {
@@ -4940,7 +4941,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialUgcbaseImplPublisherConfigurationImpl(post,apply,delete,action,$location,propertylist,isPrimaryPublisher);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.ugcbase.impl.SocialUtilsImpl")
+    @Path("/com.adobe.cq.social.ugcbase.impl.SocialUtilsImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialUgcbaseImplSocialUtilsImplInfo.class, authorizations = {
@@ -4964,7 +4965,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialUgcbaseImplSocialUtilsImpl(post,apply,delete,action,$location,propertylist,legacyCloudUGCPathMapping);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.ugcbase.moderation.impl.AutoModerationImpl")
+    @Path("/com.adobe.cq.social.ugcbase.moderation.impl.AutoModerationImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialUgcbaseModerationImplAutoModerationImplInfo.class, authorizations = {
@@ -4989,7 +4990,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialUgcbaseModerationImplAutoModerationImpl(post,apply,delete,action,$location,propertylist,automoderationSequence,automoderationOnfailurestop);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.ugcbase.moderation.impl.SentimentProcess")
+    @Path("/com.adobe.cq.social.ugcbase.moderation.impl.SentimentProcess")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialUgcbaseModerationImplSentimentProcessInfo.class, authorizations = {
@@ -5016,7 +5017,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialUgcbaseModerationImplSentimentProcess(post,apply,delete,action,$location,propertylist,watchwordsPositive,watchwordsNegative,watchwordsPath,sentimentPath);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.ugcbase.security.impl.DefaultAttachmentTypeBlacklistService")
+    @Path("/com.adobe.cq.social.ugcbase.security.impl.DefaultAttachmentTypeBlacklistService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliInfo.class, authorizations = {
@@ -5041,7 +5042,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackli(post,apply,delete,action,$location,propertylist,defaultAttachmentTypeBlacklist,baselineAttachmentTypeBlacklist);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.ugcbase.security.impl.SaferSlingPostValidatorImpl")
+    @Path("/com.adobe.cq.social.ugcbase.security.impl.SaferSlingPostValidatorImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImplInfo.class, authorizations = {
@@ -5072,7 +5073,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImpl(post,apply,delete,action,$location,propertylist,parameterWhitelist,parameterWhitelistPrefixes,binaryParameterWhitelist,modifierWhitelist,operationWhitelist,operationWhitelistPrefixes,typehintWhitelist,resourcetypeWhitelist);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.user.endpoints.impl.UsersGroupFromPublishServlet")
+    @Path("/com.adobe.cq.social.user.endpoints.impl.UsersGroupFromPublishServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialUserEndpointsImplUsersGroupFromPublishServletInfo.class, authorizations = {
@@ -5098,7 +5099,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialUserEndpointsImplUsersGroupFromPublishServlet(post,apply,delete,action,$location,propertylist,slingServletExtensions,slingServletPaths,slingServletMethods);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.social.user.impl.transport.HttpToPublisher")
+    @Path("/com.adobe.cq.social.user.impl.transport.HttpToPublisher")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqSocialUserImplTransportHttpToPublisherInfo.class, authorizations = {
@@ -5126,7 +5127,7 @@ public class SystemApi  {
         return delegate.comAdobeCqSocialUserImplTransportHttpToPublisher(post,apply,delete,action,$location,propertylist,enable,agentConfiguration,contextPath,disabledCipherSuites,enabledCipherSuites);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.ui.wcm.commons.internal.servlets.rte.RTEFilterServletFactory.amended")
+    @Path("/com.adobe.cq.ui.wcm.commons.internal.servlets.rte.RTEFilterServletFactory.amended")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactInfo.class, authorizations = {
@@ -5150,7 +5151,7 @@ public class SystemApi  {
         return delegate.comAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFact(post,apply,delete,action,$location,propertylist,resourceTypes);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.upgrades.cleanup.impl.UpgradeContentCleanup")
+    @Path("/com.adobe.cq.upgrades.cleanup.impl.UpgradeContentCleanup")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqUpgradesCleanupImplUpgradeContentCleanupInfo.class, authorizations = {
@@ -5175,7 +5176,7 @@ public class SystemApi  {
         return delegate.comAdobeCqUpgradesCleanupImplUpgradeContentCleanup(post,apply,delete,action,$location,propertylist,deletePathRegexps,deleteSql2Query);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.upgrades.cleanup.impl.UpgradeInstallFolderCleanup")
+    @Path("/com.adobe.cq.upgrades.cleanup.impl.UpgradeInstallFolderCleanup")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanupInfo.class, authorizations = {
@@ -5199,7 +5200,7 @@ public class SystemApi  {
         return delegate.comAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanup(post,apply,delete,action,$location,propertylist,deleteNameRegexps);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.wcm.jobs.async.impl.AsyncDeleteConfigProviderService")
+    @Path("/com.adobe.cq.wcm.jobs.async.impl.AsyncDeleteConfigProviderService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqWcmJobsAsyncImplAsyncDeleteConfigProviderServiceInfo.class, authorizations = {
@@ -5225,7 +5226,7 @@ public class SystemApi  {
         return delegate.comAdobeCqWcmJobsAsyncImplAsyncDeleteConfigProviderService(post,apply,delete,action,$location,propertylist,threshold,jobTopicName,emailEnabled);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.wcm.jobs.async.impl.AsyncJobCleanUpTask")
+    @Path("/com.adobe.cq.wcm.jobs.async.impl.AsyncJobCleanUpTask")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqWcmJobsAsyncImplAsyncJobCleanUpTaskInfo.class, authorizations = {
@@ -5251,7 +5252,7 @@ public class SystemApi  {
         return delegate.comAdobeCqWcmJobsAsyncImplAsyncJobCleanUpTask(post,apply,delete,action,$location,propertylist,schedulerExpression,jobPurgeThreshold,jobPurgeMaxJobs);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.wcm.jobs.async.impl.AsyncMoveConfigProviderService")
+    @Path("/com.adobe.cq.wcm.jobs.async.impl.AsyncMoveConfigProviderService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderServiceInfo.class, authorizations = {
@@ -5277,7 +5278,7 @@ public class SystemApi  {
         return delegate.comAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderService(post,apply,delete,action,$location,propertylist,threshold,jobTopicName,emailEnabled);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.wcm.jobs.async.impl.AsyncPageMoveConfigProviderService")
+    @Path("/com.adobe.cq.wcm.jobs.async.impl.AsyncPageMoveConfigProviderService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqWcmJobsAsyncImplAsyncPageMoveConfigProviderServiceInfo.class, authorizations = {
@@ -5303,7 +5304,7 @@ public class SystemApi  {
         return delegate.comAdobeCqWcmJobsAsyncImplAsyncPageMoveConfigProviderService(post,apply,delete,action,$location,propertylist,threshold,jobTopicName,emailEnabled);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler")
+    @Path("/com.adobe.cq.wcm.launches.impl.LaunchesEventHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqWcmLaunchesImplLaunchesEventHandlerInfo.class, authorizations = {
@@ -5330,7 +5331,7 @@ public class SystemApi  {
         return delegate.comAdobeCqWcmLaunchesImplLaunchesEventHandler(post,apply,delete,action,$location,propertylist,eventFilter,launchesEventhandlerThreadpoolMaxsize,launchesEventhandlerThreadpoolPriority,launchesEventhandlerUpdatelastmodification);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.wcm.mobile.qrcode.servlet.QRCodeImageGenerator")
+    @Path("/com.adobe.cq.wcm.mobile.qrcode.servlet.QRCodeImageGenerator")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqWcmMobileQrcodeServletQRCodeImageGeneratorInfo.class, authorizations = {
@@ -5354,7 +5355,7 @@ public class SystemApi  {
         return delegate.comAdobeCqWcmMobileQrcodeServletQRCodeImageGenerator(post,apply,delete,action,$location,propertylist,cqWcmQrcodeServletWhitelist);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.wcm.style.internal.ComponentStyleInfoCacheImpl")
+    @Path("/com.adobe.cq.wcm.style.internal.ComponentStyleInfoCacheImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqWcmStyleInternalComponentStyleInfoCacheImplInfo.class, authorizations = {
@@ -5378,7 +5379,7 @@ public class SystemApi  {
         return delegate.comAdobeCqWcmStyleInternalComponentStyleInfoCacheImpl(post,apply,delete,action,$location,propertylist,size);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.cq.wcm.translation.impl.TranslationPlatformConfigurationImpl")
+    @Path("/com.adobe.cq.wcm.translation.impl.TranslationPlatformConfigurationImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeCqWcmTranslationImplTranslationPlatformConfigurationImplInfo.class, authorizations = {
@@ -5405,7 +5406,7 @@ public class SystemApi  {
         return delegate.comAdobeCqWcmTranslationImplTranslationPlatformConfigurationImpl(post,apply,delete,action,$location,propertylist,syncTranslationStateSchedulingFormat,schedulingRepeatTranslationSchedulingFormat,syncTranslationStateLockTimeoutInMinutes,exportFormat);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.fd.fp.config.FormsPortalDraftsandSubmissionConfigService")
+    @Path("/com.adobe.fd.fp.config.FormsPortalDraftsandSubmissionConfigService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServiceInfo.class, authorizations = {
@@ -5435,7 +5436,7 @@ public class SystemApi  {
         return delegate.comAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigService(post,apply,delete,action,$location,propertylist,portalOutboxes,draftDataService,draftMetadataService,submitDataService,submitMetadataService,pendingSignDataService,pendingSignMetadataService);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.fd.fp.config.FormsPortalSchedulerService")
+    @Path("/com.adobe.fd.fp.config.FormsPortalSchedulerService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeFdFpConfigFormsPortalSchedulerServiceInfo.class, authorizations = {
@@ -5459,7 +5460,7 @@ public class SystemApi  {
         return delegate.comAdobeFdFpConfigFormsPortalSchedulerService(post,apply,delete,action,$location,propertylist,formportalInterval);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.forms.common.service.impl.DefaultDataProvider")
+    @Path("/com.adobe.forms.common.service.impl.DefaultDataProvider")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeFormsCommonServiceImplDefaultDataProviderInfo.class, authorizations = {
@@ -5483,7 +5484,7 @@ public class SystemApi  {
         return delegate.comAdobeFormsCommonServiceImplDefaultDataProvider(post,apply,delete,action,$location,propertylist,alloweddataFileLocations);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.forms.common.service.impl.FormsCommonConfigurationServiceImpl")
+    @Path("/com.adobe.forms.common.service.impl.FormsCommonConfigurationServiceImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImpInfo.class, authorizations = {
@@ -5507,7 +5508,7 @@ public class SystemApi  {
         return delegate.comAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImp(post,apply,delete,action,$location,propertylist,tempStorageConfig);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.forms.common.servlet.TempCleanUpTask")
+    @Path("/com.adobe.forms.common.servlet.TempCleanUpTask")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeFormsCommonServletTempCleanUpTaskInfo.class, authorizations = {
@@ -5533,7 +5534,7 @@ public class SystemApi  {
         return delegate.comAdobeFormsCommonServletTempCleanUpTask(post,apply,delete,action,$location,propertylist,schedulerExpression,durationForTemporaryStorage,durationForAnonymousStorage);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.acp.platform.PlatformServlet")
+    @Path("/com.adobe.granite.acp.platform.PlatformServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteAcpPlatformPlatformServletInfo.class, authorizations = {
@@ -5558,7 +5559,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteAcpPlatformPlatformServlet(post,apply,delete,action,$location,propertylist,queryLimit,fileTypeExtensionMap);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.activitystreams.impl.ActivityManagerImpl")
+    @Path("/com.adobe.granite.activitystreams.impl.ActivityManagerImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteActivitystreamsImplActivityManagerImplInfo.class, authorizations = {
@@ -5583,7 +5584,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteActivitystreamsImplActivityManagerImpl(post,apply,delete,action,$location,propertylist,aggregateRelationships,aggregateDescendVirtual);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.analyzer.base.SystemStatusServlet")
+    @Path("/com.adobe.granite.analyzer.base.SystemStatusServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteAnalyzerBaseSystemStatusServletInfo.class, authorizations = {
@@ -5607,7 +5608,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteAnalyzerBaseSystemStatusServlet(post,apply,delete,action,$location,propertylist,disabled);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.analyzer.scripts.compile.AllScriptsCompilerServlet")
+    @Path("/com.adobe.granite.analyzer.scripts.compile.AllScriptsCompilerServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteAnalyzerScriptsCompileAllScriptsCompilerServletInfo.class, authorizations = {
@@ -5631,7 +5632,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteAnalyzerScriptsCompileAllScriptsCompilerServlet(post,apply,delete,action,$location,propertylist,disabled);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.apicontroller.FilterResolverHookFactory")
+    @Path("/com.adobe.granite.apicontroller.FilterResolverHookFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteApicontrollerFilterResolverHookFactoryInfo.class, authorizations = {
@@ -5810,7 +5811,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteApicontrollerFilterResolverHookFactory(post,apply,delete,action,$location,propertylist,comAdobeCqCdnCdnRewriter,comAdobeCqCloudConfigComponents,comAdobeCqCloudConfigCore,comAdobeCqCloudConfigUi,comAdobeCqComAdobeCqEditor,comAdobeCqComAdobeCqProjectsCore,comAdobeCqComAdobeCqProjectsWcmCore,comAdobeCqComAdobeCqUiCommons,comAdobeCqComAdobeCqWcmStyle,comAdobeCqCqActivitymapIntegration,comAdobeCqCqContexthubCommons,comAdobeCqCqDtm,comAdobeCqCqHealthcheck,comAdobeCqCqMultisiteTargeting,comAdobeCqCqPreUpgradeCleanup,comAdobeCqCqProductInfoProvider,comAdobeCqCqRestSites,comAdobeCqCqSecurityHc,comAdobeCqDamCqDamSvgHandler,comAdobeCqDamCqScene7Imaging,comAdobeCqDtmReactorCore,comAdobeCqDtmReactorUi,comAdobeCqExpJspelResolver,comAdobeCqInboxCqInbox,comAdobeCqJsonSchemaParser,comAdobeCqMediaCqMediaPublishingDpsFpCore,comAdobeCqMobileCqMobileCaas,comAdobeCqMobileCqMobileIndexBuilder,comAdobeCqMobileCqMobilePhonegapBuild,comAdobeCqMyspell,comAdobeCqSampleWeRetailCore,comAdobeCqScreensComAdobeCqScreensDcc,comAdobeCqScreensComAdobeCqScreensMqCore,comAdobeCqSocialCqSocialAsProvider,comAdobeCqSocialCqSocialBadgingBasicImpl,comAdobeCqSocialCqSocialBadgingImpl,comAdobeCqSocialCqSocialCalendarImpl,comAdobeCqSocialCqSocialContentFragmentsImpl,comAdobeCqSocialCqSocialEnablementImpl,comAdobeCqSocialCqSocialGraphImpl,comAdobeCqSocialCqSocialIdeationImpl,comAdobeCqSocialCqSocialJcrProvider,comAdobeCqSocialCqSocialMembersImpl,comAdobeCqSocialCqSocialMsProvider,comAdobeCqSocialCqSocialNotificationsChannelsWeb,comAdobeCqSocialCqSocialNotificationsImpl,comAdobeCqSocialCqSocialRdbProvider,comAdobeCqSocialCqSocialScfImpl,comAdobeCqSocialCqSocialScoringBasicImpl,comAdobeCqSocialCqSocialScoringImpl,comAdobeCqSocialCqSocialServiceusersImpl,comAdobeCqSocialCqSocialSrpImpl,comAdobeCqSocialCqSocialUgcbaseImpl,comAdobeDamCqDamCfmImpl,comAdobeFormsFoundationFormsFoundationBase,comAdobeGraniteApicontroller,comAdobeGraniteAssetCore,comAdobeGraniteAuthSso,comAdobeGraniteBundlesHcImpl,comAdobeGraniteCompatRouter,comAdobeGraniteConf,comAdobeGraniteConfUiCore,comAdobeGraniteCors,comAdobeGraniteCrxExplorer,comAdobeGraniteCrxdeLite,comAdobeGraniteCryptoConfig,comAdobeGraniteCryptoExtension,comAdobeGraniteCryptoFile,comAdobeGraniteCryptoJcr,comAdobeGraniteCsrf,comAdobeGraniteDistributionCore,comAdobeGraniteDropwizardMetrics,comAdobeGraniteFragsImpl,comAdobeGraniteGibson,comAdobeGraniteInfocollector,comAdobeGraniteInstallerFactoryPackages,comAdobeGraniteJettySsl,comAdobeGraniteJobsAsync,comAdobeGraniteMaintenanceOak,comAdobeGraniteMonitoringCore,comAdobeGraniteQueries,comAdobeGraniteReplicationHcImpl,comAdobeGraniteRepositoryChecker,comAdobeGraniteRepositoryHcImpl,comAdobeGraniteRestAssets,comAdobeGraniteSecurityUi,comAdobeGraniteStartup,comAdobeGraniteTagsoup,comAdobeGraniteTaskmanagementCore,comAdobeGraniteTaskmanagementWorkflow,comAdobeGraniteUiClientlibsCompilerLess,comAdobeGraniteUiClientlibsProcessorGcc,comAdobeGraniteWebconsolePlugins,comAdobeGraniteWorkflowConsole,comAdobeXmpWorkerFilesNativeFragmentLinux,comAdobeXmpWorkerFilesNativeFragmentMacosx,comAdobeXmpWorkerFilesNativeFragmentWin,comDayCommonsOsgiWrapperSimpleJndi,comDayCqCqAuthhandler,comDayCqCqCompatConfigupdate,comDayCqCqLicensebranding,comDayCqCqNotifcationImpl,comDayCqCqReplicationAudit,comDayCqCqSearchExt,comDayCqDamCqDamAnnotationPrint,comDayCqDamCqDamAssetUsage,comDayCqDamCqDamS7dam,comDayCqDamCqDamSimilaritysearch,comDayCqDamDamWebdavSupport,comDayCqPreUpgradeTasks,comDayCqReplicationExtensions,comDayCqWcmCqMsmCore,comDayCqWcmCqWcmTranslation,dayCommonsJrawio,orgApacheAriesJmxWhiteboard,orgApacheFelixHttpSslfilter,orgApacheFelixOrgApacheFelixThreaddump,orgApacheFelixWebconsolePluginsDs,orgApacheFelixWebconsolePluginsEvent,orgApacheFelixWebconsolePluginsMemoryusage,orgApacheFelixWebconsolePluginsPackageadmin,orgApacheJackrabbitOakAuthLdap,orgApacheJackrabbitOakSegmentTar,orgApacheJackrabbitOakSolrOsgi,orgApacheSlingBundleresourceImpl,orgApacheSlingCommonsFsclassloader,orgApacheSlingCommonsLogWebconsole,orgApacheSlingDatasource,orgApacheSlingDiscoveryBase,orgApacheSlingDiscoveryOak,orgApacheSlingDiscoverySupport,orgApacheSlingDistributionApi,orgApacheSlingDistributionCore,orgApacheSlingExtensionsWebconsolesecurityprovider,orgApacheSlingHcWebconsole,orgApacheSlingInstallerConsole,orgApacheSlingInstallerProviderFile,orgApacheSlingInstallerProviderJcr,orgApacheSlingJcrDavex,orgApacheSlingJcrResourcesecurity,orgApacheSlingJmxProvider,orgApacheSlingLaunchpadInstaller,orgApacheSlingModelsImpl,orgApacheSlingRepoinitParser,orgApacheSlingResourceInventory,orgApacheSlingResourceresolver,orgApacheSlingScriptingJavascript,orgApacheSlingScriptingJst,orgApacheSlingScriptingSightlyJsProvider,orgApacheSlingScriptingSightlyModelsProvider,orgApacheSlingSecurity,orgApacheSlingServletsCompat,orgApacheSlingServletsGet,orgApacheSlingStartupfilterDisabler,orgApacheSlingTracer,weRetailClientAppCore);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.auth.cert.impl.ClientCertAuthHandler")
+    @Path("/com.adobe.granite.auth.cert.impl.ClientCertAuthHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteAuthCertImplClientCertAuthHandlerInfo.class, authorizations = {
@@ -5835,7 +5836,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteAuthCertImplClientCertAuthHandler(post,apply,delete,action,$location,propertylist,path,serviceRanking);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.auth.ims")
+    @Path("/com.adobe.granite.auth.ims")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteAuthImsInfo.class, authorizations = {
@@ -5860,7 +5861,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteAuthIms(post,apply,delete,action,$location,propertylist,configid,scope);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.auth.ims.impl.ExternalUserIdMappingProviderExtension")
+    @Path("/com.adobe.granite.auth.ims.impl.ExternalUserIdMappingProviderExtension")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteAuthImsImplExternalUserIdMappingProviderExtensionInfo.class, authorizations = {
@@ -5884,7 +5885,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteAuthImsImplExternalUserIdMappingProviderExtension(post,apply,delete,action,$location,propertylist,oauthProviderId);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.auth.ims.impl.IMSAccessTokenRequestCustomizerImpl")
+    @Path("/com.adobe.granite.auth.ims.impl.IMSAccessTokenRequestCustomizerImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteAuthImsImplIMSAccessTokenRequestCustomizerImplInfo.class, authorizations = {
@@ -5909,7 +5910,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteAuthImsImplIMSAccessTokenRequestCustomizerImpl(post,apply,delete,action,$location,propertylist,authImsClientSecret,customizerType);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.auth.ims.impl.IMSInstanceCredentialsValidator")
+    @Path("/com.adobe.granite.auth.ims.impl.IMSInstanceCredentialsValidator")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteAuthImsImplIMSInstanceCredentialsValidatorInfo.class, authorizations = {
@@ -5933,7 +5934,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteAuthImsImplIMSInstanceCredentialsValidator(post,apply,delete,action,$location,propertylist,oauthProviderId);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.auth.ims.impl.IMSProviderImpl")
+    @Path("/com.adobe.granite.auth.ims.impl.IMSProviderImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteAuthImsImplIMSProviderImplInfo.class, authorizations = {
@@ -5969,7 +5970,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteAuthImsImplIMSProviderImpl(post,apply,delete,action,$location,propertylist,oauthProviderId,oauthProviderImsAuthorizationUrl,oauthProviderImsTokenUrl,oauthProviderImsProfileUrl,oauthProviderImsExtendedDetailsUrls,oauthProviderImsValidateTokenUrl,oauthProviderImsSessionProperty,oauthProviderImsServiceTokenClientId,oauthProviderImsServiceTokenClientSecret,oauthProviderImsServiceToken,imsOrgRef,imsGroupMapping,oauthProviderImsOnlyLicenseGroup);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.auth.ims.impl.ImsConfigProviderImpl")
+    @Path("/com.adobe.granite.auth.ims.impl.ImsConfigProviderImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteAuthImsImplImsConfigProviderImplInfo.class, authorizations = {
@@ -5996,7 +5997,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteAuthImsImplImsConfigProviderImpl(post,apply,delete,action,$location,propertylist,oauthConfigmanagerImsConfigid,imsOwningEntity,aemInstanceId,imsServiceCode);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.auth.oauth.accesstoken.provider")
+    @Path("/com.adobe.granite.auth.oauth.accesstoken.provider")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteAuthOauthAccesstokenProviderInfo.class, authorizations = {
@@ -6033,7 +6034,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteAuthOauthAccesstokenProvider(post,apply,delete,action,$location,propertylist,name,authTokenProviderTitle,authTokenProviderDefaultClaims,authTokenProviderEndpoint,authAccessTokenRequest,authTokenProviderKeypairAlias,authTokenProviderConnTimeout,authTokenProviderSoTimeout,authTokenProviderClientId,authTokenProviderScope,authTokenProviderReuseAccessToken,authTokenProviderRelaxedSsl,tokenRequestCustomizerType,authTokenValidatorType);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.auth.oauth.impl.BearerAuthenticationHandler")
+    @Path("/com.adobe.granite.auth.oauth.impl.BearerAuthenticationHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerInfo.class, authorizations = {
@@ -6062,7 +6063,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteAuthOauthImplBearerAuthenticationHandler(post,apply,delete,action,$location,propertylist,path,oauthClientIdsAllowed,authBearerSyncIms,authTokenRequestParameter,oauthBearerConfigid,oauthJwtSupport);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.auth.oauth.impl.DefaultTokenValidatorImpl")
+    @Path("/com.adobe.granite.auth.oauth.impl.DefaultTokenValidatorImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteAuthOauthImplDefaultTokenValidatorImplInfo.class, authorizations = {
@@ -6086,7 +6087,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteAuthOauthImplDefaultTokenValidatorImpl(post,apply,delete,action,$location,propertylist,authTokenValidatorType);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.auth.oauth.impl.FacebookProviderImpl")
+    @Path("/com.adobe.granite.auth.oauth.impl.FacebookProviderImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteAuthOauthImplFacebookProviderImplInfo.class, authorizations = {
@@ -6110,7 +6111,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteAuthOauthImplFacebookProviderImpl(post,apply,delete,action,$location,propertylist,oauthProviderId);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.auth.oauth.impl.GithubProviderImpl")
+    @Path("/com.adobe.granite.auth.oauth.impl.GithubProviderImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteAuthOauthImplGithubProviderImplInfo.class, authorizations = {
@@ -6137,7 +6138,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteAuthOauthImplGithubProviderImpl(post,apply,delete,action,$location,propertylist,oauthProviderId,oauthProviderGithubAuthorizationUrl,oauthProviderGithubTokenUrl,oauthProviderGithubProfileUrl);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.auth.oauth.impl.GraniteProvider")
+    @Path("/com.adobe.granite.auth.oauth.impl.GraniteProvider")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteAuthOauthImplGraniteProviderInfo.class, authorizations = {
@@ -6165,7 +6166,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteAuthOauthImplGraniteProvider(post,apply,delete,action,$location,propertylist,oauthProviderId,oauthProviderGraniteAuthorizationUrl,oauthProviderGraniteTokenUrl,oauthProviderGraniteProfileUrl,oauthProviderGraniteExtendedDetailsUrls);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.auth.oauth.impl.helper.ProviderConfigManager")
+    @Path("/com.adobe.granite.auth.oauth.impl.helper.ProviderConfigManager")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerInfo.class, authorizations = {
@@ -6190,7 +6191,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteAuthOauthImplHelperProviderConfigManager(post,apply,delete,action,$location,propertylist,oauthCookieLoginTimeout,oauthCookieMaxAge);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.auth.oauth.impl.helper.ProviderConfigManagerInternal")
+    @Path("/com.adobe.granite.auth.oauth.impl.helper.ProviderConfigManagerInternal")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerInternalInfo.class, authorizations = {
@@ -6215,7 +6216,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteAuthOauthImplHelperProviderConfigManagerInternal(post,apply,delete,action,$location,propertylist,oauthCookieLoginTimeout,oauthCookieMaxAge);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.auth.oauth.impl.OAuthAuthenticationHandler")
+    @Path("/com.adobe.granite.auth.oauth.impl.OAuthAuthenticationHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteAuthOauthImplOAuthAuthenticationHandlerInfo.class, authorizations = {
@@ -6239,7 +6240,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteAuthOauthImplOAuthAuthenticationHandler(post,apply,delete,action,$location,propertylist,path);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.auth.oauth.impl.TwitterProviderImpl")
+    @Path("/com.adobe.granite.auth.oauth.impl.TwitterProviderImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteAuthOauthImplTwitterProviderImplInfo.class, authorizations = {
@@ -6263,7 +6264,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteAuthOauthImplTwitterProviderImpl(post,apply,delete,action,$location,propertylist,oauthProviderId);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.auth.oauth.provider")
+    @Path("/com.adobe.granite.auth.oauth.provider")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteAuthOauthProviderInfo.class, authorizations = {
@@ -6302,7 +6303,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteAuthOauthProvider(post,apply,delete,action,$location,propertylist,oauthConfigId,oauthClientId,oauthClientSecret,oauthScope,oauthConfigProviderId,oauthCreateUsers,oauthUseridProperty,forceStrictUsernameMatching,oauthEncodeUserids,oauthHashUserids,oauthCallBackUrl,oauthAccessTokenPersist,oauthAccessTokenPersistCookie,oauthCsrfStateProtection,oauthRedirectRequestParams,oauthConfigSiblingsAllow);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.auth.requirement.impl.DefaultRequirementHandler")
+    @Path("/com.adobe.granite.auth.requirement.impl.DefaultRequirementHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteAuthRequirementImplDefaultRequirementHandlerInfo.class, authorizations = {
@@ -6326,7 +6327,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteAuthRequirementImplDefaultRequirementHandler(post,apply,delete,action,$location,propertylist,supportedPaths);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.auth.saml.SamlAuthenticationHandler")
+    @Path("/com.adobe.granite.auth.saml.SamlAuthenticationHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteAuthSamlSamlAuthenticationHandlerInfo.class, authorizations = {
@@ -6375,7 +6376,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteAuthSamlSamlAuthenticationHandler(post,apply,delete,action,$location,propertylist,path,serviceRanking,idpUrl,idpCertAlias,idpHttpRedirect,serviceProviderEntityId,assertionConsumerServiceURL,spPrivateKeyAlias,keyStorePassword,defaultRedirectUrl,userIDAttribute,useEncryption,createUser,userIntermediatePath,addGroupMemberships,groupMembershipAttribute,defaultGroups,nameIdFormat,synchronizeAttributes,handleLogout,logoutUrl,clockTolerance,digestMethod,signatureMethod,identitySyncType,idpIdentifier);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.auth.sso.impl.SsoAuthenticationHandler")
+    @Path("/com.adobe.granite.auth.sso.impl.SsoAuthenticationHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteAuthSsoImplSsoAuthenticationHandlerInfo.class, authorizations = {
@@ -6409,7 +6410,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteAuthSsoImplSsoAuthenticationHandler(post,apply,delete,action,$location,propertylist,path,serviceRanking,jaasControlFlag,jaasRealmName,jaasRanking,headers,cookies,parameters,usermap,format,trustedCredentialsAttribute);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.bundles.hc.impl.CodeCacheHealthCheck")
+    @Path("/com.adobe.granite.bundles.hc.impl.CodeCacheHealthCheck")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteBundlesHcImplCodeCacheHealthCheckInfo.class, authorizations = {
@@ -6434,7 +6435,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteBundlesHcImplCodeCacheHealthCheck(post,apply,delete,action,$location,propertylist,hcTags,minimumCodeCacheSize);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.bundles.hc.impl.CrxdeSupportBundleHealthCheck")
+    @Path("/com.adobe.granite.bundles.hc.impl.CrxdeSupportBundleHealthCheck")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteBundlesHcImplCrxdeSupportBundleHealthCheckInfo.class, authorizations = {
@@ -6458,7 +6459,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteBundlesHcImplCrxdeSupportBundleHealthCheck(post,apply,delete,action,$location,propertylist,hcTags);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.bundles.hc.impl.DavExBundleHealthCheck")
+    @Path("/com.adobe.granite.bundles.hc.impl.DavExBundleHealthCheck")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteBundlesHcImplDavExBundleHealthCheckInfo.class, authorizations = {
@@ -6482,7 +6483,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteBundlesHcImplDavExBundleHealthCheck(post,apply,delete,action,$location,propertylist,hcTags);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.bundles.hc.impl.InactiveBundlesHealthCheck")
+    @Path("/com.adobe.granite.bundles.hc.impl.InactiveBundlesHealthCheck")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteBundlesHcImplInactiveBundlesHealthCheckInfo.class, authorizations = {
@@ -6507,7 +6508,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteBundlesHcImplInactiveBundlesHealthCheck(post,apply,delete,action,$location,propertylist,hcTags,ignoredBundles);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.bundles.hc.impl.JobsHealthCheck")
+    @Path("/com.adobe.granite.bundles.hc.impl.JobsHealthCheck")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteBundlesHcImplJobsHealthCheckInfo.class, authorizations = {
@@ -6532,7 +6533,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteBundlesHcImplJobsHealthCheck(post,apply,delete,action,$location,propertylist,hcTags,maxQueuedJobs);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.bundles.hc.impl.SlingGetServletHealthCheck")
+    @Path("/com.adobe.granite.bundles.hc.impl.SlingGetServletHealthCheck")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteBundlesHcImplSlingGetServletHealthCheckInfo.class, authorizations = {
@@ -6556,7 +6557,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteBundlesHcImplSlingGetServletHealthCheck(post,apply,delete,action,$location,propertylist,hcTags);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.bundles.hc.impl.SlingJavaScriptHandlerHealthCheck")
+    @Path("/com.adobe.granite.bundles.hc.impl.SlingJavaScriptHandlerHealthCheck")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteBundlesHcImplSlingJavaScriptHandlerHealthCheckInfo.class, authorizations = {
@@ -6580,7 +6581,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteBundlesHcImplSlingJavaScriptHandlerHealthCheck(post,apply,delete,action,$location,propertylist,hcTags);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.bundles.hc.impl.SlingJspScriptHandlerHealthCheck")
+    @Path("/com.adobe.granite.bundles.hc.impl.SlingJspScriptHandlerHealthCheck")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteBundlesHcImplSlingJspScriptHandlerHealthCheckInfo.class, authorizations = {
@@ -6604,7 +6605,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteBundlesHcImplSlingJspScriptHandlerHealthCheck(post,apply,delete,action,$location,propertylist,hcTags);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.bundles.hc.impl.SlingReferrerFilterHealthCheck")
+    @Path("/com.adobe.granite.bundles.hc.impl.SlingReferrerFilterHealthCheck")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteBundlesHcImplSlingReferrerFilterHealthCheckInfo.class, authorizations = {
@@ -6628,7 +6629,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteBundlesHcImplSlingReferrerFilterHealthCheck(post,apply,delete,action,$location,propertylist,hcTags);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.bundles.hc.impl.WebDavBundleHealthCheck")
+    @Path("/com.adobe.granite.bundles.hc.impl.WebDavBundleHealthCheck")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteBundlesHcImplWebDavBundleHealthCheckInfo.class, authorizations = {
@@ -6652,7 +6653,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteBundlesHcImplWebDavBundleHealthCheck(post,apply,delete,action,$location,propertylist,hcTags);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.comments.internal.CommentReplicationContentFilterFactory")
+    @Path("/com.adobe.granite.comments.internal.CommentReplicationContentFilterFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteCommentsInternalCommentReplicationContentFilterFacInfo.class, authorizations = {
@@ -6676,7 +6677,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteCommentsInternalCommentReplicationContentFilterFac(post,apply,delete,action,$location,propertylist,replicateCommentResourceTypes);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.compatrouter.impl.CompatSwitchingServiceImpl")
+    @Path("/com.adobe.granite.compatrouter.impl.CompatSwitchingServiceImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteCompatrouterImplCompatSwitchingServiceImplInfo.class, authorizations = {
@@ -6701,7 +6702,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteCompatrouterImplCompatSwitchingServiceImpl(post,apply,delete,action,$location,propertylist,compatgroups,enabled);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.compatrouter.impl.RoutingConfig")
+    @Path("/com.adobe.granite.compatrouter.impl.RoutingConfig")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteCompatrouterImplRoutingConfigInfo.class, authorizations = {
@@ -6727,7 +6728,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteCompatrouterImplRoutingConfig(post,apply,delete,action,$location,propertylist,id,compatPath,newPath);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.compatrouter.impl.SwitchMappingConfig")
+    @Path("/com.adobe.granite.compatrouter.impl.SwitchMappingConfig")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteCompatrouterImplSwitchMappingConfigInfo.class, authorizations = {
@@ -6752,7 +6753,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteCompatrouterImplSwitchMappingConfig(post,apply,delete,action,$location,propertylist,group,ids);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.conf.impl.RuntimeAwareConfigurationResourceResolvingStrategy")
+    @Path("/com.adobe.granite.conf.impl.RuntimeAwareConfigurationResourceResolvingStrategy")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingInfo.class, authorizations = {
@@ -6777,7 +6778,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolving(post,apply,delete,action,$location,propertylist,enabled,fallbackPaths);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.contexthub.impl.ContextHubImpl")
+    @Path("/com.adobe.granite.contexthub.impl.ContextHubImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteContexthubImplContextHubImplInfo.class, authorizations = {
@@ -6802,7 +6803,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteContexthubImplContextHubImpl(post,apply,delete,action,$location,propertylist,comAdobeGraniteContexthubSilentMode,comAdobeGraniteContexthubShowUi);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.cors.impl.CORSPolicyImpl")
+    @Path("/com.adobe.granite.cors.impl.CORSPolicyImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteCorsImplCORSPolicyImplInfo.class, authorizations = {
@@ -6833,7 +6834,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteCorsImplCORSPolicyImpl(post,apply,delete,action,$location,propertylist,alloworigin,alloworiginregexp,allowedpaths,exposedheaders,maxage,supportedheaders,supportedmethods,supportscredentials);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.csrf.impl.CSRFFilter")
+    @Path("/com.adobe.granite.csrf.impl.CSRFFilter")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteCsrfImplCSRFFilterInfo.class, authorizations = {
@@ -6860,7 +6861,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteCsrfImplCSRFFilter(post,apply,delete,action,$location,propertylist,filterMethods,filterEnableSafeUserAgents,filterSafeUserAgents,filterExcludedPaths);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.csrf.impl.CSRFServlet")
+    @Path("/com.adobe.granite.csrf.impl.CSRFServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteCsrfImplCSRFServletInfo.class, authorizations = {
@@ -6885,7 +6886,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteCsrfImplCSRFServlet(post,apply,delete,action,$location,propertylist,csrfTokenExpiresIn,slingAuthRequirements);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.distribution.core.impl.CryptoDistributionTransportSecretProvider")
+    @Path("/com.adobe.granite.distribution.core.impl.CryptoDistributionTransportSecretProvider")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSeInfo.class, authorizations = {
@@ -6911,7 +6912,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteDistributionCoreImplCryptoDistributionTransportSe(post,apply,delete,action,$location,propertylist,name,username,encryptedPassword);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.distribution.core.impl.diff.DiffChangesObserver")
+    @Path("/com.adobe.granite.distribution.core.impl.diff.DiffChangesObserver")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteDistributionCoreImplDiffDiffChangesObserverInfo.class, authorizations = {
@@ -6942,7 +6943,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteDistributionCoreImplDiffDiffChangesObserver(post,apply,delete,action,$location,propertylist,enabled,agentName,diffPath,observedPath,serviceName,propertyNames,distributionDelay,serviceUserTarget);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.distribution.core.impl.diff.DiffEventListener")
+    @Path("/com.adobe.granite.distribution.core.impl.diff.DiffEventListener")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteDistributionCoreImplDiffDiffEventListenerInfo.class, authorizations = {
@@ -6968,7 +6969,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteDistributionCoreImplDiffDiffEventListener(post,apply,delete,action,$location,propertylist,diffPath,serviceName,serviceUserTarget);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.distribution.core.impl.DistributionToReplicationEventTransformer")
+    @Path("/com.adobe.granite.distribution.core.impl.DistributionToReplicationEventTransformer")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteDistributionCoreImplDistributionToReplicationEvenInfo.class, authorizations = {
@@ -6992,7 +6993,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteDistributionCoreImplDistributionToReplicationEven(post,apply,delete,action,$location,propertylist,importerName);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.distribution.core.impl.replication.adapters.ReplicationAgentProvider")
+    @Path("/com.adobe.granite.distribution.core.impl.replication.adapters.ReplicationAgentProvider")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteDistributionCoreImplReplicationAdaptersReplicatInfo.class, authorizations = {
@@ -7017,7 +7018,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteDistributionCoreImplReplicationAdaptersReplicat(post,apply,delete,action,$location,propertylist,providerName,forwardRequests);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.distribution.core.impl.replication.DistributionTransportHandler")
+    @Path("/com.adobe.granite.distribution.core.impl.replication.DistributionTransportHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteDistributionCoreImplReplicationDistributionTransInfo.class, authorizations = {
@@ -7041,7 +7042,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteDistributionCoreImplReplicationDistributionTrans(post,apply,delete,action,$location,propertylist,forwardRequests);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.distribution.core.impl.transport.AccessTokenDistributionTransportSecretProvider")
+    @Path("/com.adobe.granite.distribution.core.impl.transport.AccessTokenDistributionTransportSecretProvider")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuInfo.class, authorizations = {
@@ -7068,7 +7069,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteDistributionCoreImplTransportAccessTokenDistribu(post,apply,delete,action,$location,propertylist,name,serviceName,userId,accessTokenProviderTarget);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.frags.impl.CheckHttpHeaderFlag")
+    @Path("/com.adobe.granite.frags.impl.CheckHttpHeaderFlag")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteFragsImplCheckHttpHeaderFlagInfo.class, authorizations = {
@@ -7095,7 +7096,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteFragsImplCheckHttpHeaderFlag(post,apply,delete,action,$location,propertylist,featureName,featureDescription,httpHeaderName,httpHeaderValuepattern);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.frags.impl.RandomFeature")
+    @Path("/com.adobe.granite.frags.impl.RandomFeature")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteFragsImplRandomFeatureInfo.class, authorizations = {
@@ -7123,7 +7124,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteFragsImplRandomFeature(post,apply,delete,action,$location,propertylist,featureName,featureDescription,activePercentage,cookieName,cookieMaxAge);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.httpcache.file.FileCacheStore")
+    @Path("/com.adobe.granite.httpcache.file.FileCacheStore")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteHttpcacheFileFileCacheStoreInfo.class, authorizations = {
@@ -7148,7 +7149,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteHttpcacheFileFileCacheStore(post,apply,delete,action,$location,propertylist,comAdobeGraniteHttpcacheFileDocumentRoot,comAdobeGraniteHttpcacheFileIncludeHost);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.httpcache.impl.OuterCacheFilter")
+    @Path("/com.adobe.granite.httpcache.impl.OuterCacheFilter")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteHttpcacheImplOuterCacheFilterInfo.class, authorizations = {
@@ -7172,7 +7173,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteHttpcacheImplOuterCacheFilter(post,apply,delete,action,$location,propertylist,comAdobeGraniteHttpcacheUrlPaths);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.i18n.impl.bundle.PseudoTranslations")
+    @Path("/com.adobe.granite.i18n.impl.bundle.PseudoTranslations")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteI18nImplBundlePseudoTranslationsInfo.class, authorizations = {
@@ -7196,7 +7197,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteI18nImplBundlePseudoTranslations(post,apply,delete,action,$location,propertylist,pseudoPatterns);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.i18n.impl.PreferencesLocaleResolverService")
+    @Path("/com.adobe.granite.i18n.impl.PreferencesLocaleResolverService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteI18nImplPreferencesLocaleResolverServiceInfo.class, authorizations = {
@@ -7220,7 +7221,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteI18nImplPreferencesLocaleResolverService(post,apply,delete,action,$location,propertylist,securityPreferencesName);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.infocollector.InfoCollector")
+    @Path("/com.adobe.granite.infocollector.InfoCollector")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteInfocollectorInfoCollectorInfo.class, authorizations = {
@@ -7245,7 +7246,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteInfocollectorInfoCollector(post,apply,delete,action,$location,propertylist,graniteInfocollectorIncludeThreadDumps,graniteInfocollectorIncludeHeapDump);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.jetty.ssl.internal.GraniteSslConnectorFactory")
+    @Path("/com.adobe.granite.jetty.ssl.internal.GraniteSslConnectorFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryInfo.class, authorizations = {
@@ -7274,7 +7275,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteJettySslInternalGraniteSslConnectorFactory(post,apply,delete,action,$location,propertylist,comAdobeGraniteJettySslPort,comAdobeGraniteJettySslKeystoreUser,comAdobeGraniteJettySslKeystorePassword,comAdobeGraniteJettySslCiphersuitesExcluded,comAdobeGraniteJettySslCiphersuitesIncluded,comAdobeGraniteJettySslClientCertificate);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.license.impl.LicenseCheckFilter")
+    @Path("/com.adobe.granite.license.impl.LicenseCheckFilter")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteLicenseImplLicenseCheckFilterInfo.class, authorizations = {
@@ -7300,7 +7301,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteLicenseImplLicenseCheckFilter(post,apply,delete,action,$location,propertylist,checkInternval,excludeIds,encryptPing);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.logging.impl.LogAnalyserImpl")
+    @Path("/com.adobe.granite.logging.impl.LogAnalyserImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteLoggingImplLogAnalyserImplInfo.class, authorizations = {
@@ -7326,7 +7327,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteLoggingImplLogAnalyserImpl(post,apply,delete,action,$location,propertylist,messagesQueueSize,loggerConfig,messagesSize);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.logging.impl.LogErrorHealthCheck")
+    @Path("/com.adobe.granite.logging.impl.LogErrorHealthCheck")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteLoggingImplLogErrorHealthCheckInfo.class, authorizations = {
@@ -7350,7 +7351,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteLoggingImplLogErrorHealthCheck(post,apply,delete,action,$location,propertylist,hcTags);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.maintenance.crx.impl.DataStoreGarbageCollectionTask")
+    @Path("/com.adobe.granite.maintenance.crx.impl.DataStoreGarbageCollectionTask")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteMaintenanceCrxImplDataStoreGarbageCollectionTaskInfo.class, authorizations = {
@@ -7375,7 +7376,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteMaintenanceCrxImplDataStoreGarbageCollectionTask(post,apply,delete,action,$location,propertylist,graniteMaintenanceMandatory,jobTopics);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.maintenance.crx.impl.LuceneBinariesCleanupTask")
+    @Path("/com.adobe.granite.maintenance.crx.impl.LuceneBinariesCleanupTask")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteMaintenanceCrxImplLuceneBinariesCleanupTaskInfo.class, authorizations = {
@@ -7399,7 +7400,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteMaintenanceCrxImplLuceneBinariesCleanupTask(post,apply,delete,action,$location,propertylist,jobTopics);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.maintenance.crx.impl.RevisionCleanupTask")
+    @Path("/com.adobe.granite.maintenance.crx.impl.RevisionCleanupTask")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteMaintenanceCrxImplRevisionCleanupTaskInfo.class, authorizations = {
@@ -7423,7 +7424,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteMaintenanceCrxImplRevisionCleanupTask(post,apply,delete,action,$location,propertylist,fullGcDays);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.monitoring.impl.ScriptConfigImpl")
+    @Path("/com.adobe.granite.monitoring.impl.ScriptConfigImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteMonitoringImplScriptConfigImplInfo.class, authorizations = {
@@ -7452,7 +7453,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteMonitoringImplScriptConfigImpl(post,apply,delete,action,$location,propertylist,scriptFilename,scriptDisplay,scriptPath,scriptPlatform,interval,jmxdomain);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.oauth.server.auth.impl.OAuth2ServerAuthenticationHandler")
+    @Path("/com.adobe.granite.oauth.server.auth.impl.OAuth2ServerAuthenticationHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanInfo.class, authorizations = {
@@ -7480,7 +7481,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHan(post,apply,delete,action,$location,propertylist,path,jaasControlFlag,jaasRealmName,jaasRanking,oauthOfflineValidation);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.oauth.server.impl.AccessTokenCleanupTask")
+    @Path("/com.adobe.granite.oauth.server.impl.AccessTokenCleanupTask")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteOauthServerImplAccessTokenCleanupTaskInfo.class, authorizations = {
@@ -7504,7 +7505,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteOauthServerImplAccessTokenCleanupTask(post,apply,delete,action,$location,propertylist,schedulerExpression);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.oauth.server.impl.OAuth2ClientRevocationServlet")
+    @Path("/com.adobe.granite.oauth.server.impl.OAuth2ClientRevocationServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteOauthServerImplOAuth2ClientRevocationServletInfo.class, authorizations = {
@@ -7528,7 +7529,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteOauthServerImplOAuth2ClientRevocationServlet(post,apply,delete,action,$location,propertylist,oauthClientRevocationActive);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.oauth.server.impl.OAuth2RevocationEndpointServlet")
+    @Path("/com.adobe.granite.oauth.server.impl.OAuth2RevocationEndpointServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteOauthServerImplOAuth2RevocationEndpointServletInfo.class, authorizations = {
@@ -7553,7 +7554,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteOauthServerImplOAuth2RevocationEndpointServlet(post,apply,delete,action,$location,propertylist,slingServletPaths,oauthRevocationActive);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.oauth.server.impl.OAuth2TokenEndpointServlet")
+    @Path("/com.adobe.granite.oauth.server.impl.OAuth2TokenEndpointServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteOauthServerImplOAuth2TokenEndpointServletInfo.class, authorizations = {
@@ -7580,7 +7581,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteOauthServerImplOAuth2TokenEndpointServlet(post,apply,delete,action,$location,propertylist,oauthIssuer,oauthAccessTokenExpiresIn,osgiHttpWhiteboardServletPattern,osgiHttpWhiteboardContextSelect);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.oauth.server.impl.OAuth2TokenRevocationServlet")
+    @Path("/com.adobe.granite.oauth.server.impl.OAuth2TokenRevocationServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteOauthServerImplOAuth2TokenRevocationServletInfo.class, authorizations = {
@@ -7604,7 +7605,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteOauthServerImplOAuth2TokenRevocationServlet(post,apply,delete,action,$location,propertylist,oauthTokenRevocationActive);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.offloading.impl.OffloadingConfigurator")
+    @Path("/com.adobe.granite.offloading.impl.OffloadingConfigurator")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteOffloadingImplOffloadingConfiguratorInfo.class, authorizations = {
@@ -7629,7 +7630,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteOffloadingImplOffloadingConfigurator(post,apply,delete,action,$location,propertylist,offloadingTransporter,offloadingCleanupPayload);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.offloading.impl.OffloadingJobCloner")
+    @Path("/com.adobe.granite.offloading.impl.OffloadingJobCloner")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteOffloadingImplOffloadingJobClonerInfo.class, authorizations = {
@@ -7653,7 +7654,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteOffloadingImplOffloadingJobCloner(post,apply,delete,action,$location,propertylist,offloadingJobclonerEnabled);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.offloading.impl.OffloadingJobOffloader")
+    @Path("/com.adobe.granite.offloading.impl.OffloadingJobOffloader")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteOffloadingImplOffloadingJobOffloaderInfo.class, authorizations = {
@@ -7677,7 +7678,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteOffloadingImplOffloadingJobOffloader(post,apply,delete,action,$location,propertylist,offloadingOffloaderEnabled);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.offloading.impl.transporter.OffloadingAgentManager")
+    @Path("/com.adobe.granite.offloading.impl.transporter.OffloadingAgentManager")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteOffloadingImplTransporterOffloadingAgentManagerInfo.class, authorizations = {
@@ -7701,7 +7702,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteOffloadingImplTransporterOffloadingAgentManager(post,apply,delete,action,$location,propertylist,offloadingAgentmanagerEnabled);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.offloading.impl.transporter.OffloadingDefaultTransporter")
+    @Path("/com.adobe.granite.offloading.impl.transporter.OffloadingDefaultTransporter")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoInfo.class, authorizations = {
@@ -7731,7 +7732,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspo(post,apply,delete,action,$location,propertylist,defaultTransportAgentToWorkerPrefix,defaultTransportAgentToMasterPrefix,defaultTransportInputPackage,defaultTransportOutputPackage,defaultTransportReplicationSynchronous,defaultTransportContentpackage,offloadingTransporterDefaultEnabled);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.omnisearch.impl.core.OmniSearchServiceImpl")
+    @Path("/com.adobe.granite.omnisearch.impl.core.OmniSearchServiceImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteOmnisearchImplCoreOmniSearchServiceImplInfo.class, authorizations = {
@@ -7756,7 +7757,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteOmnisearchImplCoreOmniSearchServiceImpl(post,apply,delete,action,$location,propertylist,omnisearchSuggestionRequiretextMin,omnisearchSuggestionSpellcheckRequire);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.optout.impl.OptOutServiceImpl")
+    @Path("/com.adobe.granite.optout.impl.OptOutServiceImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteOptoutImplOptOutServiceImplInfo.class, authorizations = {
@@ -7782,7 +7783,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteOptoutImplOptOutServiceImpl(post,apply,delete,action,$location,propertylist,optoutCookies,optoutHeaders,optoutWhitelistCookies);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.queries.impl.hc.AsyncIndexHealthCheck")
+    @Path("/com.adobe.granite.queries.impl.hc.AsyncIndexHealthCheck")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteQueriesImplHcAsyncIndexHealthCheckInfo.class, authorizations = {
@@ -7808,7 +7809,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteQueriesImplHcAsyncIndexHealthCheck(post,apply,delete,action,$location,propertylist,indexingCriticalThreshold,indexingWarnThreshold,hcTags);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.queries.impl.hc.LargeIndexHealthCheck")
+    @Path("/com.adobe.granite.queries.impl.hc.LargeIndexHealthCheck")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteQueriesImplHcLargeIndexHealthCheckInfo.class, authorizations = {
@@ -7834,7 +7835,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteQueriesImplHcLargeIndexHealthCheck(post,apply,delete,action,$location,propertylist,largeIndexCriticalThreshold,largeIndexWarnThreshold,hcTags);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.queries.impl.hc.QueriesStatusHealthCheck")
+    @Path("/com.adobe.granite.queries.impl.hc.QueriesStatusHealthCheck")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteQueriesImplHcQueriesStatusHealthCheckInfo.class, authorizations = {
@@ -7858,7 +7859,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteQueriesImplHcQueriesStatusHealthCheck(post,apply,delete,action,$location,propertylist,hcTags);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.queries.impl.hc.QueryHealthCheckMetrics")
+    @Path("/com.adobe.granite.queries.impl.hc.QueryHealthCheckMetrics")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteQueriesImplHcQueryHealthCheckMetricsInfo.class, authorizations = {
@@ -7882,7 +7883,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteQueriesImplHcQueryHealthCheckMetrics(post,apply,delete,action,$location,propertylist,getPeriod);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.queries.impl.hc.QueryLimitsHealthCheck")
+    @Path("/com.adobe.granite.queries.impl.hc.QueryLimitsHealthCheck")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteQueriesImplHcQueryLimitsHealthCheckInfo.class, authorizations = {
@@ -7906,7 +7907,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteQueriesImplHcQueryLimitsHealthCheck(post,apply,delete,action,$location,propertylist,hcTags);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.replication.hc.impl.ReplicationQueueHealthCheck")
+    @Path("/com.adobe.granite.replication.hc.impl.ReplicationQueueHealthCheck")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteReplicationHcImplReplicationQueueHealthCheckInfo.class, authorizations = {
@@ -7931,7 +7932,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteReplicationHcImplReplicationQueueHealthCheck(post,apply,delete,action,$location,propertylist,numberOfRetriesAllowed,hcTags);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.replication.hc.impl.ReplicationTransportUsersHealthCheck")
+    @Path("/com.adobe.granite.replication.hc.impl.ReplicationTransportUsersHealthCheck")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCInfo.class, authorizations = {
@@ -7955,7 +7956,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteReplicationHcImplReplicationTransportUsersHealthC(post,apply,delete,action,$location,propertylist,hcTags);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.repository.hc.impl.AuthorizableNodeNameHealthCheck")
+    @Path("/com.adobe.granite.repository.hc.impl.AuthorizableNodeNameHealthCheck")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteRepositoryHcImplAuthorizableNodeNameHealthCheckInfo.class, authorizations = {
@@ -7979,7 +7980,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteRepositoryHcImplAuthorizableNodeNameHealthCheck(post,apply,delete,action,$location,propertylist,hcTags);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.repository.hc.impl.content.sling.SlingContentHealthCheck")
+    @Path("/com.adobe.granite.repository.hc.impl.content.sling.SlingContentHealthCheck")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCInfo.class, authorizations = {
@@ -8004,7 +8005,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthC(post,apply,delete,action,$location,propertylist,hcTags,excludeSearchPath);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.repository.hc.impl.ContinuousRGCHealthCheck")
+    @Path("/com.adobe.granite.repository.hc.impl.ContinuousRGCHealthCheck")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteRepositoryHcImplContinuousRGCHealthCheckInfo.class, authorizations = {
@@ -8028,7 +8029,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteRepositoryHcImplContinuousRGCHealthCheck(post,apply,delete,action,$location,propertylist,hcTags);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.repository.hc.impl.DefaultAccessUserProfileHealthCheck")
+    @Path("/com.adobe.granite.repository.hc.impl.DefaultAccessUserProfileHealthCheck")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheInfo.class, authorizations = {
@@ -8052,7 +8053,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthChe(post,apply,delete,action,$location,propertylist,hcTags);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.repository.hc.impl.DefaultLoginsHealthCheck")
+    @Path("/com.adobe.granite.repository.hc.impl.DefaultLoginsHealthCheck")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteRepositoryHcImplDefaultLoginsHealthCheckInfo.class, authorizations = {
@@ -8078,7 +8079,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteRepositoryHcImplDefaultLoginsHealthCheck(post,apply,delete,action,$location,propertylist,hcTags,accountLogins,consoleLogins);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.repository.hc.impl.DiskSpaceHealthCheck")
+    @Path("/com.adobe.granite.repository.hc.impl.DiskSpaceHealthCheck")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteRepositoryHcImplDiskSpaceHealthCheckInfo.class, authorizations = {
@@ -8104,7 +8105,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteRepositoryHcImplDiskSpaceHealthCheck(post,apply,delete,action,$location,propertylist,hcTags,diskSpaceWarnThreshold,diskSpaceErrorThreshold);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.repository.hc.impl.ObservationQueueLengthHealthCheck")
+    @Path("/com.adobe.granite.repository.hc.impl.ObservationQueueLengthHealthCheck")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteRepositoryHcImplObservationQueueLengthHealthCheckInfo.class, authorizations = {
@@ -8128,7 +8129,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteRepositoryHcImplObservationQueueLengthHealthCheck(post,apply,delete,action,$location,propertylist,hcTags);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.repository.impl.CommitStatsConfig")
+    @Path("/com.adobe.granite.repository.impl.CommitStatsConfig")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteRepositoryImplCommitStatsConfigInfo.class, authorizations = {
@@ -8164,7 +8165,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteRepositoryImplCommitStatsConfig(post,apply,delete,action,$location,propertylist,enabled,intervalSeconds,commitsPerIntervalThreshold,maxLocationLength,maxDetailsShown,minDetailsPercentage,threadMatchers,maxGreedyDepth,greedyStackMatchers,stackFilters,stackMatchers,stackCategorizers,stackShorteners);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.repository.ServiceUserConfiguration")
+    @Path("/com.adobe.granite.repository.ServiceUserConfiguration")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteRepositoryServiceUserConfigurationInfo.class, authorizations = {
@@ -8190,7 +8191,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteRepositoryServiceUserConfiguration(post,apply,delete,action,$location,propertylist,serviceRanking,serviceusersSimpleSubjectPopulation,serviceusersList);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.requests.logging.impl.hc.RequestsStatusHealthCheckImpl")
+    @Path("/com.adobe.granite.requests.logging.impl.hc.RequestsStatusHealthCheckImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckImInfo.class, authorizations = {
@@ -8214,7 +8215,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckIm(post,apply,delete,action,$location,propertylist,hcTags);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.resourcestatus.impl.CompositeStatusType")
+    @Path("/com.adobe.granite.resourcestatus.impl.CompositeStatusType")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteResourcestatusImplCompositeStatusTypeInfo.class, authorizations = {
@@ -8239,7 +8240,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteResourcestatusImplCompositeStatusType(post,apply,delete,action,$location,propertylist,name,types);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.resourcestatus.impl.StatusResourceProviderImpl")
+    @Path("/com.adobe.granite.resourcestatus.impl.StatusResourceProviderImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteResourcestatusImplStatusResourceProviderImplInfo.class, authorizations = {
@@ -8263,7 +8264,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteResourcestatusImplStatusResourceProviderImpl(post,apply,delete,action,$location,propertylist,providerRoot);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.rest.assets.impl.AssetContentDispositionFilter")
+    @Path("/com.adobe.granite.rest.assets.impl.AssetContentDispositionFilter")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteRestAssetsImplAssetContentDispositionFilterInfo.class, authorizations = {
@@ -8288,7 +8289,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteRestAssetsImplAssetContentDispositionFilter(post,apply,delete,action,$location,propertylist,mimeAllowEmpty,mimeAllowed);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.rest.impl.ApiEndpointResourceProviderFactoryImpl")
+    @Path("/com.adobe.granite.rest.impl.ApiEndpointResourceProviderFactoryImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteRestImplApiEndpointResourceProviderFactoryImplInfo.class, authorizations = {
@@ -8312,7 +8313,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteRestImplApiEndpointResourceProviderFactoryImpl(post,apply,delete,action,$location,propertylist,providerRoots);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.rest.impl.servlet.DefaultGETServlet")
+    @Path("/com.adobe.granite.rest.impl.servlet.DefaultGETServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteRestImplServletDefaultGETServletInfo.class, authorizations = {
@@ -8337,7 +8338,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteRestImplServletDefaultGETServlet(post,apply,delete,action,$location,propertylist,defaultLimit,useAbsoluteUri);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.security.user.ui.internal.servlets.SSLConfigurationServlet")
+    @Path("/com.adobe.granite.security.user.ui.internal.servlets.SSLConfigurationServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationSInfo.class, authorizations = {
@@ -8361,7 +8362,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationS(post,apply,delete,action,$location,propertylist,hcTags);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.security.user.UserPropertiesService")
+    @Path("/com.adobe.granite.security.user.UserPropertiesService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteSecurityUserUserPropertiesServiceInfo.class, authorizations = {
@@ -8387,7 +8388,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteSecurityUserUserPropertiesService(post,apply,delete,action,$location,propertylist,adapterCondition,graniteUserpropertiesNodetypes,graniteUserpropertiesResourcetypes);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.socialgraph.impl.SocialGraphFactoryImpl")
+    @Path("/com.adobe.granite.socialgraph.impl.SocialGraphFactoryImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplInfo.class, authorizations = {
@@ -8414,7 +8415,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteSocialgraphImplSocialGraphFactoryImpl(post,apply,delete,action,$location,propertylist,group2memberRelationshipOutgoing,group2memberExcludedOutgoing,group2memberRelationshipIncoming,group2memberExcludedIncoming);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.system.monitoring.impl.SystemStatsMBeanImpl")
+    @Path("/com.adobe.granite.system.monitoring.impl.SystemStatsMBeanImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteSystemMonitoringImplSystemStatsMBeanImplInfo.class, authorizations = {
@@ -8439,7 +8440,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteSystemMonitoringImplSystemStatsMBeanImpl(post,apply,delete,action,$location,propertylist,schedulerExpression,jmxObjectname);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.taskmanagement.impl.jcr.TaskAdapterFactory")
+    @Path("/com.adobe.granite.taskmanagement.impl.jcr.TaskAdapterFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteTaskmanagementImplJcrTaskAdapterFactoryInfo.class, authorizations = {
@@ -8463,7 +8464,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteTaskmanagementImplJcrTaskAdapterFactory(post,apply,delete,action,$location,propertylist,adapterCondition);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.taskmanagement.impl.jcr.TaskArchiveService")
+    @Path("/com.adobe.granite.taskmanagement.impl.jcr.TaskArchiveService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteTaskmanagementImplJcrTaskArchiveServiceInfo.class, authorizations = {
@@ -8489,7 +8490,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteTaskmanagementImplJcrTaskArchiveService(post,apply,delete,action,$location,propertylist,archivingEnabled,schedulerExpression,archiveSinceDaysCompleted);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.taskmanagement.impl.purge.TaskPurgeMaintenanceTask")
+    @Path("/com.adobe.granite.taskmanagement.impl.purge.TaskPurgeMaintenanceTask")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskInfo.class, authorizations = {
@@ -8517,7 +8518,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTask(post,apply,delete,action,$location,propertylist,purgeCompleted,completedAge,purgeActive,activeAge,saveThreshold);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.taskmanagement.impl.service.TaskManagerAdapterFactory")
+    @Path("/com.adobe.granite.taskmanagement.impl.service.TaskManagerAdapterFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactorInfo.class, authorizations = {
@@ -8542,7 +8543,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactor(post,apply,delete,action,$location,propertylist,adapterCondition,taskmanagerAdmingroups);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.threaddump.ThreadDumpCollector")
+    @Path("/com.adobe.granite.threaddump.ThreadDumpCollector")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteThreaddumpThreadDumpCollectorInfo.class, authorizations = {
@@ -8574,7 +8575,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteThreaddumpThreadDumpCollector(post,apply,delete,action,$location,propertylist,schedulerPeriod,schedulerRunOn,graniteThreaddumpEnabled,graniteThreaddumpDumpsPerFile,graniteThreaddumpEnableGzipCompression,graniteThreaddumpEnableDirectoriesCompression,graniteThreaddumpEnableJStack,graniteThreaddumpMaxBackupDays,graniteThreaddumpBackupCleanTrigger);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.translation.connector.msft.core.impl.MicrosoftTranslationServiceFactoryImpl")
+    @Path("/com.adobe.granite.translation.connector.msft.core.impl.MicrosoftTranslationServiceFactoryImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslInfo.class, authorizations = {
@@ -8606,7 +8607,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTransl(post,apply,delete,action,$location,propertylist,translationFactory,defaultConnectorLabel,defaultConnectorAttribution,defaultConnectorWorkspaceId,defaultConnectorSubscriptionKey,languageMapLocation,categoryMapLocation,retryAttempts,timeoutCount);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.translation.core.impl.TranslationManagerImpl")
+    @Path("/com.adobe.granite.translation.core.impl.TranslationManagerImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteTranslationCoreImplTranslationManagerImplInfo.class, authorizations = {
@@ -8631,7 +8632,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteTranslationCoreImplTranslationManagerImpl(post,apply,delete,action,$location,propertylist,defaultConnectorName,defaultCategory);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.ui.clientlibs.impl.HtmlLibraryManagerImpl")
+    @Path("/com.adobe.granite.ui.clientlibs.impl.HtmlLibraryManagerImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplInfo.class, authorizations = {
@@ -8674,7 +8675,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteUiClientlibsImplHtmlLibraryManagerImpl(post,apply,delete,action,$location,propertylist,htmllibmanagerTiming,htmllibmanagerDebugInitJs,htmllibmanagerMinify,htmllibmanagerDebug,htmllibmanagerGzip,htmllibmanagerMaxDataUriSize,htmllibmanagerMaxage,htmllibmanagerForceCQUrlInfo,htmllibmanagerDefaultthemename,htmllibmanagerDefaultuserthemename,htmllibmanagerClientmanager,htmllibmanagerPathList,htmllibmanagerExcludedPathList,htmllibmanagerProcessorJs,htmllibmanagerProcessorCss,htmllibmanagerLongcachePatterns,htmllibmanagerLongcacheFormat,htmllibmanagerUseFileSystemOutputCache,htmllibmanagerFileSystemOutputCacheLocation,htmllibmanagerDisableReplacement);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.workflow.console.frags.WorkflowWithdrawFeature")
+    @Path("/com.adobe.granite.workflow.console.frags.WorkflowWithdrawFeature")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteWorkflowConsoleFragsWorkflowWithdrawFeatureInfo.class, authorizations = {
@@ -8698,7 +8699,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteWorkflowConsoleFragsWorkflowWithdrawFeature(post,apply,delete,action,$location,propertylist,enabled);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.workflow.console.publish.WorkflowPublishEventService")
+    @Path("/com.adobe.granite.workflow.console.publish.WorkflowPublishEventService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteWorkflowConsolePublishWorkflowPublishEventServiceInfo.class, authorizations = {
@@ -8722,7 +8723,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteWorkflowConsolePublishWorkflowPublishEventService(post,apply,delete,action,$location,propertylist,graniteWorkflowWorkflowPublishEventServiceEnabled);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.workflow.core.jcr.WorkflowBucketManager")
+    @Path("/com.adobe.granite.workflow.core.jcr.WorkflowBucketManager")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteWorkflowCoreJcrWorkflowBucketManagerInfo.class, authorizations = {
@@ -8746,7 +8747,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteWorkflowCoreJcrWorkflowBucketManager(post,apply,delete,action,$location,propertylist,bucketSize);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.workflow.core.job.ExternalProcessJobHandler")
+    @Path("/com.adobe.granite.workflow.core.job.ExternalProcessJobHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerInfo.class, authorizations = {
@@ -8772,7 +8773,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteWorkflowCoreJobExternalProcessJobHandler(post,apply,delete,action,$location,propertylist,defaultTimeout,maxTimeout,defaultPeriod);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.workflow.core.job.JobHandler")
+    @Path("/com.adobe.granite.workflow.core.job.JobHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteWorkflowCoreJobJobHandlerInfo.class, authorizations = {
@@ -8797,7 +8798,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteWorkflowCoreJobJobHandler(post,apply,delete,action,$location,propertylist,jobTopics,allowSelfProcessTermination);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.workflow.core.offloading.WorkflowOffloadingJobConsumer")
+    @Path("/com.adobe.granite.workflow.core.offloading.WorkflowOffloadingJobConsumer")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumInfo.class, authorizations = {
@@ -8821,7 +8822,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsum(post,apply,delete,action,$location,propertylist,jobTopics);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.workflow.core.PayloadMapCache")
+    @Path("/com.adobe.granite.workflow.core.PayloadMapCache")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteWorkflowCorePayloadMapCacheInfo.class, authorizations = {
@@ -8846,7 +8847,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteWorkflowCorePayloadMapCache(post,apply,delete,action,$location,propertylist,getSystemWorkflowModels,getPackageRootPath);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.workflow.core.payloadmap.PayloadMoveListener")
+    @Path("/com.adobe.granite.workflow.core.payloadmap.PayloadMoveListener")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteWorkflowCorePayloadmapPayloadMoveListenerInfo.class, authorizations = {
@@ -8871,7 +8872,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteWorkflowCorePayloadmapPayloadMoveListener(post,apply,delete,action,$location,propertylist,payloadMoveWhiteList,payloadMoveHandleFromWorkflowProcess);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.workflow.core.WorkflowConfig")
+    @Path("/com.adobe.granite.workflow.core.WorkflowConfig")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteWorkflowCoreWorkflowConfigInfo.class, authorizations = {
@@ -8897,7 +8898,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteWorkflowCoreWorkflowConfig(post,apply,delete,action,$location,propertylist,cqWorkflowConfigWorkflowPackagesRootPath,cqWorkflowConfigWorkflowProcessLegacyMode,cqWorkflowConfigAllowLocking);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.workflow.core.WorkflowSessionFactory")
+    @Path("/com.adobe.granite.workflow.core.WorkflowSessionFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryInfo.class, authorizations = {
@@ -8931,7 +8932,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteWorkflowCoreWorkflowSessionFactory(post,apply,delete,action,$location,propertylist,graniteWorkflowinboxSortPropertyName,graniteWorkflowinboxSortOrder,cqWorkflowJobRetry,cqWorkflowSuperuser,graniteWorkflowInboxQuerySize,graniteWorkflowAdminUserGroupFilter,graniteWorkflowEnforceWorkitemAssigneePermissions,graniteWorkflowEnforceWorkflowInitiatorPermissions,graniteWorkflowInjectTenantIdInJobTopics,graniteWorkflowMaxPurgeSaveThreshold,graniteWorkflowMaxPurgeQueryCount);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.granite.workflow.purge.Scheduler")
+    @Path("/com.adobe.granite.workflow.purge.Scheduler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeGraniteWorkflowPurgeSchedulerInfo.class, authorizations = {
@@ -8958,7 +8959,7 @@ public class SystemApi  {
         return delegate.comAdobeGraniteWorkflowPurgeScheduler(post,apply,delete,action,$location,propertylist,scheduledpurgeName,scheduledpurgeWorkflowStatus,scheduledpurgeModelIds,scheduledpurgeDaysold);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.octopus.ncomm.bootstrap")
+    @Path("/com.adobe.octopus.ncomm.bootstrap")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeOctopusNcommBootstrapInfo.class, authorizations = {
@@ -8986,7 +8987,7 @@ public class SystemApi  {
         return delegate.comAdobeOctopusNcommBootstrap(post,apply,delete,action,$location,propertylist,maxConnections,maxRequests,requestTimeout,requestRetries,launchTimeout);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.social.integrations.livefyre.user.pingforpull.impl.PingPullServlet")
+    @Path("/com.adobe.social.integrations.livefyre.user.pingforpull.impl.PingPullServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullSInfo.class, authorizations = {
@@ -9010,7 +9011,7 @@ public class SystemApi  {
         return delegate.comAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullS(post,apply,delete,action,$location,propertylist,communitiesIntegrationLivefyreSlingEventFilter);
     }
     @POST
-    @Path("/console/configMgr/com.adobe.xmp.worker.files.ncomm.XMPFilesNComm")
+    @Path("/com.adobe.xmp.worker.files.ncomm.XMPFilesNComm")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComAdobeXmpWorkerFilesNcommXMPFilesNCommInfo.class, authorizations = {
@@ -9037,7 +9038,7 @@ public class SystemApi  {
         return delegate.comAdobeXmpWorkerFilesNcommXMPFilesNComm(post,apply,delete,action,$location,propertylist,maxConnections,maxRequests,requestTimeout,logDir);
     }
     @POST
-    @Path("/console/configMgr/com.day.commons.datasource.jdbcpool.JdbcPoolService")
+    @Path("/com.day.commons.datasource.jdbcpool.JdbcPoolService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceInfo.class, authorizations = {
@@ -9071,7 +9072,7 @@ public class SystemApi  {
         return delegate.comDayCommonsDatasourceJdbcpoolJdbcPoolService(post,apply,delete,action,$location,propertylist,jdbcDriverClass,jdbcConnectionUri,jdbcUsername,jdbcPassword,jdbcValidationQuery,defaultReadonly,defaultAutocommit,poolSize,poolMaxWaitMsec,datasourceName,datasourceSvcProperties);
     }
     @POST
-    @Path("/console/configMgr/com.day.commons.httpclient")
+    @Path("/com.day.commons.httpclient")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCommonsHttpclientInfo.class, authorizations = {
@@ -9101,7 +9102,7 @@ public class SystemApi  {
         return delegate.comDayCommonsHttpclient(post,apply,delete,action,$location,propertylist,proxyEnabled,proxyHost,proxyUser,proxyPassword,proxyNtlmHost,proxyNtlmDomain,proxyExceptions);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.analytics.impl.StorePropertiesChangeListener")
+    @Path("/com.day.cq.analytics.impl.StorePropertiesChangeListener")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqAnalyticsImplStorePropertiesChangeListenerInfo.class, authorizations = {
@@ -9125,7 +9126,7 @@ public class SystemApi  {
         return delegate.comDayCqAnalyticsImplStorePropertiesChangeListener(post,apply,delete,action,$location,propertylist,cqStoreListenerAdditionalStorePaths);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.analytics.sitecatalyst.impl.exporter.ClassificationsExporter")
+    @Path("/com.day.cq.analytics.sitecatalyst.impl.exporter.ClassificationsExporter")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteInfo.class, authorizations = {
@@ -9150,7 +9151,7 @@ public class SystemApi  {
         return delegate.comDayCqAnalyticsSitecatalystImplExporterClassificationsExporte(post,apply,delete,action,$location,propertylist,allowedPaths,cqAnalyticsSaintExporterPagesize);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.analytics.sitecatalyst.impl.importer.ReportImporter")
+    @Path("/com.day.cq.analytics.sitecatalyst.impl.importer.ReportImporter")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqAnalyticsSitecatalystImplImporterReportImporterInfo.class, authorizations = {
@@ -9175,7 +9176,7 @@ public class SystemApi  {
         return delegate.comDayCqAnalyticsSitecatalystImplImporterReportImporter(post,apply,delete,action,$location,propertylist,reportFetchAttempts,reportFetchDelay);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.analytics.sitecatalyst.impl.SitecatalystAdapterFactory")
+    @Path("/com.day.cq.analytics.sitecatalyst.impl.SitecatalystAdapterFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqAnalyticsSitecatalystImplSitecatalystAdapterFactoryInfo.class, authorizations = {
@@ -9199,7 +9200,7 @@ public class SystemApi  {
         return delegate.comDayCqAnalyticsSitecatalystImplSitecatalystAdapterFactory(post,apply,delete,action,$location,propertylist,cqAnalyticsAdapterfactoryContextstores);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.analytics.sitecatalyst.impl.SitecatalystHttpClientImpl")
+    @Path("/com.day.cq.analytics.sitecatalyst.impl.SitecatalystHttpClientImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfo.class, authorizations = {
@@ -9226,7 +9227,7 @@ public class SystemApi  {
         return delegate.comDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImpl(post,apply,delete,action,$location,propertylist,cqAnalyticsSitecatalystServiceDatacenterUrl,devhostnamepatterns,connectionTimeout,socketTimeout);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.analytics.testandtarget.impl.AccountOptionsUpdater")
+    @Path("/com.day.cq.analytics.testandtarget.impl.AccountOptionsUpdater")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqAnalyticsTestandtargetImplAccountOptionsUpdaterInfo.class, authorizations = {
@@ -9250,7 +9251,7 @@ public class SystemApi  {
         return delegate.comDayCqAnalyticsTestandtargetImplAccountOptionsUpdater(post,apply,delete,action,$location,propertylist,cqAnalyticsTestandtargetAccountoptionsupdaterEnabled);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.analytics.testandtarget.impl.DeleteAuthorActivityListener")
+    @Path("/com.day.cq.analytics.testandtarget.impl.DeleteAuthorActivityListener")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqAnalyticsTestandtargetImplDeleteAuthorActivityListenerInfo.class, authorizations = {
@@ -9274,7 +9275,7 @@ public class SystemApi  {
         return delegate.comDayCqAnalyticsTestandtargetImplDeleteAuthorActivityListener(post,apply,delete,action,$location,propertylist,cqAnalyticsTestandtargetDeleteauthoractivitylistenerEnabled);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.analytics.testandtarget.impl.PushAuthorCampaignPageListener")
+    @Path("/com.day.cq.analytics.testandtarget.impl.PushAuthorCampaignPageListener")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListenerInfo.class, authorizations = {
@@ -9298,7 +9299,7 @@ public class SystemApi  {
         return delegate.comDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListener(post,apply,delete,action,$location,propertylist,cqAnalyticsTestandtargetPushauthorcampaignpagelistenerEnabled);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.analytics.testandtarget.impl.SegmentImporter")
+    @Path("/com.day.cq.analytics.testandtarget.impl.SegmentImporter")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqAnalyticsTestandtargetImplSegmentImporterInfo.class, authorizations = {
@@ -9322,7 +9323,7 @@ public class SystemApi  {
         return delegate.comDayCqAnalyticsTestandtargetImplSegmentImporter(post,apply,delete,action,$location,propertylist,cqAnalyticsTestandtargetSegmentimporterEnabled);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.analytics.testandtarget.impl.service.WebServiceImpl")
+    @Path("/com.day.cq.analytics.testandtarget.impl.service.WebServiceImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqAnalyticsTestandtargetImplServiceWebServiceImplInfo.class, authorizations = {
@@ -9348,7 +9349,7 @@ public class SystemApi  {
         return delegate.comDayCqAnalyticsTestandtargetImplServiceWebServiceImpl(post,apply,delete,action,$location,propertylist,endpointUri,connectionTimeout,socketTimeout);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.analytics.testandtarget.impl.servlets.AdminServerServlet")
+    @Path("/com.day.cq.analytics.testandtarget.impl.servlets.AdminServerServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqAnalyticsTestandtargetImplServletsAdminServerServletInfo.class, authorizations = {
@@ -9372,7 +9373,7 @@ public class SystemApi  {
         return delegate.comDayCqAnalyticsTestandtargetImplServletsAdminServerServlet(post,apply,delete,action,$location,propertylist,testandtargetEndpointUrl);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.analytics.testandtarget.impl.TestandtargetHttpClientImpl")
+    @Path("/com.day.cq.analytics.testandtarget.impl.TestandtargetHttpClientImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplInfo.class, authorizations = {
@@ -9400,7 +9401,7 @@ public class SystemApi  {
         return delegate.comDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImpl(post,apply,delete,action,$location,propertylist,cqAnalyticsTestandtargetApiUrl,cqAnalyticsTestandtargetTimeout,cqAnalyticsTestandtargetSockettimeout,cqAnalyticsTestandtargetRecommendationsUrlReplace,cqAnalyticsTestandtargetRecommendationsUrlReplacewith);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.auth.impl.cug.CugSupportImpl")
+    @Path("/com.day.cq.auth.impl.cug.CugSupportImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqAuthImplCugCugSupportImplInfo.class, authorizations = {
@@ -9427,7 +9428,7 @@ public class SystemApi  {
         return delegate.comDayCqAuthImplCugCugSupportImpl(post,apply,delete,action,$location,propertylist,cugExemptedPrincipals,cugEnabled,cugPrincipalsRegex,cugPrincipalsReplacement);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.auth.impl.LoginSelectorHandler")
+    @Path("/com.day.cq.auth.impl.LoginSelectorHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqAuthImplLoginSelectorHandlerInfo.class, authorizations = {
@@ -9458,7 +9459,7 @@ public class SystemApi  {
         return delegate.comDayCqAuthImplLoginSelectorHandler(post,apply,delete,action,$location,propertylist,path,serviceRanking,authLoginselectorMappings,authLoginselectorChangepwMappings,authLoginselectorDefaultloginpage,authLoginselectorDefaultchangepwpage,authLoginselectorHandle,authLoginselectorHandleAllExtensions);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.commons.impl.ExternalizerImpl")
+    @Path("/com.day.cq.commons.impl.ExternalizerImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqCommonsImplExternalizerImplInfo.class, authorizations = {
@@ -9485,7 +9486,7 @@ public class SystemApi  {
         return delegate.comDayCqCommonsImplExternalizerImpl(post,apply,delete,action,$location,propertylist,externalizerDomains,externalizerHost,externalizerContextpath,externalizerEncodedpath);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.commons.servlets.RootMappingServlet")
+    @Path("/com.day.cq.commons.servlets.RootMappingServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqCommonsServletsRootMappingServletInfo.class, authorizations = {
@@ -9509,7 +9510,7 @@ public class SystemApi  {
         return delegate.comDayCqCommonsServletsRootMappingServlet(post,apply,delete,action,$location,propertylist,rootmappingTarget);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.compat.codeupgrade.impl.CodeUpgradeExecutionConditionChecker")
+    @Path("/com.day.cq.compat.codeupgrade.impl.CodeUpgradeExecutionConditionChecker")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckeInfo.class, authorizations = {
@@ -9534,7 +9535,7 @@ public class SystemApi  {
         return delegate.comDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionChecke(post,apply,delete,action,$location,propertylist,codeupgradetasks,codeupgradetaskfilters);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.compat.codeupgrade.impl.UpgradeTaskIgnoreList")
+    @Path("/com.day.cq.compat.codeupgrade.impl.UpgradeTaskIgnoreList")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqCompatCodeupgradeImplUpgradeTaskIgnoreListInfo.class, authorizations = {
@@ -9558,7 +9559,7 @@ public class SystemApi  {
         return delegate.comDayCqCompatCodeupgradeImplUpgradeTaskIgnoreList(post,apply,delete,action,$location,propertylist,upgradeTaskIgnoreList);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.compat.codeupgrade.impl.VersionRangeTaskIgnorelist")
+    @Path("/com.day.cq.compat.codeupgrade.impl.VersionRangeTaskIgnorelist")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqCompatCodeupgradeImplVersionRangeTaskIgnorelistInfo.class, authorizations = {
@@ -9582,7 +9583,7 @@ public class SystemApi  {
         return delegate.comDayCqCompatCodeupgradeImplVersionRangeTaskIgnorelist(post,apply,delete,action,$location,propertylist,effectiveBundleListPath);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.contentsync.impl.ContentSyncManagerImpl")
+    @Path("/com.day.cq.contentsync.impl.ContentSyncManagerImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqContentsyncImplContentSyncManagerImplInfo.class, authorizations = {
@@ -9607,7 +9608,7 @@ public class SystemApi  {
         return delegate.comDayCqContentsyncImplContentSyncManagerImpl(post,apply,delete,action,$location,propertylist,contentsyncFallbackAuthorizable,contentsyncFallbackUpdateuser);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.commons.handler.StandardImageHandler")
+    @Path("/com.day.cq.dam.commons.handler.StandardImageHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCommonsHandlerStandardImageHandlerInfo.class, authorizations = {
@@ -9633,7 +9634,7 @@ public class SystemApi  {
         return delegate.comDayCqDamCommonsHandlerStandardImageHandler(post,apply,delete,action,$location,propertylist,largeFileThreshold,largeCommentThreshold,cqDamEnableExtMetaExtraction);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.commons.metadata.XmpFilterBlackWhite")
+    @Path("/com.day.cq.dam.commons.metadata.XmpFilterBlackWhite")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCommonsMetadataXmpFilterBlackWhiteInfo.class, authorizations = {
@@ -9660,7 +9661,7 @@ public class SystemApi  {
         return delegate.comDayCqDamCommonsMetadataXmpFilterBlackWhite(post,apply,delete,action,$location,propertylist,xmpFilterApplyWhitelist,xmpFilterWhitelist,xmpFilterApplyBlacklist,xmpFilterBlacklist);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.commons.util.impl.AssetCacheImpl")
+    @Path("/com.day.cq.dam.commons.util.impl.AssetCacheImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCommonsUtilImplAssetCacheImplInfo.class, authorizations = {
@@ -9686,7 +9687,7 @@ public class SystemApi  {
         return delegate.comDayCqDamCommonsUtilImplAssetCacheImpl(post,apply,delete,action,$location,propertylist,largeFileMin,cacheApply,mimeTypes);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.annotation.pdf.AnnotationPdfConfig")
+    @Path("/com.day.cq.dam.core.impl.annotation.pdf.AnnotationPdfConfig")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigInfo.class, authorizations = {
@@ -9725,7 +9726,7 @@ public class SystemApi  {
         return delegate.comDayCqDamCoreImplAnnotationPdfAnnotationPdfConfig(post,apply,delete,action,$location,propertylist,cqDamConfigAnnotationPdfDocumentWidth,cqDamConfigAnnotationPdfDocumentHeight,cqDamConfigAnnotationPdfDocumentPaddingHorizontal,cqDamConfigAnnotationPdfDocumentPaddingVertical,cqDamConfigAnnotationPdfFontSize,cqDamConfigAnnotationPdfFontColor,cqDamConfigAnnotationPdfFontFamily,cqDamConfigAnnotationPdfFontLight,cqDamConfigAnnotationPdfMarginTextImage,cqDamConfigAnnotationPdfMinImageHeight,cqDamConfigAnnotationPdfReviewStatusWidth,cqDamConfigAnnotationPdfReviewStatusColorApproved,cqDamConfigAnnotationPdfReviewStatusColorRejected,cqDamConfigAnnotationPdfReviewStatusColorChangesRequested,cqDamConfigAnnotationPdfAnnotationMarkerWidth,cqDamConfigAnnotationPdfAssetMinheight);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.AssetMoveListener")
+    @Path("/com.day.cq.dam.core.impl.AssetMoveListener")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplAssetMoveListenerInfo.class, authorizations = {
@@ -9749,7 +9750,7 @@ public class SystemApi  {
         return delegate.comDayCqDamCoreImplAssetMoveListener(post,apply,delete,action,$location,propertylist,enabled);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.assethome.AssetHomePageConfiguration")
+    @Path("/com.day.cq.dam.core.impl.assethome.AssetHomePageConfiguration")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplAssethomeAssetHomePageConfigurationInfo.class, authorizations = {
@@ -9773,7 +9774,7 @@ public class SystemApi  {
         return delegate.comDayCqDamCoreImplAssethomeAssetHomePageConfiguration(post,apply,delete,action,$location,propertylist,isEnabled);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.assetlinkshare.AdhocAssetShareProxyServlet")
+    @Path("/com.day.cq.dam.core.impl.assetlinkshare.AdhocAssetShareProxyServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplAssetlinkshareAdhocAssetShareProxyServletInfo.class, authorizations = {
@@ -9797,7 +9798,7 @@ public class SystemApi  {
         return delegate.comDayCqDamCoreImplAssetlinkshareAdhocAssetShareProxyServlet(post,apply,delete,action,$location,propertylist,cqDamAdhocAssetSharePrezipMaxcontentsize);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.cache.CQBufferedImageCache")
+    @Path("/com.day.cq.dam.core.impl.cache.CQBufferedImageCache")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplCacheCQBufferedImageCacheInfo.class, authorizations = {
@@ -9823,7 +9824,7 @@ public class SystemApi  {
         return delegate.comDayCqDamCoreImplCacheCQBufferedImageCache(post,apply,delete,action,$location,propertylist,cqDamImageCacheMaxMemory,cqDamImageCacheMaxAge,cqDamImageCacheMaxDimension);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.DamChangeEventListener")
+    @Path("/com.day.cq.dam.core.impl.DamChangeEventListener")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplDamChangeEventListenerInfo.class, authorizations = {
@@ -9847,7 +9848,7 @@ public class SystemApi  {
         return delegate.comDayCqDamCoreImplDamChangeEventListener(post,apply,delete,action,$location,propertylist,changeeventlistenerObservedPaths);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.DamEventPurgeService")
+    @Path("/com.day.cq.dam.core.impl.DamEventPurgeService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplDamEventPurgeServiceInfo.class, authorizations = {
@@ -9875,7 +9876,7 @@ public class SystemApi  {
         return delegate.comDayCqDamCoreImplDamEventPurgeService(post,apply,delete,action,$location,propertylist,schedulerExpression,maxSavedActivities,saveInterval,enableActivityPurge,eventTypes);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.DamEventRecorderImpl")
+    @Path("/com.day.cq.dam.core.impl.DamEventRecorderImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplDamEventRecorderImplInfo.class, authorizations = {
@@ -9903,7 +9904,7 @@ public class SystemApi  {
         return delegate.comDayCqDamCoreImplDamEventRecorderImpl(post,apply,delete,action,$location,propertylist,eventFilter,eventQueueLength,eventrecorderEnabled,eventrecorderBlacklist,eventrecorderEventtypes);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.event.DamEventAuditListener")
+    @Path("/com.day.cq.dam.core.impl.event.DamEventAuditListener")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplEventDamEventAuditListenerInfo.class, authorizations = {
@@ -9928,7 +9929,7 @@ public class SystemApi  {
         return delegate.comDayCqDamCoreImplEventDamEventAuditListener(post,apply,delete,action,$location,propertylist,eventFilter,enabled);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.ExpiryNotificationJobImpl")
+    @Path("/com.day.cq.dam.core.impl.ExpiryNotificationJobImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplExpiryNotificationJobImplInfo.class, authorizations = {
@@ -9958,7 +9959,7 @@ public class SystemApi  {
         return delegate.comDayCqDamCoreImplExpiryNotificationJobImpl(post,apply,delete,action,$location,propertylist,cqDamExpiryNotificationSchedulerIstimebased,cqDamExpiryNotificationSchedulerTimebasedRule,cqDamExpiryNotificationSchedulerPeriodRule,sendEmail,assetExpiredLimit,priorNotificationSeconds,cqDamExpiryNotificationUrlProtocol);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.foldermetadataschema.FolderMetadataSchemaFeatureFlag")
+    @Path("/com.day.cq.dam.core.impl.foldermetadataschema.FolderMetadataSchemaFeatureFlag")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatInfo.class, authorizations = {
@@ -9982,7 +9983,7 @@ public class SystemApi  {
         return delegate.comDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeat(post,apply,delete,action,$location,propertylist,isEnabled);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.gfx.CommonsGfxRenderer")
+    @Path("/com.day.cq.dam.core.impl.gfx.CommonsGfxRenderer")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplGfxCommonsGfxRendererInfo.class, authorizations = {
@@ -10006,7 +10007,7 @@ public class SystemApi  {
         return delegate.comDayCqDamCoreImplGfxCommonsGfxRenderer(post,apply,delete,action,$location,propertylist,skipBufferedcache);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.handler.EPSFormatHandler")
+    @Path("/com.day.cq.dam.core.impl.handler.EPSFormatHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplHandlerEPSFormatHandlerInfo.class, authorizations = {
@@ -10030,7 +10031,7 @@ public class SystemApi  {
         return delegate.comDayCqDamCoreImplHandlerEPSFormatHandler(post,apply,delete,action,$location,propertylist,mimetype);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.handler.IndesignFormatHandler")
+    @Path("/com.day.cq.dam.core.impl.handler.IndesignFormatHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplHandlerIndesignFormatHandlerInfo.class, authorizations = {
@@ -10054,7 +10055,7 @@ public class SystemApi  {
         return delegate.comDayCqDamCoreImplHandlerIndesignFormatHandler(post,apply,delete,action,$location,propertylist,mimetype);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.handler.JpegHandler")
+    @Path("/com.day.cq.dam.core.impl.handler.JpegHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplHandlerJpegHandlerInfo.class, authorizations = {
@@ -10080,7 +10081,7 @@ public class SystemApi  {
         return delegate.comDayCqDamCoreImplHandlerJpegHandler(post,apply,delete,action,$location,propertylist,cqDamEnableExtMetaExtraction,largeFileThreshold,largeCommentThreshold);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.handler.xmp.NCommXMPHandler")
+    @Path("/com.day.cq.dam.core.impl.handler.xmp.NCommXMPHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplHandlerXmpNCommXMPHandlerInfo.class, authorizations = {
@@ -10104,7 +10105,7 @@ public class SystemApi  {
         return delegate.comDayCqDamCoreImplHandlerXmpNCommXMPHandler(post,apply,delete,action,$location,propertylist,xmphandlerCqFormats);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.jmx.AssetIndexUpdateMonitor")
+    @Path("/com.day.cq.dam.core.impl.jmx.AssetIndexUpdateMonitor")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplJmxAssetIndexUpdateMonitorInfo.class, authorizations = {
@@ -10136,7 +10137,7 @@ public class SystemApi  {
         return delegate.comDayCqDamCoreImplJmxAssetIndexUpdateMonitor(post,apply,delete,action,$location,propertylist,jmxObjectname,propertyMeasureEnabled,propertyName,propertyMaxWaitMs,propertyMaxRate,fulltextMeasureEnabled,fulltextName,fulltextMaxWaitMs,fulltextMaxRate);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.jmx.AssetMigrationMBeanImpl")
+    @Path("/com.day.cq.dam.core.impl.jmx.AssetMigrationMBeanImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplJmxAssetMigrationMBeanImplInfo.class, authorizations = {
@@ -10160,7 +10161,7 @@ public class SystemApi  {
         return delegate.comDayCqDamCoreImplJmxAssetMigrationMBeanImpl(post,apply,delete,action,$location,propertylist,jmxObjectname);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.jmx.AssetUpdateMonitorImpl")
+    @Path("/com.day.cq.dam.core.impl.jmx.AssetUpdateMonitorImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplJmxAssetUpdateMonitorImplInfo.class, authorizations = {
@@ -10185,7 +10186,7 @@ public class SystemApi  {
         return delegate.comDayCqDamCoreImplJmxAssetUpdateMonitorImpl(post,apply,delete,action,$location,propertylist,jmxObjectname,active);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.jobs.metadataexport.AsyncMetadataExportConfigProviderService")
+    @Path("/com.day.cq.dam.core.impl.jobs.metadataexport.AsyncMetadataExportConfigProviderService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigInfo.class, authorizations = {
@@ -10210,7 +10211,7 @@ public class SystemApi  {
         return delegate.comDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfig(post,apply,delete,action,$location,propertylist,operation,emailEnabled);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.jobs.metadataimport.AsyncMetadataImportConfigProviderService")
+    @Path("/com.day.cq.dam.core.impl.jobs.metadataimport.AsyncMetadataImportConfigProviderService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigInfo.class, authorizations = {
@@ -10237,7 +10238,7 @@ public class SystemApi  {
         return delegate.comDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfig(post,apply,delete,action,$location,propertylist,operation,operationIcon,topicName,emailEnabled);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.lightbox.LightboxServlet")
+    @Path("/com.day.cq.dam.core.impl.lightbox.LightboxServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplLightboxLightboxServletInfo.class, authorizations = {
@@ -10263,7 +10264,7 @@ public class SystemApi  {
         return delegate.comDayCqDamCoreImplLightboxLightboxServlet(post,apply,delete,action,$location,propertylist,slingServletPaths,slingServletMethods,cqDamEnableAnonymous);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.metadata.editor.SelectComponentHandler")
+    @Path("/com.day.cq.dam.core.impl.metadata.editor.SelectComponentHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplMetadataEditorSelectComponentHandlerInfo.class, authorizations = {
@@ -10281,13 +10282,13 @@ public class SystemApi  {
 ,@ApiParam(value = "") @QueryParam("action") String action
 ,@ApiParam(value = "") @QueryParam("$location") String $location
 ,@ApiParam(value = "") @QueryParam("propertylist") List<String> propertylist
-,@ApiParam(value = "") @QueryParam("granite:data") List<String> graniteColonData
+,@ApiParam(value = "") @QueryParam("granite:data") List<String> graniteData
 )
     throws NotFoundException {
-        return delegate.comDayCqDamCoreImplMetadataEditorSelectComponentHandler(post,apply,delete,action,$location,propertylist,graniteColonData);
+        return delegate.comDayCqDamCoreImplMetadataEditorSelectComponentHandler(post,apply,delete,action,$location,propertylist,graniteData);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.mimeType.AssetUploadRestrictionHelper")
+    @Path("/com.day.cq.dam.core.impl.mimeType.AssetUploadRestrictionHelper")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplMimeTypeAssetUploadRestrictionHelperInfo.class, authorizations = {
@@ -10312,7 +10313,7 @@ public class SystemApi  {
         return delegate.comDayCqDamCoreImplMimeTypeAssetUploadRestrictionHelper(post,apply,delete,action,$location,propertylist,cqDamAllowAllMime,cqDamAllowedAssetMimes);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.mimeType.DamMimeTypeServiceImpl")
+    @Path("/com.day.cq.dam.core.impl.mimeType.DamMimeTypeServiceImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplMimeTypeDamMimeTypeServiceImplInfo.class, authorizations = {
@@ -10336,7 +10337,7 @@ public class SystemApi  {
         return delegate.comDayCqDamCoreImplMimeTypeDamMimeTypeServiceImpl(post,apply,delete,action,$location,propertylist,cqDamDetectAssetMimeFromContent);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.MissingMetadataNotificationJob")
+    @Path("/com.day.cq.dam.core.impl.MissingMetadataNotificationJob")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplMissingMetadataNotificationJobInfo.class, authorizations = {
@@ -10363,7 +10364,7 @@ public class SystemApi  {
         return delegate.comDayCqDamCoreImplMissingMetadataNotificationJob(post,apply,delete,action,$location,propertylist,cqDamMissingmetadataNotificationSchedulerIstimebased,cqDamMissingmetadataNotificationSchedulerTimebasedRule,cqDamMissingmetadataNotificationSchedulerPeriodRule,cqDamMissingmetadataNotificationRecipient);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.process.SendTransientWorkflowCompletedEmailProcess")
+    @Path("/com.day.cq.dam.core.impl.process.SendTransientWorkflowCompletedEmailProcess")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrInfo.class, authorizations = {
@@ -10388,7 +10389,7 @@ public class SystemApi  {
         return delegate.comDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPr(post,apply,delete,action,$location,propertylist,processLabel,notifyOnComplete);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.process.TextExtractionProcess")
+    @Path("/com.day.cq.dam.core.impl.process.TextExtractionProcess")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplProcessTextExtractionProcessInfo.class, authorizations = {
@@ -10413,7 +10414,7 @@ public class SystemApi  {
         return delegate.comDayCqDamCoreImplProcessTextExtractionProcess(post,apply,delete,action,$location,propertylist,mimeTypes,maxExtract);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.RenditionMakerImpl")
+    @Path("/com.day.cq.dam.core.impl.RenditionMakerImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplRenditionMakerImplInfo.class, authorizations = {
@@ -10438,7 +10439,7 @@ public class SystemApi  {
         return delegate.comDayCqDamCoreImplRenditionMakerImpl(post,apply,delete,action,$location,propertylist,xmpPropagate,xmpExcludes);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.reports.ReportExportService")
+    @Path("/com.day.cq.dam.core.impl.reports.ReportExportService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplReportsReportExportServiceInfo.class, authorizations = {
@@ -10462,7 +10463,7 @@ public class SystemApi  {
         return delegate.comDayCqDamCoreImplReportsReportExportService(post,apply,delete,action,$location,propertylist,queryBatchSize);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.reports.ReportPurgeService")
+    @Path("/com.day.cq.dam.core.impl.reports.ReportPurgeService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplReportsReportPurgeServiceInfo.class, authorizations = {
@@ -10489,7 +10490,7 @@ public class SystemApi  {
         return delegate.comDayCqDamCoreImplReportsReportPurgeService(post,apply,delete,action,$location,propertylist,schedulerExpression,maxSavedReports,timeDuration,enableReportPurge);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.servlet.AssetDownloadServlet")
+    @Path("/com.day.cq.dam.core.impl.servlet.AssetDownloadServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplServletAssetDownloadServletInfo.class, authorizations = {
@@ -10513,7 +10514,7 @@ public class SystemApi  {
         return delegate.comDayCqDamCoreImplServletAssetDownloadServlet(post,apply,delete,action,$location,propertylist,enabled);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.servlet.AssetStatusServlet")
+    @Path("/com.day.cq.dam.core.impl.servlet.AssetStatusServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplServletAssetStatusServletInfo.class, authorizations = {
@@ -10537,7 +10538,7 @@ public class SystemApi  {
         return delegate.comDayCqDamCoreImplServletAssetStatusServlet(post,apply,delete,action,$location,propertylist,cqDamBatchStatusMaxassets);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.servlet.AssetXMPSearchServlet")
+    @Path("/com.day.cq.dam.core.impl.servlet.AssetXMPSearchServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplServletAssetXMPSearchServletInfo.class, authorizations = {
@@ -10561,7 +10562,7 @@ public class SystemApi  {
         return delegate.comDayCqDamCoreImplServletAssetXMPSearchServlet(post,apply,delete,action,$location,propertylist,cqDamBatchIndesignMaxassets);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.servlet.BatchMetadataServlet")
+    @Path("/com.day.cq.dam.core.impl.servlet.BatchMetadataServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplServletBatchMetadataServletInfo.class, authorizations = {
@@ -10587,7 +10588,7 @@ public class SystemApi  {
         return delegate.comDayCqDamCoreImplServletBatchMetadataServlet(post,apply,delete,action,$location,propertylist,cqDamBatchMetadataAssetDefault,cqDamBatchMetadataCollectionDefault,cqDamBatchMetadataMaxresources);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.servlet.BinaryProviderServlet")
+    @Path("/com.day.cq.dam.core.impl.servlet.BinaryProviderServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplServletBinaryProviderServletInfo.class, authorizations = {
@@ -10613,7 +10614,7 @@ public class SystemApi  {
         return delegate.comDayCqDamCoreImplServletBinaryProviderServlet(post,apply,delete,action,$location,propertylist,slingServletResourceTypes,slingServletMethods,cqDamDrmEnable);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.servlet.CollectionServlet")
+    @Path("/com.day.cq.dam.core.impl.servlet.CollectionServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplServletCollectionServletInfo.class, authorizations = {
@@ -10638,7 +10639,7 @@ public class SystemApi  {
         return delegate.comDayCqDamCoreImplServletCollectionServlet(post,apply,delete,action,$location,propertylist,cqDamBatchCollectionProperties,cqDamBatchCollectionMaxcollections);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.servlet.CollectionsServlet")
+    @Path("/com.day.cq.dam.core.impl.servlet.CollectionsServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplServletCollectionsServletInfo.class, authorizations = {
@@ -10663,7 +10664,7 @@ public class SystemApi  {
         return delegate.comDayCqDamCoreImplServletCollectionsServlet(post,apply,delete,action,$location,propertylist,cqDamBatchCollectionsProperties,cqDamBatchCollectionsLimit);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.servlet.CompanionServlet")
+    @Path("/com.day.cq.dam.core.impl.servlet.CompanionServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplServletCompanionServletInfo.class, authorizations = {
@@ -10682,13 +10683,13 @@ public class SystemApi  {
 ,@ApiParam(value = "") @QueryParam("$location") String $location
 ,@ApiParam(value = "") @QueryParam("propertylist") List<String> propertylist
 ,@ApiParam(value = "") @QueryParam("More Info") String moreInfo
-,@ApiParam(value = "") @QueryParam("/mnt/overlay/dam/gui/content/assets/moreinfo.html/${path}") String slashMntSlashOverlaySlashDamSlashGuiSlashContentSlashAssetsSlashMoreinfoHtmlSlash$LeftCurlyBracketPathRightCurlyBracket
+,@ApiParam(value = "") @QueryParam("/mnt/overlay/dam/gui/content/assets/moreinfo.html/${path}") String mntOverlayDamGuiContentAssetsMoreinfoHtml$LeftCurlyBracketPathRightCurlyBracket
 )
     throws NotFoundException {
-        return delegate.comDayCqDamCoreImplServletCompanionServlet(post,apply,delete,action,$location,propertylist,moreInfo,slashMntSlashOverlaySlashDamSlashGuiSlashContentSlashAssetsSlashMoreinfoHtmlSlash$LeftCurlyBracketPathRightCurlyBracket);
+        return delegate.comDayCqDamCoreImplServletCompanionServlet(post,apply,delete,action,$location,propertylist,moreInfo,mntOverlayDamGuiContentAssetsMoreinfoHtml$LeftCurlyBracketPathRightCurlyBracket);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.servlet.CreateAssetServlet")
+    @Path("/com.day.cq.dam.core.impl.servlet.CreateAssetServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplServletCreateAssetServletInfo.class, authorizations = {
@@ -10712,7 +10713,7 @@ public class SystemApi  {
         return delegate.comDayCqDamCoreImplServletCreateAssetServlet(post,apply,delete,action,$location,propertylist,detectDuplicate);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.servlet.DamContentDispositionFilter")
+    @Path("/com.day.cq.dam.core.impl.servlet.DamContentDispositionFilter")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplServletDamContentDispositionFilterInfo.class, authorizations = {
@@ -10737,7 +10738,7 @@ public class SystemApi  {
         return delegate.comDayCqDamCoreImplServletDamContentDispositionFilter(post,apply,delete,action,$location,propertylist,cqMimeTypeBlacklist,cqDamEmptyMime);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.servlet.GuidLookupFilter")
+    @Path("/com.day.cq.dam.core.impl.servlet.GuidLookupFilter")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplServletGuidLookupFilterInfo.class, authorizations = {
@@ -10761,7 +10762,7 @@ public class SystemApi  {
         return delegate.comDayCqDamCoreImplServletGuidLookupFilter(post,apply,delete,action,$location,propertylist,cqDamCoreGuidlookupfilterEnabled);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.servlet.HealthCheckServlet")
+    @Path("/com.day.cq.dam.core.impl.servlet.HealthCheckServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplServletHealthCheckServletInfo.class, authorizations = {
@@ -10786,7 +10787,7 @@ public class SystemApi  {
         return delegate.comDayCqDamCoreImplServletHealthCheckServlet(post,apply,delete,action,$location,propertylist,cqDamSyncWorkflowId,cqDamSyncFolderTypes);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.servlet.MetadataGetServlet")
+    @Path("/com.day.cq.dam.core.impl.servlet.MetadataGetServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplServletMetadataGetServletInfo.class, authorizations = {
@@ -10813,7 +10814,7 @@ public class SystemApi  {
         return delegate.comDayCqDamCoreImplServletMetadataGetServlet(post,apply,delete,action,$location,propertylist,slingServletResourceTypes,slingServletMethods,slingServletExtensions,slingServletSelectors);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.servlet.MultipleLicenseAcceptServlet")
+    @Path("/com.day.cq.dam.core.impl.servlet.MultipleLicenseAcceptServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplServletMultipleLicenseAcceptServletInfo.class, authorizations = {
@@ -10837,7 +10838,7 @@ public class SystemApi  {
         return delegate.comDayCqDamCoreImplServletMultipleLicenseAcceptServlet(post,apply,delete,action,$location,propertylist,cqDamDrmEnable);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.servlet.ResourceCollectionServlet")
+    @Path("/com.day.cq.dam.core.impl.servlet.ResourceCollectionServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplServletResourceCollectionServletInfo.class, authorizations = {
@@ -10866,7 +10867,7 @@ public class SystemApi  {
         return delegate.comDayCqDamCoreImplServletResourceCollectionServlet(post,apply,delete,action,$location,propertylist,slingServletResourceTypes,slingServletMethods,slingServletSelectors,downloadConfig,viewSelector,sendEmail);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.ui.preview.FolderPreviewUpdaterImpl")
+    @Path("/com.day.cq.dam.core.impl.ui.preview.FolderPreviewUpdaterImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplUiPreviewFolderPreviewUpdaterImplInfo.class, authorizations = {
@@ -10893,7 +10894,7 @@ public class SystemApi  {
         return delegate.comDayCqDamCoreImplUiPreviewFolderPreviewUpdaterImpl(post,apply,delete,action,$location,propertylist,createPreviewEnabled,updatePreviewEnabled,queueSize,folderPreviewRenditionRegex);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.impl.unzip.UnzipConfig")
+    @Path("/com.day.cq.dam.core.impl.unzip.UnzipConfig")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreImplUnzipUnzipConfigInfo.class, authorizations = {
@@ -10918,7 +10919,7 @@ public class SystemApi  {
         return delegate.comDayCqDamCoreImplUnzipUnzipConfig(post,apply,delete,action,$location,propertylist,cqDamConfigUnzipMaxuncompressedsize,cqDamConfigUnzipEncoding);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.process.ExifToolExtractMetadataProcess")
+    @Path("/com.day.cq.dam.core.process.ExifToolExtractMetadataProcess")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreProcessExifToolExtractMetadataProcessInfo.class, authorizations = {
@@ -10943,7 +10944,7 @@ public class SystemApi  {
         return delegate.comDayCqDamCoreProcessExifToolExtractMetadataProcess(post,apply,delete,action,$location,propertylist,processLabel,cqDamEnableSha1);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.process.ExtractMetadataProcess")
+    @Path("/com.day.cq.dam.core.process.ExtractMetadataProcess")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreProcessExtractMetadataProcessInfo.class, authorizations = {
@@ -10968,7 +10969,7 @@ public class SystemApi  {
         return delegate.comDayCqDamCoreProcessExtractMetadataProcess(post,apply,delete,action,$location,propertylist,processLabel,cqDamEnableSha1);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.core.process.MetadataProcessorProcess")
+    @Path("/com.day.cq.dam.core.process.MetadataProcessorProcess")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamCoreProcessMetadataProcessorProcessInfo.class, authorizations = {
@@ -10994,7 +10995,7 @@ public class SystemApi  {
         return delegate.comDayCqDamCoreProcessMetadataProcessorProcess(post,apply,delete,action,$location,propertylist,processLabel,cqDamEnableSha1,cqDamMetadataXssprotectedProperties);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.handler.ffmpeg.LocatorImpl")
+    @Path("/com.day.cq.dam.handler.ffmpeg.LocatorImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamHandlerFfmpegLocatorImplInfo.class, authorizations = {
@@ -11018,7 +11019,7 @@ public class SystemApi  {
         return delegate.comDayCqDamHandlerFfmpegLocatorImpl(post,apply,delete,action,$location,propertylist,executableSearchpath);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.handler.gibson.fontmanager.impl.FontManagerServiceImpl")
+    @Path("/com.day.cq.dam.handler.gibson.fontmanager.impl.FontManagerServiceImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamHandlerGibsonFontmanagerImplFontManagerServiceImplInfo.class, authorizations = {
@@ -11045,7 +11046,7 @@ public class SystemApi  {
         return delegate.comDayCqDamHandlerGibsonFontmanagerImplFontManagerServiceImpl(post,apply,delete,action,$location,propertylist,eventFilter,fontmgrSystemFontDir,fontmgrAdobeFontDir,fontmgrCustomerFontDir);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.handler.standard.pdf.PdfHandler")
+    @Path("/com.day.cq.dam.handler.standard.pdf.PdfHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamHandlerStandardPdfPdfHandlerInfo.class, authorizations = {
@@ -11069,7 +11070,7 @@ public class SystemApi  {
         return delegate.comDayCqDamHandlerStandardPdfPdfHandler(post,apply,delete,action,$location,propertylist,rasterAnnotation);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.handler.standard.ps.PostScriptHandler")
+    @Path("/com.day.cq.dam.handler.standard.ps.PostScriptHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamHandlerStandardPsPostScriptHandlerInfo.class, authorizations = {
@@ -11093,7 +11094,7 @@ public class SystemApi  {
         return delegate.comDayCqDamHandlerStandardPsPostScriptHandler(post,apply,delete,action,$location,propertylist,rasterAnnotation);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.handler.standard.psd.PsdHandler")
+    @Path("/com.day.cq.dam.handler.standard.psd.PsdHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamHandlerStandardPsdPsdHandlerInfo.class, authorizations = {
@@ -11117,7 +11118,7 @@ public class SystemApi  {
         return delegate.comDayCqDamHandlerStandardPsdPsdHandler(post,apply,delete,action,$location,propertylist,largeFileThreshold);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.ids.impl.IDSJobProcessor")
+    @Path("/com.day.cq.dam.ids.impl.IDSJobProcessor")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamIdsImplIDSJobProcessorInfo.class, authorizations = {
@@ -11146,7 +11147,7 @@ public class SystemApi  {
         return delegate.comDayCqDamIdsImplIDSJobProcessor(post,apply,delete,action,$location,propertylist,enableMultisession,idsCcEnable,enableRetry,enableRetryScripterror,externalizerDomainCqhost,externalizerDomainHttp);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.ids.impl.IDSPoolManagerImpl")
+    @Path("/com.day.cq.dam.ids.impl.IDSPoolManagerImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamIdsImplIDSPoolManagerImplInfo.class, authorizations = {
@@ -11175,7 +11176,7 @@ public class SystemApi  {
         return delegate.comDayCqDamIdsImplIDSPoolManagerImpl(post,apply,delete,action,$location,propertylist,maxErrorsToBlacklist,retryIntervalToWhitelist,connectTimeout,socketTimeout,processLabel,connectionUseMax);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.indd.impl.handler.IndesignXMPHandler")
+    @Path("/com.day.cq.dam.indd.impl.handler.IndesignXMPHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamInddImplHandlerIndesignXMPHandlerInfo.class, authorizations = {
@@ -11200,7 +11201,7 @@ public class SystemApi  {
         return delegate.comDayCqDamInddImplHandlerIndesignXMPHandler(post,apply,delete,action,$location,propertylist,processLabel,extractPages);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.indd.impl.servlet.SnippetCreationServlet")
+    @Path("/com.day.cq.dam.indd.impl.servlet.SnippetCreationServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamInddImplServletSnippetCreationServletInfo.class, authorizations = {
@@ -11224,7 +11225,7 @@ public class SystemApi  {
         return delegate.comDayCqDamInddImplServletSnippetCreationServlet(post,apply,delete,action,$location,propertylist,snippetcreationMaxcollections);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.indd.process.INDDMediaExtractProcess")
+    @Path("/com.day.cq.dam.indd.process.INDDMediaExtractProcess")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamInddProcessINDDMediaExtractProcessInfo.class, authorizations = {
@@ -11251,7 +11252,7 @@ public class SystemApi  {
         return delegate.comDayCqDamInddProcessINDDMediaExtractProcess(post,apply,delete,action,$location,propertylist,processLabel,cqDamInddPagesRegex,idsJobDecoupled,idsJobWorkflowModel);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.performance.internal.AssetPerformanceDataHandlerImpl")
+    @Path("/com.day.cq.dam.performance.internal.AssetPerformanceDataHandlerImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamPerformanceInternalAssetPerformanceDataHandlerImplInfo.class, authorizations = {
@@ -11275,7 +11276,7 @@ public class SystemApi  {
         return delegate.comDayCqDamPerformanceInternalAssetPerformanceDataHandlerImpl(post,apply,delete,action,$location,propertylist,batchCommitSize);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.performance.internal.AssetPerformanceReportSyncJob")
+    @Path("/com.day.cq.dam.performance.internal.AssetPerformanceReportSyncJob")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamPerformanceInternalAssetPerformanceReportSyncJobInfo.class, authorizations = {
@@ -11299,7 +11300,7 @@ public class SystemApi  {
         return delegate.comDayCqDamPerformanceInternalAssetPerformanceReportSyncJob(post,apply,delete,action,$location,propertylist,schedulerExpression);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.pim.impl.sourcing.upload.process.ProductAssetsUploadProcess")
+    @Path("/com.day.cq.dam.pim.impl.sourcing.upload.process.ProductAssetsUploadProcess")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProInfo.class, authorizations = {
@@ -11323,7 +11324,7 @@ public class SystemApi  {
         return delegate.comDayCqDamPimImplSourcingUploadProcessProductAssetsUploadPro(post,apply,delete,action,$location,propertylist,deleteZipFile);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.s7dam.common.analytics.impl.S7damDynamicMediaConfigEventListener")
+    @Path("/com.day.cq.dam.s7dam.common.analytics.impl.S7damDynamicMediaConfigEventListener")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenInfo.class, authorizations = {
@@ -11347,7 +11348,7 @@ public class SystemApi  {
         return delegate.comDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEven(post,apply,delete,action,$location,propertylist,cqDamS7damDynamicmediaconfigeventlistenerEnabled);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.s7dam.common.analytics.impl.SiteCatalystReportRunner")
+    @Path("/com.day.cq.dam.s7dam.common.analytics.impl.SiteCatalystReportRunner")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerInfo.class, authorizations = {
@@ -11372,7 +11373,7 @@ public class SystemApi  {
         return delegate.comDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunner(post,apply,delete,action,$location,propertylist,schedulerExpression,schedulerConcurrent);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.s7dam.common.post.servlets.SetCreateHandler")
+    @Path("/com.day.cq.dam.s7dam.common.post.servlets.SetCreateHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamS7damCommonPostServletsSetCreateHandlerInfo.class, authorizations = {
@@ -11397,7 +11398,7 @@ public class SystemApi  {
         return delegate.comDayCqDamS7damCommonPostServletsSetCreateHandler(post,apply,delete,action,$location,propertylist,slingPostOperation,slingServletMethods);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.s7dam.common.post.servlets.SetModifyHandler")
+    @Path("/com.day.cq.dam.s7dam.common.post.servlets.SetModifyHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamS7damCommonPostServletsSetModifyHandlerInfo.class, authorizations = {
@@ -11422,7 +11423,7 @@ public class SystemApi  {
         return delegate.comDayCqDamS7damCommonPostServletsSetModifyHandler(post,apply,delete,action,$location,propertylist,slingPostOperation,slingServletMethods);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.s7dam.common.process.VideoThumbnailDownloadProcess")
+    @Path("/com.day.cq.dam.s7dam.common.process.VideoThumbnailDownloadProcess")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamS7damCommonProcessVideoThumbnailDownloadProcessInfo.class, authorizations = {
@@ -11446,7 +11447,7 @@ public class SystemApi  {
         return delegate.comDayCqDamS7damCommonProcessVideoThumbnailDownloadProcess(post,apply,delete,action,$location,propertylist,processLabel);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.s7dam.common.S7damDamChangeEventListener")
+    @Path("/com.day.cq.dam.s7dam.common.S7damDamChangeEventListener")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamS7damCommonS7damDamChangeEventListenerInfo.class, authorizations = {
@@ -11470,7 +11471,7 @@ public class SystemApi  {
         return delegate.comDayCqDamS7damCommonS7damDamChangeEventListener(post,apply,delete,action,$location,propertylist,cqDamS7damDamchangeeventlistenerEnabled);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.s7dam.common.servlets.S7damProductInfoServlet")
+    @Path("/com.day.cq.dam.s7dam.common.servlets.S7damProductInfoServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamS7damCommonServletsS7damProductInfoServletInfo.class, authorizations = {
@@ -11495,7 +11496,7 @@ public class SystemApi  {
         return delegate.comDayCqDamS7damCommonServletsS7damProductInfoServlet(post,apply,delete,action,$location,propertylist,slingServletPaths,slingServletMethods);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.s7dam.common.video.impl.VideoProxyClientServiceImpl")
+    @Path("/com.day.cq.dam.s7dam.common.video.impl.VideoProxyClientServiceImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplInfo.class, authorizations = {
@@ -11525,7 +11526,7 @@ public class SystemApi  {
         return delegate.comDayCqDamS7damCommonVideoImplVideoProxyClientServiceImpl(post,apply,delete,action,$location,propertylist,cqDamS7damVideoproxyclientserviceMultipartuploadMinsizeName,cqDamS7damVideoproxyclientserviceMultipartuploadPartsizeName,cqDamS7damVideoproxyclientserviceMultipartuploadNumthreadName,cqDamS7damVideoproxyclientserviceHttpReadtimeoutName,cqDamS7damVideoproxyclientserviceHttpConnectiontimeoutName,cqDamS7damVideoproxyclientserviceHttpMaxretrycountName,cqDamS7damVideoproxyclientserviceUploadprogressIntervalName);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.scene7.impl.Scene7APIClientImpl")
+    @Path("/com.day.cq.dam.scene7.impl.Scene7APIClientImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamScene7ImplScene7APIClientImplInfo.class, authorizations = {
@@ -11550,7 +11551,7 @@ public class SystemApi  {
         return delegate.comDayCqDamScene7ImplScene7APIClientImpl(post,apply,delete,action,$location,propertylist,cqDamScene7ApiclientRecordsperpageNofilterName,cqDamScene7ApiclientRecordsperpageWithfilterName);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.scene7.impl.Scene7AssetMimeTypeServiceImpl")
+    @Path("/com.day.cq.dam.scene7.impl.Scene7AssetMimeTypeServiceImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamScene7ImplScene7AssetMimeTypeServiceImplInfo.class, authorizations = {
@@ -11574,7 +11575,7 @@ public class SystemApi  {
         return delegate.comDayCqDamScene7ImplScene7AssetMimeTypeServiceImpl(post,apply,delete,action,$location,propertylist,cqDamScene7AssetmimetypeserviceMapping);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.scene7.impl.Scene7ConfigurationEventListener")
+    @Path("/com.day.cq.dam.scene7.impl.Scene7ConfigurationEventListener")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamScene7ImplScene7ConfigurationEventListenerInfo.class, authorizations = {
@@ -11598,7 +11599,7 @@ public class SystemApi  {
         return delegate.comDayCqDamScene7ImplScene7ConfigurationEventListener(post,apply,delete,action,$location,propertylist,cqDamScene7ConfigurationeventlistenerEnabled);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.scene7.impl.Scene7DamChangeEventListener")
+    @Path("/com.day.cq.dam.scene7.impl.Scene7DamChangeEventListener")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamScene7ImplScene7DamChangeEventListenerInfo.class, authorizations = {
@@ -11623,7 +11624,7 @@ public class SystemApi  {
         return delegate.comDayCqDamScene7ImplScene7DamChangeEventListener(post,apply,delete,action,$location,propertylist,cqDamScene7DamchangeeventlistenerEnabled,cqDamScene7DamchangeeventlistenerObservedPaths);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.scene7.impl.Scene7FlashTemplatesServiceImpl")
+    @Path("/com.day.cq.dam.scene7.impl.Scene7FlashTemplatesServiceImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamScene7ImplScene7FlashTemplatesServiceImplInfo.class, authorizations = {
@@ -11651,7 +11652,7 @@ public class SystemApi  {
         return delegate.comDayCqDamScene7ImplScene7FlashTemplatesServiceImpl(post,apply,delete,action,$location,propertylist,scene7FlashTemplatesRti,scene7FlashTemplatesRsi,scene7FlashTemplatesRb,scene7FlashTemplatesRurl,scene7FlashTemplateUrlFormatParameter);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.scene7.impl.Scene7UploadServiceImpl")
+    @Path("/com.day.cq.dam.scene7.impl.Scene7UploadServiceImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamScene7ImplScene7UploadServiceImplInfo.class, authorizations = {
@@ -11676,7 +11677,7 @@ public class SystemApi  {
         return delegate.comDayCqDamScene7ImplScene7UploadServiceImpl(post,apply,delete,action,$location,propertylist,cqDamScene7UploadserviceActivejobtimeoutLabel,cqDamScene7UploadserviceConnectionmaxperrouteLabel);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.stock.integration.impl.cache.StockCacheConfigurationServiceImpl")
+    @Path("/com.day.cq.dam.stock.integration.impl.cache.StockCacheConfigurationServiceImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationSerInfo.class, authorizations = {
@@ -11701,7 +11702,7 @@ public class SystemApi  {
         return delegate.comDayCqDamStockIntegrationImplCacheStockCacheConfigurationSer(post,apply,delete,action,$location,propertylist,getCacheExpirationUnit,getCacheExpirationValue);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.stock.integration.impl.configuration.StockConfigurationImpl")
+    @Path("/com.day.cq.dam.stock.integration.impl.configuration.StockConfigurationImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamStockIntegrationImplConfigurationStockConfigurationInfo.class, authorizations = {
@@ -11727,7 +11728,7 @@ public class SystemApi  {
         return delegate.comDayCqDamStockIntegrationImplConfigurationStockConfiguration(post,apply,delete,action,$location,propertylist,name,locale,imsConfig);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.dam.video.impl.servlet.VideoTestServlet")
+    @Path("/com.day.cq.dam.video.impl.servlet.VideoTestServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqDamVideoImplServletVideoTestServletInfo.class, authorizations = {
@@ -11751,7 +11752,7 @@ public class SystemApi  {
         return delegate.comDayCqDamVideoImplServletVideoTestServlet(post,apply,delete,action,$location,propertylist,enabled);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.extwidget.servlets.ImageSpriteServlet")
+    @Path("/com.day.cq.extwidget.servlets.ImageSpriteServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqExtwidgetServletsImageSpriteServletInfo.class, authorizations = {
@@ -11776,7 +11777,7 @@ public class SystemApi  {
         return delegate.comDayCqExtwidgetServletsImageSpriteServlet(post,apply,delete,action,$location,propertylist,maxWidth,maxHeight);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.image.internal.font.FontHelper")
+    @Path("/com.day.cq.image.internal.font.FontHelper")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqImageInternalFontFontHelperInfo.class, authorizations = {
@@ -11801,7 +11802,7 @@ public class SystemApi  {
         return delegate.comDayCqImageInternalFontFontHelper(post,apply,delete,action,$location,propertylist,fontpath,oversamplingFactor);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.jcrclustersupport.ClusterStartLevelController")
+    @Path("/com.day.cq.jcrclustersupport.ClusterStartLevelController")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqJcrclustersupportClusterStartLevelControllerInfo.class, authorizations = {
@@ -11827,7 +11828,7 @@ public class SystemApi  {
         return delegate.comDayCqJcrclustersupportClusterStartLevelController(post,apply,delete,action,$location,propertylist,clusterLevelEnable,clusterMasterLevel,clusterSlaveLevel);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.mailer.DefaultMailService")
+    @Path("/com.day.cq.mailer.DefaultMailService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqMailerDefaultMailServiceInfo.class, authorizations = {
@@ -11858,7 +11859,7 @@ public class SystemApi  {
         return delegate.comDayCqMailerDefaultMailService(post,apply,delete,action,$location,propertylist,smtpHost,smtpPort,smtpUser,smtpPassword,fromAddress,smtpSsl,smtpStarttls,debugEmail);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.mailer.impl.CqMailingService")
+    @Path("/com.day.cq.mailer.impl.CqMailingService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqMailerImplCqMailingServiceInfo.class, authorizations = {
@@ -11882,7 +11883,7 @@ public class SystemApi  {
         return delegate.comDayCqMailerImplCqMailingService(post,apply,delete,action,$location,propertylist,maxRecipientCount);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.mailer.impl.email.CqEmailTemplateFactory")
+    @Path("/com.day.cq.mailer.impl.email.CqEmailTemplateFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqMailerImplEmailCqEmailTemplateFactoryInfo.class, authorizations = {
@@ -11906,7 +11907,7 @@ public class SystemApi  {
         return delegate.comDayCqMailerImplEmailCqEmailTemplateFactory(post,apply,delete,action,$location,propertylist,mailerEmailCharset);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.mailer.impl.email.CqRetrieverTemplateFactory")
+    @Path("/com.day.cq.mailer.impl.email.CqRetrieverTemplateFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqMailerImplEmailCqRetrieverTemplateFactoryInfo.class, authorizations = {
@@ -11933,7 +11934,7 @@ public class SystemApi  {
         return delegate.comDayCqMailerImplEmailCqRetrieverTemplateFactory(post,apply,delete,action,$location,propertylist,mailerEmailEmbed,mailerEmailCharset,mailerEmailRetrieverUserID,mailerEmailRetrieverUserPWD);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.mcm.campaign.impl.IntegrationConfigImpl")
+    @Path("/com.day.cq.mcm.campaign.impl.IntegrationConfigImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqMcmCampaignImplIntegrationConfigImplInfo.class, authorizations = {
@@ -11959,7 +11960,7 @@ public class SystemApi  {
         return delegate.comDayCqMcmCampaignImplIntegrationConfigImpl(post,apply,delete,action,$location,propertylist,aemMcmCampaignFormConstraints,aemMcmCampaignPublicUrl,aemMcmCampaignRelaxedSSL);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.mcm.campaign.importer.PersonalizedTextHandlerFactory")
+    @Path("/com.day.cq.mcm.campaign.importer.PersonalizedTextHandlerFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqMcmCampaignImporterPersonalizedTextHandlerFactoryInfo.class, authorizations = {
@@ -11984,7 +11985,7 @@ public class SystemApi  {
         return delegate.comDayCqMcmCampaignImporterPersonalizedTextHandlerFactory(post,apply,delete,action,$location,propertylist,serviceRanking,tagpattern);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.mcm.core.newsletter.NewsletterEmailServiceImpl")
+    @Path("/com.day.cq.mcm.core.newsletter.NewsletterEmailServiceImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqMcmCoreNewsletterNewsletterEmailServiceImplInfo.class, authorizations = {
@@ -12010,7 +12011,7 @@ public class SystemApi  {
         return delegate.comDayCqMcmCoreNewsletterNewsletterEmailServiceImpl(post,apply,delete,action,$location,propertylist,fromAddress,senderHost,maxBounceCount);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.mcm.impl.MCMConfiguration")
+    @Path("/com.day.cq.mcm.impl.MCMConfiguration")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqMcmImplMCMConfigurationInfo.class, authorizations = {
@@ -12035,7 +12036,7 @@ public class SystemApi  {
         return delegate.comDayCqMcmImplMCMConfiguration(post,apply,delete,action,$location,propertylist,experienceIndirection,touchpointIndirection);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.mcm.landingpage.parser.taghandlers.cta.ClickThroughComponentTagHandlerFactory")
+    @Path("/com.day.cq.mcm.landingpage.parser.taghandlers.cta.ClickThroughComponentTagHandlerFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponenInfo.class, authorizations = {
@@ -12061,7 +12062,7 @@ public class SystemApi  {
         return delegate.comDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponen(post,apply,delete,action,$location,propertylist,serviceRanking,tagpattern,componentResourceType);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.mcm.landingpage.parser.taghandlers.cta.GraphicalClickThroughComponentTagHandlerFactory")
+    @Path("/com.day.cq.mcm.landingpage.parser.taghandlers.cta.GraphicalClickThroughComponentTagHandlerFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThrougInfo.class, authorizations = {
@@ -12087,7 +12088,7 @@ public class SystemApi  {
         return delegate.comDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThroug(post,apply,delete,action,$location,propertylist,serviceRanking,tagpattern,componentResourceType);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.mcm.landingpage.parser.taghandlers.cta.LeadFormCTAComponentTagHandlerFactory")
+    @Path("/com.day.cq.mcm.landingpage.parser.taghandlers.cta.LeadFormCTAComponentTagHandlerFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentInfo.class, authorizations = {
@@ -12112,7 +12113,7 @@ public class SystemApi  {
         return delegate.comDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponent(post,apply,delete,action,$location,propertylist,serviceRanking,tagpattern);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.mcm.landingpage.parser.taghandlers.mbox.MBoxExperienceTagHandlerFactory")
+    @Path("/com.day.cq.mcm.landingpage.parser.taghandlers.mbox.MBoxExperienceTagHandlerFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHaInfo.class, authorizations = {
@@ -12137,7 +12138,7 @@ public class SystemApi  {
         return delegate.comDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHa(post,apply,delete,action,$location,propertylist,serviceRanking,tagpattern);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.mcm.landingpage.parser.taghandlers.mbox.TargetComponentTagHandlerFactory")
+    @Path("/com.day.cq.mcm.landingpage.parser.taghandlers.mbox.TargetComponentTagHandlerFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHInfo.class, authorizations = {
@@ -12163,7 +12164,7 @@ public class SystemApi  {
         return delegate.comDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagH(post,apply,delete,action,$location,propertylist,serviceRanking,tagpattern,componentResourceType);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.notification.impl.NotificationServiceImpl")
+    @Path("/com.day.cq.notification.impl.NotificationServiceImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqNotificationImplNotificationServiceImplInfo.class, authorizations = {
@@ -12187,7 +12188,7 @@ public class SystemApi  {
         return delegate.comDayCqNotificationImplNotificationServiceImpl(post,apply,delete,action,$location,propertylist,eventFilter);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.personalization.impl.servlets.TargetingConfigurationServlet")
+    @Path("/com.day.cq.personalization.impl.servlets.TargetingConfigurationServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqPersonalizationImplServletsTargetingConfigurationServletInfo.class, authorizations = {
@@ -12211,7 +12212,7 @@ public class SystemApi  {
         return delegate.comDayCqPersonalizationImplServletsTargetingConfigurationServlet(post,apply,delete,action,$location,propertylist,forcelocation);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.polling.importer.impl.ManagedPollConfigImpl")
+    @Path("/com.day.cq.polling.importer.impl.ManagedPollConfigImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqPollingImporterImplManagedPollConfigImplInfo.class, authorizations = {
@@ -12243,7 +12244,7 @@ public class SystemApi  {
         return delegate.comDayCqPollingImporterImplManagedPollConfigImpl(post,apply,delete,action,$location,propertylist,id,enabled,reference,interval,expression,source,target,login,password);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.polling.importer.impl.ManagedPollingImporterImpl")
+    @Path("/com.day.cq.polling.importer.impl.ManagedPollingImporterImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqPollingImporterImplManagedPollingImporterImplInfo.class, authorizations = {
@@ -12267,7 +12268,7 @@ public class SystemApi  {
         return delegate.comDayCqPollingImporterImplManagedPollingImporterImpl(post,apply,delete,action,$location,propertylist,importerUser);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.polling.importer.impl.PollingImporterImpl")
+    @Path("/com.day.cq.polling.importer.impl.PollingImporterImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqPollingImporterImplPollingImporterImplInfo.class, authorizations = {
@@ -12294,7 +12295,7 @@ public class SystemApi  {
         return delegate.comDayCqPollingImporterImplPollingImporterImpl(post,apply,delete,action,$location,propertylist,importerMinInterval,importerUser,excludePaths,includePaths);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.replication.audit.ReplicationEventListener")
+    @Path("/com.day.cq.replication.audit.ReplicationEventListener")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqReplicationAuditReplicationEventListenerInfo.class, authorizations = {
@@ -12318,7 +12319,7 @@ public class SystemApi  {
         return delegate.comDayCqReplicationAuditReplicationEventListener(post,apply,delete,action,$location,propertylist,serviceRanking);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.replication.content.StaticContentBuilder")
+    @Path("/com.day.cq.replication.content.StaticContentBuilder")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqReplicationContentStaticContentBuilderInfo.class, authorizations = {
@@ -12343,7 +12344,7 @@ public class SystemApi  {
         return delegate.comDayCqReplicationContentStaticContentBuilder(post,apply,delete,action,$location,propertylist,host,port);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.replication.impl.AgentManagerImpl")
+    @Path("/com.day.cq.replication.impl.AgentManagerImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqReplicationImplAgentManagerImplInfo.class, authorizations = {
@@ -12369,7 +12370,7 @@ public class SystemApi  {
         return delegate.comDayCqReplicationImplAgentManagerImpl(post,apply,delete,action,$location,propertylist,jobTopics,serviceUserTarget,agentProviderTarget);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.replication.impl.content.durbo.BinaryLessContentBuilder")
+    @Path("/com.day.cq.replication.impl.content.durbo.BinaryLessContentBuilder")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqReplicationImplContentDurboBinaryLessContentBuilderInfo.class, authorizations = {
@@ -12393,7 +12394,7 @@ public class SystemApi  {
         return delegate.comDayCqReplicationImplContentDurboBinaryLessContentBuilder(post,apply,delete,action,$location,propertylist,binaryThreshold);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.replication.impl.content.durbo.DurboImportConfigurationProviderService")
+    @Path("/com.day.cq.replication.impl.content.durbo.DurboImportConfigurationProviderService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqReplicationImplContentDurboDurboImportConfigurationProvInfo.class, authorizations = {
@@ -12425,7 +12426,7 @@ public class SystemApi  {
         return delegate.comDayCqReplicationImplContentDurboDurboImportConfigurationProv(post,apply,delete,action,$location,propertylist,preserveHierarchyNodes,ignoreVersioning,importAcl,saveThreshold,preserveUserPaths,preserveUuid,preserveUuidNodetypes,preserveUuidSubtrees,autoCommit);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.replication.impl.ReplicationContentFactoryProviderImpl")
+    @Path("/com.day.cq.replication.impl.ReplicationContentFactoryProviderImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqReplicationImplReplicationContentFactoryProviderImplInfo.class, authorizations = {
@@ -12450,7 +12451,7 @@ public class SystemApi  {
         return delegate.comDayCqReplicationImplReplicationContentFactoryProviderImpl(post,apply,delete,action,$location,propertylist,replicationContentUseFileStorage,replicationContentMaxCommitAttempts);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.replication.impl.ReplicationReceiverImpl")
+    @Path("/com.day.cq.replication.impl.ReplicationReceiverImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqReplicationImplReplicationReceiverImplInfo.class, authorizations = {
@@ -12475,7 +12476,7 @@ public class SystemApi  {
         return delegate.comDayCqReplicationImplReplicationReceiverImpl(post,apply,delete,action,$location,propertylist,receiverTmpfileThreshold,receiverPackagesUseInstall);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.replication.impl.ReplicatorImpl")
+    @Path("/com.day.cq.replication.impl.ReplicatorImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqReplicationImplReplicatorImplInfo.class, authorizations = {
@@ -12499,7 +12500,7 @@ public class SystemApi  {
         return delegate.comDayCqReplicationImplReplicatorImpl(post,apply,delete,action,$location,propertylist,distributeEvents);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.replication.impl.ReverseReplicator")
+    @Path("/com.day.cq.replication.impl.ReverseReplicator")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqReplicationImplReverseReplicatorInfo.class, authorizations = {
@@ -12523,7 +12524,7 @@ public class SystemApi  {
         return delegate.comDayCqReplicationImplReverseReplicator(post,apply,delete,action,$location,propertylist,schedulerPeriod);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.replication.impl.transport.BinaryLessTransportHandler")
+    @Path("/com.day.cq.replication.impl.transport.BinaryLessTransportHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqReplicationImplTransportBinaryLessTransportHandlerInfo.class, authorizations = {
@@ -12548,7 +12549,7 @@ public class SystemApi  {
         return delegate.comDayCqReplicationImplTransportBinaryLessTransportHandler(post,apply,delete,action,$location,propertylist,disabledCipherSuites,enabledCipherSuites);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.replication.impl.transport.Http")
+    @Path("/com.day.cq.replication.impl.transport.Http")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqReplicationImplTransportHttpInfo.class, authorizations = {
@@ -12573,7 +12574,7 @@ public class SystemApi  {
         return delegate.comDayCqReplicationImplTransportHttp(post,apply,delete,action,$location,propertylist,disabledCipherSuites,enabledCipherSuites);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.reporting.impl.cache.CacheImpl")
+    @Path("/com.day.cq.reporting.impl.cache.CacheImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqReportingImplCacheCacheImplInfo.class, authorizations = {
@@ -12599,7 +12600,7 @@ public class SystemApi  {
         return delegate.comDayCqReportingImplCacheCacheImpl(post,apply,delete,action,$location,propertylist,repcacheEnable,repcacheTtl,repcacheMax);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.reporting.impl.ConfigServiceImpl")
+    @Path("/com.day.cq.reporting.impl.ConfigServiceImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqReportingImplConfigServiceImplInfo.class, authorizations = {
@@ -12632,7 +12633,7 @@ public class SystemApi  {
         return delegate.comDayCqReportingImplConfigServiceImpl(post,apply,delete,action,$location,propertylist,repconfTimezone,repconfLocale,repconfSnapshots,repconfRepdir,repconfHourofday,repconfMinofhour,repconfMaxrows,repconfFakedata,repconfSnapshotuser,repconfEnforcesnapshotuser);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.reporting.impl.RLogAnalyzer")
+    @Path("/com.day.cq.reporting.impl.RLogAnalyzer")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqReportingImplRLogAnalyzerInfo.class, authorizations = {
@@ -12656,7 +12657,7 @@ public class SystemApi  {
         return delegate.comDayCqReportingImplRLogAnalyzer(post,apply,delete,action,$location,propertylist,requestLogOutput);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.rewriter.linkchecker.impl.LinkCheckerImpl")
+    @Path("/com.day.cq.rewriter.linkchecker.impl.LinkCheckerImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqRewriterLinkcheckerImplLinkCheckerImplInfo.class, authorizations = {
@@ -12686,7 +12687,7 @@ public class SystemApi  {
         return delegate.comDayCqRewriterLinkcheckerImplLinkCheckerImpl(post,apply,delete,action,$location,propertylist,schedulerPeriod,schedulerConcurrent,serviceBadLinkToleranceInterval,serviceCheckOverridePatterns,serviceCacheBrokenInternalLinks,serviceSpecialLinkPrefix,serviceSpecialLinkPatterns);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.rewriter.linkchecker.impl.LinkCheckerTask")
+    @Path("/com.day.cq.rewriter.linkchecker.impl.LinkCheckerTask")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqRewriterLinkcheckerImplLinkCheckerTaskInfo.class, authorizations = {
@@ -12715,7 +12716,7 @@ public class SystemApi  {
         return delegate.comDayCqRewriterLinkcheckerImplLinkCheckerTask(post,apply,delete,action,$location,propertylist,schedulerPeriod,schedulerConcurrent,goodLinkTestInterval,badLinkTestInterval,linkUnusedInterval,connectionTimeout);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.rewriter.linkchecker.impl.LinkCheckerTransformerFactory")
+    @Path("/com.day.cq.rewriter.linkchecker.impl.LinkCheckerTransformerFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryInfo.class, authorizations = {
@@ -12745,7 +12746,7 @@ public class SystemApi  {
         return delegate.comDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactory(post,apply,delete,action,$location,propertylist,linkcheckertransformerDisableRewriting,linkcheckertransformerDisableChecking,linkcheckertransformerMapCacheSize,linkcheckertransformerStrictExtensionCheck,linkcheckertransformerStripHtmltExtension,linkcheckertransformerRewriteElements,linkcheckertransformerStripExtensionPathBlacklist);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.rewriter.linkchecker.impl.LinkInfoStorageImpl")
+    @Path("/com.day.cq.rewriter.linkchecker.impl.LinkInfoStorageImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqRewriterLinkcheckerImplLinkInfoStorageImplInfo.class, authorizations = {
@@ -12770,7 +12771,7 @@ public class SystemApi  {
         return delegate.comDayCqRewriterLinkcheckerImplLinkInfoStorageImpl(post,apply,delete,action,$location,propertylist,serviceMaxLinksPerHost,serviceSaveExternalLinkReferences);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.rewriter.processor.impl.HtmlParserFactory")
+    @Path("/com.day.cq.rewriter.processor.impl.HtmlParserFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqRewriterProcessorImplHtmlParserFactoryInfo.class, authorizations = {
@@ -12795,7 +12796,7 @@ public class SystemApi  {
         return delegate.comDayCqRewriterProcessorImplHtmlParserFactory(post,apply,delete,action,$location,propertylist,htmlparserProcessTags,htmlparserPreserveCamelCase);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.search.impl.builder.QueryBuilderImpl")
+    @Path("/com.day.cq.search.impl.builder.QueryBuilderImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqSearchImplBuilderQueryBuilderImplInfo.class, authorizations = {
@@ -12822,7 +12823,7 @@ public class SystemApi  {
         return delegate.comDayCqSearchImplBuilderQueryBuilderImpl(post,apply,delete,action,$location,propertylist,excerptProperties,cacheMaxEntries,cacheEntryLifetime,xpathUnion);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.search.suggest.impl.SuggestionIndexManagerImpl")
+    @Path("/com.day.cq.search.suggest.impl.SuggestionIndexManagerImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqSearchSuggestImplSuggestionIndexManagerImplInfo.class, authorizations = {
@@ -12847,7 +12848,7 @@ public class SystemApi  {
         return delegate.comDayCqSearchSuggestImplSuggestionIndexManagerImpl(post,apply,delete,action,$location,propertylist,pathBuilderTarget,suggestBasepath);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.searchpromote.impl.PublishSearchPromoteConfigHandler")
+    @Path("/com.day.cq.searchpromote.impl.PublishSearchPromoteConfigHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqSearchpromoteImplPublishSearchPromoteConfigHandlerInfo.class, authorizations = {
@@ -12871,7 +12872,7 @@ public class SystemApi  {
         return delegate.comDayCqSearchpromoteImplPublishSearchPromoteConfigHandler(post,apply,delete,action,$location,propertylist,cqSearchpromoteConfighandlerEnabled);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.searchpromote.impl.SearchPromoteServiceImpl")
+    @Path("/com.day.cq.searchpromote.impl.SearchPromoteServiceImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqSearchpromoteImplSearchPromoteServiceImplInfo.class, authorizations = {
@@ -12898,7 +12899,7 @@ public class SystemApi  {
         return delegate.comDayCqSearchpromoteImplSearchPromoteServiceImpl(post,apply,delete,action,$location,propertylist,cqSearchpromoteConfigurationServerUri,cqSearchpromoteConfigurationEnvironment,connectionTimeout,socketTimeout);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.security.ACLSetup")
+    @Path("/com.day.cq.security.ACLSetup")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqSecurityACLSetupInfo.class, authorizations = {
@@ -12922,7 +12923,7 @@ public class SystemApi  {
         return delegate.comDayCqSecurityACLSetup(post,apply,delete,action,$location,propertylist,cqAclsetupRules);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.statistics.impl.StatisticsServiceImpl")
+    @Path("/com.day.cq.statistics.impl.StatisticsServiceImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqStatisticsImplStatisticsServiceImplInfo.class, authorizations = {
@@ -12951,7 +12952,7 @@ public class SystemApi  {
         return delegate.comDayCqStatisticsImplStatisticsServiceImpl(post,apply,delete,action,$location,propertylist,schedulerPeriod,schedulerConcurrent,path,workspace,keywordsPath,asyncEntries);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.tagging.impl.JcrTagManagerFactoryImpl")
+    @Path("/com.day.cq.tagging.impl.JcrTagManagerFactoryImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqTaggingImplJcrTagManagerFactoryImplInfo.class, authorizations = {
@@ -12975,7 +12976,7 @@ public class SystemApi  {
         return delegate.comDayCqTaggingImplJcrTagManagerFactoryImpl(post,apply,delete,action,$location,propertylist,validationEnabled);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.tagging.impl.search.TagPredicateEvaluator")
+    @Path("/com.day.cq.tagging.impl.search.TagPredicateEvaluator")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqTaggingImplSearchTagPredicateEvaluatorInfo.class, authorizations = {
@@ -12999,7 +13000,7 @@ public class SystemApi  {
         return delegate.comDayCqTaggingImplSearchTagPredicateEvaluator(post,apply,delete,action,$location,propertylist,ignorePath);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.tagging.impl.TagGarbageCollector")
+    @Path("/com.day.cq.tagging.impl.TagGarbageCollector")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqTaggingImplTagGarbageCollectorInfo.class, authorizations = {
@@ -13023,7 +13024,7 @@ public class SystemApi  {
         return delegate.comDayCqTaggingImplTagGarbageCollector(post,apply,delete,action,$location,propertylist,schedulerExpression);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.contentsync.impl.handler.PagesUpdateHandler")
+    @Path("/com.day.cq.wcm.contentsync.impl.handler.PagesUpdateHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmContentsyncImplHandlerPagesUpdateHandlerInfo.class, authorizations = {
@@ -13047,7 +13048,7 @@ public class SystemApi  {
         return delegate.comDayCqWcmContentsyncImplHandlerPagesUpdateHandler(post,apply,delete,action,$location,propertylist,cqPagesupdatehandlerImageresourcetypes);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.contentsync.impl.rewriter.PathRewriterTransformerFactory")
+    @Path("/com.day.cq.wcm.contentsync.impl.rewriter.PathRewriterTransformerFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorInfo.class, authorizations = {
@@ -13076,7 +13077,7 @@ public class SystemApi  {
         return delegate.comDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactor(post,apply,delete,action,$location,propertylist,cqContentsyncPathrewritertransformerMappingLinks,cqContentsyncPathrewritertransformerMappingClientlibs,cqContentsyncPathrewritertransformerMappingImages,cqContentsyncPathrewritertransformerAttributePattern,cqContentsyncPathrewritertransformerClientlibraryPattern,cqContentsyncPathrewritertransformerClientlibraryReplace);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl")
+    @Path("/com.day.cq.wcm.core.impl.AuthoringUIModeServiceImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmCoreImplAuthoringUIModeServiceImplInfo.class, authorizations = {
@@ -13100,7 +13101,7 @@ public class SystemApi  {
         return delegate.comDayCqWcmCoreImplAuthoringUIModeServiceImpl(post,apply,delete,action,$location,propertylist,authoringUIModeServiceDefault);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.core.impl.commands.WCMCommandServlet")
+    @Path("/com.day.cq.wcm.core.impl.commands.WCMCommandServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmCoreImplCommandsWCMCommandServletInfo.class, authorizations = {
@@ -13124,7 +13125,7 @@ public class SystemApi  {
         return delegate.comDayCqWcmCoreImplCommandsWCMCommandServlet(post,apply,delete,action,$location,propertylist,wcmcommandservletDeleteWhitelist);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.core.impl.devicedetection.DeviceIdentificationModeImpl")
+    @Path("/com.day.cq.wcm.core.impl.devicedetection.DeviceIdentificationModeImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmCoreImplDevicedetectionDeviceIdentificationModeImplInfo.class, authorizations = {
@@ -13149,7 +13150,7 @@ public class SystemApi  {
         return delegate.comDayCqWcmCoreImplDevicedetectionDeviceIdentificationModeImpl(post,apply,delete,action,$location,propertylist,dimDefaultMode,dimAppcacheEnabled);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.core.impl.event.PageEventAuditListener")
+    @Path("/com.day.cq.wcm.core.impl.event.PageEventAuditListener")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmCoreImplEventPageEventAuditListenerInfo.class, authorizations = {
@@ -13173,7 +13174,7 @@ public class SystemApi  {
         return delegate.comDayCqWcmCoreImplEventPageEventAuditListener(post,apply,delete,action,$location,propertylist,configured);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.core.impl.event.PagePostProcessor")
+    @Path("/com.day.cq.wcm.core.impl.event.PagePostProcessor")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmCoreImplEventPagePostProcessorInfo.class, authorizations = {
@@ -13197,7 +13198,7 @@ public class SystemApi  {
         return delegate.comDayCqWcmCoreImplEventPagePostProcessor(post,apply,delete,action,$location,propertylist,paths);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.core.impl.event.RepositoryChangeEventListener")
+    @Path("/com.day.cq.wcm.core.impl.event.RepositoryChangeEventListener")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmCoreImplEventRepositoryChangeEventListenerInfo.class, authorizations = {
@@ -13222,7 +13223,7 @@ public class SystemApi  {
         return delegate.comDayCqWcmCoreImplEventRepositoryChangeEventListener(post,apply,delete,action,$location,propertylist,paths,excludedPaths);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.core.impl.event.TemplatePostProcessor")
+    @Path("/com.day.cq.wcm.core.impl.event.TemplatePostProcessor")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmCoreImplEventTemplatePostProcessorInfo.class, authorizations = {
@@ -13246,7 +13247,7 @@ public class SystemApi  {
         return delegate.comDayCqWcmCoreImplEventTemplatePostProcessor(post,apply,delete,action,$location,propertylist,paths);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.core.impl.LanguageManagerImpl")
+    @Path("/com.day.cq.wcm.core.impl.LanguageManagerImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmCoreImplLanguageManagerImplInfo.class, authorizations = {
@@ -13271,7 +13272,7 @@ public class SystemApi  {
         return delegate.comDayCqWcmCoreImplLanguageManagerImpl(post,apply,delete,action,$location,propertylist,langmgrListPath,langmgrCountryDefault);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.core.impl.LinkCheckerConfigurationFactoryImpl")
+    @Path("/com.day.cq.wcm.core.impl.LinkCheckerConfigurationFactoryImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplInfo.class, authorizations = {
@@ -13304,7 +13305,7 @@ public class SystemApi  {
         return delegate.comDayCqWcmCoreImplLinkCheckerConfigurationFactoryImpl(post,apply,delete,action,$location,propertylist,linkExpiredPrefix,linkExpiredRemove,linkExpiredSuffix,linkInvalidPrefix,linkInvalidRemove,linkInvalidSuffix,linkPredatedPrefix,linkPredatedRemove,linkPredatedSuffix,linkWcmmodes);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.core.impl.page.PageInfoAggregatorImpl")
+    @Path("/com.day.cq.wcm.core.impl.page.PageInfoAggregatorImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmCoreImplPagePageInfoAggregatorImplInfo.class, authorizations = {
@@ -13329,7 +13330,7 @@ public class SystemApi  {
         return delegate.comDayCqWcmCoreImplPagePageInfoAggregatorImpl(post,apply,delete,action,$location,propertylist,pageInfoProviderPropertyRegexDefault,pageInfoProviderPropertyName);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.core.impl.page.PageManagerFactoryImpl")
+    @Path("/com.day.cq.wcm.core.impl.page.PageManagerFactoryImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmCoreImplPagePageManagerFactoryImplInfo.class, authorizations = {
@@ -13354,7 +13355,7 @@ public class SystemApi  {
         return delegate.comDayCqWcmCoreImplPagePageManagerFactoryImpl(post,apply,delete,action,$location,propertylist,illegalCharMapping,pageSubTreeActivationCheck);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.core.impl.references.content.ContentReferenceConfig")
+    @Path("/com.day.cq.wcm.core.impl.references.content.ContentReferenceConfig")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmCoreImplReferencesContentContentReferenceConfigInfo.class, authorizations = {
@@ -13378,7 +13379,7 @@ public class SystemApi  {
         return delegate.comDayCqWcmCoreImplReferencesContentContentReferenceConfig(post,apply,delete,action,$location,propertylist,contentReferenceConfigResourceTypes);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.core.impl.servlets.contentfinder.AssetViewHandler")
+    @Path("/com.day.cq.wcm.core.impl.servlets.contentfinder.AssetViewHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerInfo.class, authorizations = {
@@ -13406,7 +13407,7 @@ public class SystemApi  {
         return delegate.comDayCqWcmCoreImplServletsContentfinderAssetViewHandler(post,apply,delete,action,$location,propertylist,damShowexpired,damShowhidden,tagTitleSearch,guessTotal,damExpiryProperty);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.core.impl.servlets.contentfinder.connector.ConnectorViewHandler")
+    @Path("/com.day.cq.wcm.core.impl.servlets.contentfinder.connector.ConnectorViewHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorVieInfo.class, authorizations = {
@@ -13430,7 +13431,7 @@ public class SystemApi  {
         return delegate.comDayCqWcmCoreImplServletsContentfinderConnectorConnectorVie(post,apply,delete,action,$location,propertylist,itemResourceTypes);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.core.impl.servlets.contentfinder.PageViewHandler")
+    @Path("/com.day.cq.wcm.core.impl.servlets.contentfinder.PageViewHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmCoreImplServletsContentfinderPageViewHandlerInfo.class, authorizations = {
@@ -13455,7 +13456,7 @@ public class SystemApi  {
         return delegate.comDayCqWcmCoreImplServletsContentfinderPageViewHandler(post,apply,delete,action,$location,propertylist,guessTotal,tagTitleSearch);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.core.impl.servlets.FindReplaceServlet")
+    @Path("/com.day.cq.wcm.core.impl.servlets.FindReplaceServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmCoreImplServletsFindReplaceServletInfo.class, authorizations = {
@@ -13479,7 +13480,7 @@ public class SystemApi  {
         return delegate.comDayCqWcmCoreImplServletsFindReplaceServlet(post,apply,delete,action,$location,propertylist,scope);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.core.impl.servlets.ReferenceSearchServlet")
+    @Path("/com.day.cq.wcm.core.impl.servlets.ReferenceSearchServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmCoreImplServletsReferenceSearchServletInfo.class, authorizations = {
@@ -13504,7 +13505,7 @@ public class SystemApi  {
         return delegate.comDayCqWcmCoreImplServletsReferenceSearchServlet(post,apply,delete,action,$location,propertylist,referencesearchservletMaxReferencesPerPage,referencesearchservletMaxPages);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.core.impl.servlets.ThumbnailServlet")
+    @Path("/com.day.cq.wcm.core.impl.servlets.ThumbnailServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmCoreImplServletsThumbnailServletInfo.class, authorizations = {
@@ -13529,7 +13530,7 @@ public class SystemApi  {
         return delegate.comDayCqWcmCoreImplServletsThumbnailServlet(post,apply,delete,action,$location,propertylist,workspace,dimensions);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.core.impl.utils.DefaultPageNameValidator")
+    @Path("/com.day.cq.wcm.core.impl.utils.DefaultPageNameValidator")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmCoreImplUtilsDefaultPageNameValidatorInfo.class, authorizations = {
@@ -13553,7 +13554,7 @@ public class SystemApi  {
         return delegate.comDayCqWcmCoreImplUtilsDefaultPageNameValidator(post,apply,delete,action,$location,propertylist,nonValidChars);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.core.impl.variants.PageVariantsProviderImpl")
+    @Path("/com.day.cq.wcm.core.impl.variants.PageVariantsProviderImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmCoreImplVariantsPageVariantsProviderImplInfo.class, authorizations = {
@@ -13577,7 +13578,7 @@ public class SystemApi  {
         return delegate.comDayCqWcmCoreImplVariantsPageVariantsProviderImpl(post,apply,delete,action,$location,propertylist,defaultExternalizerDomain);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.core.impl.VersionManagerImpl")
+    @Path("/com.day.cq.wcm.core.impl.VersionManagerImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmCoreImplVersionManagerImplInfo.class, authorizations = {
@@ -13607,7 +13608,7 @@ public class SystemApi  {
         return delegate.comDayCqWcmCoreImplVersionManagerImpl(post,apply,delete,action,$location,propertylist,versionmanagerCreateVersionOnActivation,versionmanagerPurgingEnabled,versionmanagerPurgePaths,versionmanagerIvPaths,versionmanagerMaxAgeDays,versionmanagerMaxNumberVersions,versionmanagerMinNumberVersions);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.core.impl.VersionPurgeTask")
+    @Path("/com.day.cq.wcm.core.impl.VersionPurgeTask")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmCoreImplVersionPurgeTaskInfo.class, authorizations = {
@@ -13635,7 +13636,7 @@ public class SystemApi  {
         return delegate.comDayCqWcmCoreImplVersionPurgeTask(post,apply,delete,action,$location,propertylist,versionpurgePaths,versionpurgeRecursive,versionpurgeMaxVersions,versionpurgeMinVersions,versionpurgeMaxAgeDays);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.core.impl.WCMDebugFilter")
+    @Path("/com.day.cq.wcm.core.impl.WCMDebugFilter")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmCoreImplWCMDebugFilterInfo.class, authorizations = {
@@ -13660,7 +13661,7 @@ public class SystemApi  {
         return delegate.comDayCqWcmCoreImplWCMDebugFilter(post,apply,delete,action,$location,propertylist,wcmdbgfilterEnabled,wcmdbgfilterJspDebug);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.core.impl.WCMDeveloperModeFilter")
+    @Path("/com.day.cq.wcm.core.impl.WCMDeveloperModeFilter")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmCoreImplWCMDeveloperModeFilterInfo.class, authorizations = {
@@ -13684,7 +13685,7 @@ public class SystemApi  {
         return delegate.comDayCqWcmCoreImplWCMDeveloperModeFilter(post,apply,delete,action,$location,propertylist,wcmdevmodefilterEnabled);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.core.impl.warp.TimeWarpFilter")
+    @Path("/com.day.cq.wcm.core.impl.warp.TimeWarpFilter")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmCoreImplWarpTimeWarpFilterInfo.class, authorizations = {
@@ -13709,7 +13710,7 @@ public class SystemApi  {
         return delegate.comDayCqWcmCoreImplWarpTimeWarpFilter(post,apply,delete,action,$location,propertylist,filterOrder,filterScope);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.core.mvt.MVTStatisticsImpl")
+    @Path("/com.day.cq.wcm.core.mvt.MVTStatisticsImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmCoreMvtMVTStatisticsImplInfo.class, authorizations = {
@@ -13733,7 +13734,7 @@ public class SystemApi  {
         return delegate.comDayCqWcmCoreMvtMVTStatisticsImpl(post,apply,delete,action,$location,propertylist,mvtstatisticsTrackingurl);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.core.stats.PageViewStatisticsImpl")
+    @Path("/com.day.cq.wcm.core.stats.PageViewStatisticsImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmCoreStatsPageViewStatisticsImplInfo.class, authorizations = {
@@ -13758,7 +13759,7 @@ public class SystemApi  {
         return delegate.comDayCqWcmCoreStatsPageViewStatisticsImpl(post,apply,delete,action,$location,propertylist,pageviewstatisticsTrackingurl,pageviewstatisticsTrackingscriptEnabled);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.core.WCMRequestFilter")
+    @Path("/com.day.cq.wcm.core.WCMRequestFilter")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmCoreWCMRequestFilterInfo.class, authorizations = {
@@ -13782,7 +13783,7 @@ public class SystemApi  {
         return delegate.comDayCqWcmCoreWCMRequestFilter(post,apply,delete,action,$location,propertylist,wcmfilterMode);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.designimporter.DesignPackageImporter")
+    @Path("/com.day.cq.wcm.designimporter.DesignPackageImporter")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmDesignimporterDesignPackageImporterInfo.class, authorizations = {
@@ -13806,7 +13807,7 @@ public class SystemApi  {
         return delegate.comDayCqWcmDesignimporterDesignPackageImporter(post,apply,delete,action,$location,propertylist,extractFilter);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.designimporter.impl.CanvasBuilderImpl")
+    @Path("/com.day.cq.wcm.designimporter.impl.CanvasBuilderImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmDesignimporterImplCanvasBuilderImplInfo.class, authorizations = {
@@ -13833,7 +13834,7 @@ public class SystemApi  {
         return delegate.comDayCqWcmDesignimporterImplCanvasBuilderImpl(post,apply,delete,action,$location,propertylist,filepattern,buildPageNodes,buildClientLibs,buildCanvasComponent);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.designimporter.impl.CanvasPageDeleteHandler")
+    @Path("/com.day.cq.wcm.designimporter.impl.CanvasPageDeleteHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmDesignimporterImplCanvasPageDeleteHandlerInfo.class, authorizations = {
@@ -13858,7 +13859,7 @@ public class SystemApi  {
         return delegate.comDayCqWcmDesignimporterImplCanvasPageDeleteHandler(post,apply,delete,action,$location,propertylist,minThreadPoolSize,maxThreadPoolSize);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.designimporter.impl.EntryPreprocessorImpl")
+    @Path("/com.day.cq.wcm.designimporter.impl.EntryPreprocessorImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmDesignimporterImplEntryPreprocessorImplInfo.class, authorizations = {
@@ -13883,7 +13884,7 @@ public class SystemApi  {
         return delegate.comDayCqWcmDesignimporterImplEntryPreprocessorImpl(post,apply,delete,action,$location,propertylist,searchPattern,replacePattern);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.designimporter.impl.MobileCanvasBuilderImpl")
+    @Path("/com.day.cq.wcm.designimporter.impl.MobileCanvasBuilderImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmDesignimporterImplMobileCanvasBuilderImplInfo.class, authorizations = {
@@ -13911,7 +13912,7 @@ public class SystemApi  {
         return delegate.comDayCqWcmDesignimporterImplMobileCanvasBuilderImpl(post,apply,delete,action,$location,propertylist,filepattern,deviceGroups,buildPageNodes,buildClientLibs,buildCanvasComponent);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.CanvasComponentTagHandlerFactory")
+    @Path("/com.day.cq.wcm.designimporter.parser.taghandlers.factory.CanvasComponentTagHandlerFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeInfo.class, authorizations = {
@@ -13936,7 +13937,7 @@ public class SystemApi  {
         return delegate.comDayCqWcmDesignimporterParserTaghandlersFactoryCanvasCompone(post,apply,delete,action,$location,propertylist,serviceRanking,tagpattern);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.DefaultComponentTagHandlerFactory")
+    @Path("/com.day.cq.wcm.designimporter.parser.taghandlers.factory.DefaultComponentTagHandlerFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultComponInfo.class, authorizations = {
@@ -13961,7 +13962,7 @@ public class SystemApi  {
         return delegate.comDayCqWcmDesignimporterParserTaghandlersFactoryDefaultCompon(post,apply,delete,action,$location,propertylist,serviceRanking,tagpattern);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.DefaultTagHandlerFactory")
+    @Path("/com.day.cq.wcm.designimporter.parser.taghandlers.factory.DefaultTagHandlerFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHanInfo.class, authorizations = {
@@ -13986,7 +13987,7 @@ public class SystemApi  {
         return delegate.comDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHan(post,apply,delete,action,$location,propertylist,serviceRanking,tagpattern);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.HeadTagHandlerFactory")
+    @Path("/com.day.cq.wcm.designimporter.parser.taghandlers.factory.HeadTagHandlerFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandleInfo.class, authorizations = {
@@ -14011,7 +14012,7 @@ public class SystemApi  {
         return delegate.comDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandle(post,apply,delete,action,$location,propertylist,serviceRanking,tagpattern);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.IFrameTagHandlerFactory")
+    @Path("/com.day.cq.wcm.designimporter.parser.taghandlers.factory.IFrameTagHandlerFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHandInfo.class, authorizations = {
@@ -14036,7 +14037,7 @@ public class SystemApi  {
         return delegate.comDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHand(post,apply,delete,action,$location,propertylist,serviceRanking,tagpattern);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.ImageComponentTagHandlerFactory")
+    @Path("/com.day.cq.wcm.designimporter.parser.taghandlers.factory.ImageComponentTagHandlerFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponenInfo.class, authorizations = {
@@ -14062,7 +14063,7 @@ public class SystemApi  {
         return delegate.comDayCqWcmDesignimporterParserTaghandlersFactoryImageComponen(post,apply,delete,action,$location,propertylist,serviceRanking,tagpattern,componentResourceType);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.ImgTagHandlerFactory")
+    @Path("/com.day.cq.wcm.designimporter.parser.taghandlers.factory.ImgTagHandlerFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandlerInfo.class, authorizations = {
@@ -14087,7 +14088,7 @@ public class SystemApi  {
         return delegate.comDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandler(post,apply,delete,action,$location,propertylist,serviceRanking,tagpattern);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.InlineScriptTagHandlerFactory")
+    @Path("/com.day.cq.wcm.designimporter.parser.taghandlers.factory.InlineScriptTagHandlerFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTInfo.class, authorizations = {
@@ -14112,7 +14113,7 @@ public class SystemApi  {
         return delegate.comDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptT(post,apply,delete,action,$location,propertylist,serviceRanking,tagpattern);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.LinkTagHandlerFactory")
+    @Path("/com.day.cq.wcm.designimporter.parser.taghandlers.factory.LinkTagHandlerFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandleInfo.class, authorizations = {
@@ -14137,7 +14138,7 @@ public class SystemApi  {
         return delegate.comDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandle(post,apply,delete,action,$location,propertylist,serviceRanking,tagpattern);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.MetaTagHandlerFactory")
+    @Path("/com.day.cq.wcm.designimporter.parser.taghandlers.factory.MetaTagHandlerFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandleInfo.class, authorizations = {
@@ -14162,7 +14163,7 @@ public class SystemApi  {
         return delegate.comDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandle(post,apply,delete,action,$location,propertylist,serviceRanking,tagpattern);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.NonScriptTagHandlerFactory")
+    @Path("/com.day.cq.wcm.designimporter.parser.taghandlers.factory.NonScriptTagHandlerFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagHInfo.class, authorizations = {
@@ -14187,7 +14188,7 @@ public class SystemApi  {
         return delegate.comDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagH(post,apply,delete,action,$location,propertylist,serviceRanking,tagpattern);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.ParsysComponentTagHandlerFactory")
+    @Path("/com.day.cq.wcm.designimporter.parser.taghandlers.factory.ParsysComponentTagHandlerFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmDesignimporterParserTaghandlersFactoryParsysComponeInfo.class, authorizations = {
@@ -14213,7 +14214,7 @@ public class SystemApi  {
         return delegate.comDayCqWcmDesignimporterParserTaghandlersFactoryParsysCompone(post,apply,delete,action,$location,propertylist,serviceRanking,tagpattern,componentResourceType);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.ScriptTagHandlerFactory")
+    @Path("/com.day.cq.wcm.designimporter.parser.taghandlers.factory.ScriptTagHandlerFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandInfo.class, authorizations = {
@@ -14238,7 +14239,7 @@ public class SystemApi  {
         return delegate.comDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHand(post,apply,delete,action,$location,propertylist,serviceRanking,tagpattern);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.StyleTagHandlerFactory")
+    @Path("/com.day.cq.wcm.designimporter.parser.taghandlers.factory.StyleTagHandlerFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlInfo.class, authorizations = {
@@ -14263,7 +14264,7 @@ public class SystemApi  {
         return delegate.comDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandl(post,apply,delete,action,$location,propertylist,serviceRanking,tagpattern);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.TextComponentTagHandlerFactory")
+    @Path("/com.day.cq.wcm.designimporter.parser.taghandlers.factory.TextComponentTagHandlerFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmDesignimporterParserTaghandlersFactoryTextComponentInfo.class, authorizations = {
@@ -14289,7 +14290,7 @@ public class SystemApi  {
         return delegate.comDayCqWcmDesignimporterParserTaghandlersFactoryTextComponent(post,apply,delete,action,$location,propertylist,serviceRanking,tagpattern,componentResourceType);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.TitleComponentTagHandlerFactory")
+    @Path("/com.day.cq.wcm.designimporter.parser.taghandlers.factory.TitleComponentTagHandlerFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponenInfo.class, authorizations = {
@@ -14315,7 +14316,7 @@ public class SystemApi  {
         return delegate.comDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponen(post,apply,delete,action,$location,propertylist,serviceRanking,tagpattern,componentResourceType);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.designimporter.parser.taghandlers.factory.TitleTagHandlerFactory")
+    @Path("/com.day.cq.wcm.designimporter.parser.taghandlers.factory.TitleTagHandlerFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandlInfo.class, authorizations = {
@@ -14340,7 +14341,7 @@ public class SystemApi  {
         return delegate.comDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandl(post,apply,delete,action,$location,propertylist,serviceRanking,tagpattern);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.foundation.forms.impl.FormChooserServlet")
+    @Path("/com.day.cq.wcm.foundation.forms.impl.FormChooserServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmFoundationFormsImplFormChooserServletInfo.class, authorizations = {
@@ -14368,7 +14369,7 @@ public class SystemApi  {
         return delegate.comDayCqWcmFoundationFormsImplFormChooserServlet(post,apply,delete,action,$location,propertylist,serviceName,slingServletResourceTypes,slingServletSelectors,slingServletMethods,formsFormchooserservletAdvansesearchRequire);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.foundation.forms.impl.FormParagraphPostProcessor")
+    @Path("/com.day.cq.wcm.foundation.forms.impl.FormParagraphPostProcessor")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmFoundationFormsImplFormParagraphPostProcessorInfo.class, authorizations = {
@@ -14393,7 +14394,7 @@ public class SystemApi  {
         return delegate.comDayCqWcmFoundationFormsImplFormParagraphPostProcessor(post,apply,delete,action,$location,propertylist,formsFormparagraphpostprocessorEnabled,formsFormparagraphpostprocessorFormresourcetypes);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.foundation.forms.impl.FormsHandlingServlet")
+    @Path("/com.day.cq.wcm.foundation.forms.impl.FormsHandlingServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmFoundationFormsImplFormsHandlingServletInfo.class, authorizations = {
@@ -14418,7 +14419,7 @@ public class SystemApi  {
         return delegate.comDayCqWcmFoundationFormsImplFormsHandlingServlet(post,apply,delete,action,$location,propertylist,nameWhitelist,allowExpressions);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.foundation.forms.impl.MailServlet")
+    @Path("/com.day.cq.wcm.foundation.forms.impl.MailServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmFoundationFormsImplMailServletInfo.class, authorizations = {
@@ -14445,7 +14446,7 @@ public class SystemApi  {
         return delegate.comDayCqWcmFoundationFormsImplMailServlet(post,apply,delete,action,$location,propertylist,slingServletResourceTypes,slingServletSelectors,resourceWhitelist,resourceBlacklist);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.foundation.impl.AdaptiveImageComponentServlet")
+    @Path("/com.day.cq.wcm.foundation.impl.AdaptiveImageComponentServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmFoundationImplAdaptiveImageComponentServletInfo.class, authorizations = {
@@ -14469,7 +14470,7 @@ public class SystemApi  {
         return delegate.comDayCqWcmFoundationImplAdaptiveImageComponentServlet(post,apply,delete,action,$location,propertylist,adaptSupportedWidths);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.foundation.impl.HTTPAuthHandler")
+    @Path("/com.day.cq.wcm.foundation.impl.HTTPAuthHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmFoundationImplHTTPAuthHandlerInfo.class, authorizations = {
@@ -14498,7 +14499,7 @@ public class SystemApi  {
         return delegate.comDayCqWcmFoundationImplHTTPAuthHandler(post,apply,delete,action,$location,propertylist,path,authHttpNologin,authHttpRealm,authDefaultLoginpage,authCredForm,authCredUtf8);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.foundation.impl.PageImpressionsTracker")
+    @Path("/com.day.cq.wcm.foundation.impl.PageImpressionsTracker")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmFoundationImplPageImpressionsTrackerInfo.class, authorizations = {
@@ -14522,7 +14523,7 @@ public class SystemApi  {
         return delegate.comDayCqWcmFoundationImplPageImpressionsTracker(post,apply,delete,action,$location,propertylist,slingAuthRequirements);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.foundation.impl.PageRedirectServlet")
+    @Path("/com.day.cq.wcm.foundation.impl.PageRedirectServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmFoundationImplPageRedirectServletInfo.class, authorizations = {
@@ -14546,7 +14547,7 @@ public class SystemApi  {
         return delegate.comDayCqWcmFoundationImplPageRedirectServlet(post,apply,delete,action,$location,propertylist,excludedResourceTypes);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.foundation.security.impl.DefaultAttachmentTypeBlacklistService")
+    @Path("/com.day.cq.wcm.foundation.security.impl.DefaultAttachmentTypeBlacklistService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistInfo.class, authorizations = {
@@ -14571,7 +14572,7 @@ public class SystemApi  {
         return delegate.comDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklist(post,apply,delete,action,$location,propertylist,defaultAttachmentTypeBlacklist,baselineAttachmentTypeBlacklist);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.foundation.security.impl.SaferSlingPostValidatorImpl")
+    @Path("/com.day.cq.wcm.foundation.security.impl.SaferSlingPostValidatorImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplInfo.class, authorizations = {
@@ -14602,7 +14603,7 @@ public class SystemApi  {
         return delegate.comDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImpl(post,apply,delete,action,$location,propertylist,parameterWhitelist,parameterWhitelistPrefixes,binaryParameterWhitelist,modifierWhitelist,operationWhitelist,operationWhitelistPrefixes,typehintWhitelist,resourcetypeWhitelist);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.mobile.core.impl.device.DeviceInfoTransformerFactory")
+    @Path("/com.day.cq.wcm.mobile.core.impl.device.DeviceInfoTransformerFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactoryInfo.class, authorizations = {
@@ -14627,7 +14628,7 @@ public class SystemApi  {
         return delegate.comDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactory(post,apply,delete,action,$location,propertylist,deviceInfoTransformerEnabled,deviceInfoTransformerCssStyle);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.mobile.core.impl.redirect.RedirectFilter")
+    @Path("/com.day.cq.wcm.mobile.core.impl.redirect.RedirectFilter")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmMobileCoreImplRedirectRedirectFilterInfo.class, authorizations = {
@@ -14654,7 +14655,7 @@ public class SystemApi  {
         return delegate.comDayCqWcmMobileCoreImplRedirectRedirectFilter(post,apply,delete,action,$location,propertylist,redirectEnabled,redirectStatsEnabled,redirectExtensions,redirectPaths);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.msm.impl.actions.ContentCopyActionFactory")
+    @Path("/com.day.cq.wcm.msm.impl.actions.ContentCopyActionFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmMsmImplActionsContentCopyActionFactoryInfo.class, authorizations = {
@@ -14681,7 +14682,7 @@ public class SystemApi  {
         return delegate.comDayCqWcmMsmImplActionsContentCopyActionFactory(post,apply,delete,action,$location,propertylist,cqWcmMsmActionExcludednodetypes,cqWcmMsmActionExcludedparagraphitems,cqWcmMsmActionExcludedprops,contentcopyactionOrderStyle);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.msm.impl.actions.ContentDeleteActionFactory")
+    @Path("/com.day.cq.wcm.msm.impl.actions.ContentDeleteActionFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmMsmImplActionsContentDeleteActionFactoryInfo.class, authorizations = {
@@ -14707,7 +14708,7 @@ public class SystemApi  {
         return delegate.comDayCqWcmMsmImplActionsContentDeleteActionFactory(post,apply,delete,action,$location,propertylist,cqWcmMsmActionExcludednodetypes,cqWcmMsmActionExcludedparagraphitems,cqWcmMsmActionExcludedprops);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.msm.impl.actions.ContentUpdateActionFactory")
+    @Path("/com.day.cq.wcm.msm.impl.actions.ContentUpdateActionFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmMsmImplActionsContentUpdateActionFactoryInfo.class, authorizations = {
@@ -14734,7 +14735,7 @@ public class SystemApi  {
         return delegate.comDayCqWcmMsmImplActionsContentUpdateActionFactory(post,apply,delete,action,$location,propertylist,cqWcmMsmActionExcludednodetypes,cqWcmMsmActionExcludedparagraphitems,cqWcmMsmActionExcludedprops,cqWcmMsmActionIgnoredMixin);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.msm.impl.actions.OrderChildrenActionFactory")
+    @Path("/com.day.cq.wcm.msm.impl.actions.OrderChildrenActionFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmMsmImplActionsOrderChildrenActionFactoryInfo.class, authorizations = {
@@ -14760,7 +14761,7 @@ public class SystemApi  {
         return delegate.comDayCqWcmMsmImplActionsOrderChildrenActionFactory(post,apply,delete,action,$location,propertylist,cqWcmMsmActionExcludednodetypes,cqWcmMsmActionExcludedparagraphitems,cqWcmMsmActionExcludedprops);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.msm.impl.actions.PageMoveActionFactory")
+    @Path("/com.day.cq.wcm.msm.impl.actions.PageMoveActionFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmMsmImplActionsPageMoveActionFactoryInfo.class, authorizations = {
@@ -14787,7 +14788,7 @@ public class SystemApi  {
         return delegate.comDayCqWcmMsmImplActionsPageMoveActionFactory(post,apply,delete,action,$location,propertylist,cqWcmMsmActionExcludednodetypes,cqWcmMsmActionExcludedparagraphitems,cqWcmMsmActionExcludedprops,cqWcmMsmImplActionsPagemovePropReferenceUpdate);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.msm.impl.actions.ReferencesUpdateActionFactory")
+    @Path("/com.day.cq.wcm.msm.impl.actions.ReferencesUpdateActionFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmMsmImplActionsReferencesUpdateActionFactoryInfo.class, authorizations = {
@@ -14814,7 +14815,7 @@ public class SystemApi  {
         return delegate.comDayCqWcmMsmImplActionsReferencesUpdateActionFactory(post,apply,delete,action,$location,propertylist,cqWcmMsmActionExcludednodetypes,cqWcmMsmActionExcludedparagraphitems,cqWcmMsmActionExcludedprops,cqWcmMsmImplActionReferencesupdatePropUpdateNested);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.msm.impl.actions.VersionCopyActionFactory")
+    @Path("/com.day.cq.wcm.msm.impl.actions.VersionCopyActionFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmMsmImplActionsVersionCopyActionFactoryInfo.class, authorizations = {
@@ -14840,7 +14841,7 @@ public class SystemApi  {
         return delegate.comDayCqWcmMsmImplActionsVersionCopyActionFactory(post,apply,delete,action,$location,propertylist,cqWcmMsmActionExcludednodetypes,cqWcmMsmActionExcludedparagraphitems,cqWcmMsmActionExcludedprops);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.msm.impl.LiveRelationshipManagerImpl")
+    @Path("/com.day.cq.wcm.msm.impl.LiveRelationshipManagerImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmMsmImplLiveRelationshipManagerImplInfo.class, authorizations = {
@@ -14864,7 +14865,7 @@ public class SystemApi  {
         return delegate.comDayCqWcmMsmImplLiveRelationshipManagerImpl(post,apply,delete,action,$location,propertylist,liverelationshipmgrRelationsconfigDefault);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.msm.impl.RolloutManagerImpl")
+    @Path("/com.day.cq.wcm.msm.impl.RolloutManagerImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmMsmImplRolloutManagerImplInfo.class, authorizations = {
@@ -14896,7 +14897,7 @@ public class SystemApi  {
         return delegate.comDayCqWcmMsmImplRolloutManagerImpl(post,apply,delete,action,$location,propertylist,eventFilter,rolloutmgrExcludedpropsDefault,rolloutmgrExcludedparagraphpropsDefault,rolloutmgrExcludednodetypesDefault,rolloutmgrThreadpoolMaxsize,rolloutmgrThreadpoolMaxshutdowntime,rolloutmgrThreadpoolPriority,rolloutmgrCommitSize,rolloutmgrConflicthandlingEnabled);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.msm.impl.servlets.AuditLogServlet")
+    @Path("/com.day.cq.wcm.msm.impl.servlets.AuditLogServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmMsmImplServletsAuditLogServletInfo.class, authorizations = {
@@ -14921,7 +14922,7 @@ public class SystemApi  {
         return delegate.comDayCqWcmMsmImplServletsAuditLogServlet(post,apply,delete,action,$location,propertylist,auditlogservletDefaultEventsCount,auditlogservletDefaultPath);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.notification.email.impl.EmailChannel")
+    @Path("/com.day.cq.wcm.notification.email.impl.EmailChannel")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmNotificationEmailImplEmailChannelInfo.class, authorizations = {
@@ -14945,7 +14946,7 @@ public class SystemApi  {
         return delegate.comDayCqWcmNotificationEmailImplEmailChannel(post,apply,delete,action,$location,propertylist,emailFrom);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.notification.impl.NotificationManagerImpl")
+    @Path("/com.day.cq.wcm.notification.impl.NotificationManagerImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmNotificationImplNotificationManagerImplInfo.class, authorizations = {
@@ -14969,7 +14970,7 @@ public class SystemApi  {
         return delegate.comDayCqWcmNotificationImplNotificationManagerImpl(post,apply,delete,action,$location,propertylist,eventTopics);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.scripting.impl.BVPManager")
+    @Path("/com.day.cq.wcm.scripting.impl.BVPManager")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmScriptingImplBVPManagerInfo.class, authorizations = {
@@ -14993,7 +14994,7 @@ public class SystemApi  {
         return delegate.comDayCqWcmScriptingImplBVPManager(post,apply,delete,action,$location,propertylist,comDayCqWcmScriptingBvpScriptEngines);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.undo.UndoConfig")
+    @Path("/com.day.cq.wcm.undo.UndoConfig")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmUndoUndoConfigInfo.class, authorizations = {
@@ -15025,7 +15026,7 @@ public class SystemApi  {
         return delegate.comDayCqWcmUndoUndoConfig(post,apply,delete,action,$location,propertylist,cqWcmUndoEnabled,cqWcmUndoPath,cqWcmUndoValidity,cqWcmUndoSteps,cqWcmUndoPersistence,cqWcmUndoPersistenceMode,cqWcmUndoMarkermode,cqWcmUndoWhitelist,cqWcmUndoBlacklist);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.webservicesupport.impl.ReplicationEventListener")
+    @Path("/com.day.cq.wcm.webservicesupport.impl.ReplicationEventListener")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmWebservicesupportImplReplicationEventListenerInfo.class, authorizations = {
@@ -15049,7 +15050,7 @@ public class SystemApi  {
         return delegate.comDayCqWcmWebservicesupportImplReplicationEventListener(post,apply,delete,action,$location,propertylist,flushAgents);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.workflow.impl.WcmWorkflowServiceImpl")
+    @Path("/com.day.cq.wcm.workflow.impl.WcmWorkflowServiceImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmWorkflowImplWcmWorkflowServiceImplInfo.class, authorizations = {
@@ -15077,7 +15078,7 @@ public class SystemApi  {
         return delegate.comDayCqWcmWorkflowImplWcmWorkflowServiceImpl(post,apply,delete,action,$location,propertylist,eventFilter,minThreadPoolSize,maxThreadPoolSize,cqWcmWorkflowTerminateOnActivate,cqWcmWorklfowTerminateExclusionList);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.wcm.workflow.impl.WorkflowPackageInfoProvider")
+    @Path("/com.day.cq.wcm.workflow.impl.WorkflowPackageInfoProvider")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWcmWorkflowImplWorkflowPackageInfoProviderInfo.class, authorizations = {
@@ -15102,7 +15103,7 @@ public class SystemApi  {
         return delegate.comDayCqWcmWorkflowImplWorkflowPackageInfoProvider(post,apply,delete,action,$location,propertylist,workflowpackageinfoproviderFilter,workflowpackageinfoproviderFilterRootpath);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.widget.impl.HtmlLibraryManagerImpl")
+    @Path("/com.day.cq.widget.impl.HtmlLibraryManagerImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWidgetImplHtmlLibraryManagerImplInfo.class, authorizations = {
@@ -15139,7 +15140,7 @@ public class SystemApi  {
         return delegate.comDayCqWidgetImplHtmlLibraryManagerImpl(post,apply,delete,action,$location,propertylist,htmllibmanagerClientmanager,htmllibmanagerDebug,htmllibmanagerDebugConsole,htmllibmanagerDebugInitJs,htmllibmanagerDefaultthemename,htmllibmanagerDefaultuserthemename,htmllibmanagerFirebuglitePath,htmllibmanagerForceCQUrlInfo,htmllibmanagerGzip,htmllibmanagerMaxage,htmllibmanagerMaxDataUriSize,htmllibmanagerMinify,htmllibmanagerPathList,htmllibmanagerTiming);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.widget.impl.WidgetExtensionProviderImpl")
+    @Path("/com.day.cq.widget.impl.WidgetExtensionProviderImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWidgetImplWidgetExtensionProviderImplInfo.class, authorizations = {
@@ -15164,7 +15165,7 @@ public class SystemApi  {
         return delegate.comDayCqWidgetImplWidgetExtensionProviderImpl(post,apply,delete,action,$location,propertylist,extendableWidgets,widgetextensionproviderDebug);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.workflow.impl.email.EMailNotificationService")
+    @Path("/com.day.cq.workflow.impl.email.EMailNotificationService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWorkflowImplEmailEMailNotificationServiceInfo.class, authorizations = {
@@ -15193,7 +15194,7 @@ public class SystemApi  {
         return delegate.comDayCqWorkflowImplEmailEMailNotificationService(post,apply,delete,action,$location,propertylist,fromAddress,hostPrefix,notifyOnabort,notifyOncomplete,notifyOncontainercomplete,notifyUseronly);
     }
     @POST
-    @Path("/console/configMgr/com.day.cq.workflow.impl.email.TaskEMailNotificationService")
+    @Path("/com.day.cq.workflow.impl.email.TaskEMailNotificationService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCqWorkflowImplEmailTaskEMailNotificationServiceInfo.class, authorizations = {
@@ -15218,7 +15219,7 @@ public class SystemApi  {
         return delegate.comDayCqWorkflowImplEmailTaskEMailNotificationService(post,apply,delete,action,$location,propertylist,notifyOnupdate,notifyOncomplete);
     }
     @POST
-    @Path("/console/configMgr/com.day.crx.security.token.impl.impl.TokenAuthenticationHandler")
+    @Path("/com.day.crx.security.token.impl.impl.TokenAuthenticationHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerInfo.class, authorizations = {
@@ -15246,7 +15247,7 @@ public class SystemApi  {
         return delegate.comDayCrxSecurityTokenImplImplTokenAuthenticationHandler(post,apply,delete,action,$location,propertylist,path,tokenRequiredAttr,tokenAlternateUrl,tokenEncapsulated,skipTokenRefresh);
     }
     @POST
-    @Path("/console/configMgr/com.day.crx.security.token.impl.TokenCleanupTask")
+    @Path("/com.day.crx.security.token.impl.TokenCleanupTask")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = ComDayCrxSecurityTokenImplTokenCleanupTaskInfo.class, authorizations = {
@@ -15272,7 +15273,7 @@ public class SystemApi  {
         return delegate.comDayCrxSecurityTokenImplTokenCleanupTask(post,apply,delete,action,$location,propertylist,enableTokenCleanupTask,schedulerExpression,batchSize);
     }
     @POST
-    @Path("/console/configMgr/Guide Localization Service")
+    @Path("/Guide Localization Service")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = GuideLocalizationServiceInfo.class, authorizations = {
@@ -15297,7 +15298,7 @@ public class SystemApi  {
         return delegate.guideLocalizationService(post,apply,delete,action,$location,propertylist,supportedLocales,localizableProperties);
     }
     @POST
-    @Path("/console/configMgr/MessagingUserComponentFactory")
+    @Path("/MessagingUserComponentFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = MessagingUserComponentFactoryInfo.class, authorizations = {
@@ -15321,7 +15322,7 @@ public class SystemApi  {
         return delegate.messagingUserComponentFactory(post,apply,delete,action,$location,propertylist,priority);
     }
     @POST
-    @Path("/console/configMgr/org.apache.aries.jmx.framework.StateConfig")
+    @Path("/org.apache.aries.jmx.framework.StateConfig")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheAriesJmxFrameworkStateConfigInfo.class, authorizations = {
@@ -15345,7 +15346,7 @@ public class SystemApi  {
         return delegate.orgApacheAriesJmxFrameworkStateConfig(post,apply,delete,action,$location,propertylist,attributeChangeNotificationEnabled);
     }
     @POST
-    @Path("/console/configMgr/org.apache.felix.eventadmin.impl.EventAdmin")
+    @Path("/org.apache.felix.eventadmin.impl.EventAdmin")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheFelixEventadminImplEventAdminInfo.class, authorizations = {
@@ -15374,7 +15375,7 @@ public class SystemApi  {
         return delegate.orgApacheFelixEventadminImplEventAdmin(post,apply,delete,action,$location,propertylist,orgApacheFelixEventadminThreadPoolSize,orgApacheFelixEventadminAsyncToSyncThreadRatio,orgApacheFelixEventadminTimeout,orgApacheFelixEventadminRequireTopic,orgApacheFelixEventadminIgnoreTimeout,orgApacheFelixEventadminIgnoreTopic);
     }
     @POST
-    @Path("/console/configMgr/org.apache.felix.http")
+    @Path("/org.apache.felix.http")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheFelixHttpInfo.class, authorizations = {
@@ -15450,7 +15451,7 @@ public class SystemApi  {
         return delegate.orgApacheFelixHttp(post,apply,delete,action,$location,propertylist,orgApacheFelixHttpHost,orgApacheFelixHttpEnable,orgOsgiServiceHttpPort,orgApacheFelixHttpTimeout,orgApacheFelixHttpsEnable,orgOsgiServiceHttpPortSecure,orgApacheFelixHttpsKeystore,orgApacheFelixHttpsKeystorePassword,orgApacheFelixHttpsKeystoreKeyPassword,orgApacheFelixHttpsTruststore,orgApacheFelixHttpsTruststorePassword,orgApacheFelixHttpsClientcertificate,orgApacheFelixHttpContextPath,orgApacheFelixHttpMbeans,orgApacheFelixHttpSessionTimeout,orgApacheFelixHttpJettyThreadpoolMax,orgApacheFelixHttpJettyAcceptors,orgApacheFelixHttpJettySelectors,orgApacheFelixHttpJettyHeaderBufferSize,orgApacheFelixHttpJettyRequestBufferSize,orgApacheFelixHttpJettyResponseBufferSize,orgApacheFelixHttpJettyMaxFormSize,orgApacheFelixHttpPathExclusions,orgApacheFelixHttpsJettyCiphersuitesExcluded,orgApacheFelixHttpsJettyCiphersuitesIncluded,orgApacheFelixHttpJettySendServerHeader,orgApacheFelixHttpsJettyProtocolsIncluded,orgApacheFelixHttpsJettyProtocolsExcluded,orgApacheFelixProxyLoadBalancerConnectionEnable,orgApacheFelixHttpsJettyRenegotiateAllowed,orgApacheFelixHttpsJettySessionCookieHttpOnly,orgApacheFelixHttpsJettySessionCookieSecure,orgEclipseJettyServletSessionIdPathParameterName,orgEclipseJettyServletCheckingRemoteSessionIdEncoding,orgEclipseJettyServletSessionCookie,orgEclipseJettyServletSessionDomain,orgEclipseJettyServletSessionPath,orgEclipseJettyServletMaxAge,orgApacheFelixHttpName,orgApacheFelixJettyGziphandlerEnable,orgApacheFelixJettyGzipMinGzipSize,orgApacheFelixJettyGzipCompressionLevel,orgApacheFelixJettyGzipInflateBufferSize,orgApacheFelixJettyGzipSyncFlush,orgApacheFelixJettyGzipExcludedUserAgents,orgApacheFelixJettyGzipIncludedMethods,orgApacheFelixJettyGzipExcludedMethods,orgApacheFelixJettyGzipIncludedPaths,orgApacheFelixJettyGzipExcludedPaths,orgApacheFelixJettyGzipIncludedMimeTypes,orgApacheFelixJettyGzipExcludedMimeTypes,orgApacheFelixHttpSessionInvalidate,orgApacheFelixHttpSessionUniqueid);
     }
     @POST
-    @Path("/console/configMgr/org.apache.felix.http.sslfilter.SslFilter")
+    @Path("/org.apache.felix.http.sslfilter.SslFilter")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheFelixHttpSslfilterSslFilterInfo.class, authorizations = {
@@ -15477,7 +15478,7 @@ public class SystemApi  {
         return delegate.orgApacheFelixHttpSslfilterSslFilter(post,apply,delete,action,$location,propertylist,sslForwardHeader,sslForwardValue,sslForwardCertHeader,rewriteAbsoluteUrls);
     }
     @POST
-    @Path("/console/configMgr/org.apache.felix.jaas.Configuration.factory")
+    @Path("/org.apache.felix.jaas.Configuration.factory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheFelixJaasConfigurationFactoryInfo.class, authorizations = {
@@ -15505,7 +15506,7 @@ public class SystemApi  {
         return delegate.orgApacheFelixJaasConfigurationFactory(post,apply,delete,action,$location,propertylist,jaasControlFlag,jaasRanking,jaasRealmName,jaasClassname,jaasOptions);
     }
     @POST
-    @Path("/console/configMgr/org.apache.felix.jaas.ConfigurationSpi")
+    @Path("/org.apache.felix.jaas.ConfigurationSpi")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheFelixJaasConfigurationSpiInfo.class, authorizations = {
@@ -15531,7 +15532,7 @@ public class SystemApi  {
         return delegate.orgApacheFelixJaasConfigurationSpi(post,apply,delete,action,$location,propertylist,jaasDefaultRealmName,jaasConfigProviderName,jaasGlobalConfigPolicy);
     }
     @POST
-    @Path("/console/configMgr/org.apache.felix.scr.ScrService")
+    @Path("/org.apache.felix.scr.ScrService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheFelixScrScrServiceInfo.class, authorizations = {
@@ -15560,7 +15561,7 @@ public class SystemApi  {
         return delegate.orgApacheFelixScrScrService(post,apply,delete,action,$location,propertylist,dsLoglevel,dsFactoryEnabled,dsDelayedKeepInstances,dsLockTimeoutMilliseconds,dsStopTimeoutMilliseconds,dsGlobalExtender);
     }
     @POST
-    @Path("/console/configMgr/org.apache.felix.systemready.impl.ComponentsCheck")
+    @Path("/org.apache.felix.systemready.impl.ComponentsCheck")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheFelixSystemreadyImplComponentsCheckInfo.class, authorizations = {
@@ -15585,7 +15586,7 @@ public class SystemApi  {
         return delegate.orgApacheFelixSystemreadyImplComponentsCheck(post,apply,delete,action,$location,propertylist,componentsList,type);
     }
     @POST
-    @Path("/console/configMgr/org.apache.felix.systemready.impl.FrameworkStartCheck")
+    @Path("/org.apache.felix.systemready.impl.FrameworkStartCheck")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheFelixSystemreadyImplFrameworkStartCheckInfo.class, authorizations = {
@@ -15612,7 +15613,7 @@ public class SystemApi  {
         return delegate.orgApacheFelixSystemreadyImplFrameworkStartCheck(post,apply,delete,action,$location,propertylist,timeout,targetStartLevel,targetStartLevelPropName,type);
     }
     @POST
-    @Path("/console/configMgr/org.apache.felix.systemready.impl.ServicesCheck")
+    @Path("/org.apache.felix.systemready.impl.ServicesCheck")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheFelixSystemreadyImplServicesCheckInfo.class, authorizations = {
@@ -15637,7 +15638,7 @@ public class SystemApi  {
         return delegate.orgApacheFelixSystemreadyImplServicesCheck(post,apply,delete,action,$location,propertylist,servicesList,type);
     }
     @POST
-    @Path("/console/configMgr/org.apache.felix.systemready.impl.servlet.SystemAliveServlet")
+    @Path("/org.apache.felix.systemready.impl.servlet.SystemAliveServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheFelixSystemreadyImplServletSystemAliveServletInfo.class, authorizations = {
@@ -15662,7 +15663,7 @@ public class SystemApi  {
         return delegate.orgApacheFelixSystemreadyImplServletSystemAliveServlet(post,apply,delete,action,$location,propertylist,osgiHttpWhiteboardServletPattern,osgiHttpWhiteboardContextSelect);
     }
     @POST
-    @Path("/console/configMgr/org.apache.felix.systemready.impl.servlet.SystemReadyServlet")
+    @Path("/org.apache.felix.systemready.impl.servlet.SystemReadyServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheFelixSystemreadyImplServletSystemReadyServletInfo.class, authorizations = {
@@ -15687,7 +15688,7 @@ public class SystemApi  {
         return delegate.orgApacheFelixSystemreadyImplServletSystemReadyServlet(post,apply,delete,action,$location,propertylist,osgiHttpWhiteboardServletPattern,osgiHttpWhiteboardContextSelect);
     }
     @POST
-    @Path("/console/configMgr/org.apache.felix.systemready.SystemReadyMonitor")
+    @Path("/org.apache.felix.systemready.SystemReadyMonitor")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheFelixSystemreadySystemReadyMonitorInfo.class, authorizations = {
@@ -15711,7 +15712,7 @@ public class SystemApi  {
         return delegate.orgApacheFelixSystemreadySystemReadyMonitor(post,apply,delete,action,$location,propertylist,pollInterval);
     }
     @POST
-    @Path("/console/configMgr/org.apache.felix.webconsole.internal.servlet.OsgiManager")
+    @Path("/org.apache.felix.webconsole.internal.servlet.OsgiManager")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheFelixWebconsoleInternalServletOsgiManagerInfo.class, authorizations = {
@@ -15744,7 +15745,7 @@ public class SystemApi  {
         return delegate.orgApacheFelixWebconsoleInternalServletOsgiManager(post,apply,delete,action,$location,propertylist,managerRoot,httpServiceFilter,defaultRender,realm,username,password,category,locale,loglevel,plugins);
     }
     @POST
-    @Path("/console/configMgr/org.apache.felix.webconsole.plugins.event.internal.PluginServlet")
+    @Path("/org.apache.felix.webconsole.plugins.event.internal.PluginServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheFelixWebconsolePluginsEventInternalPluginServletInfo.class, authorizations = {
@@ -15768,7 +15769,7 @@ public class SystemApi  {
         return delegate.orgApacheFelixWebconsolePluginsEventInternalPluginServlet(post,apply,delete,action,$location,propertylist,maxSize);
     }
     @POST
-    @Path("/console/configMgr/org.apache.felix.webconsole.plugins.memoryusage.internal.MemoryUsageConfigurator")
+    @Path("/org.apache.felix.webconsole.plugins.memoryusage.internal.MemoryUsageConfigurator")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCoInfo.class, authorizations = {
@@ -15794,7 +15795,7 @@ public class SystemApi  {
         return delegate.orgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCo(post,apply,delete,action,$location,propertylist,felixMemoryusageDumpThreshold,felixMemoryusageDumpInterval,felixMemoryusageDumpLocation);
     }
     @POST
-    @Path("/console/configMgr/org.apache.http.proxyconfigurator")
+    @Path("/org.apache.http.proxyconfigurator")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheHttpProxyconfiguratorInfo.class, authorizations = {
@@ -15823,7 +15824,7 @@ public class SystemApi  {
         return delegate.orgApacheHttpProxyconfigurator(post,apply,delete,action,$location,propertylist,proxyEnabled,proxyHost,proxyPort,proxyUser,proxyPassword,proxyExceptions);
     }
     @POST
-    @Path("/console/configMgr/org.apache.jackrabbit.oak.plugins.blob.datastore.DataStoreTextProviderService")
+    @Path("/org.apache.jackrabbit.oak.plugins.blob.datastore.DataStoreTextProviderService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProviderInfo.class, authorizations = {
@@ -15847,7 +15848,7 @@ public class SystemApi  {
         return delegate.orgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProvider(post,apply,delete,action,$location,propertylist,dir);
     }
     @POST
-    @Path("/console/configMgr/org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore")
+    @Path("/org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheJackrabbitOakPluginsBlobDatastoreFileDataStoreInfo.class, authorizations = {
@@ -15871,7 +15872,7 @@ public class SystemApi  {
         return delegate.orgApacheJackrabbitOakPluginsBlobDatastoreFileDataStore(post,apply,delete,action,$location,propertylist,path);
     }
     @POST
-    @Path("/console/configMgr/org.apache.jackrabbit.oak.plugins.document.DocumentNodeStoreService")
+    @Path("/org.apache.jackrabbit.oak.plugins.document.DocumentNodeStoreService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceInfo.class, authorizations = {
@@ -15924,7 +15925,7 @@ public class SystemApi  {
         return delegate.orgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreService(post,apply,delete,action,$location,propertylist,mongouri,db,socketKeepAlive,cache,nodeCachePercentage,prevDocCachePercentage,childrenCachePercentage,diffCachePercentage,cacheSegmentCount,cacheStackMoveDistance,blobCacheSize,persistentCache,journalCache,customBlobStore,journalGCInterval,journalGCMaxAge,prefetchExternalChanges,role,versionGcMaxAgeInSecs,versionGCExpression,versionGCTimeLimitInSecs,blobGcMaxAgeInSecs,blobTrackSnapshotIntervalInSecs,repositoryHome,maxReplicationLagInSecs,documentStoreType,bundlingDisabled,updateLimit,persistentCacheIncludes,leaseCheckMode);
     }
     @POST
-    @Path("/console/configMgr/org.apache.jackrabbit.oak.plugins.document.DocumentNodeStoreServicePreset")
+    @Path("/org.apache.jackrabbit.oak.plugins.document.DocumentNodeStoreServicePreset")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePreInfo.class, authorizations = {
@@ -15948,7 +15949,7 @@ public class SystemApi  {
         return delegate.orgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePre(post,apply,delete,action,$location,propertylist,persistentCacheIncludes);
     }
     @POST
-    @Path("/console/configMgr/org.apache.jackrabbit.oak.plugins.document.secondary.SecondaryStoreCacheService")
+    @Path("/org.apache.jackrabbit.oak.plugins.document.secondary.SecondaryStoreCacheService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacInfo.class, authorizations = {
@@ -15974,7 +15975,7 @@ public class SystemApi  {
         return delegate.orgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCac(post,apply,delete,action,$location,propertylist,includedPaths,enableAsyncObserver,observerQueueSize);
     }
     @POST
-    @Path("/console/configMgr/org.apache.jackrabbit.oak.plugins.index.AsyncIndexerService")
+    @Path("/org.apache.jackrabbit.oak.plugins.index.AsyncIndexerService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheJackrabbitOakPluginsIndexAsyncIndexerServiceInfo.class, authorizations = {
@@ -16001,7 +16002,7 @@ public class SystemApi  {
         return delegate.orgApacheJackrabbitOakPluginsIndexAsyncIndexerService(post,apply,delete,action,$location,propertylist,asyncConfigs,leaseTimeOutMinutes,failingIndexTimeoutSeconds,errorWarnIntervalSeconds);
     }
     @POST
-    @Path("/console/configMgr/org.apache.jackrabbit.oak.plugins.index.lucene.LuceneIndexProviderService")
+    @Path("/org.apache.jackrabbit.oak.plugins.index.lucene.LuceneIndexProviderService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServInfo.class, authorizations = {
@@ -16040,7 +16041,7 @@ public class SystemApi  {
         return delegate.orgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServ(post,apply,delete,action,$location,propertylist,disabled,debug,localIndexDir,enableOpenIndexAsync,threadPoolSize,prefetchIndexFiles,extractedTextCacheSizeInMB,extractedTextCacheExpiryInSecs,alwaysUsePreExtractedCache,booleanClauseLimit,enableHybridIndexing,hybridQueueSize,disableStoredIndexDefinition,deletedBlobsCollectionEnabled,propIndexCleanerIntervalInSecs,enableSingleBlobIndexFiles);
     }
     @POST
-    @Path("/console/configMgr/org.apache.jackrabbit.oak.plugins.index.solr.osgi.EmbeddedSolrServerConfigurationProvider")
+    @Path("/org.apache.jackrabbit.oak.plugins.index.solr.osgi.EmbeddedSolrServerConfigurationProvider")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCoInfo.class, authorizations = {
@@ -16065,7 +16066,7 @@ public class SystemApi  {
         return delegate.orgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCo(post,apply,delete,action,$location,propertylist,solrHomePath,solrCoreName);
     }
     @POST
-    @Path("/console/configMgr/org.apache.jackrabbit.oak.plugins.index.solr.osgi.NodeStateSolrServersObserverService")
+    @Path("/org.apache.jackrabbit.oak.plugins.index.solr.osgi.NodeStateSolrServersObserverService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersInfo.class, authorizations = {
@@ -16089,7 +16090,7 @@ public class SystemApi  {
         return delegate.orgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServers(post,apply,delete,action,$location,propertylist,enabled);
     }
     @POST
-    @Path("/console/configMgr/org.apache.jackrabbit.oak.plugins.index.solr.osgi.OakSolrConfigurationProviderService")
+    @Path("/org.apache.jackrabbit.oak.plugins.index.solr.osgi.OakSolrConfigurationProviderService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationInfo.class, authorizations = {
@@ -16129,7 +16130,7 @@ public class SystemApi  {
         return delegate.orgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfiguration(post,apply,delete,action,$location,propertylist,pathDescField,pathChildField,pathParentField,pathExactField,catchAllField,collapsedPathField,pathDepthField,commitPolicy,rows,pathRestrictions,propertyRestrictions,primarytypesRestrictions,ignoredProperties,usedProperties,typeMappings,propertyMappings,collapseJcrcontentNodes);
     }
     @POST
-    @Path("/console/configMgr/org.apache.jackrabbit.oak.plugins.index.solr.osgi.RemoteSolrServerConfigurationProvider")
+    @Path("/org.apache.jackrabbit.oak.plugins.index.solr.osgi.RemoteSolrServerConfigurationProvider")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfInfo.class, authorizations = {
@@ -16160,7 +16161,7 @@ public class SystemApi  {
         return delegate.orgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConf(post,apply,delete,action,$location,propertylist,solrHttpUrl,solrZkHost,solrCollection,solrSocketTimeout,solrConnectionTimeout,solrShardsNo,solrReplicationFactor,solrConfDir);
     }
     @POST
-    @Path("/console/configMgr/org.apache.jackrabbit.oak.plugins.index.solr.osgi.SolrQueryIndexProviderService")
+    @Path("/org.apache.jackrabbit.oak.plugins.index.solr.osgi.SolrQueryIndexProviderService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProvidInfo.class, authorizations = {
@@ -16184,7 +16185,7 @@ public class SystemApi  {
         return delegate.orgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProvid(post,apply,delete,action,$location,propertylist,queryAggregation);
     }
     @POST
-    @Path("/console/configMgr/org.apache.jackrabbit.oak.plugins.index.solr.osgi.SolrServerProviderService")
+    @Path("/org.apache.jackrabbit.oak.plugins.index.solr.osgi.SolrServerProviderService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderSeInfo.class, authorizations = {
@@ -16208,7 +16209,7 @@ public class SystemApi  {
         return delegate.orgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderSe(post,apply,delete,action,$location,propertylist,serverType);
     }
     @POST
-    @Path("/console/configMgr/org.apache.jackrabbit.oak.plugins.metric.StatisticsProviderFactory")
+    @Path("/org.apache.jackrabbit.oak.plugins.metric.StatisticsProviderFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheJackrabbitOakPluginsMetricStatisticsProviderFactoryInfo.class, authorizations = {
@@ -16232,7 +16233,7 @@ public class SystemApi  {
         return delegate.orgApacheJackrabbitOakPluginsMetricStatisticsProviderFactory(post,apply,delete,action,$location,propertylist,providerType);
     }
     @POST
-    @Path("/console/configMgr/org.apache.jackrabbit.oak.plugins.observation.ChangeCollectorProvider")
+    @Path("/org.apache.jackrabbit.oak.plugins.observation.ChangeCollectorProvider")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheJackrabbitOakPluginsObservationChangeCollectorProviderInfo.class, authorizations = {
@@ -16258,7 +16259,7 @@ public class SystemApi  {
         return delegate.orgApacheJackrabbitOakPluginsObservationChangeCollectorProvider(post,apply,delete,action,$location,propertylist,maxItems,maxPathDepth,enabled);
     }
     @POST
-    @Path("/console/configMgr/org.apache.jackrabbit.oak.query.QueryEngineSettingsService")
+    @Path("/org.apache.jackrabbit.oak.query.QueryEngineSettingsService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceInfo.class, authorizations = {
@@ -16285,7 +16286,7 @@ public class SystemApi  {
         return delegate.orgApacheJackrabbitOakQueryQueryEngineSettingsService(post,apply,delete,action,$location,propertylist,queryLimitInMemory,queryLimitReads,queryFailTraversal,fastQuerySize);
     }
     @POST
-    @Path("/console/configMgr/org.apache.jackrabbit.oak.security.authentication.AuthenticationConfigurationImpl")
+    @Path("/org.apache.jackrabbit.oak.security.authentication.AuthenticationConfigurationImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigInfo.class, authorizations = {
@@ -16310,7 +16311,7 @@ public class SystemApi  {
         return delegate.orgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfig(post,apply,delete,action,$location,propertylist,orgApacheJackrabbitOakAuthenticationAppName,orgApacheJackrabbitOakAuthenticationConfigSpiName);
     }
     @POST
-    @Path("/console/configMgr/org.apache.jackrabbit.oak.security.authentication.ldap.impl.LdapIdentityProvider")
+    @Path("/org.apache.jackrabbit.oak.security.authentication.ldap.impl.LdapIdentityProvider")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiInfo.class, authorizations = {
@@ -16359,7 +16360,7 @@ public class SystemApi  {
         return delegate.orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdenti(post,apply,delete,action,$location,propertylist,providerName,hostName,hostPort,hostSsl,hostTls,hostNoCertCheck,bindDn,bindPassword,searchTimeout,adminPoolMaxActive,adminPoolLookupOnValidate,userPoolMaxActive,userPoolLookupOnValidate,userBaseDN,userObjectclass,userIdAttribute,userExtraFilter,userMakeDnPath,groupBaseDN,groupObjectclass,groupNameAttribute,groupExtraFilter,groupMakeDnPath,groupMemberAttribute,useUidForExtId,customattributes);
     }
     @POST
-    @Path("/console/configMgr/org.apache.jackrabbit.oak.security.authentication.token.TokenConfigurationImpl")
+    @Path("/org.apache.jackrabbit.oak.security.authentication.token.TokenConfigurationImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraInfo.class, authorizations = {
@@ -16389,7 +16390,7 @@ public class SystemApi  {
         return delegate.orgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfigura(post,apply,delete,action,$location,propertylist,tokenExpiration,tokenLength,tokenRefresh,tokenCleanupThreshold,passwordHashAlgorithm,passwordHashIterations,passwordSaltSize);
     }
     @POST
-    @Path("/console/configMgr/org.apache.jackrabbit.oak.security.authorization.AuthorizationConfigurationImpl")
+    @Path("/org.apache.jackrabbit.oak.security.authorization.AuthorizationConfigurationImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurInfo.class, authorizations = {
@@ -16417,7 +16418,7 @@ public class SystemApi  {
         return delegate.orgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigur(post,apply,delete,action,$location,propertylist,permissionsJr2,importBehavior,readPaths,administrativePrincipals,configurationRanking);
     }
     @POST
-    @Path("/console/configMgr/org.apache.jackrabbit.oak.security.internal.SecurityProviderRegistration")
+    @Path("/org.apache.jackrabbit.oak.security.internal.SecurityProviderRegistration")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistratiInfo.class, authorizations = {
@@ -16442,7 +16443,7 @@ public class SystemApi  {
         return delegate.orgApacheJackrabbitOakSecurityInternalSecurityProviderRegistrati(post,apply,delete,action,$location,propertylist,requiredServicePids,authorizationCompositionType);
     }
     @POST
-    @Path("/console/configMgr/org.apache.jackrabbit.oak.security.user.RandomAuthorizableNodeName")
+    @Path("/org.apache.jackrabbit.oak.security.user.RandomAuthorizableNodeName")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheJackrabbitOakSecurityUserRandomAuthorizableNodeNameInfo.class, authorizations = {
@@ -16466,7 +16467,7 @@ public class SystemApi  {
         return delegate.orgApacheJackrabbitOakSecurityUserRandomAuthorizableNodeName(post,apply,delete,action,$location,propertylist,length);
     }
     @POST
-    @Path("/console/configMgr/org.apache.jackrabbit.oak.security.user.UserConfigurationImpl")
+    @Path("/org.apache.jackrabbit.oak.security.user.UserConfigurationImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheJackrabbitOakSecurityUserUserConfigurationImplInfo.class, authorizations = {
@@ -16505,7 +16506,7 @@ public class SystemApi  {
         return delegate.orgApacheJackrabbitOakSecurityUserUserConfigurationImpl(post,apply,delete,action,$location,propertylist,usersPath,groupsPath,systemRelativePath,defaultDepth,importBehavior,passwordHashAlgorithm,passwordHashIterations,passwordSaltSize,omitAdminPw,supportAutoSave,passwordMaxAge,initialPasswordChange,passwordHistorySize,passwordExpiryForAdmin,cacheExpiration,enableRFC7613UsercaseMappedProfile);
     }
     @POST
-    @Path("/console/configMgr/org.apache.jackrabbit.oak.segment.azure.AzureSegmentStoreService")
+    @Path("/org.apache.jackrabbit.oak.segment.azure.AzureSegmentStoreService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServiceInfo.class, authorizations = {
@@ -16533,7 +16534,7 @@ public class SystemApi  {
         return delegate.orgApacheJackrabbitOakSegmentAzureAzureSegmentStoreService(post,apply,delete,action,$location,propertylist,accountName,containerName,accessKey,rootPath,connectionURL);
     }
     @POST
-    @Path("/console/configMgr/org.apache.jackrabbit.oak.segment.SegmentNodeStoreFactory")
+    @Path("/org.apache.jackrabbit.oak.segment.SegmentNodeStoreFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryInfo.class, authorizations = {
@@ -16583,7 +16584,7 @@ public class SystemApi  {
         return delegate.orgApacheJackrabbitOakSegmentSegmentNodeStoreFactory(post,apply,delete,action,$location,propertylist,repositoryHome,tarmkMode,tarmkSize,segmentCacheSize,stringCacheSize,templateCacheSize,stringDeduplicationCacheSize,templateDeduplicationCacheSize,nodeDeduplicationCacheSize,pauseCompaction,compactionRetryCount,compactionForceTimeout,compactionSizeDeltaEstimation,compactionDisableEstimation,compactionRetainedGenerations,compactionMemoryThreshold,compactionProgressLog,standby,customBlobStore,customSegmentStore,splitPersistence,repositoryBackupDir,blobGcMaxAgeInSecs,blobTrackSnapshotIntervalInSecs,role,registerDescriptors,dispatchChanges);
     }
     @POST
-    @Path("/console/configMgr/org.apache.jackrabbit.oak.segment.SegmentNodeStoreMonitorService")
+    @Path("/org.apache.jackrabbit.oak.segment.SegmentNodeStoreMonitorService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheJackrabbitOakSegmentSegmentNodeStoreMonitorServiceInfo.class, authorizations = {
@@ -16607,7 +16608,7 @@ public class SystemApi  {
         return delegate.orgApacheJackrabbitOakSegmentSegmentNodeStoreMonitorService(post,apply,delete,action,$location,propertylist,commitsTrackerWriterGroups);
     }
     @POST
-    @Path("/console/configMgr/org.apache.jackrabbit.oak.segment.SegmentNodeStoreService")
+    @Path("/org.apache.jackrabbit.oak.segment.SegmentNodeStoreService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheJackrabbitOakSegmentSegmentNodeStoreServiceInfo.class, authorizations = {
@@ -16654,7 +16655,7 @@ public class SystemApi  {
         return delegate.orgApacheJackrabbitOakSegmentSegmentNodeStoreService(post,apply,delete,action,$location,propertylist,repositoryHome,tarmkMode,tarmkSize,segmentCacheSize,stringCacheSize,templateCacheSize,stringDeduplicationCacheSize,templateDeduplicationCacheSize,nodeDeduplicationCacheSize,pauseCompaction,compactionRetryCount,compactionForceTimeout,compactionSizeDeltaEstimation,compactionDisableEstimation,compactionRetainedGenerations,compactionMemoryThreshold,compactionProgressLog,standby,customBlobStore,customSegmentStore,splitPersistence,repositoryBackupDir,blobGcMaxAgeInSecs,blobTrackSnapshotIntervalInSecs);
     }
     @POST
-    @Path("/console/configMgr/org.apache.jackrabbit.oak.segment.standby.store.StandbyStoreService")
+    @Path("/org.apache.jackrabbit.oak.segment.standby.store.StandbyStoreService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheJackrabbitOakSegmentStandbyStoreStandbyStoreServiceInfo.class, authorizations = {
@@ -16686,7 +16687,7 @@ public class SystemApi  {
         return delegate.orgApacheJackrabbitOakSegmentStandbyStoreStandbyStoreService(post,apply,delete,action,$location,propertylist,orgApacheSlingInstallerConfigurationPersist,mode,port,primaryHost,interval,primaryAllowedClientIpRanges,secure,standbyReadtimeout,standbyAutoclean);
     }
     @POST
-    @Path("/console/configMgr/org.apache.jackrabbit.oak.spi.security.authentication.external.impl.DefaultSyncHandler")
+    @Path("/org.apache.jackrabbit.oak.spi.security.authentication.external.impl.DefaultSyncHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeInfo.class, authorizations = {
@@ -16723,7 +16724,7 @@ public class SystemApi  {
         return delegate.orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDe(post,apply,delete,action,$location,propertylist,handlerName,userExpirationTime,userAutoMembership,userPropertyMapping,userPathPrefix,userMembershipExpTime,userMembershipNestingDepth,userDynamicMembership,userDisableMissing,groupExpirationTime,groupAutoMembership,groupPropertyMapping,groupPathPrefix,enableRFC7613UsercaseMappedProfile);
     }
     @POST
-    @Path("/console/configMgr/org.apache.jackrabbit.oak.spi.security.authentication.external.impl.ExternalLoginModuleFactory")
+    @Path("/org.apache.jackrabbit.oak.spi.security.authentication.external.impl.ExternalLoginModuleFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExInfo.class, authorizations = {
@@ -16751,7 +16752,7 @@ public class SystemApi  {
         return delegate.orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplEx(post,apply,delete,action,$location,propertylist,jaasRanking,jaasControlFlag,jaasRealmName,idpName,syncHandlerName);
     }
     @POST
-    @Path("/console/configMgr/org.apache.jackrabbit.oak.spi.security.authentication.external.impl.principal.ExternalPrincipalConfiguration")
+    @Path("/org.apache.jackrabbit.oak.spi.security.authentication.external.impl.principal.ExternalPrincipalConfiguration")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrInfo.class, authorizations = {
@@ -16775,7 +16776,7 @@ public class SystemApi  {
         return delegate.orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPr(post,apply,delete,action,$location,propertylist,protectExternalId);
     }
     @POST
-    @Path("/console/configMgr/org.apache.jackrabbit.oak.spi.security.authorization.cug.impl.CugConfiguration")
+    @Path("/org.apache.jackrabbit.oak.spi.security.authorization.cug.impl.CugConfiguration")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiInfo.class, authorizations = {
@@ -16801,7 +16802,7 @@ public class SystemApi  {
         return delegate.orgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfi(post,apply,delete,action,$location,propertylist,cugSupportedPaths,cugEnabled,configurationRanking);
     }
     @POST
-    @Path("/console/configMgr/org.apache.jackrabbit.oak.spi.security.authorization.cug.impl.CugExcludeImpl")
+    @Path("/org.apache.jackrabbit.oak.spi.security.authorization.cug.impl.CugExcludeImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExcluInfo.class, authorizations = {
@@ -16825,7 +16826,7 @@ public class SystemApi  {
         return delegate.orgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExclu(post,apply,delete,action,$location,propertylist,principalNames);
     }
     @POST
-    @Path("/console/configMgr/org.apache.jackrabbit.oak.spi.security.user.action.DefaultAuthorizableActionProvider")
+    @Path("/org.apache.jackrabbit.oak.spi.security.user.action.DefaultAuthorizableActionProvider")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableInfo.class, authorizations = {
@@ -16852,7 +16853,7 @@ public class SystemApi  {
         return delegate.orgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizable(post,apply,delete,action,$location,propertylist,enabledActions,userPrivilegeNames,groupPrivilegeNames,constraint);
     }
     @POST
-    @Path("/console/configMgr/org.apache.jackrabbit.vault.packaging.impl.PackagingImpl")
+    @Path("/org.apache.jackrabbit.vault.packaging.impl.PackagingImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheJackrabbitVaultPackagingImplPackagingImplInfo.class, authorizations = {
@@ -16876,7 +16877,7 @@ public class SystemApi  {
         return delegate.orgApacheJackrabbitVaultPackagingImplPackagingImpl(post,apply,delete,action,$location,propertylist,packageRoots);
     }
     @POST
-    @Path("/console/configMgr/org.apache.jackrabbit.vault.packaging.registry.impl.FSPackageRegistry")
+    @Path("/org.apache.jackrabbit.vault.packaging.registry.impl.FSPackageRegistry")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheJackrabbitVaultPackagingRegistryImplFSPackageRegistryInfo.class, authorizations = {
@@ -16900,7 +16901,7 @@ public class SystemApi  {
         return delegate.orgApacheJackrabbitVaultPackagingRegistryImplFSPackageRegistry(post,apply,delete,action,$location,propertylist,homePath);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.auth.core.impl.LogoutServlet")
+    @Path("/org.apache.sling.auth.core.impl.LogoutServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingAuthCoreImplLogoutServletInfo.class, authorizations = {
@@ -16925,7 +16926,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingAuthCoreImplLogoutServlet(post,apply,delete,action,$location,propertylist,slingServletMethods,slingServletPaths);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.caconfig.impl.ConfigurationBindingsValueProvider")
+    @Path("/org.apache.sling.caconfig.impl.ConfigurationBindingsValueProvider")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingCaconfigImplConfigurationBindingsValueProviderInfo.class, authorizations = {
@@ -16949,7 +16950,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingCaconfigImplConfigurationBindingsValueProvider(post,apply,delete,action,$location,propertylist,enabled);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.caconfig.impl.ConfigurationResolverImpl")
+    @Path("/org.apache.sling.caconfig.impl.ConfigurationResolverImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingCaconfigImplConfigurationResolverImplInfo.class, authorizations = {
@@ -16973,7 +16974,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingCaconfigImplConfigurationResolverImpl(post,apply,delete,action,$location,propertylist,configBucketNames);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.caconfig.impl.def.DefaultConfigurationInheritanceStrategy")
+    @Path("/org.apache.sling.caconfig.impl.def.DefaultConfigurationInheritanceStrategy")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStraInfo.class, authorizations = {
@@ -16998,7 +16999,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStra(post,apply,delete,action,$location,propertylist,enabled,configPropertyInheritancePropertyNames);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.caconfig.impl.def.DefaultConfigurationPersistenceStrategy")
+    @Path("/org.apache.sling.caconfig.impl.def.DefaultConfigurationPersistenceStrategy")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStraInfo.class, authorizations = {
@@ -17022,7 +17023,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStra(post,apply,delete,action,$location,propertylist,enabled);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.caconfig.impl.override.OsgiConfigurationOverrideProvider")
+    @Path("/org.apache.sling.caconfig.impl.override.OsgiConfigurationOverrideProvider")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviInfo.class, authorizations = {
@@ -17049,7 +17050,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProvi(post,apply,delete,action,$location,propertylist,description,overrides,enabled,serviceRanking);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.caconfig.impl.override.SystemPropertyConfigurationOverrideProvider")
+    @Path("/org.apache.sling.caconfig.impl.override.SystemPropertyConfigurationOverrideProvider")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOveInfo.class, authorizations = {
@@ -17074,7 +17075,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOve(post,apply,delete,action,$location,propertylist,enabled,serviceRanking);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.caconfig.management.impl.ConfigurationManagementSettingsImpl")
+    @Path("/org.apache.sling.caconfig.management.impl.ConfigurationManagementSettingsImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingCaconfigManagementImplConfigurationManagementSettiInfo.class, authorizations = {
@@ -17099,7 +17100,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingCaconfigManagementImplConfigurationManagementSetti(post,apply,delete,action,$location,propertylist,ignorePropertyNameRegex,configCollectionPropertiesResourceNames);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.caconfig.resource.impl.def.DefaultConfigurationResourceResolvingStrategy")
+    @Path("/org.apache.sling.caconfig.resource.impl.def.DefaultConfigurationResourceResolvingStrategy")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourInfo.class, authorizations = {
@@ -17126,7 +17127,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingCaconfigResourceImplDefDefaultConfigurationResour(post,apply,delete,action,$location,propertylist,enabled,configPath,fallbackPaths,configCollectionInheritancePropertyNames);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.caconfig.resource.impl.def.DefaultContextPathStrategy")
+    @Path("/org.apache.sling.caconfig.resource.impl.def.DefaultContextPathStrategy")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyInfo.class, authorizations = {
@@ -17153,7 +17154,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategy(post,apply,delete,action,$location,propertylist,enabled,configRefResourceNames,configRefPropertyNames,serviceRanking);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.commons.html.internal.TagsoupHtmlParser")
+    @Path("/org.apache.sling.commons.html.internal.TagsoupHtmlParser")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingCommonsHtmlInternalTagsoupHtmlParserInfo.class, authorizations = {
@@ -17177,7 +17178,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingCommonsHtmlInternalTagsoupHtmlParser(post,apply,delete,action,$location,propertylist,parserFeatures);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.commons.log.LogManager")
+    @Path("/org.apache.sling.commons.log.LogManager")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingCommonsLogLogManagerInfo.class, authorizations = {
@@ -17210,7 +17211,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingCommonsLogLogManager(post,apply,delete,action,$location,propertylist,orgApacheSlingCommonsLogLevel,orgApacheSlingCommonsLogFile,orgApacheSlingCommonsLogFileNumber,orgApacheSlingCommonsLogFileSize,orgApacheSlingCommonsLogPattern,orgApacheSlingCommonsLogConfigurationFile,orgApacheSlingCommonsLogPackagingDataEnabled,orgApacheSlingCommonsLogMaxCallerDataDepth,orgApacheSlingCommonsLogMaxOldFileCountInDump,orgApacheSlingCommonsLogNumOfLines);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.commons.log.LogManager.factory.config")
+    @Path("/org.apache.sling.commons.log.LogManager.factory.config")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingCommonsLogLogManagerFactoryConfigInfo.class, authorizations = {
@@ -17238,7 +17239,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingCommonsLogLogManagerFactoryConfig(post,apply,delete,action,$location,propertylist,orgApacheSlingCommonsLogLevel,orgApacheSlingCommonsLogFile,orgApacheSlingCommonsLogPattern,orgApacheSlingCommonsLogNames,orgApacheSlingCommonsLogAdditiv);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.commons.log.LogManager.factory.writer")
+    @Path("/org.apache.sling.commons.log.LogManager.factory.writer")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingCommonsLogLogManagerFactoryWriterInfo.class, authorizations = {
@@ -17265,7 +17266,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingCommonsLogLogManagerFactoryWriter(post,apply,delete,action,$location,propertylist,orgApacheSlingCommonsLogFile,orgApacheSlingCommonsLogFileNumber,orgApacheSlingCommonsLogFileSize,orgApacheSlingCommonsLogFileBuffered);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.commons.metrics.internal.LogReporter")
+    @Path("/org.apache.sling.commons.metrics.internal.LogReporter")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingCommonsMetricsInternalLogReporterInfo.class, authorizations = {
@@ -17295,7 +17296,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingCommonsMetricsInternalLogReporter(post,apply,delete,action,$location,propertylist,period,timeUnit,level,loggerName,prefix,pattern,registryName);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.commons.metrics.rrd4j.impl.CodahaleMetricsReporter")
+    @Path("/org.apache.sling.commons.metrics.rrd4j.impl.CodahaleMetricsReporter")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterInfo.class, authorizations = {
@@ -17322,7 +17323,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporter(post,apply,delete,action,$location,propertylist,datasources,step,archives,path);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.commons.mime.internal.MimeTypeServiceImpl")
+    @Path("/org.apache.sling.commons.mime.internal.MimeTypeServiceImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfo.class, authorizations = {
@@ -17346,7 +17347,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingCommonsMimeInternalMimeTypeServiceImpl(post,apply,delete,action,$location,propertylist,mimeTypes);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.commons.scheduler.impl.QuartzScheduler")
+    @Path("/org.apache.sling.commons.scheduler.impl.QuartzScheduler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingCommonsSchedulerImplQuartzSchedulerInfo.class, authorizations = {
@@ -17374,7 +17375,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingCommonsSchedulerImplQuartzScheduler(post,apply,delete,action,$location,propertylist,poolName,allowedPoolNames,schedulerUseleaderforsingle,metricsFilters,slowThresholdMillis);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.commons.scheduler.impl.SchedulerHealthCheck")
+    @Path("/org.apache.sling.commons.scheduler.impl.SchedulerHealthCheck")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingCommonsSchedulerImplSchedulerHealthCheckInfo.class, authorizations = {
@@ -17398,7 +17399,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingCommonsSchedulerImplSchedulerHealthCheck(post,apply,delete,action,$location,propertylist,maxQuartzJobDurationAcceptable);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.commons.threads.impl.DefaultThreadPool.factory")
+    @Path("/org.apache.sling.commons.threads.impl.DefaultThreadPool.factory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryInfo.class, authorizations = {
@@ -17432,7 +17433,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingCommonsThreadsImplDefaultThreadPoolFactory(post,apply,delete,action,$location,propertylist,name,minPoolSize,maxPoolSize,queueSize,maxThreadAge,keepAliveTime,blockPolicy,shutdownGraceful,daemon,shutdownWaitTime,priority);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.datasource.DataSourceFactory")
+    @Path("/org.apache.sling.datasource.DataSourceFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingDatasourceDataSourceFactoryInfo.class, authorizations = {
@@ -17484,7 +17485,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingDatasourceDataSourceFactory(post,apply,delete,action,$location,propertylist,datasourceName,datasourceSvcPropName,driverClassName,url,username,password,defaultAutoCommit,defaultReadOnly,defaultTransactionIsolation,defaultCatalog,maxActive,maxIdle,minIdle,initialSize,maxWait,maxAge,testOnBorrow,testOnReturn,testWhileIdle,validationQuery,validationQueryTimeout,timeBetweenEvictionRunsMillis,minEvictableIdleTimeMillis,connectionProperties,initSQL,jdbcInterceptors,validationInterval,logValidationErrors,datasourceSvcProperties);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.datasource.JNDIDataSourceFactory")
+    @Path("/org.apache.sling.datasource.JNDIDataSourceFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingDatasourceJNDIDataSourceFactoryInfo.class, authorizations = {
@@ -17511,7 +17512,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingDatasourceJNDIDataSourceFactory(post,apply,delete,action,$location,propertylist,datasourceName,datasourceSvcPropName,datasourceJndiName,jndiProperties);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.discovery.oak.Config")
+    @Path("/org.apache.sling.discovery.oak.Config")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingDiscoveryOakConfigInfo.class, authorizations = {
@@ -17553,7 +17554,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingDiscoveryOakConfig(post,apply,delete,action,$location,propertylist,connectorPingTimeout,connectorPingInterval,discoveryLiteCheckInterval,clusterSyncServiceTimeout,clusterSyncServiceInterval,enableSyncToken,minEventDelay,socketConnectTimeout,soTimeout,topologyConnectorUrls,topologyConnectorWhitelist,autoStopLocalLoopEnabled,gzipConnectorRequestsEnabled,hmacEnabled,enableEncryption,sharedKey,hmacSharedKeyTTL,backoffStandbyFactor,backoffStableFactor);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.discovery.oak.SynchronizedClocksHealthCheck")
+    @Path("/org.apache.sling.discovery.oak.SynchronizedClocksHealthCheck")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingDiscoveryOakSynchronizedClocksHealthCheckInfo.class, authorizations = {
@@ -17579,7 +17580,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingDiscoveryOakSynchronizedClocksHealthCheck(post,apply,delete,action,$location,propertylist,hcName,hcTags,hcMbeanName);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.distribution.agent.impl.ForwardDistributionAgentFactory")
+    @Path("/org.apache.sling.distribution.agent.impl.ForwardDistributionAgentFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoInfo.class, authorizations = {
@@ -17622,7 +17623,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingDistributionAgentImplForwardDistributionAgentFacto(post,apply,delete,action,$location,propertylist,name,title,details,enabled,serviceName,logLevel,allowedRoots,queueProcessingEnabled,packageImporterEndpoints,passiveQueues,priorityQueues,retryStrategy,retryAttempts,requestAuthorizationStrategyTarget,transportSecretProviderTarget,packageBuilderTarget,triggersTarget,queueProvider,asyncDelivery,httpConnTimeout);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.distribution.agent.impl.PrivilegeDistributionRequestAuthorizationStrategyFactory")
+    @Path("/org.apache.sling.distribution.agent.impl.PrivilegeDistributionRequestAuthorizationStrategyFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAInfo.class, authorizations = {
@@ -17647,7 +17648,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingDistributionAgentImplPrivilegeDistributionRequestA(post,apply,delete,action,$location,propertylist,name,jcrPrivilege);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.distribution.agent.impl.QueueDistributionAgentFactory")
+    @Path("/org.apache.sling.distribution.agent.impl.QueueDistributionAgentFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingDistributionAgentImplQueueDistributionAgentFactoryInfo.class, authorizations = {
@@ -17682,7 +17683,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingDistributionAgentImplQueueDistributionAgentFactory(post,apply,delete,action,$location,propertylist,name,title,details,enabled,serviceName,logLevel,allowedRoots,requestAuthorizationStrategyTarget,queueProviderFactoryTarget,packageBuilderTarget,triggersTarget,priorityQueues);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.distribution.agent.impl.ReverseDistributionAgentFactory")
+    @Path("/org.apache.sling.distribution.agent.impl.ReverseDistributionAgentFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoInfo.class, authorizations = {
@@ -17719,7 +17720,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingDistributionAgentImplReverseDistributionAgentFacto(post,apply,delete,action,$location,propertylist,name,title,details,enabled,serviceName,logLevel,queueProcessingEnabled,packageExporterEndpoints,pullItems,httpConnTimeout,requestAuthorizationStrategyTarget,transportSecretProviderTarget,packageBuilderTarget,triggersTarget);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.distribution.agent.impl.SimpleDistributionAgentFactory")
+    @Path("/org.apache.sling.distribution.agent.impl.SimpleDistributionAgentFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorInfo.class, authorizations = {
@@ -17753,7 +17754,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingDistributionAgentImplSimpleDistributionAgentFactor(post,apply,delete,action,$location,propertylist,name,title,details,enabled,serviceName,logLevel,queueProcessingEnabled,packageExporterTarget,packageImporterTarget,requestAuthorizationStrategyTarget,triggersTarget);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.distribution.agent.impl.SyncDistributionAgentFactory")
+    @Path("/org.apache.sling.distribution.agent.impl.SyncDistributionAgentFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingDistributionAgentImplSyncDistributionAgentFactoryInfo.class, authorizations = {
@@ -17794,7 +17795,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingDistributionAgentImplSyncDistributionAgentFactory(post,apply,delete,action,$location,propertylist,name,title,details,enabled,serviceName,logLevel,queueProcessingEnabled,passiveQueues,packageExporterEndpoints,packageImporterEndpoints,retryStrategy,retryAttempts,pullItems,httpConnTimeout,requestAuthorizationStrategyTarget,transportSecretProviderTarget,packageBuilderTarget,triggersTarget);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.distribution.monitor.DistributionQueueHealthCheck")
+    @Path("/org.apache.sling.distribution.monitor.DistributionQueueHealthCheck")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingDistributionMonitorDistributionQueueHealthCheckInfo.class, authorizations = {
@@ -17821,7 +17822,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingDistributionMonitorDistributionQueueHealthCheck(post,apply,delete,action,$location,propertylist,hcName,hcTags,hcMbeanName,numberOfRetriesAllowed);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.distribution.packaging.impl.exporter.AgentDistributionPackageExporterFactory")
+    @Path("/org.apache.sling.distribution.packaging.impl.exporter.AgentDistributionPackageExporterFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingDistributionPackagingImplExporterAgentDistributioInfo.class, authorizations = {
@@ -17848,7 +17849,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingDistributionPackagingImplExporterAgentDistributio(post,apply,delete,action,$location,propertylist,name,queue,dropInvalidItems,agentTarget);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.distribution.packaging.impl.exporter.LocalDistributionPackageExporterFactory")
+    @Path("/org.apache.sling.distribution.packaging.impl.exporter.LocalDistributionPackageExporterFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingDistributionPackagingImplExporterLocalDistributioInfo.class, authorizations = {
@@ -17873,7 +17874,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingDistributionPackagingImplExporterLocalDistributio(post,apply,delete,action,$location,propertylist,name,packageBuilderTarget);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.distribution.packaging.impl.exporter.RemoteDistributionPackageExporterFactory")
+    @Path("/org.apache.sling.distribution.packaging.impl.exporter.RemoteDistributionPackageExporterFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiInfo.class, authorizations = {
@@ -17901,7 +17902,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingDistributionPackagingImplExporterRemoteDistributi(post,apply,delete,action,$location,propertylist,name,endpoints,pullItems,packageBuilderTarget,transportSecretProviderTarget);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.distribution.packaging.impl.importer.LocalDistributionPackageImporterFactory")
+    @Path("/org.apache.sling.distribution.packaging.impl.importer.LocalDistributionPackageImporterFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingDistributionPackagingImplImporterLocalDistributioInfo.class, authorizations = {
@@ -17926,7 +17927,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingDistributionPackagingImplImporterLocalDistributio(post,apply,delete,action,$location,propertylist,name,packageBuilderTarget);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.distribution.packaging.impl.importer.RemoteDistributionPackageImporterFactory")
+    @Path("/org.apache.sling.distribution.packaging.impl.importer.RemoteDistributionPackageImporterFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingDistributionPackagingImplImporterRemoteDistributiInfo.class, authorizations = {
@@ -17952,7 +17953,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingDistributionPackagingImplImporterRemoteDistributi(post,apply,delete,action,$location,propertylist,name,endpoints,transportSecretProviderTarget);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.distribution.packaging.impl.importer.RepositoryDistributionPackageImporterFactory")
+    @Path("/org.apache.sling.distribution.packaging.impl.importer.RepositoryDistributionPackageImporterFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingDistributionPackagingImplImporterRepositoryDistriInfo.class, authorizations = {
@@ -17979,7 +17980,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingDistributionPackagingImplImporterRepositoryDistri(post,apply,delete,action,$location,propertylist,name,serviceName,path,privilegeName);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.distribution.resources.impl.DistributionConfigurationResourceProviderFactory")
+    @Path("/org.apache.sling.distribution.resources.impl.DistributionConfigurationResourceProviderFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingDistributionResourcesImplDistributionConfigurationInfo.class, authorizations = {
@@ -18004,7 +18005,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingDistributionResourcesImplDistributionConfiguration(post,apply,delete,action,$location,propertylist,providerRoots,kind);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.distribution.resources.impl.DistributionServiceResourceProviderFactory")
+    @Path("/org.apache.sling.distribution.resources.impl.DistributionServiceResourceProviderFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingDistributionResourcesImplDistributionServiceResourInfo.class, authorizations = {
@@ -18029,7 +18030,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingDistributionResourcesImplDistributionServiceResour(post,apply,delete,action,$location,propertylist,providerRoots,kind);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.distribution.serialization.impl.DistributionPackageBuilderFactory")
+    @Path("/org.apache.sling.distribution.serialization.impl.DistributionPackageBuilderFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingDistributionSerializationImplDistributionPackageBuInfo.class, authorizations = {
@@ -18064,7 +18065,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingDistributionSerializationImplDistributionPackageBu(post,apply,delete,action,$location,propertylist,name,type,formatTarget,tempFsFolder,fileThreshold,memoryUnit,useOffHeapMemory,digestAlgorithm,monitoringQueueSize,cleanupDelay,packageFilters,propertyFilters);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.distribution.serialization.impl.vlt.VaultDistributionPackageBuilderFactory")
+    @Path("/org.apache.sling.distribution.serialization.impl.vlt.VaultDistributionPackageBuilderFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingDistributionSerializationImplVltVaultDistributionInfo.class, authorizations = {
@@ -18105,7 +18106,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingDistributionSerializationImplVltVaultDistribution(post,apply,delete,action,$location,propertylist,name,type,importMode,aclHandling,packageRoots,packageFilters,propertyFilters,tempFsFolder,useBinaryReferences,autoSaveThreshold,cleanupDelay,fileThreshold,MEGA_BYTES,useOffHeapMemory,digestAlgorithm,monitoringQueueSize,pathsMapping,strictImport);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.distribution.transport.impl.UserCredentialsDistributionTransportSecretProvider")
+    @Path("/org.apache.sling.distribution.transport.impl.UserCredentialsDistributionTransportSecretProvider")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingDistributionTransportImplUserCredentialsDistributiInfo.class, authorizations = {
@@ -18131,7 +18132,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingDistributionTransportImplUserCredentialsDistributi(post,apply,delete,action,$location,propertylist,name,username,password);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.distribution.trigger.impl.DistributionEventDistributeDistributionTriggerFactory")
+    @Path("/org.apache.sling.distribution.trigger.impl.DistributionEventDistributeDistributionTriggerFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingDistributionTriggerImplDistributionEventDistributeInfo.class, authorizations = {
@@ -18156,7 +18157,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingDistributionTriggerImplDistributionEventDistribute(post,apply,delete,action,$location,propertylist,name,path);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.distribution.trigger.impl.JcrEventDistributionTriggerFactory")
+    @Path("/org.apache.sling.distribution.trigger.impl.JcrEventDistributionTriggerFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerInfo.class, authorizations = {
@@ -18184,7 +18185,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingDistributionTriggerImplJcrEventDistributionTrigger(post,apply,delete,action,$location,propertylist,name,path,ignoredPathsPatterns,serviceName,deep);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.distribution.trigger.impl.PersistedJcrEventDistributionTriggerFactory")
+    @Path("/org.apache.sling.distribution.trigger.impl.PersistedJcrEventDistributionTriggerFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiInfo.class, authorizations = {
@@ -18211,7 +18212,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingDistributionTriggerImplPersistedJcrEventDistributi(post,apply,delete,action,$location,propertylist,name,path,serviceName,nuggetsPath);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.distribution.trigger.impl.RemoteEventDistributionTriggerFactory")
+    @Path("/org.apache.sling.distribution.trigger.impl.RemoteEventDistributionTriggerFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingDistributionTriggerImplRemoteEventDistributionTrigInfo.class, authorizations = {
@@ -18237,7 +18238,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingDistributionTriggerImplRemoteEventDistributionTrig(post,apply,delete,action,$location,propertylist,name,endpoint,transportSecretProviderTarget);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.distribution.trigger.impl.ResourceEventDistributionTriggerFactory")
+    @Path("/org.apache.sling.distribution.trigger.impl.ResourceEventDistributionTriggerFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingDistributionTriggerImplResourceEventDistributionTrInfo.class, authorizations = {
@@ -18262,7 +18263,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingDistributionTriggerImplResourceEventDistributionTr(post,apply,delete,action,$location,propertylist,name,path);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.distribution.trigger.impl.ScheduledDistributionTriggerFactory")
+    @Path("/org.apache.sling.distribution.trigger.impl.ScheduledDistributionTriggerFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggeInfo.class, authorizations = {
@@ -18289,7 +18290,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingDistributionTriggerImplScheduledDistributionTrigge(post,apply,delete,action,$location,propertylist,name,path,seconds,serviceName);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.engine.impl.auth.SlingAuthenticator")
+    @Path("/org.apache.sling.engine.impl.auth.SlingAuthenticator")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingEngineImplAuthSlingAuthenticatorInfo.class, authorizations = {
@@ -18323,7 +18324,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingEngineImplAuthSlingAuthenticator(post,apply,delete,action,$location,propertylist,osgiHttpWhiteboardContextSelect,osgiHttpWhiteboardListener,authSudoCookie,authSudoParameter,authAnnonymous,slingAuthRequirements,slingAuthAnonymousUser,slingAuthAnonymousPassword,authHttp,authHttpRealm,authUriSuffix);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.engine.impl.debug.RequestProgressTrackerLogFilter")
+    @Path("/org.apache.sling.engine.impl.debug.RequestProgressTrackerLogFilter")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingEngineImplDebugRequestProgressTrackerLogFilterInfo.class, authorizations = {
@@ -18350,7 +18351,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingEngineImplDebugRequestProgressTrackerLogFilter(post,apply,delete,action,$location,propertylist,extensions,minDurationMs,maxDurationMs,compactLogFormat);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.engine.impl.log.RequestLogger")
+    @Path("/org.apache.sling.engine.impl.log.RequestLogger")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingEngineImplLogRequestLoggerInfo.class, authorizations = {
@@ -18379,7 +18380,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingEngineImplLogRequestLogger(post,apply,delete,action,$location,propertylist,requestLogOutput,requestLogOutputtype,requestLogEnabled,accessLogOutput,accessLogOutputtype,accessLogEnabled);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.engine.impl.log.RequestLoggerService")
+    @Path("/org.apache.sling.engine.impl.log.RequestLoggerService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingEngineImplLogRequestLoggerServiceInfo.class, authorizations = {
@@ -18406,7 +18407,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingEngineImplLogRequestLoggerService(post,apply,delete,action,$location,propertylist,requestLogServiceFormat,requestLogServiceOutput,requestLogServiceOutputtype,requestLogServiceOnentry);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.engine.impl.SlingMainServlet")
+    @Path("/org.apache.sling.engine.impl.SlingMainServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingEngineImplSlingMainServletInfo.class, authorizations = {
@@ -18436,7 +18437,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingEngineImplSlingMainServlet(post,apply,delete,action,$location,propertylist,slingMaxCalls,slingMaxInclusions,slingTraceAllow,slingMaxRecordRequests,slingStorePatternRequests,slingServerinfo,slingAdditionalResponseHeaders);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.engine.parameters")
+    @Path("/org.apache.sling.engine.parameters")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingEngineParametersInfo.class, authorizations = {
@@ -18466,7 +18467,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingEngineParameters(post,apply,delete,action,$location,propertylist,slingDefaultParameterEncoding,slingDefaultMaxParameters,fileLocation,fileThreshold,fileMax,requestMax,slingDefaultParameterCheckForAdditionalContainerParameters);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.event.impl.EventingThreadPool")
+    @Path("/org.apache.sling.event.impl.EventingThreadPool")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingEventImplEventingThreadPoolInfo.class, authorizations = {
@@ -18490,7 +18491,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingEventImplEventingThreadPool(post,apply,delete,action,$location,propertylist,minPoolSize);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.event.impl.jobs.DefaultJobManager")
+    @Path("/org.apache.sling.event.impl.jobs.DefaultJobManager")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingEventImplJobsDefaultJobManagerInfo.class, authorizations = {
@@ -18517,7 +18518,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingEventImplJobsDefaultJobManager(post,apply,delete,action,$location,propertylist,queuePriority,queueRetries,queueRetrydelay,queueMaxparallel);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.event.impl.jobs.jcr.PersistenceHandler")
+    @Path("/org.apache.sling.event.impl.jobs.jcr.PersistenceHandler")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingEventImplJobsJcrPersistenceHandlerInfo.class, authorizations = {
@@ -18543,7 +18544,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingEventImplJobsJcrPersistenceHandler(post,apply,delete,action,$location,propertylist,jobConsumermanagerDisableDistribution,startupDelay,cleanupPeriod);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.event.impl.jobs.JobConsumerManager")
+    @Path("/org.apache.sling.event.impl.jobs.JobConsumerManager")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingEventImplJobsJobConsumerManagerInfo.class, authorizations = {
@@ -18569,7 +18570,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingEventImplJobsJobConsumerManager(post,apply,delete,action,$location,propertylist,orgApacheSlingInstallerConfigurationPersist,jobConsumermanagerWhitelist,jobConsumermanagerBlacklist);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.event.jobs.QueueConfiguration")
+    @Path("/org.apache.sling.event.jobs.QueueConfiguration")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingEventJobsQueueConfigurationInfo.class, authorizations = {
@@ -18603,7 +18604,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingEventJobsQueueConfiguration(post,apply,delete,action,$location,propertylist,queueName,queueTopics,queueType,queuePriority,queueRetries,queueRetrydelay,queueMaxparallel,queueKeepJobs,queuePreferRunOnCreationInstance,queueThreadPoolSize,serviceRanking);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.extensions.webconsolesecurityprovider.internal.SlingWebConsoleSecurityProvider")
+    @Path("/org.apache.sling.extensions.webconsolesecurityprovider.internal.SlingWebConsoleSecurityProvider")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWInfo.class, authorizations = {
@@ -18628,7 +18629,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingW(post,apply,delete,action,$location,propertylist,users,groups);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.featureflags.Feature")
+    @Path("/org.apache.sling.featureflags.Feature")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingFeatureflagsFeatureInfo.class, authorizations = {
@@ -18654,7 +18655,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingFeatureflagsFeature(post,apply,delete,action,$location,propertylist,name,description,enabled);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.featureflags.impl.ConfiguredFeature")
+    @Path("/org.apache.sling.featureflags.impl.ConfiguredFeature")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingFeatureflagsImplConfiguredFeatureInfo.class, authorizations = {
@@ -18680,7 +18681,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingFeatureflagsImplConfiguredFeature(post,apply,delete,action,$location,propertylist,name,description,enabled);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.hapi.impl.HApiUtilImpl")
+    @Path("/org.apache.sling.hapi.impl.HApiUtilImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingHapiImplHApiUtilImplInfo.class, authorizations = {
@@ -18708,7 +18709,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingHapiImplHApiUtilImpl(post,apply,delete,action,$location,propertylist,orgApacheSlingHapiToolsResourcetype,orgApacheSlingHapiToolsCollectionresourcetype,orgApacheSlingHapiToolsSearchpaths,orgApacheSlingHapiToolsExternalurl,orgApacheSlingHapiToolsEnabled);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.hc.core.impl.CompositeHealthCheck")
+    @Path("/org.apache.sling.hc.core.impl.CompositeHealthCheck")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingHcCoreImplCompositeHealthCheckInfo.class, authorizations = {
@@ -18736,7 +18737,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingHcCoreImplCompositeHealthCheck(post,apply,delete,action,$location,propertylist,hcName,hcTags,hcMbeanName,filterTags,filterCombineTagsWithOr);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.hc.core.impl.executor.HealthCheckExecutorImpl")
+    @Path("/org.apache.sling.hc.core.impl.executor.HealthCheckExecutorImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingHcCoreImplExecutorHealthCheckExecutorImplInfo.class, authorizations = {
@@ -18762,7 +18763,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingHcCoreImplExecutorHealthCheckExecutorImpl(post,apply,delete,action,$location,propertylist,timeoutInMs,longRunningFutureThresholdForCriticalMs,resultCacheTtlInMs);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.hc.core.impl.JmxAttributeHealthCheck")
+    @Path("/org.apache.sling.hc.core.impl.JmxAttributeHealthCheck")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingHcCoreImplJmxAttributeHealthCheckInfo.class, authorizations = {
@@ -18791,7 +18792,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingHcCoreImplJmxAttributeHealthCheck(post,apply,delete,action,$location,propertylist,hcName,hcTags,hcMbeanName,mbeanName,attributeName,attributeValueConstraint);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.hc.core.impl.ScriptableHealthCheck")
+    @Path("/org.apache.sling.hc.core.impl.ScriptableHealthCheck")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingHcCoreImplScriptableHealthCheckInfo.class, authorizations = {
@@ -18819,7 +18820,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingHcCoreImplScriptableHealthCheck(post,apply,delete,action,$location,propertylist,hcName,hcTags,hcMbeanName,expression,languageExtension);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.hc.core.impl.servlet.HealthCheckExecutorServlet")
+    @Path("/org.apache.sling.hc.core.impl.servlet.HealthCheckExecutorServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingHcCoreImplServletHealthCheckExecutorServletInfo.class, authorizations = {
@@ -18845,7 +18846,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingHcCoreImplServletHealthCheckExecutorServlet(post,apply,delete,action,$location,propertylist,servletPath,disabled,corsAccessControlAllowOrigin);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.hc.core.impl.servlet.ResultTxtVerboseSerializer")
+    @Path("/org.apache.sling.hc.core.impl.servlet.ResultTxtVerboseSerializer")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingHcCoreImplServletResultTxtVerboseSerializerInfo.class, authorizations = {
@@ -18872,7 +18873,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingHcCoreImplServletResultTxtVerboseSerializer(post,apply,delete,action,$location,propertylist,totalWidth,colWidthName,colWidthResult,colWidthTiming);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.i18n.impl.I18NFilter")
+    @Path("/org.apache.sling.i18n.impl.I18NFilter")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingI18nImplI18NFilterInfo.class, authorizations = {
@@ -18897,7 +18898,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingI18nImplI18NFilter(post,apply,delete,action,$location,propertylist,serviceRanking,slingFilterScope);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.i18n.impl.JcrResourceBundleProvider")
+    @Path("/org.apache.sling.i18n.impl.JcrResourceBundleProvider")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingI18nImplJcrResourceBundleProviderInfo.class, authorizations = {
@@ -18923,7 +18924,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingI18nImplJcrResourceBundleProvider(post,apply,delete,action,$location,propertylist,localeDefault,preloadBundles,invalidationDelay);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.installer.provider.jcr.impl.JcrInstaller")
+    @Path("/org.apache.sling.installer.provider.jcr.impl.JcrInstaller")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingInstallerProviderJcrImplJcrInstallerInfo.class, authorizations = {
@@ -18953,7 +18954,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingInstallerProviderJcrImplJcrInstaller(post,apply,delete,action,$location,propertylist,handlerSchemes,slingJcrinstallFolderNameRegexp,slingJcrinstallFolderMaxDepth,slingJcrinstallSearchPath,slingJcrinstallNewConfigPath,slingJcrinstallSignalPath,slingJcrinstallEnableWriteback);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.jcr.base.internal.LoginAdminWhitelist")
+    @Path("/org.apache.sling.jcr.base.internal.LoginAdminWhitelist")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingJcrBaseInternalLoginAdminWhitelistInfo.class, authorizations = {
@@ -18978,7 +18979,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingJcrBaseInternalLoginAdminWhitelist(post,apply,delete,action,$location,propertylist,whitelistBypass,whitelistBundlesRegexp);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.jcr.base.internal.LoginAdminWhitelist.fragment")
+    @Path("/org.apache.sling.jcr.base.internal.LoginAdminWhitelist.fragment")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingJcrBaseInternalLoginAdminWhitelistFragmentInfo.class, authorizations = {
@@ -19003,7 +19004,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingJcrBaseInternalLoginAdminWhitelistFragment(post,apply,delete,action,$location,propertylist,whitelistName,whitelistBundles);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.jcr.davex.impl.servlets.SlingDavExServlet")
+    @Path("/org.apache.sling.jcr.davex.impl.servlets.SlingDavExServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingJcrDavexImplServletsSlingDavExServletInfo.class, authorizations = {
@@ -19029,7 +19030,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingJcrDavexImplServletsSlingDavExServlet(post,apply,delete,action,$location,propertylist,alias,davCreateAbsoluteUri,davProtectedhandlers);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.jcr.jackrabbit.server.JndiRegistrationSupport")
+    @Path("/org.apache.sling.jcr.jackrabbit.server.JndiRegistrationSupport")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingJcrJackrabbitServerJndiRegistrationSupportInfo.class, authorizations = {
@@ -19054,7 +19055,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingJcrJackrabbitServerJndiRegistrationSupport(post,apply,delete,action,$location,propertylist,javaNamingFactoryInitial,javaNamingProviderUrl);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.jcr.jackrabbit.server.RmiRegistrationSupport")
+    @Path("/org.apache.sling.jcr.jackrabbit.server.RmiRegistrationSupport")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingJcrJackrabbitServerRmiRegistrationSupportInfo.class, authorizations = {
@@ -19078,7 +19079,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingJcrJackrabbitServerRmiRegistrationSupport(post,apply,delete,action,$location,propertylist,port);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.jcr.repoinit.impl.RepositoryInitializer")
+    @Path("/org.apache.sling.jcr.repoinit.impl.RepositoryInitializer")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingJcrRepoinitImplRepositoryInitializerInfo.class, authorizations = {
@@ -19102,7 +19103,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingJcrRepoinitImplRepositoryInitializer(post,apply,delete,action,$location,propertylist,references);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.jcr.repoinit.RepositoryInitializer")
+    @Path("/org.apache.sling.jcr.repoinit.RepositoryInitializer")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingJcrRepoinitRepositoryInitializerInfo.class, authorizations = {
@@ -19127,7 +19128,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingJcrRepoinitRepositoryInitializer(post,apply,delete,action,$location,propertylist,references,scripts);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.jcr.resource.internal.JcrResourceResolverFactoryImpl")
+    @Path("/org.apache.sling.jcr.resource.internal.JcrResourceResolverFactoryImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplInfo.class, authorizations = {
@@ -19171,7 +19172,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImpl(post,apply,delete,action,$location,propertylist,resourceResolverSearchpath,resourceResolverManglenamespaces,resourceResolverAllowDirect,resourceResolverRequiredProviders,resourceResolverRequiredProvidernames,resourceResolverVirtual,resourceResolverMapping,resourceResolverMapLocation,resourceResolverMapObservation,resourceResolverDefaultVanityRedirectStatus,resourceResolverEnableVanitypath,resourceResolverVanitypathMaxEntries,resourceResolverVanitypathMaxEntriesStartup,resourceResolverVanitypathBloomfilterMaxBytes,resourceResolverOptimizeAliasResolution,resourceResolverVanitypathWhitelist,resourceResolverVanitypathBlacklist,resourceResolverVanityPrecedence,resourceResolverProviderhandlingParanoid,resourceResolverLogClosing,resourceResolverLogUnclosed);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.jcr.resource.internal.JcrSystemUserValidator")
+    @Path("/org.apache.sling.jcr.resource.internal.JcrSystemUserValidator")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingJcrResourceInternalJcrSystemUserValidatorInfo.class, authorizations = {
@@ -19195,7 +19196,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingJcrResourceInternalJcrSystemUserValidator(post,apply,delete,action,$location,propertylist,allowOnlySystemUser);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.jcr.resourcesecurity.impl.ResourceAccessGateFactory")
+    @Path("/org.apache.sling.jcr.resourcesecurity.impl.ResourceAccessGateFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingJcrResourcesecurityImplResourceAccessGateFactoryInfo.class, authorizations = {
@@ -19221,7 +19222,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingJcrResourcesecurityImplResourceAccessGateFactory(post,apply,delete,action,$location,propertylist,path,checkpathPrefix,jcrPath);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.jcr.webdav.impl.handler.DefaultHandlerService")
+    @Path("/org.apache.sling.jcr.webdav.impl.handler.DefaultHandlerService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingJcrWebdavImplHandlerDefaultHandlerServiceInfo.class, authorizations = {
@@ -19248,7 +19249,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingJcrWebdavImplHandlerDefaultHandlerService(post,apply,delete,action,$location,propertylist,serviceRanking,typeCollections,typeNoncollections,typeContent);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.jcr.webdav.impl.handler.DirListingExportHandlerService")
+    @Path("/org.apache.sling.jcr.webdav.impl.handler.DirListingExportHandlerService")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServicInfo.class, authorizations = {
@@ -19272,7 +19273,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServic(post,apply,delete,action,$location,propertylist,serviceRanking);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.jcr.webdav.impl.servlets.SimpleWebDavServlet")
+    @Path("/org.apache.sling.jcr.webdav.impl.servlets.SimpleWebDavServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletInfo.class, authorizations = {
@@ -19305,7 +19306,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingJcrWebdavImplServletsSimpleWebDavServlet(post,apply,delete,action,$location,propertylist,davRoot,davCreateAbsoluteUri,davRealm,collectionTypes,filterPrefixes,filterTypes,filterUris,typeCollections,typeNoncollections,typeContent);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.jmx.provider.impl.JMXResourceProvider")
+    @Path("/org.apache.sling.jmx.provider.impl.JMXResourceProvider")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingJmxProviderImplJMXResourceProviderInfo.class, authorizations = {
@@ -19329,7 +19330,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingJmxProviderImplJMXResourceProvider(post,apply,delete,action,$location,propertylist,providerRoots);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.models.impl.ModelAdapterFactory")
+    @Path("/org.apache.sling.models.impl.ModelAdapterFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingModelsImplModelAdapterFactoryInfo.class, authorizations = {
@@ -19356,7 +19357,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingModelsImplModelAdapterFactory(post,apply,delete,action,$location,propertylist,osgiHttpWhiteboardListener,osgiHttpWhiteboardContextSelect,maxRecursionDepth,cleanupJobPeriod);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.models.jacksonexporter.impl.ResourceModuleProvider")
+    @Path("/org.apache.sling.models.jacksonexporter.impl.ResourceModuleProvider")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingModelsJacksonexporterImplResourceModuleProviderInfo.class, authorizations = {
@@ -19380,7 +19381,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingModelsJacksonexporterImplResourceModuleProvider(post,apply,delete,action,$location,propertylist,maxRecursionLevels);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.resource.inventory.impl.ResourceInventoryPrinterFactory")
+    @Path("/org.apache.sling.resource.inventory.impl.ResourceInventoryPrinterFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoInfo.class, authorizations = {
@@ -19406,7 +19407,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingResourceInventoryImplResourceInventoryPrinterFacto(post,apply,delete,action,$location,propertylist,felixInventoryPrinterName,felixInventoryPrinterTitle,path);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.resourcemerger.impl.MergedResourceProviderFactory")
+    @Path("/org.apache.sling.resourcemerger.impl.MergedResourceProviderFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingResourcemergerImplMergedResourceProviderFactoryInfo.class, authorizations = {
@@ -19431,7 +19432,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingResourcemergerImplMergedResourceProviderFactory(post,apply,delete,action,$location,propertylist,mergeRoot,mergeReadOnly);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.resourcemerger.picker.overriding")
+    @Path("/org.apache.sling.resourcemerger.picker.overriding")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingResourcemergerPickerOverridingInfo.class, authorizations = {
@@ -19456,7 +19457,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingResourcemergerPickerOverriding(post,apply,delete,action,$location,propertylist,mergeRoot,mergeReadOnly);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.scripting.core.impl.ScriptCacheImpl")
+    @Path("/org.apache.sling.scripting.core.impl.ScriptCacheImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingScriptingCoreImplScriptCacheImplInfo.class, authorizations = {
@@ -19481,7 +19482,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingScriptingCoreImplScriptCacheImpl(post,apply,delete,action,$location,propertylist,orgApacheSlingScriptingCacheSize,orgApacheSlingScriptingCacheAdditionalExtensions);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.scripting.core.impl.ScriptingResourceResolverProviderImpl")
+    @Path("/org.apache.sling.scripting.core.impl.ScriptingResourceResolverProviderImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderInfo.class, authorizations = {
@@ -19505,7 +19506,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingScriptingCoreImplScriptingResourceResolverProvider(post,apply,delete,action,$location,propertylist,logStacktraceOnclose);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.scripting.java.impl.JavaScriptEngineFactory")
+    @Path("/org.apache.sling.scripting.java.impl.JavaScriptEngineFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryInfo.class, authorizations = {
@@ -19532,7 +19533,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingScriptingJavaImplJavaScriptEngineFactory(post,apply,delete,action,$location,propertylist,javaClassdebuginfo,javaJavaEncoding,javaCompilerSourceVM,javaCompilerTargetVM);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.scripting.javascript.internal.RhinoJavaScriptEngineFactory")
+    @Path("/org.apache.sling.scripting.javascript.internal.RhinoJavaScriptEngineFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFaInfo.class, authorizations = {
@@ -19556,7 +19557,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFa(post,apply,delete,action,$location,propertylist,orgApacheSlingScriptingJavascriptRhinoOptLevel);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.scripting.jsp.JspScriptEngineFactory")
+    @Path("/org.apache.sling.scripting.jsp.JspScriptEngineFactory")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingScriptingJspJspScriptEngineFactoryInfo.class, authorizations = {
@@ -19590,7 +19591,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingScriptingJspJspScriptEngineFactory(post,apply,delete,action,$location,propertylist,jasperCompilerTargetVM,jasperCompilerSourceVM,jasperClassdebuginfo,jasperEnablePooling,jasperIeClassId,jasperGenStringAsCharArray,jasperKeepgenerated,jasperMappedfile,jasperTrimSpaces,jasperDisplaySourceFragments,defaultIsSession);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.scripting.sightly.js.impl.jsapi.SlyBindingsValuesProvider")
+    @Path("/org.apache.sling.scripting.sightly.js.impl.jsapi.SlyBindingsValuesProvider")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvInfo.class, authorizations = {
@@ -19614,7 +19615,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProv(post,apply,delete,action,$location,propertylist,orgApacheSlingScriptingSightlyJsBindings);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.security.impl.ContentDispositionFilter")
+    @Path("/org.apache.sling.security.impl.ContentDispositionFilter")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingSecurityImplContentDispositionFilterInfo.class, authorizations = {
@@ -19640,7 +19641,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingSecurityImplContentDispositionFilter(post,apply,delete,action,$location,propertylist,slingContentDispositionPaths,slingContentDispositionExcludedPaths,slingContentDispositionAllPaths);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.security.impl.ReferrerFilter")
+    @Path("/org.apache.sling.security.impl.ReferrerFilter")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingSecurityImplReferrerFilterInfo.class, authorizations = {
@@ -19668,7 +19669,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingSecurityImplReferrerFilter(post,apply,delete,action,$location,propertylist,allowEmpty,allowHosts,allowHostsRegexp,filterMethods,excludeAgentsRegexp);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.serviceusermapping.impl.ServiceUserMapperImpl")
+    @Path("/org.apache.sling.serviceusermapping.impl.ServiceUserMapperImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingServiceusermappingImplServiceUserMapperImplInfo.class, authorizations = {
@@ -19695,7 +19696,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingServiceusermappingImplServiceUserMapperImpl(post,apply,delete,action,$location,propertylist,userMapping,userDefault,userEnableDefaultMapping,requireValidation);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.serviceusermapping.impl.ServiceUserMapperImpl.amended")
+    @Path("/org.apache.sling.serviceusermapping.impl.ServiceUserMapperImpl.amended")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingServiceusermappingImplServiceUserMapperImplAmendedInfo.class, authorizations = {
@@ -19720,7 +19721,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingServiceusermappingImplServiceUserMapperImplAmended(post,apply,delete,action,$location,propertylist,serviceRanking,userMapping);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.servlets.get.DefaultGetServlet")
+    @Path("/org.apache.sling.servlets.get.DefaultGetServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingServletsGetDefaultGetServletInfo.class, authorizations = {
@@ -19752,7 +19753,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingServletsGetDefaultGetServlet(post,apply,delete,action,$location,propertylist,aliases,index,indexFiles,enableHtml,enableJson,enableTxt,enableXml,jsonMaximumresults,ecmaSuport);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.servlets.get.impl.version.VersionInfoServlet")
+    @Path("/org.apache.sling.servlets.get.impl.version.VersionInfoServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingServletsGetImplVersionVersionInfoServletInfo.class, authorizations = {
@@ -19777,7 +19778,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingServletsGetImplVersionVersionInfoServlet(post,apply,delete,action,$location,propertylist,slingServletSelectors,ecmaSuport);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.servlets.post.impl.helper.ChunkCleanUpTask")
+    @Path("/org.apache.sling.servlets.post.impl.helper.ChunkCleanUpTask")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingServletsPostImplHelperChunkCleanUpTaskInfo.class, authorizations = {
@@ -19803,7 +19804,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingServletsPostImplHelperChunkCleanUpTask(post,apply,delete,action,$location,propertylist,schedulerExpression,schedulerConcurrent,chunkCleanupAge);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.servlets.post.impl.SlingPostServlet")
+    @Path("/org.apache.sling.servlets.post.impl.SlingPostServlet")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingServletsPostImplSlingPostServletInfo.class, authorizations = {
@@ -19833,7 +19834,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingServletsPostImplSlingPostServlet(post,apply,delete,action,$location,propertylist,servletPostDateFormats,servletPostNodeNameHints,servletPostNodeNameMaxLength,servletPostCheckinNewVersionableNodes,servletPostAutoCheckout,servletPostAutoCheckin,servletPostIgnorePattern);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.servlets.resolver.SlingServletResolver")
+    @Path("/org.apache.sling.servlets.resolver.SlingServletResolver")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingServletsResolverSlingServletResolverInfo.class, authorizations = {
@@ -19860,7 +19861,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingServletsResolverSlingServletResolver(post,apply,delete,action,$location,propertylist,servletresolverServletRoot,servletresolverCacheSize,servletresolverPaths,servletresolverDefaultExtensions);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.settings.impl.SlingSettingsServiceImpl")
+    @Path("/org.apache.sling.settings.impl.SlingSettingsServiceImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingSettingsImplSlingSettingsServiceImplInfo.class, authorizations = {
@@ -19885,7 +19886,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingSettingsImplSlingSettingsServiceImpl(post,apply,delete,action,$location,propertylist,slingName,slingDescription);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.startupfilter.impl.StartupFilterImpl")
+    @Path("/org.apache.sling.startupfilter.impl.StartupFilterImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingStartupfilterImplStartupFilterImplInfo.class, authorizations = {
@@ -19910,7 +19911,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingStartupfilterImplStartupFilterImpl(post,apply,delete,action,$location,propertylist,activeByDefault,defaultMessage);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.tenant.internal.TenantProviderImpl")
+    @Path("/org.apache.sling.tenant.internal.TenantProviderImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingTenantInternalTenantProviderImplInfo.class, authorizations = {
@@ -19935,7 +19936,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingTenantInternalTenantProviderImpl(post,apply,delete,action,$location,propertylist,tenantRoot,tenantPathMatcher);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.tracer.internal.LogTracer")
+    @Path("/org.apache.sling.tracer.internal.LogTracer")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingTracerInternalLogTracerInfo.class, authorizations = {
@@ -19965,7 +19966,7 @@ public class SystemApi  {
         return delegate.orgApacheSlingTracerInternalLogTracer(post,apply,delete,action,$location,propertylist,tracerSets,enabled,servletEnabled,recordingCacheSizeInMB,recordingCacheDurationInSecs,recordingCompressionEnabled,gzipResponse);
     }
     @POST
-    @Path("/console/configMgr/org.apache.sling.xss.impl.XSSFilterImpl")
+    @Path("/org.apache.sling.xss.impl.XSSFilterImpl")
     
     @Produces({ "application/json", "text/plain" })
     @io.swagger.annotations.ApiOperation(value = "", notes = "", response = OrgApacheSlingXssImplXSSFilterImplInfo.class, authorizations = {

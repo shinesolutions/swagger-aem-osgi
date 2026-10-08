@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyBoolean;
 
 @Canonical
 class ComAdobeGraniteOffloadingImplOffloadingJobOffloaderProperties {
-    ConfigNodePropertyBoolean offloadingOffloaderEnabled = null
-
+    
+    ConfigNodePropertyBoolean offloadingOffloaderEnabled
 }

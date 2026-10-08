@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyBoolean;
 
 @Canonical
 class ComDayCqDamHandlerStandardPdfPdfHandlerProperties {
-    ConfigNodePropertyBoolean rasterAnnotation = null
-
+    
+    ConfigNodePropertyBoolean rasterAnnotation
 }

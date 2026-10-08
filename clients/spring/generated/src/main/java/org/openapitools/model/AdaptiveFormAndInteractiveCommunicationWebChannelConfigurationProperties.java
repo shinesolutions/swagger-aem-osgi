@@ -1,38 +1,49 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyDropDown;
 import org.openapitools.model.ConfigNodePropertyInteger;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationProperties   {
-  @JsonProperty("showPlaceholder")
-  private ConfigNodePropertyBoolean showPlaceholder = null;
+@JsonTypeName("adaptiveFormAndInteractiveCommunicationWebChannelConfigurationProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationProperties {
 
-  @JsonProperty("maximumCacheEntries")
-  private ConfigNodePropertyInteger maximumCacheEntries = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean showPlaceholder;
 
-  @JsonProperty("af.scripting.compatversion")
-  private ConfigNodePropertyDropDown afScriptingCompatversion = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger maximumCacheEntries;
 
-  @JsonProperty("makeFileNameUnique")
-  private ConfigNodePropertyBoolean makeFileNameUnique = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyDropDown afScriptingCompatversion;
 
-  @JsonProperty("generatingCompliantData")
-  private ConfigNodePropertyBoolean generatingCompliantData = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean makeFileNameUnique;
 
-  public AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationProperties showPlaceholder(ConfigNodePropertyBoolean showPlaceholder) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean generatingCompliantData;
+
+  public AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationProperties showPlaceholder(@Nullable ConfigNodePropertyBoolean showPlaceholder) {
     this.showPlaceholder = showPlaceholder;
     return this;
   }
@@ -40,20 +51,20 @@ public class AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationPrope
   /**
    * Get showPlaceholder
    * @return showPlaceholder
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getShowPlaceholder() {
+   */
+  @Valid 
+  @Schema(name = "showPlaceholder", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("showPlaceholder")
+  public @Nullable ConfigNodePropertyBoolean getShowPlaceholder() {
     return showPlaceholder;
   }
 
-  public void setShowPlaceholder(ConfigNodePropertyBoolean showPlaceholder) {
+  @JsonProperty("showPlaceholder")
+  public void setShowPlaceholder(@Nullable ConfigNodePropertyBoolean showPlaceholder) {
     this.showPlaceholder = showPlaceholder;
   }
 
-  public AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationProperties maximumCacheEntries(ConfigNodePropertyInteger maximumCacheEntries) {
+  public AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationProperties maximumCacheEntries(@Nullable ConfigNodePropertyInteger maximumCacheEntries) {
     this.maximumCacheEntries = maximumCacheEntries;
     return this;
   }
@@ -61,20 +72,20 @@ public class AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationPrope
   /**
    * Get maximumCacheEntries
    * @return maximumCacheEntries
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getMaximumCacheEntries() {
+   */
+  @Valid 
+  @Schema(name = "maximumCacheEntries", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("maximumCacheEntries")
+  public @Nullable ConfigNodePropertyInteger getMaximumCacheEntries() {
     return maximumCacheEntries;
   }
 
-  public void setMaximumCacheEntries(ConfigNodePropertyInteger maximumCacheEntries) {
+  @JsonProperty("maximumCacheEntries")
+  public void setMaximumCacheEntries(@Nullable ConfigNodePropertyInteger maximumCacheEntries) {
     this.maximumCacheEntries = maximumCacheEntries;
   }
 
-  public AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationProperties afScriptingCompatversion(ConfigNodePropertyDropDown afScriptingCompatversion) {
+  public AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationProperties afScriptingCompatversion(@Nullable ConfigNodePropertyDropDown afScriptingCompatversion) {
     this.afScriptingCompatversion = afScriptingCompatversion;
     return this;
   }
@@ -82,20 +93,20 @@ public class AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationPrope
   /**
    * Get afScriptingCompatversion
    * @return afScriptingCompatversion
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyDropDown getAfScriptingCompatversion() {
+   */
+  @Valid 
+  @Schema(name = "af.scripting.compatversion", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("af.scripting.compatversion")
+  public @Nullable ConfigNodePropertyDropDown getAfScriptingCompatversion() {
     return afScriptingCompatversion;
   }
 
-  public void setAfScriptingCompatversion(ConfigNodePropertyDropDown afScriptingCompatversion) {
+  @JsonProperty("af.scripting.compatversion")
+  public void setAfScriptingCompatversion(@Nullable ConfigNodePropertyDropDown afScriptingCompatversion) {
     this.afScriptingCompatversion = afScriptingCompatversion;
   }
 
-  public AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationProperties makeFileNameUnique(ConfigNodePropertyBoolean makeFileNameUnique) {
+  public AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationProperties makeFileNameUnique(@Nullable ConfigNodePropertyBoolean makeFileNameUnique) {
     this.makeFileNameUnique = makeFileNameUnique;
     return this;
   }
@@ -103,20 +114,20 @@ public class AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationPrope
   /**
    * Get makeFileNameUnique
    * @return makeFileNameUnique
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getMakeFileNameUnique() {
+   */
+  @Valid 
+  @Schema(name = "makeFileNameUnique", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("makeFileNameUnique")
+  public @Nullable ConfigNodePropertyBoolean getMakeFileNameUnique() {
     return makeFileNameUnique;
   }
 
-  public void setMakeFileNameUnique(ConfigNodePropertyBoolean makeFileNameUnique) {
+  @JsonProperty("makeFileNameUnique")
+  public void setMakeFileNameUnique(@Nullable ConfigNodePropertyBoolean makeFileNameUnique) {
     this.makeFileNameUnique = makeFileNameUnique;
   }
 
-  public AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationProperties generatingCompliantData(ConfigNodePropertyBoolean generatingCompliantData) {
+  public AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationProperties generatingCompliantData(@Nullable ConfigNodePropertyBoolean generatingCompliantData) {
     this.generatingCompliantData = generatingCompliantData;
     return this;
   }
@@ -124,22 +135,21 @@ public class AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationPrope
   /**
    * Get generatingCompliantData
    * @return generatingCompliantData
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getGeneratingCompliantData() {
+   */
+  @Valid 
+  @Schema(name = "generatingCompliantData", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("generatingCompliantData")
+  public @Nullable ConfigNodePropertyBoolean getGeneratingCompliantData() {
     return generatingCompliantData;
   }
 
-  public void setGeneratingCompliantData(ConfigNodePropertyBoolean generatingCompliantData) {
+  @JsonProperty("generatingCompliantData")
+  public void setGeneratingCompliantData(@Nullable ConfigNodePropertyBoolean generatingCompliantData) {
     this.generatingCompliantData = generatingCompliantData;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -163,7 +173,6 @@ public class AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationPrope
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationProperties {\n");
-    
     sb.append("    showPlaceholder: ").append(toIndentedString(showPlaceholder)).append("\n");
     sb.append("    maximumCacheEntries: ").append(toIndentedString(maximumCacheEntries)).append("\n");
     sb.append("    afScriptingCompatversion: ").append(toIndentedString(afScriptingCompatversion)).append("\n");
@@ -177,11 +186,8 @@ public class AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationPrope
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -72,10 +72,10 @@ private class OASComAdobeCqDamMacSyncImplDAMSyncSeTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeCqDamMacSyncImplDAMSyncSe comAdobeCqDamMacSyncImplDAMSyncServiceImplProperties = new OASComAdobeCqDamMacSyncImplDAMSyncSe();
-        Map<String, String> propertyMappings = comAdobeCqDamMacSyncImplDAMSyncServiceImplProperties.getPropertyMappings();
-        System.assertEquals('comAdobeCqDamMacSyncDamsyncserviceRegisteredPaths', propertyMappings.get('com.adobe.cq.dam.mac.sync.damsyncservice.registered_paths'));
-        System.assertEquals('comAdobeCqDamMacSyncDamsyncserviceSyncRenditions', propertyMappings.get('com.adobe.cq.dam.mac.sync.damsyncservice.sync.renditions'));
-        System.assertEquals('comAdobeCqDamMacSyncDamsyncserviceReplicateThreadWaitMs', propertyMappings.get('com.adobe.cq.dam.mac.sync.damsyncservice.replicate.thread.wait.ms'));
-        System.assertEquals('comAdobeCqDamMacSyncDamsyncservicePlatform', propertyMappings.get('com.adobe.cq.dam.mac.sync.damsyncservice.platform'));
+        Map<String, String> x-property-mappings = comAdobeCqDamMacSyncImplDAMSyncServiceImplProperties.getx-property-mappings();
+        System.assertEquals('comAdobeCqDamMacSyncDamsyncserviceRegisteredPaths', x-property-mappings.get('com.adobe.cq.dam.mac.sync.damsyncservice.registered_paths'));
+        System.assertEquals('comAdobeCqDamMacSyncDamsyncserviceSyncRenditions', x-property-mappings.get('com.adobe.cq.dam.mac.sync.damsyncservice.sync.renditions'));
+        System.assertEquals('comAdobeCqDamMacSyncDamsyncserviceReplicateThreadWaitMs', x-property-mappings.get('com.adobe.cq.dam.mac.sync.damsyncservice.replicate.thread.wait.ms'));
+        System.assertEquals('comAdobeCqDamMacSyncDamsyncservicePlatform', x-property-mappings.get('com.adobe.cq.dam.mac.sync.damsyncservice.platform'));
     }
 }

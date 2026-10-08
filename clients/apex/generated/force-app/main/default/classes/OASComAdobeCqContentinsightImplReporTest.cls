@@ -72,7 +72,7 @@ private class OASComAdobeCqContentinsightImplReporTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeCqContentinsightImplRepor comAdobeCqContentinsightImplReportingServicesSettingsProviderProperties = new OASComAdobeCqContentinsightImplRepor();
-        Map<String, String> propertyMappings = comAdobeCqContentinsightImplReportingServicesSettingsProviderProperties.getPropertyMappings();
-        System.assertEquals('reportingservicesUrl', propertyMappings.get('reportingservices.url'));
+        Map<String, String> x-property-mappings = comAdobeCqContentinsightImplReportingServicesSettingsProviderProperties.getx-property-mappings();
+        System.assertEquals('reportingservicesUrl', x-property-mappings.get('reportingservices.url'));
     }
 }

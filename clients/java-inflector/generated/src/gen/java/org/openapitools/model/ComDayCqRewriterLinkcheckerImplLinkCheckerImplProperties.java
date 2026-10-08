@@ -3,6 +3,7 @@ package org.openapitools.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
@@ -13,28 +14,28 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaInflectorServerCodegen", date = "2019-08-05T00:53:46.291Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaInflectorServerCodegen", date = "2026-10-07T12:53:12.340274163Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqRewriterLinkcheckerImplLinkCheckerImplProperties   {
   @JsonProperty("scheduler.period")
-  private ConfigNodePropertyInteger schedulerPeriod = null;
+  private ConfigNodePropertyInteger schedulerPeriod;
 
   @JsonProperty("scheduler.concurrent")
-  private ConfigNodePropertyBoolean schedulerConcurrent = null;
+  private ConfigNodePropertyBoolean schedulerConcurrent;
 
   @JsonProperty("service.bad_link_tolerance_interval")
-  private ConfigNodePropertyInteger serviceBadLinkToleranceInterval = null;
+  private ConfigNodePropertyInteger serviceBadLinkToleranceInterval;
 
   @JsonProperty("service.check_override_patterns")
-  private ConfigNodePropertyArray serviceCheckOverridePatterns = null;
+  private ConfigNodePropertyArray serviceCheckOverridePatterns;
 
   @JsonProperty("service.cache_broken_internal_links")
-  private ConfigNodePropertyBoolean serviceCacheBrokenInternalLinks = null;
+  private ConfigNodePropertyBoolean serviceCacheBrokenInternalLinks;
 
   @JsonProperty("service.special_link_prefix")
-  private ConfigNodePropertyArray serviceSpecialLinkPrefix = null;
+  private ConfigNodePropertyArray serviceSpecialLinkPrefix;
 
   @JsonProperty("service.special_link_patterns")
-  private ConfigNodePropertyArray serviceSpecialLinkPatterns = null;
+  private ConfigNodePropertyArray serviceSpecialLinkPatterns;
 
   /**
    **/
@@ -157,7 +158,7 @@ public class ComDayCqRewriterLinkcheckerImplLinkCheckerImplProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -199,11 +200,8 @@ public class ComDayCqRewriterLinkcheckerImplLinkCheckerImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

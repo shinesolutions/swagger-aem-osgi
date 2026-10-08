@@ -4,21 +4,24 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ComAdobeCqHistoryImplHistoryServiceImplProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2019-08-05T00:59:30.156Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2026-10-07T12:54:21.614735164Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeCqHistoryImplHistoryServiceImplInfo   {
   
-  private String pid = null;
-  private String title = null;
-  private String description = null;
-  private ComAdobeCqHistoryImplHistoryServiceImplProperties properties = null;
-  private String additionalProperties = null;
-  private String bundleLocation = null;
-  private String serviceLocation = null;
+  private String pid;
+  private String title;
+  private String description;
+  private ComAdobeCqHistoryImplHistoryServiceImplProperties properties;
+  private String additionalProperties;
+  private String bundleLocation;
+  private String serviceLocation;
 
   /**
    **/
@@ -61,6 +64,7 @@ public class ComAdobeCqHistoryImplHistoryServiceImplInfo   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("properties")
+  @Valid
   public ComAdobeCqHistoryImplHistoryServiceImplProperties getProperties() {
     return properties;
   }
@@ -106,7 +110,7 @@ public class ComAdobeCqHistoryImplHistoryServiceImplInfo   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -114,13 +118,13 @@ public class ComAdobeCqHistoryImplHistoryServiceImplInfo   {
       return false;
     }
     ComAdobeCqHistoryImplHistoryServiceImplInfo comAdobeCqHistoryImplHistoryServiceImplInfo = (ComAdobeCqHistoryImplHistoryServiceImplInfo) o;
-    return Objects.equals(pid, comAdobeCqHistoryImplHistoryServiceImplInfo.pid) &&
-        Objects.equals(title, comAdobeCqHistoryImplHistoryServiceImplInfo.title) &&
-        Objects.equals(description, comAdobeCqHistoryImplHistoryServiceImplInfo.description) &&
-        Objects.equals(properties, comAdobeCqHistoryImplHistoryServiceImplInfo.properties) &&
-        Objects.equals(additionalProperties, comAdobeCqHistoryImplHistoryServiceImplInfo.additionalProperties) &&
-        Objects.equals(bundleLocation, comAdobeCqHistoryImplHistoryServiceImplInfo.bundleLocation) &&
-        Objects.equals(serviceLocation, comAdobeCqHistoryImplHistoryServiceImplInfo.serviceLocation);
+    return Objects.equals(this.pid, comAdobeCqHistoryImplHistoryServiceImplInfo.pid) &&
+        Objects.equals(this.title, comAdobeCqHistoryImplHistoryServiceImplInfo.title) &&
+        Objects.equals(this.description, comAdobeCqHistoryImplHistoryServiceImplInfo.description) &&
+        Objects.equals(this.properties, comAdobeCqHistoryImplHistoryServiceImplInfo.properties) &&
+        Objects.equals(this.additionalProperties, comAdobeCqHistoryImplHistoryServiceImplInfo.additionalProperties) &&
+        Objects.equals(this.bundleLocation, comAdobeCqHistoryImplHistoryServiceImplInfo.bundleLocation) &&
+        Objects.equals(this.serviceLocation, comAdobeCqHistoryImplHistoryServiceImplInfo.serviceLocation);
   }
 
   @Override
@@ -148,11 +152,8 @@ public class ComAdobeCqHistoryImplHistoryServiceImplInfo   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

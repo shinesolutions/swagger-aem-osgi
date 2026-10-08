@@ -1,0 +1,41 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+}
+resourceTypes {
+
+  ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliProperties {
+    title = ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliProperties
+    description = ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliProperties
+    derivedFrom = Root
+    properties {
+        default_attachment_type_blacklist {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        baseline_attachment_type_blacklist {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliProperties {
+    title = ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliProperties
+    description = ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliProperties
+    implements = openapi_server.resourceTypes.ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliProperties
+
+  }
+}

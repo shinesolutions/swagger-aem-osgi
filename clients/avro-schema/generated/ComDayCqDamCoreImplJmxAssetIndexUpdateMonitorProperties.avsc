@@ -1,0 +1,63 @@
+{
+  "namespace": "model",
+  "type": "record",
+  "doc": "",
+  "name": "ComDayCqDamCoreImplJmxAssetIndexUpdateMonitorProperties",
+  "fields": [
+    {
+      "name": "jmx.objectname",
+      "type": ["null", "model.ConfigNodePropertyString"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "property.measure.enabled",
+      "type": ["null", "model.ConfigNodePropertyBoolean"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "property.name",
+      "type": ["null", "model.ConfigNodePropertyString"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "property.max.wait.ms",
+      "type": ["null", "model.ConfigNodePropertyInteger"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "property.max.rate",
+      "type": ["null", "model.ConfigNodePropertyFloat"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "fulltext.measure.enabled",
+      "type": ["null", "model.ConfigNodePropertyBoolean"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "fulltext.name",
+      "type": ["null", "model.ConfigNodePropertyString"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "fulltext.max.wait.ms",
+      "type": ["null", "model.ConfigNodePropertyInteger"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "fulltext.max.rate",
+      "type": ["null", "model.ConfigNodePropertyFloat"],
+      "doc": "",
+      "default": null
+    }
+  ]
+
+}

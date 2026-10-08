@@ -3,32 +3,43 @@ package apimodels;
 import apimodels.ConfigNodePropertyBoolean;
 import apimodels.ConfigNodePropertyDropDown;
 import apimodels.ConfigNodePropertyInteger;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationProperties   {
   @JsonProperty("showPlaceholder")
-  private ConfigNodePropertyBoolean showPlaceholder = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean showPlaceholder;
 
   @JsonProperty("maximumCacheEntries")
-  private ConfigNodePropertyInteger maximumCacheEntries = null;
+  @Valid
+
+  private ConfigNodePropertyInteger maximumCacheEntries;
 
   @JsonProperty("af.scripting.compatversion")
-  private ConfigNodePropertyDropDown afScriptingCompatversion = null;
+  @Valid
+
+  private ConfigNodePropertyDropDown afScriptingCompatversion;
 
   @JsonProperty("makeFileNameUnique")
-  private ConfigNodePropertyBoolean makeFileNameUnique = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean makeFileNameUnique;
 
   @JsonProperty("generatingCompliantData")
-  private ConfigNodePropertyBoolean generatingCompliantData = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean generatingCompliantData;
 
   public AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationProperties showPlaceholder(ConfigNodePropertyBoolean showPlaceholder) {
     this.showPlaceholder = showPlaceholder;
@@ -39,7 +50,6 @@ public class AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationPrope
    * Get showPlaceholder
    * @return showPlaceholder
   **/
-  @Valid
   public ConfigNodePropertyBoolean getShowPlaceholder() {
     return showPlaceholder;
   }
@@ -57,7 +67,6 @@ public class AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationPrope
    * Get maximumCacheEntries
    * @return maximumCacheEntries
   **/
-  @Valid
   public ConfigNodePropertyInteger getMaximumCacheEntries() {
     return maximumCacheEntries;
   }
@@ -75,7 +84,6 @@ public class AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationPrope
    * Get afScriptingCompatversion
    * @return afScriptingCompatversion
   **/
-  @Valid
   public ConfigNodePropertyDropDown getAfScriptingCompatversion() {
     return afScriptingCompatversion;
   }
@@ -93,7 +101,6 @@ public class AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationPrope
    * Get makeFileNameUnique
    * @return makeFileNameUnique
   **/
-  @Valid
   public ConfigNodePropertyBoolean getMakeFileNameUnique() {
     return makeFileNameUnique;
   }
@@ -111,7 +118,6 @@ public class AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationPrope
    * Get generatingCompliantData
    * @return generatingCompliantData
   **/
-  @Valid
   public ConfigNodePropertyBoolean getGeneratingCompliantData() {
     return generatingCompliantData;
   }
@@ -122,7 +128,7 @@ public class AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationPrope
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -161,11 +167,8 @@ public class AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationPrope
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

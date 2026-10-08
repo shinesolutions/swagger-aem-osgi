@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImplInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImplInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImplProperties = openapi_server.resourceTypes.ComAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImplProperties
+}
+resourceTypes {
+
+  ComAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImplInfo {
+    title = ComAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImplInfo
+    description = ComAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImplInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImplProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImplInfo {
+    title = ComAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImplInfo
+    description = ComAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImplInfo
+    implements = openapi_server.resourceTypes.ComAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImplInfo
+
+  }
+}

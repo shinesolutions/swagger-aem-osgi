@@ -10,20 +10,20 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeCqSocialConnectOauthImplFacebookProviderImplProperties {
-    ConfigNodePropertyString oauthProviderId = null
-
-    ConfigNodePropertyString oauthCloudConfigRoot = null
-
-    ConfigNodePropertyString providerConfigRoot = null
-
-    ConfigNodePropertyBoolean providerConfigCreateTagsEnabled = null
-
-    ConfigNodePropertyDropDown providerConfigUserFolder = null
-
-    ConfigNodePropertyBoolean providerConfigFacebookFetchFields = null
-
-    ConfigNodePropertyArray providerConfigFacebookFields = null
-
-    ConfigNodePropertyBoolean providerConfigRefreshUserdataEnabled = null
-
+    
+    ConfigNodePropertyString oauthProviderId
+    
+    ConfigNodePropertyString oauthCloudConfigRoot
+    
+    ConfigNodePropertyString providerConfigRoot
+    
+    ConfigNodePropertyBoolean providerConfigCreateTagsEnabled
+    
+    ConfigNodePropertyDropDown providerConfigUserFolder
+    
+    ConfigNodePropertyBoolean providerConfigFacebookFetchFields
+    
+    ConfigNodePropertyArray providerConfigFacebookFields
+    
+    ConfigNodePropertyBoolean providerConfigRefreshUserdataEnabled
 }

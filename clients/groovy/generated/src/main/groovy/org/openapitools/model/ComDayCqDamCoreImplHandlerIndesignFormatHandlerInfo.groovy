@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqDamCoreImplHandlerIndesignFormatHandlerPro
 
 @Canonical
 class ComDayCqDamCoreImplHandlerIndesignFormatHandlerInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqDamCoreImplHandlerIndesignFormatHandlerProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqDamCoreImplHandlerIndesignFormatHandlerProperties properties
 }

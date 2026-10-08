@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class ComAdobeCqSocialNotificationsImplNotificationManagerImplProperties {
-    ConfigNodePropertyInteger maxUnreadNotificationCount = null
-
+    
+    ConfigNodePropertyInteger maxUnreadNotificationCount
 }

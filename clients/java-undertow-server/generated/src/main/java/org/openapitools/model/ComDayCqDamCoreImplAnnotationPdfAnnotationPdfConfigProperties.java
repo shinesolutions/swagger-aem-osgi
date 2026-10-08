@@ -1,3 +1,13 @@
+/*
+ * Adobe Experience Manager OSGI config (AEM) API
+ *
+ * Swagger AEM OSGI is an OpenAPI specification for Adobe Experience Manager (AEM) OSGI Configurations API
+ *
+ * OpenAPI document version: 1.0.0-pre.0
+ * Maintained by: opensource@shinesolutions.com
+ *
+ * AUTO-GENERATED FILE, DO NOT MODIFY!
+ */
 package org.openapitools.model;
 
 import java.util.Objects;
@@ -12,28 +22,28 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2019-08-05T00:56:20.785Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2026-10-07T12:53:42.280804918Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties   {
   
-  private ConfigNodePropertyInteger cqDamConfigAnnotationPdfDocumentWidth = null;
-  private ConfigNodePropertyInteger cqDamConfigAnnotationPdfDocumentHeight = null;
-  private ConfigNodePropertyInteger cqDamConfigAnnotationPdfDocumentPaddingHorizontal = null;
-  private ConfigNodePropertyInteger cqDamConfigAnnotationPdfDocumentPaddingVertical = null;
-  private ConfigNodePropertyInteger cqDamConfigAnnotationPdfFontSize = null;
-  private ConfigNodePropertyString cqDamConfigAnnotationPdfFontColor = null;
-  private ConfigNodePropertyString cqDamConfigAnnotationPdfFontFamily = null;
-  private ConfigNodePropertyString cqDamConfigAnnotationPdfFontLight = null;
-  private ConfigNodePropertyInteger cqDamConfigAnnotationPdfMarginTextImage = null;
-  private ConfigNodePropertyInteger cqDamConfigAnnotationPdfMinImageHeight = null;
-  private ConfigNodePropertyInteger cqDamConfigAnnotationPdfReviewStatusWidth = null;
-  private ConfigNodePropertyString cqDamConfigAnnotationPdfReviewStatusColorApproved = null;
-  private ConfigNodePropertyString cqDamConfigAnnotationPdfReviewStatusColorRejected = null;
-  private ConfigNodePropertyString cqDamConfigAnnotationPdfReviewStatusColorChangesRequested = null;
-  private ConfigNodePropertyInteger cqDamConfigAnnotationPdfAnnotationMarkerWidth = null;
-  private ConfigNodePropertyInteger cqDamConfigAnnotationPdfAssetMinheight = null;
+  private ConfigNodePropertyInteger cqDamConfigAnnotationPdfDocumentWidth;
+  private ConfigNodePropertyInteger cqDamConfigAnnotationPdfDocumentHeight;
+  private ConfigNodePropertyInteger cqDamConfigAnnotationPdfDocumentPaddingHorizontal;
+  private ConfigNodePropertyInteger cqDamConfigAnnotationPdfDocumentPaddingVertical;
+  private ConfigNodePropertyInteger cqDamConfigAnnotationPdfFontSize;
+  private ConfigNodePropertyString cqDamConfigAnnotationPdfFontColor;
+  private ConfigNodePropertyString cqDamConfigAnnotationPdfFontFamily;
+  private ConfigNodePropertyString cqDamConfigAnnotationPdfFontLight;
+  private ConfigNodePropertyInteger cqDamConfigAnnotationPdfMarginTextImage;
+  private ConfigNodePropertyInteger cqDamConfigAnnotationPdfMinImageHeight;
+  private ConfigNodePropertyInteger cqDamConfigAnnotationPdfReviewStatusWidth;
+  private ConfigNodePropertyString cqDamConfigAnnotationPdfReviewStatusColorApproved;
+  private ConfigNodePropertyString cqDamConfigAnnotationPdfReviewStatusColorRejected;
+  private ConfigNodePropertyString cqDamConfigAnnotationPdfReviewStatusColorChangesRequested;
+  private ConfigNodePropertyInteger cqDamConfigAnnotationPdfAnnotationMarkerWidth;
+  private ConfigNodePropertyInteger cqDamConfigAnnotationPdfAssetMinheight;
 
   /**
-   **/
+   */
   public ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties cqDamConfigAnnotationPdfDocumentWidth(ConfigNodePropertyInteger cqDamConfigAnnotationPdfDocumentWidth) {
     this.cqDamConfigAnnotationPdfDocumentWidth = cqDamConfigAnnotationPdfDocumentWidth;
     return this;
@@ -50,7 +60,7 @@ public class ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties   {
   }
 
   /**
-   **/
+   */
   public ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties cqDamConfigAnnotationPdfDocumentHeight(ConfigNodePropertyInteger cqDamConfigAnnotationPdfDocumentHeight) {
     this.cqDamConfigAnnotationPdfDocumentHeight = cqDamConfigAnnotationPdfDocumentHeight;
     return this;
@@ -67,7 +77,7 @@ public class ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties   {
   }
 
   /**
-   **/
+   */
   public ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties cqDamConfigAnnotationPdfDocumentPaddingHorizontal(ConfigNodePropertyInteger cqDamConfigAnnotationPdfDocumentPaddingHorizontal) {
     this.cqDamConfigAnnotationPdfDocumentPaddingHorizontal = cqDamConfigAnnotationPdfDocumentPaddingHorizontal;
     return this;
@@ -84,7 +94,7 @@ public class ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties   {
   }
 
   /**
-   **/
+   */
   public ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties cqDamConfigAnnotationPdfDocumentPaddingVertical(ConfigNodePropertyInteger cqDamConfigAnnotationPdfDocumentPaddingVertical) {
     this.cqDamConfigAnnotationPdfDocumentPaddingVertical = cqDamConfigAnnotationPdfDocumentPaddingVertical;
     return this;
@@ -101,7 +111,7 @@ public class ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties   {
   }
 
   /**
-   **/
+   */
   public ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties cqDamConfigAnnotationPdfFontSize(ConfigNodePropertyInteger cqDamConfigAnnotationPdfFontSize) {
     this.cqDamConfigAnnotationPdfFontSize = cqDamConfigAnnotationPdfFontSize;
     return this;
@@ -118,7 +128,7 @@ public class ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties   {
   }
 
   /**
-   **/
+   */
   public ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties cqDamConfigAnnotationPdfFontColor(ConfigNodePropertyString cqDamConfigAnnotationPdfFontColor) {
     this.cqDamConfigAnnotationPdfFontColor = cqDamConfigAnnotationPdfFontColor;
     return this;
@@ -135,7 +145,7 @@ public class ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties   {
   }
 
   /**
-   **/
+   */
   public ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties cqDamConfigAnnotationPdfFontFamily(ConfigNodePropertyString cqDamConfigAnnotationPdfFontFamily) {
     this.cqDamConfigAnnotationPdfFontFamily = cqDamConfigAnnotationPdfFontFamily;
     return this;
@@ -152,7 +162,7 @@ public class ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties   {
   }
 
   /**
-   **/
+   */
   public ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties cqDamConfigAnnotationPdfFontLight(ConfigNodePropertyString cqDamConfigAnnotationPdfFontLight) {
     this.cqDamConfigAnnotationPdfFontLight = cqDamConfigAnnotationPdfFontLight;
     return this;
@@ -169,7 +179,7 @@ public class ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties   {
   }
 
   /**
-   **/
+   */
   public ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties cqDamConfigAnnotationPdfMarginTextImage(ConfigNodePropertyInteger cqDamConfigAnnotationPdfMarginTextImage) {
     this.cqDamConfigAnnotationPdfMarginTextImage = cqDamConfigAnnotationPdfMarginTextImage;
     return this;
@@ -186,7 +196,7 @@ public class ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties   {
   }
 
   /**
-   **/
+   */
   public ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties cqDamConfigAnnotationPdfMinImageHeight(ConfigNodePropertyInteger cqDamConfigAnnotationPdfMinImageHeight) {
     this.cqDamConfigAnnotationPdfMinImageHeight = cqDamConfigAnnotationPdfMinImageHeight;
     return this;
@@ -203,7 +213,7 @@ public class ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties   {
   }
 
   /**
-   **/
+   */
   public ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties cqDamConfigAnnotationPdfReviewStatusWidth(ConfigNodePropertyInteger cqDamConfigAnnotationPdfReviewStatusWidth) {
     this.cqDamConfigAnnotationPdfReviewStatusWidth = cqDamConfigAnnotationPdfReviewStatusWidth;
     return this;
@@ -220,7 +230,7 @@ public class ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties   {
   }
 
   /**
-   **/
+   */
   public ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties cqDamConfigAnnotationPdfReviewStatusColorApproved(ConfigNodePropertyString cqDamConfigAnnotationPdfReviewStatusColorApproved) {
     this.cqDamConfigAnnotationPdfReviewStatusColorApproved = cqDamConfigAnnotationPdfReviewStatusColorApproved;
     return this;
@@ -237,7 +247,7 @@ public class ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties   {
   }
 
   /**
-   **/
+   */
   public ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties cqDamConfigAnnotationPdfReviewStatusColorRejected(ConfigNodePropertyString cqDamConfigAnnotationPdfReviewStatusColorRejected) {
     this.cqDamConfigAnnotationPdfReviewStatusColorRejected = cqDamConfigAnnotationPdfReviewStatusColorRejected;
     return this;
@@ -254,7 +264,7 @@ public class ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties   {
   }
 
   /**
-   **/
+   */
   public ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties cqDamConfigAnnotationPdfReviewStatusColorChangesRequested(ConfigNodePropertyString cqDamConfigAnnotationPdfReviewStatusColorChangesRequested) {
     this.cqDamConfigAnnotationPdfReviewStatusColorChangesRequested = cqDamConfigAnnotationPdfReviewStatusColorChangesRequested;
     return this;
@@ -271,7 +281,7 @@ public class ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties   {
   }
 
   /**
-   **/
+   */
   public ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties cqDamConfigAnnotationPdfAnnotationMarkerWidth(ConfigNodePropertyInteger cqDamConfigAnnotationPdfAnnotationMarkerWidth) {
     this.cqDamConfigAnnotationPdfAnnotationMarkerWidth = cqDamConfigAnnotationPdfAnnotationMarkerWidth;
     return this;
@@ -288,7 +298,7 @@ public class ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties   {
   }
 
   /**
-   **/
+   */
   public ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties cqDamConfigAnnotationPdfAssetMinheight(ConfigNodePropertyInteger cqDamConfigAnnotationPdfAssetMinheight) {
     this.cqDamConfigAnnotationPdfAssetMinheight = cqDamConfigAnnotationPdfAssetMinheight;
     return this;
@@ -306,7 +316,7 @@ public class ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -366,11 +376,8 @@ public class ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -2,16 +2,16 @@
 # ComAdobeCqSocialConnectOauthImplFacebookProviderImplProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**oauthPeriodproviderPeriodid** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**oauthPeriodcloudPeriodconfigPeriodroot** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**providerPeriodconfigPeriodroot** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**providerPeriodconfigPeriodcreatePeriodtagsPeriodenabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**providerPeriodconfigPerioduserPeriodfolder** | [**ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md) |  |  [optional]
-**providerPeriodconfigPeriodfacebookPeriodfetchPeriodfields** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**providerPeriodconfigPeriodfacebookPeriodfields** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**providerPeriodconfigPeriodrefreshPerioduserdataPeriodenabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **oauthProviderId** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **oauthCloudConfigRoot** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **providerConfigRoot** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **providerConfigCreateTagsEnabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **providerConfigUserFolder** | [**ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md) |  |  [optional] |
+| **providerConfigFacebookFetchFields** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **providerConfigFacebookFields** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **providerConfigRefreshUserdataEnabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
 
 
 

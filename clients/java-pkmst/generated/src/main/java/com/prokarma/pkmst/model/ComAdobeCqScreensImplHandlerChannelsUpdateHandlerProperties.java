@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyArray;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
@@ -15,33 +16,32 @@ import io.swagger.annotations.ApiModelProperty;
  * ComAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties   {
   @JsonProperty("cq.pagesupdatehandler.imageresourcetypes")
-  private ConfigNodePropertyArray cqPagesupdatehandlerImageresourcetypes = null;
+  private ConfigNodePropertyArray cqPagesupdatehandlerImageresourcetypes;
 
   @JsonProperty("cq.pagesupdatehandler.productresourcetypes")
-  private ConfigNodePropertyArray cqPagesupdatehandlerProductresourcetypes = null;
+  private ConfigNodePropertyArray cqPagesupdatehandlerProductresourcetypes;
 
   @JsonProperty("cq.pagesupdatehandler.videoresourcetypes")
-  private ConfigNodePropertyArray cqPagesupdatehandlerVideoresourcetypes = null;
+  private ConfigNodePropertyArray cqPagesupdatehandlerVideoresourcetypes;
 
   @JsonProperty("cq.pagesupdatehandler.dynamicsequenceresourcetypes")
-  private ConfigNodePropertyArray cqPagesupdatehandlerDynamicsequenceresourcetypes = null;
+  private ConfigNodePropertyArray cqPagesupdatehandlerDynamicsequenceresourcetypes;
 
   @JsonProperty("cq.pagesupdatehandler.previewmodepaths")
-  private ConfigNodePropertyArray cqPagesupdatehandlerPreviewmodepaths = null;
+  private ConfigNodePropertyArray cqPagesupdatehandlerPreviewmodepaths;
 
   public ComAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties cqPagesupdatehandlerImageresourcetypes(ConfigNodePropertyArray cqPagesupdatehandlerImageresourcetypes) {
     this.cqPagesupdatehandlerImageresourcetypes = cqPagesupdatehandlerImageresourcetypes;
     return this;
   }
 
-   /**
+  /**
    * Get cqPagesupdatehandlerImageresourcetypes
    * @return cqPagesupdatehandlerImageresourcetypes
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getCqPagesupdatehandlerImageresourcetypes() {
     return cqPagesupdatehandlerImageresourcetypes;
@@ -56,10 +56,10 @@ public class ComAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get cqPagesupdatehandlerProductresourcetypes
    * @return cqPagesupdatehandlerProductresourcetypes
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getCqPagesupdatehandlerProductresourcetypes() {
     return cqPagesupdatehandlerProductresourcetypes;
@@ -74,10 +74,10 @@ public class ComAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get cqPagesupdatehandlerVideoresourcetypes
    * @return cqPagesupdatehandlerVideoresourcetypes
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getCqPagesupdatehandlerVideoresourcetypes() {
     return cqPagesupdatehandlerVideoresourcetypes;
@@ -92,10 +92,10 @@ public class ComAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get cqPagesupdatehandlerDynamicsequenceresourcetypes
    * @return cqPagesupdatehandlerDynamicsequenceresourcetypes
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getCqPagesupdatehandlerDynamicsequenceresourcetypes() {
     return cqPagesupdatehandlerDynamicsequenceresourcetypes;
@@ -110,10 +110,10 @@ public class ComAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get cqPagesupdatehandlerPreviewmodepaths
    * @return cqPagesupdatehandlerPreviewmodepaths
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getCqPagesupdatehandlerPreviewmodepaths() {
     return cqPagesupdatehandlerPreviewmodepaths;
@@ -125,7 +125,7 @@ public class ComAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -163,11 +163,8 @@ public class ComAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

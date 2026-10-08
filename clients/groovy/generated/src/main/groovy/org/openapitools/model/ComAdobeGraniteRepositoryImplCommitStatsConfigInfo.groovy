@@ -7,16 +7,16 @@ import org.openapitools.model.ComAdobeGraniteRepositoryImplCommitStatsConfigProp
 
 @Canonical
 class ComAdobeGraniteRepositoryImplCommitStatsConfigInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteRepositoryImplCommitStatsConfigProperties properties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteRepositoryImplCommitStatsConfigProperties properties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

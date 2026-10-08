@@ -1,0 +1,36 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqWcmStyleInternalComponentStyleInfoCacheImplProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqWcmStyleInternalComponentStyleInfoCacheImplProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+}
+resourceTypes {
+
+  ComAdobeCqWcmStyleInternalComponentStyleInfoCacheImplProperties {
+    title = ComAdobeCqWcmStyleInternalComponentStyleInfoCacheImplProperties
+    description = ComAdobeCqWcmStyleInternalComponentStyleInfoCacheImplProperties
+    derivedFrom = Root
+    properties {
+        size {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqWcmStyleInternalComponentStyleInfoCacheImplProperties {
+    title = ComAdobeCqWcmStyleInternalComponentStyleInfoCacheImplProperties
+    description = ComAdobeCqWcmStyleInternalComponentStyleInfoCacheImplProperties
+    implements = openapi_server.resourceTypes.ComAdobeCqWcmStyleInternalComponentStyleInfoCacheImplProperties
+
+  }
+}

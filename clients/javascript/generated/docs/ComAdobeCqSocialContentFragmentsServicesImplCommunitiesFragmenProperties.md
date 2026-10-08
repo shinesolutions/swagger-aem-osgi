@@ -1,6 +1,7 @@
 # NodeSwaggerAemOsgi.ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmenProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **cqSocialContentFragmentsServicesEnabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] 

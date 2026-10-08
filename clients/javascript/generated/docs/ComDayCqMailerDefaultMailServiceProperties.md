@@ -1,6 +1,7 @@
 # NodeSwaggerAemOsgi.ComDayCqMailerDefaultMailServiceProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **smtpHost** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 

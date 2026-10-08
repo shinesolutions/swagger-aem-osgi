@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqDamCoreImplExpiryNotificationJobImplProper
 
 @Canonical
 class ComDayCqDamCoreImplExpiryNotificationJobImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqDamCoreImplExpiryNotificationJobImplProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqDamCoreImplExpiryNotificationJobImplProperties properties
 }

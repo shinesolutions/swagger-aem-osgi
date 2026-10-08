@@ -1,23 +1,34 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comDayCqDamCoreImplUiPreviewFolderPreviewUpdaterImplProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqDamCoreImplUiPreviewFolderPreviewUpdaterImplProperties   {
-  
-  private @Valid ConfigNodePropertyBoolean createPreviewEnabled = null;
-  private @Valid ConfigNodePropertyBoolean updatePreviewEnabled = null;
-  private @Valid ConfigNodePropertyInteger queueSize = null;
-  private @Valid ConfigNodePropertyString folderPreviewRenditionRegex = null;
+  private ConfigNodePropertyBoolean createPreviewEnabled;
+  private ConfigNodePropertyBoolean updatePreviewEnabled;
+  private ConfigNodePropertyInteger queueSize;
+  private ConfigNodePropertyString folderPreviewRenditionRegex;
+
+  public ComDayCqDamCoreImplUiPreviewFolderPreviewUpdaterImplProperties() {
+  }
 
   /**
    **/
@@ -29,9 +40,11 @@ public class ComDayCqDamCoreImplUiPreviewFolderPreviewUpdaterImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("createPreviewEnabled")
-  public ConfigNodePropertyBoolean getCreatePreviewEnabled() {
+  @Valid public ConfigNodePropertyBoolean getCreatePreviewEnabled() {
     return createPreviewEnabled;
   }
+
+  @JsonProperty("createPreviewEnabled")
   public void setCreatePreviewEnabled(ConfigNodePropertyBoolean createPreviewEnabled) {
     this.createPreviewEnabled = createPreviewEnabled;
   }
@@ -46,9 +59,11 @@ public class ComDayCqDamCoreImplUiPreviewFolderPreviewUpdaterImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("updatePreviewEnabled")
-  public ConfigNodePropertyBoolean getUpdatePreviewEnabled() {
+  @Valid public ConfigNodePropertyBoolean getUpdatePreviewEnabled() {
     return updatePreviewEnabled;
   }
+
+  @JsonProperty("updatePreviewEnabled")
   public void setUpdatePreviewEnabled(ConfigNodePropertyBoolean updatePreviewEnabled) {
     this.updatePreviewEnabled = updatePreviewEnabled;
   }
@@ -63,9 +78,11 @@ public class ComDayCqDamCoreImplUiPreviewFolderPreviewUpdaterImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("queueSize")
-  public ConfigNodePropertyInteger getQueueSize() {
+  @Valid public ConfigNodePropertyInteger getQueueSize() {
     return queueSize;
   }
+
+  @JsonProperty("queueSize")
   public void setQueueSize(ConfigNodePropertyInteger queueSize) {
     this.queueSize = queueSize;
   }
@@ -80,16 +97,18 @@ public class ComDayCqDamCoreImplUiPreviewFolderPreviewUpdaterImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("folderPreviewRenditionRegex")
-  public ConfigNodePropertyString getFolderPreviewRenditionRegex() {
+  @Valid public ConfigNodePropertyString getFolderPreviewRenditionRegex() {
     return folderPreviewRenditionRegex;
   }
+
+  @JsonProperty("folderPreviewRenditionRegex")
   public void setFolderPreviewRenditionRegex(ConfigNodePropertyString folderPreviewRenditionRegex) {
     this.folderPreviewRenditionRegex = folderPreviewRenditionRegex;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -97,10 +116,10 @@ public class ComDayCqDamCoreImplUiPreviewFolderPreviewUpdaterImplProperties   {
       return false;
     }
     ComDayCqDamCoreImplUiPreviewFolderPreviewUpdaterImplProperties comDayCqDamCoreImplUiPreviewFolderPreviewUpdaterImplProperties = (ComDayCqDamCoreImplUiPreviewFolderPreviewUpdaterImplProperties) o;
-    return Objects.equals(createPreviewEnabled, comDayCqDamCoreImplUiPreviewFolderPreviewUpdaterImplProperties.createPreviewEnabled) &&
-        Objects.equals(updatePreviewEnabled, comDayCqDamCoreImplUiPreviewFolderPreviewUpdaterImplProperties.updatePreviewEnabled) &&
-        Objects.equals(queueSize, comDayCqDamCoreImplUiPreviewFolderPreviewUpdaterImplProperties.queueSize) &&
-        Objects.equals(folderPreviewRenditionRegex, comDayCqDamCoreImplUiPreviewFolderPreviewUpdaterImplProperties.folderPreviewRenditionRegex);
+    return Objects.equals(this.createPreviewEnabled, comDayCqDamCoreImplUiPreviewFolderPreviewUpdaterImplProperties.createPreviewEnabled) &&
+        Objects.equals(this.updatePreviewEnabled, comDayCqDamCoreImplUiPreviewFolderPreviewUpdaterImplProperties.updatePreviewEnabled) &&
+        Objects.equals(this.queueSize, comDayCqDamCoreImplUiPreviewFolderPreviewUpdaterImplProperties.queueSize) &&
+        Objects.equals(this.folderPreviewRenditionRegex, comDayCqDamCoreImplUiPreviewFolderPreviewUpdaterImplProperties.folderPreviewRenditionRegex);
   }
 
   @Override
@@ -125,11 +144,9 @@ public class ComDayCqDamCoreImplUiPreviewFolderPreviewUpdaterImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

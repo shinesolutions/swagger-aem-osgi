@@ -3,6 +3,7 @@ package org.openapitools.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyInteger;
@@ -12,22 +13,22 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaInflectorServerCodegen", date = "2019-08-05T00:53:46.291Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaInflectorServerCodegen", date = "2026-10-07T12:53:12.340274163Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplProperties   {
   @JsonProperty("cq.analytics.testandtarget.api.url")
-  private ConfigNodePropertyString cqAnalyticsTestandtargetApiUrl = null;
+  private ConfigNodePropertyString cqAnalyticsTestandtargetApiUrl;
 
   @JsonProperty("cq.analytics.testandtarget.timeout")
-  private ConfigNodePropertyInteger cqAnalyticsTestandtargetTimeout = null;
+  private ConfigNodePropertyInteger cqAnalyticsTestandtargetTimeout;
 
   @JsonProperty("cq.analytics.testandtarget.sockettimeout")
-  private ConfigNodePropertyInteger cqAnalyticsTestandtargetSockettimeout = null;
+  private ConfigNodePropertyInteger cqAnalyticsTestandtargetSockettimeout;
 
   @JsonProperty("cq.analytics.testandtarget.recommendations.url.replace")
-  private ConfigNodePropertyString cqAnalyticsTestandtargetRecommendationsUrlReplace = null;
+  private ConfigNodePropertyString cqAnalyticsTestandtargetRecommendationsUrlReplace;
 
   @JsonProperty("cq.analytics.testandtarget.recommendations.url.replacewith")
-  private ConfigNodePropertyString cqAnalyticsTestandtargetRecommendationsUrlReplacewith = null;
+  private ConfigNodePropertyString cqAnalyticsTestandtargetRecommendationsUrlReplacewith;
 
   /**
    **/
@@ -116,7 +117,7 @@ public class ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplProper
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -154,11 +155,8 @@ public class ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplProper
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

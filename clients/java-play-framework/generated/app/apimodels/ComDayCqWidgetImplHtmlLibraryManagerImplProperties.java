@@ -4,59 +4,88 @@ import apimodels.ConfigNodePropertyArray;
 import apimodels.ConfigNodePropertyBoolean;
 import apimodels.ConfigNodePropertyInteger;
 import apimodels.ConfigNodePropertyString;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * ComDayCqWidgetImplHtmlLibraryManagerImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class ComDayCqWidgetImplHtmlLibraryManagerImplProperties   {
   @JsonProperty("htmllibmanager.clientmanager")
-  private ConfigNodePropertyString htmllibmanagerClientmanager = null;
+  @Valid
+
+  private ConfigNodePropertyString htmllibmanagerClientmanager;
 
   @JsonProperty("htmllibmanager.debug")
-  private ConfigNodePropertyBoolean htmllibmanagerDebug = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean htmllibmanagerDebug;
 
   @JsonProperty("htmllibmanager.debug.console")
-  private ConfigNodePropertyBoolean htmllibmanagerDebugConsole = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean htmllibmanagerDebugConsole;
 
   @JsonProperty("htmllibmanager.debug.init.js")
-  private ConfigNodePropertyString htmllibmanagerDebugInitJs = null;
+  @Valid
+
+  private ConfigNodePropertyString htmllibmanagerDebugInitJs;
 
   @JsonProperty("htmllibmanager.defaultthemename")
-  private ConfigNodePropertyString htmllibmanagerDefaultthemename = null;
+  @Valid
+
+  private ConfigNodePropertyString htmllibmanagerDefaultthemename;
 
   @JsonProperty("htmllibmanager.defaultuserthemename")
-  private ConfigNodePropertyString htmllibmanagerDefaultuserthemename = null;
+  @Valid
+
+  private ConfigNodePropertyString htmllibmanagerDefaultuserthemename;
 
   @JsonProperty("htmllibmanager.firebuglite.path")
-  private ConfigNodePropertyString htmllibmanagerFirebuglitePath = null;
+  @Valid
+
+  private ConfigNodePropertyString htmllibmanagerFirebuglitePath;
 
   @JsonProperty("htmllibmanager.forceCQUrlInfo")
-  private ConfigNodePropertyBoolean htmllibmanagerForceCQUrlInfo = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean htmllibmanagerForceCQUrlInfo;
 
   @JsonProperty("htmllibmanager.gzip")
-  private ConfigNodePropertyBoolean htmllibmanagerGzip = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean htmllibmanagerGzip;
 
   @JsonProperty("htmllibmanager.maxage")
-  private ConfigNodePropertyInteger htmllibmanagerMaxage = null;
+  @Valid
+
+  private ConfigNodePropertyInteger htmllibmanagerMaxage;
 
   @JsonProperty("htmllibmanager.maxDataUriSize")
-  private ConfigNodePropertyInteger htmllibmanagerMaxDataUriSize = null;
+  @Valid
+
+  private ConfigNodePropertyInteger htmllibmanagerMaxDataUriSize;
 
   @JsonProperty("htmllibmanager.minify")
-  private ConfigNodePropertyBoolean htmllibmanagerMinify = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean htmllibmanagerMinify;
 
   @JsonProperty("htmllibmanager.path.list")
-  private ConfigNodePropertyArray htmllibmanagerPathList = null;
+  @Valid
+
+  private ConfigNodePropertyArray htmllibmanagerPathList;
 
   @JsonProperty("htmllibmanager.timing")
-  private ConfigNodePropertyBoolean htmllibmanagerTiming = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean htmllibmanagerTiming;
 
   public ComDayCqWidgetImplHtmlLibraryManagerImplProperties htmllibmanagerClientmanager(ConfigNodePropertyString htmllibmanagerClientmanager) {
     this.htmllibmanagerClientmanager = htmllibmanagerClientmanager;
@@ -67,7 +96,6 @@ public class ComDayCqWidgetImplHtmlLibraryManagerImplProperties   {
    * Get htmllibmanagerClientmanager
    * @return htmllibmanagerClientmanager
   **/
-  @Valid
   public ConfigNodePropertyString getHtmllibmanagerClientmanager() {
     return htmllibmanagerClientmanager;
   }
@@ -85,7 +113,6 @@ public class ComDayCqWidgetImplHtmlLibraryManagerImplProperties   {
    * Get htmllibmanagerDebug
    * @return htmllibmanagerDebug
   **/
-  @Valid
   public ConfigNodePropertyBoolean getHtmllibmanagerDebug() {
     return htmllibmanagerDebug;
   }
@@ -103,7 +130,6 @@ public class ComDayCqWidgetImplHtmlLibraryManagerImplProperties   {
    * Get htmllibmanagerDebugConsole
    * @return htmllibmanagerDebugConsole
   **/
-  @Valid
   public ConfigNodePropertyBoolean getHtmllibmanagerDebugConsole() {
     return htmllibmanagerDebugConsole;
   }
@@ -121,7 +147,6 @@ public class ComDayCqWidgetImplHtmlLibraryManagerImplProperties   {
    * Get htmllibmanagerDebugInitJs
    * @return htmllibmanagerDebugInitJs
   **/
-  @Valid
   public ConfigNodePropertyString getHtmllibmanagerDebugInitJs() {
     return htmllibmanagerDebugInitJs;
   }
@@ -139,7 +164,6 @@ public class ComDayCqWidgetImplHtmlLibraryManagerImplProperties   {
    * Get htmllibmanagerDefaultthemename
    * @return htmllibmanagerDefaultthemename
   **/
-  @Valid
   public ConfigNodePropertyString getHtmllibmanagerDefaultthemename() {
     return htmllibmanagerDefaultthemename;
   }
@@ -157,7 +181,6 @@ public class ComDayCqWidgetImplHtmlLibraryManagerImplProperties   {
    * Get htmllibmanagerDefaultuserthemename
    * @return htmllibmanagerDefaultuserthemename
   **/
-  @Valid
   public ConfigNodePropertyString getHtmllibmanagerDefaultuserthemename() {
     return htmllibmanagerDefaultuserthemename;
   }
@@ -175,7 +198,6 @@ public class ComDayCqWidgetImplHtmlLibraryManagerImplProperties   {
    * Get htmllibmanagerFirebuglitePath
    * @return htmllibmanagerFirebuglitePath
   **/
-  @Valid
   public ConfigNodePropertyString getHtmllibmanagerFirebuglitePath() {
     return htmllibmanagerFirebuglitePath;
   }
@@ -193,7 +215,6 @@ public class ComDayCqWidgetImplHtmlLibraryManagerImplProperties   {
    * Get htmllibmanagerForceCQUrlInfo
    * @return htmllibmanagerForceCQUrlInfo
   **/
-  @Valid
   public ConfigNodePropertyBoolean getHtmllibmanagerForceCQUrlInfo() {
     return htmllibmanagerForceCQUrlInfo;
   }
@@ -211,7 +232,6 @@ public class ComDayCqWidgetImplHtmlLibraryManagerImplProperties   {
    * Get htmllibmanagerGzip
    * @return htmllibmanagerGzip
   **/
-  @Valid
   public ConfigNodePropertyBoolean getHtmllibmanagerGzip() {
     return htmllibmanagerGzip;
   }
@@ -229,7 +249,6 @@ public class ComDayCqWidgetImplHtmlLibraryManagerImplProperties   {
    * Get htmllibmanagerMaxage
    * @return htmllibmanagerMaxage
   **/
-  @Valid
   public ConfigNodePropertyInteger getHtmllibmanagerMaxage() {
     return htmllibmanagerMaxage;
   }
@@ -247,7 +266,6 @@ public class ComDayCqWidgetImplHtmlLibraryManagerImplProperties   {
    * Get htmllibmanagerMaxDataUriSize
    * @return htmllibmanagerMaxDataUriSize
   **/
-  @Valid
   public ConfigNodePropertyInteger getHtmllibmanagerMaxDataUriSize() {
     return htmllibmanagerMaxDataUriSize;
   }
@@ -265,7 +283,6 @@ public class ComDayCqWidgetImplHtmlLibraryManagerImplProperties   {
    * Get htmllibmanagerMinify
    * @return htmllibmanagerMinify
   **/
-  @Valid
   public ConfigNodePropertyBoolean getHtmllibmanagerMinify() {
     return htmllibmanagerMinify;
   }
@@ -283,7 +300,6 @@ public class ComDayCqWidgetImplHtmlLibraryManagerImplProperties   {
    * Get htmllibmanagerPathList
    * @return htmllibmanagerPathList
   **/
-  @Valid
   public ConfigNodePropertyArray getHtmllibmanagerPathList() {
     return htmllibmanagerPathList;
   }
@@ -301,7 +317,6 @@ public class ComDayCqWidgetImplHtmlLibraryManagerImplProperties   {
    * Get htmllibmanagerTiming
    * @return htmllibmanagerTiming
   **/
-  @Valid
   public ConfigNodePropertyBoolean getHtmllibmanagerTiming() {
     return htmllibmanagerTiming;
   }
@@ -312,7 +327,7 @@ public class ComDayCqWidgetImplHtmlLibraryManagerImplProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -369,11 +384,8 @@ public class ComDayCqWidgetImplHtmlLibraryManagerImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

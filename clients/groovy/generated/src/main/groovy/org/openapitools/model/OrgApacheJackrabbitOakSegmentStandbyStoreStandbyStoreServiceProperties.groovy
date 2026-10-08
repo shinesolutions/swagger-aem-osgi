@@ -11,22 +11,22 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class OrgApacheJackrabbitOakSegmentStandbyStoreStandbyStoreServiceProperties {
-    ConfigNodePropertyBoolean orgApacheSlingInstallerConfigurationPersist = null
-
-    ConfigNodePropertyDropDown mode = null
-
-    ConfigNodePropertyInteger port = null
-
-    ConfigNodePropertyString primaryHost = null
-
-    ConfigNodePropertyInteger interval = null
-
-    ConfigNodePropertyArray primaryAllowedClientIpRanges = null
-
-    ConfigNodePropertyBoolean secure = null
-
-    ConfigNodePropertyInteger standbyReadtimeout = null
-
-    ConfigNodePropertyBoolean standbyAutoclean = null
-
+    
+    ConfigNodePropertyBoolean orgApacheSlingInstallerConfigurationPersist
+    
+    ConfigNodePropertyDropDown mode
+    
+    ConfigNodePropertyInteger port
+    
+    ConfigNodePropertyString primaryHost
+    
+    ConfigNodePropertyInteger interval
+    
+    ConfigNodePropertyArray primaryAllowedClientIpRanges
+    
+    ConfigNodePropertyBoolean secure
+    
+    ConfigNodePropertyInteger standbyReadtimeout
+    
+    ConfigNodePropertyBoolean standbyAutoclean
 }

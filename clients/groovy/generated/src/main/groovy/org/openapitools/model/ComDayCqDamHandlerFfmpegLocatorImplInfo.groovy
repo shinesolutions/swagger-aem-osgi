@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqDamHandlerFfmpegLocatorImplProperties;
 
 @Canonical
 class ComDayCqDamHandlerFfmpegLocatorImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqDamHandlerFfmpegLocatorImplProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqDamHandlerFfmpegLocatorImplProperties properties
 }

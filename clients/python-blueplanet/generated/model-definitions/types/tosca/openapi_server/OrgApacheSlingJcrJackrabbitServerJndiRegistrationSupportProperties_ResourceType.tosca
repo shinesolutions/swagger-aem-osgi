@@ -1,0 +1,41 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingJcrJackrabbitServerJndiRegistrationSupportProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingJcrJackrabbitServerJndiRegistrationSupportProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  OrgApacheSlingJcrJackrabbitServerJndiRegistrationSupportProperties {
+    title = OrgApacheSlingJcrJackrabbitServerJndiRegistrationSupportProperties
+    description = OrgApacheSlingJcrJackrabbitServerJndiRegistrationSupportProperties
+    derivedFrom = Root
+    properties {
+        java_naming_factory_initial {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        java_naming_provider_url {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingJcrJackrabbitServerJndiRegistrationSupportProperties {
+    title = OrgApacheSlingJcrJackrabbitServerJndiRegistrationSupportProperties
+    description = OrgApacheSlingJcrJackrabbitServerJndiRegistrationSupportProperties
+    implements = openapi_server.resourceTypes.OrgApacheSlingJcrJackrabbitServerJndiRegistrationSupportProperties
+
+  }
+}

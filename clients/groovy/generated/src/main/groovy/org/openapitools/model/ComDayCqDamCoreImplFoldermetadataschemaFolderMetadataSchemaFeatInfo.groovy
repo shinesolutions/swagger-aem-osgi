@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqDamCoreImplFoldermetadataschemaFolderMetad
 
 @Canonical
 class ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatProperties properties
 }

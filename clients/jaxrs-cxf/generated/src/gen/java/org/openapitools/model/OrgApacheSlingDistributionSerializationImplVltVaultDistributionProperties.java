@@ -1,5 +1,6 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyDropDown;
@@ -9,88 +10,119 @@ import javax.validation.constraints.*;
 import javax.validation.Valid;
 
 import io.swagger.annotations.ApiModelProperty;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlType;
-import javax.xml.bind.annotation.XmlEnum;
-import javax.xml.bind.annotation.XmlEnumValue;
+import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
 
 public class OrgApacheSlingDistributionSerializationImplVltVaultDistributionProperties  {
   
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyString name = null;
+
+  private ConfigNodePropertyString name;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyDropDown type = null;
+
+  private ConfigNodePropertyDropDown type;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyString importMode = null;
+
+  private ConfigNodePropertyString importMode;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyString aclHandling = null;
+
+  private ConfigNodePropertyString aclHandling;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyString packageRoots = null;
+
+  private ConfigNodePropertyString packageRoots;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyArray packageFilters = null;
+
+  private ConfigNodePropertyArray packageFilters;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyArray propertyFilters = null;
+
+  private ConfigNodePropertyArray propertyFilters;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyString tempFsFolder = null;
+
+  private ConfigNodePropertyString tempFsFolder;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyBoolean useBinaryReferences = null;
+
+  private ConfigNodePropertyBoolean useBinaryReferences;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyInteger autoSaveThreshold = null;
+
+  private ConfigNodePropertyInteger autoSaveThreshold;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyInteger cleanupDelay = null;
+
+  private ConfigNodePropertyInteger cleanupDelay;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyInteger fileThreshold = null;
+
+  private ConfigNodePropertyInteger fileThreshold;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyDropDown MEGA_BYTES = null;
+
+  private ConfigNodePropertyDropDown MEGA_BYTES;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyBoolean useOffHeapMemory = null;
+
+  private ConfigNodePropertyBoolean useOffHeapMemory;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyDropDown digestAlgorithm = null;
+
+  private ConfigNodePropertyDropDown digestAlgorithm;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyInteger monitoringQueueSize = null;
+
+  private ConfigNodePropertyInteger monitoringQueueSize;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyArray pathsMapping = null;
+
+  private ConfigNodePropertyArray pathsMapping;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyBoolean strictImport = null;
+
+  private ConfigNodePropertyBoolean strictImport;
  /**
    * Get name
    * @return name
@@ -415,6 +447,39 @@ public class OrgApacheSlingDistributionSerializationImplVltVaultDistributionProp
     return this;
   }
 
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    OrgApacheSlingDistributionSerializationImplVltVaultDistributionProperties orgApacheSlingDistributionSerializationImplVltVaultDistributionProperties = (OrgApacheSlingDistributionSerializationImplVltVaultDistributionProperties) o;
+    return Objects.equals(this.name, orgApacheSlingDistributionSerializationImplVltVaultDistributionProperties.name) &&
+        Objects.equals(this.type, orgApacheSlingDistributionSerializationImplVltVaultDistributionProperties.type) &&
+        Objects.equals(this.importMode, orgApacheSlingDistributionSerializationImplVltVaultDistributionProperties.importMode) &&
+        Objects.equals(this.aclHandling, orgApacheSlingDistributionSerializationImplVltVaultDistributionProperties.aclHandling) &&
+        Objects.equals(this.packageRoots, orgApacheSlingDistributionSerializationImplVltVaultDistributionProperties.packageRoots) &&
+        Objects.equals(this.packageFilters, orgApacheSlingDistributionSerializationImplVltVaultDistributionProperties.packageFilters) &&
+        Objects.equals(this.propertyFilters, orgApacheSlingDistributionSerializationImplVltVaultDistributionProperties.propertyFilters) &&
+        Objects.equals(this.tempFsFolder, orgApacheSlingDistributionSerializationImplVltVaultDistributionProperties.tempFsFolder) &&
+        Objects.equals(this.useBinaryReferences, orgApacheSlingDistributionSerializationImplVltVaultDistributionProperties.useBinaryReferences) &&
+        Objects.equals(this.autoSaveThreshold, orgApacheSlingDistributionSerializationImplVltVaultDistributionProperties.autoSaveThreshold) &&
+        Objects.equals(this.cleanupDelay, orgApacheSlingDistributionSerializationImplVltVaultDistributionProperties.cleanupDelay) &&
+        Objects.equals(this.fileThreshold, orgApacheSlingDistributionSerializationImplVltVaultDistributionProperties.fileThreshold) &&
+        Objects.equals(this.MEGA_BYTES, orgApacheSlingDistributionSerializationImplVltVaultDistributionProperties.MEGA_BYTES) &&
+        Objects.equals(this.useOffHeapMemory, orgApacheSlingDistributionSerializationImplVltVaultDistributionProperties.useOffHeapMemory) &&
+        Objects.equals(this.digestAlgorithm, orgApacheSlingDistributionSerializationImplVltVaultDistributionProperties.digestAlgorithm) &&
+        Objects.equals(this.monitoringQueueSize, orgApacheSlingDistributionSerializationImplVltVaultDistributionProperties.monitoringQueueSize) &&
+        Objects.equals(this.pathsMapping, orgApacheSlingDistributionSerializationImplVltVaultDistributionProperties.pathsMapping) &&
+        Objects.equals(this.strictImport, orgApacheSlingDistributionSerializationImplVltVaultDistributionProperties.strictImport);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(name, type, importMode, aclHandling, packageRoots, packageFilters, propertyFilters, tempFsFolder, useBinaryReferences, autoSaveThreshold, cleanupDelay, fileThreshold, MEGA_BYTES, useOffHeapMemory, digestAlgorithm, monitoringQueueSize, pathsMapping, strictImport);
+  }
 
   @Override
   public String toString() {
@@ -447,11 +512,8 @@ public class OrgApacheSlingDistributionSerializationImplVltVaultDistributionProp
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private static String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

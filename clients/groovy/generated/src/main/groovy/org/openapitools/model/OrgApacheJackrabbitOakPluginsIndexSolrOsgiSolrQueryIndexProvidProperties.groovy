@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyBoolean;
 
 @Canonical
 class OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProvidProperties {
-    ConfigNodePropertyBoolean queryAggregation = null
-
+    
+    ConfigNodePropertyBoolean queryAggregation
 }

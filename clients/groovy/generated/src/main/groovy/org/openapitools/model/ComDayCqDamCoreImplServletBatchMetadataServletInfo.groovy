@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqDamCoreImplServletBatchMetadataServletProp
 
 @Canonical
 class ComDayCqDamCoreImplServletBatchMetadataServletInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqDamCoreImplServletBatchMetadataServletProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqDamCoreImplServletBatchMetadataServletProperties properties
 }

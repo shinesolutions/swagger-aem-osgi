@@ -7,8 +7,8 @@ import org.openapitools.model.ConfigNodePropertyBoolean;
 
 @Canonical
 class ComDayCqWcmCoreImplWCMDebugFilterProperties {
-    ConfigNodePropertyBoolean wcmdbgfilterEnabled = null
-
-    ConfigNodePropertyBoolean wcmdbgfilterJspDebug = null
-
+    
+    ConfigNodePropertyBoolean wcmdbgfilterEnabled
+    
+    ConfigNodePropertyBoolean wcmdbgfilterJspDebug
 }

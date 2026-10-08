@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyBoolean;
 import com.prokarma.pkmst.model.ConfigNodePropertyDropDown;
 import com.prokarma.pkmst.model.ConfigNodePropertyInteger;
@@ -17,36 +18,35 @@ import io.swagger.annotations.ApiModelProperty;
  * OrgApacheFelixScrScrServiceProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheFelixScrScrServiceProperties   {
   @JsonProperty("ds.loglevel")
-  private ConfigNodePropertyDropDown dsLoglevel = null;
+  private ConfigNodePropertyDropDown dsLoglevel;
 
   @JsonProperty("ds.factory.enabled")
-  private ConfigNodePropertyBoolean dsFactoryEnabled = null;
+  private ConfigNodePropertyBoolean dsFactoryEnabled;
 
   @JsonProperty("ds.delayed.keepInstances")
-  private ConfigNodePropertyBoolean dsDelayedKeepInstances = null;
+  private ConfigNodePropertyBoolean dsDelayedKeepInstances;
 
   @JsonProperty("ds.lock.timeout.milliseconds")
-  private ConfigNodePropertyInteger dsLockTimeoutMilliseconds = null;
+  private ConfigNodePropertyInteger dsLockTimeoutMilliseconds;
 
   @JsonProperty("ds.stop.timeout.milliseconds")
-  private ConfigNodePropertyInteger dsStopTimeoutMilliseconds = null;
+  private ConfigNodePropertyInteger dsStopTimeoutMilliseconds;
 
   @JsonProperty("ds.global.extender")
-  private ConfigNodePropertyBoolean dsGlobalExtender = null;
+  private ConfigNodePropertyBoolean dsGlobalExtender;
 
   public OrgApacheFelixScrScrServiceProperties dsLoglevel(ConfigNodePropertyDropDown dsLoglevel) {
     this.dsLoglevel = dsLoglevel;
     return this;
   }
 
-   /**
+  /**
    * Get dsLoglevel
    * @return dsLoglevel
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyDropDown getDsLoglevel() {
     return dsLoglevel;
@@ -61,10 +61,10 @@ public class OrgApacheFelixScrScrServiceProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get dsFactoryEnabled
    * @return dsFactoryEnabled
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getDsFactoryEnabled() {
     return dsFactoryEnabled;
@@ -79,10 +79,10 @@ public class OrgApacheFelixScrScrServiceProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get dsDelayedKeepInstances
    * @return dsDelayedKeepInstances
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getDsDelayedKeepInstances() {
     return dsDelayedKeepInstances;
@@ -97,10 +97,10 @@ public class OrgApacheFelixScrScrServiceProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get dsLockTimeoutMilliseconds
    * @return dsLockTimeoutMilliseconds
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getDsLockTimeoutMilliseconds() {
     return dsLockTimeoutMilliseconds;
@@ -115,10 +115,10 @@ public class OrgApacheFelixScrScrServiceProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get dsStopTimeoutMilliseconds
    * @return dsStopTimeoutMilliseconds
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getDsStopTimeoutMilliseconds() {
     return dsStopTimeoutMilliseconds;
@@ -133,10 +133,10 @@ public class OrgApacheFelixScrScrServiceProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get dsGlobalExtender
    * @return dsGlobalExtender
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getDsGlobalExtender() {
     return dsGlobalExtender;
@@ -148,7 +148,7 @@ public class OrgApacheFelixScrScrServiceProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -188,11 +188,8 @@ public class OrgApacheFelixScrScrServiceProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

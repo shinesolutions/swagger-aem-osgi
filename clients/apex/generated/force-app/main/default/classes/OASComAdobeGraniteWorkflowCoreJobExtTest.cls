@@ -72,9 +72,9 @@ private class OASComAdobeGraniteWorkflowCoreJobExtTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeGraniteWorkflowCoreJobExt comAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerProperties = new OASComAdobeGraniteWorkflowCoreJobExt();
-        Map<String, String> propertyMappings = comAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerProperties.getPropertyMappings();
-        System.assertEquals('defaultTimeout', propertyMappings.get('default.timeout'));
-        System.assertEquals('maxTimeout', propertyMappings.get('max.timeout'));
-        System.assertEquals('defaultPeriod', propertyMappings.get('default.period'));
+        Map<String, String> x-property-mappings = comAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerProperties.getx-property-mappings();
+        System.assertEquals('defaultTimeout', x-property-mappings.get('default.timeout'));
+        System.assertEquals('maxTimeout', x-property-mappings.get('max.timeout'));
+        System.assertEquals('defaultPeriod', x-property-mappings.get('default.period'));
     }
 }

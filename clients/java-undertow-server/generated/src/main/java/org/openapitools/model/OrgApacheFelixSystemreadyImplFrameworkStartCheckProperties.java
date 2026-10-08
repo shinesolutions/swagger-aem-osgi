@@ -1,3 +1,13 @@
+/*
+ * Adobe Experience Manager OSGI config (AEM) API
+ *
+ * Swagger AEM OSGI is an OpenAPI specification for Adobe Experience Manager (AEM) OSGI Configurations API
+ *
+ * OpenAPI document version: 1.0.0-pre.0
+ * Maintained by: opensource@shinesolutions.com
+ *
+ * AUTO-GENERATED FILE, DO NOT MODIFY!
+ */
 package org.openapitools.model;
 
 import java.util.Objects;
@@ -13,16 +23,16 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2019-08-05T00:56:20.785Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2026-10-07T12:53:42.280804918Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheFelixSystemreadyImplFrameworkStartCheckProperties   {
   
-  private ConfigNodePropertyInteger timeout = null;
-  private ConfigNodePropertyInteger targetStartLevel = null;
-  private ConfigNodePropertyString targetStartLevelPropName = null;
-  private ConfigNodePropertyDropDown type = null;
+  private ConfigNodePropertyInteger timeout;
+  private ConfigNodePropertyInteger targetStartLevel;
+  private ConfigNodePropertyString targetStartLevelPropName;
+  private ConfigNodePropertyDropDown type;
 
   /**
-   **/
+   */
   public OrgApacheFelixSystemreadyImplFrameworkStartCheckProperties timeout(ConfigNodePropertyInteger timeout) {
     this.timeout = timeout;
     return this;
@@ -39,7 +49,7 @@ public class OrgApacheFelixSystemreadyImplFrameworkStartCheckProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheFelixSystemreadyImplFrameworkStartCheckProperties targetStartLevel(ConfigNodePropertyInteger targetStartLevel) {
     this.targetStartLevel = targetStartLevel;
     return this;
@@ -56,7 +66,7 @@ public class OrgApacheFelixSystemreadyImplFrameworkStartCheckProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheFelixSystemreadyImplFrameworkStartCheckProperties targetStartLevelPropName(ConfigNodePropertyString targetStartLevelPropName) {
     this.targetStartLevelPropName = targetStartLevelPropName;
     return this;
@@ -73,7 +83,7 @@ public class OrgApacheFelixSystemreadyImplFrameworkStartCheckProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheFelixSystemreadyImplFrameworkStartCheckProperties type(ConfigNodePropertyDropDown type) {
     this.type = type;
     return this;
@@ -91,7 +101,7 @@ public class OrgApacheFelixSystemreadyImplFrameworkStartCheckProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -127,11 +137,8 @@ public class OrgApacheFelixSystemreadyImplFrameworkStartCheckProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

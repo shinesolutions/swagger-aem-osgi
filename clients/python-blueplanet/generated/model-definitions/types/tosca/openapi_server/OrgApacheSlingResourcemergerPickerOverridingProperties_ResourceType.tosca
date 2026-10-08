@@ -1,0 +1,42 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingResourcemergerPickerOverridingProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingResourcemergerPickerOverridingProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  OrgApacheSlingResourcemergerPickerOverridingProperties {
+    title = OrgApacheSlingResourcemergerPickerOverridingProperties
+    description = OrgApacheSlingResourcemergerPickerOverridingProperties
+    derivedFrom = Root
+    properties {
+        merge_root {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        merge_read_only {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingResourcemergerPickerOverridingProperties {
+    title = OrgApacheSlingResourcemergerPickerOverridingProperties
+    description = OrgApacheSlingResourcemergerPickerOverridingProperties
+    implements = openapi_server.resourceTypes.OrgApacheSlingResourcemergerPickerOverridingProperties
+
+  }
+}

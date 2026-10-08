@@ -1,12 +1,133 @@
 # ComDayCqRewriterLinkcheckerImplLinkCheckerTaskInfo
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**Pid** | **string** |  | [optional] 
-**Title** | **string** |  | [optional] 
-**Description** | **string** |  | [optional] 
-**Properties** | [**ComDayCqRewriterLinkcheckerImplLinkCheckerTaskProperties**](comDayCqRewriterLinkcheckerImplLinkCheckerTaskProperties.md) |  | [optional] 
+**Pid** | Pointer to **string** |  | [optional] 
+**Title** | Pointer to **string** |  | [optional] 
+**Description** | Pointer to **string** |  | [optional] 
+**Properties** | Pointer to [**ComDayCqRewriterLinkcheckerImplLinkCheckerTaskProperties**](ComDayCqRewriterLinkcheckerImplLinkCheckerTaskProperties.md) |  | [optional] 
+
+## Methods
+
+### NewComDayCqRewriterLinkcheckerImplLinkCheckerTaskInfo
+
+`func NewComDayCqRewriterLinkcheckerImplLinkCheckerTaskInfo() *ComDayCqRewriterLinkcheckerImplLinkCheckerTaskInfo`
+
+NewComDayCqRewriterLinkcheckerImplLinkCheckerTaskInfo instantiates a new ComDayCqRewriterLinkcheckerImplLinkCheckerTaskInfo object
+This constructor will assign default values to properties that have it defined,
+and makes sure properties required by API are set, but the set of arguments
+will change when the set of required properties is changed
+
+### NewComDayCqRewriterLinkcheckerImplLinkCheckerTaskInfoWithDefaults
+
+`func NewComDayCqRewriterLinkcheckerImplLinkCheckerTaskInfoWithDefaults() *ComDayCqRewriterLinkcheckerImplLinkCheckerTaskInfo`
+
+NewComDayCqRewriterLinkcheckerImplLinkCheckerTaskInfoWithDefaults instantiates a new ComDayCqRewriterLinkcheckerImplLinkCheckerTaskInfo object
+This constructor will only assign default values to properties that have it defined,
+but it doesn't guarantee that properties required by API are set
+
+### GetPid
+
+`func (o *ComDayCqRewriterLinkcheckerImplLinkCheckerTaskInfo) GetPid() string`
+
+GetPid returns the Pid field if non-nil, zero value otherwise.
+
+### GetPidOk
+
+`func (o *ComDayCqRewriterLinkcheckerImplLinkCheckerTaskInfo) GetPidOk() (*string, bool)`
+
+GetPidOk returns a tuple with the Pid field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetPid
+
+`func (o *ComDayCqRewriterLinkcheckerImplLinkCheckerTaskInfo) SetPid(v string)`
+
+SetPid sets Pid field to given value.
+
+### HasPid
+
+`func (o *ComDayCqRewriterLinkcheckerImplLinkCheckerTaskInfo) HasPid() bool`
+
+HasPid returns a boolean if a field has been set.
+
+### GetTitle
+
+`func (o *ComDayCqRewriterLinkcheckerImplLinkCheckerTaskInfo) GetTitle() string`
+
+GetTitle returns the Title field if non-nil, zero value otherwise.
+
+### GetTitleOk
+
+`func (o *ComDayCqRewriterLinkcheckerImplLinkCheckerTaskInfo) GetTitleOk() (*string, bool)`
+
+GetTitleOk returns a tuple with the Title field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetTitle
+
+`func (o *ComDayCqRewriterLinkcheckerImplLinkCheckerTaskInfo) SetTitle(v string)`
+
+SetTitle sets Title field to given value.
+
+### HasTitle
+
+`func (o *ComDayCqRewriterLinkcheckerImplLinkCheckerTaskInfo) HasTitle() bool`
+
+HasTitle returns a boolean if a field has been set.
+
+### GetDescription
+
+`func (o *ComDayCqRewriterLinkcheckerImplLinkCheckerTaskInfo) GetDescription() string`
+
+GetDescription returns the Description field if non-nil, zero value otherwise.
+
+### GetDescriptionOk
+
+`func (o *ComDayCqRewriterLinkcheckerImplLinkCheckerTaskInfo) GetDescriptionOk() (*string, bool)`
+
+GetDescriptionOk returns a tuple with the Description field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetDescription
+
+`func (o *ComDayCqRewriterLinkcheckerImplLinkCheckerTaskInfo) SetDescription(v string)`
+
+SetDescription sets Description field to given value.
+
+### HasDescription
+
+`func (o *ComDayCqRewriterLinkcheckerImplLinkCheckerTaskInfo) HasDescription() bool`
+
+HasDescription returns a boolean if a field has been set.
+
+### GetProperties
+
+`func (o *ComDayCqRewriterLinkcheckerImplLinkCheckerTaskInfo) GetProperties() ComDayCqRewriterLinkcheckerImplLinkCheckerTaskProperties`
+
+GetProperties returns the Properties field if non-nil, zero value otherwise.
+
+### GetPropertiesOk
+
+`func (o *ComDayCqRewriterLinkcheckerImplLinkCheckerTaskInfo) GetPropertiesOk() (*ComDayCqRewriterLinkcheckerImplLinkCheckerTaskProperties, bool)`
+
+GetPropertiesOk returns a tuple with the Properties field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetProperties
+
+`func (o *ComDayCqRewriterLinkcheckerImplLinkCheckerTaskInfo) SetProperties(v ComDayCqRewriterLinkcheckerImplLinkCheckerTaskProperties)`
+
+SetProperties sets Properties field to given value.
+
+### HasProperties
+
+`func (o *ComDayCqRewriterLinkcheckerImplLinkCheckerTaskInfo) HasProperties() bool`
+
+HasProperties returns a boolean if a field has been set.
+
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

@@ -2,34 +2,35 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class ComAdobeCqScreensDeviceImplDeviceServiceProperties   {
   
-  private ConfigNodePropertyInteger comAdobeAemScreensPlayerPingfrequency = null;
+  private ConfigNodePropertyInteger comAdobeAemScreensPlayerPingfrequency;
 
-  private ConfigNodePropertyString comAdobeAemScreensDevicePaswordSpecialchars = null;
+  private ConfigNodePropertyString comAdobeAemScreensDevicePaswordSpecialchars;
 
-  private ConfigNodePropertyInteger comAdobeAemScreensDevicePaswordMinlowercasechars = null;
+  private ConfigNodePropertyInteger comAdobeAemScreensDevicePaswordMinlowercasechars;
 
-  private ConfigNodePropertyInteger comAdobeAemScreensDevicePaswordMinuppercasechars = null;
+  private ConfigNodePropertyInteger comAdobeAemScreensDevicePaswordMinuppercasechars;
 
-  private ConfigNodePropertyInteger comAdobeAemScreensDevicePaswordMinnumberchars = null;
+  private ConfigNodePropertyInteger comAdobeAemScreensDevicePaswordMinnumberchars;
 
-  private ConfigNodePropertyInteger comAdobeAemScreensDevicePaswordMinspecialchars = null;
+  private ConfigNodePropertyInteger comAdobeAemScreensDevicePaswordMinspecialchars;
 
-  private ConfigNodePropertyInteger comAdobeAemScreensDevicePaswordMinlength = null;
-
+  private ConfigNodePropertyInteger comAdobeAemScreensDevicePaswordMinlength;
 
   /**
    **/
@@ -159,7 +160,7 @@ public class ComAdobeCqScreensDeviceImplDeviceServiceProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -167,13 +168,13 @@ public class ComAdobeCqScreensDeviceImplDeviceServiceProperties   {
       return false;
     }
     ComAdobeCqScreensDeviceImplDeviceServiceProperties comAdobeCqScreensDeviceImplDeviceServiceProperties = (ComAdobeCqScreensDeviceImplDeviceServiceProperties) o;
-    return Objects.equals(comAdobeAemScreensPlayerPingfrequency, comAdobeCqScreensDeviceImplDeviceServiceProperties.comAdobeAemScreensPlayerPingfrequency) &&
-        Objects.equals(comAdobeAemScreensDevicePaswordSpecialchars, comAdobeCqScreensDeviceImplDeviceServiceProperties.comAdobeAemScreensDevicePaswordSpecialchars) &&
-        Objects.equals(comAdobeAemScreensDevicePaswordMinlowercasechars, comAdobeCqScreensDeviceImplDeviceServiceProperties.comAdobeAemScreensDevicePaswordMinlowercasechars) &&
-        Objects.equals(comAdobeAemScreensDevicePaswordMinuppercasechars, comAdobeCqScreensDeviceImplDeviceServiceProperties.comAdobeAemScreensDevicePaswordMinuppercasechars) &&
-        Objects.equals(comAdobeAemScreensDevicePaswordMinnumberchars, comAdobeCqScreensDeviceImplDeviceServiceProperties.comAdobeAemScreensDevicePaswordMinnumberchars) &&
-        Objects.equals(comAdobeAemScreensDevicePaswordMinspecialchars, comAdobeCqScreensDeviceImplDeviceServiceProperties.comAdobeAemScreensDevicePaswordMinspecialchars) &&
-        Objects.equals(comAdobeAemScreensDevicePaswordMinlength, comAdobeCqScreensDeviceImplDeviceServiceProperties.comAdobeAemScreensDevicePaswordMinlength);
+    return Objects.equals(this.comAdobeAemScreensPlayerPingfrequency, comAdobeCqScreensDeviceImplDeviceServiceProperties.comAdobeAemScreensPlayerPingfrequency) &&
+        Objects.equals(this.comAdobeAemScreensDevicePaswordSpecialchars, comAdobeCqScreensDeviceImplDeviceServiceProperties.comAdobeAemScreensDevicePaswordSpecialchars) &&
+        Objects.equals(this.comAdobeAemScreensDevicePaswordMinlowercasechars, comAdobeCqScreensDeviceImplDeviceServiceProperties.comAdobeAemScreensDevicePaswordMinlowercasechars) &&
+        Objects.equals(this.comAdobeAemScreensDevicePaswordMinuppercasechars, comAdobeCqScreensDeviceImplDeviceServiceProperties.comAdobeAemScreensDevicePaswordMinuppercasechars) &&
+        Objects.equals(this.comAdobeAemScreensDevicePaswordMinnumberchars, comAdobeCqScreensDeviceImplDeviceServiceProperties.comAdobeAemScreensDevicePaswordMinnumberchars) &&
+        Objects.equals(this.comAdobeAemScreensDevicePaswordMinspecialchars, comAdobeCqScreensDeviceImplDeviceServiceProperties.comAdobeAemScreensDevicePaswordMinspecialchars) &&
+        Objects.equals(this.comAdobeAemScreensDevicePaswordMinlength, comAdobeCqScreensDeviceImplDeviceServiceProperties.comAdobeAemScreensDevicePaswordMinlength);
   }
 
   @Override
@@ -201,11 +202,8 @@ public class ComAdobeCqScreensDeviceImplDeviceServiceProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqDamIdsImplIDSJobProcessorProperties;
 
 @Canonical
 class ComDayCqDamIdsImplIDSJobProcessorInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqDamIdsImplIDSJobProcessorProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqDamIdsImplIDSJobProcessorProperties properties
 }

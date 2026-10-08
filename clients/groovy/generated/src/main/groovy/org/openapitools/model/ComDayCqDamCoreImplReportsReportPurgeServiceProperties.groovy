@@ -9,12 +9,12 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqDamCoreImplReportsReportPurgeServiceProperties {
-    ConfigNodePropertyString schedulerExpression = null
-
-    ConfigNodePropertyInteger maxSavedReports = null
-
-    ConfigNodePropertyInteger timeDuration = null
-
-    ConfigNodePropertyBoolean enableReportPurge = null
-
+    
+    ConfigNodePropertyString schedulerExpression
+    
+    ConfigNodePropertyInteger maxSavedReports
+    
+    ConfigNodePropertyInteger timeDuration
+    
+    ConfigNodePropertyBoolean enableReportPurge
 }

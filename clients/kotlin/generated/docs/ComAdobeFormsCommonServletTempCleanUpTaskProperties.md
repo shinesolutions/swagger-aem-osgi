@@ -2,11 +2,11 @@
 # ComAdobeFormsCommonServletTempCleanUpTaskProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**schedulerPeriodexpression** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**Duration for Temporary Storage** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**Duration for Anonymous Storage** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **schedulerExpression** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **durationForTemporaryStorage** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **durationForAnonymousStorage** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
 
 
 

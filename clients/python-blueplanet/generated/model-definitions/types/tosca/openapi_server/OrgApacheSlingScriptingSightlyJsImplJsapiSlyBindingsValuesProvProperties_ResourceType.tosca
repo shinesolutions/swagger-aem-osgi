@@ -1,0 +1,36 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+}
+resourceTypes {
+
+  OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvProperties {
+    title = OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvProperties
+    description = OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvProperties
+    derivedFrom = Root
+    properties {
+        org_apache_sling_scripting_sightly_js_bindings {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvProperties {
+    title = OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvProperties
+    description = OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvProperties
+    implements = openapi_server.resourceTypes.OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvProperties
+
+  }
+}

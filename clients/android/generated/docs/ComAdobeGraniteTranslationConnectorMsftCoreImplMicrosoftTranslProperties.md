@@ -1,7 +1,9 @@
 
+
 # ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **translationFactory** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
@@ -13,6 +15,7 @@ Name | Type | Description | Notes
 **categoryMapLocation** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
 **retryAttempts** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
 **timeoutCount** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
+
 
 
 

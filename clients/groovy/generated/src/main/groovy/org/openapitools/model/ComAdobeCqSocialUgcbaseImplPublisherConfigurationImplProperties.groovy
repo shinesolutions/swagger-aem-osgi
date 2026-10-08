@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyBoolean;
 
 @Canonical
 class ComAdobeCqSocialUgcbaseImplPublisherConfigurationImplProperties {
-    ConfigNodePropertyBoolean isPrimaryPublisher = null
-
+    
+    ConfigNodePropertyBoolean isPrimaryPublisher
 }

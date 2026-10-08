@@ -2,30 +2,31 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class ConfigNodePropertyBoolean   {
   
-  private String name = null;
+  private String name;
 
-  private Boolean optional = null;
+  private Boolean optional;
 
-  private Boolean isSet = null;
+  private Boolean isSet;
 
-  private Integer type = null;
+  private Integer type;
 
-  private Boolean value = null;
+  private Boolean value;
 
-  private String description = null;
-
+  private String description;
 
   /**
    * property name
@@ -143,7 +144,7 @@ public class ConfigNodePropertyBoolean   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -151,12 +152,12 @@ public class ConfigNodePropertyBoolean   {
       return false;
     }
     ConfigNodePropertyBoolean configNodePropertyBoolean = (ConfigNodePropertyBoolean) o;
-    return Objects.equals(name, configNodePropertyBoolean.name) &&
-        Objects.equals(optional, configNodePropertyBoolean.optional) &&
-        Objects.equals(isSet, configNodePropertyBoolean.isSet) &&
-        Objects.equals(type, configNodePropertyBoolean.type) &&
-        Objects.equals(value, configNodePropertyBoolean.value) &&
-        Objects.equals(description, configNodePropertyBoolean.description);
+    return Objects.equals(this.name, configNodePropertyBoolean.name) &&
+        Objects.equals(this.optional, configNodePropertyBoolean.optional) &&
+        Objects.equals(this.isSet, configNodePropertyBoolean.isSet) &&
+        Objects.equals(this.type, configNodePropertyBoolean.type) &&
+        Objects.equals(this.value, configNodePropertyBoolean.value) &&
+        Objects.equals(this.description, configNodePropertyBoolean.description);
   }
 
   @Override
@@ -183,11 +184,8 @@ public class ConfigNodePropertyBoolean   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

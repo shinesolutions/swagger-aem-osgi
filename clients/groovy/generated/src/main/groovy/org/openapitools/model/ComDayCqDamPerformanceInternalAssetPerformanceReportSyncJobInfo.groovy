@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqDamPerformanceInternalAssetPerformanceRepo
 
 @Canonical
 class ComDayCqDamPerformanceInternalAssetPerformanceReportSyncJobInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqDamPerformanceInternalAssetPerformanceReportSyncJobProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqDamPerformanceInternalAssetPerformanceReportSyncJobProperties properties
 }

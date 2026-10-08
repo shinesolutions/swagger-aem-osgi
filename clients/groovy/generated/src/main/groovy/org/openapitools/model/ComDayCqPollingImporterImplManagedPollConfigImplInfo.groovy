@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqPollingImporterImplManagedPollConfigImplPr
 
 @Canonical
 class ComDayCqPollingImporterImplManagedPollConfigImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqPollingImporterImplManagedPollConfigImplProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqPollingImporterImplManagedPollConfigImplProperties properties
 }

@@ -9,10 +9,10 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class OrgApacheSlingI18nImplJcrResourceBundleProviderProperties {
-    ConfigNodePropertyString localeDefault = null
-
-    ConfigNodePropertyBoolean preloadBundles = null
-
-    ConfigNodePropertyInteger invalidationDelay = null
-
+    
+    ConfigNodePropertyString localeDefault
+    
+    ConfigNodePropertyBoolean preloadBundles
+    
+    ConfigNodePropertyInteger invalidationDelay
 }

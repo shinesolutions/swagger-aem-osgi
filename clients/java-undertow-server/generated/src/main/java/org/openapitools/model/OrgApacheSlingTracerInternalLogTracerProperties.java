@@ -1,3 +1,13 @@
+/*
+ * Adobe Experience Manager OSGI config (AEM) API
+ *
+ * Swagger AEM OSGI is an OpenAPI specification for Adobe Experience Manager (AEM) OSGI Configurations API
+ *
+ * OpenAPI document version: 1.0.0-pre.0
+ * Maintained by: opensource@shinesolutions.com
+ *
+ * AUTO-GENERATED FILE, DO NOT MODIFY!
+ */
 package org.openapitools.model;
 
 import java.util.Objects;
@@ -13,19 +23,19 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2019-08-05T00:56:20.785Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2026-10-07T12:53:42.280804918Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingTracerInternalLogTracerProperties   {
   
-  private ConfigNodePropertyArray tracerSets = null;
-  private ConfigNodePropertyBoolean enabled = null;
-  private ConfigNodePropertyBoolean servletEnabled = null;
-  private ConfigNodePropertyInteger recordingCacheSizeInMB = null;
-  private ConfigNodePropertyInteger recordingCacheDurationInSecs = null;
-  private ConfigNodePropertyBoolean recordingCompressionEnabled = null;
-  private ConfigNodePropertyBoolean gzipResponse = null;
+  private ConfigNodePropertyArray tracerSets;
+  private ConfigNodePropertyBoolean enabled;
+  private ConfigNodePropertyBoolean servletEnabled;
+  private ConfigNodePropertyInteger recordingCacheSizeInMB;
+  private ConfigNodePropertyInteger recordingCacheDurationInSecs;
+  private ConfigNodePropertyBoolean recordingCompressionEnabled;
+  private ConfigNodePropertyBoolean gzipResponse;
 
   /**
-   **/
+   */
   public OrgApacheSlingTracerInternalLogTracerProperties tracerSets(ConfigNodePropertyArray tracerSets) {
     this.tracerSets = tracerSets;
     return this;
@@ -42,7 +52,7 @@ public class OrgApacheSlingTracerInternalLogTracerProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingTracerInternalLogTracerProperties enabled(ConfigNodePropertyBoolean enabled) {
     this.enabled = enabled;
     return this;
@@ -59,7 +69,7 @@ public class OrgApacheSlingTracerInternalLogTracerProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingTracerInternalLogTracerProperties servletEnabled(ConfigNodePropertyBoolean servletEnabled) {
     this.servletEnabled = servletEnabled;
     return this;
@@ -76,7 +86,7 @@ public class OrgApacheSlingTracerInternalLogTracerProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingTracerInternalLogTracerProperties recordingCacheSizeInMB(ConfigNodePropertyInteger recordingCacheSizeInMB) {
     this.recordingCacheSizeInMB = recordingCacheSizeInMB;
     return this;
@@ -93,7 +103,7 @@ public class OrgApacheSlingTracerInternalLogTracerProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingTracerInternalLogTracerProperties recordingCacheDurationInSecs(ConfigNodePropertyInteger recordingCacheDurationInSecs) {
     this.recordingCacheDurationInSecs = recordingCacheDurationInSecs;
     return this;
@@ -110,7 +120,7 @@ public class OrgApacheSlingTracerInternalLogTracerProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingTracerInternalLogTracerProperties recordingCompressionEnabled(ConfigNodePropertyBoolean recordingCompressionEnabled) {
     this.recordingCompressionEnabled = recordingCompressionEnabled;
     return this;
@@ -127,7 +137,7 @@ public class OrgApacheSlingTracerInternalLogTracerProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingTracerInternalLogTracerProperties gzipResponse(ConfigNodePropertyBoolean gzipResponse) {
     this.gzipResponse = gzipResponse;
     return this;
@@ -145,7 +155,7 @@ public class OrgApacheSlingTracerInternalLogTracerProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -187,11 +197,8 @@ public class OrgApacheSlingTracerInternalLogTracerProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

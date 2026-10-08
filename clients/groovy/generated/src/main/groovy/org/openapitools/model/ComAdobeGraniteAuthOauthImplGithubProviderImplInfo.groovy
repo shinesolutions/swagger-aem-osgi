@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeGraniteAuthOauthImplGithubProviderImplProp
 
 @Canonical
 class ComAdobeGraniteAuthOauthImplGithubProviderImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteAuthOauthImplGithubProviderImplProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteAuthOauthImplGithubProviderImplProperties properties
 }

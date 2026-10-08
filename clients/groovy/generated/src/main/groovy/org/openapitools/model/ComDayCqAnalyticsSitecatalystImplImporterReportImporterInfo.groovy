@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqAnalyticsSitecatalystImplImporterReportImp
 
 @Canonical
 class ComDayCqAnalyticsSitecatalystImplImporterReportImporterInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqAnalyticsSitecatalystImplImporterReportImporterProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqAnalyticsSitecatalystImplImporterReportImporterProperties properties
 }

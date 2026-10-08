@@ -1,7 +1,9 @@
 
+
 # OrgApacheSlingDistributionSerializationImplVltVaultDistributionProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **name** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
@@ -22,6 +24,7 @@ Name | Type | Description | Notes
 **monitoringQueueSize** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
 **pathsMapping** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
 **strictImport** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
+
 
 
 

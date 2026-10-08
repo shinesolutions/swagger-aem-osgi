@@ -72,7 +72,7 @@ private class OASComAdobeFdFpConfigFormsPortalScheTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeFdFpConfigFormsPortalSche comAdobeFdFpConfigFormsPortalSchedulerServiceProperties = new OASComAdobeFdFpConfigFormsPortalSche();
-        Map<String, String> propertyMappings = comAdobeFdFpConfigFormsPortalSchedulerServiceProperties.getPropertyMappings();
-        System.assertEquals('formportalInterval', propertyMappings.get('formportal.interval'));
+        Map<String, String> x-property-mappings = comAdobeFdFpConfigFormsPortalSchedulerServiceProperties.getx-property-mappings();
+        System.assertEquals('formportalInterval', x-property-mappings.get('formportal.interval'));
     }
 }

@@ -2,31 +2,32 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.OrgApacheSlingServiceusermappingImplServiceUserMapperImplProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class OrgApacheSlingServiceusermappingImplServiceUserMapperImplInfo   {
   
-  private String pid = null;
+  private String pid;
 
-  private String title = null;
+  private String title;
 
-  private String description = null;
+  private String description;
 
-  private OrgApacheSlingServiceusermappingImplServiceUserMapperImplProperties properties = null;
+  private OrgApacheSlingServiceusermappingImplServiceUserMapperImplProperties properties;
 
-  private String bundleLocation = null;
+  private String bundleLocation;
 
-  private String serviceLocation = null;
-
+  private String serviceLocation;
 
   /**
    **/
@@ -138,7 +139,7 @@ public class OrgApacheSlingServiceusermappingImplServiceUserMapperImplInfo   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -146,12 +147,12 @@ public class OrgApacheSlingServiceusermappingImplServiceUserMapperImplInfo   {
       return false;
     }
     OrgApacheSlingServiceusermappingImplServiceUserMapperImplInfo orgApacheSlingServiceusermappingImplServiceUserMapperImplInfo = (OrgApacheSlingServiceusermappingImplServiceUserMapperImplInfo) o;
-    return Objects.equals(pid, orgApacheSlingServiceusermappingImplServiceUserMapperImplInfo.pid) &&
-        Objects.equals(title, orgApacheSlingServiceusermappingImplServiceUserMapperImplInfo.title) &&
-        Objects.equals(description, orgApacheSlingServiceusermappingImplServiceUserMapperImplInfo.description) &&
-        Objects.equals(properties, orgApacheSlingServiceusermappingImplServiceUserMapperImplInfo.properties) &&
-        Objects.equals(bundleLocation, orgApacheSlingServiceusermappingImplServiceUserMapperImplInfo.bundleLocation) &&
-        Objects.equals(serviceLocation, orgApacheSlingServiceusermappingImplServiceUserMapperImplInfo.serviceLocation);
+    return Objects.equals(this.pid, orgApacheSlingServiceusermappingImplServiceUserMapperImplInfo.pid) &&
+        Objects.equals(this.title, orgApacheSlingServiceusermappingImplServiceUserMapperImplInfo.title) &&
+        Objects.equals(this.description, orgApacheSlingServiceusermappingImplServiceUserMapperImplInfo.description) &&
+        Objects.equals(this.properties, orgApacheSlingServiceusermappingImplServiceUserMapperImplInfo.properties) &&
+        Objects.equals(this.bundleLocation, orgApacheSlingServiceusermappingImplServiceUserMapperImplInfo.bundleLocation) &&
+        Objects.equals(this.serviceLocation, orgApacheSlingServiceusermappingImplServiceUserMapperImplInfo.serviceLocation);
   }
 
   @Override
@@ -178,11 +179,8 @@ public class OrgApacheSlingServiceusermappingImplServiceUserMapperImplInfo   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -1,6 +1,7 @@
 # NodeSwaggerAemOsgi.ComAdobeCqWcmJobsAsyncImplAsyncJobCleanUpTaskInfo
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **pid** | **String** |  | [optional] 

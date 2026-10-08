@@ -8,10 +8,10 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class ComAdobeGraniteLoggingImplLogAnalyserImplProperties {
-    ConfigNodePropertyInteger messagesQueueSize = null
-
-    ConfigNodePropertyArray loggerConfig = null
-
-    ConfigNodePropertyInteger messagesSize = null
-
+    
+    ConfigNodePropertyInteger messagesQueueSize
+    
+    ConfigNodePropertyArray loggerConfig
+    
+    ConfigNodePropertyInteger messagesSize
 }

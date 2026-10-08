@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyArray;
 import com.prokarma.pkmst.model.ConfigNodePropertyInteger;
 import io.swagger.annotations.ApiModel;
@@ -16,24 +17,23 @@ import io.swagger.annotations.ApiModelProperty;
  * ComAdobeCqSocialCommonsEmailreplyImplGmailEmailClientProviderProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeCqSocialCommonsEmailreplyImplGmailEmailClientProviderProperties   {
   @JsonProperty("priorityOrder")
-  private ConfigNodePropertyInteger priorityOrder = null;
+  private ConfigNodePropertyInteger priorityOrder;
 
   @JsonProperty("replyEmailPatterns")
-  private ConfigNodePropertyArray replyEmailPatterns = null;
+  private ConfigNodePropertyArray replyEmailPatterns;
 
   public ComAdobeCqSocialCommonsEmailreplyImplGmailEmailClientProviderProperties priorityOrder(ConfigNodePropertyInteger priorityOrder) {
     this.priorityOrder = priorityOrder;
     return this;
   }
 
-   /**
+  /**
    * Get priorityOrder
    * @return priorityOrder
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getPriorityOrder() {
     return priorityOrder;
@@ -48,10 +48,10 @@ public class ComAdobeCqSocialCommonsEmailreplyImplGmailEmailClientProviderProper
     return this;
   }
 
-   /**
+  /**
    * Get replyEmailPatterns
    * @return replyEmailPatterns
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getReplyEmailPatterns() {
     return replyEmailPatterns;
@@ -63,7 +63,7 @@ public class ComAdobeCqSocialCommonsEmailreplyImplGmailEmailClientProviderProper
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -95,11 +95,8 @@ public class ComAdobeCqSocialCommonsEmailreplyImplGmailEmailClientProviderProper
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

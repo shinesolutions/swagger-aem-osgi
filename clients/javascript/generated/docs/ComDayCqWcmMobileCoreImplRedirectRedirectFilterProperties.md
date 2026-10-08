@@ -1,6 +1,7 @@
 # NodeSwaggerAemOsgi.ComDayCqWcmMobileCoreImplRedirectRedirectFilterProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **redirectEnabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] 

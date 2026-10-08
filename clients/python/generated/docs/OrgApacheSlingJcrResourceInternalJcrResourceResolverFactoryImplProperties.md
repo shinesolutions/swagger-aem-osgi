@@ -1,6 +1,8 @@
 # OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties
 
+
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **resource_resolver_searchpath** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 
@@ -25,6 +27,23 @@ Name | Type | Description | Notes
 **resource_resolver_log_closing** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] 
 **resource_resolver_log_unclosed** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] 
 
+## Example
+
+```python
+from swaggeraemosgi.models.org_apache_sling_jcr_resource_internal_jcr_resource_resolver_factory_impl_properties import OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties
+
+# TODO update the JSON string below
+json = "{}"
+# create an instance of OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties from a JSON string
+org_apache_sling_jcr_resource_internal_jcr_resource_resolver_factory_impl_properties_instance = OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties.from_json(json)
+# print the JSON string representation of the object
+print(OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties.to_json())
+
+# convert the object into a dict
+org_apache_sling_jcr_resource_internal_jcr_resource_resolver_factory_impl_properties_dict = org_apache_sling_jcr_resource_internal_jcr_resource_resolver_factory_impl_properties_instance.to_dict()
+# create an instance of OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties from a dict
+org_apache_sling_jcr_resource_internal_jcr_resource_resolver_factory_impl_properties_from_dict = OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties.from_dict(org_apache_sling_jcr_resource_internal_jcr_resource_resolver_factory_impl_properties_dict)
+```
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 
 

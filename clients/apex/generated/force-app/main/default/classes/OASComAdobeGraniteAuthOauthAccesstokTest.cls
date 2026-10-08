@@ -72,19 +72,19 @@ private class OASComAdobeGraniteAuthOauthAccesstokTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeGraniteAuthOauthAccesstok comAdobeGraniteAuthOauthAccesstokenProviderProperties = new OASComAdobeGraniteAuthOauthAccesstok();
-        Map<String, String> propertyMappings = comAdobeGraniteAuthOauthAccesstokenProviderProperties.getPropertyMappings();
-        System.assertEquals('authTokenProviderTitle', propertyMappings.get('auth.token.provider.title'));
-        System.assertEquals('authTokenProviderDefaultClaims', propertyMappings.get('auth.token.provider.default.claims'));
-        System.assertEquals('authTokenProviderEndpoint', propertyMappings.get('auth.token.provider.endpoint'));
-        System.assertEquals('authAccessTokenRequest', propertyMappings.get('auth.access.token.request'));
-        System.assertEquals('authTokenProviderKeypairAlias', propertyMappings.get('auth.token.provider.keypair.alias'));
-        System.assertEquals('authTokenProviderConnTimeout', propertyMappings.get('auth.token.provider.conn.timeout'));
-        System.assertEquals('authTokenProviderSoTimeout', propertyMappings.get('auth.token.provider.so.timeout'));
-        System.assertEquals('authTokenProviderClientId', propertyMappings.get('auth.token.provider.client.id'));
-        System.assertEquals('authTokenProviderScope', propertyMappings.get('auth.token.provider.scope'));
-        System.assertEquals('authTokenProviderReuseAccessToken', propertyMappings.get('auth.token.provider.reuse.access.token'));
-        System.assertEquals('authTokenProviderRelaxedSsl', propertyMappings.get('auth.token.provider.relaxed.ssl'));
-        System.assertEquals('tokenRequestCustomizerType', propertyMappings.get('token.request.customizer.type'));
-        System.assertEquals('authTokenValidatorType', propertyMappings.get('auth.token.validator.type'));
+        Map<String, String> x-property-mappings = comAdobeGraniteAuthOauthAccesstokenProviderProperties.getx-property-mappings();
+        System.assertEquals('authTokenProviderTitle', x-property-mappings.get('auth.token.provider.title'));
+        System.assertEquals('authTokenProviderDefaultClaims', x-property-mappings.get('auth.token.provider.default.claims'));
+        System.assertEquals('authTokenProviderEndpoint', x-property-mappings.get('auth.token.provider.endpoint'));
+        System.assertEquals('authAccessTokenRequest', x-property-mappings.get('auth.access.token.request'));
+        System.assertEquals('authTokenProviderKeypairAlias', x-property-mappings.get('auth.token.provider.keypair.alias'));
+        System.assertEquals('authTokenProviderConnTimeout', x-property-mappings.get('auth.token.provider.conn.timeout'));
+        System.assertEquals('authTokenProviderSoTimeout', x-property-mappings.get('auth.token.provider.so.timeout'));
+        System.assertEquals('authTokenProviderClientId', x-property-mappings.get('auth.token.provider.client.id'));
+        System.assertEquals('authTokenProviderScope', x-property-mappings.get('auth.token.provider.scope'));
+        System.assertEquals('authTokenProviderReuseAccessToken', x-property-mappings.get('auth.token.provider.reuse.access.token'));
+        System.assertEquals('authTokenProviderRelaxedSsl', x-property-mappings.get('auth.token.provider.relaxed.ssl'));
+        System.assertEquals('tokenRequestCustomizerType', x-property-mappings.get('token.request.customizer.type'));
+        System.assertEquals('authTokenValidatorType', x-property-mappings.get('auth.token.validator.type'));
     }
 }

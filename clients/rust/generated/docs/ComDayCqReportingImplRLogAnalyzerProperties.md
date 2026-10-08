@@ -1,9 +1,10 @@
 # ComDayCqReportingImplRLogAnalyzerProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**request_log_output** | [***::models::ConfigNodePropertyString**](configNodePropertyString.md) |  | [optional] 
+**request_log_output** | Option<[**models::ConfigNodePropertyString**](ConfigNodePropertyString.md)> |  | [optional]
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

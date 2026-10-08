@@ -72,7 +72,7 @@ private class OASComDayCqDamCoreImplAssetlinkshareTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqDamCoreImplAssetlinkshare comDayCqDamCoreImplAssetlinkshareAdhocAssetShareProxyServletProperties = new OASComDayCqDamCoreImplAssetlinkshare();
-        Map<String, String> propertyMappings = comDayCqDamCoreImplAssetlinkshareAdhocAssetShareProxyServletProperties.getPropertyMappings();
-        System.assertEquals('cqDamAdhocAssetSharePrezipMaxcontentsize', propertyMappings.get('cq.dam.adhoc.asset.share.prezip.maxcontentsize'));
+        Map<String, String> x-property-mappings = comDayCqDamCoreImplAssetlinkshareAdhocAssetShareProxyServletProperties.getx-property-mappings();
+        System.assertEquals('cqDamAdhocAssetSharePrezipMaxcontentsize', x-property-mappings.get('cq.dam.adhoc.asset.share.prezip.maxcontentsize'));
     }
 }

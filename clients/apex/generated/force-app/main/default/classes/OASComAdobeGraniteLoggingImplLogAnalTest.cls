@@ -72,9 +72,9 @@ private class OASComAdobeGraniteLoggingImplLogAnalTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeGraniteLoggingImplLogAnal comAdobeGraniteLoggingImplLogAnalyserImplProperties = new OASComAdobeGraniteLoggingImplLogAnal();
-        Map<String, String> propertyMappings = comAdobeGraniteLoggingImplLogAnalyserImplProperties.getPropertyMappings();
-        System.assertEquals('messagesQueueSize', propertyMappings.get('messages.queue.size'));
-        System.assertEquals('loggerConfig', propertyMappings.get('logger.config'));
-        System.assertEquals('messagesSize', propertyMappings.get('messages.size'));
+        Map<String, String> x-property-mappings = comAdobeGraniteLoggingImplLogAnalyserImplProperties.getx-property-mappings();
+        System.assertEquals('messagesQueueSize', x-property-mappings.get('messages.queue.size'));
+        System.assertEquals('loggerConfig', x-property-mappings.get('logger.config'));
+        System.assertEquals('messagesSize', x-property-mappings.get('messages.size'));
     }
 }

@@ -1,0 +1,47 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJobProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJobProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+}
+resourceTypes {
+
+  ComAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJobProperties {
+    title = ComAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJobProperties
+    description = ComAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJobProperties
+    derivedFrom = Root
+    properties {
+        cq_dam_webdav_version_linking_enable {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        cq_dam_webdav_version_linking_scheduler_period {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        cq_dam_webdav_version_linking_staging_timeout {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJobProperties {
+    title = ComAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJobProperties
+    description = ComAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJobProperties
+    implements = openapi_server.resourceTypes.ComAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJobProperties
+
+  }
+}

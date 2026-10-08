@@ -7,8 +7,8 @@ import org.openapitools.model.ConfigNodePropertyArray;
 
 @Canonical
 class ComDayCqWcmCoreImplEventRepositoryChangeEventListenerProperties {
-    ConfigNodePropertyArray paths = null
-
-    ConfigNodePropertyArray excludedPaths = null
-
+    
+    ConfigNodePropertyArray paths
+    
+    ConfigNodePropertyArray excludedPaths
 }

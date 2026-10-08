@@ -1,5 +1,8 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
@@ -7,34 +10,42 @@ import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties   {
-  
-  private @Valid ConfigNodePropertyArray messageProperties = null;
-  private @Valid ConfigNodePropertyInteger messageBoxSizeLimit = null;
-  private @Valid ConfigNodePropertyInteger messageCountLimit = null;
-  private @Valid ConfigNodePropertyBoolean notifyFailure = null;
-  private @Valid ConfigNodePropertyString failureMessageFrom = null;
-  private @Valid ConfigNodePropertyString failureTemplatePath = null;
-  private @Valid ConfigNodePropertyInteger maxRetries = null;
-  private @Valid ConfigNodePropertyInteger minWaitBetweenRetries = null;
-  private @Valid ConfigNodePropertyInteger countUpdatePoolSize = null;
-  private @Valid ConfigNodePropertyString inboxPath = null;
-  private @Valid ConfigNodePropertyString sentitemsPath = null;
-  private @Valid ConfigNodePropertyBoolean supportAttachments = null;
-  private @Valid ConfigNodePropertyBoolean supportGroupMessaging = null;
-  private @Valid ConfigNodePropertyInteger maxTotalRecipients = null;
-  private @Valid ConfigNodePropertyInteger batchSize = null;
-  private @Valid ConfigNodePropertyInteger maxTotalAttachmentSize = null;
-  private @Valid ConfigNodePropertyArray attachmentTypeBlacklist = null;
-  private @Valid ConfigNodePropertyArray allowedAttachmentTypes = null;
-  private @Valid ConfigNodePropertyString serviceSelector = null;
-  private @Valid ConfigNodePropertyArray fieldWhitelist = null;
+  private ConfigNodePropertyArray messageProperties;
+  private ConfigNodePropertyInteger messageBoxSizeLimit;
+  private ConfigNodePropertyInteger messageCountLimit;
+  private ConfigNodePropertyBoolean notifyFailure;
+  private ConfigNodePropertyString failureMessageFrom;
+  private ConfigNodePropertyString failureTemplatePath;
+  private ConfigNodePropertyInteger maxRetries;
+  private ConfigNodePropertyInteger minWaitBetweenRetries;
+  private ConfigNodePropertyInteger countUpdatePoolSize;
+  private ConfigNodePropertyString inboxPath;
+  private ConfigNodePropertyString sentitemsPath;
+  private ConfigNodePropertyBoolean supportAttachments;
+  private ConfigNodePropertyBoolean supportGroupMessaging;
+  private ConfigNodePropertyInteger maxTotalRecipients;
+  private ConfigNodePropertyInteger batchSize;
+  private ConfigNodePropertyInteger maxTotalAttachmentSize;
+  private ConfigNodePropertyArray attachmentTypeBlacklist;
+  private ConfigNodePropertyArray allowedAttachmentTypes;
+  private ConfigNodePropertyString serviceSelector;
+  private ConfigNodePropertyArray fieldWhitelist;
+
+  public ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties() {
+  }
 
   /**
    **/
@@ -46,9 +57,11 @@ public class ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("message.properties")
-  public ConfigNodePropertyArray getMessageProperties() {
+  @Valid public ConfigNodePropertyArray getMessageProperties() {
     return messageProperties;
   }
+
+  @JsonProperty("message.properties")
   public void setMessageProperties(ConfigNodePropertyArray messageProperties) {
     this.messageProperties = messageProperties;
   }
@@ -63,9 +76,11 @@ public class ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("messageBoxSizeLimit")
-  public ConfigNodePropertyInteger getMessageBoxSizeLimit() {
+  @Valid public ConfigNodePropertyInteger getMessageBoxSizeLimit() {
     return messageBoxSizeLimit;
   }
+
+  @JsonProperty("messageBoxSizeLimit")
   public void setMessageBoxSizeLimit(ConfigNodePropertyInteger messageBoxSizeLimit) {
     this.messageBoxSizeLimit = messageBoxSizeLimit;
   }
@@ -80,9 +95,11 @@ public class ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("messageCountLimit")
-  public ConfigNodePropertyInteger getMessageCountLimit() {
+  @Valid public ConfigNodePropertyInteger getMessageCountLimit() {
     return messageCountLimit;
   }
+
+  @JsonProperty("messageCountLimit")
   public void setMessageCountLimit(ConfigNodePropertyInteger messageCountLimit) {
     this.messageCountLimit = messageCountLimit;
   }
@@ -97,9 +114,11 @@ public class ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("notifyFailure")
-  public ConfigNodePropertyBoolean getNotifyFailure() {
+  @Valid public ConfigNodePropertyBoolean getNotifyFailure() {
     return notifyFailure;
   }
+
+  @JsonProperty("notifyFailure")
   public void setNotifyFailure(ConfigNodePropertyBoolean notifyFailure) {
     this.notifyFailure = notifyFailure;
   }
@@ -114,9 +133,11 @@ public class ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("failureMessageFrom")
-  public ConfigNodePropertyString getFailureMessageFrom() {
+  @Valid public ConfigNodePropertyString getFailureMessageFrom() {
     return failureMessageFrom;
   }
+
+  @JsonProperty("failureMessageFrom")
   public void setFailureMessageFrom(ConfigNodePropertyString failureMessageFrom) {
     this.failureMessageFrom = failureMessageFrom;
   }
@@ -131,9 +152,11 @@ public class ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("failureTemplatePath")
-  public ConfigNodePropertyString getFailureTemplatePath() {
+  @Valid public ConfigNodePropertyString getFailureTemplatePath() {
     return failureTemplatePath;
   }
+
+  @JsonProperty("failureTemplatePath")
   public void setFailureTemplatePath(ConfigNodePropertyString failureTemplatePath) {
     this.failureTemplatePath = failureTemplatePath;
   }
@@ -148,9 +171,11 @@ public class ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("maxRetries")
-  public ConfigNodePropertyInteger getMaxRetries() {
+  @Valid public ConfigNodePropertyInteger getMaxRetries() {
     return maxRetries;
   }
+
+  @JsonProperty("maxRetries")
   public void setMaxRetries(ConfigNodePropertyInteger maxRetries) {
     this.maxRetries = maxRetries;
   }
@@ -165,9 +190,11 @@ public class ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("minWaitBetweenRetries")
-  public ConfigNodePropertyInteger getMinWaitBetweenRetries() {
+  @Valid public ConfigNodePropertyInteger getMinWaitBetweenRetries() {
     return minWaitBetweenRetries;
   }
+
+  @JsonProperty("minWaitBetweenRetries")
   public void setMinWaitBetweenRetries(ConfigNodePropertyInteger minWaitBetweenRetries) {
     this.minWaitBetweenRetries = minWaitBetweenRetries;
   }
@@ -182,9 +209,11 @@ public class ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("countUpdatePoolSize")
-  public ConfigNodePropertyInteger getCountUpdatePoolSize() {
+  @Valid public ConfigNodePropertyInteger getCountUpdatePoolSize() {
     return countUpdatePoolSize;
   }
+
+  @JsonProperty("countUpdatePoolSize")
   public void setCountUpdatePoolSize(ConfigNodePropertyInteger countUpdatePoolSize) {
     this.countUpdatePoolSize = countUpdatePoolSize;
   }
@@ -199,9 +228,11 @@ public class ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("inbox.path")
-  public ConfigNodePropertyString getInboxPath() {
+  @Valid public ConfigNodePropertyString getInboxPath() {
     return inboxPath;
   }
+
+  @JsonProperty("inbox.path")
   public void setInboxPath(ConfigNodePropertyString inboxPath) {
     this.inboxPath = inboxPath;
   }
@@ -216,9 +247,11 @@ public class ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("sentitems.path")
-  public ConfigNodePropertyString getSentitemsPath() {
+  @Valid public ConfigNodePropertyString getSentitemsPath() {
     return sentitemsPath;
   }
+
+  @JsonProperty("sentitems.path")
   public void setSentitemsPath(ConfigNodePropertyString sentitemsPath) {
     this.sentitemsPath = sentitemsPath;
   }
@@ -233,9 +266,11 @@ public class ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("supportAttachments")
-  public ConfigNodePropertyBoolean getSupportAttachments() {
+  @Valid public ConfigNodePropertyBoolean getSupportAttachments() {
     return supportAttachments;
   }
+
+  @JsonProperty("supportAttachments")
   public void setSupportAttachments(ConfigNodePropertyBoolean supportAttachments) {
     this.supportAttachments = supportAttachments;
   }
@@ -250,9 +285,11 @@ public class ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("supportGroupMessaging")
-  public ConfigNodePropertyBoolean getSupportGroupMessaging() {
+  @Valid public ConfigNodePropertyBoolean getSupportGroupMessaging() {
     return supportGroupMessaging;
   }
+
+  @JsonProperty("supportGroupMessaging")
   public void setSupportGroupMessaging(ConfigNodePropertyBoolean supportGroupMessaging) {
     this.supportGroupMessaging = supportGroupMessaging;
   }
@@ -267,9 +304,11 @@ public class ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("maxTotalRecipients")
-  public ConfigNodePropertyInteger getMaxTotalRecipients() {
+  @Valid public ConfigNodePropertyInteger getMaxTotalRecipients() {
     return maxTotalRecipients;
   }
+
+  @JsonProperty("maxTotalRecipients")
   public void setMaxTotalRecipients(ConfigNodePropertyInteger maxTotalRecipients) {
     this.maxTotalRecipients = maxTotalRecipients;
   }
@@ -284,9 +323,11 @@ public class ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("batchSize")
-  public ConfigNodePropertyInteger getBatchSize() {
+  @Valid public ConfigNodePropertyInteger getBatchSize() {
     return batchSize;
   }
+
+  @JsonProperty("batchSize")
   public void setBatchSize(ConfigNodePropertyInteger batchSize) {
     this.batchSize = batchSize;
   }
@@ -301,9 +342,11 @@ public class ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("maxTotalAttachmentSize")
-  public ConfigNodePropertyInteger getMaxTotalAttachmentSize() {
+  @Valid public ConfigNodePropertyInteger getMaxTotalAttachmentSize() {
     return maxTotalAttachmentSize;
   }
+
+  @JsonProperty("maxTotalAttachmentSize")
   public void setMaxTotalAttachmentSize(ConfigNodePropertyInteger maxTotalAttachmentSize) {
     this.maxTotalAttachmentSize = maxTotalAttachmentSize;
   }
@@ -318,9 +361,11 @@ public class ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("attachmentTypeBlacklist")
-  public ConfigNodePropertyArray getAttachmentTypeBlacklist() {
+  @Valid public ConfigNodePropertyArray getAttachmentTypeBlacklist() {
     return attachmentTypeBlacklist;
   }
+
+  @JsonProperty("attachmentTypeBlacklist")
   public void setAttachmentTypeBlacklist(ConfigNodePropertyArray attachmentTypeBlacklist) {
     this.attachmentTypeBlacklist = attachmentTypeBlacklist;
   }
@@ -335,9 +380,11 @@ public class ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("allowedAttachmentTypes")
-  public ConfigNodePropertyArray getAllowedAttachmentTypes() {
+  @Valid public ConfigNodePropertyArray getAllowedAttachmentTypes() {
     return allowedAttachmentTypes;
   }
+
+  @JsonProperty("allowedAttachmentTypes")
   public void setAllowedAttachmentTypes(ConfigNodePropertyArray allowedAttachmentTypes) {
     this.allowedAttachmentTypes = allowedAttachmentTypes;
   }
@@ -352,9 +399,11 @@ public class ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("serviceSelector")
-  public ConfigNodePropertyString getServiceSelector() {
+  @Valid public ConfigNodePropertyString getServiceSelector() {
     return serviceSelector;
   }
+
+  @JsonProperty("serviceSelector")
   public void setServiceSelector(ConfigNodePropertyString serviceSelector) {
     this.serviceSelector = serviceSelector;
   }
@@ -369,16 +418,18 @@ public class ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("fieldWhitelist")
-  public ConfigNodePropertyArray getFieldWhitelist() {
+  @Valid public ConfigNodePropertyArray getFieldWhitelist() {
     return fieldWhitelist;
   }
+
+  @JsonProperty("fieldWhitelist")
   public void setFieldWhitelist(ConfigNodePropertyArray fieldWhitelist) {
     this.fieldWhitelist = fieldWhitelist;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -386,26 +437,26 @@ public class ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationPrope
       return false;
     }
     ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties comAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties = (ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties) o;
-    return Objects.equals(messageProperties, comAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties.messageProperties) &&
-        Objects.equals(messageBoxSizeLimit, comAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties.messageBoxSizeLimit) &&
-        Objects.equals(messageCountLimit, comAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties.messageCountLimit) &&
-        Objects.equals(notifyFailure, comAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties.notifyFailure) &&
-        Objects.equals(failureMessageFrom, comAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties.failureMessageFrom) &&
-        Objects.equals(failureTemplatePath, comAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties.failureTemplatePath) &&
-        Objects.equals(maxRetries, comAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties.maxRetries) &&
-        Objects.equals(minWaitBetweenRetries, comAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties.minWaitBetweenRetries) &&
-        Objects.equals(countUpdatePoolSize, comAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties.countUpdatePoolSize) &&
-        Objects.equals(inboxPath, comAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties.inboxPath) &&
-        Objects.equals(sentitemsPath, comAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties.sentitemsPath) &&
-        Objects.equals(supportAttachments, comAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties.supportAttachments) &&
-        Objects.equals(supportGroupMessaging, comAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties.supportGroupMessaging) &&
-        Objects.equals(maxTotalRecipients, comAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties.maxTotalRecipients) &&
-        Objects.equals(batchSize, comAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties.batchSize) &&
-        Objects.equals(maxTotalAttachmentSize, comAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties.maxTotalAttachmentSize) &&
-        Objects.equals(attachmentTypeBlacklist, comAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties.attachmentTypeBlacklist) &&
-        Objects.equals(allowedAttachmentTypes, comAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties.allowedAttachmentTypes) &&
-        Objects.equals(serviceSelector, comAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties.serviceSelector) &&
-        Objects.equals(fieldWhitelist, comAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties.fieldWhitelist);
+    return Objects.equals(this.messageProperties, comAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties.messageProperties) &&
+        Objects.equals(this.messageBoxSizeLimit, comAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties.messageBoxSizeLimit) &&
+        Objects.equals(this.messageCountLimit, comAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties.messageCountLimit) &&
+        Objects.equals(this.notifyFailure, comAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties.notifyFailure) &&
+        Objects.equals(this.failureMessageFrom, comAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties.failureMessageFrom) &&
+        Objects.equals(this.failureTemplatePath, comAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties.failureTemplatePath) &&
+        Objects.equals(this.maxRetries, comAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties.maxRetries) &&
+        Objects.equals(this.minWaitBetweenRetries, comAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties.minWaitBetweenRetries) &&
+        Objects.equals(this.countUpdatePoolSize, comAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties.countUpdatePoolSize) &&
+        Objects.equals(this.inboxPath, comAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties.inboxPath) &&
+        Objects.equals(this.sentitemsPath, comAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties.sentitemsPath) &&
+        Objects.equals(this.supportAttachments, comAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties.supportAttachments) &&
+        Objects.equals(this.supportGroupMessaging, comAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties.supportGroupMessaging) &&
+        Objects.equals(this.maxTotalRecipients, comAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties.maxTotalRecipients) &&
+        Objects.equals(this.batchSize, comAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties.batchSize) &&
+        Objects.equals(this.maxTotalAttachmentSize, comAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties.maxTotalAttachmentSize) &&
+        Objects.equals(this.attachmentTypeBlacklist, comAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties.attachmentTypeBlacklist) &&
+        Objects.equals(this.allowedAttachmentTypes, comAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties.allowedAttachmentTypes) &&
+        Objects.equals(this.serviceSelector, comAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties.serviceSelector) &&
+        Objects.equals(this.fieldWhitelist, comAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties.fieldWhitelist);
   }
 
   @Override
@@ -446,11 +497,9 @@ public class ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationPrope
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

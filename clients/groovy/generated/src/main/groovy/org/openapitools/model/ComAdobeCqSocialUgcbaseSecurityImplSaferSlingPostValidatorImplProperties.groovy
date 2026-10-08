@@ -7,20 +7,20 @@ import org.openapitools.model.ConfigNodePropertyArray;
 
 @Canonical
 class ComAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImplProperties {
-    ConfigNodePropertyArray parameterWhitelist = null
-
-    ConfigNodePropertyArray parameterWhitelistPrefixes = null
-
-    ConfigNodePropertyArray binaryParameterWhitelist = null
-
-    ConfigNodePropertyArray modifierWhitelist = null
-
-    ConfigNodePropertyArray operationWhitelist = null
-
-    ConfigNodePropertyArray operationWhitelistPrefixes = null
-
-    ConfigNodePropertyArray typehintWhitelist = null
-
-    ConfigNodePropertyArray resourcetypeWhitelist = null
-
+    
+    ConfigNodePropertyArray parameterWhitelist
+    
+    ConfigNodePropertyArray parameterWhitelistPrefixes
+    
+    ConfigNodePropertyArray binaryParameterWhitelist
+    
+    ConfigNodePropertyArray modifierWhitelist
+    
+    ConfigNodePropertyArray operationWhitelist
+    
+    ConfigNodePropertyArray operationWhitelistPrefixes
+    
+    ConfigNodePropertyArray typehintWhitelist
+    
+    ConfigNodePropertyArray resourcetypeWhitelist
 }

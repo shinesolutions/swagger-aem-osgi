@@ -72,8 +72,8 @@ private class OASComDayCqDamCoreImplServletCompaniTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqDamCoreImplServletCompani comDayCqDamCoreImplServletCompanionServletProperties = new OASComDayCqDamCoreImplServletCompani();
-        Map<String, String> propertyMappings = comDayCqDamCoreImplServletCompanionServletProperties.getPropertyMappings();
-        System.assertEquals('moreInfo', propertyMappings.get('More Info'));
-        System.assertEquals('mntoverlaydamguicontentassetsmoreinfoHtmlpath', propertyMappings.get('/mnt/overlay/dam/gui/content/assets/moreinfo.html/${path}'));
+        Map<String, String> x-property-mappings = comDayCqDamCoreImplServletCompanionServletProperties.getx-property-mappings();
+        System.assertEquals('moreInfo', x-property-mappings.get('More Info'));
+        System.assertEquals('mntOverlayDamGuiContentAssetsMoreinfoHtmlPath', x-property-mappings.get('/mnt/overlay/dam/gui/content/assets/moreinfo.html/${path}'));
     }
 }

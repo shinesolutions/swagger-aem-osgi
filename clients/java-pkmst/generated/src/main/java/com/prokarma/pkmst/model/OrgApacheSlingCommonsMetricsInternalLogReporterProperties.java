@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyDropDown;
 import com.prokarma.pkmst.model.ConfigNodePropertyInteger;
 import com.prokarma.pkmst.model.ConfigNodePropertyString;
@@ -17,39 +18,38 @@ import io.swagger.annotations.ApiModelProperty;
  * OrgApacheSlingCommonsMetricsInternalLogReporterProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingCommonsMetricsInternalLogReporterProperties   {
   @JsonProperty("period")
-  private ConfigNodePropertyInteger period = null;
+  private ConfigNodePropertyInteger period;
 
   @JsonProperty("timeUnit")
-  private ConfigNodePropertyDropDown timeUnit = null;
+  private ConfigNodePropertyDropDown timeUnit;
 
   @JsonProperty("level")
-  private ConfigNodePropertyDropDown level = null;
+  private ConfigNodePropertyDropDown level;
 
   @JsonProperty("loggerName")
-  private ConfigNodePropertyString loggerName = null;
+  private ConfigNodePropertyString loggerName;
 
   @JsonProperty("prefix")
-  private ConfigNodePropertyString prefix = null;
+  private ConfigNodePropertyString prefix;
 
   @JsonProperty("pattern")
-  private ConfigNodePropertyString pattern = null;
+  private ConfigNodePropertyString pattern;
 
   @JsonProperty("registryName")
-  private ConfigNodePropertyString registryName = null;
+  private ConfigNodePropertyString registryName;
 
   public OrgApacheSlingCommonsMetricsInternalLogReporterProperties period(ConfigNodePropertyInteger period) {
     this.period = period;
     return this;
   }
 
-   /**
+  /**
    * Get period
    * @return period
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getPeriod() {
     return period;
@@ -64,10 +64,10 @@ public class OrgApacheSlingCommonsMetricsInternalLogReporterProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get timeUnit
    * @return timeUnit
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyDropDown getTimeUnit() {
     return timeUnit;
@@ -82,10 +82,10 @@ public class OrgApacheSlingCommonsMetricsInternalLogReporterProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get level
    * @return level
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyDropDown getLevel() {
     return level;
@@ -100,10 +100,10 @@ public class OrgApacheSlingCommonsMetricsInternalLogReporterProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get loggerName
    * @return loggerName
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getLoggerName() {
     return loggerName;
@@ -118,10 +118,10 @@ public class OrgApacheSlingCommonsMetricsInternalLogReporterProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get prefix
    * @return prefix
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getPrefix() {
     return prefix;
@@ -136,10 +136,10 @@ public class OrgApacheSlingCommonsMetricsInternalLogReporterProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get pattern
    * @return pattern
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getPattern() {
     return pattern;
@@ -154,10 +154,10 @@ public class OrgApacheSlingCommonsMetricsInternalLogReporterProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get registryName
    * @return registryName
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getRegistryName() {
     return registryName;
@@ -169,7 +169,7 @@ public class OrgApacheSlingCommonsMetricsInternalLogReporterProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -211,11 +211,8 @@ public class OrgApacheSlingCommonsMetricsInternalLogReporterProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

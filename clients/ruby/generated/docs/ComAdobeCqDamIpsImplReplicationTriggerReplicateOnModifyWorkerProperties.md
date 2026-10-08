@@ -2,18 +2,19 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**dmreplicateonmodify_enabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] 
-**dmreplicateonmodify_forcesyncdeletes** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **dmreplicateonmodify_enabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] |
+| **dmreplicateonmodify_forcesyncdeletes** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComAdobeCqDamIpsImplReplicationTriggerReplicateOnModifyWorkerProperties.new(dmreplicateonmodify_enabled: null,
-                                 dmreplicateonmodify_forcesyncdeletes: null)
+instance = SwaggerAemOsgiClient::ComAdobeCqDamIpsImplReplicationTriggerReplicateOnModifyWorkerProperties.new(
+  dmreplicateonmodify_enabled: null,
+  dmreplicateonmodify_forcesyncdeletes: null
+)
 ```
-
 

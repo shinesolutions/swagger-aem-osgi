@@ -1,0 +1,23 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "cq_dam_expiry_notification_scheduler_istimebased" },
+      {"model": "cq_dam_expiry_notification_scheduler_timebased_rule" },
+      {"model": "cq_dam_expiry_notification_scheduler_period_rule" },
+      {"model": "send_email" },
+      {"model": "asset_expired_limit" },
+      {"model": "prior_notification_seconds" },
+      {"model": "cq_dam_expiry_notification_url_protocol" },
+    ]
+  }]
+}

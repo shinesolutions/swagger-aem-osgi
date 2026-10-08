@@ -1,17 +1,18 @@
 # ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**translation_factory** | [***::models::ConfigNodePropertyString**](configNodePropertyString.md) |  | [optional] 
-**default_connector_label** | [***::models::ConfigNodePropertyString**](configNodePropertyString.md) |  | [optional] 
-**default_connector_attribution** | [***::models::ConfigNodePropertyString**](configNodePropertyString.md) |  | [optional] 
-**default_connector_workspace_id** | [***::models::ConfigNodePropertyString**](configNodePropertyString.md) |  | [optional] 
-**default_connector_subscription_key** | [***::models::ConfigNodePropertyString**](configNodePropertyString.md) |  | [optional] 
-**language_map_location** | [***::models::ConfigNodePropertyString**](configNodePropertyString.md) |  | [optional] 
-**category_map_location** | [***::models::ConfigNodePropertyString**](configNodePropertyString.md) |  | [optional] 
-**retry_attempts** | [***::models::ConfigNodePropertyInteger**](configNodePropertyInteger.md) |  | [optional] 
-**timeout_count** | [***::models::ConfigNodePropertyInteger**](configNodePropertyInteger.md) |  | [optional] 
+**translation_factory** | Option<[**models::ConfigNodePropertyString**](ConfigNodePropertyString.md)> |  | [optional]
+**default_connector_label** | Option<[**models::ConfigNodePropertyString**](ConfigNodePropertyString.md)> |  | [optional]
+**default_connector_attribution** | Option<[**models::ConfigNodePropertyString**](ConfigNodePropertyString.md)> |  | [optional]
+**default_connector_workspace_id** | Option<[**models::ConfigNodePropertyString**](ConfigNodePropertyString.md)> |  | [optional]
+**default_connector_subscription_key** | Option<[**models::ConfigNodePropertyString**](ConfigNodePropertyString.md)> |  | [optional]
+**language_map_location** | Option<[**models::ConfigNodePropertyString**](ConfigNodePropertyString.md)> |  | [optional]
+**category_map_location** | Option<[**models::ConfigNodePropertyString**](ConfigNodePropertyString.md)> |  | [optional]
+**retry_attempts** | Option<[**models::ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md)> |  | [optional]
+**timeout_count** | Option<[**models::ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md)> |  | [optional]
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

@@ -8,10 +8,10 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class OrgApacheFelixJaasConfigurationSpiProperties {
-    ConfigNodePropertyString jaasDefaultRealmName = null
-
-    ConfigNodePropertyString jaasConfigProviderName = null
-
-    ConfigNodePropertyDropDown jaasGlobalConfigPolicy = null
-
+    
+    ConfigNodePropertyString jaasDefaultRealmName
+    
+    ConfigNodePropertyString jaasConfigProviderName
+    
+    ConfigNodePropertyDropDown jaasGlobalConfigPolicy
 }

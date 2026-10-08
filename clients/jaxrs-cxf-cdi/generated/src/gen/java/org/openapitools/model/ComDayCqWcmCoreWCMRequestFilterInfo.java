@@ -2,31 +2,32 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ComDayCqWcmCoreWCMRequestFilterProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class ComDayCqWcmCoreWCMRequestFilterInfo   {
   
-  private String pid = null;
+  private String pid;
 
-  private String title = null;
+  private String title;
 
-  private String description = null;
+  private String description;
 
-  private ComDayCqWcmCoreWCMRequestFilterProperties properties = null;
+  private ComDayCqWcmCoreWCMRequestFilterProperties properties;
 
-  private String bundleLocation = null;
+  private String bundleLocation;
 
-  private String serviceLocation = null;
-
+  private String serviceLocation;
 
   /**
    **/
@@ -138,7 +139,7 @@ public class ComDayCqWcmCoreWCMRequestFilterInfo   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -146,12 +147,12 @@ public class ComDayCqWcmCoreWCMRequestFilterInfo   {
       return false;
     }
     ComDayCqWcmCoreWCMRequestFilterInfo comDayCqWcmCoreWCMRequestFilterInfo = (ComDayCqWcmCoreWCMRequestFilterInfo) o;
-    return Objects.equals(pid, comDayCqWcmCoreWCMRequestFilterInfo.pid) &&
-        Objects.equals(title, comDayCqWcmCoreWCMRequestFilterInfo.title) &&
-        Objects.equals(description, comDayCqWcmCoreWCMRequestFilterInfo.description) &&
-        Objects.equals(properties, comDayCqWcmCoreWCMRequestFilterInfo.properties) &&
-        Objects.equals(bundleLocation, comDayCqWcmCoreWCMRequestFilterInfo.bundleLocation) &&
-        Objects.equals(serviceLocation, comDayCqWcmCoreWCMRequestFilterInfo.serviceLocation);
+    return Objects.equals(this.pid, comDayCqWcmCoreWCMRequestFilterInfo.pid) &&
+        Objects.equals(this.title, comDayCqWcmCoreWCMRequestFilterInfo.title) &&
+        Objects.equals(this.description, comDayCqWcmCoreWCMRequestFilterInfo.description) &&
+        Objects.equals(this.properties, comDayCqWcmCoreWCMRequestFilterInfo.properties) &&
+        Objects.equals(this.bundleLocation, comDayCqWcmCoreWCMRequestFilterInfo.bundleLocation) &&
+        Objects.equals(this.serviceLocation, comDayCqWcmCoreWCMRequestFilterInfo.serviceLocation);
   }
 
   @Override
@@ -178,11 +179,8 @@ public class ComDayCqWcmCoreWCMRequestFilterInfo   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

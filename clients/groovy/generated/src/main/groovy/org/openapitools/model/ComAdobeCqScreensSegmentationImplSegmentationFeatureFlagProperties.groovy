@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyBoolean;
 
 @Canonical
 class ComAdobeCqScreensSegmentationImplSegmentationFeatureFlagProperties {
-    ConfigNodePropertyBoolean enableDataTriggeredContent = null
-
+    
+    ConfigNodePropertyBoolean enableDataTriggeredContent
 }

@@ -7,16 +7,16 @@ import org.openapitools.model.ComDayCqWcmUndoUndoConfigProperties;
 
 @Canonical
 class ComDayCqWcmUndoUndoConfigInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqWcmUndoUndoConfigProperties properties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqWcmUndoUndoConfigProperties properties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

@@ -72,7 +72,7 @@ private class OASComAdobeCqUpgradesCleanupImplUpgrTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeCqUpgradesCleanupImplUpgr comAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanupProperties = new OASComAdobeCqUpgradesCleanupImplUpgr();
-        Map<String, String> propertyMappings = comAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanupProperties.getPropertyMappings();
-        System.assertEquals('deleteNameRegexps', propertyMappings.get('delete.name.regexps'));
+        Map<String, String> x-property-mappings = comAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanupProperties.getx-property-mappings();
+        System.assertEquals('deleteNameRegexps', x-property-mappings.get('delete.name.regexps'));
     }
 }

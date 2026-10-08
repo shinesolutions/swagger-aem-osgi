@@ -4,21 +4,20 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2019-08-05T01:00:05.540Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2026-10-07T12:54:26.576036107Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingI18nImplI18NFilterProperties   {
   
-
-  private ConfigNodePropertyInteger serviceRanking = null;
-
-  private ConfigNodePropertyArray slingFilterScope = null;
+  private ConfigNodePropertyInteger serviceRanking;
+  private ConfigNodePropertyArray slingFilterScope;
 
   /**
    **/
@@ -54,8 +53,8 @@ public class OrgApacheSlingI18nImplI18NFilterProperties   {
       return false;
     }
     OrgApacheSlingI18nImplI18NFilterProperties orgApacheSlingI18nImplI18NFilterProperties = (OrgApacheSlingI18nImplI18NFilterProperties) o;
-    return Objects.equals(serviceRanking, orgApacheSlingI18nImplI18NFilterProperties.serviceRanking) &&
-        Objects.equals(slingFilterScope, orgApacheSlingI18nImplI18NFilterProperties.slingFilterScope);
+    return Objects.equals(this.serviceRanking, orgApacheSlingI18nImplI18NFilterProperties.serviceRanking) &&
+        Objects.equals(this.slingFilterScope, orgApacheSlingI18nImplI18NFilterProperties.slingFilterScope);
   }
 
   @Override
@@ -79,10 +78,7 @@ public class OrgApacheSlingI18nImplI18NFilterProperties   {
    * (except the first line).
    */
   private String toIndentedString(Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

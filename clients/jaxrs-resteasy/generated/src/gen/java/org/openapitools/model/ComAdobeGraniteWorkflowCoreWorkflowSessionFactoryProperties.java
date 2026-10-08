@@ -4,35 +4,39 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyDropDown;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2019-08-05T00:59:30.156Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2026-10-07T12:54:21.614735164Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties   {
   
-  private ConfigNodePropertyDropDown graniteWorkflowinboxSortPropertyName = null;
-  private ConfigNodePropertyString graniteWorkflowinboxSortOrder = null;
-  private ConfigNodePropertyInteger cqWorkflowJobRetry = null;
-  private ConfigNodePropertyArray cqWorkflowSuperuser = null;
-  private ConfigNodePropertyInteger graniteWorkflowInboxQuerySize = null;
-  private ConfigNodePropertyBoolean graniteWorkflowAdminUserGroupFilter = null;
-  private ConfigNodePropertyBoolean graniteWorkflowEnforceWorkitemAssigneePermissions = null;
-  private ConfigNodePropertyBoolean graniteWorkflowEnforceWorkflowInitiatorPermissions = null;
-  private ConfigNodePropertyBoolean graniteWorkflowInjectTenantIdInJobTopics = null;
-  private ConfigNodePropertyInteger graniteWorkflowMaxPurgeSaveThreshold = null;
-  private ConfigNodePropertyInteger graniteWorkflowMaxPurgeQueryCount = null;
+  private ConfigNodePropertyDropDown graniteWorkflowinboxSortPropertyName;
+  private ConfigNodePropertyString graniteWorkflowinboxSortOrder;
+  private ConfigNodePropertyInteger cqWorkflowJobRetry;
+  private ConfigNodePropertyArray cqWorkflowSuperuser;
+  private ConfigNodePropertyInteger graniteWorkflowInboxQuerySize;
+  private ConfigNodePropertyBoolean graniteWorkflowAdminUserGroupFilter;
+  private ConfigNodePropertyBoolean graniteWorkflowEnforceWorkitemAssigneePermissions;
+  private ConfigNodePropertyBoolean graniteWorkflowEnforceWorkflowInitiatorPermissions;
+  private ConfigNodePropertyBoolean graniteWorkflowInjectTenantIdInJobTopics;
+  private ConfigNodePropertyInteger graniteWorkflowMaxPurgeSaveThreshold;
+  private ConfigNodePropertyInteger graniteWorkflowMaxPurgeQueryCount;
 
   /**
    **/
   
   @ApiModelProperty(value = "")
   @JsonProperty("granite.workflowinbox.sort.propertyName")
+  @Valid
   public ConfigNodePropertyDropDown getGraniteWorkflowinboxSortPropertyName() {
     return graniteWorkflowinboxSortPropertyName;
   }
@@ -45,6 +49,7 @@ public class ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("granite.workflowinbox.sort.order")
+  @Valid
   public ConfigNodePropertyString getGraniteWorkflowinboxSortOrder() {
     return graniteWorkflowinboxSortOrder;
   }
@@ -57,6 +62,7 @@ public class ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("cq.workflow.job.retry")
+  @Valid
   public ConfigNodePropertyInteger getCqWorkflowJobRetry() {
     return cqWorkflowJobRetry;
   }
@@ -69,6 +75,7 @@ public class ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("cq.workflow.superuser")
+  @Valid
   public ConfigNodePropertyArray getCqWorkflowSuperuser() {
     return cqWorkflowSuperuser;
   }
@@ -81,6 +88,7 @@ public class ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("granite.workflow.inboxQuerySize")
+  @Valid
   public ConfigNodePropertyInteger getGraniteWorkflowInboxQuerySize() {
     return graniteWorkflowInboxQuerySize;
   }
@@ -93,6 +101,7 @@ public class ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("granite.workflow.adminUserGroupFilter")
+  @Valid
   public ConfigNodePropertyBoolean getGraniteWorkflowAdminUserGroupFilter() {
     return graniteWorkflowAdminUserGroupFilter;
   }
@@ -105,6 +114,7 @@ public class ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("granite.workflow.enforceWorkitemAssigneePermissions")
+  @Valid
   public ConfigNodePropertyBoolean getGraniteWorkflowEnforceWorkitemAssigneePermissions() {
     return graniteWorkflowEnforceWorkitemAssigneePermissions;
   }
@@ -117,6 +127,7 @@ public class ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("granite.workflow.enforceWorkflowInitiatorPermissions")
+  @Valid
   public ConfigNodePropertyBoolean getGraniteWorkflowEnforceWorkflowInitiatorPermissions() {
     return graniteWorkflowEnforceWorkflowInitiatorPermissions;
   }
@@ -129,6 +140,7 @@ public class ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("granite.workflow.injectTenantIdInJobTopics")
+  @Valid
   public ConfigNodePropertyBoolean getGraniteWorkflowInjectTenantIdInJobTopics() {
     return graniteWorkflowInjectTenantIdInJobTopics;
   }
@@ -141,6 +153,7 @@ public class ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("granite.workflow.maxPurgeSaveThreshold")
+  @Valid
   public ConfigNodePropertyInteger getGraniteWorkflowMaxPurgeSaveThreshold() {
     return graniteWorkflowMaxPurgeSaveThreshold;
   }
@@ -153,6 +166,7 @@ public class ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("granite.workflow.maxPurgeQueryCount")
+  @Valid
   public ConfigNodePropertyInteger getGraniteWorkflowMaxPurgeQueryCount() {
     return graniteWorkflowMaxPurgeQueryCount;
   }
@@ -162,7 +176,7 @@ public class ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -170,17 +184,17 @@ public class ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties   {
       return false;
     }
     ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties comAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties = (ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties) o;
-    return Objects.equals(graniteWorkflowinboxSortPropertyName, comAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties.graniteWorkflowinboxSortPropertyName) &&
-        Objects.equals(graniteWorkflowinboxSortOrder, comAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties.graniteWorkflowinboxSortOrder) &&
-        Objects.equals(cqWorkflowJobRetry, comAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties.cqWorkflowJobRetry) &&
-        Objects.equals(cqWorkflowSuperuser, comAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties.cqWorkflowSuperuser) &&
-        Objects.equals(graniteWorkflowInboxQuerySize, comAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties.graniteWorkflowInboxQuerySize) &&
-        Objects.equals(graniteWorkflowAdminUserGroupFilter, comAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties.graniteWorkflowAdminUserGroupFilter) &&
-        Objects.equals(graniteWorkflowEnforceWorkitemAssigneePermissions, comAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties.graniteWorkflowEnforceWorkitemAssigneePermissions) &&
-        Objects.equals(graniteWorkflowEnforceWorkflowInitiatorPermissions, comAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties.graniteWorkflowEnforceWorkflowInitiatorPermissions) &&
-        Objects.equals(graniteWorkflowInjectTenantIdInJobTopics, comAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties.graniteWorkflowInjectTenantIdInJobTopics) &&
-        Objects.equals(graniteWorkflowMaxPurgeSaveThreshold, comAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties.graniteWorkflowMaxPurgeSaveThreshold) &&
-        Objects.equals(graniteWorkflowMaxPurgeQueryCount, comAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties.graniteWorkflowMaxPurgeQueryCount);
+    return Objects.equals(this.graniteWorkflowinboxSortPropertyName, comAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties.graniteWorkflowinboxSortPropertyName) &&
+        Objects.equals(this.graniteWorkflowinboxSortOrder, comAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties.graniteWorkflowinboxSortOrder) &&
+        Objects.equals(this.cqWorkflowJobRetry, comAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties.cqWorkflowJobRetry) &&
+        Objects.equals(this.cqWorkflowSuperuser, comAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties.cqWorkflowSuperuser) &&
+        Objects.equals(this.graniteWorkflowInboxQuerySize, comAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties.graniteWorkflowInboxQuerySize) &&
+        Objects.equals(this.graniteWorkflowAdminUserGroupFilter, comAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties.graniteWorkflowAdminUserGroupFilter) &&
+        Objects.equals(this.graniteWorkflowEnforceWorkitemAssigneePermissions, comAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties.graniteWorkflowEnforceWorkitemAssigneePermissions) &&
+        Objects.equals(this.graniteWorkflowEnforceWorkflowInitiatorPermissions, comAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties.graniteWorkflowEnforceWorkflowInitiatorPermissions) &&
+        Objects.equals(this.graniteWorkflowInjectTenantIdInJobTopics, comAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties.graniteWorkflowInjectTenantIdInJobTopics) &&
+        Objects.equals(this.graniteWorkflowMaxPurgeSaveThreshold, comAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties.graniteWorkflowMaxPurgeSaveThreshold) &&
+        Objects.equals(this.graniteWorkflowMaxPurgeQueryCount, comAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties.graniteWorkflowMaxPurgeQueryCount);
   }
 
   @Override
@@ -212,11 +226,8 @@ public class ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

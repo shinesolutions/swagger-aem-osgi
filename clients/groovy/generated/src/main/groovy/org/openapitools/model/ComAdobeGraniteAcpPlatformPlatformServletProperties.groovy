@@ -8,8 +8,8 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class ComAdobeGraniteAcpPlatformPlatformServletProperties {
-    ConfigNodePropertyInteger queryLimit = null
-
-    ConfigNodePropertyArray fileTypeExtensionMap = null
-
+    
+    ConfigNodePropertyInteger queryLimit
+    
+    ConfigNodePropertyArray fileTypeExtensionMap
 }

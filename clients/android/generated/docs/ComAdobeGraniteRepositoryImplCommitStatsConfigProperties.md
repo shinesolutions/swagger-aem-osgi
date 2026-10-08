@@ -1,7 +1,9 @@
 
+
 # ComAdobeGraniteRepositoryImplCommitStatsConfigProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **enabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
@@ -17,6 +19,7 @@ Name | Type | Description | Notes
 **stackMatchers** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
 **stackCategorizers** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
 **stackShorteners** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
+
 
 
 

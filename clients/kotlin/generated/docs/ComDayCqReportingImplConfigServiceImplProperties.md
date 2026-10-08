@@ -2,18 +2,18 @@
 # ComDayCqReportingImplConfigServiceImplProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**repconfPeriodtimezone** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**repconfPeriodlocale** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**repconfPeriodsnapshots** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**repconfPeriodrepdir** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**repconfPeriodhourofday** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**repconfPeriodminofhour** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**repconfPeriodmaxrows** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**repconfPeriodfakedata** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**repconfPeriodsnapshotuser** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**repconfPeriodenforcesnapshotuser** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **repconfTimezone** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **repconfLocale** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **repconfSnapshots** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **repconfRepdir** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **repconfHourofday** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **repconfMinofhour** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **repconfMaxrows** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **repconfFakedata** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **repconfSnapshotuser** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **repconfEnforcesnapshotuser** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
 
 
 

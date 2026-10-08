@@ -1,49 +1,60 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslProperties   {
-  @JsonProperty("translationFactory")
-  private ConfigNodePropertyString translationFactory = null;
+@JsonTypeName("comAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslProperties {
 
-  @JsonProperty("defaultConnectorLabel")
-  private ConfigNodePropertyString defaultConnectorLabel = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString translationFactory;
 
-  @JsonProperty("defaultConnectorAttribution")
-  private ConfigNodePropertyString defaultConnectorAttribution = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString defaultConnectorLabel;
 
-  @JsonProperty("defaultConnectorWorkspaceId")
-  private ConfigNodePropertyString defaultConnectorWorkspaceId = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString defaultConnectorAttribution;
 
-  @JsonProperty("defaultConnectorSubscriptionKey")
-  private ConfigNodePropertyString defaultConnectorSubscriptionKey = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString defaultConnectorWorkspaceId;
 
-  @JsonProperty("languageMapLocation")
-  private ConfigNodePropertyString languageMapLocation = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString defaultConnectorSubscriptionKey;
 
-  @JsonProperty("categoryMapLocation")
-  private ConfigNodePropertyString categoryMapLocation = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString languageMapLocation;
 
-  @JsonProperty("retryAttempts")
-  private ConfigNodePropertyInteger retryAttempts = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString categoryMapLocation;
 
-  @JsonProperty("timeoutCount")
-  private ConfigNodePropertyInteger timeoutCount = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger retryAttempts;
 
-  public ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslProperties translationFactory(ConfigNodePropertyString translationFactory) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger timeoutCount;
+
+  public ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslProperties translationFactory(@Nullable ConfigNodePropertyString translationFactory) {
     this.translationFactory = translationFactory;
     return this;
   }
@@ -51,20 +62,20 @@ public class ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslPrope
   /**
    * Get translationFactory
    * @return translationFactory
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getTranslationFactory() {
+   */
+  @Valid 
+  @Schema(name = "translationFactory", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("translationFactory")
+  public @Nullable ConfigNodePropertyString getTranslationFactory() {
     return translationFactory;
   }
 
-  public void setTranslationFactory(ConfigNodePropertyString translationFactory) {
+  @JsonProperty("translationFactory")
+  public void setTranslationFactory(@Nullable ConfigNodePropertyString translationFactory) {
     this.translationFactory = translationFactory;
   }
 
-  public ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslProperties defaultConnectorLabel(ConfigNodePropertyString defaultConnectorLabel) {
+  public ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslProperties defaultConnectorLabel(@Nullable ConfigNodePropertyString defaultConnectorLabel) {
     this.defaultConnectorLabel = defaultConnectorLabel;
     return this;
   }
@@ -72,20 +83,20 @@ public class ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslPrope
   /**
    * Get defaultConnectorLabel
    * @return defaultConnectorLabel
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getDefaultConnectorLabel() {
+   */
+  @Valid 
+  @Schema(name = "defaultConnectorLabel", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("defaultConnectorLabel")
+  public @Nullable ConfigNodePropertyString getDefaultConnectorLabel() {
     return defaultConnectorLabel;
   }
 
-  public void setDefaultConnectorLabel(ConfigNodePropertyString defaultConnectorLabel) {
+  @JsonProperty("defaultConnectorLabel")
+  public void setDefaultConnectorLabel(@Nullable ConfigNodePropertyString defaultConnectorLabel) {
     this.defaultConnectorLabel = defaultConnectorLabel;
   }
 
-  public ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslProperties defaultConnectorAttribution(ConfigNodePropertyString defaultConnectorAttribution) {
+  public ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslProperties defaultConnectorAttribution(@Nullable ConfigNodePropertyString defaultConnectorAttribution) {
     this.defaultConnectorAttribution = defaultConnectorAttribution;
     return this;
   }
@@ -93,20 +104,20 @@ public class ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslPrope
   /**
    * Get defaultConnectorAttribution
    * @return defaultConnectorAttribution
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getDefaultConnectorAttribution() {
+   */
+  @Valid 
+  @Schema(name = "defaultConnectorAttribution", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("defaultConnectorAttribution")
+  public @Nullable ConfigNodePropertyString getDefaultConnectorAttribution() {
     return defaultConnectorAttribution;
   }
 
-  public void setDefaultConnectorAttribution(ConfigNodePropertyString defaultConnectorAttribution) {
+  @JsonProperty("defaultConnectorAttribution")
+  public void setDefaultConnectorAttribution(@Nullable ConfigNodePropertyString defaultConnectorAttribution) {
     this.defaultConnectorAttribution = defaultConnectorAttribution;
   }
 
-  public ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslProperties defaultConnectorWorkspaceId(ConfigNodePropertyString defaultConnectorWorkspaceId) {
+  public ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslProperties defaultConnectorWorkspaceId(@Nullable ConfigNodePropertyString defaultConnectorWorkspaceId) {
     this.defaultConnectorWorkspaceId = defaultConnectorWorkspaceId;
     return this;
   }
@@ -114,20 +125,20 @@ public class ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslPrope
   /**
    * Get defaultConnectorWorkspaceId
    * @return defaultConnectorWorkspaceId
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getDefaultConnectorWorkspaceId() {
+   */
+  @Valid 
+  @Schema(name = "defaultConnectorWorkspaceId", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("defaultConnectorWorkspaceId")
+  public @Nullable ConfigNodePropertyString getDefaultConnectorWorkspaceId() {
     return defaultConnectorWorkspaceId;
   }
 
-  public void setDefaultConnectorWorkspaceId(ConfigNodePropertyString defaultConnectorWorkspaceId) {
+  @JsonProperty("defaultConnectorWorkspaceId")
+  public void setDefaultConnectorWorkspaceId(@Nullable ConfigNodePropertyString defaultConnectorWorkspaceId) {
     this.defaultConnectorWorkspaceId = defaultConnectorWorkspaceId;
   }
 
-  public ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslProperties defaultConnectorSubscriptionKey(ConfigNodePropertyString defaultConnectorSubscriptionKey) {
+  public ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslProperties defaultConnectorSubscriptionKey(@Nullable ConfigNodePropertyString defaultConnectorSubscriptionKey) {
     this.defaultConnectorSubscriptionKey = defaultConnectorSubscriptionKey;
     return this;
   }
@@ -135,20 +146,20 @@ public class ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslPrope
   /**
    * Get defaultConnectorSubscriptionKey
    * @return defaultConnectorSubscriptionKey
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getDefaultConnectorSubscriptionKey() {
+   */
+  @Valid 
+  @Schema(name = "defaultConnectorSubscriptionKey", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("defaultConnectorSubscriptionKey")
+  public @Nullable ConfigNodePropertyString getDefaultConnectorSubscriptionKey() {
     return defaultConnectorSubscriptionKey;
   }
 
-  public void setDefaultConnectorSubscriptionKey(ConfigNodePropertyString defaultConnectorSubscriptionKey) {
+  @JsonProperty("defaultConnectorSubscriptionKey")
+  public void setDefaultConnectorSubscriptionKey(@Nullable ConfigNodePropertyString defaultConnectorSubscriptionKey) {
     this.defaultConnectorSubscriptionKey = defaultConnectorSubscriptionKey;
   }
 
-  public ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslProperties languageMapLocation(ConfigNodePropertyString languageMapLocation) {
+  public ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslProperties languageMapLocation(@Nullable ConfigNodePropertyString languageMapLocation) {
     this.languageMapLocation = languageMapLocation;
     return this;
   }
@@ -156,20 +167,20 @@ public class ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslPrope
   /**
    * Get languageMapLocation
    * @return languageMapLocation
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getLanguageMapLocation() {
+   */
+  @Valid 
+  @Schema(name = "languageMapLocation", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("languageMapLocation")
+  public @Nullable ConfigNodePropertyString getLanguageMapLocation() {
     return languageMapLocation;
   }
 
-  public void setLanguageMapLocation(ConfigNodePropertyString languageMapLocation) {
+  @JsonProperty("languageMapLocation")
+  public void setLanguageMapLocation(@Nullable ConfigNodePropertyString languageMapLocation) {
     this.languageMapLocation = languageMapLocation;
   }
 
-  public ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslProperties categoryMapLocation(ConfigNodePropertyString categoryMapLocation) {
+  public ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslProperties categoryMapLocation(@Nullable ConfigNodePropertyString categoryMapLocation) {
     this.categoryMapLocation = categoryMapLocation;
     return this;
   }
@@ -177,20 +188,20 @@ public class ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslPrope
   /**
    * Get categoryMapLocation
    * @return categoryMapLocation
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getCategoryMapLocation() {
+   */
+  @Valid 
+  @Schema(name = "categoryMapLocation", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("categoryMapLocation")
+  public @Nullable ConfigNodePropertyString getCategoryMapLocation() {
     return categoryMapLocation;
   }
 
-  public void setCategoryMapLocation(ConfigNodePropertyString categoryMapLocation) {
+  @JsonProperty("categoryMapLocation")
+  public void setCategoryMapLocation(@Nullable ConfigNodePropertyString categoryMapLocation) {
     this.categoryMapLocation = categoryMapLocation;
   }
 
-  public ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslProperties retryAttempts(ConfigNodePropertyInteger retryAttempts) {
+  public ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslProperties retryAttempts(@Nullable ConfigNodePropertyInteger retryAttempts) {
     this.retryAttempts = retryAttempts;
     return this;
   }
@@ -198,20 +209,20 @@ public class ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslPrope
   /**
    * Get retryAttempts
    * @return retryAttempts
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getRetryAttempts() {
+   */
+  @Valid 
+  @Schema(name = "retryAttempts", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("retryAttempts")
+  public @Nullable ConfigNodePropertyInteger getRetryAttempts() {
     return retryAttempts;
   }
 
-  public void setRetryAttempts(ConfigNodePropertyInteger retryAttempts) {
+  @JsonProperty("retryAttempts")
+  public void setRetryAttempts(@Nullable ConfigNodePropertyInteger retryAttempts) {
     this.retryAttempts = retryAttempts;
   }
 
-  public ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslProperties timeoutCount(ConfigNodePropertyInteger timeoutCount) {
+  public ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslProperties timeoutCount(@Nullable ConfigNodePropertyInteger timeoutCount) {
     this.timeoutCount = timeoutCount;
     return this;
   }
@@ -219,22 +230,21 @@ public class ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslPrope
   /**
    * Get timeoutCount
    * @return timeoutCount
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getTimeoutCount() {
+   */
+  @Valid 
+  @Schema(name = "timeoutCount", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("timeoutCount")
+  public @Nullable ConfigNodePropertyInteger getTimeoutCount() {
     return timeoutCount;
   }
 
-  public void setTimeoutCount(ConfigNodePropertyInteger timeoutCount) {
+  @JsonProperty("timeoutCount")
+  public void setTimeoutCount(@Nullable ConfigNodePropertyInteger timeoutCount) {
     this.timeoutCount = timeoutCount;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -262,7 +272,6 @@ public class ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslPrope
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslProperties {\n");
-    
     sb.append("    translationFactory: ").append(toIndentedString(translationFactory)).append("\n");
     sb.append("    defaultConnectorLabel: ").append(toIndentedString(defaultConnectorLabel)).append("\n");
     sb.append("    defaultConnectorAttribution: ").append(toIndentedString(defaultConnectorAttribution)).append("\n");
@@ -280,11 +289,8 @@ public class ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslPrope
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

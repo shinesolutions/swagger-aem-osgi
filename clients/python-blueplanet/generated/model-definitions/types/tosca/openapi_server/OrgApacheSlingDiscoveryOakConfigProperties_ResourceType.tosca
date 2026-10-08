@@ -1,0 +1,129 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingDiscoveryOakConfigProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingDiscoveryOakConfigProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  OrgApacheSlingDiscoveryOakConfigProperties {
+    title = OrgApacheSlingDiscoveryOakConfigProperties
+    description = OrgApacheSlingDiscoveryOakConfigProperties
+    derivedFrom = Root
+    properties {
+        connector_ping_timeout {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        connector_ping_interval {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        discovery_lite_check_interval {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        cluster_sync_service_timeout {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        cluster_sync_service_interval {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        enable_sync_token {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        min_event_delay {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        socket_connect_timeout {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        so_timeout {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        topology_connector_urls {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        topology_connector_whitelist {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        auto_stop_local_loop_enabled {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        gzip_connector_requests_enabled {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        hmac_enabled {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        enable_encryption {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        shared_key {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        hmac_shared_key_ttl {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        backoff_standby_factor {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        backoff_stable_factor {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingDiscoveryOakConfigProperties {
+    title = OrgApacheSlingDiscoveryOakConfigProperties
+    description = OrgApacheSlingDiscoveryOakConfigProperties
+    implements = openapi_server.resourceTypes.OrgApacheSlingDiscoveryOakConfigProperties
+
+  }
+}

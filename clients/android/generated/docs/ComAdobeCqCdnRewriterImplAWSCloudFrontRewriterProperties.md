@@ -1,7 +1,9 @@
 
+
 # ComAdobeCqCdnRewriterImplAWSCloudFrontRewriterProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **serviceRanking** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
@@ -9,6 +11,7 @@ Name | Type | Description | Notes
 **keypairAlias** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
 **cdnrewriterAttributes** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
 **cdnRewriterDistributionDomain** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
+
 
 
 

@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyArray;
 
 @Canonical
 class ComAdobeCqSocialSyncImplPublisherSyncServiceImplProperties {
-    ConfigNodePropertyArray activeRunModes = null
-
+    
+    ConfigNodePropertyArray activeRunModes
 }

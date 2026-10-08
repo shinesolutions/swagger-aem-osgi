@@ -7,16 +7,16 @@ import org.openapitools.model.ComDayCqWcmCoreImplWCMDebugFilterProperties;
 
 @Canonical
 class ComDayCqWcmCoreImplWCMDebugFilterInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqWcmCoreImplWCMDebugFilterProperties properties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqWcmCoreImplWCMDebugFilterProperties properties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

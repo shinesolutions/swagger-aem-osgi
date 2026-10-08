@@ -1,6 +1,7 @@
 # NodeSwaggerAemOsgi.OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **permissionsJr2** | [**ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md) |  | [optional] 

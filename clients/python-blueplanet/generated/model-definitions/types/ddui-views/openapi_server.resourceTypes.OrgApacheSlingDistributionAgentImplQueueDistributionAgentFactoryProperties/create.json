@@ -1,0 +1,28 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "name" },
+      {"model": "title" },
+      {"model": "details" },
+      {"model": "enabled" },
+      {"model": "service_name" },
+      {"model": "log_level" },
+      {"model": "allowed_roots" },
+      {"model": "request_authorization_strategy_target" },
+      {"model": "queue_provider_factory_target" },
+      {"model": "package_builder_target" },
+      {"model": "triggers_target" },
+      {"model": "priority_queues" },
+    ]
+  }]
+}

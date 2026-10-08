@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactProperties = openapi_server.resourceTypes.ComAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactProperties
+}
+resourceTypes {
+
+  ComAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactInfo {
+    title = ComAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactInfo
+    description = ComAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactInfo {
+    title = ComAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactInfo
+    description = ComAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactInfo
+    implements = openapi_server.resourceTypes.ComAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactInfo
+
+  }
+}

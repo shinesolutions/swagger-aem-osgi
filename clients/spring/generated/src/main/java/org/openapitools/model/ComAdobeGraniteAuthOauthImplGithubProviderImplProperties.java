@@ -1,33 +1,44 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComAdobeGraniteAuthOauthImplGithubProviderImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComAdobeGraniteAuthOauthImplGithubProviderImplProperties   {
-  @JsonProperty("oauth.provider.id")
-  private ConfigNodePropertyString oauthProviderId = null;
+@JsonTypeName("comAdobeGraniteAuthOauthImplGithubProviderImplProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComAdobeGraniteAuthOauthImplGithubProviderImplProperties {
 
-  @JsonProperty("oauth.provider.github.authorization.url")
-  private ConfigNodePropertyString oauthProviderGithubAuthorizationUrl = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString oauthProviderId;
 
-  @JsonProperty("oauth.provider.github.token.url")
-  private ConfigNodePropertyString oauthProviderGithubTokenUrl = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString oauthProviderGithubAuthorizationUrl;
 
-  @JsonProperty("oauth.provider.github.profile.url")
-  private ConfigNodePropertyString oauthProviderGithubProfileUrl = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString oauthProviderGithubTokenUrl;
 
-  public ComAdobeGraniteAuthOauthImplGithubProviderImplProperties oauthProviderId(ConfigNodePropertyString oauthProviderId) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString oauthProviderGithubProfileUrl;
+
+  public ComAdobeGraniteAuthOauthImplGithubProviderImplProperties oauthProviderId(@Nullable ConfigNodePropertyString oauthProviderId) {
     this.oauthProviderId = oauthProviderId;
     return this;
   }
@@ -35,20 +46,20 @@ public class ComAdobeGraniteAuthOauthImplGithubProviderImplProperties   {
   /**
    * Get oauthProviderId
    * @return oauthProviderId
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getOauthProviderId() {
+   */
+  @Valid 
+  @Schema(name = "oauth.provider.id", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("oauth.provider.id")
+  public @Nullable ConfigNodePropertyString getOauthProviderId() {
     return oauthProviderId;
   }
 
-  public void setOauthProviderId(ConfigNodePropertyString oauthProviderId) {
+  @JsonProperty("oauth.provider.id")
+  public void setOauthProviderId(@Nullable ConfigNodePropertyString oauthProviderId) {
     this.oauthProviderId = oauthProviderId;
   }
 
-  public ComAdobeGraniteAuthOauthImplGithubProviderImplProperties oauthProviderGithubAuthorizationUrl(ConfigNodePropertyString oauthProviderGithubAuthorizationUrl) {
+  public ComAdobeGraniteAuthOauthImplGithubProviderImplProperties oauthProviderGithubAuthorizationUrl(@Nullable ConfigNodePropertyString oauthProviderGithubAuthorizationUrl) {
     this.oauthProviderGithubAuthorizationUrl = oauthProviderGithubAuthorizationUrl;
     return this;
   }
@@ -56,20 +67,20 @@ public class ComAdobeGraniteAuthOauthImplGithubProviderImplProperties   {
   /**
    * Get oauthProviderGithubAuthorizationUrl
    * @return oauthProviderGithubAuthorizationUrl
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getOauthProviderGithubAuthorizationUrl() {
+   */
+  @Valid 
+  @Schema(name = "oauth.provider.github.authorization.url", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("oauth.provider.github.authorization.url")
+  public @Nullable ConfigNodePropertyString getOauthProviderGithubAuthorizationUrl() {
     return oauthProviderGithubAuthorizationUrl;
   }
 
-  public void setOauthProviderGithubAuthorizationUrl(ConfigNodePropertyString oauthProviderGithubAuthorizationUrl) {
+  @JsonProperty("oauth.provider.github.authorization.url")
+  public void setOauthProviderGithubAuthorizationUrl(@Nullable ConfigNodePropertyString oauthProviderGithubAuthorizationUrl) {
     this.oauthProviderGithubAuthorizationUrl = oauthProviderGithubAuthorizationUrl;
   }
 
-  public ComAdobeGraniteAuthOauthImplGithubProviderImplProperties oauthProviderGithubTokenUrl(ConfigNodePropertyString oauthProviderGithubTokenUrl) {
+  public ComAdobeGraniteAuthOauthImplGithubProviderImplProperties oauthProviderGithubTokenUrl(@Nullable ConfigNodePropertyString oauthProviderGithubTokenUrl) {
     this.oauthProviderGithubTokenUrl = oauthProviderGithubTokenUrl;
     return this;
   }
@@ -77,20 +88,20 @@ public class ComAdobeGraniteAuthOauthImplGithubProviderImplProperties   {
   /**
    * Get oauthProviderGithubTokenUrl
    * @return oauthProviderGithubTokenUrl
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getOauthProviderGithubTokenUrl() {
+   */
+  @Valid 
+  @Schema(name = "oauth.provider.github.token.url", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("oauth.provider.github.token.url")
+  public @Nullable ConfigNodePropertyString getOauthProviderGithubTokenUrl() {
     return oauthProviderGithubTokenUrl;
   }
 
-  public void setOauthProviderGithubTokenUrl(ConfigNodePropertyString oauthProviderGithubTokenUrl) {
+  @JsonProperty("oauth.provider.github.token.url")
+  public void setOauthProviderGithubTokenUrl(@Nullable ConfigNodePropertyString oauthProviderGithubTokenUrl) {
     this.oauthProviderGithubTokenUrl = oauthProviderGithubTokenUrl;
   }
 
-  public ComAdobeGraniteAuthOauthImplGithubProviderImplProperties oauthProviderGithubProfileUrl(ConfigNodePropertyString oauthProviderGithubProfileUrl) {
+  public ComAdobeGraniteAuthOauthImplGithubProviderImplProperties oauthProviderGithubProfileUrl(@Nullable ConfigNodePropertyString oauthProviderGithubProfileUrl) {
     this.oauthProviderGithubProfileUrl = oauthProviderGithubProfileUrl;
     return this;
   }
@@ -98,22 +109,21 @@ public class ComAdobeGraniteAuthOauthImplGithubProviderImplProperties   {
   /**
    * Get oauthProviderGithubProfileUrl
    * @return oauthProviderGithubProfileUrl
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getOauthProviderGithubProfileUrl() {
+   */
+  @Valid 
+  @Schema(name = "oauth.provider.github.profile.url", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("oauth.provider.github.profile.url")
+  public @Nullable ConfigNodePropertyString getOauthProviderGithubProfileUrl() {
     return oauthProviderGithubProfileUrl;
   }
 
-  public void setOauthProviderGithubProfileUrl(ConfigNodePropertyString oauthProviderGithubProfileUrl) {
+  @JsonProperty("oauth.provider.github.profile.url")
+  public void setOauthProviderGithubProfileUrl(@Nullable ConfigNodePropertyString oauthProviderGithubProfileUrl) {
     this.oauthProviderGithubProfileUrl = oauthProviderGithubProfileUrl;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -136,7 +146,6 @@ public class ComAdobeGraniteAuthOauthImplGithubProviderImplProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComAdobeGraniteAuthOauthImplGithubProviderImplProperties {\n");
-    
     sb.append("    oauthProviderId: ").append(toIndentedString(oauthProviderId)).append("\n");
     sb.append("    oauthProviderGithubAuthorizationUrl: ").append(toIndentedString(oauthProviderGithubAuthorizationUrl)).append("\n");
     sb.append("    oauthProviderGithubTokenUrl: ").append(toIndentedString(oauthProviderGithubTokenUrl)).append("\n");
@@ -149,11 +158,8 @@ public class ComAdobeGraniteAuthOauthImplGithubProviderImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

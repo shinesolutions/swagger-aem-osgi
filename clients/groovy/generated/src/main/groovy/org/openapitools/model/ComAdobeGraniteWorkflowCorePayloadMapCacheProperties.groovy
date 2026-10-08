@@ -8,8 +8,8 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeGraniteWorkflowCorePayloadMapCacheProperties {
-    ConfigNodePropertyArray getSystemWorkflowModels = null
-
-    ConfigNodePropertyString getPackageRootPath = null
-
+    
+    ConfigNodePropertyArray getSystemWorkflowModels
+    
+    ConfigNodePropertyString getPackageRootPath
 }

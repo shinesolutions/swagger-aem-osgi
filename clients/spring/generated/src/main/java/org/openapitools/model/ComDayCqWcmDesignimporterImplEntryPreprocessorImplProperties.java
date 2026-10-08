@@ -1,27 +1,38 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComDayCqWcmDesignimporterImplEntryPreprocessorImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComDayCqWcmDesignimporterImplEntryPreprocessorImplProperties   {
-  @JsonProperty("search.pattern")
-  private ConfigNodePropertyString searchPattern = null;
+@JsonTypeName("comDayCqWcmDesignimporterImplEntryPreprocessorImplProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComDayCqWcmDesignimporterImplEntryPreprocessorImplProperties {
 
-  @JsonProperty("replace.pattern")
-  private ConfigNodePropertyString replacePattern = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString searchPattern;
 
-  public ComDayCqWcmDesignimporterImplEntryPreprocessorImplProperties searchPattern(ConfigNodePropertyString searchPattern) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString replacePattern;
+
+  public ComDayCqWcmDesignimporterImplEntryPreprocessorImplProperties searchPattern(@Nullable ConfigNodePropertyString searchPattern) {
     this.searchPattern = searchPattern;
     return this;
   }
@@ -29,20 +40,20 @@ public class ComDayCqWcmDesignimporterImplEntryPreprocessorImplProperties   {
   /**
    * Get searchPattern
    * @return searchPattern
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getSearchPattern() {
+   */
+  @Valid 
+  @Schema(name = "search.pattern", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("search.pattern")
+  public @Nullable ConfigNodePropertyString getSearchPattern() {
     return searchPattern;
   }
 
-  public void setSearchPattern(ConfigNodePropertyString searchPattern) {
+  @JsonProperty("search.pattern")
+  public void setSearchPattern(@Nullable ConfigNodePropertyString searchPattern) {
     this.searchPattern = searchPattern;
   }
 
-  public ComDayCqWcmDesignimporterImplEntryPreprocessorImplProperties replacePattern(ConfigNodePropertyString replacePattern) {
+  public ComDayCqWcmDesignimporterImplEntryPreprocessorImplProperties replacePattern(@Nullable ConfigNodePropertyString replacePattern) {
     this.replacePattern = replacePattern;
     return this;
   }
@@ -50,22 +61,21 @@ public class ComDayCqWcmDesignimporterImplEntryPreprocessorImplProperties   {
   /**
    * Get replacePattern
    * @return replacePattern
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getReplacePattern() {
+   */
+  @Valid 
+  @Schema(name = "replace.pattern", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("replace.pattern")
+  public @Nullable ConfigNodePropertyString getReplacePattern() {
     return replacePattern;
   }
 
-  public void setReplacePattern(ConfigNodePropertyString replacePattern) {
+  @JsonProperty("replace.pattern")
+  public void setReplacePattern(@Nullable ConfigNodePropertyString replacePattern) {
     this.replacePattern = replacePattern;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -86,7 +96,6 @@ public class ComDayCqWcmDesignimporterImplEntryPreprocessorImplProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComDayCqWcmDesignimporterImplEntryPreprocessorImplProperties {\n");
-    
     sb.append("    searchPattern: ").append(toIndentedString(searchPattern)).append("\n");
     sb.append("    replacePattern: ").append(toIndentedString(replacePattern)).append("\n");
     sb.append("}");
@@ -97,11 +106,8 @@ public class ComDayCqWcmDesignimporterImplEntryPreprocessorImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -72,7 +72,7 @@ private class OASOrgApacheJackrabbitOakPluginsIndeTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASOrgApacheJackrabbitOakPluginsInde orgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderSeProperties = new OASOrgApacheJackrabbitOakPluginsInde();
-        Map<String, String> propertyMappings = orgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderSeProperties.getPropertyMappings();
-        System.assertEquals('serverType', propertyMappings.get('server.type'));
+        Map<String, String> x-property-mappings = orgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderSeProperties.getx-property-mappings();
+        System.assertEquals('serverType', x-property-mappings.get('server.type'));
     }
 }

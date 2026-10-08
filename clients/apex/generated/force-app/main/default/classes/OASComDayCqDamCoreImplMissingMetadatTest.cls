@@ -72,10 +72,10 @@ private class OASComDayCqDamCoreImplMissingMetadatTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqDamCoreImplMissingMetadat comDayCqDamCoreImplMissingMetadataNotificationJobProperties = new OASComDayCqDamCoreImplMissingMetadat();
-        Map<String, String> propertyMappings = comDayCqDamCoreImplMissingMetadataNotificationJobProperties.getPropertyMappings();
-        System.assertEquals('cqDamMissingmetadataNotificationSchedulerIstimebased', propertyMappings.get('cq.dam.missingmetadata.notification.scheduler.istimebased'));
-        System.assertEquals('cqDamMissingmetadataNotificationSchedulerTimebasedRule', propertyMappings.get('cq.dam.missingmetadata.notification.scheduler.timebased.rule'));
-        System.assertEquals('cqDamMissingmetadataNotificationSchedulerPeriodRule', propertyMappings.get('cq.dam.missingmetadata.notification.scheduler.period.rule'));
-        System.assertEquals('cqDamMissingmetadataNotificationRecipient', propertyMappings.get('cq.dam.missingmetadata.notification.recipient'));
+        Map<String, String> x-property-mappings = comDayCqDamCoreImplMissingMetadataNotificationJobProperties.getx-property-mappings();
+        System.assertEquals('cqDamMissingmetadataNotificationSchedulerIstimebased', x-property-mappings.get('cq.dam.missingmetadata.notification.scheduler.istimebased'));
+        System.assertEquals('cqDamMissingmetadataNotificationSchedulerTimebasedRule', x-property-mappings.get('cq.dam.missingmetadata.notification.scheduler.timebased.rule'));
+        System.assertEquals('cqDamMissingmetadataNotificationSchedulerPeriodRule', x-property-mappings.get('cq.dam.missingmetadata.notification.scheduler.period.rule'));
+        System.assertEquals('cqDamMissingmetadataNotificationRecipient', x-property-mappings.get('cq.dam.missingmetadata.notification.recipient'));
     }
 }

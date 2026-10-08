@@ -2,31 +2,32 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ComDayCqWcmMsmImplActionsVersionCopyActionFactoryProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class ComDayCqWcmMsmImplActionsVersionCopyActionFactoryInfo   {
   
-  private String pid = null;
+  private String pid;
 
-  private String title = null;
+  private String title;
 
-  private String description = null;
+  private String description;
 
-  private ComDayCqWcmMsmImplActionsVersionCopyActionFactoryProperties properties = null;
+  private ComDayCqWcmMsmImplActionsVersionCopyActionFactoryProperties properties;
 
-  private String bundleLocation = null;
+  private String bundleLocation;
 
-  private String serviceLocation = null;
-
+  private String serviceLocation;
 
   /**
    **/
@@ -138,7 +139,7 @@ public class ComDayCqWcmMsmImplActionsVersionCopyActionFactoryInfo   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -146,12 +147,12 @@ public class ComDayCqWcmMsmImplActionsVersionCopyActionFactoryInfo   {
       return false;
     }
     ComDayCqWcmMsmImplActionsVersionCopyActionFactoryInfo comDayCqWcmMsmImplActionsVersionCopyActionFactoryInfo = (ComDayCqWcmMsmImplActionsVersionCopyActionFactoryInfo) o;
-    return Objects.equals(pid, comDayCqWcmMsmImplActionsVersionCopyActionFactoryInfo.pid) &&
-        Objects.equals(title, comDayCqWcmMsmImplActionsVersionCopyActionFactoryInfo.title) &&
-        Objects.equals(description, comDayCqWcmMsmImplActionsVersionCopyActionFactoryInfo.description) &&
-        Objects.equals(properties, comDayCqWcmMsmImplActionsVersionCopyActionFactoryInfo.properties) &&
-        Objects.equals(bundleLocation, comDayCqWcmMsmImplActionsVersionCopyActionFactoryInfo.bundleLocation) &&
-        Objects.equals(serviceLocation, comDayCqWcmMsmImplActionsVersionCopyActionFactoryInfo.serviceLocation);
+    return Objects.equals(this.pid, comDayCqWcmMsmImplActionsVersionCopyActionFactoryInfo.pid) &&
+        Objects.equals(this.title, comDayCqWcmMsmImplActionsVersionCopyActionFactoryInfo.title) &&
+        Objects.equals(this.description, comDayCqWcmMsmImplActionsVersionCopyActionFactoryInfo.description) &&
+        Objects.equals(this.properties, comDayCqWcmMsmImplActionsVersionCopyActionFactoryInfo.properties) &&
+        Objects.equals(this.bundleLocation, comDayCqWcmMsmImplActionsVersionCopyActionFactoryInfo.bundleLocation) &&
+        Objects.equals(this.serviceLocation, comDayCqWcmMsmImplActionsVersionCopyActionFactoryInfo.serviceLocation);
   }
 
   @Override
@@ -178,11 +179,8 @@ public class ComDayCqWcmMsmImplActionsVersionCopyActionFactoryInfo   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

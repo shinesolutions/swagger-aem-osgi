@@ -1,28 +1,39 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * OrgApacheSlingStartupfilterImplStartupFilterImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class OrgApacheSlingStartupfilterImplStartupFilterImplProperties   {
-  @JsonProperty("active.by.default")
-  private ConfigNodePropertyBoolean activeByDefault = null;
+@JsonTypeName("orgApacheSlingStartupfilterImplStartupFilterImplProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class OrgApacheSlingStartupfilterImplStartupFilterImplProperties {
 
-  @JsonProperty("default.message")
-  private ConfigNodePropertyString defaultMessage = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean activeByDefault;
 
-  public OrgApacheSlingStartupfilterImplStartupFilterImplProperties activeByDefault(ConfigNodePropertyBoolean activeByDefault) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString defaultMessage;
+
+  public OrgApacheSlingStartupfilterImplStartupFilterImplProperties activeByDefault(@Nullable ConfigNodePropertyBoolean activeByDefault) {
     this.activeByDefault = activeByDefault;
     return this;
   }
@@ -30,20 +41,20 @@ public class OrgApacheSlingStartupfilterImplStartupFilterImplProperties   {
   /**
    * Get activeByDefault
    * @return activeByDefault
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getActiveByDefault() {
+   */
+  @Valid 
+  @Schema(name = "active.by.default", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("active.by.default")
+  public @Nullable ConfigNodePropertyBoolean getActiveByDefault() {
     return activeByDefault;
   }
 
-  public void setActiveByDefault(ConfigNodePropertyBoolean activeByDefault) {
+  @JsonProperty("active.by.default")
+  public void setActiveByDefault(@Nullable ConfigNodePropertyBoolean activeByDefault) {
     this.activeByDefault = activeByDefault;
   }
 
-  public OrgApacheSlingStartupfilterImplStartupFilterImplProperties defaultMessage(ConfigNodePropertyString defaultMessage) {
+  public OrgApacheSlingStartupfilterImplStartupFilterImplProperties defaultMessage(@Nullable ConfigNodePropertyString defaultMessage) {
     this.defaultMessage = defaultMessage;
     return this;
   }
@@ -51,22 +62,21 @@ public class OrgApacheSlingStartupfilterImplStartupFilterImplProperties   {
   /**
    * Get defaultMessage
    * @return defaultMessage
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getDefaultMessage() {
+   */
+  @Valid 
+  @Schema(name = "default.message", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("default.message")
+  public @Nullable ConfigNodePropertyString getDefaultMessage() {
     return defaultMessage;
   }
 
-  public void setDefaultMessage(ConfigNodePropertyString defaultMessage) {
+  @JsonProperty("default.message")
+  public void setDefaultMessage(@Nullable ConfigNodePropertyString defaultMessage) {
     this.defaultMessage = defaultMessage;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -87,7 +97,6 @@ public class OrgApacheSlingStartupfilterImplStartupFilterImplProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class OrgApacheSlingStartupfilterImplStartupFilterImplProperties {\n");
-    
     sb.append("    activeByDefault: ").append(toIndentedString(activeByDefault)).append("\n");
     sb.append("    defaultMessage: ").append(toIndentedString(defaultMessage)).append("\n");
     sb.append("}");
@@ -98,11 +107,8 @@ public class OrgApacheSlingStartupfilterImplStartupFilterImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

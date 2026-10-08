@@ -72,8 +72,8 @@ private class OASComAdobeGraniteBundlesHcImplInactTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeGraniteBundlesHcImplInact comAdobeGraniteBundlesHcImplInactiveBundlesHealthCheckProperties = new OASComAdobeGraniteBundlesHcImplInact();
-        Map<String, String> propertyMappings = comAdobeGraniteBundlesHcImplInactiveBundlesHealthCheckProperties.getPropertyMappings();
-        System.assertEquals('hcTags', propertyMappings.get('hc.tags'));
-        System.assertEquals('ignoredBundles', propertyMappings.get('ignored.bundles'));
+        Map<String, String> x-property-mappings = comAdobeGraniteBundlesHcImplInactiveBundlesHealthCheckProperties.getx-property-mappings();
+        System.assertEquals('hcTags', x-property-mappings.get('hc.tags'));
+        System.assertEquals('ignoredBundles', x-property-mappings.get('ignored.bundles'));
     }
 }

@@ -72,8 +72,8 @@ private class OASComDayCqContentsyncImplContentSynTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqContentsyncImplContentSyn comDayCqContentsyncImplContentSyncManagerImplProperties = new OASComDayCqContentsyncImplContentSyn();
-        Map<String, String> propertyMappings = comDayCqContentsyncImplContentSyncManagerImplProperties.getPropertyMappings();
-        System.assertEquals('contentsyncFallbackAuthorizable', propertyMappings.get('contentsync.fallback.authorizable'));
-        System.assertEquals('contentsyncFallbackUpdateuser', propertyMappings.get('contentsync.fallback.updateuser'));
+        Map<String, String> x-property-mappings = comDayCqContentsyncImplContentSyncManagerImplProperties.getx-property-mappings();
+        System.assertEquals('contentsyncFallbackAuthorizable', x-property-mappings.get('contentsync.fallback.authorizable'));
+        System.assertEquals('contentsyncFallbackUpdateuser', x-property-mappings.get('contentsync.fallback.updateuser'));
     }
 }

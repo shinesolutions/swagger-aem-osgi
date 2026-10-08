@@ -1,0 +1,19 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "large_index_critical_threshold" },
+      {"model": "large_index_warn_threshold" },
+      {"model": "hc_tags" },
+    ]
+  }]
+}

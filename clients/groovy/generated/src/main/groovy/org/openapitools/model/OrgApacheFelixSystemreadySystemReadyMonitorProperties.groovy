@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class OrgApacheFelixSystemreadySystemReadyMonitorProperties {
-    ConfigNodePropertyInteger pollInterval = null
-
+    
+    ConfigNodePropertyInteger pollInterval
 }

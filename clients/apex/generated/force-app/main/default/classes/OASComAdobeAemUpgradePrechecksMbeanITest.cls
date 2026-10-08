@@ -72,8 +72,8 @@ private class OASComAdobeAemUpgradePrechecksMbeanITest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeAemUpgradePrechecksMbeanI comAdobeAemUpgradePrechecksMbeanImplPreUpgradeTasksMBeanImplProperties = new OASComAdobeAemUpgradePrechecksMbeanI();
-        Map<String, String> propertyMappings = comAdobeAemUpgradePrechecksMbeanImplPreUpgradeTasksMBeanImplProperties.getPropertyMappings();
-        System.assertEquals('preUpgradeMaintenanceTasks', propertyMappings.get('pre-upgrade.maintenance.tasks'));
-        System.assertEquals('preUpgradeHcTags', propertyMappings.get('pre-upgrade.hc.tags'));
+        Map<String, String> x-property-mappings = comAdobeAemUpgradePrechecksMbeanImplPreUpgradeTasksMBeanImplProperties.getx-property-mappings();
+        System.assertEquals('preUpgradeMaintenanceTasks', x-property-mappings.get('pre-upgrade.maintenance.tasks'));
+        System.assertEquals('preUpgradeHcTags', x-property-mappings.get('pre-upgrade.hc.tags'));
     }
 }

@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqInboxImplTypeproviderItemTypeProviderPro
 
 @Canonical
 class ComAdobeCqInboxImplTypeproviderItemTypeProviderInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqInboxImplTypeproviderItemTypeProviderProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqInboxImplTypeproviderItemTypeProviderProperties properties
 }

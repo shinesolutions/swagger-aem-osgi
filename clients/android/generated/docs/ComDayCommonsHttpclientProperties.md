@@ -1,7 +1,9 @@
 
+
 # ComDayCommonsHttpclientProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **proxyEnabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
@@ -11,6 +13,7 @@ Name | Type | Description | Notes
 **proxyNtlmHost** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
 **proxyNtlmDomain** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
 **proxyExceptions** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
+
 
 
 

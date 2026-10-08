@@ -1,0 +1,36 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+}
+resourceTypes {
+
+  AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurProperties {
+    title = AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurProperties
+    description = AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurProperties
+    derivedFrom = Root
+    properties {
+        font_list {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurProperties {
+    title = AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurProperties
+    description = AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurProperties
+    implements = openapi_server.resourceTypes.AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurProperties
+
+  }
+}

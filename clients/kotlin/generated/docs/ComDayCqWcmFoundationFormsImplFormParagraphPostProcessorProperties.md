@@ -2,10 +2,10 @@
 # ComDayCqWcmFoundationFormsImplFormParagraphPostProcessorProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**formsPeriodformparagraphpostprocessorPeriodenabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**formsPeriodformparagraphpostprocessorPeriodformresourcetypes** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **formsFormparagraphpostprocessorEnabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **formsFormparagraphpostprocessorFormresourcetypes** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
 
 
 

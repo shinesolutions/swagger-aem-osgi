@@ -2,30 +2,31 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class ComAdobeCqInboxImplTypeproviderItemTypeProviderProperties   {
   
-  private ConfigNodePropertyArray inboxImplTypeproviderRegistrypaths = null;
+  private ConfigNodePropertyArray inboxImplTypeproviderRegistrypaths;
 
-  private ConfigNodePropertyArray inboxImplTypeproviderLegacypaths = null;
+  private ConfigNodePropertyArray inboxImplTypeproviderLegacypaths;
 
-  private ConfigNodePropertyString inboxImplTypeproviderDefaulturlFailureitem = null;
+  private ConfigNodePropertyString inboxImplTypeproviderDefaulturlFailureitem;
 
-  private ConfigNodePropertyString inboxImplTypeproviderDefaulturlWorkitem = null;
+  private ConfigNodePropertyString inboxImplTypeproviderDefaulturlWorkitem;
 
-  private ConfigNodePropertyString inboxImplTypeproviderDefaulturlTask = null;
-
+  private ConfigNodePropertyString inboxImplTypeproviderDefaulturlTask;
 
   /**
    **/
@@ -119,7 +120,7 @@ public class ComAdobeCqInboxImplTypeproviderItemTypeProviderProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -127,11 +128,11 @@ public class ComAdobeCqInboxImplTypeproviderItemTypeProviderProperties   {
       return false;
     }
     ComAdobeCqInboxImplTypeproviderItemTypeProviderProperties comAdobeCqInboxImplTypeproviderItemTypeProviderProperties = (ComAdobeCqInboxImplTypeproviderItemTypeProviderProperties) o;
-    return Objects.equals(inboxImplTypeproviderRegistrypaths, comAdobeCqInboxImplTypeproviderItemTypeProviderProperties.inboxImplTypeproviderRegistrypaths) &&
-        Objects.equals(inboxImplTypeproviderLegacypaths, comAdobeCqInboxImplTypeproviderItemTypeProviderProperties.inboxImplTypeproviderLegacypaths) &&
-        Objects.equals(inboxImplTypeproviderDefaulturlFailureitem, comAdobeCqInboxImplTypeproviderItemTypeProviderProperties.inboxImplTypeproviderDefaulturlFailureitem) &&
-        Objects.equals(inboxImplTypeproviderDefaulturlWorkitem, comAdobeCqInboxImplTypeproviderItemTypeProviderProperties.inboxImplTypeproviderDefaulturlWorkitem) &&
-        Objects.equals(inboxImplTypeproviderDefaulturlTask, comAdobeCqInboxImplTypeproviderItemTypeProviderProperties.inboxImplTypeproviderDefaulturlTask);
+    return Objects.equals(this.inboxImplTypeproviderRegistrypaths, comAdobeCqInboxImplTypeproviderItemTypeProviderProperties.inboxImplTypeproviderRegistrypaths) &&
+        Objects.equals(this.inboxImplTypeproviderLegacypaths, comAdobeCqInboxImplTypeproviderItemTypeProviderProperties.inboxImplTypeproviderLegacypaths) &&
+        Objects.equals(this.inboxImplTypeproviderDefaulturlFailureitem, comAdobeCqInboxImplTypeproviderItemTypeProviderProperties.inboxImplTypeproviderDefaulturlFailureitem) &&
+        Objects.equals(this.inboxImplTypeproviderDefaulturlWorkitem, comAdobeCqInboxImplTypeproviderItemTypeProviderProperties.inboxImplTypeproviderDefaulturlWorkitem) &&
+        Objects.equals(this.inboxImplTypeproviderDefaulturlTask, comAdobeCqInboxImplTypeproviderItemTypeProviderProperties.inboxImplTypeproviderDefaulturlTask);
   }
 
   @Override
@@ -157,11 +158,8 @@ public class ComAdobeCqInboxImplTypeproviderItemTypeProviderProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

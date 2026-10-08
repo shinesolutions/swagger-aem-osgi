@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqScheduledExporterImplScheduledExporterIm
 
 @Canonical
 class ComAdobeCqScheduledExporterImplScheduledExporterImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqScheduledExporterImplScheduledExporterImplProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqScheduledExporterImplScheduledExporterImplProperties properties
 }

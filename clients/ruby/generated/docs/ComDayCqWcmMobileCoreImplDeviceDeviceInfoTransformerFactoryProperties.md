@@ -2,18 +2,19 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**device_info_transformer_enabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] 
-**device_info_transformer_css_style** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **device_info_transformer_enabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] |
+| **device_info_transformer_css_style** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactoryProperties.new(device_info_transformer_enabled: null,
-                                 device_info_transformer_css_style: null)
+instance = SwaggerAemOsgiClient::ComDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactoryProperties.new(
+  device_info_transformer_enabled: null,
+  device_info_transformer_css_style: null
+)
 ```
-
 

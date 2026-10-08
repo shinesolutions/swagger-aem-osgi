@@ -7,6 +7,8 @@ import argonaut.DecodeJson._
 import org.http4s.{EntityDecoder, EntityEncoder}
 import org.http4s.argonaut._
 import org.joda.time.DateTime
+
+
 import ConfigNodePropertyDropDown._
 
 case class ConfigNodePropertyDropDown (
@@ -18,7 +20,7 @@ case class ConfigNodePropertyDropDown (
   isSet: Option[Boolean],
 `type`: Option[ConfigNodePropertyDropDownType],
 /* Property value */
-  value: Option[Any],
+  value: Option[AnyType],
 /* Property description */
   description: Option[String])
 

@@ -72,9 +72,8 @@ private class OASOrgApacheFelixSystemreadyImplFramTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASOrgApacheFelixSystemreadyImplFram orgApacheFelixSystemreadyImplFrameworkStartCheckProperties = new OASOrgApacheFelixSystemreadyImplFram();
-        Map<String, String> propertyMappings = orgApacheFelixSystemreadyImplFrameworkStartCheckProperties.getPropertyMappings();
-        System.assertEquals('targetStartLevel', propertyMappings.get('target.start.level'));
-        System.assertEquals('targetStartLevelPropName', propertyMappings.get('target.start.level.prop.name'));
-        System.assertEquals('r_type', propertyMappings.get('type'));
+        Map<String, String> x-property-mappings = orgApacheFelixSystemreadyImplFrameworkStartCheckProperties.getx-property-mappings();
+        System.assertEquals('targetStartLevel', x-property-mappings.get('target.start.level'));
+        System.assertEquals('targetStartLevelPropName', x-property-mappings.get('target.start.level.prop.name'));
     }
 }

@@ -1,3 +1,13 @@
+/*
+ * Adobe Experience Manager OSGI config (AEM) API
+ *
+ * Swagger AEM OSGI is an OpenAPI specification for Adobe Experience Manager (AEM) OSGI Configurations API
+ *
+ * OpenAPI document version: 1.0.0-pre.0
+ * Maintained by: opensource@shinesolutions.com
+ *
+ * AUTO-GENERATED FILE, DO NOT MODIFY!
+ */
 package org.openapitools.model;
 
 import java.util.Objects;
@@ -13,17 +23,17 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2019-08-05T00:56:20.785Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2026-10-07T12:53:42.280804918Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationProperties   {
   
-  private ConfigNodePropertyBoolean showPlaceholder = null;
-  private ConfigNodePropertyInteger maximumCacheEntries = null;
-  private ConfigNodePropertyDropDown afScriptingCompatversion = null;
-  private ConfigNodePropertyBoolean makeFileNameUnique = null;
-  private ConfigNodePropertyBoolean generatingCompliantData = null;
+  private ConfigNodePropertyBoolean showPlaceholder;
+  private ConfigNodePropertyInteger maximumCacheEntries;
+  private ConfigNodePropertyDropDown afScriptingCompatversion;
+  private ConfigNodePropertyBoolean makeFileNameUnique;
+  private ConfigNodePropertyBoolean generatingCompliantData;
 
   /**
-   **/
+   */
   public AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationProperties showPlaceholder(ConfigNodePropertyBoolean showPlaceholder) {
     this.showPlaceholder = showPlaceholder;
     return this;
@@ -40,7 +50,7 @@ public class AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationPrope
   }
 
   /**
-   **/
+   */
   public AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationProperties maximumCacheEntries(ConfigNodePropertyInteger maximumCacheEntries) {
     this.maximumCacheEntries = maximumCacheEntries;
     return this;
@@ -57,7 +67,7 @@ public class AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationPrope
   }
 
   /**
-   **/
+   */
   public AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationProperties afScriptingCompatversion(ConfigNodePropertyDropDown afScriptingCompatversion) {
     this.afScriptingCompatversion = afScriptingCompatversion;
     return this;
@@ -74,7 +84,7 @@ public class AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationPrope
   }
 
   /**
-   **/
+   */
   public AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationProperties makeFileNameUnique(ConfigNodePropertyBoolean makeFileNameUnique) {
     this.makeFileNameUnique = makeFileNameUnique;
     return this;
@@ -91,7 +101,7 @@ public class AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationPrope
   }
 
   /**
-   **/
+   */
   public AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationProperties generatingCompliantData(ConfigNodePropertyBoolean generatingCompliantData) {
     this.generatingCompliantData = generatingCompliantData;
     return this;
@@ -109,7 +119,7 @@ public class AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationPrope
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -147,11 +157,8 @@ public class AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationPrope
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

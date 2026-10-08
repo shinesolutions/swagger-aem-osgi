@@ -8,16 +8,16 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class OrgApacheSlingHcCoreImplJmxAttributeHealthCheckProperties {
-    ConfigNodePropertyString hcName = null
-
-    ConfigNodePropertyArray hcTags = null
-
-    ConfigNodePropertyString hcMbeanName = null
-
-    ConfigNodePropertyString mbeanName = null
-
-    ConfigNodePropertyString attributeName = null
-
-    ConfigNodePropertyString attributeValueConstraint = null
-
+    
+    ConfigNodePropertyString hcName
+    
+    ConfigNodePropertyArray hcTags
+    
+    ConfigNodePropertyString hcMbeanName
+    
+    ConfigNodePropertyString mbeanName
+    
+    ConfigNodePropertyString attributeName
+    
+    ConfigNodePropertyString attributeValueConstraint
 }

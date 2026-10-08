@@ -4,26 +4,30 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2019-08-05T00:59:30.156Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2026-10-07T12:54:21.614735164Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeCqInboxImplTypeproviderItemTypeProviderProperties   {
   
-  private ConfigNodePropertyArray inboxImplTypeproviderRegistrypaths = null;
-  private ConfigNodePropertyArray inboxImplTypeproviderLegacypaths = null;
-  private ConfigNodePropertyString inboxImplTypeproviderDefaulturlFailureitem = null;
-  private ConfigNodePropertyString inboxImplTypeproviderDefaulturlWorkitem = null;
-  private ConfigNodePropertyString inboxImplTypeproviderDefaulturlTask = null;
+  private ConfigNodePropertyArray inboxImplTypeproviderRegistrypaths;
+  private ConfigNodePropertyArray inboxImplTypeproviderLegacypaths;
+  private ConfigNodePropertyString inboxImplTypeproviderDefaulturlFailureitem;
+  private ConfigNodePropertyString inboxImplTypeproviderDefaulturlWorkitem;
+  private ConfigNodePropertyString inboxImplTypeproviderDefaulturlTask;
 
   /**
    **/
   
   @ApiModelProperty(value = "")
   @JsonProperty("inbox.impl.typeprovider.registrypaths")
+  @Valid
   public ConfigNodePropertyArray getInboxImplTypeproviderRegistrypaths() {
     return inboxImplTypeproviderRegistrypaths;
   }
@@ -36,6 +40,7 @@ public class ComAdobeCqInboxImplTypeproviderItemTypeProviderProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("inbox.impl.typeprovider.legacypaths")
+  @Valid
   public ConfigNodePropertyArray getInboxImplTypeproviderLegacypaths() {
     return inboxImplTypeproviderLegacypaths;
   }
@@ -48,6 +53,7 @@ public class ComAdobeCqInboxImplTypeproviderItemTypeProviderProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("inbox.impl.typeprovider.defaulturl.failureitem")
+  @Valid
   public ConfigNodePropertyString getInboxImplTypeproviderDefaulturlFailureitem() {
     return inboxImplTypeproviderDefaulturlFailureitem;
   }
@@ -60,6 +66,7 @@ public class ComAdobeCqInboxImplTypeproviderItemTypeProviderProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("inbox.impl.typeprovider.defaulturl.workitem")
+  @Valid
   public ConfigNodePropertyString getInboxImplTypeproviderDefaulturlWorkitem() {
     return inboxImplTypeproviderDefaulturlWorkitem;
   }
@@ -72,6 +79,7 @@ public class ComAdobeCqInboxImplTypeproviderItemTypeProviderProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("inbox.impl.typeprovider.defaulturl.task")
+  @Valid
   public ConfigNodePropertyString getInboxImplTypeproviderDefaulturlTask() {
     return inboxImplTypeproviderDefaulturlTask;
   }
@@ -81,7 +89,7 @@ public class ComAdobeCqInboxImplTypeproviderItemTypeProviderProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -89,11 +97,11 @@ public class ComAdobeCqInboxImplTypeproviderItemTypeProviderProperties   {
       return false;
     }
     ComAdobeCqInboxImplTypeproviderItemTypeProviderProperties comAdobeCqInboxImplTypeproviderItemTypeProviderProperties = (ComAdobeCqInboxImplTypeproviderItemTypeProviderProperties) o;
-    return Objects.equals(inboxImplTypeproviderRegistrypaths, comAdobeCqInboxImplTypeproviderItemTypeProviderProperties.inboxImplTypeproviderRegistrypaths) &&
-        Objects.equals(inboxImplTypeproviderLegacypaths, comAdobeCqInboxImplTypeproviderItemTypeProviderProperties.inboxImplTypeproviderLegacypaths) &&
-        Objects.equals(inboxImplTypeproviderDefaulturlFailureitem, comAdobeCqInboxImplTypeproviderItemTypeProviderProperties.inboxImplTypeproviderDefaulturlFailureitem) &&
-        Objects.equals(inboxImplTypeproviderDefaulturlWorkitem, comAdobeCqInboxImplTypeproviderItemTypeProviderProperties.inboxImplTypeproviderDefaulturlWorkitem) &&
-        Objects.equals(inboxImplTypeproviderDefaulturlTask, comAdobeCqInboxImplTypeproviderItemTypeProviderProperties.inboxImplTypeproviderDefaulturlTask);
+    return Objects.equals(this.inboxImplTypeproviderRegistrypaths, comAdobeCqInboxImplTypeproviderItemTypeProviderProperties.inboxImplTypeproviderRegistrypaths) &&
+        Objects.equals(this.inboxImplTypeproviderLegacypaths, comAdobeCqInboxImplTypeproviderItemTypeProviderProperties.inboxImplTypeproviderLegacypaths) &&
+        Objects.equals(this.inboxImplTypeproviderDefaulturlFailureitem, comAdobeCqInboxImplTypeproviderItemTypeProviderProperties.inboxImplTypeproviderDefaulturlFailureitem) &&
+        Objects.equals(this.inboxImplTypeproviderDefaulturlWorkitem, comAdobeCqInboxImplTypeproviderItemTypeProviderProperties.inboxImplTypeproviderDefaulturlWorkitem) &&
+        Objects.equals(this.inboxImplTypeproviderDefaulturlTask, comAdobeCqInboxImplTypeproviderItemTypeProviderProperties.inboxImplTypeproviderDefaulturlTask);
   }
 
   @Override
@@ -119,11 +127,8 @@ public class ComAdobeCqInboxImplTypeproviderItemTypeProviderProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

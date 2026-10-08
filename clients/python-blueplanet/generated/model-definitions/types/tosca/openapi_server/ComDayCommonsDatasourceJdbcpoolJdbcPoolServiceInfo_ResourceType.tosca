@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties = openapi_server.resourceTypes.ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties
+}
+resourceTypes {
+
+  ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceInfo {
+    title = ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceInfo
+    description = ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceInfo {
+    title = ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceInfo
+    description = ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceInfo
+    implements = openapi_server.resourceTypes.ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceInfo
+
+  }
+}

@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqReplicationImplContentDurboBinaryLessConte
 
 @Canonical
 class ComDayCqReplicationImplContentDurboBinaryLessContentBuilderInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqReplicationImplContentDurboBinaryLessContentBuilderProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqReplicationImplContentDurboBinaryLessContentBuilderProperties properties
 }

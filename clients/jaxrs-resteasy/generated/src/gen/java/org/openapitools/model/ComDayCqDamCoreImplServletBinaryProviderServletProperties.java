@@ -4,24 +4,28 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2019-08-05T00:59:30.156Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2026-10-07T12:54:21.614735164Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqDamCoreImplServletBinaryProviderServletProperties   {
   
-  private ConfigNodePropertyArray slingServletResourceTypes = null;
-  private ConfigNodePropertyArray slingServletMethods = null;
-  private ConfigNodePropertyBoolean cqDamDrmEnable = null;
+  private ConfigNodePropertyArray slingServletResourceTypes;
+  private ConfigNodePropertyArray slingServletMethods;
+  private ConfigNodePropertyBoolean cqDamDrmEnable;
 
   /**
    **/
   
   @ApiModelProperty(value = "")
   @JsonProperty("sling.servlet.resourceTypes")
+  @Valid
   public ConfigNodePropertyArray getSlingServletResourceTypes() {
     return slingServletResourceTypes;
   }
@@ -34,6 +38,7 @@ public class ComDayCqDamCoreImplServletBinaryProviderServletProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("sling.servlet.methods")
+  @Valid
   public ConfigNodePropertyArray getSlingServletMethods() {
     return slingServletMethods;
   }
@@ -46,6 +51,7 @@ public class ComDayCqDamCoreImplServletBinaryProviderServletProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("cq.dam.drm.enable")
+  @Valid
   public ConfigNodePropertyBoolean getCqDamDrmEnable() {
     return cqDamDrmEnable;
   }
@@ -55,7 +61,7 @@ public class ComDayCqDamCoreImplServletBinaryProviderServletProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -63,9 +69,9 @@ public class ComDayCqDamCoreImplServletBinaryProviderServletProperties   {
       return false;
     }
     ComDayCqDamCoreImplServletBinaryProviderServletProperties comDayCqDamCoreImplServletBinaryProviderServletProperties = (ComDayCqDamCoreImplServletBinaryProviderServletProperties) o;
-    return Objects.equals(slingServletResourceTypes, comDayCqDamCoreImplServletBinaryProviderServletProperties.slingServletResourceTypes) &&
-        Objects.equals(slingServletMethods, comDayCqDamCoreImplServletBinaryProviderServletProperties.slingServletMethods) &&
-        Objects.equals(cqDamDrmEnable, comDayCqDamCoreImplServletBinaryProviderServletProperties.cqDamDrmEnable);
+    return Objects.equals(this.slingServletResourceTypes, comDayCqDamCoreImplServletBinaryProviderServletProperties.slingServletResourceTypes) &&
+        Objects.equals(this.slingServletMethods, comDayCqDamCoreImplServletBinaryProviderServletProperties.slingServletMethods) &&
+        Objects.equals(this.cqDamDrmEnable, comDayCqDamCoreImplServletBinaryProviderServletProperties.cqDamDrmEnable);
   }
 
   @Override
@@ -89,11 +95,8 @@ public class ComDayCqDamCoreImplServletBinaryProviderServletProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

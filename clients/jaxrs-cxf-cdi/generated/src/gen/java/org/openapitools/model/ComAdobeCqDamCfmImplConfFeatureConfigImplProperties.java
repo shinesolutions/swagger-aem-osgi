@@ -2,23 +2,24 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class ComAdobeCqDamCfmImplConfFeatureConfigImplProperties   {
   
-  private ConfigNodePropertyArray damCfmResourceTypes = null;
+  private ConfigNodePropertyArray damCfmResourceTypes;
 
-  private ConfigNodePropertyArray damCfmReferenceProperties = null;
-
+  private ConfigNodePropertyArray damCfmReferenceProperties;
 
   /**
    **/
@@ -58,7 +59,7 @@ public class ComAdobeCqDamCfmImplConfFeatureConfigImplProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -66,8 +67,8 @@ public class ComAdobeCqDamCfmImplConfFeatureConfigImplProperties   {
       return false;
     }
     ComAdobeCqDamCfmImplConfFeatureConfigImplProperties comAdobeCqDamCfmImplConfFeatureConfigImplProperties = (ComAdobeCqDamCfmImplConfFeatureConfigImplProperties) o;
-    return Objects.equals(damCfmResourceTypes, comAdobeCqDamCfmImplConfFeatureConfigImplProperties.damCfmResourceTypes) &&
-        Objects.equals(damCfmReferenceProperties, comAdobeCqDamCfmImplConfFeatureConfigImplProperties.damCfmReferenceProperties);
+    return Objects.equals(this.damCfmResourceTypes, comAdobeCqDamCfmImplConfFeatureConfigImplProperties.damCfmResourceTypes) &&
+        Objects.equals(this.damCfmReferenceProperties, comAdobeCqDamCfmImplConfFeatureConfigImplProperties.damCfmReferenceProperties);
   }
 
   @Override
@@ -90,11 +91,8 @@ public class ComAdobeCqDamCfmImplConfFeatureConfigImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

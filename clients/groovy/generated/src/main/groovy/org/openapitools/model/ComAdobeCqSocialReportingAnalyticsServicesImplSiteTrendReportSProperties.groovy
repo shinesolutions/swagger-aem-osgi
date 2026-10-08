@@ -8,8 +8,8 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSProperties {
-    ConfigNodePropertyArray cqSocialConsoleAnalyticsSitesMapping = null
-
-    ConfigNodePropertyInteger priority = null
-
+    
+    ConfigNodePropertyArray cqSocialConsoleAnalyticsSitesMapping
+    
+    ConfigNodePropertyInteger priority
 }

@@ -1,35 +1,46 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyDropDown;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * OrgApacheSlingEngineImplLogRequestLoggerServiceProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class OrgApacheSlingEngineImplLogRequestLoggerServiceProperties   {
-  @JsonProperty("request.log.service.format")
-  private ConfigNodePropertyString requestLogServiceFormat = null;
+@JsonTypeName("orgApacheSlingEngineImplLogRequestLoggerServiceProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class OrgApacheSlingEngineImplLogRequestLoggerServiceProperties {
 
-  @JsonProperty("request.log.service.output")
-  private ConfigNodePropertyString requestLogServiceOutput = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString requestLogServiceFormat;
 
-  @JsonProperty("request.log.service.outputtype")
-  private ConfigNodePropertyDropDown requestLogServiceOutputtype = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString requestLogServiceOutput;
 
-  @JsonProperty("request.log.service.onentry")
-  private ConfigNodePropertyBoolean requestLogServiceOnentry = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyDropDown requestLogServiceOutputtype;
 
-  public OrgApacheSlingEngineImplLogRequestLoggerServiceProperties requestLogServiceFormat(ConfigNodePropertyString requestLogServiceFormat) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean requestLogServiceOnentry;
+
+  public OrgApacheSlingEngineImplLogRequestLoggerServiceProperties requestLogServiceFormat(@Nullable ConfigNodePropertyString requestLogServiceFormat) {
     this.requestLogServiceFormat = requestLogServiceFormat;
     return this;
   }
@@ -37,20 +48,20 @@ public class OrgApacheSlingEngineImplLogRequestLoggerServiceProperties   {
   /**
    * Get requestLogServiceFormat
    * @return requestLogServiceFormat
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getRequestLogServiceFormat() {
+   */
+  @Valid 
+  @Schema(name = "request.log.service.format", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("request.log.service.format")
+  public @Nullable ConfigNodePropertyString getRequestLogServiceFormat() {
     return requestLogServiceFormat;
   }
 
-  public void setRequestLogServiceFormat(ConfigNodePropertyString requestLogServiceFormat) {
+  @JsonProperty("request.log.service.format")
+  public void setRequestLogServiceFormat(@Nullable ConfigNodePropertyString requestLogServiceFormat) {
     this.requestLogServiceFormat = requestLogServiceFormat;
   }
 
-  public OrgApacheSlingEngineImplLogRequestLoggerServiceProperties requestLogServiceOutput(ConfigNodePropertyString requestLogServiceOutput) {
+  public OrgApacheSlingEngineImplLogRequestLoggerServiceProperties requestLogServiceOutput(@Nullable ConfigNodePropertyString requestLogServiceOutput) {
     this.requestLogServiceOutput = requestLogServiceOutput;
     return this;
   }
@@ -58,20 +69,20 @@ public class OrgApacheSlingEngineImplLogRequestLoggerServiceProperties   {
   /**
    * Get requestLogServiceOutput
    * @return requestLogServiceOutput
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getRequestLogServiceOutput() {
+   */
+  @Valid 
+  @Schema(name = "request.log.service.output", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("request.log.service.output")
+  public @Nullable ConfigNodePropertyString getRequestLogServiceOutput() {
     return requestLogServiceOutput;
   }
 
-  public void setRequestLogServiceOutput(ConfigNodePropertyString requestLogServiceOutput) {
+  @JsonProperty("request.log.service.output")
+  public void setRequestLogServiceOutput(@Nullable ConfigNodePropertyString requestLogServiceOutput) {
     this.requestLogServiceOutput = requestLogServiceOutput;
   }
 
-  public OrgApacheSlingEngineImplLogRequestLoggerServiceProperties requestLogServiceOutputtype(ConfigNodePropertyDropDown requestLogServiceOutputtype) {
+  public OrgApacheSlingEngineImplLogRequestLoggerServiceProperties requestLogServiceOutputtype(@Nullable ConfigNodePropertyDropDown requestLogServiceOutputtype) {
     this.requestLogServiceOutputtype = requestLogServiceOutputtype;
     return this;
   }
@@ -79,20 +90,20 @@ public class OrgApacheSlingEngineImplLogRequestLoggerServiceProperties   {
   /**
    * Get requestLogServiceOutputtype
    * @return requestLogServiceOutputtype
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyDropDown getRequestLogServiceOutputtype() {
+   */
+  @Valid 
+  @Schema(name = "request.log.service.outputtype", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("request.log.service.outputtype")
+  public @Nullable ConfigNodePropertyDropDown getRequestLogServiceOutputtype() {
     return requestLogServiceOutputtype;
   }
 
-  public void setRequestLogServiceOutputtype(ConfigNodePropertyDropDown requestLogServiceOutputtype) {
+  @JsonProperty("request.log.service.outputtype")
+  public void setRequestLogServiceOutputtype(@Nullable ConfigNodePropertyDropDown requestLogServiceOutputtype) {
     this.requestLogServiceOutputtype = requestLogServiceOutputtype;
   }
 
-  public OrgApacheSlingEngineImplLogRequestLoggerServiceProperties requestLogServiceOnentry(ConfigNodePropertyBoolean requestLogServiceOnentry) {
+  public OrgApacheSlingEngineImplLogRequestLoggerServiceProperties requestLogServiceOnentry(@Nullable ConfigNodePropertyBoolean requestLogServiceOnentry) {
     this.requestLogServiceOnentry = requestLogServiceOnentry;
     return this;
   }
@@ -100,22 +111,21 @@ public class OrgApacheSlingEngineImplLogRequestLoggerServiceProperties   {
   /**
    * Get requestLogServiceOnentry
    * @return requestLogServiceOnentry
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getRequestLogServiceOnentry() {
+   */
+  @Valid 
+  @Schema(name = "request.log.service.onentry", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("request.log.service.onentry")
+  public @Nullable ConfigNodePropertyBoolean getRequestLogServiceOnentry() {
     return requestLogServiceOnentry;
   }
 
-  public void setRequestLogServiceOnentry(ConfigNodePropertyBoolean requestLogServiceOnentry) {
+  @JsonProperty("request.log.service.onentry")
+  public void setRequestLogServiceOnentry(@Nullable ConfigNodePropertyBoolean requestLogServiceOnentry) {
     this.requestLogServiceOnentry = requestLogServiceOnentry;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -138,7 +148,6 @@ public class OrgApacheSlingEngineImplLogRequestLoggerServiceProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class OrgApacheSlingEngineImplLogRequestLoggerServiceProperties {\n");
-    
     sb.append("    requestLogServiceFormat: ").append(toIndentedString(requestLogServiceFormat)).append("\n");
     sb.append("    requestLogServiceOutput: ").append(toIndentedString(requestLogServiceOutput)).append("\n");
     sb.append("    requestLogServiceOutputtype: ").append(toIndentedString(requestLogServiceOutputtype)).append("\n");
@@ -151,11 +160,8 @@ public class OrgApacheSlingEngineImplLogRequestLoggerServiceProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

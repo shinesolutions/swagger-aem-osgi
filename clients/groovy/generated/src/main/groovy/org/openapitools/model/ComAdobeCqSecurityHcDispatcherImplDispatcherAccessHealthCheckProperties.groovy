@@ -8,12 +8,12 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheckProperties {
-    ConfigNodePropertyArray hcTags = null
-
-    ConfigNodePropertyString dispatcherAddress = null
-
-    ConfigNodePropertyArray dispatcherFilterAllowed = null
-
-    ConfigNodePropertyArray dispatcherFilterBlocked = null
-
+    
+    ConfigNodePropertyArray hcTags
+    
+    ConfigNodePropertyString dispatcherAddress
+    
+    ConfigNodePropertyArray dispatcherFilterAllowed
+    
+    ConfigNodePropertyArray dispatcherFilterBlocked
 }

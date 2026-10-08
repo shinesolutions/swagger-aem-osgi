@@ -2,27 +2,28 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ComAdobeGraniteAuthImsImplIMSInstanceCredentialsValidatorProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class ComAdobeGraniteAuthImsImplIMSInstanceCredentialsValidatorInfo   {
   
-  private String pid = null;
+  private String pid;
 
-  private String title = null;
+  private String title;
 
-  private String description = null;
+  private String description;
 
-  private ComAdobeGraniteAuthImsImplIMSInstanceCredentialsValidatorProperties properties = null;
-
+  private ComAdobeGraniteAuthImsImplIMSInstanceCredentialsValidatorProperties properties;
 
   /**
    **/
@@ -98,7 +99,7 @@ public class ComAdobeGraniteAuthImsImplIMSInstanceCredentialsValidatorInfo   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -106,10 +107,10 @@ public class ComAdobeGraniteAuthImsImplIMSInstanceCredentialsValidatorInfo   {
       return false;
     }
     ComAdobeGraniteAuthImsImplIMSInstanceCredentialsValidatorInfo comAdobeGraniteAuthImsImplIMSInstanceCredentialsValidatorInfo = (ComAdobeGraniteAuthImsImplIMSInstanceCredentialsValidatorInfo) o;
-    return Objects.equals(pid, comAdobeGraniteAuthImsImplIMSInstanceCredentialsValidatorInfo.pid) &&
-        Objects.equals(title, comAdobeGraniteAuthImsImplIMSInstanceCredentialsValidatorInfo.title) &&
-        Objects.equals(description, comAdobeGraniteAuthImsImplIMSInstanceCredentialsValidatorInfo.description) &&
-        Objects.equals(properties, comAdobeGraniteAuthImsImplIMSInstanceCredentialsValidatorInfo.properties);
+    return Objects.equals(this.pid, comAdobeGraniteAuthImsImplIMSInstanceCredentialsValidatorInfo.pid) &&
+        Objects.equals(this.title, comAdobeGraniteAuthImsImplIMSInstanceCredentialsValidatorInfo.title) &&
+        Objects.equals(this.description, comAdobeGraniteAuthImsImplIMSInstanceCredentialsValidatorInfo.description) &&
+        Objects.equals(this.properties, comAdobeGraniteAuthImsImplIMSInstanceCredentialsValidatorInfo.properties);
   }
 
   @Override
@@ -134,11 +135,8 @@ public class ComAdobeGraniteAuthImsImplIMSInstanceCredentialsValidatorInfo   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

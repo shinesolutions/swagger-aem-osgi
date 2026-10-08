@@ -2,10 +2,10 @@
 # ComDayCqMcmImplMCMConfigurationProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**experiencePeriodindirection** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**touchpointPeriodindirection** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **experienceIndirection** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **touchpointIndirection** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
 
 
 

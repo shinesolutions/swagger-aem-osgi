@@ -1,0 +1,15 @@
+{
+  "namespace": "model",
+  "type": "record",
+  "doc": "",
+  "name": "ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProProperties",
+  "fields": [
+    {
+      "name": "delete.zip.file",
+      "type": ["null", "model.ConfigNodePropertyBoolean"],
+      "doc": "",
+      "default": null
+    }
+  ]
+
+}

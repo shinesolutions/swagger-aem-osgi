@@ -1,7 +1,9 @@
 
+
 # ComAdobeCqSocialConnectOauthImplTwitterProviderImplProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **oauthProviderId** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
@@ -11,6 +13,7 @@ Name | Type | Description | Notes
 **providerConfigTwitterEnableParams** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
 **providerConfigTwitterParams** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
 **providerConfigRefreshUserdataEnabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
+
 
 
 

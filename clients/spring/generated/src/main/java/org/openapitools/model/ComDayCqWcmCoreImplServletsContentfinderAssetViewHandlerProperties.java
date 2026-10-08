@@ -1,37 +1,48 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerProperties   {
-  @JsonProperty("dam.showexpired")
-  private ConfigNodePropertyBoolean damShowexpired = null;
+@JsonTypeName("comDayCqWcmCoreImplServletsContentfinderAssetViewHandlerProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerProperties {
 
-  @JsonProperty("dam.showhidden")
-  private ConfigNodePropertyBoolean damShowhidden = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean damShowexpired;
 
-  @JsonProperty("tagTitleSearch")
-  private ConfigNodePropertyBoolean tagTitleSearch = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean damShowhidden;
 
-  @JsonProperty("guessTotal")
-  private ConfigNodePropertyString guessTotal = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean tagTitleSearch;
 
-  @JsonProperty("dam.expiryProperty")
-  private ConfigNodePropertyString damExpiryProperty = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString guessTotal;
 
-  public ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerProperties damShowexpired(ConfigNodePropertyBoolean damShowexpired) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString damExpiryProperty;
+
+  public ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerProperties damShowexpired(@Nullable ConfigNodePropertyBoolean damShowexpired) {
     this.damShowexpired = damShowexpired;
     return this;
   }
@@ -39,20 +50,20 @@ public class ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerProperties 
   /**
    * Get damShowexpired
    * @return damShowexpired
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getDamShowexpired() {
+   */
+  @Valid 
+  @Schema(name = "dam.showexpired", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("dam.showexpired")
+  public @Nullable ConfigNodePropertyBoolean getDamShowexpired() {
     return damShowexpired;
   }
 
-  public void setDamShowexpired(ConfigNodePropertyBoolean damShowexpired) {
+  @JsonProperty("dam.showexpired")
+  public void setDamShowexpired(@Nullable ConfigNodePropertyBoolean damShowexpired) {
     this.damShowexpired = damShowexpired;
   }
 
-  public ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerProperties damShowhidden(ConfigNodePropertyBoolean damShowhidden) {
+  public ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerProperties damShowhidden(@Nullable ConfigNodePropertyBoolean damShowhidden) {
     this.damShowhidden = damShowhidden;
     return this;
   }
@@ -60,20 +71,20 @@ public class ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerProperties 
   /**
    * Get damShowhidden
    * @return damShowhidden
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getDamShowhidden() {
+   */
+  @Valid 
+  @Schema(name = "dam.showhidden", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("dam.showhidden")
+  public @Nullable ConfigNodePropertyBoolean getDamShowhidden() {
     return damShowhidden;
   }
 
-  public void setDamShowhidden(ConfigNodePropertyBoolean damShowhidden) {
+  @JsonProperty("dam.showhidden")
+  public void setDamShowhidden(@Nullable ConfigNodePropertyBoolean damShowhidden) {
     this.damShowhidden = damShowhidden;
   }
 
-  public ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerProperties tagTitleSearch(ConfigNodePropertyBoolean tagTitleSearch) {
+  public ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerProperties tagTitleSearch(@Nullable ConfigNodePropertyBoolean tagTitleSearch) {
     this.tagTitleSearch = tagTitleSearch;
     return this;
   }
@@ -81,20 +92,20 @@ public class ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerProperties 
   /**
    * Get tagTitleSearch
    * @return tagTitleSearch
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getTagTitleSearch() {
+   */
+  @Valid 
+  @Schema(name = "tagTitleSearch", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("tagTitleSearch")
+  public @Nullable ConfigNodePropertyBoolean getTagTitleSearch() {
     return tagTitleSearch;
   }
 
-  public void setTagTitleSearch(ConfigNodePropertyBoolean tagTitleSearch) {
+  @JsonProperty("tagTitleSearch")
+  public void setTagTitleSearch(@Nullable ConfigNodePropertyBoolean tagTitleSearch) {
     this.tagTitleSearch = tagTitleSearch;
   }
 
-  public ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerProperties guessTotal(ConfigNodePropertyString guessTotal) {
+  public ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerProperties guessTotal(@Nullable ConfigNodePropertyString guessTotal) {
     this.guessTotal = guessTotal;
     return this;
   }
@@ -102,20 +113,20 @@ public class ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerProperties 
   /**
    * Get guessTotal
    * @return guessTotal
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getGuessTotal() {
+   */
+  @Valid 
+  @Schema(name = "guessTotal", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("guessTotal")
+  public @Nullable ConfigNodePropertyString getGuessTotal() {
     return guessTotal;
   }
 
-  public void setGuessTotal(ConfigNodePropertyString guessTotal) {
+  @JsonProperty("guessTotal")
+  public void setGuessTotal(@Nullable ConfigNodePropertyString guessTotal) {
     this.guessTotal = guessTotal;
   }
 
-  public ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerProperties damExpiryProperty(ConfigNodePropertyString damExpiryProperty) {
+  public ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerProperties damExpiryProperty(@Nullable ConfigNodePropertyString damExpiryProperty) {
     this.damExpiryProperty = damExpiryProperty;
     return this;
   }
@@ -123,22 +134,21 @@ public class ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerProperties 
   /**
    * Get damExpiryProperty
    * @return damExpiryProperty
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getDamExpiryProperty() {
+   */
+  @Valid 
+  @Schema(name = "dam.expiryProperty", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("dam.expiryProperty")
+  public @Nullable ConfigNodePropertyString getDamExpiryProperty() {
     return damExpiryProperty;
   }
 
-  public void setDamExpiryProperty(ConfigNodePropertyString damExpiryProperty) {
+  @JsonProperty("dam.expiryProperty")
+  public void setDamExpiryProperty(@Nullable ConfigNodePropertyString damExpiryProperty) {
     this.damExpiryProperty = damExpiryProperty;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -162,7 +172,6 @@ public class ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerProperties 
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerProperties {\n");
-    
     sb.append("    damShowexpired: ").append(toIndentedString(damShowexpired)).append("\n");
     sb.append("    damShowhidden: ").append(toIndentedString(damShowhidden)).append("\n");
     sb.append("    tagTitleSearch: ").append(toIndentedString(tagTitleSearch)).append("\n");
@@ -176,11 +185,8 @@ public class ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerProperties 
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

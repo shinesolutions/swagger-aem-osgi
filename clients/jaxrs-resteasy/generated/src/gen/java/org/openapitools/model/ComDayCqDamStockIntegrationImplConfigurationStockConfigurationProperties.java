@@ -4,23 +4,27 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2019-08-05T00:59:30.156Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2026-10-07T12:54:21.614735164Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqDamStockIntegrationImplConfigurationStockConfigurationProperties   {
   
-  private ConfigNodePropertyString name = null;
-  private ConfigNodePropertyString locale = null;
-  private ConfigNodePropertyString imsConfig = null;
+  private ConfigNodePropertyString name;
+  private ConfigNodePropertyString locale;
+  private ConfigNodePropertyString imsConfig;
 
   /**
    **/
   
   @ApiModelProperty(value = "")
   @JsonProperty("name")
+  @Valid
   public ConfigNodePropertyString getName() {
     return name;
   }
@@ -33,6 +37,7 @@ public class ComDayCqDamStockIntegrationImplConfigurationStockConfigurationPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("locale")
+  @Valid
   public ConfigNodePropertyString getLocale() {
     return locale;
   }
@@ -45,6 +50,7 @@ public class ComDayCqDamStockIntegrationImplConfigurationStockConfigurationPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("imsConfig")
+  @Valid
   public ConfigNodePropertyString getImsConfig() {
     return imsConfig;
   }
@@ -54,7 +60,7 @@ public class ComDayCqDamStockIntegrationImplConfigurationStockConfigurationPrope
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -62,9 +68,9 @@ public class ComDayCqDamStockIntegrationImplConfigurationStockConfigurationPrope
       return false;
     }
     ComDayCqDamStockIntegrationImplConfigurationStockConfigurationProperties comDayCqDamStockIntegrationImplConfigurationStockConfigurationProperties = (ComDayCqDamStockIntegrationImplConfigurationStockConfigurationProperties) o;
-    return Objects.equals(name, comDayCqDamStockIntegrationImplConfigurationStockConfigurationProperties.name) &&
-        Objects.equals(locale, comDayCqDamStockIntegrationImplConfigurationStockConfigurationProperties.locale) &&
-        Objects.equals(imsConfig, comDayCqDamStockIntegrationImplConfigurationStockConfigurationProperties.imsConfig);
+    return Objects.equals(this.name, comDayCqDamStockIntegrationImplConfigurationStockConfigurationProperties.name) &&
+        Objects.equals(this.locale, comDayCqDamStockIntegrationImplConfigurationStockConfigurationProperties.locale) &&
+        Objects.equals(this.imsConfig, comDayCqDamStockIntegrationImplConfigurationStockConfigurationProperties.imsConfig);
   }
 
   @Override
@@ -88,11 +94,8 @@ public class ComDayCqDamStockIntegrationImplConfigurationStockConfigurationPrope
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -72,9 +72,9 @@ private class OASComAdobeGraniteRepositoryHcImplDiTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeGraniteRepositoryHcImplDi comAdobeGraniteRepositoryHcImplDiskSpaceHealthCheckProperties = new OASComAdobeGraniteRepositoryHcImplDi();
-        Map<String, String> propertyMappings = comAdobeGraniteRepositoryHcImplDiskSpaceHealthCheckProperties.getPropertyMappings();
-        System.assertEquals('hcTags', propertyMappings.get('hc.tags'));
-        System.assertEquals('diskSpaceWarnThreshold', propertyMappings.get('disk.space.warn.threshold'));
-        System.assertEquals('diskSpaceErrorThreshold', propertyMappings.get('disk.space.error.threshold'));
+        Map<String, String> x-property-mappings = comAdobeGraniteRepositoryHcImplDiskSpaceHealthCheckProperties.getx-property-mappings();
+        System.assertEquals('hcTags', x-property-mappings.get('hc.tags'));
+        System.assertEquals('diskSpaceWarnThreshold', x-property-mappings.get('disk.space.warn.threshold'));
+        System.assertEquals('diskSpaceErrorThreshold', x-property-mappings.get('disk.space.error.threshold'));
     }
 }

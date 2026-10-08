@@ -1,27 +1,38 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCoProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCoProperties   {
-  @JsonProperty("solr.home.path")
-  private ConfigNodePropertyString solrHomePath = null;
+@JsonTypeName("orgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCoProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCoProperties {
 
-  @JsonProperty("solr.core.name")
-  private ConfigNodePropertyString solrCoreName = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString solrHomePath;
 
-  public OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCoProperties solrHomePath(ConfigNodePropertyString solrHomePath) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString solrCoreName;
+
+  public OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCoProperties solrHomePath(@Nullable ConfigNodePropertyString solrHomePath) {
     this.solrHomePath = solrHomePath;
     return this;
   }
@@ -29,20 +40,20 @@ public class OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCoPrope
   /**
    * Get solrHomePath
    * @return solrHomePath
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getSolrHomePath() {
+   */
+  @Valid 
+  @Schema(name = "solr.home.path", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("solr.home.path")
+  public @Nullable ConfigNodePropertyString getSolrHomePath() {
     return solrHomePath;
   }
 
-  public void setSolrHomePath(ConfigNodePropertyString solrHomePath) {
+  @JsonProperty("solr.home.path")
+  public void setSolrHomePath(@Nullable ConfigNodePropertyString solrHomePath) {
     this.solrHomePath = solrHomePath;
   }
 
-  public OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCoProperties solrCoreName(ConfigNodePropertyString solrCoreName) {
+  public OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCoProperties solrCoreName(@Nullable ConfigNodePropertyString solrCoreName) {
     this.solrCoreName = solrCoreName;
     return this;
   }
@@ -50,22 +61,21 @@ public class OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCoPrope
   /**
    * Get solrCoreName
    * @return solrCoreName
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getSolrCoreName() {
+   */
+  @Valid 
+  @Schema(name = "solr.core.name", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("solr.core.name")
+  public @Nullable ConfigNodePropertyString getSolrCoreName() {
     return solrCoreName;
   }
 
-  public void setSolrCoreName(ConfigNodePropertyString solrCoreName) {
+  @JsonProperty("solr.core.name")
+  public void setSolrCoreName(@Nullable ConfigNodePropertyString solrCoreName) {
     this.solrCoreName = solrCoreName;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -86,7 +96,6 @@ public class OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCoPrope
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCoProperties {\n");
-    
     sb.append("    solrHomePath: ").append(toIndentedString(solrHomePath)).append("\n");
     sb.append("    solrCoreName: ").append(toIndentedString(solrCoreName)).append("\n");
     sb.append("}");
@@ -97,11 +106,8 @@ public class OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCoPrope
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

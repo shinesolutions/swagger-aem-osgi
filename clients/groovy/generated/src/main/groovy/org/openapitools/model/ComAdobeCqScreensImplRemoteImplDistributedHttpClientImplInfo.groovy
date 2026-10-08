@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqScreensImplRemoteImplDistributedHttpClie
 
 @Canonical
 class ComAdobeCqScreensImplRemoteImplDistributedHttpClientImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqScreensImplRemoteImplDistributedHttpClientImplProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqScreensImplRemoteImplDistributedHttpClientImplProperties properties
 }

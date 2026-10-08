@@ -1,19 +1,30 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comDayCqMcmImplMCMConfigurationProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqMcmImplMCMConfigurationProperties   {
-  
-  private @Valid ConfigNodePropertyArray experienceIndirection = null;
-  private @Valid ConfigNodePropertyArray touchpointIndirection = null;
+  private ConfigNodePropertyArray experienceIndirection;
+  private ConfigNodePropertyArray touchpointIndirection;
+
+  public ComDayCqMcmImplMCMConfigurationProperties() {
+  }
 
   /**
    **/
@@ -25,9 +36,11 @@ public class ComDayCqMcmImplMCMConfigurationProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("experience.indirection")
-  public ConfigNodePropertyArray getExperienceIndirection() {
+  @Valid public ConfigNodePropertyArray getExperienceIndirection() {
     return experienceIndirection;
   }
+
+  @JsonProperty("experience.indirection")
   public void setExperienceIndirection(ConfigNodePropertyArray experienceIndirection) {
     this.experienceIndirection = experienceIndirection;
   }
@@ -42,16 +55,18 @@ public class ComDayCqMcmImplMCMConfigurationProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("touchpoint.indirection")
-  public ConfigNodePropertyArray getTouchpointIndirection() {
+  @Valid public ConfigNodePropertyArray getTouchpointIndirection() {
     return touchpointIndirection;
   }
+
+  @JsonProperty("touchpoint.indirection")
   public void setTouchpointIndirection(ConfigNodePropertyArray touchpointIndirection) {
     this.touchpointIndirection = touchpointIndirection;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -59,8 +74,8 @@ public class ComDayCqMcmImplMCMConfigurationProperties   {
       return false;
     }
     ComDayCqMcmImplMCMConfigurationProperties comDayCqMcmImplMCMConfigurationProperties = (ComDayCqMcmImplMCMConfigurationProperties) o;
-    return Objects.equals(experienceIndirection, comDayCqMcmImplMCMConfigurationProperties.experienceIndirection) &&
-        Objects.equals(touchpointIndirection, comDayCqMcmImplMCMConfigurationProperties.touchpointIndirection);
+    return Objects.equals(this.experienceIndirection, comDayCqMcmImplMCMConfigurationProperties.experienceIndirection) &&
+        Objects.equals(this.touchpointIndirection, comDayCqMcmImplMCMConfigurationProperties.touchpointIndirection);
   }
 
   @Override
@@ -83,11 +98,9 @@ public class ComDayCqMcmImplMCMConfigurationProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

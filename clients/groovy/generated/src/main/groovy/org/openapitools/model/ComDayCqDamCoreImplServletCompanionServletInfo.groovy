@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqDamCoreImplServletCompanionServletProperti
 
 @Canonical
 class ComDayCqDamCoreImplServletCompanionServletInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqDamCoreImplServletCompanionServletProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqDamCoreImplServletCompanionServletProperties properties
 }

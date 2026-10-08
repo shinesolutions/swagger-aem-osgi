@@ -72,7 +72,7 @@ private class OASComAdobeCqCommerceImplAssetProducTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeCqCommerceImplAssetProduc comAdobeCqCommerceImplAssetProductAssetHandlerProviderImplProperties = new OASComAdobeCqCommerceImplAssetProduc();
-        Map<String, String> propertyMappings = comAdobeCqCommerceImplAssetProductAssetHandlerProviderImplProperties.getPropertyMappings();
-        System.assertEquals('cqCommerceAssetHandlerFallback', propertyMappings.get('cq.commerce.asset.handler.fallback'));
+        Map<String, String> x-property-mappings = comAdobeCqCommerceImplAssetProductAssetHandlerProviderImplProperties.getx-property-mappings();
+        System.assertEquals('cqCommerceAssetHandlerFallback', x-property-mappings.get('cq.commerce.asset.handler.fallback'));
     }
 }

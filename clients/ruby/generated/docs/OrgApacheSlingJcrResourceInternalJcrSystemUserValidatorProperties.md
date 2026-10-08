@@ -2,16 +2,17 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**allow_only_system_user** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **allow_only_system_user** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::OrgApacheSlingJcrResourceInternalJcrSystemUserValidatorProperties.new(allow_only_system_user: null)
+instance = SwaggerAemOsgiClient::OrgApacheSlingJcrResourceInternalJcrSystemUserValidatorProperties.new(
+  allow_only_system_user: null
+)
 ```
-
 

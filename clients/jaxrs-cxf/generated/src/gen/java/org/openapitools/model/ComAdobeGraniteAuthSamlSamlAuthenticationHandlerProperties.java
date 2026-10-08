@@ -1,5 +1,6 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyDropDown;
@@ -9,120 +10,167 @@ import javax.validation.constraints.*;
 import javax.validation.Valid;
 
 import io.swagger.annotations.ApiModelProperty;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlType;
-import javax.xml.bind.annotation.XmlEnum;
-import javax.xml.bind.annotation.XmlEnumValue;
+import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
 
 public class ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties  {
   
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyArray path = null;
+
+  private ConfigNodePropertyArray path;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyInteger serviceRanking = null;
+
+  private ConfigNodePropertyInteger serviceRanking;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyString idpUrl = null;
+
+  private ConfigNodePropertyString idpUrl;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyString idpCertAlias = null;
+
+  private ConfigNodePropertyString idpCertAlias;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyBoolean idpHttpRedirect = null;
+
+  private ConfigNodePropertyBoolean idpHttpRedirect;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyString serviceProviderEntityId = null;
+
+  private ConfigNodePropertyString serviceProviderEntityId;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyString assertionConsumerServiceURL = null;
+
+  private ConfigNodePropertyString assertionConsumerServiceURL;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyString spPrivateKeyAlias = null;
+
+  private ConfigNodePropertyString spPrivateKeyAlias;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyString keyStorePassword = null;
+
+  private ConfigNodePropertyString keyStorePassword;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyString defaultRedirectUrl = null;
+
+  private ConfigNodePropertyString defaultRedirectUrl;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyString userIDAttribute = null;
+
+  private ConfigNodePropertyString userIDAttribute;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyBoolean useEncryption = null;
+
+  private ConfigNodePropertyBoolean useEncryption;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyBoolean createUser = null;
+
+  private ConfigNodePropertyBoolean createUser;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyString userIntermediatePath = null;
+
+  private ConfigNodePropertyString userIntermediatePath;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyBoolean addGroupMemberships = null;
+
+  private ConfigNodePropertyBoolean addGroupMemberships;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyString groupMembershipAttribute = null;
+
+  private ConfigNodePropertyString groupMembershipAttribute;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyArray defaultGroups = null;
+
+  private ConfigNodePropertyArray defaultGroups;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyString nameIdFormat = null;
+
+  private ConfigNodePropertyString nameIdFormat;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyArray synchronizeAttributes = null;
+
+  private ConfigNodePropertyArray synchronizeAttributes;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyBoolean handleLogout = null;
+
+  private ConfigNodePropertyBoolean handleLogout;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyString logoutUrl = null;
+
+  private ConfigNodePropertyString logoutUrl;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyInteger clockTolerance = null;
+
+  private ConfigNodePropertyInteger clockTolerance;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyString digestMethod = null;
+
+  private ConfigNodePropertyString digestMethod;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyString signatureMethod = null;
+
+  private ConfigNodePropertyString signatureMethod;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyDropDown identitySyncType = null;
+
+  private ConfigNodePropertyDropDown identitySyncType;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyString idpIdentifier = null;
+
+  private ConfigNodePropertyString idpIdentifier;
  /**
    * Get path
    * @return path
@@ -591,6 +639,47 @@ public class ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties  {
     return this;
   }
 
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties comAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties = (ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties) o;
+    return Objects.equals(this.path, comAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties.path) &&
+        Objects.equals(this.serviceRanking, comAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties.serviceRanking) &&
+        Objects.equals(this.idpUrl, comAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties.idpUrl) &&
+        Objects.equals(this.idpCertAlias, comAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties.idpCertAlias) &&
+        Objects.equals(this.idpHttpRedirect, comAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties.idpHttpRedirect) &&
+        Objects.equals(this.serviceProviderEntityId, comAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties.serviceProviderEntityId) &&
+        Objects.equals(this.assertionConsumerServiceURL, comAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties.assertionConsumerServiceURL) &&
+        Objects.equals(this.spPrivateKeyAlias, comAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties.spPrivateKeyAlias) &&
+        Objects.equals(this.keyStorePassword, comAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties.keyStorePassword) &&
+        Objects.equals(this.defaultRedirectUrl, comAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties.defaultRedirectUrl) &&
+        Objects.equals(this.userIDAttribute, comAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties.userIDAttribute) &&
+        Objects.equals(this.useEncryption, comAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties.useEncryption) &&
+        Objects.equals(this.createUser, comAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties.createUser) &&
+        Objects.equals(this.userIntermediatePath, comAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties.userIntermediatePath) &&
+        Objects.equals(this.addGroupMemberships, comAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties.addGroupMemberships) &&
+        Objects.equals(this.groupMembershipAttribute, comAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties.groupMembershipAttribute) &&
+        Objects.equals(this.defaultGroups, comAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties.defaultGroups) &&
+        Objects.equals(this.nameIdFormat, comAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties.nameIdFormat) &&
+        Objects.equals(this.synchronizeAttributes, comAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties.synchronizeAttributes) &&
+        Objects.equals(this.handleLogout, comAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties.handleLogout) &&
+        Objects.equals(this.logoutUrl, comAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties.logoutUrl) &&
+        Objects.equals(this.clockTolerance, comAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties.clockTolerance) &&
+        Objects.equals(this.digestMethod, comAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties.digestMethod) &&
+        Objects.equals(this.signatureMethod, comAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties.signatureMethod) &&
+        Objects.equals(this.identitySyncType, comAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties.identitySyncType) &&
+        Objects.equals(this.idpIdentifier, comAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties.idpIdentifier);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(path, serviceRanking, idpUrl, idpCertAlias, idpHttpRedirect, serviceProviderEntityId, assertionConsumerServiceURL, spPrivateKeyAlias, keyStorePassword, defaultRedirectUrl, userIDAttribute, useEncryption, createUser, userIntermediatePath, addGroupMemberships, groupMembershipAttribute, defaultGroups, nameIdFormat, synchronizeAttributes, handleLogout, logoutUrl, clockTolerance, digestMethod, signatureMethod, identitySyncType, idpIdentifier);
+  }
 
   @Override
   public String toString() {
@@ -631,11 +720,8 @@ public class ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties  {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private static String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

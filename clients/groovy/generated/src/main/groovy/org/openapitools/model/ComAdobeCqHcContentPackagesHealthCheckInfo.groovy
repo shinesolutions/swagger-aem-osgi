@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqHcContentPackagesHealthCheckProperties;
 
 @Canonical
 class ComAdobeCqHcContentPackagesHealthCheckInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqHcContentPackagesHealthCheckProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqHcContentPackagesHealthCheckProperties properties
 }

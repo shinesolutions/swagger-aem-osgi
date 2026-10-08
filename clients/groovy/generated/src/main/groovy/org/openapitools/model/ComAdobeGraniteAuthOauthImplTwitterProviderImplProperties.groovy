@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeGraniteAuthOauthImplTwitterProviderImplProperties {
-    ConfigNodePropertyString oauthProviderId = null
-
+    
+    ConfigNodePropertyString oauthProviderId
 }

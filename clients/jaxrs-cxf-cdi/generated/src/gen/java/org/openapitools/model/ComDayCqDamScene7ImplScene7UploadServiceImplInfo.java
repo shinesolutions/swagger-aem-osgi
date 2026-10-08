@@ -2,27 +2,28 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ComDayCqDamScene7ImplScene7UploadServiceImplProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class ComDayCqDamScene7ImplScene7UploadServiceImplInfo   {
   
-  private String pid = null;
+  private String pid;
 
-  private String title = null;
+  private String title;
 
-  private String description = null;
+  private String description;
 
-  private ComDayCqDamScene7ImplScene7UploadServiceImplProperties properties = null;
-
+  private ComDayCqDamScene7ImplScene7UploadServiceImplProperties properties;
 
   /**
    **/
@@ -98,7 +99,7 @@ public class ComDayCqDamScene7ImplScene7UploadServiceImplInfo   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -106,10 +107,10 @@ public class ComDayCqDamScene7ImplScene7UploadServiceImplInfo   {
       return false;
     }
     ComDayCqDamScene7ImplScene7UploadServiceImplInfo comDayCqDamScene7ImplScene7UploadServiceImplInfo = (ComDayCqDamScene7ImplScene7UploadServiceImplInfo) o;
-    return Objects.equals(pid, comDayCqDamScene7ImplScene7UploadServiceImplInfo.pid) &&
-        Objects.equals(title, comDayCqDamScene7ImplScene7UploadServiceImplInfo.title) &&
-        Objects.equals(description, comDayCqDamScene7ImplScene7UploadServiceImplInfo.description) &&
-        Objects.equals(properties, comDayCqDamScene7ImplScene7UploadServiceImplInfo.properties);
+    return Objects.equals(this.pid, comDayCqDamScene7ImplScene7UploadServiceImplInfo.pid) &&
+        Objects.equals(this.title, comDayCqDamScene7ImplScene7UploadServiceImplInfo.title) &&
+        Objects.equals(this.description, comDayCqDamScene7ImplScene7UploadServiceImplInfo.description) &&
+        Objects.equals(this.properties, comDayCqDamScene7ImplScene7UploadServiceImplInfo.properties);
   }
 
   @Override
@@ -134,11 +135,8 @@ public class ComDayCqDamScene7ImplScene7UploadServiceImplInfo   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

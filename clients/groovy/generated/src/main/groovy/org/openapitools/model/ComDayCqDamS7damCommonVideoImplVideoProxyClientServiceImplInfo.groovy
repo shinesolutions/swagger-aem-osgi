@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqDamS7damCommonVideoImplVideoProxyClientSer
 
 @Canonical
 class ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplProperties properties
 }

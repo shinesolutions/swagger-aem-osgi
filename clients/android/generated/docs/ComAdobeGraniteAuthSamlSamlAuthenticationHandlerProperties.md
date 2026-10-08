@@ -1,7 +1,9 @@
 
+
 # ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **path** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
@@ -30,6 +32,7 @@ Name | Type | Description | Notes
 **signatureMethod** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
 **identitySyncType** | [**ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md) |  |  [optional]
 **idpIdentifier** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
+
 
 
 

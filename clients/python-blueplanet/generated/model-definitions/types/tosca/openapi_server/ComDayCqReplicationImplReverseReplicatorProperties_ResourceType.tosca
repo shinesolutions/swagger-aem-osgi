@@ -1,0 +1,36 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqReplicationImplReverseReplicatorProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqReplicationImplReverseReplicatorProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+}
+resourceTypes {
+
+  ComDayCqReplicationImplReverseReplicatorProperties {
+    title = ComDayCqReplicationImplReverseReplicatorProperties
+    description = ComDayCqReplicationImplReverseReplicatorProperties
+    derivedFrom = Root
+    properties {
+        scheduler_period {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqReplicationImplReverseReplicatorProperties {
+    title = ComDayCqReplicationImplReverseReplicatorProperties
+    description = ComDayCqReplicationImplReverseReplicatorProperties
+    implements = openapi_server.resourceTypes.ComDayCqReplicationImplReverseReplicatorProperties
+
+  }
+}

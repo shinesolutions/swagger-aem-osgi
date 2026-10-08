@@ -1,28 +1,29 @@
 # OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**name** | [***::models::ConfigNodePropertyString**](configNodePropertyString.md) |  | [optional] 
-**title** | [***::models::ConfigNodePropertyString**](configNodePropertyString.md) |  | [optional] 
-**details** | [***::models::ConfigNodePropertyString**](configNodePropertyString.md) |  | [optional] 
-**enabled** | [***::models::ConfigNodePropertyBoolean**](configNodePropertyBoolean.md) |  | [optional] 
-**service_name** | [***::models::ConfigNodePropertyString**](configNodePropertyString.md) |  | [optional] 
-**log_level** | [***::models::ConfigNodePropertyDropDown**](configNodePropertyDropDown.md) |  | [optional] 
-**allowed_roots** | [***::models::ConfigNodePropertyArray**](configNodePropertyArray.md) |  | [optional] 
-**queue_processing_enabled** | [***::models::ConfigNodePropertyBoolean**](configNodePropertyBoolean.md) |  | [optional] 
-**package_importer_endpoints** | [***::models::ConfigNodePropertyArray**](configNodePropertyArray.md) |  | [optional] 
-**passive_queues** | [***::models::ConfigNodePropertyArray**](configNodePropertyArray.md) |  | [optional] 
-**priority_queues** | [***::models::ConfigNodePropertyArray**](configNodePropertyArray.md) |  | [optional] 
-**retry_strategy** | [***::models::ConfigNodePropertyDropDown**](configNodePropertyDropDown.md) |  | [optional] 
-**retry_attempts** | [***::models::ConfigNodePropertyInteger**](configNodePropertyInteger.md) |  | [optional] 
-**request_authorization_strategy_target** | [***::models::ConfigNodePropertyString**](configNodePropertyString.md) |  | [optional] 
-**transport_secret_provider_target** | [***::models::ConfigNodePropertyString**](configNodePropertyString.md) |  | [optional] 
-**package_builder_target** | [***::models::ConfigNodePropertyString**](configNodePropertyString.md) |  | [optional] 
-**triggers_target** | [***::models::ConfigNodePropertyString**](configNodePropertyString.md) |  | [optional] 
-**queue_provider** | [***::models::ConfigNodePropertyDropDown**](configNodePropertyDropDown.md) |  | [optional] 
-**async_delivery** | [***::models::ConfigNodePropertyBoolean**](configNodePropertyBoolean.md) |  | [optional] 
-**http_conn_timeout** | [***::models::ConfigNodePropertyInteger**](configNodePropertyInteger.md) |  | [optional] 
+**name** | Option<[**models::ConfigNodePropertyString**](ConfigNodePropertyString.md)> |  | [optional]
+**title** | Option<[**models::ConfigNodePropertyString**](ConfigNodePropertyString.md)> |  | [optional]
+**details** | Option<[**models::ConfigNodePropertyString**](ConfigNodePropertyString.md)> |  | [optional]
+**enabled** | Option<[**models::ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md)> |  | [optional]
+**service_name** | Option<[**models::ConfigNodePropertyString**](ConfigNodePropertyString.md)> |  | [optional]
+**log_level** | Option<[**models::ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md)> |  | [optional]
+**allowed_roots** | Option<[**models::ConfigNodePropertyArray**](ConfigNodePropertyArray.md)> |  | [optional]
+**queue_processing_enabled** | Option<[**models::ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md)> |  | [optional]
+**package_importer_endpoints** | Option<[**models::ConfigNodePropertyArray**](ConfigNodePropertyArray.md)> |  | [optional]
+**passive_queues** | Option<[**models::ConfigNodePropertyArray**](ConfigNodePropertyArray.md)> |  | [optional]
+**priority_queues** | Option<[**models::ConfigNodePropertyArray**](ConfigNodePropertyArray.md)> |  | [optional]
+**retry_strategy** | Option<[**models::ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md)> |  | [optional]
+**retry_attempts** | Option<[**models::ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md)> |  | [optional]
+**request_authorization_strategy_target** | Option<[**models::ConfigNodePropertyString**](ConfigNodePropertyString.md)> |  | [optional]
+**transport_secret_provider_target** | Option<[**models::ConfigNodePropertyString**](ConfigNodePropertyString.md)> |  | [optional]
+**package_builder_target** | Option<[**models::ConfigNodePropertyString**](ConfigNodePropertyString.md)> |  | [optional]
+**triggers_target** | Option<[**models::ConfigNodePropertyString**](ConfigNodePropertyString.md)> |  | [optional]
+**queue_provider** | Option<[**models::ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md)> |  | [optional]
+**async_delivery** | Option<[**models::ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md)> |  | [optional]
+**http_conn_timeout** | Option<[**models::ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md)> |  | [optional]
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

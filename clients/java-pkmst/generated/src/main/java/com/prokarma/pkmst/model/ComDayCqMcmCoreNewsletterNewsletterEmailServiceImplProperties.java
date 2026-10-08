@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyString;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
@@ -15,27 +16,26 @@ import io.swagger.annotations.ApiModelProperty;
  * ComDayCqMcmCoreNewsletterNewsletterEmailServiceImplProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqMcmCoreNewsletterNewsletterEmailServiceImplProperties   {
   @JsonProperty("from.address")
-  private ConfigNodePropertyString fromAddress = null;
+  private ConfigNodePropertyString fromAddress;
 
   @JsonProperty("sender.host")
-  private ConfigNodePropertyString senderHost = null;
+  private ConfigNodePropertyString senderHost;
 
   @JsonProperty("max.bounce.count")
-  private ConfigNodePropertyString maxBounceCount = null;
+  private ConfigNodePropertyString maxBounceCount;
 
   public ComDayCqMcmCoreNewsletterNewsletterEmailServiceImplProperties fromAddress(ConfigNodePropertyString fromAddress) {
     this.fromAddress = fromAddress;
     return this;
   }
 
-   /**
+  /**
    * Get fromAddress
    * @return fromAddress
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getFromAddress() {
     return fromAddress;
@@ -50,10 +50,10 @@ public class ComDayCqMcmCoreNewsletterNewsletterEmailServiceImplProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get senderHost
    * @return senderHost
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getSenderHost() {
     return senderHost;
@@ -68,10 +68,10 @@ public class ComDayCqMcmCoreNewsletterNewsletterEmailServiceImplProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get maxBounceCount
    * @return maxBounceCount
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getMaxBounceCount() {
     return maxBounceCount;
@@ -83,7 +83,7 @@ public class ComDayCqMcmCoreNewsletterNewsletterEmailServiceImplProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -117,11 +117,8 @@ public class ComDayCqMcmCoreNewsletterNewsletterEmailServiceImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

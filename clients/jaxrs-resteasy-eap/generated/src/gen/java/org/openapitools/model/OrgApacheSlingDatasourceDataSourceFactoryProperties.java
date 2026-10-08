@@ -4,6 +4,7 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
@@ -12,70 +13,41 @@ import org.openapitools.model.ConfigNodePropertyDropDown;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2019-08-05T01:00:05.540Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2026-10-07T12:54:26.576036107Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingDatasourceDataSourceFactoryProperties   {
   
-
-  private ConfigNodePropertyString datasourceName = null;
-
-  private ConfigNodePropertyString datasourceSvcPropName = null;
-
-  private ConfigNodePropertyString driverClassName = null;
-
-  private ConfigNodePropertyString url = null;
-
-  private ConfigNodePropertyString username = null;
-
-  private ConfigNodePropertyString password = null;
-
-  private ConfigNodePropertyDropDown defaultAutoCommit = null;
-
-  private ConfigNodePropertyDropDown defaultReadOnly = null;
-
-  private ConfigNodePropertyDropDown defaultTransactionIsolation = null;
-
-  private ConfigNodePropertyString defaultCatalog = null;
-
-  private ConfigNodePropertyInteger maxActive = null;
-
-  private ConfigNodePropertyInteger maxIdle = null;
-
-  private ConfigNodePropertyInteger minIdle = null;
-
-  private ConfigNodePropertyInteger initialSize = null;
-
-  private ConfigNodePropertyInteger maxWait = null;
-
-  private ConfigNodePropertyInteger maxAge = null;
-
-  private ConfigNodePropertyBoolean testOnBorrow = null;
-
-  private ConfigNodePropertyBoolean testOnReturn = null;
-
-  private ConfigNodePropertyBoolean testWhileIdle = null;
-
-  private ConfigNodePropertyString validationQuery = null;
-
-  private ConfigNodePropertyInteger validationQueryTimeout = null;
-
-  private ConfigNodePropertyInteger timeBetweenEvictionRunsMillis = null;
-
-  private ConfigNodePropertyInteger minEvictableIdleTimeMillis = null;
-
-  private ConfigNodePropertyString connectionProperties = null;
-
-  private ConfigNodePropertyString initSQL = null;
-
-  private ConfigNodePropertyString jdbcInterceptors = null;
-
-  private ConfigNodePropertyInteger validationInterval = null;
-
-  private ConfigNodePropertyBoolean logValidationErrors = null;
-
-  private ConfigNodePropertyArray datasourceSvcProperties = null;
+  private ConfigNodePropertyString datasourceName;
+  private ConfigNodePropertyString datasourceSvcPropName;
+  private ConfigNodePropertyString driverClassName;
+  private ConfigNodePropertyString url;
+  private ConfigNodePropertyString username;
+  private ConfigNodePropertyString password;
+  private ConfigNodePropertyDropDown defaultAutoCommit;
+  private ConfigNodePropertyDropDown defaultReadOnly;
+  private ConfigNodePropertyDropDown defaultTransactionIsolation;
+  private ConfigNodePropertyString defaultCatalog;
+  private ConfigNodePropertyInteger maxActive;
+  private ConfigNodePropertyInteger maxIdle;
+  private ConfigNodePropertyInteger minIdle;
+  private ConfigNodePropertyInteger initialSize;
+  private ConfigNodePropertyInteger maxWait;
+  private ConfigNodePropertyInteger maxAge;
+  private ConfigNodePropertyBoolean testOnBorrow;
+  private ConfigNodePropertyBoolean testOnReturn;
+  private ConfigNodePropertyBoolean testWhileIdle;
+  private ConfigNodePropertyString validationQuery;
+  private ConfigNodePropertyInteger validationQueryTimeout;
+  private ConfigNodePropertyInteger timeBetweenEvictionRunsMillis;
+  private ConfigNodePropertyInteger minEvictableIdleTimeMillis;
+  private ConfigNodePropertyString connectionProperties;
+  private ConfigNodePropertyString initSQL;
+  private ConfigNodePropertyString jdbcInterceptors;
+  private ConfigNodePropertyInteger validationInterval;
+  private ConfigNodePropertyBoolean logValidationErrors;
+  private ConfigNodePropertyArray datasourceSvcProperties;
 
   /**
    **/
@@ -435,35 +407,35 @@ public class OrgApacheSlingDatasourceDataSourceFactoryProperties   {
       return false;
     }
     OrgApacheSlingDatasourceDataSourceFactoryProperties orgApacheSlingDatasourceDataSourceFactoryProperties = (OrgApacheSlingDatasourceDataSourceFactoryProperties) o;
-    return Objects.equals(datasourceName, orgApacheSlingDatasourceDataSourceFactoryProperties.datasourceName) &&
-        Objects.equals(datasourceSvcPropName, orgApacheSlingDatasourceDataSourceFactoryProperties.datasourceSvcPropName) &&
-        Objects.equals(driverClassName, orgApacheSlingDatasourceDataSourceFactoryProperties.driverClassName) &&
-        Objects.equals(url, orgApacheSlingDatasourceDataSourceFactoryProperties.url) &&
-        Objects.equals(username, orgApacheSlingDatasourceDataSourceFactoryProperties.username) &&
-        Objects.equals(password, orgApacheSlingDatasourceDataSourceFactoryProperties.password) &&
-        Objects.equals(defaultAutoCommit, orgApacheSlingDatasourceDataSourceFactoryProperties.defaultAutoCommit) &&
-        Objects.equals(defaultReadOnly, orgApacheSlingDatasourceDataSourceFactoryProperties.defaultReadOnly) &&
-        Objects.equals(defaultTransactionIsolation, orgApacheSlingDatasourceDataSourceFactoryProperties.defaultTransactionIsolation) &&
-        Objects.equals(defaultCatalog, orgApacheSlingDatasourceDataSourceFactoryProperties.defaultCatalog) &&
-        Objects.equals(maxActive, orgApacheSlingDatasourceDataSourceFactoryProperties.maxActive) &&
-        Objects.equals(maxIdle, orgApacheSlingDatasourceDataSourceFactoryProperties.maxIdle) &&
-        Objects.equals(minIdle, orgApacheSlingDatasourceDataSourceFactoryProperties.minIdle) &&
-        Objects.equals(initialSize, orgApacheSlingDatasourceDataSourceFactoryProperties.initialSize) &&
-        Objects.equals(maxWait, orgApacheSlingDatasourceDataSourceFactoryProperties.maxWait) &&
-        Objects.equals(maxAge, orgApacheSlingDatasourceDataSourceFactoryProperties.maxAge) &&
-        Objects.equals(testOnBorrow, orgApacheSlingDatasourceDataSourceFactoryProperties.testOnBorrow) &&
-        Objects.equals(testOnReturn, orgApacheSlingDatasourceDataSourceFactoryProperties.testOnReturn) &&
-        Objects.equals(testWhileIdle, orgApacheSlingDatasourceDataSourceFactoryProperties.testWhileIdle) &&
-        Objects.equals(validationQuery, orgApacheSlingDatasourceDataSourceFactoryProperties.validationQuery) &&
-        Objects.equals(validationQueryTimeout, orgApacheSlingDatasourceDataSourceFactoryProperties.validationQueryTimeout) &&
-        Objects.equals(timeBetweenEvictionRunsMillis, orgApacheSlingDatasourceDataSourceFactoryProperties.timeBetweenEvictionRunsMillis) &&
-        Objects.equals(minEvictableIdleTimeMillis, orgApacheSlingDatasourceDataSourceFactoryProperties.minEvictableIdleTimeMillis) &&
-        Objects.equals(connectionProperties, orgApacheSlingDatasourceDataSourceFactoryProperties.connectionProperties) &&
-        Objects.equals(initSQL, orgApacheSlingDatasourceDataSourceFactoryProperties.initSQL) &&
-        Objects.equals(jdbcInterceptors, orgApacheSlingDatasourceDataSourceFactoryProperties.jdbcInterceptors) &&
-        Objects.equals(validationInterval, orgApacheSlingDatasourceDataSourceFactoryProperties.validationInterval) &&
-        Objects.equals(logValidationErrors, orgApacheSlingDatasourceDataSourceFactoryProperties.logValidationErrors) &&
-        Objects.equals(datasourceSvcProperties, orgApacheSlingDatasourceDataSourceFactoryProperties.datasourceSvcProperties);
+    return Objects.equals(this.datasourceName, orgApacheSlingDatasourceDataSourceFactoryProperties.datasourceName) &&
+        Objects.equals(this.datasourceSvcPropName, orgApacheSlingDatasourceDataSourceFactoryProperties.datasourceSvcPropName) &&
+        Objects.equals(this.driverClassName, orgApacheSlingDatasourceDataSourceFactoryProperties.driverClassName) &&
+        Objects.equals(this.url, orgApacheSlingDatasourceDataSourceFactoryProperties.url) &&
+        Objects.equals(this.username, orgApacheSlingDatasourceDataSourceFactoryProperties.username) &&
+        Objects.equals(this.password, orgApacheSlingDatasourceDataSourceFactoryProperties.password) &&
+        Objects.equals(this.defaultAutoCommit, orgApacheSlingDatasourceDataSourceFactoryProperties.defaultAutoCommit) &&
+        Objects.equals(this.defaultReadOnly, orgApacheSlingDatasourceDataSourceFactoryProperties.defaultReadOnly) &&
+        Objects.equals(this.defaultTransactionIsolation, orgApacheSlingDatasourceDataSourceFactoryProperties.defaultTransactionIsolation) &&
+        Objects.equals(this.defaultCatalog, orgApacheSlingDatasourceDataSourceFactoryProperties.defaultCatalog) &&
+        Objects.equals(this.maxActive, orgApacheSlingDatasourceDataSourceFactoryProperties.maxActive) &&
+        Objects.equals(this.maxIdle, orgApacheSlingDatasourceDataSourceFactoryProperties.maxIdle) &&
+        Objects.equals(this.minIdle, orgApacheSlingDatasourceDataSourceFactoryProperties.minIdle) &&
+        Objects.equals(this.initialSize, orgApacheSlingDatasourceDataSourceFactoryProperties.initialSize) &&
+        Objects.equals(this.maxWait, orgApacheSlingDatasourceDataSourceFactoryProperties.maxWait) &&
+        Objects.equals(this.maxAge, orgApacheSlingDatasourceDataSourceFactoryProperties.maxAge) &&
+        Objects.equals(this.testOnBorrow, orgApacheSlingDatasourceDataSourceFactoryProperties.testOnBorrow) &&
+        Objects.equals(this.testOnReturn, orgApacheSlingDatasourceDataSourceFactoryProperties.testOnReturn) &&
+        Objects.equals(this.testWhileIdle, orgApacheSlingDatasourceDataSourceFactoryProperties.testWhileIdle) &&
+        Objects.equals(this.validationQuery, orgApacheSlingDatasourceDataSourceFactoryProperties.validationQuery) &&
+        Objects.equals(this.validationQueryTimeout, orgApacheSlingDatasourceDataSourceFactoryProperties.validationQueryTimeout) &&
+        Objects.equals(this.timeBetweenEvictionRunsMillis, orgApacheSlingDatasourceDataSourceFactoryProperties.timeBetweenEvictionRunsMillis) &&
+        Objects.equals(this.minEvictableIdleTimeMillis, orgApacheSlingDatasourceDataSourceFactoryProperties.minEvictableIdleTimeMillis) &&
+        Objects.equals(this.connectionProperties, orgApacheSlingDatasourceDataSourceFactoryProperties.connectionProperties) &&
+        Objects.equals(this.initSQL, orgApacheSlingDatasourceDataSourceFactoryProperties.initSQL) &&
+        Objects.equals(this.jdbcInterceptors, orgApacheSlingDatasourceDataSourceFactoryProperties.jdbcInterceptors) &&
+        Objects.equals(this.validationInterval, orgApacheSlingDatasourceDataSourceFactoryProperties.validationInterval) &&
+        Objects.equals(this.logValidationErrors, orgApacheSlingDatasourceDataSourceFactoryProperties.logValidationErrors) &&
+        Objects.equals(this.datasourceSvcProperties, orgApacheSlingDatasourceDataSourceFactoryProperties.datasourceSvcProperties);
   }
 
   @Override
@@ -514,10 +486,7 @@ public class OrgApacheSlingDatasourceDataSourceFactoryProperties   {
    * (except the first line).
    */
   private String toIndentedString(Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

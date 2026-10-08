@@ -11,26 +11,26 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties {
-    ConfigNodePropertyDropDown graniteWorkflowinboxSortPropertyName = null
-
-    ConfigNodePropertyString graniteWorkflowinboxSortOrder = null
-
-    ConfigNodePropertyInteger cqWorkflowJobRetry = null
-
-    ConfigNodePropertyArray cqWorkflowSuperuser = null
-
-    ConfigNodePropertyInteger graniteWorkflowInboxQuerySize = null
-
-    ConfigNodePropertyBoolean graniteWorkflowAdminUserGroupFilter = null
-
-    ConfigNodePropertyBoolean graniteWorkflowEnforceWorkitemAssigneePermissions = null
-
-    ConfigNodePropertyBoolean graniteWorkflowEnforceWorkflowInitiatorPermissions = null
-
-    ConfigNodePropertyBoolean graniteWorkflowInjectTenantIdInJobTopics = null
-
-    ConfigNodePropertyInteger graniteWorkflowMaxPurgeSaveThreshold = null
-
-    ConfigNodePropertyInteger graniteWorkflowMaxPurgeQueryCount = null
-
+    
+    ConfigNodePropertyDropDown graniteWorkflowinboxSortPropertyName
+    
+    ConfigNodePropertyString graniteWorkflowinboxSortOrder
+    
+    ConfigNodePropertyInteger cqWorkflowJobRetry
+    
+    ConfigNodePropertyArray cqWorkflowSuperuser
+    
+    ConfigNodePropertyInteger graniteWorkflowInboxQuerySize
+    
+    ConfigNodePropertyBoolean graniteWorkflowAdminUserGroupFilter
+    
+    ConfigNodePropertyBoolean graniteWorkflowEnforceWorkitemAssigneePermissions
+    
+    ConfigNodePropertyBoolean graniteWorkflowEnforceWorkflowInitiatorPermissions
+    
+    ConfigNodePropertyBoolean graniteWorkflowInjectTenantIdInJobTopics
+    
+    ConfigNodePropertyInteger graniteWorkflowMaxPurgeSaveThreshold
+    
+    ConfigNodePropertyInteger graniteWorkflowMaxPurgeQueryCount
 }

@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeGraniteLoggingImplLogAnalyserImplPropertie
 
 @Canonical
 class ComAdobeGraniteLoggingImplLogAnalyserImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteLoggingImplLogAnalyserImplProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteLoggingImplLogAnalyserImplProperties properties
 }

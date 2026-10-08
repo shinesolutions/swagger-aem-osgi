@@ -2,9 +2,9 @@
 # ComAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**cqPeriodsocialPeriodconsolePeriodanalyticsPeriodcomponents** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **cqSocialConsoleAnalyticsComponents** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
 
 
 

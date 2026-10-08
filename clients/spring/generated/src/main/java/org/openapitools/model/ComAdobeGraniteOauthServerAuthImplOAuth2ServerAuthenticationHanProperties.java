@@ -1,38 +1,49 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanProperties   {
-  @JsonProperty("path")
-  private ConfigNodePropertyString path = null;
+@JsonTypeName("comAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanProperties {
 
-  @JsonProperty("jaas.controlFlag")
-  private ConfigNodePropertyString jaasControlFlag = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString path;
 
-  @JsonProperty("jaas.realmName")
-  private ConfigNodePropertyString jaasRealmName = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString jaasControlFlag;
 
-  @JsonProperty("jaas.ranking")
-  private ConfigNodePropertyInteger jaasRanking = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString jaasRealmName;
 
-  @JsonProperty("oauth.offline.validation")
-  private ConfigNodePropertyBoolean oauthOfflineValidation = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger jaasRanking;
 
-  public ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanProperties path(ConfigNodePropertyString path) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean oauthOfflineValidation;
+
+  public ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanProperties path(@Nullable ConfigNodePropertyString path) {
     this.path = path;
     return this;
   }
@@ -40,20 +51,20 @@ public class ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanProp
   /**
    * Get path
    * @return path
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getPath() {
+   */
+  @Valid 
+  @Schema(name = "path", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("path")
+  public @Nullable ConfigNodePropertyString getPath() {
     return path;
   }
 
-  public void setPath(ConfigNodePropertyString path) {
+  @JsonProperty("path")
+  public void setPath(@Nullable ConfigNodePropertyString path) {
     this.path = path;
   }
 
-  public ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanProperties jaasControlFlag(ConfigNodePropertyString jaasControlFlag) {
+  public ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanProperties jaasControlFlag(@Nullable ConfigNodePropertyString jaasControlFlag) {
     this.jaasControlFlag = jaasControlFlag;
     return this;
   }
@@ -61,20 +72,20 @@ public class ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanProp
   /**
    * Get jaasControlFlag
    * @return jaasControlFlag
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getJaasControlFlag() {
+   */
+  @Valid 
+  @Schema(name = "jaas.controlFlag", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("jaas.controlFlag")
+  public @Nullable ConfigNodePropertyString getJaasControlFlag() {
     return jaasControlFlag;
   }
 
-  public void setJaasControlFlag(ConfigNodePropertyString jaasControlFlag) {
+  @JsonProperty("jaas.controlFlag")
+  public void setJaasControlFlag(@Nullable ConfigNodePropertyString jaasControlFlag) {
     this.jaasControlFlag = jaasControlFlag;
   }
 
-  public ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanProperties jaasRealmName(ConfigNodePropertyString jaasRealmName) {
+  public ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanProperties jaasRealmName(@Nullable ConfigNodePropertyString jaasRealmName) {
     this.jaasRealmName = jaasRealmName;
     return this;
   }
@@ -82,20 +93,20 @@ public class ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanProp
   /**
    * Get jaasRealmName
    * @return jaasRealmName
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getJaasRealmName() {
+   */
+  @Valid 
+  @Schema(name = "jaas.realmName", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("jaas.realmName")
+  public @Nullable ConfigNodePropertyString getJaasRealmName() {
     return jaasRealmName;
   }
 
-  public void setJaasRealmName(ConfigNodePropertyString jaasRealmName) {
+  @JsonProperty("jaas.realmName")
+  public void setJaasRealmName(@Nullable ConfigNodePropertyString jaasRealmName) {
     this.jaasRealmName = jaasRealmName;
   }
 
-  public ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanProperties jaasRanking(ConfigNodePropertyInteger jaasRanking) {
+  public ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanProperties jaasRanking(@Nullable ConfigNodePropertyInteger jaasRanking) {
     this.jaasRanking = jaasRanking;
     return this;
   }
@@ -103,20 +114,20 @@ public class ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanProp
   /**
    * Get jaasRanking
    * @return jaasRanking
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getJaasRanking() {
+   */
+  @Valid 
+  @Schema(name = "jaas.ranking", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("jaas.ranking")
+  public @Nullable ConfigNodePropertyInteger getJaasRanking() {
     return jaasRanking;
   }
 
-  public void setJaasRanking(ConfigNodePropertyInteger jaasRanking) {
+  @JsonProperty("jaas.ranking")
+  public void setJaasRanking(@Nullable ConfigNodePropertyInteger jaasRanking) {
     this.jaasRanking = jaasRanking;
   }
 
-  public ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanProperties oauthOfflineValidation(ConfigNodePropertyBoolean oauthOfflineValidation) {
+  public ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanProperties oauthOfflineValidation(@Nullable ConfigNodePropertyBoolean oauthOfflineValidation) {
     this.oauthOfflineValidation = oauthOfflineValidation;
     return this;
   }
@@ -124,22 +135,21 @@ public class ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanProp
   /**
    * Get oauthOfflineValidation
    * @return oauthOfflineValidation
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getOauthOfflineValidation() {
+   */
+  @Valid 
+  @Schema(name = "oauth.offline.validation", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("oauth.offline.validation")
+  public @Nullable ConfigNodePropertyBoolean getOauthOfflineValidation() {
     return oauthOfflineValidation;
   }
 
-  public void setOauthOfflineValidation(ConfigNodePropertyBoolean oauthOfflineValidation) {
+  @JsonProperty("oauth.offline.validation")
+  public void setOauthOfflineValidation(@Nullable ConfigNodePropertyBoolean oauthOfflineValidation) {
     this.oauthOfflineValidation = oauthOfflineValidation;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -163,7 +173,6 @@ public class ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanProp
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanProperties {\n");
-    
     sb.append("    path: ").append(toIndentedString(path)).append("\n");
     sb.append("    jaasControlFlag: ").append(toIndentedString(jaasControlFlag)).append("\n");
     sb.append("    jaasRealmName: ").append(toIndentedString(jaasRealmName)).append("\n");
@@ -177,11 +186,8 @@ public class ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanProp
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

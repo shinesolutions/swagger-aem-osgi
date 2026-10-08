@@ -1,7 +1,9 @@
 
+
 # OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **name** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
@@ -24,6 +26,7 @@ Name | Type | Description | Notes
 **queueProvider** | [**ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md) |  |  [optional]
 **asyncDelivery** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
 **httpConnTimeout** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
+
 
 
 

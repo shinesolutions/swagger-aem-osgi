@@ -4,22 +4,26 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2019-08-05T00:59:30.156Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2026-10-07T12:54:21.614735164Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWProperties   {
   
-  private ConfigNodePropertyArray users = null;
-  private ConfigNodePropertyArray groups = null;
+  private ConfigNodePropertyArray users;
+  private ConfigNodePropertyArray groups;
 
   /**
    **/
   
   @ApiModelProperty(value = "")
   @JsonProperty("users")
+  @Valid
   public ConfigNodePropertyArray getUsers() {
     return users;
   }
@@ -32,6 +36,7 @@ public class OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWPro
   
   @ApiModelProperty(value = "")
   @JsonProperty("groups")
+  @Valid
   public ConfigNodePropertyArray getGroups() {
     return groups;
   }
@@ -41,7 +46,7 @@ public class OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWPro
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -49,8 +54,8 @@ public class OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWPro
       return false;
     }
     OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWProperties orgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWProperties = (OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWProperties) o;
-    return Objects.equals(users, orgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWProperties.users) &&
-        Objects.equals(groups, orgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWProperties.groups);
+    return Objects.equals(this.users, orgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWProperties.users) &&
+        Objects.equals(this.groups, orgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWProperties.groups);
   }
 
   @Override
@@ -73,11 +78,8 @@ public class OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWPro
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

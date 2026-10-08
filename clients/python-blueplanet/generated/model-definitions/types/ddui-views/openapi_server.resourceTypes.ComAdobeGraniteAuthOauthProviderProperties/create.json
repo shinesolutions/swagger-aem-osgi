@@ -1,0 +1,32 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "oauth_config_id" },
+      {"model": "oauth_client_id" },
+      {"model": "oauth_client_secret" },
+      {"model": "oauth_scope" },
+      {"model": "oauth_config_provider_id" },
+      {"model": "oauth_create_users" },
+      {"model": "oauth_userid_property" },
+      {"model": "force_strict_username_matching" },
+      {"model": "oauth_encode_userids" },
+      {"model": "oauth_hash_userids" },
+      {"model": "oauth_call_back_url" },
+      {"model": "oauth_access_token_persist" },
+      {"model": "oauth_access_token_persist_cookie" },
+      {"model": "oauth_csrf_state_protection" },
+      {"model": "oauth_redirect_request_params" },
+      {"model": "oauth_config_siblings_allow" },
+    ]
+  }]
+}

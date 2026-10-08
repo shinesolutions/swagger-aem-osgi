@@ -8,8 +8,8 @@ import org.openapitools.model.ConfigNodePropertyBoolean;
 
 @Canonical
 class ComAdobeCqSocialUgcbaseModerationImplAutoModerationImplProperties {
-    ConfigNodePropertyArray automoderationSequence = null
-
-    ConfigNodePropertyBoolean automoderationOnfailurestop = null
-
+    
+    ConfigNodePropertyArray automoderationSequence
+    
+    ConfigNodePropertyBoolean automoderationOnfailurestop
 }

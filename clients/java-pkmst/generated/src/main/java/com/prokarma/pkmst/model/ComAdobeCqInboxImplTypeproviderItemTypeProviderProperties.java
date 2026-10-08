@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyArray;
 import com.prokarma.pkmst.model.ConfigNodePropertyString;
 import io.swagger.annotations.ApiModel;
@@ -16,33 +17,32 @@ import io.swagger.annotations.ApiModelProperty;
  * ComAdobeCqInboxImplTypeproviderItemTypeProviderProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeCqInboxImplTypeproviderItemTypeProviderProperties   {
   @JsonProperty("inbox.impl.typeprovider.registrypaths")
-  private ConfigNodePropertyArray inboxImplTypeproviderRegistrypaths = null;
+  private ConfigNodePropertyArray inboxImplTypeproviderRegistrypaths;
 
   @JsonProperty("inbox.impl.typeprovider.legacypaths")
-  private ConfigNodePropertyArray inboxImplTypeproviderLegacypaths = null;
+  private ConfigNodePropertyArray inboxImplTypeproviderLegacypaths;
 
   @JsonProperty("inbox.impl.typeprovider.defaulturl.failureitem")
-  private ConfigNodePropertyString inboxImplTypeproviderDefaulturlFailureitem = null;
+  private ConfigNodePropertyString inboxImplTypeproviderDefaulturlFailureitem;
 
   @JsonProperty("inbox.impl.typeprovider.defaulturl.workitem")
-  private ConfigNodePropertyString inboxImplTypeproviderDefaulturlWorkitem = null;
+  private ConfigNodePropertyString inboxImplTypeproviderDefaulturlWorkitem;
 
   @JsonProperty("inbox.impl.typeprovider.defaulturl.task")
-  private ConfigNodePropertyString inboxImplTypeproviderDefaulturlTask = null;
+  private ConfigNodePropertyString inboxImplTypeproviderDefaulturlTask;
 
   public ComAdobeCqInboxImplTypeproviderItemTypeProviderProperties inboxImplTypeproviderRegistrypaths(ConfigNodePropertyArray inboxImplTypeproviderRegistrypaths) {
     this.inboxImplTypeproviderRegistrypaths = inboxImplTypeproviderRegistrypaths;
     return this;
   }
 
-   /**
+  /**
    * Get inboxImplTypeproviderRegistrypaths
    * @return inboxImplTypeproviderRegistrypaths
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getInboxImplTypeproviderRegistrypaths() {
     return inboxImplTypeproviderRegistrypaths;
@@ -57,10 +57,10 @@ public class ComAdobeCqInboxImplTypeproviderItemTypeProviderProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get inboxImplTypeproviderLegacypaths
    * @return inboxImplTypeproviderLegacypaths
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getInboxImplTypeproviderLegacypaths() {
     return inboxImplTypeproviderLegacypaths;
@@ -75,10 +75,10 @@ public class ComAdobeCqInboxImplTypeproviderItemTypeProviderProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get inboxImplTypeproviderDefaulturlFailureitem
    * @return inboxImplTypeproviderDefaulturlFailureitem
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getInboxImplTypeproviderDefaulturlFailureitem() {
     return inboxImplTypeproviderDefaulturlFailureitem;
@@ -93,10 +93,10 @@ public class ComAdobeCqInboxImplTypeproviderItemTypeProviderProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get inboxImplTypeproviderDefaulturlWorkitem
    * @return inboxImplTypeproviderDefaulturlWorkitem
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getInboxImplTypeproviderDefaulturlWorkitem() {
     return inboxImplTypeproviderDefaulturlWorkitem;
@@ -111,10 +111,10 @@ public class ComAdobeCqInboxImplTypeproviderItemTypeProviderProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get inboxImplTypeproviderDefaulturlTask
    * @return inboxImplTypeproviderDefaulturlTask
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getInboxImplTypeproviderDefaulturlTask() {
     return inboxImplTypeproviderDefaulturlTask;
@@ -126,7 +126,7 @@ public class ComAdobeCqInboxImplTypeproviderItemTypeProviderProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -164,11 +164,8 @@ public class ComAdobeCqInboxImplTypeproviderItemTypeProviderProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

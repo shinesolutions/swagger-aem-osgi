@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyBoolean;
 
 @Canonical
 class ComDayCqDamCoreImplServletGuidLookupFilterProperties {
-    ConfigNodePropertyBoolean cqDamCoreGuidlookupfilterEnabled = null
-
+    
+    ConfigNodePropertyBoolean cqDamCoreGuidlookupfilterEnabled
 }

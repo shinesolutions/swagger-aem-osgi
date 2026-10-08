@@ -7,12 +7,12 @@ import org.openapitools.model.OrgApacheSlingDistributionSerializationImplDistrib
 
 @Canonical
 class OrgApacheSlingDistributionSerializationImplDistributionPackageBuInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheSlingDistributionSerializationImplDistributionPackageBuProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheSlingDistributionSerializationImplDistributionPackageBuProperties properties
 }

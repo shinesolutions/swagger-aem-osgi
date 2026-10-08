@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqDamCoreImplHandlerJpegHandlerProperties;
 
 @Canonical
 class ComDayCqDamCoreImplHandlerJpegHandlerInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqDamCoreImplHandlerJpegHandlerProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqDamCoreImplHandlerJpegHandlerProperties properties
 }

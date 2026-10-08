@@ -7,16 +7,16 @@ import org.openapitools.model.OrgApacheSlingScriptingCoreImplScriptCacheImplProp
 
 @Canonical
 class OrgApacheSlingScriptingCoreImplScriptCacheImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheSlingScriptingCoreImplScriptCacheImplProperties properties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheSlingScriptingCoreImplScriptCacheImplProperties properties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

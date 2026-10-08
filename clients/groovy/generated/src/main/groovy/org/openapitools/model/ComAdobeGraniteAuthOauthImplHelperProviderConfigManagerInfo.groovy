@@ -7,16 +7,16 @@ import org.openapitools.model.ComAdobeGraniteAuthOauthImplHelperProviderConfigMa
 
 @Canonical
 class ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerProperties properties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerProperties properties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

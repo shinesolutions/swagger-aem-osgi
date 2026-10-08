@@ -7,8 +7,8 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerProperties {
-    ConfigNodePropertyString oauthCookieLoginTimeout = null
-
-    ConfigNodePropertyString oauthCookieMaxAge = null
-
+    
+    ConfigNodePropertyString oauthCookieLoginTimeout
+    
+    ConfigNodePropertyString oauthCookieMaxAge
 }

@@ -2,12 +2,12 @@
 # ComDayCqCommonsImplExternalizerImplProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**externalizerPerioddomains** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**externalizerPeriodhost** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**externalizerPeriodcontextpath** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**externalizerPeriodencodedpath** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **externalizerDomains** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **externalizerHost** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **externalizerContextpath** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **externalizerEncodedpath** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
 
 
 

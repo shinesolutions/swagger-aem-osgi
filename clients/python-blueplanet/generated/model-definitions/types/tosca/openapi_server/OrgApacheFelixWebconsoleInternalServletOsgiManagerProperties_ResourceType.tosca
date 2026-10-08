@@ -1,0 +1,82 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyDropDown = openapi_server.resourceTypes.ConfigNodePropertyDropDown
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties {
+    title = OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties
+    description = OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties
+    derivedFrom = Root
+    properties {
+        manager_root {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        http_service_filter {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        default_render {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        realm {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        username {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        password {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        category {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        locale {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        loglevel {
+          type = ConfigNodePropertyDropDown
+          description = ""
+          optional = false
+        }
+        plugins {
+          type = ConfigNodePropertyDropDown
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties {
+    title = OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties
+    description = OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties
+    implements = openapi_server.resourceTypes.OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties
+
+  }
+}

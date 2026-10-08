@@ -9,36 +9,36 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServProperties {
-    ConfigNodePropertyBoolean disabled = null
-
-    ConfigNodePropertyBoolean debug = null
-
-    ConfigNodePropertyString localIndexDir = null
-
-    ConfigNodePropertyBoolean enableOpenIndexAsync = null
-
-    ConfigNodePropertyInteger threadPoolSize = null
-
-    ConfigNodePropertyBoolean prefetchIndexFiles = null
-
-    ConfigNodePropertyInteger extractedTextCacheSizeInMB = null
-
-    ConfigNodePropertyInteger extractedTextCacheExpiryInSecs = null
-
-    ConfigNodePropertyBoolean alwaysUsePreExtractedCache = null
-
-    ConfigNodePropertyInteger booleanClauseLimit = null
-
-    ConfigNodePropertyBoolean enableHybridIndexing = null
-
-    ConfigNodePropertyInteger hybridQueueSize = null
-
-    ConfigNodePropertyBoolean disableStoredIndexDefinition = null
-
-    ConfigNodePropertyBoolean deletedBlobsCollectionEnabled = null
-
-    ConfigNodePropertyInteger propIndexCleanerIntervalInSecs = null
-
-    ConfigNodePropertyBoolean enableSingleBlobIndexFiles = null
-
+    
+    ConfigNodePropertyBoolean disabled
+    
+    ConfigNodePropertyBoolean debug
+    
+    ConfigNodePropertyString localIndexDir
+    
+    ConfigNodePropertyBoolean enableOpenIndexAsync
+    
+    ConfigNodePropertyInteger threadPoolSize
+    
+    ConfigNodePropertyBoolean prefetchIndexFiles
+    
+    ConfigNodePropertyInteger extractedTextCacheSizeInMB
+    
+    ConfigNodePropertyInteger extractedTextCacheExpiryInSecs
+    
+    ConfigNodePropertyBoolean alwaysUsePreExtractedCache
+    
+    ConfigNodePropertyInteger booleanClauseLimit
+    
+    ConfigNodePropertyBoolean enableHybridIndexing
+    
+    ConfigNodePropertyInteger hybridQueueSize
+    
+    ConfigNodePropertyBoolean disableStoredIndexDefinition
+    
+    ConfigNodePropertyBoolean deletedBlobsCollectionEnabled
+    
+    ConfigNodePropertyInteger propIndexCleanerIntervalInSecs
+    
+    ConfigNodePropertyBoolean enableSingleBlobIndexFiles
 }

@@ -1,0 +1,19 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "cq_dam_batch_metadata_asset_default" },
+      {"model": "cq_dam_batch_metadata_collection_default" },
+      {"model": "cq_dam_batch_metadata_maxresources" },
+    ]
+  }]
+}

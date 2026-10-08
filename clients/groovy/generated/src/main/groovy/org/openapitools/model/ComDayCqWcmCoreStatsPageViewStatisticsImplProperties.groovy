@@ -7,8 +7,8 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqWcmCoreStatsPageViewStatisticsImplProperties {
-    ConfigNodePropertyString pageviewstatisticsTrackingurl = null
-
-    ConfigNodePropertyString pageviewstatisticsTrackingscriptEnabled = null
-
+    
+    ConfigNodePropertyString pageviewstatisticsTrackingurl
+    
+    ConfigNodePropertyString pageviewstatisticsTrackingscriptEnabled
 }

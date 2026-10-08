@@ -2,31 +2,32 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ComAdobeGraniteOffloadingImplOffloadingJobOffloaderProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class ComAdobeGraniteOffloadingImplOffloadingJobOffloaderInfo   {
   
-  private String pid = null;
+  private String pid;
 
-  private String title = null;
+  private String title;
 
-  private String description = null;
+  private String description;
 
-  private ComAdobeGraniteOffloadingImplOffloadingJobOffloaderProperties properties = null;
+  private ComAdobeGraniteOffloadingImplOffloadingJobOffloaderProperties properties;
 
-  private String bundleLocation = null;
+  private String bundleLocation;
 
-  private String serviceLocation = null;
-
+  private String serviceLocation;
 
   /**
    **/
@@ -138,7 +139,7 @@ public class ComAdobeGraniteOffloadingImplOffloadingJobOffloaderInfo   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -146,12 +147,12 @@ public class ComAdobeGraniteOffloadingImplOffloadingJobOffloaderInfo   {
       return false;
     }
     ComAdobeGraniteOffloadingImplOffloadingJobOffloaderInfo comAdobeGraniteOffloadingImplOffloadingJobOffloaderInfo = (ComAdobeGraniteOffloadingImplOffloadingJobOffloaderInfo) o;
-    return Objects.equals(pid, comAdobeGraniteOffloadingImplOffloadingJobOffloaderInfo.pid) &&
-        Objects.equals(title, comAdobeGraniteOffloadingImplOffloadingJobOffloaderInfo.title) &&
-        Objects.equals(description, comAdobeGraniteOffloadingImplOffloadingJobOffloaderInfo.description) &&
-        Objects.equals(properties, comAdobeGraniteOffloadingImplOffloadingJobOffloaderInfo.properties) &&
-        Objects.equals(bundleLocation, comAdobeGraniteOffloadingImplOffloadingJobOffloaderInfo.bundleLocation) &&
-        Objects.equals(serviceLocation, comAdobeGraniteOffloadingImplOffloadingJobOffloaderInfo.serviceLocation);
+    return Objects.equals(this.pid, comAdobeGraniteOffloadingImplOffloadingJobOffloaderInfo.pid) &&
+        Objects.equals(this.title, comAdobeGraniteOffloadingImplOffloadingJobOffloaderInfo.title) &&
+        Objects.equals(this.description, comAdobeGraniteOffloadingImplOffloadingJobOffloaderInfo.description) &&
+        Objects.equals(this.properties, comAdobeGraniteOffloadingImplOffloadingJobOffloaderInfo.properties) &&
+        Objects.equals(this.bundleLocation, comAdobeGraniteOffloadingImplOffloadingJobOffloaderInfo.bundleLocation) &&
+        Objects.equals(this.serviceLocation, comAdobeGraniteOffloadingImplOffloadingJobOffloaderInfo.serviceLocation);
   }
 
   @Override
@@ -178,11 +179,8 @@ public class ComAdobeGraniteOffloadingImplOffloadingJobOffloaderInfo   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

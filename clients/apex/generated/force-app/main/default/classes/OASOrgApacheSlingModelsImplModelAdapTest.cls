@@ -72,10 +72,10 @@ private class OASOrgApacheSlingModelsImplModelAdapTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASOrgApacheSlingModelsImplModelAdap orgApacheSlingModelsImplModelAdapterFactoryProperties = new OASOrgApacheSlingModelsImplModelAdap();
-        Map<String, String> propertyMappings = orgApacheSlingModelsImplModelAdapterFactoryProperties.getPropertyMappings();
-        System.assertEquals('osgiHttpWhiteboardListener', propertyMappings.get('osgi.http.whiteboard.listener'));
-        System.assertEquals('osgiHttpWhiteboardContextSelect', propertyMappings.get('osgi.http.whiteboard.context.select'));
-        System.assertEquals('maxRecursionDepth', propertyMappings.get('max.recursion.depth'));
-        System.assertEquals('cleanupJobPeriod', propertyMappings.get('cleanup.job.period'));
+        Map<String, String> x-property-mappings = orgApacheSlingModelsImplModelAdapterFactoryProperties.getx-property-mappings();
+        System.assertEquals('osgiHttpWhiteboardListener', x-property-mappings.get('osgi.http.whiteboard.listener'));
+        System.assertEquals('osgiHttpWhiteboardContextSelect', x-property-mappings.get('osgi.http.whiteboard.context.select'));
+        System.assertEquals('maxRecursionDepth', x-property-mappings.get('max.recursion.depth'));
+        System.assertEquals('cleanupJobPeriod', x-property-mappings.get('cleanup.job.period'));
     }
 }

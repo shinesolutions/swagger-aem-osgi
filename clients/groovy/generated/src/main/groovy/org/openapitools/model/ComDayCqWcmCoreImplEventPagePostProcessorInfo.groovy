@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqWcmCoreImplEventPagePostProcessorPropertie
 
 @Canonical
 class ComDayCqWcmCoreImplEventPagePostProcessorInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqWcmCoreImplEventPagePostProcessorProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqWcmCoreImplEventPagePostProcessorProperties properties
 }

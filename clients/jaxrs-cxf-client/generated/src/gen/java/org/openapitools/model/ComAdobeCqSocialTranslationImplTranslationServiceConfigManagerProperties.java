@@ -5,40 +5,43 @@ import org.openapitools.model.ConfigNodePropertyDropDown;
 import org.openapitools.model.ConfigNodePropertyString;
 
 import io.swagger.annotations.ApiModelProperty;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlType;
-import javax.xml.bind.annotation.XmlEnum;
-import javax.xml.bind.annotation.XmlEnumValue;
+import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
 
 public class ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerProperties  {
   
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyDropDown translateLanguage = null;
+
+  private ConfigNodePropertyDropDown translateLanguage;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyDropDown translateDisplay = null;
+
+  private ConfigNodePropertyDropDown translateDisplay;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyBoolean translateAttribution = null;
+
+  private ConfigNodePropertyBoolean translateAttribution;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyDropDown translateCaching = null;
+
+  private ConfigNodePropertyDropDown translateCaching;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyDropDown translateSmartRendering = null;
+
+  private ConfigNodePropertyDropDown translateSmartRendering;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString translateCachingDuration = null;
+
+  private ConfigNodePropertyString translateCachingDuration;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString translateSessionSaveInterval = null;
+
+  private ConfigNodePropertyString translateSessionSaveInterval;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString translateSessionSaveBatchLimit = null;
+
+  private ConfigNodePropertyString translateSessionSaveBatchLimit;
  /**
    * Get translateLanguage
    * @return translateLanguage
@@ -183,6 +186,29 @@ public class ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerPrope
     return this;
   }
 
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerProperties comAdobeCqSocialTranslationImplTranslationServiceConfigManagerProperties = (ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerProperties) o;
+    return Objects.equals(this.translateLanguage, comAdobeCqSocialTranslationImplTranslationServiceConfigManagerProperties.translateLanguage) &&
+        Objects.equals(this.translateDisplay, comAdobeCqSocialTranslationImplTranslationServiceConfigManagerProperties.translateDisplay) &&
+        Objects.equals(this.translateAttribution, comAdobeCqSocialTranslationImplTranslationServiceConfigManagerProperties.translateAttribution) &&
+        Objects.equals(this.translateCaching, comAdobeCqSocialTranslationImplTranslationServiceConfigManagerProperties.translateCaching) &&
+        Objects.equals(this.translateSmartRendering, comAdobeCqSocialTranslationImplTranslationServiceConfigManagerProperties.translateSmartRendering) &&
+        Objects.equals(this.translateCachingDuration, comAdobeCqSocialTranslationImplTranslationServiceConfigManagerProperties.translateCachingDuration) &&
+        Objects.equals(this.translateSessionSaveInterval, comAdobeCqSocialTranslationImplTranslationServiceConfigManagerProperties.translateSessionSaveInterval) &&
+        Objects.equals(this.translateSessionSaveBatchLimit, comAdobeCqSocialTranslationImplTranslationServiceConfigManagerProperties.translateSessionSaveBatchLimit);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(translateLanguage, translateDisplay, translateAttribution, translateCaching, translateSmartRendering, translateCachingDuration, translateSessionSaveInterval, translateSessionSaveBatchLimit);
+  }
 
   @Override
   public String toString() {
@@ -205,11 +231,8 @@ public class ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerPrope
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private static String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

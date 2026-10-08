@@ -1,26 +1,37 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactoryProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactoryProperties   {
-  
-  private @Valid ConfigNodePropertyString solrZkTimeout = null;
-  private @Valid ConfigNodePropertyString solrCommit = null;
-  private @Valid ConfigNodePropertyBoolean cacheOn = null;
-  private @Valid ConfigNodePropertyInteger concurrencyLevel = null;
-  private @Valid ConfigNodePropertyInteger cacheStartSize = null;
-  private @Valid ConfigNodePropertyInteger cacheTtl = null;
-  private @Valid ConfigNodePropertyInteger cacheSize = null;
+  private ConfigNodePropertyString solrZkTimeout;
+  private ConfigNodePropertyString solrCommit;
+  private ConfigNodePropertyBoolean cacheOn;
+  private ConfigNodePropertyInteger concurrencyLevel;
+  private ConfigNodePropertyInteger cacheStartSize;
+  private ConfigNodePropertyInteger cacheTtl;
+  private ConfigNodePropertyInteger cacheSize;
+
+  public ComAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactoryProperties() {
+  }
 
   /**
    **/
@@ -32,9 +43,11 @@ public class ComAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactoryPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("solr.zk.timeout")
-  public ConfigNodePropertyString getSolrZkTimeout() {
+  @Valid public ConfigNodePropertyString getSolrZkTimeout() {
     return solrZkTimeout;
   }
+
+  @JsonProperty("solr.zk.timeout")
   public void setSolrZkTimeout(ConfigNodePropertyString solrZkTimeout) {
     this.solrZkTimeout = solrZkTimeout;
   }
@@ -49,9 +62,11 @@ public class ComAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactoryPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("solr.commit")
-  public ConfigNodePropertyString getSolrCommit() {
+  @Valid public ConfigNodePropertyString getSolrCommit() {
     return solrCommit;
   }
+
+  @JsonProperty("solr.commit")
   public void setSolrCommit(ConfigNodePropertyString solrCommit) {
     this.solrCommit = solrCommit;
   }
@@ -66,9 +81,11 @@ public class ComAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactoryPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("cache.on")
-  public ConfigNodePropertyBoolean getCacheOn() {
+  @Valid public ConfigNodePropertyBoolean getCacheOn() {
     return cacheOn;
   }
+
+  @JsonProperty("cache.on")
   public void setCacheOn(ConfigNodePropertyBoolean cacheOn) {
     this.cacheOn = cacheOn;
   }
@@ -83,9 +100,11 @@ public class ComAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactoryPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("concurrency.level")
-  public ConfigNodePropertyInteger getConcurrencyLevel() {
+  @Valid public ConfigNodePropertyInteger getConcurrencyLevel() {
     return concurrencyLevel;
   }
+
+  @JsonProperty("concurrency.level")
   public void setConcurrencyLevel(ConfigNodePropertyInteger concurrencyLevel) {
     this.concurrencyLevel = concurrencyLevel;
   }
@@ -100,9 +119,11 @@ public class ComAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactoryPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("cache.start.size")
-  public ConfigNodePropertyInteger getCacheStartSize() {
+  @Valid public ConfigNodePropertyInteger getCacheStartSize() {
     return cacheStartSize;
   }
+
+  @JsonProperty("cache.start.size")
   public void setCacheStartSize(ConfigNodePropertyInteger cacheStartSize) {
     this.cacheStartSize = cacheStartSize;
   }
@@ -117,9 +138,11 @@ public class ComAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactoryPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("cache.ttl")
-  public ConfigNodePropertyInteger getCacheTtl() {
+  @Valid public ConfigNodePropertyInteger getCacheTtl() {
     return cacheTtl;
   }
+
+  @JsonProperty("cache.ttl")
   public void setCacheTtl(ConfigNodePropertyInteger cacheTtl) {
     this.cacheTtl = cacheTtl;
   }
@@ -134,16 +157,18 @@ public class ComAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactoryPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("cache.size")
-  public ConfigNodePropertyInteger getCacheSize() {
+  @Valid public ConfigNodePropertyInteger getCacheSize() {
     return cacheSize;
   }
+
+  @JsonProperty("cache.size")
   public void setCacheSize(ConfigNodePropertyInteger cacheSize) {
     this.cacheSize = cacheSize;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -151,13 +176,13 @@ public class ComAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactoryPrope
       return false;
     }
     ComAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactoryProperties comAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactoryProperties = (ComAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactoryProperties) o;
-    return Objects.equals(solrZkTimeout, comAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactoryProperties.solrZkTimeout) &&
-        Objects.equals(solrCommit, comAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactoryProperties.solrCommit) &&
-        Objects.equals(cacheOn, comAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactoryProperties.cacheOn) &&
-        Objects.equals(concurrencyLevel, comAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactoryProperties.concurrencyLevel) &&
-        Objects.equals(cacheStartSize, comAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactoryProperties.cacheStartSize) &&
-        Objects.equals(cacheTtl, comAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactoryProperties.cacheTtl) &&
-        Objects.equals(cacheSize, comAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactoryProperties.cacheSize);
+    return Objects.equals(this.solrZkTimeout, comAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactoryProperties.solrZkTimeout) &&
+        Objects.equals(this.solrCommit, comAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactoryProperties.solrCommit) &&
+        Objects.equals(this.cacheOn, comAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactoryProperties.cacheOn) &&
+        Objects.equals(this.concurrencyLevel, comAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactoryProperties.concurrencyLevel) &&
+        Objects.equals(this.cacheStartSize, comAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactoryProperties.cacheStartSize) &&
+        Objects.equals(this.cacheTtl, comAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactoryProperties.cacheTtl) &&
+        Objects.equals(this.cacheSize, comAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactoryProperties.cacheSize);
   }
 
   @Override
@@ -185,11 +210,9 @@ public class ComAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactoryPrope
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

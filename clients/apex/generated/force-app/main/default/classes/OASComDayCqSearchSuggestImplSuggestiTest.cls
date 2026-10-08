@@ -72,8 +72,8 @@ private class OASComDayCqSearchSuggestImplSuggestiTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqSearchSuggestImplSuggesti comDayCqSearchSuggestImplSuggestionIndexManagerImplProperties = new OASComDayCqSearchSuggestImplSuggesti();
-        Map<String, String> propertyMappings = comDayCqSearchSuggestImplSuggestionIndexManagerImplProperties.getPropertyMappings();
-        System.assertEquals('pathBuilderTarget', propertyMappings.get('pathBuilder.target'));
-        System.assertEquals('suggestBasepath', propertyMappings.get('suggest.basepath'));
+        Map<String, String> x-property-mappings = comDayCqSearchSuggestImplSuggestionIndexManagerImplProperties.getx-property-mappings();
+        System.assertEquals('pathBuilderTarget', x-property-mappings.get('pathBuilder.target'));
+        System.assertEquals('suggestBasepath', x-property-mappings.get('suggest.basepath'));
     }
 }

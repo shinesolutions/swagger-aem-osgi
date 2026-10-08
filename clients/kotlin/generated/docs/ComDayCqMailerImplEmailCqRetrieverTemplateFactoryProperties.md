@@ -2,12 +2,12 @@
 # ComDayCqMailerImplEmailCqRetrieverTemplateFactoryProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**mailerPeriodemailPeriodembed** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**mailerPeriodemailPeriodcharset** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**mailerPeriodemailPeriodretrieverUserID** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**mailerPeriodemailPeriodretrieverUserPWD** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **mailerEmailEmbed** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **mailerEmailCharset** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **mailerEmailRetrieverUserID** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **mailerEmailRetrieverUserPWD** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
 
 
 

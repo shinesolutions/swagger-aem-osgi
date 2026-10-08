@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqDamProcessorNuiImplNuiAssetProcessorProp
 
 @Canonical
 class ComAdobeCqDamProcessorNuiImplNuiAssetProcessorInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqDamProcessorNuiImplNuiAssetProcessorProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqDamProcessorNuiImplNuiAssetProcessorProperties properties
 }

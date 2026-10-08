@@ -1,21 +1,32 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comAdobeGraniteOauthServerImplOAuth2TokenEndpointServletProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteOauthServerImplOAuth2TokenEndpointServletProperties   {
-  
-  private @Valid ConfigNodePropertyString oauthIssuer = null;
-  private @Valid ConfigNodePropertyString oauthAccessTokenExpiresIn = null;
-  private @Valid ConfigNodePropertyString osgiHttpWhiteboardServletPattern = null;
-  private @Valid ConfigNodePropertyString osgiHttpWhiteboardContextSelect = null;
+  private ConfigNodePropertyString oauthIssuer;
+  private ConfigNodePropertyString oauthAccessTokenExpiresIn;
+  private ConfigNodePropertyString osgiHttpWhiteboardServletPattern;
+  private ConfigNodePropertyString osgiHttpWhiteboardContextSelect;
+
+  public ComAdobeGraniteOauthServerImplOAuth2TokenEndpointServletProperties() {
+  }
 
   /**
    **/
@@ -27,9 +38,11 @@ public class ComAdobeGraniteOauthServerImplOAuth2TokenEndpointServletProperties 
   
   @ApiModelProperty(value = "")
   @JsonProperty("oauth.issuer")
-  public ConfigNodePropertyString getOauthIssuer() {
+  @Valid public ConfigNodePropertyString getOauthIssuer() {
     return oauthIssuer;
   }
+
+  @JsonProperty("oauth.issuer")
   public void setOauthIssuer(ConfigNodePropertyString oauthIssuer) {
     this.oauthIssuer = oauthIssuer;
   }
@@ -44,9 +57,11 @@ public class ComAdobeGraniteOauthServerImplOAuth2TokenEndpointServletProperties 
   
   @ApiModelProperty(value = "")
   @JsonProperty("oauth.access.token.expires.in")
-  public ConfigNodePropertyString getOauthAccessTokenExpiresIn() {
+  @Valid public ConfigNodePropertyString getOauthAccessTokenExpiresIn() {
     return oauthAccessTokenExpiresIn;
   }
+
+  @JsonProperty("oauth.access.token.expires.in")
   public void setOauthAccessTokenExpiresIn(ConfigNodePropertyString oauthAccessTokenExpiresIn) {
     this.oauthAccessTokenExpiresIn = oauthAccessTokenExpiresIn;
   }
@@ -61,9 +76,11 @@ public class ComAdobeGraniteOauthServerImplOAuth2TokenEndpointServletProperties 
   
   @ApiModelProperty(value = "")
   @JsonProperty("osgi.http.whiteboard.servlet.pattern")
-  public ConfigNodePropertyString getOsgiHttpWhiteboardServletPattern() {
+  @Valid public ConfigNodePropertyString getOsgiHttpWhiteboardServletPattern() {
     return osgiHttpWhiteboardServletPattern;
   }
+
+  @JsonProperty("osgi.http.whiteboard.servlet.pattern")
   public void setOsgiHttpWhiteboardServletPattern(ConfigNodePropertyString osgiHttpWhiteboardServletPattern) {
     this.osgiHttpWhiteboardServletPattern = osgiHttpWhiteboardServletPattern;
   }
@@ -78,16 +95,18 @@ public class ComAdobeGraniteOauthServerImplOAuth2TokenEndpointServletProperties 
   
   @ApiModelProperty(value = "")
   @JsonProperty("osgi.http.whiteboard.context.select")
-  public ConfigNodePropertyString getOsgiHttpWhiteboardContextSelect() {
+  @Valid public ConfigNodePropertyString getOsgiHttpWhiteboardContextSelect() {
     return osgiHttpWhiteboardContextSelect;
   }
+
+  @JsonProperty("osgi.http.whiteboard.context.select")
   public void setOsgiHttpWhiteboardContextSelect(ConfigNodePropertyString osgiHttpWhiteboardContextSelect) {
     this.osgiHttpWhiteboardContextSelect = osgiHttpWhiteboardContextSelect;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -95,10 +114,10 @@ public class ComAdobeGraniteOauthServerImplOAuth2TokenEndpointServletProperties 
       return false;
     }
     ComAdobeGraniteOauthServerImplOAuth2TokenEndpointServletProperties comAdobeGraniteOauthServerImplOAuth2TokenEndpointServletProperties = (ComAdobeGraniteOauthServerImplOAuth2TokenEndpointServletProperties) o;
-    return Objects.equals(oauthIssuer, comAdobeGraniteOauthServerImplOAuth2TokenEndpointServletProperties.oauthIssuer) &&
-        Objects.equals(oauthAccessTokenExpiresIn, comAdobeGraniteOauthServerImplOAuth2TokenEndpointServletProperties.oauthAccessTokenExpiresIn) &&
-        Objects.equals(osgiHttpWhiteboardServletPattern, comAdobeGraniteOauthServerImplOAuth2TokenEndpointServletProperties.osgiHttpWhiteboardServletPattern) &&
-        Objects.equals(osgiHttpWhiteboardContextSelect, comAdobeGraniteOauthServerImplOAuth2TokenEndpointServletProperties.osgiHttpWhiteboardContextSelect);
+    return Objects.equals(this.oauthIssuer, comAdobeGraniteOauthServerImplOAuth2TokenEndpointServletProperties.oauthIssuer) &&
+        Objects.equals(this.oauthAccessTokenExpiresIn, comAdobeGraniteOauthServerImplOAuth2TokenEndpointServletProperties.oauthAccessTokenExpiresIn) &&
+        Objects.equals(this.osgiHttpWhiteboardServletPattern, comAdobeGraniteOauthServerImplOAuth2TokenEndpointServletProperties.osgiHttpWhiteboardServletPattern) &&
+        Objects.equals(this.osgiHttpWhiteboardContextSelect, comAdobeGraniteOauthServerImplOAuth2TokenEndpointServletProperties.osgiHttpWhiteboardContextSelect);
   }
 
   @Override
@@ -123,11 +142,9 @@ public class ComAdobeGraniteOauthServerImplOAuth2TokenEndpointServletProperties 
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

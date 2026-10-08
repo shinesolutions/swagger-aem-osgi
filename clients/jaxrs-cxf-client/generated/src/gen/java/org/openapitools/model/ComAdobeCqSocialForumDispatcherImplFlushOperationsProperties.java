@@ -4,22 +4,19 @@ import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
 
 import io.swagger.annotations.ApiModelProperty;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlType;
-import javax.xml.bind.annotation.XmlEnum;
-import javax.xml.bind.annotation.XmlEnumValue;
+import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
 
 public class ComAdobeCqSocialForumDispatcherImplFlushOperationsProperties  {
   
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyInteger extensionOrder = null;
+
+  private ConfigNodePropertyInteger extensionOrder;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyBoolean flushForumontopic = null;
+
+  private ConfigNodePropertyBoolean flushForumontopic;
  /**
    * Get extensionOrder
    * @return extensionOrder
@@ -56,6 +53,23 @@ public class ComAdobeCqSocialForumDispatcherImplFlushOperationsProperties  {
     return this;
   }
 
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    ComAdobeCqSocialForumDispatcherImplFlushOperationsProperties comAdobeCqSocialForumDispatcherImplFlushOperationsProperties = (ComAdobeCqSocialForumDispatcherImplFlushOperationsProperties) o;
+    return Objects.equals(this.extensionOrder, comAdobeCqSocialForumDispatcherImplFlushOperationsProperties.extensionOrder) &&
+        Objects.equals(this.flushForumontopic, comAdobeCqSocialForumDispatcherImplFlushOperationsProperties.flushForumontopic);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(extensionOrder, flushForumontopic);
+  }
 
   @Override
   public String toString() {
@@ -72,11 +86,8 @@ public class ComAdobeCqSocialForumDispatcherImplFlushOperationsProperties  {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private static String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

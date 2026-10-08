@@ -2,27 +2,28 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouInfo   {
   
-  private String pid = null;
+  private String pid;
 
-  private String title = null;
+  private String title;
 
-  private String description = null;
+  private String description;
 
-  private ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouProperties properties = null;
-
+  private ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouProperties properties;
 
   /**
    **/
@@ -98,7 +99,7 @@ public class ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouInfo 
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -106,10 +107,10 @@ public class ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouInfo 
       return false;
     }
     ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouInfo comAdobeCqSocialEnablementResourceEndpointsImplEnablementResouInfo = (ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouInfo) o;
-    return Objects.equals(pid, comAdobeCqSocialEnablementResourceEndpointsImplEnablementResouInfo.pid) &&
-        Objects.equals(title, comAdobeCqSocialEnablementResourceEndpointsImplEnablementResouInfo.title) &&
-        Objects.equals(description, comAdobeCqSocialEnablementResourceEndpointsImplEnablementResouInfo.description) &&
-        Objects.equals(properties, comAdobeCqSocialEnablementResourceEndpointsImplEnablementResouInfo.properties);
+    return Objects.equals(this.pid, comAdobeCqSocialEnablementResourceEndpointsImplEnablementResouInfo.pid) &&
+        Objects.equals(this.title, comAdobeCqSocialEnablementResourceEndpointsImplEnablementResouInfo.title) &&
+        Objects.equals(this.description, comAdobeCqSocialEnablementResourceEndpointsImplEnablementResouInfo.description) &&
+        Objects.equals(this.properties, comAdobeCqSocialEnablementResourceEndpointsImplEnablementResouInfo.properties);
   }
 
   @Override
@@ -134,11 +135,8 @@ public class ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouInfo 
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -4,27 +4,31 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyDropDown;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2019-08-05T00:59:30.156Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2026-10-07T12:54:21.614735164Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeCqWcmLaunchesImplLaunchesEventHandlerProperties   {
   
-  private ConfigNodePropertyString eventFilter = null;
-  private ConfigNodePropertyInteger launchesEventhandlerThreadpoolMaxsize = null;
-  private ConfigNodePropertyDropDown launchesEventhandlerThreadpoolPriority = null;
-  private ConfigNodePropertyBoolean launchesEventhandlerUpdatelastmodification = null;
+  private ConfigNodePropertyString eventFilter;
+  private ConfigNodePropertyInteger launchesEventhandlerThreadpoolMaxsize;
+  private ConfigNodePropertyDropDown launchesEventhandlerThreadpoolPriority;
+  private ConfigNodePropertyBoolean launchesEventhandlerUpdatelastmodification;
 
   /**
    **/
   
   @ApiModelProperty(value = "")
   @JsonProperty("event.filter")
+  @Valid
   public ConfigNodePropertyString getEventFilter() {
     return eventFilter;
   }
@@ -37,6 +41,7 @@ public class ComAdobeCqWcmLaunchesImplLaunchesEventHandlerProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("launches.eventhandler.threadpool.maxsize")
+  @Valid
   public ConfigNodePropertyInteger getLaunchesEventhandlerThreadpoolMaxsize() {
     return launchesEventhandlerThreadpoolMaxsize;
   }
@@ -49,6 +54,7 @@ public class ComAdobeCqWcmLaunchesImplLaunchesEventHandlerProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("launches.eventhandler.threadpool.priority")
+  @Valid
   public ConfigNodePropertyDropDown getLaunchesEventhandlerThreadpoolPriority() {
     return launchesEventhandlerThreadpoolPriority;
   }
@@ -61,6 +67,7 @@ public class ComAdobeCqWcmLaunchesImplLaunchesEventHandlerProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("launches.eventhandler.updatelastmodification")
+  @Valid
   public ConfigNodePropertyBoolean getLaunchesEventhandlerUpdatelastmodification() {
     return launchesEventhandlerUpdatelastmodification;
   }
@@ -70,7 +77,7 @@ public class ComAdobeCqWcmLaunchesImplLaunchesEventHandlerProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -78,10 +85,10 @@ public class ComAdobeCqWcmLaunchesImplLaunchesEventHandlerProperties   {
       return false;
     }
     ComAdobeCqWcmLaunchesImplLaunchesEventHandlerProperties comAdobeCqWcmLaunchesImplLaunchesEventHandlerProperties = (ComAdobeCqWcmLaunchesImplLaunchesEventHandlerProperties) o;
-    return Objects.equals(eventFilter, comAdobeCqWcmLaunchesImplLaunchesEventHandlerProperties.eventFilter) &&
-        Objects.equals(launchesEventhandlerThreadpoolMaxsize, comAdobeCqWcmLaunchesImplLaunchesEventHandlerProperties.launchesEventhandlerThreadpoolMaxsize) &&
-        Objects.equals(launchesEventhandlerThreadpoolPriority, comAdobeCqWcmLaunchesImplLaunchesEventHandlerProperties.launchesEventhandlerThreadpoolPriority) &&
-        Objects.equals(launchesEventhandlerUpdatelastmodification, comAdobeCqWcmLaunchesImplLaunchesEventHandlerProperties.launchesEventhandlerUpdatelastmodification);
+    return Objects.equals(this.eventFilter, comAdobeCqWcmLaunchesImplLaunchesEventHandlerProperties.eventFilter) &&
+        Objects.equals(this.launchesEventhandlerThreadpoolMaxsize, comAdobeCqWcmLaunchesImplLaunchesEventHandlerProperties.launchesEventhandlerThreadpoolMaxsize) &&
+        Objects.equals(this.launchesEventhandlerThreadpoolPriority, comAdobeCqWcmLaunchesImplLaunchesEventHandlerProperties.launchesEventhandlerThreadpoolPriority) &&
+        Objects.equals(this.launchesEventhandlerUpdatelastmodification, comAdobeCqWcmLaunchesImplLaunchesEventHandlerProperties.launchesEventhandlerUpdatelastmodification);
   }
 
   @Override
@@ -106,11 +113,8 @@ public class ComAdobeCqWcmLaunchesImplLaunchesEventHandlerProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

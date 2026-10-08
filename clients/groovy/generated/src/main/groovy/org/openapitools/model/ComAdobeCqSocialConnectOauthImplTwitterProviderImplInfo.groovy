@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqSocialConnectOauthImplTwitterProviderImp
 
 @Canonical
 class ComAdobeCqSocialConnectOauthImplTwitterProviderImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqSocialConnectOauthImplTwitterProviderImplProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqSocialConnectOauthImplTwitterProviderImplProperties properties
 }

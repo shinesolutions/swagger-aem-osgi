@@ -1,0 +1,41 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqAnalyticsSitecatalystImplImporterReportImporterProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqAnalyticsSitecatalystImplImporterReportImporterProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+}
+resourceTypes {
+
+  ComDayCqAnalyticsSitecatalystImplImporterReportImporterProperties {
+    title = ComDayCqAnalyticsSitecatalystImplImporterReportImporterProperties
+    description = ComDayCqAnalyticsSitecatalystImplImporterReportImporterProperties
+    derivedFrom = Root
+    properties {
+        report_fetch_attempts {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        report_fetch_delay {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqAnalyticsSitecatalystImplImporterReportImporterProperties {
+    title = ComDayCqAnalyticsSitecatalystImplImporterReportImporterProperties
+    description = ComDayCqAnalyticsSitecatalystImplImporterReportImporterProperties
+    implements = openapi_server.resourceTypes.ComDayCqAnalyticsSitecatalystImplImporterReportImporterProperties
+
+  }
+}

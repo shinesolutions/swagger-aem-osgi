@@ -7,8 +7,8 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqDamS7damCommonPostServletsSetCreateHandlerProperties {
-    ConfigNodePropertyString slingPostOperation = null
-
-    ConfigNodePropertyString slingServletMethods = null
-
+    
+    ConfigNodePropertyString slingPostOperation
+    
+    ConfigNodePropertyString slingServletMethods
 }

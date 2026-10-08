@@ -7,16 +7,16 @@ import org.openapitools.model.ComAdobeGraniteAuthImsProperties;
 
 @Canonical
 class ComAdobeGraniteAuthImsInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteAuthImsProperties properties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteAuthImsProperties properties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

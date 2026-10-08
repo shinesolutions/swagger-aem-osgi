@@ -4,27 +4,31 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2019-08-05T00:59:30.156Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2026-10-07T12:54:21.614735164Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqWcmFoundationFormsImplFormChooserServletProperties   {
   
-  private ConfigNodePropertyString serviceName = null;
-  private ConfigNodePropertyString slingServletResourceTypes = null;
-  private ConfigNodePropertyString slingServletSelectors = null;
-  private ConfigNodePropertyArray slingServletMethods = null;
-  private ConfigNodePropertyBoolean formsFormchooserservletAdvansesearchRequire = null;
+  private ConfigNodePropertyString serviceName;
+  private ConfigNodePropertyString slingServletResourceTypes;
+  private ConfigNodePropertyString slingServletSelectors;
+  private ConfigNodePropertyArray slingServletMethods;
+  private ConfigNodePropertyBoolean formsFormchooserservletAdvansesearchRequire;
 
   /**
    **/
   
   @ApiModelProperty(value = "")
   @JsonProperty("service.name")
+  @Valid
   public ConfigNodePropertyString getServiceName() {
     return serviceName;
   }
@@ -37,6 +41,7 @@ public class ComDayCqWcmFoundationFormsImplFormChooserServletProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("sling.servlet.resourceTypes")
+  @Valid
   public ConfigNodePropertyString getSlingServletResourceTypes() {
     return slingServletResourceTypes;
   }
@@ -49,6 +54,7 @@ public class ComDayCqWcmFoundationFormsImplFormChooserServletProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("sling.servlet.selectors")
+  @Valid
   public ConfigNodePropertyString getSlingServletSelectors() {
     return slingServletSelectors;
   }
@@ -61,6 +67,7 @@ public class ComDayCqWcmFoundationFormsImplFormChooserServletProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("sling.servlet.methods")
+  @Valid
   public ConfigNodePropertyArray getSlingServletMethods() {
     return slingServletMethods;
   }
@@ -73,6 +80,7 @@ public class ComDayCqWcmFoundationFormsImplFormChooserServletProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("forms.formchooserservlet.advansesearch.require")
+  @Valid
   public ConfigNodePropertyBoolean getFormsFormchooserservletAdvansesearchRequire() {
     return formsFormchooserservletAdvansesearchRequire;
   }
@@ -82,7 +90,7 @@ public class ComDayCqWcmFoundationFormsImplFormChooserServletProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -90,11 +98,11 @@ public class ComDayCqWcmFoundationFormsImplFormChooserServletProperties   {
       return false;
     }
     ComDayCqWcmFoundationFormsImplFormChooserServletProperties comDayCqWcmFoundationFormsImplFormChooserServletProperties = (ComDayCqWcmFoundationFormsImplFormChooserServletProperties) o;
-    return Objects.equals(serviceName, comDayCqWcmFoundationFormsImplFormChooserServletProperties.serviceName) &&
-        Objects.equals(slingServletResourceTypes, comDayCqWcmFoundationFormsImplFormChooserServletProperties.slingServletResourceTypes) &&
-        Objects.equals(slingServletSelectors, comDayCqWcmFoundationFormsImplFormChooserServletProperties.slingServletSelectors) &&
-        Objects.equals(slingServletMethods, comDayCqWcmFoundationFormsImplFormChooserServletProperties.slingServletMethods) &&
-        Objects.equals(formsFormchooserservletAdvansesearchRequire, comDayCqWcmFoundationFormsImplFormChooserServletProperties.formsFormchooserservletAdvansesearchRequire);
+    return Objects.equals(this.serviceName, comDayCqWcmFoundationFormsImplFormChooserServletProperties.serviceName) &&
+        Objects.equals(this.slingServletResourceTypes, comDayCqWcmFoundationFormsImplFormChooserServletProperties.slingServletResourceTypes) &&
+        Objects.equals(this.slingServletSelectors, comDayCqWcmFoundationFormsImplFormChooserServletProperties.slingServletSelectors) &&
+        Objects.equals(this.slingServletMethods, comDayCqWcmFoundationFormsImplFormChooserServletProperties.slingServletMethods) &&
+        Objects.equals(this.formsFormchooserservletAdvansesearchRequire, comDayCqWcmFoundationFormsImplFormChooserServletProperties.formsFormchooserservletAdvansesearchRequire);
   }
 
   @Override
@@ -120,11 +128,8 @@ public class ComDayCqWcmFoundationFormsImplFormChooserServletProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

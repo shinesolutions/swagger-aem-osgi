@@ -1,0 +1,8 @@
+package models
+
+type ComAdobeAemFormsndocumentsConfigAemFormsManagerConfigurationProperties struct {
+
+	FormsManagerConfigIncludeOOTBTemplates ConfigNodePropertyBoolean `json:"formsManagerConfig.includeOOTBTemplates,omitempty"`
+
+	FormsManagerConfigIncludeDeprecatedTemplates ConfigNodePropertyBoolean `json:"formsManagerConfig.includeDeprecatedTemplates,omitempty"`
+}

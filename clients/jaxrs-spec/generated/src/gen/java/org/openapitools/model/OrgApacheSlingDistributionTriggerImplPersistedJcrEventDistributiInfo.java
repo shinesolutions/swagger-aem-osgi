@@ -1,21 +1,32 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiProperties;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("orgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiInfo")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiInfo   {
-  
-  private @Valid String pid = null;
-  private @Valid String title = null;
-  private @Valid String description = null;
-  private @Valid OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiProperties properties = null;
+  private String pid;
+  private String title;
+  private String description;
+  private OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiProperties properties;
+
+  public OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiInfo() {
+  }
 
   /**
    **/
@@ -30,6 +41,8 @@ public class OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiInf
   public String getPid() {
     return pid;
   }
+
+  @JsonProperty("pid")
   public void setPid(String pid) {
     this.pid = pid;
   }
@@ -47,6 +60,8 @@ public class OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiInf
   public String getTitle() {
     return title;
   }
+
+  @JsonProperty("title")
   public void setTitle(String title) {
     this.title = title;
   }
@@ -64,6 +79,8 @@ public class OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiInf
   public String getDescription() {
     return description;
   }
+
+  @JsonProperty("description")
   public void setDescription(String description) {
     this.description = description;
   }
@@ -78,16 +95,18 @@ public class OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiInf
   
   @ApiModelProperty(value = "")
   @JsonProperty("properties")
-  public OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiProperties getProperties() {
+  @Valid public OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiProperties getProperties() {
     return properties;
   }
+
+  @JsonProperty("properties")
   public void setProperties(OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiProperties properties) {
     this.properties = properties;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -95,10 +114,10 @@ public class OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiInf
       return false;
     }
     OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiInfo orgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiInfo = (OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiInfo) o;
-    return Objects.equals(pid, orgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiInfo.pid) &&
-        Objects.equals(title, orgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiInfo.title) &&
-        Objects.equals(description, orgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiInfo.description) &&
-        Objects.equals(properties, orgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiInfo.properties);
+    return Objects.equals(this.pid, orgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiInfo.pid) &&
+        Objects.equals(this.title, orgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiInfo.title) &&
+        Objects.equals(this.description, orgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiInfo.description) &&
+        Objects.equals(this.properties, orgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiInfo.properties);
   }
 
   @Override
@@ -123,11 +142,9 @@ public class OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiInf
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

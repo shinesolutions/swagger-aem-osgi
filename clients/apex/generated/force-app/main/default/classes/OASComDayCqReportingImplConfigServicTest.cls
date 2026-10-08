@@ -72,16 +72,16 @@ private class OASComDayCqReportingImplConfigServicTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqReportingImplConfigServic comDayCqReportingImplConfigServiceImplProperties = new OASComDayCqReportingImplConfigServic();
-        Map<String, String> propertyMappings = comDayCqReportingImplConfigServiceImplProperties.getPropertyMappings();
-        System.assertEquals('repconfTimezone', propertyMappings.get('repconf.timezone'));
-        System.assertEquals('repconfLocale', propertyMappings.get('repconf.locale'));
-        System.assertEquals('repconfSnapshots', propertyMappings.get('repconf.snapshots'));
-        System.assertEquals('repconfRepdir', propertyMappings.get('repconf.repdir'));
-        System.assertEquals('repconfHourofday', propertyMappings.get('repconf.hourofday'));
-        System.assertEquals('repconfMinofhour', propertyMappings.get('repconf.minofhour'));
-        System.assertEquals('repconfMaxrows', propertyMappings.get('repconf.maxrows'));
-        System.assertEquals('repconfFakedata', propertyMappings.get('repconf.fakedata'));
-        System.assertEquals('repconfSnapshotuser', propertyMappings.get('repconf.snapshotuser'));
-        System.assertEquals('repconfEnforcesnapshotuser', propertyMappings.get('repconf.enforcesnapshotuser'));
+        Map<String, String> x-property-mappings = comDayCqReportingImplConfigServiceImplProperties.getx-property-mappings();
+        System.assertEquals('repconfTimezone', x-property-mappings.get('repconf.timezone'));
+        System.assertEquals('repconfLocale', x-property-mappings.get('repconf.locale'));
+        System.assertEquals('repconfSnapshots', x-property-mappings.get('repconf.snapshots'));
+        System.assertEquals('repconfRepdir', x-property-mappings.get('repconf.repdir'));
+        System.assertEquals('repconfHourofday', x-property-mappings.get('repconf.hourofday'));
+        System.assertEquals('repconfMinofhour', x-property-mappings.get('repconf.minofhour'));
+        System.assertEquals('repconfMaxrows', x-property-mappings.get('repconf.maxrows'));
+        System.assertEquals('repconfFakedata', x-property-mappings.get('repconf.fakedata'));
+        System.assertEquals('repconfSnapshotuser', x-property-mappings.get('repconf.snapshotuser'));
+        System.assertEquals('repconfEnforcesnapshotuser', x-property-mappings.get('repconf.enforcesnapshotuser'));
     }
 }

@@ -8,16 +8,16 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqDamIdsImplIDSJobProcessorProperties {
-    ConfigNodePropertyBoolean enableMultisession = null
-
-    ConfigNodePropertyBoolean idsCcEnable = null
-
-    ConfigNodePropertyBoolean enableRetry = null
-
-    ConfigNodePropertyBoolean enableRetryScripterror = null
-
-    ConfigNodePropertyString externalizerDomainCqhost = null
-
-    ConfigNodePropertyString externalizerDomainHttp = null
-
+    
+    ConfigNodePropertyBoolean enableMultisession
+    
+    ConfigNodePropertyBoolean idsCcEnable
+    
+    ConfigNodePropertyBoolean enableRetry
+    
+    ConfigNodePropertyBoolean enableRetryScripterror
+    
+    ConfigNodePropertyString externalizerDomainCqhost
+    
+    ConfigNodePropertyString externalizerDomainHttp
 }

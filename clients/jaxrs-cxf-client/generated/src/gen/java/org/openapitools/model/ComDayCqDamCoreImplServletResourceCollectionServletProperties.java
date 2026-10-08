@@ -5,34 +5,35 @@ import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyString;
 
 import io.swagger.annotations.ApiModelProperty;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlType;
-import javax.xml.bind.annotation.XmlEnum;
-import javax.xml.bind.annotation.XmlEnumValue;
+import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
 
 public class ComDayCqDamCoreImplServletResourceCollectionServletProperties  {
   
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyArray slingServletResourceTypes = null;
+
+  private ConfigNodePropertyArray slingServletResourceTypes;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString slingServletMethods = null;
+
+  private ConfigNodePropertyString slingServletMethods;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString slingServletSelectors = null;
+
+  private ConfigNodePropertyString slingServletSelectors;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString downloadConfig = null;
+
+  private ConfigNodePropertyString downloadConfig;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString viewSelector = null;
+
+  private ConfigNodePropertyString viewSelector;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyBoolean sendEmail = null;
+
+  private ConfigNodePropertyBoolean sendEmail;
  /**
    * Get slingServletResourceTypes
    * @return slingServletResourceTypes
@@ -141,6 +142,27 @@ public class ComDayCqDamCoreImplServletResourceCollectionServletProperties  {
     return this;
   }
 
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    ComDayCqDamCoreImplServletResourceCollectionServletProperties comDayCqDamCoreImplServletResourceCollectionServletProperties = (ComDayCqDamCoreImplServletResourceCollectionServletProperties) o;
+    return Objects.equals(this.slingServletResourceTypes, comDayCqDamCoreImplServletResourceCollectionServletProperties.slingServletResourceTypes) &&
+        Objects.equals(this.slingServletMethods, comDayCqDamCoreImplServletResourceCollectionServletProperties.slingServletMethods) &&
+        Objects.equals(this.slingServletSelectors, comDayCqDamCoreImplServletResourceCollectionServletProperties.slingServletSelectors) &&
+        Objects.equals(this.downloadConfig, comDayCqDamCoreImplServletResourceCollectionServletProperties.downloadConfig) &&
+        Objects.equals(this.viewSelector, comDayCqDamCoreImplServletResourceCollectionServletProperties.viewSelector) &&
+        Objects.equals(this.sendEmail, comDayCqDamCoreImplServletResourceCollectionServletProperties.sendEmail);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(slingServletResourceTypes, slingServletMethods, slingServletSelectors, downloadConfig, viewSelector, sendEmail);
+  }
 
   @Override
   public String toString() {
@@ -161,11 +183,8 @@ public class ComDayCqDamCoreImplServletResourceCollectionServletProperties  {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private static String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

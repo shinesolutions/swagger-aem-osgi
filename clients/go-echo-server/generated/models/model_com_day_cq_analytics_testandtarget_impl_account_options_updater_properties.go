@@ -1,0 +1,6 @@
+package models
+
+type ComDayCqAnalyticsTestandtargetImplAccountOptionsUpdaterProperties struct {
+
+	CqAnalyticsTestandtargetAccountoptionsupdaterEnabled ConfigNodePropertyBoolean `json:"cq.analytics.testandtarget.accountoptionsupdater.enabled,omitempty"`
+}

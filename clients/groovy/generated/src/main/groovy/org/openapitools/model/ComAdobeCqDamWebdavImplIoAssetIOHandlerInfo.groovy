@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqDamWebdavImplIoAssetIOHandlerProperties;
 
 @Canonical
 class ComAdobeCqDamWebdavImplIoAssetIOHandlerInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqDamWebdavImplIoAssetIOHandlerProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqDamWebdavImplIoAssetIOHandlerProperties properties
 }

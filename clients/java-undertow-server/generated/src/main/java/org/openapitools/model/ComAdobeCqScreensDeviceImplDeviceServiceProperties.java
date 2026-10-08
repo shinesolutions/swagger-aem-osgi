@@ -1,3 +1,13 @@
+/*
+ * Adobe Experience Manager OSGI config (AEM) API
+ *
+ * Swagger AEM OSGI is an OpenAPI specification for Adobe Experience Manager (AEM) OSGI Configurations API
+ *
+ * OpenAPI document version: 1.0.0-pre.0
+ * Maintained by: opensource@shinesolutions.com
+ *
+ * AUTO-GENERATED FILE, DO NOT MODIFY!
+ */
 package org.openapitools.model;
 
 import java.util.Objects;
@@ -12,19 +22,19 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2019-08-05T00:56:20.785Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2026-10-07T12:53:42.280804918Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeCqScreensDeviceImplDeviceServiceProperties   {
   
-  private ConfigNodePropertyInteger comAdobeAemScreensPlayerPingfrequency = null;
-  private ConfigNodePropertyString comAdobeAemScreensDevicePaswordSpecialchars = null;
-  private ConfigNodePropertyInteger comAdobeAemScreensDevicePaswordMinlowercasechars = null;
-  private ConfigNodePropertyInteger comAdobeAemScreensDevicePaswordMinuppercasechars = null;
-  private ConfigNodePropertyInteger comAdobeAemScreensDevicePaswordMinnumberchars = null;
-  private ConfigNodePropertyInteger comAdobeAemScreensDevicePaswordMinspecialchars = null;
-  private ConfigNodePropertyInteger comAdobeAemScreensDevicePaswordMinlength = null;
+  private ConfigNodePropertyInteger comAdobeAemScreensPlayerPingfrequency;
+  private ConfigNodePropertyString comAdobeAemScreensDevicePaswordSpecialchars;
+  private ConfigNodePropertyInteger comAdobeAemScreensDevicePaswordMinlowercasechars;
+  private ConfigNodePropertyInteger comAdobeAemScreensDevicePaswordMinuppercasechars;
+  private ConfigNodePropertyInteger comAdobeAemScreensDevicePaswordMinnumberchars;
+  private ConfigNodePropertyInteger comAdobeAemScreensDevicePaswordMinspecialchars;
+  private ConfigNodePropertyInteger comAdobeAemScreensDevicePaswordMinlength;
 
   /**
-   **/
+   */
   public ComAdobeCqScreensDeviceImplDeviceServiceProperties comAdobeAemScreensPlayerPingfrequency(ConfigNodePropertyInteger comAdobeAemScreensPlayerPingfrequency) {
     this.comAdobeAemScreensPlayerPingfrequency = comAdobeAemScreensPlayerPingfrequency;
     return this;
@@ -41,7 +51,7 @@ public class ComAdobeCqScreensDeviceImplDeviceServiceProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeCqScreensDeviceImplDeviceServiceProperties comAdobeAemScreensDevicePaswordSpecialchars(ConfigNodePropertyString comAdobeAemScreensDevicePaswordSpecialchars) {
     this.comAdobeAemScreensDevicePaswordSpecialchars = comAdobeAemScreensDevicePaswordSpecialchars;
     return this;
@@ -58,7 +68,7 @@ public class ComAdobeCqScreensDeviceImplDeviceServiceProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeCqScreensDeviceImplDeviceServiceProperties comAdobeAemScreensDevicePaswordMinlowercasechars(ConfigNodePropertyInteger comAdobeAemScreensDevicePaswordMinlowercasechars) {
     this.comAdobeAemScreensDevicePaswordMinlowercasechars = comAdobeAemScreensDevicePaswordMinlowercasechars;
     return this;
@@ -75,7 +85,7 @@ public class ComAdobeCqScreensDeviceImplDeviceServiceProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeCqScreensDeviceImplDeviceServiceProperties comAdobeAemScreensDevicePaswordMinuppercasechars(ConfigNodePropertyInteger comAdobeAemScreensDevicePaswordMinuppercasechars) {
     this.comAdobeAemScreensDevicePaswordMinuppercasechars = comAdobeAemScreensDevicePaswordMinuppercasechars;
     return this;
@@ -92,7 +102,7 @@ public class ComAdobeCqScreensDeviceImplDeviceServiceProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeCqScreensDeviceImplDeviceServiceProperties comAdobeAemScreensDevicePaswordMinnumberchars(ConfigNodePropertyInteger comAdobeAemScreensDevicePaswordMinnumberchars) {
     this.comAdobeAemScreensDevicePaswordMinnumberchars = comAdobeAemScreensDevicePaswordMinnumberchars;
     return this;
@@ -109,7 +119,7 @@ public class ComAdobeCqScreensDeviceImplDeviceServiceProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeCqScreensDeviceImplDeviceServiceProperties comAdobeAemScreensDevicePaswordMinspecialchars(ConfigNodePropertyInteger comAdobeAemScreensDevicePaswordMinspecialchars) {
     this.comAdobeAemScreensDevicePaswordMinspecialchars = comAdobeAemScreensDevicePaswordMinspecialchars;
     return this;
@@ -126,7 +136,7 @@ public class ComAdobeCqScreensDeviceImplDeviceServiceProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeCqScreensDeviceImplDeviceServiceProperties comAdobeAemScreensDevicePaswordMinlength(ConfigNodePropertyInteger comAdobeAemScreensDevicePaswordMinlength) {
     this.comAdobeAemScreensDevicePaswordMinlength = comAdobeAemScreensDevicePaswordMinlength;
     return this;
@@ -144,7 +154,7 @@ public class ComAdobeCqScreensDeviceImplDeviceServiceProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -186,11 +196,8 @@ public class ComAdobeCqScreensDeviceImplDeviceServiceProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -72,7 +72,7 @@ private class OASComAdobeGraniteSecurityUserUiInteTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeGraniteSecurityUserUiInte comAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationSProperties = new OASComAdobeGraniteSecurityUserUiInte();
-        Map<String, String> propertyMappings = comAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationSProperties.getPropertyMappings();
-        System.assertEquals('hcTags', propertyMappings.get('hc.tags'));
+        Map<String, String> x-property-mappings = comAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationSProperties.getx-property-mappings();
+        System.assertEquals('hcTags', x-property-mappings.get('hc.tags'));
     }
 }

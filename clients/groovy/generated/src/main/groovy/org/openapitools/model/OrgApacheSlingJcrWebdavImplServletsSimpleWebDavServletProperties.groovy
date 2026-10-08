@@ -9,24 +9,24 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletProperties {
-    ConfigNodePropertyString davRoot = null
-
-    ConfigNodePropertyBoolean davCreateAbsoluteUri = null
-
-    ConfigNodePropertyString davRealm = null
-
-    ConfigNodePropertyArray collectionTypes = null
-
-    ConfigNodePropertyArray filterPrefixes = null
-
-    ConfigNodePropertyString filterTypes = null
-
-    ConfigNodePropertyString filterUris = null
-
-    ConfigNodePropertyString typeCollections = null
-
-    ConfigNodePropertyString typeNoncollections = null
-
-    ConfigNodePropertyString typeContent = null
-
+    
+    ConfigNodePropertyString davRoot
+    
+    ConfigNodePropertyBoolean davCreateAbsoluteUri
+    
+    ConfigNodePropertyString davRealm
+    
+    ConfigNodePropertyArray collectionTypes
+    
+    ConfigNodePropertyArray filterPrefixes
+    
+    ConfigNodePropertyString filterTypes
+    
+    ConfigNodePropertyString filterUris
+    
+    ConfigNodePropertyString typeCollections
+    
+    ConfigNodePropertyString typeNoncollections
+    
+    ConfigNodePropertyString typeContent
 }

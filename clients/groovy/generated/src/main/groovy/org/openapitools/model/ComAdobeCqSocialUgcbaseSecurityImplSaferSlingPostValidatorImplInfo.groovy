@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqSocialUgcbaseSecurityImplSaferSlingPostV
 
 @Canonical
 class ComAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImplProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImplProperties properties
 }

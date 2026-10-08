@@ -1,40 +1,46 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
 import io.swagger.annotations.ApiModelProperty;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlType;
-import javax.xml.bind.annotation.XmlEnum;
-import javax.xml.bind.annotation.XmlEnumValue;
+import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
 
 public class OrgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServiceProperties  {
   
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyString accountName = null;
+
+  private ConfigNodePropertyString accountName;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyString containerName = null;
+
+  private ConfigNodePropertyString containerName;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyString accessKey = null;
+
+  private ConfigNodePropertyString accessKey;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyString rootPath = null;
+
+  private ConfigNodePropertyString rootPath;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyString connectionURL = null;
+
+  private ConfigNodePropertyString connectionURL;
  /**
    * Get accountName
    * @return accountName
@@ -125,6 +131,26 @@ public class OrgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServicePropertie
     return this;
   }
 
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    OrgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServiceProperties orgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServiceProperties = (OrgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServiceProperties) o;
+    return Objects.equals(this.accountName, orgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServiceProperties.accountName) &&
+        Objects.equals(this.containerName, orgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServiceProperties.containerName) &&
+        Objects.equals(this.accessKey, orgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServiceProperties.accessKey) &&
+        Objects.equals(this.rootPath, orgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServiceProperties.rootPath) &&
+        Objects.equals(this.connectionURL, orgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServiceProperties.connectionURL);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(accountName, containerName, accessKey, rootPath, connectionURL);
+  }
 
   @Override
   public String toString() {
@@ -144,11 +170,8 @@ public class OrgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServicePropertie
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private static String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

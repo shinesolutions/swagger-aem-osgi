@@ -3,50 +3,73 @@ package apimodels;
 import apimodels.ConfigNodePropertyBoolean;
 import apimodels.ConfigNodePropertyDropDown;
 import apimodels.ConfigNodePropertyString;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorProperties   {
   @JsonProperty("name")
-  private ConfigNodePropertyString name = null;
+  @Valid
+
+  private ConfigNodePropertyString name;
 
   @JsonProperty("title")
-  private ConfigNodePropertyString title = null;
+  @Valid
+
+  private ConfigNodePropertyString title;
 
   @JsonProperty("details")
-  private ConfigNodePropertyString details = null;
+  @Valid
+
+  private ConfigNodePropertyString details;
 
   @JsonProperty("enabled")
-  private ConfigNodePropertyBoolean enabled = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean enabled;
 
   @JsonProperty("serviceName")
-  private ConfigNodePropertyString serviceName = null;
+  @Valid
+
+  private ConfigNodePropertyString serviceName;
 
   @JsonProperty("log.level")
-  private ConfigNodePropertyDropDown logLevel = null;
+  @Valid
+
+  private ConfigNodePropertyDropDown logLevel;
 
   @JsonProperty("queue.processing.enabled")
-  private ConfigNodePropertyBoolean queueProcessingEnabled = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean queueProcessingEnabled;
 
   @JsonProperty("packageExporter.target")
-  private ConfigNodePropertyString packageExporterTarget = null;
+  @Valid
+
+  private ConfigNodePropertyString packageExporterTarget;
 
   @JsonProperty("packageImporter.target")
-  private ConfigNodePropertyString packageImporterTarget = null;
+  @Valid
+
+  private ConfigNodePropertyString packageImporterTarget;
 
   @JsonProperty("requestAuthorizationStrategy.target")
-  private ConfigNodePropertyString requestAuthorizationStrategyTarget = null;
+  @Valid
+
+  private ConfigNodePropertyString requestAuthorizationStrategyTarget;
 
   @JsonProperty("triggers.target")
-  private ConfigNodePropertyString triggersTarget = null;
+  @Valid
+
+  private ConfigNodePropertyString triggersTarget;
 
   public OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorProperties name(ConfigNodePropertyString name) {
     this.name = name;
@@ -57,7 +80,6 @@ public class OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorPro
    * Get name
    * @return name
   **/
-  @Valid
   public ConfigNodePropertyString getName() {
     return name;
   }
@@ -75,7 +97,6 @@ public class OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorPro
    * Get title
    * @return title
   **/
-  @Valid
   public ConfigNodePropertyString getTitle() {
     return title;
   }
@@ -93,7 +114,6 @@ public class OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorPro
    * Get details
    * @return details
   **/
-  @Valid
   public ConfigNodePropertyString getDetails() {
     return details;
   }
@@ -111,7 +131,6 @@ public class OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorPro
    * Get enabled
    * @return enabled
   **/
-  @Valid
   public ConfigNodePropertyBoolean getEnabled() {
     return enabled;
   }
@@ -129,7 +148,6 @@ public class OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorPro
    * Get serviceName
    * @return serviceName
   **/
-  @Valid
   public ConfigNodePropertyString getServiceName() {
     return serviceName;
   }
@@ -147,7 +165,6 @@ public class OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorPro
    * Get logLevel
    * @return logLevel
   **/
-  @Valid
   public ConfigNodePropertyDropDown getLogLevel() {
     return logLevel;
   }
@@ -165,7 +182,6 @@ public class OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorPro
    * Get queueProcessingEnabled
    * @return queueProcessingEnabled
   **/
-  @Valid
   public ConfigNodePropertyBoolean getQueueProcessingEnabled() {
     return queueProcessingEnabled;
   }
@@ -183,7 +199,6 @@ public class OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorPro
    * Get packageExporterTarget
    * @return packageExporterTarget
   **/
-  @Valid
   public ConfigNodePropertyString getPackageExporterTarget() {
     return packageExporterTarget;
   }
@@ -201,7 +216,6 @@ public class OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorPro
    * Get packageImporterTarget
    * @return packageImporterTarget
   **/
-  @Valid
   public ConfigNodePropertyString getPackageImporterTarget() {
     return packageImporterTarget;
   }
@@ -219,7 +233,6 @@ public class OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorPro
    * Get requestAuthorizationStrategyTarget
    * @return requestAuthorizationStrategyTarget
   **/
-  @Valid
   public ConfigNodePropertyString getRequestAuthorizationStrategyTarget() {
     return requestAuthorizationStrategyTarget;
   }
@@ -237,7 +250,6 @@ public class OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorPro
    * Get triggersTarget
    * @return triggersTarget
   **/
-  @Valid
   public ConfigNodePropertyString getTriggersTarget() {
     return triggersTarget;
   }
@@ -248,7 +260,7 @@ public class OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorPro
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -299,11 +311,8 @@ public class OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorPro
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

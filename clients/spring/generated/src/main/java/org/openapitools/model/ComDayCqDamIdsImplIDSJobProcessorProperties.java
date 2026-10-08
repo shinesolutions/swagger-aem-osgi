@@ -1,40 +1,51 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComDayCqDamIdsImplIDSJobProcessorProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComDayCqDamIdsImplIDSJobProcessorProperties   {
-  @JsonProperty("enable.multisession")
-  private ConfigNodePropertyBoolean enableMultisession = null;
+@JsonTypeName("comDayCqDamIdsImplIDSJobProcessorProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComDayCqDamIdsImplIDSJobProcessorProperties {
 
-  @JsonProperty("ids.cc.enable")
-  private ConfigNodePropertyBoolean idsCcEnable = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean enableMultisession;
 
-  @JsonProperty("enable.retry")
-  private ConfigNodePropertyBoolean enableRetry = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean idsCcEnable;
 
-  @JsonProperty("enable.retry.scripterror")
-  private ConfigNodePropertyBoolean enableRetryScripterror = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean enableRetry;
 
-  @JsonProperty("externalizer.domain.cqhost")
-  private ConfigNodePropertyString externalizerDomainCqhost = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean enableRetryScripterror;
 
-  @JsonProperty("externalizer.domain.http")
-  private ConfigNodePropertyString externalizerDomainHttp = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString externalizerDomainCqhost;
 
-  public ComDayCqDamIdsImplIDSJobProcessorProperties enableMultisession(ConfigNodePropertyBoolean enableMultisession) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString externalizerDomainHttp;
+
+  public ComDayCqDamIdsImplIDSJobProcessorProperties enableMultisession(@Nullable ConfigNodePropertyBoolean enableMultisession) {
     this.enableMultisession = enableMultisession;
     return this;
   }
@@ -42,20 +53,20 @@ public class ComDayCqDamIdsImplIDSJobProcessorProperties   {
   /**
    * Get enableMultisession
    * @return enableMultisession
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getEnableMultisession() {
+   */
+  @Valid 
+  @Schema(name = "enable.multisession", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("enable.multisession")
+  public @Nullable ConfigNodePropertyBoolean getEnableMultisession() {
     return enableMultisession;
   }
 
-  public void setEnableMultisession(ConfigNodePropertyBoolean enableMultisession) {
+  @JsonProperty("enable.multisession")
+  public void setEnableMultisession(@Nullable ConfigNodePropertyBoolean enableMultisession) {
     this.enableMultisession = enableMultisession;
   }
 
-  public ComDayCqDamIdsImplIDSJobProcessorProperties idsCcEnable(ConfigNodePropertyBoolean idsCcEnable) {
+  public ComDayCqDamIdsImplIDSJobProcessorProperties idsCcEnable(@Nullable ConfigNodePropertyBoolean idsCcEnable) {
     this.idsCcEnable = idsCcEnable;
     return this;
   }
@@ -63,20 +74,20 @@ public class ComDayCqDamIdsImplIDSJobProcessorProperties   {
   /**
    * Get idsCcEnable
    * @return idsCcEnable
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getIdsCcEnable() {
+   */
+  @Valid 
+  @Schema(name = "ids.cc.enable", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("ids.cc.enable")
+  public @Nullable ConfigNodePropertyBoolean getIdsCcEnable() {
     return idsCcEnable;
   }
 
-  public void setIdsCcEnable(ConfigNodePropertyBoolean idsCcEnable) {
+  @JsonProperty("ids.cc.enable")
+  public void setIdsCcEnable(@Nullable ConfigNodePropertyBoolean idsCcEnable) {
     this.idsCcEnable = idsCcEnable;
   }
 
-  public ComDayCqDamIdsImplIDSJobProcessorProperties enableRetry(ConfigNodePropertyBoolean enableRetry) {
+  public ComDayCqDamIdsImplIDSJobProcessorProperties enableRetry(@Nullable ConfigNodePropertyBoolean enableRetry) {
     this.enableRetry = enableRetry;
     return this;
   }
@@ -84,20 +95,20 @@ public class ComDayCqDamIdsImplIDSJobProcessorProperties   {
   /**
    * Get enableRetry
    * @return enableRetry
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getEnableRetry() {
+   */
+  @Valid 
+  @Schema(name = "enable.retry", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("enable.retry")
+  public @Nullable ConfigNodePropertyBoolean getEnableRetry() {
     return enableRetry;
   }
 
-  public void setEnableRetry(ConfigNodePropertyBoolean enableRetry) {
+  @JsonProperty("enable.retry")
+  public void setEnableRetry(@Nullable ConfigNodePropertyBoolean enableRetry) {
     this.enableRetry = enableRetry;
   }
 
-  public ComDayCqDamIdsImplIDSJobProcessorProperties enableRetryScripterror(ConfigNodePropertyBoolean enableRetryScripterror) {
+  public ComDayCqDamIdsImplIDSJobProcessorProperties enableRetryScripterror(@Nullable ConfigNodePropertyBoolean enableRetryScripterror) {
     this.enableRetryScripterror = enableRetryScripterror;
     return this;
   }
@@ -105,20 +116,20 @@ public class ComDayCqDamIdsImplIDSJobProcessorProperties   {
   /**
    * Get enableRetryScripterror
    * @return enableRetryScripterror
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getEnableRetryScripterror() {
+   */
+  @Valid 
+  @Schema(name = "enable.retry.scripterror", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("enable.retry.scripterror")
+  public @Nullable ConfigNodePropertyBoolean getEnableRetryScripterror() {
     return enableRetryScripterror;
   }
 
-  public void setEnableRetryScripterror(ConfigNodePropertyBoolean enableRetryScripterror) {
+  @JsonProperty("enable.retry.scripterror")
+  public void setEnableRetryScripterror(@Nullable ConfigNodePropertyBoolean enableRetryScripterror) {
     this.enableRetryScripterror = enableRetryScripterror;
   }
 
-  public ComDayCqDamIdsImplIDSJobProcessorProperties externalizerDomainCqhost(ConfigNodePropertyString externalizerDomainCqhost) {
+  public ComDayCqDamIdsImplIDSJobProcessorProperties externalizerDomainCqhost(@Nullable ConfigNodePropertyString externalizerDomainCqhost) {
     this.externalizerDomainCqhost = externalizerDomainCqhost;
     return this;
   }
@@ -126,20 +137,20 @@ public class ComDayCqDamIdsImplIDSJobProcessorProperties   {
   /**
    * Get externalizerDomainCqhost
    * @return externalizerDomainCqhost
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getExternalizerDomainCqhost() {
+   */
+  @Valid 
+  @Schema(name = "externalizer.domain.cqhost", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("externalizer.domain.cqhost")
+  public @Nullable ConfigNodePropertyString getExternalizerDomainCqhost() {
     return externalizerDomainCqhost;
   }
 
-  public void setExternalizerDomainCqhost(ConfigNodePropertyString externalizerDomainCqhost) {
+  @JsonProperty("externalizer.domain.cqhost")
+  public void setExternalizerDomainCqhost(@Nullable ConfigNodePropertyString externalizerDomainCqhost) {
     this.externalizerDomainCqhost = externalizerDomainCqhost;
   }
 
-  public ComDayCqDamIdsImplIDSJobProcessorProperties externalizerDomainHttp(ConfigNodePropertyString externalizerDomainHttp) {
+  public ComDayCqDamIdsImplIDSJobProcessorProperties externalizerDomainHttp(@Nullable ConfigNodePropertyString externalizerDomainHttp) {
     this.externalizerDomainHttp = externalizerDomainHttp;
     return this;
   }
@@ -147,22 +158,21 @@ public class ComDayCqDamIdsImplIDSJobProcessorProperties   {
   /**
    * Get externalizerDomainHttp
    * @return externalizerDomainHttp
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getExternalizerDomainHttp() {
+   */
+  @Valid 
+  @Schema(name = "externalizer.domain.http", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("externalizer.domain.http")
+  public @Nullable ConfigNodePropertyString getExternalizerDomainHttp() {
     return externalizerDomainHttp;
   }
 
-  public void setExternalizerDomainHttp(ConfigNodePropertyString externalizerDomainHttp) {
+  @JsonProperty("externalizer.domain.http")
+  public void setExternalizerDomainHttp(@Nullable ConfigNodePropertyString externalizerDomainHttp) {
     this.externalizerDomainHttp = externalizerDomainHttp;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -187,7 +197,6 @@ public class ComDayCqDamIdsImplIDSJobProcessorProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComDayCqDamIdsImplIDSJobProcessorProperties {\n");
-    
     sb.append("    enableMultisession: ").append(toIndentedString(enableMultisession)).append("\n");
     sb.append("    idsCcEnable: ").append(toIndentedString(idsCcEnable)).append("\n");
     sb.append("    enableRetry: ").append(toIndentedString(enableRetry)).append("\n");
@@ -202,11 +211,8 @@ public class ComDayCqDamIdsImplIDSJobProcessorProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

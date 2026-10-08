@@ -1,35 +1,46 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * OrgApacheSlingServletsResolverSlingServletResolverProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class OrgApacheSlingServletsResolverSlingServletResolverProperties   {
-  @JsonProperty("servletresolver.servletRoot")
-  private ConfigNodePropertyString servletresolverServletRoot = null;
+@JsonTypeName("orgApacheSlingServletsResolverSlingServletResolverProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class OrgApacheSlingServletsResolverSlingServletResolverProperties {
 
-  @JsonProperty("servletresolver.cacheSize")
-  private ConfigNodePropertyInteger servletresolverCacheSize = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString servletresolverServletRoot;
 
-  @JsonProperty("servletresolver.paths")
-  private ConfigNodePropertyArray servletresolverPaths = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger servletresolverCacheSize;
 
-  @JsonProperty("servletresolver.defaultExtensions")
-  private ConfigNodePropertyArray servletresolverDefaultExtensions = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray servletresolverPaths;
 
-  public OrgApacheSlingServletsResolverSlingServletResolverProperties servletresolverServletRoot(ConfigNodePropertyString servletresolverServletRoot) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray servletresolverDefaultExtensions;
+
+  public OrgApacheSlingServletsResolverSlingServletResolverProperties servletresolverServletRoot(@Nullable ConfigNodePropertyString servletresolverServletRoot) {
     this.servletresolverServletRoot = servletresolverServletRoot;
     return this;
   }
@@ -37,20 +48,20 @@ public class OrgApacheSlingServletsResolverSlingServletResolverProperties   {
   /**
    * Get servletresolverServletRoot
    * @return servletresolverServletRoot
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getServletresolverServletRoot() {
+   */
+  @Valid 
+  @Schema(name = "servletresolver.servletRoot", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("servletresolver.servletRoot")
+  public @Nullable ConfigNodePropertyString getServletresolverServletRoot() {
     return servletresolverServletRoot;
   }
 
-  public void setServletresolverServletRoot(ConfigNodePropertyString servletresolverServletRoot) {
+  @JsonProperty("servletresolver.servletRoot")
+  public void setServletresolverServletRoot(@Nullable ConfigNodePropertyString servletresolverServletRoot) {
     this.servletresolverServletRoot = servletresolverServletRoot;
   }
 
-  public OrgApacheSlingServletsResolverSlingServletResolverProperties servletresolverCacheSize(ConfigNodePropertyInteger servletresolverCacheSize) {
+  public OrgApacheSlingServletsResolverSlingServletResolverProperties servletresolverCacheSize(@Nullable ConfigNodePropertyInteger servletresolverCacheSize) {
     this.servletresolverCacheSize = servletresolverCacheSize;
     return this;
   }
@@ -58,20 +69,20 @@ public class OrgApacheSlingServletsResolverSlingServletResolverProperties   {
   /**
    * Get servletresolverCacheSize
    * @return servletresolverCacheSize
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getServletresolverCacheSize() {
+   */
+  @Valid 
+  @Schema(name = "servletresolver.cacheSize", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("servletresolver.cacheSize")
+  public @Nullable ConfigNodePropertyInteger getServletresolverCacheSize() {
     return servletresolverCacheSize;
   }
 
-  public void setServletresolverCacheSize(ConfigNodePropertyInteger servletresolverCacheSize) {
+  @JsonProperty("servletresolver.cacheSize")
+  public void setServletresolverCacheSize(@Nullable ConfigNodePropertyInteger servletresolverCacheSize) {
     this.servletresolverCacheSize = servletresolverCacheSize;
   }
 
-  public OrgApacheSlingServletsResolverSlingServletResolverProperties servletresolverPaths(ConfigNodePropertyArray servletresolverPaths) {
+  public OrgApacheSlingServletsResolverSlingServletResolverProperties servletresolverPaths(@Nullable ConfigNodePropertyArray servletresolverPaths) {
     this.servletresolverPaths = servletresolverPaths;
     return this;
   }
@@ -79,20 +90,20 @@ public class OrgApacheSlingServletsResolverSlingServletResolverProperties   {
   /**
    * Get servletresolverPaths
    * @return servletresolverPaths
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getServletresolverPaths() {
+   */
+  @Valid 
+  @Schema(name = "servletresolver.paths", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("servletresolver.paths")
+  public @Nullable ConfigNodePropertyArray getServletresolverPaths() {
     return servletresolverPaths;
   }
 
-  public void setServletresolverPaths(ConfigNodePropertyArray servletresolverPaths) {
+  @JsonProperty("servletresolver.paths")
+  public void setServletresolverPaths(@Nullable ConfigNodePropertyArray servletresolverPaths) {
     this.servletresolverPaths = servletresolverPaths;
   }
 
-  public OrgApacheSlingServletsResolverSlingServletResolverProperties servletresolverDefaultExtensions(ConfigNodePropertyArray servletresolverDefaultExtensions) {
+  public OrgApacheSlingServletsResolverSlingServletResolverProperties servletresolverDefaultExtensions(@Nullable ConfigNodePropertyArray servletresolverDefaultExtensions) {
     this.servletresolverDefaultExtensions = servletresolverDefaultExtensions;
     return this;
   }
@@ -100,22 +111,21 @@ public class OrgApacheSlingServletsResolverSlingServletResolverProperties   {
   /**
    * Get servletresolverDefaultExtensions
    * @return servletresolverDefaultExtensions
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getServletresolverDefaultExtensions() {
+   */
+  @Valid 
+  @Schema(name = "servletresolver.defaultExtensions", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("servletresolver.defaultExtensions")
+  public @Nullable ConfigNodePropertyArray getServletresolverDefaultExtensions() {
     return servletresolverDefaultExtensions;
   }
 
-  public void setServletresolverDefaultExtensions(ConfigNodePropertyArray servletresolverDefaultExtensions) {
+  @JsonProperty("servletresolver.defaultExtensions")
+  public void setServletresolverDefaultExtensions(@Nullable ConfigNodePropertyArray servletresolverDefaultExtensions) {
     this.servletresolverDefaultExtensions = servletresolverDefaultExtensions;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -138,7 +148,6 @@ public class OrgApacheSlingServletsResolverSlingServletResolverProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class OrgApacheSlingServletsResolverSlingServletResolverProperties {\n");
-    
     sb.append("    servletresolverServletRoot: ").append(toIndentedString(servletresolverServletRoot)).append("\n");
     sb.append("    servletresolverCacheSize: ").append(toIndentedString(servletresolverCacheSize)).append("\n");
     sb.append("    servletresolverPaths: ").append(toIndentedString(servletresolverPaths)).append("\n");
@@ -151,11 +160,8 @@ public class OrgApacheSlingServletsResolverSlingServletResolverProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

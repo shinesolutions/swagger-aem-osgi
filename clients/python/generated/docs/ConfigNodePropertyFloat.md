@@ -1,6 +1,8 @@
 # ConfigNodePropertyFloat
 
+
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **name** | **str** | property name | [optional] 
@@ -10,6 +12,23 @@ Name | Type | Description | Notes
 **value** | **float** | Property value | [optional] 
 **description** | **str** | Property description | [optional] 
 
+## Example
+
+```python
+from swaggeraemosgi.models.config_node_property_float import ConfigNodePropertyFloat
+
+# TODO update the JSON string below
+json = "{}"
+# create an instance of ConfigNodePropertyFloat from a JSON string
+config_node_property_float_instance = ConfigNodePropertyFloat.from_json(json)
+# print the JSON string representation of the object
+print(ConfigNodePropertyFloat.to_json())
+
+# convert the object into a dict
+config_node_property_float_dict = config_node_property_float_instance.to_dict()
+# create an instance of ConfigNodePropertyFloat from a dict
+config_node_property_float_from_dict = ConfigNodePropertyFloat.from_dict(config_node_property_float_dict)
+```
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 
 

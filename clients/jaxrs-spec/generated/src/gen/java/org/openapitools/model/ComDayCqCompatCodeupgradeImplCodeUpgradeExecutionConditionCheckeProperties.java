@@ -1,19 +1,30 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckeProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckeProperties   {
-  
-  private @Valid ConfigNodePropertyArray codeupgradetasks = null;
-  private @Valid ConfigNodePropertyArray codeupgradetaskfilters = null;
+  private ConfigNodePropertyArray codeupgradetasks;
+  private ConfigNodePropertyArray codeupgradetaskfilters;
+
+  public ComDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckeProperties() {
+  }
 
   /**
    **/
@@ -25,9 +36,11 @@ public class ComDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckePro
   
   @ApiModelProperty(value = "")
   @JsonProperty("codeupgradetasks")
-  public ConfigNodePropertyArray getCodeupgradetasks() {
+  @Valid public ConfigNodePropertyArray getCodeupgradetasks() {
     return codeupgradetasks;
   }
+
+  @JsonProperty("codeupgradetasks")
   public void setCodeupgradetasks(ConfigNodePropertyArray codeupgradetasks) {
     this.codeupgradetasks = codeupgradetasks;
   }
@@ -42,16 +55,18 @@ public class ComDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckePro
   
   @ApiModelProperty(value = "")
   @JsonProperty("codeupgradetaskfilters")
-  public ConfigNodePropertyArray getCodeupgradetaskfilters() {
+  @Valid public ConfigNodePropertyArray getCodeupgradetaskfilters() {
     return codeupgradetaskfilters;
   }
+
+  @JsonProperty("codeupgradetaskfilters")
   public void setCodeupgradetaskfilters(ConfigNodePropertyArray codeupgradetaskfilters) {
     this.codeupgradetaskfilters = codeupgradetaskfilters;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -59,8 +74,8 @@ public class ComDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckePro
       return false;
     }
     ComDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckeProperties comDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckeProperties = (ComDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckeProperties) o;
-    return Objects.equals(codeupgradetasks, comDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckeProperties.codeupgradetasks) &&
-        Objects.equals(codeupgradetaskfilters, comDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckeProperties.codeupgradetaskfilters);
+    return Objects.equals(this.codeupgradetasks, comDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckeProperties.codeupgradetasks) &&
+        Objects.equals(this.codeupgradetaskfilters, comDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckeProperties.codeupgradetaskfilters);
   }
 
   @Override
@@ -83,11 +98,9 @@ public class ComDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckePro
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

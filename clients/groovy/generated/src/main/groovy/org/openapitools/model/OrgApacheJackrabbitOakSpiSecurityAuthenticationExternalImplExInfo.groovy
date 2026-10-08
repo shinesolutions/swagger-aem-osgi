@@ -7,12 +7,12 @@ import org.openapitools.model.OrgApacheJackrabbitOakSpiSecurityAuthenticationExt
 
 @Canonical
 class OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExProperties properties
 }

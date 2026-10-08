@@ -1,19 +1,30 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadProperties   {
-  
-  private @Valid ConfigNodePropertyInteger numberOfDays = null;
-  private @Valid ConfigNodePropertyInteger ageOfFile = null;
+  private ConfigNodePropertyInteger numberOfDays;
+  private ConfigNodePropertyInteger ageOfFile;
+
+  public ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadProperties() {
+  }
 
   /**
    **/
@@ -25,9 +36,11 @@ public class ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("numberOfDays")
-  public ConfigNodePropertyInteger getNumberOfDays() {
+  @Valid public ConfigNodePropertyInteger getNumberOfDays() {
     return numberOfDays;
   }
+
+  @JsonProperty("numberOfDays")
   public void setNumberOfDays(ConfigNodePropertyInteger numberOfDays) {
     this.numberOfDays = numberOfDays;
   }
@@ -42,16 +55,18 @@ public class ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("ageOfFile")
-  public ConfigNodePropertyInteger getAgeOfFile() {
+  @Valid public ConfigNodePropertyInteger getAgeOfFile() {
     return ageOfFile;
   }
+
+  @JsonProperty("ageOfFile")
   public void setAgeOfFile(ConfigNodePropertyInteger ageOfFile) {
     this.ageOfFile = ageOfFile;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -59,8 +74,8 @@ public class ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadProp
       return false;
     }
     ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadProperties comAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadProperties = (ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadProperties) o;
-    return Objects.equals(numberOfDays, comAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadProperties.numberOfDays) &&
-        Objects.equals(ageOfFile, comAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadProperties.ageOfFile);
+    return Objects.equals(this.numberOfDays, comAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadProperties.numberOfDays) &&
+        Objects.equals(this.ageOfFile, comAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadProperties.ageOfFile);
   }
 
   @Override
@@ -83,11 +98,9 @@ public class ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadProp
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

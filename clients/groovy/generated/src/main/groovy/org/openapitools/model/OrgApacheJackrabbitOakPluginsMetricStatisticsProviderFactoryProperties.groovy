@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyDropDown;
 
 @Canonical
 class OrgApacheJackrabbitOakPluginsMetricStatisticsProviderFactoryProperties {
-    ConfigNodePropertyDropDown providerType = null
-
+    
+    ConfigNodePropertyDropDown providerType
 }

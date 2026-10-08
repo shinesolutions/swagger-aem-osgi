@@ -1,6 +1,8 @@
 # ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties
 
+
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **cq_dam_config_annotation_pdf_document_width** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  | [optional] 
@@ -20,6 +22,23 @@ Name | Type | Description | Notes
 **cq_dam_config_annotation_pdf_annotation_marker_width** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  | [optional] 
 **cq_dam_config_annotation_pdf_asset_minheight** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  | [optional] 
 
+## Example
+
+```python
+from swaggeraemosgi.models.com_day_cq_dam_core_impl_annotation_pdf_annotation_pdf_config_properties import ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties
+
+# TODO update the JSON string below
+json = "{}"
+# create an instance of ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties from a JSON string
+com_day_cq_dam_core_impl_annotation_pdf_annotation_pdf_config_properties_instance = ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties.from_json(json)
+# print the JSON string representation of the object
+print(ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties.to_json())
+
+# convert the object into a dict
+com_day_cq_dam_core_impl_annotation_pdf_annotation_pdf_config_properties_dict = com_day_cq_dam_core_impl_annotation_pdf_annotation_pdf_config_properties_instance.to_dict()
+# create an instance of ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties from a dict
+com_day_cq_dam_core_impl_annotation_pdf_annotation_pdf_config_properties_from_dict = ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties.from_dict(com_day_cq_dam_core_impl_annotation_pdf_annotation_pdf_config_properties_dict)
+```
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 
 

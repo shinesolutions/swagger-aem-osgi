@@ -1,31 +1,42 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComAdobeCqSocialCommonsUgclimiterImplUGCLimiterServiceImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComAdobeCqSocialCommonsUgclimiterImplUGCLimiterServiceImplProperties   {
-  @JsonProperty("event.topics")
-  private ConfigNodePropertyString eventTopics = null;
+@JsonTypeName("comAdobeCqSocialCommonsUgclimiterImplUGCLimiterServiceImplProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComAdobeCqSocialCommonsUgclimiterImplUGCLimiterServiceImplProperties {
 
-  @JsonProperty("event.filter")
-  private ConfigNodePropertyString eventFilter = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString eventTopics;
 
-  @JsonProperty("verbs")
-  private ConfigNodePropertyArray verbs = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString eventFilter;
 
-  public ComAdobeCqSocialCommonsUgclimiterImplUGCLimiterServiceImplProperties eventTopics(ConfigNodePropertyString eventTopics) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray verbs;
+
+  public ComAdobeCqSocialCommonsUgclimiterImplUGCLimiterServiceImplProperties eventTopics(@Nullable ConfigNodePropertyString eventTopics) {
     this.eventTopics = eventTopics;
     return this;
   }
@@ -33,20 +44,20 @@ public class ComAdobeCqSocialCommonsUgclimiterImplUGCLimiterServiceImplPropertie
   /**
    * Get eventTopics
    * @return eventTopics
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getEventTopics() {
+   */
+  @Valid 
+  @Schema(name = "event.topics", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("event.topics")
+  public @Nullable ConfigNodePropertyString getEventTopics() {
     return eventTopics;
   }
 
-  public void setEventTopics(ConfigNodePropertyString eventTopics) {
+  @JsonProperty("event.topics")
+  public void setEventTopics(@Nullable ConfigNodePropertyString eventTopics) {
     this.eventTopics = eventTopics;
   }
 
-  public ComAdobeCqSocialCommonsUgclimiterImplUGCLimiterServiceImplProperties eventFilter(ConfigNodePropertyString eventFilter) {
+  public ComAdobeCqSocialCommonsUgclimiterImplUGCLimiterServiceImplProperties eventFilter(@Nullable ConfigNodePropertyString eventFilter) {
     this.eventFilter = eventFilter;
     return this;
   }
@@ -54,20 +65,20 @@ public class ComAdobeCqSocialCommonsUgclimiterImplUGCLimiterServiceImplPropertie
   /**
    * Get eventFilter
    * @return eventFilter
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getEventFilter() {
+   */
+  @Valid 
+  @Schema(name = "event.filter", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("event.filter")
+  public @Nullable ConfigNodePropertyString getEventFilter() {
     return eventFilter;
   }
 
-  public void setEventFilter(ConfigNodePropertyString eventFilter) {
+  @JsonProperty("event.filter")
+  public void setEventFilter(@Nullable ConfigNodePropertyString eventFilter) {
     this.eventFilter = eventFilter;
   }
 
-  public ComAdobeCqSocialCommonsUgclimiterImplUGCLimiterServiceImplProperties verbs(ConfigNodePropertyArray verbs) {
+  public ComAdobeCqSocialCommonsUgclimiterImplUGCLimiterServiceImplProperties verbs(@Nullable ConfigNodePropertyArray verbs) {
     this.verbs = verbs;
     return this;
   }
@@ -75,22 +86,21 @@ public class ComAdobeCqSocialCommonsUgclimiterImplUGCLimiterServiceImplPropertie
   /**
    * Get verbs
    * @return verbs
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getVerbs() {
+   */
+  @Valid 
+  @Schema(name = "verbs", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("verbs")
+  public @Nullable ConfigNodePropertyArray getVerbs() {
     return verbs;
   }
 
-  public void setVerbs(ConfigNodePropertyArray verbs) {
+  @JsonProperty("verbs")
+  public void setVerbs(@Nullable ConfigNodePropertyArray verbs) {
     this.verbs = verbs;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -112,7 +122,6 @@ public class ComAdobeCqSocialCommonsUgclimiterImplUGCLimiterServiceImplPropertie
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComAdobeCqSocialCommonsUgclimiterImplUGCLimiterServiceImplProperties {\n");
-    
     sb.append("    eventTopics: ").append(toIndentedString(eventTopics)).append("\n");
     sb.append("    eventFilter: ").append(toIndentedString(eventFilter)).append("\n");
     sb.append("    verbs: ").append(toIndentedString(verbs)).append("\n");
@@ -124,11 +133,8 @@ public class ComAdobeCqSocialCommonsUgclimiterImplUGCLimiterServiceImplPropertie
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

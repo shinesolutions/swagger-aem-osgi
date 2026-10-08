@@ -8,14 +8,14 @@ import org.openapitools.model.ConfigNodePropertyBoolean;
 
 @Canonical
 class OrgApacheSlingSecurityImplReferrerFilterProperties {
-    ConfigNodePropertyBoolean allowEmpty = null
-
-    ConfigNodePropertyArray allowHosts = null
-
-    ConfigNodePropertyArray allowHostsRegexp = null
-
-    ConfigNodePropertyArray filterMethods = null
-
-    ConfigNodePropertyArray excludeAgentsRegexp = null
-
+    
+    ConfigNodePropertyBoolean allowEmpty
+    
+    ConfigNodePropertyArray allowHosts
+    
+    ConfigNodePropertyArray allowHostsRegexp
+    
+    ConfigNodePropertyArray filterMethods
+    
+    ConfigNodePropertyArray excludeAgentsRegexp
 }

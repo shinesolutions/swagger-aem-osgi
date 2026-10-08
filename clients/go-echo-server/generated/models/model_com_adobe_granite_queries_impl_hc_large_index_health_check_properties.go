@@ -1,0 +1,10 @@
+package models
+
+type ComAdobeGraniteQueriesImplHcLargeIndexHealthCheckProperties struct {
+
+	LargeIndexCriticalThreshold ConfigNodePropertyInteger `json:"large.index.critical.threshold,omitempty"`
+
+	LargeIndexWarnThreshold ConfigNodePropertyInteger `json:"large.index.warn.threshold,omitempty"`
+
+	HcTags ConfigNodePropertyArray `json:"hc.tags,omitempty"`
+}

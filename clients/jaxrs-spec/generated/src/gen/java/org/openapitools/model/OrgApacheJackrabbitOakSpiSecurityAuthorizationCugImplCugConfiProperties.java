@@ -1,22 +1,33 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("orgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiProperties   {
-  
-  private @Valid ConfigNodePropertyArray cugSupportedPaths = null;
-  private @Valid ConfigNodePropertyBoolean cugEnabled = null;
-  private @Valid ConfigNodePropertyInteger configurationRanking = null;
+  private ConfigNodePropertyArray cugSupportedPaths;
+  private ConfigNodePropertyBoolean cugEnabled;
+  private ConfigNodePropertyInteger configurationRanking;
+
+  public OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiProperties() {
+  }
 
   /**
    **/
@@ -28,9 +39,11 @@ public class OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiProper
   
   @ApiModelProperty(value = "")
   @JsonProperty("cugSupportedPaths")
-  public ConfigNodePropertyArray getCugSupportedPaths() {
+  @Valid public ConfigNodePropertyArray getCugSupportedPaths() {
     return cugSupportedPaths;
   }
+
+  @JsonProperty("cugSupportedPaths")
   public void setCugSupportedPaths(ConfigNodePropertyArray cugSupportedPaths) {
     this.cugSupportedPaths = cugSupportedPaths;
   }
@@ -45,9 +58,11 @@ public class OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiProper
   
   @ApiModelProperty(value = "")
   @JsonProperty("cugEnabled")
-  public ConfigNodePropertyBoolean getCugEnabled() {
+  @Valid public ConfigNodePropertyBoolean getCugEnabled() {
     return cugEnabled;
   }
+
+  @JsonProperty("cugEnabled")
   public void setCugEnabled(ConfigNodePropertyBoolean cugEnabled) {
     this.cugEnabled = cugEnabled;
   }
@@ -62,16 +77,18 @@ public class OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiProper
   
   @ApiModelProperty(value = "")
   @JsonProperty("configurationRanking")
-  public ConfigNodePropertyInteger getConfigurationRanking() {
+  @Valid public ConfigNodePropertyInteger getConfigurationRanking() {
     return configurationRanking;
   }
+
+  @JsonProperty("configurationRanking")
   public void setConfigurationRanking(ConfigNodePropertyInteger configurationRanking) {
     this.configurationRanking = configurationRanking;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -79,9 +96,9 @@ public class OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiProper
       return false;
     }
     OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiProperties orgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiProperties = (OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiProperties) o;
-    return Objects.equals(cugSupportedPaths, orgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiProperties.cugSupportedPaths) &&
-        Objects.equals(cugEnabled, orgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiProperties.cugEnabled) &&
-        Objects.equals(configurationRanking, orgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiProperties.configurationRanking);
+    return Objects.equals(this.cugSupportedPaths, orgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiProperties.cugSupportedPaths) &&
+        Objects.equals(this.cugEnabled, orgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiProperties.cugEnabled) &&
+        Objects.equals(this.configurationRanking, orgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiProperties.configurationRanking);
   }
 
   @Override
@@ -105,11 +122,9 @@ public class OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiProper
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

@@ -9,24 +9,24 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplProperties {
-    ConfigNodePropertyString linkExpiredPrefix = null
-
-    ConfigNodePropertyBoolean linkExpiredRemove = null
-
-    ConfigNodePropertyString linkExpiredSuffix = null
-
-    ConfigNodePropertyString linkInvalidPrefix = null
-
-    ConfigNodePropertyBoolean linkInvalidRemove = null
-
-    ConfigNodePropertyString linkInvalidSuffix = null
-
-    ConfigNodePropertyString linkPredatedPrefix = null
-
-    ConfigNodePropertyBoolean linkPredatedRemove = null
-
-    ConfigNodePropertyString linkPredatedSuffix = null
-
-    ConfigNodePropertyArray linkWcmmodes = null
-
+    
+    ConfigNodePropertyString linkExpiredPrefix
+    
+    ConfigNodePropertyBoolean linkExpiredRemove
+    
+    ConfigNodePropertyString linkExpiredSuffix
+    
+    ConfigNodePropertyString linkInvalidPrefix
+    
+    ConfigNodePropertyBoolean linkInvalidRemove
+    
+    ConfigNodePropertyString linkInvalidSuffix
+    
+    ConfigNodePropertyString linkPredatedPrefix
+    
+    ConfigNodePropertyBoolean linkPredatedRemove
+    
+    ConfigNodePropertyString linkPredatedSuffix
+    
+    ConfigNodePropertyArray linkWcmmodes
 }

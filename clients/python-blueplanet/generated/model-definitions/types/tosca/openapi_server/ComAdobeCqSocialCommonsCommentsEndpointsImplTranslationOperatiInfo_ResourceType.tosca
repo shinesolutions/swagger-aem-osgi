@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperatiInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperatiInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperatiProperties = openapi_server.resourceTypes.ComAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperatiProperties
+}
+resourceTypes {
+
+  ComAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperatiInfo {
+    title = ComAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperatiInfo
+    description = ComAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperatiInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperatiProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperatiInfo {
+    title = ComAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperatiInfo
+    description = ComAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperatiInfo
+    implements = openapi_server.resourceTypes.ComAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperatiInfo
+
+  }
+}

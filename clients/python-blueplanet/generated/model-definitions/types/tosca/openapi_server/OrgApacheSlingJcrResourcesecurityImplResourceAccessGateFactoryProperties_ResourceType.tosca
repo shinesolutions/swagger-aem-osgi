@@ -1,0 +1,46 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingJcrResourcesecurityImplResourceAccessGateFactoryProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingJcrResourcesecurityImplResourceAccessGateFactoryProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  OrgApacheSlingJcrResourcesecurityImplResourceAccessGateFactoryProperties {
+    title = OrgApacheSlingJcrResourcesecurityImplResourceAccessGateFactoryProperties
+    description = OrgApacheSlingJcrResourcesecurityImplResourceAccessGateFactoryProperties
+    derivedFrom = Root
+    properties {
+        path {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        checkpath_prefix {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        jcr_path {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingJcrResourcesecurityImplResourceAccessGateFactoryProperties {
+    title = OrgApacheSlingJcrResourcesecurityImplResourceAccessGateFactoryProperties
+    description = OrgApacheSlingJcrResourcesecurityImplResourceAccessGateFactoryProperties
+    implements = openapi_server.resourceTypes.OrgApacheSlingJcrResourcesecurityImplResourceAccessGateFactoryProperties
+
+  }
+}

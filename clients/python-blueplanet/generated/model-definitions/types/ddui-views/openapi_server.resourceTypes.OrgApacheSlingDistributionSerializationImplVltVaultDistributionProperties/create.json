@@ -1,0 +1,34 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "name" },
+      {"model": "type" },
+      {"model": "import_mode" },
+      {"model": "acl_handling" },
+      {"model": "package_roots" },
+      {"model": "package_filters" },
+      {"model": "property_filters" },
+      {"model": "temp_fs_folder" },
+      {"model": "use_binary_references" },
+      {"model": "auto_save_threshold" },
+      {"model": "cleanup_delay" },
+      {"model": "file_threshold" },
+      {"model": "mega_bytes" },
+      {"model": "use_off_heap_memory" },
+      {"model": "digest_algorithm" },
+      {"model": "monitoring_queue_size" },
+      {"model": "paths_mapping" },
+      {"model": "strict_import" },
+    ]
+  }]
+}

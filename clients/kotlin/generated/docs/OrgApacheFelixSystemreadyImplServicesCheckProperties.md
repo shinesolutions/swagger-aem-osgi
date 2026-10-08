@@ -2,10 +2,10 @@
 # OrgApacheFelixSystemreadyImplServicesCheckProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**servicesPeriodlist** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**type** | [**ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **servicesList** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **type** | [**ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md) |  |  [optional] |
 
 
 

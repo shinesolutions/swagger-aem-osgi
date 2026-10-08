@@ -9,12 +9,12 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeCqSocialHandlebarsGuavaTemplateCacheImplProperties {
-    ConfigNodePropertyBoolean parameterGuavaCacheEnabled = null
-
-    ConfigNodePropertyString parameterGuavaCacheParams = null
-
-    ConfigNodePropertyBoolean parameterGuavaCacheReload = null
-
-    ConfigNodePropertyInteger serviceRanking = null
-
+    
+    ConfigNodePropertyBoolean parameterGuavaCacheEnabled
+    
+    ConfigNodePropertyString parameterGuavaCacheParams
+    
+    ConfigNodePropertyBoolean parameterGuavaCacheReload
+    
+    ConfigNodePropertyInteger serviceRanking
 }

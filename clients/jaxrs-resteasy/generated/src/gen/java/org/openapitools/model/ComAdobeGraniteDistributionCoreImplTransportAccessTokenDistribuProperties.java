@@ -4,24 +4,28 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2019-08-05T00:59:30.156Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2026-10-07T12:54:21.614735164Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProperties   {
   
-  private ConfigNodePropertyString name = null;
-  private ConfigNodePropertyString serviceName = null;
-  private ConfigNodePropertyString userId = null;
-  private ConfigNodePropertyString accessTokenProviderTarget = null;
+  private ConfigNodePropertyString name;
+  private ConfigNodePropertyString serviceName;
+  private ConfigNodePropertyString userId;
+  private ConfigNodePropertyString accessTokenProviderTarget;
 
   /**
    **/
   
   @ApiModelProperty(value = "")
   @JsonProperty("name")
+  @Valid
   public ConfigNodePropertyString getName() {
     return name;
   }
@@ -34,6 +38,7 @@ public class ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("serviceName")
+  @Valid
   public ConfigNodePropertyString getServiceName() {
     return serviceName;
   }
@@ -46,6 +51,7 @@ public class ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("userId")
+  @Valid
   public ConfigNodePropertyString getUserId() {
     return userId;
   }
@@ -58,6 +64,7 @@ public class ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("accessTokenProvider.target")
+  @Valid
   public ConfigNodePropertyString getAccessTokenProviderTarget() {
     return accessTokenProviderTarget;
   }
@@ -67,7 +74,7 @@ public class ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProp
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -75,10 +82,10 @@ public class ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProp
       return false;
     }
     ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProperties comAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProperties = (ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProperties) o;
-    return Objects.equals(name, comAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProperties.name) &&
-        Objects.equals(serviceName, comAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProperties.serviceName) &&
-        Objects.equals(userId, comAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProperties.userId) &&
-        Objects.equals(accessTokenProviderTarget, comAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProperties.accessTokenProviderTarget);
+    return Objects.equals(this.name, comAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProperties.name) &&
+        Objects.equals(this.serviceName, comAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProperties.serviceName) &&
+        Objects.equals(this.userId, comAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProperties.userId) &&
+        Objects.equals(this.accessTokenProviderTarget, comAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProperties.accessTokenProviderTarget);
   }
 
   @Override
@@ -103,11 +110,8 @@ public class ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProp
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

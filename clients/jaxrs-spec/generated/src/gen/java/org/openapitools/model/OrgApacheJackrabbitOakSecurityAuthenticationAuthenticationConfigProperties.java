@@ -1,19 +1,30 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("orgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigProperties   {
-  
-  private @Valid ConfigNodePropertyString orgApacheJackrabbitOakAuthenticationAppName = null;
-  private @Valid ConfigNodePropertyString orgApacheJackrabbitOakAuthenticationConfigSpiName = null;
+  private ConfigNodePropertyString orgApacheJackrabbitOakAuthenticationAppName;
+  private ConfigNodePropertyString orgApacheJackrabbitOakAuthenticationConfigSpiName;
+
+  public OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigProperties() {
+  }
 
   /**
    **/
@@ -25,9 +36,11 @@ public class OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigPro
   
   @ApiModelProperty(value = "")
   @JsonProperty("org.apache.jackrabbit.oak.authentication.appName")
-  public ConfigNodePropertyString getOrgApacheJackrabbitOakAuthenticationAppName() {
+  @Valid public ConfigNodePropertyString getOrgApacheJackrabbitOakAuthenticationAppName() {
     return orgApacheJackrabbitOakAuthenticationAppName;
   }
+
+  @JsonProperty("org.apache.jackrabbit.oak.authentication.appName")
   public void setOrgApacheJackrabbitOakAuthenticationAppName(ConfigNodePropertyString orgApacheJackrabbitOakAuthenticationAppName) {
     this.orgApacheJackrabbitOakAuthenticationAppName = orgApacheJackrabbitOakAuthenticationAppName;
   }
@@ -42,16 +55,18 @@ public class OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigPro
   
   @ApiModelProperty(value = "")
   @JsonProperty("org.apache.jackrabbit.oak.authentication.configSpiName")
-  public ConfigNodePropertyString getOrgApacheJackrabbitOakAuthenticationConfigSpiName() {
+  @Valid public ConfigNodePropertyString getOrgApacheJackrabbitOakAuthenticationConfigSpiName() {
     return orgApacheJackrabbitOakAuthenticationConfigSpiName;
   }
+
+  @JsonProperty("org.apache.jackrabbit.oak.authentication.configSpiName")
   public void setOrgApacheJackrabbitOakAuthenticationConfigSpiName(ConfigNodePropertyString orgApacheJackrabbitOakAuthenticationConfigSpiName) {
     this.orgApacheJackrabbitOakAuthenticationConfigSpiName = orgApacheJackrabbitOakAuthenticationConfigSpiName;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -59,8 +74,8 @@ public class OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigPro
       return false;
     }
     OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigProperties orgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigProperties = (OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigProperties) o;
-    return Objects.equals(orgApacheJackrabbitOakAuthenticationAppName, orgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigProperties.orgApacheJackrabbitOakAuthenticationAppName) &&
-        Objects.equals(orgApacheJackrabbitOakAuthenticationConfigSpiName, orgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigProperties.orgApacheJackrabbitOakAuthenticationConfigSpiName);
+    return Objects.equals(this.orgApacheJackrabbitOakAuthenticationAppName, orgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigProperties.orgApacheJackrabbitOakAuthenticationAppName) &&
+        Objects.equals(this.orgApacheJackrabbitOakAuthenticationConfigSpiName, orgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigProperties.orgApacheJackrabbitOakAuthenticationConfigSpiName);
   }
 
   @Override
@@ -83,11 +98,9 @@ public class OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigPro
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

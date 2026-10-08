@@ -7,16 +7,16 @@ import org.openapitools.model.OrgApacheSlingCommonsLogLogManagerProperties;
 
 @Canonical
 class OrgApacheSlingCommonsLogLogManagerInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheSlingCommonsLogLogManagerProperties properties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheSlingCommonsLogLogManagerProperties properties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

@@ -8,12 +8,12 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqDamHandlerGibsonFontmanagerImplFontManagerServiceImplProperties {
-    ConfigNodePropertyString eventFilter = null
-
-    ConfigNodePropertyArray fontmgrSystemFontDir = null
-
-    ConfigNodePropertyString fontmgrAdobeFontDir = null
-
-    ConfigNodePropertyString fontmgrCustomerFontDir = null
-
+    
+    ConfigNodePropertyString eventFilter
+    
+    ConfigNodePropertyArray fontmgrSystemFontDir
+    
+    ConfigNodePropertyString fontmgrAdobeFontDir
+    
+    ConfigNodePropertyString fontmgrCustomerFontDir
 }

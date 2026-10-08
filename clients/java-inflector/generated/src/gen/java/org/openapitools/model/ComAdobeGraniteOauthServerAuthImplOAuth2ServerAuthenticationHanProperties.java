@@ -3,6 +3,7 @@ package org.openapitools.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyBoolean;
@@ -13,22 +14,22 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaInflectorServerCodegen", date = "2019-08-05T00:53:46.291Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaInflectorServerCodegen", date = "2026-10-07T12:53:12.340274163Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanProperties   {
   @JsonProperty("path")
-  private ConfigNodePropertyString path = null;
+  private ConfigNodePropertyString path;
 
   @JsonProperty("jaas.controlFlag")
-  private ConfigNodePropertyString jaasControlFlag = null;
+  private ConfigNodePropertyString jaasControlFlag;
 
   @JsonProperty("jaas.realmName")
-  private ConfigNodePropertyString jaasRealmName = null;
+  private ConfigNodePropertyString jaasRealmName;
 
   @JsonProperty("jaas.ranking")
-  private ConfigNodePropertyInteger jaasRanking = null;
+  private ConfigNodePropertyInteger jaasRanking;
 
   @JsonProperty("oauth.offline.validation")
-  private ConfigNodePropertyBoolean oauthOfflineValidation = null;
+  private ConfigNodePropertyBoolean oauthOfflineValidation;
 
   /**
    **/
@@ -117,7 +118,7 @@ public class ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanProp
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -155,11 +156,8 @@ public class ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanProp
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

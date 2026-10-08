@@ -7,12 +7,12 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqDamCoreImplServletMetadataGetServletProperties {
-    ConfigNodePropertyString slingServletResourceTypes = null
-
-    ConfigNodePropertyString slingServletMethods = null
-
-    ConfigNodePropertyString slingServletExtensions = null
-
-    ConfigNodePropertyString slingServletSelectors = null
-
+    
+    ConfigNodePropertyString slingServletResourceTypes
+    
+    ConfigNodePropertyString slingServletMethods
+    
+    ConfigNodePropertyString slingServletExtensions
+    
+    ConfigNodePropertyString slingServletSelectors
 }

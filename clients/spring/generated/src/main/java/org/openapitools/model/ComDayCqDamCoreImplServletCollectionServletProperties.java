@@ -1,28 +1,39 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyInteger;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComDayCqDamCoreImplServletCollectionServletProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComDayCqDamCoreImplServletCollectionServletProperties   {
-  @JsonProperty("cq.dam.batch.collection.properties")
-  private ConfigNodePropertyArray cqDamBatchCollectionProperties = null;
+@JsonTypeName("comDayCqDamCoreImplServletCollectionServletProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComDayCqDamCoreImplServletCollectionServletProperties {
 
-  @JsonProperty("cq.dam.batch.collection.maxcollections")
-  private ConfigNodePropertyInteger cqDamBatchCollectionMaxcollections = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray cqDamBatchCollectionProperties;
 
-  public ComDayCqDamCoreImplServletCollectionServletProperties cqDamBatchCollectionProperties(ConfigNodePropertyArray cqDamBatchCollectionProperties) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger cqDamBatchCollectionMaxcollections;
+
+  public ComDayCqDamCoreImplServletCollectionServletProperties cqDamBatchCollectionProperties(@Nullable ConfigNodePropertyArray cqDamBatchCollectionProperties) {
     this.cqDamBatchCollectionProperties = cqDamBatchCollectionProperties;
     return this;
   }
@@ -30,20 +41,20 @@ public class ComDayCqDamCoreImplServletCollectionServletProperties   {
   /**
    * Get cqDamBatchCollectionProperties
    * @return cqDamBatchCollectionProperties
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getCqDamBatchCollectionProperties() {
+   */
+  @Valid 
+  @Schema(name = "cq.dam.batch.collection.properties", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cq.dam.batch.collection.properties")
+  public @Nullable ConfigNodePropertyArray getCqDamBatchCollectionProperties() {
     return cqDamBatchCollectionProperties;
   }
 
-  public void setCqDamBatchCollectionProperties(ConfigNodePropertyArray cqDamBatchCollectionProperties) {
+  @JsonProperty("cq.dam.batch.collection.properties")
+  public void setCqDamBatchCollectionProperties(@Nullable ConfigNodePropertyArray cqDamBatchCollectionProperties) {
     this.cqDamBatchCollectionProperties = cqDamBatchCollectionProperties;
   }
 
-  public ComDayCqDamCoreImplServletCollectionServletProperties cqDamBatchCollectionMaxcollections(ConfigNodePropertyInteger cqDamBatchCollectionMaxcollections) {
+  public ComDayCqDamCoreImplServletCollectionServletProperties cqDamBatchCollectionMaxcollections(@Nullable ConfigNodePropertyInteger cqDamBatchCollectionMaxcollections) {
     this.cqDamBatchCollectionMaxcollections = cqDamBatchCollectionMaxcollections;
     return this;
   }
@@ -51,22 +62,21 @@ public class ComDayCqDamCoreImplServletCollectionServletProperties   {
   /**
    * Get cqDamBatchCollectionMaxcollections
    * @return cqDamBatchCollectionMaxcollections
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getCqDamBatchCollectionMaxcollections() {
+   */
+  @Valid 
+  @Schema(name = "cq.dam.batch.collection.maxcollections", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cq.dam.batch.collection.maxcollections")
+  public @Nullable ConfigNodePropertyInteger getCqDamBatchCollectionMaxcollections() {
     return cqDamBatchCollectionMaxcollections;
   }
 
-  public void setCqDamBatchCollectionMaxcollections(ConfigNodePropertyInteger cqDamBatchCollectionMaxcollections) {
+  @JsonProperty("cq.dam.batch.collection.maxcollections")
+  public void setCqDamBatchCollectionMaxcollections(@Nullable ConfigNodePropertyInteger cqDamBatchCollectionMaxcollections) {
     this.cqDamBatchCollectionMaxcollections = cqDamBatchCollectionMaxcollections;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -87,7 +97,6 @@ public class ComDayCqDamCoreImplServletCollectionServletProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComDayCqDamCoreImplServletCollectionServletProperties {\n");
-    
     sb.append("    cqDamBatchCollectionProperties: ").append(toIndentedString(cqDamBatchCollectionProperties)).append("\n");
     sb.append("    cqDamBatchCollectionMaxcollections: ").append(toIndentedString(cqDamBatchCollectionMaxcollections)).append("\n");
     sb.append("}");
@@ -98,11 +107,8 @@ public class ComDayCqDamCoreImplServletCollectionServletProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

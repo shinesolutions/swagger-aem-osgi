@@ -1,0 +1,1 @@
+granite.threaddump.enableDirectoriesCompression,granite.threaddump.enableJStack,propertylist,$location,apply,granite.threaddump.enableGzipCompression,granite.threaddump.dumpsPerFile,action,scheduler.period,granite.threaddump.backupCleanTrigger,post,delete,granite.threaddump.maxBackupDays,scheduler.runOn,granite.threaddump.enabled

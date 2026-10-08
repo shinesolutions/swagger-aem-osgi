@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqSocialCommonsEmailreplyImplCustomEmailCl
 
 @Canonical
 class ComAdobeCqSocialCommonsEmailreplyImplCustomEmailClientProviderInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqSocialCommonsEmailreplyImplCustomEmailClientProviderProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqSocialCommonsEmailreplyImplCustomEmailClientProviderProperties properties
 }

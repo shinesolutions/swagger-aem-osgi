@@ -2,16 +2,17 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**jmx_objectname** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **jmx_objectname** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComDayCqDamCoreImplJmxAssetMigrationMBeanImplProperties.new(jmx_objectname: null)
+instance = SwaggerAemOsgiClient::ComDayCqDamCoreImplJmxAssetMigrationMBeanImplProperties.new(
+  jmx_objectname: null
+)
 ```
-
 

@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenProperties = openapi_server.resourceTypes.ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenProperties
+}
+resourceTypes {
+
+  ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenInfo {
+    title = ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenInfo
+    description = ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenInfo {
+    title = ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenInfo
+    description = ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenInfo
+    implements = openapi_server.resourceTypes.ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenInfo
+
+  }
+}

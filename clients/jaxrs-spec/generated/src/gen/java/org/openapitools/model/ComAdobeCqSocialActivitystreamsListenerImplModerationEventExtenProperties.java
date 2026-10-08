@@ -1,20 +1,31 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comAdobeCqSocialActivitystreamsListenerImplModerationEventExtenProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeCqSocialActivitystreamsListenerImplModerationEventExtenProperties   {
-  
-  private @Valid ConfigNodePropertyBoolean accepted = null;
-  private @Valid ConfigNodePropertyInteger ranked = null;
+  private ConfigNodePropertyBoolean accepted;
+  private ConfigNodePropertyInteger ranked;
+
+  public ComAdobeCqSocialActivitystreamsListenerImplModerationEventExtenProperties() {
+  }
 
   /**
    **/
@@ -26,9 +37,11 @@ public class ComAdobeCqSocialActivitystreamsListenerImplModerationEventExtenProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("accepted")
-  public ConfigNodePropertyBoolean getAccepted() {
+  @Valid public ConfigNodePropertyBoolean getAccepted() {
     return accepted;
   }
+
+  @JsonProperty("accepted")
   public void setAccepted(ConfigNodePropertyBoolean accepted) {
     this.accepted = accepted;
   }
@@ -43,16 +56,18 @@ public class ComAdobeCqSocialActivitystreamsListenerImplModerationEventExtenProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("ranked")
-  public ConfigNodePropertyInteger getRanked() {
+  @Valid public ConfigNodePropertyInteger getRanked() {
     return ranked;
   }
+
+  @JsonProperty("ranked")
   public void setRanked(ConfigNodePropertyInteger ranked) {
     this.ranked = ranked;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -60,8 +75,8 @@ public class ComAdobeCqSocialActivitystreamsListenerImplModerationEventExtenProp
       return false;
     }
     ComAdobeCqSocialActivitystreamsListenerImplModerationEventExtenProperties comAdobeCqSocialActivitystreamsListenerImplModerationEventExtenProperties = (ComAdobeCqSocialActivitystreamsListenerImplModerationEventExtenProperties) o;
-    return Objects.equals(accepted, comAdobeCqSocialActivitystreamsListenerImplModerationEventExtenProperties.accepted) &&
-        Objects.equals(ranked, comAdobeCqSocialActivitystreamsListenerImplModerationEventExtenProperties.ranked);
+    return Objects.equals(this.accepted, comAdobeCqSocialActivitystreamsListenerImplModerationEventExtenProperties.accepted) &&
+        Objects.equals(this.ranked, comAdobeCqSocialActivitystreamsListenerImplModerationEventExtenProperties.ranked);
   }
 
   @Override
@@ -84,11 +99,9 @@ public class ComAdobeCqSocialActivitystreamsListenerImplModerationEventExtenProp
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

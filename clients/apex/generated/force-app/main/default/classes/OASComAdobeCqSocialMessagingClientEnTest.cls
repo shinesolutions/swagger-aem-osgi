@@ -72,9 +72,9 @@ private class OASComAdobeCqSocialMessagingClientEnTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeCqSocialMessagingClientEn comAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties = new OASComAdobeCqSocialMessagingClientEn();
-        Map<String, String> propertyMappings = comAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties.getPropertyMappings();
-        System.assertEquals('messageProperties', propertyMappings.get('message.properties'));
-        System.assertEquals('inboxPath', propertyMappings.get('inbox.path'));
-        System.assertEquals('sentitemsPath', propertyMappings.get('sentitems.path'));
+        Map<String, String> x-property-mappings = comAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties.getx-property-mappings();
+        System.assertEquals('messageProperties', x-property-mappings.get('message.properties'));
+        System.assertEquals('inboxPath', x-property-mappings.get('inbox.path'));
+        System.assertEquals('sentitemsPath', x-property-mappings.get('sentitems.path'));
     }
 }

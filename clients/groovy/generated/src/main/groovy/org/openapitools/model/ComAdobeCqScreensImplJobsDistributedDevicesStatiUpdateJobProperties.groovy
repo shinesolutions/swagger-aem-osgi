@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeCqScreensImplJobsDistributedDevicesStatiUpdateJobProperties {
-    ConfigNodePropertyString schedulerExpression = null
-
+    
+    ConfigNodePropertyString schedulerExpression
 }

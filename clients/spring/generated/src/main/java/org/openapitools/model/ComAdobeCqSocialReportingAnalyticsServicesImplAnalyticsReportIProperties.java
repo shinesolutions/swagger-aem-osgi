@@ -1,27 +1,38 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyInteger;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportIProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportIProperties   {
-  @JsonProperty("cq.social.reporting.analytics.polling.importer.interval")
-  private ConfigNodePropertyInteger cqSocialReportingAnalyticsPollingImporterInterval = null;
+@JsonTypeName("comAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportIProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportIProperties {
 
-  @JsonProperty("cq.social.reporting.analytics.polling.importer.pageSize")
-  private ConfigNodePropertyInteger cqSocialReportingAnalyticsPollingImporterPageSize = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger cqSocialReportingAnalyticsPollingImporterInterval;
 
-  public ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportIProperties cqSocialReportingAnalyticsPollingImporterInterval(ConfigNodePropertyInteger cqSocialReportingAnalyticsPollingImporterInterval) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger cqSocialReportingAnalyticsPollingImporterPageSize;
+
+  public ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportIProperties cqSocialReportingAnalyticsPollingImporterInterval(@Nullable ConfigNodePropertyInteger cqSocialReportingAnalyticsPollingImporterInterval) {
     this.cqSocialReportingAnalyticsPollingImporterInterval = cqSocialReportingAnalyticsPollingImporterInterval;
     return this;
   }
@@ -29,20 +40,20 @@ public class ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportIPrope
   /**
    * Get cqSocialReportingAnalyticsPollingImporterInterval
    * @return cqSocialReportingAnalyticsPollingImporterInterval
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getCqSocialReportingAnalyticsPollingImporterInterval() {
+   */
+  @Valid 
+  @Schema(name = "cq.social.reporting.analytics.polling.importer.interval", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cq.social.reporting.analytics.polling.importer.interval")
+  public @Nullable ConfigNodePropertyInteger getCqSocialReportingAnalyticsPollingImporterInterval() {
     return cqSocialReportingAnalyticsPollingImporterInterval;
   }
 
-  public void setCqSocialReportingAnalyticsPollingImporterInterval(ConfigNodePropertyInteger cqSocialReportingAnalyticsPollingImporterInterval) {
+  @JsonProperty("cq.social.reporting.analytics.polling.importer.interval")
+  public void setCqSocialReportingAnalyticsPollingImporterInterval(@Nullable ConfigNodePropertyInteger cqSocialReportingAnalyticsPollingImporterInterval) {
     this.cqSocialReportingAnalyticsPollingImporterInterval = cqSocialReportingAnalyticsPollingImporterInterval;
   }
 
-  public ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportIProperties cqSocialReportingAnalyticsPollingImporterPageSize(ConfigNodePropertyInteger cqSocialReportingAnalyticsPollingImporterPageSize) {
+  public ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportIProperties cqSocialReportingAnalyticsPollingImporterPageSize(@Nullable ConfigNodePropertyInteger cqSocialReportingAnalyticsPollingImporterPageSize) {
     this.cqSocialReportingAnalyticsPollingImporterPageSize = cqSocialReportingAnalyticsPollingImporterPageSize;
     return this;
   }
@@ -50,22 +61,21 @@ public class ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportIPrope
   /**
    * Get cqSocialReportingAnalyticsPollingImporterPageSize
    * @return cqSocialReportingAnalyticsPollingImporterPageSize
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getCqSocialReportingAnalyticsPollingImporterPageSize() {
+   */
+  @Valid 
+  @Schema(name = "cq.social.reporting.analytics.polling.importer.pageSize", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cq.social.reporting.analytics.polling.importer.pageSize")
+  public @Nullable ConfigNodePropertyInteger getCqSocialReportingAnalyticsPollingImporterPageSize() {
     return cqSocialReportingAnalyticsPollingImporterPageSize;
   }
 
-  public void setCqSocialReportingAnalyticsPollingImporterPageSize(ConfigNodePropertyInteger cqSocialReportingAnalyticsPollingImporterPageSize) {
+  @JsonProperty("cq.social.reporting.analytics.polling.importer.pageSize")
+  public void setCqSocialReportingAnalyticsPollingImporterPageSize(@Nullable ConfigNodePropertyInteger cqSocialReportingAnalyticsPollingImporterPageSize) {
     this.cqSocialReportingAnalyticsPollingImporterPageSize = cqSocialReportingAnalyticsPollingImporterPageSize;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -86,7 +96,6 @@ public class ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportIPrope
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportIProperties {\n");
-    
     sb.append("    cqSocialReportingAnalyticsPollingImporterInterval: ").append(toIndentedString(cqSocialReportingAnalyticsPollingImporterInterval)).append("\n");
     sb.append("    cqSocialReportingAnalyticsPollingImporterPageSize: ").append(toIndentedString(cqSocialReportingAnalyticsPollingImporterPageSize)).append("\n");
     sb.append("}");
@@ -97,11 +106,8 @@ public class ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportIPrope
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

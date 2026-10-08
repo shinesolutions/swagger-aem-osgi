@@ -72,10 +72,10 @@ private class OASComAdobeCqDamS7imagingImplPsPlatfTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeCqDamS7imagingImplPsPlatf comAdobeCqDamS7imagingImplPsPlatformServerServletProperties = new OASComAdobeCqDamS7imagingImplPsPlatf();
-        Map<String, String> propertyMappings = comAdobeCqDamS7imagingImplPsPlatformServerServletProperties.getPropertyMappings();
-        System.assertEquals('cacheEnable', propertyMappings.get('cache.enable'));
-        System.assertEquals('cacheRootPaths', propertyMappings.get('cache.rootPaths'));
-        System.assertEquals('cacheMaxSize', propertyMappings.get('cache.maxSize'));
-        System.assertEquals('cacheMaxEntries', propertyMappings.get('cache.maxEntries'));
+        Map<String, String> x-property-mappings = comAdobeCqDamS7imagingImplPsPlatformServerServletProperties.getx-property-mappings();
+        System.assertEquals('cacheEnable', x-property-mappings.get('cache.enable'));
+        System.assertEquals('cacheRootPaths', x-property-mappings.get('cache.rootPaths'));
+        System.assertEquals('cacheMaxSize', x-property-mappings.get('cache.maxSize'));
+        System.assertEquals('cacheMaxEntries', x-property-mappings.get('cache.maxEntries'));
     }
 }

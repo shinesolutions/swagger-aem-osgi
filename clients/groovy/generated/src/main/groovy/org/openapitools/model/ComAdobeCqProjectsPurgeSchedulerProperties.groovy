@@ -10,20 +10,20 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeCqProjectsPurgeSchedulerProperties {
-    ConfigNodePropertyString scheduledpurgeName = null
-
-    ConfigNodePropertyBoolean scheduledpurgePurgeActive = null
-
-    ConfigNodePropertyArray scheduledpurgeTemplates = null
-
-    ConfigNodePropertyBoolean scheduledpurgePurgeGroups = null
-
-    ConfigNodePropertyBoolean scheduledpurgePurgeAssets = null
-
-    ConfigNodePropertyBoolean scheduledpurgeTerminateRunningWorkflows = null
-
-    ConfigNodePropertyInteger scheduledpurgeDaysold = null
-
-    ConfigNodePropertyInteger scheduledpurgeSaveThreshold = null
-
+    
+    ConfigNodePropertyString scheduledpurgeName
+    
+    ConfigNodePropertyBoolean scheduledpurgePurgeActive
+    
+    ConfigNodePropertyArray scheduledpurgeTemplates
+    
+    ConfigNodePropertyBoolean scheduledpurgePurgeGroups
+    
+    ConfigNodePropertyBoolean scheduledpurgePurgeAssets
+    
+    ConfigNodePropertyBoolean scheduledpurgeTerminateRunningWorkflows
+    
+    ConfigNodePropertyInteger scheduledpurgeDaysold
+    
+    ConfigNodePropertyInteger scheduledpurgeSaveThreshold
 }

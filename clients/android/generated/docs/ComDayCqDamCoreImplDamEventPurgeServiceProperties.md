@@ -1,7 +1,9 @@
 
+
 # ComDayCqDamCoreImplDamEventPurgeServiceProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **schedulerExpression** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
@@ -9,6 +11,7 @@ Name | Type | Description | Notes
 **saveInterval** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
 **enableActivityPurge** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
 **eventTypes** | [**ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md) |  |  [optional]
+
 
 
 

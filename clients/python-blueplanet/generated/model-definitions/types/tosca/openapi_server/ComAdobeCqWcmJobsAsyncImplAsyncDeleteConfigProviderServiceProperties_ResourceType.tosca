@@ -1,0 +1,48 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqWcmJobsAsyncImplAsyncDeleteConfigProviderServiceProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqWcmJobsAsyncImplAsyncDeleteConfigProviderServiceProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComAdobeCqWcmJobsAsyncImplAsyncDeleteConfigProviderServiceProperties {
+    title = ComAdobeCqWcmJobsAsyncImplAsyncDeleteConfigProviderServiceProperties
+    description = ComAdobeCqWcmJobsAsyncImplAsyncDeleteConfigProviderServiceProperties
+    derivedFrom = Root
+    properties {
+        threshold {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        job_topic_name {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        email_enabled {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqWcmJobsAsyncImplAsyncDeleteConfigProviderServiceProperties {
+    title = ComAdobeCqWcmJobsAsyncImplAsyncDeleteConfigProviderServiceProperties
+    description = ComAdobeCqWcmJobsAsyncImplAsyncDeleteConfigProviderServiceProperties
+    implements = openapi_server.resourceTypes.ComAdobeCqWcmJobsAsyncImplAsyncDeleteConfigProviderServiceProperties
+
+  }
+}

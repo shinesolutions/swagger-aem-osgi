@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyArray;
 import com.prokarma.pkmst.model.ConfigNodePropertyString;
 import io.swagger.annotations.ApiModel;
@@ -16,36 +17,35 @@ import io.swagger.annotations.ApiModelProperty;
  * ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorProperties   {
   @JsonProperty("cq.contentsync.pathrewritertransformer.mapping.links")
-  private ConfigNodePropertyArray cqContentsyncPathrewritertransformerMappingLinks = null;
+  private ConfigNodePropertyArray cqContentsyncPathrewritertransformerMappingLinks;
 
   @JsonProperty("cq.contentsync.pathrewritertransformer.mapping.clientlibs")
-  private ConfigNodePropertyArray cqContentsyncPathrewritertransformerMappingClientlibs = null;
+  private ConfigNodePropertyArray cqContentsyncPathrewritertransformerMappingClientlibs;
 
   @JsonProperty("cq.contentsync.pathrewritertransformer.mapping.images")
-  private ConfigNodePropertyArray cqContentsyncPathrewritertransformerMappingImages = null;
+  private ConfigNodePropertyArray cqContentsyncPathrewritertransformerMappingImages;
 
   @JsonProperty("cq.contentsync.pathrewritertransformer.attribute.pattern")
-  private ConfigNodePropertyString cqContentsyncPathrewritertransformerAttributePattern = null;
+  private ConfigNodePropertyString cqContentsyncPathrewritertransformerAttributePattern;
 
   @JsonProperty("cq.contentsync.pathrewritertransformer.clientlibrary.pattern")
-  private ConfigNodePropertyString cqContentsyncPathrewritertransformerClientlibraryPattern = null;
+  private ConfigNodePropertyString cqContentsyncPathrewritertransformerClientlibraryPattern;
 
   @JsonProperty("cq.contentsync.pathrewritertransformer.clientlibrary.replace")
-  private ConfigNodePropertyString cqContentsyncPathrewritertransformerClientlibraryReplace = null;
+  private ConfigNodePropertyString cqContentsyncPathrewritertransformerClientlibraryReplace;
 
   public ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorProperties cqContentsyncPathrewritertransformerMappingLinks(ConfigNodePropertyArray cqContentsyncPathrewritertransformerMappingLinks) {
     this.cqContentsyncPathrewritertransformerMappingLinks = cqContentsyncPathrewritertransformerMappingLinks;
     return this;
   }
 
-   /**
+  /**
    * Get cqContentsyncPathrewritertransformerMappingLinks
    * @return cqContentsyncPathrewritertransformerMappingLinks
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getCqContentsyncPathrewritertransformerMappingLinks() {
     return cqContentsyncPathrewritertransformerMappingLinks;
@@ -60,10 +60,10 @@ public class ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorProp
     return this;
   }
 
-   /**
+  /**
    * Get cqContentsyncPathrewritertransformerMappingClientlibs
    * @return cqContentsyncPathrewritertransformerMappingClientlibs
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getCqContentsyncPathrewritertransformerMappingClientlibs() {
     return cqContentsyncPathrewritertransformerMappingClientlibs;
@@ -78,10 +78,10 @@ public class ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorProp
     return this;
   }
 
-   /**
+  /**
    * Get cqContentsyncPathrewritertransformerMappingImages
    * @return cqContentsyncPathrewritertransformerMappingImages
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getCqContentsyncPathrewritertransformerMappingImages() {
     return cqContentsyncPathrewritertransformerMappingImages;
@@ -96,10 +96,10 @@ public class ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorProp
     return this;
   }
 
-   /**
+  /**
    * Get cqContentsyncPathrewritertransformerAttributePattern
    * @return cqContentsyncPathrewritertransformerAttributePattern
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getCqContentsyncPathrewritertransformerAttributePattern() {
     return cqContentsyncPathrewritertransformerAttributePattern;
@@ -114,10 +114,10 @@ public class ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorProp
     return this;
   }
 
-   /**
+  /**
    * Get cqContentsyncPathrewritertransformerClientlibraryPattern
    * @return cqContentsyncPathrewritertransformerClientlibraryPattern
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getCqContentsyncPathrewritertransformerClientlibraryPattern() {
     return cqContentsyncPathrewritertransformerClientlibraryPattern;
@@ -132,10 +132,10 @@ public class ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorProp
     return this;
   }
 
-   /**
+  /**
    * Get cqContentsyncPathrewritertransformerClientlibraryReplace
    * @return cqContentsyncPathrewritertransformerClientlibraryReplace
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getCqContentsyncPathrewritertransformerClientlibraryReplace() {
     return cqContentsyncPathrewritertransformerClientlibraryReplace;
@@ -147,7 +147,7 @@ public class ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorProp
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -187,11 +187,8 @@ public class ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorProp
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

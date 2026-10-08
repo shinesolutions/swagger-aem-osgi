@@ -34,7 +34,7 @@ API.Client.ConfigNodePropertyDropDown.prototype.type;
 
 /**
  * Property value
- * @type {!API.Client.Object}
+ * @type {!API.Client.AnyType}
  * @export
  */
 API.Client.ConfigNodePropertyDropDown.prototype.value;

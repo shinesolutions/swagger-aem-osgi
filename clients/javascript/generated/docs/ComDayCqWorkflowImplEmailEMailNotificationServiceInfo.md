@@ -1,6 +1,7 @@
 # NodeSwaggerAemOsgi.ComDayCqWorkflowImplEmailEMailNotificationServiceInfo
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **pid** | **String** |  | [optional] 

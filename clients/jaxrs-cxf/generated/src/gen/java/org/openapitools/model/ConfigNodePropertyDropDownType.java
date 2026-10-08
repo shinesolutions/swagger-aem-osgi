@@ -1,30 +1,29 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
 import io.swagger.annotations.ApiModelProperty;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlType;
-import javax.xml.bind.annotation.XmlEnum;
-import javax.xml.bind.annotation.XmlEnumValue;
+import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
 
 public class ConfigNodePropertyDropDownType  {
   
-  @ApiModelProperty(value = "Drop Down label")
  /**
-   * Drop Down label
-  **/
+  * Drop Down label
+  */
+  @ApiModelProperty(value = "Drop Down label")
+
   private Object labels = null;
 
-  @ApiModelProperty(value = "Drown Down value")
  /**
-   * Drown Down value
-  **/
+  * Drown Down value
+  */
+  @ApiModelProperty(value = "Drown Down value")
+
   private Object values = null;
  /**
    * Drop Down label
@@ -62,6 +61,23 @@ public class ConfigNodePropertyDropDownType  {
     return this;
   }
 
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    ConfigNodePropertyDropDownType configNodePropertyDropDownType = (ConfigNodePropertyDropDownType) o;
+    return Objects.equals(this.labels, configNodePropertyDropDownType.labels) &&
+        Objects.equals(this.values, configNodePropertyDropDownType.values);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(labels, values);
+  }
 
   @Override
   public String toString() {
@@ -78,11 +94,8 @@ public class ConfigNodePropertyDropDownType  {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private static String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -72,8 +72,8 @@ private class OASComDayCqReplicationImplTransportBTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqReplicationImplTransportB comDayCqReplicationImplTransportBinaryLessTransportHandlerProperties = new OASComDayCqReplicationImplTransportB();
-        Map<String, String> propertyMappings = comDayCqReplicationImplTransportBinaryLessTransportHandlerProperties.getPropertyMappings();
-        System.assertEquals('disabledCipherSuites', propertyMappings.get('disabled.cipher.suites'));
-        System.assertEquals('enabledCipherSuites', propertyMappings.get('enabled.cipher.suites'));
+        Map<String, String> x-property-mappings = comDayCqReplicationImplTransportBinaryLessTransportHandlerProperties.getx-property-mappings();
+        System.assertEquals('disabledCipherSuites', x-property-mappings.get('disabled.cipher.suites'));
+        System.assertEquals('enabledCipherSuites', x-property-mappings.get('enabled.cipher.suites'));
     }
 }

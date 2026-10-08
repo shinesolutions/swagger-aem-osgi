@@ -1,3 +1,13 @@
+/*
+ * Adobe Experience Manager OSGI config (AEM) API
+ *
+ * Swagger AEM OSGI is an OpenAPI specification for Adobe Experience Manager (AEM) OSGI Configurations API
+ *
+ * OpenAPI document version: 1.0.0-pre.0
+ * Maintained by: opensource@shinesolutions.com
+ *
+ * AUTO-GENERATED FILE, DO NOT MODIFY!
+ */
 package org.openapitools.model;
 
 import java.util.Objects;
@@ -13,21 +23,21 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2019-08-05T00:56:20.785Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2026-10-07T12:53:42.280804918Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqPollingImporterImplManagedPollConfigImplProperties   {
   
-  private ConfigNodePropertyString id = null;
-  private ConfigNodePropertyBoolean enabled = null;
-  private ConfigNodePropertyBoolean reference = null;
-  private ConfigNodePropertyInteger interval = null;
-  private ConfigNodePropertyString expression = null;
-  private ConfigNodePropertyString source = null;
-  private ConfigNodePropertyString target = null;
-  private ConfigNodePropertyString login = null;
-  private ConfigNodePropertyString password = null;
+  private ConfigNodePropertyString id;
+  private ConfigNodePropertyBoolean enabled;
+  private ConfigNodePropertyBoolean reference;
+  private ConfigNodePropertyInteger interval;
+  private ConfigNodePropertyString expression;
+  private ConfigNodePropertyString source;
+  private ConfigNodePropertyString target;
+  private ConfigNodePropertyString login;
+  private ConfigNodePropertyString password;
 
   /**
-   **/
+   */
   public ComDayCqPollingImporterImplManagedPollConfigImplProperties id(ConfigNodePropertyString id) {
     this.id = id;
     return this;
@@ -44,7 +54,7 @@ public class ComDayCqPollingImporterImplManagedPollConfigImplProperties   {
   }
 
   /**
-   **/
+   */
   public ComDayCqPollingImporterImplManagedPollConfigImplProperties enabled(ConfigNodePropertyBoolean enabled) {
     this.enabled = enabled;
     return this;
@@ -61,7 +71,7 @@ public class ComDayCqPollingImporterImplManagedPollConfigImplProperties   {
   }
 
   /**
-   **/
+   */
   public ComDayCqPollingImporterImplManagedPollConfigImplProperties reference(ConfigNodePropertyBoolean reference) {
     this.reference = reference;
     return this;
@@ -78,7 +88,7 @@ public class ComDayCqPollingImporterImplManagedPollConfigImplProperties   {
   }
 
   /**
-   **/
+   */
   public ComDayCqPollingImporterImplManagedPollConfigImplProperties interval(ConfigNodePropertyInteger interval) {
     this.interval = interval;
     return this;
@@ -95,7 +105,7 @@ public class ComDayCqPollingImporterImplManagedPollConfigImplProperties   {
   }
 
   /**
-   **/
+   */
   public ComDayCqPollingImporterImplManagedPollConfigImplProperties expression(ConfigNodePropertyString expression) {
     this.expression = expression;
     return this;
@@ -112,7 +122,7 @@ public class ComDayCqPollingImporterImplManagedPollConfigImplProperties   {
   }
 
   /**
-   **/
+   */
   public ComDayCqPollingImporterImplManagedPollConfigImplProperties source(ConfigNodePropertyString source) {
     this.source = source;
     return this;
@@ -129,7 +139,7 @@ public class ComDayCqPollingImporterImplManagedPollConfigImplProperties   {
   }
 
   /**
-   **/
+   */
   public ComDayCqPollingImporterImplManagedPollConfigImplProperties target(ConfigNodePropertyString target) {
     this.target = target;
     return this;
@@ -146,7 +156,7 @@ public class ComDayCqPollingImporterImplManagedPollConfigImplProperties   {
   }
 
   /**
-   **/
+   */
   public ComDayCqPollingImporterImplManagedPollConfigImplProperties login(ConfigNodePropertyString login) {
     this.login = login;
     return this;
@@ -163,7 +173,7 @@ public class ComDayCqPollingImporterImplManagedPollConfigImplProperties   {
   }
 
   /**
-   **/
+   */
   public ComDayCqPollingImporterImplManagedPollConfigImplProperties password(ConfigNodePropertyString password) {
     this.password = password;
     return this;
@@ -181,7 +191,7 @@ public class ComDayCqPollingImporterImplManagedPollConfigImplProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -227,11 +237,8 @@ public class ComDayCqPollingImporterImplManagedPollConfigImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

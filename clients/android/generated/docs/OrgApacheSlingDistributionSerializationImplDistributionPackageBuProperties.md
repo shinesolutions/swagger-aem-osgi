@@ -1,7 +1,9 @@
 
+
 # OrgApacheSlingDistributionSerializationImplDistributionPackageBuProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **name** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
@@ -16,6 +18,7 @@ Name | Type | Description | Notes
 **cleanupDelay** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
 **packageFilters** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
 **propertyFilters** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
+
 
 
 

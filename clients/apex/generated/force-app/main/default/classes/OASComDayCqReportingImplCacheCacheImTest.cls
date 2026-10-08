@@ -72,9 +72,9 @@ private class OASComDayCqReportingImplCacheCacheImTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqReportingImplCacheCacheIm comDayCqReportingImplCacheCacheImplProperties = new OASComDayCqReportingImplCacheCacheIm();
-        Map<String, String> propertyMappings = comDayCqReportingImplCacheCacheImplProperties.getPropertyMappings();
-        System.assertEquals('repcacheEnable', propertyMappings.get('repcache.enable'));
-        System.assertEquals('repcacheTtl', propertyMappings.get('repcache.ttl'));
-        System.assertEquals('repcacheMax', propertyMappings.get('repcache.max'));
+        Map<String, String> x-property-mappings = comDayCqReportingImplCacheCacheImplProperties.getx-property-mappings();
+        System.assertEquals('repcacheEnable', x-property-mappings.get('repcache.enable'));
+        System.assertEquals('repcacheTtl', x-property-mappings.get('repcache.ttl'));
+        System.assertEquals('repcacheMax', x-property-mappings.get('repcache.max'));
     }
 }

@@ -1,7 +1,9 @@
 
+
 # OrgApacheHttpProxyconfiguratorProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **proxyEnabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
@@ -10,6 +12,7 @@ Name | Type | Description | Notes
 **proxyUser** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
 **proxyPassword** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
 **proxyExceptions** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
+
 
 
 

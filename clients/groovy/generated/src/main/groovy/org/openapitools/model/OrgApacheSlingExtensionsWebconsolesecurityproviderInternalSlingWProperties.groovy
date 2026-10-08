@@ -7,8 +7,8 @@ import org.openapitools.model.ConfigNodePropertyArray;
 
 @Canonical
 class OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWProperties {
-    ConfigNodePropertyArray users = null
-
-    ConfigNodePropertyArray groups = null
-
+    
+    ConfigNodePropertyArray users
+    
+    ConfigNodePropertyArray groups
 }

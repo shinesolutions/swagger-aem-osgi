@@ -4,25 +4,22 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2019-08-05T01:00:05.540Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2026-10-07T12:54:26.576036107Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqDamInddProcessINDDMediaExtractProcessProperties   {
   
-
-  private ConfigNodePropertyString processLabel = null;
-
-  private ConfigNodePropertyString cqDamInddPagesRegex = null;
-
-  private ConfigNodePropertyBoolean idsJobDecoupled = null;
-
-  private ConfigNodePropertyString idsJobWorkflowModel = null;
+  private ConfigNodePropertyString processLabel;
+  private ConfigNodePropertyString cqDamInddPagesRegex;
+  private ConfigNodePropertyBoolean idsJobDecoupled;
+  private ConfigNodePropertyString idsJobWorkflowModel;
 
   /**
    **/
@@ -82,10 +79,10 @@ public class ComDayCqDamInddProcessINDDMediaExtractProcessProperties   {
       return false;
     }
     ComDayCqDamInddProcessINDDMediaExtractProcessProperties comDayCqDamInddProcessINDDMediaExtractProcessProperties = (ComDayCqDamInddProcessINDDMediaExtractProcessProperties) o;
-    return Objects.equals(processLabel, comDayCqDamInddProcessINDDMediaExtractProcessProperties.processLabel) &&
-        Objects.equals(cqDamInddPagesRegex, comDayCqDamInddProcessINDDMediaExtractProcessProperties.cqDamInddPagesRegex) &&
-        Objects.equals(idsJobDecoupled, comDayCqDamInddProcessINDDMediaExtractProcessProperties.idsJobDecoupled) &&
-        Objects.equals(idsJobWorkflowModel, comDayCqDamInddProcessINDDMediaExtractProcessProperties.idsJobWorkflowModel);
+    return Objects.equals(this.processLabel, comDayCqDamInddProcessINDDMediaExtractProcessProperties.processLabel) &&
+        Objects.equals(this.cqDamInddPagesRegex, comDayCqDamInddProcessINDDMediaExtractProcessProperties.cqDamInddPagesRegex) &&
+        Objects.equals(this.idsJobDecoupled, comDayCqDamInddProcessINDDMediaExtractProcessProperties.idsJobDecoupled) &&
+        Objects.equals(this.idsJobWorkflowModel, comDayCqDamInddProcessINDDMediaExtractProcessProperties.idsJobWorkflowModel);
   }
 
   @Override
@@ -111,10 +108,7 @@ public class ComDayCqDamInddProcessINDDMediaExtractProcessProperties   {
    * (except the first line).
    */
   private String toIndentedString(Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

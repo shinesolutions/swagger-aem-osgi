@@ -1,27 +1,38 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComDayCqSearchSuggestImplSuggestionIndexManagerImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComDayCqSearchSuggestImplSuggestionIndexManagerImplProperties   {
-  @JsonProperty("pathBuilder.target")
-  private ConfigNodePropertyString pathBuilderTarget = null;
+@JsonTypeName("comDayCqSearchSuggestImplSuggestionIndexManagerImplProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComDayCqSearchSuggestImplSuggestionIndexManagerImplProperties {
 
-  @JsonProperty("suggest.basepath")
-  private ConfigNodePropertyString suggestBasepath = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString pathBuilderTarget;
 
-  public ComDayCqSearchSuggestImplSuggestionIndexManagerImplProperties pathBuilderTarget(ConfigNodePropertyString pathBuilderTarget) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString suggestBasepath;
+
+  public ComDayCqSearchSuggestImplSuggestionIndexManagerImplProperties pathBuilderTarget(@Nullable ConfigNodePropertyString pathBuilderTarget) {
     this.pathBuilderTarget = pathBuilderTarget;
     return this;
   }
@@ -29,20 +40,20 @@ public class ComDayCqSearchSuggestImplSuggestionIndexManagerImplProperties   {
   /**
    * Get pathBuilderTarget
    * @return pathBuilderTarget
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getPathBuilderTarget() {
+   */
+  @Valid 
+  @Schema(name = "pathBuilder.target", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("pathBuilder.target")
+  public @Nullable ConfigNodePropertyString getPathBuilderTarget() {
     return pathBuilderTarget;
   }
 
-  public void setPathBuilderTarget(ConfigNodePropertyString pathBuilderTarget) {
+  @JsonProperty("pathBuilder.target")
+  public void setPathBuilderTarget(@Nullable ConfigNodePropertyString pathBuilderTarget) {
     this.pathBuilderTarget = pathBuilderTarget;
   }
 
-  public ComDayCqSearchSuggestImplSuggestionIndexManagerImplProperties suggestBasepath(ConfigNodePropertyString suggestBasepath) {
+  public ComDayCqSearchSuggestImplSuggestionIndexManagerImplProperties suggestBasepath(@Nullable ConfigNodePropertyString suggestBasepath) {
     this.suggestBasepath = suggestBasepath;
     return this;
   }
@@ -50,22 +61,21 @@ public class ComDayCqSearchSuggestImplSuggestionIndexManagerImplProperties   {
   /**
    * Get suggestBasepath
    * @return suggestBasepath
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getSuggestBasepath() {
+   */
+  @Valid 
+  @Schema(name = "suggest.basepath", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("suggest.basepath")
+  public @Nullable ConfigNodePropertyString getSuggestBasepath() {
     return suggestBasepath;
   }
 
-  public void setSuggestBasepath(ConfigNodePropertyString suggestBasepath) {
+  @JsonProperty("suggest.basepath")
+  public void setSuggestBasepath(@Nullable ConfigNodePropertyString suggestBasepath) {
     this.suggestBasepath = suggestBasepath;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -86,7 +96,6 @@ public class ComDayCqSearchSuggestImplSuggestionIndexManagerImplProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComDayCqSearchSuggestImplSuggestionIndexManagerImplProperties {\n");
-    
     sb.append("    pathBuilderTarget: ").append(toIndentedString(pathBuilderTarget)).append("\n");
     sb.append("    suggestBasepath: ").append(toIndentedString(suggestBasepath)).append("\n");
     sb.append("}");
@@ -97,11 +106,8 @@ public class ComDayCqSearchSuggestImplSuggestionIndexManagerImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

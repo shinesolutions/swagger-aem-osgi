@@ -72,11 +72,11 @@ private class OASComDayCqAnalyticsTestandtargetImpTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqAnalyticsTestandtargetImp comDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplProperties = new OASComDayCqAnalyticsTestandtargetImp();
-        Map<String, String> propertyMappings = comDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplProperties.getPropertyMappings();
-        System.assertEquals('cqAnalyticsTestandtargetApiUrl', propertyMappings.get('cq.analytics.testandtarget.api.url'));
-        System.assertEquals('cqAnalyticsTestandtargetTimeout', propertyMappings.get('cq.analytics.testandtarget.timeout'));
-        System.assertEquals('cqAnalyticsTestandtargetSockettimeout', propertyMappings.get('cq.analytics.testandtarget.sockettimeout'));
-        System.assertEquals('cqAnalyticsTestandtargetRecommendationsUrlReplace', propertyMappings.get('cq.analytics.testandtarget.recommendations.url.replace'));
-        System.assertEquals('cqAnalyticsTestandtargetRecommendationsUrlReplacewith', propertyMappings.get('cq.analytics.testandtarget.recommendations.url.replacewith'));
+        Map<String, String> x-property-mappings = comDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplProperties.getx-property-mappings();
+        System.assertEquals('cqAnalyticsTestandtargetApiUrl', x-property-mappings.get('cq.analytics.testandtarget.api.url'));
+        System.assertEquals('cqAnalyticsTestandtargetTimeout', x-property-mappings.get('cq.analytics.testandtarget.timeout'));
+        System.assertEquals('cqAnalyticsTestandtargetSockettimeout', x-property-mappings.get('cq.analytics.testandtarget.sockettimeout'));
+        System.assertEquals('cqAnalyticsTestandtargetRecommendationsUrlReplace', x-property-mappings.get('cq.analytics.testandtarget.recommendations.url.replace'));
+        System.assertEquals('cqAnalyticsTestandtargetRecommendationsUrlReplacewith', x-property-mappings.get('cq.analytics.testandtarget.recommendations.url.replacewith'));
     }
 }

@@ -1,3 +1,13 @@
+/*
+ * Adobe Experience Manager OSGI config (AEM) API
+ *
+ * Swagger AEM OSGI is an OpenAPI specification for Adobe Experience Manager (AEM) OSGI Configurations API
+ *
+ * OpenAPI document version: 1.0.0-pre.0
+ * Maintained by: opensource@shinesolutions.com
+ *
+ * AUTO-GENERATED FILE, DO NOT MODIFY!
+ */
 package org.openapitools.model;
 
 import java.util.Objects;
@@ -14,23 +24,23 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2019-08-05T00:56:20.785Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2026-10-07T12:53:42.280804918Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpProperties   {
   
-  private ConfigNodePropertyString emailName = null;
-  private ConfigNodePropertyBoolean emailCreatePostFromReply = null;
-  private ConfigNodePropertyDropDown emailAddCommentIdTo = null;
-  private ConfigNodePropertyInteger emailSubjectMaximumLength = null;
-  private ConfigNodePropertyString emailReplyToAddress = null;
-  private ConfigNodePropertyString emailReplyToDelimiter = null;
-  private ConfigNodePropertyString emailTrackerIdPrefixInSubject = null;
-  private ConfigNodePropertyString emailTrackerIdPrefixInBody = null;
-  private ConfigNodePropertyBoolean emailAsHTML = null;
-  private ConfigNodePropertyString emailDefaultUserName = null;
-  private ConfigNodePropertyString emailTemplatesRootPath = null;
+  private ConfigNodePropertyString emailName;
+  private ConfigNodePropertyBoolean emailCreatePostFromReply;
+  private ConfigNodePropertyDropDown emailAddCommentIdTo;
+  private ConfigNodePropertyInteger emailSubjectMaximumLength;
+  private ConfigNodePropertyString emailReplyToAddress;
+  private ConfigNodePropertyString emailReplyToDelimiter;
+  private ConfigNodePropertyString emailTrackerIdPrefixInSubject;
+  private ConfigNodePropertyString emailTrackerIdPrefixInBody;
+  private ConfigNodePropertyBoolean emailAsHTML;
+  private ConfigNodePropertyString emailDefaultUserName;
+  private ConfigNodePropertyString emailTemplatesRootPath;
 
   /**
-   **/
+   */
   public ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpProperties emailName(ConfigNodePropertyString emailName) {
     this.emailName = emailName;
     return this;
@@ -47,7 +57,7 @@ public class ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpProp
   }
 
   /**
-   **/
+   */
   public ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpProperties emailCreatePostFromReply(ConfigNodePropertyBoolean emailCreatePostFromReply) {
     this.emailCreatePostFromReply = emailCreatePostFromReply;
     return this;
@@ -64,7 +74,7 @@ public class ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpProp
   }
 
   /**
-   **/
+   */
   public ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpProperties emailAddCommentIdTo(ConfigNodePropertyDropDown emailAddCommentIdTo) {
     this.emailAddCommentIdTo = emailAddCommentIdTo;
     return this;
@@ -81,7 +91,7 @@ public class ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpProp
   }
 
   /**
-   **/
+   */
   public ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpProperties emailSubjectMaximumLength(ConfigNodePropertyInteger emailSubjectMaximumLength) {
     this.emailSubjectMaximumLength = emailSubjectMaximumLength;
     return this;
@@ -98,7 +108,7 @@ public class ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpProp
   }
 
   /**
-   **/
+   */
   public ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpProperties emailReplyToAddress(ConfigNodePropertyString emailReplyToAddress) {
     this.emailReplyToAddress = emailReplyToAddress;
     return this;
@@ -115,7 +125,7 @@ public class ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpProp
   }
 
   /**
-   **/
+   */
   public ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpProperties emailReplyToDelimiter(ConfigNodePropertyString emailReplyToDelimiter) {
     this.emailReplyToDelimiter = emailReplyToDelimiter;
     return this;
@@ -132,7 +142,7 @@ public class ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpProp
   }
 
   /**
-   **/
+   */
   public ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpProperties emailTrackerIdPrefixInSubject(ConfigNodePropertyString emailTrackerIdPrefixInSubject) {
     this.emailTrackerIdPrefixInSubject = emailTrackerIdPrefixInSubject;
     return this;
@@ -149,7 +159,7 @@ public class ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpProp
   }
 
   /**
-   **/
+   */
   public ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpProperties emailTrackerIdPrefixInBody(ConfigNodePropertyString emailTrackerIdPrefixInBody) {
     this.emailTrackerIdPrefixInBody = emailTrackerIdPrefixInBody;
     return this;
@@ -166,7 +176,7 @@ public class ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpProp
   }
 
   /**
-   **/
+   */
   public ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpProperties emailAsHTML(ConfigNodePropertyBoolean emailAsHTML) {
     this.emailAsHTML = emailAsHTML;
     return this;
@@ -183,7 +193,7 @@ public class ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpProp
   }
 
   /**
-   **/
+   */
   public ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpProperties emailDefaultUserName(ConfigNodePropertyString emailDefaultUserName) {
     this.emailDefaultUserName = emailDefaultUserName;
     return this;
@@ -200,7 +210,7 @@ public class ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpProp
   }
 
   /**
-   **/
+   */
   public ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpProperties emailTemplatesRootPath(ConfigNodePropertyString emailTemplatesRootPath) {
     this.emailTemplatesRootPath = emailTemplatesRootPath;
     return this;
@@ -218,7 +228,7 @@ public class ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpProp
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -268,11 +278,8 @@ public class ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpProp
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

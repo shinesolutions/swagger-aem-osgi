@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqDamCoreImplAssetlinkshareAdhocAssetSharePr
 
 @Canonical
 class ComDayCqDamCoreImplAssetlinkshareAdhocAssetShareProxyServletInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqDamCoreImplAssetlinkshareAdhocAssetShareProxyServletProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqDamCoreImplAssetlinkshareAdhocAssetShareProxyServletProperties properties
 }

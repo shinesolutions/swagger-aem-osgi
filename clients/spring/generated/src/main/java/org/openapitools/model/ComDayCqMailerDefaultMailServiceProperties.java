@@ -1,47 +1,58 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComDayCqMailerDefaultMailServiceProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComDayCqMailerDefaultMailServiceProperties   {
-  @JsonProperty("smtp.host")
-  private ConfigNodePropertyString smtpHost = null;
+@JsonTypeName("comDayCqMailerDefaultMailServiceProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComDayCqMailerDefaultMailServiceProperties {
 
-  @JsonProperty("smtp.port")
-  private ConfigNodePropertyInteger smtpPort = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString smtpHost;
 
-  @JsonProperty("smtp.user")
-  private ConfigNodePropertyString smtpUser = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger smtpPort;
 
-  @JsonProperty("smtp.password")
-  private ConfigNodePropertyString smtpPassword = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString smtpUser;
 
-  @JsonProperty("from.address")
-  private ConfigNodePropertyString fromAddress = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString smtpPassword;
 
-  @JsonProperty("smtp.ssl")
-  private ConfigNodePropertyBoolean smtpSsl = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString fromAddress;
 
-  @JsonProperty("smtp.starttls")
-  private ConfigNodePropertyBoolean smtpStarttls = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean smtpSsl;
 
-  @JsonProperty("debug.email")
-  private ConfigNodePropertyBoolean debugEmail = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean smtpStarttls;
 
-  public ComDayCqMailerDefaultMailServiceProperties smtpHost(ConfigNodePropertyString smtpHost) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean debugEmail;
+
+  public ComDayCqMailerDefaultMailServiceProperties smtpHost(@Nullable ConfigNodePropertyString smtpHost) {
     this.smtpHost = smtpHost;
     return this;
   }
@@ -49,20 +60,20 @@ public class ComDayCqMailerDefaultMailServiceProperties   {
   /**
    * Get smtpHost
    * @return smtpHost
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getSmtpHost() {
+   */
+  @Valid 
+  @Schema(name = "smtp.host", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("smtp.host")
+  public @Nullable ConfigNodePropertyString getSmtpHost() {
     return smtpHost;
   }
 
-  public void setSmtpHost(ConfigNodePropertyString smtpHost) {
+  @JsonProperty("smtp.host")
+  public void setSmtpHost(@Nullable ConfigNodePropertyString smtpHost) {
     this.smtpHost = smtpHost;
   }
 
-  public ComDayCqMailerDefaultMailServiceProperties smtpPort(ConfigNodePropertyInteger smtpPort) {
+  public ComDayCqMailerDefaultMailServiceProperties smtpPort(@Nullable ConfigNodePropertyInteger smtpPort) {
     this.smtpPort = smtpPort;
     return this;
   }
@@ -70,20 +81,20 @@ public class ComDayCqMailerDefaultMailServiceProperties   {
   /**
    * Get smtpPort
    * @return smtpPort
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getSmtpPort() {
+   */
+  @Valid 
+  @Schema(name = "smtp.port", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("smtp.port")
+  public @Nullable ConfigNodePropertyInteger getSmtpPort() {
     return smtpPort;
   }
 
-  public void setSmtpPort(ConfigNodePropertyInteger smtpPort) {
+  @JsonProperty("smtp.port")
+  public void setSmtpPort(@Nullable ConfigNodePropertyInteger smtpPort) {
     this.smtpPort = smtpPort;
   }
 
-  public ComDayCqMailerDefaultMailServiceProperties smtpUser(ConfigNodePropertyString smtpUser) {
+  public ComDayCqMailerDefaultMailServiceProperties smtpUser(@Nullable ConfigNodePropertyString smtpUser) {
     this.smtpUser = smtpUser;
     return this;
   }
@@ -91,20 +102,20 @@ public class ComDayCqMailerDefaultMailServiceProperties   {
   /**
    * Get smtpUser
    * @return smtpUser
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getSmtpUser() {
+   */
+  @Valid 
+  @Schema(name = "smtp.user", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("smtp.user")
+  public @Nullable ConfigNodePropertyString getSmtpUser() {
     return smtpUser;
   }
 
-  public void setSmtpUser(ConfigNodePropertyString smtpUser) {
+  @JsonProperty("smtp.user")
+  public void setSmtpUser(@Nullable ConfigNodePropertyString smtpUser) {
     this.smtpUser = smtpUser;
   }
 
-  public ComDayCqMailerDefaultMailServiceProperties smtpPassword(ConfigNodePropertyString smtpPassword) {
+  public ComDayCqMailerDefaultMailServiceProperties smtpPassword(@Nullable ConfigNodePropertyString smtpPassword) {
     this.smtpPassword = smtpPassword;
     return this;
   }
@@ -112,20 +123,20 @@ public class ComDayCqMailerDefaultMailServiceProperties   {
   /**
    * Get smtpPassword
    * @return smtpPassword
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getSmtpPassword() {
+   */
+  @Valid 
+  @Schema(name = "smtp.password", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("smtp.password")
+  public @Nullable ConfigNodePropertyString getSmtpPassword() {
     return smtpPassword;
   }
 
-  public void setSmtpPassword(ConfigNodePropertyString smtpPassword) {
+  @JsonProperty("smtp.password")
+  public void setSmtpPassword(@Nullable ConfigNodePropertyString smtpPassword) {
     this.smtpPassword = smtpPassword;
   }
 
-  public ComDayCqMailerDefaultMailServiceProperties fromAddress(ConfigNodePropertyString fromAddress) {
+  public ComDayCqMailerDefaultMailServiceProperties fromAddress(@Nullable ConfigNodePropertyString fromAddress) {
     this.fromAddress = fromAddress;
     return this;
   }
@@ -133,20 +144,20 @@ public class ComDayCqMailerDefaultMailServiceProperties   {
   /**
    * Get fromAddress
    * @return fromAddress
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getFromAddress() {
+   */
+  @Valid 
+  @Schema(name = "from.address", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("from.address")
+  public @Nullable ConfigNodePropertyString getFromAddress() {
     return fromAddress;
   }
 
-  public void setFromAddress(ConfigNodePropertyString fromAddress) {
+  @JsonProperty("from.address")
+  public void setFromAddress(@Nullable ConfigNodePropertyString fromAddress) {
     this.fromAddress = fromAddress;
   }
 
-  public ComDayCqMailerDefaultMailServiceProperties smtpSsl(ConfigNodePropertyBoolean smtpSsl) {
+  public ComDayCqMailerDefaultMailServiceProperties smtpSsl(@Nullable ConfigNodePropertyBoolean smtpSsl) {
     this.smtpSsl = smtpSsl;
     return this;
   }
@@ -154,20 +165,20 @@ public class ComDayCqMailerDefaultMailServiceProperties   {
   /**
    * Get smtpSsl
    * @return smtpSsl
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getSmtpSsl() {
+   */
+  @Valid 
+  @Schema(name = "smtp.ssl", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("smtp.ssl")
+  public @Nullable ConfigNodePropertyBoolean getSmtpSsl() {
     return smtpSsl;
   }
 
-  public void setSmtpSsl(ConfigNodePropertyBoolean smtpSsl) {
+  @JsonProperty("smtp.ssl")
+  public void setSmtpSsl(@Nullable ConfigNodePropertyBoolean smtpSsl) {
     this.smtpSsl = smtpSsl;
   }
 
-  public ComDayCqMailerDefaultMailServiceProperties smtpStarttls(ConfigNodePropertyBoolean smtpStarttls) {
+  public ComDayCqMailerDefaultMailServiceProperties smtpStarttls(@Nullable ConfigNodePropertyBoolean smtpStarttls) {
     this.smtpStarttls = smtpStarttls;
     return this;
   }
@@ -175,20 +186,20 @@ public class ComDayCqMailerDefaultMailServiceProperties   {
   /**
    * Get smtpStarttls
    * @return smtpStarttls
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getSmtpStarttls() {
+   */
+  @Valid 
+  @Schema(name = "smtp.starttls", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("smtp.starttls")
+  public @Nullable ConfigNodePropertyBoolean getSmtpStarttls() {
     return smtpStarttls;
   }
 
-  public void setSmtpStarttls(ConfigNodePropertyBoolean smtpStarttls) {
+  @JsonProperty("smtp.starttls")
+  public void setSmtpStarttls(@Nullable ConfigNodePropertyBoolean smtpStarttls) {
     this.smtpStarttls = smtpStarttls;
   }
 
-  public ComDayCqMailerDefaultMailServiceProperties debugEmail(ConfigNodePropertyBoolean debugEmail) {
+  public ComDayCqMailerDefaultMailServiceProperties debugEmail(@Nullable ConfigNodePropertyBoolean debugEmail) {
     this.debugEmail = debugEmail;
     return this;
   }
@@ -196,22 +207,21 @@ public class ComDayCqMailerDefaultMailServiceProperties   {
   /**
    * Get debugEmail
    * @return debugEmail
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getDebugEmail() {
+   */
+  @Valid 
+  @Schema(name = "debug.email", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("debug.email")
+  public @Nullable ConfigNodePropertyBoolean getDebugEmail() {
     return debugEmail;
   }
 
-  public void setDebugEmail(ConfigNodePropertyBoolean debugEmail) {
+  @JsonProperty("debug.email")
+  public void setDebugEmail(@Nullable ConfigNodePropertyBoolean debugEmail) {
     this.debugEmail = debugEmail;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -238,7 +248,6 @@ public class ComDayCqMailerDefaultMailServiceProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComDayCqMailerDefaultMailServiceProperties {\n");
-    
     sb.append("    smtpHost: ").append(toIndentedString(smtpHost)).append("\n");
     sb.append("    smtpPort: ").append(toIndentedString(smtpPort)).append("\n");
     sb.append("    smtpUser: ").append(toIndentedString(smtpUser)).append("\n");
@@ -255,11 +264,8 @@ public class ComDayCqMailerDefaultMailServiceProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

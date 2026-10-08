@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqSocialActivitystreamsListenerImplRatingE
 
 @Canonical
 class ComAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySProperties properties
 }

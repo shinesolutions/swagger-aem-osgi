@@ -2,31 +2,32 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurInfo   {
   
-  private String pid = null;
+  private String pid;
 
-  private String title = null;
+  private String title;
 
-  private String description = null;
+  private String description;
 
-  private OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurProperties properties = null;
+  private OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurProperties properties;
 
-  private String bundleLocation = null;
+  private String bundleLocation;
 
-  private String serviceLocation = null;
-
+  private String serviceLocation;
 
   /**
    **/
@@ -138,7 +139,7 @@ public class OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurInf
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -146,12 +147,12 @@ public class OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurInf
       return false;
     }
     OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurInfo orgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurInfo = (OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurInfo) o;
-    return Objects.equals(pid, orgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurInfo.pid) &&
-        Objects.equals(title, orgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurInfo.title) &&
-        Objects.equals(description, orgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurInfo.description) &&
-        Objects.equals(properties, orgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurInfo.properties) &&
-        Objects.equals(bundleLocation, orgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurInfo.bundleLocation) &&
-        Objects.equals(serviceLocation, orgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurInfo.serviceLocation);
+    return Objects.equals(this.pid, orgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurInfo.pid) &&
+        Objects.equals(this.title, orgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurInfo.title) &&
+        Objects.equals(this.description, orgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurInfo.description) &&
+        Objects.equals(this.properties, orgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurInfo.properties) &&
+        Objects.equals(this.bundleLocation, orgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurInfo.bundleLocation) &&
+        Objects.equals(this.serviceLocation, orgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurInfo.serviceLocation);
   }
 
   @Override
@@ -178,11 +179,8 @@ public class OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurInf
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -1,6 +1,8 @@
 # OrgApacheSlingDatasourceDataSourceFactoryProperties
 
+
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **datasource_name** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
@@ -33,6 +35,23 @@ Name | Type | Description | Notes
 **log_validation_errors** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] 
 **datasource_svc_properties** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 
 
+## Example
+
+```python
+from swaggeraemosgi.models.org_apache_sling_datasource_data_source_factory_properties import OrgApacheSlingDatasourceDataSourceFactoryProperties
+
+# TODO update the JSON string below
+json = "{}"
+# create an instance of OrgApacheSlingDatasourceDataSourceFactoryProperties from a JSON string
+org_apache_sling_datasource_data_source_factory_properties_instance = OrgApacheSlingDatasourceDataSourceFactoryProperties.from_json(json)
+# print the JSON string representation of the object
+print(OrgApacheSlingDatasourceDataSourceFactoryProperties.to_json())
+
+# convert the object into a dict
+org_apache_sling_datasource_data_source_factory_properties_dict = org_apache_sling_datasource_data_source_factory_properties_instance.to_dict()
+# create an instance of OrgApacheSlingDatasourceDataSourceFactoryProperties from a dict
+org_apache_sling_datasource_data_source_factory_properties_from_dict = OrgApacheSlingDatasourceDataSourceFactoryProperties.from_dict(org_apache_sling_datasource_data_source_factory_properties_dict)
+```
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 
 

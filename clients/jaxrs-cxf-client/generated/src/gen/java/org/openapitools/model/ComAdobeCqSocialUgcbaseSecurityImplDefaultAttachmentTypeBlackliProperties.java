@@ -3,22 +3,19 @@ package org.openapitools.model;
 import org.openapitools.model.ConfigNodePropertyArray;
 
 import io.swagger.annotations.ApiModelProperty;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlType;
-import javax.xml.bind.annotation.XmlEnum;
-import javax.xml.bind.annotation.XmlEnumValue;
+import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
 
 public class ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliProperties  {
   
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyArray defaultAttachmentTypeBlacklist = null;
+
+  private ConfigNodePropertyArray defaultAttachmentTypeBlacklist;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyArray baselineAttachmentTypeBlacklist = null;
+
+  private ConfigNodePropertyArray baselineAttachmentTypeBlacklist;
  /**
    * Get defaultAttachmentTypeBlacklist
    * @return defaultAttachmentTypeBlacklist
@@ -55,6 +52,23 @@ public class ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliProp
     return this;
   }
 
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliProperties comAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliProperties = (ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliProperties) o;
+    return Objects.equals(this.defaultAttachmentTypeBlacklist, comAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliProperties.defaultAttachmentTypeBlacklist) &&
+        Objects.equals(this.baselineAttachmentTypeBlacklist, comAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliProperties.baselineAttachmentTypeBlacklist);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(defaultAttachmentTypeBlacklist, baselineAttachmentTypeBlacklist);
+  }
 
   @Override
   public String toString() {
@@ -71,11 +85,8 @@ public class ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliProp
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private static String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

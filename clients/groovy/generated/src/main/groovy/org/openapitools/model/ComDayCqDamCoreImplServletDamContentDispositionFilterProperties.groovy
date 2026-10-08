@@ -8,8 +8,8 @@ import org.openapitools.model.ConfigNodePropertyBoolean;
 
 @Canonical
 class ComDayCqDamCoreImplServletDamContentDispositionFilterProperties {
-    ConfigNodePropertyArray cqMimeTypeBlacklist = null
-
-    ConfigNodePropertyBoolean cqDamEmptyMime = null
-
+    
+    ConfigNodePropertyArray cqMimeTypeBlacklist
+    
+    ConfigNodePropertyBoolean cqDamEmptyMime
 }

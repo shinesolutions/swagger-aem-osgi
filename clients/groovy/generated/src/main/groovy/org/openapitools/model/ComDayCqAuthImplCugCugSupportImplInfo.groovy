@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqAuthImplCugCugSupportImplProperties;
 
 @Canonical
 class ComDayCqAuthImplCugCugSupportImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqAuthImplCugCugSupportImplProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqAuthImplCugCugSupportImplProperties properties
 }

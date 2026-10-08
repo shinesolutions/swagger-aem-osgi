@@ -72,9 +72,9 @@ private class OASComDayCqWcmWorkflowImplWcmWorkfloTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqWcmWorkflowImplWcmWorkflo comDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties = new OASComDayCqWcmWorkflowImplWcmWorkflo();
-        Map<String, String> propertyMappings = comDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties.getPropertyMappings();
-        System.assertEquals('eventFilter', propertyMappings.get('event.filter'));
-        System.assertEquals('cqWcmWorkflowTerminateOnActivate', propertyMappings.get('cq.wcm.workflow.terminate.on.activate'));
-        System.assertEquals('cqWcmWorklfowTerminateExclusionList', propertyMappings.get('cq.wcm.worklfow.terminate.exclusion.list'));
+        Map<String, String> x-property-mappings = comDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties.getx-property-mappings();
+        System.assertEquals('eventFilter', x-property-mappings.get('event.filter'));
+        System.assertEquals('cqWcmWorkflowTerminateOnActivate', x-property-mappings.get('cq.wcm.workflow.terminate.on.activate'));
+        System.assertEquals('cqWcmWorklfowTerminateExclusionList', x-property-mappings.get('cq.wcm.worklfow.terminate.exclusion.list'));
     }
 }

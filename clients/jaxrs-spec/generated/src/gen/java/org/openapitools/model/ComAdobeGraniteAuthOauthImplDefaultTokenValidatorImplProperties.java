@@ -1,18 +1,29 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comAdobeGraniteAuthOauthImplDefaultTokenValidatorImplProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteAuthOauthImplDefaultTokenValidatorImplProperties   {
-  
-  private @Valid ConfigNodePropertyString authTokenValidatorType = null;
+  private ConfigNodePropertyString authTokenValidatorType;
+
+  public ComAdobeGraniteAuthOauthImplDefaultTokenValidatorImplProperties() {
+  }
 
   /**
    **/
@@ -24,16 +35,18 @@ public class ComAdobeGraniteAuthOauthImplDefaultTokenValidatorImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("auth.token.validator.type")
-  public ConfigNodePropertyString getAuthTokenValidatorType() {
+  @Valid public ConfigNodePropertyString getAuthTokenValidatorType() {
     return authTokenValidatorType;
   }
+
+  @JsonProperty("auth.token.validator.type")
   public void setAuthTokenValidatorType(ConfigNodePropertyString authTokenValidatorType) {
     this.authTokenValidatorType = authTokenValidatorType;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -41,7 +54,7 @@ public class ComAdobeGraniteAuthOauthImplDefaultTokenValidatorImplProperties   {
       return false;
     }
     ComAdobeGraniteAuthOauthImplDefaultTokenValidatorImplProperties comAdobeGraniteAuthOauthImplDefaultTokenValidatorImplProperties = (ComAdobeGraniteAuthOauthImplDefaultTokenValidatorImplProperties) o;
-    return Objects.equals(authTokenValidatorType, comAdobeGraniteAuthOauthImplDefaultTokenValidatorImplProperties.authTokenValidatorType);
+    return Objects.equals(this.authTokenValidatorType, comAdobeGraniteAuthOauthImplDefaultTokenValidatorImplProperties.authTokenValidatorType);
   }
 
   @Override
@@ -63,11 +76,9 @@ public class ComAdobeGraniteAuthOauthImplDefaultTokenValidatorImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

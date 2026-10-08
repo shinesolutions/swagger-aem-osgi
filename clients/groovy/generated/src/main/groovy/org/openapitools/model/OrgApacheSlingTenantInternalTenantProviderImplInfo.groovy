@@ -7,12 +7,12 @@ import org.openapitools.model.OrgApacheSlingTenantInternalTenantProviderImplProp
 
 @Canonical
 class OrgApacheSlingTenantInternalTenantProviderImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheSlingTenantInternalTenantProviderImplProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheSlingTenantInternalTenantProviderImplProperties properties
 }

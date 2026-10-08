@@ -9,12 +9,12 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqCommonsImplExternalizerImplProperties {
-    ConfigNodePropertyArray externalizerDomains = null
-
-    ConfigNodePropertyString externalizerHost = null
-
-    ConfigNodePropertyString externalizerContextpath = null
-
-    ConfigNodePropertyBoolean externalizerEncodedpath = null
-
+    
+    ConfigNodePropertyArray externalizerDomains
+    
+    ConfigNodePropertyString externalizerHost
+    
+    ConfigNodePropertyString externalizerContextpath
+    
+    ConfigNodePropertyBoolean externalizerEncodedpath
 }

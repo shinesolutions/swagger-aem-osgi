@@ -72,7 +72,7 @@ private class OASOrgApacheSlingServletsGetImplVersTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASOrgApacheSlingServletsGetImplVers orgApacheSlingServletsGetImplVersionVersionInfoServletProperties = new OASOrgApacheSlingServletsGetImplVers();
-        Map<String, String> propertyMappings = orgApacheSlingServletsGetImplVersionVersionInfoServletProperties.getPropertyMappings();
-        System.assertEquals('slingServletSelectors', propertyMappings.get('sling.servlet.selectors'));
+        Map<String, String> x-property-mappings = orgApacheSlingServletsGetImplVersionVersionInfoServletProperties.getx-property-mappings();
+        System.assertEquals('slingServletSelectors', x-property-mappings.get('sling.servlet.selectors'));
     }
 }

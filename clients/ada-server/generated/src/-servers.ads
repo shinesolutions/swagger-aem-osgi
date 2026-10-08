@@ -12,7 +12,9 @@
 with Swagger.Servers;
 with .Models;
 with .Skeletons;
+
 package .Servers is
+   pragma Warnings (Off, "*use clause for package*");
    use .Models;
    type Server_Type is limited new .Skeletons.Server_Type with null record;
 
@@ -65,7 +67,7 @@ package .Servers is
 
    --  
    overriding
-   procedure Apache_Sling_Health_Check_Result_H_T_M_L_Serializer
+   procedure Apache_Sling_Health_Check_Result_HTMLSerializer
       (Server : in out Server_Type;
        Post : in Swagger.Nullable_Boolean;
        Apply : in Swagger.Nullable_Boolean;
@@ -79,7 +81,7 @@ package .Servers is
 
    --  
    overriding
-   procedure Com_Adobe_Aem_Formsndocuments_Config_A_E_M_Forms_Manager_Configuration
+   procedure Com_Adobe_Aem_Formsndocuments_Config_AEMForms_Manager_Configuration
       (Server : in out Server_Type;
        Post : in Swagger.Nullable_Boolean;
        Apply : in Swagger.Nullable_Boolean;
@@ -87,7 +89,7 @@ package .Servers is
        Action : in Swagger.Nullable_UString;
        Dollarlocation : in Swagger.Nullable_UString;
        Propertylist : in Swagger.UString_Vectors.Vector;
-       Forms_Manager_Config_Periodinclude_O_O_T_B_Templates : in Swagger.Nullable_Boolean;
+       Forms_Manager_Config_Periodinclude_OOTBTemplates : in Swagger.Nullable_Boolean;
        Forms_Manager_Config_Periodinclude_Deprecated_Templates : in Swagger.Nullable_Boolean;
        Result  : out .Models.ComAdobeAemFormsndocumentsConfigAEMFormsManagerConfigurationInfo_Type;
        Context : in out Swagger.Servers.Context_Type);
@@ -108,7 +110,7 @@ package .Servers is
 
    --  
    overriding
-   procedure Com_Adobe_Aem_Upgrade_Prechecks_Hc_Impl_Deprecate_Indexes_H_C
+   procedure Com_Adobe_Aem_Upgrade_Prechecks_Hc_Impl_Deprecate_Indexes_HC
       (Server : in out Server_Type;
        Post : in Swagger.Nullable_Boolean;
        Apply : in Swagger.Nullable_Boolean;
@@ -124,7 +126,7 @@ package .Servers is
 
    --  
    overriding
-   procedure Com_Adobe_Aem_Upgrade_Prechecks_Hc_Impl_Replication_Agents_Disabled_H_C
+   procedure Com_Adobe_Aem_Upgrade_Prechecks_Hc_Impl_Replication_Agents_Disabled_HC
       (Server : in out Server_Type;
        Post : in Swagger.Nullable_Boolean;
        Apply : in Swagger.Nullable_Boolean;
@@ -140,7 +142,7 @@ package .Servers is
 
    --  
    overriding
-   procedure Com_Adobe_Aem_Upgrade_Prechecks_Mbean_Impl_Pre_Upgrade_Tasks_M_Bean_Impl
+   procedure Com_Adobe_Aem_Upgrade_Prechecks_Mbean_Impl_Pre_Upgrade_Tasks_MBean_Impl
       (Server : in out Server_Type;
        Post : in Swagger.Nullable_Boolean;
        Apply : in Swagger.Nullable_Boolean;
@@ -266,7 +268,7 @@ package .Servers is
 
    --  
    overriding
-   procedure Com_Adobe_Cq_Cdn_Rewriter_Impl_A_W_S_Cloud_Front_Rewriter
+   procedure Com_Adobe_Cq_Cdn_Rewriter_Impl_AWSCloud_Front_Rewriter
       (Server : in out Server_Type;
        Post : in Swagger.Nullable_Boolean;
        Apply : in Swagger.Nullable_Boolean;
@@ -284,7 +286,7 @@ package .Servers is
 
    --  
    overriding
-   procedure Com_Adobe_Cq_Cdn_Rewriter_Impl_C_D_N_Config_Service_Impl
+   procedure Com_Adobe_Cq_Cdn_Rewriter_Impl_CDNConfig_Service_Impl
       (Server : in out Server_Type;
        Post : in Swagger.Nullable_Boolean;
        Apply : in Swagger.Nullable_Boolean;
@@ -302,7 +304,7 @@ package .Servers is
 
    --  
    overriding
-   procedure Com_Adobe_Cq_Cdn_Rewriter_Impl_C_D_N_Rewriter
+   procedure Com_Adobe_Cq_Cdn_Rewriter_Impl_CDNRewriter
       (Server : in out Server_Type;
        Post : in Swagger.Nullable_Boolean;
        Apply : in Swagger.Nullable_Boolean;
@@ -565,7 +567,7 @@ package .Servers is
 
    --  
    overriding
-   procedure Com_Adobe_Cq_Dam_Dm_Process_Image_P_Tiff_Manager_Impl
+   procedure Com_Adobe_Cq_Dam_Dm_Process_Image_PTiff_Manager_Impl
       (Server : in out Server_Type;
        Post : in Swagger.Nullable_Boolean;
        Apply : in Swagger.Nullable_Boolean;
@@ -594,7 +596,7 @@ package .Servers is
 
    --  
    overriding
-   procedure Com_Adobe_Cq_Dam_Mac_Sync_Helper_Impl_M_A_C_Sync_Client_Impl
+   procedure Com_Adobe_Cq_Dam_Mac_Sync_Helper_Impl_MACSync_Client_Impl
       (Server : in out Server_Type;
        Post : in Swagger.Nullable_Boolean;
        Apply : in Swagger.Nullable_Boolean;
@@ -608,7 +610,7 @@ package .Servers is
 
    --  
    overriding
-   procedure Com_Adobe_Cq_Dam_Mac_Sync_Impl_D_A_M_Sync_Service_Impl
+   procedure Com_Adobe_Cq_Dam_Mac_Sync_Impl_DAMSync_Service_Impl
       (Server : in out Server_Type;
        Post : in Swagger.Nullable_Boolean;
        Apply : in Swagger.Nullable_Boolean;
@@ -677,7 +679,7 @@ package .Servers is
 
    --  
    overriding
-   procedure Com_Adobe_Cq_Dam_Webdav_Impl_Io_Asset_I_O_Handler
+   procedure Com_Adobe_Cq_Dam_Webdav_Impl_Io_Asset_IOHandler
       (Server : in out Server_Type;
        Post : in Swagger.Nullable_Boolean;
        Apply : in Swagger.Nullable_Boolean;
@@ -739,7 +741,7 @@ package .Servers is
 
    --  
    overriding
-   procedure Com_Adobe_Cq_Dtm_Impl_Service_D_T_M_Web_Service_Impl
+   procedure Com_Adobe_Cq_Dtm_Impl_Service_DTMWeb_Service_Impl
       (Server : in out Server_Type;
        Post : in Swagger.Nullable_Boolean;
        Apply : in Swagger.Nullable_Boolean;
@@ -754,7 +756,7 @@ package .Servers is
 
    --  
    overriding
-   procedure Com_Adobe_Cq_Dtm_Impl_Servlets_D_T_M_Deploy_Hook_Servlet
+   procedure Com_Adobe_Cq_Dtm_Impl_Servlets_DTMDeploy_Hook_Servlet
       (Server : in out Server_Type;
        Post : in Swagger.Nullable_Boolean;
        Apply : in Swagger.Nullable_Boolean;
@@ -1050,7 +1052,7 @@ package .Servers is
 
    --  
    overriding
-   procedure Com_Adobe_Cq_Screens_Mq_Activemq_Impl_Artemis_J_M_S_Provider
+   procedure Com_Adobe_Cq_Screens_Mq_Activemq_Impl_Artemis_JMSProvider
       (Server : in out Server_Type;
        Post : in Swagger.Nullable_Boolean;
        Apply : in Swagger.Nullable_Boolean;
@@ -1222,8 +1224,8 @@ package .Servers is
        Dollarlocation : in Swagger.Nullable_UString;
        Propertylist : in Swagger.UString_Vectors.Vector;
        Enable : in Swagger.Nullable_Boolean;
-       Ttl1 : in Swagger.Nullable_Integer;
-       Ttl2 : in Swagger.Nullable_Integer;
+       Ttl_1 : in Swagger.Nullable_Integer;
+       Ttl_2 : in Swagger.Nullable_Integer;
        Result  : out .Models.ComAdobeCqSocialAccountverificationImplAccountManagementConfigImInfo_Type;
        Context : in out Swagger.Servers.Context_Type);
 
@@ -1436,7 +1438,7 @@ package .Servers is
 
    --  
    overriding
-   procedure Com_Adobe_Cq_Social_Commons_Cors_C_O_R_S_Authentication_Filter
+   procedure Com_Adobe_Cq_Social_Commons_Cors_CORSAuthentication_Filter
       (Server : in out Server_Type;
        Post : in Swagger.Nullable_Boolean;
        Apply : in Swagger.Nullable_Boolean;
@@ -1545,7 +1547,7 @@ package .Servers is
        Email_Periodreply_To_Delimiter : in Swagger.Nullable_UString;
        Email_Periodtracker_Id_Prefix_In_Subject : in Swagger.Nullable_UString;
        Email_Periodtracker_Id_Prefix_In_Body : in Swagger.Nullable_UString;
-       Email_Periodas_H_T_M_L : in Swagger.Nullable_Boolean;
+       Email_Periodas_HTML : in Swagger.Nullable_Boolean;
        Email_Perioddefault_User_Name : in Swagger.Nullable_UString;
        Email_Periodtemplates_Periodroot_Path : in Swagger.Nullable_UString;
        Result  : out .Models.ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpInfo_Type;
@@ -1582,7 +1584,7 @@ package .Servers is
 
    --  
    overriding
-   procedure Com_Adobe_Cq_Social_Commons_Emailreply_Impl_I_O_S_Email_Client_Provider
+   procedure Com_Adobe_Cq_Social_Commons_Emailreply_Impl_IOSEmail_Client_Provider
       (Server : in out Server_Type;
        Post : in Swagger.Nullable_Boolean;
        Apply : in Swagger.Nullable_Boolean;
@@ -1657,7 +1659,7 @@ package .Servers is
 
    --  
    overriding
-   procedure Com_Adobe_Cq_Social_Commons_Maintainance_Impl_Delete_Temp_U_G_C_Image_Upload
+   procedure Com_Adobe_Cq_Social_Commons_Maintainance_Impl_Delete_Temp_UGCImage_Upload
       (Server : in out Server_Type;
        Post : in Swagger.Nullable_Boolean;
        Apply : in Swagger.Nullable_Boolean;
@@ -1672,7 +1674,7 @@ package .Servers is
 
    --  
    overriding
-   procedure Com_Adobe_Cq_Social_Commons_Ugclimiter_Impl_U_G_C_Limiter_Service_Impl
+   procedure Com_Adobe_Cq_Social_Commons_Ugclimiter_Impl_UGCLimiter_Service_Impl
       (Server : in out Server_Type;
        Post : in Swagger.Nullable_Boolean;
        Apply : in Swagger.Nullable_Boolean;
@@ -1688,7 +1690,7 @@ package .Servers is
 
    --  
    overriding
-   procedure Com_Adobe_Cq_Social_Commons_Ugclimitsconfig_Impl_Community_User_U_G_C_Limit
+   procedure Com_Adobe_Cq_Social_Commons_Ugclimitsconfig_Impl_Community_User_UGCLimit
       (Server : in out Server_Type;
        Post : in Swagger.Nullable_Boolean;
        Apply : in Swagger.Nullable_Boolean;
@@ -1697,7 +1699,7 @@ package .Servers is
        Dollarlocation : in Swagger.Nullable_UString;
        Propertylist : in Swagger.UString_Vectors.Vector;
        Enable : in Swagger.Nullable_Boolean;
-       U_G_C_Limit : in Swagger.Nullable_Integer;
+       U_GCLimit : in Swagger.Nullable_Integer;
        Ugc_Limit_Duration : in Swagger.Nullable_Integer;
        Domains : in Swagger.UString_Vectors.Vector;
        To_List : in Swagger.UString_Vectors.Vector;
@@ -1727,7 +1729,7 @@ package .Servers is
 
    --  
    overriding
-   procedure Com_Adobe_Cq_Social_Connect_Oauth_Impl_Social_O_Auth_Authentication_Handle
+   procedure Com_Adobe_Cq_Social_Connect_Oauth_Impl_Social_OAuth_Authentication_Handle
       (Server : in out Server_Type;
        Post : in Swagger.Nullable_Boolean;
        Apply : in Swagger.Nullable_Boolean;
@@ -1742,7 +1744,7 @@ package .Servers is
 
    --  
    overriding
-   procedure Com_Adobe_Cq_Social_Connect_Oauth_Impl_Social_O_Auth_User_Profile_Mapper
+   procedure Com_Adobe_Cq_Social_Connect_Oauth_Impl_Social_OAuth_User_Profile_Mapper
       (Server : in out Server_Type;
        Post : in Swagger.Nullable_Boolean;
        Apply : in Swagger.Nullable_Boolean;
@@ -1793,7 +1795,7 @@ package .Servers is
 
    --  
    overriding
-   procedure Com_Adobe_Cq_Social_Datastore_As_Impl_A_S_Resource_Provider_Factory
+   procedure Com_Adobe_Cq_Social_Datastore_As_Impl_ASResource_Provider_Factory
       (Server : in out Server_Type;
        Post : in Swagger.Nullable_Boolean;
        Apply : in Swagger.Nullable_Boolean;
@@ -1813,7 +1815,7 @@ package .Servers is
 
    --  
    overriding
-   procedure Com_Adobe_Cq_Social_Datastore_Op_Impl_Social_M_S_Resource_Provider_Factory
+   procedure Com_Adobe_Cq_Social_Datastore_Op_Impl_Social_MSResource_Provider_Factory
       (Server : in out Server_Type;
        Post : in Swagger.Nullable_Boolean;
        Apply : in Swagger.Nullable_Boolean;
@@ -1833,7 +1835,7 @@ package .Servers is
 
    --  
    overriding
-   procedure Com_Adobe_Cq_Social_Datastore_Rdb_Impl_Social_R_D_B_Resource_Provider_Factor
+   procedure Com_Adobe_Cq_Social_Datastore_Rdb_Impl_Social_RDBResource_Provider_Factor
       (Server : in out Server_Type;
        Post : in Swagger.Nullable_Boolean;
        Apply : in Swagger.Nullable_Boolean;
@@ -2519,7 +2521,7 @@ package .Servers is
 
    --  
    overriding
-   procedure Com_Adobe_Cq_Social_Translation_Impl_U_G_C_Language_Detector
+   procedure Com_Adobe_Cq_Social_Translation_Impl_UGCLanguage_Detector
       (Server : in out Server_Type;
        Post : in Swagger.Nullable_Boolean;
        Apply : in Swagger.Nullable_Boolean;
@@ -2595,7 +2597,7 @@ package .Servers is
        Action : in Swagger.Nullable_UString;
        Dollarlocation : in Swagger.Nullable_UString;
        Propertylist : in Swagger.UString_Vectors.Vector;
-       Legacy_Cloud_U_G_C_Path_Mapping : in Swagger.Nullable_Boolean;
+       Legacy_Cloud_UGCPath_Mapping : in Swagger.Nullable_Boolean;
        Result  : out .Models.ComAdobeCqSocialUgcbaseImplSocialUtilsImplInfo_Type;
        Context : in out Swagger.Servers.Context_Type);
 
@@ -2703,7 +2705,7 @@ package .Servers is
 
    --  
    overriding
-   procedure Com_Adobe_Cq_Ui_Wcm_Commons_Internal_Servlets_Rte_R_T_E_Filter_Servlet_Fact
+   procedure Com_Adobe_Cq_Ui_Wcm_Commons_Internal_Servlets_Rte_RTEFilter_Servlet_Fact
       (Server : in out Server_Type;
        Post : in Swagger.Nullable_Boolean;
        Apply : in Swagger.Nullable_Boolean;
@@ -2726,7 +2728,7 @@ package .Servers is
        Dollarlocation : in Swagger.Nullable_UString;
        Propertylist : in Swagger.UString_Vectors.Vector;
        Delete_Periodpath_Periodregexps : in Swagger.UString_Vectors.Vector;
-       Delete_Periodsql2_Periodquery : in Swagger.Nullable_UString;
+       Delete_Periodsql_2Periodquery : in Swagger.Nullable_UString;
        Result  : out .Models.ComAdobeCqUpgradesCleanupImplUpgradeContentCleanupInfo_Type;
        Context : in out Swagger.Servers.Context_Type);
 
@@ -2827,7 +2829,7 @@ package .Servers is
 
    --  
    overriding
-   procedure Com_Adobe_Cq_Wcm_Mobile_Qrcode_Servlet_Q_R_Code_Image_Generator
+   procedure Com_Adobe_Cq_Wcm_Mobile_Qrcode_Servlet_QRCode_Image_Generator
       (Server : in out Server_Type;
        Post : in Swagger.Nullable_Boolean;
        Apply : in Swagger.Nullable_Boolean;
@@ -3035,7 +3037,7 @@ package .Servers is
        Com_Periodadobe_Periodcq_Periodcq_Rest_Sites : in Swagger.Nullable_UString;
        Com_Periodadobe_Periodcq_Periodcq_Security_Hc : in Swagger.Nullable_UString;
        Com_Periodadobe_Periodcq_Perioddam_Periodcq_Dam_Svg_Handler : in Swagger.Nullable_UString;
-       Com_Periodadobe_Periodcq_Perioddam_Periodcq_Scene7_Imaging : in Swagger.Nullable_UString;
+       Com_Periodadobe_Periodcq_Perioddam_Periodcq_Scene_7Imaging : in Swagger.Nullable_UString;
        Com_Periodadobe_Periodcq_Perioddtm_Reactor_Periodcore : in Swagger.Nullable_UString;
        Com_Periodadobe_Periodcq_Perioddtm_Reactor_Periodui : in Swagger.Nullable_UString;
        Com_Periodadobe_Periodcq_Periodexp_Jspel_Resolver : in Swagger.Nullable_UString;
@@ -3221,7 +3223,7 @@ package .Servers is
 
    --  
    overriding
-   procedure Com_Adobe_Granite_Auth_Ims_Impl_I_M_S_Access_Token_Request_Customizer_Impl
+   procedure Com_Adobe_Granite_Auth_Ims_Impl_IMSAccess_Token_Request_Customizer_Impl
       (Server : in out Server_Type;
        Post : in Swagger.Nullable_Boolean;
        Apply : in Swagger.Nullable_Boolean;
@@ -3236,7 +3238,7 @@ package .Servers is
 
    --  
    overriding
-   procedure Com_Adobe_Granite_Auth_Ims_Impl_I_M_S_Instance_Credentials_Validator
+   procedure Com_Adobe_Granite_Auth_Ims_Impl_IMSInstance_Credentials_Validator
       (Server : in out Server_Type;
        Post : in Swagger.Nullable_Boolean;
        Apply : in Swagger.Nullable_Boolean;
@@ -3250,7 +3252,7 @@ package .Servers is
 
    --  
    overriding
-   procedure Com_Adobe_Granite_Auth_Ims_Impl_I_M_S_Provider_Impl
+   procedure Com_Adobe_Granite_Auth_Ims_Impl_IMSProvider_Impl
       (Server : in out Server_Type;
        Post : in Swagger.Nullable_Boolean;
        Apply : in Swagger.Nullable_Boolean;
@@ -3432,7 +3434,7 @@ package .Servers is
 
    --  
    overriding
-   procedure Com_Adobe_Granite_Auth_Oauth_Impl_O_Auth_Authentication_Handler
+   procedure Com_Adobe_Granite_Auth_Oauth_Impl_OAuth_Authentication_Handler
       (Server : in out Server_Type;
        Post : in Swagger.Nullable_Boolean;
        Apply : in Swagger.Nullable_Boolean;
@@ -3517,11 +3519,11 @@ package .Servers is
        Idp_Cert_Alias : in Swagger.Nullable_UString;
        Idp_Http_Redirect : in Swagger.Nullable_Boolean;
        Service_Provider_Entity_Id : in Swagger.Nullable_UString;
-       Assertion_Consumer_Service_U_R_L : in Swagger.Nullable_UString;
+       Assertion_Consumer_Service_URL : in Swagger.Nullable_UString;
        Sp_Private_Key_Alias : in Swagger.Nullable_UString;
        Key_Store_Password : in Swagger.Nullable_UString;
        Default_Redirect_Url : in Swagger.Nullable_UString;
-       User_I_D_Attribute : in Swagger.Nullable_UString;
+       User_IDAttribute : in Swagger.Nullable_UString;
        Use_Encryption : in Swagger.Nullable_Boolean;
        Create_User : in Swagger.Nullable_Boolean;
        User_Intermediate_Path : in Swagger.Nullable_UString;
@@ -3799,7 +3801,7 @@ package .Servers is
 
    --  
    overriding
-   procedure Com_Adobe_Granite_Cors_Impl_C_O_R_S_Policy_Impl
+   procedure Com_Adobe_Granite_Cors_Impl_CORSPolicy_Impl
       (Server : in out Server_Type;
        Post : in Swagger.Nullable_Boolean;
        Apply : in Swagger.Nullable_Boolean;
@@ -3820,7 +3822,7 @@ package .Servers is
 
    --  
    overriding
-   procedure Com_Adobe_Granite_Csrf_Impl_C_S_R_F_Filter
+   procedure Com_Adobe_Granite_Csrf_Impl_CSRFFilter
       (Server : in out Server_Type;
        Post : in Swagger.Nullable_Boolean;
        Apply : in Swagger.Nullable_Boolean;
@@ -3837,7 +3839,7 @@ package .Servers is
 
    --  
    overriding
-   procedure Com_Adobe_Granite_Csrf_Impl_C_S_R_F_Servlet
+   procedure Com_Adobe_Granite_Csrf_Impl_CSRFServlet
       (Server : in out Server_Type;
        Post : in Swagger.Nullable_Boolean;
        Apply : in Swagger.Nullable_Boolean;
@@ -4199,7 +4201,7 @@ package .Servers is
 
    --  
    overriding
-   procedure Com_Adobe_Granite_Oauth_Server_Auth_Impl_O_Auth2_Server_Authentication_Han
+   procedure Com_Adobe_Granite_Oauth_Server_Auth_Impl_OAuth_2Server_Authentication_Han
       (Server : in out Server_Type;
        Post : in Swagger.Nullable_Boolean;
        Apply : in Swagger.Nullable_Boolean;
@@ -4231,7 +4233,7 @@ package .Servers is
 
    --  
    overriding
-   procedure Com_Adobe_Granite_Oauth_Server_Impl_O_Auth2_Client_Revocation_Servlet
+   procedure Com_Adobe_Granite_Oauth_Server_Impl_OAuth_2Client_Revocation_Servlet
       (Server : in out Server_Type;
        Post : in Swagger.Nullable_Boolean;
        Apply : in Swagger.Nullable_Boolean;
@@ -4245,7 +4247,7 @@ package .Servers is
 
    --  
    overriding
-   procedure Com_Adobe_Granite_Oauth_Server_Impl_O_Auth2_Revocation_Endpoint_Servlet
+   procedure Com_Adobe_Granite_Oauth_Server_Impl_OAuth_2Revocation_Endpoint_Servlet
       (Server : in out Server_Type;
        Post : in Swagger.Nullable_Boolean;
        Apply : in Swagger.Nullable_Boolean;
@@ -4260,7 +4262,7 @@ package .Servers is
 
    --  
    overriding
-   procedure Com_Adobe_Granite_Oauth_Server_Impl_O_Auth2_Token_Endpoint_Servlet
+   procedure Com_Adobe_Granite_Oauth_Server_Impl_OAuth_2Token_Endpoint_Servlet
       (Server : in out Server_Type;
        Post : in Swagger.Nullable_Boolean;
        Apply : in Swagger.Nullable_Boolean;
@@ -4277,7 +4279,7 @@ package .Servers is
 
    --  
    overriding
-   procedure Com_Adobe_Granite_Oauth_Server_Impl_O_Auth2_Token_Revocation_Servlet
+   procedure Com_Adobe_Granite_Oauth_Server_Impl_OAuth_2Token_Revocation_Servlet
       (Server : in out Server_Type;
        Post : in Swagger.Nullable_Boolean;
        Apply : in Swagger.Nullable_Boolean;
@@ -4531,7 +4533,7 @@ package .Servers is
 
    --  
    overriding
-   procedure Com_Adobe_Granite_Repository_Hc_Impl_Continuous_R_G_C_Health_Check
+   procedure Com_Adobe_Granite_Repository_Hc_Impl_Continuous_RGCHealth_Check
       (Server : in out Server_Type;
        Post : in Swagger.Nullable_Boolean;
        Apply : in Swagger.Nullable_Boolean;
@@ -4719,7 +4721,7 @@ package .Servers is
 
    --  
    overriding
-   procedure Com_Adobe_Granite_Rest_Impl_Servlet_Default_G_E_T_Servlet
+   procedure Com_Adobe_Granite_Rest_Impl_Servlet_Default_GETServlet
       (Server : in out Server_Type;
        Post : in Swagger.Nullable_Boolean;
        Apply : in Swagger.Nullable_Boolean;
@@ -4734,7 +4736,7 @@ package .Servers is
 
    --  
    overriding
-   procedure Com_Adobe_Granite_Security_User_Ui_Internal_Servlets_S_S_L_Configuration_S
+   procedure Com_Adobe_Granite_Security_User_Ui_Internal_Servlets_SSLConfiguration_S
       (Server : in out Server_Type;
        Post : in Swagger.Nullable_Boolean;
        Apply : in Swagger.Nullable_Boolean;
@@ -4772,16 +4774,16 @@ package .Servers is
        Action : in Swagger.Nullable_UString;
        Dollarlocation : in Swagger.Nullable_UString;
        Propertylist : in Swagger.UString_Vectors.Vector;
-       Group2member_Periodrelationship_Periodoutgoing : in Swagger.Nullable_UString;
-       Group2member_Periodexcluded_Periodoutgoing : in Swagger.UString_Vectors.Vector;
-       Group2member_Periodrelationship_Periodincoming : in Swagger.Nullable_UString;
-       Group2member_Periodexcluded_Periodincoming : in Swagger.UString_Vectors.Vector;
+       Group_2member_Periodrelationship_Periodoutgoing : in Swagger.Nullable_UString;
+       Group_2member_Periodexcluded_Periodoutgoing : in Swagger.UString_Vectors.Vector;
+       Group_2member_Periodrelationship_Periodincoming : in Swagger.Nullable_UString;
+       Group_2member_Periodexcluded_Periodincoming : in Swagger.UString_Vectors.Vector;
        Result  : out .Models.ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplInfo_Type;
        Context : in out Swagger.Servers.Context_Type);
 
    --  
    overriding
-   procedure Com_Adobe_Granite_System_Monitoring_Impl_System_Stats_M_Bean_Impl
+   procedure Com_Adobe_Granite_System_Monitoring_Impl_System_Stats_MBean_Impl
       (Server : in out Server_Type;
        Post : in Swagger.Nullable_Boolean;
        Apply : in Swagger.Nullable_Boolean;
@@ -4873,7 +4875,7 @@ package .Servers is
        Granite_Periodthreaddump_Perioddumps_Per_File : in Swagger.Nullable_Integer;
        Granite_Periodthreaddump_Periodenable_Gzip_Compression : in Swagger.Nullable_Boolean;
        Granite_Periodthreaddump_Periodenable_Directories_Compression : in Swagger.Nullable_Boolean;
-       Granite_Periodthreaddump_Periodenable_J_Stack : in Swagger.Nullable_Boolean;
+       Granite_Periodthreaddump_Periodenable_JStack : in Swagger.Nullable_Boolean;
        Granite_Periodthreaddump_Periodmax_Backup_Days : in Swagger.Nullable_Integer;
        Granite_Periodthreaddump_Periodbackup_Clean_Trigger : in Swagger.Nullable_UString;
        Result  : out .Models.ComAdobeGraniteThreaddumpThreadDumpCollectorInfo_Type;
@@ -4933,7 +4935,7 @@ package .Servers is
        Htmllibmanager_Periodgzip : in Swagger.Nullable_Boolean;
        Htmllibmanager_Periodmax_Data_Uri_Size : in Swagger.Nullable_Integer;
        Htmllibmanager_Periodmaxage : in Swagger.Nullable_Integer;
-       Htmllibmanager_Periodforce_C_Q_Url_Info : in Swagger.Nullable_Boolean;
+       Htmllibmanager_Periodforce_CQUrl_Info : in Swagger.Nullable_Boolean;
        Htmllibmanager_Perioddefaultthemename : in Swagger.Nullable_UString;
        Htmllibmanager_Perioddefaultuserthemename : in Swagger.Nullable_UString;
        Htmllibmanager_Periodclientmanager : in Swagger.Nullable_UString;
@@ -5157,7 +5159,7 @@ package .Servers is
 
    --  
    overriding
-   procedure Com_Adobe_Xmp_Worker_Files_Ncomm_X_M_P_Files_N_Comm
+   procedure Com_Adobe_Xmp_Worker_Files_Ncomm_XMPFiles_NComm
       (Server : in out Server_Type;
        Post : in Swagger.Nullable_Boolean;
        Apply : in Swagger.Nullable_Boolean;
@@ -5644,7 +5646,7 @@ package .Servers is
 
    --  
    overriding
-   procedure Com_Day_Cq_Dam_Core_Impl_Cache_C_Q_Buffered_Image_Cache
+   procedure Com_Day_Cq_Dam_Core_Impl_Cache_CQBuffered_Image_Cache
       (Server : in out Server_Type;
        Post : in Swagger.Nullable_Boolean;
        Apply : in Swagger.Nullable_Boolean;
@@ -5773,7 +5775,7 @@ package .Servers is
 
    --  
    overriding
-   procedure Com_Day_Cq_Dam_Core_Impl_Handler_E_P_S_Format_Handler
+   procedure Com_Day_Cq_Dam_Core_Impl_Handler_EPSFormat_Handler
       (Server : in out Server_Type;
        Post : in Swagger.Nullable_Boolean;
        Apply : in Swagger.Nullable_Boolean;
@@ -5817,7 +5819,7 @@ package .Servers is
 
    --  
    overriding
-   procedure Com_Day_Cq_Dam_Core_Impl_Handler_Xmp_N_Comm_X_M_P_Handler
+   procedure Com_Day_Cq_Dam_Core_Impl_Handler_Xmp_NComm_XMPHandler
       (Server : in out Server_Type;
        Post : in Swagger.Nullable_Boolean;
        Apply : in Swagger.Nullable_Boolean;
@@ -5853,7 +5855,7 @@ package .Servers is
 
    --  
    overriding
-   procedure Com_Day_Cq_Dam_Core_Impl_Jmx_Asset_Migration_M_Bean_Impl
+   procedure Com_Day_Cq_Dam_Core_Impl_Jmx_Asset_Migration_MBean_Impl
       (Server : in out Server_Type;
        Post : in Swagger.Nullable_Boolean;
        Apply : in Swagger.Nullable_Boolean;
@@ -6094,7 +6096,7 @@ package .Servers is
 
    --  
    overriding
-   procedure Com_Day_Cq_Dam_Core_Impl_Servlet_Asset_X_M_P_Search_Servlet
+   procedure Com_Day_Cq_Dam_Core_Impl_Servlet_Asset_XMPSearch_Servlet
       (Server : in out Server_Type;
        Post : in Swagger.Nullable_Boolean;
        Apply : in Swagger.Nullable_Boolean;
@@ -6334,7 +6336,7 @@ package .Servers is
        Dollarlocation : in Swagger.Nullable_UString;
        Propertylist : in Swagger.UString_Vectors.Vector;
        Process_Periodlabel : in Swagger.Nullable_UString;
-       Cq_Perioddam_Periodenable_Periodsha1 : in Swagger.Nullable_Boolean;
+       Cq_Perioddam_Periodenable_Periodsha_1 : in Swagger.Nullable_Boolean;
        Result  : out .Models.ComDayCqDamCoreProcessExifToolExtractMetadataProcessInfo_Type;
        Context : in out Swagger.Servers.Context_Type);
 
@@ -6349,7 +6351,7 @@ package .Servers is
        Dollarlocation : in Swagger.Nullable_UString;
        Propertylist : in Swagger.UString_Vectors.Vector;
        Process_Periodlabel : in Swagger.Nullable_UString;
-       Cq_Perioddam_Periodenable_Periodsha1 : in Swagger.Nullable_Boolean;
+       Cq_Perioddam_Periodenable_Periodsha_1 : in Swagger.Nullable_Boolean;
        Result  : out .Models.ComDayCqDamCoreProcessExtractMetadataProcessInfo_Type;
        Context : in out Swagger.Servers.Context_Type);
 
@@ -6364,7 +6366,7 @@ package .Servers is
        Dollarlocation : in Swagger.Nullable_UString;
        Propertylist : in Swagger.UString_Vectors.Vector;
        Process_Periodlabel : in Swagger.Nullable_UString;
-       Cq_Perioddam_Periodenable_Periodsha1 : in Swagger.Nullable_Boolean;
+       Cq_Perioddam_Periodenable_Periodsha_1 : in Swagger.Nullable_Boolean;
        Cq_Perioddam_Periodmetadata_Periodxssprotected_Periodproperties : in Swagger.UString_Vectors.Vector;
        Result  : out .Models.ComDayCqDamCoreProcessMetadataProcessorProcessInfo_Type;
        Context : in out Swagger.Servers.Context_Type);
@@ -6444,7 +6446,7 @@ package .Servers is
 
    --  
    overriding
-   procedure Com_Day_Cq_Dam_Ids_Impl_I_D_S_Job_Processor
+   procedure Com_Day_Cq_Dam_Ids_Impl_IDSJob_Processor
       (Server : in out Server_Type;
        Post : in Swagger.Nullable_Boolean;
        Apply : in Swagger.Nullable_Boolean;
@@ -6463,7 +6465,7 @@ package .Servers is
 
    --  
    overriding
-   procedure Com_Day_Cq_Dam_Ids_Impl_I_D_S_Pool_Manager_Impl
+   procedure Com_Day_Cq_Dam_Ids_Impl_IDSPool_Manager_Impl
       (Server : in out Server_Type;
        Post : in Swagger.Nullable_Boolean;
        Apply : in Swagger.Nullable_Boolean;
@@ -6482,7 +6484,7 @@ package .Servers is
 
    --  
    overriding
-   procedure Com_Day_Cq_Dam_Indd_Impl_Handler_Indesign_X_M_P_Handler
+   procedure Com_Day_Cq_Dam_Indd_Impl_Handler_Indesign_XMPHandler
       (Server : in out Server_Type;
        Post : in Swagger.Nullable_Boolean;
        Apply : in Swagger.Nullable_Boolean;
@@ -6511,7 +6513,7 @@ package .Servers is
 
    --  
    overriding
-   procedure Com_Day_Cq_Dam_Indd_Process_I_N_D_D_Media_Extract_Process
+   procedure Com_Day_Cq_Dam_Indd_Process_INDDMedia_Extract_Process
       (Server : in out Server_Type;
        Post : in Swagger.Nullable_Boolean;
        Apply : in Swagger.Nullable_Boolean;
@@ -6578,7 +6580,7 @@ package .Servers is
        Action : in Swagger.Nullable_UString;
        Dollarlocation : in Swagger.Nullable_UString;
        Propertylist : in Swagger.UString_Vectors.Vector;
-       Cq_Perioddam_Periods7dam_Perioddynamicmediaconfigeventlistener_Periodenabled : in Swagger.Nullable_Boolean;
+       Cq_Perioddam_Periods_7dam_Perioddynamicmediaconfigeventlistener_Periodenabled : in Swagger.Nullable_Boolean;
        Result  : out .Models.ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenInfo_Type;
        Context : in out Swagger.Servers.Context_Type);
 
@@ -6651,7 +6653,7 @@ package .Servers is
        Action : in Swagger.Nullable_UString;
        Dollarlocation : in Swagger.Nullable_UString;
        Propertylist : in Swagger.UString_Vectors.Vector;
-       Cq_Perioddam_Periods7dam_Perioddamchangeeventlistener_Periodenabled : in Swagger.Nullable_Boolean;
+       Cq_Perioddam_Periods_7dam_Perioddamchangeeventlistener_Periodenabled : in Swagger.Nullable_Boolean;
        Result  : out .Models.ComDayCqDamS7damCommonS7damDamChangeEventListenerInfo_Type;
        Context : in out Swagger.Servers.Context_Type);
 
@@ -6680,19 +6682,19 @@ package .Servers is
        Action : in Swagger.Nullable_UString;
        Dollarlocation : in Swagger.Nullable_UString;
        Propertylist : in Swagger.UString_Vectors.Vector;
-       Cq_Perioddam_Periods7dam_Periodvideoproxyclientservice_Periodmultipartupload_Periodminsize_Periodname : in Swagger.Nullable_Integer;
-       Cq_Perioddam_Periods7dam_Periodvideoproxyclientservice_Periodmultipartupload_Periodpartsize_Periodname : in Swagger.Nullable_Integer;
-       Cq_Perioddam_Periods7dam_Periodvideoproxyclientservice_Periodmultipartupload_Periodnumthread_Periodname : in Swagger.Nullable_Integer;
-       Cq_Perioddam_Periods7dam_Periodvideoproxyclientservice_Periodhttp_Periodreadtimeout_Periodname : in Swagger.Nullable_Integer;
-       Cq_Perioddam_Periods7dam_Periodvideoproxyclientservice_Periodhttp_Periodconnectiontimeout_Periodname : in Swagger.Nullable_Integer;
-       Cq_Perioddam_Periods7dam_Periodvideoproxyclientservice_Periodhttp_Periodmaxretrycount_Periodname : in Swagger.Nullable_Integer;
-       Cq_Perioddam_Periods7dam_Periodvideoproxyclientservice_Perioduploadprogress_Periodinterval_Periodname : in Swagger.Nullable_Integer;
+       Cq_Perioddam_Periods_7dam_Periodvideoproxyclientservice_Periodmultipartupload_Periodminsize_Periodname : in Swagger.Nullable_Integer;
+       Cq_Perioddam_Periods_7dam_Periodvideoproxyclientservice_Periodmultipartupload_Periodpartsize_Periodname : in Swagger.Nullable_Integer;
+       Cq_Perioddam_Periods_7dam_Periodvideoproxyclientservice_Periodmultipartupload_Periodnumthread_Periodname : in Swagger.Nullable_Integer;
+       Cq_Perioddam_Periods_7dam_Periodvideoproxyclientservice_Periodhttp_Periodreadtimeout_Periodname : in Swagger.Nullable_Integer;
+       Cq_Perioddam_Periods_7dam_Periodvideoproxyclientservice_Periodhttp_Periodconnectiontimeout_Periodname : in Swagger.Nullable_Integer;
+       Cq_Perioddam_Periods_7dam_Periodvideoproxyclientservice_Periodhttp_Periodmaxretrycount_Periodname : in Swagger.Nullable_Integer;
+       Cq_Perioddam_Periods_7dam_Periodvideoproxyclientservice_Perioduploadprogress_Periodinterval_Periodname : in Swagger.Nullable_Integer;
        Result  : out .Models.ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplInfo_Type;
        Context : in out Swagger.Servers.Context_Type);
 
    --  
    overriding
-   procedure Com_Day_Cq_Dam_Scene7_Impl_Scene7_A_P_I_Client_Impl
+   procedure Com_Day_Cq_Dam_Scene_7Impl_Scene_7APIClient_Impl
       (Server : in out Server_Type;
        Post : in Swagger.Nullable_Boolean;
        Apply : in Swagger.Nullable_Boolean;
@@ -6700,14 +6702,14 @@ package .Servers is
        Action : in Swagger.Nullable_UString;
        Dollarlocation : in Swagger.Nullable_UString;
        Propertylist : in Swagger.UString_Vectors.Vector;
-       Cq_Perioddam_Periodscene7_Periodapiclient_Periodrecordsperpage_Periodnofilter_Periodname : in Swagger.Nullable_Integer;
-       Cq_Perioddam_Periodscene7_Periodapiclient_Periodrecordsperpage_Periodwithfilter_Periodname : in Swagger.Nullable_Integer;
+       Cq_Perioddam_Periodscene_7Periodapiclient_Periodrecordsperpage_Periodnofilter_Periodname : in Swagger.Nullable_Integer;
+       Cq_Perioddam_Periodscene_7Periodapiclient_Periodrecordsperpage_Periodwithfilter_Periodname : in Swagger.Nullable_Integer;
        Result  : out .Models.ComDayCqDamScene7ImplScene7APIClientImplInfo_Type;
        Context : in out Swagger.Servers.Context_Type);
 
    --  
    overriding
-   procedure Com_Day_Cq_Dam_Scene7_Impl_Scene7_Asset_Mime_Type_Service_Impl
+   procedure Com_Day_Cq_Dam_Scene_7Impl_Scene_7Asset_Mime_Type_Service_Impl
       (Server : in out Server_Type;
        Post : in Swagger.Nullable_Boolean;
        Apply : in Swagger.Nullable_Boolean;
@@ -6715,13 +6717,13 @@ package .Servers is
        Action : in Swagger.Nullable_UString;
        Dollarlocation : in Swagger.Nullable_UString;
        Propertylist : in Swagger.UString_Vectors.Vector;
-       Cq_Perioddam_Periodscene7_Periodassetmimetypeservice_Periodmapping : in Swagger.UString_Vectors.Vector;
+       Cq_Perioddam_Periodscene_7Periodassetmimetypeservice_Periodmapping : in Swagger.UString_Vectors.Vector;
        Result  : out .Models.ComDayCqDamScene7ImplScene7AssetMimeTypeServiceImplInfo_Type;
        Context : in out Swagger.Servers.Context_Type);
 
    --  
    overriding
-   procedure Com_Day_Cq_Dam_Scene7_Impl_Scene7_Configuration_Event_Listener
+   procedure Com_Day_Cq_Dam_Scene_7Impl_Scene_7Configuration_Event_Listener
       (Server : in out Server_Type;
        Post : in Swagger.Nullable_Boolean;
        Apply : in Swagger.Nullable_Boolean;
@@ -6729,13 +6731,13 @@ package .Servers is
        Action : in Swagger.Nullable_UString;
        Dollarlocation : in Swagger.Nullable_UString;
        Propertylist : in Swagger.UString_Vectors.Vector;
-       Cq_Perioddam_Periodscene7_Periodconfigurationeventlistener_Periodenabled : in Swagger.Nullable_Boolean;
+       Cq_Perioddam_Periodscene_7Periodconfigurationeventlistener_Periodenabled : in Swagger.Nullable_Boolean;
        Result  : out .Models.ComDayCqDamScene7ImplScene7ConfigurationEventListenerInfo_Type;
        Context : in out Swagger.Servers.Context_Type);
 
    --  
    overriding
-   procedure Com_Day_Cq_Dam_Scene7_Impl_Scene7_Dam_Change_Event_Listener
+   procedure Com_Day_Cq_Dam_Scene_7Impl_Scene_7Dam_Change_Event_Listener
       (Server : in out Server_Type;
        Post : in Swagger.Nullable_Boolean;
        Apply : in Swagger.Nullable_Boolean;
@@ -6743,14 +6745,14 @@ package .Servers is
        Action : in Swagger.Nullable_UString;
        Dollarlocation : in Swagger.Nullable_UString;
        Propertylist : in Swagger.UString_Vectors.Vector;
-       Cq_Perioddam_Periodscene7_Perioddamchangeeventlistener_Periodenabled : in Swagger.Nullable_Boolean;
-       Cq_Perioddam_Periodscene7_Perioddamchangeeventlistener_Periodobserved_Periodpaths : in Swagger.UString_Vectors.Vector;
+       Cq_Perioddam_Periodscene_7Perioddamchangeeventlistener_Periodenabled : in Swagger.Nullable_Boolean;
+       Cq_Perioddam_Periodscene_7Perioddamchangeeventlistener_Periodobserved_Periodpaths : in Swagger.UString_Vectors.Vector;
        Result  : out .Models.ComDayCqDamScene7ImplScene7DamChangeEventListenerInfo_Type;
        Context : in out Swagger.Servers.Context_Type);
 
    --  
    overriding
-   procedure Com_Day_Cq_Dam_Scene7_Impl_Scene7_Flash_Templates_Service_Impl
+   procedure Com_Day_Cq_Dam_Scene_7Impl_Scene_7Flash_Templates_Service_Impl
       (Server : in out Server_Type;
        Post : in Swagger.Nullable_Boolean;
        Apply : in Swagger.Nullable_Boolean;
@@ -6758,17 +6760,17 @@ package .Servers is
        Action : in Swagger.Nullable_UString;
        Dollarlocation : in Swagger.Nullable_UString;
        Propertylist : in Swagger.UString_Vectors.Vector;
-       Scene7_Flash_Templates_Periodrti : in Swagger.Nullable_UString;
-       Scene7_Flash_Templates_Periodrsi : in Swagger.Nullable_UString;
-       Scene7_Flash_Templates_Periodrb : in Swagger.Nullable_UString;
-       Scene7_Flash_Templates_Periodrurl : in Swagger.Nullable_UString;
-       Scene7_Flash_Template_Periodurl_Format_Parameter : in Swagger.Nullable_UString;
+       Scene_7Flash_Templates_Periodrti : in Swagger.Nullable_UString;
+       Scene_7Flash_Templates_Periodrsi : in Swagger.Nullable_UString;
+       Scene_7Flash_Templates_Periodrb : in Swagger.Nullable_UString;
+       Scene_7Flash_Templates_Periodrurl : in Swagger.Nullable_UString;
+       Scene_7Flash_Template_Periodurl_Format_Parameter : in Swagger.Nullable_UString;
        Result  : out .Models.ComDayCqDamScene7ImplScene7FlashTemplatesServiceImplInfo_Type;
        Context : in out Swagger.Servers.Context_Type);
 
    --  
    overriding
-   procedure Com_Day_Cq_Dam_Scene7_Impl_Scene7_Upload_Service_Impl
+   procedure Com_Day_Cq_Dam_Scene_7Impl_Scene_7Upload_Service_Impl
       (Server : in out Server_Type;
        Post : in Swagger.Nullable_Boolean;
        Apply : in Swagger.Nullable_Boolean;
@@ -6776,8 +6778,8 @@ package .Servers is
        Action : in Swagger.Nullable_UString;
        Dollarlocation : in Swagger.Nullable_UString;
        Propertylist : in Swagger.UString_Vectors.Vector;
-       Cq_Perioddam_Periodscene7_Perioduploadservice_Periodactivejobtimeout_Periodlabel : in Swagger.Nullable_Integer;
-       Cq_Perioddam_Periodscene7_Perioduploadservice_Periodconnectionmaxperroute_Periodlabel : in Swagger.Nullable_Integer;
+       Cq_Perioddam_Periodscene_7Perioduploadservice_Periodactivejobtimeout_Periodlabel : in Swagger.Nullable_Integer;
+       Cq_Perioddam_Periodscene_7Perioduploadservice_Periodconnectionmaxperroute_Periodlabel : in Swagger.Nullable_Integer;
        Result  : out .Models.ComDayCqDamScene7ImplScene7UploadServiceImplInfo_Type;
        Context : in out Swagger.Servers.Context_Type);
 
@@ -6933,8 +6935,8 @@ package .Servers is
        Propertylist : in Swagger.UString_Vectors.Vector;
        Mailer_Periodemail_Periodembed : in Swagger.Nullable_Boolean;
        Mailer_Periodemail_Periodcharset : in Swagger.Nullable_UString;
-       Mailer_Periodemail_Periodretriever_User_I_D : in Swagger.Nullable_UString;
-       Mailer_Periodemail_Periodretriever_User_P_W_D : in Swagger.Nullable_UString;
+       Mailer_Periodemail_Periodretriever_User_ID : in Swagger.Nullable_UString;
+       Mailer_Periodemail_Periodretriever_User_PWD : in Swagger.Nullable_UString;
        Result  : out .Models.ComDayCqMailerImplEmailCqRetrieverTemplateFactoryInfo_Type;
        Context : in out Swagger.Servers.Context_Type);
 
@@ -6950,7 +6952,7 @@ package .Servers is
        Propertylist : in Swagger.UString_Vectors.Vector;
        Aem_Periodmcm_Periodcampaign_Periodform_Constraints : in Swagger.UString_Vectors.Vector;
        Aem_Periodmcm_Periodcampaign_Periodpublic_Url : in Swagger.Nullable_UString;
-       Aem_Periodmcm_Periodcampaign_Periodrelaxed_S_S_L : in Swagger.Nullable_Boolean;
+       Aem_Periodmcm_Periodcampaign_Periodrelaxed_SSL : in Swagger.Nullable_Boolean;
        Result  : out .Models.ComDayCqMcmCampaignImplIntegrationConfigImplInfo_Type;
        Context : in out Swagger.Servers.Context_Type);
 
@@ -6987,7 +6989,7 @@ package .Servers is
 
    --  
    overriding
-   procedure Com_Day_Cq_Mcm_Impl_M_C_M_Configuration
+   procedure Com_Day_Cq_Mcm_Impl_MCMConfiguration
       (Server : in out Server_Type;
        Post : in Swagger.Nullable_Boolean;
        Apply : in Swagger.Nullable_Boolean;
@@ -7034,7 +7036,7 @@ package .Servers is
 
    --  
    overriding
-   procedure Com_Day_Cq_Mcm_Landingpage_Parser_Taghandlers_Cta_Lead_Form_C_T_A_Component
+   procedure Com_Day_Cq_Mcm_Landingpage_Parser_Taghandlers_Cta_Lead_Form_CTAComponent
       (Server : in out Server_Type;
        Post : in Swagger.Nullable_Boolean;
        Apply : in Swagger.Nullable_Boolean;
@@ -7049,7 +7051,7 @@ package .Servers is
 
    --  
    overriding
-   procedure Com_Day_Cq_Mcm_Landingpage_Parser_Taghandlers_Mbox_M_Box_Experience_Tag_Ha
+   procedure Com_Day_Cq_Mcm_Landingpage_Parser_Taghandlers_Mbox_MBox_Experience_Tag_Ha
       (Server : in out Server_Type;
        Post : in Swagger.Nullable_Boolean;
        Apply : in Swagger.Nullable_Boolean;
@@ -7369,7 +7371,7 @@ package .Servers is
 
    --  
    overriding
-   procedure Com_Day_Cq_Reporting_Impl_R_Log_Analyzer
+   procedure Com_Day_Cq_Reporting_Impl_RLog_Analyzer
       (Server : in out Server_Type;
        Post : in Swagger.Nullable_Boolean;
        Apply : in Swagger.Nullable_Boolean;
@@ -7535,7 +7537,7 @@ package .Servers is
 
    --  
    overriding
-   procedure Com_Day_Cq_Security_A_C_L_Setup
+   procedure Com_Day_Cq_Security_ACLSetup
       (Server : in out Server_Type;
        Post : in Swagger.Nullable_Boolean;
        Apply : in Swagger.Nullable_Boolean;
@@ -7643,7 +7645,7 @@ package .Servers is
 
    --  
    overriding
-   procedure Com_Day_Cq_Wcm_Core_Impl_Authoring_U_I_Mode_Service_Impl
+   procedure Com_Day_Cq_Wcm_Core_Impl_Authoring_UIMode_Service_Impl
       (Server : in out Server_Type;
        Post : in Swagger.Nullable_Boolean;
        Apply : in Swagger.Nullable_Boolean;
@@ -7651,13 +7653,13 @@ package .Servers is
        Action : in Swagger.Nullable_UString;
        Dollarlocation : in Swagger.Nullable_UString;
        Propertylist : in Swagger.UString_Vectors.Vector;
-       Authoring_U_I_Mode_Service_Perioddefault : in Swagger.Nullable_UString;
+       Authoring_UIMode_Service_Perioddefault : in Swagger.Nullable_UString;
        Result  : out .Models.ComDayCqWcmCoreImplAuthoringUIModeServiceImplInfo_Type;
        Context : in out Swagger.Servers.Context_Type);
 
    --  
    overriding
-   procedure Com_Day_Cq_Wcm_Core_Impl_Commands_W_C_M_Command_Servlet
+   procedure Com_Day_Cq_Wcm_Core_Impl_Commands_WCMCommand_Servlet
       (Server : in out Server_Type;
        Post : in Swagger.Nullable_Boolean;
        Apply : in Swagger.Nullable_Boolean;
@@ -7982,7 +7984,7 @@ package .Servers is
 
    --  
    overriding
-   procedure Com_Day_Cq_Wcm_Core_Impl_W_C_M_Debug_Filter
+   procedure Com_Day_Cq_Wcm_Core_Impl_WCMDebug_Filter
       (Server : in out Server_Type;
        Post : in Swagger.Nullable_Boolean;
        Apply : in Swagger.Nullable_Boolean;
@@ -7997,7 +7999,7 @@ package .Servers is
 
    --  
    overriding
-   procedure Com_Day_Cq_Wcm_Core_Impl_W_C_M_Developer_Mode_Filter
+   procedure Com_Day_Cq_Wcm_Core_Impl_WCMDeveloper_Mode_Filter
       (Server : in out Server_Type;
        Post : in Swagger.Nullable_Boolean;
        Apply : in Swagger.Nullable_Boolean;
@@ -8026,7 +8028,7 @@ package .Servers is
 
    --  
    overriding
-   procedure Com_Day_Cq_Wcm_Core_Mvt_M_V_T_Statistics_Impl
+   procedure Com_Day_Cq_Wcm_Core_Mvt_MVTStatistics_Impl
       (Server : in out Server_Type;
        Post : in Swagger.Nullable_Boolean;
        Apply : in Swagger.Nullable_Boolean;
@@ -8055,7 +8057,7 @@ package .Servers is
 
    --  
    overriding
-   procedure Com_Day_Cq_Wcm_Core_W_C_M_Request_Filter
+   procedure Com_Day_Cq_Wcm_Core_WCMRequest_Filter
       (Server : in out Server_Type;
        Post : in Swagger.Nullable_Boolean;
        Apply : in Swagger.Nullable_Boolean;
@@ -8208,7 +8210,7 @@ package .Servers is
 
    --  
    overriding
-   procedure Com_Day_Cq_Wcm_Designimporter_Parser_Taghandlers_Factory_I_Frame_Tag_Hand
+   procedure Com_Day_Cq_Wcm_Designimporter_Parser_Taghandlers_Factory_IFrame_Tag_Hand
       (Server : in out Server_Type;
        Post : in Swagger.Nullable_Boolean;
        Apply : in Swagger.Nullable_Boolean;
@@ -8486,7 +8488,7 @@ package .Servers is
 
    --  
    overriding
-   procedure Com_Day_Cq_Wcm_Foundation_Impl_H_T_T_P_Auth_Handler
+   procedure Com_Day_Cq_Wcm_Foundation_Impl_HTTPAuth_Handler
       (Server : in out Server_Type;
        Post : in Swagger.Nullable_Boolean;
        Apply : in Swagger.Nullable_Boolean;
@@ -8499,7 +8501,7 @@ package .Servers is
        Auth_Periodhttp_Periodrealm : in Swagger.Nullable_UString;
        Auth_Perioddefault_Periodloginpage : in Swagger.Nullable_UString;
        Auth_Periodcred_Periodform : in Swagger.UString_Vectors.Vector;
-       Auth_Periodcred_Periodutf8 : in Swagger.UString_Vectors.Vector;
+       Auth_Periodcred_Periodutf_8 : in Swagger.UString_Vectors.Vector;
        Result  : out .Models.ComDayCqWcmFoundationImplHTTPAuthHandlerInfo_Type;
        Context : in out Swagger.Servers.Context_Type);
 
@@ -8796,7 +8798,7 @@ package .Servers is
 
    --  
    overriding
-   procedure Com_Day_Cq_Wcm_Scripting_Impl_B_V_P_Manager
+   procedure Com_Day_Cq_Wcm_Scripting_Impl_BVPManager
       (Server : in out Server_Type;
        Post : in Swagger.Nullable_Boolean;
        Apply : in Swagger.Nullable_Boolean;
@@ -8894,7 +8896,7 @@ package .Servers is
        Htmllibmanager_Perioddefaultthemename : in Swagger.Nullable_UString;
        Htmllibmanager_Perioddefaultuserthemename : in Swagger.Nullable_UString;
        Htmllibmanager_Periodfirebuglite_Periodpath : in Swagger.Nullable_UString;
-       Htmllibmanager_Periodforce_C_Q_Url_Info : in Swagger.Nullable_Boolean;
+       Htmllibmanager_Periodforce_CQUrl_Info : in Swagger.Nullable_Boolean;
        Htmllibmanager_Periodgzip : in Swagger.Nullable_Boolean;
        Htmllibmanager_Periodmaxage : in Swagger.Nullable_Integer;
        Htmllibmanager_Periodmax_Data_Uri_Size : in Swagger.Nullable_Integer;
@@ -8921,7 +8923,7 @@ package .Servers is
 
    --  
    overriding
-   procedure Com_Day_Cq_Workflow_Impl_Email_E_Mail_Notification_Service
+   procedure Com_Day_Cq_Workflow_Impl_Email_EMail_Notification_Service
       (Server : in out Server_Type;
        Post : in Swagger.Nullable_Boolean;
        Apply : in Swagger.Nullable_Boolean;
@@ -8940,7 +8942,7 @@ package .Servers is
 
    --  
    overriding
-   procedure Com_Day_Cq_Workflow_Impl_Email_Task_E_Mail_Notification_Service
+   procedure Com_Day_Cq_Workflow_Impl_Email_Task_EMail_Notification_Service
       (Server : in out Server_Type;
        Post : in Swagger.Nullable_Boolean;
        Apply : in Swagger.Nullable_Boolean;
@@ -9400,13 +9402,13 @@ package .Servers is
        Persistent_Cache : in Swagger.Nullable_UString;
        Journal_Cache : in Swagger.Nullable_UString;
        Custom_Blob_Store : in Swagger.Nullable_Boolean;
-       Journal_G_C_Interval : in Swagger.Nullable_Integer;
-       Journal_G_C_Max_Age : in Swagger.Nullable_Integer;
+       Journal_GCInterval : in Swagger.Nullable_Integer;
+       Journal_GCMax_Age : in Swagger.Nullable_Integer;
        Prefetch_External_Changes : in Swagger.Nullable_Boolean;
        Role : in Swagger.Nullable_UString;
        Version_Gc_Max_Age_In_Secs : in Swagger.Nullable_Integer;
-       Version_G_C_Expression : in Swagger.Nullable_UString;
-       Version_G_C_Time_Limit_In_Secs : in Swagger.Nullable_Integer;
+       Version_GCExpression : in Swagger.Nullable_UString;
+       Version_GCTime_Limit_In_Secs : in Swagger.Nullable_Integer;
        Blob_Gc_Max_Age_In_Secs : in Swagger.Nullable_Integer;
        Blob_Track_Snapshot_Interval_In_Secs : in Swagger.Nullable_Integer;
        Repository_Periodhome : in Swagger.Nullable_UString;
@@ -9482,7 +9484,7 @@ package .Servers is
        Enable_Open_Index_Async : in Swagger.Nullable_Boolean;
        Thread_Pool_Size : in Swagger.Nullable_Integer;
        Prefetch_Index_Files : in Swagger.Nullable_Boolean;
-       Extracted_Text_Cache_Size_In_M_B : in Swagger.Nullable_Integer;
+       Extracted_Text_Cache_Size_In_MB : in Swagger.Nullable_Integer;
        Extracted_Text_Cache_Expiry_In_Secs : in Swagger.Nullable_Integer;
        Always_Use_Pre_Extracted_Cache : in Swagger.Nullable_Boolean;
        Boolean_Clause_Limit : in Swagger.Nullable_Integer;
@@ -9688,12 +9690,12 @@ package .Servers is
        Admin_Pool_Periodlookup_On_Validate : in Swagger.Nullable_Boolean;
        User_Pool_Periodmax_Active : in Swagger.Nullable_Integer;
        User_Pool_Periodlookup_On_Validate : in Swagger.Nullable_Boolean;
-       User_Periodbase_D_N : in Swagger.Nullable_UString;
+       User_Periodbase_DN : in Swagger.Nullable_UString;
        User_Periodobjectclass : in Swagger.UString_Vectors.Vector;
        User_Periodid_Attribute : in Swagger.Nullable_UString;
        User_Periodextra_Filter : in Swagger.Nullable_UString;
        User_Periodmake_Dn_Path : in Swagger.Nullable_Boolean;
-       Group_Periodbase_D_N : in Swagger.Nullable_UString;
+       Group_Periodbase_DN : in Swagger.Nullable_UString;
        Group_Periodobjectclass : in Swagger.UString_Vectors.Vector;
        Group_Periodname_Attribute : in Swagger.Nullable_UString;
        Group_Periodextra_Filter : in Swagger.Nullable_UString;
@@ -9734,7 +9736,7 @@ package .Servers is
        Action : in Swagger.Nullable_UString;
        Dollarlocation : in Swagger.Nullable_UString;
        Propertylist : in Swagger.UString_Vectors.Vector;
-       Permissions_Jr2 : in Swagger.Nullable_UString;
+       Permissions_Jr_2 : in Swagger.Nullable_UString;
        Import_Behavior : in Swagger.Nullable_UString;
        Read_Paths : in Swagger.UString_Vectors.Vector;
        Administrative_Principals : in Swagger.UString_Vectors.Vector;
@@ -9796,7 +9798,7 @@ package .Servers is
        Password_History_Size : in Swagger.Nullable_Integer;
        Password_Expiry_For_Admin : in Swagger.Nullable_Boolean;
        Cache_Expiration : in Swagger.Nullable_Integer;
-       Enable_R_F_C7613_Usercase_Mapped_Profile : in Swagger.Nullable_Boolean;
+       Enable_RFC7613Usercase_Mapped_Profile : in Swagger.Nullable_Boolean;
        Result  : out .Models.OrgApacheJackrabbitOakSecurityUserUserConfigurationImplInfo_Type;
        Context : in out Swagger.Servers.Context_Type);
 
@@ -9814,7 +9816,7 @@ package .Servers is
        Container_Name : in Swagger.Nullable_UString;
        Access_Key : in Swagger.Nullable_UString;
        Root_Path : in Swagger.Nullable_UString;
-       Connection_U_R_L : in Swagger.Nullable_UString;
+       Connection_URL : in Swagger.Nullable_UString;
        Result  : out .Models.OrgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServiceInfo_Type;
        Context : in out Swagger.Servers.Context_Type);
 
@@ -9954,7 +9956,7 @@ package .Servers is
        Group_Periodauto_Membership : in Swagger.UString_Vectors.Vector;
        Group_Periodproperty_Mapping : in Swagger.UString_Vectors.Vector;
        Group_Periodpath_Prefix : in Swagger.Nullable_UString;
-       Enable_R_F_C7613_Usercase_Mapped_Profile : in Swagger.Nullable_Boolean;
+       Enable_RFC7613Usercase_Mapped_Profile : in Swagger.Nullable_Boolean;
        Result  : out .Models.OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeInfo_Type;
        Context : in out Swagger.Servers.Context_Type);
 
@@ -10053,7 +10055,7 @@ package .Servers is
 
    --  
    overriding
-   procedure Org_Apache_Jackrabbit_Vault_Packaging_Registry_Impl_F_S_Package_Registry
+   procedure Org_Apache_Jackrabbit_Vault_Packaging_Registry_Impl_FSPackage_Registry
       (Server : in out Server_Type;
        Post : in Swagger.Nullable_Boolean;
        Apply : in Swagger.Nullable_Boolean;
@@ -10312,7 +10314,7 @@ package .Servers is
 
    --  
    overriding
-   procedure Org_Apache_Sling_Commons_Metrics_Rrd4j_Impl_Codahale_Metrics_Reporter
+   procedure Org_Apache_Sling_Commons_Metrics_Rrd_4j_Impl_Codahale_Metrics_Reporter
       (Server : in out Server_Type;
        Post : in Swagger.Nullable_Boolean;
        Apply : in Swagger.Nullable_Boolean;
@@ -10431,7 +10433,7 @@ package .Servers is
        Time_Between_Eviction_Runs_Millis : in Swagger.Nullable_Integer;
        Min_Evictable_Idle_Time_Millis : in Swagger.Nullable_Integer;
        Connection_Properties : in Swagger.Nullable_UString;
-       Init_S_Q_L : in Swagger.Nullable_UString;
+       Init_SQL : in Swagger.Nullable_UString;
        Jdbc_Interceptors : in Swagger.Nullable_UString;
        Validation_Interval : in Swagger.Nullable_Integer;
        Log_Validation_Errors : in Swagger.Nullable_Boolean;
@@ -10441,7 +10443,7 @@ package .Servers is
 
    --  
    overriding
-   procedure Org_Apache_Sling_Datasource_J_N_D_I_Data_Source_Factory
+   procedure Org_Apache_Sling_Datasource_JNDIData_Source_Factory
       (Server : in out Server_Type;
        Post : in Swagger.Nullable_Boolean;
        Apply : in Swagger.Nullable_Boolean;
@@ -10482,7 +10484,7 @@ package .Servers is
        Hmac_Enabled : in Swagger.Nullable_Boolean;
        Enable_Encryption : in Swagger.Nullable_Boolean;
        Shared_Key : in Swagger.Nullable_UString;
-       Hmac_Shared_Key_T_T_L : in Swagger.Nullable_Integer;
+       Hmac_Shared_Key_TTL : in Swagger.Nullable_Integer;
        Backoff_Standby_Factor : in Swagger.Nullable_UString;
        Backoff_Stable_Factor : in Swagger.Nullable_UString;
        Result  : out .Models.OrgApacheSlingDiscoveryOakConfigInfo_Type;
@@ -10851,7 +10853,7 @@ package .Servers is
        Auto_Save_Threshold : in Swagger.Nullable_Integer;
        Cleanup_Delay : in Swagger.Nullable_Integer;
        File_Threshold : in Swagger.Nullable_Integer;
-       M_E_G_A_B_Y_T_E_S : in Swagger.Nullable_UString;
+       M_EGABYTES : in Swagger.Nullable_UString;
        Use_Off_Heap_Memory : in Swagger.Nullable_Boolean;
        Digest_Algorithm : in Swagger.Nullable_UString;
        Monitoring_Queue_Size : in Swagger.Nullable_Integer;
@@ -11227,7 +11229,7 @@ package .Servers is
 
    --  
    overriding
-   procedure Org_Apache_Sling_Hapi_Impl_H_Api_Util_Impl
+   procedure Org_Apache_Sling_Hapi_Impl_HApi_Util_Impl
       (Server : in out Server_Type;
        Post : in Swagger.Nullable_Boolean;
        Apply : in Swagger.Nullable_Boolean;
@@ -11349,7 +11351,7 @@ package .Servers is
 
    --  
    overriding
-   procedure Org_Apache_Sling_I18n_Impl_I18_N_Filter
+   procedure Org_Apache_Sling_I18n_Impl_I18NFilter
       (Server : in out Server_Type;
        Post : in Swagger.Nullable_Boolean;
        Apply : in Swagger.Nullable_Boolean;
@@ -11622,7 +11624,7 @@ package .Servers is
 
    --  
    overriding
-   procedure Org_Apache_Sling_Jmx_Provider_Impl_J_M_X_Resource_Provider
+   procedure Org_Apache_Sling_Jmx_Provider_Impl_JMXResource_Provider
       (Server : in out Server_Type;
        Post : in Swagger.Nullable_Boolean;
        Apply : in Swagger.Nullable_Boolean;
@@ -11752,8 +11754,8 @@ package .Servers is
        Propertylist : in Swagger.UString_Vectors.Vector;
        Java_Periodclassdebuginfo : in Swagger.Nullable_Boolean;
        Java_Periodjava_Encoding : in Swagger.Nullable_UString;
-       Java_Periodcompiler_Source_V_M : in Swagger.Nullable_UString;
-       Java_Periodcompiler_Target_V_M : in Swagger.Nullable_UString;
+       Java_Periodcompiler_Source_VM : in Swagger.Nullable_UString;
+       Java_Periodcompiler_Target_VM : in Swagger.Nullable_UString;
        Result  : out .Models.OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryInfo_Type;
        Context : in out Swagger.Servers.Context_Type);
 
@@ -11781,8 +11783,8 @@ package .Servers is
        Action : in Swagger.Nullable_UString;
        Dollarlocation : in Swagger.Nullable_UString;
        Propertylist : in Swagger.UString_Vectors.Vector;
-       Jasper_Periodcompiler_Target_V_M : in Swagger.Nullable_UString;
-       Jasper_Periodcompiler_Source_V_M : in Swagger.Nullable_UString;
+       Jasper_Periodcompiler_Target_VM : in Swagger.Nullable_UString;
+       Jasper_Periodcompiler_Source_VM : in Swagger.Nullable_UString;
        Jasper_Periodclassdebuginfo : in Swagger.Nullable_Boolean;
        Jasper_Periodenable_Pooling : in Swagger.Nullable_Boolean;
        Jasper_Periodie_Class_Id : in Swagger.Nullable_UString;
@@ -12023,7 +12025,7 @@ package .Servers is
        Tracer_Sets : in Swagger.UString_Vectors.Vector;
        Enabled : in Swagger.Nullable_Boolean;
        Servlet_Enabled : in Swagger.Nullable_Boolean;
-       Recording_Cache_Size_In_M_B : in Swagger.Nullable_Integer;
+       Recording_Cache_Size_In_MB : in Swagger.Nullable_Integer;
        Recording_Cache_Duration_In_Secs : in Swagger.Nullable_Integer;
        Recording_Compression_Enabled : in Swagger.Nullable_Boolean;
        Gzip_Response : in Swagger.Nullable_Boolean;
@@ -12032,7 +12034,7 @@ package .Servers is
 
    --  
    overriding
-   procedure Org_Apache_Sling_Xss_Impl_X_S_S_Filter_Impl
+   procedure Org_Apache_Sling_Xss_Impl_XSSFilter_Impl
       (Server : in out Server_Type;
        Post : in Swagger.Nullable_Boolean;
        Apply : in Swagger.Nullable_Boolean;

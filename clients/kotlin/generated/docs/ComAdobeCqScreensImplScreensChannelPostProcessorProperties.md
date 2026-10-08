@@ -2,9 +2,9 @@
 # ComAdobeCqScreensImplScreensChannelPostProcessorProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**screensPeriodchannelsPeriodpropertiesPeriodtoPeriodremove** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **screensChannelsPropertiesToRemove** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
 
 
 

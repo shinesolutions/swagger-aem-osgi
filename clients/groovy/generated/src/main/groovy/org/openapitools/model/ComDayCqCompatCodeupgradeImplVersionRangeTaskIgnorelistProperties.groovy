@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqCompatCodeupgradeImplVersionRangeTaskIgnorelistProperties {
-    ConfigNodePropertyString effectiveBundleListPath = null
-
+    
+    ConfigNodePropertyString effectiveBundleListPath
 }

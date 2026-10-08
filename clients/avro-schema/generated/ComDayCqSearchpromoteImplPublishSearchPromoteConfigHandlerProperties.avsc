@@ -1,0 +1,15 @@
+{
+  "namespace": "model",
+  "type": "record",
+  "doc": "",
+  "name": "ComDayCqSearchpromoteImplPublishSearchPromoteConfigHandlerProperties",
+  "fields": [
+    {
+      "name": "cq.searchpromote.confighandler.enabled",
+      "type": ["null", "model.ConfigNodePropertyBoolean"],
+      "doc": "",
+      "default": null
+    }
+  ]
+
+}

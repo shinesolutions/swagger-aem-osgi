@@ -7,16 +7,16 @@ import org.openapitools.model.OrgApacheFelixEventadminImplEventAdminProperties;
 
 @Canonical
 class OrgApacheFelixEventadminImplEventAdminInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheFelixEventadminImplEventAdminProperties properties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheFelixEventadminImplEventAdminProperties properties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

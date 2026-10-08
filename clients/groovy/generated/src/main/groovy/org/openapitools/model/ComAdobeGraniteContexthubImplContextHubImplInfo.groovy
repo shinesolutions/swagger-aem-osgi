@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeGraniteContexthubImplContextHubImplPropert
 
 @Canonical
 class ComAdobeGraniteContexthubImplContextHubImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteContexthubImplContextHubImplProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteContexthubImplContextHubImplProperties properties
 }

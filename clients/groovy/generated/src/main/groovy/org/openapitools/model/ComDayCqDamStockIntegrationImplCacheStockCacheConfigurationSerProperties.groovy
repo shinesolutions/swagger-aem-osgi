@@ -8,8 +8,8 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationSerProperties {
-    ConfigNodePropertyDropDown getCacheExpirationUnit = null
-
-    ConfigNodePropertyInteger getCacheExpirationValue = null
-
+    
+    ConfigNodePropertyDropDown getCacheExpirationUnit
+    
+    ConfigNodePropertyInteger getCacheExpirationValue
 }

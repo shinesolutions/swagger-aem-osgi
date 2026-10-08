@@ -2,13 +2,13 @@
 # OrgApacheSlingSecurityImplReferrerFilterProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**allowPeriodempty** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**allowPeriodhosts** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**allowPeriodhostsPeriodregexp** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**filterPeriodmethods** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**excludePeriodagentsPeriodregexp** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **allowEmpty** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **allowHosts** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **allowHostsRegexp** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **filterMethods** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **excludeAgentsRegexp** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
 
 
 

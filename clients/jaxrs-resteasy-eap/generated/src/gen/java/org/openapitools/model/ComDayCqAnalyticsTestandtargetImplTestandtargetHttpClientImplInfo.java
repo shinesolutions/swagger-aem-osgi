@@ -4,24 +4,21 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2019-08-05T01:00:05.540Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2026-10-07T12:54:26.576036107Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplInfo   {
   
-
-  private String pid = null;
-
-  private String title = null;
-
-  private String description = null;
-
-  private ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplProperties properties = null;
+  private String pid;
+  private String title;
+  private String description;
+  private ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplProperties properties;
 
   /**
    **/
@@ -81,10 +78,10 @@ public class ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplInfo  
       return false;
     }
     ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplInfo comDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplInfo = (ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplInfo) o;
-    return Objects.equals(pid, comDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplInfo.pid) &&
-        Objects.equals(title, comDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplInfo.title) &&
-        Objects.equals(description, comDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplInfo.description) &&
-        Objects.equals(properties, comDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplInfo.properties);
+    return Objects.equals(this.pid, comDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplInfo.pid) &&
+        Objects.equals(this.title, comDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplInfo.title) &&
+        Objects.equals(this.description, comDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplInfo.description) &&
+        Objects.equals(this.properties, comDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplInfo.properties);
   }
 
   @Override
@@ -110,10 +107,7 @@ public class ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplInfo  
    * (except the first line).
    */
   private String toIndentedString(Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

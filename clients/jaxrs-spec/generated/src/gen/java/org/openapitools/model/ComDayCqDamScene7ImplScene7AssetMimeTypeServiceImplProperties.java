@@ -1,18 +1,29 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comDayCqDamScene7ImplScene7AssetMimeTypeServiceImplProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqDamScene7ImplScene7AssetMimeTypeServiceImplProperties   {
-  
-  private @Valid ConfigNodePropertyArray cqDamScene7AssetmimetypeserviceMapping = null;
+  private ConfigNodePropertyArray cqDamScene7AssetmimetypeserviceMapping;
+
+  public ComDayCqDamScene7ImplScene7AssetMimeTypeServiceImplProperties() {
+  }
 
   /**
    **/
@@ -24,16 +35,18 @@ public class ComDayCqDamScene7ImplScene7AssetMimeTypeServiceImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("cq.dam.scene7.assetmimetypeservice.mapping")
-  public ConfigNodePropertyArray getCqDamScene7AssetmimetypeserviceMapping() {
+  @Valid public ConfigNodePropertyArray getCqDamScene7AssetmimetypeserviceMapping() {
     return cqDamScene7AssetmimetypeserviceMapping;
   }
+
+  @JsonProperty("cq.dam.scene7.assetmimetypeservice.mapping")
   public void setCqDamScene7AssetmimetypeserviceMapping(ConfigNodePropertyArray cqDamScene7AssetmimetypeserviceMapping) {
     this.cqDamScene7AssetmimetypeserviceMapping = cqDamScene7AssetmimetypeserviceMapping;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -41,7 +54,7 @@ public class ComDayCqDamScene7ImplScene7AssetMimeTypeServiceImplProperties   {
       return false;
     }
     ComDayCqDamScene7ImplScene7AssetMimeTypeServiceImplProperties comDayCqDamScene7ImplScene7AssetMimeTypeServiceImplProperties = (ComDayCqDamScene7ImplScene7AssetMimeTypeServiceImplProperties) o;
-    return Objects.equals(cqDamScene7AssetmimetypeserviceMapping, comDayCqDamScene7ImplScene7AssetMimeTypeServiceImplProperties.cqDamScene7AssetmimetypeserviceMapping);
+    return Objects.equals(this.cqDamScene7AssetmimetypeserviceMapping, comDayCqDamScene7ImplScene7AssetMimeTypeServiceImplProperties.cqDamScene7AssetmimetypeserviceMapping);
   }
 
   @Override
@@ -63,11 +76,9 @@ public class ComDayCqDamScene7ImplScene7AssetMimeTypeServiceImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

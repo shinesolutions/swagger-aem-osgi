@@ -1,5 +1,8 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
@@ -7,25 +10,33 @@ import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties   {
-  
-  private @Valid ConfigNodePropertyString jdbcDriverClass = null;
-  private @Valid ConfigNodePropertyString jdbcConnectionUri = null;
-  private @Valid ConfigNodePropertyString jdbcUsername = null;
-  private @Valid ConfigNodePropertyString jdbcPassword = null;
-  private @Valid ConfigNodePropertyString jdbcValidationQuery = null;
-  private @Valid ConfigNodePropertyBoolean defaultReadonly = null;
-  private @Valid ConfigNodePropertyBoolean defaultAutocommit = null;
-  private @Valid ConfigNodePropertyInteger poolSize = null;
-  private @Valid ConfigNodePropertyInteger poolMaxWaitMsec = null;
-  private @Valid ConfigNodePropertyString datasourceName = null;
-  private @Valid ConfigNodePropertyArray datasourceSvcProperties = null;
+  private ConfigNodePropertyString jdbcDriverClass;
+  private ConfigNodePropertyString jdbcConnectionUri;
+  private ConfigNodePropertyString jdbcUsername;
+  private ConfigNodePropertyString jdbcPassword;
+  private ConfigNodePropertyString jdbcValidationQuery;
+  private ConfigNodePropertyBoolean defaultReadonly;
+  private ConfigNodePropertyBoolean defaultAutocommit;
+  private ConfigNodePropertyInteger poolSize;
+  private ConfigNodePropertyInteger poolMaxWaitMsec;
+  private ConfigNodePropertyString datasourceName;
+  private ConfigNodePropertyArray datasourceSvcProperties;
+
+  public ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties() {
+  }
 
   /**
    **/
@@ -37,9 +48,11 @@ public class ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("jdbc.driver.class")
-  public ConfigNodePropertyString getJdbcDriverClass() {
+  @Valid public ConfigNodePropertyString getJdbcDriverClass() {
     return jdbcDriverClass;
   }
+
+  @JsonProperty("jdbc.driver.class")
   public void setJdbcDriverClass(ConfigNodePropertyString jdbcDriverClass) {
     this.jdbcDriverClass = jdbcDriverClass;
   }
@@ -54,9 +67,11 @@ public class ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("jdbc.connection.uri")
-  public ConfigNodePropertyString getJdbcConnectionUri() {
+  @Valid public ConfigNodePropertyString getJdbcConnectionUri() {
     return jdbcConnectionUri;
   }
+
+  @JsonProperty("jdbc.connection.uri")
   public void setJdbcConnectionUri(ConfigNodePropertyString jdbcConnectionUri) {
     this.jdbcConnectionUri = jdbcConnectionUri;
   }
@@ -71,9 +86,11 @@ public class ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("jdbc.username")
-  public ConfigNodePropertyString getJdbcUsername() {
+  @Valid public ConfigNodePropertyString getJdbcUsername() {
     return jdbcUsername;
   }
+
+  @JsonProperty("jdbc.username")
   public void setJdbcUsername(ConfigNodePropertyString jdbcUsername) {
     this.jdbcUsername = jdbcUsername;
   }
@@ -88,9 +105,11 @@ public class ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("jdbc.password")
-  public ConfigNodePropertyString getJdbcPassword() {
+  @Valid public ConfigNodePropertyString getJdbcPassword() {
     return jdbcPassword;
   }
+
+  @JsonProperty("jdbc.password")
   public void setJdbcPassword(ConfigNodePropertyString jdbcPassword) {
     this.jdbcPassword = jdbcPassword;
   }
@@ -105,9 +124,11 @@ public class ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("jdbc.validation.query")
-  public ConfigNodePropertyString getJdbcValidationQuery() {
+  @Valid public ConfigNodePropertyString getJdbcValidationQuery() {
     return jdbcValidationQuery;
   }
+
+  @JsonProperty("jdbc.validation.query")
   public void setJdbcValidationQuery(ConfigNodePropertyString jdbcValidationQuery) {
     this.jdbcValidationQuery = jdbcValidationQuery;
   }
@@ -122,9 +143,11 @@ public class ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("default.readonly")
-  public ConfigNodePropertyBoolean getDefaultReadonly() {
+  @Valid public ConfigNodePropertyBoolean getDefaultReadonly() {
     return defaultReadonly;
   }
+
+  @JsonProperty("default.readonly")
   public void setDefaultReadonly(ConfigNodePropertyBoolean defaultReadonly) {
     this.defaultReadonly = defaultReadonly;
   }
@@ -139,9 +162,11 @@ public class ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("default.autocommit")
-  public ConfigNodePropertyBoolean getDefaultAutocommit() {
+  @Valid public ConfigNodePropertyBoolean getDefaultAutocommit() {
     return defaultAutocommit;
   }
+
+  @JsonProperty("default.autocommit")
   public void setDefaultAutocommit(ConfigNodePropertyBoolean defaultAutocommit) {
     this.defaultAutocommit = defaultAutocommit;
   }
@@ -156,9 +181,11 @@ public class ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("pool.size")
-  public ConfigNodePropertyInteger getPoolSize() {
+  @Valid public ConfigNodePropertyInteger getPoolSize() {
     return poolSize;
   }
+
+  @JsonProperty("pool.size")
   public void setPoolSize(ConfigNodePropertyInteger poolSize) {
     this.poolSize = poolSize;
   }
@@ -173,9 +200,11 @@ public class ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("pool.max.wait.msec")
-  public ConfigNodePropertyInteger getPoolMaxWaitMsec() {
+  @Valid public ConfigNodePropertyInteger getPoolMaxWaitMsec() {
     return poolMaxWaitMsec;
   }
+
+  @JsonProperty("pool.max.wait.msec")
   public void setPoolMaxWaitMsec(ConfigNodePropertyInteger poolMaxWaitMsec) {
     this.poolMaxWaitMsec = poolMaxWaitMsec;
   }
@@ -190,9 +219,11 @@ public class ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("datasource.name")
-  public ConfigNodePropertyString getDatasourceName() {
+  @Valid public ConfigNodePropertyString getDatasourceName() {
     return datasourceName;
   }
+
+  @JsonProperty("datasource.name")
   public void setDatasourceName(ConfigNodePropertyString datasourceName) {
     this.datasourceName = datasourceName;
   }
@@ -207,16 +238,18 @@ public class ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("datasource.svc.properties")
-  public ConfigNodePropertyArray getDatasourceSvcProperties() {
+  @Valid public ConfigNodePropertyArray getDatasourceSvcProperties() {
     return datasourceSvcProperties;
   }
+
+  @JsonProperty("datasource.svc.properties")
   public void setDatasourceSvcProperties(ConfigNodePropertyArray datasourceSvcProperties) {
     this.datasourceSvcProperties = datasourceSvcProperties;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -224,17 +257,17 @@ public class ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties   {
       return false;
     }
     ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties comDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties = (ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties) o;
-    return Objects.equals(jdbcDriverClass, comDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties.jdbcDriverClass) &&
-        Objects.equals(jdbcConnectionUri, comDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties.jdbcConnectionUri) &&
-        Objects.equals(jdbcUsername, comDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties.jdbcUsername) &&
-        Objects.equals(jdbcPassword, comDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties.jdbcPassword) &&
-        Objects.equals(jdbcValidationQuery, comDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties.jdbcValidationQuery) &&
-        Objects.equals(defaultReadonly, comDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties.defaultReadonly) &&
-        Objects.equals(defaultAutocommit, comDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties.defaultAutocommit) &&
-        Objects.equals(poolSize, comDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties.poolSize) &&
-        Objects.equals(poolMaxWaitMsec, comDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties.poolMaxWaitMsec) &&
-        Objects.equals(datasourceName, comDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties.datasourceName) &&
-        Objects.equals(datasourceSvcProperties, comDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties.datasourceSvcProperties);
+    return Objects.equals(this.jdbcDriverClass, comDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties.jdbcDriverClass) &&
+        Objects.equals(this.jdbcConnectionUri, comDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties.jdbcConnectionUri) &&
+        Objects.equals(this.jdbcUsername, comDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties.jdbcUsername) &&
+        Objects.equals(this.jdbcPassword, comDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties.jdbcPassword) &&
+        Objects.equals(this.jdbcValidationQuery, comDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties.jdbcValidationQuery) &&
+        Objects.equals(this.defaultReadonly, comDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties.defaultReadonly) &&
+        Objects.equals(this.defaultAutocommit, comDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties.defaultAutocommit) &&
+        Objects.equals(this.poolSize, comDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties.poolSize) &&
+        Objects.equals(this.poolMaxWaitMsec, comDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties.poolMaxWaitMsec) &&
+        Objects.equals(this.datasourceName, comDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties.datasourceName) &&
+        Objects.equals(this.datasourceSvcProperties, comDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties.datasourceSvcProperties);
   }
 
   @Override
@@ -266,11 +299,9 @@ public class ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

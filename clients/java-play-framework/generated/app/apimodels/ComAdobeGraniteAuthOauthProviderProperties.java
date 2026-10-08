@@ -3,65 +3,98 @@ package apimodels;
 import apimodels.ConfigNodePropertyArray;
 import apimodels.ConfigNodePropertyBoolean;
 import apimodels.ConfigNodePropertyString;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * ComAdobeGraniteAuthOauthProviderProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class ComAdobeGraniteAuthOauthProviderProperties   {
   @JsonProperty("oauth.config.id")
-  private ConfigNodePropertyString oauthConfigId = null;
+  @Valid
+
+  private ConfigNodePropertyString oauthConfigId;
 
   @JsonProperty("oauth.client.id")
-  private ConfigNodePropertyString oauthClientId = null;
+  @Valid
+
+  private ConfigNodePropertyString oauthClientId;
 
   @JsonProperty("oauth.client.secret")
-  private ConfigNodePropertyString oauthClientSecret = null;
+  @Valid
+
+  private ConfigNodePropertyString oauthClientSecret;
 
   @JsonProperty("oauth.scope")
-  private ConfigNodePropertyArray oauthScope = null;
+  @Valid
+
+  private ConfigNodePropertyArray oauthScope;
 
   @JsonProperty("oauth.config.provider.id")
-  private ConfigNodePropertyString oauthConfigProviderId = null;
+  @Valid
+
+  private ConfigNodePropertyString oauthConfigProviderId;
 
   @JsonProperty("oauth.create.users")
-  private ConfigNodePropertyBoolean oauthCreateUsers = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean oauthCreateUsers;
 
   @JsonProperty("oauth.userid.property")
-  private ConfigNodePropertyString oauthUseridProperty = null;
+  @Valid
+
+  private ConfigNodePropertyString oauthUseridProperty;
 
   @JsonProperty("force.strict.username.matching")
-  private ConfigNodePropertyBoolean forceStrictUsernameMatching = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean forceStrictUsernameMatching;
 
   @JsonProperty("oauth.encode.userids")
-  private ConfigNodePropertyBoolean oauthEncodeUserids = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean oauthEncodeUserids;
 
   @JsonProperty("oauth.hash.userids")
-  private ConfigNodePropertyBoolean oauthHashUserids = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean oauthHashUserids;
 
   @JsonProperty("oauth.callBackUrl")
-  private ConfigNodePropertyString oauthCallBackUrl = null;
+  @Valid
+
+  private ConfigNodePropertyString oauthCallBackUrl;
 
   @JsonProperty("oauth.access.token.persist")
-  private ConfigNodePropertyBoolean oauthAccessTokenPersist = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean oauthAccessTokenPersist;
 
   @JsonProperty("oauth.access.token.persist.cookie")
-  private ConfigNodePropertyBoolean oauthAccessTokenPersistCookie = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean oauthAccessTokenPersistCookie;
 
   @JsonProperty("oauth.csrf.state.protection")
-  private ConfigNodePropertyBoolean oauthCsrfStateProtection = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean oauthCsrfStateProtection;
 
   @JsonProperty("oauth.redirect.request.params")
-  private ConfigNodePropertyBoolean oauthRedirectRequestParams = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean oauthRedirectRequestParams;
 
   @JsonProperty("oauth.config.siblings.allow")
-  private ConfigNodePropertyBoolean oauthConfigSiblingsAllow = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean oauthConfigSiblingsAllow;
 
   public ComAdobeGraniteAuthOauthProviderProperties oauthConfigId(ConfigNodePropertyString oauthConfigId) {
     this.oauthConfigId = oauthConfigId;
@@ -72,7 +105,6 @@ public class ComAdobeGraniteAuthOauthProviderProperties   {
    * Get oauthConfigId
    * @return oauthConfigId
   **/
-  @Valid
   public ConfigNodePropertyString getOauthConfigId() {
     return oauthConfigId;
   }
@@ -90,7 +122,6 @@ public class ComAdobeGraniteAuthOauthProviderProperties   {
    * Get oauthClientId
    * @return oauthClientId
   **/
-  @Valid
   public ConfigNodePropertyString getOauthClientId() {
     return oauthClientId;
   }
@@ -108,7 +139,6 @@ public class ComAdobeGraniteAuthOauthProviderProperties   {
    * Get oauthClientSecret
    * @return oauthClientSecret
   **/
-  @Valid
   public ConfigNodePropertyString getOauthClientSecret() {
     return oauthClientSecret;
   }
@@ -126,7 +156,6 @@ public class ComAdobeGraniteAuthOauthProviderProperties   {
    * Get oauthScope
    * @return oauthScope
   **/
-  @Valid
   public ConfigNodePropertyArray getOauthScope() {
     return oauthScope;
   }
@@ -144,7 +173,6 @@ public class ComAdobeGraniteAuthOauthProviderProperties   {
    * Get oauthConfigProviderId
    * @return oauthConfigProviderId
   **/
-  @Valid
   public ConfigNodePropertyString getOauthConfigProviderId() {
     return oauthConfigProviderId;
   }
@@ -162,7 +190,6 @@ public class ComAdobeGraniteAuthOauthProviderProperties   {
    * Get oauthCreateUsers
    * @return oauthCreateUsers
   **/
-  @Valid
   public ConfigNodePropertyBoolean getOauthCreateUsers() {
     return oauthCreateUsers;
   }
@@ -180,7 +207,6 @@ public class ComAdobeGraniteAuthOauthProviderProperties   {
    * Get oauthUseridProperty
    * @return oauthUseridProperty
   **/
-  @Valid
   public ConfigNodePropertyString getOauthUseridProperty() {
     return oauthUseridProperty;
   }
@@ -198,7 +224,6 @@ public class ComAdobeGraniteAuthOauthProviderProperties   {
    * Get forceStrictUsernameMatching
    * @return forceStrictUsernameMatching
   **/
-  @Valid
   public ConfigNodePropertyBoolean getForceStrictUsernameMatching() {
     return forceStrictUsernameMatching;
   }
@@ -216,7 +241,6 @@ public class ComAdobeGraniteAuthOauthProviderProperties   {
    * Get oauthEncodeUserids
    * @return oauthEncodeUserids
   **/
-  @Valid
   public ConfigNodePropertyBoolean getOauthEncodeUserids() {
     return oauthEncodeUserids;
   }
@@ -234,7 +258,6 @@ public class ComAdobeGraniteAuthOauthProviderProperties   {
    * Get oauthHashUserids
    * @return oauthHashUserids
   **/
-  @Valid
   public ConfigNodePropertyBoolean getOauthHashUserids() {
     return oauthHashUserids;
   }
@@ -252,7 +275,6 @@ public class ComAdobeGraniteAuthOauthProviderProperties   {
    * Get oauthCallBackUrl
    * @return oauthCallBackUrl
   **/
-  @Valid
   public ConfigNodePropertyString getOauthCallBackUrl() {
     return oauthCallBackUrl;
   }
@@ -270,7 +292,6 @@ public class ComAdobeGraniteAuthOauthProviderProperties   {
    * Get oauthAccessTokenPersist
    * @return oauthAccessTokenPersist
   **/
-  @Valid
   public ConfigNodePropertyBoolean getOauthAccessTokenPersist() {
     return oauthAccessTokenPersist;
   }
@@ -288,7 +309,6 @@ public class ComAdobeGraniteAuthOauthProviderProperties   {
    * Get oauthAccessTokenPersistCookie
    * @return oauthAccessTokenPersistCookie
   **/
-  @Valid
   public ConfigNodePropertyBoolean getOauthAccessTokenPersistCookie() {
     return oauthAccessTokenPersistCookie;
   }
@@ -306,7 +326,6 @@ public class ComAdobeGraniteAuthOauthProviderProperties   {
    * Get oauthCsrfStateProtection
    * @return oauthCsrfStateProtection
   **/
-  @Valid
   public ConfigNodePropertyBoolean getOauthCsrfStateProtection() {
     return oauthCsrfStateProtection;
   }
@@ -324,7 +343,6 @@ public class ComAdobeGraniteAuthOauthProviderProperties   {
    * Get oauthRedirectRequestParams
    * @return oauthRedirectRequestParams
   **/
-  @Valid
   public ConfigNodePropertyBoolean getOauthRedirectRequestParams() {
     return oauthRedirectRequestParams;
   }
@@ -342,7 +360,6 @@ public class ComAdobeGraniteAuthOauthProviderProperties   {
    * Get oauthConfigSiblingsAllow
    * @return oauthConfigSiblingsAllow
   **/
-  @Valid
   public ConfigNodePropertyBoolean getOauthConfigSiblingsAllow() {
     return oauthConfigSiblingsAllow;
   }
@@ -353,7 +370,7 @@ public class ComAdobeGraniteAuthOauthProviderProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -414,11 +431,8 @@ public class ComAdobeGraniteAuthOauthProviderProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

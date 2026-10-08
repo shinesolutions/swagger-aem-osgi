@@ -4,31 +4,31 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
 
 import io.swagger.annotations.ApiModelProperty;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlType;
-import javax.xml.bind.annotation.XmlEnum;
-import javax.xml.bind.annotation.XmlEnumValue;
+import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
 
 public class ComAdobeGraniteFragsImplRandomFeatureProperties  {
   
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString featureName = null;
+
+  private ConfigNodePropertyString featureName;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString featureDescription = null;
+
+  private ConfigNodePropertyString featureDescription;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString activePercentage = null;
+
+  private ConfigNodePropertyString activePercentage;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString cookieName = null;
+
+  private ConfigNodePropertyString cookieName;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyInteger cookieMaxAge = null;
+
+  private ConfigNodePropertyInteger cookieMaxAge;
  /**
    * Get featureName
    * @return featureName
@@ -119,6 +119,26 @@ public class ComAdobeGraniteFragsImplRandomFeatureProperties  {
     return this;
   }
 
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    ComAdobeGraniteFragsImplRandomFeatureProperties comAdobeGraniteFragsImplRandomFeatureProperties = (ComAdobeGraniteFragsImplRandomFeatureProperties) o;
+    return Objects.equals(this.featureName, comAdobeGraniteFragsImplRandomFeatureProperties.featureName) &&
+        Objects.equals(this.featureDescription, comAdobeGraniteFragsImplRandomFeatureProperties.featureDescription) &&
+        Objects.equals(this.activePercentage, comAdobeGraniteFragsImplRandomFeatureProperties.activePercentage) &&
+        Objects.equals(this.cookieName, comAdobeGraniteFragsImplRandomFeatureProperties.cookieName) &&
+        Objects.equals(this.cookieMaxAge, comAdobeGraniteFragsImplRandomFeatureProperties.cookieMaxAge);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(featureName, featureDescription, activePercentage, cookieName, cookieMaxAge);
+  }
 
   @Override
   public String toString() {
@@ -138,11 +158,8 @@ public class ComAdobeGraniteFragsImplRandomFeatureProperties  {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private static String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -1,5 +1,6 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyString;
@@ -7,36 +8,41 @@ import javax.validation.constraints.*;
 import javax.validation.Valid;
 
 import io.swagger.annotations.ApiModelProperty;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlType;
-import javax.xml.bind.annotation.XmlEnum;
-import javax.xml.bind.annotation.XmlEnumValue;
+import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
 
 public class ComAdobeCqSocialSyncImplGroupSyncListenerImplProperties  {
   
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyArray nodetypes = null;
+
+  private ConfigNodePropertyArray nodetypes;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyArray ignorableprops = null;
+
+  private ConfigNodePropertyArray ignorableprops;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyString ignorablenodes = null;
+
+  private ConfigNodePropertyString ignorablenodes;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyBoolean enabled = null;
+
+  private ConfigNodePropertyBoolean enabled;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyString distfolders = null;
+
+  private ConfigNodePropertyString distfolders;
  /**
    * Get nodetypes
    * @return nodetypes
@@ -127,6 +133,26 @@ public class ComAdobeCqSocialSyncImplGroupSyncListenerImplProperties  {
     return this;
   }
 
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    ComAdobeCqSocialSyncImplGroupSyncListenerImplProperties comAdobeCqSocialSyncImplGroupSyncListenerImplProperties = (ComAdobeCqSocialSyncImplGroupSyncListenerImplProperties) o;
+    return Objects.equals(this.nodetypes, comAdobeCqSocialSyncImplGroupSyncListenerImplProperties.nodetypes) &&
+        Objects.equals(this.ignorableprops, comAdobeCqSocialSyncImplGroupSyncListenerImplProperties.ignorableprops) &&
+        Objects.equals(this.ignorablenodes, comAdobeCqSocialSyncImplGroupSyncListenerImplProperties.ignorablenodes) &&
+        Objects.equals(this.enabled, comAdobeCqSocialSyncImplGroupSyncListenerImplProperties.enabled) &&
+        Objects.equals(this.distfolders, comAdobeCqSocialSyncImplGroupSyncListenerImplProperties.distfolders);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(nodetypes, ignorableprops, ignorablenodes, enabled, distfolders);
+  }
 
   @Override
   public String toString() {
@@ -146,11 +172,8 @@ public class ComAdobeCqSocialSyncImplGroupSyncListenerImplProperties  {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private static String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

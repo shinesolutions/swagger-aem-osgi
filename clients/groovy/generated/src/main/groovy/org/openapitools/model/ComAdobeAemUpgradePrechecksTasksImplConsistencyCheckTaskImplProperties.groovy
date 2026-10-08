@@ -8,8 +8,8 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeAemUpgradePrechecksTasksImplConsistencyCheckTaskImplProperties {
-    ConfigNodePropertyString rootPath = null
-
-    ConfigNodePropertyBoolean fixInconsistencies = null
-
+    
+    ConfigNodePropertyString rootPath
+    
+    ConfigNodePropertyBoolean fixInconsistencies
 }

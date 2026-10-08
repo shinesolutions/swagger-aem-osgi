@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistProperties = openapi_server.resourceTypes.ComDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistProperties
+}
+resourceTypes {
+
+  ComDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistInfo {
+    title = ComDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistInfo
+    description = ComDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistInfo {
+    title = ComDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistInfo
+    description = ComDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistInfo
+    implements = openapi_server.resourceTypes.ComDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistInfo
+
+  }
+}

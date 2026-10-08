@@ -72,22 +72,22 @@ private class OASComAdobeGraniteAuthOauthProviderPTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeGraniteAuthOauthProviderP comAdobeGraniteAuthOauthProviderProperties = new OASComAdobeGraniteAuthOauthProviderP();
-        Map<String, String> propertyMappings = comAdobeGraniteAuthOauthProviderProperties.getPropertyMappings();
-        System.assertEquals('oauthConfigId', propertyMappings.get('oauth.config.id'));
-        System.assertEquals('oauthClientId', propertyMappings.get('oauth.client.id'));
-        System.assertEquals('oauthClientSecret', propertyMappings.get('oauth.client.secret'));
-        System.assertEquals('oauthScope', propertyMappings.get('oauth.scope'));
-        System.assertEquals('oauthConfigProviderId', propertyMappings.get('oauth.config.provider.id'));
-        System.assertEquals('oauthCreateUsers', propertyMappings.get('oauth.create.users'));
-        System.assertEquals('oauthUseridProperty', propertyMappings.get('oauth.userid.property'));
-        System.assertEquals('forceStrictUsernameMatching', propertyMappings.get('force.strict.username.matching'));
-        System.assertEquals('oauthEncodeUserids', propertyMappings.get('oauth.encode.userids'));
-        System.assertEquals('oauthHashUserids', propertyMappings.get('oauth.hash.userids'));
-        System.assertEquals('oauthCallBackUrl', propertyMappings.get('oauth.callBackUrl'));
-        System.assertEquals('oauthAccessTokenPersist', propertyMappings.get('oauth.access.token.persist'));
-        System.assertEquals('oauthAccessTokenPersistCookie', propertyMappings.get('oauth.access.token.persist.cookie'));
-        System.assertEquals('oauthCsrfStateProtection', propertyMappings.get('oauth.csrf.state.protection'));
-        System.assertEquals('oauthRedirectRequestParams', propertyMappings.get('oauth.redirect.request.params'));
-        System.assertEquals('oauthConfigSiblingsAllow', propertyMappings.get('oauth.config.siblings.allow'));
+        Map<String, String> x-property-mappings = comAdobeGraniteAuthOauthProviderProperties.getx-property-mappings();
+        System.assertEquals('oauthConfigId', x-property-mappings.get('oauth.config.id'));
+        System.assertEquals('oauthClientId', x-property-mappings.get('oauth.client.id'));
+        System.assertEquals('oauthClientSecret', x-property-mappings.get('oauth.client.secret'));
+        System.assertEquals('oauthScope', x-property-mappings.get('oauth.scope'));
+        System.assertEquals('oauthConfigProviderId', x-property-mappings.get('oauth.config.provider.id'));
+        System.assertEquals('oauthCreateUsers', x-property-mappings.get('oauth.create.users'));
+        System.assertEquals('oauthUseridProperty', x-property-mappings.get('oauth.userid.property'));
+        System.assertEquals('forceStrictUsernameMatching', x-property-mappings.get('force.strict.username.matching'));
+        System.assertEquals('oauthEncodeUserids', x-property-mappings.get('oauth.encode.userids'));
+        System.assertEquals('oauthHashUserids', x-property-mappings.get('oauth.hash.userids'));
+        System.assertEquals('oauthCallBackUrl', x-property-mappings.get('oauth.callBackUrl'));
+        System.assertEquals('oauthAccessTokenPersist', x-property-mappings.get('oauth.access.token.persist'));
+        System.assertEquals('oauthAccessTokenPersistCookie', x-property-mappings.get('oauth.access.token.persist.cookie'));
+        System.assertEquals('oauthCsrfStateProtection', x-property-mappings.get('oauth.csrf.state.protection'));
+        System.assertEquals('oauthRedirectRequestParams', x-property-mappings.get('oauth.redirect.request.params'));
+        System.assertEquals('oauthConfigSiblingsAllow', x-property-mappings.get('oauth.config.siblings.allow'));
     }
 }

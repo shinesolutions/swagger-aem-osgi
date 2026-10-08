@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqDamIdsImplIDSPoolManagerImplProperties;
 
 @Canonical
 class ComDayCqDamIdsImplIDSPoolManagerImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqDamIdsImplIDSPoolManagerImplProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqDamIdsImplIDSPoolManagerImplProperties properties
 }

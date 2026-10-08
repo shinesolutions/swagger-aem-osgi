@@ -4,32 +4,36 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2019-08-05T00:59:30.156Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2026-10-07T12:54:21.614735164Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingScriptingJspJspScriptEngineFactoryProperties   {
   
-  private ConfigNodePropertyString jasperCompilerTargetVM = null;
-  private ConfigNodePropertyString jasperCompilerSourceVM = null;
-  private ConfigNodePropertyBoolean jasperClassdebuginfo = null;
-  private ConfigNodePropertyBoolean jasperEnablePooling = null;
-  private ConfigNodePropertyString jasperIeClassId = null;
-  private ConfigNodePropertyBoolean jasperGenStringAsCharArray = null;
-  private ConfigNodePropertyBoolean jasperKeepgenerated = null;
-  private ConfigNodePropertyBoolean jasperMappedfile = null;
-  private ConfigNodePropertyBoolean jasperTrimSpaces = null;
-  private ConfigNodePropertyBoolean jasperDisplaySourceFragments = null;
-  private ConfigNodePropertyBoolean defaultIsSession = null;
+  private ConfigNodePropertyString jasperCompilerTargetVM;
+  private ConfigNodePropertyString jasperCompilerSourceVM;
+  private ConfigNodePropertyBoolean jasperClassdebuginfo;
+  private ConfigNodePropertyBoolean jasperEnablePooling;
+  private ConfigNodePropertyString jasperIeClassId;
+  private ConfigNodePropertyBoolean jasperGenStringAsCharArray;
+  private ConfigNodePropertyBoolean jasperKeepgenerated;
+  private ConfigNodePropertyBoolean jasperMappedfile;
+  private ConfigNodePropertyBoolean jasperTrimSpaces;
+  private ConfigNodePropertyBoolean jasperDisplaySourceFragments;
+  private ConfigNodePropertyBoolean defaultIsSession;
 
   /**
    **/
   
   @ApiModelProperty(value = "")
   @JsonProperty("jasper.compilerTargetVM")
+  @Valid
   public ConfigNodePropertyString getJasperCompilerTargetVM() {
     return jasperCompilerTargetVM;
   }
@@ -42,6 +46,7 @@ public class OrgApacheSlingScriptingJspJspScriptEngineFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("jasper.compilerSourceVM")
+  @Valid
   public ConfigNodePropertyString getJasperCompilerSourceVM() {
     return jasperCompilerSourceVM;
   }
@@ -54,6 +59,7 @@ public class OrgApacheSlingScriptingJspJspScriptEngineFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("jasper.classdebuginfo")
+  @Valid
   public ConfigNodePropertyBoolean getJasperClassdebuginfo() {
     return jasperClassdebuginfo;
   }
@@ -66,6 +72,7 @@ public class OrgApacheSlingScriptingJspJspScriptEngineFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("jasper.enablePooling")
+  @Valid
   public ConfigNodePropertyBoolean getJasperEnablePooling() {
     return jasperEnablePooling;
   }
@@ -78,6 +85,7 @@ public class OrgApacheSlingScriptingJspJspScriptEngineFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("jasper.ieClassId")
+  @Valid
   public ConfigNodePropertyString getJasperIeClassId() {
     return jasperIeClassId;
   }
@@ -90,6 +98,7 @@ public class OrgApacheSlingScriptingJspJspScriptEngineFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("jasper.genStringAsCharArray")
+  @Valid
   public ConfigNodePropertyBoolean getJasperGenStringAsCharArray() {
     return jasperGenStringAsCharArray;
   }
@@ -102,6 +111,7 @@ public class OrgApacheSlingScriptingJspJspScriptEngineFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("jasper.keepgenerated")
+  @Valid
   public ConfigNodePropertyBoolean getJasperKeepgenerated() {
     return jasperKeepgenerated;
   }
@@ -114,6 +124,7 @@ public class OrgApacheSlingScriptingJspJspScriptEngineFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("jasper.mappedfile")
+  @Valid
   public ConfigNodePropertyBoolean getJasperMappedfile() {
     return jasperMappedfile;
   }
@@ -126,6 +137,7 @@ public class OrgApacheSlingScriptingJspJspScriptEngineFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("jasper.trimSpaces")
+  @Valid
   public ConfigNodePropertyBoolean getJasperTrimSpaces() {
     return jasperTrimSpaces;
   }
@@ -138,6 +150,7 @@ public class OrgApacheSlingScriptingJspJspScriptEngineFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("jasper.displaySourceFragments")
+  @Valid
   public ConfigNodePropertyBoolean getJasperDisplaySourceFragments() {
     return jasperDisplaySourceFragments;
   }
@@ -150,6 +163,7 @@ public class OrgApacheSlingScriptingJspJspScriptEngineFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("default.is.session")
+  @Valid
   public ConfigNodePropertyBoolean getDefaultIsSession() {
     return defaultIsSession;
   }
@@ -159,7 +173,7 @@ public class OrgApacheSlingScriptingJspJspScriptEngineFactoryProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -167,17 +181,17 @@ public class OrgApacheSlingScriptingJspJspScriptEngineFactoryProperties   {
       return false;
     }
     OrgApacheSlingScriptingJspJspScriptEngineFactoryProperties orgApacheSlingScriptingJspJspScriptEngineFactoryProperties = (OrgApacheSlingScriptingJspJspScriptEngineFactoryProperties) o;
-    return Objects.equals(jasperCompilerTargetVM, orgApacheSlingScriptingJspJspScriptEngineFactoryProperties.jasperCompilerTargetVM) &&
-        Objects.equals(jasperCompilerSourceVM, orgApacheSlingScriptingJspJspScriptEngineFactoryProperties.jasperCompilerSourceVM) &&
-        Objects.equals(jasperClassdebuginfo, orgApacheSlingScriptingJspJspScriptEngineFactoryProperties.jasperClassdebuginfo) &&
-        Objects.equals(jasperEnablePooling, orgApacheSlingScriptingJspJspScriptEngineFactoryProperties.jasperEnablePooling) &&
-        Objects.equals(jasperIeClassId, orgApacheSlingScriptingJspJspScriptEngineFactoryProperties.jasperIeClassId) &&
-        Objects.equals(jasperGenStringAsCharArray, orgApacheSlingScriptingJspJspScriptEngineFactoryProperties.jasperGenStringAsCharArray) &&
-        Objects.equals(jasperKeepgenerated, orgApacheSlingScriptingJspJspScriptEngineFactoryProperties.jasperKeepgenerated) &&
-        Objects.equals(jasperMappedfile, orgApacheSlingScriptingJspJspScriptEngineFactoryProperties.jasperMappedfile) &&
-        Objects.equals(jasperTrimSpaces, orgApacheSlingScriptingJspJspScriptEngineFactoryProperties.jasperTrimSpaces) &&
-        Objects.equals(jasperDisplaySourceFragments, orgApacheSlingScriptingJspJspScriptEngineFactoryProperties.jasperDisplaySourceFragments) &&
-        Objects.equals(defaultIsSession, orgApacheSlingScriptingJspJspScriptEngineFactoryProperties.defaultIsSession);
+    return Objects.equals(this.jasperCompilerTargetVM, orgApacheSlingScriptingJspJspScriptEngineFactoryProperties.jasperCompilerTargetVM) &&
+        Objects.equals(this.jasperCompilerSourceVM, orgApacheSlingScriptingJspJspScriptEngineFactoryProperties.jasperCompilerSourceVM) &&
+        Objects.equals(this.jasperClassdebuginfo, orgApacheSlingScriptingJspJspScriptEngineFactoryProperties.jasperClassdebuginfo) &&
+        Objects.equals(this.jasperEnablePooling, orgApacheSlingScriptingJspJspScriptEngineFactoryProperties.jasperEnablePooling) &&
+        Objects.equals(this.jasperIeClassId, orgApacheSlingScriptingJspJspScriptEngineFactoryProperties.jasperIeClassId) &&
+        Objects.equals(this.jasperGenStringAsCharArray, orgApacheSlingScriptingJspJspScriptEngineFactoryProperties.jasperGenStringAsCharArray) &&
+        Objects.equals(this.jasperKeepgenerated, orgApacheSlingScriptingJspJspScriptEngineFactoryProperties.jasperKeepgenerated) &&
+        Objects.equals(this.jasperMappedfile, orgApacheSlingScriptingJspJspScriptEngineFactoryProperties.jasperMappedfile) &&
+        Objects.equals(this.jasperTrimSpaces, orgApacheSlingScriptingJspJspScriptEngineFactoryProperties.jasperTrimSpaces) &&
+        Objects.equals(this.jasperDisplaySourceFragments, orgApacheSlingScriptingJspJspScriptEngineFactoryProperties.jasperDisplaySourceFragments) &&
+        Objects.equals(this.defaultIsSession, orgApacheSlingScriptingJspJspScriptEngineFactoryProperties.defaultIsSession);
   }
 
   @Override
@@ -209,11 +223,8 @@ public class OrgApacheSlingScriptingJspJspScriptEngineFactoryProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

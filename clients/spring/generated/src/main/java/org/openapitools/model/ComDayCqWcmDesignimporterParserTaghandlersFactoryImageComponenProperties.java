@@ -1,31 +1,42 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponenProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponenProperties   {
-  @JsonProperty("service.ranking")
-  private ConfigNodePropertyInteger serviceRanking = null;
+@JsonTypeName("comDayCqWcmDesignimporterParserTaghandlersFactoryImageComponenProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponenProperties {
 
-  @JsonProperty("tagpattern")
-  private ConfigNodePropertyString tagpattern = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger serviceRanking;
 
-  @JsonProperty("component.resourceType")
-  private ConfigNodePropertyString componentResourceType = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString tagpattern;
 
-  public ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponenProperties serviceRanking(ConfigNodePropertyInteger serviceRanking) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString componentResourceType;
+
+  public ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponenProperties serviceRanking(@Nullable ConfigNodePropertyInteger serviceRanking) {
     this.serviceRanking = serviceRanking;
     return this;
   }
@@ -33,20 +44,20 @@ public class ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponenPrope
   /**
    * Get serviceRanking
    * @return serviceRanking
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getServiceRanking() {
+   */
+  @Valid 
+  @Schema(name = "service.ranking", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("service.ranking")
+  public @Nullable ConfigNodePropertyInteger getServiceRanking() {
     return serviceRanking;
   }
 
-  public void setServiceRanking(ConfigNodePropertyInteger serviceRanking) {
+  @JsonProperty("service.ranking")
+  public void setServiceRanking(@Nullable ConfigNodePropertyInteger serviceRanking) {
     this.serviceRanking = serviceRanking;
   }
 
-  public ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponenProperties tagpattern(ConfigNodePropertyString tagpattern) {
+  public ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponenProperties tagpattern(@Nullable ConfigNodePropertyString tagpattern) {
     this.tagpattern = tagpattern;
     return this;
   }
@@ -54,20 +65,20 @@ public class ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponenPrope
   /**
    * Get tagpattern
    * @return tagpattern
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getTagpattern() {
+   */
+  @Valid 
+  @Schema(name = "tagpattern", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("tagpattern")
+  public @Nullable ConfigNodePropertyString getTagpattern() {
     return tagpattern;
   }
 
-  public void setTagpattern(ConfigNodePropertyString tagpattern) {
+  @JsonProperty("tagpattern")
+  public void setTagpattern(@Nullable ConfigNodePropertyString tagpattern) {
     this.tagpattern = tagpattern;
   }
 
-  public ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponenProperties componentResourceType(ConfigNodePropertyString componentResourceType) {
+  public ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponenProperties componentResourceType(@Nullable ConfigNodePropertyString componentResourceType) {
     this.componentResourceType = componentResourceType;
     return this;
   }
@@ -75,22 +86,21 @@ public class ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponenPrope
   /**
    * Get componentResourceType
    * @return componentResourceType
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getComponentResourceType() {
+   */
+  @Valid 
+  @Schema(name = "component.resourceType", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("component.resourceType")
+  public @Nullable ConfigNodePropertyString getComponentResourceType() {
     return componentResourceType;
   }
 
-  public void setComponentResourceType(ConfigNodePropertyString componentResourceType) {
+  @JsonProperty("component.resourceType")
+  public void setComponentResourceType(@Nullable ConfigNodePropertyString componentResourceType) {
     this.componentResourceType = componentResourceType;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -112,7 +122,6 @@ public class ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponenPrope
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponenProperties {\n");
-    
     sb.append("    serviceRanking: ").append(toIndentedString(serviceRanking)).append("\n");
     sb.append("    tagpattern: ").append(toIndentedString(tagpattern)).append("\n");
     sb.append("    componentResourceType: ").append(toIndentedString(componentResourceType)).append("\n");
@@ -124,11 +133,8 @@ public class ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponenPrope
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

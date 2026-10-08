@@ -72,10 +72,10 @@ private class OASComDayCqWcmDesignimporterImplMobiTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqWcmDesignimporterImplMobi comDayCqWcmDesignimporterImplMobileCanvasBuilderImplProperties = new OASComDayCqWcmDesignimporterImplMobi();
-        Map<String, String> propertyMappings = comDayCqWcmDesignimporterImplMobileCanvasBuilderImplProperties.getPropertyMappings();
-        System.assertEquals('deviceGroups', propertyMappings.get('device.groups'));
-        System.assertEquals('buildPageNodes', propertyMappings.get('build.page.nodes'));
-        System.assertEquals('buildClientLibs', propertyMappings.get('build.client.libs'));
-        System.assertEquals('buildCanvasComponent', propertyMappings.get('build.canvas.component'));
+        Map<String, String> x-property-mappings = comDayCqWcmDesignimporterImplMobileCanvasBuilderImplProperties.getx-property-mappings();
+        System.assertEquals('deviceGroups', x-property-mappings.get('device.groups'));
+        System.assertEquals('buildPageNodes', x-property-mappings.get('build.page.nodes'));
+        System.assertEquals('buildClientLibs', x-property-mappings.get('build.client.libs'));
+        System.assertEquals('buildCanvasComponent', x-property-mappings.get('build.canvas.component'));
     }
 }

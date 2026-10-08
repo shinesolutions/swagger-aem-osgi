@@ -1,0 +1,42 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqDamCoreImplServletHealthCheckServletProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqDamCoreImplServletHealthCheckServletProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComDayCqDamCoreImplServletHealthCheckServletProperties {
+    title = ComDayCqDamCoreImplServletHealthCheckServletProperties
+    description = ComDayCqDamCoreImplServletHealthCheckServletProperties
+    derivedFrom = Root
+    properties {
+        cq_dam_sync_workflow_id {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        cq_dam_sync_folder_types {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqDamCoreImplServletHealthCheckServletProperties {
+    title = ComDayCqDamCoreImplServletHealthCheckServletProperties
+    description = ComDayCqDamCoreImplServletHealthCheckServletProperties
+    implements = openapi_server.resourceTypes.ComDayCqDamCoreImplServletHealthCheckServletProperties
+
+  }
+}

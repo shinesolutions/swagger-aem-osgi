@@ -7,18 +7,18 @@ import org.openapitools.model.ComAdobeCqExperiencelogImplExperienceLogConfigServ
 
 @Canonical
 class ComAdobeCqExperiencelogImplExperienceLogConfigServletInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqExperiencelogImplExperienceLogConfigServletProperties properties = null
-
-    String additionalProperties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqExperiencelogImplExperienceLogConfigServletProperties properties
+    
+    String additionalProperties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

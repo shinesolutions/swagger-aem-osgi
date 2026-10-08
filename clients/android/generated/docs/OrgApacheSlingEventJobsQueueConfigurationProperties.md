@@ -1,7 +1,9 @@
 
+
 # OrgApacheSlingEventJobsQueueConfigurationProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **queueName** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
@@ -15,6 +17,7 @@ Name | Type | Description | Notes
 **queuePreferRunOnCreationInstance** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
 **queueThreadPoolSize** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
 **serviceRanking** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
+
 
 
 

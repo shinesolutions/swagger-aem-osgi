@@ -3,38 +3,53 @@ package apimodels;
 import apimodels.ConfigNodePropertyBoolean;
 import apimodels.ConfigNodePropertyInteger;
 import apimodels.ConfigNodePropertyString;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorProperties   {
   @JsonProperty("solr.zk.timeout")
-  private ConfigNodePropertyString solrZkTimeout = null;
+  @Valid
+
+  private ConfigNodePropertyString solrZkTimeout;
 
   @JsonProperty("solr.commit")
-  private ConfigNodePropertyString solrCommit = null;
+  @Valid
+
+  private ConfigNodePropertyString solrCommit;
 
   @JsonProperty("cache.on")
-  private ConfigNodePropertyBoolean cacheOn = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean cacheOn;
 
   @JsonProperty("concurrency.level")
-  private ConfigNodePropertyInteger concurrencyLevel = null;
+  @Valid
+
+  private ConfigNodePropertyInteger concurrencyLevel;
 
   @JsonProperty("cache.start.size")
-  private ConfigNodePropertyInteger cacheStartSize = null;
+  @Valid
+
+  private ConfigNodePropertyInteger cacheStartSize;
 
   @JsonProperty("cache.ttl")
-  private ConfigNodePropertyInteger cacheTtl = null;
+  @Valid
+
+  private ConfigNodePropertyInteger cacheTtl;
 
   @JsonProperty("cache.size")
-  private ConfigNodePropertyInteger cacheSize = null;
+  @Valid
+
+  private ConfigNodePropertyInteger cacheSize;
 
   public ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorProperties solrZkTimeout(ConfigNodePropertyString solrZkTimeout) {
     this.solrZkTimeout = solrZkTimeout;
@@ -45,7 +60,6 @@ public class ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorProp
    * Get solrZkTimeout
    * @return solrZkTimeout
   **/
-  @Valid
   public ConfigNodePropertyString getSolrZkTimeout() {
     return solrZkTimeout;
   }
@@ -63,7 +77,6 @@ public class ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorProp
    * Get solrCommit
    * @return solrCommit
   **/
-  @Valid
   public ConfigNodePropertyString getSolrCommit() {
     return solrCommit;
   }
@@ -81,7 +94,6 @@ public class ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorProp
    * Get cacheOn
    * @return cacheOn
   **/
-  @Valid
   public ConfigNodePropertyBoolean getCacheOn() {
     return cacheOn;
   }
@@ -99,7 +111,6 @@ public class ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorProp
    * Get concurrencyLevel
    * @return concurrencyLevel
   **/
-  @Valid
   public ConfigNodePropertyInteger getConcurrencyLevel() {
     return concurrencyLevel;
   }
@@ -117,7 +128,6 @@ public class ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorProp
    * Get cacheStartSize
    * @return cacheStartSize
   **/
-  @Valid
   public ConfigNodePropertyInteger getCacheStartSize() {
     return cacheStartSize;
   }
@@ -135,7 +145,6 @@ public class ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorProp
    * Get cacheTtl
    * @return cacheTtl
   **/
-  @Valid
   public ConfigNodePropertyInteger getCacheTtl() {
     return cacheTtl;
   }
@@ -153,7 +162,6 @@ public class ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorProp
    * Get cacheSize
    * @return cacheSize
   **/
-  @Valid
   public ConfigNodePropertyInteger getCacheSize() {
     return cacheSize;
   }
@@ -164,7 +172,7 @@ public class ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorProp
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -207,11 +215,8 @@ public class ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorProp
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

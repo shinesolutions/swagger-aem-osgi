@@ -1,7 +1,9 @@
 
+
 # OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterInfo
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **pid** | **String** |  |  [optional]
@@ -10,6 +12,7 @@ Name | Type | Description | Notes
 **properties** | [**OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterProperties**](OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterProperties.md) |  |  [optional]
 **bundleLocation** | **String** |  |  [optional]
 **serviceLocation** | **String** |  |  [optional]
+
 
 
 

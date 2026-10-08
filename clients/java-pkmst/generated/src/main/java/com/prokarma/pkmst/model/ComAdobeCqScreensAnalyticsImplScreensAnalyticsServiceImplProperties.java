@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyDropDown;
 import com.prokarma.pkmst.model.ConfigNodePropertyInteger;
 import com.prokarma.pkmst.model.ConfigNodePropertyString;
@@ -17,33 +18,32 @@ import io.swagger.annotations.ApiModelProperty;
  * ComAdobeCqScreensAnalyticsImplScreensAnalyticsServiceImplProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeCqScreensAnalyticsImplScreensAnalyticsServiceImplProperties   {
   @JsonProperty("com.adobe.cq.screens.analytics.impl.url")
-  private ConfigNodePropertyString comAdobeCqScreensAnalyticsImplUrl = null;
+  private ConfigNodePropertyString comAdobeCqScreensAnalyticsImplUrl;
 
   @JsonProperty("com.adobe.cq.screens.analytics.impl.apikey")
-  private ConfigNodePropertyString comAdobeCqScreensAnalyticsImplApikey = null;
+  private ConfigNodePropertyString comAdobeCqScreensAnalyticsImplApikey;
 
   @JsonProperty("com.adobe.cq.screens.analytics.impl.project")
-  private ConfigNodePropertyString comAdobeCqScreensAnalyticsImplProject = null;
+  private ConfigNodePropertyString comAdobeCqScreensAnalyticsImplProject;
 
   @JsonProperty("com.adobe.cq.screens.analytics.impl.environment")
-  private ConfigNodePropertyDropDown comAdobeCqScreensAnalyticsImplEnvironment = null;
+  private ConfigNodePropertyDropDown comAdobeCqScreensAnalyticsImplEnvironment;
 
   @JsonProperty("com.adobe.cq.screens.analytics.impl.sendFrequency")
-  private ConfigNodePropertyInteger comAdobeCqScreensAnalyticsImplSendFrequency = null;
+  private ConfigNodePropertyInteger comAdobeCqScreensAnalyticsImplSendFrequency;
 
   public ComAdobeCqScreensAnalyticsImplScreensAnalyticsServiceImplProperties comAdobeCqScreensAnalyticsImplUrl(ConfigNodePropertyString comAdobeCqScreensAnalyticsImplUrl) {
     this.comAdobeCqScreensAnalyticsImplUrl = comAdobeCqScreensAnalyticsImplUrl;
     return this;
   }
 
-   /**
+  /**
    * Get comAdobeCqScreensAnalyticsImplUrl
    * @return comAdobeCqScreensAnalyticsImplUrl
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getComAdobeCqScreensAnalyticsImplUrl() {
     return comAdobeCqScreensAnalyticsImplUrl;
@@ -58,10 +58,10 @@ public class ComAdobeCqScreensAnalyticsImplScreensAnalyticsServiceImplProperties
     return this;
   }
 
-   /**
+  /**
    * Get comAdobeCqScreensAnalyticsImplApikey
    * @return comAdobeCqScreensAnalyticsImplApikey
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getComAdobeCqScreensAnalyticsImplApikey() {
     return comAdobeCqScreensAnalyticsImplApikey;
@@ -76,10 +76,10 @@ public class ComAdobeCqScreensAnalyticsImplScreensAnalyticsServiceImplProperties
     return this;
   }
 
-   /**
+  /**
    * Get comAdobeCqScreensAnalyticsImplProject
    * @return comAdobeCqScreensAnalyticsImplProject
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getComAdobeCqScreensAnalyticsImplProject() {
     return comAdobeCqScreensAnalyticsImplProject;
@@ -94,10 +94,10 @@ public class ComAdobeCqScreensAnalyticsImplScreensAnalyticsServiceImplProperties
     return this;
   }
 
-   /**
+  /**
    * Get comAdobeCqScreensAnalyticsImplEnvironment
    * @return comAdobeCqScreensAnalyticsImplEnvironment
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyDropDown getComAdobeCqScreensAnalyticsImplEnvironment() {
     return comAdobeCqScreensAnalyticsImplEnvironment;
@@ -112,10 +112,10 @@ public class ComAdobeCqScreensAnalyticsImplScreensAnalyticsServiceImplProperties
     return this;
   }
 
-   /**
+  /**
    * Get comAdobeCqScreensAnalyticsImplSendFrequency
    * @return comAdobeCqScreensAnalyticsImplSendFrequency
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getComAdobeCqScreensAnalyticsImplSendFrequency() {
     return comAdobeCqScreensAnalyticsImplSendFrequency;
@@ -127,7 +127,7 @@ public class ComAdobeCqScreensAnalyticsImplScreensAnalyticsServiceImplProperties
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -165,11 +165,8 @@ public class ComAdobeCqScreensAnalyticsImplScreensAnalyticsServiceImplProperties
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

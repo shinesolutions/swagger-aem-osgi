@@ -1,36 +1,47 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComAdobeGraniteAuthOauthImplGraniteProviderProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComAdobeGraniteAuthOauthImplGraniteProviderProperties   {
-  @JsonProperty("oauth.provider.id")
-  private ConfigNodePropertyString oauthProviderId = null;
+@JsonTypeName("comAdobeGraniteAuthOauthImplGraniteProviderProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComAdobeGraniteAuthOauthImplGraniteProviderProperties {
 
-  @JsonProperty("oauth.provider.granite.authorization.url")
-  private ConfigNodePropertyString oauthProviderGraniteAuthorizationUrl = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString oauthProviderId;
 
-  @JsonProperty("oauth.provider.granite.token.url")
-  private ConfigNodePropertyString oauthProviderGraniteTokenUrl = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString oauthProviderGraniteAuthorizationUrl;
 
-  @JsonProperty("oauth.provider.granite.profile.url")
-  private ConfigNodePropertyString oauthProviderGraniteProfileUrl = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString oauthProviderGraniteTokenUrl;
 
-  @JsonProperty("oauth.provider.granite.extended.details.urls")
-  private ConfigNodePropertyString oauthProviderGraniteExtendedDetailsUrls = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString oauthProviderGraniteProfileUrl;
 
-  public ComAdobeGraniteAuthOauthImplGraniteProviderProperties oauthProviderId(ConfigNodePropertyString oauthProviderId) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString oauthProviderGraniteExtendedDetailsUrls;
+
+  public ComAdobeGraniteAuthOauthImplGraniteProviderProperties oauthProviderId(@Nullable ConfigNodePropertyString oauthProviderId) {
     this.oauthProviderId = oauthProviderId;
     return this;
   }
@@ -38,20 +49,20 @@ public class ComAdobeGraniteAuthOauthImplGraniteProviderProperties   {
   /**
    * Get oauthProviderId
    * @return oauthProviderId
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getOauthProviderId() {
+   */
+  @Valid 
+  @Schema(name = "oauth.provider.id", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("oauth.provider.id")
+  public @Nullable ConfigNodePropertyString getOauthProviderId() {
     return oauthProviderId;
   }
 
-  public void setOauthProviderId(ConfigNodePropertyString oauthProviderId) {
+  @JsonProperty("oauth.provider.id")
+  public void setOauthProviderId(@Nullable ConfigNodePropertyString oauthProviderId) {
     this.oauthProviderId = oauthProviderId;
   }
 
-  public ComAdobeGraniteAuthOauthImplGraniteProviderProperties oauthProviderGraniteAuthorizationUrl(ConfigNodePropertyString oauthProviderGraniteAuthorizationUrl) {
+  public ComAdobeGraniteAuthOauthImplGraniteProviderProperties oauthProviderGraniteAuthorizationUrl(@Nullable ConfigNodePropertyString oauthProviderGraniteAuthorizationUrl) {
     this.oauthProviderGraniteAuthorizationUrl = oauthProviderGraniteAuthorizationUrl;
     return this;
   }
@@ -59,20 +70,20 @@ public class ComAdobeGraniteAuthOauthImplGraniteProviderProperties   {
   /**
    * Get oauthProviderGraniteAuthorizationUrl
    * @return oauthProviderGraniteAuthorizationUrl
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getOauthProviderGraniteAuthorizationUrl() {
+   */
+  @Valid 
+  @Schema(name = "oauth.provider.granite.authorization.url", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("oauth.provider.granite.authorization.url")
+  public @Nullable ConfigNodePropertyString getOauthProviderGraniteAuthorizationUrl() {
     return oauthProviderGraniteAuthorizationUrl;
   }
 
-  public void setOauthProviderGraniteAuthorizationUrl(ConfigNodePropertyString oauthProviderGraniteAuthorizationUrl) {
+  @JsonProperty("oauth.provider.granite.authorization.url")
+  public void setOauthProviderGraniteAuthorizationUrl(@Nullable ConfigNodePropertyString oauthProviderGraniteAuthorizationUrl) {
     this.oauthProviderGraniteAuthorizationUrl = oauthProviderGraniteAuthorizationUrl;
   }
 
-  public ComAdobeGraniteAuthOauthImplGraniteProviderProperties oauthProviderGraniteTokenUrl(ConfigNodePropertyString oauthProviderGraniteTokenUrl) {
+  public ComAdobeGraniteAuthOauthImplGraniteProviderProperties oauthProviderGraniteTokenUrl(@Nullable ConfigNodePropertyString oauthProviderGraniteTokenUrl) {
     this.oauthProviderGraniteTokenUrl = oauthProviderGraniteTokenUrl;
     return this;
   }
@@ -80,20 +91,20 @@ public class ComAdobeGraniteAuthOauthImplGraniteProviderProperties   {
   /**
    * Get oauthProviderGraniteTokenUrl
    * @return oauthProviderGraniteTokenUrl
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getOauthProviderGraniteTokenUrl() {
+   */
+  @Valid 
+  @Schema(name = "oauth.provider.granite.token.url", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("oauth.provider.granite.token.url")
+  public @Nullable ConfigNodePropertyString getOauthProviderGraniteTokenUrl() {
     return oauthProviderGraniteTokenUrl;
   }
 
-  public void setOauthProviderGraniteTokenUrl(ConfigNodePropertyString oauthProviderGraniteTokenUrl) {
+  @JsonProperty("oauth.provider.granite.token.url")
+  public void setOauthProviderGraniteTokenUrl(@Nullable ConfigNodePropertyString oauthProviderGraniteTokenUrl) {
     this.oauthProviderGraniteTokenUrl = oauthProviderGraniteTokenUrl;
   }
 
-  public ComAdobeGraniteAuthOauthImplGraniteProviderProperties oauthProviderGraniteProfileUrl(ConfigNodePropertyString oauthProviderGraniteProfileUrl) {
+  public ComAdobeGraniteAuthOauthImplGraniteProviderProperties oauthProviderGraniteProfileUrl(@Nullable ConfigNodePropertyString oauthProviderGraniteProfileUrl) {
     this.oauthProviderGraniteProfileUrl = oauthProviderGraniteProfileUrl;
     return this;
   }
@@ -101,20 +112,20 @@ public class ComAdobeGraniteAuthOauthImplGraniteProviderProperties   {
   /**
    * Get oauthProviderGraniteProfileUrl
    * @return oauthProviderGraniteProfileUrl
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getOauthProviderGraniteProfileUrl() {
+   */
+  @Valid 
+  @Schema(name = "oauth.provider.granite.profile.url", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("oauth.provider.granite.profile.url")
+  public @Nullable ConfigNodePropertyString getOauthProviderGraniteProfileUrl() {
     return oauthProviderGraniteProfileUrl;
   }
 
-  public void setOauthProviderGraniteProfileUrl(ConfigNodePropertyString oauthProviderGraniteProfileUrl) {
+  @JsonProperty("oauth.provider.granite.profile.url")
+  public void setOauthProviderGraniteProfileUrl(@Nullable ConfigNodePropertyString oauthProviderGraniteProfileUrl) {
     this.oauthProviderGraniteProfileUrl = oauthProviderGraniteProfileUrl;
   }
 
-  public ComAdobeGraniteAuthOauthImplGraniteProviderProperties oauthProviderGraniteExtendedDetailsUrls(ConfigNodePropertyString oauthProviderGraniteExtendedDetailsUrls) {
+  public ComAdobeGraniteAuthOauthImplGraniteProviderProperties oauthProviderGraniteExtendedDetailsUrls(@Nullable ConfigNodePropertyString oauthProviderGraniteExtendedDetailsUrls) {
     this.oauthProviderGraniteExtendedDetailsUrls = oauthProviderGraniteExtendedDetailsUrls;
     return this;
   }
@@ -122,22 +133,21 @@ public class ComAdobeGraniteAuthOauthImplGraniteProviderProperties   {
   /**
    * Get oauthProviderGraniteExtendedDetailsUrls
    * @return oauthProviderGraniteExtendedDetailsUrls
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getOauthProviderGraniteExtendedDetailsUrls() {
+   */
+  @Valid 
+  @Schema(name = "oauth.provider.granite.extended.details.urls", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("oauth.provider.granite.extended.details.urls")
+  public @Nullable ConfigNodePropertyString getOauthProviderGraniteExtendedDetailsUrls() {
     return oauthProviderGraniteExtendedDetailsUrls;
   }
 
-  public void setOauthProviderGraniteExtendedDetailsUrls(ConfigNodePropertyString oauthProviderGraniteExtendedDetailsUrls) {
+  @JsonProperty("oauth.provider.granite.extended.details.urls")
+  public void setOauthProviderGraniteExtendedDetailsUrls(@Nullable ConfigNodePropertyString oauthProviderGraniteExtendedDetailsUrls) {
     this.oauthProviderGraniteExtendedDetailsUrls = oauthProviderGraniteExtendedDetailsUrls;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -161,7 +171,6 @@ public class ComAdobeGraniteAuthOauthImplGraniteProviderProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComAdobeGraniteAuthOauthImplGraniteProviderProperties {\n");
-    
     sb.append("    oauthProviderId: ").append(toIndentedString(oauthProviderId)).append("\n");
     sb.append("    oauthProviderGraniteAuthorizationUrl: ").append(toIndentedString(oauthProviderGraniteAuthorizationUrl)).append("\n");
     sb.append("    oauthProviderGraniteTokenUrl: ").append(toIndentedString(oauthProviderGraniteTokenUrl)).append("\n");
@@ -175,11 +184,8 @@ public class ComAdobeGraniteAuthOauthImplGraniteProviderProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

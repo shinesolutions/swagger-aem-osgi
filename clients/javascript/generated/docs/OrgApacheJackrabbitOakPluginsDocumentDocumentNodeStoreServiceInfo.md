@@ -1,6 +1,7 @@
 # NodeSwaggerAemOsgi.OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceInfo
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **pid** | **String** |  | [optional] 

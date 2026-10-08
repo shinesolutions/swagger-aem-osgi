@@ -8,8 +8,8 @@ import org.openapitools.model.ConfigNodePropertyBoolean;
 
 @Canonical
 class ComDayCqWcmFoundationFormsImplFormParagraphPostProcessorProperties {
-    ConfigNodePropertyBoolean formsFormparagraphpostprocessorEnabled = null
-
-    ConfigNodePropertyArray formsFormparagraphpostprocessorFormresourcetypes = null
-
+    
+    ConfigNodePropertyBoolean formsFormparagraphpostprocessorEnabled
+    
+    ConfigNodePropertyArray formsFormparagraphpostprocessorFormresourcetypes
 }

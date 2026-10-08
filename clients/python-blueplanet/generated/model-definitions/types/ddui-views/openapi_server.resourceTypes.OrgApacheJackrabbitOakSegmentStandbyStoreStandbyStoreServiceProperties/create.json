@@ -1,0 +1,25 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "org_apache_sling_installer_configuration_persist" },
+      {"model": "mode" },
+      {"model": "port" },
+      {"model": "primary_host" },
+      {"model": "interval" },
+      {"model": "primary_allowed_client_ip_ranges" },
+      {"model": "secure" },
+      {"model": "standby_readtimeout" },
+      {"model": "standby_autoclean" },
+    ]
+  }]
+}

@@ -72,13 +72,13 @@ private class OASOrgApacheSlingEngineParametersProTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASOrgApacheSlingEngineParametersPro orgApacheSlingEngineParametersProperties = new OASOrgApacheSlingEngineParametersPro();
-        Map<String, String> propertyMappings = orgApacheSlingEngineParametersProperties.getPropertyMappings();
-        System.assertEquals('slingDefaultParameterEncoding', propertyMappings.get('sling.default.parameter.encoding'));
-        System.assertEquals('slingDefaultMaxParameters', propertyMappings.get('sling.default.max.parameters'));
-        System.assertEquals('fileLocation', propertyMappings.get('file.location'));
-        System.assertEquals('fileThreshold', propertyMappings.get('file.threshold'));
-        System.assertEquals('fileMax', propertyMappings.get('file.max'));
-        System.assertEquals('requestMax', propertyMappings.get('request.max'));
-        System.assertEquals('slingDefaultParameterCheckForAdditionalContainerParameters', propertyMappings.get('sling.default.parameter.checkForAdditionalContainerParameters'));
+        Map<String, String> x-property-mappings = orgApacheSlingEngineParametersProperties.getx-property-mappings();
+        System.assertEquals('slingDefaultParameterEncoding', x-property-mappings.get('sling.default.parameter.encoding'));
+        System.assertEquals('slingDefaultMaxParameters', x-property-mappings.get('sling.default.max.parameters'));
+        System.assertEquals('fileLocation', x-property-mappings.get('file.location'));
+        System.assertEquals('fileThreshold', x-property-mappings.get('file.threshold'));
+        System.assertEquals('fileMax', x-property-mappings.get('file.max'));
+        System.assertEquals('requestMax', x-property-mappings.get('request.max'));
+        System.assertEquals('slingDefaultParameterCheckForAdditionalContainerParameters', x-property-mappings.get('sling.default.parameter.checkForAdditionalContainerParameters'));
     }
 }

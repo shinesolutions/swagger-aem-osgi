@@ -2,35 +2,48 @@ package apimodels;
 
 import apimodels.ConfigNodePropertyBoolean;
 import apimodels.ConfigNodePropertyString;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * ComDayCqDamIdsImplIDSJobProcessorProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class ComDayCqDamIdsImplIDSJobProcessorProperties   {
   @JsonProperty("enable.multisession")
-  private ConfigNodePropertyBoolean enableMultisession = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean enableMultisession;
 
   @JsonProperty("ids.cc.enable")
-  private ConfigNodePropertyBoolean idsCcEnable = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean idsCcEnable;
 
   @JsonProperty("enable.retry")
-  private ConfigNodePropertyBoolean enableRetry = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean enableRetry;
 
   @JsonProperty("enable.retry.scripterror")
-  private ConfigNodePropertyBoolean enableRetryScripterror = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean enableRetryScripterror;
 
   @JsonProperty("externalizer.domain.cqhost")
-  private ConfigNodePropertyString externalizerDomainCqhost = null;
+  @Valid
+
+  private ConfigNodePropertyString externalizerDomainCqhost;
 
   @JsonProperty("externalizer.domain.http")
-  private ConfigNodePropertyString externalizerDomainHttp = null;
+  @Valid
+
+  private ConfigNodePropertyString externalizerDomainHttp;
 
   public ComDayCqDamIdsImplIDSJobProcessorProperties enableMultisession(ConfigNodePropertyBoolean enableMultisession) {
     this.enableMultisession = enableMultisession;
@@ -41,7 +54,6 @@ public class ComDayCqDamIdsImplIDSJobProcessorProperties   {
    * Get enableMultisession
    * @return enableMultisession
   **/
-  @Valid
   public ConfigNodePropertyBoolean getEnableMultisession() {
     return enableMultisession;
   }
@@ -59,7 +71,6 @@ public class ComDayCqDamIdsImplIDSJobProcessorProperties   {
    * Get idsCcEnable
    * @return idsCcEnable
   **/
-  @Valid
   public ConfigNodePropertyBoolean getIdsCcEnable() {
     return idsCcEnable;
   }
@@ -77,7 +88,6 @@ public class ComDayCqDamIdsImplIDSJobProcessorProperties   {
    * Get enableRetry
    * @return enableRetry
   **/
-  @Valid
   public ConfigNodePropertyBoolean getEnableRetry() {
     return enableRetry;
   }
@@ -95,7 +105,6 @@ public class ComDayCqDamIdsImplIDSJobProcessorProperties   {
    * Get enableRetryScripterror
    * @return enableRetryScripterror
   **/
-  @Valid
   public ConfigNodePropertyBoolean getEnableRetryScripterror() {
     return enableRetryScripterror;
   }
@@ -113,7 +122,6 @@ public class ComDayCqDamIdsImplIDSJobProcessorProperties   {
    * Get externalizerDomainCqhost
    * @return externalizerDomainCqhost
   **/
-  @Valid
   public ConfigNodePropertyString getExternalizerDomainCqhost() {
     return externalizerDomainCqhost;
   }
@@ -131,7 +139,6 @@ public class ComDayCqDamIdsImplIDSJobProcessorProperties   {
    * Get externalizerDomainHttp
    * @return externalizerDomainHttp
   **/
-  @Valid
   public ConfigNodePropertyString getExternalizerDomainHttp() {
     return externalizerDomainHttp;
   }
@@ -142,7 +149,7 @@ public class ComDayCqDamIdsImplIDSJobProcessorProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -183,11 +190,8 @@ public class ComDayCqDamIdsImplIDSJobProcessorProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -7,12 +7,12 @@ import org.openapitools.model.OrgApacheSlingStartupfilterImplStartupFilterImplPr
 
 @Canonical
 class OrgApacheSlingStartupfilterImplStartupFilterImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheSlingStartupfilterImplStartupFilterImplProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheSlingStartupfilterImplStartupFilterImplProperties properties
 }

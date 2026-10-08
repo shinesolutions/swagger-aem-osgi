@@ -2,16 +2,17 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**sling_auth_requirements** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **sling_auth_requirements** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComDayCqWcmFoundationImplPageImpressionsTrackerProperties.new(sling_auth_requirements: null)
+instance = SwaggerAemOsgiClient::ComDayCqWcmFoundationImplPageImpressionsTrackerProperties.new(
+  sling_auth_requirements: null
+)
 ```
-
 

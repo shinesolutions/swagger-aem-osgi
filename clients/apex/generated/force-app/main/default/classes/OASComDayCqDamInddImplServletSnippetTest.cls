@@ -72,7 +72,7 @@ private class OASComDayCqDamInddImplServletSnippetTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqDamInddImplServletSnippet comDayCqDamInddImplServletSnippetCreationServletProperties = new OASComDayCqDamInddImplServletSnippet();
-        Map<String, String> propertyMappings = comDayCqDamInddImplServletSnippetCreationServletProperties.getPropertyMappings();
-        System.assertEquals('snippetcreationMaxcollections', propertyMappings.get('snippetcreation.maxcollections'));
+        Map<String, String> x-property-mappings = comDayCqDamInddImplServletSnippetCreationServletProperties.getx-property-mappings();
+        System.assertEquals('snippetcreationMaxcollections', x-property-mappings.get('snippetcreation.maxcollections'));
     }
 }

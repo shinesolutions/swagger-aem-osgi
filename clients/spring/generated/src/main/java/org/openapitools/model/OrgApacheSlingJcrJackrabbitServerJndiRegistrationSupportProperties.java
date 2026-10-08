@@ -1,27 +1,38 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * OrgApacheSlingJcrJackrabbitServerJndiRegistrationSupportProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class OrgApacheSlingJcrJackrabbitServerJndiRegistrationSupportProperties   {
-  @JsonProperty("java.naming.factory.initial")
-  private ConfigNodePropertyString javaNamingFactoryInitial = null;
+@JsonTypeName("orgApacheSlingJcrJackrabbitServerJndiRegistrationSupportProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class OrgApacheSlingJcrJackrabbitServerJndiRegistrationSupportProperties {
 
-  @JsonProperty("java.naming.provider.url")
-  private ConfigNodePropertyString javaNamingProviderUrl = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString javaNamingFactoryInitial;
 
-  public OrgApacheSlingJcrJackrabbitServerJndiRegistrationSupportProperties javaNamingFactoryInitial(ConfigNodePropertyString javaNamingFactoryInitial) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString javaNamingProviderUrl;
+
+  public OrgApacheSlingJcrJackrabbitServerJndiRegistrationSupportProperties javaNamingFactoryInitial(@Nullable ConfigNodePropertyString javaNamingFactoryInitial) {
     this.javaNamingFactoryInitial = javaNamingFactoryInitial;
     return this;
   }
@@ -29,20 +40,20 @@ public class OrgApacheSlingJcrJackrabbitServerJndiRegistrationSupportProperties 
   /**
    * Get javaNamingFactoryInitial
    * @return javaNamingFactoryInitial
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getJavaNamingFactoryInitial() {
+   */
+  @Valid 
+  @Schema(name = "java.naming.factory.initial", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("java.naming.factory.initial")
+  public @Nullable ConfigNodePropertyString getJavaNamingFactoryInitial() {
     return javaNamingFactoryInitial;
   }
 
-  public void setJavaNamingFactoryInitial(ConfigNodePropertyString javaNamingFactoryInitial) {
+  @JsonProperty("java.naming.factory.initial")
+  public void setJavaNamingFactoryInitial(@Nullable ConfigNodePropertyString javaNamingFactoryInitial) {
     this.javaNamingFactoryInitial = javaNamingFactoryInitial;
   }
 
-  public OrgApacheSlingJcrJackrabbitServerJndiRegistrationSupportProperties javaNamingProviderUrl(ConfigNodePropertyString javaNamingProviderUrl) {
+  public OrgApacheSlingJcrJackrabbitServerJndiRegistrationSupportProperties javaNamingProviderUrl(@Nullable ConfigNodePropertyString javaNamingProviderUrl) {
     this.javaNamingProviderUrl = javaNamingProviderUrl;
     return this;
   }
@@ -50,22 +61,21 @@ public class OrgApacheSlingJcrJackrabbitServerJndiRegistrationSupportProperties 
   /**
    * Get javaNamingProviderUrl
    * @return javaNamingProviderUrl
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getJavaNamingProviderUrl() {
+   */
+  @Valid 
+  @Schema(name = "java.naming.provider.url", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("java.naming.provider.url")
+  public @Nullable ConfigNodePropertyString getJavaNamingProviderUrl() {
     return javaNamingProviderUrl;
   }
 
-  public void setJavaNamingProviderUrl(ConfigNodePropertyString javaNamingProviderUrl) {
+  @JsonProperty("java.naming.provider.url")
+  public void setJavaNamingProviderUrl(@Nullable ConfigNodePropertyString javaNamingProviderUrl) {
     this.javaNamingProviderUrl = javaNamingProviderUrl;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -86,7 +96,6 @@ public class OrgApacheSlingJcrJackrabbitServerJndiRegistrationSupportProperties 
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class OrgApacheSlingJcrJackrabbitServerJndiRegistrationSupportProperties {\n");
-    
     sb.append("    javaNamingFactoryInitial: ").append(toIndentedString(javaNamingFactoryInitial)).append("\n");
     sb.append("    javaNamingProviderUrl: ").append(toIndentedString(javaNamingProviderUrl)).append("\n");
     sb.append("}");
@@ -97,11 +106,8 @@ public class OrgApacheSlingJcrJackrabbitServerJndiRegistrationSupportProperties 
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

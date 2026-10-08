@@ -4,22 +4,26 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2019-08-05T00:59:30.156Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2026-10-07T12:54:21.614735164Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteTranslationCoreImplTranslationManagerImplProperties   {
   
-  private ConfigNodePropertyString defaultConnectorName = null;
-  private ConfigNodePropertyString defaultCategory = null;
+  private ConfigNodePropertyString defaultConnectorName;
+  private ConfigNodePropertyString defaultCategory;
 
   /**
    **/
   
   @ApiModelProperty(value = "")
   @JsonProperty("defaultConnectorName")
+  @Valid
   public ConfigNodePropertyString getDefaultConnectorName() {
     return defaultConnectorName;
   }
@@ -32,6 +36,7 @@ public class ComAdobeGraniteTranslationCoreImplTranslationManagerImplProperties 
   
   @ApiModelProperty(value = "")
   @JsonProperty("defaultCategory")
+  @Valid
   public ConfigNodePropertyString getDefaultCategory() {
     return defaultCategory;
   }
@@ -41,7 +46,7 @@ public class ComAdobeGraniteTranslationCoreImplTranslationManagerImplProperties 
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -49,8 +54,8 @@ public class ComAdobeGraniteTranslationCoreImplTranslationManagerImplProperties 
       return false;
     }
     ComAdobeGraniteTranslationCoreImplTranslationManagerImplProperties comAdobeGraniteTranslationCoreImplTranslationManagerImplProperties = (ComAdobeGraniteTranslationCoreImplTranslationManagerImplProperties) o;
-    return Objects.equals(defaultConnectorName, comAdobeGraniteTranslationCoreImplTranslationManagerImplProperties.defaultConnectorName) &&
-        Objects.equals(defaultCategory, comAdobeGraniteTranslationCoreImplTranslationManagerImplProperties.defaultCategory);
+    return Objects.equals(this.defaultConnectorName, comAdobeGraniteTranslationCoreImplTranslationManagerImplProperties.defaultConnectorName) &&
+        Objects.equals(this.defaultCategory, comAdobeGraniteTranslationCoreImplTranslationManagerImplProperties.defaultCategory);
   }
 
   @Override
@@ -73,11 +78,8 @@ public class ComAdobeGraniteTranslationCoreImplTranslationManagerImplProperties 
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

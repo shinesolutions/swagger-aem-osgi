@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqWcmWorkflowImplWorkflowPackageInfoProvider
 
 @Canonical
 class ComDayCqWcmWorkflowImplWorkflowPackageInfoProviderInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqWcmWorkflowImplWorkflowPackageInfoProviderProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqWcmWorkflowImplWorkflowPackageInfoProviderProperties properties
 }

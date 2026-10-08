@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeGraniteSystemMonitoringImplSystemStatsMBea
 
 @Canonical
 class ComAdobeGraniteSystemMonitoringImplSystemStatsMBeanImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteSystemMonitoringImplSystemStatsMBeanImplProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteSystemMonitoringImplSystemStatsMBeanImplProperties properties
 }

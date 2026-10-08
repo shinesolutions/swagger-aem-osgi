@@ -72,7 +72,7 @@ private class OASComAdobeGraniteI18nImplPreferenceTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeGraniteI18nImplPreference comAdobeGraniteI18nImplPreferencesLocaleResolverServiceProperties = new OASComAdobeGraniteI18nImplPreference();
-        Map<String, String> propertyMappings = comAdobeGraniteI18nImplPreferencesLocaleResolverServiceProperties.getPropertyMappings();
-        System.assertEquals('securityPreferencesName', propertyMappings.get('security.preferences.name'));
+        Map<String, String> x-property-mappings = comAdobeGraniteI18nImplPreferencesLocaleResolverServiceProperties.getx-property-mappings();
+        System.assertEquals('securityPreferencesName', x-property-mappings.get('security.preferences.name'));
     }
 }

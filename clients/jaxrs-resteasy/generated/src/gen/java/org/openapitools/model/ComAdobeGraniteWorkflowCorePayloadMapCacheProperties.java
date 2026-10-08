@@ -4,23 +4,27 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2019-08-05T00:59:30.156Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2026-10-07T12:54:21.614735164Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteWorkflowCorePayloadMapCacheProperties   {
   
-  private ConfigNodePropertyArray getSystemWorkflowModels = null;
-  private ConfigNodePropertyString getPackageRootPath = null;
+  private ConfigNodePropertyArray getSystemWorkflowModels;
+  private ConfigNodePropertyString getPackageRootPath;
 
   /**
    **/
   
   @ApiModelProperty(value = "")
   @JsonProperty("getSystemWorkflowModels")
+  @Valid
   public ConfigNodePropertyArray getGetSystemWorkflowModels() {
     return getSystemWorkflowModels;
   }
@@ -33,6 +37,7 @@ public class ComAdobeGraniteWorkflowCorePayloadMapCacheProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("getPackageRootPath")
+  @Valid
   public ConfigNodePropertyString getGetPackageRootPath() {
     return getPackageRootPath;
   }
@@ -42,7 +47,7 @@ public class ComAdobeGraniteWorkflowCorePayloadMapCacheProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -50,8 +55,8 @@ public class ComAdobeGraniteWorkflowCorePayloadMapCacheProperties   {
       return false;
     }
     ComAdobeGraniteWorkflowCorePayloadMapCacheProperties comAdobeGraniteWorkflowCorePayloadMapCacheProperties = (ComAdobeGraniteWorkflowCorePayloadMapCacheProperties) o;
-    return Objects.equals(getSystemWorkflowModels, comAdobeGraniteWorkflowCorePayloadMapCacheProperties.getSystemWorkflowModels) &&
-        Objects.equals(getPackageRootPath, comAdobeGraniteWorkflowCorePayloadMapCacheProperties.getPackageRootPath);
+    return Objects.equals(this.getSystemWorkflowModels, comAdobeGraniteWorkflowCorePayloadMapCacheProperties.getSystemWorkflowModels) &&
+        Objects.equals(this.getPackageRootPath, comAdobeGraniteWorkflowCorePayloadMapCacheProperties.getPackageRootPath);
   }
 
   @Override
@@ -74,11 +79,8 @@ public class ComAdobeGraniteWorkflowCorePayloadMapCacheProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

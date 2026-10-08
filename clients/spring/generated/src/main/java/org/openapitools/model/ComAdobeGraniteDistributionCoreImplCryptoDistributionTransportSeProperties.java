@@ -1,30 +1,41 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSeProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSeProperties   {
-  @JsonProperty("name")
-  private ConfigNodePropertyString name = null;
+@JsonTypeName("comAdobeGraniteDistributionCoreImplCryptoDistributionTransportSeProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSeProperties {
 
-  @JsonProperty("username")
-  private ConfigNodePropertyString username = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString name;
 
-  @JsonProperty("encryptedPassword")
-  private ConfigNodePropertyString encryptedPassword = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString username;
 
-  public ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSeProperties name(ConfigNodePropertyString name) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString encryptedPassword;
+
+  public ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSeProperties name(@Nullable ConfigNodePropertyString name) {
     this.name = name;
     return this;
   }
@@ -32,20 +43,20 @@ public class ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSePro
   /**
    * Get name
    * @return name
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getName() {
+   */
+  @Valid 
+  @Schema(name = "name", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("name")
+  public @Nullable ConfigNodePropertyString getName() {
     return name;
   }
 
-  public void setName(ConfigNodePropertyString name) {
+  @JsonProperty("name")
+  public void setName(@Nullable ConfigNodePropertyString name) {
     this.name = name;
   }
 
-  public ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSeProperties username(ConfigNodePropertyString username) {
+  public ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSeProperties username(@Nullable ConfigNodePropertyString username) {
     this.username = username;
     return this;
   }
@@ -53,20 +64,20 @@ public class ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSePro
   /**
    * Get username
    * @return username
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getUsername() {
+   */
+  @Valid 
+  @Schema(name = "username", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("username")
+  public @Nullable ConfigNodePropertyString getUsername() {
     return username;
   }
 
-  public void setUsername(ConfigNodePropertyString username) {
+  @JsonProperty("username")
+  public void setUsername(@Nullable ConfigNodePropertyString username) {
     this.username = username;
   }
 
-  public ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSeProperties encryptedPassword(ConfigNodePropertyString encryptedPassword) {
+  public ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSeProperties encryptedPassword(@Nullable ConfigNodePropertyString encryptedPassword) {
     this.encryptedPassword = encryptedPassword;
     return this;
   }
@@ -74,22 +85,21 @@ public class ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSePro
   /**
    * Get encryptedPassword
    * @return encryptedPassword
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getEncryptedPassword() {
+   */
+  @Valid 
+  @Schema(name = "encryptedPassword", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("encryptedPassword")
+  public @Nullable ConfigNodePropertyString getEncryptedPassword() {
     return encryptedPassword;
   }
 
-  public void setEncryptedPassword(ConfigNodePropertyString encryptedPassword) {
+  @JsonProperty("encryptedPassword")
+  public void setEncryptedPassword(@Nullable ConfigNodePropertyString encryptedPassword) {
     this.encryptedPassword = encryptedPassword;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -111,7 +121,6 @@ public class ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSePro
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSeProperties {\n");
-    
     sb.append("    name: ").append(toIndentedString(name)).append("\n");
     sb.append("    username: ").append(toIndentedString(username)).append("\n");
     sb.append("    encryptedPassword: ").append(toIndentedString(encryptedPassword)).append("\n");
@@ -123,11 +132,8 @@ public class ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSePro
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

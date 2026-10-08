@@ -1,20 +1,23 @@
 package apimodels;
 
 import apimodels.ConfigNodePropertyDropDown;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * ComAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImpProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class ComAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImpProperties   {
   @JsonProperty("tempStorageConfig")
-  private ConfigNodePropertyDropDown tempStorageConfig = null;
+  @Valid
+
+  private ConfigNodePropertyDropDown tempStorageConfig;
 
   public ComAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImpProperties tempStorageConfig(ConfigNodePropertyDropDown tempStorageConfig) {
     this.tempStorageConfig = tempStorageConfig;
@@ -25,7 +28,6 @@ public class ComAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImpPro
    * Get tempStorageConfig
    * @return tempStorageConfig
   **/
-  @Valid
   public ConfigNodePropertyDropDown getTempStorageConfig() {
     return tempStorageConfig;
   }
@@ -36,7 +38,7 @@ public class ComAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImpPro
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -67,11 +69,8 @@ public class ComAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImpPro
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

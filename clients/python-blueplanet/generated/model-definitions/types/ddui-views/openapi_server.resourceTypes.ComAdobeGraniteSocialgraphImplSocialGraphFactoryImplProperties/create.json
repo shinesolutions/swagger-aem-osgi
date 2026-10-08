@@ -1,0 +1,20 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "group2member_relationship_outgoing" },
+      {"model": "group2member_excluded_outgoing" },
+      {"model": "group2member_relationship_incoming" },
+      {"model": "group2member_excluded_incoming" },
+    ]
+  }]
+}

@@ -72,18 +72,18 @@ private class OASOrgApacheSlingDistributionAgentImTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASOrgApacheSlingDistributionAgentIm orgApacheSlingDistributionAgentImplSyncDistributionAgentFactoryProperties = new OASOrgApacheSlingDistributionAgentIm();
-        Map<String, String> propertyMappings = orgApacheSlingDistributionAgentImplSyncDistributionAgentFactoryProperties.getPropertyMappings();
-        System.assertEquals('logLevel', propertyMappings.get('log.level'));
-        System.assertEquals('queueProcessingEnabled', propertyMappings.get('queue.processing.enabled'));
-        System.assertEquals('packageExporterEndpoints', propertyMappings.get('packageExporter.endpoints'));
-        System.assertEquals('packageImporterEndpoints', propertyMappings.get('packageImporter.endpoints'));
-        System.assertEquals('retryStrategy', propertyMappings.get('retry.strategy'));
-        System.assertEquals('retryAttempts', propertyMappings.get('retry.attempts'));
-        System.assertEquals('pullItems', propertyMappings.get('pull.items'));
-        System.assertEquals('httpConnTimeout', propertyMappings.get('http.conn.timeout'));
-        System.assertEquals('requestAuthorizationStrategyTarget', propertyMappings.get('requestAuthorizationStrategy.target'));
-        System.assertEquals('transportSecretProviderTarget', propertyMappings.get('transportSecretProvider.target'));
-        System.assertEquals('packageBuilderTarget', propertyMappings.get('packageBuilder.target'));
-        System.assertEquals('triggersTarget', propertyMappings.get('triggers.target'));
+        Map<String, String> x-property-mappings = orgApacheSlingDistributionAgentImplSyncDistributionAgentFactoryProperties.getx-property-mappings();
+        System.assertEquals('logLevel', x-property-mappings.get('log.level'));
+        System.assertEquals('queueProcessingEnabled', x-property-mappings.get('queue.processing.enabled'));
+        System.assertEquals('packageExporterEndpoints', x-property-mappings.get('packageExporter.endpoints'));
+        System.assertEquals('packageImporterEndpoints', x-property-mappings.get('packageImporter.endpoints'));
+        System.assertEquals('retryStrategy', x-property-mappings.get('retry.strategy'));
+        System.assertEquals('retryAttempts', x-property-mappings.get('retry.attempts'));
+        System.assertEquals('pullItems', x-property-mappings.get('pull.items'));
+        System.assertEquals('httpConnTimeout', x-property-mappings.get('http.conn.timeout'));
+        System.assertEquals('requestAuthorizationStrategyTarget', x-property-mappings.get('requestAuthorizationStrategy.target'));
+        System.assertEquals('transportSecretProviderTarget', x-property-mappings.get('transportSecretProvider.target'));
+        System.assertEquals('packageBuilderTarget', x-property-mappings.get('packageBuilder.target'));
+        System.assertEquals('triggersTarget', x-property-mappings.get('triggers.target'));
     }
 }

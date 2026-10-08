@@ -1,7 +1,9 @@
 
+
 # ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **serviceRanking** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
@@ -37,6 +39,7 @@ Name | Type | Description | Notes
 **clusterReconnectAttempts** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
 **clusterRetryInterval** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
 **clusterRetryIntervalMultiplier** | [**ConfigNodePropertyFloat**](ConfigNodePropertyFloat.md) |  |  [optional]
+
 
 
 

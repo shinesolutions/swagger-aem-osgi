@@ -7,12 +7,12 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeGraniteAuthOauthImplGithubProviderImplProperties {
-    ConfigNodePropertyString oauthProviderId = null
-
-    ConfigNodePropertyString oauthProviderGithubAuthorizationUrl = null
-
-    ConfigNodePropertyString oauthProviderGithubTokenUrl = null
-
-    ConfigNodePropertyString oauthProviderGithubProfileUrl = null
-
+    
+    ConfigNodePropertyString oauthProviderId
+    
+    ConfigNodePropertyString oauthProviderGithubAuthorizationUrl
+    
+    ConfigNodePropertyString oauthProviderGithubTokenUrl
+    
+    ConfigNodePropertyString oauthProviderGithubProfileUrl
 }

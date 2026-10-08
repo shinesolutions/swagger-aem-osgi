@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeGraniteAuthSsoImplSsoAuthenticationHandlerInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeGraniteAuthSsoImplSsoAuthenticationHandlerInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComAdobeGraniteAuthSsoImplSsoAuthenticationHandlerProperties = openapi_server.resourceTypes.ComAdobeGraniteAuthSsoImplSsoAuthenticationHandlerProperties
+}
+resourceTypes {
+
+  ComAdobeGraniteAuthSsoImplSsoAuthenticationHandlerInfo {
+    title = ComAdobeGraniteAuthSsoImplSsoAuthenticationHandlerInfo
+    description = ComAdobeGraniteAuthSsoImplSsoAuthenticationHandlerInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComAdobeGraniteAuthSsoImplSsoAuthenticationHandlerProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeGraniteAuthSsoImplSsoAuthenticationHandlerInfo {
+    title = ComAdobeGraniteAuthSsoImplSsoAuthenticationHandlerInfo
+    description = ComAdobeGraniteAuthSsoImplSsoAuthenticationHandlerInfo
+    implements = openapi_server.resourceTypes.ComAdobeGraniteAuthSsoImplSsoAuthenticationHandlerInfo
+
+  }
+}

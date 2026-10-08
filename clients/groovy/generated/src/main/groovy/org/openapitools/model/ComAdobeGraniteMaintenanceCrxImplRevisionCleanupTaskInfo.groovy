@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeGraniteMaintenanceCrxImplRevisionCleanupTa
 
 @Canonical
 class ComAdobeGraniteMaintenanceCrxImplRevisionCleanupTaskInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteMaintenanceCrxImplRevisionCleanupTaskProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteMaintenanceCrxImplRevisionCleanupTaskProperties properties
 }

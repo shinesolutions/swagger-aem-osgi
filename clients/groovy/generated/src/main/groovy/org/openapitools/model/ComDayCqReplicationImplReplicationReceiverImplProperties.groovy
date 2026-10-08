@@ -8,8 +8,8 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class ComDayCqReplicationImplReplicationReceiverImplProperties {
-    ConfigNodePropertyInteger receiverTmpfileThreshold = null
-
-    ConfigNodePropertyBoolean receiverPackagesUseInstall = null
-
+    
+    ConfigNodePropertyInteger receiverTmpfileThreshold
+    
+    ConfigNodePropertyBoolean receiverPackagesUseInstall
 }

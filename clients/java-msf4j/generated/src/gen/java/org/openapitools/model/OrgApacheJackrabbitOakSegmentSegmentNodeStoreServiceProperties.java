@@ -3,6 +3,7 @@ package org.openapitools.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyBoolean;
@@ -12,79 +13,79 @@ import org.openapitools.model.ConfigNodePropertyString;
 /**
  * OrgApacheJackrabbitOakSegmentSegmentNodeStoreServiceProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaMSF4JServerCodegen", date = "2019-08-05T00:54:29.762Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaMSF4JServerCodegen", date = "2026-10-07T12:53:29.980508721Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheJackrabbitOakSegmentSegmentNodeStoreServiceProperties   {
   @JsonProperty("repository.home")
-  private ConfigNodePropertyString repositoryHome = null;
+  private ConfigNodePropertyString repositoryHome;
 
   @JsonProperty("tarmk.mode")
-  private ConfigNodePropertyString tarmkMode = null;
+  private ConfigNodePropertyString tarmkMode;
 
   @JsonProperty("tarmk.size")
-  private ConfigNodePropertyInteger tarmkSize = null;
+  private ConfigNodePropertyInteger tarmkSize;
 
   @JsonProperty("segmentCache.size")
-  private ConfigNodePropertyInteger segmentCacheSize = null;
+  private ConfigNodePropertyInteger segmentCacheSize;
 
   @JsonProperty("stringCache.size")
-  private ConfigNodePropertyInteger stringCacheSize = null;
+  private ConfigNodePropertyInteger stringCacheSize;
 
   @JsonProperty("templateCache.size")
-  private ConfigNodePropertyInteger templateCacheSize = null;
+  private ConfigNodePropertyInteger templateCacheSize;
 
   @JsonProperty("stringDeduplicationCache.size")
-  private ConfigNodePropertyInteger stringDeduplicationCacheSize = null;
+  private ConfigNodePropertyInteger stringDeduplicationCacheSize;
 
   @JsonProperty("templateDeduplicationCache.size")
-  private ConfigNodePropertyInteger templateDeduplicationCacheSize = null;
+  private ConfigNodePropertyInteger templateDeduplicationCacheSize;
 
   @JsonProperty("nodeDeduplicationCache.size")
-  private ConfigNodePropertyInteger nodeDeduplicationCacheSize = null;
+  private ConfigNodePropertyInteger nodeDeduplicationCacheSize;
 
   @JsonProperty("pauseCompaction")
-  private ConfigNodePropertyBoolean pauseCompaction = null;
+  private ConfigNodePropertyBoolean pauseCompaction;
 
   @JsonProperty("compaction.retryCount")
-  private ConfigNodePropertyInteger compactionRetryCount = null;
+  private ConfigNodePropertyInteger compactionRetryCount;
 
   @JsonProperty("compaction.force.timeout")
-  private ConfigNodePropertyInteger compactionForceTimeout = null;
+  private ConfigNodePropertyInteger compactionForceTimeout;
 
   @JsonProperty("compaction.sizeDeltaEstimation")
-  private ConfigNodePropertyInteger compactionSizeDeltaEstimation = null;
+  private ConfigNodePropertyInteger compactionSizeDeltaEstimation;
 
   @JsonProperty("compaction.disableEstimation")
-  private ConfigNodePropertyBoolean compactionDisableEstimation = null;
+  private ConfigNodePropertyBoolean compactionDisableEstimation;
 
   @JsonProperty("compaction.retainedGenerations")
-  private ConfigNodePropertyInteger compactionRetainedGenerations = null;
+  private ConfigNodePropertyInteger compactionRetainedGenerations;
 
   @JsonProperty("compaction.memoryThreshold")
-  private ConfigNodePropertyInteger compactionMemoryThreshold = null;
+  private ConfigNodePropertyInteger compactionMemoryThreshold;
 
   @JsonProperty("compaction.progressLog")
-  private ConfigNodePropertyInteger compactionProgressLog = null;
+  private ConfigNodePropertyInteger compactionProgressLog;
 
   @JsonProperty("standby")
-  private ConfigNodePropertyBoolean standby = null;
+  private ConfigNodePropertyBoolean standby;
 
   @JsonProperty("customBlobStore")
-  private ConfigNodePropertyBoolean customBlobStore = null;
+  private ConfigNodePropertyBoolean customBlobStore;
 
   @JsonProperty("customSegmentStore")
-  private ConfigNodePropertyBoolean customSegmentStore = null;
+  private ConfigNodePropertyBoolean customSegmentStore;
 
   @JsonProperty("splitPersistence")
-  private ConfigNodePropertyBoolean splitPersistence = null;
+  private ConfigNodePropertyBoolean splitPersistence;
 
   @JsonProperty("repository.backup.dir")
-  private ConfigNodePropertyString repositoryBackupDir = null;
+  private ConfigNodePropertyString repositoryBackupDir;
 
   @JsonProperty("blobGcMaxAgeInSecs")
-  private ConfigNodePropertyInteger blobGcMaxAgeInSecs = null;
+  private ConfigNodePropertyInteger blobGcMaxAgeInSecs;
 
   @JsonProperty("blobTrackSnapshotIntervalInSecs")
-  private ConfigNodePropertyInteger blobTrackSnapshotIntervalInSecs = null;
+  private ConfigNodePropertyInteger blobTrackSnapshotIntervalInSecs;
 
   public OrgApacheJackrabbitOakSegmentSegmentNodeStoreServiceProperties repositoryHome(ConfigNodePropertyString repositoryHome) {
     this.repositoryHome = repositoryHome;
@@ -520,7 +521,7 @@ public class OrgApacheJackrabbitOakSegmentSegmentNodeStoreServiceProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -596,11 +597,8 @@ public class OrgApacheJackrabbitOakSegmentSegmentNodeStoreServiceProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

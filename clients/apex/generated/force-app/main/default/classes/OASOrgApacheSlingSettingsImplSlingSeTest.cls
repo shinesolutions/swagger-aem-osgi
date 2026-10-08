@@ -72,8 +72,8 @@ private class OASOrgApacheSlingSettingsImplSlingSeTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASOrgApacheSlingSettingsImplSlingSe orgApacheSlingSettingsImplSlingSettingsServiceImplProperties = new OASOrgApacheSlingSettingsImplSlingSe();
-        Map<String, String> propertyMappings = orgApacheSlingSettingsImplSlingSettingsServiceImplProperties.getPropertyMappings();
-        System.assertEquals('slingName', propertyMappings.get('sling.name'));
-        System.assertEquals('slingDescription', propertyMappings.get('sling.description'));
+        Map<String, String> x-property-mappings = orgApacheSlingSettingsImplSlingSettingsServiceImplProperties.getx-property-mappings();
+        System.assertEquals('slingName', x-property-mappings.get('sling.name'));
+        System.assertEquals('slingDescription', x-property-mappings.get('sling.description'));
     }
 }

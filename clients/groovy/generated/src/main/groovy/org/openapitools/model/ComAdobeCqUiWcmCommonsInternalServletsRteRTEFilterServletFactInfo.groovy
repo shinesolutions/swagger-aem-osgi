@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqUiWcmCommonsInternalServletsRteRTEFilter
 
 @Canonical
 class ComAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactProperties properties
 }

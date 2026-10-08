@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyArray;
 
 @Canonical
 class ComAdobeGraniteAuthRequirementImplDefaultRequirementHandlerProperties {
-    ConfigNodePropertyArray supportedPaths = null
-
+    
+    ConfigNodePropertyArray supportedPaths
 }

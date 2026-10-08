@@ -1,0 +1,58 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+}
+resourceTypes {
+
+  ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitProperties {
+    title = ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitProperties
+    description = ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitProperties
+    derivedFrom = Root
+    properties {
+        enable {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        ugc_limit {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        ugc_limit_duration {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        domains {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        to_list {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitProperties {
+    title = ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitProperties
+    description = ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitProperties
+    implements = openapi_server.resourceTypes.ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitProperties
+
+  }
+}

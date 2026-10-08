@@ -9,14 +9,14 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitProperties {
-    ConfigNodePropertyBoolean enable = null
-
-    ConfigNodePropertyInteger ugCLimit = null
-
-    ConfigNodePropertyInteger ugcLimitDuration = null
-
-    ConfigNodePropertyArray domains = null
-
-    ConfigNodePropertyArray toList = null
-
+    
+    ConfigNodePropertyBoolean enable
+    
+    ConfigNodePropertyInteger ugCLimit
+    
+    ConfigNodePropertyInteger ugcLimitDuration
+    
+    ConfigNodePropertyArray domains
+    
+    ConfigNodePropertyArray toList
 }

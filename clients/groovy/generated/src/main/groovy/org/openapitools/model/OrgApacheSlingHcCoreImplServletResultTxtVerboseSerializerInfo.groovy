@@ -7,12 +7,12 @@ import org.openapitools.model.OrgApacheSlingHcCoreImplServletResultTxtVerboseSer
 
 @Canonical
 class OrgApacheSlingHcCoreImplServletResultTxtVerboseSerializerInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheSlingHcCoreImplServletResultTxtVerboseSerializerProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheSlingHcCoreImplServletResultTxtVerboseSerializerProperties properties
 }

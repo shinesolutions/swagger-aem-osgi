@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeGraniteResourcestatusImplStatusResourcePro
 
 @Canonical
 class ComAdobeGraniteResourcestatusImplStatusResourceProviderImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteResourcestatusImplStatusResourceProviderImplProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteResourcestatusImplStatusResourceProviderImplProperties properties
 }

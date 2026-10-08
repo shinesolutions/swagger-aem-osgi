@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeGraniteAuthOauthImplDefaultTokenValidatorImplProperties {
-    ConfigNodePropertyString authTokenValidatorType = null
-
+    
+    ConfigNodePropertyString authTokenValidatorType
 }

@@ -1,7 +1,9 @@
 
+
 # ComAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServiceProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **portalOutboxes** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
@@ -11,6 +13,7 @@ Name | Type | Description | Notes
 **submitMetadataService** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
 **pendingSignDataService** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
 **pendingSignMetadataService** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
+
 
 
 

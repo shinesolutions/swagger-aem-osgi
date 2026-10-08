@@ -2,12 +2,12 @@
 # ComAdobeCqSocialUgcbaseModerationImplSentimentProcessProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**watchwordsPeriodpositive** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**watchwordsPeriodnegative** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**watchwordsPeriodpath** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**sentimentPeriodpath** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **watchwordsPositive** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **watchwordsNegative** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **watchwordsPath** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **sentimentPath** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
 
 
 

@@ -1,5 +1,8 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyDropDown;
 import org.openapitools.model.ConfigNodePropertyInteger;
@@ -7,19 +10,27 @@ import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("orgApacheFelixJaasConfigurationFactoryProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheFelixJaasConfigurationFactoryProperties   {
-  
-  private @Valid ConfigNodePropertyDropDown jaasControlFlag = null;
-  private @Valid ConfigNodePropertyInteger jaasRanking = null;
-  private @Valid ConfigNodePropertyString jaasRealmName = null;
-  private @Valid ConfigNodePropertyString jaasClassname = null;
-  private @Valid ConfigNodePropertyArray jaasOptions = null;
+  private ConfigNodePropertyDropDown jaasControlFlag;
+  private ConfigNodePropertyInteger jaasRanking;
+  private ConfigNodePropertyString jaasRealmName;
+  private ConfigNodePropertyString jaasClassname;
+  private ConfigNodePropertyArray jaasOptions;
+
+  public OrgApacheFelixJaasConfigurationFactoryProperties() {
+  }
 
   /**
    **/
@@ -31,9 +42,11 @@ public class OrgApacheFelixJaasConfigurationFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("jaas.controlFlag")
-  public ConfigNodePropertyDropDown getJaasControlFlag() {
+  @Valid public ConfigNodePropertyDropDown getJaasControlFlag() {
     return jaasControlFlag;
   }
+
+  @JsonProperty("jaas.controlFlag")
   public void setJaasControlFlag(ConfigNodePropertyDropDown jaasControlFlag) {
     this.jaasControlFlag = jaasControlFlag;
   }
@@ -48,9 +61,11 @@ public class OrgApacheFelixJaasConfigurationFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("jaas.ranking")
-  public ConfigNodePropertyInteger getJaasRanking() {
+  @Valid public ConfigNodePropertyInteger getJaasRanking() {
     return jaasRanking;
   }
+
+  @JsonProperty("jaas.ranking")
   public void setJaasRanking(ConfigNodePropertyInteger jaasRanking) {
     this.jaasRanking = jaasRanking;
   }
@@ -65,9 +80,11 @@ public class OrgApacheFelixJaasConfigurationFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("jaas.realmName")
-  public ConfigNodePropertyString getJaasRealmName() {
+  @Valid public ConfigNodePropertyString getJaasRealmName() {
     return jaasRealmName;
   }
+
+  @JsonProperty("jaas.realmName")
   public void setJaasRealmName(ConfigNodePropertyString jaasRealmName) {
     this.jaasRealmName = jaasRealmName;
   }
@@ -82,9 +99,11 @@ public class OrgApacheFelixJaasConfigurationFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("jaas.classname")
-  public ConfigNodePropertyString getJaasClassname() {
+  @Valid public ConfigNodePropertyString getJaasClassname() {
     return jaasClassname;
   }
+
+  @JsonProperty("jaas.classname")
   public void setJaasClassname(ConfigNodePropertyString jaasClassname) {
     this.jaasClassname = jaasClassname;
   }
@@ -99,16 +118,18 @@ public class OrgApacheFelixJaasConfigurationFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("jaas.options")
-  public ConfigNodePropertyArray getJaasOptions() {
+  @Valid public ConfigNodePropertyArray getJaasOptions() {
     return jaasOptions;
   }
+
+  @JsonProperty("jaas.options")
   public void setJaasOptions(ConfigNodePropertyArray jaasOptions) {
     this.jaasOptions = jaasOptions;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -116,11 +137,11 @@ public class OrgApacheFelixJaasConfigurationFactoryProperties   {
       return false;
     }
     OrgApacheFelixJaasConfigurationFactoryProperties orgApacheFelixJaasConfigurationFactoryProperties = (OrgApacheFelixJaasConfigurationFactoryProperties) o;
-    return Objects.equals(jaasControlFlag, orgApacheFelixJaasConfigurationFactoryProperties.jaasControlFlag) &&
-        Objects.equals(jaasRanking, orgApacheFelixJaasConfigurationFactoryProperties.jaasRanking) &&
-        Objects.equals(jaasRealmName, orgApacheFelixJaasConfigurationFactoryProperties.jaasRealmName) &&
-        Objects.equals(jaasClassname, orgApacheFelixJaasConfigurationFactoryProperties.jaasClassname) &&
-        Objects.equals(jaasOptions, orgApacheFelixJaasConfigurationFactoryProperties.jaasOptions);
+    return Objects.equals(this.jaasControlFlag, orgApacheFelixJaasConfigurationFactoryProperties.jaasControlFlag) &&
+        Objects.equals(this.jaasRanking, orgApacheFelixJaasConfigurationFactoryProperties.jaasRanking) &&
+        Objects.equals(this.jaasRealmName, orgApacheFelixJaasConfigurationFactoryProperties.jaasRealmName) &&
+        Objects.equals(this.jaasClassname, orgApacheFelixJaasConfigurationFactoryProperties.jaasClassname) &&
+        Objects.equals(this.jaasOptions, orgApacheFelixJaasConfigurationFactoryProperties.jaasOptions);
   }
 
   @Override
@@ -146,11 +167,9 @@ public class OrgApacheFelixJaasConfigurationFactoryProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

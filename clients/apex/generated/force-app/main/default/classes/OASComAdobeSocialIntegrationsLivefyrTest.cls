@@ -72,7 +72,7 @@ private class OASComAdobeSocialIntegrationsLivefyrTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeSocialIntegrationsLivefyr comAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullSProperties = new OASComAdobeSocialIntegrationsLivefyr();
-        Map<String, String> propertyMappings = comAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullSProperties.getPropertyMappings();
-        System.assertEquals('communitiesIntegrationLivefyreSlingEventFilter', propertyMappings.get('communities.integration.livefyre.sling.event.filter'));
+        Map<String, String> x-property-mappings = comAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullSProperties.getx-property-mappings();
+        System.assertEquals('communitiesIntegrationLivefyreSlingEventFilter', x-property-mappings.get('communities.integration.livefyre.sling.event.filter'));
     }
 }

@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqDamCoreImplHandlerEPSFormatHandlerInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqDamCoreImplHandlerEPSFormatHandlerInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComDayCqDamCoreImplHandlerEPSFormatHandlerProperties = openapi_server.resourceTypes.ComDayCqDamCoreImplHandlerEPSFormatHandlerProperties
+}
+resourceTypes {
+
+  ComDayCqDamCoreImplHandlerEPSFormatHandlerInfo {
+    title = ComDayCqDamCoreImplHandlerEPSFormatHandlerInfo
+    description = ComDayCqDamCoreImplHandlerEPSFormatHandlerInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComDayCqDamCoreImplHandlerEPSFormatHandlerProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqDamCoreImplHandlerEPSFormatHandlerInfo {
+    title = ComDayCqDamCoreImplHandlerEPSFormatHandlerInfo
+    description = ComDayCqDamCoreImplHandlerEPSFormatHandlerInfo
+    implements = openapi_server.resourceTypes.ComDayCqDamCoreImplHandlerEPSFormatHandlerInfo
+
+  }
+}

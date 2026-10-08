@@ -1,3 +1,13 @@
+/*
+ * Adobe Experience Manager OSGI config (AEM) API
+ *
+ * Swagger AEM OSGI is an OpenAPI specification for Adobe Experience Manager (AEM) OSGI Configurations API
+ *
+ * OpenAPI document version: 1.0.0-pre.0
+ * Maintained by: opensource@shinesolutions.com
+ *
+ * AUTO-GENERATED FILE, DO NOT MODIFY!
+ */
 package org.openapitools.model;
 
 import java.util.Objects;
@@ -13,22 +23,22 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2019-08-05T00:56:20.785Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2026-10-07T12:53:42.280804918Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqReportingImplConfigServiceImplProperties   {
   
-  private ConfigNodePropertyString repconfTimezone = null;
-  private ConfigNodePropertyString repconfLocale = null;
-  private ConfigNodePropertyString repconfSnapshots = null;
-  private ConfigNodePropertyString repconfRepdir = null;
-  private ConfigNodePropertyInteger repconfHourofday = null;
-  private ConfigNodePropertyInteger repconfMinofhour = null;
-  private ConfigNodePropertyInteger repconfMaxrows = null;
-  private ConfigNodePropertyBoolean repconfFakedata = null;
-  private ConfigNodePropertyString repconfSnapshotuser = null;
-  private ConfigNodePropertyBoolean repconfEnforcesnapshotuser = null;
+  private ConfigNodePropertyString repconfTimezone;
+  private ConfigNodePropertyString repconfLocale;
+  private ConfigNodePropertyString repconfSnapshots;
+  private ConfigNodePropertyString repconfRepdir;
+  private ConfigNodePropertyInteger repconfHourofday;
+  private ConfigNodePropertyInteger repconfMinofhour;
+  private ConfigNodePropertyInteger repconfMaxrows;
+  private ConfigNodePropertyBoolean repconfFakedata;
+  private ConfigNodePropertyString repconfSnapshotuser;
+  private ConfigNodePropertyBoolean repconfEnforcesnapshotuser;
 
   /**
-   **/
+   */
   public ComDayCqReportingImplConfigServiceImplProperties repconfTimezone(ConfigNodePropertyString repconfTimezone) {
     this.repconfTimezone = repconfTimezone;
     return this;
@@ -45,7 +55,7 @@ public class ComDayCqReportingImplConfigServiceImplProperties   {
   }
 
   /**
-   **/
+   */
   public ComDayCqReportingImplConfigServiceImplProperties repconfLocale(ConfigNodePropertyString repconfLocale) {
     this.repconfLocale = repconfLocale;
     return this;
@@ -62,7 +72,7 @@ public class ComDayCqReportingImplConfigServiceImplProperties   {
   }
 
   /**
-   **/
+   */
   public ComDayCqReportingImplConfigServiceImplProperties repconfSnapshots(ConfigNodePropertyString repconfSnapshots) {
     this.repconfSnapshots = repconfSnapshots;
     return this;
@@ -79,7 +89,7 @@ public class ComDayCqReportingImplConfigServiceImplProperties   {
   }
 
   /**
-   **/
+   */
   public ComDayCqReportingImplConfigServiceImplProperties repconfRepdir(ConfigNodePropertyString repconfRepdir) {
     this.repconfRepdir = repconfRepdir;
     return this;
@@ -96,7 +106,7 @@ public class ComDayCqReportingImplConfigServiceImplProperties   {
   }
 
   /**
-   **/
+   */
   public ComDayCqReportingImplConfigServiceImplProperties repconfHourofday(ConfigNodePropertyInteger repconfHourofday) {
     this.repconfHourofday = repconfHourofday;
     return this;
@@ -113,7 +123,7 @@ public class ComDayCqReportingImplConfigServiceImplProperties   {
   }
 
   /**
-   **/
+   */
   public ComDayCqReportingImplConfigServiceImplProperties repconfMinofhour(ConfigNodePropertyInteger repconfMinofhour) {
     this.repconfMinofhour = repconfMinofhour;
     return this;
@@ -130,7 +140,7 @@ public class ComDayCqReportingImplConfigServiceImplProperties   {
   }
 
   /**
-   **/
+   */
   public ComDayCqReportingImplConfigServiceImplProperties repconfMaxrows(ConfigNodePropertyInteger repconfMaxrows) {
     this.repconfMaxrows = repconfMaxrows;
     return this;
@@ -147,7 +157,7 @@ public class ComDayCqReportingImplConfigServiceImplProperties   {
   }
 
   /**
-   **/
+   */
   public ComDayCqReportingImplConfigServiceImplProperties repconfFakedata(ConfigNodePropertyBoolean repconfFakedata) {
     this.repconfFakedata = repconfFakedata;
     return this;
@@ -164,7 +174,7 @@ public class ComDayCqReportingImplConfigServiceImplProperties   {
   }
 
   /**
-   **/
+   */
   public ComDayCqReportingImplConfigServiceImplProperties repconfSnapshotuser(ConfigNodePropertyString repconfSnapshotuser) {
     this.repconfSnapshotuser = repconfSnapshotuser;
     return this;
@@ -181,7 +191,7 @@ public class ComDayCqReportingImplConfigServiceImplProperties   {
   }
 
   /**
-   **/
+   */
   public ComDayCqReportingImplConfigServiceImplProperties repconfEnforcesnapshotuser(ConfigNodePropertyBoolean repconfEnforcesnapshotuser) {
     this.repconfEnforcesnapshotuser = repconfEnforcesnapshotuser;
     return this;
@@ -199,7 +209,7 @@ public class ComDayCqReportingImplConfigServiceImplProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -247,11 +257,8 @@ public class ComDayCqReportingImplConfigServiceImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

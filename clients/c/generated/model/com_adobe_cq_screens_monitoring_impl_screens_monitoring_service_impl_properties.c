@@ -1,0 +1,409 @@
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include "com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties.h"
+
+
+
+static com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties_t *com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties_create_internal(
+    config_node_property_array_t *com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_project_path,
+    config_node_property_string_t *com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_schedule_frequency,
+    config_node_property_integer_t *com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_ping_timeout,
+    config_node_property_string_t *com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_recipients,
+    config_node_property_string_t *com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_smtpserver,
+    config_node_property_integer_t *com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_smtpport,
+    config_node_property_boolean_t *com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_usetls,
+    config_node_property_string_t *com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_username,
+    config_node_property_string_t *com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_password
+    ) {
+    com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties_t *com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties_local_var = malloc(sizeof(com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties_t));
+    if (!com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties_local_var) {
+        return NULL;
+    }
+    memset(com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties_local_var, 0, sizeof(com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties_t));
+    com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties_local_var->_library_owned = 1;
+    com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties_local_var->com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_project_path = com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_project_path;
+    com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties_local_var->com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_schedule_frequency = com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_schedule_frequency;
+    com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties_local_var->com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_ping_timeout = com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_ping_timeout;
+    com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties_local_var->com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_recipients = com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_recipients;
+    com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties_local_var->com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_smtpserver = com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_smtpserver;
+    com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties_local_var->com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_smtpport = com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_smtpport;
+    com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties_local_var->com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_usetls = com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_usetls;
+    com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties_local_var->com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_username = com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_username;
+    com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties_local_var->com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_password = com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_password;
+    return com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties_local_var;
+}
+
+__attribute__((deprecated)) com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties_t *com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties_create(
+    config_node_property_array_t *com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_project_path,
+    config_node_property_string_t *com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_schedule_frequency,
+    config_node_property_integer_t *com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_ping_timeout,
+    config_node_property_string_t *com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_recipients,
+    config_node_property_string_t *com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_smtpserver,
+    config_node_property_integer_t *com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_smtpport,
+    config_node_property_boolean_t *com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_usetls,
+    config_node_property_string_t *com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_username,
+    config_node_property_string_t *com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_password
+    ) {
+    com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties_t *result = com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties_create_internal (
+        com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_project_path,
+        com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_schedule_frequency,
+        com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_ping_timeout,
+        com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_recipients,
+        com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_smtpserver,
+        com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_smtpport,
+        com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_usetls,
+        com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_username,
+        com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_password
+        );
+    if (!result) {
+    }
+    return result;
+}
+
+void com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties_free(com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties_t *com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties) {
+    if(NULL == com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties){
+        return ;
+    }
+    if(com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties->_library_owned != 1){
+        fprintf(stderr, "WARNING: %s() does NOT free objects allocated by the user\n", "com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties_free");
+        return ;
+    }
+    listEntry_t *listEntry;
+    if (com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties->com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_project_path) {
+        config_node_property_array_free(com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties->com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_project_path);
+        com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties->com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_project_path = NULL;
+    }
+    if (com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties->com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_schedule_frequency) {
+        config_node_property_string_free(com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties->com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_schedule_frequency);
+        com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties->com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_schedule_frequency = NULL;
+    }
+    if (com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties->com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_ping_timeout) {
+        config_node_property_integer_free(com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties->com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_ping_timeout);
+        com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties->com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_ping_timeout = NULL;
+    }
+    if (com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties->com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_recipients) {
+        config_node_property_string_free(com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties->com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_recipients);
+        com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties->com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_recipients = NULL;
+    }
+    if (com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties->com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_smtpserver) {
+        config_node_property_string_free(com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties->com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_smtpserver);
+        com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties->com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_smtpserver = NULL;
+    }
+    if (com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties->com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_smtpport) {
+        config_node_property_integer_free(com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties->com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_smtpport);
+        com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties->com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_smtpport = NULL;
+    }
+    if (com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties->com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_usetls) {
+        config_node_property_boolean_free(com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties->com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_usetls);
+        com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties->com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_usetls = NULL;
+    }
+    if (com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties->com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_username) {
+        config_node_property_string_free(com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties->com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_username);
+        com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties->com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_username = NULL;
+    }
+    if (com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties->com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_password) {
+        config_node_property_string_free(com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties->com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_password);
+        com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties->com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_password = NULL;
+    }
+    free(com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties);
+}
+
+cJSON *com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties_convertToJSON(com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties_t *com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties) {
+    cJSON *item = cJSON_CreateObject();
+
+    // com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties->com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_project_path
+    if(com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties->com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_project_path) {
+    cJSON *com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_project_path_local_JSON = config_node_property_array_convertToJSON(com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties->com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_project_path);
+    if(com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_project_path_local_JSON == NULL) {
+    goto fail; //model
+    }
+    cJSON_AddItemToObject(item, "com.adobe.cq.screens.monitoring.impl.ScreensMonitoringServiceImpl.projectPath", com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_project_path_local_JSON);
+    if(item->child == NULL) {
+    goto fail;
+    }
+    }
+
+
+    // com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties->com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_schedule_frequency
+    if(com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties->com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_schedule_frequency) {
+    cJSON *com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_schedule_frequency_local_JSON = config_node_property_string_convertToJSON(com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties->com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_schedule_frequency);
+    if(com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_schedule_frequency_local_JSON == NULL) {
+    goto fail; //model
+    }
+    cJSON_AddItemToObject(item, "com.adobe.cq.screens.monitoring.impl.ScreensMonitoringServiceImpl.scheduleFrequency", com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_schedule_frequency_local_JSON);
+    if(item->child == NULL) {
+    goto fail;
+    }
+    }
+
+
+    // com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties->com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_ping_timeout
+    if(com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties->com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_ping_timeout) {
+    cJSON *com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_ping_timeout_local_JSON = config_node_property_integer_convertToJSON(com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties->com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_ping_timeout);
+    if(com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_ping_timeout_local_JSON == NULL) {
+    goto fail; //model
+    }
+    cJSON_AddItemToObject(item, "com.adobe.cq.screens.monitoring.impl.ScreensMonitoringServiceImpl.pingTimeout", com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_ping_timeout_local_JSON);
+    if(item->child == NULL) {
+    goto fail;
+    }
+    }
+
+
+    // com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties->com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_recipients
+    if(com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties->com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_recipients) {
+    cJSON *com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_recipients_local_JSON = config_node_property_string_convertToJSON(com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties->com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_recipients);
+    if(com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_recipients_local_JSON == NULL) {
+    goto fail; //model
+    }
+    cJSON_AddItemToObject(item, "com.adobe.cq.screens.monitoring.impl.ScreensMonitoringServiceImpl.recipients", com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_recipients_local_JSON);
+    if(item->child == NULL) {
+    goto fail;
+    }
+    }
+
+
+    // com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties->com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_smtpserver
+    if(com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties->com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_smtpserver) {
+    cJSON *com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_smtpserver_local_JSON = config_node_property_string_convertToJSON(com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties->com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_smtpserver);
+    if(com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_smtpserver_local_JSON == NULL) {
+    goto fail; //model
+    }
+    cJSON_AddItemToObject(item, "com.adobe.cq.screens.monitoring.impl.ScreensMonitoringServiceImpl.smtpserver", com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_smtpserver_local_JSON);
+    if(item->child == NULL) {
+    goto fail;
+    }
+    }
+
+
+    // com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties->com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_smtpport
+    if(com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties->com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_smtpport) {
+    cJSON *com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_smtpport_local_JSON = config_node_property_integer_convertToJSON(com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties->com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_smtpport);
+    if(com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_smtpport_local_JSON == NULL) {
+    goto fail; //model
+    }
+    cJSON_AddItemToObject(item, "com.adobe.cq.screens.monitoring.impl.ScreensMonitoringServiceImpl.smtpport", com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_smtpport_local_JSON);
+    if(item->child == NULL) {
+    goto fail;
+    }
+    }
+
+
+    // com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties->com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_usetls
+    if(com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties->com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_usetls) {
+    cJSON *com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_usetls_local_JSON = config_node_property_boolean_convertToJSON(com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties->com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_usetls);
+    if(com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_usetls_local_JSON == NULL) {
+    goto fail; //model
+    }
+    cJSON_AddItemToObject(item, "com.adobe.cq.screens.monitoring.impl.ScreensMonitoringServiceImpl.usetls", com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_usetls_local_JSON);
+    if(item->child == NULL) {
+    goto fail;
+    }
+    }
+
+
+    // com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties->com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_username
+    if(com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties->com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_username) {
+    cJSON *com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_username_local_JSON = config_node_property_string_convertToJSON(com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties->com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_username);
+    if(com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_username_local_JSON == NULL) {
+    goto fail; //model
+    }
+    cJSON_AddItemToObject(item, "com.adobe.cq.screens.monitoring.impl.ScreensMonitoringServiceImpl.username", com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_username_local_JSON);
+    if(item->child == NULL) {
+    goto fail;
+    }
+    }
+
+
+    // com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties->com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_password
+    if(com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties->com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_password) {
+    cJSON *com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_password_local_JSON = config_node_property_string_convertToJSON(com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties->com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_password);
+    if(com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_password_local_JSON == NULL) {
+    goto fail; //model
+    }
+    cJSON_AddItemToObject(item, "com.adobe.cq.screens.monitoring.impl.ScreensMonitoringServiceImpl.password", com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_password_local_JSON);
+    if(item->child == NULL) {
+    goto fail;
+    }
+    }
+
+    return item;
+fail:
+    if (item) {
+        cJSON_Delete(item);
+    }
+    return NULL;
+}
+
+com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties_t *com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties_parseFromJSON(cJSON *com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_propertiesJSON){
+
+    com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties_t *com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties_local_var = NULL;
+
+    // define the local variable for com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties->com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_project_path
+    config_node_property_array_t *com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_project_path_local_nonprim = NULL;
+
+    // define the local variable for com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties->com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_schedule_frequency
+    config_node_property_string_t *com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_schedule_frequency_local_nonprim = NULL;
+
+    // define the local variable for com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties->com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_ping_timeout
+    config_node_property_integer_t *com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_ping_timeout_local_nonprim = NULL;
+
+    // define the local variable for com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties->com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_recipients
+    config_node_property_string_t *com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_recipients_local_nonprim = NULL;
+
+    // define the local variable for com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties->com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_smtpserver
+    config_node_property_string_t *com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_smtpserver_local_nonprim = NULL;
+
+    // define the local variable for com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties->com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_smtpport
+    config_node_property_integer_t *com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_smtpport_local_nonprim = NULL;
+
+    // define the local variable for com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties->com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_usetls
+    config_node_property_boolean_t *com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_usetls_local_nonprim = NULL;
+
+    // define the local variable for com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties->com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_username
+    config_node_property_string_t *com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_username_local_nonprim = NULL;
+
+    // define the local variable for com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties->com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_password
+    config_node_property_string_t *com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_password_local_nonprim = NULL;
+
+    // com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties->com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_project_path
+    cJSON *com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_project_path = cJSON_GetObjectItemCaseSensitive(com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_propertiesJSON, "com.adobe.cq.screens.monitoring.impl.ScreensMonitoringServiceImpl.projectPath");
+    if (cJSON_IsNull(com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_project_path)) {
+        com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_project_path = NULL;
+    }
+    if (com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_project_path) { 
+    com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_project_path_local_nonprim = config_node_property_array_parseFromJSON(com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_project_path); //nonprimitive
+    }
+
+    // com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties->com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_schedule_frequency
+    cJSON *com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_schedule_frequency = cJSON_GetObjectItemCaseSensitive(com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_propertiesJSON, "com.adobe.cq.screens.monitoring.impl.ScreensMonitoringServiceImpl.scheduleFrequency");
+    if (cJSON_IsNull(com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_schedule_frequency)) {
+        com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_schedule_frequency = NULL;
+    }
+    if (com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_schedule_frequency) { 
+    com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_schedule_frequency_local_nonprim = config_node_property_string_parseFromJSON(com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_schedule_frequency); //nonprimitive
+    }
+
+    // com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties->com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_ping_timeout
+    cJSON *com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_ping_timeout = cJSON_GetObjectItemCaseSensitive(com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_propertiesJSON, "com.adobe.cq.screens.monitoring.impl.ScreensMonitoringServiceImpl.pingTimeout");
+    if (cJSON_IsNull(com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_ping_timeout)) {
+        com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_ping_timeout = NULL;
+    }
+    if (com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_ping_timeout) { 
+    com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_ping_timeout_local_nonprim = config_node_property_integer_parseFromJSON(com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_ping_timeout); //nonprimitive
+    }
+
+    // com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties->com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_recipients
+    cJSON *com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_recipients = cJSON_GetObjectItemCaseSensitive(com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_propertiesJSON, "com.adobe.cq.screens.monitoring.impl.ScreensMonitoringServiceImpl.recipients");
+    if (cJSON_IsNull(com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_recipients)) {
+        com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_recipients = NULL;
+    }
+    if (com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_recipients) { 
+    com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_recipients_local_nonprim = config_node_property_string_parseFromJSON(com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_recipients); //nonprimitive
+    }
+
+    // com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties->com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_smtpserver
+    cJSON *com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_smtpserver = cJSON_GetObjectItemCaseSensitive(com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_propertiesJSON, "com.adobe.cq.screens.monitoring.impl.ScreensMonitoringServiceImpl.smtpserver");
+    if (cJSON_IsNull(com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_smtpserver)) {
+        com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_smtpserver = NULL;
+    }
+    if (com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_smtpserver) { 
+    com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_smtpserver_local_nonprim = config_node_property_string_parseFromJSON(com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_smtpserver); //nonprimitive
+    }
+
+    // com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties->com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_smtpport
+    cJSON *com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_smtpport = cJSON_GetObjectItemCaseSensitive(com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_propertiesJSON, "com.adobe.cq.screens.monitoring.impl.ScreensMonitoringServiceImpl.smtpport");
+    if (cJSON_IsNull(com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_smtpport)) {
+        com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_smtpport = NULL;
+    }
+    if (com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_smtpport) { 
+    com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_smtpport_local_nonprim = config_node_property_integer_parseFromJSON(com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_smtpport); //nonprimitive
+    }
+
+    // com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties->com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_usetls
+    cJSON *com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_usetls = cJSON_GetObjectItemCaseSensitive(com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_propertiesJSON, "com.adobe.cq.screens.monitoring.impl.ScreensMonitoringServiceImpl.usetls");
+    if (cJSON_IsNull(com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_usetls)) {
+        com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_usetls = NULL;
+    }
+    if (com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_usetls) { 
+    com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_usetls_local_nonprim = config_node_property_boolean_parseFromJSON(com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_usetls); //nonprimitive
+    }
+
+    // com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties->com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_username
+    cJSON *com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_username = cJSON_GetObjectItemCaseSensitive(com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_propertiesJSON, "com.adobe.cq.screens.monitoring.impl.ScreensMonitoringServiceImpl.username");
+    if (cJSON_IsNull(com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_username)) {
+        com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_username = NULL;
+    }
+    if (com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_username) { 
+    com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_username_local_nonprim = config_node_property_string_parseFromJSON(com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_username); //nonprimitive
+    }
+
+    // com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties->com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_password
+    cJSON *com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_password = cJSON_GetObjectItemCaseSensitive(com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_propertiesJSON, "com.adobe.cq.screens.monitoring.impl.ScreensMonitoringServiceImpl.password");
+    if (cJSON_IsNull(com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_password)) {
+        com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_password = NULL;
+    }
+    if (com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_password) { 
+    com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_password_local_nonprim = config_node_property_string_parseFromJSON(com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_password); //nonprimitive
+    }
+
+
+
+    com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties_local_var = com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties_create_internal (
+        com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_project_path ? com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_project_path_local_nonprim : NULL,
+        com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_schedule_frequency ? com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_schedule_frequency_local_nonprim : NULL,
+        com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_ping_timeout ? com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_ping_timeout_local_nonprim : NULL,
+        com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_recipients ? com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_recipients_local_nonprim : NULL,
+        com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_smtpserver ? com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_smtpserver_local_nonprim : NULL,
+        com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_smtpport ? com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_smtpport_local_nonprim : NULL,
+        com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_usetls ? com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_usetls_local_nonprim : NULL,
+        com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_username ? com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_username_local_nonprim : NULL,
+        com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_password ? com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_password_local_nonprim : NULL
+        );
+
+    if (!com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties_local_var) {
+        goto end;
+    }
+
+    return com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_properties_local_var;
+end:
+    if (com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_project_path_local_nonprim) {
+        config_node_property_array_free(com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_project_path_local_nonprim);
+        com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_project_path_local_nonprim = NULL;
+    }
+    if (com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_schedule_frequency_local_nonprim) {
+        config_node_property_string_free(com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_schedule_frequency_local_nonprim);
+        com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_schedule_frequency_local_nonprim = NULL;
+    }
+    if (com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_ping_timeout_local_nonprim) {
+        config_node_property_integer_free(com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_ping_timeout_local_nonprim);
+        com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_ping_timeout_local_nonprim = NULL;
+    }
+    if (com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_recipients_local_nonprim) {
+        config_node_property_string_free(com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_recipients_local_nonprim);
+        com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_recipients_local_nonprim = NULL;
+    }
+    if (com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_smtpserver_local_nonprim) {
+        config_node_property_string_free(com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_smtpserver_local_nonprim);
+        com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_smtpserver_local_nonprim = NULL;
+    }
+    if (com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_smtpport_local_nonprim) {
+        config_node_property_integer_free(com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_smtpport_local_nonprim);
+        com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_smtpport_local_nonprim = NULL;
+    }
+    if (com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_usetls_local_nonprim) {
+        config_node_property_boolean_free(com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_usetls_local_nonprim);
+        com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_usetls_local_nonprim = NULL;
+    }
+    if (com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_username_local_nonprim) {
+        config_node_property_string_free(com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_username_local_nonprim);
+        com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_username_local_nonprim = NULL;
+    }
+    if (com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_password_local_nonprim) {
+        config_node_property_string_free(com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_password_local_nonprim);
+        com_adobe_cq_screens_monitoring_impl_screens_monitoring_service_impl_password_local_nonprim = NULL;
+    }
+    return NULL;
+
+}

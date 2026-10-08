@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyBoolean;
 import com.prokarma.pkmst.model.ConfigNodePropertyInteger;
 import io.swagger.annotations.ApiModel;
@@ -16,30 +17,29 @@ import io.swagger.annotations.ApiModelProperty;
  * OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceProperties   {
   @JsonProperty("queryLimitInMemory")
-  private ConfigNodePropertyInteger queryLimitInMemory = null;
+  private ConfigNodePropertyInteger queryLimitInMemory;
 
   @JsonProperty("queryLimitReads")
-  private ConfigNodePropertyInteger queryLimitReads = null;
+  private ConfigNodePropertyInteger queryLimitReads;
 
   @JsonProperty("queryFailTraversal")
-  private ConfigNodePropertyBoolean queryFailTraversal = null;
+  private ConfigNodePropertyBoolean queryFailTraversal;
 
   @JsonProperty("fastQuerySize")
-  private ConfigNodePropertyBoolean fastQuerySize = null;
+  private ConfigNodePropertyBoolean fastQuerySize;
 
   public OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceProperties queryLimitInMemory(ConfigNodePropertyInteger queryLimitInMemory) {
     this.queryLimitInMemory = queryLimitInMemory;
     return this;
   }
 
-   /**
+  /**
    * Get queryLimitInMemory
    * @return queryLimitInMemory
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getQueryLimitInMemory() {
     return queryLimitInMemory;
@@ -54,10 +54,10 @@ public class OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get queryLimitReads
    * @return queryLimitReads
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getQueryLimitReads() {
     return queryLimitReads;
@@ -72,10 +72,10 @@ public class OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get queryFailTraversal
    * @return queryFailTraversal
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getQueryFailTraversal() {
     return queryFailTraversal;
@@ -90,10 +90,10 @@ public class OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get fastQuerySize
    * @return fastQuerySize
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getFastQuerySize() {
     return fastQuerySize;
@@ -105,7 +105,7 @@ public class OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -141,11 +141,8 @@ public class OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

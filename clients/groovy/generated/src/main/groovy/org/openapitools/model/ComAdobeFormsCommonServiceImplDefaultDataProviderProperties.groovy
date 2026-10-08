@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyArray;
 
 @Canonical
 class ComAdobeFormsCommonServiceImplDefaultDataProviderProperties {
-    ConfigNodePropertyArray alloweddataFileLocations = null
-
+    
+    ConfigNodePropertyArray alloweddataFileLocations
 }

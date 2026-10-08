@@ -72,12 +72,12 @@ private class OASOrgApacheSlingHcCoreImplJmxAttribTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASOrgApacheSlingHcCoreImplJmxAttrib orgApacheSlingHcCoreImplJmxAttributeHealthCheckProperties = new OASOrgApacheSlingHcCoreImplJmxAttrib();
-        Map<String, String> propertyMappings = orgApacheSlingHcCoreImplJmxAttributeHealthCheckProperties.getPropertyMappings();
-        System.assertEquals('hcName', propertyMappings.get('hc.name'));
-        System.assertEquals('hcTags', propertyMappings.get('hc.tags'));
-        System.assertEquals('hcMbeanName', propertyMappings.get('hc.mbean.name'));
-        System.assertEquals('mbeanName', propertyMappings.get('mbean.name'));
-        System.assertEquals('attributeName', propertyMappings.get('attribute.name'));
-        System.assertEquals('attributeValueConstraint', propertyMappings.get('attribute.value.constraint'));
+        Map<String, String> x-property-mappings = orgApacheSlingHcCoreImplJmxAttributeHealthCheckProperties.getx-property-mappings();
+        System.assertEquals('hcName', x-property-mappings.get('hc.name'));
+        System.assertEquals('hcTags', x-property-mappings.get('hc.tags'));
+        System.assertEquals('hcMbeanName', x-property-mappings.get('hc.mbean.name'));
+        System.assertEquals('mbeanName', x-property-mappings.get('mbean.name'));
+        System.assertEquals('attributeName', x-property-mappings.get('attribute.name'));
+        System.assertEquals('attributeValueConstraint', x-property-mappings.get('attribute.value.constraint'));
     }
 }

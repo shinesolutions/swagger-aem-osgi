@@ -7,18 +7,18 @@ import org.openapitools.model.ComDayCqReplicationImplReverseReplicatorProperties
 
 @Canonical
 class ComDayCqReplicationImplReverseReplicatorInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqReplicationImplReverseReplicatorProperties properties = null
-
-    String additionalProperties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqReplicationImplReverseReplicatorProperties properties
+    
+    String additionalProperties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

@@ -1,0 +1,165 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyDropDown = openapi_server.resourceTypes.ConfigNodePropertyDropDown
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties {
+    title = ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties
+    description = ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties
+    derivedFrom = Root
+    properties {
+        path {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        service_ranking {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        idp_url {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        idp_cert_alias {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        idp_http_redirect {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        service_provider_entity_id {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        assertion_consumer_service_url {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        sp_private_key_alias {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        key_store_password {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        default_redirect_url {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        user_id_attribute {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        use_encryption {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        create_user {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        user_intermediate_path {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        add_group_memberships {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        group_membership_attribute {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        default_groups {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        name_id_format {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        synchronize_attributes {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        handle_logout {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        logout_url {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        clock_tolerance {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        digest_method {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        signature_method {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        identity_sync_type {
+          type = ConfigNodePropertyDropDown
+          description = ""
+          optional = false
+        }
+        idp_identifier {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties {
+    title = ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties
+    description = ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties
+    implements = openapi_server.resourceTypes.ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties
+
+  }
+}

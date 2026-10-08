@@ -1,0 +1,57 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerProperties {
+    title = ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerProperties
+    description = ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerProperties
+    derivedFrom = Root
+    properties {
+        dam_showexpired {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        dam_showhidden {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        tag_title_search {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        guess_total {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        dam_expiry_property {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerProperties {
+    title = ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerProperties
+    description = ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerProperties
+    implements = openapi_server.resourceTypes.ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerProperties
+
+  }
+}

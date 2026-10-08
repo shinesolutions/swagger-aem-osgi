@@ -1,3 +1,13 @@
+/*
+ * Adobe Experience Manager OSGI config (AEM) API
+ *
+ * Swagger AEM OSGI is an OpenAPI specification for Adobe Experience Manager (AEM) OSGI Configurations API
+ *
+ * OpenAPI document version: 1.0.0-pre.0
+ * Maintained by: opensource@shinesolutions.com
+ *
+ * AUTO-GENERATED FILE, DO NOT MODIFY!
+ */
 package org.openapitools.model;
 
 import java.util.Objects;
@@ -14,19 +24,19 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2019-08-05T00:56:20.785Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2026-10-07T12:53:42.280804918Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeCqSocialConnectOauthImplTwitterProviderImplProperties   {
   
-  private ConfigNodePropertyString oauthProviderId = null;
-  private ConfigNodePropertyString oauthCloudConfigRoot = null;
-  private ConfigNodePropertyString providerConfigRoot = null;
-  private ConfigNodePropertyDropDown providerConfigUserFolder = null;
-  private ConfigNodePropertyBoolean providerConfigTwitterEnableParams = null;
-  private ConfigNodePropertyArray providerConfigTwitterParams = null;
-  private ConfigNodePropertyBoolean providerConfigRefreshUserdataEnabled = null;
+  private ConfigNodePropertyString oauthProviderId;
+  private ConfigNodePropertyString oauthCloudConfigRoot;
+  private ConfigNodePropertyString providerConfigRoot;
+  private ConfigNodePropertyDropDown providerConfigUserFolder;
+  private ConfigNodePropertyBoolean providerConfigTwitterEnableParams;
+  private ConfigNodePropertyArray providerConfigTwitterParams;
+  private ConfigNodePropertyBoolean providerConfigRefreshUserdataEnabled;
 
   /**
-   **/
+   */
   public ComAdobeCqSocialConnectOauthImplTwitterProviderImplProperties oauthProviderId(ConfigNodePropertyString oauthProviderId) {
     this.oauthProviderId = oauthProviderId;
     return this;
@@ -43,7 +53,7 @@ public class ComAdobeCqSocialConnectOauthImplTwitterProviderImplProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeCqSocialConnectOauthImplTwitterProviderImplProperties oauthCloudConfigRoot(ConfigNodePropertyString oauthCloudConfigRoot) {
     this.oauthCloudConfigRoot = oauthCloudConfigRoot;
     return this;
@@ -60,7 +70,7 @@ public class ComAdobeCqSocialConnectOauthImplTwitterProviderImplProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeCqSocialConnectOauthImplTwitterProviderImplProperties providerConfigRoot(ConfigNodePropertyString providerConfigRoot) {
     this.providerConfigRoot = providerConfigRoot;
     return this;
@@ -77,7 +87,7 @@ public class ComAdobeCqSocialConnectOauthImplTwitterProviderImplProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeCqSocialConnectOauthImplTwitterProviderImplProperties providerConfigUserFolder(ConfigNodePropertyDropDown providerConfigUserFolder) {
     this.providerConfigUserFolder = providerConfigUserFolder;
     return this;
@@ -94,7 +104,7 @@ public class ComAdobeCqSocialConnectOauthImplTwitterProviderImplProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeCqSocialConnectOauthImplTwitterProviderImplProperties providerConfigTwitterEnableParams(ConfigNodePropertyBoolean providerConfigTwitterEnableParams) {
     this.providerConfigTwitterEnableParams = providerConfigTwitterEnableParams;
     return this;
@@ -111,7 +121,7 @@ public class ComAdobeCqSocialConnectOauthImplTwitterProviderImplProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeCqSocialConnectOauthImplTwitterProviderImplProperties providerConfigTwitterParams(ConfigNodePropertyArray providerConfigTwitterParams) {
     this.providerConfigTwitterParams = providerConfigTwitterParams;
     return this;
@@ -128,7 +138,7 @@ public class ComAdobeCqSocialConnectOauthImplTwitterProviderImplProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeCqSocialConnectOauthImplTwitterProviderImplProperties providerConfigRefreshUserdataEnabled(ConfigNodePropertyBoolean providerConfigRefreshUserdataEnabled) {
     this.providerConfigRefreshUserdataEnabled = providerConfigRefreshUserdataEnabled;
     return this;
@@ -146,7 +156,7 @@ public class ComAdobeCqSocialConnectOauthImplTwitterProviderImplProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -188,11 +198,8 @@ public class ComAdobeCqSocialConnectOauthImplTwitterProviderImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

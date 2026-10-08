@@ -9,24 +9,24 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqReportingImplConfigServiceImplProperties {
-    ConfigNodePropertyString repconfTimezone = null
-
-    ConfigNodePropertyString repconfLocale = null
-
-    ConfigNodePropertyString repconfSnapshots = null
-
-    ConfigNodePropertyString repconfRepdir = null
-
-    ConfigNodePropertyInteger repconfHourofday = null
-
-    ConfigNodePropertyInteger repconfMinofhour = null
-
-    ConfigNodePropertyInteger repconfMaxrows = null
-
-    ConfigNodePropertyBoolean repconfFakedata = null
-
-    ConfigNodePropertyString repconfSnapshotuser = null
-
-    ConfigNodePropertyBoolean repconfEnforcesnapshotuser = null
-
+    
+    ConfigNodePropertyString repconfTimezone
+    
+    ConfigNodePropertyString repconfLocale
+    
+    ConfigNodePropertyString repconfSnapshots
+    
+    ConfigNodePropertyString repconfRepdir
+    
+    ConfigNodePropertyInteger repconfHourofday
+    
+    ConfigNodePropertyInteger repconfMinofhour
+    
+    ConfigNodePropertyInteger repconfMaxrows
+    
+    ConfigNodePropertyBoolean repconfFakedata
+    
+    ConfigNodePropertyString repconfSnapshotuser
+    
+    ConfigNodePropertyBoolean repconfEnforcesnapshotuser
 }

@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeGraniteCompatrouterImplSwitchMappingConfig
 
 @Canonical
 class ComAdobeGraniteCompatrouterImplSwitchMappingConfigInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteCompatrouterImplSwitchMappingConfigProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteCompatrouterImplSwitchMappingConfigProperties properties
 }

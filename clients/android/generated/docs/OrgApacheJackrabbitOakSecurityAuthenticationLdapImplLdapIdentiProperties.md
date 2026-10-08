@@ -1,7 +1,9 @@
 
+
 # OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **providerName** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
@@ -30,6 +32,7 @@ Name | Type | Description | Notes
 **groupMemberAttribute** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
 **useUidForExtId** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
 **customattributes** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
+
 
 
 

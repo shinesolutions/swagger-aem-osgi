@@ -1,30 +1,41 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyInteger;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComAdobeCqSocialUgcbaseDispatcherImplFlushServiceImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComAdobeCqSocialUgcbaseDispatcherImplFlushServiceImplProperties   {
-  @JsonProperty("threadPoolSize")
-  private ConfigNodePropertyInteger threadPoolSize = null;
+@JsonTypeName("comAdobeCqSocialUgcbaseDispatcherImplFlushServiceImplProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComAdobeCqSocialUgcbaseDispatcherImplFlushServiceImplProperties {
 
-  @JsonProperty("delayTime")
-  private ConfigNodePropertyInteger delayTime = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger threadPoolSize;
 
-  @JsonProperty("workerSleepTime")
-  private ConfigNodePropertyInteger workerSleepTime = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger delayTime;
 
-  public ComAdobeCqSocialUgcbaseDispatcherImplFlushServiceImplProperties threadPoolSize(ConfigNodePropertyInteger threadPoolSize) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger workerSleepTime;
+
+  public ComAdobeCqSocialUgcbaseDispatcherImplFlushServiceImplProperties threadPoolSize(@Nullable ConfigNodePropertyInteger threadPoolSize) {
     this.threadPoolSize = threadPoolSize;
     return this;
   }
@@ -32,20 +43,20 @@ public class ComAdobeCqSocialUgcbaseDispatcherImplFlushServiceImplProperties   {
   /**
    * Get threadPoolSize
    * @return threadPoolSize
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getThreadPoolSize() {
+   */
+  @Valid 
+  @Schema(name = "threadPoolSize", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("threadPoolSize")
+  public @Nullable ConfigNodePropertyInteger getThreadPoolSize() {
     return threadPoolSize;
   }
 
-  public void setThreadPoolSize(ConfigNodePropertyInteger threadPoolSize) {
+  @JsonProperty("threadPoolSize")
+  public void setThreadPoolSize(@Nullable ConfigNodePropertyInteger threadPoolSize) {
     this.threadPoolSize = threadPoolSize;
   }
 
-  public ComAdobeCqSocialUgcbaseDispatcherImplFlushServiceImplProperties delayTime(ConfigNodePropertyInteger delayTime) {
+  public ComAdobeCqSocialUgcbaseDispatcherImplFlushServiceImplProperties delayTime(@Nullable ConfigNodePropertyInteger delayTime) {
     this.delayTime = delayTime;
     return this;
   }
@@ -53,20 +64,20 @@ public class ComAdobeCqSocialUgcbaseDispatcherImplFlushServiceImplProperties   {
   /**
    * Get delayTime
    * @return delayTime
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getDelayTime() {
+   */
+  @Valid 
+  @Schema(name = "delayTime", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("delayTime")
+  public @Nullable ConfigNodePropertyInteger getDelayTime() {
     return delayTime;
   }
 
-  public void setDelayTime(ConfigNodePropertyInteger delayTime) {
+  @JsonProperty("delayTime")
+  public void setDelayTime(@Nullable ConfigNodePropertyInteger delayTime) {
     this.delayTime = delayTime;
   }
 
-  public ComAdobeCqSocialUgcbaseDispatcherImplFlushServiceImplProperties workerSleepTime(ConfigNodePropertyInteger workerSleepTime) {
+  public ComAdobeCqSocialUgcbaseDispatcherImplFlushServiceImplProperties workerSleepTime(@Nullable ConfigNodePropertyInteger workerSleepTime) {
     this.workerSleepTime = workerSleepTime;
     return this;
   }
@@ -74,22 +85,21 @@ public class ComAdobeCqSocialUgcbaseDispatcherImplFlushServiceImplProperties   {
   /**
    * Get workerSleepTime
    * @return workerSleepTime
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getWorkerSleepTime() {
+   */
+  @Valid 
+  @Schema(name = "workerSleepTime", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("workerSleepTime")
+  public @Nullable ConfigNodePropertyInteger getWorkerSleepTime() {
     return workerSleepTime;
   }
 
-  public void setWorkerSleepTime(ConfigNodePropertyInteger workerSleepTime) {
+  @JsonProperty("workerSleepTime")
+  public void setWorkerSleepTime(@Nullable ConfigNodePropertyInteger workerSleepTime) {
     this.workerSleepTime = workerSleepTime;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -111,7 +121,6 @@ public class ComAdobeCqSocialUgcbaseDispatcherImplFlushServiceImplProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComAdobeCqSocialUgcbaseDispatcherImplFlushServiceImplProperties {\n");
-    
     sb.append("    threadPoolSize: ").append(toIndentedString(threadPoolSize)).append("\n");
     sb.append("    delayTime: ").append(toIndentedString(delayTime)).append("\n");
     sb.append("    workerSleepTime: ").append(toIndentedString(workerSleepTime)).append("\n");
@@ -123,11 +132,8 @@ public class ComAdobeCqSocialUgcbaseDispatcherImplFlushServiceImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -9,16 +9,16 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeCqDamS7imagingImplIsImageServerComponentProperties {
-    ConfigNodePropertyString tcpPort = null
-
-    ConfigNodePropertyBoolean allowRemoteAccess = null
-
-    ConfigNodePropertyString maxRenderRgnPixels = null
-
-    ConfigNodePropertyString maxMessageSize = null
-
-    ConfigNodePropertyInteger randomAccessUrlTimeout = null
-
-    ConfigNodePropertyInteger workerThreads = null
-
+    
+    ConfigNodePropertyString tcpPort
+    
+    ConfigNodePropertyBoolean allowRemoteAccess
+    
+    ConfigNodePropertyString maxRenderRgnPixels
+    
+    ConfigNodePropertyString maxMessageSize
+    
+    ConfigNodePropertyInteger randomAccessUrlTimeout
+    
+    ConfigNodePropertyInteger workerThreads
 }

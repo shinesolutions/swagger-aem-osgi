@@ -1,3 +1,13 @@
+/*
+ * Adobe Experience Manager OSGI config (AEM) API
+ *
+ * Swagger AEM OSGI is an OpenAPI specification for Adobe Experience Manager (AEM) OSGI Configurations API
+ *
+ * OpenAPI document version: 1.0.0-pre.0
+ * Maintained by: opensource@shinesolutions.com
+ *
+ * AUTO-GENERATED FILE, DO NOT MODIFY!
+ */
 package org.openapitools.model;
 
 import java.util.Objects;
@@ -15,32 +25,32 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2019-08-05T00:56:20.785Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2026-10-07T12:53:42.280804918Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties   {
   
-  private ConfigNodePropertyString name = null;
-  private ConfigNodePropertyString title = null;
-  private ConfigNodePropertyString details = null;
-  private ConfigNodePropertyBoolean enabled = null;
-  private ConfigNodePropertyString serviceName = null;
-  private ConfigNodePropertyDropDown logLevel = null;
-  private ConfigNodePropertyArray allowedRoots = null;
-  private ConfigNodePropertyBoolean queueProcessingEnabled = null;
-  private ConfigNodePropertyArray packageImporterEndpoints = null;
-  private ConfigNodePropertyArray passiveQueues = null;
-  private ConfigNodePropertyArray priorityQueues = null;
-  private ConfigNodePropertyDropDown retryStrategy = null;
-  private ConfigNodePropertyInteger retryAttempts = null;
-  private ConfigNodePropertyString requestAuthorizationStrategyTarget = null;
-  private ConfigNodePropertyString transportSecretProviderTarget = null;
-  private ConfigNodePropertyString packageBuilderTarget = null;
-  private ConfigNodePropertyString triggersTarget = null;
-  private ConfigNodePropertyDropDown queueProvider = null;
-  private ConfigNodePropertyBoolean asyncDelivery = null;
-  private ConfigNodePropertyInteger httpConnTimeout = null;
+  private ConfigNodePropertyString name;
+  private ConfigNodePropertyString title;
+  private ConfigNodePropertyString details;
+  private ConfigNodePropertyBoolean enabled;
+  private ConfigNodePropertyString serviceName;
+  private ConfigNodePropertyDropDown logLevel;
+  private ConfigNodePropertyArray allowedRoots;
+  private ConfigNodePropertyBoolean queueProcessingEnabled;
+  private ConfigNodePropertyArray packageImporterEndpoints;
+  private ConfigNodePropertyArray passiveQueues;
+  private ConfigNodePropertyArray priorityQueues;
+  private ConfigNodePropertyDropDown retryStrategy;
+  private ConfigNodePropertyInteger retryAttempts;
+  private ConfigNodePropertyString requestAuthorizationStrategyTarget;
+  private ConfigNodePropertyString transportSecretProviderTarget;
+  private ConfigNodePropertyString packageBuilderTarget;
+  private ConfigNodePropertyString triggersTarget;
+  private ConfigNodePropertyDropDown queueProvider;
+  private ConfigNodePropertyBoolean asyncDelivery;
+  private ConfigNodePropertyInteger httpConnTimeout;
 
   /**
-   **/
+   */
   public OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties name(ConfigNodePropertyString name) {
     this.name = name;
     return this;
@@ -57,7 +67,7 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties title(ConfigNodePropertyString title) {
     this.title = title;
     return this;
@@ -74,7 +84,7 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties details(ConfigNodePropertyString details) {
     this.details = details;
     return this;
@@ -91,7 +101,7 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties enabled(ConfigNodePropertyBoolean enabled) {
     this.enabled = enabled;
     return this;
@@ -108,7 +118,7 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties serviceName(ConfigNodePropertyString serviceName) {
     this.serviceName = serviceName;
     return this;
@@ -125,7 +135,7 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties logLevel(ConfigNodePropertyDropDown logLevel) {
     this.logLevel = logLevel;
     return this;
@@ -142,7 +152,7 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties allowedRoots(ConfigNodePropertyArray allowedRoots) {
     this.allowedRoots = allowedRoots;
     return this;
@@ -159,7 +169,7 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties queueProcessingEnabled(ConfigNodePropertyBoolean queueProcessingEnabled) {
     this.queueProcessingEnabled = queueProcessingEnabled;
     return this;
@@ -176,7 +186,7 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties packageImporterEndpoints(ConfigNodePropertyArray packageImporterEndpoints) {
     this.packageImporterEndpoints = packageImporterEndpoints;
     return this;
@@ -193,7 +203,7 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties passiveQueues(ConfigNodePropertyArray passiveQueues) {
     this.passiveQueues = passiveQueues;
     return this;
@@ -210,7 +220,7 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties priorityQueues(ConfigNodePropertyArray priorityQueues) {
     this.priorityQueues = priorityQueues;
     return this;
@@ -227,7 +237,7 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties retryStrategy(ConfigNodePropertyDropDown retryStrategy) {
     this.retryStrategy = retryStrategy;
     return this;
@@ -244,7 +254,7 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties retryAttempts(ConfigNodePropertyInteger retryAttempts) {
     this.retryAttempts = retryAttempts;
     return this;
@@ -261,7 +271,7 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties requestAuthorizationStrategyTarget(ConfigNodePropertyString requestAuthorizationStrategyTarget) {
     this.requestAuthorizationStrategyTarget = requestAuthorizationStrategyTarget;
     return this;
@@ -278,7 +288,7 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties transportSecretProviderTarget(ConfigNodePropertyString transportSecretProviderTarget) {
     this.transportSecretProviderTarget = transportSecretProviderTarget;
     return this;
@@ -295,7 +305,7 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties packageBuilderTarget(ConfigNodePropertyString packageBuilderTarget) {
     this.packageBuilderTarget = packageBuilderTarget;
     return this;
@@ -312,7 +322,7 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties triggersTarget(ConfigNodePropertyString triggersTarget) {
     this.triggersTarget = triggersTarget;
     return this;
@@ -329,7 +339,7 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties queueProvider(ConfigNodePropertyDropDown queueProvider) {
     this.queueProvider = queueProvider;
     return this;
@@ -346,7 +356,7 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties asyncDelivery(ConfigNodePropertyBoolean asyncDelivery) {
     this.asyncDelivery = asyncDelivery;
     return this;
@@ -363,7 +373,7 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties httpConnTimeout(ConfigNodePropertyInteger httpConnTimeout) {
     this.httpConnTimeout = httpConnTimeout;
     return this;
@@ -381,7 +391,7 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -449,11 +459,8 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -15,21 +15,20 @@ import io.swagger.annotations.ApiModelProperty;
  * MessagingUserComponentFactoryProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class MessagingUserComponentFactoryProperties   {
   @JsonProperty("priority")
-  private ConfigNodePropertyInteger priority = null;
+  private ConfigNodePropertyInteger priority;
 
   public MessagingUserComponentFactoryProperties priority(ConfigNodePropertyInteger priority) {
     this.priority = priority;
     return this;
   }
 
-   /**
+  /**
    * Get priority
    * @return priority
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getPriority() {
     return priority;
@@ -41,7 +40,7 @@ public class MessagingUserComponentFactoryProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -71,11 +70,8 @@ public class MessagingUserComponentFactoryProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -1,28 +1,39 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComAdobeGraniteOmnisearchImplCoreOmniSearchServiceImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComAdobeGraniteOmnisearchImplCoreOmniSearchServiceImplProperties   {
-  @JsonProperty("omnisearch.suggestion.requiretext.min")
-  private ConfigNodePropertyInteger omnisearchSuggestionRequiretextMin = null;
+@JsonTypeName("comAdobeGraniteOmnisearchImplCoreOmniSearchServiceImplProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComAdobeGraniteOmnisearchImplCoreOmniSearchServiceImplProperties {
 
-  @JsonProperty("omnisearch.suggestion.spellcheck.require")
-  private ConfigNodePropertyBoolean omnisearchSuggestionSpellcheckRequire = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger omnisearchSuggestionRequiretextMin;
 
-  public ComAdobeGraniteOmnisearchImplCoreOmniSearchServiceImplProperties omnisearchSuggestionRequiretextMin(ConfigNodePropertyInteger omnisearchSuggestionRequiretextMin) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean omnisearchSuggestionSpellcheckRequire;
+
+  public ComAdobeGraniteOmnisearchImplCoreOmniSearchServiceImplProperties omnisearchSuggestionRequiretextMin(@Nullable ConfigNodePropertyInteger omnisearchSuggestionRequiretextMin) {
     this.omnisearchSuggestionRequiretextMin = omnisearchSuggestionRequiretextMin;
     return this;
   }
@@ -30,20 +41,20 @@ public class ComAdobeGraniteOmnisearchImplCoreOmniSearchServiceImplProperties   
   /**
    * Get omnisearchSuggestionRequiretextMin
    * @return omnisearchSuggestionRequiretextMin
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getOmnisearchSuggestionRequiretextMin() {
+   */
+  @Valid 
+  @Schema(name = "omnisearch.suggestion.requiretext.min", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("omnisearch.suggestion.requiretext.min")
+  public @Nullable ConfigNodePropertyInteger getOmnisearchSuggestionRequiretextMin() {
     return omnisearchSuggestionRequiretextMin;
   }
 
-  public void setOmnisearchSuggestionRequiretextMin(ConfigNodePropertyInteger omnisearchSuggestionRequiretextMin) {
+  @JsonProperty("omnisearch.suggestion.requiretext.min")
+  public void setOmnisearchSuggestionRequiretextMin(@Nullable ConfigNodePropertyInteger omnisearchSuggestionRequiretextMin) {
     this.omnisearchSuggestionRequiretextMin = omnisearchSuggestionRequiretextMin;
   }
 
-  public ComAdobeGraniteOmnisearchImplCoreOmniSearchServiceImplProperties omnisearchSuggestionSpellcheckRequire(ConfigNodePropertyBoolean omnisearchSuggestionSpellcheckRequire) {
+  public ComAdobeGraniteOmnisearchImplCoreOmniSearchServiceImplProperties omnisearchSuggestionSpellcheckRequire(@Nullable ConfigNodePropertyBoolean omnisearchSuggestionSpellcheckRequire) {
     this.omnisearchSuggestionSpellcheckRequire = omnisearchSuggestionSpellcheckRequire;
     return this;
   }
@@ -51,22 +62,21 @@ public class ComAdobeGraniteOmnisearchImplCoreOmniSearchServiceImplProperties   
   /**
    * Get omnisearchSuggestionSpellcheckRequire
    * @return omnisearchSuggestionSpellcheckRequire
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getOmnisearchSuggestionSpellcheckRequire() {
+   */
+  @Valid 
+  @Schema(name = "omnisearch.suggestion.spellcheck.require", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("omnisearch.suggestion.spellcheck.require")
+  public @Nullable ConfigNodePropertyBoolean getOmnisearchSuggestionSpellcheckRequire() {
     return omnisearchSuggestionSpellcheckRequire;
   }
 
-  public void setOmnisearchSuggestionSpellcheckRequire(ConfigNodePropertyBoolean omnisearchSuggestionSpellcheckRequire) {
+  @JsonProperty("omnisearch.suggestion.spellcheck.require")
+  public void setOmnisearchSuggestionSpellcheckRequire(@Nullable ConfigNodePropertyBoolean omnisearchSuggestionSpellcheckRequire) {
     this.omnisearchSuggestionSpellcheckRequire = omnisearchSuggestionSpellcheckRequire;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -87,7 +97,6 @@ public class ComAdobeGraniteOmnisearchImplCoreOmniSearchServiceImplProperties   
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComAdobeGraniteOmnisearchImplCoreOmniSearchServiceImplProperties {\n");
-    
     sb.append("    omnisearchSuggestionRequiretextMin: ").append(toIndentedString(omnisearchSuggestionRequiretextMin)).append("\n");
     sb.append("    omnisearchSuggestionSpellcheckRequire: ").append(toIndentedString(omnisearchSuggestionSpellcheckRequire)).append("\n");
     sb.append("}");
@@ -98,11 +107,8 @@ public class ComAdobeGraniteOmnisearchImplCoreOmniSearchServiceImplProperties   
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

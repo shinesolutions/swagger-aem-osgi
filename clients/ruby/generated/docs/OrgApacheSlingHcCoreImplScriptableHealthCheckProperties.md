@@ -2,24 +2,25 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**hc_name** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
-**hc_tags** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 
-**hc_mbean_name** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
-**expression** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
-**language_extension** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **hc_name** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] |
+| **hc_tags** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] |
+| **hc_mbean_name** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] |
+| **expression** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] |
+| **language_extension** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::OrgApacheSlingHcCoreImplScriptableHealthCheckProperties.new(hc_name: null,
-                                 hc_tags: null,
-                                 hc_mbean_name: null,
-                                 expression: null,
-                                 language_extension: null)
+instance = SwaggerAemOsgiClient::OrgApacheSlingHcCoreImplScriptableHealthCheckProperties.new(
+  hc_name: null,
+  hc_tags: null,
+  hc_mbean_name: null,
+  expression: null,
+  language_extension: null
+)
 ```
-
 

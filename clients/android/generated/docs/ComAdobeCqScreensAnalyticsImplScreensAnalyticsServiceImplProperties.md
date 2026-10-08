@@ -1,7 +1,9 @@
 
+
 # ComAdobeCqScreensAnalyticsImplScreensAnalyticsServiceImplProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **comAdobeCqScreensAnalyticsImplUrl** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
@@ -9,6 +11,7 @@ Name | Type | Description | Notes
 **comAdobeCqScreensAnalyticsImplProject** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
 **comAdobeCqScreensAnalyticsImplEnvironment** | [**ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md) |  |  [optional]
 **comAdobeCqScreensAnalyticsImplSendFrequency** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
+
 
 
 

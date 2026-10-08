@@ -1,23 +1,28 @@
 package apimodels;
 
 import apimodels.ConfigNodePropertyBoolean;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * ComAdobeGraniteInfocollectorInfoCollectorProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class ComAdobeGraniteInfocollectorInfoCollectorProperties   {
   @JsonProperty("granite.infocollector.includeThreadDumps")
-  private ConfigNodePropertyBoolean graniteInfocollectorIncludeThreadDumps = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean graniteInfocollectorIncludeThreadDumps;
 
   @JsonProperty("granite.infocollector.includeHeapDump")
-  private ConfigNodePropertyBoolean graniteInfocollectorIncludeHeapDump = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean graniteInfocollectorIncludeHeapDump;
 
   public ComAdobeGraniteInfocollectorInfoCollectorProperties graniteInfocollectorIncludeThreadDumps(ConfigNodePropertyBoolean graniteInfocollectorIncludeThreadDumps) {
     this.graniteInfocollectorIncludeThreadDumps = graniteInfocollectorIncludeThreadDumps;
@@ -28,7 +33,6 @@ public class ComAdobeGraniteInfocollectorInfoCollectorProperties   {
    * Get graniteInfocollectorIncludeThreadDumps
    * @return graniteInfocollectorIncludeThreadDumps
   **/
-  @Valid
   public ConfigNodePropertyBoolean getGraniteInfocollectorIncludeThreadDumps() {
     return graniteInfocollectorIncludeThreadDumps;
   }
@@ -46,7 +50,6 @@ public class ComAdobeGraniteInfocollectorInfoCollectorProperties   {
    * Get graniteInfocollectorIncludeHeapDump
    * @return graniteInfocollectorIncludeHeapDump
   **/
-  @Valid
   public ConfigNodePropertyBoolean getGraniteInfocollectorIncludeHeapDump() {
     return graniteInfocollectorIncludeHeapDump;
   }
@@ -57,7 +60,7 @@ public class ComAdobeGraniteInfocollectorInfoCollectorProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -90,11 +93,8 @@ public class ComAdobeGraniteInfocollectorInfoCollectorProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

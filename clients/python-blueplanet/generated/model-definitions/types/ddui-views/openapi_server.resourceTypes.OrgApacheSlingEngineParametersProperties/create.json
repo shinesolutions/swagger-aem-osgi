@@ -1,0 +1,23 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "sling_default_parameter_encoding" },
+      {"model": "sling_default_max_parameters" },
+      {"model": "file_location" },
+      {"model": "file_threshold" },
+      {"model": "file_max" },
+      {"model": "request_max" },
+      {"model": "sling_default_parameter_check_for_additional_container_parameters" },
+    ]
+  }]
+}

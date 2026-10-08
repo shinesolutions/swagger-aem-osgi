@@ -1,5 +1,6 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
@@ -7,44 +8,53 @@ import javax.validation.constraints.*;
 import javax.validation.Valid;
 
 import io.swagger.annotations.ApiModelProperty;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlType;
-import javax.xml.bind.annotation.XmlEnum;
-import javax.xml.bind.annotation.XmlEnumValue;
+import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
 
 public class OrgApacheSlingEngineParametersProperties  {
   
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyString slingDefaultParameterEncoding = null;
+
+  private ConfigNodePropertyString slingDefaultParameterEncoding;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyInteger slingDefaultMaxParameters = null;
+
+  private ConfigNodePropertyInteger slingDefaultMaxParameters;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyString fileLocation = null;
+
+  private ConfigNodePropertyString fileLocation;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyInteger fileThreshold = null;
+
+  private ConfigNodePropertyInteger fileThreshold;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyInteger fileMax = null;
+
+  private ConfigNodePropertyInteger fileMax;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyInteger requestMax = null;
+
+  private ConfigNodePropertyInteger requestMax;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyBoolean slingDefaultParameterCheckForAdditionalContainerParameters = null;
+
+  private ConfigNodePropertyBoolean slingDefaultParameterCheckForAdditionalContainerParameters;
  /**
    * Get slingDefaultParameterEncoding
    * @return slingDefaultParameterEncoding
@@ -171,6 +181,28 @@ public class OrgApacheSlingEngineParametersProperties  {
     return this;
   }
 
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    OrgApacheSlingEngineParametersProperties orgApacheSlingEngineParametersProperties = (OrgApacheSlingEngineParametersProperties) o;
+    return Objects.equals(this.slingDefaultParameterEncoding, orgApacheSlingEngineParametersProperties.slingDefaultParameterEncoding) &&
+        Objects.equals(this.slingDefaultMaxParameters, orgApacheSlingEngineParametersProperties.slingDefaultMaxParameters) &&
+        Objects.equals(this.fileLocation, orgApacheSlingEngineParametersProperties.fileLocation) &&
+        Objects.equals(this.fileThreshold, orgApacheSlingEngineParametersProperties.fileThreshold) &&
+        Objects.equals(this.fileMax, orgApacheSlingEngineParametersProperties.fileMax) &&
+        Objects.equals(this.requestMax, orgApacheSlingEngineParametersProperties.requestMax) &&
+        Objects.equals(this.slingDefaultParameterCheckForAdditionalContainerParameters, orgApacheSlingEngineParametersProperties.slingDefaultParameterCheckForAdditionalContainerParameters);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(slingDefaultParameterEncoding, slingDefaultMaxParameters, fileLocation, fileThreshold, fileMax, requestMax, slingDefaultParameterCheckForAdditionalContainerParameters);
+  }
 
   @Override
   public String toString() {
@@ -192,11 +224,8 @@ public class OrgApacheSlingEngineParametersProperties  {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private static String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

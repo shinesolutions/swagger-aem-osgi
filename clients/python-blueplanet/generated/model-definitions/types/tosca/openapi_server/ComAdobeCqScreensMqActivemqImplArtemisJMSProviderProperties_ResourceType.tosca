@@ -1,0 +1,201 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyDropDown = openapi_server.resourceTypes.ConfigNodePropertyDropDown
+  ConfigNodePropertyFloat = openapi_server.resourceTypes.ConfigNodePropertyFloat
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties {
+    title = ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties
+    description = ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties
+    derivedFrom = Root
+    properties {
+        service_ranking {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        global_size {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        max_disk_usage {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        persistence_enabled {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        thread_pool_max_size {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        scheduled_thread_pool_max_size {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        graceful_shutdown_timeout {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        queues {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        topics {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        addresses_max_delivery_attempts {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        addresses_expiry_delay {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        addresses_address_full_message_policy {
+          type = ConfigNodePropertyDropDown
+          description = ""
+          optional = false
+        }
+        addresses_max_size_bytes {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        addresses_page_size_bytes {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        addresses_page_cache_max_size {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        cluster_user {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        cluster_password {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        cluster_call_timeout {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        cluster_call_failover_timeout {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        cluster_client_failure_check_period {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        cluster_notification_attempts {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        cluster_notification_interval {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        id_cache_size {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        cluster_confirmation_window_size {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        cluster_connection_ttl {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        cluster_duplicate_detection {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        cluster_initial_connect_attempts {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        cluster_max_retry_interval {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        cluster_min_large_message_size {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        cluster_producer_window_size {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        cluster_reconnect_attempts {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        cluster_retry_interval {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        cluster_retry_interval_multiplier {
+          type = ConfigNodePropertyFloat
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties {
+    title = ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties
+    description = ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties
+    implements = openapi_server.resourceTypes.ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties
+
+  }
+}

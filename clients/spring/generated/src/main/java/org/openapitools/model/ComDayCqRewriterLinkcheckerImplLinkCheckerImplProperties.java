@@ -1,44 +1,55 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComDayCqRewriterLinkcheckerImplLinkCheckerImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComDayCqRewriterLinkcheckerImplLinkCheckerImplProperties   {
-  @JsonProperty("scheduler.period")
-  private ConfigNodePropertyInteger schedulerPeriod = null;
+@JsonTypeName("comDayCqRewriterLinkcheckerImplLinkCheckerImplProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComDayCqRewriterLinkcheckerImplLinkCheckerImplProperties {
 
-  @JsonProperty("scheduler.concurrent")
-  private ConfigNodePropertyBoolean schedulerConcurrent = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger schedulerPeriod;
 
-  @JsonProperty("service.bad_link_tolerance_interval")
-  private ConfigNodePropertyInteger serviceBadLinkToleranceInterval = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean schedulerConcurrent;
 
-  @JsonProperty("service.check_override_patterns")
-  private ConfigNodePropertyArray serviceCheckOverridePatterns = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger serviceBadLinkToleranceInterval;
 
-  @JsonProperty("service.cache_broken_internal_links")
-  private ConfigNodePropertyBoolean serviceCacheBrokenInternalLinks = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray serviceCheckOverridePatterns;
 
-  @JsonProperty("service.special_link_prefix")
-  private ConfigNodePropertyArray serviceSpecialLinkPrefix = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean serviceCacheBrokenInternalLinks;
 
-  @JsonProperty("service.special_link_patterns")
-  private ConfigNodePropertyArray serviceSpecialLinkPatterns = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray serviceSpecialLinkPrefix;
 
-  public ComDayCqRewriterLinkcheckerImplLinkCheckerImplProperties schedulerPeriod(ConfigNodePropertyInteger schedulerPeriod) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray serviceSpecialLinkPatterns;
+
+  public ComDayCqRewriterLinkcheckerImplLinkCheckerImplProperties schedulerPeriod(@Nullable ConfigNodePropertyInteger schedulerPeriod) {
     this.schedulerPeriod = schedulerPeriod;
     return this;
   }
@@ -46,20 +57,20 @@ public class ComDayCqRewriterLinkcheckerImplLinkCheckerImplProperties   {
   /**
    * Get schedulerPeriod
    * @return schedulerPeriod
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getSchedulerPeriod() {
+   */
+  @Valid 
+  @Schema(name = "scheduler.period", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("scheduler.period")
+  public @Nullable ConfigNodePropertyInteger getSchedulerPeriod() {
     return schedulerPeriod;
   }
 
-  public void setSchedulerPeriod(ConfigNodePropertyInteger schedulerPeriod) {
+  @JsonProperty("scheduler.period")
+  public void setSchedulerPeriod(@Nullable ConfigNodePropertyInteger schedulerPeriod) {
     this.schedulerPeriod = schedulerPeriod;
   }
 
-  public ComDayCqRewriterLinkcheckerImplLinkCheckerImplProperties schedulerConcurrent(ConfigNodePropertyBoolean schedulerConcurrent) {
+  public ComDayCqRewriterLinkcheckerImplLinkCheckerImplProperties schedulerConcurrent(@Nullable ConfigNodePropertyBoolean schedulerConcurrent) {
     this.schedulerConcurrent = schedulerConcurrent;
     return this;
   }
@@ -67,20 +78,20 @@ public class ComDayCqRewriterLinkcheckerImplLinkCheckerImplProperties   {
   /**
    * Get schedulerConcurrent
    * @return schedulerConcurrent
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getSchedulerConcurrent() {
+   */
+  @Valid 
+  @Schema(name = "scheduler.concurrent", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("scheduler.concurrent")
+  public @Nullable ConfigNodePropertyBoolean getSchedulerConcurrent() {
     return schedulerConcurrent;
   }
 
-  public void setSchedulerConcurrent(ConfigNodePropertyBoolean schedulerConcurrent) {
+  @JsonProperty("scheduler.concurrent")
+  public void setSchedulerConcurrent(@Nullable ConfigNodePropertyBoolean schedulerConcurrent) {
     this.schedulerConcurrent = schedulerConcurrent;
   }
 
-  public ComDayCqRewriterLinkcheckerImplLinkCheckerImplProperties serviceBadLinkToleranceInterval(ConfigNodePropertyInteger serviceBadLinkToleranceInterval) {
+  public ComDayCqRewriterLinkcheckerImplLinkCheckerImplProperties serviceBadLinkToleranceInterval(@Nullable ConfigNodePropertyInteger serviceBadLinkToleranceInterval) {
     this.serviceBadLinkToleranceInterval = serviceBadLinkToleranceInterval;
     return this;
   }
@@ -88,20 +99,20 @@ public class ComDayCqRewriterLinkcheckerImplLinkCheckerImplProperties   {
   /**
    * Get serviceBadLinkToleranceInterval
    * @return serviceBadLinkToleranceInterval
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getServiceBadLinkToleranceInterval() {
+   */
+  @Valid 
+  @Schema(name = "service.bad_link_tolerance_interval", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("service.bad_link_tolerance_interval")
+  public @Nullable ConfigNodePropertyInteger getServiceBadLinkToleranceInterval() {
     return serviceBadLinkToleranceInterval;
   }
 
-  public void setServiceBadLinkToleranceInterval(ConfigNodePropertyInteger serviceBadLinkToleranceInterval) {
+  @JsonProperty("service.bad_link_tolerance_interval")
+  public void setServiceBadLinkToleranceInterval(@Nullable ConfigNodePropertyInteger serviceBadLinkToleranceInterval) {
     this.serviceBadLinkToleranceInterval = serviceBadLinkToleranceInterval;
   }
 
-  public ComDayCqRewriterLinkcheckerImplLinkCheckerImplProperties serviceCheckOverridePatterns(ConfigNodePropertyArray serviceCheckOverridePatterns) {
+  public ComDayCqRewriterLinkcheckerImplLinkCheckerImplProperties serviceCheckOverridePatterns(@Nullable ConfigNodePropertyArray serviceCheckOverridePatterns) {
     this.serviceCheckOverridePatterns = serviceCheckOverridePatterns;
     return this;
   }
@@ -109,20 +120,20 @@ public class ComDayCqRewriterLinkcheckerImplLinkCheckerImplProperties   {
   /**
    * Get serviceCheckOverridePatterns
    * @return serviceCheckOverridePatterns
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getServiceCheckOverridePatterns() {
+   */
+  @Valid 
+  @Schema(name = "service.check_override_patterns", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("service.check_override_patterns")
+  public @Nullable ConfigNodePropertyArray getServiceCheckOverridePatterns() {
     return serviceCheckOverridePatterns;
   }
 
-  public void setServiceCheckOverridePatterns(ConfigNodePropertyArray serviceCheckOverridePatterns) {
+  @JsonProperty("service.check_override_patterns")
+  public void setServiceCheckOverridePatterns(@Nullable ConfigNodePropertyArray serviceCheckOverridePatterns) {
     this.serviceCheckOverridePatterns = serviceCheckOverridePatterns;
   }
 
-  public ComDayCqRewriterLinkcheckerImplLinkCheckerImplProperties serviceCacheBrokenInternalLinks(ConfigNodePropertyBoolean serviceCacheBrokenInternalLinks) {
+  public ComDayCqRewriterLinkcheckerImplLinkCheckerImplProperties serviceCacheBrokenInternalLinks(@Nullable ConfigNodePropertyBoolean serviceCacheBrokenInternalLinks) {
     this.serviceCacheBrokenInternalLinks = serviceCacheBrokenInternalLinks;
     return this;
   }
@@ -130,20 +141,20 @@ public class ComDayCqRewriterLinkcheckerImplLinkCheckerImplProperties   {
   /**
    * Get serviceCacheBrokenInternalLinks
    * @return serviceCacheBrokenInternalLinks
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getServiceCacheBrokenInternalLinks() {
+   */
+  @Valid 
+  @Schema(name = "service.cache_broken_internal_links", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("service.cache_broken_internal_links")
+  public @Nullable ConfigNodePropertyBoolean getServiceCacheBrokenInternalLinks() {
     return serviceCacheBrokenInternalLinks;
   }
 
-  public void setServiceCacheBrokenInternalLinks(ConfigNodePropertyBoolean serviceCacheBrokenInternalLinks) {
+  @JsonProperty("service.cache_broken_internal_links")
+  public void setServiceCacheBrokenInternalLinks(@Nullable ConfigNodePropertyBoolean serviceCacheBrokenInternalLinks) {
     this.serviceCacheBrokenInternalLinks = serviceCacheBrokenInternalLinks;
   }
 
-  public ComDayCqRewriterLinkcheckerImplLinkCheckerImplProperties serviceSpecialLinkPrefix(ConfigNodePropertyArray serviceSpecialLinkPrefix) {
+  public ComDayCqRewriterLinkcheckerImplLinkCheckerImplProperties serviceSpecialLinkPrefix(@Nullable ConfigNodePropertyArray serviceSpecialLinkPrefix) {
     this.serviceSpecialLinkPrefix = serviceSpecialLinkPrefix;
     return this;
   }
@@ -151,20 +162,20 @@ public class ComDayCqRewriterLinkcheckerImplLinkCheckerImplProperties   {
   /**
    * Get serviceSpecialLinkPrefix
    * @return serviceSpecialLinkPrefix
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getServiceSpecialLinkPrefix() {
+   */
+  @Valid 
+  @Schema(name = "service.special_link_prefix", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("service.special_link_prefix")
+  public @Nullable ConfigNodePropertyArray getServiceSpecialLinkPrefix() {
     return serviceSpecialLinkPrefix;
   }
 
-  public void setServiceSpecialLinkPrefix(ConfigNodePropertyArray serviceSpecialLinkPrefix) {
+  @JsonProperty("service.special_link_prefix")
+  public void setServiceSpecialLinkPrefix(@Nullable ConfigNodePropertyArray serviceSpecialLinkPrefix) {
     this.serviceSpecialLinkPrefix = serviceSpecialLinkPrefix;
   }
 
-  public ComDayCqRewriterLinkcheckerImplLinkCheckerImplProperties serviceSpecialLinkPatterns(ConfigNodePropertyArray serviceSpecialLinkPatterns) {
+  public ComDayCqRewriterLinkcheckerImplLinkCheckerImplProperties serviceSpecialLinkPatterns(@Nullable ConfigNodePropertyArray serviceSpecialLinkPatterns) {
     this.serviceSpecialLinkPatterns = serviceSpecialLinkPatterns;
     return this;
   }
@@ -172,22 +183,21 @@ public class ComDayCqRewriterLinkcheckerImplLinkCheckerImplProperties   {
   /**
    * Get serviceSpecialLinkPatterns
    * @return serviceSpecialLinkPatterns
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getServiceSpecialLinkPatterns() {
+   */
+  @Valid 
+  @Schema(name = "service.special_link_patterns", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("service.special_link_patterns")
+  public @Nullable ConfigNodePropertyArray getServiceSpecialLinkPatterns() {
     return serviceSpecialLinkPatterns;
   }
 
-  public void setServiceSpecialLinkPatterns(ConfigNodePropertyArray serviceSpecialLinkPatterns) {
+  @JsonProperty("service.special_link_patterns")
+  public void setServiceSpecialLinkPatterns(@Nullable ConfigNodePropertyArray serviceSpecialLinkPatterns) {
     this.serviceSpecialLinkPatterns = serviceSpecialLinkPatterns;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -213,7 +223,6 @@ public class ComDayCqRewriterLinkcheckerImplLinkCheckerImplProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComDayCqRewriterLinkcheckerImplLinkCheckerImplProperties {\n");
-    
     sb.append("    schedulerPeriod: ").append(toIndentedString(schedulerPeriod)).append("\n");
     sb.append("    schedulerConcurrent: ").append(toIndentedString(schedulerConcurrent)).append("\n");
     sb.append("    serviceBadLinkToleranceInterval: ").append(toIndentedString(serviceBadLinkToleranceInterval)).append("\n");
@@ -229,11 +238,8 @@ public class ComDayCqRewriterLinkcheckerImplLinkCheckerImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

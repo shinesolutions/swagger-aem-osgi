@@ -72,9 +72,9 @@ private class OASComDayCqDamCommonsUtilImplAssetCaTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqDamCommonsUtilImplAssetCa comDayCqDamCommonsUtilImplAssetCacheImplProperties = new OASComDayCqDamCommonsUtilImplAssetCa();
-        Map<String, String> propertyMappings = comDayCqDamCommonsUtilImplAssetCacheImplProperties.getPropertyMappings();
-        System.assertEquals('largeFileMin', propertyMappings.get('large.file.min'));
-        System.assertEquals('cacheApply', propertyMappings.get('cache.apply'));
-        System.assertEquals('mimeTypes', propertyMappings.get('mime.types'));
+        Map<String, String> x-property-mappings = comDayCqDamCommonsUtilImplAssetCacheImplProperties.getx-property-mappings();
+        System.assertEquals('largeFileMin', x-property-mappings.get('large.file.min'));
+        System.assertEquals('cacheApply', x-property-mappings.get('cache.apply'));
+        System.assertEquals('mimeTypes', x-property-mappings.get('mime.types'));
     }
 }

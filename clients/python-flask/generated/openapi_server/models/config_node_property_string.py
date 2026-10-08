@@ -1,11 +1,8 @@
-# coding: utf-8
-
-from __future__ import absolute_import
 from datetime import date, datetime  # noqa: F401
 
 from typing import List, Dict  # noqa: F401
 
-from openapi_server.models.base_model_ import Model
+from openapi_server.models.base_model import Model
 from openapi_server import util
 
 
@@ -15,7 +12,7 @@ class ConfigNodePropertyString(Model):
     Do not edit the class manually.
     """
 
-    def __init__(self, name: str=None, optional: bool=None, is_set: bool=None, type: int=None, value: str=None, description: str=None):  # noqa: E501
+    def __init__(self, name=None, optional=None, is_set=None, type=None, value=None, description=None):  # noqa: E501
         """ConfigNodePropertyString - a model defined in OpenAPI
 
         :param name: The name of this ConfigNodePropertyString.  # noqa: E501

@@ -1,0 +1,46 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "mongouri" },
+      {"model": "db" },
+      {"model": "socket_keep_alive" },
+      {"model": "cache" },
+      {"model": "node_cache_percentage" },
+      {"model": "prev_doc_cache_percentage" },
+      {"model": "children_cache_percentage" },
+      {"model": "diff_cache_percentage" },
+      {"model": "cache_segment_count" },
+      {"model": "cache_stack_move_distance" },
+      {"model": "blob_cache_size" },
+      {"model": "persistent_cache" },
+      {"model": "journal_cache" },
+      {"model": "custom_blob_store" },
+      {"model": "journal_gc_interval" },
+      {"model": "journal_gc_max_age" },
+      {"model": "prefetch_external_changes" },
+      {"model": "role" },
+      {"model": "version_gc_max_age_in_secs" },
+      {"model": "version_gc_expression" },
+      {"model": "version_gc_time_limit_in_secs" },
+      {"model": "blob_gc_max_age_in_secs" },
+      {"model": "blob_track_snapshot_interval_in_secs" },
+      {"model": "repository_home" },
+      {"model": "max_replication_lag_in_secs" },
+      {"model": "document_store_type" },
+      {"model": "bundling_disabled" },
+      {"model": "update_limit" },
+      {"model": "persistent_cache_includes" },
+      {"model": "lease_check_mode" },
+    ]
+  }]
+}

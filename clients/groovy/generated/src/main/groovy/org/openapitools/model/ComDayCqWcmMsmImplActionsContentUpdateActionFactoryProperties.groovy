@@ -7,12 +7,12 @@ import org.openapitools.model.ConfigNodePropertyArray;
 
 @Canonical
 class ComDayCqWcmMsmImplActionsContentUpdateActionFactoryProperties {
-    ConfigNodePropertyArray cqWcmMsmActionExcludednodetypes = null
-
-    ConfigNodePropertyArray cqWcmMsmActionExcludedparagraphitems = null
-
-    ConfigNodePropertyArray cqWcmMsmActionExcludedprops = null
-
-    ConfigNodePropertyArray cqWcmMsmActionIgnoredMixin = null
-
+    
+    ConfigNodePropertyArray cqWcmMsmActionExcludednodetypes
+    
+    ConfigNodePropertyArray cqWcmMsmActionExcludedparagraphitems
+    
+    ConfigNodePropertyArray cqWcmMsmActionExcludedprops
+    
+    ConfigNodePropertyArray cqWcmMsmActionIgnoredMixin
 }

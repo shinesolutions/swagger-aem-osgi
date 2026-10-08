@@ -1,0 +1,242 @@
+package org.openapitools.model;
+
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.model.ConfigNodePropertyBoolean;
+import org.openapitools.model.ConfigNodePropertyInteger;
+import org.openapitools.model.ConfigNodePropertyString;
+import io.micronaut.test.extensions.junit5.annotation.MicronautTest;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.Assertions;
+
+/**
+ * Model tests for OrgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties
+ */
+@MicronautTest
+public class OrgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryPropertiesTest {
+    private final OrgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties model = null;
+
+    /**
+     * Model tests for OrgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties
+     */
+    @Test
+    public void testOrgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties() {
+        // TODO: test OrgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties
+    }
+
+    /**
+     * Test the property 'repositoryHome'
+     */
+    @Test
+    public void repositoryHomeTest() {
+        // TODO: test repositoryHome
+    }
+
+    /**
+     * Test the property 'tarmkMode'
+     */
+    @Test
+    public void tarmkModeTest() {
+        // TODO: test tarmkMode
+    }
+
+    /**
+     * Test the property 'tarmkSize'
+     */
+    @Test
+    public void tarmkSizeTest() {
+        // TODO: test tarmkSize
+    }
+
+    /**
+     * Test the property 'segmentCacheSize'
+     */
+    @Test
+    public void segmentCacheSizeTest() {
+        // TODO: test segmentCacheSize
+    }
+
+    /**
+     * Test the property 'stringCacheSize'
+     */
+    @Test
+    public void stringCacheSizeTest() {
+        // TODO: test stringCacheSize
+    }
+
+    /**
+     * Test the property 'templateCacheSize'
+     */
+    @Test
+    public void templateCacheSizeTest() {
+        // TODO: test templateCacheSize
+    }
+
+    /**
+     * Test the property 'stringDeduplicationCacheSize'
+     */
+    @Test
+    public void stringDeduplicationCacheSizeTest() {
+        // TODO: test stringDeduplicationCacheSize
+    }
+
+    /**
+     * Test the property 'templateDeduplicationCacheSize'
+     */
+    @Test
+    public void templateDeduplicationCacheSizeTest() {
+        // TODO: test templateDeduplicationCacheSize
+    }
+
+    /**
+     * Test the property 'nodeDeduplicationCacheSize'
+     */
+    @Test
+    public void nodeDeduplicationCacheSizeTest() {
+        // TODO: test nodeDeduplicationCacheSize
+    }
+
+    /**
+     * Test the property 'pauseCompaction'
+     */
+    @Test
+    public void pauseCompactionTest() {
+        // TODO: test pauseCompaction
+    }
+
+    /**
+     * Test the property 'compactionRetryCount'
+     */
+    @Test
+    public void compactionRetryCountTest() {
+        // TODO: test compactionRetryCount
+    }
+
+    /**
+     * Test the property 'compactionForceTimeout'
+     */
+    @Test
+    public void compactionForceTimeoutTest() {
+        // TODO: test compactionForceTimeout
+    }
+
+    /**
+     * Test the property 'compactionSizeDeltaEstimation'
+     */
+    @Test
+    public void compactionSizeDeltaEstimationTest() {
+        // TODO: test compactionSizeDeltaEstimation
+    }
+
+    /**
+     * Test the property 'compactionDisableEstimation'
+     */
+    @Test
+    public void compactionDisableEstimationTest() {
+        // TODO: test compactionDisableEstimation
+    }
+
+    /**
+     * Test the property 'compactionRetainedGenerations'
+     */
+    @Test
+    public void compactionRetainedGenerationsTest() {
+        // TODO: test compactionRetainedGenerations
+    }
+
+    /**
+     * Test the property 'compactionMemoryThreshold'
+     */
+    @Test
+    public void compactionMemoryThresholdTest() {
+        // TODO: test compactionMemoryThreshold
+    }
+
+    /**
+     * Test the property 'compactionProgressLog'
+     */
+    @Test
+    public void compactionProgressLogTest() {
+        // TODO: test compactionProgressLog
+    }
+
+    /**
+     * Test the property 'standby'
+     */
+    @Test
+    public void standbyTest() {
+        // TODO: test standby
+    }
+
+    /**
+     * Test the property 'customBlobStore'
+     */
+    @Test
+    public void customBlobStoreTest() {
+        // TODO: test customBlobStore
+    }
+
+    /**
+     * Test the property 'customSegmentStore'
+     */
+    @Test
+    public void customSegmentStoreTest() {
+        // TODO: test customSegmentStore
+    }
+
+    /**
+     * Test the property 'splitPersistence'
+     */
+    @Test
+    public void splitPersistenceTest() {
+        // TODO: test splitPersistence
+    }
+
+    /**
+     * Test the property 'repositoryBackupDir'
+     */
+    @Test
+    public void repositoryBackupDirTest() {
+        // TODO: test repositoryBackupDir
+    }
+
+    /**
+     * Test the property 'blobGcMaxAgeInSecs'
+     */
+    @Test
+    public void blobGcMaxAgeInSecsTest() {
+        // TODO: test blobGcMaxAgeInSecs
+    }
+
+    /**
+     * Test the property 'blobTrackSnapshotIntervalInSecs'
+     */
+    @Test
+    public void blobTrackSnapshotIntervalInSecsTest() {
+        // TODO: test blobTrackSnapshotIntervalInSecs
+    }
+
+    /**
+     * Test the property 'role'
+     */
+    @Test
+    public void roleTest() {
+        // TODO: test role
+    }
+
+    /**
+     * Test the property 'registerDescriptors'
+     */
+    @Test
+    public void registerDescriptorsTest() {
+        // TODO: test registerDescriptors
+    }
+
+    /**
+     * Test the property 'dispatchChanges'
+     */
+    @Test
+    public void dispatchChangesTest() {
+        // TODO: test dispatchChanges
+    }
+
+}

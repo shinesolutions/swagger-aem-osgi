@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeGraniteBundlesHcImplWebDavBundleHealthChec
 
 @Canonical
 class ComAdobeGraniteBundlesHcImplWebDavBundleHealthCheckInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteBundlesHcImplWebDavBundleHealthCheckProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteBundlesHcImplWebDavBundleHealthCheckProperties properties
 }

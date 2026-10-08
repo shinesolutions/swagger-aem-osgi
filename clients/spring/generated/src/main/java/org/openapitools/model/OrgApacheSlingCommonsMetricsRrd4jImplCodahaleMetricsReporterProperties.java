@@ -1,35 +1,46 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterProperties   {
-  @JsonProperty("datasources")
-  private ConfigNodePropertyArray datasources = null;
+@JsonTypeName("orgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterProperties {
 
-  @JsonProperty("step")
-  private ConfigNodePropertyInteger step = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray datasources;
 
-  @JsonProperty("archives")
-  private ConfigNodePropertyArray archives = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger step;
 
-  @JsonProperty("path")
-  private ConfigNodePropertyString path = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray archives;
 
-  public OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterProperties datasources(ConfigNodePropertyArray datasources) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString path;
+
+  public OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterProperties datasources(@Nullable ConfigNodePropertyArray datasources) {
     this.datasources = datasources;
     return this;
   }
@@ -37,20 +48,20 @@ public class OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterPropert
   /**
    * Get datasources
    * @return datasources
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getDatasources() {
+   */
+  @Valid 
+  @Schema(name = "datasources", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("datasources")
+  public @Nullable ConfigNodePropertyArray getDatasources() {
     return datasources;
   }
 
-  public void setDatasources(ConfigNodePropertyArray datasources) {
+  @JsonProperty("datasources")
+  public void setDatasources(@Nullable ConfigNodePropertyArray datasources) {
     this.datasources = datasources;
   }
 
-  public OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterProperties step(ConfigNodePropertyInteger step) {
+  public OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterProperties step(@Nullable ConfigNodePropertyInteger step) {
     this.step = step;
     return this;
   }
@@ -58,20 +69,20 @@ public class OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterPropert
   /**
    * Get step
    * @return step
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getStep() {
+   */
+  @Valid 
+  @Schema(name = "step", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("step")
+  public @Nullable ConfigNodePropertyInteger getStep() {
     return step;
   }
 
-  public void setStep(ConfigNodePropertyInteger step) {
+  @JsonProperty("step")
+  public void setStep(@Nullable ConfigNodePropertyInteger step) {
     this.step = step;
   }
 
-  public OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterProperties archives(ConfigNodePropertyArray archives) {
+  public OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterProperties archives(@Nullable ConfigNodePropertyArray archives) {
     this.archives = archives;
     return this;
   }
@@ -79,20 +90,20 @@ public class OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterPropert
   /**
    * Get archives
    * @return archives
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getArchives() {
+   */
+  @Valid 
+  @Schema(name = "archives", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("archives")
+  public @Nullable ConfigNodePropertyArray getArchives() {
     return archives;
   }
 
-  public void setArchives(ConfigNodePropertyArray archives) {
+  @JsonProperty("archives")
+  public void setArchives(@Nullable ConfigNodePropertyArray archives) {
     this.archives = archives;
   }
 
-  public OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterProperties path(ConfigNodePropertyString path) {
+  public OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterProperties path(@Nullable ConfigNodePropertyString path) {
     this.path = path;
     return this;
   }
@@ -100,22 +111,21 @@ public class OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterPropert
   /**
    * Get path
    * @return path
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getPath() {
+   */
+  @Valid 
+  @Schema(name = "path", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("path")
+  public @Nullable ConfigNodePropertyString getPath() {
     return path;
   }
 
-  public void setPath(ConfigNodePropertyString path) {
+  @JsonProperty("path")
+  public void setPath(@Nullable ConfigNodePropertyString path) {
     this.path = path;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -138,7 +148,6 @@ public class OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterPropert
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterProperties {\n");
-    
     sb.append("    datasources: ").append(toIndentedString(datasources)).append("\n");
     sb.append("    step: ").append(toIndentedString(step)).append("\n");
     sb.append("    archives: ").append(toIndentedString(archives)).append("\n");
@@ -151,11 +160,8 @@ public class OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterPropert
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

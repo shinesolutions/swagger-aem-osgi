@@ -2,10 +2,10 @@
 # ComDayCqDamCoreImplServletCollectionsServletProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**cqPerioddamPeriodbatchPeriodcollectionsPeriodproperties** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**cqPerioddamPeriodbatchPeriodcollectionsPeriodlimit** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **cqDamBatchCollectionsProperties** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **cqDamBatchCollectionsLimit** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
 
 
 

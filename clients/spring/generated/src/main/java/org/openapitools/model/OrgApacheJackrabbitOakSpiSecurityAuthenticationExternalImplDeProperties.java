@@ -1,66 +1,77 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProperties   {
-  @JsonProperty("handler.name")
-  private ConfigNodePropertyString handlerName = null;
+@JsonTypeName("orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProperties {
 
-  @JsonProperty("user.expirationTime")
-  private ConfigNodePropertyString userExpirationTime = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString handlerName;
 
-  @JsonProperty("user.autoMembership")
-  private ConfigNodePropertyArray userAutoMembership = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString userExpirationTime;
 
-  @JsonProperty("user.propertyMapping")
-  private ConfigNodePropertyArray userPropertyMapping = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray userAutoMembership;
 
-  @JsonProperty("user.pathPrefix")
-  private ConfigNodePropertyString userPathPrefix = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray userPropertyMapping;
 
-  @JsonProperty("user.membershipExpTime")
-  private ConfigNodePropertyString userMembershipExpTime = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString userPathPrefix;
 
-  @JsonProperty("user.membershipNestingDepth")
-  private ConfigNodePropertyInteger userMembershipNestingDepth = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString userMembershipExpTime;
 
-  @JsonProperty("user.dynamicMembership")
-  private ConfigNodePropertyBoolean userDynamicMembership = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger userMembershipNestingDepth;
 
-  @JsonProperty("user.disableMissing")
-  private ConfigNodePropertyBoolean userDisableMissing = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean userDynamicMembership;
 
-  @JsonProperty("group.expirationTime")
-  private ConfigNodePropertyString groupExpirationTime = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean userDisableMissing;
 
-  @JsonProperty("group.autoMembership")
-  private ConfigNodePropertyArray groupAutoMembership = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString groupExpirationTime;
 
-  @JsonProperty("group.propertyMapping")
-  private ConfigNodePropertyArray groupPropertyMapping = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray groupAutoMembership;
 
-  @JsonProperty("group.pathPrefix")
-  private ConfigNodePropertyString groupPathPrefix = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray groupPropertyMapping;
 
-  @JsonProperty("enableRFC7613UsercaseMappedProfile")
-  private ConfigNodePropertyBoolean enableRFC7613UsercaseMappedProfile = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString groupPathPrefix;
 
-  public OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProperties handlerName(ConfigNodePropertyString handlerName) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean enableRFC7613UsercaseMappedProfile;
+
+  public OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProperties handlerName(@Nullable ConfigNodePropertyString handlerName) {
     this.handlerName = handlerName;
     return this;
   }
@@ -68,20 +79,20 @@ public class OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProper
   /**
    * Get handlerName
    * @return handlerName
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getHandlerName() {
+   */
+  @Valid 
+  @Schema(name = "handler.name", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("handler.name")
+  public @Nullable ConfigNodePropertyString getHandlerName() {
     return handlerName;
   }
 
-  public void setHandlerName(ConfigNodePropertyString handlerName) {
+  @JsonProperty("handler.name")
+  public void setHandlerName(@Nullable ConfigNodePropertyString handlerName) {
     this.handlerName = handlerName;
   }
 
-  public OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProperties userExpirationTime(ConfigNodePropertyString userExpirationTime) {
+  public OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProperties userExpirationTime(@Nullable ConfigNodePropertyString userExpirationTime) {
     this.userExpirationTime = userExpirationTime;
     return this;
   }
@@ -89,20 +100,20 @@ public class OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProper
   /**
    * Get userExpirationTime
    * @return userExpirationTime
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getUserExpirationTime() {
+   */
+  @Valid 
+  @Schema(name = "user.expirationTime", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("user.expirationTime")
+  public @Nullable ConfigNodePropertyString getUserExpirationTime() {
     return userExpirationTime;
   }
 
-  public void setUserExpirationTime(ConfigNodePropertyString userExpirationTime) {
+  @JsonProperty("user.expirationTime")
+  public void setUserExpirationTime(@Nullable ConfigNodePropertyString userExpirationTime) {
     this.userExpirationTime = userExpirationTime;
   }
 
-  public OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProperties userAutoMembership(ConfigNodePropertyArray userAutoMembership) {
+  public OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProperties userAutoMembership(@Nullable ConfigNodePropertyArray userAutoMembership) {
     this.userAutoMembership = userAutoMembership;
     return this;
   }
@@ -110,20 +121,20 @@ public class OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProper
   /**
    * Get userAutoMembership
    * @return userAutoMembership
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getUserAutoMembership() {
+   */
+  @Valid 
+  @Schema(name = "user.autoMembership", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("user.autoMembership")
+  public @Nullable ConfigNodePropertyArray getUserAutoMembership() {
     return userAutoMembership;
   }
 
-  public void setUserAutoMembership(ConfigNodePropertyArray userAutoMembership) {
+  @JsonProperty("user.autoMembership")
+  public void setUserAutoMembership(@Nullable ConfigNodePropertyArray userAutoMembership) {
     this.userAutoMembership = userAutoMembership;
   }
 
-  public OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProperties userPropertyMapping(ConfigNodePropertyArray userPropertyMapping) {
+  public OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProperties userPropertyMapping(@Nullable ConfigNodePropertyArray userPropertyMapping) {
     this.userPropertyMapping = userPropertyMapping;
     return this;
   }
@@ -131,20 +142,20 @@ public class OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProper
   /**
    * Get userPropertyMapping
    * @return userPropertyMapping
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getUserPropertyMapping() {
+   */
+  @Valid 
+  @Schema(name = "user.propertyMapping", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("user.propertyMapping")
+  public @Nullable ConfigNodePropertyArray getUserPropertyMapping() {
     return userPropertyMapping;
   }
 
-  public void setUserPropertyMapping(ConfigNodePropertyArray userPropertyMapping) {
+  @JsonProperty("user.propertyMapping")
+  public void setUserPropertyMapping(@Nullable ConfigNodePropertyArray userPropertyMapping) {
     this.userPropertyMapping = userPropertyMapping;
   }
 
-  public OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProperties userPathPrefix(ConfigNodePropertyString userPathPrefix) {
+  public OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProperties userPathPrefix(@Nullable ConfigNodePropertyString userPathPrefix) {
     this.userPathPrefix = userPathPrefix;
     return this;
   }
@@ -152,20 +163,20 @@ public class OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProper
   /**
    * Get userPathPrefix
    * @return userPathPrefix
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getUserPathPrefix() {
+   */
+  @Valid 
+  @Schema(name = "user.pathPrefix", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("user.pathPrefix")
+  public @Nullable ConfigNodePropertyString getUserPathPrefix() {
     return userPathPrefix;
   }
 
-  public void setUserPathPrefix(ConfigNodePropertyString userPathPrefix) {
+  @JsonProperty("user.pathPrefix")
+  public void setUserPathPrefix(@Nullable ConfigNodePropertyString userPathPrefix) {
     this.userPathPrefix = userPathPrefix;
   }
 
-  public OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProperties userMembershipExpTime(ConfigNodePropertyString userMembershipExpTime) {
+  public OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProperties userMembershipExpTime(@Nullable ConfigNodePropertyString userMembershipExpTime) {
     this.userMembershipExpTime = userMembershipExpTime;
     return this;
   }
@@ -173,20 +184,20 @@ public class OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProper
   /**
    * Get userMembershipExpTime
    * @return userMembershipExpTime
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getUserMembershipExpTime() {
+   */
+  @Valid 
+  @Schema(name = "user.membershipExpTime", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("user.membershipExpTime")
+  public @Nullable ConfigNodePropertyString getUserMembershipExpTime() {
     return userMembershipExpTime;
   }
 
-  public void setUserMembershipExpTime(ConfigNodePropertyString userMembershipExpTime) {
+  @JsonProperty("user.membershipExpTime")
+  public void setUserMembershipExpTime(@Nullable ConfigNodePropertyString userMembershipExpTime) {
     this.userMembershipExpTime = userMembershipExpTime;
   }
 
-  public OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProperties userMembershipNestingDepth(ConfigNodePropertyInteger userMembershipNestingDepth) {
+  public OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProperties userMembershipNestingDepth(@Nullable ConfigNodePropertyInteger userMembershipNestingDepth) {
     this.userMembershipNestingDepth = userMembershipNestingDepth;
     return this;
   }
@@ -194,20 +205,20 @@ public class OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProper
   /**
    * Get userMembershipNestingDepth
    * @return userMembershipNestingDepth
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getUserMembershipNestingDepth() {
+   */
+  @Valid 
+  @Schema(name = "user.membershipNestingDepth", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("user.membershipNestingDepth")
+  public @Nullable ConfigNodePropertyInteger getUserMembershipNestingDepth() {
     return userMembershipNestingDepth;
   }
 
-  public void setUserMembershipNestingDepth(ConfigNodePropertyInteger userMembershipNestingDepth) {
+  @JsonProperty("user.membershipNestingDepth")
+  public void setUserMembershipNestingDepth(@Nullable ConfigNodePropertyInteger userMembershipNestingDepth) {
     this.userMembershipNestingDepth = userMembershipNestingDepth;
   }
 
-  public OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProperties userDynamicMembership(ConfigNodePropertyBoolean userDynamicMembership) {
+  public OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProperties userDynamicMembership(@Nullable ConfigNodePropertyBoolean userDynamicMembership) {
     this.userDynamicMembership = userDynamicMembership;
     return this;
   }
@@ -215,20 +226,20 @@ public class OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProper
   /**
    * Get userDynamicMembership
    * @return userDynamicMembership
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getUserDynamicMembership() {
+   */
+  @Valid 
+  @Schema(name = "user.dynamicMembership", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("user.dynamicMembership")
+  public @Nullable ConfigNodePropertyBoolean getUserDynamicMembership() {
     return userDynamicMembership;
   }
 
-  public void setUserDynamicMembership(ConfigNodePropertyBoolean userDynamicMembership) {
+  @JsonProperty("user.dynamicMembership")
+  public void setUserDynamicMembership(@Nullable ConfigNodePropertyBoolean userDynamicMembership) {
     this.userDynamicMembership = userDynamicMembership;
   }
 
-  public OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProperties userDisableMissing(ConfigNodePropertyBoolean userDisableMissing) {
+  public OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProperties userDisableMissing(@Nullable ConfigNodePropertyBoolean userDisableMissing) {
     this.userDisableMissing = userDisableMissing;
     return this;
   }
@@ -236,20 +247,20 @@ public class OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProper
   /**
    * Get userDisableMissing
    * @return userDisableMissing
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getUserDisableMissing() {
+   */
+  @Valid 
+  @Schema(name = "user.disableMissing", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("user.disableMissing")
+  public @Nullable ConfigNodePropertyBoolean getUserDisableMissing() {
     return userDisableMissing;
   }
 
-  public void setUserDisableMissing(ConfigNodePropertyBoolean userDisableMissing) {
+  @JsonProperty("user.disableMissing")
+  public void setUserDisableMissing(@Nullable ConfigNodePropertyBoolean userDisableMissing) {
     this.userDisableMissing = userDisableMissing;
   }
 
-  public OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProperties groupExpirationTime(ConfigNodePropertyString groupExpirationTime) {
+  public OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProperties groupExpirationTime(@Nullable ConfigNodePropertyString groupExpirationTime) {
     this.groupExpirationTime = groupExpirationTime;
     return this;
   }
@@ -257,20 +268,20 @@ public class OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProper
   /**
    * Get groupExpirationTime
    * @return groupExpirationTime
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getGroupExpirationTime() {
+   */
+  @Valid 
+  @Schema(name = "group.expirationTime", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("group.expirationTime")
+  public @Nullable ConfigNodePropertyString getGroupExpirationTime() {
     return groupExpirationTime;
   }
 
-  public void setGroupExpirationTime(ConfigNodePropertyString groupExpirationTime) {
+  @JsonProperty("group.expirationTime")
+  public void setGroupExpirationTime(@Nullable ConfigNodePropertyString groupExpirationTime) {
     this.groupExpirationTime = groupExpirationTime;
   }
 
-  public OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProperties groupAutoMembership(ConfigNodePropertyArray groupAutoMembership) {
+  public OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProperties groupAutoMembership(@Nullable ConfigNodePropertyArray groupAutoMembership) {
     this.groupAutoMembership = groupAutoMembership;
     return this;
   }
@@ -278,20 +289,20 @@ public class OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProper
   /**
    * Get groupAutoMembership
    * @return groupAutoMembership
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getGroupAutoMembership() {
+   */
+  @Valid 
+  @Schema(name = "group.autoMembership", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("group.autoMembership")
+  public @Nullable ConfigNodePropertyArray getGroupAutoMembership() {
     return groupAutoMembership;
   }
 
-  public void setGroupAutoMembership(ConfigNodePropertyArray groupAutoMembership) {
+  @JsonProperty("group.autoMembership")
+  public void setGroupAutoMembership(@Nullable ConfigNodePropertyArray groupAutoMembership) {
     this.groupAutoMembership = groupAutoMembership;
   }
 
-  public OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProperties groupPropertyMapping(ConfigNodePropertyArray groupPropertyMapping) {
+  public OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProperties groupPropertyMapping(@Nullable ConfigNodePropertyArray groupPropertyMapping) {
     this.groupPropertyMapping = groupPropertyMapping;
     return this;
   }
@@ -299,20 +310,20 @@ public class OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProper
   /**
    * Get groupPropertyMapping
    * @return groupPropertyMapping
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getGroupPropertyMapping() {
+   */
+  @Valid 
+  @Schema(name = "group.propertyMapping", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("group.propertyMapping")
+  public @Nullable ConfigNodePropertyArray getGroupPropertyMapping() {
     return groupPropertyMapping;
   }
 
-  public void setGroupPropertyMapping(ConfigNodePropertyArray groupPropertyMapping) {
+  @JsonProperty("group.propertyMapping")
+  public void setGroupPropertyMapping(@Nullable ConfigNodePropertyArray groupPropertyMapping) {
     this.groupPropertyMapping = groupPropertyMapping;
   }
 
-  public OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProperties groupPathPrefix(ConfigNodePropertyString groupPathPrefix) {
+  public OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProperties groupPathPrefix(@Nullable ConfigNodePropertyString groupPathPrefix) {
     this.groupPathPrefix = groupPathPrefix;
     return this;
   }
@@ -320,20 +331,20 @@ public class OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProper
   /**
    * Get groupPathPrefix
    * @return groupPathPrefix
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getGroupPathPrefix() {
+   */
+  @Valid 
+  @Schema(name = "group.pathPrefix", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("group.pathPrefix")
+  public @Nullable ConfigNodePropertyString getGroupPathPrefix() {
     return groupPathPrefix;
   }
 
-  public void setGroupPathPrefix(ConfigNodePropertyString groupPathPrefix) {
+  @JsonProperty("group.pathPrefix")
+  public void setGroupPathPrefix(@Nullable ConfigNodePropertyString groupPathPrefix) {
     this.groupPathPrefix = groupPathPrefix;
   }
 
-  public OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProperties enableRFC7613UsercaseMappedProfile(ConfigNodePropertyBoolean enableRFC7613UsercaseMappedProfile) {
+  public OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProperties enableRFC7613UsercaseMappedProfile(@Nullable ConfigNodePropertyBoolean enableRFC7613UsercaseMappedProfile) {
     this.enableRFC7613UsercaseMappedProfile = enableRFC7613UsercaseMappedProfile;
     return this;
   }
@@ -341,22 +352,21 @@ public class OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProper
   /**
    * Get enableRFC7613UsercaseMappedProfile
    * @return enableRFC7613UsercaseMappedProfile
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getEnableRFC7613UsercaseMappedProfile() {
+   */
+  @Valid 
+  @Schema(name = "enableRFC7613UsercaseMappedProfile", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("enableRFC7613UsercaseMappedProfile")
+  public @Nullable ConfigNodePropertyBoolean getEnableRFC7613UsercaseMappedProfile() {
     return enableRFC7613UsercaseMappedProfile;
   }
 
-  public void setEnableRFC7613UsercaseMappedProfile(ConfigNodePropertyBoolean enableRFC7613UsercaseMappedProfile) {
+  @JsonProperty("enableRFC7613UsercaseMappedProfile")
+  public void setEnableRFC7613UsercaseMappedProfile(@Nullable ConfigNodePropertyBoolean enableRFC7613UsercaseMappedProfile) {
     this.enableRFC7613UsercaseMappedProfile = enableRFC7613UsercaseMappedProfile;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -389,7 +399,6 @@ public class OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProper
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProperties {\n");
-    
     sb.append("    handlerName: ").append(toIndentedString(handlerName)).append("\n");
     sb.append("    userExpirationTime: ").append(toIndentedString(userExpirationTime)).append("\n");
     sb.append("    userAutoMembership: ").append(toIndentedString(userAutoMembership)).append("\n");
@@ -412,11 +421,8 @@ public class OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProper
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

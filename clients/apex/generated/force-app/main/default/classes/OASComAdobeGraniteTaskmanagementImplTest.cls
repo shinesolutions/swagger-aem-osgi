@@ -72,8 +72,8 @@ private class OASComAdobeGraniteTaskmanagementImplTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeGraniteTaskmanagementImpl comAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactorProperties = new OASComAdobeGraniteTaskmanagementImpl();
-        Map<String, String> propertyMappings = comAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactorProperties.getPropertyMappings();
-        System.assertEquals('adapterCondition', propertyMappings.get('adapter.condition'));
-        System.assertEquals('taskmanagerAdmingroups', propertyMappings.get('taskmanager.admingroups'));
+        Map<String, String> x-property-mappings = comAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactorProperties.getx-property-mappings();
+        System.assertEquals('adapterCondition', x-property-mappings.get('adapter.condition'));
+        System.assertEquals('taskmanagerAdmingroups', x-property-mappings.get('taskmanager.admingroups'));
     }
 }

@@ -1,23 +1,34 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyDropDown;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comAdobeCqAuditPurgeReplicationProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeCqAuditPurgeReplicationProperties   {
-  
-  private @Valid ConfigNodePropertyString auditlogRuleName = null;
-  private @Valid ConfigNodePropertyString auditlogRuleContentpath = null;
-  private @Valid ConfigNodePropertyInteger auditlogRuleMinimumage = null;
-  private @Valid ConfigNodePropertyDropDown auditlogRuleTypes = null;
+  private ConfigNodePropertyString auditlogRuleName;
+  private ConfigNodePropertyString auditlogRuleContentpath;
+  private ConfigNodePropertyInteger auditlogRuleMinimumage;
+  private ConfigNodePropertyDropDown auditlogRuleTypes;
+
+  public ComAdobeCqAuditPurgeReplicationProperties() {
+  }
 
   /**
    **/
@@ -29,9 +40,11 @@ public class ComAdobeCqAuditPurgeReplicationProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("auditlog.rule.name")
-  public ConfigNodePropertyString getAuditlogRuleName() {
+  @Valid public ConfigNodePropertyString getAuditlogRuleName() {
     return auditlogRuleName;
   }
+
+  @JsonProperty("auditlog.rule.name")
   public void setAuditlogRuleName(ConfigNodePropertyString auditlogRuleName) {
     this.auditlogRuleName = auditlogRuleName;
   }
@@ -46,9 +59,11 @@ public class ComAdobeCqAuditPurgeReplicationProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("auditlog.rule.contentpath")
-  public ConfigNodePropertyString getAuditlogRuleContentpath() {
+  @Valid public ConfigNodePropertyString getAuditlogRuleContentpath() {
     return auditlogRuleContentpath;
   }
+
+  @JsonProperty("auditlog.rule.contentpath")
   public void setAuditlogRuleContentpath(ConfigNodePropertyString auditlogRuleContentpath) {
     this.auditlogRuleContentpath = auditlogRuleContentpath;
   }
@@ -63,9 +78,11 @@ public class ComAdobeCqAuditPurgeReplicationProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("auditlog.rule.minimumage")
-  public ConfigNodePropertyInteger getAuditlogRuleMinimumage() {
+  @Valid public ConfigNodePropertyInteger getAuditlogRuleMinimumage() {
     return auditlogRuleMinimumage;
   }
+
+  @JsonProperty("auditlog.rule.minimumage")
   public void setAuditlogRuleMinimumage(ConfigNodePropertyInteger auditlogRuleMinimumage) {
     this.auditlogRuleMinimumage = auditlogRuleMinimumage;
   }
@@ -80,16 +97,18 @@ public class ComAdobeCqAuditPurgeReplicationProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("auditlog.rule.types")
-  public ConfigNodePropertyDropDown getAuditlogRuleTypes() {
+  @Valid public ConfigNodePropertyDropDown getAuditlogRuleTypes() {
     return auditlogRuleTypes;
   }
+
+  @JsonProperty("auditlog.rule.types")
   public void setAuditlogRuleTypes(ConfigNodePropertyDropDown auditlogRuleTypes) {
     this.auditlogRuleTypes = auditlogRuleTypes;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -97,10 +116,10 @@ public class ComAdobeCqAuditPurgeReplicationProperties   {
       return false;
     }
     ComAdobeCqAuditPurgeReplicationProperties comAdobeCqAuditPurgeReplicationProperties = (ComAdobeCqAuditPurgeReplicationProperties) o;
-    return Objects.equals(auditlogRuleName, comAdobeCqAuditPurgeReplicationProperties.auditlogRuleName) &&
-        Objects.equals(auditlogRuleContentpath, comAdobeCqAuditPurgeReplicationProperties.auditlogRuleContentpath) &&
-        Objects.equals(auditlogRuleMinimumage, comAdobeCqAuditPurgeReplicationProperties.auditlogRuleMinimumage) &&
-        Objects.equals(auditlogRuleTypes, comAdobeCqAuditPurgeReplicationProperties.auditlogRuleTypes);
+    return Objects.equals(this.auditlogRuleName, comAdobeCqAuditPurgeReplicationProperties.auditlogRuleName) &&
+        Objects.equals(this.auditlogRuleContentpath, comAdobeCqAuditPurgeReplicationProperties.auditlogRuleContentpath) &&
+        Objects.equals(this.auditlogRuleMinimumage, comAdobeCqAuditPurgeReplicationProperties.auditlogRuleMinimumage) &&
+        Objects.equals(this.auditlogRuleTypes, comAdobeCqAuditPurgeReplicationProperties.auditlogRuleTypes);
   }
 
   @Override
@@ -125,11 +144,9 @@ public class ComAdobeCqAuditPurgeReplicationProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

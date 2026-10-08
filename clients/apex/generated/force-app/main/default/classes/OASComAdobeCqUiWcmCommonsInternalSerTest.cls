@@ -72,7 +72,7 @@ private class OASComAdobeCqUiWcmCommonsInternalSerTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeCqUiWcmCommonsInternalSer comAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactProperties = new OASComAdobeCqUiWcmCommonsInternalSer();
-        Map<String, String> propertyMappings = comAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactProperties.getPropertyMappings();
-        System.assertEquals('resourceTypes', propertyMappings.get('resource.types'));
+        Map<String, String> x-property-mappings = comAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactProperties.getx-property-mappings();
+        System.assertEquals('resourceTypes', x-property-mappings.get('resource.types'));
     }
 }

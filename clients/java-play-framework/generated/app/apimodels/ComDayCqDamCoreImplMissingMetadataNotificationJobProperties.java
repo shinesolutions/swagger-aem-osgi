@@ -3,29 +3,38 @@ package apimodels;
 import apimodels.ConfigNodePropertyBoolean;
 import apimodels.ConfigNodePropertyInteger;
 import apimodels.ConfigNodePropertyString;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * ComDayCqDamCoreImplMissingMetadataNotificationJobProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class ComDayCqDamCoreImplMissingMetadataNotificationJobProperties   {
   @JsonProperty("cq.dam.missingmetadata.notification.scheduler.istimebased")
-  private ConfigNodePropertyBoolean cqDamMissingmetadataNotificationSchedulerIstimebased = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean cqDamMissingmetadataNotificationSchedulerIstimebased;
 
   @JsonProperty("cq.dam.missingmetadata.notification.scheduler.timebased.rule")
-  private ConfigNodePropertyString cqDamMissingmetadataNotificationSchedulerTimebasedRule = null;
+  @Valid
+
+  private ConfigNodePropertyString cqDamMissingmetadataNotificationSchedulerTimebasedRule;
 
   @JsonProperty("cq.dam.missingmetadata.notification.scheduler.period.rule")
-  private ConfigNodePropertyInteger cqDamMissingmetadataNotificationSchedulerPeriodRule = null;
+  @Valid
+
+  private ConfigNodePropertyInteger cqDamMissingmetadataNotificationSchedulerPeriodRule;
 
   @JsonProperty("cq.dam.missingmetadata.notification.recipient")
-  private ConfigNodePropertyString cqDamMissingmetadataNotificationRecipient = null;
+  @Valid
+
+  private ConfigNodePropertyString cqDamMissingmetadataNotificationRecipient;
 
   public ComDayCqDamCoreImplMissingMetadataNotificationJobProperties cqDamMissingmetadataNotificationSchedulerIstimebased(ConfigNodePropertyBoolean cqDamMissingmetadataNotificationSchedulerIstimebased) {
     this.cqDamMissingmetadataNotificationSchedulerIstimebased = cqDamMissingmetadataNotificationSchedulerIstimebased;
@@ -36,7 +45,6 @@ public class ComDayCqDamCoreImplMissingMetadataNotificationJobProperties   {
    * Get cqDamMissingmetadataNotificationSchedulerIstimebased
    * @return cqDamMissingmetadataNotificationSchedulerIstimebased
   **/
-  @Valid
   public ConfigNodePropertyBoolean getCqDamMissingmetadataNotificationSchedulerIstimebased() {
     return cqDamMissingmetadataNotificationSchedulerIstimebased;
   }
@@ -54,7 +62,6 @@ public class ComDayCqDamCoreImplMissingMetadataNotificationJobProperties   {
    * Get cqDamMissingmetadataNotificationSchedulerTimebasedRule
    * @return cqDamMissingmetadataNotificationSchedulerTimebasedRule
   **/
-  @Valid
   public ConfigNodePropertyString getCqDamMissingmetadataNotificationSchedulerTimebasedRule() {
     return cqDamMissingmetadataNotificationSchedulerTimebasedRule;
   }
@@ -72,7 +79,6 @@ public class ComDayCqDamCoreImplMissingMetadataNotificationJobProperties   {
    * Get cqDamMissingmetadataNotificationSchedulerPeriodRule
    * @return cqDamMissingmetadataNotificationSchedulerPeriodRule
   **/
-  @Valid
   public ConfigNodePropertyInteger getCqDamMissingmetadataNotificationSchedulerPeriodRule() {
     return cqDamMissingmetadataNotificationSchedulerPeriodRule;
   }
@@ -90,7 +96,6 @@ public class ComDayCqDamCoreImplMissingMetadataNotificationJobProperties   {
    * Get cqDamMissingmetadataNotificationRecipient
    * @return cqDamMissingmetadataNotificationRecipient
   **/
-  @Valid
   public ConfigNodePropertyString getCqDamMissingmetadataNotificationRecipient() {
     return cqDamMissingmetadataNotificationRecipient;
   }
@@ -101,7 +106,7 @@ public class ComDayCqDamCoreImplMissingMetadataNotificationJobProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -138,11 +143,8 @@ public class ComDayCqDamCoreImplMissingMetadataNotificationJobProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

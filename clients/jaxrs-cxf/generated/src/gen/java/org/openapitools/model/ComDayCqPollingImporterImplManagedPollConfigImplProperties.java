@@ -1,5 +1,6 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
@@ -7,52 +8,65 @@ import javax.validation.constraints.*;
 import javax.validation.Valid;
 
 import io.swagger.annotations.ApiModelProperty;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlType;
-import javax.xml.bind.annotation.XmlEnum;
-import javax.xml.bind.annotation.XmlEnumValue;
+import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
 
 public class ComDayCqPollingImporterImplManagedPollConfigImplProperties  {
   
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyString id = null;
+
+  private ConfigNodePropertyString id;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyBoolean enabled = null;
+
+  private ConfigNodePropertyBoolean enabled;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyBoolean reference = null;
+
+  private ConfigNodePropertyBoolean reference;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyInteger interval = null;
+
+  private ConfigNodePropertyInteger interval;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyString expression = null;
+
+  private ConfigNodePropertyString expression;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyString source = null;
+
+  private ConfigNodePropertyString source;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyString target = null;
+
+  private ConfigNodePropertyString target;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyString login = null;
+
+  private ConfigNodePropertyString login;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyString password = null;
+
+  private ConfigNodePropertyString password;
  /**
    * Get id
    * @return id
@@ -215,6 +229,30 @@ public class ComDayCqPollingImporterImplManagedPollConfigImplProperties  {
     return this;
   }
 
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    ComDayCqPollingImporterImplManagedPollConfigImplProperties comDayCqPollingImporterImplManagedPollConfigImplProperties = (ComDayCqPollingImporterImplManagedPollConfigImplProperties) o;
+    return Objects.equals(this.id, comDayCqPollingImporterImplManagedPollConfigImplProperties.id) &&
+        Objects.equals(this.enabled, comDayCqPollingImporterImplManagedPollConfigImplProperties.enabled) &&
+        Objects.equals(this.reference, comDayCqPollingImporterImplManagedPollConfigImplProperties.reference) &&
+        Objects.equals(this.interval, comDayCqPollingImporterImplManagedPollConfigImplProperties.interval) &&
+        Objects.equals(this.expression, comDayCqPollingImporterImplManagedPollConfigImplProperties.expression) &&
+        Objects.equals(this.source, comDayCqPollingImporterImplManagedPollConfigImplProperties.source) &&
+        Objects.equals(this.target, comDayCqPollingImporterImplManagedPollConfigImplProperties.target) &&
+        Objects.equals(this.login, comDayCqPollingImporterImplManagedPollConfigImplProperties.login) &&
+        Objects.equals(this.password, comDayCqPollingImporterImplManagedPollConfigImplProperties.password);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(id, enabled, reference, interval, expression, source, target, login, password);
+  }
 
   @Override
   public String toString() {
@@ -238,11 +276,8 @@ public class ComDayCqPollingImporterImplManagedPollConfigImplProperties  {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private static String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

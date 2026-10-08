@@ -72,10 +72,10 @@ private class OASComAdobeGraniteAuthSsoImplSsoAuthTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeGraniteAuthSsoImplSsoAuth comAdobeGraniteAuthSsoImplSsoAuthenticationHandlerProperties = new OASComAdobeGraniteAuthSsoImplSsoAuth();
-        Map<String, String> propertyMappings = comAdobeGraniteAuthSsoImplSsoAuthenticationHandlerProperties.getPropertyMappings();
-        System.assertEquals('serviceRanking', propertyMappings.get('service.ranking'));
-        System.assertEquals('jaasControlFlag', propertyMappings.get('jaas.controlFlag'));
-        System.assertEquals('jaasRealmName', propertyMappings.get('jaas.realmName'));
-        System.assertEquals('jaasRanking', propertyMappings.get('jaas.ranking'));
+        Map<String, String> x-property-mappings = comAdobeGraniteAuthSsoImplSsoAuthenticationHandlerProperties.getx-property-mappings();
+        System.assertEquals('serviceRanking', x-property-mappings.get('service.ranking'));
+        System.assertEquals('jaasControlFlag', x-property-mappings.get('jaas.controlFlag'));
+        System.assertEquals('jaasRealmName', x-property-mappings.get('jaas.realmName'));
+        System.assertEquals('jaasRanking', x-property-mappings.get('jaas.ranking'));
     }
 }

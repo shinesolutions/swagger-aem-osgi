@@ -72,8 +72,8 @@ private class OASComDayCqRewriterProcessorImplHtmlTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqRewriterProcessorImplHtml comDayCqRewriterProcessorImplHtmlParserFactoryProperties = new OASComDayCqRewriterProcessorImplHtml();
-        Map<String, String> propertyMappings = comDayCqRewriterProcessorImplHtmlParserFactoryProperties.getPropertyMappings();
-        System.assertEquals('htmlparserProcessTags', propertyMappings.get('htmlparser.processTags'));
-        System.assertEquals('htmlparserPreserveCamelCase', propertyMappings.get('htmlparser.preserveCamelCase'));
+        Map<String, String> x-property-mappings = comDayCqRewriterProcessorImplHtmlParserFactoryProperties.getx-property-mappings();
+        System.assertEquals('htmlparserProcessTags', x-property-mappings.get('htmlparser.processTags'));
+        System.assertEquals('htmlparserPreserveCamelCase', x-property-mappings.get('htmlparser.preserveCamelCase'));
     }
 }

@@ -1,5 +1,8 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyDropDown;
@@ -9,25 +12,33 @@ import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("orgApacheSlingEventJobsQueueConfigurationProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingEventJobsQueueConfigurationProperties   {
-  
-  private @Valid ConfigNodePropertyString queueName = null;
-  private @Valid ConfigNodePropertyArray queueTopics = null;
-  private @Valid ConfigNodePropertyDropDown queueType = null;
-  private @Valid ConfigNodePropertyDropDown queuePriority = null;
-  private @Valid ConfigNodePropertyInteger queueRetries = null;
-  private @Valid ConfigNodePropertyInteger queueRetrydelay = null;
-  private @Valid ConfigNodePropertyFloat queueMaxparallel = null;
-  private @Valid ConfigNodePropertyBoolean queueKeepJobs = null;
-  private @Valid ConfigNodePropertyBoolean queuePreferRunOnCreationInstance = null;
-  private @Valid ConfigNodePropertyInteger queueThreadPoolSize = null;
-  private @Valid ConfigNodePropertyInteger serviceRanking = null;
+  private ConfigNodePropertyString queueName;
+  private ConfigNodePropertyArray queueTopics;
+  private ConfigNodePropertyDropDown queueType;
+  private ConfigNodePropertyDropDown queuePriority;
+  private ConfigNodePropertyInteger queueRetries;
+  private ConfigNodePropertyInteger queueRetrydelay;
+  private ConfigNodePropertyFloat queueMaxparallel;
+  private ConfigNodePropertyBoolean queueKeepJobs;
+  private ConfigNodePropertyBoolean queuePreferRunOnCreationInstance;
+  private ConfigNodePropertyInteger queueThreadPoolSize;
+  private ConfigNodePropertyInteger serviceRanking;
+
+  public OrgApacheSlingEventJobsQueueConfigurationProperties() {
+  }
 
   /**
    **/
@@ -39,9 +50,11 @@ public class OrgApacheSlingEventJobsQueueConfigurationProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("queue.name")
-  public ConfigNodePropertyString getQueueName() {
+  @Valid public ConfigNodePropertyString getQueueName() {
     return queueName;
   }
+
+  @JsonProperty("queue.name")
   public void setQueueName(ConfigNodePropertyString queueName) {
     this.queueName = queueName;
   }
@@ -56,9 +69,11 @@ public class OrgApacheSlingEventJobsQueueConfigurationProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("queue.topics")
-  public ConfigNodePropertyArray getQueueTopics() {
+  @Valid public ConfigNodePropertyArray getQueueTopics() {
     return queueTopics;
   }
+
+  @JsonProperty("queue.topics")
   public void setQueueTopics(ConfigNodePropertyArray queueTopics) {
     this.queueTopics = queueTopics;
   }
@@ -73,9 +88,11 @@ public class OrgApacheSlingEventJobsQueueConfigurationProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("queue.type")
-  public ConfigNodePropertyDropDown getQueueType() {
+  @Valid public ConfigNodePropertyDropDown getQueueType() {
     return queueType;
   }
+
+  @JsonProperty("queue.type")
   public void setQueueType(ConfigNodePropertyDropDown queueType) {
     this.queueType = queueType;
   }
@@ -90,9 +107,11 @@ public class OrgApacheSlingEventJobsQueueConfigurationProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("queue.priority")
-  public ConfigNodePropertyDropDown getQueuePriority() {
+  @Valid public ConfigNodePropertyDropDown getQueuePriority() {
     return queuePriority;
   }
+
+  @JsonProperty("queue.priority")
   public void setQueuePriority(ConfigNodePropertyDropDown queuePriority) {
     this.queuePriority = queuePriority;
   }
@@ -107,9 +126,11 @@ public class OrgApacheSlingEventJobsQueueConfigurationProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("queue.retries")
-  public ConfigNodePropertyInteger getQueueRetries() {
+  @Valid public ConfigNodePropertyInteger getQueueRetries() {
     return queueRetries;
   }
+
+  @JsonProperty("queue.retries")
   public void setQueueRetries(ConfigNodePropertyInteger queueRetries) {
     this.queueRetries = queueRetries;
   }
@@ -124,9 +145,11 @@ public class OrgApacheSlingEventJobsQueueConfigurationProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("queue.retrydelay")
-  public ConfigNodePropertyInteger getQueueRetrydelay() {
+  @Valid public ConfigNodePropertyInteger getQueueRetrydelay() {
     return queueRetrydelay;
   }
+
+  @JsonProperty("queue.retrydelay")
   public void setQueueRetrydelay(ConfigNodePropertyInteger queueRetrydelay) {
     this.queueRetrydelay = queueRetrydelay;
   }
@@ -141,9 +164,11 @@ public class OrgApacheSlingEventJobsQueueConfigurationProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("queue.maxparallel")
-  public ConfigNodePropertyFloat getQueueMaxparallel() {
+  @Valid public ConfigNodePropertyFloat getQueueMaxparallel() {
     return queueMaxparallel;
   }
+
+  @JsonProperty("queue.maxparallel")
   public void setQueueMaxparallel(ConfigNodePropertyFloat queueMaxparallel) {
     this.queueMaxparallel = queueMaxparallel;
   }
@@ -158,9 +183,11 @@ public class OrgApacheSlingEventJobsQueueConfigurationProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("queue.keepJobs")
-  public ConfigNodePropertyBoolean getQueueKeepJobs() {
+  @Valid public ConfigNodePropertyBoolean getQueueKeepJobs() {
     return queueKeepJobs;
   }
+
+  @JsonProperty("queue.keepJobs")
   public void setQueueKeepJobs(ConfigNodePropertyBoolean queueKeepJobs) {
     this.queueKeepJobs = queueKeepJobs;
   }
@@ -175,9 +202,11 @@ public class OrgApacheSlingEventJobsQueueConfigurationProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("queue.preferRunOnCreationInstance")
-  public ConfigNodePropertyBoolean getQueuePreferRunOnCreationInstance() {
+  @Valid public ConfigNodePropertyBoolean getQueuePreferRunOnCreationInstance() {
     return queuePreferRunOnCreationInstance;
   }
+
+  @JsonProperty("queue.preferRunOnCreationInstance")
   public void setQueuePreferRunOnCreationInstance(ConfigNodePropertyBoolean queuePreferRunOnCreationInstance) {
     this.queuePreferRunOnCreationInstance = queuePreferRunOnCreationInstance;
   }
@@ -192,9 +221,11 @@ public class OrgApacheSlingEventJobsQueueConfigurationProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("queue.threadPoolSize")
-  public ConfigNodePropertyInteger getQueueThreadPoolSize() {
+  @Valid public ConfigNodePropertyInteger getQueueThreadPoolSize() {
     return queueThreadPoolSize;
   }
+
+  @JsonProperty("queue.threadPoolSize")
   public void setQueueThreadPoolSize(ConfigNodePropertyInteger queueThreadPoolSize) {
     this.queueThreadPoolSize = queueThreadPoolSize;
   }
@@ -209,16 +240,18 @@ public class OrgApacheSlingEventJobsQueueConfigurationProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("service.ranking")
-  public ConfigNodePropertyInteger getServiceRanking() {
+  @Valid public ConfigNodePropertyInteger getServiceRanking() {
     return serviceRanking;
   }
+
+  @JsonProperty("service.ranking")
   public void setServiceRanking(ConfigNodePropertyInteger serviceRanking) {
     this.serviceRanking = serviceRanking;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -226,17 +259,17 @@ public class OrgApacheSlingEventJobsQueueConfigurationProperties   {
       return false;
     }
     OrgApacheSlingEventJobsQueueConfigurationProperties orgApacheSlingEventJobsQueueConfigurationProperties = (OrgApacheSlingEventJobsQueueConfigurationProperties) o;
-    return Objects.equals(queueName, orgApacheSlingEventJobsQueueConfigurationProperties.queueName) &&
-        Objects.equals(queueTopics, orgApacheSlingEventJobsQueueConfigurationProperties.queueTopics) &&
-        Objects.equals(queueType, orgApacheSlingEventJobsQueueConfigurationProperties.queueType) &&
-        Objects.equals(queuePriority, orgApacheSlingEventJobsQueueConfigurationProperties.queuePriority) &&
-        Objects.equals(queueRetries, orgApacheSlingEventJobsQueueConfigurationProperties.queueRetries) &&
-        Objects.equals(queueRetrydelay, orgApacheSlingEventJobsQueueConfigurationProperties.queueRetrydelay) &&
-        Objects.equals(queueMaxparallel, orgApacheSlingEventJobsQueueConfigurationProperties.queueMaxparallel) &&
-        Objects.equals(queueKeepJobs, orgApacheSlingEventJobsQueueConfigurationProperties.queueKeepJobs) &&
-        Objects.equals(queuePreferRunOnCreationInstance, orgApacheSlingEventJobsQueueConfigurationProperties.queuePreferRunOnCreationInstance) &&
-        Objects.equals(queueThreadPoolSize, orgApacheSlingEventJobsQueueConfigurationProperties.queueThreadPoolSize) &&
-        Objects.equals(serviceRanking, orgApacheSlingEventJobsQueueConfigurationProperties.serviceRanking);
+    return Objects.equals(this.queueName, orgApacheSlingEventJobsQueueConfigurationProperties.queueName) &&
+        Objects.equals(this.queueTopics, orgApacheSlingEventJobsQueueConfigurationProperties.queueTopics) &&
+        Objects.equals(this.queueType, orgApacheSlingEventJobsQueueConfigurationProperties.queueType) &&
+        Objects.equals(this.queuePriority, orgApacheSlingEventJobsQueueConfigurationProperties.queuePriority) &&
+        Objects.equals(this.queueRetries, orgApacheSlingEventJobsQueueConfigurationProperties.queueRetries) &&
+        Objects.equals(this.queueRetrydelay, orgApacheSlingEventJobsQueueConfigurationProperties.queueRetrydelay) &&
+        Objects.equals(this.queueMaxparallel, orgApacheSlingEventJobsQueueConfigurationProperties.queueMaxparallel) &&
+        Objects.equals(this.queueKeepJobs, orgApacheSlingEventJobsQueueConfigurationProperties.queueKeepJobs) &&
+        Objects.equals(this.queuePreferRunOnCreationInstance, orgApacheSlingEventJobsQueueConfigurationProperties.queuePreferRunOnCreationInstance) &&
+        Objects.equals(this.queueThreadPoolSize, orgApacheSlingEventJobsQueueConfigurationProperties.queueThreadPoolSize) &&
+        Objects.equals(this.serviceRanking, orgApacheSlingEventJobsQueueConfigurationProperties.serviceRanking);
   }
 
   @Override
@@ -268,11 +301,9 @@ public class OrgApacheSlingEventJobsQueueConfigurationProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

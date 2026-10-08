@@ -1,0 +1,89 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyDropDown = openapi_server.resourceTypes.ConfigNodePropertyDropDown
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpProperties {
+    title = ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpProperties
+    description = ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpProperties
+    derivedFrom = Root
+    properties {
+        email_name {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        email_create_post_from_reply {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        email_add_comment_id_to {
+          type = ConfigNodePropertyDropDown
+          description = ""
+          optional = false
+        }
+        email_subject_maximum_length {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        email_reply_to_address {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        email_reply_to_delimiter {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        email_tracker_id_prefix_in_subject {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        email_tracker_id_prefix_in_body {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        email_as_html {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        email_default_user_name {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        email_templates_root_path {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpProperties {
+    title = ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpProperties
+    description = ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpProperties
+    implements = openapi_server.resourceTypes.ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpProperties
+
+  }
+}

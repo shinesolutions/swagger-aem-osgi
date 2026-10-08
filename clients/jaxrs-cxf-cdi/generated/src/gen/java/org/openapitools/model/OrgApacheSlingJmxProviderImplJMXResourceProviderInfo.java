@@ -2,27 +2,28 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.OrgApacheSlingJmxProviderImplJMXResourceProviderProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class OrgApacheSlingJmxProviderImplJMXResourceProviderInfo   {
   
-  private String pid = null;
+  private String pid;
 
-  private String title = null;
+  private String title;
 
-  private String description = null;
+  private String description;
 
-  private OrgApacheSlingJmxProviderImplJMXResourceProviderProperties properties = null;
-
+  private OrgApacheSlingJmxProviderImplJMXResourceProviderProperties properties;
 
   /**
    **/
@@ -98,7 +99,7 @@ public class OrgApacheSlingJmxProviderImplJMXResourceProviderInfo   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -106,10 +107,10 @@ public class OrgApacheSlingJmxProviderImplJMXResourceProviderInfo   {
       return false;
     }
     OrgApacheSlingJmxProviderImplJMXResourceProviderInfo orgApacheSlingJmxProviderImplJMXResourceProviderInfo = (OrgApacheSlingJmxProviderImplJMXResourceProviderInfo) o;
-    return Objects.equals(pid, orgApacheSlingJmxProviderImplJMXResourceProviderInfo.pid) &&
-        Objects.equals(title, orgApacheSlingJmxProviderImplJMXResourceProviderInfo.title) &&
-        Objects.equals(description, orgApacheSlingJmxProviderImplJMXResourceProviderInfo.description) &&
-        Objects.equals(properties, orgApacheSlingJmxProviderImplJMXResourceProviderInfo.properties);
+    return Objects.equals(this.pid, orgApacheSlingJmxProviderImplJMXResourceProviderInfo.pid) &&
+        Objects.equals(this.title, orgApacheSlingJmxProviderImplJMXResourceProviderInfo.title) &&
+        Objects.equals(this.description, orgApacheSlingJmxProviderImplJMXResourceProviderInfo.description) &&
+        Objects.equals(this.properties, orgApacheSlingJmxProviderImplJMXResourceProviderInfo.properties);
   }
 
   @Override
@@ -134,11 +135,8 @@ public class OrgApacheSlingJmxProviderImplJMXResourceProviderInfo   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

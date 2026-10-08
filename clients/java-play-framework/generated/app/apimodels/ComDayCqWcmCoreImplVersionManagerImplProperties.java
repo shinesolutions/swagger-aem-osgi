@@ -3,38 +3,53 @@ package apimodels;
 import apimodels.ConfigNodePropertyArray;
 import apimodels.ConfigNodePropertyBoolean;
 import apimodels.ConfigNodePropertyInteger;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * ComDayCqWcmCoreImplVersionManagerImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class ComDayCqWcmCoreImplVersionManagerImplProperties   {
   @JsonProperty("versionmanager.createVersionOnActivation")
-  private ConfigNodePropertyBoolean versionmanagerCreateVersionOnActivation = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean versionmanagerCreateVersionOnActivation;
 
   @JsonProperty("versionmanager.purgingEnabled")
-  private ConfigNodePropertyBoolean versionmanagerPurgingEnabled = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean versionmanagerPurgingEnabled;
 
   @JsonProperty("versionmanager.purgePaths")
-  private ConfigNodePropertyArray versionmanagerPurgePaths = null;
+  @Valid
+
+  private ConfigNodePropertyArray versionmanagerPurgePaths;
 
   @JsonProperty("versionmanager.ivPaths")
-  private ConfigNodePropertyArray versionmanagerIvPaths = null;
+  @Valid
+
+  private ConfigNodePropertyArray versionmanagerIvPaths;
 
   @JsonProperty("versionmanager.maxAgeDays")
-  private ConfigNodePropertyInteger versionmanagerMaxAgeDays = null;
+  @Valid
+
+  private ConfigNodePropertyInteger versionmanagerMaxAgeDays;
 
   @JsonProperty("versionmanager.maxNumberVersions")
-  private ConfigNodePropertyInteger versionmanagerMaxNumberVersions = null;
+  @Valid
+
+  private ConfigNodePropertyInteger versionmanagerMaxNumberVersions;
 
   @JsonProperty("versionmanager.minNumberVersions")
-  private ConfigNodePropertyInteger versionmanagerMinNumberVersions = null;
+  @Valid
+
+  private ConfigNodePropertyInteger versionmanagerMinNumberVersions;
 
   public ComDayCqWcmCoreImplVersionManagerImplProperties versionmanagerCreateVersionOnActivation(ConfigNodePropertyBoolean versionmanagerCreateVersionOnActivation) {
     this.versionmanagerCreateVersionOnActivation = versionmanagerCreateVersionOnActivation;
@@ -45,7 +60,6 @@ public class ComDayCqWcmCoreImplVersionManagerImplProperties   {
    * Get versionmanagerCreateVersionOnActivation
    * @return versionmanagerCreateVersionOnActivation
   **/
-  @Valid
   public ConfigNodePropertyBoolean getVersionmanagerCreateVersionOnActivation() {
     return versionmanagerCreateVersionOnActivation;
   }
@@ -63,7 +77,6 @@ public class ComDayCqWcmCoreImplVersionManagerImplProperties   {
    * Get versionmanagerPurgingEnabled
    * @return versionmanagerPurgingEnabled
   **/
-  @Valid
   public ConfigNodePropertyBoolean getVersionmanagerPurgingEnabled() {
     return versionmanagerPurgingEnabled;
   }
@@ -81,7 +94,6 @@ public class ComDayCqWcmCoreImplVersionManagerImplProperties   {
    * Get versionmanagerPurgePaths
    * @return versionmanagerPurgePaths
   **/
-  @Valid
   public ConfigNodePropertyArray getVersionmanagerPurgePaths() {
     return versionmanagerPurgePaths;
   }
@@ -99,7 +111,6 @@ public class ComDayCqWcmCoreImplVersionManagerImplProperties   {
    * Get versionmanagerIvPaths
    * @return versionmanagerIvPaths
   **/
-  @Valid
   public ConfigNodePropertyArray getVersionmanagerIvPaths() {
     return versionmanagerIvPaths;
   }
@@ -117,7 +128,6 @@ public class ComDayCqWcmCoreImplVersionManagerImplProperties   {
    * Get versionmanagerMaxAgeDays
    * @return versionmanagerMaxAgeDays
   **/
-  @Valid
   public ConfigNodePropertyInteger getVersionmanagerMaxAgeDays() {
     return versionmanagerMaxAgeDays;
   }
@@ -135,7 +145,6 @@ public class ComDayCqWcmCoreImplVersionManagerImplProperties   {
    * Get versionmanagerMaxNumberVersions
    * @return versionmanagerMaxNumberVersions
   **/
-  @Valid
   public ConfigNodePropertyInteger getVersionmanagerMaxNumberVersions() {
     return versionmanagerMaxNumberVersions;
   }
@@ -153,7 +162,6 @@ public class ComDayCqWcmCoreImplVersionManagerImplProperties   {
    * Get versionmanagerMinNumberVersions
    * @return versionmanagerMinNumberVersions
   **/
-  @Valid
   public ConfigNodePropertyInteger getVersionmanagerMinNumberVersions() {
     return versionmanagerMinNumberVersions;
   }
@@ -164,7 +172,7 @@ public class ComDayCqWcmCoreImplVersionManagerImplProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -207,11 +215,8 @@ public class ComDayCqWcmCoreImplVersionManagerImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

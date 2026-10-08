@@ -1,7 +1,9 @@
 
+
 # OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **managerRoot** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
@@ -14,6 +16,7 @@ Name | Type | Description | Notes
 **locale** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
 **loglevel** | [**ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md) |  |  [optional]
 **plugins** | [**ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md) |  |  [optional]
+
 
 
 

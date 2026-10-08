@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyArray;
 
 @Canonical
 class OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePreProperties {
-    ConfigNodePropertyArray persistentCacheIncludes = null
-
+    
+    ConfigNodePropertyArray persistentCacheIncludes
 }

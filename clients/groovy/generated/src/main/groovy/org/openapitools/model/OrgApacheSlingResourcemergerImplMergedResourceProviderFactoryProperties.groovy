@@ -8,8 +8,8 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class OrgApacheSlingResourcemergerImplMergedResourceProviderFactoryProperties {
-    ConfigNodePropertyString mergeRoot = null
-
-    ConfigNodePropertyBoolean mergeReadOnly = null
-
+    
+    ConfigNodePropertyString mergeRoot
+    
+    ConfigNodePropertyBoolean mergeReadOnly
 }

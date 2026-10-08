@@ -1,0 +1,29 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "enabled" },
+      {"model": "interval_seconds" },
+      {"model": "commits_per_interval_threshold" },
+      {"model": "max_location_length" },
+      {"model": "max_details_shown" },
+      {"model": "min_details_percentage" },
+      {"model": "thread_matchers" },
+      {"model": "max_greedy_depth" },
+      {"model": "greedy_stack_matchers" },
+      {"model": "stack_filters" },
+      {"model": "stack_matchers" },
+      {"model": "stack_categorizers" },
+      {"model": "stack_shorteners" },
+    ]
+  }]
+}

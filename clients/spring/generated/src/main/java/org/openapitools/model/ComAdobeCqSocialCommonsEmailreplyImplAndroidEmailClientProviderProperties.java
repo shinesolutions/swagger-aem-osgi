@@ -1,28 +1,39 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyInteger;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComAdobeCqSocialCommonsEmailreplyImplAndroidEmailClientProviderProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComAdobeCqSocialCommonsEmailreplyImplAndroidEmailClientProviderProperties   {
-  @JsonProperty("priorityOrder")
-  private ConfigNodePropertyInteger priorityOrder = null;
+@JsonTypeName("comAdobeCqSocialCommonsEmailreplyImplAndroidEmailClientProviderProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComAdobeCqSocialCommonsEmailreplyImplAndroidEmailClientProviderProperties {
 
-  @JsonProperty("replyEmailPatterns")
-  private ConfigNodePropertyArray replyEmailPatterns = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger priorityOrder;
 
-  public ComAdobeCqSocialCommonsEmailreplyImplAndroidEmailClientProviderProperties priorityOrder(ConfigNodePropertyInteger priorityOrder) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray replyEmailPatterns;
+
+  public ComAdobeCqSocialCommonsEmailreplyImplAndroidEmailClientProviderProperties priorityOrder(@Nullable ConfigNodePropertyInteger priorityOrder) {
     this.priorityOrder = priorityOrder;
     return this;
   }
@@ -30,20 +41,20 @@ public class ComAdobeCqSocialCommonsEmailreplyImplAndroidEmailClientProviderProp
   /**
    * Get priorityOrder
    * @return priorityOrder
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getPriorityOrder() {
+   */
+  @Valid 
+  @Schema(name = "priorityOrder", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("priorityOrder")
+  public @Nullable ConfigNodePropertyInteger getPriorityOrder() {
     return priorityOrder;
   }
 
-  public void setPriorityOrder(ConfigNodePropertyInteger priorityOrder) {
+  @JsonProperty("priorityOrder")
+  public void setPriorityOrder(@Nullable ConfigNodePropertyInteger priorityOrder) {
     this.priorityOrder = priorityOrder;
   }
 
-  public ComAdobeCqSocialCommonsEmailreplyImplAndroidEmailClientProviderProperties replyEmailPatterns(ConfigNodePropertyArray replyEmailPatterns) {
+  public ComAdobeCqSocialCommonsEmailreplyImplAndroidEmailClientProviderProperties replyEmailPatterns(@Nullable ConfigNodePropertyArray replyEmailPatterns) {
     this.replyEmailPatterns = replyEmailPatterns;
     return this;
   }
@@ -51,22 +62,21 @@ public class ComAdobeCqSocialCommonsEmailreplyImplAndroidEmailClientProviderProp
   /**
    * Get replyEmailPatterns
    * @return replyEmailPatterns
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getReplyEmailPatterns() {
+   */
+  @Valid 
+  @Schema(name = "replyEmailPatterns", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("replyEmailPatterns")
+  public @Nullable ConfigNodePropertyArray getReplyEmailPatterns() {
     return replyEmailPatterns;
   }
 
-  public void setReplyEmailPatterns(ConfigNodePropertyArray replyEmailPatterns) {
+  @JsonProperty("replyEmailPatterns")
+  public void setReplyEmailPatterns(@Nullable ConfigNodePropertyArray replyEmailPatterns) {
     this.replyEmailPatterns = replyEmailPatterns;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -87,7 +97,6 @@ public class ComAdobeCqSocialCommonsEmailreplyImplAndroidEmailClientProviderProp
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComAdobeCqSocialCommonsEmailreplyImplAndroidEmailClientProviderProperties {\n");
-    
     sb.append("    priorityOrder: ").append(toIndentedString(priorityOrder)).append("\n");
     sb.append("    replyEmailPatterns: ").append(toIndentedString(replyEmailPatterns)).append("\n");
     sb.append("}");
@@ -98,11 +107,8 @@ public class ComAdobeCqSocialCommonsEmailreplyImplAndroidEmailClientProviderProp
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

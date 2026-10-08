@@ -3,35 +3,48 @@ package apimodels;
 import apimodels.ConfigNodePropertyBoolean;
 import apimodels.ConfigNodePropertyDropDown;
 import apimodels.ConfigNodePropertyInteger;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * OrgApacheFelixScrScrServiceProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class OrgApacheFelixScrScrServiceProperties   {
   @JsonProperty("ds.loglevel")
-  private ConfigNodePropertyDropDown dsLoglevel = null;
+  @Valid
+
+  private ConfigNodePropertyDropDown dsLoglevel;
 
   @JsonProperty("ds.factory.enabled")
-  private ConfigNodePropertyBoolean dsFactoryEnabled = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean dsFactoryEnabled;
 
   @JsonProperty("ds.delayed.keepInstances")
-  private ConfigNodePropertyBoolean dsDelayedKeepInstances = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean dsDelayedKeepInstances;
 
   @JsonProperty("ds.lock.timeout.milliseconds")
-  private ConfigNodePropertyInteger dsLockTimeoutMilliseconds = null;
+  @Valid
+
+  private ConfigNodePropertyInteger dsLockTimeoutMilliseconds;
 
   @JsonProperty("ds.stop.timeout.milliseconds")
-  private ConfigNodePropertyInteger dsStopTimeoutMilliseconds = null;
+  @Valid
+
+  private ConfigNodePropertyInteger dsStopTimeoutMilliseconds;
 
   @JsonProperty("ds.global.extender")
-  private ConfigNodePropertyBoolean dsGlobalExtender = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean dsGlobalExtender;
 
   public OrgApacheFelixScrScrServiceProperties dsLoglevel(ConfigNodePropertyDropDown dsLoglevel) {
     this.dsLoglevel = dsLoglevel;
@@ -42,7 +55,6 @@ public class OrgApacheFelixScrScrServiceProperties   {
    * Get dsLoglevel
    * @return dsLoglevel
   **/
-  @Valid
   public ConfigNodePropertyDropDown getDsLoglevel() {
     return dsLoglevel;
   }
@@ -60,7 +72,6 @@ public class OrgApacheFelixScrScrServiceProperties   {
    * Get dsFactoryEnabled
    * @return dsFactoryEnabled
   **/
-  @Valid
   public ConfigNodePropertyBoolean getDsFactoryEnabled() {
     return dsFactoryEnabled;
   }
@@ -78,7 +89,6 @@ public class OrgApacheFelixScrScrServiceProperties   {
    * Get dsDelayedKeepInstances
    * @return dsDelayedKeepInstances
   **/
-  @Valid
   public ConfigNodePropertyBoolean getDsDelayedKeepInstances() {
     return dsDelayedKeepInstances;
   }
@@ -96,7 +106,6 @@ public class OrgApacheFelixScrScrServiceProperties   {
    * Get dsLockTimeoutMilliseconds
    * @return dsLockTimeoutMilliseconds
   **/
-  @Valid
   public ConfigNodePropertyInteger getDsLockTimeoutMilliseconds() {
     return dsLockTimeoutMilliseconds;
   }
@@ -114,7 +123,6 @@ public class OrgApacheFelixScrScrServiceProperties   {
    * Get dsStopTimeoutMilliseconds
    * @return dsStopTimeoutMilliseconds
   **/
-  @Valid
   public ConfigNodePropertyInteger getDsStopTimeoutMilliseconds() {
     return dsStopTimeoutMilliseconds;
   }
@@ -132,7 +140,6 @@ public class OrgApacheFelixScrScrServiceProperties   {
    * Get dsGlobalExtender
    * @return dsGlobalExtender
   **/
-  @Valid
   public ConfigNodePropertyBoolean getDsGlobalExtender() {
     return dsGlobalExtender;
   }
@@ -143,7 +150,7 @@ public class OrgApacheFelixScrScrServiceProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -184,11 +191,8 @@ public class OrgApacheFelixScrScrServiceProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

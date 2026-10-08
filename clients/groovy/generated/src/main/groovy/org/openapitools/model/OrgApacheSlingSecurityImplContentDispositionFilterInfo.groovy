@@ -7,16 +7,16 @@ import org.openapitools.model.OrgApacheSlingSecurityImplContentDispositionFilter
 
 @Canonical
 class OrgApacheSlingSecurityImplContentDispositionFilterInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheSlingSecurityImplContentDispositionFilterProperties properties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheSlingSecurityImplContentDispositionFilterProperties properties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

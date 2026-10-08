@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyBoolean;
 import com.prokarma.pkmst.model.ConfigNodePropertyString;
 import io.swagger.annotations.ApiModel;
@@ -16,39 +17,38 @@ import io.swagger.annotations.ApiModelProperty;
  * ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoProperties   {
   @JsonProperty("default.transport.agent-to-worker.prefix")
-  private ConfigNodePropertyString defaultTransportAgentToWorkerPrefix = null;
+  private ConfigNodePropertyString defaultTransportAgentToWorkerPrefix;
 
   @JsonProperty("default.transport.agent-to-master.prefix")
-  private ConfigNodePropertyString defaultTransportAgentToMasterPrefix = null;
+  private ConfigNodePropertyString defaultTransportAgentToMasterPrefix;
 
   @JsonProperty("default.transport.input.package")
-  private ConfigNodePropertyString defaultTransportInputPackage = null;
+  private ConfigNodePropertyString defaultTransportInputPackage;
 
   @JsonProperty("default.transport.output.package")
-  private ConfigNodePropertyString defaultTransportOutputPackage = null;
+  private ConfigNodePropertyString defaultTransportOutputPackage;
 
   @JsonProperty("default.transport.replication.synchronous")
-  private ConfigNodePropertyBoolean defaultTransportReplicationSynchronous = null;
+  private ConfigNodePropertyBoolean defaultTransportReplicationSynchronous;
 
   @JsonProperty("default.transport.contentpackage")
-  private ConfigNodePropertyBoolean defaultTransportContentpackage = null;
+  private ConfigNodePropertyBoolean defaultTransportContentpackage;
 
   @JsonProperty("offloading.transporter.default.enabled")
-  private ConfigNodePropertyBoolean offloadingTransporterDefaultEnabled = null;
+  private ConfigNodePropertyBoolean offloadingTransporterDefaultEnabled;
 
   public ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoProperties defaultTransportAgentToWorkerPrefix(ConfigNodePropertyString defaultTransportAgentToWorkerPrefix) {
     this.defaultTransportAgentToWorkerPrefix = defaultTransportAgentToWorkerPrefix;
     return this;
   }
 
-   /**
+  /**
    * Get defaultTransportAgentToWorkerPrefix
    * @return defaultTransportAgentToWorkerPrefix
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getDefaultTransportAgentToWorkerPrefix() {
     return defaultTransportAgentToWorkerPrefix;
@@ -63,10 +63,10 @@ public class ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoPro
     return this;
   }
 
-   /**
+  /**
    * Get defaultTransportAgentToMasterPrefix
    * @return defaultTransportAgentToMasterPrefix
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getDefaultTransportAgentToMasterPrefix() {
     return defaultTransportAgentToMasterPrefix;
@@ -81,10 +81,10 @@ public class ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoPro
     return this;
   }
 
-   /**
+  /**
    * Get defaultTransportInputPackage
    * @return defaultTransportInputPackage
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getDefaultTransportInputPackage() {
     return defaultTransportInputPackage;
@@ -99,10 +99,10 @@ public class ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoPro
     return this;
   }
 
-   /**
+  /**
    * Get defaultTransportOutputPackage
    * @return defaultTransportOutputPackage
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getDefaultTransportOutputPackage() {
     return defaultTransportOutputPackage;
@@ -117,10 +117,10 @@ public class ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoPro
     return this;
   }
 
-   /**
+  /**
    * Get defaultTransportReplicationSynchronous
    * @return defaultTransportReplicationSynchronous
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getDefaultTransportReplicationSynchronous() {
     return defaultTransportReplicationSynchronous;
@@ -135,10 +135,10 @@ public class ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoPro
     return this;
   }
 
-   /**
+  /**
    * Get defaultTransportContentpackage
    * @return defaultTransportContentpackage
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getDefaultTransportContentpackage() {
     return defaultTransportContentpackage;
@@ -153,10 +153,10 @@ public class ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoPro
     return this;
   }
 
-   /**
+  /**
    * Get offloadingTransporterDefaultEnabled
    * @return offloadingTransporterDefaultEnabled
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getOffloadingTransporterDefaultEnabled() {
     return offloadingTransporterDefaultEnabled;
@@ -168,7 +168,7 @@ public class ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoPro
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -210,11 +210,8 @@ public class ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoPro
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

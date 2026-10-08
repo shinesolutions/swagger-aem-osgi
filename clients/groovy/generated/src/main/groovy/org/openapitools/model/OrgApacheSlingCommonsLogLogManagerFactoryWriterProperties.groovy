@@ -9,12 +9,12 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class OrgApacheSlingCommonsLogLogManagerFactoryWriterProperties {
-    ConfigNodePropertyString orgApacheSlingCommonsLogFile = null
-
-    ConfigNodePropertyInteger orgApacheSlingCommonsLogFileNumber = null
-
-    ConfigNodePropertyString orgApacheSlingCommonsLogFileSize = null
-
-    ConfigNodePropertyBoolean orgApacheSlingCommonsLogFileBuffered = null
-
+    
+    ConfigNodePropertyString orgApacheSlingCommonsLogFile
+    
+    ConfigNodePropertyInteger orgApacheSlingCommonsLogFileNumber
+    
+    ConfigNodePropertyString orgApacheSlingCommonsLogFileSize
+    
+    ConfigNodePropertyBoolean orgApacheSlingCommonsLogFileBuffered
 }

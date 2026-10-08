@@ -1,0 +1,42 @@
+/*
+ * com_day_cq_dam_stock_integration_impl_cache_stock_cache_configuration_ser_properties.h
+ *
+ * 
+ */
+
+#ifndef _com_day_cq_dam_stock_integration_impl_cache_stock_cache_configuration_ser_properties_H_
+#define _com_day_cq_dam_stock_integration_impl_cache_stock_cache_configuration_ser_properties_H_
+
+#include <string.h>
+#include "../external/cJSON.h"
+#include "../include/list.h"
+#include "../include/keyValuePair.h"
+#include "../include/binary.h"
+
+typedef struct com_day_cq_dam_stock_integration_impl_cache_stock_cache_configuration_ser_properties_t com_day_cq_dam_stock_integration_impl_cache_stock_cache_configuration_ser_properties_t;
+
+#include "config_node_property_drop_down.h"
+#include "config_node_property_integer.h"
+
+
+
+typedef struct com_day_cq_dam_stock_integration_impl_cache_stock_cache_configuration_ser_properties_t {
+    struct config_node_property_drop_down_t *get_cache_expiration_unit; //model
+    struct config_node_property_integer_t *get_cache_expiration_value; //model
+
+    int _library_owned; // Is the library responsible for freeing this object?
+} com_day_cq_dam_stock_integration_impl_cache_stock_cache_configuration_ser_properties_t;
+
+__attribute__((deprecated)) com_day_cq_dam_stock_integration_impl_cache_stock_cache_configuration_ser_properties_t *com_day_cq_dam_stock_integration_impl_cache_stock_cache_configuration_ser_properties_create(
+    config_node_property_drop_down_t *get_cache_expiration_unit,
+    config_node_property_integer_t *get_cache_expiration_value
+);
+
+void com_day_cq_dam_stock_integration_impl_cache_stock_cache_configuration_ser_properties_free(com_day_cq_dam_stock_integration_impl_cache_stock_cache_configuration_ser_properties_t *com_day_cq_dam_stock_integration_impl_cache_stock_cache_configuration_ser_properties);
+
+com_day_cq_dam_stock_integration_impl_cache_stock_cache_configuration_ser_properties_t *com_day_cq_dam_stock_integration_impl_cache_stock_cache_configuration_ser_properties_parseFromJSON(cJSON *com_day_cq_dam_stock_integration_impl_cache_stock_cache_configuration_ser_propertiesJSON);
+
+cJSON *com_day_cq_dam_stock_integration_impl_cache_stock_cache_configuration_ser_properties_convertToJSON(com_day_cq_dam_stock_integration_impl_cache_stock_cache_configuration_ser_properties_t *com_day_cq_dam_stock_integration_impl_cache_stock_cache_configuration_ser_properties);
+
+#endif /* _com_day_cq_dam_stock_integration_impl_cache_stock_cache_configuration_ser_properties_H_ */
+

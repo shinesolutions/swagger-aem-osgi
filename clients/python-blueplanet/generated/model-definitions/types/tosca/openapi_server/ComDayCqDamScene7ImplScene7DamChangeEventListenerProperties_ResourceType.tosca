@@ -1,0 +1,42 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqDamScene7ImplScene7DamChangeEventListenerProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqDamScene7ImplScene7DamChangeEventListenerProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+}
+resourceTypes {
+
+  ComDayCqDamScene7ImplScene7DamChangeEventListenerProperties {
+    title = ComDayCqDamScene7ImplScene7DamChangeEventListenerProperties
+    description = ComDayCqDamScene7ImplScene7DamChangeEventListenerProperties
+    derivedFrom = Root
+    properties {
+        cq_dam_scene7_damchangeeventlistener_enabled {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        cq_dam_scene7_damchangeeventlistener_observed_paths {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqDamScene7ImplScene7DamChangeEventListenerProperties {
+    title = ComDayCqDamScene7ImplScene7DamChangeEventListenerProperties
+    description = ComDayCqDamScene7ImplScene7DamChangeEventListenerProperties
+    implements = openapi_server.resourceTypes.ComDayCqDamScene7ImplScene7DamChangeEventListenerProperties
+
+  }
+}

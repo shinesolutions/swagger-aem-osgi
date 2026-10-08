@@ -2,22 +2,22 @@
 # OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**handlerPeriodname** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**userPeriodexpirationTime** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**userPeriodautoMembership** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**userPeriodpropertyMapping** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**userPeriodpathPrefix** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**userPeriodmembershipExpTime** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**userPeriodmembershipNestingDepth** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**userPerioddynamicMembership** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**userPerioddisableMissing** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**groupPeriodexpirationTime** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**groupPeriodautoMembership** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**groupPeriodpropertyMapping** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**groupPeriodpathPrefix** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**enableRFC7613UsercaseMappedProfile** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **handlerName** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **userExpirationTime** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **userAutoMembership** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **userPropertyMapping** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **userPathPrefix** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **userMembershipExpTime** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **userMembershipNestingDepth** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **userDynamicMembership** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **userDisableMissing** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **groupExpirationTime** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **groupAutoMembership** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **groupPropertyMapping** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **groupPathPrefix** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **enableRFC7613UsercaseMappedProfile** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
 
 
 

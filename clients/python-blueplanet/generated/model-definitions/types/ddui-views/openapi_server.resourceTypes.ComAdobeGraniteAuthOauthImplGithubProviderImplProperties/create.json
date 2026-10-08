@@ -1,0 +1,20 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "oauth_provider_id" },
+      {"model": "oauth_provider_github_authorization_url" },
+      {"model": "oauth_provider_github_token_url" },
+      {"model": "oauth_provider_github_profile_url" },
+    ]
+  }]
+}

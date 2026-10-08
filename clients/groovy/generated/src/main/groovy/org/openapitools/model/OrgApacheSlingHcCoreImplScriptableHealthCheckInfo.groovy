@@ -7,12 +7,12 @@ import org.openapitools.model.OrgApacheSlingHcCoreImplScriptableHealthCheckPrope
 
 @Canonical
 class OrgApacheSlingHcCoreImplScriptableHealthCheckInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheSlingHcCoreImplScriptableHealthCheckProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheSlingHcCoreImplScriptableHealthCheckProperties properties
 }

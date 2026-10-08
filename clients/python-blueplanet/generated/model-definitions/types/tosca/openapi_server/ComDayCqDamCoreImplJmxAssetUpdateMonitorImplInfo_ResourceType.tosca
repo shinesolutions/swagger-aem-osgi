@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqDamCoreImplJmxAssetUpdateMonitorImplInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqDamCoreImplJmxAssetUpdateMonitorImplInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComDayCqDamCoreImplJmxAssetUpdateMonitorImplProperties = openapi_server.resourceTypes.ComDayCqDamCoreImplJmxAssetUpdateMonitorImplProperties
+}
+resourceTypes {
+
+  ComDayCqDamCoreImplJmxAssetUpdateMonitorImplInfo {
+    title = ComDayCqDamCoreImplJmxAssetUpdateMonitorImplInfo
+    description = ComDayCqDamCoreImplJmxAssetUpdateMonitorImplInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComDayCqDamCoreImplJmxAssetUpdateMonitorImplProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqDamCoreImplJmxAssetUpdateMonitorImplInfo {
+    title = ComDayCqDamCoreImplJmxAssetUpdateMonitorImplInfo
+    description = ComDayCqDamCoreImplJmxAssetUpdateMonitorImplInfo
+    implements = openapi_server.resourceTypes.ComDayCqDamCoreImplJmxAssetUpdateMonitorImplInfo
+
+  }
+}

@@ -1,0 +1,62 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqDamIdsImplIDSJobProcessorProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqDamIdsImplIDSJobProcessorProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComDayCqDamIdsImplIDSJobProcessorProperties {
+    title = ComDayCqDamIdsImplIDSJobProcessorProperties
+    description = ComDayCqDamIdsImplIDSJobProcessorProperties
+    derivedFrom = Root
+    properties {
+        enable_multisession {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        ids_cc_enable {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        enable_retry {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        enable_retry_scripterror {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        externalizer_domain_cqhost {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        externalizer_domain_http {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqDamIdsImplIDSJobProcessorProperties {
+    title = ComDayCqDamIdsImplIDSJobProcessorProperties
+    description = ComDayCqDamIdsImplIDSJobProcessorProperties
+    implements = openapi_server.resourceTypes.ComDayCqDamIdsImplIDSJobProcessorProperties
+
+  }
+}

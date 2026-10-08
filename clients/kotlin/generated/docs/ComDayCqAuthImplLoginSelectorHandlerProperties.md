@@ -2,16 +2,16 @@
 # ComDayCqAuthImplLoginSelectorHandlerProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**path** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**servicePeriodranking** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**authPeriodloginselectorPeriodmappings** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**authPeriodloginselectorPeriodchangepwPeriodmappings** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**authPeriodloginselectorPerioddefaultloginpage** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**authPeriodloginselectorPerioddefaultchangepwpage** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**authPeriodloginselectorPeriodhandle** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**authPeriodloginselectorPeriodhandlePeriodallPeriodextensions** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **path** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **serviceRanking** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **authLoginselectorMappings** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **authLoginselectorChangepwMappings** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **authLoginselectorDefaultloginpage** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **authLoginselectorDefaultchangepwpage** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **authLoginselectorHandle** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **authLoginselectorHandleAllExtensions** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
 
 
 

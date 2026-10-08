@@ -1,6 +1,8 @@
 # OrgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties
 
+
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **repository_home** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
@@ -31,6 +33,23 @@ Name | Type | Description | Notes
 **register_descriptors** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] 
 **dispatch_changes** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] 
 
+## Example
+
+```python
+from swaggeraemosgi.models.org_apache_jackrabbit_oak_segment_segment_node_store_factory_properties import OrgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties
+
+# TODO update the JSON string below
+json = "{}"
+# create an instance of OrgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties from a JSON string
+org_apache_jackrabbit_oak_segment_segment_node_store_factory_properties_instance = OrgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties.from_json(json)
+# print the JSON string representation of the object
+print(OrgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties.to_json())
+
+# convert the object into a dict
+org_apache_jackrabbit_oak_segment_segment_node_store_factory_properties_dict = org_apache_jackrabbit_oak_segment_segment_node_store_factory_properties_instance.to_dict()
+# create an instance of OrgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties from a dict
+org_apache_jackrabbit_oak_segment_segment_node_store_factory_properties_from_dict = OrgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties.from_dict(org_apache_jackrabbit_oak_segment_segment_node_store_factory_properties_dict)
+```
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 
 

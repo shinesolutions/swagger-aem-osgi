@@ -8,8 +8,8 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqWcmCoreImplPagePageManagerFactoryImplProperties {
-    ConfigNodePropertyString illegalCharMapping = null
-
-    ConfigNodePropertyBoolean pageSubTreeActivationCheck = null
-
+    
+    ConfigNodePropertyString illegalCharMapping
+    
+    ConfigNodePropertyBoolean pageSubTreeActivationCheck
 }

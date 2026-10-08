@@ -72,11 +72,11 @@ private class OASComDayCqDamScene7ImplScene7FlashTTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqDamScene7ImplScene7FlashT comDayCqDamScene7ImplScene7FlashTemplatesServiceImplProperties = new OASComDayCqDamScene7ImplScene7FlashT();
-        Map<String, String> propertyMappings = comDayCqDamScene7ImplScene7FlashTemplatesServiceImplProperties.getPropertyMappings();
-        System.assertEquals('scene7FlashTemplatesRti', propertyMappings.get('scene7FlashTemplates.rti'));
-        System.assertEquals('scene7FlashTemplatesRsi', propertyMappings.get('scene7FlashTemplates.rsi'));
-        System.assertEquals('scene7FlashTemplatesRb', propertyMappings.get('scene7FlashTemplates.rb'));
-        System.assertEquals('scene7FlashTemplatesRurl', propertyMappings.get('scene7FlashTemplates.rurl'));
-        System.assertEquals('scene7FlashTemplateUrlFormatParameter', propertyMappings.get('scene7FlashTemplate.urlFormatParameter'));
+        Map<String, String> x-property-mappings = comDayCqDamScene7ImplScene7FlashTemplatesServiceImplProperties.getx-property-mappings();
+        System.assertEquals('scene7FlashTemplatesRti', x-property-mappings.get('scene7FlashTemplates.rti'));
+        System.assertEquals('scene7FlashTemplatesRsi', x-property-mappings.get('scene7FlashTemplates.rsi'));
+        System.assertEquals('scene7FlashTemplatesRb', x-property-mappings.get('scene7FlashTemplates.rb'));
+        System.assertEquals('scene7FlashTemplatesRurl', x-property-mappings.get('scene7FlashTemplates.rurl'));
+        System.assertEquals('scene7FlashTemplateUrlFormatParameter', x-property-mappings.get('scene7FlashTemplate.urlFormatParameter'));
     }
 }

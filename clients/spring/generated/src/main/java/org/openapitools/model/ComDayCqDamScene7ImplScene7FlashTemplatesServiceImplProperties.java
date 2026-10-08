@@ -1,36 +1,47 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComDayCqDamScene7ImplScene7FlashTemplatesServiceImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComDayCqDamScene7ImplScene7FlashTemplatesServiceImplProperties   {
-  @JsonProperty("scene7FlashTemplates.rti")
-  private ConfigNodePropertyString scene7FlashTemplatesRti = null;
+@JsonTypeName("comDayCqDamScene7ImplScene7FlashTemplatesServiceImplProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComDayCqDamScene7ImplScene7FlashTemplatesServiceImplProperties {
 
-  @JsonProperty("scene7FlashTemplates.rsi")
-  private ConfigNodePropertyString scene7FlashTemplatesRsi = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString scene7FlashTemplatesRti;
 
-  @JsonProperty("scene7FlashTemplates.rb")
-  private ConfigNodePropertyString scene7FlashTemplatesRb = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString scene7FlashTemplatesRsi;
 
-  @JsonProperty("scene7FlashTemplates.rurl")
-  private ConfigNodePropertyString scene7FlashTemplatesRurl = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString scene7FlashTemplatesRb;
 
-  @JsonProperty("scene7FlashTemplate.urlFormatParameter")
-  private ConfigNodePropertyString scene7FlashTemplateUrlFormatParameter = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString scene7FlashTemplatesRurl;
 
-  public ComDayCqDamScene7ImplScene7FlashTemplatesServiceImplProperties scene7FlashTemplatesRti(ConfigNodePropertyString scene7FlashTemplatesRti) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString scene7FlashTemplateUrlFormatParameter;
+
+  public ComDayCqDamScene7ImplScene7FlashTemplatesServiceImplProperties scene7FlashTemplatesRti(@Nullable ConfigNodePropertyString scene7FlashTemplatesRti) {
     this.scene7FlashTemplatesRti = scene7FlashTemplatesRti;
     return this;
   }
@@ -38,20 +49,20 @@ public class ComDayCqDamScene7ImplScene7FlashTemplatesServiceImplProperties   {
   /**
    * Get scene7FlashTemplatesRti
    * @return scene7FlashTemplatesRti
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getScene7FlashTemplatesRti() {
+   */
+  @Valid 
+  @Schema(name = "scene7FlashTemplates.rti", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("scene7FlashTemplates.rti")
+  public @Nullable ConfigNodePropertyString getScene7FlashTemplatesRti() {
     return scene7FlashTemplatesRti;
   }
 
-  public void setScene7FlashTemplatesRti(ConfigNodePropertyString scene7FlashTemplatesRti) {
+  @JsonProperty("scene7FlashTemplates.rti")
+  public void setScene7FlashTemplatesRti(@Nullable ConfigNodePropertyString scene7FlashTemplatesRti) {
     this.scene7FlashTemplatesRti = scene7FlashTemplatesRti;
   }
 
-  public ComDayCqDamScene7ImplScene7FlashTemplatesServiceImplProperties scene7FlashTemplatesRsi(ConfigNodePropertyString scene7FlashTemplatesRsi) {
+  public ComDayCqDamScene7ImplScene7FlashTemplatesServiceImplProperties scene7FlashTemplatesRsi(@Nullable ConfigNodePropertyString scene7FlashTemplatesRsi) {
     this.scene7FlashTemplatesRsi = scene7FlashTemplatesRsi;
     return this;
   }
@@ -59,20 +70,20 @@ public class ComDayCqDamScene7ImplScene7FlashTemplatesServiceImplProperties   {
   /**
    * Get scene7FlashTemplatesRsi
    * @return scene7FlashTemplatesRsi
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getScene7FlashTemplatesRsi() {
+   */
+  @Valid 
+  @Schema(name = "scene7FlashTemplates.rsi", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("scene7FlashTemplates.rsi")
+  public @Nullable ConfigNodePropertyString getScene7FlashTemplatesRsi() {
     return scene7FlashTemplatesRsi;
   }
 
-  public void setScene7FlashTemplatesRsi(ConfigNodePropertyString scene7FlashTemplatesRsi) {
+  @JsonProperty("scene7FlashTemplates.rsi")
+  public void setScene7FlashTemplatesRsi(@Nullable ConfigNodePropertyString scene7FlashTemplatesRsi) {
     this.scene7FlashTemplatesRsi = scene7FlashTemplatesRsi;
   }
 
-  public ComDayCqDamScene7ImplScene7FlashTemplatesServiceImplProperties scene7FlashTemplatesRb(ConfigNodePropertyString scene7FlashTemplatesRb) {
+  public ComDayCqDamScene7ImplScene7FlashTemplatesServiceImplProperties scene7FlashTemplatesRb(@Nullable ConfigNodePropertyString scene7FlashTemplatesRb) {
     this.scene7FlashTemplatesRb = scene7FlashTemplatesRb;
     return this;
   }
@@ -80,20 +91,20 @@ public class ComDayCqDamScene7ImplScene7FlashTemplatesServiceImplProperties   {
   /**
    * Get scene7FlashTemplatesRb
    * @return scene7FlashTemplatesRb
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getScene7FlashTemplatesRb() {
+   */
+  @Valid 
+  @Schema(name = "scene7FlashTemplates.rb", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("scene7FlashTemplates.rb")
+  public @Nullable ConfigNodePropertyString getScene7FlashTemplatesRb() {
     return scene7FlashTemplatesRb;
   }
 
-  public void setScene7FlashTemplatesRb(ConfigNodePropertyString scene7FlashTemplatesRb) {
+  @JsonProperty("scene7FlashTemplates.rb")
+  public void setScene7FlashTemplatesRb(@Nullable ConfigNodePropertyString scene7FlashTemplatesRb) {
     this.scene7FlashTemplatesRb = scene7FlashTemplatesRb;
   }
 
-  public ComDayCqDamScene7ImplScene7FlashTemplatesServiceImplProperties scene7FlashTemplatesRurl(ConfigNodePropertyString scene7FlashTemplatesRurl) {
+  public ComDayCqDamScene7ImplScene7FlashTemplatesServiceImplProperties scene7FlashTemplatesRurl(@Nullable ConfigNodePropertyString scene7FlashTemplatesRurl) {
     this.scene7FlashTemplatesRurl = scene7FlashTemplatesRurl;
     return this;
   }
@@ -101,20 +112,20 @@ public class ComDayCqDamScene7ImplScene7FlashTemplatesServiceImplProperties   {
   /**
    * Get scene7FlashTemplatesRurl
    * @return scene7FlashTemplatesRurl
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getScene7FlashTemplatesRurl() {
+   */
+  @Valid 
+  @Schema(name = "scene7FlashTemplates.rurl", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("scene7FlashTemplates.rurl")
+  public @Nullable ConfigNodePropertyString getScene7FlashTemplatesRurl() {
     return scene7FlashTemplatesRurl;
   }
 
-  public void setScene7FlashTemplatesRurl(ConfigNodePropertyString scene7FlashTemplatesRurl) {
+  @JsonProperty("scene7FlashTemplates.rurl")
+  public void setScene7FlashTemplatesRurl(@Nullable ConfigNodePropertyString scene7FlashTemplatesRurl) {
     this.scene7FlashTemplatesRurl = scene7FlashTemplatesRurl;
   }
 
-  public ComDayCqDamScene7ImplScene7FlashTemplatesServiceImplProperties scene7FlashTemplateUrlFormatParameter(ConfigNodePropertyString scene7FlashTemplateUrlFormatParameter) {
+  public ComDayCqDamScene7ImplScene7FlashTemplatesServiceImplProperties scene7FlashTemplateUrlFormatParameter(@Nullable ConfigNodePropertyString scene7FlashTemplateUrlFormatParameter) {
     this.scene7FlashTemplateUrlFormatParameter = scene7FlashTemplateUrlFormatParameter;
     return this;
   }
@@ -122,22 +133,21 @@ public class ComDayCqDamScene7ImplScene7FlashTemplatesServiceImplProperties   {
   /**
    * Get scene7FlashTemplateUrlFormatParameter
    * @return scene7FlashTemplateUrlFormatParameter
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getScene7FlashTemplateUrlFormatParameter() {
+   */
+  @Valid 
+  @Schema(name = "scene7FlashTemplate.urlFormatParameter", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("scene7FlashTemplate.urlFormatParameter")
+  public @Nullable ConfigNodePropertyString getScene7FlashTemplateUrlFormatParameter() {
     return scene7FlashTemplateUrlFormatParameter;
   }
 
-  public void setScene7FlashTemplateUrlFormatParameter(ConfigNodePropertyString scene7FlashTemplateUrlFormatParameter) {
+  @JsonProperty("scene7FlashTemplate.urlFormatParameter")
+  public void setScene7FlashTemplateUrlFormatParameter(@Nullable ConfigNodePropertyString scene7FlashTemplateUrlFormatParameter) {
     this.scene7FlashTemplateUrlFormatParameter = scene7FlashTemplateUrlFormatParameter;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -161,7 +171,6 @@ public class ComDayCqDamScene7ImplScene7FlashTemplatesServiceImplProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComDayCqDamScene7ImplScene7FlashTemplatesServiceImplProperties {\n");
-    
     sb.append("    scene7FlashTemplatesRti: ").append(toIndentedString(scene7FlashTemplatesRti)).append("\n");
     sb.append("    scene7FlashTemplatesRsi: ").append(toIndentedString(scene7FlashTemplatesRsi)).append("\n");
     sb.append("    scene7FlashTemplatesRb: ").append(toIndentedString(scene7FlashTemplatesRb)).append("\n");
@@ -175,11 +184,8 @@ public class ComDayCqDamScene7ImplScene7FlashTemplatesServiceImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

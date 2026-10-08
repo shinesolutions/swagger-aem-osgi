@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqSocialReviewClientEndpointsImplReviewOpe
 
 @Canonical
 class ComAdobeCqSocialReviewClientEndpointsImplReviewOperationsServiInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqSocialReviewClientEndpointsImplReviewOperationsServiProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqSocialReviewClientEndpointsImplReviewOperationsServiProperties properties
 }

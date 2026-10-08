@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyBoolean;
 
 @Canonical
 class ComDayCqDamCoreImplAssethomeAssetHomePageConfigurationProperties {
-    ConfigNodePropertyBoolean isEnabled = null
-
+    
+    ConfigNodePropertyBoolean isEnabled
 }

@@ -8,10 +8,10 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class ComAdobeGraniteQueriesImplHcLargeIndexHealthCheckProperties {
-    ConfigNodePropertyInteger largeIndexCriticalThreshold = null
-
-    ConfigNodePropertyInteger largeIndexWarnThreshold = null
-
-    ConfigNodePropertyArray hcTags = null
-
+    
+    ConfigNodePropertyInteger largeIndexCriticalThreshold
+    
+    ConfigNodePropertyInteger largeIndexWarnThreshold
+    
+    ConfigNodePropertyArray hcTags
 }

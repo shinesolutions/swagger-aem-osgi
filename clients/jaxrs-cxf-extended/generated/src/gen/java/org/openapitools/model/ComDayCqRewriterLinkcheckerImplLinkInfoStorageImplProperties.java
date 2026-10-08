@@ -1,0 +1,109 @@
+package org.openapitools.model;
+
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.model.ConfigNodePropertyBoolean;
+import org.openapitools.model.ConfigNodePropertyInteger;
+import javax.validation.constraints.*;
+import javax.validation.Valid;
+
+import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.annotation.JsonProperty;
+
+
+public class ComDayCqRewriterLinkcheckerImplLinkInfoStorageImplProperties  {
+  
+  @ApiModelProperty(value = "")
+  @Valid
+  private ConfigNodePropertyInteger serviceMaxLinksPerHost;
+
+  @ApiModelProperty(value = "")
+  @Valid
+  private ConfigNodePropertyBoolean serviceSaveExternalLinkReferences;
+ /**
+  * Get serviceMaxLinksPerHost
+  * @return serviceMaxLinksPerHost
+  */
+  @JsonProperty("service.max_links_per_host")
+  public ConfigNodePropertyInteger getServiceMaxLinksPerHost() {
+    return serviceMaxLinksPerHost;
+  }
+
+  /**
+   * Sets the <code>serviceMaxLinksPerHost</code> property.
+   */
+ public void setServiceMaxLinksPerHost(ConfigNodePropertyInteger serviceMaxLinksPerHost) {
+    this.serviceMaxLinksPerHost = serviceMaxLinksPerHost;
+  }
+
+  /**
+   * Sets the <code>serviceMaxLinksPerHost</code> property.
+   */
+  public ComDayCqRewriterLinkcheckerImplLinkInfoStorageImplProperties serviceMaxLinksPerHost(ConfigNodePropertyInteger serviceMaxLinksPerHost) {
+    this.serviceMaxLinksPerHost = serviceMaxLinksPerHost;
+    return this;
+  }
+
+ /**
+  * Get serviceSaveExternalLinkReferences
+  * @return serviceSaveExternalLinkReferences
+  */
+  @JsonProperty("service.save_external_link_references")
+  public ConfigNodePropertyBoolean getServiceSaveExternalLinkReferences() {
+    return serviceSaveExternalLinkReferences;
+  }
+
+  /**
+   * Sets the <code>serviceSaveExternalLinkReferences</code> property.
+   */
+ public void setServiceSaveExternalLinkReferences(ConfigNodePropertyBoolean serviceSaveExternalLinkReferences) {
+    this.serviceSaveExternalLinkReferences = serviceSaveExternalLinkReferences;
+  }
+
+  /**
+   * Sets the <code>serviceSaveExternalLinkReferences</code> property.
+   */
+  public ComDayCqRewriterLinkcheckerImplLinkInfoStorageImplProperties serviceSaveExternalLinkReferences(ConfigNodePropertyBoolean serviceSaveExternalLinkReferences) {
+    this.serviceSaveExternalLinkReferences = serviceSaveExternalLinkReferences;
+    return this;
+  }
+
+
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    ComDayCqRewriterLinkcheckerImplLinkInfoStorageImplProperties comDayCqRewriterLinkcheckerImplLinkInfoStorageImplProperties = (ComDayCqRewriterLinkcheckerImplLinkInfoStorageImplProperties) o;
+    return Objects.equals(this.serviceMaxLinksPerHost, comDayCqRewriterLinkcheckerImplLinkInfoStorageImplProperties.serviceMaxLinksPerHost) &&
+        Objects.equals(this.serviceSaveExternalLinkReferences, comDayCqRewriterLinkcheckerImplLinkInfoStorageImplProperties.serviceSaveExternalLinkReferences);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(serviceMaxLinksPerHost, serviceSaveExternalLinkReferences);
+  }
+
+  @Override
+  public String toString() {
+    StringBuilder sb = new StringBuilder();
+    sb.append("class ComDayCqRewriterLinkcheckerImplLinkInfoStorageImplProperties {\n");
+    
+    sb.append("    serviceMaxLinksPerHost: ").append(toIndentedString(serviceMaxLinksPerHost)).append("\n");
+    sb.append("    serviceSaveExternalLinkReferences: ").append(toIndentedString(serviceSaveExternalLinkReferences)).append("\n");
+    sb.append("}");
+    return sb.toString();
+  }
+
+  /**
+   * Convert the given object to string with each line indented by 4 spaces
+   * (except the first line).
+   */
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
+  }
+}
+

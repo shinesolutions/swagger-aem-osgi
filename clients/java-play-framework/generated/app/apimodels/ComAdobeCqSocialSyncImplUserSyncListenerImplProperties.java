@@ -2,32 +2,43 @@ package apimodels;
 
 import apimodels.ConfigNodePropertyArray;
 import apimodels.ConfigNodePropertyBoolean;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * ComAdobeCqSocialSyncImplUserSyncListenerImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class ComAdobeCqSocialSyncImplUserSyncListenerImplProperties   {
   @JsonProperty("nodetypes")
-  private ConfigNodePropertyArray nodetypes = null;
+  @Valid
+
+  private ConfigNodePropertyArray nodetypes;
 
   @JsonProperty("ignorableprops")
-  private ConfigNodePropertyArray ignorableprops = null;
+  @Valid
+
+  private ConfigNodePropertyArray ignorableprops;
 
   @JsonProperty("ignorablenodes")
-  private ConfigNodePropertyArray ignorablenodes = null;
+  @Valid
+
+  private ConfigNodePropertyArray ignorablenodes;
 
   @JsonProperty("enabled")
-  private ConfigNodePropertyBoolean enabled = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean enabled;
 
   @JsonProperty("distfolders")
-  private ConfigNodePropertyArray distfolders = null;
+  @Valid
+
+  private ConfigNodePropertyArray distfolders;
 
   public ComAdobeCqSocialSyncImplUserSyncListenerImplProperties nodetypes(ConfigNodePropertyArray nodetypes) {
     this.nodetypes = nodetypes;
@@ -38,7 +49,6 @@ public class ComAdobeCqSocialSyncImplUserSyncListenerImplProperties   {
    * Get nodetypes
    * @return nodetypes
   **/
-  @Valid
   public ConfigNodePropertyArray getNodetypes() {
     return nodetypes;
   }
@@ -56,7 +66,6 @@ public class ComAdobeCqSocialSyncImplUserSyncListenerImplProperties   {
    * Get ignorableprops
    * @return ignorableprops
   **/
-  @Valid
   public ConfigNodePropertyArray getIgnorableprops() {
     return ignorableprops;
   }
@@ -74,7 +83,6 @@ public class ComAdobeCqSocialSyncImplUserSyncListenerImplProperties   {
    * Get ignorablenodes
    * @return ignorablenodes
   **/
-  @Valid
   public ConfigNodePropertyArray getIgnorablenodes() {
     return ignorablenodes;
   }
@@ -92,7 +100,6 @@ public class ComAdobeCqSocialSyncImplUserSyncListenerImplProperties   {
    * Get enabled
    * @return enabled
   **/
-  @Valid
   public ConfigNodePropertyBoolean getEnabled() {
     return enabled;
   }
@@ -110,7 +117,6 @@ public class ComAdobeCqSocialSyncImplUserSyncListenerImplProperties   {
    * Get distfolders
    * @return distfolders
   **/
-  @Valid
   public ConfigNodePropertyArray getDistfolders() {
     return distfolders;
   }
@@ -121,7 +127,7 @@ public class ComAdobeCqSocialSyncImplUserSyncListenerImplProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -160,11 +166,8 @@ public class ComAdobeCqSocialSyncImplUserSyncListenerImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

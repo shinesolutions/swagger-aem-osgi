@@ -7,16 +7,16 @@ import org.openapitools.model.ComAdobeGraniteMaintenanceCrxImplDataStoreGarbageC
 
 @Canonical
 class ComAdobeGraniteMaintenanceCrxImplDataStoreGarbageCollectionTaskInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteMaintenanceCrxImplDataStoreGarbageCollectionTaskProperties properties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteMaintenanceCrxImplDataStoreGarbageCollectionTaskProperties properties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

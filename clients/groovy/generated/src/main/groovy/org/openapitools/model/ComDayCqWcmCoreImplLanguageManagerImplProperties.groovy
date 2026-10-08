@@ -8,8 +8,8 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqWcmCoreImplLanguageManagerImplProperties {
-    ConfigNodePropertyString langmgrListPath = null
-
-    ConfigNodePropertyArray langmgrCountryDefault = null
-
+    
+    ConfigNodePropertyString langmgrListPath
+    
+    ConfigNodePropertyArray langmgrCountryDefault
 }

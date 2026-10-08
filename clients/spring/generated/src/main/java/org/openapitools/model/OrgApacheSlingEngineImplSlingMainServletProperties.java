@@ -1,45 +1,56 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * OrgApacheSlingEngineImplSlingMainServletProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class OrgApacheSlingEngineImplSlingMainServletProperties   {
-  @JsonProperty("sling.max.calls")
-  private ConfigNodePropertyInteger slingMaxCalls = null;
+@JsonTypeName("orgApacheSlingEngineImplSlingMainServletProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class OrgApacheSlingEngineImplSlingMainServletProperties {
 
-  @JsonProperty("sling.max.inclusions")
-  private ConfigNodePropertyInteger slingMaxInclusions = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger slingMaxCalls;
 
-  @JsonProperty("sling.trace.allow")
-  private ConfigNodePropertyBoolean slingTraceAllow = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger slingMaxInclusions;
 
-  @JsonProperty("sling.max.record.requests")
-  private ConfigNodePropertyInteger slingMaxRecordRequests = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean slingTraceAllow;
 
-  @JsonProperty("sling.store.pattern.requests")
-  private ConfigNodePropertyArray slingStorePatternRequests = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger slingMaxRecordRequests;
 
-  @JsonProperty("sling.serverinfo")
-  private ConfigNodePropertyString slingServerinfo = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray slingStorePatternRequests;
 
-  @JsonProperty("sling.additional.response.headers")
-  private ConfigNodePropertyArray slingAdditionalResponseHeaders = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString slingServerinfo;
 
-  public OrgApacheSlingEngineImplSlingMainServletProperties slingMaxCalls(ConfigNodePropertyInteger slingMaxCalls) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray slingAdditionalResponseHeaders;
+
+  public OrgApacheSlingEngineImplSlingMainServletProperties slingMaxCalls(@Nullable ConfigNodePropertyInteger slingMaxCalls) {
     this.slingMaxCalls = slingMaxCalls;
     return this;
   }
@@ -47,20 +58,20 @@ public class OrgApacheSlingEngineImplSlingMainServletProperties   {
   /**
    * Get slingMaxCalls
    * @return slingMaxCalls
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getSlingMaxCalls() {
+   */
+  @Valid 
+  @Schema(name = "sling.max.calls", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("sling.max.calls")
+  public @Nullable ConfigNodePropertyInteger getSlingMaxCalls() {
     return slingMaxCalls;
   }
 
-  public void setSlingMaxCalls(ConfigNodePropertyInteger slingMaxCalls) {
+  @JsonProperty("sling.max.calls")
+  public void setSlingMaxCalls(@Nullable ConfigNodePropertyInteger slingMaxCalls) {
     this.slingMaxCalls = slingMaxCalls;
   }
 
-  public OrgApacheSlingEngineImplSlingMainServletProperties slingMaxInclusions(ConfigNodePropertyInteger slingMaxInclusions) {
+  public OrgApacheSlingEngineImplSlingMainServletProperties slingMaxInclusions(@Nullable ConfigNodePropertyInteger slingMaxInclusions) {
     this.slingMaxInclusions = slingMaxInclusions;
     return this;
   }
@@ -68,20 +79,20 @@ public class OrgApacheSlingEngineImplSlingMainServletProperties   {
   /**
    * Get slingMaxInclusions
    * @return slingMaxInclusions
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getSlingMaxInclusions() {
+   */
+  @Valid 
+  @Schema(name = "sling.max.inclusions", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("sling.max.inclusions")
+  public @Nullable ConfigNodePropertyInteger getSlingMaxInclusions() {
     return slingMaxInclusions;
   }
 
-  public void setSlingMaxInclusions(ConfigNodePropertyInteger slingMaxInclusions) {
+  @JsonProperty("sling.max.inclusions")
+  public void setSlingMaxInclusions(@Nullable ConfigNodePropertyInteger slingMaxInclusions) {
     this.slingMaxInclusions = slingMaxInclusions;
   }
 
-  public OrgApacheSlingEngineImplSlingMainServletProperties slingTraceAllow(ConfigNodePropertyBoolean slingTraceAllow) {
+  public OrgApacheSlingEngineImplSlingMainServletProperties slingTraceAllow(@Nullable ConfigNodePropertyBoolean slingTraceAllow) {
     this.slingTraceAllow = slingTraceAllow;
     return this;
   }
@@ -89,20 +100,20 @@ public class OrgApacheSlingEngineImplSlingMainServletProperties   {
   /**
    * Get slingTraceAllow
    * @return slingTraceAllow
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getSlingTraceAllow() {
+   */
+  @Valid 
+  @Schema(name = "sling.trace.allow", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("sling.trace.allow")
+  public @Nullable ConfigNodePropertyBoolean getSlingTraceAllow() {
     return slingTraceAllow;
   }
 
-  public void setSlingTraceAllow(ConfigNodePropertyBoolean slingTraceAllow) {
+  @JsonProperty("sling.trace.allow")
+  public void setSlingTraceAllow(@Nullable ConfigNodePropertyBoolean slingTraceAllow) {
     this.slingTraceAllow = slingTraceAllow;
   }
 
-  public OrgApacheSlingEngineImplSlingMainServletProperties slingMaxRecordRequests(ConfigNodePropertyInteger slingMaxRecordRequests) {
+  public OrgApacheSlingEngineImplSlingMainServletProperties slingMaxRecordRequests(@Nullable ConfigNodePropertyInteger slingMaxRecordRequests) {
     this.slingMaxRecordRequests = slingMaxRecordRequests;
     return this;
   }
@@ -110,20 +121,20 @@ public class OrgApacheSlingEngineImplSlingMainServletProperties   {
   /**
    * Get slingMaxRecordRequests
    * @return slingMaxRecordRequests
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getSlingMaxRecordRequests() {
+   */
+  @Valid 
+  @Schema(name = "sling.max.record.requests", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("sling.max.record.requests")
+  public @Nullable ConfigNodePropertyInteger getSlingMaxRecordRequests() {
     return slingMaxRecordRequests;
   }
 
-  public void setSlingMaxRecordRequests(ConfigNodePropertyInteger slingMaxRecordRequests) {
+  @JsonProperty("sling.max.record.requests")
+  public void setSlingMaxRecordRequests(@Nullable ConfigNodePropertyInteger slingMaxRecordRequests) {
     this.slingMaxRecordRequests = slingMaxRecordRequests;
   }
 
-  public OrgApacheSlingEngineImplSlingMainServletProperties slingStorePatternRequests(ConfigNodePropertyArray slingStorePatternRequests) {
+  public OrgApacheSlingEngineImplSlingMainServletProperties slingStorePatternRequests(@Nullable ConfigNodePropertyArray slingStorePatternRequests) {
     this.slingStorePatternRequests = slingStorePatternRequests;
     return this;
   }
@@ -131,20 +142,20 @@ public class OrgApacheSlingEngineImplSlingMainServletProperties   {
   /**
    * Get slingStorePatternRequests
    * @return slingStorePatternRequests
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getSlingStorePatternRequests() {
+   */
+  @Valid 
+  @Schema(name = "sling.store.pattern.requests", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("sling.store.pattern.requests")
+  public @Nullable ConfigNodePropertyArray getSlingStorePatternRequests() {
     return slingStorePatternRequests;
   }
 
-  public void setSlingStorePatternRequests(ConfigNodePropertyArray slingStorePatternRequests) {
+  @JsonProperty("sling.store.pattern.requests")
+  public void setSlingStorePatternRequests(@Nullable ConfigNodePropertyArray slingStorePatternRequests) {
     this.slingStorePatternRequests = slingStorePatternRequests;
   }
 
-  public OrgApacheSlingEngineImplSlingMainServletProperties slingServerinfo(ConfigNodePropertyString slingServerinfo) {
+  public OrgApacheSlingEngineImplSlingMainServletProperties slingServerinfo(@Nullable ConfigNodePropertyString slingServerinfo) {
     this.slingServerinfo = slingServerinfo;
     return this;
   }
@@ -152,20 +163,20 @@ public class OrgApacheSlingEngineImplSlingMainServletProperties   {
   /**
    * Get slingServerinfo
    * @return slingServerinfo
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getSlingServerinfo() {
+   */
+  @Valid 
+  @Schema(name = "sling.serverinfo", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("sling.serverinfo")
+  public @Nullable ConfigNodePropertyString getSlingServerinfo() {
     return slingServerinfo;
   }
 
-  public void setSlingServerinfo(ConfigNodePropertyString slingServerinfo) {
+  @JsonProperty("sling.serverinfo")
+  public void setSlingServerinfo(@Nullable ConfigNodePropertyString slingServerinfo) {
     this.slingServerinfo = slingServerinfo;
   }
 
-  public OrgApacheSlingEngineImplSlingMainServletProperties slingAdditionalResponseHeaders(ConfigNodePropertyArray slingAdditionalResponseHeaders) {
+  public OrgApacheSlingEngineImplSlingMainServletProperties slingAdditionalResponseHeaders(@Nullable ConfigNodePropertyArray slingAdditionalResponseHeaders) {
     this.slingAdditionalResponseHeaders = slingAdditionalResponseHeaders;
     return this;
   }
@@ -173,22 +184,21 @@ public class OrgApacheSlingEngineImplSlingMainServletProperties   {
   /**
    * Get slingAdditionalResponseHeaders
    * @return slingAdditionalResponseHeaders
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getSlingAdditionalResponseHeaders() {
+   */
+  @Valid 
+  @Schema(name = "sling.additional.response.headers", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("sling.additional.response.headers")
+  public @Nullable ConfigNodePropertyArray getSlingAdditionalResponseHeaders() {
     return slingAdditionalResponseHeaders;
   }
 
-  public void setSlingAdditionalResponseHeaders(ConfigNodePropertyArray slingAdditionalResponseHeaders) {
+  @JsonProperty("sling.additional.response.headers")
+  public void setSlingAdditionalResponseHeaders(@Nullable ConfigNodePropertyArray slingAdditionalResponseHeaders) {
     this.slingAdditionalResponseHeaders = slingAdditionalResponseHeaders;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -214,7 +224,6 @@ public class OrgApacheSlingEngineImplSlingMainServletProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class OrgApacheSlingEngineImplSlingMainServletProperties {\n");
-    
     sb.append("    slingMaxCalls: ").append(toIndentedString(slingMaxCalls)).append("\n");
     sb.append("    slingMaxInclusions: ").append(toIndentedString(slingMaxInclusions)).append("\n");
     sb.append("    slingTraceAllow: ").append(toIndentedString(slingTraceAllow)).append("\n");
@@ -230,11 +239,8 @@ public class OrgApacheSlingEngineImplSlingMainServletProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

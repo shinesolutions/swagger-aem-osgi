@@ -1,7 +1,9 @@
 
+
 # ComDayCqWcmCoreImplVersionPurgeTaskProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **versionpurgePaths** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
@@ -9,6 +11,7 @@ Name | Type | Description | Notes
 **versionpurgeMaxVersions** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
 **versionpurgeMinVersions** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
 **versionpurgeMaxAgeDays** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
+
 
 
 

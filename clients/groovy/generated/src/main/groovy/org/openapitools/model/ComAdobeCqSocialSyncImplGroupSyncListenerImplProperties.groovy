@@ -9,14 +9,14 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeCqSocialSyncImplGroupSyncListenerImplProperties {
-    ConfigNodePropertyArray nodetypes = null
-
-    ConfigNodePropertyArray ignorableprops = null
-
-    ConfigNodePropertyString ignorablenodes = null
-
-    ConfigNodePropertyBoolean enabled = null
-
-    ConfigNodePropertyString distfolders = null
-
+    
+    ConfigNodePropertyArray nodetypes
+    
+    ConfigNodePropertyArray ignorableprops
+    
+    ConfigNodePropertyString ignorablenodes
+    
+    ConfigNodePropertyBoolean enabled
+    
+    ConfigNodePropertyString distfolders
 }

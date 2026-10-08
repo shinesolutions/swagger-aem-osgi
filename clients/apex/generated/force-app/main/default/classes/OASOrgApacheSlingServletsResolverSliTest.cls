@@ -72,10 +72,10 @@ private class OASOrgApacheSlingServletsResolverSliTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASOrgApacheSlingServletsResolverSli orgApacheSlingServletsResolverSlingServletResolverProperties = new OASOrgApacheSlingServletsResolverSli();
-        Map<String, String> propertyMappings = orgApacheSlingServletsResolverSlingServletResolverProperties.getPropertyMappings();
-        System.assertEquals('servletresolverServletRoot', propertyMappings.get('servletresolver.servletRoot'));
-        System.assertEquals('servletresolverCacheSize', propertyMappings.get('servletresolver.cacheSize'));
-        System.assertEquals('servletresolverPaths', propertyMappings.get('servletresolver.paths'));
-        System.assertEquals('servletresolverDefaultExtensions', propertyMappings.get('servletresolver.defaultExtensions'));
+        Map<String, String> x-property-mappings = orgApacheSlingServletsResolverSlingServletResolverProperties.getx-property-mappings();
+        System.assertEquals('servletresolverServletRoot', x-property-mappings.get('servletresolver.servletRoot'));
+        System.assertEquals('servletresolverCacheSize', x-property-mappings.get('servletresolver.cacheSize'));
+        System.assertEquals('servletresolverPaths', x-property-mappings.get('servletresolver.paths'));
+        System.assertEquals('servletresolverDefaultExtensions', x-property-mappings.get('servletresolver.defaultExtensions'));
     }
 }

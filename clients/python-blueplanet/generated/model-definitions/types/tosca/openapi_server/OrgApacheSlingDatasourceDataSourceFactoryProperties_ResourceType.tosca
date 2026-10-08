@@ -1,0 +1,180 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingDatasourceDataSourceFactoryProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingDatasourceDataSourceFactoryProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyDropDown = openapi_server.resourceTypes.ConfigNodePropertyDropDown
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  OrgApacheSlingDatasourceDataSourceFactoryProperties {
+    title = OrgApacheSlingDatasourceDataSourceFactoryProperties
+    description = OrgApacheSlingDatasourceDataSourceFactoryProperties
+    derivedFrom = Root
+    properties {
+        datasource_name {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        datasource_svc_prop_name {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        driver_class_name {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        url {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        username {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        password {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        default_auto_commit {
+          type = ConfigNodePropertyDropDown
+          description = ""
+          optional = false
+        }
+        default_read_only {
+          type = ConfigNodePropertyDropDown
+          description = ""
+          optional = false
+        }
+        default_transaction_isolation {
+          type = ConfigNodePropertyDropDown
+          description = ""
+          optional = false
+        }
+        default_catalog {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        max_active {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        max_idle {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        min_idle {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        initial_size {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        max_wait {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        max_age {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        test_on_borrow {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        test_on_return {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        test_while_idle {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        validation_query {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        validation_query_timeout {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        time_between_eviction_runs_millis {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        min_evictable_idle_time_millis {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        connection_properties {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        init_sql {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        jdbc_interceptors {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        validation_interval {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        log_validation_errors {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        datasource_svc_properties {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingDatasourceDataSourceFactoryProperties {
+    title = OrgApacheSlingDatasourceDataSourceFactoryProperties
+    description = OrgApacheSlingDatasourceDataSourceFactoryProperties
+    implements = openapi_server.resourceTypes.OrgApacheSlingDatasourceDataSourceFactoryProperties
+
+  }
+}

@@ -1,23 +1,34 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskProperties   {
-  
-  private @Valid ConfigNodePropertyBoolean purgeCompleted = null;
-  private @Valid ConfigNodePropertyInteger completedAge = null;
-  private @Valid ConfigNodePropertyBoolean purgeActive = null;
-  private @Valid ConfigNodePropertyInteger activeAge = null;
-  private @Valid ConfigNodePropertyInteger saveThreshold = null;
+  private ConfigNodePropertyBoolean purgeCompleted;
+  private ConfigNodePropertyInteger completedAge;
+  private ConfigNodePropertyBoolean purgeActive;
+  private ConfigNodePropertyInteger activeAge;
+  private ConfigNodePropertyInteger saveThreshold;
+
+  public ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskProperties() {
+  }
 
   /**
    **/
@@ -29,9 +40,11 @@ public class ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("purgeCompleted")
-  public ConfigNodePropertyBoolean getPurgeCompleted() {
+  @Valid public ConfigNodePropertyBoolean getPurgeCompleted() {
     return purgeCompleted;
   }
+
+  @JsonProperty("purgeCompleted")
   public void setPurgeCompleted(ConfigNodePropertyBoolean purgeCompleted) {
     this.purgeCompleted = purgeCompleted;
   }
@@ -46,9 +59,11 @@ public class ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("completedAge")
-  public ConfigNodePropertyInteger getCompletedAge() {
+  @Valid public ConfigNodePropertyInteger getCompletedAge() {
     return completedAge;
   }
+
+  @JsonProperty("completedAge")
   public void setCompletedAge(ConfigNodePropertyInteger completedAge) {
     this.completedAge = completedAge;
   }
@@ -63,9 +78,11 @@ public class ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("purgeActive")
-  public ConfigNodePropertyBoolean getPurgeActive() {
+  @Valid public ConfigNodePropertyBoolean getPurgeActive() {
     return purgeActive;
   }
+
+  @JsonProperty("purgeActive")
   public void setPurgeActive(ConfigNodePropertyBoolean purgeActive) {
     this.purgeActive = purgeActive;
   }
@@ -80,9 +97,11 @@ public class ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("activeAge")
-  public ConfigNodePropertyInteger getActiveAge() {
+  @Valid public ConfigNodePropertyInteger getActiveAge() {
     return activeAge;
   }
+
+  @JsonProperty("activeAge")
   public void setActiveAge(ConfigNodePropertyInteger activeAge) {
     this.activeAge = activeAge;
   }
@@ -97,16 +116,18 @@ public class ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("saveThreshold")
-  public ConfigNodePropertyInteger getSaveThreshold() {
+  @Valid public ConfigNodePropertyInteger getSaveThreshold() {
     return saveThreshold;
   }
+
+  @JsonProperty("saveThreshold")
   public void setSaveThreshold(ConfigNodePropertyInteger saveThreshold) {
     this.saveThreshold = saveThreshold;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -114,11 +135,11 @@ public class ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskPrope
       return false;
     }
     ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskProperties comAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskProperties = (ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskProperties) o;
-    return Objects.equals(purgeCompleted, comAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskProperties.purgeCompleted) &&
-        Objects.equals(completedAge, comAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskProperties.completedAge) &&
-        Objects.equals(purgeActive, comAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskProperties.purgeActive) &&
-        Objects.equals(activeAge, comAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskProperties.activeAge) &&
-        Objects.equals(saveThreshold, comAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskProperties.saveThreshold);
+    return Objects.equals(this.purgeCompleted, comAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskProperties.purgeCompleted) &&
+        Objects.equals(this.completedAge, comAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskProperties.completedAge) &&
+        Objects.equals(this.purgeActive, comAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskProperties.purgeActive) &&
+        Objects.equals(this.activeAge, comAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskProperties.activeAge) &&
+        Objects.equals(this.saveThreshold, comAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskProperties.saveThreshold);
   }
 
   @Override
@@ -144,11 +165,9 @@ public class ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskPrope
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

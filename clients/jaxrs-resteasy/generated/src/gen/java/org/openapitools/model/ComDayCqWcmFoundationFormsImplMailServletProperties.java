@@ -4,25 +4,29 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2019-08-05T00:59:30.156Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2026-10-07T12:54:21.614735164Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqWcmFoundationFormsImplMailServletProperties   {
   
-  private ConfigNodePropertyString slingServletResourceTypes = null;
-  private ConfigNodePropertyString slingServletSelectors = null;
-  private ConfigNodePropertyArray resourceWhitelist = null;
-  private ConfigNodePropertyString resourceBlacklist = null;
+  private ConfigNodePropertyString slingServletResourceTypes;
+  private ConfigNodePropertyString slingServletSelectors;
+  private ConfigNodePropertyArray resourceWhitelist;
+  private ConfigNodePropertyString resourceBlacklist;
 
   /**
    **/
   
   @ApiModelProperty(value = "")
   @JsonProperty("sling.servlet.resourceTypes")
+  @Valid
   public ConfigNodePropertyString getSlingServletResourceTypes() {
     return slingServletResourceTypes;
   }
@@ -35,6 +39,7 @@ public class ComDayCqWcmFoundationFormsImplMailServletProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("sling.servlet.selectors")
+  @Valid
   public ConfigNodePropertyString getSlingServletSelectors() {
     return slingServletSelectors;
   }
@@ -47,6 +52,7 @@ public class ComDayCqWcmFoundationFormsImplMailServletProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("resource.whitelist")
+  @Valid
   public ConfigNodePropertyArray getResourceWhitelist() {
     return resourceWhitelist;
   }
@@ -59,6 +65,7 @@ public class ComDayCqWcmFoundationFormsImplMailServletProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("resource.blacklist")
+  @Valid
   public ConfigNodePropertyString getResourceBlacklist() {
     return resourceBlacklist;
   }
@@ -68,7 +75,7 @@ public class ComDayCqWcmFoundationFormsImplMailServletProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -76,10 +83,10 @@ public class ComDayCqWcmFoundationFormsImplMailServletProperties   {
       return false;
     }
     ComDayCqWcmFoundationFormsImplMailServletProperties comDayCqWcmFoundationFormsImplMailServletProperties = (ComDayCqWcmFoundationFormsImplMailServletProperties) o;
-    return Objects.equals(slingServletResourceTypes, comDayCqWcmFoundationFormsImplMailServletProperties.slingServletResourceTypes) &&
-        Objects.equals(slingServletSelectors, comDayCqWcmFoundationFormsImplMailServletProperties.slingServletSelectors) &&
-        Objects.equals(resourceWhitelist, comDayCqWcmFoundationFormsImplMailServletProperties.resourceWhitelist) &&
-        Objects.equals(resourceBlacklist, comDayCqWcmFoundationFormsImplMailServletProperties.resourceBlacklist);
+    return Objects.equals(this.slingServletResourceTypes, comDayCqWcmFoundationFormsImplMailServletProperties.slingServletResourceTypes) &&
+        Objects.equals(this.slingServletSelectors, comDayCqWcmFoundationFormsImplMailServletProperties.slingServletSelectors) &&
+        Objects.equals(this.resourceWhitelist, comDayCqWcmFoundationFormsImplMailServletProperties.resourceWhitelist) &&
+        Objects.equals(this.resourceBlacklist, comDayCqWcmFoundationFormsImplMailServletProperties.resourceBlacklist);
   }
 
   @Override
@@ -104,11 +111,8 @@ public class ComDayCqWcmFoundationFormsImplMailServletProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

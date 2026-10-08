@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeGraniteOauthServerImplOAuth2TokenRevocatio
 
 @Canonical
 class ComAdobeGraniteOauthServerImplOAuth2TokenRevocationServletInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteOauthServerImplOAuth2TokenRevocationServletProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteOauthServerImplOAuth2TokenRevocationServletProperties properties
 }

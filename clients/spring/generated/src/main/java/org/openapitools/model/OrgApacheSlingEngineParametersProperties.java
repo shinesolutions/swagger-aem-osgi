@@ -1,44 +1,55 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * OrgApacheSlingEngineParametersProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class OrgApacheSlingEngineParametersProperties   {
-  @JsonProperty("sling.default.parameter.encoding")
-  private ConfigNodePropertyString slingDefaultParameterEncoding = null;
+@JsonTypeName("orgApacheSlingEngineParametersProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class OrgApacheSlingEngineParametersProperties {
 
-  @JsonProperty("sling.default.max.parameters")
-  private ConfigNodePropertyInteger slingDefaultMaxParameters = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString slingDefaultParameterEncoding;
 
-  @JsonProperty("file.location")
-  private ConfigNodePropertyString fileLocation = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger slingDefaultMaxParameters;
 
-  @JsonProperty("file.threshold")
-  private ConfigNodePropertyInteger fileThreshold = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString fileLocation;
 
-  @JsonProperty("file.max")
-  private ConfigNodePropertyInteger fileMax = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger fileThreshold;
 
-  @JsonProperty("request.max")
-  private ConfigNodePropertyInteger requestMax = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger fileMax;
 
-  @JsonProperty("sling.default.parameter.checkForAdditionalContainerParameters")
-  private ConfigNodePropertyBoolean slingDefaultParameterCheckForAdditionalContainerParameters = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger requestMax;
 
-  public OrgApacheSlingEngineParametersProperties slingDefaultParameterEncoding(ConfigNodePropertyString slingDefaultParameterEncoding) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean slingDefaultParameterCheckForAdditionalContainerParameters;
+
+  public OrgApacheSlingEngineParametersProperties slingDefaultParameterEncoding(@Nullable ConfigNodePropertyString slingDefaultParameterEncoding) {
     this.slingDefaultParameterEncoding = slingDefaultParameterEncoding;
     return this;
   }
@@ -46,20 +57,20 @@ public class OrgApacheSlingEngineParametersProperties   {
   /**
    * Get slingDefaultParameterEncoding
    * @return slingDefaultParameterEncoding
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getSlingDefaultParameterEncoding() {
+   */
+  @Valid 
+  @Schema(name = "sling.default.parameter.encoding", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("sling.default.parameter.encoding")
+  public @Nullable ConfigNodePropertyString getSlingDefaultParameterEncoding() {
     return slingDefaultParameterEncoding;
   }
 
-  public void setSlingDefaultParameterEncoding(ConfigNodePropertyString slingDefaultParameterEncoding) {
+  @JsonProperty("sling.default.parameter.encoding")
+  public void setSlingDefaultParameterEncoding(@Nullable ConfigNodePropertyString slingDefaultParameterEncoding) {
     this.slingDefaultParameterEncoding = slingDefaultParameterEncoding;
   }
 
-  public OrgApacheSlingEngineParametersProperties slingDefaultMaxParameters(ConfigNodePropertyInteger slingDefaultMaxParameters) {
+  public OrgApacheSlingEngineParametersProperties slingDefaultMaxParameters(@Nullable ConfigNodePropertyInteger slingDefaultMaxParameters) {
     this.slingDefaultMaxParameters = slingDefaultMaxParameters;
     return this;
   }
@@ -67,20 +78,20 @@ public class OrgApacheSlingEngineParametersProperties   {
   /**
    * Get slingDefaultMaxParameters
    * @return slingDefaultMaxParameters
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getSlingDefaultMaxParameters() {
+   */
+  @Valid 
+  @Schema(name = "sling.default.max.parameters", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("sling.default.max.parameters")
+  public @Nullable ConfigNodePropertyInteger getSlingDefaultMaxParameters() {
     return slingDefaultMaxParameters;
   }
 
-  public void setSlingDefaultMaxParameters(ConfigNodePropertyInteger slingDefaultMaxParameters) {
+  @JsonProperty("sling.default.max.parameters")
+  public void setSlingDefaultMaxParameters(@Nullable ConfigNodePropertyInteger slingDefaultMaxParameters) {
     this.slingDefaultMaxParameters = slingDefaultMaxParameters;
   }
 
-  public OrgApacheSlingEngineParametersProperties fileLocation(ConfigNodePropertyString fileLocation) {
+  public OrgApacheSlingEngineParametersProperties fileLocation(@Nullable ConfigNodePropertyString fileLocation) {
     this.fileLocation = fileLocation;
     return this;
   }
@@ -88,20 +99,20 @@ public class OrgApacheSlingEngineParametersProperties   {
   /**
    * Get fileLocation
    * @return fileLocation
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getFileLocation() {
+   */
+  @Valid 
+  @Schema(name = "file.location", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("file.location")
+  public @Nullable ConfigNodePropertyString getFileLocation() {
     return fileLocation;
   }
 
-  public void setFileLocation(ConfigNodePropertyString fileLocation) {
+  @JsonProperty("file.location")
+  public void setFileLocation(@Nullable ConfigNodePropertyString fileLocation) {
     this.fileLocation = fileLocation;
   }
 
-  public OrgApacheSlingEngineParametersProperties fileThreshold(ConfigNodePropertyInteger fileThreshold) {
+  public OrgApacheSlingEngineParametersProperties fileThreshold(@Nullable ConfigNodePropertyInteger fileThreshold) {
     this.fileThreshold = fileThreshold;
     return this;
   }
@@ -109,20 +120,20 @@ public class OrgApacheSlingEngineParametersProperties   {
   /**
    * Get fileThreshold
    * @return fileThreshold
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getFileThreshold() {
+   */
+  @Valid 
+  @Schema(name = "file.threshold", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("file.threshold")
+  public @Nullable ConfigNodePropertyInteger getFileThreshold() {
     return fileThreshold;
   }
 
-  public void setFileThreshold(ConfigNodePropertyInteger fileThreshold) {
+  @JsonProperty("file.threshold")
+  public void setFileThreshold(@Nullable ConfigNodePropertyInteger fileThreshold) {
     this.fileThreshold = fileThreshold;
   }
 
-  public OrgApacheSlingEngineParametersProperties fileMax(ConfigNodePropertyInteger fileMax) {
+  public OrgApacheSlingEngineParametersProperties fileMax(@Nullable ConfigNodePropertyInteger fileMax) {
     this.fileMax = fileMax;
     return this;
   }
@@ -130,20 +141,20 @@ public class OrgApacheSlingEngineParametersProperties   {
   /**
    * Get fileMax
    * @return fileMax
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getFileMax() {
+   */
+  @Valid 
+  @Schema(name = "file.max", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("file.max")
+  public @Nullable ConfigNodePropertyInteger getFileMax() {
     return fileMax;
   }
 
-  public void setFileMax(ConfigNodePropertyInteger fileMax) {
+  @JsonProperty("file.max")
+  public void setFileMax(@Nullable ConfigNodePropertyInteger fileMax) {
     this.fileMax = fileMax;
   }
 
-  public OrgApacheSlingEngineParametersProperties requestMax(ConfigNodePropertyInteger requestMax) {
+  public OrgApacheSlingEngineParametersProperties requestMax(@Nullable ConfigNodePropertyInteger requestMax) {
     this.requestMax = requestMax;
     return this;
   }
@@ -151,20 +162,20 @@ public class OrgApacheSlingEngineParametersProperties   {
   /**
    * Get requestMax
    * @return requestMax
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getRequestMax() {
+   */
+  @Valid 
+  @Schema(name = "request.max", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("request.max")
+  public @Nullable ConfigNodePropertyInteger getRequestMax() {
     return requestMax;
   }
 
-  public void setRequestMax(ConfigNodePropertyInteger requestMax) {
+  @JsonProperty("request.max")
+  public void setRequestMax(@Nullable ConfigNodePropertyInteger requestMax) {
     this.requestMax = requestMax;
   }
 
-  public OrgApacheSlingEngineParametersProperties slingDefaultParameterCheckForAdditionalContainerParameters(ConfigNodePropertyBoolean slingDefaultParameterCheckForAdditionalContainerParameters) {
+  public OrgApacheSlingEngineParametersProperties slingDefaultParameterCheckForAdditionalContainerParameters(@Nullable ConfigNodePropertyBoolean slingDefaultParameterCheckForAdditionalContainerParameters) {
     this.slingDefaultParameterCheckForAdditionalContainerParameters = slingDefaultParameterCheckForAdditionalContainerParameters;
     return this;
   }
@@ -172,22 +183,21 @@ public class OrgApacheSlingEngineParametersProperties   {
   /**
    * Get slingDefaultParameterCheckForAdditionalContainerParameters
    * @return slingDefaultParameterCheckForAdditionalContainerParameters
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getSlingDefaultParameterCheckForAdditionalContainerParameters() {
+   */
+  @Valid 
+  @Schema(name = "sling.default.parameter.checkForAdditionalContainerParameters", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("sling.default.parameter.checkForAdditionalContainerParameters")
+  public @Nullable ConfigNodePropertyBoolean getSlingDefaultParameterCheckForAdditionalContainerParameters() {
     return slingDefaultParameterCheckForAdditionalContainerParameters;
   }
 
-  public void setSlingDefaultParameterCheckForAdditionalContainerParameters(ConfigNodePropertyBoolean slingDefaultParameterCheckForAdditionalContainerParameters) {
+  @JsonProperty("sling.default.parameter.checkForAdditionalContainerParameters")
+  public void setSlingDefaultParameterCheckForAdditionalContainerParameters(@Nullable ConfigNodePropertyBoolean slingDefaultParameterCheckForAdditionalContainerParameters) {
     this.slingDefaultParameterCheckForAdditionalContainerParameters = slingDefaultParameterCheckForAdditionalContainerParameters;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -213,7 +223,6 @@ public class OrgApacheSlingEngineParametersProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class OrgApacheSlingEngineParametersProperties {\n");
-    
     sb.append("    slingDefaultParameterEncoding: ").append(toIndentedString(slingDefaultParameterEncoding)).append("\n");
     sb.append("    slingDefaultMaxParameters: ").append(toIndentedString(slingDefaultMaxParameters)).append("\n");
     sb.append("    fileLocation: ").append(toIndentedString(fileLocation)).append("\n");
@@ -229,11 +238,8 @@ public class OrgApacheSlingEngineParametersProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

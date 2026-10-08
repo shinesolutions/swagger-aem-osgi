@@ -1,0 +1,16 @@
+package models
+
+type ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorProperties struct {
+
+	CqContentsyncPathrewritertransformerMappingLinks ConfigNodePropertyArray `json:"cq.contentsync.pathrewritertransformer.mapping.links,omitempty"`
+
+	CqContentsyncPathrewritertransformerMappingClientlibs ConfigNodePropertyArray `json:"cq.contentsync.pathrewritertransformer.mapping.clientlibs,omitempty"`
+
+	CqContentsyncPathrewritertransformerMappingImages ConfigNodePropertyArray `json:"cq.contentsync.pathrewritertransformer.mapping.images,omitempty"`
+
+	CqContentsyncPathrewritertransformerAttributePattern ConfigNodePropertyString `json:"cq.contentsync.pathrewritertransformer.attribute.pattern,omitempty"`
+
+	CqContentsyncPathrewritertransformerClientlibraryPattern ConfigNodePropertyString `json:"cq.contentsync.pathrewritertransformer.clientlibrary.pattern,omitempty"`
+
+	CqContentsyncPathrewritertransformerClientlibraryReplace ConfigNodePropertyString `json:"cq.contentsync.pathrewritertransformer.clientlibrary.replace,omitempty"`
+}

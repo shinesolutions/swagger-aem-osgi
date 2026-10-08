@@ -1,35 +1,46 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourProperties   {
-  @JsonProperty("enabled")
-  private ConfigNodePropertyBoolean enabled = null;
+@JsonTypeName("orgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourProperties {
 
-  @JsonProperty("configPath")
-  private ConfigNodePropertyString configPath = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean enabled;
 
-  @JsonProperty("fallbackPaths")
-  private ConfigNodePropertyArray fallbackPaths = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString configPath;
 
-  @JsonProperty("configCollectionInheritancePropertyNames")
-  private ConfigNodePropertyArray configCollectionInheritancePropertyNames = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray fallbackPaths;
 
-  public OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourProperties enabled(ConfigNodePropertyBoolean enabled) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray configCollectionInheritancePropertyNames;
+
+  public OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourProperties enabled(@Nullable ConfigNodePropertyBoolean enabled) {
     this.enabled = enabled;
     return this;
   }
@@ -37,20 +48,20 @@ public class OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourProp
   /**
    * Get enabled
    * @return enabled
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getEnabled() {
+   */
+  @Valid 
+  @Schema(name = "enabled", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("enabled")
+  public @Nullable ConfigNodePropertyBoolean getEnabled() {
     return enabled;
   }
 
-  public void setEnabled(ConfigNodePropertyBoolean enabled) {
+  @JsonProperty("enabled")
+  public void setEnabled(@Nullable ConfigNodePropertyBoolean enabled) {
     this.enabled = enabled;
   }
 
-  public OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourProperties configPath(ConfigNodePropertyString configPath) {
+  public OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourProperties configPath(@Nullable ConfigNodePropertyString configPath) {
     this.configPath = configPath;
     return this;
   }
@@ -58,20 +69,20 @@ public class OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourProp
   /**
    * Get configPath
    * @return configPath
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getConfigPath() {
+   */
+  @Valid 
+  @Schema(name = "configPath", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("configPath")
+  public @Nullable ConfigNodePropertyString getConfigPath() {
     return configPath;
   }
 
-  public void setConfigPath(ConfigNodePropertyString configPath) {
+  @JsonProperty("configPath")
+  public void setConfigPath(@Nullable ConfigNodePropertyString configPath) {
     this.configPath = configPath;
   }
 
-  public OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourProperties fallbackPaths(ConfigNodePropertyArray fallbackPaths) {
+  public OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourProperties fallbackPaths(@Nullable ConfigNodePropertyArray fallbackPaths) {
     this.fallbackPaths = fallbackPaths;
     return this;
   }
@@ -79,20 +90,20 @@ public class OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourProp
   /**
    * Get fallbackPaths
    * @return fallbackPaths
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getFallbackPaths() {
+   */
+  @Valid 
+  @Schema(name = "fallbackPaths", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("fallbackPaths")
+  public @Nullable ConfigNodePropertyArray getFallbackPaths() {
     return fallbackPaths;
   }
 
-  public void setFallbackPaths(ConfigNodePropertyArray fallbackPaths) {
+  @JsonProperty("fallbackPaths")
+  public void setFallbackPaths(@Nullable ConfigNodePropertyArray fallbackPaths) {
     this.fallbackPaths = fallbackPaths;
   }
 
-  public OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourProperties configCollectionInheritancePropertyNames(ConfigNodePropertyArray configCollectionInheritancePropertyNames) {
+  public OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourProperties configCollectionInheritancePropertyNames(@Nullable ConfigNodePropertyArray configCollectionInheritancePropertyNames) {
     this.configCollectionInheritancePropertyNames = configCollectionInheritancePropertyNames;
     return this;
   }
@@ -100,22 +111,21 @@ public class OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourProp
   /**
    * Get configCollectionInheritancePropertyNames
    * @return configCollectionInheritancePropertyNames
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getConfigCollectionInheritancePropertyNames() {
+   */
+  @Valid 
+  @Schema(name = "configCollectionInheritancePropertyNames", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("configCollectionInheritancePropertyNames")
+  public @Nullable ConfigNodePropertyArray getConfigCollectionInheritancePropertyNames() {
     return configCollectionInheritancePropertyNames;
   }
 
-  public void setConfigCollectionInheritancePropertyNames(ConfigNodePropertyArray configCollectionInheritancePropertyNames) {
+  @JsonProperty("configCollectionInheritancePropertyNames")
+  public void setConfigCollectionInheritancePropertyNames(@Nullable ConfigNodePropertyArray configCollectionInheritancePropertyNames) {
     this.configCollectionInheritancePropertyNames = configCollectionInheritancePropertyNames;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -138,7 +148,6 @@ public class OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourProp
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourProperties {\n");
-    
     sb.append("    enabled: ").append(toIndentedString(enabled)).append("\n");
     sb.append("    configPath: ").append(toIndentedString(configPath)).append("\n");
     sb.append("    fallbackPaths: ").append(toIndentedString(fallbackPaths)).append("\n");
@@ -151,11 +160,8 @@ public class OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourProp
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

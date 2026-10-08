@@ -1,29 +1,40 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplProperties   {
-  
-  private @Valid ConfigNodePropertyString linkExpiredPrefix = null;
-  private @Valid ConfigNodePropertyBoolean linkExpiredRemove = null;
-  private @Valid ConfigNodePropertyString linkExpiredSuffix = null;
-  private @Valid ConfigNodePropertyString linkInvalidPrefix = null;
-  private @Valid ConfigNodePropertyBoolean linkInvalidRemove = null;
-  private @Valid ConfigNodePropertyString linkInvalidSuffix = null;
-  private @Valid ConfigNodePropertyString linkPredatedPrefix = null;
-  private @Valid ConfigNodePropertyBoolean linkPredatedRemove = null;
-  private @Valid ConfigNodePropertyString linkPredatedSuffix = null;
-  private @Valid ConfigNodePropertyArray linkWcmmodes = null;
+  private ConfigNodePropertyString linkExpiredPrefix;
+  private ConfigNodePropertyBoolean linkExpiredRemove;
+  private ConfigNodePropertyString linkExpiredSuffix;
+  private ConfigNodePropertyString linkInvalidPrefix;
+  private ConfigNodePropertyBoolean linkInvalidRemove;
+  private ConfigNodePropertyString linkInvalidSuffix;
+  private ConfigNodePropertyString linkPredatedPrefix;
+  private ConfigNodePropertyBoolean linkPredatedRemove;
+  private ConfigNodePropertyString linkPredatedSuffix;
+  private ConfigNodePropertyArray linkWcmmodes;
+
+  public ComDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplProperties() {
+  }
 
   /**
    **/
@@ -35,9 +46,11 @@ public class ComDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplProperties   
   
   @ApiModelProperty(value = "")
   @JsonProperty("link.expired.prefix")
-  public ConfigNodePropertyString getLinkExpiredPrefix() {
+  @Valid public ConfigNodePropertyString getLinkExpiredPrefix() {
     return linkExpiredPrefix;
   }
+
+  @JsonProperty("link.expired.prefix")
   public void setLinkExpiredPrefix(ConfigNodePropertyString linkExpiredPrefix) {
     this.linkExpiredPrefix = linkExpiredPrefix;
   }
@@ -52,9 +65,11 @@ public class ComDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplProperties   
   
   @ApiModelProperty(value = "")
   @JsonProperty("link.expired.remove")
-  public ConfigNodePropertyBoolean getLinkExpiredRemove() {
+  @Valid public ConfigNodePropertyBoolean getLinkExpiredRemove() {
     return linkExpiredRemove;
   }
+
+  @JsonProperty("link.expired.remove")
   public void setLinkExpiredRemove(ConfigNodePropertyBoolean linkExpiredRemove) {
     this.linkExpiredRemove = linkExpiredRemove;
   }
@@ -69,9 +84,11 @@ public class ComDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplProperties   
   
   @ApiModelProperty(value = "")
   @JsonProperty("link.expired.suffix")
-  public ConfigNodePropertyString getLinkExpiredSuffix() {
+  @Valid public ConfigNodePropertyString getLinkExpiredSuffix() {
     return linkExpiredSuffix;
   }
+
+  @JsonProperty("link.expired.suffix")
   public void setLinkExpiredSuffix(ConfigNodePropertyString linkExpiredSuffix) {
     this.linkExpiredSuffix = linkExpiredSuffix;
   }
@@ -86,9 +103,11 @@ public class ComDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplProperties   
   
   @ApiModelProperty(value = "")
   @JsonProperty("link.invalid.prefix")
-  public ConfigNodePropertyString getLinkInvalidPrefix() {
+  @Valid public ConfigNodePropertyString getLinkInvalidPrefix() {
     return linkInvalidPrefix;
   }
+
+  @JsonProperty("link.invalid.prefix")
   public void setLinkInvalidPrefix(ConfigNodePropertyString linkInvalidPrefix) {
     this.linkInvalidPrefix = linkInvalidPrefix;
   }
@@ -103,9 +122,11 @@ public class ComDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplProperties   
   
   @ApiModelProperty(value = "")
   @JsonProperty("link.invalid.remove")
-  public ConfigNodePropertyBoolean getLinkInvalidRemove() {
+  @Valid public ConfigNodePropertyBoolean getLinkInvalidRemove() {
     return linkInvalidRemove;
   }
+
+  @JsonProperty("link.invalid.remove")
   public void setLinkInvalidRemove(ConfigNodePropertyBoolean linkInvalidRemove) {
     this.linkInvalidRemove = linkInvalidRemove;
   }
@@ -120,9 +141,11 @@ public class ComDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplProperties   
   
   @ApiModelProperty(value = "")
   @JsonProperty("link.invalid.suffix")
-  public ConfigNodePropertyString getLinkInvalidSuffix() {
+  @Valid public ConfigNodePropertyString getLinkInvalidSuffix() {
     return linkInvalidSuffix;
   }
+
+  @JsonProperty("link.invalid.suffix")
   public void setLinkInvalidSuffix(ConfigNodePropertyString linkInvalidSuffix) {
     this.linkInvalidSuffix = linkInvalidSuffix;
   }
@@ -137,9 +160,11 @@ public class ComDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplProperties   
   
   @ApiModelProperty(value = "")
   @JsonProperty("link.predated.prefix")
-  public ConfigNodePropertyString getLinkPredatedPrefix() {
+  @Valid public ConfigNodePropertyString getLinkPredatedPrefix() {
     return linkPredatedPrefix;
   }
+
+  @JsonProperty("link.predated.prefix")
   public void setLinkPredatedPrefix(ConfigNodePropertyString linkPredatedPrefix) {
     this.linkPredatedPrefix = linkPredatedPrefix;
   }
@@ -154,9 +179,11 @@ public class ComDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplProperties   
   
   @ApiModelProperty(value = "")
   @JsonProperty("link.predated.remove")
-  public ConfigNodePropertyBoolean getLinkPredatedRemove() {
+  @Valid public ConfigNodePropertyBoolean getLinkPredatedRemove() {
     return linkPredatedRemove;
   }
+
+  @JsonProperty("link.predated.remove")
   public void setLinkPredatedRemove(ConfigNodePropertyBoolean linkPredatedRemove) {
     this.linkPredatedRemove = linkPredatedRemove;
   }
@@ -171,9 +198,11 @@ public class ComDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplProperties   
   
   @ApiModelProperty(value = "")
   @JsonProperty("link.predated.suffix")
-  public ConfigNodePropertyString getLinkPredatedSuffix() {
+  @Valid public ConfigNodePropertyString getLinkPredatedSuffix() {
     return linkPredatedSuffix;
   }
+
+  @JsonProperty("link.predated.suffix")
   public void setLinkPredatedSuffix(ConfigNodePropertyString linkPredatedSuffix) {
     this.linkPredatedSuffix = linkPredatedSuffix;
   }
@@ -188,16 +217,18 @@ public class ComDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplProperties   
   
   @ApiModelProperty(value = "")
   @JsonProperty("link.wcmmodes")
-  public ConfigNodePropertyArray getLinkWcmmodes() {
+  @Valid public ConfigNodePropertyArray getLinkWcmmodes() {
     return linkWcmmodes;
   }
+
+  @JsonProperty("link.wcmmodes")
   public void setLinkWcmmodes(ConfigNodePropertyArray linkWcmmodes) {
     this.linkWcmmodes = linkWcmmodes;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -205,16 +236,16 @@ public class ComDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplProperties   
       return false;
     }
     ComDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplProperties comDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplProperties = (ComDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplProperties) o;
-    return Objects.equals(linkExpiredPrefix, comDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplProperties.linkExpiredPrefix) &&
-        Objects.equals(linkExpiredRemove, comDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplProperties.linkExpiredRemove) &&
-        Objects.equals(linkExpiredSuffix, comDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplProperties.linkExpiredSuffix) &&
-        Objects.equals(linkInvalidPrefix, comDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplProperties.linkInvalidPrefix) &&
-        Objects.equals(linkInvalidRemove, comDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplProperties.linkInvalidRemove) &&
-        Objects.equals(linkInvalidSuffix, comDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplProperties.linkInvalidSuffix) &&
-        Objects.equals(linkPredatedPrefix, comDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplProperties.linkPredatedPrefix) &&
-        Objects.equals(linkPredatedRemove, comDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplProperties.linkPredatedRemove) &&
-        Objects.equals(linkPredatedSuffix, comDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplProperties.linkPredatedSuffix) &&
-        Objects.equals(linkWcmmodes, comDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplProperties.linkWcmmodes);
+    return Objects.equals(this.linkExpiredPrefix, comDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplProperties.linkExpiredPrefix) &&
+        Objects.equals(this.linkExpiredRemove, comDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplProperties.linkExpiredRemove) &&
+        Objects.equals(this.linkExpiredSuffix, comDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplProperties.linkExpiredSuffix) &&
+        Objects.equals(this.linkInvalidPrefix, comDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplProperties.linkInvalidPrefix) &&
+        Objects.equals(this.linkInvalidRemove, comDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplProperties.linkInvalidRemove) &&
+        Objects.equals(this.linkInvalidSuffix, comDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplProperties.linkInvalidSuffix) &&
+        Objects.equals(this.linkPredatedPrefix, comDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplProperties.linkPredatedPrefix) &&
+        Objects.equals(this.linkPredatedRemove, comDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplProperties.linkPredatedRemove) &&
+        Objects.equals(this.linkPredatedSuffix, comDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplProperties.linkPredatedSuffix) &&
+        Objects.equals(this.linkWcmmodes, comDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplProperties.linkWcmmodes);
   }
 
   @Override
@@ -245,11 +276,9 @@ public class ComDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplProperties   
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

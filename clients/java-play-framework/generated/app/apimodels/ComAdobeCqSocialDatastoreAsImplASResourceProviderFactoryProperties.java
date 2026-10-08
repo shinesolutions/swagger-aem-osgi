@@ -3,38 +3,53 @@ package apimodels;
 import apimodels.ConfigNodePropertyBoolean;
 import apimodels.ConfigNodePropertyInteger;
 import apimodels.ConfigNodePropertyString;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties   {
   @JsonProperty("version.id")
-  private ConfigNodePropertyString versionId = null;
+  @Valid
+
+  private ConfigNodePropertyString versionId;
 
   @JsonProperty("cache.on")
-  private ConfigNodePropertyBoolean cacheOn = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean cacheOn;
 
   @JsonProperty("concurrency.level")
-  private ConfigNodePropertyInteger concurrencyLevel = null;
+  @Valid
+
+  private ConfigNodePropertyInteger concurrencyLevel;
 
   @JsonProperty("cache.start.size")
-  private ConfigNodePropertyInteger cacheStartSize = null;
+  @Valid
+
+  private ConfigNodePropertyInteger cacheStartSize;
 
   @JsonProperty("cache.ttl")
-  private ConfigNodePropertyInteger cacheTtl = null;
+  @Valid
+
+  private ConfigNodePropertyInteger cacheTtl;
 
   @JsonProperty("cache.size")
-  private ConfigNodePropertyInteger cacheSize = null;
+  @Valid
+
+  private ConfigNodePropertyInteger cacheSize;
 
   @JsonProperty("time.limit")
-  private ConfigNodePropertyInteger timeLimit = null;
+  @Valid
+
+  private ConfigNodePropertyInteger timeLimit;
 
   public ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties versionId(ConfigNodePropertyString versionId) {
     this.versionId = versionId;
@@ -45,7 +60,6 @@ public class ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties 
    * Get versionId
    * @return versionId
   **/
-  @Valid
   public ConfigNodePropertyString getVersionId() {
     return versionId;
   }
@@ -63,7 +77,6 @@ public class ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties 
    * Get cacheOn
    * @return cacheOn
   **/
-  @Valid
   public ConfigNodePropertyBoolean getCacheOn() {
     return cacheOn;
   }
@@ -81,7 +94,6 @@ public class ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties 
    * Get concurrencyLevel
    * @return concurrencyLevel
   **/
-  @Valid
   public ConfigNodePropertyInteger getConcurrencyLevel() {
     return concurrencyLevel;
   }
@@ -99,7 +111,6 @@ public class ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties 
    * Get cacheStartSize
    * @return cacheStartSize
   **/
-  @Valid
   public ConfigNodePropertyInteger getCacheStartSize() {
     return cacheStartSize;
   }
@@ -117,7 +128,6 @@ public class ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties 
    * Get cacheTtl
    * @return cacheTtl
   **/
-  @Valid
   public ConfigNodePropertyInteger getCacheTtl() {
     return cacheTtl;
   }
@@ -135,7 +145,6 @@ public class ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties 
    * Get cacheSize
    * @return cacheSize
   **/
-  @Valid
   public ConfigNodePropertyInteger getCacheSize() {
     return cacheSize;
   }
@@ -153,7 +162,6 @@ public class ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties 
    * Get timeLimit
    * @return timeLimit
   **/
-  @Valid
   public ConfigNodePropertyInteger getTimeLimit() {
     return timeLimit;
   }
@@ -164,7 +172,7 @@ public class ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties 
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -207,11 +215,8 @@ public class ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties 
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

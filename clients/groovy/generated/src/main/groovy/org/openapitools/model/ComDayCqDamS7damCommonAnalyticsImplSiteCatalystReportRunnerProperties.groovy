@@ -8,8 +8,8 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerProperties {
-    ConfigNodePropertyString schedulerExpression = null
-
-    ConfigNodePropertyBoolean schedulerConcurrent = null
-
+    
+    ConfigNodePropertyString schedulerExpression
+    
+    ConfigNodePropertyBoolean schedulerConcurrent
 }

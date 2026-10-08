@@ -1,36 +1,47 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyInteger;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComAdobeOctopusNcommBootstrapProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComAdobeOctopusNcommBootstrapProperties   {
-  @JsonProperty("maxConnections")
-  private ConfigNodePropertyInteger maxConnections = null;
+@JsonTypeName("comAdobeOctopusNcommBootstrapProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComAdobeOctopusNcommBootstrapProperties {
 
-  @JsonProperty("maxRequests")
-  private ConfigNodePropertyInteger maxRequests = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger maxConnections;
 
-  @JsonProperty("requestTimeout")
-  private ConfigNodePropertyInteger requestTimeout = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger maxRequests;
 
-  @JsonProperty("requestRetries")
-  private ConfigNodePropertyInteger requestRetries = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger requestTimeout;
 
-  @JsonProperty("launchTimeout")
-  private ConfigNodePropertyInteger launchTimeout = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger requestRetries;
 
-  public ComAdobeOctopusNcommBootstrapProperties maxConnections(ConfigNodePropertyInteger maxConnections) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger launchTimeout;
+
+  public ComAdobeOctopusNcommBootstrapProperties maxConnections(@Nullable ConfigNodePropertyInteger maxConnections) {
     this.maxConnections = maxConnections;
     return this;
   }
@@ -38,20 +49,20 @@ public class ComAdobeOctopusNcommBootstrapProperties   {
   /**
    * Get maxConnections
    * @return maxConnections
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getMaxConnections() {
+   */
+  @Valid 
+  @Schema(name = "maxConnections", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("maxConnections")
+  public @Nullable ConfigNodePropertyInteger getMaxConnections() {
     return maxConnections;
   }
 
-  public void setMaxConnections(ConfigNodePropertyInteger maxConnections) {
+  @JsonProperty("maxConnections")
+  public void setMaxConnections(@Nullable ConfigNodePropertyInteger maxConnections) {
     this.maxConnections = maxConnections;
   }
 
-  public ComAdobeOctopusNcommBootstrapProperties maxRequests(ConfigNodePropertyInteger maxRequests) {
+  public ComAdobeOctopusNcommBootstrapProperties maxRequests(@Nullable ConfigNodePropertyInteger maxRequests) {
     this.maxRequests = maxRequests;
     return this;
   }
@@ -59,20 +70,20 @@ public class ComAdobeOctopusNcommBootstrapProperties   {
   /**
    * Get maxRequests
    * @return maxRequests
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getMaxRequests() {
+   */
+  @Valid 
+  @Schema(name = "maxRequests", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("maxRequests")
+  public @Nullable ConfigNodePropertyInteger getMaxRequests() {
     return maxRequests;
   }
 
-  public void setMaxRequests(ConfigNodePropertyInteger maxRequests) {
+  @JsonProperty("maxRequests")
+  public void setMaxRequests(@Nullable ConfigNodePropertyInteger maxRequests) {
     this.maxRequests = maxRequests;
   }
 
-  public ComAdobeOctopusNcommBootstrapProperties requestTimeout(ConfigNodePropertyInteger requestTimeout) {
+  public ComAdobeOctopusNcommBootstrapProperties requestTimeout(@Nullable ConfigNodePropertyInteger requestTimeout) {
     this.requestTimeout = requestTimeout;
     return this;
   }
@@ -80,20 +91,20 @@ public class ComAdobeOctopusNcommBootstrapProperties   {
   /**
    * Get requestTimeout
    * @return requestTimeout
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getRequestTimeout() {
+   */
+  @Valid 
+  @Schema(name = "requestTimeout", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("requestTimeout")
+  public @Nullable ConfigNodePropertyInteger getRequestTimeout() {
     return requestTimeout;
   }
 
-  public void setRequestTimeout(ConfigNodePropertyInteger requestTimeout) {
+  @JsonProperty("requestTimeout")
+  public void setRequestTimeout(@Nullable ConfigNodePropertyInteger requestTimeout) {
     this.requestTimeout = requestTimeout;
   }
 
-  public ComAdobeOctopusNcommBootstrapProperties requestRetries(ConfigNodePropertyInteger requestRetries) {
+  public ComAdobeOctopusNcommBootstrapProperties requestRetries(@Nullable ConfigNodePropertyInteger requestRetries) {
     this.requestRetries = requestRetries;
     return this;
   }
@@ -101,20 +112,20 @@ public class ComAdobeOctopusNcommBootstrapProperties   {
   /**
    * Get requestRetries
    * @return requestRetries
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getRequestRetries() {
+   */
+  @Valid 
+  @Schema(name = "requestRetries", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("requestRetries")
+  public @Nullable ConfigNodePropertyInteger getRequestRetries() {
     return requestRetries;
   }
 
-  public void setRequestRetries(ConfigNodePropertyInteger requestRetries) {
+  @JsonProperty("requestRetries")
+  public void setRequestRetries(@Nullable ConfigNodePropertyInteger requestRetries) {
     this.requestRetries = requestRetries;
   }
 
-  public ComAdobeOctopusNcommBootstrapProperties launchTimeout(ConfigNodePropertyInteger launchTimeout) {
+  public ComAdobeOctopusNcommBootstrapProperties launchTimeout(@Nullable ConfigNodePropertyInteger launchTimeout) {
     this.launchTimeout = launchTimeout;
     return this;
   }
@@ -122,22 +133,21 @@ public class ComAdobeOctopusNcommBootstrapProperties   {
   /**
    * Get launchTimeout
    * @return launchTimeout
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getLaunchTimeout() {
+   */
+  @Valid 
+  @Schema(name = "launchTimeout", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("launchTimeout")
+  public @Nullable ConfigNodePropertyInteger getLaunchTimeout() {
     return launchTimeout;
   }
 
-  public void setLaunchTimeout(ConfigNodePropertyInteger launchTimeout) {
+  @JsonProperty("launchTimeout")
+  public void setLaunchTimeout(@Nullable ConfigNodePropertyInteger launchTimeout) {
     this.launchTimeout = launchTimeout;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -161,7 +171,6 @@ public class ComAdobeOctopusNcommBootstrapProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComAdobeOctopusNcommBootstrapProperties {\n");
-    
     sb.append("    maxConnections: ").append(toIndentedString(maxConnections)).append("\n");
     sb.append("    maxRequests: ").append(toIndentedString(maxRequests)).append("\n");
     sb.append("    requestTimeout: ").append(toIndentedString(requestTimeout)).append("\n");
@@ -175,11 +184,8 @@ public class ComAdobeOctopusNcommBootstrapProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

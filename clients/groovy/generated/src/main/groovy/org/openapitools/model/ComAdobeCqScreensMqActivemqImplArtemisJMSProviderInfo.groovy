@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqScreensMqActivemqImplArtemisJMSProviderP
 
 @Canonical
 class ComAdobeCqScreensMqActivemqImplArtemisJMSProviderInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties properties
 }

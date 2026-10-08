@@ -2,10 +2,10 @@
 # OrgApacheSlingScriptingCoreImplScriptCacheImplProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**orgPeriodapachePeriodslingPeriodscriptingPeriodcachePeriodsize** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**orgPeriodapachePeriodslingPeriodscriptingPeriodcachePeriodadditionalUnderscoreextensions** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **orgApacheSlingScriptingCacheSize** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **orgApacheSlingScriptingCacheAdditionalExtensions** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
 
 
 

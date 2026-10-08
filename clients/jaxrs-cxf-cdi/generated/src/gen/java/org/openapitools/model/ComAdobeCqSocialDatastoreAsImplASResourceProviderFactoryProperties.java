@@ -2,35 +2,36 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties   {
   
-  private ConfigNodePropertyString versionId = null;
+  private ConfigNodePropertyString versionId;
 
-  private ConfigNodePropertyBoolean cacheOn = null;
+  private ConfigNodePropertyBoolean cacheOn;
 
-  private ConfigNodePropertyInteger concurrencyLevel = null;
+  private ConfigNodePropertyInteger concurrencyLevel;
 
-  private ConfigNodePropertyInteger cacheStartSize = null;
+  private ConfigNodePropertyInteger cacheStartSize;
 
-  private ConfigNodePropertyInteger cacheTtl = null;
+  private ConfigNodePropertyInteger cacheTtl;
 
-  private ConfigNodePropertyInteger cacheSize = null;
+  private ConfigNodePropertyInteger cacheSize;
 
-  private ConfigNodePropertyInteger timeLimit = null;
-
+  private ConfigNodePropertyInteger timeLimit;
 
   /**
    **/
@@ -160,7 +161,7 @@ public class ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties 
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -168,13 +169,13 @@ public class ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties 
       return false;
     }
     ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties comAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties = (ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties) o;
-    return Objects.equals(versionId, comAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties.versionId) &&
-        Objects.equals(cacheOn, comAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties.cacheOn) &&
-        Objects.equals(concurrencyLevel, comAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties.concurrencyLevel) &&
-        Objects.equals(cacheStartSize, comAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties.cacheStartSize) &&
-        Objects.equals(cacheTtl, comAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties.cacheTtl) &&
-        Objects.equals(cacheSize, comAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties.cacheSize) &&
-        Objects.equals(timeLimit, comAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties.timeLimit);
+    return Objects.equals(this.versionId, comAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties.versionId) &&
+        Objects.equals(this.cacheOn, comAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties.cacheOn) &&
+        Objects.equals(this.concurrencyLevel, comAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties.concurrencyLevel) &&
+        Objects.equals(this.cacheStartSize, comAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties.cacheStartSize) &&
+        Objects.equals(this.cacheTtl, comAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties.cacheTtl) &&
+        Objects.equals(this.cacheSize, comAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties.cacheSize) &&
+        Objects.equals(this.timeLimit, comAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties.timeLimit);
   }
 
   @Override
@@ -202,11 +203,8 @@ public class ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties 
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

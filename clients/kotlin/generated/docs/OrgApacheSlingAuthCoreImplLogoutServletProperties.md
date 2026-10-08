@@ -2,10 +2,10 @@
 # OrgApacheSlingAuthCoreImplLogoutServletProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**slingPeriodservletPeriodmethods** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**slingPeriodservletPeriodpaths** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **slingServletMethods** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **slingServletPaths** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
 
 
 

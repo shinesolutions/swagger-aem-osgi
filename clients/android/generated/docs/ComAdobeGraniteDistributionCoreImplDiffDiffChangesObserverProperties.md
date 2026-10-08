@@ -1,7 +1,9 @@
 
+
 # ComAdobeGraniteDistributionCoreImplDiffDiffChangesObserverProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **enabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
@@ -12,6 +14,7 @@ Name | Type | Description | Notes
 **propertyNames** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
 **distributionDelay** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
 **serviceUserTarget** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
+
 
 
 

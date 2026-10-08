@@ -1,3 +1,13 @@
+/*
+ * Adobe Experience Manager OSGI config (AEM) API
+ *
+ * Swagger AEM OSGI is an OpenAPI specification for Adobe Experience Manager (AEM) OSGI Configurations API
+ *
+ * OpenAPI document version: 1.0.0-pre.0
+ * Maintained by: opensource@shinesolutions.com
+ *
+ * AUTO-GENERATED FILE, DO NOT MODIFY!
+ */
 package org.openapitools.model;
 
 import java.util.Objects;
@@ -11,17 +21,17 @@ import org.openapitools.model.ConfigNodePropertyArray;
 
 
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2019-08-05T00:56:20.785Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2026-10-07T12:53:42.280804918Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties   {
   
-  private ConfigNodePropertyArray cqPagesupdatehandlerImageresourcetypes = null;
-  private ConfigNodePropertyArray cqPagesupdatehandlerProductresourcetypes = null;
-  private ConfigNodePropertyArray cqPagesupdatehandlerVideoresourcetypes = null;
-  private ConfigNodePropertyArray cqPagesupdatehandlerDynamicsequenceresourcetypes = null;
-  private ConfigNodePropertyArray cqPagesupdatehandlerPreviewmodepaths = null;
+  private ConfigNodePropertyArray cqPagesupdatehandlerImageresourcetypes;
+  private ConfigNodePropertyArray cqPagesupdatehandlerProductresourcetypes;
+  private ConfigNodePropertyArray cqPagesupdatehandlerVideoresourcetypes;
+  private ConfigNodePropertyArray cqPagesupdatehandlerDynamicsequenceresourcetypes;
+  private ConfigNodePropertyArray cqPagesupdatehandlerPreviewmodepaths;
 
   /**
-   **/
+   */
   public ComAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties cqPagesupdatehandlerImageresourcetypes(ConfigNodePropertyArray cqPagesupdatehandlerImageresourcetypes) {
     this.cqPagesupdatehandlerImageresourcetypes = cqPagesupdatehandlerImageresourcetypes;
     return this;
@@ -38,7 +48,7 @@ public class ComAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties cqPagesupdatehandlerProductresourcetypes(ConfigNodePropertyArray cqPagesupdatehandlerProductresourcetypes) {
     this.cqPagesupdatehandlerProductresourcetypes = cqPagesupdatehandlerProductresourcetypes;
     return this;
@@ -55,7 +65,7 @@ public class ComAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties cqPagesupdatehandlerVideoresourcetypes(ConfigNodePropertyArray cqPagesupdatehandlerVideoresourcetypes) {
     this.cqPagesupdatehandlerVideoresourcetypes = cqPagesupdatehandlerVideoresourcetypes;
     return this;
@@ -72,7 +82,7 @@ public class ComAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties cqPagesupdatehandlerDynamicsequenceresourcetypes(ConfigNodePropertyArray cqPagesupdatehandlerDynamicsequenceresourcetypes) {
     this.cqPagesupdatehandlerDynamicsequenceresourcetypes = cqPagesupdatehandlerDynamicsequenceresourcetypes;
     return this;
@@ -89,7 +99,7 @@ public class ComAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties cqPagesupdatehandlerPreviewmodepaths(ConfigNodePropertyArray cqPagesupdatehandlerPreviewmodepaths) {
     this.cqPagesupdatehandlerPreviewmodepaths = cqPagesupdatehandlerPreviewmodepaths;
     return this;
@@ -107,7 +117,7 @@ public class ComAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -145,11 +155,8 @@ public class ComAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

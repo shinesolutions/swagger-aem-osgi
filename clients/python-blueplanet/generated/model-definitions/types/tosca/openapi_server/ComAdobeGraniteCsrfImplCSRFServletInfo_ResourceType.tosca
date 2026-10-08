@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeGraniteCsrfImplCSRFServletInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeGraniteCsrfImplCSRFServletInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComAdobeGraniteCsrfImplCSRFServletProperties = openapi_server.resourceTypes.ComAdobeGraniteCsrfImplCSRFServletProperties
+}
+resourceTypes {
+
+  ComAdobeGraniteCsrfImplCSRFServletInfo {
+    title = ComAdobeGraniteCsrfImplCSRFServletInfo
+    description = ComAdobeGraniteCsrfImplCSRFServletInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComAdobeGraniteCsrfImplCSRFServletProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeGraniteCsrfImplCSRFServletInfo {
+    title = ComAdobeGraniteCsrfImplCSRFServletInfo
+    description = ComAdobeGraniteCsrfImplCSRFServletInfo
+    implements = openapi_server.resourceTypes.ComAdobeGraniteCsrfImplCSRFServletInfo
+
+  }
+}

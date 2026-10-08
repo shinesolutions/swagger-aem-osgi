@@ -1,7 +1,9 @@
 
+
 # ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **linkcheckertransformerDisableRewriting** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
@@ -11,6 +13,7 @@ Name | Type | Description | Notes
 **linkcheckertransformerStripHtmltExtension** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
 **linkcheckertransformerRewriteElements** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
 **linkcheckertransformerStripExtensionPathBlacklist** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
+
 
 
 

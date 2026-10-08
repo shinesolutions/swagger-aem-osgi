@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyArray;
 import com.prokarma.pkmst.model.ConfigNodePropertyBoolean;
 import com.prokarma.pkmst.model.ConfigNodePropertyInteger;
@@ -17,27 +18,26 @@ import io.swagger.annotations.ApiModelProperty;
  * OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacProperties   {
   @JsonProperty("includedPaths")
-  private ConfigNodePropertyArray includedPaths = null;
+  private ConfigNodePropertyArray includedPaths;
 
   @JsonProperty("enableAsyncObserver")
-  private ConfigNodePropertyBoolean enableAsyncObserver = null;
+  private ConfigNodePropertyBoolean enableAsyncObserver;
 
   @JsonProperty("observerQueueSize")
-  private ConfigNodePropertyInteger observerQueueSize = null;
+  private ConfigNodePropertyInteger observerQueueSize;
 
   public OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacProperties includedPaths(ConfigNodePropertyArray includedPaths) {
     this.includedPaths = includedPaths;
     return this;
   }
 
-   /**
+  /**
    * Get includedPaths
    * @return includedPaths
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getIncludedPaths() {
     return includedPaths;
@@ -52,10 +52,10 @@ public class OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacProp
     return this;
   }
 
-   /**
+  /**
    * Get enableAsyncObserver
    * @return enableAsyncObserver
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getEnableAsyncObserver() {
     return enableAsyncObserver;
@@ -70,10 +70,10 @@ public class OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacProp
     return this;
   }
 
-   /**
+  /**
    * Get observerQueueSize
    * @return observerQueueSize
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getObserverQueueSize() {
     return observerQueueSize;
@@ -85,7 +85,7 @@ public class OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacProp
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -119,11 +119,8 @@ public class OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacProp
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

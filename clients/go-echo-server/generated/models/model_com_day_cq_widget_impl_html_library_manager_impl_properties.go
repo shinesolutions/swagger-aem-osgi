@@ -1,0 +1,32 @@
+package models
+
+type ComDayCqWidgetImplHtmlLibraryManagerImplProperties struct {
+
+	HtmllibmanagerClientmanager ConfigNodePropertyString `json:"htmllibmanager.clientmanager,omitempty"`
+
+	HtmllibmanagerDebug ConfigNodePropertyBoolean `json:"htmllibmanager.debug,omitempty"`
+
+	HtmllibmanagerDebugConsole ConfigNodePropertyBoolean `json:"htmllibmanager.debug.console,omitempty"`
+
+	HtmllibmanagerDebugInitJs ConfigNodePropertyString `json:"htmllibmanager.debug.init.js,omitempty"`
+
+	HtmllibmanagerDefaultthemename ConfigNodePropertyString `json:"htmllibmanager.defaultthemename,omitempty"`
+
+	HtmllibmanagerDefaultuserthemename ConfigNodePropertyString `json:"htmllibmanager.defaultuserthemename,omitempty"`
+
+	HtmllibmanagerFirebuglitePath ConfigNodePropertyString `json:"htmllibmanager.firebuglite.path,omitempty"`
+
+	HtmllibmanagerForceCQUrlInfo ConfigNodePropertyBoolean `json:"htmllibmanager.forceCQUrlInfo,omitempty"`
+
+	HtmllibmanagerGzip ConfigNodePropertyBoolean `json:"htmllibmanager.gzip,omitempty"`
+
+	HtmllibmanagerMaxage ConfigNodePropertyInteger `json:"htmllibmanager.maxage,omitempty"`
+
+	HtmllibmanagerMaxDataUriSize ConfigNodePropertyInteger `json:"htmllibmanager.maxDataUriSize,omitempty"`
+
+	HtmllibmanagerMinify ConfigNodePropertyBoolean `json:"htmllibmanager.minify,omitempty"`
+
+	HtmllibmanagerPathList ConfigNodePropertyArray `json:"htmllibmanager.path.list,omitempty"`
+
+	HtmllibmanagerTiming ConfigNodePropertyBoolean `json:"htmllibmanager.timing,omitempty"`
+}

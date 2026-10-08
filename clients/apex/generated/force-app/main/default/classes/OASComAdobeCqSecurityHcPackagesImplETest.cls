@@ -72,7 +72,7 @@ private class OASComAdobeCqSecurityHcPackagesImplETest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeCqSecurityHcPackagesImplE comAdobeCqSecurityHcPackagesImplExampleContentHealthCheckProperties = new OASComAdobeCqSecurityHcPackagesImplE();
-        Map<String, String> propertyMappings = comAdobeCqSecurityHcPackagesImplExampleContentHealthCheckProperties.getPropertyMappings();
-        System.assertEquals('hcTags', propertyMappings.get('hc.tags'));
+        Map<String, String> x-property-mappings = comAdobeCqSecurityHcPackagesImplExampleContentHealthCheckProperties.getx-property-mappings();
+        System.assertEquals('hcTags', x-property-mappings.get('hc.tags'));
     }
 }

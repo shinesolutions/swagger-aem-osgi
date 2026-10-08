@@ -72,13 +72,13 @@ private class OASOrgApacheSlingInstallerProviderJcTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASOrgApacheSlingInstallerProviderJc orgApacheSlingInstallerProviderJcrImplJcrInstallerProperties = new OASOrgApacheSlingInstallerProviderJc();
-        Map<String, String> propertyMappings = orgApacheSlingInstallerProviderJcrImplJcrInstallerProperties.getPropertyMappings();
-        System.assertEquals('handlerSchemes', propertyMappings.get('handler.schemes'));
-        System.assertEquals('slingJcrinstallFolderNameRegexp', propertyMappings.get('sling.jcrinstall.folder.name.regexp'));
-        System.assertEquals('slingJcrinstallFolderMaxDepth', propertyMappings.get('sling.jcrinstall.folder.max.depth'));
-        System.assertEquals('slingJcrinstallSearchPath', propertyMappings.get('sling.jcrinstall.search.path'));
-        System.assertEquals('slingJcrinstallNewConfigPath', propertyMappings.get('sling.jcrinstall.new.config.path'));
-        System.assertEquals('slingJcrinstallSignalPath', propertyMappings.get('sling.jcrinstall.signal.path'));
-        System.assertEquals('slingJcrinstallEnableWriteback', propertyMappings.get('sling.jcrinstall.enable.writeback'));
+        Map<String, String> x-property-mappings = orgApacheSlingInstallerProviderJcrImplJcrInstallerProperties.getx-property-mappings();
+        System.assertEquals('handlerSchemes', x-property-mappings.get('handler.schemes'));
+        System.assertEquals('slingJcrinstallFolderNameRegexp', x-property-mappings.get('sling.jcrinstall.folder.name.regexp'));
+        System.assertEquals('slingJcrinstallFolderMaxDepth', x-property-mappings.get('sling.jcrinstall.folder.max.depth'));
+        System.assertEquals('slingJcrinstallSearchPath', x-property-mappings.get('sling.jcrinstall.search.path'));
+        System.assertEquals('slingJcrinstallNewConfigPath', x-property-mappings.get('sling.jcrinstall.new.config.path'));
+        System.assertEquals('slingJcrinstallSignalPath', x-property-mappings.get('sling.jcrinstall.signal.path'));
+        System.assertEquals('slingJcrinstallEnableWriteback', x-property-mappings.get('sling.jcrinstall.enable.writeback'));
     }
 }

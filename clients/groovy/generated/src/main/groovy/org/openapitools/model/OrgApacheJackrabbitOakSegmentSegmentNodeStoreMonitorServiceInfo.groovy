@@ -7,16 +7,16 @@ import org.openapitools.model.OrgApacheJackrabbitOakSegmentSegmentNodeStoreMonit
 
 @Canonical
 class OrgApacheJackrabbitOakSegmentSegmentNodeStoreMonitorServiceInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheJackrabbitOakSegmentSegmentNodeStoreMonitorServiceProperties properties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheJackrabbitOakSegmentSegmentNodeStoreMonitorServiceProperties properties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

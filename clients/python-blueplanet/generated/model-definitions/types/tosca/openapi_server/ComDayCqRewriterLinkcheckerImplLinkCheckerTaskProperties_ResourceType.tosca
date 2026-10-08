@@ -1,0 +1,62 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqRewriterLinkcheckerImplLinkCheckerTaskProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqRewriterLinkcheckerImplLinkCheckerTaskProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+}
+resourceTypes {
+
+  ComDayCqRewriterLinkcheckerImplLinkCheckerTaskProperties {
+    title = ComDayCqRewriterLinkcheckerImplLinkCheckerTaskProperties
+    description = ComDayCqRewriterLinkcheckerImplLinkCheckerTaskProperties
+    derivedFrom = Root
+    properties {
+        scheduler_period {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        scheduler_concurrent {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        good_link_test_interval {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        bad_link_test_interval {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        link_unused_interval {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        connection_timeout {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqRewriterLinkcheckerImplLinkCheckerTaskProperties {
+    title = ComDayCqRewriterLinkcheckerImplLinkCheckerTaskProperties
+    description = ComDayCqRewriterLinkcheckerImplLinkCheckerTaskProperties
+    implements = openapi_server.resourceTypes.ComDayCqRewriterLinkcheckerImplLinkCheckerTaskProperties
+
+  }
+}

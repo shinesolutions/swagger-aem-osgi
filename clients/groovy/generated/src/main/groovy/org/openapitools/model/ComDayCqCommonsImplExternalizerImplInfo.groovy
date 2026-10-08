@@ -7,16 +7,16 @@ import org.openapitools.model.ComDayCqCommonsImplExternalizerImplProperties;
 
 @Canonical
 class ComDayCqCommonsImplExternalizerImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqCommonsImplExternalizerImplProperties properties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqCommonsImplExternalizerImplProperties properties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

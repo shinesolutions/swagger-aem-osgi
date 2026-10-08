@@ -1,0 +1,41 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeGraniteSystemMonitoringImplSystemStatsMBeanImplProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeGraniteSystemMonitoringImplSystemStatsMBeanImplProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComAdobeGraniteSystemMonitoringImplSystemStatsMBeanImplProperties {
+    title = ComAdobeGraniteSystemMonitoringImplSystemStatsMBeanImplProperties
+    description = ComAdobeGraniteSystemMonitoringImplSystemStatsMBeanImplProperties
+    derivedFrom = Root
+    properties {
+        scheduler_expression {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        jmx_objectname {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeGraniteSystemMonitoringImplSystemStatsMBeanImplProperties {
+    title = ComAdobeGraniteSystemMonitoringImplSystemStatsMBeanImplProperties
+    description = ComAdobeGraniteSystemMonitoringImplSystemStatsMBeanImplProperties
+    implements = openapi_server.resourceTypes.ComAdobeGraniteSystemMonitoringImplSystemStatsMBeanImplProperties
+
+  }
+}

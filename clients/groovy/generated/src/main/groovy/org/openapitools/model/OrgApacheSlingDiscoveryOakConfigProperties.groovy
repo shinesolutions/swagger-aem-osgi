@@ -10,42 +10,42 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class OrgApacheSlingDiscoveryOakConfigProperties {
-    ConfigNodePropertyInteger connectorPingTimeout = null
-
-    ConfigNodePropertyInteger connectorPingInterval = null
-
-    ConfigNodePropertyInteger discoveryLiteCheckInterval = null
-
-    ConfigNodePropertyInteger clusterSyncServiceTimeout = null
-
-    ConfigNodePropertyInteger clusterSyncServiceInterval = null
-
-    ConfigNodePropertyBoolean enableSyncToken = null
-
-    ConfigNodePropertyInteger minEventDelay = null
-
-    ConfigNodePropertyInteger socketConnectTimeout = null
-
-    ConfigNodePropertyInteger soTimeout = null
-
-    ConfigNodePropertyArray topologyConnectorUrls = null
-
-    ConfigNodePropertyArray topologyConnectorWhitelist = null
-
-    ConfigNodePropertyBoolean autoStopLocalLoopEnabled = null
-
-    ConfigNodePropertyBoolean gzipConnectorRequestsEnabled = null
-
-    ConfigNodePropertyBoolean hmacEnabled = null
-
-    ConfigNodePropertyBoolean enableEncryption = null
-
-    ConfigNodePropertyString sharedKey = null
-
-    ConfigNodePropertyInteger hmacSharedKeyTTL = null
-
-    ConfigNodePropertyString backoffStandbyFactor = null
-
-    ConfigNodePropertyString backoffStableFactor = null
-
+    
+    ConfigNodePropertyInteger connectorPingTimeout
+    
+    ConfigNodePropertyInteger connectorPingInterval
+    
+    ConfigNodePropertyInteger discoveryLiteCheckInterval
+    
+    ConfigNodePropertyInteger clusterSyncServiceTimeout
+    
+    ConfigNodePropertyInteger clusterSyncServiceInterval
+    
+    ConfigNodePropertyBoolean enableSyncToken
+    
+    ConfigNodePropertyInteger minEventDelay
+    
+    ConfigNodePropertyInteger socketConnectTimeout
+    
+    ConfigNodePropertyInteger soTimeout
+    
+    ConfigNodePropertyArray topologyConnectorUrls
+    
+    ConfigNodePropertyArray topologyConnectorWhitelist
+    
+    ConfigNodePropertyBoolean autoStopLocalLoopEnabled
+    
+    ConfigNodePropertyBoolean gzipConnectorRequestsEnabled
+    
+    ConfigNodePropertyBoolean hmacEnabled
+    
+    ConfigNodePropertyBoolean enableEncryption
+    
+    ConfigNodePropertyString sharedKey
+    
+    ConfigNodePropertyInteger hmacSharedKeyTTL
+    
+    ConfigNodePropertyString backoffStandbyFactor
+    
+    ConfigNodePropertyString backoffStableFactor
 }

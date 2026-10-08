@@ -1,0 +1,52 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+}
+resourceTypes {
+
+  ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplProperties {
+    title = ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplProperties
+    description = ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplProperties
+    derivedFrom = Root
+    properties {
+        cq_analytics_sitecatalyst_service_datacenter_url {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        devhostnamepatterns {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        connection_timeout {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        socket_timeout {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplProperties {
+    title = ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplProperties
+    description = ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplProperties
+    implements = openapi_server.resourceTypes.ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplProperties
+
+  }
+}

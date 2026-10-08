@@ -2,31 +2,32 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ComDayCqWcmCoreImplWCMDebugFilterProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class ComDayCqWcmCoreImplWCMDebugFilterInfo   {
   
-  private String pid = null;
+  private String pid;
 
-  private String title = null;
+  private String title;
 
-  private String description = null;
+  private String description;
 
-  private ComDayCqWcmCoreImplWCMDebugFilterProperties properties = null;
+  private ComDayCqWcmCoreImplWCMDebugFilterProperties properties;
 
-  private String bundleLocation = null;
+  private String bundleLocation;
 
-  private String serviceLocation = null;
-
+  private String serviceLocation;
 
   /**
    **/
@@ -138,7 +139,7 @@ public class ComDayCqWcmCoreImplWCMDebugFilterInfo   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -146,12 +147,12 @@ public class ComDayCqWcmCoreImplWCMDebugFilterInfo   {
       return false;
     }
     ComDayCqWcmCoreImplWCMDebugFilterInfo comDayCqWcmCoreImplWCMDebugFilterInfo = (ComDayCqWcmCoreImplWCMDebugFilterInfo) o;
-    return Objects.equals(pid, comDayCqWcmCoreImplWCMDebugFilterInfo.pid) &&
-        Objects.equals(title, comDayCqWcmCoreImplWCMDebugFilterInfo.title) &&
-        Objects.equals(description, comDayCqWcmCoreImplWCMDebugFilterInfo.description) &&
-        Objects.equals(properties, comDayCqWcmCoreImplWCMDebugFilterInfo.properties) &&
-        Objects.equals(bundleLocation, comDayCqWcmCoreImplWCMDebugFilterInfo.bundleLocation) &&
-        Objects.equals(serviceLocation, comDayCqWcmCoreImplWCMDebugFilterInfo.serviceLocation);
+    return Objects.equals(this.pid, comDayCqWcmCoreImplWCMDebugFilterInfo.pid) &&
+        Objects.equals(this.title, comDayCqWcmCoreImplWCMDebugFilterInfo.title) &&
+        Objects.equals(this.description, comDayCqWcmCoreImplWCMDebugFilterInfo.description) &&
+        Objects.equals(this.properties, comDayCqWcmCoreImplWCMDebugFilterInfo.properties) &&
+        Objects.equals(this.bundleLocation, comDayCqWcmCoreImplWCMDebugFilterInfo.bundleLocation) &&
+        Objects.equals(this.serviceLocation, comDayCqWcmCoreImplWCMDebugFilterInfo.serviceLocation);
   }
 
   @Override
@@ -178,11 +179,8 @@ public class ComDayCqWcmCoreImplWCMDebugFilterInfo   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

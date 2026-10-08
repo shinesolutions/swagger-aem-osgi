@@ -1,3 +1,13 @@
+/*
+ * Adobe Experience Manager OSGI config (AEM) API
+ *
+ * Swagger AEM OSGI is an OpenAPI specification for Adobe Experience Manager (AEM) OSGI Configurations API
+ *
+ * OpenAPI document version: 1.0.0-pre.0
+ * Maintained by: opensource@shinesolutions.com
+ *
+ * AUTO-GENERATED FILE, DO NOT MODIFY!
+ */
 package org.openapitools.model;
 
 import java.util.Objects;
@@ -13,21 +23,21 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2019-08-05T00:56:20.785Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2026-10-07T12:53:42.280804918Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingServletsGetDefaultGetServletProperties   {
   
-  private ConfigNodePropertyArray aliases = null;
-  private ConfigNodePropertyBoolean index = null;
-  private ConfigNodePropertyArray indexFiles = null;
-  private ConfigNodePropertyBoolean enableHtml = null;
-  private ConfigNodePropertyBoolean enableJson = null;
-  private ConfigNodePropertyBoolean enableTxt = null;
-  private ConfigNodePropertyBoolean enableXml = null;
-  private ConfigNodePropertyInteger jsonMaximumresults = null;
-  private ConfigNodePropertyBoolean ecmaSuport = null;
+  private ConfigNodePropertyArray aliases;
+  private ConfigNodePropertyBoolean index;
+  private ConfigNodePropertyArray indexFiles;
+  private ConfigNodePropertyBoolean enableHtml;
+  private ConfigNodePropertyBoolean enableJson;
+  private ConfigNodePropertyBoolean enableTxt;
+  private ConfigNodePropertyBoolean enableXml;
+  private ConfigNodePropertyInteger jsonMaximumresults;
+  private ConfigNodePropertyBoolean ecmaSuport;
 
   /**
-   **/
+   */
   public OrgApacheSlingServletsGetDefaultGetServletProperties aliases(ConfigNodePropertyArray aliases) {
     this.aliases = aliases;
     return this;
@@ -44,7 +54,7 @@ public class OrgApacheSlingServletsGetDefaultGetServletProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingServletsGetDefaultGetServletProperties index(ConfigNodePropertyBoolean index) {
     this.index = index;
     return this;
@@ -61,7 +71,7 @@ public class OrgApacheSlingServletsGetDefaultGetServletProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingServletsGetDefaultGetServletProperties indexFiles(ConfigNodePropertyArray indexFiles) {
     this.indexFiles = indexFiles;
     return this;
@@ -78,7 +88,7 @@ public class OrgApacheSlingServletsGetDefaultGetServletProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingServletsGetDefaultGetServletProperties enableHtml(ConfigNodePropertyBoolean enableHtml) {
     this.enableHtml = enableHtml;
     return this;
@@ -95,7 +105,7 @@ public class OrgApacheSlingServletsGetDefaultGetServletProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingServletsGetDefaultGetServletProperties enableJson(ConfigNodePropertyBoolean enableJson) {
     this.enableJson = enableJson;
     return this;
@@ -112,7 +122,7 @@ public class OrgApacheSlingServletsGetDefaultGetServletProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingServletsGetDefaultGetServletProperties enableTxt(ConfigNodePropertyBoolean enableTxt) {
     this.enableTxt = enableTxt;
     return this;
@@ -129,7 +139,7 @@ public class OrgApacheSlingServletsGetDefaultGetServletProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingServletsGetDefaultGetServletProperties enableXml(ConfigNodePropertyBoolean enableXml) {
     this.enableXml = enableXml;
     return this;
@@ -146,7 +156,7 @@ public class OrgApacheSlingServletsGetDefaultGetServletProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingServletsGetDefaultGetServletProperties jsonMaximumresults(ConfigNodePropertyInteger jsonMaximumresults) {
     this.jsonMaximumresults = jsonMaximumresults;
     return this;
@@ -163,7 +173,7 @@ public class OrgApacheSlingServletsGetDefaultGetServletProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingServletsGetDefaultGetServletProperties ecmaSuport(ConfigNodePropertyBoolean ecmaSuport) {
     this.ecmaSuport = ecmaSuport;
     return this;
@@ -181,7 +191,7 @@ public class OrgApacheSlingServletsGetDefaultGetServletProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -227,11 +237,8 @@ public class OrgApacheSlingServletsGetDefaultGetServletProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -1,0 +1,50 @@
+/*
+ * com_day_cq_wcm_contentsync_impl_rewriter_path_rewriter_transformer_factor_properties.h
+ *
+ * 
+ */
+
+#ifndef _com_day_cq_wcm_contentsync_impl_rewriter_path_rewriter_transformer_factor_properties_H_
+#define _com_day_cq_wcm_contentsync_impl_rewriter_path_rewriter_transformer_factor_properties_H_
+
+#include <string.h>
+#include "../external/cJSON.h"
+#include "../include/list.h"
+#include "../include/keyValuePair.h"
+#include "../include/binary.h"
+
+typedef struct com_day_cq_wcm_contentsync_impl_rewriter_path_rewriter_transformer_factor_properties_t com_day_cq_wcm_contentsync_impl_rewriter_path_rewriter_transformer_factor_properties_t;
+
+#include "config_node_property_array.h"
+#include "config_node_property_string.h"
+
+
+
+typedef struct com_day_cq_wcm_contentsync_impl_rewriter_path_rewriter_transformer_factor_properties_t {
+    struct config_node_property_array_t *cq_contentsync_pathrewritertransformer_mapping_links; //model
+    struct config_node_property_array_t *cq_contentsync_pathrewritertransformer_mapping_clientlibs; //model
+    struct config_node_property_array_t *cq_contentsync_pathrewritertransformer_mapping_images; //model
+    struct config_node_property_string_t *cq_contentsync_pathrewritertransformer_attribute_pattern; //model
+    struct config_node_property_string_t *cq_contentsync_pathrewritertransformer_clientlibrary_pattern; //model
+    struct config_node_property_string_t *cq_contentsync_pathrewritertransformer_clientlibrary_replace; //model
+
+    int _library_owned; // Is the library responsible for freeing this object?
+} com_day_cq_wcm_contentsync_impl_rewriter_path_rewriter_transformer_factor_properties_t;
+
+__attribute__((deprecated)) com_day_cq_wcm_contentsync_impl_rewriter_path_rewriter_transformer_factor_properties_t *com_day_cq_wcm_contentsync_impl_rewriter_path_rewriter_transformer_factor_properties_create(
+    config_node_property_array_t *cq_contentsync_pathrewritertransformer_mapping_links,
+    config_node_property_array_t *cq_contentsync_pathrewritertransformer_mapping_clientlibs,
+    config_node_property_array_t *cq_contentsync_pathrewritertransformer_mapping_images,
+    config_node_property_string_t *cq_contentsync_pathrewritertransformer_attribute_pattern,
+    config_node_property_string_t *cq_contentsync_pathrewritertransformer_clientlibrary_pattern,
+    config_node_property_string_t *cq_contentsync_pathrewritertransformer_clientlibrary_replace
+);
+
+void com_day_cq_wcm_contentsync_impl_rewriter_path_rewriter_transformer_factor_properties_free(com_day_cq_wcm_contentsync_impl_rewriter_path_rewriter_transformer_factor_properties_t *com_day_cq_wcm_contentsync_impl_rewriter_path_rewriter_transformer_factor_properties);
+
+com_day_cq_wcm_contentsync_impl_rewriter_path_rewriter_transformer_factor_properties_t *com_day_cq_wcm_contentsync_impl_rewriter_path_rewriter_transformer_factor_properties_parseFromJSON(cJSON *com_day_cq_wcm_contentsync_impl_rewriter_path_rewriter_transformer_factor_propertiesJSON);
+
+cJSON *com_day_cq_wcm_contentsync_impl_rewriter_path_rewriter_transformer_factor_properties_convertToJSON(com_day_cq_wcm_contentsync_impl_rewriter_path_rewriter_transformer_factor_properties_t *com_day_cq_wcm_contentsync_impl_rewriter_path_rewriter_transformer_factor_properties);
+
+#endif /* _com_day_cq_wcm_contentsync_impl_rewriter_path_rewriter_transformer_factor_properties_H_ */
+

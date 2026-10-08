@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyArray;
 
 @Canonical
 class OrgApacheJackrabbitOakSegmentSegmentNodeStoreMonitorServiceProperties {
-    ConfigNodePropertyArray commitsTrackerWriterGroups = null
-
+    
+    ConfigNodePropertyArray commitsTrackerWriterGroups
 }

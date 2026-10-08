@@ -1,3 +1,13 @@
+/*
+ * Adobe Experience Manager OSGI config (AEM) API
+ *
+ * Swagger AEM OSGI is an OpenAPI specification for Adobe Experience Manager (AEM) OSGI Configurations API
+ *
+ * OpenAPI document version: 1.0.0-pre.0
+ * Maintained by: opensource@shinesolutions.com
+ *
+ * AUTO-GENERATED FILE, DO NOT MODIFY!
+ */
 package org.openapitools.model;
 
 import java.util.Objects;
@@ -11,19 +21,19 @@ import java.math.BigDecimal;
 
 
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2019-08-05T00:56:20.785Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2026-10-07T12:53:42.280804918Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ConfigNodePropertyFloat   {
   
-  private String name = null;
-  private Boolean optional = null;
-  private Boolean isSet = null;
-  private Integer type = null;
-  private BigDecimal value = null;
-  private String description = null;
+  private String name;
+  private Boolean optional;
+  private Boolean isSet;
+  private Integer type;
+  private BigDecimal value;
+  private String description;
 
   /**
    * property name
-   **/
+   */
   public ConfigNodePropertyFloat name(String name) {
     this.name = name;
     return this;
@@ -41,7 +51,7 @@ public class ConfigNodePropertyFloat   {
 
   /**
    * True if optional
-   **/
+   */
   public ConfigNodePropertyFloat optional(Boolean optional) {
     this.optional = optional;
     return this;
@@ -59,7 +69,7 @@ public class ConfigNodePropertyFloat   {
 
   /**
    * True if property is set
-   **/
+   */
   public ConfigNodePropertyFloat isSet(Boolean isSet) {
     this.isSet = isSet;
     return this;
@@ -77,7 +87,7 @@ public class ConfigNodePropertyFloat   {
 
   /**
    * Property type, 1=String, 2=Long, 3=Integer, 7=Float, 11=Boolean, 12=Secrets(String)
-   **/
+   */
   public ConfigNodePropertyFloat type(Integer type) {
     this.type = type;
     return this;
@@ -95,7 +105,7 @@ public class ConfigNodePropertyFloat   {
 
   /**
    * Property value
-   **/
+   */
   public ConfigNodePropertyFloat value(BigDecimal value) {
     this.value = value;
     return this;
@@ -113,7 +123,7 @@ public class ConfigNodePropertyFloat   {
 
   /**
    * Property description
-   **/
+   */
   public ConfigNodePropertyFloat description(String description) {
     this.description = description;
     return this;
@@ -131,7 +141,7 @@ public class ConfigNodePropertyFloat   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -171,11 +181,8 @@ public class ConfigNodePropertyFloat   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

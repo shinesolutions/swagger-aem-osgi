@@ -1,3 +1,13 @@
+/*
+ * Adobe Experience Manager OSGI config (AEM) API
+ *
+ * Swagger AEM OSGI is an OpenAPI specification for Adobe Experience Manager (AEM) OSGI Configurations API
+ *
+ * OpenAPI document version: 1.0.0-pre.0
+ * Maintained by: opensource@shinesolutions.com
+ *
+ * AUTO-GENERATED FILE, DO NOT MODIFY!
+ */
 package org.openapitools.model;
 
 import java.util.Objects;
@@ -14,23 +24,23 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2019-08-05T00:56:20.785Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2026-10-07T12:53:42.280804918Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties   {
   
-  private ConfigNodePropertyString name = null;
-  private ConfigNodePropertyInteger minPoolSize = null;
-  private ConfigNodePropertyInteger maxPoolSize = null;
-  private ConfigNodePropertyInteger queueSize = null;
-  private ConfigNodePropertyInteger maxThreadAge = null;
-  private ConfigNodePropertyInteger keepAliveTime = null;
-  private ConfigNodePropertyDropDown blockPolicy = null;
-  private ConfigNodePropertyBoolean shutdownGraceful = null;
-  private ConfigNodePropertyBoolean daemon = null;
-  private ConfigNodePropertyInteger shutdownWaitTime = null;
-  private ConfigNodePropertyDropDown priority = null;
+  private ConfigNodePropertyString name;
+  private ConfigNodePropertyInteger minPoolSize;
+  private ConfigNodePropertyInteger maxPoolSize;
+  private ConfigNodePropertyInteger queueSize;
+  private ConfigNodePropertyInteger maxThreadAge;
+  private ConfigNodePropertyInteger keepAliveTime;
+  private ConfigNodePropertyDropDown blockPolicy;
+  private ConfigNodePropertyBoolean shutdownGraceful;
+  private ConfigNodePropertyBoolean daemon;
+  private ConfigNodePropertyInteger shutdownWaitTime;
+  private ConfigNodePropertyDropDown priority;
 
   /**
-   **/
+   */
   public OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties name(ConfigNodePropertyString name) {
     this.name = name;
     return this;
@@ -47,7 +57,7 @@ public class OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties 
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties minPoolSize(ConfigNodePropertyInteger minPoolSize) {
     this.minPoolSize = minPoolSize;
     return this;
@@ -64,7 +74,7 @@ public class OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties 
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties maxPoolSize(ConfigNodePropertyInteger maxPoolSize) {
     this.maxPoolSize = maxPoolSize;
     return this;
@@ -81,7 +91,7 @@ public class OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties 
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties queueSize(ConfigNodePropertyInteger queueSize) {
     this.queueSize = queueSize;
     return this;
@@ -98,7 +108,7 @@ public class OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties 
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties maxThreadAge(ConfigNodePropertyInteger maxThreadAge) {
     this.maxThreadAge = maxThreadAge;
     return this;
@@ -115,7 +125,7 @@ public class OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties 
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties keepAliveTime(ConfigNodePropertyInteger keepAliveTime) {
     this.keepAliveTime = keepAliveTime;
     return this;
@@ -132,7 +142,7 @@ public class OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties 
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties blockPolicy(ConfigNodePropertyDropDown blockPolicy) {
     this.blockPolicy = blockPolicy;
     return this;
@@ -149,7 +159,7 @@ public class OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties 
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties shutdownGraceful(ConfigNodePropertyBoolean shutdownGraceful) {
     this.shutdownGraceful = shutdownGraceful;
     return this;
@@ -166,7 +176,7 @@ public class OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties 
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties daemon(ConfigNodePropertyBoolean daemon) {
     this.daemon = daemon;
     return this;
@@ -183,7 +193,7 @@ public class OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties 
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties shutdownWaitTime(ConfigNodePropertyInteger shutdownWaitTime) {
     this.shutdownWaitTime = shutdownWaitTime;
     return this;
@@ -200,7 +210,7 @@ public class OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties 
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties priority(ConfigNodePropertyDropDown priority) {
     this.priority = priority;
     return this;
@@ -218,7 +228,7 @@ public class OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties 
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -268,11 +278,8 @@ public class OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties 
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

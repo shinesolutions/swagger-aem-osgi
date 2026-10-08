@@ -1,27 +1,38 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComAdobeGraniteAuthImsProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComAdobeGraniteAuthImsProperties   {
-  @JsonProperty("configid")
-  private ConfigNodePropertyString configid = null;
+@JsonTypeName("comAdobeGraniteAuthImsProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComAdobeGraniteAuthImsProperties {
 
-  @JsonProperty("scope")
-  private ConfigNodePropertyString scope = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString configid;
 
-  public ComAdobeGraniteAuthImsProperties configid(ConfigNodePropertyString configid) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString scope;
+
+  public ComAdobeGraniteAuthImsProperties configid(@Nullable ConfigNodePropertyString configid) {
     this.configid = configid;
     return this;
   }
@@ -29,20 +40,20 @@ public class ComAdobeGraniteAuthImsProperties   {
   /**
    * Get configid
    * @return configid
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getConfigid() {
+   */
+  @Valid 
+  @Schema(name = "configid", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("configid")
+  public @Nullable ConfigNodePropertyString getConfigid() {
     return configid;
   }
 
-  public void setConfigid(ConfigNodePropertyString configid) {
+  @JsonProperty("configid")
+  public void setConfigid(@Nullable ConfigNodePropertyString configid) {
     this.configid = configid;
   }
 
-  public ComAdobeGraniteAuthImsProperties scope(ConfigNodePropertyString scope) {
+  public ComAdobeGraniteAuthImsProperties scope(@Nullable ConfigNodePropertyString scope) {
     this.scope = scope;
     return this;
   }
@@ -50,22 +61,21 @@ public class ComAdobeGraniteAuthImsProperties   {
   /**
    * Get scope
    * @return scope
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getScope() {
+   */
+  @Valid 
+  @Schema(name = "scope", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("scope")
+  public @Nullable ConfigNodePropertyString getScope() {
     return scope;
   }
 
-  public void setScope(ConfigNodePropertyString scope) {
+  @JsonProperty("scope")
+  public void setScope(@Nullable ConfigNodePropertyString scope) {
     this.scope = scope;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -86,7 +96,6 @@ public class ComAdobeGraniteAuthImsProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComAdobeGraniteAuthImsProperties {\n");
-    
     sb.append("    configid: ").append(toIndentedString(configid)).append("\n");
     sb.append("    scope: ").append(toIndentedString(scope)).append("\n");
     sb.append("}");
@@ -97,11 +106,8 @@ public class ComAdobeGraniteAuthImsProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

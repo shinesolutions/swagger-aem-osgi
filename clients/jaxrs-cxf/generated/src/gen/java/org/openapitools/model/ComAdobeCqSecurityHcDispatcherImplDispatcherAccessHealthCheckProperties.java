@@ -1,37 +1,41 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
 import io.swagger.annotations.ApiModelProperty;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlType;
-import javax.xml.bind.annotation.XmlEnum;
-import javax.xml.bind.annotation.XmlEnumValue;
+import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
 
 public class ComAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheckProperties  {
   
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyArray hcTags = null;
+
+  private ConfigNodePropertyArray hcTags;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyString dispatcherAddress = null;
+
+  private ConfigNodePropertyString dispatcherAddress;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyArray dispatcherFilterAllowed = null;
+
+  private ConfigNodePropertyArray dispatcherFilterAllowed;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyArray dispatcherFilterBlocked = null;
+
+  private ConfigNodePropertyArray dispatcherFilterBlocked;
  /**
    * Get hcTags
    * @return hcTags
@@ -104,6 +108,25 @@ public class ComAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheckProper
     return this;
   }
 
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    ComAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheckProperties comAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheckProperties = (ComAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheckProperties) o;
+    return Objects.equals(this.hcTags, comAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheckProperties.hcTags) &&
+        Objects.equals(this.dispatcherAddress, comAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheckProperties.dispatcherAddress) &&
+        Objects.equals(this.dispatcherFilterAllowed, comAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheckProperties.dispatcherFilterAllowed) &&
+        Objects.equals(this.dispatcherFilterBlocked, comAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheckProperties.dispatcherFilterBlocked);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(hcTags, dispatcherAddress, dispatcherFilterAllowed, dispatcherFilterBlocked);
+  }
 
   @Override
   public String toString() {
@@ -122,11 +145,8 @@ public class ComAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheckProper
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private static String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

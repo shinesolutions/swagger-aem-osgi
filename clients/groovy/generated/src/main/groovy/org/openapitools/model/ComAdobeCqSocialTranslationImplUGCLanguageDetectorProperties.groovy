@@ -9,20 +9,20 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties {
-    ConfigNodePropertyString eventTopics = null
-
-    ConfigNodePropertyString eventFilter = null
-
-    ConfigNodePropertyArray translateListenerType = null
-
-    ConfigNodePropertyArray translatePropertyList = null
-
-    ConfigNodePropertyInteger poolSize = null
-
-    ConfigNodePropertyInteger maxPoolSize = null
-
-    ConfigNodePropertyInteger queueSize = null
-
-    ConfigNodePropertyInteger keepAliveTime = null
-
+    
+    ConfigNodePropertyString eventTopics
+    
+    ConfigNodePropertyString eventFilter
+    
+    ConfigNodePropertyArray translateListenerType
+    
+    ConfigNodePropertyArray translatePropertyList
+    
+    ConfigNodePropertyInteger poolSize
+    
+    ConfigNodePropertyInteger maxPoolSize
+    
+    ConfigNodePropertyInteger queueSize
+    
+    ConfigNodePropertyInteger keepAliveTime
 }

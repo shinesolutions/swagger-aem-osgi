@@ -10,18 +10,18 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeCqSocialConnectOauthImplTwitterProviderImplProperties {
-    ConfigNodePropertyString oauthProviderId = null
-
-    ConfigNodePropertyString oauthCloudConfigRoot = null
-
-    ConfigNodePropertyString providerConfigRoot = null
-
-    ConfigNodePropertyDropDown providerConfigUserFolder = null
-
-    ConfigNodePropertyBoolean providerConfigTwitterEnableParams = null
-
-    ConfigNodePropertyArray providerConfigTwitterParams = null
-
-    ConfigNodePropertyBoolean providerConfigRefreshUserdataEnabled = null
-
+    
+    ConfigNodePropertyString oauthProviderId
+    
+    ConfigNodePropertyString oauthCloudConfigRoot
+    
+    ConfigNodePropertyString providerConfigRoot
+    
+    ConfigNodePropertyDropDown providerConfigUserFolder
+    
+    ConfigNodePropertyBoolean providerConfigTwitterEnableParams
+    
+    ConfigNodePropertyArray providerConfigTwitterParams
+    
+    ConfigNodePropertyBoolean providerConfigRefreshUserdataEnabled
 }

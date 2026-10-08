@@ -4,32 +4,25 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2019-08-05T01:00:05.540Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2026-10-07T12:54:26.576036107Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplProperties   {
   
-
-  private ConfigNodePropertyArray parameterWhitelist = null;
-
-  private ConfigNodePropertyArray parameterWhitelistPrefixes = null;
-
-  private ConfigNodePropertyArray binaryParameterWhitelist = null;
-
-  private ConfigNodePropertyArray modifierWhitelist = null;
-
-  private ConfigNodePropertyArray operationWhitelist = null;
-
-  private ConfigNodePropertyArray operationWhitelistPrefixes = null;
-
-  private ConfigNodePropertyArray typehintWhitelist = null;
-
-  private ConfigNodePropertyArray resourcetypeWhitelist = null;
+  private ConfigNodePropertyArray parameterWhitelist;
+  private ConfigNodePropertyArray parameterWhitelistPrefixes;
+  private ConfigNodePropertyArray binaryParameterWhitelist;
+  private ConfigNodePropertyArray modifierWhitelist;
+  private ConfigNodePropertyArray operationWhitelist;
+  private ConfigNodePropertyArray operationWhitelistPrefixes;
+  private ConfigNodePropertyArray typehintWhitelist;
+  private ConfigNodePropertyArray resourcetypeWhitelist;
 
   /**
    **/
@@ -137,14 +130,14 @@ public class ComDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplPropert
       return false;
     }
     ComDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplProperties comDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplProperties = (ComDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplProperties) o;
-    return Objects.equals(parameterWhitelist, comDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplProperties.parameterWhitelist) &&
-        Objects.equals(parameterWhitelistPrefixes, comDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplProperties.parameterWhitelistPrefixes) &&
-        Objects.equals(binaryParameterWhitelist, comDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplProperties.binaryParameterWhitelist) &&
-        Objects.equals(modifierWhitelist, comDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplProperties.modifierWhitelist) &&
-        Objects.equals(operationWhitelist, comDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplProperties.operationWhitelist) &&
-        Objects.equals(operationWhitelistPrefixes, comDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplProperties.operationWhitelistPrefixes) &&
-        Objects.equals(typehintWhitelist, comDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplProperties.typehintWhitelist) &&
-        Objects.equals(resourcetypeWhitelist, comDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplProperties.resourcetypeWhitelist);
+    return Objects.equals(this.parameterWhitelist, comDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplProperties.parameterWhitelist) &&
+        Objects.equals(this.parameterWhitelistPrefixes, comDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplProperties.parameterWhitelistPrefixes) &&
+        Objects.equals(this.binaryParameterWhitelist, comDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplProperties.binaryParameterWhitelist) &&
+        Objects.equals(this.modifierWhitelist, comDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplProperties.modifierWhitelist) &&
+        Objects.equals(this.operationWhitelist, comDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplProperties.operationWhitelist) &&
+        Objects.equals(this.operationWhitelistPrefixes, comDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplProperties.operationWhitelistPrefixes) &&
+        Objects.equals(this.typehintWhitelist, comDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplProperties.typehintWhitelist) &&
+        Objects.equals(this.resourcetypeWhitelist, comDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplProperties.resourcetypeWhitelist);
   }
 
   @Override
@@ -174,10 +167,7 @@ public class ComDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplPropert
    * (except the first line).
    */
   private String toIndentedString(Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

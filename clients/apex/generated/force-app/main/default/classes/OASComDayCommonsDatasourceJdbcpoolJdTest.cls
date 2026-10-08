@@ -72,17 +72,17 @@ private class OASComDayCommonsDatasourceJdbcpoolJdTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCommonsDatasourceJdbcpoolJd comDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties = new OASComDayCommonsDatasourceJdbcpoolJd();
-        Map<String, String> propertyMappings = comDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties.getPropertyMappings();
-        System.assertEquals('jdbcDriverClass', propertyMappings.get('jdbc.driver.class'));
-        System.assertEquals('jdbcConnectionUri', propertyMappings.get('jdbc.connection.uri'));
-        System.assertEquals('jdbcUsername', propertyMappings.get('jdbc.username'));
-        System.assertEquals('jdbcPassword', propertyMappings.get('jdbc.password'));
-        System.assertEquals('jdbcValidationQuery', propertyMappings.get('jdbc.validation.query'));
-        System.assertEquals('defaultReadonly', propertyMappings.get('default.readonly'));
-        System.assertEquals('defaultAutocommit', propertyMappings.get('default.autocommit'));
-        System.assertEquals('poolSize', propertyMappings.get('pool.size'));
-        System.assertEquals('poolMaxWaitMsec', propertyMappings.get('pool.max.wait.msec'));
-        System.assertEquals('datasourceName', propertyMappings.get('datasource.name'));
-        System.assertEquals('datasourceSvcProperties', propertyMappings.get('datasource.svc.properties'));
+        Map<String, String> x-property-mappings = comDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties.getx-property-mappings();
+        System.assertEquals('jdbcDriverClass', x-property-mappings.get('jdbc.driver.class'));
+        System.assertEquals('jdbcConnectionUri', x-property-mappings.get('jdbc.connection.uri'));
+        System.assertEquals('jdbcUsername', x-property-mappings.get('jdbc.username'));
+        System.assertEquals('jdbcPassword', x-property-mappings.get('jdbc.password'));
+        System.assertEquals('jdbcValidationQuery', x-property-mappings.get('jdbc.validation.query'));
+        System.assertEquals('defaultReadonly', x-property-mappings.get('default.readonly'));
+        System.assertEquals('defaultAutocommit', x-property-mappings.get('default.autocommit'));
+        System.assertEquals('poolSize', x-property-mappings.get('pool.size'));
+        System.assertEquals('poolMaxWaitMsec', x-property-mappings.get('pool.max.wait.msec'));
+        System.assertEquals('datasourceName', x-property-mappings.get('datasource.name'));
+        System.assertEquals('datasourceSvcProperties', x-property-mappings.get('datasource.svc.properties'));
     }
 }

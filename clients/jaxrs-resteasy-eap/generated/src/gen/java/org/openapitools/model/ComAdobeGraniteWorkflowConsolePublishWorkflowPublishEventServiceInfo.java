@@ -4,24 +4,21 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ComAdobeGraniteWorkflowConsolePublishWorkflowPublishEventServiceProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2019-08-05T01:00:05.540Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2026-10-07T12:54:26.576036107Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteWorkflowConsolePublishWorkflowPublishEventServiceInfo   {
   
-
-  private String pid = null;
-
-  private String title = null;
-
-  private String description = null;
-
-  private ComAdobeGraniteWorkflowConsolePublishWorkflowPublishEventServiceProperties properties = null;
+  private String pid;
+  private String title;
+  private String description;
+  private ComAdobeGraniteWorkflowConsolePublishWorkflowPublishEventServiceProperties properties;
 
   /**
    **/
@@ -81,10 +78,10 @@ public class ComAdobeGraniteWorkflowConsolePublishWorkflowPublishEventServiceInf
       return false;
     }
     ComAdobeGraniteWorkflowConsolePublishWorkflowPublishEventServiceInfo comAdobeGraniteWorkflowConsolePublishWorkflowPublishEventServiceInfo = (ComAdobeGraniteWorkflowConsolePublishWorkflowPublishEventServiceInfo) o;
-    return Objects.equals(pid, comAdobeGraniteWorkflowConsolePublishWorkflowPublishEventServiceInfo.pid) &&
-        Objects.equals(title, comAdobeGraniteWorkflowConsolePublishWorkflowPublishEventServiceInfo.title) &&
-        Objects.equals(description, comAdobeGraniteWorkflowConsolePublishWorkflowPublishEventServiceInfo.description) &&
-        Objects.equals(properties, comAdobeGraniteWorkflowConsolePublishWorkflowPublishEventServiceInfo.properties);
+    return Objects.equals(this.pid, comAdobeGraniteWorkflowConsolePublishWorkflowPublishEventServiceInfo.pid) &&
+        Objects.equals(this.title, comAdobeGraniteWorkflowConsolePublishWorkflowPublishEventServiceInfo.title) &&
+        Objects.equals(this.description, comAdobeGraniteWorkflowConsolePublishWorkflowPublishEventServiceInfo.description) &&
+        Objects.equals(this.properties, comAdobeGraniteWorkflowConsolePublishWorkflowPublishEventServiceInfo.properties);
   }
 
   @Override
@@ -110,10 +107,7 @@ public class ComAdobeGraniteWorkflowConsolePublishWorkflowPublishEventServiceInf
    * (except the first line).
    */
   private String toIndentedString(Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

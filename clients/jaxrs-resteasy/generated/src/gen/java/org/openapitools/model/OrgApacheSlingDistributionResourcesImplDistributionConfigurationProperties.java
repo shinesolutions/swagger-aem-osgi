@@ -4,22 +4,26 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2019-08-05T00:59:30.156Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2026-10-07T12:54:21.614735164Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingDistributionResourcesImplDistributionConfigurationProperties   {
   
-  private ConfigNodePropertyString providerRoots = null;
-  private ConfigNodePropertyString kind = null;
+  private ConfigNodePropertyString providerRoots;
+  private ConfigNodePropertyString kind;
 
   /**
    **/
   
   @ApiModelProperty(value = "")
   @JsonProperty("provider.roots")
+  @Valid
   public ConfigNodePropertyString getProviderRoots() {
     return providerRoots;
   }
@@ -32,6 +36,7 @@ public class OrgApacheSlingDistributionResourcesImplDistributionConfigurationPro
   
   @ApiModelProperty(value = "")
   @JsonProperty("kind")
+  @Valid
   public ConfigNodePropertyString getKind() {
     return kind;
   }
@@ -41,7 +46,7 @@ public class OrgApacheSlingDistributionResourcesImplDistributionConfigurationPro
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -49,8 +54,8 @@ public class OrgApacheSlingDistributionResourcesImplDistributionConfigurationPro
       return false;
     }
     OrgApacheSlingDistributionResourcesImplDistributionConfigurationProperties orgApacheSlingDistributionResourcesImplDistributionConfigurationProperties = (OrgApacheSlingDistributionResourcesImplDistributionConfigurationProperties) o;
-    return Objects.equals(providerRoots, orgApacheSlingDistributionResourcesImplDistributionConfigurationProperties.providerRoots) &&
-        Objects.equals(kind, orgApacheSlingDistributionResourcesImplDistributionConfigurationProperties.kind);
+    return Objects.equals(this.providerRoots, orgApacheSlingDistributionResourcesImplDistributionConfigurationProperties.providerRoots) &&
+        Objects.equals(this.kind, orgApacheSlingDistributionResourcesImplDistributionConfigurationProperties.kind);
   }
 
   @Override
@@ -73,11 +78,8 @@ public class OrgApacheSlingDistributionResourcesImplDistributionConfigurationPro
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderProperties = openapi_server.resourceTypes.OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderProperties
+}
+resourceTypes {
+
+  OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderInfo {
+    title = OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderInfo
+    description = OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderInfo {
+    title = OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderInfo
+    description = OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderInfo
+    implements = openapi_server.resourceTypes.OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderInfo
+
+  }
+}

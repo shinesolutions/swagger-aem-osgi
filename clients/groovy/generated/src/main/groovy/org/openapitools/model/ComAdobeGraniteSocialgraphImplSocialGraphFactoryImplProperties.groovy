@@ -8,12 +8,12 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplProperties {
-    ConfigNodePropertyString group2memberRelationshipOutgoing = null
-
-    ConfigNodePropertyArray group2memberExcludedOutgoing = null
-
-    ConfigNodePropertyString group2memberRelationshipIncoming = null
-
-    ConfigNodePropertyArray group2memberExcludedIncoming = null
-
+    
+    ConfigNodePropertyString group2memberRelationshipOutgoing
+    
+    ConfigNodePropertyArray group2memberExcludedOutgoing
+    
+    ConfigNodePropertyString group2memberRelationshipIncoming
+    
+    ConfigNodePropertyArray group2memberExcludedIncoming
 }

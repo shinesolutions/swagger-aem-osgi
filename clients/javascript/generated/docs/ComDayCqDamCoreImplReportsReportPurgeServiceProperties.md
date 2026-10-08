@@ -1,6 +1,7 @@
 # NodeSwaggerAemOsgi.ComDayCqDamCoreImplReportsReportPurgeServiceProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **schedulerExpression** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 

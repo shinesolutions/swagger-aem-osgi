@@ -7,8 +7,8 @@ import org.openapitools.model.ConfigNodePropertyArray;
 
 @Canonical
 class ComDayCqMcmImplMCMConfigurationProperties {
-    ConfigNodePropertyArray experienceIndirection = null
-
-    ConfigNodePropertyArray touchpointIndirection = null
-
+    
+    ConfigNodePropertyArray experienceIndirection
+    
+    ConfigNodePropertyArray touchpointIndirection
 }

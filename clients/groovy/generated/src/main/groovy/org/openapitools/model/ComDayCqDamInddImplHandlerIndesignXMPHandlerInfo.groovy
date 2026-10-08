@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqDamInddImplHandlerIndesignXMPHandlerProper
 
 @Canonical
 class ComDayCqDamInddImplHandlerIndesignXMPHandlerInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqDamInddImplHandlerIndesignXMPHandlerProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqDamInddImplHandlerIndesignXMPHandlerProperties properties
 }

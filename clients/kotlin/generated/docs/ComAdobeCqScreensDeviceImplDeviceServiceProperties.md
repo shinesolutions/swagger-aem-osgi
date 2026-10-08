@@ -2,15 +2,15 @@
 # ComAdobeCqScreensDeviceImplDeviceServiceProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**comPeriodadobePeriodaemPeriodscreensPeriodplayerPeriodpingfrequency** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**comPeriodadobePeriodaemPeriodscreensPerioddevicePeriodpaswordPeriodspecialchars** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodaemPeriodscreensPerioddevicePeriodpaswordPeriodminlowercasechars** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**comPeriodadobePeriodaemPeriodscreensPerioddevicePeriodpaswordPeriodminuppercasechars** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**comPeriodadobePeriodaemPeriodscreensPerioddevicePeriodpaswordPeriodminnumberchars** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**comPeriodadobePeriodaemPeriodscreensPerioddevicePeriodpaswordPeriodminspecialchars** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**comPeriodadobePeriodaemPeriodscreensPerioddevicePeriodpaswordPeriodminlength** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **comAdobeAemScreensPlayerPingfrequency** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **comAdobeAemScreensDevicePaswordSpecialchars** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeAemScreensDevicePaswordMinlowercasechars** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **comAdobeAemScreensDevicePaswordMinuppercasechars** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **comAdobeAemScreensDevicePaswordMinnumberchars** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **comAdobeAemScreensDevicePaswordMinspecialchars** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **comAdobeAemScreensDevicePaswordMinlength** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
 
 
 

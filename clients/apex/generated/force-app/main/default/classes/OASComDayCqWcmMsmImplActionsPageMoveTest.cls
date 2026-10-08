@@ -72,10 +72,10 @@ private class OASComDayCqWcmMsmImplActionsPageMoveTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqWcmMsmImplActionsPageMove comDayCqWcmMsmImplActionsPageMoveActionFactoryProperties = new OASComDayCqWcmMsmImplActionsPageMove();
-        Map<String, String> propertyMappings = comDayCqWcmMsmImplActionsPageMoveActionFactoryProperties.getPropertyMappings();
-        System.assertEquals('cqWcmMsmActionExcludednodetypes', propertyMappings.get('cq.wcm.msm.action.excludednodetypes'));
-        System.assertEquals('cqWcmMsmActionExcludedparagraphitems', propertyMappings.get('cq.wcm.msm.action.excludedparagraphitems'));
-        System.assertEquals('cqWcmMsmActionExcludedprops', propertyMappings.get('cq.wcm.msm.action.excludedprops'));
-        System.assertEquals('cqWcmMsmImplActionsPagemovePropReferenceUpdate', propertyMappings.get('cq.wcm.msm.impl.actions.pagemove.prop_referenceUpdate'));
+        Map<String, String> x-property-mappings = comDayCqWcmMsmImplActionsPageMoveActionFactoryProperties.getx-property-mappings();
+        System.assertEquals('cqWcmMsmActionExcludednodetypes', x-property-mappings.get('cq.wcm.msm.action.excludednodetypes'));
+        System.assertEquals('cqWcmMsmActionExcludedparagraphitems', x-property-mappings.get('cq.wcm.msm.action.excludedparagraphitems'));
+        System.assertEquals('cqWcmMsmActionExcludedprops', x-property-mappings.get('cq.wcm.msm.action.excludedprops'));
+        System.assertEquals('cqWcmMsmImplActionsPagemovePropReferenceUpdate', x-property-mappings.get('cq.wcm.msm.impl.actions.pagemove.prop_referenceUpdate'));
     }
 }

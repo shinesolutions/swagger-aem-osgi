@@ -72,8 +72,8 @@ private class OASComDayCqWcmDesignimporterImplEntrTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqWcmDesignimporterImplEntr comDayCqWcmDesignimporterImplEntryPreprocessorImplProperties = new OASComDayCqWcmDesignimporterImplEntr();
-        Map<String, String> propertyMappings = comDayCqWcmDesignimporterImplEntryPreprocessorImplProperties.getPropertyMappings();
-        System.assertEquals('searchPattern', propertyMappings.get('search.pattern'));
-        System.assertEquals('replacePattern', propertyMappings.get('replace.pattern'));
+        Map<String, String> x-property-mappings = comDayCqWcmDesignimporterImplEntryPreprocessorImplProperties.getx-property-mappings();
+        System.assertEquals('searchPattern', x-property-mappings.get('search.pattern'));
+        System.assertEquals('replacePattern', x-property-mappings.get('replace.pattern'));
     }
 }

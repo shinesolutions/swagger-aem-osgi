@@ -1,12 +1,13 @@
 # ComAdobeCqSocialHandlebarsGuavaTemplateCacheImplProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**parameter_guava_cache_enabled** | [***::models::ConfigNodePropertyBoolean**](configNodePropertyBoolean.md) |  | [optional] 
-**parameter_guava_cache_params** | [***::models::ConfigNodePropertyString**](configNodePropertyString.md) |  | [optional] 
-**parameter_guava_cache_reload** | [***::models::ConfigNodePropertyBoolean**](configNodePropertyBoolean.md) |  | [optional] 
-**service_ranking** | [***::models::ConfigNodePropertyInteger**](configNodePropertyInteger.md) |  | [optional] 
+**parameter_guava_cache_enabled** | Option<[**models::ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md)> |  | [optional]
+**parameter_guava_cache_params** | Option<[**models::ConfigNodePropertyString**](ConfigNodePropertyString.md)> |  | [optional]
+**parameter_guava_cache_reload** | Option<[**models::ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md)> |  | [optional]
+**service_ranking** | Option<[**models::ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md)> |  | [optional]
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

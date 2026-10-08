@@ -2,23 +2,28 @@ package apimodels;
 
 import apimodels.ConfigNodePropertyBoolean;
 import apimodels.ConfigNodePropertyString;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * ComDayCqDamCoreProcessExifToolExtractMetadataProcessProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class ComDayCqDamCoreProcessExifToolExtractMetadataProcessProperties   {
   @JsonProperty("process.label")
-  private ConfigNodePropertyString processLabel = null;
+  @Valid
+
+  private ConfigNodePropertyString processLabel;
 
   @JsonProperty("cq.dam.enable.sha1")
-  private ConfigNodePropertyBoolean cqDamEnableSha1 = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean cqDamEnableSha1;
 
   public ComDayCqDamCoreProcessExifToolExtractMetadataProcessProperties processLabel(ConfigNodePropertyString processLabel) {
     this.processLabel = processLabel;
@@ -29,7 +34,6 @@ public class ComDayCqDamCoreProcessExifToolExtractMetadataProcessProperties   {
    * Get processLabel
    * @return processLabel
   **/
-  @Valid
   public ConfigNodePropertyString getProcessLabel() {
     return processLabel;
   }
@@ -47,7 +51,6 @@ public class ComDayCqDamCoreProcessExifToolExtractMetadataProcessProperties   {
    * Get cqDamEnableSha1
    * @return cqDamEnableSha1
   **/
-  @Valid
   public ConfigNodePropertyBoolean getCqDamEnableSha1() {
     return cqDamEnableSha1;
   }
@@ -58,7 +61,7 @@ public class ComDayCqDamCoreProcessExifToolExtractMetadataProcessProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -91,11 +94,8 @@ public class ComDayCqDamCoreProcessExifToolExtractMetadataProcessProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

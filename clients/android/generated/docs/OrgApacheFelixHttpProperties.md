@@ -1,7 +1,9 @@
 
+
 # OrgApacheFelixHttpProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **orgApacheFelixHttpHost** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
@@ -57,6 +59,7 @@ Name | Type | Description | Notes
 **orgApacheFelixJettyGzipExcludedMimeTypes** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
 **orgApacheFelixHttpSessionInvalidate** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
 **orgApacheFelixHttpSessionUniqueid** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
+
 
 
 

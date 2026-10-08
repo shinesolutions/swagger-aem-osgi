@@ -72,7 +72,7 @@ private class OASComDayCqSecurityACLSetupPropertieTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqSecurityACLSetupPropertie comDayCqSecurityACLSetupProperties = new OASComDayCqSecurityACLSetupPropertie();
-        Map<String, String> propertyMappings = comDayCqSecurityACLSetupProperties.getPropertyMappings();
-        System.assertEquals('cqAclsetupRules', propertyMappings.get('cq.aclsetup.rules'));
+        Map<String, String> x-property-mappings = comDayCqSecurityACLSetupProperties.getx-property-mappings();
+        System.assertEquals('cqAclsetupRules', x-property-mappings.get('cq.aclsetup.rules'));
     }
 }

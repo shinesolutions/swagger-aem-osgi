@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyBoolean;
 
 @Canonical
 class ComDayCqDamVideoImplServletVideoTestServletProperties {
-    ConfigNodePropertyBoolean enabled = null
-
+    
+    ConfigNodePropertyBoolean enabled
 }

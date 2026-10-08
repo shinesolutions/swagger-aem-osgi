@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeGraniteFragsImplCheckHttpHeaderFlagPropert
 
 @Canonical
 class ComAdobeGraniteFragsImplCheckHttpHeaderFlagInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteFragsImplCheckHttpHeaderFlagProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteFragsImplCheckHttpHeaderFlagProperties properties
 }

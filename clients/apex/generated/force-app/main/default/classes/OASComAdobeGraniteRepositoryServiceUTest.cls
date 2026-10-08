@@ -72,9 +72,9 @@ private class OASComAdobeGraniteRepositoryServiceUTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeGraniteRepositoryServiceU comAdobeGraniteRepositoryServiceUserConfigurationProperties = new OASComAdobeGraniteRepositoryServiceU();
-        Map<String, String> propertyMappings = comAdobeGraniteRepositoryServiceUserConfigurationProperties.getPropertyMappings();
-        System.assertEquals('serviceRanking', propertyMappings.get('service.ranking'));
-        System.assertEquals('serviceusersSimpleSubjectPopulation', propertyMappings.get('serviceusers.simpleSubjectPopulation'));
-        System.assertEquals('serviceusersList', propertyMappings.get('serviceusers.list'));
+        Map<String, String> x-property-mappings = comAdobeGraniteRepositoryServiceUserConfigurationProperties.getx-property-mappings();
+        System.assertEquals('serviceRanking', x-property-mappings.get('service.ranking'));
+        System.assertEquals('serviceusersSimpleSubjectPopulation', x-property-mappings.get('serviceusers.simpleSubjectPopulation'));
+        System.assertEquals('serviceusersList', x-property-mappings.get('serviceusers.list'));
     }
 }

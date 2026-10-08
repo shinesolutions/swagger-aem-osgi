@@ -1,53 +1,65 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
 import io.swagger.annotations.ApiModelProperty;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlType;
-import javax.xml.bind.annotation.XmlEnum;
-import javax.xml.bind.annotation.XmlEnumValue;
+import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
 
 public class OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfProperties  {
   
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyString solrHttpUrl = null;
+
+  private ConfigNodePropertyString solrHttpUrl;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyString solrZkHost = null;
+
+  private ConfigNodePropertyString solrZkHost;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyString solrCollection = null;
+
+  private ConfigNodePropertyString solrCollection;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyInteger solrSocketTimeout = null;
+
+  private ConfigNodePropertyInteger solrSocketTimeout;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyInteger solrConnectionTimeout = null;
+
+  private ConfigNodePropertyInteger solrConnectionTimeout;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyInteger solrShardsNo = null;
+
+  private ConfigNodePropertyInteger solrShardsNo;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyInteger solrReplicationFactor = null;
+
+  private ConfigNodePropertyInteger solrReplicationFactor;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyString solrConfDir = null;
+
+  private ConfigNodePropertyString solrConfDir;
  /**
    * Get solrHttpUrl
    * @return solrHttpUrl
@@ -192,6 +204,29 @@ public class OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfPrope
     return this;
   }
 
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfProperties orgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfProperties = (OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfProperties) o;
+    return Objects.equals(this.solrHttpUrl, orgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfProperties.solrHttpUrl) &&
+        Objects.equals(this.solrZkHost, orgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfProperties.solrZkHost) &&
+        Objects.equals(this.solrCollection, orgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfProperties.solrCollection) &&
+        Objects.equals(this.solrSocketTimeout, orgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfProperties.solrSocketTimeout) &&
+        Objects.equals(this.solrConnectionTimeout, orgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfProperties.solrConnectionTimeout) &&
+        Objects.equals(this.solrShardsNo, orgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfProperties.solrShardsNo) &&
+        Objects.equals(this.solrReplicationFactor, orgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfProperties.solrReplicationFactor) &&
+        Objects.equals(this.solrConfDir, orgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfProperties.solrConfDir);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(solrHttpUrl, solrZkHost, solrCollection, solrSocketTimeout, solrConnectionTimeout, solrShardsNo, solrReplicationFactor, solrConfDir);
+  }
 
   @Override
   public String toString() {
@@ -214,11 +249,8 @@ public class OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfPrope
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private static String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

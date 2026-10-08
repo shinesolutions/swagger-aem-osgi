@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqTaggingImplJcrTagManagerFactoryImplInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqTaggingImplJcrTagManagerFactoryImplInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComDayCqTaggingImplJcrTagManagerFactoryImplProperties = openapi_server.resourceTypes.ComDayCqTaggingImplJcrTagManagerFactoryImplProperties
+}
+resourceTypes {
+
+  ComDayCqTaggingImplJcrTagManagerFactoryImplInfo {
+    title = ComDayCqTaggingImplJcrTagManagerFactoryImplInfo
+    description = ComDayCqTaggingImplJcrTagManagerFactoryImplInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComDayCqTaggingImplJcrTagManagerFactoryImplProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqTaggingImplJcrTagManagerFactoryImplInfo {
+    title = ComDayCqTaggingImplJcrTagManagerFactoryImplInfo
+    description = ComDayCqTaggingImplJcrTagManagerFactoryImplInfo
+    implements = openapi_server.resourceTypes.ComDayCqTaggingImplJcrTagManagerFactoryImplInfo
+
+  }
+}

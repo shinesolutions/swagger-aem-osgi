@@ -1,48 +1,59 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComDayCqAuthImplLoginSelectorHandlerProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComDayCqAuthImplLoginSelectorHandlerProperties   {
-  @JsonProperty("path")
-  private ConfigNodePropertyString path = null;
+@JsonTypeName("comDayCqAuthImplLoginSelectorHandlerProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComDayCqAuthImplLoginSelectorHandlerProperties {
 
-  @JsonProperty("service.ranking")
-  private ConfigNodePropertyInteger serviceRanking = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString path;
 
-  @JsonProperty("auth.loginselector.mappings")
-  private ConfigNodePropertyArray authLoginselectorMappings = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger serviceRanking;
 
-  @JsonProperty("auth.loginselector.changepw.mappings")
-  private ConfigNodePropertyArray authLoginselectorChangepwMappings = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray authLoginselectorMappings;
 
-  @JsonProperty("auth.loginselector.defaultloginpage")
-  private ConfigNodePropertyString authLoginselectorDefaultloginpage = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray authLoginselectorChangepwMappings;
 
-  @JsonProperty("auth.loginselector.defaultchangepwpage")
-  private ConfigNodePropertyString authLoginselectorDefaultchangepwpage = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString authLoginselectorDefaultloginpage;
 
-  @JsonProperty("auth.loginselector.handle")
-  private ConfigNodePropertyArray authLoginselectorHandle = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString authLoginselectorDefaultchangepwpage;
 
-  @JsonProperty("auth.loginselector.handle.all.extensions")
-  private ConfigNodePropertyBoolean authLoginselectorHandleAllExtensions = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray authLoginselectorHandle;
 
-  public ComDayCqAuthImplLoginSelectorHandlerProperties path(ConfigNodePropertyString path) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean authLoginselectorHandleAllExtensions;
+
+  public ComDayCqAuthImplLoginSelectorHandlerProperties path(@Nullable ConfigNodePropertyString path) {
     this.path = path;
     return this;
   }
@@ -50,20 +61,20 @@ public class ComDayCqAuthImplLoginSelectorHandlerProperties   {
   /**
    * Get path
    * @return path
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getPath() {
+   */
+  @Valid 
+  @Schema(name = "path", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("path")
+  public @Nullable ConfigNodePropertyString getPath() {
     return path;
   }
 
-  public void setPath(ConfigNodePropertyString path) {
+  @JsonProperty("path")
+  public void setPath(@Nullable ConfigNodePropertyString path) {
     this.path = path;
   }
 
-  public ComDayCqAuthImplLoginSelectorHandlerProperties serviceRanking(ConfigNodePropertyInteger serviceRanking) {
+  public ComDayCqAuthImplLoginSelectorHandlerProperties serviceRanking(@Nullable ConfigNodePropertyInteger serviceRanking) {
     this.serviceRanking = serviceRanking;
     return this;
   }
@@ -71,20 +82,20 @@ public class ComDayCqAuthImplLoginSelectorHandlerProperties   {
   /**
    * Get serviceRanking
    * @return serviceRanking
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getServiceRanking() {
+   */
+  @Valid 
+  @Schema(name = "service.ranking", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("service.ranking")
+  public @Nullable ConfigNodePropertyInteger getServiceRanking() {
     return serviceRanking;
   }
 
-  public void setServiceRanking(ConfigNodePropertyInteger serviceRanking) {
+  @JsonProperty("service.ranking")
+  public void setServiceRanking(@Nullable ConfigNodePropertyInteger serviceRanking) {
     this.serviceRanking = serviceRanking;
   }
 
-  public ComDayCqAuthImplLoginSelectorHandlerProperties authLoginselectorMappings(ConfigNodePropertyArray authLoginselectorMappings) {
+  public ComDayCqAuthImplLoginSelectorHandlerProperties authLoginselectorMappings(@Nullable ConfigNodePropertyArray authLoginselectorMappings) {
     this.authLoginselectorMappings = authLoginselectorMappings;
     return this;
   }
@@ -92,20 +103,20 @@ public class ComDayCqAuthImplLoginSelectorHandlerProperties   {
   /**
    * Get authLoginselectorMappings
    * @return authLoginselectorMappings
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getAuthLoginselectorMappings() {
+   */
+  @Valid 
+  @Schema(name = "auth.loginselector.mappings", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("auth.loginselector.mappings")
+  public @Nullable ConfigNodePropertyArray getAuthLoginselectorMappings() {
     return authLoginselectorMappings;
   }
 
-  public void setAuthLoginselectorMappings(ConfigNodePropertyArray authLoginselectorMappings) {
+  @JsonProperty("auth.loginselector.mappings")
+  public void setAuthLoginselectorMappings(@Nullable ConfigNodePropertyArray authLoginselectorMappings) {
     this.authLoginselectorMappings = authLoginselectorMappings;
   }
 
-  public ComDayCqAuthImplLoginSelectorHandlerProperties authLoginselectorChangepwMappings(ConfigNodePropertyArray authLoginselectorChangepwMappings) {
+  public ComDayCqAuthImplLoginSelectorHandlerProperties authLoginselectorChangepwMappings(@Nullable ConfigNodePropertyArray authLoginselectorChangepwMappings) {
     this.authLoginselectorChangepwMappings = authLoginselectorChangepwMappings;
     return this;
   }
@@ -113,20 +124,20 @@ public class ComDayCqAuthImplLoginSelectorHandlerProperties   {
   /**
    * Get authLoginselectorChangepwMappings
    * @return authLoginselectorChangepwMappings
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getAuthLoginselectorChangepwMappings() {
+   */
+  @Valid 
+  @Schema(name = "auth.loginselector.changepw.mappings", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("auth.loginselector.changepw.mappings")
+  public @Nullable ConfigNodePropertyArray getAuthLoginselectorChangepwMappings() {
     return authLoginselectorChangepwMappings;
   }
 
-  public void setAuthLoginselectorChangepwMappings(ConfigNodePropertyArray authLoginselectorChangepwMappings) {
+  @JsonProperty("auth.loginselector.changepw.mappings")
+  public void setAuthLoginselectorChangepwMappings(@Nullable ConfigNodePropertyArray authLoginselectorChangepwMappings) {
     this.authLoginselectorChangepwMappings = authLoginselectorChangepwMappings;
   }
 
-  public ComDayCqAuthImplLoginSelectorHandlerProperties authLoginselectorDefaultloginpage(ConfigNodePropertyString authLoginselectorDefaultloginpage) {
+  public ComDayCqAuthImplLoginSelectorHandlerProperties authLoginselectorDefaultloginpage(@Nullable ConfigNodePropertyString authLoginselectorDefaultloginpage) {
     this.authLoginselectorDefaultloginpage = authLoginselectorDefaultloginpage;
     return this;
   }
@@ -134,20 +145,20 @@ public class ComDayCqAuthImplLoginSelectorHandlerProperties   {
   /**
    * Get authLoginselectorDefaultloginpage
    * @return authLoginselectorDefaultloginpage
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getAuthLoginselectorDefaultloginpage() {
+   */
+  @Valid 
+  @Schema(name = "auth.loginselector.defaultloginpage", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("auth.loginselector.defaultloginpage")
+  public @Nullable ConfigNodePropertyString getAuthLoginselectorDefaultloginpage() {
     return authLoginselectorDefaultloginpage;
   }
 
-  public void setAuthLoginselectorDefaultloginpage(ConfigNodePropertyString authLoginselectorDefaultloginpage) {
+  @JsonProperty("auth.loginselector.defaultloginpage")
+  public void setAuthLoginselectorDefaultloginpage(@Nullable ConfigNodePropertyString authLoginselectorDefaultloginpage) {
     this.authLoginselectorDefaultloginpage = authLoginselectorDefaultloginpage;
   }
 
-  public ComDayCqAuthImplLoginSelectorHandlerProperties authLoginselectorDefaultchangepwpage(ConfigNodePropertyString authLoginselectorDefaultchangepwpage) {
+  public ComDayCqAuthImplLoginSelectorHandlerProperties authLoginselectorDefaultchangepwpage(@Nullable ConfigNodePropertyString authLoginselectorDefaultchangepwpage) {
     this.authLoginselectorDefaultchangepwpage = authLoginselectorDefaultchangepwpage;
     return this;
   }
@@ -155,20 +166,20 @@ public class ComDayCqAuthImplLoginSelectorHandlerProperties   {
   /**
    * Get authLoginselectorDefaultchangepwpage
    * @return authLoginselectorDefaultchangepwpage
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getAuthLoginselectorDefaultchangepwpage() {
+   */
+  @Valid 
+  @Schema(name = "auth.loginselector.defaultchangepwpage", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("auth.loginselector.defaultchangepwpage")
+  public @Nullable ConfigNodePropertyString getAuthLoginselectorDefaultchangepwpage() {
     return authLoginselectorDefaultchangepwpage;
   }
 
-  public void setAuthLoginselectorDefaultchangepwpage(ConfigNodePropertyString authLoginselectorDefaultchangepwpage) {
+  @JsonProperty("auth.loginselector.defaultchangepwpage")
+  public void setAuthLoginselectorDefaultchangepwpage(@Nullable ConfigNodePropertyString authLoginselectorDefaultchangepwpage) {
     this.authLoginselectorDefaultchangepwpage = authLoginselectorDefaultchangepwpage;
   }
 
-  public ComDayCqAuthImplLoginSelectorHandlerProperties authLoginselectorHandle(ConfigNodePropertyArray authLoginselectorHandle) {
+  public ComDayCqAuthImplLoginSelectorHandlerProperties authLoginselectorHandle(@Nullable ConfigNodePropertyArray authLoginselectorHandle) {
     this.authLoginselectorHandle = authLoginselectorHandle;
     return this;
   }
@@ -176,20 +187,20 @@ public class ComDayCqAuthImplLoginSelectorHandlerProperties   {
   /**
    * Get authLoginselectorHandle
    * @return authLoginselectorHandle
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getAuthLoginselectorHandle() {
+   */
+  @Valid 
+  @Schema(name = "auth.loginselector.handle", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("auth.loginselector.handle")
+  public @Nullable ConfigNodePropertyArray getAuthLoginselectorHandle() {
     return authLoginselectorHandle;
   }
 
-  public void setAuthLoginselectorHandle(ConfigNodePropertyArray authLoginselectorHandle) {
+  @JsonProperty("auth.loginselector.handle")
+  public void setAuthLoginselectorHandle(@Nullable ConfigNodePropertyArray authLoginselectorHandle) {
     this.authLoginselectorHandle = authLoginselectorHandle;
   }
 
-  public ComDayCqAuthImplLoginSelectorHandlerProperties authLoginselectorHandleAllExtensions(ConfigNodePropertyBoolean authLoginselectorHandleAllExtensions) {
+  public ComDayCqAuthImplLoginSelectorHandlerProperties authLoginselectorHandleAllExtensions(@Nullable ConfigNodePropertyBoolean authLoginselectorHandleAllExtensions) {
     this.authLoginselectorHandleAllExtensions = authLoginselectorHandleAllExtensions;
     return this;
   }
@@ -197,22 +208,21 @@ public class ComDayCqAuthImplLoginSelectorHandlerProperties   {
   /**
    * Get authLoginselectorHandleAllExtensions
    * @return authLoginselectorHandleAllExtensions
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getAuthLoginselectorHandleAllExtensions() {
+   */
+  @Valid 
+  @Schema(name = "auth.loginselector.handle.all.extensions", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("auth.loginselector.handle.all.extensions")
+  public @Nullable ConfigNodePropertyBoolean getAuthLoginselectorHandleAllExtensions() {
     return authLoginselectorHandleAllExtensions;
   }
 
-  public void setAuthLoginselectorHandleAllExtensions(ConfigNodePropertyBoolean authLoginselectorHandleAllExtensions) {
+  @JsonProperty("auth.loginselector.handle.all.extensions")
+  public void setAuthLoginselectorHandleAllExtensions(@Nullable ConfigNodePropertyBoolean authLoginselectorHandleAllExtensions) {
     this.authLoginselectorHandleAllExtensions = authLoginselectorHandleAllExtensions;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -239,7 +249,6 @@ public class ComDayCqAuthImplLoginSelectorHandlerProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComDayCqAuthImplLoginSelectorHandlerProperties {\n");
-    
     sb.append("    path: ").append(toIndentedString(path)).append("\n");
     sb.append("    serviceRanking: ").append(toIndentedString(serviceRanking)).append("\n");
     sb.append("    authLoginselectorMappings: ").append(toIndentedString(authLoginselectorMappings)).append("\n");
@@ -256,11 +265,8 @@ public class ComDayCqAuthImplLoginSelectorHandlerProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

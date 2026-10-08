@@ -1,9 +1,55 @@
 # ComDayCqDamCoreImplJmxAssetMigrationMBeanImplProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**JmxObjectname** | [**ConfigNodePropertyString**](configNodePropertyString.md) |  | [optional] 
+**JmxObjectname** | Pointer to [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
+
+## Methods
+
+### NewComDayCqDamCoreImplJmxAssetMigrationMBeanImplProperties
+
+`func NewComDayCqDamCoreImplJmxAssetMigrationMBeanImplProperties() *ComDayCqDamCoreImplJmxAssetMigrationMBeanImplProperties`
+
+NewComDayCqDamCoreImplJmxAssetMigrationMBeanImplProperties instantiates a new ComDayCqDamCoreImplJmxAssetMigrationMBeanImplProperties object
+This constructor will assign default values to properties that have it defined,
+and makes sure properties required by API are set, but the set of arguments
+will change when the set of required properties is changed
+
+### NewComDayCqDamCoreImplJmxAssetMigrationMBeanImplPropertiesWithDefaults
+
+`func NewComDayCqDamCoreImplJmxAssetMigrationMBeanImplPropertiesWithDefaults() *ComDayCqDamCoreImplJmxAssetMigrationMBeanImplProperties`
+
+NewComDayCqDamCoreImplJmxAssetMigrationMBeanImplPropertiesWithDefaults instantiates a new ComDayCqDamCoreImplJmxAssetMigrationMBeanImplProperties object
+This constructor will only assign default values to properties that have it defined,
+but it doesn't guarantee that properties required by API are set
+
+### GetJmxObjectname
+
+`func (o *ComDayCqDamCoreImplJmxAssetMigrationMBeanImplProperties) GetJmxObjectname() ConfigNodePropertyString`
+
+GetJmxObjectname returns the JmxObjectname field if non-nil, zero value otherwise.
+
+### GetJmxObjectnameOk
+
+`func (o *ComDayCqDamCoreImplJmxAssetMigrationMBeanImplProperties) GetJmxObjectnameOk() (*ConfigNodePropertyString, bool)`
+
+GetJmxObjectnameOk returns a tuple with the JmxObjectname field if it's non-nil, zero value otherwise
+and a boolean to check if the value has been set.
+
+### SetJmxObjectname
+
+`func (o *ComDayCqDamCoreImplJmxAssetMigrationMBeanImplProperties) SetJmxObjectname(v ConfigNodePropertyString)`
+
+SetJmxObjectname sets JmxObjectname field to given value.
+
+### HasJmxObjectname
+
+`func (o *ComDayCqDamCoreImplJmxAssetMigrationMBeanImplProperties) HasJmxObjectname() bool`
+
+HasJmxObjectname returns a boolean if a field has been set.
+
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

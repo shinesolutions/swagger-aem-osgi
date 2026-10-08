@@ -1,19 +1,30 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliProperties   {
-  
-  private @Valid ConfigNodePropertyArray defaultAttachmentTypeBlacklist = null;
-  private @Valid ConfigNodePropertyArray baselineAttachmentTypeBlacklist = null;
+  private ConfigNodePropertyArray defaultAttachmentTypeBlacklist;
+  private ConfigNodePropertyArray baselineAttachmentTypeBlacklist;
+
+  public ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliProperties() {
+  }
 
   /**
    **/
@@ -25,9 +36,11 @@ public class ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("default.attachment.type.blacklist")
-  public ConfigNodePropertyArray getDefaultAttachmentTypeBlacklist() {
+  @Valid public ConfigNodePropertyArray getDefaultAttachmentTypeBlacklist() {
     return defaultAttachmentTypeBlacklist;
   }
+
+  @JsonProperty("default.attachment.type.blacklist")
   public void setDefaultAttachmentTypeBlacklist(ConfigNodePropertyArray defaultAttachmentTypeBlacklist) {
     this.defaultAttachmentTypeBlacklist = defaultAttachmentTypeBlacklist;
   }
@@ -42,16 +55,18 @@ public class ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("baseline.attachment.type.blacklist")
-  public ConfigNodePropertyArray getBaselineAttachmentTypeBlacklist() {
+  @Valid public ConfigNodePropertyArray getBaselineAttachmentTypeBlacklist() {
     return baselineAttachmentTypeBlacklist;
   }
+
+  @JsonProperty("baseline.attachment.type.blacklist")
   public void setBaselineAttachmentTypeBlacklist(ConfigNodePropertyArray baselineAttachmentTypeBlacklist) {
     this.baselineAttachmentTypeBlacklist = baselineAttachmentTypeBlacklist;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -59,8 +74,8 @@ public class ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliProp
       return false;
     }
     ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliProperties comAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliProperties = (ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliProperties) o;
-    return Objects.equals(defaultAttachmentTypeBlacklist, comAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliProperties.defaultAttachmentTypeBlacklist) &&
-        Objects.equals(baselineAttachmentTypeBlacklist, comAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliProperties.baselineAttachmentTypeBlacklist);
+    return Objects.equals(this.defaultAttachmentTypeBlacklist, comAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliProperties.defaultAttachmentTypeBlacklist) &&
+        Objects.equals(this.baselineAttachmentTypeBlacklist, comAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliProperties.baselineAttachmentTypeBlacklist);
   }
 
   @Override
@@ -83,11 +98,9 @@ public class ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliProp
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

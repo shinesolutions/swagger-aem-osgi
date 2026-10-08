@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class ComDayCqDamHandlerStandardPsdPsdHandlerProperties {
-    ConfigNodePropertyInteger largeFileThreshold = null
-
+    
+    ConfigNodePropertyInteger largeFileThreshold
 }

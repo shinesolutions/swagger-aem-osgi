@@ -7,20 +7,20 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpProperties {
-    ConfigNodePropertyString patternTime = null
-
-    ConfigNodePropertyString patternNewline = null
-
-    ConfigNodePropertyString patternDayOfMonth = null
-
-    ConfigNodePropertyString patternMonth = null
-
-    ConfigNodePropertyString patternYear = null
-
-    ConfigNodePropertyString patternDate = null
-
-    ConfigNodePropertyString patternDateTime = null
-
-    ConfigNodePropertyString patternEmail = null
-
+    
+    ConfigNodePropertyString patternTime
+    
+    ConfigNodePropertyString patternNewline
+    
+    ConfigNodePropertyString patternDayOfMonth
+    
+    ConfigNodePropertyString patternMonth
+    
+    ConfigNodePropertyString patternYear
+    
+    ConfigNodePropertyString patternDate
+    
+    ConfigNodePropertyString patternDateTime
+    
+    ConfigNodePropertyString patternEmail
 }

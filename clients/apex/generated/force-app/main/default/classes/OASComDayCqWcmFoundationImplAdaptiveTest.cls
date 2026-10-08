@@ -72,7 +72,7 @@ private class OASComDayCqWcmFoundationImplAdaptiveTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqWcmFoundationImplAdaptive comDayCqWcmFoundationImplAdaptiveImageComponentServletProperties = new OASComDayCqWcmFoundationImplAdaptive();
-        Map<String, String> propertyMappings = comDayCqWcmFoundationImplAdaptiveImageComponentServletProperties.getPropertyMappings();
-        System.assertEquals('adaptSupportedWidths', propertyMappings.get('adapt.supported.widths'));
+        Map<String, String> x-property-mappings = comDayCqWcmFoundationImplAdaptiveImageComponentServletProperties.getx-property-mappings();
+        System.assertEquals('adaptSupportedWidths', x-property-mappings.get('adapt.supported.widths'));
     }
 }

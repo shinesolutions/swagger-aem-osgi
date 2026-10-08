@@ -8,8 +8,8 @@ import org.openapitools.model.ConfigNodePropertyBoolean;
 
 @Canonical
 class ComAdobeGraniteWorkflowCoreJobJobHandlerProperties {
-    ConfigNodePropertyArray jobTopics = null
-
-    ConfigNodePropertyBoolean allowSelfProcessTermination = null
-
+    
+    ConfigNodePropertyArray jobTopics
+    
+    ConfigNodePropertyBoolean allowSelfProcessTermination
 }

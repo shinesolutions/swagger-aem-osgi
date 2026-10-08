@@ -1,10 +1,13 @@
 
+
 # ComAdobeCqCommercePimImplProductfeedProductFeedServiceImplProperties
 
+
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**feedGeneratorAlgorithm** | [**ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md) |  |  [optional]
+
+| Name | Type | Description | Notes |
+|------------ | ------------- | ------------- | -------------|
+|**feedGeneratorAlgorithm** | [**ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md) |  |  [optional] |
 
 
 

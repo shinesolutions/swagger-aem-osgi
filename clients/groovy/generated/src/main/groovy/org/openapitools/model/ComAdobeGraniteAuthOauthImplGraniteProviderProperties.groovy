@@ -7,14 +7,14 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeGraniteAuthOauthImplGraniteProviderProperties {
-    ConfigNodePropertyString oauthProviderId = null
-
-    ConfigNodePropertyString oauthProviderGraniteAuthorizationUrl = null
-
-    ConfigNodePropertyString oauthProviderGraniteTokenUrl = null
-
-    ConfigNodePropertyString oauthProviderGraniteProfileUrl = null
-
-    ConfigNodePropertyString oauthProviderGraniteExtendedDetailsUrls = null
-
+    
+    ConfigNodePropertyString oauthProviderId
+    
+    ConfigNodePropertyString oauthProviderGraniteAuthorizationUrl
+    
+    ConfigNodePropertyString oauthProviderGraniteTokenUrl
+    
+    ConfigNodePropertyString oauthProviderGraniteProfileUrl
+    
+    ConfigNodePropertyString oauthProviderGraniteExtendedDetailsUrls
 }

@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeGraniteCompatrouterImplRoutingConfigProper
 
 @Canonical
 class ComAdobeGraniteCompatrouterImplRoutingConfigInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteCompatrouterImplRoutingConfigProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteCompatrouterImplRoutingConfigProperties properties
 }

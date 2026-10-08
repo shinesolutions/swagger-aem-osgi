@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class ComDayCqDamInddImplServletSnippetCreationServletProperties {
-    ConfigNodePropertyInteger snippetcreationMaxcollections = null
-
+    
+    ConfigNodePropertyInteger snippetcreationMaxcollections
 }

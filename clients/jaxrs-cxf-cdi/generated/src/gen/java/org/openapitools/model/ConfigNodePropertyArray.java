@@ -2,32 +2,34 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class ConfigNodePropertyArray   {
   
-  private String name = null;
+  private String name;
 
-  private Boolean optional = null;
+  private Boolean optional;
 
-  private Boolean isSet = null;
+  private Boolean isSet;
 
-  private Integer type = null;
+  private Integer type;
 
-  private List<String> values = null;
+  private List<String> values = new ArrayList<>();
 
-  private String description = null;
-
+  private String description;
 
   /**
    * property name
@@ -125,7 +127,7 @@ public class ConfigNodePropertyArray   {
 
   public ConfigNodePropertyArray addValuesItem(String valuesItem) {
     if (this.values == null) {
-      this.values = new ArrayList<String>();
+      this.values = new ArrayList<>();
     }
     this.values.add(valuesItem);
     return this;
@@ -153,7 +155,7 @@ public class ConfigNodePropertyArray   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -161,12 +163,12 @@ public class ConfigNodePropertyArray   {
       return false;
     }
     ConfigNodePropertyArray configNodePropertyArray = (ConfigNodePropertyArray) o;
-    return Objects.equals(name, configNodePropertyArray.name) &&
-        Objects.equals(optional, configNodePropertyArray.optional) &&
-        Objects.equals(isSet, configNodePropertyArray.isSet) &&
-        Objects.equals(type, configNodePropertyArray.type) &&
-        Objects.equals(values, configNodePropertyArray.values) &&
-        Objects.equals(description, configNodePropertyArray.description);
+    return Objects.equals(this.name, configNodePropertyArray.name) &&
+        Objects.equals(this.optional, configNodePropertyArray.optional) &&
+        Objects.equals(this.isSet, configNodePropertyArray.isSet) &&
+        Objects.equals(this.type, configNodePropertyArray.type) &&
+        Objects.equals(this.values, configNodePropertyArray.values) &&
+        Objects.equals(this.description, configNodePropertyArray.description);
   }
 
   @Override
@@ -193,11 +195,8 @@ public class ConfigNodePropertyArray   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

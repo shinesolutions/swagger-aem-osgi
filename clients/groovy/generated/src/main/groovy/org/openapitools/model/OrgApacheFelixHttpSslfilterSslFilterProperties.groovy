@@ -8,12 +8,12 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class OrgApacheFelixHttpSslfilterSslFilterProperties {
-    ConfigNodePropertyString sslForwardHeader = null
-
-    ConfigNodePropertyString sslForwardValue = null
-
-    ConfigNodePropertyString sslForwardCertHeader = null
-
-    ConfigNodePropertyBoolean rewriteAbsoluteUrls = null
-
+    
+    ConfigNodePropertyString sslForwardHeader
+    
+    ConfigNodePropertyString sslForwardValue
+    
+    ConfigNodePropertyString sslForwardCertHeader
+    
+    ConfigNodePropertyBoolean rewriteAbsoluteUrls
 }

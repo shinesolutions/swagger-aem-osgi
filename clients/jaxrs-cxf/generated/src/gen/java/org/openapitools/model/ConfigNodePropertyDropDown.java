@@ -1,54 +1,58 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 import org.openapitools.model.ConfigNodePropertyDropDownType;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
 import io.swagger.annotations.ApiModelProperty;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlType;
-import javax.xml.bind.annotation.XmlEnum;
-import javax.xml.bind.annotation.XmlEnumValue;
+import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
 
 public class ConfigNodePropertyDropDown  {
   
+ /**
+  * property name
+  */
   @ApiModelProperty(value = "property name")
- /**
-   * property name
-  **/
-  private String name = null;
 
+  private String name;
+
+ /**
+  * True if optional
+  */
   @ApiModelProperty(value = "True if optional")
- /**
-   * True if optional
-  **/
-  private Boolean optional = null;
 
-  @ApiModelProperty(value = "True if property is set")
+  private Boolean optional;
+
  /**
-   * True if property is set
-  **/
-  private Boolean isSet = null;
+  * True if property is set
+  */
+  @ApiModelProperty(value = "True if property is set")
+
+  private Boolean isSet;
 
   @ApiModelProperty(value = "")
-  @Valid
-  private ConfigNodePropertyDropDownType type = null;
 
-  @ApiModelProperty(value = "Property value")
+  @Valid
+
+  private ConfigNodePropertyDropDownType type;
+
  /**
-   * Property value
-  **/
+  * Property value
+  */
+  @ApiModelProperty(value = "Property value")
+
   private Object value = null;
 
-  @ApiModelProperty(value = "Property description")
  /**
-   * Property description
-  **/
-  private String description = null;
+  * Property description
+  */
+  @ApiModelProperty(value = "Property description")
+
+  private String description;
  /**
    * property name
    * @return name
@@ -157,6 +161,27 @@ public class ConfigNodePropertyDropDown  {
     return this;
   }
 
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    ConfigNodePropertyDropDown configNodePropertyDropDown = (ConfigNodePropertyDropDown) o;
+    return Objects.equals(this.name, configNodePropertyDropDown.name) &&
+        Objects.equals(this.optional, configNodePropertyDropDown.optional) &&
+        Objects.equals(this.isSet, configNodePropertyDropDown.isSet) &&
+        Objects.equals(this.type, configNodePropertyDropDown.type) &&
+        Objects.equals(this.value, configNodePropertyDropDown.value) &&
+        Objects.equals(this.description, configNodePropertyDropDown.description);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(name, optional, isSet, type, value, description);
+  }
 
   @Override
   public String toString() {
@@ -177,11 +202,8 @@ public class ConfigNodePropertyDropDown  {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private static String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

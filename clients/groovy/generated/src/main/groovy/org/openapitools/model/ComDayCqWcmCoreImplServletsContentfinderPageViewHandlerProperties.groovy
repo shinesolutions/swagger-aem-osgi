@@ -8,8 +8,8 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqWcmCoreImplServletsContentfinderPageViewHandlerProperties {
-    ConfigNodePropertyString guessTotal = null
-
-    ConfigNodePropertyBoolean tagTitleSearch = null
-
+    
+    ConfigNodePropertyString guessTotal
+    
+    ConfigNodePropertyBoolean tagTitleSearch
 }

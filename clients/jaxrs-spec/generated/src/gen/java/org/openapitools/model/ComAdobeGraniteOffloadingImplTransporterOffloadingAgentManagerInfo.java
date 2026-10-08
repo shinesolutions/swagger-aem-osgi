@@ -1,23 +1,34 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ComAdobeGraniteOffloadingImplTransporterOffloadingAgentManagerProperties;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comAdobeGraniteOffloadingImplTransporterOffloadingAgentManagerInfo")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteOffloadingImplTransporterOffloadingAgentManagerInfo   {
-  
-  private @Valid String pid = null;
-  private @Valid String title = null;
-  private @Valid String description = null;
-  private @Valid ComAdobeGraniteOffloadingImplTransporterOffloadingAgentManagerProperties properties = null;
-  private @Valid String bundleLocation = null;
-  private @Valid String serviceLocation = null;
+  private String pid;
+  private String title;
+  private String description;
+  private ComAdobeGraniteOffloadingImplTransporterOffloadingAgentManagerProperties properties;
+  private String bundleLocation;
+  private String serviceLocation;
+
+  public ComAdobeGraniteOffloadingImplTransporterOffloadingAgentManagerInfo() {
+  }
 
   /**
    **/
@@ -32,6 +43,8 @@ public class ComAdobeGraniteOffloadingImplTransporterOffloadingAgentManagerInfo 
   public String getPid() {
     return pid;
   }
+
+  @JsonProperty("pid")
   public void setPid(String pid) {
     this.pid = pid;
   }
@@ -49,6 +62,8 @@ public class ComAdobeGraniteOffloadingImplTransporterOffloadingAgentManagerInfo 
   public String getTitle() {
     return title;
   }
+
+  @JsonProperty("title")
   public void setTitle(String title) {
     this.title = title;
   }
@@ -66,6 +81,8 @@ public class ComAdobeGraniteOffloadingImplTransporterOffloadingAgentManagerInfo 
   public String getDescription() {
     return description;
   }
+
+  @JsonProperty("description")
   public void setDescription(String description) {
     this.description = description;
   }
@@ -80,9 +97,11 @@ public class ComAdobeGraniteOffloadingImplTransporterOffloadingAgentManagerInfo 
   
   @ApiModelProperty(value = "")
   @JsonProperty("properties")
-  public ComAdobeGraniteOffloadingImplTransporterOffloadingAgentManagerProperties getProperties() {
+  @Valid public ComAdobeGraniteOffloadingImplTransporterOffloadingAgentManagerProperties getProperties() {
     return properties;
   }
+
+  @JsonProperty("properties")
   public void setProperties(ComAdobeGraniteOffloadingImplTransporterOffloadingAgentManagerProperties properties) {
     this.properties = properties;
   }
@@ -100,6 +119,8 @@ public class ComAdobeGraniteOffloadingImplTransporterOffloadingAgentManagerInfo 
   public String getBundleLocation() {
     return bundleLocation;
   }
+
+  @JsonProperty("bundle_location")
   public void setBundleLocation(String bundleLocation) {
     this.bundleLocation = bundleLocation;
   }
@@ -117,13 +138,15 @@ public class ComAdobeGraniteOffloadingImplTransporterOffloadingAgentManagerInfo 
   public String getServiceLocation() {
     return serviceLocation;
   }
+
+  @JsonProperty("service_location")
   public void setServiceLocation(String serviceLocation) {
     this.serviceLocation = serviceLocation;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -131,12 +154,12 @@ public class ComAdobeGraniteOffloadingImplTransporterOffloadingAgentManagerInfo 
       return false;
     }
     ComAdobeGraniteOffloadingImplTransporterOffloadingAgentManagerInfo comAdobeGraniteOffloadingImplTransporterOffloadingAgentManagerInfo = (ComAdobeGraniteOffloadingImplTransporterOffloadingAgentManagerInfo) o;
-    return Objects.equals(pid, comAdobeGraniteOffloadingImplTransporterOffloadingAgentManagerInfo.pid) &&
-        Objects.equals(title, comAdobeGraniteOffloadingImplTransporterOffloadingAgentManagerInfo.title) &&
-        Objects.equals(description, comAdobeGraniteOffloadingImplTransporterOffloadingAgentManagerInfo.description) &&
-        Objects.equals(properties, comAdobeGraniteOffloadingImplTransporterOffloadingAgentManagerInfo.properties) &&
-        Objects.equals(bundleLocation, comAdobeGraniteOffloadingImplTransporterOffloadingAgentManagerInfo.bundleLocation) &&
-        Objects.equals(serviceLocation, comAdobeGraniteOffloadingImplTransporterOffloadingAgentManagerInfo.serviceLocation);
+    return Objects.equals(this.pid, comAdobeGraniteOffloadingImplTransporterOffloadingAgentManagerInfo.pid) &&
+        Objects.equals(this.title, comAdobeGraniteOffloadingImplTransporterOffloadingAgentManagerInfo.title) &&
+        Objects.equals(this.description, comAdobeGraniteOffloadingImplTransporterOffloadingAgentManagerInfo.description) &&
+        Objects.equals(this.properties, comAdobeGraniteOffloadingImplTransporterOffloadingAgentManagerInfo.properties) &&
+        Objects.equals(this.bundleLocation, comAdobeGraniteOffloadingImplTransporterOffloadingAgentManagerInfo.bundleLocation) &&
+        Objects.equals(this.serviceLocation, comAdobeGraniteOffloadingImplTransporterOffloadingAgentManagerInfo.serviceLocation);
   }
 
   @Override
@@ -163,11 +186,9 @@ public class ComAdobeGraniteOffloadingImplTransporterOffloadingAgentManagerInfo 
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

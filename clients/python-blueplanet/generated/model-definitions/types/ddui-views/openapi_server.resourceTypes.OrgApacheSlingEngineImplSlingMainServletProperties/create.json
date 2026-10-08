@@ -1,0 +1,23 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "sling_max_calls" },
+      {"model": "sling_max_inclusions" },
+      {"model": "sling_trace_allow" },
+      {"model": "sling_max_record_requests" },
+      {"model": "sling_store_pattern_requests" },
+      {"model": "sling_serverinfo" },
+      {"model": "sling_additional_response_headers" },
+    ]
+  }]
+}

@@ -7,8 +7,8 @@ import org.openapitools.model.ConfigNodePropertyArray;
 
 @Canonical
 class OrgApacheSlingJcrRepoinitRepositoryInitializerProperties {
-    ConfigNodePropertyArray references = null
-
-    ConfigNodePropertyArray scripts = null
-
+    
+    ConfigNodePropertyArray references
+    
+    ConfigNodePropertyArray scripts
 }

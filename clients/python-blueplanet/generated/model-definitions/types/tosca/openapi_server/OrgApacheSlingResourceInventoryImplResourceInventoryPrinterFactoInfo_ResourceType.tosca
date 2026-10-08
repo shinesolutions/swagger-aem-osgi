@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoProperties = openapi_server.resourceTypes.OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoProperties
+}
+resourceTypes {
+
+  OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoInfo {
+    title = OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoInfo
+    description = OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoInfo {
+    title = OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoInfo
+    description = OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoInfo
+    implements = openapi_server.resourceTypes.OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoInfo
+
+  }
+}

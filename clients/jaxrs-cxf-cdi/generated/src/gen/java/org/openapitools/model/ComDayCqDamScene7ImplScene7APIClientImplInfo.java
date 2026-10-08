@@ -2,27 +2,28 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ComDayCqDamScene7ImplScene7APIClientImplProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class ComDayCqDamScene7ImplScene7APIClientImplInfo   {
   
-  private String pid = null;
+  private String pid;
 
-  private String title = null;
+  private String title;
 
-  private String description = null;
+  private String description;
 
-  private ComDayCqDamScene7ImplScene7APIClientImplProperties properties = null;
-
+  private ComDayCqDamScene7ImplScene7APIClientImplProperties properties;
 
   /**
    **/
@@ -98,7 +99,7 @@ public class ComDayCqDamScene7ImplScene7APIClientImplInfo   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -106,10 +107,10 @@ public class ComDayCqDamScene7ImplScene7APIClientImplInfo   {
       return false;
     }
     ComDayCqDamScene7ImplScene7APIClientImplInfo comDayCqDamScene7ImplScene7APIClientImplInfo = (ComDayCqDamScene7ImplScene7APIClientImplInfo) o;
-    return Objects.equals(pid, comDayCqDamScene7ImplScene7APIClientImplInfo.pid) &&
-        Objects.equals(title, comDayCqDamScene7ImplScene7APIClientImplInfo.title) &&
-        Objects.equals(description, comDayCqDamScene7ImplScene7APIClientImplInfo.description) &&
-        Objects.equals(properties, comDayCqDamScene7ImplScene7APIClientImplInfo.properties);
+    return Objects.equals(this.pid, comDayCqDamScene7ImplScene7APIClientImplInfo.pid) &&
+        Objects.equals(this.title, comDayCqDamScene7ImplScene7APIClientImplInfo.title) &&
+        Objects.equals(this.description, comDayCqDamScene7ImplScene7APIClientImplInfo.description) &&
+        Objects.equals(this.properties, comDayCqDamScene7ImplScene7APIClientImplInfo.properties);
   }
 
   @Override
@@ -134,11 +135,8 @@ public class ComDayCqDamScene7ImplScene7APIClientImplInfo   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

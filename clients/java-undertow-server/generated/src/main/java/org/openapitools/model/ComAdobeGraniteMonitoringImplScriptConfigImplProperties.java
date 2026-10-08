@@ -1,3 +1,13 @@
+/*
+ * Adobe Experience Manager OSGI config (AEM) API
+ *
+ * Swagger AEM OSGI is an OpenAPI specification for Adobe Experience Manager (AEM) OSGI Configurations API
+ *
+ * OpenAPI document version: 1.0.0-pre.0
+ * Maintained by: opensource@shinesolutions.com
+ *
+ * AUTO-GENERATED FILE, DO NOT MODIFY!
+ */
 package org.openapitools.model;
 
 import java.util.Objects;
@@ -13,18 +23,18 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2019-08-05T00:56:20.785Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2026-10-07T12:53:42.280804918Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteMonitoringImplScriptConfigImplProperties   {
   
-  private ConfigNodePropertyString scriptFilename = null;
-  private ConfigNodePropertyString scriptDisplay = null;
-  private ConfigNodePropertyString scriptPath = null;
-  private ConfigNodePropertyArray scriptPlatform = null;
-  private ConfigNodePropertyInteger interval = null;
-  private ConfigNodePropertyString jmxdomain = null;
+  private ConfigNodePropertyString scriptFilename;
+  private ConfigNodePropertyString scriptDisplay;
+  private ConfigNodePropertyString scriptPath;
+  private ConfigNodePropertyArray scriptPlatform;
+  private ConfigNodePropertyInteger interval;
+  private ConfigNodePropertyString jmxdomain;
 
   /**
-   **/
+   */
   public ComAdobeGraniteMonitoringImplScriptConfigImplProperties scriptFilename(ConfigNodePropertyString scriptFilename) {
     this.scriptFilename = scriptFilename;
     return this;
@@ -41,7 +51,7 @@ public class ComAdobeGraniteMonitoringImplScriptConfigImplProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeGraniteMonitoringImplScriptConfigImplProperties scriptDisplay(ConfigNodePropertyString scriptDisplay) {
     this.scriptDisplay = scriptDisplay;
     return this;
@@ -58,7 +68,7 @@ public class ComAdobeGraniteMonitoringImplScriptConfigImplProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeGraniteMonitoringImplScriptConfigImplProperties scriptPath(ConfigNodePropertyString scriptPath) {
     this.scriptPath = scriptPath;
     return this;
@@ -75,7 +85,7 @@ public class ComAdobeGraniteMonitoringImplScriptConfigImplProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeGraniteMonitoringImplScriptConfigImplProperties scriptPlatform(ConfigNodePropertyArray scriptPlatform) {
     this.scriptPlatform = scriptPlatform;
     return this;
@@ -92,7 +102,7 @@ public class ComAdobeGraniteMonitoringImplScriptConfigImplProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeGraniteMonitoringImplScriptConfigImplProperties interval(ConfigNodePropertyInteger interval) {
     this.interval = interval;
     return this;
@@ -109,7 +119,7 @@ public class ComAdobeGraniteMonitoringImplScriptConfigImplProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeGraniteMonitoringImplScriptConfigImplProperties jmxdomain(ConfigNodePropertyString jmxdomain) {
     this.jmxdomain = jmxdomain;
     return this;
@@ -127,7 +137,7 @@ public class ComAdobeGraniteMonitoringImplScriptConfigImplProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -167,11 +177,8 @@ public class ComAdobeGraniteMonitoringImplScriptConfigImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

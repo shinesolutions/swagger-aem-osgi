@@ -72,9 +72,9 @@ private class OASComDayCqDamCoreImplServletBatchMeTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqDamCoreImplServletBatchMe comDayCqDamCoreImplServletBatchMetadataServletProperties = new OASComDayCqDamCoreImplServletBatchMe();
-        Map<String, String> propertyMappings = comDayCqDamCoreImplServletBatchMetadataServletProperties.getPropertyMappings();
-        System.assertEquals('cqDamBatchMetadataAssetDefault', propertyMappings.get('cq.dam.batch.metadata.asset.default'));
-        System.assertEquals('cqDamBatchMetadataCollectionDefault', propertyMappings.get('cq.dam.batch.metadata.collection.default'));
-        System.assertEquals('cqDamBatchMetadataMaxresources', propertyMappings.get('cq.dam.batch.metadata.maxresources'));
+        Map<String, String> x-property-mappings = comDayCqDamCoreImplServletBatchMetadataServletProperties.getx-property-mappings();
+        System.assertEquals('cqDamBatchMetadataAssetDefault', x-property-mappings.get('cq.dam.batch.metadata.asset.default'));
+        System.assertEquals('cqDamBatchMetadataCollectionDefault', x-property-mappings.get('cq.dam.batch.metadata.collection.default'));
+        System.assertEquals('cqDamBatchMetadataMaxresources', x-property-mappings.get('cq.dam.batch.metadata.maxresources'));
     }
 }

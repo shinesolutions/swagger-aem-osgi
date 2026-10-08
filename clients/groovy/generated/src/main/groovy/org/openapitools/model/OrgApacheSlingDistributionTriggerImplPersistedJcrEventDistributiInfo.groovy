@@ -7,12 +7,12 @@ import org.openapitools.model.OrgApacheSlingDistributionTriggerImplPersistedJcrE
 
 @Canonical
 class OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiProperties properties
 }

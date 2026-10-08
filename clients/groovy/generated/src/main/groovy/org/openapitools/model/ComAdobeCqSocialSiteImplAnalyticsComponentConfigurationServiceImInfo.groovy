@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqSocialSiteImplAnalyticsComponentConfigur
 
 @Canonical
 class ComAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImProperties properties
 }

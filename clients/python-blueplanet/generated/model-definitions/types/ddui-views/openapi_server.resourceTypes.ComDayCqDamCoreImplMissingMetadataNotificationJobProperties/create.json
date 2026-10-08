@@ -1,0 +1,20 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "cq_dam_missingmetadata_notification_scheduler_istimebased" },
+      {"model": "cq_dam_missingmetadata_notification_scheduler_timebased_rule" },
+      {"model": "cq_dam_missingmetadata_notification_scheduler_period_rule" },
+      {"model": "cq_dam_missingmetadata_notification_recipient" },
+    ]
+  }]
+}

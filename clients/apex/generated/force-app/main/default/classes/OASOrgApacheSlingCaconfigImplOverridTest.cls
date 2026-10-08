@@ -72,7 +72,7 @@ private class OASOrgApacheSlingCaconfigImplOverridTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASOrgApacheSlingCaconfigImplOverrid orgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviProperties = new OASOrgApacheSlingCaconfigImplOverrid();
-        Map<String, String> propertyMappings = orgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviProperties.getPropertyMappings();
-        System.assertEquals('serviceRanking', propertyMappings.get('service.ranking'));
+        Map<String, String> x-property-mappings = orgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviProperties.getx-property-mappings();
+        System.assertEquals('serviceRanking', x-property-mappings.get('service.ranking'));
     }
 }

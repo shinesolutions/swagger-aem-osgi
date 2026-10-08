@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqSocialEnablementAdaptorsEnablementLearni
 
 @Canonical
 class ComAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorFInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorFProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorFProperties properties
 }

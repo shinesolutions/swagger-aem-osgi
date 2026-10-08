@@ -72,10 +72,10 @@ private class OASComDayCqSearchpromoteImplSearchPrTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqSearchpromoteImplSearchPr comDayCqSearchpromoteImplSearchPromoteServiceImplProperties = new OASComDayCqSearchpromoteImplSearchPr();
-        Map<String, String> propertyMappings = comDayCqSearchpromoteImplSearchPromoteServiceImplProperties.getPropertyMappings();
-        System.assertEquals('cqSearchpromoteConfigurationServerUri', propertyMappings.get('cq.searchpromote.configuration.server.uri'));
-        System.assertEquals('cqSearchpromoteConfigurationEnvironment', propertyMappings.get('cq.searchpromote.configuration.environment'));
-        System.assertEquals('connectionTimeout', propertyMappings.get('connection.timeout'));
-        System.assertEquals('socketTimeout', propertyMappings.get('socket.timeout'));
+        Map<String, String> x-property-mappings = comDayCqSearchpromoteImplSearchPromoteServiceImplProperties.getx-property-mappings();
+        System.assertEquals('cqSearchpromoteConfigurationServerUri', x-property-mappings.get('cq.searchpromote.configuration.server.uri'));
+        System.assertEquals('cqSearchpromoteConfigurationEnvironment', x-property-mappings.get('cq.searchpromote.configuration.environment'));
+        System.assertEquals('connectionTimeout', x-property-mappings.get('connection.timeout'));
+        System.assertEquals('socketTimeout', x-property-mappings.get('socket.timeout'));
     }
 }

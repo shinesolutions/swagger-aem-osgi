@@ -1,0 +1,69 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqSocialConnectOauthImplTwitterProviderImplProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqSocialConnectOauthImplTwitterProviderImplProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyDropDown = openapi_server.resourceTypes.ConfigNodePropertyDropDown
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComAdobeCqSocialConnectOauthImplTwitterProviderImplProperties {
+    title = ComAdobeCqSocialConnectOauthImplTwitterProviderImplProperties
+    description = ComAdobeCqSocialConnectOauthImplTwitterProviderImplProperties
+    derivedFrom = Root
+    properties {
+        oauth_provider_id {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        oauth_cloud_config_root {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        provider_config_root {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        provider_config_user_folder {
+          type = ConfigNodePropertyDropDown
+          description = ""
+          optional = false
+        }
+        provider_config_twitter_enable_params {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        provider_config_twitter_params {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        provider_config_refresh_userdata_enabled {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqSocialConnectOauthImplTwitterProviderImplProperties {
+    title = ComAdobeCqSocialConnectOauthImplTwitterProviderImplProperties
+    description = ComAdobeCqSocialConnectOauthImplTwitterProviderImplProperties
+    implements = openapi_server.resourceTypes.ComAdobeCqSocialConnectOauthImplTwitterProviderImplProperties
+
+  }
+}

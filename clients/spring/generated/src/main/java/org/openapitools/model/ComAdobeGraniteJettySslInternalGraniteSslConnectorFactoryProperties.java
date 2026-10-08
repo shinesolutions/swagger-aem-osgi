@@ -1,42 +1,53 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyDropDown;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryProperties   {
-  @JsonProperty("com.adobe.granite.jetty.ssl.port")
-  private ConfigNodePropertyInteger comAdobeGraniteJettySslPort = null;
+@JsonTypeName("comAdobeGraniteJettySslInternalGraniteSslConnectorFactoryProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryProperties {
 
-  @JsonProperty("com.adobe.granite.jetty.ssl.keystore.user")
-  private ConfigNodePropertyString comAdobeGraniteJettySslKeystoreUser = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger comAdobeGraniteJettySslPort;
 
-  @JsonProperty("com.adobe.granite.jetty.ssl.keystore.password")
-  private ConfigNodePropertyString comAdobeGraniteJettySslKeystorePassword = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString comAdobeGraniteJettySslKeystoreUser;
 
-  @JsonProperty("com.adobe.granite.jetty.ssl.ciphersuites.excluded")
-  private ConfigNodePropertyArray comAdobeGraniteJettySslCiphersuitesExcluded = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString comAdobeGraniteJettySslKeystorePassword;
 
-  @JsonProperty("com.adobe.granite.jetty.ssl.ciphersuites.included")
-  private ConfigNodePropertyArray comAdobeGraniteJettySslCiphersuitesIncluded = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray comAdobeGraniteJettySslCiphersuitesExcluded;
 
-  @JsonProperty("com.adobe.granite.jetty.ssl.client.certificate")
-  private ConfigNodePropertyDropDown comAdobeGraniteJettySslClientCertificate = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray comAdobeGraniteJettySslCiphersuitesIncluded;
 
-  public ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryProperties comAdobeGraniteJettySslPort(ConfigNodePropertyInteger comAdobeGraniteJettySslPort) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyDropDown comAdobeGraniteJettySslClientCertificate;
+
+  public ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryProperties comAdobeGraniteJettySslPort(@Nullable ConfigNodePropertyInteger comAdobeGraniteJettySslPort) {
     this.comAdobeGraniteJettySslPort = comAdobeGraniteJettySslPort;
     return this;
   }
@@ -44,20 +55,20 @@ public class ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryProperties
   /**
    * Get comAdobeGraniteJettySslPort
    * @return comAdobeGraniteJettySslPort
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getComAdobeGraniteJettySslPort() {
+   */
+  @Valid 
+  @Schema(name = "com.adobe.granite.jetty.ssl.port", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("com.adobe.granite.jetty.ssl.port")
+  public @Nullable ConfigNodePropertyInteger getComAdobeGraniteJettySslPort() {
     return comAdobeGraniteJettySslPort;
   }
 
-  public void setComAdobeGraniteJettySslPort(ConfigNodePropertyInteger comAdobeGraniteJettySslPort) {
+  @JsonProperty("com.adobe.granite.jetty.ssl.port")
+  public void setComAdobeGraniteJettySslPort(@Nullable ConfigNodePropertyInteger comAdobeGraniteJettySslPort) {
     this.comAdobeGraniteJettySslPort = comAdobeGraniteJettySslPort;
   }
 
-  public ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryProperties comAdobeGraniteJettySslKeystoreUser(ConfigNodePropertyString comAdobeGraniteJettySslKeystoreUser) {
+  public ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryProperties comAdobeGraniteJettySslKeystoreUser(@Nullable ConfigNodePropertyString comAdobeGraniteJettySslKeystoreUser) {
     this.comAdobeGraniteJettySslKeystoreUser = comAdobeGraniteJettySslKeystoreUser;
     return this;
   }
@@ -65,20 +76,20 @@ public class ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryProperties
   /**
    * Get comAdobeGraniteJettySslKeystoreUser
    * @return comAdobeGraniteJettySslKeystoreUser
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getComAdobeGraniteJettySslKeystoreUser() {
+   */
+  @Valid 
+  @Schema(name = "com.adobe.granite.jetty.ssl.keystore.user", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("com.adobe.granite.jetty.ssl.keystore.user")
+  public @Nullable ConfigNodePropertyString getComAdobeGraniteJettySslKeystoreUser() {
     return comAdobeGraniteJettySslKeystoreUser;
   }
 
-  public void setComAdobeGraniteJettySslKeystoreUser(ConfigNodePropertyString comAdobeGraniteJettySslKeystoreUser) {
+  @JsonProperty("com.adobe.granite.jetty.ssl.keystore.user")
+  public void setComAdobeGraniteJettySslKeystoreUser(@Nullable ConfigNodePropertyString comAdobeGraniteJettySslKeystoreUser) {
     this.comAdobeGraniteJettySslKeystoreUser = comAdobeGraniteJettySslKeystoreUser;
   }
 
-  public ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryProperties comAdobeGraniteJettySslKeystorePassword(ConfigNodePropertyString comAdobeGraniteJettySslKeystorePassword) {
+  public ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryProperties comAdobeGraniteJettySslKeystorePassword(@Nullable ConfigNodePropertyString comAdobeGraniteJettySslKeystorePassword) {
     this.comAdobeGraniteJettySslKeystorePassword = comAdobeGraniteJettySslKeystorePassword;
     return this;
   }
@@ -86,20 +97,20 @@ public class ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryProperties
   /**
    * Get comAdobeGraniteJettySslKeystorePassword
    * @return comAdobeGraniteJettySslKeystorePassword
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getComAdobeGraniteJettySslKeystorePassword() {
+   */
+  @Valid 
+  @Schema(name = "com.adobe.granite.jetty.ssl.keystore.password", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("com.adobe.granite.jetty.ssl.keystore.password")
+  public @Nullable ConfigNodePropertyString getComAdobeGraniteJettySslKeystorePassword() {
     return comAdobeGraniteJettySslKeystorePassword;
   }
 
-  public void setComAdobeGraniteJettySslKeystorePassword(ConfigNodePropertyString comAdobeGraniteJettySslKeystorePassword) {
+  @JsonProperty("com.adobe.granite.jetty.ssl.keystore.password")
+  public void setComAdobeGraniteJettySslKeystorePassword(@Nullable ConfigNodePropertyString comAdobeGraniteJettySslKeystorePassword) {
     this.comAdobeGraniteJettySslKeystorePassword = comAdobeGraniteJettySslKeystorePassword;
   }
 
-  public ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryProperties comAdobeGraniteJettySslCiphersuitesExcluded(ConfigNodePropertyArray comAdobeGraniteJettySslCiphersuitesExcluded) {
+  public ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryProperties comAdobeGraniteJettySslCiphersuitesExcluded(@Nullable ConfigNodePropertyArray comAdobeGraniteJettySslCiphersuitesExcluded) {
     this.comAdobeGraniteJettySslCiphersuitesExcluded = comAdobeGraniteJettySslCiphersuitesExcluded;
     return this;
   }
@@ -107,20 +118,20 @@ public class ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryProperties
   /**
    * Get comAdobeGraniteJettySslCiphersuitesExcluded
    * @return comAdobeGraniteJettySslCiphersuitesExcluded
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getComAdobeGraniteJettySslCiphersuitesExcluded() {
+   */
+  @Valid 
+  @Schema(name = "com.adobe.granite.jetty.ssl.ciphersuites.excluded", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("com.adobe.granite.jetty.ssl.ciphersuites.excluded")
+  public @Nullable ConfigNodePropertyArray getComAdobeGraniteJettySslCiphersuitesExcluded() {
     return comAdobeGraniteJettySslCiphersuitesExcluded;
   }
 
-  public void setComAdobeGraniteJettySslCiphersuitesExcluded(ConfigNodePropertyArray comAdobeGraniteJettySslCiphersuitesExcluded) {
+  @JsonProperty("com.adobe.granite.jetty.ssl.ciphersuites.excluded")
+  public void setComAdobeGraniteJettySslCiphersuitesExcluded(@Nullable ConfigNodePropertyArray comAdobeGraniteJettySslCiphersuitesExcluded) {
     this.comAdobeGraniteJettySslCiphersuitesExcluded = comAdobeGraniteJettySslCiphersuitesExcluded;
   }
 
-  public ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryProperties comAdobeGraniteJettySslCiphersuitesIncluded(ConfigNodePropertyArray comAdobeGraniteJettySslCiphersuitesIncluded) {
+  public ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryProperties comAdobeGraniteJettySslCiphersuitesIncluded(@Nullable ConfigNodePropertyArray comAdobeGraniteJettySslCiphersuitesIncluded) {
     this.comAdobeGraniteJettySslCiphersuitesIncluded = comAdobeGraniteJettySslCiphersuitesIncluded;
     return this;
   }
@@ -128,20 +139,20 @@ public class ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryProperties
   /**
    * Get comAdobeGraniteJettySslCiphersuitesIncluded
    * @return comAdobeGraniteJettySslCiphersuitesIncluded
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getComAdobeGraniteJettySslCiphersuitesIncluded() {
+   */
+  @Valid 
+  @Schema(name = "com.adobe.granite.jetty.ssl.ciphersuites.included", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("com.adobe.granite.jetty.ssl.ciphersuites.included")
+  public @Nullable ConfigNodePropertyArray getComAdobeGraniteJettySslCiphersuitesIncluded() {
     return comAdobeGraniteJettySslCiphersuitesIncluded;
   }
 
-  public void setComAdobeGraniteJettySslCiphersuitesIncluded(ConfigNodePropertyArray comAdobeGraniteJettySslCiphersuitesIncluded) {
+  @JsonProperty("com.adobe.granite.jetty.ssl.ciphersuites.included")
+  public void setComAdobeGraniteJettySslCiphersuitesIncluded(@Nullable ConfigNodePropertyArray comAdobeGraniteJettySslCiphersuitesIncluded) {
     this.comAdobeGraniteJettySslCiphersuitesIncluded = comAdobeGraniteJettySslCiphersuitesIncluded;
   }
 
-  public ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryProperties comAdobeGraniteJettySslClientCertificate(ConfigNodePropertyDropDown comAdobeGraniteJettySslClientCertificate) {
+  public ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryProperties comAdobeGraniteJettySslClientCertificate(@Nullable ConfigNodePropertyDropDown comAdobeGraniteJettySslClientCertificate) {
     this.comAdobeGraniteJettySslClientCertificate = comAdobeGraniteJettySslClientCertificate;
     return this;
   }
@@ -149,22 +160,21 @@ public class ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryProperties
   /**
    * Get comAdobeGraniteJettySslClientCertificate
    * @return comAdobeGraniteJettySslClientCertificate
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyDropDown getComAdobeGraniteJettySslClientCertificate() {
+   */
+  @Valid 
+  @Schema(name = "com.adobe.granite.jetty.ssl.client.certificate", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("com.adobe.granite.jetty.ssl.client.certificate")
+  public @Nullable ConfigNodePropertyDropDown getComAdobeGraniteJettySslClientCertificate() {
     return comAdobeGraniteJettySslClientCertificate;
   }
 
-  public void setComAdobeGraniteJettySslClientCertificate(ConfigNodePropertyDropDown comAdobeGraniteJettySslClientCertificate) {
+  @JsonProperty("com.adobe.granite.jetty.ssl.client.certificate")
+  public void setComAdobeGraniteJettySslClientCertificate(@Nullable ConfigNodePropertyDropDown comAdobeGraniteJettySslClientCertificate) {
     this.comAdobeGraniteJettySslClientCertificate = comAdobeGraniteJettySslClientCertificate;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -189,7 +199,6 @@ public class ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryProperties
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryProperties {\n");
-    
     sb.append("    comAdobeGraniteJettySslPort: ").append(toIndentedString(comAdobeGraniteJettySslPort)).append("\n");
     sb.append("    comAdobeGraniteJettySslKeystoreUser: ").append(toIndentedString(comAdobeGraniteJettySslKeystoreUser)).append("\n");
     sb.append("    comAdobeGraniteJettySslKeystorePassword: ").append(toIndentedString(comAdobeGraniteJettySslKeystorePassword)).append("\n");
@@ -204,11 +213,8 @@ public class ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryProperties
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

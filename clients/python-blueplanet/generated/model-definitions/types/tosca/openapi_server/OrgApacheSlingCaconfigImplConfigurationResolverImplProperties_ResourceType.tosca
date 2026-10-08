@@ -1,0 +1,36 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingCaconfigImplConfigurationResolverImplProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingCaconfigImplConfigurationResolverImplProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+}
+resourceTypes {
+
+  OrgApacheSlingCaconfigImplConfigurationResolverImplProperties {
+    title = OrgApacheSlingCaconfigImplConfigurationResolverImplProperties
+    description = OrgApacheSlingCaconfigImplConfigurationResolverImplProperties
+    derivedFrom = Root
+    properties {
+        config_bucket_names {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingCaconfigImplConfigurationResolverImplProperties {
+    title = OrgApacheSlingCaconfigImplConfigurationResolverImplProperties
+    description = OrgApacheSlingCaconfigImplConfigurationResolverImplProperties
+    implements = openapi_server.resourceTypes.OrgApacheSlingCaconfigImplConfigurationResolverImplProperties
+
+  }
+}

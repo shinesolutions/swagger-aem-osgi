@@ -1,3 +1,13 @@
+/*
+ * Adobe Experience Manager OSGI config (AEM) API
+ *
+ * Swagger AEM OSGI is an OpenAPI specification for Adobe Experience Manager (AEM) OSGI Configurations API
+ *
+ * OpenAPI document version: 1.0.0-pre.0
+ * Maintained by: opensource@shinesolutions.com
+ *
+ * AUTO-GENERATED FILE, DO NOT MODIFY!
+ */
 package org.openapitools.model;
 
 import java.util.Objects;
@@ -13,19 +23,19 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2019-08-05T00:56:20.785Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2026-10-07T12:53:42.280804918Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingCommonsMetricsInternalLogReporterProperties   {
   
-  private ConfigNodePropertyInteger period = null;
-  private ConfigNodePropertyDropDown timeUnit = null;
-  private ConfigNodePropertyDropDown level = null;
-  private ConfigNodePropertyString loggerName = null;
-  private ConfigNodePropertyString prefix = null;
-  private ConfigNodePropertyString pattern = null;
-  private ConfigNodePropertyString registryName = null;
+  private ConfigNodePropertyInteger period;
+  private ConfigNodePropertyDropDown timeUnit;
+  private ConfigNodePropertyDropDown level;
+  private ConfigNodePropertyString loggerName;
+  private ConfigNodePropertyString prefix;
+  private ConfigNodePropertyString pattern;
+  private ConfigNodePropertyString registryName;
 
   /**
-   **/
+   */
   public OrgApacheSlingCommonsMetricsInternalLogReporterProperties period(ConfigNodePropertyInteger period) {
     this.period = period;
     return this;
@@ -42,7 +52,7 @@ public class OrgApacheSlingCommonsMetricsInternalLogReporterProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingCommonsMetricsInternalLogReporterProperties timeUnit(ConfigNodePropertyDropDown timeUnit) {
     this.timeUnit = timeUnit;
     return this;
@@ -59,7 +69,7 @@ public class OrgApacheSlingCommonsMetricsInternalLogReporterProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingCommonsMetricsInternalLogReporterProperties level(ConfigNodePropertyDropDown level) {
     this.level = level;
     return this;
@@ -76,7 +86,7 @@ public class OrgApacheSlingCommonsMetricsInternalLogReporterProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingCommonsMetricsInternalLogReporterProperties loggerName(ConfigNodePropertyString loggerName) {
     this.loggerName = loggerName;
     return this;
@@ -93,7 +103,7 @@ public class OrgApacheSlingCommonsMetricsInternalLogReporterProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingCommonsMetricsInternalLogReporterProperties prefix(ConfigNodePropertyString prefix) {
     this.prefix = prefix;
     return this;
@@ -110,7 +120,7 @@ public class OrgApacheSlingCommonsMetricsInternalLogReporterProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingCommonsMetricsInternalLogReporterProperties pattern(ConfigNodePropertyString pattern) {
     this.pattern = pattern;
     return this;
@@ -127,7 +137,7 @@ public class OrgApacheSlingCommonsMetricsInternalLogReporterProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingCommonsMetricsInternalLogReporterProperties registryName(ConfigNodePropertyString registryName) {
     this.registryName = registryName;
     return this;
@@ -145,7 +155,7 @@ public class OrgApacheSlingCommonsMetricsInternalLogReporterProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -187,11 +197,8 @@ public class OrgApacheSlingCommonsMetricsInternalLogReporterProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

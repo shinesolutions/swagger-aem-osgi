@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqReportingImplRLogAnalyzerProperties {
-    ConfigNodePropertyString requestLogOutput = null
-
+    
+    ConfigNodePropertyString requestLogOutput
 }

@@ -8,10 +8,10 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeCqDamProcessorNuiImplNuiAssetProcessorProperties {
-    ConfigNodePropertyBoolean nuiEnabled = null
-
-    ConfigNodePropertyString nuiServiceUrl = null
-
-    ConfigNodePropertyString nuiApiKey = null
-
+    
+    ConfigNodePropertyBoolean nuiEnabled
+    
+    ConfigNodePropertyString nuiServiceUrl
+    
+    ConfigNodePropertyString nuiApiKey
 }

@@ -1,7 +1,9 @@
 
+
 # ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **defaultTransportAgentToWorkerPrefix** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
@@ -11,6 +13,7 @@ Name | Type | Description | Notes
 **defaultTransportReplicationSynchronous** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
 **defaultTransportContentpackage** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
 **offloadingTransporterDefaultEnabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
+
 
 
 

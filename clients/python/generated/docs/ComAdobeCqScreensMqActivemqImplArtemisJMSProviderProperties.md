@@ -1,6 +1,8 @@
 # ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties
 
+
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **service_ranking** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  | [optional] 
@@ -37,6 +39,23 @@ Name | Type | Description | Notes
 **cluster_retry_interval** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  | [optional] 
 **cluster_retry_interval_multiplier** | [**ConfigNodePropertyFloat**](ConfigNodePropertyFloat.md) |  | [optional] 
 
+## Example
+
+```python
+from swaggeraemosgi.models.com_adobe_cq_screens_mq_activemq_impl_artemis_jms_provider_properties import ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties
+
+# TODO update the JSON string below
+json = "{}"
+# create an instance of ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties from a JSON string
+com_adobe_cq_screens_mq_activemq_impl_artemis_jms_provider_properties_instance = ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.from_json(json)
+# print the JSON string representation of the object
+print(ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.to_json())
+
+# convert the object into a dict
+com_adobe_cq_screens_mq_activemq_impl_artemis_jms_provider_properties_dict = com_adobe_cq_screens_mq_activemq_impl_artemis_jms_provider_properties_instance.to_dict()
+# create an instance of ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties from a dict
+com_adobe_cq_screens_mq_activemq_impl_artemis_jms_provider_properties_from_dict = ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.from_dict(com_adobe_cq_screens_mq_activemq_impl_artemis_jms_provider_properties_dict)
+```
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 
 

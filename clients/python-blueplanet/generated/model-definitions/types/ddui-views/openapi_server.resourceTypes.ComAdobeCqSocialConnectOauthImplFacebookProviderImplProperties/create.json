@@ -1,0 +1,24 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "oauth_provider_id" },
+      {"model": "oauth_cloud_config_root" },
+      {"model": "provider_config_root" },
+      {"model": "provider_config_create_tags_enabled" },
+      {"model": "provider_config_user_folder" },
+      {"model": "provider_config_facebook_fetch_fields" },
+      {"model": "provider_config_facebook_fields" },
+      {"model": "provider_config_refresh_userdata_enabled" },
+    ]
+  }]
+}

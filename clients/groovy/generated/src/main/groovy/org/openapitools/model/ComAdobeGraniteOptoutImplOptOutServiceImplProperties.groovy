@@ -7,10 +7,10 @@ import org.openapitools.model.ConfigNodePropertyArray;
 
 @Canonical
 class ComAdobeGraniteOptoutImplOptOutServiceImplProperties {
-    ConfigNodePropertyArray optoutCookies = null
-
-    ConfigNodePropertyArray optoutHeaders = null
-
-    ConfigNodePropertyArray optoutWhitelistCookies = null
-
+    
+    ConfigNodePropertyArray optoutCookies
+    
+    ConfigNodePropertyArray optoutHeaders
+    
+    ConfigNodePropertyArray optoutWhitelistCookies
 }

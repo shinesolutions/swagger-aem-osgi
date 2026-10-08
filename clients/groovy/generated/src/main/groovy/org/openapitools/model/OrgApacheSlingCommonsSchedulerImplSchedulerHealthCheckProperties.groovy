@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class OrgApacheSlingCommonsSchedulerImplSchedulerHealthCheckProperties {
-    ConfigNodePropertyInteger maxQuartzJobDurationAcceptable = null
-
+    
+    ConfigNodePropertyInteger maxQuartzJobDurationAcceptable
 }

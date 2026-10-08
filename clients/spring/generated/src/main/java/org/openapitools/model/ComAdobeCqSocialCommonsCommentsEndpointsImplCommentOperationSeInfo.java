@@ -1,33 +1,44 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSeProperties;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSeInfo
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSeInfo   {
-  @JsonProperty("pid")
-  private String pid = null;
+@JsonTypeName("comAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSeInfo")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSeInfo {
 
-  @JsonProperty("title")
-  private String title = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable String pid;
 
-  @JsonProperty("description")
-  private String description = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable String title;
 
-  @JsonProperty("properties")
-  private ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSeProperties properties = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable String description;
 
-  public ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSeInfo pid(String pid) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSeProperties properties;
+
+  public ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSeInfo pid(@Nullable String pid) {
     this.pid = pid;
     return this;
   }
@@ -35,19 +46,20 @@ public class ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSeInfo 
   /**
    * Get pid
    * @return pid
-  **/
-  @ApiModelProperty(value = "")
-
-
-  public String getPid() {
+   */
+  
+  @Schema(name = "pid", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("pid")
+  public @Nullable String getPid() {
     return pid;
   }
 
-  public void setPid(String pid) {
+  @JsonProperty("pid")
+  public void setPid(@Nullable String pid) {
     this.pid = pid;
   }
 
-  public ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSeInfo title(String title) {
+  public ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSeInfo title(@Nullable String title) {
     this.title = title;
     return this;
   }
@@ -55,19 +67,20 @@ public class ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSeInfo 
   /**
    * Get title
    * @return title
-  **/
-  @ApiModelProperty(value = "")
-
-
-  public String getTitle() {
+   */
+  
+  @Schema(name = "title", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("title")
+  public @Nullable String getTitle() {
     return title;
   }
 
-  public void setTitle(String title) {
+  @JsonProperty("title")
+  public void setTitle(@Nullable String title) {
     this.title = title;
   }
 
-  public ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSeInfo description(String description) {
+  public ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSeInfo description(@Nullable String description) {
     this.description = description;
     return this;
   }
@@ -75,19 +88,20 @@ public class ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSeInfo 
   /**
    * Get description
    * @return description
-  **/
-  @ApiModelProperty(value = "")
-
-
-  public String getDescription() {
+   */
+  
+  @Schema(name = "description", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("description")
+  public @Nullable String getDescription() {
     return description;
   }
 
-  public void setDescription(String description) {
+  @JsonProperty("description")
+  public void setDescription(@Nullable String description) {
     this.description = description;
   }
 
-  public ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSeInfo properties(ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSeProperties properties) {
+  public ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSeInfo properties(@Nullable ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSeProperties properties) {
     this.properties = properties;
     return this;
   }
@@ -95,22 +109,21 @@ public class ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSeInfo 
   /**
    * Get properties
    * @return properties
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSeProperties getProperties() {
+   */
+  @Valid 
+  @Schema(name = "properties", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("properties")
+  public @Nullable ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSeProperties getProperties() {
     return properties;
   }
 
-  public void setProperties(ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSeProperties properties) {
+  @JsonProperty("properties")
+  public void setProperties(@Nullable ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSeProperties properties) {
     this.properties = properties;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -133,7 +146,6 @@ public class ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSeInfo 
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSeInfo {\n");
-    
     sb.append("    pid: ").append(toIndentedString(pid)).append("\n");
     sb.append("    title: ").append(toIndentedString(title)).append("\n");
     sb.append("    description: ").append(toIndentedString(description)).append("\n");
@@ -146,11 +158,8 @@ public class ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSeInfo 
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

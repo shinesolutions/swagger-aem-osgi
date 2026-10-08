@@ -4,32 +4,43 @@ import apimodels.ConfigNodePropertyArray;
 import apimodels.ConfigNodePropertyBoolean;
 import apimodels.ConfigNodePropertyDropDown;
 import apimodels.ConfigNodePropertyString;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerProperties   {
   @JsonProperty("path")
-  private ConfigNodePropertyString path = null;
+  @Valid
+
+  private ConfigNodePropertyString path;
 
   @JsonProperty("token.required.attr")
-  private ConfigNodePropertyDropDown tokenRequiredAttr = null;
+  @Valid
+
+  private ConfigNodePropertyDropDown tokenRequiredAttr;
 
   @JsonProperty("token.alternate.url")
-  private ConfigNodePropertyString tokenAlternateUrl = null;
+  @Valid
+
+  private ConfigNodePropertyString tokenAlternateUrl;
 
   @JsonProperty("token.encapsulated")
-  private ConfigNodePropertyBoolean tokenEncapsulated = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean tokenEncapsulated;
 
   @JsonProperty("skip.token.refresh")
-  private ConfigNodePropertyArray skipTokenRefresh = null;
+  @Valid
+
+  private ConfigNodePropertyArray skipTokenRefresh;
 
   public ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerProperties path(ConfigNodePropertyString path) {
     this.path = path;
@@ -40,7 +51,6 @@ public class ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerProperties 
    * Get path
    * @return path
   **/
-  @Valid
   public ConfigNodePropertyString getPath() {
     return path;
   }
@@ -58,7 +68,6 @@ public class ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerProperties 
    * Get tokenRequiredAttr
    * @return tokenRequiredAttr
   **/
-  @Valid
   public ConfigNodePropertyDropDown getTokenRequiredAttr() {
     return tokenRequiredAttr;
   }
@@ -76,7 +85,6 @@ public class ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerProperties 
    * Get tokenAlternateUrl
    * @return tokenAlternateUrl
   **/
-  @Valid
   public ConfigNodePropertyString getTokenAlternateUrl() {
     return tokenAlternateUrl;
   }
@@ -94,7 +102,6 @@ public class ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerProperties 
    * Get tokenEncapsulated
    * @return tokenEncapsulated
   **/
-  @Valid
   public ConfigNodePropertyBoolean getTokenEncapsulated() {
     return tokenEncapsulated;
   }
@@ -112,7 +119,6 @@ public class ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerProperties 
    * Get skipTokenRefresh
    * @return skipTokenRefresh
   **/
-  @Valid
   public ConfigNodePropertyArray getSkipTokenRefresh() {
     return skipTokenRefresh;
   }
@@ -123,7 +129,7 @@ public class ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerProperties 
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -162,11 +168,8 @@ public class ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerProperties 
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

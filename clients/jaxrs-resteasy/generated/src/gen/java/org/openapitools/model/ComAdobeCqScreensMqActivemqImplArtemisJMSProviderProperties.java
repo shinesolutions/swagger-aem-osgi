@@ -4,6 +4,9 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyDropDown;
@@ -11,51 +14,52 @@ import org.openapitools.model.ConfigNodePropertyFloat;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2019-08-05T00:59:30.156Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2026-10-07T12:54:21.614735164Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties   {
   
-  private ConfigNodePropertyInteger serviceRanking = null;
-  private ConfigNodePropertyInteger globalSize = null;
-  private ConfigNodePropertyInteger maxDiskUsage = null;
-  private ConfigNodePropertyBoolean persistenceEnabled = null;
-  private ConfigNodePropertyInteger threadPoolMaxSize = null;
-  private ConfigNodePropertyInteger scheduledThreadPoolMaxSize = null;
-  private ConfigNodePropertyInteger gracefulShutdownTimeout = null;
-  private ConfigNodePropertyArray queues = null;
-  private ConfigNodePropertyArray topics = null;
-  private ConfigNodePropertyInteger addressesMaxDeliveryAttempts = null;
-  private ConfigNodePropertyInteger addressesExpiryDelay = null;
-  private ConfigNodePropertyDropDown addressesAddressFullMessagePolicy = null;
-  private ConfigNodePropertyInteger addressesMaxSizeBytes = null;
-  private ConfigNodePropertyInteger addressesPageSizeBytes = null;
-  private ConfigNodePropertyInteger addressesPageCacheMaxSize = null;
-  private ConfigNodePropertyString clusterUser = null;
-  private ConfigNodePropertyString clusterPassword = null;
-  private ConfigNodePropertyInteger clusterCallTimeout = null;
-  private ConfigNodePropertyInteger clusterCallFailoverTimeout = null;
-  private ConfigNodePropertyInteger clusterClientFailureCheckPeriod = null;
-  private ConfigNodePropertyInteger clusterNotificationAttempts = null;
-  private ConfigNodePropertyInteger clusterNotificationInterval = null;
-  private ConfigNodePropertyInteger idCacheSize = null;
-  private ConfigNodePropertyInteger clusterConfirmationWindowSize = null;
-  private ConfigNodePropertyInteger clusterConnectionTtl = null;
-  private ConfigNodePropertyBoolean clusterDuplicateDetection = null;
-  private ConfigNodePropertyInteger clusterInitialConnectAttempts = null;
-  private ConfigNodePropertyInteger clusterMaxRetryInterval = null;
-  private ConfigNodePropertyInteger clusterMinLargeMessageSize = null;
-  private ConfigNodePropertyInteger clusterProducerWindowSize = null;
-  private ConfigNodePropertyInteger clusterReconnectAttempts = null;
-  private ConfigNodePropertyInteger clusterRetryInterval = null;
-  private ConfigNodePropertyFloat clusterRetryIntervalMultiplier = null;
+  private ConfigNodePropertyInteger serviceRanking;
+  private ConfigNodePropertyInteger globalSize;
+  private ConfigNodePropertyInteger maxDiskUsage;
+  private ConfigNodePropertyBoolean persistenceEnabled;
+  private ConfigNodePropertyInteger threadPoolMaxSize;
+  private ConfigNodePropertyInteger scheduledThreadPoolMaxSize;
+  private ConfigNodePropertyInteger gracefulShutdownTimeout;
+  private ConfigNodePropertyArray queues;
+  private ConfigNodePropertyArray topics;
+  private ConfigNodePropertyInteger addressesMaxDeliveryAttempts;
+  private ConfigNodePropertyInteger addressesExpiryDelay;
+  private ConfigNodePropertyDropDown addressesAddressFullMessagePolicy;
+  private ConfigNodePropertyInteger addressesMaxSizeBytes;
+  private ConfigNodePropertyInteger addressesPageSizeBytes;
+  private ConfigNodePropertyInteger addressesPageCacheMaxSize;
+  private ConfigNodePropertyString clusterUser;
+  private ConfigNodePropertyString clusterPassword;
+  private ConfigNodePropertyInteger clusterCallTimeout;
+  private ConfigNodePropertyInteger clusterCallFailoverTimeout;
+  private ConfigNodePropertyInteger clusterClientFailureCheckPeriod;
+  private ConfigNodePropertyInteger clusterNotificationAttempts;
+  private ConfigNodePropertyInteger clusterNotificationInterval;
+  private ConfigNodePropertyInteger idCacheSize;
+  private ConfigNodePropertyInteger clusterConfirmationWindowSize;
+  private ConfigNodePropertyInteger clusterConnectionTtl;
+  private ConfigNodePropertyBoolean clusterDuplicateDetection;
+  private ConfigNodePropertyInteger clusterInitialConnectAttempts;
+  private ConfigNodePropertyInteger clusterMaxRetryInterval;
+  private ConfigNodePropertyInteger clusterMinLargeMessageSize;
+  private ConfigNodePropertyInteger clusterProducerWindowSize;
+  private ConfigNodePropertyInteger clusterReconnectAttempts;
+  private ConfigNodePropertyInteger clusterRetryInterval;
+  private ConfigNodePropertyFloat clusterRetryIntervalMultiplier;
 
   /**
    **/
   
   @ApiModelProperty(value = "")
   @JsonProperty("service.ranking")
+  @Valid
   public ConfigNodePropertyInteger getServiceRanking() {
     return serviceRanking;
   }
@@ -68,6 +72,7 @@ public class ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("global.size")
+  @Valid
   public ConfigNodePropertyInteger getGlobalSize() {
     return globalSize;
   }
@@ -80,6 +85,7 @@ public class ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("max.disk.usage")
+  @Valid
   public ConfigNodePropertyInteger getMaxDiskUsage() {
     return maxDiskUsage;
   }
@@ -92,6 +98,7 @@ public class ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("persistence.enabled")
+  @Valid
   public ConfigNodePropertyBoolean getPersistenceEnabled() {
     return persistenceEnabled;
   }
@@ -104,6 +111,7 @@ public class ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("thread.pool.max.size")
+  @Valid
   public ConfigNodePropertyInteger getThreadPoolMaxSize() {
     return threadPoolMaxSize;
   }
@@ -116,6 +124,7 @@ public class ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("scheduled.thread.pool.max.size")
+  @Valid
   public ConfigNodePropertyInteger getScheduledThreadPoolMaxSize() {
     return scheduledThreadPoolMaxSize;
   }
@@ -128,6 +137,7 @@ public class ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("graceful.shutdown.timeout")
+  @Valid
   public ConfigNodePropertyInteger getGracefulShutdownTimeout() {
     return gracefulShutdownTimeout;
   }
@@ -140,6 +150,7 @@ public class ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("queues")
+  @Valid
   public ConfigNodePropertyArray getQueues() {
     return queues;
   }
@@ -152,6 +163,7 @@ public class ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("topics")
+  @Valid
   public ConfigNodePropertyArray getTopics() {
     return topics;
   }
@@ -164,6 +176,7 @@ public class ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("addresses.max.delivery.attempts")
+  @Valid
   public ConfigNodePropertyInteger getAddressesMaxDeliveryAttempts() {
     return addressesMaxDeliveryAttempts;
   }
@@ -176,6 +189,7 @@ public class ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("addresses.expiry.delay")
+  @Valid
   public ConfigNodePropertyInteger getAddressesExpiryDelay() {
     return addressesExpiryDelay;
   }
@@ -188,6 +202,7 @@ public class ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("addresses.address.full.message.policy")
+  @Valid
   public ConfigNodePropertyDropDown getAddressesAddressFullMessagePolicy() {
     return addressesAddressFullMessagePolicy;
   }
@@ -200,6 +215,7 @@ public class ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("addresses.max.size.bytes")
+  @Valid
   public ConfigNodePropertyInteger getAddressesMaxSizeBytes() {
     return addressesMaxSizeBytes;
   }
@@ -212,6 +228,7 @@ public class ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("addresses.page.size.bytes")
+  @Valid
   public ConfigNodePropertyInteger getAddressesPageSizeBytes() {
     return addressesPageSizeBytes;
   }
@@ -224,6 +241,7 @@ public class ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("addresses.page.cache.max.size")
+  @Valid
   public ConfigNodePropertyInteger getAddressesPageCacheMaxSize() {
     return addressesPageCacheMaxSize;
   }
@@ -236,6 +254,7 @@ public class ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("cluster.user")
+  @Valid
   public ConfigNodePropertyString getClusterUser() {
     return clusterUser;
   }
@@ -248,6 +267,7 @@ public class ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("cluster.password")
+  @Valid
   public ConfigNodePropertyString getClusterPassword() {
     return clusterPassword;
   }
@@ -260,6 +280,7 @@ public class ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("cluster.call.timeout")
+  @Valid
   public ConfigNodePropertyInteger getClusterCallTimeout() {
     return clusterCallTimeout;
   }
@@ -272,6 +293,7 @@ public class ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("cluster.call.failover.timeout")
+  @Valid
   public ConfigNodePropertyInteger getClusterCallFailoverTimeout() {
     return clusterCallFailoverTimeout;
   }
@@ -284,6 +306,7 @@ public class ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("cluster.client.failure.check.period")
+  @Valid
   public ConfigNodePropertyInteger getClusterClientFailureCheckPeriod() {
     return clusterClientFailureCheckPeriod;
   }
@@ -296,6 +319,7 @@ public class ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("cluster.notification.attempts")
+  @Valid
   public ConfigNodePropertyInteger getClusterNotificationAttempts() {
     return clusterNotificationAttempts;
   }
@@ -308,6 +332,7 @@ public class ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("cluster.notification.interval")
+  @Valid
   public ConfigNodePropertyInteger getClusterNotificationInterval() {
     return clusterNotificationInterval;
   }
@@ -320,6 +345,7 @@ public class ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("id.cache.size")
+  @Valid
   public ConfigNodePropertyInteger getIdCacheSize() {
     return idCacheSize;
   }
@@ -332,6 +358,7 @@ public class ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("cluster.confirmation.window.size")
+  @Valid
   public ConfigNodePropertyInteger getClusterConfirmationWindowSize() {
     return clusterConfirmationWindowSize;
   }
@@ -344,6 +371,7 @@ public class ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("cluster.connection.ttl")
+  @Valid
   public ConfigNodePropertyInteger getClusterConnectionTtl() {
     return clusterConnectionTtl;
   }
@@ -356,6 +384,7 @@ public class ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("cluster.duplicate.detection")
+  @Valid
   public ConfigNodePropertyBoolean getClusterDuplicateDetection() {
     return clusterDuplicateDetection;
   }
@@ -368,6 +397,7 @@ public class ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("cluster.initial.connect.attempts")
+  @Valid
   public ConfigNodePropertyInteger getClusterInitialConnectAttempts() {
     return clusterInitialConnectAttempts;
   }
@@ -380,6 +410,7 @@ public class ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("cluster.max.retry.interval")
+  @Valid
   public ConfigNodePropertyInteger getClusterMaxRetryInterval() {
     return clusterMaxRetryInterval;
   }
@@ -392,6 +423,7 @@ public class ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("cluster.min.large.message.size")
+  @Valid
   public ConfigNodePropertyInteger getClusterMinLargeMessageSize() {
     return clusterMinLargeMessageSize;
   }
@@ -404,6 +436,7 @@ public class ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("cluster.producer.window.size")
+  @Valid
   public ConfigNodePropertyInteger getClusterProducerWindowSize() {
     return clusterProducerWindowSize;
   }
@@ -416,6 +449,7 @@ public class ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("cluster.reconnect.attempts")
+  @Valid
   public ConfigNodePropertyInteger getClusterReconnectAttempts() {
     return clusterReconnectAttempts;
   }
@@ -428,6 +462,7 @@ public class ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("cluster.retry.interval")
+  @Valid
   public ConfigNodePropertyInteger getClusterRetryInterval() {
     return clusterRetryInterval;
   }
@@ -440,6 +475,7 @@ public class ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("cluster.retry.interval.multiplier")
+  @Valid
   public ConfigNodePropertyFloat getClusterRetryIntervalMultiplier() {
     return clusterRetryIntervalMultiplier;
   }
@@ -449,7 +485,7 @@ public class ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -457,39 +493,39 @@ public class ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties   {
       return false;
     }
     ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties = (ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties) o;
-    return Objects.equals(serviceRanking, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.serviceRanking) &&
-        Objects.equals(globalSize, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.globalSize) &&
-        Objects.equals(maxDiskUsage, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.maxDiskUsage) &&
-        Objects.equals(persistenceEnabled, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.persistenceEnabled) &&
-        Objects.equals(threadPoolMaxSize, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.threadPoolMaxSize) &&
-        Objects.equals(scheduledThreadPoolMaxSize, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.scheduledThreadPoolMaxSize) &&
-        Objects.equals(gracefulShutdownTimeout, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.gracefulShutdownTimeout) &&
-        Objects.equals(queues, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.queues) &&
-        Objects.equals(topics, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.topics) &&
-        Objects.equals(addressesMaxDeliveryAttempts, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.addressesMaxDeliveryAttempts) &&
-        Objects.equals(addressesExpiryDelay, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.addressesExpiryDelay) &&
-        Objects.equals(addressesAddressFullMessagePolicy, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.addressesAddressFullMessagePolicy) &&
-        Objects.equals(addressesMaxSizeBytes, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.addressesMaxSizeBytes) &&
-        Objects.equals(addressesPageSizeBytes, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.addressesPageSizeBytes) &&
-        Objects.equals(addressesPageCacheMaxSize, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.addressesPageCacheMaxSize) &&
-        Objects.equals(clusterUser, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.clusterUser) &&
-        Objects.equals(clusterPassword, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.clusterPassword) &&
-        Objects.equals(clusterCallTimeout, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.clusterCallTimeout) &&
-        Objects.equals(clusterCallFailoverTimeout, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.clusterCallFailoverTimeout) &&
-        Objects.equals(clusterClientFailureCheckPeriod, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.clusterClientFailureCheckPeriod) &&
-        Objects.equals(clusterNotificationAttempts, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.clusterNotificationAttempts) &&
-        Objects.equals(clusterNotificationInterval, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.clusterNotificationInterval) &&
-        Objects.equals(idCacheSize, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.idCacheSize) &&
-        Objects.equals(clusterConfirmationWindowSize, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.clusterConfirmationWindowSize) &&
-        Objects.equals(clusterConnectionTtl, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.clusterConnectionTtl) &&
-        Objects.equals(clusterDuplicateDetection, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.clusterDuplicateDetection) &&
-        Objects.equals(clusterInitialConnectAttempts, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.clusterInitialConnectAttempts) &&
-        Objects.equals(clusterMaxRetryInterval, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.clusterMaxRetryInterval) &&
-        Objects.equals(clusterMinLargeMessageSize, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.clusterMinLargeMessageSize) &&
-        Objects.equals(clusterProducerWindowSize, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.clusterProducerWindowSize) &&
-        Objects.equals(clusterReconnectAttempts, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.clusterReconnectAttempts) &&
-        Objects.equals(clusterRetryInterval, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.clusterRetryInterval) &&
-        Objects.equals(clusterRetryIntervalMultiplier, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.clusterRetryIntervalMultiplier);
+    return Objects.equals(this.serviceRanking, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.serviceRanking) &&
+        Objects.equals(this.globalSize, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.globalSize) &&
+        Objects.equals(this.maxDiskUsage, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.maxDiskUsage) &&
+        Objects.equals(this.persistenceEnabled, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.persistenceEnabled) &&
+        Objects.equals(this.threadPoolMaxSize, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.threadPoolMaxSize) &&
+        Objects.equals(this.scheduledThreadPoolMaxSize, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.scheduledThreadPoolMaxSize) &&
+        Objects.equals(this.gracefulShutdownTimeout, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.gracefulShutdownTimeout) &&
+        Objects.equals(this.queues, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.queues) &&
+        Objects.equals(this.topics, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.topics) &&
+        Objects.equals(this.addressesMaxDeliveryAttempts, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.addressesMaxDeliveryAttempts) &&
+        Objects.equals(this.addressesExpiryDelay, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.addressesExpiryDelay) &&
+        Objects.equals(this.addressesAddressFullMessagePolicy, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.addressesAddressFullMessagePolicy) &&
+        Objects.equals(this.addressesMaxSizeBytes, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.addressesMaxSizeBytes) &&
+        Objects.equals(this.addressesPageSizeBytes, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.addressesPageSizeBytes) &&
+        Objects.equals(this.addressesPageCacheMaxSize, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.addressesPageCacheMaxSize) &&
+        Objects.equals(this.clusterUser, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.clusterUser) &&
+        Objects.equals(this.clusterPassword, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.clusterPassword) &&
+        Objects.equals(this.clusterCallTimeout, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.clusterCallTimeout) &&
+        Objects.equals(this.clusterCallFailoverTimeout, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.clusterCallFailoverTimeout) &&
+        Objects.equals(this.clusterClientFailureCheckPeriod, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.clusterClientFailureCheckPeriod) &&
+        Objects.equals(this.clusterNotificationAttempts, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.clusterNotificationAttempts) &&
+        Objects.equals(this.clusterNotificationInterval, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.clusterNotificationInterval) &&
+        Objects.equals(this.idCacheSize, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.idCacheSize) &&
+        Objects.equals(this.clusterConfirmationWindowSize, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.clusterConfirmationWindowSize) &&
+        Objects.equals(this.clusterConnectionTtl, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.clusterConnectionTtl) &&
+        Objects.equals(this.clusterDuplicateDetection, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.clusterDuplicateDetection) &&
+        Objects.equals(this.clusterInitialConnectAttempts, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.clusterInitialConnectAttempts) &&
+        Objects.equals(this.clusterMaxRetryInterval, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.clusterMaxRetryInterval) &&
+        Objects.equals(this.clusterMinLargeMessageSize, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.clusterMinLargeMessageSize) &&
+        Objects.equals(this.clusterProducerWindowSize, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.clusterProducerWindowSize) &&
+        Objects.equals(this.clusterReconnectAttempts, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.clusterReconnectAttempts) &&
+        Objects.equals(this.clusterRetryInterval, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.clusterRetryInterval) &&
+        Objects.equals(this.clusterRetryIntervalMultiplier, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.clusterRetryIntervalMultiplier);
   }
 
   @Override
@@ -543,11 +579,8 @@ public class ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

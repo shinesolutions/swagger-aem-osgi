@@ -8,12 +8,12 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqDamInddProcessINDDMediaExtractProcessProperties {
-    ConfigNodePropertyString processLabel = null
-
-    ConfigNodePropertyString cqDamInddPagesRegex = null
-
-    ConfigNodePropertyBoolean idsJobDecoupled = null
-
-    ConfigNodePropertyString idsJobWorkflowModel = null
-
+    
+    ConfigNodePropertyString processLabel
+    
+    ConfigNodePropertyString cqDamInddPagesRegex
+    
+    ConfigNodePropertyBoolean idsJobDecoupled
+    
+    ConfigNodePropertyString idsJobWorkflowModel
 }

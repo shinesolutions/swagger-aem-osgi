@@ -4,32 +4,43 @@ import apimodels.ConfigNodePropertyArray;
 import apimodels.ConfigNodePropertyBoolean;
 import apimodels.ConfigNodePropertyInteger;
 import apimodels.ConfigNodePropertyString;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * ComAdobeCqCdnRewriterImplCDNConfigServiceImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class ComAdobeCqCdnRewriterImplCDNConfigServiceImplProperties   {
   @JsonProperty("cdn.config.distribution.domain")
-  private ConfigNodePropertyString cdnConfigDistributionDomain = null;
+  @Valid
+
+  private ConfigNodePropertyString cdnConfigDistributionDomain;
 
   @JsonProperty("cdn.config.enable.rewriting")
-  private ConfigNodePropertyBoolean cdnConfigEnableRewriting = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean cdnConfigEnableRewriting;
 
   @JsonProperty("cdn.config.path.prefixes")
-  private ConfigNodePropertyArray cdnConfigPathPrefixes = null;
+  @Valid
+
+  private ConfigNodePropertyArray cdnConfigPathPrefixes;
 
   @JsonProperty("cdn.config.cdnttl")
-  private ConfigNodePropertyInteger cdnConfigCdnttl = null;
+  @Valid
+
+  private ConfigNodePropertyInteger cdnConfigCdnttl;
 
   @JsonProperty("cdn.config.application.protocol")
-  private ConfigNodePropertyString cdnConfigApplicationProtocol = null;
+  @Valid
+
+  private ConfigNodePropertyString cdnConfigApplicationProtocol;
 
   public ComAdobeCqCdnRewriterImplCDNConfigServiceImplProperties cdnConfigDistributionDomain(ConfigNodePropertyString cdnConfigDistributionDomain) {
     this.cdnConfigDistributionDomain = cdnConfigDistributionDomain;
@@ -40,7 +51,6 @@ public class ComAdobeCqCdnRewriterImplCDNConfigServiceImplProperties   {
    * Get cdnConfigDistributionDomain
    * @return cdnConfigDistributionDomain
   **/
-  @Valid
   public ConfigNodePropertyString getCdnConfigDistributionDomain() {
     return cdnConfigDistributionDomain;
   }
@@ -58,7 +68,6 @@ public class ComAdobeCqCdnRewriterImplCDNConfigServiceImplProperties   {
    * Get cdnConfigEnableRewriting
    * @return cdnConfigEnableRewriting
   **/
-  @Valid
   public ConfigNodePropertyBoolean getCdnConfigEnableRewriting() {
     return cdnConfigEnableRewriting;
   }
@@ -76,7 +85,6 @@ public class ComAdobeCqCdnRewriterImplCDNConfigServiceImplProperties   {
    * Get cdnConfigPathPrefixes
    * @return cdnConfigPathPrefixes
   **/
-  @Valid
   public ConfigNodePropertyArray getCdnConfigPathPrefixes() {
     return cdnConfigPathPrefixes;
   }
@@ -94,7 +102,6 @@ public class ComAdobeCqCdnRewriterImplCDNConfigServiceImplProperties   {
    * Get cdnConfigCdnttl
    * @return cdnConfigCdnttl
   **/
-  @Valid
   public ConfigNodePropertyInteger getCdnConfigCdnttl() {
     return cdnConfigCdnttl;
   }
@@ -112,7 +119,6 @@ public class ComAdobeCqCdnRewriterImplCDNConfigServiceImplProperties   {
    * Get cdnConfigApplicationProtocol
    * @return cdnConfigApplicationProtocol
   **/
-  @Valid
   public ConfigNodePropertyString getCdnConfigApplicationProtocol() {
     return cdnConfigApplicationProtocol;
   }
@@ -123,7 +129,7 @@ public class ComAdobeCqCdnRewriterImplCDNConfigServiceImplProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -162,11 +168,8 @@ public class ComAdobeCqCdnRewriterImplCDNConfigServiceImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

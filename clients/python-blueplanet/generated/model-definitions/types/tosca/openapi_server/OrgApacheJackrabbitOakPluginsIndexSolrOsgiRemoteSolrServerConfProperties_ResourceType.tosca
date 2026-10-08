@@ -1,0 +1,72 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfProperties {
+    title = OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfProperties
+    description = OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfProperties
+    derivedFrom = Root
+    properties {
+        solr_http_url {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        solr_zk_host {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        solr_collection {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        solr_socket_timeout {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        solr_connection_timeout {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        solr_shards_no {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        solr_replication_factor {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        solr_conf_dir {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfProperties {
+    title = OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfProperties
+    description = OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfProperties
+    implements = openapi_server.resourceTypes.OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfProperties
+
+  }
+}

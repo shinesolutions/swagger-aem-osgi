@@ -72,7 +72,7 @@ private class OASComDayCqDamS7damCommonProcessVideTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqDamS7damCommonProcessVide comDayCqDamS7damCommonProcessVideoThumbnailDownloadProcessProperties = new OASComDayCqDamS7damCommonProcessVide();
-        Map<String, String> propertyMappings = comDayCqDamS7damCommonProcessVideoThumbnailDownloadProcessProperties.getPropertyMappings();
-        System.assertEquals('processLabel', propertyMappings.get('process.label'));
+        Map<String, String> x-property-mappings = comDayCqDamS7damCommonProcessVideoThumbnailDownloadProcessProperties.getx-property-mappings();
+        System.assertEquals('processLabel', x-property-mappings.get('process.label'));
     }
 }

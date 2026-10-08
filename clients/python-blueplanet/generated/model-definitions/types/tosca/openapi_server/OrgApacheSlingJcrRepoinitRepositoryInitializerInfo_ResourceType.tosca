@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingJcrRepoinitRepositoryInitializerInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingJcrRepoinitRepositoryInitializerInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  OrgApacheSlingJcrRepoinitRepositoryInitializerProperties = openapi_server.resourceTypes.OrgApacheSlingJcrRepoinitRepositoryInitializerProperties
+}
+resourceTypes {
+
+  OrgApacheSlingJcrRepoinitRepositoryInitializerInfo {
+    title = OrgApacheSlingJcrRepoinitRepositoryInitializerInfo
+    description = OrgApacheSlingJcrRepoinitRepositoryInitializerInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = OrgApacheSlingJcrRepoinitRepositoryInitializerProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingJcrRepoinitRepositoryInitializerInfo {
+    title = OrgApacheSlingJcrRepoinitRepositoryInitializerInfo
+    description = OrgApacheSlingJcrRepoinitRepositoryInitializerInfo
+    implements = openapi_server.resourceTypes.OrgApacheSlingJcrRepoinitRepositoryInitializerInfo
+
+  }
+}

@@ -2,13 +2,13 @@
 # ComDayCqWcmFoundationFormsImplFormChooserServletProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**servicePeriodname** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**slingPeriodservletPeriodresourceTypes** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**slingPeriodservletPeriodselectors** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**slingPeriodservletPeriodmethods** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**formsPeriodformchooserservletPeriodadvansesearchPeriodrequire** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **serviceName** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **slingServletResourceTypes** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **slingServletSelectors** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **slingServletMethods** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **formsFormchooserservletAdvansesearchRequire** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
 
 
 

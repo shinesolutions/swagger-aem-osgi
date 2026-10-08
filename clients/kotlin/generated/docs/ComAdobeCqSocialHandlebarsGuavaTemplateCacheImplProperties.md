@@ -2,12 +2,12 @@
 # ComAdobeCqSocialHandlebarsGuavaTemplateCacheImplProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**parameterPeriodguavaPeriodcachePeriodenabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**parameterPeriodguavaPeriodcachePeriodparams** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**parameterPeriodguavaPeriodcachePeriodreload** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**servicePeriodranking** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **parameterGuavaCacheEnabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **parameterGuavaCacheParams** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **parameterGuavaCacheReload** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **serviceRanking** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
 
 
 

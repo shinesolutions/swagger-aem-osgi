@@ -1,0 +1,15 @@
+namespace OpenAPI.Model
+
+open System
+open System.Collections.Generic
+open OpenAPI.Model.ConfigNodePropertyInteger
+
+module ComDayCqDamCoreImplReportsReportExportServiceProperties =
+
+  //#region ComDayCqDamCoreImplReportsReportExportServiceProperties
+
+
+  type comDayCqDamCoreImplReportsReportExportServiceProperties = {
+    QueryBatchSize : ConfigNodePropertyInteger;
+  }
+  //#endregion

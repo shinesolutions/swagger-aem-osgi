@@ -1,0 +1,21 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "cdn_config_distribution_domain" },
+      {"model": "cdn_config_enable_rewriting" },
+      {"model": "cdn_config_path_prefixes" },
+      {"model": "cdn_config_cdnttl" },
+      {"model": "cdn_config_application_protocol" },
+    ]
+  }]
+}

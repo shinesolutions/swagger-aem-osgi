@@ -1,7 +1,9 @@
 
+
 # OrgApacheSlingHcCoreImplJmxAttributeHealthCheckProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **hcName** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
@@ -10,6 +12,7 @@ Name | Type | Description | Notes
 **mbeanName** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
 **attributeName** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
 **attributeValueConstraint** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
+
 
 
 

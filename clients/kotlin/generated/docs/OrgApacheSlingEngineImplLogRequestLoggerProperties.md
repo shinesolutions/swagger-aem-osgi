@@ -2,14 +2,14 @@
 # OrgApacheSlingEngineImplLogRequestLoggerProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**requestPeriodlogPeriodoutput** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**requestPeriodlogPeriodoutputtype** | [**ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md) |  |  [optional]
-**requestPeriodlogPeriodenabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**accessPeriodlogPeriodoutput** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**accessPeriodlogPeriodoutputtype** | [**ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md) |  |  [optional]
-**accessPeriodlogPeriodenabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **requestLogOutput** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **requestLogOutputtype** | [**ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md) |  |  [optional] |
+| **requestLogEnabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **accessLogOutput** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **accessLogOutputtype** | [**ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md) |  |  [optional] |
+| **accessLogEnabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
 
 
 

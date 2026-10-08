@@ -7,16 +7,16 @@ import org.openapitools.model.ComDayCqRewriterLinkcheckerImplLinkCheckerImplProp
 
 @Canonical
 class ComDayCqRewriterLinkcheckerImplLinkCheckerImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqRewriterLinkcheckerImplLinkCheckerImplProperties properties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqRewriterLinkcheckerImplLinkCheckerImplProperties properties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

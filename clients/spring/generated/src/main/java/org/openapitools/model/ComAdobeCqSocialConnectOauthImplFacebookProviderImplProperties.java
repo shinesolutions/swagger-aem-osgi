@@ -1,48 +1,59 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyDropDown;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComAdobeCqSocialConnectOauthImplFacebookProviderImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComAdobeCqSocialConnectOauthImplFacebookProviderImplProperties   {
-  @JsonProperty("oauth.provider.id")
-  private ConfigNodePropertyString oauthProviderId = null;
+@JsonTypeName("comAdobeCqSocialConnectOauthImplFacebookProviderImplProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComAdobeCqSocialConnectOauthImplFacebookProviderImplProperties {
 
-  @JsonProperty("oauth.cloud.config.root")
-  private ConfigNodePropertyString oauthCloudConfigRoot = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString oauthProviderId;
 
-  @JsonProperty("provider.config.root")
-  private ConfigNodePropertyString providerConfigRoot = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString oauthCloudConfigRoot;
 
-  @JsonProperty("provider.config.create.tags.enabled")
-  private ConfigNodePropertyBoolean providerConfigCreateTagsEnabled = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString providerConfigRoot;
 
-  @JsonProperty("provider.config.user.folder")
-  private ConfigNodePropertyDropDown providerConfigUserFolder = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean providerConfigCreateTagsEnabled;
 
-  @JsonProperty("provider.config.facebook.fetch.fields")
-  private ConfigNodePropertyBoolean providerConfigFacebookFetchFields = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyDropDown providerConfigUserFolder;
 
-  @JsonProperty("provider.config.facebook.fields")
-  private ConfigNodePropertyArray providerConfigFacebookFields = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean providerConfigFacebookFetchFields;
 
-  @JsonProperty("provider.config.refresh.userdata.enabled")
-  private ConfigNodePropertyBoolean providerConfigRefreshUserdataEnabled = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray providerConfigFacebookFields;
 
-  public ComAdobeCqSocialConnectOauthImplFacebookProviderImplProperties oauthProviderId(ConfigNodePropertyString oauthProviderId) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean providerConfigRefreshUserdataEnabled;
+
+  public ComAdobeCqSocialConnectOauthImplFacebookProviderImplProperties oauthProviderId(@Nullable ConfigNodePropertyString oauthProviderId) {
     this.oauthProviderId = oauthProviderId;
     return this;
   }
@@ -50,20 +61,20 @@ public class ComAdobeCqSocialConnectOauthImplFacebookProviderImplProperties   {
   /**
    * Get oauthProviderId
    * @return oauthProviderId
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getOauthProviderId() {
+   */
+  @Valid 
+  @Schema(name = "oauth.provider.id", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("oauth.provider.id")
+  public @Nullable ConfigNodePropertyString getOauthProviderId() {
     return oauthProviderId;
   }
 
-  public void setOauthProviderId(ConfigNodePropertyString oauthProviderId) {
+  @JsonProperty("oauth.provider.id")
+  public void setOauthProviderId(@Nullable ConfigNodePropertyString oauthProviderId) {
     this.oauthProviderId = oauthProviderId;
   }
 
-  public ComAdobeCqSocialConnectOauthImplFacebookProviderImplProperties oauthCloudConfigRoot(ConfigNodePropertyString oauthCloudConfigRoot) {
+  public ComAdobeCqSocialConnectOauthImplFacebookProviderImplProperties oauthCloudConfigRoot(@Nullable ConfigNodePropertyString oauthCloudConfigRoot) {
     this.oauthCloudConfigRoot = oauthCloudConfigRoot;
     return this;
   }
@@ -71,20 +82,20 @@ public class ComAdobeCqSocialConnectOauthImplFacebookProviderImplProperties   {
   /**
    * Get oauthCloudConfigRoot
    * @return oauthCloudConfigRoot
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getOauthCloudConfigRoot() {
+   */
+  @Valid 
+  @Schema(name = "oauth.cloud.config.root", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("oauth.cloud.config.root")
+  public @Nullable ConfigNodePropertyString getOauthCloudConfigRoot() {
     return oauthCloudConfigRoot;
   }
 
-  public void setOauthCloudConfigRoot(ConfigNodePropertyString oauthCloudConfigRoot) {
+  @JsonProperty("oauth.cloud.config.root")
+  public void setOauthCloudConfigRoot(@Nullable ConfigNodePropertyString oauthCloudConfigRoot) {
     this.oauthCloudConfigRoot = oauthCloudConfigRoot;
   }
 
-  public ComAdobeCqSocialConnectOauthImplFacebookProviderImplProperties providerConfigRoot(ConfigNodePropertyString providerConfigRoot) {
+  public ComAdobeCqSocialConnectOauthImplFacebookProviderImplProperties providerConfigRoot(@Nullable ConfigNodePropertyString providerConfigRoot) {
     this.providerConfigRoot = providerConfigRoot;
     return this;
   }
@@ -92,20 +103,20 @@ public class ComAdobeCqSocialConnectOauthImplFacebookProviderImplProperties   {
   /**
    * Get providerConfigRoot
    * @return providerConfigRoot
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getProviderConfigRoot() {
+   */
+  @Valid 
+  @Schema(name = "provider.config.root", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("provider.config.root")
+  public @Nullable ConfigNodePropertyString getProviderConfigRoot() {
     return providerConfigRoot;
   }
 
-  public void setProviderConfigRoot(ConfigNodePropertyString providerConfigRoot) {
+  @JsonProperty("provider.config.root")
+  public void setProviderConfigRoot(@Nullable ConfigNodePropertyString providerConfigRoot) {
     this.providerConfigRoot = providerConfigRoot;
   }
 
-  public ComAdobeCqSocialConnectOauthImplFacebookProviderImplProperties providerConfigCreateTagsEnabled(ConfigNodePropertyBoolean providerConfigCreateTagsEnabled) {
+  public ComAdobeCqSocialConnectOauthImplFacebookProviderImplProperties providerConfigCreateTagsEnabled(@Nullable ConfigNodePropertyBoolean providerConfigCreateTagsEnabled) {
     this.providerConfigCreateTagsEnabled = providerConfigCreateTagsEnabled;
     return this;
   }
@@ -113,20 +124,20 @@ public class ComAdobeCqSocialConnectOauthImplFacebookProviderImplProperties   {
   /**
    * Get providerConfigCreateTagsEnabled
    * @return providerConfigCreateTagsEnabled
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getProviderConfigCreateTagsEnabled() {
+   */
+  @Valid 
+  @Schema(name = "provider.config.create.tags.enabled", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("provider.config.create.tags.enabled")
+  public @Nullable ConfigNodePropertyBoolean getProviderConfigCreateTagsEnabled() {
     return providerConfigCreateTagsEnabled;
   }
 
-  public void setProviderConfigCreateTagsEnabled(ConfigNodePropertyBoolean providerConfigCreateTagsEnabled) {
+  @JsonProperty("provider.config.create.tags.enabled")
+  public void setProviderConfigCreateTagsEnabled(@Nullable ConfigNodePropertyBoolean providerConfigCreateTagsEnabled) {
     this.providerConfigCreateTagsEnabled = providerConfigCreateTagsEnabled;
   }
 
-  public ComAdobeCqSocialConnectOauthImplFacebookProviderImplProperties providerConfigUserFolder(ConfigNodePropertyDropDown providerConfigUserFolder) {
+  public ComAdobeCqSocialConnectOauthImplFacebookProviderImplProperties providerConfigUserFolder(@Nullable ConfigNodePropertyDropDown providerConfigUserFolder) {
     this.providerConfigUserFolder = providerConfigUserFolder;
     return this;
   }
@@ -134,20 +145,20 @@ public class ComAdobeCqSocialConnectOauthImplFacebookProviderImplProperties   {
   /**
    * Get providerConfigUserFolder
    * @return providerConfigUserFolder
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyDropDown getProviderConfigUserFolder() {
+   */
+  @Valid 
+  @Schema(name = "provider.config.user.folder", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("provider.config.user.folder")
+  public @Nullable ConfigNodePropertyDropDown getProviderConfigUserFolder() {
     return providerConfigUserFolder;
   }
 
-  public void setProviderConfigUserFolder(ConfigNodePropertyDropDown providerConfigUserFolder) {
+  @JsonProperty("provider.config.user.folder")
+  public void setProviderConfigUserFolder(@Nullable ConfigNodePropertyDropDown providerConfigUserFolder) {
     this.providerConfigUserFolder = providerConfigUserFolder;
   }
 
-  public ComAdobeCqSocialConnectOauthImplFacebookProviderImplProperties providerConfigFacebookFetchFields(ConfigNodePropertyBoolean providerConfigFacebookFetchFields) {
+  public ComAdobeCqSocialConnectOauthImplFacebookProviderImplProperties providerConfigFacebookFetchFields(@Nullable ConfigNodePropertyBoolean providerConfigFacebookFetchFields) {
     this.providerConfigFacebookFetchFields = providerConfigFacebookFetchFields;
     return this;
   }
@@ -155,20 +166,20 @@ public class ComAdobeCqSocialConnectOauthImplFacebookProviderImplProperties   {
   /**
    * Get providerConfigFacebookFetchFields
    * @return providerConfigFacebookFetchFields
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getProviderConfigFacebookFetchFields() {
+   */
+  @Valid 
+  @Schema(name = "provider.config.facebook.fetch.fields", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("provider.config.facebook.fetch.fields")
+  public @Nullable ConfigNodePropertyBoolean getProviderConfigFacebookFetchFields() {
     return providerConfigFacebookFetchFields;
   }
 
-  public void setProviderConfigFacebookFetchFields(ConfigNodePropertyBoolean providerConfigFacebookFetchFields) {
+  @JsonProperty("provider.config.facebook.fetch.fields")
+  public void setProviderConfigFacebookFetchFields(@Nullable ConfigNodePropertyBoolean providerConfigFacebookFetchFields) {
     this.providerConfigFacebookFetchFields = providerConfigFacebookFetchFields;
   }
 
-  public ComAdobeCqSocialConnectOauthImplFacebookProviderImplProperties providerConfigFacebookFields(ConfigNodePropertyArray providerConfigFacebookFields) {
+  public ComAdobeCqSocialConnectOauthImplFacebookProviderImplProperties providerConfigFacebookFields(@Nullable ConfigNodePropertyArray providerConfigFacebookFields) {
     this.providerConfigFacebookFields = providerConfigFacebookFields;
     return this;
   }
@@ -176,20 +187,20 @@ public class ComAdobeCqSocialConnectOauthImplFacebookProviderImplProperties   {
   /**
    * Get providerConfigFacebookFields
    * @return providerConfigFacebookFields
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getProviderConfigFacebookFields() {
+   */
+  @Valid 
+  @Schema(name = "provider.config.facebook.fields", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("provider.config.facebook.fields")
+  public @Nullable ConfigNodePropertyArray getProviderConfigFacebookFields() {
     return providerConfigFacebookFields;
   }
 
-  public void setProviderConfigFacebookFields(ConfigNodePropertyArray providerConfigFacebookFields) {
+  @JsonProperty("provider.config.facebook.fields")
+  public void setProviderConfigFacebookFields(@Nullable ConfigNodePropertyArray providerConfigFacebookFields) {
     this.providerConfigFacebookFields = providerConfigFacebookFields;
   }
 
-  public ComAdobeCqSocialConnectOauthImplFacebookProviderImplProperties providerConfigRefreshUserdataEnabled(ConfigNodePropertyBoolean providerConfigRefreshUserdataEnabled) {
+  public ComAdobeCqSocialConnectOauthImplFacebookProviderImplProperties providerConfigRefreshUserdataEnabled(@Nullable ConfigNodePropertyBoolean providerConfigRefreshUserdataEnabled) {
     this.providerConfigRefreshUserdataEnabled = providerConfigRefreshUserdataEnabled;
     return this;
   }
@@ -197,22 +208,21 @@ public class ComAdobeCqSocialConnectOauthImplFacebookProviderImplProperties   {
   /**
    * Get providerConfigRefreshUserdataEnabled
    * @return providerConfigRefreshUserdataEnabled
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getProviderConfigRefreshUserdataEnabled() {
+   */
+  @Valid 
+  @Schema(name = "provider.config.refresh.userdata.enabled", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("provider.config.refresh.userdata.enabled")
+  public @Nullable ConfigNodePropertyBoolean getProviderConfigRefreshUserdataEnabled() {
     return providerConfigRefreshUserdataEnabled;
   }
 
-  public void setProviderConfigRefreshUserdataEnabled(ConfigNodePropertyBoolean providerConfigRefreshUserdataEnabled) {
+  @JsonProperty("provider.config.refresh.userdata.enabled")
+  public void setProviderConfigRefreshUserdataEnabled(@Nullable ConfigNodePropertyBoolean providerConfigRefreshUserdataEnabled) {
     this.providerConfigRefreshUserdataEnabled = providerConfigRefreshUserdataEnabled;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -239,7 +249,6 @@ public class ComAdobeCqSocialConnectOauthImplFacebookProviderImplProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComAdobeCqSocialConnectOauthImplFacebookProviderImplProperties {\n");
-    
     sb.append("    oauthProviderId: ").append(toIndentedString(oauthProviderId)).append("\n");
     sb.append("    oauthCloudConfigRoot: ").append(toIndentedString(oauthCloudConfigRoot)).append("\n");
     sb.append("    providerConfigRoot: ").append(toIndentedString(providerConfigRoot)).append("\n");
@@ -256,11 +265,8 @@ public class ComAdobeCqSocialConnectOauthImplFacebookProviderImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

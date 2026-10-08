@@ -3,6 +3,7 @@ package org.openapitools.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyBoolean;
@@ -13,31 +14,31 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaInflectorServerCodegen", date = "2019-08-05T00:53:46.291Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaInflectorServerCodegen", date = "2026-10-07T12:53:12.340274163Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteDistributionCoreImplDiffDiffChangesObserverProperties   {
   @JsonProperty("enabled")
-  private ConfigNodePropertyBoolean enabled = null;
+  private ConfigNodePropertyBoolean enabled;
 
   @JsonProperty("agentName")
-  private ConfigNodePropertyString agentName = null;
+  private ConfigNodePropertyString agentName;
 
   @JsonProperty("diffPath")
-  private ConfigNodePropertyString diffPath = null;
+  private ConfigNodePropertyString diffPath;
 
   @JsonProperty("observedPath")
-  private ConfigNodePropertyString observedPath = null;
+  private ConfigNodePropertyString observedPath;
 
   @JsonProperty("serviceName")
-  private ConfigNodePropertyString serviceName = null;
+  private ConfigNodePropertyString serviceName;
 
   @JsonProperty("propertyNames")
-  private ConfigNodePropertyString propertyNames = null;
+  private ConfigNodePropertyString propertyNames;
 
   @JsonProperty("distributionDelay")
-  private ConfigNodePropertyInteger distributionDelay = null;
+  private ConfigNodePropertyInteger distributionDelay;
 
   @JsonProperty("serviceUser.target")
-  private ConfigNodePropertyString serviceUserTarget = null;
+  private ConfigNodePropertyString serviceUserTarget;
 
   /**
    **/
@@ -177,7 +178,7 @@ public class ComAdobeGraniteDistributionCoreImplDiffDiffChangesObserverPropertie
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -221,11 +222,8 @@ public class ComAdobeGraniteDistributionCoreImplDiffDiffChangesObserverPropertie
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

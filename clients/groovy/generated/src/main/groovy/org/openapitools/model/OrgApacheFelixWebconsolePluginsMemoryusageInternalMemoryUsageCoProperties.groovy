@@ -8,10 +8,10 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCoProperties {
-    ConfigNodePropertyInteger felixMemoryusageDumpThreshold = null
-
-    ConfigNodePropertyInteger felixMemoryusageDumpInterval = null
-
-    ConfigNodePropertyString felixMemoryusageDumpLocation = null
-
+    
+    ConfigNodePropertyInteger felixMemoryusageDumpThreshold
+    
+    ConfigNodePropertyInteger felixMemoryusageDumpInterval
+    
+    ConfigNodePropertyString felixMemoryusageDumpLocation
 }

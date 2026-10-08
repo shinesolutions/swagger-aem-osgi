@@ -7,16 +7,16 @@ import org.openapitools.model.ComAdobeGraniteAnalyzerBaseSystemStatusServletProp
 
 @Canonical
 class ComAdobeGraniteAnalyzerBaseSystemStatusServletInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteAnalyzerBaseSystemStatusServletProperties properties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteAnalyzerBaseSystemStatusServletProperties properties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

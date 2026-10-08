@@ -4,32 +4,43 @@ import apimodels.ConfigNodePropertyBoolean;
 import apimodels.ConfigNodePropertyDropDown;
 import apimodels.ConfigNodePropertyInteger;
 import apimodels.ConfigNodePropertyString;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * ComDayCqDamCoreImplDamEventPurgeServiceProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class ComDayCqDamCoreImplDamEventPurgeServiceProperties   {
   @JsonProperty("scheduler.expression")
-  private ConfigNodePropertyString schedulerExpression = null;
+  @Valid
+
+  private ConfigNodePropertyString schedulerExpression;
 
   @JsonProperty("maxSavedActivities")
-  private ConfigNodePropertyInteger maxSavedActivities = null;
+  @Valid
+
+  private ConfigNodePropertyInteger maxSavedActivities;
 
   @JsonProperty("saveInterval")
-  private ConfigNodePropertyInteger saveInterval = null;
+  @Valid
+
+  private ConfigNodePropertyInteger saveInterval;
 
   @JsonProperty("enableActivityPurge")
-  private ConfigNodePropertyBoolean enableActivityPurge = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean enableActivityPurge;
 
   @JsonProperty("eventTypes")
-  private ConfigNodePropertyDropDown eventTypes = null;
+  @Valid
+
+  private ConfigNodePropertyDropDown eventTypes;
 
   public ComDayCqDamCoreImplDamEventPurgeServiceProperties schedulerExpression(ConfigNodePropertyString schedulerExpression) {
     this.schedulerExpression = schedulerExpression;
@@ -40,7 +51,6 @@ public class ComDayCqDamCoreImplDamEventPurgeServiceProperties   {
    * Get schedulerExpression
    * @return schedulerExpression
   **/
-  @Valid
   public ConfigNodePropertyString getSchedulerExpression() {
     return schedulerExpression;
   }
@@ -58,7 +68,6 @@ public class ComDayCqDamCoreImplDamEventPurgeServiceProperties   {
    * Get maxSavedActivities
    * @return maxSavedActivities
   **/
-  @Valid
   public ConfigNodePropertyInteger getMaxSavedActivities() {
     return maxSavedActivities;
   }
@@ -76,7 +85,6 @@ public class ComDayCqDamCoreImplDamEventPurgeServiceProperties   {
    * Get saveInterval
    * @return saveInterval
   **/
-  @Valid
   public ConfigNodePropertyInteger getSaveInterval() {
     return saveInterval;
   }
@@ -94,7 +102,6 @@ public class ComDayCqDamCoreImplDamEventPurgeServiceProperties   {
    * Get enableActivityPurge
    * @return enableActivityPurge
   **/
-  @Valid
   public ConfigNodePropertyBoolean getEnableActivityPurge() {
     return enableActivityPurge;
   }
@@ -112,7 +119,6 @@ public class ComDayCqDamCoreImplDamEventPurgeServiceProperties   {
    * Get eventTypes
    * @return eventTypes
   **/
-  @Valid
   public ConfigNodePropertyDropDown getEventTypes() {
     return eventTypes;
   }
@@ -123,7 +129,7 @@ public class ComDayCqDamCoreImplDamEventPurgeServiceProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -162,11 +168,8 @@ public class ComDayCqDamCoreImplDamEventPurgeServiceProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

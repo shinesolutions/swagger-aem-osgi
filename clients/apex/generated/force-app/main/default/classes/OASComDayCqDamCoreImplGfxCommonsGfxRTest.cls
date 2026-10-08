@@ -72,7 +72,7 @@ private class OASComDayCqDamCoreImplGfxCommonsGfxRTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqDamCoreImplGfxCommonsGfxR comDayCqDamCoreImplGfxCommonsGfxRendererProperties = new OASComDayCqDamCoreImplGfxCommonsGfxR();
-        Map<String, String> propertyMappings = comDayCqDamCoreImplGfxCommonsGfxRendererProperties.getPropertyMappings();
-        System.assertEquals('skipBufferedcache', propertyMappings.get('skip.bufferedcache'));
+        Map<String, String> x-property-mappings = comDayCqDamCoreImplGfxCommonsGfxRendererProperties.getx-property-mappings();
+        System.assertEquals('skipBufferedcache', x-property-mappings.get('skip.bufferedcache'));
     }
 }

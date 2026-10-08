@@ -8,8 +8,8 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class ComAdobeCqSocialModerationDashboardInternalImplFilterGroupSociProperties {
-    ConfigNodePropertyArray resourceTypeFilters = null
-
-    ConfigNodePropertyInteger priority = null
-
+    
+    ConfigNodePropertyArray resourceTypeFilters
+    
+    ConfigNodePropertyInteger priority
 }

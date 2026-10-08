@@ -1,21 +1,32 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("orgApacheSlingDistributionTriggerImplScheduledDistributionTriggeProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggeProperties   {
-  
-  private @Valid ConfigNodePropertyString name = null;
-  private @Valid ConfigNodePropertyString path = null;
-  private @Valid ConfigNodePropertyString seconds = null;
-  private @Valid ConfigNodePropertyString serviceName = null;
+  private ConfigNodePropertyString name;
+  private ConfigNodePropertyString path;
+  private ConfigNodePropertyString seconds;
+  private ConfigNodePropertyString serviceName;
+
+  public OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggeProperties() {
+  }
 
   /**
    **/
@@ -27,9 +38,11 @@ public class OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggePro
   
   @ApiModelProperty(value = "")
   @JsonProperty("name")
-  public ConfigNodePropertyString getName() {
+  @Valid public ConfigNodePropertyString getName() {
     return name;
   }
+
+  @JsonProperty("name")
   public void setName(ConfigNodePropertyString name) {
     this.name = name;
   }
@@ -44,9 +57,11 @@ public class OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggePro
   
   @ApiModelProperty(value = "")
   @JsonProperty("path")
-  public ConfigNodePropertyString getPath() {
+  @Valid public ConfigNodePropertyString getPath() {
     return path;
   }
+
+  @JsonProperty("path")
   public void setPath(ConfigNodePropertyString path) {
     this.path = path;
   }
@@ -61,9 +76,11 @@ public class OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggePro
   
   @ApiModelProperty(value = "")
   @JsonProperty("seconds")
-  public ConfigNodePropertyString getSeconds() {
+  @Valid public ConfigNodePropertyString getSeconds() {
     return seconds;
   }
+
+  @JsonProperty("seconds")
   public void setSeconds(ConfigNodePropertyString seconds) {
     this.seconds = seconds;
   }
@@ -78,16 +95,18 @@ public class OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggePro
   
   @ApiModelProperty(value = "")
   @JsonProperty("serviceName")
-  public ConfigNodePropertyString getServiceName() {
+  @Valid public ConfigNodePropertyString getServiceName() {
     return serviceName;
   }
+
+  @JsonProperty("serviceName")
   public void setServiceName(ConfigNodePropertyString serviceName) {
     this.serviceName = serviceName;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -95,10 +114,10 @@ public class OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggePro
       return false;
     }
     OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggeProperties orgApacheSlingDistributionTriggerImplScheduledDistributionTriggeProperties = (OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggeProperties) o;
-    return Objects.equals(name, orgApacheSlingDistributionTriggerImplScheduledDistributionTriggeProperties.name) &&
-        Objects.equals(path, orgApacheSlingDistributionTriggerImplScheduledDistributionTriggeProperties.path) &&
-        Objects.equals(seconds, orgApacheSlingDistributionTriggerImplScheduledDistributionTriggeProperties.seconds) &&
-        Objects.equals(serviceName, orgApacheSlingDistributionTriggerImplScheduledDistributionTriggeProperties.serviceName);
+    return Objects.equals(this.name, orgApacheSlingDistributionTriggerImplScheduledDistributionTriggeProperties.name) &&
+        Objects.equals(this.path, orgApacheSlingDistributionTriggerImplScheduledDistributionTriggeProperties.path) &&
+        Objects.equals(this.seconds, orgApacheSlingDistributionTriggerImplScheduledDistributionTriggeProperties.seconds) &&
+        Objects.equals(this.serviceName, orgApacheSlingDistributionTriggerImplScheduledDistributionTriggeProperties.serviceName);
   }
 
   @Override
@@ -123,11 +142,9 @@ public class OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggePro
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

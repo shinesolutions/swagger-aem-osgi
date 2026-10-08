@@ -2,18 +2,19 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**htmlparser_process_tags** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 
-**htmlparser_preserve_camel_case** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **htmlparser_process_tags** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] |
+| **htmlparser_preserve_camel_case** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComDayCqRewriterProcessorImplHtmlParserFactoryProperties.new(htmlparser_process_tags: null,
-                                 htmlparser_preserve_camel_case: null)
+instance = SwaggerAemOsgiClient::ComDayCqRewriterProcessorImplHtmlParserFactoryProperties.new(
+  htmlparser_process_tags: null,
+  htmlparser_preserve_camel_case: null
+)
 ```
-
 

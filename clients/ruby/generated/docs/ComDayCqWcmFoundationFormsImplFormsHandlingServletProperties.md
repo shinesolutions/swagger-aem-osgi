@@ -2,18 +2,19 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**name_whitelist** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
-**allow_expressions** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **name_whitelist** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] |
+| **allow_expressions** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComDayCqWcmFoundationFormsImplFormsHandlingServletProperties.new(name_whitelist: null,
-                                 allow_expressions: null)
+instance = SwaggerAemOsgiClient::ComDayCqWcmFoundationFormsImplFormsHandlingServletProperties.new(
+  name_whitelist: null,
+  allow_expressions: null
+)
 ```
-
 

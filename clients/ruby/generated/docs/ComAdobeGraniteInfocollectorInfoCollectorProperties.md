@@ -2,18 +2,19 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**granite_infocollector_include_thread_dumps** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] 
-**granite_infocollector_include_heap_dump** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **granite_infocollector_include_thread_dumps** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] |
+| **granite_infocollector_include_heap_dump** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComAdobeGraniteInfocollectorInfoCollectorProperties.new(granite_infocollector_include_thread_dumps: null,
-                                 granite_infocollector_include_heap_dump: null)
+instance = SwaggerAemOsgiClient::ComAdobeGraniteInfocollectorInfoCollectorProperties.new(
+  granite_infocollector_include_thread_dumps: null,
+  granite_infocollector_include_heap_dump: null
+)
 ```
-
 

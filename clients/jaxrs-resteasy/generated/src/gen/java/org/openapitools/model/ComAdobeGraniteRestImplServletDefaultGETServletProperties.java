@@ -4,23 +4,27 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2019-08-05T00:59:30.156Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2026-10-07T12:54:21.614735164Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteRestImplServletDefaultGETServletProperties   {
   
-  private ConfigNodePropertyInteger defaultLimit = null;
-  private ConfigNodePropertyBoolean useAbsoluteUri = null;
+  private ConfigNodePropertyInteger defaultLimit;
+  private ConfigNodePropertyBoolean useAbsoluteUri;
 
   /**
    **/
   
   @ApiModelProperty(value = "")
   @JsonProperty("default.limit")
+  @Valid
   public ConfigNodePropertyInteger getDefaultLimit() {
     return defaultLimit;
   }
@@ -33,6 +37,7 @@ public class ComAdobeGraniteRestImplServletDefaultGETServletProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("use.absolute.uri")
+  @Valid
   public ConfigNodePropertyBoolean getUseAbsoluteUri() {
     return useAbsoluteUri;
   }
@@ -42,7 +47,7 @@ public class ComAdobeGraniteRestImplServletDefaultGETServletProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -50,8 +55,8 @@ public class ComAdobeGraniteRestImplServletDefaultGETServletProperties   {
       return false;
     }
     ComAdobeGraniteRestImplServletDefaultGETServletProperties comAdobeGraniteRestImplServletDefaultGETServletProperties = (ComAdobeGraniteRestImplServletDefaultGETServletProperties) o;
-    return Objects.equals(defaultLimit, comAdobeGraniteRestImplServletDefaultGETServletProperties.defaultLimit) &&
-        Objects.equals(useAbsoluteUri, comAdobeGraniteRestImplServletDefaultGETServletProperties.useAbsoluteUri);
+    return Objects.equals(this.defaultLimit, comAdobeGraniteRestImplServletDefaultGETServletProperties.defaultLimit) &&
+        Objects.equals(this.useAbsoluteUri, comAdobeGraniteRestImplServletDefaultGETServletProperties.useAbsoluteUri);
   }
 
   @Override
@@ -74,11 +79,8 @@ public class ComAdobeGraniteRestImplServletDefaultGETServletProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

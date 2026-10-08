@@ -1,0 +1,88 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyDropDown = openapi_server.resourceTypes.ConfigNodePropertyDropDown
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorProperties {
+    title = OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorProperties
+    description = OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorProperties
+    derivedFrom = Root
+    properties {
+        name {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        title {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        details {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        enabled {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        service_name {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        log_level {
+          type = ConfigNodePropertyDropDown
+          description = ""
+          optional = false
+        }
+        queue_processing_enabled {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        package_exporter_target {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        package_importer_target {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        request_authorization_strategy_target {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        triggers_target {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorProperties {
+    title = OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorProperties
+    description = OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorProperties
+    implements = openapi_server.resourceTypes.OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorProperties
+
+  }
+}

@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqDamMacSyncImplDAMSyncServiceImplProperti
 
 @Canonical
 class ComAdobeCqDamMacSyncImplDAMSyncServiceImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqDamMacSyncImplDAMSyncServiceImplProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqDamMacSyncImplDAMSyncServiceImplProperties properties
 }

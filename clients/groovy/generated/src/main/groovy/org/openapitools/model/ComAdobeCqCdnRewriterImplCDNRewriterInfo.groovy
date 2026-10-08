@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqCdnRewriterImplCDNRewriterProperties;
 
 @Canonical
 class ComAdobeCqCdnRewriterImplCDNRewriterInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqCdnRewriterImplCDNRewriterProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqCdnRewriterImplCDNRewriterProperties properties
 }

@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryP
 
 @Canonical
 class ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties properties
 }

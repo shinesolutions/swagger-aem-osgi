@@ -1,18 +1,29 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comAdobeGraniteDistributionCoreImplDistributionToReplicationEvenProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteDistributionCoreImplDistributionToReplicationEvenProperties   {
-  
-  private @Valid ConfigNodePropertyArray importerName = null;
+  private ConfigNodePropertyArray importerName;
+
+  public ComAdobeGraniteDistributionCoreImplDistributionToReplicationEvenProperties() {
+  }
 
   /**
    **/
@@ -24,16 +35,18 @@ public class ComAdobeGraniteDistributionCoreImplDistributionToReplicationEvenPro
   
   @ApiModelProperty(value = "")
   @JsonProperty("importer.name")
-  public ConfigNodePropertyArray getImporterName() {
+  @Valid public ConfigNodePropertyArray getImporterName() {
     return importerName;
   }
+
+  @JsonProperty("importer.name")
   public void setImporterName(ConfigNodePropertyArray importerName) {
     this.importerName = importerName;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -41,7 +54,7 @@ public class ComAdobeGraniteDistributionCoreImplDistributionToReplicationEvenPro
       return false;
     }
     ComAdobeGraniteDistributionCoreImplDistributionToReplicationEvenProperties comAdobeGraniteDistributionCoreImplDistributionToReplicationEvenProperties = (ComAdobeGraniteDistributionCoreImplDistributionToReplicationEvenProperties) o;
-    return Objects.equals(importerName, comAdobeGraniteDistributionCoreImplDistributionToReplicationEvenProperties.importerName);
+    return Objects.equals(this.importerName, comAdobeGraniteDistributionCoreImplDistributionToReplicationEvenProperties.importerName);
   }
 
   @Override
@@ -63,11 +76,9 @@ public class ComAdobeGraniteDistributionCoreImplDistributionToReplicationEvenPro
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

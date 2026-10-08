@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqWcmMsmImplLiveRelationshipManagerImplInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqWcmMsmImplLiveRelationshipManagerImplInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComDayCqWcmMsmImplLiveRelationshipManagerImplProperties = openapi_server.resourceTypes.ComDayCqWcmMsmImplLiveRelationshipManagerImplProperties
+}
+resourceTypes {
+
+  ComDayCqWcmMsmImplLiveRelationshipManagerImplInfo {
+    title = ComDayCqWcmMsmImplLiveRelationshipManagerImplInfo
+    description = ComDayCqWcmMsmImplLiveRelationshipManagerImplInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComDayCqWcmMsmImplLiveRelationshipManagerImplProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqWcmMsmImplLiveRelationshipManagerImplInfo {
+    title = ComDayCqWcmMsmImplLiveRelationshipManagerImplInfo
+    description = ComDayCqWcmMsmImplLiveRelationshipManagerImplInfo
+    implements = openapi_server.resourceTypes.ComDayCqWcmMsmImplLiveRelationshipManagerImplInfo
+
+  }
+}

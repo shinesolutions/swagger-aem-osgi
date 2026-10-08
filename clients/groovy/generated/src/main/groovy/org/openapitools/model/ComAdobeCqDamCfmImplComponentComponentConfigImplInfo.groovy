@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqDamCfmImplComponentComponentConfigImplPr
 
 @Canonical
 class ComAdobeCqDamCfmImplComponentComponentConfigImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqDamCfmImplComponentComponentConfigImplProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqDamCfmImplComponentComponentConfigImplProperties properties
 }

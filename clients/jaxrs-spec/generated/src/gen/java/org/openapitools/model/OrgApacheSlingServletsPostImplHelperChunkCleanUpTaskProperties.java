@@ -1,22 +1,33 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("orgApacheSlingServletsPostImplHelperChunkCleanUpTaskProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingServletsPostImplHelperChunkCleanUpTaskProperties   {
-  
-  private @Valid ConfigNodePropertyString schedulerExpression = null;
-  private @Valid ConfigNodePropertyBoolean schedulerConcurrent = null;
-  private @Valid ConfigNodePropertyInteger chunkCleanupAge = null;
+  private ConfigNodePropertyString schedulerExpression;
+  private ConfigNodePropertyBoolean schedulerConcurrent;
+  private ConfigNodePropertyInteger chunkCleanupAge;
+
+  public OrgApacheSlingServletsPostImplHelperChunkCleanUpTaskProperties() {
+  }
 
   /**
    **/
@@ -28,9 +39,11 @@ public class OrgApacheSlingServletsPostImplHelperChunkCleanUpTaskProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("scheduler.expression")
-  public ConfigNodePropertyString getSchedulerExpression() {
+  @Valid public ConfigNodePropertyString getSchedulerExpression() {
     return schedulerExpression;
   }
+
+  @JsonProperty("scheduler.expression")
   public void setSchedulerExpression(ConfigNodePropertyString schedulerExpression) {
     this.schedulerExpression = schedulerExpression;
   }
@@ -45,9 +58,11 @@ public class OrgApacheSlingServletsPostImplHelperChunkCleanUpTaskProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("scheduler.concurrent")
-  public ConfigNodePropertyBoolean getSchedulerConcurrent() {
+  @Valid public ConfigNodePropertyBoolean getSchedulerConcurrent() {
     return schedulerConcurrent;
   }
+
+  @JsonProperty("scheduler.concurrent")
   public void setSchedulerConcurrent(ConfigNodePropertyBoolean schedulerConcurrent) {
     this.schedulerConcurrent = schedulerConcurrent;
   }
@@ -62,16 +77,18 @@ public class OrgApacheSlingServletsPostImplHelperChunkCleanUpTaskProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("chunk.cleanup.age")
-  public ConfigNodePropertyInteger getChunkCleanupAge() {
+  @Valid public ConfigNodePropertyInteger getChunkCleanupAge() {
     return chunkCleanupAge;
   }
+
+  @JsonProperty("chunk.cleanup.age")
   public void setChunkCleanupAge(ConfigNodePropertyInteger chunkCleanupAge) {
     this.chunkCleanupAge = chunkCleanupAge;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -79,9 +96,9 @@ public class OrgApacheSlingServletsPostImplHelperChunkCleanUpTaskProperties   {
       return false;
     }
     OrgApacheSlingServletsPostImplHelperChunkCleanUpTaskProperties orgApacheSlingServletsPostImplHelperChunkCleanUpTaskProperties = (OrgApacheSlingServletsPostImplHelperChunkCleanUpTaskProperties) o;
-    return Objects.equals(schedulerExpression, orgApacheSlingServletsPostImplHelperChunkCleanUpTaskProperties.schedulerExpression) &&
-        Objects.equals(schedulerConcurrent, orgApacheSlingServletsPostImplHelperChunkCleanUpTaskProperties.schedulerConcurrent) &&
-        Objects.equals(chunkCleanupAge, orgApacheSlingServletsPostImplHelperChunkCleanUpTaskProperties.chunkCleanupAge);
+    return Objects.equals(this.schedulerExpression, orgApacheSlingServletsPostImplHelperChunkCleanUpTaskProperties.schedulerExpression) &&
+        Objects.equals(this.schedulerConcurrent, orgApacheSlingServletsPostImplHelperChunkCleanUpTaskProperties.schedulerConcurrent) &&
+        Objects.equals(this.chunkCleanupAge, orgApacheSlingServletsPostImplHelperChunkCleanUpTaskProperties.chunkCleanupAge);
   }
 
   @Override
@@ -105,11 +122,9 @@ public class OrgApacheSlingServletsPostImplHelperChunkCleanUpTaskProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

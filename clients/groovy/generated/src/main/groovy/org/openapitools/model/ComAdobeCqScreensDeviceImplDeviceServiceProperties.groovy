@@ -8,18 +8,18 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeCqScreensDeviceImplDeviceServiceProperties {
-    ConfigNodePropertyInteger comAdobeAemScreensPlayerPingfrequency = null
-
-    ConfigNodePropertyString comAdobeAemScreensDevicePaswordSpecialchars = null
-
-    ConfigNodePropertyInteger comAdobeAemScreensDevicePaswordMinlowercasechars = null
-
-    ConfigNodePropertyInteger comAdobeAemScreensDevicePaswordMinuppercasechars = null
-
-    ConfigNodePropertyInteger comAdobeAemScreensDevicePaswordMinnumberchars = null
-
-    ConfigNodePropertyInteger comAdobeAemScreensDevicePaswordMinspecialchars = null
-
-    ConfigNodePropertyInteger comAdobeAemScreensDevicePaswordMinlength = null
-
+    
+    ConfigNodePropertyInteger comAdobeAemScreensPlayerPingfrequency
+    
+    ConfigNodePropertyString comAdobeAemScreensDevicePaswordSpecialchars
+    
+    ConfigNodePropertyInteger comAdobeAemScreensDevicePaswordMinlowercasechars
+    
+    ConfigNodePropertyInteger comAdobeAemScreensDevicePaswordMinuppercasechars
+    
+    ConfigNodePropertyInteger comAdobeAemScreensDevicePaswordMinnumberchars
+    
+    ConfigNodePropertyInteger comAdobeAemScreensDevicePaswordMinspecialchars
+    
+    ConfigNodePropertyInteger comAdobeAemScreensDevicePaswordMinlength
 }

@@ -72,9 +72,9 @@ private class OASOrgApacheFelixWebconsolePluginsMeTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASOrgApacheFelixWebconsolePluginsMe orgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCoProperties = new OASOrgApacheFelixWebconsolePluginsMe();
-        Map<String, String> propertyMappings = orgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCoProperties.getPropertyMappings();
-        System.assertEquals('felixMemoryusageDumpThreshold', propertyMappings.get('felix.memoryusage.dump.threshold'));
-        System.assertEquals('felixMemoryusageDumpInterval', propertyMappings.get('felix.memoryusage.dump.interval'));
-        System.assertEquals('felixMemoryusageDumpLocation', propertyMappings.get('felix.memoryusage.dump.location'));
+        Map<String, String> x-property-mappings = orgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCoProperties.getx-property-mappings();
+        System.assertEquals('felixMemoryusageDumpThreshold', x-property-mappings.get('felix.memoryusage.dump.threshold'));
+        System.assertEquals('felixMemoryusageDumpInterval', x-property-mappings.get('felix.memoryusage.dump.interval'));
+        System.assertEquals('felixMemoryusageDumpLocation', x-property-mappings.get('felix.memoryusage.dump.location'));
     }
 }

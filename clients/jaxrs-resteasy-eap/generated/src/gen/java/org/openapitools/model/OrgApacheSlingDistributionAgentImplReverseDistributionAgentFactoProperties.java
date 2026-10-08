@@ -4,6 +4,7 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
@@ -12,40 +13,26 @@ import org.openapitools.model.ConfigNodePropertyDropDown;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2019-08-05T01:00:05.540Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2026-10-07T12:54:26.576036107Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties   {
   
-
-  private ConfigNodePropertyString name = null;
-
-  private ConfigNodePropertyString title = null;
-
-  private ConfigNodePropertyString details = null;
-
-  private ConfigNodePropertyBoolean enabled = null;
-
-  private ConfigNodePropertyString serviceName = null;
-
-  private ConfigNodePropertyDropDown logLevel = null;
-
-  private ConfigNodePropertyBoolean queueProcessingEnabled = null;
-
-  private ConfigNodePropertyArray packageExporterEndpoints = null;
-
-  private ConfigNodePropertyInteger pullItems = null;
-
-  private ConfigNodePropertyInteger httpConnTimeout = null;
-
-  private ConfigNodePropertyString requestAuthorizationStrategyTarget = null;
-
-  private ConfigNodePropertyString transportSecretProviderTarget = null;
-
-  private ConfigNodePropertyString packageBuilderTarget = null;
-
-  private ConfigNodePropertyString triggersTarget = null;
+  private ConfigNodePropertyString name;
+  private ConfigNodePropertyString title;
+  private ConfigNodePropertyString details;
+  private ConfigNodePropertyBoolean enabled;
+  private ConfigNodePropertyString serviceName;
+  private ConfigNodePropertyDropDown logLevel;
+  private ConfigNodePropertyBoolean queueProcessingEnabled;
+  private ConfigNodePropertyArray packageExporterEndpoints;
+  private ConfigNodePropertyInteger pullItems;
+  private ConfigNodePropertyInteger httpConnTimeout;
+  private ConfigNodePropertyString requestAuthorizationStrategyTarget;
+  private ConfigNodePropertyString transportSecretProviderTarget;
+  private ConfigNodePropertyString packageBuilderTarget;
+  private ConfigNodePropertyString triggersTarget;
 
   /**
    **/
@@ -225,20 +212,20 @@ public class OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoPro
       return false;
     }
     OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties orgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties = (OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties) o;
-    return Objects.equals(name, orgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties.name) &&
-        Objects.equals(title, orgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties.title) &&
-        Objects.equals(details, orgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties.details) &&
-        Objects.equals(enabled, orgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties.enabled) &&
-        Objects.equals(serviceName, orgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties.serviceName) &&
-        Objects.equals(logLevel, orgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties.logLevel) &&
-        Objects.equals(queueProcessingEnabled, orgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties.queueProcessingEnabled) &&
-        Objects.equals(packageExporterEndpoints, orgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties.packageExporterEndpoints) &&
-        Objects.equals(pullItems, orgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties.pullItems) &&
-        Objects.equals(httpConnTimeout, orgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties.httpConnTimeout) &&
-        Objects.equals(requestAuthorizationStrategyTarget, orgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties.requestAuthorizationStrategyTarget) &&
-        Objects.equals(transportSecretProviderTarget, orgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties.transportSecretProviderTarget) &&
-        Objects.equals(packageBuilderTarget, orgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties.packageBuilderTarget) &&
-        Objects.equals(triggersTarget, orgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties.triggersTarget);
+    return Objects.equals(this.name, orgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties.name) &&
+        Objects.equals(this.title, orgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties.title) &&
+        Objects.equals(this.details, orgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties.details) &&
+        Objects.equals(this.enabled, orgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties.enabled) &&
+        Objects.equals(this.serviceName, orgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties.serviceName) &&
+        Objects.equals(this.logLevel, orgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties.logLevel) &&
+        Objects.equals(this.queueProcessingEnabled, orgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties.queueProcessingEnabled) &&
+        Objects.equals(this.packageExporterEndpoints, orgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties.packageExporterEndpoints) &&
+        Objects.equals(this.pullItems, orgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties.pullItems) &&
+        Objects.equals(this.httpConnTimeout, orgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties.httpConnTimeout) &&
+        Objects.equals(this.requestAuthorizationStrategyTarget, orgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties.requestAuthorizationStrategyTarget) &&
+        Objects.equals(this.transportSecretProviderTarget, orgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties.transportSecretProviderTarget) &&
+        Objects.equals(this.packageBuilderTarget, orgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties.packageBuilderTarget) &&
+        Objects.equals(this.triggersTarget, orgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties.triggersTarget);
   }
 
   @Override
@@ -274,10 +261,7 @@ public class OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoPro
    * (except the first line).
    */
   private String toIndentedString(Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

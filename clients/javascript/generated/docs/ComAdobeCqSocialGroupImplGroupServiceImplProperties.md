@@ -1,6 +1,7 @@
 # NodeSwaggerAemOsgi.ComAdobeCqSocialGroupImplGroupServiceImplProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **maxWaitTime** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  | [optional] 

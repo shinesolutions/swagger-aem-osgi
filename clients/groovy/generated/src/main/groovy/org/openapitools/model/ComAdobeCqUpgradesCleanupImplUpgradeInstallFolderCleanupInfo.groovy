@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqUpgradesCleanupImplUpgradeInstallFolderC
 
 @Canonical
 class ComAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanupInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanupProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanupProperties properties
 }

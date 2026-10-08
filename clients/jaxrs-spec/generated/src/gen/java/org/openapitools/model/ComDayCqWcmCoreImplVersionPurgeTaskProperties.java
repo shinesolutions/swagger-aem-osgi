@@ -1,24 +1,35 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comDayCqWcmCoreImplVersionPurgeTaskProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqWcmCoreImplVersionPurgeTaskProperties   {
-  
-  private @Valid ConfigNodePropertyArray versionpurgePaths = null;
-  private @Valid ConfigNodePropertyBoolean versionpurgeRecursive = null;
-  private @Valid ConfigNodePropertyInteger versionpurgeMaxVersions = null;
-  private @Valid ConfigNodePropertyInteger versionpurgeMinVersions = null;
-  private @Valid ConfigNodePropertyInteger versionpurgeMaxAgeDays = null;
+  private ConfigNodePropertyArray versionpurgePaths;
+  private ConfigNodePropertyBoolean versionpurgeRecursive;
+  private ConfigNodePropertyInteger versionpurgeMaxVersions;
+  private ConfigNodePropertyInteger versionpurgeMinVersions;
+  private ConfigNodePropertyInteger versionpurgeMaxAgeDays;
+
+  public ComDayCqWcmCoreImplVersionPurgeTaskProperties() {
+  }
 
   /**
    **/
@@ -30,9 +41,11 @@ public class ComDayCqWcmCoreImplVersionPurgeTaskProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("versionpurge.paths")
-  public ConfigNodePropertyArray getVersionpurgePaths() {
+  @Valid public ConfigNodePropertyArray getVersionpurgePaths() {
     return versionpurgePaths;
   }
+
+  @JsonProperty("versionpurge.paths")
   public void setVersionpurgePaths(ConfigNodePropertyArray versionpurgePaths) {
     this.versionpurgePaths = versionpurgePaths;
   }
@@ -47,9 +60,11 @@ public class ComDayCqWcmCoreImplVersionPurgeTaskProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("versionpurge.recursive")
-  public ConfigNodePropertyBoolean getVersionpurgeRecursive() {
+  @Valid public ConfigNodePropertyBoolean getVersionpurgeRecursive() {
     return versionpurgeRecursive;
   }
+
+  @JsonProperty("versionpurge.recursive")
   public void setVersionpurgeRecursive(ConfigNodePropertyBoolean versionpurgeRecursive) {
     this.versionpurgeRecursive = versionpurgeRecursive;
   }
@@ -64,9 +79,11 @@ public class ComDayCqWcmCoreImplVersionPurgeTaskProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("versionpurge.maxVersions")
-  public ConfigNodePropertyInteger getVersionpurgeMaxVersions() {
+  @Valid public ConfigNodePropertyInteger getVersionpurgeMaxVersions() {
     return versionpurgeMaxVersions;
   }
+
+  @JsonProperty("versionpurge.maxVersions")
   public void setVersionpurgeMaxVersions(ConfigNodePropertyInteger versionpurgeMaxVersions) {
     this.versionpurgeMaxVersions = versionpurgeMaxVersions;
   }
@@ -81,9 +98,11 @@ public class ComDayCqWcmCoreImplVersionPurgeTaskProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("versionpurge.minVersions")
-  public ConfigNodePropertyInteger getVersionpurgeMinVersions() {
+  @Valid public ConfigNodePropertyInteger getVersionpurgeMinVersions() {
     return versionpurgeMinVersions;
   }
+
+  @JsonProperty("versionpurge.minVersions")
   public void setVersionpurgeMinVersions(ConfigNodePropertyInteger versionpurgeMinVersions) {
     this.versionpurgeMinVersions = versionpurgeMinVersions;
   }
@@ -98,16 +117,18 @@ public class ComDayCqWcmCoreImplVersionPurgeTaskProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("versionpurge.maxAgeDays")
-  public ConfigNodePropertyInteger getVersionpurgeMaxAgeDays() {
+  @Valid public ConfigNodePropertyInteger getVersionpurgeMaxAgeDays() {
     return versionpurgeMaxAgeDays;
   }
+
+  @JsonProperty("versionpurge.maxAgeDays")
   public void setVersionpurgeMaxAgeDays(ConfigNodePropertyInteger versionpurgeMaxAgeDays) {
     this.versionpurgeMaxAgeDays = versionpurgeMaxAgeDays;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -115,11 +136,11 @@ public class ComDayCqWcmCoreImplVersionPurgeTaskProperties   {
       return false;
     }
     ComDayCqWcmCoreImplVersionPurgeTaskProperties comDayCqWcmCoreImplVersionPurgeTaskProperties = (ComDayCqWcmCoreImplVersionPurgeTaskProperties) o;
-    return Objects.equals(versionpurgePaths, comDayCqWcmCoreImplVersionPurgeTaskProperties.versionpurgePaths) &&
-        Objects.equals(versionpurgeRecursive, comDayCqWcmCoreImplVersionPurgeTaskProperties.versionpurgeRecursive) &&
-        Objects.equals(versionpurgeMaxVersions, comDayCqWcmCoreImplVersionPurgeTaskProperties.versionpurgeMaxVersions) &&
-        Objects.equals(versionpurgeMinVersions, comDayCqWcmCoreImplVersionPurgeTaskProperties.versionpurgeMinVersions) &&
-        Objects.equals(versionpurgeMaxAgeDays, comDayCqWcmCoreImplVersionPurgeTaskProperties.versionpurgeMaxAgeDays);
+    return Objects.equals(this.versionpurgePaths, comDayCqWcmCoreImplVersionPurgeTaskProperties.versionpurgePaths) &&
+        Objects.equals(this.versionpurgeRecursive, comDayCqWcmCoreImplVersionPurgeTaskProperties.versionpurgeRecursive) &&
+        Objects.equals(this.versionpurgeMaxVersions, comDayCqWcmCoreImplVersionPurgeTaskProperties.versionpurgeMaxVersions) &&
+        Objects.equals(this.versionpurgeMinVersions, comDayCqWcmCoreImplVersionPurgeTaskProperties.versionpurgeMinVersions) &&
+        Objects.equals(this.versionpurgeMaxAgeDays, comDayCqWcmCoreImplVersionPurgeTaskProperties.versionpurgeMaxAgeDays);
   }
 
   @Override
@@ -145,11 +166,9 @@ public class ComDayCqWcmCoreImplVersionPurgeTaskProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

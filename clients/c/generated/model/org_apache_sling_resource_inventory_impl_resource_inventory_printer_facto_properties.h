@@ -1,0 +1,43 @@
+/*
+ * org_apache_sling_resource_inventory_impl_resource_inventory_printer_facto_properties.h
+ *
+ * 
+ */
+
+#ifndef _org_apache_sling_resource_inventory_impl_resource_inventory_printer_facto_properties_H_
+#define _org_apache_sling_resource_inventory_impl_resource_inventory_printer_facto_properties_H_
+
+#include <string.h>
+#include "../external/cJSON.h"
+#include "../include/list.h"
+#include "../include/keyValuePair.h"
+#include "../include/binary.h"
+
+typedef struct org_apache_sling_resource_inventory_impl_resource_inventory_printer_facto_properties_t org_apache_sling_resource_inventory_impl_resource_inventory_printer_facto_properties_t;
+
+#include "config_node_property_string.h"
+
+
+
+typedef struct org_apache_sling_resource_inventory_impl_resource_inventory_printer_facto_properties_t {
+    struct config_node_property_string_t *felix_inventory_printer_name; //model
+    struct config_node_property_string_t *felix_inventory_printer_title; //model
+    struct config_node_property_string_t *path; //model
+
+    int _library_owned; // Is the library responsible for freeing this object?
+} org_apache_sling_resource_inventory_impl_resource_inventory_printer_facto_properties_t;
+
+__attribute__((deprecated)) org_apache_sling_resource_inventory_impl_resource_inventory_printer_facto_properties_t *org_apache_sling_resource_inventory_impl_resource_inventory_printer_facto_properties_create(
+    config_node_property_string_t *felix_inventory_printer_name,
+    config_node_property_string_t *felix_inventory_printer_title,
+    config_node_property_string_t *path
+);
+
+void org_apache_sling_resource_inventory_impl_resource_inventory_printer_facto_properties_free(org_apache_sling_resource_inventory_impl_resource_inventory_printer_facto_properties_t *org_apache_sling_resource_inventory_impl_resource_inventory_printer_facto_properties);
+
+org_apache_sling_resource_inventory_impl_resource_inventory_printer_facto_properties_t *org_apache_sling_resource_inventory_impl_resource_inventory_printer_facto_properties_parseFromJSON(cJSON *org_apache_sling_resource_inventory_impl_resource_inventory_printer_facto_propertiesJSON);
+
+cJSON *org_apache_sling_resource_inventory_impl_resource_inventory_printer_facto_properties_convertToJSON(org_apache_sling_resource_inventory_impl_resource_inventory_printer_facto_properties_t *org_apache_sling_resource_inventory_impl_resource_inventory_printer_facto_properties);
+
+#endif /* _org_apache_sling_resource_inventory_impl_resource_inventory_printer_facto_properties_H_ */
+

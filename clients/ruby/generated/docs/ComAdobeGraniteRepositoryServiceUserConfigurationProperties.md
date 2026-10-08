@@ -2,20 +2,21 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**service_ranking** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  | [optional] 
-**serviceusers_simple_subject_population** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] 
-**serviceusers_list** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **service_ranking** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  | [optional] |
+| **serviceusers_simple_subject_population** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] |
+| **serviceusers_list** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComAdobeGraniteRepositoryServiceUserConfigurationProperties.new(service_ranking: null,
-                                 serviceusers_simple_subject_population: null,
-                                 serviceusers_list: null)
+instance = SwaggerAemOsgiClient::ComAdobeGraniteRepositoryServiceUserConfigurationProperties.new(
+  service_ranking: null,
+  serviceusers_simple_subject_population: null,
+  serviceusers_list: null
+)
 ```
-
 

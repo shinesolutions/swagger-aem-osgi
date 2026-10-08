@@ -1,21 +1,32 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comAdobeCqDeserfwImplDeserializationFirewallImplProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeCqDeserfwImplDeserializationFirewallImplProperties   {
-  
-  private @Valid ConfigNodePropertyArray firewallDeserializationWhitelist = null;
-  private @Valid ConfigNodePropertyArray firewallDeserializationBlacklist = null;
-  private @Valid ConfigNodePropertyString firewallDeserializationDiagnostics = null;
+  private ConfigNodePropertyArray firewallDeserializationWhitelist;
+  private ConfigNodePropertyArray firewallDeserializationBlacklist;
+  private ConfigNodePropertyString firewallDeserializationDiagnostics;
+
+  public ComAdobeCqDeserfwImplDeserializationFirewallImplProperties() {
+  }
 
   /**
    **/
@@ -27,9 +38,11 @@ public class ComAdobeCqDeserfwImplDeserializationFirewallImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("firewall.deserialization.whitelist")
-  public ConfigNodePropertyArray getFirewallDeserializationWhitelist() {
+  @Valid public ConfigNodePropertyArray getFirewallDeserializationWhitelist() {
     return firewallDeserializationWhitelist;
   }
+
+  @JsonProperty("firewall.deserialization.whitelist")
   public void setFirewallDeserializationWhitelist(ConfigNodePropertyArray firewallDeserializationWhitelist) {
     this.firewallDeserializationWhitelist = firewallDeserializationWhitelist;
   }
@@ -44,9 +57,11 @@ public class ComAdobeCqDeserfwImplDeserializationFirewallImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("firewall.deserialization.blacklist")
-  public ConfigNodePropertyArray getFirewallDeserializationBlacklist() {
+  @Valid public ConfigNodePropertyArray getFirewallDeserializationBlacklist() {
     return firewallDeserializationBlacklist;
   }
+
+  @JsonProperty("firewall.deserialization.blacklist")
   public void setFirewallDeserializationBlacklist(ConfigNodePropertyArray firewallDeserializationBlacklist) {
     this.firewallDeserializationBlacklist = firewallDeserializationBlacklist;
   }
@@ -61,16 +76,18 @@ public class ComAdobeCqDeserfwImplDeserializationFirewallImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("firewall.deserialization.diagnostics")
-  public ConfigNodePropertyString getFirewallDeserializationDiagnostics() {
+  @Valid public ConfigNodePropertyString getFirewallDeserializationDiagnostics() {
     return firewallDeserializationDiagnostics;
   }
+
+  @JsonProperty("firewall.deserialization.diagnostics")
   public void setFirewallDeserializationDiagnostics(ConfigNodePropertyString firewallDeserializationDiagnostics) {
     this.firewallDeserializationDiagnostics = firewallDeserializationDiagnostics;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -78,9 +95,9 @@ public class ComAdobeCqDeserfwImplDeserializationFirewallImplProperties   {
       return false;
     }
     ComAdobeCqDeserfwImplDeserializationFirewallImplProperties comAdobeCqDeserfwImplDeserializationFirewallImplProperties = (ComAdobeCqDeserfwImplDeserializationFirewallImplProperties) o;
-    return Objects.equals(firewallDeserializationWhitelist, comAdobeCqDeserfwImplDeserializationFirewallImplProperties.firewallDeserializationWhitelist) &&
-        Objects.equals(firewallDeserializationBlacklist, comAdobeCqDeserfwImplDeserializationFirewallImplProperties.firewallDeserializationBlacklist) &&
-        Objects.equals(firewallDeserializationDiagnostics, comAdobeCqDeserfwImplDeserializationFirewallImplProperties.firewallDeserializationDiagnostics);
+    return Objects.equals(this.firewallDeserializationWhitelist, comAdobeCqDeserfwImplDeserializationFirewallImplProperties.firewallDeserializationWhitelist) &&
+        Objects.equals(this.firewallDeserializationBlacklist, comAdobeCqDeserfwImplDeserializationFirewallImplProperties.firewallDeserializationBlacklist) &&
+        Objects.equals(this.firewallDeserializationDiagnostics, comAdobeCqDeserfwImplDeserializationFirewallImplProperties.firewallDeserializationDiagnostics);
   }
 
   @Override
@@ -104,11 +121,9 @@ public class ComAdobeCqDeserfwImplDeserializationFirewallImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

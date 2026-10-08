@@ -72,13 +72,13 @@ private class OASComAdobeCqScreensDeviceImplDeviceTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeCqScreensDeviceImplDevice comAdobeCqScreensDeviceImplDeviceServiceProperties = new OASComAdobeCqScreensDeviceImplDevice();
-        Map<String, String> propertyMappings = comAdobeCqScreensDeviceImplDeviceServiceProperties.getPropertyMappings();
-        System.assertEquals('comAdobeAemScreensPlayerPingfrequency', propertyMappings.get('com.adobe.aem.screens.player.pingfrequency'));
-        System.assertEquals('comAdobeAemScreensDevicePaswordSpecialchars', propertyMappings.get('com.adobe.aem.screens.device.pasword.specialchars'));
-        System.assertEquals('comAdobeAemScreensDevicePaswordMinlowercasechars', propertyMappings.get('com.adobe.aem.screens.device.pasword.minlowercasechars'));
-        System.assertEquals('comAdobeAemScreensDevicePaswordMinuppercasechars', propertyMappings.get('com.adobe.aem.screens.device.pasword.minuppercasechars'));
-        System.assertEquals('comAdobeAemScreensDevicePaswordMinnumberchars', propertyMappings.get('com.adobe.aem.screens.device.pasword.minnumberchars'));
-        System.assertEquals('comAdobeAemScreensDevicePaswordMinspecialchars', propertyMappings.get('com.adobe.aem.screens.device.pasword.minspecialchars'));
-        System.assertEquals('comAdobeAemScreensDevicePaswordMinlength', propertyMappings.get('com.adobe.aem.screens.device.pasword.minlength'));
+        Map<String, String> x-property-mappings = comAdobeCqScreensDeviceImplDeviceServiceProperties.getx-property-mappings();
+        System.assertEquals('comAdobeAemScreensPlayerPingfrequency', x-property-mappings.get('com.adobe.aem.screens.player.pingfrequency'));
+        System.assertEquals('comAdobeAemScreensDevicePaswordSpecialchars', x-property-mappings.get('com.adobe.aem.screens.device.pasword.specialchars'));
+        System.assertEquals('comAdobeAemScreensDevicePaswordMinlowercasechars', x-property-mappings.get('com.adobe.aem.screens.device.pasword.minlowercasechars'));
+        System.assertEquals('comAdobeAemScreensDevicePaswordMinuppercasechars', x-property-mappings.get('com.adobe.aem.screens.device.pasword.minuppercasechars'));
+        System.assertEquals('comAdobeAemScreensDevicePaswordMinnumberchars', x-property-mappings.get('com.adobe.aem.screens.device.pasword.minnumberchars'));
+        System.assertEquals('comAdobeAemScreensDevicePaswordMinspecialchars', x-property-mappings.get('com.adobe.aem.screens.device.pasword.minspecialchars'));
+        System.assertEquals('comAdobeAemScreensDevicePaswordMinlength', x-property-mappings.get('com.adobe.aem.screens.device.pasword.minlength'));
     }
 }

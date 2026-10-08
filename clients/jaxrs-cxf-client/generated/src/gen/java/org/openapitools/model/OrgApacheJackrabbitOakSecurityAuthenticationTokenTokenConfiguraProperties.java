@@ -5,37 +5,39 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
 
 import io.swagger.annotations.ApiModelProperty;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlType;
-import javax.xml.bind.annotation.XmlEnum;
-import javax.xml.bind.annotation.XmlEnumValue;
+import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
 
 public class OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraProperties  {
   
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString tokenExpiration = null;
+
+  private ConfigNodePropertyString tokenExpiration;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString tokenLength = null;
+
+  private ConfigNodePropertyString tokenLength;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyBoolean tokenRefresh = null;
+
+  private ConfigNodePropertyBoolean tokenRefresh;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyInteger tokenCleanupThreshold = null;
+
+  private ConfigNodePropertyInteger tokenCleanupThreshold;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString passwordHashAlgorithm = null;
+
+  private ConfigNodePropertyString passwordHashAlgorithm;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyInteger passwordHashIterations = null;
+
+  private ConfigNodePropertyInteger passwordHashIterations;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyInteger passwordSaltSize = null;
+
+  private ConfigNodePropertyInteger passwordSaltSize;
  /**
    * Get tokenExpiration
    * @return tokenExpiration
@@ -162,6 +164,28 @@ public class OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraProp
     return this;
   }
 
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraProperties orgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraProperties = (OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraProperties) o;
+    return Objects.equals(this.tokenExpiration, orgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraProperties.tokenExpiration) &&
+        Objects.equals(this.tokenLength, orgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraProperties.tokenLength) &&
+        Objects.equals(this.tokenRefresh, orgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraProperties.tokenRefresh) &&
+        Objects.equals(this.tokenCleanupThreshold, orgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraProperties.tokenCleanupThreshold) &&
+        Objects.equals(this.passwordHashAlgorithm, orgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraProperties.passwordHashAlgorithm) &&
+        Objects.equals(this.passwordHashIterations, orgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraProperties.passwordHashIterations) &&
+        Objects.equals(this.passwordSaltSize, orgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraProperties.passwordSaltSize);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(tokenExpiration, tokenLength, tokenRefresh, tokenCleanupThreshold, passwordHashAlgorithm, passwordHashIterations, passwordSaltSize);
+  }
 
   @Override
   public String toString() {
@@ -183,11 +207,8 @@ public class OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraProp
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private static String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

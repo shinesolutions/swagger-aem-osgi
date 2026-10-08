@@ -1,102 +1,113 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties   {
-  @JsonProperty("provider.name")
-  private ConfigNodePropertyString providerName = null;
+@JsonTypeName("orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties {
 
-  @JsonProperty("host.name")
-  private ConfigNodePropertyString hostName = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString providerName;
 
-  @JsonProperty("host.port")
-  private ConfigNodePropertyInteger hostPort = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString hostName;
 
-  @JsonProperty("host.ssl")
-  private ConfigNodePropertyBoolean hostSsl = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger hostPort;
 
-  @JsonProperty("host.tls")
-  private ConfigNodePropertyBoolean hostTls = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean hostSsl;
 
-  @JsonProperty("host.noCertCheck")
-  private ConfigNodePropertyBoolean hostNoCertCheck = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean hostTls;
 
-  @JsonProperty("bind.dn")
-  private ConfigNodePropertyString bindDn = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean hostNoCertCheck;
 
-  @JsonProperty("bind.password")
-  private ConfigNodePropertyString bindPassword = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString bindDn;
 
-  @JsonProperty("searchTimeout")
-  private ConfigNodePropertyString searchTimeout = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString bindPassword;
 
-  @JsonProperty("adminPool.maxActive")
-  private ConfigNodePropertyInteger adminPoolMaxActive = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString searchTimeout;
 
-  @JsonProperty("adminPool.lookupOnValidate")
-  private ConfigNodePropertyBoolean adminPoolLookupOnValidate = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger adminPoolMaxActive;
 
-  @JsonProperty("userPool.maxActive")
-  private ConfigNodePropertyInteger userPoolMaxActive = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean adminPoolLookupOnValidate;
 
-  @JsonProperty("userPool.lookupOnValidate")
-  private ConfigNodePropertyBoolean userPoolLookupOnValidate = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger userPoolMaxActive;
 
-  @JsonProperty("user.baseDN")
-  private ConfigNodePropertyString userBaseDN = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean userPoolLookupOnValidate;
 
-  @JsonProperty("user.objectclass")
-  private ConfigNodePropertyArray userObjectclass = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString userBaseDN;
 
-  @JsonProperty("user.idAttribute")
-  private ConfigNodePropertyString userIdAttribute = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray userObjectclass;
 
-  @JsonProperty("user.extraFilter")
-  private ConfigNodePropertyString userExtraFilter = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString userIdAttribute;
 
-  @JsonProperty("user.makeDnPath")
-  private ConfigNodePropertyBoolean userMakeDnPath = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString userExtraFilter;
 
-  @JsonProperty("group.baseDN")
-  private ConfigNodePropertyString groupBaseDN = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean userMakeDnPath;
 
-  @JsonProperty("group.objectclass")
-  private ConfigNodePropertyArray groupObjectclass = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString groupBaseDN;
 
-  @JsonProperty("group.nameAttribute")
-  private ConfigNodePropertyString groupNameAttribute = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray groupObjectclass;
 
-  @JsonProperty("group.extraFilter")
-  private ConfigNodePropertyString groupExtraFilter = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString groupNameAttribute;
 
-  @JsonProperty("group.makeDnPath")
-  private ConfigNodePropertyBoolean groupMakeDnPath = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString groupExtraFilter;
 
-  @JsonProperty("group.memberAttribute")
-  private ConfigNodePropertyString groupMemberAttribute = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean groupMakeDnPath;
 
-  @JsonProperty("useUidForExtId")
-  private ConfigNodePropertyBoolean useUidForExtId = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString groupMemberAttribute;
 
-  @JsonProperty("customattributes")
-  private ConfigNodePropertyArray customattributes = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean useUidForExtId;
 
-  public OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties providerName(ConfigNodePropertyString providerName) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray customattributes;
+
+  public OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties providerName(@Nullable ConfigNodePropertyString providerName) {
     this.providerName = providerName;
     return this;
   }
@@ -104,20 +115,20 @@ public class OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiPrope
   /**
    * Get providerName
    * @return providerName
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getProviderName() {
+   */
+  @Valid 
+  @Schema(name = "provider.name", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("provider.name")
+  public @Nullable ConfigNodePropertyString getProviderName() {
     return providerName;
   }
 
-  public void setProviderName(ConfigNodePropertyString providerName) {
+  @JsonProperty("provider.name")
+  public void setProviderName(@Nullable ConfigNodePropertyString providerName) {
     this.providerName = providerName;
   }
 
-  public OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties hostName(ConfigNodePropertyString hostName) {
+  public OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties hostName(@Nullable ConfigNodePropertyString hostName) {
     this.hostName = hostName;
     return this;
   }
@@ -125,20 +136,20 @@ public class OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiPrope
   /**
    * Get hostName
    * @return hostName
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getHostName() {
+   */
+  @Valid 
+  @Schema(name = "host.name", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("host.name")
+  public @Nullable ConfigNodePropertyString getHostName() {
     return hostName;
   }
 
-  public void setHostName(ConfigNodePropertyString hostName) {
+  @JsonProperty("host.name")
+  public void setHostName(@Nullable ConfigNodePropertyString hostName) {
     this.hostName = hostName;
   }
 
-  public OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties hostPort(ConfigNodePropertyInteger hostPort) {
+  public OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties hostPort(@Nullable ConfigNodePropertyInteger hostPort) {
     this.hostPort = hostPort;
     return this;
   }
@@ -146,20 +157,20 @@ public class OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiPrope
   /**
    * Get hostPort
    * @return hostPort
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getHostPort() {
+   */
+  @Valid 
+  @Schema(name = "host.port", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("host.port")
+  public @Nullable ConfigNodePropertyInteger getHostPort() {
     return hostPort;
   }
 
-  public void setHostPort(ConfigNodePropertyInteger hostPort) {
+  @JsonProperty("host.port")
+  public void setHostPort(@Nullable ConfigNodePropertyInteger hostPort) {
     this.hostPort = hostPort;
   }
 
-  public OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties hostSsl(ConfigNodePropertyBoolean hostSsl) {
+  public OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties hostSsl(@Nullable ConfigNodePropertyBoolean hostSsl) {
     this.hostSsl = hostSsl;
     return this;
   }
@@ -167,20 +178,20 @@ public class OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiPrope
   /**
    * Get hostSsl
    * @return hostSsl
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getHostSsl() {
+   */
+  @Valid 
+  @Schema(name = "host.ssl", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("host.ssl")
+  public @Nullable ConfigNodePropertyBoolean getHostSsl() {
     return hostSsl;
   }
 
-  public void setHostSsl(ConfigNodePropertyBoolean hostSsl) {
+  @JsonProperty("host.ssl")
+  public void setHostSsl(@Nullable ConfigNodePropertyBoolean hostSsl) {
     this.hostSsl = hostSsl;
   }
 
-  public OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties hostTls(ConfigNodePropertyBoolean hostTls) {
+  public OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties hostTls(@Nullable ConfigNodePropertyBoolean hostTls) {
     this.hostTls = hostTls;
     return this;
   }
@@ -188,20 +199,20 @@ public class OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiPrope
   /**
    * Get hostTls
    * @return hostTls
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getHostTls() {
+   */
+  @Valid 
+  @Schema(name = "host.tls", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("host.tls")
+  public @Nullable ConfigNodePropertyBoolean getHostTls() {
     return hostTls;
   }
 
-  public void setHostTls(ConfigNodePropertyBoolean hostTls) {
+  @JsonProperty("host.tls")
+  public void setHostTls(@Nullable ConfigNodePropertyBoolean hostTls) {
     this.hostTls = hostTls;
   }
 
-  public OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties hostNoCertCheck(ConfigNodePropertyBoolean hostNoCertCheck) {
+  public OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties hostNoCertCheck(@Nullable ConfigNodePropertyBoolean hostNoCertCheck) {
     this.hostNoCertCheck = hostNoCertCheck;
     return this;
   }
@@ -209,20 +220,20 @@ public class OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiPrope
   /**
    * Get hostNoCertCheck
    * @return hostNoCertCheck
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getHostNoCertCheck() {
+   */
+  @Valid 
+  @Schema(name = "host.noCertCheck", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("host.noCertCheck")
+  public @Nullable ConfigNodePropertyBoolean getHostNoCertCheck() {
     return hostNoCertCheck;
   }
 
-  public void setHostNoCertCheck(ConfigNodePropertyBoolean hostNoCertCheck) {
+  @JsonProperty("host.noCertCheck")
+  public void setHostNoCertCheck(@Nullable ConfigNodePropertyBoolean hostNoCertCheck) {
     this.hostNoCertCheck = hostNoCertCheck;
   }
 
-  public OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties bindDn(ConfigNodePropertyString bindDn) {
+  public OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties bindDn(@Nullable ConfigNodePropertyString bindDn) {
     this.bindDn = bindDn;
     return this;
   }
@@ -230,20 +241,20 @@ public class OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiPrope
   /**
    * Get bindDn
    * @return bindDn
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getBindDn() {
+   */
+  @Valid 
+  @Schema(name = "bind.dn", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("bind.dn")
+  public @Nullable ConfigNodePropertyString getBindDn() {
     return bindDn;
   }
 
-  public void setBindDn(ConfigNodePropertyString bindDn) {
+  @JsonProperty("bind.dn")
+  public void setBindDn(@Nullable ConfigNodePropertyString bindDn) {
     this.bindDn = bindDn;
   }
 
-  public OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties bindPassword(ConfigNodePropertyString bindPassword) {
+  public OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties bindPassword(@Nullable ConfigNodePropertyString bindPassword) {
     this.bindPassword = bindPassword;
     return this;
   }
@@ -251,20 +262,20 @@ public class OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiPrope
   /**
    * Get bindPassword
    * @return bindPassword
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getBindPassword() {
+   */
+  @Valid 
+  @Schema(name = "bind.password", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("bind.password")
+  public @Nullable ConfigNodePropertyString getBindPassword() {
     return bindPassword;
   }
 
-  public void setBindPassword(ConfigNodePropertyString bindPassword) {
+  @JsonProperty("bind.password")
+  public void setBindPassword(@Nullable ConfigNodePropertyString bindPassword) {
     this.bindPassword = bindPassword;
   }
 
-  public OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties searchTimeout(ConfigNodePropertyString searchTimeout) {
+  public OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties searchTimeout(@Nullable ConfigNodePropertyString searchTimeout) {
     this.searchTimeout = searchTimeout;
     return this;
   }
@@ -272,20 +283,20 @@ public class OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiPrope
   /**
    * Get searchTimeout
    * @return searchTimeout
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getSearchTimeout() {
+   */
+  @Valid 
+  @Schema(name = "searchTimeout", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("searchTimeout")
+  public @Nullable ConfigNodePropertyString getSearchTimeout() {
     return searchTimeout;
   }
 
-  public void setSearchTimeout(ConfigNodePropertyString searchTimeout) {
+  @JsonProperty("searchTimeout")
+  public void setSearchTimeout(@Nullable ConfigNodePropertyString searchTimeout) {
     this.searchTimeout = searchTimeout;
   }
 
-  public OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties adminPoolMaxActive(ConfigNodePropertyInteger adminPoolMaxActive) {
+  public OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties adminPoolMaxActive(@Nullable ConfigNodePropertyInteger adminPoolMaxActive) {
     this.adminPoolMaxActive = adminPoolMaxActive;
     return this;
   }
@@ -293,20 +304,20 @@ public class OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiPrope
   /**
    * Get adminPoolMaxActive
    * @return adminPoolMaxActive
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getAdminPoolMaxActive() {
+   */
+  @Valid 
+  @Schema(name = "adminPool.maxActive", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("adminPool.maxActive")
+  public @Nullable ConfigNodePropertyInteger getAdminPoolMaxActive() {
     return adminPoolMaxActive;
   }
 
-  public void setAdminPoolMaxActive(ConfigNodePropertyInteger adminPoolMaxActive) {
+  @JsonProperty("adminPool.maxActive")
+  public void setAdminPoolMaxActive(@Nullable ConfigNodePropertyInteger adminPoolMaxActive) {
     this.adminPoolMaxActive = adminPoolMaxActive;
   }
 
-  public OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties adminPoolLookupOnValidate(ConfigNodePropertyBoolean adminPoolLookupOnValidate) {
+  public OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties adminPoolLookupOnValidate(@Nullable ConfigNodePropertyBoolean adminPoolLookupOnValidate) {
     this.adminPoolLookupOnValidate = adminPoolLookupOnValidate;
     return this;
   }
@@ -314,20 +325,20 @@ public class OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiPrope
   /**
    * Get adminPoolLookupOnValidate
    * @return adminPoolLookupOnValidate
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getAdminPoolLookupOnValidate() {
+   */
+  @Valid 
+  @Schema(name = "adminPool.lookupOnValidate", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("adminPool.lookupOnValidate")
+  public @Nullable ConfigNodePropertyBoolean getAdminPoolLookupOnValidate() {
     return adminPoolLookupOnValidate;
   }
 
-  public void setAdminPoolLookupOnValidate(ConfigNodePropertyBoolean adminPoolLookupOnValidate) {
+  @JsonProperty("adminPool.lookupOnValidate")
+  public void setAdminPoolLookupOnValidate(@Nullable ConfigNodePropertyBoolean adminPoolLookupOnValidate) {
     this.adminPoolLookupOnValidate = adminPoolLookupOnValidate;
   }
 
-  public OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties userPoolMaxActive(ConfigNodePropertyInteger userPoolMaxActive) {
+  public OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties userPoolMaxActive(@Nullable ConfigNodePropertyInteger userPoolMaxActive) {
     this.userPoolMaxActive = userPoolMaxActive;
     return this;
   }
@@ -335,20 +346,20 @@ public class OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiPrope
   /**
    * Get userPoolMaxActive
    * @return userPoolMaxActive
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getUserPoolMaxActive() {
+   */
+  @Valid 
+  @Schema(name = "userPool.maxActive", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("userPool.maxActive")
+  public @Nullable ConfigNodePropertyInteger getUserPoolMaxActive() {
     return userPoolMaxActive;
   }
 
-  public void setUserPoolMaxActive(ConfigNodePropertyInteger userPoolMaxActive) {
+  @JsonProperty("userPool.maxActive")
+  public void setUserPoolMaxActive(@Nullable ConfigNodePropertyInteger userPoolMaxActive) {
     this.userPoolMaxActive = userPoolMaxActive;
   }
 
-  public OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties userPoolLookupOnValidate(ConfigNodePropertyBoolean userPoolLookupOnValidate) {
+  public OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties userPoolLookupOnValidate(@Nullable ConfigNodePropertyBoolean userPoolLookupOnValidate) {
     this.userPoolLookupOnValidate = userPoolLookupOnValidate;
     return this;
   }
@@ -356,20 +367,20 @@ public class OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiPrope
   /**
    * Get userPoolLookupOnValidate
    * @return userPoolLookupOnValidate
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getUserPoolLookupOnValidate() {
+   */
+  @Valid 
+  @Schema(name = "userPool.lookupOnValidate", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("userPool.lookupOnValidate")
+  public @Nullable ConfigNodePropertyBoolean getUserPoolLookupOnValidate() {
     return userPoolLookupOnValidate;
   }
 
-  public void setUserPoolLookupOnValidate(ConfigNodePropertyBoolean userPoolLookupOnValidate) {
+  @JsonProperty("userPool.lookupOnValidate")
+  public void setUserPoolLookupOnValidate(@Nullable ConfigNodePropertyBoolean userPoolLookupOnValidate) {
     this.userPoolLookupOnValidate = userPoolLookupOnValidate;
   }
 
-  public OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties userBaseDN(ConfigNodePropertyString userBaseDN) {
+  public OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties userBaseDN(@Nullable ConfigNodePropertyString userBaseDN) {
     this.userBaseDN = userBaseDN;
     return this;
   }
@@ -377,20 +388,20 @@ public class OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiPrope
   /**
    * Get userBaseDN
    * @return userBaseDN
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getUserBaseDN() {
+   */
+  @Valid 
+  @Schema(name = "user.baseDN", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("user.baseDN")
+  public @Nullable ConfigNodePropertyString getUserBaseDN() {
     return userBaseDN;
   }
 
-  public void setUserBaseDN(ConfigNodePropertyString userBaseDN) {
+  @JsonProperty("user.baseDN")
+  public void setUserBaseDN(@Nullable ConfigNodePropertyString userBaseDN) {
     this.userBaseDN = userBaseDN;
   }
 
-  public OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties userObjectclass(ConfigNodePropertyArray userObjectclass) {
+  public OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties userObjectclass(@Nullable ConfigNodePropertyArray userObjectclass) {
     this.userObjectclass = userObjectclass;
     return this;
   }
@@ -398,20 +409,20 @@ public class OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiPrope
   /**
    * Get userObjectclass
    * @return userObjectclass
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getUserObjectclass() {
+   */
+  @Valid 
+  @Schema(name = "user.objectclass", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("user.objectclass")
+  public @Nullable ConfigNodePropertyArray getUserObjectclass() {
     return userObjectclass;
   }
 
-  public void setUserObjectclass(ConfigNodePropertyArray userObjectclass) {
+  @JsonProperty("user.objectclass")
+  public void setUserObjectclass(@Nullable ConfigNodePropertyArray userObjectclass) {
     this.userObjectclass = userObjectclass;
   }
 
-  public OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties userIdAttribute(ConfigNodePropertyString userIdAttribute) {
+  public OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties userIdAttribute(@Nullable ConfigNodePropertyString userIdAttribute) {
     this.userIdAttribute = userIdAttribute;
     return this;
   }
@@ -419,20 +430,20 @@ public class OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiPrope
   /**
    * Get userIdAttribute
    * @return userIdAttribute
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getUserIdAttribute() {
+   */
+  @Valid 
+  @Schema(name = "user.idAttribute", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("user.idAttribute")
+  public @Nullable ConfigNodePropertyString getUserIdAttribute() {
     return userIdAttribute;
   }
 
-  public void setUserIdAttribute(ConfigNodePropertyString userIdAttribute) {
+  @JsonProperty("user.idAttribute")
+  public void setUserIdAttribute(@Nullable ConfigNodePropertyString userIdAttribute) {
     this.userIdAttribute = userIdAttribute;
   }
 
-  public OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties userExtraFilter(ConfigNodePropertyString userExtraFilter) {
+  public OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties userExtraFilter(@Nullable ConfigNodePropertyString userExtraFilter) {
     this.userExtraFilter = userExtraFilter;
     return this;
   }
@@ -440,20 +451,20 @@ public class OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiPrope
   /**
    * Get userExtraFilter
    * @return userExtraFilter
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getUserExtraFilter() {
+   */
+  @Valid 
+  @Schema(name = "user.extraFilter", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("user.extraFilter")
+  public @Nullable ConfigNodePropertyString getUserExtraFilter() {
     return userExtraFilter;
   }
 
-  public void setUserExtraFilter(ConfigNodePropertyString userExtraFilter) {
+  @JsonProperty("user.extraFilter")
+  public void setUserExtraFilter(@Nullable ConfigNodePropertyString userExtraFilter) {
     this.userExtraFilter = userExtraFilter;
   }
 
-  public OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties userMakeDnPath(ConfigNodePropertyBoolean userMakeDnPath) {
+  public OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties userMakeDnPath(@Nullable ConfigNodePropertyBoolean userMakeDnPath) {
     this.userMakeDnPath = userMakeDnPath;
     return this;
   }
@@ -461,20 +472,20 @@ public class OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiPrope
   /**
    * Get userMakeDnPath
    * @return userMakeDnPath
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getUserMakeDnPath() {
+   */
+  @Valid 
+  @Schema(name = "user.makeDnPath", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("user.makeDnPath")
+  public @Nullable ConfigNodePropertyBoolean getUserMakeDnPath() {
     return userMakeDnPath;
   }
 
-  public void setUserMakeDnPath(ConfigNodePropertyBoolean userMakeDnPath) {
+  @JsonProperty("user.makeDnPath")
+  public void setUserMakeDnPath(@Nullable ConfigNodePropertyBoolean userMakeDnPath) {
     this.userMakeDnPath = userMakeDnPath;
   }
 
-  public OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties groupBaseDN(ConfigNodePropertyString groupBaseDN) {
+  public OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties groupBaseDN(@Nullable ConfigNodePropertyString groupBaseDN) {
     this.groupBaseDN = groupBaseDN;
     return this;
   }
@@ -482,20 +493,20 @@ public class OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiPrope
   /**
    * Get groupBaseDN
    * @return groupBaseDN
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getGroupBaseDN() {
+   */
+  @Valid 
+  @Schema(name = "group.baseDN", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("group.baseDN")
+  public @Nullable ConfigNodePropertyString getGroupBaseDN() {
     return groupBaseDN;
   }
 
-  public void setGroupBaseDN(ConfigNodePropertyString groupBaseDN) {
+  @JsonProperty("group.baseDN")
+  public void setGroupBaseDN(@Nullable ConfigNodePropertyString groupBaseDN) {
     this.groupBaseDN = groupBaseDN;
   }
 
-  public OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties groupObjectclass(ConfigNodePropertyArray groupObjectclass) {
+  public OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties groupObjectclass(@Nullable ConfigNodePropertyArray groupObjectclass) {
     this.groupObjectclass = groupObjectclass;
     return this;
   }
@@ -503,20 +514,20 @@ public class OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiPrope
   /**
    * Get groupObjectclass
    * @return groupObjectclass
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getGroupObjectclass() {
+   */
+  @Valid 
+  @Schema(name = "group.objectclass", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("group.objectclass")
+  public @Nullable ConfigNodePropertyArray getGroupObjectclass() {
     return groupObjectclass;
   }
 
-  public void setGroupObjectclass(ConfigNodePropertyArray groupObjectclass) {
+  @JsonProperty("group.objectclass")
+  public void setGroupObjectclass(@Nullable ConfigNodePropertyArray groupObjectclass) {
     this.groupObjectclass = groupObjectclass;
   }
 
-  public OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties groupNameAttribute(ConfigNodePropertyString groupNameAttribute) {
+  public OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties groupNameAttribute(@Nullable ConfigNodePropertyString groupNameAttribute) {
     this.groupNameAttribute = groupNameAttribute;
     return this;
   }
@@ -524,20 +535,20 @@ public class OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiPrope
   /**
    * Get groupNameAttribute
    * @return groupNameAttribute
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getGroupNameAttribute() {
+   */
+  @Valid 
+  @Schema(name = "group.nameAttribute", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("group.nameAttribute")
+  public @Nullable ConfigNodePropertyString getGroupNameAttribute() {
     return groupNameAttribute;
   }
 
-  public void setGroupNameAttribute(ConfigNodePropertyString groupNameAttribute) {
+  @JsonProperty("group.nameAttribute")
+  public void setGroupNameAttribute(@Nullable ConfigNodePropertyString groupNameAttribute) {
     this.groupNameAttribute = groupNameAttribute;
   }
 
-  public OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties groupExtraFilter(ConfigNodePropertyString groupExtraFilter) {
+  public OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties groupExtraFilter(@Nullable ConfigNodePropertyString groupExtraFilter) {
     this.groupExtraFilter = groupExtraFilter;
     return this;
   }
@@ -545,20 +556,20 @@ public class OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiPrope
   /**
    * Get groupExtraFilter
    * @return groupExtraFilter
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getGroupExtraFilter() {
+   */
+  @Valid 
+  @Schema(name = "group.extraFilter", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("group.extraFilter")
+  public @Nullable ConfigNodePropertyString getGroupExtraFilter() {
     return groupExtraFilter;
   }
 
-  public void setGroupExtraFilter(ConfigNodePropertyString groupExtraFilter) {
+  @JsonProperty("group.extraFilter")
+  public void setGroupExtraFilter(@Nullable ConfigNodePropertyString groupExtraFilter) {
     this.groupExtraFilter = groupExtraFilter;
   }
 
-  public OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties groupMakeDnPath(ConfigNodePropertyBoolean groupMakeDnPath) {
+  public OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties groupMakeDnPath(@Nullable ConfigNodePropertyBoolean groupMakeDnPath) {
     this.groupMakeDnPath = groupMakeDnPath;
     return this;
   }
@@ -566,20 +577,20 @@ public class OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiPrope
   /**
    * Get groupMakeDnPath
    * @return groupMakeDnPath
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getGroupMakeDnPath() {
+   */
+  @Valid 
+  @Schema(name = "group.makeDnPath", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("group.makeDnPath")
+  public @Nullable ConfigNodePropertyBoolean getGroupMakeDnPath() {
     return groupMakeDnPath;
   }
 
-  public void setGroupMakeDnPath(ConfigNodePropertyBoolean groupMakeDnPath) {
+  @JsonProperty("group.makeDnPath")
+  public void setGroupMakeDnPath(@Nullable ConfigNodePropertyBoolean groupMakeDnPath) {
     this.groupMakeDnPath = groupMakeDnPath;
   }
 
-  public OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties groupMemberAttribute(ConfigNodePropertyString groupMemberAttribute) {
+  public OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties groupMemberAttribute(@Nullable ConfigNodePropertyString groupMemberAttribute) {
     this.groupMemberAttribute = groupMemberAttribute;
     return this;
   }
@@ -587,20 +598,20 @@ public class OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiPrope
   /**
    * Get groupMemberAttribute
    * @return groupMemberAttribute
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getGroupMemberAttribute() {
+   */
+  @Valid 
+  @Schema(name = "group.memberAttribute", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("group.memberAttribute")
+  public @Nullable ConfigNodePropertyString getGroupMemberAttribute() {
     return groupMemberAttribute;
   }
 
-  public void setGroupMemberAttribute(ConfigNodePropertyString groupMemberAttribute) {
+  @JsonProperty("group.memberAttribute")
+  public void setGroupMemberAttribute(@Nullable ConfigNodePropertyString groupMemberAttribute) {
     this.groupMemberAttribute = groupMemberAttribute;
   }
 
-  public OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties useUidForExtId(ConfigNodePropertyBoolean useUidForExtId) {
+  public OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties useUidForExtId(@Nullable ConfigNodePropertyBoolean useUidForExtId) {
     this.useUidForExtId = useUidForExtId;
     return this;
   }
@@ -608,20 +619,20 @@ public class OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiPrope
   /**
    * Get useUidForExtId
    * @return useUidForExtId
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getUseUidForExtId() {
+   */
+  @Valid 
+  @Schema(name = "useUidForExtId", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("useUidForExtId")
+  public @Nullable ConfigNodePropertyBoolean getUseUidForExtId() {
     return useUidForExtId;
   }
 
-  public void setUseUidForExtId(ConfigNodePropertyBoolean useUidForExtId) {
+  @JsonProperty("useUidForExtId")
+  public void setUseUidForExtId(@Nullable ConfigNodePropertyBoolean useUidForExtId) {
     this.useUidForExtId = useUidForExtId;
   }
 
-  public OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties customattributes(ConfigNodePropertyArray customattributes) {
+  public OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties customattributes(@Nullable ConfigNodePropertyArray customattributes) {
     this.customattributes = customattributes;
     return this;
   }
@@ -629,22 +640,21 @@ public class OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiPrope
   /**
    * Get customattributes
    * @return customattributes
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getCustomattributes() {
+   */
+  @Valid 
+  @Schema(name = "customattributes", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("customattributes")
+  public @Nullable ConfigNodePropertyArray getCustomattributes() {
     return customattributes;
   }
 
-  public void setCustomattributes(ConfigNodePropertyArray customattributes) {
+  @JsonProperty("customattributes")
+  public void setCustomattributes(@Nullable ConfigNodePropertyArray customattributes) {
     this.customattributes = customattributes;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -689,7 +699,6 @@ public class OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiPrope
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties {\n");
-    
     sb.append("    providerName: ").append(toIndentedString(providerName)).append("\n");
     sb.append("    hostName: ").append(toIndentedString(hostName)).append("\n");
     sb.append("    hostPort: ").append(toIndentedString(hostPort)).append("\n");
@@ -724,11 +733,8 @@ public class OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiPrope
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

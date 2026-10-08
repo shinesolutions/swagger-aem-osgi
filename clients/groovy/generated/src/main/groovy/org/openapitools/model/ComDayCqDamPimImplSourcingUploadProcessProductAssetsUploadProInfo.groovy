@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqDamPimImplSourcingUploadProcessProductAsse
 
 @Canonical
 class ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProProperties properties
 }

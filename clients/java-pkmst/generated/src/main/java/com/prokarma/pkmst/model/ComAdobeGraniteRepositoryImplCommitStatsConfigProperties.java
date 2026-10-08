@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyArray;
 import com.prokarma.pkmst.model.ConfigNodePropertyBoolean;
 import com.prokarma.pkmst.model.ConfigNodePropertyInteger;
@@ -18,57 +19,56 @@ import io.swagger.annotations.ApiModelProperty;
  * ComAdobeGraniteRepositoryImplCommitStatsConfigProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteRepositoryImplCommitStatsConfigProperties   {
   @JsonProperty("enabled")
-  private ConfigNodePropertyBoolean enabled = null;
+  private ConfigNodePropertyBoolean enabled;
 
   @JsonProperty("intervalSeconds")
-  private ConfigNodePropertyInteger intervalSeconds = null;
+  private ConfigNodePropertyInteger intervalSeconds;
 
   @JsonProperty("commitsPerIntervalThreshold")
-  private ConfigNodePropertyInteger commitsPerIntervalThreshold = null;
+  private ConfigNodePropertyInteger commitsPerIntervalThreshold;
 
   @JsonProperty("maxLocationLength")
-  private ConfigNodePropertyInteger maxLocationLength = null;
+  private ConfigNodePropertyInteger maxLocationLength;
 
   @JsonProperty("maxDetailsShown")
-  private ConfigNodePropertyInteger maxDetailsShown = null;
+  private ConfigNodePropertyInteger maxDetailsShown;
 
   @JsonProperty("minDetailsPercentage")
-  private ConfigNodePropertyInteger minDetailsPercentage = null;
+  private ConfigNodePropertyInteger minDetailsPercentage;
 
   @JsonProperty("threadMatchers")
-  private ConfigNodePropertyArray threadMatchers = null;
+  private ConfigNodePropertyArray threadMatchers;
 
   @JsonProperty("maxGreedyDepth")
-  private ConfigNodePropertyInteger maxGreedyDepth = null;
+  private ConfigNodePropertyInteger maxGreedyDepth;
 
   @JsonProperty("greedyStackMatchers")
-  private ConfigNodePropertyString greedyStackMatchers = null;
+  private ConfigNodePropertyString greedyStackMatchers;
 
   @JsonProperty("stackFilters")
-  private ConfigNodePropertyArray stackFilters = null;
+  private ConfigNodePropertyArray stackFilters;
 
   @JsonProperty("stackMatchers")
-  private ConfigNodePropertyArray stackMatchers = null;
+  private ConfigNodePropertyArray stackMatchers;
 
   @JsonProperty("stackCategorizers")
-  private ConfigNodePropertyArray stackCategorizers = null;
+  private ConfigNodePropertyArray stackCategorizers;
 
   @JsonProperty("stackShorteners")
-  private ConfigNodePropertyArray stackShorteners = null;
+  private ConfigNodePropertyArray stackShorteners;
 
   public ComAdobeGraniteRepositoryImplCommitStatsConfigProperties enabled(ConfigNodePropertyBoolean enabled) {
     this.enabled = enabled;
     return this;
   }
 
-   /**
+  /**
    * Get enabled
    * @return enabled
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getEnabled() {
     return enabled;
@@ -83,10 +83,10 @@ public class ComAdobeGraniteRepositoryImplCommitStatsConfigProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get intervalSeconds
    * @return intervalSeconds
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getIntervalSeconds() {
     return intervalSeconds;
@@ -101,10 +101,10 @@ public class ComAdobeGraniteRepositoryImplCommitStatsConfigProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get commitsPerIntervalThreshold
    * @return commitsPerIntervalThreshold
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getCommitsPerIntervalThreshold() {
     return commitsPerIntervalThreshold;
@@ -119,10 +119,10 @@ public class ComAdobeGraniteRepositoryImplCommitStatsConfigProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get maxLocationLength
    * @return maxLocationLength
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getMaxLocationLength() {
     return maxLocationLength;
@@ -137,10 +137,10 @@ public class ComAdobeGraniteRepositoryImplCommitStatsConfigProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get maxDetailsShown
    * @return maxDetailsShown
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getMaxDetailsShown() {
     return maxDetailsShown;
@@ -155,10 +155,10 @@ public class ComAdobeGraniteRepositoryImplCommitStatsConfigProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get minDetailsPercentage
    * @return minDetailsPercentage
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getMinDetailsPercentage() {
     return minDetailsPercentage;
@@ -173,10 +173,10 @@ public class ComAdobeGraniteRepositoryImplCommitStatsConfigProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get threadMatchers
    * @return threadMatchers
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getThreadMatchers() {
     return threadMatchers;
@@ -191,10 +191,10 @@ public class ComAdobeGraniteRepositoryImplCommitStatsConfigProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get maxGreedyDepth
    * @return maxGreedyDepth
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getMaxGreedyDepth() {
     return maxGreedyDepth;
@@ -209,10 +209,10 @@ public class ComAdobeGraniteRepositoryImplCommitStatsConfigProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get greedyStackMatchers
    * @return greedyStackMatchers
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getGreedyStackMatchers() {
     return greedyStackMatchers;
@@ -227,10 +227,10 @@ public class ComAdobeGraniteRepositoryImplCommitStatsConfigProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get stackFilters
    * @return stackFilters
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getStackFilters() {
     return stackFilters;
@@ -245,10 +245,10 @@ public class ComAdobeGraniteRepositoryImplCommitStatsConfigProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get stackMatchers
    * @return stackMatchers
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getStackMatchers() {
     return stackMatchers;
@@ -263,10 +263,10 @@ public class ComAdobeGraniteRepositoryImplCommitStatsConfigProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get stackCategorizers
    * @return stackCategorizers
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getStackCategorizers() {
     return stackCategorizers;
@@ -281,10 +281,10 @@ public class ComAdobeGraniteRepositoryImplCommitStatsConfigProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get stackShorteners
    * @return stackShorteners
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getStackShorteners() {
     return stackShorteners;
@@ -296,7 +296,7 @@ public class ComAdobeGraniteRepositoryImplCommitStatsConfigProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -350,11 +350,8 @@ public class ComAdobeGraniteRepositoryImplCommitStatsConfigProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

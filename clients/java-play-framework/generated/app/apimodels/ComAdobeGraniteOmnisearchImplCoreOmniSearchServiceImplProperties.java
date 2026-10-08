@@ -2,23 +2,28 @@ package apimodels;
 
 import apimodels.ConfigNodePropertyBoolean;
 import apimodels.ConfigNodePropertyInteger;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * ComAdobeGraniteOmnisearchImplCoreOmniSearchServiceImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class ComAdobeGraniteOmnisearchImplCoreOmniSearchServiceImplProperties   {
   @JsonProperty("omnisearch.suggestion.requiretext.min")
-  private ConfigNodePropertyInteger omnisearchSuggestionRequiretextMin = null;
+  @Valid
+
+  private ConfigNodePropertyInteger omnisearchSuggestionRequiretextMin;
 
   @JsonProperty("omnisearch.suggestion.spellcheck.require")
-  private ConfigNodePropertyBoolean omnisearchSuggestionSpellcheckRequire = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean omnisearchSuggestionSpellcheckRequire;
 
   public ComAdobeGraniteOmnisearchImplCoreOmniSearchServiceImplProperties omnisearchSuggestionRequiretextMin(ConfigNodePropertyInteger omnisearchSuggestionRequiretextMin) {
     this.omnisearchSuggestionRequiretextMin = omnisearchSuggestionRequiretextMin;
@@ -29,7 +34,6 @@ public class ComAdobeGraniteOmnisearchImplCoreOmniSearchServiceImplProperties   
    * Get omnisearchSuggestionRequiretextMin
    * @return omnisearchSuggestionRequiretextMin
   **/
-  @Valid
   public ConfigNodePropertyInteger getOmnisearchSuggestionRequiretextMin() {
     return omnisearchSuggestionRequiretextMin;
   }
@@ -47,7 +51,6 @@ public class ComAdobeGraniteOmnisearchImplCoreOmniSearchServiceImplProperties   
    * Get omnisearchSuggestionSpellcheckRequire
    * @return omnisearchSuggestionSpellcheckRequire
   **/
-  @Valid
   public ConfigNodePropertyBoolean getOmnisearchSuggestionSpellcheckRequire() {
     return omnisearchSuggestionSpellcheckRequire;
   }
@@ -58,7 +61,7 @@ public class ComAdobeGraniteOmnisearchImplCoreOmniSearchServiceImplProperties   
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -91,11 +94,8 @@ public class ComAdobeGraniteOmnisearchImplCoreOmniSearchServiceImplProperties   
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

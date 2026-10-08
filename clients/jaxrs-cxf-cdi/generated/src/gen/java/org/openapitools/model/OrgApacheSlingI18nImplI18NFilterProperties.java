@@ -2,24 +2,25 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class OrgApacheSlingI18nImplI18NFilterProperties   {
   
-  private ConfigNodePropertyInteger serviceRanking = null;
+  private ConfigNodePropertyInteger serviceRanking;
 
-  private ConfigNodePropertyArray slingFilterScope = null;
-
+  private ConfigNodePropertyArray slingFilterScope;
 
   /**
    **/
@@ -59,7 +60,7 @@ public class OrgApacheSlingI18nImplI18NFilterProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -67,8 +68,8 @@ public class OrgApacheSlingI18nImplI18NFilterProperties   {
       return false;
     }
     OrgApacheSlingI18nImplI18NFilterProperties orgApacheSlingI18nImplI18NFilterProperties = (OrgApacheSlingI18nImplI18NFilterProperties) o;
-    return Objects.equals(serviceRanking, orgApacheSlingI18nImplI18NFilterProperties.serviceRanking) &&
-        Objects.equals(slingFilterScope, orgApacheSlingI18nImplI18NFilterProperties.slingFilterScope);
+    return Objects.equals(this.serviceRanking, orgApacheSlingI18nImplI18NFilterProperties.serviceRanking) &&
+        Objects.equals(this.slingFilterScope, orgApacheSlingI18nImplI18NFilterProperties.slingFilterScope);
   }
 
   @Override
@@ -91,11 +92,8 @@ public class OrgApacheSlingI18nImplI18NFilterProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

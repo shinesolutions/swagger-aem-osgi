@@ -72,11 +72,11 @@ private class OASOrgApacheFelixJaasConfigurationFaTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASOrgApacheFelixJaasConfigurationFa orgApacheFelixJaasConfigurationFactoryProperties = new OASOrgApacheFelixJaasConfigurationFa();
-        Map<String, String> propertyMappings = orgApacheFelixJaasConfigurationFactoryProperties.getPropertyMappings();
-        System.assertEquals('jaasControlFlag', propertyMappings.get('jaas.controlFlag'));
-        System.assertEquals('jaasRanking', propertyMappings.get('jaas.ranking'));
-        System.assertEquals('jaasRealmName', propertyMappings.get('jaas.realmName'));
-        System.assertEquals('jaasClassname', propertyMappings.get('jaas.classname'));
-        System.assertEquals('jaasOptions', propertyMappings.get('jaas.options'));
+        Map<String, String> x-property-mappings = orgApacheFelixJaasConfigurationFactoryProperties.getx-property-mappings();
+        System.assertEquals('jaasControlFlag', x-property-mappings.get('jaas.controlFlag'));
+        System.assertEquals('jaasRanking', x-property-mappings.get('jaas.ranking'));
+        System.assertEquals('jaasRealmName', x-property-mappings.get('jaas.realmName'));
+        System.assertEquals('jaasClassname', x-property-mappings.get('jaas.classname'));
+        System.assertEquals('jaasOptions', x-property-mappings.get('jaas.options'));
     }
 }

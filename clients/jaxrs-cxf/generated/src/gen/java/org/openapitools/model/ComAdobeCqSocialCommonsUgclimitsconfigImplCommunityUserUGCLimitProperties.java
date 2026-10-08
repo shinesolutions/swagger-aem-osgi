@@ -1,5 +1,6 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
@@ -7,36 +8,41 @@ import javax.validation.constraints.*;
 import javax.validation.Valid;
 
 import io.swagger.annotations.ApiModelProperty;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlType;
-import javax.xml.bind.annotation.XmlEnum;
-import javax.xml.bind.annotation.XmlEnumValue;
+import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
 
 public class ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitProperties  {
   
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyBoolean enable = null;
+
+  private ConfigNodePropertyBoolean enable;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyInteger ugCLimit = null;
+
+  private ConfigNodePropertyInteger ugCLimit;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyInteger ugcLimitDuration = null;
+
+  private ConfigNodePropertyInteger ugcLimitDuration;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyArray domains = null;
+
+  private ConfigNodePropertyArray domains;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyArray toList = null;
+
+  private ConfigNodePropertyArray toList;
  /**
    * Get enable
    * @return enable
@@ -127,6 +133,26 @@ public class ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitProp
     return this;
   }
 
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitProperties comAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitProperties = (ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitProperties) o;
+    return Objects.equals(this.enable, comAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitProperties.enable) &&
+        Objects.equals(this.ugCLimit, comAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitProperties.ugCLimit) &&
+        Objects.equals(this.ugcLimitDuration, comAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitProperties.ugcLimitDuration) &&
+        Objects.equals(this.domains, comAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitProperties.domains) &&
+        Objects.equals(this.toList, comAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitProperties.toList);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(enable, ugCLimit, ugcLimitDuration, domains, toList);
+  }
 
   @Override
   public String toString() {
@@ -146,11 +172,8 @@ public class ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitProp
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private static String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -5,20 +5,17 @@ import javax.validation.constraints.*;
 import javax.validation.Valid;
 
 import io.swagger.annotations.ApiModelProperty;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlType;
-import javax.xml.bind.annotation.XmlEnum;
-import javax.xml.bind.annotation.XmlEnumValue;
+import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
 
 public class MessagingUserComponentFactoryProperties  {
   
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyInteger priority = null;
+
+  private ConfigNodePropertyInteger priority;
  /**
    * Get priority
    * @return priority
@@ -37,6 +34,22 @@ public class MessagingUserComponentFactoryProperties  {
     return this;
   }
 
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    MessagingUserComponentFactoryProperties messagingUserComponentFactoryProperties = (MessagingUserComponentFactoryProperties) o;
+    return Objects.equals(this.priority, messagingUserComponentFactoryProperties.priority);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(priority);
+  }
 
   @Override
   public String toString() {
@@ -52,11 +65,8 @@ public class MessagingUserComponentFactoryProperties  {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private static String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

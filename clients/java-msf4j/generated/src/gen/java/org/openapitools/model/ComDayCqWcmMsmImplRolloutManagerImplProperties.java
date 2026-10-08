@@ -3,6 +3,7 @@ package org.openapitools.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
@@ -14,34 +15,34 @@ import org.openapitools.model.ConfigNodePropertyString;
 /**
  * ComDayCqWcmMsmImplRolloutManagerImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaMSF4JServerCodegen", date = "2019-08-05T00:54:29.762Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaMSF4JServerCodegen", date = "2026-10-07T12:53:29.980508721Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqWcmMsmImplRolloutManagerImplProperties   {
   @JsonProperty("event.filter")
-  private ConfigNodePropertyString eventFilter = null;
+  private ConfigNodePropertyString eventFilter;
 
   @JsonProperty("rolloutmgr.excludedprops.default")
-  private ConfigNodePropertyArray rolloutmgrExcludedpropsDefault = null;
+  private ConfigNodePropertyArray rolloutmgrExcludedpropsDefault;
 
   @JsonProperty("rolloutmgr.excludedparagraphprops.default")
-  private ConfigNodePropertyArray rolloutmgrExcludedparagraphpropsDefault = null;
+  private ConfigNodePropertyArray rolloutmgrExcludedparagraphpropsDefault;
 
   @JsonProperty("rolloutmgr.excludednodetypes.default")
-  private ConfigNodePropertyArray rolloutmgrExcludednodetypesDefault = null;
+  private ConfigNodePropertyArray rolloutmgrExcludednodetypesDefault;
 
   @JsonProperty("rolloutmgr.threadpool.maxsize")
-  private ConfigNodePropertyInteger rolloutmgrThreadpoolMaxsize = null;
+  private ConfigNodePropertyInteger rolloutmgrThreadpoolMaxsize;
 
   @JsonProperty("rolloutmgr.threadpool.maxshutdowntime")
-  private ConfigNodePropertyInteger rolloutmgrThreadpoolMaxshutdowntime = null;
+  private ConfigNodePropertyInteger rolloutmgrThreadpoolMaxshutdowntime;
 
   @JsonProperty("rolloutmgr.threadpool.priority")
-  private ConfigNodePropertyDropDown rolloutmgrThreadpoolPriority = null;
+  private ConfigNodePropertyDropDown rolloutmgrThreadpoolPriority;
 
   @JsonProperty("rolloutmgr.commit.size")
-  private ConfigNodePropertyInteger rolloutmgrCommitSize = null;
+  private ConfigNodePropertyInteger rolloutmgrCommitSize;
 
   @JsonProperty("rolloutmgr.conflicthandling.enabled")
-  private ConfigNodePropertyBoolean rolloutmgrConflicthandlingEnabled = null;
+  private ConfigNodePropertyBoolean rolloutmgrConflicthandlingEnabled;
 
   public ComDayCqWcmMsmImplRolloutManagerImplProperties eventFilter(ConfigNodePropertyString eventFilter) {
     this.eventFilter = eventFilter;
@@ -207,7 +208,7 @@ public class ComDayCqWcmMsmImplRolloutManagerImplProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -253,11 +254,8 @@ public class ComDayCqWcmMsmImplRolloutManagerImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

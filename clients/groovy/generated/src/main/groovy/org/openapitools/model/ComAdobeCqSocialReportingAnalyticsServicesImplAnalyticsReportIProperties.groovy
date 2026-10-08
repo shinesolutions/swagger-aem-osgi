@@ -7,8 +7,8 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportIProperties {
-    ConfigNodePropertyInteger cqSocialReportingAnalyticsPollingImporterInterval = null
-
-    ConfigNodePropertyInteger cqSocialReportingAnalyticsPollingImporterPageSize = null
-
+    
+    ConfigNodePropertyInteger cqSocialReportingAnalyticsPollingImporterInterval
+    
+    ConfigNodePropertyInteger cqSocialReportingAnalyticsPollingImporterPageSize
 }

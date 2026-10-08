@@ -1,21 +1,32 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comAdobeGraniteWorkflowCoreWorkflowConfigProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteWorkflowCoreWorkflowConfigProperties   {
-  
-  private @Valid ConfigNodePropertyArray cqWorkflowConfigWorkflowPackagesRootPath = null;
-  private @Valid ConfigNodePropertyBoolean cqWorkflowConfigWorkflowProcessLegacyMode = null;
-  private @Valid ConfigNodePropertyBoolean cqWorkflowConfigAllowLocking = null;
+  private ConfigNodePropertyArray cqWorkflowConfigWorkflowPackagesRootPath;
+  private ConfigNodePropertyBoolean cqWorkflowConfigWorkflowProcessLegacyMode;
+  private ConfigNodePropertyBoolean cqWorkflowConfigAllowLocking;
+
+  public ComAdobeGraniteWorkflowCoreWorkflowConfigProperties() {
+  }
 
   /**
    **/
@@ -27,9 +38,11 @@ public class ComAdobeGraniteWorkflowCoreWorkflowConfigProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("cq.workflow.config.workflow.packages.root.path")
-  public ConfigNodePropertyArray getCqWorkflowConfigWorkflowPackagesRootPath() {
+  @Valid public ConfigNodePropertyArray getCqWorkflowConfigWorkflowPackagesRootPath() {
     return cqWorkflowConfigWorkflowPackagesRootPath;
   }
+
+  @JsonProperty("cq.workflow.config.workflow.packages.root.path")
   public void setCqWorkflowConfigWorkflowPackagesRootPath(ConfigNodePropertyArray cqWorkflowConfigWorkflowPackagesRootPath) {
     this.cqWorkflowConfigWorkflowPackagesRootPath = cqWorkflowConfigWorkflowPackagesRootPath;
   }
@@ -44,9 +57,11 @@ public class ComAdobeGraniteWorkflowCoreWorkflowConfigProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("cq.workflow.config.workflow.process.legacy.mode")
-  public ConfigNodePropertyBoolean getCqWorkflowConfigWorkflowProcessLegacyMode() {
+  @Valid public ConfigNodePropertyBoolean getCqWorkflowConfigWorkflowProcessLegacyMode() {
     return cqWorkflowConfigWorkflowProcessLegacyMode;
   }
+
+  @JsonProperty("cq.workflow.config.workflow.process.legacy.mode")
   public void setCqWorkflowConfigWorkflowProcessLegacyMode(ConfigNodePropertyBoolean cqWorkflowConfigWorkflowProcessLegacyMode) {
     this.cqWorkflowConfigWorkflowProcessLegacyMode = cqWorkflowConfigWorkflowProcessLegacyMode;
   }
@@ -61,16 +76,18 @@ public class ComAdobeGraniteWorkflowCoreWorkflowConfigProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("cq.workflow.config.allow.locking")
-  public ConfigNodePropertyBoolean getCqWorkflowConfigAllowLocking() {
+  @Valid public ConfigNodePropertyBoolean getCqWorkflowConfigAllowLocking() {
     return cqWorkflowConfigAllowLocking;
   }
+
+  @JsonProperty("cq.workflow.config.allow.locking")
   public void setCqWorkflowConfigAllowLocking(ConfigNodePropertyBoolean cqWorkflowConfigAllowLocking) {
     this.cqWorkflowConfigAllowLocking = cqWorkflowConfigAllowLocking;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -78,9 +95,9 @@ public class ComAdobeGraniteWorkflowCoreWorkflowConfigProperties   {
       return false;
     }
     ComAdobeGraniteWorkflowCoreWorkflowConfigProperties comAdobeGraniteWorkflowCoreWorkflowConfigProperties = (ComAdobeGraniteWorkflowCoreWorkflowConfigProperties) o;
-    return Objects.equals(cqWorkflowConfigWorkflowPackagesRootPath, comAdobeGraniteWorkflowCoreWorkflowConfigProperties.cqWorkflowConfigWorkflowPackagesRootPath) &&
-        Objects.equals(cqWorkflowConfigWorkflowProcessLegacyMode, comAdobeGraniteWorkflowCoreWorkflowConfigProperties.cqWorkflowConfigWorkflowProcessLegacyMode) &&
-        Objects.equals(cqWorkflowConfigAllowLocking, comAdobeGraniteWorkflowCoreWorkflowConfigProperties.cqWorkflowConfigAllowLocking);
+    return Objects.equals(this.cqWorkflowConfigWorkflowPackagesRootPath, comAdobeGraniteWorkflowCoreWorkflowConfigProperties.cqWorkflowConfigWorkflowPackagesRootPath) &&
+        Objects.equals(this.cqWorkflowConfigWorkflowProcessLegacyMode, comAdobeGraniteWorkflowCoreWorkflowConfigProperties.cqWorkflowConfigWorkflowProcessLegacyMode) &&
+        Objects.equals(this.cqWorkflowConfigAllowLocking, comAdobeGraniteWorkflowCoreWorkflowConfigProperties.cqWorkflowConfigAllowLocking);
   }
 
   @Override
@@ -104,11 +121,9 @@ public class ComAdobeGraniteWorkflowCoreWorkflowConfigProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

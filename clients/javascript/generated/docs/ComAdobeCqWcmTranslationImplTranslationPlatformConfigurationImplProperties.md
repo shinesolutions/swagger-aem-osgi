@@ -1,6 +1,7 @@
 # NodeSwaggerAemOsgi.ComAdobeCqWcmTranslationImplTranslationPlatformConfigurationImplProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **syncTranslationStateSchedulingFormat** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 

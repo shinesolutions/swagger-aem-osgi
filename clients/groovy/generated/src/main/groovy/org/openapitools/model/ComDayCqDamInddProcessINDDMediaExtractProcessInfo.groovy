@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqDamInddProcessINDDMediaExtractProcessPrope
 
 @Canonical
 class ComDayCqDamInddProcessINDDMediaExtractProcessInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqDamInddProcessINDDMediaExtractProcessProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqDamInddProcessINDDMediaExtractProcessProperties properties
 }

@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeCqContentinsightImplReportingServicesSettingsProviderProperties {
-    ConfigNodePropertyString reportingservicesUrl = null
-
+    
+    ConfigNodePropertyString reportingservicesUrl
 }

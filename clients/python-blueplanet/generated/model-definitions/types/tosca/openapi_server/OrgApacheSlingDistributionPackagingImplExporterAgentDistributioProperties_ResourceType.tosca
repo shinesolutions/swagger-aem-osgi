@@ -1,0 +1,52 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingDistributionPackagingImplExporterAgentDistributioProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingDistributionPackagingImplExporterAgentDistributioProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  OrgApacheSlingDistributionPackagingImplExporterAgentDistributioProperties {
+    title = OrgApacheSlingDistributionPackagingImplExporterAgentDistributioProperties
+    description = OrgApacheSlingDistributionPackagingImplExporterAgentDistributioProperties
+    derivedFrom = Root
+    properties {
+        name {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        queue {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        drop_invalid_items {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        agent_target {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingDistributionPackagingImplExporterAgentDistributioProperties {
+    title = OrgApacheSlingDistributionPackagingImplExporterAgentDistributioProperties
+    description = OrgApacheSlingDistributionPackagingImplExporterAgentDistributioProperties
+    implements = openapi_server.resourceTypes.OrgApacheSlingDistributionPackagingImplExporterAgentDistributioProperties
+
+  }
+}

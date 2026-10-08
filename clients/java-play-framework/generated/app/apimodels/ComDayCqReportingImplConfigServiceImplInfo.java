@@ -1,29 +1,35 @@
 package apimodels;
 
 import apimodels.ComDayCqReportingImplConfigServiceImplProperties;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * ComDayCqReportingImplConfigServiceImplInfo
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class ComDayCqReportingImplConfigServiceImplInfo   {
   @JsonProperty("pid")
-  private String pid = null;
+  
+  private String pid;
 
   @JsonProperty("title")
-  private String title = null;
+  
+  private String title;
 
   @JsonProperty("description")
-  private String description = null;
+  
+  private String description;
 
   @JsonProperty("properties")
-  private ComDayCqReportingImplConfigServiceImplProperties properties = null;
+  @Valid
+
+  private ComDayCqReportingImplConfigServiceImplProperties properties;
 
   public ComDayCqReportingImplConfigServiceImplInfo pid(String pid) {
     this.pid = pid;
@@ -34,7 +40,7 @@ public class ComDayCqReportingImplConfigServiceImplInfo   {
    * Get pid
    * @return pid
   **/
-    public String getPid() {
+  public String getPid() {
     return pid;
   }
 
@@ -51,7 +57,7 @@ public class ComDayCqReportingImplConfigServiceImplInfo   {
    * Get title
    * @return title
   **/
-    public String getTitle() {
+  public String getTitle() {
     return title;
   }
 
@@ -68,7 +74,7 @@ public class ComDayCqReportingImplConfigServiceImplInfo   {
    * Get description
    * @return description
   **/
-    public String getDescription() {
+  public String getDescription() {
     return description;
   }
 
@@ -85,7 +91,6 @@ public class ComDayCqReportingImplConfigServiceImplInfo   {
    * Get properties
    * @return properties
   **/
-  @Valid
   public ComDayCqReportingImplConfigServiceImplProperties getProperties() {
     return properties;
   }
@@ -96,7 +101,7 @@ public class ComDayCqReportingImplConfigServiceImplInfo   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -133,11 +138,8 @@ public class ComDayCqReportingImplConfigServiceImplInfo   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyBoolean;
 import com.prokarma.pkmst.model.ConfigNodePropertyString;
 import io.swagger.annotations.ApiModel;
@@ -16,33 +17,32 @@ import io.swagger.annotations.ApiModelProperty;
  * ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerProperties   {
   @JsonProperty("dam.showexpired")
-  private ConfigNodePropertyBoolean damShowexpired = null;
+  private ConfigNodePropertyBoolean damShowexpired;
 
   @JsonProperty("dam.showhidden")
-  private ConfigNodePropertyBoolean damShowhidden = null;
+  private ConfigNodePropertyBoolean damShowhidden;
 
   @JsonProperty("tagTitleSearch")
-  private ConfigNodePropertyBoolean tagTitleSearch = null;
+  private ConfigNodePropertyBoolean tagTitleSearch;
 
   @JsonProperty("guessTotal")
-  private ConfigNodePropertyString guessTotal = null;
+  private ConfigNodePropertyString guessTotal;
 
   @JsonProperty("dam.expiryProperty")
-  private ConfigNodePropertyString damExpiryProperty = null;
+  private ConfigNodePropertyString damExpiryProperty;
 
   public ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerProperties damShowexpired(ConfigNodePropertyBoolean damShowexpired) {
     this.damShowexpired = damShowexpired;
     return this;
   }
 
-   /**
+  /**
    * Get damShowexpired
    * @return damShowexpired
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getDamShowexpired() {
     return damShowexpired;
@@ -57,10 +57,10 @@ public class ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerProperties 
     return this;
   }
 
-   /**
+  /**
    * Get damShowhidden
    * @return damShowhidden
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getDamShowhidden() {
     return damShowhidden;
@@ -75,10 +75,10 @@ public class ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerProperties 
     return this;
   }
 
-   /**
+  /**
    * Get tagTitleSearch
    * @return tagTitleSearch
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getTagTitleSearch() {
     return tagTitleSearch;
@@ -93,10 +93,10 @@ public class ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerProperties 
     return this;
   }
 
-   /**
+  /**
    * Get guessTotal
    * @return guessTotal
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getGuessTotal() {
     return guessTotal;
@@ -111,10 +111,10 @@ public class ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerProperties 
     return this;
   }
 
-   /**
+  /**
    * Get damExpiryProperty
    * @return damExpiryProperty
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getDamExpiryProperty() {
     return damExpiryProperty;
@@ -126,7 +126,7 @@ public class ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerProperties 
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -164,11 +164,8 @@ public class ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerProperties 
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

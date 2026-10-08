@@ -1,19 +1,30 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comDayCqExtwidgetServletsImageSpriteServletProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqExtwidgetServletsImageSpriteServletProperties   {
-  
-  private @Valid ConfigNodePropertyInteger maxWidth = null;
-  private @Valid ConfigNodePropertyInteger maxHeight = null;
+  private ConfigNodePropertyInteger maxWidth;
+  private ConfigNodePropertyInteger maxHeight;
+
+  public ComDayCqExtwidgetServletsImageSpriteServletProperties() {
+  }
 
   /**
    **/
@@ -25,9 +36,11 @@ public class ComDayCqExtwidgetServletsImageSpriteServletProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("maxWidth")
-  public ConfigNodePropertyInteger getMaxWidth() {
+  @Valid public ConfigNodePropertyInteger getMaxWidth() {
     return maxWidth;
   }
+
+  @JsonProperty("maxWidth")
   public void setMaxWidth(ConfigNodePropertyInteger maxWidth) {
     this.maxWidth = maxWidth;
   }
@@ -42,16 +55,18 @@ public class ComDayCqExtwidgetServletsImageSpriteServletProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("maxHeight")
-  public ConfigNodePropertyInteger getMaxHeight() {
+  @Valid public ConfigNodePropertyInteger getMaxHeight() {
     return maxHeight;
   }
+
+  @JsonProperty("maxHeight")
   public void setMaxHeight(ConfigNodePropertyInteger maxHeight) {
     this.maxHeight = maxHeight;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -59,8 +74,8 @@ public class ComDayCqExtwidgetServletsImageSpriteServletProperties   {
       return false;
     }
     ComDayCqExtwidgetServletsImageSpriteServletProperties comDayCqExtwidgetServletsImageSpriteServletProperties = (ComDayCqExtwidgetServletsImageSpriteServletProperties) o;
-    return Objects.equals(maxWidth, comDayCqExtwidgetServletsImageSpriteServletProperties.maxWidth) &&
-        Objects.equals(maxHeight, comDayCqExtwidgetServletsImageSpriteServletProperties.maxHeight);
+    return Objects.equals(this.maxWidth, comDayCqExtwidgetServletsImageSpriteServletProperties.maxWidth) &&
+        Objects.equals(this.maxHeight, comDayCqExtwidgetServletsImageSpriteServletProperties.maxHeight);
   }
 
   @Override
@@ -83,11 +98,9 @@ public class ComDayCqExtwidgetServletsImageSpriteServletProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

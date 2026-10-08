@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqReplicationImplReplicationReceiverImplProp
 
 @Canonical
 class ComDayCqReplicationImplReplicationReceiverImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqReplicationImplReplicationReceiverImplProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqReplicationImplReplicationReceiverImplProperties properties
 }

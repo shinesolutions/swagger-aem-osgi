@@ -1,21 +1,32 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("orgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCoProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCoProperties   {
-  
-  private @Valid ConfigNodePropertyInteger felixMemoryusageDumpThreshold = null;
-  private @Valid ConfigNodePropertyInteger felixMemoryusageDumpInterval = null;
-  private @Valid ConfigNodePropertyString felixMemoryusageDumpLocation = null;
+  private ConfigNodePropertyInteger felixMemoryusageDumpThreshold;
+  private ConfigNodePropertyInteger felixMemoryusageDumpInterval;
+  private ConfigNodePropertyString felixMemoryusageDumpLocation;
+
+  public OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCoProperties() {
+  }
 
   /**
    **/
@@ -27,9 +38,11 @@ public class OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCoProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("felix.memoryusage.dump.threshold")
-  public ConfigNodePropertyInteger getFelixMemoryusageDumpThreshold() {
+  @Valid public ConfigNodePropertyInteger getFelixMemoryusageDumpThreshold() {
     return felixMemoryusageDumpThreshold;
   }
+
+  @JsonProperty("felix.memoryusage.dump.threshold")
   public void setFelixMemoryusageDumpThreshold(ConfigNodePropertyInteger felixMemoryusageDumpThreshold) {
     this.felixMemoryusageDumpThreshold = felixMemoryusageDumpThreshold;
   }
@@ -44,9 +57,11 @@ public class OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCoProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("felix.memoryusage.dump.interval")
-  public ConfigNodePropertyInteger getFelixMemoryusageDumpInterval() {
+  @Valid public ConfigNodePropertyInteger getFelixMemoryusageDumpInterval() {
     return felixMemoryusageDumpInterval;
   }
+
+  @JsonProperty("felix.memoryusage.dump.interval")
   public void setFelixMemoryusageDumpInterval(ConfigNodePropertyInteger felixMemoryusageDumpInterval) {
     this.felixMemoryusageDumpInterval = felixMemoryusageDumpInterval;
   }
@@ -61,16 +76,18 @@ public class OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCoProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("felix.memoryusage.dump.location")
-  public ConfigNodePropertyString getFelixMemoryusageDumpLocation() {
+  @Valid public ConfigNodePropertyString getFelixMemoryusageDumpLocation() {
     return felixMemoryusageDumpLocation;
   }
+
+  @JsonProperty("felix.memoryusage.dump.location")
   public void setFelixMemoryusageDumpLocation(ConfigNodePropertyString felixMemoryusageDumpLocation) {
     this.felixMemoryusageDumpLocation = felixMemoryusageDumpLocation;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -78,9 +95,9 @@ public class OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCoProp
       return false;
     }
     OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCoProperties orgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCoProperties = (OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCoProperties) o;
-    return Objects.equals(felixMemoryusageDumpThreshold, orgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCoProperties.felixMemoryusageDumpThreshold) &&
-        Objects.equals(felixMemoryusageDumpInterval, orgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCoProperties.felixMemoryusageDumpInterval) &&
-        Objects.equals(felixMemoryusageDumpLocation, orgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCoProperties.felixMemoryusageDumpLocation);
+    return Objects.equals(this.felixMemoryusageDumpThreshold, orgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCoProperties.felixMemoryusageDumpThreshold) &&
+        Objects.equals(this.felixMemoryusageDumpInterval, orgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCoProperties.felixMemoryusageDumpInterval) &&
+        Objects.equals(this.felixMemoryusageDumpLocation, orgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCoProperties.felixMemoryusageDumpLocation);
   }
 
   @Override
@@ -104,11 +121,9 @@ public class OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCoProp
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

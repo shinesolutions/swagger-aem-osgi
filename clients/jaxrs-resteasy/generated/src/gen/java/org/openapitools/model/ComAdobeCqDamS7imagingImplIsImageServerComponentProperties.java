@@ -4,28 +4,32 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2019-08-05T00:59:30.156Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2026-10-07T12:54:21.614735164Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeCqDamS7imagingImplIsImageServerComponentProperties   {
   
-  private ConfigNodePropertyString tcpPort = null;
-  private ConfigNodePropertyBoolean allowRemoteAccess = null;
-  private ConfigNodePropertyString maxRenderRgnPixels = null;
-  private ConfigNodePropertyString maxMessageSize = null;
-  private ConfigNodePropertyInteger randomAccessUrlTimeout = null;
-  private ConfigNodePropertyInteger workerThreads = null;
+  private ConfigNodePropertyString tcpPort;
+  private ConfigNodePropertyBoolean allowRemoteAccess;
+  private ConfigNodePropertyString maxRenderRgnPixels;
+  private ConfigNodePropertyString maxMessageSize;
+  private ConfigNodePropertyInteger randomAccessUrlTimeout;
+  private ConfigNodePropertyInteger workerThreads;
 
   /**
    **/
   
   @ApiModelProperty(value = "")
   @JsonProperty("TcpPort")
+  @Valid
   public ConfigNodePropertyString getTcpPort() {
     return tcpPort;
   }
@@ -38,6 +42,7 @@ public class ComAdobeCqDamS7imagingImplIsImageServerComponentProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("AllowRemoteAccess")
+  @Valid
   public ConfigNodePropertyBoolean getAllowRemoteAccess() {
     return allowRemoteAccess;
   }
@@ -50,6 +55,7 @@ public class ComAdobeCqDamS7imagingImplIsImageServerComponentProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("MaxRenderRgnPixels")
+  @Valid
   public ConfigNodePropertyString getMaxRenderRgnPixels() {
     return maxRenderRgnPixels;
   }
@@ -62,6 +68,7 @@ public class ComAdobeCqDamS7imagingImplIsImageServerComponentProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("MaxMessageSize")
+  @Valid
   public ConfigNodePropertyString getMaxMessageSize() {
     return maxMessageSize;
   }
@@ -74,6 +81,7 @@ public class ComAdobeCqDamS7imagingImplIsImageServerComponentProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("RandomAccessUrlTimeout")
+  @Valid
   public ConfigNodePropertyInteger getRandomAccessUrlTimeout() {
     return randomAccessUrlTimeout;
   }
@@ -86,6 +94,7 @@ public class ComAdobeCqDamS7imagingImplIsImageServerComponentProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("WorkerThreads")
+  @Valid
   public ConfigNodePropertyInteger getWorkerThreads() {
     return workerThreads;
   }
@@ -95,7 +104,7 @@ public class ComAdobeCqDamS7imagingImplIsImageServerComponentProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -103,12 +112,12 @@ public class ComAdobeCqDamS7imagingImplIsImageServerComponentProperties   {
       return false;
     }
     ComAdobeCqDamS7imagingImplIsImageServerComponentProperties comAdobeCqDamS7imagingImplIsImageServerComponentProperties = (ComAdobeCqDamS7imagingImplIsImageServerComponentProperties) o;
-    return Objects.equals(tcpPort, comAdobeCqDamS7imagingImplIsImageServerComponentProperties.tcpPort) &&
-        Objects.equals(allowRemoteAccess, comAdobeCqDamS7imagingImplIsImageServerComponentProperties.allowRemoteAccess) &&
-        Objects.equals(maxRenderRgnPixels, comAdobeCqDamS7imagingImplIsImageServerComponentProperties.maxRenderRgnPixels) &&
-        Objects.equals(maxMessageSize, comAdobeCqDamS7imagingImplIsImageServerComponentProperties.maxMessageSize) &&
-        Objects.equals(randomAccessUrlTimeout, comAdobeCqDamS7imagingImplIsImageServerComponentProperties.randomAccessUrlTimeout) &&
-        Objects.equals(workerThreads, comAdobeCqDamS7imagingImplIsImageServerComponentProperties.workerThreads);
+    return Objects.equals(this.tcpPort, comAdobeCqDamS7imagingImplIsImageServerComponentProperties.tcpPort) &&
+        Objects.equals(this.allowRemoteAccess, comAdobeCqDamS7imagingImplIsImageServerComponentProperties.allowRemoteAccess) &&
+        Objects.equals(this.maxRenderRgnPixels, comAdobeCqDamS7imagingImplIsImageServerComponentProperties.maxRenderRgnPixels) &&
+        Objects.equals(this.maxMessageSize, comAdobeCqDamS7imagingImplIsImageServerComponentProperties.maxMessageSize) &&
+        Objects.equals(this.randomAccessUrlTimeout, comAdobeCqDamS7imagingImplIsImageServerComponentProperties.randomAccessUrlTimeout) &&
+        Objects.equals(this.workerThreads, comAdobeCqDamS7imagingImplIsImageServerComponentProperties.workerThreads);
   }
 
   @Override
@@ -135,11 +144,8 @@ public class ComAdobeCqDamS7imagingImplIsImageServerComponentProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -1,34 +1,45 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyInteger;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplProperties   {
-  @JsonProperty("cq.analytics.sitecatalyst.service.datacenter.url")
-  private ConfigNodePropertyArray cqAnalyticsSitecatalystServiceDatacenterUrl = null;
+@JsonTypeName("comDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplProperties {
 
-  @JsonProperty("devhostnamepatterns")
-  private ConfigNodePropertyArray devhostnamepatterns = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray cqAnalyticsSitecatalystServiceDatacenterUrl;
 
-  @JsonProperty("connection.timeout")
-  private ConfigNodePropertyInteger connectionTimeout = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray devhostnamepatterns;
 
-  @JsonProperty("socket.timeout")
-  private ConfigNodePropertyInteger socketTimeout = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger connectionTimeout;
 
-  public ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplProperties cqAnalyticsSitecatalystServiceDatacenterUrl(ConfigNodePropertyArray cqAnalyticsSitecatalystServiceDatacenterUrl) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger socketTimeout;
+
+  public ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplProperties cqAnalyticsSitecatalystServiceDatacenterUrl(@Nullable ConfigNodePropertyArray cqAnalyticsSitecatalystServiceDatacenterUrl) {
     this.cqAnalyticsSitecatalystServiceDatacenterUrl = cqAnalyticsSitecatalystServiceDatacenterUrl;
     return this;
   }
@@ -36,20 +47,20 @@ public class ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplProperti
   /**
    * Get cqAnalyticsSitecatalystServiceDatacenterUrl
    * @return cqAnalyticsSitecatalystServiceDatacenterUrl
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getCqAnalyticsSitecatalystServiceDatacenterUrl() {
+   */
+  @Valid 
+  @Schema(name = "cq.analytics.sitecatalyst.service.datacenter.url", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cq.analytics.sitecatalyst.service.datacenter.url")
+  public @Nullable ConfigNodePropertyArray getCqAnalyticsSitecatalystServiceDatacenterUrl() {
     return cqAnalyticsSitecatalystServiceDatacenterUrl;
   }
 
-  public void setCqAnalyticsSitecatalystServiceDatacenterUrl(ConfigNodePropertyArray cqAnalyticsSitecatalystServiceDatacenterUrl) {
+  @JsonProperty("cq.analytics.sitecatalyst.service.datacenter.url")
+  public void setCqAnalyticsSitecatalystServiceDatacenterUrl(@Nullable ConfigNodePropertyArray cqAnalyticsSitecatalystServiceDatacenterUrl) {
     this.cqAnalyticsSitecatalystServiceDatacenterUrl = cqAnalyticsSitecatalystServiceDatacenterUrl;
   }
 
-  public ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplProperties devhostnamepatterns(ConfigNodePropertyArray devhostnamepatterns) {
+  public ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplProperties devhostnamepatterns(@Nullable ConfigNodePropertyArray devhostnamepatterns) {
     this.devhostnamepatterns = devhostnamepatterns;
     return this;
   }
@@ -57,20 +68,20 @@ public class ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplProperti
   /**
    * Get devhostnamepatterns
    * @return devhostnamepatterns
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getDevhostnamepatterns() {
+   */
+  @Valid 
+  @Schema(name = "devhostnamepatterns", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("devhostnamepatterns")
+  public @Nullable ConfigNodePropertyArray getDevhostnamepatterns() {
     return devhostnamepatterns;
   }
 
-  public void setDevhostnamepatterns(ConfigNodePropertyArray devhostnamepatterns) {
+  @JsonProperty("devhostnamepatterns")
+  public void setDevhostnamepatterns(@Nullable ConfigNodePropertyArray devhostnamepatterns) {
     this.devhostnamepatterns = devhostnamepatterns;
   }
 
-  public ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplProperties connectionTimeout(ConfigNodePropertyInteger connectionTimeout) {
+  public ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplProperties connectionTimeout(@Nullable ConfigNodePropertyInteger connectionTimeout) {
     this.connectionTimeout = connectionTimeout;
     return this;
   }
@@ -78,20 +89,20 @@ public class ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplProperti
   /**
    * Get connectionTimeout
    * @return connectionTimeout
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getConnectionTimeout() {
+   */
+  @Valid 
+  @Schema(name = "connection.timeout", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("connection.timeout")
+  public @Nullable ConfigNodePropertyInteger getConnectionTimeout() {
     return connectionTimeout;
   }
 
-  public void setConnectionTimeout(ConfigNodePropertyInteger connectionTimeout) {
+  @JsonProperty("connection.timeout")
+  public void setConnectionTimeout(@Nullable ConfigNodePropertyInteger connectionTimeout) {
     this.connectionTimeout = connectionTimeout;
   }
 
-  public ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplProperties socketTimeout(ConfigNodePropertyInteger socketTimeout) {
+  public ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplProperties socketTimeout(@Nullable ConfigNodePropertyInteger socketTimeout) {
     this.socketTimeout = socketTimeout;
     return this;
   }
@@ -99,22 +110,21 @@ public class ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplProperti
   /**
    * Get socketTimeout
    * @return socketTimeout
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getSocketTimeout() {
+   */
+  @Valid 
+  @Schema(name = "socket.timeout", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("socket.timeout")
+  public @Nullable ConfigNodePropertyInteger getSocketTimeout() {
     return socketTimeout;
   }
 
-  public void setSocketTimeout(ConfigNodePropertyInteger socketTimeout) {
+  @JsonProperty("socket.timeout")
+  public void setSocketTimeout(@Nullable ConfigNodePropertyInteger socketTimeout) {
     this.socketTimeout = socketTimeout;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -137,7 +147,6 @@ public class ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplProperti
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplProperties {\n");
-    
     sb.append("    cqAnalyticsSitecatalystServiceDatacenterUrl: ").append(toIndentedString(cqAnalyticsSitecatalystServiceDatacenterUrl)).append("\n");
     sb.append("    devhostnamepatterns: ").append(toIndentedString(devhostnamepatterns)).append("\n");
     sb.append("    connectionTimeout: ").append(toIndentedString(connectionTimeout)).append("\n");
@@ -150,11 +159,8 @@ public class ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplProperti
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

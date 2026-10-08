@@ -1,20 +1,31 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comAdobeGraniteRestImplServletDefaultGETServletProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteRestImplServletDefaultGETServletProperties   {
-  
-  private @Valid ConfigNodePropertyInteger defaultLimit = null;
-  private @Valid ConfigNodePropertyBoolean useAbsoluteUri = null;
+  private ConfigNodePropertyInteger defaultLimit;
+  private ConfigNodePropertyBoolean useAbsoluteUri;
+
+  public ComAdobeGraniteRestImplServletDefaultGETServletProperties() {
+  }
 
   /**
    **/
@@ -26,9 +37,11 @@ public class ComAdobeGraniteRestImplServletDefaultGETServletProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("default.limit")
-  public ConfigNodePropertyInteger getDefaultLimit() {
+  @Valid public ConfigNodePropertyInteger getDefaultLimit() {
     return defaultLimit;
   }
+
+  @JsonProperty("default.limit")
   public void setDefaultLimit(ConfigNodePropertyInteger defaultLimit) {
     this.defaultLimit = defaultLimit;
   }
@@ -43,16 +56,18 @@ public class ComAdobeGraniteRestImplServletDefaultGETServletProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("use.absolute.uri")
-  public ConfigNodePropertyBoolean getUseAbsoluteUri() {
+  @Valid public ConfigNodePropertyBoolean getUseAbsoluteUri() {
     return useAbsoluteUri;
   }
+
+  @JsonProperty("use.absolute.uri")
   public void setUseAbsoluteUri(ConfigNodePropertyBoolean useAbsoluteUri) {
     this.useAbsoluteUri = useAbsoluteUri;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -60,8 +75,8 @@ public class ComAdobeGraniteRestImplServletDefaultGETServletProperties   {
       return false;
     }
     ComAdobeGraniteRestImplServletDefaultGETServletProperties comAdobeGraniteRestImplServletDefaultGETServletProperties = (ComAdobeGraniteRestImplServletDefaultGETServletProperties) o;
-    return Objects.equals(defaultLimit, comAdobeGraniteRestImplServletDefaultGETServletProperties.defaultLimit) &&
-        Objects.equals(useAbsoluteUri, comAdobeGraniteRestImplServletDefaultGETServletProperties.useAbsoluteUri);
+    return Objects.equals(this.defaultLimit, comAdobeGraniteRestImplServletDefaultGETServletProperties.defaultLimit) &&
+        Objects.equals(this.useAbsoluteUri, comAdobeGraniteRestImplServletDefaultGETServletProperties.useAbsoluteUri);
   }
 
   @Override
@@ -84,11 +99,9 @@ public class ComAdobeGraniteRestImplServletDefaultGETServletProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

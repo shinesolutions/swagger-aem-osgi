@@ -1,28 +1,39 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComDayCqRewriterProcessorImplHtmlParserFactoryProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComDayCqRewriterProcessorImplHtmlParserFactoryProperties   {
-  @JsonProperty("htmlparser.processTags")
-  private ConfigNodePropertyArray htmlparserProcessTags = null;
+@JsonTypeName("comDayCqRewriterProcessorImplHtmlParserFactoryProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComDayCqRewriterProcessorImplHtmlParserFactoryProperties {
 
-  @JsonProperty("htmlparser.preserveCamelCase")
-  private ConfigNodePropertyBoolean htmlparserPreserveCamelCase = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray htmlparserProcessTags;
 
-  public ComDayCqRewriterProcessorImplHtmlParserFactoryProperties htmlparserProcessTags(ConfigNodePropertyArray htmlparserProcessTags) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean htmlparserPreserveCamelCase;
+
+  public ComDayCqRewriterProcessorImplHtmlParserFactoryProperties htmlparserProcessTags(@Nullable ConfigNodePropertyArray htmlparserProcessTags) {
     this.htmlparserProcessTags = htmlparserProcessTags;
     return this;
   }
@@ -30,20 +41,20 @@ public class ComDayCqRewriterProcessorImplHtmlParserFactoryProperties   {
   /**
    * Get htmlparserProcessTags
    * @return htmlparserProcessTags
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getHtmlparserProcessTags() {
+   */
+  @Valid 
+  @Schema(name = "htmlparser.processTags", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("htmlparser.processTags")
+  public @Nullable ConfigNodePropertyArray getHtmlparserProcessTags() {
     return htmlparserProcessTags;
   }
 
-  public void setHtmlparserProcessTags(ConfigNodePropertyArray htmlparserProcessTags) {
+  @JsonProperty("htmlparser.processTags")
+  public void setHtmlparserProcessTags(@Nullable ConfigNodePropertyArray htmlparserProcessTags) {
     this.htmlparserProcessTags = htmlparserProcessTags;
   }
 
-  public ComDayCqRewriterProcessorImplHtmlParserFactoryProperties htmlparserPreserveCamelCase(ConfigNodePropertyBoolean htmlparserPreserveCamelCase) {
+  public ComDayCqRewriterProcessorImplHtmlParserFactoryProperties htmlparserPreserveCamelCase(@Nullable ConfigNodePropertyBoolean htmlparserPreserveCamelCase) {
     this.htmlparserPreserveCamelCase = htmlparserPreserveCamelCase;
     return this;
   }
@@ -51,22 +62,21 @@ public class ComDayCqRewriterProcessorImplHtmlParserFactoryProperties   {
   /**
    * Get htmlparserPreserveCamelCase
    * @return htmlparserPreserveCamelCase
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getHtmlparserPreserveCamelCase() {
+   */
+  @Valid 
+  @Schema(name = "htmlparser.preserveCamelCase", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("htmlparser.preserveCamelCase")
+  public @Nullable ConfigNodePropertyBoolean getHtmlparserPreserveCamelCase() {
     return htmlparserPreserveCamelCase;
   }
 
-  public void setHtmlparserPreserveCamelCase(ConfigNodePropertyBoolean htmlparserPreserveCamelCase) {
+  @JsonProperty("htmlparser.preserveCamelCase")
+  public void setHtmlparserPreserveCamelCase(@Nullable ConfigNodePropertyBoolean htmlparserPreserveCamelCase) {
     this.htmlparserPreserveCamelCase = htmlparserPreserveCamelCase;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -87,7 +97,6 @@ public class ComDayCqRewriterProcessorImplHtmlParserFactoryProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComDayCqRewriterProcessorImplHtmlParserFactoryProperties {\n");
-    
     sb.append("    htmlparserProcessTags: ").append(toIndentedString(htmlparserProcessTags)).append("\n");
     sb.append("    htmlparserPreserveCamelCase: ").append(toIndentedString(htmlparserPreserveCamelCase)).append("\n");
     sb.append("}");
@@ -98,11 +107,8 @@ public class ComDayCqRewriterProcessorImplHtmlParserFactoryProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

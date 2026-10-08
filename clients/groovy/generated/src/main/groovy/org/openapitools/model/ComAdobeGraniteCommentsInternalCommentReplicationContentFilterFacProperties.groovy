@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyArray;
 
 @Canonical
 class ComAdobeGraniteCommentsInternalCommentReplicationContentFilterFacProperties {
-    ConfigNodePropertyArray replicateCommentResourceTypes = null
-
+    
+    ConfigNodePropertyArray replicateCommentResourceTypes
 }

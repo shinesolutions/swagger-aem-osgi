@@ -9,10 +9,10 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqMcmCampaignImplIntegrationConfigImplProperties {
-    ConfigNodePropertyArray aemMcmCampaignFormConstraints = null
-
-    ConfigNodePropertyString aemMcmCampaignPublicUrl = null
-
-    ConfigNodePropertyBoolean aemMcmCampaignRelaxedSSL = null
-
+    
+    ConfigNodePropertyArray aemMcmCampaignFormConstraints
+    
+    ConfigNodePropertyString aemMcmCampaignPublicUrl
+    
+    ConfigNodePropertyBoolean aemMcmCampaignRelaxedSSL
 }

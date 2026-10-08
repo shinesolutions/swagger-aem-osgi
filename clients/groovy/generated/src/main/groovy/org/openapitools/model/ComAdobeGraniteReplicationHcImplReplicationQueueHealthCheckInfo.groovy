@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeGraniteReplicationHcImplReplicationQueueHe
 
 @Canonical
 class ComAdobeGraniteReplicationHcImplReplicationQueueHealthCheckInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteReplicationHcImplReplicationQueueHealthCheckProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteReplicationHcImplReplicationQueueHealthCheckProperties properties
 }

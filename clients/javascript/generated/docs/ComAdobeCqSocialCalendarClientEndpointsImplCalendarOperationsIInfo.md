@@ -1,6 +1,7 @@
 # NodeSwaggerAemOsgi.ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsIInfo
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **pid** | **String** |  | [optional] 

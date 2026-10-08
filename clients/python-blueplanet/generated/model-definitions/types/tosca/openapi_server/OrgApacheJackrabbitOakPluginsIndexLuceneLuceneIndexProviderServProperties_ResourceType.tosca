@@ -1,0 +1,113 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServProperties {
+    title = OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServProperties
+    description = OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServProperties
+    derivedFrom = Root
+    properties {
+        disabled {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        debug {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        local_index_dir {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        enable_open_index_async {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        thread_pool_size {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        prefetch_index_files {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        extracted_text_cache_size_in_mb {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        extracted_text_cache_expiry_in_secs {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        always_use_pre_extracted_cache {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        boolean_clause_limit {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        enable_hybrid_indexing {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        hybrid_queue_size {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        disable_stored_index_definition {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        deleted_blobs_collection_enabled {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        prop_index_cleaner_interval_in_secs {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        enable_single_blob_index_files {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServProperties {
+    title = OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServProperties
+    description = OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServProperties
+    implements = openapi_server.resourceTypes.OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServProperties
+
+  }
+}

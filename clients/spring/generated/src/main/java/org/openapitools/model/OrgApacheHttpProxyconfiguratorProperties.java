@@ -1,42 +1,53 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * OrgApacheHttpProxyconfiguratorProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class OrgApacheHttpProxyconfiguratorProperties   {
-  @JsonProperty("proxy.enabled")
-  private ConfigNodePropertyBoolean proxyEnabled = null;
+@JsonTypeName("orgApacheHttpProxyconfiguratorProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class OrgApacheHttpProxyconfiguratorProperties {
 
-  @JsonProperty("proxy.host")
-  private ConfigNodePropertyString proxyHost = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean proxyEnabled;
 
-  @JsonProperty("proxy.port")
-  private ConfigNodePropertyInteger proxyPort = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString proxyHost;
 
-  @JsonProperty("proxy.user")
-  private ConfigNodePropertyString proxyUser = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger proxyPort;
 
-  @JsonProperty("proxy.password")
-  private ConfigNodePropertyString proxyPassword = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString proxyUser;
 
-  @JsonProperty("proxy.exceptions")
-  private ConfigNodePropertyArray proxyExceptions = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString proxyPassword;
 
-  public OrgApacheHttpProxyconfiguratorProperties proxyEnabled(ConfigNodePropertyBoolean proxyEnabled) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray proxyExceptions;
+
+  public OrgApacheHttpProxyconfiguratorProperties proxyEnabled(@Nullable ConfigNodePropertyBoolean proxyEnabled) {
     this.proxyEnabled = proxyEnabled;
     return this;
   }
@@ -44,20 +55,20 @@ public class OrgApacheHttpProxyconfiguratorProperties   {
   /**
    * Get proxyEnabled
    * @return proxyEnabled
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getProxyEnabled() {
+   */
+  @Valid 
+  @Schema(name = "proxy.enabled", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("proxy.enabled")
+  public @Nullable ConfigNodePropertyBoolean getProxyEnabled() {
     return proxyEnabled;
   }
 
-  public void setProxyEnabled(ConfigNodePropertyBoolean proxyEnabled) {
+  @JsonProperty("proxy.enabled")
+  public void setProxyEnabled(@Nullable ConfigNodePropertyBoolean proxyEnabled) {
     this.proxyEnabled = proxyEnabled;
   }
 
-  public OrgApacheHttpProxyconfiguratorProperties proxyHost(ConfigNodePropertyString proxyHost) {
+  public OrgApacheHttpProxyconfiguratorProperties proxyHost(@Nullable ConfigNodePropertyString proxyHost) {
     this.proxyHost = proxyHost;
     return this;
   }
@@ -65,20 +76,20 @@ public class OrgApacheHttpProxyconfiguratorProperties   {
   /**
    * Get proxyHost
    * @return proxyHost
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getProxyHost() {
+   */
+  @Valid 
+  @Schema(name = "proxy.host", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("proxy.host")
+  public @Nullable ConfigNodePropertyString getProxyHost() {
     return proxyHost;
   }
 
-  public void setProxyHost(ConfigNodePropertyString proxyHost) {
+  @JsonProperty("proxy.host")
+  public void setProxyHost(@Nullable ConfigNodePropertyString proxyHost) {
     this.proxyHost = proxyHost;
   }
 
-  public OrgApacheHttpProxyconfiguratorProperties proxyPort(ConfigNodePropertyInteger proxyPort) {
+  public OrgApacheHttpProxyconfiguratorProperties proxyPort(@Nullable ConfigNodePropertyInteger proxyPort) {
     this.proxyPort = proxyPort;
     return this;
   }
@@ -86,20 +97,20 @@ public class OrgApacheHttpProxyconfiguratorProperties   {
   /**
    * Get proxyPort
    * @return proxyPort
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getProxyPort() {
+   */
+  @Valid 
+  @Schema(name = "proxy.port", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("proxy.port")
+  public @Nullable ConfigNodePropertyInteger getProxyPort() {
     return proxyPort;
   }
 
-  public void setProxyPort(ConfigNodePropertyInteger proxyPort) {
+  @JsonProperty("proxy.port")
+  public void setProxyPort(@Nullable ConfigNodePropertyInteger proxyPort) {
     this.proxyPort = proxyPort;
   }
 
-  public OrgApacheHttpProxyconfiguratorProperties proxyUser(ConfigNodePropertyString proxyUser) {
+  public OrgApacheHttpProxyconfiguratorProperties proxyUser(@Nullable ConfigNodePropertyString proxyUser) {
     this.proxyUser = proxyUser;
     return this;
   }
@@ -107,20 +118,20 @@ public class OrgApacheHttpProxyconfiguratorProperties   {
   /**
    * Get proxyUser
    * @return proxyUser
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getProxyUser() {
+   */
+  @Valid 
+  @Schema(name = "proxy.user", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("proxy.user")
+  public @Nullable ConfigNodePropertyString getProxyUser() {
     return proxyUser;
   }
 
-  public void setProxyUser(ConfigNodePropertyString proxyUser) {
+  @JsonProperty("proxy.user")
+  public void setProxyUser(@Nullable ConfigNodePropertyString proxyUser) {
     this.proxyUser = proxyUser;
   }
 
-  public OrgApacheHttpProxyconfiguratorProperties proxyPassword(ConfigNodePropertyString proxyPassword) {
+  public OrgApacheHttpProxyconfiguratorProperties proxyPassword(@Nullable ConfigNodePropertyString proxyPassword) {
     this.proxyPassword = proxyPassword;
     return this;
   }
@@ -128,20 +139,20 @@ public class OrgApacheHttpProxyconfiguratorProperties   {
   /**
    * Get proxyPassword
    * @return proxyPassword
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getProxyPassword() {
+   */
+  @Valid 
+  @Schema(name = "proxy.password", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("proxy.password")
+  public @Nullable ConfigNodePropertyString getProxyPassword() {
     return proxyPassword;
   }
 
-  public void setProxyPassword(ConfigNodePropertyString proxyPassword) {
+  @JsonProperty("proxy.password")
+  public void setProxyPassword(@Nullable ConfigNodePropertyString proxyPassword) {
     this.proxyPassword = proxyPassword;
   }
 
-  public OrgApacheHttpProxyconfiguratorProperties proxyExceptions(ConfigNodePropertyArray proxyExceptions) {
+  public OrgApacheHttpProxyconfiguratorProperties proxyExceptions(@Nullable ConfigNodePropertyArray proxyExceptions) {
     this.proxyExceptions = proxyExceptions;
     return this;
   }
@@ -149,22 +160,21 @@ public class OrgApacheHttpProxyconfiguratorProperties   {
   /**
    * Get proxyExceptions
    * @return proxyExceptions
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getProxyExceptions() {
+   */
+  @Valid 
+  @Schema(name = "proxy.exceptions", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("proxy.exceptions")
+  public @Nullable ConfigNodePropertyArray getProxyExceptions() {
     return proxyExceptions;
   }
 
-  public void setProxyExceptions(ConfigNodePropertyArray proxyExceptions) {
+  @JsonProperty("proxy.exceptions")
+  public void setProxyExceptions(@Nullable ConfigNodePropertyArray proxyExceptions) {
     this.proxyExceptions = proxyExceptions;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -189,7 +199,6 @@ public class OrgApacheHttpProxyconfiguratorProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class OrgApacheHttpProxyconfiguratorProperties {\n");
-    
     sb.append("    proxyEnabled: ").append(toIndentedString(proxyEnabled)).append("\n");
     sb.append("    proxyHost: ").append(toIndentedString(proxyHost)).append("\n");
     sb.append("    proxyPort: ").append(toIndentedString(proxyPort)).append("\n");
@@ -204,11 +213,8 @@ public class OrgApacheHttpProxyconfiguratorProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

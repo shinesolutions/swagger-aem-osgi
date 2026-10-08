@@ -8,8 +8,8 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeGraniteMaintenanceCrxImplDataStoreGarbageCollectionTaskProperties {
-    ConfigNodePropertyBoolean graniteMaintenanceMandatory = null
-
-    ConfigNodePropertyString jobTopics = null
-
+    
+    ConfigNodePropertyBoolean graniteMaintenanceMandatory
+    
+    ConfigNodePropertyString jobTopics
 }

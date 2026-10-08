@@ -1,5 +1,6 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyDropDown;
@@ -8,60 +9,77 @@ import javax.validation.constraints.*;
 import javax.validation.Valid;
 
 import io.swagger.annotations.ApiModelProperty;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlType;
-import javax.xml.bind.annotation.XmlEnum;
-import javax.xml.bind.annotation.XmlEnumValue;
+import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
 
 public class OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties  {
   
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyString osgiHttpWhiteboardContextSelect = null;
+
+  private ConfigNodePropertyString osgiHttpWhiteboardContextSelect;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyString osgiHttpWhiteboardListener = null;
+
+  private ConfigNodePropertyString osgiHttpWhiteboardListener;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyString authSudoCookie = null;
+
+  private ConfigNodePropertyString authSudoCookie;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyString authSudoParameter = null;
+
+  private ConfigNodePropertyString authSudoParameter;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyBoolean authAnnonymous = null;
+
+  private ConfigNodePropertyBoolean authAnnonymous;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyArray slingAuthRequirements = null;
+
+  private ConfigNodePropertyArray slingAuthRequirements;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyString slingAuthAnonymousUser = null;
+
+  private ConfigNodePropertyString slingAuthAnonymousUser;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyString slingAuthAnonymousPassword = null;
+
+  private ConfigNodePropertyString slingAuthAnonymousPassword;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyDropDown authHttp = null;
+
+  private ConfigNodePropertyDropDown authHttp;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyString authHttpRealm = null;
+
+  private ConfigNodePropertyString authHttpRealm;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyArray authUriSuffix = null;
+
+  private ConfigNodePropertyArray authUriSuffix;
  /**
    * Get osgiHttpWhiteboardContextSelect
    * @return osgiHttpWhiteboardContextSelect
@@ -260,6 +278,32 @@ public class OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties  {
     return this;
   }
 
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties orgApacheSlingEngineImplAuthSlingAuthenticatorProperties = (OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties) o;
+    return Objects.equals(this.osgiHttpWhiteboardContextSelect, orgApacheSlingEngineImplAuthSlingAuthenticatorProperties.osgiHttpWhiteboardContextSelect) &&
+        Objects.equals(this.osgiHttpWhiteboardListener, orgApacheSlingEngineImplAuthSlingAuthenticatorProperties.osgiHttpWhiteboardListener) &&
+        Objects.equals(this.authSudoCookie, orgApacheSlingEngineImplAuthSlingAuthenticatorProperties.authSudoCookie) &&
+        Objects.equals(this.authSudoParameter, orgApacheSlingEngineImplAuthSlingAuthenticatorProperties.authSudoParameter) &&
+        Objects.equals(this.authAnnonymous, orgApacheSlingEngineImplAuthSlingAuthenticatorProperties.authAnnonymous) &&
+        Objects.equals(this.slingAuthRequirements, orgApacheSlingEngineImplAuthSlingAuthenticatorProperties.slingAuthRequirements) &&
+        Objects.equals(this.slingAuthAnonymousUser, orgApacheSlingEngineImplAuthSlingAuthenticatorProperties.slingAuthAnonymousUser) &&
+        Objects.equals(this.slingAuthAnonymousPassword, orgApacheSlingEngineImplAuthSlingAuthenticatorProperties.slingAuthAnonymousPassword) &&
+        Objects.equals(this.authHttp, orgApacheSlingEngineImplAuthSlingAuthenticatorProperties.authHttp) &&
+        Objects.equals(this.authHttpRealm, orgApacheSlingEngineImplAuthSlingAuthenticatorProperties.authHttpRealm) &&
+        Objects.equals(this.authUriSuffix, orgApacheSlingEngineImplAuthSlingAuthenticatorProperties.authUriSuffix);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(osgiHttpWhiteboardContextSelect, osgiHttpWhiteboardListener, authSudoCookie, authSudoParameter, authAnnonymous, slingAuthRequirements, slingAuthAnonymousUser, slingAuthAnonymousPassword, authHttp, authHttpRealm, authUriSuffix);
+  }
 
   @Override
   public String toString() {
@@ -285,11 +329,8 @@ public class OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties  {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private static String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

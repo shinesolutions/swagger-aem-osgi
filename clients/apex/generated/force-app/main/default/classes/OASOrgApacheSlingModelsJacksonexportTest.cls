@@ -72,7 +72,7 @@ private class OASOrgApacheSlingModelsJacksonexportTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASOrgApacheSlingModelsJacksonexport orgApacheSlingModelsJacksonexporterImplResourceModuleProviderProperties = new OASOrgApacheSlingModelsJacksonexport();
-        Map<String, String> propertyMappings = orgApacheSlingModelsJacksonexporterImplResourceModuleProviderProperties.getPropertyMappings();
-        System.assertEquals('maxRecursionLevels', propertyMappings.get('max.recursion.levels'));
+        Map<String, String> x-property-mappings = orgApacheSlingModelsJacksonexporterImplResourceModuleProviderProperties.getx-property-mappings();
+        System.assertEquals('maxRecursionLevels', x-property-mappings.get('max.recursion.levels'));
     }
 }

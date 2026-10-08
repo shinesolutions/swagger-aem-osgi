@@ -72,7 +72,7 @@ private class OASComDayCqWcmMsmImplLiveRelationshiTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqWcmMsmImplLiveRelationshi comDayCqWcmMsmImplLiveRelationshipManagerImplProperties = new OASComDayCqWcmMsmImplLiveRelationshi();
-        Map<String, String> propertyMappings = comDayCqWcmMsmImplLiveRelationshipManagerImplProperties.getPropertyMappings();
-        System.assertEquals('liverelationshipmgrRelationsconfigDefault', propertyMappings.get('liverelationshipmgr.relationsconfig.default'));
+        Map<String, String> x-property-mappings = comDayCqWcmMsmImplLiveRelationshipManagerImplProperties.getx-property-mappings();
+        System.assertEquals('liverelationshipmgrRelationsconfigDefault', x-property-mappings.get('liverelationshipmgr.relationsconfig.default'));
     }
 }

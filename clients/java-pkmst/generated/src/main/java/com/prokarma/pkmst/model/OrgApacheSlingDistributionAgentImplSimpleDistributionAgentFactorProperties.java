@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyBoolean;
 import com.prokarma.pkmst.model.ConfigNodePropertyDropDown;
 import com.prokarma.pkmst.model.ConfigNodePropertyString;
@@ -17,51 +18,50 @@ import io.swagger.annotations.ApiModelProperty;
  * OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorProperties   {
   @JsonProperty("name")
-  private ConfigNodePropertyString name = null;
+  private ConfigNodePropertyString name;
 
   @JsonProperty("title")
-  private ConfigNodePropertyString title = null;
+  private ConfigNodePropertyString title;
 
   @JsonProperty("details")
-  private ConfigNodePropertyString details = null;
+  private ConfigNodePropertyString details;
 
   @JsonProperty("enabled")
-  private ConfigNodePropertyBoolean enabled = null;
+  private ConfigNodePropertyBoolean enabled;
 
   @JsonProperty("serviceName")
-  private ConfigNodePropertyString serviceName = null;
+  private ConfigNodePropertyString serviceName;
 
   @JsonProperty("log.level")
-  private ConfigNodePropertyDropDown logLevel = null;
+  private ConfigNodePropertyDropDown logLevel;
 
   @JsonProperty("queue.processing.enabled")
-  private ConfigNodePropertyBoolean queueProcessingEnabled = null;
+  private ConfigNodePropertyBoolean queueProcessingEnabled;
 
   @JsonProperty("packageExporter.target")
-  private ConfigNodePropertyString packageExporterTarget = null;
+  private ConfigNodePropertyString packageExporterTarget;
 
   @JsonProperty("packageImporter.target")
-  private ConfigNodePropertyString packageImporterTarget = null;
+  private ConfigNodePropertyString packageImporterTarget;
 
   @JsonProperty("requestAuthorizationStrategy.target")
-  private ConfigNodePropertyString requestAuthorizationStrategyTarget = null;
+  private ConfigNodePropertyString requestAuthorizationStrategyTarget;
 
   @JsonProperty("triggers.target")
-  private ConfigNodePropertyString triggersTarget = null;
+  private ConfigNodePropertyString triggersTarget;
 
   public OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorProperties name(ConfigNodePropertyString name) {
     this.name = name;
     return this;
   }
 
-   /**
+  /**
    * Get name
    * @return name
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getName() {
     return name;
@@ -76,10 +76,10 @@ public class OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorPro
     return this;
   }
 
-   /**
+  /**
    * Get title
    * @return title
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getTitle() {
     return title;
@@ -94,10 +94,10 @@ public class OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorPro
     return this;
   }
 
-   /**
+  /**
    * Get details
    * @return details
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getDetails() {
     return details;
@@ -112,10 +112,10 @@ public class OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorPro
     return this;
   }
 
-   /**
+  /**
    * Get enabled
    * @return enabled
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getEnabled() {
     return enabled;
@@ -130,10 +130,10 @@ public class OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorPro
     return this;
   }
 
-   /**
+  /**
    * Get serviceName
    * @return serviceName
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getServiceName() {
     return serviceName;
@@ -148,10 +148,10 @@ public class OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorPro
     return this;
   }
 
-   /**
+  /**
    * Get logLevel
    * @return logLevel
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyDropDown getLogLevel() {
     return logLevel;
@@ -166,10 +166,10 @@ public class OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorPro
     return this;
   }
 
-   /**
+  /**
    * Get queueProcessingEnabled
    * @return queueProcessingEnabled
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getQueueProcessingEnabled() {
     return queueProcessingEnabled;
@@ -184,10 +184,10 @@ public class OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorPro
     return this;
   }
 
-   /**
+  /**
    * Get packageExporterTarget
    * @return packageExporterTarget
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getPackageExporterTarget() {
     return packageExporterTarget;
@@ -202,10 +202,10 @@ public class OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorPro
     return this;
   }
 
-   /**
+  /**
    * Get packageImporterTarget
    * @return packageImporterTarget
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getPackageImporterTarget() {
     return packageImporterTarget;
@@ -220,10 +220,10 @@ public class OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorPro
     return this;
   }
 
-   /**
+  /**
    * Get requestAuthorizationStrategyTarget
    * @return requestAuthorizationStrategyTarget
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getRequestAuthorizationStrategyTarget() {
     return requestAuthorizationStrategyTarget;
@@ -238,10 +238,10 @@ public class OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorPro
     return this;
   }
 
-   /**
+  /**
    * Get triggersTarget
    * @return triggersTarget
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getTriggersTarget() {
     return triggersTarget;
@@ -253,7 +253,7 @@ public class OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorPro
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -303,11 +303,8 @@ public class OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorPro
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

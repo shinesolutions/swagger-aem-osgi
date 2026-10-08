@@ -2,24 +2,25 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**jaas_ranking** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  | [optional] 
-**jaas_control_flag** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
-**jaas_realm_name** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
-**idp_name** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
-**sync_handler_name** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **jaas_ranking** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  | [optional] |
+| **jaas_control_flag** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] |
+| **jaas_realm_name** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] |
+| **idp_name** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] |
+| **sync_handler_name** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExProperties.new(jaas_ranking: null,
-                                 jaas_control_flag: null,
-                                 jaas_realm_name: null,
-                                 idp_name: null,
-                                 sync_handler_name: null)
+instance = SwaggerAemOsgiClient::OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExProperties.new(
+  jaas_ranking: null,
+  jaas_control_flag: null,
+  jaas_realm_name: null,
+  idp_name: null,
+  sync_handler_name: null
+)
 ```
-
 

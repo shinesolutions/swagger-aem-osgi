@@ -5,50 +5,73 @@ import apimodels.ConfigNodePropertyBoolean;
 import apimodels.ConfigNodePropertyDropDown;
 import apimodels.ConfigNodePropertyInteger;
 import apimodels.ConfigNodePropertyString;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties   {
   @JsonProperty("granite.workflowinbox.sort.propertyName")
-  private ConfigNodePropertyDropDown graniteWorkflowinboxSortPropertyName = null;
+  @Valid
+
+  private ConfigNodePropertyDropDown graniteWorkflowinboxSortPropertyName;
 
   @JsonProperty("granite.workflowinbox.sort.order")
-  private ConfigNodePropertyString graniteWorkflowinboxSortOrder = null;
+  @Valid
+
+  private ConfigNodePropertyString graniteWorkflowinboxSortOrder;
 
   @JsonProperty("cq.workflow.job.retry")
-  private ConfigNodePropertyInteger cqWorkflowJobRetry = null;
+  @Valid
+
+  private ConfigNodePropertyInteger cqWorkflowJobRetry;
 
   @JsonProperty("cq.workflow.superuser")
-  private ConfigNodePropertyArray cqWorkflowSuperuser = null;
+  @Valid
+
+  private ConfigNodePropertyArray cqWorkflowSuperuser;
 
   @JsonProperty("granite.workflow.inboxQuerySize")
-  private ConfigNodePropertyInteger graniteWorkflowInboxQuerySize = null;
+  @Valid
+
+  private ConfigNodePropertyInteger graniteWorkflowInboxQuerySize;
 
   @JsonProperty("granite.workflow.adminUserGroupFilter")
-  private ConfigNodePropertyBoolean graniteWorkflowAdminUserGroupFilter = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean graniteWorkflowAdminUserGroupFilter;
 
   @JsonProperty("granite.workflow.enforceWorkitemAssigneePermissions")
-  private ConfigNodePropertyBoolean graniteWorkflowEnforceWorkitemAssigneePermissions = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean graniteWorkflowEnforceWorkitemAssigneePermissions;
 
   @JsonProperty("granite.workflow.enforceWorkflowInitiatorPermissions")
-  private ConfigNodePropertyBoolean graniteWorkflowEnforceWorkflowInitiatorPermissions = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean graniteWorkflowEnforceWorkflowInitiatorPermissions;
 
   @JsonProperty("granite.workflow.injectTenantIdInJobTopics")
-  private ConfigNodePropertyBoolean graniteWorkflowInjectTenantIdInJobTopics = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean graniteWorkflowInjectTenantIdInJobTopics;
 
   @JsonProperty("granite.workflow.maxPurgeSaveThreshold")
-  private ConfigNodePropertyInteger graniteWorkflowMaxPurgeSaveThreshold = null;
+  @Valid
+
+  private ConfigNodePropertyInteger graniteWorkflowMaxPurgeSaveThreshold;
 
   @JsonProperty("granite.workflow.maxPurgeQueryCount")
-  private ConfigNodePropertyInteger graniteWorkflowMaxPurgeQueryCount = null;
+  @Valid
+
+  private ConfigNodePropertyInteger graniteWorkflowMaxPurgeQueryCount;
 
   public ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties graniteWorkflowinboxSortPropertyName(ConfigNodePropertyDropDown graniteWorkflowinboxSortPropertyName) {
     this.graniteWorkflowinboxSortPropertyName = graniteWorkflowinboxSortPropertyName;
@@ -59,7 +82,6 @@ public class ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties   {
    * Get graniteWorkflowinboxSortPropertyName
    * @return graniteWorkflowinboxSortPropertyName
   **/
-  @Valid
   public ConfigNodePropertyDropDown getGraniteWorkflowinboxSortPropertyName() {
     return graniteWorkflowinboxSortPropertyName;
   }
@@ -77,7 +99,6 @@ public class ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties   {
    * Get graniteWorkflowinboxSortOrder
    * @return graniteWorkflowinboxSortOrder
   **/
-  @Valid
   public ConfigNodePropertyString getGraniteWorkflowinboxSortOrder() {
     return graniteWorkflowinboxSortOrder;
   }
@@ -95,7 +116,6 @@ public class ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties   {
    * Get cqWorkflowJobRetry
    * @return cqWorkflowJobRetry
   **/
-  @Valid
   public ConfigNodePropertyInteger getCqWorkflowJobRetry() {
     return cqWorkflowJobRetry;
   }
@@ -113,7 +133,6 @@ public class ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties   {
    * Get cqWorkflowSuperuser
    * @return cqWorkflowSuperuser
   **/
-  @Valid
   public ConfigNodePropertyArray getCqWorkflowSuperuser() {
     return cqWorkflowSuperuser;
   }
@@ -131,7 +150,6 @@ public class ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties   {
    * Get graniteWorkflowInboxQuerySize
    * @return graniteWorkflowInboxQuerySize
   **/
-  @Valid
   public ConfigNodePropertyInteger getGraniteWorkflowInboxQuerySize() {
     return graniteWorkflowInboxQuerySize;
   }
@@ -149,7 +167,6 @@ public class ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties   {
    * Get graniteWorkflowAdminUserGroupFilter
    * @return graniteWorkflowAdminUserGroupFilter
   **/
-  @Valid
   public ConfigNodePropertyBoolean getGraniteWorkflowAdminUserGroupFilter() {
     return graniteWorkflowAdminUserGroupFilter;
   }
@@ -167,7 +184,6 @@ public class ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties   {
    * Get graniteWorkflowEnforceWorkitemAssigneePermissions
    * @return graniteWorkflowEnforceWorkitemAssigneePermissions
   **/
-  @Valid
   public ConfigNodePropertyBoolean getGraniteWorkflowEnforceWorkitemAssigneePermissions() {
     return graniteWorkflowEnforceWorkitemAssigneePermissions;
   }
@@ -185,7 +201,6 @@ public class ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties   {
    * Get graniteWorkflowEnforceWorkflowInitiatorPermissions
    * @return graniteWorkflowEnforceWorkflowInitiatorPermissions
   **/
-  @Valid
   public ConfigNodePropertyBoolean getGraniteWorkflowEnforceWorkflowInitiatorPermissions() {
     return graniteWorkflowEnforceWorkflowInitiatorPermissions;
   }
@@ -203,7 +218,6 @@ public class ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties   {
    * Get graniteWorkflowInjectTenantIdInJobTopics
    * @return graniteWorkflowInjectTenantIdInJobTopics
   **/
-  @Valid
   public ConfigNodePropertyBoolean getGraniteWorkflowInjectTenantIdInJobTopics() {
     return graniteWorkflowInjectTenantIdInJobTopics;
   }
@@ -221,7 +235,6 @@ public class ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties   {
    * Get graniteWorkflowMaxPurgeSaveThreshold
    * @return graniteWorkflowMaxPurgeSaveThreshold
   **/
-  @Valid
   public ConfigNodePropertyInteger getGraniteWorkflowMaxPurgeSaveThreshold() {
     return graniteWorkflowMaxPurgeSaveThreshold;
   }
@@ -239,7 +252,6 @@ public class ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties   {
    * Get graniteWorkflowMaxPurgeQueryCount
    * @return graniteWorkflowMaxPurgeQueryCount
   **/
-  @Valid
   public ConfigNodePropertyInteger getGraniteWorkflowMaxPurgeQueryCount() {
     return graniteWorkflowMaxPurgeQueryCount;
   }
@@ -250,7 +262,7 @@ public class ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -301,11 +313,8 @@ public class ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -72,8 +72,8 @@ private class OASOrgApacheSlingJcrBaseInternalLogiTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASOrgApacheSlingJcrBaseInternalLogi orgApacheSlingJcrBaseInternalLoginAdminWhitelistFragmentProperties = new OASOrgApacheSlingJcrBaseInternalLogi();
-        Map<String, String> propertyMappings = orgApacheSlingJcrBaseInternalLoginAdminWhitelistFragmentProperties.getPropertyMappings();
-        System.assertEquals('whitelistName', propertyMappings.get('whitelist.name'));
-        System.assertEquals('whitelistBundles', propertyMappings.get('whitelist.bundles'));
+        Map<String, String> x-property-mappings = orgApacheSlingJcrBaseInternalLoginAdminWhitelistFragmentProperties.getx-property-mappings();
+        System.assertEquals('whitelistName', x-property-mappings.get('whitelist.name'));
+        System.assertEquals('whitelistBundles', x-property-mappings.get('whitelist.bundles'));
     }
 }

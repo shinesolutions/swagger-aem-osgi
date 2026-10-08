@@ -2,29 +2,38 @@ package apimodels;
 
 import apimodels.ConfigNodePropertyDropDown;
 import apimodels.ConfigNodePropertyString;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * ComAdobeCqWcmTranslationImplTranslationPlatformConfigurationImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class ComAdobeCqWcmTranslationImplTranslationPlatformConfigurationImplProperties   {
   @JsonProperty("syncTranslationState.schedulingFormat")
-  private ConfigNodePropertyString syncTranslationStateSchedulingFormat = null;
+  @Valid
+
+  private ConfigNodePropertyString syncTranslationStateSchedulingFormat;
 
   @JsonProperty("schedulingRepeatTranslation.schedulingFormat")
-  private ConfigNodePropertyString schedulingRepeatTranslationSchedulingFormat = null;
+  @Valid
+
+  private ConfigNodePropertyString schedulingRepeatTranslationSchedulingFormat;
 
   @JsonProperty("syncTranslationState.lockTimeoutInMinutes")
-  private ConfigNodePropertyString syncTranslationStateLockTimeoutInMinutes = null;
+  @Valid
+
+  private ConfigNodePropertyString syncTranslationStateLockTimeoutInMinutes;
 
   @JsonProperty("export.format")
-  private ConfigNodePropertyDropDown exportFormat = null;
+  @Valid
+
+  private ConfigNodePropertyDropDown exportFormat;
 
   public ComAdobeCqWcmTranslationImplTranslationPlatformConfigurationImplProperties syncTranslationStateSchedulingFormat(ConfigNodePropertyString syncTranslationStateSchedulingFormat) {
     this.syncTranslationStateSchedulingFormat = syncTranslationStateSchedulingFormat;
@@ -35,7 +44,6 @@ public class ComAdobeCqWcmTranslationImplTranslationPlatformConfigurationImplPro
    * Get syncTranslationStateSchedulingFormat
    * @return syncTranslationStateSchedulingFormat
   **/
-  @Valid
   public ConfigNodePropertyString getSyncTranslationStateSchedulingFormat() {
     return syncTranslationStateSchedulingFormat;
   }
@@ -53,7 +61,6 @@ public class ComAdobeCqWcmTranslationImplTranslationPlatformConfigurationImplPro
    * Get schedulingRepeatTranslationSchedulingFormat
    * @return schedulingRepeatTranslationSchedulingFormat
   **/
-  @Valid
   public ConfigNodePropertyString getSchedulingRepeatTranslationSchedulingFormat() {
     return schedulingRepeatTranslationSchedulingFormat;
   }
@@ -71,7 +78,6 @@ public class ComAdobeCqWcmTranslationImplTranslationPlatformConfigurationImplPro
    * Get syncTranslationStateLockTimeoutInMinutes
    * @return syncTranslationStateLockTimeoutInMinutes
   **/
-  @Valid
   public ConfigNodePropertyString getSyncTranslationStateLockTimeoutInMinutes() {
     return syncTranslationStateLockTimeoutInMinutes;
   }
@@ -89,7 +95,6 @@ public class ComAdobeCqWcmTranslationImplTranslationPlatformConfigurationImplPro
    * Get exportFormat
    * @return exportFormat
   **/
-  @Valid
   public ConfigNodePropertyDropDown getExportFormat() {
     return exportFormat;
   }
@@ -100,7 +105,7 @@ public class ComAdobeCqWcmTranslationImplTranslationPlatformConfigurationImplPro
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -137,11 +142,8 @@ public class ComAdobeCqWcmTranslationImplTranslationPlatformConfigurationImplPro
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

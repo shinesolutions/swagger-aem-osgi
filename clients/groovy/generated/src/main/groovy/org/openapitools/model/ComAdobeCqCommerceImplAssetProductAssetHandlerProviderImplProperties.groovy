@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeCqCommerceImplAssetProductAssetHandlerProviderImplProperties {
-    ConfigNodePropertyString cqCommerceAssetHandlerFallback = null
-
+    
+    ConfigNodePropertyString cqCommerceAssetHandlerFallback
 }

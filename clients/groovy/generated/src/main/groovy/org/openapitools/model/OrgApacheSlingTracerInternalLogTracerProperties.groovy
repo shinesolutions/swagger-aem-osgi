@@ -9,18 +9,18 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class OrgApacheSlingTracerInternalLogTracerProperties {
-    ConfigNodePropertyArray tracerSets = null
-
-    ConfigNodePropertyBoolean enabled = null
-
-    ConfigNodePropertyBoolean servletEnabled = null
-
-    ConfigNodePropertyInteger recordingCacheSizeInMB = null
-
-    ConfigNodePropertyInteger recordingCacheDurationInSecs = null
-
-    ConfigNodePropertyBoolean recordingCompressionEnabled = null
-
-    ConfigNodePropertyBoolean gzipResponse = null
-
+    
+    ConfigNodePropertyArray tracerSets
+    
+    ConfigNodePropertyBoolean enabled
+    
+    ConfigNodePropertyBoolean servletEnabled
+    
+    ConfigNodePropertyInteger recordingCacheSizeInMB
+    
+    ConfigNodePropertyInteger recordingCacheDurationInSecs
+    
+    ConfigNodePropertyBoolean recordingCompressionEnabled
+    
+    ConfigNodePropertyBoolean gzipResponse
 }

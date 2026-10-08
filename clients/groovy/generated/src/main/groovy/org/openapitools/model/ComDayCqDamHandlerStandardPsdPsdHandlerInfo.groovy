@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqDamHandlerStandardPsdPsdHandlerProperties;
 
 @Canonical
 class ComDayCqDamHandlerStandardPsdPsdHandlerInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqDamHandlerStandardPsdPsdHandlerProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqDamHandlerStandardPsdPsdHandlerProperties properties
 }

@@ -1,0 +1,58 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqScreensAnalyticsImplScreensAnalyticsServiceImplProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqScreensAnalyticsImplScreensAnalyticsServiceImplProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyDropDown = openapi_server.resourceTypes.ConfigNodePropertyDropDown
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComAdobeCqScreensAnalyticsImplScreensAnalyticsServiceImplProperties {
+    title = ComAdobeCqScreensAnalyticsImplScreensAnalyticsServiceImplProperties
+    description = ComAdobeCqScreensAnalyticsImplScreensAnalyticsServiceImplProperties
+    derivedFrom = Root
+    properties {
+        com_adobe_cq_screens_analytics_impl_url {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_cq_screens_analytics_impl_apikey {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_cq_screens_analytics_impl_project {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_cq_screens_analytics_impl_environment {
+          type = ConfigNodePropertyDropDown
+          description = ""
+          optional = false
+        }
+        com_adobe_cq_screens_analytics_impl_send_frequency {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqScreensAnalyticsImplScreensAnalyticsServiceImplProperties {
+    title = ComAdobeCqScreensAnalyticsImplScreensAnalyticsServiceImplProperties
+    description = ComAdobeCqScreensAnalyticsImplScreensAnalyticsServiceImplProperties
+    implements = openapi_server.resourceTypes.ComAdobeCqScreensAnalyticsImplScreensAnalyticsServiceImplProperties
+
+  }
+}

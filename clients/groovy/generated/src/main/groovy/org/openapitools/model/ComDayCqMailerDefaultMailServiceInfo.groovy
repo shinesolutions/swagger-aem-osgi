@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqMailerDefaultMailServiceProperties;
 
 @Canonical
 class ComDayCqMailerDefaultMailServiceInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqMailerDefaultMailServiceProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqMailerDefaultMailServiceProperties properties
 }

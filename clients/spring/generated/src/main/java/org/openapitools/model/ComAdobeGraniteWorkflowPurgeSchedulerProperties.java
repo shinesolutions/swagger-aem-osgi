@@ -1,36 +1,47 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyDropDown;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComAdobeGraniteWorkflowPurgeSchedulerProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComAdobeGraniteWorkflowPurgeSchedulerProperties   {
-  @JsonProperty("scheduledpurge.name")
-  private ConfigNodePropertyString scheduledpurgeName = null;
+@JsonTypeName("comAdobeGraniteWorkflowPurgeSchedulerProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComAdobeGraniteWorkflowPurgeSchedulerProperties {
 
-  @JsonProperty("scheduledpurge.workflowStatus")
-  private ConfigNodePropertyDropDown scheduledpurgeWorkflowStatus = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString scheduledpurgeName;
 
-  @JsonProperty("scheduledpurge.modelIds")
-  private ConfigNodePropertyArray scheduledpurgeModelIds = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyDropDown scheduledpurgeWorkflowStatus;
 
-  @JsonProperty("scheduledpurge.daysold")
-  private ConfigNodePropertyInteger scheduledpurgeDaysold = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray scheduledpurgeModelIds;
 
-  public ComAdobeGraniteWorkflowPurgeSchedulerProperties scheduledpurgeName(ConfigNodePropertyString scheduledpurgeName) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger scheduledpurgeDaysold;
+
+  public ComAdobeGraniteWorkflowPurgeSchedulerProperties scheduledpurgeName(@Nullable ConfigNodePropertyString scheduledpurgeName) {
     this.scheduledpurgeName = scheduledpurgeName;
     return this;
   }
@@ -38,20 +49,20 @@ public class ComAdobeGraniteWorkflowPurgeSchedulerProperties   {
   /**
    * Get scheduledpurgeName
    * @return scheduledpurgeName
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getScheduledpurgeName() {
+   */
+  @Valid 
+  @Schema(name = "scheduledpurge.name", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("scheduledpurge.name")
+  public @Nullable ConfigNodePropertyString getScheduledpurgeName() {
     return scheduledpurgeName;
   }
 
-  public void setScheduledpurgeName(ConfigNodePropertyString scheduledpurgeName) {
+  @JsonProperty("scheduledpurge.name")
+  public void setScheduledpurgeName(@Nullable ConfigNodePropertyString scheduledpurgeName) {
     this.scheduledpurgeName = scheduledpurgeName;
   }
 
-  public ComAdobeGraniteWorkflowPurgeSchedulerProperties scheduledpurgeWorkflowStatus(ConfigNodePropertyDropDown scheduledpurgeWorkflowStatus) {
+  public ComAdobeGraniteWorkflowPurgeSchedulerProperties scheduledpurgeWorkflowStatus(@Nullable ConfigNodePropertyDropDown scheduledpurgeWorkflowStatus) {
     this.scheduledpurgeWorkflowStatus = scheduledpurgeWorkflowStatus;
     return this;
   }
@@ -59,20 +70,20 @@ public class ComAdobeGraniteWorkflowPurgeSchedulerProperties   {
   /**
    * Get scheduledpurgeWorkflowStatus
    * @return scheduledpurgeWorkflowStatus
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyDropDown getScheduledpurgeWorkflowStatus() {
+   */
+  @Valid 
+  @Schema(name = "scheduledpurge.workflowStatus", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("scheduledpurge.workflowStatus")
+  public @Nullable ConfigNodePropertyDropDown getScheduledpurgeWorkflowStatus() {
     return scheduledpurgeWorkflowStatus;
   }
 
-  public void setScheduledpurgeWorkflowStatus(ConfigNodePropertyDropDown scheduledpurgeWorkflowStatus) {
+  @JsonProperty("scheduledpurge.workflowStatus")
+  public void setScheduledpurgeWorkflowStatus(@Nullable ConfigNodePropertyDropDown scheduledpurgeWorkflowStatus) {
     this.scheduledpurgeWorkflowStatus = scheduledpurgeWorkflowStatus;
   }
 
-  public ComAdobeGraniteWorkflowPurgeSchedulerProperties scheduledpurgeModelIds(ConfigNodePropertyArray scheduledpurgeModelIds) {
+  public ComAdobeGraniteWorkflowPurgeSchedulerProperties scheduledpurgeModelIds(@Nullable ConfigNodePropertyArray scheduledpurgeModelIds) {
     this.scheduledpurgeModelIds = scheduledpurgeModelIds;
     return this;
   }
@@ -80,20 +91,20 @@ public class ComAdobeGraniteWorkflowPurgeSchedulerProperties   {
   /**
    * Get scheduledpurgeModelIds
    * @return scheduledpurgeModelIds
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getScheduledpurgeModelIds() {
+   */
+  @Valid 
+  @Schema(name = "scheduledpurge.modelIds", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("scheduledpurge.modelIds")
+  public @Nullable ConfigNodePropertyArray getScheduledpurgeModelIds() {
     return scheduledpurgeModelIds;
   }
 
-  public void setScheduledpurgeModelIds(ConfigNodePropertyArray scheduledpurgeModelIds) {
+  @JsonProperty("scheduledpurge.modelIds")
+  public void setScheduledpurgeModelIds(@Nullable ConfigNodePropertyArray scheduledpurgeModelIds) {
     this.scheduledpurgeModelIds = scheduledpurgeModelIds;
   }
 
-  public ComAdobeGraniteWorkflowPurgeSchedulerProperties scheduledpurgeDaysold(ConfigNodePropertyInteger scheduledpurgeDaysold) {
+  public ComAdobeGraniteWorkflowPurgeSchedulerProperties scheduledpurgeDaysold(@Nullable ConfigNodePropertyInteger scheduledpurgeDaysold) {
     this.scheduledpurgeDaysold = scheduledpurgeDaysold;
     return this;
   }
@@ -101,22 +112,21 @@ public class ComAdobeGraniteWorkflowPurgeSchedulerProperties   {
   /**
    * Get scheduledpurgeDaysold
    * @return scheduledpurgeDaysold
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getScheduledpurgeDaysold() {
+   */
+  @Valid 
+  @Schema(name = "scheduledpurge.daysold", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("scheduledpurge.daysold")
+  public @Nullable ConfigNodePropertyInteger getScheduledpurgeDaysold() {
     return scheduledpurgeDaysold;
   }
 
-  public void setScheduledpurgeDaysold(ConfigNodePropertyInteger scheduledpurgeDaysold) {
+  @JsonProperty("scheduledpurge.daysold")
+  public void setScheduledpurgeDaysold(@Nullable ConfigNodePropertyInteger scheduledpurgeDaysold) {
     this.scheduledpurgeDaysold = scheduledpurgeDaysold;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -139,7 +149,6 @@ public class ComAdobeGraniteWorkflowPurgeSchedulerProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComAdobeGraniteWorkflowPurgeSchedulerProperties {\n");
-    
     sb.append("    scheduledpurgeName: ").append(toIndentedString(scheduledpurgeName)).append("\n");
     sb.append("    scheduledpurgeWorkflowStatus: ").append(toIndentedString(scheduledpurgeWorkflowStatus)).append("\n");
     sb.append("    scheduledpurgeModelIds: ").append(toIndentedString(scheduledpurgeModelIds)).append("\n");
@@ -152,11 +161,8 @@ public class ComAdobeGraniteWorkflowPurgeSchedulerProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

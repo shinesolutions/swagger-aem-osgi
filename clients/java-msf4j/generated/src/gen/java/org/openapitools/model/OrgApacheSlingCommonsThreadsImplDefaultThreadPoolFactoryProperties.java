@@ -3,6 +3,7 @@ package org.openapitools.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyBoolean;
@@ -13,40 +14,40 @@ import org.openapitools.model.ConfigNodePropertyString;
 /**
  * OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaMSF4JServerCodegen", date = "2019-08-05T00:54:29.762Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaMSF4JServerCodegen", date = "2026-10-07T12:53:29.980508721Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties   {
   @JsonProperty("name")
-  private ConfigNodePropertyString name = null;
+  private ConfigNodePropertyString name;
 
   @JsonProperty("minPoolSize")
-  private ConfigNodePropertyInteger minPoolSize = null;
+  private ConfigNodePropertyInteger minPoolSize;
 
   @JsonProperty("maxPoolSize")
-  private ConfigNodePropertyInteger maxPoolSize = null;
+  private ConfigNodePropertyInteger maxPoolSize;
 
   @JsonProperty("queueSize")
-  private ConfigNodePropertyInteger queueSize = null;
+  private ConfigNodePropertyInteger queueSize;
 
   @JsonProperty("maxThreadAge")
-  private ConfigNodePropertyInteger maxThreadAge = null;
+  private ConfigNodePropertyInteger maxThreadAge;
 
   @JsonProperty("keepAliveTime")
-  private ConfigNodePropertyInteger keepAliveTime = null;
+  private ConfigNodePropertyInteger keepAliveTime;
 
   @JsonProperty("blockPolicy")
-  private ConfigNodePropertyDropDown blockPolicy = null;
+  private ConfigNodePropertyDropDown blockPolicy;
 
   @JsonProperty("shutdownGraceful")
-  private ConfigNodePropertyBoolean shutdownGraceful = null;
+  private ConfigNodePropertyBoolean shutdownGraceful;
 
   @JsonProperty("daemon")
-  private ConfigNodePropertyBoolean daemon = null;
+  private ConfigNodePropertyBoolean daemon;
 
   @JsonProperty("shutdownWaitTime")
-  private ConfigNodePropertyInteger shutdownWaitTime = null;
+  private ConfigNodePropertyInteger shutdownWaitTime;
 
   @JsonProperty("priority")
-  private ConfigNodePropertyDropDown priority = null;
+  private ConfigNodePropertyDropDown priority;
 
   public OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties name(ConfigNodePropertyString name) {
     this.name = name;
@@ -248,7 +249,7 @@ public class OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties 
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -298,11 +299,8 @@ public class OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties 
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

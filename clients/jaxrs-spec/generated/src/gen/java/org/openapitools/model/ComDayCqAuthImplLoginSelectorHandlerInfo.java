@@ -1,23 +1,34 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ComDayCqAuthImplLoginSelectorHandlerProperties;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comDayCqAuthImplLoginSelectorHandlerInfo")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqAuthImplLoginSelectorHandlerInfo   {
-  
-  private @Valid String pid = null;
-  private @Valid String title = null;
-  private @Valid String description = null;
-  private @Valid ComDayCqAuthImplLoginSelectorHandlerProperties properties = null;
-  private @Valid String bundleLocation = null;
-  private @Valid String serviceLocation = null;
+  private String pid;
+  private String title;
+  private String description;
+  private ComDayCqAuthImplLoginSelectorHandlerProperties properties;
+  private String bundleLocation;
+  private String serviceLocation;
+
+  public ComDayCqAuthImplLoginSelectorHandlerInfo() {
+  }
 
   /**
    **/
@@ -32,6 +43,8 @@ public class ComDayCqAuthImplLoginSelectorHandlerInfo   {
   public String getPid() {
     return pid;
   }
+
+  @JsonProperty("pid")
   public void setPid(String pid) {
     this.pid = pid;
   }
@@ -49,6 +62,8 @@ public class ComDayCqAuthImplLoginSelectorHandlerInfo   {
   public String getTitle() {
     return title;
   }
+
+  @JsonProperty("title")
   public void setTitle(String title) {
     this.title = title;
   }
@@ -66,6 +81,8 @@ public class ComDayCqAuthImplLoginSelectorHandlerInfo   {
   public String getDescription() {
     return description;
   }
+
+  @JsonProperty("description")
   public void setDescription(String description) {
     this.description = description;
   }
@@ -80,9 +97,11 @@ public class ComDayCqAuthImplLoginSelectorHandlerInfo   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("properties")
-  public ComDayCqAuthImplLoginSelectorHandlerProperties getProperties() {
+  @Valid public ComDayCqAuthImplLoginSelectorHandlerProperties getProperties() {
     return properties;
   }
+
+  @JsonProperty("properties")
   public void setProperties(ComDayCqAuthImplLoginSelectorHandlerProperties properties) {
     this.properties = properties;
   }
@@ -100,6 +119,8 @@ public class ComDayCqAuthImplLoginSelectorHandlerInfo   {
   public String getBundleLocation() {
     return bundleLocation;
   }
+
+  @JsonProperty("bundle_location")
   public void setBundleLocation(String bundleLocation) {
     this.bundleLocation = bundleLocation;
   }
@@ -117,13 +138,15 @@ public class ComDayCqAuthImplLoginSelectorHandlerInfo   {
   public String getServiceLocation() {
     return serviceLocation;
   }
+
+  @JsonProperty("service_location")
   public void setServiceLocation(String serviceLocation) {
     this.serviceLocation = serviceLocation;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -131,12 +154,12 @@ public class ComDayCqAuthImplLoginSelectorHandlerInfo   {
       return false;
     }
     ComDayCqAuthImplLoginSelectorHandlerInfo comDayCqAuthImplLoginSelectorHandlerInfo = (ComDayCqAuthImplLoginSelectorHandlerInfo) o;
-    return Objects.equals(pid, comDayCqAuthImplLoginSelectorHandlerInfo.pid) &&
-        Objects.equals(title, comDayCqAuthImplLoginSelectorHandlerInfo.title) &&
-        Objects.equals(description, comDayCqAuthImplLoginSelectorHandlerInfo.description) &&
-        Objects.equals(properties, comDayCqAuthImplLoginSelectorHandlerInfo.properties) &&
-        Objects.equals(bundleLocation, comDayCqAuthImplLoginSelectorHandlerInfo.bundleLocation) &&
-        Objects.equals(serviceLocation, comDayCqAuthImplLoginSelectorHandlerInfo.serviceLocation);
+    return Objects.equals(this.pid, comDayCqAuthImplLoginSelectorHandlerInfo.pid) &&
+        Objects.equals(this.title, comDayCqAuthImplLoginSelectorHandlerInfo.title) &&
+        Objects.equals(this.description, comDayCqAuthImplLoginSelectorHandlerInfo.description) &&
+        Objects.equals(this.properties, comDayCqAuthImplLoginSelectorHandlerInfo.properties) &&
+        Objects.equals(this.bundleLocation, comDayCqAuthImplLoginSelectorHandlerInfo.bundleLocation) &&
+        Objects.equals(this.serviceLocation, comDayCqAuthImplLoginSelectorHandlerInfo.serviceLocation);
   }
 
   @Override
@@ -163,11 +186,9 @@ public class ComDayCqAuthImplLoginSelectorHandlerInfo   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

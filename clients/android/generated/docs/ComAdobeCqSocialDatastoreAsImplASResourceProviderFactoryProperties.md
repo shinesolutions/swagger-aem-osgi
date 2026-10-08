@@ -1,7 +1,9 @@
 
+
 # ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **versionId** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
@@ -11,6 +13,7 @@ Name | Type | Description | Notes
 **cacheTtl** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
 **cacheSize** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
 **timeLimit** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
+
 
 
 

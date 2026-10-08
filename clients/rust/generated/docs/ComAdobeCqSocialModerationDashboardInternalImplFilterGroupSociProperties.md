@@ -1,10 +1,11 @@
 # ComAdobeCqSocialModerationDashboardInternalImplFilterGroupSociProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**resource_type_filters** | [***::models::ConfigNodePropertyArray**](configNodePropertyArray.md) |  | [optional] 
-**priority** | [***::models::ConfigNodePropertyInteger**](configNodePropertyInteger.md) |  | [optional] 
+**resource_type_filters** | Option<[**models::ConfigNodePropertyArray**](ConfigNodePropertyArray.md)> |  | [optional]
+**priority** | Option<[**models::ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md)> |  | [optional]
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

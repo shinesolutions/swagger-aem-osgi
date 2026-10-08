@@ -1,7 +1,9 @@
 
+
 # OrgApacheFelixScrScrServiceProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **dsLoglevel** | [**ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md) |  |  [optional]
@@ -10,6 +12,7 @@ Name | Type | Description | Notes
 **dsLockTimeoutMilliseconds** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
 **dsStopTimeoutMilliseconds** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
 **dsGlobalExtender** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
+
 
 
 

@@ -1,0 +1,48 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeGraniteRepositoryServiceUserConfigurationProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeGraniteRepositoryServiceUserConfigurationProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+}
+resourceTypes {
+
+  ComAdobeGraniteRepositoryServiceUserConfigurationProperties {
+    title = ComAdobeGraniteRepositoryServiceUserConfigurationProperties
+    description = ComAdobeGraniteRepositoryServiceUserConfigurationProperties
+    derivedFrom = Root
+    properties {
+        service_ranking {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        serviceusers_simple_subject_population {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        serviceusers_list {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeGraniteRepositoryServiceUserConfigurationProperties {
+    title = ComAdobeGraniteRepositoryServiceUserConfigurationProperties
+    description = ComAdobeGraniteRepositoryServiceUserConfigurationProperties
+    implements = openapi_server.resourceTypes.ComAdobeGraniteRepositoryServiceUserConfigurationProperties
+
+  }
+}

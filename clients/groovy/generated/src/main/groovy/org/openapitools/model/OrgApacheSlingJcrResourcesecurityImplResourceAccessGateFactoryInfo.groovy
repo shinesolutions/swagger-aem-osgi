@@ -7,12 +7,12 @@ import org.openapitools.model.OrgApacheSlingJcrResourcesecurityImplResourceAcces
 
 @Canonical
 class OrgApacheSlingJcrResourcesecurityImplResourceAccessGateFactoryInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheSlingJcrResourcesecurityImplResourceAccessGateFactoryProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheSlingJcrResourcesecurityImplResourceAccessGateFactoryProperties properties
 }

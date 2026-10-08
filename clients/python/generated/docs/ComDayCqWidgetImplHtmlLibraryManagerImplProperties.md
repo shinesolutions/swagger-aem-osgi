@@ -1,6 +1,8 @@
 # ComDayCqWidgetImplHtmlLibraryManagerImplProperties
 
+
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **htmllibmanager_clientmanager** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
@@ -18,6 +20,23 @@ Name | Type | Description | Notes
 **htmllibmanager_path_list** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 
 **htmllibmanager_timing** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] 
 
+## Example
+
+```python
+from swaggeraemosgi.models.com_day_cq_widget_impl_html_library_manager_impl_properties import ComDayCqWidgetImplHtmlLibraryManagerImplProperties
+
+# TODO update the JSON string below
+json = "{}"
+# create an instance of ComDayCqWidgetImplHtmlLibraryManagerImplProperties from a JSON string
+com_day_cq_widget_impl_html_library_manager_impl_properties_instance = ComDayCqWidgetImplHtmlLibraryManagerImplProperties.from_json(json)
+# print the JSON string representation of the object
+print(ComDayCqWidgetImplHtmlLibraryManagerImplProperties.to_json())
+
+# convert the object into a dict
+com_day_cq_widget_impl_html_library_manager_impl_properties_dict = com_day_cq_widget_impl_html_library_manager_impl_properties_instance.to_dict()
+# create an instance of ComDayCqWidgetImplHtmlLibraryManagerImplProperties from a dict
+com_day_cq_widget_impl_html_library_manager_impl_properties_from_dict = ComDayCqWidgetImplHtmlLibraryManagerImplProperties.from_dict(com_day_cq_widget_impl_html_library_manager_impl_properties_dict)
+```
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 
 

@@ -1,44 +1,55 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraProperties   {
-  @JsonProperty("tokenExpiration")
-  private ConfigNodePropertyString tokenExpiration = null;
+@JsonTypeName("orgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraProperties {
 
-  @JsonProperty("tokenLength")
-  private ConfigNodePropertyString tokenLength = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString tokenExpiration;
 
-  @JsonProperty("tokenRefresh")
-  private ConfigNodePropertyBoolean tokenRefresh = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString tokenLength;
 
-  @JsonProperty("tokenCleanupThreshold")
-  private ConfigNodePropertyInteger tokenCleanupThreshold = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean tokenRefresh;
 
-  @JsonProperty("passwordHashAlgorithm")
-  private ConfigNodePropertyString passwordHashAlgorithm = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger tokenCleanupThreshold;
 
-  @JsonProperty("passwordHashIterations")
-  private ConfigNodePropertyInteger passwordHashIterations = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString passwordHashAlgorithm;
 
-  @JsonProperty("passwordSaltSize")
-  private ConfigNodePropertyInteger passwordSaltSize = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger passwordHashIterations;
 
-  public OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraProperties tokenExpiration(ConfigNodePropertyString tokenExpiration) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger passwordSaltSize;
+
+  public OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraProperties tokenExpiration(@Nullable ConfigNodePropertyString tokenExpiration) {
     this.tokenExpiration = tokenExpiration;
     return this;
   }
@@ -46,20 +57,20 @@ public class OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraProp
   /**
    * Get tokenExpiration
    * @return tokenExpiration
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getTokenExpiration() {
+   */
+  @Valid 
+  @Schema(name = "tokenExpiration", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("tokenExpiration")
+  public @Nullable ConfigNodePropertyString getTokenExpiration() {
     return tokenExpiration;
   }
 
-  public void setTokenExpiration(ConfigNodePropertyString tokenExpiration) {
+  @JsonProperty("tokenExpiration")
+  public void setTokenExpiration(@Nullable ConfigNodePropertyString tokenExpiration) {
     this.tokenExpiration = tokenExpiration;
   }
 
-  public OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraProperties tokenLength(ConfigNodePropertyString tokenLength) {
+  public OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraProperties tokenLength(@Nullable ConfigNodePropertyString tokenLength) {
     this.tokenLength = tokenLength;
     return this;
   }
@@ -67,20 +78,20 @@ public class OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraProp
   /**
    * Get tokenLength
    * @return tokenLength
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getTokenLength() {
+   */
+  @Valid 
+  @Schema(name = "tokenLength", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("tokenLength")
+  public @Nullable ConfigNodePropertyString getTokenLength() {
     return tokenLength;
   }
 
-  public void setTokenLength(ConfigNodePropertyString tokenLength) {
+  @JsonProperty("tokenLength")
+  public void setTokenLength(@Nullable ConfigNodePropertyString tokenLength) {
     this.tokenLength = tokenLength;
   }
 
-  public OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraProperties tokenRefresh(ConfigNodePropertyBoolean tokenRefresh) {
+  public OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraProperties tokenRefresh(@Nullable ConfigNodePropertyBoolean tokenRefresh) {
     this.tokenRefresh = tokenRefresh;
     return this;
   }
@@ -88,20 +99,20 @@ public class OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraProp
   /**
    * Get tokenRefresh
    * @return tokenRefresh
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getTokenRefresh() {
+   */
+  @Valid 
+  @Schema(name = "tokenRefresh", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("tokenRefresh")
+  public @Nullable ConfigNodePropertyBoolean getTokenRefresh() {
     return tokenRefresh;
   }
 
-  public void setTokenRefresh(ConfigNodePropertyBoolean tokenRefresh) {
+  @JsonProperty("tokenRefresh")
+  public void setTokenRefresh(@Nullable ConfigNodePropertyBoolean tokenRefresh) {
     this.tokenRefresh = tokenRefresh;
   }
 
-  public OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraProperties tokenCleanupThreshold(ConfigNodePropertyInteger tokenCleanupThreshold) {
+  public OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraProperties tokenCleanupThreshold(@Nullable ConfigNodePropertyInteger tokenCleanupThreshold) {
     this.tokenCleanupThreshold = tokenCleanupThreshold;
     return this;
   }
@@ -109,20 +120,20 @@ public class OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraProp
   /**
    * Get tokenCleanupThreshold
    * @return tokenCleanupThreshold
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getTokenCleanupThreshold() {
+   */
+  @Valid 
+  @Schema(name = "tokenCleanupThreshold", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("tokenCleanupThreshold")
+  public @Nullable ConfigNodePropertyInteger getTokenCleanupThreshold() {
     return tokenCleanupThreshold;
   }
 
-  public void setTokenCleanupThreshold(ConfigNodePropertyInteger tokenCleanupThreshold) {
+  @JsonProperty("tokenCleanupThreshold")
+  public void setTokenCleanupThreshold(@Nullable ConfigNodePropertyInteger tokenCleanupThreshold) {
     this.tokenCleanupThreshold = tokenCleanupThreshold;
   }
 
-  public OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraProperties passwordHashAlgorithm(ConfigNodePropertyString passwordHashAlgorithm) {
+  public OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraProperties passwordHashAlgorithm(@Nullable ConfigNodePropertyString passwordHashAlgorithm) {
     this.passwordHashAlgorithm = passwordHashAlgorithm;
     return this;
   }
@@ -130,20 +141,20 @@ public class OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraProp
   /**
    * Get passwordHashAlgorithm
    * @return passwordHashAlgorithm
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getPasswordHashAlgorithm() {
+   */
+  @Valid 
+  @Schema(name = "passwordHashAlgorithm", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("passwordHashAlgorithm")
+  public @Nullable ConfigNodePropertyString getPasswordHashAlgorithm() {
     return passwordHashAlgorithm;
   }
 
-  public void setPasswordHashAlgorithm(ConfigNodePropertyString passwordHashAlgorithm) {
+  @JsonProperty("passwordHashAlgorithm")
+  public void setPasswordHashAlgorithm(@Nullable ConfigNodePropertyString passwordHashAlgorithm) {
     this.passwordHashAlgorithm = passwordHashAlgorithm;
   }
 
-  public OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraProperties passwordHashIterations(ConfigNodePropertyInteger passwordHashIterations) {
+  public OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraProperties passwordHashIterations(@Nullable ConfigNodePropertyInteger passwordHashIterations) {
     this.passwordHashIterations = passwordHashIterations;
     return this;
   }
@@ -151,20 +162,20 @@ public class OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraProp
   /**
    * Get passwordHashIterations
    * @return passwordHashIterations
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getPasswordHashIterations() {
+   */
+  @Valid 
+  @Schema(name = "passwordHashIterations", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("passwordHashIterations")
+  public @Nullable ConfigNodePropertyInteger getPasswordHashIterations() {
     return passwordHashIterations;
   }
 
-  public void setPasswordHashIterations(ConfigNodePropertyInteger passwordHashIterations) {
+  @JsonProperty("passwordHashIterations")
+  public void setPasswordHashIterations(@Nullable ConfigNodePropertyInteger passwordHashIterations) {
     this.passwordHashIterations = passwordHashIterations;
   }
 
-  public OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraProperties passwordSaltSize(ConfigNodePropertyInteger passwordSaltSize) {
+  public OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraProperties passwordSaltSize(@Nullable ConfigNodePropertyInteger passwordSaltSize) {
     this.passwordSaltSize = passwordSaltSize;
     return this;
   }
@@ -172,22 +183,21 @@ public class OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraProp
   /**
    * Get passwordSaltSize
    * @return passwordSaltSize
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getPasswordSaltSize() {
+   */
+  @Valid 
+  @Schema(name = "passwordSaltSize", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("passwordSaltSize")
+  public @Nullable ConfigNodePropertyInteger getPasswordSaltSize() {
     return passwordSaltSize;
   }
 
-  public void setPasswordSaltSize(ConfigNodePropertyInteger passwordSaltSize) {
+  @JsonProperty("passwordSaltSize")
+  public void setPasswordSaltSize(@Nullable ConfigNodePropertyInteger passwordSaltSize) {
     this.passwordSaltSize = passwordSaltSize;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -213,7 +223,6 @@ public class OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraProp
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraProperties {\n");
-    
     sb.append("    tokenExpiration: ").append(toIndentedString(tokenExpiration)).append("\n");
     sb.append("    tokenLength: ").append(toIndentedString(tokenLength)).append("\n");
     sb.append("    tokenRefresh: ").append(toIndentedString(tokenRefresh)).append("\n");
@@ -229,11 +238,8 @@ public class OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraProp
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

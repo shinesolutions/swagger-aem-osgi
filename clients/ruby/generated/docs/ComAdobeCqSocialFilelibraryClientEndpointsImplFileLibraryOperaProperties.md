@@ -2,18 +2,19 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**field_whitelist** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 
-**attachment_type_blacklist** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **field_whitelist** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] |
+| **attachment_type_blacklist** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperaProperties.new(field_whitelist: null,
-                                 attachment_type_blacklist: null)
+instance = SwaggerAemOsgiClient::ComAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperaProperties.new(
+  field_whitelist: null,
+  attachment_type_blacklist: null
+)
 ```
-
 

@@ -72,8 +72,8 @@ private class OASOrgApacheSlingResourcemergerPickeTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASOrgApacheSlingResourcemergerPicke orgApacheSlingResourcemergerPickerOverridingProperties = new OASOrgApacheSlingResourcemergerPicke();
-        Map<String, String> propertyMappings = orgApacheSlingResourcemergerPickerOverridingProperties.getPropertyMappings();
-        System.assertEquals('mergeRoot', propertyMappings.get('merge.root'));
-        System.assertEquals('mergeReadOnly', propertyMappings.get('merge.readOnly'));
+        Map<String, String> x-property-mappings = orgApacheSlingResourcemergerPickerOverridingProperties.getx-property-mappings();
+        System.assertEquals('mergeRoot', x-property-mappings.get('merge.root'));
+        System.assertEquals('mergeReadOnly', x-property-mappings.get('merge.readOnly'));
     }
 }

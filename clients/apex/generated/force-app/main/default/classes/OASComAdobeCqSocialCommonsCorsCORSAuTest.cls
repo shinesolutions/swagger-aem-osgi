@@ -72,7 +72,7 @@ private class OASComAdobeCqSocialCommonsCorsCORSAuTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeCqSocialCommonsCorsCORSAu comAdobeCqSocialCommonsCorsCORSAuthenticationFilterProperties = new OASComAdobeCqSocialCommonsCorsCORSAu();
-        Map<String, String> propertyMappings = comAdobeCqSocialCommonsCorsCORSAuthenticationFilterProperties.getPropertyMappings();
-        System.assertEquals('corsEnabling', propertyMappings.get('cors.enabling'));
+        Map<String, String> x-property-mappings = comAdobeCqSocialCommonsCorsCORSAuthenticationFilterProperties.getx-property-mappings();
+        System.assertEquals('corsEnabling', x-property-mappings.get('cors.enabling'));
     }
 }

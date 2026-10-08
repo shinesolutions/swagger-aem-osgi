@@ -72,7 +72,7 @@ private class OASComDayCqAnalyticsImplStorePropertTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqAnalyticsImplStorePropert comDayCqAnalyticsImplStorePropertiesChangeListenerProperties = new OASComDayCqAnalyticsImplStorePropert();
-        Map<String, String> propertyMappings = comDayCqAnalyticsImplStorePropertiesChangeListenerProperties.getPropertyMappings();
-        System.assertEquals('cqStoreListenerAdditionalStorePaths', propertyMappings.get('cq.store.listener.additionalStorePaths'));
+        Map<String, String> x-property-mappings = comDayCqAnalyticsImplStorePropertiesChangeListenerProperties.getx-property-mappings();
+        System.assertEquals('cqStoreListenerAdditionalStorePaths', x-property-mappings.get('cq.store.listener.additionalStorePaths'));
     }
 }

@@ -7,16 +7,16 @@ import org.openapitools.model.ComAdobeCqHistoryImplHistoryRequestFilterPropertie
 
 @Canonical
 class ComAdobeCqHistoryImplHistoryRequestFilterInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqHistoryImplHistoryRequestFilterProperties properties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqHistoryImplHistoryRequestFilterProperties properties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

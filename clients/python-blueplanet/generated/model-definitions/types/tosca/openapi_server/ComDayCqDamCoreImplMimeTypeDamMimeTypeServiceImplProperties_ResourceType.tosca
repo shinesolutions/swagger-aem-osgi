@@ -1,0 +1,36 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqDamCoreImplMimeTypeDamMimeTypeServiceImplProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqDamCoreImplMimeTypeDamMimeTypeServiceImplProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+}
+resourceTypes {
+
+  ComDayCqDamCoreImplMimeTypeDamMimeTypeServiceImplProperties {
+    title = ComDayCqDamCoreImplMimeTypeDamMimeTypeServiceImplProperties
+    description = ComDayCqDamCoreImplMimeTypeDamMimeTypeServiceImplProperties
+    derivedFrom = Root
+    properties {
+        cq_dam_detect_asset_mime_from_content {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqDamCoreImplMimeTypeDamMimeTypeServiceImplProperties {
+    title = ComDayCqDamCoreImplMimeTypeDamMimeTypeServiceImplProperties
+    description = ComDayCqDamCoreImplMimeTypeDamMimeTypeServiceImplProperties
+    implements = openapi_server.resourceTypes.ComDayCqDamCoreImplMimeTypeDamMimeTypeServiceImplProperties
+
+  }
+}

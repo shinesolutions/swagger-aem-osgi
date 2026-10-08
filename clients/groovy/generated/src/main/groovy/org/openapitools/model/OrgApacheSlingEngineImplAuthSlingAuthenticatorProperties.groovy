@@ -10,26 +10,26 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties {
-    ConfigNodePropertyString osgiHttpWhiteboardContextSelect = null
-
-    ConfigNodePropertyString osgiHttpWhiteboardListener = null
-
-    ConfigNodePropertyString authSudoCookie = null
-
-    ConfigNodePropertyString authSudoParameter = null
-
-    ConfigNodePropertyBoolean authAnnonymous = null
-
-    ConfigNodePropertyArray slingAuthRequirements = null
-
-    ConfigNodePropertyString slingAuthAnonymousUser = null
-
-    ConfigNodePropertyString slingAuthAnonymousPassword = null
-
-    ConfigNodePropertyDropDown authHttp = null
-
-    ConfigNodePropertyString authHttpRealm = null
-
-    ConfigNodePropertyArray authUriSuffix = null
-
+    
+    ConfigNodePropertyString osgiHttpWhiteboardContextSelect
+    
+    ConfigNodePropertyString osgiHttpWhiteboardListener
+    
+    ConfigNodePropertyString authSudoCookie
+    
+    ConfigNodePropertyString authSudoParameter
+    
+    ConfigNodePropertyBoolean authAnnonymous
+    
+    ConfigNodePropertyArray slingAuthRequirements
+    
+    ConfigNodePropertyString slingAuthAnonymousUser
+    
+    ConfigNodePropertyString slingAuthAnonymousPassword
+    
+    ConfigNodePropertyDropDown authHttp
+    
+    ConfigNodePropertyString authHttpRealm
+    
+    ConfigNodePropertyArray authUriSuffix
 }

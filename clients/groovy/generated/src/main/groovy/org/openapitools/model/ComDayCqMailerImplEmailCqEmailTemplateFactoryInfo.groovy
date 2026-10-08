@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqMailerImplEmailCqEmailTemplateFactoryPrope
 
 @Canonical
 class ComDayCqMailerImplEmailCqEmailTemplateFactoryInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqMailerImplEmailCqEmailTemplateFactoryProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqMailerImplEmailCqEmailTemplateFactoryProperties properties
 }

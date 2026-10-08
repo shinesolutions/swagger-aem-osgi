@@ -1,0 +1,22 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "enable_multisession" },
+      {"model": "ids_cc_enable" },
+      {"model": "enable_retry" },
+      {"model": "enable_retry_scripterror" },
+      {"model": "externalizer_domain_cqhost" },
+      {"model": "externalizer_domain_http" },
+    ]
+  }]
+}

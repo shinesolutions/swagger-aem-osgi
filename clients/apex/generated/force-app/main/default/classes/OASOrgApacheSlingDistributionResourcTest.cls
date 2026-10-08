@@ -72,7 +72,7 @@ private class OASOrgApacheSlingDistributionResourcTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASOrgApacheSlingDistributionResourc orgApacheSlingDistributionResourcesImplDistributionServiceResourProperties = new OASOrgApacheSlingDistributionResourc();
-        Map<String, String> propertyMappings = orgApacheSlingDistributionResourcesImplDistributionServiceResourProperties.getPropertyMappings();
-        System.assertEquals('providerRoots', propertyMappings.get('provider.roots'));
+        Map<String, String> x-property-mappings = orgApacheSlingDistributionResourcesImplDistributionServiceResourProperties.getx-property-mappings();
+        System.assertEquals('providerRoots', x-property-mappings.get('provider.roots'));
     }
 }

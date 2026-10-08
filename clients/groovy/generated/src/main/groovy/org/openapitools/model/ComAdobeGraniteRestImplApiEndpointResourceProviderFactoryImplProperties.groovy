@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeGraniteRestImplApiEndpointResourceProviderFactoryImplProperties {
-    ConfigNodePropertyString providerRoots = null
-
+    
+    ConfigNodePropertyString providerRoots
 }

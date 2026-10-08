@@ -1,0 +1,15 @@
+{
+  "namespace": "model",
+  "type": "record",
+  "doc": "",
+  "name": "ComAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImProperties",
+  "fields": [
+    {
+      "name": "cq.social.console.analytics.components",
+      "type": ["null", "model.ConfigNodePropertyArray"],
+      "doc": "",
+      "default": null
+    }
+  ]
+
+}

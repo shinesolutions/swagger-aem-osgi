@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqWcmScriptingImplBVPManagerProperties;
 
 @Canonical
 class ComDayCqWcmScriptingImplBVPManagerInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqWcmScriptingImplBVPManagerProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqWcmScriptingImplBVPManagerProperties properties
 }

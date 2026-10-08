@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqCompatCodeupgradeImplVersionRangeTaskIgnorelistInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqCompatCodeupgradeImplVersionRangeTaskIgnorelistInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComDayCqCompatCodeupgradeImplVersionRangeTaskIgnorelistProperties = openapi_server.resourceTypes.ComDayCqCompatCodeupgradeImplVersionRangeTaskIgnorelistProperties
+}
+resourceTypes {
+
+  ComDayCqCompatCodeupgradeImplVersionRangeTaskIgnorelistInfo {
+    title = ComDayCqCompatCodeupgradeImplVersionRangeTaskIgnorelistInfo
+    description = ComDayCqCompatCodeupgradeImplVersionRangeTaskIgnorelistInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComDayCqCompatCodeupgradeImplVersionRangeTaskIgnorelistProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqCompatCodeupgradeImplVersionRangeTaskIgnorelistInfo {
+    title = ComDayCqCompatCodeupgradeImplVersionRangeTaskIgnorelistInfo
+    description = ComDayCqCompatCodeupgradeImplVersionRangeTaskIgnorelistInfo
+    implements = openapi_server.resourceTypes.ComDayCqCompatCodeupgradeImplVersionRangeTaskIgnorelistInfo
+
+  }
+}

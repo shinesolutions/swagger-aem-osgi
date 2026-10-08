@@ -7,10 +7,10 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeFormsCommonServletTempCleanUpTaskProperties {
-    ConfigNodePropertyString schedulerExpression = null
-
-    ConfigNodePropertyString durationForTemporaryStorage = null
-
-    ConfigNodePropertyString durationForAnonymousStorage = null
-
+    
+    ConfigNodePropertyString schedulerExpression
+    
+    ConfigNodePropertyString durationForTemporaryStorage
+    
+    ConfigNodePropertyString durationForAnonymousStorage
 }

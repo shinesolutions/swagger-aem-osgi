@@ -1,0 +1,66 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+}
+resourceTypes {
+
+  ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplProperties {
+    title = ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplProperties
+    description = ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplProperties
+    derivedFrom = Root
+    properties {
+        cq_dam_s7dam_videoproxyclientservice_multipartupload_minsize_name {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        cq_dam_s7dam_videoproxyclientservice_multipartupload_partsize_name {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        cq_dam_s7dam_videoproxyclientservice_multipartupload_numthread_name {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        cq_dam_s7dam_videoproxyclientservice_http_readtimeout_name {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        cq_dam_s7dam_videoproxyclientservice_http_connectiontimeout_name {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        cq_dam_s7dam_videoproxyclientservice_http_maxretrycount_name {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        cq_dam_s7dam_videoproxyclientservice_uploadprogress_interval_name {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplProperties {
+    title = ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplProperties
+    description = ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplProperties
+    implements = openapi_server.resourceTypes.ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplProperties
+
+  }
+}

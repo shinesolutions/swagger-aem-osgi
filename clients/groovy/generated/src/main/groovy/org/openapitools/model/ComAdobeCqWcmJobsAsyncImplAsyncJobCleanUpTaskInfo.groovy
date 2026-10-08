@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqWcmJobsAsyncImplAsyncJobCleanUpTaskPrope
 
 @Canonical
 class ComAdobeCqWcmJobsAsyncImplAsyncJobCleanUpTaskInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqWcmJobsAsyncImplAsyncJobCleanUpTaskProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqWcmJobsAsyncImplAsyncJobCleanUpTaskProperties properties
 }

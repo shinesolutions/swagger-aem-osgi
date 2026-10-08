@@ -8,8 +8,8 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeGraniteAuthCertImplClientCertAuthHandlerProperties {
-    ConfigNodePropertyString path = null
-
-    ConfigNodePropertyInteger serviceRanking = null
-
+    
+    ConfigNodePropertyString path
+    
+    ConfigNodePropertyInteger serviceRanking
 }

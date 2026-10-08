@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqDamCoreImplServletHealthCheckServletProper
 
 @Canonical
 class ComDayCqDamCoreImplServletHealthCheckServletInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqDamCoreImplServletHealthCheckServletProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqDamCoreImplServletHealthCheckServletProperties properties
 }

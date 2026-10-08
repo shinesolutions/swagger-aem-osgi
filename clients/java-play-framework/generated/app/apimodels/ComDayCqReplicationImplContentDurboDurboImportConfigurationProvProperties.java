@@ -3,44 +3,63 @@ package apimodels;
 import apimodels.ConfigNodePropertyArray;
 import apimodels.ConfigNodePropertyBoolean;
 import apimodels.ConfigNodePropertyInteger;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * ComDayCqReplicationImplContentDurboDurboImportConfigurationProvProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class ComDayCqReplicationImplContentDurboDurboImportConfigurationProvProperties   {
   @JsonProperty("preserve.hierarchy.nodes")
-  private ConfigNodePropertyBoolean preserveHierarchyNodes = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean preserveHierarchyNodes;
 
   @JsonProperty("ignore.versioning")
-  private ConfigNodePropertyBoolean ignoreVersioning = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean ignoreVersioning;
 
   @JsonProperty("import.acl")
-  private ConfigNodePropertyBoolean importAcl = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean importAcl;
 
   @JsonProperty("save.threshold")
-  private ConfigNodePropertyInteger saveThreshold = null;
+  @Valid
+
+  private ConfigNodePropertyInteger saveThreshold;
 
   @JsonProperty("preserve.user.paths")
-  private ConfigNodePropertyBoolean preserveUserPaths = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean preserveUserPaths;
 
   @JsonProperty("preserve.uuid")
-  private ConfigNodePropertyBoolean preserveUuid = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean preserveUuid;
 
   @JsonProperty("preserve.uuid.nodetypes")
-  private ConfigNodePropertyArray preserveUuidNodetypes = null;
+  @Valid
+
+  private ConfigNodePropertyArray preserveUuidNodetypes;
 
   @JsonProperty("preserve.uuid.subtrees")
-  private ConfigNodePropertyArray preserveUuidSubtrees = null;
+  @Valid
+
+  private ConfigNodePropertyArray preserveUuidSubtrees;
 
   @JsonProperty("auto.commit")
-  private ConfigNodePropertyBoolean autoCommit = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean autoCommit;
 
   public ComDayCqReplicationImplContentDurboDurboImportConfigurationProvProperties preserveHierarchyNodes(ConfigNodePropertyBoolean preserveHierarchyNodes) {
     this.preserveHierarchyNodes = preserveHierarchyNodes;
@@ -51,7 +70,6 @@ public class ComDayCqReplicationImplContentDurboDurboImportConfigurationProvProp
    * Get preserveHierarchyNodes
    * @return preserveHierarchyNodes
   **/
-  @Valid
   public ConfigNodePropertyBoolean getPreserveHierarchyNodes() {
     return preserveHierarchyNodes;
   }
@@ -69,7 +87,6 @@ public class ComDayCqReplicationImplContentDurboDurboImportConfigurationProvProp
    * Get ignoreVersioning
    * @return ignoreVersioning
   **/
-  @Valid
   public ConfigNodePropertyBoolean getIgnoreVersioning() {
     return ignoreVersioning;
   }
@@ -87,7 +104,6 @@ public class ComDayCqReplicationImplContentDurboDurboImportConfigurationProvProp
    * Get importAcl
    * @return importAcl
   **/
-  @Valid
   public ConfigNodePropertyBoolean getImportAcl() {
     return importAcl;
   }
@@ -105,7 +121,6 @@ public class ComDayCqReplicationImplContentDurboDurboImportConfigurationProvProp
    * Get saveThreshold
    * @return saveThreshold
   **/
-  @Valid
   public ConfigNodePropertyInteger getSaveThreshold() {
     return saveThreshold;
   }
@@ -123,7 +138,6 @@ public class ComDayCqReplicationImplContentDurboDurboImportConfigurationProvProp
    * Get preserveUserPaths
    * @return preserveUserPaths
   **/
-  @Valid
   public ConfigNodePropertyBoolean getPreserveUserPaths() {
     return preserveUserPaths;
   }
@@ -141,7 +155,6 @@ public class ComDayCqReplicationImplContentDurboDurboImportConfigurationProvProp
    * Get preserveUuid
    * @return preserveUuid
   **/
-  @Valid
   public ConfigNodePropertyBoolean getPreserveUuid() {
     return preserveUuid;
   }
@@ -159,7 +172,6 @@ public class ComDayCqReplicationImplContentDurboDurboImportConfigurationProvProp
    * Get preserveUuidNodetypes
    * @return preserveUuidNodetypes
   **/
-  @Valid
   public ConfigNodePropertyArray getPreserveUuidNodetypes() {
     return preserveUuidNodetypes;
   }
@@ -177,7 +189,6 @@ public class ComDayCqReplicationImplContentDurboDurboImportConfigurationProvProp
    * Get preserveUuidSubtrees
    * @return preserveUuidSubtrees
   **/
-  @Valid
   public ConfigNodePropertyArray getPreserveUuidSubtrees() {
     return preserveUuidSubtrees;
   }
@@ -195,7 +206,6 @@ public class ComDayCqReplicationImplContentDurboDurboImportConfigurationProvProp
    * Get autoCommit
    * @return autoCommit
   **/
-  @Valid
   public ConfigNodePropertyBoolean getAutoCommit() {
     return autoCommit;
   }
@@ -206,7 +216,7 @@ public class ComDayCqReplicationImplContentDurboDurboImportConfigurationProvProp
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -253,11 +263,8 @@ public class ComDayCqReplicationImplContentDurboDurboImportConfigurationProvProp
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

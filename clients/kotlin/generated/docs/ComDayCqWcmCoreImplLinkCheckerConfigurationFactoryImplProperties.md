@@ -2,18 +2,18 @@
 # ComDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**linkPeriodexpiredPeriodprefix** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**linkPeriodexpiredPeriodremove** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**linkPeriodexpiredPeriodsuffix** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**linkPeriodinvalidPeriodprefix** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**linkPeriodinvalidPeriodremove** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**linkPeriodinvalidPeriodsuffix** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**linkPeriodpredatedPeriodprefix** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**linkPeriodpredatedPeriodremove** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**linkPeriodpredatedPeriodsuffix** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**linkPeriodwcmmodes** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **linkExpiredPrefix** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **linkExpiredRemove** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **linkExpiredSuffix** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **linkInvalidPrefix** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **linkInvalidRemove** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **linkInvalidSuffix** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **linkPredatedPrefix** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **linkPredatedRemove** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **linkPredatedSuffix** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **linkWcmmodes** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
 
 
 

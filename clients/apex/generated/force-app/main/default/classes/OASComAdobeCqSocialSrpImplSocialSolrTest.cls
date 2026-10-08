@@ -72,7 +72,7 @@ private class OASComAdobeCqSocialSrpImplSocialSolrTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeCqSocialSrpImplSocialSolr comAdobeCqSocialSrpImplSocialSolrConnectorProperties = new OASComAdobeCqSocialSrpImplSocialSolr();
-        Map<String, String> propertyMappings = comAdobeCqSocialSrpImplSocialSolrConnectorProperties.getPropertyMappings();
-        System.assertEquals('srpType', propertyMappings.get('srp.type'));
+        Map<String, String> x-property-mappings = comAdobeCqSocialSrpImplSocialSolrConnectorProperties.getx-property-mappings();
+        System.assertEquals('srpType', x-property-mappings.get('srp.type'));
     }
 }

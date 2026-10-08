@@ -1,7 +1,9 @@
 
+
 # OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **disabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
@@ -20,6 +22,7 @@ Name | Type | Description | Notes
 **deletedBlobsCollectionEnabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
 **propIndexCleanerIntervalInSecs** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
 **enableSingleBlobIndexFiles** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
+
 
 
 

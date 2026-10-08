@@ -3,6 +3,7 @@ package org.openapitools.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
@@ -15,49 +16,49 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaInflectorServerCodegen", date = "2019-08-05T00:53:46.291Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaInflectorServerCodegen", date = "2026-10-07T12:53:12.340274163Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties   {
   @JsonProperty("name")
-  private ConfigNodePropertyString name = null;
+  private ConfigNodePropertyString name;
 
   @JsonProperty("title")
-  private ConfigNodePropertyString title = null;
+  private ConfigNodePropertyString title;
 
   @JsonProperty("details")
-  private ConfigNodePropertyString details = null;
+  private ConfigNodePropertyString details;
 
   @JsonProperty("enabled")
-  private ConfigNodePropertyBoolean enabled = null;
+  private ConfigNodePropertyBoolean enabled;
 
   @JsonProperty("serviceName")
-  private ConfigNodePropertyString serviceName = null;
+  private ConfigNodePropertyString serviceName;
 
   @JsonProperty("log.level")
-  private ConfigNodePropertyDropDown logLevel = null;
+  private ConfigNodePropertyDropDown logLevel;
 
   @JsonProperty("queue.processing.enabled")
-  private ConfigNodePropertyBoolean queueProcessingEnabled = null;
+  private ConfigNodePropertyBoolean queueProcessingEnabled;
 
   @JsonProperty("packageExporter.endpoints")
-  private ConfigNodePropertyArray packageExporterEndpoints = null;
+  private ConfigNodePropertyArray packageExporterEndpoints;
 
   @JsonProperty("pull.items")
-  private ConfigNodePropertyInteger pullItems = null;
+  private ConfigNodePropertyInteger pullItems;
 
   @JsonProperty("http.conn.timeout")
-  private ConfigNodePropertyInteger httpConnTimeout = null;
+  private ConfigNodePropertyInteger httpConnTimeout;
 
   @JsonProperty("requestAuthorizationStrategy.target")
-  private ConfigNodePropertyString requestAuthorizationStrategyTarget = null;
+  private ConfigNodePropertyString requestAuthorizationStrategyTarget;
 
   @JsonProperty("transportSecretProvider.target")
-  private ConfigNodePropertyString transportSecretProviderTarget = null;
+  private ConfigNodePropertyString transportSecretProviderTarget;
 
   @JsonProperty("packageBuilder.target")
-  private ConfigNodePropertyString packageBuilderTarget = null;
+  private ConfigNodePropertyString packageBuilderTarget;
 
   @JsonProperty("triggers.target")
-  private ConfigNodePropertyString triggersTarget = null;
+  private ConfigNodePropertyString triggersTarget;
 
   /**
    **/
@@ -299,7 +300,7 @@ public class OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoPro
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -355,11 +356,8 @@ public class OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoPro
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

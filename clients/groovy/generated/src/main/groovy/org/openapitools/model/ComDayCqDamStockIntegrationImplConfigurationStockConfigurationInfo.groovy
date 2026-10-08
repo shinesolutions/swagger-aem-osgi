@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqDamStockIntegrationImplConfigurationStockC
 
 @Canonical
 class ComDayCqDamStockIntegrationImplConfigurationStockConfigurationInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqDamStockIntegrationImplConfigurationStockConfigurationProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqDamStockIntegrationImplConfigurationStockConfigurationProperties properties
 }

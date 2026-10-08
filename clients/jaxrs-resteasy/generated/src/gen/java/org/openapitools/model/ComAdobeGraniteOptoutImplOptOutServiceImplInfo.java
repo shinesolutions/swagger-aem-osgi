@@ -4,20 +4,23 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ComAdobeGraniteOptoutImplOptOutServiceImplProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2019-08-05T00:59:30.156Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2026-10-07T12:54:21.614735164Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteOptoutImplOptOutServiceImplInfo   {
   
-  private String pid = null;
-  private String title = null;
-  private String description = null;
-  private ComAdobeGraniteOptoutImplOptOutServiceImplProperties properties = null;
-  private String bundleLocation = null;
-  private String serviceLocation = null;
+  private String pid;
+  private String title;
+  private String description;
+  private ComAdobeGraniteOptoutImplOptOutServiceImplProperties properties;
+  private String bundleLocation;
+  private String serviceLocation;
 
   /**
    **/
@@ -60,6 +63,7 @@ public class ComAdobeGraniteOptoutImplOptOutServiceImplInfo   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("properties")
+  @Valid
   public ComAdobeGraniteOptoutImplOptOutServiceImplProperties getProperties() {
     return properties;
   }
@@ -93,7 +97,7 @@ public class ComAdobeGraniteOptoutImplOptOutServiceImplInfo   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -101,12 +105,12 @@ public class ComAdobeGraniteOptoutImplOptOutServiceImplInfo   {
       return false;
     }
     ComAdobeGraniteOptoutImplOptOutServiceImplInfo comAdobeGraniteOptoutImplOptOutServiceImplInfo = (ComAdobeGraniteOptoutImplOptOutServiceImplInfo) o;
-    return Objects.equals(pid, comAdobeGraniteOptoutImplOptOutServiceImplInfo.pid) &&
-        Objects.equals(title, comAdobeGraniteOptoutImplOptOutServiceImplInfo.title) &&
-        Objects.equals(description, comAdobeGraniteOptoutImplOptOutServiceImplInfo.description) &&
-        Objects.equals(properties, comAdobeGraniteOptoutImplOptOutServiceImplInfo.properties) &&
-        Objects.equals(bundleLocation, comAdobeGraniteOptoutImplOptOutServiceImplInfo.bundleLocation) &&
-        Objects.equals(serviceLocation, comAdobeGraniteOptoutImplOptOutServiceImplInfo.serviceLocation);
+    return Objects.equals(this.pid, comAdobeGraniteOptoutImplOptOutServiceImplInfo.pid) &&
+        Objects.equals(this.title, comAdobeGraniteOptoutImplOptOutServiceImplInfo.title) &&
+        Objects.equals(this.description, comAdobeGraniteOptoutImplOptOutServiceImplInfo.description) &&
+        Objects.equals(this.properties, comAdobeGraniteOptoutImplOptOutServiceImplInfo.properties) &&
+        Objects.equals(this.bundleLocation, comAdobeGraniteOptoutImplOptOutServiceImplInfo.bundleLocation) &&
+        Objects.equals(this.serviceLocation, comAdobeGraniteOptoutImplOptOutServiceImplInfo.serviceLocation);
   }
 
   @Override
@@ -133,11 +137,8 @@ public class ComAdobeGraniteOptoutImplOptOutServiceImplInfo   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

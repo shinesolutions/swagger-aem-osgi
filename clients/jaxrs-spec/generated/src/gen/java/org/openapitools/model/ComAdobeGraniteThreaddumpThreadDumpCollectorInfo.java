@@ -1,21 +1,32 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ComAdobeGraniteThreaddumpThreadDumpCollectorProperties;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comAdobeGraniteThreaddumpThreadDumpCollectorInfo")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteThreaddumpThreadDumpCollectorInfo   {
-  
-  private @Valid String pid = null;
-  private @Valid String title = null;
-  private @Valid String description = null;
-  private @Valid ComAdobeGraniteThreaddumpThreadDumpCollectorProperties properties = null;
+  private String pid;
+  private String title;
+  private String description;
+  private ComAdobeGraniteThreaddumpThreadDumpCollectorProperties properties;
+
+  public ComAdobeGraniteThreaddumpThreadDumpCollectorInfo() {
+  }
 
   /**
    **/
@@ -30,6 +41,8 @@ public class ComAdobeGraniteThreaddumpThreadDumpCollectorInfo   {
   public String getPid() {
     return pid;
   }
+
+  @JsonProperty("pid")
   public void setPid(String pid) {
     this.pid = pid;
   }
@@ -47,6 +60,8 @@ public class ComAdobeGraniteThreaddumpThreadDumpCollectorInfo   {
   public String getTitle() {
     return title;
   }
+
+  @JsonProperty("title")
   public void setTitle(String title) {
     this.title = title;
   }
@@ -64,6 +79,8 @@ public class ComAdobeGraniteThreaddumpThreadDumpCollectorInfo   {
   public String getDescription() {
     return description;
   }
+
+  @JsonProperty("description")
   public void setDescription(String description) {
     this.description = description;
   }
@@ -78,16 +95,18 @@ public class ComAdobeGraniteThreaddumpThreadDumpCollectorInfo   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("properties")
-  public ComAdobeGraniteThreaddumpThreadDumpCollectorProperties getProperties() {
+  @Valid public ComAdobeGraniteThreaddumpThreadDumpCollectorProperties getProperties() {
     return properties;
   }
+
+  @JsonProperty("properties")
   public void setProperties(ComAdobeGraniteThreaddumpThreadDumpCollectorProperties properties) {
     this.properties = properties;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -95,10 +114,10 @@ public class ComAdobeGraniteThreaddumpThreadDumpCollectorInfo   {
       return false;
     }
     ComAdobeGraniteThreaddumpThreadDumpCollectorInfo comAdobeGraniteThreaddumpThreadDumpCollectorInfo = (ComAdobeGraniteThreaddumpThreadDumpCollectorInfo) o;
-    return Objects.equals(pid, comAdobeGraniteThreaddumpThreadDumpCollectorInfo.pid) &&
-        Objects.equals(title, comAdobeGraniteThreaddumpThreadDumpCollectorInfo.title) &&
-        Objects.equals(description, comAdobeGraniteThreaddumpThreadDumpCollectorInfo.description) &&
-        Objects.equals(properties, comAdobeGraniteThreaddumpThreadDumpCollectorInfo.properties);
+    return Objects.equals(this.pid, comAdobeGraniteThreaddumpThreadDumpCollectorInfo.pid) &&
+        Objects.equals(this.title, comAdobeGraniteThreaddumpThreadDumpCollectorInfo.title) &&
+        Objects.equals(this.description, comAdobeGraniteThreaddumpThreadDumpCollectorInfo.description) &&
+        Objects.equals(this.properties, comAdobeGraniteThreaddumpThreadDumpCollectorInfo.properties);
   }
 
   @Override
@@ -123,11 +142,9 @@ public class ComAdobeGraniteThreaddumpThreadDumpCollectorInfo   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

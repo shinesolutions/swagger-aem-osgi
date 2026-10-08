@@ -1,21 +1,32 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comAdobeCqDtmReactorImplServiceWebServiceImplProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeCqDtmReactorImplServiceWebServiceImplProperties   {
-  
-  private @Valid ConfigNodePropertyString endpointUri = null;
-  private @Valid ConfigNodePropertyInteger connectionTimeout = null;
-  private @Valid ConfigNodePropertyInteger socketTimeout = null;
+  private ConfigNodePropertyString endpointUri;
+  private ConfigNodePropertyInteger connectionTimeout;
+  private ConfigNodePropertyInteger socketTimeout;
+
+  public ComAdobeCqDtmReactorImplServiceWebServiceImplProperties() {
+  }
 
   /**
    **/
@@ -27,9 +38,11 @@ public class ComAdobeCqDtmReactorImplServiceWebServiceImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("endpointUri")
-  public ConfigNodePropertyString getEndpointUri() {
+  @Valid public ConfigNodePropertyString getEndpointUri() {
     return endpointUri;
   }
+
+  @JsonProperty("endpointUri")
   public void setEndpointUri(ConfigNodePropertyString endpointUri) {
     this.endpointUri = endpointUri;
   }
@@ -44,9 +57,11 @@ public class ComAdobeCqDtmReactorImplServiceWebServiceImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("connectionTimeout")
-  public ConfigNodePropertyInteger getConnectionTimeout() {
+  @Valid public ConfigNodePropertyInteger getConnectionTimeout() {
     return connectionTimeout;
   }
+
+  @JsonProperty("connectionTimeout")
   public void setConnectionTimeout(ConfigNodePropertyInteger connectionTimeout) {
     this.connectionTimeout = connectionTimeout;
   }
@@ -61,16 +76,18 @@ public class ComAdobeCqDtmReactorImplServiceWebServiceImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("socketTimeout")
-  public ConfigNodePropertyInteger getSocketTimeout() {
+  @Valid public ConfigNodePropertyInteger getSocketTimeout() {
     return socketTimeout;
   }
+
+  @JsonProperty("socketTimeout")
   public void setSocketTimeout(ConfigNodePropertyInteger socketTimeout) {
     this.socketTimeout = socketTimeout;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -78,9 +95,9 @@ public class ComAdobeCqDtmReactorImplServiceWebServiceImplProperties   {
       return false;
     }
     ComAdobeCqDtmReactorImplServiceWebServiceImplProperties comAdobeCqDtmReactorImplServiceWebServiceImplProperties = (ComAdobeCqDtmReactorImplServiceWebServiceImplProperties) o;
-    return Objects.equals(endpointUri, comAdobeCqDtmReactorImplServiceWebServiceImplProperties.endpointUri) &&
-        Objects.equals(connectionTimeout, comAdobeCqDtmReactorImplServiceWebServiceImplProperties.connectionTimeout) &&
-        Objects.equals(socketTimeout, comAdobeCqDtmReactorImplServiceWebServiceImplProperties.socketTimeout);
+    return Objects.equals(this.endpointUri, comAdobeCqDtmReactorImplServiceWebServiceImplProperties.endpointUri) &&
+        Objects.equals(this.connectionTimeout, comAdobeCqDtmReactorImplServiceWebServiceImplProperties.connectionTimeout) &&
+        Objects.equals(this.socketTimeout, comAdobeCqDtmReactorImplServiceWebServiceImplProperties.socketTimeout);
   }
 
   @Override
@@ -104,11 +121,9 @@ public class ComAdobeCqDtmReactorImplServiceWebServiceImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

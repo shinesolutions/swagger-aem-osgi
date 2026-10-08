@@ -1,35 +1,46 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyDropDown;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableProperties   {
-  @JsonProperty("enabledActions")
-  private ConfigNodePropertyDropDown enabledActions = null;
+@JsonTypeName("orgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableProperties {
 
-  @JsonProperty("userPrivilegeNames")
-  private ConfigNodePropertyArray userPrivilegeNames = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyDropDown enabledActions;
 
-  @JsonProperty("groupPrivilegeNames")
-  private ConfigNodePropertyArray groupPrivilegeNames = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray userPrivilegeNames;
 
-  @JsonProperty("constraint")
-  private ConfigNodePropertyString constraint = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray groupPrivilegeNames;
 
-  public OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableProperties enabledActions(ConfigNodePropertyDropDown enabledActions) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString constraint;
+
+  public OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableProperties enabledActions(@Nullable ConfigNodePropertyDropDown enabledActions) {
     this.enabledActions = enabledActions;
     return this;
   }
@@ -37,20 +48,20 @@ public class OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizablePrope
   /**
    * Get enabledActions
    * @return enabledActions
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyDropDown getEnabledActions() {
+   */
+  @Valid 
+  @Schema(name = "enabledActions", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("enabledActions")
+  public @Nullable ConfigNodePropertyDropDown getEnabledActions() {
     return enabledActions;
   }
 
-  public void setEnabledActions(ConfigNodePropertyDropDown enabledActions) {
+  @JsonProperty("enabledActions")
+  public void setEnabledActions(@Nullable ConfigNodePropertyDropDown enabledActions) {
     this.enabledActions = enabledActions;
   }
 
-  public OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableProperties userPrivilegeNames(ConfigNodePropertyArray userPrivilegeNames) {
+  public OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableProperties userPrivilegeNames(@Nullable ConfigNodePropertyArray userPrivilegeNames) {
     this.userPrivilegeNames = userPrivilegeNames;
     return this;
   }
@@ -58,20 +69,20 @@ public class OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizablePrope
   /**
    * Get userPrivilegeNames
    * @return userPrivilegeNames
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getUserPrivilegeNames() {
+   */
+  @Valid 
+  @Schema(name = "userPrivilegeNames", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("userPrivilegeNames")
+  public @Nullable ConfigNodePropertyArray getUserPrivilegeNames() {
     return userPrivilegeNames;
   }
 
-  public void setUserPrivilegeNames(ConfigNodePropertyArray userPrivilegeNames) {
+  @JsonProperty("userPrivilegeNames")
+  public void setUserPrivilegeNames(@Nullable ConfigNodePropertyArray userPrivilegeNames) {
     this.userPrivilegeNames = userPrivilegeNames;
   }
 
-  public OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableProperties groupPrivilegeNames(ConfigNodePropertyArray groupPrivilegeNames) {
+  public OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableProperties groupPrivilegeNames(@Nullable ConfigNodePropertyArray groupPrivilegeNames) {
     this.groupPrivilegeNames = groupPrivilegeNames;
     return this;
   }
@@ -79,20 +90,20 @@ public class OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizablePrope
   /**
    * Get groupPrivilegeNames
    * @return groupPrivilegeNames
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getGroupPrivilegeNames() {
+   */
+  @Valid 
+  @Schema(name = "groupPrivilegeNames", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("groupPrivilegeNames")
+  public @Nullable ConfigNodePropertyArray getGroupPrivilegeNames() {
     return groupPrivilegeNames;
   }
 
-  public void setGroupPrivilegeNames(ConfigNodePropertyArray groupPrivilegeNames) {
+  @JsonProperty("groupPrivilegeNames")
+  public void setGroupPrivilegeNames(@Nullable ConfigNodePropertyArray groupPrivilegeNames) {
     this.groupPrivilegeNames = groupPrivilegeNames;
   }
 
-  public OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableProperties constraint(ConfigNodePropertyString constraint) {
+  public OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableProperties constraint(@Nullable ConfigNodePropertyString constraint) {
     this.constraint = constraint;
     return this;
   }
@@ -100,22 +111,21 @@ public class OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizablePrope
   /**
    * Get constraint
    * @return constraint
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getConstraint() {
+   */
+  @Valid 
+  @Schema(name = "constraint", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("constraint")
+  public @Nullable ConfigNodePropertyString getConstraint() {
     return constraint;
   }
 
-  public void setConstraint(ConfigNodePropertyString constraint) {
+  @JsonProperty("constraint")
+  public void setConstraint(@Nullable ConfigNodePropertyString constraint) {
     this.constraint = constraint;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -138,7 +148,6 @@ public class OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizablePrope
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableProperties {\n");
-    
     sb.append("    enabledActions: ").append(toIndentedString(enabledActions)).append("\n");
     sb.append("    userPrivilegeNames: ").append(toIndentedString(userPrivilegeNames)).append("\n");
     sb.append("    groupPrivilegeNames: ").append(toIndentedString(groupPrivilegeNames)).append("\n");
@@ -151,11 +160,8 @@ public class OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizablePrope
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

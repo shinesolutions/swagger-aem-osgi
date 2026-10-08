@@ -1,7 +1,9 @@
 
+
 # ComAdobeCqCdnRewriterImplCDNConfigServiceImplProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **cdnConfigDistributionDomain** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
@@ -9,6 +11,7 @@ Name | Type | Description | Notes
 **cdnConfigPathPrefixes** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
 **cdnConfigCdnttl** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
 **cdnConfigApplicationProtocol** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
+
 
 
 

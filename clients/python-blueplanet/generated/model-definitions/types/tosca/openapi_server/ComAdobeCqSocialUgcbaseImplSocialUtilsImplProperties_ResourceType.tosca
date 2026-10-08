@@ -1,0 +1,36 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqSocialUgcbaseImplSocialUtilsImplProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqSocialUgcbaseImplSocialUtilsImplProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+}
+resourceTypes {
+
+  ComAdobeCqSocialUgcbaseImplSocialUtilsImplProperties {
+    title = ComAdobeCqSocialUgcbaseImplSocialUtilsImplProperties
+    description = ComAdobeCqSocialUgcbaseImplSocialUtilsImplProperties
+    derivedFrom = Root
+    properties {
+        legacy_cloud_ugc_path_mapping {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqSocialUgcbaseImplSocialUtilsImplProperties {
+    title = ComAdobeCqSocialUgcbaseImplSocialUtilsImplProperties
+    description = ComAdobeCqSocialUgcbaseImplSocialUtilsImplProperties
+    implements = openapi_server.resourceTypes.ComAdobeCqSocialUgcbaseImplSocialUtilsImplProperties
+
+  }
+}

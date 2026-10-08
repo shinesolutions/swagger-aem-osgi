@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqDamCoreImplDamEventPurgeServiceProperties;
 
 @Canonical
 class ComDayCqDamCoreImplDamEventPurgeServiceInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqDamCoreImplDamEventPurgeServiceProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqDamCoreImplDamEventPurgeServiceProperties properties
 }

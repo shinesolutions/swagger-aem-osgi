@@ -1,0 +1,20 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "process_label" },
+      {"model": "cq_dam_indd_pages_regex" },
+      {"model": "ids_job_decoupled" },
+      {"model": "ids_job_workflow_model" },
+    ]
+  }]
+}

@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqWorkflowImplEmailEMailNotificationServiceP
 
 @Canonical
 class ComDayCqWorkflowImplEmailEMailNotificationServiceInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqWorkflowImplEmailEMailNotificationServiceProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqWorkflowImplEmailEMailNotificationServiceProperties properties
 }

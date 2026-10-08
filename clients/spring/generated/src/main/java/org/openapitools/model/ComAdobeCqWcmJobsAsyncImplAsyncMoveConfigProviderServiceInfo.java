@@ -1,33 +1,44 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ComAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderServiceProperties;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderServiceInfo
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderServiceInfo   {
-  @JsonProperty("pid")
-  private String pid = null;
+@JsonTypeName("comAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderServiceInfo")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderServiceInfo {
 
-  @JsonProperty("title")
-  private String title = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable String pid;
 
-  @JsonProperty("description")
-  private String description = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable String title;
 
-  @JsonProperty("properties")
-  private ComAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderServiceProperties properties = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable String description;
 
-  public ComAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderServiceInfo pid(String pid) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ComAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderServiceProperties properties;
+
+  public ComAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderServiceInfo pid(@Nullable String pid) {
     this.pid = pid;
     return this;
   }
@@ -35,19 +46,20 @@ public class ComAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderServiceInfo   {
   /**
    * Get pid
    * @return pid
-  **/
-  @ApiModelProperty(value = "")
-
-
-  public String getPid() {
+   */
+  
+  @Schema(name = "pid", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("pid")
+  public @Nullable String getPid() {
     return pid;
   }
 
-  public void setPid(String pid) {
+  @JsonProperty("pid")
+  public void setPid(@Nullable String pid) {
     this.pid = pid;
   }
 
-  public ComAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderServiceInfo title(String title) {
+  public ComAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderServiceInfo title(@Nullable String title) {
     this.title = title;
     return this;
   }
@@ -55,19 +67,20 @@ public class ComAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderServiceInfo   {
   /**
    * Get title
    * @return title
-  **/
-  @ApiModelProperty(value = "")
-
-
-  public String getTitle() {
+   */
+  
+  @Schema(name = "title", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("title")
+  public @Nullable String getTitle() {
     return title;
   }
 
-  public void setTitle(String title) {
+  @JsonProperty("title")
+  public void setTitle(@Nullable String title) {
     this.title = title;
   }
 
-  public ComAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderServiceInfo description(String description) {
+  public ComAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderServiceInfo description(@Nullable String description) {
     this.description = description;
     return this;
   }
@@ -75,19 +88,20 @@ public class ComAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderServiceInfo   {
   /**
    * Get description
    * @return description
-  **/
-  @ApiModelProperty(value = "")
-
-
-  public String getDescription() {
+   */
+  
+  @Schema(name = "description", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("description")
+  public @Nullable String getDescription() {
     return description;
   }
 
-  public void setDescription(String description) {
+  @JsonProperty("description")
+  public void setDescription(@Nullable String description) {
     this.description = description;
   }
 
-  public ComAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderServiceInfo properties(ComAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderServiceProperties properties) {
+  public ComAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderServiceInfo properties(@Nullable ComAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderServiceProperties properties) {
     this.properties = properties;
     return this;
   }
@@ -95,22 +109,21 @@ public class ComAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderServiceInfo   {
   /**
    * Get properties
    * @return properties
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ComAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderServiceProperties getProperties() {
+   */
+  @Valid 
+  @Schema(name = "properties", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("properties")
+  public @Nullable ComAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderServiceProperties getProperties() {
     return properties;
   }
 
-  public void setProperties(ComAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderServiceProperties properties) {
+  @JsonProperty("properties")
+  public void setProperties(@Nullable ComAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderServiceProperties properties) {
     this.properties = properties;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -133,7 +146,6 @@ public class ComAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderServiceInfo   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderServiceInfo {\n");
-    
     sb.append("    pid: ").append(toIndentedString(pid)).append("\n");
     sb.append("    title: ").append(toIndentedString(title)).append("\n");
     sb.append("    description: ").append(toIndentedString(description)).append("\n");
@@ -146,11 +158,8 @@ public class ComAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderServiceInfo   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

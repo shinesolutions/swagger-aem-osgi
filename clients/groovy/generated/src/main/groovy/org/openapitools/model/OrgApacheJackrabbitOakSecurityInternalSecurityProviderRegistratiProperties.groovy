@@ -8,8 +8,8 @@ import org.openapitools.model.ConfigNodePropertyDropDown;
 
 @Canonical
 class OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistratiProperties {
-    ConfigNodePropertyArray requiredServicePids = null
-
-    ConfigNodePropertyDropDown authorizationCompositionType = null
-
+    
+    ConfigNodePropertyArray requiredServicePids
+    
+    ConfigNodePropertyDropDown authorizationCompositionType
 }

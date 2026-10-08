@@ -1,7 +1,9 @@
 
+
 # OrgApacheSlingCommonsLogLogManagerProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **orgApacheSlingCommonsLogLevel** | [**ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md) |  |  [optional]
@@ -14,6 +16,7 @@ Name | Type | Description | Notes
 **orgApacheSlingCommonsLogMaxCallerDataDepth** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
 **orgApacheSlingCommonsLogMaxOldFileCountInDump** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
 **orgApacheSlingCommonsLogNumOfLines** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
+
 
 
 

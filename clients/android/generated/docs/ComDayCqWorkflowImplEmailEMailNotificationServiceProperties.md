@@ -1,7 +1,9 @@
 
+
 # ComDayCqWorkflowImplEmailEMailNotificationServiceProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **fromAddress** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
@@ -10,6 +12,7 @@ Name | Type | Description | Notes
 **notifyOncomplete** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
 **notifyOncontainercomplete** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
 **notifyUseronly** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
+
 
 
 

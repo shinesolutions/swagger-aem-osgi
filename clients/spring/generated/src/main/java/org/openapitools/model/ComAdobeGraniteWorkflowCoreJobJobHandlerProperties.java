@@ -1,28 +1,39 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComAdobeGraniteWorkflowCoreJobJobHandlerProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComAdobeGraniteWorkflowCoreJobJobHandlerProperties   {
-  @JsonProperty("job.topics")
-  private ConfigNodePropertyArray jobTopics = null;
+@JsonTypeName("comAdobeGraniteWorkflowCoreJobJobHandlerProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComAdobeGraniteWorkflowCoreJobJobHandlerProperties {
 
-  @JsonProperty("allow.self.process.termination")
-  private ConfigNodePropertyBoolean allowSelfProcessTermination = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray jobTopics;
 
-  public ComAdobeGraniteWorkflowCoreJobJobHandlerProperties jobTopics(ConfigNodePropertyArray jobTopics) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean allowSelfProcessTermination;
+
+  public ComAdobeGraniteWorkflowCoreJobJobHandlerProperties jobTopics(@Nullable ConfigNodePropertyArray jobTopics) {
     this.jobTopics = jobTopics;
     return this;
   }
@@ -30,20 +41,20 @@ public class ComAdobeGraniteWorkflowCoreJobJobHandlerProperties   {
   /**
    * Get jobTopics
    * @return jobTopics
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getJobTopics() {
+   */
+  @Valid 
+  @Schema(name = "job.topics", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("job.topics")
+  public @Nullable ConfigNodePropertyArray getJobTopics() {
     return jobTopics;
   }
 
-  public void setJobTopics(ConfigNodePropertyArray jobTopics) {
+  @JsonProperty("job.topics")
+  public void setJobTopics(@Nullable ConfigNodePropertyArray jobTopics) {
     this.jobTopics = jobTopics;
   }
 
-  public ComAdobeGraniteWorkflowCoreJobJobHandlerProperties allowSelfProcessTermination(ConfigNodePropertyBoolean allowSelfProcessTermination) {
+  public ComAdobeGraniteWorkflowCoreJobJobHandlerProperties allowSelfProcessTermination(@Nullable ConfigNodePropertyBoolean allowSelfProcessTermination) {
     this.allowSelfProcessTermination = allowSelfProcessTermination;
     return this;
   }
@@ -51,22 +62,21 @@ public class ComAdobeGraniteWorkflowCoreJobJobHandlerProperties   {
   /**
    * Get allowSelfProcessTermination
    * @return allowSelfProcessTermination
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getAllowSelfProcessTermination() {
+   */
+  @Valid 
+  @Schema(name = "allow.self.process.termination", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("allow.self.process.termination")
+  public @Nullable ConfigNodePropertyBoolean getAllowSelfProcessTermination() {
     return allowSelfProcessTermination;
   }
 
-  public void setAllowSelfProcessTermination(ConfigNodePropertyBoolean allowSelfProcessTermination) {
+  @JsonProperty("allow.self.process.termination")
+  public void setAllowSelfProcessTermination(@Nullable ConfigNodePropertyBoolean allowSelfProcessTermination) {
     this.allowSelfProcessTermination = allowSelfProcessTermination;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -87,7 +97,6 @@ public class ComAdobeGraniteWorkflowCoreJobJobHandlerProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComAdobeGraniteWorkflowCoreJobJobHandlerProperties {\n");
-    
     sb.append("    jobTopics: ").append(toIndentedString(jobTopics)).append("\n");
     sb.append("    allowSelfProcessTermination: ").append(toIndentedString(allowSelfProcessTermination)).append("\n");
     sb.append("}");
@@ -98,11 +107,8 @@ public class ComAdobeGraniteWorkflowCoreJobJobHandlerProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

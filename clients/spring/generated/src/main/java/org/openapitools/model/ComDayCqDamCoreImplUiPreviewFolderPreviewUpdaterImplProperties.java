@@ -1,35 +1,46 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComDayCqDamCoreImplUiPreviewFolderPreviewUpdaterImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComDayCqDamCoreImplUiPreviewFolderPreviewUpdaterImplProperties   {
-  @JsonProperty("createPreviewEnabled")
-  private ConfigNodePropertyBoolean createPreviewEnabled = null;
+@JsonTypeName("comDayCqDamCoreImplUiPreviewFolderPreviewUpdaterImplProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComDayCqDamCoreImplUiPreviewFolderPreviewUpdaterImplProperties {
 
-  @JsonProperty("updatePreviewEnabled")
-  private ConfigNodePropertyBoolean updatePreviewEnabled = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean createPreviewEnabled;
 
-  @JsonProperty("queueSize")
-  private ConfigNodePropertyInteger queueSize = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean updatePreviewEnabled;
 
-  @JsonProperty("folderPreviewRenditionRegex")
-  private ConfigNodePropertyString folderPreviewRenditionRegex = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger queueSize;
 
-  public ComDayCqDamCoreImplUiPreviewFolderPreviewUpdaterImplProperties createPreviewEnabled(ConfigNodePropertyBoolean createPreviewEnabled) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString folderPreviewRenditionRegex;
+
+  public ComDayCqDamCoreImplUiPreviewFolderPreviewUpdaterImplProperties createPreviewEnabled(@Nullable ConfigNodePropertyBoolean createPreviewEnabled) {
     this.createPreviewEnabled = createPreviewEnabled;
     return this;
   }
@@ -37,20 +48,20 @@ public class ComDayCqDamCoreImplUiPreviewFolderPreviewUpdaterImplProperties   {
   /**
    * Get createPreviewEnabled
    * @return createPreviewEnabled
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getCreatePreviewEnabled() {
+   */
+  @Valid 
+  @Schema(name = "createPreviewEnabled", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("createPreviewEnabled")
+  public @Nullable ConfigNodePropertyBoolean getCreatePreviewEnabled() {
     return createPreviewEnabled;
   }
 
-  public void setCreatePreviewEnabled(ConfigNodePropertyBoolean createPreviewEnabled) {
+  @JsonProperty("createPreviewEnabled")
+  public void setCreatePreviewEnabled(@Nullable ConfigNodePropertyBoolean createPreviewEnabled) {
     this.createPreviewEnabled = createPreviewEnabled;
   }
 
-  public ComDayCqDamCoreImplUiPreviewFolderPreviewUpdaterImplProperties updatePreviewEnabled(ConfigNodePropertyBoolean updatePreviewEnabled) {
+  public ComDayCqDamCoreImplUiPreviewFolderPreviewUpdaterImplProperties updatePreviewEnabled(@Nullable ConfigNodePropertyBoolean updatePreviewEnabled) {
     this.updatePreviewEnabled = updatePreviewEnabled;
     return this;
   }
@@ -58,20 +69,20 @@ public class ComDayCqDamCoreImplUiPreviewFolderPreviewUpdaterImplProperties   {
   /**
    * Get updatePreviewEnabled
    * @return updatePreviewEnabled
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getUpdatePreviewEnabled() {
+   */
+  @Valid 
+  @Schema(name = "updatePreviewEnabled", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("updatePreviewEnabled")
+  public @Nullable ConfigNodePropertyBoolean getUpdatePreviewEnabled() {
     return updatePreviewEnabled;
   }
 
-  public void setUpdatePreviewEnabled(ConfigNodePropertyBoolean updatePreviewEnabled) {
+  @JsonProperty("updatePreviewEnabled")
+  public void setUpdatePreviewEnabled(@Nullable ConfigNodePropertyBoolean updatePreviewEnabled) {
     this.updatePreviewEnabled = updatePreviewEnabled;
   }
 
-  public ComDayCqDamCoreImplUiPreviewFolderPreviewUpdaterImplProperties queueSize(ConfigNodePropertyInteger queueSize) {
+  public ComDayCqDamCoreImplUiPreviewFolderPreviewUpdaterImplProperties queueSize(@Nullable ConfigNodePropertyInteger queueSize) {
     this.queueSize = queueSize;
     return this;
   }
@@ -79,20 +90,20 @@ public class ComDayCqDamCoreImplUiPreviewFolderPreviewUpdaterImplProperties   {
   /**
    * Get queueSize
    * @return queueSize
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getQueueSize() {
+   */
+  @Valid 
+  @Schema(name = "queueSize", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("queueSize")
+  public @Nullable ConfigNodePropertyInteger getQueueSize() {
     return queueSize;
   }
 
-  public void setQueueSize(ConfigNodePropertyInteger queueSize) {
+  @JsonProperty("queueSize")
+  public void setQueueSize(@Nullable ConfigNodePropertyInteger queueSize) {
     this.queueSize = queueSize;
   }
 
-  public ComDayCqDamCoreImplUiPreviewFolderPreviewUpdaterImplProperties folderPreviewRenditionRegex(ConfigNodePropertyString folderPreviewRenditionRegex) {
+  public ComDayCqDamCoreImplUiPreviewFolderPreviewUpdaterImplProperties folderPreviewRenditionRegex(@Nullable ConfigNodePropertyString folderPreviewRenditionRegex) {
     this.folderPreviewRenditionRegex = folderPreviewRenditionRegex;
     return this;
   }
@@ -100,22 +111,21 @@ public class ComDayCqDamCoreImplUiPreviewFolderPreviewUpdaterImplProperties   {
   /**
    * Get folderPreviewRenditionRegex
    * @return folderPreviewRenditionRegex
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getFolderPreviewRenditionRegex() {
+   */
+  @Valid 
+  @Schema(name = "folderPreviewRenditionRegex", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("folderPreviewRenditionRegex")
+  public @Nullable ConfigNodePropertyString getFolderPreviewRenditionRegex() {
     return folderPreviewRenditionRegex;
   }
 
-  public void setFolderPreviewRenditionRegex(ConfigNodePropertyString folderPreviewRenditionRegex) {
+  @JsonProperty("folderPreviewRenditionRegex")
+  public void setFolderPreviewRenditionRegex(@Nullable ConfigNodePropertyString folderPreviewRenditionRegex) {
     this.folderPreviewRenditionRegex = folderPreviewRenditionRegex;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -138,7 +148,6 @@ public class ComDayCqDamCoreImplUiPreviewFolderPreviewUpdaterImplProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComDayCqDamCoreImplUiPreviewFolderPreviewUpdaterImplProperties {\n");
-    
     sb.append("    createPreviewEnabled: ").append(toIndentedString(createPreviewEnabled)).append("\n");
     sb.append("    updatePreviewEnabled: ").append(toIndentedString(updatePreviewEnabled)).append("\n");
     sb.append("    queueSize: ").append(toIndentedString(queueSize)).append("\n");
@@ -151,11 +160,8 @@ public class ComDayCqDamCoreImplUiPreviewFolderPreviewUpdaterImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

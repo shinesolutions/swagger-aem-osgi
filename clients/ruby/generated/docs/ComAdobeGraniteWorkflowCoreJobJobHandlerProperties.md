@@ -2,18 +2,19 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**job_topics** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 
-**allow_self_process_termination** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **job_topics** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] |
+| **allow_self_process_termination** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComAdobeGraniteWorkflowCoreJobJobHandlerProperties.new(job_topics: null,
-                                 allow_self_process_termination: null)
+instance = SwaggerAemOsgiClient::ComAdobeGraniteWorkflowCoreJobJobHandlerProperties.new(
+  job_topics: null,
+  allow_self_process_termination: null
+)
 ```
-
 

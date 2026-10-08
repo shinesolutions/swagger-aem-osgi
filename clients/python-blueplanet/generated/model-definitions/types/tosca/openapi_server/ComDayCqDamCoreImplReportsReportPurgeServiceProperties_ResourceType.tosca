@@ -1,0 +1,53 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqDamCoreImplReportsReportPurgeServiceProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqDamCoreImplReportsReportPurgeServiceProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComDayCqDamCoreImplReportsReportPurgeServiceProperties {
+    title = ComDayCqDamCoreImplReportsReportPurgeServiceProperties
+    description = ComDayCqDamCoreImplReportsReportPurgeServiceProperties
+    derivedFrom = Root
+    properties {
+        scheduler_expression {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        max_saved_reports {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        time_duration {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        enable_report_purge {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqDamCoreImplReportsReportPurgeServiceProperties {
+    title = ComDayCqDamCoreImplReportsReportPurgeServiceProperties
+    description = ComDayCqDamCoreImplReportsReportPurgeServiceProperties
+    implements = openapi_server.resourceTypes.ComDayCqDamCoreImplReportsReportPurgeServiceProperties
+
+  }
+}

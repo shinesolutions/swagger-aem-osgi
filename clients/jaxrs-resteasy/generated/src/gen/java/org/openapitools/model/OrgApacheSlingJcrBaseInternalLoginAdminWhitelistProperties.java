@@ -4,23 +4,27 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2019-08-05T00:59:30.156Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2026-10-07T12:54:21.614735164Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingJcrBaseInternalLoginAdminWhitelistProperties   {
   
-  private ConfigNodePropertyBoolean whitelistBypass = null;
-  private ConfigNodePropertyString whitelistBundlesRegexp = null;
+  private ConfigNodePropertyBoolean whitelistBypass;
+  private ConfigNodePropertyString whitelistBundlesRegexp;
 
   /**
    **/
   
   @ApiModelProperty(value = "")
   @JsonProperty("whitelist.bypass")
+  @Valid
   public ConfigNodePropertyBoolean getWhitelistBypass() {
     return whitelistBypass;
   }
@@ -33,6 +37,7 @@ public class OrgApacheSlingJcrBaseInternalLoginAdminWhitelistProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("whitelist.bundles.regexp")
+  @Valid
   public ConfigNodePropertyString getWhitelistBundlesRegexp() {
     return whitelistBundlesRegexp;
   }
@@ -42,7 +47,7 @@ public class OrgApacheSlingJcrBaseInternalLoginAdminWhitelistProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -50,8 +55,8 @@ public class OrgApacheSlingJcrBaseInternalLoginAdminWhitelistProperties   {
       return false;
     }
     OrgApacheSlingJcrBaseInternalLoginAdminWhitelistProperties orgApacheSlingJcrBaseInternalLoginAdminWhitelistProperties = (OrgApacheSlingJcrBaseInternalLoginAdminWhitelistProperties) o;
-    return Objects.equals(whitelistBypass, orgApacheSlingJcrBaseInternalLoginAdminWhitelistProperties.whitelistBypass) &&
-        Objects.equals(whitelistBundlesRegexp, orgApacheSlingJcrBaseInternalLoginAdminWhitelistProperties.whitelistBundlesRegexp);
+    return Objects.equals(this.whitelistBypass, orgApacheSlingJcrBaseInternalLoginAdminWhitelistProperties.whitelistBypass) &&
+        Objects.equals(this.whitelistBundlesRegexp, orgApacheSlingJcrBaseInternalLoginAdminWhitelistProperties.whitelistBundlesRegexp);
   }
 
   @Override
@@ -74,11 +79,8 @@ public class OrgApacheSlingJcrBaseInternalLoginAdminWhitelistProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

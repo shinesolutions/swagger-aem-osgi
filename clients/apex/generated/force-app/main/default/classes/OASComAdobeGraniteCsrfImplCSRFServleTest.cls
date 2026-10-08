@@ -72,8 +72,8 @@ private class OASComAdobeGraniteCsrfImplCSRFServleTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeGraniteCsrfImplCSRFServle comAdobeGraniteCsrfImplCSRFServletProperties = new OASComAdobeGraniteCsrfImplCSRFServle();
-        Map<String, String> propertyMappings = comAdobeGraniteCsrfImplCSRFServletProperties.getPropertyMappings();
-        System.assertEquals('csrfTokenExpiresIn', propertyMappings.get('csrf.token.expires.in'));
-        System.assertEquals('slingAuthRequirements', propertyMappings.get('sling.auth.requirements'));
+        Map<String, String> x-property-mappings = comAdobeGraniteCsrfImplCSRFServletProperties.getx-property-mappings();
+        System.assertEquals('csrfTokenExpiresIn', x-property-mappings.get('csrf.token.expires.in'));
+        System.assertEquals('slingAuthRequirements', x-property-mappings.get('sling.auth.requirements'));
     }
 }

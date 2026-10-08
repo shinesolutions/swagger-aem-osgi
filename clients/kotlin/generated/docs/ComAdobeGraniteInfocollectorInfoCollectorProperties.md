@@ -2,10 +2,10 @@
 # ComAdobeGraniteInfocollectorInfoCollectorProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**granitePeriodinfocollectorPeriodincludeThreadDumps** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**granitePeriodinfocollectorPeriodincludeHeapDump** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **graniteInfocollectorIncludeThreadDumps** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **graniteInfocollectorIncludeHeapDump** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
 
 
 

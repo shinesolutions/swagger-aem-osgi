@@ -9,10 +9,10 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeCqCommercePimImplCataloggeneratorCatalogGeneratorImplProperties {
-    ConfigNodePropertyInteger cqCommerceCataloggeneratorBucketsize = null
-
-    ConfigNodePropertyString cqCommerceCataloggeneratorBucketname = null
-
-    ConfigNodePropertyArray cqCommerceCataloggeneratorExcludedtemplateproperties = null
-
+    
+    ConfigNodePropertyInteger cqCommerceCataloggeneratorBucketsize
+    
+    ConfigNodePropertyString cqCommerceCataloggeneratorBucketname
+    
+    ConfigNodePropertyArray cqCommerceCataloggeneratorExcludedtemplateproperties
 }

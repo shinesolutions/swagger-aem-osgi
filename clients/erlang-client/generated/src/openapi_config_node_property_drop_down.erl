@@ -9,7 +9,7 @@
        'optional' => boolean(),
        'is_set' => boolean(),
        'type' => openapi_config_node_property_drop_down_type:openapi_config_node_property_drop_down_type(),
-       'value' => maps:map(),
+       'value' => openapi_any_type:openapi_any_type(),
        'description' => binary()
      }.
 

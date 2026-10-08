@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqDamHandlerStandardPsPostScriptHandlerInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqDamHandlerStandardPsPostScriptHandlerInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComDayCqDamHandlerStandardPsPostScriptHandlerProperties = openapi_server.resourceTypes.ComDayCqDamHandlerStandardPsPostScriptHandlerProperties
+}
+resourceTypes {
+
+  ComDayCqDamHandlerStandardPsPostScriptHandlerInfo {
+    title = ComDayCqDamHandlerStandardPsPostScriptHandlerInfo
+    description = ComDayCqDamHandlerStandardPsPostScriptHandlerInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComDayCqDamHandlerStandardPsPostScriptHandlerProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqDamHandlerStandardPsPostScriptHandlerInfo {
+    title = ComDayCqDamHandlerStandardPsPostScriptHandlerInfo
+    description = ComDayCqDamHandlerStandardPsPostScriptHandlerInfo
+    implements = openapi_server.resourceTypes.ComDayCqDamHandlerStandardPsPostScriptHandlerInfo
+
+  }
+}

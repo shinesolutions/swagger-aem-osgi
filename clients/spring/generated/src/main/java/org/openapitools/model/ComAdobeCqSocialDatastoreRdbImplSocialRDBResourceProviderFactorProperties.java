@@ -1,44 +1,55 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorProperties   {
-  @JsonProperty("solr.zk.timeout")
-  private ConfigNodePropertyString solrZkTimeout = null;
+@JsonTypeName("comAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorProperties {
 
-  @JsonProperty("solr.commit")
-  private ConfigNodePropertyString solrCommit = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString solrZkTimeout;
 
-  @JsonProperty("cache.on")
-  private ConfigNodePropertyBoolean cacheOn = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString solrCommit;
 
-  @JsonProperty("concurrency.level")
-  private ConfigNodePropertyInteger concurrencyLevel = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean cacheOn;
 
-  @JsonProperty("cache.start.size")
-  private ConfigNodePropertyInteger cacheStartSize = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger concurrencyLevel;
 
-  @JsonProperty("cache.ttl")
-  private ConfigNodePropertyInteger cacheTtl = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger cacheStartSize;
 
-  @JsonProperty("cache.size")
-  private ConfigNodePropertyInteger cacheSize = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger cacheTtl;
 
-  public ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorProperties solrZkTimeout(ConfigNodePropertyString solrZkTimeout) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger cacheSize;
+
+  public ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorProperties solrZkTimeout(@Nullable ConfigNodePropertyString solrZkTimeout) {
     this.solrZkTimeout = solrZkTimeout;
     return this;
   }
@@ -46,20 +57,20 @@ public class ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorProp
   /**
    * Get solrZkTimeout
    * @return solrZkTimeout
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getSolrZkTimeout() {
+   */
+  @Valid 
+  @Schema(name = "solr.zk.timeout", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("solr.zk.timeout")
+  public @Nullable ConfigNodePropertyString getSolrZkTimeout() {
     return solrZkTimeout;
   }
 
-  public void setSolrZkTimeout(ConfigNodePropertyString solrZkTimeout) {
+  @JsonProperty("solr.zk.timeout")
+  public void setSolrZkTimeout(@Nullable ConfigNodePropertyString solrZkTimeout) {
     this.solrZkTimeout = solrZkTimeout;
   }
 
-  public ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorProperties solrCommit(ConfigNodePropertyString solrCommit) {
+  public ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorProperties solrCommit(@Nullable ConfigNodePropertyString solrCommit) {
     this.solrCommit = solrCommit;
     return this;
   }
@@ -67,20 +78,20 @@ public class ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorProp
   /**
    * Get solrCommit
    * @return solrCommit
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getSolrCommit() {
+   */
+  @Valid 
+  @Schema(name = "solr.commit", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("solr.commit")
+  public @Nullable ConfigNodePropertyString getSolrCommit() {
     return solrCommit;
   }
 
-  public void setSolrCommit(ConfigNodePropertyString solrCommit) {
+  @JsonProperty("solr.commit")
+  public void setSolrCommit(@Nullable ConfigNodePropertyString solrCommit) {
     this.solrCommit = solrCommit;
   }
 
-  public ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorProperties cacheOn(ConfigNodePropertyBoolean cacheOn) {
+  public ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorProperties cacheOn(@Nullable ConfigNodePropertyBoolean cacheOn) {
     this.cacheOn = cacheOn;
     return this;
   }
@@ -88,20 +99,20 @@ public class ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorProp
   /**
    * Get cacheOn
    * @return cacheOn
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getCacheOn() {
+   */
+  @Valid 
+  @Schema(name = "cache.on", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cache.on")
+  public @Nullable ConfigNodePropertyBoolean getCacheOn() {
     return cacheOn;
   }
 
-  public void setCacheOn(ConfigNodePropertyBoolean cacheOn) {
+  @JsonProperty("cache.on")
+  public void setCacheOn(@Nullable ConfigNodePropertyBoolean cacheOn) {
     this.cacheOn = cacheOn;
   }
 
-  public ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorProperties concurrencyLevel(ConfigNodePropertyInteger concurrencyLevel) {
+  public ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorProperties concurrencyLevel(@Nullable ConfigNodePropertyInteger concurrencyLevel) {
     this.concurrencyLevel = concurrencyLevel;
     return this;
   }
@@ -109,20 +120,20 @@ public class ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorProp
   /**
    * Get concurrencyLevel
    * @return concurrencyLevel
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getConcurrencyLevel() {
+   */
+  @Valid 
+  @Schema(name = "concurrency.level", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("concurrency.level")
+  public @Nullable ConfigNodePropertyInteger getConcurrencyLevel() {
     return concurrencyLevel;
   }
 
-  public void setConcurrencyLevel(ConfigNodePropertyInteger concurrencyLevel) {
+  @JsonProperty("concurrency.level")
+  public void setConcurrencyLevel(@Nullable ConfigNodePropertyInteger concurrencyLevel) {
     this.concurrencyLevel = concurrencyLevel;
   }
 
-  public ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorProperties cacheStartSize(ConfigNodePropertyInteger cacheStartSize) {
+  public ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorProperties cacheStartSize(@Nullable ConfigNodePropertyInteger cacheStartSize) {
     this.cacheStartSize = cacheStartSize;
     return this;
   }
@@ -130,20 +141,20 @@ public class ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorProp
   /**
    * Get cacheStartSize
    * @return cacheStartSize
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getCacheStartSize() {
+   */
+  @Valid 
+  @Schema(name = "cache.start.size", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cache.start.size")
+  public @Nullable ConfigNodePropertyInteger getCacheStartSize() {
     return cacheStartSize;
   }
 
-  public void setCacheStartSize(ConfigNodePropertyInteger cacheStartSize) {
+  @JsonProperty("cache.start.size")
+  public void setCacheStartSize(@Nullable ConfigNodePropertyInteger cacheStartSize) {
     this.cacheStartSize = cacheStartSize;
   }
 
-  public ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorProperties cacheTtl(ConfigNodePropertyInteger cacheTtl) {
+  public ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorProperties cacheTtl(@Nullable ConfigNodePropertyInteger cacheTtl) {
     this.cacheTtl = cacheTtl;
     return this;
   }
@@ -151,20 +162,20 @@ public class ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorProp
   /**
    * Get cacheTtl
    * @return cacheTtl
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getCacheTtl() {
+   */
+  @Valid 
+  @Schema(name = "cache.ttl", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cache.ttl")
+  public @Nullable ConfigNodePropertyInteger getCacheTtl() {
     return cacheTtl;
   }
 
-  public void setCacheTtl(ConfigNodePropertyInteger cacheTtl) {
+  @JsonProperty("cache.ttl")
+  public void setCacheTtl(@Nullable ConfigNodePropertyInteger cacheTtl) {
     this.cacheTtl = cacheTtl;
   }
 
-  public ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorProperties cacheSize(ConfigNodePropertyInteger cacheSize) {
+  public ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorProperties cacheSize(@Nullable ConfigNodePropertyInteger cacheSize) {
     this.cacheSize = cacheSize;
     return this;
   }
@@ -172,22 +183,21 @@ public class ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorProp
   /**
    * Get cacheSize
    * @return cacheSize
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getCacheSize() {
+   */
+  @Valid 
+  @Schema(name = "cache.size", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cache.size")
+  public @Nullable ConfigNodePropertyInteger getCacheSize() {
     return cacheSize;
   }
 
-  public void setCacheSize(ConfigNodePropertyInteger cacheSize) {
+  @JsonProperty("cache.size")
+  public void setCacheSize(@Nullable ConfigNodePropertyInteger cacheSize) {
     this.cacheSize = cacheSize;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -213,7 +223,6 @@ public class ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorProp
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorProperties {\n");
-    
     sb.append("    solrZkTimeout: ").append(toIndentedString(solrZkTimeout)).append("\n");
     sb.append("    solrCommit: ").append(toIndentedString(solrCommit)).append("\n");
     sb.append("    cacheOn: ").append(toIndentedString(cacheOn)).append("\n");
@@ -229,11 +238,8 @@ public class ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorProp
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

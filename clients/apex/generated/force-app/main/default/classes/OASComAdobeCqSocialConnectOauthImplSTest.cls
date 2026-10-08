@@ -72,7 +72,7 @@ private class OASComAdobeCqSocialConnectOauthImplSTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeCqSocialConnectOauthImplS comAdobeCqSocialConnectOauthImplSocialOAuthUserProfileMapperProperties = new OASComAdobeCqSocialConnectOauthImplS();
-        Map<String, String> propertyMappings = comAdobeCqSocialConnectOauthImplSocialOAuthUserProfileMapperProperties.getPropertyMappings();
-        System.assertEquals('providerConfigUserFolder', propertyMappings.get('provider.config.user.folder'));
+        Map<String, String> x-property-mappings = comAdobeCqSocialConnectOauthImplSocialOAuthUserProfileMapperProperties.getx-property-mappings();
+        System.assertEquals('providerConfigUserFolder', x-property-mappings.get('provider.config.user.folder'));
     }
 }

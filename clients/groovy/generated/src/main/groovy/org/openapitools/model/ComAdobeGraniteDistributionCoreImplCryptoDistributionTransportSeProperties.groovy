@@ -7,10 +7,10 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSeProperties {
-    ConfigNodePropertyString name = null
-
-    ConfigNodePropertyString username = null
-
-    ConfigNodePropertyString encryptedPassword = null
-
+    
+    ConfigNodePropertyString name
+    
+    ConfigNodePropertyString username
+    
+    ConfigNodePropertyString encryptedPassword
 }

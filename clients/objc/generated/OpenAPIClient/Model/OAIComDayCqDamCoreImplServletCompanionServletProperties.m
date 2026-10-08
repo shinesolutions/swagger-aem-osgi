@@ -17,7 +17,7 @@
  * This method is used by `JSONModel`.
  */
 + (JSONKeyMapper *)keyMapper {
-  return [[JSONKeyMapper alloc] initWithModelToJSONDictionary:@{ @"moreInfo": @"More Info", @"mntoverlaydamguicontentassetsmoreinfoHtmlpath": @"/mnt/overlay/dam/gui/content/assets/moreinfo.html/${path}" }];
+  return [[JSONKeyMapper alloc] initWithModelToJSONDictionary:@{ @"moreInfo": @"More Info", @"mntOverlayDamGuiContentAssetsMoreinfoHtmlPath": @"/mnt/overlay/dam/gui/content/assets/moreinfo.html/${path}" }];
 }
 
 /**
@@ -27,7 +27,7 @@
  */
 + (BOOL)propertyIsOptional:(NSString *)propertyName {
 
-  NSArray *optionalProperties = @[@"moreInfo", @"mntoverlaydamguicontentassetsmoreinfoHtmlpath"];
+  NSArray *optionalProperties = @[@"moreInfo", @"mntOverlayDamGuiContentAssetsMoreinfoHtmlPath"];
   return [optionalProperties containsObject:propertyName];
 }
 

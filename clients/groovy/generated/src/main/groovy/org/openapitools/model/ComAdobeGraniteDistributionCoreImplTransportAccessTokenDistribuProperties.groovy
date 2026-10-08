@@ -7,12 +7,12 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProperties {
-    ConfigNodePropertyString name = null
-
-    ConfigNodePropertyString serviceName = null
-
-    ConfigNodePropertyString userId = null
-
-    ConfigNodePropertyString accessTokenProviderTarget = null
-
+    
+    ConfigNodePropertyString name
+    
+    ConfigNodePropertyString serviceName
+    
+    ConfigNodePropertyString userId
+    
+    ConfigNodePropertyString accessTokenProviderTarget
 }

@@ -4,28 +4,23 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ComDayCqReplicationImplReplicationContentFactoryProviderImplProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2019-08-05T01:00:05.540Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2026-10-07T12:54:26.576036107Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqReplicationImplReplicationContentFactoryProviderImplInfo   {
   
-
-  private String pid = null;
-
-  private String title = null;
-
-  private String description = null;
-
-  private ComDayCqReplicationImplReplicationContentFactoryProviderImplProperties properties = null;
-
-  private String bundleLocation = null;
-
-  private String serviceLocation = null;
+  private String pid;
+  private String title;
+  private String description;
+  private ComDayCqReplicationImplReplicationContentFactoryProviderImplProperties properties;
+  private String bundleLocation;
+  private String serviceLocation;
 
   /**
    **/
@@ -109,12 +104,12 @@ public class ComDayCqReplicationImplReplicationContentFactoryProviderImplInfo   
       return false;
     }
     ComDayCqReplicationImplReplicationContentFactoryProviderImplInfo comDayCqReplicationImplReplicationContentFactoryProviderImplInfo = (ComDayCqReplicationImplReplicationContentFactoryProviderImplInfo) o;
-    return Objects.equals(pid, comDayCqReplicationImplReplicationContentFactoryProviderImplInfo.pid) &&
-        Objects.equals(title, comDayCqReplicationImplReplicationContentFactoryProviderImplInfo.title) &&
-        Objects.equals(description, comDayCqReplicationImplReplicationContentFactoryProviderImplInfo.description) &&
-        Objects.equals(properties, comDayCqReplicationImplReplicationContentFactoryProviderImplInfo.properties) &&
-        Objects.equals(bundleLocation, comDayCqReplicationImplReplicationContentFactoryProviderImplInfo.bundleLocation) &&
-        Objects.equals(serviceLocation, comDayCqReplicationImplReplicationContentFactoryProviderImplInfo.serviceLocation);
+    return Objects.equals(this.pid, comDayCqReplicationImplReplicationContentFactoryProviderImplInfo.pid) &&
+        Objects.equals(this.title, comDayCqReplicationImplReplicationContentFactoryProviderImplInfo.title) &&
+        Objects.equals(this.description, comDayCqReplicationImplReplicationContentFactoryProviderImplInfo.description) &&
+        Objects.equals(this.properties, comDayCqReplicationImplReplicationContentFactoryProviderImplInfo.properties) &&
+        Objects.equals(this.bundleLocation, comDayCqReplicationImplReplicationContentFactoryProviderImplInfo.bundleLocation) &&
+        Objects.equals(this.serviceLocation, comDayCqReplicationImplReplicationContentFactoryProviderImplInfo.serviceLocation);
   }
 
   @Override
@@ -142,10 +137,7 @@ public class ComDayCqReplicationImplReplicationContentFactoryProviderImplInfo   
    * (except the first line).
    */
   private String toIndentedString(Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

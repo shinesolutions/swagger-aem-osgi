@@ -1,35 +1,46 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * OrgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class OrgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyProperties   {
-  @JsonProperty("enabled")
-  private ConfigNodePropertyBoolean enabled = null;
+@JsonTypeName("orgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class OrgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyProperties {
 
-  @JsonProperty("configRefResourceNames")
-  private ConfigNodePropertyArray configRefResourceNames = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean enabled;
 
-  @JsonProperty("configRefPropertyNames")
-  private ConfigNodePropertyArray configRefPropertyNames = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray configRefResourceNames;
 
-  @JsonProperty("service.ranking")
-  private ConfigNodePropertyInteger serviceRanking = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray configRefPropertyNames;
 
-  public OrgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyProperties enabled(ConfigNodePropertyBoolean enabled) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger serviceRanking;
+
+  public OrgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyProperties enabled(@Nullable ConfigNodePropertyBoolean enabled) {
     this.enabled = enabled;
     return this;
   }
@@ -37,20 +48,20 @@ public class OrgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyProp
   /**
    * Get enabled
    * @return enabled
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getEnabled() {
+   */
+  @Valid 
+  @Schema(name = "enabled", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("enabled")
+  public @Nullable ConfigNodePropertyBoolean getEnabled() {
     return enabled;
   }
 
-  public void setEnabled(ConfigNodePropertyBoolean enabled) {
+  @JsonProperty("enabled")
+  public void setEnabled(@Nullable ConfigNodePropertyBoolean enabled) {
     this.enabled = enabled;
   }
 
-  public OrgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyProperties configRefResourceNames(ConfigNodePropertyArray configRefResourceNames) {
+  public OrgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyProperties configRefResourceNames(@Nullable ConfigNodePropertyArray configRefResourceNames) {
     this.configRefResourceNames = configRefResourceNames;
     return this;
   }
@@ -58,20 +69,20 @@ public class OrgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyProp
   /**
    * Get configRefResourceNames
    * @return configRefResourceNames
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getConfigRefResourceNames() {
+   */
+  @Valid 
+  @Schema(name = "configRefResourceNames", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("configRefResourceNames")
+  public @Nullable ConfigNodePropertyArray getConfigRefResourceNames() {
     return configRefResourceNames;
   }
 
-  public void setConfigRefResourceNames(ConfigNodePropertyArray configRefResourceNames) {
+  @JsonProperty("configRefResourceNames")
+  public void setConfigRefResourceNames(@Nullable ConfigNodePropertyArray configRefResourceNames) {
     this.configRefResourceNames = configRefResourceNames;
   }
 
-  public OrgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyProperties configRefPropertyNames(ConfigNodePropertyArray configRefPropertyNames) {
+  public OrgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyProperties configRefPropertyNames(@Nullable ConfigNodePropertyArray configRefPropertyNames) {
     this.configRefPropertyNames = configRefPropertyNames;
     return this;
   }
@@ -79,20 +90,20 @@ public class OrgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyProp
   /**
    * Get configRefPropertyNames
    * @return configRefPropertyNames
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getConfigRefPropertyNames() {
+   */
+  @Valid 
+  @Schema(name = "configRefPropertyNames", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("configRefPropertyNames")
+  public @Nullable ConfigNodePropertyArray getConfigRefPropertyNames() {
     return configRefPropertyNames;
   }
 
-  public void setConfigRefPropertyNames(ConfigNodePropertyArray configRefPropertyNames) {
+  @JsonProperty("configRefPropertyNames")
+  public void setConfigRefPropertyNames(@Nullable ConfigNodePropertyArray configRefPropertyNames) {
     this.configRefPropertyNames = configRefPropertyNames;
   }
 
-  public OrgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyProperties serviceRanking(ConfigNodePropertyInteger serviceRanking) {
+  public OrgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyProperties serviceRanking(@Nullable ConfigNodePropertyInteger serviceRanking) {
     this.serviceRanking = serviceRanking;
     return this;
   }
@@ -100,22 +111,21 @@ public class OrgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyProp
   /**
    * Get serviceRanking
    * @return serviceRanking
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getServiceRanking() {
+   */
+  @Valid 
+  @Schema(name = "service.ranking", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("service.ranking")
+  public @Nullable ConfigNodePropertyInteger getServiceRanking() {
     return serviceRanking;
   }
 
-  public void setServiceRanking(ConfigNodePropertyInteger serviceRanking) {
+  @JsonProperty("service.ranking")
+  public void setServiceRanking(@Nullable ConfigNodePropertyInteger serviceRanking) {
     this.serviceRanking = serviceRanking;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -138,7 +148,6 @@ public class OrgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyProp
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class OrgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyProperties {\n");
-    
     sb.append("    enabled: ").append(toIndentedString(enabled)).append("\n");
     sb.append("    configRefResourceNames: ").append(toIndentedString(configRefResourceNames)).append("\n");
     sb.append("    configRefPropertyNames: ").append(toIndentedString(configRefPropertyNames)).append("\n");
@@ -151,11 +160,8 @@ public class OrgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyProp
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

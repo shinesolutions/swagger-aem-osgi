@@ -1,0 +1,52 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqWcmDesignimporterImplCanvasBuilderImplProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqWcmDesignimporterImplCanvasBuilderImplProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComDayCqWcmDesignimporterImplCanvasBuilderImplProperties {
+    title = ComDayCqWcmDesignimporterImplCanvasBuilderImplProperties
+    description = ComDayCqWcmDesignimporterImplCanvasBuilderImplProperties
+    derivedFrom = Root
+    properties {
+        filepattern {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        build_page_nodes {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        build_client_libs {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        build_canvas_component {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqWcmDesignimporterImplCanvasBuilderImplProperties {
+    title = ComDayCqWcmDesignimporterImplCanvasBuilderImplProperties
+    description = ComDayCqWcmDesignimporterImplCanvasBuilderImplProperties
+    implements = openapi_server.resourceTypes.ComDayCqWcmDesignimporterImplCanvasBuilderImplProperties
+
+  }
+}

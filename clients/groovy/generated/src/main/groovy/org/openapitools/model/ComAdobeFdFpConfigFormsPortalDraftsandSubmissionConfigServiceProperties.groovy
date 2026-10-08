@@ -8,18 +8,18 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServiceProperties {
-    ConfigNodePropertyArray portalOutboxes = null
-
-    ConfigNodePropertyString draftDataService = null
-
-    ConfigNodePropertyString draftMetadataService = null
-
-    ConfigNodePropertyString submitDataService = null
-
-    ConfigNodePropertyString submitMetadataService = null
-
-    ConfigNodePropertyString pendingSignDataService = null
-
-    ConfigNodePropertyString pendingSignMetadataService = null
-
+    
+    ConfigNodePropertyArray portalOutboxes
+    
+    ConfigNodePropertyString draftDataService
+    
+    ConfigNodePropertyString draftMetadataService
+    
+    ConfigNodePropertyString submitDataService
+    
+    ConfigNodePropertyString submitMetadataService
+    
+    ConfigNodePropertyString pendingSignDataService
+    
+    ConfigNodePropertyString pendingSignMetadataService
 }

@@ -72,10 +72,10 @@ private class OASComDayCqMailerImplEmailCqRetrieveTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqMailerImplEmailCqRetrieve comDayCqMailerImplEmailCqRetrieverTemplateFactoryProperties = new OASComDayCqMailerImplEmailCqRetrieve();
-        Map<String, String> propertyMappings = comDayCqMailerImplEmailCqRetrieverTemplateFactoryProperties.getPropertyMappings();
-        System.assertEquals('mailerEmailEmbed', propertyMappings.get('mailer.email.embed'));
-        System.assertEquals('mailerEmailCharset', propertyMappings.get('mailer.email.charset'));
-        System.assertEquals('mailerEmailRetrieverUserID', propertyMappings.get('mailer.email.retrieverUserID'));
-        System.assertEquals('mailerEmailRetrieverUserPWD', propertyMappings.get('mailer.email.retrieverUserPWD'));
+        Map<String, String> x-property-mappings = comDayCqMailerImplEmailCqRetrieverTemplateFactoryProperties.getx-property-mappings();
+        System.assertEquals('mailerEmailEmbed', x-property-mappings.get('mailer.email.embed'));
+        System.assertEquals('mailerEmailCharset', x-property-mappings.get('mailer.email.charset'));
+        System.assertEquals('mailerEmailRetrieverUserID', x-property-mappings.get('mailer.email.retrieverUserID'));
+        System.assertEquals('mailerEmailRetrieverUserPWD', x-property-mappings.get('mailer.email.retrieverUserPWD'));
     }
 }

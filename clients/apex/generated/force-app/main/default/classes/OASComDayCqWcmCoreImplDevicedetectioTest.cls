@@ -72,8 +72,8 @@ private class OASComDayCqWcmCoreImplDevicedetectioTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqWcmCoreImplDevicedetectio comDayCqWcmCoreImplDevicedetectionDeviceIdentificationModeImplProperties = new OASComDayCqWcmCoreImplDevicedetectio();
-        Map<String, String> propertyMappings = comDayCqWcmCoreImplDevicedetectionDeviceIdentificationModeImplProperties.getPropertyMappings();
-        System.assertEquals('dimDefaultMode', propertyMappings.get('dim.default.mode'));
-        System.assertEquals('dimAppcacheEnabled', propertyMappings.get('dim.appcache.enabled'));
+        Map<String, String> x-property-mappings = comDayCqWcmCoreImplDevicedetectionDeviceIdentificationModeImplProperties.getx-property-mappings();
+        System.assertEquals('dimDefaultMode', x-property-mappings.get('dim.default.mode'));
+        System.assertEquals('dimAppcacheEnabled', x-property-mappings.get('dim.appcache.enabled'));
     }
 }

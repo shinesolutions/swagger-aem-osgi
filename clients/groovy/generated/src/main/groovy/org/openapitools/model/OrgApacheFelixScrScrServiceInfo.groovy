@@ -7,12 +7,12 @@ import org.openapitools.model.OrgApacheFelixScrScrServiceProperties;
 
 @Canonical
 class OrgApacheFelixScrScrServiceInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheFelixScrScrServiceProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheFelixScrScrServiceProperties properties
 }

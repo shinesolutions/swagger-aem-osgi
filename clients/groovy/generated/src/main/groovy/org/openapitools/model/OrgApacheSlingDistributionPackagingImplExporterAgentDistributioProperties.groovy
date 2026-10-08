@@ -8,12 +8,12 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class OrgApacheSlingDistributionPackagingImplExporterAgentDistributioProperties {
-    ConfigNodePropertyString name = null
-
-    ConfigNodePropertyString queue = null
-
-    ConfigNodePropertyBoolean dropInvalidItems = null
-
-    ConfigNodePropertyString agentTarget = null
-
+    
+    ConfigNodePropertyString name
+    
+    ConfigNodePropertyString queue
+    
+    ConfigNodePropertyBoolean dropInvalidItems
+    
+    ConfigNodePropertyString agentTarget
 }

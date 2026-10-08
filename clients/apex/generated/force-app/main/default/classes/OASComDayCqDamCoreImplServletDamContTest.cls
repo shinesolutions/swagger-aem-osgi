@@ -72,8 +72,8 @@ private class OASComDayCqDamCoreImplServletDamContTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqDamCoreImplServletDamCont comDayCqDamCoreImplServletDamContentDispositionFilterProperties = new OASComDayCqDamCoreImplServletDamCont();
-        Map<String, String> propertyMappings = comDayCqDamCoreImplServletDamContentDispositionFilterProperties.getPropertyMappings();
-        System.assertEquals('cqMimeTypeBlacklist', propertyMappings.get('cq.mime.type.blacklist'));
-        System.assertEquals('cqDamEmptyMime', propertyMappings.get('cq.dam.empty.mime'));
+        Map<String, String> x-property-mappings = comDayCqDamCoreImplServletDamContentDispositionFilterProperties.getx-property-mappings();
+        System.assertEquals('cqMimeTypeBlacklist', x-property-mappings.get('cq.mime.type.blacklist'));
+        System.assertEquals('cqDamEmptyMime', x-property-mappings.get('cq.dam.empty.mime'));
     }
 }

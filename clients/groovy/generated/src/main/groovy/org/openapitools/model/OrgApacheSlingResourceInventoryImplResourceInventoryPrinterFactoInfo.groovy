@@ -7,12 +7,12 @@ import org.openapitools.model.OrgApacheSlingResourceInventoryImplResourceInvento
 
 @Canonical
 class OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoProperties properties
 }

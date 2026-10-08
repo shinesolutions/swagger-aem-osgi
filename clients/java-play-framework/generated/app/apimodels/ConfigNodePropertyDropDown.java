@@ -1,35 +1,44 @@
 package apimodels;
 
 import apimodels.ConfigNodePropertyDropDownType;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * ConfigNodePropertyDropDown
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class ConfigNodePropertyDropDown   {
   @JsonProperty("name")
-  private String name = null;
+  
+  private String name;
 
   @JsonProperty("optional")
-  private Boolean optional = null;
+  
+  private Boolean optional;
 
   @JsonProperty("is_set")
-  private Boolean isSet = null;
+  
+  private Boolean isSet;
 
   @JsonProperty("type")
-  private ConfigNodePropertyDropDownType type = null;
+  @Valid
+
+  private ConfigNodePropertyDropDownType type;
 
   @JsonProperty("value")
+  
   private Object value = null;
 
   @JsonProperty("description")
-  private String description = null;
+  
+  private String description;
 
   public ConfigNodePropertyDropDown name(String name) {
     this.name = name;
@@ -40,7 +49,7 @@ public class ConfigNodePropertyDropDown   {
    * property name
    * @return name
   **/
-    public String getName() {
+  public String getName() {
     return name;
   }
 
@@ -57,7 +66,7 @@ public class ConfigNodePropertyDropDown   {
    * True if optional
    * @return optional
   **/
-    public Boolean getOptional() {
+  public Boolean getOptional() {
     return optional;
   }
 
@@ -74,7 +83,7 @@ public class ConfigNodePropertyDropDown   {
    * True if property is set
    * @return isSet
   **/
-    public Boolean getIsSet() {
+  public Boolean getIsSet() {
     return isSet;
   }
 
@@ -91,7 +100,6 @@ public class ConfigNodePropertyDropDown   {
    * Get type
    * @return type
   **/
-  @Valid
   public ConfigNodePropertyDropDownType getType() {
     return type;
   }
@@ -109,7 +117,7 @@ public class ConfigNodePropertyDropDown   {
    * Property value
    * @return value
   **/
-    public Object getValue() {
+  public Object getValue() {
     return value;
   }
 
@@ -126,7 +134,7 @@ public class ConfigNodePropertyDropDown   {
    * Property description
    * @return description
   **/
-    public String getDescription() {
+  public String getDescription() {
     return description;
   }
 
@@ -136,7 +144,7 @@ public class ConfigNodePropertyDropDown   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -177,11 +185,8 @@ public class ConfigNodePropertyDropDown   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

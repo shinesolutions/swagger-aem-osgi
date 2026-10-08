@@ -1,28 +1,39 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyInteger;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteProperties   {
-  @JsonProperty("allowed.paths")
-  private ConfigNodePropertyArray allowedPaths = null;
+@JsonTypeName("comDayCqAnalyticsSitecatalystImplExporterClassificationsExporteProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteProperties {
 
-  @JsonProperty("cq.analytics.saint.exporter.pagesize")
-  private ConfigNodePropertyInteger cqAnalyticsSaintExporterPagesize = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray allowedPaths;
 
-  public ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteProperties allowedPaths(ConfigNodePropertyArray allowedPaths) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger cqAnalyticsSaintExporterPagesize;
+
+  public ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteProperties allowedPaths(@Nullable ConfigNodePropertyArray allowedPaths) {
     this.allowedPaths = allowedPaths;
     return this;
   }
@@ -30,20 +41,20 @@ public class ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteProp
   /**
    * Get allowedPaths
    * @return allowedPaths
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getAllowedPaths() {
+   */
+  @Valid 
+  @Schema(name = "allowed.paths", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("allowed.paths")
+  public @Nullable ConfigNodePropertyArray getAllowedPaths() {
     return allowedPaths;
   }
 
-  public void setAllowedPaths(ConfigNodePropertyArray allowedPaths) {
+  @JsonProperty("allowed.paths")
+  public void setAllowedPaths(@Nullable ConfigNodePropertyArray allowedPaths) {
     this.allowedPaths = allowedPaths;
   }
 
-  public ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteProperties cqAnalyticsSaintExporterPagesize(ConfigNodePropertyInteger cqAnalyticsSaintExporterPagesize) {
+  public ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteProperties cqAnalyticsSaintExporterPagesize(@Nullable ConfigNodePropertyInteger cqAnalyticsSaintExporterPagesize) {
     this.cqAnalyticsSaintExporterPagesize = cqAnalyticsSaintExporterPagesize;
     return this;
   }
@@ -51,22 +62,21 @@ public class ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteProp
   /**
    * Get cqAnalyticsSaintExporterPagesize
    * @return cqAnalyticsSaintExporterPagesize
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getCqAnalyticsSaintExporterPagesize() {
+   */
+  @Valid 
+  @Schema(name = "cq.analytics.saint.exporter.pagesize", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cq.analytics.saint.exporter.pagesize")
+  public @Nullable ConfigNodePropertyInteger getCqAnalyticsSaintExporterPagesize() {
     return cqAnalyticsSaintExporterPagesize;
   }
 
-  public void setCqAnalyticsSaintExporterPagesize(ConfigNodePropertyInteger cqAnalyticsSaintExporterPagesize) {
+  @JsonProperty("cq.analytics.saint.exporter.pagesize")
+  public void setCqAnalyticsSaintExporterPagesize(@Nullable ConfigNodePropertyInteger cqAnalyticsSaintExporterPagesize) {
     this.cqAnalyticsSaintExporterPagesize = cqAnalyticsSaintExporterPagesize;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -87,7 +97,6 @@ public class ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteProp
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteProperties {\n");
-    
     sb.append("    allowedPaths: ").append(toIndentedString(allowedPaths)).append("\n");
     sb.append("    cqAnalyticsSaintExporterPagesize: ").append(toIndentedString(cqAnalyticsSaintExporterPagesize)).append("\n");
     sb.append("}");
@@ -98,11 +107,8 @@ public class ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteProp
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

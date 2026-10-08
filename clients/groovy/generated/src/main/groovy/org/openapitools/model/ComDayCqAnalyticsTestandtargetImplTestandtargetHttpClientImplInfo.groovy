@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqAnalyticsTestandtargetImplTestandtargetHtt
 
 @Canonical
 class ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplProperties properties
 }

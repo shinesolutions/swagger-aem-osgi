@@ -1,3 +1,13 @@
+/*
+ * Adobe Experience Manager OSGI config (AEM) API
+ *
+ * Swagger AEM OSGI is an OpenAPI specification for Adobe Experience Manager (AEM) OSGI Configurations API
+ *
+ * OpenAPI document version: 1.0.0-pre.0
+ * Maintained by: opensource@shinesolutions.com
+ *
+ * AUTO-GENERATED FILE, DO NOT MODIFY!
+ */
 package org.openapitools.model;
 
 import java.util.Objects;
@@ -13,18 +23,18 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2019-08-05T00:56:20.785Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2026-10-07T12:53:42.280804918Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheFelixScrScrServiceProperties   {
   
-  private ConfigNodePropertyDropDown dsLoglevel = null;
-  private ConfigNodePropertyBoolean dsFactoryEnabled = null;
-  private ConfigNodePropertyBoolean dsDelayedKeepInstances = null;
-  private ConfigNodePropertyInteger dsLockTimeoutMilliseconds = null;
-  private ConfigNodePropertyInteger dsStopTimeoutMilliseconds = null;
-  private ConfigNodePropertyBoolean dsGlobalExtender = null;
+  private ConfigNodePropertyDropDown dsLoglevel;
+  private ConfigNodePropertyBoolean dsFactoryEnabled;
+  private ConfigNodePropertyBoolean dsDelayedKeepInstances;
+  private ConfigNodePropertyInteger dsLockTimeoutMilliseconds;
+  private ConfigNodePropertyInteger dsStopTimeoutMilliseconds;
+  private ConfigNodePropertyBoolean dsGlobalExtender;
 
   /**
-   **/
+   */
   public OrgApacheFelixScrScrServiceProperties dsLoglevel(ConfigNodePropertyDropDown dsLoglevel) {
     this.dsLoglevel = dsLoglevel;
     return this;
@@ -41,7 +51,7 @@ public class OrgApacheFelixScrScrServiceProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheFelixScrScrServiceProperties dsFactoryEnabled(ConfigNodePropertyBoolean dsFactoryEnabled) {
     this.dsFactoryEnabled = dsFactoryEnabled;
     return this;
@@ -58,7 +68,7 @@ public class OrgApacheFelixScrScrServiceProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheFelixScrScrServiceProperties dsDelayedKeepInstances(ConfigNodePropertyBoolean dsDelayedKeepInstances) {
     this.dsDelayedKeepInstances = dsDelayedKeepInstances;
     return this;
@@ -75,7 +85,7 @@ public class OrgApacheFelixScrScrServiceProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheFelixScrScrServiceProperties dsLockTimeoutMilliseconds(ConfigNodePropertyInteger dsLockTimeoutMilliseconds) {
     this.dsLockTimeoutMilliseconds = dsLockTimeoutMilliseconds;
     return this;
@@ -92,7 +102,7 @@ public class OrgApacheFelixScrScrServiceProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheFelixScrScrServiceProperties dsStopTimeoutMilliseconds(ConfigNodePropertyInteger dsStopTimeoutMilliseconds) {
     this.dsStopTimeoutMilliseconds = dsStopTimeoutMilliseconds;
     return this;
@@ -109,7 +119,7 @@ public class OrgApacheFelixScrScrServiceProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheFelixScrScrServiceProperties dsGlobalExtender(ConfigNodePropertyBoolean dsGlobalExtender) {
     this.dsGlobalExtender = dsGlobalExtender;
     return this;
@@ -127,7 +137,7 @@ public class OrgApacheFelixScrScrServiceProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -167,11 +177,8 @@ public class OrgApacheFelixScrScrServiceProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

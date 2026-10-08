@@ -2,16 +2,17 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**pipeline_type** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **pipeline_type** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComAdobeCqDamCfmImplContentRewriterParRangeFilterProperties.new(pipeline_type: null)
+instance = SwaggerAemOsgiClient::ComAdobeCqDamCfmImplContentRewriterParRangeFilterProperties.new(
+  pipeline_type: null
+)
 ```
-
 

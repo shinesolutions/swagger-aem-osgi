@@ -72,12 +72,12 @@ private class OASOrgApacheSlingServletsGetDefaultGTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASOrgApacheSlingServletsGetDefaultG orgApacheSlingServletsGetDefaultGetServletProperties = new OASOrgApacheSlingServletsGetDefaultG();
-        Map<String, String> propertyMappings = orgApacheSlingServletsGetDefaultGetServletProperties.getPropertyMappings();
-        System.assertEquals('indexFiles', propertyMappings.get('index.files'));
-        System.assertEquals('enableHtml', propertyMappings.get('enable.html'));
-        System.assertEquals('enableJson', propertyMappings.get('enable.json'));
-        System.assertEquals('enableTxt', propertyMappings.get('enable.txt'));
-        System.assertEquals('enableXml', propertyMappings.get('enable.xml'));
-        System.assertEquals('jsonMaximumresults', propertyMappings.get('json.maximumresults'));
+        Map<String, String> x-property-mappings = orgApacheSlingServletsGetDefaultGetServletProperties.getx-property-mappings();
+        System.assertEquals('indexFiles', x-property-mappings.get('index.files'));
+        System.assertEquals('enableHtml', x-property-mappings.get('enable.html'));
+        System.assertEquals('enableJson', x-property-mappings.get('enable.json'));
+        System.assertEquals('enableTxt', x-property-mappings.get('enable.txt'));
+        System.assertEquals('enableXml', x-property-mappings.get('enable.xml'));
+        System.assertEquals('jsonMaximumresults', x-property-mappings.get('json.maximumresults'));
     }
 }

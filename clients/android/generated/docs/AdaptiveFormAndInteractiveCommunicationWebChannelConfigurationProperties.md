@@ -1,7 +1,9 @@
 
+
 # AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **showPlaceholder** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
@@ -9,6 +11,7 @@ Name | Type | Description | Notes
 **afScriptingCompatversion** | [**ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md) |  |  [optional]
 **makeFileNameUnique** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
 **generatingCompliantData** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
+
 
 
 

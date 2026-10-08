@@ -2,10 +2,10 @@
 # ComAdobeGraniteActivitystreamsImplActivityManagerImplProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**aggregatePeriodrelationships** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**aggregatePerioddescendPeriodvirtual** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **aggregateRelationships** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **aggregateDescendVirtual** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
 
 
 

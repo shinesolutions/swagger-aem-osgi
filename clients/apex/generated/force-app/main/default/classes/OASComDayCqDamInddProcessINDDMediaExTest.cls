@@ -72,10 +72,10 @@ private class OASComDayCqDamInddProcessINDDMediaExTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqDamInddProcessINDDMediaEx comDayCqDamInddProcessINDDMediaExtractProcessProperties = new OASComDayCqDamInddProcessINDDMediaEx();
-        Map<String, String> propertyMappings = comDayCqDamInddProcessINDDMediaExtractProcessProperties.getPropertyMappings();
-        System.assertEquals('processLabel', propertyMappings.get('process.label'));
-        System.assertEquals('cqDamInddPagesRegex', propertyMappings.get('cq.dam.indd.pages.regex'));
-        System.assertEquals('idsJobDecoupled', propertyMappings.get('ids.job.decoupled'));
-        System.assertEquals('idsJobWorkflowModel', propertyMappings.get('ids.job.workflow.model'));
+        Map<String, String> x-property-mappings = comDayCqDamInddProcessINDDMediaExtractProcessProperties.getx-property-mappings();
+        System.assertEquals('processLabel', x-property-mappings.get('process.label'));
+        System.assertEquals('cqDamInddPagesRegex', x-property-mappings.get('cq.dam.indd.pages.regex'));
+        System.assertEquals('idsJobDecoupled', x-property-mappings.get('ids.job.decoupled'));
+        System.assertEquals('idsJobWorkflowModel', x-property-mappings.get('ids.job.workflow.model'));
     }
 }

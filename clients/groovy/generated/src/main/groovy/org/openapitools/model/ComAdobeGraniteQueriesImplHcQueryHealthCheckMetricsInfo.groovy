@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeGraniteQueriesImplHcQueryHealthCheckMetric
 
 @Canonical
 class ComAdobeGraniteQueriesImplHcQueryHealthCheckMetricsInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteQueriesImplHcQueryHealthCheckMetricsProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteQueriesImplHcQueryHealthCheckMetricsProperties properties
 }

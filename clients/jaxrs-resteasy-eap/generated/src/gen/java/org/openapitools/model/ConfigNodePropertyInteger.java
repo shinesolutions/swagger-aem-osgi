@@ -4,27 +4,22 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2019-08-05T01:00:05.540Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2026-10-07T12:54:26.576036107Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ConfigNodePropertyInteger   {
   
-
-  private String name = null;
-
-  private Boolean optional = null;
-
-  private Boolean isSet = null;
-
-  private Integer type = null;
-
-  private Integer value = null;
-
-  private String description = null;
+  private String name;
+  private Boolean optional;
+  private Boolean isSet;
+  private Integer type;
+  private Integer value;
+  private String description;
 
   /**
    * property name
@@ -114,12 +109,12 @@ public class ConfigNodePropertyInteger   {
       return false;
     }
     ConfigNodePropertyInteger configNodePropertyInteger = (ConfigNodePropertyInteger) o;
-    return Objects.equals(name, configNodePropertyInteger.name) &&
-        Objects.equals(optional, configNodePropertyInteger.optional) &&
-        Objects.equals(isSet, configNodePropertyInteger.isSet) &&
-        Objects.equals(type, configNodePropertyInteger.type) &&
-        Objects.equals(value, configNodePropertyInteger.value) &&
-        Objects.equals(description, configNodePropertyInteger.description);
+    return Objects.equals(this.name, configNodePropertyInteger.name) &&
+        Objects.equals(this.optional, configNodePropertyInteger.optional) &&
+        Objects.equals(this.isSet, configNodePropertyInteger.isSet) &&
+        Objects.equals(this.type, configNodePropertyInteger.type) &&
+        Objects.equals(this.value, configNodePropertyInteger.value) &&
+        Objects.equals(this.description, configNodePropertyInteger.description);
   }
 
   @Override
@@ -147,10 +142,7 @@ public class ConfigNodePropertyInteger   {
    * (except the first line).
    */
   private String toIndentedString(Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

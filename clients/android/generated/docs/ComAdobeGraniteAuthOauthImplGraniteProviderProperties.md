@@ -1,7 +1,9 @@
 
+
 # ComAdobeGraniteAuthOauthImplGraniteProviderProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **oauthProviderId** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
@@ -9,6 +11,7 @@ Name | Type | Description | Notes
 **oauthProviderGraniteTokenUrl** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
 **oauthProviderGraniteProfileUrl** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
 **oauthProviderGraniteExtendedDetailsUrls** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
+
 
 
 

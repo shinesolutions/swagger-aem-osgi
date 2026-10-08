@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyArray;
 import com.prokarma.pkmst.model.ConfigNodePropertyBoolean;
 import com.prokarma.pkmst.model.ConfigNodePropertyInteger;
@@ -18,60 +19,59 @@ import io.swagger.annotations.ApiModelProperty;
  * OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProperties   {
   @JsonProperty("handler.name")
-  private ConfigNodePropertyString handlerName = null;
+  private ConfigNodePropertyString handlerName;
 
   @JsonProperty("user.expirationTime")
-  private ConfigNodePropertyString userExpirationTime = null;
+  private ConfigNodePropertyString userExpirationTime;
 
   @JsonProperty("user.autoMembership")
-  private ConfigNodePropertyArray userAutoMembership = null;
+  private ConfigNodePropertyArray userAutoMembership;
 
   @JsonProperty("user.propertyMapping")
-  private ConfigNodePropertyArray userPropertyMapping = null;
+  private ConfigNodePropertyArray userPropertyMapping;
 
   @JsonProperty("user.pathPrefix")
-  private ConfigNodePropertyString userPathPrefix = null;
+  private ConfigNodePropertyString userPathPrefix;
 
   @JsonProperty("user.membershipExpTime")
-  private ConfigNodePropertyString userMembershipExpTime = null;
+  private ConfigNodePropertyString userMembershipExpTime;
 
   @JsonProperty("user.membershipNestingDepth")
-  private ConfigNodePropertyInteger userMembershipNestingDepth = null;
+  private ConfigNodePropertyInteger userMembershipNestingDepth;
 
   @JsonProperty("user.dynamicMembership")
-  private ConfigNodePropertyBoolean userDynamicMembership = null;
+  private ConfigNodePropertyBoolean userDynamicMembership;
 
   @JsonProperty("user.disableMissing")
-  private ConfigNodePropertyBoolean userDisableMissing = null;
+  private ConfigNodePropertyBoolean userDisableMissing;
 
   @JsonProperty("group.expirationTime")
-  private ConfigNodePropertyString groupExpirationTime = null;
+  private ConfigNodePropertyString groupExpirationTime;
 
   @JsonProperty("group.autoMembership")
-  private ConfigNodePropertyArray groupAutoMembership = null;
+  private ConfigNodePropertyArray groupAutoMembership;
 
   @JsonProperty("group.propertyMapping")
-  private ConfigNodePropertyArray groupPropertyMapping = null;
+  private ConfigNodePropertyArray groupPropertyMapping;
 
   @JsonProperty("group.pathPrefix")
-  private ConfigNodePropertyString groupPathPrefix = null;
+  private ConfigNodePropertyString groupPathPrefix;
 
   @JsonProperty("enableRFC7613UsercaseMappedProfile")
-  private ConfigNodePropertyBoolean enableRFC7613UsercaseMappedProfile = null;
+  private ConfigNodePropertyBoolean enableRFC7613UsercaseMappedProfile;
 
   public OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProperties handlerName(ConfigNodePropertyString handlerName) {
     this.handlerName = handlerName;
     return this;
   }
 
-   /**
+  /**
    * Get handlerName
    * @return handlerName
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getHandlerName() {
     return handlerName;
@@ -86,10 +86,10 @@ public class OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProper
     return this;
   }
 
-   /**
+  /**
    * Get userExpirationTime
    * @return userExpirationTime
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getUserExpirationTime() {
     return userExpirationTime;
@@ -104,10 +104,10 @@ public class OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProper
     return this;
   }
 
-   /**
+  /**
    * Get userAutoMembership
    * @return userAutoMembership
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getUserAutoMembership() {
     return userAutoMembership;
@@ -122,10 +122,10 @@ public class OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProper
     return this;
   }
 
-   /**
+  /**
    * Get userPropertyMapping
    * @return userPropertyMapping
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getUserPropertyMapping() {
     return userPropertyMapping;
@@ -140,10 +140,10 @@ public class OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProper
     return this;
   }
 
-   /**
+  /**
    * Get userPathPrefix
    * @return userPathPrefix
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getUserPathPrefix() {
     return userPathPrefix;
@@ -158,10 +158,10 @@ public class OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProper
     return this;
   }
 
-   /**
+  /**
    * Get userMembershipExpTime
    * @return userMembershipExpTime
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getUserMembershipExpTime() {
     return userMembershipExpTime;
@@ -176,10 +176,10 @@ public class OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProper
     return this;
   }
 
-   /**
+  /**
    * Get userMembershipNestingDepth
    * @return userMembershipNestingDepth
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getUserMembershipNestingDepth() {
     return userMembershipNestingDepth;
@@ -194,10 +194,10 @@ public class OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProper
     return this;
   }
 
-   /**
+  /**
    * Get userDynamicMembership
    * @return userDynamicMembership
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getUserDynamicMembership() {
     return userDynamicMembership;
@@ -212,10 +212,10 @@ public class OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProper
     return this;
   }
 
-   /**
+  /**
    * Get userDisableMissing
    * @return userDisableMissing
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getUserDisableMissing() {
     return userDisableMissing;
@@ -230,10 +230,10 @@ public class OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProper
     return this;
   }
 
-   /**
+  /**
    * Get groupExpirationTime
    * @return groupExpirationTime
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getGroupExpirationTime() {
     return groupExpirationTime;
@@ -248,10 +248,10 @@ public class OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProper
     return this;
   }
 
-   /**
+  /**
    * Get groupAutoMembership
    * @return groupAutoMembership
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getGroupAutoMembership() {
     return groupAutoMembership;
@@ -266,10 +266,10 @@ public class OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProper
     return this;
   }
 
-   /**
+  /**
    * Get groupPropertyMapping
    * @return groupPropertyMapping
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getGroupPropertyMapping() {
     return groupPropertyMapping;
@@ -284,10 +284,10 @@ public class OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProper
     return this;
   }
 
-   /**
+  /**
    * Get groupPathPrefix
    * @return groupPathPrefix
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getGroupPathPrefix() {
     return groupPathPrefix;
@@ -302,10 +302,10 @@ public class OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProper
     return this;
   }
 
-   /**
+  /**
    * Get enableRFC7613UsercaseMappedProfile
    * @return enableRFC7613UsercaseMappedProfile
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getEnableRFC7613UsercaseMappedProfile() {
     return enableRFC7613UsercaseMappedProfile;
@@ -317,7 +317,7 @@ public class OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProper
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -373,11 +373,8 @@ public class OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProper
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

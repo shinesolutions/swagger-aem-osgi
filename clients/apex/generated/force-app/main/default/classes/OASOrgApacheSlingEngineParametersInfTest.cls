@@ -72,8 +72,8 @@ private class OASOrgApacheSlingEngineParametersInfTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASOrgApacheSlingEngineParametersInf orgApacheSlingEngineParametersInfo = new OASOrgApacheSlingEngineParametersInf();
-        Map<String, String> propertyMappings = orgApacheSlingEngineParametersInfo.getPropertyMappings();
-        System.assertEquals('bundleLocation', propertyMappings.get('bundle_location'));
-        System.assertEquals('serviceLocation', propertyMappings.get('service_location'));
+        Map<String, String> x-property-mappings = orgApacheSlingEngineParametersInfo.getx-property-mappings();
+        System.assertEquals('bundleLocation', x-property-mappings.get('bundle_location'));
+        System.assertEquals('serviceLocation', x-property-mappings.get('service_location'));
     }
 }

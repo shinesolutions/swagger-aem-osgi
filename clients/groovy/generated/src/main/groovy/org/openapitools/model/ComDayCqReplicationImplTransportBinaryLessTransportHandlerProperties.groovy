@@ -7,8 +7,8 @@ import org.openapitools.model.ConfigNodePropertyArray;
 
 @Canonical
 class ComDayCqReplicationImplTransportBinaryLessTransportHandlerProperties {
-    ConfigNodePropertyArray disabledCipherSuites = null
-
-    ConfigNodePropertyArray enabledCipherSuites = null
-
+    
+    ConfigNodePropertyArray disabledCipherSuites
+    
+    ConfigNodePropertyArray enabledCipherSuites
 }

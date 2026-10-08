@@ -72,12 +72,12 @@ private class OASComDayCqDamCoreImplServletResourcTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqDamCoreImplServletResourc comDayCqDamCoreImplServletResourceCollectionServletProperties = new OASComDayCqDamCoreImplServletResourc();
-        Map<String, String> propertyMappings = comDayCqDamCoreImplServletResourceCollectionServletProperties.getPropertyMappings();
-        System.assertEquals('slingServletResourceTypes', propertyMappings.get('sling.servlet.resourceTypes'));
-        System.assertEquals('slingServletMethods', propertyMappings.get('sling.servlet.methods'));
-        System.assertEquals('slingServletSelectors', propertyMappings.get('sling.servlet.selectors'));
-        System.assertEquals('downloadConfig', propertyMappings.get('download.config'));
-        System.assertEquals('viewSelector', propertyMappings.get('view.selector'));
-        System.assertEquals('sendEmail', propertyMappings.get('send_email'));
+        Map<String, String> x-property-mappings = comDayCqDamCoreImplServletResourceCollectionServletProperties.getx-property-mappings();
+        System.assertEquals('slingServletResourceTypes', x-property-mappings.get('sling.servlet.resourceTypes'));
+        System.assertEquals('slingServletMethods', x-property-mappings.get('sling.servlet.methods'));
+        System.assertEquals('slingServletSelectors', x-property-mappings.get('sling.servlet.selectors'));
+        System.assertEquals('downloadConfig', x-property-mappings.get('download.config'));
+        System.assertEquals('viewSelector', x-property-mappings.get('view.selector'));
+        System.assertEquals('sendEmail', x-property-mappings.get('send_email'));
     }
 }

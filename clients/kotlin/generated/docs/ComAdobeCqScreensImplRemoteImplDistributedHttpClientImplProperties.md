@@ -2,9 +2,9 @@
 # ComAdobeCqScreensImplRemoteImplDistributedHttpClientImplProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**comPeriodadobePeriodaemPeriodscreensPeriodimplPeriodremotePeriodrequestUnderscoretimeout** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **comAdobeAemScreensImplRemoteRequestTimeout** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
 
 
 

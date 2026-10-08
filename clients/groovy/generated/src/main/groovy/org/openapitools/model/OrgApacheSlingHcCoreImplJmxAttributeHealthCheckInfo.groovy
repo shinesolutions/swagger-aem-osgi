@@ -7,12 +7,12 @@ import org.openapitools.model.OrgApacheSlingHcCoreImplJmxAttributeHealthCheckPro
 
 @Canonical
 class OrgApacheSlingHcCoreImplJmxAttributeHealthCheckInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheSlingHcCoreImplJmxAttributeHealthCheckProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheSlingHcCoreImplJmxAttributeHealthCheckProperties properties
 }

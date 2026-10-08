@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyArray;
 
 @Canonical
 class OrgApacheJackrabbitVaultPackagingImplPackagingImplProperties {
-    ConfigNodePropertyArray packageRoots = null
-
+    
+    ConfigNodePropertyArray packageRoots
 }

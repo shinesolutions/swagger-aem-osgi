@@ -2,13 +2,13 @@
 # ComDayCqDamCoreImplDamEventRecorderImplProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**eventPeriodfilter** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**eventPeriodqueuePeriodlength** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**eventrecorderPeriodenabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**eventrecorderPeriodblacklist** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**eventrecorderPeriodeventtypes** | [**ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **eventFilter** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **eventQueueLength** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **eventrecorderEnabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **eventrecorderBlacklist** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **eventrecorderEventtypes** | [**ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md) |  |  [optional] |
 
 
 

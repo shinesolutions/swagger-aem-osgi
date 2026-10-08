@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyBoolean;
 import com.prokarma.pkmst.model.ConfigNodePropertyInteger;
 import com.prokarma.pkmst.model.ConfigNodePropertyString;
@@ -17,42 +18,41 @@ import io.swagger.annotations.ApiModelProperty;
  * ComAdobeGraniteDistributionCoreImplDiffDiffChangesObserverProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteDistributionCoreImplDiffDiffChangesObserverProperties   {
   @JsonProperty("enabled")
-  private ConfigNodePropertyBoolean enabled = null;
+  private ConfigNodePropertyBoolean enabled;
 
   @JsonProperty("agentName")
-  private ConfigNodePropertyString agentName = null;
+  private ConfigNodePropertyString agentName;
 
   @JsonProperty("diffPath")
-  private ConfigNodePropertyString diffPath = null;
+  private ConfigNodePropertyString diffPath;
 
   @JsonProperty("observedPath")
-  private ConfigNodePropertyString observedPath = null;
+  private ConfigNodePropertyString observedPath;
 
   @JsonProperty("serviceName")
-  private ConfigNodePropertyString serviceName = null;
+  private ConfigNodePropertyString serviceName;
 
   @JsonProperty("propertyNames")
-  private ConfigNodePropertyString propertyNames = null;
+  private ConfigNodePropertyString propertyNames;
 
   @JsonProperty("distributionDelay")
-  private ConfigNodePropertyInteger distributionDelay = null;
+  private ConfigNodePropertyInteger distributionDelay;
 
   @JsonProperty("serviceUser.target")
-  private ConfigNodePropertyString serviceUserTarget = null;
+  private ConfigNodePropertyString serviceUserTarget;
 
   public ComAdobeGraniteDistributionCoreImplDiffDiffChangesObserverProperties enabled(ConfigNodePropertyBoolean enabled) {
     this.enabled = enabled;
     return this;
   }
 
-   /**
+  /**
    * Get enabled
    * @return enabled
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getEnabled() {
     return enabled;
@@ -67,10 +67,10 @@ public class ComAdobeGraniteDistributionCoreImplDiffDiffChangesObserverPropertie
     return this;
   }
 
-   /**
+  /**
    * Get agentName
    * @return agentName
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getAgentName() {
     return agentName;
@@ -85,10 +85,10 @@ public class ComAdobeGraniteDistributionCoreImplDiffDiffChangesObserverPropertie
     return this;
   }
 
-   /**
+  /**
    * Get diffPath
    * @return diffPath
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getDiffPath() {
     return diffPath;
@@ -103,10 +103,10 @@ public class ComAdobeGraniteDistributionCoreImplDiffDiffChangesObserverPropertie
     return this;
   }
 
-   /**
+  /**
    * Get observedPath
    * @return observedPath
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getObservedPath() {
     return observedPath;
@@ -121,10 +121,10 @@ public class ComAdobeGraniteDistributionCoreImplDiffDiffChangesObserverPropertie
     return this;
   }
 
-   /**
+  /**
    * Get serviceName
    * @return serviceName
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getServiceName() {
     return serviceName;
@@ -139,10 +139,10 @@ public class ComAdobeGraniteDistributionCoreImplDiffDiffChangesObserverPropertie
     return this;
   }
 
-   /**
+  /**
    * Get propertyNames
    * @return propertyNames
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getPropertyNames() {
     return propertyNames;
@@ -157,10 +157,10 @@ public class ComAdobeGraniteDistributionCoreImplDiffDiffChangesObserverPropertie
     return this;
   }
 
-   /**
+  /**
    * Get distributionDelay
    * @return distributionDelay
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getDistributionDelay() {
     return distributionDelay;
@@ -175,10 +175,10 @@ public class ComAdobeGraniteDistributionCoreImplDiffDiffChangesObserverPropertie
     return this;
   }
 
-   /**
+  /**
    * Get serviceUserTarget
    * @return serviceUserTarget
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getServiceUserTarget() {
     return serviceUserTarget;
@@ -190,7 +190,7 @@ public class ComAdobeGraniteDistributionCoreImplDiffDiffChangesObserverPropertie
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -234,11 +234,8 @@ public class ComAdobeGraniteDistributionCoreImplDiffDiffChangesObserverPropertie
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

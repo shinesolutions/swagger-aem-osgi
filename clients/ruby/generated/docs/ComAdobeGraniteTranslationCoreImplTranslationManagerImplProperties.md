@@ -2,18 +2,19 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**default_connector_name** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
-**default_category** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **default_connector_name** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] |
+| **default_category** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComAdobeGraniteTranslationCoreImplTranslationManagerImplProperties.new(default_connector_name: null,
-                                 default_category: null)
+instance = SwaggerAemOsgiClient::ComAdobeGraniteTranslationCoreImplTranslationManagerImplProperties.new(
+  default_connector_name: null,
+  default_category: null
+)
 ```
-
 

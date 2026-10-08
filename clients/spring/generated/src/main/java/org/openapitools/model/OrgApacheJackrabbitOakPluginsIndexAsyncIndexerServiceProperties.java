@@ -1,34 +1,45 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyInteger;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * OrgApacheJackrabbitOakPluginsIndexAsyncIndexerServiceProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class OrgApacheJackrabbitOakPluginsIndexAsyncIndexerServiceProperties   {
-  @JsonProperty("asyncConfigs")
-  private ConfigNodePropertyArray asyncConfigs = null;
+@JsonTypeName("orgApacheJackrabbitOakPluginsIndexAsyncIndexerServiceProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class OrgApacheJackrabbitOakPluginsIndexAsyncIndexerServiceProperties {
 
-  @JsonProperty("leaseTimeOutMinutes")
-  private ConfigNodePropertyInteger leaseTimeOutMinutes = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray asyncConfigs;
 
-  @JsonProperty("failingIndexTimeoutSeconds")
-  private ConfigNodePropertyInteger failingIndexTimeoutSeconds = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger leaseTimeOutMinutes;
 
-  @JsonProperty("errorWarnIntervalSeconds")
-  private ConfigNodePropertyInteger errorWarnIntervalSeconds = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger failingIndexTimeoutSeconds;
 
-  public OrgApacheJackrabbitOakPluginsIndexAsyncIndexerServiceProperties asyncConfigs(ConfigNodePropertyArray asyncConfigs) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger errorWarnIntervalSeconds;
+
+  public OrgApacheJackrabbitOakPluginsIndexAsyncIndexerServiceProperties asyncConfigs(@Nullable ConfigNodePropertyArray asyncConfigs) {
     this.asyncConfigs = asyncConfigs;
     return this;
   }
@@ -36,20 +47,20 @@ public class OrgApacheJackrabbitOakPluginsIndexAsyncIndexerServiceProperties   {
   /**
    * Get asyncConfigs
    * @return asyncConfigs
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getAsyncConfigs() {
+   */
+  @Valid 
+  @Schema(name = "asyncConfigs", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("asyncConfigs")
+  public @Nullable ConfigNodePropertyArray getAsyncConfigs() {
     return asyncConfigs;
   }
 
-  public void setAsyncConfigs(ConfigNodePropertyArray asyncConfigs) {
+  @JsonProperty("asyncConfigs")
+  public void setAsyncConfigs(@Nullable ConfigNodePropertyArray asyncConfigs) {
     this.asyncConfigs = asyncConfigs;
   }
 
-  public OrgApacheJackrabbitOakPluginsIndexAsyncIndexerServiceProperties leaseTimeOutMinutes(ConfigNodePropertyInteger leaseTimeOutMinutes) {
+  public OrgApacheJackrabbitOakPluginsIndexAsyncIndexerServiceProperties leaseTimeOutMinutes(@Nullable ConfigNodePropertyInteger leaseTimeOutMinutes) {
     this.leaseTimeOutMinutes = leaseTimeOutMinutes;
     return this;
   }
@@ -57,20 +68,20 @@ public class OrgApacheJackrabbitOakPluginsIndexAsyncIndexerServiceProperties   {
   /**
    * Get leaseTimeOutMinutes
    * @return leaseTimeOutMinutes
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getLeaseTimeOutMinutes() {
+   */
+  @Valid 
+  @Schema(name = "leaseTimeOutMinutes", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("leaseTimeOutMinutes")
+  public @Nullable ConfigNodePropertyInteger getLeaseTimeOutMinutes() {
     return leaseTimeOutMinutes;
   }
 
-  public void setLeaseTimeOutMinutes(ConfigNodePropertyInteger leaseTimeOutMinutes) {
+  @JsonProperty("leaseTimeOutMinutes")
+  public void setLeaseTimeOutMinutes(@Nullable ConfigNodePropertyInteger leaseTimeOutMinutes) {
     this.leaseTimeOutMinutes = leaseTimeOutMinutes;
   }
 
-  public OrgApacheJackrabbitOakPluginsIndexAsyncIndexerServiceProperties failingIndexTimeoutSeconds(ConfigNodePropertyInteger failingIndexTimeoutSeconds) {
+  public OrgApacheJackrabbitOakPluginsIndexAsyncIndexerServiceProperties failingIndexTimeoutSeconds(@Nullable ConfigNodePropertyInteger failingIndexTimeoutSeconds) {
     this.failingIndexTimeoutSeconds = failingIndexTimeoutSeconds;
     return this;
   }
@@ -78,20 +89,20 @@ public class OrgApacheJackrabbitOakPluginsIndexAsyncIndexerServiceProperties   {
   /**
    * Get failingIndexTimeoutSeconds
    * @return failingIndexTimeoutSeconds
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getFailingIndexTimeoutSeconds() {
+   */
+  @Valid 
+  @Schema(name = "failingIndexTimeoutSeconds", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("failingIndexTimeoutSeconds")
+  public @Nullable ConfigNodePropertyInteger getFailingIndexTimeoutSeconds() {
     return failingIndexTimeoutSeconds;
   }
 
-  public void setFailingIndexTimeoutSeconds(ConfigNodePropertyInteger failingIndexTimeoutSeconds) {
+  @JsonProperty("failingIndexTimeoutSeconds")
+  public void setFailingIndexTimeoutSeconds(@Nullable ConfigNodePropertyInteger failingIndexTimeoutSeconds) {
     this.failingIndexTimeoutSeconds = failingIndexTimeoutSeconds;
   }
 
-  public OrgApacheJackrabbitOakPluginsIndexAsyncIndexerServiceProperties errorWarnIntervalSeconds(ConfigNodePropertyInteger errorWarnIntervalSeconds) {
+  public OrgApacheJackrabbitOakPluginsIndexAsyncIndexerServiceProperties errorWarnIntervalSeconds(@Nullable ConfigNodePropertyInteger errorWarnIntervalSeconds) {
     this.errorWarnIntervalSeconds = errorWarnIntervalSeconds;
     return this;
   }
@@ -99,22 +110,21 @@ public class OrgApacheJackrabbitOakPluginsIndexAsyncIndexerServiceProperties   {
   /**
    * Get errorWarnIntervalSeconds
    * @return errorWarnIntervalSeconds
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getErrorWarnIntervalSeconds() {
+   */
+  @Valid 
+  @Schema(name = "errorWarnIntervalSeconds", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("errorWarnIntervalSeconds")
+  public @Nullable ConfigNodePropertyInteger getErrorWarnIntervalSeconds() {
     return errorWarnIntervalSeconds;
   }
 
-  public void setErrorWarnIntervalSeconds(ConfigNodePropertyInteger errorWarnIntervalSeconds) {
+  @JsonProperty("errorWarnIntervalSeconds")
+  public void setErrorWarnIntervalSeconds(@Nullable ConfigNodePropertyInteger errorWarnIntervalSeconds) {
     this.errorWarnIntervalSeconds = errorWarnIntervalSeconds;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -137,7 +147,6 @@ public class OrgApacheJackrabbitOakPluginsIndexAsyncIndexerServiceProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class OrgApacheJackrabbitOakPluginsIndexAsyncIndexerServiceProperties {\n");
-    
     sb.append("    asyncConfigs: ").append(toIndentedString(asyncConfigs)).append("\n");
     sb.append("    leaseTimeOutMinutes: ").append(toIndentedString(leaseTimeOutMinutes)).append("\n");
     sb.append("    failingIndexTimeoutSeconds: ").append(toIndentedString(failingIndexTimeoutSeconds)).append("\n");
@@ -150,11 +159,8 @@ public class OrgApacheJackrabbitOakPluginsIndexAsyncIndexerServiceProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeCqCommerceImplPromotionPromotionManagerImplProperties {
-    ConfigNodePropertyString cqCommercePromotionRoot = null
-
+    
+    ConfigNodePropertyString cqCommercePromotionRoot
 }

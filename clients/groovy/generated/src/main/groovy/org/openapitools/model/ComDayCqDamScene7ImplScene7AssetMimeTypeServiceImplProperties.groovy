@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyArray;
 
 @Canonical
 class ComDayCqDamScene7ImplScene7AssetMimeTypeServiceImplProperties {
-    ConfigNodePropertyArray cqDamScene7AssetmimetypeserviceMapping = null
-
+    
+    ConfigNodePropertyArray cqDamScene7AssetmimetypeserviceMapping
 }

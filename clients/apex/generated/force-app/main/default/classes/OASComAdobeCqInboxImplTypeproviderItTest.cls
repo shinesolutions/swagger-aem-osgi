@@ -72,11 +72,11 @@ private class OASComAdobeCqInboxImplTypeproviderItTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeCqInboxImplTypeproviderIt comAdobeCqInboxImplTypeproviderItemTypeProviderProperties = new OASComAdobeCqInboxImplTypeproviderIt();
-        Map<String, String> propertyMappings = comAdobeCqInboxImplTypeproviderItemTypeProviderProperties.getPropertyMappings();
-        System.assertEquals('inboxImplTypeproviderRegistrypaths', propertyMappings.get('inbox.impl.typeprovider.registrypaths'));
-        System.assertEquals('inboxImplTypeproviderLegacypaths', propertyMappings.get('inbox.impl.typeprovider.legacypaths'));
-        System.assertEquals('inboxImplTypeproviderDefaulturlFailureitem', propertyMappings.get('inbox.impl.typeprovider.defaulturl.failureitem'));
-        System.assertEquals('inboxImplTypeproviderDefaulturlWorkitem', propertyMappings.get('inbox.impl.typeprovider.defaulturl.workitem'));
-        System.assertEquals('inboxImplTypeproviderDefaulturlTask', propertyMappings.get('inbox.impl.typeprovider.defaulturl.task'));
+        Map<String, String> x-property-mappings = comAdobeCqInboxImplTypeproviderItemTypeProviderProperties.getx-property-mappings();
+        System.assertEquals('inboxImplTypeproviderRegistrypaths', x-property-mappings.get('inbox.impl.typeprovider.registrypaths'));
+        System.assertEquals('inboxImplTypeproviderLegacypaths', x-property-mappings.get('inbox.impl.typeprovider.legacypaths'));
+        System.assertEquals('inboxImplTypeproviderDefaulturlFailureitem', x-property-mappings.get('inbox.impl.typeprovider.defaulturl.failureitem'));
+        System.assertEquals('inboxImplTypeproviderDefaulturlWorkitem', x-property-mappings.get('inbox.impl.typeprovider.defaulturl.workitem'));
+        System.assertEquals('inboxImplTypeproviderDefaulturlTask', x-property-mappings.get('inbox.impl.typeprovider.defaulturl.task'));
     }
 }

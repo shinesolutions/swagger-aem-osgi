@@ -7,16 +7,16 @@ import org.openapitools.model.OrgApacheSlingServletsGetDefaultGetServletProperti
 
 @Canonical
 class OrgApacheSlingServletsGetDefaultGetServletInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheSlingServletsGetDefaultGetServletProperties properties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheSlingServletsGetDefaultGetServletProperties properties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

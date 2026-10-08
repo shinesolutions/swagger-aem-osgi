@@ -2,12 +2,18 @@ defmodule AdobeExperienceManagerOSGIConfig(AEM)API.Mixfile do
   use Mix.Project
 
   def project do
-    [app: :adobe_experience_manager_osgi_config(aem)api,
-     version: "0.1.0",
-     elixir: "~> 1.4",
-     build_embedded: Mix.env == :prod,
-     start_permanent: Mix.env == :prod,
-     deps: deps()]
+    [
+      app: :"adobe_experience_manager_osgi_config(aem)api",
+      version: "1.0.0",
+      elixir: "~> 1.18",
+      build_embedded: Mix.env() == :prod,
+      start_permanent: Mix.env() == :prod,
+      package: package(),
+      description: """
+      Swagger AEM OSGI is an OpenAPI specification for Adobe Experience Manager (AEM) OSGI Configurations API
+      """,
+      deps: deps()
+    ]
   end
 
   # Configuration for the OTP application
@@ -24,13 +30,21 @@ defmodule AdobeExperienceManagerOSGIConfig(AEM)API.Mixfile do
   #
   # Or git/path repositories:
   #
-  #   {:my_dep, git: "https://github.com/elixir-lang/my_dep.git", tag: "0.1.0"}
+  #   {:my_dep, git: "https://github.com/elixir-lang/my_dep.git", tag: "0.3.0"}
   #
   # Type "mix help deps" for more examples and options
   defp deps do
     [
-      {:tesla, "~> 0.8"},
-      {:poison, ">= 1.0.0"}
+      {:tesla, "~> 1.14"},
+      {:ex_doc, "~> 0.37.3", only: :dev, runtime: false},
+      {:dialyxir, "~> 1.4", only: [:dev, :test], runtime: false}
     ]
+  end
+
+   defp package do
+      [
+        name: "adobe_experience_manager_osgi_config(aem)api",
+        files: ~w(.formatter.exs config lib mix.exs README* LICENSE*),
+      ]
   end
 end

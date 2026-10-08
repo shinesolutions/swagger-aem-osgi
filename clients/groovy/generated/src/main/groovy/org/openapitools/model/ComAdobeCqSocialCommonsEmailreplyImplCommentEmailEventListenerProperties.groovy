@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeCqSocialCommonsEmailreplyImplCommentEmailEventListenerProperties {
-    ConfigNodePropertyString eventTopics = null
-
+    
+    ConfigNodePropertyString eventTopics
 }

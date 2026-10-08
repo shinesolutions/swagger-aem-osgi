@@ -1,0 +1,63 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerProperties {
+    title = ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerProperties
+    description = ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerProperties
+    derivedFrom = Root
+    properties {
+        path {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        oauth_client_ids_allowed {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        auth_bearer_sync_ims {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        auth_token_request_parameter {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        oauth_bearer_configid {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        oauth_jwt_support {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerProperties {
+    title = ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerProperties
+    description = ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerProperties
+    implements = openapi_server.resourceTypes.ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerProperties
+
+  }
+}

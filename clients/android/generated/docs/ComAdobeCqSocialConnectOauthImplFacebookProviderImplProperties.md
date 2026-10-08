@@ -1,7 +1,9 @@
 
+
 # ComAdobeCqSocialConnectOauthImplFacebookProviderImplProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **oauthProviderId** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
@@ -12,6 +14,7 @@ Name | Type | Description | Notes
 **providerConfigFacebookFetchFields** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
 **providerConfigFacebookFields** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
 **providerConfigRefreshUserdataEnabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
+
 
 
 

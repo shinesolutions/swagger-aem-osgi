@@ -2,10 +2,10 @@
 # ComDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**schedulerPeriodexpression** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**schedulerPeriodconcurrent** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **schedulerExpression** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **schedulerConcurrent** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
 
 
 

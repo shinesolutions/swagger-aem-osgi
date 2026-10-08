@@ -8,10 +8,10 @@ import org.openapitools.model.ConfigNodePropertyBoolean;
 
 @Canonical
 class ComAdobeGraniteWorkflowCoreWorkflowConfigProperties {
-    ConfigNodePropertyArray cqWorkflowConfigWorkflowPackagesRootPath = null
-
-    ConfigNodePropertyBoolean cqWorkflowConfigWorkflowProcessLegacyMode = null
-
-    ConfigNodePropertyBoolean cqWorkflowConfigAllowLocking = null
-
+    
+    ConfigNodePropertyArray cqWorkflowConfigWorkflowPackagesRootPath
+    
+    ConfigNodePropertyBoolean cqWorkflowConfigWorkflowProcessLegacyMode
+    
+    ConfigNodePropertyBoolean cqWorkflowConfigAllowLocking
 }

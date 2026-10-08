@@ -4,28 +4,32 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyDropDown;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2019-08-05T00:59:30.156Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2026-10-07T12:54:21.614735164Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerProperties   {
   
-  private ConfigNodePropertyString path = null;
-  private ConfigNodePropertyDropDown tokenRequiredAttr = null;
-  private ConfigNodePropertyString tokenAlternateUrl = null;
-  private ConfigNodePropertyBoolean tokenEncapsulated = null;
-  private ConfigNodePropertyArray skipTokenRefresh = null;
+  private ConfigNodePropertyString path;
+  private ConfigNodePropertyDropDown tokenRequiredAttr;
+  private ConfigNodePropertyString tokenAlternateUrl;
+  private ConfigNodePropertyBoolean tokenEncapsulated;
+  private ConfigNodePropertyArray skipTokenRefresh;
 
   /**
    **/
   
   @ApiModelProperty(value = "")
   @JsonProperty("path")
+  @Valid
   public ConfigNodePropertyString getPath() {
     return path;
   }
@@ -38,6 +42,7 @@ public class ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerProperties 
   
   @ApiModelProperty(value = "")
   @JsonProperty("token.required.attr")
+  @Valid
   public ConfigNodePropertyDropDown getTokenRequiredAttr() {
     return tokenRequiredAttr;
   }
@@ -50,6 +55,7 @@ public class ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerProperties 
   
   @ApiModelProperty(value = "")
   @JsonProperty("token.alternate.url")
+  @Valid
   public ConfigNodePropertyString getTokenAlternateUrl() {
     return tokenAlternateUrl;
   }
@@ -62,6 +68,7 @@ public class ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerProperties 
   
   @ApiModelProperty(value = "")
   @JsonProperty("token.encapsulated")
+  @Valid
   public ConfigNodePropertyBoolean getTokenEncapsulated() {
     return tokenEncapsulated;
   }
@@ -74,6 +81,7 @@ public class ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerProperties 
   
   @ApiModelProperty(value = "")
   @JsonProperty("skip.token.refresh")
+  @Valid
   public ConfigNodePropertyArray getSkipTokenRefresh() {
     return skipTokenRefresh;
   }
@@ -83,7 +91,7 @@ public class ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerProperties 
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -91,11 +99,11 @@ public class ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerProperties 
       return false;
     }
     ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerProperties comDayCrxSecurityTokenImplImplTokenAuthenticationHandlerProperties = (ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerProperties) o;
-    return Objects.equals(path, comDayCrxSecurityTokenImplImplTokenAuthenticationHandlerProperties.path) &&
-        Objects.equals(tokenRequiredAttr, comDayCrxSecurityTokenImplImplTokenAuthenticationHandlerProperties.tokenRequiredAttr) &&
-        Objects.equals(tokenAlternateUrl, comDayCrxSecurityTokenImplImplTokenAuthenticationHandlerProperties.tokenAlternateUrl) &&
-        Objects.equals(tokenEncapsulated, comDayCrxSecurityTokenImplImplTokenAuthenticationHandlerProperties.tokenEncapsulated) &&
-        Objects.equals(skipTokenRefresh, comDayCrxSecurityTokenImplImplTokenAuthenticationHandlerProperties.skipTokenRefresh);
+    return Objects.equals(this.path, comDayCrxSecurityTokenImplImplTokenAuthenticationHandlerProperties.path) &&
+        Objects.equals(this.tokenRequiredAttr, comDayCrxSecurityTokenImplImplTokenAuthenticationHandlerProperties.tokenRequiredAttr) &&
+        Objects.equals(this.tokenAlternateUrl, comDayCrxSecurityTokenImplImplTokenAuthenticationHandlerProperties.tokenAlternateUrl) &&
+        Objects.equals(this.tokenEncapsulated, comDayCrxSecurityTokenImplImplTokenAuthenticationHandlerProperties.tokenEncapsulated) &&
+        Objects.equals(this.skipTokenRefresh, comDayCrxSecurityTokenImplImplTokenAuthenticationHandlerProperties.skipTokenRefresh);
   }
 
   @Override
@@ -121,11 +129,8 @@ public class ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerProperties 
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

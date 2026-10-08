@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqDamS7damCommonProcessVideoThumbnailDownloadProcessInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqDamS7damCommonProcessVideoThumbnailDownloadProcessInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComDayCqDamS7damCommonProcessVideoThumbnailDownloadProcessProperties = openapi_server.resourceTypes.ComDayCqDamS7damCommonProcessVideoThumbnailDownloadProcessProperties
+}
+resourceTypes {
+
+  ComDayCqDamS7damCommonProcessVideoThumbnailDownloadProcessInfo {
+    title = ComDayCqDamS7damCommonProcessVideoThumbnailDownloadProcessInfo
+    description = ComDayCqDamS7damCommonProcessVideoThumbnailDownloadProcessInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComDayCqDamS7damCommonProcessVideoThumbnailDownloadProcessProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqDamS7damCommonProcessVideoThumbnailDownloadProcessInfo {
+    title = ComDayCqDamS7damCommonProcessVideoThumbnailDownloadProcessInfo
+    description = ComDayCqDamS7damCommonProcessVideoThumbnailDownloadProcessInfo
+    implements = openapi_server.resourceTypes.ComDayCqDamS7damCommonProcessVideoThumbnailDownloadProcessInfo
+
+  }
+}

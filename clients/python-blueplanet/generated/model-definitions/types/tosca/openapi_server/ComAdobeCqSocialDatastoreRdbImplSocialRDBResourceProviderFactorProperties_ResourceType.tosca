@@ -1,0 +1,68 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorProperties {
+    title = ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorProperties
+    description = ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorProperties
+    derivedFrom = Root
+    properties {
+        solr_zk_timeout {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        solr_commit {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        cache_on {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        concurrency_level {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        cache_start_size {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        cache_ttl {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        cache_size {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorProperties {
+    title = ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorProperties
+    description = ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorProperties
+    implements = openapi_server.resourceTypes.ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorProperties
+
+  }
+}

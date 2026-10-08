@@ -8,8 +8,8 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeCqSocialScfEndpointsImplDefaultSocialGetServletProperties {
-    ConfigNodePropertyArray slingServletSelectors = null
-
-    ConfigNodePropertyString slingServletExtensions = null
-
+    
+    ConfigNodePropertyArray slingServletSelectors
+    
+    ConfigNodePropertyString slingServletExtensions
 }

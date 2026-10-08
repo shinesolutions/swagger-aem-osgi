@@ -7,12 +7,12 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class OrgApacheSlingDistributionPackagingImplImporterRepositoryDistriProperties {
-    ConfigNodePropertyString name = null
-
-    ConfigNodePropertyString serviceName = null
-
-    ConfigNodePropertyString path = null
-
-    ConfigNodePropertyString privilegeName = null
-
+    
+    ConfigNodePropertyString name
+    
+    ConfigNodePropertyString serviceName
+    
+    ConfigNodePropertyString path
+    
+    ConfigNodePropertyString privilegeName
 }

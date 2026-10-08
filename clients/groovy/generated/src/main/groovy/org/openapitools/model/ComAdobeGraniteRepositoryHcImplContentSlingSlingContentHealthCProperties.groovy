@@ -7,8 +7,8 @@ import org.openapitools.model.ConfigNodePropertyArray;
 
 @Canonical
 class ComAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCProperties {
-    ConfigNodePropertyArray hcTags = null
-
-    ConfigNodePropertyArray excludeSearchPath = null
-
+    
+    ConfigNodePropertyArray hcTags
+    
+    ConfigNodePropertyArray excludeSearchPath
 }

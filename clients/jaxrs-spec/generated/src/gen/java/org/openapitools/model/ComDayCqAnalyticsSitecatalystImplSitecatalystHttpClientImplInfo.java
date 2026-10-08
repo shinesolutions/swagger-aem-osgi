@@ -1,24 +1,35 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplProperties;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfo")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfo   {
-  
-  private @Valid String pid = null;
-  private @Valid String title = null;
-  private @Valid String description = null;
-  private @Valid ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplProperties properties = null;
-  private @Valid String additionalProperties = null;
-  private @Valid String bundleLocation = null;
-  private @Valid String serviceLocation = null;
+  private String pid;
+  private String title;
+  private String description;
+  private ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplProperties properties;
+  private String additionalProperties;
+  private String bundleLocation;
+  private String serviceLocation;
+
+  public ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfo() {
+  }
 
   /**
    **/
@@ -33,6 +44,8 @@ public class ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfo   {
   public String getPid() {
     return pid;
   }
+
+  @JsonProperty("pid")
   public void setPid(String pid) {
     this.pid = pid;
   }
@@ -50,6 +63,8 @@ public class ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfo   {
   public String getTitle() {
     return title;
   }
+
+  @JsonProperty("title")
   public void setTitle(String title) {
     this.title = title;
   }
@@ -67,6 +82,8 @@ public class ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfo   {
   public String getDescription() {
     return description;
   }
+
+  @JsonProperty("description")
   public void setDescription(String description) {
     this.description = description;
   }
@@ -81,9 +98,11 @@ public class ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfo   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("properties")
-  public ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplProperties getProperties() {
+  @Valid public ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplProperties getProperties() {
     return properties;
   }
+
+  @JsonProperty("properties")
   public void setProperties(ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplProperties properties) {
     this.properties = properties;
   }
@@ -101,6 +120,8 @@ public class ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfo   {
   public String getAdditionalProperties() {
     return additionalProperties;
   }
+
+  @JsonProperty("additionalProperties")
   public void setAdditionalProperties(String additionalProperties) {
     this.additionalProperties = additionalProperties;
   }
@@ -118,6 +139,8 @@ public class ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfo   {
   public String getBundleLocation() {
     return bundleLocation;
   }
+
+  @JsonProperty("bundle_location")
   public void setBundleLocation(String bundleLocation) {
     this.bundleLocation = bundleLocation;
   }
@@ -135,13 +158,15 @@ public class ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfo   {
   public String getServiceLocation() {
     return serviceLocation;
   }
+
+  @JsonProperty("service_location")
   public void setServiceLocation(String serviceLocation) {
     this.serviceLocation = serviceLocation;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -149,13 +174,13 @@ public class ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfo   {
       return false;
     }
     ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfo comDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfo = (ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfo) o;
-    return Objects.equals(pid, comDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfo.pid) &&
-        Objects.equals(title, comDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfo.title) &&
-        Objects.equals(description, comDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfo.description) &&
-        Objects.equals(properties, comDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfo.properties) &&
-        Objects.equals(additionalProperties, comDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfo.additionalProperties) &&
-        Objects.equals(bundleLocation, comDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfo.bundleLocation) &&
-        Objects.equals(serviceLocation, comDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfo.serviceLocation);
+    return Objects.equals(this.pid, comDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfo.pid) &&
+        Objects.equals(this.title, comDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfo.title) &&
+        Objects.equals(this.description, comDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfo.description) &&
+        Objects.equals(this.properties, comDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfo.properties) &&
+        Objects.equals(this.additionalProperties, comDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfo.additionalProperties) &&
+        Objects.equals(this.bundleLocation, comDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfo.bundleLocation) &&
+        Objects.equals(this.serviceLocation, comDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfo.serviceLocation);
   }
 
   @Override
@@ -183,11 +208,9 @@ public class ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfo   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

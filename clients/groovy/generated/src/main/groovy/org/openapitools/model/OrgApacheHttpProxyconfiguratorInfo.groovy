@@ -7,12 +7,12 @@ import org.openapitools.model.OrgApacheHttpProxyconfiguratorProperties;
 
 @Canonical
 class OrgApacheHttpProxyconfiguratorInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheHttpProxyconfiguratorProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheHttpProxyconfiguratorProperties properties
 }

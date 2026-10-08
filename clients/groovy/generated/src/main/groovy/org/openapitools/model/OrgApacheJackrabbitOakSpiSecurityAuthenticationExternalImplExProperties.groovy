@@ -8,14 +8,14 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExProperties {
-    ConfigNodePropertyInteger jaasRanking = null
-
-    ConfigNodePropertyString jaasControlFlag = null
-
-    ConfigNodePropertyString jaasRealmName = null
-
-    ConfigNodePropertyString idpName = null
-
-    ConfigNodePropertyString syncHandlerName = null
-
+    
+    ConfigNodePropertyInteger jaasRanking
+    
+    ConfigNodePropertyString jaasControlFlag
+    
+    ConfigNodePropertyString jaasRealmName
+    
+    ConfigNodePropertyString idpName
+    
+    ConfigNodePropertyString syncHandlerName
 }

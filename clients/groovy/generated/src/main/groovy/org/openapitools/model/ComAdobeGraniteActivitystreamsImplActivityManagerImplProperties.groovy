@@ -8,8 +8,8 @@ import org.openapitools.model.ConfigNodePropertyBoolean;
 
 @Canonical
 class ComAdobeGraniteActivitystreamsImplActivityManagerImplProperties {
-    ConfigNodePropertyArray aggregateRelationships = null
-
-    ConfigNodePropertyBoolean aggregateDescendVirtual = null
-
+    
+    ConfigNodePropertyArray aggregateRelationships
+    
+    ConfigNodePropertyBoolean aggregateDescendVirtual
 }

@@ -1,28 +1,39 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComDayCqReplicationImplReplicationReceiverImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComDayCqReplicationImplReplicationReceiverImplProperties   {
-  @JsonProperty("receiver.tmpfile.threshold")
-  private ConfigNodePropertyInteger receiverTmpfileThreshold = null;
+@JsonTypeName("comDayCqReplicationImplReplicationReceiverImplProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComDayCqReplicationImplReplicationReceiverImplProperties {
 
-  @JsonProperty("receiver.packages.use.install")
-  private ConfigNodePropertyBoolean receiverPackagesUseInstall = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger receiverTmpfileThreshold;
 
-  public ComDayCqReplicationImplReplicationReceiverImplProperties receiverTmpfileThreshold(ConfigNodePropertyInteger receiverTmpfileThreshold) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean receiverPackagesUseInstall;
+
+  public ComDayCqReplicationImplReplicationReceiverImplProperties receiverTmpfileThreshold(@Nullable ConfigNodePropertyInteger receiverTmpfileThreshold) {
     this.receiverTmpfileThreshold = receiverTmpfileThreshold;
     return this;
   }
@@ -30,20 +41,20 @@ public class ComDayCqReplicationImplReplicationReceiverImplProperties   {
   /**
    * Get receiverTmpfileThreshold
    * @return receiverTmpfileThreshold
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getReceiverTmpfileThreshold() {
+   */
+  @Valid 
+  @Schema(name = "receiver.tmpfile.threshold", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("receiver.tmpfile.threshold")
+  public @Nullable ConfigNodePropertyInteger getReceiverTmpfileThreshold() {
     return receiverTmpfileThreshold;
   }
 
-  public void setReceiverTmpfileThreshold(ConfigNodePropertyInteger receiverTmpfileThreshold) {
+  @JsonProperty("receiver.tmpfile.threshold")
+  public void setReceiverTmpfileThreshold(@Nullable ConfigNodePropertyInteger receiverTmpfileThreshold) {
     this.receiverTmpfileThreshold = receiverTmpfileThreshold;
   }
 
-  public ComDayCqReplicationImplReplicationReceiverImplProperties receiverPackagesUseInstall(ConfigNodePropertyBoolean receiverPackagesUseInstall) {
+  public ComDayCqReplicationImplReplicationReceiverImplProperties receiverPackagesUseInstall(@Nullable ConfigNodePropertyBoolean receiverPackagesUseInstall) {
     this.receiverPackagesUseInstall = receiverPackagesUseInstall;
     return this;
   }
@@ -51,22 +62,21 @@ public class ComDayCqReplicationImplReplicationReceiverImplProperties   {
   /**
    * Get receiverPackagesUseInstall
    * @return receiverPackagesUseInstall
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getReceiverPackagesUseInstall() {
+   */
+  @Valid 
+  @Schema(name = "receiver.packages.use.install", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("receiver.packages.use.install")
+  public @Nullable ConfigNodePropertyBoolean getReceiverPackagesUseInstall() {
     return receiverPackagesUseInstall;
   }
 
-  public void setReceiverPackagesUseInstall(ConfigNodePropertyBoolean receiverPackagesUseInstall) {
+  @JsonProperty("receiver.packages.use.install")
+  public void setReceiverPackagesUseInstall(@Nullable ConfigNodePropertyBoolean receiverPackagesUseInstall) {
     this.receiverPackagesUseInstall = receiverPackagesUseInstall;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -87,7 +97,6 @@ public class ComDayCqReplicationImplReplicationReceiverImplProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComDayCqReplicationImplReplicationReceiverImplProperties {\n");
-    
     sb.append("    receiverTmpfileThreshold: ").append(toIndentedString(receiverTmpfileThreshold)).append("\n");
     sb.append("    receiverPackagesUseInstall: ").append(toIndentedString(receiverPackagesUseInstall)).append("\n");
     sb.append("}");
@@ -98,11 +107,8 @@ public class ComDayCqReplicationImplReplicationReceiverImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

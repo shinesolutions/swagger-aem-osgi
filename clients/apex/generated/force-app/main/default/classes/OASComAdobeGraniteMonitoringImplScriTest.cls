@@ -72,10 +72,10 @@ private class OASComAdobeGraniteMonitoringImplScriTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeGraniteMonitoringImplScri comAdobeGraniteMonitoringImplScriptConfigImplProperties = new OASComAdobeGraniteMonitoringImplScri();
-        Map<String, String> propertyMappings = comAdobeGraniteMonitoringImplScriptConfigImplProperties.getPropertyMappings();
-        System.assertEquals('scriptFilename', propertyMappings.get('script.filename'));
-        System.assertEquals('scriptDisplay', propertyMappings.get('script.display'));
-        System.assertEquals('scriptPath', propertyMappings.get('script.path'));
-        System.assertEquals('scriptPlatform', propertyMappings.get('script.platform'));
+        Map<String, String> x-property-mappings = comAdobeGraniteMonitoringImplScriptConfigImplProperties.getx-property-mappings();
+        System.assertEquals('scriptFilename', x-property-mappings.get('script.filename'));
+        System.assertEquals('scriptDisplay', x-property-mappings.get('script.display'));
+        System.assertEquals('scriptPath', x-property-mappings.get('script.path'));
+        System.assertEquals('scriptPlatform', x-property-mappings.get('script.platform'));
     }
 }

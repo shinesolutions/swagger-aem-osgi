@@ -1,39 +1,50 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComAdobeCqCdnRewriterImplCDNConfigServiceImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComAdobeCqCdnRewriterImplCDNConfigServiceImplProperties   {
-  @JsonProperty("cdn.config.distribution.domain")
-  private ConfigNodePropertyString cdnConfigDistributionDomain = null;
+@JsonTypeName("comAdobeCqCdnRewriterImplCDNConfigServiceImplProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComAdobeCqCdnRewriterImplCDNConfigServiceImplProperties {
 
-  @JsonProperty("cdn.config.enable.rewriting")
-  private ConfigNodePropertyBoolean cdnConfigEnableRewriting = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString cdnConfigDistributionDomain;
 
-  @JsonProperty("cdn.config.path.prefixes")
-  private ConfigNodePropertyArray cdnConfigPathPrefixes = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean cdnConfigEnableRewriting;
 
-  @JsonProperty("cdn.config.cdnttl")
-  private ConfigNodePropertyInteger cdnConfigCdnttl = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray cdnConfigPathPrefixes;
 
-  @JsonProperty("cdn.config.application.protocol")
-  private ConfigNodePropertyString cdnConfigApplicationProtocol = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger cdnConfigCdnttl;
 
-  public ComAdobeCqCdnRewriterImplCDNConfigServiceImplProperties cdnConfigDistributionDomain(ConfigNodePropertyString cdnConfigDistributionDomain) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString cdnConfigApplicationProtocol;
+
+  public ComAdobeCqCdnRewriterImplCDNConfigServiceImplProperties cdnConfigDistributionDomain(@Nullable ConfigNodePropertyString cdnConfigDistributionDomain) {
     this.cdnConfigDistributionDomain = cdnConfigDistributionDomain;
     return this;
   }
@@ -41,20 +52,20 @@ public class ComAdobeCqCdnRewriterImplCDNConfigServiceImplProperties   {
   /**
    * Get cdnConfigDistributionDomain
    * @return cdnConfigDistributionDomain
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getCdnConfigDistributionDomain() {
+   */
+  @Valid 
+  @Schema(name = "cdn.config.distribution.domain", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cdn.config.distribution.domain")
+  public @Nullable ConfigNodePropertyString getCdnConfigDistributionDomain() {
     return cdnConfigDistributionDomain;
   }
 
-  public void setCdnConfigDistributionDomain(ConfigNodePropertyString cdnConfigDistributionDomain) {
+  @JsonProperty("cdn.config.distribution.domain")
+  public void setCdnConfigDistributionDomain(@Nullable ConfigNodePropertyString cdnConfigDistributionDomain) {
     this.cdnConfigDistributionDomain = cdnConfigDistributionDomain;
   }
 
-  public ComAdobeCqCdnRewriterImplCDNConfigServiceImplProperties cdnConfigEnableRewriting(ConfigNodePropertyBoolean cdnConfigEnableRewriting) {
+  public ComAdobeCqCdnRewriterImplCDNConfigServiceImplProperties cdnConfigEnableRewriting(@Nullable ConfigNodePropertyBoolean cdnConfigEnableRewriting) {
     this.cdnConfigEnableRewriting = cdnConfigEnableRewriting;
     return this;
   }
@@ -62,20 +73,20 @@ public class ComAdobeCqCdnRewriterImplCDNConfigServiceImplProperties   {
   /**
    * Get cdnConfigEnableRewriting
    * @return cdnConfigEnableRewriting
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getCdnConfigEnableRewriting() {
+   */
+  @Valid 
+  @Schema(name = "cdn.config.enable.rewriting", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cdn.config.enable.rewriting")
+  public @Nullable ConfigNodePropertyBoolean getCdnConfigEnableRewriting() {
     return cdnConfigEnableRewriting;
   }
 
-  public void setCdnConfigEnableRewriting(ConfigNodePropertyBoolean cdnConfigEnableRewriting) {
+  @JsonProperty("cdn.config.enable.rewriting")
+  public void setCdnConfigEnableRewriting(@Nullable ConfigNodePropertyBoolean cdnConfigEnableRewriting) {
     this.cdnConfigEnableRewriting = cdnConfigEnableRewriting;
   }
 
-  public ComAdobeCqCdnRewriterImplCDNConfigServiceImplProperties cdnConfigPathPrefixes(ConfigNodePropertyArray cdnConfigPathPrefixes) {
+  public ComAdobeCqCdnRewriterImplCDNConfigServiceImplProperties cdnConfigPathPrefixes(@Nullable ConfigNodePropertyArray cdnConfigPathPrefixes) {
     this.cdnConfigPathPrefixes = cdnConfigPathPrefixes;
     return this;
   }
@@ -83,20 +94,20 @@ public class ComAdobeCqCdnRewriterImplCDNConfigServiceImplProperties   {
   /**
    * Get cdnConfigPathPrefixes
    * @return cdnConfigPathPrefixes
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getCdnConfigPathPrefixes() {
+   */
+  @Valid 
+  @Schema(name = "cdn.config.path.prefixes", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cdn.config.path.prefixes")
+  public @Nullable ConfigNodePropertyArray getCdnConfigPathPrefixes() {
     return cdnConfigPathPrefixes;
   }
 
-  public void setCdnConfigPathPrefixes(ConfigNodePropertyArray cdnConfigPathPrefixes) {
+  @JsonProperty("cdn.config.path.prefixes")
+  public void setCdnConfigPathPrefixes(@Nullable ConfigNodePropertyArray cdnConfigPathPrefixes) {
     this.cdnConfigPathPrefixes = cdnConfigPathPrefixes;
   }
 
-  public ComAdobeCqCdnRewriterImplCDNConfigServiceImplProperties cdnConfigCdnttl(ConfigNodePropertyInteger cdnConfigCdnttl) {
+  public ComAdobeCqCdnRewriterImplCDNConfigServiceImplProperties cdnConfigCdnttl(@Nullable ConfigNodePropertyInteger cdnConfigCdnttl) {
     this.cdnConfigCdnttl = cdnConfigCdnttl;
     return this;
   }
@@ -104,20 +115,20 @@ public class ComAdobeCqCdnRewriterImplCDNConfigServiceImplProperties   {
   /**
    * Get cdnConfigCdnttl
    * @return cdnConfigCdnttl
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getCdnConfigCdnttl() {
+   */
+  @Valid 
+  @Schema(name = "cdn.config.cdnttl", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cdn.config.cdnttl")
+  public @Nullable ConfigNodePropertyInteger getCdnConfigCdnttl() {
     return cdnConfigCdnttl;
   }
 
-  public void setCdnConfigCdnttl(ConfigNodePropertyInteger cdnConfigCdnttl) {
+  @JsonProperty("cdn.config.cdnttl")
+  public void setCdnConfigCdnttl(@Nullable ConfigNodePropertyInteger cdnConfigCdnttl) {
     this.cdnConfigCdnttl = cdnConfigCdnttl;
   }
 
-  public ComAdobeCqCdnRewriterImplCDNConfigServiceImplProperties cdnConfigApplicationProtocol(ConfigNodePropertyString cdnConfigApplicationProtocol) {
+  public ComAdobeCqCdnRewriterImplCDNConfigServiceImplProperties cdnConfigApplicationProtocol(@Nullable ConfigNodePropertyString cdnConfigApplicationProtocol) {
     this.cdnConfigApplicationProtocol = cdnConfigApplicationProtocol;
     return this;
   }
@@ -125,22 +136,21 @@ public class ComAdobeCqCdnRewriterImplCDNConfigServiceImplProperties   {
   /**
    * Get cdnConfigApplicationProtocol
    * @return cdnConfigApplicationProtocol
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getCdnConfigApplicationProtocol() {
+   */
+  @Valid 
+  @Schema(name = "cdn.config.application.protocol", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cdn.config.application.protocol")
+  public @Nullable ConfigNodePropertyString getCdnConfigApplicationProtocol() {
     return cdnConfigApplicationProtocol;
   }
 
-  public void setCdnConfigApplicationProtocol(ConfigNodePropertyString cdnConfigApplicationProtocol) {
+  @JsonProperty("cdn.config.application.protocol")
+  public void setCdnConfigApplicationProtocol(@Nullable ConfigNodePropertyString cdnConfigApplicationProtocol) {
     this.cdnConfigApplicationProtocol = cdnConfigApplicationProtocol;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -164,7 +174,6 @@ public class ComAdobeCqCdnRewriterImplCDNConfigServiceImplProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComAdobeCqCdnRewriterImplCDNConfigServiceImplProperties {\n");
-    
     sb.append("    cdnConfigDistributionDomain: ").append(toIndentedString(cdnConfigDistributionDomain)).append("\n");
     sb.append("    cdnConfigEnableRewriting: ").append(toIndentedString(cdnConfigEnableRewriting)).append("\n");
     sb.append("    cdnConfigPathPrefixes: ").append(toIndentedString(cdnConfigPathPrefixes)).append("\n");
@@ -178,11 +187,8 @@ public class ComAdobeCqCdnRewriterImplCDNConfigServiceImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

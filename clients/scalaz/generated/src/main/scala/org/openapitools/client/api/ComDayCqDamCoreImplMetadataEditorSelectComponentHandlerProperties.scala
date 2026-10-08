@@ -7,10 +7,12 @@ import argonaut.DecodeJson._
 import org.http4s.{EntityDecoder, EntityEncoder}
 import org.http4s.argonaut._
 import org.joda.time.DateTime
+
+
 import ComDayCqDamCoreImplMetadataEditorSelectComponentHandlerProperties._
 
 case class ComDayCqDamCoreImplMetadataEditorSelectComponentHandlerProperties (
-  granitedata: Option[ConfigNodePropertyArray])
+  graniteData: Option[ConfigNodePropertyArray])
 
 object ComDayCqDamCoreImplMetadataEditorSelectComponentHandlerProperties {
   import DateTimeCodecs._

@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyArray;
 import com.prokarma.pkmst.model.ConfigNodePropertyInteger;
 import com.prokarma.pkmst.model.ConfigNodePropertyString;
@@ -17,36 +18,35 @@ import io.swagger.annotations.ApiModelProperty;
  * ComAdobeGraniteMonitoringImplScriptConfigImplProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteMonitoringImplScriptConfigImplProperties   {
   @JsonProperty("script.filename")
-  private ConfigNodePropertyString scriptFilename = null;
+  private ConfigNodePropertyString scriptFilename;
 
   @JsonProperty("script.display")
-  private ConfigNodePropertyString scriptDisplay = null;
+  private ConfigNodePropertyString scriptDisplay;
 
   @JsonProperty("script.path")
-  private ConfigNodePropertyString scriptPath = null;
+  private ConfigNodePropertyString scriptPath;
 
   @JsonProperty("script.platform")
-  private ConfigNodePropertyArray scriptPlatform = null;
+  private ConfigNodePropertyArray scriptPlatform;
 
   @JsonProperty("interval")
-  private ConfigNodePropertyInteger interval = null;
+  private ConfigNodePropertyInteger interval;
 
   @JsonProperty("jmxdomain")
-  private ConfigNodePropertyString jmxdomain = null;
+  private ConfigNodePropertyString jmxdomain;
 
   public ComAdobeGraniteMonitoringImplScriptConfigImplProperties scriptFilename(ConfigNodePropertyString scriptFilename) {
     this.scriptFilename = scriptFilename;
     return this;
   }
 
-   /**
+  /**
    * Get scriptFilename
    * @return scriptFilename
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getScriptFilename() {
     return scriptFilename;
@@ -61,10 +61,10 @@ public class ComAdobeGraniteMonitoringImplScriptConfigImplProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get scriptDisplay
    * @return scriptDisplay
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getScriptDisplay() {
     return scriptDisplay;
@@ -79,10 +79,10 @@ public class ComAdobeGraniteMonitoringImplScriptConfigImplProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get scriptPath
    * @return scriptPath
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getScriptPath() {
     return scriptPath;
@@ -97,10 +97,10 @@ public class ComAdobeGraniteMonitoringImplScriptConfigImplProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get scriptPlatform
    * @return scriptPlatform
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getScriptPlatform() {
     return scriptPlatform;
@@ -115,10 +115,10 @@ public class ComAdobeGraniteMonitoringImplScriptConfigImplProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get interval
    * @return interval
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getInterval() {
     return interval;
@@ -133,10 +133,10 @@ public class ComAdobeGraniteMonitoringImplScriptConfigImplProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get jmxdomain
    * @return jmxdomain
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getJmxdomain() {
     return jmxdomain;
@@ -148,7 +148,7 @@ public class ComAdobeGraniteMonitoringImplScriptConfigImplProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -188,11 +188,8 @@ public class ComAdobeGraniteMonitoringImplScriptConfigImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

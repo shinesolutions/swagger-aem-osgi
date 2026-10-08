@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeAemTransactionCoreImplTransactionRecorderP
 
 @Canonical
 class ComAdobeAemTransactionCoreImplTransactionRecorderInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeAemTransactionCoreImplTransactionRecorderProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeAemTransactionCoreImplTransactionRecorderProperties properties
 }

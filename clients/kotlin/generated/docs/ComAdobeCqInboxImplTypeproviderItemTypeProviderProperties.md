@@ -2,13 +2,13 @@
 # ComAdobeCqInboxImplTypeproviderItemTypeProviderProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**inboxPeriodimplPeriodtypeproviderPeriodregistrypaths** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**inboxPeriodimplPeriodtypeproviderPeriodlegacypaths** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**inboxPeriodimplPeriodtypeproviderPerioddefaulturlPeriodfailureitem** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**inboxPeriodimplPeriodtypeproviderPerioddefaulturlPeriodworkitem** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**inboxPeriodimplPeriodtypeproviderPerioddefaulturlPeriodtask** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **inboxImplTypeproviderRegistrypaths** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **inboxImplTypeproviderLegacypaths** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **inboxImplTypeproviderDefaulturlFailureitem** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **inboxImplTypeproviderDefaulturlWorkitem** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **inboxImplTypeproviderDefaulturlTask** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
 
 
 

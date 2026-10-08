@@ -2,16 +2,17 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**config_bucket_names** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **config_bucket_names** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::OrgApacheSlingCaconfigImplConfigurationResolverImplProperties.new(config_bucket_names: null)
+instance = SwaggerAemOsgiClient::OrgApacheSlingCaconfigImplConfigurationResolverImplProperties.new(
+  config_bucket_names: null
+)
 ```
-
 

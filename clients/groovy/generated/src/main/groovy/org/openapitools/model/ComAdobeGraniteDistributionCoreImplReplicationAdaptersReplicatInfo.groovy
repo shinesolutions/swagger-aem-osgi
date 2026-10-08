@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeGraniteDistributionCoreImplReplicationAdap
 
 @Canonical
 class ComAdobeGraniteDistributionCoreImplReplicationAdaptersReplicatInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteDistributionCoreImplReplicationAdaptersReplicatProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteDistributionCoreImplReplicationAdaptersReplicatProperties properties
 }

@@ -4,28 +4,27 @@ import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyInteger;
 
 import io.swagger.annotations.ApiModelProperty;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlType;
-import javax.xml.bind.annotation.XmlEnum;
-import javax.xml.bind.annotation.XmlEnumValue;
+import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
 
 public class ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplProperties  {
   
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyArray cqAnalyticsSitecatalystServiceDatacenterUrl = null;
+
+  private ConfigNodePropertyArray cqAnalyticsSitecatalystServiceDatacenterUrl;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyArray devhostnamepatterns = null;
+
+  private ConfigNodePropertyArray devhostnamepatterns;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyInteger connectionTimeout = null;
+
+  private ConfigNodePropertyInteger connectionTimeout;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyInteger socketTimeout = null;
+
+  private ConfigNodePropertyInteger socketTimeout;
  /**
    * Get cqAnalyticsSitecatalystServiceDatacenterUrl
    * @return cqAnalyticsSitecatalystServiceDatacenterUrl
@@ -98,6 +97,25 @@ public class ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplProperti
     return this;
   }
 
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplProperties comDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplProperties = (ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplProperties) o;
+    return Objects.equals(this.cqAnalyticsSitecatalystServiceDatacenterUrl, comDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplProperties.cqAnalyticsSitecatalystServiceDatacenterUrl) &&
+        Objects.equals(this.devhostnamepatterns, comDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplProperties.devhostnamepatterns) &&
+        Objects.equals(this.connectionTimeout, comDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplProperties.connectionTimeout) &&
+        Objects.equals(this.socketTimeout, comDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplProperties.socketTimeout);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(cqAnalyticsSitecatalystServiceDatacenterUrl, devhostnamepatterns, connectionTimeout, socketTimeout);
+  }
 
   @Override
   public String toString() {
@@ -116,11 +134,8 @@ public class ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplProperti
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private static String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

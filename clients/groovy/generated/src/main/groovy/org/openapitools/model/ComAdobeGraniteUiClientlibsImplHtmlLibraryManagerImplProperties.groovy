@@ -10,44 +10,44 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties {
-    ConfigNodePropertyBoolean htmllibmanagerTiming = null
-
-    ConfigNodePropertyString htmllibmanagerDebugInitJs = null
-
-    ConfigNodePropertyBoolean htmllibmanagerMinify = null
-
-    ConfigNodePropertyBoolean htmllibmanagerDebug = null
-
-    ConfigNodePropertyBoolean htmllibmanagerGzip = null
-
-    ConfigNodePropertyInteger htmllibmanagerMaxDataUriSize = null
-
-    ConfigNodePropertyInteger htmllibmanagerMaxage = null
-
-    ConfigNodePropertyBoolean htmllibmanagerForceCQUrlInfo = null
-
-    ConfigNodePropertyString htmllibmanagerDefaultthemename = null
-
-    ConfigNodePropertyString htmllibmanagerDefaultuserthemename = null
-
-    ConfigNodePropertyString htmllibmanagerClientmanager = null
-
-    ConfigNodePropertyArray htmllibmanagerPathList = null
-
-    ConfigNodePropertyArray htmllibmanagerExcludedPathList = null
-
-    ConfigNodePropertyArray htmllibmanagerProcessorJs = null
-
-    ConfigNodePropertyArray htmllibmanagerProcessorCss = null
-
-    ConfigNodePropertyArray htmllibmanagerLongcachePatterns = null
-
-    ConfigNodePropertyString htmllibmanagerLongcacheFormat = null
-
-    ConfigNodePropertyBoolean htmllibmanagerUseFileSystemOutputCache = null
-
-    ConfigNodePropertyString htmllibmanagerFileSystemOutputCacheLocation = null
-
-    ConfigNodePropertyArray htmllibmanagerDisableReplacement = null
-
+    
+    ConfigNodePropertyBoolean htmllibmanagerTiming
+    
+    ConfigNodePropertyString htmllibmanagerDebugInitJs
+    
+    ConfigNodePropertyBoolean htmllibmanagerMinify
+    
+    ConfigNodePropertyBoolean htmllibmanagerDebug
+    
+    ConfigNodePropertyBoolean htmllibmanagerGzip
+    
+    ConfigNodePropertyInteger htmllibmanagerMaxDataUriSize
+    
+    ConfigNodePropertyInteger htmllibmanagerMaxage
+    
+    ConfigNodePropertyBoolean htmllibmanagerForceCQUrlInfo
+    
+    ConfigNodePropertyString htmllibmanagerDefaultthemename
+    
+    ConfigNodePropertyString htmllibmanagerDefaultuserthemename
+    
+    ConfigNodePropertyString htmllibmanagerClientmanager
+    
+    ConfigNodePropertyArray htmllibmanagerPathList
+    
+    ConfigNodePropertyArray htmllibmanagerExcludedPathList
+    
+    ConfigNodePropertyArray htmllibmanagerProcessorJs
+    
+    ConfigNodePropertyArray htmllibmanagerProcessorCss
+    
+    ConfigNodePropertyArray htmllibmanagerLongcachePatterns
+    
+    ConfigNodePropertyString htmllibmanagerLongcacheFormat
+    
+    ConfigNodePropertyBoolean htmllibmanagerUseFileSystemOutputCache
+    
+    ConfigNodePropertyString htmllibmanagerFileSystemOutputCacheLocation
+    
+    ConfigNodePropertyArray htmllibmanagerDisableReplacement
 }

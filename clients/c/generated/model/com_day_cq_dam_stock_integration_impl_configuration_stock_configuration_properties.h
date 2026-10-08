@@ -1,0 +1,43 @@
+/*
+ * com_day_cq_dam_stock_integration_impl_configuration_stock_configuration_properties.h
+ *
+ * 
+ */
+
+#ifndef _com_day_cq_dam_stock_integration_impl_configuration_stock_configuration_properties_H_
+#define _com_day_cq_dam_stock_integration_impl_configuration_stock_configuration_properties_H_
+
+#include <string.h>
+#include "../external/cJSON.h"
+#include "../include/list.h"
+#include "../include/keyValuePair.h"
+#include "../include/binary.h"
+
+typedef struct com_day_cq_dam_stock_integration_impl_configuration_stock_configuration_properties_t com_day_cq_dam_stock_integration_impl_configuration_stock_configuration_properties_t;
+
+#include "config_node_property_string.h"
+
+
+
+typedef struct com_day_cq_dam_stock_integration_impl_configuration_stock_configuration_properties_t {
+    struct config_node_property_string_t *name; //model
+    struct config_node_property_string_t *locale; //model
+    struct config_node_property_string_t *ims_config; //model
+
+    int _library_owned; // Is the library responsible for freeing this object?
+} com_day_cq_dam_stock_integration_impl_configuration_stock_configuration_properties_t;
+
+__attribute__((deprecated)) com_day_cq_dam_stock_integration_impl_configuration_stock_configuration_properties_t *com_day_cq_dam_stock_integration_impl_configuration_stock_configuration_properties_create(
+    config_node_property_string_t *name,
+    config_node_property_string_t *locale,
+    config_node_property_string_t *ims_config
+);
+
+void com_day_cq_dam_stock_integration_impl_configuration_stock_configuration_properties_free(com_day_cq_dam_stock_integration_impl_configuration_stock_configuration_properties_t *com_day_cq_dam_stock_integration_impl_configuration_stock_configuration_properties);
+
+com_day_cq_dam_stock_integration_impl_configuration_stock_configuration_properties_t *com_day_cq_dam_stock_integration_impl_configuration_stock_configuration_properties_parseFromJSON(cJSON *com_day_cq_dam_stock_integration_impl_configuration_stock_configuration_propertiesJSON);
+
+cJSON *com_day_cq_dam_stock_integration_impl_configuration_stock_configuration_properties_convertToJSON(com_day_cq_dam_stock_integration_impl_configuration_stock_configuration_properties_t *com_day_cq_dam_stock_integration_impl_configuration_stock_configuration_properties);
+
+#endif /* _com_day_cq_dam_stock_integration_impl_configuration_stock_configuration_properties_H_ */
+

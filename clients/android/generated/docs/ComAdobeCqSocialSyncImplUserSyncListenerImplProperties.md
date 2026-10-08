@@ -1,7 +1,9 @@
 
+
 # ComAdobeCqSocialSyncImplUserSyncListenerImplProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **nodetypes** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
@@ -9,6 +11,7 @@ Name | Type | Description | Notes
 **ignorablenodes** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
 **enabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
 **distfolders** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
+
 
 
 

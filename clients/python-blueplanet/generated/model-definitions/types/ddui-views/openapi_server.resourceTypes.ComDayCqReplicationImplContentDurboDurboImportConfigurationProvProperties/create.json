@@ -1,0 +1,25 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "preserve_hierarchy_nodes" },
+      {"model": "ignore_versioning" },
+      {"model": "import_acl" },
+      {"model": "save_threshold" },
+      {"model": "preserve_user_paths" },
+      {"model": "preserve_uuid" },
+      {"model": "preserve_uuid_nodetypes" },
+      {"model": "preserve_uuid_subtrees" },
+      {"model": "auto_commit" },
+    ]
+  }]
+}

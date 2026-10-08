@@ -1,0 +1,28 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "name" },
+      {"model": "type" },
+      {"model": "format_target" },
+      {"model": "temp_fs_folder" },
+      {"model": "file_threshold" },
+      {"model": "memory_unit" },
+      {"model": "use_off_heap_memory" },
+      {"model": "digest_algorithm" },
+      {"model": "monitoring_queue_size" },
+      {"model": "cleanup_delay" },
+      {"model": "package_filters" },
+      {"model": "property_filters" },
+    ]
+  }]
+}

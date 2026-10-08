@@ -72,8 +72,8 @@ private class OASComAdobeGraniteInfocollectorInfoCTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeGraniteInfocollectorInfoC comAdobeGraniteInfocollectorInfoCollectorProperties = new OASComAdobeGraniteInfocollectorInfoC();
-        Map<String, String> propertyMappings = comAdobeGraniteInfocollectorInfoCollectorProperties.getPropertyMappings();
-        System.assertEquals('graniteInfocollectorIncludeThreadDumps', propertyMappings.get('granite.infocollector.includeThreadDumps'));
-        System.assertEquals('graniteInfocollectorIncludeHeapDump', propertyMappings.get('granite.infocollector.includeHeapDump'));
+        Map<String, String> x-property-mappings = comAdobeGraniteInfocollectorInfoCollectorProperties.getx-property-mappings();
+        System.assertEquals('graniteInfocollectorIncludeThreadDumps', x-property-mappings.get('granite.infocollector.includeThreadDumps'));
+        System.assertEquals('graniteInfocollectorIncludeHeapDump', x-property-mappings.get('granite.infocollector.includeHeapDump'));
     }
 }

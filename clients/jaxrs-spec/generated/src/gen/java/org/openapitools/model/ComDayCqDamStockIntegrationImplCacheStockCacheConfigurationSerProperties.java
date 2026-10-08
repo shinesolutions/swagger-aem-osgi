@@ -1,20 +1,31 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyDropDown;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comDayCqDamStockIntegrationImplCacheStockCacheConfigurationSerProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationSerProperties   {
-  
-  private @Valid ConfigNodePropertyDropDown getCacheExpirationUnit = null;
-  private @Valid ConfigNodePropertyInteger getCacheExpirationValue = null;
+  private ConfigNodePropertyDropDown getCacheExpirationUnit;
+  private ConfigNodePropertyInteger getCacheExpirationValue;
+
+  public ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationSerProperties() {
+  }
 
   /**
    **/
@@ -26,9 +37,11 @@ public class ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationSerPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("getCacheExpirationUnit")
-  public ConfigNodePropertyDropDown getGetCacheExpirationUnit() {
+  @Valid public ConfigNodePropertyDropDown getGetCacheExpirationUnit() {
     return getCacheExpirationUnit;
   }
+
+  @JsonProperty("getCacheExpirationUnit")
   public void setGetCacheExpirationUnit(ConfigNodePropertyDropDown getCacheExpirationUnit) {
     this.getCacheExpirationUnit = getCacheExpirationUnit;
   }
@@ -43,16 +56,18 @@ public class ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationSerPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("getCacheExpirationValue")
-  public ConfigNodePropertyInteger getGetCacheExpirationValue() {
+  @Valid public ConfigNodePropertyInteger getGetCacheExpirationValue() {
     return getCacheExpirationValue;
   }
+
+  @JsonProperty("getCacheExpirationValue")
   public void setGetCacheExpirationValue(ConfigNodePropertyInteger getCacheExpirationValue) {
     this.getCacheExpirationValue = getCacheExpirationValue;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -60,8 +75,8 @@ public class ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationSerPrope
       return false;
     }
     ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationSerProperties comDayCqDamStockIntegrationImplCacheStockCacheConfigurationSerProperties = (ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationSerProperties) o;
-    return Objects.equals(getCacheExpirationUnit, comDayCqDamStockIntegrationImplCacheStockCacheConfigurationSerProperties.getCacheExpirationUnit) &&
-        Objects.equals(getCacheExpirationValue, comDayCqDamStockIntegrationImplCacheStockCacheConfigurationSerProperties.getCacheExpirationValue);
+    return Objects.equals(this.getCacheExpirationUnit, comDayCqDamStockIntegrationImplCacheStockCacheConfigurationSerProperties.getCacheExpirationUnit) &&
+        Objects.equals(this.getCacheExpirationValue, comDayCqDamStockIntegrationImplCacheStockCacheConfigurationSerProperties.getCacheExpirationValue);
   }
 
   @Override
@@ -84,11 +99,9 @@ public class ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationSerPrope
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

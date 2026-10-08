@@ -8,8 +8,8 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqReplicationContentStaticContentBuilderProperties {
-    ConfigNodePropertyString host = null
-
-    ConfigNodePropertyInteger port = null
-
+    
+    ConfigNodePropertyString host
+    
+    ConfigNodePropertyInteger port
 }

@@ -1,0 +1,27 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "queue_name" },
+      {"model": "queue_topics" },
+      {"model": "queue_type" },
+      {"model": "queue_priority" },
+      {"model": "queue_retries" },
+      {"model": "queue_retrydelay" },
+      {"model": "queue_maxparallel" },
+      {"model": "queue_keep_jobs" },
+      {"model": "queue_prefer_run_on_creation_instance" },
+      {"model": "queue_thread_pool_size" },
+      {"model": "service_ranking" },
+    ]
+  }]
+}

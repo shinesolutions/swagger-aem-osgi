@@ -72,7 +72,7 @@ private class OASComDayCqWcmWebservicesupportImplRTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqWcmWebservicesupportImplR comDayCqWcmWebservicesupportImplReplicationEventListenerProperties = new OASComDayCqWcmWebservicesupportImplR();
-        Map<String, String> propertyMappings = comDayCqWcmWebservicesupportImplReplicationEventListenerProperties.getPropertyMappings();
-        System.assertEquals('flushAgents', propertyMappings.get('Flush agents'));
+        Map<String, String> x-property-mappings = comDayCqWcmWebservicesupportImplReplicationEventListenerProperties.getx-property-mappings();
+        System.assertEquals('flushAgents', x-property-mappings.get('Flush agents'));
     }
 }

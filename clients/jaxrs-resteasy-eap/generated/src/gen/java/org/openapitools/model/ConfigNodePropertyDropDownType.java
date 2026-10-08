@@ -4,18 +4,18 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
+import org.openapitools.jackson.nullable.JsonNullable;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2019-08-05T01:00:05.540Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2026-10-07T12:54:26.576036107Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ConfigNodePropertyDropDownType   {
   
-
   private Object labels = null;
-
   private Object values = null;
 
   /**
@@ -54,8 +54,8 @@ public class ConfigNodePropertyDropDownType   {
       return false;
     }
     ConfigNodePropertyDropDownType configNodePropertyDropDownType = (ConfigNodePropertyDropDownType) o;
-    return Objects.equals(labels, configNodePropertyDropDownType.labels) &&
-        Objects.equals(values, configNodePropertyDropDownType.values);
+    return Objects.equals(this.labels, configNodePropertyDropDownType.labels) &&
+        Objects.equals(this.values, configNodePropertyDropDownType.values);
   }
 
   @Override
@@ -79,10 +79,7 @@ public class ConfigNodePropertyDropDownType   {
    * (except the first line).
    */
   private String toIndentedString(Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

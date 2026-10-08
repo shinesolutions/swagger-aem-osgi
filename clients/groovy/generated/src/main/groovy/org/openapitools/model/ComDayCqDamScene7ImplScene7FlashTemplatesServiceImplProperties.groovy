@@ -7,14 +7,14 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqDamScene7ImplScene7FlashTemplatesServiceImplProperties {
-    ConfigNodePropertyString scene7FlashTemplatesRti = null
-
-    ConfigNodePropertyString scene7FlashTemplatesRsi = null
-
-    ConfigNodePropertyString scene7FlashTemplatesRb = null
-
-    ConfigNodePropertyString scene7FlashTemplatesRurl = null
-
-    ConfigNodePropertyString scene7FlashTemplateUrlFormatParameter = null
-
+    
+    ConfigNodePropertyString scene7FlashTemplatesRti
+    
+    ConfigNodePropertyString scene7FlashTemplatesRsi
+    
+    ConfigNodePropertyString scene7FlashTemplatesRb
+    
+    ConfigNodePropertyString scene7FlashTemplatesRurl
+    
+    ConfigNodePropertyString scene7FlashTemplateUrlFormatParameter
 }

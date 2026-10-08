@@ -2,20 +2,21 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**name** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
-**description** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
-**enabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **name** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] |
+| **description** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] |
+| **enabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::OrgApacheSlingFeatureflagsImplConfiguredFeatureProperties.new(name: null,
-                                 description: null,
-                                 enabled: null)
+instance = SwaggerAemOsgiClient::OrgApacheSlingFeatureflagsImplConfiguredFeatureProperties.new(
+  name: null,
+  description: null,
+  enabled: null
+)
 ```
-
 

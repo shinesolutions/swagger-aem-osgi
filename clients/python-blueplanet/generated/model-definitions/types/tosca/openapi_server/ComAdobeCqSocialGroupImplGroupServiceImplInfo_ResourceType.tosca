@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqSocialGroupImplGroupServiceImplInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqSocialGroupImplGroupServiceImplInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComAdobeCqSocialGroupImplGroupServiceImplProperties = openapi_server.resourceTypes.ComAdobeCqSocialGroupImplGroupServiceImplProperties
+}
+resourceTypes {
+
+  ComAdobeCqSocialGroupImplGroupServiceImplInfo {
+    title = ComAdobeCqSocialGroupImplGroupServiceImplInfo
+    description = ComAdobeCqSocialGroupImplGroupServiceImplInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComAdobeCqSocialGroupImplGroupServiceImplProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqSocialGroupImplGroupServiceImplInfo {
+    title = ComAdobeCqSocialGroupImplGroupServiceImplInfo
+    description = ComAdobeCqSocialGroupImplGroupServiceImplInfo
+    implements = openapi_server.resourceTypes.ComAdobeCqSocialGroupImplGroupServiceImplInfo
+
+  }
+}

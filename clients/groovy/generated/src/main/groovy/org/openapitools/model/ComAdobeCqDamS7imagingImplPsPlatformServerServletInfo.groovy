@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqDamS7imagingImplPsPlatformServerServletP
 
 @Canonical
 class ComAdobeCqDamS7imagingImplPsPlatformServerServletInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqDamS7imagingImplPsPlatformServerServletProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqDamS7imagingImplPsPlatformServerServletProperties properties
 }

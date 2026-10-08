@@ -6,52 +6,59 @@ import org.openapitools.model.ConfigNodePropertyDropDown;
 import org.openapitools.model.ConfigNodePropertyString;
 
 import io.swagger.annotations.ApiModelProperty;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlType;
-import javax.xml.bind.annotation.XmlEnum;
-import javax.xml.bind.annotation.XmlEnumValue;
+import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
 
 public class OrgApacheSlingDistributionAgentImplQueueDistributionAgentFactoryProperties  {
   
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString name = null;
+
+  private ConfigNodePropertyString name;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString title = null;
+
+  private ConfigNodePropertyString title;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString details = null;
+
+  private ConfigNodePropertyString details;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyBoolean enabled = null;
+
+  private ConfigNodePropertyBoolean enabled;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString serviceName = null;
+
+  private ConfigNodePropertyString serviceName;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyDropDown logLevel = null;
+
+  private ConfigNodePropertyDropDown logLevel;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyArray allowedRoots = null;
+
+  private ConfigNodePropertyArray allowedRoots;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString requestAuthorizationStrategyTarget = null;
+
+  private ConfigNodePropertyString requestAuthorizationStrategyTarget;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString queueProviderFactoryTarget = null;
+
+  private ConfigNodePropertyString queueProviderFactoryTarget;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString packageBuilderTarget = null;
+
+  private ConfigNodePropertyString packageBuilderTarget;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString triggersTarget = null;
+
+  private ConfigNodePropertyString triggersTarget;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyArray priorityQueues = null;
+
+  private ConfigNodePropertyArray priorityQueues;
  /**
    * Get name
    * @return name
@@ -268,6 +275,33 @@ public class OrgApacheSlingDistributionAgentImplQueueDistributionAgentFactoryPro
     return this;
   }
 
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    OrgApacheSlingDistributionAgentImplQueueDistributionAgentFactoryProperties orgApacheSlingDistributionAgentImplQueueDistributionAgentFactoryProperties = (OrgApacheSlingDistributionAgentImplQueueDistributionAgentFactoryProperties) o;
+    return Objects.equals(this.name, orgApacheSlingDistributionAgentImplQueueDistributionAgentFactoryProperties.name) &&
+        Objects.equals(this.title, orgApacheSlingDistributionAgentImplQueueDistributionAgentFactoryProperties.title) &&
+        Objects.equals(this.details, orgApacheSlingDistributionAgentImplQueueDistributionAgentFactoryProperties.details) &&
+        Objects.equals(this.enabled, orgApacheSlingDistributionAgentImplQueueDistributionAgentFactoryProperties.enabled) &&
+        Objects.equals(this.serviceName, orgApacheSlingDistributionAgentImplQueueDistributionAgentFactoryProperties.serviceName) &&
+        Objects.equals(this.logLevel, orgApacheSlingDistributionAgentImplQueueDistributionAgentFactoryProperties.logLevel) &&
+        Objects.equals(this.allowedRoots, orgApacheSlingDistributionAgentImplQueueDistributionAgentFactoryProperties.allowedRoots) &&
+        Objects.equals(this.requestAuthorizationStrategyTarget, orgApacheSlingDistributionAgentImplQueueDistributionAgentFactoryProperties.requestAuthorizationStrategyTarget) &&
+        Objects.equals(this.queueProviderFactoryTarget, orgApacheSlingDistributionAgentImplQueueDistributionAgentFactoryProperties.queueProviderFactoryTarget) &&
+        Objects.equals(this.packageBuilderTarget, orgApacheSlingDistributionAgentImplQueueDistributionAgentFactoryProperties.packageBuilderTarget) &&
+        Objects.equals(this.triggersTarget, orgApacheSlingDistributionAgentImplQueueDistributionAgentFactoryProperties.triggersTarget) &&
+        Objects.equals(this.priorityQueues, orgApacheSlingDistributionAgentImplQueueDistributionAgentFactoryProperties.priorityQueues);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(name, title, details, enabled, serviceName, logLevel, allowedRoots, requestAuthorizationStrategyTarget, queueProviderFactoryTarget, packageBuilderTarget, triggersTarget, priorityQueues);
+  }
 
   @Override
   public String toString() {
@@ -294,11 +328,8 @@ public class OrgApacheSlingDistributionAgentImplQueueDistributionAgentFactoryPro
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private static String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

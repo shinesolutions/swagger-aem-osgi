@@ -17,6 +17,7 @@ Module : AdobeExperienceManagerOSGIConfig(AEM).Model
 {-# LANGUAGE DeriveFoldable #-}
 {-# LANGUAGE DeriveGeneric #-}
 {-# LANGUAGE DeriveTraversable #-}
+{-# LANGUAGE DuplicateRecordFields #-}
 {-# LANGUAGE GeneralizedNewtypeDeriving #-}
 {-# LANGUAGE LambdaCase #-}
 {-# LANGUAGE MultiParamTypeClasses #-}
@@ -2023,8 +2024,8 @@ newtype DispatcherFilterBlocked = DispatcherFilterBlocked { unDispatcherFilterBl
 -- ** Distfolders
 newtype Distfolders = Distfolders { unDistfolders :: Text } deriving (P.Eq, P.Show)
 
--- ** Distfolders[Text]
-newtype Distfolders[Text] = Distfolders[Text] { unDistfolders[Text] :: [Text] } deriving (P.Eq, P.Show)
+-- ** DistfoldersText
+newtype DistfoldersText = DistfoldersText { unDistfoldersText :: [Text] } deriving (P.Eq, P.Show)
 
 -- ** DistributeEvents
 newtype DistributeEvents = DistributeEvents { unDistributeEvents :: Bool } deriving (P.Eq, P.Show)
@@ -2233,8 +2234,8 @@ newtype EventQueueLength = EventQueueLength { unEventQueueLength :: Int } derivi
 -- ** EventTopics
 newtype EventTopics = EventTopics { unEventTopics :: Text } deriving (P.Eq, P.Show)
 
--- ** EventTopics[Text]
-newtype EventTopics[Text] = EventTopics[Text] { unEventTopics[Text] :: [Text] } deriving (P.Eq, P.Show)
+-- ** EventTopicsText
+newtype EventTopicsText = EventTopicsText { unEventTopicsText :: [Text] } deriving (P.Eq, P.Show)
 
 -- ** EventTypes
 newtype EventTypes = EventTypes { unEventTypes :: Text } deriving (P.Eq, P.Show)
@@ -2536,6 +2537,9 @@ newtype GoodLinkTestInterval = GoodLinkTestInterval { unGoodLinkTestInterval :: 
 -- ** GracefulShutdownTimeout
 newtype GracefulShutdownTimeout = GracefulShutdownTimeout { unGracefulShutdownTimeout :: Int } deriving (P.Eq, P.Show)
 
+-- ** GraniteData
+newtype GraniteData = GraniteData { unGraniteData :: [Text] } deriving (P.Eq, P.Show)
+
 -- ** GraniteInfocollectorIncludeHeapDump
 newtype GraniteInfocollectorIncludeHeapDump = GraniteInfocollectorIncludeHeapDump { unGraniteInfocollectorIncludeHeapDump :: Bool } deriving (P.Eq, P.Show)
 
@@ -2601,9 +2605,6 @@ newtype GraniteWorkflowinboxSortOrder = GraniteWorkflowinboxSortOrder { unGranit
 
 -- ** GraniteWorkflowinboxSortPropertyName
 newtype GraniteWorkflowinboxSortPropertyName = GraniteWorkflowinboxSortPropertyName { unGraniteWorkflowinboxSortPropertyName :: Text } deriving (P.Eq, P.Show)
-
--- ** Granitedata
-newtype Granitedata = Granitedata { unGranitedata :: [Text] } deriving (P.Eq, P.Show)
 
 -- ** GreedyStackMatchers
 newtype GreedyStackMatchers = GreedyStackMatchers { unGreedyStackMatchers :: Text } deriving (P.Eq, P.Show)
@@ -2869,8 +2870,8 @@ newtype IdsJobWorkflowModel = IdsJobWorkflowModel { unIdsJobWorkflowModel :: Tex
 -- ** Ignorablenodes
 newtype Ignorablenodes = Ignorablenodes { unIgnorablenodes :: Text } deriving (P.Eq, P.Show)
 
--- ** Ignorablenodes[Text]
-newtype Ignorablenodes[Text] = Ignorablenodes[Text] { unIgnorablenodes[Text] :: [Text] } deriving (P.Eq, P.Show)
+-- ** IgnorablenodesText
+newtype IgnorablenodesText = IgnorablenodesText { unIgnorablenodesText :: [Text] } deriving (P.Eq, P.Show)
 
 -- ** Ignorableprops
 newtype Ignorableprops = Ignorableprops { unIgnorableprops :: [Text] } deriving (P.Eq, P.Show)
@@ -3130,8 +3131,8 @@ newtype JobTopicName = JobTopicName { unJobTopicName :: Text } deriving (P.Eq, P
 -- ** JobTopics
 newtype JobTopics = JobTopics { unJobTopics :: Text } deriving (P.Eq, P.Show)
 
--- ** JobTopics[Text]
-newtype JobTopics[Text] = JobTopics[Text] { unJobTopics[Text] :: [Text] } deriving (P.Eq, P.Show)
+-- ** JobTopicsText
+newtype JobTopicsText = JobTopicsText { unJobTopicsText :: [Text] } deriving (P.Eq, P.Show)
 
 -- ** JournalCache
 newtype JournalCache = JournalCache { unJournalCache :: Text } deriving (P.Eq, P.Show)
@@ -3517,8 +3518,8 @@ newtype MimeTypes = MimeTypes { unMimeTypes :: [Text] } deriving (P.Eq, P.Show)
 -- ** Mimetype
 newtype Mimetype = Mimetype { unMimetype :: Text } deriving (P.Eq, P.Show)
 
--- ** Mimetype[Text]
-newtype Mimetype[Text] = Mimetype[Text] { unMimetype[Text] :: [Text] } deriving (P.Eq, P.Show)
+-- ** MimetypeText
+newtype MimetypeText = MimetypeText { unMimetypeText :: [Text] } deriving (P.Eq, P.Show)
 
 -- ** MinDetailsPercentage
 newtype MinDetailsPercentage = MinDetailsPercentage { unMinDetailsPercentage :: Int } deriving (P.Eq, P.Show)
@@ -3547,8 +3548,8 @@ newtype MinWaitBetweenRetries = MinWaitBetweenRetries { unMinWaitBetweenRetries 
 -- ** MinimumCodeCacheSize
 newtype MinimumCodeCacheSize = MinimumCodeCacheSize { unMinimumCodeCacheSize :: Int } deriving (P.Eq, P.Show)
 
--- ** MntoverlaydamguicontentassetsmoreinfoHtmlpath
-newtype MntoverlaydamguicontentassetsmoreinfoHtmlpath = MntoverlaydamguicontentassetsmoreinfoHtmlpath { unMntoverlaydamguicontentassetsmoreinfoHtmlpath :: Text } deriving (P.Eq, P.Show)
+-- ** MntOverlayDamGuiContentAssetsMoreinfoHtmlPath
+newtype MntOverlayDamGuiContentAssetsMoreinfoHtmlPath = MntOverlayDamGuiContentAssetsMoreinfoHtmlPath { unMntOverlayDamGuiContentAssetsMoreinfoHtmlPath :: Text } deriving (P.Eq, P.Show)
 
 -- ** Mode
 newtype Mode = Mode { unMode :: Text } deriving (P.Eq, P.Show)
@@ -5062,8 +5063,8 @@ newtype SchedulingRepeatTranslationSchedulingFormat = SchedulingRepeatTranslatio
 -- ** Scope
 newtype Scope = Scope { unScope :: Text } deriving (P.Eq, P.Show)
 
--- ** Scope[Text]
-newtype Scope[Text] = Scope[Text] { unScope[Text] :: [Text] } deriving (P.Eq, P.Show)
+-- ** ScopeText
+newtype ScopeText = ScopeText { unScopeText :: [Text] } deriving (P.Eq, P.Show)
 
 -- ** ScreensChannelsPropertiesToRemove
 newtype ScreensChannelsPropertiesToRemove = ScreensChannelsPropertiesToRemove { unScreensChannelsPropertiesToRemove :: [Text] } deriving (P.Eq, P.Show)
@@ -5242,8 +5243,8 @@ newtype SlingAuthAnonymousUser = SlingAuthAnonymousUser { unSlingAuthAnonymousUs
 -- ** SlingAuthRequirements
 newtype SlingAuthRequirements = SlingAuthRequirements { unSlingAuthRequirements :: Text } deriving (P.Eq, P.Show)
 
--- ** SlingAuthRequirements[Text]
-newtype SlingAuthRequirements[Text] = SlingAuthRequirements[Text] { unSlingAuthRequirements[Text] :: [Text] } deriving (P.Eq, P.Show)
+-- ** SlingAuthRequirementsText
+newtype SlingAuthRequirementsText = SlingAuthRequirementsText { unSlingAuthRequirementsText :: [Text] } deriving (P.Eq, P.Show)
 
 -- ** SlingContentDispositionAllPaths
 newtype SlingContentDispositionAllPaths = SlingContentDispositionAllPaths { unSlingContentDispositionAllPaths :: Bool } deriving (P.Eq, P.Show)
@@ -5311,8 +5312,8 @@ newtype SlingServletExtensions = SlingServletExtensions { unSlingServletExtensio
 -- ** SlingServletMethods
 newtype SlingServletMethods = SlingServletMethods { unSlingServletMethods :: Text } deriving (P.Eq, P.Show)
 
--- ** SlingServletMethods[Text]
-newtype SlingServletMethods[Text] = SlingServletMethods[Text] { unSlingServletMethods[Text] :: [Text] } deriving (P.Eq, P.Show)
+-- ** SlingServletMethodsText
+newtype SlingServletMethodsText = SlingServletMethodsText { unSlingServletMethodsText :: [Text] } deriving (P.Eq, P.Show)
 
 -- ** SlingServletPaths
 newtype SlingServletPaths = SlingServletPaths { unSlingServletPaths :: Text } deriving (P.Eq, P.Show)
@@ -5326,8 +5327,8 @@ newtype SlingServletResourceTypesText = SlingServletResourceTypesText { unSlingS
 -- ** SlingServletSelectors
 newtype SlingServletSelectors = SlingServletSelectors { unSlingServletSelectors :: Text } deriving (P.Eq, P.Show)
 
--- ** SlingServletSelectors[Text]
-newtype SlingServletSelectors[Text] = SlingServletSelectors[Text] { unSlingServletSelectors[Text] :: [Text] } deriving (P.Eq, P.Show)
+-- ** SlingServletSelectorsText
+newtype SlingServletSelectorsText = SlingServletSelectorsText { unSlingServletSelectorsText :: [Text] } deriving (P.Eq, P.Show)
 
 -- ** SlingStorePatternRequests
 newtype SlingStorePatternRequests = SlingStorePatternRequests { unSlingStorePatternRequests :: [Text] } deriving (P.Eq, P.Show)
@@ -34301,7 +34302,7 @@ mkComDayCqDamCoreImplMetadataEditorSelectComponentHandlerInfo =
 -- ** ComDayCqDamCoreImplMetadataEditorSelectComponentHandlerProperties
 -- | ComDayCqDamCoreImplMetadataEditorSelectComponentHandlerProperties
 data ComDayCqDamCoreImplMetadataEditorSelectComponentHandlerProperties = ComDayCqDamCoreImplMetadataEditorSelectComponentHandlerProperties
-  { comDayCqDamCoreImplMetadataEditorSelectComponentHandlerPropertiesGranitedata :: !(Maybe ConfigNodePropertyArray) -- ^ "granite:data"
+  { comDayCqDamCoreImplMetadataEditorSelectComponentHandlerPropertiesGraniteData :: !(Maybe ConfigNodePropertyArray) -- ^ "granite:data"
   } deriving (P.Show, P.Eq, P.Typeable)
 
 -- | FromJSON ComDayCqDamCoreImplMetadataEditorSelectComponentHandlerProperties
@@ -34314,7 +34315,7 @@ instance A.FromJSON ComDayCqDamCoreImplMetadataEditorSelectComponentHandlerPrope
 instance A.ToJSON ComDayCqDamCoreImplMetadataEditorSelectComponentHandlerProperties where
   toJSON ComDayCqDamCoreImplMetadataEditorSelectComponentHandlerProperties {..} =
    _omitNulls
-      [ "granite:data" .= comDayCqDamCoreImplMetadataEditorSelectComponentHandlerPropertiesGranitedata
+      [ "granite:data" .= comDayCqDamCoreImplMetadataEditorSelectComponentHandlerPropertiesGraniteData
       ]
 
 
@@ -34323,7 +34324,7 @@ mkComDayCqDamCoreImplMetadataEditorSelectComponentHandlerProperties
   :: ComDayCqDamCoreImplMetadataEditorSelectComponentHandlerProperties
 mkComDayCqDamCoreImplMetadataEditorSelectComponentHandlerProperties =
   ComDayCqDamCoreImplMetadataEditorSelectComponentHandlerProperties
-  { comDayCqDamCoreImplMetadataEditorSelectComponentHandlerPropertiesGranitedata = Nothing
+  { comDayCqDamCoreImplMetadataEditorSelectComponentHandlerPropertiesGraniteData = Nothing
   }
 
 -- ** ComDayCqDamCoreImplMimeTypeAssetUploadRestrictionHelperInfo
@@ -35462,7 +35463,7 @@ mkComDayCqDamCoreImplServletCompanionServletInfo =
 -- | ComDayCqDamCoreImplServletCompanionServletProperties
 data ComDayCqDamCoreImplServletCompanionServletProperties = ComDayCqDamCoreImplServletCompanionServletProperties
   { comDayCqDamCoreImplServletCompanionServletPropertiesMoreInfo :: !(Maybe ConfigNodePropertyString) -- ^ "More Info"
-  , comDayCqDamCoreImplServletCompanionServletPropertiesMntoverlaydamguicontentassetsmoreinfoHtmlpath :: !(Maybe ConfigNodePropertyString) -- ^ "/mnt/overlay/dam/gui/content/assets/moreinfo.html/${path}"
+  , comDayCqDamCoreImplServletCompanionServletPropertiesMntOverlayDamGuiContentAssetsMoreinfoHtmlPath :: !(Maybe ConfigNodePropertyString) -- ^ "/mnt/overlay/dam/gui/content/assets/moreinfo.html/${path}"
   } deriving (P.Show, P.Eq, P.Typeable)
 
 -- | FromJSON ComDayCqDamCoreImplServletCompanionServletProperties
@@ -35477,7 +35478,7 @@ instance A.ToJSON ComDayCqDamCoreImplServletCompanionServletProperties where
   toJSON ComDayCqDamCoreImplServletCompanionServletProperties {..} =
    _omitNulls
       [ "More Info" .= comDayCqDamCoreImplServletCompanionServletPropertiesMoreInfo
-      , "/mnt/overlay/dam/gui/content/assets/moreinfo.html/${path}" .= comDayCqDamCoreImplServletCompanionServletPropertiesMntoverlaydamguicontentassetsmoreinfoHtmlpath
+      , "/mnt/overlay/dam/gui/content/assets/moreinfo.html/${path}" .= comDayCqDamCoreImplServletCompanionServletPropertiesMntOverlayDamGuiContentAssetsMoreinfoHtmlPath
       ]
 
 
@@ -35487,7 +35488,7 @@ mkComDayCqDamCoreImplServletCompanionServletProperties
 mkComDayCqDamCoreImplServletCompanionServletProperties =
   ComDayCqDamCoreImplServletCompanionServletProperties
   { comDayCqDamCoreImplServletCompanionServletPropertiesMoreInfo = Nothing
-  , comDayCqDamCoreImplServletCompanionServletPropertiesMntoverlaydamguicontentassetsmoreinfoHtmlpath = Nothing
+  , comDayCqDamCoreImplServletCompanionServletPropertiesMntOverlayDamGuiContentAssetsMoreinfoHtmlPath = Nothing
   }
 
 -- ** ComDayCqDamCoreImplServletCreateAssetServletInfo
@@ -49249,7 +49250,7 @@ data ConfigNodePropertyDropDown = ConfigNodePropertyDropDown
   , configNodePropertyDropDownOptional :: !(Maybe Bool) -- ^ "optional" - True if optional
   , configNodePropertyDropDownIsSet :: !(Maybe Bool) -- ^ "is_set" - True if property is set
   , configNodePropertyDropDownType :: !(Maybe ConfigNodePropertyDropDownType) -- ^ "type"
-  , configNodePropertyDropDownValue :: !(Maybe A.Value) -- ^ "value" - Property value
+  , configNodePropertyDropDownValue :: !(Maybe AnyType) -- ^ "value" - Property value
   , configNodePropertyDropDownDescription :: !(Maybe Text) -- ^ "description" - Property description
   } deriving (P.Show, P.Eq, P.Typeable)
 
@@ -49293,8 +49294,8 @@ mkConfigNodePropertyDropDown =
 -- ** ConfigNodePropertyDropDownType
 -- | ConfigNodePropertyDropDownType
 data ConfigNodePropertyDropDownType = ConfigNodePropertyDropDownType
-  { configNodePropertyDropDownTypeLabels :: !(Maybe A.Value) -- ^ "labels" - Drop Down label
-  , configNodePropertyDropDownTypeValues :: !(Maybe A.Value) -- ^ "values" - Drown Down value
+  { configNodePropertyDropDownTypeLabels :: !(Maybe AnyType) -- ^ "labels" - Drop Down label
+  , configNodePropertyDropDownTypeValues :: !(Maybe AnyType) -- ^ "values" - Drown Down value
   } deriving (P.Show, P.Eq, P.Typeable)
 
 -- | FromJSON ConfigNodePropertyDropDownType
@@ -64144,4 +64145,5 @@ instance AuthMethod AuthBasicAemAuth where
            & L.over rAuthTypesL (P.filter (/= P.typeOf a))
       else req
     where cred = BC.append "Basic " (B64.encode $ BC.concat [ user, ":", pw ])
+
 

@@ -1,0 +1,24 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "smtp_host" },
+      {"model": "smtp_port" },
+      {"model": "smtp_user" },
+      {"model": "smtp_password" },
+      {"model": "from_address" },
+      {"model": "smtp_ssl" },
+      {"model": "smtp_starttls" },
+      {"model": "debug_email" },
+    ]
+  }]
+}

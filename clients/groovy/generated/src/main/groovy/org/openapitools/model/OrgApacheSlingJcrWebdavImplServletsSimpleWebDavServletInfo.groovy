@@ -7,16 +7,16 @@ import org.openapitools.model.OrgApacheSlingJcrWebdavImplServletsSimpleWebDavSer
 
 @Canonical
 class OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletProperties properties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletProperties properties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

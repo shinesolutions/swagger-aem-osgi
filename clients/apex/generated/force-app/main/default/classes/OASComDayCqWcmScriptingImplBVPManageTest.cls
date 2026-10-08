@@ -72,7 +72,7 @@ private class OASComDayCqWcmScriptingImplBVPManageTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqWcmScriptingImplBVPManage comDayCqWcmScriptingImplBVPManagerProperties = new OASComDayCqWcmScriptingImplBVPManage();
-        Map<String, String> propertyMappings = comDayCqWcmScriptingImplBVPManagerProperties.getPropertyMappings();
-        System.assertEquals('comDayCqWcmScriptingBvpScriptEngines', propertyMappings.get('com.day.cq.wcm.scripting.bvp.script.engines'));
+        Map<String, String> x-property-mappings = comDayCqWcmScriptingImplBVPManagerProperties.getx-property-mappings();
+        System.assertEquals('comDayCqWcmScriptingBvpScriptEngines', x-property-mappings.get('com.day.cq.wcm.scripting.bvp.script.engines'));
     }
 }

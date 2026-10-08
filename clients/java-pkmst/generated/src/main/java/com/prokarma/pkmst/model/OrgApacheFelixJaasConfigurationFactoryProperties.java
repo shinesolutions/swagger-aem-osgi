@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyArray;
 import com.prokarma.pkmst.model.ConfigNodePropertyDropDown;
 import com.prokarma.pkmst.model.ConfigNodePropertyInteger;
@@ -18,33 +19,32 @@ import io.swagger.annotations.ApiModelProperty;
  * OrgApacheFelixJaasConfigurationFactoryProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheFelixJaasConfigurationFactoryProperties   {
   @JsonProperty("jaas.controlFlag")
-  private ConfigNodePropertyDropDown jaasControlFlag = null;
+  private ConfigNodePropertyDropDown jaasControlFlag;
 
   @JsonProperty("jaas.ranking")
-  private ConfigNodePropertyInteger jaasRanking = null;
+  private ConfigNodePropertyInteger jaasRanking;
 
   @JsonProperty("jaas.realmName")
-  private ConfigNodePropertyString jaasRealmName = null;
+  private ConfigNodePropertyString jaasRealmName;
 
   @JsonProperty("jaas.classname")
-  private ConfigNodePropertyString jaasClassname = null;
+  private ConfigNodePropertyString jaasClassname;
 
   @JsonProperty("jaas.options")
-  private ConfigNodePropertyArray jaasOptions = null;
+  private ConfigNodePropertyArray jaasOptions;
 
   public OrgApacheFelixJaasConfigurationFactoryProperties jaasControlFlag(ConfigNodePropertyDropDown jaasControlFlag) {
     this.jaasControlFlag = jaasControlFlag;
     return this;
   }
 
-   /**
+  /**
    * Get jaasControlFlag
    * @return jaasControlFlag
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyDropDown getJaasControlFlag() {
     return jaasControlFlag;
@@ -59,10 +59,10 @@ public class OrgApacheFelixJaasConfigurationFactoryProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get jaasRanking
    * @return jaasRanking
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getJaasRanking() {
     return jaasRanking;
@@ -77,10 +77,10 @@ public class OrgApacheFelixJaasConfigurationFactoryProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get jaasRealmName
    * @return jaasRealmName
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getJaasRealmName() {
     return jaasRealmName;
@@ -95,10 +95,10 @@ public class OrgApacheFelixJaasConfigurationFactoryProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get jaasClassname
    * @return jaasClassname
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getJaasClassname() {
     return jaasClassname;
@@ -113,10 +113,10 @@ public class OrgApacheFelixJaasConfigurationFactoryProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get jaasOptions
    * @return jaasOptions
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getJaasOptions() {
     return jaasOptions;
@@ -128,7 +128,7 @@ public class OrgApacheFelixJaasConfigurationFactoryProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -166,11 +166,8 @@ public class OrgApacheFelixJaasConfigurationFactoryProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

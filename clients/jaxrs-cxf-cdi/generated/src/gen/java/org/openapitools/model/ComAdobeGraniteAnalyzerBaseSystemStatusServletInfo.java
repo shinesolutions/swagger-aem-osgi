@@ -2,31 +2,32 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ComAdobeGraniteAnalyzerBaseSystemStatusServletProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class ComAdobeGraniteAnalyzerBaseSystemStatusServletInfo   {
   
-  private String pid = null;
+  private String pid;
 
-  private String title = null;
+  private String title;
 
-  private String description = null;
+  private String description;
 
-  private ComAdobeGraniteAnalyzerBaseSystemStatusServletProperties properties = null;
+  private ComAdobeGraniteAnalyzerBaseSystemStatusServletProperties properties;
 
-  private String bundleLocation = null;
+  private String bundleLocation;
 
-  private String serviceLocation = null;
-
+  private String serviceLocation;
 
   /**
    **/
@@ -138,7 +139,7 @@ public class ComAdobeGraniteAnalyzerBaseSystemStatusServletInfo   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -146,12 +147,12 @@ public class ComAdobeGraniteAnalyzerBaseSystemStatusServletInfo   {
       return false;
     }
     ComAdobeGraniteAnalyzerBaseSystemStatusServletInfo comAdobeGraniteAnalyzerBaseSystemStatusServletInfo = (ComAdobeGraniteAnalyzerBaseSystemStatusServletInfo) o;
-    return Objects.equals(pid, comAdobeGraniteAnalyzerBaseSystemStatusServletInfo.pid) &&
-        Objects.equals(title, comAdobeGraniteAnalyzerBaseSystemStatusServletInfo.title) &&
-        Objects.equals(description, comAdobeGraniteAnalyzerBaseSystemStatusServletInfo.description) &&
-        Objects.equals(properties, comAdobeGraniteAnalyzerBaseSystemStatusServletInfo.properties) &&
-        Objects.equals(bundleLocation, comAdobeGraniteAnalyzerBaseSystemStatusServletInfo.bundleLocation) &&
-        Objects.equals(serviceLocation, comAdobeGraniteAnalyzerBaseSystemStatusServletInfo.serviceLocation);
+    return Objects.equals(this.pid, comAdobeGraniteAnalyzerBaseSystemStatusServletInfo.pid) &&
+        Objects.equals(this.title, comAdobeGraniteAnalyzerBaseSystemStatusServletInfo.title) &&
+        Objects.equals(this.description, comAdobeGraniteAnalyzerBaseSystemStatusServletInfo.description) &&
+        Objects.equals(this.properties, comAdobeGraniteAnalyzerBaseSystemStatusServletInfo.properties) &&
+        Objects.equals(this.bundleLocation, comAdobeGraniteAnalyzerBaseSystemStatusServletInfo.bundleLocation) &&
+        Objects.equals(this.serviceLocation, comAdobeGraniteAnalyzerBaseSystemStatusServletInfo.serviceLocation);
   }
 
   @Override
@@ -178,11 +179,8 @@ public class ComAdobeGraniteAnalyzerBaseSystemStatusServletInfo   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

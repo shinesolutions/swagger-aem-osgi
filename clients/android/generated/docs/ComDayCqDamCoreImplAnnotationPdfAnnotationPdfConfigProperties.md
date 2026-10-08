@@ -1,7 +1,9 @@
 
+
 # ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **cqDamConfigAnnotationPdfDocumentWidth** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
@@ -20,6 +22,7 @@ Name | Type | Description | Notes
 **cqDamConfigAnnotationPdfReviewStatusColorChangesRequested** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
 **cqDamConfigAnnotationPdfAnnotationMarkerWidth** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
 **cqDamConfigAnnotationPdfAssetMinheight** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
+
 
 
 

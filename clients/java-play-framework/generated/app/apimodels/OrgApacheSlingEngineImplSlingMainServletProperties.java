@@ -4,38 +4,53 @@ import apimodels.ConfigNodePropertyArray;
 import apimodels.ConfigNodePropertyBoolean;
 import apimodels.ConfigNodePropertyInteger;
 import apimodels.ConfigNodePropertyString;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * OrgApacheSlingEngineImplSlingMainServletProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class OrgApacheSlingEngineImplSlingMainServletProperties   {
   @JsonProperty("sling.max.calls")
-  private ConfigNodePropertyInteger slingMaxCalls = null;
+  @Valid
+
+  private ConfigNodePropertyInteger slingMaxCalls;
 
   @JsonProperty("sling.max.inclusions")
-  private ConfigNodePropertyInteger slingMaxInclusions = null;
+  @Valid
+
+  private ConfigNodePropertyInteger slingMaxInclusions;
 
   @JsonProperty("sling.trace.allow")
-  private ConfigNodePropertyBoolean slingTraceAllow = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean slingTraceAllow;
 
   @JsonProperty("sling.max.record.requests")
-  private ConfigNodePropertyInteger slingMaxRecordRequests = null;
+  @Valid
+
+  private ConfigNodePropertyInteger slingMaxRecordRequests;
 
   @JsonProperty("sling.store.pattern.requests")
-  private ConfigNodePropertyArray slingStorePatternRequests = null;
+  @Valid
+
+  private ConfigNodePropertyArray slingStorePatternRequests;
 
   @JsonProperty("sling.serverinfo")
-  private ConfigNodePropertyString slingServerinfo = null;
+  @Valid
+
+  private ConfigNodePropertyString slingServerinfo;
 
   @JsonProperty("sling.additional.response.headers")
-  private ConfigNodePropertyArray slingAdditionalResponseHeaders = null;
+  @Valid
+
+  private ConfigNodePropertyArray slingAdditionalResponseHeaders;
 
   public OrgApacheSlingEngineImplSlingMainServletProperties slingMaxCalls(ConfigNodePropertyInteger slingMaxCalls) {
     this.slingMaxCalls = slingMaxCalls;
@@ -46,7 +61,6 @@ public class OrgApacheSlingEngineImplSlingMainServletProperties   {
    * Get slingMaxCalls
    * @return slingMaxCalls
   **/
-  @Valid
   public ConfigNodePropertyInteger getSlingMaxCalls() {
     return slingMaxCalls;
   }
@@ -64,7 +78,6 @@ public class OrgApacheSlingEngineImplSlingMainServletProperties   {
    * Get slingMaxInclusions
    * @return slingMaxInclusions
   **/
-  @Valid
   public ConfigNodePropertyInteger getSlingMaxInclusions() {
     return slingMaxInclusions;
   }
@@ -82,7 +95,6 @@ public class OrgApacheSlingEngineImplSlingMainServletProperties   {
    * Get slingTraceAllow
    * @return slingTraceAllow
   **/
-  @Valid
   public ConfigNodePropertyBoolean getSlingTraceAllow() {
     return slingTraceAllow;
   }
@@ -100,7 +112,6 @@ public class OrgApacheSlingEngineImplSlingMainServletProperties   {
    * Get slingMaxRecordRequests
    * @return slingMaxRecordRequests
   **/
-  @Valid
   public ConfigNodePropertyInteger getSlingMaxRecordRequests() {
     return slingMaxRecordRequests;
   }
@@ -118,7 +129,6 @@ public class OrgApacheSlingEngineImplSlingMainServletProperties   {
    * Get slingStorePatternRequests
    * @return slingStorePatternRequests
   **/
-  @Valid
   public ConfigNodePropertyArray getSlingStorePatternRequests() {
     return slingStorePatternRequests;
   }
@@ -136,7 +146,6 @@ public class OrgApacheSlingEngineImplSlingMainServletProperties   {
    * Get slingServerinfo
    * @return slingServerinfo
   **/
-  @Valid
   public ConfigNodePropertyString getSlingServerinfo() {
     return slingServerinfo;
   }
@@ -154,7 +163,6 @@ public class OrgApacheSlingEngineImplSlingMainServletProperties   {
    * Get slingAdditionalResponseHeaders
    * @return slingAdditionalResponseHeaders
   **/
-  @Valid
   public ConfigNodePropertyArray getSlingAdditionalResponseHeaders() {
     return slingAdditionalResponseHeaders;
   }
@@ -165,7 +173,7 @@ public class OrgApacheSlingEngineImplSlingMainServletProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -208,11 +216,8 @@ public class OrgApacheSlingEngineImplSlingMainServletProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeGraniteFragsImplRandomFeatureProperties;
 
 @Canonical
 class ComAdobeGraniteFragsImplRandomFeatureInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteFragsImplRandomFeatureProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteFragsImplRandomFeatureProperties properties
 }

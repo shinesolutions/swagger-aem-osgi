@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class OrgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFaProperties {
-    ConfigNodePropertyInteger orgApacheSlingScriptingJavascriptRhinoOptLevel = null
-
+    
+    ConfigNodePropertyInteger orgApacheSlingScriptingJavascriptRhinoOptLevel
 }

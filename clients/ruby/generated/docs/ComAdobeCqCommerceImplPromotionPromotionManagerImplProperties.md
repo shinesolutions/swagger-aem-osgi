@@ -2,16 +2,17 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**cq_commerce_promotion_root** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **cq_commerce_promotion_root** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComAdobeCqCommerceImplPromotionPromotionManagerImplProperties.new(cq_commerce_promotion_root: null)
+instance = SwaggerAemOsgiClient::ComAdobeCqCommerceImplPromotionPromotionManagerImplProperties.new(
+  cq_commerce_promotion_root: null
+)
 ```
-
 

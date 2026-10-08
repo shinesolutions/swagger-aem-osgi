@@ -2,13 +2,13 @@
 # OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**jaasPeriodranking** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**jaasPeriodcontrolFlag** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**jaasPeriodrealmName** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**idpPeriodname** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**syncPeriodhandlerName** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **jaasRanking** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **jaasControlFlag** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **jaasRealmName** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **idpName** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **syncHandlerName** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
 
 
 

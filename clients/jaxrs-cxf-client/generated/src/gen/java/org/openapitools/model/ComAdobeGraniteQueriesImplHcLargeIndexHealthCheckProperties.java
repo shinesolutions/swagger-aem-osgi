@@ -4,25 +4,23 @@ import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyInteger;
 
 import io.swagger.annotations.ApiModelProperty;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlType;
-import javax.xml.bind.annotation.XmlEnum;
-import javax.xml.bind.annotation.XmlEnumValue;
+import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
 
 public class ComAdobeGraniteQueriesImplHcLargeIndexHealthCheckProperties  {
   
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyInteger largeIndexCriticalThreshold = null;
+
+  private ConfigNodePropertyInteger largeIndexCriticalThreshold;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyInteger largeIndexWarnThreshold = null;
+
+  private ConfigNodePropertyInteger largeIndexWarnThreshold;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyArray hcTags = null;
+
+  private ConfigNodePropertyArray hcTags;
  /**
    * Get largeIndexCriticalThreshold
    * @return largeIndexCriticalThreshold
@@ -77,6 +75,24 @@ public class ComAdobeGraniteQueriesImplHcLargeIndexHealthCheckProperties  {
     return this;
   }
 
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    ComAdobeGraniteQueriesImplHcLargeIndexHealthCheckProperties comAdobeGraniteQueriesImplHcLargeIndexHealthCheckProperties = (ComAdobeGraniteQueriesImplHcLargeIndexHealthCheckProperties) o;
+    return Objects.equals(this.largeIndexCriticalThreshold, comAdobeGraniteQueriesImplHcLargeIndexHealthCheckProperties.largeIndexCriticalThreshold) &&
+        Objects.equals(this.largeIndexWarnThreshold, comAdobeGraniteQueriesImplHcLargeIndexHealthCheckProperties.largeIndexWarnThreshold) &&
+        Objects.equals(this.hcTags, comAdobeGraniteQueriesImplHcLargeIndexHealthCheckProperties.hcTags);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(largeIndexCriticalThreshold, largeIndexWarnThreshold, hcTags);
+  }
 
   @Override
   public String toString() {
@@ -94,11 +110,8 @@ public class ComAdobeGraniteQueriesImplHcLargeIndexHealthCheckProperties  {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private static String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

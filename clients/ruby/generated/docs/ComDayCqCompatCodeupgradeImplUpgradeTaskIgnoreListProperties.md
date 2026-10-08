@@ -2,16 +2,17 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**upgrade_task_ignore_list** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **upgrade_task_ignore_list** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComDayCqCompatCodeupgradeImplUpgradeTaskIgnoreListProperties.new(upgrade_task_ignore_list: null)
+instance = SwaggerAemOsgiClient::ComDayCqCompatCodeupgradeImplUpgradeTaskIgnoreListProperties.new(
+  upgrade_task_ignore_list: null
+)
 ```
-
 

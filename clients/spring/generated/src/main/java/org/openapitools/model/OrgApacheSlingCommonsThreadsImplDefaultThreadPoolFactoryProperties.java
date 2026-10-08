@@ -1,57 +1,68 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyDropDown;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties   {
-  @JsonProperty("name")
-  private ConfigNodePropertyString name = null;
+@JsonTypeName("orgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties {
 
-  @JsonProperty("minPoolSize")
-  private ConfigNodePropertyInteger minPoolSize = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString name;
 
-  @JsonProperty("maxPoolSize")
-  private ConfigNodePropertyInteger maxPoolSize = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger minPoolSize;
 
-  @JsonProperty("queueSize")
-  private ConfigNodePropertyInteger queueSize = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger maxPoolSize;
 
-  @JsonProperty("maxThreadAge")
-  private ConfigNodePropertyInteger maxThreadAge = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger queueSize;
 
-  @JsonProperty("keepAliveTime")
-  private ConfigNodePropertyInteger keepAliveTime = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger maxThreadAge;
 
-  @JsonProperty("blockPolicy")
-  private ConfigNodePropertyDropDown blockPolicy = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger keepAliveTime;
 
-  @JsonProperty("shutdownGraceful")
-  private ConfigNodePropertyBoolean shutdownGraceful = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyDropDown blockPolicy;
 
-  @JsonProperty("daemon")
-  private ConfigNodePropertyBoolean daemon = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean shutdownGraceful;
 
-  @JsonProperty("shutdownWaitTime")
-  private ConfigNodePropertyInteger shutdownWaitTime = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean daemon;
 
-  @JsonProperty("priority")
-  private ConfigNodePropertyDropDown priority = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger shutdownWaitTime;
 
-  public OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties name(ConfigNodePropertyString name) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyDropDown priority;
+
+  public OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties name(@Nullable ConfigNodePropertyString name) {
     this.name = name;
     return this;
   }
@@ -59,20 +70,20 @@ public class OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties 
   /**
    * Get name
    * @return name
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getName() {
+   */
+  @Valid 
+  @Schema(name = "name", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("name")
+  public @Nullable ConfigNodePropertyString getName() {
     return name;
   }
 
-  public void setName(ConfigNodePropertyString name) {
+  @JsonProperty("name")
+  public void setName(@Nullable ConfigNodePropertyString name) {
     this.name = name;
   }
 
-  public OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties minPoolSize(ConfigNodePropertyInteger minPoolSize) {
+  public OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties minPoolSize(@Nullable ConfigNodePropertyInteger minPoolSize) {
     this.minPoolSize = minPoolSize;
     return this;
   }
@@ -80,20 +91,20 @@ public class OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties 
   /**
    * Get minPoolSize
    * @return minPoolSize
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getMinPoolSize() {
+   */
+  @Valid 
+  @Schema(name = "minPoolSize", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("minPoolSize")
+  public @Nullable ConfigNodePropertyInteger getMinPoolSize() {
     return minPoolSize;
   }
 
-  public void setMinPoolSize(ConfigNodePropertyInteger minPoolSize) {
+  @JsonProperty("minPoolSize")
+  public void setMinPoolSize(@Nullable ConfigNodePropertyInteger minPoolSize) {
     this.minPoolSize = minPoolSize;
   }
 
-  public OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties maxPoolSize(ConfigNodePropertyInteger maxPoolSize) {
+  public OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties maxPoolSize(@Nullable ConfigNodePropertyInteger maxPoolSize) {
     this.maxPoolSize = maxPoolSize;
     return this;
   }
@@ -101,20 +112,20 @@ public class OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties 
   /**
    * Get maxPoolSize
    * @return maxPoolSize
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getMaxPoolSize() {
+   */
+  @Valid 
+  @Schema(name = "maxPoolSize", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("maxPoolSize")
+  public @Nullable ConfigNodePropertyInteger getMaxPoolSize() {
     return maxPoolSize;
   }
 
-  public void setMaxPoolSize(ConfigNodePropertyInteger maxPoolSize) {
+  @JsonProperty("maxPoolSize")
+  public void setMaxPoolSize(@Nullable ConfigNodePropertyInteger maxPoolSize) {
     this.maxPoolSize = maxPoolSize;
   }
 
-  public OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties queueSize(ConfigNodePropertyInteger queueSize) {
+  public OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties queueSize(@Nullable ConfigNodePropertyInteger queueSize) {
     this.queueSize = queueSize;
     return this;
   }
@@ -122,20 +133,20 @@ public class OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties 
   /**
    * Get queueSize
    * @return queueSize
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getQueueSize() {
+   */
+  @Valid 
+  @Schema(name = "queueSize", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("queueSize")
+  public @Nullable ConfigNodePropertyInteger getQueueSize() {
     return queueSize;
   }
 
-  public void setQueueSize(ConfigNodePropertyInteger queueSize) {
+  @JsonProperty("queueSize")
+  public void setQueueSize(@Nullable ConfigNodePropertyInteger queueSize) {
     this.queueSize = queueSize;
   }
 
-  public OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties maxThreadAge(ConfigNodePropertyInteger maxThreadAge) {
+  public OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties maxThreadAge(@Nullable ConfigNodePropertyInteger maxThreadAge) {
     this.maxThreadAge = maxThreadAge;
     return this;
   }
@@ -143,20 +154,20 @@ public class OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties 
   /**
    * Get maxThreadAge
    * @return maxThreadAge
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getMaxThreadAge() {
+   */
+  @Valid 
+  @Schema(name = "maxThreadAge", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("maxThreadAge")
+  public @Nullable ConfigNodePropertyInteger getMaxThreadAge() {
     return maxThreadAge;
   }
 
-  public void setMaxThreadAge(ConfigNodePropertyInteger maxThreadAge) {
+  @JsonProperty("maxThreadAge")
+  public void setMaxThreadAge(@Nullable ConfigNodePropertyInteger maxThreadAge) {
     this.maxThreadAge = maxThreadAge;
   }
 
-  public OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties keepAliveTime(ConfigNodePropertyInteger keepAliveTime) {
+  public OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties keepAliveTime(@Nullable ConfigNodePropertyInteger keepAliveTime) {
     this.keepAliveTime = keepAliveTime;
     return this;
   }
@@ -164,20 +175,20 @@ public class OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties 
   /**
    * Get keepAliveTime
    * @return keepAliveTime
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getKeepAliveTime() {
+   */
+  @Valid 
+  @Schema(name = "keepAliveTime", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("keepAliveTime")
+  public @Nullable ConfigNodePropertyInteger getKeepAliveTime() {
     return keepAliveTime;
   }
 
-  public void setKeepAliveTime(ConfigNodePropertyInteger keepAliveTime) {
+  @JsonProperty("keepAliveTime")
+  public void setKeepAliveTime(@Nullable ConfigNodePropertyInteger keepAliveTime) {
     this.keepAliveTime = keepAliveTime;
   }
 
-  public OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties blockPolicy(ConfigNodePropertyDropDown blockPolicy) {
+  public OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties blockPolicy(@Nullable ConfigNodePropertyDropDown blockPolicy) {
     this.blockPolicy = blockPolicy;
     return this;
   }
@@ -185,20 +196,20 @@ public class OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties 
   /**
    * Get blockPolicy
    * @return blockPolicy
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyDropDown getBlockPolicy() {
+   */
+  @Valid 
+  @Schema(name = "blockPolicy", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("blockPolicy")
+  public @Nullable ConfigNodePropertyDropDown getBlockPolicy() {
     return blockPolicy;
   }
 
-  public void setBlockPolicy(ConfigNodePropertyDropDown blockPolicy) {
+  @JsonProperty("blockPolicy")
+  public void setBlockPolicy(@Nullable ConfigNodePropertyDropDown blockPolicy) {
     this.blockPolicy = blockPolicy;
   }
 
-  public OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties shutdownGraceful(ConfigNodePropertyBoolean shutdownGraceful) {
+  public OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties shutdownGraceful(@Nullable ConfigNodePropertyBoolean shutdownGraceful) {
     this.shutdownGraceful = shutdownGraceful;
     return this;
   }
@@ -206,20 +217,20 @@ public class OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties 
   /**
    * Get shutdownGraceful
    * @return shutdownGraceful
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getShutdownGraceful() {
+   */
+  @Valid 
+  @Schema(name = "shutdownGraceful", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("shutdownGraceful")
+  public @Nullable ConfigNodePropertyBoolean getShutdownGraceful() {
     return shutdownGraceful;
   }
 
-  public void setShutdownGraceful(ConfigNodePropertyBoolean shutdownGraceful) {
+  @JsonProperty("shutdownGraceful")
+  public void setShutdownGraceful(@Nullable ConfigNodePropertyBoolean shutdownGraceful) {
     this.shutdownGraceful = shutdownGraceful;
   }
 
-  public OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties daemon(ConfigNodePropertyBoolean daemon) {
+  public OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties daemon(@Nullable ConfigNodePropertyBoolean daemon) {
     this.daemon = daemon;
     return this;
   }
@@ -227,20 +238,20 @@ public class OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties 
   /**
    * Get daemon
    * @return daemon
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getDaemon() {
+   */
+  @Valid 
+  @Schema(name = "daemon", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("daemon")
+  public @Nullable ConfigNodePropertyBoolean getDaemon() {
     return daemon;
   }
 
-  public void setDaemon(ConfigNodePropertyBoolean daemon) {
+  @JsonProperty("daemon")
+  public void setDaemon(@Nullable ConfigNodePropertyBoolean daemon) {
     this.daemon = daemon;
   }
 
-  public OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties shutdownWaitTime(ConfigNodePropertyInteger shutdownWaitTime) {
+  public OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties shutdownWaitTime(@Nullable ConfigNodePropertyInteger shutdownWaitTime) {
     this.shutdownWaitTime = shutdownWaitTime;
     return this;
   }
@@ -248,20 +259,20 @@ public class OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties 
   /**
    * Get shutdownWaitTime
    * @return shutdownWaitTime
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getShutdownWaitTime() {
+   */
+  @Valid 
+  @Schema(name = "shutdownWaitTime", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("shutdownWaitTime")
+  public @Nullable ConfigNodePropertyInteger getShutdownWaitTime() {
     return shutdownWaitTime;
   }
 
-  public void setShutdownWaitTime(ConfigNodePropertyInteger shutdownWaitTime) {
+  @JsonProperty("shutdownWaitTime")
+  public void setShutdownWaitTime(@Nullable ConfigNodePropertyInteger shutdownWaitTime) {
     this.shutdownWaitTime = shutdownWaitTime;
   }
 
-  public OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties priority(ConfigNodePropertyDropDown priority) {
+  public OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties priority(@Nullable ConfigNodePropertyDropDown priority) {
     this.priority = priority;
     return this;
   }
@@ -269,22 +280,21 @@ public class OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties 
   /**
    * Get priority
    * @return priority
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyDropDown getPriority() {
+   */
+  @Valid 
+  @Schema(name = "priority", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("priority")
+  public @Nullable ConfigNodePropertyDropDown getPriority() {
     return priority;
   }
 
-  public void setPriority(ConfigNodePropertyDropDown priority) {
+  @JsonProperty("priority")
+  public void setPriority(@Nullable ConfigNodePropertyDropDown priority) {
     this.priority = priority;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -314,7 +324,6 @@ public class OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties 
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties {\n");
-    
     sb.append("    name: ").append(toIndentedString(name)).append("\n");
     sb.append("    minPoolSize: ").append(toIndentedString(minPoolSize)).append("\n");
     sb.append("    maxPoolSize: ").append(toIndentedString(maxPoolSize)).append("\n");
@@ -334,11 +343,8 @@ public class OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties 
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

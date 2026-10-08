@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyDropDown;
 
 @Canonical
 class ComAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImpProperties {
-    ConfigNodePropertyDropDown tempStorageConfig = null
-
+    
+    ConfigNodePropertyDropDown tempStorageConfig
 }

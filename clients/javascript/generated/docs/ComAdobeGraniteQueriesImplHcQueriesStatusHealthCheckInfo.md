@@ -1,6 +1,7 @@
 # NodeSwaggerAemOsgi.ComAdobeGraniteQueriesImplHcQueriesStatusHealthCheckInfo
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **pid** | **String** |  | [optional] 

@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqReportingImplRLogAnalyzerProperties;
 
 @Canonical
 class ComDayCqReportingImplRLogAnalyzerInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqReportingImplRLogAnalyzerProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqReportingImplRLogAnalyzerProperties properties
 }

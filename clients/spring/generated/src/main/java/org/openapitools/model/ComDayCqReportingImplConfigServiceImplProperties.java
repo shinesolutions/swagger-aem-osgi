@@ -1,53 +1,64 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComDayCqReportingImplConfigServiceImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComDayCqReportingImplConfigServiceImplProperties   {
-  @JsonProperty("repconf.timezone")
-  private ConfigNodePropertyString repconfTimezone = null;
+@JsonTypeName("comDayCqReportingImplConfigServiceImplProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComDayCqReportingImplConfigServiceImplProperties {
 
-  @JsonProperty("repconf.locale")
-  private ConfigNodePropertyString repconfLocale = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString repconfTimezone;
 
-  @JsonProperty("repconf.snapshots")
-  private ConfigNodePropertyString repconfSnapshots = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString repconfLocale;
 
-  @JsonProperty("repconf.repdir")
-  private ConfigNodePropertyString repconfRepdir = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString repconfSnapshots;
 
-  @JsonProperty("repconf.hourofday")
-  private ConfigNodePropertyInteger repconfHourofday = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString repconfRepdir;
 
-  @JsonProperty("repconf.minofhour")
-  private ConfigNodePropertyInteger repconfMinofhour = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger repconfHourofday;
 
-  @JsonProperty("repconf.maxrows")
-  private ConfigNodePropertyInteger repconfMaxrows = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger repconfMinofhour;
 
-  @JsonProperty("repconf.fakedata")
-  private ConfigNodePropertyBoolean repconfFakedata = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger repconfMaxrows;
 
-  @JsonProperty("repconf.snapshotuser")
-  private ConfigNodePropertyString repconfSnapshotuser = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean repconfFakedata;
 
-  @JsonProperty("repconf.enforcesnapshotuser")
-  private ConfigNodePropertyBoolean repconfEnforcesnapshotuser = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString repconfSnapshotuser;
 
-  public ComDayCqReportingImplConfigServiceImplProperties repconfTimezone(ConfigNodePropertyString repconfTimezone) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean repconfEnforcesnapshotuser;
+
+  public ComDayCqReportingImplConfigServiceImplProperties repconfTimezone(@Nullable ConfigNodePropertyString repconfTimezone) {
     this.repconfTimezone = repconfTimezone;
     return this;
   }
@@ -55,20 +66,20 @@ public class ComDayCqReportingImplConfigServiceImplProperties   {
   /**
    * Get repconfTimezone
    * @return repconfTimezone
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getRepconfTimezone() {
+   */
+  @Valid 
+  @Schema(name = "repconf.timezone", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("repconf.timezone")
+  public @Nullable ConfigNodePropertyString getRepconfTimezone() {
     return repconfTimezone;
   }
 
-  public void setRepconfTimezone(ConfigNodePropertyString repconfTimezone) {
+  @JsonProperty("repconf.timezone")
+  public void setRepconfTimezone(@Nullable ConfigNodePropertyString repconfTimezone) {
     this.repconfTimezone = repconfTimezone;
   }
 
-  public ComDayCqReportingImplConfigServiceImplProperties repconfLocale(ConfigNodePropertyString repconfLocale) {
+  public ComDayCqReportingImplConfigServiceImplProperties repconfLocale(@Nullable ConfigNodePropertyString repconfLocale) {
     this.repconfLocale = repconfLocale;
     return this;
   }
@@ -76,20 +87,20 @@ public class ComDayCqReportingImplConfigServiceImplProperties   {
   /**
    * Get repconfLocale
    * @return repconfLocale
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getRepconfLocale() {
+   */
+  @Valid 
+  @Schema(name = "repconf.locale", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("repconf.locale")
+  public @Nullable ConfigNodePropertyString getRepconfLocale() {
     return repconfLocale;
   }
 
-  public void setRepconfLocale(ConfigNodePropertyString repconfLocale) {
+  @JsonProperty("repconf.locale")
+  public void setRepconfLocale(@Nullable ConfigNodePropertyString repconfLocale) {
     this.repconfLocale = repconfLocale;
   }
 
-  public ComDayCqReportingImplConfigServiceImplProperties repconfSnapshots(ConfigNodePropertyString repconfSnapshots) {
+  public ComDayCqReportingImplConfigServiceImplProperties repconfSnapshots(@Nullable ConfigNodePropertyString repconfSnapshots) {
     this.repconfSnapshots = repconfSnapshots;
     return this;
   }
@@ -97,20 +108,20 @@ public class ComDayCqReportingImplConfigServiceImplProperties   {
   /**
    * Get repconfSnapshots
    * @return repconfSnapshots
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getRepconfSnapshots() {
+   */
+  @Valid 
+  @Schema(name = "repconf.snapshots", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("repconf.snapshots")
+  public @Nullable ConfigNodePropertyString getRepconfSnapshots() {
     return repconfSnapshots;
   }
 
-  public void setRepconfSnapshots(ConfigNodePropertyString repconfSnapshots) {
+  @JsonProperty("repconf.snapshots")
+  public void setRepconfSnapshots(@Nullable ConfigNodePropertyString repconfSnapshots) {
     this.repconfSnapshots = repconfSnapshots;
   }
 
-  public ComDayCqReportingImplConfigServiceImplProperties repconfRepdir(ConfigNodePropertyString repconfRepdir) {
+  public ComDayCqReportingImplConfigServiceImplProperties repconfRepdir(@Nullable ConfigNodePropertyString repconfRepdir) {
     this.repconfRepdir = repconfRepdir;
     return this;
   }
@@ -118,20 +129,20 @@ public class ComDayCqReportingImplConfigServiceImplProperties   {
   /**
    * Get repconfRepdir
    * @return repconfRepdir
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getRepconfRepdir() {
+   */
+  @Valid 
+  @Schema(name = "repconf.repdir", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("repconf.repdir")
+  public @Nullable ConfigNodePropertyString getRepconfRepdir() {
     return repconfRepdir;
   }
 
-  public void setRepconfRepdir(ConfigNodePropertyString repconfRepdir) {
+  @JsonProperty("repconf.repdir")
+  public void setRepconfRepdir(@Nullable ConfigNodePropertyString repconfRepdir) {
     this.repconfRepdir = repconfRepdir;
   }
 
-  public ComDayCqReportingImplConfigServiceImplProperties repconfHourofday(ConfigNodePropertyInteger repconfHourofday) {
+  public ComDayCqReportingImplConfigServiceImplProperties repconfHourofday(@Nullable ConfigNodePropertyInteger repconfHourofday) {
     this.repconfHourofday = repconfHourofday;
     return this;
   }
@@ -139,20 +150,20 @@ public class ComDayCqReportingImplConfigServiceImplProperties   {
   /**
    * Get repconfHourofday
    * @return repconfHourofday
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getRepconfHourofday() {
+   */
+  @Valid 
+  @Schema(name = "repconf.hourofday", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("repconf.hourofday")
+  public @Nullable ConfigNodePropertyInteger getRepconfHourofday() {
     return repconfHourofday;
   }
 
-  public void setRepconfHourofday(ConfigNodePropertyInteger repconfHourofday) {
+  @JsonProperty("repconf.hourofday")
+  public void setRepconfHourofday(@Nullable ConfigNodePropertyInteger repconfHourofday) {
     this.repconfHourofday = repconfHourofday;
   }
 
-  public ComDayCqReportingImplConfigServiceImplProperties repconfMinofhour(ConfigNodePropertyInteger repconfMinofhour) {
+  public ComDayCqReportingImplConfigServiceImplProperties repconfMinofhour(@Nullable ConfigNodePropertyInteger repconfMinofhour) {
     this.repconfMinofhour = repconfMinofhour;
     return this;
   }
@@ -160,20 +171,20 @@ public class ComDayCqReportingImplConfigServiceImplProperties   {
   /**
    * Get repconfMinofhour
    * @return repconfMinofhour
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getRepconfMinofhour() {
+   */
+  @Valid 
+  @Schema(name = "repconf.minofhour", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("repconf.minofhour")
+  public @Nullable ConfigNodePropertyInteger getRepconfMinofhour() {
     return repconfMinofhour;
   }
 
-  public void setRepconfMinofhour(ConfigNodePropertyInteger repconfMinofhour) {
+  @JsonProperty("repconf.minofhour")
+  public void setRepconfMinofhour(@Nullable ConfigNodePropertyInteger repconfMinofhour) {
     this.repconfMinofhour = repconfMinofhour;
   }
 
-  public ComDayCqReportingImplConfigServiceImplProperties repconfMaxrows(ConfigNodePropertyInteger repconfMaxrows) {
+  public ComDayCqReportingImplConfigServiceImplProperties repconfMaxrows(@Nullable ConfigNodePropertyInteger repconfMaxrows) {
     this.repconfMaxrows = repconfMaxrows;
     return this;
   }
@@ -181,20 +192,20 @@ public class ComDayCqReportingImplConfigServiceImplProperties   {
   /**
    * Get repconfMaxrows
    * @return repconfMaxrows
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getRepconfMaxrows() {
+   */
+  @Valid 
+  @Schema(name = "repconf.maxrows", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("repconf.maxrows")
+  public @Nullable ConfigNodePropertyInteger getRepconfMaxrows() {
     return repconfMaxrows;
   }
 
-  public void setRepconfMaxrows(ConfigNodePropertyInteger repconfMaxrows) {
+  @JsonProperty("repconf.maxrows")
+  public void setRepconfMaxrows(@Nullable ConfigNodePropertyInteger repconfMaxrows) {
     this.repconfMaxrows = repconfMaxrows;
   }
 
-  public ComDayCqReportingImplConfigServiceImplProperties repconfFakedata(ConfigNodePropertyBoolean repconfFakedata) {
+  public ComDayCqReportingImplConfigServiceImplProperties repconfFakedata(@Nullable ConfigNodePropertyBoolean repconfFakedata) {
     this.repconfFakedata = repconfFakedata;
     return this;
   }
@@ -202,20 +213,20 @@ public class ComDayCqReportingImplConfigServiceImplProperties   {
   /**
    * Get repconfFakedata
    * @return repconfFakedata
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getRepconfFakedata() {
+   */
+  @Valid 
+  @Schema(name = "repconf.fakedata", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("repconf.fakedata")
+  public @Nullable ConfigNodePropertyBoolean getRepconfFakedata() {
     return repconfFakedata;
   }
 
-  public void setRepconfFakedata(ConfigNodePropertyBoolean repconfFakedata) {
+  @JsonProperty("repconf.fakedata")
+  public void setRepconfFakedata(@Nullable ConfigNodePropertyBoolean repconfFakedata) {
     this.repconfFakedata = repconfFakedata;
   }
 
-  public ComDayCqReportingImplConfigServiceImplProperties repconfSnapshotuser(ConfigNodePropertyString repconfSnapshotuser) {
+  public ComDayCqReportingImplConfigServiceImplProperties repconfSnapshotuser(@Nullable ConfigNodePropertyString repconfSnapshotuser) {
     this.repconfSnapshotuser = repconfSnapshotuser;
     return this;
   }
@@ -223,20 +234,20 @@ public class ComDayCqReportingImplConfigServiceImplProperties   {
   /**
    * Get repconfSnapshotuser
    * @return repconfSnapshotuser
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getRepconfSnapshotuser() {
+   */
+  @Valid 
+  @Schema(name = "repconf.snapshotuser", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("repconf.snapshotuser")
+  public @Nullable ConfigNodePropertyString getRepconfSnapshotuser() {
     return repconfSnapshotuser;
   }
 
-  public void setRepconfSnapshotuser(ConfigNodePropertyString repconfSnapshotuser) {
+  @JsonProperty("repconf.snapshotuser")
+  public void setRepconfSnapshotuser(@Nullable ConfigNodePropertyString repconfSnapshotuser) {
     this.repconfSnapshotuser = repconfSnapshotuser;
   }
 
-  public ComDayCqReportingImplConfigServiceImplProperties repconfEnforcesnapshotuser(ConfigNodePropertyBoolean repconfEnforcesnapshotuser) {
+  public ComDayCqReportingImplConfigServiceImplProperties repconfEnforcesnapshotuser(@Nullable ConfigNodePropertyBoolean repconfEnforcesnapshotuser) {
     this.repconfEnforcesnapshotuser = repconfEnforcesnapshotuser;
     return this;
   }
@@ -244,22 +255,21 @@ public class ComDayCqReportingImplConfigServiceImplProperties   {
   /**
    * Get repconfEnforcesnapshotuser
    * @return repconfEnforcesnapshotuser
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getRepconfEnforcesnapshotuser() {
+   */
+  @Valid 
+  @Schema(name = "repconf.enforcesnapshotuser", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("repconf.enforcesnapshotuser")
+  public @Nullable ConfigNodePropertyBoolean getRepconfEnforcesnapshotuser() {
     return repconfEnforcesnapshotuser;
   }
 
-  public void setRepconfEnforcesnapshotuser(ConfigNodePropertyBoolean repconfEnforcesnapshotuser) {
+  @JsonProperty("repconf.enforcesnapshotuser")
+  public void setRepconfEnforcesnapshotuser(@Nullable ConfigNodePropertyBoolean repconfEnforcesnapshotuser) {
     this.repconfEnforcesnapshotuser = repconfEnforcesnapshotuser;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -288,7 +298,6 @@ public class ComDayCqReportingImplConfigServiceImplProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComDayCqReportingImplConfigServiceImplProperties {\n");
-    
     sb.append("    repconfTimezone: ").append(toIndentedString(repconfTimezone)).append("\n");
     sb.append("    repconfLocale: ").append(toIndentedString(repconfLocale)).append("\n");
     sb.append("    repconfSnapshots: ").append(toIndentedString(repconfSnapshots)).append("\n");
@@ -307,11 +316,8 @@ public class ComDayCqReportingImplConfigServiceImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

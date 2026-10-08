@@ -4,24 +4,28 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2019-08-05T00:59:30.156Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2026-10-07T12:54:21.614735164Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqJcrclustersupportClusterStartLevelControllerProperties   {
   
-  private ConfigNodePropertyBoolean clusterLevelEnable = null;
-  private ConfigNodePropertyInteger clusterMasterLevel = null;
-  private ConfigNodePropertyInteger clusterSlaveLevel = null;
+  private ConfigNodePropertyBoolean clusterLevelEnable;
+  private ConfigNodePropertyInteger clusterMasterLevel;
+  private ConfigNodePropertyInteger clusterSlaveLevel;
 
   /**
    **/
   
   @ApiModelProperty(value = "")
   @JsonProperty("cluster.level.enable")
+  @Valid
   public ConfigNodePropertyBoolean getClusterLevelEnable() {
     return clusterLevelEnable;
   }
@@ -34,6 +38,7 @@ public class ComDayCqJcrclustersupportClusterStartLevelControllerProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("cluster.master.level")
+  @Valid
   public ConfigNodePropertyInteger getClusterMasterLevel() {
     return clusterMasterLevel;
   }
@@ -46,6 +51,7 @@ public class ComDayCqJcrclustersupportClusterStartLevelControllerProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("cluster.slave.level")
+  @Valid
   public ConfigNodePropertyInteger getClusterSlaveLevel() {
     return clusterSlaveLevel;
   }
@@ -55,7 +61,7 @@ public class ComDayCqJcrclustersupportClusterStartLevelControllerProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -63,9 +69,9 @@ public class ComDayCqJcrclustersupportClusterStartLevelControllerProperties   {
       return false;
     }
     ComDayCqJcrclustersupportClusterStartLevelControllerProperties comDayCqJcrclustersupportClusterStartLevelControllerProperties = (ComDayCqJcrclustersupportClusterStartLevelControllerProperties) o;
-    return Objects.equals(clusterLevelEnable, comDayCqJcrclustersupportClusterStartLevelControllerProperties.clusterLevelEnable) &&
-        Objects.equals(clusterMasterLevel, comDayCqJcrclustersupportClusterStartLevelControllerProperties.clusterMasterLevel) &&
-        Objects.equals(clusterSlaveLevel, comDayCqJcrclustersupportClusterStartLevelControllerProperties.clusterSlaveLevel);
+    return Objects.equals(this.clusterLevelEnable, comDayCqJcrclustersupportClusterStartLevelControllerProperties.clusterLevelEnable) &&
+        Objects.equals(this.clusterMasterLevel, comDayCqJcrclustersupportClusterStartLevelControllerProperties.clusterMasterLevel) &&
+        Objects.equals(this.clusterSlaveLevel, comDayCqJcrclustersupportClusterStartLevelControllerProperties.clusterSlaveLevel);
   }
 
   @Override
@@ -89,11 +95,8 @@ public class ComDayCqJcrclustersupportClusterStartLevelControllerProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

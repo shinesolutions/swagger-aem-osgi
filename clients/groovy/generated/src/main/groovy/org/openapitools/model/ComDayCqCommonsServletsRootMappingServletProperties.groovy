@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqCommonsServletsRootMappingServletProperties {
-    ConfigNodePropertyString rootmappingTarget = null
-
+    
+    ConfigNodePropertyString rootmappingTarget
 }

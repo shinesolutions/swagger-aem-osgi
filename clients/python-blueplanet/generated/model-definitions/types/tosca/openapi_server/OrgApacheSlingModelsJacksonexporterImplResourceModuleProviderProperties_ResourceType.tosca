@@ -1,0 +1,36 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingModelsJacksonexporterImplResourceModuleProviderProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingModelsJacksonexporterImplResourceModuleProviderProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+}
+resourceTypes {
+
+  OrgApacheSlingModelsJacksonexporterImplResourceModuleProviderProperties {
+    title = OrgApacheSlingModelsJacksonexporterImplResourceModuleProviderProperties
+    description = OrgApacheSlingModelsJacksonexporterImplResourceModuleProviderProperties
+    derivedFrom = Root
+    properties {
+        max_recursion_levels {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingModelsJacksonexporterImplResourceModuleProviderProperties {
+    title = OrgApacheSlingModelsJacksonexporterImplResourceModuleProviderProperties
+    description = OrgApacheSlingModelsJacksonexporterImplResourceModuleProviderProperties
+    implements = openapi_server.resourceTypes.OrgApacheSlingModelsJacksonexporterImplResourceModuleProviderProperties
+
+  }
+}

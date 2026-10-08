@@ -10,32 +10,32 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProperties {
-    ConfigNodePropertyString handlerName = null
-
-    ConfigNodePropertyString userExpirationTime = null
-
-    ConfigNodePropertyArray userAutoMembership = null
-
-    ConfigNodePropertyArray userPropertyMapping = null
-
-    ConfigNodePropertyString userPathPrefix = null
-
-    ConfigNodePropertyString userMembershipExpTime = null
-
-    ConfigNodePropertyInteger userMembershipNestingDepth = null
-
-    ConfigNodePropertyBoolean userDynamicMembership = null
-
-    ConfigNodePropertyBoolean userDisableMissing = null
-
-    ConfigNodePropertyString groupExpirationTime = null
-
-    ConfigNodePropertyArray groupAutoMembership = null
-
-    ConfigNodePropertyArray groupPropertyMapping = null
-
-    ConfigNodePropertyString groupPathPrefix = null
-
-    ConfigNodePropertyBoolean enableRFC7613UsercaseMappedProfile = null
-
+    
+    ConfigNodePropertyString handlerName
+    
+    ConfigNodePropertyString userExpirationTime
+    
+    ConfigNodePropertyArray userAutoMembership
+    
+    ConfigNodePropertyArray userPropertyMapping
+    
+    ConfigNodePropertyString userPathPrefix
+    
+    ConfigNodePropertyString userMembershipExpTime
+    
+    ConfigNodePropertyInteger userMembershipNestingDepth
+    
+    ConfigNodePropertyBoolean userDynamicMembership
+    
+    ConfigNodePropertyBoolean userDisableMissing
+    
+    ConfigNodePropertyString groupExpirationTime
+    
+    ConfigNodePropertyArray groupAutoMembership
+    
+    ConfigNodePropertyArray groupPropertyMapping
+    
+    ConfigNodePropertyString groupPathPrefix
+    
+    ConfigNodePropertyBoolean enableRFC7613UsercaseMappedProfile
 }

@@ -8,14 +8,14 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerProperties {
-    ConfigNodePropertyBoolean damShowexpired = null
-
-    ConfigNodePropertyBoolean damShowhidden = null
-
-    ConfigNodePropertyBoolean tagTitleSearch = null
-
-    ConfigNodePropertyString guessTotal = null
-
-    ConfigNodePropertyString damExpiryProperty = null
-
+    
+    ConfigNodePropertyBoolean damShowexpired
+    
+    ConfigNodePropertyBoolean damShowhidden
+    
+    ConfigNodePropertyBoolean tagTitleSearch
+    
+    ConfigNodePropertyString guessTotal
+    
+    ConfigNodePropertyString damExpiryProperty
 }

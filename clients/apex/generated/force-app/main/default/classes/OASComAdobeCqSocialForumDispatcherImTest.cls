@@ -72,8 +72,8 @@ private class OASComAdobeCqSocialForumDispatcherImTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeCqSocialForumDispatcherIm comAdobeCqSocialForumDispatcherImplFlushOperationsProperties = new OASComAdobeCqSocialForumDispatcherIm();
-        Map<String, String> propertyMappings = comAdobeCqSocialForumDispatcherImplFlushOperationsProperties.getPropertyMappings();
-        System.assertEquals('extensionOrder', propertyMappings.get('extension.order'));
-        System.assertEquals('flushForumontopic', propertyMappings.get('flush.forumontopic'));
+        Map<String, String> x-property-mappings = comAdobeCqSocialForumDispatcherImplFlushOperationsProperties.getx-property-mappings();
+        System.assertEquals('extensionOrder', x-property-mappings.get('extension.order'));
+        System.assertEquals('flushForumontopic', x-property-mappings.get('flush.forumontopic'));
     }
 }

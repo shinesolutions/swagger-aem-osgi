@@ -9,14 +9,14 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeCqCdnRewriterImplAWSCloudFrontRewriterProperties {
-    ConfigNodePropertyInteger serviceRanking = null
-
-    ConfigNodePropertyString keypairId = null
-
-    ConfigNodePropertyString keypairAlias = null
-
-    ConfigNodePropertyArray cdnrewriterAttributes = null
-
-    ConfigNodePropertyString cdnRewriterDistributionDomain = null
-
+    
+    ConfigNodePropertyInteger serviceRanking
+    
+    ConfigNodePropertyString keypairId
+    
+    ConfigNodePropertyString keypairAlias
+    
+    ConfigNodePropertyArray cdnrewriterAttributes
+    
+    ConfigNodePropertyString cdnRewriterDistributionDomain
 }

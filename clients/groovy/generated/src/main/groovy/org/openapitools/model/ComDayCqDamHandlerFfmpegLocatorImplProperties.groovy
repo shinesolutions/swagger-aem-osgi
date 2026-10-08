@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyArray;
 
 @Canonical
 class ComDayCqDamHandlerFfmpegLocatorImplProperties {
-    ConfigNodePropertyArray executableSearchpath = null
-
+    
+    ConfigNodePropertyArray executableSearchpath
 }

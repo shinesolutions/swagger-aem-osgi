@@ -7,16 +7,16 @@ import org.openapitools.model.ComDayCqWcmCoreWCMRequestFilterProperties;
 
 @Canonical
 class ComDayCqWcmCoreWCMRequestFilterInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqWcmCoreWCMRequestFilterProperties properties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqWcmCoreWCMRequestFilterProperties properties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

@@ -1,22 +1,33 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comDayCqDamCommonsMetadataXmpFilterBlackWhiteProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqDamCommonsMetadataXmpFilterBlackWhiteProperties   {
-  
-  private @Valid ConfigNodePropertyBoolean xmpFilterApplyWhitelist = null;
-  private @Valid ConfigNodePropertyArray xmpFilterWhitelist = null;
-  private @Valid ConfigNodePropertyBoolean xmpFilterApplyBlacklist = null;
-  private @Valid ConfigNodePropertyArray xmpFilterBlacklist = null;
+  private ConfigNodePropertyBoolean xmpFilterApplyWhitelist;
+  private ConfigNodePropertyArray xmpFilterWhitelist;
+  private ConfigNodePropertyBoolean xmpFilterApplyBlacklist;
+  private ConfigNodePropertyArray xmpFilterBlacklist;
+
+  public ComDayCqDamCommonsMetadataXmpFilterBlackWhiteProperties() {
+  }
 
   /**
    **/
@@ -28,9 +39,11 @@ public class ComDayCqDamCommonsMetadataXmpFilterBlackWhiteProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("xmp.filter.apply_whitelist")
-  public ConfigNodePropertyBoolean getXmpFilterApplyWhitelist() {
+  @Valid public ConfigNodePropertyBoolean getXmpFilterApplyWhitelist() {
     return xmpFilterApplyWhitelist;
   }
+
+  @JsonProperty("xmp.filter.apply_whitelist")
   public void setXmpFilterApplyWhitelist(ConfigNodePropertyBoolean xmpFilterApplyWhitelist) {
     this.xmpFilterApplyWhitelist = xmpFilterApplyWhitelist;
   }
@@ -45,9 +58,11 @@ public class ComDayCqDamCommonsMetadataXmpFilterBlackWhiteProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("xmp.filter.whitelist")
-  public ConfigNodePropertyArray getXmpFilterWhitelist() {
+  @Valid public ConfigNodePropertyArray getXmpFilterWhitelist() {
     return xmpFilterWhitelist;
   }
+
+  @JsonProperty("xmp.filter.whitelist")
   public void setXmpFilterWhitelist(ConfigNodePropertyArray xmpFilterWhitelist) {
     this.xmpFilterWhitelist = xmpFilterWhitelist;
   }
@@ -62,9 +77,11 @@ public class ComDayCqDamCommonsMetadataXmpFilterBlackWhiteProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("xmp.filter.apply_blacklist")
-  public ConfigNodePropertyBoolean getXmpFilterApplyBlacklist() {
+  @Valid public ConfigNodePropertyBoolean getXmpFilterApplyBlacklist() {
     return xmpFilterApplyBlacklist;
   }
+
+  @JsonProperty("xmp.filter.apply_blacklist")
   public void setXmpFilterApplyBlacklist(ConfigNodePropertyBoolean xmpFilterApplyBlacklist) {
     this.xmpFilterApplyBlacklist = xmpFilterApplyBlacklist;
   }
@@ -79,16 +96,18 @@ public class ComDayCqDamCommonsMetadataXmpFilterBlackWhiteProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("xmp.filter.blacklist")
-  public ConfigNodePropertyArray getXmpFilterBlacklist() {
+  @Valid public ConfigNodePropertyArray getXmpFilterBlacklist() {
     return xmpFilterBlacklist;
   }
+
+  @JsonProperty("xmp.filter.blacklist")
   public void setXmpFilterBlacklist(ConfigNodePropertyArray xmpFilterBlacklist) {
     this.xmpFilterBlacklist = xmpFilterBlacklist;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -96,10 +115,10 @@ public class ComDayCqDamCommonsMetadataXmpFilterBlackWhiteProperties   {
       return false;
     }
     ComDayCqDamCommonsMetadataXmpFilterBlackWhiteProperties comDayCqDamCommonsMetadataXmpFilterBlackWhiteProperties = (ComDayCqDamCommonsMetadataXmpFilterBlackWhiteProperties) o;
-    return Objects.equals(xmpFilterApplyWhitelist, comDayCqDamCommonsMetadataXmpFilterBlackWhiteProperties.xmpFilterApplyWhitelist) &&
-        Objects.equals(xmpFilterWhitelist, comDayCqDamCommonsMetadataXmpFilterBlackWhiteProperties.xmpFilterWhitelist) &&
-        Objects.equals(xmpFilterApplyBlacklist, comDayCqDamCommonsMetadataXmpFilterBlackWhiteProperties.xmpFilterApplyBlacklist) &&
-        Objects.equals(xmpFilterBlacklist, comDayCqDamCommonsMetadataXmpFilterBlackWhiteProperties.xmpFilterBlacklist);
+    return Objects.equals(this.xmpFilterApplyWhitelist, comDayCqDamCommonsMetadataXmpFilterBlackWhiteProperties.xmpFilterApplyWhitelist) &&
+        Objects.equals(this.xmpFilterWhitelist, comDayCqDamCommonsMetadataXmpFilterBlackWhiteProperties.xmpFilterWhitelist) &&
+        Objects.equals(this.xmpFilterApplyBlacklist, comDayCqDamCommonsMetadataXmpFilterBlackWhiteProperties.xmpFilterApplyBlacklist) &&
+        Objects.equals(this.xmpFilterBlacklist, comDayCqDamCommonsMetadataXmpFilterBlackWhiteProperties.xmpFilterBlacklist);
   }
 
   @Override
@@ -124,11 +143,9 @@ public class ComDayCqDamCommonsMetadataXmpFilterBlackWhiteProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

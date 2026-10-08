@@ -4,32 +4,36 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyFloat;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2019-08-05T00:59:30.156Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2026-10-07T12:54:21.614735164Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqDamCoreImplJmxAssetIndexUpdateMonitorProperties   {
   
-  private ConfigNodePropertyString jmxObjectname = null;
-  private ConfigNodePropertyBoolean propertyMeasureEnabled = null;
-  private ConfigNodePropertyString propertyName = null;
-  private ConfigNodePropertyInteger propertyMaxWaitMs = null;
-  private ConfigNodePropertyFloat propertyMaxRate = null;
-  private ConfigNodePropertyBoolean fulltextMeasureEnabled = null;
-  private ConfigNodePropertyString fulltextName = null;
-  private ConfigNodePropertyInteger fulltextMaxWaitMs = null;
-  private ConfigNodePropertyFloat fulltextMaxRate = null;
+  private ConfigNodePropertyString jmxObjectname;
+  private ConfigNodePropertyBoolean propertyMeasureEnabled;
+  private ConfigNodePropertyString propertyName;
+  private ConfigNodePropertyInteger propertyMaxWaitMs;
+  private ConfigNodePropertyFloat propertyMaxRate;
+  private ConfigNodePropertyBoolean fulltextMeasureEnabled;
+  private ConfigNodePropertyString fulltextName;
+  private ConfigNodePropertyInteger fulltextMaxWaitMs;
+  private ConfigNodePropertyFloat fulltextMaxRate;
 
   /**
    **/
   
   @ApiModelProperty(value = "")
   @JsonProperty("jmx.objectname")
+  @Valid
   public ConfigNodePropertyString getJmxObjectname() {
     return jmxObjectname;
   }
@@ -42,6 +46,7 @@ public class ComDayCqDamCoreImplJmxAssetIndexUpdateMonitorProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("property.measure.enabled")
+  @Valid
   public ConfigNodePropertyBoolean getPropertyMeasureEnabled() {
     return propertyMeasureEnabled;
   }
@@ -54,6 +59,7 @@ public class ComDayCqDamCoreImplJmxAssetIndexUpdateMonitorProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("property.name")
+  @Valid
   public ConfigNodePropertyString getPropertyName() {
     return propertyName;
   }
@@ -66,6 +72,7 @@ public class ComDayCqDamCoreImplJmxAssetIndexUpdateMonitorProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("property.max.wait.ms")
+  @Valid
   public ConfigNodePropertyInteger getPropertyMaxWaitMs() {
     return propertyMaxWaitMs;
   }
@@ -78,6 +85,7 @@ public class ComDayCqDamCoreImplJmxAssetIndexUpdateMonitorProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("property.max.rate")
+  @Valid
   public ConfigNodePropertyFloat getPropertyMaxRate() {
     return propertyMaxRate;
   }
@@ -90,6 +98,7 @@ public class ComDayCqDamCoreImplJmxAssetIndexUpdateMonitorProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("fulltext.measure.enabled")
+  @Valid
   public ConfigNodePropertyBoolean getFulltextMeasureEnabled() {
     return fulltextMeasureEnabled;
   }
@@ -102,6 +111,7 @@ public class ComDayCqDamCoreImplJmxAssetIndexUpdateMonitorProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("fulltext.name")
+  @Valid
   public ConfigNodePropertyString getFulltextName() {
     return fulltextName;
   }
@@ -114,6 +124,7 @@ public class ComDayCqDamCoreImplJmxAssetIndexUpdateMonitorProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("fulltext.max.wait.ms")
+  @Valid
   public ConfigNodePropertyInteger getFulltextMaxWaitMs() {
     return fulltextMaxWaitMs;
   }
@@ -126,6 +137,7 @@ public class ComDayCqDamCoreImplJmxAssetIndexUpdateMonitorProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("fulltext.max.rate")
+  @Valid
   public ConfigNodePropertyFloat getFulltextMaxRate() {
     return fulltextMaxRate;
   }
@@ -135,7 +147,7 @@ public class ComDayCqDamCoreImplJmxAssetIndexUpdateMonitorProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -143,15 +155,15 @@ public class ComDayCqDamCoreImplJmxAssetIndexUpdateMonitorProperties   {
       return false;
     }
     ComDayCqDamCoreImplJmxAssetIndexUpdateMonitorProperties comDayCqDamCoreImplJmxAssetIndexUpdateMonitorProperties = (ComDayCqDamCoreImplJmxAssetIndexUpdateMonitorProperties) o;
-    return Objects.equals(jmxObjectname, comDayCqDamCoreImplJmxAssetIndexUpdateMonitorProperties.jmxObjectname) &&
-        Objects.equals(propertyMeasureEnabled, comDayCqDamCoreImplJmxAssetIndexUpdateMonitorProperties.propertyMeasureEnabled) &&
-        Objects.equals(propertyName, comDayCqDamCoreImplJmxAssetIndexUpdateMonitorProperties.propertyName) &&
-        Objects.equals(propertyMaxWaitMs, comDayCqDamCoreImplJmxAssetIndexUpdateMonitorProperties.propertyMaxWaitMs) &&
-        Objects.equals(propertyMaxRate, comDayCqDamCoreImplJmxAssetIndexUpdateMonitorProperties.propertyMaxRate) &&
-        Objects.equals(fulltextMeasureEnabled, comDayCqDamCoreImplJmxAssetIndexUpdateMonitorProperties.fulltextMeasureEnabled) &&
-        Objects.equals(fulltextName, comDayCqDamCoreImplJmxAssetIndexUpdateMonitorProperties.fulltextName) &&
-        Objects.equals(fulltextMaxWaitMs, comDayCqDamCoreImplJmxAssetIndexUpdateMonitorProperties.fulltextMaxWaitMs) &&
-        Objects.equals(fulltextMaxRate, comDayCqDamCoreImplJmxAssetIndexUpdateMonitorProperties.fulltextMaxRate);
+    return Objects.equals(this.jmxObjectname, comDayCqDamCoreImplJmxAssetIndexUpdateMonitorProperties.jmxObjectname) &&
+        Objects.equals(this.propertyMeasureEnabled, comDayCqDamCoreImplJmxAssetIndexUpdateMonitorProperties.propertyMeasureEnabled) &&
+        Objects.equals(this.propertyName, comDayCqDamCoreImplJmxAssetIndexUpdateMonitorProperties.propertyName) &&
+        Objects.equals(this.propertyMaxWaitMs, comDayCqDamCoreImplJmxAssetIndexUpdateMonitorProperties.propertyMaxWaitMs) &&
+        Objects.equals(this.propertyMaxRate, comDayCqDamCoreImplJmxAssetIndexUpdateMonitorProperties.propertyMaxRate) &&
+        Objects.equals(this.fulltextMeasureEnabled, comDayCqDamCoreImplJmxAssetIndexUpdateMonitorProperties.fulltextMeasureEnabled) &&
+        Objects.equals(this.fulltextName, comDayCqDamCoreImplJmxAssetIndexUpdateMonitorProperties.fulltextName) &&
+        Objects.equals(this.fulltextMaxWaitMs, comDayCqDamCoreImplJmxAssetIndexUpdateMonitorProperties.fulltextMaxWaitMs) &&
+        Objects.equals(this.fulltextMaxRate, comDayCqDamCoreImplJmxAssetIndexUpdateMonitorProperties.fulltextMaxRate);
   }
 
   @Override
@@ -181,11 +193,8 @@ public class ComDayCqDamCoreImplJmxAssetIndexUpdateMonitorProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

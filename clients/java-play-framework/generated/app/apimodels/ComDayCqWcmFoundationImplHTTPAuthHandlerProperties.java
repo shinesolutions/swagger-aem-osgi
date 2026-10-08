@@ -3,35 +3,48 @@ package apimodels;
 import apimodels.ConfigNodePropertyArray;
 import apimodels.ConfigNodePropertyBoolean;
 import apimodels.ConfigNodePropertyString;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * ComDayCqWcmFoundationImplHTTPAuthHandlerProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class ComDayCqWcmFoundationImplHTTPAuthHandlerProperties   {
   @JsonProperty("path")
-  private ConfigNodePropertyString path = null;
+  @Valid
+
+  private ConfigNodePropertyString path;
 
   @JsonProperty("auth.http.nologin")
-  private ConfigNodePropertyBoolean authHttpNologin = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean authHttpNologin;
 
   @JsonProperty("auth.http.realm")
-  private ConfigNodePropertyString authHttpRealm = null;
+  @Valid
+
+  private ConfigNodePropertyString authHttpRealm;
 
   @JsonProperty("auth.default.loginpage")
-  private ConfigNodePropertyString authDefaultLoginpage = null;
+  @Valid
+
+  private ConfigNodePropertyString authDefaultLoginpage;
 
   @JsonProperty("auth.cred.form")
-  private ConfigNodePropertyArray authCredForm = null;
+  @Valid
+
+  private ConfigNodePropertyArray authCredForm;
 
   @JsonProperty("auth.cred.utf8")
-  private ConfigNodePropertyArray authCredUtf8 = null;
+  @Valid
+
+  private ConfigNodePropertyArray authCredUtf8;
 
   public ComDayCqWcmFoundationImplHTTPAuthHandlerProperties path(ConfigNodePropertyString path) {
     this.path = path;
@@ -42,7 +55,6 @@ public class ComDayCqWcmFoundationImplHTTPAuthHandlerProperties   {
    * Get path
    * @return path
   **/
-  @Valid
   public ConfigNodePropertyString getPath() {
     return path;
   }
@@ -60,7 +72,6 @@ public class ComDayCqWcmFoundationImplHTTPAuthHandlerProperties   {
    * Get authHttpNologin
    * @return authHttpNologin
   **/
-  @Valid
   public ConfigNodePropertyBoolean getAuthHttpNologin() {
     return authHttpNologin;
   }
@@ -78,7 +89,6 @@ public class ComDayCqWcmFoundationImplHTTPAuthHandlerProperties   {
    * Get authHttpRealm
    * @return authHttpRealm
   **/
-  @Valid
   public ConfigNodePropertyString getAuthHttpRealm() {
     return authHttpRealm;
   }
@@ -96,7 +106,6 @@ public class ComDayCqWcmFoundationImplHTTPAuthHandlerProperties   {
    * Get authDefaultLoginpage
    * @return authDefaultLoginpage
   **/
-  @Valid
   public ConfigNodePropertyString getAuthDefaultLoginpage() {
     return authDefaultLoginpage;
   }
@@ -114,7 +123,6 @@ public class ComDayCqWcmFoundationImplHTTPAuthHandlerProperties   {
    * Get authCredForm
    * @return authCredForm
   **/
-  @Valid
   public ConfigNodePropertyArray getAuthCredForm() {
     return authCredForm;
   }
@@ -132,7 +140,6 @@ public class ComDayCqWcmFoundationImplHTTPAuthHandlerProperties   {
    * Get authCredUtf8
    * @return authCredUtf8
   **/
-  @Valid
   public ConfigNodePropertyArray getAuthCredUtf8() {
     return authCredUtf8;
   }
@@ -143,7 +150,7 @@ public class ComDayCqWcmFoundationImplHTTPAuthHandlerProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -184,11 +191,8 @@ public class ComDayCqWcmFoundationImplHTTPAuthHandlerProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

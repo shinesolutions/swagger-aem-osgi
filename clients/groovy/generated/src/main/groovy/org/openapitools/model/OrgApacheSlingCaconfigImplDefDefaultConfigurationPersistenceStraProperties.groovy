@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyBoolean;
 
 @Canonical
 class OrgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStraProperties {
-    ConfigNodePropertyBoolean enabled = null
-
+    
+    ConfigNodePropertyBoolean enabled
 }

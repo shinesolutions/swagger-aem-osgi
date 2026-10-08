@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyBoolean;
 import com.prokarma.pkmst.model.ConfigNodePropertyInteger;
 import com.prokarma.pkmst.model.ConfigNodePropertyString;
@@ -17,48 +18,47 @@ import io.swagger.annotations.ApiModelProperty;
  * ComDayCqReportingImplConfigServiceImplProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqReportingImplConfigServiceImplProperties   {
   @JsonProperty("repconf.timezone")
-  private ConfigNodePropertyString repconfTimezone = null;
+  private ConfigNodePropertyString repconfTimezone;
 
   @JsonProperty("repconf.locale")
-  private ConfigNodePropertyString repconfLocale = null;
+  private ConfigNodePropertyString repconfLocale;
 
   @JsonProperty("repconf.snapshots")
-  private ConfigNodePropertyString repconfSnapshots = null;
+  private ConfigNodePropertyString repconfSnapshots;
 
   @JsonProperty("repconf.repdir")
-  private ConfigNodePropertyString repconfRepdir = null;
+  private ConfigNodePropertyString repconfRepdir;
 
   @JsonProperty("repconf.hourofday")
-  private ConfigNodePropertyInteger repconfHourofday = null;
+  private ConfigNodePropertyInteger repconfHourofday;
 
   @JsonProperty("repconf.minofhour")
-  private ConfigNodePropertyInteger repconfMinofhour = null;
+  private ConfigNodePropertyInteger repconfMinofhour;
 
   @JsonProperty("repconf.maxrows")
-  private ConfigNodePropertyInteger repconfMaxrows = null;
+  private ConfigNodePropertyInteger repconfMaxrows;
 
   @JsonProperty("repconf.fakedata")
-  private ConfigNodePropertyBoolean repconfFakedata = null;
+  private ConfigNodePropertyBoolean repconfFakedata;
 
   @JsonProperty("repconf.snapshotuser")
-  private ConfigNodePropertyString repconfSnapshotuser = null;
+  private ConfigNodePropertyString repconfSnapshotuser;
 
   @JsonProperty("repconf.enforcesnapshotuser")
-  private ConfigNodePropertyBoolean repconfEnforcesnapshotuser = null;
+  private ConfigNodePropertyBoolean repconfEnforcesnapshotuser;
 
   public ComDayCqReportingImplConfigServiceImplProperties repconfTimezone(ConfigNodePropertyString repconfTimezone) {
     this.repconfTimezone = repconfTimezone;
     return this;
   }
 
-   /**
+  /**
    * Get repconfTimezone
    * @return repconfTimezone
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getRepconfTimezone() {
     return repconfTimezone;
@@ -73,10 +73,10 @@ public class ComDayCqReportingImplConfigServiceImplProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get repconfLocale
    * @return repconfLocale
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getRepconfLocale() {
     return repconfLocale;
@@ -91,10 +91,10 @@ public class ComDayCqReportingImplConfigServiceImplProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get repconfSnapshots
    * @return repconfSnapshots
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getRepconfSnapshots() {
     return repconfSnapshots;
@@ -109,10 +109,10 @@ public class ComDayCqReportingImplConfigServiceImplProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get repconfRepdir
    * @return repconfRepdir
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getRepconfRepdir() {
     return repconfRepdir;
@@ -127,10 +127,10 @@ public class ComDayCqReportingImplConfigServiceImplProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get repconfHourofday
    * @return repconfHourofday
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getRepconfHourofday() {
     return repconfHourofday;
@@ -145,10 +145,10 @@ public class ComDayCqReportingImplConfigServiceImplProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get repconfMinofhour
    * @return repconfMinofhour
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getRepconfMinofhour() {
     return repconfMinofhour;
@@ -163,10 +163,10 @@ public class ComDayCqReportingImplConfigServiceImplProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get repconfMaxrows
    * @return repconfMaxrows
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getRepconfMaxrows() {
     return repconfMaxrows;
@@ -181,10 +181,10 @@ public class ComDayCqReportingImplConfigServiceImplProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get repconfFakedata
    * @return repconfFakedata
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getRepconfFakedata() {
     return repconfFakedata;
@@ -199,10 +199,10 @@ public class ComDayCqReportingImplConfigServiceImplProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get repconfSnapshotuser
    * @return repconfSnapshotuser
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getRepconfSnapshotuser() {
     return repconfSnapshotuser;
@@ -217,10 +217,10 @@ public class ComDayCqReportingImplConfigServiceImplProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get repconfEnforcesnapshotuser
    * @return repconfEnforcesnapshotuser
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getRepconfEnforcesnapshotuser() {
     return repconfEnforcesnapshotuser;
@@ -232,7 +232,7 @@ public class ComDayCqReportingImplConfigServiceImplProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -280,11 +280,8 @@ public class ComDayCqReportingImplConfigServiceImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

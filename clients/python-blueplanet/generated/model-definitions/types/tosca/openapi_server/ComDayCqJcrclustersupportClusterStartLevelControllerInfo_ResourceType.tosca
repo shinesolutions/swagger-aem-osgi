@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqJcrclustersupportClusterStartLevelControllerInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqJcrclustersupportClusterStartLevelControllerInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComDayCqJcrclustersupportClusterStartLevelControllerProperties = openapi_server.resourceTypes.ComDayCqJcrclustersupportClusterStartLevelControllerProperties
+}
+resourceTypes {
+
+  ComDayCqJcrclustersupportClusterStartLevelControllerInfo {
+    title = ComDayCqJcrclustersupportClusterStartLevelControllerInfo
+    description = ComDayCqJcrclustersupportClusterStartLevelControllerInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComDayCqJcrclustersupportClusterStartLevelControllerProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqJcrclustersupportClusterStartLevelControllerInfo {
+    title = ComDayCqJcrclustersupportClusterStartLevelControllerInfo
+    description = ComDayCqJcrclustersupportClusterStartLevelControllerInfo
+    implements = openapi_server.resourceTypes.ComDayCqJcrclustersupportClusterStartLevelControllerInfo
+
+  }
+}

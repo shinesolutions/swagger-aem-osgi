@@ -1,18 +1,29 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comDayCqDamHandlerStandardPsdPsdHandlerProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqDamHandlerStandardPsdPsdHandlerProperties   {
-  
-  private @Valid ConfigNodePropertyInteger largeFileThreshold = null;
+  private ConfigNodePropertyInteger largeFileThreshold;
+
+  public ComDayCqDamHandlerStandardPsdPsdHandlerProperties() {
+  }
 
   /**
    **/
@@ -24,16 +35,18 @@ public class ComDayCqDamHandlerStandardPsdPsdHandlerProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("large_file_threshold")
-  public ConfigNodePropertyInteger getLargeFileThreshold() {
+  @Valid public ConfigNodePropertyInteger getLargeFileThreshold() {
     return largeFileThreshold;
   }
+
+  @JsonProperty("large_file_threshold")
   public void setLargeFileThreshold(ConfigNodePropertyInteger largeFileThreshold) {
     this.largeFileThreshold = largeFileThreshold;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -41,7 +54,7 @@ public class ComDayCqDamHandlerStandardPsdPsdHandlerProperties   {
       return false;
     }
     ComDayCqDamHandlerStandardPsdPsdHandlerProperties comDayCqDamHandlerStandardPsdPsdHandlerProperties = (ComDayCqDamHandlerStandardPsdPsdHandlerProperties) o;
-    return Objects.equals(largeFileThreshold, comDayCqDamHandlerStandardPsdPsdHandlerProperties.largeFileThreshold);
+    return Objects.equals(this.largeFileThreshold, comDayCqDamHandlerStandardPsdPsdHandlerProperties.largeFileThreshold);
   }
 
   @Override
@@ -63,11 +76,9 @@ public class ComDayCqDamHandlerStandardPsdPsdHandlerProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

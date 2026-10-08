@@ -7,16 +7,16 @@ import org.openapitools.model.ComAdobeGraniteOffloadingImplOffloadingJobOffloade
 
 @Canonical
 class ComAdobeGraniteOffloadingImplOffloadingJobOffloaderInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteOffloadingImplOffloadingJobOffloaderProperties properties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteOffloadingImplOffloadingJobOffloaderProperties properties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

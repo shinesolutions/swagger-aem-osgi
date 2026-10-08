@@ -72,7 +72,7 @@ private class OASComDayCqReplicationImplReverseRepTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqReplicationImplReverseRep comDayCqReplicationImplReverseReplicatorProperties = new OASComDayCqReplicationImplReverseRep();
-        Map<String, String> propertyMappings = comDayCqReplicationImplReverseReplicatorProperties.getPropertyMappings();
-        System.assertEquals('schedulerPeriod', propertyMappings.get('scheduler.period'));
+        Map<String, String> x-property-mappings = comDayCqReplicationImplReverseReplicatorProperties.getx-property-mappings();
+        System.assertEquals('schedulerPeriod', x-property-mappings.get('scheduler.period'));
     }
 }

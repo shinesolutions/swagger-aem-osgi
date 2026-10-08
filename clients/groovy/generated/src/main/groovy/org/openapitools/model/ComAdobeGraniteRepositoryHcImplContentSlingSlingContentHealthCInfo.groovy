@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeGraniteRepositoryHcImplContentSlingSlingCo
 
 @Canonical
 class ComAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCProperties properties
 }

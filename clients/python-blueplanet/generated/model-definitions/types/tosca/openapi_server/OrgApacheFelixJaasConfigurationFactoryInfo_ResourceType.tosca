@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheFelixJaasConfigurationFactoryInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheFelixJaasConfigurationFactoryInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  OrgApacheFelixJaasConfigurationFactoryProperties = openapi_server.resourceTypes.OrgApacheFelixJaasConfigurationFactoryProperties
+}
+resourceTypes {
+
+  OrgApacheFelixJaasConfigurationFactoryInfo {
+    title = OrgApacheFelixJaasConfigurationFactoryInfo
+    description = OrgApacheFelixJaasConfigurationFactoryInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = OrgApacheFelixJaasConfigurationFactoryProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheFelixJaasConfigurationFactoryInfo {
+    title = OrgApacheFelixJaasConfigurationFactoryInfo
+    description = OrgApacheFelixJaasConfigurationFactoryInfo
+    implements = openapi_server.resourceTypes.OrgApacheFelixJaasConfigurationFactoryInfo
+
+  }
+}

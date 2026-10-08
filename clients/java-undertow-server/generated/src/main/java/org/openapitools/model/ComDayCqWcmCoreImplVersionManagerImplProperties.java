@@ -1,3 +1,13 @@
+/*
+ * Adobe Experience Manager OSGI config (AEM) API
+ *
+ * Swagger AEM OSGI is an OpenAPI specification for Adobe Experience Manager (AEM) OSGI Configurations API
+ *
+ * OpenAPI document version: 1.0.0-pre.0
+ * Maintained by: opensource@shinesolutions.com
+ *
+ * AUTO-GENERATED FILE, DO NOT MODIFY!
+ */
 package org.openapitools.model;
 
 import java.util.Objects;
@@ -13,19 +23,19 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2019-08-05T00:56:20.785Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2026-10-07T12:53:42.280804918Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqWcmCoreImplVersionManagerImplProperties   {
   
-  private ConfigNodePropertyBoolean versionmanagerCreateVersionOnActivation = null;
-  private ConfigNodePropertyBoolean versionmanagerPurgingEnabled = null;
-  private ConfigNodePropertyArray versionmanagerPurgePaths = null;
-  private ConfigNodePropertyArray versionmanagerIvPaths = null;
-  private ConfigNodePropertyInteger versionmanagerMaxAgeDays = null;
-  private ConfigNodePropertyInteger versionmanagerMaxNumberVersions = null;
-  private ConfigNodePropertyInteger versionmanagerMinNumberVersions = null;
+  private ConfigNodePropertyBoolean versionmanagerCreateVersionOnActivation;
+  private ConfigNodePropertyBoolean versionmanagerPurgingEnabled;
+  private ConfigNodePropertyArray versionmanagerPurgePaths;
+  private ConfigNodePropertyArray versionmanagerIvPaths;
+  private ConfigNodePropertyInteger versionmanagerMaxAgeDays;
+  private ConfigNodePropertyInteger versionmanagerMaxNumberVersions;
+  private ConfigNodePropertyInteger versionmanagerMinNumberVersions;
 
   /**
-   **/
+   */
   public ComDayCqWcmCoreImplVersionManagerImplProperties versionmanagerCreateVersionOnActivation(ConfigNodePropertyBoolean versionmanagerCreateVersionOnActivation) {
     this.versionmanagerCreateVersionOnActivation = versionmanagerCreateVersionOnActivation;
     return this;
@@ -42,7 +52,7 @@ public class ComDayCqWcmCoreImplVersionManagerImplProperties   {
   }
 
   /**
-   **/
+   */
   public ComDayCqWcmCoreImplVersionManagerImplProperties versionmanagerPurgingEnabled(ConfigNodePropertyBoolean versionmanagerPurgingEnabled) {
     this.versionmanagerPurgingEnabled = versionmanagerPurgingEnabled;
     return this;
@@ -59,7 +69,7 @@ public class ComDayCqWcmCoreImplVersionManagerImplProperties   {
   }
 
   /**
-   **/
+   */
   public ComDayCqWcmCoreImplVersionManagerImplProperties versionmanagerPurgePaths(ConfigNodePropertyArray versionmanagerPurgePaths) {
     this.versionmanagerPurgePaths = versionmanagerPurgePaths;
     return this;
@@ -76,7 +86,7 @@ public class ComDayCqWcmCoreImplVersionManagerImplProperties   {
   }
 
   /**
-   **/
+   */
   public ComDayCqWcmCoreImplVersionManagerImplProperties versionmanagerIvPaths(ConfigNodePropertyArray versionmanagerIvPaths) {
     this.versionmanagerIvPaths = versionmanagerIvPaths;
     return this;
@@ -93,7 +103,7 @@ public class ComDayCqWcmCoreImplVersionManagerImplProperties   {
   }
 
   /**
-   **/
+   */
   public ComDayCqWcmCoreImplVersionManagerImplProperties versionmanagerMaxAgeDays(ConfigNodePropertyInteger versionmanagerMaxAgeDays) {
     this.versionmanagerMaxAgeDays = versionmanagerMaxAgeDays;
     return this;
@@ -110,7 +120,7 @@ public class ComDayCqWcmCoreImplVersionManagerImplProperties   {
   }
 
   /**
-   **/
+   */
   public ComDayCqWcmCoreImplVersionManagerImplProperties versionmanagerMaxNumberVersions(ConfigNodePropertyInteger versionmanagerMaxNumberVersions) {
     this.versionmanagerMaxNumberVersions = versionmanagerMaxNumberVersions;
     return this;
@@ -127,7 +137,7 @@ public class ComDayCqWcmCoreImplVersionManagerImplProperties   {
   }
 
   /**
-   **/
+   */
   public ComDayCqWcmCoreImplVersionManagerImplProperties versionmanagerMinNumberVersions(ConfigNodePropertyInteger versionmanagerMinNumberVersions) {
     this.versionmanagerMinNumberVersions = versionmanagerMinNumberVersions;
     return this;
@@ -145,7 +155,7 @@ public class ComDayCqWcmCoreImplVersionManagerImplProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -187,11 +197,8 @@ public class ComDayCqWcmCoreImplVersionManagerImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

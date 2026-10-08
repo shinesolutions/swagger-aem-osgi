@@ -1,0 +1,42 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeGraniteBundlesHcImplJobsHealthCheckProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeGraniteBundlesHcImplJobsHealthCheckProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+}
+resourceTypes {
+
+  ComAdobeGraniteBundlesHcImplJobsHealthCheckProperties {
+    title = ComAdobeGraniteBundlesHcImplJobsHealthCheckProperties
+    description = ComAdobeGraniteBundlesHcImplJobsHealthCheckProperties
+    derivedFrom = Root
+    properties {
+        hc_tags {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        max_queued_jobs {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeGraniteBundlesHcImplJobsHealthCheckProperties {
+    title = ComAdobeGraniteBundlesHcImplJobsHealthCheckProperties
+    description = ComAdobeGraniteBundlesHcImplJobsHealthCheckProperties
+    implements = openapi_server.resourceTypes.ComAdobeGraniteBundlesHcImplJobsHealthCheckProperties
+
+  }
+}

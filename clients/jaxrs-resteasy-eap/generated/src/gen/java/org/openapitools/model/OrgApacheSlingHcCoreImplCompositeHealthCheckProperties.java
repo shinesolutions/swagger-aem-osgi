@@ -4,28 +4,24 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2019-08-05T01:00:05.540Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2026-10-07T12:54:26.576036107Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingHcCoreImplCompositeHealthCheckProperties   {
   
-
-  private ConfigNodePropertyString hcName = null;
-
-  private ConfigNodePropertyArray hcTags = null;
-
-  private ConfigNodePropertyString hcMbeanName = null;
-
-  private ConfigNodePropertyArray filterTags = null;
-
-  private ConfigNodePropertyBoolean filterCombineTagsWithOr = null;
+  private ConfigNodePropertyString hcName;
+  private ConfigNodePropertyArray hcTags;
+  private ConfigNodePropertyString hcMbeanName;
+  private ConfigNodePropertyArray filterTags;
+  private ConfigNodePropertyBoolean filterCombineTagsWithOr;
 
   /**
    **/
@@ -97,11 +93,11 @@ public class OrgApacheSlingHcCoreImplCompositeHealthCheckProperties   {
       return false;
     }
     OrgApacheSlingHcCoreImplCompositeHealthCheckProperties orgApacheSlingHcCoreImplCompositeHealthCheckProperties = (OrgApacheSlingHcCoreImplCompositeHealthCheckProperties) o;
-    return Objects.equals(hcName, orgApacheSlingHcCoreImplCompositeHealthCheckProperties.hcName) &&
-        Objects.equals(hcTags, orgApacheSlingHcCoreImplCompositeHealthCheckProperties.hcTags) &&
-        Objects.equals(hcMbeanName, orgApacheSlingHcCoreImplCompositeHealthCheckProperties.hcMbeanName) &&
-        Objects.equals(filterTags, orgApacheSlingHcCoreImplCompositeHealthCheckProperties.filterTags) &&
-        Objects.equals(filterCombineTagsWithOr, orgApacheSlingHcCoreImplCompositeHealthCheckProperties.filterCombineTagsWithOr);
+    return Objects.equals(this.hcName, orgApacheSlingHcCoreImplCompositeHealthCheckProperties.hcName) &&
+        Objects.equals(this.hcTags, orgApacheSlingHcCoreImplCompositeHealthCheckProperties.hcTags) &&
+        Objects.equals(this.hcMbeanName, orgApacheSlingHcCoreImplCompositeHealthCheckProperties.hcMbeanName) &&
+        Objects.equals(this.filterTags, orgApacheSlingHcCoreImplCompositeHealthCheckProperties.filterTags) &&
+        Objects.equals(this.filterCombineTagsWithOr, orgApacheSlingHcCoreImplCompositeHealthCheckProperties.filterCombineTagsWithOr);
   }
 
   @Override
@@ -128,10 +124,7 @@ public class OrgApacheSlingHcCoreImplCompositeHealthCheckProperties   {
    * (except the first line).
    */
   private String toIndentedString(Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

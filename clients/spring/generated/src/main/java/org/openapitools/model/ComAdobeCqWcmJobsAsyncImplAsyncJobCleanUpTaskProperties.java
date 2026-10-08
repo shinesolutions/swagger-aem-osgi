@@ -1,31 +1,42 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComAdobeCqWcmJobsAsyncImplAsyncJobCleanUpTaskProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComAdobeCqWcmJobsAsyncImplAsyncJobCleanUpTaskProperties   {
-  @JsonProperty("scheduler.expression")
-  private ConfigNodePropertyString schedulerExpression = null;
+@JsonTypeName("comAdobeCqWcmJobsAsyncImplAsyncJobCleanUpTaskProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComAdobeCqWcmJobsAsyncImplAsyncJobCleanUpTaskProperties {
 
-  @JsonProperty("job.purge.threshold")
-  private ConfigNodePropertyInteger jobPurgeThreshold = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString schedulerExpression;
 
-  @JsonProperty("job.purge.max.jobs")
-  private ConfigNodePropertyInteger jobPurgeMaxJobs = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger jobPurgeThreshold;
 
-  public ComAdobeCqWcmJobsAsyncImplAsyncJobCleanUpTaskProperties schedulerExpression(ConfigNodePropertyString schedulerExpression) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger jobPurgeMaxJobs;
+
+  public ComAdobeCqWcmJobsAsyncImplAsyncJobCleanUpTaskProperties schedulerExpression(@Nullable ConfigNodePropertyString schedulerExpression) {
     this.schedulerExpression = schedulerExpression;
     return this;
   }
@@ -33,20 +44,20 @@ public class ComAdobeCqWcmJobsAsyncImplAsyncJobCleanUpTaskProperties   {
   /**
    * Get schedulerExpression
    * @return schedulerExpression
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getSchedulerExpression() {
+   */
+  @Valid 
+  @Schema(name = "scheduler.expression", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("scheduler.expression")
+  public @Nullable ConfigNodePropertyString getSchedulerExpression() {
     return schedulerExpression;
   }
 
-  public void setSchedulerExpression(ConfigNodePropertyString schedulerExpression) {
+  @JsonProperty("scheduler.expression")
+  public void setSchedulerExpression(@Nullable ConfigNodePropertyString schedulerExpression) {
     this.schedulerExpression = schedulerExpression;
   }
 
-  public ComAdobeCqWcmJobsAsyncImplAsyncJobCleanUpTaskProperties jobPurgeThreshold(ConfigNodePropertyInteger jobPurgeThreshold) {
+  public ComAdobeCqWcmJobsAsyncImplAsyncJobCleanUpTaskProperties jobPurgeThreshold(@Nullable ConfigNodePropertyInteger jobPurgeThreshold) {
     this.jobPurgeThreshold = jobPurgeThreshold;
     return this;
   }
@@ -54,20 +65,20 @@ public class ComAdobeCqWcmJobsAsyncImplAsyncJobCleanUpTaskProperties   {
   /**
    * Get jobPurgeThreshold
    * @return jobPurgeThreshold
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getJobPurgeThreshold() {
+   */
+  @Valid 
+  @Schema(name = "job.purge.threshold", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("job.purge.threshold")
+  public @Nullable ConfigNodePropertyInteger getJobPurgeThreshold() {
     return jobPurgeThreshold;
   }
 
-  public void setJobPurgeThreshold(ConfigNodePropertyInteger jobPurgeThreshold) {
+  @JsonProperty("job.purge.threshold")
+  public void setJobPurgeThreshold(@Nullable ConfigNodePropertyInteger jobPurgeThreshold) {
     this.jobPurgeThreshold = jobPurgeThreshold;
   }
 
-  public ComAdobeCqWcmJobsAsyncImplAsyncJobCleanUpTaskProperties jobPurgeMaxJobs(ConfigNodePropertyInteger jobPurgeMaxJobs) {
+  public ComAdobeCqWcmJobsAsyncImplAsyncJobCleanUpTaskProperties jobPurgeMaxJobs(@Nullable ConfigNodePropertyInteger jobPurgeMaxJobs) {
     this.jobPurgeMaxJobs = jobPurgeMaxJobs;
     return this;
   }
@@ -75,22 +86,21 @@ public class ComAdobeCqWcmJobsAsyncImplAsyncJobCleanUpTaskProperties   {
   /**
    * Get jobPurgeMaxJobs
    * @return jobPurgeMaxJobs
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getJobPurgeMaxJobs() {
+   */
+  @Valid 
+  @Schema(name = "job.purge.max.jobs", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("job.purge.max.jobs")
+  public @Nullable ConfigNodePropertyInteger getJobPurgeMaxJobs() {
     return jobPurgeMaxJobs;
   }
 
-  public void setJobPurgeMaxJobs(ConfigNodePropertyInteger jobPurgeMaxJobs) {
+  @JsonProperty("job.purge.max.jobs")
+  public void setJobPurgeMaxJobs(@Nullable ConfigNodePropertyInteger jobPurgeMaxJobs) {
     this.jobPurgeMaxJobs = jobPurgeMaxJobs;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -112,7 +122,6 @@ public class ComAdobeCqWcmJobsAsyncImplAsyncJobCleanUpTaskProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComAdobeCqWcmJobsAsyncImplAsyncJobCleanUpTaskProperties {\n");
-    
     sb.append("    schedulerExpression: ").append(toIndentedString(schedulerExpression)).append("\n");
     sb.append("    jobPurgeThreshold: ").append(toIndentedString(jobPurgeThreshold)).append("\n");
     sb.append("    jobPurgeMaxJobs: ").append(toIndentedString(jobPurgeMaxJobs)).append("\n");
@@ -124,11 +133,8 @@ public class ComAdobeCqWcmJobsAsyncImplAsyncJobCleanUpTaskProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

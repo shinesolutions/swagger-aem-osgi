@@ -1,32 +1,43 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComDayCqDamCoreProcessMetadataProcessorProcessProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComDayCqDamCoreProcessMetadataProcessorProcessProperties   {
-  @JsonProperty("process.label")
-  private ConfigNodePropertyString processLabel = null;
+@JsonTypeName("comDayCqDamCoreProcessMetadataProcessorProcessProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComDayCqDamCoreProcessMetadataProcessorProcessProperties {
 
-  @JsonProperty("cq.dam.enable.sha1")
-  private ConfigNodePropertyBoolean cqDamEnableSha1 = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString processLabel;
 
-  @JsonProperty("cq.dam.metadata.xssprotected.properties")
-  private ConfigNodePropertyArray cqDamMetadataXssprotectedProperties = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean cqDamEnableSha1;
 
-  public ComDayCqDamCoreProcessMetadataProcessorProcessProperties processLabel(ConfigNodePropertyString processLabel) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray cqDamMetadataXssprotectedProperties;
+
+  public ComDayCqDamCoreProcessMetadataProcessorProcessProperties processLabel(@Nullable ConfigNodePropertyString processLabel) {
     this.processLabel = processLabel;
     return this;
   }
@@ -34,20 +45,20 @@ public class ComDayCqDamCoreProcessMetadataProcessorProcessProperties   {
   /**
    * Get processLabel
    * @return processLabel
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getProcessLabel() {
+   */
+  @Valid 
+  @Schema(name = "process.label", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("process.label")
+  public @Nullable ConfigNodePropertyString getProcessLabel() {
     return processLabel;
   }
 
-  public void setProcessLabel(ConfigNodePropertyString processLabel) {
+  @JsonProperty("process.label")
+  public void setProcessLabel(@Nullable ConfigNodePropertyString processLabel) {
     this.processLabel = processLabel;
   }
 
-  public ComDayCqDamCoreProcessMetadataProcessorProcessProperties cqDamEnableSha1(ConfigNodePropertyBoolean cqDamEnableSha1) {
+  public ComDayCqDamCoreProcessMetadataProcessorProcessProperties cqDamEnableSha1(@Nullable ConfigNodePropertyBoolean cqDamEnableSha1) {
     this.cqDamEnableSha1 = cqDamEnableSha1;
     return this;
   }
@@ -55,20 +66,20 @@ public class ComDayCqDamCoreProcessMetadataProcessorProcessProperties   {
   /**
    * Get cqDamEnableSha1
    * @return cqDamEnableSha1
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getCqDamEnableSha1() {
+   */
+  @Valid 
+  @Schema(name = "cq.dam.enable.sha1", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cq.dam.enable.sha1")
+  public @Nullable ConfigNodePropertyBoolean getCqDamEnableSha1() {
     return cqDamEnableSha1;
   }
 
-  public void setCqDamEnableSha1(ConfigNodePropertyBoolean cqDamEnableSha1) {
+  @JsonProperty("cq.dam.enable.sha1")
+  public void setCqDamEnableSha1(@Nullable ConfigNodePropertyBoolean cqDamEnableSha1) {
     this.cqDamEnableSha1 = cqDamEnableSha1;
   }
 
-  public ComDayCqDamCoreProcessMetadataProcessorProcessProperties cqDamMetadataXssprotectedProperties(ConfigNodePropertyArray cqDamMetadataXssprotectedProperties) {
+  public ComDayCqDamCoreProcessMetadataProcessorProcessProperties cqDamMetadataXssprotectedProperties(@Nullable ConfigNodePropertyArray cqDamMetadataXssprotectedProperties) {
     this.cqDamMetadataXssprotectedProperties = cqDamMetadataXssprotectedProperties;
     return this;
   }
@@ -76,22 +87,21 @@ public class ComDayCqDamCoreProcessMetadataProcessorProcessProperties   {
   /**
    * Get cqDamMetadataXssprotectedProperties
    * @return cqDamMetadataXssprotectedProperties
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getCqDamMetadataXssprotectedProperties() {
+   */
+  @Valid 
+  @Schema(name = "cq.dam.metadata.xssprotected.properties", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cq.dam.metadata.xssprotected.properties")
+  public @Nullable ConfigNodePropertyArray getCqDamMetadataXssprotectedProperties() {
     return cqDamMetadataXssprotectedProperties;
   }
 
-  public void setCqDamMetadataXssprotectedProperties(ConfigNodePropertyArray cqDamMetadataXssprotectedProperties) {
+  @JsonProperty("cq.dam.metadata.xssprotected.properties")
+  public void setCqDamMetadataXssprotectedProperties(@Nullable ConfigNodePropertyArray cqDamMetadataXssprotectedProperties) {
     this.cqDamMetadataXssprotectedProperties = cqDamMetadataXssprotectedProperties;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -113,7 +123,6 @@ public class ComDayCqDamCoreProcessMetadataProcessorProcessProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComDayCqDamCoreProcessMetadataProcessorProcessProperties {\n");
-    
     sb.append("    processLabel: ").append(toIndentedString(processLabel)).append("\n");
     sb.append("    cqDamEnableSha1: ").append(toIndentedString(cqDamEnableSha1)).append("\n");
     sb.append("    cqDamMetadataXssprotectedProperties: ").append(toIndentedString(cqDamMetadataXssprotectedProperties)).append("\n");
@@ -125,11 +134,8 @@ public class ComDayCqDamCoreProcessMetadataProcessorProcessProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

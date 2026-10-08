@@ -1,0 +1,36 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqWcmCoreImplReferencesContentContentReferenceConfigProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqWcmCoreImplReferencesContentContentReferenceConfigProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+}
+resourceTypes {
+
+  ComDayCqWcmCoreImplReferencesContentContentReferenceConfigProperties {
+    title = ComDayCqWcmCoreImplReferencesContentContentReferenceConfigProperties
+    description = ComDayCqWcmCoreImplReferencesContentContentReferenceConfigProperties
+    derivedFrom = Root
+    properties {
+        content_reference_config_resource_types {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqWcmCoreImplReferencesContentContentReferenceConfigProperties {
+    title = ComDayCqWcmCoreImplReferencesContentContentReferenceConfigProperties
+    description = ComDayCqWcmCoreImplReferencesContentContentReferenceConfigProperties
+    implements = openapi_server.resourceTypes.ComDayCqWcmCoreImplReferencesContentContentReferenceConfigProperties
+
+  }
+}

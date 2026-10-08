@@ -72,12 +72,12 @@ private class OASComDayCqWcmContentsyncImplRewriteTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqWcmContentsyncImplRewrite comDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorProperties = new OASComDayCqWcmContentsyncImplRewrite();
-        Map<String, String> propertyMappings = comDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorProperties.getPropertyMappings();
-        System.assertEquals('cqContentsyncPathrewritertransformerMappingLinks', propertyMappings.get('cq.contentsync.pathrewritertransformer.mapping.links'));
-        System.assertEquals('cqContentsyncPathrewritertransformerMappingClientlibs', propertyMappings.get('cq.contentsync.pathrewritertransformer.mapping.clientlibs'));
-        System.assertEquals('cqContentsyncPathrewritertransformerMappingImages', propertyMappings.get('cq.contentsync.pathrewritertransformer.mapping.images'));
-        System.assertEquals('cqContentsyncPathrewritertransformerAttributePattern', propertyMappings.get('cq.contentsync.pathrewritertransformer.attribute.pattern'));
-        System.assertEquals('cqContentsyncPathrewritertransformerClientlibraryPattern', propertyMappings.get('cq.contentsync.pathrewritertransformer.clientlibrary.pattern'));
-        System.assertEquals('cqContentsyncPathrewritertransformerClientlibraryReplace', propertyMappings.get('cq.contentsync.pathrewritertransformer.clientlibrary.replace'));
+        Map<String, String> x-property-mappings = comDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorProperties.getx-property-mappings();
+        System.assertEquals('cqContentsyncPathrewritertransformerMappingLinks', x-property-mappings.get('cq.contentsync.pathrewritertransformer.mapping.links'));
+        System.assertEquals('cqContentsyncPathrewritertransformerMappingClientlibs', x-property-mappings.get('cq.contentsync.pathrewritertransformer.mapping.clientlibs'));
+        System.assertEquals('cqContentsyncPathrewritertransformerMappingImages', x-property-mappings.get('cq.contentsync.pathrewritertransformer.mapping.images'));
+        System.assertEquals('cqContentsyncPathrewritertransformerAttributePattern', x-property-mappings.get('cq.contentsync.pathrewritertransformer.attribute.pattern'));
+        System.assertEquals('cqContentsyncPathrewritertransformerClientlibraryPattern', x-property-mappings.get('cq.contentsync.pathrewritertransformer.clientlibrary.pattern'));
+        System.assertEquals('cqContentsyncPathrewritertransformerClientlibraryReplace', x-property-mappings.get('cq.contentsync.pathrewritertransformer.clientlibrary.replace'));
     }
 }

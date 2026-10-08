@@ -72,7 +72,7 @@ private class OASComDayCqDamCoreImplJmxAssetMigratTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqDamCoreImplJmxAssetMigrat comDayCqDamCoreImplJmxAssetMigrationMBeanImplProperties = new OASComDayCqDamCoreImplJmxAssetMigrat();
-        Map<String, String> propertyMappings = comDayCqDamCoreImplJmxAssetMigrationMBeanImplProperties.getPropertyMappings();
-        System.assertEquals('jmxObjectname', propertyMappings.get('jmx.objectname'));
+        Map<String, String> x-property-mappings = comDayCqDamCoreImplJmxAssetMigrationMBeanImplProperties.getx-property-mappings();
+        System.assertEquals('jmxObjectname', x-property-mappings.get('jmx.objectname'));
     }
 }

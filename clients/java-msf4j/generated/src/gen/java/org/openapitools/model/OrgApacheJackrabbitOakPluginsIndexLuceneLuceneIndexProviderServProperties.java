@@ -3,6 +3,7 @@ package org.openapitools.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyBoolean;
@@ -12,55 +13,55 @@ import org.openapitools.model.ConfigNodePropertyString;
 /**
  * OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaMSF4JServerCodegen", date = "2019-08-05T00:54:29.762Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaMSF4JServerCodegen", date = "2026-10-07T12:53:29.980508721Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServProperties   {
   @JsonProperty("disabled")
-  private ConfigNodePropertyBoolean disabled = null;
+  private ConfigNodePropertyBoolean disabled;
 
   @JsonProperty("debug")
-  private ConfigNodePropertyBoolean debug = null;
+  private ConfigNodePropertyBoolean debug;
 
   @JsonProperty("localIndexDir")
-  private ConfigNodePropertyString localIndexDir = null;
+  private ConfigNodePropertyString localIndexDir;
 
   @JsonProperty("enableOpenIndexAsync")
-  private ConfigNodePropertyBoolean enableOpenIndexAsync = null;
+  private ConfigNodePropertyBoolean enableOpenIndexAsync;
 
   @JsonProperty("threadPoolSize")
-  private ConfigNodePropertyInteger threadPoolSize = null;
+  private ConfigNodePropertyInteger threadPoolSize;
 
   @JsonProperty("prefetchIndexFiles")
-  private ConfigNodePropertyBoolean prefetchIndexFiles = null;
+  private ConfigNodePropertyBoolean prefetchIndexFiles;
 
   @JsonProperty("extractedTextCacheSizeInMB")
-  private ConfigNodePropertyInteger extractedTextCacheSizeInMB = null;
+  private ConfigNodePropertyInteger extractedTextCacheSizeInMB;
 
   @JsonProperty("extractedTextCacheExpiryInSecs")
-  private ConfigNodePropertyInteger extractedTextCacheExpiryInSecs = null;
+  private ConfigNodePropertyInteger extractedTextCacheExpiryInSecs;
 
   @JsonProperty("alwaysUsePreExtractedCache")
-  private ConfigNodePropertyBoolean alwaysUsePreExtractedCache = null;
+  private ConfigNodePropertyBoolean alwaysUsePreExtractedCache;
 
   @JsonProperty("booleanClauseLimit")
-  private ConfigNodePropertyInteger booleanClauseLimit = null;
+  private ConfigNodePropertyInteger booleanClauseLimit;
 
   @JsonProperty("enableHybridIndexing")
-  private ConfigNodePropertyBoolean enableHybridIndexing = null;
+  private ConfigNodePropertyBoolean enableHybridIndexing;
 
   @JsonProperty("hybridQueueSize")
-  private ConfigNodePropertyInteger hybridQueueSize = null;
+  private ConfigNodePropertyInteger hybridQueueSize;
 
   @JsonProperty("disableStoredIndexDefinition")
-  private ConfigNodePropertyBoolean disableStoredIndexDefinition = null;
+  private ConfigNodePropertyBoolean disableStoredIndexDefinition;
 
   @JsonProperty("deletedBlobsCollectionEnabled")
-  private ConfigNodePropertyBoolean deletedBlobsCollectionEnabled = null;
+  private ConfigNodePropertyBoolean deletedBlobsCollectionEnabled;
 
   @JsonProperty("propIndexCleanerIntervalInSecs")
-  private ConfigNodePropertyInteger propIndexCleanerIntervalInSecs = null;
+  private ConfigNodePropertyInteger propIndexCleanerIntervalInSecs;
 
   @JsonProperty("enableSingleBlobIndexFiles")
-  private ConfigNodePropertyBoolean enableSingleBlobIndexFiles = null;
+  private ConfigNodePropertyBoolean enableSingleBlobIndexFiles;
 
   public OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServProperties disabled(ConfigNodePropertyBoolean disabled) {
     this.disabled = disabled;
@@ -352,7 +353,7 @@ public class OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServProp
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -412,11 +413,8 @@ public class OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServProp
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

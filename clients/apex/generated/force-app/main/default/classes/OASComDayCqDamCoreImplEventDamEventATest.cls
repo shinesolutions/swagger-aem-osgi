@@ -72,7 +72,7 @@ private class OASComDayCqDamCoreImplEventDamEventATest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqDamCoreImplEventDamEventA comDayCqDamCoreImplEventDamEventAuditListenerProperties = new OASComDayCqDamCoreImplEventDamEventA();
-        Map<String, String> propertyMappings = comDayCqDamCoreImplEventDamEventAuditListenerProperties.getPropertyMappings();
-        System.assertEquals('eventFilter', propertyMappings.get('event.filter'));
+        Map<String, String> x-property-mappings = comDayCqDamCoreImplEventDamEventAuditListenerProperties.getx-property-mappings();
+        System.assertEquals('eventFilter', x-property-mappings.get('event.filter'));
     }
 }

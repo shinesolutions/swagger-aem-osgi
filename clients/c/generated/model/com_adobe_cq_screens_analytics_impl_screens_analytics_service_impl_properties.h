@@ -1,0 +1,49 @@
+/*
+ * com_adobe_cq_screens_analytics_impl_screens_analytics_service_impl_properties.h
+ *
+ * 
+ */
+
+#ifndef _com_adobe_cq_screens_analytics_impl_screens_analytics_service_impl_properties_H_
+#define _com_adobe_cq_screens_analytics_impl_screens_analytics_service_impl_properties_H_
+
+#include <string.h>
+#include "../external/cJSON.h"
+#include "../include/list.h"
+#include "../include/keyValuePair.h"
+#include "../include/binary.h"
+
+typedef struct com_adobe_cq_screens_analytics_impl_screens_analytics_service_impl_properties_t com_adobe_cq_screens_analytics_impl_screens_analytics_service_impl_properties_t;
+
+#include "config_node_property_drop_down.h"
+#include "config_node_property_integer.h"
+#include "config_node_property_string.h"
+
+
+
+typedef struct com_adobe_cq_screens_analytics_impl_screens_analytics_service_impl_properties_t {
+    struct config_node_property_string_t *com_adobe_cq_screens_analytics_impl_url; //model
+    struct config_node_property_string_t *com_adobe_cq_screens_analytics_impl_apikey; //model
+    struct config_node_property_string_t *com_adobe_cq_screens_analytics_impl_project; //model
+    struct config_node_property_drop_down_t *com_adobe_cq_screens_analytics_impl_environment; //model
+    struct config_node_property_integer_t *com_adobe_cq_screens_analytics_impl_send_frequency; //model
+
+    int _library_owned; // Is the library responsible for freeing this object?
+} com_adobe_cq_screens_analytics_impl_screens_analytics_service_impl_properties_t;
+
+__attribute__((deprecated)) com_adobe_cq_screens_analytics_impl_screens_analytics_service_impl_properties_t *com_adobe_cq_screens_analytics_impl_screens_analytics_service_impl_properties_create(
+    config_node_property_string_t *com_adobe_cq_screens_analytics_impl_url,
+    config_node_property_string_t *com_adobe_cq_screens_analytics_impl_apikey,
+    config_node_property_string_t *com_adobe_cq_screens_analytics_impl_project,
+    config_node_property_drop_down_t *com_adobe_cq_screens_analytics_impl_environment,
+    config_node_property_integer_t *com_adobe_cq_screens_analytics_impl_send_frequency
+);
+
+void com_adobe_cq_screens_analytics_impl_screens_analytics_service_impl_properties_free(com_adobe_cq_screens_analytics_impl_screens_analytics_service_impl_properties_t *com_adobe_cq_screens_analytics_impl_screens_analytics_service_impl_properties);
+
+com_adobe_cq_screens_analytics_impl_screens_analytics_service_impl_properties_t *com_adobe_cq_screens_analytics_impl_screens_analytics_service_impl_properties_parseFromJSON(cJSON *com_adobe_cq_screens_analytics_impl_screens_analytics_service_impl_propertiesJSON);
+
+cJSON *com_adobe_cq_screens_analytics_impl_screens_analytics_service_impl_properties_convertToJSON(com_adobe_cq_screens_analytics_impl_screens_analytics_service_impl_properties_t *com_adobe_cq_screens_analytics_impl_screens_analytics_service_impl_properties);
+
+#endif /* _com_adobe_cq_screens_analytics_impl_screens_analytics_service_impl_properties_H_ */
+

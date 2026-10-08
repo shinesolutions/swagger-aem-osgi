@@ -2,18 +2,19 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**dim_default_mode** | [**ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md) |  | [optional] 
-**dim_appcache_enabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **dim_default_mode** | [**ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md) |  | [optional] |
+| **dim_appcache_enabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComDayCqWcmCoreImplDevicedetectionDeviceIdentificationModeImplProperties.new(dim_default_mode: null,
-                                 dim_appcache_enabled: null)
+instance = SwaggerAemOsgiClient::ComDayCqWcmCoreImplDevicedetectionDeviceIdentificationModeImplProperties.new(
+  dim_default_mode: null,
+  dim_appcache_enabled: null
+)
 ```
-
 

@@ -1,0 +1,56 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+}
+resourceTypes {
+
+  ComAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties {
+    title = ComAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties
+    description = ComAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties
+    derivedFrom = Root
+    properties {
+        cq_pagesupdatehandler_imageresourcetypes {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        cq_pagesupdatehandler_productresourcetypes {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        cq_pagesupdatehandler_videoresourcetypes {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        cq_pagesupdatehandler_dynamicsequenceresourcetypes {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        cq_pagesupdatehandler_previewmodepaths {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties {
+    title = ComAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties
+    description = ComAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties
+    implements = openapi_server.resourceTypes.ComAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties
+
+  }
+}

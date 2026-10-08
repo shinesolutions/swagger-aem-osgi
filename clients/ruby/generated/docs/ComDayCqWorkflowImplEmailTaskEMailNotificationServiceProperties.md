@@ -2,18 +2,19 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**notify_onupdate** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] 
-**notify_oncomplete** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **notify_onupdate** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] |
+| **notify_oncomplete** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComDayCqWorkflowImplEmailTaskEMailNotificationServiceProperties.new(notify_onupdate: null,
-                                 notify_oncomplete: null)
+instance = SwaggerAemOsgiClient::ComDayCqWorkflowImplEmailTaskEMailNotificationServiceProperties.new(
+  notify_onupdate: null,
+  notify_oncomplete: null
+)
 ```
-
 

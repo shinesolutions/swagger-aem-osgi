@@ -4,7 +4,7 @@
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **more__info** | [**CONFIG_NODE_PROPERTY_STRING**](configNodePropertyString.md) |  | [optional] [default to null]
-**mntoverlaydamguicontentassetsmoreinfo_htmlpath** | [**CONFIG_NODE_PROPERTY_STRING**](configNodePropertyString.md) |  | [optional] [default to null]
+**var_mnt_overlay_dam_gui_content_assets_moreinfo_html_path** | [**CONFIG_NODE_PROPERTY_STRING**](configNodePropertyString.md) |  | [optional] [default to null]
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

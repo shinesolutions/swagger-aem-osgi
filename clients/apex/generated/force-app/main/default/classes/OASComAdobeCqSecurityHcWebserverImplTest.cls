@@ -72,8 +72,8 @@ private class OASComAdobeCqSecurityHcWebserverImplTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeCqSecurityHcWebserverImpl comAdobeCqSecurityHcWebserverImplClickjackingHealthCheckProperties = new OASComAdobeCqSecurityHcWebserverImpl();
-        Map<String, String> propertyMappings = comAdobeCqSecurityHcWebserverImplClickjackingHealthCheckProperties.getPropertyMappings();
-        System.assertEquals('hcTags', propertyMappings.get('hc.tags'));
-        System.assertEquals('webserverAddress', propertyMappings.get('webserver.address'));
+        Map<String, String> x-property-mappings = comAdobeCqSecurityHcWebserverImplClickjackingHealthCheckProperties.getx-property-mappings();
+        System.assertEquals('hcTags', x-property-mappings.get('hc.tags'));
+        System.assertEquals('webserverAddress', x-property-mappings.get('webserver.address'));
     }
 }

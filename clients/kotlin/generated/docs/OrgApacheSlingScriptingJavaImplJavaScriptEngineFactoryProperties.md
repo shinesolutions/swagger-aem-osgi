@@ -2,12 +2,12 @@
 # OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**javaPeriodclassdebuginfo** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**javaPeriodjavaEncoding** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**javaPeriodcompilerSourceVM** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**javaPeriodcompilerTargetVM** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **javaClassdebuginfo** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **javaJavaEncoding** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **javaCompilerSourceVM** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **javaCompilerTargetVM** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
 
 
 

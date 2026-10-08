@@ -1,27 +1,38 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComAdobeCqDamCfmImplConfFeatureConfigImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComAdobeCqDamCfmImplConfFeatureConfigImplProperties   {
-  @JsonProperty("dam.cfm.resourceTypes")
-  private ConfigNodePropertyArray damCfmResourceTypes = null;
+@JsonTypeName("comAdobeCqDamCfmImplConfFeatureConfigImplProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComAdobeCqDamCfmImplConfFeatureConfigImplProperties {
 
-  @JsonProperty("dam.cfm.referenceProperties")
-  private ConfigNodePropertyArray damCfmReferenceProperties = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray damCfmResourceTypes;
 
-  public ComAdobeCqDamCfmImplConfFeatureConfigImplProperties damCfmResourceTypes(ConfigNodePropertyArray damCfmResourceTypes) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray damCfmReferenceProperties;
+
+  public ComAdobeCqDamCfmImplConfFeatureConfigImplProperties damCfmResourceTypes(@Nullable ConfigNodePropertyArray damCfmResourceTypes) {
     this.damCfmResourceTypes = damCfmResourceTypes;
     return this;
   }
@@ -29,20 +40,20 @@ public class ComAdobeCqDamCfmImplConfFeatureConfigImplProperties   {
   /**
    * Get damCfmResourceTypes
    * @return damCfmResourceTypes
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getDamCfmResourceTypes() {
+   */
+  @Valid 
+  @Schema(name = "dam.cfm.resourceTypes", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("dam.cfm.resourceTypes")
+  public @Nullable ConfigNodePropertyArray getDamCfmResourceTypes() {
     return damCfmResourceTypes;
   }
 
-  public void setDamCfmResourceTypes(ConfigNodePropertyArray damCfmResourceTypes) {
+  @JsonProperty("dam.cfm.resourceTypes")
+  public void setDamCfmResourceTypes(@Nullable ConfigNodePropertyArray damCfmResourceTypes) {
     this.damCfmResourceTypes = damCfmResourceTypes;
   }
 
-  public ComAdobeCqDamCfmImplConfFeatureConfigImplProperties damCfmReferenceProperties(ConfigNodePropertyArray damCfmReferenceProperties) {
+  public ComAdobeCqDamCfmImplConfFeatureConfigImplProperties damCfmReferenceProperties(@Nullable ConfigNodePropertyArray damCfmReferenceProperties) {
     this.damCfmReferenceProperties = damCfmReferenceProperties;
     return this;
   }
@@ -50,22 +61,21 @@ public class ComAdobeCqDamCfmImplConfFeatureConfigImplProperties   {
   /**
    * Get damCfmReferenceProperties
    * @return damCfmReferenceProperties
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getDamCfmReferenceProperties() {
+   */
+  @Valid 
+  @Schema(name = "dam.cfm.referenceProperties", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("dam.cfm.referenceProperties")
+  public @Nullable ConfigNodePropertyArray getDamCfmReferenceProperties() {
     return damCfmReferenceProperties;
   }
 
-  public void setDamCfmReferenceProperties(ConfigNodePropertyArray damCfmReferenceProperties) {
+  @JsonProperty("dam.cfm.referenceProperties")
+  public void setDamCfmReferenceProperties(@Nullable ConfigNodePropertyArray damCfmReferenceProperties) {
     this.damCfmReferenceProperties = damCfmReferenceProperties;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -86,7 +96,6 @@ public class ComAdobeCqDamCfmImplConfFeatureConfigImplProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComAdobeCqDamCfmImplConfFeatureConfigImplProperties {\n");
-    
     sb.append("    damCfmResourceTypes: ").append(toIndentedString(damCfmResourceTypes)).append("\n");
     sb.append("    damCfmReferenceProperties: ").append(toIndentedString(damCfmReferenceProperties)).append("\n");
     sb.append("}");
@@ -97,11 +106,8 @@ public class ComAdobeCqDamCfmImplConfFeatureConfigImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

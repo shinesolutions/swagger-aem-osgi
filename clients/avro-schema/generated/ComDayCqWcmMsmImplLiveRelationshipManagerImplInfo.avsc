@@ -1,0 +1,33 @@
+{
+  "namespace": "model",
+  "type": "record",
+  "doc": "",
+  "name": "ComDayCqWcmMsmImplLiveRelationshipManagerImplInfo",
+  "fields": [
+    {
+      "name": "pid",
+      "type": ["null", "string"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "title",
+      "type": ["null", "string"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "description",
+      "type": ["null", "string"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "properties",
+      "type": ["null", "model.ComDayCqWcmMsmImplLiveRelationshipManagerImplProperties"],
+      "doc": "",
+      "default": null
+    }
+  ]
+
+}

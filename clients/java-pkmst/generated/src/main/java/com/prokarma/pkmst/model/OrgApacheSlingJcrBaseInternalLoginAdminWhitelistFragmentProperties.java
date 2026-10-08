@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyArray;
 import com.prokarma.pkmst.model.ConfigNodePropertyString;
 import io.swagger.annotations.ApiModel;
@@ -16,24 +17,23 @@ import io.swagger.annotations.ApiModelProperty;
  * OrgApacheSlingJcrBaseInternalLoginAdminWhitelistFragmentProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingJcrBaseInternalLoginAdminWhitelistFragmentProperties   {
   @JsonProperty("whitelist.name")
-  private ConfigNodePropertyString whitelistName = null;
+  private ConfigNodePropertyString whitelistName;
 
   @JsonProperty("whitelist.bundles")
-  private ConfigNodePropertyArray whitelistBundles = null;
+  private ConfigNodePropertyArray whitelistBundles;
 
   public OrgApacheSlingJcrBaseInternalLoginAdminWhitelistFragmentProperties whitelistName(ConfigNodePropertyString whitelistName) {
     this.whitelistName = whitelistName;
     return this;
   }
 
-   /**
+  /**
    * Get whitelistName
    * @return whitelistName
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getWhitelistName() {
     return whitelistName;
@@ -48,10 +48,10 @@ public class OrgApacheSlingJcrBaseInternalLoginAdminWhitelistFragmentProperties 
     return this;
   }
 
-   /**
+  /**
    * Get whitelistBundles
    * @return whitelistBundles
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getWhitelistBundles() {
     return whitelistBundles;
@@ -63,7 +63,7 @@ public class OrgApacheSlingJcrBaseInternalLoginAdminWhitelistFragmentProperties 
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -95,11 +95,8 @@ public class OrgApacheSlingJcrBaseInternalLoginAdminWhitelistFragmentProperties 
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -1,0 +1,1 @@
+auditlog.rule.name,propertylist,$location,auditlog.rule.types,apply,delete,action,post,auditlog.rule.contentpath,auditlog.rule.minimumage

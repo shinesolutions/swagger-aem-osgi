@@ -4,24 +4,21 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ComDayCqDamS7damCommonS7damDamChangeEventListenerProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2019-08-05T01:00:05.540Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2026-10-07T12:54:26.576036107Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqDamS7damCommonS7damDamChangeEventListenerInfo   {
   
-
-  private String pid = null;
-
-  private String title = null;
-
-  private String description = null;
-
-  private ComDayCqDamS7damCommonS7damDamChangeEventListenerProperties properties = null;
+  private String pid;
+  private String title;
+  private String description;
+  private ComDayCqDamS7damCommonS7damDamChangeEventListenerProperties properties;
 
   /**
    **/
@@ -81,10 +78,10 @@ public class ComDayCqDamS7damCommonS7damDamChangeEventListenerInfo   {
       return false;
     }
     ComDayCqDamS7damCommonS7damDamChangeEventListenerInfo comDayCqDamS7damCommonS7damDamChangeEventListenerInfo = (ComDayCqDamS7damCommonS7damDamChangeEventListenerInfo) o;
-    return Objects.equals(pid, comDayCqDamS7damCommonS7damDamChangeEventListenerInfo.pid) &&
-        Objects.equals(title, comDayCqDamS7damCommonS7damDamChangeEventListenerInfo.title) &&
-        Objects.equals(description, comDayCqDamS7damCommonS7damDamChangeEventListenerInfo.description) &&
-        Objects.equals(properties, comDayCqDamS7damCommonS7damDamChangeEventListenerInfo.properties);
+    return Objects.equals(this.pid, comDayCqDamS7damCommonS7damDamChangeEventListenerInfo.pid) &&
+        Objects.equals(this.title, comDayCqDamS7damCommonS7damDamChangeEventListenerInfo.title) &&
+        Objects.equals(this.description, comDayCqDamS7damCommonS7damDamChangeEventListenerInfo.description) &&
+        Objects.equals(this.properties, comDayCqDamS7damCommonS7damDamChangeEventListenerInfo.properties);
   }
 
   @Override
@@ -110,10 +107,7 @@ public class ComDayCqDamS7damCommonS7damDamChangeEventListenerInfo   {
    * (except the first line).
    */
   private String toIndentedString(Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

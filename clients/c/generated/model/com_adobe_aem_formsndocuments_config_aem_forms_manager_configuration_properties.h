@@ -1,0 +1,41 @@
+/*
+ * com_adobe_aem_formsndocuments_config_aem_forms_manager_configuration_properties.h
+ *
+ * 
+ */
+
+#ifndef _com_adobe_aem_formsndocuments_config_aem_forms_manager_configuration_properties_H_
+#define _com_adobe_aem_formsndocuments_config_aem_forms_manager_configuration_properties_H_
+
+#include <string.h>
+#include "../external/cJSON.h"
+#include "../include/list.h"
+#include "../include/keyValuePair.h"
+#include "../include/binary.h"
+
+typedef struct com_adobe_aem_formsndocuments_config_aem_forms_manager_configuration_properties_t com_adobe_aem_formsndocuments_config_aem_forms_manager_configuration_properties_t;
+
+#include "config_node_property_boolean.h"
+
+
+
+typedef struct com_adobe_aem_formsndocuments_config_aem_forms_manager_configuration_properties_t {
+    struct config_node_property_boolean_t *forms_manager_config_include_ootb_templates; //model
+    struct config_node_property_boolean_t *forms_manager_config_include_deprecated_templates; //model
+
+    int _library_owned; // Is the library responsible for freeing this object?
+} com_adobe_aem_formsndocuments_config_aem_forms_manager_configuration_properties_t;
+
+__attribute__((deprecated)) com_adobe_aem_formsndocuments_config_aem_forms_manager_configuration_properties_t *com_adobe_aem_formsndocuments_config_aem_forms_manager_configuration_properties_create(
+    config_node_property_boolean_t *forms_manager_config_include_ootb_templates,
+    config_node_property_boolean_t *forms_manager_config_include_deprecated_templates
+);
+
+void com_adobe_aem_formsndocuments_config_aem_forms_manager_configuration_properties_free(com_adobe_aem_formsndocuments_config_aem_forms_manager_configuration_properties_t *com_adobe_aem_formsndocuments_config_aem_forms_manager_configuration_properties);
+
+com_adobe_aem_formsndocuments_config_aem_forms_manager_configuration_properties_t *com_adobe_aem_formsndocuments_config_aem_forms_manager_configuration_properties_parseFromJSON(cJSON *com_adobe_aem_formsndocuments_config_aem_forms_manager_configuration_propertiesJSON);
+
+cJSON *com_adobe_aem_formsndocuments_config_aem_forms_manager_configuration_properties_convertToJSON(com_adobe_aem_formsndocuments_config_aem_forms_manager_configuration_properties_t *com_adobe_aem_formsndocuments_config_aem_forms_manager_configuration_properties);
+
+#endif /* _com_adobe_aem_formsndocuments_config_aem_forms_manager_configuration_properties_H_ */
+

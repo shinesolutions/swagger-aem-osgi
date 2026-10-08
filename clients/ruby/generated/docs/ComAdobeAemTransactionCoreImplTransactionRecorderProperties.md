@@ -2,16 +2,17 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**is_transaction_recording_enabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **is_transaction_recording_enabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComAdobeAemTransactionCoreImplTransactionRecorderProperties.new(is_transaction_recording_enabled: null)
+instance = SwaggerAemOsgiClient::ComAdobeAemTransactionCoreImplTransactionRecorderProperties.new(
+  is_transaction_recording_enabled: null
+)
 ```
-
 

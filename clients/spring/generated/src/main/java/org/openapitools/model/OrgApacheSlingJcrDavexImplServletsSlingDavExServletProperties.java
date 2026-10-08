@@ -1,31 +1,42 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * OrgApacheSlingJcrDavexImplServletsSlingDavExServletProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class OrgApacheSlingJcrDavexImplServletsSlingDavExServletProperties   {
-  @JsonProperty("alias")
-  private ConfigNodePropertyString alias = null;
+@JsonTypeName("orgApacheSlingJcrDavexImplServletsSlingDavExServletProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class OrgApacheSlingJcrDavexImplServletsSlingDavExServletProperties {
 
-  @JsonProperty("dav.create-absolute-uri")
-  private ConfigNodePropertyBoolean davCreateAbsoluteUri = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString alias;
 
-  @JsonProperty("dav.protectedhandlers")
-  private ConfigNodePropertyString davProtectedhandlers = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean davCreateAbsoluteUri;
 
-  public OrgApacheSlingJcrDavexImplServletsSlingDavExServletProperties alias(ConfigNodePropertyString alias) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString davProtectedhandlers;
+
+  public OrgApacheSlingJcrDavexImplServletsSlingDavExServletProperties alias(@Nullable ConfigNodePropertyString alias) {
     this.alias = alias;
     return this;
   }
@@ -33,20 +44,20 @@ public class OrgApacheSlingJcrDavexImplServletsSlingDavExServletProperties   {
   /**
    * Get alias
    * @return alias
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getAlias() {
+   */
+  @Valid 
+  @Schema(name = "alias", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("alias")
+  public @Nullable ConfigNodePropertyString getAlias() {
     return alias;
   }
 
-  public void setAlias(ConfigNodePropertyString alias) {
+  @JsonProperty("alias")
+  public void setAlias(@Nullable ConfigNodePropertyString alias) {
     this.alias = alias;
   }
 
-  public OrgApacheSlingJcrDavexImplServletsSlingDavExServletProperties davCreateAbsoluteUri(ConfigNodePropertyBoolean davCreateAbsoluteUri) {
+  public OrgApacheSlingJcrDavexImplServletsSlingDavExServletProperties davCreateAbsoluteUri(@Nullable ConfigNodePropertyBoolean davCreateAbsoluteUri) {
     this.davCreateAbsoluteUri = davCreateAbsoluteUri;
     return this;
   }
@@ -54,20 +65,20 @@ public class OrgApacheSlingJcrDavexImplServletsSlingDavExServletProperties   {
   /**
    * Get davCreateAbsoluteUri
    * @return davCreateAbsoluteUri
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getDavCreateAbsoluteUri() {
+   */
+  @Valid 
+  @Schema(name = "dav.create-absolute-uri", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("dav.create-absolute-uri")
+  public @Nullable ConfigNodePropertyBoolean getDavCreateAbsoluteUri() {
     return davCreateAbsoluteUri;
   }
 
-  public void setDavCreateAbsoluteUri(ConfigNodePropertyBoolean davCreateAbsoluteUri) {
+  @JsonProperty("dav.create-absolute-uri")
+  public void setDavCreateAbsoluteUri(@Nullable ConfigNodePropertyBoolean davCreateAbsoluteUri) {
     this.davCreateAbsoluteUri = davCreateAbsoluteUri;
   }
 
-  public OrgApacheSlingJcrDavexImplServletsSlingDavExServletProperties davProtectedhandlers(ConfigNodePropertyString davProtectedhandlers) {
+  public OrgApacheSlingJcrDavexImplServletsSlingDavExServletProperties davProtectedhandlers(@Nullable ConfigNodePropertyString davProtectedhandlers) {
     this.davProtectedhandlers = davProtectedhandlers;
     return this;
   }
@@ -75,22 +86,21 @@ public class OrgApacheSlingJcrDavexImplServletsSlingDavExServletProperties   {
   /**
    * Get davProtectedhandlers
    * @return davProtectedhandlers
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getDavProtectedhandlers() {
+   */
+  @Valid 
+  @Schema(name = "dav.protectedhandlers", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("dav.protectedhandlers")
+  public @Nullable ConfigNodePropertyString getDavProtectedhandlers() {
     return davProtectedhandlers;
   }
 
-  public void setDavProtectedhandlers(ConfigNodePropertyString davProtectedhandlers) {
+  @JsonProperty("dav.protectedhandlers")
+  public void setDavProtectedhandlers(@Nullable ConfigNodePropertyString davProtectedhandlers) {
     this.davProtectedhandlers = davProtectedhandlers;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -112,7 +122,6 @@ public class OrgApacheSlingJcrDavexImplServletsSlingDavExServletProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class OrgApacheSlingJcrDavexImplServletsSlingDavExServletProperties {\n");
-    
     sb.append("    alias: ").append(toIndentedString(alias)).append("\n");
     sb.append("    davCreateAbsoluteUri: ").append(toIndentedString(davCreateAbsoluteUri)).append("\n");
     sb.append("    davProtectedhandlers: ").append(toIndentedString(davProtectedhandlers)).append("\n");
@@ -124,11 +133,8 @@ public class OrgApacheSlingJcrDavexImplServletsSlingDavExServletProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

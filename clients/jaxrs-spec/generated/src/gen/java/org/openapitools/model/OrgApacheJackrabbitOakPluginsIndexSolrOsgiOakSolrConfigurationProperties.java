@@ -1,5 +1,8 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyDropDown;
@@ -8,31 +11,39 @@ import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("orgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProperties   {
-  
-  private @Valid ConfigNodePropertyString pathDescField = null;
-  private @Valid ConfigNodePropertyString pathChildField = null;
-  private @Valid ConfigNodePropertyString pathParentField = null;
-  private @Valid ConfigNodePropertyString pathExactField = null;
-  private @Valid ConfigNodePropertyString catchAllField = null;
-  private @Valid ConfigNodePropertyString collapsedPathField = null;
-  private @Valid ConfigNodePropertyString pathDepthField = null;
-  private @Valid ConfigNodePropertyDropDown commitPolicy = null;
-  private @Valid ConfigNodePropertyInteger rows = null;
-  private @Valid ConfigNodePropertyBoolean pathRestrictions = null;
-  private @Valid ConfigNodePropertyBoolean propertyRestrictions = null;
-  private @Valid ConfigNodePropertyBoolean primarytypesRestrictions = null;
-  private @Valid ConfigNodePropertyArray ignoredProperties = null;
-  private @Valid ConfigNodePropertyArray usedProperties = null;
-  private @Valid ConfigNodePropertyArray typeMappings = null;
-  private @Valid ConfigNodePropertyArray propertyMappings = null;
-  private @Valid ConfigNodePropertyBoolean collapseJcrcontentNodes = null;
+  private ConfigNodePropertyString pathDescField;
+  private ConfigNodePropertyString pathChildField;
+  private ConfigNodePropertyString pathParentField;
+  private ConfigNodePropertyString pathExactField;
+  private ConfigNodePropertyString catchAllField;
+  private ConfigNodePropertyString collapsedPathField;
+  private ConfigNodePropertyString pathDepthField;
+  private ConfigNodePropertyDropDown commitPolicy;
+  private ConfigNodePropertyInteger rows;
+  private ConfigNodePropertyBoolean pathRestrictions;
+  private ConfigNodePropertyBoolean propertyRestrictions;
+  private ConfigNodePropertyBoolean primarytypesRestrictions;
+  private ConfigNodePropertyArray ignoredProperties;
+  private ConfigNodePropertyArray usedProperties;
+  private ConfigNodePropertyArray typeMappings;
+  private ConfigNodePropertyArray propertyMappings;
+  private ConfigNodePropertyBoolean collapseJcrcontentNodes;
+
+  public OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProperties() {
+  }
 
   /**
    **/
@@ -44,9 +55,11 @@ public class OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("path.desc.field")
-  public ConfigNodePropertyString getPathDescField() {
+  @Valid public ConfigNodePropertyString getPathDescField() {
     return pathDescField;
   }
+
+  @JsonProperty("path.desc.field")
   public void setPathDescField(ConfigNodePropertyString pathDescField) {
     this.pathDescField = pathDescField;
   }
@@ -61,9 +74,11 @@ public class OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("path.child.field")
-  public ConfigNodePropertyString getPathChildField() {
+  @Valid public ConfigNodePropertyString getPathChildField() {
     return pathChildField;
   }
+
+  @JsonProperty("path.child.field")
   public void setPathChildField(ConfigNodePropertyString pathChildField) {
     this.pathChildField = pathChildField;
   }
@@ -78,9 +93,11 @@ public class OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("path.parent.field")
-  public ConfigNodePropertyString getPathParentField() {
+  @Valid public ConfigNodePropertyString getPathParentField() {
     return pathParentField;
   }
+
+  @JsonProperty("path.parent.field")
   public void setPathParentField(ConfigNodePropertyString pathParentField) {
     this.pathParentField = pathParentField;
   }
@@ -95,9 +112,11 @@ public class OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("path.exact.field")
-  public ConfigNodePropertyString getPathExactField() {
+  @Valid public ConfigNodePropertyString getPathExactField() {
     return pathExactField;
   }
+
+  @JsonProperty("path.exact.field")
   public void setPathExactField(ConfigNodePropertyString pathExactField) {
     this.pathExactField = pathExactField;
   }
@@ -112,9 +131,11 @@ public class OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("catch.all.field")
-  public ConfigNodePropertyString getCatchAllField() {
+  @Valid public ConfigNodePropertyString getCatchAllField() {
     return catchAllField;
   }
+
+  @JsonProperty("catch.all.field")
   public void setCatchAllField(ConfigNodePropertyString catchAllField) {
     this.catchAllField = catchAllField;
   }
@@ -129,9 +150,11 @@ public class OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("collapsed.path.field")
-  public ConfigNodePropertyString getCollapsedPathField() {
+  @Valid public ConfigNodePropertyString getCollapsedPathField() {
     return collapsedPathField;
   }
+
+  @JsonProperty("collapsed.path.field")
   public void setCollapsedPathField(ConfigNodePropertyString collapsedPathField) {
     this.collapsedPathField = collapsedPathField;
   }
@@ -146,9 +169,11 @@ public class OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("path.depth.field")
-  public ConfigNodePropertyString getPathDepthField() {
+  @Valid public ConfigNodePropertyString getPathDepthField() {
     return pathDepthField;
   }
+
+  @JsonProperty("path.depth.field")
   public void setPathDepthField(ConfigNodePropertyString pathDepthField) {
     this.pathDepthField = pathDepthField;
   }
@@ -163,9 +188,11 @@ public class OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("commit.policy")
-  public ConfigNodePropertyDropDown getCommitPolicy() {
+  @Valid public ConfigNodePropertyDropDown getCommitPolicy() {
     return commitPolicy;
   }
+
+  @JsonProperty("commit.policy")
   public void setCommitPolicy(ConfigNodePropertyDropDown commitPolicy) {
     this.commitPolicy = commitPolicy;
   }
@@ -180,9 +207,11 @@ public class OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("rows")
-  public ConfigNodePropertyInteger getRows() {
+  @Valid public ConfigNodePropertyInteger getRows() {
     return rows;
   }
+
+  @JsonProperty("rows")
   public void setRows(ConfigNodePropertyInteger rows) {
     this.rows = rows;
   }
@@ -197,9 +226,11 @@ public class OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("path.restrictions")
-  public ConfigNodePropertyBoolean getPathRestrictions() {
+  @Valid public ConfigNodePropertyBoolean getPathRestrictions() {
     return pathRestrictions;
   }
+
+  @JsonProperty("path.restrictions")
   public void setPathRestrictions(ConfigNodePropertyBoolean pathRestrictions) {
     this.pathRestrictions = pathRestrictions;
   }
@@ -214,9 +245,11 @@ public class OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("property.restrictions")
-  public ConfigNodePropertyBoolean getPropertyRestrictions() {
+  @Valid public ConfigNodePropertyBoolean getPropertyRestrictions() {
     return propertyRestrictions;
   }
+
+  @JsonProperty("property.restrictions")
   public void setPropertyRestrictions(ConfigNodePropertyBoolean propertyRestrictions) {
     this.propertyRestrictions = propertyRestrictions;
   }
@@ -231,9 +264,11 @@ public class OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("primarytypes.restrictions")
-  public ConfigNodePropertyBoolean getPrimarytypesRestrictions() {
+  @Valid public ConfigNodePropertyBoolean getPrimarytypesRestrictions() {
     return primarytypesRestrictions;
   }
+
+  @JsonProperty("primarytypes.restrictions")
   public void setPrimarytypesRestrictions(ConfigNodePropertyBoolean primarytypesRestrictions) {
     this.primarytypesRestrictions = primarytypesRestrictions;
   }
@@ -248,9 +283,11 @@ public class OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("ignored.properties")
-  public ConfigNodePropertyArray getIgnoredProperties() {
+  @Valid public ConfigNodePropertyArray getIgnoredProperties() {
     return ignoredProperties;
   }
+
+  @JsonProperty("ignored.properties")
   public void setIgnoredProperties(ConfigNodePropertyArray ignoredProperties) {
     this.ignoredProperties = ignoredProperties;
   }
@@ -265,9 +302,11 @@ public class OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("used.properties")
-  public ConfigNodePropertyArray getUsedProperties() {
+  @Valid public ConfigNodePropertyArray getUsedProperties() {
     return usedProperties;
   }
+
+  @JsonProperty("used.properties")
   public void setUsedProperties(ConfigNodePropertyArray usedProperties) {
     this.usedProperties = usedProperties;
   }
@@ -282,9 +321,11 @@ public class OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("type.mappings")
-  public ConfigNodePropertyArray getTypeMappings() {
+  @Valid public ConfigNodePropertyArray getTypeMappings() {
     return typeMappings;
   }
+
+  @JsonProperty("type.mappings")
   public void setTypeMappings(ConfigNodePropertyArray typeMappings) {
     this.typeMappings = typeMappings;
   }
@@ -299,9 +340,11 @@ public class OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("property.mappings")
-  public ConfigNodePropertyArray getPropertyMappings() {
+  @Valid public ConfigNodePropertyArray getPropertyMappings() {
     return propertyMappings;
   }
+
+  @JsonProperty("property.mappings")
   public void setPropertyMappings(ConfigNodePropertyArray propertyMappings) {
     this.propertyMappings = propertyMappings;
   }
@@ -316,16 +359,18 @@ public class OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("collapse.jcrcontent.nodes")
-  public ConfigNodePropertyBoolean getCollapseJcrcontentNodes() {
+  @Valid public ConfigNodePropertyBoolean getCollapseJcrcontentNodes() {
     return collapseJcrcontentNodes;
   }
+
+  @JsonProperty("collapse.jcrcontent.nodes")
   public void setCollapseJcrcontentNodes(ConfigNodePropertyBoolean collapseJcrcontentNodes) {
     this.collapseJcrcontentNodes = collapseJcrcontentNodes;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -333,23 +378,23 @@ public class OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationPrope
       return false;
     }
     OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProperties orgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProperties = (OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProperties) o;
-    return Objects.equals(pathDescField, orgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProperties.pathDescField) &&
-        Objects.equals(pathChildField, orgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProperties.pathChildField) &&
-        Objects.equals(pathParentField, orgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProperties.pathParentField) &&
-        Objects.equals(pathExactField, orgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProperties.pathExactField) &&
-        Objects.equals(catchAllField, orgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProperties.catchAllField) &&
-        Objects.equals(collapsedPathField, orgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProperties.collapsedPathField) &&
-        Objects.equals(pathDepthField, orgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProperties.pathDepthField) &&
-        Objects.equals(commitPolicy, orgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProperties.commitPolicy) &&
-        Objects.equals(rows, orgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProperties.rows) &&
-        Objects.equals(pathRestrictions, orgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProperties.pathRestrictions) &&
-        Objects.equals(propertyRestrictions, orgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProperties.propertyRestrictions) &&
-        Objects.equals(primarytypesRestrictions, orgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProperties.primarytypesRestrictions) &&
-        Objects.equals(ignoredProperties, orgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProperties.ignoredProperties) &&
-        Objects.equals(usedProperties, orgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProperties.usedProperties) &&
-        Objects.equals(typeMappings, orgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProperties.typeMappings) &&
-        Objects.equals(propertyMappings, orgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProperties.propertyMappings) &&
-        Objects.equals(collapseJcrcontentNodes, orgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProperties.collapseJcrcontentNodes);
+    return Objects.equals(this.pathDescField, orgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProperties.pathDescField) &&
+        Objects.equals(this.pathChildField, orgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProperties.pathChildField) &&
+        Objects.equals(this.pathParentField, orgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProperties.pathParentField) &&
+        Objects.equals(this.pathExactField, orgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProperties.pathExactField) &&
+        Objects.equals(this.catchAllField, orgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProperties.catchAllField) &&
+        Objects.equals(this.collapsedPathField, orgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProperties.collapsedPathField) &&
+        Objects.equals(this.pathDepthField, orgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProperties.pathDepthField) &&
+        Objects.equals(this.commitPolicy, orgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProperties.commitPolicy) &&
+        Objects.equals(this.rows, orgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProperties.rows) &&
+        Objects.equals(this.pathRestrictions, orgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProperties.pathRestrictions) &&
+        Objects.equals(this.propertyRestrictions, orgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProperties.propertyRestrictions) &&
+        Objects.equals(this.primarytypesRestrictions, orgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProperties.primarytypesRestrictions) &&
+        Objects.equals(this.ignoredProperties, orgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProperties.ignoredProperties) &&
+        Objects.equals(this.usedProperties, orgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProperties.usedProperties) &&
+        Objects.equals(this.typeMappings, orgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProperties.typeMappings) &&
+        Objects.equals(this.propertyMappings, orgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProperties.propertyMappings) &&
+        Objects.equals(this.collapseJcrcontentNodes, orgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProperties.collapseJcrcontentNodes);
   }
 
   @Override
@@ -387,11 +432,9 @@ public class OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationPrope
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

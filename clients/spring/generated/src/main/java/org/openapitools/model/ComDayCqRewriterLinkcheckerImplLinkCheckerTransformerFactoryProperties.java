@@ -1,44 +1,55 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties   {
-  @JsonProperty("linkcheckertransformer.disableRewriting")
-  private ConfigNodePropertyBoolean linkcheckertransformerDisableRewriting = null;
+@JsonTypeName("comDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties {
 
-  @JsonProperty("linkcheckertransformer.disableChecking")
-  private ConfigNodePropertyBoolean linkcheckertransformerDisableChecking = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean linkcheckertransformerDisableRewriting;
 
-  @JsonProperty("linkcheckertransformer.mapCacheSize")
-  private ConfigNodePropertyInteger linkcheckertransformerMapCacheSize = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean linkcheckertransformerDisableChecking;
 
-  @JsonProperty("linkcheckertransformer.strictExtensionCheck")
-  private ConfigNodePropertyBoolean linkcheckertransformerStrictExtensionCheck = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger linkcheckertransformerMapCacheSize;
 
-  @JsonProperty("linkcheckertransformer.stripHtmltExtension")
-  private ConfigNodePropertyBoolean linkcheckertransformerStripHtmltExtension = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean linkcheckertransformerStrictExtensionCheck;
 
-  @JsonProperty("linkcheckertransformer.rewriteElements")
-  private ConfigNodePropertyArray linkcheckertransformerRewriteElements = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean linkcheckertransformerStripHtmltExtension;
 
-  @JsonProperty("linkcheckertransformer.stripExtensionPathBlacklist")
-  private ConfigNodePropertyArray linkcheckertransformerStripExtensionPathBlacklist = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray linkcheckertransformerRewriteElements;
 
-  public ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties linkcheckertransformerDisableRewriting(ConfigNodePropertyBoolean linkcheckertransformerDisableRewriting) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray linkcheckertransformerStripExtensionPathBlacklist;
+
+  public ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties linkcheckertransformerDisableRewriting(@Nullable ConfigNodePropertyBoolean linkcheckertransformerDisableRewriting) {
     this.linkcheckertransformerDisableRewriting = linkcheckertransformerDisableRewriting;
     return this;
   }
@@ -46,20 +57,20 @@ public class ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryPropert
   /**
    * Get linkcheckertransformerDisableRewriting
    * @return linkcheckertransformerDisableRewriting
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getLinkcheckertransformerDisableRewriting() {
+   */
+  @Valid 
+  @Schema(name = "linkcheckertransformer.disableRewriting", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("linkcheckertransformer.disableRewriting")
+  public @Nullable ConfigNodePropertyBoolean getLinkcheckertransformerDisableRewriting() {
     return linkcheckertransformerDisableRewriting;
   }
 
-  public void setLinkcheckertransformerDisableRewriting(ConfigNodePropertyBoolean linkcheckertransformerDisableRewriting) {
+  @JsonProperty("linkcheckertransformer.disableRewriting")
+  public void setLinkcheckertransformerDisableRewriting(@Nullable ConfigNodePropertyBoolean linkcheckertransformerDisableRewriting) {
     this.linkcheckertransformerDisableRewriting = linkcheckertransformerDisableRewriting;
   }
 
-  public ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties linkcheckertransformerDisableChecking(ConfigNodePropertyBoolean linkcheckertransformerDisableChecking) {
+  public ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties linkcheckertransformerDisableChecking(@Nullable ConfigNodePropertyBoolean linkcheckertransformerDisableChecking) {
     this.linkcheckertransformerDisableChecking = linkcheckertransformerDisableChecking;
     return this;
   }
@@ -67,20 +78,20 @@ public class ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryPropert
   /**
    * Get linkcheckertransformerDisableChecking
    * @return linkcheckertransformerDisableChecking
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getLinkcheckertransformerDisableChecking() {
+   */
+  @Valid 
+  @Schema(name = "linkcheckertransformer.disableChecking", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("linkcheckertransformer.disableChecking")
+  public @Nullable ConfigNodePropertyBoolean getLinkcheckertransformerDisableChecking() {
     return linkcheckertransformerDisableChecking;
   }
 
-  public void setLinkcheckertransformerDisableChecking(ConfigNodePropertyBoolean linkcheckertransformerDisableChecking) {
+  @JsonProperty("linkcheckertransformer.disableChecking")
+  public void setLinkcheckertransformerDisableChecking(@Nullable ConfigNodePropertyBoolean linkcheckertransformerDisableChecking) {
     this.linkcheckertransformerDisableChecking = linkcheckertransformerDisableChecking;
   }
 
-  public ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties linkcheckertransformerMapCacheSize(ConfigNodePropertyInteger linkcheckertransformerMapCacheSize) {
+  public ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties linkcheckertransformerMapCacheSize(@Nullable ConfigNodePropertyInteger linkcheckertransformerMapCacheSize) {
     this.linkcheckertransformerMapCacheSize = linkcheckertransformerMapCacheSize;
     return this;
   }
@@ -88,20 +99,20 @@ public class ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryPropert
   /**
    * Get linkcheckertransformerMapCacheSize
    * @return linkcheckertransformerMapCacheSize
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getLinkcheckertransformerMapCacheSize() {
+   */
+  @Valid 
+  @Schema(name = "linkcheckertransformer.mapCacheSize", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("linkcheckertransformer.mapCacheSize")
+  public @Nullable ConfigNodePropertyInteger getLinkcheckertransformerMapCacheSize() {
     return linkcheckertransformerMapCacheSize;
   }
 
-  public void setLinkcheckertransformerMapCacheSize(ConfigNodePropertyInteger linkcheckertransformerMapCacheSize) {
+  @JsonProperty("linkcheckertransformer.mapCacheSize")
+  public void setLinkcheckertransformerMapCacheSize(@Nullable ConfigNodePropertyInteger linkcheckertransformerMapCacheSize) {
     this.linkcheckertransformerMapCacheSize = linkcheckertransformerMapCacheSize;
   }
 
-  public ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties linkcheckertransformerStrictExtensionCheck(ConfigNodePropertyBoolean linkcheckertransformerStrictExtensionCheck) {
+  public ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties linkcheckertransformerStrictExtensionCheck(@Nullable ConfigNodePropertyBoolean linkcheckertransformerStrictExtensionCheck) {
     this.linkcheckertransformerStrictExtensionCheck = linkcheckertransformerStrictExtensionCheck;
     return this;
   }
@@ -109,20 +120,20 @@ public class ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryPropert
   /**
    * Get linkcheckertransformerStrictExtensionCheck
    * @return linkcheckertransformerStrictExtensionCheck
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getLinkcheckertransformerStrictExtensionCheck() {
+   */
+  @Valid 
+  @Schema(name = "linkcheckertransformer.strictExtensionCheck", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("linkcheckertransformer.strictExtensionCheck")
+  public @Nullable ConfigNodePropertyBoolean getLinkcheckertransformerStrictExtensionCheck() {
     return linkcheckertransformerStrictExtensionCheck;
   }
 
-  public void setLinkcheckertransformerStrictExtensionCheck(ConfigNodePropertyBoolean linkcheckertransformerStrictExtensionCheck) {
+  @JsonProperty("linkcheckertransformer.strictExtensionCheck")
+  public void setLinkcheckertransformerStrictExtensionCheck(@Nullable ConfigNodePropertyBoolean linkcheckertransformerStrictExtensionCheck) {
     this.linkcheckertransformerStrictExtensionCheck = linkcheckertransformerStrictExtensionCheck;
   }
 
-  public ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties linkcheckertransformerStripHtmltExtension(ConfigNodePropertyBoolean linkcheckertransformerStripHtmltExtension) {
+  public ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties linkcheckertransformerStripHtmltExtension(@Nullable ConfigNodePropertyBoolean linkcheckertransformerStripHtmltExtension) {
     this.linkcheckertransformerStripHtmltExtension = linkcheckertransformerStripHtmltExtension;
     return this;
   }
@@ -130,20 +141,20 @@ public class ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryPropert
   /**
    * Get linkcheckertransformerStripHtmltExtension
    * @return linkcheckertransformerStripHtmltExtension
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getLinkcheckertransformerStripHtmltExtension() {
+   */
+  @Valid 
+  @Schema(name = "linkcheckertransformer.stripHtmltExtension", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("linkcheckertransformer.stripHtmltExtension")
+  public @Nullable ConfigNodePropertyBoolean getLinkcheckertransformerStripHtmltExtension() {
     return linkcheckertransformerStripHtmltExtension;
   }
 
-  public void setLinkcheckertransformerStripHtmltExtension(ConfigNodePropertyBoolean linkcheckertransformerStripHtmltExtension) {
+  @JsonProperty("linkcheckertransformer.stripHtmltExtension")
+  public void setLinkcheckertransformerStripHtmltExtension(@Nullable ConfigNodePropertyBoolean linkcheckertransformerStripHtmltExtension) {
     this.linkcheckertransformerStripHtmltExtension = linkcheckertransformerStripHtmltExtension;
   }
 
-  public ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties linkcheckertransformerRewriteElements(ConfigNodePropertyArray linkcheckertransformerRewriteElements) {
+  public ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties linkcheckertransformerRewriteElements(@Nullable ConfigNodePropertyArray linkcheckertransformerRewriteElements) {
     this.linkcheckertransformerRewriteElements = linkcheckertransformerRewriteElements;
     return this;
   }
@@ -151,20 +162,20 @@ public class ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryPropert
   /**
    * Get linkcheckertransformerRewriteElements
    * @return linkcheckertransformerRewriteElements
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getLinkcheckertransformerRewriteElements() {
+   */
+  @Valid 
+  @Schema(name = "linkcheckertransformer.rewriteElements", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("linkcheckertransformer.rewriteElements")
+  public @Nullable ConfigNodePropertyArray getLinkcheckertransformerRewriteElements() {
     return linkcheckertransformerRewriteElements;
   }
 
-  public void setLinkcheckertransformerRewriteElements(ConfigNodePropertyArray linkcheckertransformerRewriteElements) {
+  @JsonProperty("linkcheckertransformer.rewriteElements")
+  public void setLinkcheckertransformerRewriteElements(@Nullable ConfigNodePropertyArray linkcheckertransformerRewriteElements) {
     this.linkcheckertransformerRewriteElements = linkcheckertransformerRewriteElements;
   }
 
-  public ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties linkcheckertransformerStripExtensionPathBlacklist(ConfigNodePropertyArray linkcheckertransformerStripExtensionPathBlacklist) {
+  public ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties linkcheckertransformerStripExtensionPathBlacklist(@Nullable ConfigNodePropertyArray linkcheckertransformerStripExtensionPathBlacklist) {
     this.linkcheckertransformerStripExtensionPathBlacklist = linkcheckertransformerStripExtensionPathBlacklist;
     return this;
   }
@@ -172,22 +183,21 @@ public class ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryPropert
   /**
    * Get linkcheckertransformerStripExtensionPathBlacklist
    * @return linkcheckertransformerStripExtensionPathBlacklist
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getLinkcheckertransformerStripExtensionPathBlacklist() {
+   */
+  @Valid 
+  @Schema(name = "linkcheckertransformer.stripExtensionPathBlacklist", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("linkcheckertransformer.stripExtensionPathBlacklist")
+  public @Nullable ConfigNodePropertyArray getLinkcheckertransformerStripExtensionPathBlacklist() {
     return linkcheckertransformerStripExtensionPathBlacklist;
   }
 
-  public void setLinkcheckertransformerStripExtensionPathBlacklist(ConfigNodePropertyArray linkcheckertransformerStripExtensionPathBlacklist) {
+  @JsonProperty("linkcheckertransformer.stripExtensionPathBlacklist")
+  public void setLinkcheckertransformerStripExtensionPathBlacklist(@Nullable ConfigNodePropertyArray linkcheckertransformerStripExtensionPathBlacklist) {
     this.linkcheckertransformerStripExtensionPathBlacklist = linkcheckertransformerStripExtensionPathBlacklist;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -213,7 +223,6 @@ public class ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryPropert
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties {\n");
-    
     sb.append("    linkcheckertransformerDisableRewriting: ").append(toIndentedString(linkcheckertransformerDisableRewriting)).append("\n");
     sb.append("    linkcheckertransformerDisableChecking: ").append(toIndentedString(linkcheckertransformerDisableChecking)).append("\n");
     sb.append("    linkcheckertransformerMapCacheSize: ").append(toIndentedString(linkcheckertransformerMapCacheSize)).append("\n");
@@ -229,11 +238,8 @@ public class ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryPropert
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

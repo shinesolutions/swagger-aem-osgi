@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyArray;
 
 @Canonical
 class ComAdobeCqSocialEnablementLearningpathEndpointsImplEnablementLProperties {
-    ConfigNodePropertyArray fieldWhitelist = null
-
+    
+    ConfigNodePropertyArray fieldWhitelist
 }

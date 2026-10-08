@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyBoolean;
 
 @Canonical
 class ComDayCqDamScene7ImplScene7ConfigurationEventListenerProperties {
-    ConfigNodePropertyBoolean cqDamScene7ConfigurationeventlistenerEnabled = null
-
+    
+    ConfigNodePropertyBoolean cqDamScene7ConfigurationeventlistenerEnabled
 }

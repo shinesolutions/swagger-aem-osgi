@@ -2,11 +2,11 @@
 # ComAdobeCqWcmJobsAsyncImplAsyncJobCleanUpTaskProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**schedulerPeriodexpression** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**jobPeriodpurgePeriodthreshold** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**jobPeriodpurgePeriodmaxPeriodjobs** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **schedulerExpression** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **jobPurgeThreshold** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **jobPurgeMaxJobs** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
 
 
 

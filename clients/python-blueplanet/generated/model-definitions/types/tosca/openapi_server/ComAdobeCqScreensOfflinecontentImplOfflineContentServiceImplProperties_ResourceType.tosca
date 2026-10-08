@@ -1,0 +1,36 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqScreensOfflinecontentImplOfflineContentServiceImplProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqScreensOfflinecontentImplOfflineContentServiceImplProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+}
+resourceTypes {
+
+  ComAdobeCqScreensOfflinecontentImplOfflineContentServiceImplProperties {
+    title = ComAdobeCqScreensOfflinecontentImplOfflineContentServiceImplProperties
+    description = ComAdobeCqScreensOfflinecontentImplOfflineContentServiceImplProperties
+    derivedFrom = Root
+    properties {
+        disable_smart_sync {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqScreensOfflinecontentImplOfflineContentServiceImplProperties {
+    title = ComAdobeCqScreensOfflinecontentImplOfflineContentServiceImplProperties
+    description = ComAdobeCqScreensOfflinecontentImplOfflineContentServiceImplProperties
+    implements = openapi_server.resourceTypes.ComAdobeCqScreensOfflinecontentImplOfflineContentServiceImplProperties
+
+  }
+}

@@ -4,30 +4,25 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2019-08-05T01:00:05.540Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2026-10-07T12:54:26.576036107Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqStatisticsImplStatisticsServiceImplProperties   {
   
-
-  private ConfigNodePropertyInteger schedulerPeriod = null;
-
-  private ConfigNodePropertyBoolean schedulerConcurrent = null;
-
-  private ConfigNodePropertyString path = null;
-
-  private ConfigNodePropertyString workspace = null;
-
-  private ConfigNodePropertyString keywordsPath = null;
-
-  private ConfigNodePropertyBoolean asyncEntries = null;
+  private ConfigNodePropertyInteger schedulerPeriod;
+  private ConfigNodePropertyBoolean schedulerConcurrent;
+  private ConfigNodePropertyString path;
+  private ConfigNodePropertyString workspace;
+  private ConfigNodePropertyString keywordsPath;
+  private ConfigNodePropertyBoolean asyncEntries;
 
   /**
    **/
@@ -111,12 +106,12 @@ public class ComDayCqStatisticsImplStatisticsServiceImplProperties   {
       return false;
     }
     ComDayCqStatisticsImplStatisticsServiceImplProperties comDayCqStatisticsImplStatisticsServiceImplProperties = (ComDayCqStatisticsImplStatisticsServiceImplProperties) o;
-    return Objects.equals(schedulerPeriod, comDayCqStatisticsImplStatisticsServiceImplProperties.schedulerPeriod) &&
-        Objects.equals(schedulerConcurrent, comDayCqStatisticsImplStatisticsServiceImplProperties.schedulerConcurrent) &&
-        Objects.equals(path, comDayCqStatisticsImplStatisticsServiceImplProperties.path) &&
-        Objects.equals(workspace, comDayCqStatisticsImplStatisticsServiceImplProperties.workspace) &&
-        Objects.equals(keywordsPath, comDayCqStatisticsImplStatisticsServiceImplProperties.keywordsPath) &&
-        Objects.equals(asyncEntries, comDayCqStatisticsImplStatisticsServiceImplProperties.asyncEntries);
+    return Objects.equals(this.schedulerPeriod, comDayCqStatisticsImplStatisticsServiceImplProperties.schedulerPeriod) &&
+        Objects.equals(this.schedulerConcurrent, comDayCqStatisticsImplStatisticsServiceImplProperties.schedulerConcurrent) &&
+        Objects.equals(this.path, comDayCqStatisticsImplStatisticsServiceImplProperties.path) &&
+        Objects.equals(this.workspace, comDayCqStatisticsImplStatisticsServiceImplProperties.workspace) &&
+        Objects.equals(this.keywordsPath, comDayCqStatisticsImplStatisticsServiceImplProperties.keywordsPath) &&
+        Objects.equals(this.asyncEntries, comDayCqStatisticsImplStatisticsServiceImplProperties.asyncEntries);
   }
 
   @Override
@@ -144,10 +139,7 @@ public class ComDayCqStatisticsImplStatisticsServiceImplProperties   {
    * (except the first line).
    */
   private String toIndentedString(Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

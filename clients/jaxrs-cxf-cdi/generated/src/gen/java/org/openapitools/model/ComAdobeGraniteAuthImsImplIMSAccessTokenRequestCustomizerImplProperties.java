@@ -2,23 +2,24 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class ComAdobeGraniteAuthImsImplIMSAccessTokenRequestCustomizerImplProperties   {
   
-  private ConfigNodePropertyString authImsClientSecret = null;
+  private ConfigNodePropertyString authImsClientSecret;
 
-  private ConfigNodePropertyString customizerType = null;
-
+  private ConfigNodePropertyString customizerType;
 
   /**
    **/
@@ -58,7 +59,7 @@ public class ComAdobeGraniteAuthImsImplIMSAccessTokenRequestCustomizerImplProper
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -66,8 +67,8 @@ public class ComAdobeGraniteAuthImsImplIMSAccessTokenRequestCustomizerImplProper
       return false;
     }
     ComAdobeGraniteAuthImsImplIMSAccessTokenRequestCustomizerImplProperties comAdobeGraniteAuthImsImplIMSAccessTokenRequestCustomizerImplProperties = (ComAdobeGraniteAuthImsImplIMSAccessTokenRequestCustomizerImplProperties) o;
-    return Objects.equals(authImsClientSecret, comAdobeGraniteAuthImsImplIMSAccessTokenRequestCustomizerImplProperties.authImsClientSecret) &&
-        Objects.equals(customizerType, comAdobeGraniteAuthImsImplIMSAccessTokenRequestCustomizerImplProperties.customizerType);
+    return Objects.equals(this.authImsClientSecret, comAdobeGraniteAuthImsImplIMSAccessTokenRequestCustomizerImplProperties.authImsClientSecret) &&
+        Objects.equals(this.customizerType, comAdobeGraniteAuthImsImplIMSAccessTokenRequestCustomizerImplProperties.customizerType);
   }
 
   @Override
@@ -90,11 +91,8 @@ public class ComAdobeGraniteAuthImsImplIMSAccessTokenRequestCustomizerImplProper
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

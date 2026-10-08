@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqWcmDesignimporterImplEntryPreprocessorImpl
 
 @Canonical
 class ComDayCqWcmDesignimporterImplEntryPreprocessorImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqWcmDesignimporterImplEntryPreprocessorImplProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqWcmDesignimporterImplEntryPreprocessorImplProperties properties
 }

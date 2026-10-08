@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeXmpWorkerFilesNcommXMPFilesNCommProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeXmpWorkerFilesNcommXMPFilesNCommProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComAdobeXmpWorkerFilesNcommXMPFilesNCommProperties {
+    title = ComAdobeXmpWorkerFilesNcommXMPFilesNCommProperties
+    description = ComAdobeXmpWorkerFilesNcommXMPFilesNCommProperties
+    derivedFrom = Root
+    properties {
+        max_connections {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        max_requests {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        request_timeout {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        log_dir {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeXmpWorkerFilesNcommXMPFilesNCommProperties {
+    title = ComAdobeXmpWorkerFilesNcommXMPFilesNCommProperties
+    description = ComAdobeXmpWorkerFilesNcommXMPFilesNCommProperties
+    implements = openapi_server.resourceTypes.ComAdobeXmpWorkerFilesNcommXMPFilesNCommProperties
+
+  }
+}

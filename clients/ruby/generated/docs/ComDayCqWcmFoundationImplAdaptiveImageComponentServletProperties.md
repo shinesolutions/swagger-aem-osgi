@@ -2,16 +2,17 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**adapt_supported_widths** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **adapt_supported_widths** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComDayCqWcmFoundationImplAdaptiveImageComponentServletProperties.new(adapt_supported_widths: null)
+instance = SwaggerAemOsgiClient::ComDayCqWcmFoundationImplAdaptiveImageComponentServletProperties.new(
+  adapt_supported_widths: null
+)
 ```
-
 

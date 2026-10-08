@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqSocialJournalClientEndpointsImplJournalO
 
 @Canonical
 class ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsSerInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsSerProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsSerProperties properties
 }

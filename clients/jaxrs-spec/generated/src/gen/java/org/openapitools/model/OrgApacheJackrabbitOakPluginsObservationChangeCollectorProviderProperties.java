@@ -1,21 +1,32 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("orgApacheJackrabbitOakPluginsObservationChangeCollectorProviderProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheJackrabbitOakPluginsObservationChangeCollectorProviderProperties   {
-  
-  private @Valid ConfigNodePropertyInteger maxItems = null;
-  private @Valid ConfigNodePropertyInteger maxPathDepth = null;
-  private @Valid ConfigNodePropertyBoolean enabled = null;
+  private ConfigNodePropertyInteger maxItems;
+  private ConfigNodePropertyInteger maxPathDepth;
+  private ConfigNodePropertyBoolean enabled;
+
+  public OrgApacheJackrabbitOakPluginsObservationChangeCollectorProviderProperties() {
+  }
 
   /**
    **/
@@ -27,9 +38,11 @@ public class OrgApacheJackrabbitOakPluginsObservationChangeCollectorProviderProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("maxItems")
-  public ConfigNodePropertyInteger getMaxItems() {
+  @Valid public ConfigNodePropertyInteger getMaxItems() {
     return maxItems;
   }
+
+  @JsonProperty("maxItems")
   public void setMaxItems(ConfigNodePropertyInteger maxItems) {
     this.maxItems = maxItems;
   }
@@ -44,9 +57,11 @@ public class OrgApacheJackrabbitOakPluginsObservationChangeCollectorProviderProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("maxPathDepth")
-  public ConfigNodePropertyInteger getMaxPathDepth() {
+  @Valid public ConfigNodePropertyInteger getMaxPathDepth() {
     return maxPathDepth;
   }
+
+  @JsonProperty("maxPathDepth")
   public void setMaxPathDepth(ConfigNodePropertyInteger maxPathDepth) {
     this.maxPathDepth = maxPathDepth;
   }
@@ -61,16 +76,18 @@ public class OrgApacheJackrabbitOakPluginsObservationChangeCollectorProviderProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("enabled")
-  public ConfigNodePropertyBoolean getEnabled() {
+  @Valid public ConfigNodePropertyBoolean getEnabled() {
     return enabled;
   }
+
+  @JsonProperty("enabled")
   public void setEnabled(ConfigNodePropertyBoolean enabled) {
     this.enabled = enabled;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -78,9 +95,9 @@ public class OrgApacheJackrabbitOakPluginsObservationChangeCollectorProviderProp
       return false;
     }
     OrgApacheJackrabbitOakPluginsObservationChangeCollectorProviderProperties orgApacheJackrabbitOakPluginsObservationChangeCollectorProviderProperties = (OrgApacheJackrabbitOakPluginsObservationChangeCollectorProviderProperties) o;
-    return Objects.equals(maxItems, orgApacheJackrabbitOakPluginsObservationChangeCollectorProviderProperties.maxItems) &&
-        Objects.equals(maxPathDepth, orgApacheJackrabbitOakPluginsObservationChangeCollectorProviderProperties.maxPathDepth) &&
-        Objects.equals(enabled, orgApacheJackrabbitOakPluginsObservationChangeCollectorProviderProperties.enabled);
+    return Objects.equals(this.maxItems, orgApacheJackrabbitOakPluginsObservationChangeCollectorProviderProperties.maxItems) &&
+        Objects.equals(this.maxPathDepth, orgApacheJackrabbitOakPluginsObservationChangeCollectorProviderProperties.maxPathDepth) &&
+        Objects.equals(this.enabled, orgApacheJackrabbitOakPluginsObservationChangeCollectorProviderProperties.enabled);
   }
 
   @Override
@@ -104,11 +121,9 @@ public class OrgApacheJackrabbitOakPluginsObservationChangeCollectorProviderProp
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

@@ -1,41 +1,52 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerProperties   {
-  @JsonProperty("path")
-  private ConfigNodePropertyString path = null;
+@JsonTypeName("comAdobeGraniteAuthOauthImplBearerAuthenticationHandlerProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerProperties {
 
-  @JsonProperty("oauth.clientIds.allowed")
-  private ConfigNodePropertyArray oauthClientIdsAllowed = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString path;
 
-  @JsonProperty("auth.bearer.sync.ims")
-  private ConfigNodePropertyBoolean authBearerSyncIms = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray oauthClientIdsAllowed;
 
-  @JsonProperty("auth.tokenRequestParameter")
-  private ConfigNodePropertyString authTokenRequestParameter = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean authBearerSyncIms;
 
-  @JsonProperty("oauth.bearer.configid")
-  private ConfigNodePropertyString oauthBearerConfigid = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString authTokenRequestParameter;
 
-  @JsonProperty("oauth.jwt.support")
-  private ConfigNodePropertyBoolean oauthJwtSupport = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString oauthBearerConfigid;
 
-  public ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerProperties path(ConfigNodePropertyString path) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean oauthJwtSupport;
+
+  public ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerProperties path(@Nullable ConfigNodePropertyString path) {
     this.path = path;
     return this;
   }
@@ -43,20 +54,20 @@ public class ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerProperties  
   /**
    * Get path
    * @return path
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getPath() {
+   */
+  @Valid 
+  @Schema(name = "path", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("path")
+  public @Nullable ConfigNodePropertyString getPath() {
     return path;
   }
 
-  public void setPath(ConfigNodePropertyString path) {
+  @JsonProperty("path")
+  public void setPath(@Nullable ConfigNodePropertyString path) {
     this.path = path;
   }
 
-  public ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerProperties oauthClientIdsAllowed(ConfigNodePropertyArray oauthClientIdsAllowed) {
+  public ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerProperties oauthClientIdsAllowed(@Nullable ConfigNodePropertyArray oauthClientIdsAllowed) {
     this.oauthClientIdsAllowed = oauthClientIdsAllowed;
     return this;
   }
@@ -64,20 +75,20 @@ public class ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerProperties  
   /**
    * Get oauthClientIdsAllowed
    * @return oauthClientIdsAllowed
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getOauthClientIdsAllowed() {
+   */
+  @Valid 
+  @Schema(name = "oauth.clientIds.allowed", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("oauth.clientIds.allowed")
+  public @Nullable ConfigNodePropertyArray getOauthClientIdsAllowed() {
     return oauthClientIdsAllowed;
   }
 
-  public void setOauthClientIdsAllowed(ConfigNodePropertyArray oauthClientIdsAllowed) {
+  @JsonProperty("oauth.clientIds.allowed")
+  public void setOauthClientIdsAllowed(@Nullable ConfigNodePropertyArray oauthClientIdsAllowed) {
     this.oauthClientIdsAllowed = oauthClientIdsAllowed;
   }
 
-  public ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerProperties authBearerSyncIms(ConfigNodePropertyBoolean authBearerSyncIms) {
+  public ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerProperties authBearerSyncIms(@Nullable ConfigNodePropertyBoolean authBearerSyncIms) {
     this.authBearerSyncIms = authBearerSyncIms;
     return this;
   }
@@ -85,20 +96,20 @@ public class ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerProperties  
   /**
    * Get authBearerSyncIms
    * @return authBearerSyncIms
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getAuthBearerSyncIms() {
+   */
+  @Valid 
+  @Schema(name = "auth.bearer.sync.ims", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("auth.bearer.sync.ims")
+  public @Nullable ConfigNodePropertyBoolean getAuthBearerSyncIms() {
     return authBearerSyncIms;
   }
 
-  public void setAuthBearerSyncIms(ConfigNodePropertyBoolean authBearerSyncIms) {
+  @JsonProperty("auth.bearer.sync.ims")
+  public void setAuthBearerSyncIms(@Nullable ConfigNodePropertyBoolean authBearerSyncIms) {
     this.authBearerSyncIms = authBearerSyncIms;
   }
 
-  public ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerProperties authTokenRequestParameter(ConfigNodePropertyString authTokenRequestParameter) {
+  public ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerProperties authTokenRequestParameter(@Nullable ConfigNodePropertyString authTokenRequestParameter) {
     this.authTokenRequestParameter = authTokenRequestParameter;
     return this;
   }
@@ -106,20 +117,20 @@ public class ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerProperties  
   /**
    * Get authTokenRequestParameter
    * @return authTokenRequestParameter
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getAuthTokenRequestParameter() {
+   */
+  @Valid 
+  @Schema(name = "auth.tokenRequestParameter", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("auth.tokenRequestParameter")
+  public @Nullable ConfigNodePropertyString getAuthTokenRequestParameter() {
     return authTokenRequestParameter;
   }
 
-  public void setAuthTokenRequestParameter(ConfigNodePropertyString authTokenRequestParameter) {
+  @JsonProperty("auth.tokenRequestParameter")
+  public void setAuthTokenRequestParameter(@Nullable ConfigNodePropertyString authTokenRequestParameter) {
     this.authTokenRequestParameter = authTokenRequestParameter;
   }
 
-  public ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerProperties oauthBearerConfigid(ConfigNodePropertyString oauthBearerConfigid) {
+  public ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerProperties oauthBearerConfigid(@Nullable ConfigNodePropertyString oauthBearerConfigid) {
     this.oauthBearerConfigid = oauthBearerConfigid;
     return this;
   }
@@ -127,20 +138,20 @@ public class ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerProperties  
   /**
    * Get oauthBearerConfigid
    * @return oauthBearerConfigid
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getOauthBearerConfigid() {
+   */
+  @Valid 
+  @Schema(name = "oauth.bearer.configid", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("oauth.bearer.configid")
+  public @Nullable ConfigNodePropertyString getOauthBearerConfigid() {
     return oauthBearerConfigid;
   }
 
-  public void setOauthBearerConfigid(ConfigNodePropertyString oauthBearerConfigid) {
+  @JsonProperty("oauth.bearer.configid")
+  public void setOauthBearerConfigid(@Nullable ConfigNodePropertyString oauthBearerConfigid) {
     this.oauthBearerConfigid = oauthBearerConfigid;
   }
 
-  public ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerProperties oauthJwtSupport(ConfigNodePropertyBoolean oauthJwtSupport) {
+  public ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerProperties oauthJwtSupport(@Nullable ConfigNodePropertyBoolean oauthJwtSupport) {
     this.oauthJwtSupport = oauthJwtSupport;
     return this;
   }
@@ -148,22 +159,21 @@ public class ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerProperties  
   /**
    * Get oauthJwtSupport
    * @return oauthJwtSupport
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getOauthJwtSupport() {
+   */
+  @Valid 
+  @Schema(name = "oauth.jwt.support", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("oauth.jwt.support")
+  public @Nullable ConfigNodePropertyBoolean getOauthJwtSupport() {
     return oauthJwtSupport;
   }
 
-  public void setOauthJwtSupport(ConfigNodePropertyBoolean oauthJwtSupport) {
+  @JsonProperty("oauth.jwt.support")
+  public void setOauthJwtSupport(@Nullable ConfigNodePropertyBoolean oauthJwtSupport) {
     this.oauthJwtSupport = oauthJwtSupport;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -188,7 +198,6 @@ public class ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerProperties  
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerProperties {\n");
-    
     sb.append("    path: ").append(toIndentedString(path)).append("\n");
     sb.append("    oauthClientIdsAllowed: ").append(toIndentedString(oauthClientIdsAllowed)).append("\n");
     sb.append("    authBearerSyncIms: ").append(toIndentedString(authBearerSyncIms)).append("\n");
@@ -203,11 +212,8 @@ public class ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerProperties  
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

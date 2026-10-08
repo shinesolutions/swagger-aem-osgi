@@ -72,9 +72,9 @@ private class OASComAdobeGraniteRepositoryHcImplDeTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeGraniteRepositoryHcImplDe comAdobeGraniteRepositoryHcImplDefaultLoginsHealthCheckProperties = new OASComAdobeGraniteRepositoryHcImplDe();
-        Map<String, String> propertyMappings = comAdobeGraniteRepositoryHcImplDefaultLoginsHealthCheckProperties.getPropertyMappings();
-        System.assertEquals('hcTags', propertyMappings.get('hc.tags'));
-        System.assertEquals('accountLogins', propertyMappings.get('account.logins'));
-        System.assertEquals('consoleLogins', propertyMappings.get('console.logins'));
+        Map<String, String> x-property-mappings = comAdobeGraniteRepositoryHcImplDefaultLoginsHealthCheckProperties.getx-property-mappings();
+        System.assertEquals('hcTags', x-property-mappings.get('hc.tags'));
+        System.assertEquals('accountLogins', x-property-mappings.get('account.logins'));
+        System.assertEquals('consoleLogins', x-property-mappings.get('console.logins'));
     }
 }

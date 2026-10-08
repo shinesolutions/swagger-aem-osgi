@@ -72,7 +72,7 @@ private class OASComDayCqDamCoreImplMetadataEditorTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqDamCoreImplMetadataEditor comDayCqDamCoreImplMetadataEditorSelectComponentHandlerProperties = new OASComDayCqDamCoreImplMetadataEditor();
-        Map<String, String> propertyMappings = comDayCqDamCoreImplMetadataEditorSelectComponentHandlerProperties.getPropertyMappings();
-        System.assertEquals('granitedata', propertyMappings.get('granite:data'));
+        Map<String, String> x-property-mappings = comDayCqDamCoreImplMetadataEditorSelectComponentHandlerProperties.getx-property-mappings();
+        System.assertEquals('graniteData', x-property-mappings.get('granite:data'));
     }
 }

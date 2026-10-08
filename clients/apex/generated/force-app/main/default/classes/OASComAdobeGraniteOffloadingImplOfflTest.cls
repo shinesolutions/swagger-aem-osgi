@@ -72,7 +72,7 @@ private class OASComAdobeGraniteOffloadingImplOfflTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeGraniteOffloadingImplOffl comAdobeGraniteOffloadingImplOffloadingJobOffloaderProperties = new OASComAdobeGraniteOffloadingImplOffl();
-        Map<String, String> propertyMappings = comAdobeGraniteOffloadingImplOffloadingJobOffloaderProperties.getPropertyMappings();
-        System.assertEquals('offloadingOffloaderEnabled', propertyMappings.get('offloading.offloader.enabled'));
+        Map<String, String> x-property-mappings = comAdobeGraniteOffloadingImplOffloadingJobOffloaderProperties.getx-property-mappings();
+        System.assertEquals('offloadingOffloaderEnabled', x-property-mappings.get('offloading.offloader.enabled'));
     }
 }

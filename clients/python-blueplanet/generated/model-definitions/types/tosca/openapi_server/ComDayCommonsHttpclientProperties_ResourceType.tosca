@@ -1,0 +1,68 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCommonsHttpclientProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCommonsHttpclientProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComDayCommonsHttpclientProperties {
+    title = ComDayCommonsHttpclientProperties
+    description = ComDayCommonsHttpclientProperties
+    derivedFrom = Root
+    properties {
+        proxy_enabled {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        proxy_host {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        proxy_user {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        proxy_password {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        proxy_ntlm_host {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        proxy_ntlm_domain {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        proxy_exceptions {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCommonsHttpclientProperties {
+    title = ComDayCommonsHttpclientProperties
+    description = ComDayCommonsHttpclientProperties
+    implements = openapi_server.resourceTypes.ComDayCommonsHttpclientProperties
+
+  }
+}

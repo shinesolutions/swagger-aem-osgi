@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqWcmCoreImplEventRepositoryChangeEventListenerInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqWcmCoreImplEventRepositoryChangeEventListenerInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComDayCqWcmCoreImplEventRepositoryChangeEventListenerProperties = openapi_server.resourceTypes.ComDayCqWcmCoreImplEventRepositoryChangeEventListenerProperties
+}
+resourceTypes {
+
+  ComDayCqWcmCoreImplEventRepositoryChangeEventListenerInfo {
+    title = ComDayCqWcmCoreImplEventRepositoryChangeEventListenerInfo
+    description = ComDayCqWcmCoreImplEventRepositoryChangeEventListenerInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComDayCqWcmCoreImplEventRepositoryChangeEventListenerProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqWcmCoreImplEventRepositoryChangeEventListenerInfo {
+    title = ComDayCqWcmCoreImplEventRepositoryChangeEventListenerInfo
+    description = ComDayCqWcmCoreImplEventRepositoryChangeEventListenerInfo
+    implements = openapi_server.resourceTypes.ComDayCqWcmCoreImplEventRepositoryChangeEventListenerInfo
+
+  }
+}

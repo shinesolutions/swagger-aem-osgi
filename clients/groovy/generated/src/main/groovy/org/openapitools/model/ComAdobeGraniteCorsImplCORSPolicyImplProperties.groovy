@@ -9,20 +9,20 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class ComAdobeGraniteCorsImplCORSPolicyImplProperties {
-    ConfigNodePropertyArray alloworigin = null
-
-    ConfigNodePropertyArray alloworiginregexp = null
-
-    ConfigNodePropertyArray allowedpaths = null
-
-    ConfigNodePropertyArray exposedheaders = null
-
-    ConfigNodePropertyInteger maxage = null
-
-    ConfigNodePropertyArray supportedheaders = null
-
-    ConfigNodePropertyArray supportedmethods = null
-
-    ConfigNodePropertyBoolean supportscredentials = null
-
+    
+    ConfigNodePropertyArray alloworigin
+    
+    ConfigNodePropertyArray alloworiginregexp
+    
+    ConfigNodePropertyArray allowedpaths
+    
+    ConfigNodePropertyArray exposedheaders
+    
+    ConfigNodePropertyInteger maxage
+    
+    ConfigNodePropertyArray supportedheaders
+    
+    ConfigNodePropertyArray supportedmethods
+    
+    ConfigNodePropertyBoolean supportscredentials
 }

@@ -3,41 +3,58 @@ package apimodels;
 import apimodels.ConfigNodePropertyBoolean;
 import apimodels.ConfigNodePropertyInteger;
 import apimodels.ConfigNodePropertyString;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * ComAdobeGraniteDistributionCoreImplDiffDiffChangesObserverProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class ComAdobeGraniteDistributionCoreImplDiffDiffChangesObserverProperties   {
   @JsonProperty("enabled")
-  private ConfigNodePropertyBoolean enabled = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean enabled;
 
   @JsonProperty("agentName")
-  private ConfigNodePropertyString agentName = null;
+  @Valid
+
+  private ConfigNodePropertyString agentName;
 
   @JsonProperty("diffPath")
-  private ConfigNodePropertyString diffPath = null;
+  @Valid
+
+  private ConfigNodePropertyString diffPath;
 
   @JsonProperty("observedPath")
-  private ConfigNodePropertyString observedPath = null;
+  @Valid
+
+  private ConfigNodePropertyString observedPath;
 
   @JsonProperty("serviceName")
-  private ConfigNodePropertyString serviceName = null;
+  @Valid
+
+  private ConfigNodePropertyString serviceName;
 
   @JsonProperty("propertyNames")
-  private ConfigNodePropertyString propertyNames = null;
+  @Valid
+
+  private ConfigNodePropertyString propertyNames;
 
   @JsonProperty("distributionDelay")
-  private ConfigNodePropertyInteger distributionDelay = null;
+  @Valid
+
+  private ConfigNodePropertyInteger distributionDelay;
 
   @JsonProperty("serviceUser.target")
-  private ConfigNodePropertyString serviceUserTarget = null;
+  @Valid
+
+  private ConfigNodePropertyString serviceUserTarget;
 
   public ComAdobeGraniteDistributionCoreImplDiffDiffChangesObserverProperties enabled(ConfigNodePropertyBoolean enabled) {
     this.enabled = enabled;
@@ -48,7 +65,6 @@ public class ComAdobeGraniteDistributionCoreImplDiffDiffChangesObserverPropertie
    * Get enabled
    * @return enabled
   **/
-  @Valid
   public ConfigNodePropertyBoolean getEnabled() {
     return enabled;
   }
@@ -66,7 +82,6 @@ public class ComAdobeGraniteDistributionCoreImplDiffDiffChangesObserverPropertie
    * Get agentName
    * @return agentName
   **/
-  @Valid
   public ConfigNodePropertyString getAgentName() {
     return agentName;
   }
@@ -84,7 +99,6 @@ public class ComAdobeGraniteDistributionCoreImplDiffDiffChangesObserverPropertie
    * Get diffPath
    * @return diffPath
   **/
-  @Valid
   public ConfigNodePropertyString getDiffPath() {
     return diffPath;
   }
@@ -102,7 +116,6 @@ public class ComAdobeGraniteDistributionCoreImplDiffDiffChangesObserverPropertie
    * Get observedPath
    * @return observedPath
   **/
-  @Valid
   public ConfigNodePropertyString getObservedPath() {
     return observedPath;
   }
@@ -120,7 +133,6 @@ public class ComAdobeGraniteDistributionCoreImplDiffDiffChangesObserverPropertie
    * Get serviceName
    * @return serviceName
   **/
-  @Valid
   public ConfigNodePropertyString getServiceName() {
     return serviceName;
   }
@@ -138,7 +150,6 @@ public class ComAdobeGraniteDistributionCoreImplDiffDiffChangesObserverPropertie
    * Get propertyNames
    * @return propertyNames
   **/
-  @Valid
   public ConfigNodePropertyString getPropertyNames() {
     return propertyNames;
   }
@@ -156,7 +167,6 @@ public class ComAdobeGraniteDistributionCoreImplDiffDiffChangesObserverPropertie
    * Get distributionDelay
    * @return distributionDelay
   **/
-  @Valid
   public ConfigNodePropertyInteger getDistributionDelay() {
     return distributionDelay;
   }
@@ -174,7 +184,6 @@ public class ComAdobeGraniteDistributionCoreImplDiffDiffChangesObserverPropertie
    * Get serviceUserTarget
    * @return serviceUserTarget
   **/
-  @Valid
   public ConfigNodePropertyString getServiceUserTarget() {
     return serviceUserTarget;
   }
@@ -185,7 +194,7 @@ public class ComAdobeGraniteDistributionCoreImplDiffDiffChangesObserverPropertie
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -230,11 +239,8 @@ public class ComAdobeGraniteDistributionCoreImplDiffDiffChangesObserverPropertie
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

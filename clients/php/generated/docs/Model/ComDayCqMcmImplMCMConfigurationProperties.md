@@ -1,11 +1,10 @@
 # ComDayCqMcmImplMCMConfigurationProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**experience_indirection** | [**\OpenAPI\Client\Model\ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 
-**touchpoint_indirection** | [**\OpenAPI\Client\Model\ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 
+**experience_indirection** | [**\OpenAPI\Client\Model\ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional]
+**touchpoint_indirection** | [**\OpenAPI\Client\Model\ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional]
 
-[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
-
-
+[[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)

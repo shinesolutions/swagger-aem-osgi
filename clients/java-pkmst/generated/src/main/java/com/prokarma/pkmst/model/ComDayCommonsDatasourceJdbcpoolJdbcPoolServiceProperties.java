@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyArray;
 import com.prokarma.pkmst.model.ConfigNodePropertyBoolean;
 import com.prokarma.pkmst.model.ConfigNodePropertyInteger;
@@ -18,51 +19,50 @@ import io.swagger.annotations.ApiModelProperty;
  * ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties   {
   @JsonProperty("jdbc.driver.class")
-  private ConfigNodePropertyString jdbcDriverClass = null;
+  private ConfigNodePropertyString jdbcDriverClass;
 
   @JsonProperty("jdbc.connection.uri")
-  private ConfigNodePropertyString jdbcConnectionUri = null;
+  private ConfigNodePropertyString jdbcConnectionUri;
 
   @JsonProperty("jdbc.username")
-  private ConfigNodePropertyString jdbcUsername = null;
+  private ConfigNodePropertyString jdbcUsername;
 
   @JsonProperty("jdbc.password")
-  private ConfigNodePropertyString jdbcPassword = null;
+  private ConfigNodePropertyString jdbcPassword;
 
   @JsonProperty("jdbc.validation.query")
-  private ConfigNodePropertyString jdbcValidationQuery = null;
+  private ConfigNodePropertyString jdbcValidationQuery;
 
   @JsonProperty("default.readonly")
-  private ConfigNodePropertyBoolean defaultReadonly = null;
+  private ConfigNodePropertyBoolean defaultReadonly;
 
   @JsonProperty("default.autocommit")
-  private ConfigNodePropertyBoolean defaultAutocommit = null;
+  private ConfigNodePropertyBoolean defaultAutocommit;
 
   @JsonProperty("pool.size")
-  private ConfigNodePropertyInteger poolSize = null;
+  private ConfigNodePropertyInteger poolSize;
 
   @JsonProperty("pool.max.wait.msec")
-  private ConfigNodePropertyInteger poolMaxWaitMsec = null;
+  private ConfigNodePropertyInteger poolMaxWaitMsec;
 
   @JsonProperty("datasource.name")
-  private ConfigNodePropertyString datasourceName = null;
+  private ConfigNodePropertyString datasourceName;
 
   @JsonProperty("datasource.svc.properties")
-  private ConfigNodePropertyArray datasourceSvcProperties = null;
+  private ConfigNodePropertyArray datasourceSvcProperties;
 
   public ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties jdbcDriverClass(ConfigNodePropertyString jdbcDriverClass) {
     this.jdbcDriverClass = jdbcDriverClass;
     return this;
   }
 
-   /**
+  /**
    * Get jdbcDriverClass
    * @return jdbcDriverClass
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getJdbcDriverClass() {
     return jdbcDriverClass;
@@ -77,10 +77,10 @@ public class ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get jdbcConnectionUri
    * @return jdbcConnectionUri
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getJdbcConnectionUri() {
     return jdbcConnectionUri;
@@ -95,10 +95,10 @@ public class ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get jdbcUsername
    * @return jdbcUsername
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getJdbcUsername() {
     return jdbcUsername;
@@ -113,10 +113,10 @@ public class ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get jdbcPassword
    * @return jdbcPassword
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getJdbcPassword() {
     return jdbcPassword;
@@ -131,10 +131,10 @@ public class ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get jdbcValidationQuery
    * @return jdbcValidationQuery
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getJdbcValidationQuery() {
     return jdbcValidationQuery;
@@ -149,10 +149,10 @@ public class ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get defaultReadonly
    * @return defaultReadonly
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getDefaultReadonly() {
     return defaultReadonly;
@@ -167,10 +167,10 @@ public class ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get defaultAutocommit
    * @return defaultAutocommit
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getDefaultAutocommit() {
     return defaultAutocommit;
@@ -185,10 +185,10 @@ public class ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get poolSize
    * @return poolSize
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getPoolSize() {
     return poolSize;
@@ -203,10 +203,10 @@ public class ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get poolMaxWaitMsec
    * @return poolMaxWaitMsec
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getPoolMaxWaitMsec() {
     return poolMaxWaitMsec;
@@ -221,10 +221,10 @@ public class ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get datasourceName
    * @return datasourceName
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getDatasourceName() {
     return datasourceName;
@@ -239,10 +239,10 @@ public class ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get datasourceSvcProperties
    * @return datasourceSvcProperties
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getDatasourceSvcProperties() {
     return datasourceSvcProperties;
@@ -254,7 +254,7 @@ public class ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -304,11 +304,8 @@ public class ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

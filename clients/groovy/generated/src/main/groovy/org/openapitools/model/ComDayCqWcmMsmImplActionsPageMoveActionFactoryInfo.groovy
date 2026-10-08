@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqWcmMsmImplActionsPageMoveActionFactoryProp
 
 @Canonical
 class ComDayCqWcmMsmImplActionsPageMoveActionFactoryInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqWcmMsmImplActionsPageMoveActionFactoryProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqWcmMsmImplActionsPageMoveActionFactoryProperties properties
 }

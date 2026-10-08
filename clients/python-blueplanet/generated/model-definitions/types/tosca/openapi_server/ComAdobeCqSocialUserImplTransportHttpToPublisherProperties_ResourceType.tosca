@@ -1,0 +1,58 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqSocialUserImplTransportHttpToPublisherProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqSocialUserImplTransportHttpToPublisherProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComAdobeCqSocialUserImplTransportHttpToPublisherProperties {
+    title = ComAdobeCqSocialUserImplTransportHttpToPublisherProperties
+    description = ComAdobeCqSocialUserImplTransportHttpToPublisherProperties
+    derivedFrom = Root
+    properties {
+        enable {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        agent_configuration {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        context_path {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        disabled_cipher_suites {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        enabled_cipher_suites {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqSocialUserImplTransportHttpToPublisherProperties {
+    title = ComAdobeCqSocialUserImplTransportHttpToPublisherProperties
+    description = ComAdobeCqSocialUserImplTransportHttpToPublisherProperties
+    implements = openapi_server.resourceTypes.ComAdobeCqSocialUserImplTransportHttpToPublisherProperties
+
+  }
+}

@@ -72,9 +72,9 @@ private class OASComAdobeGraniteOptoutImplOptOutSeTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeGraniteOptoutImplOptOutSe comAdobeGraniteOptoutImplOptOutServiceImplProperties = new OASComAdobeGraniteOptoutImplOptOutSe();
-        Map<String, String> propertyMappings = comAdobeGraniteOptoutImplOptOutServiceImplProperties.getPropertyMappings();
-        System.assertEquals('optoutCookies', propertyMappings.get('optout.cookies'));
-        System.assertEquals('optoutHeaders', propertyMappings.get('optout.headers'));
-        System.assertEquals('optoutWhitelistCookies', propertyMappings.get('optout.whitelist.cookies'));
+        Map<String, String> x-property-mappings = comAdobeGraniteOptoutImplOptOutServiceImplProperties.getx-property-mappings();
+        System.assertEquals('optoutCookies', x-property-mappings.get('optout.cookies'));
+        System.assertEquals('optoutHeaders', x-property-mappings.get('optout.headers'));
+        System.assertEquals('optoutWhitelistCookies', x-property-mappings.get('optout.whitelist.cookies'));
     }
 }

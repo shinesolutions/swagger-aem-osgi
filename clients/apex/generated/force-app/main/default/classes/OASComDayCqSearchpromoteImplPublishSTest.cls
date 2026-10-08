@@ -72,7 +72,7 @@ private class OASComDayCqSearchpromoteImplPublishSTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqSearchpromoteImplPublishS comDayCqSearchpromoteImplPublishSearchPromoteConfigHandlerProperties = new OASComDayCqSearchpromoteImplPublishS();
-        Map<String, String> propertyMappings = comDayCqSearchpromoteImplPublishSearchPromoteConfigHandlerProperties.getPropertyMappings();
-        System.assertEquals('cqSearchpromoteConfighandlerEnabled', propertyMappings.get('cq.searchpromote.confighandler.enabled'));
+        Map<String, String> x-property-mappings = comDayCqSearchpromoteImplPublishSearchPromoteConfigHandlerProperties.getx-property-mappings();
+        System.assertEquals('cqSearchpromoteConfighandlerEnabled', x-property-mappings.get('cq.searchpromote.confighandler.enabled'));
     }
 }

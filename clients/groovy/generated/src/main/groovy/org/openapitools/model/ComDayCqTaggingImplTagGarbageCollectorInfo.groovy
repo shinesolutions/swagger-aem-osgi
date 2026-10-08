@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqTaggingImplTagGarbageCollectorProperties;
 
 @Canonical
 class ComDayCqTaggingImplTagGarbageCollectorInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqTaggingImplTagGarbageCollectorProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqTaggingImplTagGarbageCollectorProperties properties
 }

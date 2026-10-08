@@ -72,7 +72,7 @@ private class OASComAdobeCqSocialSiteImplAnalyticsTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeCqSocialSiteImplAnalytics comAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImProperties = new OASComAdobeCqSocialSiteImplAnalytics();
-        Map<String, String> propertyMappings = comAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImProperties.getPropertyMappings();
-        System.assertEquals('cqSocialConsoleAnalyticsComponents', propertyMappings.get('cq.social.console.analytics.components'));
+        Map<String, String> x-property-mappings = comAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImProperties.getx-property-mappings();
+        System.assertEquals('cqSocialConsoleAnalyticsComponents', x-property-mappings.get('cq.social.console.analytics.components'));
     }
 }

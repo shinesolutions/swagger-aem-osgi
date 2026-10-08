@@ -2,11 +2,11 @@
 # ComAdobeGraniteOptoutImplOptOutServiceImplProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**optoutPeriodcookies** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**optoutPeriodheaders** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**optoutPeriodwhitelistPeriodcookies** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **optoutCookies** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **optoutHeaders** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **optoutWhitelistCookies** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
 
 
 

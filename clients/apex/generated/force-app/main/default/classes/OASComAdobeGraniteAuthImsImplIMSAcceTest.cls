@@ -72,8 +72,8 @@ private class OASComAdobeGraniteAuthImsImplIMSAcceTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeGraniteAuthImsImplIMSAcce comAdobeGraniteAuthImsImplIMSAccessTokenRequestCustomizerImplProperties = new OASComAdobeGraniteAuthImsImplIMSAcce();
-        Map<String, String> propertyMappings = comAdobeGraniteAuthImsImplIMSAccessTokenRequestCustomizerImplProperties.getPropertyMappings();
-        System.assertEquals('authImsClientSecret', propertyMappings.get('auth.ims.client.secret'));
-        System.assertEquals('customizerType', propertyMappings.get('customizer.type'));
+        Map<String, String> x-property-mappings = comAdobeGraniteAuthImsImplIMSAccessTokenRequestCustomizerImplProperties.getx-property-mappings();
+        System.assertEquals('authImsClientSecret', x-property-mappings.get('auth.ims.client.secret'));
+        System.assertEquals('customizerType', x-property-mappings.get('customizer.type'));
     }
 }

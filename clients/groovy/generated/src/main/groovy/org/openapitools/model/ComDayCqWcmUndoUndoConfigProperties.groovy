@@ -10,22 +10,22 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqWcmUndoUndoConfigProperties {
-    ConfigNodePropertyBoolean cqWcmUndoEnabled = null
-
-    ConfigNodePropertyString cqWcmUndoPath = null
-
-    ConfigNodePropertyInteger cqWcmUndoValidity = null
-
-    ConfigNodePropertyInteger cqWcmUndoSteps = null
-
-    ConfigNodePropertyString cqWcmUndoPersistence = null
-
-    ConfigNodePropertyBoolean cqWcmUndoPersistenceMode = null
-
-    ConfigNodePropertyString cqWcmUndoMarkermode = null
-
-    ConfigNodePropertyArray cqWcmUndoWhitelist = null
-
-    ConfigNodePropertyArray cqWcmUndoBlacklist = null
-
+    
+    ConfigNodePropertyBoolean cqWcmUndoEnabled
+    
+    ConfigNodePropertyString cqWcmUndoPath
+    
+    ConfigNodePropertyInteger cqWcmUndoValidity
+    
+    ConfigNodePropertyInteger cqWcmUndoSteps
+    
+    ConfigNodePropertyString cqWcmUndoPersistence
+    
+    ConfigNodePropertyBoolean cqWcmUndoPersistenceMode
+    
+    ConfigNodePropertyString cqWcmUndoMarkermode
+    
+    ConfigNodePropertyArray cqWcmUndoWhitelist
+    
+    ConfigNodePropertyArray cqWcmUndoBlacklist
 }

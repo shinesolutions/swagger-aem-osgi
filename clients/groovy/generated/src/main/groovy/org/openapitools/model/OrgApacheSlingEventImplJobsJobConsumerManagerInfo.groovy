@@ -7,16 +7,16 @@ import org.openapitools.model.OrgApacheSlingEventImplJobsJobConsumerManagerPrope
 
 @Canonical
 class OrgApacheSlingEventImplJobsJobConsumerManagerInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheSlingEventImplJobsJobConsumerManagerProperties properties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheSlingEventImplJobsJobConsumerManagerProperties properties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

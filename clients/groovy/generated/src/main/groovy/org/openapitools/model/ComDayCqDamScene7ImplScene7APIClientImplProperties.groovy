@@ -7,8 +7,8 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class ComDayCqDamScene7ImplScene7APIClientImplProperties {
-    ConfigNodePropertyInteger cqDamScene7ApiclientRecordsperpageNofilterName = null
-
-    ConfigNodePropertyInteger cqDamScene7ApiclientRecordsperpageWithfilterName = null
-
+    
+    ConfigNodePropertyInteger cqDamScene7ApiclientRecordsperpageNofilterName
+    
+    ConfigNodePropertyInteger cqDamScene7ApiclientRecordsperpageWithfilterName
 }

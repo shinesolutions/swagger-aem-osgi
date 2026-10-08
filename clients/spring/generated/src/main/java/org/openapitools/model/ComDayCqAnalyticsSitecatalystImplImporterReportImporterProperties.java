@@ -1,27 +1,38 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyInteger;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComDayCqAnalyticsSitecatalystImplImporterReportImporterProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComDayCqAnalyticsSitecatalystImplImporterReportImporterProperties   {
-  @JsonProperty("report.fetch.attempts")
-  private ConfigNodePropertyInteger reportFetchAttempts = null;
+@JsonTypeName("comDayCqAnalyticsSitecatalystImplImporterReportImporterProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComDayCqAnalyticsSitecatalystImplImporterReportImporterProperties {
 
-  @JsonProperty("report.fetch.delay")
-  private ConfigNodePropertyInteger reportFetchDelay = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger reportFetchAttempts;
 
-  public ComDayCqAnalyticsSitecatalystImplImporterReportImporterProperties reportFetchAttempts(ConfigNodePropertyInteger reportFetchAttempts) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger reportFetchDelay;
+
+  public ComDayCqAnalyticsSitecatalystImplImporterReportImporterProperties reportFetchAttempts(@Nullable ConfigNodePropertyInteger reportFetchAttempts) {
     this.reportFetchAttempts = reportFetchAttempts;
     return this;
   }
@@ -29,20 +40,20 @@ public class ComDayCqAnalyticsSitecatalystImplImporterReportImporterProperties  
   /**
    * Get reportFetchAttempts
    * @return reportFetchAttempts
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getReportFetchAttempts() {
+   */
+  @Valid 
+  @Schema(name = "report.fetch.attempts", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("report.fetch.attempts")
+  public @Nullable ConfigNodePropertyInteger getReportFetchAttempts() {
     return reportFetchAttempts;
   }
 
-  public void setReportFetchAttempts(ConfigNodePropertyInteger reportFetchAttempts) {
+  @JsonProperty("report.fetch.attempts")
+  public void setReportFetchAttempts(@Nullable ConfigNodePropertyInteger reportFetchAttempts) {
     this.reportFetchAttempts = reportFetchAttempts;
   }
 
-  public ComDayCqAnalyticsSitecatalystImplImporterReportImporterProperties reportFetchDelay(ConfigNodePropertyInteger reportFetchDelay) {
+  public ComDayCqAnalyticsSitecatalystImplImporterReportImporterProperties reportFetchDelay(@Nullable ConfigNodePropertyInteger reportFetchDelay) {
     this.reportFetchDelay = reportFetchDelay;
     return this;
   }
@@ -50,22 +61,21 @@ public class ComDayCqAnalyticsSitecatalystImplImporterReportImporterProperties  
   /**
    * Get reportFetchDelay
    * @return reportFetchDelay
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getReportFetchDelay() {
+   */
+  @Valid 
+  @Schema(name = "report.fetch.delay", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("report.fetch.delay")
+  public @Nullable ConfigNodePropertyInteger getReportFetchDelay() {
     return reportFetchDelay;
   }
 
-  public void setReportFetchDelay(ConfigNodePropertyInteger reportFetchDelay) {
+  @JsonProperty("report.fetch.delay")
+  public void setReportFetchDelay(@Nullable ConfigNodePropertyInteger reportFetchDelay) {
     this.reportFetchDelay = reportFetchDelay;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -86,7 +96,6 @@ public class ComDayCqAnalyticsSitecatalystImplImporterReportImporterProperties  
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComDayCqAnalyticsSitecatalystImplImporterReportImporterProperties {\n");
-    
     sb.append("    reportFetchAttempts: ").append(toIndentedString(reportFetchAttempts)).append("\n");
     sb.append("    reportFetchDelay: ").append(toIndentedString(reportFetchDelay)).append("\n");
     sb.append("}");
@@ -97,11 +106,8 @@ public class ComDayCqAnalyticsSitecatalystImplImporterReportImporterProperties  
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

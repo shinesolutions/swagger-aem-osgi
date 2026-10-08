@@ -1,0 +1,36 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqReportingImplRLogAnalyzerProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqReportingImplRLogAnalyzerProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComDayCqReportingImplRLogAnalyzerProperties {
+    title = ComDayCqReportingImplRLogAnalyzerProperties
+    description = ComDayCqReportingImplRLogAnalyzerProperties
+    derivedFrom = Root
+    properties {
+        request_log_output {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqReportingImplRLogAnalyzerProperties {
+    title = ComDayCqReportingImplRLogAnalyzerProperties
+    description = ComDayCqReportingImplRLogAnalyzerProperties
+    implements = openapi_server.resourceTypes.ComDayCqReportingImplRLogAnalyzerProperties
+
+  }
+}

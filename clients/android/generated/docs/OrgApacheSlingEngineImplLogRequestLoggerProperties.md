@@ -1,7 +1,9 @@
 
+
 # OrgApacheSlingEngineImplLogRequestLoggerProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **requestLogOutput** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
@@ -10,6 +12,7 @@ Name | Type | Description | Notes
 **accessLogOutput** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
 **accessLogOutputtype** | [**ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md) |  |  [optional]
 **accessLogEnabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
+
 
 
 

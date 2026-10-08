@@ -72,8 +72,8 @@ private class OASComAdobeCqScheduledExporterImplScTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeCqScheduledExporterImplSc comAdobeCqScheduledExporterImplScheduledExporterImplProperties = new OASComAdobeCqScheduledExporterImplSc();
-        Map<String, String> propertyMappings = comAdobeCqScheduledExporterImplScheduledExporterImplProperties.getPropertyMappings();
-        System.assertEquals('includePaths', propertyMappings.get('include.paths'));
-        System.assertEquals('exporterUser', propertyMappings.get('exporter.user'));
+        Map<String, String> x-property-mappings = comAdobeCqScheduledExporterImplScheduledExporterImplProperties.getx-property-mappings();
+        System.assertEquals('includePaths', x-property-mappings.get('include.paths'));
+        System.assertEquals('exporterUser', x-property-mappings.get('exporter.user'));
     }
 }

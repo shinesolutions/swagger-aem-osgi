@@ -9,20 +9,20 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqMailerDefaultMailServiceProperties {
-    ConfigNodePropertyString smtpHost = null
-
-    ConfigNodePropertyInteger smtpPort = null
-
-    ConfigNodePropertyString smtpUser = null
-
-    ConfigNodePropertyString smtpPassword = null
-
-    ConfigNodePropertyString fromAddress = null
-
-    ConfigNodePropertyBoolean smtpSsl = null
-
-    ConfigNodePropertyBoolean smtpStarttls = null
-
-    ConfigNodePropertyBoolean debugEmail = null
-
+    
+    ConfigNodePropertyString smtpHost
+    
+    ConfigNodePropertyInteger smtpPort
+    
+    ConfigNodePropertyString smtpUser
+    
+    ConfigNodePropertyString smtpPassword
+    
+    ConfigNodePropertyString fromAddress
+    
+    ConfigNodePropertyBoolean smtpSsl
+    
+    ConfigNodePropertyBoolean smtpStarttls
+    
+    ConfigNodePropertyBoolean debugEmail
 }

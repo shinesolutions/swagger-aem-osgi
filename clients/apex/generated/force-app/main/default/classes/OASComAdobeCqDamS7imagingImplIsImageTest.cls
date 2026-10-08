@@ -72,12 +72,12 @@ private class OASComAdobeCqDamS7imagingImplIsImageTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeCqDamS7imagingImplIsImage comAdobeCqDamS7imagingImplIsImageServerComponentProperties = new OASComAdobeCqDamS7imagingImplIsImage();
-        Map<String, String> propertyMappings = comAdobeCqDamS7imagingImplIsImageServerComponentProperties.getPropertyMappings();
-        System.assertEquals('tcpPort', propertyMappings.get('TcpPort'));
-        System.assertEquals('allowRemoteAccess', propertyMappings.get('AllowRemoteAccess'));
-        System.assertEquals('maxRenderRgnPixels', propertyMappings.get('MaxRenderRgnPixels'));
-        System.assertEquals('maxMessageSize', propertyMappings.get('MaxMessageSize'));
-        System.assertEquals('randomAccessUrlTimeout', propertyMappings.get('RandomAccessUrlTimeout'));
-        System.assertEquals('workerThreads', propertyMappings.get('WorkerThreads'));
+        Map<String, String> x-property-mappings = comAdobeCqDamS7imagingImplIsImageServerComponentProperties.getx-property-mappings();
+        System.assertEquals('tcpPort', x-property-mappings.get('TcpPort'));
+        System.assertEquals('allowRemoteAccess', x-property-mappings.get('AllowRemoteAccess'));
+        System.assertEquals('maxRenderRgnPixels', x-property-mappings.get('MaxRenderRgnPixels'));
+        System.assertEquals('maxMessageSize', x-property-mappings.get('MaxMessageSize'));
+        System.assertEquals('randomAccessUrlTimeout', x-property-mappings.get('RandomAccessUrlTimeout'));
+        System.assertEquals('workerThreads', x-property-mappings.get('WorkerThreads'));
     }
 }

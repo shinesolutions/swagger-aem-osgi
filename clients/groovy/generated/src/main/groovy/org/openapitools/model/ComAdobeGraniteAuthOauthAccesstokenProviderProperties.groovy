@@ -10,32 +10,32 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeGraniteAuthOauthAccesstokenProviderProperties {
-    ConfigNodePropertyString name = null
-
-    ConfigNodePropertyString authTokenProviderTitle = null
-
-    ConfigNodePropertyArray authTokenProviderDefaultClaims = null
-
-    ConfigNodePropertyString authTokenProviderEndpoint = null
-
-    ConfigNodePropertyString authAccessTokenRequest = null
-
-    ConfigNodePropertyString authTokenProviderKeypairAlias = null
-
-    ConfigNodePropertyInteger authTokenProviderConnTimeout = null
-
-    ConfigNodePropertyInteger authTokenProviderSoTimeout = null
-
-    ConfigNodePropertyString authTokenProviderClientId = null
-
-    ConfigNodePropertyString authTokenProviderScope = null
-
-    ConfigNodePropertyBoolean authTokenProviderReuseAccessToken = null
-
-    ConfigNodePropertyBoolean authTokenProviderRelaxedSsl = null
-
-    ConfigNodePropertyString tokenRequestCustomizerType = null
-
-    ConfigNodePropertyString authTokenValidatorType = null
-
+    
+    ConfigNodePropertyString name
+    
+    ConfigNodePropertyString authTokenProviderTitle
+    
+    ConfigNodePropertyArray authTokenProviderDefaultClaims
+    
+    ConfigNodePropertyString authTokenProviderEndpoint
+    
+    ConfigNodePropertyString authAccessTokenRequest
+    
+    ConfigNodePropertyString authTokenProviderKeypairAlias
+    
+    ConfigNodePropertyInteger authTokenProviderConnTimeout
+    
+    ConfigNodePropertyInteger authTokenProviderSoTimeout
+    
+    ConfigNodePropertyString authTokenProviderClientId
+    
+    ConfigNodePropertyString authTokenProviderScope
+    
+    ConfigNodePropertyBoolean authTokenProviderReuseAccessToken
+    
+    ConfigNodePropertyBoolean authTokenProviderRelaxedSsl
+    
+    ConfigNodePropertyString tokenRequestCustomizerType
+    
+    ConfigNodePropertyString authTokenValidatorType
 }

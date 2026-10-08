@@ -7,16 +7,16 @@ import org.openapitools.model.ComDayCqWcmCoreStatsPageViewStatisticsImplProperti
 
 @Canonical
 class ComDayCqWcmCoreStatsPageViewStatisticsImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqWcmCoreStatsPageViewStatisticsImplProperties properties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqWcmCoreStatsPageViewStatisticsImplProperties properties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

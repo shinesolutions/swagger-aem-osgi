@@ -2,31 +2,32 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ComAdobeGraniteSecurityUserUserPropertiesServiceProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class ComAdobeGraniteSecurityUserUserPropertiesServiceInfo   {
   
-  private String pid = null;
+  private String pid;
 
-  private String title = null;
+  private String title;
 
-  private String description = null;
+  private String description;
 
-  private ComAdobeGraniteSecurityUserUserPropertiesServiceProperties properties = null;
+  private ComAdobeGraniteSecurityUserUserPropertiesServiceProperties properties;
 
-  private String bundleLocation = null;
+  private String bundleLocation;
 
-  private String serviceLocation = null;
-
+  private String serviceLocation;
 
   /**
    **/
@@ -138,7 +139,7 @@ public class ComAdobeGraniteSecurityUserUserPropertiesServiceInfo   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -146,12 +147,12 @@ public class ComAdobeGraniteSecurityUserUserPropertiesServiceInfo   {
       return false;
     }
     ComAdobeGraniteSecurityUserUserPropertiesServiceInfo comAdobeGraniteSecurityUserUserPropertiesServiceInfo = (ComAdobeGraniteSecurityUserUserPropertiesServiceInfo) o;
-    return Objects.equals(pid, comAdobeGraniteSecurityUserUserPropertiesServiceInfo.pid) &&
-        Objects.equals(title, comAdobeGraniteSecurityUserUserPropertiesServiceInfo.title) &&
-        Objects.equals(description, comAdobeGraniteSecurityUserUserPropertiesServiceInfo.description) &&
-        Objects.equals(properties, comAdobeGraniteSecurityUserUserPropertiesServiceInfo.properties) &&
-        Objects.equals(bundleLocation, comAdobeGraniteSecurityUserUserPropertiesServiceInfo.bundleLocation) &&
-        Objects.equals(serviceLocation, comAdobeGraniteSecurityUserUserPropertiesServiceInfo.serviceLocation);
+    return Objects.equals(this.pid, comAdobeGraniteSecurityUserUserPropertiesServiceInfo.pid) &&
+        Objects.equals(this.title, comAdobeGraniteSecurityUserUserPropertiesServiceInfo.title) &&
+        Objects.equals(this.description, comAdobeGraniteSecurityUserUserPropertiesServiceInfo.description) &&
+        Objects.equals(this.properties, comAdobeGraniteSecurityUserUserPropertiesServiceInfo.properties) &&
+        Objects.equals(this.bundleLocation, comAdobeGraniteSecurityUserUserPropertiesServiceInfo.bundleLocation) &&
+        Objects.equals(this.serviceLocation, comAdobeGraniteSecurityUserUserPropertiesServiceInfo.serviceLocation);
   }
 
   @Override
@@ -178,11 +179,8 @@ public class ComAdobeGraniteSecurityUserUserPropertiesServiceInfo   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

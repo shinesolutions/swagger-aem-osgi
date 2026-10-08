@@ -2,12 +2,12 @@
 # ComAdobeCqDamCfmImplComponentComponentConfigImplProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**damPeriodcfmPeriodcomponentPeriodresourceType** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**damPeriodcfmPeriodcomponentPeriodfileReferenceProp** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**damPeriodcfmPeriodcomponentPeriodelementsProp** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**damPeriodcfmPeriodcomponentPeriodvariationProp** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **damCfmComponentResourceType** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **damCfmComponentFileReferenceProp** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **damCfmComponentElementsProp** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **damCfmComponentVariationProp** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
 
 
 

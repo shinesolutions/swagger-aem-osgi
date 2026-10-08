@@ -4,30 +4,24 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ComDayCqReplicationImplReverseReplicatorProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2019-08-05T01:00:05.540Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2026-10-07T12:54:26.576036107Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqReplicationImplReverseReplicatorInfo   {
   
-
-  private String pid = null;
-
-  private String title = null;
-
-  private String description = null;
-
-  private ComDayCqReplicationImplReverseReplicatorProperties properties = null;
-
-  private String additionalProperties = null;
-
-  private String bundleLocation = null;
-
-  private String serviceLocation = null;
+  private String pid;
+  private String title;
+  private String description;
+  private ComDayCqReplicationImplReverseReplicatorProperties properties;
+  private String additionalProperties;
+  private String bundleLocation;
+  private String serviceLocation;
 
   /**
    **/
@@ -123,13 +117,13 @@ public class ComDayCqReplicationImplReverseReplicatorInfo   {
       return false;
     }
     ComDayCqReplicationImplReverseReplicatorInfo comDayCqReplicationImplReverseReplicatorInfo = (ComDayCqReplicationImplReverseReplicatorInfo) o;
-    return Objects.equals(pid, comDayCqReplicationImplReverseReplicatorInfo.pid) &&
-        Objects.equals(title, comDayCqReplicationImplReverseReplicatorInfo.title) &&
-        Objects.equals(description, comDayCqReplicationImplReverseReplicatorInfo.description) &&
-        Objects.equals(properties, comDayCqReplicationImplReverseReplicatorInfo.properties) &&
-        Objects.equals(additionalProperties, comDayCqReplicationImplReverseReplicatorInfo.additionalProperties) &&
-        Objects.equals(bundleLocation, comDayCqReplicationImplReverseReplicatorInfo.bundleLocation) &&
-        Objects.equals(serviceLocation, comDayCqReplicationImplReverseReplicatorInfo.serviceLocation);
+    return Objects.equals(this.pid, comDayCqReplicationImplReverseReplicatorInfo.pid) &&
+        Objects.equals(this.title, comDayCqReplicationImplReverseReplicatorInfo.title) &&
+        Objects.equals(this.description, comDayCqReplicationImplReverseReplicatorInfo.description) &&
+        Objects.equals(this.properties, comDayCqReplicationImplReverseReplicatorInfo.properties) &&
+        Objects.equals(this.additionalProperties, comDayCqReplicationImplReverseReplicatorInfo.additionalProperties) &&
+        Objects.equals(this.bundleLocation, comDayCqReplicationImplReverseReplicatorInfo.bundleLocation) &&
+        Objects.equals(this.serviceLocation, comDayCqReplicationImplReverseReplicatorInfo.serviceLocation);
   }
 
   @Override
@@ -158,10 +152,7 @@ public class ComDayCqReplicationImplReverseReplicatorInfo   {
    * (except the first line).
    */
   private String toIndentedString(Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

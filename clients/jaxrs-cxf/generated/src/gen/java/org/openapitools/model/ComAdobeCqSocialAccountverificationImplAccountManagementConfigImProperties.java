@@ -1,33 +1,35 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
 import io.swagger.annotations.ApiModelProperty;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlType;
-import javax.xml.bind.annotation.XmlEnum;
-import javax.xml.bind.annotation.XmlEnumValue;
+import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
 
 public class ComAdobeCqSocialAccountverificationImplAccountManagementConfigImProperties  {
   
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyBoolean enable = null;
+
+  private ConfigNodePropertyBoolean enable;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyInteger ttl1 = null;
+
+  private ConfigNodePropertyInteger ttl1;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyInteger ttl2 = null;
+
+  private ConfigNodePropertyInteger ttl2;
  /**
    * Get enable
    * @return enable
@@ -82,6 +84,24 @@ public class ComAdobeCqSocialAccountverificationImplAccountManagementConfigImPro
     return this;
   }
 
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    ComAdobeCqSocialAccountverificationImplAccountManagementConfigImProperties comAdobeCqSocialAccountverificationImplAccountManagementConfigImProperties = (ComAdobeCqSocialAccountverificationImplAccountManagementConfigImProperties) o;
+    return Objects.equals(this.enable, comAdobeCqSocialAccountverificationImplAccountManagementConfigImProperties.enable) &&
+        Objects.equals(this.ttl1, comAdobeCqSocialAccountverificationImplAccountManagementConfigImProperties.ttl1) &&
+        Objects.equals(this.ttl2, comAdobeCqSocialAccountverificationImplAccountManagementConfigImProperties.ttl2);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(enable, ttl1, ttl2);
+  }
 
   @Override
   public String toString() {
@@ -99,11 +119,8 @@ public class ComAdobeCqSocialAccountverificationImplAccountManagementConfigImPro
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private static String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -2,27 +2,28 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenInfo   {
   
-  private String pid = null;
+  private String pid;
 
-  private String title = null;
+  private String title;
 
-  private String description = null;
+  private String description;
 
-  private ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenProperties properties = null;
-
+  private ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenProperties properties;
 
   /**
    **/
@@ -98,7 +99,7 @@ public class ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenInfo
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -106,10 +107,10 @@ public class ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenInfo
       return false;
     }
     ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenInfo comAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenInfo = (ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenInfo) o;
-    return Objects.equals(pid, comAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenInfo.pid) &&
-        Objects.equals(title, comAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenInfo.title) &&
-        Objects.equals(description, comAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenInfo.description) &&
-        Objects.equals(properties, comAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenInfo.properties);
+    return Objects.equals(this.pid, comAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenInfo.pid) &&
+        Objects.equals(this.title, comAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenInfo.title) &&
+        Objects.equals(this.description, comAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenInfo.description) &&
+        Objects.equals(this.properties, comAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenInfo.properties);
   }
 
   @Override
@@ -134,11 +135,8 @@ public class ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenInfo
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

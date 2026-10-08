@@ -5,25 +5,23 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
 
 import io.swagger.annotations.ApiModelProperty;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlType;
-import javax.xml.bind.annotation.XmlEnum;
-import javax.xml.bind.annotation.XmlEnumValue;
+import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
 
 public class OrgApacheSlingI18nImplJcrResourceBundleProviderProperties  {
   
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString localeDefault = null;
+
+  private ConfigNodePropertyString localeDefault;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyBoolean preloadBundles = null;
+
+  private ConfigNodePropertyBoolean preloadBundles;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyInteger invalidationDelay = null;
+
+  private ConfigNodePropertyInteger invalidationDelay;
  /**
    * Get localeDefault
    * @return localeDefault
@@ -78,6 +76,24 @@ public class OrgApacheSlingI18nImplJcrResourceBundleProviderProperties  {
     return this;
   }
 
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    OrgApacheSlingI18nImplJcrResourceBundleProviderProperties orgApacheSlingI18nImplJcrResourceBundleProviderProperties = (OrgApacheSlingI18nImplJcrResourceBundleProviderProperties) o;
+    return Objects.equals(this.localeDefault, orgApacheSlingI18nImplJcrResourceBundleProviderProperties.localeDefault) &&
+        Objects.equals(this.preloadBundles, orgApacheSlingI18nImplJcrResourceBundleProviderProperties.preloadBundles) &&
+        Objects.equals(this.invalidationDelay, orgApacheSlingI18nImplJcrResourceBundleProviderProperties.invalidationDelay);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(localeDefault, preloadBundles, invalidationDelay);
+  }
 
   @Override
   public String toString() {
@@ -95,11 +111,8 @@ public class OrgApacheSlingI18nImplJcrResourceBundleProviderProperties  {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private static String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

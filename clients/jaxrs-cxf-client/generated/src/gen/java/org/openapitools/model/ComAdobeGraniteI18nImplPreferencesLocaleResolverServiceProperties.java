@@ -3,19 +3,15 @@ package org.openapitools.model;
 import org.openapitools.model.ConfigNodePropertyString;
 
 import io.swagger.annotations.ApiModelProperty;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlType;
-import javax.xml.bind.annotation.XmlEnum;
-import javax.xml.bind.annotation.XmlEnumValue;
+import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
 
 public class ComAdobeGraniteI18nImplPreferencesLocaleResolverServiceProperties  {
   
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString securityPreferencesName = null;
+
+  private ConfigNodePropertyString securityPreferencesName;
  /**
    * Get securityPreferencesName
    * @return securityPreferencesName
@@ -34,6 +30,22 @@ public class ComAdobeGraniteI18nImplPreferencesLocaleResolverServiceProperties  
     return this;
   }
 
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    ComAdobeGraniteI18nImplPreferencesLocaleResolverServiceProperties comAdobeGraniteI18nImplPreferencesLocaleResolverServiceProperties = (ComAdobeGraniteI18nImplPreferencesLocaleResolverServiceProperties) o;
+    return Objects.equals(this.securityPreferencesName, comAdobeGraniteI18nImplPreferencesLocaleResolverServiceProperties.securityPreferencesName);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(securityPreferencesName);
+  }
 
   @Override
   public String toString() {
@@ -49,11 +61,8 @@ public class ComAdobeGraniteI18nImplPreferencesLocaleResolverServiceProperties  
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private static String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

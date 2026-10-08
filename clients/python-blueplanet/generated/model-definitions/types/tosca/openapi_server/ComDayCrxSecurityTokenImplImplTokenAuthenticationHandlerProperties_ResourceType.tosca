@@ -1,0 +1,59 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyDropDown = openapi_server.resourceTypes.ConfigNodePropertyDropDown
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerProperties {
+    title = ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerProperties
+    description = ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerProperties
+    derivedFrom = Root
+    properties {
+        path {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        token_required_attr {
+          type = ConfigNodePropertyDropDown
+          description = ""
+          optional = false
+        }
+        token_alternate_url {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        token_encapsulated {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        skip_token_refresh {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerProperties {
+    title = ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerProperties
+    description = ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerProperties
+    implements = openapi_server.resourceTypes.ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerProperties
+
+  }
+}

@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqPersonalizationImplServletsTargetingConfigurationServletInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqPersonalizationImplServletsTargetingConfigurationServletInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComDayCqPersonalizationImplServletsTargetingConfigurationServletProperties = openapi_server.resourceTypes.ComDayCqPersonalizationImplServletsTargetingConfigurationServletProperties
+}
+resourceTypes {
+
+  ComDayCqPersonalizationImplServletsTargetingConfigurationServletInfo {
+    title = ComDayCqPersonalizationImplServletsTargetingConfigurationServletInfo
+    description = ComDayCqPersonalizationImplServletsTargetingConfigurationServletInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComDayCqPersonalizationImplServletsTargetingConfigurationServletProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqPersonalizationImplServletsTargetingConfigurationServletInfo {
+    title = ComDayCqPersonalizationImplServletsTargetingConfigurationServletInfo
+    description = ComDayCqPersonalizationImplServletsTargetingConfigurationServletInfo
+    implements = openapi_server.resourceTypes.ComDayCqPersonalizationImplServletsTargetingConfigurationServletInfo
+
+  }
+}

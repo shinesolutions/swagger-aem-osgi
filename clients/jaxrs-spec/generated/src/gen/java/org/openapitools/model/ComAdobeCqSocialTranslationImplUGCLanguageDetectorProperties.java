@@ -1,27 +1,38 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comAdobeCqSocialTranslationImplUGCLanguageDetectorProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties   {
-  
-  private @Valid ConfigNodePropertyString eventTopics = null;
-  private @Valid ConfigNodePropertyString eventFilter = null;
-  private @Valid ConfigNodePropertyArray translateListenerType = null;
-  private @Valid ConfigNodePropertyArray translatePropertyList = null;
-  private @Valid ConfigNodePropertyInteger poolSize = null;
-  private @Valid ConfigNodePropertyInteger maxPoolSize = null;
-  private @Valid ConfigNodePropertyInteger queueSize = null;
-  private @Valid ConfigNodePropertyInteger keepAliveTime = null;
+  private ConfigNodePropertyString eventTopics;
+  private ConfigNodePropertyString eventFilter;
+  private ConfigNodePropertyArray translateListenerType;
+  private ConfigNodePropertyArray translatePropertyList;
+  private ConfigNodePropertyInteger poolSize;
+  private ConfigNodePropertyInteger maxPoolSize;
+  private ConfigNodePropertyInteger queueSize;
+  private ConfigNodePropertyInteger keepAliveTime;
+
+  public ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties() {
+  }
 
   /**
    **/
@@ -33,9 +44,11 @@ public class ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("event.topics")
-  public ConfigNodePropertyString getEventTopics() {
+  @Valid public ConfigNodePropertyString getEventTopics() {
     return eventTopics;
   }
+
+  @JsonProperty("event.topics")
   public void setEventTopics(ConfigNodePropertyString eventTopics) {
     this.eventTopics = eventTopics;
   }
@@ -50,9 +63,11 @@ public class ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("event.filter")
-  public ConfigNodePropertyString getEventFilter() {
+  @Valid public ConfigNodePropertyString getEventFilter() {
     return eventFilter;
   }
+
+  @JsonProperty("event.filter")
   public void setEventFilter(ConfigNodePropertyString eventFilter) {
     this.eventFilter = eventFilter;
   }
@@ -67,9 +82,11 @@ public class ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("translate.listener.type")
-  public ConfigNodePropertyArray getTranslateListenerType() {
+  @Valid public ConfigNodePropertyArray getTranslateListenerType() {
     return translateListenerType;
   }
+
+  @JsonProperty("translate.listener.type")
   public void setTranslateListenerType(ConfigNodePropertyArray translateListenerType) {
     this.translateListenerType = translateListenerType;
   }
@@ -84,9 +101,11 @@ public class ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("translate.property.list")
-  public ConfigNodePropertyArray getTranslatePropertyList() {
+  @Valid public ConfigNodePropertyArray getTranslatePropertyList() {
     return translatePropertyList;
   }
+
+  @JsonProperty("translate.property.list")
   public void setTranslatePropertyList(ConfigNodePropertyArray translatePropertyList) {
     this.translatePropertyList = translatePropertyList;
   }
@@ -101,9 +120,11 @@ public class ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("poolSize")
-  public ConfigNodePropertyInteger getPoolSize() {
+  @Valid public ConfigNodePropertyInteger getPoolSize() {
     return poolSize;
   }
+
+  @JsonProperty("poolSize")
   public void setPoolSize(ConfigNodePropertyInteger poolSize) {
     this.poolSize = poolSize;
   }
@@ -118,9 +139,11 @@ public class ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("maxPoolSize")
-  public ConfigNodePropertyInteger getMaxPoolSize() {
+  @Valid public ConfigNodePropertyInteger getMaxPoolSize() {
     return maxPoolSize;
   }
+
+  @JsonProperty("maxPoolSize")
   public void setMaxPoolSize(ConfigNodePropertyInteger maxPoolSize) {
     this.maxPoolSize = maxPoolSize;
   }
@@ -135,9 +158,11 @@ public class ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("queueSize")
-  public ConfigNodePropertyInteger getQueueSize() {
+  @Valid public ConfigNodePropertyInteger getQueueSize() {
     return queueSize;
   }
+
+  @JsonProperty("queueSize")
   public void setQueueSize(ConfigNodePropertyInteger queueSize) {
     this.queueSize = queueSize;
   }
@@ -152,16 +177,18 @@ public class ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("keepAliveTime")
-  public ConfigNodePropertyInteger getKeepAliveTime() {
+  @Valid public ConfigNodePropertyInteger getKeepAliveTime() {
     return keepAliveTime;
   }
+
+  @JsonProperty("keepAliveTime")
   public void setKeepAliveTime(ConfigNodePropertyInteger keepAliveTime) {
     this.keepAliveTime = keepAliveTime;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -169,14 +196,14 @@ public class ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties   {
       return false;
     }
     ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties comAdobeCqSocialTranslationImplUGCLanguageDetectorProperties = (ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties) o;
-    return Objects.equals(eventTopics, comAdobeCqSocialTranslationImplUGCLanguageDetectorProperties.eventTopics) &&
-        Objects.equals(eventFilter, comAdobeCqSocialTranslationImplUGCLanguageDetectorProperties.eventFilter) &&
-        Objects.equals(translateListenerType, comAdobeCqSocialTranslationImplUGCLanguageDetectorProperties.translateListenerType) &&
-        Objects.equals(translatePropertyList, comAdobeCqSocialTranslationImplUGCLanguageDetectorProperties.translatePropertyList) &&
-        Objects.equals(poolSize, comAdobeCqSocialTranslationImplUGCLanguageDetectorProperties.poolSize) &&
-        Objects.equals(maxPoolSize, comAdobeCqSocialTranslationImplUGCLanguageDetectorProperties.maxPoolSize) &&
-        Objects.equals(queueSize, comAdobeCqSocialTranslationImplUGCLanguageDetectorProperties.queueSize) &&
-        Objects.equals(keepAliveTime, comAdobeCqSocialTranslationImplUGCLanguageDetectorProperties.keepAliveTime);
+    return Objects.equals(this.eventTopics, comAdobeCqSocialTranslationImplUGCLanguageDetectorProperties.eventTopics) &&
+        Objects.equals(this.eventFilter, comAdobeCqSocialTranslationImplUGCLanguageDetectorProperties.eventFilter) &&
+        Objects.equals(this.translateListenerType, comAdobeCqSocialTranslationImplUGCLanguageDetectorProperties.translateListenerType) &&
+        Objects.equals(this.translatePropertyList, comAdobeCqSocialTranslationImplUGCLanguageDetectorProperties.translatePropertyList) &&
+        Objects.equals(this.poolSize, comAdobeCqSocialTranslationImplUGCLanguageDetectorProperties.poolSize) &&
+        Objects.equals(this.maxPoolSize, comAdobeCqSocialTranslationImplUGCLanguageDetectorProperties.maxPoolSize) &&
+        Objects.equals(this.queueSize, comAdobeCqSocialTranslationImplUGCLanguageDetectorProperties.queueSize) &&
+        Objects.equals(this.keepAliveTime, comAdobeCqSocialTranslationImplUGCLanguageDetectorProperties.keepAliveTime);
   }
 
   @Override
@@ -205,11 +232,9 @@ public class ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

@@ -1,0 +1,20 @@
+# ComAdobeCqScreensImplScreensChannelPostProcessorProperties
+
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**screens_channels_properties_to_remove** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] [default to undefined]
+
+## Example
+
+```typescript
+import { ComAdobeCqScreensImplScreensChannelPostProcessorProperties } from './api';
+
+const instance: ComAdobeCqScreensImplScreensChannelPostProcessorProperties = {
+    screens_channels_properties_to_remove,
+};
+```
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)

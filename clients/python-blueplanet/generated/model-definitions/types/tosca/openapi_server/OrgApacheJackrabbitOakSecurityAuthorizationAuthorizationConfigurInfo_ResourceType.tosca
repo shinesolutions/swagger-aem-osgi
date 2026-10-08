@@ -1,0 +1,61 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurProperties = openapi_server.resourceTypes.OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurProperties
+}
+resourceTypes {
+
+  OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurInfo {
+    title = OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurInfo
+    description = OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurProperties
+          description = ""
+          optional = false
+        }
+        bundle_location {
+          type =  string
+          description = ""
+          optional = false
+        }
+        service_location {
+          type =  string
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurInfo {
+    title = OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurInfo
+    description = OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurInfo
+    implements = openapi_server.resourceTypes.OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurInfo
+
+  }
+}

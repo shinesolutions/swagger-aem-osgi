@@ -3,41 +3,58 @@ package apimodels;
 import apimodels.ConfigNodePropertyBoolean;
 import apimodels.ConfigNodePropertyDropDown;
 import apimodels.ConfigNodePropertyString;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerProperties   {
   @JsonProperty("translate.language")
-  private ConfigNodePropertyDropDown translateLanguage = null;
+  @Valid
+
+  private ConfigNodePropertyDropDown translateLanguage;
 
   @JsonProperty("translate.display")
-  private ConfigNodePropertyDropDown translateDisplay = null;
+  @Valid
+
+  private ConfigNodePropertyDropDown translateDisplay;
 
   @JsonProperty("translate.attribution")
-  private ConfigNodePropertyBoolean translateAttribution = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean translateAttribution;
 
   @JsonProperty("translate.caching")
-  private ConfigNodePropertyDropDown translateCaching = null;
+  @Valid
+
+  private ConfigNodePropertyDropDown translateCaching;
 
   @JsonProperty("translate.smart.rendering")
-  private ConfigNodePropertyDropDown translateSmartRendering = null;
+  @Valid
+
+  private ConfigNodePropertyDropDown translateSmartRendering;
 
   @JsonProperty("translate.caching.duration")
-  private ConfigNodePropertyString translateCachingDuration = null;
+  @Valid
+
+  private ConfigNodePropertyString translateCachingDuration;
 
   @JsonProperty("translate.session.save.interval")
-  private ConfigNodePropertyString translateSessionSaveInterval = null;
+  @Valid
+
+  private ConfigNodePropertyString translateSessionSaveInterval;
 
   @JsonProperty("translate.session.save.batchLimit")
-  private ConfigNodePropertyString translateSessionSaveBatchLimit = null;
+  @Valid
+
+  private ConfigNodePropertyString translateSessionSaveBatchLimit;
 
   public ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerProperties translateLanguage(ConfigNodePropertyDropDown translateLanguage) {
     this.translateLanguage = translateLanguage;
@@ -48,7 +65,6 @@ public class ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerPrope
    * Get translateLanguage
    * @return translateLanguage
   **/
-  @Valid
   public ConfigNodePropertyDropDown getTranslateLanguage() {
     return translateLanguage;
   }
@@ -66,7 +82,6 @@ public class ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerPrope
    * Get translateDisplay
    * @return translateDisplay
   **/
-  @Valid
   public ConfigNodePropertyDropDown getTranslateDisplay() {
     return translateDisplay;
   }
@@ -84,7 +99,6 @@ public class ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerPrope
    * Get translateAttribution
    * @return translateAttribution
   **/
-  @Valid
   public ConfigNodePropertyBoolean getTranslateAttribution() {
     return translateAttribution;
   }
@@ -102,7 +116,6 @@ public class ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerPrope
    * Get translateCaching
    * @return translateCaching
   **/
-  @Valid
   public ConfigNodePropertyDropDown getTranslateCaching() {
     return translateCaching;
   }
@@ -120,7 +133,6 @@ public class ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerPrope
    * Get translateSmartRendering
    * @return translateSmartRendering
   **/
-  @Valid
   public ConfigNodePropertyDropDown getTranslateSmartRendering() {
     return translateSmartRendering;
   }
@@ -138,7 +150,6 @@ public class ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerPrope
    * Get translateCachingDuration
    * @return translateCachingDuration
   **/
-  @Valid
   public ConfigNodePropertyString getTranslateCachingDuration() {
     return translateCachingDuration;
   }
@@ -156,7 +167,6 @@ public class ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerPrope
    * Get translateSessionSaveInterval
    * @return translateSessionSaveInterval
   **/
-  @Valid
   public ConfigNodePropertyString getTranslateSessionSaveInterval() {
     return translateSessionSaveInterval;
   }
@@ -174,7 +184,6 @@ public class ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerPrope
    * Get translateSessionSaveBatchLimit
    * @return translateSessionSaveBatchLimit
   **/
-  @Valid
   public ConfigNodePropertyString getTranslateSessionSaveBatchLimit() {
     return translateSessionSaveBatchLimit;
   }
@@ -185,7 +194,7 @@ public class ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerPrope
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -230,11 +239,8 @@ public class ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerPrope
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

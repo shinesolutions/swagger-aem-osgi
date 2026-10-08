@@ -2,27 +2,28 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ComAdobeGraniteBundlesHcImplSlingReferrerFilterHealthCheckProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class ComAdobeGraniteBundlesHcImplSlingReferrerFilterHealthCheckInfo   {
   
-  private String pid = null;
+  private String pid;
 
-  private String title = null;
+  private String title;
 
-  private String description = null;
+  private String description;
 
-  private ComAdobeGraniteBundlesHcImplSlingReferrerFilterHealthCheckProperties properties = null;
-
+  private ComAdobeGraniteBundlesHcImplSlingReferrerFilterHealthCheckProperties properties;
 
   /**
    **/
@@ -98,7 +99,7 @@ public class ComAdobeGraniteBundlesHcImplSlingReferrerFilterHealthCheckInfo   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -106,10 +107,10 @@ public class ComAdobeGraniteBundlesHcImplSlingReferrerFilterHealthCheckInfo   {
       return false;
     }
     ComAdobeGraniteBundlesHcImplSlingReferrerFilterHealthCheckInfo comAdobeGraniteBundlesHcImplSlingReferrerFilterHealthCheckInfo = (ComAdobeGraniteBundlesHcImplSlingReferrerFilterHealthCheckInfo) o;
-    return Objects.equals(pid, comAdobeGraniteBundlesHcImplSlingReferrerFilterHealthCheckInfo.pid) &&
-        Objects.equals(title, comAdobeGraniteBundlesHcImplSlingReferrerFilterHealthCheckInfo.title) &&
-        Objects.equals(description, comAdobeGraniteBundlesHcImplSlingReferrerFilterHealthCheckInfo.description) &&
-        Objects.equals(properties, comAdobeGraniteBundlesHcImplSlingReferrerFilterHealthCheckInfo.properties);
+    return Objects.equals(this.pid, comAdobeGraniteBundlesHcImplSlingReferrerFilterHealthCheckInfo.pid) &&
+        Objects.equals(this.title, comAdobeGraniteBundlesHcImplSlingReferrerFilterHealthCheckInfo.title) &&
+        Objects.equals(this.description, comAdobeGraniteBundlesHcImplSlingReferrerFilterHealthCheckInfo.description) &&
+        Objects.equals(this.properties, comAdobeGraniteBundlesHcImplSlingReferrerFilterHealthCheckInfo.properties);
   }
 
   @Override
@@ -134,11 +135,8 @@ public class ComAdobeGraniteBundlesHcImplSlingReferrerFilterHealthCheckInfo   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

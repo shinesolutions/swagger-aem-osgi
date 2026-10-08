@@ -1,28 +1,39 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComAdobeCqCommerceImplAssetDynamicImageHandlerProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComAdobeCqCommerceImplAssetDynamicImageHandlerProperties   {
-  @JsonProperty("cq.commerce.asset.handler.active")
-  private ConfigNodePropertyBoolean cqCommerceAssetHandlerActive = null;
+@JsonTypeName("comAdobeCqCommerceImplAssetDynamicImageHandlerProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComAdobeCqCommerceImplAssetDynamicImageHandlerProperties {
 
-  @JsonProperty("cq.commerce.asset.handler.name")
-  private ConfigNodePropertyString cqCommerceAssetHandlerName = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean cqCommerceAssetHandlerActive;
 
-  public ComAdobeCqCommerceImplAssetDynamicImageHandlerProperties cqCommerceAssetHandlerActive(ConfigNodePropertyBoolean cqCommerceAssetHandlerActive) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString cqCommerceAssetHandlerName;
+
+  public ComAdobeCqCommerceImplAssetDynamicImageHandlerProperties cqCommerceAssetHandlerActive(@Nullable ConfigNodePropertyBoolean cqCommerceAssetHandlerActive) {
     this.cqCommerceAssetHandlerActive = cqCommerceAssetHandlerActive;
     return this;
   }
@@ -30,20 +41,20 @@ public class ComAdobeCqCommerceImplAssetDynamicImageHandlerProperties   {
   /**
    * Get cqCommerceAssetHandlerActive
    * @return cqCommerceAssetHandlerActive
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getCqCommerceAssetHandlerActive() {
+   */
+  @Valid 
+  @Schema(name = "cq.commerce.asset.handler.active", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cq.commerce.asset.handler.active")
+  public @Nullable ConfigNodePropertyBoolean getCqCommerceAssetHandlerActive() {
     return cqCommerceAssetHandlerActive;
   }
 
-  public void setCqCommerceAssetHandlerActive(ConfigNodePropertyBoolean cqCommerceAssetHandlerActive) {
+  @JsonProperty("cq.commerce.asset.handler.active")
+  public void setCqCommerceAssetHandlerActive(@Nullable ConfigNodePropertyBoolean cqCommerceAssetHandlerActive) {
     this.cqCommerceAssetHandlerActive = cqCommerceAssetHandlerActive;
   }
 
-  public ComAdobeCqCommerceImplAssetDynamicImageHandlerProperties cqCommerceAssetHandlerName(ConfigNodePropertyString cqCommerceAssetHandlerName) {
+  public ComAdobeCqCommerceImplAssetDynamicImageHandlerProperties cqCommerceAssetHandlerName(@Nullable ConfigNodePropertyString cqCommerceAssetHandlerName) {
     this.cqCommerceAssetHandlerName = cqCommerceAssetHandlerName;
     return this;
   }
@@ -51,22 +62,21 @@ public class ComAdobeCqCommerceImplAssetDynamicImageHandlerProperties   {
   /**
    * Get cqCommerceAssetHandlerName
    * @return cqCommerceAssetHandlerName
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getCqCommerceAssetHandlerName() {
+   */
+  @Valid 
+  @Schema(name = "cq.commerce.asset.handler.name", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cq.commerce.asset.handler.name")
+  public @Nullable ConfigNodePropertyString getCqCommerceAssetHandlerName() {
     return cqCommerceAssetHandlerName;
   }
 
-  public void setCqCommerceAssetHandlerName(ConfigNodePropertyString cqCommerceAssetHandlerName) {
+  @JsonProperty("cq.commerce.asset.handler.name")
+  public void setCqCommerceAssetHandlerName(@Nullable ConfigNodePropertyString cqCommerceAssetHandlerName) {
     this.cqCommerceAssetHandlerName = cqCommerceAssetHandlerName;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -87,7 +97,6 @@ public class ComAdobeCqCommerceImplAssetDynamicImageHandlerProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComAdobeCqCommerceImplAssetDynamicImageHandlerProperties {\n");
-    
     sb.append("    cqCommerceAssetHandlerActive: ").append(toIndentedString(cqCommerceAssetHandlerActive)).append("\n");
     sb.append("    cqCommerceAssetHandlerName: ").append(toIndentedString(cqCommerceAssetHandlerName)).append("\n");
     sb.append("}");
@@ -98,11 +107,8 @@ public class ComAdobeCqCommerceImplAssetDynamicImageHandlerProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

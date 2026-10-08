@@ -2,18 +2,19 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**operation** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
-**email_enabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **operation** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] |
+| **email_enabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigProperties.new(operation: null,
-                                 email_enabled: null)
+instance = SwaggerAemOsgiClient::ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigProperties.new(
+  operation: null,
+  email_enabled: null
+)
 ```
-
 

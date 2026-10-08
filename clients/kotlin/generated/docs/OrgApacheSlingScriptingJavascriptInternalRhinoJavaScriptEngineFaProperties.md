@@ -2,9 +2,9 @@
 # OrgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFaProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**orgPeriodapachePeriodslingPeriodscriptingPeriodjavascriptPeriodrhinoPeriodoptLevel** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **orgApacheSlingScriptingJavascriptRhinoOptLevel** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
 
 
 

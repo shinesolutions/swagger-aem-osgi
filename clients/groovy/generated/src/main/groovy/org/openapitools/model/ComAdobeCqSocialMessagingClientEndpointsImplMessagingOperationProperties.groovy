@@ -10,44 +10,44 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties {
-    ConfigNodePropertyArray messageProperties = null
-
-    ConfigNodePropertyInteger messageBoxSizeLimit = null
-
-    ConfigNodePropertyInteger messageCountLimit = null
-
-    ConfigNodePropertyBoolean notifyFailure = null
-
-    ConfigNodePropertyString failureMessageFrom = null
-
-    ConfigNodePropertyString failureTemplatePath = null
-
-    ConfigNodePropertyInteger maxRetries = null
-
-    ConfigNodePropertyInteger minWaitBetweenRetries = null
-
-    ConfigNodePropertyInteger countUpdatePoolSize = null
-
-    ConfigNodePropertyString inboxPath = null
-
-    ConfigNodePropertyString sentitemsPath = null
-
-    ConfigNodePropertyBoolean supportAttachments = null
-
-    ConfigNodePropertyBoolean supportGroupMessaging = null
-
-    ConfigNodePropertyInteger maxTotalRecipients = null
-
-    ConfigNodePropertyInteger batchSize = null
-
-    ConfigNodePropertyInteger maxTotalAttachmentSize = null
-
-    ConfigNodePropertyArray attachmentTypeBlacklist = null
-
-    ConfigNodePropertyArray allowedAttachmentTypes = null
-
-    ConfigNodePropertyString serviceSelector = null
-
-    ConfigNodePropertyArray fieldWhitelist = null
-
+    
+    ConfigNodePropertyArray messageProperties
+    
+    ConfigNodePropertyInteger messageBoxSizeLimit
+    
+    ConfigNodePropertyInteger messageCountLimit
+    
+    ConfigNodePropertyBoolean notifyFailure
+    
+    ConfigNodePropertyString failureMessageFrom
+    
+    ConfigNodePropertyString failureTemplatePath
+    
+    ConfigNodePropertyInteger maxRetries
+    
+    ConfigNodePropertyInteger minWaitBetweenRetries
+    
+    ConfigNodePropertyInteger countUpdatePoolSize
+    
+    ConfigNodePropertyString inboxPath
+    
+    ConfigNodePropertyString sentitemsPath
+    
+    ConfigNodePropertyBoolean supportAttachments
+    
+    ConfigNodePropertyBoolean supportGroupMessaging
+    
+    ConfigNodePropertyInteger maxTotalRecipients
+    
+    ConfigNodePropertyInteger batchSize
+    
+    ConfigNodePropertyInteger maxTotalAttachmentSize
+    
+    ConfigNodePropertyArray attachmentTypeBlacklist
+    
+    ConfigNodePropertyArray allowedAttachmentTypes
+    
+    ConfigNodePropertyString serviceSelector
+    
+    ConfigNodePropertyArray fieldWhitelist
 }

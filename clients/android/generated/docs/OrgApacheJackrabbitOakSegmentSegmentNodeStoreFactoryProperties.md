@@ -1,7 +1,9 @@
 
+
 # OrgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **repositoryHome** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
@@ -31,6 +33,7 @@ Name | Type | Description | Notes
 **role** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
 **registerDescriptors** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
 **dispatchChanges** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
+
 
 
 

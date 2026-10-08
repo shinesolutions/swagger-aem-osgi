@@ -2,24 +2,25 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**cq_analytics_testandtarget_api_url** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
-**cq_analytics_testandtarget_timeout** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  | [optional] 
-**cq_analytics_testandtarget_sockettimeout** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  | [optional] 
-**cq_analytics_testandtarget_recommendations_url_replace** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
-**cq_analytics_testandtarget_recommendations_url_replacewith** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **cq_analytics_testandtarget_api_url** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] |
+| **cq_analytics_testandtarget_timeout** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  | [optional] |
+| **cq_analytics_testandtarget_sockettimeout** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  | [optional] |
+| **cq_analytics_testandtarget_recommendations_url_replace** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] |
+| **cq_analytics_testandtarget_recommendations_url_replacewith** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplProperties.new(cq_analytics_testandtarget_api_url: null,
-                                 cq_analytics_testandtarget_timeout: null,
-                                 cq_analytics_testandtarget_sockettimeout: null,
-                                 cq_analytics_testandtarget_recommendations_url_replace: null,
-                                 cq_analytics_testandtarget_recommendations_url_replacewith: null)
+instance = SwaggerAemOsgiClient::ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplProperties.new(
+  cq_analytics_testandtarget_api_url: null,
+  cq_analytics_testandtarget_timeout: null,
+  cq_analytics_testandtarget_sockettimeout: null,
+  cq_analytics_testandtarget_recommendations_url_replace: null,
+  cq_analytics_testandtarget_recommendations_url_replacewith: null
+)
 ```
-
 

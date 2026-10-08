@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqSocialScfCoreOperationsImplSocialOperati
 
 @Canonical
 class ComAdobeCqSocialScfCoreOperationsImplSocialOperationsServletInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqSocialScfCoreOperationsImplSocialOperationsServletProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqSocialScfCoreOperationsImplSocialOperationsServletProperties properties
 }

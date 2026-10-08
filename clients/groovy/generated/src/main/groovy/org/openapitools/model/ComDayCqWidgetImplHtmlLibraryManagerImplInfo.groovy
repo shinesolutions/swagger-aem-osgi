@@ -7,16 +7,16 @@ import org.openapitools.model.ComDayCqWidgetImplHtmlLibraryManagerImplProperties
 
 @Canonical
 class ComDayCqWidgetImplHtmlLibraryManagerImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqWidgetImplHtmlLibraryManagerImplProperties properties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqWidgetImplHtmlLibraryManagerImplProperties properties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

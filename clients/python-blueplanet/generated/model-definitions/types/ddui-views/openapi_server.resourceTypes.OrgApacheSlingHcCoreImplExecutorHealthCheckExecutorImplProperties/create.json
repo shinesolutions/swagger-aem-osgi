@@ -1,0 +1,19 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "timeout_in_ms" },
+      {"model": "long_running_future_threshold_for_critical_ms" },
+      {"model": "result_cache_ttl_in_ms" },
+    ]
+  }]
+}

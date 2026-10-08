@@ -1,7 +1,9 @@
 
+
 # OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **tokenExpiration** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
@@ -11,6 +13,7 @@ Name | Type | Description | Notes
 **passwordHashAlgorithm** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
 **passwordHashIterations** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
 **passwordSaltSize** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
+
 
 
 

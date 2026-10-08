@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqReplicationContentStaticContentBuilderInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqReplicationContentStaticContentBuilderInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComDayCqReplicationContentStaticContentBuilderProperties = openapi_server.resourceTypes.ComDayCqReplicationContentStaticContentBuilderProperties
+}
+resourceTypes {
+
+  ComDayCqReplicationContentStaticContentBuilderInfo {
+    title = ComDayCqReplicationContentStaticContentBuilderInfo
+    description = ComDayCqReplicationContentStaticContentBuilderInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComDayCqReplicationContentStaticContentBuilderProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqReplicationContentStaticContentBuilderInfo {
+    title = ComDayCqReplicationContentStaticContentBuilderInfo
+    description = ComDayCqReplicationContentStaticContentBuilderInfo
+    implements = openapi_server.resourceTypes.ComDayCqReplicationContentStaticContentBuilderInfo
+
+  }
+}

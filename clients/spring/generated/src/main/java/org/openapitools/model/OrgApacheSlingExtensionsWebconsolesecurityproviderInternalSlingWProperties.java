@@ -1,27 +1,38 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWProperties   {
-  @JsonProperty("users")
-  private ConfigNodePropertyArray users = null;
+@JsonTypeName("orgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWProperties {
 
-  @JsonProperty("groups")
-  private ConfigNodePropertyArray groups = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray users;
 
-  public OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWProperties users(ConfigNodePropertyArray users) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray groups;
+
+  public OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWProperties users(@Nullable ConfigNodePropertyArray users) {
     this.users = users;
     return this;
   }
@@ -29,20 +40,20 @@ public class OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWPro
   /**
    * Get users
    * @return users
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getUsers() {
+   */
+  @Valid 
+  @Schema(name = "users", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("users")
+  public @Nullable ConfigNodePropertyArray getUsers() {
     return users;
   }
 
-  public void setUsers(ConfigNodePropertyArray users) {
+  @JsonProperty("users")
+  public void setUsers(@Nullable ConfigNodePropertyArray users) {
     this.users = users;
   }
 
-  public OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWProperties groups(ConfigNodePropertyArray groups) {
+  public OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWProperties groups(@Nullable ConfigNodePropertyArray groups) {
     this.groups = groups;
     return this;
   }
@@ -50,22 +61,21 @@ public class OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWPro
   /**
    * Get groups
    * @return groups
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getGroups() {
+   */
+  @Valid 
+  @Schema(name = "groups", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("groups")
+  public @Nullable ConfigNodePropertyArray getGroups() {
     return groups;
   }
 
-  public void setGroups(ConfigNodePropertyArray groups) {
+  @JsonProperty("groups")
+  public void setGroups(@Nullable ConfigNodePropertyArray groups) {
     this.groups = groups;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -86,7 +96,6 @@ public class OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWPro
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWProperties {\n");
-    
     sb.append("    users: ").append(toIndentedString(users)).append("\n");
     sb.append("    groups: ").append(toIndentedString(groups)).append("\n");
     sb.append("}");
@@ -97,11 +106,8 @@ public class OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWPro
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

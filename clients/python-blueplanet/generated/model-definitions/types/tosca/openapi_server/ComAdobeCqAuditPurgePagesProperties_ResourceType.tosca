@@ -1,0 +1,53 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqAuditPurgePagesProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqAuditPurgePagesProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyDropDown = openapi_server.resourceTypes.ConfigNodePropertyDropDown
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComAdobeCqAuditPurgePagesProperties {
+    title = ComAdobeCqAuditPurgePagesProperties
+    description = ComAdobeCqAuditPurgePagesProperties
+    derivedFrom = Root
+    properties {
+        auditlog_rule_name {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        auditlog_rule_contentpath {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        auditlog_rule_minimumage {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        auditlog_rule_types {
+          type = ConfigNodePropertyDropDown
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqAuditPurgePagesProperties {
+    title = ComAdobeCqAuditPurgePagesProperties
+    description = ComAdobeCqAuditPurgePagesProperties
+    implements = openapi_server.resourceTypes.ComAdobeCqAuditPurgePagesProperties
+
+  }
+}

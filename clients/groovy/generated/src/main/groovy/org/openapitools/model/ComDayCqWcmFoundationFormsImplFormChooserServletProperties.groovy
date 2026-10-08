@@ -9,14 +9,14 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqWcmFoundationFormsImplFormChooserServletProperties {
-    ConfigNodePropertyString serviceName = null
-
-    ConfigNodePropertyString slingServletResourceTypes = null
-
-    ConfigNodePropertyString slingServletSelectors = null
-
-    ConfigNodePropertyArray slingServletMethods = null
-
-    ConfigNodePropertyBoolean formsFormchooserservletAdvansesearchRequire = null
-
+    
+    ConfigNodePropertyString serviceName
+    
+    ConfigNodePropertyString slingServletResourceTypes
+    
+    ConfigNodePropertyString slingServletSelectors
+    
+    ConfigNodePropertyArray slingServletMethods
+    
+    ConfigNodePropertyBoolean formsFormchooserservletAdvansesearchRequire
 }

@@ -1,28 +1,39 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComAdobeGraniteWorkflowCorePayloadMapCacheProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComAdobeGraniteWorkflowCorePayloadMapCacheProperties   {
-  @JsonProperty("getSystemWorkflowModels")
-  private ConfigNodePropertyArray getSystemWorkflowModels = null;
+@JsonTypeName("comAdobeGraniteWorkflowCorePayloadMapCacheProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComAdobeGraniteWorkflowCorePayloadMapCacheProperties {
 
-  @JsonProperty("getPackageRootPath")
-  private ConfigNodePropertyString getPackageRootPath = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray getSystemWorkflowModels;
 
-  public ComAdobeGraniteWorkflowCorePayloadMapCacheProperties getSystemWorkflowModels(ConfigNodePropertyArray getSystemWorkflowModels) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString getPackageRootPath;
+
+  public ComAdobeGraniteWorkflowCorePayloadMapCacheProperties getSystemWorkflowModels(@Nullable ConfigNodePropertyArray getSystemWorkflowModels) {
     this.getSystemWorkflowModels = getSystemWorkflowModels;
     return this;
   }
@@ -30,20 +41,20 @@ public class ComAdobeGraniteWorkflowCorePayloadMapCacheProperties   {
   /**
    * Get getSystemWorkflowModels
    * @return getSystemWorkflowModels
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getGetSystemWorkflowModels() {
+   */
+  @Valid 
+  @Schema(name = "getSystemWorkflowModels", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("getSystemWorkflowModels")
+  public @Nullable ConfigNodePropertyArray getGetSystemWorkflowModels() {
     return getSystemWorkflowModels;
   }
 
-  public void setGetSystemWorkflowModels(ConfigNodePropertyArray getSystemWorkflowModels) {
+  @JsonProperty("getSystemWorkflowModels")
+  public void setGetSystemWorkflowModels(@Nullable ConfigNodePropertyArray getSystemWorkflowModels) {
     this.getSystemWorkflowModels = getSystemWorkflowModels;
   }
 
-  public ComAdobeGraniteWorkflowCorePayloadMapCacheProperties getPackageRootPath(ConfigNodePropertyString getPackageRootPath) {
+  public ComAdobeGraniteWorkflowCorePayloadMapCacheProperties getPackageRootPath(@Nullable ConfigNodePropertyString getPackageRootPath) {
     this.getPackageRootPath = getPackageRootPath;
     return this;
   }
@@ -51,22 +62,21 @@ public class ComAdobeGraniteWorkflowCorePayloadMapCacheProperties   {
   /**
    * Get getPackageRootPath
    * @return getPackageRootPath
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getGetPackageRootPath() {
+   */
+  @Valid 
+  @Schema(name = "getPackageRootPath", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("getPackageRootPath")
+  public @Nullable ConfigNodePropertyString getGetPackageRootPath() {
     return getPackageRootPath;
   }
 
-  public void setGetPackageRootPath(ConfigNodePropertyString getPackageRootPath) {
+  @JsonProperty("getPackageRootPath")
+  public void setGetPackageRootPath(@Nullable ConfigNodePropertyString getPackageRootPath) {
     this.getPackageRootPath = getPackageRootPath;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -87,7 +97,6 @@ public class ComAdobeGraniteWorkflowCorePayloadMapCacheProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComAdobeGraniteWorkflowCorePayloadMapCacheProperties {\n");
-    
     sb.append("    getSystemWorkflowModels: ").append(toIndentedString(getSystemWorkflowModels)).append("\n");
     sb.append("    getPackageRootPath: ").append(toIndentedString(getPackageRootPath)).append("\n");
     sb.append("}");
@@ -98,11 +107,8 @@ public class ComAdobeGraniteWorkflowCorePayloadMapCacheProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

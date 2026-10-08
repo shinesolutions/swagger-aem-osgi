@@ -3,29 +3,38 @@ package apimodels;
 import apimodels.ConfigNodePropertyArray;
 import apimodels.ConfigNodePropertyBoolean;
 import apimodels.ConfigNodePropertyString;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * ComDayCqAuthImplCugCugSupportImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class ComDayCqAuthImplCugCugSupportImplProperties   {
   @JsonProperty("cug.exempted.principals")
-  private ConfigNodePropertyArray cugExemptedPrincipals = null;
+  @Valid
+
+  private ConfigNodePropertyArray cugExemptedPrincipals;
 
   @JsonProperty("cug.enabled")
-  private ConfigNodePropertyBoolean cugEnabled = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean cugEnabled;
 
   @JsonProperty("cug.principals.regex")
-  private ConfigNodePropertyString cugPrincipalsRegex = null;
+  @Valid
+
+  private ConfigNodePropertyString cugPrincipalsRegex;
 
   @JsonProperty("cug.principals.replacement")
-  private ConfigNodePropertyString cugPrincipalsReplacement = null;
+  @Valid
+
+  private ConfigNodePropertyString cugPrincipalsReplacement;
 
   public ComDayCqAuthImplCugCugSupportImplProperties cugExemptedPrincipals(ConfigNodePropertyArray cugExemptedPrincipals) {
     this.cugExemptedPrincipals = cugExemptedPrincipals;
@@ -36,7 +45,6 @@ public class ComDayCqAuthImplCugCugSupportImplProperties   {
    * Get cugExemptedPrincipals
    * @return cugExemptedPrincipals
   **/
-  @Valid
   public ConfigNodePropertyArray getCugExemptedPrincipals() {
     return cugExemptedPrincipals;
   }
@@ -54,7 +62,6 @@ public class ComDayCqAuthImplCugCugSupportImplProperties   {
    * Get cugEnabled
    * @return cugEnabled
   **/
-  @Valid
   public ConfigNodePropertyBoolean getCugEnabled() {
     return cugEnabled;
   }
@@ -72,7 +79,6 @@ public class ComDayCqAuthImplCugCugSupportImplProperties   {
    * Get cugPrincipalsRegex
    * @return cugPrincipalsRegex
   **/
-  @Valid
   public ConfigNodePropertyString getCugPrincipalsRegex() {
     return cugPrincipalsRegex;
   }
@@ -90,7 +96,6 @@ public class ComDayCqAuthImplCugCugSupportImplProperties   {
    * Get cugPrincipalsReplacement
    * @return cugPrincipalsReplacement
   **/
-  @Valid
   public ConfigNodePropertyString getCugPrincipalsReplacement() {
     return cugPrincipalsReplacement;
   }
@@ -101,7 +106,7 @@ public class ComDayCqAuthImplCugCugSupportImplProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -138,11 +143,8 @@ public class ComDayCqAuthImplCugCugSupportImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

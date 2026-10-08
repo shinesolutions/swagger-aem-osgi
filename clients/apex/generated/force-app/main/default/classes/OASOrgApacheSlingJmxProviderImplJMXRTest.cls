@@ -72,7 +72,7 @@ private class OASOrgApacheSlingJmxProviderImplJMXRTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASOrgApacheSlingJmxProviderImplJMXR orgApacheSlingJmxProviderImplJMXResourceProviderProperties = new OASOrgApacheSlingJmxProviderImplJMXR();
-        Map<String, String> propertyMappings = orgApacheSlingJmxProviderImplJMXResourceProviderProperties.getPropertyMappings();
-        System.assertEquals('providerRoots', propertyMappings.get('provider.roots'));
+        Map<String, String> x-property-mappings = orgApacheSlingJmxProviderImplJMXResourceProviderProperties.getx-property-mappings();
+        System.assertEquals('providerRoots', x-property-mappings.get('provider.roots'));
     }
 }

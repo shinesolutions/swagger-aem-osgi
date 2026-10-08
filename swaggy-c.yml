@@ -1,0 +1,25 @@
+---
+spec_uri: specification/swagger-aem-osgi.yml
+version: 1.0.0-pre.0
+contact:
+  name: Shine Solutions
+  url: https://github.com/shinesolutions
+  email: opensource@shinesolutions.com
+scm:
+  git_user: shinesolutions
+  git_repo: swagger-aem-osgi
+base_dir:
+  github_actions: /home/runner/work/swagger-aem-osgi/swagger-aem-osgi
+  local: /Users/cliffano/dev/workspace-aoc/swagger-aem-osgi
+generator:
+  component: oag-file-spec
+  inputs:
+    project_id: swagger-aem-osgi
+    project_name: Swagger AEM OSGI
+    project_desc: An OpenAPI specification for Adobe Experience Manager (AEM) OSGI Configurations API
+    author_name: Shine Solutions
+    author_email: opensource@shinesolutions.com
+    author_url: https://github.com/shinesolutions
+    github_id: shinesolutions
+    github_repo: swagger-aem-osgi
+    github_token_prefix: SHINEOPENSOURCE

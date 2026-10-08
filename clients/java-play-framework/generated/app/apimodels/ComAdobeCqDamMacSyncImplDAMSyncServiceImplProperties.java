@@ -4,29 +4,38 @@ import apimodels.ConfigNodePropertyArray;
 import apimodels.ConfigNodePropertyBoolean;
 import apimodels.ConfigNodePropertyDropDown;
 import apimodels.ConfigNodePropertyInteger;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * ComAdobeCqDamMacSyncImplDAMSyncServiceImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class ComAdobeCqDamMacSyncImplDAMSyncServiceImplProperties   {
   @JsonProperty("com.adobe.cq.dam.mac.sync.damsyncservice.registered_paths")
-  private ConfigNodePropertyArray comAdobeCqDamMacSyncDamsyncserviceRegisteredPaths = null;
+  @Valid
+
+  private ConfigNodePropertyArray comAdobeCqDamMacSyncDamsyncserviceRegisteredPaths;
 
   @JsonProperty("com.adobe.cq.dam.mac.sync.damsyncservice.sync.renditions")
-  private ConfigNodePropertyBoolean comAdobeCqDamMacSyncDamsyncserviceSyncRenditions = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean comAdobeCqDamMacSyncDamsyncserviceSyncRenditions;
 
   @JsonProperty("com.adobe.cq.dam.mac.sync.damsyncservice.replicate.thread.wait.ms")
-  private ConfigNodePropertyInteger comAdobeCqDamMacSyncDamsyncserviceReplicateThreadWaitMs = null;
+  @Valid
+
+  private ConfigNodePropertyInteger comAdobeCqDamMacSyncDamsyncserviceReplicateThreadWaitMs;
 
   @JsonProperty("com.adobe.cq.dam.mac.sync.damsyncservice.platform")
-  private ConfigNodePropertyDropDown comAdobeCqDamMacSyncDamsyncservicePlatform = null;
+  @Valid
+
+  private ConfigNodePropertyDropDown comAdobeCqDamMacSyncDamsyncservicePlatform;
 
   public ComAdobeCqDamMacSyncImplDAMSyncServiceImplProperties comAdobeCqDamMacSyncDamsyncserviceRegisteredPaths(ConfigNodePropertyArray comAdobeCqDamMacSyncDamsyncserviceRegisteredPaths) {
     this.comAdobeCqDamMacSyncDamsyncserviceRegisteredPaths = comAdobeCqDamMacSyncDamsyncserviceRegisteredPaths;
@@ -37,7 +46,6 @@ public class ComAdobeCqDamMacSyncImplDAMSyncServiceImplProperties   {
    * Get comAdobeCqDamMacSyncDamsyncserviceRegisteredPaths
    * @return comAdobeCqDamMacSyncDamsyncserviceRegisteredPaths
   **/
-  @Valid
   public ConfigNodePropertyArray getComAdobeCqDamMacSyncDamsyncserviceRegisteredPaths() {
     return comAdobeCqDamMacSyncDamsyncserviceRegisteredPaths;
   }
@@ -55,7 +63,6 @@ public class ComAdobeCqDamMacSyncImplDAMSyncServiceImplProperties   {
    * Get comAdobeCqDamMacSyncDamsyncserviceSyncRenditions
    * @return comAdobeCqDamMacSyncDamsyncserviceSyncRenditions
   **/
-  @Valid
   public ConfigNodePropertyBoolean getComAdobeCqDamMacSyncDamsyncserviceSyncRenditions() {
     return comAdobeCqDamMacSyncDamsyncserviceSyncRenditions;
   }
@@ -73,7 +80,6 @@ public class ComAdobeCqDamMacSyncImplDAMSyncServiceImplProperties   {
    * Get comAdobeCqDamMacSyncDamsyncserviceReplicateThreadWaitMs
    * @return comAdobeCqDamMacSyncDamsyncserviceReplicateThreadWaitMs
   **/
-  @Valid
   public ConfigNodePropertyInteger getComAdobeCqDamMacSyncDamsyncserviceReplicateThreadWaitMs() {
     return comAdobeCqDamMacSyncDamsyncserviceReplicateThreadWaitMs;
   }
@@ -91,7 +97,6 @@ public class ComAdobeCqDamMacSyncImplDAMSyncServiceImplProperties   {
    * Get comAdobeCqDamMacSyncDamsyncservicePlatform
    * @return comAdobeCqDamMacSyncDamsyncservicePlatform
   **/
-  @Valid
   public ConfigNodePropertyDropDown getComAdobeCqDamMacSyncDamsyncservicePlatform() {
     return comAdobeCqDamMacSyncDamsyncservicePlatform;
   }
@@ -102,7 +107,7 @@ public class ComAdobeCqDamMacSyncImplDAMSyncServiceImplProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -139,11 +144,8 @@ public class ComAdobeCqDamMacSyncImplDAMSyncServiceImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

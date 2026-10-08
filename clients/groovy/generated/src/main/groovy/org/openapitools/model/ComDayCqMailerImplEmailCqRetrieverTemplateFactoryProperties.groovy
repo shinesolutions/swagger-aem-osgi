@@ -8,12 +8,12 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqMailerImplEmailCqRetrieverTemplateFactoryProperties {
-    ConfigNodePropertyBoolean mailerEmailEmbed = null
-
-    ConfigNodePropertyString mailerEmailCharset = null
-
-    ConfigNodePropertyString mailerEmailRetrieverUserID = null
-
-    ConfigNodePropertyString mailerEmailRetrieverUserPWD = null
-
+    
+    ConfigNodePropertyBoolean mailerEmailEmbed
+    
+    ConfigNodePropertyString mailerEmailCharset
+    
+    ConfigNodePropertyString mailerEmailRetrieverUserID
+    
+    ConfigNodePropertyString mailerEmailRetrieverUserPWD
 }

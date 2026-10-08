@@ -7,16 +7,16 @@ import org.openapitools.model.ComDayCqDamCoreImplServletAssetDownloadServletProp
 
 @Canonical
 class ComDayCqDamCoreImplServletAssetDownloadServletInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqDamCoreImplServletAssetDownloadServletProperties properties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqDamCoreImplServletAssetDownloadServletProperties properties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

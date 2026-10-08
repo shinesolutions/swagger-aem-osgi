@@ -1,25 +1,36 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comAdobeGraniteMonitoringImplScriptConfigImplProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteMonitoringImplScriptConfigImplProperties   {
-  
-  private @Valid ConfigNodePropertyString scriptFilename = null;
-  private @Valid ConfigNodePropertyString scriptDisplay = null;
-  private @Valid ConfigNodePropertyString scriptPath = null;
-  private @Valid ConfigNodePropertyArray scriptPlatform = null;
-  private @Valid ConfigNodePropertyInteger interval = null;
-  private @Valid ConfigNodePropertyString jmxdomain = null;
+  private ConfigNodePropertyString scriptFilename;
+  private ConfigNodePropertyString scriptDisplay;
+  private ConfigNodePropertyString scriptPath;
+  private ConfigNodePropertyArray scriptPlatform;
+  private ConfigNodePropertyInteger interval;
+  private ConfigNodePropertyString jmxdomain;
+
+  public ComAdobeGraniteMonitoringImplScriptConfigImplProperties() {
+  }
 
   /**
    **/
@@ -31,9 +42,11 @@ public class ComAdobeGraniteMonitoringImplScriptConfigImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("script.filename")
-  public ConfigNodePropertyString getScriptFilename() {
+  @Valid public ConfigNodePropertyString getScriptFilename() {
     return scriptFilename;
   }
+
+  @JsonProperty("script.filename")
   public void setScriptFilename(ConfigNodePropertyString scriptFilename) {
     this.scriptFilename = scriptFilename;
   }
@@ -48,9 +61,11 @@ public class ComAdobeGraniteMonitoringImplScriptConfigImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("script.display")
-  public ConfigNodePropertyString getScriptDisplay() {
+  @Valid public ConfigNodePropertyString getScriptDisplay() {
     return scriptDisplay;
   }
+
+  @JsonProperty("script.display")
   public void setScriptDisplay(ConfigNodePropertyString scriptDisplay) {
     this.scriptDisplay = scriptDisplay;
   }
@@ -65,9 +80,11 @@ public class ComAdobeGraniteMonitoringImplScriptConfigImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("script.path")
-  public ConfigNodePropertyString getScriptPath() {
+  @Valid public ConfigNodePropertyString getScriptPath() {
     return scriptPath;
   }
+
+  @JsonProperty("script.path")
   public void setScriptPath(ConfigNodePropertyString scriptPath) {
     this.scriptPath = scriptPath;
   }
@@ -82,9 +99,11 @@ public class ComAdobeGraniteMonitoringImplScriptConfigImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("script.platform")
-  public ConfigNodePropertyArray getScriptPlatform() {
+  @Valid public ConfigNodePropertyArray getScriptPlatform() {
     return scriptPlatform;
   }
+
+  @JsonProperty("script.platform")
   public void setScriptPlatform(ConfigNodePropertyArray scriptPlatform) {
     this.scriptPlatform = scriptPlatform;
   }
@@ -99,9 +118,11 @@ public class ComAdobeGraniteMonitoringImplScriptConfigImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("interval")
-  public ConfigNodePropertyInteger getInterval() {
+  @Valid public ConfigNodePropertyInteger getInterval() {
     return interval;
   }
+
+  @JsonProperty("interval")
   public void setInterval(ConfigNodePropertyInteger interval) {
     this.interval = interval;
   }
@@ -116,16 +137,18 @@ public class ComAdobeGraniteMonitoringImplScriptConfigImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("jmxdomain")
-  public ConfigNodePropertyString getJmxdomain() {
+  @Valid public ConfigNodePropertyString getJmxdomain() {
     return jmxdomain;
   }
+
+  @JsonProperty("jmxdomain")
   public void setJmxdomain(ConfigNodePropertyString jmxdomain) {
     this.jmxdomain = jmxdomain;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -133,12 +156,12 @@ public class ComAdobeGraniteMonitoringImplScriptConfigImplProperties   {
       return false;
     }
     ComAdobeGraniteMonitoringImplScriptConfigImplProperties comAdobeGraniteMonitoringImplScriptConfigImplProperties = (ComAdobeGraniteMonitoringImplScriptConfigImplProperties) o;
-    return Objects.equals(scriptFilename, comAdobeGraniteMonitoringImplScriptConfigImplProperties.scriptFilename) &&
-        Objects.equals(scriptDisplay, comAdobeGraniteMonitoringImplScriptConfigImplProperties.scriptDisplay) &&
-        Objects.equals(scriptPath, comAdobeGraniteMonitoringImplScriptConfigImplProperties.scriptPath) &&
-        Objects.equals(scriptPlatform, comAdobeGraniteMonitoringImplScriptConfigImplProperties.scriptPlatform) &&
-        Objects.equals(interval, comAdobeGraniteMonitoringImplScriptConfigImplProperties.interval) &&
-        Objects.equals(jmxdomain, comAdobeGraniteMonitoringImplScriptConfigImplProperties.jmxdomain);
+    return Objects.equals(this.scriptFilename, comAdobeGraniteMonitoringImplScriptConfigImplProperties.scriptFilename) &&
+        Objects.equals(this.scriptDisplay, comAdobeGraniteMonitoringImplScriptConfigImplProperties.scriptDisplay) &&
+        Objects.equals(this.scriptPath, comAdobeGraniteMonitoringImplScriptConfigImplProperties.scriptPath) &&
+        Objects.equals(this.scriptPlatform, comAdobeGraniteMonitoringImplScriptConfigImplProperties.scriptPlatform) &&
+        Objects.equals(this.interval, comAdobeGraniteMonitoringImplScriptConfigImplProperties.interval) &&
+        Objects.equals(this.jmxdomain, comAdobeGraniteMonitoringImplScriptConfigImplProperties.jmxdomain);
   }
 
   @Override
@@ -165,11 +188,9 @@ public class ComAdobeGraniteMonitoringImplScriptConfigImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

@@ -1,44 +1,55 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComDayCommonsHttpclientProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComDayCommonsHttpclientProperties   {
-  @JsonProperty("proxy.enabled")
-  private ConfigNodePropertyBoolean proxyEnabled = null;
+@JsonTypeName("comDayCommonsHttpclientProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComDayCommonsHttpclientProperties {
 
-  @JsonProperty("proxy.host")
-  private ConfigNodePropertyString proxyHost = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean proxyEnabled;
 
-  @JsonProperty("proxy.user")
-  private ConfigNodePropertyString proxyUser = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString proxyHost;
 
-  @JsonProperty("proxy.password")
-  private ConfigNodePropertyString proxyPassword = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString proxyUser;
 
-  @JsonProperty("proxy.ntlm.host")
-  private ConfigNodePropertyString proxyNtlmHost = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString proxyPassword;
 
-  @JsonProperty("proxy.ntlm.domain")
-  private ConfigNodePropertyString proxyNtlmDomain = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString proxyNtlmHost;
 
-  @JsonProperty("proxy.exceptions")
-  private ConfigNodePropertyArray proxyExceptions = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString proxyNtlmDomain;
 
-  public ComDayCommonsHttpclientProperties proxyEnabled(ConfigNodePropertyBoolean proxyEnabled) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray proxyExceptions;
+
+  public ComDayCommonsHttpclientProperties proxyEnabled(@Nullable ConfigNodePropertyBoolean proxyEnabled) {
     this.proxyEnabled = proxyEnabled;
     return this;
   }
@@ -46,20 +57,20 @@ public class ComDayCommonsHttpclientProperties   {
   /**
    * Get proxyEnabled
    * @return proxyEnabled
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getProxyEnabled() {
+   */
+  @Valid 
+  @Schema(name = "proxy.enabled", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("proxy.enabled")
+  public @Nullable ConfigNodePropertyBoolean getProxyEnabled() {
     return proxyEnabled;
   }
 
-  public void setProxyEnabled(ConfigNodePropertyBoolean proxyEnabled) {
+  @JsonProperty("proxy.enabled")
+  public void setProxyEnabled(@Nullable ConfigNodePropertyBoolean proxyEnabled) {
     this.proxyEnabled = proxyEnabled;
   }
 
-  public ComDayCommonsHttpclientProperties proxyHost(ConfigNodePropertyString proxyHost) {
+  public ComDayCommonsHttpclientProperties proxyHost(@Nullable ConfigNodePropertyString proxyHost) {
     this.proxyHost = proxyHost;
     return this;
   }
@@ -67,20 +78,20 @@ public class ComDayCommonsHttpclientProperties   {
   /**
    * Get proxyHost
    * @return proxyHost
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getProxyHost() {
+   */
+  @Valid 
+  @Schema(name = "proxy.host", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("proxy.host")
+  public @Nullable ConfigNodePropertyString getProxyHost() {
     return proxyHost;
   }
 
-  public void setProxyHost(ConfigNodePropertyString proxyHost) {
+  @JsonProperty("proxy.host")
+  public void setProxyHost(@Nullable ConfigNodePropertyString proxyHost) {
     this.proxyHost = proxyHost;
   }
 
-  public ComDayCommonsHttpclientProperties proxyUser(ConfigNodePropertyString proxyUser) {
+  public ComDayCommonsHttpclientProperties proxyUser(@Nullable ConfigNodePropertyString proxyUser) {
     this.proxyUser = proxyUser;
     return this;
   }
@@ -88,20 +99,20 @@ public class ComDayCommonsHttpclientProperties   {
   /**
    * Get proxyUser
    * @return proxyUser
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getProxyUser() {
+   */
+  @Valid 
+  @Schema(name = "proxy.user", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("proxy.user")
+  public @Nullable ConfigNodePropertyString getProxyUser() {
     return proxyUser;
   }
 
-  public void setProxyUser(ConfigNodePropertyString proxyUser) {
+  @JsonProperty("proxy.user")
+  public void setProxyUser(@Nullable ConfigNodePropertyString proxyUser) {
     this.proxyUser = proxyUser;
   }
 
-  public ComDayCommonsHttpclientProperties proxyPassword(ConfigNodePropertyString proxyPassword) {
+  public ComDayCommonsHttpclientProperties proxyPassword(@Nullable ConfigNodePropertyString proxyPassword) {
     this.proxyPassword = proxyPassword;
     return this;
   }
@@ -109,20 +120,20 @@ public class ComDayCommonsHttpclientProperties   {
   /**
    * Get proxyPassword
    * @return proxyPassword
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getProxyPassword() {
+   */
+  @Valid 
+  @Schema(name = "proxy.password", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("proxy.password")
+  public @Nullable ConfigNodePropertyString getProxyPassword() {
     return proxyPassword;
   }
 
-  public void setProxyPassword(ConfigNodePropertyString proxyPassword) {
+  @JsonProperty("proxy.password")
+  public void setProxyPassword(@Nullable ConfigNodePropertyString proxyPassword) {
     this.proxyPassword = proxyPassword;
   }
 
-  public ComDayCommonsHttpclientProperties proxyNtlmHost(ConfigNodePropertyString proxyNtlmHost) {
+  public ComDayCommonsHttpclientProperties proxyNtlmHost(@Nullable ConfigNodePropertyString proxyNtlmHost) {
     this.proxyNtlmHost = proxyNtlmHost;
     return this;
   }
@@ -130,20 +141,20 @@ public class ComDayCommonsHttpclientProperties   {
   /**
    * Get proxyNtlmHost
    * @return proxyNtlmHost
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getProxyNtlmHost() {
+   */
+  @Valid 
+  @Schema(name = "proxy.ntlm.host", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("proxy.ntlm.host")
+  public @Nullable ConfigNodePropertyString getProxyNtlmHost() {
     return proxyNtlmHost;
   }
 
-  public void setProxyNtlmHost(ConfigNodePropertyString proxyNtlmHost) {
+  @JsonProperty("proxy.ntlm.host")
+  public void setProxyNtlmHost(@Nullable ConfigNodePropertyString proxyNtlmHost) {
     this.proxyNtlmHost = proxyNtlmHost;
   }
 
-  public ComDayCommonsHttpclientProperties proxyNtlmDomain(ConfigNodePropertyString proxyNtlmDomain) {
+  public ComDayCommonsHttpclientProperties proxyNtlmDomain(@Nullable ConfigNodePropertyString proxyNtlmDomain) {
     this.proxyNtlmDomain = proxyNtlmDomain;
     return this;
   }
@@ -151,20 +162,20 @@ public class ComDayCommonsHttpclientProperties   {
   /**
    * Get proxyNtlmDomain
    * @return proxyNtlmDomain
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getProxyNtlmDomain() {
+   */
+  @Valid 
+  @Schema(name = "proxy.ntlm.domain", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("proxy.ntlm.domain")
+  public @Nullable ConfigNodePropertyString getProxyNtlmDomain() {
     return proxyNtlmDomain;
   }
 
-  public void setProxyNtlmDomain(ConfigNodePropertyString proxyNtlmDomain) {
+  @JsonProperty("proxy.ntlm.domain")
+  public void setProxyNtlmDomain(@Nullable ConfigNodePropertyString proxyNtlmDomain) {
     this.proxyNtlmDomain = proxyNtlmDomain;
   }
 
-  public ComDayCommonsHttpclientProperties proxyExceptions(ConfigNodePropertyArray proxyExceptions) {
+  public ComDayCommonsHttpclientProperties proxyExceptions(@Nullable ConfigNodePropertyArray proxyExceptions) {
     this.proxyExceptions = proxyExceptions;
     return this;
   }
@@ -172,22 +183,21 @@ public class ComDayCommonsHttpclientProperties   {
   /**
    * Get proxyExceptions
    * @return proxyExceptions
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getProxyExceptions() {
+   */
+  @Valid 
+  @Schema(name = "proxy.exceptions", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("proxy.exceptions")
+  public @Nullable ConfigNodePropertyArray getProxyExceptions() {
     return proxyExceptions;
   }
 
-  public void setProxyExceptions(ConfigNodePropertyArray proxyExceptions) {
+  @JsonProperty("proxy.exceptions")
+  public void setProxyExceptions(@Nullable ConfigNodePropertyArray proxyExceptions) {
     this.proxyExceptions = proxyExceptions;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -213,7 +223,6 @@ public class ComDayCommonsHttpclientProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComDayCommonsHttpclientProperties {\n");
-    
     sb.append("    proxyEnabled: ").append(toIndentedString(proxyEnabled)).append("\n");
     sb.append("    proxyHost: ").append(toIndentedString(proxyHost)).append("\n");
     sb.append("    proxyUser: ").append(toIndentedString(proxyUser)).append("\n");
@@ -229,11 +238,8 @@ public class ComDayCommonsHttpclientProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

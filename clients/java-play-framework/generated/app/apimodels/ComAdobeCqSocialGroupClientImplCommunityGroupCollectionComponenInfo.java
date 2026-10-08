@@ -1,29 +1,35 @@
 package apimodels;
 
 import apimodels.ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenProperties;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenInfo
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenInfo   {
   @JsonProperty("pid")
-  private String pid = null;
+  
+  private String pid;
 
   @JsonProperty("title")
-  private String title = null;
+  
+  private String title;
 
   @JsonProperty("description")
-  private String description = null;
+  
+  private String description;
 
   @JsonProperty("properties")
-  private ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenProperties properties = null;
+  @Valid
+
+  private ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenProperties properties;
 
   public ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenInfo pid(String pid) {
     this.pid = pid;
@@ -34,7 +40,7 @@ public class ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenInfo
    * Get pid
    * @return pid
   **/
-    public String getPid() {
+  public String getPid() {
     return pid;
   }
 
@@ -51,7 +57,7 @@ public class ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenInfo
    * Get title
    * @return title
   **/
-    public String getTitle() {
+  public String getTitle() {
     return title;
   }
 
@@ -68,7 +74,7 @@ public class ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenInfo
    * Get description
    * @return description
   **/
-    public String getDescription() {
+  public String getDescription() {
     return description;
   }
 
@@ -85,7 +91,6 @@ public class ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenInfo
    * Get properties
    * @return properties
   **/
-  @Valid
   public ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenProperties getProperties() {
     return properties;
   }
@@ -96,7 +101,7 @@ public class ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenInfo
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -133,11 +138,8 @@ public class ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenInfo
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

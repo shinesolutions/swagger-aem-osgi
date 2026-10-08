@@ -1,22 +1,33 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comAdobeCqDamWebdavImplIoAssetIOHandlerProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeCqDamWebdavImplIoAssetIOHandlerProperties   {
-  
-  private @Valid ConfigNodePropertyInteger serviceRanking = null;
-  private @Valid ConfigNodePropertyString pathPrefix = null;
-  private @Valid ConfigNodePropertyBoolean createVersion = null;
+  private ConfigNodePropertyInteger serviceRanking;
+  private ConfigNodePropertyString pathPrefix;
+  private ConfigNodePropertyBoolean createVersion;
+
+  public ComAdobeCqDamWebdavImplIoAssetIOHandlerProperties() {
+  }
 
   /**
    **/
@@ -28,9 +39,11 @@ public class ComAdobeCqDamWebdavImplIoAssetIOHandlerProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("service.ranking")
-  public ConfigNodePropertyInteger getServiceRanking() {
+  @Valid public ConfigNodePropertyInteger getServiceRanking() {
     return serviceRanking;
   }
+
+  @JsonProperty("service.ranking")
   public void setServiceRanking(ConfigNodePropertyInteger serviceRanking) {
     this.serviceRanking = serviceRanking;
   }
@@ -45,9 +58,11 @@ public class ComAdobeCqDamWebdavImplIoAssetIOHandlerProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("pathPrefix")
-  public ConfigNodePropertyString getPathPrefix() {
+  @Valid public ConfigNodePropertyString getPathPrefix() {
     return pathPrefix;
   }
+
+  @JsonProperty("pathPrefix")
   public void setPathPrefix(ConfigNodePropertyString pathPrefix) {
     this.pathPrefix = pathPrefix;
   }
@@ -62,16 +77,18 @@ public class ComAdobeCqDamWebdavImplIoAssetIOHandlerProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("createVersion")
-  public ConfigNodePropertyBoolean getCreateVersion() {
+  @Valid public ConfigNodePropertyBoolean getCreateVersion() {
     return createVersion;
   }
+
+  @JsonProperty("createVersion")
   public void setCreateVersion(ConfigNodePropertyBoolean createVersion) {
     this.createVersion = createVersion;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -79,9 +96,9 @@ public class ComAdobeCqDamWebdavImplIoAssetIOHandlerProperties   {
       return false;
     }
     ComAdobeCqDamWebdavImplIoAssetIOHandlerProperties comAdobeCqDamWebdavImplIoAssetIOHandlerProperties = (ComAdobeCqDamWebdavImplIoAssetIOHandlerProperties) o;
-    return Objects.equals(serviceRanking, comAdobeCqDamWebdavImplIoAssetIOHandlerProperties.serviceRanking) &&
-        Objects.equals(pathPrefix, comAdobeCqDamWebdavImplIoAssetIOHandlerProperties.pathPrefix) &&
-        Objects.equals(createVersion, comAdobeCqDamWebdavImplIoAssetIOHandlerProperties.createVersion);
+    return Objects.equals(this.serviceRanking, comAdobeCqDamWebdavImplIoAssetIOHandlerProperties.serviceRanking) &&
+        Objects.equals(this.pathPrefix, comAdobeCqDamWebdavImplIoAssetIOHandlerProperties.pathPrefix) &&
+        Objects.equals(this.createVersion, comAdobeCqDamWebdavImplIoAssetIOHandlerProperties.createVersion);
   }
 
   @Override
@@ -105,11 +122,9 @@ public class ComAdobeCqDamWebdavImplIoAssetIOHandlerProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

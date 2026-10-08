@@ -72,7 +72,7 @@ private class OASComAdobeCqDamWebdavImplIoSpecialFTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeCqDamWebdavImplIoSpecialF comAdobeCqDamWebdavImplIoSpecialFilesHandlerProperties = new OASComAdobeCqDamWebdavImplIoSpecialF();
-        Map<String, String> propertyMappings = comAdobeCqDamWebdavImplIoSpecialFilesHandlerProperties.getPropertyMappings();
-        System.assertEquals('comDayCqDamCoreImplIoSpecialFilesHandlerFilepatters', propertyMappings.get('com.day.cq.dam.core.impl.io.SpecialFilesHandler.filepatters'));
+        Map<String, String> x-property-mappings = comAdobeCqDamWebdavImplIoSpecialFilesHandlerProperties.getx-property-mappings();
+        System.assertEquals('comDayCqDamCoreImplIoSpecialFilesHandlerFilepatters', x-property-mappings.get('com.day.cq.dam.core.impl.io.SpecialFilesHandler.filepatters'));
     }
 }

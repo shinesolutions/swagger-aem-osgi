@@ -2,22 +2,22 @@
 # ComDayCqWidgetImplHtmlLibraryManagerImplProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**htmllibmanagerPeriodclientmanager** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**htmllibmanagerPerioddebug** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**htmllibmanagerPerioddebugPeriodconsole** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**htmllibmanagerPerioddebugPeriodinitPeriodjs** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**htmllibmanagerPerioddefaultthemename** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**htmllibmanagerPerioddefaultuserthemename** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**htmllibmanagerPeriodfirebuglitePeriodpath** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**htmllibmanagerPeriodforceCQUrlInfo** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**htmllibmanagerPeriodgzip** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**htmllibmanagerPeriodmaxage** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**htmllibmanagerPeriodmaxDataUriSize** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**htmllibmanagerPeriodminify** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**htmllibmanagerPeriodpathPeriodlist** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**htmllibmanagerPeriodtiming** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **htmllibmanagerClientmanager** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **htmllibmanagerDebug** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **htmllibmanagerDebugConsole** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **htmllibmanagerDebugInitJs** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **htmllibmanagerDefaultthemename** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **htmllibmanagerDefaultuserthemename** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **htmllibmanagerFirebuglitePath** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **htmllibmanagerForceCQUrlInfo** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **htmllibmanagerGzip** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **htmllibmanagerMaxage** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **htmllibmanagerMaxDataUriSize** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **htmllibmanagerMinify** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **htmllibmanagerPathList** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **htmllibmanagerTiming** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
 
 
 

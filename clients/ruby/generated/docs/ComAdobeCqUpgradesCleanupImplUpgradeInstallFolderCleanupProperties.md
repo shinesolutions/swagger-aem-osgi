@@ -2,16 +2,17 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**delete_name_regexps** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **delete_name_regexps** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanupProperties.new(delete_name_regexps: null)
+instance = SwaggerAemOsgiClient::ComAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanupProperties.new(
+  delete_name_regexps: null
+)
 ```
-
 

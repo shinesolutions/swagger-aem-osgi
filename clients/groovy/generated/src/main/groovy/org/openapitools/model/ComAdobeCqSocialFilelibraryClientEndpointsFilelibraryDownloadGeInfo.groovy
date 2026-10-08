@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqSocialFilelibraryClientEndpointsFilelibr
 
 @Canonical
 class ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGeInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGeProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGeProperties properties
 }

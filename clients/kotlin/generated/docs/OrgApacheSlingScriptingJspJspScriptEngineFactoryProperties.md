@@ -2,19 +2,19 @@
 # OrgApacheSlingScriptingJspJspScriptEngineFactoryProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**jasperPeriodcompilerTargetVM** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**jasperPeriodcompilerSourceVM** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**jasperPeriodclassdebuginfo** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**jasperPeriodenablePooling** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**jasperPeriodieClassId** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**jasperPeriodgenStringAsCharArray** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**jasperPeriodkeepgenerated** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**jasperPeriodmappedfile** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**jasperPeriodtrimSpaces** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**jasperPerioddisplaySourceFragments** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**defaultPeriodisPeriodsession** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **jasperCompilerTargetVM** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **jasperCompilerSourceVM** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **jasperClassdebuginfo** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **jasperEnablePooling** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **jasperIeClassId** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **jasperGenStringAsCharArray** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **jasperKeepgenerated** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **jasperMappedfile** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **jasperTrimSpaces** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **jasperDisplaySourceFragments** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **defaultIsSession** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
 
 
 

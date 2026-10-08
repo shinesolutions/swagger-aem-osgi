@@ -3,56 +3,83 @@ package apimodels;
 import apimodels.ConfigNodePropertyArray;
 import apimodels.ConfigNodePropertyBoolean;
 import apimodels.ConfigNodePropertyString;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * ComAdobeGraniteAuthImsImplIMSProviderImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class ComAdobeGraniteAuthImsImplIMSProviderImplProperties   {
   @JsonProperty("oauth.provider.id")
-  private ConfigNodePropertyString oauthProviderId = null;
+  @Valid
+
+  private ConfigNodePropertyString oauthProviderId;
 
   @JsonProperty("oauth.provider.ims.authorization.url")
-  private ConfigNodePropertyString oauthProviderImsAuthorizationUrl = null;
+  @Valid
+
+  private ConfigNodePropertyString oauthProviderImsAuthorizationUrl;
 
   @JsonProperty("oauth.provider.ims.token.url")
-  private ConfigNodePropertyString oauthProviderImsTokenUrl = null;
+  @Valid
+
+  private ConfigNodePropertyString oauthProviderImsTokenUrl;
 
   @JsonProperty("oauth.provider.ims.profile.url")
-  private ConfigNodePropertyString oauthProviderImsProfileUrl = null;
+  @Valid
+
+  private ConfigNodePropertyString oauthProviderImsProfileUrl;
 
   @JsonProperty("oauth.provider.ims.extended.details.urls")
-  private ConfigNodePropertyArray oauthProviderImsExtendedDetailsUrls = null;
+  @Valid
+
+  private ConfigNodePropertyArray oauthProviderImsExtendedDetailsUrls;
 
   @JsonProperty("oauth.provider.ims.validate.token.url")
-  private ConfigNodePropertyString oauthProviderImsValidateTokenUrl = null;
+  @Valid
+
+  private ConfigNodePropertyString oauthProviderImsValidateTokenUrl;
 
   @JsonProperty("oauth.provider.ims.session.property")
-  private ConfigNodePropertyString oauthProviderImsSessionProperty = null;
+  @Valid
+
+  private ConfigNodePropertyString oauthProviderImsSessionProperty;
 
   @JsonProperty("oauth.provider.ims.service.token.client.id")
-  private ConfigNodePropertyString oauthProviderImsServiceTokenClientId = null;
+  @Valid
+
+  private ConfigNodePropertyString oauthProviderImsServiceTokenClientId;
 
   @JsonProperty("oauth.provider.ims.service.token.client.secret")
-  private ConfigNodePropertyString oauthProviderImsServiceTokenClientSecret = null;
+  @Valid
+
+  private ConfigNodePropertyString oauthProviderImsServiceTokenClientSecret;
 
   @JsonProperty("oauth.provider.ims.service.token")
-  private ConfigNodePropertyString oauthProviderImsServiceToken = null;
+  @Valid
+
+  private ConfigNodePropertyString oauthProviderImsServiceToken;
 
   @JsonProperty("ims.org.ref")
-  private ConfigNodePropertyString imsOrgRef = null;
+  @Valid
+
+  private ConfigNodePropertyString imsOrgRef;
 
   @JsonProperty("ims.group.mapping")
-  private ConfigNodePropertyArray imsGroupMapping = null;
+  @Valid
+
+  private ConfigNodePropertyArray imsGroupMapping;
 
   @JsonProperty("oauth.provider.ims.only.license.group")
-  private ConfigNodePropertyBoolean oauthProviderImsOnlyLicenseGroup = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean oauthProviderImsOnlyLicenseGroup;
 
   public ComAdobeGraniteAuthImsImplIMSProviderImplProperties oauthProviderId(ConfigNodePropertyString oauthProviderId) {
     this.oauthProviderId = oauthProviderId;
@@ -63,7 +90,6 @@ public class ComAdobeGraniteAuthImsImplIMSProviderImplProperties   {
    * Get oauthProviderId
    * @return oauthProviderId
   **/
-  @Valid
   public ConfigNodePropertyString getOauthProviderId() {
     return oauthProviderId;
   }
@@ -81,7 +107,6 @@ public class ComAdobeGraniteAuthImsImplIMSProviderImplProperties   {
    * Get oauthProviderImsAuthorizationUrl
    * @return oauthProviderImsAuthorizationUrl
   **/
-  @Valid
   public ConfigNodePropertyString getOauthProviderImsAuthorizationUrl() {
     return oauthProviderImsAuthorizationUrl;
   }
@@ -99,7 +124,6 @@ public class ComAdobeGraniteAuthImsImplIMSProviderImplProperties   {
    * Get oauthProviderImsTokenUrl
    * @return oauthProviderImsTokenUrl
   **/
-  @Valid
   public ConfigNodePropertyString getOauthProviderImsTokenUrl() {
     return oauthProviderImsTokenUrl;
   }
@@ -117,7 +141,6 @@ public class ComAdobeGraniteAuthImsImplIMSProviderImplProperties   {
    * Get oauthProviderImsProfileUrl
    * @return oauthProviderImsProfileUrl
   **/
-  @Valid
   public ConfigNodePropertyString getOauthProviderImsProfileUrl() {
     return oauthProviderImsProfileUrl;
   }
@@ -135,7 +158,6 @@ public class ComAdobeGraniteAuthImsImplIMSProviderImplProperties   {
    * Get oauthProviderImsExtendedDetailsUrls
    * @return oauthProviderImsExtendedDetailsUrls
   **/
-  @Valid
   public ConfigNodePropertyArray getOauthProviderImsExtendedDetailsUrls() {
     return oauthProviderImsExtendedDetailsUrls;
   }
@@ -153,7 +175,6 @@ public class ComAdobeGraniteAuthImsImplIMSProviderImplProperties   {
    * Get oauthProviderImsValidateTokenUrl
    * @return oauthProviderImsValidateTokenUrl
   **/
-  @Valid
   public ConfigNodePropertyString getOauthProviderImsValidateTokenUrl() {
     return oauthProviderImsValidateTokenUrl;
   }
@@ -171,7 +192,6 @@ public class ComAdobeGraniteAuthImsImplIMSProviderImplProperties   {
    * Get oauthProviderImsSessionProperty
    * @return oauthProviderImsSessionProperty
   **/
-  @Valid
   public ConfigNodePropertyString getOauthProviderImsSessionProperty() {
     return oauthProviderImsSessionProperty;
   }
@@ -189,7 +209,6 @@ public class ComAdobeGraniteAuthImsImplIMSProviderImplProperties   {
    * Get oauthProviderImsServiceTokenClientId
    * @return oauthProviderImsServiceTokenClientId
   **/
-  @Valid
   public ConfigNodePropertyString getOauthProviderImsServiceTokenClientId() {
     return oauthProviderImsServiceTokenClientId;
   }
@@ -207,7 +226,6 @@ public class ComAdobeGraniteAuthImsImplIMSProviderImplProperties   {
    * Get oauthProviderImsServiceTokenClientSecret
    * @return oauthProviderImsServiceTokenClientSecret
   **/
-  @Valid
   public ConfigNodePropertyString getOauthProviderImsServiceTokenClientSecret() {
     return oauthProviderImsServiceTokenClientSecret;
   }
@@ -225,7 +243,6 @@ public class ComAdobeGraniteAuthImsImplIMSProviderImplProperties   {
    * Get oauthProviderImsServiceToken
    * @return oauthProviderImsServiceToken
   **/
-  @Valid
   public ConfigNodePropertyString getOauthProviderImsServiceToken() {
     return oauthProviderImsServiceToken;
   }
@@ -243,7 +260,6 @@ public class ComAdobeGraniteAuthImsImplIMSProviderImplProperties   {
    * Get imsOrgRef
    * @return imsOrgRef
   **/
-  @Valid
   public ConfigNodePropertyString getImsOrgRef() {
     return imsOrgRef;
   }
@@ -261,7 +277,6 @@ public class ComAdobeGraniteAuthImsImplIMSProviderImplProperties   {
    * Get imsGroupMapping
    * @return imsGroupMapping
   **/
-  @Valid
   public ConfigNodePropertyArray getImsGroupMapping() {
     return imsGroupMapping;
   }
@@ -279,7 +294,6 @@ public class ComAdobeGraniteAuthImsImplIMSProviderImplProperties   {
    * Get oauthProviderImsOnlyLicenseGroup
    * @return oauthProviderImsOnlyLicenseGroup
   **/
-  @Valid
   public ConfigNodePropertyBoolean getOauthProviderImsOnlyLicenseGroup() {
     return oauthProviderImsOnlyLicenseGroup;
   }
@@ -290,7 +304,7 @@ public class ComAdobeGraniteAuthImsImplIMSProviderImplProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -345,11 +359,8 @@ public class ComAdobeGraniteAuthImsImplIMSProviderImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

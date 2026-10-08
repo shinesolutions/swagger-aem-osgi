@@ -1,3 +1,13 @@
+/*
+ * Adobe Experience Manager OSGI config (AEM) API
+ *
+ * Swagger AEM OSGI is an OpenAPI specification for Adobe Experience Manager (AEM) OSGI Configurations API
+ *
+ * OpenAPI document version: 1.0.0-pre.0
+ * Maintained by: opensource@shinesolutions.com
+ *
+ * AUTO-GENERATED FILE, DO NOT MODIFY!
+ */
 package org.openapitools.model;
 
 import java.util.Objects;
@@ -15,65 +25,65 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2019-08-05T00:56:20.785Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2026-10-07T12:53:42.280804918Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheFelixHttpProperties   {
   
-  private ConfigNodePropertyString orgApacheFelixHttpHost = null;
-  private ConfigNodePropertyBoolean orgApacheFelixHttpEnable = null;
-  private ConfigNodePropertyInteger orgOsgiServiceHttpPort = null;
-  private ConfigNodePropertyInteger orgApacheFelixHttpTimeout = null;
-  private ConfigNodePropertyBoolean orgApacheFelixHttpsEnable = null;
-  private ConfigNodePropertyInteger orgOsgiServiceHttpPortSecure = null;
-  private ConfigNodePropertyString orgApacheFelixHttpsKeystore = null;
-  private ConfigNodePropertyString orgApacheFelixHttpsKeystorePassword = null;
-  private ConfigNodePropertyString orgApacheFelixHttpsKeystoreKeyPassword = null;
-  private ConfigNodePropertyString orgApacheFelixHttpsTruststore = null;
-  private ConfigNodePropertyString orgApacheFelixHttpsTruststorePassword = null;
-  private ConfigNodePropertyDropDown orgApacheFelixHttpsClientcertificate = null;
-  private ConfigNodePropertyString orgApacheFelixHttpContextPath = null;
-  private ConfigNodePropertyBoolean orgApacheFelixHttpMbeans = null;
-  private ConfigNodePropertyInteger orgApacheFelixHttpSessionTimeout = null;
-  private ConfigNodePropertyInteger orgApacheFelixHttpJettyThreadpoolMax = null;
-  private ConfigNodePropertyInteger orgApacheFelixHttpJettyAcceptors = null;
-  private ConfigNodePropertyInteger orgApacheFelixHttpJettySelectors = null;
-  private ConfigNodePropertyInteger orgApacheFelixHttpJettyHeaderBufferSize = null;
-  private ConfigNodePropertyInteger orgApacheFelixHttpJettyRequestBufferSize = null;
-  private ConfigNodePropertyInteger orgApacheFelixHttpJettyResponseBufferSize = null;
-  private ConfigNodePropertyInteger orgApacheFelixHttpJettyMaxFormSize = null;
-  private ConfigNodePropertyArray orgApacheFelixHttpPathExclusions = null;
-  private ConfigNodePropertyArray orgApacheFelixHttpsJettyCiphersuitesExcluded = null;
-  private ConfigNodePropertyArray orgApacheFelixHttpsJettyCiphersuitesIncluded = null;
-  private ConfigNodePropertyBoolean orgApacheFelixHttpJettySendServerHeader = null;
-  private ConfigNodePropertyArray orgApacheFelixHttpsJettyProtocolsIncluded = null;
-  private ConfigNodePropertyArray orgApacheFelixHttpsJettyProtocolsExcluded = null;
-  private ConfigNodePropertyBoolean orgApacheFelixProxyLoadBalancerConnectionEnable = null;
-  private ConfigNodePropertyBoolean orgApacheFelixHttpsJettyRenegotiateAllowed = null;
-  private ConfigNodePropertyBoolean orgApacheFelixHttpsJettySessionCookieHttpOnly = null;
-  private ConfigNodePropertyBoolean orgApacheFelixHttpsJettySessionCookieSecure = null;
-  private ConfigNodePropertyString orgEclipseJettyServletSessionIdPathParameterName = null;
-  private ConfigNodePropertyBoolean orgEclipseJettyServletCheckingRemoteSessionIdEncoding = null;
-  private ConfigNodePropertyString orgEclipseJettyServletSessionCookie = null;
-  private ConfigNodePropertyString orgEclipseJettyServletSessionDomain = null;
-  private ConfigNodePropertyString orgEclipseJettyServletSessionPath = null;
-  private ConfigNodePropertyInteger orgEclipseJettyServletMaxAge = null;
-  private ConfigNodePropertyString orgApacheFelixHttpName = null;
-  private ConfigNodePropertyBoolean orgApacheFelixJettyGziphandlerEnable = null;
-  private ConfigNodePropertyInteger orgApacheFelixJettyGzipMinGzipSize = null;
-  private ConfigNodePropertyInteger orgApacheFelixJettyGzipCompressionLevel = null;
-  private ConfigNodePropertyInteger orgApacheFelixJettyGzipInflateBufferSize = null;
-  private ConfigNodePropertyBoolean orgApacheFelixJettyGzipSyncFlush = null;
-  private ConfigNodePropertyArray orgApacheFelixJettyGzipExcludedUserAgents = null;
-  private ConfigNodePropertyArray orgApacheFelixJettyGzipIncludedMethods = null;
-  private ConfigNodePropertyArray orgApacheFelixJettyGzipExcludedMethods = null;
-  private ConfigNodePropertyArray orgApacheFelixJettyGzipIncludedPaths = null;
-  private ConfigNodePropertyArray orgApacheFelixJettyGzipExcludedPaths = null;
-  private ConfigNodePropertyArray orgApacheFelixJettyGzipIncludedMimeTypes = null;
-  private ConfigNodePropertyArray orgApacheFelixJettyGzipExcludedMimeTypes = null;
-  private ConfigNodePropertyBoolean orgApacheFelixHttpSessionInvalidate = null;
-  private ConfigNodePropertyBoolean orgApacheFelixHttpSessionUniqueid = null;
+  private ConfigNodePropertyString orgApacheFelixHttpHost;
+  private ConfigNodePropertyBoolean orgApacheFelixHttpEnable;
+  private ConfigNodePropertyInteger orgOsgiServiceHttpPort;
+  private ConfigNodePropertyInteger orgApacheFelixHttpTimeout;
+  private ConfigNodePropertyBoolean orgApacheFelixHttpsEnable;
+  private ConfigNodePropertyInteger orgOsgiServiceHttpPortSecure;
+  private ConfigNodePropertyString orgApacheFelixHttpsKeystore;
+  private ConfigNodePropertyString orgApacheFelixHttpsKeystorePassword;
+  private ConfigNodePropertyString orgApacheFelixHttpsKeystoreKeyPassword;
+  private ConfigNodePropertyString orgApacheFelixHttpsTruststore;
+  private ConfigNodePropertyString orgApacheFelixHttpsTruststorePassword;
+  private ConfigNodePropertyDropDown orgApacheFelixHttpsClientcertificate;
+  private ConfigNodePropertyString orgApacheFelixHttpContextPath;
+  private ConfigNodePropertyBoolean orgApacheFelixHttpMbeans;
+  private ConfigNodePropertyInteger orgApacheFelixHttpSessionTimeout;
+  private ConfigNodePropertyInteger orgApacheFelixHttpJettyThreadpoolMax;
+  private ConfigNodePropertyInteger orgApacheFelixHttpJettyAcceptors;
+  private ConfigNodePropertyInteger orgApacheFelixHttpJettySelectors;
+  private ConfigNodePropertyInteger orgApacheFelixHttpJettyHeaderBufferSize;
+  private ConfigNodePropertyInteger orgApacheFelixHttpJettyRequestBufferSize;
+  private ConfigNodePropertyInteger orgApacheFelixHttpJettyResponseBufferSize;
+  private ConfigNodePropertyInteger orgApacheFelixHttpJettyMaxFormSize;
+  private ConfigNodePropertyArray orgApacheFelixHttpPathExclusions;
+  private ConfigNodePropertyArray orgApacheFelixHttpsJettyCiphersuitesExcluded;
+  private ConfigNodePropertyArray orgApacheFelixHttpsJettyCiphersuitesIncluded;
+  private ConfigNodePropertyBoolean orgApacheFelixHttpJettySendServerHeader;
+  private ConfigNodePropertyArray orgApacheFelixHttpsJettyProtocolsIncluded;
+  private ConfigNodePropertyArray orgApacheFelixHttpsJettyProtocolsExcluded;
+  private ConfigNodePropertyBoolean orgApacheFelixProxyLoadBalancerConnectionEnable;
+  private ConfigNodePropertyBoolean orgApacheFelixHttpsJettyRenegotiateAllowed;
+  private ConfigNodePropertyBoolean orgApacheFelixHttpsJettySessionCookieHttpOnly;
+  private ConfigNodePropertyBoolean orgApacheFelixHttpsJettySessionCookieSecure;
+  private ConfigNodePropertyString orgEclipseJettyServletSessionIdPathParameterName;
+  private ConfigNodePropertyBoolean orgEclipseJettyServletCheckingRemoteSessionIdEncoding;
+  private ConfigNodePropertyString orgEclipseJettyServletSessionCookie;
+  private ConfigNodePropertyString orgEclipseJettyServletSessionDomain;
+  private ConfigNodePropertyString orgEclipseJettyServletSessionPath;
+  private ConfigNodePropertyInteger orgEclipseJettyServletMaxAge;
+  private ConfigNodePropertyString orgApacheFelixHttpName;
+  private ConfigNodePropertyBoolean orgApacheFelixJettyGziphandlerEnable;
+  private ConfigNodePropertyInteger orgApacheFelixJettyGzipMinGzipSize;
+  private ConfigNodePropertyInteger orgApacheFelixJettyGzipCompressionLevel;
+  private ConfigNodePropertyInteger orgApacheFelixJettyGzipInflateBufferSize;
+  private ConfigNodePropertyBoolean orgApacheFelixJettyGzipSyncFlush;
+  private ConfigNodePropertyArray orgApacheFelixJettyGzipExcludedUserAgents;
+  private ConfigNodePropertyArray orgApacheFelixJettyGzipIncludedMethods;
+  private ConfigNodePropertyArray orgApacheFelixJettyGzipExcludedMethods;
+  private ConfigNodePropertyArray orgApacheFelixJettyGzipIncludedPaths;
+  private ConfigNodePropertyArray orgApacheFelixJettyGzipExcludedPaths;
+  private ConfigNodePropertyArray orgApacheFelixJettyGzipIncludedMimeTypes;
+  private ConfigNodePropertyArray orgApacheFelixJettyGzipExcludedMimeTypes;
+  private ConfigNodePropertyBoolean orgApacheFelixHttpSessionInvalidate;
+  private ConfigNodePropertyBoolean orgApacheFelixHttpSessionUniqueid;
 
   /**
-   **/
+   */
   public OrgApacheFelixHttpProperties orgApacheFelixHttpHost(ConfigNodePropertyString orgApacheFelixHttpHost) {
     this.orgApacheFelixHttpHost = orgApacheFelixHttpHost;
     return this;
@@ -90,7 +100,7 @@ public class OrgApacheFelixHttpProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheFelixHttpProperties orgApacheFelixHttpEnable(ConfigNodePropertyBoolean orgApacheFelixHttpEnable) {
     this.orgApacheFelixHttpEnable = orgApacheFelixHttpEnable;
     return this;
@@ -107,7 +117,7 @@ public class OrgApacheFelixHttpProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheFelixHttpProperties orgOsgiServiceHttpPort(ConfigNodePropertyInteger orgOsgiServiceHttpPort) {
     this.orgOsgiServiceHttpPort = orgOsgiServiceHttpPort;
     return this;
@@ -124,7 +134,7 @@ public class OrgApacheFelixHttpProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheFelixHttpProperties orgApacheFelixHttpTimeout(ConfigNodePropertyInteger orgApacheFelixHttpTimeout) {
     this.orgApacheFelixHttpTimeout = orgApacheFelixHttpTimeout;
     return this;
@@ -141,7 +151,7 @@ public class OrgApacheFelixHttpProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheFelixHttpProperties orgApacheFelixHttpsEnable(ConfigNodePropertyBoolean orgApacheFelixHttpsEnable) {
     this.orgApacheFelixHttpsEnable = orgApacheFelixHttpsEnable;
     return this;
@@ -158,7 +168,7 @@ public class OrgApacheFelixHttpProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheFelixHttpProperties orgOsgiServiceHttpPortSecure(ConfigNodePropertyInteger orgOsgiServiceHttpPortSecure) {
     this.orgOsgiServiceHttpPortSecure = orgOsgiServiceHttpPortSecure;
     return this;
@@ -175,7 +185,7 @@ public class OrgApacheFelixHttpProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheFelixHttpProperties orgApacheFelixHttpsKeystore(ConfigNodePropertyString orgApacheFelixHttpsKeystore) {
     this.orgApacheFelixHttpsKeystore = orgApacheFelixHttpsKeystore;
     return this;
@@ -192,7 +202,7 @@ public class OrgApacheFelixHttpProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheFelixHttpProperties orgApacheFelixHttpsKeystorePassword(ConfigNodePropertyString orgApacheFelixHttpsKeystorePassword) {
     this.orgApacheFelixHttpsKeystorePassword = orgApacheFelixHttpsKeystorePassword;
     return this;
@@ -209,7 +219,7 @@ public class OrgApacheFelixHttpProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheFelixHttpProperties orgApacheFelixHttpsKeystoreKeyPassword(ConfigNodePropertyString orgApacheFelixHttpsKeystoreKeyPassword) {
     this.orgApacheFelixHttpsKeystoreKeyPassword = orgApacheFelixHttpsKeystoreKeyPassword;
     return this;
@@ -226,7 +236,7 @@ public class OrgApacheFelixHttpProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheFelixHttpProperties orgApacheFelixHttpsTruststore(ConfigNodePropertyString orgApacheFelixHttpsTruststore) {
     this.orgApacheFelixHttpsTruststore = orgApacheFelixHttpsTruststore;
     return this;
@@ -243,7 +253,7 @@ public class OrgApacheFelixHttpProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheFelixHttpProperties orgApacheFelixHttpsTruststorePassword(ConfigNodePropertyString orgApacheFelixHttpsTruststorePassword) {
     this.orgApacheFelixHttpsTruststorePassword = orgApacheFelixHttpsTruststorePassword;
     return this;
@@ -260,7 +270,7 @@ public class OrgApacheFelixHttpProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheFelixHttpProperties orgApacheFelixHttpsClientcertificate(ConfigNodePropertyDropDown orgApacheFelixHttpsClientcertificate) {
     this.orgApacheFelixHttpsClientcertificate = orgApacheFelixHttpsClientcertificate;
     return this;
@@ -277,7 +287,7 @@ public class OrgApacheFelixHttpProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheFelixHttpProperties orgApacheFelixHttpContextPath(ConfigNodePropertyString orgApacheFelixHttpContextPath) {
     this.orgApacheFelixHttpContextPath = orgApacheFelixHttpContextPath;
     return this;
@@ -294,7 +304,7 @@ public class OrgApacheFelixHttpProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheFelixHttpProperties orgApacheFelixHttpMbeans(ConfigNodePropertyBoolean orgApacheFelixHttpMbeans) {
     this.orgApacheFelixHttpMbeans = orgApacheFelixHttpMbeans;
     return this;
@@ -311,7 +321,7 @@ public class OrgApacheFelixHttpProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheFelixHttpProperties orgApacheFelixHttpSessionTimeout(ConfigNodePropertyInteger orgApacheFelixHttpSessionTimeout) {
     this.orgApacheFelixHttpSessionTimeout = orgApacheFelixHttpSessionTimeout;
     return this;
@@ -328,7 +338,7 @@ public class OrgApacheFelixHttpProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheFelixHttpProperties orgApacheFelixHttpJettyThreadpoolMax(ConfigNodePropertyInteger orgApacheFelixHttpJettyThreadpoolMax) {
     this.orgApacheFelixHttpJettyThreadpoolMax = orgApacheFelixHttpJettyThreadpoolMax;
     return this;
@@ -345,7 +355,7 @@ public class OrgApacheFelixHttpProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheFelixHttpProperties orgApacheFelixHttpJettyAcceptors(ConfigNodePropertyInteger orgApacheFelixHttpJettyAcceptors) {
     this.orgApacheFelixHttpJettyAcceptors = orgApacheFelixHttpJettyAcceptors;
     return this;
@@ -362,7 +372,7 @@ public class OrgApacheFelixHttpProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheFelixHttpProperties orgApacheFelixHttpJettySelectors(ConfigNodePropertyInteger orgApacheFelixHttpJettySelectors) {
     this.orgApacheFelixHttpJettySelectors = orgApacheFelixHttpJettySelectors;
     return this;
@@ -379,7 +389,7 @@ public class OrgApacheFelixHttpProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheFelixHttpProperties orgApacheFelixHttpJettyHeaderBufferSize(ConfigNodePropertyInteger orgApacheFelixHttpJettyHeaderBufferSize) {
     this.orgApacheFelixHttpJettyHeaderBufferSize = orgApacheFelixHttpJettyHeaderBufferSize;
     return this;
@@ -396,7 +406,7 @@ public class OrgApacheFelixHttpProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheFelixHttpProperties orgApacheFelixHttpJettyRequestBufferSize(ConfigNodePropertyInteger orgApacheFelixHttpJettyRequestBufferSize) {
     this.orgApacheFelixHttpJettyRequestBufferSize = orgApacheFelixHttpJettyRequestBufferSize;
     return this;
@@ -413,7 +423,7 @@ public class OrgApacheFelixHttpProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheFelixHttpProperties orgApacheFelixHttpJettyResponseBufferSize(ConfigNodePropertyInteger orgApacheFelixHttpJettyResponseBufferSize) {
     this.orgApacheFelixHttpJettyResponseBufferSize = orgApacheFelixHttpJettyResponseBufferSize;
     return this;
@@ -430,7 +440,7 @@ public class OrgApacheFelixHttpProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheFelixHttpProperties orgApacheFelixHttpJettyMaxFormSize(ConfigNodePropertyInteger orgApacheFelixHttpJettyMaxFormSize) {
     this.orgApacheFelixHttpJettyMaxFormSize = orgApacheFelixHttpJettyMaxFormSize;
     return this;
@@ -447,7 +457,7 @@ public class OrgApacheFelixHttpProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheFelixHttpProperties orgApacheFelixHttpPathExclusions(ConfigNodePropertyArray orgApacheFelixHttpPathExclusions) {
     this.orgApacheFelixHttpPathExclusions = orgApacheFelixHttpPathExclusions;
     return this;
@@ -464,7 +474,7 @@ public class OrgApacheFelixHttpProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheFelixHttpProperties orgApacheFelixHttpsJettyCiphersuitesExcluded(ConfigNodePropertyArray orgApacheFelixHttpsJettyCiphersuitesExcluded) {
     this.orgApacheFelixHttpsJettyCiphersuitesExcluded = orgApacheFelixHttpsJettyCiphersuitesExcluded;
     return this;
@@ -481,7 +491,7 @@ public class OrgApacheFelixHttpProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheFelixHttpProperties orgApacheFelixHttpsJettyCiphersuitesIncluded(ConfigNodePropertyArray orgApacheFelixHttpsJettyCiphersuitesIncluded) {
     this.orgApacheFelixHttpsJettyCiphersuitesIncluded = orgApacheFelixHttpsJettyCiphersuitesIncluded;
     return this;
@@ -498,7 +508,7 @@ public class OrgApacheFelixHttpProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheFelixHttpProperties orgApacheFelixHttpJettySendServerHeader(ConfigNodePropertyBoolean orgApacheFelixHttpJettySendServerHeader) {
     this.orgApacheFelixHttpJettySendServerHeader = orgApacheFelixHttpJettySendServerHeader;
     return this;
@@ -515,7 +525,7 @@ public class OrgApacheFelixHttpProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheFelixHttpProperties orgApacheFelixHttpsJettyProtocolsIncluded(ConfigNodePropertyArray orgApacheFelixHttpsJettyProtocolsIncluded) {
     this.orgApacheFelixHttpsJettyProtocolsIncluded = orgApacheFelixHttpsJettyProtocolsIncluded;
     return this;
@@ -532,7 +542,7 @@ public class OrgApacheFelixHttpProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheFelixHttpProperties orgApacheFelixHttpsJettyProtocolsExcluded(ConfigNodePropertyArray orgApacheFelixHttpsJettyProtocolsExcluded) {
     this.orgApacheFelixHttpsJettyProtocolsExcluded = orgApacheFelixHttpsJettyProtocolsExcluded;
     return this;
@@ -549,7 +559,7 @@ public class OrgApacheFelixHttpProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheFelixHttpProperties orgApacheFelixProxyLoadBalancerConnectionEnable(ConfigNodePropertyBoolean orgApacheFelixProxyLoadBalancerConnectionEnable) {
     this.orgApacheFelixProxyLoadBalancerConnectionEnable = orgApacheFelixProxyLoadBalancerConnectionEnable;
     return this;
@@ -566,7 +576,7 @@ public class OrgApacheFelixHttpProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheFelixHttpProperties orgApacheFelixHttpsJettyRenegotiateAllowed(ConfigNodePropertyBoolean orgApacheFelixHttpsJettyRenegotiateAllowed) {
     this.orgApacheFelixHttpsJettyRenegotiateAllowed = orgApacheFelixHttpsJettyRenegotiateAllowed;
     return this;
@@ -583,7 +593,7 @@ public class OrgApacheFelixHttpProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheFelixHttpProperties orgApacheFelixHttpsJettySessionCookieHttpOnly(ConfigNodePropertyBoolean orgApacheFelixHttpsJettySessionCookieHttpOnly) {
     this.orgApacheFelixHttpsJettySessionCookieHttpOnly = orgApacheFelixHttpsJettySessionCookieHttpOnly;
     return this;
@@ -600,7 +610,7 @@ public class OrgApacheFelixHttpProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheFelixHttpProperties orgApacheFelixHttpsJettySessionCookieSecure(ConfigNodePropertyBoolean orgApacheFelixHttpsJettySessionCookieSecure) {
     this.orgApacheFelixHttpsJettySessionCookieSecure = orgApacheFelixHttpsJettySessionCookieSecure;
     return this;
@@ -617,7 +627,7 @@ public class OrgApacheFelixHttpProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheFelixHttpProperties orgEclipseJettyServletSessionIdPathParameterName(ConfigNodePropertyString orgEclipseJettyServletSessionIdPathParameterName) {
     this.orgEclipseJettyServletSessionIdPathParameterName = orgEclipseJettyServletSessionIdPathParameterName;
     return this;
@@ -634,7 +644,7 @@ public class OrgApacheFelixHttpProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheFelixHttpProperties orgEclipseJettyServletCheckingRemoteSessionIdEncoding(ConfigNodePropertyBoolean orgEclipseJettyServletCheckingRemoteSessionIdEncoding) {
     this.orgEclipseJettyServletCheckingRemoteSessionIdEncoding = orgEclipseJettyServletCheckingRemoteSessionIdEncoding;
     return this;
@@ -651,7 +661,7 @@ public class OrgApacheFelixHttpProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheFelixHttpProperties orgEclipseJettyServletSessionCookie(ConfigNodePropertyString orgEclipseJettyServletSessionCookie) {
     this.orgEclipseJettyServletSessionCookie = orgEclipseJettyServletSessionCookie;
     return this;
@@ -668,7 +678,7 @@ public class OrgApacheFelixHttpProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheFelixHttpProperties orgEclipseJettyServletSessionDomain(ConfigNodePropertyString orgEclipseJettyServletSessionDomain) {
     this.orgEclipseJettyServletSessionDomain = orgEclipseJettyServletSessionDomain;
     return this;
@@ -685,7 +695,7 @@ public class OrgApacheFelixHttpProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheFelixHttpProperties orgEclipseJettyServletSessionPath(ConfigNodePropertyString orgEclipseJettyServletSessionPath) {
     this.orgEclipseJettyServletSessionPath = orgEclipseJettyServletSessionPath;
     return this;
@@ -702,7 +712,7 @@ public class OrgApacheFelixHttpProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheFelixHttpProperties orgEclipseJettyServletMaxAge(ConfigNodePropertyInteger orgEclipseJettyServletMaxAge) {
     this.orgEclipseJettyServletMaxAge = orgEclipseJettyServletMaxAge;
     return this;
@@ -719,7 +729,7 @@ public class OrgApacheFelixHttpProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheFelixHttpProperties orgApacheFelixHttpName(ConfigNodePropertyString orgApacheFelixHttpName) {
     this.orgApacheFelixHttpName = orgApacheFelixHttpName;
     return this;
@@ -736,7 +746,7 @@ public class OrgApacheFelixHttpProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheFelixHttpProperties orgApacheFelixJettyGziphandlerEnable(ConfigNodePropertyBoolean orgApacheFelixJettyGziphandlerEnable) {
     this.orgApacheFelixJettyGziphandlerEnable = orgApacheFelixJettyGziphandlerEnable;
     return this;
@@ -753,7 +763,7 @@ public class OrgApacheFelixHttpProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheFelixHttpProperties orgApacheFelixJettyGzipMinGzipSize(ConfigNodePropertyInteger orgApacheFelixJettyGzipMinGzipSize) {
     this.orgApacheFelixJettyGzipMinGzipSize = orgApacheFelixJettyGzipMinGzipSize;
     return this;
@@ -770,7 +780,7 @@ public class OrgApacheFelixHttpProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheFelixHttpProperties orgApacheFelixJettyGzipCompressionLevel(ConfigNodePropertyInteger orgApacheFelixJettyGzipCompressionLevel) {
     this.orgApacheFelixJettyGzipCompressionLevel = orgApacheFelixJettyGzipCompressionLevel;
     return this;
@@ -787,7 +797,7 @@ public class OrgApacheFelixHttpProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheFelixHttpProperties orgApacheFelixJettyGzipInflateBufferSize(ConfigNodePropertyInteger orgApacheFelixJettyGzipInflateBufferSize) {
     this.orgApacheFelixJettyGzipInflateBufferSize = orgApacheFelixJettyGzipInflateBufferSize;
     return this;
@@ -804,7 +814,7 @@ public class OrgApacheFelixHttpProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheFelixHttpProperties orgApacheFelixJettyGzipSyncFlush(ConfigNodePropertyBoolean orgApacheFelixJettyGzipSyncFlush) {
     this.orgApacheFelixJettyGzipSyncFlush = orgApacheFelixJettyGzipSyncFlush;
     return this;
@@ -821,7 +831,7 @@ public class OrgApacheFelixHttpProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheFelixHttpProperties orgApacheFelixJettyGzipExcludedUserAgents(ConfigNodePropertyArray orgApacheFelixJettyGzipExcludedUserAgents) {
     this.orgApacheFelixJettyGzipExcludedUserAgents = orgApacheFelixJettyGzipExcludedUserAgents;
     return this;
@@ -838,7 +848,7 @@ public class OrgApacheFelixHttpProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheFelixHttpProperties orgApacheFelixJettyGzipIncludedMethods(ConfigNodePropertyArray orgApacheFelixJettyGzipIncludedMethods) {
     this.orgApacheFelixJettyGzipIncludedMethods = orgApacheFelixJettyGzipIncludedMethods;
     return this;
@@ -855,7 +865,7 @@ public class OrgApacheFelixHttpProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheFelixHttpProperties orgApacheFelixJettyGzipExcludedMethods(ConfigNodePropertyArray orgApacheFelixJettyGzipExcludedMethods) {
     this.orgApacheFelixJettyGzipExcludedMethods = orgApacheFelixJettyGzipExcludedMethods;
     return this;
@@ -872,7 +882,7 @@ public class OrgApacheFelixHttpProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheFelixHttpProperties orgApacheFelixJettyGzipIncludedPaths(ConfigNodePropertyArray orgApacheFelixJettyGzipIncludedPaths) {
     this.orgApacheFelixJettyGzipIncludedPaths = orgApacheFelixJettyGzipIncludedPaths;
     return this;
@@ -889,7 +899,7 @@ public class OrgApacheFelixHttpProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheFelixHttpProperties orgApacheFelixJettyGzipExcludedPaths(ConfigNodePropertyArray orgApacheFelixJettyGzipExcludedPaths) {
     this.orgApacheFelixJettyGzipExcludedPaths = orgApacheFelixJettyGzipExcludedPaths;
     return this;
@@ -906,7 +916,7 @@ public class OrgApacheFelixHttpProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheFelixHttpProperties orgApacheFelixJettyGzipIncludedMimeTypes(ConfigNodePropertyArray orgApacheFelixJettyGzipIncludedMimeTypes) {
     this.orgApacheFelixJettyGzipIncludedMimeTypes = orgApacheFelixJettyGzipIncludedMimeTypes;
     return this;
@@ -923,7 +933,7 @@ public class OrgApacheFelixHttpProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheFelixHttpProperties orgApacheFelixJettyGzipExcludedMimeTypes(ConfigNodePropertyArray orgApacheFelixJettyGzipExcludedMimeTypes) {
     this.orgApacheFelixJettyGzipExcludedMimeTypes = orgApacheFelixJettyGzipExcludedMimeTypes;
     return this;
@@ -940,7 +950,7 @@ public class OrgApacheFelixHttpProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheFelixHttpProperties orgApacheFelixHttpSessionInvalidate(ConfigNodePropertyBoolean orgApacheFelixHttpSessionInvalidate) {
     this.orgApacheFelixHttpSessionInvalidate = orgApacheFelixHttpSessionInvalidate;
     return this;
@@ -957,7 +967,7 @@ public class OrgApacheFelixHttpProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheFelixHttpProperties orgApacheFelixHttpSessionUniqueid(ConfigNodePropertyBoolean orgApacheFelixHttpSessionUniqueid) {
     this.orgApacheFelixHttpSessionUniqueid = orgApacheFelixHttpSessionUniqueid;
     return this;
@@ -975,7 +985,7 @@ public class OrgApacheFelixHttpProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -1109,11 +1119,8 @@ public class OrgApacheFelixHttpProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

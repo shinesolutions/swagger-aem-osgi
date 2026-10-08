@@ -8,8 +8,8 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeGraniteResourcestatusImplCompositeStatusTypeProperties {
-    ConfigNodePropertyString name = null
-
-    ConfigNodePropertyArray types = null
-
+    
+    ConfigNodePropertyString name
+    
+    ConfigNodePropertyArray types
 }

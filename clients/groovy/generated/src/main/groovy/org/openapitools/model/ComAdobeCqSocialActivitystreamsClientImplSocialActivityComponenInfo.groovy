@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqSocialActivitystreamsClientImplSocialAct
 
 @Canonical
 class ComAdobeCqSocialActivitystreamsClientImplSocialActivityComponenInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqSocialActivitystreamsClientImplSocialActivityComponenProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqSocialActivitystreamsClientImplSocialActivityComponenProperties properties
 }

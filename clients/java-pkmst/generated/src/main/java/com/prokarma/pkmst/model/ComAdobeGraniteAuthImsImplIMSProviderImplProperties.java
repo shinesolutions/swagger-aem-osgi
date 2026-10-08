@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyArray;
 import com.prokarma.pkmst.model.ConfigNodePropertyBoolean;
 import com.prokarma.pkmst.model.ConfigNodePropertyString;
@@ -17,57 +18,56 @@ import io.swagger.annotations.ApiModelProperty;
  * ComAdobeGraniteAuthImsImplIMSProviderImplProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteAuthImsImplIMSProviderImplProperties   {
   @JsonProperty("oauth.provider.id")
-  private ConfigNodePropertyString oauthProviderId = null;
+  private ConfigNodePropertyString oauthProviderId;
 
   @JsonProperty("oauth.provider.ims.authorization.url")
-  private ConfigNodePropertyString oauthProviderImsAuthorizationUrl = null;
+  private ConfigNodePropertyString oauthProviderImsAuthorizationUrl;
 
   @JsonProperty("oauth.provider.ims.token.url")
-  private ConfigNodePropertyString oauthProviderImsTokenUrl = null;
+  private ConfigNodePropertyString oauthProviderImsTokenUrl;
 
   @JsonProperty("oauth.provider.ims.profile.url")
-  private ConfigNodePropertyString oauthProviderImsProfileUrl = null;
+  private ConfigNodePropertyString oauthProviderImsProfileUrl;
 
   @JsonProperty("oauth.provider.ims.extended.details.urls")
-  private ConfigNodePropertyArray oauthProviderImsExtendedDetailsUrls = null;
+  private ConfigNodePropertyArray oauthProviderImsExtendedDetailsUrls;
 
   @JsonProperty("oauth.provider.ims.validate.token.url")
-  private ConfigNodePropertyString oauthProviderImsValidateTokenUrl = null;
+  private ConfigNodePropertyString oauthProviderImsValidateTokenUrl;
 
   @JsonProperty("oauth.provider.ims.session.property")
-  private ConfigNodePropertyString oauthProviderImsSessionProperty = null;
+  private ConfigNodePropertyString oauthProviderImsSessionProperty;
 
   @JsonProperty("oauth.provider.ims.service.token.client.id")
-  private ConfigNodePropertyString oauthProviderImsServiceTokenClientId = null;
+  private ConfigNodePropertyString oauthProviderImsServiceTokenClientId;
 
   @JsonProperty("oauth.provider.ims.service.token.client.secret")
-  private ConfigNodePropertyString oauthProviderImsServiceTokenClientSecret = null;
+  private ConfigNodePropertyString oauthProviderImsServiceTokenClientSecret;
 
   @JsonProperty("oauth.provider.ims.service.token")
-  private ConfigNodePropertyString oauthProviderImsServiceToken = null;
+  private ConfigNodePropertyString oauthProviderImsServiceToken;
 
   @JsonProperty("ims.org.ref")
-  private ConfigNodePropertyString imsOrgRef = null;
+  private ConfigNodePropertyString imsOrgRef;
 
   @JsonProperty("ims.group.mapping")
-  private ConfigNodePropertyArray imsGroupMapping = null;
+  private ConfigNodePropertyArray imsGroupMapping;
 
   @JsonProperty("oauth.provider.ims.only.license.group")
-  private ConfigNodePropertyBoolean oauthProviderImsOnlyLicenseGroup = null;
+  private ConfigNodePropertyBoolean oauthProviderImsOnlyLicenseGroup;
 
   public ComAdobeGraniteAuthImsImplIMSProviderImplProperties oauthProviderId(ConfigNodePropertyString oauthProviderId) {
     this.oauthProviderId = oauthProviderId;
     return this;
   }
 
-   /**
+  /**
    * Get oauthProviderId
    * @return oauthProviderId
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getOauthProviderId() {
     return oauthProviderId;
@@ -82,10 +82,10 @@ public class ComAdobeGraniteAuthImsImplIMSProviderImplProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get oauthProviderImsAuthorizationUrl
    * @return oauthProviderImsAuthorizationUrl
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getOauthProviderImsAuthorizationUrl() {
     return oauthProviderImsAuthorizationUrl;
@@ -100,10 +100,10 @@ public class ComAdobeGraniteAuthImsImplIMSProviderImplProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get oauthProviderImsTokenUrl
    * @return oauthProviderImsTokenUrl
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getOauthProviderImsTokenUrl() {
     return oauthProviderImsTokenUrl;
@@ -118,10 +118,10 @@ public class ComAdobeGraniteAuthImsImplIMSProviderImplProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get oauthProviderImsProfileUrl
    * @return oauthProviderImsProfileUrl
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getOauthProviderImsProfileUrl() {
     return oauthProviderImsProfileUrl;
@@ -136,10 +136,10 @@ public class ComAdobeGraniteAuthImsImplIMSProviderImplProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get oauthProviderImsExtendedDetailsUrls
    * @return oauthProviderImsExtendedDetailsUrls
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getOauthProviderImsExtendedDetailsUrls() {
     return oauthProviderImsExtendedDetailsUrls;
@@ -154,10 +154,10 @@ public class ComAdobeGraniteAuthImsImplIMSProviderImplProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get oauthProviderImsValidateTokenUrl
    * @return oauthProviderImsValidateTokenUrl
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getOauthProviderImsValidateTokenUrl() {
     return oauthProviderImsValidateTokenUrl;
@@ -172,10 +172,10 @@ public class ComAdobeGraniteAuthImsImplIMSProviderImplProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get oauthProviderImsSessionProperty
    * @return oauthProviderImsSessionProperty
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getOauthProviderImsSessionProperty() {
     return oauthProviderImsSessionProperty;
@@ -190,10 +190,10 @@ public class ComAdobeGraniteAuthImsImplIMSProviderImplProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get oauthProviderImsServiceTokenClientId
    * @return oauthProviderImsServiceTokenClientId
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getOauthProviderImsServiceTokenClientId() {
     return oauthProviderImsServiceTokenClientId;
@@ -208,10 +208,10 @@ public class ComAdobeGraniteAuthImsImplIMSProviderImplProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get oauthProviderImsServiceTokenClientSecret
    * @return oauthProviderImsServiceTokenClientSecret
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getOauthProviderImsServiceTokenClientSecret() {
     return oauthProviderImsServiceTokenClientSecret;
@@ -226,10 +226,10 @@ public class ComAdobeGraniteAuthImsImplIMSProviderImplProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get oauthProviderImsServiceToken
    * @return oauthProviderImsServiceToken
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getOauthProviderImsServiceToken() {
     return oauthProviderImsServiceToken;
@@ -244,10 +244,10 @@ public class ComAdobeGraniteAuthImsImplIMSProviderImplProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get imsOrgRef
    * @return imsOrgRef
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getImsOrgRef() {
     return imsOrgRef;
@@ -262,10 +262,10 @@ public class ComAdobeGraniteAuthImsImplIMSProviderImplProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get imsGroupMapping
    * @return imsGroupMapping
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getImsGroupMapping() {
     return imsGroupMapping;
@@ -280,10 +280,10 @@ public class ComAdobeGraniteAuthImsImplIMSProviderImplProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get oauthProviderImsOnlyLicenseGroup
    * @return oauthProviderImsOnlyLicenseGroup
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getOauthProviderImsOnlyLicenseGroup() {
     return oauthProviderImsOnlyLicenseGroup;
@@ -295,7 +295,7 @@ public class ComAdobeGraniteAuthImsImplIMSProviderImplProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -349,11 +349,8 @@ public class ComAdobeGraniteAuthImsImplIMSProviderImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqAnalyticsImplStorePropertiesChangeListener
 
 @Canonical
 class ComDayCqAnalyticsImplStorePropertiesChangeListenerInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqAnalyticsImplStorePropertiesChangeListenerProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqAnalyticsImplStorePropertiesChangeListenerProperties properties
 }

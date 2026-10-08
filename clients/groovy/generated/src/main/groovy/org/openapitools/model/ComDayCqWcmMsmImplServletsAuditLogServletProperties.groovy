@@ -8,8 +8,8 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqWcmMsmImplServletsAuditLogServletProperties {
-    ConfigNodePropertyInteger auditlogservletDefaultEventsCount = null
-
-    ConfigNodePropertyString auditlogservletDefaultPath = null
-
+    
+    ConfigNodePropertyInteger auditlogservletDefaultEventsCount
+    
+    ConfigNodePropertyString auditlogservletDefaultPath
 }

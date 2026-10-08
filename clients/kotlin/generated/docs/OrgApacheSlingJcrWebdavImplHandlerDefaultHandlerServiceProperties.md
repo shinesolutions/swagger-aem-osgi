@@ -2,12 +2,12 @@
 # OrgApacheSlingJcrWebdavImplHandlerDefaultHandlerServiceProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**servicePeriodranking** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**typePeriodcollections** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**typePeriodnoncollections** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**typePeriodcontent** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **serviceRanking** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **typeCollections** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **typeNoncollections** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **typeContent** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
 
 
 

@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyString;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
@@ -15,30 +16,29 @@ import io.swagger.annotations.ApiModelProperty;
  * ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProperties   {
   @JsonProperty("name")
-  private ConfigNodePropertyString name = null;
+  private ConfigNodePropertyString name;
 
   @JsonProperty("serviceName")
-  private ConfigNodePropertyString serviceName = null;
+  private ConfigNodePropertyString serviceName;
 
   @JsonProperty("userId")
-  private ConfigNodePropertyString userId = null;
+  private ConfigNodePropertyString userId;
 
   @JsonProperty("accessTokenProvider.target")
-  private ConfigNodePropertyString accessTokenProviderTarget = null;
+  private ConfigNodePropertyString accessTokenProviderTarget;
 
   public ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProperties name(ConfigNodePropertyString name) {
     this.name = name;
     return this;
   }
 
-   /**
+  /**
    * Get name
    * @return name
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getName() {
     return name;
@@ -53,10 +53,10 @@ public class ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProp
     return this;
   }
 
-   /**
+  /**
    * Get serviceName
    * @return serviceName
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getServiceName() {
     return serviceName;
@@ -71,10 +71,10 @@ public class ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProp
     return this;
   }
 
-   /**
+  /**
    * Get userId
    * @return userId
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getUserId() {
     return userId;
@@ -89,10 +89,10 @@ public class ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProp
     return this;
   }
 
-   /**
+  /**
    * Get accessTokenProviderTarget
    * @return accessTokenProviderTarget
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getAccessTokenProviderTarget() {
     return accessTokenProviderTarget;
@@ -104,7 +104,7 @@ public class ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProp
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -140,11 +140,8 @@ public class ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProp
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

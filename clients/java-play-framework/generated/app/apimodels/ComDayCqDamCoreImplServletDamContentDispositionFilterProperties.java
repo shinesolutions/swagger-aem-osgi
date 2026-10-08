@@ -2,23 +2,28 @@ package apimodels;
 
 import apimodels.ConfigNodePropertyArray;
 import apimodels.ConfigNodePropertyBoolean;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * ComDayCqDamCoreImplServletDamContentDispositionFilterProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class ComDayCqDamCoreImplServletDamContentDispositionFilterProperties   {
   @JsonProperty("cq.mime.type.blacklist")
-  private ConfigNodePropertyArray cqMimeTypeBlacklist = null;
+  @Valid
+
+  private ConfigNodePropertyArray cqMimeTypeBlacklist;
 
   @JsonProperty("cq.dam.empty.mime")
-  private ConfigNodePropertyBoolean cqDamEmptyMime = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean cqDamEmptyMime;
 
   public ComDayCqDamCoreImplServletDamContentDispositionFilterProperties cqMimeTypeBlacklist(ConfigNodePropertyArray cqMimeTypeBlacklist) {
     this.cqMimeTypeBlacklist = cqMimeTypeBlacklist;
@@ -29,7 +34,6 @@ public class ComDayCqDamCoreImplServletDamContentDispositionFilterProperties   {
    * Get cqMimeTypeBlacklist
    * @return cqMimeTypeBlacklist
   **/
-  @Valid
   public ConfigNodePropertyArray getCqMimeTypeBlacklist() {
     return cqMimeTypeBlacklist;
   }
@@ -47,7 +51,6 @@ public class ComDayCqDamCoreImplServletDamContentDispositionFilterProperties   {
    * Get cqDamEmptyMime
    * @return cqDamEmptyMime
   **/
-  @Valid
   public ConfigNodePropertyBoolean getCqDamEmptyMime() {
     return cqDamEmptyMime;
   }
@@ -58,7 +61,7 @@ public class ComDayCqDamCoreImplServletDamContentDispositionFilterProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -91,11 +94,8 @@ public class ComDayCqDamCoreImplServletDamContentDispositionFilterProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

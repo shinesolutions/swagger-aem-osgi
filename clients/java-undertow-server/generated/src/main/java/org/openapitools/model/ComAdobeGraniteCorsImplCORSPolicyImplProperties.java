@@ -1,3 +1,13 @@
+/*
+ * Adobe Experience Manager OSGI config (AEM) API
+ *
+ * Swagger AEM OSGI is an OpenAPI specification for Adobe Experience Manager (AEM) OSGI Configurations API
+ *
+ * OpenAPI document version: 1.0.0-pre.0
+ * Maintained by: opensource@shinesolutions.com
+ *
+ * AUTO-GENERATED FILE, DO NOT MODIFY!
+ */
 package org.openapitools.model;
 
 import java.util.Objects;
@@ -13,20 +23,20 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2019-08-05T00:56:20.785Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2026-10-07T12:53:42.280804918Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteCorsImplCORSPolicyImplProperties   {
   
-  private ConfigNodePropertyArray alloworigin = null;
-  private ConfigNodePropertyArray alloworiginregexp = null;
-  private ConfigNodePropertyArray allowedpaths = null;
-  private ConfigNodePropertyArray exposedheaders = null;
-  private ConfigNodePropertyInteger maxage = null;
-  private ConfigNodePropertyArray supportedheaders = null;
-  private ConfigNodePropertyArray supportedmethods = null;
-  private ConfigNodePropertyBoolean supportscredentials = null;
+  private ConfigNodePropertyArray alloworigin;
+  private ConfigNodePropertyArray alloworiginregexp;
+  private ConfigNodePropertyArray allowedpaths;
+  private ConfigNodePropertyArray exposedheaders;
+  private ConfigNodePropertyInteger maxage;
+  private ConfigNodePropertyArray supportedheaders;
+  private ConfigNodePropertyArray supportedmethods;
+  private ConfigNodePropertyBoolean supportscredentials;
 
   /**
-   **/
+   */
   public ComAdobeGraniteCorsImplCORSPolicyImplProperties alloworigin(ConfigNodePropertyArray alloworigin) {
     this.alloworigin = alloworigin;
     return this;
@@ -43,7 +53,7 @@ public class ComAdobeGraniteCorsImplCORSPolicyImplProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeGraniteCorsImplCORSPolicyImplProperties alloworiginregexp(ConfigNodePropertyArray alloworiginregexp) {
     this.alloworiginregexp = alloworiginregexp;
     return this;
@@ -60,7 +70,7 @@ public class ComAdobeGraniteCorsImplCORSPolicyImplProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeGraniteCorsImplCORSPolicyImplProperties allowedpaths(ConfigNodePropertyArray allowedpaths) {
     this.allowedpaths = allowedpaths;
     return this;
@@ -77,7 +87,7 @@ public class ComAdobeGraniteCorsImplCORSPolicyImplProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeGraniteCorsImplCORSPolicyImplProperties exposedheaders(ConfigNodePropertyArray exposedheaders) {
     this.exposedheaders = exposedheaders;
     return this;
@@ -94,7 +104,7 @@ public class ComAdobeGraniteCorsImplCORSPolicyImplProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeGraniteCorsImplCORSPolicyImplProperties maxage(ConfigNodePropertyInteger maxage) {
     this.maxage = maxage;
     return this;
@@ -111,7 +121,7 @@ public class ComAdobeGraniteCorsImplCORSPolicyImplProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeGraniteCorsImplCORSPolicyImplProperties supportedheaders(ConfigNodePropertyArray supportedheaders) {
     this.supportedheaders = supportedheaders;
     return this;
@@ -128,7 +138,7 @@ public class ComAdobeGraniteCorsImplCORSPolicyImplProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeGraniteCorsImplCORSPolicyImplProperties supportedmethods(ConfigNodePropertyArray supportedmethods) {
     this.supportedmethods = supportedmethods;
     return this;
@@ -145,7 +155,7 @@ public class ComAdobeGraniteCorsImplCORSPolicyImplProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeGraniteCorsImplCORSPolicyImplProperties supportscredentials(ConfigNodePropertyBoolean supportscredentials) {
     this.supportscredentials = supportscredentials;
     return this;
@@ -163,7 +173,7 @@ public class ComAdobeGraniteCorsImplCORSPolicyImplProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -207,11 +217,8 @@ public class ComAdobeGraniteCorsImplCORSPolicyImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

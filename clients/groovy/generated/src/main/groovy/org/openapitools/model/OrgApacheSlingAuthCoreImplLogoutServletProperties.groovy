@@ -8,8 +8,8 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class OrgApacheSlingAuthCoreImplLogoutServletProperties {
-    ConfigNodePropertyArray slingServletMethods = null
-
-    ConfigNodePropertyString slingServletPaths = null
-
+    
+    ConfigNodePropertyArray slingServletMethods
+    
+    ConfigNodePropertyString slingServletPaths
 }

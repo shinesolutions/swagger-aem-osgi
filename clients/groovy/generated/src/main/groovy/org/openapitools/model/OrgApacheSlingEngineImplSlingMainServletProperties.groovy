@@ -10,18 +10,18 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class OrgApacheSlingEngineImplSlingMainServletProperties {
-    ConfigNodePropertyInteger slingMaxCalls = null
-
-    ConfigNodePropertyInteger slingMaxInclusions = null
-
-    ConfigNodePropertyBoolean slingTraceAllow = null
-
-    ConfigNodePropertyInteger slingMaxRecordRequests = null
-
-    ConfigNodePropertyArray slingStorePatternRequests = null
-
-    ConfigNodePropertyString slingServerinfo = null
-
-    ConfigNodePropertyArray slingAdditionalResponseHeaders = null
-
+    
+    ConfigNodePropertyInteger slingMaxCalls
+    
+    ConfigNodePropertyInteger slingMaxInclusions
+    
+    ConfigNodePropertyBoolean slingTraceAllow
+    
+    ConfigNodePropertyInteger slingMaxRecordRequests
+    
+    ConfigNodePropertyArray slingStorePatternRequests
+    
+    ConfigNodePropertyString slingServerinfo
+    
+    ConfigNodePropertyArray slingAdditionalResponseHeaders
 }

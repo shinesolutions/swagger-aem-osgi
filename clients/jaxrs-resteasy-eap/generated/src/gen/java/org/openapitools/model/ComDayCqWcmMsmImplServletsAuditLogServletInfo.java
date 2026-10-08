@@ -4,24 +4,21 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ComDayCqWcmMsmImplServletsAuditLogServletProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2019-08-05T01:00:05.540Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2026-10-07T12:54:26.576036107Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqWcmMsmImplServletsAuditLogServletInfo   {
   
-
-  private String pid = null;
-
-  private String title = null;
-
-  private String description = null;
-
-  private ComDayCqWcmMsmImplServletsAuditLogServletProperties properties = null;
+  private String pid;
+  private String title;
+  private String description;
+  private ComDayCqWcmMsmImplServletsAuditLogServletProperties properties;
 
   /**
    **/
@@ -81,10 +78,10 @@ public class ComDayCqWcmMsmImplServletsAuditLogServletInfo   {
       return false;
     }
     ComDayCqWcmMsmImplServletsAuditLogServletInfo comDayCqWcmMsmImplServletsAuditLogServletInfo = (ComDayCqWcmMsmImplServletsAuditLogServletInfo) o;
-    return Objects.equals(pid, comDayCqWcmMsmImplServletsAuditLogServletInfo.pid) &&
-        Objects.equals(title, comDayCqWcmMsmImplServletsAuditLogServletInfo.title) &&
-        Objects.equals(description, comDayCqWcmMsmImplServletsAuditLogServletInfo.description) &&
-        Objects.equals(properties, comDayCqWcmMsmImplServletsAuditLogServletInfo.properties);
+    return Objects.equals(this.pid, comDayCqWcmMsmImplServletsAuditLogServletInfo.pid) &&
+        Objects.equals(this.title, comDayCqWcmMsmImplServletsAuditLogServletInfo.title) &&
+        Objects.equals(this.description, comDayCqWcmMsmImplServletsAuditLogServletInfo.description) &&
+        Objects.equals(this.properties, comDayCqWcmMsmImplServletsAuditLogServletInfo.properties);
   }
 
   @Override
@@ -110,10 +107,7 @@ public class ComDayCqWcmMsmImplServletsAuditLogServletInfo   {
    * (except the first line).
    */
   private String toIndentedString(Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

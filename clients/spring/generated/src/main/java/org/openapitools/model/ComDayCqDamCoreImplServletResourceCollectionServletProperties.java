@@ -1,41 +1,52 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComDayCqDamCoreImplServletResourceCollectionServletProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComDayCqDamCoreImplServletResourceCollectionServletProperties   {
-  @JsonProperty("sling.servlet.resourceTypes")
-  private ConfigNodePropertyArray slingServletResourceTypes = null;
+@JsonTypeName("comDayCqDamCoreImplServletResourceCollectionServletProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComDayCqDamCoreImplServletResourceCollectionServletProperties {
 
-  @JsonProperty("sling.servlet.methods")
-  private ConfigNodePropertyString slingServletMethods = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray slingServletResourceTypes;
 
-  @JsonProperty("sling.servlet.selectors")
-  private ConfigNodePropertyString slingServletSelectors = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString slingServletMethods;
 
-  @JsonProperty("download.config")
-  private ConfigNodePropertyString downloadConfig = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString slingServletSelectors;
 
-  @JsonProperty("view.selector")
-  private ConfigNodePropertyString viewSelector = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString downloadConfig;
 
-  @JsonProperty("send_email")
-  private ConfigNodePropertyBoolean sendEmail = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString viewSelector;
 
-  public ComDayCqDamCoreImplServletResourceCollectionServletProperties slingServletResourceTypes(ConfigNodePropertyArray slingServletResourceTypes) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean sendEmail;
+
+  public ComDayCqDamCoreImplServletResourceCollectionServletProperties slingServletResourceTypes(@Nullable ConfigNodePropertyArray slingServletResourceTypes) {
     this.slingServletResourceTypes = slingServletResourceTypes;
     return this;
   }
@@ -43,20 +54,20 @@ public class ComDayCqDamCoreImplServletResourceCollectionServletProperties   {
   /**
    * Get slingServletResourceTypes
    * @return slingServletResourceTypes
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getSlingServletResourceTypes() {
+   */
+  @Valid 
+  @Schema(name = "sling.servlet.resourceTypes", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("sling.servlet.resourceTypes")
+  public @Nullable ConfigNodePropertyArray getSlingServletResourceTypes() {
     return slingServletResourceTypes;
   }
 
-  public void setSlingServletResourceTypes(ConfigNodePropertyArray slingServletResourceTypes) {
+  @JsonProperty("sling.servlet.resourceTypes")
+  public void setSlingServletResourceTypes(@Nullable ConfigNodePropertyArray slingServletResourceTypes) {
     this.slingServletResourceTypes = slingServletResourceTypes;
   }
 
-  public ComDayCqDamCoreImplServletResourceCollectionServletProperties slingServletMethods(ConfigNodePropertyString slingServletMethods) {
+  public ComDayCqDamCoreImplServletResourceCollectionServletProperties slingServletMethods(@Nullable ConfigNodePropertyString slingServletMethods) {
     this.slingServletMethods = slingServletMethods;
     return this;
   }
@@ -64,20 +75,20 @@ public class ComDayCqDamCoreImplServletResourceCollectionServletProperties   {
   /**
    * Get slingServletMethods
    * @return slingServletMethods
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getSlingServletMethods() {
+   */
+  @Valid 
+  @Schema(name = "sling.servlet.methods", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("sling.servlet.methods")
+  public @Nullable ConfigNodePropertyString getSlingServletMethods() {
     return slingServletMethods;
   }
 
-  public void setSlingServletMethods(ConfigNodePropertyString slingServletMethods) {
+  @JsonProperty("sling.servlet.methods")
+  public void setSlingServletMethods(@Nullable ConfigNodePropertyString slingServletMethods) {
     this.slingServletMethods = slingServletMethods;
   }
 
-  public ComDayCqDamCoreImplServletResourceCollectionServletProperties slingServletSelectors(ConfigNodePropertyString slingServletSelectors) {
+  public ComDayCqDamCoreImplServletResourceCollectionServletProperties slingServletSelectors(@Nullable ConfigNodePropertyString slingServletSelectors) {
     this.slingServletSelectors = slingServletSelectors;
     return this;
   }
@@ -85,20 +96,20 @@ public class ComDayCqDamCoreImplServletResourceCollectionServletProperties   {
   /**
    * Get slingServletSelectors
    * @return slingServletSelectors
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getSlingServletSelectors() {
+   */
+  @Valid 
+  @Schema(name = "sling.servlet.selectors", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("sling.servlet.selectors")
+  public @Nullable ConfigNodePropertyString getSlingServletSelectors() {
     return slingServletSelectors;
   }
 
-  public void setSlingServletSelectors(ConfigNodePropertyString slingServletSelectors) {
+  @JsonProperty("sling.servlet.selectors")
+  public void setSlingServletSelectors(@Nullable ConfigNodePropertyString slingServletSelectors) {
     this.slingServletSelectors = slingServletSelectors;
   }
 
-  public ComDayCqDamCoreImplServletResourceCollectionServletProperties downloadConfig(ConfigNodePropertyString downloadConfig) {
+  public ComDayCqDamCoreImplServletResourceCollectionServletProperties downloadConfig(@Nullable ConfigNodePropertyString downloadConfig) {
     this.downloadConfig = downloadConfig;
     return this;
   }
@@ -106,20 +117,20 @@ public class ComDayCqDamCoreImplServletResourceCollectionServletProperties   {
   /**
    * Get downloadConfig
    * @return downloadConfig
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getDownloadConfig() {
+   */
+  @Valid 
+  @Schema(name = "download.config", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("download.config")
+  public @Nullable ConfigNodePropertyString getDownloadConfig() {
     return downloadConfig;
   }
 
-  public void setDownloadConfig(ConfigNodePropertyString downloadConfig) {
+  @JsonProperty("download.config")
+  public void setDownloadConfig(@Nullable ConfigNodePropertyString downloadConfig) {
     this.downloadConfig = downloadConfig;
   }
 
-  public ComDayCqDamCoreImplServletResourceCollectionServletProperties viewSelector(ConfigNodePropertyString viewSelector) {
+  public ComDayCqDamCoreImplServletResourceCollectionServletProperties viewSelector(@Nullable ConfigNodePropertyString viewSelector) {
     this.viewSelector = viewSelector;
     return this;
   }
@@ -127,20 +138,20 @@ public class ComDayCqDamCoreImplServletResourceCollectionServletProperties   {
   /**
    * Get viewSelector
    * @return viewSelector
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getViewSelector() {
+   */
+  @Valid 
+  @Schema(name = "view.selector", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("view.selector")
+  public @Nullable ConfigNodePropertyString getViewSelector() {
     return viewSelector;
   }
 
-  public void setViewSelector(ConfigNodePropertyString viewSelector) {
+  @JsonProperty("view.selector")
+  public void setViewSelector(@Nullable ConfigNodePropertyString viewSelector) {
     this.viewSelector = viewSelector;
   }
 
-  public ComDayCqDamCoreImplServletResourceCollectionServletProperties sendEmail(ConfigNodePropertyBoolean sendEmail) {
+  public ComDayCqDamCoreImplServletResourceCollectionServletProperties sendEmail(@Nullable ConfigNodePropertyBoolean sendEmail) {
     this.sendEmail = sendEmail;
     return this;
   }
@@ -148,22 +159,21 @@ public class ComDayCqDamCoreImplServletResourceCollectionServletProperties   {
   /**
    * Get sendEmail
    * @return sendEmail
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getSendEmail() {
+   */
+  @Valid 
+  @Schema(name = "send_email", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("send_email")
+  public @Nullable ConfigNodePropertyBoolean getSendEmail() {
     return sendEmail;
   }
 
-  public void setSendEmail(ConfigNodePropertyBoolean sendEmail) {
+  @JsonProperty("send_email")
+  public void setSendEmail(@Nullable ConfigNodePropertyBoolean sendEmail) {
     this.sendEmail = sendEmail;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -188,7 +198,6 @@ public class ComDayCqDamCoreImplServletResourceCollectionServletProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComDayCqDamCoreImplServletResourceCollectionServletProperties {\n");
-    
     sb.append("    slingServletResourceTypes: ").append(toIndentedString(slingServletResourceTypes)).append("\n");
     sb.append("    slingServletMethods: ").append(toIndentedString(slingServletMethods)).append("\n");
     sb.append("    slingServletSelectors: ").append(toIndentedString(slingServletSelectors)).append("\n");
@@ -203,11 +212,8 @@ public class ComDayCqDamCoreImplServletResourceCollectionServletProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

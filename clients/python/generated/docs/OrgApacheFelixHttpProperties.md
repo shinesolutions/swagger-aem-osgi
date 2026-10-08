@@ -1,6 +1,8 @@
 # OrgApacheFelixHttpProperties
 
+
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **org_apache_felix_http_host** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
@@ -57,6 +59,23 @@ Name | Type | Description | Notes
 **org_apache_felix_http_session_invalidate** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] 
 **org_apache_felix_http_session_uniqueid** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] 
 
+## Example
+
+```python
+from swaggeraemosgi.models.org_apache_felix_http_properties import OrgApacheFelixHttpProperties
+
+# TODO update the JSON string below
+json = "{}"
+# create an instance of OrgApacheFelixHttpProperties from a JSON string
+org_apache_felix_http_properties_instance = OrgApacheFelixHttpProperties.from_json(json)
+# print the JSON string representation of the object
+print(OrgApacheFelixHttpProperties.to_json())
+
+# convert the object into a dict
+org_apache_felix_http_properties_dict = org_apache_felix_http_properties_instance.to_dict()
+# create an instance of OrgApacheFelixHttpProperties from a dict
+org_apache_felix_http_properties_from_dict = OrgApacheFelixHttpProperties.from_dict(org_apache_felix_http_properties_dict)
+```
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 
 

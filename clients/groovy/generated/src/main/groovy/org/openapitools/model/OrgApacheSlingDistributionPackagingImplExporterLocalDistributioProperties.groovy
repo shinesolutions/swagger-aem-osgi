@@ -7,8 +7,8 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class OrgApacheSlingDistributionPackagingImplExporterLocalDistributioProperties {
-    ConfigNodePropertyString name = null
-
-    ConfigNodePropertyString packageBuilderTarget = null
-
+    
+    ConfigNodePropertyString name
+    
+    ConfigNodePropertyString packageBuilderTarget
 }

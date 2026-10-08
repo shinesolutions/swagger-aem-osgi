@@ -4,24 +4,21 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ComAdobeCqSocialServiceusersInternalImplServiceUserWrapperImplProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2019-08-05T01:00:05.540Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2026-10-07T12:54:26.576036107Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeCqSocialServiceusersInternalImplServiceUserWrapperImplInfo   {
   
-
-  private String pid = null;
-
-  private String title = null;
-
-  private String description = null;
-
-  private ComAdobeCqSocialServiceusersInternalImplServiceUserWrapperImplProperties properties = null;
+  private String pid;
+  private String title;
+  private String description;
+  private ComAdobeCqSocialServiceusersInternalImplServiceUserWrapperImplProperties properties;
 
   /**
    **/
@@ -81,10 +78,10 @@ public class ComAdobeCqSocialServiceusersInternalImplServiceUserWrapperImplInfo 
       return false;
     }
     ComAdobeCqSocialServiceusersInternalImplServiceUserWrapperImplInfo comAdobeCqSocialServiceusersInternalImplServiceUserWrapperImplInfo = (ComAdobeCqSocialServiceusersInternalImplServiceUserWrapperImplInfo) o;
-    return Objects.equals(pid, comAdobeCqSocialServiceusersInternalImplServiceUserWrapperImplInfo.pid) &&
-        Objects.equals(title, comAdobeCqSocialServiceusersInternalImplServiceUserWrapperImplInfo.title) &&
-        Objects.equals(description, comAdobeCqSocialServiceusersInternalImplServiceUserWrapperImplInfo.description) &&
-        Objects.equals(properties, comAdobeCqSocialServiceusersInternalImplServiceUserWrapperImplInfo.properties);
+    return Objects.equals(this.pid, comAdobeCqSocialServiceusersInternalImplServiceUserWrapperImplInfo.pid) &&
+        Objects.equals(this.title, comAdobeCqSocialServiceusersInternalImplServiceUserWrapperImplInfo.title) &&
+        Objects.equals(this.description, comAdobeCqSocialServiceusersInternalImplServiceUserWrapperImplInfo.description) &&
+        Objects.equals(this.properties, comAdobeCqSocialServiceusersInternalImplServiceUserWrapperImplInfo.properties);
   }
 
   @Override
@@ -110,10 +107,7 @@ public class ComAdobeCqSocialServiceusersInternalImplServiceUserWrapperImplInfo 
    * (except the first line).
    */
   private String toIndentedString(Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

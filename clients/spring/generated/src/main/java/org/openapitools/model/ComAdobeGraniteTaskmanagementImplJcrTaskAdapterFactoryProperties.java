@@ -1,24 +1,35 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComAdobeGraniteTaskmanagementImplJcrTaskAdapterFactoryProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComAdobeGraniteTaskmanagementImplJcrTaskAdapterFactoryProperties   {
-  @JsonProperty("adapter.condition")
-  private ConfigNodePropertyString adapterCondition = null;
+@JsonTypeName("comAdobeGraniteTaskmanagementImplJcrTaskAdapterFactoryProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComAdobeGraniteTaskmanagementImplJcrTaskAdapterFactoryProperties {
 
-  public ComAdobeGraniteTaskmanagementImplJcrTaskAdapterFactoryProperties adapterCondition(ConfigNodePropertyString adapterCondition) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString adapterCondition;
+
+  public ComAdobeGraniteTaskmanagementImplJcrTaskAdapterFactoryProperties adapterCondition(@Nullable ConfigNodePropertyString adapterCondition) {
     this.adapterCondition = adapterCondition;
     return this;
   }
@@ -26,22 +37,21 @@ public class ComAdobeGraniteTaskmanagementImplJcrTaskAdapterFactoryProperties   
   /**
    * Get adapterCondition
    * @return adapterCondition
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getAdapterCondition() {
+   */
+  @Valid 
+  @Schema(name = "adapter.condition", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("adapter.condition")
+  public @Nullable ConfigNodePropertyString getAdapterCondition() {
     return adapterCondition;
   }
 
-  public void setAdapterCondition(ConfigNodePropertyString adapterCondition) {
+  @JsonProperty("adapter.condition")
+  public void setAdapterCondition(@Nullable ConfigNodePropertyString adapterCondition) {
     this.adapterCondition = adapterCondition;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -61,7 +71,6 @@ public class ComAdobeGraniteTaskmanagementImplJcrTaskAdapterFactoryProperties   
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComAdobeGraniteTaskmanagementImplJcrTaskAdapterFactoryProperties {\n");
-    
     sb.append("    adapterCondition: ").append(toIndentedString(adapterCondition)).append("\n");
     sb.append("}");
     return sb.toString();
@@ -71,11 +80,8 @@ public class ComAdobeGraniteTaskmanagementImplJcrTaskAdapterFactoryProperties   
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

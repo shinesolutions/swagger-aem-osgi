@@ -2,12 +2,12 @@
 # ComAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheckProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**hcPeriodtags** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**dispatcherPeriodaddress** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**dispatcherPeriodfilterPeriodallowed** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**dispatcherPeriodfilterPeriodblocked** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **hcTags** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **dispatcherAddress** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **dispatcherFilterAllowed** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **dispatcherFilterBlocked** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
 
 
 

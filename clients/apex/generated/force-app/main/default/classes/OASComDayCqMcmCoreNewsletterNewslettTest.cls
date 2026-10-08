@@ -72,9 +72,9 @@ private class OASComDayCqMcmCoreNewsletterNewslettTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqMcmCoreNewsletterNewslett comDayCqMcmCoreNewsletterNewsletterEmailServiceImplProperties = new OASComDayCqMcmCoreNewsletterNewslett();
-        Map<String, String> propertyMappings = comDayCqMcmCoreNewsletterNewsletterEmailServiceImplProperties.getPropertyMappings();
-        System.assertEquals('fromAddress', propertyMappings.get('from.address'));
-        System.assertEquals('senderHost', propertyMappings.get('sender.host'));
-        System.assertEquals('maxBounceCount', propertyMappings.get('max.bounce.count'));
+        Map<String, String> x-property-mappings = comDayCqMcmCoreNewsletterNewsletterEmailServiceImplProperties.getx-property-mappings();
+        System.assertEquals('fromAddress', x-property-mappings.get('from.address'));
+        System.assertEquals('senderHost', x-property-mappings.get('sender.host'));
+        System.assertEquals('maxBounceCount', x-property-mappings.get('max.bounce.count'));
     }
 }

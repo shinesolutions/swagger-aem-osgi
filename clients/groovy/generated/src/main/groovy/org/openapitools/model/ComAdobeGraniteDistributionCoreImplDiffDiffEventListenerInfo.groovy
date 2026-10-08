@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeGraniteDistributionCoreImplDiffDiffEventLi
 
 @Canonical
 class ComAdobeGraniteDistributionCoreImplDiffDiffEventListenerInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteDistributionCoreImplDiffDiffEventListenerProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteDistributionCoreImplDiffDiffEventListenerProperties properties
 }

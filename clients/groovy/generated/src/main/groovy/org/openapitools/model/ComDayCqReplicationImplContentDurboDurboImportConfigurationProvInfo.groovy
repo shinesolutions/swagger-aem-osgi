@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqReplicationImplContentDurboDurboImportConf
 
 @Canonical
 class ComDayCqReplicationImplContentDurboDurboImportConfigurationProvInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqReplicationImplContentDurboDurboImportConfigurationProvProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqReplicationImplContentDurboDurboImportConfigurationProvProperties properties
 }

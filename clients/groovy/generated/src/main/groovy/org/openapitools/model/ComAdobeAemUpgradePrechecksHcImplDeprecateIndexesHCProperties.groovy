@@ -8,10 +8,10 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeAemUpgradePrechecksHcImplDeprecateIndexesHCProperties {
-    ConfigNodePropertyString hcName = null
-
-    ConfigNodePropertyArray hcTags = null
-
-    ConfigNodePropertyString hcMbeanName = null
-
+    
+    ConfigNodePropertyString hcName
+    
+    ConfigNodePropertyArray hcTags
+    
+    ConfigNodePropertyString hcMbeanName
 }

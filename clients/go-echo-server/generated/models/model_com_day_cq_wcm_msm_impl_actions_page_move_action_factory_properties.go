@@ -1,0 +1,12 @@
+package models
+
+type ComDayCqWcmMsmImplActionsPageMoveActionFactoryProperties struct {
+
+	CqWcmMsmActionExcludednodetypes ConfigNodePropertyArray `json:"cq.wcm.msm.action.excludednodetypes,omitempty"`
+
+	CqWcmMsmActionExcludedparagraphitems ConfigNodePropertyArray `json:"cq.wcm.msm.action.excludedparagraphitems,omitempty"`
+
+	CqWcmMsmActionExcludedprops ConfigNodePropertyArray `json:"cq.wcm.msm.action.excludedprops,omitempty"`
+
+	CqWcmMsmImplActionsPagemovePropReferenceUpdate ConfigNodePropertyBoolean `json:"cq.wcm.msm.impl.actions.pagemove.prop_referenceUpdate,omitempty"`
+}

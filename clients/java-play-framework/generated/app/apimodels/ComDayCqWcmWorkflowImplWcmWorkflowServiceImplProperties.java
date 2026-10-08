@@ -4,32 +4,43 @@ import apimodels.ConfigNodePropertyArray;
 import apimodels.ConfigNodePropertyBoolean;
 import apimodels.ConfigNodePropertyInteger;
 import apimodels.ConfigNodePropertyString;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * ComDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class ComDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties   {
   @JsonProperty("event.filter")
-  private ConfigNodePropertyString eventFilter = null;
+  @Valid
+
+  private ConfigNodePropertyString eventFilter;
 
   @JsonProperty("minThreadPoolSize")
-  private ConfigNodePropertyInteger minThreadPoolSize = null;
+  @Valid
+
+  private ConfigNodePropertyInteger minThreadPoolSize;
 
   @JsonProperty("maxThreadPoolSize")
-  private ConfigNodePropertyInteger maxThreadPoolSize = null;
+  @Valid
+
+  private ConfigNodePropertyInteger maxThreadPoolSize;
 
   @JsonProperty("cq.wcm.workflow.terminate.on.activate")
-  private ConfigNodePropertyBoolean cqWcmWorkflowTerminateOnActivate = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean cqWcmWorkflowTerminateOnActivate;
 
   @JsonProperty("cq.wcm.worklfow.terminate.exclusion.list")
-  private ConfigNodePropertyArray cqWcmWorklfowTerminateExclusionList = null;
+  @Valid
+
+  private ConfigNodePropertyArray cqWcmWorklfowTerminateExclusionList;
 
   public ComDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties eventFilter(ConfigNodePropertyString eventFilter) {
     this.eventFilter = eventFilter;
@@ -40,7 +51,6 @@ public class ComDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties   {
    * Get eventFilter
    * @return eventFilter
   **/
-  @Valid
   public ConfigNodePropertyString getEventFilter() {
     return eventFilter;
   }
@@ -58,7 +68,6 @@ public class ComDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties   {
    * Get minThreadPoolSize
    * @return minThreadPoolSize
   **/
-  @Valid
   public ConfigNodePropertyInteger getMinThreadPoolSize() {
     return minThreadPoolSize;
   }
@@ -76,7 +85,6 @@ public class ComDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties   {
    * Get maxThreadPoolSize
    * @return maxThreadPoolSize
   **/
-  @Valid
   public ConfigNodePropertyInteger getMaxThreadPoolSize() {
     return maxThreadPoolSize;
   }
@@ -94,7 +102,6 @@ public class ComDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties   {
    * Get cqWcmWorkflowTerminateOnActivate
    * @return cqWcmWorkflowTerminateOnActivate
   **/
-  @Valid
   public ConfigNodePropertyBoolean getCqWcmWorkflowTerminateOnActivate() {
     return cqWcmWorkflowTerminateOnActivate;
   }
@@ -112,7 +119,6 @@ public class ComDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties   {
    * Get cqWcmWorklfowTerminateExclusionList
    * @return cqWcmWorklfowTerminateExclusionList
   **/
-  @Valid
   public ConfigNodePropertyArray getCqWcmWorklfowTerminateExclusionList() {
     return cqWcmWorklfowTerminateExclusionList;
   }
@@ -123,7 +129,7 @@ public class ComDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -162,11 +168,8 @@ public class ComDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

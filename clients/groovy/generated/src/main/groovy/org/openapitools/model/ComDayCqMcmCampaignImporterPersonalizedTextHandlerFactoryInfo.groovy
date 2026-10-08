@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqMcmCampaignImporterPersonalizedTextHandler
 
 @Canonical
 class ComDayCqMcmCampaignImporterPersonalizedTextHandlerFactoryInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqMcmCampaignImporterPersonalizedTextHandlerFactoryProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqMcmCampaignImporterPersonalizedTextHandlerFactoryProperties properties
 }

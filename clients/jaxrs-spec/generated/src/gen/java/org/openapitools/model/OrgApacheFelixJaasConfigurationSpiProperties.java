@@ -1,21 +1,32 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyDropDown;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("orgApacheFelixJaasConfigurationSpiProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheFelixJaasConfigurationSpiProperties   {
-  
-  private @Valid ConfigNodePropertyString jaasDefaultRealmName = null;
-  private @Valid ConfigNodePropertyString jaasConfigProviderName = null;
-  private @Valid ConfigNodePropertyDropDown jaasGlobalConfigPolicy = null;
+  private ConfigNodePropertyString jaasDefaultRealmName;
+  private ConfigNodePropertyString jaasConfigProviderName;
+  private ConfigNodePropertyDropDown jaasGlobalConfigPolicy;
+
+  public OrgApacheFelixJaasConfigurationSpiProperties() {
+  }
 
   /**
    **/
@@ -27,9 +38,11 @@ public class OrgApacheFelixJaasConfigurationSpiProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("jaas.defaultRealmName")
-  public ConfigNodePropertyString getJaasDefaultRealmName() {
+  @Valid public ConfigNodePropertyString getJaasDefaultRealmName() {
     return jaasDefaultRealmName;
   }
+
+  @JsonProperty("jaas.defaultRealmName")
   public void setJaasDefaultRealmName(ConfigNodePropertyString jaasDefaultRealmName) {
     this.jaasDefaultRealmName = jaasDefaultRealmName;
   }
@@ -44,9 +57,11 @@ public class OrgApacheFelixJaasConfigurationSpiProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("jaas.configProviderName")
-  public ConfigNodePropertyString getJaasConfigProviderName() {
+  @Valid public ConfigNodePropertyString getJaasConfigProviderName() {
     return jaasConfigProviderName;
   }
+
+  @JsonProperty("jaas.configProviderName")
   public void setJaasConfigProviderName(ConfigNodePropertyString jaasConfigProviderName) {
     this.jaasConfigProviderName = jaasConfigProviderName;
   }
@@ -61,16 +76,18 @@ public class OrgApacheFelixJaasConfigurationSpiProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("jaas.globalConfigPolicy")
-  public ConfigNodePropertyDropDown getJaasGlobalConfigPolicy() {
+  @Valid public ConfigNodePropertyDropDown getJaasGlobalConfigPolicy() {
     return jaasGlobalConfigPolicy;
   }
+
+  @JsonProperty("jaas.globalConfigPolicy")
   public void setJaasGlobalConfigPolicy(ConfigNodePropertyDropDown jaasGlobalConfigPolicy) {
     this.jaasGlobalConfigPolicy = jaasGlobalConfigPolicy;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -78,9 +95,9 @@ public class OrgApacheFelixJaasConfigurationSpiProperties   {
       return false;
     }
     OrgApacheFelixJaasConfigurationSpiProperties orgApacheFelixJaasConfigurationSpiProperties = (OrgApacheFelixJaasConfigurationSpiProperties) o;
-    return Objects.equals(jaasDefaultRealmName, orgApacheFelixJaasConfigurationSpiProperties.jaasDefaultRealmName) &&
-        Objects.equals(jaasConfigProviderName, orgApacheFelixJaasConfigurationSpiProperties.jaasConfigProviderName) &&
-        Objects.equals(jaasGlobalConfigPolicy, orgApacheFelixJaasConfigurationSpiProperties.jaasGlobalConfigPolicy);
+    return Objects.equals(this.jaasDefaultRealmName, orgApacheFelixJaasConfigurationSpiProperties.jaasDefaultRealmName) &&
+        Objects.equals(this.jaasConfigProviderName, orgApacheFelixJaasConfigurationSpiProperties.jaasConfigProviderName) &&
+        Objects.equals(this.jaasGlobalConfigPolicy, orgApacheFelixJaasConfigurationSpiProperties.jaasGlobalConfigPolicy);
   }
 
   @Override
@@ -104,11 +121,9 @@ public class OrgApacheFelixJaasConfigurationSpiProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

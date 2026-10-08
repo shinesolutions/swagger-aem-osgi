@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class ComAdobeCqScreensDeviceRegistrationImplRegistrationServiceImplProperties {
-    ConfigNodePropertyInteger deviceRegistrationTimeout = null
-
+    
+    ConfigNodePropertyInteger deviceRegistrationTimeout
 }

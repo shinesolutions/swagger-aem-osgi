@@ -9,14 +9,14 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationProperties {
-    ConfigNodePropertyBoolean showPlaceholder = null
-
-    ConfigNodePropertyInteger maximumCacheEntries = null
-
-    ConfigNodePropertyDropDown afScriptingCompatversion = null
-
-    ConfigNodePropertyBoolean makeFileNameUnique = null
-
-    ConfigNodePropertyBoolean generatingCompliantData = null
-
+    
+    ConfigNodePropertyBoolean showPlaceholder
+    
+    ConfigNodePropertyInteger maximumCacheEntries
+    
+    ConfigNodePropertyDropDown afScriptingCompatversion
+    
+    ConfigNodePropertyBoolean makeFileNameUnique
+    
+    ConfigNodePropertyBoolean generatingCompliantData
 }

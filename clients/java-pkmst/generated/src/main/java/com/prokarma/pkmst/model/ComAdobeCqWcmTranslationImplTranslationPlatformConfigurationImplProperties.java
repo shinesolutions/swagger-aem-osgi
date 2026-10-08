@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyDropDown;
 import com.prokarma.pkmst.model.ConfigNodePropertyString;
 import io.swagger.annotations.ApiModel;
@@ -16,30 +17,29 @@ import io.swagger.annotations.ApiModelProperty;
  * ComAdobeCqWcmTranslationImplTranslationPlatformConfigurationImplProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeCqWcmTranslationImplTranslationPlatformConfigurationImplProperties   {
   @JsonProperty("syncTranslationState.schedulingFormat")
-  private ConfigNodePropertyString syncTranslationStateSchedulingFormat = null;
+  private ConfigNodePropertyString syncTranslationStateSchedulingFormat;
 
   @JsonProperty("schedulingRepeatTranslation.schedulingFormat")
-  private ConfigNodePropertyString schedulingRepeatTranslationSchedulingFormat = null;
+  private ConfigNodePropertyString schedulingRepeatTranslationSchedulingFormat;
 
   @JsonProperty("syncTranslationState.lockTimeoutInMinutes")
-  private ConfigNodePropertyString syncTranslationStateLockTimeoutInMinutes = null;
+  private ConfigNodePropertyString syncTranslationStateLockTimeoutInMinutes;
 
   @JsonProperty("export.format")
-  private ConfigNodePropertyDropDown exportFormat = null;
+  private ConfigNodePropertyDropDown exportFormat;
 
   public ComAdobeCqWcmTranslationImplTranslationPlatformConfigurationImplProperties syncTranslationStateSchedulingFormat(ConfigNodePropertyString syncTranslationStateSchedulingFormat) {
     this.syncTranslationStateSchedulingFormat = syncTranslationStateSchedulingFormat;
     return this;
   }
 
-   /**
+  /**
    * Get syncTranslationStateSchedulingFormat
    * @return syncTranslationStateSchedulingFormat
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getSyncTranslationStateSchedulingFormat() {
     return syncTranslationStateSchedulingFormat;
@@ -54,10 +54,10 @@ public class ComAdobeCqWcmTranslationImplTranslationPlatformConfigurationImplPro
     return this;
   }
 
-   /**
+  /**
    * Get schedulingRepeatTranslationSchedulingFormat
    * @return schedulingRepeatTranslationSchedulingFormat
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getSchedulingRepeatTranslationSchedulingFormat() {
     return schedulingRepeatTranslationSchedulingFormat;
@@ -72,10 +72,10 @@ public class ComAdobeCqWcmTranslationImplTranslationPlatformConfigurationImplPro
     return this;
   }
 
-   /**
+  /**
    * Get syncTranslationStateLockTimeoutInMinutes
    * @return syncTranslationStateLockTimeoutInMinutes
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getSyncTranslationStateLockTimeoutInMinutes() {
     return syncTranslationStateLockTimeoutInMinutes;
@@ -90,10 +90,10 @@ public class ComAdobeCqWcmTranslationImplTranslationPlatformConfigurationImplPro
     return this;
   }
 
-   /**
+  /**
    * Get exportFormat
    * @return exportFormat
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyDropDown getExportFormat() {
     return exportFormat;
@@ -105,7 +105,7 @@ public class ComAdobeCqWcmTranslationImplTranslationPlatformConfigurationImplPro
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -141,11 +141,8 @@ public class ComAdobeCqWcmTranslationImplTranslationPlatformConfigurationImplPro
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

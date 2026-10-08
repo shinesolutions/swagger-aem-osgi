@@ -1,0 +1,54 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeGraniteWorkflowPurgeSchedulerProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeGraniteWorkflowPurgeSchedulerProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyDropDown = openapi_server.resourceTypes.ConfigNodePropertyDropDown
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComAdobeGraniteWorkflowPurgeSchedulerProperties {
+    title = ComAdobeGraniteWorkflowPurgeSchedulerProperties
+    description = ComAdobeGraniteWorkflowPurgeSchedulerProperties
+    derivedFrom = Root
+    properties {
+        scheduledpurge_name {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        scheduledpurge_workflow_status {
+          type = ConfigNodePropertyDropDown
+          description = ""
+          optional = false
+        }
+        scheduledpurge_model_ids {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        scheduledpurge_daysold {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeGraniteWorkflowPurgeSchedulerProperties {
+    title = ComAdobeGraniteWorkflowPurgeSchedulerProperties
+    description = ComAdobeGraniteWorkflowPurgeSchedulerProperties
+    implements = openapi_server.resourceTypes.ComAdobeGraniteWorkflowPurgeSchedulerProperties
+
+  }
+}

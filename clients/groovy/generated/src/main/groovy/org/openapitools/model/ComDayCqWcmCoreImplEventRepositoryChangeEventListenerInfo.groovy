@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqWcmCoreImplEventRepositoryChangeEventListe
 
 @Canonical
 class ComDayCqWcmCoreImplEventRepositoryChangeEventListenerInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqWcmCoreImplEventRepositoryChangeEventListenerProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqWcmCoreImplEventRepositoryChangeEventListenerProperties properties
 }

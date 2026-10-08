@@ -1,0 +1,15 @@
+{
+  "namespace": "model",
+  "type": "record",
+  "doc": "",
+  "name": "ComAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorFProperties",
+  "fields": [
+    {
+      "name": "isMemberCheck",
+      "type": ["null", "model.ConfigNodePropertyBoolean"],
+      "doc": "",
+      "default": null
+    }
+  ]
+
+}

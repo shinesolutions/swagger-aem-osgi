@@ -1,22 +1,33 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("orgApacheSlingDistributionPackagingImplExporterAgentDistributioProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingDistributionPackagingImplExporterAgentDistributioProperties   {
-  
-  private @Valid ConfigNodePropertyString name = null;
-  private @Valid ConfigNodePropertyString queue = null;
-  private @Valid ConfigNodePropertyBoolean dropInvalidItems = null;
-  private @Valid ConfigNodePropertyString agentTarget = null;
+  private ConfigNodePropertyString name;
+  private ConfigNodePropertyString queue;
+  private ConfigNodePropertyBoolean dropInvalidItems;
+  private ConfigNodePropertyString agentTarget;
+
+  public OrgApacheSlingDistributionPackagingImplExporterAgentDistributioProperties() {
+  }
 
   /**
    **/
@@ -28,9 +39,11 @@ public class OrgApacheSlingDistributionPackagingImplExporterAgentDistributioProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("name")
-  public ConfigNodePropertyString getName() {
+  @Valid public ConfigNodePropertyString getName() {
     return name;
   }
+
+  @JsonProperty("name")
   public void setName(ConfigNodePropertyString name) {
     this.name = name;
   }
@@ -45,9 +58,11 @@ public class OrgApacheSlingDistributionPackagingImplExporterAgentDistributioProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("queue")
-  public ConfigNodePropertyString getQueue() {
+  @Valid public ConfigNodePropertyString getQueue() {
     return queue;
   }
+
+  @JsonProperty("queue")
   public void setQueue(ConfigNodePropertyString queue) {
     this.queue = queue;
   }
@@ -62,9 +77,11 @@ public class OrgApacheSlingDistributionPackagingImplExporterAgentDistributioProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("drop.invalid.items")
-  public ConfigNodePropertyBoolean getDropInvalidItems() {
+  @Valid public ConfigNodePropertyBoolean getDropInvalidItems() {
     return dropInvalidItems;
   }
+
+  @JsonProperty("drop.invalid.items")
   public void setDropInvalidItems(ConfigNodePropertyBoolean dropInvalidItems) {
     this.dropInvalidItems = dropInvalidItems;
   }
@@ -79,16 +96,18 @@ public class OrgApacheSlingDistributionPackagingImplExporterAgentDistributioProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("agent.target")
-  public ConfigNodePropertyString getAgentTarget() {
+  @Valid public ConfigNodePropertyString getAgentTarget() {
     return agentTarget;
   }
+
+  @JsonProperty("agent.target")
   public void setAgentTarget(ConfigNodePropertyString agentTarget) {
     this.agentTarget = agentTarget;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -96,10 +115,10 @@ public class OrgApacheSlingDistributionPackagingImplExporterAgentDistributioProp
       return false;
     }
     OrgApacheSlingDistributionPackagingImplExporterAgentDistributioProperties orgApacheSlingDistributionPackagingImplExporterAgentDistributioProperties = (OrgApacheSlingDistributionPackagingImplExporterAgentDistributioProperties) o;
-    return Objects.equals(name, orgApacheSlingDistributionPackagingImplExporterAgentDistributioProperties.name) &&
-        Objects.equals(queue, orgApacheSlingDistributionPackagingImplExporterAgentDistributioProperties.queue) &&
-        Objects.equals(dropInvalidItems, orgApacheSlingDistributionPackagingImplExporterAgentDistributioProperties.dropInvalidItems) &&
-        Objects.equals(agentTarget, orgApacheSlingDistributionPackagingImplExporterAgentDistributioProperties.agentTarget);
+    return Objects.equals(this.name, orgApacheSlingDistributionPackagingImplExporterAgentDistributioProperties.name) &&
+        Objects.equals(this.queue, orgApacheSlingDistributionPackagingImplExporterAgentDistributioProperties.queue) &&
+        Objects.equals(this.dropInvalidItems, orgApacheSlingDistributionPackagingImplExporterAgentDistributioProperties.dropInvalidItems) &&
+        Objects.equals(this.agentTarget, orgApacheSlingDistributionPackagingImplExporterAgentDistributioProperties.agentTarget);
   }
 
   @Override
@@ -124,11 +143,9 @@ public class OrgApacheSlingDistributionPackagingImplExporterAgentDistributioProp
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

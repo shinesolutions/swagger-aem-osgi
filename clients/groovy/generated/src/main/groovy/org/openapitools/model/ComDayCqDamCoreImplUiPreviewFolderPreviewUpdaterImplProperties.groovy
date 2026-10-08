@@ -9,12 +9,12 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqDamCoreImplUiPreviewFolderPreviewUpdaterImplProperties {
-    ConfigNodePropertyBoolean createPreviewEnabled = null
-
-    ConfigNodePropertyBoolean updatePreviewEnabled = null
-
-    ConfigNodePropertyInteger queueSize = null
-
-    ConfigNodePropertyString folderPreviewRenditionRegex = null
-
+    
+    ConfigNodePropertyBoolean createPreviewEnabled
+    
+    ConfigNodePropertyBoolean updatePreviewEnabled
+    
+    ConfigNodePropertyInteger queueSize
+    
+    ConfigNodePropertyString folderPreviewRenditionRegex
 }

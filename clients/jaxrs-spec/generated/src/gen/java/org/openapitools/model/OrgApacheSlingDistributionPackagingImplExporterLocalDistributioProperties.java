@@ -1,19 +1,30 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("orgApacheSlingDistributionPackagingImplExporterLocalDistributioProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingDistributionPackagingImplExporterLocalDistributioProperties   {
-  
-  private @Valid ConfigNodePropertyString name = null;
-  private @Valid ConfigNodePropertyString packageBuilderTarget = null;
+  private ConfigNodePropertyString name;
+  private ConfigNodePropertyString packageBuilderTarget;
+
+  public OrgApacheSlingDistributionPackagingImplExporterLocalDistributioProperties() {
+  }
 
   /**
    **/
@@ -25,9 +36,11 @@ public class OrgApacheSlingDistributionPackagingImplExporterLocalDistributioProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("name")
-  public ConfigNodePropertyString getName() {
+  @Valid public ConfigNodePropertyString getName() {
     return name;
   }
+
+  @JsonProperty("name")
   public void setName(ConfigNodePropertyString name) {
     this.name = name;
   }
@@ -42,16 +55,18 @@ public class OrgApacheSlingDistributionPackagingImplExporterLocalDistributioProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("packageBuilder.target")
-  public ConfigNodePropertyString getPackageBuilderTarget() {
+  @Valid public ConfigNodePropertyString getPackageBuilderTarget() {
     return packageBuilderTarget;
   }
+
+  @JsonProperty("packageBuilder.target")
   public void setPackageBuilderTarget(ConfigNodePropertyString packageBuilderTarget) {
     this.packageBuilderTarget = packageBuilderTarget;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -59,8 +74,8 @@ public class OrgApacheSlingDistributionPackagingImplExporterLocalDistributioProp
       return false;
     }
     OrgApacheSlingDistributionPackagingImplExporterLocalDistributioProperties orgApacheSlingDistributionPackagingImplExporterLocalDistributioProperties = (OrgApacheSlingDistributionPackagingImplExporterLocalDistributioProperties) o;
-    return Objects.equals(name, orgApacheSlingDistributionPackagingImplExporterLocalDistributioProperties.name) &&
-        Objects.equals(packageBuilderTarget, orgApacheSlingDistributionPackagingImplExporterLocalDistributioProperties.packageBuilderTarget);
+    return Objects.equals(this.name, orgApacheSlingDistributionPackagingImplExporterLocalDistributioProperties.name) &&
+        Objects.equals(this.packageBuilderTarget, orgApacheSlingDistributionPackagingImplExporterLocalDistributioProperties.packageBuilderTarget);
   }
 
   @Override
@@ -83,11 +98,9 @@ public class OrgApacheSlingDistributionPackagingImplExporterLocalDistributioProp
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

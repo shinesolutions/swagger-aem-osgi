@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyBoolean;
 import com.prokarma.pkmst.model.ConfigNodePropertyInteger;
 import io.swagger.annotations.ApiModel;
@@ -16,27 +17,26 @@ import io.swagger.annotations.ApiModelProperty;
  * ComDayCqDamCoreImplHandlerJpegHandlerProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqDamCoreImplHandlerJpegHandlerProperties   {
   @JsonProperty("cq.dam.enable.ext.meta.extraction")
-  private ConfigNodePropertyBoolean cqDamEnableExtMetaExtraction = null;
+  private ConfigNodePropertyBoolean cqDamEnableExtMetaExtraction;
 
   @JsonProperty("large_file_threshold")
-  private ConfigNodePropertyInteger largeFileThreshold = null;
+  private ConfigNodePropertyInteger largeFileThreshold;
 
   @JsonProperty("large_comment_threshold")
-  private ConfigNodePropertyInteger largeCommentThreshold = null;
+  private ConfigNodePropertyInteger largeCommentThreshold;
 
   public ComDayCqDamCoreImplHandlerJpegHandlerProperties cqDamEnableExtMetaExtraction(ConfigNodePropertyBoolean cqDamEnableExtMetaExtraction) {
     this.cqDamEnableExtMetaExtraction = cqDamEnableExtMetaExtraction;
     return this;
   }
 
-   /**
+  /**
    * Get cqDamEnableExtMetaExtraction
    * @return cqDamEnableExtMetaExtraction
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getCqDamEnableExtMetaExtraction() {
     return cqDamEnableExtMetaExtraction;
@@ -51,10 +51,10 @@ public class ComDayCqDamCoreImplHandlerJpegHandlerProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get largeFileThreshold
    * @return largeFileThreshold
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getLargeFileThreshold() {
     return largeFileThreshold;
@@ -69,10 +69,10 @@ public class ComDayCqDamCoreImplHandlerJpegHandlerProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get largeCommentThreshold
    * @return largeCommentThreshold
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getLargeCommentThreshold() {
     return largeCommentThreshold;
@@ -84,7 +84,7 @@ public class ComDayCqDamCoreImplHandlerJpegHandlerProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -118,11 +118,8 @@ public class ComDayCqDamCoreImplHandlerJpegHandlerProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -1,0 +1,21 @@
+{
+  "namespace": "model",
+  "type": "record",
+  "doc": "",
+  "name": "ComAdobeAemUpgradePrechecksMbeanImplPreUpgradeTasksMBeanImplProperties",
+  "fields": [
+    {
+      "name": "pre-upgrade.maintenance.tasks",
+      "type": ["null", "model.ConfigNodePropertyArray"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "pre-upgrade.hc.tags",
+      "type": ["null", "model.ConfigNodePropertyArray"],
+      "doc": "",
+      "default": null
+    }
+  ]
+
+}

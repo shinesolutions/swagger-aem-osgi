@@ -1,0 +1,300 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheFelixHttpProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheFelixHttpProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyDropDown = openapi_server.resourceTypes.ConfigNodePropertyDropDown
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  OrgApacheFelixHttpProperties {
+    title = OrgApacheFelixHttpProperties
+    description = OrgApacheFelixHttpProperties
+    derivedFrom = Root
+    properties {
+        org_apache_felix_http_host {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        org_apache_felix_http_enable {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        org_osgi_service_http_port {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        org_apache_felix_http_timeout {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        org_apache_felix_https_enable {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        org_osgi_service_http_port_secure {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        org_apache_felix_https_keystore {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        org_apache_felix_https_keystore_password {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        org_apache_felix_https_keystore_key_password {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        org_apache_felix_https_truststore {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        org_apache_felix_https_truststore_password {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        org_apache_felix_https_clientcertificate {
+          type = ConfigNodePropertyDropDown
+          description = ""
+          optional = false
+        }
+        org_apache_felix_http_context_path {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        org_apache_felix_http_mbeans {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        org_apache_felix_http_session_timeout {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        org_apache_felix_http_jetty_threadpool_max {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        org_apache_felix_http_jetty_acceptors {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        org_apache_felix_http_jetty_selectors {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        org_apache_felix_http_jetty_header_buffer_size {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        org_apache_felix_http_jetty_request_buffer_size {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        org_apache_felix_http_jetty_response_buffer_size {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        org_apache_felix_http_jetty_max_form_size {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        org_apache_felix_http_path_exclusions {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        org_apache_felix_https_jetty_ciphersuites_excluded {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        org_apache_felix_https_jetty_ciphersuites_included {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        org_apache_felix_http_jetty_send_server_header {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        org_apache_felix_https_jetty_protocols_included {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        org_apache_felix_https_jetty_protocols_excluded {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        org_apache_felix_proxy_load_balancer_connection_enable {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        org_apache_felix_https_jetty_renegotiate_allowed {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        org_apache_felix_https_jetty_session_cookie_http_only {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        org_apache_felix_https_jetty_session_cookie_secure {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        org_eclipse_jetty_servlet_session_id_path_parameter_name {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        org_eclipse_jetty_servlet_checking_remote_session_id_encoding {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        org_eclipse_jetty_servlet_session_cookie {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        org_eclipse_jetty_servlet_session_domain {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        org_eclipse_jetty_servlet_session_path {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        org_eclipse_jetty_servlet_max_age {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        org_apache_felix_http_name {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        org_apache_felix_jetty_gziphandler_enable {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        org_apache_felix_jetty_gzip_min_gzip_size {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        org_apache_felix_jetty_gzip_compression_level {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        org_apache_felix_jetty_gzip_inflate_buffer_size {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        org_apache_felix_jetty_gzip_sync_flush {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        org_apache_felix_jetty_gzip_excluded_user_agents {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        org_apache_felix_jetty_gzip_included_methods {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        org_apache_felix_jetty_gzip_excluded_methods {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        org_apache_felix_jetty_gzip_included_paths {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        org_apache_felix_jetty_gzip_excluded_paths {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        org_apache_felix_jetty_gzip_included_mime_types {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        org_apache_felix_jetty_gzip_excluded_mime_types {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        org_apache_felix_http_session_invalidate {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        org_apache_felix_http_session_uniqueid {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheFelixHttpProperties {
+    title = OrgApacheFelixHttpProperties
+    description = OrgApacheFelixHttpProperties
+    implements = openapi_server.resourceTypes.OrgApacheFelixHttpProperties
+
+  }
+}

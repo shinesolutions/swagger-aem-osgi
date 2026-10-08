@@ -1,0 +1,15 @@
+{
+  "namespace": "model",
+  "type": "record",
+  "doc": "",
+  "name": "ComAdobeCqCommerceImplAssetProductAssetHandlerProviderImplProperties",
+  "fields": [
+    {
+      "name": "cq.commerce.asset.handler.fallback",
+      "type": ["null", "model.ConfigNodePropertyString"],
+      "doc": "",
+      "default": null
+    }
+  ]
+
+}

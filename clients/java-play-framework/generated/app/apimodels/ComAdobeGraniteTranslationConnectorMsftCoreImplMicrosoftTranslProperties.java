@@ -2,44 +2,63 @@ package apimodels;
 
 import apimodels.ConfigNodePropertyInteger;
 import apimodels.ConfigNodePropertyString;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslProperties   {
   @JsonProperty("translationFactory")
-  private ConfigNodePropertyString translationFactory = null;
+  @Valid
+
+  private ConfigNodePropertyString translationFactory;
 
   @JsonProperty("defaultConnectorLabel")
-  private ConfigNodePropertyString defaultConnectorLabel = null;
+  @Valid
+
+  private ConfigNodePropertyString defaultConnectorLabel;
 
   @JsonProperty("defaultConnectorAttribution")
-  private ConfigNodePropertyString defaultConnectorAttribution = null;
+  @Valid
+
+  private ConfigNodePropertyString defaultConnectorAttribution;
 
   @JsonProperty("defaultConnectorWorkspaceId")
-  private ConfigNodePropertyString defaultConnectorWorkspaceId = null;
+  @Valid
+
+  private ConfigNodePropertyString defaultConnectorWorkspaceId;
 
   @JsonProperty("defaultConnectorSubscriptionKey")
-  private ConfigNodePropertyString defaultConnectorSubscriptionKey = null;
+  @Valid
+
+  private ConfigNodePropertyString defaultConnectorSubscriptionKey;
 
   @JsonProperty("languageMapLocation")
-  private ConfigNodePropertyString languageMapLocation = null;
+  @Valid
+
+  private ConfigNodePropertyString languageMapLocation;
 
   @JsonProperty("categoryMapLocation")
-  private ConfigNodePropertyString categoryMapLocation = null;
+  @Valid
+
+  private ConfigNodePropertyString categoryMapLocation;
 
   @JsonProperty("retryAttempts")
-  private ConfigNodePropertyInteger retryAttempts = null;
+  @Valid
+
+  private ConfigNodePropertyInteger retryAttempts;
 
   @JsonProperty("timeoutCount")
-  private ConfigNodePropertyInteger timeoutCount = null;
+  @Valid
+
+  private ConfigNodePropertyInteger timeoutCount;
 
   public ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslProperties translationFactory(ConfigNodePropertyString translationFactory) {
     this.translationFactory = translationFactory;
@@ -50,7 +69,6 @@ public class ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslPrope
    * Get translationFactory
    * @return translationFactory
   **/
-  @Valid
   public ConfigNodePropertyString getTranslationFactory() {
     return translationFactory;
   }
@@ -68,7 +86,6 @@ public class ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslPrope
    * Get defaultConnectorLabel
    * @return defaultConnectorLabel
   **/
-  @Valid
   public ConfigNodePropertyString getDefaultConnectorLabel() {
     return defaultConnectorLabel;
   }
@@ -86,7 +103,6 @@ public class ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslPrope
    * Get defaultConnectorAttribution
    * @return defaultConnectorAttribution
   **/
-  @Valid
   public ConfigNodePropertyString getDefaultConnectorAttribution() {
     return defaultConnectorAttribution;
   }
@@ -104,7 +120,6 @@ public class ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslPrope
    * Get defaultConnectorWorkspaceId
    * @return defaultConnectorWorkspaceId
   **/
-  @Valid
   public ConfigNodePropertyString getDefaultConnectorWorkspaceId() {
     return defaultConnectorWorkspaceId;
   }
@@ -122,7 +137,6 @@ public class ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslPrope
    * Get defaultConnectorSubscriptionKey
    * @return defaultConnectorSubscriptionKey
   **/
-  @Valid
   public ConfigNodePropertyString getDefaultConnectorSubscriptionKey() {
     return defaultConnectorSubscriptionKey;
   }
@@ -140,7 +154,6 @@ public class ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslPrope
    * Get languageMapLocation
    * @return languageMapLocation
   **/
-  @Valid
   public ConfigNodePropertyString getLanguageMapLocation() {
     return languageMapLocation;
   }
@@ -158,7 +171,6 @@ public class ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslPrope
    * Get categoryMapLocation
    * @return categoryMapLocation
   **/
-  @Valid
   public ConfigNodePropertyString getCategoryMapLocation() {
     return categoryMapLocation;
   }
@@ -176,7 +188,6 @@ public class ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslPrope
    * Get retryAttempts
    * @return retryAttempts
   **/
-  @Valid
   public ConfigNodePropertyInteger getRetryAttempts() {
     return retryAttempts;
   }
@@ -194,7 +205,6 @@ public class ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslPrope
    * Get timeoutCount
    * @return timeoutCount
   **/
-  @Valid
   public ConfigNodePropertyInteger getTimeoutCount() {
     return timeoutCount;
   }
@@ -205,7 +215,7 @@ public class ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslPrope
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -252,11 +262,8 @@ public class ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslPrope
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

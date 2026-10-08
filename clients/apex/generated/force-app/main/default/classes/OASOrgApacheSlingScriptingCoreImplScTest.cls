@@ -72,7 +72,7 @@ private class OASOrgApacheSlingScriptingCoreImplScTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASOrgApacheSlingScriptingCoreImplSc orgApacheSlingScriptingCoreImplScriptingResourceResolverProviderProperties = new OASOrgApacheSlingScriptingCoreImplSc();
-        Map<String, String> propertyMappings = orgApacheSlingScriptingCoreImplScriptingResourceResolverProviderProperties.getPropertyMappings();
-        System.assertEquals('logStacktraceOnclose', propertyMappings.get('log.stacktrace.onclose'));
+        Map<String, String> x-property-mappings = orgApacheSlingScriptingCoreImplScriptingResourceResolverProviderProperties.getx-property-mappings();
+        System.assertEquals('logStacktraceOnclose', x-property-mappings.get('log.stacktrace.onclose'));
     }
 }

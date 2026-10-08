@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyBoolean;
 import com.prokarma.pkmst.model.ConfigNodePropertyString;
 import io.swagger.annotations.ApiModel;
@@ -16,30 +17,29 @@ import io.swagger.annotations.ApiModelProperty;
  * OrgApacheSlingDistributionPackagingImplExporterAgentDistributioProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingDistributionPackagingImplExporterAgentDistributioProperties   {
   @JsonProperty("name")
-  private ConfigNodePropertyString name = null;
+  private ConfigNodePropertyString name;
 
   @JsonProperty("queue")
-  private ConfigNodePropertyString queue = null;
+  private ConfigNodePropertyString queue;
 
   @JsonProperty("drop.invalid.items")
-  private ConfigNodePropertyBoolean dropInvalidItems = null;
+  private ConfigNodePropertyBoolean dropInvalidItems;
 
   @JsonProperty("agent.target")
-  private ConfigNodePropertyString agentTarget = null;
+  private ConfigNodePropertyString agentTarget;
 
   public OrgApacheSlingDistributionPackagingImplExporterAgentDistributioProperties name(ConfigNodePropertyString name) {
     this.name = name;
     return this;
   }
 
-   /**
+  /**
    * Get name
    * @return name
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getName() {
     return name;
@@ -54,10 +54,10 @@ public class OrgApacheSlingDistributionPackagingImplExporterAgentDistributioProp
     return this;
   }
 
-   /**
+  /**
    * Get queue
    * @return queue
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getQueue() {
     return queue;
@@ -72,10 +72,10 @@ public class OrgApacheSlingDistributionPackagingImplExporterAgentDistributioProp
     return this;
   }
 
-   /**
+  /**
    * Get dropInvalidItems
    * @return dropInvalidItems
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getDropInvalidItems() {
     return dropInvalidItems;
@@ -90,10 +90,10 @@ public class OrgApacheSlingDistributionPackagingImplExporterAgentDistributioProp
     return this;
   }
 
-   /**
+  /**
    * Get agentTarget
    * @return agentTarget
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getAgentTarget() {
     return agentTarget;
@@ -105,7 +105,7 @@ public class OrgApacheSlingDistributionPackagingImplExporterAgentDistributioProp
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -141,11 +141,8 @@ public class OrgApacheSlingDistributionPackagingImplExporterAgentDistributioProp
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

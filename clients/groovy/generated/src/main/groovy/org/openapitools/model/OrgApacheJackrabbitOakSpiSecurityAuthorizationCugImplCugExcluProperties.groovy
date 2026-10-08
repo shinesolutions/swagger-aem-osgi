@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyArray;
 
 @Canonical
 class OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExcluProperties {
-    ConfigNodePropertyArray principalNames = null
-
+    
+    ConfigNodePropertyArray principalNames
 }

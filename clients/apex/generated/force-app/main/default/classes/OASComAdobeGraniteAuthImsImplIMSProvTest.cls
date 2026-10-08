@@ -72,19 +72,19 @@ private class OASComAdobeGraniteAuthImsImplIMSProvTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeGraniteAuthImsImplIMSProv comAdobeGraniteAuthImsImplIMSProviderImplProperties = new OASComAdobeGraniteAuthImsImplIMSProv();
-        Map<String, String> propertyMappings = comAdobeGraniteAuthImsImplIMSProviderImplProperties.getPropertyMappings();
-        System.assertEquals('oauthProviderId', propertyMappings.get('oauth.provider.id'));
-        System.assertEquals('oauthProviderImsAuthorizationUrl', propertyMappings.get('oauth.provider.ims.authorization.url'));
-        System.assertEquals('oauthProviderImsTokenUrl', propertyMappings.get('oauth.provider.ims.token.url'));
-        System.assertEquals('oauthProviderImsProfileUrl', propertyMappings.get('oauth.provider.ims.profile.url'));
-        System.assertEquals('oauthProviderImsExtendedDetailsUrls', propertyMappings.get('oauth.provider.ims.extended.details.urls'));
-        System.assertEquals('oauthProviderImsValidateTokenUrl', propertyMappings.get('oauth.provider.ims.validate.token.url'));
-        System.assertEquals('oauthProviderImsSessionProperty', propertyMappings.get('oauth.provider.ims.session.property'));
-        System.assertEquals('oauthProviderImsServiceTokenClientId', propertyMappings.get('oauth.provider.ims.service.token.client.id'));
-        System.assertEquals('oauthProviderImsServiceTokenClientSecret', propertyMappings.get('oauth.provider.ims.service.token.client.secret'));
-        System.assertEquals('oauthProviderImsServiceToken', propertyMappings.get('oauth.provider.ims.service.token'));
-        System.assertEquals('imsOrgRef', propertyMappings.get('ims.org.ref'));
-        System.assertEquals('imsGroupMapping', propertyMappings.get('ims.group.mapping'));
-        System.assertEquals('oauthProviderImsOnlyLicenseGroup', propertyMappings.get('oauth.provider.ims.only.license.group'));
+        Map<String, String> x-property-mappings = comAdobeGraniteAuthImsImplIMSProviderImplProperties.getx-property-mappings();
+        System.assertEquals('oauthProviderId', x-property-mappings.get('oauth.provider.id'));
+        System.assertEquals('oauthProviderImsAuthorizationUrl', x-property-mappings.get('oauth.provider.ims.authorization.url'));
+        System.assertEquals('oauthProviderImsTokenUrl', x-property-mappings.get('oauth.provider.ims.token.url'));
+        System.assertEquals('oauthProviderImsProfileUrl', x-property-mappings.get('oauth.provider.ims.profile.url'));
+        System.assertEquals('oauthProviderImsExtendedDetailsUrls', x-property-mappings.get('oauth.provider.ims.extended.details.urls'));
+        System.assertEquals('oauthProviderImsValidateTokenUrl', x-property-mappings.get('oauth.provider.ims.validate.token.url'));
+        System.assertEquals('oauthProviderImsSessionProperty', x-property-mappings.get('oauth.provider.ims.session.property'));
+        System.assertEquals('oauthProviderImsServiceTokenClientId', x-property-mappings.get('oauth.provider.ims.service.token.client.id'));
+        System.assertEquals('oauthProviderImsServiceTokenClientSecret', x-property-mappings.get('oauth.provider.ims.service.token.client.secret'));
+        System.assertEquals('oauthProviderImsServiceToken', x-property-mappings.get('oauth.provider.ims.service.token'));
+        System.assertEquals('imsOrgRef', x-property-mappings.get('ims.org.ref'));
+        System.assertEquals('imsGroupMapping', x-property-mappings.get('ims.group.mapping'));
+        System.assertEquals('oauthProviderImsOnlyLicenseGroup', x-property-mappings.get('oauth.provider.ims.only.license.group'));
     }
 }

@@ -1,5 +1,6 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
@@ -8,44 +9,53 @@ import javax.validation.constraints.*;
 import javax.validation.Valid;
 
 import io.swagger.annotations.ApiModelProperty;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlType;
-import javax.xml.bind.annotation.XmlEnum;
-import javax.xml.bind.annotation.XmlEnumValue;
+import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
 
 public class OrgApacheSlingEngineImplSlingMainServletProperties  {
   
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyInteger slingMaxCalls = null;
+
+  private ConfigNodePropertyInteger slingMaxCalls;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyInteger slingMaxInclusions = null;
+
+  private ConfigNodePropertyInteger slingMaxInclusions;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyBoolean slingTraceAllow = null;
+
+  private ConfigNodePropertyBoolean slingTraceAllow;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyInteger slingMaxRecordRequests = null;
+
+  private ConfigNodePropertyInteger slingMaxRecordRequests;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyArray slingStorePatternRequests = null;
+
+  private ConfigNodePropertyArray slingStorePatternRequests;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyString slingServerinfo = null;
+
+  private ConfigNodePropertyString slingServerinfo;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyArray slingAdditionalResponseHeaders = null;
+
+  private ConfigNodePropertyArray slingAdditionalResponseHeaders;
  /**
    * Get slingMaxCalls
    * @return slingMaxCalls
@@ -172,6 +182,28 @@ public class OrgApacheSlingEngineImplSlingMainServletProperties  {
     return this;
   }
 
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    OrgApacheSlingEngineImplSlingMainServletProperties orgApacheSlingEngineImplSlingMainServletProperties = (OrgApacheSlingEngineImplSlingMainServletProperties) o;
+    return Objects.equals(this.slingMaxCalls, orgApacheSlingEngineImplSlingMainServletProperties.slingMaxCalls) &&
+        Objects.equals(this.slingMaxInclusions, orgApacheSlingEngineImplSlingMainServletProperties.slingMaxInclusions) &&
+        Objects.equals(this.slingTraceAllow, orgApacheSlingEngineImplSlingMainServletProperties.slingTraceAllow) &&
+        Objects.equals(this.slingMaxRecordRequests, orgApacheSlingEngineImplSlingMainServletProperties.slingMaxRecordRequests) &&
+        Objects.equals(this.slingStorePatternRequests, orgApacheSlingEngineImplSlingMainServletProperties.slingStorePatternRequests) &&
+        Objects.equals(this.slingServerinfo, orgApacheSlingEngineImplSlingMainServletProperties.slingServerinfo) &&
+        Objects.equals(this.slingAdditionalResponseHeaders, orgApacheSlingEngineImplSlingMainServletProperties.slingAdditionalResponseHeaders);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(slingMaxCalls, slingMaxInclusions, slingTraceAllow, slingMaxRecordRequests, slingStorePatternRequests, slingServerinfo, slingAdditionalResponseHeaders);
+  }
 
   @Override
   public String toString() {
@@ -193,11 +225,8 @@ public class OrgApacheSlingEngineImplSlingMainServletProperties  {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private static String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

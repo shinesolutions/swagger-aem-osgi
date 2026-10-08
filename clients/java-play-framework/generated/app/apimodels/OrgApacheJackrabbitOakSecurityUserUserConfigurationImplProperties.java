@@ -4,65 +4,98 @@ import apimodels.ConfigNodePropertyBoolean;
 import apimodels.ConfigNodePropertyDropDown;
 import apimodels.ConfigNodePropertyInteger;
 import apimodels.ConfigNodePropertyString;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties   {
   @JsonProperty("usersPath")
-  private ConfigNodePropertyString usersPath = null;
+  @Valid
+
+  private ConfigNodePropertyString usersPath;
 
   @JsonProperty("groupsPath")
-  private ConfigNodePropertyString groupsPath = null;
+  @Valid
+
+  private ConfigNodePropertyString groupsPath;
 
   @JsonProperty("systemRelativePath")
-  private ConfigNodePropertyString systemRelativePath = null;
+  @Valid
+
+  private ConfigNodePropertyString systemRelativePath;
 
   @JsonProperty("defaultDepth")
-  private ConfigNodePropertyInteger defaultDepth = null;
+  @Valid
+
+  private ConfigNodePropertyInteger defaultDepth;
 
   @JsonProperty("importBehavior")
-  private ConfigNodePropertyDropDown importBehavior = null;
+  @Valid
+
+  private ConfigNodePropertyDropDown importBehavior;
 
   @JsonProperty("passwordHashAlgorithm")
-  private ConfigNodePropertyString passwordHashAlgorithm = null;
+  @Valid
+
+  private ConfigNodePropertyString passwordHashAlgorithm;
 
   @JsonProperty("passwordHashIterations")
-  private ConfigNodePropertyInteger passwordHashIterations = null;
+  @Valid
+
+  private ConfigNodePropertyInteger passwordHashIterations;
 
   @JsonProperty("passwordSaltSize")
-  private ConfigNodePropertyInteger passwordSaltSize = null;
+  @Valid
+
+  private ConfigNodePropertyInteger passwordSaltSize;
 
   @JsonProperty("omitAdminPw")
-  private ConfigNodePropertyBoolean omitAdminPw = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean omitAdminPw;
 
   @JsonProperty("supportAutoSave")
-  private ConfigNodePropertyBoolean supportAutoSave = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean supportAutoSave;
 
   @JsonProperty("passwordMaxAge")
-  private ConfigNodePropertyInteger passwordMaxAge = null;
+  @Valid
+
+  private ConfigNodePropertyInteger passwordMaxAge;
 
   @JsonProperty("initialPasswordChange")
-  private ConfigNodePropertyBoolean initialPasswordChange = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean initialPasswordChange;
 
   @JsonProperty("passwordHistorySize")
-  private ConfigNodePropertyInteger passwordHistorySize = null;
+  @Valid
+
+  private ConfigNodePropertyInteger passwordHistorySize;
 
   @JsonProperty("passwordExpiryForAdmin")
-  private ConfigNodePropertyBoolean passwordExpiryForAdmin = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean passwordExpiryForAdmin;
 
   @JsonProperty("cacheExpiration")
-  private ConfigNodePropertyInteger cacheExpiration = null;
+  @Valid
+
+  private ConfigNodePropertyInteger cacheExpiration;
 
   @JsonProperty("enableRFC7613UsercaseMappedProfile")
-  private ConfigNodePropertyBoolean enableRFC7613UsercaseMappedProfile = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean enableRFC7613UsercaseMappedProfile;
 
   public OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties usersPath(ConfigNodePropertyString usersPath) {
     this.usersPath = usersPath;
@@ -73,7 +106,6 @@ public class OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties  
    * Get usersPath
    * @return usersPath
   **/
-  @Valid
   public ConfigNodePropertyString getUsersPath() {
     return usersPath;
   }
@@ -91,7 +123,6 @@ public class OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties  
    * Get groupsPath
    * @return groupsPath
   **/
-  @Valid
   public ConfigNodePropertyString getGroupsPath() {
     return groupsPath;
   }
@@ -109,7 +140,6 @@ public class OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties  
    * Get systemRelativePath
    * @return systemRelativePath
   **/
-  @Valid
   public ConfigNodePropertyString getSystemRelativePath() {
     return systemRelativePath;
   }
@@ -127,7 +157,6 @@ public class OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties  
    * Get defaultDepth
    * @return defaultDepth
   **/
-  @Valid
   public ConfigNodePropertyInteger getDefaultDepth() {
     return defaultDepth;
   }
@@ -145,7 +174,6 @@ public class OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties  
    * Get importBehavior
    * @return importBehavior
   **/
-  @Valid
   public ConfigNodePropertyDropDown getImportBehavior() {
     return importBehavior;
   }
@@ -163,7 +191,6 @@ public class OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties  
    * Get passwordHashAlgorithm
    * @return passwordHashAlgorithm
   **/
-  @Valid
   public ConfigNodePropertyString getPasswordHashAlgorithm() {
     return passwordHashAlgorithm;
   }
@@ -181,7 +208,6 @@ public class OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties  
    * Get passwordHashIterations
    * @return passwordHashIterations
   **/
-  @Valid
   public ConfigNodePropertyInteger getPasswordHashIterations() {
     return passwordHashIterations;
   }
@@ -199,7 +225,6 @@ public class OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties  
    * Get passwordSaltSize
    * @return passwordSaltSize
   **/
-  @Valid
   public ConfigNodePropertyInteger getPasswordSaltSize() {
     return passwordSaltSize;
   }
@@ -217,7 +242,6 @@ public class OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties  
    * Get omitAdminPw
    * @return omitAdminPw
   **/
-  @Valid
   public ConfigNodePropertyBoolean getOmitAdminPw() {
     return omitAdminPw;
   }
@@ -235,7 +259,6 @@ public class OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties  
    * Get supportAutoSave
    * @return supportAutoSave
   **/
-  @Valid
   public ConfigNodePropertyBoolean getSupportAutoSave() {
     return supportAutoSave;
   }
@@ -253,7 +276,6 @@ public class OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties  
    * Get passwordMaxAge
    * @return passwordMaxAge
   **/
-  @Valid
   public ConfigNodePropertyInteger getPasswordMaxAge() {
     return passwordMaxAge;
   }
@@ -271,7 +293,6 @@ public class OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties  
    * Get initialPasswordChange
    * @return initialPasswordChange
   **/
-  @Valid
   public ConfigNodePropertyBoolean getInitialPasswordChange() {
     return initialPasswordChange;
   }
@@ -289,7 +310,6 @@ public class OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties  
    * Get passwordHistorySize
    * @return passwordHistorySize
   **/
-  @Valid
   public ConfigNodePropertyInteger getPasswordHistorySize() {
     return passwordHistorySize;
   }
@@ -307,7 +327,6 @@ public class OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties  
    * Get passwordExpiryForAdmin
    * @return passwordExpiryForAdmin
   **/
-  @Valid
   public ConfigNodePropertyBoolean getPasswordExpiryForAdmin() {
     return passwordExpiryForAdmin;
   }
@@ -325,7 +344,6 @@ public class OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties  
    * Get cacheExpiration
    * @return cacheExpiration
   **/
-  @Valid
   public ConfigNodePropertyInteger getCacheExpiration() {
     return cacheExpiration;
   }
@@ -343,7 +361,6 @@ public class OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties  
    * Get enableRFC7613UsercaseMappedProfile
    * @return enableRFC7613UsercaseMappedProfile
   **/
-  @Valid
   public ConfigNodePropertyBoolean getEnableRFC7613UsercaseMappedProfile() {
     return enableRFC7613UsercaseMappedProfile;
   }
@@ -354,7 +371,7 @@ public class OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties  
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -415,11 +432,8 @@ public class OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties  
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

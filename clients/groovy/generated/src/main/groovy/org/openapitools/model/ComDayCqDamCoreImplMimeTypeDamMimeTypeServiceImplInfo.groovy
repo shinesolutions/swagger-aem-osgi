@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqDamCoreImplMimeTypeDamMimeTypeServiceImplP
 
 @Canonical
 class ComDayCqDamCoreImplMimeTypeDamMimeTypeServiceImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqDamCoreImplMimeTypeDamMimeTypeServiceImplProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqDamCoreImplMimeTypeDamMimeTypeServiceImplProperties properties
 }

@@ -4,34 +4,27 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2019-08-05T01:00:05.540Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2026-10-07T12:54:26.576036107Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqMailerDefaultMailServiceProperties   {
   
-
-  private ConfigNodePropertyString smtpHost = null;
-
-  private ConfigNodePropertyInteger smtpPort = null;
-
-  private ConfigNodePropertyString smtpUser = null;
-
-  private ConfigNodePropertyString smtpPassword = null;
-
-  private ConfigNodePropertyString fromAddress = null;
-
-  private ConfigNodePropertyBoolean smtpSsl = null;
-
-  private ConfigNodePropertyBoolean smtpStarttls = null;
-
-  private ConfigNodePropertyBoolean debugEmail = null;
+  private ConfigNodePropertyString smtpHost;
+  private ConfigNodePropertyInteger smtpPort;
+  private ConfigNodePropertyString smtpUser;
+  private ConfigNodePropertyString smtpPassword;
+  private ConfigNodePropertyString fromAddress;
+  private ConfigNodePropertyBoolean smtpSsl;
+  private ConfigNodePropertyBoolean smtpStarttls;
+  private ConfigNodePropertyBoolean debugEmail;
 
   /**
    **/
@@ -139,14 +132,14 @@ public class ComDayCqMailerDefaultMailServiceProperties   {
       return false;
     }
     ComDayCqMailerDefaultMailServiceProperties comDayCqMailerDefaultMailServiceProperties = (ComDayCqMailerDefaultMailServiceProperties) o;
-    return Objects.equals(smtpHost, comDayCqMailerDefaultMailServiceProperties.smtpHost) &&
-        Objects.equals(smtpPort, comDayCqMailerDefaultMailServiceProperties.smtpPort) &&
-        Objects.equals(smtpUser, comDayCqMailerDefaultMailServiceProperties.smtpUser) &&
-        Objects.equals(smtpPassword, comDayCqMailerDefaultMailServiceProperties.smtpPassword) &&
-        Objects.equals(fromAddress, comDayCqMailerDefaultMailServiceProperties.fromAddress) &&
-        Objects.equals(smtpSsl, comDayCqMailerDefaultMailServiceProperties.smtpSsl) &&
-        Objects.equals(smtpStarttls, comDayCqMailerDefaultMailServiceProperties.smtpStarttls) &&
-        Objects.equals(debugEmail, comDayCqMailerDefaultMailServiceProperties.debugEmail);
+    return Objects.equals(this.smtpHost, comDayCqMailerDefaultMailServiceProperties.smtpHost) &&
+        Objects.equals(this.smtpPort, comDayCqMailerDefaultMailServiceProperties.smtpPort) &&
+        Objects.equals(this.smtpUser, comDayCqMailerDefaultMailServiceProperties.smtpUser) &&
+        Objects.equals(this.smtpPassword, comDayCqMailerDefaultMailServiceProperties.smtpPassword) &&
+        Objects.equals(this.fromAddress, comDayCqMailerDefaultMailServiceProperties.fromAddress) &&
+        Objects.equals(this.smtpSsl, comDayCqMailerDefaultMailServiceProperties.smtpSsl) &&
+        Objects.equals(this.smtpStarttls, comDayCqMailerDefaultMailServiceProperties.smtpStarttls) &&
+        Objects.equals(this.debugEmail, comDayCqMailerDefaultMailServiceProperties.debugEmail);
   }
 
   @Override
@@ -176,10 +169,7 @@ public class ComDayCqMailerDefaultMailServiceProperties   {
    * (except the first line).
    */
   private String toIndentedString(Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

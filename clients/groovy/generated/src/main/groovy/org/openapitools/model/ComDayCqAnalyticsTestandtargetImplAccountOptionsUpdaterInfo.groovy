@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqAnalyticsTestandtargetImplAccountOptionsUp
 
 @Canonical
 class ComDayCqAnalyticsTestandtargetImplAccountOptionsUpdaterInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqAnalyticsTestandtargetImplAccountOptionsUpdaterProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqAnalyticsTestandtargetImplAccountOptionsUpdaterProperties properties
 }

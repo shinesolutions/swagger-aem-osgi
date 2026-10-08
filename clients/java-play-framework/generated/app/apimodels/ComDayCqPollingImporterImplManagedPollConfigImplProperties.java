@@ -3,44 +3,63 @@ package apimodels;
 import apimodels.ConfigNodePropertyBoolean;
 import apimodels.ConfigNodePropertyInteger;
 import apimodels.ConfigNodePropertyString;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * ComDayCqPollingImporterImplManagedPollConfigImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class ComDayCqPollingImporterImplManagedPollConfigImplProperties   {
   @JsonProperty("id")
-  private ConfigNodePropertyString id = null;
+  @Valid
+
+  private ConfigNodePropertyString id;
 
   @JsonProperty("enabled")
-  private ConfigNodePropertyBoolean enabled = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean enabled;
 
   @JsonProperty("reference")
-  private ConfigNodePropertyBoolean reference = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean reference;
 
   @JsonProperty("interval")
-  private ConfigNodePropertyInteger interval = null;
+  @Valid
+
+  private ConfigNodePropertyInteger interval;
 
   @JsonProperty("expression")
-  private ConfigNodePropertyString expression = null;
+  @Valid
+
+  private ConfigNodePropertyString expression;
 
   @JsonProperty("source")
-  private ConfigNodePropertyString source = null;
+  @Valid
+
+  private ConfigNodePropertyString source;
 
   @JsonProperty("target")
-  private ConfigNodePropertyString target = null;
+  @Valid
+
+  private ConfigNodePropertyString target;
 
   @JsonProperty("login")
-  private ConfigNodePropertyString login = null;
+  @Valid
+
+  private ConfigNodePropertyString login;
 
   @JsonProperty("password")
-  private ConfigNodePropertyString password = null;
+  @Valid
+
+  private ConfigNodePropertyString password;
 
   public ComDayCqPollingImporterImplManagedPollConfigImplProperties id(ConfigNodePropertyString id) {
     this.id = id;
@@ -51,7 +70,6 @@ public class ComDayCqPollingImporterImplManagedPollConfigImplProperties   {
    * Get id
    * @return id
   **/
-  @Valid
   public ConfigNodePropertyString getId() {
     return id;
   }
@@ -69,7 +87,6 @@ public class ComDayCqPollingImporterImplManagedPollConfigImplProperties   {
    * Get enabled
    * @return enabled
   **/
-  @Valid
   public ConfigNodePropertyBoolean getEnabled() {
     return enabled;
   }
@@ -87,7 +104,6 @@ public class ComDayCqPollingImporterImplManagedPollConfigImplProperties   {
    * Get reference
    * @return reference
   **/
-  @Valid
   public ConfigNodePropertyBoolean getReference() {
     return reference;
   }
@@ -105,7 +121,6 @@ public class ComDayCqPollingImporterImplManagedPollConfigImplProperties   {
    * Get interval
    * @return interval
   **/
-  @Valid
   public ConfigNodePropertyInteger getInterval() {
     return interval;
   }
@@ -123,7 +138,6 @@ public class ComDayCqPollingImporterImplManagedPollConfigImplProperties   {
    * Get expression
    * @return expression
   **/
-  @Valid
   public ConfigNodePropertyString getExpression() {
     return expression;
   }
@@ -141,7 +155,6 @@ public class ComDayCqPollingImporterImplManagedPollConfigImplProperties   {
    * Get source
    * @return source
   **/
-  @Valid
   public ConfigNodePropertyString getSource() {
     return source;
   }
@@ -159,7 +172,6 @@ public class ComDayCqPollingImporterImplManagedPollConfigImplProperties   {
    * Get target
    * @return target
   **/
-  @Valid
   public ConfigNodePropertyString getTarget() {
     return target;
   }
@@ -177,7 +189,6 @@ public class ComDayCqPollingImporterImplManagedPollConfigImplProperties   {
    * Get login
    * @return login
   **/
-  @Valid
   public ConfigNodePropertyString getLogin() {
     return login;
   }
@@ -195,7 +206,6 @@ public class ComDayCqPollingImporterImplManagedPollConfigImplProperties   {
    * Get password
    * @return password
   **/
-  @Valid
   public ConfigNodePropertyString getPassword() {
     return password;
   }
@@ -206,7 +216,7 @@ public class ComDayCqPollingImporterImplManagedPollConfigImplProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -253,11 +263,8 @@ public class ComDayCqPollingImporterImplManagedPollConfigImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

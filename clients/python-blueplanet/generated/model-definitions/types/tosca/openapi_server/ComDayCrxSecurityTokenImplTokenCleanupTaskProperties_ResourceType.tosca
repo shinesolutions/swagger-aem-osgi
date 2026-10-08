@@ -1,0 +1,48 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCrxSecurityTokenImplTokenCleanupTaskProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCrxSecurityTokenImplTokenCleanupTaskProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComDayCrxSecurityTokenImplTokenCleanupTaskProperties {
+    title = ComDayCrxSecurityTokenImplTokenCleanupTaskProperties
+    description = ComDayCrxSecurityTokenImplTokenCleanupTaskProperties
+    derivedFrom = Root
+    properties {
+        enable_token_cleanup_task {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        scheduler_expression {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        batch_size {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCrxSecurityTokenImplTokenCleanupTaskProperties {
+    title = ComDayCrxSecurityTokenImplTokenCleanupTaskProperties
+    description = ComDayCrxSecurityTokenImplTokenCleanupTaskProperties
+    implements = openapi_server.resourceTypes.ComDayCrxSecurityTokenImplTokenCleanupTaskProperties
+
+  }
+}

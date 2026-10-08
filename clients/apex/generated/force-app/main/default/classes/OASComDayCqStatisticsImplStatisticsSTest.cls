@@ -72,8 +72,8 @@ private class OASComDayCqStatisticsImplStatisticsSTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqStatisticsImplStatisticsS comDayCqStatisticsImplStatisticsServiceImplProperties = new OASComDayCqStatisticsImplStatisticsS();
-        Map<String, String> propertyMappings = comDayCqStatisticsImplStatisticsServiceImplProperties.getPropertyMappings();
-        System.assertEquals('schedulerPeriod', propertyMappings.get('scheduler.period'));
-        System.assertEquals('schedulerConcurrent', propertyMappings.get('scheduler.concurrent'));
+        Map<String, String> x-property-mappings = comDayCqStatisticsImplStatisticsServiceImplProperties.getx-property-mappings();
+        System.assertEquals('schedulerPeriod', x-property-mappings.get('scheduler.period'));
+        System.assertEquals('schedulerConcurrent', x-property-mappings.get('scheduler.concurrent'));
     }
 }

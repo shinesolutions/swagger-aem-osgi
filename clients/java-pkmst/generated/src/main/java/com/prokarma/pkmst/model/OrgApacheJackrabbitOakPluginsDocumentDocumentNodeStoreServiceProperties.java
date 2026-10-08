@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyArray;
 import com.prokarma.pkmst.model.ConfigNodePropertyBoolean;
 import com.prokarma.pkmst.model.ConfigNodePropertyDropDown;
@@ -19,108 +20,107 @@ import io.swagger.annotations.ApiModelProperty;
  * OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceProperties   {
   @JsonProperty("mongouri")
-  private ConfigNodePropertyString mongouri = null;
+  private ConfigNodePropertyString mongouri;
 
   @JsonProperty("db")
-  private ConfigNodePropertyString db = null;
+  private ConfigNodePropertyString db;
 
   @JsonProperty("socketKeepAlive")
-  private ConfigNodePropertyBoolean socketKeepAlive = null;
+  private ConfigNodePropertyBoolean socketKeepAlive;
 
   @JsonProperty("cache")
-  private ConfigNodePropertyInteger cache = null;
+  private ConfigNodePropertyInteger cache;
 
   @JsonProperty("nodeCachePercentage")
-  private ConfigNodePropertyInteger nodeCachePercentage = null;
+  private ConfigNodePropertyInteger nodeCachePercentage;
 
   @JsonProperty("prevDocCachePercentage")
-  private ConfigNodePropertyInteger prevDocCachePercentage = null;
+  private ConfigNodePropertyInteger prevDocCachePercentage;
 
   @JsonProperty("childrenCachePercentage")
-  private ConfigNodePropertyInteger childrenCachePercentage = null;
+  private ConfigNodePropertyInteger childrenCachePercentage;
 
   @JsonProperty("diffCachePercentage")
-  private ConfigNodePropertyInteger diffCachePercentage = null;
+  private ConfigNodePropertyInteger diffCachePercentage;
 
   @JsonProperty("cacheSegmentCount")
-  private ConfigNodePropertyInteger cacheSegmentCount = null;
+  private ConfigNodePropertyInteger cacheSegmentCount;
 
   @JsonProperty("cacheStackMoveDistance")
-  private ConfigNodePropertyInteger cacheStackMoveDistance = null;
+  private ConfigNodePropertyInteger cacheStackMoveDistance;
 
   @JsonProperty("blobCacheSize")
-  private ConfigNodePropertyInteger blobCacheSize = null;
+  private ConfigNodePropertyInteger blobCacheSize;
 
   @JsonProperty("persistentCache")
-  private ConfigNodePropertyString persistentCache = null;
+  private ConfigNodePropertyString persistentCache;
 
   @JsonProperty("journalCache")
-  private ConfigNodePropertyString journalCache = null;
+  private ConfigNodePropertyString journalCache;
 
   @JsonProperty("customBlobStore")
-  private ConfigNodePropertyBoolean customBlobStore = null;
+  private ConfigNodePropertyBoolean customBlobStore;
 
   @JsonProperty("journalGCInterval")
-  private ConfigNodePropertyInteger journalGCInterval = null;
+  private ConfigNodePropertyInteger journalGCInterval;
 
   @JsonProperty("journalGCMaxAge")
-  private ConfigNodePropertyInteger journalGCMaxAge = null;
+  private ConfigNodePropertyInteger journalGCMaxAge;
 
   @JsonProperty("prefetchExternalChanges")
-  private ConfigNodePropertyBoolean prefetchExternalChanges = null;
+  private ConfigNodePropertyBoolean prefetchExternalChanges;
 
   @JsonProperty("role")
-  private ConfigNodePropertyString role = null;
+  private ConfigNodePropertyString role;
 
   @JsonProperty("versionGcMaxAgeInSecs")
-  private ConfigNodePropertyInteger versionGcMaxAgeInSecs = null;
+  private ConfigNodePropertyInteger versionGcMaxAgeInSecs;
 
   @JsonProperty("versionGCExpression")
-  private ConfigNodePropertyString versionGCExpression = null;
+  private ConfigNodePropertyString versionGCExpression;
 
   @JsonProperty("versionGCTimeLimitInSecs")
-  private ConfigNodePropertyInteger versionGCTimeLimitInSecs = null;
+  private ConfigNodePropertyInteger versionGCTimeLimitInSecs;
 
   @JsonProperty("blobGcMaxAgeInSecs")
-  private ConfigNodePropertyInteger blobGcMaxAgeInSecs = null;
+  private ConfigNodePropertyInteger blobGcMaxAgeInSecs;
 
   @JsonProperty("blobTrackSnapshotIntervalInSecs")
-  private ConfigNodePropertyInteger blobTrackSnapshotIntervalInSecs = null;
+  private ConfigNodePropertyInteger blobTrackSnapshotIntervalInSecs;
 
   @JsonProperty("repository.home")
-  private ConfigNodePropertyString repositoryHome = null;
+  private ConfigNodePropertyString repositoryHome;
 
   @JsonProperty("maxReplicationLagInSecs")
-  private ConfigNodePropertyInteger maxReplicationLagInSecs = null;
+  private ConfigNodePropertyInteger maxReplicationLagInSecs;
 
   @JsonProperty("documentStoreType")
-  private ConfigNodePropertyDropDown documentStoreType = null;
+  private ConfigNodePropertyDropDown documentStoreType;
 
   @JsonProperty("bundlingDisabled")
-  private ConfigNodePropertyBoolean bundlingDisabled = null;
+  private ConfigNodePropertyBoolean bundlingDisabled;
 
   @JsonProperty("updateLimit")
-  private ConfigNodePropertyInteger updateLimit = null;
+  private ConfigNodePropertyInteger updateLimit;
 
   @JsonProperty("persistentCacheIncludes")
-  private ConfigNodePropertyArray persistentCacheIncludes = null;
+  private ConfigNodePropertyArray persistentCacheIncludes;
 
   @JsonProperty("leaseCheckMode")
-  private ConfigNodePropertyDropDown leaseCheckMode = null;
+  private ConfigNodePropertyDropDown leaseCheckMode;
 
   public OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceProperties mongouri(ConfigNodePropertyString mongouri) {
     this.mongouri = mongouri;
     return this;
   }
 
-   /**
+  /**
    * Get mongouri
    * @return mongouri
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getMongouri() {
     return mongouri;
@@ -135,10 +135,10 @@ public class OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceProper
     return this;
   }
 
-   /**
+  /**
    * Get db
    * @return db
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getDb() {
     return db;
@@ -153,10 +153,10 @@ public class OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceProper
     return this;
   }
 
-   /**
+  /**
    * Get socketKeepAlive
    * @return socketKeepAlive
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getSocketKeepAlive() {
     return socketKeepAlive;
@@ -171,10 +171,10 @@ public class OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceProper
     return this;
   }
 
-   /**
+  /**
    * Get cache
    * @return cache
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getCache() {
     return cache;
@@ -189,10 +189,10 @@ public class OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceProper
     return this;
   }
 
-   /**
+  /**
    * Get nodeCachePercentage
    * @return nodeCachePercentage
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getNodeCachePercentage() {
     return nodeCachePercentage;
@@ -207,10 +207,10 @@ public class OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceProper
     return this;
   }
 
-   /**
+  /**
    * Get prevDocCachePercentage
    * @return prevDocCachePercentage
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getPrevDocCachePercentage() {
     return prevDocCachePercentage;
@@ -225,10 +225,10 @@ public class OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceProper
     return this;
   }
 
-   /**
+  /**
    * Get childrenCachePercentage
    * @return childrenCachePercentage
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getChildrenCachePercentage() {
     return childrenCachePercentage;
@@ -243,10 +243,10 @@ public class OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceProper
     return this;
   }
 
-   /**
+  /**
    * Get diffCachePercentage
    * @return diffCachePercentage
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getDiffCachePercentage() {
     return diffCachePercentage;
@@ -261,10 +261,10 @@ public class OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceProper
     return this;
   }
 
-   /**
+  /**
    * Get cacheSegmentCount
    * @return cacheSegmentCount
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getCacheSegmentCount() {
     return cacheSegmentCount;
@@ -279,10 +279,10 @@ public class OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceProper
     return this;
   }
 
-   /**
+  /**
    * Get cacheStackMoveDistance
    * @return cacheStackMoveDistance
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getCacheStackMoveDistance() {
     return cacheStackMoveDistance;
@@ -297,10 +297,10 @@ public class OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceProper
     return this;
   }
 
-   /**
+  /**
    * Get blobCacheSize
    * @return blobCacheSize
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getBlobCacheSize() {
     return blobCacheSize;
@@ -315,10 +315,10 @@ public class OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceProper
     return this;
   }
 
-   /**
+  /**
    * Get persistentCache
    * @return persistentCache
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getPersistentCache() {
     return persistentCache;
@@ -333,10 +333,10 @@ public class OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceProper
     return this;
   }
 
-   /**
+  /**
    * Get journalCache
    * @return journalCache
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getJournalCache() {
     return journalCache;
@@ -351,10 +351,10 @@ public class OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceProper
     return this;
   }
 
-   /**
+  /**
    * Get customBlobStore
    * @return customBlobStore
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getCustomBlobStore() {
     return customBlobStore;
@@ -369,10 +369,10 @@ public class OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceProper
     return this;
   }
 
-   /**
+  /**
    * Get journalGCInterval
    * @return journalGCInterval
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getJournalGCInterval() {
     return journalGCInterval;
@@ -387,10 +387,10 @@ public class OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceProper
     return this;
   }
 
-   /**
+  /**
    * Get journalGCMaxAge
    * @return journalGCMaxAge
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getJournalGCMaxAge() {
     return journalGCMaxAge;
@@ -405,10 +405,10 @@ public class OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceProper
     return this;
   }
 
-   /**
+  /**
    * Get prefetchExternalChanges
    * @return prefetchExternalChanges
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getPrefetchExternalChanges() {
     return prefetchExternalChanges;
@@ -423,10 +423,10 @@ public class OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceProper
     return this;
   }
 
-   /**
+  /**
    * Get role
    * @return role
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getRole() {
     return role;
@@ -441,10 +441,10 @@ public class OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceProper
     return this;
   }
 
-   /**
+  /**
    * Get versionGcMaxAgeInSecs
    * @return versionGcMaxAgeInSecs
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getVersionGcMaxAgeInSecs() {
     return versionGcMaxAgeInSecs;
@@ -459,10 +459,10 @@ public class OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceProper
     return this;
   }
 
-   /**
+  /**
    * Get versionGCExpression
    * @return versionGCExpression
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getVersionGCExpression() {
     return versionGCExpression;
@@ -477,10 +477,10 @@ public class OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceProper
     return this;
   }
 
-   /**
+  /**
    * Get versionGCTimeLimitInSecs
    * @return versionGCTimeLimitInSecs
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getVersionGCTimeLimitInSecs() {
     return versionGCTimeLimitInSecs;
@@ -495,10 +495,10 @@ public class OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceProper
     return this;
   }
 
-   /**
+  /**
    * Get blobGcMaxAgeInSecs
    * @return blobGcMaxAgeInSecs
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getBlobGcMaxAgeInSecs() {
     return blobGcMaxAgeInSecs;
@@ -513,10 +513,10 @@ public class OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceProper
     return this;
   }
 
-   /**
+  /**
    * Get blobTrackSnapshotIntervalInSecs
    * @return blobTrackSnapshotIntervalInSecs
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getBlobTrackSnapshotIntervalInSecs() {
     return blobTrackSnapshotIntervalInSecs;
@@ -531,10 +531,10 @@ public class OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceProper
     return this;
   }
 
-   /**
+  /**
    * Get repositoryHome
    * @return repositoryHome
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getRepositoryHome() {
     return repositoryHome;
@@ -549,10 +549,10 @@ public class OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceProper
     return this;
   }
 
-   /**
+  /**
    * Get maxReplicationLagInSecs
    * @return maxReplicationLagInSecs
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getMaxReplicationLagInSecs() {
     return maxReplicationLagInSecs;
@@ -567,10 +567,10 @@ public class OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceProper
     return this;
   }
 
-   /**
+  /**
    * Get documentStoreType
    * @return documentStoreType
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyDropDown getDocumentStoreType() {
     return documentStoreType;
@@ -585,10 +585,10 @@ public class OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceProper
     return this;
   }
 
-   /**
+  /**
    * Get bundlingDisabled
    * @return bundlingDisabled
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getBundlingDisabled() {
     return bundlingDisabled;
@@ -603,10 +603,10 @@ public class OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceProper
     return this;
   }
 
-   /**
+  /**
    * Get updateLimit
    * @return updateLimit
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getUpdateLimit() {
     return updateLimit;
@@ -621,10 +621,10 @@ public class OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceProper
     return this;
   }
 
-   /**
+  /**
    * Get persistentCacheIncludes
    * @return persistentCacheIncludes
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getPersistentCacheIncludes() {
     return persistentCacheIncludes;
@@ -639,10 +639,10 @@ public class OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceProper
     return this;
   }
 
-   /**
+  /**
    * Get leaseCheckMode
    * @return leaseCheckMode
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyDropDown getLeaseCheckMode() {
     return leaseCheckMode;
@@ -654,7 +654,7 @@ public class OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceProper
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -742,11 +742,8 @@ public class OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceProper
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

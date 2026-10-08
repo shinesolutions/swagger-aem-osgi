@@ -72,8 +72,8 @@ private class OASOrgApacheSlingTenantInternalTenanTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASOrgApacheSlingTenantInternalTenan orgApacheSlingTenantInternalTenantProviderImplProperties = new OASOrgApacheSlingTenantInternalTenan();
-        Map<String, String> propertyMappings = orgApacheSlingTenantInternalTenantProviderImplProperties.getPropertyMappings();
-        System.assertEquals('tenantRoot', propertyMappings.get('tenant.root'));
-        System.assertEquals('tenantPathMatcher', propertyMappings.get('tenant.path.matcher'));
+        Map<String, String> x-property-mappings = orgApacheSlingTenantInternalTenantProviderImplProperties.getx-property-mappings();
+        System.assertEquals('tenantRoot', x-property-mappings.get('tenant.root'));
+        System.assertEquals('tenantPathMatcher', x-property-mappings.get('tenant.path.matcher'));
     }
 }

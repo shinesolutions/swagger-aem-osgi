@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyArray;
 
 @Canonical
 class AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurProperties {
-    ConfigNodePropertyArray fontList = null
-
+    
+    ConfigNodePropertyArray fontList
 }

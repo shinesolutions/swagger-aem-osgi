@@ -1,11 +1,12 @@
 # ComAdobeCqSocialAccountverificationImplAccountManagementConfigImProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**enable** | [***::models::ConfigNodePropertyBoolean**](configNodePropertyBoolean.md) |  | [optional] 
-**ttl1** | [***::models::ConfigNodePropertyInteger**](configNodePropertyInteger.md) |  | [optional] 
-**ttl2** | [***::models::ConfigNodePropertyInteger**](configNodePropertyInteger.md) |  | [optional] 
+**enable** | Option<[**models::ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md)> |  | [optional]
+**ttl1** | Option<[**models::ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md)> |  | [optional]
+**ttl2** | Option<[**models::ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md)> |  | [optional]
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

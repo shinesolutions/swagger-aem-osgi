@@ -7,16 +7,16 @@ import org.openapitools.model.OrgApacheSlingCommonsMimeInternalMimeTypeServiceIm
 
 @Canonical
 class OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplProperties properties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplProperties properties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

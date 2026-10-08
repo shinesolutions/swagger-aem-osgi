@@ -1,0 +1,52 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqDamHandlerGibsonFontmanagerImplFontManagerServiceImplProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqDamHandlerGibsonFontmanagerImplFontManagerServiceImplProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComDayCqDamHandlerGibsonFontmanagerImplFontManagerServiceImplProperties {
+    title = ComDayCqDamHandlerGibsonFontmanagerImplFontManagerServiceImplProperties
+    description = ComDayCqDamHandlerGibsonFontmanagerImplFontManagerServiceImplProperties
+    derivedFrom = Root
+    properties {
+        event_filter {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        fontmgr_system_font_dir {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        fontmgr_adobe_font_dir {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        fontmgr_customer_font_dir {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqDamHandlerGibsonFontmanagerImplFontManagerServiceImplProperties {
+    title = ComDayCqDamHandlerGibsonFontmanagerImplFontManagerServiceImplProperties
+    description = ComDayCqDamHandlerGibsonFontmanagerImplFontManagerServiceImplProperties
+    implements = openapi_server.resourceTypes.ComDayCqDamHandlerGibsonFontmanagerImplFontManagerServiceImplProperties
+
+  }
+}

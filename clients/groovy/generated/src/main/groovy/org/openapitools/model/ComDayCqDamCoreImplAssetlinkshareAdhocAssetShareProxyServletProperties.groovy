@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class ComDayCqDamCoreImplAssetlinkshareAdhocAssetShareProxyServletProperties {
-    ConfigNodePropertyInteger cqDamAdhocAssetSharePrezipMaxcontentsize = null
-
+    
+    ConfigNodePropertyInteger cqDamAdhocAssetSharePrezipMaxcontentsize
 }

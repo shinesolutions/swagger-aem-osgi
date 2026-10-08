@@ -2,11 +2,11 @@
 # ComAdobeGraniteWorkflowCoreWorkflowConfigProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**cqPeriodworkflowPeriodconfigPeriodworkflowPeriodpackagesPeriodrootPeriodpath** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**cqPeriodworkflowPeriodconfigPeriodworkflowPeriodprocessPeriodlegacyPeriodmode** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**cqPeriodworkflowPeriodconfigPeriodallowPeriodlocking** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **cqWorkflowConfigWorkflowPackagesRootPath** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **cqWorkflowConfigWorkflowProcessLegacyMode** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **cqWorkflowConfigAllowLocking** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
 
 
 

@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyArray;
 import com.prokarma.pkmst.model.ConfigNodePropertyBoolean;
 import com.prokarma.pkmst.model.ConfigNodePropertyInteger;
@@ -18,30 +19,29 @@ import io.swagger.annotations.ApiModelProperty;
  * OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviProperties   {
   @JsonProperty("description")
-  private ConfigNodePropertyString description = null;
+  private ConfigNodePropertyString description;
 
   @JsonProperty("overrides")
-  private ConfigNodePropertyArray overrides = null;
+  private ConfigNodePropertyArray overrides;
 
   @JsonProperty("enabled")
-  private ConfigNodePropertyBoolean enabled = null;
+  private ConfigNodePropertyBoolean enabled;
 
   @JsonProperty("service.ranking")
-  private ConfigNodePropertyInteger serviceRanking = null;
+  private ConfigNodePropertyInteger serviceRanking;
 
   public OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviProperties description(ConfigNodePropertyString description) {
     this.description = description;
     return this;
   }
 
-   /**
+  /**
    * Get description
    * @return description
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getDescription() {
     return description;
@@ -56,10 +56,10 @@ public class OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviPro
     return this;
   }
 
-   /**
+  /**
    * Get overrides
    * @return overrides
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getOverrides() {
     return overrides;
@@ -74,10 +74,10 @@ public class OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviPro
     return this;
   }
 
-   /**
+  /**
    * Get enabled
    * @return enabled
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getEnabled() {
     return enabled;
@@ -92,10 +92,10 @@ public class OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviPro
     return this;
   }
 
-   /**
+  /**
    * Get serviceRanking
    * @return serviceRanking
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getServiceRanking() {
     return serviceRanking;
@@ -107,7 +107,7 @@ public class OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviPro
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -143,11 +143,8 @@ public class OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviPro
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

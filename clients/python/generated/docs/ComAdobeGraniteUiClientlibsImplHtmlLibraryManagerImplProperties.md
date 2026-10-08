@@ -1,6 +1,8 @@
 # ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties
 
+
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **htmllibmanager_timing** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] 
@@ -24,6 +26,23 @@ Name | Type | Description | Notes
 **htmllibmanager_file_system_output_cache_location** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
 **htmllibmanager_disable_replacement** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 
 
+## Example
+
+```python
+from swaggeraemosgi.models.com_adobe_granite_ui_clientlibs_impl_html_library_manager_impl_properties import ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties
+
+# TODO update the JSON string below
+json = "{}"
+# create an instance of ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties from a JSON string
+com_adobe_granite_ui_clientlibs_impl_html_library_manager_impl_properties_instance = ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties.from_json(json)
+# print the JSON string representation of the object
+print(ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties.to_json())
+
+# convert the object into a dict
+com_adobe_granite_ui_clientlibs_impl_html_library_manager_impl_properties_dict = com_adobe_granite_ui_clientlibs_impl_html_library_manager_impl_properties_instance.to_dict()
+# create an instance of ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties from a dict
+com_adobe_granite_ui_clientlibs_impl_html_library_manager_impl_properties_from_dict = ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties.from_dict(com_adobe_granite_ui_clientlibs_impl_html_library_manager_impl_properties_dict)
+```
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 
 

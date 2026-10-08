@@ -72,7 +72,7 @@ private class OASComAdobeGraniteBundlesHcImplDavExTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeGraniteBundlesHcImplDavEx comAdobeGraniteBundlesHcImplDavExBundleHealthCheckProperties = new OASComAdobeGraniteBundlesHcImplDavEx();
-        Map<String, String> propertyMappings = comAdobeGraniteBundlesHcImplDavExBundleHealthCheckProperties.getPropertyMappings();
-        System.assertEquals('hcTags', propertyMappings.get('hc.tags'));
+        Map<String, String> x-property-mappings = comAdobeGraniteBundlesHcImplDavExBundleHealthCheckProperties.getx-property-mappings();
+        System.assertEquals('hcTags', x-property-mappings.get('hc.tags'));
     }
 }

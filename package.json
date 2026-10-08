@@ -1,0 +1,6 @@
+{
+  "name": "swagger-aem-osgi-deps",
+  "dependencies": {
+    "validator": "^13.15.35"
+  }
+}

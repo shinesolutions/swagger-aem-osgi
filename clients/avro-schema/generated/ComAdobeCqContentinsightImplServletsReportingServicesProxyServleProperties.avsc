@@ -1,0 +1,15 @@
+{
+  "namespace": "model",
+  "type": "record",
+  "doc": "",
+  "name": "ComAdobeCqContentinsightImplServletsReportingServicesProxyServleProperties",
+  "fields": [
+    {
+      "name": "reportingservices.proxy.whitelist",
+      "type": ["null", "model.ConfigNodePropertyArray"],
+      "doc": "",
+      "default": null
+    }
+  ]
+
+}

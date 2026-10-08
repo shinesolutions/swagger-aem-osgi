@@ -72,8 +72,8 @@ private class OASComAdobeAemFormsndocumentsConfigATest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeAemFormsndocumentsConfigA comAdobeAemFormsndocumentsConfigAEMFormsManagerConfigurationProperties = new OASComAdobeAemFormsndocumentsConfigA();
-        Map<String, String> propertyMappings = comAdobeAemFormsndocumentsConfigAEMFormsManagerConfigurationProperties.getPropertyMappings();
-        System.assertEquals('formsManagerConfigIncludeOOTBTemplates', propertyMappings.get('formsManagerConfig.includeOOTBTemplates'));
-        System.assertEquals('formsManagerConfigIncludeDeprecatedTemplates', propertyMappings.get('formsManagerConfig.includeDeprecatedTemplates'));
+        Map<String, String> x-property-mappings = comAdobeAemFormsndocumentsConfigAEMFormsManagerConfigurationProperties.getx-property-mappings();
+        System.assertEquals('formsManagerConfigIncludeOOTBTemplates', x-property-mappings.get('formsManagerConfig.includeOOTBTemplates'));
+        System.assertEquals('formsManagerConfigIncludeDeprecatedTemplates', x-property-mappings.get('formsManagerConfig.includeDeprecatedTemplates'));
     }
 }

@@ -1,6 +1,7 @@
 # NodeSwaggerAemOsgi.OrgApacheSlingHcCoreImplExecutorHealthCheckExecutorImplProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **timeoutInMs** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  | [optional] 

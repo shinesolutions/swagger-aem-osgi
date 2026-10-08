@@ -72,8 +72,8 @@ private class OASOrgApacheSlingI18nImplI18NFilterPTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASOrgApacheSlingI18nImplI18NFilterP orgApacheSlingI18nImplI18NFilterProperties = new OASOrgApacheSlingI18nImplI18NFilterP();
-        Map<String, String> propertyMappings = orgApacheSlingI18nImplI18NFilterProperties.getPropertyMappings();
-        System.assertEquals('serviceRanking', propertyMappings.get('service.ranking'));
-        System.assertEquals('slingFilterScope', propertyMappings.get('sling.filter.scope'));
+        Map<String, String> x-property-mappings = orgApacheSlingI18nImplI18NFilterProperties.getx-property-mappings();
+        System.assertEquals('serviceRanking', x-property-mappings.get('service.ranking'));
+        System.assertEquals('slingFilterScope', x-property-mappings.get('sling.filter.scope'));
     }
 }

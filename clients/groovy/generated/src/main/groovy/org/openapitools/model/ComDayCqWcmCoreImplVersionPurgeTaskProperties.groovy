@@ -9,14 +9,14 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class ComDayCqWcmCoreImplVersionPurgeTaskProperties {
-    ConfigNodePropertyArray versionpurgePaths = null
-
-    ConfigNodePropertyBoolean versionpurgeRecursive = null
-
-    ConfigNodePropertyInteger versionpurgeMaxVersions = null
-
-    ConfigNodePropertyInteger versionpurgeMinVersions = null
-
-    ConfigNodePropertyInteger versionpurgeMaxAgeDays = null
-
+    
+    ConfigNodePropertyArray versionpurgePaths
+    
+    ConfigNodePropertyBoolean versionpurgeRecursive
+    
+    ConfigNodePropertyInteger versionpurgeMaxVersions
+    
+    ConfigNodePropertyInteger versionpurgeMinVersions
+    
+    ConfigNodePropertyInteger versionpurgeMaxAgeDays
 }

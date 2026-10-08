@@ -1,23 +1,28 @@
 package apimodels;
 
 import apimodels.ConfigNodePropertyArray;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * OrgApacheSlingJcrRepoinitRepositoryInitializerProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class OrgApacheSlingJcrRepoinitRepositoryInitializerProperties   {
   @JsonProperty("references")
-  private ConfigNodePropertyArray references = null;
+  @Valid
+
+  private ConfigNodePropertyArray references;
 
   @JsonProperty("scripts")
-  private ConfigNodePropertyArray scripts = null;
+  @Valid
+
+  private ConfigNodePropertyArray scripts;
 
   public OrgApacheSlingJcrRepoinitRepositoryInitializerProperties references(ConfigNodePropertyArray references) {
     this.references = references;
@@ -28,7 +33,6 @@ public class OrgApacheSlingJcrRepoinitRepositoryInitializerProperties   {
    * Get references
    * @return references
   **/
-  @Valid
   public ConfigNodePropertyArray getReferences() {
     return references;
   }
@@ -46,7 +50,6 @@ public class OrgApacheSlingJcrRepoinitRepositoryInitializerProperties   {
    * Get scripts
    * @return scripts
   **/
-  @Valid
   public ConfigNodePropertyArray getScripts() {
     return scripts;
   }
@@ -57,7 +60,7 @@ public class OrgApacheSlingJcrRepoinitRepositoryInitializerProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -90,11 +93,8 @@ public class OrgApacheSlingJcrRepoinitRepositoryInitializerProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

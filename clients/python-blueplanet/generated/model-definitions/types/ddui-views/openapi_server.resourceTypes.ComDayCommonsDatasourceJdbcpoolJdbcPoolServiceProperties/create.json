@@ -1,0 +1,27 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "jdbc_driver_class" },
+      {"model": "jdbc_connection_uri" },
+      {"model": "jdbc_username" },
+      {"model": "jdbc_password" },
+      {"model": "jdbc_validation_query" },
+      {"model": "default_readonly" },
+      {"model": "default_autocommit" },
+      {"model": "pool_size" },
+      {"model": "pool_max_wait_msec" },
+      {"model": "datasource_name" },
+      {"model": "datasource_svc_properties" },
+    ]
+  }]
+}

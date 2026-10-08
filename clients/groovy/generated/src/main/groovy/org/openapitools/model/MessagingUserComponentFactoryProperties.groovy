@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class MessagingUserComponentFactoryProperties {
-    ConfigNodePropertyInteger priority = null
-
+    
+    ConfigNodePropertyInteger priority
 }

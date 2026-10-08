@@ -72,7 +72,7 @@ private class OASComAdobeCqCloudconfigCoreImplConfTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeCqCloudconfigCoreImplConf comAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandleProperties = new OASComAdobeCqCloudconfigCoreImplConf();
-        Map<String, String> propertyMappings = comAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandleProperties.getPropertyMappings();
-        System.assertEquals('flushAgents', propertyMappings.get('flush.agents'));
+        Map<String, String> x-property-mappings = comAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandleProperties.getx-property-mappings();
+        System.assertEquals('flushAgents', x-property-mappings.get('flush.agents'));
     }
 }

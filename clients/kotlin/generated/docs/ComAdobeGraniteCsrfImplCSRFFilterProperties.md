@@ -2,12 +2,12 @@
 # ComAdobeGraniteCsrfImplCSRFFilterProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**filterPeriodmethods** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**filterPeriodenablePeriodsafePerioduserPeriodagents** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**filterPeriodsafePerioduserPeriodagents** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**filterPeriodexcludedPeriodpaths** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **filterMethods** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **filterEnableSafeUserAgents** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **filterSafeUserAgents** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **filterExcludedPaths** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
 
 
 

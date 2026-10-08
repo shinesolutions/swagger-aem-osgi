@@ -9,10 +9,10 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeCqDamWebdavImplIoAssetIOHandlerProperties {
-    ConfigNodePropertyInteger serviceRanking = null
-
-    ConfigNodePropertyString pathPrefix = null
-
-    ConfigNodePropertyBoolean createVersion = null
-
+    
+    ConfigNodePropertyInteger serviceRanking
+    
+    ConfigNodePropertyString pathPrefix
+    
+    ConfigNodePropertyBoolean createVersion
 }

@@ -1,0 +1,45 @@
+/*
+ * com_adobe_cq_wcm_jobs_async_impl_async_move_config_provider_service_properties.h
+ *
+ * 
+ */
+
+#ifndef _com_adobe_cq_wcm_jobs_async_impl_async_move_config_provider_service_properties_H_
+#define _com_adobe_cq_wcm_jobs_async_impl_async_move_config_provider_service_properties_H_
+
+#include <string.h>
+#include "../external/cJSON.h"
+#include "../include/list.h"
+#include "../include/keyValuePair.h"
+#include "../include/binary.h"
+
+typedef struct com_adobe_cq_wcm_jobs_async_impl_async_move_config_provider_service_properties_t com_adobe_cq_wcm_jobs_async_impl_async_move_config_provider_service_properties_t;
+
+#include "config_node_property_boolean.h"
+#include "config_node_property_integer.h"
+#include "config_node_property_string.h"
+
+
+
+typedef struct com_adobe_cq_wcm_jobs_async_impl_async_move_config_provider_service_properties_t {
+    struct config_node_property_integer_t *threshold; //model
+    struct config_node_property_string_t *job_topic_name; //model
+    struct config_node_property_boolean_t *email_enabled; //model
+
+    int _library_owned; // Is the library responsible for freeing this object?
+} com_adobe_cq_wcm_jobs_async_impl_async_move_config_provider_service_properties_t;
+
+__attribute__((deprecated)) com_adobe_cq_wcm_jobs_async_impl_async_move_config_provider_service_properties_t *com_adobe_cq_wcm_jobs_async_impl_async_move_config_provider_service_properties_create(
+    config_node_property_integer_t *threshold,
+    config_node_property_string_t *job_topic_name,
+    config_node_property_boolean_t *email_enabled
+);
+
+void com_adobe_cq_wcm_jobs_async_impl_async_move_config_provider_service_properties_free(com_adobe_cq_wcm_jobs_async_impl_async_move_config_provider_service_properties_t *com_adobe_cq_wcm_jobs_async_impl_async_move_config_provider_service_properties);
+
+com_adobe_cq_wcm_jobs_async_impl_async_move_config_provider_service_properties_t *com_adobe_cq_wcm_jobs_async_impl_async_move_config_provider_service_properties_parseFromJSON(cJSON *com_adobe_cq_wcm_jobs_async_impl_async_move_config_provider_service_propertiesJSON);
+
+cJSON *com_adobe_cq_wcm_jobs_async_impl_async_move_config_provider_service_properties_convertToJSON(com_adobe_cq_wcm_jobs_async_impl_async_move_config_provider_service_properties_t *com_adobe_cq_wcm_jobs_async_impl_async_move_config_provider_service_properties);
+
+#endif /* _com_adobe_cq_wcm_jobs_async_impl_async_move_config_provider_service_properties_H_ */
+

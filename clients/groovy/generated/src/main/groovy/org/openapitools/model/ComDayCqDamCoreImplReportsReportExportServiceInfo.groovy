@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqDamCoreImplReportsReportExportServicePrope
 
 @Canonical
 class ComDayCqDamCoreImplReportsReportExportServiceInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqDamCoreImplReportsReportExportServiceProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqDamCoreImplReportsReportExportServiceProperties properties
 }

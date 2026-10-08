@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyArray;
 import com.prokarma.pkmst.model.ConfigNodePropertyBoolean;
 import com.prokarma.pkmst.model.ConfigNodePropertyString;
@@ -17,27 +18,26 @@ import io.swagger.annotations.ApiModelProperty;
  * ComDayCqMcmCampaignImplIntegrationConfigImplProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqMcmCampaignImplIntegrationConfigImplProperties   {
   @JsonProperty("aem.mcm.campaign.formConstraints")
-  private ConfigNodePropertyArray aemMcmCampaignFormConstraints = null;
+  private ConfigNodePropertyArray aemMcmCampaignFormConstraints;
 
   @JsonProperty("aem.mcm.campaign.publicUrl")
-  private ConfigNodePropertyString aemMcmCampaignPublicUrl = null;
+  private ConfigNodePropertyString aemMcmCampaignPublicUrl;
 
   @JsonProperty("aem.mcm.campaign.relaxedSSL")
-  private ConfigNodePropertyBoolean aemMcmCampaignRelaxedSSL = null;
+  private ConfigNodePropertyBoolean aemMcmCampaignRelaxedSSL;
 
   public ComDayCqMcmCampaignImplIntegrationConfigImplProperties aemMcmCampaignFormConstraints(ConfigNodePropertyArray aemMcmCampaignFormConstraints) {
     this.aemMcmCampaignFormConstraints = aemMcmCampaignFormConstraints;
     return this;
   }
 
-   /**
+  /**
    * Get aemMcmCampaignFormConstraints
    * @return aemMcmCampaignFormConstraints
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getAemMcmCampaignFormConstraints() {
     return aemMcmCampaignFormConstraints;
@@ -52,10 +52,10 @@ public class ComDayCqMcmCampaignImplIntegrationConfigImplProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get aemMcmCampaignPublicUrl
    * @return aemMcmCampaignPublicUrl
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getAemMcmCampaignPublicUrl() {
     return aemMcmCampaignPublicUrl;
@@ -70,10 +70,10 @@ public class ComDayCqMcmCampaignImplIntegrationConfigImplProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get aemMcmCampaignRelaxedSSL
    * @return aemMcmCampaignRelaxedSSL
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getAemMcmCampaignRelaxedSSL() {
     return aemMcmCampaignRelaxedSSL;
@@ -85,7 +85,7 @@ public class ComDayCqMcmCampaignImplIntegrationConfigImplProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -119,11 +119,8 @@ public class ComDayCqMcmCampaignImplIntegrationConfigImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

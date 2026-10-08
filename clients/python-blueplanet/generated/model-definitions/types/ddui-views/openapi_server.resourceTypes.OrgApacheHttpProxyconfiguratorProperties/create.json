@@ -1,0 +1,22 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "proxy_enabled" },
+      {"model": "proxy_host" },
+      {"model": "proxy_port" },
+      {"model": "proxy_user" },
+      {"model": "proxy_password" },
+      {"model": "proxy_exceptions" },
+    ]
+  }]
+}

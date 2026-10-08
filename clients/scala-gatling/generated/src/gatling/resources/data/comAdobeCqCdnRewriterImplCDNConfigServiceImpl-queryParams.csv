@@ -1,0 +1,1 @@
+cdn.config.enable.rewriting,propertylist,cdn.config.cdnttl,$location,apply,cdn.config.distribution.domain,cdn.config.path.prefixes,delete,action,post,cdn.config.application.protocol

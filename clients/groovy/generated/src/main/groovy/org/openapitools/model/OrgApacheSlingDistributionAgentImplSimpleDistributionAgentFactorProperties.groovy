@@ -9,26 +9,26 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorProperties {
-    ConfigNodePropertyString name = null
-
-    ConfigNodePropertyString title = null
-
-    ConfigNodePropertyString details = null
-
-    ConfigNodePropertyBoolean enabled = null
-
-    ConfigNodePropertyString serviceName = null
-
-    ConfigNodePropertyDropDown logLevel = null
-
-    ConfigNodePropertyBoolean queueProcessingEnabled = null
-
-    ConfigNodePropertyString packageExporterTarget = null
-
-    ConfigNodePropertyString packageImporterTarget = null
-
-    ConfigNodePropertyString requestAuthorizationStrategyTarget = null
-
-    ConfigNodePropertyString triggersTarget = null
-
+    
+    ConfigNodePropertyString name
+    
+    ConfigNodePropertyString title
+    
+    ConfigNodePropertyString details
+    
+    ConfigNodePropertyBoolean enabled
+    
+    ConfigNodePropertyString serviceName
+    
+    ConfigNodePropertyDropDown logLevel
+    
+    ConfigNodePropertyBoolean queueProcessingEnabled
+    
+    ConfigNodePropertyString packageExporterTarget
+    
+    ConfigNodePropertyString packageImporterTarget
+    
+    ConfigNodePropertyString requestAuthorizationStrategyTarget
+    
+    ConfigNodePropertyString triggersTarget
 }

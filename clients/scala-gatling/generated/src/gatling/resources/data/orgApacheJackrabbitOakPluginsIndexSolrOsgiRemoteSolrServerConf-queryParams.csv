@@ -1,0 +1,1 @@
+propertylist,$location,apply,solr.connection.timeout,solr.collection,solr.socket.timeout,action,post,solr.http.url,solr.zk.host,solr.conf.dir,delete,solr.shards.no,solr.replication.factor

@@ -7,12 +7,12 @@ import org.openapitools.model.OrgApacheJackrabbitOakSegmentStandbyStoreStandbySt
 
 @Canonical
 class OrgApacheJackrabbitOakSegmentStandbyStoreStandbyStoreServiceInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheJackrabbitOakSegmentStandbyStoreStandbyStoreServiceProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheJackrabbitOakSegmentStandbyStoreStandbyStoreServiceProperties properties
 }

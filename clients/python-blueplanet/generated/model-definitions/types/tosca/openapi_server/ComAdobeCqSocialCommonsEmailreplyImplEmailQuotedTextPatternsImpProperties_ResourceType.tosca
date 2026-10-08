@@ -1,0 +1,71 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpProperties {
+    title = ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpProperties
+    description = ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpProperties
+    derivedFrom = Root
+    properties {
+        pattern_time {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        pattern_newline {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        pattern_day_of_month {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        pattern_month {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        pattern_year {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        pattern_date {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        pattern_date_time {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        pattern_email {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpProperties {
+    title = ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpProperties
+    description = ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpProperties
+    implements = openapi_server.resourceTypes.ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpProperties
+
+  }
+}

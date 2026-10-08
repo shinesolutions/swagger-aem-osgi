@@ -1,0 +1,21 @@
+# frozen_string_literal: true
+
+module OpenapiClient
+  module Api
+    class ComDayCqDamS7damCommonPostServletsSetCreateHandler
+      def initialize(connection)
+        @connection = connection
+      end
+
+      def create(post: nil, apply: nil, delete: nil, action: nil, location: nil, propertylist: nil, sling_post_operation: nil, sling_servlet_methods: nil)
+        @connection.call(
+          :POST,
+          '/system/console/configMgr/com.day.cq.dam.s7dam.common.post.servlets.SetCreateHandler',
+          type: OpenapiClient::Models::ComDayCqDamS7damCommonPostServletsSetCreateHandlerInfo,
+          auth: ['aemAuth'],
+          query: { 'post' => post, 'apply' => apply, 'delete' => delete, 'action' => action, '$location' => location, 'propertylist' => propertylist, 'sling.post.operation' => sling_post_operation, 'sling.servlet.methods' => sling_servlet_methods }
+        )
+      end
+    end
+  end
+end

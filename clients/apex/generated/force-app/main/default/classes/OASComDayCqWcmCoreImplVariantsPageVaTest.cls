@@ -72,7 +72,7 @@ private class OASComDayCqWcmCoreImplVariantsPageVaTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqWcmCoreImplVariantsPageVa comDayCqWcmCoreImplVariantsPageVariantsProviderImplProperties = new OASComDayCqWcmCoreImplVariantsPageVa();
-        Map<String, String> propertyMappings = comDayCqWcmCoreImplVariantsPageVariantsProviderImplProperties.getPropertyMappings();
-        System.assertEquals('defaultExternalizerDomain', propertyMappings.get('default.externalizer.domain'));
+        Map<String, String> x-property-mappings = comDayCqWcmCoreImplVariantsPageVariantsProviderImplProperties.getx-property-mappings();
+        System.assertEquals('defaultExternalizerDomain', x-property-mappings.get('default.externalizer.domain'));
     }
 }

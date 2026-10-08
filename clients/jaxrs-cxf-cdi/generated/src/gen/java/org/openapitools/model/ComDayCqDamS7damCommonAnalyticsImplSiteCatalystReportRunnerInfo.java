@@ -2,27 +2,28 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ComDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class ComDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerInfo   {
   
-  private String pid = null;
+  private String pid;
 
-  private String title = null;
+  private String title;
 
-  private String description = null;
+  private String description;
 
-  private ComDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerProperties properties = null;
-
+  private ComDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerProperties properties;
 
   /**
    **/
@@ -98,7 +99,7 @@ public class ComDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerInfo   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -106,10 +107,10 @@ public class ComDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerInfo   {
       return false;
     }
     ComDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerInfo comDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerInfo = (ComDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerInfo) o;
-    return Objects.equals(pid, comDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerInfo.pid) &&
-        Objects.equals(title, comDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerInfo.title) &&
-        Objects.equals(description, comDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerInfo.description) &&
-        Objects.equals(properties, comDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerInfo.properties);
+    return Objects.equals(this.pid, comDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerInfo.pid) &&
+        Objects.equals(this.title, comDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerInfo.title) &&
+        Objects.equals(this.description, comDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerInfo.description) &&
+        Objects.equals(this.properties, comDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerInfo.properties);
   }
 
   @Override
@@ -134,11 +135,8 @@ public class ComDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerInfo   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

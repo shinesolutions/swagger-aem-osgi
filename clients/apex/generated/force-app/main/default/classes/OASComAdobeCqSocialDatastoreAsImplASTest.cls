@@ -72,13 +72,13 @@ private class OASComAdobeCqSocialDatastoreAsImplASTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeCqSocialDatastoreAsImplAS comAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties = new OASComAdobeCqSocialDatastoreAsImplAS();
-        Map<String, String> propertyMappings = comAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties.getPropertyMappings();
-        System.assertEquals('versionId', propertyMappings.get('version.id'));
-        System.assertEquals('cacheOn', propertyMappings.get('cache.on'));
-        System.assertEquals('concurrencyLevel', propertyMappings.get('concurrency.level'));
-        System.assertEquals('cacheStartSize', propertyMappings.get('cache.start.size'));
-        System.assertEquals('cacheTtl', propertyMappings.get('cache.ttl'));
-        System.assertEquals('cacheSize', propertyMappings.get('cache.size'));
-        System.assertEquals('timeLimit', propertyMappings.get('time.limit'));
+        Map<String, String> x-property-mappings = comAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties.getx-property-mappings();
+        System.assertEquals('versionId', x-property-mappings.get('version.id'));
+        System.assertEquals('cacheOn', x-property-mappings.get('cache.on'));
+        System.assertEquals('concurrencyLevel', x-property-mappings.get('concurrency.level'));
+        System.assertEquals('cacheStartSize', x-property-mappings.get('cache.start.size'));
+        System.assertEquals('cacheTtl', x-property-mappings.get('cache.ttl'));
+        System.assertEquals('cacheSize', x-property-mappings.get('cache.size'));
+        System.assertEquals('timeLimit', x-property-mappings.get('time.limit'));
     }
 }

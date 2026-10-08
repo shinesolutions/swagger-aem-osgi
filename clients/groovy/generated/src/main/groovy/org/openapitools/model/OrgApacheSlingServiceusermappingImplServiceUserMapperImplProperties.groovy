@@ -9,12 +9,12 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class OrgApacheSlingServiceusermappingImplServiceUserMapperImplProperties {
-    ConfigNodePropertyArray userMapping = null
-
-    ConfigNodePropertyString userDefault = null
-
-    ConfigNodePropertyBoolean userEnableDefaultMapping = null
-
-    ConfigNodePropertyBoolean requireValidation = null
-
+    
+    ConfigNodePropertyArray userMapping
+    
+    ConfigNodePropertyString userDefault
+    
+    ConfigNodePropertyBoolean userEnableDefaultMapping
+    
+    ConfigNodePropertyBoolean requireValidation
 }

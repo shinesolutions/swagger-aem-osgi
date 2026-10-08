@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqCompatCodeupgradeImplVersionRangeTaskIgnor
 
 @Canonical
 class ComDayCqCompatCodeupgradeImplVersionRangeTaskIgnorelistInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqCompatCodeupgradeImplVersionRangeTaskIgnorelistProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqCompatCodeupgradeImplVersionRangeTaskIgnorelistProperties properties
 }

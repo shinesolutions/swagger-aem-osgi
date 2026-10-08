@@ -72,7 +72,7 @@ private class OASOrgApacheSlingJcrResourceInternalTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASOrgApacheSlingJcrResourceInternal orgApacheSlingJcrResourceInternalJcrSystemUserValidatorProperties = new OASOrgApacheSlingJcrResourceInternal();
-        Map<String, String> propertyMappings = orgApacheSlingJcrResourceInternalJcrSystemUserValidatorProperties.getPropertyMappings();
-        System.assertEquals('allowOnlySystemUser', propertyMappings.get('allow.only.system.user'));
+        Map<String, String> x-property-mappings = orgApacheSlingJcrResourceInternalJcrSystemUserValidatorProperties.getx-property-mappings();
+        System.assertEquals('allowOnlySystemUser', x-property-mappings.get('allow.only.system.user'));
     }
 }

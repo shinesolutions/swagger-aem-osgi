@@ -1,0 +1,35880 @@
+#ifndef TINY_CPP_CLIENT_ConfigmgrApi_H_
+#define TINY_CPP_CLIENT_ConfigmgrApi_H_
+
+
+#include "Response.h"
+#include "Arduino.h"
+#include "Service.h"
+#include "Helpers.h"
+#include <list>
+
+#include "AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationInfo.h"
+#include "AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurInfo.h"
+#include "AnalyticsComponentQueryCacheServiceInfo.h"
+#include "ApacheSlingHealthCheckResultHTMLSerializerInfo.h"
+#include "ComAdobeAemFormsndocumentsConfigAEMFormsManagerConfigurationInfo.h"
+#include "ComAdobeAemTransactionCoreImplTransactionRecorderInfo.h"
+#include "ComAdobeAemUpgradePrechecksHcImplDeprecateIndexesHCInfo.h"
+#include "ComAdobeAemUpgradePrechecksHcImplReplicationAgentsDisabledHCInfo.h"
+#include "ComAdobeAemUpgradePrechecksMbeanImplPreUpgradeTasksMBeanImplInfo.h"
+#include "ComAdobeAemUpgradePrechecksTasksImplConsistencyCheckTaskImplInfo.h"
+#include "ComAdobeCqAccountApiAccountManagementServiceInfo.h"
+#include "ComAdobeCqAccountImplAccountManagementServletInfo.h"
+#include "ComAdobeCqAddressImplLocationLocationListServletInfo.h"
+#include "ComAdobeCqAuditPurgeDamInfo.h"
+#include "ComAdobeCqAuditPurgePagesInfo.h"
+#include "ComAdobeCqAuditPurgeReplicationInfo.h"
+#include "ComAdobeCqCdnRewriterImplAWSCloudFrontRewriterInfo.h"
+#include "ComAdobeCqCdnRewriterImplCDNConfigServiceImplInfo.h"
+#include "ComAdobeCqCdnRewriterImplCDNRewriterInfo.h"
+#include "ComAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandleInfo.h"
+#include "ComAdobeCqCommerceImplAssetDynamicImageHandlerInfo.h"
+#include "ComAdobeCqCommerceImplAssetProductAssetHandlerProviderImplInfo.h"
+#include "ComAdobeCqCommerceImplAssetStaticImageHandlerInfo.h"
+#include "ComAdobeCqCommerceImplAssetVideoHandlerInfo.h"
+#include "ComAdobeCqCommerceImplPromotionPromotionManagerImplInfo.h"
+#include "ComAdobeCqCommercePimImplCataloggeneratorCatalogGeneratorImplInfo.h"
+#include "ComAdobeCqCommercePimImplPageEventListenerInfo.h"
+#include "ComAdobeCqCommercePimImplProductfeedProductFeedServiceImplInfo.h"
+#include "ComAdobeCqContentinsightImplReportingServicesSettingsProviderInfo.h"
+#include "ComAdobeCqContentinsightImplServletsBrightEdgeProxyServletInfo.h"
+#include "ComAdobeCqContentinsightImplServletsReportingServicesProxyServleInfo.h"
+#include "ComAdobeCqDamCfmImplComponentComponentConfigImplInfo.h"
+#include "ComAdobeCqDamCfmImplConfFeatureConfigImplInfo.h"
+#include "ComAdobeCqDamCfmImplContentRewriterAssetProcessorInfo.h"
+#include "ComAdobeCqDamCfmImplContentRewriterParRangeFilterInfo.h"
+#include "ComAdobeCqDamCfmImplContentRewriterPayloadFilterInfo.h"
+#include "ComAdobeCqDamDmProcessImagePTiffManagerImplInfo.h"
+#include "ComAdobeCqDamIpsImplReplicationTriggerReplicateOnModifyWorkerInfo.h"
+#include "ComAdobeCqDamMacSyncHelperImplMACSyncClientImplInfo.h"
+#include "ComAdobeCqDamMacSyncImplDAMSyncServiceImplInfo.h"
+#include "ComAdobeCqDamProcessorNuiImplNuiAssetProcessorInfo.h"
+#include "ComAdobeCqDamS7imagingImplIsImageServerComponentInfo.h"
+#include "ComAdobeCqDamS7imagingImplPsPlatformServerServletInfo.h"
+#include "ComAdobeCqDamWebdavImplIoAssetIOHandlerInfo.h"
+#include "ComAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJobInfo.h"
+#include "ComAdobeCqDamWebdavImplIoSpecialFilesHandlerInfo.h"
+#include "ComAdobeCqDeserfwImplDeserializationFirewallImplInfo.h"
+#include "ComAdobeCqDtmImplServiceDTMWebServiceImplInfo.h"
+#include "ComAdobeCqDtmImplServletsDTMDeployHookServletInfo.h"
+#include "ComAdobeCqDtmReactorImplServiceWebServiceImplInfo.h"
+#include "ComAdobeCqExperiencelogImplExperienceLogConfigServletInfo.h"
+#include "ComAdobeCqHcContentPackagesHealthCheckInfo.h"
+#include "ComAdobeCqHistoryImplHistoryRequestFilterInfo.h"
+#include "ComAdobeCqHistoryImplHistoryServiceImplInfo.h"
+#include "ComAdobeCqInboxImplTypeproviderItemTypeProviderInfo.h"
+#include "ComAdobeCqProjectsImplServletProjectImageServletInfo.h"
+#include "ComAdobeCqProjectsPurgeSchedulerInfo.h"
+#include "ComAdobeCqScheduledExporterImplScheduledExporterImplInfo.h"
+#include "ComAdobeCqScreensAnalyticsImplScreensAnalyticsServiceImplInfo.h"
+#include "ComAdobeCqScreensDeviceImplDeviceServiceInfo.h"
+#include "ComAdobeCqScreensDeviceRegistrationImplRegistrationServiceImplInfo.h"
+#include "ComAdobeCqScreensImplHandlerChannelsUpdateHandlerInfo.h"
+#include "ComAdobeCqScreensImplJobsDistributedDevicesStatiUpdateJobInfo.h"
+#include "ComAdobeCqScreensImplRemoteImplDistributedHttpClientImplInfo.h"
+#include "ComAdobeCqScreensImplScreensChannelPostProcessorInfo.h"
+#include "ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplInfo.h"
+#include "ComAdobeCqScreensMqActivemqImplArtemisJMSProviderInfo.h"
+#include "ComAdobeCqScreensOfflinecontentImplBulkOfflineUpdateServiceImplInfo.h"
+#include "ComAdobeCqScreensOfflinecontentImplOfflineContentServiceImplInfo.h"
+#include "ComAdobeCqScreensSegmentationImplSegmentationFeatureFlagInfo.h"
+#include "ComAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthChInfo.h"
+#include "ComAdobeCqSecurityHcBundlesImplWcmFilterHealthCheckInfo.h"
+#include "ComAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheckInfo.h"
+#include "ComAdobeCqSecurityHcPackagesImplExampleContentHealthCheckInfo.h"
+#include "ComAdobeCqSecurityHcWebserverImplClickjackingHealthCheckInfo.h"
+#include "ComAdobeCqSocialAccountverificationImplAccountManagementConfigImInfo.h"
+#include "ComAdobeCqSocialActivitystreamsClientImplSocialActivityComponenInfo.h"
+#include "ComAdobeCqSocialActivitystreamsClientImplSocialActivityStreamCoInfo.h"
+#include "ComAdobeCqSocialActivitystreamsListenerImplEventListenerHandlerInfo.h"
+#include "ComAdobeCqSocialActivitystreamsListenerImplModerationEventExtenInfo.h"
+#include "ComAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySInfo.h"
+#include "ComAdobeCqSocialActivitystreamsListenerImplResourceActivityStreInfo.h"
+#include "ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsIInfo.h"
+#include "ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmenInfo.h"
+#include "ComAdobeCqSocialCalendarServletsTimeZoneServletInfo.h"
+#include "ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventInfo.h"
+#include "ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSeInfo.h"
+#include "ComAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperatiInfo.h"
+#include "ComAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialCInfo.h"
+#include "ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosInfo.h"
+#include "ComAdobeCqSocialCommonsCorsCORSAuthenticationFilterInfo.h"
+#include "ComAdobeCqSocialCommonsEmailreplyImplAndroidEmailClientProviderInfo.h"
+#include "ComAdobeCqSocialCommonsEmailreplyImplCommentEmailBuilderImplInfo.h"
+#include "ComAdobeCqSocialCommonsEmailreplyImplCommentEmailEventListenerInfo.h"
+#include "ComAdobeCqSocialCommonsEmailreplyImplCustomEmailClientProviderInfo.h"
+#include "ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpInfo.h"
+#include "ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpInfo.h"
+#include "ComAdobeCqSocialCommonsEmailreplyImplEmailReplyImporterInfo.h"
+#include "ComAdobeCqSocialCommonsEmailreplyImplGmailEmailClientProviderInfo.h"
+#include "ComAdobeCqSocialCommonsEmailreplyImplIOSEmailClientProviderInfo.h"
+#include "ComAdobeCqSocialCommonsEmailreplyImplMacmailEmailClientProviderInfo.h"
+#include "ComAdobeCqSocialCommonsEmailreplyImplOutLookEmailClientProviderInfo.h"
+#include "ComAdobeCqSocialCommonsEmailreplyImplUnknownEmailClientProviderInfo.h"
+#include "ComAdobeCqSocialCommonsEmailreplyImplYahooEmailClientProviderInfo.h"
+#include "ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadInfo.h"
+#include "ComAdobeCqSocialCommonsUgclimiterImplUGCLimiterServiceImplInfo.h"
+#include "ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitInfo.h"
+#include "ComAdobeCqSocialConnectOauthImplFacebookProviderImplInfo.h"
+#include "ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandleInfo.h"
+#include "ComAdobeCqSocialConnectOauthImplSocialOAuthUserProfileMapperInfo.h"
+#include "ComAdobeCqSocialConnectOauthImplTwitterProviderImplInfo.h"
+#include "ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmenInfo.h"
+#include "ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryInfo.h"
+#include "ComAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactoryInfo.h"
+#include "ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorInfo.h"
+#include "ComAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorFInfo.h"
+#include "ComAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFactoInfo.h"
+#include "ComAdobeCqSocialEnablementLearningpathEndpointsImplEnablementLInfo.h"
+#include "ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouInfo.h"
+#include "ComAdobeCqSocialEnablementServicesImplAuthorMarkerImplInfo.h"
+#include "ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGeInfo.h"
+#include "ComAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperaInfo.h"
+#include "ComAdobeCqSocialForumClientEndpointsImplForumOperationsServiceInfo.h"
+#include "ComAdobeCqSocialForumDispatcherImplFlushOperationsInfo.h"
+#include "ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenInfo.h"
+#include "ComAdobeCqSocialGroupImplGroupServiceImplInfo.h"
+#include "ComAdobeCqSocialHandlebarsGuavaTemplateCacheImplInfo.h"
+#include "ComAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsSInfo.h"
+#include "ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsSerInfo.h"
+#include "ComAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileInfo.h"
+#include "ComAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileOInfo.h"
+#include "ComAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentFInfo.h"
+#include "ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationInfo.h"
+#include "ComAdobeCqSocialModerationDashboardApiFilterGroupSocialComponenInfo.h"
+#include "ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialInfo.h"
+#include "ComAdobeCqSocialModerationDashboardApiUserDetailsSocialComponenInfo.h"
+#include "ComAdobeCqSocialModerationDashboardInternalImplFilterGroupSociInfo.h"
+#include "ComAdobeCqSocialNotificationsImplMentionsRouterInfo.h"
+#include "ComAdobeCqSocialNotificationsImplNotificationManagerImplInfo.h"
+#include "ComAdobeCqSocialNotificationsImplNotificationsRouterInfo.h"
+#include "ComAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServicInfo.h"
+#include "ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportIInfo.h"
+#include "ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportMInfo.h"
+#include "ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSInfo.h"
+#include "ComAdobeCqSocialReviewClientEndpointsImplReviewOperationsServiInfo.h"
+#include "ComAdobeCqSocialScfCoreOperationsImplSocialOperationsServletInfo.h"
+#include "ComAdobeCqSocialScfEndpointsImplDefaultSocialGetServletInfo.h"
+#include "ComAdobeCqSocialScoringImplScoringEventListenerInfo.h"
+#include "ComAdobeCqSocialServiceusersInternalImplServiceUserWrapperImplInfo.h"
+#include "ComAdobeCqSocialSiteEndpointsImplSiteOperationServiceInfo.h"
+#include "ComAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImInfo.h"
+#include "ComAdobeCqSocialSiteImplSiteConfiguratorImplInfo.h"
+#include "ComAdobeCqSocialSrpImplSocialSolrConnectorInfo.h"
+#include "ComAdobeCqSocialSyncImplDiffChangesObserverInfo.h"
+#include "ComAdobeCqSocialSyncImplGroupSyncListenerImplInfo.h"
+#include "ComAdobeCqSocialSyncImplPublisherSyncServiceImplInfo.h"
+#include "ComAdobeCqSocialSyncImplUserSyncListenerImplInfo.h"
+#include "ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerInfo.h"
+#include "ComAdobeCqSocialTranslationImplUGCLanguageDetectorInfo.h"
+#include "ComAdobeCqSocialUgcbaseDispatcherImplFlushServiceImplInfo.h"
+#include "ComAdobeCqSocialUgcbaseImplAysncReverseReplicatorImplInfo.h"
+#include "ComAdobeCqSocialUgcbaseImplPublisherConfigurationImplInfo.h"
+#include "ComAdobeCqSocialUgcbaseImplSocialUtilsImplInfo.h"
+#include "ComAdobeCqSocialUgcbaseModerationImplAutoModerationImplInfo.h"
+#include "ComAdobeCqSocialUgcbaseModerationImplSentimentProcessInfo.h"
+#include "ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliInfo.h"
+#include "ComAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImplInfo.h"
+#include "ComAdobeCqSocialUserEndpointsImplUsersGroupFromPublishServletInfo.h"
+#include "ComAdobeCqSocialUserImplTransportHttpToPublisherInfo.h"
+#include "ComAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactInfo.h"
+#include "ComAdobeCqUpgradesCleanupImplUpgradeContentCleanupInfo.h"
+#include "ComAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanupInfo.h"
+#include "ComAdobeCqWcmJobsAsyncImplAsyncDeleteConfigProviderServiceInfo.h"
+#include "ComAdobeCqWcmJobsAsyncImplAsyncJobCleanUpTaskInfo.h"
+#include "ComAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderServiceInfo.h"
+#include "ComAdobeCqWcmJobsAsyncImplAsyncPageMoveConfigProviderServiceInfo.h"
+#include "ComAdobeCqWcmLaunchesImplLaunchesEventHandlerInfo.h"
+#include "ComAdobeCqWcmMobileQrcodeServletQRCodeImageGeneratorInfo.h"
+#include "ComAdobeCqWcmStyleInternalComponentStyleInfoCacheImplInfo.h"
+#include "ComAdobeCqWcmTranslationImplTranslationPlatformConfigurationImplInfo.h"
+#include "ComAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServiceInfo.h"
+#include "ComAdobeFdFpConfigFormsPortalSchedulerServiceInfo.h"
+#include "ComAdobeFormsCommonServiceImplDefaultDataProviderInfo.h"
+#include "ComAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImpInfo.h"
+#include "ComAdobeFormsCommonServletTempCleanUpTaskInfo.h"
+#include "ComAdobeGraniteAcpPlatformPlatformServletInfo.h"
+#include "ComAdobeGraniteActivitystreamsImplActivityManagerImplInfo.h"
+#include "ComAdobeGraniteAnalyzerBaseSystemStatusServletInfo.h"
+#include "ComAdobeGraniteAnalyzerScriptsCompileAllScriptsCompilerServletInfo.h"
+#include "ComAdobeGraniteApicontrollerFilterResolverHookFactoryInfo.h"
+#include "ComAdobeGraniteAuthCertImplClientCertAuthHandlerInfo.h"
+#include "ComAdobeGraniteAuthImsImplExternalUserIdMappingProviderExtensionInfo.h"
+#include "ComAdobeGraniteAuthImsImplIMSAccessTokenRequestCustomizerImplInfo.h"
+#include "ComAdobeGraniteAuthImsImplIMSInstanceCredentialsValidatorInfo.h"
+#include "ComAdobeGraniteAuthImsImplIMSProviderImplInfo.h"
+#include "ComAdobeGraniteAuthImsImplImsConfigProviderImplInfo.h"
+#include "ComAdobeGraniteAuthImsInfo.h"
+#include "ComAdobeGraniteAuthOauthAccesstokenProviderInfo.h"
+#include "ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerInfo.h"
+#include "ComAdobeGraniteAuthOauthImplDefaultTokenValidatorImplInfo.h"
+#include "ComAdobeGraniteAuthOauthImplFacebookProviderImplInfo.h"
+#include "ComAdobeGraniteAuthOauthImplGithubProviderImplInfo.h"
+#include "ComAdobeGraniteAuthOauthImplGraniteProviderInfo.h"
+#include "ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerInfo.h"
+#include "ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerInternalInfo.h"
+#include "ComAdobeGraniteAuthOauthImplOAuthAuthenticationHandlerInfo.h"
+#include "ComAdobeGraniteAuthOauthImplTwitterProviderImplInfo.h"
+#include "ComAdobeGraniteAuthOauthProviderInfo.h"
+#include "ComAdobeGraniteAuthRequirementImplDefaultRequirementHandlerInfo.h"
+#include "ComAdobeGraniteAuthSamlSamlAuthenticationHandlerInfo.h"
+#include "ComAdobeGraniteAuthSsoImplSsoAuthenticationHandlerInfo.h"
+#include "ComAdobeGraniteBundlesHcImplCodeCacheHealthCheckInfo.h"
+#include "ComAdobeGraniteBundlesHcImplCrxdeSupportBundleHealthCheckInfo.h"
+#include "ComAdobeGraniteBundlesHcImplDavExBundleHealthCheckInfo.h"
+#include "ComAdobeGraniteBundlesHcImplInactiveBundlesHealthCheckInfo.h"
+#include "ComAdobeGraniteBundlesHcImplJobsHealthCheckInfo.h"
+#include "ComAdobeGraniteBundlesHcImplSlingGetServletHealthCheckInfo.h"
+#include "ComAdobeGraniteBundlesHcImplSlingJavaScriptHandlerHealthCheckInfo.h"
+#include "ComAdobeGraniteBundlesHcImplSlingJspScriptHandlerHealthCheckInfo.h"
+#include "ComAdobeGraniteBundlesHcImplSlingReferrerFilterHealthCheckInfo.h"
+#include "ComAdobeGraniteBundlesHcImplWebDavBundleHealthCheckInfo.h"
+#include "ComAdobeGraniteCommentsInternalCommentReplicationContentFilterFacInfo.h"
+#include "ComAdobeGraniteCompatrouterImplCompatSwitchingServiceImplInfo.h"
+#include "ComAdobeGraniteCompatrouterImplRoutingConfigInfo.h"
+#include "ComAdobeGraniteCompatrouterImplSwitchMappingConfigInfo.h"
+#include "ComAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingInfo.h"
+#include "ComAdobeGraniteContexthubImplContextHubImplInfo.h"
+#include "ComAdobeGraniteCorsImplCORSPolicyImplInfo.h"
+#include "ComAdobeGraniteCsrfImplCSRFFilterInfo.h"
+#include "ComAdobeGraniteCsrfImplCSRFServletInfo.h"
+#include "ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSeInfo.h"
+#include "ComAdobeGraniteDistributionCoreImplDiffDiffChangesObserverInfo.h"
+#include "ComAdobeGraniteDistributionCoreImplDiffDiffEventListenerInfo.h"
+#include "ComAdobeGraniteDistributionCoreImplDistributionToReplicationEvenInfo.h"
+#include "ComAdobeGraniteDistributionCoreImplReplicationAdaptersReplicatInfo.h"
+#include "ComAdobeGraniteDistributionCoreImplReplicationDistributionTransInfo.h"
+#include "ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuInfo.h"
+#include "ComAdobeGraniteFragsImplCheckHttpHeaderFlagInfo.h"
+#include "ComAdobeGraniteFragsImplRandomFeatureInfo.h"
+#include "ComAdobeGraniteHttpcacheFileFileCacheStoreInfo.h"
+#include "ComAdobeGraniteHttpcacheImplOuterCacheFilterInfo.h"
+#include "ComAdobeGraniteI18nImplBundlePseudoTranslationsInfo.h"
+#include "ComAdobeGraniteI18nImplPreferencesLocaleResolverServiceInfo.h"
+#include "ComAdobeGraniteInfocollectorInfoCollectorInfo.h"
+#include "ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryInfo.h"
+#include "ComAdobeGraniteLicenseImplLicenseCheckFilterInfo.h"
+#include "ComAdobeGraniteLoggingImplLogAnalyserImplInfo.h"
+#include "ComAdobeGraniteLoggingImplLogErrorHealthCheckInfo.h"
+#include "ComAdobeGraniteMaintenanceCrxImplDataStoreGarbageCollectionTaskInfo.h"
+#include "ComAdobeGraniteMaintenanceCrxImplLuceneBinariesCleanupTaskInfo.h"
+#include "ComAdobeGraniteMaintenanceCrxImplRevisionCleanupTaskInfo.h"
+#include "ComAdobeGraniteMonitoringImplScriptConfigImplInfo.h"
+#include "ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanInfo.h"
+#include "ComAdobeGraniteOauthServerImplAccessTokenCleanupTaskInfo.h"
+#include "ComAdobeGraniteOauthServerImplOAuth2ClientRevocationServletInfo.h"
+#include "ComAdobeGraniteOauthServerImplOAuth2RevocationEndpointServletInfo.h"
+#include "ComAdobeGraniteOauthServerImplOAuth2TokenEndpointServletInfo.h"
+#include "ComAdobeGraniteOauthServerImplOAuth2TokenRevocationServletInfo.h"
+#include "ComAdobeGraniteOffloadingImplOffloadingConfiguratorInfo.h"
+#include "ComAdobeGraniteOffloadingImplOffloadingJobClonerInfo.h"
+#include "ComAdobeGraniteOffloadingImplOffloadingJobOffloaderInfo.h"
+#include "ComAdobeGraniteOffloadingImplTransporterOffloadingAgentManagerInfo.h"
+#include "ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoInfo.h"
+#include "ComAdobeGraniteOmnisearchImplCoreOmniSearchServiceImplInfo.h"
+#include "ComAdobeGraniteOptoutImplOptOutServiceImplInfo.h"
+#include "ComAdobeGraniteQueriesImplHcAsyncIndexHealthCheckInfo.h"
+#include "ComAdobeGraniteQueriesImplHcLargeIndexHealthCheckInfo.h"
+#include "ComAdobeGraniteQueriesImplHcQueriesStatusHealthCheckInfo.h"
+#include "ComAdobeGraniteQueriesImplHcQueryHealthCheckMetricsInfo.h"
+#include "ComAdobeGraniteQueriesImplHcQueryLimitsHealthCheckInfo.h"
+#include "ComAdobeGraniteReplicationHcImplReplicationQueueHealthCheckInfo.h"
+#include "ComAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCInfo.h"
+#include "ComAdobeGraniteRepositoryHcImplAuthorizableNodeNameHealthCheckInfo.h"
+#include "ComAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCInfo.h"
+#include "ComAdobeGraniteRepositoryHcImplContinuousRGCHealthCheckInfo.h"
+#include "ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheInfo.h"
+#include "ComAdobeGraniteRepositoryHcImplDefaultLoginsHealthCheckInfo.h"
+#include "ComAdobeGraniteRepositoryHcImplDiskSpaceHealthCheckInfo.h"
+#include "ComAdobeGraniteRepositoryHcImplObservationQueueLengthHealthCheckInfo.h"
+#include "ComAdobeGraniteRepositoryImplCommitStatsConfigInfo.h"
+#include "ComAdobeGraniteRepositoryServiceUserConfigurationInfo.h"
+#include "ComAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckImInfo.h"
+#include "ComAdobeGraniteResourcestatusImplCompositeStatusTypeInfo.h"
+#include "ComAdobeGraniteResourcestatusImplStatusResourceProviderImplInfo.h"
+#include "ComAdobeGraniteRestAssetsImplAssetContentDispositionFilterInfo.h"
+#include "ComAdobeGraniteRestImplApiEndpointResourceProviderFactoryImplInfo.h"
+#include "ComAdobeGraniteRestImplServletDefaultGETServletInfo.h"
+#include "ComAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationSInfo.h"
+#include "ComAdobeGraniteSecurityUserUserPropertiesServiceInfo.h"
+#include "ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplInfo.h"
+#include "ComAdobeGraniteSystemMonitoringImplSystemStatsMBeanImplInfo.h"
+#include "ComAdobeGraniteTaskmanagementImplJcrTaskAdapterFactoryInfo.h"
+#include "ComAdobeGraniteTaskmanagementImplJcrTaskArchiveServiceInfo.h"
+#include "ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskInfo.h"
+#include "ComAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactorInfo.h"
+#include "ComAdobeGraniteThreaddumpThreadDumpCollectorInfo.h"
+#include "ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslInfo.h"
+#include "ComAdobeGraniteTranslationCoreImplTranslationManagerImplInfo.h"
+#include "ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplInfo.h"
+#include "ComAdobeGraniteWorkflowConsoleFragsWorkflowWithdrawFeatureInfo.h"
+#include "ComAdobeGraniteWorkflowConsolePublishWorkflowPublishEventServiceInfo.h"
+#include "ComAdobeGraniteWorkflowCoreJcrWorkflowBucketManagerInfo.h"
+#include "ComAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerInfo.h"
+#include "ComAdobeGraniteWorkflowCoreJobJobHandlerInfo.h"
+#include "ComAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumInfo.h"
+#include "ComAdobeGraniteWorkflowCorePayloadMapCacheInfo.h"
+#include "ComAdobeGraniteWorkflowCorePayloadmapPayloadMoveListenerInfo.h"
+#include "ComAdobeGraniteWorkflowCoreWorkflowConfigInfo.h"
+#include "ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryInfo.h"
+#include "ComAdobeGraniteWorkflowPurgeSchedulerInfo.h"
+#include "ComAdobeOctopusNcommBootstrapInfo.h"
+#include "ComAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullSInfo.h"
+#include "ComAdobeXmpWorkerFilesNcommXMPFilesNCommInfo.h"
+#include "ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceInfo.h"
+#include "ComDayCommonsHttpclientInfo.h"
+#include "ComDayCqAnalyticsImplStorePropertiesChangeListenerInfo.h"
+#include "ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteInfo.h"
+#include "ComDayCqAnalyticsSitecatalystImplImporterReportImporterInfo.h"
+#include "ComDayCqAnalyticsSitecatalystImplSitecatalystAdapterFactoryInfo.h"
+#include "ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfo.h"
+#include "ComDayCqAnalyticsTestandtargetImplAccountOptionsUpdaterInfo.h"
+#include "ComDayCqAnalyticsTestandtargetImplDeleteAuthorActivityListenerInfo.h"
+#include "ComDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListenerInfo.h"
+#include "ComDayCqAnalyticsTestandtargetImplSegmentImporterInfo.h"
+#include "ComDayCqAnalyticsTestandtargetImplServiceWebServiceImplInfo.h"
+#include "ComDayCqAnalyticsTestandtargetImplServletsAdminServerServletInfo.h"
+#include "ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplInfo.h"
+#include "ComDayCqAuthImplCugCugSupportImplInfo.h"
+#include "ComDayCqAuthImplLoginSelectorHandlerInfo.h"
+#include "ComDayCqCommonsImplExternalizerImplInfo.h"
+#include "ComDayCqCommonsServletsRootMappingServletInfo.h"
+#include "ComDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckeInfo.h"
+#include "ComDayCqCompatCodeupgradeImplUpgradeTaskIgnoreListInfo.h"
+#include "ComDayCqCompatCodeupgradeImplVersionRangeTaskIgnorelistInfo.h"
+#include "ComDayCqContentsyncImplContentSyncManagerImplInfo.h"
+#include "ComDayCqDamCommonsHandlerStandardImageHandlerInfo.h"
+#include "ComDayCqDamCommonsMetadataXmpFilterBlackWhiteInfo.h"
+#include "ComDayCqDamCommonsUtilImplAssetCacheImplInfo.h"
+#include "ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigInfo.h"
+#include "ComDayCqDamCoreImplAssetMoveListenerInfo.h"
+#include "ComDayCqDamCoreImplAssethomeAssetHomePageConfigurationInfo.h"
+#include "ComDayCqDamCoreImplAssetlinkshareAdhocAssetShareProxyServletInfo.h"
+#include "ComDayCqDamCoreImplCacheCQBufferedImageCacheInfo.h"
+#include "ComDayCqDamCoreImplDamChangeEventListenerInfo.h"
+#include "ComDayCqDamCoreImplDamEventPurgeServiceInfo.h"
+#include "ComDayCqDamCoreImplDamEventRecorderImplInfo.h"
+#include "ComDayCqDamCoreImplEventDamEventAuditListenerInfo.h"
+#include "ComDayCqDamCoreImplExpiryNotificationJobImplInfo.h"
+#include "ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatInfo.h"
+#include "ComDayCqDamCoreImplGfxCommonsGfxRendererInfo.h"
+#include "ComDayCqDamCoreImplHandlerEPSFormatHandlerInfo.h"
+#include "ComDayCqDamCoreImplHandlerIndesignFormatHandlerInfo.h"
+#include "ComDayCqDamCoreImplHandlerJpegHandlerInfo.h"
+#include "ComDayCqDamCoreImplHandlerXmpNCommXMPHandlerInfo.h"
+#include "ComDayCqDamCoreImplJmxAssetIndexUpdateMonitorInfo.h"
+#include "ComDayCqDamCoreImplJmxAssetMigrationMBeanImplInfo.h"
+#include "ComDayCqDamCoreImplJmxAssetUpdateMonitorImplInfo.h"
+#include "ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigInfo.h"
+#include "ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigInfo.h"
+#include "ComDayCqDamCoreImplLightboxLightboxServletInfo.h"
+#include "ComDayCqDamCoreImplMetadataEditorSelectComponentHandlerInfo.h"
+#include "ComDayCqDamCoreImplMimeTypeAssetUploadRestrictionHelperInfo.h"
+#include "ComDayCqDamCoreImplMimeTypeDamMimeTypeServiceImplInfo.h"
+#include "ComDayCqDamCoreImplMissingMetadataNotificationJobInfo.h"
+#include "ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrInfo.h"
+#include "ComDayCqDamCoreImplProcessTextExtractionProcessInfo.h"
+#include "ComDayCqDamCoreImplRenditionMakerImplInfo.h"
+#include "ComDayCqDamCoreImplReportsReportExportServiceInfo.h"
+#include "ComDayCqDamCoreImplReportsReportPurgeServiceInfo.h"
+#include "ComDayCqDamCoreImplServletAssetDownloadServletInfo.h"
+#include "ComDayCqDamCoreImplServletAssetStatusServletInfo.h"
+#include "ComDayCqDamCoreImplServletAssetXMPSearchServletInfo.h"
+#include "ComDayCqDamCoreImplServletBatchMetadataServletInfo.h"
+#include "ComDayCqDamCoreImplServletBinaryProviderServletInfo.h"
+#include "ComDayCqDamCoreImplServletCollectionServletInfo.h"
+#include "ComDayCqDamCoreImplServletCollectionsServletInfo.h"
+#include "ComDayCqDamCoreImplServletCompanionServletInfo.h"
+#include "ComDayCqDamCoreImplServletCreateAssetServletInfo.h"
+#include "ComDayCqDamCoreImplServletDamContentDispositionFilterInfo.h"
+#include "ComDayCqDamCoreImplServletGuidLookupFilterInfo.h"
+#include "ComDayCqDamCoreImplServletHealthCheckServletInfo.h"
+#include "ComDayCqDamCoreImplServletMetadataGetServletInfo.h"
+#include "ComDayCqDamCoreImplServletMultipleLicenseAcceptServletInfo.h"
+#include "ComDayCqDamCoreImplServletResourceCollectionServletInfo.h"
+#include "ComDayCqDamCoreImplUiPreviewFolderPreviewUpdaterImplInfo.h"
+#include "ComDayCqDamCoreImplUnzipUnzipConfigInfo.h"
+#include "ComDayCqDamCoreProcessExifToolExtractMetadataProcessInfo.h"
+#include "ComDayCqDamCoreProcessExtractMetadataProcessInfo.h"
+#include "ComDayCqDamCoreProcessMetadataProcessorProcessInfo.h"
+#include "ComDayCqDamHandlerFfmpegLocatorImplInfo.h"
+#include "ComDayCqDamHandlerGibsonFontmanagerImplFontManagerServiceImplInfo.h"
+#include "ComDayCqDamHandlerStandardPdfPdfHandlerInfo.h"
+#include "ComDayCqDamHandlerStandardPsPostScriptHandlerInfo.h"
+#include "ComDayCqDamHandlerStandardPsdPsdHandlerInfo.h"
+#include "ComDayCqDamIdsImplIDSJobProcessorInfo.h"
+#include "ComDayCqDamIdsImplIDSPoolManagerImplInfo.h"
+#include "ComDayCqDamInddImplHandlerIndesignXMPHandlerInfo.h"
+#include "ComDayCqDamInddImplServletSnippetCreationServletInfo.h"
+#include "ComDayCqDamInddProcessINDDMediaExtractProcessInfo.h"
+#include "ComDayCqDamPerformanceInternalAssetPerformanceDataHandlerImplInfo.h"
+#include "ComDayCqDamPerformanceInternalAssetPerformanceReportSyncJobInfo.h"
+#include "ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProInfo.h"
+#include "ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenInfo.h"
+#include "ComDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerInfo.h"
+#include "ComDayCqDamS7damCommonPostServletsSetCreateHandlerInfo.h"
+#include "ComDayCqDamS7damCommonPostServletsSetModifyHandlerInfo.h"
+#include "ComDayCqDamS7damCommonProcessVideoThumbnailDownloadProcessInfo.h"
+#include "ComDayCqDamS7damCommonS7damDamChangeEventListenerInfo.h"
+#include "ComDayCqDamS7damCommonServletsS7damProductInfoServletInfo.h"
+#include "ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplInfo.h"
+#include "ComDayCqDamScene7ImplScene7APIClientImplInfo.h"
+#include "ComDayCqDamScene7ImplScene7AssetMimeTypeServiceImplInfo.h"
+#include "ComDayCqDamScene7ImplScene7ConfigurationEventListenerInfo.h"
+#include "ComDayCqDamScene7ImplScene7DamChangeEventListenerInfo.h"
+#include "ComDayCqDamScene7ImplScene7FlashTemplatesServiceImplInfo.h"
+#include "ComDayCqDamScene7ImplScene7UploadServiceImplInfo.h"
+#include "ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationSerInfo.h"
+#include "ComDayCqDamStockIntegrationImplConfigurationStockConfigurationInfo.h"
+#include "ComDayCqDamVideoImplServletVideoTestServletInfo.h"
+#include "ComDayCqExtwidgetServletsImageSpriteServletInfo.h"
+#include "ComDayCqImageInternalFontFontHelperInfo.h"
+#include "ComDayCqJcrclustersupportClusterStartLevelControllerInfo.h"
+#include "ComDayCqMailerDefaultMailServiceInfo.h"
+#include "ComDayCqMailerImplCqMailingServiceInfo.h"
+#include "ComDayCqMailerImplEmailCqEmailTemplateFactoryInfo.h"
+#include "ComDayCqMailerImplEmailCqRetrieverTemplateFactoryInfo.h"
+#include "ComDayCqMcmCampaignImplIntegrationConfigImplInfo.h"
+#include "ComDayCqMcmCampaignImporterPersonalizedTextHandlerFactoryInfo.h"
+#include "ComDayCqMcmCoreNewsletterNewsletterEmailServiceImplInfo.h"
+#include "ComDayCqMcmImplMCMConfigurationInfo.h"
+#include "ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponenInfo.h"
+#include "ComDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThrougInfo.h"
+#include "ComDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentInfo.h"
+#include "ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHaInfo.h"
+#include "ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHInfo.h"
+#include "ComDayCqNotificationImplNotificationServiceImplInfo.h"
+#include "ComDayCqPersonalizationImplServletsTargetingConfigurationServletInfo.h"
+#include "ComDayCqPollingImporterImplManagedPollConfigImplInfo.h"
+#include "ComDayCqPollingImporterImplManagedPollingImporterImplInfo.h"
+#include "ComDayCqPollingImporterImplPollingImporterImplInfo.h"
+#include "ComDayCqReplicationAuditReplicationEventListenerInfo.h"
+#include "ComDayCqReplicationContentStaticContentBuilderInfo.h"
+#include "ComDayCqReplicationImplAgentManagerImplInfo.h"
+#include "ComDayCqReplicationImplContentDurboBinaryLessContentBuilderInfo.h"
+#include "ComDayCqReplicationImplContentDurboDurboImportConfigurationProvInfo.h"
+#include "ComDayCqReplicationImplReplicationContentFactoryProviderImplInfo.h"
+#include "ComDayCqReplicationImplReplicationReceiverImplInfo.h"
+#include "ComDayCqReplicationImplReplicatorImplInfo.h"
+#include "ComDayCqReplicationImplReverseReplicatorInfo.h"
+#include "ComDayCqReplicationImplTransportBinaryLessTransportHandlerInfo.h"
+#include "ComDayCqReplicationImplTransportHttpInfo.h"
+#include "ComDayCqReportingImplCacheCacheImplInfo.h"
+#include "ComDayCqReportingImplConfigServiceImplInfo.h"
+#include "ComDayCqReportingImplRLogAnalyzerInfo.h"
+#include "ComDayCqRewriterLinkcheckerImplLinkCheckerImplInfo.h"
+#include "ComDayCqRewriterLinkcheckerImplLinkCheckerTaskInfo.h"
+#include "ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryInfo.h"
+#include "ComDayCqRewriterLinkcheckerImplLinkInfoStorageImplInfo.h"
+#include "ComDayCqRewriterProcessorImplHtmlParserFactoryInfo.h"
+#include "ComDayCqSearchImplBuilderQueryBuilderImplInfo.h"
+#include "ComDayCqSearchSuggestImplSuggestionIndexManagerImplInfo.h"
+#include "ComDayCqSearchpromoteImplPublishSearchPromoteConfigHandlerInfo.h"
+#include "ComDayCqSearchpromoteImplSearchPromoteServiceImplInfo.h"
+#include "ComDayCqSecurityACLSetupInfo.h"
+#include "ComDayCqStatisticsImplStatisticsServiceImplInfo.h"
+#include "ComDayCqTaggingImplJcrTagManagerFactoryImplInfo.h"
+#include "ComDayCqTaggingImplSearchTagPredicateEvaluatorInfo.h"
+#include "ComDayCqTaggingImplTagGarbageCollectorInfo.h"
+#include "ComDayCqWcmContentsyncImplHandlerPagesUpdateHandlerInfo.h"
+#include "ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorInfo.h"
+#include "ComDayCqWcmCoreImplAuthoringUIModeServiceImplInfo.h"
+#include "ComDayCqWcmCoreImplCommandsWCMCommandServletInfo.h"
+#include "ComDayCqWcmCoreImplDevicedetectionDeviceIdentificationModeImplInfo.h"
+#include "ComDayCqWcmCoreImplEventPageEventAuditListenerInfo.h"
+#include "ComDayCqWcmCoreImplEventPagePostProcessorInfo.h"
+#include "ComDayCqWcmCoreImplEventRepositoryChangeEventListenerInfo.h"
+#include "ComDayCqWcmCoreImplEventTemplatePostProcessorInfo.h"
+#include "ComDayCqWcmCoreImplLanguageManagerImplInfo.h"
+#include "ComDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplInfo.h"
+#include "ComDayCqWcmCoreImplPagePageInfoAggregatorImplInfo.h"
+#include "ComDayCqWcmCoreImplPagePageManagerFactoryImplInfo.h"
+#include "ComDayCqWcmCoreImplReferencesContentContentReferenceConfigInfo.h"
+#include "ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerInfo.h"
+#include "ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorVieInfo.h"
+#include "ComDayCqWcmCoreImplServletsContentfinderPageViewHandlerInfo.h"
+#include "ComDayCqWcmCoreImplServletsFindReplaceServletInfo.h"
+#include "ComDayCqWcmCoreImplServletsReferenceSearchServletInfo.h"
+#include "ComDayCqWcmCoreImplServletsThumbnailServletInfo.h"
+#include "ComDayCqWcmCoreImplUtilsDefaultPageNameValidatorInfo.h"
+#include "ComDayCqWcmCoreImplVariantsPageVariantsProviderImplInfo.h"
+#include "ComDayCqWcmCoreImplVersionManagerImplInfo.h"
+#include "ComDayCqWcmCoreImplVersionPurgeTaskInfo.h"
+#include "ComDayCqWcmCoreImplWCMDebugFilterInfo.h"
+#include "ComDayCqWcmCoreImplWCMDeveloperModeFilterInfo.h"
+#include "ComDayCqWcmCoreImplWarpTimeWarpFilterInfo.h"
+#include "ComDayCqWcmCoreMvtMVTStatisticsImplInfo.h"
+#include "ComDayCqWcmCoreStatsPageViewStatisticsImplInfo.h"
+#include "ComDayCqWcmCoreWCMRequestFilterInfo.h"
+#include "ComDayCqWcmDesignimporterDesignPackageImporterInfo.h"
+#include "ComDayCqWcmDesignimporterImplCanvasBuilderImplInfo.h"
+#include "ComDayCqWcmDesignimporterImplCanvasPageDeleteHandlerInfo.h"
+#include "ComDayCqWcmDesignimporterImplEntryPreprocessorImplInfo.h"
+#include "ComDayCqWcmDesignimporterImplMobileCanvasBuilderImplInfo.h"
+#include "ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeInfo.h"
+#include "ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultComponInfo.h"
+#include "ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHanInfo.h"
+#include "ComDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandleInfo.h"
+#include "ComDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHandInfo.h"
+#include "ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponenInfo.h"
+#include "ComDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandlerInfo.h"
+#include "ComDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTInfo.h"
+#include "ComDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandleInfo.h"
+#include "ComDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandleInfo.h"
+#include "ComDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagHInfo.h"
+#include "ComDayCqWcmDesignimporterParserTaghandlersFactoryParsysComponeInfo.h"
+#include "ComDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandInfo.h"
+#include "ComDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlInfo.h"
+#include "ComDayCqWcmDesignimporterParserTaghandlersFactoryTextComponentInfo.h"
+#include "ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponenInfo.h"
+#include "ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandlInfo.h"
+#include "ComDayCqWcmFoundationFormsImplFormChooserServletInfo.h"
+#include "ComDayCqWcmFoundationFormsImplFormParagraphPostProcessorInfo.h"
+#include "ComDayCqWcmFoundationFormsImplFormsHandlingServletInfo.h"
+#include "ComDayCqWcmFoundationFormsImplMailServletInfo.h"
+#include "ComDayCqWcmFoundationImplAdaptiveImageComponentServletInfo.h"
+#include "ComDayCqWcmFoundationImplHTTPAuthHandlerInfo.h"
+#include "ComDayCqWcmFoundationImplPageImpressionsTrackerInfo.h"
+#include "ComDayCqWcmFoundationImplPageRedirectServletInfo.h"
+#include "ComDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistInfo.h"
+#include "ComDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplInfo.h"
+#include "ComDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactoryInfo.h"
+#include "ComDayCqWcmMobileCoreImplRedirectRedirectFilterInfo.h"
+#include "ComDayCqWcmMsmImplActionsContentCopyActionFactoryInfo.h"
+#include "ComDayCqWcmMsmImplActionsContentDeleteActionFactoryInfo.h"
+#include "ComDayCqWcmMsmImplActionsContentUpdateActionFactoryInfo.h"
+#include "ComDayCqWcmMsmImplActionsOrderChildrenActionFactoryInfo.h"
+#include "ComDayCqWcmMsmImplActionsPageMoveActionFactoryInfo.h"
+#include "ComDayCqWcmMsmImplActionsReferencesUpdateActionFactoryInfo.h"
+#include "ComDayCqWcmMsmImplActionsVersionCopyActionFactoryInfo.h"
+#include "ComDayCqWcmMsmImplLiveRelationshipManagerImplInfo.h"
+#include "ComDayCqWcmMsmImplRolloutManagerImplInfo.h"
+#include "ComDayCqWcmMsmImplServletsAuditLogServletInfo.h"
+#include "ComDayCqWcmNotificationEmailImplEmailChannelInfo.h"
+#include "ComDayCqWcmNotificationImplNotificationManagerImplInfo.h"
+#include "ComDayCqWcmScriptingImplBVPManagerInfo.h"
+#include "ComDayCqWcmUndoUndoConfigInfo.h"
+#include "ComDayCqWcmWebservicesupportImplReplicationEventListenerInfo.h"
+#include "ComDayCqWcmWorkflowImplWcmWorkflowServiceImplInfo.h"
+#include "ComDayCqWcmWorkflowImplWorkflowPackageInfoProviderInfo.h"
+#include "ComDayCqWidgetImplHtmlLibraryManagerImplInfo.h"
+#include "ComDayCqWidgetImplWidgetExtensionProviderImplInfo.h"
+#include "ComDayCqWorkflowImplEmailEMailNotificationServiceInfo.h"
+#include "ComDayCqWorkflowImplEmailTaskEMailNotificationServiceInfo.h"
+#include "ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerInfo.h"
+#include "ComDayCrxSecurityTokenImplTokenCleanupTaskInfo.h"
+#include "GuideLocalizationServiceInfo.h"
+#include "MessagingUserComponentFactoryInfo.h"
+#include "OrgApacheAriesJmxFrameworkStateConfigInfo.h"
+#include "OrgApacheFelixEventadminImplEventAdminInfo.h"
+#include "OrgApacheFelixHttpInfo.h"
+#include "OrgApacheFelixHttpSslfilterSslFilterInfo.h"
+#include "OrgApacheFelixJaasConfigurationFactoryInfo.h"
+#include "OrgApacheFelixJaasConfigurationSpiInfo.h"
+#include "OrgApacheFelixScrScrServiceInfo.h"
+#include "OrgApacheFelixSystemreadyImplComponentsCheckInfo.h"
+#include "OrgApacheFelixSystemreadyImplFrameworkStartCheckInfo.h"
+#include "OrgApacheFelixSystemreadyImplServicesCheckInfo.h"
+#include "OrgApacheFelixSystemreadyImplServletSystemAliveServletInfo.h"
+#include "OrgApacheFelixSystemreadyImplServletSystemReadyServletInfo.h"
+#include "OrgApacheFelixSystemreadySystemReadyMonitorInfo.h"
+#include "OrgApacheFelixWebconsoleInternalServletOsgiManagerInfo.h"
+#include "OrgApacheFelixWebconsolePluginsEventInternalPluginServletInfo.h"
+#include "OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCoInfo.h"
+#include "OrgApacheHttpProxyconfiguratorInfo.h"
+#include "OrgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProviderInfo.h"
+#include "OrgApacheJackrabbitOakPluginsBlobDatastoreFileDataStoreInfo.h"
+#include "OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceInfo.h"
+#include "OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePreInfo.h"
+#include "OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacInfo.h"
+#include "OrgApacheJackrabbitOakPluginsIndexAsyncIndexerServiceInfo.h"
+#include "OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServInfo.h"
+#include "OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCoInfo.h"
+#include "OrgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersInfo.h"
+#include "OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationInfo.h"
+#include "OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfInfo.h"
+#include "OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProvidInfo.h"
+#include "OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderSeInfo.h"
+#include "OrgApacheJackrabbitOakPluginsMetricStatisticsProviderFactoryInfo.h"
+#include "OrgApacheJackrabbitOakPluginsObservationChangeCollectorProviderInfo.h"
+#include "OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceInfo.h"
+#include "OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigInfo.h"
+#include "OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiInfo.h"
+#include "OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraInfo.h"
+#include "OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurInfo.h"
+#include "OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistratiInfo.h"
+#include "OrgApacheJackrabbitOakSecurityUserRandomAuthorizableNodeNameInfo.h"
+#include "OrgApacheJackrabbitOakSecurityUserUserConfigurationImplInfo.h"
+#include "OrgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServiceInfo.h"
+#include "OrgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryInfo.h"
+#include "OrgApacheJackrabbitOakSegmentSegmentNodeStoreMonitorServiceInfo.h"
+#include "OrgApacheJackrabbitOakSegmentSegmentNodeStoreServiceInfo.h"
+#include "OrgApacheJackrabbitOakSegmentStandbyStoreStandbyStoreServiceInfo.h"
+#include "OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeInfo.h"
+#include "OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExInfo.h"
+#include "OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrInfo.h"
+#include "OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiInfo.h"
+#include "OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExcluInfo.h"
+#include "OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableInfo.h"
+#include "OrgApacheJackrabbitVaultPackagingImplPackagingImplInfo.h"
+#include "OrgApacheJackrabbitVaultPackagingRegistryImplFSPackageRegistryInfo.h"
+#include "OrgApacheSlingAuthCoreImplLogoutServletInfo.h"
+#include "OrgApacheSlingCaconfigImplConfigurationBindingsValueProviderInfo.h"
+#include "OrgApacheSlingCaconfigImplConfigurationResolverImplInfo.h"
+#include "OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStraInfo.h"
+#include "OrgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStraInfo.h"
+#include "OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviInfo.h"
+#include "OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOveInfo.h"
+#include "OrgApacheSlingCaconfigManagementImplConfigurationManagementSettiInfo.h"
+#include "OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourInfo.h"
+#include "OrgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyInfo.h"
+#include "OrgApacheSlingCommonsHtmlInternalTagsoupHtmlParserInfo.h"
+#include "OrgApacheSlingCommonsLogLogManagerFactoryConfigInfo.h"
+#include "OrgApacheSlingCommonsLogLogManagerFactoryWriterInfo.h"
+#include "OrgApacheSlingCommonsLogLogManagerInfo.h"
+#include "OrgApacheSlingCommonsMetricsInternalLogReporterInfo.h"
+#include "OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterInfo.h"
+#include "OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfo.h"
+#include "OrgApacheSlingCommonsSchedulerImplQuartzSchedulerInfo.h"
+#include "OrgApacheSlingCommonsSchedulerImplSchedulerHealthCheckInfo.h"
+#include "OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryInfo.h"
+#include "OrgApacheSlingDatasourceDataSourceFactoryInfo.h"
+#include "OrgApacheSlingDatasourceJNDIDataSourceFactoryInfo.h"
+#include "OrgApacheSlingDiscoveryOakConfigInfo.h"
+#include "OrgApacheSlingDiscoveryOakSynchronizedClocksHealthCheckInfo.h"
+#include "OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoInfo.h"
+#include "OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAInfo.h"
+#include "OrgApacheSlingDistributionAgentImplQueueDistributionAgentFactoryInfo.h"
+#include "OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoInfo.h"
+#include "OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorInfo.h"
+#include "OrgApacheSlingDistributionAgentImplSyncDistributionAgentFactoryInfo.h"
+#include "OrgApacheSlingDistributionMonitorDistributionQueueHealthCheckInfo.h"
+#include "OrgApacheSlingDistributionPackagingImplExporterAgentDistributioInfo.h"
+#include "OrgApacheSlingDistributionPackagingImplExporterLocalDistributioInfo.h"
+#include "OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiInfo.h"
+#include "OrgApacheSlingDistributionPackagingImplImporterLocalDistributioInfo.h"
+#include "OrgApacheSlingDistributionPackagingImplImporterRemoteDistributiInfo.h"
+#include "OrgApacheSlingDistributionPackagingImplImporterRepositoryDistriInfo.h"
+#include "OrgApacheSlingDistributionResourcesImplDistributionConfigurationInfo.h"
+#include "OrgApacheSlingDistributionResourcesImplDistributionServiceResourInfo.h"
+#include "OrgApacheSlingDistributionSerializationImplDistributionPackageBuInfo.h"
+#include "OrgApacheSlingDistributionSerializationImplVltVaultDistributionInfo.h"
+#include "OrgApacheSlingDistributionTransportImplUserCredentialsDistributiInfo.h"
+#include "OrgApacheSlingDistributionTriggerImplDistributionEventDistributeInfo.h"
+#include "OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerInfo.h"
+#include "OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiInfo.h"
+#include "OrgApacheSlingDistributionTriggerImplRemoteEventDistributionTrigInfo.h"
+#include "OrgApacheSlingDistributionTriggerImplResourceEventDistributionTrInfo.h"
+#include "OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggeInfo.h"
+#include "OrgApacheSlingEngineImplAuthSlingAuthenticatorInfo.h"
+#include "OrgApacheSlingEngineImplDebugRequestProgressTrackerLogFilterInfo.h"
+#include "OrgApacheSlingEngineImplLogRequestLoggerInfo.h"
+#include "OrgApacheSlingEngineImplLogRequestLoggerServiceInfo.h"
+#include "OrgApacheSlingEngineImplSlingMainServletInfo.h"
+#include "OrgApacheSlingEngineParametersInfo.h"
+#include "OrgApacheSlingEventImplEventingThreadPoolInfo.h"
+#include "OrgApacheSlingEventImplJobsDefaultJobManagerInfo.h"
+#include "OrgApacheSlingEventImplJobsJcrPersistenceHandlerInfo.h"
+#include "OrgApacheSlingEventImplJobsJobConsumerManagerInfo.h"
+#include "OrgApacheSlingEventJobsQueueConfigurationInfo.h"
+#include "OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWInfo.h"
+#include "OrgApacheSlingFeatureflagsFeatureInfo.h"
+#include "OrgApacheSlingFeatureflagsImplConfiguredFeatureInfo.h"
+#include "OrgApacheSlingHapiImplHApiUtilImplInfo.h"
+#include "OrgApacheSlingHcCoreImplCompositeHealthCheckInfo.h"
+#include "OrgApacheSlingHcCoreImplExecutorHealthCheckExecutorImplInfo.h"
+#include "OrgApacheSlingHcCoreImplJmxAttributeHealthCheckInfo.h"
+#include "OrgApacheSlingHcCoreImplScriptableHealthCheckInfo.h"
+#include "OrgApacheSlingHcCoreImplServletHealthCheckExecutorServletInfo.h"
+#include "OrgApacheSlingHcCoreImplServletResultTxtVerboseSerializerInfo.h"
+#include "OrgApacheSlingI18nImplI18NFilterInfo.h"
+#include "OrgApacheSlingI18nImplJcrResourceBundleProviderInfo.h"
+#include "OrgApacheSlingInstallerProviderJcrImplJcrInstallerInfo.h"
+#include "OrgApacheSlingJcrBaseInternalLoginAdminWhitelistFragmentInfo.h"
+#include "OrgApacheSlingJcrBaseInternalLoginAdminWhitelistInfo.h"
+#include "OrgApacheSlingJcrDavexImplServletsSlingDavExServletInfo.h"
+#include "OrgApacheSlingJcrJackrabbitServerJndiRegistrationSupportInfo.h"
+#include "OrgApacheSlingJcrJackrabbitServerRmiRegistrationSupportInfo.h"
+#include "OrgApacheSlingJcrRepoinitImplRepositoryInitializerInfo.h"
+#include "OrgApacheSlingJcrRepoinitRepositoryInitializerInfo.h"
+#include "OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplInfo.h"
+#include "OrgApacheSlingJcrResourceInternalJcrSystemUserValidatorInfo.h"
+#include "OrgApacheSlingJcrResourcesecurityImplResourceAccessGateFactoryInfo.h"
+#include "OrgApacheSlingJcrWebdavImplHandlerDefaultHandlerServiceInfo.h"
+#include "OrgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServicInfo.h"
+#include "OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletInfo.h"
+#include "OrgApacheSlingJmxProviderImplJMXResourceProviderInfo.h"
+#include "OrgApacheSlingModelsImplModelAdapterFactoryInfo.h"
+#include "OrgApacheSlingModelsJacksonexporterImplResourceModuleProviderInfo.h"
+#include "OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoInfo.h"
+#include "OrgApacheSlingResourcemergerImplMergedResourceProviderFactoryInfo.h"
+#include "OrgApacheSlingResourcemergerPickerOverridingInfo.h"
+#include "OrgApacheSlingScriptingCoreImplScriptCacheImplInfo.h"
+#include "OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderInfo.h"
+#include "OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryInfo.h"
+#include "OrgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFaInfo.h"
+#include "OrgApacheSlingScriptingJspJspScriptEngineFactoryInfo.h"
+#include "OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvInfo.h"
+#include "OrgApacheSlingSecurityImplContentDispositionFilterInfo.h"
+#include "OrgApacheSlingSecurityImplReferrerFilterInfo.h"
+#include "OrgApacheSlingServiceusermappingImplServiceUserMapperImplAmendedInfo.h"
+#include "OrgApacheSlingServiceusermappingImplServiceUserMapperImplInfo.h"
+#include "OrgApacheSlingServletsGetDefaultGetServletInfo.h"
+#include "OrgApacheSlingServletsGetImplVersionVersionInfoServletInfo.h"
+#include "OrgApacheSlingServletsPostImplHelperChunkCleanUpTaskInfo.h"
+#include "OrgApacheSlingServletsPostImplSlingPostServletInfo.h"
+#include "OrgApacheSlingServletsResolverSlingServletResolverInfo.h"
+#include "OrgApacheSlingSettingsImplSlingSettingsServiceImplInfo.h"
+#include "OrgApacheSlingStartupfilterImplStartupFilterImplInfo.h"
+#include "OrgApacheSlingTenantInternalTenantProviderImplInfo.h"
+#include "OrgApacheSlingTracerInternalLogTracerInfo.h"
+#include "OrgApacheSlingXssImplXSSFilterImplInfo.h"
+
+namespace Tiny {
+
+/**
+ *  Class 
+ * Generated with openapi::tiny-cpp-client
+ */
+
+class ConfigmgrApi : public Service {
+public:
+    ConfigmgrApi() = default;
+
+    virtual ~ConfigmgrApi();
+
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param showPlaceholder 
+    * \param maximumCacheEntries 
+    * \param afPeriodscriptingPeriodcompatversion 
+    * \param makeFileNameUnique 
+    * \param generatingCompliantData 
+    */
+    Response<
+                AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationInfo
+        >
+    adaptiveFormAndInteractiveCommunicationWebChannelConfiguration(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool showPlaceholder
+            , 
+            
+            int maximumCacheEntries
+            , 
+            
+            std::string afPeriodscriptingPeriodcompatversion
+            , 
+            
+            bool makeFileNameUnique
+            , 
+            
+            bool generatingCompliantData
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param fontList 
+    */
+    Response<
+                AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurInfo
+        >
+    adaptiveFormAndInteractiveCommunicationWebChannelThemeConfigur(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> fontList
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param cqPeriodanalyticsPeriodcomponentPeriodqueryPeriodcachePeriodsize 
+    */
+    Response<
+                AnalyticsComponentQueryCacheServiceInfo
+        >
+    analyticsComponentQueryCacheService(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int cqPeriodanalyticsPeriodcomponentPeriodqueryPeriodcachePeriodsize
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param styleString 
+    */
+    Response<
+                ApacheSlingHealthCheckResultHTMLSerializerInfo
+        >
+    apacheSlingHealthCheckResultHTMLSerializer(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string styleString
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param formsManagerConfigPeriodincludeOOTBTemplates 
+    * \param formsManagerConfigPeriodincludeDeprecatedTemplates 
+    */
+    Response<
+                ComAdobeAemFormsndocumentsConfigAEMFormsManagerConfigurationInfo
+        >
+    comAdobeAemFormsndocumentsConfigAEMFormsManagerConfiguration(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool formsManagerConfigPeriodincludeOOTBTemplates
+            , 
+            
+            bool formsManagerConfigPeriodincludeDeprecatedTemplates
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param isTransactionRecordingEnabled 
+    */
+    Response<
+                ComAdobeAemTransactionCoreImplTransactionRecorderInfo
+        >
+    comAdobeAemTransactionCoreImplTransactionRecorder(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool isTransactionRecordingEnabled
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param hcPeriodname 
+    * \param hcPeriodtags 
+    * \param hcPeriodmbeanPeriodname 
+    */
+    Response<
+                ComAdobeAemUpgradePrechecksHcImplDeprecateIndexesHCInfo
+        >
+    comAdobeAemUpgradePrechecksHcImplDeprecateIndexesHC(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string hcPeriodname
+            , 
+            std::list<std::string> hcPeriodtags
+            
+            , 
+            
+            std::string hcPeriodmbeanPeriodname
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param hcPeriodname 
+    * \param hcPeriodtags 
+    * \param hcPeriodmbeanPeriodname 
+    */
+    Response<
+                ComAdobeAemUpgradePrechecksHcImplReplicationAgentsDisabledHCInfo
+        >
+    comAdobeAemUpgradePrechecksHcImplReplicationAgentsDisabledHC(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string hcPeriodname
+            , 
+            std::list<std::string> hcPeriodtags
+            
+            , 
+            
+            std::string hcPeriodmbeanPeriodname
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param preUpgradePeriodmaintenancePeriodtasks 
+    * \param preUpgradePeriodhcPeriodtags 
+    */
+    Response<
+                ComAdobeAemUpgradePrechecksMbeanImplPreUpgradeTasksMBeanImplInfo
+        >
+    comAdobeAemUpgradePrechecksMbeanImplPreUpgradeTasksMBeanImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> preUpgradePeriodmaintenancePeriodtasks
+            
+            , 
+            std::list<std::string> preUpgradePeriodhcPeriodtags
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param rootPeriodpath 
+    * \param fixPeriodinconsistencies 
+    */
+    Response<
+                ComAdobeAemUpgradePrechecksTasksImplConsistencyCheckTaskImplInfo
+        >
+    comAdobeAemUpgradePrechecksTasksImplConsistencyCheckTaskImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string rootPeriodpath
+            , 
+            
+            bool fixPeriodinconsistencies
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param cqPeriodaccountmanagerPeriodtokenPeriodvalidityPeriodperiod 
+    * \param cqPeriodaccountmanagerPeriodconfigPeriodrequestnewaccountPeriodmail 
+    * \param cqPeriodaccountmanagerPeriodconfigPeriodrequestnewpwdPeriodmail 
+    */
+    Response<
+                ComAdobeCqAccountApiAccountManagementServiceInfo
+        >
+    comAdobeCqAccountApiAccountManagementService(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int cqPeriodaccountmanagerPeriodtokenPeriodvalidityPeriodperiod
+            , 
+            
+            std::string cqPeriodaccountmanagerPeriodconfigPeriodrequestnewaccountPeriodmail
+            , 
+            
+            std::string cqPeriodaccountmanagerPeriodconfigPeriodrequestnewpwdPeriodmail
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param cqPeriodaccountmanagerPeriodconfigPeriodinformnewaccountPeriodmail 
+    * \param cqPeriodaccountmanagerPeriodconfigPeriodinformnewpwdPeriodmail 
+    */
+    Response<
+                ComAdobeCqAccountImplAccountManagementServletInfo
+        >
+    comAdobeCqAccountImplAccountManagementServlet(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string cqPeriodaccountmanagerPeriodconfigPeriodinformnewaccountPeriodmail
+            , 
+            
+            std::string cqPeriodaccountmanagerPeriodconfigPeriodinformnewpwdPeriodmail
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param cqPeriodaddressPeriodlocationPerioddefaultPeriodmaxResults 
+    */
+    Response<
+                ComAdobeCqAddressImplLocationLocationListServletInfo
+        >
+    comAdobeCqAddressImplLocationLocationListServlet(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int cqPeriodaddressPeriodlocationPerioddefaultPeriodmaxResults
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param auditlogPeriodrulePeriodname 
+    * \param auditlogPeriodrulePeriodcontentpath 
+    * \param auditlogPeriodrulePeriodminimumage 
+    * \param auditlogPeriodrulePeriodtypes 
+    */
+    Response<
+                ComAdobeCqAuditPurgeDamInfo
+        >
+    comAdobeCqAuditPurgeDam(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string auditlogPeriodrulePeriodname
+            , 
+            
+            std::string auditlogPeriodrulePeriodcontentpath
+            , 
+            
+            int auditlogPeriodrulePeriodminimumage
+            , 
+            
+            std::string auditlogPeriodrulePeriodtypes
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param auditlogPeriodrulePeriodname 
+    * \param auditlogPeriodrulePeriodcontentpath 
+    * \param auditlogPeriodrulePeriodminimumage 
+    * \param auditlogPeriodrulePeriodtypes 
+    */
+    Response<
+                ComAdobeCqAuditPurgePagesInfo
+        >
+    comAdobeCqAuditPurgePages(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string auditlogPeriodrulePeriodname
+            , 
+            
+            std::string auditlogPeriodrulePeriodcontentpath
+            , 
+            
+            int auditlogPeriodrulePeriodminimumage
+            , 
+            
+            std::string auditlogPeriodrulePeriodtypes
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param auditlogPeriodrulePeriodname 
+    * \param auditlogPeriodrulePeriodcontentpath 
+    * \param auditlogPeriodrulePeriodminimumage 
+    * \param auditlogPeriodrulePeriodtypes 
+    */
+    Response<
+                ComAdobeCqAuditPurgeReplicationInfo
+        >
+    comAdobeCqAuditPurgeReplication(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string auditlogPeriodrulePeriodname
+            , 
+            
+            std::string auditlogPeriodrulePeriodcontentpath
+            , 
+            
+            int auditlogPeriodrulePeriodminimumage
+            , 
+            
+            std::string auditlogPeriodrulePeriodtypes
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param servicePeriodranking 
+    * \param keypairPeriodid 
+    * \param keypairPeriodalias 
+    * \param cdnrewriterPeriodattributes 
+    * \param cdnPeriodrewriterPerioddistributionPerioddomain 
+    */
+    Response<
+                ComAdobeCqCdnRewriterImplAWSCloudFrontRewriterInfo
+        >
+    comAdobeCqCdnRewriterImplAWSCloudFrontRewriter(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int servicePeriodranking
+            , 
+            
+            std::string keypairPeriodid
+            , 
+            
+            std::string keypairPeriodalias
+            , 
+            std::list<std::string> cdnrewriterPeriodattributes
+            
+            , 
+            
+            std::string cdnPeriodrewriterPerioddistributionPerioddomain
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param cdnPeriodconfigPerioddistributionPerioddomain 
+    * \param cdnPeriodconfigPeriodenablePeriodrewriting 
+    * \param cdnPeriodconfigPeriodpathPeriodprefixes 
+    * \param cdnPeriodconfigPeriodcdnttl 
+    * \param cdnPeriodconfigPeriodapplicationPeriodprotocol 
+    */
+    Response<
+                ComAdobeCqCdnRewriterImplCDNConfigServiceImplInfo
+        >
+    comAdobeCqCdnRewriterImplCDNConfigServiceImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string cdnPeriodconfigPerioddistributionPerioddomain
+            , 
+            
+            bool cdnPeriodconfigPeriodenablePeriodrewriting
+            , 
+            std::list<std::string> cdnPeriodconfigPeriodpathPeriodprefixes
+            
+            , 
+            
+            int cdnPeriodconfigPeriodcdnttl
+            , 
+            
+            std::string cdnPeriodconfigPeriodapplicationPeriodprotocol
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param servicePeriodranking 
+    * \param cdnrewriterPeriodattributes 
+    * \param cdnPeriodrewriterPerioddistributionPerioddomain 
+    */
+    Response<
+                ComAdobeCqCdnRewriterImplCDNRewriterInfo
+        >
+    comAdobeCqCdnRewriterImplCDNRewriter(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int servicePeriodranking
+            , 
+            std::list<std::string> cdnrewriterPeriodattributes
+            
+            , 
+            
+            std::string cdnPeriodrewriterPerioddistributionPerioddomain
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param flushPeriodagents 
+    */
+    Response<
+                ComAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandleInfo
+        >
+    comAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandle(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> flushPeriodagents
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param cqPeriodcommercePeriodassetPeriodhandlerPeriodactive 
+    * \param cqPeriodcommercePeriodassetPeriodhandlerPeriodname 
+    */
+    Response<
+                ComAdobeCqCommerceImplAssetDynamicImageHandlerInfo
+        >
+    comAdobeCqCommerceImplAssetDynamicImageHandler(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool cqPeriodcommercePeriodassetPeriodhandlerPeriodactive
+            , 
+            
+            std::string cqPeriodcommercePeriodassetPeriodhandlerPeriodname
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param cqPeriodcommercePeriodassetPeriodhandlerPeriodfallback 
+    */
+    Response<
+                ComAdobeCqCommerceImplAssetProductAssetHandlerProviderImplInfo
+        >
+    comAdobeCqCommerceImplAssetProductAssetHandlerProviderImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string cqPeriodcommercePeriodassetPeriodhandlerPeriodfallback
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param cqPeriodcommercePeriodassetPeriodhandlerPeriodactive 
+    * \param cqPeriodcommercePeriodassetPeriodhandlerPeriodname 
+    */
+    Response<
+                ComAdobeCqCommerceImplAssetStaticImageHandlerInfo
+        >
+    comAdobeCqCommerceImplAssetStaticImageHandler(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool cqPeriodcommercePeriodassetPeriodhandlerPeriodactive
+            , 
+            
+            std::string cqPeriodcommercePeriodassetPeriodhandlerPeriodname
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param cqPeriodcommercePeriodassetPeriodhandlerPeriodactive 
+    * \param cqPeriodcommercePeriodassetPeriodhandlerPeriodname 
+    */
+    Response<
+                ComAdobeCqCommerceImplAssetVideoHandlerInfo
+        >
+    comAdobeCqCommerceImplAssetVideoHandler(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool cqPeriodcommercePeriodassetPeriodhandlerPeriodactive
+            , 
+            
+            std::string cqPeriodcommercePeriodassetPeriodhandlerPeriodname
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param cqPeriodcommercePeriodpromotionPeriodroot 
+    */
+    Response<
+                ComAdobeCqCommerceImplPromotionPromotionManagerImplInfo
+        >
+    comAdobeCqCommerceImplPromotionPromotionManagerImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string cqPeriodcommercePeriodpromotionPeriodroot
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param cqPeriodcommercePeriodcataloggeneratorPeriodbucketsize 
+    * \param cqPeriodcommercePeriodcataloggeneratorPeriodbucketname 
+    * \param cqPeriodcommercePeriodcataloggeneratorPeriodexcludedtemplateproperties 
+    */
+    Response<
+                ComAdobeCqCommercePimImplCataloggeneratorCatalogGeneratorImplInfo
+        >
+    comAdobeCqCommercePimImplCataloggeneratorCatalogGeneratorImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int cqPeriodcommercePeriodcataloggeneratorPeriodbucketsize
+            , 
+            
+            std::string cqPeriodcommercePeriodcataloggeneratorPeriodbucketname
+            , 
+            std::list<std::string> cqPeriodcommercePeriodcataloggeneratorPeriodexcludedtemplateproperties
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param cqPeriodcommercePeriodpageeventlistenerPeriodenabled 
+    */
+    Response<
+                ComAdobeCqCommercePimImplPageEventListenerInfo
+        >
+    comAdobeCqCommercePimImplPageEventListener(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool cqPeriodcommercePeriodpageeventlistenerPeriodenabled
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param feed_generator_algorithm 
+    */
+    Response<
+                ComAdobeCqCommercePimImplProductfeedProductFeedServiceImplInfo
+        >
+    comAdobeCqCommercePimImplProductfeedProductFeedServiceImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string feed_generator_algorithm
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param reportingservicesPeriodurl 
+    */
+    Response<
+                ComAdobeCqContentinsightImplReportingServicesSettingsProviderInfo
+        >
+    comAdobeCqContentinsightImplReportingServicesSettingsProvider(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string reportingservicesPeriodurl
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param brightedgePeriodurl 
+    */
+    Response<
+                ComAdobeCqContentinsightImplServletsBrightEdgeProxyServletInfo
+        >
+    comAdobeCqContentinsightImplServletsBrightEdgeProxyServlet(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string brightedgePeriodurl
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param reportingservicesPeriodproxyPeriodwhitelist 
+    */
+    Response<
+                ComAdobeCqContentinsightImplServletsReportingServicesProxyServleInfo
+        >
+    comAdobeCqContentinsightImplServletsReportingServicesProxyServle(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> reportingservicesPeriodproxyPeriodwhitelist
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param damPeriodcfmPeriodcomponentPeriodresourceType 
+    * \param damPeriodcfmPeriodcomponentPeriodfileReferenceProp 
+    * \param damPeriodcfmPeriodcomponentPeriodelementsProp 
+    * \param damPeriodcfmPeriodcomponentPeriodvariationProp 
+    */
+    Response<
+                ComAdobeCqDamCfmImplComponentComponentConfigImplInfo
+        >
+    comAdobeCqDamCfmImplComponentComponentConfigImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string damPeriodcfmPeriodcomponentPeriodresourceType
+            , 
+            
+            std::string damPeriodcfmPeriodcomponentPeriodfileReferenceProp
+            , 
+            
+            std::string damPeriodcfmPeriodcomponentPeriodelementsProp
+            , 
+            
+            std::string damPeriodcfmPeriodcomponentPeriodvariationProp
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param damPeriodcfmPeriodresourceTypes 
+    * \param damPeriodcfmPeriodreferenceProperties 
+    */
+    Response<
+                ComAdobeCqDamCfmImplConfFeatureConfigImplInfo
+        >
+    comAdobeCqDamCfmImplConfFeatureConfigImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> damPeriodcfmPeriodresourceTypes
+            
+            , 
+            std::list<std::string> damPeriodcfmPeriodreferenceProperties
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param pipelinePeriodtype 
+    */
+    Response<
+                ComAdobeCqDamCfmImplContentRewriterAssetProcessorInfo
+        >
+    comAdobeCqDamCfmImplContentRewriterAssetProcessor(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string pipelinePeriodtype
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param pipelinePeriodtype 
+    */
+    Response<
+                ComAdobeCqDamCfmImplContentRewriterParRangeFilterInfo
+        >
+    comAdobeCqDamCfmImplContentRewriterParRangeFilter(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string pipelinePeriodtype
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param pipelinePeriodtype 
+    */
+    Response<
+                ComAdobeCqDamCfmImplContentRewriterPayloadFilterInfo
+        >
+    comAdobeCqDamCfmImplContentRewriterPayloadFilter(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string pipelinePeriodtype
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param maxMemory 
+    */
+    Response<
+                ComAdobeCqDamDmProcessImagePTiffManagerImplInfo
+        >
+    comAdobeCqDamDmProcessImagePTiffManagerImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int maxMemory
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param dmreplicateonmodifyPeriodenabled 
+    * \param dmreplicateonmodifyPeriodforcesyncdeletes 
+    */
+    Response<
+                ComAdobeCqDamIpsImplReplicationTriggerReplicateOnModifyWorkerInfo
+        >
+    comAdobeCqDamIpsImplReplicationTriggerReplicateOnModifyWorker(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool dmreplicateonmodifyPeriodenabled
+            , 
+            
+            bool dmreplicateonmodifyPeriodforcesyncdeletes
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param comPeriodadobePerioddamPeriodmacPeriodsyncPeriodclientPeriodsoPeriodtimeout 
+    */
+    Response<
+                ComAdobeCqDamMacSyncHelperImplMACSyncClientImplInfo
+        >
+    comAdobeCqDamMacSyncHelperImplMACSyncClientImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int comPeriodadobePerioddamPeriodmacPeriodsyncPeriodclientPeriodsoPeriodtimeout
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param comPeriodadobePeriodcqPerioddamPeriodmacPeriodsyncPerioddamsyncservicePeriodregisteredPaths 
+    * \param comPeriodadobePeriodcqPerioddamPeriodmacPeriodsyncPerioddamsyncservicePeriodsyncPeriodrenditions 
+    * \param comPeriodadobePeriodcqPerioddamPeriodmacPeriodsyncPerioddamsyncservicePeriodreplicatePeriodthreadPeriodwaitPeriodms 
+    * \param comPeriodadobePeriodcqPerioddamPeriodmacPeriodsyncPerioddamsyncservicePeriodplatform 
+    */
+    Response<
+                ComAdobeCqDamMacSyncImplDAMSyncServiceImplInfo
+        >
+    comAdobeCqDamMacSyncImplDAMSyncServiceImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> comPeriodadobePeriodcqPerioddamPeriodmacPeriodsyncPerioddamsyncservicePeriodregisteredPaths
+            
+            , 
+            
+            bool comPeriodadobePeriodcqPerioddamPeriodmacPeriodsyncPerioddamsyncservicePeriodsyncPeriodrenditions
+            , 
+            
+            int comPeriodadobePeriodcqPerioddamPeriodmacPeriodsyncPerioddamsyncservicePeriodreplicatePeriodthreadPeriodwaitPeriodms
+            , 
+            
+            std::string comPeriodadobePeriodcqPerioddamPeriodmacPeriodsyncPerioddamsyncservicePeriodplatform
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param nuiEnabled 
+    * \param nuiServiceUrl 
+    * \param nuiApiKey 
+    */
+    Response<
+                ComAdobeCqDamProcessorNuiImplNuiAssetProcessorInfo
+        >
+    comAdobeCqDamProcessorNuiImplNuiAssetProcessor(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool nuiEnabled
+            , 
+            
+            std::string nuiServiceUrl
+            , 
+            
+            std::string nuiApiKey
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param tcpPort 
+    * \param allowRemoteAccess 
+    * \param maxRenderRgnPixels 
+    * \param maxMessageSize 
+    * \param randomAccessUrlTimeout 
+    * \param workerThreads 
+    */
+    Response<
+                ComAdobeCqDamS7imagingImplIsImageServerComponentInfo
+        >
+    comAdobeCqDamS7imagingImplIsImageServerComponent(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string tcpPort
+            , 
+            
+            bool allowRemoteAccess
+            , 
+            
+            std::string maxRenderRgnPixels
+            , 
+            
+            std::string maxMessageSize
+            , 
+            
+            int randomAccessUrlTimeout
+            , 
+            
+            int workerThreads
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param cachePeriodenable 
+    * \param cachePeriodrootPaths 
+    * \param cachePeriodmaxSize 
+    * \param cachePeriodmaxEntries 
+    */
+    Response<
+                ComAdobeCqDamS7imagingImplPsPlatformServerServletInfo
+        >
+    comAdobeCqDamS7imagingImplPsPlatformServerServlet(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool cachePeriodenable
+            , 
+            std::list<std::string> cachePeriodrootPaths
+            
+            , 
+            
+            int cachePeriodmaxSize
+            , 
+            
+            int cachePeriodmaxEntries
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param servicePeriodranking 
+    * \param pathPrefix 
+    * \param createVersion 
+    */
+    Response<
+                ComAdobeCqDamWebdavImplIoAssetIOHandlerInfo
+        >
+    comAdobeCqDamWebdavImplIoAssetIOHandler(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int servicePeriodranking
+            , 
+            
+            std::string pathPrefix
+            , 
+            
+            bool createVersion
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param cqPerioddamPeriodwebdavPeriodversionPeriodlinkingPeriodenable 
+    * \param cqPerioddamPeriodwebdavPeriodversionPeriodlinkingPeriodschedulerPeriodperiod 
+    * \param cqPerioddamPeriodwebdavPeriodversionPeriodlinkingPeriodstagingPeriodtimeout 
+    */
+    Response<
+                ComAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJobInfo
+        >
+    comAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJob(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool cqPerioddamPeriodwebdavPeriodversionPeriodlinkingPeriodenable
+            , 
+            
+            int cqPerioddamPeriodwebdavPeriodversionPeriodlinkingPeriodschedulerPeriodperiod
+            , 
+            
+            int cqPerioddamPeriodwebdavPeriodversionPeriodlinkingPeriodstagingPeriodtimeout
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param comPerioddayPeriodcqPerioddamPeriodcorePeriodimplPeriodioPeriodSpecialFilesHandlerPeriodfilepatters 
+    */
+    Response<
+                ComAdobeCqDamWebdavImplIoSpecialFilesHandlerInfo
+        >
+    comAdobeCqDamWebdavImplIoSpecialFilesHandler(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> comPerioddayPeriodcqPerioddamPeriodcorePeriodimplPeriodioPeriodSpecialFilesHandlerPeriodfilepatters
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param firewallPerioddeserializationPeriodwhitelist 
+    * \param firewallPerioddeserializationPeriodblacklist 
+    * \param firewallPerioddeserializationPerioddiagnostics 
+    */
+    Response<
+                ComAdobeCqDeserfwImplDeserializationFirewallImplInfo
+        >
+    comAdobeCqDeserfwImplDeserializationFirewallImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> firewallPerioddeserializationPeriodwhitelist
+            
+            , 
+            std::list<std::string> firewallPerioddeserializationPeriodblacklist
+            
+            , 
+            
+            std::string firewallPerioddeserializationPerioddiagnostics
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param connectionPeriodtimeout 
+    * \param socketPeriodtimeout 
+    */
+    Response<
+                ComAdobeCqDtmImplServiceDTMWebServiceImplInfo
+        >
+    comAdobeCqDtmImplServiceDTMWebServiceImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int connectionPeriodtimeout
+            , 
+            
+            int socketPeriodtimeout
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param dtmPeriodstagingPeriodipPeriodwhitelist 
+    * \param dtmPeriodproductionPeriodipPeriodwhitelist 
+    */
+    Response<
+                ComAdobeCqDtmImplServletsDTMDeployHookServletInfo
+        >
+    comAdobeCqDtmImplServletsDTMDeployHookServlet(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> dtmPeriodstagingPeriodipPeriodwhitelist
+            
+            , 
+            std::list<std::string> dtmPeriodproductionPeriodipPeriodwhitelist
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param endpointUri 
+    * \param connectionTimeout 
+    * \param socketTimeout 
+    */
+    Response<
+                ComAdobeCqDtmReactorImplServiceWebServiceImplInfo
+        >
+    comAdobeCqDtmReactorImplServiceWebServiceImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string endpointUri
+            , 
+            
+            int connectionTimeout
+            , 
+            
+            int socketTimeout
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param enabled 
+    * \param disabledForGroups 
+    */
+    Response<
+                ComAdobeCqExperiencelogImplExperienceLogConfigServletInfo
+        >
+    comAdobeCqExperiencelogImplExperienceLogConfigServlet(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool enabled
+            , 
+            std::list<std::string> disabledForGroups
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param hcPeriodname 
+    * \param hcPeriodtags 
+    * \param hcPeriodmbeanPeriodname 
+    * \param packagePeriodnames 
+    */
+    Response<
+                ComAdobeCqHcContentPackagesHealthCheckInfo
+        >
+    comAdobeCqHcContentPackagesHealthCheck(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string hcPeriodname
+            , 
+            std::list<std::string> hcPeriodtags
+            
+            , 
+            
+            std::string hcPeriodmbeanPeriodname
+            , 
+            std::list<std::string> packagePeriodnames
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param historyPeriodrequestFilterPeriodexcludedSelectors 
+    * \param historyPeriodrequestFilterPeriodexcludedExtensions 
+    */
+    Response<
+                ComAdobeCqHistoryImplHistoryRequestFilterInfo
+        >
+    comAdobeCqHistoryImplHistoryRequestFilter(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> historyPeriodrequestFilterPeriodexcludedSelectors
+            
+            , 
+            std::list<std::string> historyPeriodrequestFilterPeriodexcludedExtensions
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param historyPeriodservicePeriodresourceTypes 
+    * \param historyPeriodservicePeriodpathFilter 
+    */
+    Response<
+                ComAdobeCqHistoryImplHistoryServiceImplInfo
+        >
+    comAdobeCqHistoryImplHistoryServiceImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> historyPeriodservicePeriodresourceTypes
+            
+            , 
+            std::list<std::string> historyPeriodservicePeriodpathFilter
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param inboxPeriodimplPeriodtypeproviderPeriodregistrypaths 
+    * \param inboxPeriodimplPeriodtypeproviderPeriodlegacypaths 
+    * \param inboxPeriodimplPeriodtypeproviderPerioddefaulturlPeriodfailureitem 
+    * \param inboxPeriodimplPeriodtypeproviderPerioddefaulturlPeriodworkitem 
+    * \param inboxPeriodimplPeriodtypeproviderPerioddefaulturlPeriodtask 
+    */
+    Response<
+                ComAdobeCqInboxImplTypeproviderItemTypeProviderInfo
+        >
+    comAdobeCqInboxImplTypeproviderItemTypeProvider(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> inboxPeriodimplPeriodtypeproviderPeriodregistrypaths
+            
+            , 
+            std::list<std::string> inboxPeriodimplPeriodtypeproviderPeriodlegacypaths
+            
+            , 
+            
+            std::string inboxPeriodimplPeriodtypeproviderPerioddefaulturlPeriodfailureitem
+            , 
+            
+            std::string inboxPeriodimplPeriodtypeproviderPerioddefaulturlPeriodworkitem
+            , 
+            
+            std::string inboxPeriodimplPeriodtypeproviderPerioddefaulturlPeriodtask
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param imagePeriodquality 
+    * \param imagePeriodsupportedPeriodresolutions 
+    */
+    Response<
+                ComAdobeCqProjectsImplServletProjectImageServletInfo
+        >
+    comAdobeCqProjectsImplServletProjectImageServlet(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string imagePeriodquality
+            , 
+            
+            std::string imagePeriodsupportedPeriodresolutions
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param scheduledpurgePeriodname 
+    * \param scheduledpurgePeriodpurgeActive 
+    * \param scheduledpurgePeriodtemplates 
+    * \param scheduledpurgePeriodpurgeGroups 
+    * \param scheduledpurgePeriodpurgeAssets 
+    * \param scheduledpurgePeriodterminateRunningWorkflows 
+    * \param scheduledpurgePerioddaysold 
+    * \param scheduledpurgePeriodsaveThreshold 
+    */
+    Response<
+                ComAdobeCqProjectsPurgeSchedulerInfo
+        >
+    comAdobeCqProjectsPurgeScheduler(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string scheduledpurgePeriodname
+            , 
+            
+            bool scheduledpurgePeriodpurgeActive
+            , 
+            std::list<std::string> scheduledpurgePeriodtemplates
+            
+            , 
+            
+            bool scheduledpurgePeriodpurgeGroups
+            , 
+            
+            bool scheduledpurgePeriodpurgeAssets
+            , 
+            
+            bool scheduledpurgePeriodterminateRunningWorkflows
+            , 
+            
+            int scheduledpurgePerioddaysold
+            , 
+            
+            int scheduledpurgePeriodsaveThreshold
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param includePeriodpaths 
+    * \param exporterPerioduser 
+    */
+    Response<
+                ComAdobeCqScheduledExporterImplScheduledExporterImplInfo
+        >
+    comAdobeCqScheduledExporterImplScheduledExporterImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> includePeriodpaths
+            
+            , 
+            
+            std::string exporterPerioduser
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param comPeriodadobePeriodcqPeriodscreensPeriodanalyticsPeriodimplPeriodurl 
+    * \param comPeriodadobePeriodcqPeriodscreensPeriodanalyticsPeriodimplPeriodapikey 
+    * \param comPeriodadobePeriodcqPeriodscreensPeriodanalyticsPeriodimplPeriodproject 
+    * \param comPeriodadobePeriodcqPeriodscreensPeriodanalyticsPeriodimplPeriodenvironment 
+    * \param comPeriodadobePeriodcqPeriodscreensPeriodanalyticsPeriodimplPeriodsendFrequency 
+    */
+    Response<
+                ComAdobeCqScreensAnalyticsImplScreensAnalyticsServiceImplInfo
+        >
+    comAdobeCqScreensAnalyticsImplScreensAnalyticsServiceImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string comPeriodadobePeriodcqPeriodscreensPeriodanalyticsPeriodimplPeriodurl
+            , 
+            
+            std::string comPeriodadobePeriodcqPeriodscreensPeriodanalyticsPeriodimplPeriodapikey
+            , 
+            
+            std::string comPeriodadobePeriodcqPeriodscreensPeriodanalyticsPeriodimplPeriodproject
+            , 
+            
+            std::string comPeriodadobePeriodcqPeriodscreensPeriodanalyticsPeriodimplPeriodenvironment
+            , 
+            
+            int comPeriodadobePeriodcqPeriodscreensPeriodanalyticsPeriodimplPeriodsendFrequency
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param comPeriodadobePeriodaemPeriodscreensPeriodplayerPeriodpingfrequency 
+    * \param comPeriodadobePeriodaemPeriodscreensPerioddevicePeriodpaswordPeriodspecialchars 
+    * \param comPeriodadobePeriodaemPeriodscreensPerioddevicePeriodpaswordPeriodminlowercasechars 
+    * \param comPeriodadobePeriodaemPeriodscreensPerioddevicePeriodpaswordPeriodminuppercasechars 
+    * \param comPeriodadobePeriodaemPeriodscreensPerioddevicePeriodpaswordPeriodminnumberchars 
+    * \param comPeriodadobePeriodaemPeriodscreensPerioddevicePeriodpaswordPeriodminspecialchars 
+    * \param comPeriodadobePeriodaemPeriodscreensPerioddevicePeriodpaswordPeriodminlength 
+    */
+    Response<
+                ComAdobeCqScreensDeviceImplDeviceServiceInfo
+        >
+    comAdobeCqScreensDeviceImplDeviceService(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int comPeriodadobePeriodaemPeriodscreensPeriodplayerPeriodpingfrequency
+            , 
+            
+            std::string comPeriodadobePeriodaemPeriodscreensPerioddevicePeriodpaswordPeriodspecialchars
+            , 
+            
+            int comPeriodadobePeriodaemPeriodscreensPerioddevicePeriodpaswordPeriodminlowercasechars
+            , 
+            
+            int comPeriodadobePeriodaemPeriodscreensPerioddevicePeriodpaswordPeriodminuppercasechars
+            , 
+            
+            int comPeriodadobePeriodaemPeriodscreensPerioddevicePeriodpaswordPeriodminnumberchars
+            , 
+            
+            int comPeriodadobePeriodaemPeriodscreensPerioddevicePeriodpaswordPeriodminspecialchars
+            , 
+            
+            int comPeriodadobePeriodaemPeriodscreensPerioddevicePeriodpaswordPeriodminlength
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param deviceRegistrationTimeout 
+    */
+    Response<
+                ComAdobeCqScreensDeviceRegistrationImplRegistrationServiceImplInfo
+        >
+    comAdobeCqScreensDeviceRegistrationImplRegistrationServiceImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int deviceRegistrationTimeout
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param cqPeriodpagesupdatehandlerPeriodimageresourcetypes 
+    * \param cqPeriodpagesupdatehandlerPeriodproductresourcetypes 
+    * \param cqPeriodpagesupdatehandlerPeriodvideoresourcetypes 
+    * \param cqPeriodpagesupdatehandlerPerioddynamicsequenceresourcetypes 
+    * \param cqPeriodpagesupdatehandlerPeriodpreviewmodepaths 
+    */
+    Response<
+                ComAdobeCqScreensImplHandlerChannelsUpdateHandlerInfo
+        >
+    comAdobeCqScreensImplHandlerChannelsUpdateHandler(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> cqPeriodpagesupdatehandlerPeriodimageresourcetypes
+            
+            , 
+            std::list<std::string> cqPeriodpagesupdatehandlerPeriodproductresourcetypes
+            
+            , 
+            std::list<std::string> cqPeriodpagesupdatehandlerPeriodvideoresourcetypes
+            
+            , 
+            std::list<std::string> cqPeriodpagesupdatehandlerPerioddynamicsequenceresourcetypes
+            
+            , 
+            std::list<std::string> cqPeriodpagesupdatehandlerPeriodpreviewmodepaths
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param schedulerPeriodexpression 
+    */
+    Response<
+                ComAdobeCqScreensImplJobsDistributedDevicesStatiUpdateJobInfo
+        >
+    comAdobeCqScreensImplJobsDistributedDevicesStatiUpdateJob(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string schedulerPeriodexpression
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param comPeriodadobePeriodaemPeriodscreensPeriodimplPeriodremotePeriodrequestTimeout 
+    */
+    Response<
+                ComAdobeCqScreensImplRemoteImplDistributedHttpClientImplInfo
+        >
+    comAdobeCqScreensImplRemoteImplDistributedHttpClientImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int comPeriodadobePeriodaemPeriodscreensPeriodimplPeriodremotePeriodrequestTimeout
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param screensPeriodchannelsPeriodpropertiesPeriodtoPeriodremove 
+    */
+    Response<
+                ComAdobeCqScreensImplScreensChannelPostProcessorInfo
+        >
+    comAdobeCqScreensImplScreensChannelPostProcessor(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> screensPeriodchannelsPeriodpropertiesPeriodtoPeriodremove
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param comPeriodadobePeriodcqPeriodscreensPeriodmonitoringPeriodimplPeriodScreensMonitoringServiceImplPeriodprojectPath 
+    * \param comPeriodadobePeriodcqPeriodscreensPeriodmonitoringPeriodimplPeriodScreensMonitoringServiceImplPeriodscheduleFrequency 
+    * \param comPeriodadobePeriodcqPeriodscreensPeriodmonitoringPeriodimplPeriodScreensMonitoringServiceImplPeriodpingTimeout 
+    * \param comPeriodadobePeriodcqPeriodscreensPeriodmonitoringPeriodimplPeriodScreensMonitoringServiceImplPeriodrecipients 
+    * \param comPeriodadobePeriodcqPeriodscreensPeriodmonitoringPeriodimplPeriodScreensMonitoringServiceImplPeriodsmtpserver 
+    * \param comPeriodadobePeriodcqPeriodscreensPeriodmonitoringPeriodimplPeriodScreensMonitoringServiceImplPeriodsmtpport 
+    * \param comPeriodadobePeriodcqPeriodscreensPeriodmonitoringPeriodimplPeriodScreensMonitoringServiceImplPeriodusetls 
+    * \param comPeriodadobePeriodcqPeriodscreensPeriodmonitoringPeriodimplPeriodScreensMonitoringServiceImplPeriodusername 
+    * \param comPeriodadobePeriodcqPeriodscreensPeriodmonitoringPeriodimplPeriodScreensMonitoringServiceImplPeriodpassword 
+    */
+    Response<
+                ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplInfo
+        >
+    comAdobeCqScreensMonitoringImplScreensMonitoringServiceImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> comPeriodadobePeriodcqPeriodscreensPeriodmonitoringPeriodimplPeriodScreensMonitoringServiceImplPeriodprojectPath
+            
+            , 
+            
+            std::string comPeriodadobePeriodcqPeriodscreensPeriodmonitoringPeriodimplPeriodScreensMonitoringServiceImplPeriodscheduleFrequency
+            , 
+            
+            int comPeriodadobePeriodcqPeriodscreensPeriodmonitoringPeriodimplPeriodScreensMonitoringServiceImplPeriodpingTimeout
+            , 
+            
+            std::string comPeriodadobePeriodcqPeriodscreensPeriodmonitoringPeriodimplPeriodScreensMonitoringServiceImplPeriodrecipients
+            , 
+            
+            std::string comPeriodadobePeriodcqPeriodscreensPeriodmonitoringPeriodimplPeriodScreensMonitoringServiceImplPeriodsmtpserver
+            , 
+            
+            int comPeriodadobePeriodcqPeriodscreensPeriodmonitoringPeriodimplPeriodScreensMonitoringServiceImplPeriodsmtpport
+            , 
+            
+            bool comPeriodadobePeriodcqPeriodscreensPeriodmonitoringPeriodimplPeriodScreensMonitoringServiceImplPeriodusetls
+            , 
+            
+            std::string comPeriodadobePeriodcqPeriodscreensPeriodmonitoringPeriodimplPeriodScreensMonitoringServiceImplPeriodusername
+            , 
+            
+            std::string comPeriodadobePeriodcqPeriodscreensPeriodmonitoringPeriodimplPeriodScreensMonitoringServiceImplPeriodpassword
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param servicePeriodranking 
+    * \param globalPeriodsize 
+    * \param maxPerioddiskPeriodusage 
+    * \param persistencePeriodenabled 
+    * \param threadPeriodpoolPeriodmaxPeriodsize 
+    * \param scheduledPeriodthreadPeriodpoolPeriodmaxPeriodsize 
+    * \param gracefulPeriodshutdownPeriodtimeout 
+    * \param queues 
+    * \param topics 
+    * \param addressesPeriodmaxPerioddeliveryPeriodattempts 
+    * \param addressesPeriodexpiryPerioddelay 
+    * \param addressesPeriodaddressPeriodfullPeriodmessagePeriodpolicy 
+    * \param addressesPeriodmaxPeriodsizePeriodbytes 
+    * \param addressesPeriodpagePeriodsizePeriodbytes 
+    * \param addressesPeriodpagePeriodcachePeriodmaxPeriodsize 
+    * \param clusterPerioduser 
+    * \param clusterPeriodpassword 
+    * \param clusterPeriodcallPeriodtimeout 
+    * \param clusterPeriodcallPeriodfailoverPeriodtimeout 
+    * \param clusterPeriodclientPeriodfailurePeriodcheckPeriodperiod 
+    * \param clusterPeriodnotificationPeriodattempts 
+    * \param clusterPeriodnotificationPeriodinterval 
+    * \param idPeriodcachePeriodsize 
+    * \param clusterPeriodconfirmationPeriodwindowPeriodsize 
+    * \param clusterPeriodconnectionPeriodttl 
+    * \param clusterPeriodduplicatePerioddetection 
+    * \param clusterPeriodinitialPeriodconnectPeriodattempts 
+    * \param clusterPeriodmaxPeriodretryPeriodinterval 
+    * \param clusterPeriodminPeriodlargePeriodmessagePeriodsize 
+    * \param clusterPeriodproducerPeriodwindowPeriodsize 
+    * \param clusterPeriodreconnectPeriodattempts 
+    * \param clusterPeriodretryPeriodinterval 
+    * \param clusterPeriodretryPeriodintervalPeriodmultiplier 
+    */
+    Response<
+                ComAdobeCqScreensMqActivemqImplArtemisJMSProviderInfo
+        >
+    comAdobeCqScreensMqActivemqImplArtemisJMSProvider(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int servicePeriodranking
+            , 
+            
+            int globalPeriodsize
+            , 
+            
+            int maxPerioddiskPeriodusage
+            , 
+            
+            bool persistencePeriodenabled
+            , 
+            
+            int threadPeriodpoolPeriodmaxPeriodsize
+            , 
+            
+            int scheduledPeriodthreadPeriodpoolPeriodmaxPeriodsize
+            , 
+            
+            int gracefulPeriodshutdownPeriodtimeout
+            , 
+            std::list<std::string> queues
+            
+            , 
+            std::list<std::string> topics
+            
+            , 
+            
+            int addressesPeriodmaxPerioddeliveryPeriodattempts
+            , 
+            
+            int addressesPeriodexpiryPerioddelay
+            , 
+            
+            std::string addressesPeriodaddressPeriodfullPeriodmessagePeriodpolicy
+            , 
+            
+            int addressesPeriodmaxPeriodsizePeriodbytes
+            , 
+            
+            int addressesPeriodpagePeriodsizePeriodbytes
+            , 
+            
+            int addressesPeriodpagePeriodcachePeriodmaxPeriodsize
+            , 
+            
+            std::string clusterPerioduser
+            , 
+            
+            std::string clusterPeriodpassword
+            , 
+            
+            int clusterPeriodcallPeriodtimeout
+            , 
+            
+            int clusterPeriodcallPeriodfailoverPeriodtimeout
+            , 
+            
+            int clusterPeriodclientPeriodfailurePeriodcheckPeriodperiod
+            , 
+            
+            int clusterPeriodnotificationPeriodattempts
+            , 
+            
+            int clusterPeriodnotificationPeriodinterval
+            , 
+            
+            int idPeriodcachePeriodsize
+            , 
+            
+            int clusterPeriodconfirmationPeriodwindowPeriodsize
+            , 
+            
+            int clusterPeriodconnectionPeriodttl
+            , 
+            
+            bool clusterPeriodduplicatePerioddetection
+            , 
+            
+            int clusterPeriodinitialPeriodconnectPeriodattempts
+            , 
+            
+            int clusterPeriodmaxPeriodretryPeriodinterval
+            , 
+            
+            int clusterPeriodminPeriodlargePeriodmessagePeriodsize
+            , 
+            
+            int clusterPeriodproducerPeriodwindowPeriodsize
+            , 
+            
+            int clusterPeriodreconnectPeriodattempts
+            , 
+            
+            int clusterPeriodretryPeriodinterval
+            , 
+            
+            long clusterPeriodretryPeriodintervalPeriodmultiplier
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param comPeriodadobePeriodcqPeriodscreensPeriodofflinecontentPeriodimplPeriodBulkOfflineUpdateServiceImplPeriodprojectPath 
+    * \param comPeriodadobePeriodcqPeriodscreensPeriodofflinecontentPeriodimplPeriodBulkOfflineUpdateServiceImplPeriodscheduleFrequency 
+    */
+    Response<
+                ComAdobeCqScreensOfflinecontentImplBulkOfflineUpdateServiceImplInfo
+        >
+    comAdobeCqScreensOfflinecontentImplBulkOfflineUpdateServiceImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> comPeriodadobePeriodcqPeriodscreensPeriodofflinecontentPeriodimplPeriodBulkOfflineUpdateServiceImplPeriodprojectPath
+            
+            , 
+            
+            std::string comPeriodadobePeriodcqPeriodscreensPeriodofflinecontentPeriodimplPeriodBulkOfflineUpdateServiceImplPeriodscheduleFrequency
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param disableSmartSync 
+    */
+    Response<
+                ComAdobeCqScreensOfflinecontentImplOfflineContentServiceImplInfo
+        >
+    comAdobeCqScreensOfflinecontentImplOfflineContentServiceImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool disableSmartSync
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param enableDataTriggeredContent 
+    */
+    Response<
+                ComAdobeCqScreensSegmentationImplSegmentationFeatureFlagInfo
+        >
+    comAdobeCqScreensSegmentationImplSegmentationFeatureFlag(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool enableDataTriggeredContent
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param hcPeriodtags 
+    */
+    Response<
+                ComAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthChInfo
+        >
+    comAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthCh(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> hcPeriodtags
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param hcPeriodtags 
+    */
+    Response<
+                ComAdobeCqSecurityHcBundlesImplWcmFilterHealthCheckInfo
+        >
+    comAdobeCqSecurityHcBundlesImplWcmFilterHealthCheck(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> hcPeriodtags
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param hcPeriodtags 
+    * \param dispatcherPeriodaddress 
+    * \param dispatcherPeriodfilterPeriodallowed 
+    * \param dispatcherPeriodfilterPeriodblocked 
+    */
+    Response<
+                ComAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheckInfo
+        >
+    comAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheck(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> hcPeriodtags
+            
+            , 
+            
+            std::string dispatcherPeriodaddress
+            , 
+            std::list<std::string> dispatcherPeriodfilterPeriodallowed
+            
+            , 
+            std::list<std::string> dispatcherPeriodfilterPeriodblocked
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param hcPeriodtags 
+    */
+    Response<
+                ComAdobeCqSecurityHcPackagesImplExampleContentHealthCheckInfo
+        >
+    comAdobeCqSecurityHcPackagesImplExampleContentHealthCheck(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> hcPeriodtags
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param hcPeriodtags 
+    * \param webserverPeriodaddress 
+    */
+    Response<
+                ComAdobeCqSecurityHcWebserverImplClickjackingHealthCheckInfo
+        >
+    comAdobeCqSecurityHcWebserverImplClickjackingHealthCheck(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> hcPeriodtags
+            
+            , 
+            
+            std::string webserverPeriodaddress
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param enable 
+    * \param ttl1 
+    * \param ttl2 
+    */
+    Response<
+                ComAdobeCqSocialAccountverificationImplAccountManagementConfigImInfo
+        >
+    comAdobeCqSocialAccountverificationImplAccountManagementConfigIm(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool enable
+            , 
+            
+            int ttl1
+            , 
+            
+            int ttl2
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param priority 
+    */
+    Response<
+                ComAdobeCqSocialActivitystreamsClientImplSocialActivityComponenInfo
+        >
+    comAdobeCqSocialActivitystreamsClientImplSocialActivityComponen(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int priority
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param priority 
+    */
+    Response<
+                ComAdobeCqSocialActivitystreamsClientImplSocialActivityStreamCoInfo
+        >
+    comAdobeCqSocialActivitystreamsClientImplSocialActivityStreamCo(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int priority
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param eventPeriodtopics 
+    * \param eventPeriodfilter 
+    */
+    Response<
+                ComAdobeCqSocialActivitystreamsListenerImplEventListenerHandlerInfo
+        >
+    comAdobeCqSocialActivitystreamsListenerImplEventListenerHandler(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string eventPeriodtopics
+            , 
+            
+            std::string eventPeriodfilter
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param accepted 
+    * \param ranked 
+    */
+    Response<
+                ComAdobeCqSocialActivitystreamsListenerImplModerationEventExtenInfo
+        >
+    comAdobeCqSocialActivitystreamsListenerImplModerationEventExten(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool accepted
+            , 
+            
+            int ranked
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param ranking 
+    * \param enable 
+    */
+    Response<
+                ComAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySInfo
+        >
+    comAdobeCqSocialActivitystreamsListenerImplRatingEventActivityS(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int ranking
+            , 
+            
+            bool enable
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param streamPath 
+    * \param streamName 
+    */
+    Response<
+                ComAdobeCqSocialActivitystreamsListenerImplResourceActivityStreInfo
+        >
+    comAdobeCqSocialActivitystreamsListenerImplResourceActivityStre(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string streamPath
+            , 
+            
+            std::string streamName
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param maxRetry 
+    * \param fieldWhitelist 
+    * \param attachmentTypeBlacklist 
+    */
+    Response<
+                ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsIInfo
+        >
+    comAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsI(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int maxRetry
+            , 
+            std::list<std::string> fieldWhitelist
+            
+            , 
+            std::list<std::string> attachmentTypeBlacklist
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param attachmentTypeBlacklist 
+    * \param extensionPeriodorder 
+    */
+    Response<
+                ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmenInfo
+        >
+    comAdobeCqSocialCalendarClientOperationextensionsEventAttachmen(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string attachmentTypeBlacklist
+            , 
+            
+            int extensionPeriodorder
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param timezonesPeriodexpirytime 
+    */
+    Response<
+                ComAdobeCqSocialCalendarServletsTimeZoneServletInfo
+        >
+    comAdobeCqSocialCalendarServletsTimeZoneServlet(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int timezonesPeriodexpirytime
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param ranking 
+    */
+    Response<
+                ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventInfo
+        >
+    comAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEvent(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int ranking
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param fieldWhitelist 
+    * \param attachmentTypeBlacklist 
+    */
+    Response<
+                ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSeInfo
+        >
+    comAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSe(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> fieldWhitelist
+            
+            , 
+            std::list<std::string> attachmentTypeBlacklist
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param fieldWhitelist 
+    * \param attachmentTypeBlacklist 
+    */
+    Response<
+                ComAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperatiInfo
+        >
+    comAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperati(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> fieldWhitelist
+            
+            , 
+            std::list<std::string> attachmentTypeBlacklist
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param numUserLimit 
+    */
+    Response<
+                ComAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialCInfo
+        >
+    comAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialC(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int numUserLimit
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param enableScheduledPostsSearch 
+    * \param numberOfMinutes 
+    * \param maxSearchLimit 
+    */
+    Response<
+                ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosInfo
+        >
+    comAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPos(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool enableScheduledPostsSearch
+            , 
+            
+            int numberOfMinutes
+            , 
+            
+            int maxSearchLimit
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param corsPeriodenabling 
+    */
+    Response<
+                ComAdobeCqSocialCommonsCorsCORSAuthenticationFilterInfo
+        >
+    comAdobeCqSocialCommonsCorsCORSAuthenticationFilter(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool corsPeriodenabling
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param priorityOrder 
+    * \param replyEmailPatterns 
+    */
+    Response<
+                ComAdobeCqSocialCommonsEmailreplyImplAndroidEmailClientProviderInfo
+        >
+    comAdobeCqSocialCommonsEmailreplyImplAndroidEmailClientProvider(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int priorityOrder
+            , 
+            std::list<std::string> replyEmailPatterns
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param contextPeriodpath 
+    */
+    Response<
+                ComAdobeCqSocialCommonsEmailreplyImplCommentEmailBuilderImplInfo
+        >
+    comAdobeCqSocialCommonsEmailreplyImplCommentEmailBuilderImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string contextPeriodpath
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param eventPeriodtopics 
+    */
+    Response<
+                ComAdobeCqSocialCommonsEmailreplyImplCommentEmailEventListenerInfo
+        >
+    comAdobeCqSocialCommonsEmailreplyImplCommentEmailEventListener(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string eventPeriodtopics
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param priorityOrder 
+    * \param replyEmailPatterns 
+    */
+    Response<
+                ComAdobeCqSocialCommonsEmailreplyImplCustomEmailClientProviderInfo
+        >
+    comAdobeCqSocialCommonsEmailreplyImplCustomEmailClientProvider(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int priorityOrder
+            , 
+            std::list<std::string> replyEmailPatterns
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param patternPeriodtime 
+    * \param patternPeriodnewline 
+    * \param patternPerioddayOfMonth 
+    * \param patternPeriodmonth 
+    * \param patternPeriodyear 
+    * \param patternPerioddate 
+    * \param patternPerioddateTime 
+    * \param patternPeriodemail 
+    */
+    Response<
+                ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpInfo
+        >
+    comAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImp(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string patternPeriodtime
+            , 
+            
+            std::string patternPeriodnewline
+            , 
+            
+            std::string patternPerioddayOfMonth
+            , 
+            
+            std::string patternPeriodmonth
+            , 
+            
+            std::string patternPeriodyear
+            , 
+            
+            std::string patternPerioddate
+            , 
+            
+            std::string patternPerioddateTime
+            , 
+            
+            std::string patternPeriodemail
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param emailPeriodname 
+    * \param emailPeriodcreatePostFromReply 
+    * \param emailPeriodaddCommentIdTo 
+    * \param emailPeriodsubjectMaximumLength 
+    * \param emailPeriodreplyToAddress 
+    * \param emailPeriodreplyToDelimiter 
+    * \param emailPeriodtrackerIdPrefixInSubject 
+    * \param emailPeriodtrackerIdPrefixInBody 
+    * \param emailPeriodasHTML 
+    * \param emailPerioddefaultUserName 
+    * \param emailPeriodtemplatesPeriodrootPath 
+    */
+    Response<
+                ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpInfo
+        >
+    comAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImp(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string emailPeriodname
+            , 
+            
+            bool emailPeriodcreatePostFromReply
+            , 
+            
+            std::string emailPeriodaddCommentIdTo
+            , 
+            
+            int emailPeriodsubjectMaximumLength
+            , 
+            
+            std::string emailPeriodreplyToAddress
+            , 
+            
+            std::string emailPeriodreplyToDelimiter
+            , 
+            
+            std::string emailPeriodtrackerIdPrefixInSubject
+            , 
+            
+            std::string emailPeriodtrackerIdPrefixInBody
+            , 
+            
+            bool emailPeriodasHTML
+            , 
+            
+            std::string emailPerioddefaultUserName
+            , 
+            
+            std::string emailPeriodtemplatesPeriodrootPath
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param connectProtocol 
+    */
+    Response<
+                ComAdobeCqSocialCommonsEmailreplyImplEmailReplyImporterInfo
+        >
+    comAdobeCqSocialCommonsEmailreplyImplEmailReplyImporter(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string connectProtocol
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param priorityOrder 
+    * \param replyEmailPatterns 
+    */
+    Response<
+                ComAdobeCqSocialCommonsEmailreplyImplGmailEmailClientProviderInfo
+        >
+    comAdobeCqSocialCommonsEmailreplyImplGmailEmailClientProvider(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int priorityOrder
+            , 
+            std::list<std::string> replyEmailPatterns
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param priorityOrder 
+    * \param replyEmailPatterns 
+    */
+    Response<
+                ComAdobeCqSocialCommonsEmailreplyImplIOSEmailClientProviderInfo
+        >
+    comAdobeCqSocialCommonsEmailreplyImplIOSEmailClientProvider(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int priorityOrder
+            , 
+            std::list<std::string> replyEmailPatterns
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param priorityOrder 
+    * \param replyEmailPatterns 
+    */
+    Response<
+                ComAdobeCqSocialCommonsEmailreplyImplMacmailEmailClientProviderInfo
+        >
+    comAdobeCqSocialCommonsEmailreplyImplMacmailEmailClientProvider(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int priorityOrder
+            , 
+            std::list<std::string> replyEmailPatterns
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param priorityOrder 
+    * \param replyEmailPatterns 
+    */
+    Response<
+                ComAdobeCqSocialCommonsEmailreplyImplOutLookEmailClientProviderInfo
+        >
+    comAdobeCqSocialCommonsEmailreplyImplOutLookEmailClientProvider(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int priorityOrder
+            , 
+            std::list<std::string> replyEmailPatterns
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param replyEmailPatterns 
+    * \param priorityOrder 
+    */
+    Response<
+                ComAdobeCqSocialCommonsEmailreplyImplUnknownEmailClientProviderInfo
+        >
+    comAdobeCqSocialCommonsEmailreplyImplUnknownEmailClientProvider(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> replyEmailPatterns
+            
+            , 
+            
+            int priorityOrder
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param priorityOrder 
+    * \param replyEmailPatterns 
+    */
+    Response<
+                ComAdobeCqSocialCommonsEmailreplyImplYahooEmailClientProviderInfo
+        >
+    comAdobeCqSocialCommonsEmailreplyImplYahooEmailClientProvider(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int priorityOrder
+            , 
+            std::list<std::string> replyEmailPatterns
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param numberOfDays 
+    * \param ageOfFile 
+    */
+    Response<
+                ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadInfo
+        >
+    comAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUpload(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int numberOfDays
+            , 
+            
+            int ageOfFile
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param eventPeriodtopics 
+    * \param eventPeriodfilter 
+    * \param verbs 
+    */
+    Response<
+                ComAdobeCqSocialCommonsUgclimiterImplUGCLimiterServiceImplInfo
+        >
+    comAdobeCqSocialCommonsUgclimiterImplUGCLimiterServiceImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string eventPeriodtopics
+            , 
+            
+            std::string eventPeriodfilter
+            , 
+            std::list<std::string> verbs
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param enable 
+    * \param uGCLimit 
+    * \param ugcLimitDuration 
+    * \param domains 
+    * \param toList 
+    */
+    Response<
+                ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitInfo
+        >
+    comAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimit(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool enable
+            , 
+            
+            int uGCLimit
+            , 
+            
+            int ugcLimitDuration
+            , 
+            std::list<std::string> domains
+            
+            , 
+            std::list<std::string> toList
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param oauthPeriodproviderPeriodid 
+    * \param oauthPeriodcloudPeriodconfigPeriodroot 
+    * \param providerPeriodconfigPeriodroot 
+    * \param providerPeriodconfigPeriodcreatePeriodtagsPeriodenabled 
+    * \param providerPeriodconfigPerioduserPeriodfolder 
+    * \param providerPeriodconfigPeriodfacebookPeriodfetchPeriodfields 
+    * \param providerPeriodconfigPeriodfacebookPeriodfields 
+    * \param providerPeriodconfigPeriodrefreshPerioduserdataPeriodenabled 
+    */
+    Response<
+                ComAdobeCqSocialConnectOauthImplFacebookProviderImplInfo
+        >
+    comAdobeCqSocialConnectOauthImplFacebookProviderImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string oauthPeriodproviderPeriodid
+            , 
+            
+            std::string oauthPeriodcloudPeriodconfigPeriodroot
+            , 
+            
+            std::string providerPeriodconfigPeriodroot
+            , 
+            
+            bool providerPeriodconfigPeriodcreatePeriodtagsPeriodenabled
+            , 
+            
+            std::string providerPeriodconfigPerioduserPeriodfolder
+            , 
+            
+            bool providerPeriodconfigPeriodfacebookPeriodfetchPeriodfields
+            , 
+            std::list<std::string> providerPeriodconfigPeriodfacebookPeriodfields
+            
+            , 
+            
+            bool providerPeriodconfigPeriodrefreshPerioduserdataPeriodenabled
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param path 
+    * \param servicePeriodranking 
+    */
+    Response<
+                ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandleInfo
+        >
+    comAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandle(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> path
+            
+            , 
+            
+            int servicePeriodranking
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param facebook 
+    * \param twitter 
+    * \param providerPeriodconfigPerioduserPeriodfolder 
+    */
+    Response<
+                ComAdobeCqSocialConnectOauthImplSocialOAuthUserProfileMapperInfo
+        >
+    comAdobeCqSocialConnectOauthImplSocialOAuthUserProfileMapper(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> facebook
+            
+            , 
+            std::list<std::string> twitter
+            
+            , 
+            
+            std::string providerPeriodconfigPerioduserPeriodfolder
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param oauthPeriodproviderPeriodid 
+    * \param oauthPeriodcloudPeriodconfigPeriodroot 
+    * \param providerPeriodconfigPeriodroot 
+    * \param providerPeriodconfigPerioduserPeriodfolder 
+    * \param providerPeriodconfigPeriodtwitterPeriodenablePeriodparams 
+    * \param providerPeriodconfigPeriodtwitterPeriodparams 
+    * \param providerPeriodconfigPeriodrefreshPerioduserdataPeriodenabled 
+    */
+    Response<
+                ComAdobeCqSocialConnectOauthImplTwitterProviderImplInfo
+        >
+    comAdobeCqSocialConnectOauthImplTwitterProviderImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string oauthPeriodproviderPeriodid
+            , 
+            
+            std::string oauthPeriodcloudPeriodconfigPeriodroot
+            , 
+            
+            std::string providerPeriodconfigPeriodroot
+            , 
+            
+            std::string providerPeriodconfigPerioduserPeriodfolder
+            , 
+            
+            bool providerPeriodconfigPeriodtwitterPeriodenablePeriodparams
+            , 
+            std::list<std::string> providerPeriodconfigPeriodtwitterPeriodparams
+            
+            , 
+            
+            bool providerPeriodconfigPeriodrefreshPerioduserdataPeriodenabled
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param cqPeriodsocialPeriodcontentPeriodfragmentsPeriodservicesPeriodenabled 
+    * \param cqPeriodsocialPeriodcontentPeriodfragmentsPeriodservicesPeriodwaitTimeSeconds 
+    */
+    Response<
+                ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmenInfo
+        >
+    comAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmen(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool cqPeriodsocialPeriodcontentPeriodfragmentsPeriodservicesPeriodenabled
+            , 
+            
+            int cqPeriodsocialPeriodcontentPeriodfragmentsPeriodservicesPeriodwaitTimeSeconds
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param versionPeriodid 
+    * \param cachePeriodon 
+    * \param concurrencyPeriodlevel 
+    * \param cachePeriodstartPeriodsize 
+    * \param cachePeriodttl 
+    * \param cachePeriodsize 
+    * \param timePeriodlimit 
+    */
+    Response<
+                ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryInfo
+        >
+    comAdobeCqSocialDatastoreAsImplASResourceProviderFactory(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string versionPeriodid
+            , 
+            
+            bool cachePeriodon
+            , 
+            
+            int concurrencyPeriodlevel
+            , 
+            
+            int cachePeriodstartPeriodsize
+            , 
+            
+            int cachePeriodttl
+            , 
+            
+            int cachePeriodsize
+            , 
+            
+            int timePeriodlimit
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param solrPeriodzkPeriodtimeout 
+    * \param solrPeriodcommit 
+    * \param cachePeriodon 
+    * \param concurrencyPeriodlevel 
+    * \param cachePeriodstartPeriodsize 
+    * \param cachePeriodttl 
+    * \param cachePeriodsize 
+    */
+    Response<
+                ComAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactoryInfo
+        >
+    comAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactory(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string solrPeriodzkPeriodtimeout
+            , 
+            
+            std::string solrPeriodcommit
+            , 
+            
+            bool cachePeriodon
+            , 
+            
+            int concurrencyPeriodlevel
+            , 
+            
+            int cachePeriodstartPeriodsize
+            , 
+            
+            int cachePeriodttl
+            , 
+            
+            int cachePeriodsize
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param solrPeriodzkPeriodtimeout 
+    * \param solrPeriodcommit 
+    * \param cachePeriodon 
+    * \param concurrencyPeriodlevel 
+    * \param cachePeriodstartPeriodsize 
+    * \param cachePeriodttl 
+    * \param cachePeriodsize 
+    */
+    Response<
+                ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorInfo
+        >
+    comAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactor(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string solrPeriodzkPeriodtimeout
+            , 
+            
+            std::string solrPeriodcommit
+            , 
+            
+            bool cachePeriodon
+            , 
+            
+            int concurrencyPeriodlevel
+            , 
+            
+            int cachePeriodstartPeriodsize
+            , 
+            
+            int cachePeriodttl
+            , 
+            
+            int cachePeriodsize
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param isMemberCheck 
+    */
+    Response<
+                ComAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorFInfo
+        >
+    comAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorF(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool isMemberCheck
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param isMemberCheck 
+    */
+    Response<
+                ComAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFactoInfo
+        >
+    comAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFacto(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool isMemberCheck
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param fieldWhitelist 
+    */
+    Response<
+                ComAdobeCqSocialEnablementLearningpathEndpointsImplEnablementLInfo
+        >
+    comAdobeCqSocialEnablementLearningpathEndpointsImplEnablementL(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> fieldWhitelist
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param fieldWhitelist 
+    */
+    Response<
+                ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouInfo
+        >
+    comAdobeCqSocialEnablementResourceEndpointsImplEnablementResou(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> fieldWhitelist
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param servicePeriodranking 
+    */
+    Response<
+                ComAdobeCqSocialEnablementServicesImplAuthorMarkerImplInfo
+        >
+    comAdobeCqSocialEnablementServicesImplAuthorMarkerImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int servicePeriodranking
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param slingPeriodservletPeriodselectors 
+    * \param slingPeriodservletPeriodextensions 
+    */
+    Response<
+                ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGeInfo
+        >
+    comAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGe(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string slingPeriodservletPeriodselectors
+            , 
+            
+            std::string slingPeriodservletPeriodextensions
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param fieldWhitelist 
+    * \param attachmentTypeBlacklist 
+    */
+    Response<
+                ComAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperaInfo
+        >
+    comAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOpera(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> fieldWhitelist
+            
+            , 
+            std::list<std::string> attachmentTypeBlacklist
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param fieldWhitelist 
+    * \param attachmentTypeBlacklist 
+    */
+    Response<
+                ComAdobeCqSocialForumClientEndpointsImplForumOperationsServiceInfo
+        >
+    comAdobeCqSocialForumClientEndpointsImplForumOperationsService(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> fieldWhitelist
+            
+            , 
+            std::list<std::string> attachmentTypeBlacklist
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param extensionPeriodorder 
+    * \param flushPeriodforumontopic 
+    */
+    Response<
+                ComAdobeCqSocialForumDispatcherImplFlushOperationsInfo
+        >
+    comAdobeCqSocialForumDispatcherImplFlushOperations(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int extensionPeriodorder
+            , 
+            
+            bool flushPeriodforumontopic
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param groupPeriodlistingPeriodpaginationPeriodenable 
+    * \param groupPeriodlistingPeriodlazyloadingPeriodenable 
+    * \param pagePeriodsize 
+    * \param priority 
+    */
+    Response<
+                ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenInfo
+        >
+    comAdobeCqSocialGroupClientImplCommunityGroupCollectionComponen(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool groupPeriodlistingPeriodpaginationPeriodenable
+            , 
+            
+            bool groupPeriodlistingPeriodlazyloadingPeriodenable
+            , 
+            
+            int pagePeriodsize
+            , 
+            
+            int priority
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param maxWaitTime 
+    * \param minWaitBetweenRetries 
+    */
+    Response<
+                ComAdobeCqSocialGroupImplGroupServiceImplInfo
+        >
+    comAdobeCqSocialGroupImplGroupServiceImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int maxWaitTime
+            , 
+            
+            int minWaitBetweenRetries
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param parameterPeriodguavaPeriodcachePeriodenabled 
+    * \param parameterPeriodguavaPeriodcachePeriodparams 
+    * \param parameterPeriodguavaPeriodcachePeriodreload 
+    * \param servicePeriodranking 
+    */
+    Response<
+                ComAdobeCqSocialHandlebarsGuavaTemplateCacheImplInfo
+        >
+    comAdobeCqSocialHandlebarsGuavaTemplateCacheImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool parameterPeriodguavaPeriodcachePeriodenabled
+            , 
+            
+            std::string parameterPeriodguavaPeriodcachePeriodparams
+            , 
+            
+            bool parameterPeriodguavaPeriodcachePeriodreload
+            , 
+            
+            int servicePeriodranking
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param fieldWhitelist 
+    * \param attachmentTypeBlacklist 
+    */
+    Response<
+                ComAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsSInfo
+        >
+    comAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsS(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> fieldWhitelist
+            
+            , 
+            std::list<std::string> attachmentTypeBlacklist
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param fieldWhitelist 
+    * \param attachmentTypeBlacklist 
+    */
+    Response<
+                ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsSerInfo
+        >
+    comAdobeCqSocialJournalClientEndpointsImplJournalOperationsSer(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> fieldWhitelist
+            
+            , 
+            std::list<std::string> attachmentTypeBlacklist
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param fieldWhitelist 
+    */
+    Response<
+                ComAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileInfo
+        >
+    comAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfile(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> fieldWhitelist
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param fieldWhitelist 
+    */
+    Response<
+                ComAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileOInfo
+        >
+    comAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileO(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> fieldWhitelist
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param everyoneLimit 
+    * \param priority 
+    */
+    Response<
+                ComAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentFInfo
+        >
+    comAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentF(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int everyoneLimit
+            , 
+            
+            int priority
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param messagePeriodproperties 
+    * \param messageBoxSizeLimit 
+    * \param messageCountLimit 
+    * \param notifyFailure 
+    * \param failureMessageFrom 
+    * \param failureTemplatePath 
+    * \param maxRetries 
+    * \param minWaitBetweenRetries 
+    * \param countUpdatePoolSize 
+    * \param inboxPeriodpath 
+    * \param sentitemsPeriodpath 
+    * \param supportAttachments 
+    * \param supportGroupMessaging 
+    * \param maxTotalRecipients 
+    * \param batchSize 
+    * \param maxTotalAttachmentSize 
+    * \param attachmentTypeBlacklist 
+    * \param allowedAttachmentTypes 
+    * \param serviceSelector 
+    * \param fieldWhitelist 
+    */
+    Response<
+                ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationInfo
+        >
+    comAdobeCqSocialMessagingClientEndpointsImplMessagingOperation(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> messagePeriodproperties
+            
+            , 
+            
+            int messageBoxSizeLimit
+            , 
+            
+            int messageCountLimit
+            , 
+            
+            bool notifyFailure
+            , 
+            
+            std::string failureMessageFrom
+            , 
+            
+            std::string failureTemplatePath
+            , 
+            
+            int maxRetries
+            , 
+            
+            int minWaitBetweenRetries
+            , 
+            
+            int countUpdatePoolSize
+            , 
+            
+            std::string inboxPeriodpath
+            , 
+            
+            std::string sentitemsPeriodpath
+            , 
+            
+            bool supportAttachments
+            , 
+            
+            bool supportGroupMessaging
+            , 
+            
+            int maxTotalRecipients
+            , 
+            
+            int batchSize
+            , 
+            
+            int maxTotalAttachmentSize
+            , 
+            std::list<std::string> attachmentTypeBlacklist
+            
+            , 
+            std::list<std::string> allowedAttachmentTypes
+            
+            , 
+            
+            std::string serviceSelector
+            , 
+            std::list<std::string> fieldWhitelist
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param resourceTypePeriodfilters 
+    * \param priority 
+    */
+    Response<
+                ComAdobeCqSocialModerationDashboardApiFilterGroupSocialComponenInfo
+        >
+    comAdobeCqSocialModerationDashboardApiFilterGroupSocialComponen(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> resourceTypePeriodfilters
+            
+            , 
+            
+            int priority
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param priority 
+    */
+    Response<
+                ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialInfo
+        >
+    comAdobeCqSocialModerationDashboardApiModerationDashboardSocial(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int priority
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param priority 
+    */
+    Response<
+                ComAdobeCqSocialModerationDashboardApiUserDetailsSocialComponenInfo
+        >
+    comAdobeCqSocialModerationDashboardApiUserDetailsSocialComponen(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int priority
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param resourceTypePeriodfilters 
+    * \param priority 
+    */
+    Response<
+                ComAdobeCqSocialModerationDashboardInternalImplFilterGroupSociInfo
+        >
+    comAdobeCqSocialModerationDashboardInternalImplFilterGroupSoci(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> resourceTypePeriodfilters
+            
+            , 
+            
+            int priority
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param eventPeriodtopics 
+    * \param eventPeriodfilter 
+    */
+    Response<
+                ComAdobeCqSocialNotificationsImplMentionsRouterInfo
+        >
+    comAdobeCqSocialNotificationsImplMentionsRouter(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string eventPeriodtopics
+            , 
+            
+            std::string eventPeriodfilter
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param maxPeriodunreadPeriodnotificationPeriodcount 
+    */
+    Response<
+                ComAdobeCqSocialNotificationsImplNotificationManagerImplInfo
+        >
+    comAdobeCqSocialNotificationsImplNotificationManagerImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int maxPeriodunreadPeriodnotificationPeriodcount
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param eventPeriodtopics 
+    * \param eventPeriodfilter 
+    */
+    Response<
+                ComAdobeCqSocialNotificationsImplNotificationsRouterInfo
+        >
+    comAdobeCqSocialNotificationsImplNotificationsRouter(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string eventPeriodtopics
+            , 
+            
+            std::string eventPeriodfilter
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param fieldWhitelist 
+    * \param attachmentTypeBlacklist 
+    */
+    Response<
+                ComAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServicInfo
+        >
+    comAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServic(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> fieldWhitelist
+            
+            , 
+            std::list<std::string> attachmentTypeBlacklist
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param cqPeriodsocialPeriodreportingPeriodanalyticsPeriodpollingPeriodimporterPeriodinterval 
+    * \param cqPeriodsocialPeriodreportingPeriodanalyticsPeriodpollingPeriodimporterPeriodpageSize 
+    */
+    Response<
+                ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportIInfo
+        >
+    comAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportI(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int cqPeriodsocialPeriodreportingPeriodanalyticsPeriodpollingPeriodimporterPeriodinterval
+            , 
+            
+            int cqPeriodsocialPeriodreportingPeriodanalyticsPeriodpollingPeriodimporterPeriodpageSize
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param reportPeriodfetchPerioddelay 
+    */
+    Response<
+                ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportMInfo
+        >
+    comAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportM(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int reportPeriodfetchPerioddelay
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param cqPeriodsocialPeriodconsolePeriodanalyticsPeriodsitesPeriodmapping 
+    * \param priority 
+    */
+    Response<
+                ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSInfo
+        >
+    comAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportS(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> cqPeriodsocialPeriodconsolePeriodanalyticsPeriodsitesPeriodmapping
+            
+            , 
+            
+            int priority
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param fieldWhitelist 
+    * \param attachmentTypeBlacklist 
+    */
+    Response<
+                ComAdobeCqSocialReviewClientEndpointsImplReviewOperationsServiInfo
+        >
+    comAdobeCqSocialReviewClientEndpointsImplReviewOperationsServi(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> fieldWhitelist
+            
+            , 
+            std::list<std::string> attachmentTypeBlacklist
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param slingPeriodservletPeriodselectors 
+    * \param slingPeriodservletPeriodextensions 
+    */
+    Response<
+                ComAdobeCqSocialScfCoreOperationsImplSocialOperationsServletInfo
+        >
+    comAdobeCqSocialScfCoreOperationsImplSocialOperationsServlet(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string slingPeriodservletPeriodselectors
+            , 
+            
+            std::string slingPeriodservletPeriodextensions
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param slingPeriodservletPeriodselectors 
+    * \param slingPeriodservletPeriodextensions 
+    */
+    Response<
+                ComAdobeCqSocialScfEndpointsImplDefaultSocialGetServletInfo
+        >
+    comAdobeCqSocialScfEndpointsImplDefaultSocialGetServlet(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> slingPeriodservletPeriodselectors
+            
+            , 
+            
+            std::string slingPeriodservletPeriodextensions
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param eventPeriodtopics 
+    * \param eventPeriodfilter 
+    */
+    Response<
+                ComAdobeCqSocialScoringImplScoringEventListenerInfo
+        >
+    comAdobeCqSocialScoringImplScoringEventListener(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string eventPeriodtopics
+            , 
+            
+            std::string eventPeriodfilter
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param enableFallback 
+    */
+    Response<
+                ComAdobeCqSocialServiceusersInternalImplServiceUserWrapperImplInfo
+        >
+    comAdobeCqSocialServiceusersInternalImplServiceUserWrapperImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool enableFallback
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param fieldWhitelist 
+    * \param sitePathFilters 
+    * \param sitePackageGroup 
+    */
+    Response<
+                ComAdobeCqSocialSiteEndpointsImplSiteOperationServiceInfo
+        >
+    comAdobeCqSocialSiteEndpointsImplSiteOperationService(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> fieldWhitelist
+            
+            , 
+            std::list<std::string> sitePathFilters
+            
+            , 
+            
+            std::string sitePackageGroup
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param cqPeriodsocialPeriodconsolePeriodanalyticsPeriodcomponents 
+    */
+    Response<
+                ComAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImInfo
+        >
+    comAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceIm(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> cqPeriodsocialPeriodconsolePeriodanalyticsPeriodcomponents
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param componentsUsingTags 
+    */
+    Response<
+                ComAdobeCqSocialSiteImplSiteConfiguratorImplInfo
+        >
+    comAdobeCqSocialSiteImplSiteConfiguratorImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> componentsUsingTags
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param srpPeriodtype 
+    */
+    Response<
+                ComAdobeCqSocialSrpImplSocialSolrConnectorInfo
+        >
+    comAdobeCqSocialSrpImplSocialSolrConnector(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string srpPeriodtype
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param enabled 
+    * \param agentName 
+    * \param diffPath 
+    * \param propertyNames 
+    */
+    Response<
+                ComAdobeCqSocialSyncImplDiffChangesObserverInfo
+        >
+    comAdobeCqSocialSyncImplDiffChangesObserver(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool enabled
+            , 
+            
+            std::string agentName
+            , 
+            
+            std::string diffPath
+            , 
+            
+            std::string propertyNames
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param nodetypes 
+    * \param ignorableprops 
+    * \param ignorablenodes 
+    * \param enabled 
+    * \param distfolders 
+    */
+    Response<
+                ComAdobeCqSocialSyncImplGroupSyncListenerImplInfo
+        >
+    comAdobeCqSocialSyncImplGroupSyncListenerImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> nodetypes
+            
+            , 
+            std::list<std::string> ignorableprops
+            
+            , 
+            
+            std::string ignorablenodes
+            , 
+            
+            bool enabled
+            , 
+            
+            std::string distfolders
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param activeRunModes 
+    */
+    Response<
+                ComAdobeCqSocialSyncImplPublisherSyncServiceImplInfo
+        >
+    comAdobeCqSocialSyncImplPublisherSyncServiceImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> activeRunModes
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param nodetypes 
+    * \param ignorableprops 
+    * \param ignorablenodes 
+    * \param enabled 
+    * \param distfolders 
+    */
+    Response<
+                ComAdobeCqSocialSyncImplUserSyncListenerImplInfo
+        >
+    comAdobeCqSocialSyncImplUserSyncListenerImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> nodetypes
+            
+            , 
+            std::list<std::string> ignorableprops
+            
+            , 
+            std::list<std::string> ignorablenodes
+            
+            , 
+            
+            bool enabled
+            , 
+            std::list<std::string> distfolders
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param translatePeriodlanguage 
+    * \param translatePerioddisplay 
+    * \param translatePeriodattribution 
+    * \param translatePeriodcaching 
+    * \param translatePeriodsmartPeriodrendering 
+    * \param translatePeriodcachingPeriodduration 
+    * \param translatePeriodsessionPeriodsavePeriodinterval 
+    * \param translatePeriodsessionPeriodsavePeriodbatchLimit 
+    */
+    Response<
+                ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerInfo
+        >
+    comAdobeCqSocialTranslationImplTranslationServiceConfigManager(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string translatePeriodlanguage
+            , 
+            
+            std::string translatePerioddisplay
+            , 
+            
+            bool translatePeriodattribution
+            , 
+            
+            std::string translatePeriodcaching
+            , 
+            
+            std::string translatePeriodsmartPeriodrendering
+            , 
+            
+            std::string translatePeriodcachingPeriodduration
+            , 
+            
+            std::string translatePeriodsessionPeriodsavePeriodinterval
+            , 
+            
+            std::string translatePeriodsessionPeriodsavePeriodbatchLimit
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param eventPeriodtopics 
+    * \param eventPeriodfilter 
+    * \param translatePeriodlistenerPeriodtype 
+    * \param translatePeriodpropertyPeriodlist 
+    * \param poolSize 
+    * \param maxPoolSize 
+    * \param queueSize 
+    * \param keepAliveTime 
+    */
+    Response<
+                ComAdobeCqSocialTranslationImplUGCLanguageDetectorInfo
+        >
+    comAdobeCqSocialTranslationImplUGCLanguageDetector(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string eventPeriodtopics
+            , 
+            
+            std::string eventPeriodfilter
+            , 
+            std::list<std::string> translatePeriodlistenerPeriodtype
+            
+            , 
+            std::list<std::string> translatePeriodpropertyPeriodlist
+            
+            , 
+            
+            int poolSize
+            , 
+            
+            int maxPoolSize
+            , 
+            
+            int queueSize
+            , 
+            
+            int keepAliveTime
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param threadPoolSize 
+    * \param delayTime 
+    * \param workerSleepTime 
+    */
+    Response<
+                ComAdobeCqSocialUgcbaseDispatcherImplFlushServiceImplInfo
+        >
+    comAdobeCqSocialUgcbaseDispatcherImplFlushServiceImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int threadPoolSize
+            , 
+            
+            int delayTime
+            , 
+            
+            int workerSleepTime
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param poolSize 
+    * \param maxPoolSize 
+    * \param queueSize 
+    * \param keepAliveTime 
+    */
+    Response<
+                ComAdobeCqSocialUgcbaseImplAysncReverseReplicatorImplInfo
+        >
+    comAdobeCqSocialUgcbaseImplAysncReverseReplicatorImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int poolSize
+            , 
+            
+            int maxPoolSize
+            , 
+            
+            int queueSize
+            , 
+            
+            int keepAliveTime
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param isPrimaryPublisher 
+    */
+    Response<
+                ComAdobeCqSocialUgcbaseImplPublisherConfigurationImplInfo
+        >
+    comAdobeCqSocialUgcbaseImplPublisherConfigurationImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool isPrimaryPublisher
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param legacyCloudUGCPathMapping 
+    */
+    Response<
+                ComAdobeCqSocialUgcbaseImplSocialUtilsImplInfo
+        >
+    comAdobeCqSocialUgcbaseImplSocialUtilsImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool legacyCloudUGCPathMapping
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param automoderationPeriodsequence 
+    * \param automoderationPeriodonfailurestop 
+    */
+    Response<
+                ComAdobeCqSocialUgcbaseModerationImplAutoModerationImplInfo
+        >
+    comAdobeCqSocialUgcbaseModerationImplAutoModerationImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> automoderationPeriodsequence
+            
+            , 
+            
+            bool automoderationPeriodonfailurestop
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param watchwordsPeriodpositive 
+    * \param watchwordsPeriodnegative 
+    * \param watchwordsPeriodpath 
+    * \param sentimentPeriodpath 
+    */
+    Response<
+                ComAdobeCqSocialUgcbaseModerationImplSentimentProcessInfo
+        >
+    comAdobeCqSocialUgcbaseModerationImplSentimentProcess(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> watchwordsPeriodpositive
+            
+            , 
+            std::list<std::string> watchwordsPeriodnegative
+            
+            , 
+            
+            std::string watchwordsPeriodpath
+            , 
+            
+            std::string sentimentPeriodpath
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param defaultPeriodattachmentPeriodtypePeriodblacklist 
+    * \param baselinePeriodattachmentPeriodtypePeriodblacklist 
+    */
+    Response<
+                ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliInfo
+        >
+    comAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackli(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> defaultPeriodattachmentPeriodtypePeriodblacklist
+            
+            , 
+            std::list<std::string> baselinePeriodattachmentPeriodtypePeriodblacklist
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param parameterPeriodwhitelist 
+    * \param parameterPeriodwhitelistPeriodprefixes 
+    * \param binaryPeriodparameterPeriodwhitelist 
+    * \param modifierPeriodwhitelist 
+    * \param operationPeriodwhitelist 
+    * \param operationPeriodwhitelistPeriodprefixes 
+    * \param typehintPeriodwhitelist 
+    * \param resourcetypePeriodwhitelist 
+    */
+    Response<
+                ComAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImplInfo
+        >
+    comAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> parameterPeriodwhitelist
+            
+            , 
+            std::list<std::string> parameterPeriodwhitelistPeriodprefixes
+            
+            , 
+            std::list<std::string> binaryPeriodparameterPeriodwhitelist
+            
+            , 
+            std::list<std::string> modifierPeriodwhitelist
+            
+            , 
+            std::list<std::string> operationPeriodwhitelist
+            
+            , 
+            std::list<std::string> operationPeriodwhitelistPeriodprefixes
+            
+            , 
+            std::list<std::string> typehintPeriodwhitelist
+            
+            , 
+            std::list<std::string> resourcetypePeriodwhitelist
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param slingPeriodservletPeriodextensions 
+    * \param slingPeriodservletPeriodpaths 
+    * \param slingPeriodservletPeriodmethods 
+    */
+    Response<
+                ComAdobeCqSocialUserEndpointsImplUsersGroupFromPublishServletInfo
+        >
+    comAdobeCqSocialUserEndpointsImplUsersGroupFromPublishServlet(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string slingPeriodservletPeriodextensions
+            , 
+            
+            std::string slingPeriodservletPeriodpaths
+            , 
+            
+            std::string slingPeriodservletPeriodmethods
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param enable 
+    * \param agentPeriodconfiguration 
+    * \param contextPeriodpath 
+    * \param disabledPeriodcipherPeriodsuites 
+    * \param enabledPeriodcipherPeriodsuites 
+    */
+    Response<
+                ComAdobeCqSocialUserImplTransportHttpToPublisherInfo
+        >
+    comAdobeCqSocialUserImplTransportHttpToPublisher(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool enable
+            , 
+            std::list<std::string> agentPeriodconfiguration
+            
+            , 
+            
+            std::string contextPeriodpath
+            , 
+            std::list<std::string> disabledPeriodcipherPeriodsuites
+            
+            , 
+            std::list<std::string> enabledPeriodcipherPeriodsuites
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param resourcePeriodtypes 
+    */
+    Response<
+                ComAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactInfo
+        >
+    comAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFact(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> resourcePeriodtypes
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param deletePeriodpathPeriodregexps 
+    * \param deletePeriodsql2Periodquery 
+    */
+    Response<
+                ComAdobeCqUpgradesCleanupImplUpgradeContentCleanupInfo
+        >
+    comAdobeCqUpgradesCleanupImplUpgradeContentCleanup(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> deletePeriodpathPeriodregexps
+            
+            , 
+            
+            std::string deletePeriodsql2Periodquery
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param deletePeriodnamePeriodregexps 
+    */
+    Response<
+                ComAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanupInfo
+        >
+    comAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanup(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> deletePeriodnamePeriodregexps
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param threshold 
+    * \param jobTopicName 
+    * \param emailEnabled 
+    */
+    Response<
+                ComAdobeCqWcmJobsAsyncImplAsyncDeleteConfigProviderServiceInfo
+        >
+    comAdobeCqWcmJobsAsyncImplAsyncDeleteConfigProviderService(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int threshold
+            , 
+            
+            std::string jobTopicName
+            , 
+            
+            bool emailEnabled
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param schedulerPeriodexpression 
+    * \param jobPeriodpurgePeriodthreshold 
+    * \param jobPeriodpurgePeriodmaxPeriodjobs 
+    */
+    Response<
+                ComAdobeCqWcmJobsAsyncImplAsyncJobCleanUpTaskInfo
+        >
+    comAdobeCqWcmJobsAsyncImplAsyncJobCleanUpTask(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string schedulerPeriodexpression
+            , 
+            
+            int jobPeriodpurgePeriodthreshold
+            , 
+            
+            int jobPeriodpurgePeriodmaxPeriodjobs
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param threshold 
+    * \param jobTopicName 
+    * \param emailEnabled 
+    */
+    Response<
+                ComAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderServiceInfo
+        >
+    comAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderService(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int threshold
+            , 
+            
+            std::string jobTopicName
+            , 
+            
+            bool emailEnabled
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param threshold 
+    * \param jobTopicName 
+    * \param emailEnabled 
+    */
+    Response<
+                ComAdobeCqWcmJobsAsyncImplAsyncPageMoveConfigProviderServiceInfo
+        >
+    comAdobeCqWcmJobsAsyncImplAsyncPageMoveConfigProviderService(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int threshold
+            , 
+            
+            std::string jobTopicName
+            , 
+            
+            bool emailEnabled
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param eventPeriodfilter 
+    * \param launchesPeriodeventhandlerPeriodthreadpoolPeriodmaxsize 
+    * \param launchesPeriodeventhandlerPeriodthreadpoolPeriodpriority 
+    * \param launchesPeriodeventhandlerPeriodupdatelastmodification 
+    */
+    Response<
+                ComAdobeCqWcmLaunchesImplLaunchesEventHandlerInfo
+        >
+    comAdobeCqWcmLaunchesImplLaunchesEventHandler(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string eventPeriodfilter
+            , 
+            
+            int launchesPeriodeventhandlerPeriodthreadpoolPeriodmaxsize
+            , 
+            
+            std::string launchesPeriodeventhandlerPeriodthreadpoolPeriodpriority
+            , 
+            
+            bool launchesPeriodeventhandlerPeriodupdatelastmodification
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param cqPeriodwcmPeriodqrcodePeriodservletPeriodwhitelist 
+    */
+    Response<
+                ComAdobeCqWcmMobileQrcodeServletQRCodeImageGeneratorInfo
+        >
+    comAdobeCqWcmMobileQrcodeServletQRCodeImageGenerator(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> cqPeriodwcmPeriodqrcodePeriodservletPeriodwhitelist
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param size 
+    */
+    Response<
+                ComAdobeCqWcmStyleInternalComponentStyleInfoCacheImplInfo
+        >
+    comAdobeCqWcmStyleInternalComponentStyleInfoCacheImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int size
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param syncTranslationStatePeriodschedulingFormat 
+    * \param schedulingRepeatTranslationPeriodschedulingFormat 
+    * \param syncTranslationStatePeriodlockTimeoutInMinutes 
+    * \param exportPeriodformat 
+    */
+    Response<
+                ComAdobeCqWcmTranslationImplTranslationPlatformConfigurationImplInfo
+        >
+    comAdobeCqWcmTranslationImplTranslationPlatformConfigurationImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string syncTranslationStatePeriodschedulingFormat
+            , 
+            
+            std::string schedulingRepeatTranslationPeriodschedulingFormat
+            , 
+            
+            std::string syncTranslationStatePeriodlockTimeoutInMinutes
+            , 
+            
+            std::string exportPeriodformat
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param portalPeriodoutboxes 
+    * \param draftPerioddataPeriodservice 
+    * \param draftPeriodmetadataPeriodservice 
+    * \param submitPerioddataPeriodservice 
+    * \param submitPeriodmetadataPeriodservice 
+    * \param pendingSignPerioddataPeriodservice 
+    * \param pendingSignPeriodmetadataPeriodservice 
+    */
+    Response<
+                ComAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServiceInfo
+        >
+    comAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigService(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> portalPeriodoutboxes
+            
+            , 
+            
+            std::string draftPerioddataPeriodservice
+            , 
+            
+            std::string draftPeriodmetadataPeriodservice
+            , 
+            
+            std::string submitPerioddataPeriodservice
+            , 
+            
+            std::string submitPeriodmetadataPeriodservice
+            , 
+            
+            std::string pendingSignPerioddataPeriodservice
+            , 
+            
+            std::string pendingSignPeriodmetadataPeriodservice
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param formportalPeriodinterval 
+    */
+    Response<
+                ComAdobeFdFpConfigFormsPortalSchedulerServiceInfo
+        >
+    comAdobeFdFpConfigFormsPortalSchedulerService(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string formportalPeriodinterval
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param alloweddataFileLocations 
+    */
+    Response<
+                ComAdobeFormsCommonServiceImplDefaultDataProviderInfo
+        >
+    comAdobeFormsCommonServiceImplDefaultDataProvider(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> alloweddataFileLocations
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param tempStorageConfig 
+    */
+    Response<
+                ComAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImpInfo
+        >
+    comAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImp(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string tempStorageConfig
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param schedulerPeriodexpression 
+    * \param duration_for_Temporary_Storage 
+    * \param duration_for_Anonymous_Storage 
+    */
+    Response<
+                ComAdobeFormsCommonServletTempCleanUpTaskInfo
+        >
+    comAdobeFormsCommonServletTempCleanUpTask(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string schedulerPeriodexpression
+            , 
+            
+            std::string duration_for_Temporary_Storage
+            , 
+            
+            std::string duration_for_Anonymous_Storage
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param queryPeriodlimit 
+    * \param filePeriodtypePeriodextensionPeriodmap 
+    */
+    Response<
+                ComAdobeGraniteAcpPlatformPlatformServletInfo
+        >
+    comAdobeGraniteAcpPlatformPlatformServlet(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int queryPeriodlimit
+            , 
+            std::list<std::string> filePeriodtypePeriodextensionPeriodmap
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param aggregatePeriodrelationships 
+    * \param aggregatePerioddescendPeriodvirtual 
+    */
+    Response<
+                ComAdobeGraniteActivitystreamsImplActivityManagerImplInfo
+        >
+    comAdobeGraniteActivitystreamsImplActivityManagerImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> aggregatePeriodrelationships
+            
+            , 
+            
+            bool aggregatePerioddescendPeriodvirtual
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param disabled 
+    */
+    Response<
+                ComAdobeGraniteAnalyzerBaseSystemStatusServletInfo
+        >
+    comAdobeGraniteAnalyzerBaseSystemStatusServlet(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool disabled
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param disabled 
+    */
+    Response<
+                ComAdobeGraniteAnalyzerScriptsCompileAllScriptsCompilerServletInfo
+        >
+    comAdobeGraniteAnalyzerScriptsCompileAllScriptsCompilerServlet(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool disabled
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param comPeriodadobePeriodcqPeriodcdnPeriodcdnRewriter 
+    * \param comPeriodadobePeriodcqPeriodcloudConfigPeriodcomponents 
+    * \param comPeriodadobePeriodcqPeriodcloudConfigPeriodcore 
+    * \param comPeriodadobePeriodcqPeriodcloudConfigPeriodui 
+    * \param comPeriodadobePeriodcqPeriodcomPeriodadobePeriodcqPeriodeditor 
+    * \param comPeriodadobePeriodcqPeriodcomPeriodadobePeriodcqPeriodprojectsPeriodcore 
+    * \param comPeriodadobePeriodcqPeriodcomPeriodadobePeriodcqPeriodprojectsPeriodwcmPeriodcore 
+    * \param comPeriodadobePeriodcqPeriodcomPeriodadobePeriodcqPerioduiPeriodcommons 
+    * \param comPeriodadobePeriodcqPeriodcomPeriodadobePeriodcqPeriodwcmPeriodstyle 
+    * \param comPeriodadobePeriodcqPeriodcqActivitymapIntegration 
+    * \param comPeriodadobePeriodcqPeriodcqContexthubCommons 
+    * \param comPeriodadobePeriodcqPeriodcqDtm 
+    * \param comPeriodadobePeriodcqPeriodcqHealthcheck 
+    * \param comPeriodadobePeriodcqPeriodcqMultisiteTargeting 
+    * \param comPeriodadobePeriodcqPeriodcqPreUpgradeCleanup 
+    * \param comPeriodadobePeriodcqPeriodcqProductInfoProvider 
+    * \param comPeriodadobePeriodcqPeriodcqRestSites 
+    * \param comPeriodadobePeriodcqPeriodcqSecurityHc 
+    * \param comPeriodadobePeriodcqPerioddamPeriodcqDamSvgHandler 
+    * \param comPeriodadobePeriodcqPerioddamPeriodcqScene7Imaging 
+    * \param comPeriodadobePeriodcqPerioddtmReactorPeriodcore 
+    * \param comPeriodadobePeriodcqPerioddtmReactorPeriodui 
+    * \param comPeriodadobePeriodcqPeriodexpJspelResolver 
+    * \param comPeriodadobePeriodcqPeriodinboxPeriodcqInbox 
+    * \param comPeriodadobePeriodcqPeriodjsonSchemaParser 
+    * \param comPeriodadobePeriodcqPeriodmediaPeriodcqMediaPublishingDpsFpCore 
+    * \param comPeriodadobePeriodcqPeriodmobilePeriodcqMobileCaas 
+    * \param comPeriodadobePeriodcqPeriodmobilePeriodcqMobileIndexBuilder 
+    * \param comPeriodadobePeriodcqPeriodmobilePeriodcqMobilePhonegapBuild 
+    * \param comPeriodadobePeriodcqPeriodmyspell 
+    * \param comPeriodadobePeriodcqPeriodsamplePeriodwePeriodretailPeriodcore 
+    * \param comPeriodadobePeriodcqPeriodscreensPeriodcomPeriodadobePeriodcqPeriodscreensPerioddcc 
+    * \param comPeriodadobePeriodcqPeriodscreensPeriodcomPeriodadobePeriodcqPeriodscreensPeriodmqPeriodcore 
+    * \param comPeriodadobePeriodcqPeriodsocialPeriodcqSocialAsProvider 
+    * \param comPeriodadobePeriodcqPeriodsocialPeriodcqSocialBadgingBasicImpl 
+    * \param comPeriodadobePeriodcqPeriodsocialPeriodcqSocialBadgingImpl 
+    * \param comPeriodadobePeriodcqPeriodsocialPeriodcqSocialCalendarImpl 
+    * \param comPeriodadobePeriodcqPeriodsocialPeriodcqSocialContentFragmentsImpl 
+    * \param comPeriodadobePeriodcqPeriodsocialPeriodcqSocialEnablementImpl 
+    * \param comPeriodadobePeriodcqPeriodsocialPeriodcqSocialGraphImpl 
+    * \param comPeriodadobePeriodcqPeriodsocialPeriodcqSocialIdeationImpl 
+    * \param comPeriodadobePeriodcqPeriodsocialPeriodcqSocialJcrProvider 
+    * \param comPeriodadobePeriodcqPeriodsocialPeriodcqSocialMembersImpl 
+    * \param comPeriodadobePeriodcqPeriodsocialPeriodcqSocialMsProvider 
+    * \param comPeriodadobePeriodcqPeriodsocialPeriodcqSocialNotificationsChannelsWeb 
+    * \param comPeriodadobePeriodcqPeriodsocialPeriodcqSocialNotificationsImpl 
+    * \param comPeriodadobePeriodcqPeriodsocialPeriodcqSocialRdbProvider 
+    * \param comPeriodadobePeriodcqPeriodsocialPeriodcqSocialScfImpl 
+    * \param comPeriodadobePeriodcqPeriodsocialPeriodcqSocialScoringBasicImpl 
+    * \param comPeriodadobePeriodcqPeriodsocialPeriodcqSocialScoringImpl 
+    * \param comPeriodadobePeriodcqPeriodsocialPeriodcqSocialServiceusersImpl 
+    * \param comPeriodadobePeriodcqPeriodsocialPeriodcqSocialSrpImpl 
+    * \param comPeriodadobePeriodcqPeriodsocialPeriodcqSocialUgcbaseImpl 
+    * \param comPeriodadobePerioddamPeriodcqDamCfmImpl 
+    * \param comPeriodadobePeriodformsPeriodfoundationFormsFoundationBase 
+    * \param comPeriodadobePeriodgranitePeriodapicontroller 
+    * \param comPeriodadobePeriodgranitePeriodassetPeriodcore 
+    * \param comPeriodadobePeriodgranitePeriodauthPeriodsso 
+    * \param comPeriodadobePeriodgranitePeriodbundlesPeriodhcPeriodimpl 
+    * \param comPeriodadobePeriodgranitePeriodcompatRouter 
+    * \param comPeriodadobePeriodgranitePeriodconf 
+    * \param comPeriodadobePeriodgranitePeriodconfPerioduiPeriodcore 
+    * \param comPeriodadobePeriodgranitePeriodcors 
+    * \param comPeriodadobePeriodgranitePeriodcrxExplorer 
+    * \param comPeriodadobePeriodgranitePeriodcrxdeLite 
+    * \param comPeriodadobePeriodgranitePeriodcryptoPeriodconfig 
+    * \param comPeriodadobePeriodgranitePeriodcryptoPeriodextension 
+    * \param comPeriodadobePeriodgranitePeriodcryptoPeriodfile 
+    * \param comPeriodadobePeriodgranitePeriodcryptoPeriodjcr 
+    * \param comPeriodadobePeriodgranitePeriodcsrf 
+    * \param comPeriodadobePeriodgranitePerioddistributionPeriodcore 
+    * \param comPeriodadobePeriodgranitePerioddropwizardPeriodmetrics 
+    * \param comPeriodadobePeriodgranitePeriodfragsPeriodimpl 
+    * \param comPeriodadobePeriodgranitePeriodgibson 
+    * \param comPeriodadobePeriodgranitePeriodinfocollector 
+    * \param comPeriodadobePeriodgranitePeriodinstallerPeriodfactoryPeriodpackages 
+    * \param comPeriodadobePeriodgranitePeriodjettyPeriodssl 
+    * \param comPeriodadobePeriodgranitePeriodjobsPeriodasync 
+    * \param comPeriodadobePeriodgranitePeriodmaintenancePeriodoak 
+    * \param comPeriodadobePeriodgranitePeriodmonitoringPeriodcore 
+    * \param comPeriodadobePeriodgranitePeriodqueries 
+    * \param comPeriodadobePeriodgranitePeriodreplicationPeriodhcPeriodimpl 
+    * \param comPeriodadobePeriodgranitePeriodrepositoryPeriodchecker 
+    * \param comPeriodadobePeriodgranitePeriodrepositoryPeriodhcPeriodimpl 
+    * \param comPeriodadobePeriodgranitePeriodrestPeriodassets 
+    * \param comPeriodadobePeriodgranitePeriodsecurityPeriodui 
+    * \param comPeriodadobePeriodgranitePeriodstartup 
+    * \param comPeriodadobePeriodgranitePeriodtagsoup 
+    * \param comPeriodadobePeriodgranitePeriodtaskmanagementPeriodcore 
+    * \param comPeriodadobePeriodgranitePeriodtaskmanagementPeriodworkflow 
+    * \param comPeriodadobePeriodgranitePerioduiPeriodclientlibsPeriodcompilerPeriodless 
+    * \param comPeriodadobePeriodgranitePerioduiPeriodclientlibsPeriodprocessorPeriodgcc 
+    * \param comPeriodadobePeriodgranitePeriodwebconsolePeriodplugins 
+    * \param comPeriodadobePeriodgranitePeriodworkflowPeriodconsole 
+    * \param comPeriodadobePeriodxmpPeriodworkerPeriodfilesPeriodnativePeriodfragmentPeriodlinux 
+    * \param comPeriodadobePeriodxmpPeriodworkerPeriodfilesPeriodnativePeriodfragmentPeriodmacosx 
+    * \param comPeriodadobePeriodxmpPeriodworkerPeriodfilesPeriodnativePeriodfragmentPeriodwin 
+    * \param comPerioddayPeriodcommonsPeriodosgiPeriodwrapperPeriodsimpleJndi 
+    * \param comPerioddayPeriodcqPeriodcqAuthhandler 
+    * \param comPerioddayPeriodcqPeriodcqCompatConfigupdate 
+    * \param comPerioddayPeriodcqPeriodcqLicensebranding 
+    * \param comPerioddayPeriodcqPeriodcqNotifcationImpl 
+    * \param comPerioddayPeriodcqPeriodcqReplicationAudit 
+    * \param comPerioddayPeriodcqPeriodcqSearchExt 
+    * \param comPerioddayPeriodcqPerioddamPeriodcqDamAnnotationPrint 
+    * \param comPerioddayPeriodcqPerioddamPeriodcqDamAssetUsage 
+    * \param comPerioddayPeriodcqPerioddamPeriodcqDamS7dam 
+    * \param comPerioddayPeriodcqPerioddamPeriodcqDamSimilaritysearch 
+    * \param comPerioddayPeriodcqPerioddamPerioddamWebdavSupport 
+    * \param comPerioddayPeriodcqPeriodpreUpgradeTasks 
+    * \param comPerioddayPeriodcqPeriodreplicationPeriodextensions 
+    * \param comPerioddayPeriodcqPeriodwcmPeriodcqMsmCore 
+    * \param comPerioddayPeriodcqPeriodwcmPeriodcqWcmTranslation 
+    * \param dayCommonsJrawio 
+    * \param orgPeriodapachePeriodariesPeriodjmxPeriodwhiteboard 
+    * \param orgPeriodapachePeriodfelixPeriodhttpPeriodsslfilter 
+    * \param orgPeriodapachePeriodfelixPeriodorgPeriodapachePeriodfelixPeriodthreaddump 
+    * \param orgPeriodapachePeriodfelixPeriodwebconsolePeriodpluginsPeriodds 
+    * \param orgPeriodapachePeriodfelixPeriodwebconsolePeriodpluginsPeriodevent 
+    * \param orgPeriodapachePeriodfelixPeriodwebconsolePeriodpluginsPeriodmemoryusage 
+    * \param orgPeriodapachePeriodfelixPeriodwebconsolePeriodpluginsPeriodpackageadmin 
+    * \param orgPeriodapachePeriodjackrabbitPeriodoakAuthLdap 
+    * \param orgPeriodapachePeriodjackrabbitPeriodoakSegmentTar 
+    * \param orgPeriodapachePeriodjackrabbitPeriodoakSolrOsgi 
+    * \param orgPeriodapachePeriodslingPeriodbundleresourcePeriodimpl 
+    * \param orgPeriodapachePeriodslingPeriodcommonsPeriodfsclassloader 
+    * \param orgPeriodapachePeriodslingPeriodcommonsPeriodlogPeriodwebconsole 
+    * \param orgPeriodapachePeriodslingPerioddatasource 
+    * \param orgPeriodapachePeriodslingPerioddiscoveryPeriodbase 
+    * \param orgPeriodapachePeriodslingPerioddiscoveryPeriodoak 
+    * \param orgPeriodapachePeriodslingPerioddiscoveryPeriodsupport 
+    * \param orgPeriodapachePeriodslingPerioddistributionPeriodapi 
+    * \param orgPeriodapachePeriodslingPerioddistributionPeriodcore 
+    * \param orgPeriodapachePeriodslingPeriodextensionsPeriodwebconsolesecurityprovider 
+    * \param orgPeriodapachePeriodslingPeriodhcPeriodwebconsole 
+    * \param orgPeriodapachePeriodslingPeriodinstallerPeriodconsole 
+    * \param orgPeriodapachePeriodslingPeriodinstallerPeriodproviderPeriodfile 
+    * \param orgPeriodapachePeriodslingPeriodinstallerPeriodproviderPeriodjcr 
+    * \param orgPeriodapachePeriodslingPeriodjcrPerioddavex 
+    * \param orgPeriodapachePeriodslingPeriodjcrPeriodresourcesecurity 
+    * \param orgPeriodapachePeriodslingPeriodjmxPeriodprovider 
+    * \param orgPeriodapachePeriodslingPeriodlaunchpadPeriodinstaller 
+    * \param orgPeriodapachePeriodslingPeriodmodelsPeriodimpl 
+    * \param orgPeriodapachePeriodslingPeriodrepoinitPeriodparser 
+    * \param orgPeriodapachePeriodslingPeriodresourcePeriodinventory 
+    * \param orgPeriodapachePeriodslingPeriodresourceresolver 
+    * \param orgPeriodapachePeriodslingPeriodscriptingPeriodjavascript 
+    * \param orgPeriodapachePeriodslingPeriodscriptingPeriodjst 
+    * \param orgPeriodapachePeriodslingPeriodscriptingPeriodsightlyPeriodjsPeriodprovider 
+    * \param orgPeriodapachePeriodslingPeriodscriptingPeriodsightlyPeriodmodelsPeriodprovider 
+    * \param orgPeriodapachePeriodslingPeriodsecurity 
+    * \param orgPeriodapachePeriodslingPeriodservletsPeriodcompat 
+    * \param orgPeriodapachePeriodslingPeriodservletsPeriodget 
+    * \param orgPeriodapachePeriodslingPeriodstartupfilterPerioddisabler 
+    * \param orgPeriodapachePeriodslingPeriodtracer 
+    * \param wePeriodretailPeriodclientPeriodappPeriodcore 
+    */
+    Response<
+                ComAdobeGraniteApicontrollerFilterResolverHookFactoryInfo
+        >
+    comAdobeGraniteApicontrollerFilterResolverHookFactory(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string comPeriodadobePeriodcqPeriodcdnPeriodcdnRewriter
+            , 
+            
+            std::string comPeriodadobePeriodcqPeriodcloudConfigPeriodcomponents
+            , 
+            
+            std::string comPeriodadobePeriodcqPeriodcloudConfigPeriodcore
+            , 
+            
+            std::string comPeriodadobePeriodcqPeriodcloudConfigPeriodui
+            , 
+            
+            std::string comPeriodadobePeriodcqPeriodcomPeriodadobePeriodcqPeriodeditor
+            , 
+            
+            std::string comPeriodadobePeriodcqPeriodcomPeriodadobePeriodcqPeriodprojectsPeriodcore
+            , 
+            
+            std::string comPeriodadobePeriodcqPeriodcomPeriodadobePeriodcqPeriodprojectsPeriodwcmPeriodcore
+            , 
+            
+            std::string comPeriodadobePeriodcqPeriodcomPeriodadobePeriodcqPerioduiPeriodcommons
+            , 
+            
+            std::string comPeriodadobePeriodcqPeriodcomPeriodadobePeriodcqPeriodwcmPeriodstyle
+            , 
+            
+            std::string comPeriodadobePeriodcqPeriodcqActivitymapIntegration
+            , 
+            
+            std::string comPeriodadobePeriodcqPeriodcqContexthubCommons
+            , 
+            
+            std::string comPeriodadobePeriodcqPeriodcqDtm
+            , 
+            
+            std::string comPeriodadobePeriodcqPeriodcqHealthcheck
+            , 
+            
+            std::string comPeriodadobePeriodcqPeriodcqMultisiteTargeting
+            , 
+            
+            std::string comPeriodadobePeriodcqPeriodcqPreUpgradeCleanup
+            , 
+            
+            std::string comPeriodadobePeriodcqPeriodcqProductInfoProvider
+            , 
+            
+            std::string comPeriodadobePeriodcqPeriodcqRestSites
+            , 
+            
+            std::string comPeriodadobePeriodcqPeriodcqSecurityHc
+            , 
+            
+            std::string comPeriodadobePeriodcqPerioddamPeriodcqDamSvgHandler
+            , 
+            
+            std::string comPeriodadobePeriodcqPerioddamPeriodcqScene7Imaging
+            , 
+            
+            std::string comPeriodadobePeriodcqPerioddtmReactorPeriodcore
+            , 
+            
+            std::string comPeriodadobePeriodcqPerioddtmReactorPeriodui
+            , 
+            
+            std::string comPeriodadobePeriodcqPeriodexpJspelResolver
+            , 
+            
+            std::string comPeriodadobePeriodcqPeriodinboxPeriodcqInbox
+            , 
+            
+            std::string comPeriodadobePeriodcqPeriodjsonSchemaParser
+            , 
+            
+            std::string comPeriodadobePeriodcqPeriodmediaPeriodcqMediaPublishingDpsFpCore
+            , 
+            
+            std::string comPeriodadobePeriodcqPeriodmobilePeriodcqMobileCaas
+            , 
+            
+            std::string comPeriodadobePeriodcqPeriodmobilePeriodcqMobileIndexBuilder
+            , 
+            
+            std::string comPeriodadobePeriodcqPeriodmobilePeriodcqMobilePhonegapBuild
+            , 
+            
+            std::string comPeriodadobePeriodcqPeriodmyspell
+            , 
+            
+            std::string comPeriodadobePeriodcqPeriodsamplePeriodwePeriodretailPeriodcore
+            , 
+            
+            std::string comPeriodadobePeriodcqPeriodscreensPeriodcomPeriodadobePeriodcqPeriodscreensPerioddcc
+            , 
+            
+            std::string comPeriodadobePeriodcqPeriodscreensPeriodcomPeriodadobePeriodcqPeriodscreensPeriodmqPeriodcore
+            , 
+            
+            std::string comPeriodadobePeriodcqPeriodsocialPeriodcqSocialAsProvider
+            , 
+            
+            std::string comPeriodadobePeriodcqPeriodsocialPeriodcqSocialBadgingBasicImpl
+            , 
+            
+            std::string comPeriodadobePeriodcqPeriodsocialPeriodcqSocialBadgingImpl
+            , 
+            
+            std::string comPeriodadobePeriodcqPeriodsocialPeriodcqSocialCalendarImpl
+            , 
+            
+            std::string comPeriodadobePeriodcqPeriodsocialPeriodcqSocialContentFragmentsImpl
+            , 
+            
+            std::string comPeriodadobePeriodcqPeriodsocialPeriodcqSocialEnablementImpl
+            , 
+            
+            std::string comPeriodadobePeriodcqPeriodsocialPeriodcqSocialGraphImpl
+            , 
+            
+            std::string comPeriodadobePeriodcqPeriodsocialPeriodcqSocialIdeationImpl
+            , 
+            
+            std::string comPeriodadobePeriodcqPeriodsocialPeriodcqSocialJcrProvider
+            , 
+            
+            std::string comPeriodadobePeriodcqPeriodsocialPeriodcqSocialMembersImpl
+            , 
+            
+            std::string comPeriodadobePeriodcqPeriodsocialPeriodcqSocialMsProvider
+            , 
+            
+            std::string comPeriodadobePeriodcqPeriodsocialPeriodcqSocialNotificationsChannelsWeb
+            , 
+            
+            std::string comPeriodadobePeriodcqPeriodsocialPeriodcqSocialNotificationsImpl
+            , 
+            
+            std::string comPeriodadobePeriodcqPeriodsocialPeriodcqSocialRdbProvider
+            , 
+            
+            std::string comPeriodadobePeriodcqPeriodsocialPeriodcqSocialScfImpl
+            , 
+            
+            std::string comPeriodadobePeriodcqPeriodsocialPeriodcqSocialScoringBasicImpl
+            , 
+            
+            std::string comPeriodadobePeriodcqPeriodsocialPeriodcqSocialScoringImpl
+            , 
+            
+            std::string comPeriodadobePeriodcqPeriodsocialPeriodcqSocialServiceusersImpl
+            , 
+            
+            std::string comPeriodadobePeriodcqPeriodsocialPeriodcqSocialSrpImpl
+            , 
+            
+            std::string comPeriodadobePeriodcqPeriodsocialPeriodcqSocialUgcbaseImpl
+            , 
+            
+            std::string comPeriodadobePerioddamPeriodcqDamCfmImpl
+            , 
+            
+            std::string comPeriodadobePeriodformsPeriodfoundationFormsFoundationBase
+            , 
+            
+            std::string comPeriodadobePeriodgranitePeriodapicontroller
+            , 
+            
+            std::string comPeriodadobePeriodgranitePeriodassetPeriodcore
+            , 
+            
+            std::string comPeriodadobePeriodgranitePeriodauthPeriodsso
+            , 
+            
+            std::string comPeriodadobePeriodgranitePeriodbundlesPeriodhcPeriodimpl
+            , 
+            
+            std::string comPeriodadobePeriodgranitePeriodcompatRouter
+            , 
+            
+            std::string comPeriodadobePeriodgranitePeriodconf
+            , 
+            
+            std::string comPeriodadobePeriodgranitePeriodconfPerioduiPeriodcore
+            , 
+            
+            std::string comPeriodadobePeriodgranitePeriodcors
+            , 
+            
+            std::string comPeriodadobePeriodgranitePeriodcrxExplorer
+            , 
+            
+            std::string comPeriodadobePeriodgranitePeriodcrxdeLite
+            , 
+            
+            std::string comPeriodadobePeriodgranitePeriodcryptoPeriodconfig
+            , 
+            
+            std::string comPeriodadobePeriodgranitePeriodcryptoPeriodextension
+            , 
+            
+            std::string comPeriodadobePeriodgranitePeriodcryptoPeriodfile
+            , 
+            
+            std::string comPeriodadobePeriodgranitePeriodcryptoPeriodjcr
+            , 
+            
+            std::string comPeriodadobePeriodgranitePeriodcsrf
+            , 
+            
+            std::string comPeriodadobePeriodgranitePerioddistributionPeriodcore
+            , 
+            
+            std::string comPeriodadobePeriodgranitePerioddropwizardPeriodmetrics
+            , 
+            
+            std::string comPeriodadobePeriodgranitePeriodfragsPeriodimpl
+            , 
+            
+            std::string comPeriodadobePeriodgranitePeriodgibson
+            , 
+            
+            std::string comPeriodadobePeriodgranitePeriodinfocollector
+            , 
+            
+            std::string comPeriodadobePeriodgranitePeriodinstallerPeriodfactoryPeriodpackages
+            , 
+            
+            std::string comPeriodadobePeriodgranitePeriodjettyPeriodssl
+            , 
+            
+            std::string comPeriodadobePeriodgranitePeriodjobsPeriodasync
+            , 
+            
+            std::string comPeriodadobePeriodgranitePeriodmaintenancePeriodoak
+            , 
+            
+            std::string comPeriodadobePeriodgranitePeriodmonitoringPeriodcore
+            , 
+            
+            std::string comPeriodadobePeriodgranitePeriodqueries
+            , 
+            
+            std::string comPeriodadobePeriodgranitePeriodreplicationPeriodhcPeriodimpl
+            , 
+            
+            std::string comPeriodadobePeriodgranitePeriodrepositoryPeriodchecker
+            , 
+            
+            std::string comPeriodadobePeriodgranitePeriodrepositoryPeriodhcPeriodimpl
+            , 
+            
+            std::string comPeriodadobePeriodgranitePeriodrestPeriodassets
+            , 
+            
+            std::string comPeriodadobePeriodgranitePeriodsecurityPeriodui
+            , 
+            
+            std::string comPeriodadobePeriodgranitePeriodstartup
+            , 
+            
+            std::string comPeriodadobePeriodgranitePeriodtagsoup
+            , 
+            
+            std::string comPeriodadobePeriodgranitePeriodtaskmanagementPeriodcore
+            , 
+            
+            std::string comPeriodadobePeriodgranitePeriodtaskmanagementPeriodworkflow
+            , 
+            
+            std::string comPeriodadobePeriodgranitePerioduiPeriodclientlibsPeriodcompilerPeriodless
+            , 
+            
+            std::string comPeriodadobePeriodgranitePerioduiPeriodclientlibsPeriodprocessorPeriodgcc
+            , 
+            
+            std::string comPeriodadobePeriodgranitePeriodwebconsolePeriodplugins
+            , 
+            
+            std::string comPeriodadobePeriodgranitePeriodworkflowPeriodconsole
+            , 
+            
+            std::string comPeriodadobePeriodxmpPeriodworkerPeriodfilesPeriodnativePeriodfragmentPeriodlinux
+            , 
+            
+            std::string comPeriodadobePeriodxmpPeriodworkerPeriodfilesPeriodnativePeriodfragmentPeriodmacosx
+            , 
+            
+            std::string comPeriodadobePeriodxmpPeriodworkerPeriodfilesPeriodnativePeriodfragmentPeriodwin
+            , 
+            
+            std::string comPerioddayPeriodcommonsPeriodosgiPeriodwrapperPeriodsimpleJndi
+            , 
+            
+            std::string comPerioddayPeriodcqPeriodcqAuthhandler
+            , 
+            
+            std::string comPerioddayPeriodcqPeriodcqCompatConfigupdate
+            , 
+            
+            std::string comPerioddayPeriodcqPeriodcqLicensebranding
+            , 
+            
+            std::string comPerioddayPeriodcqPeriodcqNotifcationImpl
+            , 
+            
+            std::string comPerioddayPeriodcqPeriodcqReplicationAudit
+            , 
+            
+            std::string comPerioddayPeriodcqPeriodcqSearchExt
+            , 
+            
+            std::string comPerioddayPeriodcqPerioddamPeriodcqDamAnnotationPrint
+            , 
+            
+            std::string comPerioddayPeriodcqPerioddamPeriodcqDamAssetUsage
+            , 
+            
+            std::string comPerioddayPeriodcqPerioddamPeriodcqDamS7dam
+            , 
+            
+            std::string comPerioddayPeriodcqPerioddamPeriodcqDamSimilaritysearch
+            , 
+            
+            std::string comPerioddayPeriodcqPerioddamPerioddamWebdavSupport
+            , 
+            
+            std::string comPerioddayPeriodcqPeriodpreUpgradeTasks
+            , 
+            
+            std::string comPerioddayPeriodcqPeriodreplicationPeriodextensions
+            , 
+            
+            std::string comPerioddayPeriodcqPeriodwcmPeriodcqMsmCore
+            , 
+            
+            std::string comPerioddayPeriodcqPeriodwcmPeriodcqWcmTranslation
+            , 
+            
+            std::string dayCommonsJrawio
+            , 
+            
+            std::string orgPeriodapachePeriodariesPeriodjmxPeriodwhiteboard
+            , 
+            
+            std::string orgPeriodapachePeriodfelixPeriodhttpPeriodsslfilter
+            , 
+            
+            std::string orgPeriodapachePeriodfelixPeriodorgPeriodapachePeriodfelixPeriodthreaddump
+            , 
+            
+            std::string orgPeriodapachePeriodfelixPeriodwebconsolePeriodpluginsPeriodds
+            , 
+            
+            std::string orgPeriodapachePeriodfelixPeriodwebconsolePeriodpluginsPeriodevent
+            , 
+            
+            std::string orgPeriodapachePeriodfelixPeriodwebconsolePeriodpluginsPeriodmemoryusage
+            , 
+            
+            std::string orgPeriodapachePeriodfelixPeriodwebconsolePeriodpluginsPeriodpackageadmin
+            , 
+            
+            std::string orgPeriodapachePeriodjackrabbitPeriodoakAuthLdap
+            , 
+            
+            std::string orgPeriodapachePeriodjackrabbitPeriodoakSegmentTar
+            , 
+            
+            std::string orgPeriodapachePeriodjackrabbitPeriodoakSolrOsgi
+            , 
+            
+            std::string orgPeriodapachePeriodslingPeriodbundleresourcePeriodimpl
+            , 
+            
+            std::string orgPeriodapachePeriodslingPeriodcommonsPeriodfsclassloader
+            , 
+            
+            std::string orgPeriodapachePeriodslingPeriodcommonsPeriodlogPeriodwebconsole
+            , 
+            
+            std::string orgPeriodapachePeriodslingPerioddatasource
+            , 
+            
+            std::string orgPeriodapachePeriodslingPerioddiscoveryPeriodbase
+            , 
+            
+            std::string orgPeriodapachePeriodslingPerioddiscoveryPeriodoak
+            , 
+            
+            std::string orgPeriodapachePeriodslingPerioddiscoveryPeriodsupport
+            , 
+            
+            std::string orgPeriodapachePeriodslingPerioddistributionPeriodapi
+            , 
+            
+            std::string orgPeriodapachePeriodslingPerioddistributionPeriodcore
+            , 
+            
+            std::string orgPeriodapachePeriodslingPeriodextensionsPeriodwebconsolesecurityprovider
+            , 
+            
+            std::string orgPeriodapachePeriodslingPeriodhcPeriodwebconsole
+            , 
+            
+            std::string orgPeriodapachePeriodslingPeriodinstallerPeriodconsole
+            , 
+            
+            std::string orgPeriodapachePeriodslingPeriodinstallerPeriodproviderPeriodfile
+            , 
+            
+            std::string orgPeriodapachePeriodslingPeriodinstallerPeriodproviderPeriodjcr
+            , 
+            
+            std::string orgPeriodapachePeriodslingPeriodjcrPerioddavex
+            , 
+            
+            std::string orgPeriodapachePeriodslingPeriodjcrPeriodresourcesecurity
+            , 
+            
+            std::string orgPeriodapachePeriodslingPeriodjmxPeriodprovider
+            , 
+            
+            std::string orgPeriodapachePeriodslingPeriodlaunchpadPeriodinstaller
+            , 
+            
+            std::string orgPeriodapachePeriodslingPeriodmodelsPeriodimpl
+            , 
+            
+            std::string orgPeriodapachePeriodslingPeriodrepoinitPeriodparser
+            , 
+            
+            std::string orgPeriodapachePeriodslingPeriodresourcePeriodinventory
+            , 
+            
+            std::string orgPeriodapachePeriodslingPeriodresourceresolver
+            , 
+            
+            std::string orgPeriodapachePeriodslingPeriodscriptingPeriodjavascript
+            , 
+            
+            std::string orgPeriodapachePeriodslingPeriodscriptingPeriodjst
+            , 
+            
+            std::string orgPeriodapachePeriodslingPeriodscriptingPeriodsightlyPeriodjsPeriodprovider
+            , 
+            
+            std::string orgPeriodapachePeriodslingPeriodscriptingPeriodsightlyPeriodmodelsPeriodprovider
+            , 
+            
+            std::string orgPeriodapachePeriodslingPeriodsecurity
+            , 
+            
+            std::string orgPeriodapachePeriodslingPeriodservletsPeriodcompat
+            , 
+            
+            std::string orgPeriodapachePeriodslingPeriodservletsPeriodget
+            , 
+            
+            std::string orgPeriodapachePeriodslingPeriodstartupfilterPerioddisabler
+            , 
+            
+            std::string orgPeriodapachePeriodslingPeriodtracer
+            , 
+            
+            std::string wePeriodretailPeriodclientPeriodappPeriodcore
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param path 
+    * \param servicePeriodranking 
+    */
+    Response<
+                ComAdobeGraniteAuthCertImplClientCertAuthHandlerInfo
+        >
+    comAdobeGraniteAuthCertImplClientCertAuthHandler(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string path
+            , 
+            
+            int servicePeriodranking
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param configid 
+    * \param scope 
+    */
+    Response<
+                ComAdobeGraniteAuthImsInfo
+        >
+    comAdobeGraniteAuthIms(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string configid
+            , 
+            
+            std::string scope
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param oauthPeriodproviderPeriodid 
+    */
+    Response<
+                ComAdobeGraniteAuthImsImplExternalUserIdMappingProviderExtensionInfo
+        >
+    comAdobeGraniteAuthImsImplExternalUserIdMappingProviderExtension(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string oauthPeriodproviderPeriodid
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param authPeriodimsPeriodclientPeriodsecret 
+    * \param customizerPeriodtype 
+    */
+    Response<
+                ComAdobeGraniteAuthImsImplIMSAccessTokenRequestCustomizerImplInfo
+        >
+    comAdobeGraniteAuthImsImplIMSAccessTokenRequestCustomizerImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string authPeriodimsPeriodclientPeriodsecret
+            , 
+            
+            std::string customizerPeriodtype
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param oauthPeriodproviderPeriodid 
+    */
+    Response<
+                ComAdobeGraniteAuthImsImplIMSInstanceCredentialsValidatorInfo
+        >
+    comAdobeGraniteAuthImsImplIMSInstanceCredentialsValidator(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string oauthPeriodproviderPeriodid
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param oauthPeriodproviderPeriodid 
+    * \param oauthPeriodproviderPeriodimsPeriodauthorizationPeriodurl 
+    * \param oauthPeriodproviderPeriodimsPeriodtokenPeriodurl 
+    * \param oauthPeriodproviderPeriodimsPeriodprofilePeriodurl 
+    * \param oauthPeriodproviderPeriodimsPeriodextendedPerioddetailsPeriodurls 
+    * \param oauthPeriodproviderPeriodimsPeriodvalidatePeriodtokenPeriodurl 
+    * \param oauthPeriodproviderPeriodimsPeriodsessionPeriodproperty 
+    * \param oauthPeriodproviderPeriodimsPeriodservicePeriodtokenPeriodclientPeriodid 
+    * \param oauthPeriodproviderPeriodimsPeriodservicePeriodtokenPeriodclientPeriodsecret 
+    * \param oauthPeriodproviderPeriodimsPeriodservicePeriodtoken 
+    * \param imsPeriodorgPeriodref 
+    * \param imsPeriodgroupPeriodmapping 
+    * \param oauthPeriodproviderPeriodimsPeriodonlyPeriodlicensePeriodgroup 
+    */
+    Response<
+                ComAdobeGraniteAuthImsImplIMSProviderImplInfo
+        >
+    comAdobeGraniteAuthImsImplIMSProviderImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string oauthPeriodproviderPeriodid
+            , 
+            
+            std::string oauthPeriodproviderPeriodimsPeriodauthorizationPeriodurl
+            , 
+            
+            std::string oauthPeriodproviderPeriodimsPeriodtokenPeriodurl
+            , 
+            
+            std::string oauthPeriodproviderPeriodimsPeriodprofilePeriodurl
+            , 
+            std::list<std::string> oauthPeriodproviderPeriodimsPeriodextendedPerioddetailsPeriodurls
+            
+            , 
+            
+            std::string oauthPeriodproviderPeriodimsPeriodvalidatePeriodtokenPeriodurl
+            , 
+            
+            std::string oauthPeriodproviderPeriodimsPeriodsessionPeriodproperty
+            , 
+            
+            std::string oauthPeriodproviderPeriodimsPeriodservicePeriodtokenPeriodclientPeriodid
+            , 
+            
+            std::string oauthPeriodproviderPeriodimsPeriodservicePeriodtokenPeriodclientPeriodsecret
+            , 
+            
+            std::string oauthPeriodproviderPeriodimsPeriodservicePeriodtoken
+            , 
+            
+            std::string imsPeriodorgPeriodref
+            , 
+            std::list<std::string> imsPeriodgroupPeriodmapping
+            
+            , 
+            
+            bool oauthPeriodproviderPeriodimsPeriodonlyPeriodlicensePeriodgroup
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param oauthPeriodconfigmanagerPeriodimsPeriodconfigid 
+    * \param imsPeriodowningEntity 
+    * \param aemPeriodinstanceId 
+    * \param imsPeriodserviceCode 
+    */
+    Response<
+                ComAdobeGraniteAuthImsImplImsConfigProviderImplInfo
+        >
+    comAdobeGraniteAuthImsImplImsConfigProviderImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string oauthPeriodconfigmanagerPeriodimsPeriodconfigid
+            , 
+            
+            std::string imsPeriodowningEntity
+            , 
+            
+            std::string aemPeriodinstanceId
+            , 
+            
+            std::string imsPeriodserviceCode
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param name 
+    * \param authPeriodtokenPeriodproviderPeriodtitle 
+    * \param authPeriodtokenPeriodproviderPerioddefaultPeriodclaims 
+    * \param authPeriodtokenPeriodproviderPeriodendpoint 
+    * \param authPeriodaccessPeriodtokenPeriodrequest 
+    * \param authPeriodtokenPeriodproviderPeriodkeypairPeriodalias 
+    * \param authPeriodtokenPeriodproviderPeriodconnPeriodtimeout 
+    * \param authPeriodtokenPeriodproviderPeriodsoPeriodtimeout 
+    * \param authPeriodtokenPeriodproviderPeriodclientPeriodid 
+    * \param authPeriodtokenPeriodproviderPeriodscope 
+    * \param authPeriodtokenPeriodproviderPeriodreusePeriodaccessPeriodtoken 
+    * \param authPeriodtokenPeriodproviderPeriodrelaxedPeriodssl 
+    * \param tokenPeriodrequestPeriodcustomizerPeriodtype 
+    * \param authPeriodtokenPeriodvalidatorPeriodtype 
+    */
+    Response<
+                ComAdobeGraniteAuthOauthAccesstokenProviderInfo
+        >
+    comAdobeGraniteAuthOauthAccesstokenProvider(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string name
+            , 
+            
+            std::string authPeriodtokenPeriodproviderPeriodtitle
+            , 
+            std::list<std::string> authPeriodtokenPeriodproviderPerioddefaultPeriodclaims
+            
+            , 
+            
+            std::string authPeriodtokenPeriodproviderPeriodendpoint
+            , 
+            
+            std::string authPeriodaccessPeriodtokenPeriodrequest
+            , 
+            
+            std::string authPeriodtokenPeriodproviderPeriodkeypairPeriodalias
+            , 
+            
+            int authPeriodtokenPeriodproviderPeriodconnPeriodtimeout
+            , 
+            
+            int authPeriodtokenPeriodproviderPeriodsoPeriodtimeout
+            , 
+            
+            std::string authPeriodtokenPeriodproviderPeriodclientPeriodid
+            , 
+            
+            std::string authPeriodtokenPeriodproviderPeriodscope
+            , 
+            
+            bool authPeriodtokenPeriodproviderPeriodreusePeriodaccessPeriodtoken
+            , 
+            
+            bool authPeriodtokenPeriodproviderPeriodrelaxedPeriodssl
+            , 
+            
+            std::string tokenPeriodrequestPeriodcustomizerPeriodtype
+            , 
+            
+            std::string authPeriodtokenPeriodvalidatorPeriodtype
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param path 
+    * \param oauthPeriodclientIdsPeriodallowed 
+    * \param authPeriodbearerPeriodsyncPeriodims 
+    * \param authPeriodtokenRequestParameter 
+    * \param oauthPeriodbearerPeriodconfigid 
+    * \param oauthPeriodjwtPeriodsupport 
+    */
+    Response<
+                ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerInfo
+        >
+    comAdobeGraniteAuthOauthImplBearerAuthenticationHandler(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string path
+            , 
+            std::list<std::string> oauthPeriodclientIdsPeriodallowed
+            
+            , 
+            
+            bool authPeriodbearerPeriodsyncPeriodims
+            , 
+            
+            std::string authPeriodtokenRequestParameter
+            , 
+            
+            std::string oauthPeriodbearerPeriodconfigid
+            , 
+            
+            bool oauthPeriodjwtPeriodsupport
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param authPeriodtokenPeriodvalidatorPeriodtype 
+    */
+    Response<
+                ComAdobeGraniteAuthOauthImplDefaultTokenValidatorImplInfo
+        >
+    comAdobeGraniteAuthOauthImplDefaultTokenValidatorImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string authPeriodtokenPeriodvalidatorPeriodtype
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param oauthPeriodproviderPeriodid 
+    */
+    Response<
+                ComAdobeGraniteAuthOauthImplFacebookProviderImplInfo
+        >
+    comAdobeGraniteAuthOauthImplFacebookProviderImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string oauthPeriodproviderPeriodid
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param oauthPeriodproviderPeriodid 
+    * \param oauthPeriodproviderPeriodgithubPeriodauthorizationPeriodurl 
+    * \param oauthPeriodproviderPeriodgithubPeriodtokenPeriodurl 
+    * \param oauthPeriodproviderPeriodgithubPeriodprofilePeriodurl 
+    */
+    Response<
+                ComAdobeGraniteAuthOauthImplGithubProviderImplInfo
+        >
+    comAdobeGraniteAuthOauthImplGithubProviderImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string oauthPeriodproviderPeriodid
+            , 
+            
+            std::string oauthPeriodproviderPeriodgithubPeriodauthorizationPeriodurl
+            , 
+            
+            std::string oauthPeriodproviderPeriodgithubPeriodtokenPeriodurl
+            , 
+            
+            std::string oauthPeriodproviderPeriodgithubPeriodprofilePeriodurl
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param oauthPeriodproviderPeriodid 
+    * \param oauthPeriodproviderPeriodgranitePeriodauthorizationPeriodurl 
+    * \param oauthPeriodproviderPeriodgranitePeriodtokenPeriodurl 
+    * \param oauthPeriodproviderPeriodgranitePeriodprofilePeriodurl 
+    * \param oauthPeriodproviderPeriodgranitePeriodextendedPerioddetailsPeriodurls 
+    */
+    Response<
+                ComAdobeGraniteAuthOauthImplGraniteProviderInfo
+        >
+    comAdobeGraniteAuthOauthImplGraniteProvider(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string oauthPeriodproviderPeriodid
+            , 
+            
+            std::string oauthPeriodproviderPeriodgranitePeriodauthorizationPeriodurl
+            , 
+            
+            std::string oauthPeriodproviderPeriodgranitePeriodtokenPeriodurl
+            , 
+            
+            std::string oauthPeriodproviderPeriodgranitePeriodprofilePeriodurl
+            , 
+            
+            std::string oauthPeriodproviderPeriodgranitePeriodextendedPerioddetailsPeriodurls
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param oauthPeriodcookiePeriodloginPeriodtimeout 
+    * \param oauthPeriodcookiePeriodmaxPeriodage 
+    */
+    Response<
+                ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerInfo
+        >
+    comAdobeGraniteAuthOauthImplHelperProviderConfigManager(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string oauthPeriodcookiePeriodloginPeriodtimeout
+            , 
+            
+            std::string oauthPeriodcookiePeriodmaxPeriodage
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param oauthPeriodcookiePeriodloginPeriodtimeout 
+    * \param oauthPeriodcookiePeriodmaxPeriodage 
+    */
+    Response<
+                ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerInternalInfo
+        >
+    comAdobeGraniteAuthOauthImplHelperProviderConfigManagerInternal(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string oauthPeriodcookiePeriodloginPeriodtimeout
+            , 
+            
+            std::string oauthPeriodcookiePeriodmaxPeriodage
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param path 
+    */
+    Response<
+                ComAdobeGraniteAuthOauthImplOAuthAuthenticationHandlerInfo
+        >
+    comAdobeGraniteAuthOauthImplOAuthAuthenticationHandler(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string path
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param oauthPeriodproviderPeriodid 
+    */
+    Response<
+                ComAdobeGraniteAuthOauthImplTwitterProviderImplInfo
+        >
+    comAdobeGraniteAuthOauthImplTwitterProviderImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string oauthPeriodproviderPeriodid
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param oauthPeriodconfigPeriodid 
+    * \param oauthPeriodclientPeriodid 
+    * \param oauthPeriodclientPeriodsecret 
+    * \param oauthPeriodscope 
+    * \param oauthPeriodconfigPeriodproviderPeriodid 
+    * \param oauthPeriodcreatePeriodusers 
+    * \param oauthPerioduseridPeriodproperty 
+    * \param forcePeriodstrictPeriodusernamePeriodmatching 
+    * \param oauthPeriodencodePerioduserids 
+    * \param oauthPeriodhashPerioduserids 
+    * \param oauthPeriodcallBackUrl 
+    * \param oauthPeriodaccessPeriodtokenPeriodpersist 
+    * \param oauthPeriodaccessPeriodtokenPeriodpersistPeriodcookie 
+    * \param oauthPeriodcsrfPeriodstatePeriodprotection 
+    * \param oauthPeriodredirectPeriodrequestPeriodparams 
+    * \param oauthPeriodconfigPeriodsiblingsPeriodallow 
+    */
+    Response<
+                ComAdobeGraniteAuthOauthProviderInfo
+        >
+    comAdobeGraniteAuthOauthProvider(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string oauthPeriodconfigPeriodid
+            , 
+            
+            std::string oauthPeriodclientPeriodid
+            , 
+            
+            std::string oauthPeriodclientPeriodsecret
+            , 
+            std::list<std::string> oauthPeriodscope
+            
+            , 
+            
+            std::string oauthPeriodconfigPeriodproviderPeriodid
+            , 
+            
+            bool oauthPeriodcreatePeriodusers
+            , 
+            
+            std::string oauthPerioduseridPeriodproperty
+            , 
+            
+            bool forcePeriodstrictPeriodusernamePeriodmatching
+            , 
+            
+            bool oauthPeriodencodePerioduserids
+            , 
+            
+            bool oauthPeriodhashPerioduserids
+            , 
+            
+            std::string oauthPeriodcallBackUrl
+            , 
+            
+            bool oauthPeriodaccessPeriodtokenPeriodpersist
+            , 
+            
+            bool oauthPeriodaccessPeriodtokenPeriodpersistPeriodcookie
+            , 
+            
+            bool oauthPeriodcsrfPeriodstatePeriodprotection
+            , 
+            
+            bool oauthPeriodredirectPeriodrequestPeriodparams
+            , 
+            
+            bool oauthPeriodconfigPeriodsiblingsPeriodallow
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param supportedPaths 
+    */
+    Response<
+                ComAdobeGraniteAuthRequirementImplDefaultRequirementHandlerInfo
+        >
+    comAdobeGraniteAuthRequirementImplDefaultRequirementHandler(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> supportedPaths
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param path 
+    * \param servicePeriodranking 
+    * \param idpUrl 
+    * \param idpCertAlias 
+    * \param idpHttpRedirect 
+    * \param serviceProviderEntityId 
+    * \param assertionConsumerServiceURL 
+    * \param spPrivateKeyAlias 
+    * \param keyStorePassword 
+    * \param defaultRedirectUrl 
+    * \param userIDAttribute 
+    * \param useEncryption 
+    * \param createUser 
+    * \param userIntermediatePath 
+    * \param addGroupMemberships 
+    * \param groupMembershipAttribute 
+    * \param defaultGroups 
+    * \param nameIdFormat 
+    * \param synchronizeAttributes 
+    * \param handleLogout 
+    * \param logoutUrl 
+    * \param clockTolerance 
+    * \param digestMethod 
+    * \param signatureMethod 
+    * \param identitySyncType 
+    * \param idpIdentifier 
+    */
+    Response<
+                ComAdobeGraniteAuthSamlSamlAuthenticationHandlerInfo
+        >
+    comAdobeGraniteAuthSamlSamlAuthenticationHandler(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> path
+            
+            , 
+            
+            int servicePeriodranking
+            , 
+            
+            std::string idpUrl
+            , 
+            
+            std::string idpCertAlias
+            , 
+            
+            bool idpHttpRedirect
+            , 
+            
+            std::string serviceProviderEntityId
+            , 
+            
+            std::string assertionConsumerServiceURL
+            , 
+            
+            std::string spPrivateKeyAlias
+            , 
+            
+            std::string keyStorePassword
+            , 
+            
+            std::string defaultRedirectUrl
+            , 
+            
+            std::string userIDAttribute
+            , 
+            
+            bool useEncryption
+            , 
+            
+            bool createUser
+            , 
+            
+            std::string userIntermediatePath
+            , 
+            
+            bool addGroupMemberships
+            , 
+            
+            std::string groupMembershipAttribute
+            , 
+            std::list<std::string> defaultGroups
+            
+            , 
+            
+            std::string nameIdFormat
+            , 
+            std::list<std::string> synchronizeAttributes
+            
+            , 
+            
+            bool handleLogout
+            , 
+            
+            std::string logoutUrl
+            , 
+            
+            int clockTolerance
+            , 
+            
+            std::string digestMethod
+            , 
+            
+            std::string signatureMethod
+            , 
+            
+            std::string identitySyncType
+            , 
+            
+            std::string idpIdentifier
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param path 
+    * \param servicePeriodranking 
+    * \param jaasPeriodcontrolFlag 
+    * \param jaasPeriodrealmName 
+    * \param jaasPeriodranking 
+    * \param headers 
+    * \param cookies 
+    * \param parameters 
+    * \param usermap 
+    * \param format 
+    * \param trustedCredentialsAttribute 
+    */
+    Response<
+                ComAdobeGraniteAuthSsoImplSsoAuthenticationHandlerInfo
+        >
+    comAdobeGraniteAuthSsoImplSsoAuthenticationHandler(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string path
+            , 
+            
+            int servicePeriodranking
+            , 
+            
+            std::string jaasPeriodcontrolFlag
+            , 
+            
+            std::string jaasPeriodrealmName
+            , 
+            
+            int jaasPeriodranking
+            , 
+            std::list<std::string> headers
+            
+            , 
+            std::list<std::string> cookies
+            
+            , 
+            std::list<std::string> parameters
+            
+            , 
+            std::list<std::string> usermap
+            
+            , 
+            
+            std::string format
+            , 
+            
+            std::string trustedCredentialsAttribute
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param hcPeriodtags 
+    * \param minimumPeriodcodePeriodcachePeriodsize 
+    */
+    Response<
+                ComAdobeGraniteBundlesHcImplCodeCacheHealthCheckInfo
+        >
+    comAdobeGraniteBundlesHcImplCodeCacheHealthCheck(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> hcPeriodtags
+            
+            , 
+            
+            int minimumPeriodcodePeriodcachePeriodsize
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param hcPeriodtags 
+    */
+    Response<
+                ComAdobeGraniteBundlesHcImplCrxdeSupportBundleHealthCheckInfo
+        >
+    comAdobeGraniteBundlesHcImplCrxdeSupportBundleHealthCheck(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> hcPeriodtags
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param hcPeriodtags 
+    */
+    Response<
+                ComAdobeGraniteBundlesHcImplDavExBundleHealthCheckInfo
+        >
+    comAdobeGraniteBundlesHcImplDavExBundleHealthCheck(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> hcPeriodtags
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param hcPeriodtags 
+    * \param ignoredPeriodbundles 
+    */
+    Response<
+                ComAdobeGraniteBundlesHcImplInactiveBundlesHealthCheckInfo
+        >
+    comAdobeGraniteBundlesHcImplInactiveBundlesHealthCheck(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> hcPeriodtags
+            
+            , 
+            std::list<std::string> ignoredPeriodbundles
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param hcPeriodtags 
+    * \param maxPeriodqueuedPeriodjobs 
+    */
+    Response<
+                ComAdobeGraniteBundlesHcImplJobsHealthCheckInfo
+        >
+    comAdobeGraniteBundlesHcImplJobsHealthCheck(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> hcPeriodtags
+            
+            , 
+            
+            int maxPeriodqueuedPeriodjobs
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param hcPeriodtags 
+    */
+    Response<
+                ComAdobeGraniteBundlesHcImplSlingGetServletHealthCheckInfo
+        >
+    comAdobeGraniteBundlesHcImplSlingGetServletHealthCheck(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> hcPeriodtags
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param hcPeriodtags 
+    */
+    Response<
+                ComAdobeGraniteBundlesHcImplSlingJavaScriptHandlerHealthCheckInfo
+        >
+    comAdobeGraniteBundlesHcImplSlingJavaScriptHandlerHealthCheck(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> hcPeriodtags
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param hcPeriodtags 
+    */
+    Response<
+                ComAdobeGraniteBundlesHcImplSlingJspScriptHandlerHealthCheckInfo
+        >
+    comAdobeGraniteBundlesHcImplSlingJspScriptHandlerHealthCheck(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> hcPeriodtags
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param hcPeriodtags 
+    */
+    Response<
+                ComAdobeGraniteBundlesHcImplSlingReferrerFilterHealthCheckInfo
+        >
+    comAdobeGraniteBundlesHcImplSlingReferrerFilterHealthCheck(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> hcPeriodtags
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param hcPeriodtags 
+    */
+    Response<
+                ComAdobeGraniteBundlesHcImplWebDavBundleHealthCheckInfo
+        >
+    comAdobeGraniteBundlesHcImplWebDavBundleHealthCheck(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> hcPeriodtags
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param replicatePeriodcommentPeriodresourceTypes 
+    */
+    Response<
+                ComAdobeGraniteCommentsInternalCommentReplicationContentFilterFacInfo
+        >
+    comAdobeGraniteCommentsInternalCommentReplicationContentFilterFac(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> replicatePeriodcommentPeriodresourceTypes
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param compatgroups 
+    * \param enabled 
+    */
+    Response<
+                ComAdobeGraniteCompatrouterImplCompatSwitchingServiceImplInfo
+        >
+    comAdobeGraniteCompatrouterImplCompatSwitchingServiceImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> compatgroups
+            
+            , 
+            
+            bool enabled
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param id 
+    * \param compatPath 
+    * \param newPath 
+    */
+    Response<
+                ComAdobeGraniteCompatrouterImplRoutingConfigInfo
+        >
+    comAdobeGraniteCompatrouterImplRoutingConfig(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string id
+            , 
+            
+            std::string compatPath
+            , 
+            
+            std::string newPath
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param group 
+    * \param ids 
+    */
+    Response<
+                ComAdobeGraniteCompatrouterImplSwitchMappingConfigInfo
+        >
+    comAdobeGraniteCompatrouterImplSwitchMappingConfig(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string group
+            , 
+            std::list<std::string> ids
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param enabled 
+    * \param fallbackPaths 
+    */
+    Response<
+                ComAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingInfo
+        >
+    comAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolving(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool enabled
+            , 
+            std::list<std::string> fallbackPaths
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param comPeriodadobePeriodgranitePeriodcontexthubPeriodsilentMode 
+    * \param comPeriodadobePeriodgranitePeriodcontexthubPeriodshowUi 
+    */
+    Response<
+                ComAdobeGraniteContexthubImplContextHubImplInfo
+        >
+    comAdobeGraniteContexthubImplContextHubImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool comPeriodadobePeriodgranitePeriodcontexthubPeriodsilentMode
+            , 
+            
+            bool comPeriodadobePeriodgranitePeriodcontexthubPeriodshowUi
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param alloworigin 
+    * \param alloworiginregexp 
+    * \param allowedpaths 
+    * \param exposedheaders 
+    * \param maxage 
+    * \param supportedheaders 
+    * \param supportedmethods 
+    * \param supportscredentials 
+    */
+    Response<
+                ComAdobeGraniteCorsImplCORSPolicyImplInfo
+        >
+    comAdobeGraniteCorsImplCORSPolicyImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> alloworigin
+            
+            , 
+            std::list<std::string> alloworiginregexp
+            
+            , 
+            std::list<std::string> allowedpaths
+            
+            , 
+            std::list<std::string> exposedheaders
+            
+            , 
+            
+            int maxage
+            , 
+            std::list<std::string> supportedheaders
+            
+            , 
+            std::list<std::string> supportedmethods
+            
+            , 
+            
+            bool supportscredentials
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param filterPeriodmethods 
+    * \param filterPeriodenablePeriodsafePerioduserPeriodagents 
+    * \param filterPeriodsafePerioduserPeriodagents 
+    * \param filterPeriodexcludedPeriodpaths 
+    */
+    Response<
+                ComAdobeGraniteCsrfImplCSRFFilterInfo
+        >
+    comAdobeGraniteCsrfImplCSRFFilter(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> filterPeriodmethods
+            
+            , 
+            
+            bool filterPeriodenablePeriodsafePerioduserPeriodagents
+            , 
+            std::list<std::string> filterPeriodsafePerioduserPeriodagents
+            
+            , 
+            std::list<std::string> filterPeriodexcludedPeriodpaths
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param csrfPeriodtokenPeriodexpiresPeriodin 
+    * \param slingPeriodauthPeriodrequirements 
+    */
+    Response<
+                ComAdobeGraniteCsrfImplCSRFServletInfo
+        >
+    comAdobeGraniteCsrfImplCSRFServlet(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int csrfPeriodtokenPeriodexpiresPeriodin
+            , 
+            
+            std::string slingPeriodauthPeriodrequirements
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param name 
+    * \param username 
+    * \param encryptedPassword 
+    */
+    Response<
+                ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSeInfo
+        >
+    comAdobeGraniteDistributionCoreImplCryptoDistributionTransportSe(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string name
+            , 
+            
+            std::string username
+            , 
+            
+            std::string encryptedPassword
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param enabled 
+    * \param agentName 
+    * \param diffPath 
+    * \param observedPath 
+    * \param serviceName 
+    * \param propertyNames 
+    * \param distributionDelay 
+    * \param serviceUserPeriodtarget 
+    */
+    Response<
+                ComAdobeGraniteDistributionCoreImplDiffDiffChangesObserverInfo
+        >
+    comAdobeGraniteDistributionCoreImplDiffDiffChangesObserver(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool enabled
+            , 
+            
+            std::string agentName
+            , 
+            
+            std::string diffPath
+            , 
+            
+            std::string observedPath
+            , 
+            
+            std::string serviceName
+            , 
+            
+            std::string propertyNames
+            , 
+            
+            int distributionDelay
+            , 
+            
+            std::string serviceUserPeriodtarget
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param diffPath 
+    * \param serviceName 
+    * \param serviceUserPeriodtarget 
+    */
+    Response<
+                ComAdobeGraniteDistributionCoreImplDiffDiffEventListenerInfo
+        >
+    comAdobeGraniteDistributionCoreImplDiffDiffEventListener(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string diffPath
+            , 
+            
+            std::string serviceName
+            , 
+            
+            std::string serviceUserPeriodtarget
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param importerPeriodname 
+    */
+    Response<
+                ComAdobeGraniteDistributionCoreImplDistributionToReplicationEvenInfo
+        >
+    comAdobeGraniteDistributionCoreImplDistributionToReplicationEven(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> importerPeriodname
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param providerName 
+    * \param forwardPeriodrequests 
+    */
+    Response<
+                ComAdobeGraniteDistributionCoreImplReplicationAdaptersReplicatInfo
+        >
+    comAdobeGraniteDistributionCoreImplReplicationAdaptersReplicat(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string providerName
+            , 
+            
+            bool forwardPeriodrequests
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param forwardPeriodrequests 
+    */
+    Response<
+                ComAdobeGraniteDistributionCoreImplReplicationDistributionTransInfo
+        >
+    comAdobeGraniteDistributionCoreImplReplicationDistributionTrans(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool forwardPeriodrequests
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param name 
+    * \param serviceName 
+    * \param userId 
+    * \param accessTokenProviderPeriodtarget 
+    */
+    Response<
+                ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuInfo
+        >
+    comAdobeGraniteDistributionCoreImplTransportAccessTokenDistribu(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string name
+            , 
+            
+            std::string serviceName
+            , 
+            
+            std::string userId
+            , 
+            
+            std::string accessTokenProviderPeriodtarget
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param featurePeriodname 
+    * \param featurePerioddescription 
+    * \param httpPeriodheaderPeriodname 
+    * \param httpPeriodheaderPeriodvaluepattern 
+    */
+    Response<
+                ComAdobeGraniteFragsImplCheckHttpHeaderFlagInfo
+        >
+    comAdobeGraniteFragsImplCheckHttpHeaderFlag(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string featurePeriodname
+            , 
+            
+            std::string featurePerioddescription
+            , 
+            
+            std::string httpPeriodheaderPeriodname
+            , 
+            
+            std::string httpPeriodheaderPeriodvaluepattern
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param featurePeriodname 
+    * \param featurePerioddescription 
+    * \param activePeriodpercentage 
+    * \param cookiePeriodname 
+    * \param cookiePeriodmaxAge 
+    */
+    Response<
+                ComAdobeGraniteFragsImplRandomFeatureInfo
+        >
+    comAdobeGraniteFragsImplRandomFeature(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string featurePeriodname
+            , 
+            
+            std::string featurePerioddescription
+            , 
+            
+            std::string activePeriodpercentage
+            , 
+            
+            std::string cookiePeriodname
+            , 
+            
+            int cookiePeriodmaxAge
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param comPeriodadobePeriodgranitePeriodhttpcachePeriodfilePerioddocumentRoot 
+    * \param comPeriodadobePeriodgranitePeriodhttpcachePeriodfilePeriodincludeHost 
+    */
+    Response<
+                ComAdobeGraniteHttpcacheFileFileCacheStoreInfo
+        >
+    comAdobeGraniteHttpcacheFileFileCacheStore(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string comPeriodadobePeriodgranitePeriodhttpcachePeriodfilePerioddocumentRoot
+            , 
+            
+            std::string comPeriodadobePeriodgranitePeriodhttpcachePeriodfilePeriodincludeHost
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param comPeriodadobePeriodgranitePeriodhttpcachePeriodurlPeriodpaths 
+    */
+    Response<
+                ComAdobeGraniteHttpcacheImplOuterCacheFilterInfo
+        >
+    comAdobeGraniteHttpcacheImplOuterCacheFilter(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> comPeriodadobePeriodgranitePeriodhttpcachePeriodurlPeriodpaths
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param pseudoPeriodpatterns 
+    */
+    Response<
+                ComAdobeGraniteI18nImplBundlePseudoTranslationsInfo
+        >
+    comAdobeGraniteI18nImplBundlePseudoTranslations(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> pseudoPeriodpatterns
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param securityPeriodpreferencesPeriodname 
+    */
+    Response<
+                ComAdobeGraniteI18nImplPreferencesLocaleResolverServiceInfo
+        >
+    comAdobeGraniteI18nImplPreferencesLocaleResolverService(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string securityPeriodpreferencesPeriodname
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param granitePeriodinfocollectorPeriodincludeThreadDumps 
+    * \param granitePeriodinfocollectorPeriodincludeHeapDump 
+    */
+    Response<
+                ComAdobeGraniteInfocollectorInfoCollectorInfo
+        >
+    comAdobeGraniteInfocollectorInfoCollector(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool granitePeriodinfocollectorPeriodincludeThreadDumps
+            , 
+            
+            bool granitePeriodinfocollectorPeriodincludeHeapDump
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param comPeriodadobePeriodgranitePeriodjettyPeriodsslPeriodport 
+    * \param comPeriodadobePeriodgranitePeriodjettyPeriodsslPeriodkeystorePerioduser 
+    * \param comPeriodadobePeriodgranitePeriodjettyPeriodsslPeriodkeystorePeriodpassword 
+    * \param comPeriodadobePeriodgranitePeriodjettyPeriodsslPeriodciphersuitesPeriodexcluded 
+    * \param comPeriodadobePeriodgranitePeriodjettyPeriodsslPeriodciphersuitesPeriodincluded 
+    * \param comPeriodadobePeriodgranitePeriodjettyPeriodsslPeriodclientPeriodcertificate 
+    */
+    Response<
+                ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryInfo
+        >
+    comAdobeGraniteJettySslInternalGraniteSslConnectorFactory(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int comPeriodadobePeriodgranitePeriodjettyPeriodsslPeriodport
+            , 
+            
+            std::string comPeriodadobePeriodgranitePeriodjettyPeriodsslPeriodkeystorePerioduser
+            , 
+            
+            std::string comPeriodadobePeriodgranitePeriodjettyPeriodsslPeriodkeystorePeriodpassword
+            , 
+            std::list<std::string> comPeriodadobePeriodgranitePeriodjettyPeriodsslPeriodciphersuitesPeriodexcluded
+            
+            , 
+            std::list<std::string> comPeriodadobePeriodgranitePeriodjettyPeriodsslPeriodciphersuitesPeriodincluded
+            
+            , 
+            
+            std::string comPeriodadobePeriodgranitePeriodjettyPeriodsslPeriodclientPeriodcertificate
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param checkInternval 
+    * \param excludeIds 
+    * \param encryptPing 
+    */
+    Response<
+                ComAdobeGraniteLicenseImplLicenseCheckFilterInfo
+        >
+    comAdobeGraniteLicenseImplLicenseCheckFilter(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int checkInternval
+            , 
+            std::list<std::string> excludeIds
+            
+            , 
+            
+            bool encryptPing
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param messagesPeriodqueuePeriodsize 
+    * \param loggerPeriodconfig 
+    * \param messagesPeriodsize 
+    */
+    Response<
+                ComAdobeGraniteLoggingImplLogAnalyserImplInfo
+        >
+    comAdobeGraniteLoggingImplLogAnalyserImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int messagesPeriodqueuePeriodsize
+            , 
+            std::list<std::string> loggerPeriodconfig
+            
+            , 
+            
+            int messagesPeriodsize
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param hcPeriodtags 
+    */
+    Response<
+                ComAdobeGraniteLoggingImplLogErrorHealthCheckInfo
+        >
+    comAdobeGraniteLoggingImplLogErrorHealthCheck(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> hcPeriodtags
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param granitePeriodmaintenancePeriodmandatory 
+    * \param jobPeriodtopics 
+    */
+    Response<
+                ComAdobeGraniteMaintenanceCrxImplDataStoreGarbageCollectionTaskInfo
+        >
+    comAdobeGraniteMaintenanceCrxImplDataStoreGarbageCollectionTask(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool granitePeriodmaintenancePeriodmandatory
+            , 
+            
+            std::string jobPeriodtopics
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param jobPeriodtopics 
+    */
+    Response<
+                ComAdobeGraniteMaintenanceCrxImplLuceneBinariesCleanupTaskInfo
+        >
+    comAdobeGraniteMaintenanceCrxImplLuceneBinariesCleanupTask(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string jobPeriodtopics
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param fullPeriodgcPerioddays 
+    */
+    Response<
+                ComAdobeGraniteMaintenanceCrxImplRevisionCleanupTaskInfo
+        >
+    comAdobeGraniteMaintenanceCrxImplRevisionCleanupTask(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> fullPeriodgcPerioddays
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param scriptPeriodfilename 
+    * \param scriptPerioddisplay 
+    * \param scriptPeriodpath 
+    * \param scriptPeriodplatform 
+    * \param interval 
+    * \param jmxdomain 
+    */
+    Response<
+                ComAdobeGraniteMonitoringImplScriptConfigImplInfo
+        >
+    comAdobeGraniteMonitoringImplScriptConfigImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string scriptPeriodfilename
+            , 
+            
+            std::string scriptPerioddisplay
+            , 
+            
+            std::string scriptPeriodpath
+            , 
+            std::list<std::string> scriptPeriodplatform
+            
+            , 
+            
+            int interval
+            , 
+            
+            std::string jmxdomain
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param path 
+    * \param jaasPeriodcontrolFlag 
+    * \param jaasPeriodrealmName 
+    * \param jaasPeriodranking 
+    * \param oauthPeriodofflinePeriodvalidation 
+    */
+    Response<
+                ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanInfo
+        >
+    comAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHan(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string path
+            , 
+            
+            std::string jaasPeriodcontrolFlag
+            , 
+            
+            std::string jaasPeriodrealmName
+            , 
+            
+            int jaasPeriodranking
+            , 
+            
+            bool oauthPeriodofflinePeriodvalidation
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param schedulerPeriodexpression 
+    */
+    Response<
+                ComAdobeGraniteOauthServerImplAccessTokenCleanupTaskInfo
+        >
+    comAdobeGraniteOauthServerImplAccessTokenCleanupTask(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string schedulerPeriodexpression
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param oauthPeriodclientPeriodrevocationPeriodactive 
+    */
+    Response<
+                ComAdobeGraniteOauthServerImplOAuth2ClientRevocationServletInfo
+        >
+    comAdobeGraniteOauthServerImplOAuth2ClientRevocationServlet(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool oauthPeriodclientPeriodrevocationPeriodactive
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param slingPeriodservletPeriodpaths 
+    * \param oauthPeriodrevocationPeriodactive 
+    */
+    Response<
+                ComAdobeGraniteOauthServerImplOAuth2RevocationEndpointServletInfo
+        >
+    comAdobeGraniteOauthServerImplOAuth2RevocationEndpointServlet(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string slingPeriodservletPeriodpaths
+            , 
+            
+            bool oauthPeriodrevocationPeriodactive
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param oauthPeriodissuer 
+    * \param oauthPeriodaccessPeriodtokenPeriodexpiresPeriodin 
+    * \param osgiPeriodhttpPeriodwhiteboardPeriodservletPeriodpattern 
+    * \param osgiPeriodhttpPeriodwhiteboardPeriodcontextPeriodselect 
+    */
+    Response<
+                ComAdobeGraniteOauthServerImplOAuth2TokenEndpointServletInfo
+        >
+    comAdobeGraniteOauthServerImplOAuth2TokenEndpointServlet(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string oauthPeriodissuer
+            , 
+            
+            std::string oauthPeriodaccessPeriodtokenPeriodexpiresPeriodin
+            , 
+            
+            std::string osgiPeriodhttpPeriodwhiteboardPeriodservletPeriodpattern
+            , 
+            
+            std::string osgiPeriodhttpPeriodwhiteboardPeriodcontextPeriodselect
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param oauthPeriodtokenPeriodrevocationPeriodactive 
+    */
+    Response<
+                ComAdobeGraniteOauthServerImplOAuth2TokenRevocationServletInfo
+        >
+    comAdobeGraniteOauthServerImplOAuth2TokenRevocationServlet(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool oauthPeriodtokenPeriodrevocationPeriodactive
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param offloadingPeriodtransporter 
+    * \param offloadingPeriodcleanupPeriodpayload 
+    */
+    Response<
+                ComAdobeGraniteOffloadingImplOffloadingConfiguratorInfo
+        >
+    comAdobeGraniteOffloadingImplOffloadingConfigurator(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string offloadingPeriodtransporter
+            , 
+            
+            bool offloadingPeriodcleanupPeriodpayload
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param offloadingPeriodjobclonerPeriodenabled 
+    */
+    Response<
+                ComAdobeGraniteOffloadingImplOffloadingJobClonerInfo
+        >
+    comAdobeGraniteOffloadingImplOffloadingJobCloner(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool offloadingPeriodjobclonerPeriodenabled
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param offloadingPeriodoffloaderPeriodenabled 
+    */
+    Response<
+                ComAdobeGraniteOffloadingImplOffloadingJobOffloaderInfo
+        >
+    comAdobeGraniteOffloadingImplOffloadingJobOffloader(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool offloadingPeriodoffloaderPeriodenabled
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param offloadingPeriodagentmanagerPeriodenabled 
+    */
+    Response<
+                ComAdobeGraniteOffloadingImplTransporterOffloadingAgentManagerInfo
+        >
+    comAdobeGraniteOffloadingImplTransporterOffloadingAgentManager(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool offloadingPeriodagentmanagerPeriodenabled
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param defaultPeriodtransportPeriodagentToWorkerPeriodprefix 
+    * \param defaultPeriodtransportPeriodagentToMasterPeriodprefix 
+    * \param defaultPeriodtransportPeriodinputPeriodpackage 
+    * \param defaultPeriodtransportPeriodoutputPeriodpackage 
+    * \param defaultPeriodtransportPeriodreplicationPeriodsynchronous 
+    * \param defaultPeriodtransportPeriodcontentpackage 
+    * \param offloadingPeriodtransporterPerioddefaultPeriodenabled 
+    */
+    Response<
+                ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoInfo
+        >
+    comAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspo(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string defaultPeriodtransportPeriodagentToWorkerPeriodprefix
+            , 
+            
+            std::string defaultPeriodtransportPeriodagentToMasterPeriodprefix
+            , 
+            
+            std::string defaultPeriodtransportPeriodinputPeriodpackage
+            , 
+            
+            std::string defaultPeriodtransportPeriodoutputPeriodpackage
+            , 
+            
+            bool defaultPeriodtransportPeriodreplicationPeriodsynchronous
+            , 
+            
+            bool defaultPeriodtransportPeriodcontentpackage
+            , 
+            
+            bool offloadingPeriodtransporterPerioddefaultPeriodenabled
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param omnisearchPeriodsuggestionPeriodrequiretextPeriodmin 
+    * \param omnisearchPeriodsuggestionPeriodspellcheckPeriodrequire 
+    */
+    Response<
+                ComAdobeGraniteOmnisearchImplCoreOmniSearchServiceImplInfo
+        >
+    comAdobeGraniteOmnisearchImplCoreOmniSearchServiceImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int omnisearchPeriodsuggestionPeriodrequiretextPeriodmin
+            , 
+            
+            bool omnisearchPeriodsuggestionPeriodspellcheckPeriodrequire
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param optoutPeriodcookies 
+    * \param optoutPeriodheaders 
+    * \param optoutPeriodwhitelistPeriodcookies 
+    */
+    Response<
+                ComAdobeGraniteOptoutImplOptOutServiceImplInfo
+        >
+    comAdobeGraniteOptoutImplOptOutServiceImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> optoutPeriodcookies
+            
+            , 
+            std::list<std::string> optoutPeriodheaders
+            
+            , 
+            std::list<std::string> optoutPeriodwhitelistPeriodcookies
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param indexingPeriodcriticalPeriodthreshold 
+    * \param indexingPeriodwarnPeriodthreshold 
+    * \param hcPeriodtags 
+    */
+    Response<
+                ComAdobeGraniteQueriesImplHcAsyncIndexHealthCheckInfo
+        >
+    comAdobeGraniteQueriesImplHcAsyncIndexHealthCheck(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int indexingPeriodcriticalPeriodthreshold
+            , 
+            
+            int indexingPeriodwarnPeriodthreshold
+            , 
+            std::list<std::string> hcPeriodtags
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param largePeriodindexPeriodcriticalPeriodthreshold 
+    * \param largePeriodindexPeriodwarnPeriodthreshold 
+    * \param hcPeriodtags 
+    */
+    Response<
+                ComAdobeGraniteQueriesImplHcLargeIndexHealthCheckInfo
+        >
+    comAdobeGraniteQueriesImplHcLargeIndexHealthCheck(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int largePeriodindexPeriodcriticalPeriodthreshold
+            , 
+            
+            int largePeriodindexPeriodwarnPeriodthreshold
+            , 
+            std::list<std::string> hcPeriodtags
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param hcPeriodtags 
+    */
+    Response<
+                ComAdobeGraniteQueriesImplHcQueriesStatusHealthCheckInfo
+        >
+    comAdobeGraniteQueriesImplHcQueriesStatusHealthCheck(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> hcPeriodtags
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param getPeriod 
+    */
+    Response<
+                ComAdobeGraniteQueriesImplHcQueryHealthCheckMetricsInfo
+        >
+    comAdobeGraniteQueriesImplHcQueryHealthCheckMetrics(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int getPeriod
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param hcPeriodtags 
+    */
+    Response<
+                ComAdobeGraniteQueriesImplHcQueryLimitsHealthCheckInfo
+        >
+    comAdobeGraniteQueriesImplHcQueryLimitsHealthCheck(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> hcPeriodtags
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param numberPeriodofPeriodretriesPeriodallowed 
+    * \param hcPeriodtags 
+    */
+    Response<
+                ComAdobeGraniteReplicationHcImplReplicationQueueHealthCheckInfo
+        >
+    comAdobeGraniteReplicationHcImplReplicationQueueHealthCheck(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int numberPeriodofPeriodretriesPeriodallowed
+            , 
+            std::list<std::string> hcPeriodtags
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param hcPeriodtags 
+    */
+    Response<
+                ComAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCInfo
+        >
+    comAdobeGraniteReplicationHcImplReplicationTransportUsersHealthC(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> hcPeriodtags
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param hcPeriodtags 
+    */
+    Response<
+                ComAdobeGraniteRepositoryHcImplAuthorizableNodeNameHealthCheckInfo
+        >
+    comAdobeGraniteRepositoryHcImplAuthorizableNodeNameHealthCheck(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> hcPeriodtags
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param hcPeriodtags 
+    * \param excludePeriodsearchPeriodpath 
+    */
+    Response<
+                ComAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCInfo
+        >
+    comAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthC(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> hcPeriodtags
+            
+            , 
+            std::list<std::string> excludePeriodsearchPeriodpath
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param hcPeriodtags 
+    */
+    Response<
+                ComAdobeGraniteRepositoryHcImplContinuousRGCHealthCheckInfo
+        >
+    comAdobeGraniteRepositoryHcImplContinuousRGCHealthCheck(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> hcPeriodtags
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param hcPeriodtags 
+    */
+    Response<
+                ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheInfo
+        >
+    comAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthChe(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> hcPeriodtags
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param hcPeriodtags 
+    * \param accountPeriodlogins 
+    * \param consolePeriodlogins 
+    */
+    Response<
+                ComAdobeGraniteRepositoryHcImplDefaultLoginsHealthCheckInfo
+        >
+    comAdobeGraniteRepositoryHcImplDefaultLoginsHealthCheck(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> hcPeriodtags
+            
+            , 
+            std::list<std::string> accountPeriodlogins
+            
+            , 
+            std::list<std::string> consolePeriodlogins
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param hcPeriodtags 
+    * \param diskPeriodspacePeriodwarnPeriodthreshold 
+    * \param diskPeriodspacePerioderrorPeriodthreshold 
+    */
+    Response<
+                ComAdobeGraniteRepositoryHcImplDiskSpaceHealthCheckInfo
+        >
+    comAdobeGraniteRepositoryHcImplDiskSpaceHealthCheck(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> hcPeriodtags
+            
+            , 
+            
+            int diskPeriodspacePeriodwarnPeriodthreshold
+            , 
+            
+            int diskPeriodspacePerioderrorPeriodthreshold
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param hcPeriodtags 
+    */
+    Response<
+                ComAdobeGraniteRepositoryHcImplObservationQueueLengthHealthCheckInfo
+        >
+    comAdobeGraniteRepositoryHcImplObservationQueueLengthHealthCheck(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> hcPeriodtags
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param enabled 
+    * \param intervalSeconds 
+    * \param commitsPerIntervalThreshold 
+    * \param maxLocationLength 
+    * \param maxDetailsShown 
+    * \param minDetailsPercentage 
+    * \param threadMatchers 
+    * \param maxGreedyDepth 
+    * \param greedyStackMatchers 
+    * \param stackFilters 
+    * \param stackMatchers 
+    * \param stackCategorizers 
+    * \param stackShorteners 
+    */
+    Response<
+                ComAdobeGraniteRepositoryImplCommitStatsConfigInfo
+        >
+    comAdobeGraniteRepositoryImplCommitStatsConfig(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool enabled
+            , 
+            
+            int intervalSeconds
+            , 
+            
+            int commitsPerIntervalThreshold
+            , 
+            
+            int maxLocationLength
+            , 
+            
+            int maxDetailsShown
+            , 
+            
+            int minDetailsPercentage
+            , 
+            std::list<std::string> threadMatchers
+            
+            , 
+            
+            int maxGreedyDepth
+            , 
+            
+            std::string greedyStackMatchers
+            , 
+            std::list<std::string> stackFilters
+            
+            , 
+            std::list<std::string> stackMatchers
+            
+            , 
+            std::list<std::string> stackCategorizers
+            
+            , 
+            std::list<std::string> stackShorteners
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param servicePeriodranking 
+    * \param serviceusersPeriodsimpleSubjectPopulation 
+    * \param serviceusersPeriodlist 
+    */
+    Response<
+                ComAdobeGraniteRepositoryServiceUserConfigurationInfo
+        >
+    comAdobeGraniteRepositoryServiceUserConfiguration(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int servicePeriodranking
+            , 
+            
+            bool serviceusersPeriodsimpleSubjectPopulation
+            , 
+            std::list<std::string> serviceusersPeriodlist
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param hcPeriodtags 
+    */
+    Response<
+                ComAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckImInfo
+        >
+    comAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckIm(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> hcPeriodtags
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param name 
+    * \param types 
+    */
+    Response<
+                ComAdobeGraniteResourcestatusImplCompositeStatusTypeInfo
+        >
+    comAdobeGraniteResourcestatusImplCompositeStatusType(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string name
+            , 
+            std::list<std::string> types
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param providerPeriodroot 
+    */
+    Response<
+                ComAdobeGraniteResourcestatusImplStatusResourceProviderImplInfo
+        >
+    comAdobeGraniteResourcestatusImplStatusResourceProviderImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string providerPeriodroot
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param mimePeriodallowEmpty 
+    * \param mimePeriodallowed 
+    */
+    Response<
+                ComAdobeGraniteRestAssetsImplAssetContentDispositionFilterInfo
+        >
+    comAdobeGraniteRestAssetsImplAssetContentDispositionFilter(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool mimePeriodallowEmpty
+            , 
+            std::list<std::string> mimePeriodallowed
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param providerPeriodroots 
+    */
+    Response<
+                ComAdobeGraniteRestImplApiEndpointResourceProviderFactoryImplInfo
+        >
+    comAdobeGraniteRestImplApiEndpointResourceProviderFactoryImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string providerPeriodroots
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param defaultPeriodlimit 
+    * \param usePeriodabsolutePerioduri 
+    */
+    Response<
+                ComAdobeGraniteRestImplServletDefaultGETServletInfo
+        >
+    comAdobeGraniteRestImplServletDefaultGETServlet(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int defaultPeriodlimit
+            , 
+            
+            bool usePeriodabsolutePerioduri
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param hcPeriodtags 
+    */
+    Response<
+                ComAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationSInfo
+        >
+    comAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationS(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> hcPeriodtags
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param adapterPeriodcondition 
+    * \param granitePerioduserpropertiesPeriodnodetypes 
+    * \param granitePerioduserpropertiesPeriodresourcetypes 
+    */
+    Response<
+                ComAdobeGraniteSecurityUserUserPropertiesServiceInfo
+        >
+    comAdobeGraniteSecurityUserUserPropertiesService(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string adapterPeriodcondition
+            , 
+            std::list<std::string> granitePerioduserpropertiesPeriodnodetypes
+            
+            , 
+            std::list<std::string> granitePerioduserpropertiesPeriodresourcetypes
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param group2memberPeriodrelationshipPeriodoutgoing 
+    * \param group2memberPeriodexcludedPeriodoutgoing 
+    * \param group2memberPeriodrelationshipPeriodincoming 
+    * \param group2memberPeriodexcludedPeriodincoming 
+    */
+    Response<
+                ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplInfo
+        >
+    comAdobeGraniteSocialgraphImplSocialGraphFactoryImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string group2memberPeriodrelationshipPeriodoutgoing
+            , 
+            std::list<std::string> group2memberPeriodexcludedPeriodoutgoing
+            
+            , 
+            
+            std::string group2memberPeriodrelationshipPeriodincoming
+            , 
+            std::list<std::string> group2memberPeriodexcludedPeriodincoming
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param schedulerPeriodexpression 
+    * \param jmxPeriodobjectname 
+    */
+    Response<
+                ComAdobeGraniteSystemMonitoringImplSystemStatsMBeanImplInfo
+        >
+    comAdobeGraniteSystemMonitoringImplSystemStatsMBeanImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string schedulerPeriodexpression
+            , 
+            
+            std::string jmxPeriodobjectname
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param adapterPeriodcondition 
+    */
+    Response<
+                ComAdobeGraniteTaskmanagementImplJcrTaskAdapterFactoryInfo
+        >
+    comAdobeGraniteTaskmanagementImplJcrTaskAdapterFactory(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string adapterPeriodcondition
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param archivingPeriodenabled 
+    * \param schedulerPeriodexpression 
+    * \param archivePeriodsincePerioddaysPeriodcompleted 
+    */
+    Response<
+                ComAdobeGraniteTaskmanagementImplJcrTaskArchiveServiceInfo
+        >
+    comAdobeGraniteTaskmanagementImplJcrTaskArchiveService(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool archivingPeriodenabled
+            , 
+            
+            std::string schedulerPeriodexpression
+            , 
+            
+            int archivePeriodsincePerioddaysPeriodcompleted
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param purgeCompleted 
+    * \param completedAge 
+    * \param purgeActive 
+    * \param activeAge 
+    * \param saveThreshold 
+    */
+    Response<
+                ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskInfo
+        >
+    comAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTask(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool purgeCompleted
+            , 
+            
+            int completedAge
+            , 
+            
+            bool purgeActive
+            , 
+            
+            int activeAge
+            , 
+            
+            int saveThreshold
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param adapterPeriodcondition 
+    * \param taskmanagerPeriodadmingroups 
+    */
+    Response<
+                ComAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactorInfo
+        >
+    comAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactor(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string adapterPeriodcondition
+            , 
+            std::list<std::string> taskmanagerPeriodadmingroups
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param schedulerPeriodperiod 
+    * \param schedulerPeriodrunOn 
+    * \param granitePeriodthreaddumpPeriodenabled 
+    * \param granitePeriodthreaddumpPerioddumpsPerFile 
+    * \param granitePeriodthreaddumpPeriodenableGzipCompression 
+    * \param granitePeriodthreaddumpPeriodenableDirectoriesCompression 
+    * \param granitePeriodthreaddumpPeriodenableJStack 
+    * \param granitePeriodthreaddumpPeriodmaxBackupDays 
+    * \param granitePeriodthreaddumpPeriodbackupCleanTrigger 
+    */
+    Response<
+                ComAdobeGraniteThreaddumpThreadDumpCollectorInfo
+        >
+    comAdobeGraniteThreaddumpThreadDumpCollector(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int schedulerPeriodperiod
+            , 
+            
+            std::string schedulerPeriodrunOn
+            , 
+            
+            bool granitePeriodthreaddumpPeriodenabled
+            , 
+            
+            int granitePeriodthreaddumpPerioddumpsPerFile
+            , 
+            
+            bool granitePeriodthreaddumpPeriodenableGzipCompression
+            , 
+            
+            bool granitePeriodthreaddumpPeriodenableDirectoriesCompression
+            , 
+            
+            bool granitePeriodthreaddumpPeriodenableJStack
+            , 
+            
+            int granitePeriodthreaddumpPeriodmaxBackupDays
+            , 
+            
+            std::string granitePeriodthreaddumpPeriodbackupCleanTrigger
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param translationFactory 
+    * \param defaultConnectorLabel 
+    * \param defaultConnectorAttribution 
+    * \param defaultConnectorWorkspaceId 
+    * \param defaultConnectorSubscriptionKey 
+    * \param languageMapLocation 
+    * \param categoryMapLocation 
+    * \param retryAttempts 
+    * \param timeoutCount 
+    */
+    Response<
+                ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslInfo
+        >
+    comAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTransl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string translationFactory
+            , 
+            
+            std::string defaultConnectorLabel
+            , 
+            
+            std::string defaultConnectorAttribution
+            , 
+            
+            std::string defaultConnectorWorkspaceId
+            , 
+            
+            std::string defaultConnectorSubscriptionKey
+            , 
+            
+            std::string languageMapLocation
+            , 
+            
+            std::string categoryMapLocation
+            , 
+            
+            int retryAttempts
+            , 
+            
+            int timeoutCount
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param defaultConnectorName 
+    * \param defaultCategory 
+    */
+    Response<
+                ComAdobeGraniteTranslationCoreImplTranslationManagerImplInfo
+        >
+    comAdobeGraniteTranslationCoreImplTranslationManagerImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string defaultConnectorName
+            , 
+            
+            std::string defaultCategory
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param htmllibmanagerPeriodtiming 
+    * \param htmllibmanagerPerioddebugPeriodinitPeriodjs 
+    * \param htmllibmanagerPeriodminify 
+    * \param htmllibmanagerPerioddebug 
+    * \param htmllibmanagerPeriodgzip 
+    * \param htmllibmanagerPeriodmaxDataUriSize 
+    * \param htmllibmanagerPeriodmaxage 
+    * \param htmllibmanagerPeriodforceCQUrlInfo 
+    * \param htmllibmanagerPerioddefaultthemename 
+    * \param htmllibmanagerPerioddefaultuserthemename 
+    * \param htmllibmanagerPeriodclientmanager 
+    * \param htmllibmanagerPeriodpathPeriodlist 
+    * \param htmllibmanagerPeriodexcludedPeriodpathPeriodlist 
+    * \param htmllibmanagerPeriodprocessorPeriodjs 
+    * \param htmllibmanagerPeriodprocessorPeriodcss 
+    * \param htmllibmanagerPeriodlongcachePeriodpatterns 
+    * \param htmllibmanagerPeriodlongcachePeriodformat 
+    * \param htmllibmanagerPerioduseFileSystemOutputCache 
+    * \param htmllibmanagerPeriodfileSystemOutputCacheLocation 
+    * \param htmllibmanagerPerioddisablePeriodreplacement 
+    */
+    Response<
+                ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplInfo
+        >
+    comAdobeGraniteUiClientlibsImplHtmlLibraryManagerImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool htmllibmanagerPeriodtiming
+            , 
+            
+            std::string htmllibmanagerPerioddebugPeriodinitPeriodjs
+            , 
+            
+            bool htmllibmanagerPeriodminify
+            , 
+            
+            bool htmllibmanagerPerioddebug
+            , 
+            
+            bool htmllibmanagerPeriodgzip
+            , 
+            
+            int htmllibmanagerPeriodmaxDataUriSize
+            , 
+            
+            int htmllibmanagerPeriodmaxage
+            , 
+            
+            bool htmllibmanagerPeriodforceCQUrlInfo
+            , 
+            
+            std::string htmllibmanagerPerioddefaultthemename
+            , 
+            
+            std::string htmllibmanagerPerioddefaultuserthemename
+            , 
+            
+            std::string htmllibmanagerPeriodclientmanager
+            , 
+            std::list<std::string> htmllibmanagerPeriodpathPeriodlist
+            
+            , 
+            std::list<std::string> htmllibmanagerPeriodexcludedPeriodpathPeriodlist
+            
+            , 
+            std::list<std::string> htmllibmanagerPeriodprocessorPeriodjs
+            
+            , 
+            std::list<std::string> htmllibmanagerPeriodprocessorPeriodcss
+            
+            , 
+            std::list<std::string> htmllibmanagerPeriodlongcachePeriodpatterns
+            
+            , 
+            
+            std::string htmllibmanagerPeriodlongcachePeriodformat
+            , 
+            
+            bool htmllibmanagerPerioduseFileSystemOutputCache
+            , 
+            
+            std::string htmllibmanagerPeriodfileSystemOutputCacheLocation
+            , 
+            std::list<std::string> htmllibmanagerPerioddisablePeriodreplacement
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param enabled 
+    */
+    Response<
+                ComAdobeGraniteWorkflowConsoleFragsWorkflowWithdrawFeatureInfo
+        >
+    comAdobeGraniteWorkflowConsoleFragsWorkflowWithdrawFeature(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool enabled
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param granitePeriodworkflowPeriodWorkflowPublishEventServicePeriodenabled 
+    */
+    Response<
+                ComAdobeGraniteWorkflowConsolePublishWorkflowPublishEventServiceInfo
+        >
+    comAdobeGraniteWorkflowConsolePublishWorkflowPublishEventService(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool granitePeriodworkflowPeriodWorkflowPublishEventServicePeriodenabled
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param bucketSize 
+    */
+    Response<
+                ComAdobeGraniteWorkflowCoreJcrWorkflowBucketManagerInfo
+        >
+    comAdobeGraniteWorkflowCoreJcrWorkflowBucketManager(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int bucketSize
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param defaultPeriodtimeout 
+    * \param maxPeriodtimeout 
+    * \param defaultPeriodperiod 
+    */
+    Response<
+                ComAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerInfo
+        >
+    comAdobeGraniteWorkflowCoreJobExternalProcessJobHandler(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int defaultPeriodtimeout
+            , 
+            
+            int maxPeriodtimeout
+            , 
+            
+            int defaultPeriodperiod
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param jobPeriodtopics 
+    * \param allowPeriodselfPeriodprocessPeriodtermination 
+    */
+    Response<
+                ComAdobeGraniteWorkflowCoreJobJobHandlerInfo
+        >
+    comAdobeGraniteWorkflowCoreJobJobHandler(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> jobPeriodtopics
+            
+            , 
+            
+            bool allowPeriodselfPeriodprocessPeriodtermination
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param jobPeriodtopics 
+    */
+    Response<
+                ComAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumInfo
+        >
+    comAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsum(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string jobPeriodtopics
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param getSystemWorkflowModels 
+    * \param getPackageRootPath 
+    */
+    Response<
+                ComAdobeGraniteWorkflowCorePayloadMapCacheInfo
+        >
+    comAdobeGraniteWorkflowCorePayloadMapCache(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> getSystemWorkflowModels
+            
+            , 
+            
+            std::string getPackageRootPath
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param payloadPeriodmovePeriodwhitePeriodlist 
+    * \param payloadPeriodmovePeriodhandlePeriodfromPeriodworkflowPeriodprocess 
+    */
+    Response<
+                ComAdobeGraniteWorkflowCorePayloadmapPayloadMoveListenerInfo
+        >
+    comAdobeGraniteWorkflowCorePayloadmapPayloadMoveListener(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> payloadPeriodmovePeriodwhitePeriodlist
+            
+            , 
+            
+            bool payloadPeriodmovePeriodhandlePeriodfromPeriodworkflowPeriodprocess
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param cqPeriodworkflowPeriodconfigPeriodworkflowPeriodpackagesPeriodrootPeriodpath 
+    * \param cqPeriodworkflowPeriodconfigPeriodworkflowPeriodprocessPeriodlegacyPeriodmode 
+    * \param cqPeriodworkflowPeriodconfigPeriodallowPeriodlocking 
+    */
+    Response<
+                ComAdobeGraniteWorkflowCoreWorkflowConfigInfo
+        >
+    comAdobeGraniteWorkflowCoreWorkflowConfig(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> cqPeriodworkflowPeriodconfigPeriodworkflowPeriodpackagesPeriodrootPeriodpath
+            
+            , 
+            
+            bool cqPeriodworkflowPeriodconfigPeriodworkflowPeriodprocessPeriodlegacyPeriodmode
+            , 
+            
+            bool cqPeriodworkflowPeriodconfigPeriodallowPeriodlocking
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param granitePeriodworkflowinboxPeriodsortPeriodpropertyName 
+    * \param granitePeriodworkflowinboxPeriodsortPeriodorder 
+    * \param cqPeriodworkflowPeriodjobPeriodretry 
+    * \param cqPeriodworkflowPeriodsuperuser 
+    * \param granitePeriodworkflowPeriodinboxQuerySize 
+    * \param granitePeriodworkflowPeriodadminUserGroupFilter 
+    * \param granitePeriodworkflowPeriodenforceWorkitemAssigneePermissions 
+    * \param granitePeriodworkflowPeriodenforceWorkflowInitiatorPermissions 
+    * \param granitePeriodworkflowPeriodinjectTenantIdInJobTopics 
+    * \param granitePeriodworkflowPeriodmaxPurgeSaveThreshold 
+    * \param granitePeriodworkflowPeriodmaxPurgeQueryCount 
+    */
+    Response<
+                ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryInfo
+        >
+    comAdobeGraniteWorkflowCoreWorkflowSessionFactory(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string granitePeriodworkflowinboxPeriodsortPeriodpropertyName
+            , 
+            
+            std::string granitePeriodworkflowinboxPeriodsortPeriodorder
+            , 
+            
+            int cqPeriodworkflowPeriodjobPeriodretry
+            , 
+            std::list<std::string> cqPeriodworkflowPeriodsuperuser
+            
+            , 
+            
+            int granitePeriodworkflowPeriodinboxQuerySize
+            , 
+            
+            bool granitePeriodworkflowPeriodadminUserGroupFilter
+            , 
+            
+            bool granitePeriodworkflowPeriodenforceWorkitemAssigneePermissions
+            , 
+            
+            bool granitePeriodworkflowPeriodenforceWorkflowInitiatorPermissions
+            , 
+            
+            bool granitePeriodworkflowPeriodinjectTenantIdInJobTopics
+            , 
+            
+            int granitePeriodworkflowPeriodmaxPurgeSaveThreshold
+            , 
+            
+            int granitePeriodworkflowPeriodmaxPurgeQueryCount
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param scheduledpurgePeriodname 
+    * \param scheduledpurgePeriodworkflowStatus 
+    * \param scheduledpurgePeriodmodelIds 
+    * \param scheduledpurgePerioddaysold 
+    */
+    Response<
+                ComAdobeGraniteWorkflowPurgeSchedulerInfo
+        >
+    comAdobeGraniteWorkflowPurgeScheduler(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string scheduledpurgePeriodname
+            , 
+            
+            std::string scheduledpurgePeriodworkflowStatus
+            , 
+            std::list<std::string> scheduledpurgePeriodmodelIds
+            
+            , 
+            
+            int scheduledpurgePerioddaysold
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param maxConnections 
+    * \param maxRequests 
+    * \param requestTimeout 
+    * \param requestRetries 
+    * \param launchTimeout 
+    */
+    Response<
+                ComAdobeOctopusNcommBootstrapInfo
+        >
+    comAdobeOctopusNcommBootstrap(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int maxConnections
+            , 
+            
+            int maxRequests
+            , 
+            
+            int requestTimeout
+            , 
+            
+            int requestRetries
+            , 
+            
+            int launchTimeout
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param communitiesPeriodintegrationPeriodlivefyrePeriodslingPeriodeventPeriodfilter 
+    */
+    Response<
+                ComAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullSInfo
+        >
+    comAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullS(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string communitiesPeriodintegrationPeriodlivefyrePeriodslingPeriodeventPeriodfilter
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param maxConnections 
+    * \param maxRequests 
+    * \param requestTimeout 
+    * \param logDir 
+    */
+    Response<
+                ComAdobeXmpWorkerFilesNcommXMPFilesNCommInfo
+        >
+    comAdobeXmpWorkerFilesNcommXMPFilesNComm(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string maxConnections
+            , 
+            
+            std::string maxRequests
+            , 
+            
+            std::string requestTimeout
+            , 
+            
+            std::string logDir
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param jdbcPerioddriverPeriodclass 
+    * \param jdbcPeriodconnectionPerioduri 
+    * \param jdbcPeriodusername 
+    * \param jdbcPeriodpassword 
+    * \param jdbcPeriodvalidationPeriodquery 
+    * \param defaultPeriodreadonly 
+    * \param defaultPeriodautocommit 
+    * \param poolPeriodsize 
+    * \param poolPeriodmaxPeriodwaitPeriodmsec 
+    * \param datasourcePeriodname 
+    * \param datasourcePeriodsvcPeriodproperties 
+    */
+    Response<
+                ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceInfo
+        >
+    comDayCommonsDatasourceJdbcpoolJdbcPoolService(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string jdbcPerioddriverPeriodclass
+            , 
+            
+            std::string jdbcPeriodconnectionPerioduri
+            , 
+            
+            std::string jdbcPeriodusername
+            , 
+            
+            std::string jdbcPeriodpassword
+            , 
+            
+            std::string jdbcPeriodvalidationPeriodquery
+            , 
+            
+            bool defaultPeriodreadonly
+            , 
+            
+            bool defaultPeriodautocommit
+            , 
+            
+            int poolPeriodsize
+            , 
+            
+            int poolPeriodmaxPeriodwaitPeriodmsec
+            , 
+            
+            std::string datasourcePeriodname
+            , 
+            std::list<std::string> datasourcePeriodsvcPeriodproperties
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param proxyPeriodenabled 
+    * \param proxyPeriodhost 
+    * \param proxyPerioduser 
+    * \param proxyPeriodpassword 
+    * \param proxyPeriodntlmPeriodhost 
+    * \param proxyPeriodntlmPerioddomain 
+    * \param proxyPeriodexceptions 
+    */
+    Response<
+                ComDayCommonsHttpclientInfo
+        >
+    comDayCommonsHttpclient(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool proxyPeriodenabled
+            , 
+            
+            std::string proxyPeriodhost
+            , 
+            
+            std::string proxyPerioduser
+            , 
+            
+            std::string proxyPeriodpassword
+            , 
+            
+            std::string proxyPeriodntlmPeriodhost
+            , 
+            
+            std::string proxyPeriodntlmPerioddomain
+            , 
+            std::list<std::string> proxyPeriodexceptions
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param cqPeriodstorePeriodlistenerPeriodadditionalStorePaths 
+    */
+    Response<
+                ComDayCqAnalyticsImplStorePropertiesChangeListenerInfo
+        >
+    comDayCqAnalyticsImplStorePropertiesChangeListener(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> cqPeriodstorePeriodlistenerPeriodadditionalStorePaths
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param allowedPeriodpaths 
+    * \param cqPeriodanalyticsPeriodsaintPeriodexporterPeriodpagesize 
+    */
+    Response<
+                ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteInfo
+        >
+    comDayCqAnalyticsSitecatalystImplExporterClassificationsExporte(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> allowedPeriodpaths
+            
+            , 
+            
+            int cqPeriodanalyticsPeriodsaintPeriodexporterPeriodpagesize
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param reportPeriodfetchPeriodattempts 
+    * \param reportPeriodfetchPerioddelay 
+    */
+    Response<
+                ComDayCqAnalyticsSitecatalystImplImporterReportImporterInfo
+        >
+    comDayCqAnalyticsSitecatalystImplImporterReportImporter(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int reportPeriodfetchPeriodattempts
+            , 
+            
+            int reportPeriodfetchPerioddelay
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param cqPeriodanalyticsPeriodadapterfactoryPeriodcontextstores 
+    */
+    Response<
+                ComDayCqAnalyticsSitecatalystImplSitecatalystAdapterFactoryInfo
+        >
+    comDayCqAnalyticsSitecatalystImplSitecatalystAdapterFactory(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> cqPeriodanalyticsPeriodadapterfactoryPeriodcontextstores
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param cqPeriodanalyticsPeriodsitecatalystPeriodservicePerioddatacenterPeriodurl 
+    * \param devhostnamepatterns 
+    * \param connectionPeriodtimeout 
+    * \param socketPeriodtimeout 
+    */
+    Response<
+                ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfo
+        >
+    comDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> cqPeriodanalyticsPeriodsitecatalystPeriodservicePerioddatacenterPeriodurl
+            
+            , 
+            std::list<std::string> devhostnamepatterns
+            
+            , 
+            
+            int connectionPeriodtimeout
+            , 
+            
+            int socketPeriodtimeout
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param cqPeriodanalyticsPeriodtestandtargetPeriodaccountoptionsupdaterPeriodenabled 
+    */
+    Response<
+                ComDayCqAnalyticsTestandtargetImplAccountOptionsUpdaterInfo
+        >
+    comDayCqAnalyticsTestandtargetImplAccountOptionsUpdater(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool cqPeriodanalyticsPeriodtestandtargetPeriodaccountoptionsupdaterPeriodenabled
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param cqPeriodanalyticsPeriodtestandtargetPerioddeleteauthoractivitylistenerPeriodenabled 
+    */
+    Response<
+                ComDayCqAnalyticsTestandtargetImplDeleteAuthorActivityListenerInfo
+        >
+    comDayCqAnalyticsTestandtargetImplDeleteAuthorActivityListener(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool cqPeriodanalyticsPeriodtestandtargetPerioddeleteauthoractivitylistenerPeriodenabled
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param cqPeriodanalyticsPeriodtestandtargetPeriodpushauthorcampaignpagelistenerPeriodenabled 
+    */
+    Response<
+                ComDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListenerInfo
+        >
+    comDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListener(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool cqPeriodanalyticsPeriodtestandtargetPeriodpushauthorcampaignpagelistenerPeriodenabled
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param cqPeriodanalyticsPeriodtestandtargetPeriodsegmentimporterPeriodenabled 
+    */
+    Response<
+                ComDayCqAnalyticsTestandtargetImplSegmentImporterInfo
+        >
+    comDayCqAnalyticsTestandtargetImplSegmentImporter(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool cqPeriodanalyticsPeriodtestandtargetPeriodsegmentimporterPeriodenabled
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param endpointUri 
+    * \param connectionTimeout 
+    * \param socketTimeout 
+    */
+    Response<
+                ComDayCqAnalyticsTestandtargetImplServiceWebServiceImplInfo
+        >
+    comDayCqAnalyticsTestandtargetImplServiceWebServiceImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string endpointUri
+            , 
+            
+            int connectionTimeout
+            , 
+            
+            int socketTimeout
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param testandtargetPeriodendpointPeriodurl 
+    */
+    Response<
+                ComDayCqAnalyticsTestandtargetImplServletsAdminServerServletInfo
+        >
+    comDayCqAnalyticsTestandtargetImplServletsAdminServerServlet(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string testandtargetPeriodendpointPeriodurl
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param cqPeriodanalyticsPeriodtestandtargetPeriodapiPeriodurl 
+    * \param cqPeriodanalyticsPeriodtestandtargetPeriodtimeout 
+    * \param cqPeriodanalyticsPeriodtestandtargetPeriodsockettimeout 
+    * \param cqPeriodanalyticsPeriodtestandtargetPeriodrecommendationsPeriodurlPeriodreplace 
+    * \param cqPeriodanalyticsPeriodtestandtargetPeriodrecommendationsPeriodurlPeriodreplacewith 
+    */
+    Response<
+                ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplInfo
+        >
+    comDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string cqPeriodanalyticsPeriodtestandtargetPeriodapiPeriodurl
+            , 
+            
+            int cqPeriodanalyticsPeriodtestandtargetPeriodtimeout
+            , 
+            
+            int cqPeriodanalyticsPeriodtestandtargetPeriodsockettimeout
+            , 
+            
+            std::string cqPeriodanalyticsPeriodtestandtargetPeriodrecommendationsPeriodurlPeriodreplace
+            , 
+            
+            std::string cqPeriodanalyticsPeriodtestandtargetPeriodrecommendationsPeriodurlPeriodreplacewith
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param cugPeriodexemptedPeriodprincipals 
+    * \param cugPeriodenabled 
+    * \param cugPeriodprincipalsPeriodregex 
+    * \param cugPeriodprincipalsPeriodreplacement 
+    */
+    Response<
+                ComDayCqAuthImplCugCugSupportImplInfo
+        >
+    comDayCqAuthImplCugCugSupportImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> cugPeriodexemptedPeriodprincipals
+            
+            , 
+            
+            bool cugPeriodenabled
+            , 
+            
+            std::string cugPeriodprincipalsPeriodregex
+            , 
+            
+            std::string cugPeriodprincipalsPeriodreplacement
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param path 
+    * \param servicePeriodranking 
+    * \param authPeriodloginselectorPeriodmappings 
+    * \param authPeriodloginselectorPeriodchangepwPeriodmappings 
+    * \param authPeriodloginselectorPerioddefaultloginpage 
+    * \param authPeriodloginselectorPerioddefaultchangepwpage 
+    * \param authPeriodloginselectorPeriodhandle 
+    * \param authPeriodloginselectorPeriodhandlePeriodallPeriodextensions 
+    */
+    Response<
+                ComDayCqAuthImplLoginSelectorHandlerInfo
+        >
+    comDayCqAuthImplLoginSelectorHandler(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string path
+            , 
+            
+            int servicePeriodranking
+            , 
+            std::list<std::string> authPeriodloginselectorPeriodmappings
+            
+            , 
+            std::list<std::string> authPeriodloginselectorPeriodchangepwPeriodmappings
+            
+            , 
+            
+            std::string authPeriodloginselectorPerioddefaultloginpage
+            , 
+            
+            std::string authPeriodloginselectorPerioddefaultchangepwpage
+            , 
+            std::list<std::string> authPeriodloginselectorPeriodhandle
+            
+            , 
+            
+            bool authPeriodloginselectorPeriodhandlePeriodallPeriodextensions
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param externalizerPerioddomains 
+    * \param externalizerPeriodhost 
+    * \param externalizerPeriodcontextpath 
+    * \param externalizerPeriodencodedpath 
+    */
+    Response<
+                ComDayCqCommonsImplExternalizerImplInfo
+        >
+    comDayCqCommonsImplExternalizerImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> externalizerPerioddomains
+            
+            , 
+            
+            std::string externalizerPeriodhost
+            , 
+            
+            std::string externalizerPeriodcontextpath
+            , 
+            
+            bool externalizerPeriodencodedpath
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param rootmappingPeriodtarget 
+    */
+    Response<
+                ComDayCqCommonsServletsRootMappingServletInfo
+        >
+    comDayCqCommonsServletsRootMappingServlet(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string rootmappingPeriodtarget
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param codeupgradetasks 
+    * \param codeupgradetaskfilters 
+    */
+    Response<
+                ComDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckeInfo
+        >
+    comDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionChecke(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> codeupgradetasks
+            
+            , 
+            std::list<std::string> codeupgradetaskfilters
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param upgradeTaskIgnoreList 
+    */
+    Response<
+                ComDayCqCompatCodeupgradeImplUpgradeTaskIgnoreListInfo
+        >
+    comDayCqCompatCodeupgradeImplUpgradeTaskIgnoreList(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> upgradeTaskIgnoreList
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param effectiveBundleListPath 
+    */
+    Response<
+                ComDayCqCompatCodeupgradeImplVersionRangeTaskIgnorelistInfo
+        >
+    comDayCqCompatCodeupgradeImplVersionRangeTaskIgnorelist(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string effectiveBundleListPath
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param contentsyncPeriodfallbackPeriodauthorizable 
+    * \param contentsyncPeriodfallbackPeriodupdateuser 
+    */
+    Response<
+                ComDayCqContentsyncImplContentSyncManagerImplInfo
+        >
+    comDayCqContentsyncImplContentSyncManagerImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string contentsyncPeriodfallbackPeriodauthorizable
+            , 
+            
+            std::string contentsyncPeriodfallbackPeriodupdateuser
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param largeFileThreshold 
+    * \param largeCommentThreshold 
+    * \param cqPerioddamPeriodenablePeriodextPeriodmetaPeriodextraction 
+    */
+    Response<
+                ComDayCqDamCommonsHandlerStandardImageHandlerInfo
+        >
+    comDayCqDamCommonsHandlerStandardImageHandler(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int largeFileThreshold
+            , 
+            
+            int largeCommentThreshold
+            , 
+            
+            bool cqPerioddamPeriodenablePeriodextPeriodmetaPeriodextraction
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param xmpPeriodfilterPeriodapplyWhitelist 
+    * \param xmpPeriodfilterPeriodwhitelist 
+    * \param xmpPeriodfilterPeriodapplyBlacklist 
+    * \param xmpPeriodfilterPeriodblacklist 
+    */
+    Response<
+                ComDayCqDamCommonsMetadataXmpFilterBlackWhiteInfo
+        >
+    comDayCqDamCommonsMetadataXmpFilterBlackWhite(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool xmpPeriodfilterPeriodapplyWhitelist
+            , 
+            std::list<std::string> xmpPeriodfilterPeriodwhitelist
+            
+            , 
+            
+            bool xmpPeriodfilterPeriodapplyBlacklist
+            , 
+            std::list<std::string> xmpPeriodfilterPeriodblacklist
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param largePeriodfilePeriodmin 
+    * \param cachePeriodapply 
+    * \param mimePeriodtypes 
+    */
+    Response<
+                ComDayCqDamCommonsUtilImplAssetCacheImplInfo
+        >
+    comDayCqDamCommonsUtilImplAssetCacheImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int largePeriodfilePeriodmin
+            , 
+            
+            bool cachePeriodapply
+            , 
+            std::list<std::string> mimePeriodtypes
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param cqPerioddamPeriodconfigPeriodannotationPeriodpdfPerioddocumentPeriodwidth 
+    * \param cqPerioddamPeriodconfigPeriodannotationPeriodpdfPerioddocumentPeriodheight 
+    * \param cqPerioddamPeriodconfigPeriodannotationPeriodpdfPerioddocumentPeriodpaddingPeriodhorizontal 
+    * \param cqPerioddamPeriodconfigPeriodannotationPeriodpdfPerioddocumentPeriodpaddingPeriodvertical 
+    * \param cqPerioddamPeriodconfigPeriodannotationPeriodpdfPeriodfontPeriodsize 
+    * \param cqPerioddamPeriodconfigPeriodannotationPeriodpdfPeriodfontPeriodcolor 
+    * \param cqPerioddamPeriodconfigPeriodannotationPeriodpdfPeriodfontPeriodfamily 
+    * \param cqPerioddamPeriodconfigPeriodannotationPeriodpdfPeriodfontPeriodlight 
+    * \param cqPerioddamPeriodconfigPeriodannotationPeriodpdfPeriodmarginTextImage 
+    * \param cqPerioddamPeriodconfigPeriodannotationPeriodpdfPeriodminImageHeight 
+    * \param cqPerioddamPeriodconfigPeriodannotationPeriodpdfPeriodreviewStatusPeriodwidth 
+    * \param cqPerioddamPeriodconfigPeriodannotationPeriodpdfPeriodreviewStatusPeriodcolorPeriodapproved 
+    * \param cqPerioddamPeriodconfigPeriodannotationPeriodpdfPeriodreviewStatusPeriodcolorPeriodrejected 
+    * \param cqPerioddamPeriodconfigPeriodannotationPeriodpdfPeriodreviewStatusPeriodcolorPeriodchangesRequested 
+    * \param cqPerioddamPeriodconfigPeriodannotationPeriodpdfPeriodannotationMarkerPeriodwidth 
+    * \param cqPerioddamPeriodconfigPeriodannotationPeriodpdfPeriodassetPeriodminheight 
+    */
+    Response<
+                ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigInfo
+        >
+    comDayCqDamCoreImplAnnotationPdfAnnotationPdfConfig(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int cqPerioddamPeriodconfigPeriodannotationPeriodpdfPerioddocumentPeriodwidth
+            , 
+            
+            int cqPerioddamPeriodconfigPeriodannotationPeriodpdfPerioddocumentPeriodheight
+            , 
+            
+            int cqPerioddamPeriodconfigPeriodannotationPeriodpdfPerioddocumentPeriodpaddingPeriodhorizontal
+            , 
+            
+            int cqPerioddamPeriodconfigPeriodannotationPeriodpdfPerioddocumentPeriodpaddingPeriodvertical
+            , 
+            
+            int cqPerioddamPeriodconfigPeriodannotationPeriodpdfPeriodfontPeriodsize
+            , 
+            
+            std::string cqPerioddamPeriodconfigPeriodannotationPeriodpdfPeriodfontPeriodcolor
+            , 
+            
+            std::string cqPerioddamPeriodconfigPeriodannotationPeriodpdfPeriodfontPeriodfamily
+            , 
+            
+            std::string cqPerioddamPeriodconfigPeriodannotationPeriodpdfPeriodfontPeriodlight
+            , 
+            
+            int cqPerioddamPeriodconfigPeriodannotationPeriodpdfPeriodmarginTextImage
+            , 
+            
+            int cqPerioddamPeriodconfigPeriodannotationPeriodpdfPeriodminImageHeight
+            , 
+            
+            int cqPerioddamPeriodconfigPeriodannotationPeriodpdfPeriodreviewStatusPeriodwidth
+            , 
+            
+            std::string cqPerioddamPeriodconfigPeriodannotationPeriodpdfPeriodreviewStatusPeriodcolorPeriodapproved
+            , 
+            
+            std::string cqPerioddamPeriodconfigPeriodannotationPeriodpdfPeriodreviewStatusPeriodcolorPeriodrejected
+            , 
+            
+            std::string cqPerioddamPeriodconfigPeriodannotationPeriodpdfPeriodreviewStatusPeriodcolorPeriodchangesRequested
+            , 
+            
+            int cqPerioddamPeriodconfigPeriodannotationPeriodpdfPeriodannotationMarkerPeriodwidth
+            , 
+            
+            int cqPerioddamPeriodconfigPeriodannotationPeriodpdfPeriodassetPeriodminheight
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param enabled 
+    */
+    Response<
+                ComDayCqDamCoreImplAssetMoveListenerInfo
+        >
+    comDayCqDamCoreImplAssetMoveListener(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool enabled
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param isEnabled 
+    */
+    Response<
+                ComDayCqDamCoreImplAssethomeAssetHomePageConfigurationInfo
+        >
+    comDayCqDamCoreImplAssethomeAssetHomePageConfiguration(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool isEnabled
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param cqPerioddamPeriodadhocPeriodassetPeriodsharePeriodprezipPeriodmaxcontentsize 
+    */
+    Response<
+                ComDayCqDamCoreImplAssetlinkshareAdhocAssetShareProxyServletInfo
+        >
+    comDayCqDamCoreImplAssetlinkshareAdhocAssetShareProxyServlet(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int cqPerioddamPeriodadhocPeriodassetPeriodsharePeriodprezipPeriodmaxcontentsize
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param cqPerioddamPeriodimagePeriodcachePeriodmaxPeriodmemory 
+    * \param cqPerioddamPeriodimagePeriodcachePeriodmaxPeriodage 
+    * \param cqPerioddamPeriodimagePeriodcachePeriodmaxPerioddimension 
+    */
+    Response<
+                ComDayCqDamCoreImplCacheCQBufferedImageCacheInfo
+        >
+    comDayCqDamCoreImplCacheCQBufferedImageCache(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int cqPerioddamPeriodimagePeriodcachePeriodmaxPeriodmemory
+            , 
+            
+            int cqPerioddamPeriodimagePeriodcachePeriodmaxPeriodage
+            , 
+            
+            std::string cqPerioddamPeriodimagePeriodcachePeriodmaxPerioddimension
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param changeeventlistenerPeriodobservedPeriodpaths 
+    */
+    Response<
+                ComDayCqDamCoreImplDamChangeEventListenerInfo
+        >
+    comDayCqDamCoreImplDamChangeEventListener(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> changeeventlistenerPeriodobservedPeriodpaths
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param schedulerPeriodexpression 
+    * \param maxSavedActivities 
+    * \param saveInterval 
+    * \param enableActivityPurge 
+    * \param eventTypes 
+    */
+    Response<
+                ComDayCqDamCoreImplDamEventPurgeServiceInfo
+        >
+    comDayCqDamCoreImplDamEventPurgeService(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string schedulerPeriodexpression
+            , 
+            
+            int maxSavedActivities
+            , 
+            
+            int saveInterval
+            , 
+            
+            bool enableActivityPurge
+            , 
+            
+            std::string eventTypes
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param eventPeriodfilter 
+    * \param eventPeriodqueuePeriodlength 
+    * \param eventrecorderPeriodenabled 
+    * \param eventrecorderPeriodblacklist 
+    * \param eventrecorderPeriodeventtypes 
+    */
+    Response<
+                ComDayCqDamCoreImplDamEventRecorderImplInfo
+        >
+    comDayCqDamCoreImplDamEventRecorderImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string eventPeriodfilter
+            , 
+            
+            int eventPeriodqueuePeriodlength
+            , 
+            
+            bool eventrecorderPeriodenabled
+            , 
+            std::list<std::string> eventrecorderPeriodblacklist
+            
+            , 
+            
+            std::string eventrecorderPeriodeventtypes
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param eventPeriodfilter 
+    * \param enabled 
+    */
+    Response<
+                ComDayCqDamCoreImplEventDamEventAuditListenerInfo
+        >
+    comDayCqDamCoreImplEventDamEventAuditListener(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string eventPeriodfilter
+            , 
+            
+            bool enabled
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param cqPerioddamPeriodexpiryPeriodnotificationPeriodschedulerPeriodistimebased 
+    * \param cqPerioddamPeriodexpiryPeriodnotificationPeriodschedulerPeriodtimebasedPeriodrule 
+    * \param cqPerioddamPeriodexpiryPeriodnotificationPeriodschedulerPeriodperiodPeriodrule 
+    * \param sendEmail 
+    * \param assetExpiredLimit 
+    * \param priorNotificationSeconds 
+    * \param cqPerioddamPeriodexpiryPeriodnotificationPeriodurlPeriodprotocol 
+    */
+    Response<
+                ComDayCqDamCoreImplExpiryNotificationJobImplInfo
+        >
+    comDayCqDamCoreImplExpiryNotificationJobImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool cqPerioddamPeriodexpiryPeriodnotificationPeriodschedulerPeriodistimebased
+            , 
+            
+            std::string cqPerioddamPeriodexpiryPeriodnotificationPeriodschedulerPeriodtimebasedPeriodrule
+            , 
+            
+            int cqPerioddamPeriodexpiryPeriodnotificationPeriodschedulerPeriodperiodPeriodrule
+            , 
+            
+            bool sendEmail
+            , 
+            
+            int assetExpiredLimit
+            , 
+            
+            int priorNotificationSeconds
+            , 
+            
+            std::string cqPerioddamPeriodexpiryPeriodnotificationPeriodurlPeriodprotocol
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param isEnabled 
+    */
+    Response<
+                ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatInfo
+        >
+    comDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeat(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool isEnabled
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param skipPeriodbufferedcache 
+    */
+    Response<
+                ComDayCqDamCoreImplGfxCommonsGfxRendererInfo
+        >
+    comDayCqDamCoreImplGfxCommonsGfxRenderer(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool skipPeriodbufferedcache
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param mimetype 
+    */
+    Response<
+                ComDayCqDamCoreImplHandlerEPSFormatHandlerInfo
+        >
+    comDayCqDamCoreImplHandlerEPSFormatHandler(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string mimetype
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param mimetype 
+    */
+    Response<
+                ComDayCqDamCoreImplHandlerIndesignFormatHandlerInfo
+        >
+    comDayCqDamCoreImplHandlerIndesignFormatHandler(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> mimetype
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param cqPerioddamPeriodenablePeriodextPeriodmetaPeriodextraction 
+    * \param largeFileThreshold 
+    * \param largeCommentThreshold 
+    */
+    Response<
+                ComDayCqDamCoreImplHandlerJpegHandlerInfo
+        >
+    comDayCqDamCoreImplHandlerJpegHandler(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool cqPerioddamPeriodenablePeriodextPeriodmetaPeriodextraction
+            , 
+            
+            int largeFileThreshold
+            , 
+            
+            int largeCommentThreshold
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param xmphandlerPeriodcqPeriodformats 
+    */
+    Response<
+                ComDayCqDamCoreImplHandlerXmpNCommXMPHandlerInfo
+        >
+    comDayCqDamCoreImplHandlerXmpNCommXMPHandler(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> xmphandlerPeriodcqPeriodformats
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param jmxPeriodobjectname 
+    * \param propertyPeriodmeasurePeriodenabled 
+    * \param propertyPeriodname 
+    * \param propertyPeriodmaxPeriodwaitPeriodms 
+    * \param propertyPeriodmaxPeriodrate 
+    * \param fulltextPeriodmeasurePeriodenabled 
+    * \param fulltextPeriodname 
+    * \param fulltextPeriodmaxPeriodwaitPeriodms 
+    * \param fulltextPeriodmaxPeriodrate 
+    */
+    Response<
+                ComDayCqDamCoreImplJmxAssetIndexUpdateMonitorInfo
+        >
+    comDayCqDamCoreImplJmxAssetIndexUpdateMonitor(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string jmxPeriodobjectname
+            , 
+            
+            bool propertyPeriodmeasurePeriodenabled
+            , 
+            
+            std::string propertyPeriodname
+            , 
+            
+            int propertyPeriodmaxPeriodwaitPeriodms
+            , 
+            
+            long propertyPeriodmaxPeriodrate
+            , 
+            
+            bool fulltextPeriodmeasurePeriodenabled
+            , 
+            
+            std::string fulltextPeriodname
+            , 
+            
+            int fulltextPeriodmaxPeriodwaitPeriodms
+            , 
+            
+            long fulltextPeriodmaxPeriodrate
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param jmxPeriodobjectname 
+    */
+    Response<
+                ComDayCqDamCoreImplJmxAssetMigrationMBeanImplInfo
+        >
+    comDayCqDamCoreImplJmxAssetMigrationMBeanImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string jmxPeriodobjectname
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param jmxPeriodobjectname 
+    * \param active 
+    */
+    Response<
+                ComDayCqDamCoreImplJmxAssetUpdateMonitorImplInfo
+        >
+    comDayCqDamCoreImplJmxAssetUpdateMonitorImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string jmxPeriodobjectname
+            , 
+            
+            bool active
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param operation 
+    * \param emailEnabled 
+    */
+    Response<
+                ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigInfo
+        >
+    comDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfig(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string operation
+            , 
+            
+            bool emailEnabled
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param operation 
+    * \param operationIcon 
+    * \param topicName 
+    * \param emailEnabled 
+    */
+    Response<
+                ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigInfo
+        >
+    comDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfig(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string operation
+            , 
+            
+            std::string operationIcon
+            , 
+            
+            std::string topicName
+            , 
+            
+            bool emailEnabled
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param slingPeriodservletPeriodpaths 
+    * \param slingPeriodservletPeriodmethods 
+    * \param cqPerioddamPeriodenablePeriodanonymous 
+    */
+    Response<
+                ComDayCqDamCoreImplLightboxLightboxServletInfo
+        >
+    comDayCqDamCoreImplLightboxLightboxServlet(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string slingPeriodservletPeriodpaths
+            , 
+            std::list<std::string> slingPeriodservletPeriodmethods
+            
+            , 
+            
+            bool cqPerioddamPeriodenablePeriodanonymous
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param graniteData 
+    */
+    Response<
+                ComDayCqDamCoreImplMetadataEditorSelectComponentHandlerInfo
+        >
+    comDayCqDamCoreImplMetadataEditorSelectComponentHandler(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> graniteData
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param cqPerioddamPeriodallowPeriodallPeriodmime 
+    * \param cqPerioddamPeriodallowedPeriodassetPeriodmimes 
+    */
+    Response<
+                ComDayCqDamCoreImplMimeTypeAssetUploadRestrictionHelperInfo
+        >
+    comDayCqDamCoreImplMimeTypeAssetUploadRestrictionHelper(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool cqPerioddamPeriodallowPeriodallPeriodmime
+            , 
+            std::list<std::string> cqPerioddamPeriodallowedPeriodassetPeriodmimes
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param cqPerioddamPerioddetectPeriodassetPeriodmimePeriodfromPeriodcontent 
+    */
+    Response<
+                ComDayCqDamCoreImplMimeTypeDamMimeTypeServiceImplInfo
+        >
+    comDayCqDamCoreImplMimeTypeDamMimeTypeServiceImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool cqPerioddamPerioddetectPeriodassetPeriodmimePeriodfromPeriodcontent
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param cqPerioddamPeriodmissingmetadataPeriodnotificationPeriodschedulerPeriodistimebased 
+    * \param cqPerioddamPeriodmissingmetadataPeriodnotificationPeriodschedulerPeriodtimebasedPeriodrule 
+    * \param cqPerioddamPeriodmissingmetadataPeriodnotificationPeriodschedulerPeriodperiodPeriodrule 
+    * \param cqPerioddamPeriodmissingmetadataPeriodnotificationPeriodrecipient 
+    */
+    Response<
+                ComDayCqDamCoreImplMissingMetadataNotificationJobInfo
+        >
+    comDayCqDamCoreImplMissingMetadataNotificationJob(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool cqPerioddamPeriodmissingmetadataPeriodnotificationPeriodschedulerPeriodistimebased
+            , 
+            
+            std::string cqPerioddamPeriodmissingmetadataPeriodnotificationPeriodschedulerPeriodtimebasedPeriodrule
+            , 
+            
+            int cqPerioddamPeriodmissingmetadataPeriodnotificationPeriodschedulerPeriodperiodPeriodrule
+            , 
+            
+            std::string cqPerioddamPeriodmissingmetadataPeriodnotificationPeriodrecipient
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param processPeriodlabel 
+    * \param notify_on_Complete 
+    */
+    Response<
+                ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrInfo
+        >
+    comDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPr(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string processPeriodlabel
+            , 
+            
+            bool notify_on_Complete
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param mimeTypes 
+    * \param maxExtract 
+    */
+    Response<
+                ComDayCqDamCoreImplProcessTextExtractionProcessInfo
+        >
+    comDayCqDamCoreImplProcessTextExtractionProcess(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> mimeTypes
+            
+            , 
+            
+            int maxExtract
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param xmpPeriodpropagate 
+    * \param xmpPeriodexcludes 
+    */
+    Response<
+                ComDayCqDamCoreImplRenditionMakerImplInfo
+        >
+    comDayCqDamCoreImplRenditionMakerImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool xmpPeriodpropagate
+            , 
+            std::list<std::string> xmpPeriodexcludes
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param queryBatchSize 
+    */
+    Response<
+                ComDayCqDamCoreImplReportsReportExportServiceInfo
+        >
+    comDayCqDamCoreImplReportsReportExportService(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int queryBatchSize
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param schedulerPeriodexpression 
+    * \param maxSavedReports 
+    * \param timeDuration 
+    * \param enableReportPurge 
+    */
+    Response<
+                ComDayCqDamCoreImplReportsReportPurgeServiceInfo
+        >
+    comDayCqDamCoreImplReportsReportPurgeService(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string schedulerPeriodexpression
+            , 
+            
+            int maxSavedReports
+            , 
+            
+            int timeDuration
+            , 
+            
+            bool enableReportPurge
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param enabled 
+    */
+    Response<
+                ComDayCqDamCoreImplServletAssetDownloadServletInfo
+        >
+    comDayCqDamCoreImplServletAssetDownloadServlet(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool enabled
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param cqPerioddamPeriodbatchPeriodstatusPeriodmaxassets 
+    */
+    Response<
+                ComDayCqDamCoreImplServletAssetStatusServletInfo
+        >
+    comDayCqDamCoreImplServletAssetStatusServlet(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int cqPerioddamPeriodbatchPeriodstatusPeriodmaxassets
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param cqPerioddamPeriodbatchPeriodindesignPeriodmaxassets 
+    */
+    Response<
+                ComDayCqDamCoreImplServletAssetXMPSearchServletInfo
+        >
+    comDayCqDamCoreImplServletAssetXMPSearchServlet(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int cqPerioddamPeriodbatchPeriodindesignPeriodmaxassets
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param cqPerioddamPeriodbatchPeriodmetadataPeriodassetPerioddefault 
+    * \param cqPerioddamPeriodbatchPeriodmetadataPeriodcollectionPerioddefault 
+    * \param cqPerioddamPeriodbatchPeriodmetadataPeriodmaxresources 
+    */
+    Response<
+                ComDayCqDamCoreImplServletBatchMetadataServletInfo
+        >
+    comDayCqDamCoreImplServletBatchMetadataServlet(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> cqPerioddamPeriodbatchPeriodmetadataPeriodassetPerioddefault
+            
+            , 
+            std::list<std::string> cqPerioddamPeriodbatchPeriodmetadataPeriodcollectionPerioddefault
+            
+            , 
+            
+            int cqPerioddamPeriodbatchPeriodmetadataPeriodmaxresources
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param slingPeriodservletPeriodresourceTypes 
+    * \param slingPeriodservletPeriodmethods 
+    * \param cqPerioddamPerioddrmPeriodenable 
+    */
+    Response<
+                ComDayCqDamCoreImplServletBinaryProviderServletInfo
+        >
+    comDayCqDamCoreImplServletBinaryProviderServlet(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> slingPeriodservletPeriodresourceTypes
+            
+            , 
+            std::list<std::string> slingPeriodservletPeriodmethods
+            
+            , 
+            
+            bool cqPerioddamPerioddrmPeriodenable
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param cqPerioddamPeriodbatchPeriodcollectionPeriodproperties 
+    * \param cqPerioddamPeriodbatchPeriodcollectionPeriodmaxcollections 
+    */
+    Response<
+                ComDayCqDamCoreImplServletCollectionServletInfo
+        >
+    comDayCqDamCoreImplServletCollectionServlet(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> cqPerioddamPeriodbatchPeriodcollectionPeriodproperties
+            
+            , 
+            
+            int cqPerioddamPeriodbatchPeriodcollectionPeriodmaxcollections
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param cqPerioddamPeriodbatchPeriodcollectionsPeriodproperties 
+    * \param cqPerioddamPeriodbatchPeriodcollectionsPeriodlimit 
+    */
+    Response<
+                ComDayCqDamCoreImplServletCollectionsServletInfo
+        >
+    comDayCqDamCoreImplServletCollectionsServlet(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> cqPerioddamPeriodbatchPeriodcollectionsPeriodproperties
+            
+            , 
+            
+            int cqPerioddamPeriodbatchPeriodcollectionsPeriodlimit
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param more_Info 
+    * \param SlashmntSlashoverlaySlashdamSlashguiSlashcontentSlashassetsSlashmoreinfoPeriodhtmlSlashDollarLeft_Curly_BracketpathRight_Curly_Bracket 
+    */
+    Response<
+                ComDayCqDamCoreImplServletCompanionServletInfo
+        >
+    comDayCqDamCoreImplServletCompanionServlet(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string more_Info
+            , 
+            
+            std::string SlashmntSlashoverlaySlashdamSlashguiSlashcontentSlashassetsSlashmoreinfoPeriodhtmlSlashDollarLeft_Curly_BracketpathRight_Curly_Bracket
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param detectDuplicate 
+    */
+    Response<
+                ComDayCqDamCoreImplServletCreateAssetServletInfo
+        >
+    comDayCqDamCoreImplServletCreateAssetServlet(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool detectDuplicate
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param cqPeriodmimePeriodtypePeriodblacklist 
+    * \param cqPerioddamPeriodemptyPeriodmime 
+    */
+    Response<
+                ComDayCqDamCoreImplServletDamContentDispositionFilterInfo
+        >
+    comDayCqDamCoreImplServletDamContentDispositionFilter(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> cqPeriodmimePeriodtypePeriodblacklist
+            
+            , 
+            
+            bool cqPerioddamPeriodemptyPeriodmime
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param cqPerioddamPeriodcorePeriodguidlookupfilterPeriodenabled 
+    */
+    Response<
+                ComDayCqDamCoreImplServletGuidLookupFilterInfo
+        >
+    comDayCqDamCoreImplServletGuidLookupFilter(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool cqPerioddamPeriodcorePeriodguidlookupfilterPeriodenabled
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param cqPerioddamPeriodsyncPeriodworkflowPeriodid 
+    * \param cqPerioddamPeriodsyncPeriodfolderPeriodtypes 
+    */
+    Response<
+                ComDayCqDamCoreImplServletHealthCheckServletInfo
+        >
+    comDayCqDamCoreImplServletHealthCheckServlet(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string cqPerioddamPeriodsyncPeriodworkflowPeriodid
+            , 
+            std::list<std::string> cqPerioddamPeriodsyncPeriodfolderPeriodtypes
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param slingPeriodservletPeriodresourceTypes 
+    * \param slingPeriodservletPeriodmethods 
+    * \param slingPeriodservletPeriodextensions 
+    * \param slingPeriodservletPeriodselectors 
+    */
+    Response<
+                ComDayCqDamCoreImplServletMetadataGetServletInfo
+        >
+    comDayCqDamCoreImplServletMetadataGetServlet(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string slingPeriodservletPeriodresourceTypes
+            , 
+            
+            std::string slingPeriodservletPeriodmethods
+            , 
+            
+            std::string slingPeriodservletPeriodextensions
+            , 
+            
+            std::string slingPeriodservletPeriodselectors
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param cqPerioddamPerioddrmPeriodenable 
+    */
+    Response<
+                ComDayCqDamCoreImplServletMultipleLicenseAcceptServletInfo
+        >
+    comDayCqDamCoreImplServletMultipleLicenseAcceptServlet(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool cqPerioddamPerioddrmPeriodenable
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param slingPeriodservletPeriodresourceTypes 
+    * \param slingPeriodservletPeriodmethods 
+    * \param slingPeriodservletPeriodselectors 
+    * \param downloadPeriodconfig 
+    * \param viewPeriodselector 
+    * \param sendEmail 
+    */
+    Response<
+                ComDayCqDamCoreImplServletResourceCollectionServletInfo
+        >
+    comDayCqDamCoreImplServletResourceCollectionServlet(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> slingPeriodservletPeriodresourceTypes
+            
+            , 
+            
+            std::string slingPeriodservletPeriodmethods
+            , 
+            
+            std::string slingPeriodservletPeriodselectors
+            , 
+            
+            std::string downloadPeriodconfig
+            , 
+            
+            std::string viewPeriodselector
+            , 
+            
+            bool sendEmail
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param createPreviewEnabled 
+    * \param updatePreviewEnabled 
+    * \param queueSize 
+    * \param folderPreviewRenditionRegex 
+    */
+    Response<
+                ComDayCqDamCoreImplUiPreviewFolderPreviewUpdaterImplInfo
+        >
+    comDayCqDamCoreImplUiPreviewFolderPreviewUpdaterImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool createPreviewEnabled
+            , 
+            
+            bool updatePreviewEnabled
+            , 
+            
+            int queueSize
+            , 
+            
+            std::string folderPreviewRenditionRegex
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param cqPerioddamPeriodconfigPeriodunzipPeriodmaxuncompressedsize 
+    * \param cqPerioddamPeriodconfigPeriodunzipPeriodencoding 
+    */
+    Response<
+                ComDayCqDamCoreImplUnzipUnzipConfigInfo
+        >
+    comDayCqDamCoreImplUnzipUnzipConfig(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int cqPerioddamPeriodconfigPeriodunzipPeriodmaxuncompressedsize
+            , 
+            
+            std::string cqPerioddamPeriodconfigPeriodunzipPeriodencoding
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param processPeriodlabel 
+    * \param cqPerioddamPeriodenablePeriodsha1 
+    */
+    Response<
+                ComDayCqDamCoreProcessExifToolExtractMetadataProcessInfo
+        >
+    comDayCqDamCoreProcessExifToolExtractMetadataProcess(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string processPeriodlabel
+            , 
+            
+            bool cqPerioddamPeriodenablePeriodsha1
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param processPeriodlabel 
+    * \param cqPerioddamPeriodenablePeriodsha1 
+    */
+    Response<
+                ComDayCqDamCoreProcessExtractMetadataProcessInfo
+        >
+    comDayCqDamCoreProcessExtractMetadataProcess(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string processPeriodlabel
+            , 
+            
+            bool cqPerioddamPeriodenablePeriodsha1
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param processPeriodlabel 
+    * \param cqPerioddamPeriodenablePeriodsha1 
+    * \param cqPerioddamPeriodmetadataPeriodxssprotectedPeriodproperties 
+    */
+    Response<
+                ComDayCqDamCoreProcessMetadataProcessorProcessInfo
+        >
+    comDayCqDamCoreProcessMetadataProcessorProcess(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string processPeriodlabel
+            , 
+            
+            bool cqPerioddamPeriodenablePeriodsha1
+            , 
+            std::list<std::string> cqPerioddamPeriodmetadataPeriodxssprotectedPeriodproperties
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param executablePeriodsearchpath 
+    */
+    Response<
+                ComDayCqDamHandlerFfmpegLocatorImplInfo
+        >
+    comDayCqDamHandlerFfmpegLocatorImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> executablePeriodsearchpath
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param eventPeriodfilter 
+    * \param fontmgrPeriodsystemPeriodfontPerioddir 
+    * \param fontmgrPeriodadobePeriodfontPerioddir 
+    * \param fontmgrPeriodcustomerPeriodfontPerioddir 
+    */
+    Response<
+                ComDayCqDamHandlerGibsonFontmanagerImplFontManagerServiceImplInfo
+        >
+    comDayCqDamHandlerGibsonFontmanagerImplFontManagerServiceImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string eventPeriodfilter
+            , 
+            std::list<std::string> fontmgrPeriodsystemPeriodfontPerioddir
+            
+            , 
+            
+            std::string fontmgrPeriodadobePeriodfontPerioddir
+            , 
+            
+            std::string fontmgrPeriodcustomerPeriodfontPerioddir
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param rasterPeriodannotation 
+    */
+    Response<
+                ComDayCqDamHandlerStandardPdfPdfHandlerInfo
+        >
+    comDayCqDamHandlerStandardPdfPdfHandler(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool rasterPeriodannotation
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param rasterPeriodannotation 
+    */
+    Response<
+                ComDayCqDamHandlerStandardPsPostScriptHandlerInfo
+        >
+    comDayCqDamHandlerStandardPsPostScriptHandler(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool rasterPeriodannotation
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param largeFileThreshold 
+    */
+    Response<
+                ComDayCqDamHandlerStandardPsdPsdHandlerInfo
+        >
+    comDayCqDamHandlerStandardPsdPsdHandler(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int largeFileThreshold
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param enablePeriodmultisession 
+    * \param idsPeriodccPeriodenable 
+    * \param enablePeriodretry 
+    * \param enablePeriodretryPeriodscripterror 
+    * \param externalizerPerioddomainPeriodcqhost 
+    * \param externalizerPerioddomainPeriodhttp 
+    */
+    Response<
+                ComDayCqDamIdsImplIDSJobProcessorInfo
+        >
+    comDayCqDamIdsImplIDSJobProcessor(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool enablePeriodmultisession
+            , 
+            
+            bool idsPeriodccPeriodenable
+            , 
+            
+            bool enablePeriodretry
+            , 
+            
+            bool enablePeriodretryPeriodscripterror
+            , 
+            
+            std::string externalizerPerioddomainPeriodcqhost
+            , 
+            
+            std::string externalizerPerioddomainPeriodhttp
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param maxPerioderrorsPeriodtoPeriodblacklist 
+    * \param retryPeriodintervalPeriodtoPeriodwhitelist 
+    * \param connectPeriodtimeout 
+    * \param socketPeriodtimeout 
+    * \param processPeriodlabel 
+    * \param connectionPeriodusePeriodmax 
+    */
+    Response<
+                ComDayCqDamIdsImplIDSPoolManagerImplInfo
+        >
+    comDayCqDamIdsImplIDSPoolManagerImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int maxPerioderrorsPeriodtoPeriodblacklist
+            , 
+            
+            int retryPeriodintervalPeriodtoPeriodwhitelist
+            , 
+            
+            int connectPeriodtimeout
+            , 
+            
+            int socketPeriodtimeout
+            , 
+            
+            std::string processPeriodlabel
+            , 
+            
+            int connectionPeriodusePeriodmax
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param processPeriodlabel 
+    * \param extractPeriodpages 
+    */
+    Response<
+                ComDayCqDamInddImplHandlerIndesignXMPHandlerInfo
+        >
+    comDayCqDamInddImplHandlerIndesignXMPHandler(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string processPeriodlabel
+            , 
+            
+            bool extractPeriodpages
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param snippetcreationPeriodmaxcollections 
+    */
+    Response<
+                ComDayCqDamInddImplServletSnippetCreationServletInfo
+        >
+    comDayCqDamInddImplServletSnippetCreationServlet(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int snippetcreationPeriodmaxcollections
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param processPeriodlabel 
+    * \param cqPerioddamPeriodinddPeriodpagesPeriodregex 
+    * \param idsPeriodjobPerioddecoupled 
+    * \param idsPeriodjobPeriodworkflowPeriodmodel 
+    */
+    Response<
+                ComDayCqDamInddProcessINDDMediaExtractProcessInfo
+        >
+    comDayCqDamInddProcessINDDMediaExtractProcess(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string processPeriodlabel
+            , 
+            
+            std::string cqPerioddamPeriodinddPeriodpagesPeriodregex
+            , 
+            
+            bool idsPeriodjobPerioddecoupled
+            , 
+            
+            std::string idsPeriodjobPeriodworkflowPeriodmodel
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param batchPeriodcommitPeriodsize 
+    */
+    Response<
+                ComDayCqDamPerformanceInternalAssetPerformanceDataHandlerImplInfo
+        >
+    comDayCqDamPerformanceInternalAssetPerformanceDataHandlerImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int batchPeriodcommitPeriodsize
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param schedulerPeriodexpression 
+    */
+    Response<
+                ComDayCqDamPerformanceInternalAssetPerformanceReportSyncJobInfo
+        >
+    comDayCqDamPerformanceInternalAssetPerformanceReportSyncJob(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string schedulerPeriodexpression
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param deletePeriodzipPeriodfile 
+    */
+    Response<
+                ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProInfo
+        >
+    comDayCqDamPimImplSourcingUploadProcessProductAssetsUploadPro(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool deletePeriodzipPeriodfile
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param cqPerioddamPeriods7damPerioddynamicmediaconfigeventlistenerPeriodenabled 
+    */
+    Response<
+                ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenInfo
+        >
+    comDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEven(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool cqPerioddamPeriods7damPerioddynamicmediaconfigeventlistenerPeriodenabled
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param schedulerPeriodexpression 
+    * \param schedulerPeriodconcurrent 
+    */
+    Response<
+                ComDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerInfo
+        >
+    comDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunner(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string schedulerPeriodexpression
+            , 
+            
+            bool schedulerPeriodconcurrent
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param slingPeriodpostPeriodoperation 
+    * \param slingPeriodservletPeriodmethods 
+    */
+    Response<
+                ComDayCqDamS7damCommonPostServletsSetCreateHandlerInfo
+        >
+    comDayCqDamS7damCommonPostServletsSetCreateHandler(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string slingPeriodpostPeriodoperation
+            , 
+            
+            std::string slingPeriodservletPeriodmethods
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param slingPeriodpostPeriodoperation 
+    * \param slingPeriodservletPeriodmethods 
+    */
+    Response<
+                ComDayCqDamS7damCommonPostServletsSetModifyHandlerInfo
+        >
+    comDayCqDamS7damCommonPostServletsSetModifyHandler(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string slingPeriodpostPeriodoperation
+            , 
+            
+            std::string slingPeriodservletPeriodmethods
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param processPeriodlabel 
+    */
+    Response<
+                ComDayCqDamS7damCommonProcessVideoThumbnailDownloadProcessInfo
+        >
+    comDayCqDamS7damCommonProcessVideoThumbnailDownloadProcess(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string processPeriodlabel
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param cqPerioddamPeriods7damPerioddamchangeeventlistenerPeriodenabled 
+    */
+    Response<
+                ComDayCqDamS7damCommonS7damDamChangeEventListenerInfo
+        >
+    comDayCqDamS7damCommonS7damDamChangeEventListener(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool cqPerioddamPeriods7damPerioddamchangeeventlistenerPeriodenabled
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param slingPeriodservletPeriodpaths 
+    * \param slingPeriodservletPeriodmethods 
+    */
+    Response<
+                ComDayCqDamS7damCommonServletsS7damProductInfoServletInfo
+        >
+    comDayCqDamS7damCommonServletsS7damProductInfoServlet(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string slingPeriodservletPeriodpaths
+            , 
+            
+            std::string slingPeriodservletPeriodmethods
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param cqPerioddamPeriods7damPeriodvideoproxyclientservicePeriodmultipartuploadPeriodminsizePeriodname 
+    * \param cqPerioddamPeriods7damPeriodvideoproxyclientservicePeriodmultipartuploadPeriodpartsizePeriodname 
+    * \param cqPerioddamPeriods7damPeriodvideoproxyclientservicePeriodmultipartuploadPeriodnumthreadPeriodname 
+    * \param cqPerioddamPeriods7damPeriodvideoproxyclientservicePeriodhttpPeriodreadtimeoutPeriodname 
+    * \param cqPerioddamPeriods7damPeriodvideoproxyclientservicePeriodhttpPeriodconnectiontimeoutPeriodname 
+    * \param cqPerioddamPeriods7damPeriodvideoproxyclientservicePeriodhttpPeriodmaxretrycountPeriodname 
+    * \param cqPerioddamPeriods7damPeriodvideoproxyclientservicePerioduploadprogressPeriodintervalPeriodname 
+    */
+    Response<
+                ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplInfo
+        >
+    comDayCqDamS7damCommonVideoImplVideoProxyClientServiceImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int cqPerioddamPeriods7damPeriodvideoproxyclientservicePeriodmultipartuploadPeriodminsizePeriodname
+            , 
+            
+            int cqPerioddamPeriods7damPeriodvideoproxyclientservicePeriodmultipartuploadPeriodpartsizePeriodname
+            , 
+            
+            int cqPerioddamPeriods7damPeriodvideoproxyclientservicePeriodmultipartuploadPeriodnumthreadPeriodname
+            , 
+            
+            int cqPerioddamPeriods7damPeriodvideoproxyclientservicePeriodhttpPeriodreadtimeoutPeriodname
+            , 
+            
+            int cqPerioddamPeriods7damPeriodvideoproxyclientservicePeriodhttpPeriodconnectiontimeoutPeriodname
+            , 
+            
+            int cqPerioddamPeriods7damPeriodvideoproxyclientservicePeriodhttpPeriodmaxretrycountPeriodname
+            , 
+            
+            int cqPerioddamPeriods7damPeriodvideoproxyclientservicePerioduploadprogressPeriodintervalPeriodname
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param cqPerioddamPeriodscene7PeriodapiclientPeriodrecordsperpagePeriodnofilterPeriodname 
+    * \param cqPerioddamPeriodscene7PeriodapiclientPeriodrecordsperpagePeriodwithfilterPeriodname 
+    */
+    Response<
+                ComDayCqDamScene7ImplScene7APIClientImplInfo
+        >
+    comDayCqDamScene7ImplScene7APIClientImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int cqPerioddamPeriodscene7PeriodapiclientPeriodrecordsperpagePeriodnofilterPeriodname
+            , 
+            
+            int cqPerioddamPeriodscene7PeriodapiclientPeriodrecordsperpagePeriodwithfilterPeriodname
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param cqPerioddamPeriodscene7PeriodassetmimetypeservicePeriodmapping 
+    */
+    Response<
+                ComDayCqDamScene7ImplScene7AssetMimeTypeServiceImplInfo
+        >
+    comDayCqDamScene7ImplScene7AssetMimeTypeServiceImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> cqPerioddamPeriodscene7PeriodassetmimetypeservicePeriodmapping
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param cqPerioddamPeriodscene7PeriodconfigurationeventlistenerPeriodenabled 
+    */
+    Response<
+                ComDayCqDamScene7ImplScene7ConfigurationEventListenerInfo
+        >
+    comDayCqDamScene7ImplScene7ConfigurationEventListener(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool cqPerioddamPeriodscene7PeriodconfigurationeventlistenerPeriodenabled
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param cqPerioddamPeriodscene7PerioddamchangeeventlistenerPeriodenabled 
+    * \param cqPerioddamPeriodscene7PerioddamchangeeventlistenerPeriodobservedPeriodpaths 
+    */
+    Response<
+                ComDayCqDamScene7ImplScene7DamChangeEventListenerInfo
+        >
+    comDayCqDamScene7ImplScene7DamChangeEventListener(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool cqPerioddamPeriodscene7PerioddamchangeeventlistenerPeriodenabled
+            , 
+            std::list<std::string> cqPerioddamPeriodscene7PerioddamchangeeventlistenerPeriodobservedPeriodpaths
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param scene7FlashTemplatesPeriodrti 
+    * \param scene7FlashTemplatesPeriodrsi 
+    * \param scene7FlashTemplatesPeriodrb 
+    * \param scene7FlashTemplatesPeriodrurl 
+    * \param scene7FlashTemplatePeriodurlFormatParameter 
+    */
+    Response<
+                ComDayCqDamScene7ImplScene7FlashTemplatesServiceImplInfo
+        >
+    comDayCqDamScene7ImplScene7FlashTemplatesServiceImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string scene7FlashTemplatesPeriodrti
+            , 
+            
+            std::string scene7FlashTemplatesPeriodrsi
+            , 
+            
+            std::string scene7FlashTemplatesPeriodrb
+            , 
+            
+            std::string scene7FlashTemplatesPeriodrurl
+            , 
+            
+            std::string scene7FlashTemplatePeriodurlFormatParameter
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param cqPerioddamPeriodscene7PerioduploadservicePeriodactivejobtimeoutPeriodlabel 
+    * \param cqPerioddamPeriodscene7PerioduploadservicePeriodconnectionmaxperroutePeriodlabel 
+    */
+    Response<
+                ComDayCqDamScene7ImplScene7UploadServiceImplInfo
+        >
+    comDayCqDamScene7ImplScene7UploadServiceImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int cqPerioddamPeriodscene7PerioduploadservicePeriodactivejobtimeoutPeriodlabel
+            , 
+            
+            int cqPerioddamPeriodscene7PerioduploadservicePeriodconnectionmaxperroutePeriodlabel
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param getCacheExpirationUnit 
+    * \param getCacheExpirationValue 
+    */
+    Response<
+                ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationSerInfo
+        >
+    comDayCqDamStockIntegrationImplCacheStockCacheConfigurationSer(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string getCacheExpirationUnit
+            , 
+            
+            int getCacheExpirationValue
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param name 
+    * \param locale 
+    * \param imsConfig 
+    */
+    Response<
+                ComDayCqDamStockIntegrationImplConfigurationStockConfigurationInfo
+        >
+    comDayCqDamStockIntegrationImplConfigurationStockConfiguration(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string name
+            , 
+            
+            std::string locale
+            , 
+            
+            std::string imsConfig
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param enabled 
+    */
+    Response<
+                ComDayCqDamVideoImplServletVideoTestServletInfo
+        >
+    comDayCqDamVideoImplServletVideoTestServlet(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool enabled
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param maxWidth 
+    * \param maxHeight 
+    */
+    Response<
+                ComDayCqExtwidgetServletsImageSpriteServletInfo
+        >
+    comDayCqExtwidgetServletsImageSpriteServlet(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int maxWidth
+            , 
+            
+            int maxHeight
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param fontpath 
+    * \param oversamplingFactor 
+    */
+    Response<
+                ComDayCqImageInternalFontFontHelperInfo
+        >
+    comDayCqImageInternalFontFontHelper(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> fontpath
+            
+            , 
+            
+            int oversamplingFactor
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param clusterPeriodlevelPeriodenable 
+    * \param clusterPeriodmasterPeriodlevel 
+    * \param clusterPeriodslavePeriodlevel 
+    */
+    Response<
+                ComDayCqJcrclustersupportClusterStartLevelControllerInfo
+        >
+    comDayCqJcrclustersupportClusterStartLevelController(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool clusterPeriodlevelPeriodenable
+            , 
+            
+            int clusterPeriodmasterPeriodlevel
+            , 
+            
+            int clusterPeriodslavePeriodlevel
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param smtpPeriodhost 
+    * \param smtpPeriodport 
+    * \param smtpPerioduser 
+    * \param smtpPeriodpassword 
+    * \param fromPeriodaddress 
+    * \param smtpPeriodssl 
+    * \param smtpPeriodstarttls 
+    * \param debugPeriodemail 
+    */
+    Response<
+                ComDayCqMailerDefaultMailServiceInfo
+        >
+    comDayCqMailerDefaultMailService(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string smtpPeriodhost
+            , 
+            
+            int smtpPeriodport
+            , 
+            
+            std::string smtpPerioduser
+            , 
+            
+            std::string smtpPeriodpassword
+            , 
+            
+            std::string fromPeriodaddress
+            , 
+            
+            bool smtpPeriodssl
+            , 
+            
+            bool smtpPeriodstarttls
+            , 
+            
+            bool debugPeriodemail
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param maxPeriodrecipientPeriodcount 
+    */
+    Response<
+                ComDayCqMailerImplCqMailingServiceInfo
+        >
+    comDayCqMailerImplCqMailingService(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string maxPeriodrecipientPeriodcount
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param mailerPeriodemailPeriodcharset 
+    */
+    Response<
+                ComDayCqMailerImplEmailCqEmailTemplateFactoryInfo
+        >
+    comDayCqMailerImplEmailCqEmailTemplateFactory(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string mailerPeriodemailPeriodcharset
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param mailerPeriodemailPeriodembed 
+    * \param mailerPeriodemailPeriodcharset 
+    * \param mailerPeriodemailPeriodretrieverUserID 
+    * \param mailerPeriodemailPeriodretrieverUserPWD 
+    */
+    Response<
+                ComDayCqMailerImplEmailCqRetrieverTemplateFactoryInfo
+        >
+    comDayCqMailerImplEmailCqRetrieverTemplateFactory(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool mailerPeriodemailPeriodembed
+            , 
+            
+            std::string mailerPeriodemailPeriodcharset
+            , 
+            
+            std::string mailerPeriodemailPeriodretrieverUserID
+            , 
+            
+            std::string mailerPeriodemailPeriodretrieverUserPWD
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param aemPeriodmcmPeriodcampaignPeriodformConstraints 
+    * \param aemPeriodmcmPeriodcampaignPeriodpublicUrl 
+    * \param aemPeriodmcmPeriodcampaignPeriodrelaxedSSL 
+    */
+    Response<
+                ComDayCqMcmCampaignImplIntegrationConfigImplInfo
+        >
+    comDayCqMcmCampaignImplIntegrationConfigImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> aemPeriodmcmPeriodcampaignPeriodformConstraints
+            
+            , 
+            
+            std::string aemPeriodmcmPeriodcampaignPeriodpublicUrl
+            , 
+            
+            bool aemPeriodmcmPeriodcampaignPeriodrelaxedSSL
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param servicePeriodranking 
+    * \param tagpattern 
+    */
+    Response<
+                ComDayCqMcmCampaignImporterPersonalizedTextHandlerFactoryInfo
+        >
+    comDayCqMcmCampaignImporterPersonalizedTextHandlerFactory(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int servicePeriodranking
+            , 
+            
+            std::string tagpattern
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param fromPeriodaddress 
+    * \param senderPeriodhost 
+    * \param maxPeriodbouncePeriodcount 
+    */
+    Response<
+                ComDayCqMcmCoreNewsletterNewsletterEmailServiceImplInfo
+        >
+    comDayCqMcmCoreNewsletterNewsletterEmailServiceImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string fromPeriodaddress
+            , 
+            
+            std::string senderPeriodhost
+            , 
+            
+            std::string maxPeriodbouncePeriodcount
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param experiencePeriodindirection 
+    * \param touchpointPeriodindirection 
+    */
+    Response<
+                ComDayCqMcmImplMCMConfigurationInfo
+        >
+    comDayCqMcmImplMCMConfiguration(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> experiencePeriodindirection
+            
+            , 
+            std::list<std::string> touchpointPeriodindirection
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param servicePeriodranking 
+    * \param tagpattern 
+    * \param componentPeriodresourceType 
+    */
+    Response<
+                ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponenInfo
+        >
+    comDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponen(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int servicePeriodranking
+            , 
+            
+            std::string tagpattern
+            , 
+            
+            std::string componentPeriodresourceType
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param servicePeriodranking 
+    * \param tagpattern 
+    * \param componentPeriodresourceType 
+    */
+    Response<
+                ComDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThrougInfo
+        >
+    comDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThroug(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int servicePeriodranking
+            , 
+            
+            std::string tagpattern
+            , 
+            
+            std::string componentPeriodresourceType
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param servicePeriodranking 
+    * \param tagpattern 
+    */
+    Response<
+                ComDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentInfo
+        >
+    comDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponent(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int servicePeriodranking
+            , 
+            
+            std::string tagpattern
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param servicePeriodranking 
+    * \param tagpattern 
+    */
+    Response<
+                ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHaInfo
+        >
+    comDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHa(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int servicePeriodranking
+            , 
+            
+            std::string tagpattern
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param servicePeriodranking 
+    * \param tagpattern 
+    * \param componentPeriodresourceType 
+    */
+    Response<
+                ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHInfo
+        >
+    comDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagH(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int servicePeriodranking
+            , 
+            
+            std::string tagpattern
+            , 
+            
+            std::string componentPeriodresourceType
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param eventPeriodfilter 
+    */
+    Response<
+                ComDayCqNotificationImplNotificationServiceImplInfo
+        >
+    comDayCqNotificationImplNotificationServiceImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string eventPeriodfilter
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param forcelocation 
+    */
+    Response<
+                ComDayCqPersonalizationImplServletsTargetingConfigurationServletInfo
+        >
+    comDayCqPersonalizationImplServletsTargetingConfigurationServlet(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool forcelocation
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param id 
+    * \param enabled 
+    * \param reference 
+    * \param interval 
+    * \param expression 
+    * \param source 
+    * \param target 
+    * \param login 
+    * \param password 
+    */
+    Response<
+                ComDayCqPollingImporterImplManagedPollConfigImplInfo
+        >
+    comDayCqPollingImporterImplManagedPollConfigImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string id
+            , 
+            
+            bool enabled
+            , 
+            
+            bool reference
+            , 
+            
+            int interval
+            , 
+            
+            std::string expression
+            , 
+            
+            std::string source
+            , 
+            
+            std::string target
+            , 
+            
+            std::string login
+            , 
+            
+            std::string password
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param importerPerioduser 
+    */
+    Response<
+                ComDayCqPollingImporterImplManagedPollingImporterImplInfo
+        >
+    comDayCqPollingImporterImplManagedPollingImporterImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string importerPerioduser
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param importerPeriodminPeriodinterval 
+    * \param importerPerioduser 
+    * \param excludePeriodpaths 
+    * \param includePeriodpaths 
+    */
+    Response<
+                ComDayCqPollingImporterImplPollingImporterImplInfo
+        >
+    comDayCqPollingImporterImplPollingImporterImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int importerPeriodminPeriodinterval
+            , 
+            
+            std::string importerPerioduser
+            , 
+            std::list<std::string> excludePeriodpaths
+            
+            , 
+            std::list<std::string> includePeriodpaths
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param servicePeriodranking 
+    */
+    Response<
+                ComDayCqReplicationAuditReplicationEventListenerInfo
+        >
+    comDayCqReplicationAuditReplicationEventListener(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int servicePeriodranking
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param host 
+    * \param port 
+    */
+    Response<
+                ComDayCqReplicationContentStaticContentBuilderInfo
+        >
+    comDayCqReplicationContentStaticContentBuilder(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string host
+            , 
+            
+            int port
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param jobPeriodtopics 
+    * \param serviceUserPeriodtarget 
+    * \param agentProviderPeriodtarget 
+    */
+    Response<
+                ComDayCqReplicationImplAgentManagerImplInfo
+        >
+    comDayCqReplicationImplAgentManagerImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string jobPeriodtopics
+            , 
+            
+            std::string serviceUserPeriodtarget
+            , 
+            
+            std::string agentProviderPeriodtarget
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param binaryPeriodthreshold 
+    */
+    Response<
+                ComDayCqReplicationImplContentDurboBinaryLessContentBuilderInfo
+        >
+    comDayCqReplicationImplContentDurboBinaryLessContentBuilder(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int binaryPeriodthreshold
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param preservePeriodhierarchyPeriodnodes 
+    * \param ignorePeriodversioning 
+    * \param importPeriodacl 
+    * \param savePeriodthreshold 
+    * \param preservePerioduserPeriodpaths 
+    * \param preservePerioduuid 
+    * \param preservePerioduuidPeriodnodetypes 
+    * \param preservePerioduuidPeriodsubtrees 
+    * \param autoPeriodcommit 
+    */
+    Response<
+                ComDayCqReplicationImplContentDurboDurboImportConfigurationProvInfo
+        >
+    comDayCqReplicationImplContentDurboDurboImportConfigurationProv(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool preservePeriodhierarchyPeriodnodes
+            , 
+            
+            bool ignorePeriodversioning
+            , 
+            
+            bool importPeriodacl
+            , 
+            
+            int savePeriodthreshold
+            , 
+            
+            bool preservePerioduserPeriodpaths
+            , 
+            
+            bool preservePerioduuid
+            , 
+            std::list<std::string> preservePerioduuidPeriodnodetypes
+            
+            , 
+            std::list<std::string> preservePerioduuidPeriodsubtrees
+            
+            , 
+            
+            bool autoPeriodcommit
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param replicationPeriodcontentPerioduseFileStorage 
+    * \param replicationPeriodcontentPeriodmaxCommitAttempts 
+    */
+    Response<
+                ComDayCqReplicationImplReplicationContentFactoryProviderImplInfo
+        >
+    comDayCqReplicationImplReplicationContentFactoryProviderImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool replicationPeriodcontentPerioduseFileStorage
+            , 
+            
+            int replicationPeriodcontentPeriodmaxCommitAttempts
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param receiverPeriodtmpfilePeriodthreshold 
+    * \param receiverPeriodpackagesPeriodusePeriodinstall 
+    */
+    Response<
+                ComDayCqReplicationImplReplicationReceiverImplInfo
+        >
+    comDayCqReplicationImplReplicationReceiverImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int receiverPeriodtmpfilePeriodthreshold
+            , 
+            
+            bool receiverPeriodpackagesPeriodusePeriodinstall
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param distributeEvents 
+    */
+    Response<
+                ComDayCqReplicationImplReplicatorImplInfo
+        >
+    comDayCqReplicationImplReplicatorImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool distributeEvents
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param schedulerPeriodperiod 
+    */
+    Response<
+                ComDayCqReplicationImplReverseReplicatorInfo
+        >
+    comDayCqReplicationImplReverseReplicator(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int schedulerPeriodperiod
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param disabledPeriodcipherPeriodsuites 
+    * \param enabledPeriodcipherPeriodsuites 
+    */
+    Response<
+                ComDayCqReplicationImplTransportBinaryLessTransportHandlerInfo
+        >
+    comDayCqReplicationImplTransportBinaryLessTransportHandler(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> disabledPeriodcipherPeriodsuites
+            
+            , 
+            std::list<std::string> enabledPeriodcipherPeriodsuites
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param disabledPeriodcipherPeriodsuites 
+    * \param enabledPeriodcipherPeriodsuites 
+    */
+    Response<
+                ComDayCqReplicationImplTransportHttpInfo
+        >
+    comDayCqReplicationImplTransportHttp(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> disabledPeriodcipherPeriodsuites
+            
+            , 
+            std::list<std::string> enabledPeriodcipherPeriodsuites
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param repcachePeriodenable 
+    * \param repcachePeriodttl 
+    * \param repcachePeriodmax 
+    */
+    Response<
+                ComDayCqReportingImplCacheCacheImplInfo
+        >
+    comDayCqReportingImplCacheCacheImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool repcachePeriodenable
+            , 
+            
+            int repcachePeriodttl
+            , 
+            
+            int repcachePeriodmax
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param repconfPeriodtimezone 
+    * \param repconfPeriodlocale 
+    * \param repconfPeriodsnapshots 
+    * \param repconfPeriodrepdir 
+    * \param repconfPeriodhourofday 
+    * \param repconfPeriodminofhour 
+    * \param repconfPeriodmaxrows 
+    * \param repconfPeriodfakedata 
+    * \param repconfPeriodsnapshotuser 
+    * \param repconfPeriodenforcesnapshotuser 
+    */
+    Response<
+                ComDayCqReportingImplConfigServiceImplInfo
+        >
+    comDayCqReportingImplConfigServiceImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string repconfPeriodtimezone
+            , 
+            
+            std::string repconfPeriodlocale
+            , 
+            
+            std::string repconfPeriodsnapshots
+            , 
+            
+            std::string repconfPeriodrepdir
+            , 
+            
+            int repconfPeriodhourofday
+            , 
+            
+            int repconfPeriodminofhour
+            , 
+            
+            int repconfPeriodmaxrows
+            , 
+            
+            bool repconfPeriodfakedata
+            , 
+            
+            std::string repconfPeriodsnapshotuser
+            , 
+            
+            bool repconfPeriodenforcesnapshotuser
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param requestPeriodlogPeriodoutput 
+    */
+    Response<
+                ComDayCqReportingImplRLogAnalyzerInfo
+        >
+    comDayCqReportingImplRLogAnalyzer(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string requestPeriodlogPeriodoutput
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param schedulerPeriodperiod 
+    * \param schedulerPeriodconcurrent 
+    * \param servicePeriodbadLinkToleranceInterval 
+    * \param servicePeriodcheckOverridePatterns 
+    * \param servicePeriodcacheBrokenInternalLinks 
+    * \param servicePeriodspecialLinkPrefix 
+    * \param servicePeriodspecialLinkPatterns 
+    */
+    Response<
+                ComDayCqRewriterLinkcheckerImplLinkCheckerImplInfo
+        >
+    comDayCqRewriterLinkcheckerImplLinkCheckerImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int schedulerPeriodperiod
+            , 
+            
+            bool schedulerPeriodconcurrent
+            , 
+            
+            int servicePeriodbadLinkToleranceInterval
+            , 
+            std::list<std::string> servicePeriodcheckOverridePatterns
+            
+            , 
+            
+            bool servicePeriodcacheBrokenInternalLinks
+            , 
+            std::list<std::string> servicePeriodspecialLinkPrefix
+            
+            , 
+            std::list<std::string> servicePeriodspecialLinkPatterns
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param schedulerPeriodperiod 
+    * \param schedulerPeriodconcurrent 
+    * \param goodLinkTestInterval 
+    * \param badLinkTestInterval 
+    * \param linkUnusedInterval 
+    * \param connectionPeriodtimeout 
+    */
+    Response<
+                ComDayCqRewriterLinkcheckerImplLinkCheckerTaskInfo
+        >
+    comDayCqRewriterLinkcheckerImplLinkCheckerTask(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int schedulerPeriodperiod
+            , 
+            
+            bool schedulerPeriodconcurrent
+            , 
+            
+            int goodLinkTestInterval
+            , 
+            
+            int badLinkTestInterval
+            , 
+            
+            int linkUnusedInterval
+            , 
+            
+            int connectionPeriodtimeout
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param linkcheckertransformerPerioddisableRewriting 
+    * \param linkcheckertransformerPerioddisableChecking 
+    * \param linkcheckertransformerPeriodmapCacheSize 
+    * \param linkcheckertransformerPeriodstrictExtensionCheck 
+    * \param linkcheckertransformerPeriodstripHtmltExtension 
+    * \param linkcheckertransformerPeriodrewriteElements 
+    * \param linkcheckertransformerPeriodstripExtensionPathBlacklist 
+    */
+    Response<
+                ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryInfo
+        >
+    comDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactory(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool linkcheckertransformerPerioddisableRewriting
+            , 
+            
+            bool linkcheckertransformerPerioddisableChecking
+            , 
+            
+            int linkcheckertransformerPeriodmapCacheSize
+            , 
+            
+            bool linkcheckertransformerPeriodstrictExtensionCheck
+            , 
+            
+            bool linkcheckertransformerPeriodstripHtmltExtension
+            , 
+            std::list<std::string> linkcheckertransformerPeriodrewriteElements
+            
+            , 
+            std::list<std::string> linkcheckertransformerPeriodstripExtensionPathBlacklist
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param servicePeriodmaxLinksPerHost 
+    * \param servicePeriodsaveExternalLinkReferences 
+    */
+    Response<
+                ComDayCqRewriterLinkcheckerImplLinkInfoStorageImplInfo
+        >
+    comDayCqRewriterLinkcheckerImplLinkInfoStorageImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int servicePeriodmaxLinksPerHost
+            , 
+            
+            bool servicePeriodsaveExternalLinkReferences
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param htmlparserPeriodprocessTags 
+    * \param htmlparserPeriodpreserveCamelCase 
+    */
+    Response<
+                ComDayCqRewriterProcessorImplHtmlParserFactoryInfo
+        >
+    comDayCqRewriterProcessorImplHtmlParserFactory(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> htmlparserPeriodprocessTags
+            
+            , 
+            
+            bool htmlparserPeriodpreserveCamelCase
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param excerptPeriodproperties 
+    * \param cachePeriodmaxPeriodentries 
+    * \param cachePeriodentryPeriodlifetime 
+    * \param xpathPeriodunion 
+    */
+    Response<
+                ComDayCqSearchImplBuilderQueryBuilderImplInfo
+        >
+    comDayCqSearchImplBuilderQueryBuilderImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> excerptPeriodproperties
+            
+            , 
+            
+            int cachePeriodmaxPeriodentries
+            , 
+            
+            int cachePeriodentryPeriodlifetime
+            , 
+            
+            bool xpathPeriodunion
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param pathBuilderPeriodtarget 
+    * \param suggestPeriodbasepath 
+    */
+    Response<
+                ComDayCqSearchSuggestImplSuggestionIndexManagerImplInfo
+        >
+    comDayCqSearchSuggestImplSuggestionIndexManagerImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string pathBuilderPeriodtarget
+            , 
+            
+            std::string suggestPeriodbasepath
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param cqPeriodsearchpromotePeriodconfighandlerPeriodenabled 
+    */
+    Response<
+                ComDayCqSearchpromoteImplPublishSearchPromoteConfigHandlerInfo
+        >
+    comDayCqSearchpromoteImplPublishSearchPromoteConfigHandler(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool cqPeriodsearchpromotePeriodconfighandlerPeriodenabled
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param cqPeriodsearchpromotePeriodconfigurationPeriodserverPerioduri 
+    * \param cqPeriodsearchpromotePeriodconfigurationPeriodenvironment 
+    * \param connectionPeriodtimeout 
+    * \param socketPeriodtimeout 
+    */
+    Response<
+                ComDayCqSearchpromoteImplSearchPromoteServiceImplInfo
+        >
+    comDayCqSearchpromoteImplSearchPromoteServiceImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string cqPeriodsearchpromotePeriodconfigurationPeriodserverPerioduri
+            , 
+            
+            std::string cqPeriodsearchpromotePeriodconfigurationPeriodenvironment
+            , 
+            
+            int connectionPeriodtimeout
+            , 
+            
+            int socketPeriodtimeout
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param cqPeriodaclsetupPeriodrules 
+    */
+    Response<
+                ComDayCqSecurityACLSetupInfo
+        >
+    comDayCqSecurityACLSetup(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> cqPeriodaclsetupPeriodrules
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param schedulerPeriodperiod 
+    * \param schedulerPeriodconcurrent 
+    * \param path 
+    * \param workspace 
+    * \param keywordsPath 
+    * \param asyncEntries 
+    */
+    Response<
+                ComDayCqStatisticsImplStatisticsServiceImplInfo
+        >
+    comDayCqStatisticsImplStatisticsServiceImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int schedulerPeriodperiod
+            , 
+            
+            bool schedulerPeriodconcurrent
+            , 
+            
+            std::string path
+            , 
+            
+            std::string workspace
+            , 
+            
+            std::string keywordsPath
+            , 
+            
+            bool asyncEntries
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param validationPeriodenabled 
+    */
+    Response<
+                ComDayCqTaggingImplJcrTagManagerFactoryImplInfo
+        >
+    comDayCqTaggingImplJcrTagManagerFactoryImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool validationPeriodenabled
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param ignorePath 
+    */
+    Response<
+                ComDayCqTaggingImplSearchTagPredicateEvaluatorInfo
+        >
+    comDayCqTaggingImplSearchTagPredicateEvaluator(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool ignorePath
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param schedulerPeriodexpression 
+    */
+    Response<
+                ComDayCqTaggingImplTagGarbageCollectorInfo
+        >
+    comDayCqTaggingImplTagGarbageCollector(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string schedulerPeriodexpression
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param cqPeriodpagesupdatehandlerPeriodimageresourcetypes 
+    */
+    Response<
+                ComDayCqWcmContentsyncImplHandlerPagesUpdateHandlerInfo
+        >
+    comDayCqWcmContentsyncImplHandlerPagesUpdateHandler(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> cqPeriodpagesupdatehandlerPeriodimageresourcetypes
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param cqPeriodcontentsyncPeriodpathrewritertransformerPeriodmappingPeriodlinks 
+    * \param cqPeriodcontentsyncPeriodpathrewritertransformerPeriodmappingPeriodclientlibs 
+    * \param cqPeriodcontentsyncPeriodpathrewritertransformerPeriodmappingPeriodimages 
+    * \param cqPeriodcontentsyncPeriodpathrewritertransformerPeriodattributePeriodpattern 
+    * \param cqPeriodcontentsyncPeriodpathrewritertransformerPeriodclientlibraryPeriodpattern 
+    * \param cqPeriodcontentsyncPeriodpathrewritertransformerPeriodclientlibraryPeriodreplace 
+    */
+    Response<
+                ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorInfo
+        >
+    comDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactor(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> cqPeriodcontentsyncPeriodpathrewritertransformerPeriodmappingPeriodlinks
+            
+            , 
+            std::list<std::string> cqPeriodcontentsyncPeriodpathrewritertransformerPeriodmappingPeriodclientlibs
+            
+            , 
+            std::list<std::string> cqPeriodcontentsyncPeriodpathrewritertransformerPeriodmappingPeriodimages
+            
+            , 
+            
+            std::string cqPeriodcontentsyncPeriodpathrewritertransformerPeriodattributePeriodpattern
+            , 
+            
+            std::string cqPeriodcontentsyncPeriodpathrewritertransformerPeriodclientlibraryPeriodpattern
+            , 
+            
+            std::string cqPeriodcontentsyncPeriodpathrewritertransformerPeriodclientlibraryPeriodreplace
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param authoringUIModeServicePerioddefault 
+    */
+    Response<
+                ComDayCqWcmCoreImplAuthoringUIModeServiceImplInfo
+        >
+    comDayCqWcmCoreImplAuthoringUIModeServiceImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string authoringUIModeServicePerioddefault
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param wcmcommandservletPerioddeleteWhitelist 
+    */
+    Response<
+                ComDayCqWcmCoreImplCommandsWCMCommandServletInfo
+        >
+    comDayCqWcmCoreImplCommandsWCMCommandServlet(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> wcmcommandservletPerioddeleteWhitelist
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param dimPerioddefaultPeriodmode 
+    * \param dimPeriodappcachePeriodenabled 
+    */
+    Response<
+                ComDayCqWcmCoreImplDevicedetectionDeviceIdentificationModeImplInfo
+        >
+    comDayCqWcmCoreImplDevicedetectionDeviceIdentificationModeImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string dimPerioddefaultPeriodmode
+            , 
+            
+            bool dimPeriodappcachePeriodenabled
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param configured 
+    */
+    Response<
+                ComDayCqWcmCoreImplEventPageEventAuditListenerInfo
+        >
+    comDayCqWcmCoreImplEventPageEventAuditListener(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string configured
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param paths 
+    */
+    Response<
+                ComDayCqWcmCoreImplEventPagePostProcessorInfo
+        >
+    comDayCqWcmCoreImplEventPagePostProcessor(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> paths
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param paths 
+    * \param excludedPaths 
+    */
+    Response<
+                ComDayCqWcmCoreImplEventRepositoryChangeEventListenerInfo
+        >
+    comDayCqWcmCoreImplEventRepositoryChangeEventListener(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> paths
+            
+            , 
+            std::list<std::string> excludedPaths
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param paths 
+    */
+    Response<
+                ComDayCqWcmCoreImplEventTemplatePostProcessorInfo
+        >
+    comDayCqWcmCoreImplEventTemplatePostProcessor(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string paths
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param langmgrPeriodlistPeriodpath 
+    * \param langmgrPeriodcountryPerioddefault 
+    */
+    Response<
+                ComDayCqWcmCoreImplLanguageManagerImplInfo
+        >
+    comDayCqWcmCoreImplLanguageManagerImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string langmgrPeriodlistPeriodpath
+            , 
+            std::list<std::string> langmgrPeriodcountryPerioddefault
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param linkPeriodexpiredPeriodprefix 
+    * \param linkPeriodexpiredPeriodremove 
+    * \param linkPeriodexpiredPeriodsuffix 
+    * \param linkPeriodinvalidPeriodprefix 
+    * \param linkPeriodinvalidPeriodremove 
+    * \param linkPeriodinvalidPeriodsuffix 
+    * \param linkPeriodpredatedPeriodprefix 
+    * \param linkPeriodpredatedPeriodremove 
+    * \param linkPeriodpredatedPeriodsuffix 
+    * \param linkPeriodwcmmodes 
+    */
+    Response<
+                ComDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplInfo
+        >
+    comDayCqWcmCoreImplLinkCheckerConfigurationFactoryImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string linkPeriodexpiredPeriodprefix
+            , 
+            
+            bool linkPeriodexpiredPeriodremove
+            , 
+            
+            std::string linkPeriodexpiredPeriodsuffix
+            , 
+            
+            std::string linkPeriodinvalidPeriodprefix
+            , 
+            
+            bool linkPeriodinvalidPeriodremove
+            , 
+            
+            std::string linkPeriodinvalidPeriodsuffix
+            , 
+            
+            std::string linkPeriodpredatedPeriodprefix
+            , 
+            
+            bool linkPeriodpredatedPeriodremove
+            , 
+            
+            std::string linkPeriodpredatedPeriodsuffix
+            , 
+            std::list<std::string> linkPeriodwcmmodes
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param pagePeriodinfoPeriodproviderPeriodpropertyPeriodregexPerioddefault 
+    * \param pagePeriodinfoPeriodproviderPeriodpropertyPeriodname 
+    */
+    Response<
+                ComDayCqWcmCoreImplPagePageInfoAggregatorImplInfo
+        >
+    comDayCqWcmCoreImplPagePageInfoAggregatorImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string pagePeriodinfoPeriodproviderPeriodpropertyPeriodregexPerioddefault
+            , 
+            
+            std::string pagePeriodinfoPeriodproviderPeriodpropertyPeriodname
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param illegalCharMapping 
+    * \param pageSubTreeActivationCheck 
+    */
+    Response<
+                ComDayCqWcmCoreImplPagePageManagerFactoryImplInfo
+        >
+    comDayCqWcmCoreImplPagePageManagerFactoryImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string illegalCharMapping
+            , 
+            
+            bool pageSubTreeActivationCheck
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param contentReferenceConfigPeriodresourceTypes 
+    */
+    Response<
+                ComDayCqWcmCoreImplReferencesContentContentReferenceConfigInfo
+        >
+    comDayCqWcmCoreImplReferencesContentContentReferenceConfig(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> contentReferenceConfigPeriodresourceTypes
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param damPeriodshowexpired 
+    * \param damPeriodshowhidden 
+    * \param tagTitleSearch 
+    * \param guessTotal 
+    * \param damPeriodexpiryProperty 
+    */
+    Response<
+                ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerInfo
+        >
+    comDayCqWcmCoreImplServletsContentfinderAssetViewHandler(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool damPeriodshowexpired
+            , 
+            
+            bool damPeriodshowhidden
+            , 
+            
+            bool tagTitleSearch
+            , 
+            
+            std::string guessTotal
+            , 
+            
+            std::string damPeriodexpiryProperty
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param itemPeriodresourcePeriodtypes 
+    */
+    Response<
+                ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorVieInfo
+        >
+    comDayCqWcmCoreImplServletsContentfinderConnectorConnectorVie(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> itemPeriodresourcePeriodtypes
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param guessTotal 
+    * \param tagTitleSearch 
+    */
+    Response<
+                ComDayCqWcmCoreImplServletsContentfinderPageViewHandlerInfo
+        >
+    comDayCqWcmCoreImplServletsContentfinderPageViewHandler(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string guessTotal
+            , 
+            
+            bool tagTitleSearch
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param scope 
+    */
+    Response<
+                ComDayCqWcmCoreImplServletsFindReplaceServletInfo
+        >
+    comDayCqWcmCoreImplServletsFindReplaceServlet(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> scope
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param referencesearchservletPeriodmaxReferencesPerPage 
+    * \param referencesearchservletPeriodmaxPages 
+    */
+    Response<
+                ComDayCqWcmCoreImplServletsReferenceSearchServletInfo
+        >
+    comDayCqWcmCoreImplServletsReferenceSearchServlet(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int referencesearchservletPeriodmaxReferencesPerPage
+            , 
+            
+            int referencesearchservletPeriodmaxPages
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param workspace 
+    * \param dimensions 
+    */
+    Response<
+                ComDayCqWcmCoreImplServletsThumbnailServletInfo
+        >
+    comDayCqWcmCoreImplServletsThumbnailServlet(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string workspace
+            , 
+            std::list<std::string> dimensions
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param nonValidChars 
+    */
+    Response<
+                ComDayCqWcmCoreImplUtilsDefaultPageNameValidatorInfo
+        >
+    comDayCqWcmCoreImplUtilsDefaultPageNameValidator(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string nonValidChars
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param defaultPeriodexternalizerPerioddomain 
+    */
+    Response<
+                ComDayCqWcmCoreImplVariantsPageVariantsProviderImplInfo
+        >
+    comDayCqWcmCoreImplVariantsPageVariantsProviderImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string defaultPeriodexternalizerPerioddomain
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param versionmanagerPeriodcreateVersionOnActivation 
+    * \param versionmanagerPeriodpurgingEnabled 
+    * \param versionmanagerPeriodpurgePaths 
+    * \param versionmanagerPeriodivPaths 
+    * \param versionmanagerPeriodmaxAgeDays 
+    * \param versionmanagerPeriodmaxNumberVersions 
+    * \param versionmanagerPeriodminNumberVersions 
+    */
+    Response<
+                ComDayCqWcmCoreImplVersionManagerImplInfo
+        >
+    comDayCqWcmCoreImplVersionManagerImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool versionmanagerPeriodcreateVersionOnActivation
+            , 
+            
+            bool versionmanagerPeriodpurgingEnabled
+            , 
+            std::list<std::string> versionmanagerPeriodpurgePaths
+            
+            , 
+            std::list<std::string> versionmanagerPeriodivPaths
+            
+            , 
+            
+            int versionmanagerPeriodmaxAgeDays
+            , 
+            
+            int versionmanagerPeriodmaxNumberVersions
+            , 
+            
+            int versionmanagerPeriodminNumberVersions
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param versionpurgePeriodpaths 
+    * \param versionpurgePeriodrecursive 
+    * \param versionpurgePeriodmaxVersions 
+    * \param versionpurgePeriodminVersions 
+    * \param versionpurgePeriodmaxAgeDays 
+    */
+    Response<
+                ComDayCqWcmCoreImplVersionPurgeTaskInfo
+        >
+    comDayCqWcmCoreImplVersionPurgeTask(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> versionpurgePeriodpaths
+            
+            , 
+            
+            bool versionpurgePeriodrecursive
+            , 
+            
+            int versionpurgePeriodmaxVersions
+            , 
+            
+            int versionpurgePeriodminVersions
+            , 
+            
+            int versionpurgePeriodmaxAgeDays
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param wcmdbgfilterPeriodenabled 
+    * \param wcmdbgfilterPeriodjspDebug 
+    */
+    Response<
+                ComDayCqWcmCoreImplWCMDebugFilterInfo
+        >
+    comDayCqWcmCoreImplWCMDebugFilter(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool wcmdbgfilterPeriodenabled
+            , 
+            
+            bool wcmdbgfilterPeriodjspDebug
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param wcmdevmodefilterPeriodenabled 
+    */
+    Response<
+                ComDayCqWcmCoreImplWCMDeveloperModeFilterInfo
+        >
+    comDayCqWcmCoreImplWCMDeveloperModeFilter(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool wcmdevmodefilterPeriodenabled
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param filterPeriodorder 
+    * \param filterPeriodscope 
+    */
+    Response<
+                ComDayCqWcmCoreImplWarpTimeWarpFilterInfo
+        >
+    comDayCqWcmCoreImplWarpTimeWarpFilter(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string filterPeriodorder
+            , 
+            
+            std::string filterPeriodscope
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param mvtstatisticsPeriodtrackingurl 
+    */
+    Response<
+                ComDayCqWcmCoreMvtMVTStatisticsImplInfo
+        >
+    comDayCqWcmCoreMvtMVTStatisticsImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string mvtstatisticsPeriodtrackingurl
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param pageviewstatisticsPeriodtrackingurl 
+    * \param pageviewstatisticsPeriodtrackingscriptPeriodenabled 
+    */
+    Response<
+                ComDayCqWcmCoreStatsPageViewStatisticsImplInfo
+        >
+    comDayCqWcmCoreStatsPageViewStatisticsImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string pageviewstatisticsPeriodtrackingurl
+            , 
+            
+            std::string pageviewstatisticsPeriodtrackingscriptPeriodenabled
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param wcmfilterPeriodmode 
+    */
+    Response<
+                ComDayCqWcmCoreWCMRequestFilterInfo
+        >
+    comDayCqWcmCoreWCMRequestFilter(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string wcmfilterPeriodmode
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param extractPeriodfilter 
+    */
+    Response<
+                ComDayCqWcmDesignimporterDesignPackageImporterInfo
+        >
+    comDayCqWcmDesignimporterDesignPackageImporter(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> extractPeriodfilter
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param filepattern 
+    * \param buildPeriodpagePeriodnodes 
+    * \param buildPeriodclientPeriodlibs 
+    * \param buildPeriodcanvasPeriodcomponent 
+    */
+    Response<
+                ComDayCqWcmDesignimporterImplCanvasBuilderImplInfo
+        >
+    comDayCqWcmDesignimporterImplCanvasBuilderImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string filepattern
+            , 
+            
+            bool buildPeriodpagePeriodnodes
+            , 
+            
+            bool buildPeriodclientPeriodlibs
+            , 
+            
+            bool buildPeriodcanvasPeriodcomponent
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param minThreadPoolSize 
+    * \param maxThreadPoolSize 
+    */
+    Response<
+                ComDayCqWcmDesignimporterImplCanvasPageDeleteHandlerInfo
+        >
+    comDayCqWcmDesignimporterImplCanvasPageDeleteHandler(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int minThreadPoolSize
+            , 
+            
+            int maxThreadPoolSize
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param searchPeriodpattern 
+    * \param replacePeriodpattern 
+    */
+    Response<
+                ComDayCqWcmDesignimporterImplEntryPreprocessorImplInfo
+        >
+    comDayCqWcmDesignimporterImplEntryPreprocessorImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string searchPeriodpattern
+            , 
+            
+            std::string replacePeriodpattern
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param filepattern 
+    * \param devicePeriodgroups 
+    * \param buildPeriodpagePeriodnodes 
+    * \param buildPeriodclientPeriodlibs 
+    * \param buildPeriodcanvasPeriodcomponent 
+    */
+    Response<
+                ComDayCqWcmDesignimporterImplMobileCanvasBuilderImplInfo
+        >
+    comDayCqWcmDesignimporterImplMobileCanvasBuilderImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string filepattern
+            , 
+            std::list<std::string> devicePeriodgroups
+            
+            , 
+            
+            bool buildPeriodpagePeriodnodes
+            , 
+            
+            bool buildPeriodclientPeriodlibs
+            , 
+            
+            bool buildPeriodcanvasPeriodcomponent
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param servicePeriodranking 
+    * \param tagpattern 
+    */
+    Response<
+                ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeInfo
+        >
+    comDayCqWcmDesignimporterParserTaghandlersFactoryCanvasCompone(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int servicePeriodranking
+            , 
+            
+            std::string tagpattern
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param servicePeriodranking 
+    * \param tagpattern 
+    */
+    Response<
+                ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultComponInfo
+        >
+    comDayCqWcmDesignimporterParserTaghandlersFactoryDefaultCompon(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int servicePeriodranking
+            , 
+            
+            std::string tagpattern
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param servicePeriodranking 
+    * \param tagpattern 
+    */
+    Response<
+                ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHanInfo
+        >
+    comDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHan(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int servicePeriodranking
+            , 
+            
+            std::string tagpattern
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param servicePeriodranking 
+    * \param tagpattern 
+    */
+    Response<
+                ComDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandleInfo
+        >
+    comDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandle(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int servicePeriodranking
+            , 
+            
+            std::string tagpattern
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param servicePeriodranking 
+    * \param tagpattern 
+    */
+    Response<
+                ComDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHandInfo
+        >
+    comDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHand(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int servicePeriodranking
+            , 
+            
+            std::string tagpattern
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param servicePeriodranking 
+    * \param tagpattern 
+    * \param componentPeriodresourceType 
+    */
+    Response<
+                ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponenInfo
+        >
+    comDayCqWcmDesignimporterParserTaghandlersFactoryImageComponen(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int servicePeriodranking
+            , 
+            
+            std::string tagpattern
+            , 
+            
+            std::string componentPeriodresourceType
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param servicePeriodranking 
+    * \param tagpattern 
+    */
+    Response<
+                ComDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandlerInfo
+        >
+    comDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandler(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int servicePeriodranking
+            , 
+            
+            std::string tagpattern
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param servicePeriodranking 
+    * \param tagpattern 
+    */
+    Response<
+                ComDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTInfo
+        >
+    comDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptT(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int servicePeriodranking
+            , 
+            
+            std::string tagpattern
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param servicePeriodranking 
+    * \param tagpattern 
+    */
+    Response<
+                ComDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandleInfo
+        >
+    comDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandle(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int servicePeriodranking
+            , 
+            
+            std::string tagpattern
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param servicePeriodranking 
+    * \param tagpattern 
+    */
+    Response<
+                ComDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandleInfo
+        >
+    comDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandle(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int servicePeriodranking
+            , 
+            
+            std::string tagpattern
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param servicePeriodranking 
+    * \param tagpattern 
+    */
+    Response<
+                ComDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagHInfo
+        >
+    comDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagH(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int servicePeriodranking
+            , 
+            
+            std::string tagpattern
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param servicePeriodranking 
+    * \param tagpattern 
+    * \param componentPeriodresourceType 
+    */
+    Response<
+                ComDayCqWcmDesignimporterParserTaghandlersFactoryParsysComponeInfo
+        >
+    comDayCqWcmDesignimporterParserTaghandlersFactoryParsysCompone(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int servicePeriodranking
+            , 
+            
+            std::string tagpattern
+            , 
+            
+            std::string componentPeriodresourceType
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param servicePeriodranking 
+    * \param tagpattern 
+    */
+    Response<
+                ComDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandInfo
+        >
+    comDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHand(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int servicePeriodranking
+            , 
+            
+            std::string tagpattern
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param servicePeriodranking 
+    * \param tagpattern 
+    */
+    Response<
+                ComDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlInfo
+        >
+    comDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int servicePeriodranking
+            , 
+            
+            std::string tagpattern
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param servicePeriodranking 
+    * \param tagpattern 
+    * \param componentPeriodresourceType 
+    */
+    Response<
+                ComDayCqWcmDesignimporterParserTaghandlersFactoryTextComponentInfo
+        >
+    comDayCqWcmDesignimporterParserTaghandlersFactoryTextComponent(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int servicePeriodranking
+            , 
+            
+            std::string tagpattern
+            , 
+            
+            std::string componentPeriodresourceType
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param servicePeriodranking 
+    * \param tagpattern 
+    * \param componentPeriodresourceType 
+    */
+    Response<
+                ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponenInfo
+        >
+    comDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponen(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int servicePeriodranking
+            , 
+            
+            std::string tagpattern
+            , 
+            
+            std::string componentPeriodresourceType
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param servicePeriodranking 
+    * \param tagpattern 
+    */
+    Response<
+                ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandlInfo
+        >
+    comDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int servicePeriodranking
+            , 
+            
+            std::string tagpattern
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param servicePeriodname 
+    * \param slingPeriodservletPeriodresourceTypes 
+    * \param slingPeriodservletPeriodselectors 
+    * \param slingPeriodservletPeriodmethods 
+    * \param formsPeriodformchooserservletPeriodadvansesearchPeriodrequire 
+    */
+    Response<
+                ComDayCqWcmFoundationFormsImplFormChooserServletInfo
+        >
+    comDayCqWcmFoundationFormsImplFormChooserServlet(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string servicePeriodname
+            , 
+            
+            std::string slingPeriodservletPeriodresourceTypes
+            , 
+            
+            std::string slingPeriodservletPeriodselectors
+            , 
+            std::list<std::string> slingPeriodservletPeriodmethods
+            
+            , 
+            
+            bool formsPeriodformchooserservletPeriodadvansesearchPeriodrequire
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param formsPeriodformparagraphpostprocessorPeriodenabled 
+    * \param formsPeriodformparagraphpostprocessorPeriodformresourcetypes 
+    */
+    Response<
+                ComDayCqWcmFoundationFormsImplFormParagraphPostProcessorInfo
+        >
+    comDayCqWcmFoundationFormsImplFormParagraphPostProcessor(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool formsPeriodformparagraphpostprocessorPeriodenabled
+            , 
+            std::list<std::string> formsPeriodformparagraphpostprocessorPeriodformresourcetypes
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param namePeriodwhitelist 
+    * \param allowPeriodexpressions 
+    */
+    Response<
+                ComDayCqWcmFoundationFormsImplFormsHandlingServletInfo
+        >
+    comDayCqWcmFoundationFormsImplFormsHandlingServlet(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string namePeriodwhitelist
+            , 
+            
+            bool allowPeriodexpressions
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param slingPeriodservletPeriodresourceTypes 
+    * \param slingPeriodservletPeriodselectors 
+    * \param resourcePeriodwhitelist 
+    * \param resourcePeriodblacklist 
+    */
+    Response<
+                ComDayCqWcmFoundationFormsImplMailServletInfo
+        >
+    comDayCqWcmFoundationFormsImplMailServlet(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string slingPeriodservletPeriodresourceTypes
+            , 
+            
+            std::string slingPeriodservletPeriodselectors
+            , 
+            std::list<std::string> resourcePeriodwhitelist
+            
+            , 
+            
+            std::string resourcePeriodblacklist
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param adaptPeriodsupportedPeriodwidths 
+    */
+    Response<
+                ComDayCqWcmFoundationImplAdaptiveImageComponentServletInfo
+        >
+    comDayCqWcmFoundationImplAdaptiveImageComponentServlet(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> adaptPeriodsupportedPeriodwidths
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param path 
+    * \param authPeriodhttpPeriodnologin 
+    * \param authPeriodhttpPeriodrealm 
+    * \param authPerioddefaultPeriodloginpage 
+    * \param authPeriodcredPeriodform 
+    * \param authPeriodcredPeriodutf8 
+    */
+    Response<
+                ComDayCqWcmFoundationImplHTTPAuthHandlerInfo
+        >
+    comDayCqWcmFoundationImplHTTPAuthHandler(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string path
+            , 
+            
+            bool authPeriodhttpPeriodnologin
+            , 
+            
+            std::string authPeriodhttpPeriodrealm
+            , 
+            
+            std::string authPerioddefaultPeriodloginpage
+            , 
+            std::list<std::string> authPeriodcredPeriodform
+            
+            , 
+            std::list<std::string> authPeriodcredPeriodutf8
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param slingPeriodauthPeriodrequirements 
+    */
+    Response<
+                ComDayCqWcmFoundationImplPageImpressionsTrackerInfo
+        >
+    comDayCqWcmFoundationImplPageImpressionsTracker(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string slingPeriodauthPeriodrequirements
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param excludedPeriodresourcePeriodtypes 
+    */
+    Response<
+                ComDayCqWcmFoundationImplPageRedirectServletInfo
+        >
+    comDayCqWcmFoundationImplPageRedirectServlet(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> excludedPeriodresourcePeriodtypes
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param defaultPeriodattachmentPeriodtypePeriodblacklist 
+    * \param baselinePeriodattachmentPeriodtypePeriodblacklist 
+    */
+    Response<
+                ComDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistInfo
+        >
+    comDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklist(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> defaultPeriodattachmentPeriodtypePeriodblacklist
+            
+            , 
+            std::list<std::string> baselinePeriodattachmentPeriodtypePeriodblacklist
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param parameterPeriodwhitelist 
+    * \param parameterPeriodwhitelistPeriodprefixes 
+    * \param binaryPeriodparameterPeriodwhitelist 
+    * \param modifierPeriodwhitelist 
+    * \param operationPeriodwhitelist 
+    * \param operationPeriodwhitelistPeriodprefixes 
+    * \param typehintPeriodwhitelist 
+    * \param resourcetypePeriodwhitelist 
+    */
+    Response<
+                ComDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplInfo
+        >
+    comDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> parameterPeriodwhitelist
+            
+            , 
+            std::list<std::string> parameterPeriodwhitelistPeriodprefixes
+            
+            , 
+            std::list<std::string> binaryPeriodparameterPeriodwhitelist
+            
+            , 
+            std::list<std::string> modifierPeriodwhitelist
+            
+            , 
+            std::list<std::string> operationPeriodwhitelist
+            
+            , 
+            std::list<std::string> operationPeriodwhitelistPeriodprefixes
+            
+            , 
+            std::list<std::string> typehintPeriodwhitelist
+            
+            , 
+            std::list<std::string> resourcetypePeriodwhitelist
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param devicePeriodinfoPeriodtransformerPeriodenabled 
+    * \param devicePeriodinfoPeriodtransformerPeriodcssPeriodstyle 
+    */
+    Response<
+                ComDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactoryInfo
+        >
+    comDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactory(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool devicePeriodinfoPeriodtransformerPeriodenabled
+            , 
+            
+            std::string devicePeriodinfoPeriodtransformerPeriodcssPeriodstyle
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param redirectPeriodenabled 
+    * \param redirectPeriodstatsPeriodenabled 
+    * \param redirectPeriodextensions 
+    * \param redirectPeriodpaths 
+    */
+    Response<
+                ComDayCqWcmMobileCoreImplRedirectRedirectFilterInfo
+        >
+    comDayCqWcmMobileCoreImplRedirectRedirectFilter(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool redirectPeriodenabled
+            , 
+            
+            bool redirectPeriodstatsPeriodenabled
+            , 
+            std::list<std::string> redirectPeriodextensions
+            
+            , 
+            std::list<std::string> redirectPeriodpaths
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param cqPeriodwcmPeriodmsmPeriodactionPeriodexcludednodetypes 
+    * \param cqPeriodwcmPeriodmsmPeriodactionPeriodexcludedparagraphitems 
+    * \param cqPeriodwcmPeriodmsmPeriodactionPeriodexcludedprops 
+    * \param contentcopyactionPeriodorderPeriodstyle 
+    */
+    Response<
+                ComDayCqWcmMsmImplActionsContentCopyActionFactoryInfo
+        >
+    comDayCqWcmMsmImplActionsContentCopyActionFactory(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> cqPeriodwcmPeriodmsmPeriodactionPeriodexcludednodetypes
+            
+            , 
+            std::list<std::string> cqPeriodwcmPeriodmsmPeriodactionPeriodexcludedparagraphitems
+            
+            , 
+            std::list<std::string> cqPeriodwcmPeriodmsmPeriodactionPeriodexcludedprops
+            
+            , 
+            
+            std::string contentcopyactionPeriodorderPeriodstyle
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param cqPeriodwcmPeriodmsmPeriodactionPeriodexcludednodetypes 
+    * \param cqPeriodwcmPeriodmsmPeriodactionPeriodexcludedparagraphitems 
+    * \param cqPeriodwcmPeriodmsmPeriodactionPeriodexcludedprops 
+    */
+    Response<
+                ComDayCqWcmMsmImplActionsContentDeleteActionFactoryInfo
+        >
+    comDayCqWcmMsmImplActionsContentDeleteActionFactory(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> cqPeriodwcmPeriodmsmPeriodactionPeriodexcludednodetypes
+            
+            , 
+            std::list<std::string> cqPeriodwcmPeriodmsmPeriodactionPeriodexcludedparagraphitems
+            
+            , 
+            std::list<std::string> cqPeriodwcmPeriodmsmPeriodactionPeriodexcludedprops
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param cqPeriodwcmPeriodmsmPeriodactionPeriodexcludednodetypes 
+    * \param cqPeriodwcmPeriodmsmPeriodactionPeriodexcludedparagraphitems 
+    * \param cqPeriodwcmPeriodmsmPeriodactionPeriodexcludedprops 
+    * \param cqPeriodwcmPeriodmsmPeriodactionPeriodignoredMixin 
+    */
+    Response<
+                ComDayCqWcmMsmImplActionsContentUpdateActionFactoryInfo
+        >
+    comDayCqWcmMsmImplActionsContentUpdateActionFactory(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> cqPeriodwcmPeriodmsmPeriodactionPeriodexcludednodetypes
+            
+            , 
+            std::list<std::string> cqPeriodwcmPeriodmsmPeriodactionPeriodexcludedparagraphitems
+            
+            , 
+            std::list<std::string> cqPeriodwcmPeriodmsmPeriodactionPeriodexcludedprops
+            
+            , 
+            std::list<std::string> cqPeriodwcmPeriodmsmPeriodactionPeriodignoredMixin
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param cqPeriodwcmPeriodmsmPeriodactionPeriodexcludednodetypes 
+    * \param cqPeriodwcmPeriodmsmPeriodactionPeriodexcludedparagraphitems 
+    * \param cqPeriodwcmPeriodmsmPeriodactionPeriodexcludedprops 
+    */
+    Response<
+                ComDayCqWcmMsmImplActionsOrderChildrenActionFactoryInfo
+        >
+    comDayCqWcmMsmImplActionsOrderChildrenActionFactory(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> cqPeriodwcmPeriodmsmPeriodactionPeriodexcludednodetypes
+            
+            , 
+            std::list<std::string> cqPeriodwcmPeriodmsmPeriodactionPeriodexcludedparagraphitems
+            
+            , 
+            std::list<std::string> cqPeriodwcmPeriodmsmPeriodactionPeriodexcludedprops
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param cqPeriodwcmPeriodmsmPeriodactionPeriodexcludednodetypes 
+    * \param cqPeriodwcmPeriodmsmPeriodactionPeriodexcludedparagraphitems 
+    * \param cqPeriodwcmPeriodmsmPeriodactionPeriodexcludedprops 
+    * \param cqPeriodwcmPeriodmsmPeriodimplPeriodactionsPeriodpagemovePeriodpropReferenceUpdate 
+    */
+    Response<
+                ComDayCqWcmMsmImplActionsPageMoveActionFactoryInfo
+        >
+    comDayCqWcmMsmImplActionsPageMoveActionFactory(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> cqPeriodwcmPeriodmsmPeriodactionPeriodexcludednodetypes
+            
+            , 
+            std::list<std::string> cqPeriodwcmPeriodmsmPeriodactionPeriodexcludedparagraphitems
+            
+            , 
+            std::list<std::string> cqPeriodwcmPeriodmsmPeriodactionPeriodexcludedprops
+            
+            , 
+            
+            bool cqPeriodwcmPeriodmsmPeriodimplPeriodactionsPeriodpagemovePeriodpropReferenceUpdate
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param cqPeriodwcmPeriodmsmPeriodactionPeriodexcludednodetypes 
+    * \param cqPeriodwcmPeriodmsmPeriodactionPeriodexcludedparagraphitems 
+    * \param cqPeriodwcmPeriodmsmPeriodactionPeriodexcludedprops 
+    * \param cqPeriodwcmPeriodmsmPeriodimplPeriodactionPeriodreferencesupdatePeriodpropUpdateNested 
+    */
+    Response<
+                ComDayCqWcmMsmImplActionsReferencesUpdateActionFactoryInfo
+        >
+    comDayCqWcmMsmImplActionsReferencesUpdateActionFactory(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> cqPeriodwcmPeriodmsmPeriodactionPeriodexcludednodetypes
+            
+            , 
+            std::list<std::string> cqPeriodwcmPeriodmsmPeriodactionPeriodexcludedparagraphitems
+            
+            , 
+            std::list<std::string> cqPeriodwcmPeriodmsmPeriodactionPeriodexcludedprops
+            
+            , 
+            
+            bool cqPeriodwcmPeriodmsmPeriodimplPeriodactionPeriodreferencesupdatePeriodpropUpdateNested
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param cqPeriodwcmPeriodmsmPeriodactionPeriodexcludednodetypes 
+    * \param cqPeriodwcmPeriodmsmPeriodactionPeriodexcludedparagraphitems 
+    * \param cqPeriodwcmPeriodmsmPeriodactionPeriodexcludedprops 
+    */
+    Response<
+                ComDayCqWcmMsmImplActionsVersionCopyActionFactoryInfo
+        >
+    comDayCqWcmMsmImplActionsVersionCopyActionFactory(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> cqPeriodwcmPeriodmsmPeriodactionPeriodexcludednodetypes
+            
+            , 
+            std::list<std::string> cqPeriodwcmPeriodmsmPeriodactionPeriodexcludedparagraphitems
+            
+            , 
+            std::list<std::string> cqPeriodwcmPeriodmsmPeriodactionPeriodexcludedprops
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param liverelationshipmgrPeriodrelationsconfigPerioddefault 
+    */
+    Response<
+                ComDayCqWcmMsmImplLiveRelationshipManagerImplInfo
+        >
+    comDayCqWcmMsmImplLiveRelationshipManagerImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string liverelationshipmgrPeriodrelationsconfigPerioddefault
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param eventPeriodfilter 
+    * \param rolloutmgrPeriodexcludedpropsPerioddefault 
+    * \param rolloutmgrPeriodexcludedparagraphpropsPerioddefault 
+    * \param rolloutmgrPeriodexcludednodetypesPerioddefault 
+    * \param rolloutmgrPeriodthreadpoolPeriodmaxsize 
+    * \param rolloutmgrPeriodthreadpoolPeriodmaxshutdowntime 
+    * \param rolloutmgrPeriodthreadpoolPeriodpriority 
+    * \param rolloutmgrPeriodcommitPeriodsize 
+    * \param rolloutmgrPeriodconflicthandlingPeriodenabled 
+    */
+    Response<
+                ComDayCqWcmMsmImplRolloutManagerImplInfo
+        >
+    comDayCqWcmMsmImplRolloutManagerImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string eventPeriodfilter
+            , 
+            std::list<std::string> rolloutmgrPeriodexcludedpropsPerioddefault
+            
+            , 
+            std::list<std::string> rolloutmgrPeriodexcludedparagraphpropsPerioddefault
+            
+            , 
+            std::list<std::string> rolloutmgrPeriodexcludednodetypesPerioddefault
+            
+            , 
+            
+            int rolloutmgrPeriodthreadpoolPeriodmaxsize
+            , 
+            
+            int rolloutmgrPeriodthreadpoolPeriodmaxshutdowntime
+            , 
+            
+            std::string rolloutmgrPeriodthreadpoolPeriodpriority
+            , 
+            
+            int rolloutmgrPeriodcommitPeriodsize
+            , 
+            
+            bool rolloutmgrPeriodconflicthandlingPeriodenabled
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param auditlogservletPerioddefaultPeriodeventsPeriodcount 
+    * \param auditlogservletPerioddefaultPeriodpath 
+    */
+    Response<
+                ComDayCqWcmMsmImplServletsAuditLogServletInfo
+        >
+    comDayCqWcmMsmImplServletsAuditLogServlet(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int auditlogservletPerioddefaultPeriodeventsPeriodcount
+            , 
+            
+            std::string auditlogservletPerioddefaultPeriodpath
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param emailPeriodfrom 
+    */
+    Response<
+                ComDayCqWcmNotificationEmailImplEmailChannelInfo
+        >
+    comDayCqWcmNotificationEmailImplEmailChannel(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string emailPeriodfrom
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param eventPeriodtopics 
+    */
+    Response<
+                ComDayCqWcmNotificationImplNotificationManagerImplInfo
+        >
+    comDayCqWcmNotificationImplNotificationManagerImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> eventPeriodtopics
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param comPerioddayPeriodcqPeriodwcmPeriodscriptingPeriodbvpPeriodscriptPeriodengines 
+    */
+    Response<
+                ComDayCqWcmScriptingImplBVPManagerInfo
+        >
+    comDayCqWcmScriptingImplBVPManager(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> comPerioddayPeriodcqPeriodwcmPeriodscriptingPeriodbvpPeriodscriptPeriodengines
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param cqPeriodwcmPeriodundoPeriodenabled 
+    * \param cqPeriodwcmPeriodundoPeriodpath 
+    * \param cqPeriodwcmPeriodundoPeriodvalidity 
+    * \param cqPeriodwcmPeriodundoPeriodsteps 
+    * \param cqPeriodwcmPeriodundoPeriodpersistence 
+    * \param cqPeriodwcmPeriodundoPeriodpersistencePeriodmode 
+    * \param cqPeriodwcmPeriodundoPeriodmarkermode 
+    * \param cqPeriodwcmPeriodundoPeriodwhitelist 
+    * \param cqPeriodwcmPeriodundoPeriodblacklist 
+    */
+    Response<
+                ComDayCqWcmUndoUndoConfigInfo
+        >
+    comDayCqWcmUndoUndoConfig(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool cqPeriodwcmPeriodundoPeriodenabled
+            , 
+            
+            std::string cqPeriodwcmPeriodundoPeriodpath
+            , 
+            
+            int cqPeriodwcmPeriodundoPeriodvalidity
+            , 
+            
+            int cqPeriodwcmPeriodundoPeriodsteps
+            , 
+            
+            std::string cqPeriodwcmPeriodundoPeriodpersistence
+            , 
+            
+            bool cqPeriodwcmPeriodundoPeriodpersistencePeriodmode
+            , 
+            
+            std::string cqPeriodwcmPeriodundoPeriodmarkermode
+            , 
+            std::list<std::string> cqPeriodwcmPeriodundoPeriodwhitelist
+            
+            , 
+            std::list<std::string> cqPeriodwcmPeriodundoPeriodblacklist
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param flush_agents 
+    */
+    Response<
+                ComDayCqWcmWebservicesupportImplReplicationEventListenerInfo
+        >
+    comDayCqWcmWebservicesupportImplReplicationEventListener(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> flush_agents
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param eventPeriodfilter 
+    * \param minThreadPoolSize 
+    * \param maxThreadPoolSize 
+    * \param cqPeriodwcmPeriodworkflowPeriodterminatePeriodonPeriodactivate 
+    * \param cqPeriodwcmPeriodworklfowPeriodterminatePeriodexclusionPeriodlist 
+    */
+    Response<
+                ComDayCqWcmWorkflowImplWcmWorkflowServiceImplInfo
+        >
+    comDayCqWcmWorkflowImplWcmWorkflowServiceImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string eventPeriodfilter
+            , 
+            
+            int minThreadPoolSize
+            , 
+            
+            int maxThreadPoolSize
+            , 
+            
+            bool cqPeriodwcmPeriodworkflowPeriodterminatePeriodonPeriodactivate
+            , 
+            std::list<std::string> cqPeriodwcmPeriodworklfowPeriodterminatePeriodexclusionPeriodlist
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param workflowpackageinfoproviderPeriodfilter 
+    * \param workflowpackageinfoproviderPeriodfilterPeriodrootpath 
+    */
+    Response<
+                ComDayCqWcmWorkflowImplWorkflowPackageInfoProviderInfo
+        >
+    comDayCqWcmWorkflowImplWorkflowPackageInfoProvider(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> workflowpackageinfoproviderPeriodfilter
+            
+            , 
+            
+            std::string workflowpackageinfoproviderPeriodfilterPeriodrootpath
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param htmllibmanagerPeriodclientmanager 
+    * \param htmllibmanagerPerioddebug 
+    * \param htmllibmanagerPerioddebugPeriodconsole 
+    * \param htmllibmanagerPerioddebugPeriodinitPeriodjs 
+    * \param htmllibmanagerPerioddefaultthemename 
+    * \param htmllibmanagerPerioddefaultuserthemename 
+    * \param htmllibmanagerPeriodfirebuglitePeriodpath 
+    * \param htmllibmanagerPeriodforceCQUrlInfo 
+    * \param htmllibmanagerPeriodgzip 
+    * \param htmllibmanagerPeriodmaxage 
+    * \param htmllibmanagerPeriodmaxDataUriSize 
+    * \param htmllibmanagerPeriodminify 
+    * \param htmllibmanagerPeriodpathPeriodlist 
+    * \param htmllibmanagerPeriodtiming 
+    */
+    Response<
+                ComDayCqWidgetImplHtmlLibraryManagerImplInfo
+        >
+    comDayCqWidgetImplHtmlLibraryManagerImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string htmllibmanagerPeriodclientmanager
+            , 
+            
+            bool htmllibmanagerPerioddebug
+            , 
+            
+            bool htmllibmanagerPerioddebugPeriodconsole
+            , 
+            
+            std::string htmllibmanagerPerioddebugPeriodinitPeriodjs
+            , 
+            
+            std::string htmllibmanagerPerioddefaultthemename
+            , 
+            
+            std::string htmllibmanagerPerioddefaultuserthemename
+            , 
+            
+            std::string htmllibmanagerPeriodfirebuglitePeriodpath
+            , 
+            
+            bool htmllibmanagerPeriodforceCQUrlInfo
+            , 
+            
+            bool htmllibmanagerPeriodgzip
+            , 
+            
+            int htmllibmanagerPeriodmaxage
+            , 
+            
+            int htmllibmanagerPeriodmaxDataUriSize
+            , 
+            
+            bool htmllibmanagerPeriodminify
+            , 
+            std::list<std::string> htmllibmanagerPeriodpathPeriodlist
+            
+            , 
+            
+            bool htmllibmanagerPeriodtiming
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param extendablePeriodwidgets 
+    * \param widgetextensionproviderPerioddebug 
+    */
+    Response<
+                ComDayCqWidgetImplWidgetExtensionProviderImplInfo
+        >
+    comDayCqWidgetImplWidgetExtensionProviderImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> extendablePeriodwidgets
+            
+            , 
+            
+            bool widgetextensionproviderPerioddebug
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param fromPeriodaddress 
+    * \param hostPeriodprefix 
+    * \param notifyPeriodonabort 
+    * \param notifyPeriodoncomplete 
+    * \param notifyPeriodoncontainercomplete 
+    * \param notifyPerioduseronly 
+    */
+    Response<
+                ComDayCqWorkflowImplEmailEMailNotificationServiceInfo
+        >
+    comDayCqWorkflowImplEmailEMailNotificationService(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string fromPeriodaddress
+            , 
+            
+            std::string hostPeriodprefix
+            , 
+            
+            bool notifyPeriodonabort
+            , 
+            
+            bool notifyPeriodoncomplete
+            , 
+            
+            bool notifyPeriodoncontainercomplete
+            , 
+            
+            bool notifyPerioduseronly
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param notifyPeriodonupdate 
+    * \param notifyPeriodoncomplete 
+    */
+    Response<
+                ComDayCqWorkflowImplEmailTaskEMailNotificationServiceInfo
+        >
+    comDayCqWorkflowImplEmailTaskEMailNotificationService(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool notifyPeriodonupdate
+            , 
+            
+            bool notifyPeriodoncomplete
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param path 
+    * \param tokenPeriodrequiredPeriodattr 
+    * \param tokenPeriodalternatePeriodurl 
+    * \param tokenPeriodencapsulated 
+    * \param skipPeriodtokenPeriodrefresh 
+    */
+    Response<
+                ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerInfo
+        >
+    comDayCrxSecurityTokenImplImplTokenAuthenticationHandler(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string path
+            , 
+            
+            std::string tokenPeriodrequiredPeriodattr
+            , 
+            
+            std::string tokenPeriodalternatePeriodurl
+            , 
+            
+            bool tokenPeriodencapsulated
+            , 
+            std::list<std::string> skipPeriodtokenPeriodrefresh
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param enablePeriodtokenPeriodcleanupPeriodtask 
+    * \param schedulerPeriodexpression 
+    * \param batchPeriodsize 
+    */
+    Response<
+                ComDayCrxSecurityTokenImplTokenCleanupTaskInfo
+        >
+    comDayCrxSecurityTokenImplTokenCleanupTask(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool enablePeriodtokenPeriodcleanupPeriodtask
+            , 
+            
+            std::string schedulerPeriodexpression
+            , 
+            
+            int batchPeriodsize
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param supportedLocales 
+    * \param localizable_Properties 
+    */
+    Response<
+                GuideLocalizationServiceInfo
+        >
+    guideLocalizationService(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> supportedLocales
+            
+            , 
+            std::list<std::string> localizable_Properties
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param priority 
+    */
+    Response<
+                MessagingUserComponentFactoryInfo
+        >
+    messagingUserComponentFactory(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int priority
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param attributeChangeNotificationEnabled 
+    */
+    Response<
+                OrgApacheAriesJmxFrameworkStateConfigInfo
+        >
+    orgApacheAriesJmxFrameworkStateConfig(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool attributeChangeNotificationEnabled
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param orgPeriodapachePeriodfelixPeriodeventadminPeriodThreadPoolSize 
+    * \param orgPeriodapachePeriodfelixPeriodeventadminPeriodAsyncToSyncThreadRatio 
+    * \param orgPeriodapachePeriodfelixPeriodeventadminPeriodTimeout 
+    * \param orgPeriodapachePeriodfelixPeriodeventadminPeriodRequireTopic 
+    * \param orgPeriodapachePeriodfelixPeriodeventadminPeriodIgnoreTimeout 
+    * \param orgPeriodapachePeriodfelixPeriodeventadminPeriodIgnoreTopic 
+    */
+    Response<
+                OrgApacheFelixEventadminImplEventAdminInfo
+        >
+    orgApacheFelixEventadminImplEventAdmin(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int orgPeriodapachePeriodfelixPeriodeventadminPeriodThreadPoolSize
+            , 
+            
+            long orgPeriodapachePeriodfelixPeriodeventadminPeriodAsyncToSyncThreadRatio
+            , 
+            
+            int orgPeriodapachePeriodfelixPeriodeventadminPeriodTimeout
+            , 
+            
+            bool orgPeriodapachePeriodfelixPeriodeventadminPeriodRequireTopic
+            , 
+            std::list<std::string> orgPeriodapachePeriodfelixPeriodeventadminPeriodIgnoreTimeout
+            
+            , 
+            std::list<std::string> orgPeriodapachePeriodfelixPeriodeventadminPeriodIgnoreTopic
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param orgPeriodapachePeriodfelixPeriodhttpPeriodhost 
+    * \param orgPeriodapachePeriodfelixPeriodhttpPeriodenable 
+    * \param orgPeriodosgiPeriodservicePeriodhttpPeriodport 
+    * \param orgPeriodapachePeriodfelixPeriodhttpPeriodtimeout 
+    * \param orgPeriodapachePeriodfelixPeriodhttpsPeriodenable 
+    * \param orgPeriodosgiPeriodservicePeriodhttpPeriodportPeriodsecure 
+    * \param orgPeriodapachePeriodfelixPeriodhttpsPeriodkeystore 
+    * \param orgPeriodapachePeriodfelixPeriodhttpsPeriodkeystorePeriodpassword 
+    * \param orgPeriodapachePeriodfelixPeriodhttpsPeriodkeystorePeriodkeyPeriodpassword 
+    * \param orgPeriodapachePeriodfelixPeriodhttpsPeriodtruststore 
+    * \param orgPeriodapachePeriodfelixPeriodhttpsPeriodtruststorePeriodpassword 
+    * \param orgPeriodapachePeriodfelixPeriodhttpsPeriodclientcertificate 
+    * \param orgPeriodapachePeriodfelixPeriodhttpPeriodcontextPath 
+    * \param orgPeriodapachePeriodfelixPeriodhttpPeriodmbeans 
+    * \param orgPeriodapachePeriodfelixPeriodhttpPeriodsessionPeriodtimeout 
+    * \param orgPeriodapachePeriodfelixPeriodhttpPeriodjettyPeriodthreadpoolPeriodmax 
+    * \param orgPeriodapachePeriodfelixPeriodhttpPeriodjettyPeriodacceptors 
+    * \param orgPeriodapachePeriodfelixPeriodhttpPeriodjettyPeriodselectors 
+    * \param orgPeriodapachePeriodfelixPeriodhttpPeriodjettyPeriodheaderBufferSize 
+    * \param orgPeriodapachePeriodfelixPeriodhttpPeriodjettyPeriodrequestBufferSize 
+    * \param orgPeriodapachePeriodfelixPeriodhttpPeriodjettyPeriodresponseBufferSize 
+    * \param orgPeriodapachePeriodfelixPeriodhttpPeriodjettyPeriodmaxFormSize 
+    * \param orgPeriodapachePeriodfelixPeriodhttpPeriodpathExclusions 
+    * \param orgPeriodapachePeriodfelixPeriodhttpsPeriodjettyPeriodciphersuitesPeriodexcluded 
+    * \param orgPeriodapachePeriodfelixPeriodhttpsPeriodjettyPeriodciphersuitesPeriodincluded 
+    * \param orgPeriodapachePeriodfelixPeriodhttpPeriodjettyPeriodsendServerHeader 
+    * \param orgPeriodapachePeriodfelixPeriodhttpsPeriodjettyPeriodprotocolsPeriodincluded 
+    * \param orgPeriodapachePeriodfelixPeriodhttpsPeriodjettyPeriodprotocolsPeriodexcluded 
+    * \param orgPeriodapachePeriodfelixPeriodproxyPeriodloadPeriodbalancerPeriodconnectionPeriodenable 
+    * \param orgPeriodapachePeriodfelixPeriodhttpsPeriodjettyPeriodrenegotiateAllowed 
+    * \param orgPeriodapachePeriodfelixPeriodhttpsPeriodjettyPeriodsessionPeriodcookiePeriodhttpOnly 
+    * \param orgPeriodapachePeriodfelixPeriodhttpsPeriodjettyPeriodsessionPeriodcookiePeriodsecure 
+    * \param orgPeriodeclipsePeriodjettyPeriodservletPeriodSessionIdPathParameterName 
+    * \param orgPeriodeclipsePeriodjettyPeriodservletPeriodCheckingRemoteSessionIdEncoding 
+    * \param orgPeriodeclipsePeriodjettyPeriodservletPeriodSessionCookie 
+    * \param orgPeriodeclipsePeriodjettyPeriodservletPeriodSessionDomain 
+    * \param orgPeriodeclipsePeriodjettyPeriodservletPeriodSessionPath 
+    * \param orgPeriodeclipsePeriodjettyPeriodservletPeriodMaxAge 
+    * \param orgPeriodapachePeriodfelixPeriodhttpPeriodname 
+    * \param orgPeriodapachePeriodfelixPeriodjettyPeriodgziphandlerPeriodenable 
+    * \param orgPeriodapachePeriodfelixPeriodjettyPeriodgzipPeriodminGzipSize 
+    * \param orgPeriodapachePeriodfelixPeriodjettyPeriodgzipPeriodcompressionLevel 
+    * \param orgPeriodapachePeriodfelixPeriodjettyPeriodgzipPeriodinflateBufferSize 
+    * \param orgPeriodapachePeriodfelixPeriodjettyPeriodgzipPeriodsyncFlush 
+    * \param orgPeriodapachePeriodfelixPeriodjettyPeriodgzipPeriodexcludedUserAgents 
+    * \param orgPeriodapachePeriodfelixPeriodjettyPeriodgzipPeriodincludedMethods 
+    * \param orgPeriodapachePeriodfelixPeriodjettyPeriodgzipPeriodexcludedMethods 
+    * \param orgPeriodapachePeriodfelixPeriodjettyPeriodgzipPeriodincludedPaths 
+    * \param orgPeriodapachePeriodfelixPeriodjettyPeriodgzipPeriodexcludedPaths 
+    * \param orgPeriodapachePeriodfelixPeriodjettyPeriodgzipPeriodincludedMimeTypes 
+    * \param orgPeriodapachePeriodfelixPeriodjettyPeriodgzipPeriodexcludedMimeTypes 
+    * \param orgPeriodapachePeriodfelixPeriodhttpPeriodsessionPeriodinvalidate 
+    * \param orgPeriodapachePeriodfelixPeriodhttpPeriodsessionPerioduniqueid 
+    */
+    Response<
+                OrgApacheFelixHttpInfo
+        >
+    orgApacheFelixHttp(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string orgPeriodapachePeriodfelixPeriodhttpPeriodhost
+            , 
+            
+            bool orgPeriodapachePeriodfelixPeriodhttpPeriodenable
+            , 
+            
+            int orgPeriodosgiPeriodservicePeriodhttpPeriodport
+            , 
+            
+            int orgPeriodapachePeriodfelixPeriodhttpPeriodtimeout
+            , 
+            
+            bool orgPeriodapachePeriodfelixPeriodhttpsPeriodenable
+            , 
+            
+            int orgPeriodosgiPeriodservicePeriodhttpPeriodportPeriodsecure
+            , 
+            
+            std::string orgPeriodapachePeriodfelixPeriodhttpsPeriodkeystore
+            , 
+            
+            std::string orgPeriodapachePeriodfelixPeriodhttpsPeriodkeystorePeriodpassword
+            , 
+            
+            std::string orgPeriodapachePeriodfelixPeriodhttpsPeriodkeystorePeriodkeyPeriodpassword
+            , 
+            
+            std::string orgPeriodapachePeriodfelixPeriodhttpsPeriodtruststore
+            , 
+            
+            std::string orgPeriodapachePeriodfelixPeriodhttpsPeriodtruststorePeriodpassword
+            , 
+            
+            std::string orgPeriodapachePeriodfelixPeriodhttpsPeriodclientcertificate
+            , 
+            
+            std::string orgPeriodapachePeriodfelixPeriodhttpPeriodcontextPath
+            , 
+            
+            bool orgPeriodapachePeriodfelixPeriodhttpPeriodmbeans
+            , 
+            
+            int orgPeriodapachePeriodfelixPeriodhttpPeriodsessionPeriodtimeout
+            , 
+            
+            int orgPeriodapachePeriodfelixPeriodhttpPeriodjettyPeriodthreadpoolPeriodmax
+            , 
+            
+            int orgPeriodapachePeriodfelixPeriodhttpPeriodjettyPeriodacceptors
+            , 
+            
+            int orgPeriodapachePeriodfelixPeriodhttpPeriodjettyPeriodselectors
+            , 
+            
+            int orgPeriodapachePeriodfelixPeriodhttpPeriodjettyPeriodheaderBufferSize
+            , 
+            
+            int orgPeriodapachePeriodfelixPeriodhttpPeriodjettyPeriodrequestBufferSize
+            , 
+            
+            int orgPeriodapachePeriodfelixPeriodhttpPeriodjettyPeriodresponseBufferSize
+            , 
+            
+            int orgPeriodapachePeriodfelixPeriodhttpPeriodjettyPeriodmaxFormSize
+            , 
+            std::list<std::string> orgPeriodapachePeriodfelixPeriodhttpPeriodpathExclusions
+            
+            , 
+            std::list<std::string> orgPeriodapachePeriodfelixPeriodhttpsPeriodjettyPeriodciphersuitesPeriodexcluded
+            
+            , 
+            std::list<std::string> orgPeriodapachePeriodfelixPeriodhttpsPeriodjettyPeriodciphersuitesPeriodincluded
+            
+            , 
+            
+            bool orgPeriodapachePeriodfelixPeriodhttpPeriodjettyPeriodsendServerHeader
+            , 
+            std::list<std::string> orgPeriodapachePeriodfelixPeriodhttpsPeriodjettyPeriodprotocolsPeriodincluded
+            
+            , 
+            std::list<std::string> orgPeriodapachePeriodfelixPeriodhttpsPeriodjettyPeriodprotocolsPeriodexcluded
+            
+            , 
+            
+            bool orgPeriodapachePeriodfelixPeriodproxyPeriodloadPeriodbalancerPeriodconnectionPeriodenable
+            , 
+            
+            bool orgPeriodapachePeriodfelixPeriodhttpsPeriodjettyPeriodrenegotiateAllowed
+            , 
+            
+            bool orgPeriodapachePeriodfelixPeriodhttpsPeriodjettyPeriodsessionPeriodcookiePeriodhttpOnly
+            , 
+            
+            bool orgPeriodapachePeriodfelixPeriodhttpsPeriodjettyPeriodsessionPeriodcookiePeriodsecure
+            , 
+            
+            std::string orgPeriodeclipsePeriodjettyPeriodservletPeriodSessionIdPathParameterName
+            , 
+            
+            bool orgPeriodeclipsePeriodjettyPeriodservletPeriodCheckingRemoteSessionIdEncoding
+            , 
+            
+            std::string orgPeriodeclipsePeriodjettyPeriodservletPeriodSessionCookie
+            , 
+            
+            std::string orgPeriodeclipsePeriodjettyPeriodservletPeriodSessionDomain
+            , 
+            
+            std::string orgPeriodeclipsePeriodjettyPeriodservletPeriodSessionPath
+            , 
+            
+            int orgPeriodeclipsePeriodjettyPeriodservletPeriodMaxAge
+            , 
+            
+            std::string orgPeriodapachePeriodfelixPeriodhttpPeriodname
+            , 
+            
+            bool orgPeriodapachePeriodfelixPeriodjettyPeriodgziphandlerPeriodenable
+            , 
+            
+            int orgPeriodapachePeriodfelixPeriodjettyPeriodgzipPeriodminGzipSize
+            , 
+            
+            int orgPeriodapachePeriodfelixPeriodjettyPeriodgzipPeriodcompressionLevel
+            , 
+            
+            int orgPeriodapachePeriodfelixPeriodjettyPeriodgzipPeriodinflateBufferSize
+            , 
+            
+            bool orgPeriodapachePeriodfelixPeriodjettyPeriodgzipPeriodsyncFlush
+            , 
+            std::list<std::string> orgPeriodapachePeriodfelixPeriodjettyPeriodgzipPeriodexcludedUserAgents
+            
+            , 
+            std::list<std::string> orgPeriodapachePeriodfelixPeriodjettyPeriodgzipPeriodincludedMethods
+            
+            , 
+            std::list<std::string> orgPeriodapachePeriodfelixPeriodjettyPeriodgzipPeriodexcludedMethods
+            
+            , 
+            std::list<std::string> orgPeriodapachePeriodfelixPeriodjettyPeriodgzipPeriodincludedPaths
+            
+            , 
+            std::list<std::string> orgPeriodapachePeriodfelixPeriodjettyPeriodgzipPeriodexcludedPaths
+            
+            , 
+            std::list<std::string> orgPeriodapachePeriodfelixPeriodjettyPeriodgzipPeriodincludedMimeTypes
+            
+            , 
+            std::list<std::string> orgPeriodapachePeriodfelixPeriodjettyPeriodgzipPeriodexcludedMimeTypes
+            
+            , 
+            
+            bool orgPeriodapachePeriodfelixPeriodhttpPeriodsessionPeriodinvalidate
+            , 
+            
+            bool orgPeriodapachePeriodfelixPeriodhttpPeriodsessionPerioduniqueid
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param sslForwardPeriodheader 
+    * \param sslForwardPeriodvalue 
+    * \param sslForwardCertPeriodheader 
+    * \param rewritePeriodabsolutePeriodurls 
+    */
+    Response<
+                OrgApacheFelixHttpSslfilterSslFilterInfo
+        >
+    orgApacheFelixHttpSslfilterSslFilter(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string sslForwardPeriodheader
+            , 
+            
+            std::string sslForwardPeriodvalue
+            , 
+            
+            std::string sslForwardCertPeriodheader
+            , 
+            
+            bool rewritePeriodabsolutePeriodurls
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param jaasPeriodcontrolFlag 
+    * \param jaasPeriodranking 
+    * \param jaasPeriodrealmName 
+    * \param jaasPeriodclassname 
+    * \param jaasPeriodoptions 
+    */
+    Response<
+                OrgApacheFelixJaasConfigurationFactoryInfo
+        >
+    orgApacheFelixJaasConfigurationFactory(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string jaasPeriodcontrolFlag
+            , 
+            
+            int jaasPeriodranking
+            , 
+            
+            std::string jaasPeriodrealmName
+            , 
+            
+            std::string jaasPeriodclassname
+            , 
+            std::list<std::string> jaasPeriodoptions
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param jaasPerioddefaultRealmName 
+    * \param jaasPeriodconfigProviderName 
+    * \param jaasPeriodglobalConfigPolicy 
+    */
+    Response<
+                OrgApacheFelixJaasConfigurationSpiInfo
+        >
+    orgApacheFelixJaasConfigurationSpi(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string jaasPerioddefaultRealmName
+            , 
+            
+            std::string jaasPeriodconfigProviderName
+            , 
+            
+            std::string jaasPeriodglobalConfigPolicy
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param dsPeriodloglevel 
+    * \param dsPeriodfactoryPeriodenabled 
+    * \param dsPerioddelayedPeriodkeepInstances 
+    * \param dsPeriodlockPeriodtimeoutPeriodmilliseconds 
+    * \param dsPeriodstopPeriodtimeoutPeriodmilliseconds 
+    * \param dsPeriodglobalPeriodextender 
+    */
+    Response<
+                OrgApacheFelixScrScrServiceInfo
+        >
+    orgApacheFelixScrScrService(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int dsPeriodloglevel
+            , 
+            
+            bool dsPeriodfactoryPeriodenabled
+            , 
+            
+            bool dsPerioddelayedPeriodkeepInstances
+            , 
+            
+            int dsPeriodlockPeriodtimeoutPeriodmilliseconds
+            , 
+            
+            int dsPeriodstopPeriodtimeoutPeriodmilliseconds
+            , 
+            
+            bool dsPeriodglobalPeriodextender
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param componentsPeriodlist 
+    * \param type 
+    */
+    Response<
+                OrgApacheFelixSystemreadyImplComponentsCheckInfo
+        >
+    orgApacheFelixSystemreadyImplComponentsCheck(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> componentsPeriodlist
+            
+            , 
+            
+            std::string type
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param timeout 
+    * \param targetPeriodstartPeriodlevel 
+    * \param targetPeriodstartPeriodlevelPeriodpropPeriodname 
+    * \param type 
+    */
+    Response<
+                OrgApacheFelixSystemreadyImplFrameworkStartCheckInfo
+        >
+    orgApacheFelixSystemreadyImplFrameworkStartCheck(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int timeout
+            , 
+            
+            int targetPeriodstartPeriodlevel
+            , 
+            
+            std::string targetPeriodstartPeriodlevelPeriodpropPeriodname
+            , 
+            
+            std::string type
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param servicesPeriodlist 
+    * \param type 
+    */
+    Response<
+                OrgApacheFelixSystemreadyImplServicesCheckInfo
+        >
+    orgApacheFelixSystemreadyImplServicesCheck(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> servicesPeriodlist
+            
+            , 
+            
+            std::string type
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param osgiPeriodhttpPeriodwhiteboardPeriodservletPeriodpattern 
+    * \param osgiPeriodhttpPeriodwhiteboardPeriodcontextPeriodselect 
+    */
+    Response<
+                OrgApacheFelixSystemreadyImplServletSystemAliveServletInfo
+        >
+    orgApacheFelixSystemreadyImplServletSystemAliveServlet(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string osgiPeriodhttpPeriodwhiteboardPeriodservletPeriodpattern
+            , 
+            
+            std::string osgiPeriodhttpPeriodwhiteboardPeriodcontextPeriodselect
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param osgiPeriodhttpPeriodwhiteboardPeriodservletPeriodpattern 
+    * \param osgiPeriodhttpPeriodwhiteboardPeriodcontextPeriodselect 
+    */
+    Response<
+                OrgApacheFelixSystemreadyImplServletSystemReadyServletInfo
+        >
+    orgApacheFelixSystemreadyImplServletSystemReadyServlet(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string osgiPeriodhttpPeriodwhiteboardPeriodservletPeriodpattern
+            , 
+            
+            std::string osgiPeriodhttpPeriodwhiteboardPeriodcontextPeriodselect
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param pollPeriodinterval 
+    */
+    Response<
+                OrgApacheFelixSystemreadySystemReadyMonitorInfo
+        >
+    orgApacheFelixSystemreadySystemReadyMonitor(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int pollPeriodinterval
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param managerPeriodroot 
+    * \param httpPeriodservicePeriodfilter 
+    * \param defaultPeriodrender 
+    * \param realm 
+    * \param username 
+    * \param password 
+    * \param category 
+    * \param locale 
+    * \param loglevel 
+    * \param plugins 
+    */
+    Response<
+                OrgApacheFelixWebconsoleInternalServletOsgiManagerInfo
+        >
+    orgApacheFelixWebconsoleInternalServletOsgiManager(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string managerPeriodroot
+            , 
+            
+            std::string httpPeriodservicePeriodfilter
+            , 
+            
+            std::string defaultPeriodrender
+            , 
+            
+            std::string realm
+            , 
+            
+            std::string username
+            , 
+            
+            std::string password
+            , 
+            
+            std::string category
+            , 
+            
+            std::string locale
+            , 
+            
+            int loglevel
+            , 
+            
+            std::string plugins
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param maxPeriodsize 
+    */
+    Response<
+                OrgApacheFelixWebconsolePluginsEventInternalPluginServletInfo
+        >
+    orgApacheFelixWebconsolePluginsEventInternalPluginServlet(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int maxPeriodsize
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param felixPeriodmemoryusagePerioddumpPeriodthreshold 
+    * \param felixPeriodmemoryusagePerioddumpPeriodinterval 
+    * \param felixPeriodmemoryusagePerioddumpPeriodlocation 
+    */
+    Response<
+                OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCoInfo
+        >
+    orgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCo(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int felixPeriodmemoryusagePerioddumpPeriodthreshold
+            , 
+            
+            int felixPeriodmemoryusagePerioddumpPeriodinterval
+            , 
+            
+            std::string felixPeriodmemoryusagePerioddumpPeriodlocation
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param proxyPeriodenabled 
+    * \param proxyPeriodhost 
+    * \param proxyPeriodport 
+    * \param proxyPerioduser 
+    * \param proxyPeriodpassword 
+    * \param proxyPeriodexceptions 
+    */
+    Response<
+                OrgApacheHttpProxyconfiguratorInfo
+        >
+    orgApacheHttpProxyconfigurator(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool proxyPeriodenabled
+            , 
+            
+            std::string proxyPeriodhost
+            , 
+            
+            int proxyPeriodport
+            , 
+            
+            std::string proxyPerioduser
+            , 
+            
+            std::string proxyPeriodpassword
+            , 
+            std::list<std::string> proxyPeriodexceptions
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param dir 
+    */
+    Response<
+                OrgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProviderInfo
+        >
+    orgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProvider(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string dir
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param path 
+    */
+    Response<
+                OrgApacheJackrabbitOakPluginsBlobDatastoreFileDataStoreInfo
+        >
+    orgApacheJackrabbitOakPluginsBlobDatastoreFileDataStore(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string path
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param mongouri 
+    * \param db 
+    * \param socketKeepAlive 
+    * \param cache 
+    * \param nodeCachePercentage 
+    * \param prevDocCachePercentage 
+    * \param childrenCachePercentage 
+    * \param diffCachePercentage 
+    * \param cacheSegmentCount 
+    * \param cacheStackMoveDistance 
+    * \param blobCacheSize 
+    * \param persistentCache 
+    * \param journalCache 
+    * \param customBlobStore 
+    * \param journalGCInterval 
+    * \param journalGCMaxAge 
+    * \param prefetchExternalChanges 
+    * \param role 
+    * \param versionGcMaxAgeInSecs 
+    * \param versionGCExpression 
+    * \param versionGCTimeLimitInSecs 
+    * \param blobGcMaxAgeInSecs 
+    * \param blobTrackSnapshotIntervalInSecs 
+    * \param repositoryPeriodhome 
+    * \param maxReplicationLagInSecs 
+    * \param documentStoreType 
+    * \param bundlingDisabled 
+    * \param updateLimit 
+    * \param persistentCacheIncludes 
+    * \param leaseCheckMode 
+    */
+    Response<
+                OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceInfo
+        >
+    orgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreService(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string mongouri
+            , 
+            
+            std::string db
+            , 
+            
+            bool socketKeepAlive
+            , 
+            
+            int cache
+            , 
+            
+            int nodeCachePercentage
+            , 
+            
+            int prevDocCachePercentage
+            , 
+            
+            int childrenCachePercentage
+            , 
+            
+            int diffCachePercentage
+            , 
+            
+            int cacheSegmentCount
+            , 
+            
+            int cacheStackMoveDistance
+            , 
+            
+            int blobCacheSize
+            , 
+            
+            std::string persistentCache
+            , 
+            
+            std::string journalCache
+            , 
+            
+            bool customBlobStore
+            , 
+            
+            int journalGCInterval
+            , 
+            
+            int journalGCMaxAge
+            , 
+            
+            bool prefetchExternalChanges
+            , 
+            
+            std::string role
+            , 
+            
+            int versionGcMaxAgeInSecs
+            , 
+            
+            std::string versionGCExpression
+            , 
+            
+            int versionGCTimeLimitInSecs
+            , 
+            
+            int blobGcMaxAgeInSecs
+            , 
+            
+            int blobTrackSnapshotIntervalInSecs
+            , 
+            
+            std::string repositoryPeriodhome
+            , 
+            
+            int maxReplicationLagInSecs
+            , 
+            
+            std::string documentStoreType
+            , 
+            
+            bool bundlingDisabled
+            , 
+            
+            int updateLimit
+            , 
+            std::list<std::string> persistentCacheIncludes
+            
+            , 
+            
+            std::string leaseCheckMode
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param persistentCacheIncludes 
+    */
+    Response<
+                OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePreInfo
+        >
+    orgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePre(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> persistentCacheIncludes
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param includedPaths 
+    * \param enableAsyncObserver 
+    * \param observerQueueSize 
+    */
+    Response<
+                OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacInfo
+        >
+    orgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCac(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> includedPaths
+            
+            , 
+            
+            bool enableAsyncObserver
+            , 
+            
+            int observerQueueSize
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param asyncConfigs 
+    * \param leaseTimeOutMinutes 
+    * \param failingIndexTimeoutSeconds 
+    * \param errorWarnIntervalSeconds 
+    */
+    Response<
+                OrgApacheJackrabbitOakPluginsIndexAsyncIndexerServiceInfo
+        >
+    orgApacheJackrabbitOakPluginsIndexAsyncIndexerService(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> asyncConfigs
+            
+            , 
+            
+            int leaseTimeOutMinutes
+            , 
+            
+            int failingIndexTimeoutSeconds
+            , 
+            
+            int errorWarnIntervalSeconds
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param disabled 
+    * \param debug 
+    * \param localIndexDir 
+    * \param enableOpenIndexAsync 
+    * \param threadPoolSize 
+    * \param prefetchIndexFiles 
+    * \param extractedTextCacheSizeInMB 
+    * \param extractedTextCacheExpiryInSecs 
+    * \param alwaysUsePreExtractedCache 
+    * \param booleanClauseLimit 
+    * \param enableHybridIndexing 
+    * \param hybridQueueSize 
+    * \param disableStoredIndexDefinition 
+    * \param deletedBlobsCollectionEnabled 
+    * \param propIndexCleanerIntervalInSecs 
+    * \param enableSingleBlobIndexFiles 
+    */
+    Response<
+                OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServInfo
+        >
+    orgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServ(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool disabled
+            , 
+            
+            bool debug
+            , 
+            
+            std::string localIndexDir
+            , 
+            
+            bool enableOpenIndexAsync
+            , 
+            
+            int threadPoolSize
+            , 
+            
+            bool prefetchIndexFiles
+            , 
+            
+            int extractedTextCacheSizeInMB
+            , 
+            
+            int extractedTextCacheExpiryInSecs
+            , 
+            
+            bool alwaysUsePreExtractedCache
+            , 
+            
+            int booleanClauseLimit
+            , 
+            
+            bool enableHybridIndexing
+            , 
+            
+            int hybridQueueSize
+            , 
+            
+            bool disableStoredIndexDefinition
+            , 
+            
+            bool deletedBlobsCollectionEnabled
+            , 
+            
+            int propIndexCleanerIntervalInSecs
+            , 
+            
+            bool enableSingleBlobIndexFiles
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param solrPeriodhomePeriodpath 
+    * \param solrPeriodcorePeriodname 
+    */
+    Response<
+                OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCoInfo
+        >
+    orgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCo(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string solrPeriodhomePeriodpath
+            , 
+            
+            std::string solrPeriodcorePeriodname
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param enabled 
+    */
+    Response<
+                OrgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersInfo
+        >
+    orgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServers(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool enabled
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param pathPerioddescPeriodfield 
+    * \param pathPeriodchildPeriodfield 
+    * \param pathPeriodparentPeriodfield 
+    * \param pathPeriodexactPeriodfield 
+    * \param catchPeriodallPeriodfield 
+    * \param collapsedPeriodpathPeriodfield 
+    * \param pathPerioddepthPeriodfield 
+    * \param commitPeriodpolicy 
+    * \param rows 
+    * \param pathPeriodrestrictions 
+    * \param propertyPeriodrestrictions 
+    * \param primarytypesPeriodrestrictions 
+    * \param ignoredPeriodproperties 
+    * \param usedPeriodproperties 
+    * \param typePeriodmappings 
+    * \param propertyPeriodmappings 
+    * \param collapsePeriodjcrcontentPeriodnodes 
+    */
+    Response<
+                OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationInfo
+        >
+    orgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfiguration(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string pathPerioddescPeriodfield
+            , 
+            
+            std::string pathPeriodchildPeriodfield
+            , 
+            
+            std::string pathPeriodparentPeriodfield
+            , 
+            
+            std::string pathPeriodexactPeriodfield
+            , 
+            
+            std::string catchPeriodallPeriodfield
+            , 
+            
+            std::string collapsedPeriodpathPeriodfield
+            , 
+            
+            std::string pathPerioddepthPeriodfield
+            , 
+            
+            std::string commitPeriodpolicy
+            , 
+            
+            int rows
+            , 
+            
+            bool pathPeriodrestrictions
+            , 
+            
+            bool propertyPeriodrestrictions
+            , 
+            
+            bool primarytypesPeriodrestrictions
+            , 
+            std::list<std::string> ignoredPeriodproperties
+            
+            , 
+            std::list<std::string> usedPeriodproperties
+            
+            , 
+            std::list<std::string> typePeriodmappings
+            
+            , 
+            std::list<std::string> propertyPeriodmappings
+            
+            , 
+            
+            bool collapsePeriodjcrcontentPeriodnodes
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param solrPeriodhttpPeriodurl 
+    * \param solrPeriodzkPeriodhost 
+    * \param solrPeriodcollection 
+    * \param solrPeriodsocketPeriodtimeout 
+    * \param solrPeriodconnectionPeriodtimeout 
+    * \param solrPeriodshardsPeriodno 
+    * \param solrPeriodreplicationPeriodfactor 
+    * \param solrPeriodconfPerioddir 
+    */
+    Response<
+                OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfInfo
+        >
+    orgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConf(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string solrPeriodhttpPeriodurl
+            , 
+            
+            std::string solrPeriodzkPeriodhost
+            , 
+            
+            std::string solrPeriodcollection
+            , 
+            
+            int solrPeriodsocketPeriodtimeout
+            , 
+            
+            int solrPeriodconnectionPeriodtimeout
+            , 
+            
+            int solrPeriodshardsPeriodno
+            , 
+            
+            int solrPeriodreplicationPeriodfactor
+            , 
+            
+            std::string solrPeriodconfPerioddir
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param queryPeriodaggregation 
+    */
+    Response<
+                OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProvidInfo
+        >
+    orgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProvid(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool queryPeriodaggregation
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param serverPeriodtype 
+    */
+    Response<
+                OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderSeInfo
+        >
+    orgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderSe(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string serverPeriodtype
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param providerType 
+    */
+    Response<
+                OrgApacheJackrabbitOakPluginsMetricStatisticsProviderFactoryInfo
+        >
+    orgApacheJackrabbitOakPluginsMetricStatisticsProviderFactory(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string providerType
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param maxItems 
+    * \param maxPathDepth 
+    * \param enabled 
+    */
+    Response<
+                OrgApacheJackrabbitOakPluginsObservationChangeCollectorProviderInfo
+        >
+    orgApacheJackrabbitOakPluginsObservationChangeCollectorProvider(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int maxItems
+            , 
+            
+            int maxPathDepth
+            , 
+            
+            bool enabled
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param queryLimitInMemory 
+    * \param queryLimitReads 
+    * \param queryFailTraversal 
+    * \param fastQuerySize 
+    */
+    Response<
+                OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceInfo
+        >
+    orgApacheJackrabbitOakQueryQueryEngineSettingsService(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int queryLimitInMemory
+            , 
+            
+            int queryLimitReads
+            , 
+            
+            bool queryFailTraversal
+            , 
+            
+            bool fastQuerySize
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param orgPeriodapachePeriodjackrabbitPeriodoakPeriodauthenticationPeriodappName 
+    * \param orgPeriodapachePeriodjackrabbitPeriodoakPeriodauthenticationPeriodconfigSpiName 
+    */
+    Response<
+                OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigInfo
+        >
+    orgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfig(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string orgPeriodapachePeriodjackrabbitPeriodoakPeriodauthenticationPeriodappName
+            , 
+            
+            std::string orgPeriodapachePeriodjackrabbitPeriodoakPeriodauthenticationPeriodconfigSpiName
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param providerPeriodname 
+    * \param hostPeriodname 
+    * \param hostPeriodport 
+    * \param hostPeriodssl 
+    * \param hostPeriodtls 
+    * \param hostPeriodnoCertCheck 
+    * \param bindPerioddn 
+    * \param bindPeriodpassword 
+    * \param searchTimeout 
+    * \param adminPoolPeriodmaxActive 
+    * \param adminPoolPeriodlookupOnValidate 
+    * \param userPoolPeriodmaxActive 
+    * \param userPoolPeriodlookupOnValidate 
+    * \param userPeriodbaseDN 
+    * \param userPeriodobjectclass 
+    * \param userPeriodidAttribute 
+    * \param userPeriodextraFilter 
+    * \param userPeriodmakeDnPath 
+    * \param groupPeriodbaseDN 
+    * \param groupPeriodobjectclass 
+    * \param groupPeriodnameAttribute 
+    * \param groupPeriodextraFilter 
+    * \param groupPeriodmakeDnPath 
+    * \param groupPeriodmemberAttribute 
+    * \param useUidForExtId 
+    * \param customattributes 
+    */
+    Response<
+                OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiInfo
+        >
+    orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdenti(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string providerPeriodname
+            , 
+            
+            std::string hostPeriodname
+            , 
+            
+            int hostPeriodport
+            , 
+            
+            bool hostPeriodssl
+            , 
+            
+            bool hostPeriodtls
+            , 
+            
+            bool hostPeriodnoCertCheck
+            , 
+            
+            std::string bindPerioddn
+            , 
+            
+            std::string bindPeriodpassword
+            , 
+            
+            std::string searchTimeout
+            , 
+            
+            int adminPoolPeriodmaxActive
+            , 
+            
+            bool adminPoolPeriodlookupOnValidate
+            , 
+            
+            int userPoolPeriodmaxActive
+            , 
+            
+            bool userPoolPeriodlookupOnValidate
+            , 
+            
+            std::string userPeriodbaseDN
+            , 
+            std::list<std::string> userPeriodobjectclass
+            
+            , 
+            
+            std::string userPeriodidAttribute
+            , 
+            
+            std::string userPeriodextraFilter
+            , 
+            
+            bool userPeriodmakeDnPath
+            , 
+            
+            std::string groupPeriodbaseDN
+            , 
+            std::list<std::string> groupPeriodobjectclass
+            
+            , 
+            
+            std::string groupPeriodnameAttribute
+            , 
+            
+            std::string groupPeriodextraFilter
+            , 
+            
+            bool groupPeriodmakeDnPath
+            , 
+            
+            std::string groupPeriodmemberAttribute
+            , 
+            
+            bool useUidForExtId
+            , 
+            std::list<std::string> customattributes
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param tokenExpiration 
+    * \param tokenLength 
+    * \param tokenRefresh 
+    * \param tokenCleanupThreshold 
+    * \param passwordHashAlgorithm 
+    * \param passwordHashIterations 
+    * \param passwordSaltSize 
+    */
+    Response<
+                OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraInfo
+        >
+    orgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfigura(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string tokenExpiration
+            , 
+            
+            std::string tokenLength
+            , 
+            
+            bool tokenRefresh
+            , 
+            
+            int tokenCleanupThreshold
+            , 
+            
+            std::string passwordHashAlgorithm
+            , 
+            
+            int passwordHashIterations
+            , 
+            
+            int passwordSaltSize
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param permissionsJr2 
+    * \param importBehavior 
+    * \param readPaths 
+    * \param administrativePrincipals 
+    * \param configurationRanking 
+    */
+    Response<
+                OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurInfo
+        >
+    orgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigur(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string permissionsJr2
+            , 
+            
+            std::string importBehavior
+            , 
+            std::list<std::string> readPaths
+            
+            , 
+            std::list<std::string> administrativePrincipals
+            
+            , 
+            
+            int configurationRanking
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param requiredServicePids 
+    * \param authorizationCompositionType 
+    */
+    Response<
+                OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistratiInfo
+        >
+    orgApacheJackrabbitOakSecurityInternalSecurityProviderRegistrati(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> requiredServicePids
+            
+            , 
+            
+            std::string authorizationCompositionType
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param length 
+    */
+    Response<
+                OrgApacheJackrabbitOakSecurityUserRandomAuthorizableNodeNameInfo
+        >
+    orgApacheJackrabbitOakSecurityUserRandomAuthorizableNodeName(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int length
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param usersPath 
+    * \param groupsPath 
+    * \param systemRelativePath 
+    * \param defaultDepth 
+    * \param importBehavior 
+    * \param passwordHashAlgorithm 
+    * \param passwordHashIterations 
+    * \param passwordSaltSize 
+    * \param omitAdminPw 
+    * \param supportAutoSave 
+    * \param passwordMaxAge 
+    * \param initialPasswordChange 
+    * \param passwordHistorySize 
+    * \param passwordExpiryForAdmin 
+    * \param cacheExpiration 
+    * \param enableRFC7613UsercaseMappedProfile 
+    */
+    Response<
+                OrgApacheJackrabbitOakSecurityUserUserConfigurationImplInfo
+        >
+    orgApacheJackrabbitOakSecurityUserUserConfigurationImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string usersPath
+            , 
+            
+            std::string groupsPath
+            , 
+            
+            std::string systemRelativePath
+            , 
+            
+            int defaultDepth
+            , 
+            
+            std::string importBehavior
+            , 
+            
+            std::string passwordHashAlgorithm
+            , 
+            
+            int passwordHashIterations
+            , 
+            
+            int passwordSaltSize
+            , 
+            
+            bool omitAdminPw
+            , 
+            
+            bool supportAutoSave
+            , 
+            
+            int passwordMaxAge
+            , 
+            
+            bool initialPasswordChange
+            , 
+            
+            int passwordHistorySize
+            , 
+            
+            bool passwordExpiryForAdmin
+            , 
+            
+            int cacheExpiration
+            , 
+            
+            bool enableRFC7613UsercaseMappedProfile
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param accountName 
+    * \param containerName 
+    * \param accessKey 
+    * \param rootPath 
+    * \param connectionURL 
+    */
+    Response<
+                OrgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServiceInfo
+        >
+    orgApacheJackrabbitOakSegmentAzureAzureSegmentStoreService(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string accountName
+            , 
+            
+            std::string containerName
+            , 
+            
+            std::string accessKey
+            , 
+            
+            std::string rootPath
+            , 
+            
+            std::string connectionURL
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param repositoryPeriodhome 
+    * \param tarmkPeriodmode 
+    * \param tarmkPeriodsize 
+    * \param segmentCachePeriodsize 
+    * \param stringCachePeriodsize 
+    * \param templateCachePeriodsize 
+    * \param stringDeduplicationCachePeriodsize 
+    * \param templateDeduplicationCachePeriodsize 
+    * \param nodeDeduplicationCachePeriodsize 
+    * \param pauseCompaction 
+    * \param compactionPeriodretryCount 
+    * \param compactionPeriodforcePeriodtimeout 
+    * \param compactionPeriodsizeDeltaEstimation 
+    * \param compactionPerioddisableEstimation 
+    * \param compactionPeriodretainedGenerations 
+    * \param compactionPeriodmemoryThreshold 
+    * \param compactionPeriodprogressLog 
+    * \param standby 
+    * \param customBlobStore 
+    * \param customSegmentStore 
+    * \param splitPersistence 
+    * \param repositoryPeriodbackupPerioddir 
+    * \param blobGcMaxAgeInSecs 
+    * \param blobTrackSnapshotIntervalInSecs 
+    * \param role 
+    * \param registerDescriptors 
+    * \param dispatchChanges 
+    */
+    Response<
+                OrgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryInfo
+        >
+    orgApacheJackrabbitOakSegmentSegmentNodeStoreFactory(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string repositoryPeriodhome
+            , 
+            
+            std::string tarmkPeriodmode
+            , 
+            
+            int tarmkPeriodsize
+            , 
+            
+            int segmentCachePeriodsize
+            , 
+            
+            int stringCachePeriodsize
+            , 
+            
+            int templateCachePeriodsize
+            , 
+            
+            int stringDeduplicationCachePeriodsize
+            , 
+            
+            int templateDeduplicationCachePeriodsize
+            , 
+            
+            int nodeDeduplicationCachePeriodsize
+            , 
+            
+            bool pauseCompaction
+            , 
+            
+            int compactionPeriodretryCount
+            , 
+            
+            int compactionPeriodforcePeriodtimeout
+            , 
+            
+            int compactionPeriodsizeDeltaEstimation
+            , 
+            
+            bool compactionPerioddisableEstimation
+            , 
+            
+            int compactionPeriodretainedGenerations
+            , 
+            
+            int compactionPeriodmemoryThreshold
+            , 
+            
+            int compactionPeriodprogressLog
+            , 
+            
+            bool standby
+            , 
+            
+            bool customBlobStore
+            , 
+            
+            bool customSegmentStore
+            , 
+            
+            bool splitPersistence
+            , 
+            
+            std::string repositoryPeriodbackupPerioddir
+            , 
+            
+            int blobGcMaxAgeInSecs
+            , 
+            
+            int blobTrackSnapshotIntervalInSecs
+            , 
+            
+            std::string role
+            , 
+            
+            bool registerDescriptors
+            , 
+            
+            bool dispatchChanges
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param commitsTrackerWriterGroups 
+    */
+    Response<
+                OrgApacheJackrabbitOakSegmentSegmentNodeStoreMonitorServiceInfo
+        >
+    orgApacheJackrabbitOakSegmentSegmentNodeStoreMonitorService(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> commitsTrackerWriterGroups
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param repositoryPeriodhome 
+    * \param tarmkPeriodmode 
+    * \param tarmkPeriodsize 
+    * \param segmentCachePeriodsize 
+    * \param stringCachePeriodsize 
+    * \param templateCachePeriodsize 
+    * \param stringDeduplicationCachePeriodsize 
+    * \param templateDeduplicationCachePeriodsize 
+    * \param nodeDeduplicationCachePeriodsize 
+    * \param pauseCompaction 
+    * \param compactionPeriodretryCount 
+    * \param compactionPeriodforcePeriodtimeout 
+    * \param compactionPeriodsizeDeltaEstimation 
+    * \param compactionPerioddisableEstimation 
+    * \param compactionPeriodretainedGenerations 
+    * \param compactionPeriodmemoryThreshold 
+    * \param compactionPeriodprogressLog 
+    * \param standby 
+    * \param customBlobStore 
+    * \param customSegmentStore 
+    * \param splitPersistence 
+    * \param repositoryPeriodbackupPerioddir 
+    * \param blobGcMaxAgeInSecs 
+    * \param blobTrackSnapshotIntervalInSecs 
+    */
+    Response<
+                OrgApacheJackrabbitOakSegmentSegmentNodeStoreServiceInfo
+        >
+    orgApacheJackrabbitOakSegmentSegmentNodeStoreService(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string repositoryPeriodhome
+            , 
+            
+            std::string tarmkPeriodmode
+            , 
+            
+            int tarmkPeriodsize
+            , 
+            
+            int segmentCachePeriodsize
+            , 
+            
+            int stringCachePeriodsize
+            , 
+            
+            int templateCachePeriodsize
+            , 
+            
+            int stringDeduplicationCachePeriodsize
+            , 
+            
+            int templateDeduplicationCachePeriodsize
+            , 
+            
+            int nodeDeduplicationCachePeriodsize
+            , 
+            
+            bool pauseCompaction
+            , 
+            
+            int compactionPeriodretryCount
+            , 
+            
+            int compactionPeriodforcePeriodtimeout
+            , 
+            
+            int compactionPeriodsizeDeltaEstimation
+            , 
+            
+            bool compactionPerioddisableEstimation
+            , 
+            
+            int compactionPeriodretainedGenerations
+            , 
+            
+            int compactionPeriodmemoryThreshold
+            , 
+            
+            int compactionPeriodprogressLog
+            , 
+            
+            bool standby
+            , 
+            
+            bool customBlobStore
+            , 
+            
+            bool customSegmentStore
+            , 
+            
+            bool splitPersistence
+            , 
+            
+            std::string repositoryPeriodbackupPerioddir
+            , 
+            
+            int blobGcMaxAgeInSecs
+            , 
+            
+            int blobTrackSnapshotIntervalInSecs
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param orgPeriodapachePeriodslingPeriodinstallerPeriodconfigurationPeriodpersist 
+    * \param mode 
+    * \param port 
+    * \param primaryPeriodhost 
+    * \param interval 
+    * \param primaryPeriodallowedClientIpRanges 
+    * \param secure 
+    * \param standbyPeriodreadtimeout 
+    * \param standbyPeriodautoclean 
+    */
+    Response<
+                OrgApacheJackrabbitOakSegmentStandbyStoreStandbyStoreServiceInfo
+        >
+    orgApacheJackrabbitOakSegmentStandbyStoreStandbyStoreService(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool orgPeriodapachePeriodslingPeriodinstallerPeriodconfigurationPeriodpersist
+            , 
+            
+            std::string mode
+            , 
+            
+            int port
+            , 
+            
+            std::string primaryPeriodhost
+            , 
+            
+            int interval
+            , 
+            std::list<std::string> primaryPeriodallowedClientIpRanges
+            
+            , 
+            
+            bool secure
+            , 
+            
+            int standbyPeriodreadtimeout
+            , 
+            
+            bool standbyPeriodautoclean
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param handlerPeriodname 
+    * \param userPeriodexpirationTime 
+    * \param userPeriodautoMembership 
+    * \param userPeriodpropertyMapping 
+    * \param userPeriodpathPrefix 
+    * \param userPeriodmembershipExpTime 
+    * \param userPeriodmembershipNestingDepth 
+    * \param userPerioddynamicMembership 
+    * \param userPerioddisableMissing 
+    * \param groupPeriodexpirationTime 
+    * \param groupPeriodautoMembership 
+    * \param groupPeriodpropertyMapping 
+    * \param groupPeriodpathPrefix 
+    * \param enableRFC7613UsercaseMappedProfile 
+    */
+    Response<
+                OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeInfo
+        >
+    orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDe(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string handlerPeriodname
+            , 
+            
+            std::string userPeriodexpirationTime
+            , 
+            std::list<std::string> userPeriodautoMembership
+            
+            , 
+            std::list<std::string> userPeriodpropertyMapping
+            
+            , 
+            
+            std::string userPeriodpathPrefix
+            , 
+            
+            std::string userPeriodmembershipExpTime
+            , 
+            
+            int userPeriodmembershipNestingDepth
+            , 
+            
+            bool userPerioddynamicMembership
+            , 
+            
+            bool userPerioddisableMissing
+            , 
+            
+            std::string groupPeriodexpirationTime
+            , 
+            std::list<std::string> groupPeriodautoMembership
+            
+            , 
+            std::list<std::string> groupPeriodpropertyMapping
+            
+            , 
+            
+            std::string groupPeriodpathPrefix
+            , 
+            
+            bool enableRFC7613UsercaseMappedProfile
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param jaasPeriodranking 
+    * \param jaasPeriodcontrolFlag 
+    * \param jaasPeriodrealmName 
+    * \param idpPeriodname 
+    * \param syncPeriodhandlerName 
+    */
+    Response<
+                OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExInfo
+        >
+    orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplEx(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int jaasPeriodranking
+            , 
+            
+            std::string jaasPeriodcontrolFlag
+            , 
+            
+            std::string jaasPeriodrealmName
+            , 
+            
+            std::string idpPeriodname
+            , 
+            
+            std::string syncPeriodhandlerName
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param protectExternalId 
+    */
+    Response<
+                OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrInfo
+        >
+    orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPr(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool protectExternalId
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param cugSupportedPaths 
+    * \param cugEnabled 
+    * \param configurationRanking 
+    */
+    Response<
+                OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiInfo
+        >
+    orgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfi(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> cugSupportedPaths
+            
+            , 
+            
+            bool cugEnabled
+            , 
+            
+            int configurationRanking
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param principalNames 
+    */
+    Response<
+                OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExcluInfo
+        >
+    orgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExclu(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> principalNames
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param enabledActions 
+    * \param userPrivilegeNames 
+    * \param groupPrivilegeNames 
+    * \param constraint 
+    */
+    Response<
+                OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableInfo
+        >
+    orgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizable(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string enabledActions
+            , 
+            std::list<std::string> userPrivilegeNames
+            
+            , 
+            std::list<std::string> groupPrivilegeNames
+            
+            , 
+            
+            std::string constraint
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param packageRoots 
+    */
+    Response<
+                OrgApacheJackrabbitVaultPackagingImplPackagingImplInfo
+        >
+    orgApacheJackrabbitVaultPackagingImplPackagingImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> packageRoots
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param homePath 
+    */
+    Response<
+                OrgApacheJackrabbitVaultPackagingRegistryImplFSPackageRegistryInfo
+        >
+    orgApacheJackrabbitVaultPackagingRegistryImplFSPackageRegistry(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string homePath
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param slingPeriodservletPeriodmethods 
+    * \param slingPeriodservletPeriodpaths 
+    */
+    Response<
+                OrgApacheSlingAuthCoreImplLogoutServletInfo
+        >
+    orgApacheSlingAuthCoreImplLogoutServlet(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> slingPeriodservletPeriodmethods
+            
+            , 
+            
+            std::string slingPeriodservletPeriodpaths
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param enabled 
+    */
+    Response<
+                OrgApacheSlingCaconfigImplConfigurationBindingsValueProviderInfo
+        >
+    orgApacheSlingCaconfigImplConfigurationBindingsValueProvider(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool enabled
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param configBucketNames 
+    */
+    Response<
+                OrgApacheSlingCaconfigImplConfigurationResolverImplInfo
+        >
+    orgApacheSlingCaconfigImplConfigurationResolverImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> configBucketNames
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param enabled 
+    * \param configPropertyInheritancePropertyNames 
+    */
+    Response<
+                OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStraInfo
+        >
+    orgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStra(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool enabled
+            , 
+            std::list<std::string> configPropertyInheritancePropertyNames
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param enabled 
+    */
+    Response<
+                OrgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStraInfo
+        >
+    orgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStra(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool enabled
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param description 
+    * \param overrides 
+    * \param enabled 
+    * \param servicePeriodranking 
+    */
+    Response<
+                OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviInfo
+        >
+    orgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProvi(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string description
+            , 
+            std::list<std::string> overrides
+            
+            , 
+            
+            bool enabled
+            , 
+            
+            int servicePeriodranking
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param enabled 
+    * \param servicePeriodranking 
+    */
+    Response<
+                OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOveInfo
+        >
+    orgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOve(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool enabled
+            , 
+            
+            int servicePeriodranking
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param ignorePropertyNameRegex 
+    * \param configCollectionPropertiesResourceNames 
+    */
+    Response<
+                OrgApacheSlingCaconfigManagementImplConfigurationManagementSettiInfo
+        >
+    orgApacheSlingCaconfigManagementImplConfigurationManagementSetti(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> ignorePropertyNameRegex
+            
+            , 
+            std::list<std::string> configCollectionPropertiesResourceNames
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param enabled 
+    * \param configPath 
+    * \param fallbackPaths 
+    * \param configCollectionInheritancePropertyNames 
+    */
+    Response<
+                OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourInfo
+        >
+    orgApacheSlingCaconfigResourceImplDefDefaultConfigurationResour(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool enabled
+            , 
+            
+            std::string configPath
+            , 
+            std::list<std::string> fallbackPaths
+            
+            , 
+            std::list<std::string> configCollectionInheritancePropertyNames
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param enabled 
+    * \param configRefResourceNames 
+    * \param configRefPropertyNames 
+    * \param servicePeriodranking 
+    */
+    Response<
+                OrgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyInfo
+        >
+    orgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategy(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool enabled
+            , 
+            std::list<std::string> configRefResourceNames
+            
+            , 
+            std::list<std::string> configRefPropertyNames
+            
+            , 
+            
+            int servicePeriodranking
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param parserPeriodfeatures 
+    */
+    Response<
+                OrgApacheSlingCommonsHtmlInternalTagsoupHtmlParserInfo
+        >
+    orgApacheSlingCommonsHtmlInternalTagsoupHtmlParser(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> parserPeriodfeatures
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param orgPeriodapachePeriodslingPeriodcommonsPeriodlogPeriodlevel 
+    * \param orgPeriodapachePeriodslingPeriodcommonsPeriodlogPeriodfile 
+    * \param orgPeriodapachePeriodslingPeriodcommonsPeriodlogPeriodfilePeriodnumber 
+    * \param orgPeriodapachePeriodslingPeriodcommonsPeriodlogPeriodfilePeriodsize 
+    * \param orgPeriodapachePeriodslingPeriodcommonsPeriodlogPeriodpattern 
+    * \param orgPeriodapachePeriodslingPeriodcommonsPeriodlogPeriodconfigurationFile 
+    * \param orgPeriodapachePeriodslingPeriodcommonsPeriodlogPeriodpackagingDataEnabled 
+    * \param orgPeriodapachePeriodslingPeriodcommonsPeriodlogPeriodmaxCallerDataDepth 
+    * \param orgPeriodapachePeriodslingPeriodcommonsPeriodlogPeriodmaxOldFileCountInDump 
+    * \param orgPeriodapachePeriodslingPeriodcommonsPeriodlogPeriodnumOfLines 
+    */
+    Response<
+                OrgApacheSlingCommonsLogLogManagerInfo
+        >
+    orgApacheSlingCommonsLogLogManager(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string orgPeriodapachePeriodslingPeriodcommonsPeriodlogPeriodlevel
+            , 
+            
+            std::string orgPeriodapachePeriodslingPeriodcommonsPeriodlogPeriodfile
+            , 
+            
+            int orgPeriodapachePeriodslingPeriodcommonsPeriodlogPeriodfilePeriodnumber
+            , 
+            
+            std::string orgPeriodapachePeriodslingPeriodcommonsPeriodlogPeriodfilePeriodsize
+            , 
+            
+            std::string orgPeriodapachePeriodslingPeriodcommonsPeriodlogPeriodpattern
+            , 
+            
+            std::string orgPeriodapachePeriodslingPeriodcommonsPeriodlogPeriodconfigurationFile
+            , 
+            
+            bool orgPeriodapachePeriodslingPeriodcommonsPeriodlogPeriodpackagingDataEnabled
+            , 
+            
+            int orgPeriodapachePeriodslingPeriodcommonsPeriodlogPeriodmaxCallerDataDepth
+            , 
+            
+            int orgPeriodapachePeriodslingPeriodcommonsPeriodlogPeriodmaxOldFileCountInDump
+            , 
+            
+            int orgPeriodapachePeriodslingPeriodcommonsPeriodlogPeriodnumOfLines
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param orgPeriodapachePeriodslingPeriodcommonsPeriodlogPeriodlevel 
+    * \param orgPeriodapachePeriodslingPeriodcommonsPeriodlogPeriodfile 
+    * \param orgPeriodapachePeriodslingPeriodcommonsPeriodlogPeriodpattern 
+    * \param orgPeriodapachePeriodslingPeriodcommonsPeriodlogPeriodnames 
+    * \param orgPeriodapachePeriodslingPeriodcommonsPeriodlogPeriodadditiv 
+    */
+    Response<
+                OrgApacheSlingCommonsLogLogManagerFactoryConfigInfo
+        >
+    orgApacheSlingCommonsLogLogManagerFactoryConfig(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string orgPeriodapachePeriodslingPeriodcommonsPeriodlogPeriodlevel
+            , 
+            
+            std::string orgPeriodapachePeriodslingPeriodcommonsPeriodlogPeriodfile
+            , 
+            
+            std::string orgPeriodapachePeriodslingPeriodcommonsPeriodlogPeriodpattern
+            , 
+            std::list<std::string> orgPeriodapachePeriodslingPeriodcommonsPeriodlogPeriodnames
+            
+            , 
+            
+            bool orgPeriodapachePeriodslingPeriodcommonsPeriodlogPeriodadditiv
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param orgPeriodapachePeriodslingPeriodcommonsPeriodlogPeriodfile 
+    * \param orgPeriodapachePeriodslingPeriodcommonsPeriodlogPeriodfilePeriodnumber 
+    * \param orgPeriodapachePeriodslingPeriodcommonsPeriodlogPeriodfilePeriodsize 
+    * \param orgPeriodapachePeriodslingPeriodcommonsPeriodlogPeriodfilePeriodbuffered 
+    */
+    Response<
+                OrgApacheSlingCommonsLogLogManagerFactoryWriterInfo
+        >
+    orgApacheSlingCommonsLogLogManagerFactoryWriter(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string orgPeriodapachePeriodslingPeriodcommonsPeriodlogPeriodfile
+            , 
+            
+            int orgPeriodapachePeriodslingPeriodcommonsPeriodlogPeriodfilePeriodnumber
+            , 
+            
+            std::string orgPeriodapachePeriodslingPeriodcommonsPeriodlogPeriodfilePeriodsize
+            , 
+            
+            bool orgPeriodapachePeriodslingPeriodcommonsPeriodlogPeriodfilePeriodbuffered
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param period 
+    * \param timeUnit 
+    * \param level 
+    * \param loggerName 
+    * \param prefix 
+    * \param pattern 
+    * \param registryName 
+    */
+    Response<
+                OrgApacheSlingCommonsMetricsInternalLogReporterInfo
+        >
+    orgApacheSlingCommonsMetricsInternalLogReporter(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int period
+            , 
+            
+            std::string timeUnit
+            , 
+            
+            std::string level
+            , 
+            
+            std::string loggerName
+            , 
+            
+            std::string prefix
+            , 
+            
+            std::string pattern
+            , 
+            
+            std::string registryName
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param datasources 
+    * \param step 
+    * \param archives 
+    * \param path 
+    */
+    Response<
+                OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterInfo
+        >
+    orgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporter(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> datasources
+            
+            , 
+            
+            int step
+            , 
+            std::list<std::string> archives
+            
+            , 
+            
+            std::string path
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param mimePeriodtypes 
+    */
+    Response<
+                OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfo
+        >
+    orgApacheSlingCommonsMimeInternalMimeTypeServiceImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> mimePeriodtypes
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param poolName 
+    * \param allowedPoolNames 
+    * \param schedulerPerioduseleaderforsingle 
+    * \param metricsPeriodfilters 
+    * \param slowThresholdMillis 
+    */
+    Response<
+                OrgApacheSlingCommonsSchedulerImplQuartzSchedulerInfo
+        >
+    orgApacheSlingCommonsSchedulerImplQuartzScheduler(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string poolName
+            , 
+            std::list<std::string> allowedPoolNames
+            
+            , 
+            
+            bool schedulerPerioduseleaderforsingle
+            , 
+            std::list<std::string> metricsPeriodfilters
+            
+            , 
+            
+            int slowThresholdMillis
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param maxPeriodquartzJobPerioddurationPeriodacceptable 
+    */
+    Response<
+                OrgApacheSlingCommonsSchedulerImplSchedulerHealthCheckInfo
+        >
+    orgApacheSlingCommonsSchedulerImplSchedulerHealthCheck(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int maxPeriodquartzJobPerioddurationPeriodacceptable
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param name 
+    * \param minPoolSize 
+    * \param maxPoolSize 
+    * \param queueSize 
+    * \param maxThreadAge 
+    * \param keepAliveTime 
+    * \param blockPolicy 
+    * \param shutdownGraceful 
+    * \param daemon 
+    * \param shutdownWaitTime 
+    * \param priority 
+    */
+    Response<
+                OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryInfo
+        >
+    orgApacheSlingCommonsThreadsImplDefaultThreadPoolFactory(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string name
+            , 
+            
+            int minPoolSize
+            , 
+            
+            int maxPoolSize
+            , 
+            
+            int queueSize
+            , 
+            
+            int maxThreadAge
+            , 
+            
+            int keepAliveTime
+            , 
+            
+            std::string blockPolicy
+            , 
+            
+            bool shutdownGraceful
+            , 
+            
+            bool daemon
+            , 
+            
+            int shutdownWaitTime
+            , 
+            
+            std::string priority
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param datasourcePeriodname 
+    * \param datasourcePeriodsvcPeriodpropPeriodname 
+    * \param driverClassName 
+    * \param url 
+    * \param username 
+    * \param password 
+    * \param defaultAutoCommit 
+    * \param defaultReadOnly 
+    * \param defaultTransactionIsolation 
+    * \param defaultCatalog 
+    * \param maxActive 
+    * \param maxIdle 
+    * \param minIdle 
+    * \param initialSize 
+    * \param maxWait 
+    * \param maxAge 
+    * \param testOnBorrow 
+    * \param testOnReturn 
+    * \param testWhileIdle 
+    * \param validationQuery 
+    * \param validationQueryTimeout 
+    * \param timeBetweenEvictionRunsMillis 
+    * \param minEvictableIdleTimeMillis 
+    * \param connectionProperties 
+    * \param initSQL 
+    * \param jdbcInterceptors 
+    * \param validationInterval 
+    * \param logValidationErrors 
+    * \param datasourcePeriodsvcPeriodproperties 
+    */
+    Response<
+                OrgApacheSlingDatasourceDataSourceFactoryInfo
+        >
+    orgApacheSlingDatasourceDataSourceFactory(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string datasourcePeriodname
+            , 
+            
+            std::string datasourcePeriodsvcPeriodpropPeriodname
+            , 
+            
+            std::string driverClassName
+            , 
+            
+            std::string url
+            , 
+            
+            std::string username
+            , 
+            
+            std::string password
+            , 
+            
+            std::string defaultAutoCommit
+            , 
+            
+            std::string defaultReadOnly
+            , 
+            
+            std::string defaultTransactionIsolation
+            , 
+            
+            std::string defaultCatalog
+            , 
+            
+            int maxActive
+            , 
+            
+            int maxIdle
+            , 
+            
+            int minIdle
+            , 
+            
+            int initialSize
+            , 
+            
+            int maxWait
+            , 
+            
+            int maxAge
+            , 
+            
+            bool testOnBorrow
+            , 
+            
+            bool testOnReturn
+            , 
+            
+            bool testWhileIdle
+            , 
+            
+            std::string validationQuery
+            , 
+            
+            int validationQueryTimeout
+            , 
+            
+            int timeBetweenEvictionRunsMillis
+            , 
+            
+            int minEvictableIdleTimeMillis
+            , 
+            
+            std::string connectionProperties
+            , 
+            
+            std::string initSQL
+            , 
+            
+            std::string jdbcInterceptors
+            , 
+            
+            int validationInterval
+            , 
+            
+            bool logValidationErrors
+            , 
+            std::list<std::string> datasourcePeriodsvcPeriodproperties
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param datasourcePeriodname 
+    * \param datasourcePeriodsvcPeriodpropPeriodname 
+    * \param datasourcePeriodjndiPeriodname 
+    * \param jndiPeriodproperties 
+    */
+    Response<
+                OrgApacheSlingDatasourceJNDIDataSourceFactoryInfo
+        >
+    orgApacheSlingDatasourceJNDIDataSourceFactory(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string datasourcePeriodname
+            , 
+            
+            std::string datasourcePeriodsvcPeriodpropPeriodname
+            , 
+            
+            std::string datasourcePeriodjndiPeriodname
+            , 
+            std::list<std::string> jndiPeriodproperties
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param connectorPingTimeout 
+    * \param connectorPingInterval 
+    * \param discoveryLiteCheckInterval 
+    * \param clusterSyncServiceTimeout 
+    * \param clusterSyncServiceInterval 
+    * \param enableSyncToken 
+    * \param minEventDelay 
+    * \param socketConnectTimeout 
+    * \param soTimeout 
+    * \param topologyConnectorUrls 
+    * \param topologyConnectorWhitelist 
+    * \param autoStopLocalLoopEnabled 
+    * \param gzipConnectorRequestsEnabled 
+    * \param hmacEnabled 
+    * \param enableEncryption 
+    * \param sharedKey 
+    * \param hmacSharedKeyTTL 
+    * \param backoffStandbyFactor 
+    * \param backoffStableFactor 
+    */
+    Response<
+                OrgApacheSlingDiscoveryOakConfigInfo
+        >
+    orgApacheSlingDiscoveryOakConfig(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int connectorPingTimeout
+            , 
+            
+            int connectorPingInterval
+            , 
+            
+            int discoveryLiteCheckInterval
+            , 
+            
+            int clusterSyncServiceTimeout
+            , 
+            
+            int clusterSyncServiceInterval
+            , 
+            
+            bool enableSyncToken
+            , 
+            
+            int minEventDelay
+            , 
+            
+            int socketConnectTimeout
+            , 
+            
+            int soTimeout
+            , 
+            std::list<std::string> topologyConnectorUrls
+            
+            , 
+            std::list<std::string> topologyConnectorWhitelist
+            
+            , 
+            
+            bool autoStopLocalLoopEnabled
+            , 
+            
+            bool gzipConnectorRequestsEnabled
+            , 
+            
+            bool hmacEnabled
+            , 
+            
+            bool enableEncryption
+            , 
+            
+            std::string sharedKey
+            , 
+            
+            int hmacSharedKeyTTL
+            , 
+            
+            std::string backoffStandbyFactor
+            , 
+            
+            std::string backoffStableFactor
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param hcPeriodname 
+    * \param hcPeriodtags 
+    * \param hcPeriodmbeanPeriodname 
+    */
+    Response<
+                OrgApacheSlingDiscoveryOakSynchronizedClocksHealthCheckInfo
+        >
+    orgApacheSlingDiscoveryOakSynchronizedClocksHealthCheck(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string hcPeriodname
+            , 
+            std::list<std::string> hcPeriodtags
+            
+            , 
+            
+            std::string hcPeriodmbeanPeriodname
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param name 
+    * \param title 
+    * \param details 
+    * \param enabled 
+    * \param serviceName 
+    * \param logPeriodlevel 
+    * \param allowedPeriodroots 
+    * \param queuePeriodprocessingPeriodenabled 
+    * \param packageImporterPeriodendpoints 
+    * \param passiveQueues 
+    * \param priorityQueues 
+    * \param retryPeriodstrategy 
+    * \param retryPeriodattempts 
+    * \param requestAuthorizationStrategyPeriodtarget 
+    * \param transportSecretProviderPeriodtarget 
+    * \param packageBuilderPeriodtarget 
+    * \param triggersPeriodtarget 
+    * \param queuePeriodprovider 
+    * \param asyncPerioddelivery 
+    * \param httpPeriodconnPeriodtimeout 
+    */
+    Response<
+                OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoInfo
+        >
+    orgApacheSlingDistributionAgentImplForwardDistributionAgentFacto(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string name
+            , 
+            
+            std::string title
+            , 
+            
+            std::string details
+            , 
+            
+            bool enabled
+            , 
+            
+            std::string serviceName
+            , 
+            
+            std::string logPeriodlevel
+            , 
+            std::list<std::string> allowedPeriodroots
+            
+            , 
+            
+            bool queuePeriodprocessingPeriodenabled
+            , 
+            std::list<std::string> packageImporterPeriodendpoints
+            
+            , 
+            std::list<std::string> passiveQueues
+            
+            , 
+            std::list<std::string> priorityQueues
+            
+            , 
+            
+            std::string retryPeriodstrategy
+            , 
+            
+            int retryPeriodattempts
+            , 
+            
+            std::string requestAuthorizationStrategyPeriodtarget
+            , 
+            
+            std::string transportSecretProviderPeriodtarget
+            , 
+            
+            std::string packageBuilderPeriodtarget
+            , 
+            
+            std::string triggersPeriodtarget
+            , 
+            
+            std::string queuePeriodprovider
+            , 
+            
+            bool asyncPerioddelivery
+            , 
+            
+            int httpPeriodconnPeriodtimeout
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param name 
+    * \param jcrPrivilege 
+    */
+    Response<
+                OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAInfo
+        >
+    orgApacheSlingDistributionAgentImplPrivilegeDistributionRequestA(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string name
+            , 
+            
+            std::string jcrPrivilege
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param name 
+    * \param title 
+    * \param details 
+    * \param enabled 
+    * \param serviceName 
+    * \param logPeriodlevel 
+    * \param allowedPeriodroots 
+    * \param requestAuthorizationStrategyPeriodtarget 
+    * \param queueProviderFactoryPeriodtarget 
+    * \param packageBuilderPeriodtarget 
+    * \param triggersPeriodtarget 
+    * \param priorityQueues 
+    */
+    Response<
+                OrgApacheSlingDistributionAgentImplQueueDistributionAgentFactoryInfo
+        >
+    orgApacheSlingDistributionAgentImplQueueDistributionAgentFactory(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string name
+            , 
+            
+            std::string title
+            , 
+            
+            std::string details
+            , 
+            
+            bool enabled
+            , 
+            
+            std::string serviceName
+            , 
+            
+            std::string logPeriodlevel
+            , 
+            std::list<std::string> allowedPeriodroots
+            
+            , 
+            
+            std::string requestAuthorizationStrategyPeriodtarget
+            , 
+            
+            std::string queueProviderFactoryPeriodtarget
+            , 
+            
+            std::string packageBuilderPeriodtarget
+            , 
+            
+            std::string triggersPeriodtarget
+            , 
+            std::list<std::string> priorityQueues
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param name 
+    * \param title 
+    * \param details 
+    * \param enabled 
+    * \param serviceName 
+    * \param logPeriodlevel 
+    * \param queuePeriodprocessingPeriodenabled 
+    * \param packageExporterPeriodendpoints 
+    * \param pullPerioditems 
+    * \param httpPeriodconnPeriodtimeout 
+    * \param requestAuthorizationStrategyPeriodtarget 
+    * \param transportSecretProviderPeriodtarget 
+    * \param packageBuilderPeriodtarget 
+    * \param triggersPeriodtarget 
+    */
+    Response<
+                OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoInfo
+        >
+    orgApacheSlingDistributionAgentImplReverseDistributionAgentFacto(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string name
+            , 
+            
+            std::string title
+            , 
+            
+            std::string details
+            , 
+            
+            bool enabled
+            , 
+            
+            std::string serviceName
+            , 
+            
+            std::string logPeriodlevel
+            , 
+            
+            bool queuePeriodprocessingPeriodenabled
+            , 
+            std::list<std::string> packageExporterPeriodendpoints
+            
+            , 
+            
+            int pullPerioditems
+            , 
+            
+            int httpPeriodconnPeriodtimeout
+            , 
+            
+            std::string requestAuthorizationStrategyPeriodtarget
+            , 
+            
+            std::string transportSecretProviderPeriodtarget
+            , 
+            
+            std::string packageBuilderPeriodtarget
+            , 
+            
+            std::string triggersPeriodtarget
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param name 
+    * \param title 
+    * \param details 
+    * \param enabled 
+    * \param serviceName 
+    * \param logPeriodlevel 
+    * \param queuePeriodprocessingPeriodenabled 
+    * \param packageExporterPeriodtarget 
+    * \param packageImporterPeriodtarget 
+    * \param requestAuthorizationStrategyPeriodtarget 
+    * \param triggersPeriodtarget 
+    */
+    Response<
+                OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorInfo
+        >
+    orgApacheSlingDistributionAgentImplSimpleDistributionAgentFactor(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string name
+            , 
+            
+            std::string title
+            , 
+            
+            std::string details
+            , 
+            
+            bool enabled
+            , 
+            
+            std::string serviceName
+            , 
+            
+            std::string logPeriodlevel
+            , 
+            
+            bool queuePeriodprocessingPeriodenabled
+            , 
+            
+            std::string packageExporterPeriodtarget
+            , 
+            
+            std::string packageImporterPeriodtarget
+            , 
+            
+            std::string requestAuthorizationStrategyPeriodtarget
+            , 
+            
+            std::string triggersPeriodtarget
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param name 
+    * \param title 
+    * \param details 
+    * \param enabled 
+    * \param serviceName 
+    * \param logPeriodlevel 
+    * \param queuePeriodprocessingPeriodenabled 
+    * \param passiveQueues 
+    * \param packageExporterPeriodendpoints 
+    * \param packageImporterPeriodendpoints 
+    * \param retryPeriodstrategy 
+    * \param retryPeriodattempts 
+    * \param pullPerioditems 
+    * \param httpPeriodconnPeriodtimeout 
+    * \param requestAuthorizationStrategyPeriodtarget 
+    * \param transportSecretProviderPeriodtarget 
+    * \param packageBuilderPeriodtarget 
+    * \param triggersPeriodtarget 
+    */
+    Response<
+                OrgApacheSlingDistributionAgentImplSyncDistributionAgentFactoryInfo
+        >
+    orgApacheSlingDistributionAgentImplSyncDistributionAgentFactory(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string name
+            , 
+            
+            std::string title
+            , 
+            
+            std::string details
+            , 
+            
+            bool enabled
+            , 
+            
+            std::string serviceName
+            , 
+            
+            std::string logPeriodlevel
+            , 
+            
+            bool queuePeriodprocessingPeriodenabled
+            , 
+            std::list<std::string> passiveQueues
+            
+            , 
+            std::list<std::string> packageExporterPeriodendpoints
+            
+            , 
+            std::list<std::string> packageImporterPeriodendpoints
+            
+            , 
+            
+            std::string retryPeriodstrategy
+            , 
+            
+            int retryPeriodattempts
+            , 
+            
+            int pullPerioditems
+            , 
+            
+            int httpPeriodconnPeriodtimeout
+            , 
+            
+            std::string requestAuthorizationStrategyPeriodtarget
+            , 
+            
+            std::string transportSecretProviderPeriodtarget
+            , 
+            
+            std::string packageBuilderPeriodtarget
+            , 
+            
+            std::string triggersPeriodtarget
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param hcPeriodname 
+    * \param hcPeriodtags 
+    * \param hcPeriodmbeanPeriodname 
+    * \param numberOfRetriesAllowed 
+    */
+    Response<
+                OrgApacheSlingDistributionMonitorDistributionQueueHealthCheckInfo
+        >
+    orgApacheSlingDistributionMonitorDistributionQueueHealthCheck(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string hcPeriodname
+            , 
+            std::list<std::string> hcPeriodtags
+            
+            , 
+            
+            std::string hcPeriodmbeanPeriodname
+            , 
+            
+            int numberOfRetriesAllowed
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param name 
+    * \param queue 
+    * \param dropPeriodinvalidPerioditems 
+    * \param agentPeriodtarget 
+    */
+    Response<
+                OrgApacheSlingDistributionPackagingImplExporterAgentDistributioInfo
+        >
+    orgApacheSlingDistributionPackagingImplExporterAgentDistributio(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string name
+            , 
+            
+            std::string queue
+            , 
+            
+            bool dropPeriodinvalidPerioditems
+            , 
+            
+            std::string agentPeriodtarget
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param name 
+    * \param packageBuilderPeriodtarget 
+    */
+    Response<
+                OrgApacheSlingDistributionPackagingImplExporterLocalDistributioInfo
+        >
+    orgApacheSlingDistributionPackagingImplExporterLocalDistributio(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string name
+            , 
+            
+            std::string packageBuilderPeriodtarget
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param name 
+    * \param endpoints 
+    * \param pullPerioditems 
+    * \param packageBuilderPeriodtarget 
+    * \param transportSecretProviderPeriodtarget 
+    */
+    Response<
+                OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiInfo
+        >
+    orgApacheSlingDistributionPackagingImplExporterRemoteDistributi(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string name
+            , 
+            std::list<std::string> endpoints
+            
+            , 
+            
+            int pullPerioditems
+            , 
+            
+            std::string packageBuilderPeriodtarget
+            , 
+            
+            std::string transportSecretProviderPeriodtarget
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param name 
+    * \param packageBuilderPeriodtarget 
+    */
+    Response<
+                OrgApacheSlingDistributionPackagingImplImporterLocalDistributioInfo
+        >
+    orgApacheSlingDistributionPackagingImplImporterLocalDistributio(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string name
+            , 
+            
+            std::string packageBuilderPeriodtarget
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param name 
+    * \param endpoints 
+    * \param transportSecretProviderPeriodtarget 
+    */
+    Response<
+                OrgApacheSlingDistributionPackagingImplImporterRemoteDistributiInfo
+        >
+    orgApacheSlingDistributionPackagingImplImporterRemoteDistributi(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string name
+            , 
+            std::list<std::string> endpoints
+            
+            , 
+            
+            std::string transportSecretProviderPeriodtarget
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param name 
+    * \param servicePeriodname 
+    * \param path 
+    * \param privilegePeriodname 
+    */
+    Response<
+                OrgApacheSlingDistributionPackagingImplImporterRepositoryDistriInfo
+        >
+    orgApacheSlingDistributionPackagingImplImporterRepositoryDistri(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string name
+            , 
+            
+            std::string servicePeriodname
+            , 
+            
+            std::string path
+            , 
+            
+            std::string privilegePeriodname
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param providerPeriodroots 
+    * \param kind 
+    */
+    Response<
+                OrgApacheSlingDistributionResourcesImplDistributionConfigurationInfo
+        >
+    orgApacheSlingDistributionResourcesImplDistributionConfiguration(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string providerPeriodroots
+            , 
+            
+            std::string kind
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param providerPeriodroots 
+    * \param kind 
+    */
+    Response<
+                OrgApacheSlingDistributionResourcesImplDistributionServiceResourInfo
+        >
+    orgApacheSlingDistributionResourcesImplDistributionServiceResour(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string providerPeriodroots
+            , 
+            
+            std::string kind
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param name 
+    * \param type 
+    * \param formatPeriodtarget 
+    * \param tempFsFolder 
+    * \param fileThreshold 
+    * \param memoryUnit 
+    * \param useOffHeapMemory 
+    * \param digestAlgorithm 
+    * \param monitoringQueueSize 
+    * \param cleanupDelay 
+    * \param packagePeriodfilters 
+    * \param propertyPeriodfilters 
+    */
+    Response<
+                OrgApacheSlingDistributionSerializationImplDistributionPackageBuInfo
+        >
+    orgApacheSlingDistributionSerializationImplDistributionPackageBu(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string name
+            , 
+            
+            std::string type
+            , 
+            
+            std::string formatPeriodtarget
+            , 
+            
+            std::string tempFsFolder
+            , 
+            
+            int fileThreshold
+            , 
+            
+            std::string memoryUnit
+            , 
+            
+            bool useOffHeapMemory
+            , 
+            
+            std::string digestAlgorithm
+            , 
+            
+            int monitoringQueueSize
+            , 
+            
+            int cleanupDelay
+            , 
+            std::list<std::string> packagePeriodfilters
+            
+            , 
+            std::list<std::string> propertyPeriodfilters
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param name 
+    * \param type 
+    * \param importMode 
+    * \param aclHandling 
+    * \param packagePeriodroots 
+    * \param packagePeriodfilters 
+    * \param propertyPeriodfilters 
+    * \param tempFsFolder 
+    * \param useBinaryReferences 
+    * \param autoSaveThreshold 
+    * \param cleanupDelay 
+    * \param fileThreshold 
+    * \param mEGABYTES 
+    * \param useOffHeapMemory 
+    * \param digestAlgorithm 
+    * \param monitoringQueueSize 
+    * \param pathsMapping 
+    * \param strictImport 
+    */
+    Response<
+                OrgApacheSlingDistributionSerializationImplVltVaultDistributionInfo
+        >
+    orgApacheSlingDistributionSerializationImplVltVaultDistribution(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string name
+            , 
+            
+            std::string type
+            , 
+            
+            std::string importMode
+            , 
+            
+            std::string aclHandling
+            , 
+            
+            std::string packagePeriodroots
+            , 
+            std::list<std::string> packagePeriodfilters
+            
+            , 
+            std::list<std::string> propertyPeriodfilters
+            
+            , 
+            
+            std::string tempFsFolder
+            , 
+            
+            bool useBinaryReferences
+            , 
+            
+            int autoSaveThreshold
+            , 
+            
+            int cleanupDelay
+            , 
+            
+            int fileThreshold
+            , 
+            
+            std::string mEGABYTES
+            , 
+            
+            bool useOffHeapMemory
+            , 
+            
+            std::string digestAlgorithm
+            , 
+            
+            int monitoringQueueSize
+            , 
+            std::list<std::string> pathsMapping
+            
+            , 
+            
+            bool strictImport
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param name 
+    * \param username 
+    * \param password 
+    */
+    Response<
+                OrgApacheSlingDistributionTransportImplUserCredentialsDistributiInfo
+        >
+    orgApacheSlingDistributionTransportImplUserCredentialsDistributi(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string name
+            , 
+            
+            std::string username
+            , 
+            
+            std::string password
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param name 
+    * \param path 
+    */
+    Response<
+                OrgApacheSlingDistributionTriggerImplDistributionEventDistributeInfo
+        >
+    orgApacheSlingDistributionTriggerImplDistributionEventDistribute(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string name
+            , 
+            
+            std::string path
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param name 
+    * \param path 
+    * \param ignoredPathsPatterns 
+    * \param serviceName 
+    * \param deep 
+    */
+    Response<
+                OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerInfo
+        >
+    orgApacheSlingDistributionTriggerImplJcrEventDistributionTrigger(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string name
+            , 
+            
+            std::string path
+            , 
+            std::list<std::string> ignoredPathsPatterns
+            
+            , 
+            
+            std::string serviceName
+            , 
+            
+            bool deep
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param name 
+    * \param path 
+    * \param serviceName 
+    * \param nuggetsPath 
+    */
+    Response<
+                OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiInfo
+        >
+    orgApacheSlingDistributionTriggerImplPersistedJcrEventDistributi(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string name
+            , 
+            
+            std::string path
+            , 
+            
+            std::string serviceName
+            , 
+            
+            std::string nuggetsPath
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param name 
+    * \param endpoint 
+    * \param transportSecretProviderPeriodtarget 
+    */
+    Response<
+                OrgApacheSlingDistributionTriggerImplRemoteEventDistributionTrigInfo
+        >
+    orgApacheSlingDistributionTriggerImplRemoteEventDistributionTrig(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string name
+            , 
+            
+            std::string endpoint
+            , 
+            
+            std::string transportSecretProviderPeriodtarget
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param name 
+    * \param path 
+    */
+    Response<
+                OrgApacheSlingDistributionTriggerImplResourceEventDistributionTrInfo
+        >
+    orgApacheSlingDistributionTriggerImplResourceEventDistributionTr(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string name
+            , 
+            
+            std::string path
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param name 
+    * \param path 
+    * \param seconds 
+    * \param serviceName 
+    */
+    Response<
+                OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggeInfo
+        >
+    orgApacheSlingDistributionTriggerImplScheduledDistributionTrigge(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string name
+            , 
+            
+            std::string path
+            , 
+            
+            std::string seconds
+            , 
+            
+            std::string serviceName
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param osgiPeriodhttpPeriodwhiteboardPeriodcontextPeriodselect 
+    * \param osgiPeriodhttpPeriodwhiteboardPeriodlistener 
+    * \param authPeriodsudoPeriodcookie 
+    * \param authPeriodsudoPeriodparameter 
+    * \param authPeriodannonymous 
+    * \param slingPeriodauthPeriodrequirements 
+    * \param slingPeriodauthPeriodanonymousPerioduser 
+    * \param slingPeriodauthPeriodanonymousPeriodpassword 
+    * \param authPeriodhttp 
+    * \param authPeriodhttpPeriodrealm 
+    * \param authPerioduriPeriodsuffix 
+    */
+    Response<
+                OrgApacheSlingEngineImplAuthSlingAuthenticatorInfo
+        >
+    orgApacheSlingEngineImplAuthSlingAuthenticator(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string osgiPeriodhttpPeriodwhiteboardPeriodcontextPeriodselect
+            , 
+            
+            std::string osgiPeriodhttpPeriodwhiteboardPeriodlistener
+            , 
+            
+            std::string authPeriodsudoPeriodcookie
+            , 
+            
+            std::string authPeriodsudoPeriodparameter
+            , 
+            
+            bool authPeriodannonymous
+            , 
+            std::list<std::string> slingPeriodauthPeriodrequirements
+            
+            , 
+            
+            std::string slingPeriodauthPeriodanonymousPerioduser
+            , 
+            
+            std::string slingPeriodauthPeriodanonymousPeriodpassword
+            , 
+            
+            std::string authPeriodhttp
+            , 
+            
+            std::string authPeriodhttpPeriodrealm
+            , 
+            std::list<std::string> authPerioduriPeriodsuffix
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param extensions 
+    * \param minDurationMs 
+    * \param maxDurationMs 
+    * \param compactLogFormat 
+    */
+    Response<
+                OrgApacheSlingEngineImplDebugRequestProgressTrackerLogFilterInfo
+        >
+    orgApacheSlingEngineImplDebugRequestProgressTrackerLogFilter(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> extensions
+            
+            , 
+            
+            int minDurationMs
+            , 
+            
+            int maxDurationMs
+            , 
+            
+            bool compactLogFormat
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param requestPeriodlogPeriodoutput 
+    * \param requestPeriodlogPeriodoutputtype 
+    * \param requestPeriodlogPeriodenabled 
+    * \param accessPeriodlogPeriodoutput 
+    * \param accessPeriodlogPeriodoutputtype 
+    * \param accessPeriodlogPeriodenabled 
+    */
+    Response<
+                OrgApacheSlingEngineImplLogRequestLoggerInfo
+        >
+    orgApacheSlingEngineImplLogRequestLogger(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string requestPeriodlogPeriodoutput
+            , 
+            
+            int requestPeriodlogPeriodoutputtype
+            , 
+            
+            bool requestPeriodlogPeriodenabled
+            , 
+            
+            std::string accessPeriodlogPeriodoutput
+            , 
+            
+            int accessPeriodlogPeriodoutputtype
+            , 
+            
+            bool accessPeriodlogPeriodenabled
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param requestPeriodlogPeriodservicePeriodformat 
+    * \param requestPeriodlogPeriodservicePeriodoutput 
+    * \param requestPeriodlogPeriodservicePeriodoutputtype 
+    * \param requestPeriodlogPeriodservicePeriodonentry 
+    */
+    Response<
+                OrgApacheSlingEngineImplLogRequestLoggerServiceInfo
+        >
+    orgApacheSlingEngineImplLogRequestLoggerService(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string requestPeriodlogPeriodservicePeriodformat
+            , 
+            
+            std::string requestPeriodlogPeriodservicePeriodoutput
+            , 
+            
+            int requestPeriodlogPeriodservicePeriodoutputtype
+            , 
+            
+            bool requestPeriodlogPeriodservicePeriodonentry
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param slingPeriodmaxPeriodcalls 
+    * \param slingPeriodmaxPeriodinclusions 
+    * \param slingPeriodtracePeriodallow 
+    * \param slingPeriodmaxPeriodrecordPeriodrequests 
+    * \param slingPeriodstorePeriodpatternPeriodrequests 
+    * \param slingPeriodserverinfo 
+    * \param slingPeriodadditionalPeriodresponsePeriodheaders 
+    */
+    Response<
+                OrgApacheSlingEngineImplSlingMainServletInfo
+        >
+    orgApacheSlingEngineImplSlingMainServlet(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int slingPeriodmaxPeriodcalls
+            , 
+            
+            int slingPeriodmaxPeriodinclusions
+            , 
+            
+            bool slingPeriodtracePeriodallow
+            , 
+            
+            int slingPeriodmaxPeriodrecordPeriodrequests
+            , 
+            std::list<std::string> slingPeriodstorePeriodpatternPeriodrequests
+            
+            , 
+            
+            std::string slingPeriodserverinfo
+            , 
+            std::list<std::string> slingPeriodadditionalPeriodresponsePeriodheaders
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param slingPerioddefaultPeriodparameterPeriodencoding 
+    * \param slingPerioddefaultPeriodmaxPeriodparameters 
+    * \param filePeriodlocation 
+    * \param filePeriodthreshold 
+    * \param filePeriodmax 
+    * \param requestPeriodmax 
+    * \param slingPerioddefaultPeriodparameterPeriodcheckForAdditionalContainerParameters 
+    */
+    Response<
+                OrgApacheSlingEngineParametersInfo
+        >
+    orgApacheSlingEngineParameters(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string slingPerioddefaultPeriodparameterPeriodencoding
+            , 
+            
+            int slingPerioddefaultPeriodmaxPeriodparameters
+            , 
+            
+            std::string filePeriodlocation
+            , 
+            
+            int filePeriodthreshold
+            , 
+            
+            int filePeriodmax
+            , 
+            
+            int requestPeriodmax
+            , 
+            
+            bool slingPerioddefaultPeriodparameterPeriodcheckForAdditionalContainerParameters
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param minPoolSize 
+    */
+    Response<
+                OrgApacheSlingEventImplEventingThreadPoolInfo
+        >
+    orgApacheSlingEventImplEventingThreadPool(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int minPoolSize
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param queuePeriodpriority 
+    * \param queuePeriodretries 
+    * \param queuePeriodretrydelay 
+    * \param queuePeriodmaxparallel 
+    */
+    Response<
+                OrgApacheSlingEventImplJobsDefaultJobManagerInfo
+        >
+    orgApacheSlingEventImplJobsDefaultJobManager(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string queuePeriodpriority
+            , 
+            
+            int queuePeriodretries
+            , 
+            
+            int queuePeriodretrydelay
+            , 
+            
+            int queuePeriodmaxparallel
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param jobPeriodconsumermanagerPerioddisableDistribution 
+    * \param startupPerioddelay 
+    * \param cleanupPeriodperiod 
+    */
+    Response<
+                OrgApacheSlingEventImplJobsJcrPersistenceHandlerInfo
+        >
+    orgApacheSlingEventImplJobsJcrPersistenceHandler(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool jobPeriodconsumermanagerPerioddisableDistribution
+            , 
+            
+            int startupPerioddelay
+            , 
+            
+            int cleanupPeriodperiod
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param orgPeriodapachePeriodslingPeriodinstallerPeriodconfigurationPeriodpersist 
+    * \param jobPeriodconsumermanagerPeriodwhitelist 
+    * \param jobPeriodconsumermanagerPeriodblacklist 
+    */
+    Response<
+                OrgApacheSlingEventImplJobsJobConsumerManagerInfo
+        >
+    orgApacheSlingEventImplJobsJobConsumerManager(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool orgPeriodapachePeriodslingPeriodinstallerPeriodconfigurationPeriodpersist
+            , 
+            std::list<std::string> jobPeriodconsumermanagerPeriodwhitelist
+            
+            , 
+            std::list<std::string> jobPeriodconsumermanagerPeriodblacklist
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param queuePeriodname 
+    * \param queuePeriodtopics 
+    * \param queuePeriodtype 
+    * \param queuePeriodpriority 
+    * \param queuePeriodretries 
+    * \param queuePeriodretrydelay 
+    * \param queuePeriodmaxparallel 
+    * \param queuePeriodkeepJobs 
+    * \param queuePeriodpreferRunOnCreationInstance 
+    * \param queuePeriodthreadPoolSize 
+    * \param servicePeriodranking 
+    */
+    Response<
+                OrgApacheSlingEventJobsQueueConfigurationInfo
+        >
+    orgApacheSlingEventJobsQueueConfiguration(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string queuePeriodname
+            , 
+            std::list<std::string> queuePeriodtopics
+            
+            , 
+            
+            std::string queuePeriodtype
+            , 
+            
+            std::string queuePeriodpriority
+            , 
+            
+            int queuePeriodretries
+            , 
+            
+            int queuePeriodretrydelay
+            , 
+            
+            long queuePeriodmaxparallel
+            , 
+            
+            bool queuePeriodkeepJobs
+            , 
+            
+            bool queuePeriodpreferRunOnCreationInstance
+            , 
+            
+            int queuePeriodthreadPoolSize
+            , 
+            
+            int servicePeriodranking
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param users 
+    * \param groups 
+    */
+    Response<
+                OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWInfo
+        >
+    orgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingW(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> users
+            
+            , 
+            std::list<std::string> groups
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param name 
+    * \param description 
+    * \param enabled 
+    */
+    Response<
+                OrgApacheSlingFeatureflagsFeatureInfo
+        >
+    orgApacheSlingFeatureflagsFeature(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string name
+            , 
+            
+            std::string description
+            , 
+            
+            bool enabled
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param name 
+    * \param description 
+    * \param enabled 
+    */
+    Response<
+                OrgApacheSlingFeatureflagsImplConfiguredFeatureInfo
+        >
+    orgApacheSlingFeatureflagsImplConfiguredFeature(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string name
+            , 
+            
+            std::string description
+            , 
+            
+            bool enabled
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param orgPeriodapachePeriodslingPeriodhapiPeriodtoolsPeriodresourcetype 
+    * \param orgPeriodapachePeriodslingPeriodhapiPeriodtoolsPeriodcollectionresourcetype 
+    * \param orgPeriodapachePeriodslingPeriodhapiPeriodtoolsPeriodsearchpaths 
+    * \param orgPeriodapachePeriodslingPeriodhapiPeriodtoolsPeriodexternalurl 
+    * \param orgPeriodapachePeriodslingPeriodhapiPeriodtoolsPeriodenabled 
+    */
+    Response<
+                OrgApacheSlingHapiImplHApiUtilImplInfo
+        >
+    orgApacheSlingHapiImplHApiUtilImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string orgPeriodapachePeriodslingPeriodhapiPeriodtoolsPeriodresourcetype
+            , 
+            
+            std::string orgPeriodapachePeriodslingPeriodhapiPeriodtoolsPeriodcollectionresourcetype
+            , 
+            std::list<std::string> orgPeriodapachePeriodslingPeriodhapiPeriodtoolsPeriodsearchpaths
+            
+            , 
+            
+            std::string orgPeriodapachePeriodslingPeriodhapiPeriodtoolsPeriodexternalurl
+            , 
+            
+            bool orgPeriodapachePeriodslingPeriodhapiPeriodtoolsPeriodenabled
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param hcPeriodname 
+    * \param hcPeriodtags 
+    * \param hcPeriodmbeanPeriodname 
+    * \param filterPeriodtags 
+    * \param filterPeriodcombineTagsWithOr 
+    */
+    Response<
+                OrgApacheSlingHcCoreImplCompositeHealthCheckInfo
+        >
+    orgApacheSlingHcCoreImplCompositeHealthCheck(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string hcPeriodname
+            , 
+            std::list<std::string> hcPeriodtags
+            
+            , 
+            
+            std::string hcPeriodmbeanPeriodname
+            , 
+            std::list<std::string> filterPeriodtags
+            
+            , 
+            
+            bool filterPeriodcombineTagsWithOr
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param timeoutInMs 
+    * \param longRunningFutureThresholdForCriticalMs 
+    * \param resultCacheTtlInMs 
+    */
+    Response<
+                OrgApacheSlingHcCoreImplExecutorHealthCheckExecutorImplInfo
+        >
+    orgApacheSlingHcCoreImplExecutorHealthCheckExecutorImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int timeoutInMs
+            , 
+            
+            int longRunningFutureThresholdForCriticalMs
+            , 
+            
+            int resultCacheTtlInMs
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param hcPeriodname 
+    * \param hcPeriodtags 
+    * \param hcPeriodmbeanPeriodname 
+    * \param mbeanPeriodname 
+    * \param attributePeriodname 
+    * \param attributePeriodvaluePeriodconstraint 
+    */
+    Response<
+                OrgApacheSlingHcCoreImplJmxAttributeHealthCheckInfo
+        >
+    orgApacheSlingHcCoreImplJmxAttributeHealthCheck(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string hcPeriodname
+            , 
+            std::list<std::string> hcPeriodtags
+            
+            , 
+            
+            std::string hcPeriodmbeanPeriodname
+            , 
+            
+            std::string mbeanPeriodname
+            , 
+            
+            std::string attributePeriodname
+            , 
+            
+            std::string attributePeriodvaluePeriodconstraint
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param hcPeriodname 
+    * \param hcPeriodtags 
+    * \param hcPeriodmbeanPeriodname 
+    * \param expression 
+    * \param languagePeriodextension 
+    */
+    Response<
+                OrgApacheSlingHcCoreImplScriptableHealthCheckInfo
+        >
+    orgApacheSlingHcCoreImplScriptableHealthCheck(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string hcPeriodname
+            , 
+            std::list<std::string> hcPeriodtags
+            
+            , 
+            
+            std::string hcPeriodmbeanPeriodname
+            , 
+            
+            std::string expression
+            , 
+            
+            std::string languagePeriodextension
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param servletPath 
+    * \param disabled 
+    * \param corsPeriodaccessControlAllowOrigin 
+    */
+    Response<
+                OrgApacheSlingHcCoreImplServletHealthCheckExecutorServletInfo
+        >
+    orgApacheSlingHcCoreImplServletHealthCheckExecutorServlet(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string servletPath
+            , 
+            
+            bool disabled
+            , 
+            
+            std::string corsPeriodaccessControlAllowOrigin
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param totalWidth 
+    * \param colWidthName 
+    * \param colWidthResult 
+    * \param colWidthTiming 
+    */
+    Response<
+                OrgApacheSlingHcCoreImplServletResultTxtVerboseSerializerInfo
+        >
+    orgApacheSlingHcCoreImplServletResultTxtVerboseSerializer(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int totalWidth
+            , 
+            
+            int colWidthName
+            , 
+            
+            int colWidthResult
+            , 
+            
+            int colWidthTiming
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param servicePeriodranking 
+    * \param slingPeriodfilterPeriodscope 
+    */
+    Response<
+                OrgApacheSlingI18nImplI18NFilterInfo
+        >
+    orgApacheSlingI18nImplI18NFilter(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int servicePeriodranking
+            , 
+            std::list<std::string> slingPeriodfilterPeriodscope
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param localePerioddefault 
+    * \param preloadPeriodbundles 
+    * \param invalidationPerioddelay 
+    */
+    Response<
+                OrgApacheSlingI18nImplJcrResourceBundleProviderInfo
+        >
+    orgApacheSlingI18nImplJcrResourceBundleProvider(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string localePerioddefault
+            , 
+            
+            bool preloadPeriodbundles
+            , 
+            
+            int invalidationPerioddelay
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param handlerPeriodschemes 
+    * \param slingPeriodjcrinstallPeriodfolderPeriodnamePeriodregexp 
+    * \param slingPeriodjcrinstallPeriodfolderPeriodmaxPerioddepth 
+    * \param slingPeriodjcrinstallPeriodsearchPeriodpath 
+    * \param slingPeriodjcrinstallPeriodnewPeriodconfigPeriodpath 
+    * \param slingPeriodjcrinstallPeriodsignalPeriodpath 
+    * \param slingPeriodjcrinstallPeriodenablePeriodwriteback 
+    */
+    Response<
+                OrgApacheSlingInstallerProviderJcrImplJcrInstallerInfo
+        >
+    orgApacheSlingInstallerProviderJcrImplJcrInstaller(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> handlerPeriodschemes
+            
+            , 
+            
+            std::string slingPeriodjcrinstallPeriodfolderPeriodnamePeriodregexp
+            , 
+            
+            int slingPeriodjcrinstallPeriodfolderPeriodmaxPerioddepth
+            , 
+            std::list<std::string> slingPeriodjcrinstallPeriodsearchPeriodpath
+            
+            , 
+            
+            std::string slingPeriodjcrinstallPeriodnewPeriodconfigPeriodpath
+            , 
+            
+            std::string slingPeriodjcrinstallPeriodsignalPeriodpath
+            , 
+            
+            bool slingPeriodjcrinstallPeriodenablePeriodwriteback
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param whitelistPeriodbypass 
+    * \param whitelistPeriodbundlesPeriodregexp 
+    */
+    Response<
+                OrgApacheSlingJcrBaseInternalLoginAdminWhitelistInfo
+        >
+    orgApacheSlingJcrBaseInternalLoginAdminWhitelist(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool whitelistPeriodbypass
+            , 
+            
+            std::string whitelistPeriodbundlesPeriodregexp
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param whitelistPeriodname 
+    * \param whitelistPeriodbundles 
+    */
+    Response<
+                OrgApacheSlingJcrBaseInternalLoginAdminWhitelistFragmentInfo
+        >
+    orgApacheSlingJcrBaseInternalLoginAdminWhitelistFragment(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string whitelistPeriodname
+            , 
+            std::list<std::string> whitelistPeriodbundles
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param alias 
+    * \param davPeriodcreateAbsoluteUri 
+    * \param davPeriodprotectedhandlers 
+    */
+    Response<
+                OrgApacheSlingJcrDavexImplServletsSlingDavExServletInfo
+        >
+    orgApacheSlingJcrDavexImplServletsSlingDavExServlet(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string alias
+            , 
+            
+            bool davPeriodcreateAbsoluteUri
+            , 
+            
+            std::string davPeriodprotectedhandlers
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param javaPeriodnamingPeriodfactoryPeriodinitial 
+    * \param javaPeriodnamingPeriodproviderPeriodurl 
+    */
+    Response<
+                OrgApacheSlingJcrJackrabbitServerJndiRegistrationSupportInfo
+        >
+    orgApacheSlingJcrJackrabbitServerJndiRegistrationSupport(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string javaPeriodnamingPeriodfactoryPeriodinitial
+            , 
+            
+            std::string javaPeriodnamingPeriodproviderPeriodurl
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param port 
+    */
+    Response<
+                OrgApacheSlingJcrJackrabbitServerRmiRegistrationSupportInfo
+        >
+    orgApacheSlingJcrJackrabbitServerRmiRegistrationSupport(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int port
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param references 
+    */
+    Response<
+                OrgApacheSlingJcrRepoinitImplRepositoryInitializerInfo
+        >
+    orgApacheSlingJcrRepoinitImplRepositoryInitializer(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> references
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param references 
+    * \param scripts 
+    */
+    Response<
+                OrgApacheSlingJcrRepoinitRepositoryInitializerInfo
+        >
+    orgApacheSlingJcrRepoinitRepositoryInitializer(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> references
+            
+            , 
+            std::list<std::string> scripts
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param resourcePeriodresolverPeriodsearchpath 
+    * \param resourcePeriodresolverPeriodmanglenamespaces 
+    * \param resourcePeriodresolverPeriodallowDirect 
+    * \param resourcePeriodresolverPeriodrequiredPeriodproviders 
+    * \param resourcePeriodresolverPeriodrequiredPeriodprovidernames 
+    * \param resourcePeriodresolverPeriodvirtual 
+    * \param resourcePeriodresolverPeriodmapping 
+    * \param resourcePeriodresolverPeriodmapPeriodlocation 
+    * \param resourcePeriodresolverPeriodmapPeriodobservation 
+    * \param resourcePeriodresolverPerioddefaultPeriodvanityPeriodredirectPeriodstatus 
+    * \param resourcePeriodresolverPeriodenablePeriodvanitypath 
+    * \param resourcePeriodresolverPeriodvanitypathPeriodmaxEntries 
+    * \param resourcePeriodresolverPeriodvanitypathPeriodmaxEntriesPeriodstartup 
+    * \param resourcePeriodresolverPeriodvanitypathPeriodbloomfilterPeriodmaxBytes 
+    * \param resourcePeriodresolverPeriodoptimizePeriodaliasPeriodresolution 
+    * \param resourcePeriodresolverPeriodvanitypathPeriodwhitelist 
+    * \param resourcePeriodresolverPeriodvanitypathPeriodblacklist 
+    * \param resourcePeriodresolverPeriodvanityPeriodprecedence 
+    * \param resourcePeriodresolverPeriodproviderhandlingPeriodparanoid 
+    * \param resourcePeriodresolverPeriodlogPeriodclosing 
+    * \param resourcePeriodresolverPeriodlogPeriodunclosed 
+    */
+    Response<
+                OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplInfo
+        >
+    orgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> resourcePeriodresolverPeriodsearchpath
+            
+            , 
+            
+            bool resourcePeriodresolverPeriodmanglenamespaces
+            , 
+            
+            bool resourcePeriodresolverPeriodallowDirect
+            , 
+            std::list<std::string> resourcePeriodresolverPeriodrequiredPeriodproviders
+            
+            , 
+            std::list<std::string> resourcePeriodresolverPeriodrequiredPeriodprovidernames
+            
+            , 
+            std::list<std::string> resourcePeriodresolverPeriodvirtual
+            
+            , 
+            std::list<std::string> resourcePeriodresolverPeriodmapping
+            
+            , 
+            
+            std::string resourcePeriodresolverPeriodmapPeriodlocation
+            , 
+            std::list<std::string> resourcePeriodresolverPeriodmapPeriodobservation
+            
+            , 
+            
+            int resourcePeriodresolverPerioddefaultPeriodvanityPeriodredirectPeriodstatus
+            , 
+            
+            bool resourcePeriodresolverPeriodenablePeriodvanitypath
+            , 
+            
+            int resourcePeriodresolverPeriodvanitypathPeriodmaxEntries
+            , 
+            
+            bool resourcePeriodresolverPeriodvanitypathPeriodmaxEntriesPeriodstartup
+            , 
+            
+            int resourcePeriodresolverPeriodvanitypathPeriodbloomfilterPeriodmaxBytes
+            , 
+            
+            bool resourcePeriodresolverPeriodoptimizePeriodaliasPeriodresolution
+            , 
+            std::list<std::string> resourcePeriodresolverPeriodvanitypathPeriodwhitelist
+            
+            , 
+            std::list<std::string> resourcePeriodresolverPeriodvanitypathPeriodblacklist
+            
+            , 
+            
+            bool resourcePeriodresolverPeriodvanityPeriodprecedence
+            , 
+            
+            bool resourcePeriodresolverPeriodproviderhandlingPeriodparanoid
+            , 
+            
+            bool resourcePeriodresolverPeriodlogPeriodclosing
+            , 
+            
+            bool resourcePeriodresolverPeriodlogPeriodunclosed
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param allowPeriodonlyPeriodsystemPerioduser 
+    */
+    Response<
+                OrgApacheSlingJcrResourceInternalJcrSystemUserValidatorInfo
+        >
+    orgApacheSlingJcrResourceInternalJcrSystemUserValidator(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool allowPeriodonlyPeriodsystemPerioduser
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param path 
+    * \param checkpathPeriodprefix 
+    * \param jcrPath 
+    */
+    Response<
+                OrgApacheSlingJcrResourcesecurityImplResourceAccessGateFactoryInfo
+        >
+    orgApacheSlingJcrResourcesecurityImplResourceAccessGateFactory(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string path
+            , 
+            
+            std::string checkpathPeriodprefix
+            , 
+            
+            std::string jcrPath
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param servicePeriodranking 
+    * \param typePeriodcollections 
+    * \param typePeriodnoncollections 
+    * \param typePeriodcontent 
+    */
+    Response<
+                OrgApacheSlingJcrWebdavImplHandlerDefaultHandlerServiceInfo
+        >
+    orgApacheSlingJcrWebdavImplHandlerDefaultHandlerService(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int servicePeriodranking
+            , 
+            
+            std::string typePeriodcollections
+            , 
+            
+            std::string typePeriodnoncollections
+            , 
+            
+            std::string typePeriodcontent
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param servicePeriodranking 
+    */
+    Response<
+                OrgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServicInfo
+        >
+    orgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServic(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int servicePeriodranking
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param davPeriodroot 
+    * \param davPeriodcreateAbsoluteUri 
+    * \param davPeriodrealm 
+    * \param collectionPeriodtypes 
+    * \param filterPeriodprefixes 
+    * \param filterPeriodtypes 
+    * \param filterPerioduris 
+    * \param typePeriodcollections 
+    * \param typePeriodnoncollections 
+    * \param typePeriodcontent 
+    */
+    Response<
+                OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletInfo
+        >
+    orgApacheSlingJcrWebdavImplServletsSimpleWebDavServlet(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string davPeriodroot
+            , 
+            
+            bool davPeriodcreateAbsoluteUri
+            , 
+            
+            std::string davPeriodrealm
+            , 
+            std::list<std::string> collectionPeriodtypes
+            
+            , 
+            std::list<std::string> filterPeriodprefixes
+            
+            , 
+            
+            std::string filterPeriodtypes
+            , 
+            
+            std::string filterPerioduris
+            , 
+            
+            std::string typePeriodcollections
+            , 
+            
+            std::string typePeriodnoncollections
+            , 
+            
+            std::string typePeriodcontent
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param providerPeriodroots 
+    */
+    Response<
+                OrgApacheSlingJmxProviderImplJMXResourceProviderInfo
+        >
+    orgApacheSlingJmxProviderImplJMXResourceProvider(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string providerPeriodroots
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param osgiPeriodhttpPeriodwhiteboardPeriodlistener 
+    * \param osgiPeriodhttpPeriodwhiteboardPeriodcontextPeriodselect 
+    * \param maxPeriodrecursionPerioddepth 
+    * \param cleanupPeriodjobPeriodperiod 
+    */
+    Response<
+                OrgApacheSlingModelsImplModelAdapterFactoryInfo
+        >
+    orgApacheSlingModelsImplModelAdapterFactory(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string osgiPeriodhttpPeriodwhiteboardPeriodlistener
+            , 
+            
+            std::string osgiPeriodhttpPeriodwhiteboardPeriodcontextPeriodselect
+            , 
+            
+            int maxPeriodrecursionPerioddepth
+            , 
+            
+            int cleanupPeriodjobPeriodperiod
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param maxPeriodrecursionPeriodlevels 
+    */
+    Response<
+                OrgApacheSlingModelsJacksonexporterImplResourceModuleProviderInfo
+        >
+    orgApacheSlingModelsJacksonexporterImplResourceModuleProvider(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int maxPeriodrecursionPeriodlevels
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param felixPeriodinventoryPeriodprinterPeriodname 
+    * \param felixPeriodinventoryPeriodprinterPeriodtitle 
+    * \param path 
+    */
+    Response<
+                OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoInfo
+        >
+    orgApacheSlingResourceInventoryImplResourceInventoryPrinterFacto(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string felixPeriodinventoryPeriodprinterPeriodname
+            , 
+            
+            std::string felixPeriodinventoryPeriodprinterPeriodtitle
+            , 
+            
+            std::string path
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param mergePeriodroot 
+    * \param mergePeriodreadOnly 
+    */
+    Response<
+                OrgApacheSlingResourcemergerImplMergedResourceProviderFactoryInfo
+        >
+    orgApacheSlingResourcemergerImplMergedResourceProviderFactory(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string mergePeriodroot
+            , 
+            
+            bool mergePeriodreadOnly
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param mergePeriodroot 
+    * \param mergePeriodreadOnly 
+    */
+    Response<
+                OrgApacheSlingResourcemergerPickerOverridingInfo
+        >
+    orgApacheSlingResourcemergerPickerOverriding(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string mergePeriodroot
+            , 
+            
+            bool mergePeriodreadOnly
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param orgPeriodapachePeriodslingPeriodscriptingPeriodcachePeriodsize 
+    * \param orgPeriodapachePeriodslingPeriodscriptingPeriodcachePeriodadditionalExtensions 
+    */
+    Response<
+                OrgApacheSlingScriptingCoreImplScriptCacheImplInfo
+        >
+    orgApacheSlingScriptingCoreImplScriptCacheImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int orgPeriodapachePeriodslingPeriodscriptingPeriodcachePeriodsize
+            , 
+            std::list<std::string> orgPeriodapachePeriodslingPeriodscriptingPeriodcachePeriodadditionalExtensions
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param logPeriodstacktracePeriodonclose 
+    */
+    Response<
+                OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderInfo
+        >
+    orgApacheSlingScriptingCoreImplScriptingResourceResolverProvider(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool logPeriodstacktracePeriodonclose
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param javaPeriodclassdebuginfo 
+    * \param javaPeriodjavaEncoding 
+    * \param javaPeriodcompilerSourceVM 
+    * \param javaPeriodcompilerTargetVM 
+    */
+    Response<
+                OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryInfo
+        >
+    orgApacheSlingScriptingJavaImplJavaScriptEngineFactory(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool javaPeriodclassdebuginfo
+            , 
+            
+            std::string javaPeriodjavaEncoding
+            , 
+            
+            std::string javaPeriodcompilerSourceVM
+            , 
+            
+            std::string javaPeriodcompilerTargetVM
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param orgPeriodapachePeriodslingPeriodscriptingPeriodjavascriptPeriodrhinoPeriodoptLevel 
+    */
+    Response<
+                OrgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFaInfo
+        >
+    orgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFa(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int orgPeriodapachePeriodslingPeriodscriptingPeriodjavascriptPeriodrhinoPeriodoptLevel
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param jasperPeriodcompilerTargetVM 
+    * \param jasperPeriodcompilerSourceVM 
+    * \param jasperPeriodclassdebuginfo 
+    * \param jasperPeriodenablePooling 
+    * \param jasperPeriodieClassId 
+    * \param jasperPeriodgenStringAsCharArray 
+    * \param jasperPeriodkeepgenerated 
+    * \param jasperPeriodmappedfile 
+    * \param jasperPeriodtrimSpaces 
+    * \param jasperPerioddisplaySourceFragments 
+    * \param defaultPeriodisPeriodsession 
+    */
+    Response<
+                OrgApacheSlingScriptingJspJspScriptEngineFactoryInfo
+        >
+    orgApacheSlingScriptingJspJspScriptEngineFactory(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string jasperPeriodcompilerTargetVM
+            , 
+            
+            std::string jasperPeriodcompilerSourceVM
+            , 
+            
+            bool jasperPeriodclassdebuginfo
+            , 
+            
+            bool jasperPeriodenablePooling
+            , 
+            
+            std::string jasperPeriodieClassId
+            , 
+            
+            bool jasperPeriodgenStringAsCharArray
+            , 
+            
+            bool jasperPeriodkeepgenerated
+            , 
+            
+            bool jasperPeriodmappedfile
+            , 
+            
+            bool jasperPeriodtrimSpaces
+            , 
+            
+            bool jasperPerioddisplaySourceFragments
+            , 
+            
+            bool defaultPeriodisPeriodsession
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param orgPeriodapachePeriodslingPeriodscriptingPeriodsightlyPeriodjsPeriodbindings 
+    */
+    Response<
+                OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvInfo
+        >
+    orgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProv(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> orgPeriodapachePeriodslingPeriodscriptingPeriodsightlyPeriodjsPeriodbindings
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param slingPeriodcontentPerioddispositionPeriodpaths 
+    * \param slingPeriodcontentPerioddispositionPeriodexcludedPeriodpaths 
+    * \param slingPeriodcontentPerioddispositionPeriodallPeriodpaths 
+    */
+    Response<
+                OrgApacheSlingSecurityImplContentDispositionFilterInfo
+        >
+    orgApacheSlingSecurityImplContentDispositionFilter(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> slingPeriodcontentPerioddispositionPeriodpaths
+            
+            , 
+            std::list<std::string> slingPeriodcontentPerioddispositionPeriodexcludedPeriodpaths
+            
+            , 
+            
+            bool slingPeriodcontentPerioddispositionPeriodallPeriodpaths
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param allowPeriodempty 
+    * \param allowPeriodhosts 
+    * \param allowPeriodhostsPeriodregexp 
+    * \param filterPeriodmethods 
+    * \param excludePeriodagentsPeriodregexp 
+    */
+    Response<
+                OrgApacheSlingSecurityImplReferrerFilterInfo
+        >
+    orgApacheSlingSecurityImplReferrerFilter(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool allowPeriodempty
+            , 
+            std::list<std::string> allowPeriodhosts
+            
+            , 
+            std::list<std::string> allowPeriodhostsPeriodregexp
+            
+            , 
+            std::list<std::string> filterPeriodmethods
+            
+            , 
+            std::list<std::string> excludePeriodagentsPeriodregexp
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param userPeriodmapping 
+    * \param userPerioddefault 
+    * \param userPeriodenablePerioddefaultPeriodmapping 
+    * \param requirePeriodvalidation 
+    */
+    Response<
+                OrgApacheSlingServiceusermappingImplServiceUserMapperImplInfo
+        >
+    orgApacheSlingServiceusermappingImplServiceUserMapperImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> userPeriodmapping
+            
+            , 
+            
+            std::string userPerioddefault
+            , 
+            
+            bool userPeriodenablePerioddefaultPeriodmapping
+            , 
+            
+            bool requirePeriodvalidation
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param servicePeriodranking 
+    * \param userPeriodmapping 
+    */
+    Response<
+                OrgApacheSlingServiceusermappingImplServiceUserMapperImplAmendedInfo
+        >
+    orgApacheSlingServiceusermappingImplServiceUserMapperImplAmended(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            int servicePeriodranking
+            , 
+            std::list<std::string> userPeriodmapping
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param aliases 
+    * \param index 
+    * \param indexPeriodfiles 
+    * \param enablePeriodhtml 
+    * \param enablePeriodjson 
+    * \param enablePeriodtxt 
+    * \param enablePeriodxml 
+    * \param jsonPeriodmaximumresults 
+    * \param ecmaSuport 
+    */
+    Response<
+                OrgApacheSlingServletsGetDefaultGetServletInfo
+        >
+    orgApacheSlingServletsGetDefaultGetServlet(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> aliases
+            
+            , 
+            
+            bool index
+            , 
+            std::list<std::string> indexPeriodfiles
+            
+            , 
+            
+            bool enablePeriodhtml
+            , 
+            
+            bool enablePeriodjson
+            , 
+            
+            bool enablePeriodtxt
+            , 
+            
+            bool enablePeriodxml
+            , 
+            
+            int jsonPeriodmaximumresults
+            , 
+            
+            bool ecmaSuport
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param slingPeriodservletPeriodselectors 
+    * \param ecmaSuport 
+    */
+    Response<
+                OrgApacheSlingServletsGetImplVersionVersionInfoServletInfo
+        >
+    orgApacheSlingServletsGetImplVersionVersionInfoServlet(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> slingPeriodservletPeriodselectors
+            
+            , 
+            
+            bool ecmaSuport
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param schedulerPeriodexpression 
+    * \param schedulerPeriodconcurrent 
+    * \param chunkPeriodcleanupPeriodage 
+    */
+    Response<
+                OrgApacheSlingServletsPostImplHelperChunkCleanUpTaskInfo
+        >
+    orgApacheSlingServletsPostImplHelperChunkCleanUpTask(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string schedulerPeriodexpression
+            , 
+            
+            bool schedulerPeriodconcurrent
+            , 
+            
+            int chunkPeriodcleanupPeriodage
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param servletPeriodpostPerioddateFormats 
+    * \param servletPeriodpostPeriodnodeNameHints 
+    * \param servletPeriodpostPeriodnodeNameMaxLength 
+    * \param servletPeriodpostPeriodcheckinNewVersionableNodes 
+    * \param servletPeriodpostPeriodautoCheckout 
+    * \param servletPeriodpostPeriodautoCheckin 
+    * \param servletPeriodpostPeriodignorePattern 
+    */
+    Response<
+                OrgApacheSlingServletsPostImplSlingPostServletInfo
+        >
+    orgApacheSlingServletsPostImplSlingPostServlet(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> servletPeriodpostPerioddateFormats
+            
+            , 
+            std::list<std::string> servletPeriodpostPeriodnodeNameHints
+            
+            , 
+            
+            int servletPeriodpostPeriodnodeNameMaxLength
+            , 
+            
+            bool servletPeriodpostPeriodcheckinNewVersionableNodes
+            , 
+            
+            bool servletPeriodpostPeriodautoCheckout
+            , 
+            
+            bool servletPeriodpostPeriodautoCheckin
+            , 
+            
+            std::string servletPeriodpostPeriodignorePattern
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param servletresolverPeriodservletRoot 
+    * \param servletresolverPeriodcacheSize 
+    * \param servletresolverPeriodpaths 
+    * \param servletresolverPerioddefaultExtensions 
+    */
+    Response<
+                OrgApacheSlingServletsResolverSlingServletResolverInfo
+        >
+    orgApacheSlingServletsResolverSlingServletResolver(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string servletresolverPeriodservletRoot
+            , 
+            
+            int servletresolverPeriodcacheSize
+            , 
+            std::list<std::string> servletresolverPeriodpaths
+            
+            , 
+            std::list<std::string> servletresolverPerioddefaultExtensions
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param slingPeriodname 
+    * \param slingPerioddescription 
+    */
+    Response<
+                OrgApacheSlingSettingsImplSlingSettingsServiceImplInfo
+        >
+    orgApacheSlingSettingsImplSlingSettingsServiceImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string slingPeriodname
+            , 
+            
+            std::string slingPerioddescription
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param activePeriodbyPerioddefault 
+    * \param defaultPeriodmessage 
+    */
+    Response<
+                OrgApacheSlingStartupfilterImplStartupFilterImplInfo
+        >
+    orgApacheSlingStartupfilterImplStartupFilterImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            bool activePeriodbyPerioddefault
+            , 
+            
+            std::string defaultPeriodmessage
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param tenantPeriodroot 
+    * \param tenantPeriodpathPeriodmatcher 
+    */
+    Response<
+                OrgApacheSlingTenantInternalTenantProviderImplInfo
+        >
+    orgApacheSlingTenantInternalTenantProviderImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string tenantPeriodroot
+            , 
+            std::list<std::string> tenantPeriodpathPeriodmatcher
+            
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param tracerSets 
+    * \param enabled 
+    * \param servletEnabled 
+    * \param recordingCacheSizeInMB 
+    * \param recordingCacheDurationInSecs 
+    * \param recordingCompressionEnabled 
+    * \param gzipResponse 
+    */
+    Response<
+                OrgApacheSlingTracerInternalLogTracerInfo
+        >
+    orgApacheSlingTracerInternalLogTracer(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            std::list<std::string> tracerSets
+            
+            , 
+            
+            bool enabled
+            , 
+            
+            bool servletEnabled
+            , 
+            
+            int recordingCacheSizeInMB
+            , 
+            
+            int recordingCacheDurationInSecs
+            , 
+            
+            bool recordingCompressionEnabled
+            , 
+            
+            bool gzipResponse
+            
+    );
+    /**
+    * .
+    *
+    * 
+    * \param post 
+    * \param apply 
+    * \param r_delete 
+    * \param action 
+    * \param Dollarlocation 
+    * \param propertylist 
+    * \param policyPath 
+    */
+    Response<
+                OrgApacheSlingXssImplXSSFilterImplInfo
+        >
+    orgApacheSlingXssImplXSSFilterImpl(
+            
+            bool post
+            , 
+            
+            bool apply
+            , 
+            
+            bool r_delete
+            , 
+            
+            std::string action
+            , 
+            
+            std::string Dollarlocation
+            , 
+            std::list<std::string> propertylist
+            
+            , 
+            
+            std::string policyPath
+            
+    );
+}; 
+
+} 
+
+#endif /* TINY_CPP_CLIENT_ConfigmgrApi_H_ */

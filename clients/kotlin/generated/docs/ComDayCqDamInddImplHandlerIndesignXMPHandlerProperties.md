@@ -2,10 +2,10 @@
 # ComDayCqDamInddImplHandlerIndesignXMPHandlerProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**processPeriodlabel** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**extractPeriodpages** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **processLabel** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **extractPages** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
 
 
 

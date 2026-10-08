@@ -5,40 +5,43 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
 
 import io.swagger.annotations.ApiModelProperty;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlType;
-import javax.xml.bind.annotation.XmlEnum;
-import javax.xml.bind.annotation.XmlEnumValue;
+import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
 
 public class ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties  {
   
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString eventTopics = null;
+
+  private ConfigNodePropertyString eventTopics;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString eventFilter = null;
+
+  private ConfigNodePropertyString eventFilter;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyArray translateListenerType = null;
+
+  private ConfigNodePropertyArray translateListenerType;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyArray translatePropertyList = null;
+
+  private ConfigNodePropertyArray translatePropertyList;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyInteger poolSize = null;
+
+  private ConfigNodePropertyInteger poolSize;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyInteger maxPoolSize = null;
+
+  private ConfigNodePropertyInteger maxPoolSize;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyInteger queueSize = null;
+
+  private ConfigNodePropertyInteger queueSize;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyInteger keepAliveTime = null;
+
+  private ConfigNodePropertyInteger keepAliveTime;
  /**
    * Get eventTopics
    * @return eventTopics
@@ -183,6 +186,29 @@ public class ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties  {
     return this;
   }
 
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties comAdobeCqSocialTranslationImplUGCLanguageDetectorProperties = (ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties) o;
+    return Objects.equals(this.eventTopics, comAdobeCqSocialTranslationImplUGCLanguageDetectorProperties.eventTopics) &&
+        Objects.equals(this.eventFilter, comAdobeCqSocialTranslationImplUGCLanguageDetectorProperties.eventFilter) &&
+        Objects.equals(this.translateListenerType, comAdobeCqSocialTranslationImplUGCLanguageDetectorProperties.translateListenerType) &&
+        Objects.equals(this.translatePropertyList, comAdobeCqSocialTranslationImplUGCLanguageDetectorProperties.translatePropertyList) &&
+        Objects.equals(this.poolSize, comAdobeCqSocialTranslationImplUGCLanguageDetectorProperties.poolSize) &&
+        Objects.equals(this.maxPoolSize, comAdobeCqSocialTranslationImplUGCLanguageDetectorProperties.maxPoolSize) &&
+        Objects.equals(this.queueSize, comAdobeCqSocialTranslationImplUGCLanguageDetectorProperties.queueSize) &&
+        Objects.equals(this.keepAliveTime, comAdobeCqSocialTranslationImplUGCLanguageDetectorProperties.keepAliveTime);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(eventTopics, eventFilter, translateListenerType, translatePropertyList, poolSize, maxPoolSize, queueSize, keepAliveTime);
+  }
 
   @Override
   public String toString() {
@@ -205,11 +231,8 @@ public class ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties  {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private static String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

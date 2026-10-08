@@ -7,12 +7,12 @@ import org.openapitools.model.OrgApacheSlingDistributionTransportImplUserCredent
 
 @Canonical
 class OrgApacheSlingDistributionTransportImplUserCredentialsDistributiInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheSlingDistributionTransportImplUserCredentialsDistributiProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheSlingDistributionTransportImplUserCredentialsDistributiProperties properties
 }

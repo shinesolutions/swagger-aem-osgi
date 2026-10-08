@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyBoolean;
 
 @Canonical
 class ComAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFactoProperties {
-    ConfigNodePropertyBoolean isMemberCheck = null
-
+    
+    ConfigNodePropertyBoolean isMemberCheck
 }

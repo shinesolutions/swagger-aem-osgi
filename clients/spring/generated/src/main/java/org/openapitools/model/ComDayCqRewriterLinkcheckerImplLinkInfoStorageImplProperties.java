@@ -1,28 +1,39 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComDayCqRewriterLinkcheckerImplLinkInfoStorageImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComDayCqRewriterLinkcheckerImplLinkInfoStorageImplProperties   {
-  @JsonProperty("service.max_links_per_host")
-  private ConfigNodePropertyInteger serviceMaxLinksPerHost = null;
+@JsonTypeName("comDayCqRewriterLinkcheckerImplLinkInfoStorageImplProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComDayCqRewriterLinkcheckerImplLinkInfoStorageImplProperties {
 
-  @JsonProperty("service.save_external_link_references")
-  private ConfigNodePropertyBoolean serviceSaveExternalLinkReferences = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger serviceMaxLinksPerHost;
 
-  public ComDayCqRewriterLinkcheckerImplLinkInfoStorageImplProperties serviceMaxLinksPerHost(ConfigNodePropertyInteger serviceMaxLinksPerHost) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean serviceSaveExternalLinkReferences;
+
+  public ComDayCqRewriterLinkcheckerImplLinkInfoStorageImplProperties serviceMaxLinksPerHost(@Nullable ConfigNodePropertyInteger serviceMaxLinksPerHost) {
     this.serviceMaxLinksPerHost = serviceMaxLinksPerHost;
     return this;
   }
@@ -30,20 +41,20 @@ public class ComDayCqRewriterLinkcheckerImplLinkInfoStorageImplProperties   {
   /**
    * Get serviceMaxLinksPerHost
    * @return serviceMaxLinksPerHost
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getServiceMaxLinksPerHost() {
+   */
+  @Valid 
+  @Schema(name = "service.max_links_per_host", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("service.max_links_per_host")
+  public @Nullable ConfigNodePropertyInteger getServiceMaxLinksPerHost() {
     return serviceMaxLinksPerHost;
   }
 
-  public void setServiceMaxLinksPerHost(ConfigNodePropertyInteger serviceMaxLinksPerHost) {
+  @JsonProperty("service.max_links_per_host")
+  public void setServiceMaxLinksPerHost(@Nullable ConfigNodePropertyInteger serviceMaxLinksPerHost) {
     this.serviceMaxLinksPerHost = serviceMaxLinksPerHost;
   }
 
-  public ComDayCqRewriterLinkcheckerImplLinkInfoStorageImplProperties serviceSaveExternalLinkReferences(ConfigNodePropertyBoolean serviceSaveExternalLinkReferences) {
+  public ComDayCqRewriterLinkcheckerImplLinkInfoStorageImplProperties serviceSaveExternalLinkReferences(@Nullable ConfigNodePropertyBoolean serviceSaveExternalLinkReferences) {
     this.serviceSaveExternalLinkReferences = serviceSaveExternalLinkReferences;
     return this;
   }
@@ -51,22 +62,21 @@ public class ComDayCqRewriterLinkcheckerImplLinkInfoStorageImplProperties   {
   /**
    * Get serviceSaveExternalLinkReferences
    * @return serviceSaveExternalLinkReferences
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getServiceSaveExternalLinkReferences() {
+   */
+  @Valid 
+  @Schema(name = "service.save_external_link_references", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("service.save_external_link_references")
+  public @Nullable ConfigNodePropertyBoolean getServiceSaveExternalLinkReferences() {
     return serviceSaveExternalLinkReferences;
   }
 
-  public void setServiceSaveExternalLinkReferences(ConfigNodePropertyBoolean serviceSaveExternalLinkReferences) {
+  @JsonProperty("service.save_external_link_references")
+  public void setServiceSaveExternalLinkReferences(@Nullable ConfigNodePropertyBoolean serviceSaveExternalLinkReferences) {
     this.serviceSaveExternalLinkReferences = serviceSaveExternalLinkReferences;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -87,7 +97,6 @@ public class ComDayCqRewriterLinkcheckerImplLinkInfoStorageImplProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComDayCqRewriterLinkcheckerImplLinkInfoStorageImplProperties {\n");
-    
     sb.append("    serviceMaxLinksPerHost: ").append(toIndentedString(serviceMaxLinksPerHost)).append("\n");
     sb.append("    serviceSaveExternalLinkReferences: ").append(toIndentedString(serviceSaveExternalLinkReferences)).append("\n");
     sb.append("}");
@@ -98,11 +107,8 @@ public class ComDayCqRewriterLinkcheckerImplLinkInfoStorageImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -72,8 +72,8 @@ private class OASComAdobeGraniteWorkflowCoreJobJobTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeGraniteWorkflowCoreJobJob comAdobeGraniteWorkflowCoreJobJobHandlerProperties = new OASComAdobeGraniteWorkflowCoreJobJob();
-        Map<String, String> propertyMappings = comAdobeGraniteWorkflowCoreJobJobHandlerProperties.getPropertyMappings();
-        System.assertEquals('jobTopics', propertyMappings.get('job.topics'));
-        System.assertEquals('allowSelfProcessTermination', propertyMappings.get('allow.self.process.termination'));
+        Map<String, String> x-property-mappings = comAdobeGraniteWorkflowCoreJobJobHandlerProperties.getx-property-mappings();
+        System.assertEquals('jobTopics', x-property-mappings.get('job.topics'));
+        System.assertEquals('allowSelfProcessTermination', x-property-mappings.get('allow.self.process.termination'));
     }
 }

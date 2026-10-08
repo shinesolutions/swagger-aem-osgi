@@ -1,0 +1,37 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "resource_resolver_searchpath" },
+      {"model": "resource_resolver_manglenamespaces" },
+      {"model": "resource_resolver_allow_direct" },
+      {"model": "resource_resolver_required_providers" },
+      {"model": "resource_resolver_required_providernames" },
+      {"model": "resource_resolver_virtual" },
+      {"model": "resource_resolver_mapping" },
+      {"model": "resource_resolver_map_location" },
+      {"model": "resource_resolver_map_observation" },
+      {"model": "resource_resolver_default_vanity_redirect_status" },
+      {"model": "resource_resolver_enable_vanitypath" },
+      {"model": "resource_resolver_vanitypath_max_entries" },
+      {"model": "resource_resolver_vanitypath_max_entries_startup" },
+      {"model": "resource_resolver_vanitypath_bloomfilter_max_bytes" },
+      {"model": "resource_resolver_optimize_alias_resolution" },
+      {"model": "resource_resolver_vanitypath_whitelist" },
+      {"model": "resource_resolver_vanitypath_blacklist" },
+      {"model": "resource_resolver_vanity_precedence" },
+      {"model": "resource_resolver_providerhandling_paranoid" },
+      {"model": "resource_resolver_log_closing" },
+      {"model": "resource_resolver_log_unclosed" },
+    ]
+  }]
+}

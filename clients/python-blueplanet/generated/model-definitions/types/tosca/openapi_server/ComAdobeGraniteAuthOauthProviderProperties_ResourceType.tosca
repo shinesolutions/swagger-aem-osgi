@@ -1,0 +1,113 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeGraniteAuthOauthProviderProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeGraniteAuthOauthProviderProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComAdobeGraniteAuthOauthProviderProperties {
+    title = ComAdobeGraniteAuthOauthProviderProperties
+    description = ComAdobeGraniteAuthOauthProviderProperties
+    derivedFrom = Root
+    properties {
+        oauth_config_id {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        oauth_client_id {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        oauth_client_secret {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        oauth_scope {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        oauth_config_provider_id {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        oauth_create_users {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        oauth_userid_property {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        force_strict_username_matching {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        oauth_encode_userids {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        oauth_hash_userids {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        oauth_call_back_url {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        oauth_access_token_persist {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        oauth_access_token_persist_cookie {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        oauth_csrf_state_protection {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        oauth_redirect_request_params {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        oauth_config_siblings_allow {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeGraniteAuthOauthProviderProperties {
+    title = ComAdobeGraniteAuthOauthProviderProperties
+    description = ComAdobeGraniteAuthOauthProviderProperties
+    implements = openapi_server.resourceTypes.ComAdobeGraniteAuthOauthProviderProperties
+
+  }
+}

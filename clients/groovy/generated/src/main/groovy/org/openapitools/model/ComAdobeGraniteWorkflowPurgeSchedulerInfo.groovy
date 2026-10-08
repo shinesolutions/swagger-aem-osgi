@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeGraniteWorkflowPurgeSchedulerProperties;
 
 @Canonical
 class ComAdobeGraniteWorkflowPurgeSchedulerInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteWorkflowPurgeSchedulerProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteWorkflowPurgeSchedulerProperties properties
 }

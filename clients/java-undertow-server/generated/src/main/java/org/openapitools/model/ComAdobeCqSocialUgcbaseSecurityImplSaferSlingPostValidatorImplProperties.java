@@ -1,3 +1,13 @@
+/*
+ * Adobe Experience Manager OSGI config (AEM) API
+ *
+ * Swagger AEM OSGI is an OpenAPI specification for Adobe Experience Manager (AEM) OSGI Configurations API
+ *
+ * OpenAPI document version: 1.0.0-pre.0
+ * Maintained by: opensource@shinesolutions.com
+ *
+ * AUTO-GENERATED FILE, DO NOT MODIFY!
+ */
 package org.openapitools.model;
 
 import java.util.Objects;
@@ -11,20 +21,20 @@ import org.openapitools.model.ConfigNodePropertyArray;
 
 
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2019-08-05T00:56:20.785Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2026-10-07T12:53:42.280804918Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImplProperties   {
   
-  private ConfigNodePropertyArray parameterWhitelist = null;
-  private ConfigNodePropertyArray parameterWhitelistPrefixes = null;
-  private ConfigNodePropertyArray binaryParameterWhitelist = null;
-  private ConfigNodePropertyArray modifierWhitelist = null;
-  private ConfigNodePropertyArray operationWhitelist = null;
-  private ConfigNodePropertyArray operationWhitelistPrefixes = null;
-  private ConfigNodePropertyArray typehintWhitelist = null;
-  private ConfigNodePropertyArray resourcetypeWhitelist = null;
+  private ConfigNodePropertyArray parameterWhitelist;
+  private ConfigNodePropertyArray parameterWhitelistPrefixes;
+  private ConfigNodePropertyArray binaryParameterWhitelist;
+  private ConfigNodePropertyArray modifierWhitelist;
+  private ConfigNodePropertyArray operationWhitelist;
+  private ConfigNodePropertyArray operationWhitelistPrefixes;
+  private ConfigNodePropertyArray typehintWhitelist;
+  private ConfigNodePropertyArray resourcetypeWhitelist;
 
   /**
-   **/
+   */
   public ComAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImplProperties parameterWhitelist(ConfigNodePropertyArray parameterWhitelist) {
     this.parameterWhitelist = parameterWhitelist;
     return this;
@@ -41,7 +51,7 @@ public class ComAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImplPrope
   }
 
   /**
-   **/
+   */
   public ComAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImplProperties parameterWhitelistPrefixes(ConfigNodePropertyArray parameterWhitelistPrefixes) {
     this.parameterWhitelistPrefixes = parameterWhitelistPrefixes;
     return this;
@@ -58,7 +68,7 @@ public class ComAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImplPrope
   }
 
   /**
-   **/
+   */
   public ComAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImplProperties binaryParameterWhitelist(ConfigNodePropertyArray binaryParameterWhitelist) {
     this.binaryParameterWhitelist = binaryParameterWhitelist;
     return this;
@@ -75,7 +85,7 @@ public class ComAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImplPrope
   }
 
   /**
-   **/
+   */
   public ComAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImplProperties modifierWhitelist(ConfigNodePropertyArray modifierWhitelist) {
     this.modifierWhitelist = modifierWhitelist;
     return this;
@@ -92,7 +102,7 @@ public class ComAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImplPrope
   }
 
   /**
-   **/
+   */
   public ComAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImplProperties operationWhitelist(ConfigNodePropertyArray operationWhitelist) {
     this.operationWhitelist = operationWhitelist;
     return this;
@@ -109,7 +119,7 @@ public class ComAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImplPrope
   }
 
   /**
-   **/
+   */
   public ComAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImplProperties operationWhitelistPrefixes(ConfigNodePropertyArray operationWhitelistPrefixes) {
     this.operationWhitelistPrefixes = operationWhitelistPrefixes;
     return this;
@@ -126,7 +136,7 @@ public class ComAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImplPrope
   }
 
   /**
-   **/
+   */
   public ComAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImplProperties typehintWhitelist(ConfigNodePropertyArray typehintWhitelist) {
     this.typehintWhitelist = typehintWhitelist;
     return this;
@@ -143,7 +153,7 @@ public class ComAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImplPrope
   }
 
   /**
-   **/
+   */
   public ComAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImplProperties resourcetypeWhitelist(ConfigNodePropertyArray resourcetypeWhitelist) {
     this.resourcetypeWhitelist = resourcetypeWhitelist;
     return this;
@@ -161,7 +171,7 @@ public class ComAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImplPrope
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -205,11 +215,8 @@ public class ComAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImplPrope
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

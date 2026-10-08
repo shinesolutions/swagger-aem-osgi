@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqSecurityHcBundlesImplHtmlLibraryManagerC
 
 @Canonical
 class ComAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthChInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthChProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthChProperties properties
 }

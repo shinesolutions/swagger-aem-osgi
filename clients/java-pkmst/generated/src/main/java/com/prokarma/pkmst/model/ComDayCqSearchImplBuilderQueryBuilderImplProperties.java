@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyArray;
 import com.prokarma.pkmst.model.ConfigNodePropertyBoolean;
 import com.prokarma.pkmst.model.ConfigNodePropertyInteger;
@@ -17,30 +18,29 @@ import io.swagger.annotations.ApiModelProperty;
  * ComDayCqSearchImplBuilderQueryBuilderImplProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqSearchImplBuilderQueryBuilderImplProperties   {
   @JsonProperty("excerpt.properties")
-  private ConfigNodePropertyArray excerptProperties = null;
+  private ConfigNodePropertyArray excerptProperties;
 
   @JsonProperty("cache.max.entries")
-  private ConfigNodePropertyInteger cacheMaxEntries = null;
+  private ConfigNodePropertyInteger cacheMaxEntries;
 
   @JsonProperty("cache.entry.lifetime")
-  private ConfigNodePropertyInteger cacheEntryLifetime = null;
+  private ConfigNodePropertyInteger cacheEntryLifetime;
 
   @JsonProperty("xpath.union")
-  private ConfigNodePropertyBoolean xpathUnion = null;
+  private ConfigNodePropertyBoolean xpathUnion;
 
   public ComDayCqSearchImplBuilderQueryBuilderImplProperties excerptProperties(ConfigNodePropertyArray excerptProperties) {
     this.excerptProperties = excerptProperties;
     return this;
   }
 
-   /**
+  /**
    * Get excerptProperties
    * @return excerptProperties
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getExcerptProperties() {
     return excerptProperties;
@@ -55,10 +55,10 @@ public class ComDayCqSearchImplBuilderQueryBuilderImplProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get cacheMaxEntries
    * @return cacheMaxEntries
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getCacheMaxEntries() {
     return cacheMaxEntries;
@@ -73,10 +73,10 @@ public class ComDayCqSearchImplBuilderQueryBuilderImplProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get cacheEntryLifetime
    * @return cacheEntryLifetime
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getCacheEntryLifetime() {
     return cacheEntryLifetime;
@@ -91,10 +91,10 @@ public class ComDayCqSearchImplBuilderQueryBuilderImplProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get xpathUnion
    * @return xpathUnion
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getXpathUnion() {
     return xpathUnion;
@@ -106,7 +106,7 @@ public class ComDayCqSearchImplBuilderQueryBuilderImplProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -142,11 +142,8 @@ public class ComDayCqSearchImplBuilderQueryBuilderImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

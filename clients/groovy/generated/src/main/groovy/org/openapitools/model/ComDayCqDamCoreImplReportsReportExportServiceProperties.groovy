@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class ComDayCqDamCoreImplReportsReportExportServiceProperties {
-    ConfigNodePropertyInteger queryBatchSize = null
-
+    
+    ConfigNodePropertyInteger queryBatchSize
 }

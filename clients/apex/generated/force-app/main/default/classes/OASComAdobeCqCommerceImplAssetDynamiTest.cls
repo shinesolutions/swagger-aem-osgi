@@ -72,8 +72,8 @@ private class OASComAdobeCqCommerceImplAssetDynamiTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeCqCommerceImplAssetDynami comAdobeCqCommerceImplAssetDynamicImageHandlerProperties = new OASComAdobeCqCommerceImplAssetDynami();
-        Map<String, String> propertyMappings = comAdobeCqCommerceImplAssetDynamicImageHandlerProperties.getPropertyMappings();
-        System.assertEquals('cqCommerceAssetHandlerActive', propertyMappings.get('cq.commerce.asset.handler.active'));
-        System.assertEquals('cqCommerceAssetHandlerName', propertyMappings.get('cq.commerce.asset.handler.name'));
+        Map<String, String> x-property-mappings = comAdobeCqCommerceImplAssetDynamicImageHandlerProperties.getx-property-mappings();
+        System.assertEquals('cqCommerceAssetHandlerActive', x-property-mappings.get('cq.commerce.asset.handler.active'));
+        System.assertEquals('cqCommerceAssetHandlerName', x-property-mappings.get('cq.commerce.asset.handler.name'));
     }
 }

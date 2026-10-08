@@ -72,7 +72,7 @@ private class OASComDayCqDamHandlerStandardPsPostSTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqDamHandlerStandardPsPostS comDayCqDamHandlerStandardPsPostScriptHandlerProperties = new OASComDayCqDamHandlerStandardPsPostS();
-        Map<String, String> propertyMappings = comDayCqDamHandlerStandardPsPostScriptHandlerProperties.getPropertyMappings();
-        System.assertEquals('rasterAnnotation', propertyMappings.get('raster.annotation'));
+        Map<String, String> x-property-mappings = comDayCqDamHandlerStandardPsPostScriptHandlerProperties.getx-property-mappings();
+        System.assertEquals('rasterAnnotation', x-property-mappings.get('raster.annotation'));
     }
 }

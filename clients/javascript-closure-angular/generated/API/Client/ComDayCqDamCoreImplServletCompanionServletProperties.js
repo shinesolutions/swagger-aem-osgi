@@ -15,5 +15,5 @@ API.Client.ComDayCqDamCoreImplServletCompanionServletProperties.prototype.moreIn
  * @type {!API.Client.configNodePropertyString}
  * @export
  */
-API.Client.ComDayCqDamCoreImplServletCompanionServletProperties.prototype.mntoverlaydamguicontentassetsmoreinfoHtmlpath;
+API.Client.ComDayCqDamCoreImplServletCompanionServletProperties.prototype.mntOverlayDamGuiContentAssetsMoreinfoHtmlPath;
 

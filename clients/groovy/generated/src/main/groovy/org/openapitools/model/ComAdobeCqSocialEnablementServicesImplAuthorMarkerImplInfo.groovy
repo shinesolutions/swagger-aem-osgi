@@ -7,16 +7,16 @@ import org.openapitools.model.ComAdobeCqSocialEnablementServicesImplAuthorMarker
 
 @Canonical
 class ComAdobeCqSocialEnablementServicesImplAuthorMarkerImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqSocialEnablementServicesImplAuthorMarkerImplProperties properties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqSocialEnablementServicesImplAuthorMarkerImplProperties properties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

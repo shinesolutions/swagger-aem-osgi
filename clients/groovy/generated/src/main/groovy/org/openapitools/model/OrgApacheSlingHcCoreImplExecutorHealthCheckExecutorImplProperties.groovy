@@ -7,10 +7,10 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class OrgApacheSlingHcCoreImplExecutorHealthCheckExecutorImplProperties {
-    ConfigNodePropertyInteger timeoutInMs = null
-
-    ConfigNodePropertyInteger longRunningFutureThresholdForCriticalMs = null
-
-    ConfigNodePropertyInteger resultCacheTtlInMs = null
-
+    
+    ConfigNodePropertyInteger timeoutInMs
+    
+    ConfigNodePropertyInteger longRunningFutureThresholdForCriticalMs
+    
+    ConfigNodePropertyInteger resultCacheTtlInMs
 }

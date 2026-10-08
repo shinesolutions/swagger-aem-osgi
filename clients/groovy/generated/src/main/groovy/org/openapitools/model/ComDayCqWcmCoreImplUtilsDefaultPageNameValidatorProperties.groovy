@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqWcmCoreImplUtilsDefaultPageNameValidatorProperties {
-    ConfigNodePropertyString nonValidChars = null
-
+    
+    ConfigNodePropertyString nonValidChars
 }

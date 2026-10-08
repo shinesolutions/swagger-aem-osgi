@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeGraniteCompatrouterImplCompatSwitchingServ
 
 @Canonical
 class ComAdobeGraniteCompatrouterImplCompatSwitchingServiceImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteCompatrouterImplCompatSwitchingServiceImplProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteCompatrouterImplCompatSwitchingServiceImplProperties properties
 }

@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqWcmCoreImplPagePageManagerFactoryImplPrope
 
 @Canonical
 class ComDayCqWcmCoreImplPagePageManagerFactoryImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqWcmCoreImplPagePageManagerFactoryImplProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqWcmCoreImplPagePageManagerFactoryImplProperties properties
 }

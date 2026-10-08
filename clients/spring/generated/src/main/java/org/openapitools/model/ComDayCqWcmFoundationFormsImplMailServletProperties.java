@@ -1,34 +1,45 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComDayCqWcmFoundationFormsImplMailServletProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComDayCqWcmFoundationFormsImplMailServletProperties   {
-  @JsonProperty("sling.servlet.resourceTypes")
-  private ConfigNodePropertyString slingServletResourceTypes = null;
+@JsonTypeName("comDayCqWcmFoundationFormsImplMailServletProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComDayCqWcmFoundationFormsImplMailServletProperties {
 
-  @JsonProperty("sling.servlet.selectors")
-  private ConfigNodePropertyString slingServletSelectors = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString slingServletResourceTypes;
 
-  @JsonProperty("resource.whitelist")
-  private ConfigNodePropertyArray resourceWhitelist = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString slingServletSelectors;
 
-  @JsonProperty("resource.blacklist")
-  private ConfigNodePropertyString resourceBlacklist = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray resourceWhitelist;
 
-  public ComDayCqWcmFoundationFormsImplMailServletProperties slingServletResourceTypes(ConfigNodePropertyString slingServletResourceTypes) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString resourceBlacklist;
+
+  public ComDayCqWcmFoundationFormsImplMailServletProperties slingServletResourceTypes(@Nullable ConfigNodePropertyString slingServletResourceTypes) {
     this.slingServletResourceTypes = slingServletResourceTypes;
     return this;
   }
@@ -36,20 +47,20 @@ public class ComDayCqWcmFoundationFormsImplMailServletProperties   {
   /**
    * Get slingServletResourceTypes
    * @return slingServletResourceTypes
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getSlingServletResourceTypes() {
+   */
+  @Valid 
+  @Schema(name = "sling.servlet.resourceTypes", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("sling.servlet.resourceTypes")
+  public @Nullable ConfigNodePropertyString getSlingServletResourceTypes() {
     return slingServletResourceTypes;
   }
 
-  public void setSlingServletResourceTypes(ConfigNodePropertyString slingServletResourceTypes) {
+  @JsonProperty("sling.servlet.resourceTypes")
+  public void setSlingServletResourceTypes(@Nullable ConfigNodePropertyString slingServletResourceTypes) {
     this.slingServletResourceTypes = slingServletResourceTypes;
   }
 
-  public ComDayCqWcmFoundationFormsImplMailServletProperties slingServletSelectors(ConfigNodePropertyString slingServletSelectors) {
+  public ComDayCqWcmFoundationFormsImplMailServletProperties slingServletSelectors(@Nullable ConfigNodePropertyString slingServletSelectors) {
     this.slingServletSelectors = slingServletSelectors;
     return this;
   }
@@ -57,20 +68,20 @@ public class ComDayCqWcmFoundationFormsImplMailServletProperties   {
   /**
    * Get slingServletSelectors
    * @return slingServletSelectors
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getSlingServletSelectors() {
+   */
+  @Valid 
+  @Schema(name = "sling.servlet.selectors", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("sling.servlet.selectors")
+  public @Nullable ConfigNodePropertyString getSlingServletSelectors() {
     return slingServletSelectors;
   }
 
-  public void setSlingServletSelectors(ConfigNodePropertyString slingServletSelectors) {
+  @JsonProperty("sling.servlet.selectors")
+  public void setSlingServletSelectors(@Nullable ConfigNodePropertyString slingServletSelectors) {
     this.slingServletSelectors = slingServletSelectors;
   }
 
-  public ComDayCqWcmFoundationFormsImplMailServletProperties resourceWhitelist(ConfigNodePropertyArray resourceWhitelist) {
+  public ComDayCqWcmFoundationFormsImplMailServletProperties resourceWhitelist(@Nullable ConfigNodePropertyArray resourceWhitelist) {
     this.resourceWhitelist = resourceWhitelist;
     return this;
   }
@@ -78,20 +89,20 @@ public class ComDayCqWcmFoundationFormsImplMailServletProperties   {
   /**
    * Get resourceWhitelist
    * @return resourceWhitelist
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getResourceWhitelist() {
+   */
+  @Valid 
+  @Schema(name = "resource.whitelist", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("resource.whitelist")
+  public @Nullable ConfigNodePropertyArray getResourceWhitelist() {
     return resourceWhitelist;
   }
 
-  public void setResourceWhitelist(ConfigNodePropertyArray resourceWhitelist) {
+  @JsonProperty("resource.whitelist")
+  public void setResourceWhitelist(@Nullable ConfigNodePropertyArray resourceWhitelist) {
     this.resourceWhitelist = resourceWhitelist;
   }
 
-  public ComDayCqWcmFoundationFormsImplMailServletProperties resourceBlacklist(ConfigNodePropertyString resourceBlacklist) {
+  public ComDayCqWcmFoundationFormsImplMailServletProperties resourceBlacklist(@Nullable ConfigNodePropertyString resourceBlacklist) {
     this.resourceBlacklist = resourceBlacklist;
     return this;
   }
@@ -99,22 +110,21 @@ public class ComDayCqWcmFoundationFormsImplMailServletProperties   {
   /**
    * Get resourceBlacklist
    * @return resourceBlacklist
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getResourceBlacklist() {
+   */
+  @Valid 
+  @Schema(name = "resource.blacklist", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("resource.blacklist")
+  public @Nullable ConfigNodePropertyString getResourceBlacklist() {
     return resourceBlacklist;
   }
 
-  public void setResourceBlacklist(ConfigNodePropertyString resourceBlacklist) {
+  @JsonProperty("resource.blacklist")
+  public void setResourceBlacklist(@Nullable ConfigNodePropertyString resourceBlacklist) {
     this.resourceBlacklist = resourceBlacklist;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -137,7 +147,6 @@ public class ComDayCqWcmFoundationFormsImplMailServletProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComDayCqWcmFoundationFormsImplMailServletProperties {\n");
-    
     sb.append("    slingServletResourceTypes: ").append(toIndentedString(slingServletResourceTypes)).append("\n");
     sb.append("    slingServletSelectors: ").append(toIndentedString(slingServletSelectors)).append("\n");
     sb.append("    resourceWhitelist: ").append(toIndentedString(resourceWhitelist)).append("\n");
@@ -150,11 +159,8 @@ public class ComDayCqWcmFoundationFormsImplMailServletProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

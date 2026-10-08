@@ -1,19 +1,30 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("guideLocalizationServiceProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class GuideLocalizationServiceProperties   {
-  
-  private @Valid ConfigNodePropertyArray supportedLocales = null;
-  private @Valid ConfigNodePropertyArray localizableProperties = null;
+  private ConfigNodePropertyArray supportedLocales;
+  private ConfigNodePropertyArray localizableProperties;
+
+  public GuideLocalizationServiceProperties() {
+  }
 
   /**
    **/
@@ -25,9 +36,11 @@ public class GuideLocalizationServiceProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("supportedLocales")
-  public ConfigNodePropertyArray getSupportedLocales() {
+  @Valid public ConfigNodePropertyArray getSupportedLocales() {
     return supportedLocales;
   }
+
+  @JsonProperty("supportedLocales")
   public void setSupportedLocales(ConfigNodePropertyArray supportedLocales) {
     this.supportedLocales = supportedLocales;
   }
@@ -42,16 +55,18 @@ public class GuideLocalizationServiceProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("Localizable Properties")
-  public ConfigNodePropertyArray getLocalizableProperties() {
+  @Valid public ConfigNodePropertyArray getLocalizableProperties() {
     return localizableProperties;
   }
+
+  @JsonProperty("Localizable Properties")
   public void setLocalizableProperties(ConfigNodePropertyArray localizableProperties) {
     this.localizableProperties = localizableProperties;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -59,8 +74,8 @@ public class GuideLocalizationServiceProperties   {
       return false;
     }
     GuideLocalizationServiceProperties guideLocalizationServiceProperties = (GuideLocalizationServiceProperties) o;
-    return Objects.equals(supportedLocales, guideLocalizationServiceProperties.supportedLocales) &&
-        Objects.equals(localizableProperties, guideLocalizationServiceProperties.localizableProperties);
+    return Objects.equals(this.supportedLocales, guideLocalizationServiceProperties.supportedLocales) &&
+        Objects.equals(this.localizableProperties, guideLocalizationServiceProperties.localizableProperties);
   }
 
   @Override
@@ -83,11 +98,9 @@ public class GuideLocalizationServiceProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

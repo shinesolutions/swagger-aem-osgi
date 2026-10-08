@@ -9,18 +9,18 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqDamCoreImplExpiryNotificationJobImplProperties {
-    ConfigNodePropertyBoolean cqDamExpiryNotificationSchedulerIstimebased = null
-
-    ConfigNodePropertyString cqDamExpiryNotificationSchedulerTimebasedRule = null
-
-    ConfigNodePropertyInteger cqDamExpiryNotificationSchedulerPeriodRule = null
-
-    ConfigNodePropertyBoolean sendEmail = null
-
-    ConfigNodePropertyInteger assetExpiredLimit = null
-
-    ConfigNodePropertyInteger priorNotificationSeconds = null
-
-    ConfigNodePropertyString cqDamExpiryNotificationUrlProtocol = null
-
+    
+    ConfigNodePropertyBoolean cqDamExpiryNotificationSchedulerIstimebased
+    
+    ConfigNodePropertyString cqDamExpiryNotificationSchedulerTimebasedRule
+    
+    ConfigNodePropertyInteger cqDamExpiryNotificationSchedulerPeriodRule
+    
+    ConfigNodePropertyBoolean sendEmail
+    
+    ConfigNodePropertyInteger assetExpiredLimit
+    
+    ConfigNodePropertyInteger priorNotificationSeconds
+    
+    ConfigNodePropertyString cqDamExpiryNotificationUrlProtocol
 }

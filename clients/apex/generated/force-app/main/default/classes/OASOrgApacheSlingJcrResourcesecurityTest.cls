@@ -72,7 +72,7 @@ private class OASOrgApacheSlingJcrResourcesecurityTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASOrgApacheSlingJcrResourcesecurity orgApacheSlingJcrResourcesecurityImplResourceAccessGateFactoryProperties = new OASOrgApacheSlingJcrResourcesecurity();
-        Map<String, String> propertyMappings = orgApacheSlingJcrResourcesecurityImplResourceAccessGateFactoryProperties.getPropertyMappings();
-        System.assertEquals('checkpathPrefix', propertyMappings.get('checkpath.prefix'));
+        Map<String, String> x-property-mappings = orgApacheSlingJcrResourcesecurityImplResourceAccessGateFactoryProperties.getx-property-mappings();
+        System.assertEquals('checkpathPrefix', x-property-mappings.get('checkpath.prefix'));
     }
 }

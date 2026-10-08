@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class ComAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialCProperties {
-    ConfigNodePropertyInteger numUserLimit = null
-
+    
+    ConfigNodePropertyInteger numUserLimit
 }

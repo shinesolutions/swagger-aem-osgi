@@ -7,16 +7,16 @@ import org.openapitools.model.OrgApacheSlingServiceusermappingImplServiceUserMap
 
 @Canonical
 class OrgApacheSlingServiceusermappingImplServiceUserMapperImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheSlingServiceusermappingImplServiceUserMapperImplProperties properties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheSlingServiceusermappingImplServiceUserMapperImplProperties properties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

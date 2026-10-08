@@ -10,16 +10,16 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryProperties {
-    ConfigNodePropertyInteger comAdobeGraniteJettySslPort = null
-
-    ConfigNodePropertyString comAdobeGraniteJettySslKeystoreUser = null
-
-    ConfigNodePropertyString comAdobeGraniteJettySslKeystorePassword = null
-
-    ConfigNodePropertyArray comAdobeGraniteJettySslCiphersuitesExcluded = null
-
-    ConfigNodePropertyArray comAdobeGraniteJettySslCiphersuitesIncluded = null
-
-    ConfigNodePropertyDropDown comAdobeGraniteJettySslClientCertificate = null
-
+    
+    ConfigNodePropertyInteger comAdobeGraniteJettySslPort
+    
+    ConfigNodePropertyString comAdobeGraniteJettySslKeystoreUser
+    
+    ConfigNodePropertyString comAdobeGraniteJettySslKeystorePassword
+    
+    ConfigNodePropertyArray comAdobeGraniteJettySslCiphersuitesExcluded
+    
+    ConfigNodePropertyArray comAdobeGraniteJettySslCiphersuitesIncluded
+    
+    ConfigNodePropertyDropDown comAdobeGraniteJettySslClientCertificate
 }

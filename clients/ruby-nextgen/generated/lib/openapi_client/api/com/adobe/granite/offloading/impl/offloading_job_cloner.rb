@@ -1,0 +1,21 @@
+# frozen_string_literal: true
+
+module OpenapiClient
+  module Api
+    class ComAdobeGraniteOffloadingImplOffloadingJobCloner
+      def initialize(connection)
+        @connection = connection
+      end
+
+      def create(post: nil, apply: nil, delete: nil, action: nil, location: nil, propertylist: nil, offloading_jobcloner_enabled: nil)
+        @connection.call(
+          :POST,
+          '/system/console/configMgr/com.adobe.granite.offloading.impl.OffloadingJobCloner',
+          type: OpenapiClient::Models::ComAdobeGraniteOffloadingImplOffloadingJobClonerInfo,
+          auth: ['aemAuth'],
+          query: { 'post' => post, 'apply' => apply, 'delete' => delete, 'action' => action, '$location' => location, 'propertylist' => propertylist, 'offloading.jobcloner.enabled' => offloading_jobcloner_enabled }
+        )
+      end
+    end
+  end
+end

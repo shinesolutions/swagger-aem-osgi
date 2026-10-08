@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqAddressImplLocationLocationListServletPr
 
 @Canonical
 class ComAdobeCqAddressImplLocationLocationListServletInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqAddressImplLocationLocationListServletProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqAddressImplLocationLocationListServletProperties properties
 }

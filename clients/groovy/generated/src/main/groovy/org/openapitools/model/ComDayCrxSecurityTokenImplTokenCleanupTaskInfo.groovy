@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCrxSecurityTokenImplTokenCleanupTaskProperti
 
 @Canonical
 class ComDayCrxSecurityTokenImplTokenCleanupTaskInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCrxSecurityTokenImplTokenCleanupTaskProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCrxSecurityTokenImplTokenCleanupTaskProperties properties
 }

@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqSocialAccountverificationImplAccountMana
 
 @Canonical
 class ComAdobeCqSocialAccountverificationImplAccountManagementConfigImInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqSocialAccountverificationImplAccountManagementConfigImProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqSocialAccountverificationImplAccountManagementConfigImProperties properties
 }

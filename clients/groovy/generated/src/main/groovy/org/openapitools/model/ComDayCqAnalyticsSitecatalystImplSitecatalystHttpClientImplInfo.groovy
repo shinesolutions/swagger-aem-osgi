@@ -7,18 +7,18 @@ import org.openapitools.model.ComDayCqAnalyticsSitecatalystImplSitecatalystHttpC
 
 @Canonical
 class ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplProperties properties = null
-
-    String additionalProperties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplProperties properties
+    
+    String additionalProperties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

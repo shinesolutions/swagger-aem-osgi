@@ -2,29 +2,38 @@ package apimodels;
 
 import apimodels.ConfigNodePropertyArray;
 import apimodels.ConfigNodePropertyInteger;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * OrgApacheJackrabbitOakPluginsIndexAsyncIndexerServiceProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class OrgApacheJackrabbitOakPluginsIndexAsyncIndexerServiceProperties   {
   @JsonProperty("asyncConfigs")
-  private ConfigNodePropertyArray asyncConfigs = null;
+  @Valid
+
+  private ConfigNodePropertyArray asyncConfigs;
 
   @JsonProperty("leaseTimeOutMinutes")
-  private ConfigNodePropertyInteger leaseTimeOutMinutes = null;
+  @Valid
+
+  private ConfigNodePropertyInteger leaseTimeOutMinutes;
 
   @JsonProperty("failingIndexTimeoutSeconds")
-  private ConfigNodePropertyInteger failingIndexTimeoutSeconds = null;
+  @Valid
+
+  private ConfigNodePropertyInteger failingIndexTimeoutSeconds;
 
   @JsonProperty("errorWarnIntervalSeconds")
-  private ConfigNodePropertyInteger errorWarnIntervalSeconds = null;
+  @Valid
+
+  private ConfigNodePropertyInteger errorWarnIntervalSeconds;
 
   public OrgApacheJackrabbitOakPluginsIndexAsyncIndexerServiceProperties asyncConfigs(ConfigNodePropertyArray asyncConfigs) {
     this.asyncConfigs = asyncConfigs;
@@ -35,7 +44,6 @@ public class OrgApacheJackrabbitOakPluginsIndexAsyncIndexerServiceProperties   {
    * Get asyncConfigs
    * @return asyncConfigs
   **/
-  @Valid
   public ConfigNodePropertyArray getAsyncConfigs() {
     return asyncConfigs;
   }
@@ -53,7 +61,6 @@ public class OrgApacheJackrabbitOakPluginsIndexAsyncIndexerServiceProperties   {
    * Get leaseTimeOutMinutes
    * @return leaseTimeOutMinutes
   **/
-  @Valid
   public ConfigNodePropertyInteger getLeaseTimeOutMinutes() {
     return leaseTimeOutMinutes;
   }
@@ -71,7 +78,6 @@ public class OrgApacheJackrabbitOakPluginsIndexAsyncIndexerServiceProperties   {
    * Get failingIndexTimeoutSeconds
    * @return failingIndexTimeoutSeconds
   **/
-  @Valid
   public ConfigNodePropertyInteger getFailingIndexTimeoutSeconds() {
     return failingIndexTimeoutSeconds;
   }
@@ -89,7 +95,6 @@ public class OrgApacheJackrabbitOakPluginsIndexAsyncIndexerServiceProperties   {
    * Get errorWarnIntervalSeconds
    * @return errorWarnIntervalSeconds
   **/
-  @Valid
   public ConfigNodePropertyInteger getErrorWarnIntervalSeconds() {
     return errorWarnIntervalSeconds;
   }
@@ -100,7 +105,7 @@ public class OrgApacheJackrabbitOakPluginsIndexAsyncIndexerServiceProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -137,11 +142,8 @@ public class OrgApacheJackrabbitOakPluginsIndexAsyncIndexerServiceProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -1,31 +1,42 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * OrgApacheSlingEventImplJobsJcrPersistenceHandlerProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class OrgApacheSlingEventImplJobsJcrPersistenceHandlerProperties   {
-  @JsonProperty("job.consumermanager.disableDistribution")
-  private ConfigNodePropertyBoolean jobConsumermanagerDisableDistribution = null;
+@JsonTypeName("orgApacheSlingEventImplJobsJcrPersistenceHandlerProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class OrgApacheSlingEventImplJobsJcrPersistenceHandlerProperties {
 
-  @JsonProperty("startup.delay")
-  private ConfigNodePropertyInteger startupDelay = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean jobConsumermanagerDisableDistribution;
 
-  @JsonProperty("cleanup.period")
-  private ConfigNodePropertyInteger cleanupPeriod = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger startupDelay;
 
-  public OrgApacheSlingEventImplJobsJcrPersistenceHandlerProperties jobConsumermanagerDisableDistribution(ConfigNodePropertyBoolean jobConsumermanagerDisableDistribution) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger cleanupPeriod;
+
+  public OrgApacheSlingEventImplJobsJcrPersistenceHandlerProperties jobConsumermanagerDisableDistribution(@Nullable ConfigNodePropertyBoolean jobConsumermanagerDisableDistribution) {
     this.jobConsumermanagerDisableDistribution = jobConsumermanagerDisableDistribution;
     return this;
   }
@@ -33,20 +44,20 @@ public class OrgApacheSlingEventImplJobsJcrPersistenceHandlerProperties   {
   /**
    * Get jobConsumermanagerDisableDistribution
    * @return jobConsumermanagerDisableDistribution
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getJobConsumermanagerDisableDistribution() {
+   */
+  @Valid 
+  @Schema(name = "job.consumermanager.disableDistribution", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("job.consumermanager.disableDistribution")
+  public @Nullable ConfigNodePropertyBoolean getJobConsumermanagerDisableDistribution() {
     return jobConsumermanagerDisableDistribution;
   }
 
-  public void setJobConsumermanagerDisableDistribution(ConfigNodePropertyBoolean jobConsumermanagerDisableDistribution) {
+  @JsonProperty("job.consumermanager.disableDistribution")
+  public void setJobConsumermanagerDisableDistribution(@Nullable ConfigNodePropertyBoolean jobConsumermanagerDisableDistribution) {
     this.jobConsumermanagerDisableDistribution = jobConsumermanagerDisableDistribution;
   }
 
-  public OrgApacheSlingEventImplJobsJcrPersistenceHandlerProperties startupDelay(ConfigNodePropertyInteger startupDelay) {
+  public OrgApacheSlingEventImplJobsJcrPersistenceHandlerProperties startupDelay(@Nullable ConfigNodePropertyInteger startupDelay) {
     this.startupDelay = startupDelay;
     return this;
   }
@@ -54,20 +65,20 @@ public class OrgApacheSlingEventImplJobsJcrPersistenceHandlerProperties   {
   /**
    * Get startupDelay
    * @return startupDelay
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getStartupDelay() {
+   */
+  @Valid 
+  @Schema(name = "startup.delay", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("startup.delay")
+  public @Nullable ConfigNodePropertyInteger getStartupDelay() {
     return startupDelay;
   }
 
-  public void setStartupDelay(ConfigNodePropertyInteger startupDelay) {
+  @JsonProperty("startup.delay")
+  public void setStartupDelay(@Nullable ConfigNodePropertyInteger startupDelay) {
     this.startupDelay = startupDelay;
   }
 
-  public OrgApacheSlingEventImplJobsJcrPersistenceHandlerProperties cleanupPeriod(ConfigNodePropertyInteger cleanupPeriod) {
+  public OrgApacheSlingEventImplJobsJcrPersistenceHandlerProperties cleanupPeriod(@Nullable ConfigNodePropertyInteger cleanupPeriod) {
     this.cleanupPeriod = cleanupPeriod;
     return this;
   }
@@ -75,22 +86,21 @@ public class OrgApacheSlingEventImplJobsJcrPersistenceHandlerProperties   {
   /**
    * Get cleanupPeriod
    * @return cleanupPeriod
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getCleanupPeriod() {
+   */
+  @Valid 
+  @Schema(name = "cleanup.period", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cleanup.period")
+  public @Nullable ConfigNodePropertyInteger getCleanupPeriod() {
     return cleanupPeriod;
   }
 
-  public void setCleanupPeriod(ConfigNodePropertyInteger cleanupPeriod) {
+  @JsonProperty("cleanup.period")
+  public void setCleanupPeriod(@Nullable ConfigNodePropertyInteger cleanupPeriod) {
     this.cleanupPeriod = cleanupPeriod;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -112,7 +122,6 @@ public class OrgApacheSlingEventImplJobsJcrPersistenceHandlerProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class OrgApacheSlingEventImplJobsJcrPersistenceHandlerProperties {\n");
-    
     sb.append("    jobConsumermanagerDisableDistribution: ").append(toIndentedString(jobConsumermanagerDisableDistribution)).append("\n");
     sb.append("    startupDelay: ").append(toIndentedString(startupDelay)).append("\n");
     sb.append("    cleanupPeriod: ").append(toIndentedString(cleanupPeriod)).append("\n");
@@ -124,11 +133,8 @@ public class OrgApacheSlingEventImplJobsJcrPersistenceHandlerProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

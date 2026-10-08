@@ -8,12 +8,12 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class OrgApacheSlingEventImplJobsDefaultJobManagerProperties {
-    ConfigNodePropertyDropDown queuePriority = null
-
-    ConfigNodePropertyInteger queueRetries = null
-
-    ConfigNodePropertyInteger queueRetrydelay = null
-
-    ConfigNodePropertyInteger queueMaxparallel = null
-
+    
+    ConfigNodePropertyDropDown queuePriority
+    
+    ConfigNodePropertyInteger queueRetries
+    
+    ConfigNodePropertyInteger queueRetrydelay
+    
+    ConfigNodePropertyInteger queueMaxparallel
 }

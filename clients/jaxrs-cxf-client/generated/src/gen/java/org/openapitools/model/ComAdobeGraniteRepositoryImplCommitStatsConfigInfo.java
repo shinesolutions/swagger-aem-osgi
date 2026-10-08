@@ -3,34 +3,35 @@ package org.openapitools.model;
 import org.openapitools.model.ComAdobeGraniteRepositoryImplCommitStatsConfigProperties;
 
 import io.swagger.annotations.ApiModelProperty;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlType;
-import javax.xml.bind.annotation.XmlEnum;
-import javax.xml.bind.annotation.XmlEnumValue;
+import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
 
 public class ComAdobeGraniteRepositoryImplCommitStatsConfigInfo  {
   
   @ApiModelProperty(value = "")
-  private String pid = null;
+
+  private String pid;
 
   @ApiModelProperty(value = "")
-  private String title = null;
+
+  private String title;
 
   @ApiModelProperty(value = "")
-  private String description = null;
+
+  private String description;
 
   @ApiModelProperty(value = "")
-  private ComAdobeGraniteRepositoryImplCommitStatsConfigProperties properties = null;
+
+  private ComAdobeGraniteRepositoryImplCommitStatsConfigProperties properties;
 
   @ApiModelProperty(value = "")
-  private String bundleLocation = null;
+
+  private String bundleLocation;
 
   @ApiModelProperty(value = "")
-  private String serviceLocation = null;
+
+  private String serviceLocation;
  /**
    * Get pid
    * @return pid
@@ -139,6 +140,27 @@ public class ComAdobeGraniteRepositoryImplCommitStatsConfigInfo  {
     return this;
   }
 
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    ComAdobeGraniteRepositoryImplCommitStatsConfigInfo comAdobeGraniteRepositoryImplCommitStatsConfigInfo = (ComAdobeGraniteRepositoryImplCommitStatsConfigInfo) o;
+    return Objects.equals(this.pid, comAdobeGraniteRepositoryImplCommitStatsConfigInfo.pid) &&
+        Objects.equals(this.title, comAdobeGraniteRepositoryImplCommitStatsConfigInfo.title) &&
+        Objects.equals(this.description, comAdobeGraniteRepositoryImplCommitStatsConfigInfo.description) &&
+        Objects.equals(this.properties, comAdobeGraniteRepositoryImplCommitStatsConfigInfo.properties) &&
+        Objects.equals(this.bundleLocation, comAdobeGraniteRepositoryImplCommitStatsConfigInfo.bundleLocation) &&
+        Objects.equals(this.serviceLocation, comAdobeGraniteRepositoryImplCommitStatsConfigInfo.serviceLocation);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(pid, title, description, properties, bundleLocation, serviceLocation);
+  }
 
   @Override
   public String toString() {
@@ -159,11 +181,8 @@ public class ComAdobeGraniteRepositoryImplCommitStatsConfigInfo  {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private static String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -1,3 +1,13 @@
+/*
+ * Adobe Experience Manager OSGI config (AEM) API
+ *
+ * Swagger AEM OSGI is an OpenAPI specification for Adobe Experience Manager (AEM) OSGI Configurations API
+ *
+ * OpenAPI document version: 1.0.0-pre.0
+ * Maintained by: opensource@shinesolutions.com
+ *
+ * AUTO-GENERATED FILE, DO NOT MODIFY!
+ */
 package org.openapitools.model;
 
 import java.util.Objects;
@@ -12,15 +22,15 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2019-08-05T00:56:20.785Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2026-10-07T12:53:42.280804918Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingFeatureflagsFeatureProperties   {
   
-  private ConfigNodePropertyString name = null;
-  private ConfigNodePropertyString description = null;
-  private ConfigNodePropertyBoolean enabled = null;
+  private ConfigNodePropertyString name;
+  private ConfigNodePropertyString description;
+  private ConfigNodePropertyBoolean enabled;
 
   /**
-   **/
+   */
   public OrgApacheSlingFeatureflagsFeatureProperties name(ConfigNodePropertyString name) {
     this.name = name;
     return this;
@@ -37,7 +47,7 @@ public class OrgApacheSlingFeatureflagsFeatureProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingFeatureflagsFeatureProperties description(ConfigNodePropertyString description) {
     this.description = description;
     return this;
@@ -54,7 +64,7 @@ public class OrgApacheSlingFeatureflagsFeatureProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingFeatureflagsFeatureProperties enabled(ConfigNodePropertyBoolean enabled) {
     this.enabled = enabled;
     return this;
@@ -72,7 +82,7 @@ public class OrgApacheSlingFeatureflagsFeatureProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -106,11 +116,8 @@ public class OrgApacheSlingFeatureflagsFeatureProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -9,16 +9,16 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class OrgApacheFelixScrScrServiceProperties {
-    ConfigNodePropertyDropDown dsLoglevel = null
-
-    ConfigNodePropertyBoolean dsFactoryEnabled = null
-
-    ConfigNodePropertyBoolean dsDelayedKeepInstances = null
-
-    ConfigNodePropertyInteger dsLockTimeoutMilliseconds = null
-
-    ConfigNodePropertyInteger dsStopTimeoutMilliseconds = null
-
-    ConfigNodePropertyBoolean dsGlobalExtender = null
-
+    
+    ConfigNodePropertyDropDown dsLoglevel
+    
+    ConfigNodePropertyBoolean dsFactoryEnabled
+    
+    ConfigNodePropertyBoolean dsDelayedKeepInstances
+    
+    ConfigNodePropertyInteger dsLockTimeoutMilliseconds
+    
+    ConfigNodePropertyInteger dsStopTimeoutMilliseconds
+    
+    ConfigNodePropertyBoolean dsGlobalExtender
 }

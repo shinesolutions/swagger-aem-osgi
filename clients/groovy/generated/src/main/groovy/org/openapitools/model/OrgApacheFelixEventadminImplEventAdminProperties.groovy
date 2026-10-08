@@ -10,16 +10,16 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class OrgApacheFelixEventadminImplEventAdminProperties {
-    ConfigNodePropertyInteger orgApacheFelixEventadminThreadPoolSize = null
-
-    ConfigNodePropertyFloat orgApacheFelixEventadminAsyncToSyncThreadRatio = null
-
-    ConfigNodePropertyInteger orgApacheFelixEventadminTimeout = null
-
-    ConfigNodePropertyBoolean orgApacheFelixEventadminRequireTopic = null
-
-    ConfigNodePropertyArray orgApacheFelixEventadminIgnoreTimeout = null
-
-    ConfigNodePropertyArray orgApacheFelixEventadminIgnoreTopic = null
-
+    
+    ConfigNodePropertyInteger orgApacheFelixEventadminThreadPoolSize
+    
+    ConfigNodePropertyFloat orgApacheFelixEventadminAsyncToSyncThreadRatio
+    
+    ConfigNodePropertyInteger orgApacheFelixEventadminTimeout
+    
+    ConfigNodePropertyBoolean orgApacheFelixEventadminRequireTopic
+    
+    ConfigNodePropertyArray orgApacheFelixEventadminIgnoreTimeout
+    
+    ConfigNodePropertyArray orgApacheFelixEventadminIgnoreTopic
 }

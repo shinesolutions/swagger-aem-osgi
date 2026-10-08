@@ -7,12 +7,12 @@ import org.openapitools.model.OrgApacheSlingCommonsHtmlInternalTagsoupHtmlParser
 
 @Canonical
 class OrgApacheSlingCommonsHtmlInternalTagsoupHtmlParserInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheSlingCommonsHtmlInternalTagsoupHtmlParserProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheSlingCommonsHtmlInternalTagsoupHtmlParserProperties properties
 }

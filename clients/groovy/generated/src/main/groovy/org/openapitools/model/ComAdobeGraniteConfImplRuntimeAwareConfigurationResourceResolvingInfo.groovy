@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeGraniteConfImplRuntimeAwareConfigurationRe
 
 @Canonical
 class ComAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingProperties properties
 }

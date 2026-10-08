@@ -1,22 +1,33 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comDayCqDamInddProcessINDDMediaExtractProcessProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqDamInddProcessINDDMediaExtractProcessProperties   {
-  
-  private @Valid ConfigNodePropertyString processLabel = null;
-  private @Valid ConfigNodePropertyString cqDamInddPagesRegex = null;
-  private @Valid ConfigNodePropertyBoolean idsJobDecoupled = null;
-  private @Valid ConfigNodePropertyString idsJobWorkflowModel = null;
+  private ConfigNodePropertyString processLabel;
+  private ConfigNodePropertyString cqDamInddPagesRegex;
+  private ConfigNodePropertyBoolean idsJobDecoupled;
+  private ConfigNodePropertyString idsJobWorkflowModel;
+
+  public ComDayCqDamInddProcessINDDMediaExtractProcessProperties() {
+  }
 
   /**
    **/
@@ -28,9 +39,11 @@ public class ComDayCqDamInddProcessINDDMediaExtractProcessProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("process.label")
-  public ConfigNodePropertyString getProcessLabel() {
+  @Valid public ConfigNodePropertyString getProcessLabel() {
     return processLabel;
   }
+
+  @JsonProperty("process.label")
   public void setProcessLabel(ConfigNodePropertyString processLabel) {
     this.processLabel = processLabel;
   }
@@ -45,9 +58,11 @@ public class ComDayCqDamInddProcessINDDMediaExtractProcessProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("cq.dam.indd.pages.regex")
-  public ConfigNodePropertyString getCqDamInddPagesRegex() {
+  @Valid public ConfigNodePropertyString getCqDamInddPagesRegex() {
     return cqDamInddPagesRegex;
   }
+
+  @JsonProperty("cq.dam.indd.pages.regex")
   public void setCqDamInddPagesRegex(ConfigNodePropertyString cqDamInddPagesRegex) {
     this.cqDamInddPagesRegex = cqDamInddPagesRegex;
   }
@@ -62,9 +77,11 @@ public class ComDayCqDamInddProcessINDDMediaExtractProcessProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("ids.job.decoupled")
-  public ConfigNodePropertyBoolean getIdsJobDecoupled() {
+  @Valid public ConfigNodePropertyBoolean getIdsJobDecoupled() {
     return idsJobDecoupled;
   }
+
+  @JsonProperty("ids.job.decoupled")
   public void setIdsJobDecoupled(ConfigNodePropertyBoolean idsJobDecoupled) {
     this.idsJobDecoupled = idsJobDecoupled;
   }
@@ -79,16 +96,18 @@ public class ComDayCqDamInddProcessINDDMediaExtractProcessProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("ids.job.workflow.model")
-  public ConfigNodePropertyString getIdsJobWorkflowModel() {
+  @Valid public ConfigNodePropertyString getIdsJobWorkflowModel() {
     return idsJobWorkflowModel;
   }
+
+  @JsonProperty("ids.job.workflow.model")
   public void setIdsJobWorkflowModel(ConfigNodePropertyString idsJobWorkflowModel) {
     this.idsJobWorkflowModel = idsJobWorkflowModel;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -96,10 +115,10 @@ public class ComDayCqDamInddProcessINDDMediaExtractProcessProperties   {
       return false;
     }
     ComDayCqDamInddProcessINDDMediaExtractProcessProperties comDayCqDamInddProcessINDDMediaExtractProcessProperties = (ComDayCqDamInddProcessINDDMediaExtractProcessProperties) o;
-    return Objects.equals(processLabel, comDayCqDamInddProcessINDDMediaExtractProcessProperties.processLabel) &&
-        Objects.equals(cqDamInddPagesRegex, comDayCqDamInddProcessINDDMediaExtractProcessProperties.cqDamInddPagesRegex) &&
-        Objects.equals(idsJobDecoupled, comDayCqDamInddProcessINDDMediaExtractProcessProperties.idsJobDecoupled) &&
-        Objects.equals(idsJobWorkflowModel, comDayCqDamInddProcessINDDMediaExtractProcessProperties.idsJobWorkflowModel);
+    return Objects.equals(this.processLabel, comDayCqDamInddProcessINDDMediaExtractProcessProperties.processLabel) &&
+        Objects.equals(this.cqDamInddPagesRegex, comDayCqDamInddProcessINDDMediaExtractProcessProperties.cqDamInddPagesRegex) &&
+        Objects.equals(this.idsJobDecoupled, comDayCqDamInddProcessINDDMediaExtractProcessProperties.idsJobDecoupled) &&
+        Objects.equals(this.idsJobWorkflowModel, comDayCqDamInddProcessINDDMediaExtractProcessProperties.idsJobWorkflowModel);
   }
 
   @Override
@@ -124,11 +143,9 @@ public class ComDayCqDamInddProcessINDDMediaExtractProcessProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

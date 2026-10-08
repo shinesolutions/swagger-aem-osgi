@@ -1,0 +1,24 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "scheduledpurge_name" },
+      {"model": "scheduledpurge_purge_active" },
+      {"model": "scheduledpurge_templates" },
+      {"model": "scheduledpurge_purge_groups" },
+      {"model": "scheduledpurge_purge_assets" },
+      {"model": "scheduledpurge_terminate_running_workflows" },
+      {"model": "scheduledpurge_daysold" },
+      {"model": "scheduledpurge_save_threshold" },
+    ]
+  }]
+}

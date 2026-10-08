@@ -72,7 +72,7 @@ private class OASComDayCqWcmDesignimporterParserTaTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqWcmDesignimporterParserTa comDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandlProperties = new OASComDayCqWcmDesignimporterParserTa();
-        Map<String, String> propertyMappings = comDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandlProperties.getPropertyMappings();
-        System.assertEquals('serviceRanking', propertyMappings.get('service.ranking'));
+        Map<String, String> x-property-mappings = comDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandlProperties.getx-property-mappings();
+        System.assertEquals('serviceRanking', x-property-mappings.get('service.ranking'));
     }
 }

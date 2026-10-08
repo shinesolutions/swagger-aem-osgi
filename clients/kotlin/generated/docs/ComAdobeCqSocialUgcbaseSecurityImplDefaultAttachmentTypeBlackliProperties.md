@@ -2,10 +2,10 @@
 # ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**defaultPeriodattachmentPeriodtypePeriodblacklist** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**baselinePeriodattachmentPeriodtypePeriodblacklist** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **defaultAttachmentTypeBlacklist** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **baselineAttachmentTypeBlacklist** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
 
 
 

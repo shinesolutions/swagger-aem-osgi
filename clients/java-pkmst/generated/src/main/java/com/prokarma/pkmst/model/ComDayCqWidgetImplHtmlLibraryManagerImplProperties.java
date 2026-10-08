@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyArray;
 import com.prokarma.pkmst.model.ConfigNodePropertyBoolean;
 import com.prokarma.pkmst.model.ConfigNodePropertyInteger;
@@ -18,60 +19,59 @@ import io.swagger.annotations.ApiModelProperty;
  * ComDayCqWidgetImplHtmlLibraryManagerImplProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqWidgetImplHtmlLibraryManagerImplProperties   {
   @JsonProperty("htmllibmanager.clientmanager")
-  private ConfigNodePropertyString htmllibmanagerClientmanager = null;
+  private ConfigNodePropertyString htmllibmanagerClientmanager;
 
   @JsonProperty("htmllibmanager.debug")
-  private ConfigNodePropertyBoolean htmllibmanagerDebug = null;
+  private ConfigNodePropertyBoolean htmllibmanagerDebug;
 
   @JsonProperty("htmllibmanager.debug.console")
-  private ConfigNodePropertyBoolean htmllibmanagerDebugConsole = null;
+  private ConfigNodePropertyBoolean htmllibmanagerDebugConsole;
 
   @JsonProperty("htmllibmanager.debug.init.js")
-  private ConfigNodePropertyString htmllibmanagerDebugInitJs = null;
+  private ConfigNodePropertyString htmllibmanagerDebugInitJs;
 
   @JsonProperty("htmllibmanager.defaultthemename")
-  private ConfigNodePropertyString htmllibmanagerDefaultthemename = null;
+  private ConfigNodePropertyString htmllibmanagerDefaultthemename;
 
   @JsonProperty("htmllibmanager.defaultuserthemename")
-  private ConfigNodePropertyString htmllibmanagerDefaultuserthemename = null;
+  private ConfigNodePropertyString htmllibmanagerDefaultuserthemename;
 
   @JsonProperty("htmllibmanager.firebuglite.path")
-  private ConfigNodePropertyString htmllibmanagerFirebuglitePath = null;
+  private ConfigNodePropertyString htmllibmanagerFirebuglitePath;
 
   @JsonProperty("htmllibmanager.forceCQUrlInfo")
-  private ConfigNodePropertyBoolean htmllibmanagerForceCQUrlInfo = null;
+  private ConfigNodePropertyBoolean htmllibmanagerForceCQUrlInfo;
 
   @JsonProperty("htmllibmanager.gzip")
-  private ConfigNodePropertyBoolean htmllibmanagerGzip = null;
+  private ConfigNodePropertyBoolean htmllibmanagerGzip;
 
   @JsonProperty("htmllibmanager.maxage")
-  private ConfigNodePropertyInteger htmllibmanagerMaxage = null;
+  private ConfigNodePropertyInteger htmllibmanagerMaxage;
 
   @JsonProperty("htmllibmanager.maxDataUriSize")
-  private ConfigNodePropertyInteger htmllibmanagerMaxDataUriSize = null;
+  private ConfigNodePropertyInteger htmllibmanagerMaxDataUriSize;
 
   @JsonProperty("htmllibmanager.minify")
-  private ConfigNodePropertyBoolean htmllibmanagerMinify = null;
+  private ConfigNodePropertyBoolean htmllibmanagerMinify;
 
   @JsonProperty("htmllibmanager.path.list")
-  private ConfigNodePropertyArray htmllibmanagerPathList = null;
+  private ConfigNodePropertyArray htmllibmanagerPathList;
 
   @JsonProperty("htmllibmanager.timing")
-  private ConfigNodePropertyBoolean htmllibmanagerTiming = null;
+  private ConfigNodePropertyBoolean htmllibmanagerTiming;
 
   public ComDayCqWidgetImplHtmlLibraryManagerImplProperties htmllibmanagerClientmanager(ConfigNodePropertyString htmllibmanagerClientmanager) {
     this.htmllibmanagerClientmanager = htmllibmanagerClientmanager;
     return this;
   }
 
-   /**
+  /**
    * Get htmllibmanagerClientmanager
    * @return htmllibmanagerClientmanager
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getHtmllibmanagerClientmanager() {
     return htmllibmanagerClientmanager;
@@ -86,10 +86,10 @@ public class ComDayCqWidgetImplHtmlLibraryManagerImplProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get htmllibmanagerDebug
    * @return htmllibmanagerDebug
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getHtmllibmanagerDebug() {
     return htmllibmanagerDebug;
@@ -104,10 +104,10 @@ public class ComDayCqWidgetImplHtmlLibraryManagerImplProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get htmllibmanagerDebugConsole
    * @return htmllibmanagerDebugConsole
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getHtmllibmanagerDebugConsole() {
     return htmllibmanagerDebugConsole;
@@ -122,10 +122,10 @@ public class ComDayCqWidgetImplHtmlLibraryManagerImplProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get htmllibmanagerDebugInitJs
    * @return htmllibmanagerDebugInitJs
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getHtmllibmanagerDebugInitJs() {
     return htmllibmanagerDebugInitJs;
@@ -140,10 +140,10 @@ public class ComDayCqWidgetImplHtmlLibraryManagerImplProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get htmllibmanagerDefaultthemename
    * @return htmllibmanagerDefaultthemename
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getHtmllibmanagerDefaultthemename() {
     return htmllibmanagerDefaultthemename;
@@ -158,10 +158,10 @@ public class ComDayCqWidgetImplHtmlLibraryManagerImplProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get htmllibmanagerDefaultuserthemename
    * @return htmllibmanagerDefaultuserthemename
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getHtmllibmanagerDefaultuserthemename() {
     return htmllibmanagerDefaultuserthemename;
@@ -176,10 +176,10 @@ public class ComDayCqWidgetImplHtmlLibraryManagerImplProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get htmllibmanagerFirebuglitePath
    * @return htmllibmanagerFirebuglitePath
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getHtmllibmanagerFirebuglitePath() {
     return htmllibmanagerFirebuglitePath;
@@ -194,10 +194,10 @@ public class ComDayCqWidgetImplHtmlLibraryManagerImplProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get htmllibmanagerForceCQUrlInfo
    * @return htmllibmanagerForceCQUrlInfo
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getHtmllibmanagerForceCQUrlInfo() {
     return htmllibmanagerForceCQUrlInfo;
@@ -212,10 +212,10 @@ public class ComDayCqWidgetImplHtmlLibraryManagerImplProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get htmllibmanagerGzip
    * @return htmllibmanagerGzip
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getHtmllibmanagerGzip() {
     return htmllibmanagerGzip;
@@ -230,10 +230,10 @@ public class ComDayCqWidgetImplHtmlLibraryManagerImplProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get htmllibmanagerMaxage
    * @return htmllibmanagerMaxage
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getHtmllibmanagerMaxage() {
     return htmllibmanagerMaxage;
@@ -248,10 +248,10 @@ public class ComDayCqWidgetImplHtmlLibraryManagerImplProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get htmllibmanagerMaxDataUriSize
    * @return htmllibmanagerMaxDataUriSize
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getHtmllibmanagerMaxDataUriSize() {
     return htmllibmanagerMaxDataUriSize;
@@ -266,10 +266,10 @@ public class ComDayCqWidgetImplHtmlLibraryManagerImplProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get htmllibmanagerMinify
    * @return htmllibmanagerMinify
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getHtmllibmanagerMinify() {
     return htmllibmanagerMinify;
@@ -284,10 +284,10 @@ public class ComDayCqWidgetImplHtmlLibraryManagerImplProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get htmllibmanagerPathList
    * @return htmllibmanagerPathList
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getHtmllibmanagerPathList() {
     return htmllibmanagerPathList;
@@ -302,10 +302,10 @@ public class ComDayCqWidgetImplHtmlLibraryManagerImplProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get htmllibmanagerTiming
    * @return htmllibmanagerTiming
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getHtmllibmanagerTiming() {
     return htmllibmanagerTiming;
@@ -317,7 +317,7 @@ public class ComDayCqWidgetImplHtmlLibraryManagerImplProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -373,11 +373,8 @@ public class ComDayCqWidgetImplHtmlLibraryManagerImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

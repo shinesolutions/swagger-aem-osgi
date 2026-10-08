@@ -1,41 +1,52 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyDropDown;
 import org.openapitools.model.ConfigNodePropertyInteger;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * OrgApacheFelixScrScrServiceProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class OrgApacheFelixScrScrServiceProperties   {
-  @JsonProperty("ds.loglevel")
-  private ConfigNodePropertyDropDown dsLoglevel = null;
+@JsonTypeName("orgApacheFelixScrScrServiceProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class OrgApacheFelixScrScrServiceProperties {
 
-  @JsonProperty("ds.factory.enabled")
-  private ConfigNodePropertyBoolean dsFactoryEnabled = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyDropDown dsLoglevel;
 
-  @JsonProperty("ds.delayed.keepInstances")
-  private ConfigNodePropertyBoolean dsDelayedKeepInstances = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean dsFactoryEnabled;
 
-  @JsonProperty("ds.lock.timeout.milliseconds")
-  private ConfigNodePropertyInteger dsLockTimeoutMilliseconds = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean dsDelayedKeepInstances;
 
-  @JsonProperty("ds.stop.timeout.milliseconds")
-  private ConfigNodePropertyInteger dsStopTimeoutMilliseconds = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger dsLockTimeoutMilliseconds;
 
-  @JsonProperty("ds.global.extender")
-  private ConfigNodePropertyBoolean dsGlobalExtender = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger dsStopTimeoutMilliseconds;
 
-  public OrgApacheFelixScrScrServiceProperties dsLoglevel(ConfigNodePropertyDropDown dsLoglevel) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean dsGlobalExtender;
+
+  public OrgApacheFelixScrScrServiceProperties dsLoglevel(@Nullable ConfigNodePropertyDropDown dsLoglevel) {
     this.dsLoglevel = dsLoglevel;
     return this;
   }
@@ -43,20 +54,20 @@ public class OrgApacheFelixScrScrServiceProperties   {
   /**
    * Get dsLoglevel
    * @return dsLoglevel
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyDropDown getDsLoglevel() {
+   */
+  @Valid 
+  @Schema(name = "ds.loglevel", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("ds.loglevel")
+  public @Nullable ConfigNodePropertyDropDown getDsLoglevel() {
     return dsLoglevel;
   }
 
-  public void setDsLoglevel(ConfigNodePropertyDropDown dsLoglevel) {
+  @JsonProperty("ds.loglevel")
+  public void setDsLoglevel(@Nullable ConfigNodePropertyDropDown dsLoglevel) {
     this.dsLoglevel = dsLoglevel;
   }
 
-  public OrgApacheFelixScrScrServiceProperties dsFactoryEnabled(ConfigNodePropertyBoolean dsFactoryEnabled) {
+  public OrgApacheFelixScrScrServiceProperties dsFactoryEnabled(@Nullable ConfigNodePropertyBoolean dsFactoryEnabled) {
     this.dsFactoryEnabled = dsFactoryEnabled;
     return this;
   }
@@ -64,20 +75,20 @@ public class OrgApacheFelixScrScrServiceProperties   {
   /**
    * Get dsFactoryEnabled
    * @return dsFactoryEnabled
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getDsFactoryEnabled() {
+   */
+  @Valid 
+  @Schema(name = "ds.factory.enabled", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("ds.factory.enabled")
+  public @Nullable ConfigNodePropertyBoolean getDsFactoryEnabled() {
     return dsFactoryEnabled;
   }
 
-  public void setDsFactoryEnabled(ConfigNodePropertyBoolean dsFactoryEnabled) {
+  @JsonProperty("ds.factory.enabled")
+  public void setDsFactoryEnabled(@Nullable ConfigNodePropertyBoolean dsFactoryEnabled) {
     this.dsFactoryEnabled = dsFactoryEnabled;
   }
 
-  public OrgApacheFelixScrScrServiceProperties dsDelayedKeepInstances(ConfigNodePropertyBoolean dsDelayedKeepInstances) {
+  public OrgApacheFelixScrScrServiceProperties dsDelayedKeepInstances(@Nullable ConfigNodePropertyBoolean dsDelayedKeepInstances) {
     this.dsDelayedKeepInstances = dsDelayedKeepInstances;
     return this;
   }
@@ -85,20 +96,20 @@ public class OrgApacheFelixScrScrServiceProperties   {
   /**
    * Get dsDelayedKeepInstances
    * @return dsDelayedKeepInstances
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getDsDelayedKeepInstances() {
+   */
+  @Valid 
+  @Schema(name = "ds.delayed.keepInstances", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("ds.delayed.keepInstances")
+  public @Nullable ConfigNodePropertyBoolean getDsDelayedKeepInstances() {
     return dsDelayedKeepInstances;
   }
 
-  public void setDsDelayedKeepInstances(ConfigNodePropertyBoolean dsDelayedKeepInstances) {
+  @JsonProperty("ds.delayed.keepInstances")
+  public void setDsDelayedKeepInstances(@Nullable ConfigNodePropertyBoolean dsDelayedKeepInstances) {
     this.dsDelayedKeepInstances = dsDelayedKeepInstances;
   }
 
-  public OrgApacheFelixScrScrServiceProperties dsLockTimeoutMilliseconds(ConfigNodePropertyInteger dsLockTimeoutMilliseconds) {
+  public OrgApacheFelixScrScrServiceProperties dsLockTimeoutMilliseconds(@Nullable ConfigNodePropertyInteger dsLockTimeoutMilliseconds) {
     this.dsLockTimeoutMilliseconds = dsLockTimeoutMilliseconds;
     return this;
   }
@@ -106,20 +117,20 @@ public class OrgApacheFelixScrScrServiceProperties   {
   /**
    * Get dsLockTimeoutMilliseconds
    * @return dsLockTimeoutMilliseconds
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getDsLockTimeoutMilliseconds() {
+   */
+  @Valid 
+  @Schema(name = "ds.lock.timeout.milliseconds", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("ds.lock.timeout.milliseconds")
+  public @Nullable ConfigNodePropertyInteger getDsLockTimeoutMilliseconds() {
     return dsLockTimeoutMilliseconds;
   }
 
-  public void setDsLockTimeoutMilliseconds(ConfigNodePropertyInteger dsLockTimeoutMilliseconds) {
+  @JsonProperty("ds.lock.timeout.milliseconds")
+  public void setDsLockTimeoutMilliseconds(@Nullable ConfigNodePropertyInteger dsLockTimeoutMilliseconds) {
     this.dsLockTimeoutMilliseconds = dsLockTimeoutMilliseconds;
   }
 
-  public OrgApacheFelixScrScrServiceProperties dsStopTimeoutMilliseconds(ConfigNodePropertyInteger dsStopTimeoutMilliseconds) {
+  public OrgApacheFelixScrScrServiceProperties dsStopTimeoutMilliseconds(@Nullable ConfigNodePropertyInteger dsStopTimeoutMilliseconds) {
     this.dsStopTimeoutMilliseconds = dsStopTimeoutMilliseconds;
     return this;
   }
@@ -127,20 +138,20 @@ public class OrgApacheFelixScrScrServiceProperties   {
   /**
    * Get dsStopTimeoutMilliseconds
    * @return dsStopTimeoutMilliseconds
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getDsStopTimeoutMilliseconds() {
+   */
+  @Valid 
+  @Schema(name = "ds.stop.timeout.milliseconds", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("ds.stop.timeout.milliseconds")
+  public @Nullable ConfigNodePropertyInteger getDsStopTimeoutMilliseconds() {
     return dsStopTimeoutMilliseconds;
   }
 
-  public void setDsStopTimeoutMilliseconds(ConfigNodePropertyInteger dsStopTimeoutMilliseconds) {
+  @JsonProperty("ds.stop.timeout.milliseconds")
+  public void setDsStopTimeoutMilliseconds(@Nullable ConfigNodePropertyInteger dsStopTimeoutMilliseconds) {
     this.dsStopTimeoutMilliseconds = dsStopTimeoutMilliseconds;
   }
 
-  public OrgApacheFelixScrScrServiceProperties dsGlobalExtender(ConfigNodePropertyBoolean dsGlobalExtender) {
+  public OrgApacheFelixScrScrServiceProperties dsGlobalExtender(@Nullable ConfigNodePropertyBoolean dsGlobalExtender) {
     this.dsGlobalExtender = dsGlobalExtender;
     return this;
   }
@@ -148,22 +159,21 @@ public class OrgApacheFelixScrScrServiceProperties   {
   /**
    * Get dsGlobalExtender
    * @return dsGlobalExtender
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getDsGlobalExtender() {
+   */
+  @Valid 
+  @Schema(name = "ds.global.extender", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("ds.global.extender")
+  public @Nullable ConfigNodePropertyBoolean getDsGlobalExtender() {
     return dsGlobalExtender;
   }
 
-  public void setDsGlobalExtender(ConfigNodePropertyBoolean dsGlobalExtender) {
+  @JsonProperty("ds.global.extender")
+  public void setDsGlobalExtender(@Nullable ConfigNodePropertyBoolean dsGlobalExtender) {
     this.dsGlobalExtender = dsGlobalExtender;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -188,7 +198,6 @@ public class OrgApacheFelixScrScrServiceProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class OrgApacheFelixScrScrServiceProperties {\n");
-    
     sb.append("    dsLoglevel: ").append(toIndentedString(dsLoglevel)).append("\n");
     sb.append("    dsFactoryEnabled: ").append(toIndentedString(dsFactoryEnabled)).append("\n");
     sb.append("    dsDelayedKeepInstances: ").append(toIndentedString(dsDelayedKeepInstances)).append("\n");
@@ -203,11 +212,8 @@ public class OrgApacheFelixScrScrServiceProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

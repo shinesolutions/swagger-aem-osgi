@@ -3,47 +3,68 @@ package apimodels;
 import apimodels.ConfigNodePropertyBoolean;
 import apimodels.ConfigNodePropertyInteger;
 import apimodels.ConfigNodePropertyString;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * ComDayCqReportingImplConfigServiceImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class ComDayCqReportingImplConfigServiceImplProperties   {
   @JsonProperty("repconf.timezone")
-  private ConfigNodePropertyString repconfTimezone = null;
+  @Valid
+
+  private ConfigNodePropertyString repconfTimezone;
 
   @JsonProperty("repconf.locale")
-  private ConfigNodePropertyString repconfLocale = null;
+  @Valid
+
+  private ConfigNodePropertyString repconfLocale;
 
   @JsonProperty("repconf.snapshots")
-  private ConfigNodePropertyString repconfSnapshots = null;
+  @Valid
+
+  private ConfigNodePropertyString repconfSnapshots;
 
   @JsonProperty("repconf.repdir")
-  private ConfigNodePropertyString repconfRepdir = null;
+  @Valid
+
+  private ConfigNodePropertyString repconfRepdir;
 
   @JsonProperty("repconf.hourofday")
-  private ConfigNodePropertyInteger repconfHourofday = null;
+  @Valid
+
+  private ConfigNodePropertyInteger repconfHourofday;
 
   @JsonProperty("repconf.minofhour")
-  private ConfigNodePropertyInteger repconfMinofhour = null;
+  @Valid
+
+  private ConfigNodePropertyInteger repconfMinofhour;
 
   @JsonProperty("repconf.maxrows")
-  private ConfigNodePropertyInteger repconfMaxrows = null;
+  @Valid
+
+  private ConfigNodePropertyInteger repconfMaxrows;
 
   @JsonProperty("repconf.fakedata")
-  private ConfigNodePropertyBoolean repconfFakedata = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean repconfFakedata;
 
   @JsonProperty("repconf.snapshotuser")
-  private ConfigNodePropertyString repconfSnapshotuser = null;
+  @Valid
+
+  private ConfigNodePropertyString repconfSnapshotuser;
 
   @JsonProperty("repconf.enforcesnapshotuser")
-  private ConfigNodePropertyBoolean repconfEnforcesnapshotuser = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean repconfEnforcesnapshotuser;
 
   public ComDayCqReportingImplConfigServiceImplProperties repconfTimezone(ConfigNodePropertyString repconfTimezone) {
     this.repconfTimezone = repconfTimezone;
@@ -54,7 +75,6 @@ public class ComDayCqReportingImplConfigServiceImplProperties   {
    * Get repconfTimezone
    * @return repconfTimezone
   **/
-  @Valid
   public ConfigNodePropertyString getRepconfTimezone() {
     return repconfTimezone;
   }
@@ -72,7 +92,6 @@ public class ComDayCqReportingImplConfigServiceImplProperties   {
    * Get repconfLocale
    * @return repconfLocale
   **/
-  @Valid
   public ConfigNodePropertyString getRepconfLocale() {
     return repconfLocale;
   }
@@ -90,7 +109,6 @@ public class ComDayCqReportingImplConfigServiceImplProperties   {
    * Get repconfSnapshots
    * @return repconfSnapshots
   **/
-  @Valid
   public ConfigNodePropertyString getRepconfSnapshots() {
     return repconfSnapshots;
   }
@@ -108,7 +126,6 @@ public class ComDayCqReportingImplConfigServiceImplProperties   {
    * Get repconfRepdir
    * @return repconfRepdir
   **/
-  @Valid
   public ConfigNodePropertyString getRepconfRepdir() {
     return repconfRepdir;
   }
@@ -126,7 +143,6 @@ public class ComDayCqReportingImplConfigServiceImplProperties   {
    * Get repconfHourofday
    * @return repconfHourofday
   **/
-  @Valid
   public ConfigNodePropertyInteger getRepconfHourofday() {
     return repconfHourofday;
   }
@@ -144,7 +160,6 @@ public class ComDayCqReportingImplConfigServiceImplProperties   {
    * Get repconfMinofhour
    * @return repconfMinofhour
   **/
-  @Valid
   public ConfigNodePropertyInteger getRepconfMinofhour() {
     return repconfMinofhour;
   }
@@ -162,7 +177,6 @@ public class ComDayCqReportingImplConfigServiceImplProperties   {
    * Get repconfMaxrows
    * @return repconfMaxrows
   **/
-  @Valid
   public ConfigNodePropertyInteger getRepconfMaxrows() {
     return repconfMaxrows;
   }
@@ -180,7 +194,6 @@ public class ComDayCqReportingImplConfigServiceImplProperties   {
    * Get repconfFakedata
    * @return repconfFakedata
   **/
-  @Valid
   public ConfigNodePropertyBoolean getRepconfFakedata() {
     return repconfFakedata;
   }
@@ -198,7 +211,6 @@ public class ComDayCqReportingImplConfigServiceImplProperties   {
    * Get repconfSnapshotuser
    * @return repconfSnapshotuser
   **/
-  @Valid
   public ConfigNodePropertyString getRepconfSnapshotuser() {
     return repconfSnapshotuser;
   }
@@ -216,7 +228,6 @@ public class ComDayCqReportingImplConfigServiceImplProperties   {
    * Get repconfEnforcesnapshotuser
    * @return repconfEnforcesnapshotuser
   **/
-  @Valid
   public ConfigNodePropertyBoolean getRepconfEnforcesnapshotuser() {
     return repconfEnforcesnapshotuser;
   }
@@ -227,7 +238,7 @@ public class ComDayCqReportingImplConfigServiceImplProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -276,11 +287,8 @@ public class ComDayCqReportingImplConfigServiceImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -2,27 +2,28 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslInfo   {
   
-  private String pid = null;
+  private String pid;
 
-  private String title = null;
+  private String title;
 
-  private String description = null;
+  private String description;
 
-  private ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslProperties properties = null;
-
+  private ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslProperties properties;
 
   /**
    **/
@@ -98,7 +99,7 @@ public class ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslInfo 
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -106,10 +107,10 @@ public class ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslInfo 
       return false;
     }
     ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslInfo comAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslInfo = (ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslInfo) o;
-    return Objects.equals(pid, comAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslInfo.pid) &&
-        Objects.equals(title, comAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslInfo.title) &&
-        Objects.equals(description, comAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslInfo.description) &&
-        Objects.equals(properties, comAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslInfo.properties);
+    return Objects.equals(this.pid, comAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslInfo.pid) &&
+        Objects.equals(this.title, comAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslInfo.title) &&
+        Objects.equals(this.description, comAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslInfo.description) &&
+        Objects.equals(this.properties, comAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslInfo.properties);
   }
 
   @Override
@@ -134,11 +135,8 @@ public class ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslInfo 
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

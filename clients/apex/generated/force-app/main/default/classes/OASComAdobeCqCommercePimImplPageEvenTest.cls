@@ -72,7 +72,7 @@ private class OASComAdobeCqCommercePimImplPageEvenTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeCqCommercePimImplPageEven comAdobeCqCommercePimImplPageEventListenerProperties = new OASComAdobeCqCommercePimImplPageEven();
-        Map<String, String> propertyMappings = comAdobeCqCommercePimImplPageEventListenerProperties.getPropertyMappings();
-        System.assertEquals('cqCommercePageeventlistenerEnabled', propertyMappings.get('cq.commerce.pageeventlistener.enabled'));
+        Map<String, String> x-property-mappings = comAdobeCqCommercePimImplPageEventListenerProperties.getx-property-mappings();
+        System.assertEquals('cqCommercePageeventlistenerEnabled', x-property-mappings.get('cq.commerce.pageeventlistener.enabled'));
     }
 }

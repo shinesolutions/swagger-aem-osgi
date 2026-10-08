@@ -3,6 +3,7 @@ package org.openapitools.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
@@ -15,61 +16,61 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaInflectorServerCodegen", date = "2019-08-05T00:53:46.291Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaInflectorServerCodegen", date = "2026-10-07T12:53:12.340274163Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingDistributionSerializationImplVltVaultDistributionProperties   {
   @JsonProperty("name")
-  private ConfigNodePropertyString name = null;
+  private ConfigNodePropertyString name;
 
   @JsonProperty("type")
-  private ConfigNodePropertyDropDown type = null;
+  private ConfigNodePropertyDropDown type;
 
   @JsonProperty("importMode")
-  private ConfigNodePropertyString importMode = null;
+  private ConfigNodePropertyString importMode;
 
   @JsonProperty("aclHandling")
-  private ConfigNodePropertyString aclHandling = null;
+  private ConfigNodePropertyString aclHandling;
 
   @JsonProperty("package.roots")
-  private ConfigNodePropertyString packageRoots = null;
+  private ConfigNodePropertyString packageRoots;
 
   @JsonProperty("package.filters")
-  private ConfigNodePropertyArray packageFilters = null;
+  private ConfigNodePropertyArray packageFilters;
 
   @JsonProperty("property.filters")
-  private ConfigNodePropertyArray propertyFilters = null;
+  private ConfigNodePropertyArray propertyFilters;
 
   @JsonProperty("tempFsFolder")
-  private ConfigNodePropertyString tempFsFolder = null;
+  private ConfigNodePropertyString tempFsFolder;
 
   @JsonProperty("useBinaryReferences")
-  private ConfigNodePropertyBoolean useBinaryReferences = null;
+  private ConfigNodePropertyBoolean useBinaryReferences;
 
   @JsonProperty("autoSaveThreshold")
-  private ConfigNodePropertyInteger autoSaveThreshold = null;
+  private ConfigNodePropertyInteger autoSaveThreshold;
 
   @JsonProperty("cleanupDelay")
-  private ConfigNodePropertyInteger cleanupDelay = null;
+  private ConfigNodePropertyInteger cleanupDelay;
 
   @JsonProperty("fileThreshold")
-  private ConfigNodePropertyInteger fileThreshold = null;
+  private ConfigNodePropertyInteger fileThreshold;
 
   @JsonProperty("MEGA_BYTES")
-  private ConfigNodePropertyDropDown MEGA_BYTES = null;
+  private ConfigNodePropertyDropDown MEGA_BYTES;
 
   @JsonProperty("useOffHeapMemory")
-  private ConfigNodePropertyBoolean useOffHeapMemory = null;
+  private ConfigNodePropertyBoolean useOffHeapMemory;
 
   @JsonProperty("digestAlgorithm")
-  private ConfigNodePropertyDropDown digestAlgorithm = null;
+  private ConfigNodePropertyDropDown digestAlgorithm;
 
   @JsonProperty("monitoringQueueSize")
-  private ConfigNodePropertyInteger monitoringQueueSize = null;
+  private ConfigNodePropertyInteger monitoringQueueSize;
 
   @JsonProperty("pathsMapping")
-  private ConfigNodePropertyArray pathsMapping = null;
+  private ConfigNodePropertyArray pathsMapping;
 
   @JsonProperty("strictImport")
-  private ConfigNodePropertyBoolean strictImport = null;
+  private ConfigNodePropertyBoolean strictImport;
 
   /**
    **/
@@ -379,7 +380,7 @@ public class OrgApacheSlingDistributionSerializationImplVltVaultDistributionProp
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -443,11 +444,8 @@ public class OrgApacheSlingDistributionSerializationImplVltVaultDistributionProp
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

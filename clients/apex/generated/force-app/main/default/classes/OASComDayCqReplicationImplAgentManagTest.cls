@@ -72,9 +72,9 @@ private class OASComDayCqReplicationImplAgentManagTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqReplicationImplAgentManag comDayCqReplicationImplAgentManagerImplProperties = new OASComDayCqReplicationImplAgentManag();
-        Map<String, String> propertyMappings = comDayCqReplicationImplAgentManagerImplProperties.getPropertyMappings();
-        System.assertEquals('jobTopics', propertyMappings.get('job.topics'));
-        System.assertEquals('serviceUserTarget', propertyMappings.get('serviceUser.target'));
-        System.assertEquals('agentProviderTarget', propertyMappings.get('agentProvider.target'));
+        Map<String, String> x-property-mappings = comDayCqReplicationImplAgentManagerImplProperties.getx-property-mappings();
+        System.assertEquals('jobTopics', x-property-mappings.get('job.topics'));
+        System.assertEquals('serviceUserTarget', x-property-mappings.get('serviceUser.target'));
+        System.assertEquals('agentProviderTarget', x-property-mappings.get('agentProvider.target'));
     }
 }

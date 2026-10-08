@@ -1,0 +1,39 @@
+{
+  "namespace": "model",
+  "type": "record",
+  "doc": "",
+  "name": "ComAdobeCqScreensAnalyticsImplScreensAnalyticsServiceImplProperties",
+  "fields": [
+    {
+      "name": "com.adobe.cq.screens.analytics.impl.url",
+      "type": ["null", "model.ConfigNodePropertyString"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "com.adobe.cq.screens.analytics.impl.apikey",
+      "type": ["null", "model.ConfigNodePropertyString"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "com.adobe.cq.screens.analytics.impl.project",
+      "type": ["null", "model.ConfigNodePropertyString"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "com.adobe.cq.screens.analytics.impl.environment",
+      "type": ["null", "model.ConfigNodePropertyDropDown"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "com.adobe.cq.screens.analytics.impl.sendFrequency",
+      "type": ["null", "model.ConfigNodePropertyInteger"],
+      "doc": "",
+      "default": null
+    }
+  ]
+
+}

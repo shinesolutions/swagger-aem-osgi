@@ -1,21 +1,32 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comAdobeCqSocialSiteEndpointsImplSiteOperationServiceProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeCqSocialSiteEndpointsImplSiteOperationServiceProperties   {
-  
-  private @Valid ConfigNodePropertyArray fieldWhitelist = null;
-  private @Valid ConfigNodePropertyArray sitePathFilters = null;
-  private @Valid ConfigNodePropertyString sitePackageGroup = null;
+  private ConfigNodePropertyArray fieldWhitelist;
+  private ConfigNodePropertyArray sitePathFilters;
+  private ConfigNodePropertyString sitePackageGroup;
+
+  public ComAdobeCqSocialSiteEndpointsImplSiteOperationServiceProperties() {
+  }
 
   /**
    **/
@@ -27,9 +38,11 @@ public class ComAdobeCqSocialSiteEndpointsImplSiteOperationServiceProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("fieldWhitelist")
-  public ConfigNodePropertyArray getFieldWhitelist() {
+  @Valid public ConfigNodePropertyArray getFieldWhitelist() {
     return fieldWhitelist;
   }
+
+  @JsonProperty("fieldWhitelist")
   public void setFieldWhitelist(ConfigNodePropertyArray fieldWhitelist) {
     this.fieldWhitelist = fieldWhitelist;
   }
@@ -44,9 +57,11 @@ public class ComAdobeCqSocialSiteEndpointsImplSiteOperationServiceProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("sitePathFilters")
-  public ConfigNodePropertyArray getSitePathFilters() {
+  @Valid public ConfigNodePropertyArray getSitePathFilters() {
     return sitePathFilters;
   }
+
+  @JsonProperty("sitePathFilters")
   public void setSitePathFilters(ConfigNodePropertyArray sitePathFilters) {
     this.sitePathFilters = sitePathFilters;
   }
@@ -61,16 +76,18 @@ public class ComAdobeCqSocialSiteEndpointsImplSiteOperationServiceProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("sitePackageGroup")
-  public ConfigNodePropertyString getSitePackageGroup() {
+  @Valid public ConfigNodePropertyString getSitePackageGroup() {
     return sitePackageGroup;
   }
+
+  @JsonProperty("sitePackageGroup")
   public void setSitePackageGroup(ConfigNodePropertyString sitePackageGroup) {
     this.sitePackageGroup = sitePackageGroup;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -78,9 +95,9 @@ public class ComAdobeCqSocialSiteEndpointsImplSiteOperationServiceProperties   {
       return false;
     }
     ComAdobeCqSocialSiteEndpointsImplSiteOperationServiceProperties comAdobeCqSocialSiteEndpointsImplSiteOperationServiceProperties = (ComAdobeCqSocialSiteEndpointsImplSiteOperationServiceProperties) o;
-    return Objects.equals(fieldWhitelist, comAdobeCqSocialSiteEndpointsImplSiteOperationServiceProperties.fieldWhitelist) &&
-        Objects.equals(sitePathFilters, comAdobeCqSocialSiteEndpointsImplSiteOperationServiceProperties.sitePathFilters) &&
-        Objects.equals(sitePackageGroup, comAdobeCqSocialSiteEndpointsImplSiteOperationServiceProperties.sitePackageGroup);
+    return Objects.equals(this.fieldWhitelist, comAdobeCqSocialSiteEndpointsImplSiteOperationServiceProperties.fieldWhitelist) &&
+        Objects.equals(this.sitePathFilters, comAdobeCqSocialSiteEndpointsImplSiteOperationServiceProperties.sitePathFilters) &&
+        Objects.equals(this.sitePackageGroup, comAdobeCqSocialSiteEndpointsImplSiteOperationServiceProperties.sitePackageGroup);
   }
 
   @Override
@@ -104,11 +121,9 @@ public class ComAdobeCqSocialSiteEndpointsImplSiteOperationServiceProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

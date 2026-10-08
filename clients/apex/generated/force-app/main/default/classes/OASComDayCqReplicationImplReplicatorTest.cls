@@ -72,7 +72,7 @@ private class OASComDayCqReplicationImplReplicatorTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqReplicationImplReplicator comDayCqReplicationImplReplicatorImplProperties = new OASComDayCqReplicationImplReplicator();
-        Map<String, String> propertyMappings = comDayCqReplicationImplReplicatorImplProperties.getPropertyMappings();
-        System.assertEquals('distributeEvents', propertyMappings.get('distribute_events'));
+        Map<String, String> x-property-mappings = comDayCqReplicationImplReplicatorImplProperties.getx-property-mappings();
+        System.assertEquals('distributeEvents', x-property-mappings.get('distribute_events'));
     }
 }

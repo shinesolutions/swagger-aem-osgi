@@ -1,21 +1,32 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ComDayCqWcmMsmImplServletsAuditLogServletProperties;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comDayCqWcmMsmImplServletsAuditLogServletInfo")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqWcmMsmImplServletsAuditLogServletInfo   {
-  
-  private @Valid String pid = null;
-  private @Valid String title = null;
-  private @Valid String description = null;
-  private @Valid ComDayCqWcmMsmImplServletsAuditLogServletProperties properties = null;
+  private String pid;
+  private String title;
+  private String description;
+  private ComDayCqWcmMsmImplServletsAuditLogServletProperties properties;
+
+  public ComDayCqWcmMsmImplServletsAuditLogServletInfo() {
+  }
 
   /**
    **/
@@ -30,6 +41,8 @@ public class ComDayCqWcmMsmImplServletsAuditLogServletInfo   {
   public String getPid() {
     return pid;
   }
+
+  @JsonProperty("pid")
   public void setPid(String pid) {
     this.pid = pid;
   }
@@ -47,6 +60,8 @@ public class ComDayCqWcmMsmImplServletsAuditLogServletInfo   {
   public String getTitle() {
     return title;
   }
+
+  @JsonProperty("title")
   public void setTitle(String title) {
     this.title = title;
   }
@@ -64,6 +79,8 @@ public class ComDayCqWcmMsmImplServletsAuditLogServletInfo   {
   public String getDescription() {
     return description;
   }
+
+  @JsonProperty("description")
   public void setDescription(String description) {
     this.description = description;
   }
@@ -78,16 +95,18 @@ public class ComDayCqWcmMsmImplServletsAuditLogServletInfo   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("properties")
-  public ComDayCqWcmMsmImplServletsAuditLogServletProperties getProperties() {
+  @Valid public ComDayCqWcmMsmImplServletsAuditLogServletProperties getProperties() {
     return properties;
   }
+
+  @JsonProperty("properties")
   public void setProperties(ComDayCqWcmMsmImplServletsAuditLogServletProperties properties) {
     this.properties = properties;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -95,10 +114,10 @@ public class ComDayCqWcmMsmImplServletsAuditLogServletInfo   {
       return false;
     }
     ComDayCqWcmMsmImplServletsAuditLogServletInfo comDayCqWcmMsmImplServletsAuditLogServletInfo = (ComDayCqWcmMsmImplServletsAuditLogServletInfo) o;
-    return Objects.equals(pid, comDayCqWcmMsmImplServletsAuditLogServletInfo.pid) &&
-        Objects.equals(title, comDayCqWcmMsmImplServletsAuditLogServletInfo.title) &&
-        Objects.equals(description, comDayCqWcmMsmImplServletsAuditLogServletInfo.description) &&
-        Objects.equals(properties, comDayCqWcmMsmImplServletsAuditLogServletInfo.properties);
+    return Objects.equals(this.pid, comDayCqWcmMsmImplServletsAuditLogServletInfo.pid) &&
+        Objects.equals(this.title, comDayCqWcmMsmImplServletsAuditLogServletInfo.title) &&
+        Objects.equals(this.description, comDayCqWcmMsmImplServletsAuditLogServletInfo.description) &&
+        Objects.equals(this.properties, comDayCqWcmMsmImplServletsAuditLogServletInfo.properties);
   }
 
   @Override
@@ -123,11 +142,9 @@ public class ComDayCqWcmMsmImplServletsAuditLogServletInfo   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

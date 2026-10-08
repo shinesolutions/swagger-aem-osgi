@@ -8,10 +8,10 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class OrgApacheSlingJcrDavexImplServletsSlingDavExServletProperties {
-    ConfigNodePropertyString alias = null
-
-    ConfigNodePropertyBoolean davCreateAbsoluteUri = null
-
-    ConfigNodePropertyString davProtectedhandlers = null
-
+    
+    ConfigNodePropertyString alias
+    
+    ConfigNodePropertyBoolean davCreateAbsoluteUri
+    
+    ConfigNodePropertyString davProtectedhandlers
 }

@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqScreensImplRemoteImplDistributedHttpClientImplInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqScreensImplRemoteImplDistributedHttpClientImplInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComAdobeCqScreensImplRemoteImplDistributedHttpClientImplProperties = openapi_server.resourceTypes.ComAdobeCqScreensImplRemoteImplDistributedHttpClientImplProperties
+}
+resourceTypes {
+
+  ComAdobeCqScreensImplRemoteImplDistributedHttpClientImplInfo {
+    title = ComAdobeCqScreensImplRemoteImplDistributedHttpClientImplInfo
+    description = ComAdobeCqScreensImplRemoteImplDistributedHttpClientImplInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComAdobeCqScreensImplRemoteImplDistributedHttpClientImplProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqScreensImplRemoteImplDistributedHttpClientImplInfo {
+    title = ComAdobeCqScreensImplRemoteImplDistributedHttpClientImplInfo
+    description = ComAdobeCqScreensImplRemoteImplDistributedHttpClientImplInfo
+    implements = openapi_server.resourceTypes.ComAdobeCqScreensImplRemoteImplDistributedHttpClientImplInfo
+
+  }
+}

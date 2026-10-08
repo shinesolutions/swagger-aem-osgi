@@ -1,11 +1,8 @@
-# coding: utf-8
-
-from __future__ import absolute_import
 from datetime import date, datetime  # noqa: F401
 
 from typing import List, Dict  # noqa: F401
 
-from openapi_server.models.base_model_ import Model
+from openapi_server.models.base_model import Model
 from openapi_server import util
 
 
@@ -15,7 +12,7 @@ class ConfigNodePropertyDropDownType(Model):
     Do not edit the class manually.
     """
 
-    def __init__(self, labels: object=None, values: object=None):  # noqa: E501
+    def __init__(self, labels=None, values=None):  # noqa: E501
         """ConfigNodePropertyDropDownType - a model defined in OpenAPI
 
         :param labels: The labels of this ConfigNodePropertyDropDownType.  # noqa: E501

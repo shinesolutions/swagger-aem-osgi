@@ -1,7 +1,9 @@
 
+
 # ComDayCqDamCoreImplServletResourceCollectionServletProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **slingServletResourceTypes** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
@@ -10,6 +12,7 @@ Name | Type | Description | Notes
 **downloadConfig** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
 **viewSelector** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
 **sendEmail** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
+
 
 
 

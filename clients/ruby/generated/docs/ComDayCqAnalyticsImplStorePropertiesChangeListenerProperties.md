@@ -2,16 +2,17 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**cq_store_listener_additional_store_paths** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **cq_store_listener_additional_store_paths** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComDayCqAnalyticsImplStorePropertiesChangeListenerProperties.new(cq_store_listener_additional_store_paths: null)
+instance = SwaggerAemOsgiClient::ComDayCqAnalyticsImplStorePropertiesChangeListenerProperties.new(
+  cq_store_listener_additional_store_paths: null
+)
 ```
-
 

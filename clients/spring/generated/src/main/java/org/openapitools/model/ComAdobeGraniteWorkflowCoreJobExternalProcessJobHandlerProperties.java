@@ -1,30 +1,41 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyInteger;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerProperties   {
-  @JsonProperty("default.timeout")
-  private ConfigNodePropertyInteger defaultTimeout = null;
+@JsonTypeName("comAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerProperties {
 
-  @JsonProperty("max.timeout")
-  private ConfigNodePropertyInteger maxTimeout = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger defaultTimeout;
 
-  @JsonProperty("default.period")
-  private ConfigNodePropertyInteger defaultPeriod = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger maxTimeout;
 
-  public ComAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerProperties defaultTimeout(ConfigNodePropertyInteger defaultTimeout) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger defaultPeriod;
+
+  public ComAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerProperties defaultTimeout(@Nullable ConfigNodePropertyInteger defaultTimeout) {
     this.defaultTimeout = defaultTimeout;
     return this;
   }
@@ -32,20 +43,20 @@ public class ComAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerProperties  
   /**
    * Get defaultTimeout
    * @return defaultTimeout
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getDefaultTimeout() {
+   */
+  @Valid 
+  @Schema(name = "default.timeout", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("default.timeout")
+  public @Nullable ConfigNodePropertyInteger getDefaultTimeout() {
     return defaultTimeout;
   }
 
-  public void setDefaultTimeout(ConfigNodePropertyInteger defaultTimeout) {
+  @JsonProperty("default.timeout")
+  public void setDefaultTimeout(@Nullable ConfigNodePropertyInteger defaultTimeout) {
     this.defaultTimeout = defaultTimeout;
   }
 
-  public ComAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerProperties maxTimeout(ConfigNodePropertyInteger maxTimeout) {
+  public ComAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerProperties maxTimeout(@Nullable ConfigNodePropertyInteger maxTimeout) {
     this.maxTimeout = maxTimeout;
     return this;
   }
@@ -53,20 +64,20 @@ public class ComAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerProperties  
   /**
    * Get maxTimeout
    * @return maxTimeout
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getMaxTimeout() {
+   */
+  @Valid 
+  @Schema(name = "max.timeout", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("max.timeout")
+  public @Nullable ConfigNodePropertyInteger getMaxTimeout() {
     return maxTimeout;
   }
 
-  public void setMaxTimeout(ConfigNodePropertyInteger maxTimeout) {
+  @JsonProperty("max.timeout")
+  public void setMaxTimeout(@Nullable ConfigNodePropertyInteger maxTimeout) {
     this.maxTimeout = maxTimeout;
   }
 
-  public ComAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerProperties defaultPeriod(ConfigNodePropertyInteger defaultPeriod) {
+  public ComAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerProperties defaultPeriod(@Nullable ConfigNodePropertyInteger defaultPeriod) {
     this.defaultPeriod = defaultPeriod;
     return this;
   }
@@ -74,22 +85,21 @@ public class ComAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerProperties  
   /**
    * Get defaultPeriod
    * @return defaultPeriod
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getDefaultPeriod() {
+   */
+  @Valid 
+  @Schema(name = "default.period", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("default.period")
+  public @Nullable ConfigNodePropertyInteger getDefaultPeriod() {
     return defaultPeriod;
   }
 
-  public void setDefaultPeriod(ConfigNodePropertyInteger defaultPeriod) {
+  @JsonProperty("default.period")
+  public void setDefaultPeriod(@Nullable ConfigNodePropertyInteger defaultPeriod) {
     this.defaultPeriod = defaultPeriod;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -111,7 +121,6 @@ public class ComAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerProperties  
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerProperties {\n");
-    
     sb.append("    defaultTimeout: ").append(toIndentedString(defaultTimeout)).append("\n");
     sb.append("    maxTimeout: ").append(toIndentedString(maxTimeout)).append("\n");
     sb.append("    defaultPeriod: ").append(toIndentedString(defaultPeriod)).append("\n");
@@ -123,11 +132,8 @@ public class ComAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerProperties  
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

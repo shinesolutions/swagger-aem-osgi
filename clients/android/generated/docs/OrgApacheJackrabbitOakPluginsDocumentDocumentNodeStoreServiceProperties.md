@@ -1,7 +1,9 @@
 
+
 # OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **mongouri** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
@@ -34,6 +36,7 @@ Name | Type | Description | Notes
 **updateLimit** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
 **persistentCacheIncludes** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
 **leaseCheckMode** | [**ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md) |  |  [optional]
+
 
 
 

@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileProperties = openapi_server.resourceTypes.ComAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileProperties
+}
+resourceTypes {
+
+  ComAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileInfo {
+    title = ComAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileInfo
+    description = ComAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileInfo {
+    title = ComAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileInfo
+    description = ComAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileInfo
+    implements = openapi_server.resourceTypes.ComAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileInfo
+
+  }
+}

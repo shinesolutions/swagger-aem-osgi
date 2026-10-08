@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class ComAdobeCqSocialActivitystreamsClientImplSocialActivityStreamCoProperties {
-    ConfigNodePropertyInteger priority = null
-
+    
+    ConfigNodePropertyInteger priority
 }

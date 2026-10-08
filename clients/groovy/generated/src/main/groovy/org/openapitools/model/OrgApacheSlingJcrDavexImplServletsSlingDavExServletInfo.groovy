@@ -7,12 +7,12 @@ import org.openapitools.model.OrgApacheSlingJcrDavexImplServletsSlingDavExServle
 
 @Canonical
 class OrgApacheSlingJcrDavexImplServletsSlingDavExServletInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheSlingJcrDavexImplServletsSlingDavExServletProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheSlingJcrDavexImplServletsSlingDavExServletProperties properties
 }

@@ -9,14 +9,14 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeCqSocialUserImplTransportHttpToPublisherProperties {
-    ConfigNodePropertyBoolean enable = null
-
-    ConfigNodePropertyArray agentConfiguration = null
-
-    ConfigNodePropertyString contextPath = null
-
-    ConfigNodePropertyArray disabledCipherSuites = null
-
-    ConfigNodePropertyArray enabledCipherSuites = null
-
+    
+    ConfigNodePropertyBoolean enable
+    
+    ConfigNodePropertyArray agentConfiguration
+    
+    ConfigNodePropertyString contextPath
+    
+    ConfigNodePropertyArray disabledCipherSuites
+    
+    ConfigNodePropertyArray enabledCipherSuites
 }

@@ -1,0 +1,58 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanProperties {
+    title = ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanProperties
+    description = ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanProperties
+    derivedFrom = Root
+    properties {
+        path {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        jaas_control_flag {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        jaas_realm_name {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        jaas_ranking {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        oauth_offline_validation {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanProperties {
+    title = ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanProperties
+    description = ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanProperties
+    implements = openapi_server.resourceTypes.ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanProperties
+
+  }
+}

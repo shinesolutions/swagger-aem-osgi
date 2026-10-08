@@ -2,29 +2,38 @@ package apimodels;
 
 import apimodels.ConfigNodePropertyInteger;
 import apimodels.ConfigNodePropertyString;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * OrgApacheSlingModelsImplModelAdapterFactoryProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class OrgApacheSlingModelsImplModelAdapterFactoryProperties   {
   @JsonProperty("osgi.http.whiteboard.listener")
-  private ConfigNodePropertyString osgiHttpWhiteboardListener = null;
+  @Valid
+
+  private ConfigNodePropertyString osgiHttpWhiteboardListener;
 
   @JsonProperty("osgi.http.whiteboard.context.select")
-  private ConfigNodePropertyString osgiHttpWhiteboardContextSelect = null;
+  @Valid
+
+  private ConfigNodePropertyString osgiHttpWhiteboardContextSelect;
 
   @JsonProperty("max.recursion.depth")
-  private ConfigNodePropertyInteger maxRecursionDepth = null;
+  @Valid
+
+  private ConfigNodePropertyInteger maxRecursionDepth;
 
   @JsonProperty("cleanup.job.period")
-  private ConfigNodePropertyInteger cleanupJobPeriod = null;
+  @Valid
+
+  private ConfigNodePropertyInteger cleanupJobPeriod;
 
   public OrgApacheSlingModelsImplModelAdapterFactoryProperties osgiHttpWhiteboardListener(ConfigNodePropertyString osgiHttpWhiteboardListener) {
     this.osgiHttpWhiteboardListener = osgiHttpWhiteboardListener;
@@ -35,7 +44,6 @@ public class OrgApacheSlingModelsImplModelAdapterFactoryProperties   {
    * Get osgiHttpWhiteboardListener
    * @return osgiHttpWhiteboardListener
   **/
-  @Valid
   public ConfigNodePropertyString getOsgiHttpWhiteboardListener() {
     return osgiHttpWhiteboardListener;
   }
@@ -53,7 +61,6 @@ public class OrgApacheSlingModelsImplModelAdapterFactoryProperties   {
    * Get osgiHttpWhiteboardContextSelect
    * @return osgiHttpWhiteboardContextSelect
   **/
-  @Valid
   public ConfigNodePropertyString getOsgiHttpWhiteboardContextSelect() {
     return osgiHttpWhiteboardContextSelect;
   }
@@ -71,7 +78,6 @@ public class OrgApacheSlingModelsImplModelAdapterFactoryProperties   {
    * Get maxRecursionDepth
    * @return maxRecursionDepth
   **/
-  @Valid
   public ConfigNodePropertyInteger getMaxRecursionDepth() {
     return maxRecursionDepth;
   }
@@ -89,7 +95,6 @@ public class OrgApacheSlingModelsImplModelAdapterFactoryProperties   {
    * Get cleanupJobPeriod
    * @return cleanupJobPeriod
   **/
-  @Valid
   public ConfigNodePropertyInteger getCleanupJobPeriod() {
     return cleanupJobPeriod;
   }
@@ -100,7 +105,7 @@ public class OrgApacheSlingModelsImplModelAdapterFactoryProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -137,11 +142,8 @@ public class OrgApacheSlingModelsImplModelAdapterFactoryProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

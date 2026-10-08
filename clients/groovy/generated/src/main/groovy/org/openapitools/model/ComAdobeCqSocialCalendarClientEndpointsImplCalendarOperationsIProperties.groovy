@@ -8,10 +8,10 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsIProperties {
-    ConfigNodePropertyInteger maxRetry = null
-
-    ConfigNodePropertyArray fieldWhitelist = null
-
-    ConfigNodePropertyArray attachmentTypeBlacklist = null
-
+    
+    ConfigNodePropertyInteger maxRetry
+    
+    ConfigNodePropertyArray fieldWhitelist
+    
+    ConfigNodePropertyArray attachmentTypeBlacklist
 }

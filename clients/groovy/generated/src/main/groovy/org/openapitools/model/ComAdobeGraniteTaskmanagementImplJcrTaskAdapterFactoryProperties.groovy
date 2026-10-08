@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeGraniteTaskmanagementImplJcrTaskAdapterFactoryProperties {
-    ConfigNodePropertyString adapterCondition = null
-
+    
+    ConfigNodePropertyString adapterCondition
 }

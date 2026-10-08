@@ -2,164 +2,164 @@
 # ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**comPeriodadobePeriodcqPeriodcdnPeriodcdnMinusrewriter** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodcqPeriodcloudMinusconfigPeriodcomponents** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodcqPeriodcloudMinusconfigPeriodcore** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodcqPeriodcloudMinusconfigPeriodui** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodcqPeriodcomPeriodadobePeriodcqPeriodeditor** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodcqPeriodcomPeriodadobePeriodcqPeriodprojectsPeriodcore** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodcqPeriodcomPeriodadobePeriodcqPeriodprojectsPeriodwcmPeriodcore** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodcqPeriodcomPeriodadobePeriodcqPerioduiPeriodcommons** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodcqPeriodcomPeriodadobePeriodcqPeriodwcmPeriodstyle** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodcqPeriodcqMinusactivitymapMinusintegration** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodcqPeriodcqMinuscontexthubMinuscommons** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodcqPeriodcqMinusdtm** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodcqPeriodcqMinushealthcheck** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodcqPeriodcqMinusmultisiteMinustargeting** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodcqPeriodcqMinuspreMinusupgradeMinuscleanup** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodcqPeriodcqMinusproductMinusinfoMinusprovider** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodcqPeriodcqMinusrestMinussites** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodcqPeriodcqMinussecurityMinushc** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodcqPerioddamPeriodcqMinusdamMinussvgMinushandler** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodcqPerioddamPeriodcqMinusscene7Minusimaging** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodcqPerioddtmMinusreactorPeriodcore** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodcqPerioddtmMinusreactorPeriodui** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodcqPeriodexpMinusjspelMinusresolver** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodcqPeriodinboxPeriodcqMinusinbox** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodcqPeriodjsonMinusschemaMinusparser** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodcqPeriodmediaPeriodcqMinusmediaMinuspublishingMinusdpsMinusfpMinuscore** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodcqPeriodmobilePeriodcqMinusmobileMinuscaas** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodcqPeriodmobilePeriodcqMinusmobileMinusindexMinusbuilder** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodcqPeriodmobilePeriodcqMinusmobileMinusphonegapMinusbuild** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodcqPeriodmyspell** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodcqPeriodsamplePeriodwePeriodretailPeriodcore** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodcqPeriodscreensPeriodcomPeriodadobePeriodcqPeriodscreensPerioddcc** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodcqPeriodscreensPeriodcomPeriodadobePeriodcqPeriodscreensPeriodmqPeriodcore** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodcqPeriodsocialPeriodcqMinussocialMinusasMinusprovider** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodcqPeriodsocialPeriodcqMinussocialMinusbadgingMinusbasicMinusimpl** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodcqPeriodsocialPeriodcqMinussocialMinusbadgingMinusimpl** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodcqPeriodsocialPeriodcqMinussocialMinuscalendarMinusimpl** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodcqPeriodsocialPeriodcqMinussocialMinuscontentMinusfragmentsMinusimpl** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodcqPeriodsocialPeriodcqMinussocialMinusenablementMinusimpl** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodcqPeriodsocialPeriodcqMinussocialMinusgraphMinusimpl** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodcqPeriodsocialPeriodcqMinussocialMinusideationMinusimpl** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodcqPeriodsocialPeriodcqMinussocialMinusjcrMinusprovider** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodcqPeriodsocialPeriodcqMinussocialMinusmembersMinusimpl** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodcqPeriodsocialPeriodcqMinussocialMinusmsMinusprovider** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodcqPeriodsocialPeriodcqMinussocialMinusnotificationsMinuschannelsMinusweb** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodcqPeriodsocialPeriodcqMinussocialMinusnotificationsMinusimpl** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodcqPeriodsocialPeriodcqMinussocialMinusrdbMinusprovider** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodcqPeriodsocialPeriodcqMinussocialMinusscfMinusimpl** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodcqPeriodsocialPeriodcqMinussocialMinusscoringMinusbasicMinusimpl** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodcqPeriodsocialPeriodcqMinussocialMinusscoringMinusimpl** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodcqPeriodsocialPeriodcqMinussocialMinusserviceusersMinusimpl** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodcqPeriodsocialPeriodcqMinussocialMinussrpMinusimpl** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodcqPeriodsocialPeriodcqMinussocialMinusugcbaseMinusimpl** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePerioddamPeriodcqMinusdamMinuscfmMinusimpl** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodformsPeriodfoundationMinusformsMinusfoundationMinusbase** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodgranitePeriodapicontroller** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodgranitePeriodassetPeriodcore** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodgranitePeriodauthPeriodsso** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodgranitePeriodbundlesPeriodhcPeriodimpl** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodgranitePeriodcompatMinusrouter** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodgranitePeriodconf** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodgranitePeriodconfPerioduiPeriodcore** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodgranitePeriodcors** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodgranitePeriodcrxMinusexplorer** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodgranitePeriodcrxdeMinuslite** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodgranitePeriodcryptoPeriodconfig** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodgranitePeriodcryptoPeriodextension** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodgranitePeriodcryptoPeriodfile** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodgranitePeriodcryptoPeriodjcr** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodgranitePeriodcsrf** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodgranitePerioddistributionPeriodcore** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodgranitePerioddropwizardPeriodmetrics** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodgranitePeriodfragsPeriodimpl** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodgranitePeriodgibson** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodgranitePeriodinfocollector** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodgranitePeriodinstallerPeriodfactoryPeriodpackages** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodgranitePeriodjettyPeriodssl** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodgranitePeriodjobsPeriodasync** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodgranitePeriodmaintenancePeriodoak** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodgranitePeriodmonitoringPeriodcore** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodgranitePeriodqueries** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodgranitePeriodreplicationPeriodhcPeriodimpl** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodgranitePeriodrepositoryPeriodchecker** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodgranitePeriodrepositoryPeriodhcPeriodimpl** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodgranitePeriodrestPeriodassets** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodgranitePeriodsecurityPeriodui** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodgranitePeriodstartup** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodgranitePeriodtagsoup** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodgranitePeriodtaskmanagementPeriodcore** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodgranitePeriodtaskmanagementPeriodworkflow** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodgranitePerioduiPeriodclientlibsPeriodcompilerPeriodless** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodgranitePerioduiPeriodclientlibsPeriodprocessorPeriodgcc** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodgranitePeriodwebconsolePeriodplugins** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodgranitePeriodworkflowPeriodconsole** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodxmpPeriodworkerPeriodfilesPeriodnativePeriodfragmentPeriodlinux** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodxmpPeriodworkerPeriodfilesPeriodnativePeriodfragmentPeriodmacosx** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodxmpPeriodworkerPeriodfilesPeriodnativePeriodfragmentPeriodwin** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPerioddayPeriodcommonsPeriodosgiPeriodwrapperPeriodsimpleMinusjndi** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPerioddayPeriodcqPeriodcqMinusauthhandler** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPerioddayPeriodcqPeriodcqMinuscompatMinusconfigupdate** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPerioddayPeriodcqPeriodcqMinuslicensebranding** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPerioddayPeriodcqPeriodcqMinusnotifcationMinusimpl** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPerioddayPeriodcqPeriodcqMinusreplicationMinusaudit** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPerioddayPeriodcqPeriodcqMinussearchMinusext** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPerioddayPeriodcqPerioddamPeriodcqMinusdamMinusannotationMinusprint** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPerioddayPeriodcqPerioddamPeriodcqMinusdamMinusassetMinususage** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPerioddayPeriodcqPerioddamPeriodcqMinusdamMinuss7dam** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPerioddayPeriodcqPerioddamPeriodcqMinusdamMinussimilaritysearch** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPerioddayPeriodcqPerioddamPerioddamMinuswebdavMinussupport** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPerioddayPeriodcqPeriodpreMinusupgradeMinustasks** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPerioddayPeriodcqPeriodreplicationPeriodextensions** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPerioddayPeriodcqPeriodwcmPeriodcqMinusmsmMinuscore** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPerioddayPeriodcqPeriodwcmPeriodcqMinuswcmMinustranslation** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**dayMinuscommonsMinusjrawio** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**orgPeriodapachePeriodariesPeriodjmxPeriodwhiteboard** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**orgPeriodapachePeriodfelixPeriodhttpPeriodsslfilter** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**orgPeriodapachePeriodfelixPeriodorgPeriodapachePeriodfelixPeriodthreaddump** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**orgPeriodapachePeriodfelixPeriodwebconsolePeriodpluginsPeriodds** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**orgPeriodapachePeriodfelixPeriodwebconsolePeriodpluginsPeriodevent** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**orgPeriodapachePeriodfelixPeriodwebconsolePeriodpluginsPeriodmemoryusage** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**orgPeriodapachePeriodfelixPeriodwebconsolePeriodpluginsPeriodpackageadmin** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**orgPeriodapachePeriodjackrabbitPeriodoakMinusauthMinusldap** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**orgPeriodapachePeriodjackrabbitPeriodoakMinussegmentMinustar** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**orgPeriodapachePeriodjackrabbitPeriodoakMinussolrMinusosgi** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**orgPeriodapachePeriodslingPeriodbundleresourcePeriodimpl** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**orgPeriodapachePeriodslingPeriodcommonsPeriodfsclassloader** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**orgPeriodapachePeriodslingPeriodcommonsPeriodlogPeriodwebconsole** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**orgPeriodapachePeriodslingPerioddatasource** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**orgPeriodapachePeriodslingPerioddiscoveryPeriodbase** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**orgPeriodapachePeriodslingPerioddiscoveryPeriodoak** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**orgPeriodapachePeriodslingPerioddiscoveryPeriodsupport** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**orgPeriodapachePeriodslingPerioddistributionPeriodapi** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**orgPeriodapachePeriodslingPerioddistributionPeriodcore** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**orgPeriodapachePeriodslingPeriodextensionsPeriodwebconsolesecurityprovider** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**orgPeriodapachePeriodslingPeriodhcPeriodwebconsole** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**orgPeriodapachePeriodslingPeriodinstallerPeriodconsole** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**orgPeriodapachePeriodslingPeriodinstallerPeriodproviderPeriodfile** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**orgPeriodapachePeriodslingPeriodinstallerPeriodproviderPeriodjcr** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**orgPeriodapachePeriodslingPeriodjcrPerioddavex** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**orgPeriodapachePeriodslingPeriodjcrPeriodresourcesecurity** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**orgPeriodapachePeriodslingPeriodjmxPeriodprovider** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**orgPeriodapachePeriodslingPeriodlaunchpadPeriodinstaller** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**orgPeriodapachePeriodslingPeriodmodelsPeriodimpl** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**orgPeriodapachePeriodslingPeriodrepoinitPeriodparser** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**orgPeriodapachePeriodslingPeriodresourcePeriodinventory** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**orgPeriodapachePeriodslingPeriodresourceresolver** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**orgPeriodapachePeriodslingPeriodscriptingPeriodjavascript** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**orgPeriodapachePeriodslingPeriodscriptingPeriodjst** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**orgPeriodapachePeriodslingPeriodscriptingPeriodsightlyPeriodjsPeriodprovider** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**orgPeriodapachePeriodslingPeriodscriptingPeriodsightlyPeriodmodelsPeriodprovider** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**orgPeriodapachePeriodslingPeriodsecurity** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**orgPeriodapachePeriodslingPeriodservletsPeriodcompat** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**orgPeriodapachePeriodslingPeriodservletsPeriodget** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**orgPeriodapachePeriodslingPeriodstartupfilterPerioddisabler** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**orgPeriodapachePeriodslingPeriodtracer** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**wePeriodretailPeriodclientPeriodappPeriodcore** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **comAdobeCqCdnCdnRewriter** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeCqCloudConfigComponents** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeCqCloudConfigCore** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeCqCloudConfigUi** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeCqComAdobeCqEditor** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeCqComAdobeCqProjectsCore** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeCqComAdobeCqProjectsWcmCore** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeCqComAdobeCqUiCommons** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeCqComAdobeCqWcmStyle** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeCqCqActivitymapIntegration** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeCqCqContexthubCommons** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeCqCqDtm** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeCqCqHealthcheck** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeCqCqMultisiteTargeting** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeCqCqPreUpgradeCleanup** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeCqCqProductInfoProvider** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeCqCqRestSites** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeCqCqSecurityHc** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeCqDamCqDamSvgHandler** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeCqDamCqScene7Imaging** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeCqDtmReactorCore** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeCqDtmReactorUi** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeCqExpJspelResolver** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeCqInboxCqInbox** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeCqJsonSchemaParser** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeCqMediaCqMediaPublishingDpsFpCore** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeCqMobileCqMobileCaas** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeCqMobileCqMobileIndexBuilder** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeCqMobileCqMobilePhonegapBuild** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeCqMyspell** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeCqSampleWeRetailCore** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeCqScreensComAdobeCqScreensDcc** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeCqScreensComAdobeCqScreensMqCore** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeCqSocialCqSocialAsProvider** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeCqSocialCqSocialBadgingBasicImpl** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeCqSocialCqSocialBadgingImpl** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeCqSocialCqSocialCalendarImpl** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeCqSocialCqSocialContentFragmentsImpl** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeCqSocialCqSocialEnablementImpl** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeCqSocialCqSocialGraphImpl** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeCqSocialCqSocialIdeationImpl** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeCqSocialCqSocialJcrProvider** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeCqSocialCqSocialMembersImpl** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeCqSocialCqSocialMsProvider** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeCqSocialCqSocialNotificationsChannelsWeb** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeCqSocialCqSocialNotificationsImpl** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeCqSocialCqSocialRdbProvider** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeCqSocialCqSocialScfImpl** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeCqSocialCqSocialScoringBasicImpl** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeCqSocialCqSocialScoringImpl** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeCqSocialCqSocialServiceusersImpl** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeCqSocialCqSocialSrpImpl** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeCqSocialCqSocialUgcbaseImpl** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeDamCqDamCfmImpl** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeFormsFoundationFormsFoundationBase** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeGraniteApicontroller** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeGraniteAssetCore** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeGraniteAuthSso** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeGraniteBundlesHcImpl** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeGraniteCompatRouter** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeGraniteConf** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeGraniteConfUiCore** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeGraniteCors** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeGraniteCrxExplorer** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeGraniteCrxdeLite** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeGraniteCryptoConfig** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeGraniteCryptoExtension** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeGraniteCryptoFile** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeGraniteCryptoJcr** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeGraniteCsrf** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeGraniteDistributionCore** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeGraniteDropwizardMetrics** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeGraniteFragsImpl** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeGraniteGibson** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeGraniteInfocollector** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeGraniteInstallerFactoryPackages** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeGraniteJettySsl** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeGraniteJobsAsync** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeGraniteMaintenanceOak** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeGraniteMonitoringCore** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeGraniteQueries** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeGraniteReplicationHcImpl** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeGraniteRepositoryChecker** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeGraniteRepositoryHcImpl** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeGraniteRestAssets** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeGraniteSecurityUi** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeGraniteStartup** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeGraniteTagsoup** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeGraniteTaskmanagementCore** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeGraniteTaskmanagementWorkflow** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeGraniteUiClientlibsCompilerLess** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeGraniteUiClientlibsProcessorGcc** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeGraniteWebconsolePlugins** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeGraniteWorkflowConsole** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeXmpWorkerFilesNativeFragmentLinux** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeXmpWorkerFilesNativeFragmentMacosx** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeXmpWorkerFilesNativeFragmentWin** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comDayCommonsOsgiWrapperSimpleJndi** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comDayCqCqAuthhandler** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comDayCqCqCompatConfigupdate** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comDayCqCqLicensebranding** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comDayCqCqNotifcationImpl** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comDayCqCqReplicationAudit** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comDayCqCqSearchExt** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comDayCqDamCqDamAnnotationPrint** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comDayCqDamCqDamAssetUsage** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comDayCqDamCqDamS7dam** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comDayCqDamCqDamSimilaritysearch** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comDayCqDamDamWebdavSupport** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comDayCqPreUpgradeTasks** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comDayCqReplicationExtensions** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comDayCqWcmCqMsmCore** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comDayCqWcmCqWcmTranslation** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **dayCommonsJrawio** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **orgApacheAriesJmxWhiteboard** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **orgApacheFelixHttpSslfilter** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **orgApacheFelixOrgApacheFelixThreaddump** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **orgApacheFelixWebconsolePluginsDs** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **orgApacheFelixWebconsolePluginsEvent** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **orgApacheFelixWebconsolePluginsMemoryusage** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **orgApacheFelixWebconsolePluginsPackageadmin** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **orgApacheJackrabbitOakAuthLdap** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **orgApacheJackrabbitOakSegmentTar** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **orgApacheJackrabbitOakSolrOsgi** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **orgApacheSlingBundleresourceImpl** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **orgApacheSlingCommonsFsclassloader** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **orgApacheSlingCommonsLogWebconsole** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **orgApacheSlingDatasource** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **orgApacheSlingDiscoveryBase** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **orgApacheSlingDiscoveryOak** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **orgApacheSlingDiscoverySupport** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **orgApacheSlingDistributionApi** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **orgApacheSlingDistributionCore** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **orgApacheSlingExtensionsWebconsolesecurityprovider** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **orgApacheSlingHcWebconsole** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **orgApacheSlingInstallerConsole** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **orgApacheSlingInstallerProviderFile** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **orgApacheSlingInstallerProviderJcr** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **orgApacheSlingJcrDavex** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **orgApacheSlingJcrResourcesecurity** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **orgApacheSlingJmxProvider** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **orgApacheSlingLaunchpadInstaller** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **orgApacheSlingModelsImpl** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **orgApacheSlingRepoinitParser** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **orgApacheSlingResourceInventory** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **orgApacheSlingResourceresolver** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **orgApacheSlingScriptingJavascript** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **orgApacheSlingScriptingJst** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **orgApacheSlingScriptingSightlyJsProvider** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **orgApacheSlingScriptingSightlyModelsProvider** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **orgApacheSlingSecurity** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **orgApacheSlingServletsCompat** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **orgApacheSlingServletsGet** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **orgApacheSlingStartupfilterDisabler** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **orgApacheSlingTracer** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **weRetailClientAppCore** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
 
 
 

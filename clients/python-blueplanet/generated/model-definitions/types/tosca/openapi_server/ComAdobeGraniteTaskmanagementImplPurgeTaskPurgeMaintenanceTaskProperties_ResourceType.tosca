@@ -1,0 +1,57 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+}
+resourceTypes {
+
+  ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskProperties {
+    title = ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskProperties
+    description = ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskProperties
+    derivedFrom = Root
+    properties {
+        purge_completed {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        completed_age {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        purge_active {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        active_age {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        save_threshold {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskProperties {
+    title = ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskProperties
+    description = ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskProperties
+    implements = openapi_server.resourceTypes.ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskProperties
+
+  }
+}

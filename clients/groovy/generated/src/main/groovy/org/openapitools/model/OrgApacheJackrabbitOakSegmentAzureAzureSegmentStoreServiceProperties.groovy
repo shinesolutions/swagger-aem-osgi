@@ -7,14 +7,14 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class OrgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServiceProperties {
-    ConfigNodePropertyString accountName = null
-
-    ConfigNodePropertyString containerName = null
-
-    ConfigNodePropertyString accessKey = null
-
-    ConfigNodePropertyString rootPath = null
-
-    ConfigNodePropertyString connectionURL = null
-
+    
+    ConfigNodePropertyString accountName
+    
+    ConfigNodePropertyString containerName
+    
+    ConfigNodePropertyString accessKey
+    
+    ConfigNodePropertyString rootPath
+    
+    ConfigNodePropertyString connectionURL
 }

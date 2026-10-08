@@ -1,35 +1,46 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComDayCqCommonsImplExternalizerImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComDayCqCommonsImplExternalizerImplProperties   {
-  @JsonProperty("externalizer.domains")
-  private ConfigNodePropertyArray externalizerDomains = null;
+@JsonTypeName("comDayCqCommonsImplExternalizerImplProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComDayCqCommonsImplExternalizerImplProperties {
 
-  @JsonProperty("externalizer.host")
-  private ConfigNodePropertyString externalizerHost = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray externalizerDomains;
 
-  @JsonProperty("externalizer.contextpath")
-  private ConfigNodePropertyString externalizerContextpath = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString externalizerHost;
 
-  @JsonProperty("externalizer.encodedpath")
-  private ConfigNodePropertyBoolean externalizerEncodedpath = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString externalizerContextpath;
 
-  public ComDayCqCommonsImplExternalizerImplProperties externalizerDomains(ConfigNodePropertyArray externalizerDomains) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean externalizerEncodedpath;
+
+  public ComDayCqCommonsImplExternalizerImplProperties externalizerDomains(@Nullable ConfigNodePropertyArray externalizerDomains) {
     this.externalizerDomains = externalizerDomains;
     return this;
   }
@@ -37,20 +48,20 @@ public class ComDayCqCommonsImplExternalizerImplProperties   {
   /**
    * Get externalizerDomains
    * @return externalizerDomains
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getExternalizerDomains() {
+   */
+  @Valid 
+  @Schema(name = "externalizer.domains", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("externalizer.domains")
+  public @Nullable ConfigNodePropertyArray getExternalizerDomains() {
     return externalizerDomains;
   }
 
-  public void setExternalizerDomains(ConfigNodePropertyArray externalizerDomains) {
+  @JsonProperty("externalizer.domains")
+  public void setExternalizerDomains(@Nullable ConfigNodePropertyArray externalizerDomains) {
     this.externalizerDomains = externalizerDomains;
   }
 
-  public ComDayCqCommonsImplExternalizerImplProperties externalizerHost(ConfigNodePropertyString externalizerHost) {
+  public ComDayCqCommonsImplExternalizerImplProperties externalizerHost(@Nullable ConfigNodePropertyString externalizerHost) {
     this.externalizerHost = externalizerHost;
     return this;
   }
@@ -58,20 +69,20 @@ public class ComDayCqCommonsImplExternalizerImplProperties   {
   /**
    * Get externalizerHost
    * @return externalizerHost
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getExternalizerHost() {
+   */
+  @Valid 
+  @Schema(name = "externalizer.host", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("externalizer.host")
+  public @Nullable ConfigNodePropertyString getExternalizerHost() {
     return externalizerHost;
   }
 
-  public void setExternalizerHost(ConfigNodePropertyString externalizerHost) {
+  @JsonProperty("externalizer.host")
+  public void setExternalizerHost(@Nullable ConfigNodePropertyString externalizerHost) {
     this.externalizerHost = externalizerHost;
   }
 
-  public ComDayCqCommonsImplExternalizerImplProperties externalizerContextpath(ConfigNodePropertyString externalizerContextpath) {
+  public ComDayCqCommonsImplExternalizerImplProperties externalizerContextpath(@Nullable ConfigNodePropertyString externalizerContextpath) {
     this.externalizerContextpath = externalizerContextpath;
     return this;
   }
@@ -79,20 +90,20 @@ public class ComDayCqCommonsImplExternalizerImplProperties   {
   /**
    * Get externalizerContextpath
    * @return externalizerContextpath
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getExternalizerContextpath() {
+   */
+  @Valid 
+  @Schema(name = "externalizer.contextpath", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("externalizer.contextpath")
+  public @Nullable ConfigNodePropertyString getExternalizerContextpath() {
     return externalizerContextpath;
   }
 
-  public void setExternalizerContextpath(ConfigNodePropertyString externalizerContextpath) {
+  @JsonProperty("externalizer.contextpath")
+  public void setExternalizerContextpath(@Nullable ConfigNodePropertyString externalizerContextpath) {
     this.externalizerContextpath = externalizerContextpath;
   }
 
-  public ComDayCqCommonsImplExternalizerImplProperties externalizerEncodedpath(ConfigNodePropertyBoolean externalizerEncodedpath) {
+  public ComDayCqCommonsImplExternalizerImplProperties externalizerEncodedpath(@Nullable ConfigNodePropertyBoolean externalizerEncodedpath) {
     this.externalizerEncodedpath = externalizerEncodedpath;
     return this;
   }
@@ -100,22 +111,21 @@ public class ComDayCqCommonsImplExternalizerImplProperties   {
   /**
    * Get externalizerEncodedpath
    * @return externalizerEncodedpath
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getExternalizerEncodedpath() {
+   */
+  @Valid 
+  @Schema(name = "externalizer.encodedpath", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("externalizer.encodedpath")
+  public @Nullable ConfigNodePropertyBoolean getExternalizerEncodedpath() {
     return externalizerEncodedpath;
   }
 
-  public void setExternalizerEncodedpath(ConfigNodePropertyBoolean externalizerEncodedpath) {
+  @JsonProperty("externalizer.encodedpath")
+  public void setExternalizerEncodedpath(@Nullable ConfigNodePropertyBoolean externalizerEncodedpath) {
     this.externalizerEncodedpath = externalizerEncodedpath;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -138,7 +148,6 @@ public class ComDayCqCommonsImplExternalizerImplProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComDayCqCommonsImplExternalizerImplProperties {\n");
-    
     sb.append("    externalizerDomains: ").append(toIndentedString(externalizerDomains)).append("\n");
     sb.append("    externalizerHost: ").append(toIndentedString(externalizerHost)).append("\n");
     sb.append("    externalizerContextpath: ").append(toIndentedString(externalizerContextpath)).append("\n");
@@ -151,11 +160,8 @@ public class ComDayCqCommonsImplExternalizerImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

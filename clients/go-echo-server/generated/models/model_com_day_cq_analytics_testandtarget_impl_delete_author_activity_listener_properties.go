@@ -1,0 +1,6 @@
+package models
+
+type ComDayCqAnalyticsTestandtargetImplDeleteAuthorActivityListenerProperties struct {
+
+	CqAnalyticsTestandtargetDeleteauthoractivitylistenerEnabled ConfigNodePropertyBoolean `json:"cq.analytics.testandtarget.deleteauthoractivitylistener.enabled,omitempty"`
+}

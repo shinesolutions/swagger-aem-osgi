@@ -8,10 +8,10 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeCqSocialConnectOauthImplSocialOAuthUserProfileMapperProperties {
-    ConfigNodePropertyArray facebook = null
-
-    ConfigNodePropertyArray twitter = null
-
-    ConfigNodePropertyString providerConfigUserFolder = null
-
+    
+    ConfigNodePropertyArray facebook
+    
+    ConfigNodePropertyArray twitter
+    
+    ConfigNodePropertyString providerConfigUserFolder
 }

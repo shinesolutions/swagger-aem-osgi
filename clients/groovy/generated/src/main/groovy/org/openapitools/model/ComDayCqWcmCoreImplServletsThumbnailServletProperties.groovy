@@ -8,8 +8,8 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqWcmCoreImplServletsThumbnailServletProperties {
-    ConfigNodePropertyString workspace = null
-
-    ConfigNodePropertyArray dimensions = null
-
+    
+    ConfigNodePropertyString workspace
+    
+    ConfigNodePropertyArray dimensions
 }

@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSeInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSeInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSeProperties = openapi_server.resourceTypes.ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSeProperties
+}
+resourceTypes {
+
+  ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSeInfo {
+    title = ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSeInfo
+    description = ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSeInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSeProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSeInfo {
+    title = ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSeInfo
+    description = ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSeInfo
+    implements = openapi_server.resourceTypes.ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSeInfo
+
+  }
+}

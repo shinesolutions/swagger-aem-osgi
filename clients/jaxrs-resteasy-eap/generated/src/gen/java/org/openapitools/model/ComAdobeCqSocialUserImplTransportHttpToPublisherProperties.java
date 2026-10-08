@@ -4,28 +4,24 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2019-08-05T01:00:05.540Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2026-10-07T12:54:26.576036107Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeCqSocialUserImplTransportHttpToPublisherProperties   {
   
-
-  private ConfigNodePropertyBoolean enable = null;
-
-  private ConfigNodePropertyArray agentConfiguration = null;
-
-  private ConfigNodePropertyString contextPath = null;
-
-  private ConfigNodePropertyArray disabledCipherSuites = null;
-
-  private ConfigNodePropertyArray enabledCipherSuites = null;
+  private ConfigNodePropertyBoolean enable;
+  private ConfigNodePropertyArray agentConfiguration;
+  private ConfigNodePropertyString contextPath;
+  private ConfigNodePropertyArray disabledCipherSuites;
+  private ConfigNodePropertyArray enabledCipherSuites;
 
   /**
    **/
@@ -97,11 +93,11 @@ public class ComAdobeCqSocialUserImplTransportHttpToPublisherProperties   {
       return false;
     }
     ComAdobeCqSocialUserImplTransportHttpToPublisherProperties comAdobeCqSocialUserImplTransportHttpToPublisherProperties = (ComAdobeCqSocialUserImplTransportHttpToPublisherProperties) o;
-    return Objects.equals(enable, comAdobeCqSocialUserImplTransportHttpToPublisherProperties.enable) &&
-        Objects.equals(agentConfiguration, comAdobeCqSocialUserImplTransportHttpToPublisherProperties.agentConfiguration) &&
-        Objects.equals(contextPath, comAdobeCqSocialUserImplTransportHttpToPublisherProperties.contextPath) &&
-        Objects.equals(disabledCipherSuites, comAdobeCqSocialUserImplTransportHttpToPublisherProperties.disabledCipherSuites) &&
-        Objects.equals(enabledCipherSuites, comAdobeCqSocialUserImplTransportHttpToPublisherProperties.enabledCipherSuites);
+    return Objects.equals(this.enable, comAdobeCqSocialUserImplTransportHttpToPublisherProperties.enable) &&
+        Objects.equals(this.agentConfiguration, comAdobeCqSocialUserImplTransportHttpToPublisherProperties.agentConfiguration) &&
+        Objects.equals(this.contextPath, comAdobeCqSocialUserImplTransportHttpToPublisherProperties.contextPath) &&
+        Objects.equals(this.disabledCipherSuites, comAdobeCqSocialUserImplTransportHttpToPublisherProperties.disabledCipherSuites) &&
+        Objects.equals(this.enabledCipherSuites, comAdobeCqSocialUserImplTransportHttpToPublisherProperties.enabledCipherSuites);
   }
 
   @Override
@@ -128,10 +124,7 @@ public class ComAdobeCqSocialUserImplTransportHttpToPublisherProperties   {
    * (except the first line).
    */
   private String toIndentedString(Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

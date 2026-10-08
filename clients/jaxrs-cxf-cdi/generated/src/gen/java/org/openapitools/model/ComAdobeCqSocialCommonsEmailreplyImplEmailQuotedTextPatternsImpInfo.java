@@ -2,27 +2,28 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpInfo   {
   
-  private String pid = null;
+  private String pid;
 
-  private String title = null;
+  private String title;
 
-  private String description = null;
+  private String description;
 
-  private ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpProperties properties = null;
-
+  private ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpProperties properties;
 
   /**
    **/
@@ -98,7 +99,7 @@ public class ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpInfo
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -106,10 +107,10 @@ public class ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpInfo
       return false;
     }
     ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpInfo comAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpInfo = (ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpInfo) o;
-    return Objects.equals(pid, comAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpInfo.pid) &&
-        Objects.equals(title, comAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpInfo.title) &&
-        Objects.equals(description, comAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpInfo.description) &&
-        Objects.equals(properties, comAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpInfo.properties);
+    return Objects.equals(this.pid, comAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpInfo.pid) &&
+        Objects.equals(this.title, comAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpInfo.title) &&
+        Objects.equals(this.description, comAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpInfo.description) &&
+        Objects.equals(this.properties, comAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpInfo.properties);
   }
 
   @Override
@@ -134,11 +135,8 @@ public class ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpInfo
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -7,10 +7,10 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class OrgApacheSlingDistributionTriggerImplRemoteEventDistributionTrigProperties {
-    ConfigNodePropertyString name = null
-
-    ConfigNodePropertyString endpoint = null
-
-    ConfigNodePropertyString transportSecretProviderTarget = null
-
+    
+    ConfigNodePropertyString name
+    
+    ConfigNodePropertyString endpoint
+    
+    ConfigNodePropertyString transportSecretProviderTarget
 }

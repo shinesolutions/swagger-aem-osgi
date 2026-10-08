@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqSocialTranslationImplTranslationServiceC
 
 @Canonical
 class ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerProperties properties
 }

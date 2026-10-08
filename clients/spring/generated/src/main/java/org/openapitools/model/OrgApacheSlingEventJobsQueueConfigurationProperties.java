@@ -1,59 +1,70 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyDropDown;
 import org.openapitools.model.ConfigNodePropertyFloat;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * OrgApacheSlingEventJobsQueueConfigurationProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class OrgApacheSlingEventJobsQueueConfigurationProperties   {
-  @JsonProperty("queue.name")
-  private ConfigNodePropertyString queueName = null;
+@JsonTypeName("orgApacheSlingEventJobsQueueConfigurationProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class OrgApacheSlingEventJobsQueueConfigurationProperties {
 
-  @JsonProperty("queue.topics")
-  private ConfigNodePropertyArray queueTopics = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString queueName;
 
-  @JsonProperty("queue.type")
-  private ConfigNodePropertyDropDown queueType = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray queueTopics;
 
-  @JsonProperty("queue.priority")
-  private ConfigNodePropertyDropDown queuePriority = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyDropDown queueType;
 
-  @JsonProperty("queue.retries")
-  private ConfigNodePropertyInteger queueRetries = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyDropDown queuePriority;
 
-  @JsonProperty("queue.retrydelay")
-  private ConfigNodePropertyInteger queueRetrydelay = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger queueRetries;
 
-  @JsonProperty("queue.maxparallel")
-  private ConfigNodePropertyFloat queueMaxparallel = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger queueRetrydelay;
 
-  @JsonProperty("queue.keepJobs")
-  private ConfigNodePropertyBoolean queueKeepJobs = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyFloat queueMaxparallel;
 
-  @JsonProperty("queue.preferRunOnCreationInstance")
-  private ConfigNodePropertyBoolean queuePreferRunOnCreationInstance = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean queueKeepJobs;
 
-  @JsonProperty("queue.threadPoolSize")
-  private ConfigNodePropertyInteger queueThreadPoolSize = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean queuePreferRunOnCreationInstance;
 
-  @JsonProperty("service.ranking")
-  private ConfigNodePropertyInteger serviceRanking = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger queueThreadPoolSize;
 
-  public OrgApacheSlingEventJobsQueueConfigurationProperties queueName(ConfigNodePropertyString queueName) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger serviceRanking;
+
+  public OrgApacheSlingEventJobsQueueConfigurationProperties queueName(@Nullable ConfigNodePropertyString queueName) {
     this.queueName = queueName;
     return this;
   }
@@ -61,20 +72,20 @@ public class OrgApacheSlingEventJobsQueueConfigurationProperties   {
   /**
    * Get queueName
    * @return queueName
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getQueueName() {
+   */
+  @Valid 
+  @Schema(name = "queue.name", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("queue.name")
+  public @Nullable ConfigNodePropertyString getQueueName() {
     return queueName;
   }
 
-  public void setQueueName(ConfigNodePropertyString queueName) {
+  @JsonProperty("queue.name")
+  public void setQueueName(@Nullable ConfigNodePropertyString queueName) {
     this.queueName = queueName;
   }
 
-  public OrgApacheSlingEventJobsQueueConfigurationProperties queueTopics(ConfigNodePropertyArray queueTopics) {
+  public OrgApacheSlingEventJobsQueueConfigurationProperties queueTopics(@Nullable ConfigNodePropertyArray queueTopics) {
     this.queueTopics = queueTopics;
     return this;
   }
@@ -82,20 +93,20 @@ public class OrgApacheSlingEventJobsQueueConfigurationProperties   {
   /**
    * Get queueTopics
    * @return queueTopics
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getQueueTopics() {
+   */
+  @Valid 
+  @Schema(name = "queue.topics", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("queue.topics")
+  public @Nullable ConfigNodePropertyArray getQueueTopics() {
     return queueTopics;
   }
 
-  public void setQueueTopics(ConfigNodePropertyArray queueTopics) {
+  @JsonProperty("queue.topics")
+  public void setQueueTopics(@Nullable ConfigNodePropertyArray queueTopics) {
     this.queueTopics = queueTopics;
   }
 
-  public OrgApacheSlingEventJobsQueueConfigurationProperties queueType(ConfigNodePropertyDropDown queueType) {
+  public OrgApacheSlingEventJobsQueueConfigurationProperties queueType(@Nullable ConfigNodePropertyDropDown queueType) {
     this.queueType = queueType;
     return this;
   }
@@ -103,20 +114,20 @@ public class OrgApacheSlingEventJobsQueueConfigurationProperties   {
   /**
    * Get queueType
    * @return queueType
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyDropDown getQueueType() {
+   */
+  @Valid 
+  @Schema(name = "queue.type", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("queue.type")
+  public @Nullable ConfigNodePropertyDropDown getQueueType() {
     return queueType;
   }
 
-  public void setQueueType(ConfigNodePropertyDropDown queueType) {
+  @JsonProperty("queue.type")
+  public void setQueueType(@Nullable ConfigNodePropertyDropDown queueType) {
     this.queueType = queueType;
   }
 
-  public OrgApacheSlingEventJobsQueueConfigurationProperties queuePriority(ConfigNodePropertyDropDown queuePriority) {
+  public OrgApacheSlingEventJobsQueueConfigurationProperties queuePriority(@Nullable ConfigNodePropertyDropDown queuePriority) {
     this.queuePriority = queuePriority;
     return this;
   }
@@ -124,20 +135,20 @@ public class OrgApacheSlingEventJobsQueueConfigurationProperties   {
   /**
    * Get queuePriority
    * @return queuePriority
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyDropDown getQueuePriority() {
+   */
+  @Valid 
+  @Schema(name = "queue.priority", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("queue.priority")
+  public @Nullable ConfigNodePropertyDropDown getQueuePriority() {
     return queuePriority;
   }
 
-  public void setQueuePriority(ConfigNodePropertyDropDown queuePriority) {
+  @JsonProperty("queue.priority")
+  public void setQueuePriority(@Nullable ConfigNodePropertyDropDown queuePriority) {
     this.queuePriority = queuePriority;
   }
 
-  public OrgApacheSlingEventJobsQueueConfigurationProperties queueRetries(ConfigNodePropertyInteger queueRetries) {
+  public OrgApacheSlingEventJobsQueueConfigurationProperties queueRetries(@Nullable ConfigNodePropertyInteger queueRetries) {
     this.queueRetries = queueRetries;
     return this;
   }
@@ -145,20 +156,20 @@ public class OrgApacheSlingEventJobsQueueConfigurationProperties   {
   /**
    * Get queueRetries
    * @return queueRetries
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getQueueRetries() {
+   */
+  @Valid 
+  @Schema(name = "queue.retries", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("queue.retries")
+  public @Nullable ConfigNodePropertyInteger getQueueRetries() {
     return queueRetries;
   }
 
-  public void setQueueRetries(ConfigNodePropertyInteger queueRetries) {
+  @JsonProperty("queue.retries")
+  public void setQueueRetries(@Nullable ConfigNodePropertyInteger queueRetries) {
     this.queueRetries = queueRetries;
   }
 
-  public OrgApacheSlingEventJobsQueueConfigurationProperties queueRetrydelay(ConfigNodePropertyInteger queueRetrydelay) {
+  public OrgApacheSlingEventJobsQueueConfigurationProperties queueRetrydelay(@Nullable ConfigNodePropertyInteger queueRetrydelay) {
     this.queueRetrydelay = queueRetrydelay;
     return this;
   }
@@ -166,20 +177,20 @@ public class OrgApacheSlingEventJobsQueueConfigurationProperties   {
   /**
    * Get queueRetrydelay
    * @return queueRetrydelay
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getQueueRetrydelay() {
+   */
+  @Valid 
+  @Schema(name = "queue.retrydelay", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("queue.retrydelay")
+  public @Nullable ConfigNodePropertyInteger getQueueRetrydelay() {
     return queueRetrydelay;
   }
 
-  public void setQueueRetrydelay(ConfigNodePropertyInteger queueRetrydelay) {
+  @JsonProperty("queue.retrydelay")
+  public void setQueueRetrydelay(@Nullable ConfigNodePropertyInteger queueRetrydelay) {
     this.queueRetrydelay = queueRetrydelay;
   }
 
-  public OrgApacheSlingEventJobsQueueConfigurationProperties queueMaxparallel(ConfigNodePropertyFloat queueMaxparallel) {
+  public OrgApacheSlingEventJobsQueueConfigurationProperties queueMaxparallel(@Nullable ConfigNodePropertyFloat queueMaxparallel) {
     this.queueMaxparallel = queueMaxparallel;
     return this;
   }
@@ -187,20 +198,20 @@ public class OrgApacheSlingEventJobsQueueConfigurationProperties   {
   /**
    * Get queueMaxparallel
    * @return queueMaxparallel
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyFloat getQueueMaxparallel() {
+   */
+  @Valid 
+  @Schema(name = "queue.maxparallel", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("queue.maxparallel")
+  public @Nullable ConfigNodePropertyFloat getQueueMaxparallel() {
     return queueMaxparallel;
   }
 
-  public void setQueueMaxparallel(ConfigNodePropertyFloat queueMaxparallel) {
+  @JsonProperty("queue.maxparallel")
+  public void setQueueMaxparallel(@Nullable ConfigNodePropertyFloat queueMaxparallel) {
     this.queueMaxparallel = queueMaxparallel;
   }
 
-  public OrgApacheSlingEventJobsQueueConfigurationProperties queueKeepJobs(ConfigNodePropertyBoolean queueKeepJobs) {
+  public OrgApacheSlingEventJobsQueueConfigurationProperties queueKeepJobs(@Nullable ConfigNodePropertyBoolean queueKeepJobs) {
     this.queueKeepJobs = queueKeepJobs;
     return this;
   }
@@ -208,20 +219,20 @@ public class OrgApacheSlingEventJobsQueueConfigurationProperties   {
   /**
    * Get queueKeepJobs
    * @return queueKeepJobs
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getQueueKeepJobs() {
+   */
+  @Valid 
+  @Schema(name = "queue.keepJobs", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("queue.keepJobs")
+  public @Nullable ConfigNodePropertyBoolean getQueueKeepJobs() {
     return queueKeepJobs;
   }
 
-  public void setQueueKeepJobs(ConfigNodePropertyBoolean queueKeepJobs) {
+  @JsonProperty("queue.keepJobs")
+  public void setQueueKeepJobs(@Nullable ConfigNodePropertyBoolean queueKeepJobs) {
     this.queueKeepJobs = queueKeepJobs;
   }
 
-  public OrgApacheSlingEventJobsQueueConfigurationProperties queuePreferRunOnCreationInstance(ConfigNodePropertyBoolean queuePreferRunOnCreationInstance) {
+  public OrgApacheSlingEventJobsQueueConfigurationProperties queuePreferRunOnCreationInstance(@Nullable ConfigNodePropertyBoolean queuePreferRunOnCreationInstance) {
     this.queuePreferRunOnCreationInstance = queuePreferRunOnCreationInstance;
     return this;
   }
@@ -229,20 +240,20 @@ public class OrgApacheSlingEventJobsQueueConfigurationProperties   {
   /**
    * Get queuePreferRunOnCreationInstance
    * @return queuePreferRunOnCreationInstance
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getQueuePreferRunOnCreationInstance() {
+   */
+  @Valid 
+  @Schema(name = "queue.preferRunOnCreationInstance", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("queue.preferRunOnCreationInstance")
+  public @Nullable ConfigNodePropertyBoolean getQueuePreferRunOnCreationInstance() {
     return queuePreferRunOnCreationInstance;
   }
 
-  public void setQueuePreferRunOnCreationInstance(ConfigNodePropertyBoolean queuePreferRunOnCreationInstance) {
+  @JsonProperty("queue.preferRunOnCreationInstance")
+  public void setQueuePreferRunOnCreationInstance(@Nullable ConfigNodePropertyBoolean queuePreferRunOnCreationInstance) {
     this.queuePreferRunOnCreationInstance = queuePreferRunOnCreationInstance;
   }
 
-  public OrgApacheSlingEventJobsQueueConfigurationProperties queueThreadPoolSize(ConfigNodePropertyInteger queueThreadPoolSize) {
+  public OrgApacheSlingEventJobsQueueConfigurationProperties queueThreadPoolSize(@Nullable ConfigNodePropertyInteger queueThreadPoolSize) {
     this.queueThreadPoolSize = queueThreadPoolSize;
     return this;
   }
@@ -250,20 +261,20 @@ public class OrgApacheSlingEventJobsQueueConfigurationProperties   {
   /**
    * Get queueThreadPoolSize
    * @return queueThreadPoolSize
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getQueueThreadPoolSize() {
+   */
+  @Valid 
+  @Schema(name = "queue.threadPoolSize", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("queue.threadPoolSize")
+  public @Nullable ConfigNodePropertyInteger getQueueThreadPoolSize() {
     return queueThreadPoolSize;
   }
 
-  public void setQueueThreadPoolSize(ConfigNodePropertyInteger queueThreadPoolSize) {
+  @JsonProperty("queue.threadPoolSize")
+  public void setQueueThreadPoolSize(@Nullable ConfigNodePropertyInteger queueThreadPoolSize) {
     this.queueThreadPoolSize = queueThreadPoolSize;
   }
 
-  public OrgApacheSlingEventJobsQueueConfigurationProperties serviceRanking(ConfigNodePropertyInteger serviceRanking) {
+  public OrgApacheSlingEventJobsQueueConfigurationProperties serviceRanking(@Nullable ConfigNodePropertyInteger serviceRanking) {
     this.serviceRanking = serviceRanking;
     return this;
   }
@@ -271,22 +282,21 @@ public class OrgApacheSlingEventJobsQueueConfigurationProperties   {
   /**
    * Get serviceRanking
    * @return serviceRanking
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getServiceRanking() {
+   */
+  @Valid 
+  @Schema(name = "service.ranking", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("service.ranking")
+  public @Nullable ConfigNodePropertyInteger getServiceRanking() {
     return serviceRanking;
   }
 
-  public void setServiceRanking(ConfigNodePropertyInteger serviceRanking) {
+  @JsonProperty("service.ranking")
+  public void setServiceRanking(@Nullable ConfigNodePropertyInteger serviceRanking) {
     this.serviceRanking = serviceRanking;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -316,7 +326,6 @@ public class OrgApacheSlingEventJobsQueueConfigurationProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class OrgApacheSlingEventJobsQueueConfigurationProperties {\n");
-    
     sb.append("    queueName: ").append(toIndentedString(queueName)).append("\n");
     sb.append("    queueTopics: ").append(toIndentedString(queueTopics)).append("\n");
     sb.append("    queueType: ").append(toIndentedString(queueType)).append("\n");
@@ -336,11 +345,8 @@ public class OrgApacheSlingEventJobsQueueConfigurationProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

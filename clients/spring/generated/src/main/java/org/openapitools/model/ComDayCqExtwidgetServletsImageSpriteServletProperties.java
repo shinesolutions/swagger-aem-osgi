@@ -1,27 +1,38 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyInteger;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComDayCqExtwidgetServletsImageSpriteServletProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComDayCqExtwidgetServletsImageSpriteServletProperties   {
-  @JsonProperty("maxWidth")
-  private ConfigNodePropertyInteger maxWidth = null;
+@JsonTypeName("comDayCqExtwidgetServletsImageSpriteServletProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComDayCqExtwidgetServletsImageSpriteServletProperties {
 
-  @JsonProperty("maxHeight")
-  private ConfigNodePropertyInteger maxHeight = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger maxWidth;
 
-  public ComDayCqExtwidgetServletsImageSpriteServletProperties maxWidth(ConfigNodePropertyInteger maxWidth) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger maxHeight;
+
+  public ComDayCqExtwidgetServletsImageSpriteServletProperties maxWidth(@Nullable ConfigNodePropertyInteger maxWidth) {
     this.maxWidth = maxWidth;
     return this;
   }
@@ -29,20 +40,20 @@ public class ComDayCqExtwidgetServletsImageSpriteServletProperties   {
   /**
    * Get maxWidth
    * @return maxWidth
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getMaxWidth() {
+   */
+  @Valid 
+  @Schema(name = "maxWidth", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("maxWidth")
+  public @Nullable ConfigNodePropertyInteger getMaxWidth() {
     return maxWidth;
   }
 
-  public void setMaxWidth(ConfigNodePropertyInteger maxWidth) {
+  @JsonProperty("maxWidth")
+  public void setMaxWidth(@Nullable ConfigNodePropertyInteger maxWidth) {
     this.maxWidth = maxWidth;
   }
 
-  public ComDayCqExtwidgetServletsImageSpriteServletProperties maxHeight(ConfigNodePropertyInteger maxHeight) {
+  public ComDayCqExtwidgetServletsImageSpriteServletProperties maxHeight(@Nullable ConfigNodePropertyInteger maxHeight) {
     this.maxHeight = maxHeight;
     return this;
   }
@@ -50,22 +61,21 @@ public class ComDayCqExtwidgetServletsImageSpriteServletProperties   {
   /**
    * Get maxHeight
    * @return maxHeight
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getMaxHeight() {
+   */
+  @Valid 
+  @Schema(name = "maxHeight", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("maxHeight")
+  public @Nullable ConfigNodePropertyInteger getMaxHeight() {
     return maxHeight;
   }
 
-  public void setMaxHeight(ConfigNodePropertyInteger maxHeight) {
+  @JsonProperty("maxHeight")
+  public void setMaxHeight(@Nullable ConfigNodePropertyInteger maxHeight) {
     this.maxHeight = maxHeight;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -86,7 +96,6 @@ public class ComDayCqExtwidgetServletsImageSpriteServletProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComDayCqExtwidgetServletsImageSpriteServletProperties {\n");
-    
     sb.append("    maxWidth: ").append(toIndentedString(maxWidth)).append("\n");
     sb.append("    maxHeight: ").append(toIndentedString(maxHeight)).append("\n");
     sb.append("}");
@@ -97,11 +106,8 @@ public class ComDayCqExtwidgetServletsImageSpriteServletProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

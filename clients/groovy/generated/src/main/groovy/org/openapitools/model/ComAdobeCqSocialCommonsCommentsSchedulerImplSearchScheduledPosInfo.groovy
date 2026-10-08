@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqSocialCommonsCommentsSchedulerImplSearch
 
 @Canonical
 class ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosProperties properties
 }

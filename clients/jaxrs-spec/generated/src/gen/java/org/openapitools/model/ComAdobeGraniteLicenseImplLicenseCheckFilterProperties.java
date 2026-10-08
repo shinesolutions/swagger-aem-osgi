@@ -1,22 +1,33 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comAdobeGraniteLicenseImplLicenseCheckFilterProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteLicenseImplLicenseCheckFilterProperties   {
-  
-  private @Valid ConfigNodePropertyInteger checkInternval = null;
-  private @Valid ConfigNodePropertyArray excludeIds = null;
-  private @Valid ConfigNodePropertyBoolean encryptPing = null;
+  private ConfigNodePropertyInteger checkInternval;
+  private ConfigNodePropertyArray excludeIds;
+  private ConfigNodePropertyBoolean encryptPing;
+
+  public ComAdobeGraniteLicenseImplLicenseCheckFilterProperties() {
+  }
 
   /**
    **/
@@ -28,9 +39,11 @@ public class ComAdobeGraniteLicenseImplLicenseCheckFilterProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("checkInternval")
-  public ConfigNodePropertyInteger getCheckInternval() {
+  @Valid public ConfigNodePropertyInteger getCheckInternval() {
     return checkInternval;
   }
+
+  @JsonProperty("checkInternval")
   public void setCheckInternval(ConfigNodePropertyInteger checkInternval) {
     this.checkInternval = checkInternval;
   }
@@ -45,9 +58,11 @@ public class ComAdobeGraniteLicenseImplLicenseCheckFilterProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("excludeIds")
-  public ConfigNodePropertyArray getExcludeIds() {
+  @Valid public ConfigNodePropertyArray getExcludeIds() {
     return excludeIds;
   }
+
+  @JsonProperty("excludeIds")
   public void setExcludeIds(ConfigNodePropertyArray excludeIds) {
     this.excludeIds = excludeIds;
   }
@@ -62,16 +77,18 @@ public class ComAdobeGraniteLicenseImplLicenseCheckFilterProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("encryptPing")
-  public ConfigNodePropertyBoolean getEncryptPing() {
+  @Valid public ConfigNodePropertyBoolean getEncryptPing() {
     return encryptPing;
   }
+
+  @JsonProperty("encryptPing")
   public void setEncryptPing(ConfigNodePropertyBoolean encryptPing) {
     this.encryptPing = encryptPing;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -79,9 +96,9 @@ public class ComAdobeGraniteLicenseImplLicenseCheckFilterProperties   {
       return false;
     }
     ComAdobeGraniteLicenseImplLicenseCheckFilterProperties comAdobeGraniteLicenseImplLicenseCheckFilterProperties = (ComAdobeGraniteLicenseImplLicenseCheckFilterProperties) o;
-    return Objects.equals(checkInternval, comAdobeGraniteLicenseImplLicenseCheckFilterProperties.checkInternval) &&
-        Objects.equals(excludeIds, comAdobeGraniteLicenseImplLicenseCheckFilterProperties.excludeIds) &&
-        Objects.equals(encryptPing, comAdobeGraniteLicenseImplLicenseCheckFilterProperties.encryptPing);
+    return Objects.equals(this.checkInternval, comAdobeGraniteLicenseImplLicenseCheckFilterProperties.checkInternval) &&
+        Objects.equals(this.excludeIds, comAdobeGraniteLicenseImplLicenseCheckFilterProperties.excludeIds) &&
+        Objects.equals(this.encryptPing, comAdobeGraniteLicenseImplLicenseCheckFilterProperties.encryptPing);
   }
 
   @Override
@@ -105,11 +122,9 @@ public class ComAdobeGraniteLicenseImplLicenseCheckFilterProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqScreensSegmentationImplSegmentationFeatureFlagInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqScreensSegmentationImplSegmentationFeatureFlagInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComAdobeCqScreensSegmentationImplSegmentationFeatureFlagProperties = openapi_server.resourceTypes.ComAdobeCqScreensSegmentationImplSegmentationFeatureFlagProperties
+}
+resourceTypes {
+
+  ComAdobeCqScreensSegmentationImplSegmentationFeatureFlagInfo {
+    title = ComAdobeCqScreensSegmentationImplSegmentationFeatureFlagInfo
+    description = ComAdobeCqScreensSegmentationImplSegmentationFeatureFlagInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComAdobeCqScreensSegmentationImplSegmentationFeatureFlagProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqScreensSegmentationImplSegmentationFeatureFlagInfo {
+    title = ComAdobeCqScreensSegmentationImplSegmentationFeatureFlagInfo
+    description = ComAdobeCqScreensSegmentationImplSegmentationFeatureFlagInfo
+    implements = openapi_server.resourceTypes.ComAdobeCqScreensSegmentationImplSegmentationFeatureFlagInfo
+
+  }
+}

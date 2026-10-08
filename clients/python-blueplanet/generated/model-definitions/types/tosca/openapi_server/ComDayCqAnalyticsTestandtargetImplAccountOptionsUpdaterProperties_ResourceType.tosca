@@ -1,0 +1,36 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqAnalyticsTestandtargetImplAccountOptionsUpdaterProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqAnalyticsTestandtargetImplAccountOptionsUpdaterProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+}
+resourceTypes {
+
+  ComDayCqAnalyticsTestandtargetImplAccountOptionsUpdaterProperties {
+    title = ComDayCqAnalyticsTestandtargetImplAccountOptionsUpdaterProperties
+    description = ComDayCqAnalyticsTestandtargetImplAccountOptionsUpdaterProperties
+    derivedFrom = Root
+    properties {
+        cq_analytics_testandtarget_accountoptionsupdater_enabled {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqAnalyticsTestandtargetImplAccountOptionsUpdaterProperties {
+    title = ComDayCqAnalyticsTestandtargetImplAccountOptionsUpdaterProperties
+    description = ComDayCqAnalyticsTestandtargetImplAccountOptionsUpdaterProperties
+    implements = openapi_server.resourceTypes.ComDayCqAnalyticsTestandtargetImplAccountOptionsUpdaterProperties
+
+  }
+}

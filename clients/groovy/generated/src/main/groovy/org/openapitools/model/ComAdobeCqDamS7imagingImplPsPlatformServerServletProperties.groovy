@@ -9,12 +9,12 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class ComAdobeCqDamS7imagingImplPsPlatformServerServletProperties {
-    ConfigNodePropertyBoolean cacheEnable = null
-
-    ConfigNodePropertyArray cacheRootPaths = null
-
-    ConfigNodePropertyInteger cacheMaxSize = null
-
-    ConfigNodePropertyInteger cacheMaxEntries = null
-
+    
+    ConfigNodePropertyBoolean cacheEnable
+    
+    ConfigNodePropertyArray cacheRootPaths
+    
+    ConfigNodePropertyInteger cacheMaxSize
+    
+    ConfigNodePropertyInteger cacheMaxEntries
 }

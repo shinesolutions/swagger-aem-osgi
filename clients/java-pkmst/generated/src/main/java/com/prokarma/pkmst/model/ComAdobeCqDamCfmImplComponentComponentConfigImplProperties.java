@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyString;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
@@ -15,30 +16,29 @@ import io.swagger.annotations.ApiModelProperty;
  * ComAdobeCqDamCfmImplComponentComponentConfigImplProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeCqDamCfmImplComponentComponentConfigImplProperties   {
   @JsonProperty("dam.cfm.component.resourceType")
-  private ConfigNodePropertyString damCfmComponentResourceType = null;
+  private ConfigNodePropertyString damCfmComponentResourceType;
 
   @JsonProperty("dam.cfm.component.fileReferenceProp")
-  private ConfigNodePropertyString damCfmComponentFileReferenceProp = null;
+  private ConfigNodePropertyString damCfmComponentFileReferenceProp;
 
   @JsonProperty("dam.cfm.component.elementsProp")
-  private ConfigNodePropertyString damCfmComponentElementsProp = null;
+  private ConfigNodePropertyString damCfmComponentElementsProp;
 
   @JsonProperty("dam.cfm.component.variationProp")
-  private ConfigNodePropertyString damCfmComponentVariationProp = null;
+  private ConfigNodePropertyString damCfmComponentVariationProp;
 
   public ComAdobeCqDamCfmImplComponentComponentConfigImplProperties damCfmComponentResourceType(ConfigNodePropertyString damCfmComponentResourceType) {
     this.damCfmComponentResourceType = damCfmComponentResourceType;
     return this;
   }
 
-   /**
+  /**
    * Get damCfmComponentResourceType
    * @return damCfmComponentResourceType
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getDamCfmComponentResourceType() {
     return damCfmComponentResourceType;
@@ -53,10 +53,10 @@ public class ComAdobeCqDamCfmImplComponentComponentConfigImplProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get damCfmComponentFileReferenceProp
    * @return damCfmComponentFileReferenceProp
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getDamCfmComponentFileReferenceProp() {
     return damCfmComponentFileReferenceProp;
@@ -71,10 +71,10 @@ public class ComAdobeCqDamCfmImplComponentComponentConfigImplProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get damCfmComponentElementsProp
    * @return damCfmComponentElementsProp
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getDamCfmComponentElementsProp() {
     return damCfmComponentElementsProp;
@@ -89,10 +89,10 @@ public class ComAdobeCqDamCfmImplComponentComponentConfigImplProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get damCfmComponentVariationProp
    * @return damCfmComponentVariationProp
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getDamCfmComponentVariationProp() {
     return damCfmComponentVariationProp;
@@ -104,7 +104,7 @@ public class ComAdobeCqDamCfmImplComponentComponentConfigImplProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -140,11 +140,8 @@ public class ComAdobeCqDamCfmImplComponentComponentConfigImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

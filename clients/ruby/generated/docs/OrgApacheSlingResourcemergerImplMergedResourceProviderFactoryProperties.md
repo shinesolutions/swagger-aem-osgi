@@ -2,18 +2,19 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**merge_root** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
-**merge_read_only** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **merge_root** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] |
+| **merge_read_only** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::OrgApacheSlingResourcemergerImplMergedResourceProviderFactoryProperties.new(merge_root: null,
-                                 merge_read_only: null)
+instance = SwaggerAemOsgiClient::OrgApacheSlingResourcemergerImplMergedResourceProviderFactoryProperties.new(
+  merge_root: null,
+  merge_read_only: null
+)
 ```
-
 

@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqMcmCampaignImplIntegrationConfigImplInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqMcmCampaignImplIntegrationConfigImplInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComDayCqMcmCampaignImplIntegrationConfigImplProperties = openapi_server.resourceTypes.ComDayCqMcmCampaignImplIntegrationConfigImplProperties
+}
+resourceTypes {
+
+  ComDayCqMcmCampaignImplIntegrationConfigImplInfo {
+    title = ComDayCqMcmCampaignImplIntegrationConfigImplInfo
+    description = ComDayCqMcmCampaignImplIntegrationConfigImplInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComDayCqMcmCampaignImplIntegrationConfigImplProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqMcmCampaignImplIntegrationConfigImplInfo {
+    title = ComDayCqMcmCampaignImplIntegrationConfigImplInfo
+    description = ComDayCqMcmCampaignImplIntegrationConfigImplInfo
+    implements = openapi_server.resourceTypes.ComDayCqMcmCampaignImplIntegrationConfigImplInfo
+
+  }
+}

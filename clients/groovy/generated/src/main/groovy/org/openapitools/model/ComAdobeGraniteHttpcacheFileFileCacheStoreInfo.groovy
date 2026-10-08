@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeGraniteHttpcacheFileFileCacheStoreProperti
 
 @Canonical
 class ComAdobeGraniteHttpcacheFileFileCacheStoreInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteHttpcacheFileFileCacheStoreProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteHttpcacheFileFileCacheStoreProperties properties
 }

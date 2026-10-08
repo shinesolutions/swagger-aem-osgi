@@ -1,5 +1,6 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
@@ -7,32 +8,35 @@ import javax.validation.constraints.*;
 import javax.validation.Valid;
 
 import io.swagger.annotations.ApiModelProperty;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlType;
-import javax.xml.bind.annotation.XmlEnum;
-import javax.xml.bind.annotation.XmlEnumValue;
+import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
 
 public class ComAdobeCqDamS7imagingImplPsPlatformServerServletProperties  {
   
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyBoolean cacheEnable = null;
+
+  private ConfigNodePropertyBoolean cacheEnable;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyArray cacheRootPaths = null;
+
+  private ConfigNodePropertyArray cacheRootPaths;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyInteger cacheMaxSize = null;
+
+  private ConfigNodePropertyInteger cacheMaxSize;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyInteger cacheMaxEntries = null;
+
+  private ConfigNodePropertyInteger cacheMaxEntries;
  /**
    * Get cacheEnable
    * @return cacheEnable
@@ -105,6 +109,25 @@ public class ComAdobeCqDamS7imagingImplPsPlatformServerServletProperties  {
     return this;
   }
 
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    ComAdobeCqDamS7imagingImplPsPlatformServerServletProperties comAdobeCqDamS7imagingImplPsPlatformServerServletProperties = (ComAdobeCqDamS7imagingImplPsPlatformServerServletProperties) o;
+    return Objects.equals(this.cacheEnable, comAdobeCqDamS7imagingImplPsPlatformServerServletProperties.cacheEnable) &&
+        Objects.equals(this.cacheRootPaths, comAdobeCqDamS7imagingImplPsPlatformServerServletProperties.cacheRootPaths) &&
+        Objects.equals(this.cacheMaxSize, comAdobeCqDamS7imagingImplPsPlatformServerServletProperties.cacheMaxSize) &&
+        Objects.equals(this.cacheMaxEntries, comAdobeCqDamS7imagingImplPsPlatformServerServletProperties.cacheMaxEntries);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(cacheEnable, cacheRootPaths, cacheMaxSize, cacheMaxEntries);
+  }
 
   @Override
   public String toString() {
@@ -123,11 +146,8 @@ public class ComAdobeCqDamS7imagingImplPsPlatformServerServletProperties  {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private static String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

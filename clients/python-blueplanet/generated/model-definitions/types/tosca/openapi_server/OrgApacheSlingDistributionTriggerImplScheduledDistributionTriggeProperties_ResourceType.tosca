@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggeProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggeProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggeProperties {
+    title = OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggeProperties
+    description = OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggeProperties
+    derivedFrom = Root
+    properties {
+        name {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        path {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        seconds {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        service_name {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggeProperties {
+    title = OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggeProperties
+    description = OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggeProperties
+    implements = openapi_server.resourceTypes.OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggeProperties
+
+  }
+}

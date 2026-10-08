@@ -3,6 +3,7 @@ package org.openapitools.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
@@ -12,34 +13,34 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 /**
  * OrgApacheSlingServletsGetDefaultGetServletProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaMSF4JServerCodegen", date = "2019-08-05T00:54:29.762Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaMSF4JServerCodegen", date = "2026-10-07T12:53:29.980508721Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingServletsGetDefaultGetServletProperties   {
   @JsonProperty("aliases")
-  private ConfigNodePropertyArray aliases = null;
+  private ConfigNodePropertyArray aliases;
 
   @JsonProperty("index")
-  private ConfigNodePropertyBoolean index = null;
+  private ConfigNodePropertyBoolean index;
 
   @JsonProperty("index.files")
-  private ConfigNodePropertyArray indexFiles = null;
+  private ConfigNodePropertyArray indexFiles;
 
   @JsonProperty("enable.html")
-  private ConfigNodePropertyBoolean enableHtml = null;
+  private ConfigNodePropertyBoolean enableHtml;
 
   @JsonProperty("enable.json")
-  private ConfigNodePropertyBoolean enableJson = null;
+  private ConfigNodePropertyBoolean enableJson;
 
   @JsonProperty("enable.txt")
-  private ConfigNodePropertyBoolean enableTxt = null;
+  private ConfigNodePropertyBoolean enableTxt;
 
   @JsonProperty("enable.xml")
-  private ConfigNodePropertyBoolean enableXml = null;
+  private ConfigNodePropertyBoolean enableXml;
 
   @JsonProperty("json.maximumresults")
-  private ConfigNodePropertyInteger jsonMaximumresults = null;
+  private ConfigNodePropertyInteger jsonMaximumresults;
 
   @JsonProperty("ecmaSuport")
-  private ConfigNodePropertyBoolean ecmaSuport = null;
+  private ConfigNodePropertyBoolean ecmaSuport;
 
   public OrgApacheSlingServletsGetDefaultGetServletProperties aliases(ConfigNodePropertyArray aliases) {
     this.aliases = aliases;
@@ -205,7 +206,7 @@ public class OrgApacheSlingServletsGetDefaultGetServletProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -251,11 +252,8 @@ public class OrgApacheSlingServletsGetDefaultGetServletProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

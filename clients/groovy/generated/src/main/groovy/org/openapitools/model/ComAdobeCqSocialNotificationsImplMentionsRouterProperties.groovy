@@ -7,8 +7,8 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeCqSocialNotificationsImplMentionsRouterProperties {
-    ConfigNodePropertyString eventTopics = null
-
-    ConfigNodePropertyString eventFilter = null
-
+    
+    ConfigNodePropertyString eventTopics
+    
+    ConfigNodePropertyString eventFilter
 }

@@ -8,8 +8,8 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeGraniteDistributionCoreImplReplicationAdaptersReplicatProperties {
-    ConfigNodePropertyString providerName = null
-
-    ConfigNodePropertyBoolean forwardRequests = null
-
+    
+    ConfigNodePropertyString providerName
+    
+    ConfigNodePropertyBoolean forwardRequests
 }

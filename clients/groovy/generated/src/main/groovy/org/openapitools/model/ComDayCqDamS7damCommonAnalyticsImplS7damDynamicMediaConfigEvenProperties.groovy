@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyBoolean;
 
 @Canonical
 class ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenProperties {
-    ConfigNodePropertyBoolean cqDamS7damDynamicmediaconfigeventlistenerEnabled = null
-
+    
+    ConfigNodePropertyBoolean cqDamS7damDynamicmediaconfigeventlistenerEnabled
 }

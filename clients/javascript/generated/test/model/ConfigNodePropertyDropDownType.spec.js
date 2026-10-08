@@ -50,19 +50,19 @@
   describe('ConfigNodePropertyDropDownType', function() {
     it('should create an instance of ConfigNodePropertyDropDownType', function() {
       // uncomment below and update the code to test ConfigNodePropertyDropDownType
-      //var instane = new NodeSwaggerAemOsgi.ConfigNodePropertyDropDownType();
+      //var instance = new NodeSwaggerAemOsgi.ConfigNodePropertyDropDownType();
       //expect(instance).to.be.a(NodeSwaggerAemOsgi.ConfigNodePropertyDropDownType);
     });
 
     it('should have the property labels (base name: "labels")', function() {
       // uncomment below and update the code to test the property labels
-      //var instane = new NodeSwaggerAemOsgi.ConfigNodePropertyDropDownType();
+      //var instance = new NodeSwaggerAemOsgi.ConfigNodePropertyDropDownType();
       //expect(instance).to.be();
     });
 
     it('should have the property values (base name: "values")', function() {
       // uncomment below and update the code to test the property values
-      //var instane = new NodeSwaggerAemOsgi.ConfigNodePropertyDropDownType();
+      //var instance = new NodeSwaggerAemOsgi.ConfigNodePropertyDropDownType();
       //expect(instance).to.be();
     });
 

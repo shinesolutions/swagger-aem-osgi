@@ -4,44 +4,48 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyDropDown;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2019-08-05T00:59:30.156Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2026-10-07T12:54:21.614735164Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties   {
   
-  private ConfigNodePropertyString name = null;
-  private ConfigNodePropertyString title = null;
-  private ConfigNodePropertyString details = null;
-  private ConfigNodePropertyBoolean enabled = null;
-  private ConfigNodePropertyString serviceName = null;
-  private ConfigNodePropertyDropDown logLevel = null;
-  private ConfigNodePropertyArray allowedRoots = null;
-  private ConfigNodePropertyBoolean queueProcessingEnabled = null;
-  private ConfigNodePropertyArray packageImporterEndpoints = null;
-  private ConfigNodePropertyArray passiveQueues = null;
-  private ConfigNodePropertyArray priorityQueues = null;
-  private ConfigNodePropertyDropDown retryStrategy = null;
-  private ConfigNodePropertyInteger retryAttempts = null;
-  private ConfigNodePropertyString requestAuthorizationStrategyTarget = null;
-  private ConfigNodePropertyString transportSecretProviderTarget = null;
-  private ConfigNodePropertyString packageBuilderTarget = null;
-  private ConfigNodePropertyString triggersTarget = null;
-  private ConfigNodePropertyDropDown queueProvider = null;
-  private ConfigNodePropertyBoolean asyncDelivery = null;
-  private ConfigNodePropertyInteger httpConnTimeout = null;
+  private ConfigNodePropertyString name;
+  private ConfigNodePropertyString title;
+  private ConfigNodePropertyString details;
+  private ConfigNodePropertyBoolean enabled;
+  private ConfigNodePropertyString serviceName;
+  private ConfigNodePropertyDropDown logLevel;
+  private ConfigNodePropertyArray allowedRoots;
+  private ConfigNodePropertyBoolean queueProcessingEnabled;
+  private ConfigNodePropertyArray packageImporterEndpoints;
+  private ConfigNodePropertyArray passiveQueues;
+  private ConfigNodePropertyArray priorityQueues;
+  private ConfigNodePropertyDropDown retryStrategy;
+  private ConfigNodePropertyInteger retryAttempts;
+  private ConfigNodePropertyString requestAuthorizationStrategyTarget;
+  private ConfigNodePropertyString transportSecretProviderTarget;
+  private ConfigNodePropertyString packageBuilderTarget;
+  private ConfigNodePropertyString triggersTarget;
+  private ConfigNodePropertyDropDown queueProvider;
+  private ConfigNodePropertyBoolean asyncDelivery;
+  private ConfigNodePropertyInteger httpConnTimeout;
 
   /**
    **/
   
   @ApiModelProperty(value = "")
   @JsonProperty("name")
+  @Valid
   public ConfigNodePropertyString getName() {
     return name;
   }
@@ -54,6 +58,7 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
   
   @ApiModelProperty(value = "")
   @JsonProperty("title")
+  @Valid
   public ConfigNodePropertyString getTitle() {
     return title;
   }
@@ -66,6 +71,7 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
   
   @ApiModelProperty(value = "")
   @JsonProperty("details")
+  @Valid
   public ConfigNodePropertyString getDetails() {
     return details;
   }
@@ -78,6 +84,7 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
   
   @ApiModelProperty(value = "")
   @JsonProperty("enabled")
+  @Valid
   public ConfigNodePropertyBoolean getEnabled() {
     return enabled;
   }
@@ -90,6 +97,7 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
   
   @ApiModelProperty(value = "")
   @JsonProperty("serviceName")
+  @Valid
   public ConfigNodePropertyString getServiceName() {
     return serviceName;
   }
@@ -102,6 +110,7 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
   
   @ApiModelProperty(value = "")
   @JsonProperty("log.level")
+  @Valid
   public ConfigNodePropertyDropDown getLogLevel() {
     return logLevel;
   }
@@ -114,6 +123,7 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
   
   @ApiModelProperty(value = "")
   @JsonProperty("allowed.roots")
+  @Valid
   public ConfigNodePropertyArray getAllowedRoots() {
     return allowedRoots;
   }
@@ -126,6 +136,7 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
   
   @ApiModelProperty(value = "")
   @JsonProperty("queue.processing.enabled")
+  @Valid
   public ConfigNodePropertyBoolean getQueueProcessingEnabled() {
     return queueProcessingEnabled;
   }
@@ -138,6 +149,7 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
   
   @ApiModelProperty(value = "")
   @JsonProperty("packageImporter.endpoints")
+  @Valid
   public ConfigNodePropertyArray getPackageImporterEndpoints() {
     return packageImporterEndpoints;
   }
@@ -150,6 +162,7 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
   
   @ApiModelProperty(value = "")
   @JsonProperty("passiveQueues")
+  @Valid
   public ConfigNodePropertyArray getPassiveQueues() {
     return passiveQueues;
   }
@@ -162,6 +175,7 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
   
   @ApiModelProperty(value = "")
   @JsonProperty("priorityQueues")
+  @Valid
   public ConfigNodePropertyArray getPriorityQueues() {
     return priorityQueues;
   }
@@ -174,6 +188,7 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
   
   @ApiModelProperty(value = "")
   @JsonProperty("retry.strategy")
+  @Valid
   public ConfigNodePropertyDropDown getRetryStrategy() {
     return retryStrategy;
   }
@@ -186,6 +201,7 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
   
   @ApiModelProperty(value = "")
   @JsonProperty("retry.attempts")
+  @Valid
   public ConfigNodePropertyInteger getRetryAttempts() {
     return retryAttempts;
   }
@@ -198,6 +214,7 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
   
   @ApiModelProperty(value = "")
   @JsonProperty("requestAuthorizationStrategy.target")
+  @Valid
   public ConfigNodePropertyString getRequestAuthorizationStrategyTarget() {
     return requestAuthorizationStrategyTarget;
   }
@@ -210,6 +227,7 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
   
   @ApiModelProperty(value = "")
   @JsonProperty("transportSecretProvider.target")
+  @Valid
   public ConfigNodePropertyString getTransportSecretProviderTarget() {
     return transportSecretProviderTarget;
   }
@@ -222,6 +240,7 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
   
   @ApiModelProperty(value = "")
   @JsonProperty("packageBuilder.target")
+  @Valid
   public ConfigNodePropertyString getPackageBuilderTarget() {
     return packageBuilderTarget;
   }
@@ -234,6 +253,7 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
   
   @ApiModelProperty(value = "")
   @JsonProperty("triggers.target")
+  @Valid
   public ConfigNodePropertyString getTriggersTarget() {
     return triggersTarget;
   }
@@ -246,6 +266,7 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
   
   @ApiModelProperty(value = "")
   @JsonProperty("queue.provider")
+  @Valid
   public ConfigNodePropertyDropDown getQueueProvider() {
     return queueProvider;
   }
@@ -258,6 +279,7 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
   
   @ApiModelProperty(value = "")
   @JsonProperty("async.delivery")
+  @Valid
   public ConfigNodePropertyBoolean getAsyncDelivery() {
     return asyncDelivery;
   }
@@ -270,6 +292,7 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
   
   @ApiModelProperty(value = "")
   @JsonProperty("http.conn.timeout")
+  @Valid
   public ConfigNodePropertyInteger getHttpConnTimeout() {
     return httpConnTimeout;
   }
@@ -279,7 +302,7 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -287,26 +310,26 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
       return false;
     }
     OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties orgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties = (OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties) o;
-    return Objects.equals(name, orgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties.name) &&
-        Objects.equals(title, orgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties.title) &&
-        Objects.equals(details, orgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties.details) &&
-        Objects.equals(enabled, orgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties.enabled) &&
-        Objects.equals(serviceName, orgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties.serviceName) &&
-        Objects.equals(logLevel, orgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties.logLevel) &&
-        Objects.equals(allowedRoots, orgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties.allowedRoots) &&
-        Objects.equals(queueProcessingEnabled, orgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties.queueProcessingEnabled) &&
-        Objects.equals(packageImporterEndpoints, orgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties.packageImporterEndpoints) &&
-        Objects.equals(passiveQueues, orgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties.passiveQueues) &&
-        Objects.equals(priorityQueues, orgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties.priorityQueues) &&
-        Objects.equals(retryStrategy, orgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties.retryStrategy) &&
-        Objects.equals(retryAttempts, orgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties.retryAttempts) &&
-        Objects.equals(requestAuthorizationStrategyTarget, orgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties.requestAuthorizationStrategyTarget) &&
-        Objects.equals(transportSecretProviderTarget, orgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties.transportSecretProviderTarget) &&
-        Objects.equals(packageBuilderTarget, orgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties.packageBuilderTarget) &&
-        Objects.equals(triggersTarget, orgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties.triggersTarget) &&
-        Objects.equals(queueProvider, orgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties.queueProvider) &&
-        Objects.equals(asyncDelivery, orgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties.asyncDelivery) &&
-        Objects.equals(httpConnTimeout, orgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties.httpConnTimeout);
+    return Objects.equals(this.name, orgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties.name) &&
+        Objects.equals(this.title, orgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties.title) &&
+        Objects.equals(this.details, orgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties.details) &&
+        Objects.equals(this.enabled, orgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties.enabled) &&
+        Objects.equals(this.serviceName, orgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties.serviceName) &&
+        Objects.equals(this.logLevel, orgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties.logLevel) &&
+        Objects.equals(this.allowedRoots, orgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties.allowedRoots) &&
+        Objects.equals(this.queueProcessingEnabled, orgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties.queueProcessingEnabled) &&
+        Objects.equals(this.packageImporterEndpoints, orgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties.packageImporterEndpoints) &&
+        Objects.equals(this.passiveQueues, orgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties.passiveQueues) &&
+        Objects.equals(this.priorityQueues, orgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties.priorityQueues) &&
+        Objects.equals(this.retryStrategy, orgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties.retryStrategy) &&
+        Objects.equals(this.retryAttempts, orgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties.retryAttempts) &&
+        Objects.equals(this.requestAuthorizationStrategyTarget, orgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties.requestAuthorizationStrategyTarget) &&
+        Objects.equals(this.transportSecretProviderTarget, orgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties.transportSecretProviderTarget) &&
+        Objects.equals(this.packageBuilderTarget, orgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties.packageBuilderTarget) &&
+        Objects.equals(this.triggersTarget, orgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties.triggersTarget) &&
+        Objects.equals(this.queueProvider, orgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties.queueProvider) &&
+        Objects.equals(this.asyncDelivery, orgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties.asyncDelivery) &&
+        Objects.equals(this.httpConnTimeout, orgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties.httpConnTimeout);
   }
 
   @Override
@@ -347,11 +370,8 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

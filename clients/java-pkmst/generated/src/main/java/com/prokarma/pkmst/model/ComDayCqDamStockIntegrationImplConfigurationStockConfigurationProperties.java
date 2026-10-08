@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyString;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
@@ -15,27 +16,26 @@ import io.swagger.annotations.ApiModelProperty;
  * ComDayCqDamStockIntegrationImplConfigurationStockConfigurationProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqDamStockIntegrationImplConfigurationStockConfigurationProperties   {
   @JsonProperty("name")
-  private ConfigNodePropertyString name = null;
+  private ConfigNodePropertyString name;
 
   @JsonProperty("locale")
-  private ConfigNodePropertyString locale = null;
+  private ConfigNodePropertyString locale;
 
   @JsonProperty("imsConfig")
-  private ConfigNodePropertyString imsConfig = null;
+  private ConfigNodePropertyString imsConfig;
 
   public ComDayCqDamStockIntegrationImplConfigurationStockConfigurationProperties name(ConfigNodePropertyString name) {
     this.name = name;
     return this;
   }
 
-   /**
+  /**
    * Get name
    * @return name
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getName() {
     return name;
@@ -50,10 +50,10 @@ public class ComDayCqDamStockIntegrationImplConfigurationStockConfigurationPrope
     return this;
   }
 
-   /**
+  /**
    * Get locale
    * @return locale
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getLocale() {
     return locale;
@@ -68,10 +68,10 @@ public class ComDayCqDamStockIntegrationImplConfigurationStockConfigurationPrope
     return this;
   }
 
-   /**
+  /**
    * Get imsConfig
    * @return imsConfig
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getImsConfig() {
     return imsConfig;
@@ -83,7 +83,7 @@ public class ComDayCqDamStockIntegrationImplConfigurationStockConfigurationPrope
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -117,11 +117,8 @@ public class ComDayCqDamStockIntegrationImplConfigurationStockConfigurationPrope
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -2,15 +2,15 @@
 # ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**defaultPeriodtransportPeriodagentMinustoMinusworkerPeriodprefix** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**defaultPeriodtransportPeriodagentMinustoMinusmasterPeriodprefix** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**defaultPeriodtransportPeriodinputPeriodpackage** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**defaultPeriodtransportPeriodoutputPeriodpackage** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**defaultPeriodtransportPeriodreplicationPeriodsynchronous** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**defaultPeriodtransportPeriodcontentpackage** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**offloadingPeriodtransporterPerioddefaultPeriodenabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **defaultTransportAgentToWorkerPrefix** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **defaultTransportAgentToMasterPrefix** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **defaultTransportInputPackage** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **defaultTransportOutputPackage** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **defaultTransportReplicationSynchronous** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **defaultTransportContentpackage** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **offloadingTransporterDefaultEnabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
 
 
 

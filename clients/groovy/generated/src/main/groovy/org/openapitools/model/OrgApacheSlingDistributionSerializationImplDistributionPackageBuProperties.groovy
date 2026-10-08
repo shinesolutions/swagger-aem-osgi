@@ -11,28 +11,28 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class OrgApacheSlingDistributionSerializationImplDistributionPackageBuProperties {
-    ConfigNodePropertyString name = null
-
-    ConfigNodePropertyDropDown type = null
-
-    ConfigNodePropertyString formatTarget = null
-
-    ConfigNodePropertyString tempFsFolder = null
-
-    ConfigNodePropertyInteger fileThreshold = null
-
-    ConfigNodePropertyDropDown memoryUnit = null
-
-    ConfigNodePropertyBoolean useOffHeapMemory = null
-
-    ConfigNodePropertyDropDown digestAlgorithm = null
-
-    ConfigNodePropertyInteger monitoringQueueSize = null
-
-    ConfigNodePropertyInteger cleanupDelay = null
-
-    ConfigNodePropertyArray packageFilters = null
-
-    ConfigNodePropertyArray propertyFilters = null
-
+    
+    ConfigNodePropertyString name
+    
+    ConfigNodePropertyDropDown type
+    
+    ConfigNodePropertyString formatTarget
+    
+    ConfigNodePropertyString tempFsFolder
+    
+    ConfigNodePropertyInteger fileThreshold
+    
+    ConfigNodePropertyDropDown memoryUnit
+    
+    ConfigNodePropertyBoolean useOffHeapMemory
+    
+    ConfigNodePropertyDropDown digestAlgorithm
+    
+    ConfigNodePropertyInteger monitoringQueueSize
+    
+    ConfigNodePropertyInteger cleanupDelay
+    
+    ConfigNodePropertyArray packageFilters
+    
+    ConfigNodePropertyArray propertyFilters
 }

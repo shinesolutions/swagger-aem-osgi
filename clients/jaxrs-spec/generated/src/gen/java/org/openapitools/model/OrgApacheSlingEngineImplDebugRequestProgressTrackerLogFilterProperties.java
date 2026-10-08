@@ -1,23 +1,34 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("orgApacheSlingEngineImplDebugRequestProgressTrackerLogFilterProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingEngineImplDebugRequestProgressTrackerLogFilterProperties   {
-  
-  private @Valid ConfigNodePropertyArray extensions = null;
-  private @Valid ConfigNodePropertyInteger minDurationMs = null;
-  private @Valid ConfigNodePropertyInteger maxDurationMs = null;
-  private @Valid ConfigNodePropertyBoolean compactLogFormat = null;
+  private ConfigNodePropertyArray extensions;
+  private ConfigNodePropertyInteger minDurationMs;
+  private ConfigNodePropertyInteger maxDurationMs;
+  private ConfigNodePropertyBoolean compactLogFormat;
+
+  public OrgApacheSlingEngineImplDebugRequestProgressTrackerLogFilterProperties() {
+  }
 
   /**
    **/
@@ -29,9 +40,11 @@ public class OrgApacheSlingEngineImplDebugRequestProgressTrackerLogFilterPropert
   
   @ApiModelProperty(value = "")
   @JsonProperty("extensions")
-  public ConfigNodePropertyArray getExtensions() {
+  @Valid public ConfigNodePropertyArray getExtensions() {
     return extensions;
   }
+
+  @JsonProperty("extensions")
   public void setExtensions(ConfigNodePropertyArray extensions) {
     this.extensions = extensions;
   }
@@ -46,9 +59,11 @@ public class OrgApacheSlingEngineImplDebugRequestProgressTrackerLogFilterPropert
   
   @ApiModelProperty(value = "")
   @JsonProperty("minDurationMs")
-  public ConfigNodePropertyInteger getMinDurationMs() {
+  @Valid public ConfigNodePropertyInteger getMinDurationMs() {
     return minDurationMs;
   }
+
+  @JsonProperty("minDurationMs")
   public void setMinDurationMs(ConfigNodePropertyInteger minDurationMs) {
     this.minDurationMs = minDurationMs;
   }
@@ -63,9 +78,11 @@ public class OrgApacheSlingEngineImplDebugRequestProgressTrackerLogFilterPropert
   
   @ApiModelProperty(value = "")
   @JsonProperty("maxDurationMs")
-  public ConfigNodePropertyInteger getMaxDurationMs() {
+  @Valid public ConfigNodePropertyInteger getMaxDurationMs() {
     return maxDurationMs;
   }
+
+  @JsonProperty("maxDurationMs")
   public void setMaxDurationMs(ConfigNodePropertyInteger maxDurationMs) {
     this.maxDurationMs = maxDurationMs;
   }
@@ -80,16 +97,18 @@ public class OrgApacheSlingEngineImplDebugRequestProgressTrackerLogFilterPropert
   
   @ApiModelProperty(value = "")
   @JsonProperty("compactLogFormat")
-  public ConfigNodePropertyBoolean getCompactLogFormat() {
+  @Valid public ConfigNodePropertyBoolean getCompactLogFormat() {
     return compactLogFormat;
   }
+
+  @JsonProperty("compactLogFormat")
   public void setCompactLogFormat(ConfigNodePropertyBoolean compactLogFormat) {
     this.compactLogFormat = compactLogFormat;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -97,10 +116,10 @@ public class OrgApacheSlingEngineImplDebugRequestProgressTrackerLogFilterPropert
       return false;
     }
     OrgApacheSlingEngineImplDebugRequestProgressTrackerLogFilterProperties orgApacheSlingEngineImplDebugRequestProgressTrackerLogFilterProperties = (OrgApacheSlingEngineImplDebugRequestProgressTrackerLogFilterProperties) o;
-    return Objects.equals(extensions, orgApacheSlingEngineImplDebugRequestProgressTrackerLogFilterProperties.extensions) &&
-        Objects.equals(minDurationMs, orgApacheSlingEngineImplDebugRequestProgressTrackerLogFilterProperties.minDurationMs) &&
-        Objects.equals(maxDurationMs, orgApacheSlingEngineImplDebugRequestProgressTrackerLogFilterProperties.maxDurationMs) &&
-        Objects.equals(compactLogFormat, orgApacheSlingEngineImplDebugRequestProgressTrackerLogFilterProperties.compactLogFormat);
+    return Objects.equals(this.extensions, orgApacheSlingEngineImplDebugRequestProgressTrackerLogFilterProperties.extensions) &&
+        Objects.equals(this.minDurationMs, orgApacheSlingEngineImplDebugRequestProgressTrackerLogFilterProperties.minDurationMs) &&
+        Objects.equals(this.maxDurationMs, orgApacheSlingEngineImplDebugRequestProgressTrackerLogFilterProperties.maxDurationMs) &&
+        Objects.equals(this.compactLogFormat, orgApacheSlingEngineImplDebugRequestProgressTrackerLogFilterProperties.compactLogFormat);
   }
 
   @Override
@@ -125,11 +144,9 @@ public class OrgApacheSlingEngineImplDebugRequestProgressTrackerLogFilterPropert
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

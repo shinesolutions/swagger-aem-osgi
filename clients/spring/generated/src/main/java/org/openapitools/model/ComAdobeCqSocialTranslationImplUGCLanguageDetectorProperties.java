@@ -1,47 +1,58 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties   {
-  @JsonProperty("event.topics")
-  private ConfigNodePropertyString eventTopics = null;
+@JsonTypeName("comAdobeCqSocialTranslationImplUGCLanguageDetectorProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties {
 
-  @JsonProperty("event.filter")
-  private ConfigNodePropertyString eventFilter = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString eventTopics;
 
-  @JsonProperty("translate.listener.type")
-  private ConfigNodePropertyArray translateListenerType = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString eventFilter;
 
-  @JsonProperty("translate.property.list")
-  private ConfigNodePropertyArray translatePropertyList = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray translateListenerType;
 
-  @JsonProperty("poolSize")
-  private ConfigNodePropertyInteger poolSize = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray translatePropertyList;
 
-  @JsonProperty("maxPoolSize")
-  private ConfigNodePropertyInteger maxPoolSize = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger poolSize;
 
-  @JsonProperty("queueSize")
-  private ConfigNodePropertyInteger queueSize = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger maxPoolSize;
 
-  @JsonProperty("keepAliveTime")
-  private ConfigNodePropertyInteger keepAliveTime = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger queueSize;
 
-  public ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties eventTopics(ConfigNodePropertyString eventTopics) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger keepAliveTime;
+
+  public ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties eventTopics(@Nullable ConfigNodePropertyString eventTopics) {
     this.eventTopics = eventTopics;
     return this;
   }
@@ -49,20 +60,20 @@ public class ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties   {
   /**
    * Get eventTopics
    * @return eventTopics
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getEventTopics() {
+   */
+  @Valid 
+  @Schema(name = "event.topics", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("event.topics")
+  public @Nullable ConfigNodePropertyString getEventTopics() {
     return eventTopics;
   }
 
-  public void setEventTopics(ConfigNodePropertyString eventTopics) {
+  @JsonProperty("event.topics")
+  public void setEventTopics(@Nullable ConfigNodePropertyString eventTopics) {
     this.eventTopics = eventTopics;
   }
 
-  public ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties eventFilter(ConfigNodePropertyString eventFilter) {
+  public ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties eventFilter(@Nullable ConfigNodePropertyString eventFilter) {
     this.eventFilter = eventFilter;
     return this;
   }
@@ -70,20 +81,20 @@ public class ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties   {
   /**
    * Get eventFilter
    * @return eventFilter
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getEventFilter() {
+   */
+  @Valid 
+  @Schema(name = "event.filter", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("event.filter")
+  public @Nullable ConfigNodePropertyString getEventFilter() {
     return eventFilter;
   }
 
-  public void setEventFilter(ConfigNodePropertyString eventFilter) {
+  @JsonProperty("event.filter")
+  public void setEventFilter(@Nullable ConfigNodePropertyString eventFilter) {
     this.eventFilter = eventFilter;
   }
 
-  public ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties translateListenerType(ConfigNodePropertyArray translateListenerType) {
+  public ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties translateListenerType(@Nullable ConfigNodePropertyArray translateListenerType) {
     this.translateListenerType = translateListenerType;
     return this;
   }
@@ -91,20 +102,20 @@ public class ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties   {
   /**
    * Get translateListenerType
    * @return translateListenerType
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getTranslateListenerType() {
+   */
+  @Valid 
+  @Schema(name = "translate.listener.type", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("translate.listener.type")
+  public @Nullable ConfigNodePropertyArray getTranslateListenerType() {
     return translateListenerType;
   }
 
-  public void setTranslateListenerType(ConfigNodePropertyArray translateListenerType) {
+  @JsonProperty("translate.listener.type")
+  public void setTranslateListenerType(@Nullable ConfigNodePropertyArray translateListenerType) {
     this.translateListenerType = translateListenerType;
   }
 
-  public ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties translatePropertyList(ConfigNodePropertyArray translatePropertyList) {
+  public ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties translatePropertyList(@Nullable ConfigNodePropertyArray translatePropertyList) {
     this.translatePropertyList = translatePropertyList;
     return this;
   }
@@ -112,20 +123,20 @@ public class ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties   {
   /**
    * Get translatePropertyList
    * @return translatePropertyList
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getTranslatePropertyList() {
+   */
+  @Valid 
+  @Schema(name = "translate.property.list", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("translate.property.list")
+  public @Nullable ConfigNodePropertyArray getTranslatePropertyList() {
     return translatePropertyList;
   }
 
-  public void setTranslatePropertyList(ConfigNodePropertyArray translatePropertyList) {
+  @JsonProperty("translate.property.list")
+  public void setTranslatePropertyList(@Nullable ConfigNodePropertyArray translatePropertyList) {
     this.translatePropertyList = translatePropertyList;
   }
 
-  public ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties poolSize(ConfigNodePropertyInteger poolSize) {
+  public ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties poolSize(@Nullable ConfigNodePropertyInteger poolSize) {
     this.poolSize = poolSize;
     return this;
   }
@@ -133,20 +144,20 @@ public class ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties   {
   /**
    * Get poolSize
    * @return poolSize
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getPoolSize() {
+   */
+  @Valid 
+  @Schema(name = "poolSize", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("poolSize")
+  public @Nullable ConfigNodePropertyInteger getPoolSize() {
     return poolSize;
   }
 
-  public void setPoolSize(ConfigNodePropertyInteger poolSize) {
+  @JsonProperty("poolSize")
+  public void setPoolSize(@Nullable ConfigNodePropertyInteger poolSize) {
     this.poolSize = poolSize;
   }
 
-  public ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties maxPoolSize(ConfigNodePropertyInteger maxPoolSize) {
+  public ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties maxPoolSize(@Nullable ConfigNodePropertyInteger maxPoolSize) {
     this.maxPoolSize = maxPoolSize;
     return this;
   }
@@ -154,20 +165,20 @@ public class ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties   {
   /**
    * Get maxPoolSize
    * @return maxPoolSize
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getMaxPoolSize() {
+   */
+  @Valid 
+  @Schema(name = "maxPoolSize", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("maxPoolSize")
+  public @Nullable ConfigNodePropertyInteger getMaxPoolSize() {
     return maxPoolSize;
   }
 
-  public void setMaxPoolSize(ConfigNodePropertyInteger maxPoolSize) {
+  @JsonProperty("maxPoolSize")
+  public void setMaxPoolSize(@Nullable ConfigNodePropertyInteger maxPoolSize) {
     this.maxPoolSize = maxPoolSize;
   }
 
-  public ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties queueSize(ConfigNodePropertyInteger queueSize) {
+  public ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties queueSize(@Nullable ConfigNodePropertyInteger queueSize) {
     this.queueSize = queueSize;
     return this;
   }
@@ -175,20 +186,20 @@ public class ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties   {
   /**
    * Get queueSize
    * @return queueSize
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getQueueSize() {
+   */
+  @Valid 
+  @Schema(name = "queueSize", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("queueSize")
+  public @Nullable ConfigNodePropertyInteger getQueueSize() {
     return queueSize;
   }
 
-  public void setQueueSize(ConfigNodePropertyInteger queueSize) {
+  @JsonProperty("queueSize")
+  public void setQueueSize(@Nullable ConfigNodePropertyInteger queueSize) {
     this.queueSize = queueSize;
   }
 
-  public ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties keepAliveTime(ConfigNodePropertyInteger keepAliveTime) {
+  public ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties keepAliveTime(@Nullable ConfigNodePropertyInteger keepAliveTime) {
     this.keepAliveTime = keepAliveTime;
     return this;
   }
@@ -196,22 +207,21 @@ public class ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties   {
   /**
    * Get keepAliveTime
    * @return keepAliveTime
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getKeepAliveTime() {
+   */
+  @Valid 
+  @Schema(name = "keepAliveTime", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("keepAliveTime")
+  public @Nullable ConfigNodePropertyInteger getKeepAliveTime() {
     return keepAliveTime;
   }
 
-  public void setKeepAliveTime(ConfigNodePropertyInteger keepAliveTime) {
+  @JsonProperty("keepAliveTime")
+  public void setKeepAliveTime(@Nullable ConfigNodePropertyInteger keepAliveTime) {
     this.keepAliveTime = keepAliveTime;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -238,7 +248,6 @@ public class ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties {\n");
-    
     sb.append("    eventTopics: ").append(toIndentedString(eventTopics)).append("\n");
     sb.append("    eventFilter: ").append(toIndentedString(eventFilter)).append("\n");
     sb.append("    translateListenerType: ").append(toIndentedString(translateListenerType)).append("\n");
@@ -255,11 +264,8 @@ public class ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

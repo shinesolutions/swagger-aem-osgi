@@ -8,12 +8,12 @@ import org.openapitools.model.ConfigNodePropertyDropDown;
 
 @Canonical
 class ComDayCqWcmMsmImplActionsContentCopyActionFactoryProperties {
-    ConfigNodePropertyArray cqWcmMsmActionExcludednodetypes = null
-
-    ConfigNodePropertyArray cqWcmMsmActionExcludedparagraphitems = null
-
-    ConfigNodePropertyArray cqWcmMsmActionExcludedprops = null
-
-    ConfigNodePropertyDropDown contentcopyactionOrderStyle = null
-
+    
+    ConfigNodePropertyArray cqWcmMsmActionExcludednodetypes
+    
+    ConfigNodePropertyArray cqWcmMsmActionExcludedparagraphitems
+    
+    ConfigNodePropertyArray cqWcmMsmActionExcludedprops
+    
+    ConfigNodePropertyDropDown contentcopyactionOrderStyle
 }

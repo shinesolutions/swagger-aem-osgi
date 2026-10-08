@@ -8,8 +8,8 @@ import org.openapitools.model.ConfigNodePropertyBoolean;
 
 @Canonical
 class ComAdobeGraniteRestAssetsImplAssetContentDispositionFilterProperties {
-    ConfigNodePropertyBoolean mimeAllowEmpty = null
-
-    ConfigNodePropertyArray mimeAllowed = null
-
+    
+    ConfigNodePropertyBoolean mimeAllowEmpty
+    
+    ConfigNodePropertyArray mimeAllowed
 }

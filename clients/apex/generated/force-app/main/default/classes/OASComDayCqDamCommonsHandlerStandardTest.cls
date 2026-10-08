@@ -72,9 +72,9 @@ private class OASComDayCqDamCommonsHandlerStandardTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqDamCommonsHandlerStandard comDayCqDamCommonsHandlerStandardImageHandlerProperties = new OASComDayCqDamCommonsHandlerStandard();
-        Map<String, String> propertyMappings = comDayCqDamCommonsHandlerStandardImageHandlerProperties.getPropertyMappings();
-        System.assertEquals('largeFileThreshold', propertyMappings.get('large_file_threshold'));
-        System.assertEquals('largeCommentThreshold', propertyMappings.get('large_comment_threshold'));
-        System.assertEquals('cqDamEnableExtMetaExtraction', propertyMappings.get('cq.dam.enable.ext.meta.extraction'));
+        Map<String, String> x-property-mappings = comDayCqDamCommonsHandlerStandardImageHandlerProperties.getx-property-mappings();
+        System.assertEquals('largeFileThreshold', x-property-mappings.get('large_file_threshold'));
+        System.assertEquals('largeCommentThreshold', x-property-mappings.get('large_comment_threshold'));
+        System.assertEquals('cqDamEnableExtMetaExtraction', x-property-mappings.get('cq.dam.enable.ext.meta.extraction'));
     }
 }

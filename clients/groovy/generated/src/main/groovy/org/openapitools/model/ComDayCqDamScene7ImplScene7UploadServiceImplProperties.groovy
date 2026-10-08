@@ -7,8 +7,8 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class ComDayCqDamScene7ImplScene7UploadServiceImplProperties {
-    ConfigNodePropertyInteger cqDamScene7UploadserviceActivejobtimeoutLabel = null
-
-    ConfigNodePropertyInteger cqDamScene7UploadserviceConnectionmaxperrouteLabel = null
-
+    
+    ConfigNodePropertyInteger cqDamScene7UploadserviceActivejobtimeoutLabel
+    
+    ConfigNodePropertyInteger cqDamScene7UploadserviceConnectionmaxperrouteLabel
 }

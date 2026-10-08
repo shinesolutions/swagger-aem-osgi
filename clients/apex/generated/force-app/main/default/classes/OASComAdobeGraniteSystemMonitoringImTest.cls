@@ -72,8 +72,8 @@ private class OASComAdobeGraniteSystemMonitoringImTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeGraniteSystemMonitoringIm comAdobeGraniteSystemMonitoringImplSystemStatsMBeanImplProperties = new OASComAdobeGraniteSystemMonitoringIm();
-        Map<String, String> propertyMappings = comAdobeGraniteSystemMonitoringImplSystemStatsMBeanImplProperties.getPropertyMappings();
-        System.assertEquals('schedulerExpression', propertyMappings.get('scheduler.expression'));
-        System.assertEquals('jmxObjectname', propertyMappings.get('jmx.objectname'));
+        Map<String, String> x-property-mappings = comAdobeGraniteSystemMonitoringImplSystemStatsMBeanImplProperties.getx-property-mappings();
+        System.assertEquals('schedulerExpression', x-property-mappings.get('scheduler.expression'));
+        System.assertEquals('jmxObjectname', x-property-mappings.get('jmx.objectname'));
     }
 }

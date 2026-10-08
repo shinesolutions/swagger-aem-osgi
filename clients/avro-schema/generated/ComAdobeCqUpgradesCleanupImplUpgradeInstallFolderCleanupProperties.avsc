@@ -1,0 +1,15 @@
+{
+  "namespace": "model",
+  "type": "record",
+  "doc": "",
+  "name": "ComAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanupProperties",
+  "fields": [
+    {
+      "name": "delete.name.regexps",
+      "type": ["null", "model.ConfigNodePropertyArray"],
+      "doc": "",
+      "default": null
+    }
+  ]
+
+}

@@ -72,8 +72,8 @@ private class OASComAdobeGraniteHttpcacheFileFileCTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeGraniteHttpcacheFileFileC comAdobeGraniteHttpcacheFileFileCacheStoreProperties = new OASComAdobeGraniteHttpcacheFileFileC();
-        Map<String, String> propertyMappings = comAdobeGraniteHttpcacheFileFileCacheStoreProperties.getPropertyMappings();
-        System.assertEquals('comAdobeGraniteHttpcacheFileDocumentRoot', propertyMappings.get('com.adobe.granite.httpcache.file.documentRoot'));
-        System.assertEquals('comAdobeGraniteHttpcacheFileIncludeHost', propertyMappings.get('com.adobe.granite.httpcache.file.includeHost'));
+        Map<String, String> x-property-mappings = comAdobeGraniteHttpcacheFileFileCacheStoreProperties.getx-property-mappings();
+        System.assertEquals('comAdobeGraniteHttpcacheFileDocumentRoot', x-property-mappings.get('com.adobe.granite.httpcache.file.documentRoot'));
+        System.assertEquals('comAdobeGraniteHttpcacheFileIncludeHost', x-property-mappings.get('com.adobe.granite.httpcache.file.includeHost'));
     }
 }

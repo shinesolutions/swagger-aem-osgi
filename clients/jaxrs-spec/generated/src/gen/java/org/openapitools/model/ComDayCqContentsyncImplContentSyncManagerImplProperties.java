@@ -1,19 +1,30 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comDayCqContentsyncImplContentSyncManagerImplProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqContentsyncImplContentSyncManagerImplProperties   {
-  
-  private @Valid ConfigNodePropertyString contentsyncFallbackAuthorizable = null;
-  private @Valid ConfigNodePropertyString contentsyncFallbackUpdateuser = null;
+  private ConfigNodePropertyString contentsyncFallbackAuthorizable;
+  private ConfigNodePropertyString contentsyncFallbackUpdateuser;
+
+  public ComDayCqContentsyncImplContentSyncManagerImplProperties() {
+  }
 
   /**
    **/
@@ -25,9 +36,11 @@ public class ComDayCqContentsyncImplContentSyncManagerImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("contentsync.fallback.authorizable")
-  public ConfigNodePropertyString getContentsyncFallbackAuthorizable() {
+  @Valid public ConfigNodePropertyString getContentsyncFallbackAuthorizable() {
     return contentsyncFallbackAuthorizable;
   }
+
+  @JsonProperty("contentsync.fallback.authorizable")
   public void setContentsyncFallbackAuthorizable(ConfigNodePropertyString contentsyncFallbackAuthorizable) {
     this.contentsyncFallbackAuthorizable = contentsyncFallbackAuthorizable;
   }
@@ -42,16 +55,18 @@ public class ComDayCqContentsyncImplContentSyncManagerImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("contentsync.fallback.updateuser")
-  public ConfigNodePropertyString getContentsyncFallbackUpdateuser() {
+  @Valid public ConfigNodePropertyString getContentsyncFallbackUpdateuser() {
     return contentsyncFallbackUpdateuser;
   }
+
+  @JsonProperty("contentsync.fallback.updateuser")
   public void setContentsyncFallbackUpdateuser(ConfigNodePropertyString contentsyncFallbackUpdateuser) {
     this.contentsyncFallbackUpdateuser = contentsyncFallbackUpdateuser;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -59,8 +74,8 @@ public class ComDayCqContentsyncImplContentSyncManagerImplProperties   {
       return false;
     }
     ComDayCqContentsyncImplContentSyncManagerImplProperties comDayCqContentsyncImplContentSyncManagerImplProperties = (ComDayCqContentsyncImplContentSyncManagerImplProperties) o;
-    return Objects.equals(contentsyncFallbackAuthorizable, comDayCqContentsyncImplContentSyncManagerImplProperties.contentsyncFallbackAuthorizable) &&
-        Objects.equals(contentsyncFallbackUpdateuser, comDayCqContentsyncImplContentSyncManagerImplProperties.contentsyncFallbackUpdateuser);
+    return Objects.equals(this.contentsyncFallbackAuthorizable, comDayCqContentsyncImplContentSyncManagerImplProperties.contentsyncFallbackAuthorizable) &&
+        Objects.equals(this.contentsyncFallbackUpdateuser, comDayCqContentsyncImplContentSyncManagerImplProperties.contentsyncFallbackUpdateuser);
   }
 
   @Override
@@ -83,11 +98,9 @@ public class ComDayCqContentsyncImplContentSyncManagerImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

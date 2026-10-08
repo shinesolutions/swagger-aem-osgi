@@ -1,31 +1,42 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComAdobeAemUpgradePrechecksHcImplReplicationAgentsDisabledHCProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComAdobeAemUpgradePrechecksHcImplReplicationAgentsDisabledHCProperties   {
-  @JsonProperty("hc.name")
-  private ConfigNodePropertyString hcName = null;
+@JsonTypeName("comAdobeAemUpgradePrechecksHcImplReplicationAgentsDisabledHCProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComAdobeAemUpgradePrechecksHcImplReplicationAgentsDisabledHCProperties {
 
-  @JsonProperty("hc.tags")
-  private ConfigNodePropertyArray hcTags = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString hcName;
 
-  @JsonProperty("hc.mbean.name")
-  private ConfigNodePropertyString hcMbeanName = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray hcTags;
 
-  public ComAdobeAemUpgradePrechecksHcImplReplicationAgentsDisabledHCProperties hcName(ConfigNodePropertyString hcName) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString hcMbeanName;
+
+  public ComAdobeAemUpgradePrechecksHcImplReplicationAgentsDisabledHCProperties hcName(@Nullable ConfigNodePropertyString hcName) {
     this.hcName = hcName;
     return this;
   }
@@ -33,20 +44,20 @@ public class ComAdobeAemUpgradePrechecksHcImplReplicationAgentsDisabledHCPropert
   /**
    * Get hcName
    * @return hcName
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getHcName() {
+   */
+  @Valid 
+  @Schema(name = "hc.name", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("hc.name")
+  public @Nullable ConfigNodePropertyString getHcName() {
     return hcName;
   }
 
-  public void setHcName(ConfigNodePropertyString hcName) {
+  @JsonProperty("hc.name")
+  public void setHcName(@Nullable ConfigNodePropertyString hcName) {
     this.hcName = hcName;
   }
 
-  public ComAdobeAemUpgradePrechecksHcImplReplicationAgentsDisabledHCProperties hcTags(ConfigNodePropertyArray hcTags) {
+  public ComAdobeAemUpgradePrechecksHcImplReplicationAgentsDisabledHCProperties hcTags(@Nullable ConfigNodePropertyArray hcTags) {
     this.hcTags = hcTags;
     return this;
   }
@@ -54,20 +65,20 @@ public class ComAdobeAemUpgradePrechecksHcImplReplicationAgentsDisabledHCPropert
   /**
    * Get hcTags
    * @return hcTags
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getHcTags() {
+   */
+  @Valid 
+  @Schema(name = "hc.tags", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("hc.tags")
+  public @Nullable ConfigNodePropertyArray getHcTags() {
     return hcTags;
   }
 
-  public void setHcTags(ConfigNodePropertyArray hcTags) {
+  @JsonProperty("hc.tags")
+  public void setHcTags(@Nullable ConfigNodePropertyArray hcTags) {
     this.hcTags = hcTags;
   }
 
-  public ComAdobeAemUpgradePrechecksHcImplReplicationAgentsDisabledHCProperties hcMbeanName(ConfigNodePropertyString hcMbeanName) {
+  public ComAdobeAemUpgradePrechecksHcImplReplicationAgentsDisabledHCProperties hcMbeanName(@Nullable ConfigNodePropertyString hcMbeanName) {
     this.hcMbeanName = hcMbeanName;
     return this;
   }
@@ -75,22 +86,21 @@ public class ComAdobeAemUpgradePrechecksHcImplReplicationAgentsDisabledHCPropert
   /**
    * Get hcMbeanName
    * @return hcMbeanName
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getHcMbeanName() {
+   */
+  @Valid 
+  @Schema(name = "hc.mbean.name", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("hc.mbean.name")
+  public @Nullable ConfigNodePropertyString getHcMbeanName() {
     return hcMbeanName;
   }
 
-  public void setHcMbeanName(ConfigNodePropertyString hcMbeanName) {
+  @JsonProperty("hc.mbean.name")
+  public void setHcMbeanName(@Nullable ConfigNodePropertyString hcMbeanName) {
     this.hcMbeanName = hcMbeanName;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -112,7 +122,6 @@ public class ComAdobeAemUpgradePrechecksHcImplReplicationAgentsDisabledHCPropert
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComAdobeAemUpgradePrechecksHcImplReplicationAgentsDisabledHCProperties {\n");
-    
     sb.append("    hcName: ").append(toIndentedString(hcName)).append("\n");
     sb.append("    hcTags: ").append(toIndentedString(hcTags)).append("\n");
     sb.append("    hcMbeanName: ").append(toIndentedString(hcMbeanName)).append("\n");
@@ -124,11 +133,8 @@ public class ComAdobeAemUpgradePrechecksHcImplReplicationAgentsDisabledHCPropert
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

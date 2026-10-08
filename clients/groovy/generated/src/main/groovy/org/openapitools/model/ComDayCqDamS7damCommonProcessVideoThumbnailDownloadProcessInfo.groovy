@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqDamS7damCommonProcessVideoThumbnailDownloa
 
 @Canonical
 class ComDayCqDamS7damCommonProcessVideoThumbnailDownloadProcessInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqDamS7damCommonProcessVideoThumbnailDownloadProcessProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqDamS7damCommonProcessVideoThumbnailDownloadProcessProperties properties
 }

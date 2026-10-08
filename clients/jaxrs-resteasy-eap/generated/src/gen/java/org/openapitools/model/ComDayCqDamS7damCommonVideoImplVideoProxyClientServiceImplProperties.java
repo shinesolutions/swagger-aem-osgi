@@ -4,30 +4,24 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2019-08-05T01:00:05.540Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2026-10-07T12:54:26.576036107Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplProperties   {
   
-
-  private ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceMultipartuploadMinsizeName = null;
-
-  private ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceMultipartuploadPartsizeName = null;
-
-  private ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceMultipartuploadNumthreadName = null;
-
-  private ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceHttpReadtimeoutName = null;
-
-  private ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceHttpConnectiontimeoutName = null;
-
-  private ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceHttpMaxretrycountName = null;
-
-  private ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceUploadprogressIntervalName = null;
+  private ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceMultipartuploadMinsizeName;
+  private ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceMultipartuploadPartsizeName;
+  private ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceMultipartuploadNumthreadName;
+  private ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceHttpReadtimeoutName;
+  private ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceHttpConnectiontimeoutName;
+  private ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceHttpMaxretrycountName;
+  private ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceUploadprogressIntervalName;
 
   /**
    **/
@@ -123,13 +117,13 @@ public class ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplPropertie
       return false;
     }
     ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplProperties comDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplProperties = (ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplProperties) o;
-    return Objects.equals(cqDamS7damVideoproxyclientserviceMultipartuploadMinsizeName, comDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplProperties.cqDamS7damVideoproxyclientserviceMultipartuploadMinsizeName) &&
-        Objects.equals(cqDamS7damVideoproxyclientserviceMultipartuploadPartsizeName, comDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplProperties.cqDamS7damVideoproxyclientserviceMultipartuploadPartsizeName) &&
-        Objects.equals(cqDamS7damVideoproxyclientserviceMultipartuploadNumthreadName, comDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplProperties.cqDamS7damVideoproxyclientserviceMultipartuploadNumthreadName) &&
-        Objects.equals(cqDamS7damVideoproxyclientserviceHttpReadtimeoutName, comDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplProperties.cqDamS7damVideoproxyclientserviceHttpReadtimeoutName) &&
-        Objects.equals(cqDamS7damVideoproxyclientserviceHttpConnectiontimeoutName, comDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplProperties.cqDamS7damVideoproxyclientserviceHttpConnectiontimeoutName) &&
-        Objects.equals(cqDamS7damVideoproxyclientserviceHttpMaxretrycountName, comDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplProperties.cqDamS7damVideoproxyclientserviceHttpMaxretrycountName) &&
-        Objects.equals(cqDamS7damVideoproxyclientserviceUploadprogressIntervalName, comDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplProperties.cqDamS7damVideoproxyclientserviceUploadprogressIntervalName);
+    return Objects.equals(this.cqDamS7damVideoproxyclientserviceMultipartuploadMinsizeName, comDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplProperties.cqDamS7damVideoproxyclientserviceMultipartuploadMinsizeName) &&
+        Objects.equals(this.cqDamS7damVideoproxyclientserviceMultipartuploadPartsizeName, comDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplProperties.cqDamS7damVideoproxyclientserviceMultipartuploadPartsizeName) &&
+        Objects.equals(this.cqDamS7damVideoproxyclientserviceMultipartuploadNumthreadName, comDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplProperties.cqDamS7damVideoproxyclientserviceMultipartuploadNumthreadName) &&
+        Objects.equals(this.cqDamS7damVideoproxyclientserviceHttpReadtimeoutName, comDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplProperties.cqDamS7damVideoproxyclientserviceHttpReadtimeoutName) &&
+        Objects.equals(this.cqDamS7damVideoproxyclientserviceHttpConnectiontimeoutName, comDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplProperties.cqDamS7damVideoproxyclientserviceHttpConnectiontimeoutName) &&
+        Objects.equals(this.cqDamS7damVideoproxyclientserviceHttpMaxretrycountName, comDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplProperties.cqDamS7damVideoproxyclientserviceHttpMaxretrycountName) &&
+        Objects.equals(this.cqDamS7damVideoproxyclientserviceUploadprogressIntervalName, comDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplProperties.cqDamS7damVideoproxyclientserviceUploadprogressIntervalName);
   }
 
   @Override
@@ -158,10 +152,7 @@ public class ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplPropertie
    * (except the first line).
    */
   private String toIndentedString(Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

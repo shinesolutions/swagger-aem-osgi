@@ -7,12 +7,12 @@ import org.openapitools.model.OrgApacheSlingCaconfigImplDefDefaultConfigurationI
 
 @Canonical
 class OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStraInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStraProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStraProperties properties
 }

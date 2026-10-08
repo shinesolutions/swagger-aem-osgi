@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqDamHandlerGibsonFontmanagerImplFontManager
 
 @Canonical
 class ComDayCqDamHandlerGibsonFontmanagerImplFontManagerServiceImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqDamHandlerGibsonFontmanagerImplFontManagerServiceImplProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqDamHandlerGibsonFontmanagerImplFontManagerServiceImplProperties properties
 }

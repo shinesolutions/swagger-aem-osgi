@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqDamCommonsHandlerStandardImageHandlerPrope
 
 @Canonical
 class ComDayCqDamCommonsHandlerStandardImageHandlerInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqDamCommonsHandlerStandardImageHandlerProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqDamCommonsHandlerStandardImageHandlerProperties properties
 }

@@ -1,33 +1,44 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComDayCqWcmMsmImplActionsContentUpdateActionFactoryProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComDayCqWcmMsmImplActionsContentUpdateActionFactoryProperties   {
-  @JsonProperty("cq.wcm.msm.action.excludednodetypes")
-  private ConfigNodePropertyArray cqWcmMsmActionExcludednodetypes = null;
+@JsonTypeName("comDayCqWcmMsmImplActionsContentUpdateActionFactoryProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComDayCqWcmMsmImplActionsContentUpdateActionFactoryProperties {
 
-  @JsonProperty("cq.wcm.msm.action.excludedparagraphitems")
-  private ConfigNodePropertyArray cqWcmMsmActionExcludedparagraphitems = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray cqWcmMsmActionExcludednodetypes;
 
-  @JsonProperty("cq.wcm.msm.action.excludedprops")
-  private ConfigNodePropertyArray cqWcmMsmActionExcludedprops = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray cqWcmMsmActionExcludedparagraphitems;
 
-  @JsonProperty("cq.wcm.msm.action.ignoredMixin")
-  private ConfigNodePropertyArray cqWcmMsmActionIgnoredMixin = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray cqWcmMsmActionExcludedprops;
 
-  public ComDayCqWcmMsmImplActionsContentUpdateActionFactoryProperties cqWcmMsmActionExcludednodetypes(ConfigNodePropertyArray cqWcmMsmActionExcludednodetypes) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray cqWcmMsmActionIgnoredMixin;
+
+  public ComDayCqWcmMsmImplActionsContentUpdateActionFactoryProperties cqWcmMsmActionExcludednodetypes(@Nullable ConfigNodePropertyArray cqWcmMsmActionExcludednodetypes) {
     this.cqWcmMsmActionExcludednodetypes = cqWcmMsmActionExcludednodetypes;
     return this;
   }
@@ -35,20 +46,20 @@ public class ComDayCqWcmMsmImplActionsContentUpdateActionFactoryProperties   {
   /**
    * Get cqWcmMsmActionExcludednodetypes
    * @return cqWcmMsmActionExcludednodetypes
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getCqWcmMsmActionExcludednodetypes() {
+   */
+  @Valid 
+  @Schema(name = "cq.wcm.msm.action.excludednodetypes", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cq.wcm.msm.action.excludednodetypes")
+  public @Nullable ConfigNodePropertyArray getCqWcmMsmActionExcludednodetypes() {
     return cqWcmMsmActionExcludednodetypes;
   }
 
-  public void setCqWcmMsmActionExcludednodetypes(ConfigNodePropertyArray cqWcmMsmActionExcludednodetypes) {
+  @JsonProperty("cq.wcm.msm.action.excludednodetypes")
+  public void setCqWcmMsmActionExcludednodetypes(@Nullable ConfigNodePropertyArray cqWcmMsmActionExcludednodetypes) {
     this.cqWcmMsmActionExcludednodetypes = cqWcmMsmActionExcludednodetypes;
   }
 
-  public ComDayCqWcmMsmImplActionsContentUpdateActionFactoryProperties cqWcmMsmActionExcludedparagraphitems(ConfigNodePropertyArray cqWcmMsmActionExcludedparagraphitems) {
+  public ComDayCqWcmMsmImplActionsContentUpdateActionFactoryProperties cqWcmMsmActionExcludedparagraphitems(@Nullable ConfigNodePropertyArray cqWcmMsmActionExcludedparagraphitems) {
     this.cqWcmMsmActionExcludedparagraphitems = cqWcmMsmActionExcludedparagraphitems;
     return this;
   }
@@ -56,20 +67,20 @@ public class ComDayCqWcmMsmImplActionsContentUpdateActionFactoryProperties   {
   /**
    * Get cqWcmMsmActionExcludedparagraphitems
    * @return cqWcmMsmActionExcludedparagraphitems
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getCqWcmMsmActionExcludedparagraphitems() {
+   */
+  @Valid 
+  @Schema(name = "cq.wcm.msm.action.excludedparagraphitems", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cq.wcm.msm.action.excludedparagraphitems")
+  public @Nullable ConfigNodePropertyArray getCqWcmMsmActionExcludedparagraphitems() {
     return cqWcmMsmActionExcludedparagraphitems;
   }
 
-  public void setCqWcmMsmActionExcludedparagraphitems(ConfigNodePropertyArray cqWcmMsmActionExcludedparagraphitems) {
+  @JsonProperty("cq.wcm.msm.action.excludedparagraphitems")
+  public void setCqWcmMsmActionExcludedparagraphitems(@Nullable ConfigNodePropertyArray cqWcmMsmActionExcludedparagraphitems) {
     this.cqWcmMsmActionExcludedparagraphitems = cqWcmMsmActionExcludedparagraphitems;
   }
 
-  public ComDayCqWcmMsmImplActionsContentUpdateActionFactoryProperties cqWcmMsmActionExcludedprops(ConfigNodePropertyArray cqWcmMsmActionExcludedprops) {
+  public ComDayCqWcmMsmImplActionsContentUpdateActionFactoryProperties cqWcmMsmActionExcludedprops(@Nullable ConfigNodePropertyArray cqWcmMsmActionExcludedprops) {
     this.cqWcmMsmActionExcludedprops = cqWcmMsmActionExcludedprops;
     return this;
   }
@@ -77,20 +88,20 @@ public class ComDayCqWcmMsmImplActionsContentUpdateActionFactoryProperties   {
   /**
    * Get cqWcmMsmActionExcludedprops
    * @return cqWcmMsmActionExcludedprops
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getCqWcmMsmActionExcludedprops() {
+   */
+  @Valid 
+  @Schema(name = "cq.wcm.msm.action.excludedprops", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cq.wcm.msm.action.excludedprops")
+  public @Nullable ConfigNodePropertyArray getCqWcmMsmActionExcludedprops() {
     return cqWcmMsmActionExcludedprops;
   }
 
-  public void setCqWcmMsmActionExcludedprops(ConfigNodePropertyArray cqWcmMsmActionExcludedprops) {
+  @JsonProperty("cq.wcm.msm.action.excludedprops")
+  public void setCqWcmMsmActionExcludedprops(@Nullable ConfigNodePropertyArray cqWcmMsmActionExcludedprops) {
     this.cqWcmMsmActionExcludedprops = cqWcmMsmActionExcludedprops;
   }
 
-  public ComDayCqWcmMsmImplActionsContentUpdateActionFactoryProperties cqWcmMsmActionIgnoredMixin(ConfigNodePropertyArray cqWcmMsmActionIgnoredMixin) {
+  public ComDayCqWcmMsmImplActionsContentUpdateActionFactoryProperties cqWcmMsmActionIgnoredMixin(@Nullable ConfigNodePropertyArray cqWcmMsmActionIgnoredMixin) {
     this.cqWcmMsmActionIgnoredMixin = cqWcmMsmActionIgnoredMixin;
     return this;
   }
@@ -98,22 +109,21 @@ public class ComDayCqWcmMsmImplActionsContentUpdateActionFactoryProperties   {
   /**
    * Get cqWcmMsmActionIgnoredMixin
    * @return cqWcmMsmActionIgnoredMixin
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getCqWcmMsmActionIgnoredMixin() {
+   */
+  @Valid 
+  @Schema(name = "cq.wcm.msm.action.ignoredMixin", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cq.wcm.msm.action.ignoredMixin")
+  public @Nullable ConfigNodePropertyArray getCqWcmMsmActionIgnoredMixin() {
     return cqWcmMsmActionIgnoredMixin;
   }
 
-  public void setCqWcmMsmActionIgnoredMixin(ConfigNodePropertyArray cqWcmMsmActionIgnoredMixin) {
+  @JsonProperty("cq.wcm.msm.action.ignoredMixin")
+  public void setCqWcmMsmActionIgnoredMixin(@Nullable ConfigNodePropertyArray cqWcmMsmActionIgnoredMixin) {
     this.cqWcmMsmActionIgnoredMixin = cqWcmMsmActionIgnoredMixin;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -136,7 +146,6 @@ public class ComDayCqWcmMsmImplActionsContentUpdateActionFactoryProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComDayCqWcmMsmImplActionsContentUpdateActionFactoryProperties {\n");
-    
     sb.append("    cqWcmMsmActionExcludednodetypes: ").append(toIndentedString(cqWcmMsmActionExcludednodetypes)).append("\n");
     sb.append("    cqWcmMsmActionExcludedparagraphitems: ").append(toIndentedString(cqWcmMsmActionExcludedparagraphitems)).append("\n");
     sb.append("    cqWcmMsmActionExcludedprops: ").append(toIndentedString(cqWcmMsmActionExcludedprops)).append("\n");
@@ -149,11 +158,8 @@ public class ComDayCqWcmMsmImplActionsContentUpdateActionFactoryProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

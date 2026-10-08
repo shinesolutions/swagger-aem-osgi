@@ -72,8 +72,8 @@ private class OASComAdobeGraniteRestAssetsImplAsseTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeGraniteRestAssetsImplAsse comAdobeGraniteRestAssetsImplAssetContentDispositionFilterProperties = new OASComAdobeGraniteRestAssetsImplAsse();
-        Map<String, String> propertyMappings = comAdobeGraniteRestAssetsImplAssetContentDispositionFilterProperties.getPropertyMappings();
-        System.assertEquals('mimeAllowEmpty', propertyMappings.get('mime.allowEmpty'));
-        System.assertEquals('mimeAllowed', propertyMappings.get('mime.allowed'));
+        Map<String, String> x-property-mappings = comAdobeGraniteRestAssetsImplAssetContentDispositionFilterProperties.getx-property-mappings();
+        System.assertEquals('mimeAllowEmpty', x-property-mappings.get('mime.allowEmpty'));
+        System.assertEquals('mimeAllowed', x-property-mappings.get('mime.allowed'));
     }
 }

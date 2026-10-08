@@ -1,0 +1,36 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullSProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullSProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullSProperties {
+    title = ComAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullSProperties
+    description = ComAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullSProperties
+    derivedFrom = Root
+    properties {
+        communities_integration_livefyre_sling_event_filter {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullSProperties {
+    title = ComAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullSProperties
+    description = ComAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullSProperties
+    implements = openapi_server.resourceTypes.ComAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullSProperties
+
+  }
+}

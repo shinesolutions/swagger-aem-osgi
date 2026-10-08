@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqMcmLandingpageParserTaghandlersMboxTargetC
 
 @Canonical
 class ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHProperties properties
 }

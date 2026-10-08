@@ -72,13 +72,13 @@ private class OASComAdobeGraniteOffloadingImplTranTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeGraniteOffloadingImplTran comAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoProperties = new OASComAdobeGraniteOffloadingImplTran();
-        Map<String, String> propertyMappings = comAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoProperties.getPropertyMappings();
-        System.assertEquals('defaultTransportAgentToWorkerPrefix', propertyMappings.get('default.transport.agent-to-worker.prefix'));
-        System.assertEquals('defaultTransportAgentToMasterPrefix', propertyMappings.get('default.transport.agent-to-master.prefix'));
-        System.assertEquals('defaultTransportInputPackage', propertyMappings.get('default.transport.input.package'));
-        System.assertEquals('defaultTransportOutputPackage', propertyMappings.get('default.transport.output.package'));
-        System.assertEquals('defaultTransportReplicationSynchronous', propertyMappings.get('default.transport.replication.synchronous'));
-        System.assertEquals('defaultTransportContentpackage', propertyMappings.get('default.transport.contentpackage'));
-        System.assertEquals('offloadingTransporterDefaultEnabled', propertyMappings.get('offloading.transporter.default.enabled'));
+        Map<String, String> x-property-mappings = comAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoProperties.getx-property-mappings();
+        System.assertEquals('defaultTransportAgentToWorkerPrefix', x-property-mappings.get('default.transport.agent-to-worker.prefix'));
+        System.assertEquals('defaultTransportAgentToMasterPrefix', x-property-mappings.get('default.transport.agent-to-master.prefix'));
+        System.assertEquals('defaultTransportInputPackage', x-property-mappings.get('default.transport.input.package'));
+        System.assertEquals('defaultTransportOutputPackage', x-property-mappings.get('default.transport.output.package'));
+        System.assertEquals('defaultTransportReplicationSynchronous', x-property-mappings.get('default.transport.replication.synchronous'));
+        System.assertEquals('defaultTransportContentpackage', x-property-mappings.get('default.transport.contentpackage'));
+        System.assertEquals('offloadingTransporterDefaultEnabled', x-property-mappings.get('offloading.transporter.default.enabled'));
     }
 }

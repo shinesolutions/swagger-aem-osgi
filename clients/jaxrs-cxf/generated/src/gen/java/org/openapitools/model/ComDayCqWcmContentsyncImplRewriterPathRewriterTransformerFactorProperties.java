@@ -1,45 +1,53 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
 import io.swagger.annotations.ApiModelProperty;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlType;
-import javax.xml.bind.annotation.XmlEnum;
-import javax.xml.bind.annotation.XmlEnumValue;
+import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
 
 public class ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorProperties  {
   
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyArray cqContentsyncPathrewritertransformerMappingLinks = null;
+
+  private ConfigNodePropertyArray cqContentsyncPathrewritertransformerMappingLinks;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyArray cqContentsyncPathrewritertransformerMappingClientlibs = null;
+
+  private ConfigNodePropertyArray cqContentsyncPathrewritertransformerMappingClientlibs;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyArray cqContentsyncPathrewritertransformerMappingImages = null;
+
+  private ConfigNodePropertyArray cqContentsyncPathrewritertransformerMappingImages;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyString cqContentsyncPathrewritertransformerAttributePattern = null;
+
+  private ConfigNodePropertyString cqContentsyncPathrewritertransformerAttributePattern;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyString cqContentsyncPathrewritertransformerClientlibraryPattern = null;
+
+  private ConfigNodePropertyString cqContentsyncPathrewritertransformerClientlibraryPattern;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyString cqContentsyncPathrewritertransformerClientlibraryReplace = null;
+
+  private ConfigNodePropertyString cqContentsyncPathrewritertransformerClientlibraryReplace;
  /**
    * Get cqContentsyncPathrewritertransformerMappingLinks
    * @return cqContentsyncPathrewritertransformerMappingLinks
@@ -148,6 +156,27 @@ public class ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorProp
     return this;
   }
 
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorProperties comDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorProperties = (ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorProperties) o;
+    return Objects.equals(this.cqContentsyncPathrewritertransformerMappingLinks, comDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorProperties.cqContentsyncPathrewritertransformerMappingLinks) &&
+        Objects.equals(this.cqContentsyncPathrewritertransformerMappingClientlibs, comDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorProperties.cqContentsyncPathrewritertransformerMappingClientlibs) &&
+        Objects.equals(this.cqContentsyncPathrewritertransformerMappingImages, comDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorProperties.cqContentsyncPathrewritertransformerMappingImages) &&
+        Objects.equals(this.cqContentsyncPathrewritertransformerAttributePattern, comDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorProperties.cqContentsyncPathrewritertransformerAttributePattern) &&
+        Objects.equals(this.cqContentsyncPathrewritertransformerClientlibraryPattern, comDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorProperties.cqContentsyncPathrewritertransformerClientlibraryPattern) &&
+        Objects.equals(this.cqContentsyncPathrewritertransformerClientlibraryReplace, comDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorProperties.cqContentsyncPathrewritertransformerClientlibraryReplace);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(cqContentsyncPathrewritertransformerMappingLinks, cqContentsyncPathrewritertransformerMappingClientlibs, cqContentsyncPathrewritertransformerMappingImages, cqContentsyncPathrewritertransformerAttributePattern, cqContentsyncPathrewritertransformerClientlibraryPattern, cqContentsyncPathrewritertransformerClientlibraryReplace);
+  }
 
   @Override
   public String toString() {
@@ -168,11 +197,8 @@ public class ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorProp
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private static String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

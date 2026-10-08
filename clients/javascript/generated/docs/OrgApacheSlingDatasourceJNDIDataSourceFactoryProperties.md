@@ -1,6 +1,7 @@
 # NodeSwaggerAemOsgi.OrgApacheSlingDatasourceJNDIDataSourceFactoryProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **datasourceName** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 

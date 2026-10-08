@@ -72,8 +72,8 @@ private class OASComAdobeCqSocialCommonsUgclimiterTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeCqSocialCommonsUgclimiter comAdobeCqSocialCommonsUgclimiterImplUGCLimiterServiceImplProperties = new OASComAdobeCqSocialCommonsUgclimiter();
-        Map<String, String> propertyMappings = comAdobeCqSocialCommonsUgclimiterImplUGCLimiterServiceImplProperties.getPropertyMappings();
-        System.assertEquals('eventTopics', propertyMappings.get('event.topics'));
-        System.assertEquals('eventFilter', propertyMappings.get('event.filter'));
+        Map<String, String> x-property-mappings = comAdobeCqSocialCommonsUgclimiterImplUGCLimiterServiceImplProperties.getx-property-mappings();
+        System.assertEquals('eventTopics', x-property-mappings.get('event.topics'));
+        System.assertEquals('eventFilter', x-property-mappings.get('event.filter'));
     }
 }

@@ -1,7 +1,9 @@
 
+
 # ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **enable** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
@@ -9,6 +11,7 @@ Name | Type | Description | Notes
 **ugcLimitDuration** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
 **domains** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
 **toList** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
+
 
 
 

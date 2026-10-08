@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqAnalyticsTestandtargetImplSegmentImporterP
 
 @Canonical
 class ComDayCqAnalyticsTestandtargetImplSegmentImporterInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqAnalyticsTestandtargetImplSegmentImporterProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqAnalyticsTestandtargetImplSegmentImporterProperties properties
 }

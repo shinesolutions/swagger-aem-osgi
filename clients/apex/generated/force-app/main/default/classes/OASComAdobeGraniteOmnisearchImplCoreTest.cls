@@ -72,8 +72,8 @@ private class OASComAdobeGraniteOmnisearchImplCoreTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeGraniteOmnisearchImplCore comAdobeGraniteOmnisearchImplCoreOmniSearchServiceImplProperties = new OASComAdobeGraniteOmnisearchImplCore();
-        Map<String, String> propertyMappings = comAdobeGraniteOmnisearchImplCoreOmniSearchServiceImplProperties.getPropertyMappings();
-        System.assertEquals('omnisearchSuggestionRequiretextMin', propertyMappings.get('omnisearch.suggestion.requiretext.min'));
-        System.assertEquals('omnisearchSuggestionSpellcheckRequire', propertyMappings.get('omnisearch.suggestion.spellcheck.require'));
+        Map<String, String> x-property-mappings = comAdobeGraniteOmnisearchImplCoreOmniSearchServiceImplProperties.getx-property-mappings();
+        System.assertEquals('omnisearchSuggestionRequiretextMin', x-property-mappings.get('omnisearch.suggestion.requiretext.min'));
+        System.assertEquals('omnisearchSuggestionSpellcheckRequire', x-property-mappings.get('omnisearch.suggestion.spellcheck.require'));
     }
 }

@@ -72,29 +72,29 @@ private class OASOrgApacheJackrabbitOakSecurityAutTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASOrgApacheJackrabbitOakSecurityAut orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties = new OASOrgApacheJackrabbitOakSecurityAut();
-        Map<String, String> propertyMappings = orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties.getPropertyMappings();
-        System.assertEquals('providerName', propertyMappings.get('provider.name'));
-        System.assertEquals('hostName', propertyMappings.get('host.name'));
-        System.assertEquals('hostPort', propertyMappings.get('host.port'));
-        System.assertEquals('hostSsl', propertyMappings.get('host.ssl'));
-        System.assertEquals('hostTls', propertyMappings.get('host.tls'));
-        System.assertEquals('hostNoCertCheck', propertyMappings.get('host.noCertCheck'));
-        System.assertEquals('bindDn', propertyMappings.get('bind.dn'));
-        System.assertEquals('bindPassword', propertyMappings.get('bind.password'));
-        System.assertEquals('adminPoolMaxActive', propertyMappings.get('adminPool.maxActive'));
-        System.assertEquals('adminPoolLookupOnValidate', propertyMappings.get('adminPool.lookupOnValidate'));
-        System.assertEquals('userPoolMaxActive', propertyMappings.get('userPool.maxActive'));
-        System.assertEquals('userPoolLookupOnValidate', propertyMappings.get('userPool.lookupOnValidate'));
-        System.assertEquals('userBaseDN', propertyMappings.get('user.baseDN'));
-        System.assertEquals('userObjectclass', propertyMappings.get('user.objectclass'));
-        System.assertEquals('userIdAttribute', propertyMappings.get('user.idAttribute'));
-        System.assertEquals('userExtraFilter', propertyMappings.get('user.extraFilter'));
-        System.assertEquals('userMakeDnPath', propertyMappings.get('user.makeDnPath'));
-        System.assertEquals('groupBaseDN', propertyMappings.get('group.baseDN'));
-        System.assertEquals('groupObjectclass', propertyMappings.get('group.objectclass'));
-        System.assertEquals('groupNameAttribute', propertyMappings.get('group.nameAttribute'));
-        System.assertEquals('groupExtraFilter', propertyMappings.get('group.extraFilter'));
-        System.assertEquals('groupMakeDnPath', propertyMappings.get('group.makeDnPath'));
-        System.assertEquals('groupMemberAttribute', propertyMappings.get('group.memberAttribute'));
+        Map<String, String> x-property-mappings = orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties.getx-property-mappings();
+        System.assertEquals('providerName', x-property-mappings.get('provider.name'));
+        System.assertEquals('hostName', x-property-mappings.get('host.name'));
+        System.assertEquals('hostPort', x-property-mappings.get('host.port'));
+        System.assertEquals('hostSsl', x-property-mappings.get('host.ssl'));
+        System.assertEquals('hostTls', x-property-mappings.get('host.tls'));
+        System.assertEquals('hostNoCertCheck', x-property-mappings.get('host.noCertCheck'));
+        System.assertEquals('bindDn', x-property-mappings.get('bind.dn'));
+        System.assertEquals('bindPassword', x-property-mappings.get('bind.password'));
+        System.assertEquals('adminPoolMaxActive', x-property-mappings.get('adminPool.maxActive'));
+        System.assertEquals('adminPoolLookupOnValidate', x-property-mappings.get('adminPool.lookupOnValidate'));
+        System.assertEquals('userPoolMaxActive', x-property-mappings.get('userPool.maxActive'));
+        System.assertEquals('userPoolLookupOnValidate', x-property-mappings.get('userPool.lookupOnValidate'));
+        System.assertEquals('userBaseDN', x-property-mappings.get('user.baseDN'));
+        System.assertEquals('userObjectclass', x-property-mappings.get('user.objectclass'));
+        System.assertEquals('userIdAttribute', x-property-mappings.get('user.idAttribute'));
+        System.assertEquals('userExtraFilter', x-property-mappings.get('user.extraFilter'));
+        System.assertEquals('userMakeDnPath', x-property-mappings.get('user.makeDnPath'));
+        System.assertEquals('groupBaseDN', x-property-mappings.get('group.baseDN'));
+        System.assertEquals('groupObjectclass', x-property-mappings.get('group.objectclass'));
+        System.assertEquals('groupNameAttribute', x-property-mappings.get('group.nameAttribute'));
+        System.assertEquals('groupExtraFilter', x-property-mappings.get('group.extraFilter'));
+        System.assertEquals('groupMakeDnPath', x-property-mappings.get('group.makeDnPath'));
+        System.assertEquals('groupMemberAttribute', x-property-mappings.get('group.memberAttribute'));
     }
 }

@@ -7,12 +7,12 @@ import org.openapitools.model.OrgApacheJackrabbitVaultPackagingImplPackagingImpl
 
 @Canonical
 class OrgApacheJackrabbitVaultPackagingImplPackagingImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheJackrabbitVaultPackagingImplPackagingImplProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheJackrabbitVaultPackagingImplPackagingImplProperties properties
 }

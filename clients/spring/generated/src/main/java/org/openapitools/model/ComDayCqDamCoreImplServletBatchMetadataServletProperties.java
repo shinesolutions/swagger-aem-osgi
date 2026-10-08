@@ -1,31 +1,42 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyInteger;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComDayCqDamCoreImplServletBatchMetadataServletProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComDayCqDamCoreImplServletBatchMetadataServletProperties   {
-  @JsonProperty("cq.dam.batch.metadata.asset.default")
-  private ConfigNodePropertyArray cqDamBatchMetadataAssetDefault = null;
+@JsonTypeName("comDayCqDamCoreImplServletBatchMetadataServletProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComDayCqDamCoreImplServletBatchMetadataServletProperties {
 
-  @JsonProperty("cq.dam.batch.metadata.collection.default")
-  private ConfigNodePropertyArray cqDamBatchMetadataCollectionDefault = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray cqDamBatchMetadataAssetDefault;
 
-  @JsonProperty("cq.dam.batch.metadata.maxresources")
-  private ConfigNodePropertyInteger cqDamBatchMetadataMaxresources = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray cqDamBatchMetadataCollectionDefault;
 
-  public ComDayCqDamCoreImplServletBatchMetadataServletProperties cqDamBatchMetadataAssetDefault(ConfigNodePropertyArray cqDamBatchMetadataAssetDefault) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger cqDamBatchMetadataMaxresources;
+
+  public ComDayCqDamCoreImplServletBatchMetadataServletProperties cqDamBatchMetadataAssetDefault(@Nullable ConfigNodePropertyArray cqDamBatchMetadataAssetDefault) {
     this.cqDamBatchMetadataAssetDefault = cqDamBatchMetadataAssetDefault;
     return this;
   }
@@ -33,20 +44,20 @@ public class ComDayCqDamCoreImplServletBatchMetadataServletProperties   {
   /**
    * Get cqDamBatchMetadataAssetDefault
    * @return cqDamBatchMetadataAssetDefault
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getCqDamBatchMetadataAssetDefault() {
+   */
+  @Valid 
+  @Schema(name = "cq.dam.batch.metadata.asset.default", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cq.dam.batch.metadata.asset.default")
+  public @Nullable ConfigNodePropertyArray getCqDamBatchMetadataAssetDefault() {
     return cqDamBatchMetadataAssetDefault;
   }
 
-  public void setCqDamBatchMetadataAssetDefault(ConfigNodePropertyArray cqDamBatchMetadataAssetDefault) {
+  @JsonProperty("cq.dam.batch.metadata.asset.default")
+  public void setCqDamBatchMetadataAssetDefault(@Nullable ConfigNodePropertyArray cqDamBatchMetadataAssetDefault) {
     this.cqDamBatchMetadataAssetDefault = cqDamBatchMetadataAssetDefault;
   }
 
-  public ComDayCqDamCoreImplServletBatchMetadataServletProperties cqDamBatchMetadataCollectionDefault(ConfigNodePropertyArray cqDamBatchMetadataCollectionDefault) {
+  public ComDayCqDamCoreImplServletBatchMetadataServletProperties cqDamBatchMetadataCollectionDefault(@Nullable ConfigNodePropertyArray cqDamBatchMetadataCollectionDefault) {
     this.cqDamBatchMetadataCollectionDefault = cqDamBatchMetadataCollectionDefault;
     return this;
   }
@@ -54,20 +65,20 @@ public class ComDayCqDamCoreImplServletBatchMetadataServletProperties   {
   /**
    * Get cqDamBatchMetadataCollectionDefault
    * @return cqDamBatchMetadataCollectionDefault
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getCqDamBatchMetadataCollectionDefault() {
+   */
+  @Valid 
+  @Schema(name = "cq.dam.batch.metadata.collection.default", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cq.dam.batch.metadata.collection.default")
+  public @Nullable ConfigNodePropertyArray getCqDamBatchMetadataCollectionDefault() {
     return cqDamBatchMetadataCollectionDefault;
   }
 
-  public void setCqDamBatchMetadataCollectionDefault(ConfigNodePropertyArray cqDamBatchMetadataCollectionDefault) {
+  @JsonProperty("cq.dam.batch.metadata.collection.default")
+  public void setCqDamBatchMetadataCollectionDefault(@Nullable ConfigNodePropertyArray cqDamBatchMetadataCollectionDefault) {
     this.cqDamBatchMetadataCollectionDefault = cqDamBatchMetadataCollectionDefault;
   }
 
-  public ComDayCqDamCoreImplServletBatchMetadataServletProperties cqDamBatchMetadataMaxresources(ConfigNodePropertyInteger cqDamBatchMetadataMaxresources) {
+  public ComDayCqDamCoreImplServletBatchMetadataServletProperties cqDamBatchMetadataMaxresources(@Nullable ConfigNodePropertyInteger cqDamBatchMetadataMaxresources) {
     this.cqDamBatchMetadataMaxresources = cqDamBatchMetadataMaxresources;
     return this;
   }
@@ -75,22 +86,21 @@ public class ComDayCqDamCoreImplServletBatchMetadataServletProperties   {
   /**
    * Get cqDamBatchMetadataMaxresources
    * @return cqDamBatchMetadataMaxresources
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getCqDamBatchMetadataMaxresources() {
+   */
+  @Valid 
+  @Schema(name = "cq.dam.batch.metadata.maxresources", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cq.dam.batch.metadata.maxresources")
+  public @Nullable ConfigNodePropertyInteger getCqDamBatchMetadataMaxresources() {
     return cqDamBatchMetadataMaxresources;
   }
 
-  public void setCqDamBatchMetadataMaxresources(ConfigNodePropertyInteger cqDamBatchMetadataMaxresources) {
+  @JsonProperty("cq.dam.batch.metadata.maxresources")
+  public void setCqDamBatchMetadataMaxresources(@Nullable ConfigNodePropertyInteger cqDamBatchMetadataMaxresources) {
     this.cqDamBatchMetadataMaxresources = cqDamBatchMetadataMaxresources;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -112,7 +122,6 @@ public class ComDayCqDamCoreImplServletBatchMetadataServletProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComDayCqDamCoreImplServletBatchMetadataServletProperties {\n");
-    
     sb.append("    cqDamBatchMetadataAssetDefault: ").append(toIndentedString(cqDamBatchMetadataAssetDefault)).append("\n");
     sb.append("    cqDamBatchMetadataCollectionDefault: ").append(toIndentedString(cqDamBatchMetadataCollectionDefault)).append("\n");
     sb.append("    cqDamBatchMetadataMaxresources: ").append(toIndentedString(cqDamBatchMetadataMaxresources)).append("\n");
@@ -124,11 +133,8 @@ public class ComDayCqDamCoreImplServletBatchMetadataServletProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

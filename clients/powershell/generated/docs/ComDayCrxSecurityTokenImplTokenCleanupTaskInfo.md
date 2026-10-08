@@ -1,0 +1,27 @@
+# ComDayCrxSecurityTokenImplTokenCleanupTaskInfo
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**VarPid** | **String** |  | [optional] 
+**Title** | **String** |  | [optional] 
+**Description** | **String** |  | [optional] 
+**Properties** | [**ComDayCrxSecurityTokenImplTokenCleanupTaskProperties**](ComDayCrxSecurityTokenImplTokenCleanupTaskProperties.md) |  | [optional] 
+
+## Examples
+
+- Prepare the resource
+```powershell
+$ComDayCrxSecurityTokenImplTokenCleanupTaskInfo = Initialize-PSOpenAPIToolsComDayCrxSecurityTokenImplTokenCleanupTaskInfo  -VarPid null `
+ -Title null `
+ -Description null `
+ -Properties null
+```
+
+- Convert the resource to JSON
+```powershell
+$ComDayCrxSecurityTokenImplTokenCleanupTaskInfo | ConvertTo-JSON
+```
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+

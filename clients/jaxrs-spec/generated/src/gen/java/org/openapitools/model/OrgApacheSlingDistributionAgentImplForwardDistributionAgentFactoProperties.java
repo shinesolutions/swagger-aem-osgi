@@ -1,5 +1,8 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyDropDown;
@@ -8,34 +11,42 @@ import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("orgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties   {
-  
-  private @Valid ConfigNodePropertyString name = null;
-  private @Valid ConfigNodePropertyString title = null;
-  private @Valid ConfigNodePropertyString details = null;
-  private @Valid ConfigNodePropertyBoolean enabled = null;
-  private @Valid ConfigNodePropertyString serviceName = null;
-  private @Valid ConfigNodePropertyDropDown logLevel = null;
-  private @Valid ConfigNodePropertyArray allowedRoots = null;
-  private @Valid ConfigNodePropertyBoolean queueProcessingEnabled = null;
-  private @Valid ConfigNodePropertyArray packageImporterEndpoints = null;
-  private @Valid ConfigNodePropertyArray passiveQueues = null;
-  private @Valid ConfigNodePropertyArray priorityQueues = null;
-  private @Valid ConfigNodePropertyDropDown retryStrategy = null;
-  private @Valid ConfigNodePropertyInteger retryAttempts = null;
-  private @Valid ConfigNodePropertyString requestAuthorizationStrategyTarget = null;
-  private @Valid ConfigNodePropertyString transportSecretProviderTarget = null;
-  private @Valid ConfigNodePropertyString packageBuilderTarget = null;
-  private @Valid ConfigNodePropertyString triggersTarget = null;
-  private @Valid ConfigNodePropertyDropDown queueProvider = null;
-  private @Valid ConfigNodePropertyBoolean asyncDelivery = null;
-  private @Valid ConfigNodePropertyInteger httpConnTimeout = null;
+  private ConfigNodePropertyString name;
+  private ConfigNodePropertyString title;
+  private ConfigNodePropertyString details;
+  private ConfigNodePropertyBoolean enabled;
+  private ConfigNodePropertyString serviceName;
+  private ConfigNodePropertyDropDown logLevel;
+  private ConfigNodePropertyArray allowedRoots;
+  private ConfigNodePropertyBoolean queueProcessingEnabled;
+  private ConfigNodePropertyArray packageImporterEndpoints;
+  private ConfigNodePropertyArray passiveQueues;
+  private ConfigNodePropertyArray priorityQueues;
+  private ConfigNodePropertyDropDown retryStrategy;
+  private ConfigNodePropertyInteger retryAttempts;
+  private ConfigNodePropertyString requestAuthorizationStrategyTarget;
+  private ConfigNodePropertyString transportSecretProviderTarget;
+  private ConfigNodePropertyString packageBuilderTarget;
+  private ConfigNodePropertyString triggersTarget;
+  private ConfigNodePropertyDropDown queueProvider;
+  private ConfigNodePropertyBoolean asyncDelivery;
+  private ConfigNodePropertyInteger httpConnTimeout;
+
+  public OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties() {
+  }
 
   /**
    **/
@@ -47,9 +58,11 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
   
   @ApiModelProperty(value = "")
   @JsonProperty("name")
-  public ConfigNodePropertyString getName() {
+  @Valid public ConfigNodePropertyString getName() {
     return name;
   }
+
+  @JsonProperty("name")
   public void setName(ConfigNodePropertyString name) {
     this.name = name;
   }
@@ -64,9 +77,11 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
   
   @ApiModelProperty(value = "")
   @JsonProperty("title")
-  public ConfigNodePropertyString getTitle() {
+  @Valid public ConfigNodePropertyString getTitle() {
     return title;
   }
+
+  @JsonProperty("title")
   public void setTitle(ConfigNodePropertyString title) {
     this.title = title;
   }
@@ -81,9 +96,11 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
   
   @ApiModelProperty(value = "")
   @JsonProperty("details")
-  public ConfigNodePropertyString getDetails() {
+  @Valid public ConfigNodePropertyString getDetails() {
     return details;
   }
+
+  @JsonProperty("details")
   public void setDetails(ConfigNodePropertyString details) {
     this.details = details;
   }
@@ -98,9 +115,11 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
   
   @ApiModelProperty(value = "")
   @JsonProperty("enabled")
-  public ConfigNodePropertyBoolean getEnabled() {
+  @Valid public ConfigNodePropertyBoolean getEnabled() {
     return enabled;
   }
+
+  @JsonProperty("enabled")
   public void setEnabled(ConfigNodePropertyBoolean enabled) {
     this.enabled = enabled;
   }
@@ -115,9 +134,11 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
   
   @ApiModelProperty(value = "")
   @JsonProperty("serviceName")
-  public ConfigNodePropertyString getServiceName() {
+  @Valid public ConfigNodePropertyString getServiceName() {
     return serviceName;
   }
+
+  @JsonProperty("serviceName")
   public void setServiceName(ConfigNodePropertyString serviceName) {
     this.serviceName = serviceName;
   }
@@ -132,9 +153,11 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
   
   @ApiModelProperty(value = "")
   @JsonProperty("log.level")
-  public ConfigNodePropertyDropDown getLogLevel() {
+  @Valid public ConfigNodePropertyDropDown getLogLevel() {
     return logLevel;
   }
+
+  @JsonProperty("log.level")
   public void setLogLevel(ConfigNodePropertyDropDown logLevel) {
     this.logLevel = logLevel;
   }
@@ -149,9 +172,11 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
   
   @ApiModelProperty(value = "")
   @JsonProperty("allowed.roots")
-  public ConfigNodePropertyArray getAllowedRoots() {
+  @Valid public ConfigNodePropertyArray getAllowedRoots() {
     return allowedRoots;
   }
+
+  @JsonProperty("allowed.roots")
   public void setAllowedRoots(ConfigNodePropertyArray allowedRoots) {
     this.allowedRoots = allowedRoots;
   }
@@ -166,9 +191,11 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
   
   @ApiModelProperty(value = "")
   @JsonProperty("queue.processing.enabled")
-  public ConfigNodePropertyBoolean getQueueProcessingEnabled() {
+  @Valid public ConfigNodePropertyBoolean getQueueProcessingEnabled() {
     return queueProcessingEnabled;
   }
+
+  @JsonProperty("queue.processing.enabled")
   public void setQueueProcessingEnabled(ConfigNodePropertyBoolean queueProcessingEnabled) {
     this.queueProcessingEnabled = queueProcessingEnabled;
   }
@@ -183,9 +210,11 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
   
   @ApiModelProperty(value = "")
   @JsonProperty("packageImporter.endpoints")
-  public ConfigNodePropertyArray getPackageImporterEndpoints() {
+  @Valid public ConfigNodePropertyArray getPackageImporterEndpoints() {
     return packageImporterEndpoints;
   }
+
+  @JsonProperty("packageImporter.endpoints")
   public void setPackageImporterEndpoints(ConfigNodePropertyArray packageImporterEndpoints) {
     this.packageImporterEndpoints = packageImporterEndpoints;
   }
@@ -200,9 +229,11 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
   
   @ApiModelProperty(value = "")
   @JsonProperty("passiveQueues")
-  public ConfigNodePropertyArray getPassiveQueues() {
+  @Valid public ConfigNodePropertyArray getPassiveQueues() {
     return passiveQueues;
   }
+
+  @JsonProperty("passiveQueues")
   public void setPassiveQueues(ConfigNodePropertyArray passiveQueues) {
     this.passiveQueues = passiveQueues;
   }
@@ -217,9 +248,11 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
   
   @ApiModelProperty(value = "")
   @JsonProperty("priorityQueues")
-  public ConfigNodePropertyArray getPriorityQueues() {
+  @Valid public ConfigNodePropertyArray getPriorityQueues() {
     return priorityQueues;
   }
+
+  @JsonProperty("priorityQueues")
   public void setPriorityQueues(ConfigNodePropertyArray priorityQueues) {
     this.priorityQueues = priorityQueues;
   }
@@ -234,9 +267,11 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
   
   @ApiModelProperty(value = "")
   @JsonProperty("retry.strategy")
-  public ConfigNodePropertyDropDown getRetryStrategy() {
+  @Valid public ConfigNodePropertyDropDown getRetryStrategy() {
     return retryStrategy;
   }
+
+  @JsonProperty("retry.strategy")
   public void setRetryStrategy(ConfigNodePropertyDropDown retryStrategy) {
     this.retryStrategy = retryStrategy;
   }
@@ -251,9 +286,11 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
   
   @ApiModelProperty(value = "")
   @JsonProperty("retry.attempts")
-  public ConfigNodePropertyInteger getRetryAttempts() {
+  @Valid public ConfigNodePropertyInteger getRetryAttempts() {
     return retryAttempts;
   }
+
+  @JsonProperty("retry.attempts")
   public void setRetryAttempts(ConfigNodePropertyInteger retryAttempts) {
     this.retryAttempts = retryAttempts;
   }
@@ -268,9 +305,11 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
   
   @ApiModelProperty(value = "")
   @JsonProperty("requestAuthorizationStrategy.target")
-  public ConfigNodePropertyString getRequestAuthorizationStrategyTarget() {
+  @Valid public ConfigNodePropertyString getRequestAuthorizationStrategyTarget() {
     return requestAuthorizationStrategyTarget;
   }
+
+  @JsonProperty("requestAuthorizationStrategy.target")
   public void setRequestAuthorizationStrategyTarget(ConfigNodePropertyString requestAuthorizationStrategyTarget) {
     this.requestAuthorizationStrategyTarget = requestAuthorizationStrategyTarget;
   }
@@ -285,9 +324,11 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
   
   @ApiModelProperty(value = "")
   @JsonProperty("transportSecretProvider.target")
-  public ConfigNodePropertyString getTransportSecretProviderTarget() {
+  @Valid public ConfigNodePropertyString getTransportSecretProviderTarget() {
     return transportSecretProviderTarget;
   }
+
+  @JsonProperty("transportSecretProvider.target")
   public void setTransportSecretProviderTarget(ConfigNodePropertyString transportSecretProviderTarget) {
     this.transportSecretProviderTarget = transportSecretProviderTarget;
   }
@@ -302,9 +343,11 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
   
   @ApiModelProperty(value = "")
   @JsonProperty("packageBuilder.target")
-  public ConfigNodePropertyString getPackageBuilderTarget() {
+  @Valid public ConfigNodePropertyString getPackageBuilderTarget() {
     return packageBuilderTarget;
   }
+
+  @JsonProperty("packageBuilder.target")
   public void setPackageBuilderTarget(ConfigNodePropertyString packageBuilderTarget) {
     this.packageBuilderTarget = packageBuilderTarget;
   }
@@ -319,9 +362,11 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
   
   @ApiModelProperty(value = "")
   @JsonProperty("triggers.target")
-  public ConfigNodePropertyString getTriggersTarget() {
+  @Valid public ConfigNodePropertyString getTriggersTarget() {
     return triggersTarget;
   }
+
+  @JsonProperty("triggers.target")
   public void setTriggersTarget(ConfigNodePropertyString triggersTarget) {
     this.triggersTarget = triggersTarget;
   }
@@ -336,9 +381,11 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
   
   @ApiModelProperty(value = "")
   @JsonProperty("queue.provider")
-  public ConfigNodePropertyDropDown getQueueProvider() {
+  @Valid public ConfigNodePropertyDropDown getQueueProvider() {
     return queueProvider;
   }
+
+  @JsonProperty("queue.provider")
   public void setQueueProvider(ConfigNodePropertyDropDown queueProvider) {
     this.queueProvider = queueProvider;
   }
@@ -353,9 +400,11 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
   
   @ApiModelProperty(value = "")
   @JsonProperty("async.delivery")
-  public ConfigNodePropertyBoolean getAsyncDelivery() {
+  @Valid public ConfigNodePropertyBoolean getAsyncDelivery() {
     return asyncDelivery;
   }
+
+  @JsonProperty("async.delivery")
   public void setAsyncDelivery(ConfigNodePropertyBoolean asyncDelivery) {
     this.asyncDelivery = asyncDelivery;
   }
@@ -370,16 +419,18 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
   
   @ApiModelProperty(value = "")
   @JsonProperty("http.conn.timeout")
-  public ConfigNodePropertyInteger getHttpConnTimeout() {
+  @Valid public ConfigNodePropertyInteger getHttpConnTimeout() {
     return httpConnTimeout;
   }
+
+  @JsonProperty("http.conn.timeout")
   public void setHttpConnTimeout(ConfigNodePropertyInteger httpConnTimeout) {
     this.httpConnTimeout = httpConnTimeout;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -387,26 +438,26 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
       return false;
     }
     OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties orgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties = (OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties) o;
-    return Objects.equals(name, orgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties.name) &&
-        Objects.equals(title, orgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties.title) &&
-        Objects.equals(details, orgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties.details) &&
-        Objects.equals(enabled, orgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties.enabled) &&
-        Objects.equals(serviceName, orgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties.serviceName) &&
-        Objects.equals(logLevel, orgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties.logLevel) &&
-        Objects.equals(allowedRoots, orgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties.allowedRoots) &&
-        Objects.equals(queueProcessingEnabled, orgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties.queueProcessingEnabled) &&
-        Objects.equals(packageImporterEndpoints, orgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties.packageImporterEndpoints) &&
-        Objects.equals(passiveQueues, orgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties.passiveQueues) &&
-        Objects.equals(priorityQueues, orgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties.priorityQueues) &&
-        Objects.equals(retryStrategy, orgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties.retryStrategy) &&
-        Objects.equals(retryAttempts, orgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties.retryAttempts) &&
-        Objects.equals(requestAuthorizationStrategyTarget, orgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties.requestAuthorizationStrategyTarget) &&
-        Objects.equals(transportSecretProviderTarget, orgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties.transportSecretProviderTarget) &&
-        Objects.equals(packageBuilderTarget, orgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties.packageBuilderTarget) &&
-        Objects.equals(triggersTarget, orgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties.triggersTarget) &&
-        Objects.equals(queueProvider, orgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties.queueProvider) &&
-        Objects.equals(asyncDelivery, orgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties.asyncDelivery) &&
-        Objects.equals(httpConnTimeout, orgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties.httpConnTimeout);
+    return Objects.equals(this.name, orgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties.name) &&
+        Objects.equals(this.title, orgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties.title) &&
+        Objects.equals(this.details, orgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties.details) &&
+        Objects.equals(this.enabled, orgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties.enabled) &&
+        Objects.equals(this.serviceName, orgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties.serviceName) &&
+        Objects.equals(this.logLevel, orgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties.logLevel) &&
+        Objects.equals(this.allowedRoots, orgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties.allowedRoots) &&
+        Objects.equals(this.queueProcessingEnabled, orgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties.queueProcessingEnabled) &&
+        Objects.equals(this.packageImporterEndpoints, orgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties.packageImporterEndpoints) &&
+        Objects.equals(this.passiveQueues, orgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties.passiveQueues) &&
+        Objects.equals(this.priorityQueues, orgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties.priorityQueues) &&
+        Objects.equals(this.retryStrategy, orgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties.retryStrategy) &&
+        Objects.equals(this.retryAttempts, orgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties.retryAttempts) &&
+        Objects.equals(this.requestAuthorizationStrategyTarget, orgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties.requestAuthorizationStrategyTarget) &&
+        Objects.equals(this.transportSecretProviderTarget, orgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties.transportSecretProviderTarget) &&
+        Objects.equals(this.packageBuilderTarget, orgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties.packageBuilderTarget) &&
+        Objects.equals(this.triggersTarget, orgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties.triggersTarget) &&
+        Objects.equals(this.queueProvider, orgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties.queueProvider) &&
+        Objects.equals(this.asyncDelivery, orgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties.asyncDelivery) &&
+        Objects.equals(this.httpConnTimeout, orgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties.httpConnTimeout);
   }
 
   @Override
@@ -447,11 +498,9 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

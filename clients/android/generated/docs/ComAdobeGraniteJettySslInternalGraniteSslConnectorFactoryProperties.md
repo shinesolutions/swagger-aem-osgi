@@ -1,7 +1,9 @@
 
+
 # ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **comAdobeGraniteJettySslPort** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
@@ -10,6 +12,7 @@ Name | Type | Description | Notes
 **comAdobeGraniteJettySslCiphersuitesExcluded** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
 **comAdobeGraniteJettySslCiphersuitesIncluded** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
 **comAdobeGraniteJettySslClientCertificate** | [**ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md) |  |  [optional]
+
 
 
 

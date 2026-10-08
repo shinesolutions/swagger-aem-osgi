@@ -72,11 +72,11 @@ private class OASOrgApacheJackrabbitOakSpiSecurityTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASOrgApacheJackrabbitOakSpiSecurity orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExProperties = new OASOrgApacheJackrabbitOakSpiSecurity();
-        Map<String, String> propertyMappings = orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExProperties.getPropertyMappings();
-        System.assertEquals('jaasRanking', propertyMappings.get('jaas.ranking'));
-        System.assertEquals('jaasControlFlag', propertyMappings.get('jaas.controlFlag'));
-        System.assertEquals('jaasRealmName', propertyMappings.get('jaas.realmName'));
-        System.assertEquals('idpName', propertyMappings.get('idp.name'));
-        System.assertEquals('syncHandlerName', propertyMappings.get('sync.handlerName'));
+        Map<String, String> x-property-mappings = orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExProperties.getx-property-mappings();
+        System.assertEquals('jaasRanking', x-property-mappings.get('jaas.ranking'));
+        System.assertEquals('jaasControlFlag', x-property-mappings.get('jaas.controlFlag'));
+        System.assertEquals('jaasRealmName', x-property-mappings.get('jaas.realmName'));
+        System.assertEquals('idpName', x-property-mappings.get('idp.name'));
+        System.assertEquals('syncHandlerName', x-property-mappings.get('sync.handlerName'));
     }
 }

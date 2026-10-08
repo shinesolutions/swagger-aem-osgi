@@ -1,20 +1,31 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comAdobeGraniteCsrfImplCSRFServletProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteCsrfImplCSRFServletProperties   {
-  
-  private @Valid ConfigNodePropertyInteger csrfTokenExpiresIn = null;
-  private @Valid ConfigNodePropertyString slingAuthRequirements = null;
+  private ConfigNodePropertyInteger csrfTokenExpiresIn;
+  private ConfigNodePropertyString slingAuthRequirements;
+
+  public ComAdobeGraniteCsrfImplCSRFServletProperties() {
+  }
 
   /**
    **/
@@ -26,9 +37,11 @@ public class ComAdobeGraniteCsrfImplCSRFServletProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("csrf.token.expires.in")
-  public ConfigNodePropertyInteger getCsrfTokenExpiresIn() {
+  @Valid public ConfigNodePropertyInteger getCsrfTokenExpiresIn() {
     return csrfTokenExpiresIn;
   }
+
+  @JsonProperty("csrf.token.expires.in")
   public void setCsrfTokenExpiresIn(ConfigNodePropertyInteger csrfTokenExpiresIn) {
     this.csrfTokenExpiresIn = csrfTokenExpiresIn;
   }
@@ -43,16 +56,18 @@ public class ComAdobeGraniteCsrfImplCSRFServletProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("sling.auth.requirements")
-  public ConfigNodePropertyString getSlingAuthRequirements() {
+  @Valid public ConfigNodePropertyString getSlingAuthRequirements() {
     return slingAuthRequirements;
   }
+
+  @JsonProperty("sling.auth.requirements")
   public void setSlingAuthRequirements(ConfigNodePropertyString slingAuthRequirements) {
     this.slingAuthRequirements = slingAuthRequirements;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -60,8 +75,8 @@ public class ComAdobeGraniteCsrfImplCSRFServletProperties   {
       return false;
     }
     ComAdobeGraniteCsrfImplCSRFServletProperties comAdobeGraniteCsrfImplCSRFServletProperties = (ComAdobeGraniteCsrfImplCSRFServletProperties) o;
-    return Objects.equals(csrfTokenExpiresIn, comAdobeGraniteCsrfImplCSRFServletProperties.csrfTokenExpiresIn) &&
-        Objects.equals(slingAuthRequirements, comAdobeGraniteCsrfImplCSRFServletProperties.slingAuthRequirements);
+    return Objects.equals(this.csrfTokenExpiresIn, comAdobeGraniteCsrfImplCSRFServletProperties.csrfTokenExpiresIn) &&
+        Objects.equals(this.slingAuthRequirements, comAdobeGraniteCsrfImplCSRFServletProperties.slingAuthRequirements);
   }
 
   @Override
@@ -84,11 +99,9 @@ public class ComAdobeGraniteCsrfImplCSRFServletProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

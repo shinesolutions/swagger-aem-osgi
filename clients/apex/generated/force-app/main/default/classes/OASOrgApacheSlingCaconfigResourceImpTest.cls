@@ -72,7 +72,7 @@ private class OASOrgApacheSlingCaconfigResourceImpTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASOrgApacheSlingCaconfigResourceImp orgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyProperties = new OASOrgApacheSlingCaconfigResourceImp();
-        Map<String, String> propertyMappings = orgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyProperties.getPropertyMappings();
-        System.assertEquals('serviceRanking', propertyMappings.get('service.ranking'));
+        Map<String, String> x-property-mappings = orgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyProperties.getx-property-mappings();
+        System.assertEquals('serviceRanking', x-property-mappings.get('service.ranking'));
     }
 }

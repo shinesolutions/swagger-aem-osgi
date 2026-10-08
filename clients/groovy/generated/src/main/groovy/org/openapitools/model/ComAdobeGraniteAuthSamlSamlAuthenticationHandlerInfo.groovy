@@ -7,16 +7,16 @@ import org.openapitools.model.ComAdobeGraniteAuthSamlSamlAuthenticationHandlerPr
 
 @Canonical
 class ComAdobeGraniteAuthSamlSamlAuthenticationHandlerInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties properties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties properties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

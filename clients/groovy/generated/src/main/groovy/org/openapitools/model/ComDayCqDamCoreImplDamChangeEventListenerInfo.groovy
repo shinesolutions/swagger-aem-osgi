@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqDamCoreImplDamChangeEventListenerPropertie
 
 @Canonical
 class ComDayCqDamCoreImplDamChangeEventListenerInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqDamCoreImplDamChangeEventListenerProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqDamCoreImplDamChangeEventListenerProperties properties
 }

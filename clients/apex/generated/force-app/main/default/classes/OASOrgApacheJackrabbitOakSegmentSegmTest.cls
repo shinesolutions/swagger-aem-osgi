@@ -72,23 +72,23 @@ private class OASOrgApacheJackrabbitOakSegmentSegmTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASOrgApacheJackrabbitOakSegmentSegm orgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties = new OASOrgApacheJackrabbitOakSegmentSegm();
-        Map<String, String> propertyMappings = orgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties.getPropertyMappings();
-        System.assertEquals('repositoryHome', propertyMappings.get('repository.home'));
-        System.assertEquals('tarmkMode', propertyMappings.get('tarmk.mode'));
-        System.assertEquals('tarmkSize', propertyMappings.get('tarmk.size'));
-        System.assertEquals('segmentCacheSize', propertyMappings.get('segmentCache.size'));
-        System.assertEquals('stringCacheSize', propertyMappings.get('stringCache.size'));
-        System.assertEquals('templateCacheSize', propertyMappings.get('templateCache.size'));
-        System.assertEquals('stringDeduplicationCacheSize', propertyMappings.get('stringDeduplicationCache.size'));
-        System.assertEquals('templateDeduplicationCacheSize', propertyMappings.get('templateDeduplicationCache.size'));
-        System.assertEquals('nodeDeduplicationCacheSize', propertyMappings.get('nodeDeduplicationCache.size'));
-        System.assertEquals('compactionRetryCount', propertyMappings.get('compaction.retryCount'));
-        System.assertEquals('compactionForceTimeout', propertyMappings.get('compaction.force.timeout'));
-        System.assertEquals('compactionSizeDeltaEstimation', propertyMappings.get('compaction.sizeDeltaEstimation'));
-        System.assertEquals('compactionDisableEstimation', propertyMappings.get('compaction.disableEstimation'));
-        System.assertEquals('compactionRetainedGenerations', propertyMappings.get('compaction.retainedGenerations'));
-        System.assertEquals('compactionMemoryThreshold', propertyMappings.get('compaction.memoryThreshold'));
-        System.assertEquals('compactionProgressLog', propertyMappings.get('compaction.progressLog'));
-        System.assertEquals('repositoryBackupDir', propertyMappings.get('repository.backup.dir'));
+        Map<String, String> x-property-mappings = orgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryProperties.getx-property-mappings();
+        System.assertEquals('repositoryHome', x-property-mappings.get('repository.home'));
+        System.assertEquals('tarmkMode', x-property-mappings.get('tarmk.mode'));
+        System.assertEquals('tarmkSize', x-property-mappings.get('tarmk.size'));
+        System.assertEquals('segmentCacheSize', x-property-mappings.get('segmentCache.size'));
+        System.assertEquals('stringCacheSize', x-property-mappings.get('stringCache.size'));
+        System.assertEquals('templateCacheSize', x-property-mappings.get('templateCache.size'));
+        System.assertEquals('stringDeduplicationCacheSize', x-property-mappings.get('stringDeduplicationCache.size'));
+        System.assertEquals('templateDeduplicationCacheSize', x-property-mappings.get('templateDeduplicationCache.size'));
+        System.assertEquals('nodeDeduplicationCacheSize', x-property-mappings.get('nodeDeduplicationCache.size'));
+        System.assertEquals('compactionRetryCount', x-property-mappings.get('compaction.retryCount'));
+        System.assertEquals('compactionForceTimeout', x-property-mappings.get('compaction.force.timeout'));
+        System.assertEquals('compactionSizeDeltaEstimation', x-property-mappings.get('compaction.sizeDeltaEstimation'));
+        System.assertEquals('compactionDisableEstimation', x-property-mappings.get('compaction.disableEstimation'));
+        System.assertEquals('compactionRetainedGenerations', x-property-mappings.get('compaction.retainedGenerations'));
+        System.assertEquals('compactionMemoryThreshold', x-property-mappings.get('compaction.memoryThreshold'));
+        System.assertEquals('compactionProgressLog', x-property-mappings.get('compaction.progressLog'));
+        System.assertEquals('repositoryBackupDir', x-property-mappings.get('repository.backup.dir'));
     }
 }

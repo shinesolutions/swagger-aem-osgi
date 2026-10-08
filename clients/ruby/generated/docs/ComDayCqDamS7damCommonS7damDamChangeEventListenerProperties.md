@@ -2,16 +2,17 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**cq_dam_s7dam_damchangeeventlistener_enabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **cq_dam_s7dam_damchangeeventlistener_enabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComDayCqDamS7damCommonS7damDamChangeEventListenerProperties.new(cq_dam_s7dam_damchangeeventlistener_enabled: null)
+instance = SwaggerAemOsgiClient::ComDayCqDamS7damCommonS7damDamChangeEventListenerProperties.new(
+  cq_dam_s7dam_damchangeeventlistener_enabled: null
+)
 ```
-
 

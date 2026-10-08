@@ -2,33 +2,34 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ComAdobeCqSecurityHcPackagesImplExampleContentHealthCheckProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class ComAdobeCqSecurityHcPackagesImplExampleContentHealthCheckInfo   {
   
-  private String pid = null;
+  private String pid;
 
-  private String title = null;
+  private String title;
 
-  private String description = null;
+  private String description;
 
-  private ComAdobeCqSecurityHcPackagesImplExampleContentHealthCheckProperties properties = null;
+  private ComAdobeCqSecurityHcPackagesImplExampleContentHealthCheckProperties properties;
 
-  private String additionalProperties = null;
+  private String additionalProperties;
 
-  private String bundleLocation = null;
+  private String bundleLocation;
 
-  private String serviceLocation = null;
-
+  private String serviceLocation;
 
   /**
    **/
@@ -158,7 +159,7 @@ public class ComAdobeCqSecurityHcPackagesImplExampleContentHealthCheckInfo   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -166,13 +167,13 @@ public class ComAdobeCqSecurityHcPackagesImplExampleContentHealthCheckInfo   {
       return false;
     }
     ComAdobeCqSecurityHcPackagesImplExampleContentHealthCheckInfo comAdobeCqSecurityHcPackagesImplExampleContentHealthCheckInfo = (ComAdobeCqSecurityHcPackagesImplExampleContentHealthCheckInfo) o;
-    return Objects.equals(pid, comAdobeCqSecurityHcPackagesImplExampleContentHealthCheckInfo.pid) &&
-        Objects.equals(title, comAdobeCqSecurityHcPackagesImplExampleContentHealthCheckInfo.title) &&
-        Objects.equals(description, comAdobeCqSecurityHcPackagesImplExampleContentHealthCheckInfo.description) &&
-        Objects.equals(properties, comAdobeCqSecurityHcPackagesImplExampleContentHealthCheckInfo.properties) &&
-        Objects.equals(additionalProperties, comAdobeCqSecurityHcPackagesImplExampleContentHealthCheckInfo.additionalProperties) &&
-        Objects.equals(bundleLocation, comAdobeCqSecurityHcPackagesImplExampleContentHealthCheckInfo.bundleLocation) &&
-        Objects.equals(serviceLocation, comAdobeCqSecurityHcPackagesImplExampleContentHealthCheckInfo.serviceLocation);
+    return Objects.equals(this.pid, comAdobeCqSecurityHcPackagesImplExampleContentHealthCheckInfo.pid) &&
+        Objects.equals(this.title, comAdobeCqSecurityHcPackagesImplExampleContentHealthCheckInfo.title) &&
+        Objects.equals(this.description, comAdobeCqSecurityHcPackagesImplExampleContentHealthCheckInfo.description) &&
+        Objects.equals(this.properties, comAdobeCqSecurityHcPackagesImplExampleContentHealthCheckInfo.properties) &&
+        Objects.equals(this.additionalProperties, comAdobeCqSecurityHcPackagesImplExampleContentHealthCheckInfo.additionalProperties) &&
+        Objects.equals(this.bundleLocation, comAdobeCqSecurityHcPackagesImplExampleContentHealthCheckInfo.bundleLocation) &&
+        Objects.equals(this.serviceLocation, comAdobeCqSecurityHcPackagesImplExampleContentHealthCheckInfo.serviceLocation);
   }
 
   @Override
@@ -200,11 +201,8 @@ public class ComAdobeCqSecurityHcPackagesImplExampleContentHealthCheckInfo   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

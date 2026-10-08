@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqSocialSiteEndpointsImplSiteOperationServ
 
 @Canonical
 class ComAdobeCqSocialSiteEndpointsImplSiteOperationServiceInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqSocialSiteEndpointsImplSiteOperationServiceProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqSocialSiteEndpointsImplSiteOperationServiceProperties properties
 }

@@ -1,0 +1,61 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvProperties = openapi_server.resourceTypes.OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvProperties
+}
+resourceTypes {
+
+  OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvInfo {
+    title = OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvInfo
+    description = OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvProperties
+          description = ""
+          optional = false
+        }
+        bundle_location {
+          type =  string
+          description = ""
+          optional = false
+        }
+        service_location {
+          type =  string
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvInfo {
+    title = OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvInfo
+    description = OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvInfo
+    implements = openapi_server.resourceTypes.OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvInfo
+
+  }
+}

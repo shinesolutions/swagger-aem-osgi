@@ -1,6 +1,7 @@
 # NodeSwaggerAemOsgi.ComDayCqWcmMsmImplActionsContentDeleteActionFactoryInfo
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **pid** | **String** |  | [optional] 

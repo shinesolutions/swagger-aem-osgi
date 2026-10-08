@@ -72,8 +72,8 @@ private class OASComAdobeCqSocialContentFragmentsSTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeCqSocialContentFragmentsS comAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmenProperties = new OASComAdobeCqSocialContentFragmentsS();
-        Map<String, String> propertyMappings = comAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmenProperties.getPropertyMappings();
-        System.assertEquals('cqSocialContentFragmentsServicesEnabled', propertyMappings.get('cq.social.content.fragments.services.enabled'));
-        System.assertEquals('cqSocialContentFragmentsServicesWaitTimeSeconds', propertyMappings.get('cq.social.content.fragments.services.waitTimeSeconds'));
+        Map<String, String> x-property-mappings = comAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmenProperties.getx-property-mappings();
+        System.assertEquals('cqSocialContentFragmentsServicesEnabled', x-property-mappings.get('cq.social.content.fragments.services.enabled'));
+        System.assertEquals('cqSocialContentFragmentsServicesWaitTimeSeconds', x-property-mappings.get('cq.social.content.fragments.services.waitTimeSeconds'));
     }
 }

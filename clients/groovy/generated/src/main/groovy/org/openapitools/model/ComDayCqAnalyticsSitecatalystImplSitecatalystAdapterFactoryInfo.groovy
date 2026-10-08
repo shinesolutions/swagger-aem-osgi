@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqAnalyticsSitecatalystImplSitecatalystAdapt
 
 @Canonical
 class ComDayCqAnalyticsSitecatalystImplSitecatalystAdapterFactoryInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqAnalyticsSitecatalystImplSitecatalystAdapterFactoryProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqAnalyticsSitecatalystImplSitecatalystAdapterFactoryProperties properties
 }

@@ -2,32 +2,33 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class OrgApacheSlingCommonsSchedulerImplQuartzSchedulerProperties   {
   
-  private ConfigNodePropertyString poolName = null;
+  private ConfigNodePropertyString poolName;
 
-  private ConfigNodePropertyArray allowedPoolNames = null;
+  private ConfigNodePropertyArray allowedPoolNames;
 
-  private ConfigNodePropertyBoolean schedulerUseleaderforsingle = null;
+  private ConfigNodePropertyBoolean schedulerUseleaderforsingle;
 
-  private ConfigNodePropertyArray metricsFilters = null;
+  private ConfigNodePropertyArray metricsFilters;
 
-  private ConfigNodePropertyInteger slowThresholdMillis = null;
-
+  private ConfigNodePropertyInteger slowThresholdMillis;
 
   /**
    **/
@@ -121,7 +122,7 @@ public class OrgApacheSlingCommonsSchedulerImplQuartzSchedulerProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -129,11 +130,11 @@ public class OrgApacheSlingCommonsSchedulerImplQuartzSchedulerProperties   {
       return false;
     }
     OrgApacheSlingCommonsSchedulerImplQuartzSchedulerProperties orgApacheSlingCommonsSchedulerImplQuartzSchedulerProperties = (OrgApacheSlingCommonsSchedulerImplQuartzSchedulerProperties) o;
-    return Objects.equals(poolName, orgApacheSlingCommonsSchedulerImplQuartzSchedulerProperties.poolName) &&
-        Objects.equals(allowedPoolNames, orgApacheSlingCommonsSchedulerImplQuartzSchedulerProperties.allowedPoolNames) &&
-        Objects.equals(schedulerUseleaderforsingle, orgApacheSlingCommonsSchedulerImplQuartzSchedulerProperties.schedulerUseleaderforsingle) &&
-        Objects.equals(metricsFilters, orgApacheSlingCommonsSchedulerImplQuartzSchedulerProperties.metricsFilters) &&
-        Objects.equals(slowThresholdMillis, orgApacheSlingCommonsSchedulerImplQuartzSchedulerProperties.slowThresholdMillis);
+    return Objects.equals(this.poolName, orgApacheSlingCommonsSchedulerImplQuartzSchedulerProperties.poolName) &&
+        Objects.equals(this.allowedPoolNames, orgApacheSlingCommonsSchedulerImplQuartzSchedulerProperties.allowedPoolNames) &&
+        Objects.equals(this.schedulerUseleaderforsingle, orgApacheSlingCommonsSchedulerImplQuartzSchedulerProperties.schedulerUseleaderforsingle) &&
+        Objects.equals(this.metricsFilters, orgApacheSlingCommonsSchedulerImplQuartzSchedulerProperties.metricsFilters) &&
+        Objects.equals(this.slowThresholdMillis, orgApacheSlingCommonsSchedulerImplQuartzSchedulerProperties.slowThresholdMillis);
   }
 
   @Override
@@ -159,11 +160,8 @@ public class OrgApacheSlingCommonsSchedulerImplQuartzSchedulerProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

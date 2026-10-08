@@ -72,10 +72,10 @@ private class OASComAdobeGraniteFragsImplCheckHttpTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeGraniteFragsImplCheckHttp comAdobeGraniteFragsImplCheckHttpHeaderFlagProperties = new OASComAdobeGraniteFragsImplCheckHttp();
-        Map<String, String> propertyMappings = comAdobeGraniteFragsImplCheckHttpHeaderFlagProperties.getPropertyMappings();
-        System.assertEquals('featureName', propertyMappings.get('feature.name'));
-        System.assertEquals('featureDescription', propertyMappings.get('feature.description'));
-        System.assertEquals('httpHeaderName', propertyMappings.get('http.header.name'));
-        System.assertEquals('httpHeaderValuepattern', propertyMappings.get('http.header.valuepattern'));
+        Map<String, String> x-property-mappings = comAdobeGraniteFragsImplCheckHttpHeaderFlagProperties.getx-property-mappings();
+        System.assertEquals('featureName', x-property-mappings.get('feature.name'));
+        System.assertEquals('featureDescription', x-property-mappings.get('feature.description'));
+        System.assertEquals('httpHeaderName', x-property-mappings.get('http.header.name'));
+        System.assertEquals('httpHeaderValuepattern', x-property-mappings.get('http.header.valuepattern'));
     }
 }

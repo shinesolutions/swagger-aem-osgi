@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyArray;
 
 @Canonical
 class ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorVieProperties {
-    ConfigNodePropertyArray itemResourceTypes = null
-
+    
+    ConfigNodePropertyArray itemResourceTypes
 }

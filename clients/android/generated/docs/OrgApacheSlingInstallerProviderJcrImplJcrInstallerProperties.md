@@ -1,7 +1,9 @@
 
+
 # OrgApacheSlingInstallerProviderJcrImplJcrInstallerProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **handlerSchemes** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
@@ -11,6 +13,7 @@ Name | Type | Description | Notes
 **slingJcrinstallNewConfigPath** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
 **slingJcrinstallSignalPath** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
 **slingJcrinstallEnableWriteback** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
+
 
 
 

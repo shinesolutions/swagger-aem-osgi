@@ -7,8 +7,8 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqWcmCoreImplWarpTimeWarpFilterProperties {
-    ConfigNodePropertyString filterOrder = null
-
-    ConfigNodePropertyString filterScope = null
-
+    
+    ConfigNodePropertyString filterOrder
+    
+    ConfigNodePropertyString filterScope
 }

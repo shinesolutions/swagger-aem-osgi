@@ -1,27 +1,38 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGeProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGeProperties   {
-  @JsonProperty("sling.servlet.selectors")
-  private ConfigNodePropertyString slingServletSelectors = null;
+@JsonTypeName("comAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGeProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGeProperties {
 
-  @JsonProperty("sling.servlet.extensions")
-  private ConfigNodePropertyString slingServletExtensions = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString slingServletSelectors;
 
-  public ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGeProperties slingServletSelectors(ConfigNodePropertyString slingServletSelectors) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString slingServletExtensions;
+
+  public ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGeProperties slingServletSelectors(@Nullable ConfigNodePropertyString slingServletSelectors) {
     this.slingServletSelectors = slingServletSelectors;
     return this;
   }
@@ -29,20 +40,20 @@ public class ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGeProp
   /**
    * Get slingServletSelectors
    * @return slingServletSelectors
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getSlingServletSelectors() {
+   */
+  @Valid 
+  @Schema(name = "sling.servlet.selectors", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("sling.servlet.selectors")
+  public @Nullable ConfigNodePropertyString getSlingServletSelectors() {
     return slingServletSelectors;
   }
 
-  public void setSlingServletSelectors(ConfigNodePropertyString slingServletSelectors) {
+  @JsonProperty("sling.servlet.selectors")
+  public void setSlingServletSelectors(@Nullable ConfigNodePropertyString slingServletSelectors) {
     this.slingServletSelectors = slingServletSelectors;
   }
 
-  public ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGeProperties slingServletExtensions(ConfigNodePropertyString slingServletExtensions) {
+  public ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGeProperties slingServletExtensions(@Nullable ConfigNodePropertyString slingServletExtensions) {
     this.slingServletExtensions = slingServletExtensions;
     return this;
   }
@@ -50,22 +61,21 @@ public class ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGeProp
   /**
    * Get slingServletExtensions
    * @return slingServletExtensions
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getSlingServletExtensions() {
+   */
+  @Valid 
+  @Schema(name = "sling.servlet.extensions", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("sling.servlet.extensions")
+  public @Nullable ConfigNodePropertyString getSlingServletExtensions() {
     return slingServletExtensions;
   }
 
-  public void setSlingServletExtensions(ConfigNodePropertyString slingServletExtensions) {
+  @JsonProperty("sling.servlet.extensions")
+  public void setSlingServletExtensions(@Nullable ConfigNodePropertyString slingServletExtensions) {
     this.slingServletExtensions = slingServletExtensions;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -86,7 +96,6 @@ public class ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGeProp
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGeProperties {\n");
-    
     sb.append("    slingServletSelectors: ").append(toIndentedString(slingServletSelectors)).append("\n");
     sb.append("    slingServletExtensions: ").append(toIndentedString(slingServletExtensions)).append("\n");
     sb.append("}");
@@ -97,11 +106,8 @@ public class ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGeProp
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

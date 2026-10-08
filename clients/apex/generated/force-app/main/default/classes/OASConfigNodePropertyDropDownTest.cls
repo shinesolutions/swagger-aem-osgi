@@ -72,8 +72,7 @@ private class OASConfigNodePropertyDropDownTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASConfigNodePropertyDropDown configNodePropertyDropDown = new OASConfigNodePropertyDropDown();
-        Map<String, String> propertyMappings = configNodePropertyDropDown.getPropertyMappings();
-        System.assertEquals('isSet', propertyMappings.get('is_set'));
-        System.assertEquals('r_type', propertyMappings.get('type'));
+        Map<String, String> x-property-mappings = configNodePropertyDropDown.getx-property-mappings();
+        System.assertEquals('isSet', x-property-mappings.get('is_set'));
     }
 }

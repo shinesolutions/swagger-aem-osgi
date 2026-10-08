@@ -3,6 +3,7 @@ package org.openapitools.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
@@ -15,34 +16,34 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaInflectorServerCodegen", date = "2019-08-05T00:53:46.291Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaInflectorServerCodegen", date = "2026-10-07T12:53:12.340274163Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheJackrabbitOakSegmentStandbyStoreStandbyStoreServiceProperties   {
   @JsonProperty("org.apache.sling.installer.configuration.persist")
-  private ConfigNodePropertyBoolean orgApacheSlingInstallerConfigurationPersist = null;
+  private ConfigNodePropertyBoolean orgApacheSlingInstallerConfigurationPersist;
 
   @JsonProperty("mode")
-  private ConfigNodePropertyDropDown mode = null;
+  private ConfigNodePropertyDropDown mode;
 
   @JsonProperty("port")
-  private ConfigNodePropertyInteger port = null;
+  private ConfigNodePropertyInteger port;
 
   @JsonProperty("primary.host")
-  private ConfigNodePropertyString primaryHost = null;
+  private ConfigNodePropertyString primaryHost;
 
   @JsonProperty("interval")
-  private ConfigNodePropertyInteger interval = null;
+  private ConfigNodePropertyInteger interval;
 
   @JsonProperty("primary.allowed-client-ip-ranges")
-  private ConfigNodePropertyArray primaryAllowedClientIpRanges = null;
+  private ConfigNodePropertyArray primaryAllowedClientIpRanges;
 
   @JsonProperty("secure")
-  private ConfigNodePropertyBoolean secure = null;
+  private ConfigNodePropertyBoolean secure;
 
   @JsonProperty("standby.readtimeout")
-  private ConfigNodePropertyInteger standbyReadtimeout = null;
+  private ConfigNodePropertyInteger standbyReadtimeout;
 
   @JsonProperty("standby.autoclean")
-  private ConfigNodePropertyBoolean standbyAutoclean = null;
+  private ConfigNodePropertyBoolean standbyAutoclean;
 
   /**
    **/
@@ -199,7 +200,7 @@ public class OrgApacheJackrabbitOakSegmentStandbyStoreStandbyStoreServicePropert
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -245,11 +246,8 @@ public class OrgApacheJackrabbitOakSegmentStandbyStoreStandbyStoreServicePropert
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -1,0 +1,42 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationSerProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationSerProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyDropDown = openapi_server.resourceTypes.ConfigNodePropertyDropDown
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+}
+resourceTypes {
+
+  ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationSerProperties {
+    title = ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationSerProperties
+    description = ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationSerProperties
+    derivedFrom = Root
+    properties {
+        get_cache_expiration_unit {
+          type = ConfigNodePropertyDropDown
+          description = ""
+          optional = false
+        }
+        get_cache_expiration_value {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationSerProperties {
+    title = ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationSerProperties
+    description = ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationSerProperties
+    implements = openapi_server.resourceTypes.ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationSerProperties
+
+  }
+}

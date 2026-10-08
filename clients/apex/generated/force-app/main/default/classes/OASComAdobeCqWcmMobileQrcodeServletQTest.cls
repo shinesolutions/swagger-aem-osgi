@@ -72,7 +72,7 @@ private class OASComAdobeCqWcmMobileQrcodeServletQTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeCqWcmMobileQrcodeServletQ comAdobeCqWcmMobileQrcodeServletQRCodeImageGeneratorProperties = new OASComAdobeCqWcmMobileQrcodeServletQ();
-        Map<String, String> propertyMappings = comAdobeCqWcmMobileQrcodeServletQRCodeImageGeneratorProperties.getPropertyMappings();
-        System.assertEquals('cqWcmQrcodeServletWhitelist', propertyMappings.get('cq.wcm.qrcode.servlet.whitelist'));
+        Map<String, String> x-property-mappings = comAdobeCqWcmMobileQrcodeServletQRCodeImageGeneratorProperties.getx-property-mappings();
+        System.assertEquals('cqWcmQrcodeServletWhitelist', x-property-mappings.get('cq.wcm.qrcode.servlet.whitelist'));
     }
 }

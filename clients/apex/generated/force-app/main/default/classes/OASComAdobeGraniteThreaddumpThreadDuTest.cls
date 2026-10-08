@@ -72,15 +72,15 @@ private class OASComAdobeGraniteThreaddumpThreadDuTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeGraniteThreaddumpThreadDu comAdobeGraniteThreaddumpThreadDumpCollectorProperties = new OASComAdobeGraniteThreaddumpThreadDu();
-        Map<String, String> propertyMappings = comAdobeGraniteThreaddumpThreadDumpCollectorProperties.getPropertyMappings();
-        System.assertEquals('schedulerPeriod', propertyMappings.get('scheduler.period'));
-        System.assertEquals('schedulerRunOn', propertyMappings.get('scheduler.runOn'));
-        System.assertEquals('graniteThreaddumpEnabled', propertyMappings.get('granite.threaddump.enabled'));
-        System.assertEquals('graniteThreaddumpDumpsPerFile', propertyMappings.get('granite.threaddump.dumpsPerFile'));
-        System.assertEquals('graniteThreaddumpEnableGzipCompression', propertyMappings.get('granite.threaddump.enableGzipCompression'));
-        System.assertEquals('graniteThreaddumpEnableDirectoriesCompression', propertyMappings.get('granite.threaddump.enableDirectoriesCompression'));
-        System.assertEquals('graniteThreaddumpEnableJStack', propertyMappings.get('granite.threaddump.enableJStack'));
-        System.assertEquals('graniteThreaddumpMaxBackupDays', propertyMappings.get('granite.threaddump.maxBackupDays'));
-        System.assertEquals('graniteThreaddumpBackupCleanTrigger', propertyMappings.get('granite.threaddump.backupCleanTrigger'));
+        Map<String, String> x-property-mappings = comAdobeGraniteThreaddumpThreadDumpCollectorProperties.getx-property-mappings();
+        System.assertEquals('schedulerPeriod', x-property-mappings.get('scheduler.period'));
+        System.assertEquals('schedulerRunOn', x-property-mappings.get('scheduler.runOn'));
+        System.assertEquals('graniteThreaddumpEnabled', x-property-mappings.get('granite.threaddump.enabled'));
+        System.assertEquals('graniteThreaddumpDumpsPerFile', x-property-mappings.get('granite.threaddump.dumpsPerFile'));
+        System.assertEquals('graniteThreaddumpEnableGzipCompression', x-property-mappings.get('granite.threaddump.enableGzipCompression'));
+        System.assertEquals('graniteThreaddumpEnableDirectoriesCompression', x-property-mappings.get('granite.threaddump.enableDirectoriesCompression'));
+        System.assertEquals('graniteThreaddumpEnableJStack', x-property-mappings.get('granite.threaddump.enableJStack'));
+        System.assertEquals('graniteThreaddumpMaxBackupDays', x-property-mappings.get('granite.threaddump.maxBackupDays'));
+        System.assertEquals('graniteThreaddumpBackupCleanTrigger', x-property-mappings.get('granite.threaddump.backupCleanTrigger'));
     }
 }

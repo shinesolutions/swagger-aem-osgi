@@ -8,8 +8,8 @@ import org.openapitools.model.ConfigNodePropertyBoolean;
 
 @Canonical
 class ComDayCqDamCoreImplRenditionMakerImplProperties {
-    ConfigNodePropertyBoolean xmpPropagate = null
-
-    ConfigNodePropertyArray xmpExcludes = null
-
+    
+    ConfigNodePropertyBoolean xmpPropagate
+    
+    ConfigNodePropertyArray xmpExcludes
 }

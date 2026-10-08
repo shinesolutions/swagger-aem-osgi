@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqSocialReportingAnalyticsServicesImplAnal
 
 @Canonical
 class ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportIInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportIProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportIProperties properties
 }

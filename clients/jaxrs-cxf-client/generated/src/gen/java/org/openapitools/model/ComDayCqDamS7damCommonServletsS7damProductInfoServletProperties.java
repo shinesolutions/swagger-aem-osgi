@@ -3,22 +3,19 @@ package org.openapitools.model;
 import org.openapitools.model.ConfigNodePropertyString;
 
 import io.swagger.annotations.ApiModelProperty;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlType;
-import javax.xml.bind.annotation.XmlEnum;
-import javax.xml.bind.annotation.XmlEnumValue;
+import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
 
 public class ComDayCqDamS7damCommonServletsS7damProductInfoServletProperties  {
   
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString slingServletPaths = null;
+
+  private ConfigNodePropertyString slingServletPaths;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString slingServletMethods = null;
+
+  private ConfigNodePropertyString slingServletMethods;
  /**
    * Get slingServletPaths
    * @return slingServletPaths
@@ -55,6 +52,23 @@ public class ComDayCqDamS7damCommonServletsS7damProductInfoServletProperties  {
     return this;
   }
 
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    ComDayCqDamS7damCommonServletsS7damProductInfoServletProperties comDayCqDamS7damCommonServletsS7damProductInfoServletProperties = (ComDayCqDamS7damCommonServletsS7damProductInfoServletProperties) o;
+    return Objects.equals(this.slingServletPaths, comDayCqDamS7damCommonServletsS7damProductInfoServletProperties.slingServletPaths) &&
+        Objects.equals(this.slingServletMethods, comDayCqDamS7damCommonServletsS7damProductInfoServletProperties.slingServletMethods);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(slingServletPaths, slingServletMethods);
+  }
 
   @Override
   public String toString() {
@@ -71,11 +85,8 @@ public class ComDayCqDamS7damCommonServletsS7damProductInfoServletProperties  {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private static String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

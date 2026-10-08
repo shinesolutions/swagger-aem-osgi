@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumProperties {
-    ConfigNodePropertyString jobTopics = null
-
+    
+    ConfigNodePropertyString jobTopics
 }

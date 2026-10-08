@@ -8,8 +8,8 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqDamCoreImplServletHealthCheckServletProperties {
-    ConfigNodePropertyString cqDamSyncWorkflowId = null
-
-    ConfigNodePropertyArray cqDamSyncFolderTypes = null
-
+    
+    ConfigNodePropertyString cqDamSyncWorkflowId
+    
+    ConfigNodePropertyArray cqDamSyncFolderTypes
 }

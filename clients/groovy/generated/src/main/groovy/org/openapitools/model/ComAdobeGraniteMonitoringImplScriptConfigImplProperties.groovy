@@ -9,16 +9,16 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeGraniteMonitoringImplScriptConfigImplProperties {
-    ConfigNodePropertyString scriptFilename = null
-
-    ConfigNodePropertyString scriptDisplay = null
-
-    ConfigNodePropertyString scriptPath = null
-
-    ConfigNodePropertyArray scriptPlatform = null
-
-    ConfigNodePropertyInteger interval = null
-
-    ConfigNodePropertyString jmxdomain = null
-
+    
+    ConfigNodePropertyString scriptFilename
+    
+    ConfigNodePropertyString scriptDisplay
+    
+    ConfigNodePropertyString scriptPath
+    
+    ConfigNodePropertyArray scriptPlatform
+    
+    ConfigNodePropertyInteger interval
+    
+    ConfigNodePropertyString jmxdomain
 }

@@ -4,20 +4,23 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ComDayCqDamScene7ImplScene7ConfigurationEventListenerProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2019-08-05T00:59:30.156Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2026-10-07T12:54:21.614735164Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqDamScene7ImplScene7ConfigurationEventListenerInfo   {
   
-  private String pid = null;
-  private String title = null;
-  private String description = null;
-  private ComDayCqDamScene7ImplScene7ConfigurationEventListenerProperties properties = null;
-  private String bundleLocation = null;
-  private String serviceLocation = null;
+  private String pid;
+  private String title;
+  private String description;
+  private ComDayCqDamScene7ImplScene7ConfigurationEventListenerProperties properties;
+  private String bundleLocation;
+  private String serviceLocation;
 
   /**
    **/
@@ -60,6 +63,7 @@ public class ComDayCqDamScene7ImplScene7ConfigurationEventListenerInfo   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("properties")
+  @Valid
   public ComDayCqDamScene7ImplScene7ConfigurationEventListenerProperties getProperties() {
     return properties;
   }
@@ -93,7 +97,7 @@ public class ComDayCqDamScene7ImplScene7ConfigurationEventListenerInfo   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -101,12 +105,12 @@ public class ComDayCqDamScene7ImplScene7ConfigurationEventListenerInfo   {
       return false;
     }
     ComDayCqDamScene7ImplScene7ConfigurationEventListenerInfo comDayCqDamScene7ImplScene7ConfigurationEventListenerInfo = (ComDayCqDamScene7ImplScene7ConfigurationEventListenerInfo) o;
-    return Objects.equals(pid, comDayCqDamScene7ImplScene7ConfigurationEventListenerInfo.pid) &&
-        Objects.equals(title, comDayCqDamScene7ImplScene7ConfigurationEventListenerInfo.title) &&
-        Objects.equals(description, comDayCqDamScene7ImplScene7ConfigurationEventListenerInfo.description) &&
-        Objects.equals(properties, comDayCqDamScene7ImplScene7ConfigurationEventListenerInfo.properties) &&
-        Objects.equals(bundleLocation, comDayCqDamScene7ImplScene7ConfigurationEventListenerInfo.bundleLocation) &&
-        Objects.equals(serviceLocation, comDayCqDamScene7ImplScene7ConfigurationEventListenerInfo.serviceLocation);
+    return Objects.equals(this.pid, comDayCqDamScene7ImplScene7ConfigurationEventListenerInfo.pid) &&
+        Objects.equals(this.title, comDayCqDamScene7ImplScene7ConfigurationEventListenerInfo.title) &&
+        Objects.equals(this.description, comDayCqDamScene7ImplScene7ConfigurationEventListenerInfo.description) &&
+        Objects.equals(this.properties, comDayCqDamScene7ImplScene7ConfigurationEventListenerInfo.properties) &&
+        Objects.equals(this.bundleLocation, comDayCqDamScene7ImplScene7ConfigurationEventListenerInfo.bundleLocation) &&
+        Objects.equals(this.serviceLocation, comDayCqDamScene7ImplScene7ConfigurationEventListenerInfo.serviceLocation);
   }
 
   @Override
@@ -133,11 +137,8 @@ public class ComDayCqDamScene7ImplScene7ConfigurationEventListenerInfo   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

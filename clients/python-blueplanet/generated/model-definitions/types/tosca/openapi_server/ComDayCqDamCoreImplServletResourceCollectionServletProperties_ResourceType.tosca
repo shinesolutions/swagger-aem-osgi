@@ -1,0 +1,63 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqDamCoreImplServletResourceCollectionServletProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqDamCoreImplServletResourceCollectionServletProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComDayCqDamCoreImplServletResourceCollectionServletProperties {
+    title = ComDayCqDamCoreImplServletResourceCollectionServletProperties
+    description = ComDayCqDamCoreImplServletResourceCollectionServletProperties
+    derivedFrom = Root
+    properties {
+        sling_servlet_resource_types {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        sling_servlet_methods {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        sling_servlet_selectors {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        download_config {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        view_selector {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        send_email {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqDamCoreImplServletResourceCollectionServletProperties {
+    title = ComDayCqDamCoreImplServletResourceCollectionServletProperties
+    description = ComDayCqDamCoreImplServletResourceCollectionServletProperties
+    implements = openapi_server.resourceTypes.ComDayCqDamCoreImplServletResourceCollectionServletProperties
+
+  }
+}

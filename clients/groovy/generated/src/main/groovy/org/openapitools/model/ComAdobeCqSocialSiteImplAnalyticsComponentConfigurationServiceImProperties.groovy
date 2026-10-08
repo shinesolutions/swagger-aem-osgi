@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyArray;
 
 @Canonical
 class ComAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImProperties {
-    ConfigNodePropertyArray cqSocialConsoleAnalyticsComponents = null
-
+    
+    ConfigNodePropertyArray cqSocialConsoleAnalyticsComponents
 }

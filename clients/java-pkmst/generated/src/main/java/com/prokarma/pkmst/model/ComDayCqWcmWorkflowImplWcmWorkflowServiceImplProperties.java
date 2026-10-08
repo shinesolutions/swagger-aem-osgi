@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyArray;
 import com.prokarma.pkmst.model.ConfigNodePropertyBoolean;
 import com.prokarma.pkmst.model.ConfigNodePropertyInteger;
@@ -18,33 +19,32 @@ import io.swagger.annotations.ApiModelProperty;
  * ComDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties   {
   @JsonProperty("event.filter")
-  private ConfigNodePropertyString eventFilter = null;
+  private ConfigNodePropertyString eventFilter;
 
   @JsonProperty("minThreadPoolSize")
-  private ConfigNodePropertyInteger minThreadPoolSize = null;
+  private ConfigNodePropertyInteger minThreadPoolSize;
 
   @JsonProperty("maxThreadPoolSize")
-  private ConfigNodePropertyInteger maxThreadPoolSize = null;
+  private ConfigNodePropertyInteger maxThreadPoolSize;
 
   @JsonProperty("cq.wcm.workflow.terminate.on.activate")
-  private ConfigNodePropertyBoolean cqWcmWorkflowTerminateOnActivate = null;
+  private ConfigNodePropertyBoolean cqWcmWorkflowTerminateOnActivate;
 
   @JsonProperty("cq.wcm.worklfow.terminate.exclusion.list")
-  private ConfigNodePropertyArray cqWcmWorklfowTerminateExclusionList = null;
+  private ConfigNodePropertyArray cqWcmWorklfowTerminateExclusionList;
 
   public ComDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties eventFilter(ConfigNodePropertyString eventFilter) {
     this.eventFilter = eventFilter;
     return this;
   }
 
-   /**
+  /**
    * Get eventFilter
    * @return eventFilter
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getEventFilter() {
     return eventFilter;
@@ -59,10 +59,10 @@ public class ComDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get minThreadPoolSize
    * @return minThreadPoolSize
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getMinThreadPoolSize() {
     return minThreadPoolSize;
@@ -77,10 +77,10 @@ public class ComDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get maxThreadPoolSize
    * @return maxThreadPoolSize
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getMaxThreadPoolSize() {
     return maxThreadPoolSize;
@@ -95,10 +95,10 @@ public class ComDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get cqWcmWorkflowTerminateOnActivate
    * @return cqWcmWorkflowTerminateOnActivate
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getCqWcmWorkflowTerminateOnActivate() {
     return cqWcmWorkflowTerminateOnActivate;
@@ -113,10 +113,10 @@ public class ComDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get cqWcmWorklfowTerminateExclusionList
    * @return cqWcmWorklfowTerminateExclusionList
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getCqWcmWorklfowTerminateExclusionList() {
     return cqWcmWorklfowTerminateExclusionList;
@@ -128,7 +128,7 @@ public class ComDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -166,11 +166,8 @@ public class ComDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

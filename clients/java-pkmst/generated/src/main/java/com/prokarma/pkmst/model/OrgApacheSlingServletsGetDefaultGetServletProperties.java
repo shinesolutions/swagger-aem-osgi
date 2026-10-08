@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyArray;
 import com.prokarma.pkmst.model.ConfigNodePropertyBoolean;
 import com.prokarma.pkmst.model.ConfigNodePropertyInteger;
@@ -17,45 +18,44 @@ import io.swagger.annotations.ApiModelProperty;
  * OrgApacheSlingServletsGetDefaultGetServletProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingServletsGetDefaultGetServletProperties   {
   @JsonProperty("aliases")
-  private ConfigNodePropertyArray aliases = null;
+  private ConfigNodePropertyArray aliases;
 
   @JsonProperty("index")
-  private ConfigNodePropertyBoolean index = null;
+  private ConfigNodePropertyBoolean index;
 
   @JsonProperty("index.files")
-  private ConfigNodePropertyArray indexFiles = null;
+  private ConfigNodePropertyArray indexFiles;
 
   @JsonProperty("enable.html")
-  private ConfigNodePropertyBoolean enableHtml = null;
+  private ConfigNodePropertyBoolean enableHtml;
 
   @JsonProperty("enable.json")
-  private ConfigNodePropertyBoolean enableJson = null;
+  private ConfigNodePropertyBoolean enableJson;
 
   @JsonProperty("enable.txt")
-  private ConfigNodePropertyBoolean enableTxt = null;
+  private ConfigNodePropertyBoolean enableTxt;
 
   @JsonProperty("enable.xml")
-  private ConfigNodePropertyBoolean enableXml = null;
+  private ConfigNodePropertyBoolean enableXml;
 
   @JsonProperty("json.maximumresults")
-  private ConfigNodePropertyInteger jsonMaximumresults = null;
+  private ConfigNodePropertyInteger jsonMaximumresults;
 
   @JsonProperty("ecmaSuport")
-  private ConfigNodePropertyBoolean ecmaSuport = null;
+  private ConfigNodePropertyBoolean ecmaSuport;
 
   public OrgApacheSlingServletsGetDefaultGetServletProperties aliases(ConfigNodePropertyArray aliases) {
     this.aliases = aliases;
     return this;
   }
 
-   /**
+  /**
    * Get aliases
    * @return aliases
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getAliases() {
     return aliases;
@@ -70,10 +70,10 @@ public class OrgApacheSlingServletsGetDefaultGetServletProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get index
    * @return index
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getIndex() {
     return index;
@@ -88,10 +88,10 @@ public class OrgApacheSlingServletsGetDefaultGetServletProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get indexFiles
    * @return indexFiles
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getIndexFiles() {
     return indexFiles;
@@ -106,10 +106,10 @@ public class OrgApacheSlingServletsGetDefaultGetServletProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get enableHtml
    * @return enableHtml
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getEnableHtml() {
     return enableHtml;
@@ -124,10 +124,10 @@ public class OrgApacheSlingServletsGetDefaultGetServletProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get enableJson
    * @return enableJson
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getEnableJson() {
     return enableJson;
@@ -142,10 +142,10 @@ public class OrgApacheSlingServletsGetDefaultGetServletProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get enableTxt
    * @return enableTxt
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getEnableTxt() {
     return enableTxt;
@@ -160,10 +160,10 @@ public class OrgApacheSlingServletsGetDefaultGetServletProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get enableXml
    * @return enableXml
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getEnableXml() {
     return enableXml;
@@ -178,10 +178,10 @@ public class OrgApacheSlingServletsGetDefaultGetServletProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get jsonMaximumresults
    * @return jsonMaximumresults
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getJsonMaximumresults() {
     return jsonMaximumresults;
@@ -196,10 +196,10 @@ public class OrgApacheSlingServletsGetDefaultGetServletProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get ecmaSuport
    * @return ecmaSuport
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getEcmaSuport() {
     return ecmaSuport;
@@ -211,7 +211,7 @@ public class OrgApacheSlingServletsGetDefaultGetServletProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -257,11 +257,8 @@ public class OrgApacheSlingServletsGetDefaultGetServletProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

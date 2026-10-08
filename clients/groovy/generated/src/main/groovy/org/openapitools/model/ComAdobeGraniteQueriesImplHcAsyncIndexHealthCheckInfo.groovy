@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeGraniteQueriesImplHcAsyncIndexHealthCheckP
 
 @Canonical
 class ComAdobeGraniteQueriesImplHcAsyncIndexHealthCheckInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteQueriesImplHcAsyncIndexHealthCheckProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteQueriesImplHcAsyncIndexHealthCheckProperties properties
 }

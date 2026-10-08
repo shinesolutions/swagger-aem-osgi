@@ -7,12 +7,12 @@ import org.openapitools.model.OrgApacheSlingDistributionMonitorDistributionQueue
 
 @Canonical
 class OrgApacheSlingDistributionMonitorDistributionQueueHealthCheckInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheSlingDistributionMonitorDistributionQueueHealthCheckProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheSlingDistributionMonitorDistributionQueueHealthCheckProperties properties
 }

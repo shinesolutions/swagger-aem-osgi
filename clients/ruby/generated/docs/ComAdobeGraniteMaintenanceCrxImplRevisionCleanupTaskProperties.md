@@ -2,16 +2,17 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**full_gc_days** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **full_gc_days** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComAdobeGraniteMaintenanceCrxImplRevisionCleanupTaskProperties.new(full_gc_days: null)
+instance = SwaggerAemOsgiClient::ComAdobeGraniteMaintenanceCrxImplRevisionCleanupTaskProperties.new(
+  full_gc_days: null
+)
 ```
-
 

@@ -1,44 +1,55 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties   {
-  @JsonProperty("version.id")
-  private ConfigNodePropertyString versionId = null;
+@JsonTypeName("comAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties {
 
-  @JsonProperty("cache.on")
-  private ConfigNodePropertyBoolean cacheOn = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString versionId;
 
-  @JsonProperty("concurrency.level")
-  private ConfigNodePropertyInteger concurrencyLevel = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean cacheOn;
 
-  @JsonProperty("cache.start.size")
-  private ConfigNodePropertyInteger cacheStartSize = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger concurrencyLevel;
 
-  @JsonProperty("cache.ttl")
-  private ConfigNodePropertyInteger cacheTtl = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger cacheStartSize;
 
-  @JsonProperty("cache.size")
-  private ConfigNodePropertyInteger cacheSize = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger cacheTtl;
 
-  @JsonProperty("time.limit")
-  private ConfigNodePropertyInteger timeLimit = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger cacheSize;
 
-  public ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties versionId(ConfigNodePropertyString versionId) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger timeLimit;
+
+  public ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties versionId(@Nullable ConfigNodePropertyString versionId) {
     this.versionId = versionId;
     return this;
   }
@@ -46,20 +57,20 @@ public class ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties 
   /**
    * Get versionId
    * @return versionId
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getVersionId() {
+   */
+  @Valid 
+  @Schema(name = "version.id", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("version.id")
+  public @Nullable ConfigNodePropertyString getVersionId() {
     return versionId;
   }
 
-  public void setVersionId(ConfigNodePropertyString versionId) {
+  @JsonProperty("version.id")
+  public void setVersionId(@Nullable ConfigNodePropertyString versionId) {
     this.versionId = versionId;
   }
 
-  public ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties cacheOn(ConfigNodePropertyBoolean cacheOn) {
+  public ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties cacheOn(@Nullable ConfigNodePropertyBoolean cacheOn) {
     this.cacheOn = cacheOn;
     return this;
   }
@@ -67,20 +78,20 @@ public class ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties 
   /**
    * Get cacheOn
    * @return cacheOn
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getCacheOn() {
+   */
+  @Valid 
+  @Schema(name = "cache.on", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cache.on")
+  public @Nullable ConfigNodePropertyBoolean getCacheOn() {
     return cacheOn;
   }
 
-  public void setCacheOn(ConfigNodePropertyBoolean cacheOn) {
+  @JsonProperty("cache.on")
+  public void setCacheOn(@Nullable ConfigNodePropertyBoolean cacheOn) {
     this.cacheOn = cacheOn;
   }
 
-  public ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties concurrencyLevel(ConfigNodePropertyInteger concurrencyLevel) {
+  public ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties concurrencyLevel(@Nullable ConfigNodePropertyInteger concurrencyLevel) {
     this.concurrencyLevel = concurrencyLevel;
     return this;
   }
@@ -88,20 +99,20 @@ public class ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties 
   /**
    * Get concurrencyLevel
    * @return concurrencyLevel
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getConcurrencyLevel() {
+   */
+  @Valid 
+  @Schema(name = "concurrency.level", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("concurrency.level")
+  public @Nullable ConfigNodePropertyInteger getConcurrencyLevel() {
     return concurrencyLevel;
   }
 
-  public void setConcurrencyLevel(ConfigNodePropertyInteger concurrencyLevel) {
+  @JsonProperty("concurrency.level")
+  public void setConcurrencyLevel(@Nullable ConfigNodePropertyInteger concurrencyLevel) {
     this.concurrencyLevel = concurrencyLevel;
   }
 
-  public ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties cacheStartSize(ConfigNodePropertyInteger cacheStartSize) {
+  public ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties cacheStartSize(@Nullable ConfigNodePropertyInteger cacheStartSize) {
     this.cacheStartSize = cacheStartSize;
     return this;
   }
@@ -109,20 +120,20 @@ public class ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties 
   /**
    * Get cacheStartSize
    * @return cacheStartSize
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getCacheStartSize() {
+   */
+  @Valid 
+  @Schema(name = "cache.start.size", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cache.start.size")
+  public @Nullable ConfigNodePropertyInteger getCacheStartSize() {
     return cacheStartSize;
   }
 
-  public void setCacheStartSize(ConfigNodePropertyInteger cacheStartSize) {
+  @JsonProperty("cache.start.size")
+  public void setCacheStartSize(@Nullable ConfigNodePropertyInteger cacheStartSize) {
     this.cacheStartSize = cacheStartSize;
   }
 
-  public ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties cacheTtl(ConfigNodePropertyInteger cacheTtl) {
+  public ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties cacheTtl(@Nullable ConfigNodePropertyInteger cacheTtl) {
     this.cacheTtl = cacheTtl;
     return this;
   }
@@ -130,20 +141,20 @@ public class ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties 
   /**
    * Get cacheTtl
    * @return cacheTtl
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getCacheTtl() {
+   */
+  @Valid 
+  @Schema(name = "cache.ttl", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cache.ttl")
+  public @Nullable ConfigNodePropertyInteger getCacheTtl() {
     return cacheTtl;
   }
 
-  public void setCacheTtl(ConfigNodePropertyInteger cacheTtl) {
+  @JsonProperty("cache.ttl")
+  public void setCacheTtl(@Nullable ConfigNodePropertyInteger cacheTtl) {
     this.cacheTtl = cacheTtl;
   }
 
-  public ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties cacheSize(ConfigNodePropertyInteger cacheSize) {
+  public ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties cacheSize(@Nullable ConfigNodePropertyInteger cacheSize) {
     this.cacheSize = cacheSize;
     return this;
   }
@@ -151,20 +162,20 @@ public class ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties 
   /**
    * Get cacheSize
    * @return cacheSize
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getCacheSize() {
+   */
+  @Valid 
+  @Schema(name = "cache.size", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cache.size")
+  public @Nullable ConfigNodePropertyInteger getCacheSize() {
     return cacheSize;
   }
 
-  public void setCacheSize(ConfigNodePropertyInteger cacheSize) {
+  @JsonProperty("cache.size")
+  public void setCacheSize(@Nullable ConfigNodePropertyInteger cacheSize) {
     this.cacheSize = cacheSize;
   }
 
-  public ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties timeLimit(ConfigNodePropertyInteger timeLimit) {
+  public ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties timeLimit(@Nullable ConfigNodePropertyInteger timeLimit) {
     this.timeLimit = timeLimit;
     return this;
   }
@@ -172,22 +183,21 @@ public class ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties 
   /**
    * Get timeLimit
    * @return timeLimit
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getTimeLimit() {
+   */
+  @Valid 
+  @Schema(name = "time.limit", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("time.limit")
+  public @Nullable ConfigNodePropertyInteger getTimeLimit() {
     return timeLimit;
   }
 
-  public void setTimeLimit(ConfigNodePropertyInteger timeLimit) {
+  @JsonProperty("time.limit")
+  public void setTimeLimit(@Nullable ConfigNodePropertyInteger timeLimit) {
     this.timeLimit = timeLimit;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -213,7 +223,6 @@ public class ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties 
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties {\n");
-    
     sb.append("    versionId: ").append(toIndentedString(versionId)).append("\n");
     sb.append("    cacheOn: ").append(toIndentedString(cacheOn)).append("\n");
     sb.append("    concurrencyLevel: ").append(toIndentedString(concurrencyLevel)).append("\n");
@@ -229,11 +238,8 @@ public class ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties 
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

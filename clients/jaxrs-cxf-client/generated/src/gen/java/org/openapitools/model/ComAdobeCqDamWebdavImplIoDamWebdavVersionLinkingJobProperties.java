@@ -4,25 +4,23 @@ import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
 
 import io.swagger.annotations.ApiModelProperty;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlType;
-import javax.xml.bind.annotation.XmlEnum;
-import javax.xml.bind.annotation.XmlEnumValue;
+import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
 
 public class ComAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJobProperties  {
   
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyBoolean cqDamWebdavVersionLinkingEnable = null;
+
+  private ConfigNodePropertyBoolean cqDamWebdavVersionLinkingEnable;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyInteger cqDamWebdavVersionLinkingSchedulerPeriod = null;
+
+  private ConfigNodePropertyInteger cqDamWebdavVersionLinkingSchedulerPeriod;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyInteger cqDamWebdavVersionLinkingStagingTimeout = null;
+
+  private ConfigNodePropertyInteger cqDamWebdavVersionLinkingStagingTimeout;
  /**
    * Get cqDamWebdavVersionLinkingEnable
    * @return cqDamWebdavVersionLinkingEnable
@@ -77,6 +75,24 @@ public class ComAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJobProperties  {
     return this;
   }
 
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    ComAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJobProperties comAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJobProperties = (ComAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJobProperties) o;
+    return Objects.equals(this.cqDamWebdavVersionLinkingEnable, comAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJobProperties.cqDamWebdavVersionLinkingEnable) &&
+        Objects.equals(this.cqDamWebdavVersionLinkingSchedulerPeriod, comAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJobProperties.cqDamWebdavVersionLinkingSchedulerPeriod) &&
+        Objects.equals(this.cqDamWebdavVersionLinkingStagingTimeout, comAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJobProperties.cqDamWebdavVersionLinkingStagingTimeout);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(cqDamWebdavVersionLinkingEnable, cqDamWebdavVersionLinkingSchedulerPeriod, cqDamWebdavVersionLinkingStagingTimeout);
+  }
 
   @Override
   public String toString() {
@@ -94,11 +110,8 @@ public class ComAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJobProperties  {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private static String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

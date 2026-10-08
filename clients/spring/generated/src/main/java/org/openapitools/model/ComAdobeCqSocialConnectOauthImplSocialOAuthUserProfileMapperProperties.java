@@ -1,31 +1,42 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComAdobeCqSocialConnectOauthImplSocialOAuthUserProfileMapperProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComAdobeCqSocialConnectOauthImplSocialOAuthUserProfileMapperProperties   {
-  @JsonProperty("facebook")
-  private ConfigNodePropertyArray facebook = null;
+@JsonTypeName("comAdobeCqSocialConnectOauthImplSocialOAuthUserProfileMapperProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComAdobeCqSocialConnectOauthImplSocialOAuthUserProfileMapperProperties {
 
-  @JsonProperty("twitter")
-  private ConfigNodePropertyArray twitter = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray facebook;
 
-  @JsonProperty("provider.config.user.folder")
-  private ConfigNodePropertyString providerConfigUserFolder = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray twitter;
 
-  public ComAdobeCqSocialConnectOauthImplSocialOAuthUserProfileMapperProperties facebook(ConfigNodePropertyArray facebook) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString providerConfigUserFolder;
+
+  public ComAdobeCqSocialConnectOauthImplSocialOAuthUserProfileMapperProperties facebook(@Nullable ConfigNodePropertyArray facebook) {
     this.facebook = facebook;
     return this;
   }
@@ -33,20 +44,20 @@ public class ComAdobeCqSocialConnectOauthImplSocialOAuthUserProfileMapperPropert
   /**
    * Get facebook
    * @return facebook
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getFacebook() {
+   */
+  @Valid 
+  @Schema(name = "facebook", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("facebook")
+  public @Nullable ConfigNodePropertyArray getFacebook() {
     return facebook;
   }
 
-  public void setFacebook(ConfigNodePropertyArray facebook) {
+  @JsonProperty("facebook")
+  public void setFacebook(@Nullable ConfigNodePropertyArray facebook) {
     this.facebook = facebook;
   }
 
-  public ComAdobeCqSocialConnectOauthImplSocialOAuthUserProfileMapperProperties twitter(ConfigNodePropertyArray twitter) {
+  public ComAdobeCqSocialConnectOauthImplSocialOAuthUserProfileMapperProperties twitter(@Nullable ConfigNodePropertyArray twitter) {
     this.twitter = twitter;
     return this;
   }
@@ -54,20 +65,20 @@ public class ComAdobeCqSocialConnectOauthImplSocialOAuthUserProfileMapperPropert
   /**
    * Get twitter
    * @return twitter
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getTwitter() {
+   */
+  @Valid 
+  @Schema(name = "twitter", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("twitter")
+  public @Nullable ConfigNodePropertyArray getTwitter() {
     return twitter;
   }
 
-  public void setTwitter(ConfigNodePropertyArray twitter) {
+  @JsonProperty("twitter")
+  public void setTwitter(@Nullable ConfigNodePropertyArray twitter) {
     this.twitter = twitter;
   }
 
-  public ComAdobeCqSocialConnectOauthImplSocialOAuthUserProfileMapperProperties providerConfigUserFolder(ConfigNodePropertyString providerConfigUserFolder) {
+  public ComAdobeCqSocialConnectOauthImplSocialOAuthUserProfileMapperProperties providerConfigUserFolder(@Nullable ConfigNodePropertyString providerConfigUserFolder) {
     this.providerConfigUserFolder = providerConfigUserFolder;
     return this;
   }
@@ -75,22 +86,21 @@ public class ComAdobeCqSocialConnectOauthImplSocialOAuthUserProfileMapperPropert
   /**
    * Get providerConfigUserFolder
    * @return providerConfigUserFolder
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getProviderConfigUserFolder() {
+   */
+  @Valid 
+  @Schema(name = "provider.config.user.folder", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("provider.config.user.folder")
+  public @Nullable ConfigNodePropertyString getProviderConfigUserFolder() {
     return providerConfigUserFolder;
   }
 
-  public void setProviderConfigUserFolder(ConfigNodePropertyString providerConfigUserFolder) {
+  @JsonProperty("provider.config.user.folder")
+  public void setProviderConfigUserFolder(@Nullable ConfigNodePropertyString providerConfigUserFolder) {
     this.providerConfigUserFolder = providerConfigUserFolder;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -112,7 +122,6 @@ public class ComAdobeCqSocialConnectOauthImplSocialOAuthUserProfileMapperPropert
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComAdobeCqSocialConnectOauthImplSocialOAuthUserProfileMapperProperties {\n");
-    
     sb.append("    facebook: ").append(toIndentedString(facebook)).append("\n");
     sb.append("    twitter: ").append(toIndentedString(twitter)).append("\n");
     sb.append("    providerConfigUserFolder: ").append(toIndentedString(providerConfigUserFolder)).append("\n");
@@ -124,11 +133,8 @@ public class ComAdobeCqSocialConnectOauthImplSocialOAuthUserProfileMapperPropert
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

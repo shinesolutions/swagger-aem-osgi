@@ -1,0 +1,83 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletProperties {
+    title = OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletProperties
+    description = OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletProperties
+    derivedFrom = Root
+    properties {
+        dav_root {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        dav_create_absolute_uri {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        dav_realm {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        collection_types {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        filter_prefixes {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        filter_types {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        filter_uris {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        type_collections {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        type_noncollections {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        type_content {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletProperties {
+    title = OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletProperties
+    description = OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletProperties
+    implements = openapi_server.resourceTypes.OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletProperties
+
+  }
+}

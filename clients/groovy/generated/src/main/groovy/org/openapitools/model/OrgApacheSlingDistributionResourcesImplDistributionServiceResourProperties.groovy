@@ -7,8 +7,8 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class OrgApacheSlingDistributionResourcesImplDistributionServiceResourProperties {
-    ConfigNodePropertyString providerRoots = null
-
-    ConfigNodePropertyString kind = null
-
+    
+    ConfigNodePropertyString providerRoots
+    
+    ConfigNodePropertyString kind
 }

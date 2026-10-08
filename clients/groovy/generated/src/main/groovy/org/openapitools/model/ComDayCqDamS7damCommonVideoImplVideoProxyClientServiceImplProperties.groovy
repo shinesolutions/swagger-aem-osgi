@@ -7,18 +7,18 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplProperties {
-    ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceMultipartuploadMinsizeName = null
-
-    ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceMultipartuploadPartsizeName = null
-
-    ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceMultipartuploadNumthreadName = null
-
-    ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceHttpReadtimeoutName = null
-
-    ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceHttpConnectiontimeoutName = null
-
-    ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceHttpMaxretrycountName = null
-
-    ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceUploadprogressIntervalName = null
-
+    
+    ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceMultipartuploadMinsizeName
+    
+    ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceMultipartuploadPartsizeName
+    
+    ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceMultipartuploadNumthreadName
+    
+    ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceHttpReadtimeoutName
+    
+    ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceHttpConnectiontimeoutName
+    
+    ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceHttpMaxretrycountName
+    
+    ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceUploadprogressIntervalName
 }

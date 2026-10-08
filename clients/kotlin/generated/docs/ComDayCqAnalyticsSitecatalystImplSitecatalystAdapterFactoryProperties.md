@@ -2,9 +2,9 @@
 # ComDayCqAnalyticsSitecatalystImplSitecatalystAdapterFactoryProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**cqPeriodanalyticsPeriodadapterfactoryPeriodcontextstores** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **cqAnalyticsAdapterfactoryContextstores** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
 
 
 

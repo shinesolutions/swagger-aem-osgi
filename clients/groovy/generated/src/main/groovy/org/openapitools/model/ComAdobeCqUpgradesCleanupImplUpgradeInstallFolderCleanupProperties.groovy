@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyArray;
 
 @Canonical
 class ComAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanupProperties {
-    ConfigNodePropertyArray deleteNameRegexps = null
-
+    
+    ConfigNodePropertyArray deleteNameRegexps
 }

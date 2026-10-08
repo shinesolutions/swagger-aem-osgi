@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqSocialModerationDashboardApiUserDetailsS
 
 @Canonical
 class ComAdobeCqSocialModerationDashboardApiUserDetailsSocialComponenInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqSocialModerationDashboardApiUserDetailsSocialComponenProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqSocialModerationDashboardApiUserDetailsSocialComponenProperties properties
 }

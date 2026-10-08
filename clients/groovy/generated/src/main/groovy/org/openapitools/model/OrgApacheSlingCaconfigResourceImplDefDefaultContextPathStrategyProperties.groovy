@@ -9,12 +9,12 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class OrgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyProperties {
-    ConfigNodePropertyBoolean enabled = null
-
-    ConfigNodePropertyArray configRefResourceNames = null
-
-    ConfigNodePropertyArray configRefPropertyNames = null
-
-    ConfigNodePropertyInteger serviceRanking = null
-
+    
+    ConfigNodePropertyBoolean enabled
+    
+    ConfigNodePropertyArray configRefResourceNames
+    
+    ConfigNodePropertyArray configRefPropertyNames
+    
+    ConfigNodePropertyInteger serviceRanking
 }

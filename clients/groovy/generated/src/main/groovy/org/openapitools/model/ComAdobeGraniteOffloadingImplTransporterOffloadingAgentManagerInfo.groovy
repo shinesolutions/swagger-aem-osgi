@@ -7,16 +7,16 @@ import org.openapitools.model.ComAdobeGraniteOffloadingImplTransporterOffloading
 
 @Canonical
 class ComAdobeGraniteOffloadingImplTransporterOffloadingAgentManagerInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteOffloadingImplTransporterOffloadingAgentManagerProperties properties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteOffloadingImplTransporterOffloadingAgentManagerProperties properties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

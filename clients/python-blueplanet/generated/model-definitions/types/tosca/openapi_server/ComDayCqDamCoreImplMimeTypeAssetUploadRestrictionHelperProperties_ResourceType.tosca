@@ -1,0 +1,42 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqDamCoreImplMimeTypeAssetUploadRestrictionHelperProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqDamCoreImplMimeTypeAssetUploadRestrictionHelperProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+}
+resourceTypes {
+
+  ComDayCqDamCoreImplMimeTypeAssetUploadRestrictionHelperProperties {
+    title = ComDayCqDamCoreImplMimeTypeAssetUploadRestrictionHelperProperties
+    description = ComDayCqDamCoreImplMimeTypeAssetUploadRestrictionHelperProperties
+    derivedFrom = Root
+    properties {
+        cq_dam_allow_all_mime {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        cq_dam_allowed_asset_mimes {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqDamCoreImplMimeTypeAssetUploadRestrictionHelperProperties {
+    title = ComDayCqDamCoreImplMimeTypeAssetUploadRestrictionHelperProperties
+    description = ComDayCqDamCoreImplMimeTypeAssetUploadRestrictionHelperProperties
+    implements = openapi_server.resourceTypes.ComDayCqDamCoreImplMimeTypeAssetUploadRestrictionHelperProperties
+
+  }
+}

@@ -7,8 +7,8 @@ import org.openapitools.model.ConfigNodePropertyArray;
 
 @Canonical
 class ComAdobeCqHistoryImplHistoryServiceImplProperties {
-    ConfigNodePropertyArray historyServiceResourceTypes = null
-
-    ConfigNodePropertyArray historyServicePathFilter = null
-
+    
+    ConfigNodePropertyArray historyServiceResourceTypes
+    
+    ConfigNodePropertyArray historyServicePathFilter
 }

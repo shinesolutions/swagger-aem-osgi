@@ -1,0 +1,59 @@
+package org.openapitools.model
+
+import java.util.Objects
+import com.fasterxml.jackson.annotation.JsonInclude
+import com.fasterxml.jackson.annotation.JsonProperty
+import com.fasterxml.jackson.annotation.JsonSetter
+import com.fasterxml.jackson.annotation.Nulls
+import org.openapitools.model.ConfigNodePropertyString
+import javax.validation.constraints.DecimalMax
+import javax.validation.constraints.DecimalMin
+import javax.validation.constraints.Email
+import javax.validation.constraints.Max
+import javax.validation.constraints.Min
+import javax.validation.constraints.NotNull
+import javax.validation.constraints.Pattern
+import javax.validation.constraints.Size
+import javax.validation.Valid
+import io.swagger.v3.oas.annotations.media.Schema
+
+/**
+ * 
+ * @param oauthConfigmanagerImsConfigid 
+ * @param imsOwningEntity 
+ * @param aemInstanceId 
+ * @param imsServiceCode 
+ */
+data class ComAdobeGraniteAuthImsImplImsConfigProviderImplProperties(
+
+    @field:Valid
+    @Schema(description = "")
+    @field:JsonInclude(JsonInclude.Include.NON_NULL)
+    @field:JsonSetter(nulls = Nulls.SKIP)
+    @param:JsonProperty("oauth.configmanager.ims.configid")
+    @get:JsonProperty("oauth.configmanager.ims.configid") val oauthConfigmanagerImsConfigid: ConfigNodePropertyString? = null,
+
+    @field:Valid
+    @Schema(description = "")
+    @field:JsonInclude(JsonInclude.Include.NON_NULL)
+    @field:JsonSetter(nulls = Nulls.SKIP)
+    @param:JsonProperty("ims.owningEntity")
+    @get:JsonProperty("ims.owningEntity") val imsOwningEntity: ConfigNodePropertyString? = null,
+
+    @field:Valid
+    @Schema(description = "")
+    @field:JsonInclude(JsonInclude.Include.NON_NULL)
+    @field:JsonSetter(nulls = Nulls.SKIP)
+    @param:JsonProperty("aem.instanceId")
+    @get:JsonProperty("aem.instanceId") val aemInstanceId: ConfigNodePropertyString? = null,
+
+    @field:Valid
+    @Schema(description = "")
+    @field:JsonInclude(JsonInclude.Include.NON_NULL)
+    @field:JsonSetter(nulls = Nulls.SKIP)
+    @param:JsonProperty("ims.serviceCode")
+    @get:JsonProperty("ims.serviceCode") val imsServiceCode: ConfigNodePropertyString? = null
+) {
+
+}
+

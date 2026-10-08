@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqSocialMessagingClientEndpointsImplMessag
 
 @Canonical
 class ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties properties
 }

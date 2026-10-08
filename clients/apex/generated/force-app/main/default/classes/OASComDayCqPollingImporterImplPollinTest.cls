@@ -72,10 +72,10 @@ private class OASComDayCqPollingImporterImplPollinTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqPollingImporterImplPollin comDayCqPollingImporterImplPollingImporterImplProperties = new OASComDayCqPollingImporterImplPollin();
-        Map<String, String> propertyMappings = comDayCqPollingImporterImplPollingImporterImplProperties.getPropertyMappings();
-        System.assertEquals('importerMinInterval', propertyMappings.get('importer.min.interval'));
-        System.assertEquals('importerUser', propertyMappings.get('importer.user'));
-        System.assertEquals('excludePaths', propertyMappings.get('exclude.paths'));
-        System.assertEquals('includePaths', propertyMappings.get('include.paths'));
+        Map<String, String> x-property-mappings = comDayCqPollingImporterImplPollingImporterImplProperties.getx-property-mappings();
+        System.assertEquals('importerMinInterval', x-property-mappings.get('importer.min.interval'));
+        System.assertEquals('importerUser', x-property-mappings.get('importer.user'));
+        System.assertEquals('excludePaths', x-property-mappings.get('exclude.paths'));
+        System.assertEquals('includePaths', x-property-mappings.get('include.paths'));
     }
 }

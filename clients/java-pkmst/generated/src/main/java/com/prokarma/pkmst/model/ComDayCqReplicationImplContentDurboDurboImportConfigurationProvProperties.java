@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyArray;
 import com.prokarma.pkmst.model.ConfigNodePropertyBoolean;
 import com.prokarma.pkmst.model.ConfigNodePropertyInteger;
@@ -17,45 +18,44 @@ import io.swagger.annotations.ApiModelProperty;
  * ComDayCqReplicationImplContentDurboDurboImportConfigurationProvProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqReplicationImplContentDurboDurboImportConfigurationProvProperties   {
   @JsonProperty("preserve.hierarchy.nodes")
-  private ConfigNodePropertyBoolean preserveHierarchyNodes = null;
+  private ConfigNodePropertyBoolean preserveHierarchyNodes;
 
   @JsonProperty("ignore.versioning")
-  private ConfigNodePropertyBoolean ignoreVersioning = null;
+  private ConfigNodePropertyBoolean ignoreVersioning;
 
   @JsonProperty("import.acl")
-  private ConfigNodePropertyBoolean importAcl = null;
+  private ConfigNodePropertyBoolean importAcl;
 
   @JsonProperty("save.threshold")
-  private ConfigNodePropertyInteger saveThreshold = null;
+  private ConfigNodePropertyInteger saveThreshold;
 
   @JsonProperty("preserve.user.paths")
-  private ConfigNodePropertyBoolean preserveUserPaths = null;
+  private ConfigNodePropertyBoolean preserveUserPaths;
 
   @JsonProperty("preserve.uuid")
-  private ConfigNodePropertyBoolean preserveUuid = null;
+  private ConfigNodePropertyBoolean preserveUuid;
 
   @JsonProperty("preserve.uuid.nodetypes")
-  private ConfigNodePropertyArray preserveUuidNodetypes = null;
+  private ConfigNodePropertyArray preserveUuidNodetypes;
 
   @JsonProperty("preserve.uuid.subtrees")
-  private ConfigNodePropertyArray preserveUuidSubtrees = null;
+  private ConfigNodePropertyArray preserveUuidSubtrees;
 
   @JsonProperty("auto.commit")
-  private ConfigNodePropertyBoolean autoCommit = null;
+  private ConfigNodePropertyBoolean autoCommit;
 
   public ComDayCqReplicationImplContentDurboDurboImportConfigurationProvProperties preserveHierarchyNodes(ConfigNodePropertyBoolean preserveHierarchyNodes) {
     this.preserveHierarchyNodes = preserveHierarchyNodes;
     return this;
   }
 
-   /**
+  /**
    * Get preserveHierarchyNodes
    * @return preserveHierarchyNodes
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getPreserveHierarchyNodes() {
     return preserveHierarchyNodes;
@@ -70,10 +70,10 @@ public class ComDayCqReplicationImplContentDurboDurboImportConfigurationProvProp
     return this;
   }
 
-   /**
+  /**
    * Get ignoreVersioning
    * @return ignoreVersioning
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getIgnoreVersioning() {
     return ignoreVersioning;
@@ -88,10 +88,10 @@ public class ComDayCqReplicationImplContentDurboDurboImportConfigurationProvProp
     return this;
   }
 
-   /**
+  /**
    * Get importAcl
    * @return importAcl
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getImportAcl() {
     return importAcl;
@@ -106,10 +106,10 @@ public class ComDayCqReplicationImplContentDurboDurboImportConfigurationProvProp
     return this;
   }
 
-   /**
+  /**
    * Get saveThreshold
    * @return saveThreshold
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getSaveThreshold() {
     return saveThreshold;
@@ -124,10 +124,10 @@ public class ComDayCqReplicationImplContentDurboDurboImportConfigurationProvProp
     return this;
   }
 
-   /**
+  /**
    * Get preserveUserPaths
    * @return preserveUserPaths
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getPreserveUserPaths() {
     return preserveUserPaths;
@@ -142,10 +142,10 @@ public class ComDayCqReplicationImplContentDurboDurboImportConfigurationProvProp
     return this;
   }
 
-   /**
+  /**
    * Get preserveUuid
    * @return preserveUuid
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getPreserveUuid() {
     return preserveUuid;
@@ -160,10 +160,10 @@ public class ComDayCqReplicationImplContentDurboDurboImportConfigurationProvProp
     return this;
   }
 
-   /**
+  /**
    * Get preserveUuidNodetypes
    * @return preserveUuidNodetypes
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getPreserveUuidNodetypes() {
     return preserveUuidNodetypes;
@@ -178,10 +178,10 @@ public class ComDayCqReplicationImplContentDurboDurboImportConfigurationProvProp
     return this;
   }
 
-   /**
+  /**
    * Get preserveUuidSubtrees
    * @return preserveUuidSubtrees
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getPreserveUuidSubtrees() {
     return preserveUuidSubtrees;
@@ -196,10 +196,10 @@ public class ComDayCqReplicationImplContentDurboDurboImportConfigurationProvProp
     return this;
   }
 
-   /**
+  /**
    * Get autoCommit
    * @return autoCommit
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getAutoCommit() {
     return autoCommit;
@@ -211,7 +211,7 @@ public class ComDayCqReplicationImplContentDurboDurboImportConfigurationProvProp
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -257,11 +257,8 @@ public class ComDayCqReplicationImplContentDurboDurboImportConfigurationProvProp
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -8,8 +8,8 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class OrgApacheSlingServiceusermappingImplServiceUserMapperImplAmendedProperties {
-    ConfigNodePropertyInteger serviceRanking = null
-
-    ConfigNodePropertyArray userMapping = null
-
+    
+    ConfigNodePropertyInteger serviceRanking
+    
+    ConfigNodePropertyArray userMapping
 }

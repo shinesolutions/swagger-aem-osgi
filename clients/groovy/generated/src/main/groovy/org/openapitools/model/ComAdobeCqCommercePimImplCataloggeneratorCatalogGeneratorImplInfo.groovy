@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqCommercePimImplCataloggeneratorCatalogGe
 
 @Canonical
 class ComAdobeCqCommercePimImplCataloggeneratorCatalogGeneratorImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqCommercePimImplCataloggeneratorCatalogGeneratorImplProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqCommercePimImplCataloggeneratorCatalogGeneratorImplProperties properties
 }

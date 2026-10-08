@@ -1,32 +1,43 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComAdobeGraniteTaskmanagementImplJcrTaskArchiveServiceProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComAdobeGraniteTaskmanagementImplJcrTaskArchiveServiceProperties   {
-  @JsonProperty("archiving.enabled")
-  private ConfigNodePropertyBoolean archivingEnabled = null;
+@JsonTypeName("comAdobeGraniteTaskmanagementImplJcrTaskArchiveServiceProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComAdobeGraniteTaskmanagementImplJcrTaskArchiveServiceProperties {
 
-  @JsonProperty("scheduler.expression")
-  private ConfigNodePropertyString schedulerExpression = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean archivingEnabled;
 
-  @JsonProperty("archive.since.days.completed")
-  private ConfigNodePropertyInteger archiveSinceDaysCompleted = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString schedulerExpression;
 
-  public ComAdobeGraniteTaskmanagementImplJcrTaskArchiveServiceProperties archivingEnabled(ConfigNodePropertyBoolean archivingEnabled) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger archiveSinceDaysCompleted;
+
+  public ComAdobeGraniteTaskmanagementImplJcrTaskArchiveServiceProperties archivingEnabled(@Nullable ConfigNodePropertyBoolean archivingEnabled) {
     this.archivingEnabled = archivingEnabled;
     return this;
   }
@@ -34,20 +45,20 @@ public class ComAdobeGraniteTaskmanagementImplJcrTaskArchiveServiceProperties   
   /**
    * Get archivingEnabled
    * @return archivingEnabled
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getArchivingEnabled() {
+   */
+  @Valid 
+  @Schema(name = "archiving.enabled", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("archiving.enabled")
+  public @Nullable ConfigNodePropertyBoolean getArchivingEnabled() {
     return archivingEnabled;
   }
 
-  public void setArchivingEnabled(ConfigNodePropertyBoolean archivingEnabled) {
+  @JsonProperty("archiving.enabled")
+  public void setArchivingEnabled(@Nullable ConfigNodePropertyBoolean archivingEnabled) {
     this.archivingEnabled = archivingEnabled;
   }
 
-  public ComAdobeGraniteTaskmanagementImplJcrTaskArchiveServiceProperties schedulerExpression(ConfigNodePropertyString schedulerExpression) {
+  public ComAdobeGraniteTaskmanagementImplJcrTaskArchiveServiceProperties schedulerExpression(@Nullable ConfigNodePropertyString schedulerExpression) {
     this.schedulerExpression = schedulerExpression;
     return this;
   }
@@ -55,20 +66,20 @@ public class ComAdobeGraniteTaskmanagementImplJcrTaskArchiveServiceProperties   
   /**
    * Get schedulerExpression
    * @return schedulerExpression
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getSchedulerExpression() {
+   */
+  @Valid 
+  @Schema(name = "scheduler.expression", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("scheduler.expression")
+  public @Nullable ConfigNodePropertyString getSchedulerExpression() {
     return schedulerExpression;
   }
 
-  public void setSchedulerExpression(ConfigNodePropertyString schedulerExpression) {
+  @JsonProperty("scheduler.expression")
+  public void setSchedulerExpression(@Nullable ConfigNodePropertyString schedulerExpression) {
     this.schedulerExpression = schedulerExpression;
   }
 
-  public ComAdobeGraniteTaskmanagementImplJcrTaskArchiveServiceProperties archiveSinceDaysCompleted(ConfigNodePropertyInteger archiveSinceDaysCompleted) {
+  public ComAdobeGraniteTaskmanagementImplJcrTaskArchiveServiceProperties archiveSinceDaysCompleted(@Nullable ConfigNodePropertyInteger archiveSinceDaysCompleted) {
     this.archiveSinceDaysCompleted = archiveSinceDaysCompleted;
     return this;
   }
@@ -76,22 +87,21 @@ public class ComAdobeGraniteTaskmanagementImplJcrTaskArchiveServiceProperties   
   /**
    * Get archiveSinceDaysCompleted
    * @return archiveSinceDaysCompleted
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getArchiveSinceDaysCompleted() {
+   */
+  @Valid 
+  @Schema(name = "archive.since.days.completed", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("archive.since.days.completed")
+  public @Nullable ConfigNodePropertyInteger getArchiveSinceDaysCompleted() {
     return archiveSinceDaysCompleted;
   }
 
-  public void setArchiveSinceDaysCompleted(ConfigNodePropertyInteger archiveSinceDaysCompleted) {
+  @JsonProperty("archive.since.days.completed")
+  public void setArchiveSinceDaysCompleted(@Nullable ConfigNodePropertyInteger archiveSinceDaysCompleted) {
     this.archiveSinceDaysCompleted = archiveSinceDaysCompleted;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -113,7 +123,6 @@ public class ComAdobeGraniteTaskmanagementImplJcrTaskArchiveServiceProperties   
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComAdobeGraniteTaskmanagementImplJcrTaskArchiveServiceProperties {\n");
-    
     sb.append("    archivingEnabled: ").append(toIndentedString(archivingEnabled)).append("\n");
     sb.append("    schedulerExpression: ").append(toIndentedString(schedulerExpression)).append("\n");
     sb.append("    archiveSinceDaysCompleted: ").append(toIndentedString(archiveSinceDaysCompleted)).append("\n");
@@ -125,11 +134,8 @@ public class ComAdobeGraniteTaskmanagementImplJcrTaskArchiveServiceProperties   
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

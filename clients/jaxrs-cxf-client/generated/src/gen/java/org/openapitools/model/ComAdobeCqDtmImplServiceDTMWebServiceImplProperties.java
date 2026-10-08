@@ -3,22 +3,19 @@ package org.openapitools.model;
 import org.openapitools.model.ConfigNodePropertyInteger;
 
 import io.swagger.annotations.ApiModelProperty;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlType;
-import javax.xml.bind.annotation.XmlEnum;
-import javax.xml.bind.annotation.XmlEnumValue;
+import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
 
 public class ComAdobeCqDtmImplServiceDTMWebServiceImplProperties  {
   
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyInteger connectionTimeout = null;
+
+  private ConfigNodePropertyInteger connectionTimeout;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyInteger socketTimeout = null;
+
+  private ConfigNodePropertyInteger socketTimeout;
  /**
    * Get connectionTimeout
    * @return connectionTimeout
@@ -55,6 +52,23 @@ public class ComAdobeCqDtmImplServiceDTMWebServiceImplProperties  {
     return this;
   }
 
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    ComAdobeCqDtmImplServiceDTMWebServiceImplProperties comAdobeCqDtmImplServiceDTMWebServiceImplProperties = (ComAdobeCqDtmImplServiceDTMWebServiceImplProperties) o;
+    return Objects.equals(this.connectionTimeout, comAdobeCqDtmImplServiceDTMWebServiceImplProperties.connectionTimeout) &&
+        Objects.equals(this.socketTimeout, comAdobeCqDtmImplServiceDTMWebServiceImplProperties.socketTimeout);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(connectionTimeout, socketTimeout);
+  }
 
   @Override
   public String toString() {
@@ -71,11 +85,8 @@ public class ComAdobeCqDtmImplServiceDTMWebServiceImplProperties  {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private static String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

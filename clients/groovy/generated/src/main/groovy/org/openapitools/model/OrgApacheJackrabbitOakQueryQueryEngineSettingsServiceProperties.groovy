@@ -8,12 +8,12 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceProperties {
-    ConfigNodePropertyInteger queryLimitInMemory = null
-
-    ConfigNodePropertyInteger queryLimitReads = null
-
-    ConfigNodePropertyBoolean queryFailTraversal = null
-
-    ConfigNodePropertyBoolean fastQuerySize = null
-
+    
+    ConfigNodePropertyInteger queryLimitInMemory
+    
+    ConfigNodePropertyInteger queryLimitReads
+    
+    ConfigNodePropertyBoolean queryFailTraversal
+    
+    ConfigNodePropertyBoolean fastQuerySize
 }

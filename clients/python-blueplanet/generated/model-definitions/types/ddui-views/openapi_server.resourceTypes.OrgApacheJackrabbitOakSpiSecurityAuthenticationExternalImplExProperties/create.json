@@ -1,0 +1,21 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "jaas_ranking" },
+      {"model": "jaas_control_flag" },
+      {"model": "jaas_realm_name" },
+      {"model": "idp_name" },
+      {"model": "sync_handler_name" },
+    ]
+  }]
+}

@@ -1,0 +1,27 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "name" },
+      {"model": "min_pool_size" },
+      {"model": "max_pool_size" },
+      {"model": "queue_size" },
+      {"model": "max_thread_age" },
+      {"model": "keep_alive_time" },
+      {"model": "block_policy" },
+      {"model": "shutdown_graceful" },
+      {"model": "daemon" },
+      {"model": "shutdown_wait_time" },
+      {"model": "priority" },
+    ]
+  }]
+}

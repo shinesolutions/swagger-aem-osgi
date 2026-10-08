@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqWcmDesignimporterImplMobileCanvasBuilderIm
 
 @Canonical
 class ComDayCqWcmDesignimporterImplMobileCanvasBuilderImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqWcmDesignimporterImplMobileCanvasBuilderImplProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqWcmDesignimporterImplMobileCanvasBuilderImplProperties properties
 }

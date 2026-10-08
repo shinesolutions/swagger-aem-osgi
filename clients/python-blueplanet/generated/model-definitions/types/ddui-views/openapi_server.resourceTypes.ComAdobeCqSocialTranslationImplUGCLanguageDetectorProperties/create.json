@@ -1,0 +1,24 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "event_topics" },
+      {"model": "event_filter" },
+      {"model": "translate_listener_type" },
+      {"model": "translate_property_list" },
+      {"model": "pool_size" },
+      {"model": "max_pool_size" },
+      {"model": "queue_size" },
+      {"model": "keep_alive_time" },
+    ]
+  }]
+}

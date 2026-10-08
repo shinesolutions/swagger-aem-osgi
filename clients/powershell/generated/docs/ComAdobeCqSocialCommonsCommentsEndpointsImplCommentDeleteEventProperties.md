@@ -1,0 +1,21 @@
+# ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventProperties
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**Ranking** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  | [optional] 
+
+## Examples
+
+- Prepare the resource
+```powershell
+$ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventProperties = Initialize-PSOpenAPIToolsComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventProperties  -Ranking null
+```
+
+- Convert the resource to JSON
+```powershell
+$ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventProperties | ConvertTo-JSON
+```
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+

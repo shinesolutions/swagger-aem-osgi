@@ -2,24 +2,25 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class ComAdobeGraniteAuthCertImplClientCertAuthHandlerProperties   {
   
-  private ConfigNodePropertyString path = null;
+  private ConfigNodePropertyString path;
 
-  private ConfigNodePropertyInteger serviceRanking = null;
-
+  private ConfigNodePropertyInteger serviceRanking;
 
   /**
    **/
@@ -59,7 +60,7 @@ public class ComAdobeGraniteAuthCertImplClientCertAuthHandlerProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -67,8 +68,8 @@ public class ComAdobeGraniteAuthCertImplClientCertAuthHandlerProperties   {
       return false;
     }
     ComAdobeGraniteAuthCertImplClientCertAuthHandlerProperties comAdobeGraniteAuthCertImplClientCertAuthHandlerProperties = (ComAdobeGraniteAuthCertImplClientCertAuthHandlerProperties) o;
-    return Objects.equals(path, comAdobeGraniteAuthCertImplClientCertAuthHandlerProperties.path) &&
-        Objects.equals(serviceRanking, comAdobeGraniteAuthCertImplClientCertAuthHandlerProperties.serviceRanking);
+    return Objects.equals(this.path, comAdobeGraniteAuthCertImplClientCertAuthHandlerProperties.path) &&
+        Objects.equals(this.serviceRanking, comAdobeGraniteAuthCertImplClientCertAuthHandlerProperties.serviceRanking);
   }
 
   @Override
@@ -91,11 +92,8 @@ public class ComAdobeGraniteAuthCertImplClientCertAuthHandlerProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

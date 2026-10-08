@@ -4,22 +4,26 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2019-08-05T00:59:30.156Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2026-10-07T12:54:21.614735164Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqWcmCoreImplEventRepositoryChangeEventListenerProperties   {
   
-  private ConfigNodePropertyArray paths = null;
-  private ConfigNodePropertyArray excludedPaths = null;
+  private ConfigNodePropertyArray paths;
+  private ConfigNodePropertyArray excludedPaths;
 
   /**
    **/
   
   @ApiModelProperty(value = "")
   @JsonProperty("paths")
+  @Valid
   public ConfigNodePropertyArray getPaths() {
     return paths;
   }
@@ -32,6 +36,7 @@ public class ComDayCqWcmCoreImplEventRepositoryChangeEventListenerProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("excludedPaths")
+  @Valid
   public ConfigNodePropertyArray getExcludedPaths() {
     return excludedPaths;
   }
@@ -41,7 +46,7 @@ public class ComDayCqWcmCoreImplEventRepositoryChangeEventListenerProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -49,8 +54,8 @@ public class ComDayCqWcmCoreImplEventRepositoryChangeEventListenerProperties   {
       return false;
     }
     ComDayCqWcmCoreImplEventRepositoryChangeEventListenerProperties comDayCqWcmCoreImplEventRepositoryChangeEventListenerProperties = (ComDayCqWcmCoreImplEventRepositoryChangeEventListenerProperties) o;
-    return Objects.equals(paths, comDayCqWcmCoreImplEventRepositoryChangeEventListenerProperties.paths) &&
-        Objects.equals(excludedPaths, comDayCqWcmCoreImplEventRepositoryChangeEventListenerProperties.excludedPaths);
+    return Objects.equals(this.paths, comDayCqWcmCoreImplEventRepositoryChangeEventListenerProperties.paths) &&
+        Objects.equals(this.excludedPaths, comDayCqWcmCoreImplEventRepositoryChangeEventListenerProperties.excludedPaths);
   }
 
   @Override
@@ -73,11 +78,8 @@ public class ComDayCqWcmCoreImplEventRepositoryChangeEventListenerProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

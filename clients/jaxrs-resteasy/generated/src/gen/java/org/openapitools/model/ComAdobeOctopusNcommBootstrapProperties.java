@@ -4,25 +4,29 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2019-08-05T00:59:30.156Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2026-10-07T12:54:21.614735164Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeOctopusNcommBootstrapProperties   {
   
-  private ConfigNodePropertyInteger maxConnections = null;
-  private ConfigNodePropertyInteger maxRequests = null;
-  private ConfigNodePropertyInteger requestTimeout = null;
-  private ConfigNodePropertyInteger requestRetries = null;
-  private ConfigNodePropertyInteger launchTimeout = null;
+  private ConfigNodePropertyInteger maxConnections;
+  private ConfigNodePropertyInteger maxRequests;
+  private ConfigNodePropertyInteger requestTimeout;
+  private ConfigNodePropertyInteger requestRetries;
+  private ConfigNodePropertyInteger launchTimeout;
 
   /**
    **/
   
   @ApiModelProperty(value = "")
   @JsonProperty("maxConnections")
+  @Valid
   public ConfigNodePropertyInteger getMaxConnections() {
     return maxConnections;
   }
@@ -35,6 +39,7 @@ public class ComAdobeOctopusNcommBootstrapProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("maxRequests")
+  @Valid
   public ConfigNodePropertyInteger getMaxRequests() {
     return maxRequests;
   }
@@ -47,6 +52,7 @@ public class ComAdobeOctopusNcommBootstrapProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("requestTimeout")
+  @Valid
   public ConfigNodePropertyInteger getRequestTimeout() {
     return requestTimeout;
   }
@@ -59,6 +65,7 @@ public class ComAdobeOctopusNcommBootstrapProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("requestRetries")
+  @Valid
   public ConfigNodePropertyInteger getRequestRetries() {
     return requestRetries;
   }
@@ -71,6 +78,7 @@ public class ComAdobeOctopusNcommBootstrapProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("launchTimeout")
+  @Valid
   public ConfigNodePropertyInteger getLaunchTimeout() {
     return launchTimeout;
   }
@@ -80,7 +88,7 @@ public class ComAdobeOctopusNcommBootstrapProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -88,11 +96,11 @@ public class ComAdobeOctopusNcommBootstrapProperties   {
       return false;
     }
     ComAdobeOctopusNcommBootstrapProperties comAdobeOctopusNcommBootstrapProperties = (ComAdobeOctopusNcommBootstrapProperties) o;
-    return Objects.equals(maxConnections, comAdobeOctopusNcommBootstrapProperties.maxConnections) &&
-        Objects.equals(maxRequests, comAdobeOctopusNcommBootstrapProperties.maxRequests) &&
-        Objects.equals(requestTimeout, comAdobeOctopusNcommBootstrapProperties.requestTimeout) &&
-        Objects.equals(requestRetries, comAdobeOctopusNcommBootstrapProperties.requestRetries) &&
-        Objects.equals(launchTimeout, comAdobeOctopusNcommBootstrapProperties.launchTimeout);
+    return Objects.equals(this.maxConnections, comAdobeOctopusNcommBootstrapProperties.maxConnections) &&
+        Objects.equals(this.maxRequests, comAdobeOctopusNcommBootstrapProperties.maxRequests) &&
+        Objects.equals(this.requestTimeout, comAdobeOctopusNcommBootstrapProperties.requestTimeout) &&
+        Objects.equals(this.requestRetries, comAdobeOctopusNcommBootstrapProperties.requestRetries) &&
+        Objects.equals(this.launchTimeout, comAdobeOctopusNcommBootstrapProperties.launchTimeout);
   }
 
   @Override
@@ -118,11 +126,8 @@ public class ComAdobeOctopusNcommBootstrapProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

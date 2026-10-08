@@ -8,8 +8,8 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTProperties {
-    ConfigNodePropertyInteger serviceRanking = null
-
-    ConfigNodePropertyString tagpattern = null
-
+    
+    ConfigNodePropertyInteger serviceRanking
+    
+    ConfigNodePropertyString tagpattern
 }

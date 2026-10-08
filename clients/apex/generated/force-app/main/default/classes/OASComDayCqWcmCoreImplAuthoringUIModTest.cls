@@ -72,7 +72,7 @@ private class OASComDayCqWcmCoreImplAuthoringUIModTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqWcmCoreImplAuthoringUIMod comDayCqWcmCoreImplAuthoringUIModeServiceImplProperties = new OASComDayCqWcmCoreImplAuthoringUIMod();
-        Map<String, String> propertyMappings = comDayCqWcmCoreImplAuthoringUIModeServiceImplProperties.getPropertyMappings();
-        System.assertEquals('authoringUIModeServiceDefault', propertyMappings.get('authoringUIModeService.default'));
+        Map<String, String> x-property-mappings = comDayCqWcmCoreImplAuthoringUIModeServiceImplProperties.getx-property-mappings();
+        System.assertEquals('authoringUIModeServiceDefault', x-property-mappings.get('authoringUIModeService.default'));
     }
 }

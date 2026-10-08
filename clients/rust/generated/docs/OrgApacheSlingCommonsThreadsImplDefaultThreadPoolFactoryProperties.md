@@ -1,19 +1,20 @@
 # OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**name** | [***::models::ConfigNodePropertyString**](configNodePropertyString.md) |  | [optional] 
-**min_pool_size** | [***::models::ConfigNodePropertyInteger**](configNodePropertyInteger.md) |  | [optional] 
-**max_pool_size** | [***::models::ConfigNodePropertyInteger**](configNodePropertyInteger.md) |  | [optional] 
-**queue_size** | [***::models::ConfigNodePropertyInteger**](configNodePropertyInteger.md) |  | [optional] 
-**max_thread_age** | [***::models::ConfigNodePropertyInteger**](configNodePropertyInteger.md) |  | [optional] 
-**keep_alive_time** | [***::models::ConfigNodePropertyInteger**](configNodePropertyInteger.md) |  | [optional] 
-**block_policy** | [***::models::ConfigNodePropertyDropDown**](configNodePropertyDropDown.md) |  | [optional] 
-**shutdown_graceful** | [***::models::ConfigNodePropertyBoolean**](configNodePropertyBoolean.md) |  | [optional] 
-**daemon** | [***::models::ConfigNodePropertyBoolean**](configNodePropertyBoolean.md) |  | [optional] 
-**shutdown_wait_time** | [***::models::ConfigNodePropertyInteger**](configNodePropertyInteger.md) |  | [optional] 
-**priority** | [***::models::ConfigNodePropertyDropDown**](configNodePropertyDropDown.md) |  | [optional] 
+**name** | Option<[**models::ConfigNodePropertyString**](ConfigNodePropertyString.md)> |  | [optional]
+**min_pool_size** | Option<[**models::ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md)> |  | [optional]
+**max_pool_size** | Option<[**models::ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md)> |  | [optional]
+**queue_size** | Option<[**models::ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md)> |  | [optional]
+**max_thread_age** | Option<[**models::ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md)> |  | [optional]
+**keep_alive_time** | Option<[**models::ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md)> |  | [optional]
+**block_policy** | Option<[**models::ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md)> |  | [optional]
+**shutdown_graceful** | Option<[**models::ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md)> |  | [optional]
+**daemon** | Option<[**models::ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md)> |  | [optional]
+**shutdown_wait_time** | Option<[**models::ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md)> |  | [optional]
+**priority** | Option<[**models::ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md)> |  | [optional]
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

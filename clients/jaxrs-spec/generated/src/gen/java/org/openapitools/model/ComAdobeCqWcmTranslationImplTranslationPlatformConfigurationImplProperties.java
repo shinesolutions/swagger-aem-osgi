@@ -1,22 +1,33 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyDropDown;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comAdobeCqWcmTranslationImplTranslationPlatformConfigurationImplProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeCqWcmTranslationImplTranslationPlatformConfigurationImplProperties   {
-  
-  private @Valid ConfigNodePropertyString syncTranslationStateSchedulingFormat = null;
-  private @Valid ConfigNodePropertyString schedulingRepeatTranslationSchedulingFormat = null;
-  private @Valid ConfigNodePropertyString syncTranslationStateLockTimeoutInMinutes = null;
-  private @Valid ConfigNodePropertyDropDown exportFormat = null;
+  private ConfigNodePropertyString syncTranslationStateSchedulingFormat;
+  private ConfigNodePropertyString schedulingRepeatTranslationSchedulingFormat;
+  private ConfigNodePropertyString syncTranslationStateLockTimeoutInMinutes;
+  private ConfigNodePropertyDropDown exportFormat;
+
+  public ComAdobeCqWcmTranslationImplTranslationPlatformConfigurationImplProperties() {
+  }
 
   /**
    **/
@@ -28,9 +39,11 @@ public class ComAdobeCqWcmTranslationImplTranslationPlatformConfigurationImplPro
   
   @ApiModelProperty(value = "")
   @JsonProperty("syncTranslationState.schedulingFormat")
-  public ConfigNodePropertyString getSyncTranslationStateSchedulingFormat() {
+  @Valid public ConfigNodePropertyString getSyncTranslationStateSchedulingFormat() {
     return syncTranslationStateSchedulingFormat;
   }
+
+  @JsonProperty("syncTranslationState.schedulingFormat")
   public void setSyncTranslationStateSchedulingFormat(ConfigNodePropertyString syncTranslationStateSchedulingFormat) {
     this.syncTranslationStateSchedulingFormat = syncTranslationStateSchedulingFormat;
   }
@@ -45,9 +58,11 @@ public class ComAdobeCqWcmTranslationImplTranslationPlatformConfigurationImplPro
   
   @ApiModelProperty(value = "")
   @JsonProperty("schedulingRepeatTranslation.schedulingFormat")
-  public ConfigNodePropertyString getSchedulingRepeatTranslationSchedulingFormat() {
+  @Valid public ConfigNodePropertyString getSchedulingRepeatTranslationSchedulingFormat() {
     return schedulingRepeatTranslationSchedulingFormat;
   }
+
+  @JsonProperty("schedulingRepeatTranslation.schedulingFormat")
   public void setSchedulingRepeatTranslationSchedulingFormat(ConfigNodePropertyString schedulingRepeatTranslationSchedulingFormat) {
     this.schedulingRepeatTranslationSchedulingFormat = schedulingRepeatTranslationSchedulingFormat;
   }
@@ -62,9 +77,11 @@ public class ComAdobeCqWcmTranslationImplTranslationPlatformConfigurationImplPro
   
   @ApiModelProperty(value = "")
   @JsonProperty("syncTranslationState.lockTimeoutInMinutes")
-  public ConfigNodePropertyString getSyncTranslationStateLockTimeoutInMinutes() {
+  @Valid public ConfigNodePropertyString getSyncTranslationStateLockTimeoutInMinutes() {
     return syncTranslationStateLockTimeoutInMinutes;
   }
+
+  @JsonProperty("syncTranslationState.lockTimeoutInMinutes")
   public void setSyncTranslationStateLockTimeoutInMinutes(ConfigNodePropertyString syncTranslationStateLockTimeoutInMinutes) {
     this.syncTranslationStateLockTimeoutInMinutes = syncTranslationStateLockTimeoutInMinutes;
   }
@@ -79,16 +96,18 @@ public class ComAdobeCqWcmTranslationImplTranslationPlatformConfigurationImplPro
   
   @ApiModelProperty(value = "")
   @JsonProperty("export.format")
-  public ConfigNodePropertyDropDown getExportFormat() {
+  @Valid public ConfigNodePropertyDropDown getExportFormat() {
     return exportFormat;
   }
+
+  @JsonProperty("export.format")
   public void setExportFormat(ConfigNodePropertyDropDown exportFormat) {
     this.exportFormat = exportFormat;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -96,10 +115,10 @@ public class ComAdobeCqWcmTranslationImplTranslationPlatformConfigurationImplPro
       return false;
     }
     ComAdobeCqWcmTranslationImplTranslationPlatformConfigurationImplProperties comAdobeCqWcmTranslationImplTranslationPlatformConfigurationImplProperties = (ComAdobeCqWcmTranslationImplTranslationPlatformConfigurationImplProperties) o;
-    return Objects.equals(syncTranslationStateSchedulingFormat, comAdobeCqWcmTranslationImplTranslationPlatformConfigurationImplProperties.syncTranslationStateSchedulingFormat) &&
-        Objects.equals(schedulingRepeatTranslationSchedulingFormat, comAdobeCqWcmTranslationImplTranslationPlatformConfigurationImplProperties.schedulingRepeatTranslationSchedulingFormat) &&
-        Objects.equals(syncTranslationStateLockTimeoutInMinutes, comAdobeCqWcmTranslationImplTranslationPlatformConfigurationImplProperties.syncTranslationStateLockTimeoutInMinutes) &&
-        Objects.equals(exportFormat, comAdobeCqWcmTranslationImplTranslationPlatformConfigurationImplProperties.exportFormat);
+    return Objects.equals(this.syncTranslationStateSchedulingFormat, comAdobeCqWcmTranslationImplTranslationPlatformConfigurationImplProperties.syncTranslationStateSchedulingFormat) &&
+        Objects.equals(this.schedulingRepeatTranslationSchedulingFormat, comAdobeCqWcmTranslationImplTranslationPlatformConfigurationImplProperties.schedulingRepeatTranslationSchedulingFormat) &&
+        Objects.equals(this.syncTranslationStateLockTimeoutInMinutes, comAdobeCqWcmTranslationImplTranslationPlatformConfigurationImplProperties.syncTranslationStateLockTimeoutInMinutes) &&
+        Objects.equals(this.exportFormat, comAdobeCqWcmTranslationImplTranslationPlatformConfigurationImplProperties.exportFormat);
   }
 
   @Override
@@ -124,11 +143,9 @@ public class ComAdobeCqWcmTranslationImplTranslationPlatformConfigurationImplPro
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

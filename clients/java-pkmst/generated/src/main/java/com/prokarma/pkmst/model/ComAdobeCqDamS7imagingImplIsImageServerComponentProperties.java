@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyBoolean;
 import com.prokarma.pkmst.model.ConfigNodePropertyInteger;
 import com.prokarma.pkmst.model.ConfigNodePropertyString;
@@ -17,36 +18,35 @@ import io.swagger.annotations.ApiModelProperty;
  * ComAdobeCqDamS7imagingImplIsImageServerComponentProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeCqDamS7imagingImplIsImageServerComponentProperties   {
   @JsonProperty("TcpPort")
-  private ConfigNodePropertyString tcpPort = null;
+  private ConfigNodePropertyString tcpPort;
 
   @JsonProperty("AllowRemoteAccess")
-  private ConfigNodePropertyBoolean allowRemoteAccess = null;
+  private ConfigNodePropertyBoolean allowRemoteAccess;
 
   @JsonProperty("MaxRenderRgnPixels")
-  private ConfigNodePropertyString maxRenderRgnPixels = null;
+  private ConfigNodePropertyString maxRenderRgnPixels;
 
   @JsonProperty("MaxMessageSize")
-  private ConfigNodePropertyString maxMessageSize = null;
+  private ConfigNodePropertyString maxMessageSize;
 
   @JsonProperty("RandomAccessUrlTimeout")
-  private ConfigNodePropertyInteger randomAccessUrlTimeout = null;
+  private ConfigNodePropertyInteger randomAccessUrlTimeout;
 
   @JsonProperty("WorkerThreads")
-  private ConfigNodePropertyInteger workerThreads = null;
+  private ConfigNodePropertyInteger workerThreads;
 
   public ComAdobeCqDamS7imagingImplIsImageServerComponentProperties tcpPort(ConfigNodePropertyString tcpPort) {
     this.tcpPort = tcpPort;
     return this;
   }
 
-   /**
+  /**
    * Get tcpPort
    * @return tcpPort
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getTcpPort() {
     return tcpPort;
@@ -61,10 +61,10 @@ public class ComAdobeCqDamS7imagingImplIsImageServerComponentProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get allowRemoteAccess
    * @return allowRemoteAccess
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getAllowRemoteAccess() {
     return allowRemoteAccess;
@@ -79,10 +79,10 @@ public class ComAdobeCqDamS7imagingImplIsImageServerComponentProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get maxRenderRgnPixels
    * @return maxRenderRgnPixels
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getMaxRenderRgnPixels() {
     return maxRenderRgnPixels;
@@ -97,10 +97,10 @@ public class ComAdobeCqDamS7imagingImplIsImageServerComponentProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get maxMessageSize
    * @return maxMessageSize
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getMaxMessageSize() {
     return maxMessageSize;
@@ -115,10 +115,10 @@ public class ComAdobeCqDamS7imagingImplIsImageServerComponentProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get randomAccessUrlTimeout
    * @return randomAccessUrlTimeout
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getRandomAccessUrlTimeout() {
     return randomAccessUrlTimeout;
@@ -133,10 +133,10 @@ public class ComAdobeCqDamS7imagingImplIsImageServerComponentProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get workerThreads
    * @return workerThreads
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getWorkerThreads() {
     return workerThreads;
@@ -148,7 +148,7 @@ public class ComAdobeCqDamS7imagingImplIsImageServerComponentProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -188,11 +188,8 @@ public class ComAdobeCqDamS7imagingImplIsImageServerComponentProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

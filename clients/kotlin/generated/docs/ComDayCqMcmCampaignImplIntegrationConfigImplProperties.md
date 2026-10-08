@@ -2,11 +2,11 @@
 # ComDayCqMcmCampaignImplIntegrationConfigImplProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**aemPeriodmcmPeriodcampaignPeriodformConstraints** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**aemPeriodmcmPeriodcampaignPeriodpublicUrl** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**aemPeriodmcmPeriodcampaignPeriodrelaxedSSL** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **aemMcmCampaignFormConstraints** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **aemMcmCampaignPublicUrl** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **aemMcmCampaignRelaxedSSL** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
 
 
 

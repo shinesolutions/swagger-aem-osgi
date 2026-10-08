@@ -8,8 +8,8 @@ import org.openapitools.model.ConfigNodePropertyBoolean;
 
 @Canonical
 class OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStraProperties {
-    ConfigNodePropertyBoolean enabled = null
-
-    ConfigNodePropertyArray configPropertyInheritancePropertyNames = null
-
+    
+    ConfigNodePropertyBoolean enabled
+    
+    ConfigNodePropertyArray configPropertyInheritancePropertyNames
 }

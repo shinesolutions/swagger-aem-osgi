@@ -10,26 +10,26 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties {
-    ConfigNodePropertyString name = null
-
-    ConfigNodePropertyInteger minPoolSize = null
-
-    ConfigNodePropertyInteger maxPoolSize = null
-
-    ConfigNodePropertyInteger queueSize = null
-
-    ConfigNodePropertyInteger maxThreadAge = null
-
-    ConfigNodePropertyInteger keepAliveTime = null
-
-    ConfigNodePropertyDropDown blockPolicy = null
-
-    ConfigNodePropertyBoolean shutdownGraceful = null
-
-    ConfigNodePropertyBoolean daemon = null
-
-    ConfigNodePropertyInteger shutdownWaitTime = null
-
-    ConfigNodePropertyDropDown priority = null
-
+    
+    ConfigNodePropertyString name
+    
+    ConfigNodePropertyInteger minPoolSize
+    
+    ConfigNodePropertyInteger maxPoolSize
+    
+    ConfigNodePropertyInteger queueSize
+    
+    ConfigNodePropertyInteger maxThreadAge
+    
+    ConfigNodePropertyInteger keepAliveTime
+    
+    ConfigNodePropertyDropDown blockPolicy
+    
+    ConfigNodePropertyBoolean shutdownGraceful
+    
+    ConfigNodePropertyBoolean daemon
+    
+    ConfigNodePropertyInteger shutdownWaitTime
+    
+    ConfigNodePropertyDropDown priority
 }

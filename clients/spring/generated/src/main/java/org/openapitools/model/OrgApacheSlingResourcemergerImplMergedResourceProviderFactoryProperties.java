@@ -1,28 +1,39 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * OrgApacheSlingResourcemergerImplMergedResourceProviderFactoryProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class OrgApacheSlingResourcemergerImplMergedResourceProviderFactoryProperties   {
-  @JsonProperty("merge.root")
-  private ConfigNodePropertyString mergeRoot = null;
+@JsonTypeName("orgApacheSlingResourcemergerImplMergedResourceProviderFactoryProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class OrgApacheSlingResourcemergerImplMergedResourceProviderFactoryProperties {
 
-  @JsonProperty("merge.readOnly")
-  private ConfigNodePropertyBoolean mergeReadOnly = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString mergeRoot;
 
-  public OrgApacheSlingResourcemergerImplMergedResourceProviderFactoryProperties mergeRoot(ConfigNodePropertyString mergeRoot) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean mergeReadOnly;
+
+  public OrgApacheSlingResourcemergerImplMergedResourceProviderFactoryProperties mergeRoot(@Nullable ConfigNodePropertyString mergeRoot) {
     this.mergeRoot = mergeRoot;
     return this;
   }
@@ -30,20 +41,20 @@ public class OrgApacheSlingResourcemergerImplMergedResourceProviderFactoryProper
   /**
    * Get mergeRoot
    * @return mergeRoot
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getMergeRoot() {
+   */
+  @Valid 
+  @Schema(name = "merge.root", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("merge.root")
+  public @Nullable ConfigNodePropertyString getMergeRoot() {
     return mergeRoot;
   }
 
-  public void setMergeRoot(ConfigNodePropertyString mergeRoot) {
+  @JsonProperty("merge.root")
+  public void setMergeRoot(@Nullable ConfigNodePropertyString mergeRoot) {
     this.mergeRoot = mergeRoot;
   }
 
-  public OrgApacheSlingResourcemergerImplMergedResourceProviderFactoryProperties mergeReadOnly(ConfigNodePropertyBoolean mergeReadOnly) {
+  public OrgApacheSlingResourcemergerImplMergedResourceProviderFactoryProperties mergeReadOnly(@Nullable ConfigNodePropertyBoolean mergeReadOnly) {
     this.mergeReadOnly = mergeReadOnly;
     return this;
   }
@@ -51,22 +62,21 @@ public class OrgApacheSlingResourcemergerImplMergedResourceProviderFactoryProper
   /**
    * Get mergeReadOnly
    * @return mergeReadOnly
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getMergeReadOnly() {
+   */
+  @Valid 
+  @Schema(name = "merge.readOnly", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("merge.readOnly")
+  public @Nullable ConfigNodePropertyBoolean getMergeReadOnly() {
     return mergeReadOnly;
   }
 
-  public void setMergeReadOnly(ConfigNodePropertyBoolean mergeReadOnly) {
+  @JsonProperty("merge.readOnly")
+  public void setMergeReadOnly(@Nullable ConfigNodePropertyBoolean mergeReadOnly) {
     this.mergeReadOnly = mergeReadOnly;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -87,7 +97,6 @@ public class OrgApacheSlingResourcemergerImplMergedResourceProviderFactoryProper
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class OrgApacheSlingResourcemergerImplMergedResourceProviderFactoryProperties {\n");
-    
     sb.append("    mergeRoot: ").append(toIndentedString(mergeRoot)).append("\n");
     sb.append("    mergeReadOnly: ").append(toIndentedString(mergeReadOnly)).append("\n");
     sb.append("}");
@@ -98,11 +107,8 @@ public class OrgApacheSlingResourcemergerImplMergedResourceProviderFactoryProper
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

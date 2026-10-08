@@ -1,3 +1,13 @@
+/*
+ * Adobe Experience Manager OSGI config (AEM) API
+ *
+ * Swagger AEM OSGI is an OpenAPI specification for Adobe Experience Manager (AEM) OSGI Configurations API
+ *
+ * OpenAPI document version: 1.0.0-pre.0
+ * Maintained by: opensource@shinesolutions.com
+ *
+ * AUTO-GENERATED FILE, DO NOT MODIFY!
+ */
 package org.openapitools.model;
 
 import java.util.Objects;
@@ -13,22 +23,22 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2019-08-05T00:56:20.785Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2026-10-07T12:53:42.280804918Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletProperties   {
   
-  private ConfigNodePropertyString davRoot = null;
-  private ConfigNodePropertyBoolean davCreateAbsoluteUri = null;
-  private ConfigNodePropertyString davRealm = null;
-  private ConfigNodePropertyArray collectionTypes = null;
-  private ConfigNodePropertyArray filterPrefixes = null;
-  private ConfigNodePropertyString filterTypes = null;
-  private ConfigNodePropertyString filterUris = null;
-  private ConfigNodePropertyString typeCollections = null;
-  private ConfigNodePropertyString typeNoncollections = null;
-  private ConfigNodePropertyString typeContent = null;
+  private ConfigNodePropertyString davRoot;
+  private ConfigNodePropertyBoolean davCreateAbsoluteUri;
+  private ConfigNodePropertyString davRealm;
+  private ConfigNodePropertyArray collectionTypes;
+  private ConfigNodePropertyArray filterPrefixes;
+  private ConfigNodePropertyString filterTypes;
+  private ConfigNodePropertyString filterUris;
+  private ConfigNodePropertyString typeCollections;
+  private ConfigNodePropertyString typeNoncollections;
+  private ConfigNodePropertyString typeContent;
 
   /**
-   **/
+   */
   public OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletProperties davRoot(ConfigNodePropertyString davRoot) {
     this.davRoot = davRoot;
     return this;
@@ -45,7 +55,7 @@ public class OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletProperties   
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletProperties davCreateAbsoluteUri(ConfigNodePropertyBoolean davCreateAbsoluteUri) {
     this.davCreateAbsoluteUri = davCreateAbsoluteUri;
     return this;
@@ -62,7 +72,7 @@ public class OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletProperties   
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletProperties davRealm(ConfigNodePropertyString davRealm) {
     this.davRealm = davRealm;
     return this;
@@ -79,7 +89,7 @@ public class OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletProperties   
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletProperties collectionTypes(ConfigNodePropertyArray collectionTypes) {
     this.collectionTypes = collectionTypes;
     return this;
@@ -96,7 +106,7 @@ public class OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletProperties   
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletProperties filterPrefixes(ConfigNodePropertyArray filterPrefixes) {
     this.filterPrefixes = filterPrefixes;
     return this;
@@ -113,7 +123,7 @@ public class OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletProperties   
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletProperties filterTypes(ConfigNodePropertyString filterTypes) {
     this.filterTypes = filterTypes;
     return this;
@@ -130,7 +140,7 @@ public class OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletProperties   
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletProperties filterUris(ConfigNodePropertyString filterUris) {
     this.filterUris = filterUris;
     return this;
@@ -147,7 +157,7 @@ public class OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletProperties   
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletProperties typeCollections(ConfigNodePropertyString typeCollections) {
     this.typeCollections = typeCollections;
     return this;
@@ -164,7 +174,7 @@ public class OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletProperties   
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletProperties typeNoncollections(ConfigNodePropertyString typeNoncollections) {
     this.typeNoncollections = typeNoncollections;
     return this;
@@ -181,7 +191,7 @@ public class OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletProperties   
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletProperties typeContent(ConfigNodePropertyString typeContent) {
     this.typeContent = typeContent;
     return this;
@@ -199,7 +209,7 @@ public class OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletProperties   
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -247,11 +257,8 @@ public class OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletProperties   
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

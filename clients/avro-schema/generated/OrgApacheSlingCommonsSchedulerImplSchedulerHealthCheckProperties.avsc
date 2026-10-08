@@ -1,0 +1,15 @@
+{
+  "namespace": "model",
+  "type": "record",
+  "doc": "",
+  "name": "OrgApacheSlingCommonsSchedulerImplSchedulerHealthCheckProperties",
+  "fields": [
+    {
+      "name": "max.quartzJob.duration.acceptable",
+      "type": ["null", "model.ConfigNodePropertyInteger"],
+      "doc": "",
+      "default": null
+    }
+  ]
+
+}

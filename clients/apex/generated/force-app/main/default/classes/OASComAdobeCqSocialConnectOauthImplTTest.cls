@@ -72,13 +72,13 @@ private class OASComAdobeCqSocialConnectOauthImplTTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeCqSocialConnectOauthImplT comAdobeCqSocialConnectOauthImplTwitterProviderImplProperties = new OASComAdobeCqSocialConnectOauthImplT();
-        Map<String, String> propertyMappings = comAdobeCqSocialConnectOauthImplTwitterProviderImplProperties.getPropertyMappings();
-        System.assertEquals('oauthProviderId', propertyMappings.get('oauth.provider.id'));
-        System.assertEquals('oauthCloudConfigRoot', propertyMappings.get('oauth.cloud.config.root'));
-        System.assertEquals('providerConfigRoot', propertyMappings.get('provider.config.root'));
-        System.assertEquals('providerConfigUserFolder', propertyMappings.get('provider.config.user.folder'));
-        System.assertEquals('providerConfigTwitterEnableParams', propertyMappings.get('provider.config.twitter.enable.params'));
-        System.assertEquals('providerConfigTwitterParams', propertyMappings.get('provider.config.twitter.params'));
-        System.assertEquals('providerConfigRefreshUserdataEnabled', propertyMappings.get('provider.config.refresh.userdata.enabled'));
+        Map<String, String> x-property-mappings = comAdobeCqSocialConnectOauthImplTwitterProviderImplProperties.getx-property-mappings();
+        System.assertEquals('oauthProviderId', x-property-mappings.get('oauth.provider.id'));
+        System.assertEquals('oauthCloudConfigRoot', x-property-mappings.get('oauth.cloud.config.root'));
+        System.assertEquals('providerConfigRoot', x-property-mappings.get('provider.config.root'));
+        System.assertEquals('providerConfigUserFolder', x-property-mappings.get('provider.config.user.folder'));
+        System.assertEquals('providerConfigTwitterEnableParams', x-property-mappings.get('provider.config.twitter.enable.params'));
+        System.assertEquals('providerConfigTwitterParams', x-property-mappings.get('provider.config.twitter.params'));
+        System.assertEquals('providerConfigRefreshUserdataEnabled', x-property-mappings.get('provider.config.refresh.userdata.enabled'));
     }
 }

@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqSocialCommonsEmailreplyImplGmailEmailClientProviderInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqSocialCommonsEmailreplyImplGmailEmailClientProviderInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComAdobeCqSocialCommonsEmailreplyImplGmailEmailClientProviderProperties = openapi_server.resourceTypes.ComAdobeCqSocialCommonsEmailreplyImplGmailEmailClientProviderProperties
+}
+resourceTypes {
+
+  ComAdobeCqSocialCommonsEmailreplyImplGmailEmailClientProviderInfo {
+    title = ComAdobeCqSocialCommonsEmailreplyImplGmailEmailClientProviderInfo
+    description = ComAdobeCqSocialCommonsEmailreplyImplGmailEmailClientProviderInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComAdobeCqSocialCommonsEmailreplyImplGmailEmailClientProviderProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqSocialCommonsEmailreplyImplGmailEmailClientProviderInfo {
+    title = ComAdobeCqSocialCommonsEmailreplyImplGmailEmailClientProviderInfo
+    description = ComAdobeCqSocialCommonsEmailreplyImplGmailEmailClientProviderInfo
+    implements = openapi_server.resourceTypes.ComAdobeCqSocialCommonsEmailreplyImplGmailEmailClientProviderInfo
+
+  }
+}

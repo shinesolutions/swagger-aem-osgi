@@ -72,20 +72,20 @@ private class OASComDayCqWidgetImplHtmlLibraryManaTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqWidgetImplHtmlLibraryMana comDayCqWidgetImplHtmlLibraryManagerImplProperties = new OASComDayCqWidgetImplHtmlLibraryMana();
-        Map<String, String> propertyMappings = comDayCqWidgetImplHtmlLibraryManagerImplProperties.getPropertyMappings();
-        System.assertEquals('htmllibmanagerClientmanager', propertyMappings.get('htmllibmanager.clientmanager'));
-        System.assertEquals('htmllibmanagerDebug', propertyMappings.get('htmllibmanager.debug'));
-        System.assertEquals('htmllibmanagerDebugConsole', propertyMappings.get('htmllibmanager.debug.console'));
-        System.assertEquals('htmllibmanagerDebugInitJs', propertyMappings.get('htmllibmanager.debug.init.js'));
-        System.assertEquals('htmllibmanagerDefaultthemename', propertyMappings.get('htmllibmanager.defaultthemename'));
-        System.assertEquals('htmllibmanagerDefaultuserthemename', propertyMappings.get('htmllibmanager.defaultuserthemename'));
-        System.assertEquals('htmllibmanagerFirebuglitePath', propertyMappings.get('htmllibmanager.firebuglite.path'));
-        System.assertEquals('htmllibmanagerForceCQUrlInfo', propertyMappings.get('htmllibmanager.forceCQUrlInfo'));
-        System.assertEquals('htmllibmanagerGzip', propertyMappings.get('htmllibmanager.gzip'));
-        System.assertEquals('htmllibmanagerMaxage', propertyMappings.get('htmllibmanager.maxage'));
-        System.assertEquals('htmllibmanagerMaxDataUriSize', propertyMappings.get('htmllibmanager.maxDataUriSize'));
-        System.assertEquals('htmllibmanagerMinify', propertyMappings.get('htmllibmanager.minify'));
-        System.assertEquals('htmllibmanagerPathList', propertyMappings.get('htmllibmanager.path.list'));
-        System.assertEquals('htmllibmanagerTiming', propertyMappings.get('htmllibmanager.timing'));
+        Map<String, String> x-property-mappings = comDayCqWidgetImplHtmlLibraryManagerImplProperties.getx-property-mappings();
+        System.assertEquals('htmllibmanagerClientmanager', x-property-mappings.get('htmllibmanager.clientmanager'));
+        System.assertEquals('htmllibmanagerDebug', x-property-mappings.get('htmllibmanager.debug'));
+        System.assertEquals('htmllibmanagerDebugConsole', x-property-mappings.get('htmllibmanager.debug.console'));
+        System.assertEquals('htmllibmanagerDebugInitJs', x-property-mappings.get('htmllibmanager.debug.init.js'));
+        System.assertEquals('htmllibmanagerDefaultthemename', x-property-mappings.get('htmllibmanager.defaultthemename'));
+        System.assertEquals('htmllibmanagerDefaultuserthemename', x-property-mappings.get('htmllibmanager.defaultuserthemename'));
+        System.assertEquals('htmllibmanagerFirebuglitePath', x-property-mappings.get('htmllibmanager.firebuglite.path'));
+        System.assertEquals('htmllibmanagerForceCQUrlInfo', x-property-mappings.get('htmllibmanager.forceCQUrlInfo'));
+        System.assertEquals('htmllibmanagerGzip', x-property-mappings.get('htmllibmanager.gzip'));
+        System.assertEquals('htmllibmanagerMaxage', x-property-mappings.get('htmllibmanager.maxage'));
+        System.assertEquals('htmllibmanagerMaxDataUriSize', x-property-mappings.get('htmllibmanager.maxDataUriSize'));
+        System.assertEquals('htmllibmanagerMinify', x-property-mappings.get('htmllibmanager.minify'));
+        System.assertEquals('htmllibmanagerPathList', x-property-mappings.get('htmllibmanager.path.list'));
+        System.assertEquals('htmllibmanagerTiming', x-property-mappings.get('htmllibmanager.timing'));
     }
 }

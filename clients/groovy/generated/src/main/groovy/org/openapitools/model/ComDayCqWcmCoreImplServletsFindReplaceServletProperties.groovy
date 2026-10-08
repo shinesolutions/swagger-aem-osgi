@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyArray;
 
 @Canonical
 class ComDayCqWcmCoreImplServletsFindReplaceServletProperties {
-    ConfigNodePropertyArray scope = null
-
+    
+    ConfigNodePropertyArray scope
 }

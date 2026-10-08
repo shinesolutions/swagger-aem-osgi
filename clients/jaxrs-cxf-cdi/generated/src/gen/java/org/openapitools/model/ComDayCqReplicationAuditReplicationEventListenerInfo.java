@@ -2,31 +2,32 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ComDayCqReplicationAuditReplicationEventListenerProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class ComDayCqReplicationAuditReplicationEventListenerInfo   {
   
-  private String pid = null;
+  private String pid;
 
-  private String title = null;
+  private String title;
 
-  private String description = null;
+  private String description;
 
-  private ComDayCqReplicationAuditReplicationEventListenerProperties properties = null;
+  private ComDayCqReplicationAuditReplicationEventListenerProperties properties;
 
-  private String bundleLocation = null;
+  private String bundleLocation;
 
-  private String serviceLocation = null;
-
+  private String serviceLocation;
 
   /**
    **/
@@ -138,7 +139,7 @@ public class ComDayCqReplicationAuditReplicationEventListenerInfo   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -146,12 +147,12 @@ public class ComDayCqReplicationAuditReplicationEventListenerInfo   {
       return false;
     }
     ComDayCqReplicationAuditReplicationEventListenerInfo comDayCqReplicationAuditReplicationEventListenerInfo = (ComDayCqReplicationAuditReplicationEventListenerInfo) o;
-    return Objects.equals(pid, comDayCqReplicationAuditReplicationEventListenerInfo.pid) &&
-        Objects.equals(title, comDayCqReplicationAuditReplicationEventListenerInfo.title) &&
-        Objects.equals(description, comDayCqReplicationAuditReplicationEventListenerInfo.description) &&
-        Objects.equals(properties, comDayCqReplicationAuditReplicationEventListenerInfo.properties) &&
-        Objects.equals(bundleLocation, comDayCqReplicationAuditReplicationEventListenerInfo.bundleLocation) &&
-        Objects.equals(serviceLocation, comDayCqReplicationAuditReplicationEventListenerInfo.serviceLocation);
+    return Objects.equals(this.pid, comDayCqReplicationAuditReplicationEventListenerInfo.pid) &&
+        Objects.equals(this.title, comDayCqReplicationAuditReplicationEventListenerInfo.title) &&
+        Objects.equals(this.description, comDayCqReplicationAuditReplicationEventListenerInfo.description) &&
+        Objects.equals(this.properties, comDayCqReplicationAuditReplicationEventListenerInfo.properties) &&
+        Objects.equals(this.bundleLocation, comDayCqReplicationAuditReplicationEventListenerInfo.bundleLocation) &&
+        Objects.equals(this.serviceLocation, comDayCqReplicationAuditReplicationEventListenerInfo.serviceLocation);
   }
 
   @Override
@@ -178,11 +179,8 @@ public class ComDayCqReplicationAuditReplicationEventListenerInfo   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

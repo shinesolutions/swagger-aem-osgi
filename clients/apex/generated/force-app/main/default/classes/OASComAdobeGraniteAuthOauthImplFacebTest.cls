@@ -72,7 +72,7 @@ private class OASComAdobeGraniteAuthOauthImplFacebTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeGraniteAuthOauthImplFaceb comAdobeGraniteAuthOauthImplFacebookProviderImplProperties = new OASComAdobeGraniteAuthOauthImplFaceb();
-        Map<String, String> propertyMappings = comAdobeGraniteAuthOauthImplFacebookProviderImplProperties.getPropertyMappings();
-        System.assertEquals('oauthProviderId', propertyMappings.get('oauth.provider.id'));
+        Map<String, String> x-property-mappings = comAdobeGraniteAuthOauthImplFacebookProviderImplProperties.getx-property-mappings();
+        System.assertEquals('oauthProviderId', x-property-mappings.get('oauth.provider.id'));
     }
 }

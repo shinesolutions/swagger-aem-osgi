@@ -1,3 +1,13 @@
+/*
+ * Adobe Experience Manager OSGI config (AEM) API
+ *
+ * Swagger AEM OSGI is an OpenAPI specification for Adobe Experience Manager (AEM) OSGI Configurations API
+ *
+ * OpenAPI document version: 1.0.0-pre.0
+ * Maintained by: opensource@shinesolutions.com
+ *
+ * AUTO-GENERATED FILE, DO NOT MODIFY!
+ */
 package org.openapitools.model;
 
 import java.util.Objects;
@@ -14,20 +24,20 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2019-08-05T00:56:20.785Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2026-10-07T12:53:42.280804918Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqAuthImplLoginSelectorHandlerProperties   {
   
-  private ConfigNodePropertyString path = null;
-  private ConfigNodePropertyInteger serviceRanking = null;
-  private ConfigNodePropertyArray authLoginselectorMappings = null;
-  private ConfigNodePropertyArray authLoginselectorChangepwMappings = null;
-  private ConfigNodePropertyString authLoginselectorDefaultloginpage = null;
-  private ConfigNodePropertyString authLoginselectorDefaultchangepwpage = null;
-  private ConfigNodePropertyArray authLoginselectorHandle = null;
-  private ConfigNodePropertyBoolean authLoginselectorHandleAllExtensions = null;
+  private ConfigNodePropertyString path;
+  private ConfigNodePropertyInteger serviceRanking;
+  private ConfigNodePropertyArray authLoginselectorMappings;
+  private ConfigNodePropertyArray authLoginselectorChangepwMappings;
+  private ConfigNodePropertyString authLoginselectorDefaultloginpage;
+  private ConfigNodePropertyString authLoginselectorDefaultchangepwpage;
+  private ConfigNodePropertyArray authLoginselectorHandle;
+  private ConfigNodePropertyBoolean authLoginselectorHandleAllExtensions;
 
   /**
-   **/
+   */
   public ComDayCqAuthImplLoginSelectorHandlerProperties path(ConfigNodePropertyString path) {
     this.path = path;
     return this;
@@ -44,7 +54,7 @@ public class ComDayCqAuthImplLoginSelectorHandlerProperties   {
   }
 
   /**
-   **/
+   */
   public ComDayCqAuthImplLoginSelectorHandlerProperties serviceRanking(ConfigNodePropertyInteger serviceRanking) {
     this.serviceRanking = serviceRanking;
     return this;
@@ -61,7 +71,7 @@ public class ComDayCqAuthImplLoginSelectorHandlerProperties   {
   }
 
   /**
-   **/
+   */
   public ComDayCqAuthImplLoginSelectorHandlerProperties authLoginselectorMappings(ConfigNodePropertyArray authLoginselectorMappings) {
     this.authLoginselectorMappings = authLoginselectorMappings;
     return this;
@@ -78,7 +88,7 @@ public class ComDayCqAuthImplLoginSelectorHandlerProperties   {
   }
 
   /**
-   **/
+   */
   public ComDayCqAuthImplLoginSelectorHandlerProperties authLoginselectorChangepwMappings(ConfigNodePropertyArray authLoginselectorChangepwMappings) {
     this.authLoginselectorChangepwMappings = authLoginselectorChangepwMappings;
     return this;
@@ -95,7 +105,7 @@ public class ComDayCqAuthImplLoginSelectorHandlerProperties   {
   }
 
   /**
-   **/
+   */
   public ComDayCqAuthImplLoginSelectorHandlerProperties authLoginselectorDefaultloginpage(ConfigNodePropertyString authLoginselectorDefaultloginpage) {
     this.authLoginselectorDefaultloginpage = authLoginselectorDefaultloginpage;
     return this;
@@ -112,7 +122,7 @@ public class ComDayCqAuthImplLoginSelectorHandlerProperties   {
   }
 
   /**
-   **/
+   */
   public ComDayCqAuthImplLoginSelectorHandlerProperties authLoginselectorDefaultchangepwpage(ConfigNodePropertyString authLoginselectorDefaultchangepwpage) {
     this.authLoginselectorDefaultchangepwpage = authLoginselectorDefaultchangepwpage;
     return this;
@@ -129,7 +139,7 @@ public class ComDayCqAuthImplLoginSelectorHandlerProperties   {
   }
 
   /**
-   **/
+   */
   public ComDayCqAuthImplLoginSelectorHandlerProperties authLoginselectorHandle(ConfigNodePropertyArray authLoginselectorHandle) {
     this.authLoginselectorHandle = authLoginselectorHandle;
     return this;
@@ -146,7 +156,7 @@ public class ComDayCqAuthImplLoginSelectorHandlerProperties   {
   }
 
   /**
-   **/
+   */
   public ComDayCqAuthImplLoginSelectorHandlerProperties authLoginselectorHandleAllExtensions(ConfigNodePropertyBoolean authLoginselectorHandleAllExtensions) {
     this.authLoginselectorHandleAllExtensions = authLoginselectorHandleAllExtensions;
     return this;
@@ -164,7 +174,7 @@ public class ComDayCqAuthImplLoginSelectorHandlerProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -208,11 +218,8 @@ public class ComDayCqAuthImplLoginSelectorHandlerProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

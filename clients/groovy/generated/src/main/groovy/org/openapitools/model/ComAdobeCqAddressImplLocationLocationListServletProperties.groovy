@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class ComAdobeCqAddressImplLocationLocationListServletProperties {
-    ConfigNodePropertyInteger cqAddressLocationDefaultMaxResults = null
-
+    
+    ConfigNodePropertyInteger cqAddressLocationDefaultMaxResults
 }

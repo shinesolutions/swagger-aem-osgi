@@ -9,10 +9,10 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class ComAdobeGraniteRepositoryServiceUserConfigurationProperties {
-    ConfigNodePropertyInteger serviceRanking = null
-
-    ConfigNodePropertyBoolean serviceusersSimpleSubjectPopulation = null
-
-    ConfigNodePropertyArray serviceusersList = null
-
+    
+    ConfigNodePropertyInteger serviceRanking
+    
+    ConfigNodePropertyBoolean serviceusersSimpleSubjectPopulation
+    
+    ConfigNodePropertyArray serviceusersList
 }

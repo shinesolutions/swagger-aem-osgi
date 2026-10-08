@@ -72,7 +72,7 @@ private class OASGuideLocalizationServicePropertieTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASGuideLocalizationServicePropertie guideLocalizationServiceProperties = new OASGuideLocalizationServicePropertie();
-        Map<String, String> propertyMappings = guideLocalizationServiceProperties.getPropertyMappings();
-        System.assertEquals('localizableProperties', propertyMappings.get('Localizable Properties'));
+        Map<String, String> x-property-mappings = guideLocalizationServiceProperties.getx-property-mappings();
+        System.assertEquals('localizableProperties', x-property-mappings.get('Localizable Properties'));
     }
 }

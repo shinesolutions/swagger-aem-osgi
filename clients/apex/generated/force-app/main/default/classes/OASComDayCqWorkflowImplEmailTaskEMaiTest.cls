@@ -72,8 +72,8 @@ private class OASComDayCqWorkflowImplEmailTaskEMaiTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqWorkflowImplEmailTaskEMai comDayCqWorkflowImplEmailTaskEMailNotificationServiceProperties = new OASComDayCqWorkflowImplEmailTaskEMai();
-        Map<String, String> propertyMappings = comDayCqWorkflowImplEmailTaskEMailNotificationServiceProperties.getPropertyMappings();
-        System.assertEquals('notifyOnupdate', propertyMappings.get('notify.onupdate'));
-        System.assertEquals('notifyOncomplete', propertyMappings.get('notify.oncomplete'));
+        Map<String, String> x-property-mappings = comDayCqWorkflowImplEmailTaskEMailNotificationServiceProperties.getx-property-mappings();
+        System.assertEquals('notifyOnupdate', x-property-mappings.get('notify.onupdate'));
+        System.assertEquals('notifyOncomplete', x-property-mappings.get('notify.oncomplete'));
     }
 }

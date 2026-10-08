@@ -4,18 +4,21 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ComDayCqMailerImplEmailCqEmailTemplateFactoryProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2019-08-05T00:59:30.156Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2026-10-07T12:54:21.614735164Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqMailerImplEmailCqEmailTemplateFactoryInfo   {
   
-  private String pid = null;
-  private String title = null;
-  private String description = null;
-  private ComDayCqMailerImplEmailCqEmailTemplateFactoryProperties properties = null;
+  private String pid;
+  private String title;
+  private String description;
+  private ComDayCqMailerImplEmailCqEmailTemplateFactoryProperties properties;
 
   /**
    **/
@@ -58,6 +61,7 @@ public class ComDayCqMailerImplEmailCqEmailTemplateFactoryInfo   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("properties")
+  @Valid
   public ComDayCqMailerImplEmailCqEmailTemplateFactoryProperties getProperties() {
     return properties;
   }
@@ -67,7 +71,7 @@ public class ComDayCqMailerImplEmailCqEmailTemplateFactoryInfo   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -75,10 +79,10 @@ public class ComDayCqMailerImplEmailCqEmailTemplateFactoryInfo   {
       return false;
     }
     ComDayCqMailerImplEmailCqEmailTemplateFactoryInfo comDayCqMailerImplEmailCqEmailTemplateFactoryInfo = (ComDayCqMailerImplEmailCqEmailTemplateFactoryInfo) o;
-    return Objects.equals(pid, comDayCqMailerImplEmailCqEmailTemplateFactoryInfo.pid) &&
-        Objects.equals(title, comDayCqMailerImplEmailCqEmailTemplateFactoryInfo.title) &&
-        Objects.equals(description, comDayCqMailerImplEmailCqEmailTemplateFactoryInfo.description) &&
-        Objects.equals(properties, comDayCqMailerImplEmailCqEmailTemplateFactoryInfo.properties);
+    return Objects.equals(this.pid, comDayCqMailerImplEmailCqEmailTemplateFactoryInfo.pid) &&
+        Objects.equals(this.title, comDayCqMailerImplEmailCqEmailTemplateFactoryInfo.title) &&
+        Objects.equals(this.description, comDayCqMailerImplEmailCqEmailTemplateFactoryInfo.description) &&
+        Objects.equals(this.properties, comDayCqMailerImplEmailCqEmailTemplateFactoryInfo.properties);
   }
 
   @Override
@@ -103,11 +107,8 @@ public class ComDayCqMailerImplEmailCqEmailTemplateFactoryInfo   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

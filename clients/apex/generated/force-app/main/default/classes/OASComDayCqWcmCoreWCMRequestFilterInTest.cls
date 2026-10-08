@@ -72,8 +72,8 @@ private class OASComDayCqWcmCoreWCMRequestFilterInTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqWcmCoreWCMRequestFilterIn comDayCqWcmCoreWCMRequestFilterInfo = new OASComDayCqWcmCoreWCMRequestFilterIn();
-        Map<String, String> propertyMappings = comDayCqWcmCoreWCMRequestFilterInfo.getPropertyMappings();
-        System.assertEquals('bundleLocation', propertyMappings.get('bundle_location'));
-        System.assertEquals('serviceLocation', propertyMappings.get('service_location'));
+        Map<String, String> x-property-mappings = comDayCqWcmCoreWCMRequestFilterInfo.getx-property-mappings();
+        System.assertEquals('bundleLocation', x-property-mappings.get('bundle_location'));
+        System.assertEquals('serviceLocation', x-property-mappings.get('service_location'));
     }
 }

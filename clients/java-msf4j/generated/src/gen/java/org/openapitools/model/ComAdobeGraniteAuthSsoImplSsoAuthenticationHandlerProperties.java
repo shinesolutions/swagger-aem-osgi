@@ -3,6 +3,7 @@ package org.openapitools.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
@@ -12,40 +13,40 @@ import org.openapitools.model.ConfigNodePropertyString;
 /**
  * ComAdobeGraniteAuthSsoImplSsoAuthenticationHandlerProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaMSF4JServerCodegen", date = "2019-08-05T00:54:29.762Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaMSF4JServerCodegen", date = "2026-10-07T12:53:29.980508721Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteAuthSsoImplSsoAuthenticationHandlerProperties   {
   @JsonProperty("path")
-  private ConfigNodePropertyString path = null;
+  private ConfigNodePropertyString path;
 
   @JsonProperty("service.ranking")
-  private ConfigNodePropertyInteger serviceRanking = null;
+  private ConfigNodePropertyInteger serviceRanking;
 
   @JsonProperty("jaas.controlFlag")
-  private ConfigNodePropertyString jaasControlFlag = null;
+  private ConfigNodePropertyString jaasControlFlag;
 
   @JsonProperty("jaas.realmName")
-  private ConfigNodePropertyString jaasRealmName = null;
+  private ConfigNodePropertyString jaasRealmName;
 
   @JsonProperty("jaas.ranking")
-  private ConfigNodePropertyInteger jaasRanking = null;
+  private ConfigNodePropertyInteger jaasRanking;
 
   @JsonProperty("headers")
-  private ConfigNodePropertyArray headers = null;
+  private ConfigNodePropertyArray headers;
 
   @JsonProperty("cookies")
-  private ConfigNodePropertyArray cookies = null;
+  private ConfigNodePropertyArray cookies;
 
   @JsonProperty("parameters")
-  private ConfigNodePropertyArray parameters = null;
+  private ConfigNodePropertyArray parameters;
 
   @JsonProperty("usermap")
-  private ConfigNodePropertyArray usermap = null;
+  private ConfigNodePropertyArray usermap;
 
   @JsonProperty("format")
-  private ConfigNodePropertyString format = null;
+  private ConfigNodePropertyString format;
 
   @JsonProperty("trustedCredentialsAttribute")
-  private ConfigNodePropertyString trustedCredentialsAttribute = null;
+  private ConfigNodePropertyString trustedCredentialsAttribute;
 
   public ComAdobeGraniteAuthSsoImplSsoAuthenticationHandlerProperties path(ConfigNodePropertyString path) {
     this.path = path;
@@ -247,7 +248,7 @@ public class ComAdobeGraniteAuthSsoImplSsoAuthenticationHandlerProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -297,11 +298,8 @@ public class ComAdobeGraniteAuthSsoImplSsoAuthenticationHandlerProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

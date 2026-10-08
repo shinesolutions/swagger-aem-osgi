@@ -2,23 +2,28 @@ package apimodels;
 
 import apimodels.ConfigNodePropertyArray;
 import apimodels.ConfigNodePropertyBoolean;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * ComDayCqDamCoreImplRenditionMakerImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class ComDayCqDamCoreImplRenditionMakerImplProperties   {
   @JsonProperty("xmp.propagate")
-  private ConfigNodePropertyBoolean xmpPropagate = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean xmpPropagate;
 
   @JsonProperty("xmp.excludes")
-  private ConfigNodePropertyArray xmpExcludes = null;
+  @Valid
+
+  private ConfigNodePropertyArray xmpExcludes;
 
   public ComDayCqDamCoreImplRenditionMakerImplProperties xmpPropagate(ConfigNodePropertyBoolean xmpPropagate) {
     this.xmpPropagate = xmpPropagate;
@@ -29,7 +34,6 @@ public class ComDayCqDamCoreImplRenditionMakerImplProperties   {
    * Get xmpPropagate
    * @return xmpPropagate
   **/
-  @Valid
   public ConfigNodePropertyBoolean getXmpPropagate() {
     return xmpPropagate;
   }
@@ -47,7 +51,6 @@ public class ComDayCqDamCoreImplRenditionMakerImplProperties   {
    * Get xmpExcludes
    * @return xmpExcludes
   **/
-  @Valid
   public ConfigNodePropertyArray getXmpExcludes() {
     return xmpExcludes;
   }
@@ -58,7 +61,7 @@ public class ComDayCqDamCoreImplRenditionMakerImplProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -91,11 +94,8 @@ public class ComDayCqDamCoreImplRenditionMakerImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

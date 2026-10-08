@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqWcmFoundationFormsImplMailServletPropertie
 
 @Canonical
 class ComDayCqWcmFoundationFormsImplMailServletInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqWcmFoundationFormsImplMailServletProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqWcmFoundationFormsImplMailServletProperties properties
 }

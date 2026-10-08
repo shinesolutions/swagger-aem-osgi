@@ -72,11 +72,11 @@ private class OASOrgApacheSlingHcCoreImplCompositeTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASOrgApacheSlingHcCoreImplComposite orgApacheSlingHcCoreImplCompositeHealthCheckProperties = new OASOrgApacheSlingHcCoreImplComposite();
-        Map<String, String> propertyMappings = orgApacheSlingHcCoreImplCompositeHealthCheckProperties.getPropertyMappings();
-        System.assertEquals('hcName', propertyMappings.get('hc.name'));
-        System.assertEquals('hcTags', propertyMappings.get('hc.tags'));
-        System.assertEquals('hcMbeanName', propertyMappings.get('hc.mbean.name'));
-        System.assertEquals('filterTags', propertyMappings.get('filter.tags'));
-        System.assertEquals('filterCombineTagsWithOr', propertyMappings.get('filter.combineTagsWithOr'));
+        Map<String, String> x-property-mappings = orgApacheSlingHcCoreImplCompositeHealthCheckProperties.getx-property-mappings();
+        System.assertEquals('hcName', x-property-mappings.get('hc.name'));
+        System.assertEquals('hcTags', x-property-mappings.get('hc.tags'));
+        System.assertEquals('hcMbeanName', x-property-mappings.get('hc.mbean.name'));
+        System.assertEquals('filterTags', x-property-mappings.get('filter.tags'));
+        System.assertEquals('filterCombineTagsWithOr', x-property-mappings.get('filter.combineTagsWithOr'));
     }
 }

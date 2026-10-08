@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyInteger;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
@@ -15,24 +16,23 @@ import io.swagger.annotations.ApiModelProperty;
  * ComDayCqWcmCoreImplServletsReferenceSearchServletProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqWcmCoreImplServletsReferenceSearchServletProperties   {
   @JsonProperty("referencesearchservlet.maxReferencesPerPage")
-  private ConfigNodePropertyInteger referencesearchservletMaxReferencesPerPage = null;
+  private ConfigNodePropertyInteger referencesearchservletMaxReferencesPerPage;
 
   @JsonProperty("referencesearchservlet.maxPages")
-  private ConfigNodePropertyInteger referencesearchservletMaxPages = null;
+  private ConfigNodePropertyInteger referencesearchservletMaxPages;
 
   public ComDayCqWcmCoreImplServletsReferenceSearchServletProperties referencesearchservletMaxReferencesPerPage(ConfigNodePropertyInteger referencesearchservletMaxReferencesPerPage) {
     this.referencesearchservletMaxReferencesPerPage = referencesearchservletMaxReferencesPerPage;
     return this;
   }
 
-   /**
+  /**
    * Get referencesearchservletMaxReferencesPerPage
    * @return referencesearchservletMaxReferencesPerPage
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getReferencesearchservletMaxReferencesPerPage() {
     return referencesearchservletMaxReferencesPerPage;
@@ -47,10 +47,10 @@ public class ComDayCqWcmCoreImplServletsReferenceSearchServletProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get referencesearchservletMaxPages
    * @return referencesearchservletMaxPages
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getReferencesearchservletMaxPages() {
     return referencesearchservletMaxPages;
@@ -62,7 +62,7 @@ public class ComDayCqWcmCoreImplServletsReferenceSearchServletProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -94,11 +94,8 @@ public class ComDayCqWcmCoreImplServletsReferenceSearchServletProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -72,7 +72,7 @@ private class OASComDayCqWcmCoreImplCommandsWCMComTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqWcmCoreImplCommandsWCMCom comDayCqWcmCoreImplCommandsWCMCommandServletProperties = new OASComDayCqWcmCoreImplCommandsWCMCom();
-        Map<String, String> propertyMappings = comDayCqWcmCoreImplCommandsWCMCommandServletProperties.getPropertyMappings();
-        System.assertEquals('wcmcommandservletDeleteWhitelist', propertyMappings.get('wcmcommandservlet.delete_whitelist'));
+        Map<String, String> x-property-mappings = comDayCqWcmCoreImplCommandsWCMCommandServletProperties.getx-property-mappings();
+        System.assertEquals('wcmcommandservletDeleteWhitelist', x-property-mappings.get('wcmcommandservlet.delete_whitelist'));
     }
 }

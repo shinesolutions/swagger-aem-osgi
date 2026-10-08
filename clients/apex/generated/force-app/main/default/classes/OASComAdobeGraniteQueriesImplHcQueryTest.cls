@@ -72,7 +72,7 @@ private class OASComAdobeGraniteQueriesImplHcQueryTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeGraniteQueriesImplHcQuery comAdobeGraniteQueriesImplHcQueryLimitsHealthCheckProperties = new OASComAdobeGraniteQueriesImplHcQuery();
-        Map<String, String> propertyMappings = comAdobeGraniteQueriesImplHcQueryLimitsHealthCheckProperties.getPropertyMappings();
-        System.assertEquals('hcTags', propertyMappings.get('hc.tags'));
+        Map<String, String> x-property-mappings = comAdobeGraniteQueriesImplHcQueryLimitsHealthCheckProperties.getx-property-mappings();
+        System.assertEquals('hcTags', x-property-mappings.get('hc.tags'));
     }
 }

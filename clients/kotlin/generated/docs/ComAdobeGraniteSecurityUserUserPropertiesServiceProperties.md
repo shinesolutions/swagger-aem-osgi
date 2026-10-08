@@ -2,11 +2,11 @@
 # ComAdobeGraniteSecurityUserUserPropertiesServiceProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**adapterPeriodcondition** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**granitePerioduserpropertiesPeriodnodetypes** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**granitePerioduserpropertiesPeriodresourcetypes** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **adapterCondition** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **graniteUserpropertiesNodetypes** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **graniteUserpropertiesResourcetypes** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
 
 
 

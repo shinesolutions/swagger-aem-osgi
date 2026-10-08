@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqWcmCoreImplServletsContentfinderConnectorC
 
 @Canonical
 class ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorVieInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorVieProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorVieProperties properties
 }

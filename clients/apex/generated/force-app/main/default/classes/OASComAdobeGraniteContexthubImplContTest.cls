@@ -72,8 +72,8 @@ private class OASComAdobeGraniteContexthubImplContTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeGraniteContexthubImplCont comAdobeGraniteContexthubImplContextHubImplProperties = new OASComAdobeGraniteContexthubImplCont();
-        Map<String, String> propertyMappings = comAdobeGraniteContexthubImplContextHubImplProperties.getPropertyMappings();
-        System.assertEquals('comAdobeGraniteContexthubSilentMode', propertyMappings.get('com.adobe.granite.contexthub.silent_mode'));
-        System.assertEquals('comAdobeGraniteContexthubShowUi', propertyMappings.get('com.adobe.granite.contexthub.show_ui'));
+        Map<String, String> x-property-mappings = comAdobeGraniteContexthubImplContextHubImplProperties.getx-property-mappings();
+        System.assertEquals('comAdobeGraniteContexthubSilentMode', x-property-mappings.get('com.adobe.granite.contexthub.silent_mode'));
+        System.assertEquals('comAdobeGraniteContexthubShowUi', x-property-mappings.get('com.adobe.granite.contexthub.show_ui'));
     }
 }

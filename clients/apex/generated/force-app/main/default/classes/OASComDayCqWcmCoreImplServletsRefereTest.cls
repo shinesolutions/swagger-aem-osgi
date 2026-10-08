@@ -72,8 +72,8 @@ private class OASComDayCqWcmCoreImplServletsRefereTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqWcmCoreImplServletsRefere comDayCqWcmCoreImplServletsReferenceSearchServletProperties = new OASComDayCqWcmCoreImplServletsRefere();
-        Map<String, String> propertyMappings = comDayCqWcmCoreImplServletsReferenceSearchServletProperties.getPropertyMappings();
-        System.assertEquals('referencesearchservletMaxReferencesPerPage', propertyMappings.get('referencesearchservlet.maxReferencesPerPage'));
-        System.assertEquals('referencesearchservletMaxPages', propertyMappings.get('referencesearchservlet.maxPages'));
+        Map<String, String> x-property-mappings = comDayCqWcmCoreImplServletsReferenceSearchServletProperties.getx-property-mappings();
+        System.assertEquals('referencesearchservletMaxReferencesPerPage', x-property-mappings.get('referencesearchservlet.maxReferencesPerPage'));
+        System.assertEquals('referencesearchservletMaxPages', x-property-mappings.get('referencesearchservlet.maxPages'));
     }
 }

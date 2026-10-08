@@ -2,13 +2,13 @@
 # OrgApacheFelixJaasConfigurationFactoryProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**jaasPeriodcontrolFlag** | [**ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md) |  |  [optional]
-**jaasPeriodranking** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**jaasPeriodrealmName** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**jaasPeriodclassname** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**jaasPeriodoptions** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **jaasControlFlag** | [**ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md) |  |  [optional] |
+| **jaasRanking** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **jaasRealmName** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **jaasClassname** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **jaasOptions** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
 
 
 

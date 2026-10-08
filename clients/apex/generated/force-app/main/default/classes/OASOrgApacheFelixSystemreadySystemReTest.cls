@@ -72,7 +72,7 @@ private class OASOrgApacheFelixSystemreadySystemReTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASOrgApacheFelixSystemreadySystemRe orgApacheFelixSystemreadySystemReadyMonitorProperties = new OASOrgApacheFelixSystemreadySystemRe();
-        Map<String, String> propertyMappings = orgApacheFelixSystemreadySystemReadyMonitorProperties.getPropertyMappings();
-        System.assertEquals('pollInterval', propertyMappings.get('poll.interval'));
+        Map<String, String> x-property-mappings = orgApacheFelixSystemreadySystemReadyMonitorProperties.getx-property-mappings();
+        System.assertEquals('pollInterval', x-property-mappings.get('poll.interval'));
     }
 }

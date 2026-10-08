@@ -1,31 +1,42 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyInteger;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsIProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsIProperties   {
-  @JsonProperty("MaxRetry")
-  private ConfigNodePropertyInteger maxRetry = null;
+@JsonTypeName("comAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsIProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsIProperties {
 
-  @JsonProperty("fieldWhitelist")
-  private ConfigNodePropertyArray fieldWhitelist = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger maxRetry;
 
-  @JsonProperty("attachmentTypeBlacklist")
-  private ConfigNodePropertyArray attachmentTypeBlacklist = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray fieldWhitelist;
 
-  public ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsIProperties maxRetry(ConfigNodePropertyInteger maxRetry) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray attachmentTypeBlacklist;
+
+  public ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsIProperties maxRetry(@Nullable ConfigNodePropertyInteger maxRetry) {
     this.maxRetry = maxRetry;
     return this;
   }
@@ -33,20 +44,20 @@ public class ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsIPrope
   /**
    * Get maxRetry
    * @return maxRetry
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getMaxRetry() {
+   */
+  @Valid 
+  @Schema(name = "MaxRetry", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("MaxRetry")
+  public @Nullable ConfigNodePropertyInteger getMaxRetry() {
     return maxRetry;
   }
 
-  public void setMaxRetry(ConfigNodePropertyInteger maxRetry) {
+  @JsonProperty("MaxRetry")
+  public void setMaxRetry(@Nullable ConfigNodePropertyInteger maxRetry) {
     this.maxRetry = maxRetry;
   }
 
-  public ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsIProperties fieldWhitelist(ConfigNodePropertyArray fieldWhitelist) {
+  public ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsIProperties fieldWhitelist(@Nullable ConfigNodePropertyArray fieldWhitelist) {
     this.fieldWhitelist = fieldWhitelist;
     return this;
   }
@@ -54,20 +65,20 @@ public class ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsIPrope
   /**
    * Get fieldWhitelist
    * @return fieldWhitelist
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getFieldWhitelist() {
+   */
+  @Valid 
+  @Schema(name = "fieldWhitelist", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("fieldWhitelist")
+  public @Nullable ConfigNodePropertyArray getFieldWhitelist() {
     return fieldWhitelist;
   }
 
-  public void setFieldWhitelist(ConfigNodePropertyArray fieldWhitelist) {
+  @JsonProperty("fieldWhitelist")
+  public void setFieldWhitelist(@Nullable ConfigNodePropertyArray fieldWhitelist) {
     this.fieldWhitelist = fieldWhitelist;
   }
 
-  public ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsIProperties attachmentTypeBlacklist(ConfigNodePropertyArray attachmentTypeBlacklist) {
+  public ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsIProperties attachmentTypeBlacklist(@Nullable ConfigNodePropertyArray attachmentTypeBlacklist) {
     this.attachmentTypeBlacklist = attachmentTypeBlacklist;
     return this;
   }
@@ -75,22 +86,21 @@ public class ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsIPrope
   /**
    * Get attachmentTypeBlacklist
    * @return attachmentTypeBlacklist
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getAttachmentTypeBlacklist() {
+   */
+  @Valid 
+  @Schema(name = "attachmentTypeBlacklist", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("attachmentTypeBlacklist")
+  public @Nullable ConfigNodePropertyArray getAttachmentTypeBlacklist() {
     return attachmentTypeBlacklist;
   }
 
-  public void setAttachmentTypeBlacklist(ConfigNodePropertyArray attachmentTypeBlacklist) {
+  @JsonProperty("attachmentTypeBlacklist")
+  public void setAttachmentTypeBlacklist(@Nullable ConfigNodePropertyArray attachmentTypeBlacklist) {
     this.attachmentTypeBlacklist = attachmentTypeBlacklist;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -112,7 +122,6 @@ public class ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsIPrope
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsIProperties {\n");
-    
     sb.append("    maxRetry: ").append(toIndentedString(maxRetry)).append("\n");
     sb.append("    fieldWhitelist: ").append(toIndentedString(fieldWhitelist)).append("\n");
     sb.append("    attachmentTypeBlacklist: ").append(toIndentedString(attachmentTypeBlacklist)).append("\n");
@@ -124,11 +133,8 @@ public class ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsIPrope
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

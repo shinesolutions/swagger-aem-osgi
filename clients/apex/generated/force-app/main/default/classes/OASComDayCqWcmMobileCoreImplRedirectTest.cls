@@ -72,10 +72,10 @@ private class OASComDayCqWcmMobileCoreImplRedirectTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqWcmMobileCoreImplRedirect comDayCqWcmMobileCoreImplRedirectRedirectFilterProperties = new OASComDayCqWcmMobileCoreImplRedirect();
-        Map<String, String> propertyMappings = comDayCqWcmMobileCoreImplRedirectRedirectFilterProperties.getPropertyMappings();
-        System.assertEquals('redirectEnabled', propertyMappings.get('redirect.enabled'));
-        System.assertEquals('redirectStatsEnabled', propertyMappings.get('redirect.stats.enabled'));
-        System.assertEquals('redirectExtensions', propertyMappings.get('redirect.extensions'));
-        System.assertEquals('redirectPaths', propertyMappings.get('redirect.paths'));
+        Map<String, String> x-property-mappings = comDayCqWcmMobileCoreImplRedirectRedirectFilterProperties.getx-property-mappings();
+        System.assertEquals('redirectEnabled', x-property-mappings.get('redirect.enabled'));
+        System.assertEquals('redirectStatsEnabled', x-property-mappings.get('redirect.stats.enabled'));
+        System.assertEquals('redirectExtensions', x-property-mappings.get('redirect.extensions'));
+        System.assertEquals('redirectPaths', x-property-mappings.get('redirect.paths'));
     }
 }

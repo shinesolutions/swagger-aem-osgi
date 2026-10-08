@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyBoolean;
 import com.prokarma.pkmst.model.ConfigNodePropertyDropDown;
 import com.prokarma.pkmst.model.ConfigNodePropertyInteger;
@@ -18,33 +19,32 @@ import io.swagger.annotations.ApiModelProperty;
  * ComDayCqDamCoreImplDamEventPurgeServiceProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqDamCoreImplDamEventPurgeServiceProperties   {
   @JsonProperty("scheduler.expression")
-  private ConfigNodePropertyString schedulerExpression = null;
+  private ConfigNodePropertyString schedulerExpression;
 
   @JsonProperty("maxSavedActivities")
-  private ConfigNodePropertyInteger maxSavedActivities = null;
+  private ConfigNodePropertyInteger maxSavedActivities;
 
   @JsonProperty("saveInterval")
-  private ConfigNodePropertyInteger saveInterval = null;
+  private ConfigNodePropertyInteger saveInterval;
 
   @JsonProperty("enableActivityPurge")
-  private ConfigNodePropertyBoolean enableActivityPurge = null;
+  private ConfigNodePropertyBoolean enableActivityPurge;
 
   @JsonProperty("eventTypes")
-  private ConfigNodePropertyDropDown eventTypes = null;
+  private ConfigNodePropertyDropDown eventTypes;
 
   public ComDayCqDamCoreImplDamEventPurgeServiceProperties schedulerExpression(ConfigNodePropertyString schedulerExpression) {
     this.schedulerExpression = schedulerExpression;
     return this;
   }
 
-   /**
+  /**
    * Get schedulerExpression
    * @return schedulerExpression
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getSchedulerExpression() {
     return schedulerExpression;
@@ -59,10 +59,10 @@ public class ComDayCqDamCoreImplDamEventPurgeServiceProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get maxSavedActivities
    * @return maxSavedActivities
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getMaxSavedActivities() {
     return maxSavedActivities;
@@ -77,10 +77,10 @@ public class ComDayCqDamCoreImplDamEventPurgeServiceProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get saveInterval
    * @return saveInterval
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getSaveInterval() {
     return saveInterval;
@@ -95,10 +95,10 @@ public class ComDayCqDamCoreImplDamEventPurgeServiceProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get enableActivityPurge
    * @return enableActivityPurge
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getEnableActivityPurge() {
     return enableActivityPurge;
@@ -113,10 +113,10 @@ public class ComDayCqDamCoreImplDamEventPurgeServiceProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get eventTypes
    * @return eventTypes
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyDropDown getEventTypes() {
     return eventTypes;
@@ -128,7 +128,7 @@ public class ComDayCqDamCoreImplDamEventPurgeServiceProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -166,11 +166,8 @@ public class ComDayCqDamCoreImplDamEventPurgeServiceProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

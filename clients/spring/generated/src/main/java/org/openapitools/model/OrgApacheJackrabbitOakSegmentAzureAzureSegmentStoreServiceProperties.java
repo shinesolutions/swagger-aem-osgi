@@ -1,36 +1,47 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * OrgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServiceProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class OrgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServiceProperties   {
-  @JsonProperty("accountName")
-  private ConfigNodePropertyString accountName = null;
+@JsonTypeName("orgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServiceProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class OrgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServiceProperties {
 
-  @JsonProperty("containerName")
-  private ConfigNodePropertyString containerName = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString accountName;
 
-  @JsonProperty("accessKey")
-  private ConfigNodePropertyString accessKey = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString containerName;
 
-  @JsonProperty("rootPath")
-  private ConfigNodePropertyString rootPath = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString accessKey;
 
-  @JsonProperty("connectionURL")
-  private ConfigNodePropertyString connectionURL = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString rootPath;
 
-  public OrgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServiceProperties accountName(ConfigNodePropertyString accountName) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString connectionURL;
+
+  public OrgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServiceProperties accountName(@Nullable ConfigNodePropertyString accountName) {
     this.accountName = accountName;
     return this;
   }
@@ -38,20 +49,20 @@ public class OrgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServicePropertie
   /**
    * Get accountName
    * @return accountName
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getAccountName() {
+   */
+  @Valid 
+  @Schema(name = "accountName", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("accountName")
+  public @Nullable ConfigNodePropertyString getAccountName() {
     return accountName;
   }
 
-  public void setAccountName(ConfigNodePropertyString accountName) {
+  @JsonProperty("accountName")
+  public void setAccountName(@Nullable ConfigNodePropertyString accountName) {
     this.accountName = accountName;
   }
 
-  public OrgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServiceProperties containerName(ConfigNodePropertyString containerName) {
+  public OrgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServiceProperties containerName(@Nullable ConfigNodePropertyString containerName) {
     this.containerName = containerName;
     return this;
   }
@@ -59,20 +70,20 @@ public class OrgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServicePropertie
   /**
    * Get containerName
    * @return containerName
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getContainerName() {
+   */
+  @Valid 
+  @Schema(name = "containerName", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("containerName")
+  public @Nullable ConfigNodePropertyString getContainerName() {
     return containerName;
   }
 
-  public void setContainerName(ConfigNodePropertyString containerName) {
+  @JsonProperty("containerName")
+  public void setContainerName(@Nullable ConfigNodePropertyString containerName) {
     this.containerName = containerName;
   }
 
-  public OrgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServiceProperties accessKey(ConfigNodePropertyString accessKey) {
+  public OrgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServiceProperties accessKey(@Nullable ConfigNodePropertyString accessKey) {
     this.accessKey = accessKey;
     return this;
   }
@@ -80,20 +91,20 @@ public class OrgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServicePropertie
   /**
    * Get accessKey
    * @return accessKey
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getAccessKey() {
+   */
+  @Valid 
+  @Schema(name = "accessKey", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("accessKey")
+  public @Nullable ConfigNodePropertyString getAccessKey() {
     return accessKey;
   }
 
-  public void setAccessKey(ConfigNodePropertyString accessKey) {
+  @JsonProperty("accessKey")
+  public void setAccessKey(@Nullable ConfigNodePropertyString accessKey) {
     this.accessKey = accessKey;
   }
 
-  public OrgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServiceProperties rootPath(ConfigNodePropertyString rootPath) {
+  public OrgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServiceProperties rootPath(@Nullable ConfigNodePropertyString rootPath) {
     this.rootPath = rootPath;
     return this;
   }
@@ -101,20 +112,20 @@ public class OrgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServicePropertie
   /**
    * Get rootPath
    * @return rootPath
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getRootPath() {
+   */
+  @Valid 
+  @Schema(name = "rootPath", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("rootPath")
+  public @Nullable ConfigNodePropertyString getRootPath() {
     return rootPath;
   }
 
-  public void setRootPath(ConfigNodePropertyString rootPath) {
+  @JsonProperty("rootPath")
+  public void setRootPath(@Nullable ConfigNodePropertyString rootPath) {
     this.rootPath = rootPath;
   }
 
-  public OrgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServiceProperties connectionURL(ConfigNodePropertyString connectionURL) {
+  public OrgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServiceProperties connectionURL(@Nullable ConfigNodePropertyString connectionURL) {
     this.connectionURL = connectionURL;
     return this;
   }
@@ -122,22 +133,21 @@ public class OrgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServicePropertie
   /**
    * Get connectionURL
    * @return connectionURL
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getConnectionURL() {
+   */
+  @Valid 
+  @Schema(name = "connectionURL", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("connectionURL")
+  public @Nullable ConfigNodePropertyString getConnectionURL() {
     return connectionURL;
   }
 
-  public void setConnectionURL(ConfigNodePropertyString connectionURL) {
+  @JsonProperty("connectionURL")
+  public void setConnectionURL(@Nullable ConfigNodePropertyString connectionURL) {
     this.connectionURL = connectionURL;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -161,7 +171,6 @@ public class OrgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServicePropertie
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class OrgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServiceProperties {\n");
-    
     sb.append("    accountName: ").append(toIndentedString(accountName)).append("\n");
     sb.append("    containerName: ").append(toIndentedString(containerName)).append("\n");
     sb.append("    accessKey: ").append(toIndentedString(accessKey)).append("\n");
@@ -175,11 +184,8 @@ public class OrgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServicePropertie
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

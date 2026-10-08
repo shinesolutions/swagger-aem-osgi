@@ -7,16 +7,16 @@ import org.openapitools.model.OrgApacheSlingJcrResourceInternalJcrResourceResolv
 
 @Canonical
 class OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties properties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties properties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

@@ -1,28 +1,39 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComAdobeGraniteActivitystreamsImplActivityManagerImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComAdobeGraniteActivitystreamsImplActivityManagerImplProperties   {
-  @JsonProperty("aggregate.relationships")
-  private ConfigNodePropertyArray aggregateRelationships = null;
+@JsonTypeName("comAdobeGraniteActivitystreamsImplActivityManagerImplProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComAdobeGraniteActivitystreamsImplActivityManagerImplProperties {
 
-  @JsonProperty("aggregate.descend.virtual")
-  private ConfigNodePropertyBoolean aggregateDescendVirtual = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray aggregateRelationships;
 
-  public ComAdobeGraniteActivitystreamsImplActivityManagerImplProperties aggregateRelationships(ConfigNodePropertyArray aggregateRelationships) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean aggregateDescendVirtual;
+
+  public ComAdobeGraniteActivitystreamsImplActivityManagerImplProperties aggregateRelationships(@Nullable ConfigNodePropertyArray aggregateRelationships) {
     this.aggregateRelationships = aggregateRelationships;
     return this;
   }
@@ -30,20 +41,20 @@ public class ComAdobeGraniteActivitystreamsImplActivityManagerImplProperties   {
   /**
    * Get aggregateRelationships
    * @return aggregateRelationships
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getAggregateRelationships() {
+   */
+  @Valid 
+  @Schema(name = "aggregate.relationships", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("aggregate.relationships")
+  public @Nullable ConfigNodePropertyArray getAggregateRelationships() {
     return aggregateRelationships;
   }
 
-  public void setAggregateRelationships(ConfigNodePropertyArray aggregateRelationships) {
+  @JsonProperty("aggregate.relationships")
+  public void setAggregateRelationships(@Nullable ConfigNodePropertyArray aggregateRelationships) {
     this.aggregateRelationships = aggregateRelationships;
   }
 
-  public ComAdobeGraniteActivitystreamsImplActivityManagerImplProperties aggregateDescendVirtual(ConfigNodePropertyBoolean aggregateDescendVirtual) {
+  public ComAdobeGraniteActivitystreamsImplActivityManagerImplProperties aggregateDescendVirtual(@Nullable ConfigNodePropertyBoolean aggregateDescendVirtual) {
     this.aggregateDescendVirtual = aggregateDescendVirtual;
     return this;
   }
@@ -51,22 +62,21 @@ public class ComAdobeGraniteActivitystreamsImplActivityManagerImplProperties   {
   /**
    * Get aggregateDescendVirtual
    * @return aggregateDescendVirtual
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getAggregateDescendVirtual() {
+   */
+  @Valid 
+  @Schema(name = "aggregate.descend.virtual", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("aggregate.descend.virtual")
+  public @Nullable ConfigNodePropertyBoolean getAggregateDescendVirtual() {
     return aggregateDescendVirtual;
   }
 
-  public void setAggregateDescendVirtual(ConfigNodePropertyBoolean aggregateDescendVirtual) {
+  @JsonProperty("aggregate.descend.virtual")
+  public void setAggregateDescendVirtual(@Nullable ConfigNodePropertyBoolean aggregateDescendVirtual) {
     this.aggregateDescendVirtual = aggregateDescendVirtual;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -87,7 +97,6 @@ public class ComAdobeGraniteActivitystreamsImplActivityManagerImplProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComAdobeGraniteActivitystreamsImplActivityManagerImplProperties {\n");
-    
     sb.append("    aggregateRelationships: ").append(toIndentedString(aggregateRelationships)).append("\n");
     sb.append("    aggregateDescendVirtual: ").append(toIndentedString(aggregateDescendVirtual)).append("\n");
     sb.append("}");
@@ -98,11 +107,8 @@ public class ComAdobeGraniteActivitystreamsImplActivityManagerImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

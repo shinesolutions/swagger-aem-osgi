@@ -4,6 +4,7 @@ import org.openapitools.api.*;
 import org.openapitools.model.*;
 
 
+
 import org.openapitools.model.AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationInfo;
 import org.openapitools.model.AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurInfo;
 import org.openapitools.model.AnalyticsComponentQueryCacheServiceInfo;
@@ -732,10 +733,12 @@ import org.openapitools.api.NotFoundException;
 
 import java.io.InputStream;
 
+import javax.validation.constraints.*;
+import javax.validation.Valid;
 import javax.ws.rs.core.Response;
 import javax.ws.rs.core.SecurityContext;
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2019-08-05T00:59:30.156Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2026-10-07T12:54:21.614735164Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public interface SystemApiService {
       Response adaptiveFormAndInteractiveCommunicationWebChannelConfiguration(Boolean post,Boolean apply,Boolean delete,String action,String $location,List<String> propertylist,Boolean showPlaceholder,Integer maximumCacheEntries,String afScriptingCompatversion,Boolean makeFileNameUnique,Boolean generatingCompliantData,SecurityContext securityContext)
       throws NotFoundException;
@@ -1457,7 +1460,7 @@ public interface SystemApiService {
       throws NotFoundException;
       Response comDayCqDamCoreImplLightboxLightboxServlet(Boolean post,Boolean apply,Boolean delete,String action,String $location,List<String> propertylist,String slingServletPaths,List<String> slingServletMethods,Boolean cqDamEnableAnonymous,SecurityContext securityContext)
       throws NotFoundException;
-      Response comDayCqDamCoreImplMetadataEditorSelectComponentHandler(Boolean post,Boolean apply,Boolean delete,String action,String $location,List<String> propertylist,List<String> graniteColonData,SecurityContext securityContext)
+      Response comDayCqDamCoreImplMetadataEditorSelectComponentHandler(Boolean post,Boolean apply,Boolean delete,String action,String $location,List<String> propertylist,List<String> graniteData,SecurityContext securityContext)
       throws NotFoundException;
       Response comDayCqDamCoreImplMimeTypeAssetUploadRestrictionHelper(Boolean post,Boolean apply,Boolean delete,String action,String $location,List<String> propertylist,Boolean cqDamAllowAllMime,List<String> cqDamAllowedAssetMimes,SecurityContext securityContext)
       throws NotFoundException;
@@ -1489,7 +1492,7 @@ public interface SystemApiService {
       throws NotFoundException;
       Response comDayCqDamCoreImplServletCollectionsServlet(Boolean post,Boolean apply,Boolean delete,String action,String $location,List<String> propertylist,List<String> cqDamBatchCollectionsProperties,Integer cqDamBatchCollectionsLimit,SecurityContext securityContext)
       throws NotFoundException;
-      Response comDayCqDamCoreImplServletCompanionServlet(Boolean post,Boolean apply,Boolean delete,String action,String $location,List<String> propertylist,String moreInfo,String slashMntSlashOverlaySlashDamSlashGuiSlashContentSlashAssetsSlashMoreinfoHtmlSlash$LeftCurlyBracketPathRightCurlyBracket,SecurityContext securityContext)
+      Response comDayCqDamCoreImplServletCompanionServlet(Boolean post,Boolean apply,Boolean delete,String action,String $location,List<String> propertylist,String moreInfo,String mntOverlayDamGuiContentAssetsMoreinfoHtml$LeftCurlyBracketPathRightCurlyBracket,SecurityContext securityContext)
       throws NotFoundException;
       Response comDayCqDamCoreImplServletCreateAssetServlet(Boolean post,Boolean apply,Boolean delete,String action,String $location,List<String> propertylist,Boolean detectDuplicate,SecurityContext securityContext)
       throws NotFoundException;
@@ -2179,4 +2182,6 @@ public interface SystemApiService {
       throws NotFoundException;
       Response orgApacheSlingXssImplXSSFilterImpl(Boolean post,Boolean apply,Boolean delete,String action,String $location,List<String> propertylist,String policyPath,SecurityContext securityContext)
       throws NotFoundException;
+
+
 }

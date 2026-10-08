@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class OrgApacheSlingXssImplXSSFilterImplProperties {
-    ConfigNodePropertyString policyPath = null
-
+    
+    ConfigNodePropertyString policyPath
 }

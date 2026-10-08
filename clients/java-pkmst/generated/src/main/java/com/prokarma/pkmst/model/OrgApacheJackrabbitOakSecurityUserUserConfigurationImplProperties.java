@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyBoolean;
 import com.prokarma.pkmst.model.ConfigNodePropertyDropDown;
 import com.prokarma.pkmst.model.ConfigNodePropertyInteger;
@@ -18,66 +19,65 @@ import io.swagger.annotations.ApiModelProperty;
  * OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties   {
   @JsonProperty("usersPath")
-  private ConfigNodePropertyString usersPath = null;
+  private ConfigNodePropertyString usersPath;
 
   @JsonProperty("groupsPath")
-  private ConfigNodePropertyString groupsPath = null;
+  private ConfigNodePropertyString groupsPath;
 
   @JsonProperty("systemRelativePath")
-  private ConfigNodePropertyString systemRelativePath = null;
+  private ConfigNodePropertyString systemRelativePath;
 
   @JsonProperty("defaultDepth")
-  private ConfigNodePropertyInteger defaultDepth = null;
+  private ConfigNodePropertyInteger defaultDepth;
 
   @JsonProperty("importBehavior")
-  private ConfigNodePropertyDropDown importBehavior = null;
+  private ConfigNodePropertyDropDown importBehavior;
 
   @JsonProperty("passwordHashAlgorithm")
-  private ConfigNodePropertyString passwordHashAlgorithm = null;
+  private ConfigNodePropertyString passwordHashAlgorithm;
 
   @JsonProperty("passwordHashIterations")
-  private ConfigNodePropertyInteger passwordHashIterations = null;
+  private ConfigNodePropertyInteger passwordHashIterations;
 
   @JsonProperty("passwordSaltSize")
-  private ConfigNodePropertyInteger passwordSaltSize = null;
+  private ConfigNodePropertyInteger passwordSaltSize;
 
   @JsonProperty("omitAdminPw")
-  private ConfigNodePropertyBoolean omitAdminPw = null;
+  private ConfigNodePropertyBoolean omitAdminPw;
 
   @JsonProperty("supportAutoSave")
-  private ConfigNodePropertyBoolean supportAutoSave = null;
+  private ConfigNodePropertyBoolean supportAutoSave;
 
   @JsonProperty("passwordMaxAge")
-  private ConfigNodePropertyInteger passwordMaxAge = null;
+  private ConfigNodePropertyInteger passwordMaxAge;
 
   @JsonProperty("initialPasswordChange")
-  private ConfigNodePropertyBoolean initialPasswordChange = null;
+  private ConfigNodePropertyBoolean initialPasswordChange;
 
   @JsonProperty("passwordHistorySize")
-  private ConfigNodePropertyInteger passwordHistorySize = null;
+  private ConfigNodePropertyInteger passwordHistorySize;
 
   @JsonProperty("passwordExpiryForAdmin")
-  private ConfigNodePropertyBoolean passwordExpiryForAdmin = null;
+  private ConfigNodePropertyBoolean passwordExpiryForAdmin;
 
   @JsonProperty("cacheExpiration")
-  private ConfigNodePropertyInteger cacheExpiration = null;
+  private ConfigNodePropertyInteger cacheExpiration;
 
   @JsonProperty("enableRFC7613UsercaseMappedProfile")
-  private ConfigNodePropertyBoolean enableRFC7613UsercaseMappedProfile = null;
+  private ConfigNodePropertyBoolean enableRFC7613UsercaseMappedProfile;
 
   public OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties usersPath(ConfigNodePropertyString usersPath) {
     this.usersPath = usersPath;
     return this;
   }
 
-   /**
+  /**
    * Get usersPath
    * @return usersPath
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getUsersPath() {
     return usersPath;
@@ -92,10 +92,10 @@ public class OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties  
     return this;
   }
 
-   /**
+  /**
    * Get groupsPath
    * @return groupsPath
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getGroupsPath() {
     return groupsPath;
@@ -110,10 +110,10 @@ public class OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties  
     return this;
   }
 
-   /**
+  /**
    * Get systemRelativePath
    * @return systemRelativePath
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getSystemRelativePath() {
     return systemRelativePath;
@@ -128,10 +128,10 @@ public class OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties  
     return this;
   }
 
-   /**
+  /**
    * Get defaultDepth
    * @return defaultDepth
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getDefaultDepth() {
     return defaultDepth;
@@ -146,10 +146,10 @@ public class OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties  
     return this;
   }
 
-   /**
+  /**
    * Get importBehavior
    * @return importBehavior
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyDropDown getImportBehavior() {
     return importBehavior;
@@ -164,10 +164,10 @@ public class OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties  
     return this;
   }
 
-   /**
+  /**
    * Get passwordHashAlgorithm
    * @return passwordHashAlgorithm
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getPasswordHashAlgorithm() {
     return passwordHashAlgorithm;
@@ -182,10 +182,10 @@ public class OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties  
     return this;
   }
 
-   /**
+  /**
    * Get passwordHashIterations
    * @return passwordHashIterations
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getPasswordHashIterations() {
     return passwordHashIterations;
@@ -200,10 +200,10 @@ public class OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties  
     return this;
   }
 
-   /**
+  /**
    * Get passwordSaltSize
    * @return passwordSaltSize
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getPasswordSaltSize() {
     return passwordSaltSize;
@@ -218,10 +218,10 @@ public class OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties  
     return this;
   }
 
-   /**
+  /**
    * Get omitAdminPw
    * @return omitAdminPw
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getOmitAdminPw() {
     return omitAdminPw;
@@ -236,10 +236,10 @@ public class OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties  
     return this;
   }
 
-   /**
+  /**
    * Get supportAutoSave
    * @return supportAutoSave
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getSupportAutoSave() {
     return supportAutoSave;
@@ -254,10 +254,10 @@ public class OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties  
     return this;
   }
 
-   /**
+  /**
    * Get passwordMaxAge
    * @return passwordMaxAge
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getPasswordMaxAge() {
     return passwordMaxAge;
@@ -272,10 +272,10 @@ public class OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties  
     return this;
   }
 
-   /**
+  /**
    * Get initialPasswordChange
    * @return initialPasswordChange
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getInitialPasswordChange() {
     return initialPasswordChange;
@@ -290,10 +290,10 @@ public class OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties  
     return this;
   }
 
-   /**
+  /**
    * Get passwordHistorySize
    * @return passwordHistorySize
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getPasswordHistorySize() {
     return passwordHistorySize;
@@ -308,10 +308,10 @@ public class OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties  
     return this;
   }
 
-   /**
+  /**
    * Get passwordExpiryForAdmin
    * @return passwordExpiryForAdmin
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getPasswordExpiryForAdmin() {
     return passwordExpiryForAdmin;
@@ -326,10 +326,10 @@ public class OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties  
     return this;
   }
 
-   /**
+  /**
    * Get cacheExpiration
    * @return cacheExpiration
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getCacheExpiration() {
     return cacheExpiration;
@@ -344,10 +344,10 @@ public class OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties  
     return this;
   }
 
-   /**
+  /**
    * Get enableRFC7613UsercaseMappedProfile
    * @return enableRFC7613UsercaseMappedProfile
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getEnableRFC7613UsercaseMappedProfile() {
     return enableRFC7613UsercaseMappedProfile;
@@ -359,7 +359,7 @@ public class OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties  
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -419,11 +419,8 @@ public class OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties  
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

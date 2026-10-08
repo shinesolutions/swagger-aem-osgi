@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqDamCoreImplEventDamEventAuditListenerPrope
 
 @Canonical
 class ComDayCqDamCoreImplEventDamEventAuditListenerInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqDamCoreImplEventDamEventAuditListenerProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqDamCoreImplEventDamEventAuditListenerProperties properties
 }

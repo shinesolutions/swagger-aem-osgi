@@ -7,12 +7,12 @@ import org.openapitools.model.OrgApacheSlingServletsPostImplHelperChunkCleanUpTa
 
 @Canonical
 class OrgApacheSlingServletsPostImplHelperChunkCleanUpTaskInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheSlingServletsPostImplHelperChunkCleanUpTaskProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheSlingServletsPostImplHelperChunkCleanUpTaskProperties properties
 }

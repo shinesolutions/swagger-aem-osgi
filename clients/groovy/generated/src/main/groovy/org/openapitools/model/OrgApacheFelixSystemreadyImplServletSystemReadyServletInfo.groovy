@@ -7,16 +7,16 @@ import org.openapitools.model.OrgApacheFelixSystemreadyImplServletSystemReadySer
 
 @Canonical
 class OrgApacheFelixSystemreadyImplServletSystemReadyServletInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheFelixSystemreadyImplServletSystemReadyServletProperties properties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheFelixSystemreadyImplServletSystemReadyServletProperties properties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

@@ -1,0 +1,42 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingServiceusermappingImplServiceUserMapperImplAmendedProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingServiceusermappingImplServiceUserMapperImplAmendedProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+}
+resourceTypes {
+
+  OrgApacheSlingServiceusermappingImplServiceUserMapperImplAmendedProperties {
+    title = OrgApacheSlingServiceusermappingImplServiceUserMapperImplAmendedProperties
+    description = OrgApacheSlingServiceusermappingImplServiceUserMapperImplAmendedProperties
+    derivedFrom = Root
+    properties {
+        service_ranking {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        user_mapping {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingServiceusermappingImplServiceUserMapperImplAmendedProperties {
+    title = OrgApacheSlingServiceusermappingImplServiceUserMapperImplAmendedProperties
+    description = OrgApacheSlingServiceusermappingImplServiceUserMapperImplAmendedProperties
+    implements = openapi_server.resourceTypes.OrgApacheSlingServiceusermappingImplServiceUserMapperImplAmendedProperties
+
+  }
+}

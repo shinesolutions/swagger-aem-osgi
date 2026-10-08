@@ -72,9 +72,9 @@ private class OASOrgApacheSlingServletsPostImplHelTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASOrgApacheSlingServletsPostImplHel orgApacheSlingServletsPostImplHelperChunkCleanUpTaskProperties = new OASOrgApacheSlingServletsPostImplHel();
-        Map<String, String> propertyMappings = orgApacheSlingServletsPostImplHelperChunkCleanUpTaskProperties.getPropertyMappings();
-        System.assertEquals('schedulerExpression', propertyMappings.get('scheduler.expression'));
-        System.assertEquals('schedulerConcurrent', propertyMappings.get('scheduler.concurrent'));
-        System.assertEquals('chunkCleanupAge', propertyMappings.get('chunk.cleanup.age'));
+        Map<String, String> x-property-mappings = orgApacheSlingServletsPostImplHelperChunkCleanUpTaskProperties.getx-property-mappings();
+        System.assertEquals('schedulerExpression', x-property-mappings.get('scheduler.expression'));
+        System.assertEquals('schedulerConcurrent', x-property-mappings.get('scheduler.concurrent'));
+        System.assertEquals('chunkCleanupAge', x-property-mappings.get('chunk.cleanup.age'));
     }
 }

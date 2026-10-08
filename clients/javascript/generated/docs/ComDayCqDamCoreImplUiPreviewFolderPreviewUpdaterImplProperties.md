@@ -1,6 +1,7 @@
 # NodeSwaggerAemOsgi.ComDayCqDamCoreImplUiPreviewFolderPreviewUpdaterImplProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **createPreviewEnabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] 

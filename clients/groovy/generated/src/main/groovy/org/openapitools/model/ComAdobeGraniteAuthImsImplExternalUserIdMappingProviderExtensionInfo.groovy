@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeGraniteAuthImsImplExternalUserIdMappingPro
 
 @Canonical
 class ComAdobeGraniteAuthImsImplExternalUserIdMappingProviderExtensionInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteAuthImsImplExternalUserIdMappingProviderExtensionProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteAuthImsImplExternalUserIdMappingProviderExtensionProperties properties
 }

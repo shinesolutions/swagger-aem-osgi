@@ -2,16 +2,17 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**is_primary_publisher** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **is_primary_publisher** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComAdobeCqSocialUgcbaseImplPublisherConfigurationImplProperties.new(is_primary_publisher: null)
+instance = SwaggerAemOsgiClient::ComAdobeCqSocialUgcbaseImplPublisherConfigurationImplProperties.new(
+  is_primary_publisher: null
+)
 ```
-
 

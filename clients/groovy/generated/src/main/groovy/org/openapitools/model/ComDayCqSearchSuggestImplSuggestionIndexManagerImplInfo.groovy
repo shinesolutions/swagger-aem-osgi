@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqSearchSuggestImplSuggestionIndexManagerImp
 
 @Canonical
 class ComDayCqSearchSuggestImplSuggestionIndexManagerImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqSearchSuggestImplSuggestionIndexManagerImplProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqSearchSuggestImplSuggestionIndexManagerImplProperties properties
 }

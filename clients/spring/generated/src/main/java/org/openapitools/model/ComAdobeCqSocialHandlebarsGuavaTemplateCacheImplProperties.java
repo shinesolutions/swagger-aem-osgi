@@ -1,35 +1,46 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComAdobeCqSocialHandlebarsGuavaTemplateCacheImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComAdobeCqSocialHandlebarsGuavaTemplateCacheImplProperties   {
-  @JsonProperty("parameter.guava.cache.enabled")
-  private ConfigNodePropertyBoolean parameterGuavaCacheEnabled = null;
+@JsonTypeName("comAdobeCqSocialHandlebarsGuavaTemplateCacheImplProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComAdobeCqSocialHandlebarsGuavaTemplateCacheImplProperties {
 
-  @JsonProperty("parameter.guava.cache.params")
-  private ConfigNodePropertyString parameterGuavaCacheParams = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean parameterGuavaCacheEnabled;
 
-  @JsonProperty("parameter.guava.cache.reload")
-  private ConfigNodePropertyBoolean parameterGuavaCacheReload = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString parameterGuavaCacheParams;
 
-  @JsonProperty("service.ranking")
-  private ConfigNodePropertyInteger serviceRanking = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean parameterGuavaCacheReload;
 
-  public ComAdobeCqSocialHandlebarsGuavaTemplateCacheImplProperties parameterGuavaCacheEnabled(ConfigNodePropertyBoolean parameterGuavaCacheEnabled) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger serviceRanking;
+
+  public ComAdobeCqSocialHandlebarsGuavaTemplateCacheImplProperties parameterGuavaCacheEnabled(@Nullable ConfigNodePropertyBoolean parameterGuavaCacheEnabled) {
     this.parameterGuavaCacheEnabled = parameterGuavaCacheEnabled;
     return this;
   }
@@ -37,20 +48,20 @@ public class ComAdobeCqSocialHandlebarsGuavaTemplateCacheImplProperties   {
   /**
    * Get parameterGuavaCacheEnabled
    * @return parameterGuavaCacheEnabled
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getParameterGuavaCacheEnabled() {
+   */
+  @Valid 
+  @Schema(name = "parameter.guava.cache.enabled", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("parameter.guava.cache.enabled")
+  public @Nullable ConfigNodePropertyBoolean getParameterGuavaCacheEnabled() {
     return parameterGuavaCacheEnabled;
   }
 
-  public void setParameterGuavaCacheEnabled(ConfigNodePropertyBoolean parameterGuavaCacheEnabled) {
+  @JsonProperty("parameter.guava.cache.enabled")
+  public void setParameterGuavaCacheEnabled(@Nullable ConfigNodePropertyBoolean parameterGuavaCacheEnabled) {
     this.parameterGuavaCacheEnabled = parameterGuavaCacheEnabled;
   }
 
-  public ComAdobeCqSocialHandlebarsGuavaTemplateCacheImplProperties parameterGuavaCacheParams(ConfigNodePropertyString parameterGuavaCacheParams) {
+  public ComAdobeCqSocialHandlebarsGuavaTemplateCacheImplProperties parameterGuavaCacheParams(@Nullable ConfigNodePropertyString parameterGuavaCacheParams) {
     this.parameterGuavaCacheParams = parameterGuavaCacheParams;
     return this;
   }
@@ -58,20 +69,20 @@ public class ComAdobeCqSocialHandlebarsGuavaTemplateCacheImplProperties   {
   /**
    * Get parameterGuavaCacheParams
    * @return parameterGuavaCacheParams
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getParameterGuavaCacheParams() {
+   */
+  @Valid 
+  @Schema(name = "parameter.guava.cache.params", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("parameter.guava.cache.params")
+  public @Nullable ConfigNodePropertyString getParameterGuavaCacheParams() {
     return parameterGuavaCacheParams;
   }
 
-  public void setParameterGuavaCacheParams(ConfigNodePropertyString parameterGuavaCacheParams) {
+  @JsonProperty("parameter.guava.cache.params")
+  public void setParameterGuavaCacheParams(@Nullable ConfigNodePropertyString parameterGuavaCacheParams) {
     this.parameterGuavaCacheParams = parameterGuavaCacheParams;
   }
 
-  public ComAdobeCqSocialHandlebarsGuavaTemplateCacheImplProperties parameterGuavaCacheReload(ConfigNodePropertyBoolean parameterGuavaCacheReload) {
+  public ComAdobeCqSocialHandlebarsGuavaTemplateCacheImplProperties parameterGuavaCacheReload(@Nullable ConfigNodePropertyBoolean parameterGuavaCacheReload) {
     this.parameterGuavaCacheReload = parameterGuavaCacheReload;
     return this;
   }
@@ -79,20 +90,20 @@ public class ComAdobeCqSocialHandlebarsGuavaTemplateCacheImplProperties   {
   /**
    * Get parameterGuavaCacheReload
    * @return parameterGuavaCacheReload
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getParameterGuavaCacheReload() {
+   */
+  @Valid 
+  @Schema(name = "parameter.guava.cache.reload", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("parameter.guava.cache.reload")
+  public @Nullable ConfigNodePropertyBoolean getParameterGuavaCacheReload() {
     return parameterGuavaCacheReload;
   }
 
-  public void setParameterGuavaCacheReload(ConfigNodePropertyBoolean parameterGuavaCacheReload) {
+  @JsonProperty("parameter.guava.cache.reload")
+  public void setParameterGuavaCacheReload(@Nullable ConfigNodePropertyBoolean parameterGuavaCacheReload) {
     this.parameterGuavaCacheReload = parameterGuavaCacheReload;
   }
 
-  public ComAdobeCqSocialHandlebarsGuavaTemplateCacheImplProperties serviceRanking(ConfigNodePropertyInteger serviceRanking) {
+  public ComAdobeCqSocialHandlebarsGuavaTemplateCacheImplProperties serviceRanking(@Nullable ConfigNodePropertyInteger serviceRanking) {
     this.serviceRanking = serviceRanking;
     return this;
   }
@@ -100,22 +111,21 @@ public class ComAdobeCqSocialHandlebarsGuavaTemplateCacheImplProperties   {
   /**
    * Get serviceRanking
    * @return serviceRanking
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getServiceRanking() {
+   */
+  @Valid 
+  @Schema(name = "service.ranking", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("service.ranking")
+  public @Nullable ConfigNodePropertyInteger getServiceRanking() {
     return serviceRanking;
   }
 
-  public void setServiceRanking(ConfigNodePropertyInteger serviceRanking) {
+  @JsonProperty("service.ranking")
+  public void setServiceRanking(@Nullable ConfigNodePropertyInteger serviceRanking) {
     this.serviceRanking = serviceRanking;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -138,7 +148,6 @@ public class ComAdobeCqSocialHandlebarsGuavaTemplateCacheImplProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComAdobeCqSocialHandlebarsGuavaTemplateCacheImplProperties {\n");
-    
     sb.append("    parameterGuavaCacheEnabled: ").append(toIndentedString(parameterGuavaCacheEnabled)).append("\n");
     sb.append("    parameterGuavaCacheParams: ").append(toIndentedString(parameterGuavaCacheParams)).append("\n");
     sb.append("    parameterGuavaCacheReload: ").append(toIndentedString(parameterGuavaCacheReload)).append("\n");
@@ -151,11 +160,8 @@ public class ComAdobeCqSocialHandlebarsGuavaTemplateCacheImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

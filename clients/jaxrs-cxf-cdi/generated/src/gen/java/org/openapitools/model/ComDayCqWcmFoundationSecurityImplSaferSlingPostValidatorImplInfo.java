@@ -2,31 +2,32 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ComDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class ComDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplInfo   {
   
-  private String pid = null;
+  private String pid;
 
-  private String title = null;
+  private String title;
 
-  private String description = null;
+  private String description;
 
-  private ComDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplProperties properties = null;
+  private ComDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplProperties properties;
 
-  private String bundleLocation = null;
+  private String bundleLocation;
 
-  private String serviceLocation = null;
-
+  private String serviceLocation;
 
   /**
    **/
@@ -138,7 +139,7 @@ public class ComDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplInfo   
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -146,12 +147,12 @@ public class ComDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplInfo   
       return false;
     }
     ComDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplInfo comDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplInfo = (ComDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplInfo) o;
-    return Objects.equals(pid, comDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplInfo.pid) &&
-        Objects.equals(title, comDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplInfo.title) &&
-        Objects.equals(description, comDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplInfo.description) &&
-        Objects.equals(properties, comDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplInfo.properties) &&
-        Objects.equals(bundleLocation, comDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplInfo.bundleLocation) &&
-        Objects.equals(serviceLocation, comDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplInfo.serviceLocation);
+    return Objects.equals(this.pid, comDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplInfo.pid) &&
+        Objects.equals(this.title, comDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplInfo.title) &&
+        Objects.equals(this.description, comDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplInfo.description) &&
+        Objects.equals(this.properties, comDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplInfo.properties) &&
+        Objects.equals(this.bundleLocation, comDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplInfo.bundleLocation) &&
+        Objects.equals(this.serviceLocation, comDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplInfo.serviceLocation);
   }
 
   @Override
@@ -178,11 +179,8 @@ public class ComDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplInfo   
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

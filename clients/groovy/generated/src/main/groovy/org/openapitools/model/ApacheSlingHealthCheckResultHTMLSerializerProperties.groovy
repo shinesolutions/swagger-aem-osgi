@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ApacheSlingHealthCheckResultHTMLSerializerProperties {
-    ConfigNodePropertyString styleString = null
-
+    
+    ConfigNodePropertyString styleString
 }

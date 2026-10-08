@@ -1,23 +1,34 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExProperties   {
-  
-  private @Valid ConfigNodePropertyInteger jaasRanking = null;
-  private @Valid ConfigNodePropertyString jaasControlFlag = null;
-  private @Valid ConfigNodePropertyString jaasRealmName = null;
-  private @Valid ConfigNodePropertyString idpName = null;
-  private @Valid ConfigNodePropertyString syncHandlerName = null;
+  private ConfigNodePropertyInteger jaasRanking;
+  private ConfigNodePropertyString jaasControlFlag;
+  private ConfigNodePropertyString jaasRealmName;
+  private ConfigNodePropertyString idpName;
+  private ConfigNodePropertyString syncHandlerName;
+
+  public OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExProperties() {
+  }
 
   /**
    **/
@@ -29,9 +40,11 @@ public class OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExProper
   
   @ApiModelProperty(value = "")
   @JsonProperty("jaas.ranking")
-  public ConfigNodePropertyInteger getJaasRanking() {
+  @Valid public ConfigNodePropertyInteger getJaasRanking() {
     return jaasRanking;
   }
+
+  @JsonProperty("jaas.ranking")
   public void setJaasRanking(ConfigNodePropertyInteger jaasRanking) {
     this.jaasRanking = jaasRanking;
   }
@@ -46,9 +59,11 @@ public class OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExProper
   
   @ApiModelProperty(value = "")
   @JsonProperty("jaas.controlFlag")
-  public ConfigNodePropertyString getJaasControlFlag() {
+  @Valid public ConfigNodePropertyString getJaasControlFlag() {
     return jaasControlFlag;
   }
+
+  @JsonProperty("jaas.controlFlag")
   public void setJaasControlFlag(ConfigNodePropertyString jaasControlFlag) {
     this.jaasControlFlag = jaasControlFlag;
   }
@@ -63,9 +78,11 @@ public class OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExProper
   
   @ApiModelProperty(value = "")
   @JsonProperty("jaas.realmName")
-  public ConfigNodePropertyString getJaasRealmName() {
+  @Valid public ConfigNodePropertyString getJaasRealmName() {
     return jaasRealmName;
   }
+
+  @JsonProperty("jaas.realmName")
   public void setJaasRealmName(ConfigNodePropertyString jaasRealmName) {
     this.jaasRealmName = jaasRealmName;
   }
@@ -80,9 +97,11 @@ public class OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExProper
   
   @ApiModelProperty(value = "")
   @JsonProperty("idp.name")
-  public ConfigNodePropertyString getIdpName() {
+  @Valid public ConfigNodePropertyString getIdpName() {
     return idpName;
   }
+
+  @JsonProperty("idp.name")
   public void setIdpName(ConfigNodePropertyString idpName) {
     this.idpName = idpName;
   }
@@ -97,16 +116,18 @@ public class OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExProper
   
   @ApiModelProperty(value = "")
   @JsonProperty("sync.handlerName")
-  public ConfigNodePropertyString getSyncHandlerName() {
+  @Valid public ConfigNodePropertyString getSyncHandlerName() {
     return syncHandlerName;
   }
+
+  @JsonProperty("sync.handlerName")
   public void setSyncHandlerName(ConfigNodePropertyString syncHandlerName) {
     this.syncHandlerName = syncHandlerName;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -114,11 +135,11 @@ public class OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExProper
       return false;
     }
     OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExProperties orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExProperties = (OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExProperties) o;
-    return Objects.equals(jaasRanking, orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExProperties.jaasRanking) &&
-        Objects.equals(jaasControlFlag, orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExProperties.jaasControlFlag) &&
-        Objects.equals(jaasRealmName, orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExProperties.jaasRealmName) &&
-        Objects.equals(idpName, orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExProperties.idpName) &&
-        Objects.equals(syncHandlerName, orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExProperties.syncHandlerName);
+    return Objects.equals(this.jaasRanking, orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExProperties.jaasRanking) &&
+        Objects.equals(this.jaasControlFlag, orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExProperties.jaasControlFlag) &&
+        Objects.equals(this.jaasRealmName, orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExProperties.jaasRealmName) &&
+        Objects.equals(this.idpName, orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExProperties.idpName) &&
+        Objects.equals(this.syncHandlerName, orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExProperties.syncHandlerName);
   }
 
   @Override
@@ -144,11 +165,9 @@ public class OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExProper
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

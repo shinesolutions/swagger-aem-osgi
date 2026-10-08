@@ -1,0 +1,26 @@
+package models
+
+type ComAdobeGraniteAuthSsoImplSsoAuthenticationHandlerProperties struct {
+
+	Path ConfigNodePropertyString `json:"path,omitempty"`
+
+	ServiceRanking ConfigNodePropertyInteger `json:"service.ranking,omitempty"`
+
+	JaasControlFlag ConfigNodePropertyString `json:"jaas.controlFlag,omitempty"`
+
+	JaasRealmName ConfigNodePropertyString `json:"jaas.realmName,omitempty"`
+
+	JaasRanking ConfigNodePropertyInteger `json:"jaas.ranking,omitempty"`
+
+	Headers ConfigNodePropertyArray `json:"headers,omitempty"`
+
+	Cookies ConfigNodePropertyArray `json:"cookies,omitempty"`
+
+	Parameters ConfigNodePropertyArray `json:"parameters,omitempty"`
+
+	Usermap ConfigNodePropertyArray `json:"usermap,omitempty"`
+
+	Format ConfigNodePropertyString `json:"format,omitempty"`
+
+	TrustedCredentialsAttribute ConfigNodePropertyString `json:"trustedCredentialsAttribute,omitempty"`
+}

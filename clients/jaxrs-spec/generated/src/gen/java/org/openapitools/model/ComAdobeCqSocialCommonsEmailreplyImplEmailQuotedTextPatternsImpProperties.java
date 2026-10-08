@@ -1,25 +1,36 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpProperties   {
-  
-  private @Valid ConfigNodePropertyString patternTime = null;
-  private @Valid ConfigNodePropertyString patternNewline = null;
-  private @Valid ConfigNodePropertyString patternDayOfMonth = null;
-  private @Valid ConfigNodePropertyString patternMonth = null;
-  private @Valid ConfigNodePropertyString patternYear = null;
-  private @Valid ConfigNodePropertyString patternDate = null;
-  private @Valid ConfigNodePropertyString patternDateTime = null;
-  private @Valid ConfigNodePropertyString patternEmail = null;
+  private ConfigNodePropertyString patternTime;
+  private ConfigNodePropertyString patternNewline;
+  private ConfigNodePropertyString patternDayOfMonth;
+  private ConfigNodePropertyString patternMonth;
+  private ConfigNodePropertyString patternYear;
+  private ConfigNodePropertyString patternDate;
+  private ConfigNodePropertyString patternDateTime;
+  private ConfigNodePropertyString patternEmail;
+
+  public ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpProperties() {
+  }
 
   /**
    **/
@@ -31,9 +42,11 @@ public class ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("pattern.time")
-  public ConfigNodePropertyString getPatternTime() {
+  @Valid public ConfigNodePropertyString getPatternTime() {
     return patternTime;
   }
+
+  @JsonProperty("pattern.time")
   public void setPatternTime(ConfigNodePropertyString patternTime) {
     this.patternTime = patternTime;
   }
@@ -48,9 +61,11 @@ public class ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("pattern.newline")
-  public ConfigNodePropertyString getPatternNewline() {
+  @Valid public ConfigNodePropertyString getPatternNewline() {
     return patternNewline;
   }
+
+  @JsonProperty("pattern.newline")
   public void setPatternNewline(ConfigNodePropertyString patternNewline) {
     this.patternNewline = patternNewline;
   }
@@ -65,9 +80,11 @@ public class ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("pattern.dayOfMonth")
-  public ConfigNodePropertyString getPatternDayOfMonth() {
+  @Valid public ConfigNodePropertyString getPatternDayOfMonth() {
     return patternDayOfMonth;
   }
+
+  @JsonProperty("pattern.dayOfMonth")
   public void setPatternDayOfMonth(ConfigNodePropertyString patternDayOfMonth) {
     this.patternDayOfMonth = patternDayOfMonth;
   }
@@ -82,9 +99,11 @@ public class ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("pattern.month")
-  public ConfigNodePropertyString getPatternMonth() {
+  @Valid public ConfigNodePropertyString getPatternMonth() {
     return patternMonth;
   }
+
+  @JsonProperty("pattern.month")
   public void setPatternMonth(ConfigNodePropertyString patternMonth) {
     this.patternMonth = patternMonth;
   }
@@ -99,9 +118,11 @@ public class ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("pattern.year")
-  public ConfigNodePropertyString getPatternYear() {
+  @Valid public ConfigNodePropertyString getPatternYear() {
     return patternYear;
   }
+
+  @JsonProperty("pattern.year")
   public void setPatternYear(ConfigNodePropertyString patternYear) {
     this.patternYear = patternYear;
   }
@@ -116,9 +137,11 @@ public class ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("pattern.date")
-  public ConfigNodePropertyString getPatternDate() {
+  @Valid public ConfigNodePropertyString getPatternDate() {
     return patternDate;
   }
+
+  @JsonProperty("pattern.date")
   public void setPatternDate(ConfigNodePropertyString patternDate) {
     this.patternDate = patternDate;
   }
@@ -133,9 +156,11 @@ public class ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("pattern.dateTime")
-  public ConfigNodePropertyString getPatternDateTime() {
+  @Valid public ConfigNodePropertyString getPatternDateTime() {
     return patternDateTime;
   }
+
+  @JsonProperty("pattern.dateTime")
   public void setPatternDateTime(ConfigNodePropertyString patternDateTime) {
     this.patternDateTime = patternDateTime;
   }
@@ -150,16 +175,18 @@ public class ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("pattern.email")
-  public ConfigNodePropertyString getPatternEmail() {
+  @Valid public ConfigNodePropertyString getPatternEmail() {
     return patternEmail;
   }
+
+  @JsonProperty("pattern.email")
   public void setPatternEmail(ConfigNodePropertyString patternEmail) {
     this.patternEmail = patternEmail;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -167,14 +194,14 @@ public class ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpProp
       return false;
     }
     ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpProperties comAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpProperties = (ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpProperties) o;
-    return Objects.equals(patternTime, comAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpProperties.patternTime) &&
-        Objects.equals(patternNewline, comAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpProperties.patternNewline) &&
-        Objects.equals(patternDayOfMonth, comAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpProperties.patternDayOfMonth) &&
-        Objects.equals(patternMonth, comAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpProperties.patternMonth) &&
-        Objects.equals(patternYear, comAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpProperties.patternYear) &&
-        Objects.equals(patternDate, comAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpProperties.patternDate) &&
-        Objects.equals(patternDateTime, comAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpProperties.patternDateTime) &&
-        Objects.equals(patternEmail, comAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpProperties.patternEmail);
+    return Objects.equals(this.patternTime, comAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpProperties.patternTime) &&
+        Objects.equals(this.patternNewline, comAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpProperties.patternNewline) &&
+        Objects.equals(this.patternDayOfMonth, comAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpProperties.patternDayOfMonth) &&
+        Objects.equals(this.patternMonth, comAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpProperties.patternMonth) &&
+        Objects.equals(this.patternYear, comAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpProperties.patternYear) &&
+        Objects.equals(this.patternDate, comAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpProperties.patternDate) &&
+        Objects.equals(this.patternDateTime, comAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpProperties.patternDateTime) &&
+        Objects.equals(this.patternEmail, comAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpProperties.patternEmail);
   }
 
   @Override
@@ -203,11 +230,9 @@ public class ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpProp
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

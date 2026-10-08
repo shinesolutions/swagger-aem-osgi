@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqDamCoreImplHandlerJpegHandlerInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqDamCoreImplHandlerJpegHandlerInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComDayCqDamCoreImplHandlerJpegHandlerProperties = openapi_server.resourceTypes.ComDayCqDamCoreImplHandlerJpegHandlerProperties
+}
+resourceTypes {
+
+  ComDayCqDamCoreImplHandlerJpegHandlerInfo {
+    title = ComDayCqDamCoreImplHandlerJpegHandlerInfo
+    description = ComDayCqDamCoreImplHandlerJpegHandlerInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComDayCqDamCoreImplHandlerJpegHandlerProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqDamCoreImplHandlerJpegHandlerInfo {
+    title = ComDayCqDamCoreImplHandlerJpegHandlerInfo
+    description = ComDayCqDamCoreImplHandlerJpegHandlerInfo
+    implements = openapi_server.resourceTypes.ComDayCqDamCoreImplHandlerJpegHandlerInfo
+
+  }
+}

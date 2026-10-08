@@ -1,7 +1,9 @@
 
+
 # OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **resourceResolverSearchpath** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
@@ -25,6 +27,7 @@ Name | Type | Description | Notes
 **resourceResolverProviderhandlingParanoid** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
 **resourceResolverLogClosing** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
 **resourceResolverLogUnclosed** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
+
 
 
 

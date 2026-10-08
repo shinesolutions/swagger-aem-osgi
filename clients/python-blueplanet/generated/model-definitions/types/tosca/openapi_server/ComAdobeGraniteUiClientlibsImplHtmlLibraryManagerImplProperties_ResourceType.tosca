@@ -1,0 +1,134 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties {
+    title = ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties
+    description = ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties
+    derivedFrom = Root
+    properties {
+        htmllibmanager_timing {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        htmllibmanager_debug_init_js {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        htmllibmanager_minify {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        htmllibmanager_debug {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        htmllibmanager_gzip {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        htmllibmanager_max_data_uri_size {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        htmllibmanager_maxage {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        htmllibmanager_force_cq_url_info {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        htmllibmanager_defaultthemename {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        htmllibmanager_defaultuserthemename {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        htmllibmanager_clientmanager {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        htmllibmanager_path_list {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        htmllibmanager_excluded_path_list {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        htmllibmanager_processor_js {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        htmllibmanager_processor_css {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        htmllibmanager_longcache_patterns {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        htmllibmanager_longcache_format {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        htmllibmanager_use_file_system_output_cache {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        htmllibmanager_file_system_output_cache_location {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        htmllibmanager_disable_replacement {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties {
+    title = ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties
+    description = ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties
+    implements = openapi_server.resourceTypes.ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties
+
+  }
+}

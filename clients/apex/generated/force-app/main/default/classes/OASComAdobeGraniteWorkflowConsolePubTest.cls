@@ -72,7 +72,7 @@ private class OASComAdobeGraniteWorkflowConsolePubTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeGraniteWorkflowConsolePub comAdobeGraniteWorkflowConsolePublishWorkflowPublishEventServiceProperties = new OASComAdobeGraniteWorkflowConsolePub();
-        Map<String, String> propertyMappings = comAdobeGraniteWorkflowConsolePublishWorkflowPublishEventServiceProperties.getPropertyMappings();
-        System.assertEquals('graniteWorkflowWorkflowPublishEventServiceEnabled', propertyMappings.get('granite.workflow.WorkflowPublishEventService.enabled'));
+        Map<String, String> x-property-mappings = comAdobeGraniteWorkflowConsolePublishWorkflowPublishEventServiceProperties.getx-property-mappings();
+        System.assertEquals('graniteWorkflowWorkflowPublishEventServiceEnabled', x-property-mappings.get('granite.workflow.WorkflowPublishEventService.enabled'));
     }
 }

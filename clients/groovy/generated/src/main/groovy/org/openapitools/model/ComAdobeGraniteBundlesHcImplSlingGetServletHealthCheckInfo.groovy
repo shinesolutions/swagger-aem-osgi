@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeGraniteBundlesHcImplSlingGetServletHealthC
 
 @Canonical
 class ComAdobeGraniteBundlesHcImplSlingGetServletHealthCheckInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteBundlesHcImplSlingGetServletHealthCheckProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteBundlesHcImplSlingGetServletHealthCheckProperties properties
 }

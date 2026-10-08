@@ -2,10 +2,10 @@
 # ComDayCqContentsyncImplContentSyncManagerImplProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**contentsyncPeriodfallbackPeriodauthorizable** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**contentsyncPeriodfallbackPeriodupdateuser** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **contentsyncFallbackAuthorizable** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **contentsyncFallbackUpdateuser** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
 
 
 

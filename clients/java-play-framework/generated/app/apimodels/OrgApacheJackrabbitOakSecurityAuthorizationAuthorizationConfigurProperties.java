@@ -3,32 +3,43 @@ package apimodels;
 import apimodels.ConfigNodePropertyArray;
 import apimodels.ConfigNodePropertyDropDown;
 import apimodels.ConfigNodePropertyInteger;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurProperties   {
   @JsonProperty("permissionsJr2")
-  private ConfigNodePropertyDropDown permissionsJr2 = null;
+  @Valid
+
+  private ConfigNodePropertyDropDown permissionsJr2;
 
   @JsonProperty("importBehavior")
-  private ConfigNodePropertyDropDown importBehavior = null;
+  @Valid
+
+  private ConfigNodePropertyDropDown importBehavior;
 
   @JsonProperty("readPaths")
-  private ConfigNodePropertyArray readPaths = null;
+  @Valid
+
+  private ConfigNodePropertyArray readPaths;
 
   @JsonProperty("administrativePrincipals")
-  private ConfigNodePropertyArray administrativePrincipals = null;
+  @Valid
+
+  private ConfigNodePropertyArray administrativePrincipals;
 
   @JsonProperty("configurationRanking")
-  private ConfigNodePropertyInteger configurationRanking = null;
+  @Valid
+
+  private ConfigNodePropertyInteger configurationRanking;
 
   public OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurProperties permissionsJr2(ConfigNodePropertyDropDown permissionsJr2) {
     this.permissionsJr2 = permissionsJr2;
@@ -39,7 +50,6 @@ public class OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurPro
    * Get permissionsJr2
    * @return permissionsJr2
   **/
-  @Valid
   public ConfigNodePropertyDropDown getPermissionsJr2() {
     return permissionsJr2;
   }
@@ -57,7 +67,6 @@ public class OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurPro
    * Get importBehavior
    * @return importBehavior
   **/
-  @Valid
   public ConfigNodePropertyDropDown getImportBehavior() {
     return importBehavior;
   }
@@ -75,7 +84,6 @@ public class OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurPro
    * Get readPaths
    * @return readPaths
   **/
-  @Valid
   public ConfigNodePropertyArray getReadPaths() {
     return readPaths;
   }
@@ -93,7 +101,6 @@ public class OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurPro
    * Get administrativePrincipals
    * @return administrativePrincipals
   **/
-  @Valid
   public ConfigNodePropertyArray getAdministrativePrincipals() {
     return administrativePrincipals;
   }
@@ -111,7 +118,6 @@ public class OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurPro
    * Get configurationRanking
    * @return configurationRanking
   **/
-  @Valid
   public ConfigNodePropertyInteger getConfigurationRanking() {
     return configurationRanking;
   }
@@ -122,7 +128,7 @@ public class OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurPro
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -161,11 +167,8 @@ public class OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurPro
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

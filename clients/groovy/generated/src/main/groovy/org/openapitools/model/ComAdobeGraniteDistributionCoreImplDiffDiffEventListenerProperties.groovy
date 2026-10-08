@@ -7,10 +7,10 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeGraniteDistributionCoreImplDiffDiffEventListenerProperties {
-    ConfigNodePropertyString diffPath = null
-
-    ConfigNodePropertyString serviceName = null
-
-    ConfigNodePropertyString serviceUserTarget = null
-
+    
+    ConfigNodePropertyString diffPath
+    
+    ConfigNodePropertyString serviceName
+    
+    ConfigNodePropertyString serviceUserTarget
 }

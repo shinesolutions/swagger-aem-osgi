@@ -72,8 +72,8 @@ private class OASComAdobeCqAccountImplAccountManagTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeCqAccountImplAccountManag comAdobeCqAccountImplAccountManagementServletProperties = new OASComAdobeCqAccountImplAccountManag();
-        Map<String, String> propertyMappings = comAdobeCqAccountImplAccountManagementServletProperties.getPropertyMappings();
-        System.assertEquals('cqAccountmanagerConfigInformnewaccountMail', propertyMappings.get('cq.accountmanager.config.informnewaccount.mail'));
-        System.assertEquals('cqAccountmanagerConfigInformnewpwdMail', propertyMappings.get('cq.accountmanager.config.informnewpwd.mail'));
+        Map<String, String> x-property-mappings = comAdobeCqAccountImplAccountManagementServletProperties.getx-property-mappings();
+        System.assertEquals('cqAccountmanagerConfigInformnewaccountMail', x-property-mappings.get('cq.accountmanager.config.informnewaccount.mail'));
+        System.assertEquals('cqAccountmanagerConfigInformnewpwdMail', x-property-mappings.get('cq.accountmanager.config.informnewpwd.mail'));
     }
 }

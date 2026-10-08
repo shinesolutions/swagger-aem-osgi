@@ -1,0 +1,24 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "alloworigin" },
+      {"model": "alloworiginregexp" },
+      {"model": "allowedpaths" },
+      {"model": "exposedheaders" },
+      {"model": "maxage" },
+      {"model": "supportedheaders" },
+      {"model": "supportedmethods" },
+      {"model": "supportscredentials" },
+    ]
+  }]
+}

@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqAnalyticsTestandtargetImplDeleteAuthorActi
 
 @Canonical
 class ComDayCqAnalyticsTestandtargetImplDeleteAuthorActivityListenerInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqAnalyticsTestandtargetImplDeleteAuthorActivityListenerProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqAnalyticsTestandtargetImplDeleteAuthorActivityListenerProperties properties
 }

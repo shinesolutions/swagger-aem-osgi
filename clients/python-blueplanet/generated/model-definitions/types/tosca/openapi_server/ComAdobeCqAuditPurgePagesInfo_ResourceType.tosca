@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqAuditPurgePagesInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqAuditPurgePagesInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComAdobeCqAuditPurgePagesProperties = openapi_server.resourceTypes.ComAdobeCqAuditPurgePagesProperties
+}
+resourceTypes {
+
+  ComAdobeCqAuditPurgePagesInfo {
+    title = ComAdobeCqAuditPurgePagesInfo
+    description = ComAdobeCqAuditPurgePagesInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComAdobeCqAuditPurgePagesProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqAuditPurgePagesInfo {
+    title = ComAdobeCqAuditPurgePagesInfo
+    description = ComAdobeCqAuditPurgePagesInfo
+    implements = openapi_server.resourceTypes.ComAdobeCqAuditPurgePagesInfo
+
+  }
+}

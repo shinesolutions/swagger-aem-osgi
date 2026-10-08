@@ -8,8 +8,8 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class ComAdobeGraniteReplicationHcImplReplicationQueueHealthCheckProperties {
-    ConfigNodePropertyInteger numberOfRetriesAllowed = null
-
-    ConfigNodePropertyArray hcTags = null
-
+    
+    ConfigNodePropertyInteger numberOfRetriesAllowed
+    
+    ConfigNodePropertyArray hcTags
 }

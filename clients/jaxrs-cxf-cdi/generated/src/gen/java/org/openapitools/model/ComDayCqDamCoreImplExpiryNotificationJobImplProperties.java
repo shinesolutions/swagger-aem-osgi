@@ -2,35 +2,36 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class ComDayCqDamCoreImplExpiryNotificationJobImplProperties   {
   
-  private ConfigNodePropertyBoolean cqDamExpiryNotificationSchedulerIstimebased = null;
+  private ConfigNodePropertyBoolean cqDamExpiryNotificationSchedulerIstimebased;
 
-  private ConfigNodePropertyString cqDamExpiryNotificationSchedulerTimebasedRule = null;
+  private ConfigNodePropertyString cqDamExpiryNotificationSchedulerTimebasedRule;
 
-  private ConfigNodePropertyInteger cqDamExpiryNotificationSchedulerPeriodRule = null;
+  private ConfigNodePropertyInteger cqDamExpiryNotificationSchedulerPeriodRule;
 
-  private ConfigNodePropertyBoolean sendEmail = null;
+  private ConfigNodePropertyBoolean sendEmail;
 
-  private ConfigNodePropertyInteger assetExpiredLimit = null;
+  private ConfigNodePropertyInteger assetExpiredLimit;
 
-  private ConfigNodePropertyInteger priorNotificationSeconds = null;
+  private ConfigNodePropertyInteger priorNotificationSeconds;
 
-  private ConfigNodePropertyString cqDamExpiryNotificationUrlProtocol = null;
-
+  private ConfigNodePropertyString cqDamExpiryNotificationUrlProtocol;
 
   /**
    **/
@@ -160,7 +161,7 @@ public class ComDayCqDamCoreImplExpiryNotificationJobImplProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -168,13 +169,13 @@ public class ComDayCqDamCoreImplExpiryNotificationJobImplProperties   {
       return false;
     }
     ComDayCqDamCoreImplExpiryNotificationJobImplProperties comDayCqDamCoreImplExpiryNotificationJobImplProperties = (ComDayCqDamCoreImplExpiryNotificationJobImplProperties) o;
-    return Objects.equals(cqDamExpiryNotificationSchedulerIstimebased, comDayCqDamCoreImplExpiryNotificationJobImplProperties.cqDamExpiryNotificationSchedulerIstimebased) &&
-        Objects.equals(cqDamExpiryNotificationSchedulerTimebasedRule, comDayCqDamCoreImplExpiryNotificationJobImplProperties.cqDamExpiryNotificationSchedulerTimebasedRule) &&
-        Objects.equals(cqDamExpiryNotificationSchedulerPeriodRule, comDayCqDamCoreImplExpiryNotificationJobImplProperties.cqDamExpiryNotificationSchedulerPeriodRule) &&
-        Objects.equals(sendEmail, comDayCqDamCoreImplExpiryNotificationJobImplProperties.sendEmail) &&
-        Objects.equals(assetExpiredLimit, comDayCqDamCoreImplExpiryNotificationJobImplProperties.assetExpiredLimit) &&
-        Objects.equals(priorNotificationSeconds, comDayCqDamCoreImplExpiryNotificationJobImplProperties.priorNotificationSeconds) &&
-        Objects.equals(cqDamExpiryNotificationUrlProtocol, comDayCqDamCoreImplExpiryNotificationJobImplProperties.cqDamExpiryNotificationUrlProtocol);
+    return Objects.equals(this.cqDamExpiryNotificationSchedulerIstimebased, comDayCqDamCoreImplExpiryNotificationJobImplProperties.cqDamExpiryNotificationSchedulerIstimebased) &&
+        Objects.equals(this.cqDamExpiryNotificationSchedulerTimebasedRule, comDayCqDamCoreImplExpiryNotificationJobImplProperties.cqDamExpiryNotificationSchedulerTimebasedRule) &&
+        Objects.equals(this.cqDamExpiryNotificationSchedulerPeriodRule, comDayCqDamCoreImplExpiryNotificationJobImplProperties.cqDamExpiryNotificationSchedulerPeriodRule) &&
+        Objects.equals(this.sendEmail, comDayCqDamCoreImplExpiryNotificationJobImplProperties.sendEmail) &&
+        Objects.equals(this.assetExpiredLimit, comDayCqDamCoreImplExpiryNotificationJobImplProperties.assetExpiredLimit) &&
+        Objects.equals(this.priorNotificationSeconds, comDayCqDamCoreImplExpiryNotificationJobImplProperties.priorNotificationSeconds) &&
+        Objects.equals(this.cqDamExpiryNotificationUrlProtocol, comDayCqDamCoreImplExpiryNotificationJobImplProperties.cqDamExpiryNotificationUrlProtocol);
   }
 
   @Override
@@ -202,11 +203,8 @@ public class ComDayCqDamCoreImplExpiryNotificationJobImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

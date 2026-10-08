@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqSocialCommonsCommentsEndpointsImplCommen
 
 @Canonical
 class ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventProperties properties
 }

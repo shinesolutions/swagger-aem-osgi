@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeFormsCommonServiceImplDefaultDataProviderP
 
 @Canonical
 class ComAdobeFormsCommonServiceImplDefaultDataProviderInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeFormsCommonServiceImplDefaultDataProviderProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeFormsCommonServiceImplDefaultDataProviderProperties properties
 }

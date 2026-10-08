@@ -1,0 +1,52 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqDamInddProcessINDDMediaExtractProcessProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqDamInddProcessINDDMediaExtractProcessProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComDayCqDamInddProcessINDDMediaExtractProcessProperties {
+    title = ComDayCqDamInddProcessINDDMediaExtractProcessProperties
+    description = ComDayCqDamInddProcessINDDMediaExtractProcessProperties
+    derivedFrom = Root
+    properties {
+        process_label {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        cq_dam_indd_pages_regex {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        ids_job_decoupled {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        ids_job_workflow_model {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqDamInddProcessINDDMediaExtractProcessProperties {
+    title = ComDayCqDamInddProcessINDDMediaExtractProcessProperties
+    description = ComDayCqDamInddProcessINDDMediaExtractProcessProperties
+    implements = openapi_server.resourceTypes.ComDayCqDamInddProcessINDDMediaExtractProcessProperties
+
+  }
+}

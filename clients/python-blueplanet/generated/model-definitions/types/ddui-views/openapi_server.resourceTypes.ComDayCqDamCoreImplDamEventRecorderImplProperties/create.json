@@ -1,0 +1,21 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "event_filter" },
+      {"model": "event_queue_length" },
+      {"model": "eventrecorder_enabled" },
+      {"model": "eventrecorder_blacklist" },
+      {"model": "eventrecorder_eventtypes" },
+    ]
+  }]
+}

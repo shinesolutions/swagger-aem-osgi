@@ -1,0 +1,15 @@
+{
+  "namespace": "model",
+  "type": "record",
+  "doc": "",
+  "name": "ComAdobeCqDamWebdavImplIoSpecialFilesHandlerProperties",
+  "fields": [
+    {
+      "name": "com.day.cq.dam.core.impl.io.SpecialFilesHandler.filepatters",
+      "type": ["null", "model.ConfigNodePropertyArray"],
+      "doc": "",
+      "default": null
+    }
+  ]
+
+}

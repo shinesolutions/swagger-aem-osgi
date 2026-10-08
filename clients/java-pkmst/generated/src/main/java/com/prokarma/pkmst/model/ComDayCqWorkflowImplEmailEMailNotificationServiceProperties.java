@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyBoolean;
 import com.prokarma.pkmst.model.ConfigNodePropertyString;
 import io.swagger.annotations.ApiModel;
@@ -16,36 +17,35 @@ import io.swagger.annotations.ApiModelProperty;
  * ComDayCqWorkflowImplEmailEMailNotificationServiceProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqWorkflowImplEmailEMailNotificationServiceProperties   {
   @JsonProperty("from.address")
-  private ConfigNodePropertyString fromAddress = null;
+  private ConfigNodePropertyString fromAddress;
 
   @JsonProperty("host.prefix")
-  private ConfigNodePropertyString hostPrefix = null;
+  private ConfigNodePropertyString hostPrefix;
 
   @JsonProperty("notify.onabort")
-  private ConfigNodePropertyBoolean notifyOnabort = null;
+  private ConfigNodePropertyBoolean notifyOnabort;
 
   @JsonProperty("notify.oncomplete")
-  private ConfigNodePropertyBoolean notifyOncomplete = null;
+  private ConfigNodePropertyBoolean notifyOncomplete;
 
   @JsonProperty("notify.oncontainercomplete")
-  private ConfigNodePropertyBoolean notifyOncontainercomplete = null;
+  private ConfigNodePropertyBoolean notifyOncontainercomplete;
 
   @JsonProperty("notify.useronly")
-  private ConfigNodePropertyBoolean notifyUseronly = null;
+  private ConfigNodePropertyBoolean notifyUseronly;
 
   public ComDayCqWorkflowImplEmailEMailNotificationServiceProperties fromAddress(ConfigNodePropertyString fromAddress) {
     this.fromAddress = fromAddress;
     return this;
   }
 
-   /**
+  /**
    * Get fromAddress
    * @return fromAddress
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getFromAddress() {
     return fromAddress;
@@ -60,10 +60,10 @@ public class ComDayCqWorkflowImplEmailEMailNotificationServiceProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get hostPrefix
    * @return hostPrefix
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getHostPrefix() {
     return hostPrefix;
@@ -78,10 +78,10 @@ public class ComDayCqWorkflowImplEmailEMailNotificationServiceProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get notifyOnabort
    * @return notifyOnabort
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getNotifyOnabort() {
     return notifyOnabort;
@@ -96,10 +96,10 @@ public class ComDayCqWorkflowImplEmailEMailNotificationServiceProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get notifyOncomplete
    * @return notifyOncomplete
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getNotifyOncomplete() {
     return notifyOncomplete;
@@ -114,10 +114,10 @@ public class ComDayCqWorkflowImplEmailEMailNotificationServiceProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get notifyOncontainercomplete
    * @return notifyOncontainercomplete
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getNotifyOncontainercomplete() {
     return notifyOncontainercomplete;
@@ -132,10 +132,10 @@ public class ComDayCqWorkflowImplEmailEMailNotificationServiceProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get notifyUseronly
    * @return notifyUseronly
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getNotifyUseronly() {
     return notifyUseronly;
@@ -147,7 +147,7 @@ public class ComDayCqWorkflowImplEmailEMailNotificationServiceProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -187,11 +187,8 @@ public class ComDayCqWorkflowImplEmailEMailNotificationServiceProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

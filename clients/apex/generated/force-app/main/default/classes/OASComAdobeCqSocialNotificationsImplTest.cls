@@ -72,8 +72,8 @@ private class OASComAdobeCqSocialNotificationsImplTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeCqSocialNotificationsImpl comAdobeCqSocialNotificationsImplNotificationsRouterProperties = new OASComAdobeCqSocialNotificationsImpl();
-        Map<String, String> propertyMappings = comAdobeCqSocialNotificationsImplNotificationsRouterProperties.getPropertyMappings();
-        System.assertEquals('eventTopics', propertyMappings.get('event.topics'));
-        System.assertEquals('eventFilter', propertyMappings.get('event.filter'));
+        Map<String, String> x-property-mappings = comAdobeCqSocialNotificationsImplNotificationsRouterProperties.getx-property-mappings();
+        System.assertEquals('eventTopics', x-property-mappings.get('event.topics'));
+        System.assertEquals('eventFilter', x-property-mappings.get('event.filter'));
     }
 }

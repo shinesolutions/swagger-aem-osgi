@@ -1,87 +1,98 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties   {
-  @JsonProperty("resource.resolver.searchpath")
-  private ConfigNodePropertyArray resourceResolverSearchpath = null;
+@JsonTypeName("orgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties {
 
-  @JsonProperty("resource.resolver.manglenamespaces")
-  private ConfigNodePropertyBoolean resourceResolverManglenamespaces = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray resourceResolverSearchpath;
 
-  @JsonProperty("resource.resolver.allowDirect")
-  private ConfigNodePropertyBoolean resourceResolverAllowDirect = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean resourceResolverManglenamespaces;
 
-  @JsonProperty("resource.resolver.required.providers")
-  private ConfigNodePropertyArray resourceResolverRequiredProviders = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean resourceResolverAllowDirect;
 
-  @JsonProperty("resource.resolver.required.providernames")
-  private ConfigNodePropertyArray resourceResolverRequiredProvidernames = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray resourceResolverRequiredProviders;
 
-  @JsonProperty("resource.resolver.virtual")
-  private ConfigNodePropertyArray resourceResolverVirtual = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray resourceResolverRequiredProvidernames;
 
-  @JsonProperty("resource.resolver.mapping")
-  private ConfigNodePropertyArray resourceResolverMapping = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray resourceResolverVirtual;
 
-  @JsonProperty("resource.resolver.map.location")
-  private ConfigNodePropertyString resourceResolverMapLocation = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray resourceResolverMapping;
 
-  @JsonProperty("resource.resolver.map.observation")
-  private ConfigNodePropertyArray resourceResolverMapObservation = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString resourceResolverMapLocation;
 
-  @JsonProperty("resource.resolver.default.vanity.redirect.status")
-  private ConfigNodePropertyInteger resourceResolverDefaultVanityRedirectStatus = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray resourceResolverMapObservation;
 
-  @JsonProperty("resource.resolver.enable.vanitypath")
-  private ConfigNodePropertyBoolean resourceResolverEnableVanitypath = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger resourceResolverDefaultVanityRedirectStatus;
 
-  @JsonProperty("resource.resolver.vanitypath.maxEntries")
-  private ConfigNodePropertyInteger resourceResolverVanitypathMaxEntries = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean resourceResolverEnableVanitypath;
 
-  @JsonProperty("resource.resolver.vanitypath.maxEntries.startup")
-  private ConfigNodePropertyBoolean resourceResolverVanitypathMaxEntriesStartup = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger resourceResolverVanitypathMaxEntries;
 
-  @JsonProperty("resource.resolver.vanitypath.bloomfilter.maxBytes")
-  private ConfigNodePropertyInteger resourceResolverVanitypathBloomfilterMaxBytes = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean resourceResolverVanitypathMaxEntriesStartup;
 
-  @JsonProperty("resource.resolver.optimize.alias.resolution")
-  private ConfigNodePropertyBoolean resourceResolverOptimizeAliasResolution = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger resourceResolverVanitypathBloomfilterMaxBytes;
 
-  @JsonProperty("resource.resolver.vanitypath.whitelist")
-  private ConfigNodePropertyArray resourceResolverVanitypathWhitelist = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean resourceResolverOptimizeAliasResolution;
 
-  @JsonProperty("resource.resolver.vanitypath.blacklist")
-  private ConfigNodePropertyArray resourceResolverVanitypathBlacklist = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray resourceResolverVanitypathWhitelist;
 
-  @JsonProperty("resource.resolver.vanity.precedence")
-  private ConfigNodePropertyBoolean resourceResolverVanityPrecedence = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray resourceResolverVanitypathBlacklist;
 
-  @JsonProperty("resource.resolver.providerhandling.paranoid")
-  private ConfigNodePropertyBoolean resourceResolverProviderhandlingParanoid = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean resourceResolverVanityPrecedence;
 
-  @JsonProperty("resource.resolver.log.closing")
-  private ConfigNodePropertyBoolean resourceResolverLogClosing = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean resourceResolverProviderhandlingParanoid;
 
-  @JsonProperty("resource.resolver.log.unclosed")
-  private ConfigNodePropertyBoolean resourceResolverLogUnclosed = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean resourceResolverLogClosing;
 
-  public OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties resourceResolverSearchpath(ConfigNodePropertyArray resourceResolverSearchpath) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean resourceResolverLogUnclosed;
+
+  public OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties resourceResolverSearchpath(@Nullable ConfigNodePropertyArray resourceResolverSearchpath) {
     this.resourceResolverSearchpath = resourceResolverSearchpath;
     return this;
   }
@@ -89,20 +100,20 @@ public class OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProp
   /**
    * Get resourceResolverSearchpath
    * @return resourceResolverSearchpath
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getResourceResolverSearchpath() {
+   */
+  @Valid 
+  @Schema(name = "resource.resolver.searchpath", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("resource.resolver.searchpath")
+  public @Nullable ConfigNodePropertyArray getResourceResolverSearchpath() {
     return resourceResolverSearchpath;
   }
 
-  public void setResourceResolverSearchpath(ConfigNodePropertyArray resourceResolverSearchpath) {
+  @JsonProperty("resource.resolver.searchpath")
+  public void setResourceResolverSearchpath(@Nullable ConfigNodePropertyArray resourceResolverSearchpath) {
     this.resourceResolverSearchpath = resourceResolverSearchpath;
   }
 
-  public OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties resourceResolverManglenamespaces(ConfigNodePropertyBoolean resourceResolverManglenamespaces) {
+  public OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties resourceResolverManglenamespaces(@Nullable ConfigNodePropertyBoolean resourceResolverManglenamespaces) {
     this.resourceResolverManglenamespaces = resourceResolverManglenamespaces;
     return this;
   }
@@ -110,20 +121,20 @@ public class OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProp
   /**
    * Get resourceResolverManglenamespaces
    * @return resourceResolverManglenamespaces
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getResourceResolverManglenamespaces() {
+   */
+  @Valid 
+  @Schema(name = "resource.resolver.manglenamespaces", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("resource.resolver.manglenamespaces")
+  public @Nullable ConfigNodePropertyBoolean getResourceResolverManglenamespaces() {
     return resourceResolverManglenamespaces;
   }
 
-  public void setResourceResolverManglenamespaces(ConfigNodePropertyBoolean resourceResolverManglenamespaces) {
+  @JsonProperty("resource.resolver.manglenamespaces")
+  public void setResourceResolverManglenamespaces(@Nullable ConfigNodePropertyBoolean resourceResolverManglenamespaces) {
     this.resourceResolverManglenamespaces = resourceResolverManglenamespaces;
   }
 
-  public OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties resourceResolverAllowDirect(ConfigNodePropertyBoolean resourceResolverAllowDirect) {
+  public OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties resourceResolverAllowDirect(@Nullable ConfigNodePropertyBoolean resourceResolverAllowDirect) {
     this.resourceResolverAllowDirect = resourceResolverAllowDirect;
     return this;
   }
@@ -131,20 +142,20 @@ public class OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProp
   /**
    * Get resourceResolverAllowDirect
    * @return resourceResolverAllowDirect
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getResourceResolverAllowDirect() {
+   */
+  @Valid 
+  @Schema(name = "resource.resolver.allowDirect", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("resource.resolver.allowDirect")
+  public @Nullable ConfigNodePropertyBoolean getResourceResolverAllowDirect() {
     return resourceResolverAllowDirect;
   }
 
-  public void setResourceResolverAllowDirect(ConfigNodePropertyBoolean resourceResolverAllowDirect) {
+  @JsonProperty("resource.resolver.allowDirect")
+  public void setResourceResolverAllowDirect(@Nullable ConfigNodePropertyBoolean resourceResolverAllowDirect) {
     this.resourceResolverAllowDirect = resourceResolverAllowDirect;
   }
 
-  public OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties resourceResolverRequiredProviders(ConfigNodePropertyArray resourceResolverRequiredProviders) {
+  public OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties resourceResolverRequiredProviders(@Nullable ConfigNodePropertyArray resourceResolverRequiredProviders) {
     this.resourceResolverRequiredProviders = resourceResolverRequiredProviders;
     return this;
   }
@@ -152,20 +163,20 @@ public class OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProp
   /**
    * Get resourceResolverRequiredProviders
    * @return resourceResolverRequiredProviders
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getResourceResolverRequiredProviders() {
+   */
+  @Valid 
+  @Schema(name = "resource.resolver.required.providers", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("resource.resolver.required.providers")
+  public @Nullable ConfigNodePropertyArray getResourceResolverRequiredProviders() {
     return resourceResolverRequiredProviders;
   }
 
-  public void setResourceResolverRequiredProviders(ConfigNodePropertyArray resourceResolverRequiredProviders) {
+  @JsonProperty("resource.resolver.required.providers")
+  public void setResourceResolverRequiredProviders(@Nullable ConfigNodePropertyArray resourceResolverRequiredProviders) {
     this.resourceResolverRequiredProviders = resourceResolverRequiredProviders;
   }
 
-  public OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties resourceResolverRequiredProvidernames(ConfigNodePropertyArray resourceResolverRequiredProvidernames) {
+  public OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties resourceResolverRequiredProvidernames(@Nullable ConfigNodePropertyArray resourceResolverRequiredProvidernames) {
     this.resourceResolverRequiredProvidernames = resourceResolverRequiredProvidernames;
     return this;
   }
@@ -173,20 +184,20 @@ public class OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProp
   /**
    * Get resourceResolverRequiredProvidernames
    * @return resourceResolverRequiredProvidernames
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getResourceResolverRequiredProvidernames() {
+   */
+  @Valid 
+  @Schema(name = "resource.resolver.required.providernames", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("resource.resolver.required.providernames")
+  public @Nullable ConfigNodePropertyArray getResourceResolverRequiredProvidernames() {
     return resourceResolverRequiredProvidernames;
   }
 
-  public void setResourceResolverRequiredProvidernames(ConfigNodePropertyArray resourceResolverRequiredProvidernames) {
+  @JsonProperty("resource.resolver.required.providernames")
+  public void setResourceResolverRequiredProvidernames(@Nullable ConfigNodePropertyArray resourceResolverRequiredProvidernames) {
     this.resourceResolverRequiredProvidernames = resourceResolverRequiredProvidernames;
   }
 
-  public OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties resourceResolverVirtual(ConfigNodePropertyArray resourceResolverVirtual) {
+  public OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties resourceResolverVirtual(@Nullable ConfigNodePropertyArray resourceResolverVirtual) {
     this.resourceResolverVirtual = resourceResolverVirtual;
     return this;
   }
@@ -194,20 +205,20 @@ public class OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProp
   /**
    * Get resourceResolverVirtual
    * @return resourceResolverVirtual
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getResourceResolverVirtual() {
+   */
+  @Valid 
+  @Schema(name = "resource.resolver.virtual", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("resource.resolver.virtual")
+  public @Nullable ConfigNodePropertyArray getResourceResolverVirtual() {
     return resourceResolverVirtual;
   }
 
-  public void setResourceResolverVirtual(ConfigNodePropertyArray resourceResolverVirtual) {
+  @JsonProperty("resource.resolver.virtual")
+  public void setResourceResolverVirtual(@Nullable ConfigNodePropertyArray resourceResolverVirtual) {
     this.resourceResolverVirtual = resourceResolverVirtual;
   }
 
-  public OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties resourceResolverMapping(ConfigNodePropertyArray resourceResolverMapping) {
+  public OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties resourceResolverMapping(@Nullable ConfigNodePropertyArray resourceResolverMapping) {
     this.resourceResolverMapping = resourceResolverMapping;
     return this;
   }
@@ -215,20 +226,20 @@ public class OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProp
   /**
    * Get resourceResolverMapping
    * @return resourceResolverMapping
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getResourceResolverMapping() {
+   */
+  @Valid 
+  @Schema(name = "resource.resolver.mapping", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("resource.resolver.mapping")
+  public @Nullable ConfigNodePropertyArray getResourceResolverMapping() {
     return resourceResolverMapping;
   }
 
-  public void setResourceResolverMapping(ConfigNodePropertyArray resourceResolverMapping) {
+  @JsonProperty("resource.resolver.mapping")
+  public void setResourceResolverMapping(@Nullable ConfigNodePropertyArray resourceResolverMapping) {
     this.resourceResolverMapping = resourceResolverMapping;
   }
 
-  public OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties resourceResolverMapLocation(ConfigNodePropertyString resourceResolverMapLocation) {
+  public OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties resourceResolverMapLocation(@Nullable ConfigNodePropertyString resourceResolverMapLocation) {
     this.resourceResolverMapLocation = resourceResolverMapLocation;
     return this;
   }
@@ -236,20 +247,20 @@ public class OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProp
   /**
    * Get resourceResolverMapLocation
    * @return resourceResolverMapLocation
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getResourceResolverMapLocation() {
+   */
+  @Valid 
+  @Schema(name = "resource.resolver.map.location", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("resource.resolver.map.location")
+  public @Nullable ConfigNodePropertyString getResourceResolverMapLocation() {
     return resourceResolverMapLocation;
   }
 
-  public void setResourceResolverMapLocation(ConfigNodePropertyString resourceResolverMapLocation) {
+  @JsonProperty("resource.resolver.map.location")
+  public void setResourceResolverMapLocation(@Nullable ConfigNodePropertyString resourceResolverMapLocation) {
     this.resourceResolverMapLocation = resourceResolverMapLocation;
   }
 
-  public OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties resourceResolverMapObservation(ConfigNodePropertyArray resourceResolverMapObservation) {
+  public OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties resourceResolverMapObservation(@Nullable ConfigNodePropertyArray resourceResolverMapObservation) {
     this.resourceResolverMapObservation = resourceResolverMapObservation;
     return this;
   }
@@ -257,20 +268,20 @@ public class OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProp
   /**
    * Get resourceResolverMapObservation
    * @return resourceResolverMapObservation
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getResourceResolverMapObservation() {
+   */
+  @Valid 
+  @Schema(name = "resource.resolver.map.observation", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("resource.resolver.map.observation")
+  public @Nullable ConfigNodePropertyArray getResourceResolverMapObservation() {
     return resourceResolverMapObservation;
   }
 
-  public void setResourceResolverMapObservation(ConfigNodePropertyArray resourceResolverMapObservation) {
+  @JsonProperty("resource.resolver.map.observation")
+  public void setResourceResolverMapObservation(@Nullable ConfigNodePropertyArray resourceResolverMapObservation) {
     this.resourceResolverMapObservation = resourceResolverMapObservation;
   }
 
-  public OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties resourceResolverDefaultVanityRedirectStatus(ConfigNodePropertyInteger resourceResolverDefaultVanityRedirectStatus) {
+  public OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties resourceResolverDefaultVanityRedirectStatus(@Nullable ConfigNodePropertyInteger resourceResolverDefaultVanityRedirectStatus) {
     this.resourceResolverDefaultVanityRedirectStatus = resourceResolverDefaultVanityRedirectStatus;
     return this;
   }
@@ -278,20 +289,20 @@ public class OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProp
   /**
    * Get resourceResolverDefaultVanityRedirectStatus
    * @return resourceResolverDefaultVanityRedirectStatus
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getResourceResolverDefaultVanityRedirectStatus() {
+   */
+  @Valid 
+  @Schema(name = "resource.resolver.default.vanity.redirect.status", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("resource.resolver.default.vanity.redirect.status")
+  public @Nullable ConfigNodePropertyInteger getResourceResolverDefaultVanityRedirectStatus() {
     return resourceResolverDefaultVanityRedirectStatus;
   }
 
-  public void setResourceResolverDefaultVanityRedirectStatus(ConfigNodePropertyInteger resourceResolverDefaultVanityRedirectStatus) {
+  @JsonProperty("resource.resolver.default.vanity.redirect.status")
+  public void setResourceResolverDefaultVanityRedirectStatus(@Nullable ConfigNodePropertyInteger resourceResolverDefaultVanityRedirectStatus) {
     this.resourceResolverDefaultVanityRedirectStatus = resourceResolverDefaultVanityRedirectStatus;
   }
 
-  public OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties resourceResolverEnableVanitypath(ConfigNodePropertyBoolean resourceResolverEnableVanitypath) {
+  public OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties resourceResolverEnableVanitypath(@Nullable ConfigNodePropertyBoolean resourceResolverEnableVanitypath) {
     this.resourceResolverEnableVanitypath = resourceResolverEnableVanitypath;
     return this;
   }
@@ -299,20 +310,20 @@ public class OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProp
   /**
    * Get resourceResolverEnableVanitypath
    * @return resourceResolverEnableVanitypath
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getResourceResolverEnableVanitypath() {
+   */
+  @Valid 
+  @Schema(name = "resource.resolver.enable.vanitypath", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("resource.resolver.enable.vanitypath")
+  public @Nullable ConfigNodePropertyBoolean getResourceResolverEnableVanitypath() {
     return resourceResolverEnableVanitypath;
   }
 
-  public void setResourceResolverEnableVanitypath(ConfigNodePropertyBoolean resourceResolverEnableVanitypath) {
+  @JsonProperty("resource.resolver.enable.vanitypath")
+  public void setResourceResolverEnableVanitypath(@Nullable ConfigNodePropertyBoolean resourceResolverEnableVanitypath) {
     this.resourceResolverEnableVanitypath = resourceResolverEnableVanitypath;
   }
 
-  public OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties resourceResolverVanitypathMaxEntries(ConfigNodePropertyInteger resourceResolverVanitypathMaxEntries) {
+  public OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties resourceResolverVanitypathMaxEntries(@Nullable ConfigNodePropertyInteger resourceResolverVanitypathMaxEntries) {
     this.resourceResolverVanitypathMaxEntries = resourceResolverVanitypathMaxEntries;
     return this;
   }
@@ -320,20 +331,20 @@ public class OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProp
   /**
    * Get resourceResolverVanitypathMaxEntries
    * @return resourceResolverVanitypathMaxEntries
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getResourceResolverVanitypathMaxEntries() {
+   */
+  @Valid 
+  @Schema(name = "resource.resolver.vanitypath.maxEntries", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("resource.resolver.vanitypath.maxEntries")
+  public @Nullable ConfigNodePropertyInteger getResourceResolverVanitypathMaxEntries() {
     return resourceResolverVanitypathMaxEntries;
   }
 
-  public void setResourceResolverVanitypathMaxEntries(ConfigNodePropertyInteger resourceResolverVanitypathMaxEntries) {
+  @JsonProperty("resource.resolver.vanitypath.maxEntries")
+  public void setResourceResolverVanitypathMaxEntries(@Nullable ConfigNodePropertyInteger resourceResolverVanitypathMaxEntries) {
     this.resourceResolverVanitypathMaxEntries = resourceResolverVanitypathMaxEntries;
   }
 
-  public OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties resourceResolverVanitypathMaxEntriesStartup(ConfigNodePropertyBoolean resourceResolverVanitypathMaxEntriesStartup) {
+  public OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties resourceResolverVanitypathMaxEntriesStartup(@Nullable ConfigNodePropertyBoolean resourceResolverVanitypathMaxEntriesStartup) {
     this.resourceResolverVanitypathMaxEntriesStartup = resourceResolverVanitypathMaxEntriesStartup;
     return this;
   }
@@ -341,20 +352,20 @@ public class OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProp
   /**
    * Get resourceResolverVanitypathMaxEntriesStartup
    * @return resourceResolverVanitypathMaxEntriesStartup
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getResourceResolverVanitypathMaxEntriesStartup() {
+   */
+  @Valid 
+  @Schema(name = "resource.resolver.vanitypath.maxEntries.startup", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("resource.resolver.vanitypath.maxEntries.startup")
+  public @Nullable ConfigNodePropertyBoolean getResourceResolverVanitypathMaxEntriesStartup() {
     return resourceResolverVanitypathMaxEntriesStartup;
   }
 
-  public void setResourceResolverVanitypathMaxEntriesStartup(ConfigNodePropertyBoolean resourceResolverVanitypathMaxEntriesStartup) {
+  @JsonProperty("resource.resolver.vanitypath.maxEntries.startup")
+  public void setResourceResolverVanitypathMaxEntriesStartup(@Nullable ConfigNodePropertyBoolean resourceResolverVanitypathMaxEntriesStartup) {
     this.resourceResolverVanitypathMaxEntriesStartup = resourceResolverVanitypathMaxEntriesStartup;
   }
 
-  public OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties resourceResolverVanitypathBloomfilterMaxBytes(ConfigNodePropertyInteger resourceResolverVanitypathBloomfilterMaxBytes) {
+  public OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties resourceResolverVanitypathBloomfilterMaxBytes(@Nullable ConfigNodePropertyInteger resourceResolverVanitypathBloomfilterMaxBytes) {
     this.resourceResolverVanitypathBloomfilterMaxBytes = resourceResolverVanitypathBloomfilterMaxBytes;
     return this;
   }
@@ -362,20 +373,20 @@ public class OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProp
   /**
    * Get resourceResolverVanitypathBloomfilterMaxBytes
    * @return resourceResolverVanitypathBloomfilterMaxBytes
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getResourceResolverVanitypathBloomfilterMaxBytes() {
+   */
+  @Valid 
+  @Schema(name = "resource.resolver.vanitypath.bloomfilter.maxBytes", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("resource.resolver.vanitypath.bloomfilter.maxBytes")
+  public @Nullable ConfigNodePropertyInteger getResourceResolverVanitypathBloomfilterMaxBytes() {
     return resourceResolverVanitypathBloomfilterMaxBytes;
   }
 
-  public void setResourceResolverVanitypathBloomfilterMaxBytes(ConfigNodePropertyInteger resourceResolverVanitypathBloomfilterMaxBytes) {
+  @JsonProperty("resource.resolver.vanitypath.bloomfilter.maxBytes")
+  public void setResourceResolverVanitypathBloomfilterMaxBytes(@Nullable ConfigNodePropertyInteger resourceResolverVanitypathBloomfilterMaxBytes) {
     this.resourceResolverVanitypathBloomfilterMaxBytes = resourceResolverVanitypathBloomfilterMaxBytes;
   }
 
-  public OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties resourceResolverOptimizeAliasResolution(ConfigNodePropertyBoolean resourceResolverOptimizeAliasResolution) {
+  public OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties resourceResolverOptimizeAliasResolution(@Nullable ConfigNodePropertyBoolean resourceResolverOptimizeAliasResolution) {
     this.resourceResolverOptimizeAliasResolution = resourceResolverOptimizeAliasResolution;
     return this;
   }
@@ -383,20 +394,20 @@ public class OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProp
   /**
    * Get resourceResolverOptimizeAliasResolution
    * @return resourceResolverOptimizeAliasResolution
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getResourceResolverOptimizeAliasResolution() {
+   */
+  @Valid 
+  @Schema(name = "resource.resolver.optimize.alias.resolution", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("resource.resolver.optimize.alias.resolution")
+  public @Nullable ConfigNodePropertyBoolean getResourceResolverOptimizeAliasResolution() {
     return resourceResolverOptimizeAliasResolution;
   }
 
-  public void setResourceResolverOptimizeAliasResolution(ConfigNodePropertyBoolean resourceResolverOptimizeAliasResolution) {
+  @JsonProperty("resource.resolver.optimize.alias.resolution")
+  public void setResourceResolverOptimizeAliasResolution(@Nullable ConfigNodePropertyBoolean resourceResolverOptimizeAliasResolution) {
     this.resourceResolverOptimizeAliasResolution = resourceResolverOptimizeAliasResolution;
   }
 
-  public OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties resourceResolverVanitypathWhitelist(ConfigNodePropertyArray resourceResolverVanitypathWhitelist) {
+  public OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties resourceResolverVanitypathWhitelist(@Nullable ConfigNodePropertyArray resourceResolverVanitypathWhitelist) {
     this.resourceResolverVanitypathWhitelist = resourceResolverVanitypathWhitelist;
     return this;
   }
@@ -404,20 +415,20 @@ public class OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProp
   /**
    * Get resourceResolverVanitypathWhitelist
    * @return resourceResolverVanitypathWhitelist
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getResourceResolverVanitypathWhitelist() {
+   */
+  @Valid 
+  @Schema(name = "resource.resolver.vanitypath.whitelist", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("resource.resolver.vanitypath.whitelist")
+  public @Nullable ConfigNodePropertyArray getResourceResolverVanitypathWhitelist() {
     return resourceResolverVanitypathWhitelist;
   }
 
-  public void setResourceResolverVanitypathWhitelist(ConfigNodePropertyArray resourceResolverVanitypathWhitelist) {
+  @JsonProperty("resource.resolver.vanitypath.whitelist")
+  public void setResourceResolverVanitypathWhitelist(@Nullable ConfigNodePropertyArray resourceResolverVanitypathWhitelist) {
     this.resourceResolverVanitypathWhitelist = resourceResolverVanitypathWhitelist;
   }
 
-  public OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties resourceResolverVanitypathBlacklist(ConfigNodePropertyArray resourceResolverVanitypathBlacklist) {
+  public OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties resourceResolverVanitypathBlacklist(@Nullable ConfigNodePropertyArray resourceResolverVanitypathBlacklist) {
     this.resourceResolverVanitypathBlacklist = resourceResolverVanitypathBlacklist;
     return this;
   }
@@ -425,20 +436,20 @@ public class OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProp
   /**
    * Get resourceResolverVanitypathBlacklist
    * @return resourceResolverVanitypathBlacklist
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getResourceResolverVanitypathBlacklist() {
+   */
+  @Valid 
+  @Schema(name = "resource.resolver.vanitypath.blacklist", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("resource.resolver.vanitypath.blacklist")
+  public @Nullable ConfigNodePropertyArray getResourceResolverVanitypathBlacklist() {
     return resourceResolverVanitypathBlacklist;
   }
 
-  public void setResourceResolverVanitypathBlacklist(ConfigNodePropertyArray resourceResolverVanitypathBlacklist) {
+  @JsonProperty("resource.resolver.vanitypath.blacklist")
+  public void setResourceResolverVanitypathBlacklist(@Nullable ConfigNodePropertyArray resourceResolverVanitypathBlacklist) {
     this.resourceResolverVanitypathBlacklist = resourceResolverVanitypathBlacklist;
   }
 
-  public OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties resourceResolverVanityPrecedence(ConfigNodePropertyBoolean resourceResolverVanityPrecedence) {
+  public OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties resourceResolverVanityPrecedence(@Nullable ConfigNodePropertyBoolean resourceResolverVanityPrecedence) {
     this.resourceResolverVanityPrecedence = resourceResolverVanityPrecedence;
     return this;
   }
@@ -446,20 +457,20 @@ public class OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProp
   /**
    * Get resourceResolverVanityPrecedence
    * @return resourceResolverVanityPrecedence
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getResourceResolverVanityPrecedence() {
+   */
+  @Valid 
+  @Schema(name = "resource.resolver.vanity.precedence", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("resource.resolver.vanity.precedence")
+  public @Nullable ConfigNodePropertyBoolean getResourceResolverVanityPrecedence() {
     return resourceResolverVanityPrecedence;
   }
 
-  public void setResourceResolverVanityPrecedence(ConfigNodePropertyBoolean resourceResolverVanityPrecedence) {
+  @JsonProperty("resource.resolver.vanity.precedence")
+  public void setResourceResolverVanityPrecedence(@Nullable ConfigNodePropertyBoolean resourceResolverVanityPrecedence) {
     this.resourceResolverVanityPrecedence = resourceResolverVanityPrecedence;
   }
 
-  public OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties resourceResolverProviderhandlingParanoid(ConfigNodePropertyBoolean resourceResolverProviderhandlingParanoid) {
+  public OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties resourceResolverProviderhandlingParanoid(@Nullable ConfigNodePropertyBoolean resourceResolverProviderhandlingParanoid) {
     this.resourceResolverProviderhandlingParanoid = resourceResolverProviderhandlingParanoid;
     return this;
   }
@@ -467,20 +478,20 @@ public class OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProp
   /**
    * Get resourceResolverProviderhandlingParanoid
    * @return resourceResolverProviderhandlingParanoid
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getResourceResolverProviderhandlingParanoid() {
+   */
+  @Valid 
+  @Schema(name = "resource.resolver.providerhandling.paranoid", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("resource.resolver.providerhandling.paranoid")
+  public @Nullable ConfigNodePropertyBoolean getResourceResolverProviderhandlingParanoid() {
     return resourceResolverProviderhandlingParanoid;
   }
 
-  public void setResourceResolverProviderhandlingParanoid(ConfigNodePropertyBoolean resourceResolverProviderhandlingParanoid) {
+  @JsonProperty("resource.resolver.providerhandling.paranoid")
+  public void setResourceResolverProviderhandlingParanoid(@Nullable ConfigNodePropertyBoolean resourceResolverProviderhandlingParanoid) {
     this.resourceResolverProviderhandlingParanoid = resourceResolverProviderhandlingParanoid;
   }
 
-  public OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties resourceResolverLogClosing(ConfigNodePropertyBoolean resourceResolverLogClosing) {
+  public OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties resourceResolverLogClosing(@Nullable ConfigNodePropertyBoolean resourceResolverLogClosing) {
     this.resourceResolverLogClosing = resourceResolverLogClosing;
     return this;
   }
@@ -488,20 +499,20 @@ public class OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProp
   /**
    * Get resourceResolverLogClosing
    * @return resourceResolverLogClosing
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getResourceResolverLogClosing() {
+   */
+  @Valid 
+  @Schema(name = "resource.resolver.log.closing", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("resource.resolver.log.closing")
+  public @Nullable ConfigNodePropertyBoolean getResourceResolverLogClosing() {
     return resourceResolverLogClosing;
   }
 
-  public void setResourceResolverLogClosing(ConfigNodePropertyBoolean resourceResolverLogClosing) {
+  @JsonProperty("resource.resolver.log.closing")
+  public void setResourceResolverLogClosing(@Nullable ConfigNodePropertyBoolean resourceResolverLogClosing) {
     this.resourceResolverLogClosing = resourceResolverLogClosing;
   }
 
-  public OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties resourceResolverLogUnclosed(ConfigNodePropertyBoolean resourceResolverLogUnclosed) {
+  public OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties resourceResolverLogUnclosed(@Nullable ConfigNodePropertyBoolean resourceResolverLogUnclosed) {
     this.resourceResolverLogUnclosed = resourceResolverLogUnclosed;
     return this;
   }
@@ -509,22 +520,21 @@ public class OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProp
   /**
    * Get resourceResolverLogUnclosed
    * @return resourceResolverLogUnclosed
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getResourceResolverLogUnclosed() {
+   */
+  @Valid 
+  @Schema(name = "resource.resolver.log.unclosed", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("resource.resolver.log.unclosed")
+  public @Nullable ConfigNodePropertyBoolean getResourceResolverLogUnclosed() {
     return resourceResolverLogUnclosed;
   }
 
-  public void setResourceResolverLogUnclosed(ConfigNodePropertyBoolean resourceResolverLogUnclosed) {
+  @JsonProperty("resource.resolver.log.unclosed")
+  public void setResourceResolverLogUnclosed(@Nullable ConfigNodePropertyBoolean resourceResolverLogUnclosed) {
     this.resourceResolverLogUnclosed = resourceResolverLogUnclosed;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -564,7 +574,6 @@ public class OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProp
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties {\n");
-    
     sb.append("    resourceResolverSearchpath: ").append(toIndentedString(resourceResolverSearchpath)).append("\n");
     sb.append("    resourceResolverManglenamespaces: ").append(toIndentedString(resourceResolverManglenamespaces)).append("\n");
     sb.append("    resourceResolverAllowDirect: ").append(toIndentedString(resourceResolverAllowDirect)).append("\n");
@@ -594,11 +603,8 @@ public class OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProp
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

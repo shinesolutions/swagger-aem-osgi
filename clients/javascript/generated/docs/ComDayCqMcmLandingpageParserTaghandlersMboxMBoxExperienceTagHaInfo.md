@@ -1,6 +1,7 @@
 # NodeSwaggerAemOsgi.ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHaInfo
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **pid** | **String** |  | [optional] 

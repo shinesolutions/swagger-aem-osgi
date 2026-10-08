@@ -1,18 +1,29 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comDayCqWcmNotificationEmailImplEmailChannelProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqWcmNotificationEmailImplEmailChannelProperties   {
-  
-  private @Valid ConfigNodePropertyString emailFrom = null;
+  private ConfigNodePropertyString emailFrom;
+
+  public ComDayCqWcmNotificationEmailImplEmailChannelProperties() {
+  }
 
   /**
    **/
@@ -24,16 +35,18 @@ public class ComDayCqWcmNotificationEmailImplEmailChannelProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("email.from")
-  public ConfigNodePropertyString getEmailFrom() {
+  @Valid public ConfigNodePropertyString getEmailFrom() {
     return emailFrom;
   }
+
+  @JsonProperty("email.from")
   public void setEmailFrom(ConfigNodePropertyString emailFrom) {
     this.emailFrom = emailFrom;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -41,7 +54,7 @@ public class ComDayCqWcmNotificationEmailImplEmailChannelProperties   {
       return false;
     }
     ComDayCqWcmNotificationEmailImplEmailChannelProperties comDayCqWcmNotificationEmailImplEmailChannelProperties = (ComDayCqWcmNotificationEmailImplEmailChannelProperties) o;
-    return Objects.equals(emailFrom, comDayCqWcmNotificationEmailImplEmailChannelProperties.emailFrom);
+    return Objects.equals(this.emailFrom, comDayCqWcmNotificationEmailImplEmailChannelProperties.emailFrom);
   }
 
   @Override
@@ -63,11 +76,9 @@ public class ComDayCqWcmNotificationEmailImplEmailChannelProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

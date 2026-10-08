@@ -2,31 +2,32 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ComDayCqDamVideoImplServletVideoTestServletProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class ComDayCqDamVideoImplServletVideoTestServletInfo   {
   
-  private String pid = null;
+  private String pid;
 
-  private String title = null;
+  private String title;
 
-  private String description = null;
+  private String description;
 
-  private ComDayCqDamVideoImplServletVideoTestServletProperties properties = null;
+  private ComDayCqDamVideoImplServletVideoTestServletProperties properties;
 
-  private String bundleLocation = null;
+  private String bundleLocation;
 
-  private String serviceLocation = null;
-
+  private String serviceLocation;
 
   /**
    **/
@@ -138,7 +139,7 @@ public class ComDayCqDamVideoImplServletVideoTestServletInfo   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -146,12 +147,12 @@ public class ComDayCqDamVideoImplServletVideoTestServletInfo   {
       return false;
     }
     ComDayCqDamVideoImplServletVideoTestServletInfo comDayCqDamVideoImplServletVideoTestServletInfo = (ComDayCqDamVideoImplServletVideoTestServletInfo) o;
-    return Objects.equals(pid, comDayCqDamVideoImplServletVideoTestServletInfo.pid) &&
-        Objects.equals(title, comDayCqDamVideoImplServletVideoTestServletInfo.title) &&
-        Objects.equals(description, comDayCqDamVideoImplServletVideoTestServletInfo.description) &&
-        Objects.equals(properties, comDayCqDamVideoImplServletVideoTestServletInfo.properties) &&
-        Objects.equals(bundleLocation, comDayCqDamVideoImplServletVideoTestServletInfo.bundleLocation) &&
-        Objects.equals(serviceLocation, comDayCqDamVideoImplServletVideoTestServletInfo.serviceLocation);
+    return Objects.equals(this.pid, comDayCqDamVideoImplServletVideoTestServletInfo.pid) &&
+        Objects.equals(this.title, comDayCqDamVideoImplServletVideoTestServletInfo.title) &&
+        Objects.equals(this.description, comDayCqDamVideoImplServletVideoTestServletInfo.description) &&
+        Objects.equals(this.properties, comDayCqDamVideoImplServletVideoTestServletInfo.properties) &&
+        Objects.equals(this.bundleLocation, comDayCqDamVideoImplServletVideoTestServletInfo.bundleLocation) &&
+        Objects.equals(this.serviceLocation, comDayCqDamVideoImplServletVideoTestServletInfo.serviceLocation);
   }
 
   @Override
@@ -178,11 +179,8 @@ public class ComDayCqDamVideoImplServletVideoTestServletInfo   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

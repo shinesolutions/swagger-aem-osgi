@@ -2,27 +2,28 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeInfo   {
   
-  private String pid = null;
+  private String pid;
 
-  private String title = null;
+  private String title;
 
-  private String description = null;
+  private String description;
 
-  private ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeProperties properties = null;
-
+  private ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeProperties properties;
 
   /**
    **/
@@ -98,7 +99,7 @@ public class ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeInfo 
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -106,10 +107,10 @@ public class ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeInfo 
       return false;
     }
     ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeInfo comDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeInfo = (ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeInfo) o;
-    return Objects.equals(pid, comDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeInfo.pid) &&
-        Objects.equals(title, comDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeInfo.title) &&
-        Objects.equals(description, comDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeInfo.description) &&
-        Objects.equals(properties, comDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeInfo.properties);
+    return Objects.equals(this.pid, comDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeInfo.pid) &&
+        Objects.equals(this.title, comDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeInfo.title) &&
+        Objects.equals(this.description, comDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeInfo.description) &&
+        Objects.equals(this.properties, comDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeInfo.properties);
   }
 
   @Override
@@ -134,11 +135,8 @@ public class ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeInfo 
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

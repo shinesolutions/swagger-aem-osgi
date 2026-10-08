@@ -72,14 +72,14 @@ private class OASComAdobeCqSocialUgcbaseSecurityImTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeCqSocialUgcbaseSecurityIm comAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImplProperties = new OASComAdobeCqSocialUgcbaseSecurityIm();
-        Map<String, String> propertyMappings = comAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImplProperties.getPropertyMappings();
-        System.assertEquals('parameterWhitelist', propertyMappings.get('parameter.whitelist'));
-        System.assertEquals('parameterWhitelistPrefixes', propertyMappings.get('parameter.whitelist.prefixes'));
-        System.assertEquals('binaryParameterWhitelist', propertyMappings.get('binary.parameter.whitelist'));
-        System.assertEquals('modifierWhitelist', propertyMappings.get('modifier.whitelist'));
-        System.assertEquals('operationWhitelist', propertyMappings.get('operation.whitelist'));
-        System.assertEquals('operationWhitelistPrefixes', propertyMappings.get('operation.whitelist.prefixes'));
-        System.assertEquals('typehintWhitelist', propertyMappings.get('typehint.whitelist'));
-        System.assertEquals('resourcetypeWhitelist', propertyMappings.get('resourcetype.whitelist'));
+        Map<String, String> x-property-mappings = comAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImplProperties.getx-property-mappings();
+        System.assertEquals('parameterWhitelist', x-property-mappings.get('parameter.whitelist'));
+        System.assertEquals('parameterWhitelistPrefixes', x-property-mappings.get('parameter.whitelist.prefixes'));
+        System.assertEquals('binaryParameterWhitelist', x-property-mappings.get('binary.parameter.whitelist'));
+        System.assertEquals('modifierWhitelist', x-property-mappings.get('modifier.whitelist'));
+        System.assertEquals('operationWhitelist', x-property-mappings.get('operation.whitelist'));
+        System.assertEquals('operationWhitelistPrefixes', x-property-mappings.get('operation.whitelist.prefixes'));
+        System.assertEquals('typehintWhitelist', x-property-mappings.get('typehint.whitelist'));
+        System.assertEquals('resourcetypeWhitelist', x-property-mappings.get('resourcetype.whitelist'));
     }
 }

@@ -72,10 +72,10 @@ private class OASComDayCqAuthImplCugCugSupportImplTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqAuthImplCugCugSupportImpl comDayCqAuthImplCugCugSupportImplProperties = new OASComDayCqAuthImplCugCugSupportImpl();
-        Map<String, String> propertyMappings = comDayCqAuthImplCugCugSupportImplProperties.getPropertyMappings();
-        System.assertEquals('cugExemptedPrincipals', propertyMappings.get('cug.exempted.principals'));
-        System.assertEquals('cugEnabled', propertyMappings.get('cug.enabled'));
-        System.assertEquals('cugPrincipalsRegex', propertyMappings.get('cug.principals.regex'));
-        System.assertEquals('cugPrincipalsReplacement', propertyMappings.get('cug.principals.replacement'));
+        Map<String, String> x-property-mappings = comDayCqAuthImplCugCugSupportImplProperties.getx-property-mappings();
+        System.assertEquals('cugExemptedPrincipals', x-property-mappings.get('cug.exempted.principals'));
+        System.assertEquals('cugEnabled', x-property-mappings.get('cug.enabled'));
+        System.assertEquals('cugPrincipalsRegex', x-property-mappings.get('cug.principals.regex'));
+        System.assertEquals('cugPrincipalsReplacement', x-property-mappings.get('cug.principals.replacement'));
     }
 }

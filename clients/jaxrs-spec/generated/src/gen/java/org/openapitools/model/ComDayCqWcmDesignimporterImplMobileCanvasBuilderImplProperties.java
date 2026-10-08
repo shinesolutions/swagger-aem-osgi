@@ -1,24 +1,35 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comDayCqWcmDesignimporterImplMobileCanvasBuilderImplProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqWcmDesignimporterImplMobileCanvasBuilderImplProperties   {
-  
-  private @Valid ConfigNodePropertyString filepattern = null;
-  private @Valid ConfigNodePropertyArray deviceGroups = null;
-  private @Valid ConfigNodePropertyBoolean buildPageNodes = null;
-  private @Valid ConfigNodePropertyBoolean buildClientLibs = null;
-  private @Valid ConfigNodePropertyBoolean buildCanvasComponent = null;
+  private ConfigNodePropertyString filepattern;
+  private ConfigNodePropertyArray deviceGroups;
+  private ConfigNodePropertyBoolean buildPageNodes;
+  private ConfigNodePropertyBoolean buildClientLibs;
+  private ConfigNodePropertyBoolean buildCanvasComponent;
+
+  public ComDayCqWcmDesignimporterImplMobileCanvasBuilderImplProperties() {
+  }
 
   /**
    **/
@@ -30,9 +41,11 @@ public class ComDayCqWcmDesignimporterImplMobileCanvasBuilderImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("filepattern")
-  public ConfigNodePropertyString getFilepattern() {
+  @Valid public ConfigNodePropertyString getFilepattern() {
     return filepattern;
   }
+
+  @JsonProperty("filepattern")
   public void setFilepattern(ConfigNodePropertyString filepattern) {
     this.filepattern = filepattern;
   }
@@ -47,9 +60,11 @@ public class ComDayCqWcmDesignimporterImplMobileCanvasBuilderImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("device.groups")
-  public ConfigNodePropertyArray getDeviceGroups() {
+  @Valid public ConfigNodePropertyArray getDeviceGroups() {
     return deviceGroups;
   }
+
+  @JsonProperty("device.groups")
   public void setDeviceGroups(ConfigNodePropertyArray deviceGroups) {
     this.deviceGroups = deviceGroups;
   }
@@ -64,9 +79,11 @@ public class ComDayCqWcmDesignimporterImplMobileCanvasBuilderImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("build.page.nodes")
-  public ConfigNodePropertyBoolean getBuildPageNodes() {
+  @Valid public ConfigNodePropertyBoolean getBuildPageNodes() {
     return buildPageNodes;
   }
+
+  @JsonProperty("build.page.nodes")
   public void setBuildPageNodes(ConfigNodePropertyBoolean buildPageNodes) {
     this.buildPageNodes = buildPageNodes;
   }
@@ -81,9 +98,11 @@ public class ComDayCqWcmDesignimporterImplMobileCanvasBuilderImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("build.client.libs")
-  public ConfigNodePropertyBoolean getBuildClientLibs() {
+  @Valid public ConfigNodePropertyBoolean getBuildClientLibs() {
     return buildClientLibs;
   }
+
+  @JsonProperty("build.client.libs")
   public void setBuildClientLibs(ConfigNodePropertyBoolean buildClientLibs) {
     this.buildClientLibs = buildClientLibs;
   }
@@ -98,16 +117,18 @@ public class ComDayCqWcmDesignimporterImplMobileCanvasBuilderImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("build.canvas.component")
-  public ConfigNodePropertyBoolean getBuildCanvasComponent() {
+  @Valid public ConfigNodePropertyBoolean getBuildCanvasComponent() {
     return buildCanvasComponent;
   }
+
+  @JsonProperty("build.canvas.component")
   public void setBuildCanvasComponent(ConfigNodePropertyBoolean buildCanvasComponent) {
     this.buildCanvasComponent = buildCanvasComponent;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -115,11 +136,11 @@ public class ComDayCqWcmDesignimporterImplMobileCanvasBuilderImplProperties   {
       return false;
     }
     ComDayCqWcmDesignimporterImplMobileCanvasBuilderImplProperties comDayCqWcmDesignimporterImplMobileCanvasBuilderImplProperties = (ComDayCqWcmDesignimporterImplMobileCanvasBuilderImplProperties) o;
-    return Objects.equals(filepattern, comDayCqWcmDesignimporterImplMobileCanvasBuilderImplProperties.filepattern) &&
-        Objects.equals(deviceGroups, comDayCqWcmDesignimporterImplMobileCanvasBuilderImplProperties.deviceGroups) &&
-        Objects.equals(buildPageNodes, comDayCqWcmDesignimporterImplMobileCanvasBuilderImplProperties.buildPageNodes) &&
-        Objects.equals(buildClientLibs, comDayCqWcmDesignimporterImplMobileCanvasBuilderImplProperties.buildClientLibs) &&
-        Objects.equals(buildCanvasComponent, comDayCqWcmDesignimporterImplMobileCanvasBuilderImplProperties.buildCanvasComponent);
+    return Objects.equals(this.filepattern, comDayCqWcmDesignimporterImplMobileCanvasBuilderImplProperties.filepattern) &&
+        Objects.equals(this.deviceGroups, comDayCqWcmDesignimporterImplMobileCanvasBuilderImplProperties.deviceGroups) &&
+        Objects.equals(this.buildPageNodes, comDayCqWcmDesignimporterImplMobileCanvasBuilderImplProperties.buildPageNodes) &&
+        Objects.equals(this.buildClientLibs, comDayCqWcmDesignimporterImplMobileCanvasBuilderImplProperties.buildClientLibs) &&
+        Objects.equals(this.buildCanvasComponent, comDayCqWcmDesignimporterImplMobileCanvasBuilderImplProperties.buildCanvasComponent);
   }
 
   @Override
@@ -145,11 +166,9 @@ public class ComDayCqWcmDesignimporterImplMobileCanvasBuilderImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

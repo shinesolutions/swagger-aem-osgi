@@ -9,14 +9,14 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanProperties {
-    ConfigNodePropertyString path = null
-
-    ConfigNodePropertyString jaasControlFlag = null
-
-    ConfigNodePropertyString jaasRealmName = null
-
-    ConfigNodePropertyInteger jaasRanking = null
-
-    ConfigNodePropertyBoolean oauthOfflineValidation = null
-
+    
+    ConfigNodePropertyString path
+    
+    ConfigNodePropertyString jaasControlFlag
+    
+    ConfigNodePropertyString jaasRealmName
+    
+    ConfigNodePropertyInteger jaasRanking
+    
+    ConfigNodePropertyBoolean oauthOfflineValidation
 }

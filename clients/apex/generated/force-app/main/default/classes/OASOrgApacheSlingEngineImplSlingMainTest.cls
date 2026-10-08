@@ -72,13 +72,13 @@ private class OASOrgApacheSlingEngineImplSlingMainTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASOrgApacheSlingEngineImplSlingMain orgApacheSlingEngineImplSlingMainServletProperties = new OASOrgApacheSlingEngineImplSlingMain();
-        Map<String, String> propertyMappings = orgApacheSlingEngineImplSlingMainServletProperties.getPropertyMappings();
-        System.assertEquals('slingMaxCalls', propertyMappings.get('sling.max.calls'));
-        System.assertEquals('slingMaxInclusions', propertyMappings.get('sling.max.inclusions'));
-        System.assertEquals('slingTraceAllow', propertyMappings.get('sling.trace.allow'));
-        System.assertEquals('slingMaxRecordRequests', propertyMappings.get('sling.max.record.requests'));
-        System.assertEquals('slingStorePatternRequests', propertyMappings.get('sling.store.pattern.requests'));
-        System.assertEquals('slingServerinfo', propertyMappings.get('sling.serverinfo'));
-        System.assertEquals('slingAdditionalResponseHeaders', propertyMappings.get('sling.additional.response.headers'));
+        Map<String, String> x-property-mappings = orgApacheSlingEngineImplSlingMainServletProperties.getx-property-mappings();
+        System.assertEquals('slingMaxCalls', x-property-mappings.get('sling.max.calls'));
+        System.assertEquals('slingMaxInclusions', x-property-mappings.get('sling.max.inclusions'));
+        System.assertEquals('slingTraceAllow', x-property-mappings.get('sling.trace.allow'));
+        System.assertEquals('slingMaxRecordRequests', x-property-mappings.get('sling.max.record.requests'));
+        System.assertEquals('slingStorePatternRequests', x-property-mappings.get('sling.store.pattern.requests'));
+        System.assertEquals('slingServerinfo', x-property-mappings.get('sling.serverinfo'));
+        System.assertEquals('slingAdditionalResponseHeaders', x-property-mappings.get('sling.additional.response.headers'));
     }
 }

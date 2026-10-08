@@ -72,10 +72,10 @@ private class OASOrgApacheFelixHttpSslfilterSslFilTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASOrgApacheFelixHttpSslfilterSslFil orgApacheFelixHttpSslfilterSslFilterProperties = new OASOrgApacheFelixHttpSslfilterSslFil();
-        Map<String, String> propertyMappings = orgApacheFelixHttpSslfilterSslFilterProperties.getPropertyMappings();
-        System.assertEquals('sslForwardHeader', propertyMappings.get('ssl-forward.header'));
-        System.assertEquals('sslForwardValue', propertyMappings.get('ssl-forward.value'));
-        System.assertEquals('sslForwardCertHeader', propertyMappings.get('ssl-forward-cert.header'));
-        System.assertEquals('rewriteAbsoluteUrls', propertyMappings.get('rewrite.absolute.urls'));
+        Map<String, String> x-property-mappings = orgApacheFelixHttpSslfilterSslFilterProperties.getx-property-mappings();
+        System.assertEquals('sslForwardHeader', x-property-mappings.get('ssl-forward.header'));
+        System.assertEquals('sslForwardValue', x-property-mappings.get('ssl-forward.value'));
+        System.assertEquals('sslForwardCertHeader', x-property-mappings.get('ssl-forward-cert.header'));
+        System.assertEquals('rewriteAbsoluteUrls', x-property-mappings.get('rewrite.absolute.urls'));
     }
 }

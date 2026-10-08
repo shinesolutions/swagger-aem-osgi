@@ -7,12 +7,12 @@ import org.openapitools.model.OrgApacheSlingJmxProviderImplJMXResourceProviderPr
 
 @Canonical
 class OrgApacheSlingJmxProviderImplJMXResourceProviderInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheSlingJmxProviderImplJMXResourceProviderProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheSlingJmxProviderImplJMXResourceProviderProperties properties
 }

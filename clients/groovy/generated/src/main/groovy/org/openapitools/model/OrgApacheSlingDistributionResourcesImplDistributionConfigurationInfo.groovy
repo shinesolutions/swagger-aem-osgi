@@ -7,12 +7,12 @@ import org.openapitools.model.OrgApacheSlingDistributionResourcesImplDistributio
 
 @Canonical
 class OrgApacheSlingDistributionResourcesImplDistributionConfigurationInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheSlingDistributionResourcesImplDistributionConfigurationProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheSlingDistributionResourcesImplDistributionConfigurationProperties properties
 }

@@ -2,10 +2,10 @@
 # ComDayCqRewriterLinkcheckerImplLinkInfoStorageImplProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**servicePeriodmaxUnderscorelinksUnderscoreperUnderscorehost** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**servicePeriodsaveUnderscoreexternalUnderscorelinkUnderscorereferences** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **serviceMaxLinksPerHost** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **serviceSaveExternalLinkReferences** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
 
 
 

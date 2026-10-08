@@ -72,13 +72,13 @@ private class OASComDayCommonsHttpclientPropertiesTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCommonsHttpclientProperties comDayCommonsHttpclientProperties = new OASComDayCommonsHttpclientProperties();
-        Map<String, String> propertyMappings = comDayCommonsHttpclientProperties.getPropertyMappings();
-        System.assertEquals('proxyEnabled', propertyMappings.get('proxy.enabled'));
-        System.assertEquals('proxyHost', propertyMappings.get('proxy.host'));
-        System.assertEquals('proxyUser', propertyMappings.get('proxy.user'));
-        System.assertEquals('proxyPassword', propertyMappings.get('proxy.password'));
-        System.assertEquals('proxyNtlmHost', propertyMappings.get('proxy.ntlm.host'));
-        System.assertEquals('proxyNtlmDomain', propertyMappings.get('proxy.ntlm.domain'));
-        System.assertEquals('proxyExceptions', propertyMappings.get('proxy.exceptions'));
+        Map<String, String> x-property-mappings = comDayCommonsHttpclientProperties.getx-property-mappings();
+        System.assertEquals('proxyEnabled', x-property-mappings.get('proxy.enabled'));
+        System.assertEquals('proxyHost', x-property-mappings.get('proxy.host'));
+        System.assertEquals('proxyUser', x-property-mappings.get('proxy.user'));
+        System.assertEquals('proxyPassword', x-property-mappings.get('proxy.password'));
+        System.assertEquals('proxyNtlmHost', x-property-mappings.get('proxy.ntlm.host'));
+        System.assertEquals('proxyNtlmDomain', x-property-mappings.get('proxy.ntlm.domain'));
+        System.assertEquals('proxyExceptions', x-property-mappings.get('proxy.exceptions'));
     }
 }

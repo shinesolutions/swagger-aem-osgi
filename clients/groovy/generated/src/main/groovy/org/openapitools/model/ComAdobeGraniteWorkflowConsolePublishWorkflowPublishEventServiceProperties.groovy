@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyBoolean;
 
 @Canonical
 class ComAdobeGraniteWorkflowConsolePublishWorkflowPublishEventServiceProperties {
-    ConfigNodePropertyBoolean graniteWorkflowWorkflowPublishEventServiceEnabled = null
-
+    
+    ConfigNodePropertyBoolean graniteWorkflowWorkflowPublishEventServiceEnabled
 }

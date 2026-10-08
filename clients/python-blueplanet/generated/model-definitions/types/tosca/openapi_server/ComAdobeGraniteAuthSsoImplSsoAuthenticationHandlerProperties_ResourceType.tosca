@@ -1,0 +1,88 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeGraniteAuthSsoImplSsoAuthenticationHandlerProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeGraniteAuthSsoImplSsoAuthenticationHandlerProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComAdobeGraniteAuthSsoImplSsoAuthenticationHandlerProperties {
+    title = ComAdobeGraniteAuthSsoImplSsoAuthenticationHandlerProperties
+    description = ComAdobeGraniteAuthSsoImplSsoAuthenticationHandlerProperties
+    derivedFrom = Root
+    properties {
+        path {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        service_ranking {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        jaas_control_flag {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        jaas_realm_name {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        jaas_ranking {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        headers {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        cookies {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        parameters {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        usermap {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        format {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        trusted_credentials_attribute {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeGraniteAuthSsoImplSsoAuthenticationHandlerProperties {
+    title = ComAdobeGraniteAuthSsoImplSsoAuthenticationHandlerProperties
+    description = ComAdobeGraniteAuthSsoImplSsoAuthenticationHandlerProperties
+    implements = openapi_server.resourceTypes.ComAdobeGraniteAuthSsoImplSsoAuthenticationHandlerProperties
+
+  }
+}

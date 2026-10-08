@@ -7,12 +7,12 @@ import org.openapitools.model.OrgApacheSlingDistributionTriggerImplDistributionE
 
 @Canonical
 class OrgApacheSlingDistributionTriggerImplDistributionEventDistributeInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheSlingDistributionTriggerImplDistributionEventDistributeProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheSlingDistributionTriggerImplDistributionEventDistributeProperties properties
 }

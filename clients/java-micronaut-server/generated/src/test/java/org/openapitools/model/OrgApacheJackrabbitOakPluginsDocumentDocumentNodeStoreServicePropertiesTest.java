@@ -1,0 +1,268 @@
+package org.openapitools.model;
+
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.model.ConfigNodePropertyArray;
+import org.openapitools.model.ConfigNodePropertyBoolean;
+import org.openapitools.model.ConfigNodePropertyDropDown;
+import org.openapitools.model.ConfigNodePropertyInteger;
+import org.openapitools.model.ConfigNodePropertyString;
+import io.micronaut.test.extensions.junit5.annotation.MicronautTest;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.Assertions;
+
+/**
+ * Model tests for OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceProperties
+ */
+@MicronautTest
+public class OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePropertiesTest {
+    private final OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceProperties model = null;
+
+    /**
+     * Model tests for OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceProperties
+     */
+    @Test
+    public void testOrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceProperties() {
+        // TODO: test OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceProperties
+    }
+
+    /**
+     * Test the property 'mongouri'
+     */
+    @Test
+    public void mongouriTest() {
+        // TODO: test mongouri
+    }
+
+    /**
+     * Test the property 'db'
+     */
+    @Test
+    public void dbTest() {
+        // TODO: test db
+    }
+
+    /**
+     * Test the property 'socketKeepAlive'
+     */
+    @Test
+    public void socketKeepAliveTest() {
+        // TODO: test socketKeepAlive
+    }
+
+    /**
+     * Test the property 'cache'
+     */
+    @Test
+    public void cacheTest() {
+        // TODO: test cache
+    }
+
+    /**
+     * Test the property 'nodeCachePercentage'
+     */
+    @Test
+    public void nodeCachePercentageTest() {
+        // TODO: test nodeCachePercentage
+    }
+
+    /**
+     * Test the property 'prevDocCachePercentage'
+     */
+    @Test
+    public void prevDocCachePercentageTest() {
+        // TODO: test prevDocCachePercentage
+    }
+
+    /**
+     * Test the property 'childrenCachePercentage'
+     */
+    @Test
+    public void childrenCachePercentageTest() {
+        // TODO: test childrenCachePercentage
+    }
+
+    /**
+     * Test the property 'diffCachePercentage'
+     */
+    @Test
+    public void diffCachePercentageTest() {
+        // TODO: test diffCachePercentage
+    }
+
+    /**
+     * Test the property 'cacheSegmentCount'
+     */
+    @Test
+    public void cacheSegmentCountTest() {
+        // TODO: test cacheSegmentCount
+    }
+
+    /**
+     * Test the property 'cacheStackMoveDistance'
+     */
+    @Test
+    public void cacheStackMoveDistanceTest() {
+        // TODO: test cacheStackMoveDistance
+    }
+
+    /**
+     * Test the property 'blobCacheSize'
+     */
+    @Test
+    public void blobCacheSizeTest() {
+        // TODO: test blobCacheSize
+    }
+
+    /**
+     * Test the property 'persistentCache'
+     */
+    @Test
+    public void persistentCacheTest() {
+        // TODO: test persistentCache
+    }
+
+    /**
+     * Test the property 'journalCache'
+     */
+    @Test
+    public void journalCacheTest() {
+        // TODO: test journalCache
+    }
+
+    /**
+     * Test the property 'customBlobStore'
+     */
+    @Test
+    public void customBlobStoreTest() {
+        // TODO: test customBlobStore
+    }
+
+    /**
+     * Test the property 'journalGCInterval'
+     */
+    @Test
+    public void journalGCIntervalTest() {
+        // TODO: test journalGCInterval
+    }
+
+    /**
+     * Test the property 'journalGCMaxAge'
+     */
+    @Test
+    public void journalGCMaxAgeTest() {
+        // TODO: test journalGCMaxAge
+    }
+
+    /**
+     * Test the property 'prefetchExternalChanges'
+     */
+    @Test
+    public void prefetchExternalChangesTest() {
+        // TODO: test prefetchExternalChanges
+    }
+
+    /**
+     * Test the property 'role'
+     */
+    @Test
+    public void roleTest() {
+        // TODO: test role
+    }
+
+    /**
+     * Test the property 'versionGcMaxAgeInSecs'
+     */
+    @Test
+    public void versionGcMaxAgeInSecsTest() {
+        // TODO: test versionGcMaxAgeInSecs
+    }
+
+    /**
+     * Test the property 'versionGCExpression'
+     */
+    @Test
+    public void versionGCExpressionTest() {
+        // TODO: test versionGCExpression
+    }
+
+    /**
+     * Test the property 'versionGCTimeLimitInSecs'
+     */
+    @Test
+    public void versionGCTimeLimitInSecsTest() {
+        // TODO: test versionGCTimeLimitInSecs
+    }
+
+    /**
+     * Test the property 'blobGcMaxAgeInSecs'
+     */
+    @Test
+    public void blobGcMaxAgeInSecsTest() {
+        // TODO: test blobGcMaxAgeInSecs
+    }
+
+    /**
+     * Test the property 'blobTrackSnapshotIntervalInSecs'
+     */
+    @Test
+    public void blobTrackSnapshotIntervalInSecsTest() {
+        // TODO: test blobTrackSnapshotIntervalInSecs
+    }
+
+    /**
+     * Test the property 'repositoryHome'
+     */
+    @Test
+    public void repositoryHomeTest() {
+        // TODO: test repositoryHome
+    }
+
+    /**
+     * Test the property 'maxReplicationLagInSecs'
+     */
+    @Test
+    public void maxReplicationLagInSecsTest() {
+        // TODO: test maxReplicationLagInSecs
+    }
+
+    /**
+     * Test the property 'documentStoreType'
+     */
+    @Test
+    public void documentStoreTypeTest() {
+        // TODO: test documentStoreType
+    }
+
+    /**
+     * Test the property 'bundlingDisabled'
+     */
+    @Test
+    public void bundlingDisabledTest() {
+        // TODO: test bundlingDisabled
+    }
+
+    /**
+     * Test the property 'updateLimit'
+     */
+    @Test
+    public void updateLimitTest() {
+        // TODO: test updateLimit
+    }
+
+    /**
+     * Test the property 'persistentCacheIncludes'
+     */
+    @Test
+    public void persistentCacheIncludesTest() {
+        // TODO: test persistentCacheIncludes
+    }
+
+    /**
+     * Test the property 'leaseCheckMode'
+     */
+    @Test
+    public void leaseCheckModeTest() {
+        // TODO: test leaseCheckMode
+    }
+
+}

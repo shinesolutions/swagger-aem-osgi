@@ -72,15 +72,15 @@ private class OASComDayCqReplicationImplContentDurTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqReplicationImplContentDur comDayCqReplicationImplContentDurboDurboImportConfigurationProvProperties = new OASComDayCqReplicationImplContentDur();
-        Map<String, String> propertyMappings = comDayCqReplicationImplContentDurboDurboImportConfigurationProvProperties.getPropertyMappings();
-        System.assertEquals('preserveHierarchyNodes', propertyMappings.get('preserve.hierarchy.nodes'));
-        System.assertEquals('ignoreVersioning', propertyMappings.get('ignore.versioning'));
-        System.assertEquals('importAcl', propertyMappings.get('import.acl'));
-        System.assertEquals('saveThreshold', propertyMappings.get('save.threshold'));
-        System.assertEquals('preserveUserPaths', propertyMappings.get('preserve.user.paths'));
-        System.assertEquals('preserveUuid', propertyMappings.get('preserve.uuid'));
-        System.assertEquals('preserveUuidNodetypes', propertyMappings.get('preserve.uuid.nodetypes'));
-        System.assertEquals('preserveUuidSubtrees', propertyMappings.get('preserve.uuid.subtrees'));
-        System.assertEquals('autoCommit', propertyMappings.get('auto.commit'));
+        Map<String, String> x-property-mappings = comDayCqReplicationImplContentDurboDurboImportConfigurationProvProperties.getx-property-mappings();
+        System.assertEquals('preserveHierarchyNodes', x-property-mappings.get('preserve.hierarchy.nodes'));
+        System.assertEquals('ignoreVersioning', x-property-mappings.get('ignore.versioning'));
+        System.assertEquals('importAcl', x-property-mappings.get('import.acl'));
+        System.assertEquals('saveThreshold', x-property-mappings.get('save.threshold'));
+        System.assertEquals('preserveUserPaths', x-property-mappings.get('preserve.user.paths'));
+        System.assertEquals('preserveUuid', x-property-mappings.get('preserve.uuid'));
+        System.assertEquals('preserveUuidNodetypes', x-property-mappings.get('preserve.uuid.nodetypes'));
+        System.assertEquals('preserveUuidSubtrees', x-property-mappings.get('preserve.uuid.subtrees'));
+        System.assertEquals('autoCommit', x-property-mappings.get('auto.commit'));
     }
 }

@@ -7,18 +7,18 @@ import org.openapitools.model.OrgApacheSlingResourcemergerPickerOverridingProper
 
 @Canonical
 class OrgApacheSlingResourcemergerPickerOverridingInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheSlingResourcemergerPickerOverridingProperties properties = null
-
-    String additionalProperties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheSlingResourcemergerPickerOverridingProperties properties
+    
+    String additionalProperties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

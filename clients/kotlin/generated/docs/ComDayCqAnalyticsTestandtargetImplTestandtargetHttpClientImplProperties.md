@@ -2,13 +2,13 @@
 # ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**cqPeriodanalyticsPeriodtestandtargetPeriodapiPeriodurl** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**cqPeriodanalyticsPeriodtestandtargetPeriodtimeout** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**cqPeriodanalyticsPeriodtestandtargetPeriodsockettimeout** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**cqPeriodanalyticsPeriodtestandtargetPeriodrecommendationsPeriodurlPeriodreplace** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**cqPeriodanalyticsPeriodtestandtargetPeriodrecommendationsPeriodurlPeriodreplacewith** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **cqAnalyticsTestandtargetApiUrl** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **cqAnalyticsTestandtargetTimeout** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **cqAnalyticsTestandtargetSockettimeout** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **cqAnalyticsTestandtargetRecommendationsUrlReplace** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **cqAnalyticsTestandtargetRecommendationsUrlReplacewith** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
 
 
 

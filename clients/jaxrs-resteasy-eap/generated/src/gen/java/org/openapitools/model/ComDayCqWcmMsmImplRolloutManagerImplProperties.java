@@ -4,6 +4,7 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
@@ -12,30 +13,21 @@ import org.openapitools.model.ConfigNodePropertyDropDown;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2019-08-05T01:00:05.540Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2026-10-07T12:54:26.576036107Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqWcmMsmImplRolloutManagerImplProperties   {
   
-
-  private ConfigNodePropertyString eventFilter = null;
-
-  private ConfigNodePropertyArray rolloutmgrExcludedpropsDefault = null;
-
-  private ConfigNodePropertyArray rolloutmgrExcludedparagraphpropsDefault = null;
-
-  private ConfigNodePropertyArray rolloutmgrExcludednodetypesDefault = null;
-
-  private ConfigNodePropertyInteger rolloutmgrThreadpoolMaxsize = null;
-
-  private ConfigNodePropertyInteger rolloutmgrThreadpoolMaxshutdowntime = null;
-
-  private ConfigNodePropertyDropDown rolloutmgrThreadpoolPriority = null;
-
-  private ConfigNodePropertyInteger rolloutmgrCommitSize = null;
-
-  private ConfigNodePropertyBoolean rolloutmgrConflicthandlingEnabled = null;
+  private ConfigNodePropertyString eventFilter;
+  private ConfigNodePropertyArray rolloutmgrExcludedpropsDefault;
+  private ConfigNodePropertyArray rolloutmgrExcludedparagraphpropsDefault;
+  private ConfigNodePropertyArray rolloutmgrExcludednodetypesDefault;
+  private ConfigNodePropertyInteger rolloutmgrThreadpoolMaxsize;
+  private ConfigNodePropertyInteger rolloutmgrThreadpoolMaxshutdowntime;
+  private ConfigNodePropertyDropDown rolloutmgrThreadpoolPriority;
+  private ConfigNodePropertyInteger rolloutmgrCommitSize;
+  private ConfigNodePropertyBoolean rolloutmgrConflicthandlingEnabled;
 
   /**
    **/
@@ -155,15 +147,15 @@ public class ComDayCqWcmMsmImplRolloutManagerImplProperties   {
       return false;
     }
     ComDayCqWcmMsmImplRolloutManagerImplProperties comDayCqWcmMsmImplRolloutManagerImplProperties = (ComDayCqWcmMsmImplRolloutManagerImplProperties) o;
-    return Objects.equals(eventFilter, comDayCqWcmMsmImplRolloutManagerImplProperties.eventFilter) &&
-        Objects.equals(rolloutmgrExcludedpropsDefault, comDayCqWcmMsmImplRolloutManagerImplProperties.rolloutmgrExcludedpropsDefault) &&
-        Objects.equals(rolloutmgrExcludedparagraphpropsDefault, comDayCqWcmMsmImplRolloutManagerImplProperties.rolloutmgrExcludedparagraphpropsDefault) &&
-        Objects.equals(rolloutmgrExcludednodetypesDefault, comDayCqWcmMsmImplRolloutManagerImplProperties.rolloutmgrExcludednodetypesDefault) &&
-        Objects.equals(rolloutmgrThreadpoolMaxsize, comDayCqWcmMsmImplRolloutManagerImplProperties.rolloutmgrThreadpoolMaxsize) &&
-        Objects.equals(rolloutmgrThreadpoolMaxshutdowntime, comDayCqWcmMsmImplRolloutManagerImplProperties.rolloutmgrThreadpoolMaxshutdowntime) &&
-        Objects.equals(rolloutmgrThreadpoolPriority, comDayCqWcmMsmImplRolloutManagerImplProperties.rolloutmgrThreadpoolPriority) &&
-        Objects.equals(rolloutmgrCommitSize, comDayCqWcmMsmImplRolloutManagerImplProperties.rolloutmgrCommitSize) &&
-        Objects.equals(rolloutmgrConflicthandlingEnabled, comDayCqWcmMsmImplRolloutManagerImplProperties.rolloutmgrConflicthandlingEnabled);
+    return Objects.equals(this.eventFilter, comDayCqWcmMsmImplRolloutManagerImplProperties.eventFilter) &&
+        Objects.equals(this.rolloutmgrExcludedpropsDefault, comDayCqWcmMsmImplRolloutManagerImplProperties.rolloutmgrExcludedpropsDefault) &&
+        Objects.equals(this.rolloutmgrExcludedparagraphpropsDefault, comDayCqWcmMsmImplRolloutManagerImplProperties.rolloutmgrExcludedparagraphpropsDefault) &&
+        Objects.equals(this.rolloutmgrExcludednodetypesDefault, comDayCqWcmMsmImplRolloutManagerImplProperties.rolloutmgrExcludednodetypesDefault) &&
+        Objects.equals(this.rolloutmgrThreadpoolMaxsize, comDayCqWcmMsmImplRolloutManagerImplProperties.rolloutmgrThreadpoolMaxsize) &&
+        Objects.equals(this.rolloutmgrThreadpoolMaxshutdowntime, comDayCqWcmMsmImplRolloutManagerImplProperties.rolloutmgrThreadpoolMaxshutdowntime) &&
+        Objects.equals(this.rolloutmgrThreadpoolPriority, comDayCqWcmMsmImplRolloutManagerImplProperties.rolloutmgrThreadpoolPriority) &&
+        Objects.equals(this.rolloutmgrCommitSize, comDayCqWcmMsmImplRolloutManagerImplProperties.rolloutmgrCommitSize) &&
+        Objects.equals(this.rolloutmgrConflicthandlingEnabled, comDayCqWcmMsmImplRolloutManagerImplProperties.rolloutmgrConflicthandlingEnabled);
   }
 
   @Override
@@ -194,10 +186,7 @@ public class ComDayCqWcmMsmImplRolloutManagerImplProperties   {
    * (except the first line).
    */
   private String toIndentedString(Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

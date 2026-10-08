@@ -9,52 +9,52 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class OrgApacheJackrabbitOakSegmentSegmentNodeStoreServiceProperties {
-    ConfigNodePropertyString repositoryHome = null
-
-    ConfigNodePropertyString tarmkMode = null
-
-    ConfigNodePropertyInteger tarmkSize = null
-
-    ConfigNodePropertyInteger segmentCacheSize = null
-
-    ConfigNodePropertyInteger stringCacheSize = null
-
-    ConfigNodePropertyInteger templateCacheSize = null
-
-    ConfigNodePropertyInteger stringDeduplicationCacheSize = null
-
-    ConfigNodePropertyInteger templateDeduplicationCacheSize = null
-
-    ConfigNodePropertyInteger nodeDeduplicationCacheSize = null
-
-    ConfigNodePropertyBoolean pauseCompaction = null
-
-    ConfigNodePropertyInteger compactionRetryCount = null
-
-    ConfigNodePropertyInteger compactionForceTimeout = null
-
-    ConfigNodePropertyInteger compactionSizeDeltaEstimation = null
-
-    ConfigNodePropertyBoolean compactionDisableEstimation = null
-
-    ConfigNodePropertyInteger compactionRetainedGenerations = null
-
-    ConfigNodePropertyInteger compactionMemoryThreshold = null
-
-    ConfigNodePropertyInteger compactionProgressLog = null
-
-    ConfigNodePropertyBoolean standby = null
-
-    ConfigNodePropertyBoolean customBlobStore = null
-
-    ConfigNodePropertyBoolean customSegmentStore = null
-
-    ConfigNodePropertyBoolean splitPersistence = null
-
-    ConfigNodePropertyString repositoryBackupDir = null
-
-    ConfigNodePropertyInteger blobGcMaxAgeInSecs = null
-
-    ConfigNodePropertyInteger blobTrackSnapshotIntervalInSecs = null
-
+    
+    ConfigNodePropertyString repositoryHome
+    
+    ConfigNodePropertyString tarmkMode
+    
+    ConfigNodePropertyInteger tarmkSize
+    
+    ConfigNodePropertyInteger segmentCacheSize
+    
+    ConfigNodePropertyInteger stringCacheSize
+    
+    ConfigNodePropertyInteger templateCacheSize
+    
+    ConfigNodePropertyInteger stringDeduplicationCacheSize
+    
+    ConfigNodePropertyInteger templateDeduplicationCacheSize
+    
+    ConfigNodePropertyInteger nodeDeduplicationCacheSize
+    
+    ConfigNodePropertyBoolean pauseCompaction
+    
+    ConfigNodePropertyInteger compactionRetryCount
+    
+    ConfigNodePropertyInteger compactionForceTimeout
+    
+    ConfigNodePropertyInteger compactionSizeDeltaEstimation
+    
+    ConfigNodePropertyBoolean compactionDisableEstimation
+    
+    ConfigNodePropertyInteger compactionRetainedGenerations
+    
+    ConfigNodePropertyInteger compactionMemoryThreshold
+    
+    ConfigNodePropertyInteger compactionProgressLog
+    
+    ConfigNodePropertyBoolean standby
+    
+    ConfigNodePropertyBoolean customBlobStore
+    
+    ConfigNodePropertyBoolean customSegmentStore
+    
+    ConfigNodePropertyBoolean splitPersistence
+    
+    ConfigNodePropertyString repositoryBackupDir
+    
+    ConfigNodePropertyInteger blobGcMaxAgeInSecs
+    
+    ConfigNodePropertyInteger blobTrackSnapshotIntervalInSecs
 }

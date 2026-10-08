@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqSocialIdeationClientEndpointsImplIdeatio
 
 @Canonical
 class ComAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsSInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsSProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsSProperties properties
 }

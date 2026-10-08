@@ -8,10 +8,10 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeGraniteSecurityUserUserPropertiesServiceProperties {
-    ConfigNodePropertyString adapterCondition = null
-
-    ConfigNodePropertyArray graniteUserpropertiesNodetypes = null
-
-    ConfigNodePropertyArray graniteUserpropertiesResourcetypes = null
-
+    
+    ConfigNodePropertyString adapterCondition
+    
+    ConfigNodePropertyArray graniteUserpropertiesNodetypes
+    
+    ConfigNodePropertyArray graniteUserpropertiesResourcetypes
 }

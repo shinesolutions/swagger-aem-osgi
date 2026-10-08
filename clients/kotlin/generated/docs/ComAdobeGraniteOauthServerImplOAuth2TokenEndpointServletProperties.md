@@ -2,12 +2,12 @@
 # ComAdobeGraniteOauthServerImplOAuth2TokenEndpointServletProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**oauthPeriodissuer** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**oauthPeriodaccessPeriodtokenPeriodexpiresPeriodin** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**osgiPeriodhttpPeriodwhiteboardPeriodservletPeriodpattern** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**osgiPeriodhttpPeriodwhiteboardPeriodcontextPeriodselect** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **oauthIssuer** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **oauthAccessTokenExpiresIn** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **osgiHttpWhiteboardServletPattern** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **osgiHttpWhiteboardContextSelect** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
 
 
 

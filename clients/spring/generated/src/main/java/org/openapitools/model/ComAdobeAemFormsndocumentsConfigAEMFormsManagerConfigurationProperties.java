@@ -1,27 +1,38 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyBoolean;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComAdobeAemFormsndocumentsConfigAEMFormsManagerConfigurationProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComAdobeAemFormsndocumentsConfigAEMFormsManagerConfigurationProperties   {
-  @JsonProperty("formsManagerConfig.includeOOTBTemplates")
-  private ConfigNodePropertyBoolean formsManagerConfigIncludeOOTBTemplates = null;
+@JsonTypeName("comAdobeAemFormsndocumentsConfigAEMFormsManagerConfigurationProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComAdobeAemFormsndocumentsConfigAEMFormsManagerConfigurationProperties {
 
-  @JsonProperty("formsManagerConfig.includeDeprecatedTemplates")
-  private ConfigNodePropertyBoolean formsManagerConfigIncludeDeprecatedTemplates = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean formsManagerConfigIncludeOOTBTemplates;
 
-  public ComAdobeAemFormsndocumentsConfigAEMFormsManagerConfigurationProperties formsManagerConfigIncludeOOTBTemplates(ConfigNodePropertyBoolean formsManagerConfigIncludeOOTBTemplates) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean formsManagerConfigIncludeDeprecatedTemplates;
+
+  public ComAdobeAemFormsndocumentsConfigAEMFormsManagerConfigurationProperties formsManagerConfigIncludeOOTBTemplates(@Nullable ConfigNodePropertyBoolean formsManagerConfigIncludeOOTBTemplates) {
     this.formsManagerConfigIncludeOOTBTemplates = formsManagerConfigIncludeOOTBTemplates;
     return this;
   }
@@ -29,20 +40,20 @@ public class ComAdobeAemFormsndocumentsConfigAEMFormsManagerConfigurationPropert
   /**
    * Get formsManagerConfigIncludeOOTBTemplates
    * @return formsManagerConfigIncludeOOTBTemplates
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getFormsManagerConfigIncludeOOTBTemplates() {
+   */
+  @Valid 
+  @Schema(name = "formsManagerConfig.includeOOTBTemplates", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("formsManagerConfig.includeOOTBTemplates")
+  public @Nullable ConfigNodePropertyBoolean getFormsManagerConfigIncludeOOTBTemplates() {
     return formsManagerConfigIncludeOOTBTemplates;
   }
 
-  public void setFormsManagerConfigIncludeOOTBTemplates(ConfigNodePropertyBoolean formsManagerConfigIncludeOOTBTemplates) {
+  @JsonProperty("formsManagerConfig.includeOOTBTemplates")
+  public void setFormsManagerConfigIncludeOOTBTemplates(@Nullable ConfigNodePropertyBoolean formsManagerConfigIncludeOOTBTemplates) {
     this.formsManagerConfigIncludeOOTBTemplates = formsManagerConfigIncludeOOTBTemplates;
   }
 
-  public ComAdobeAemFormsndocumentsConfigAEMFormsManagerConfigurationProperties formsManagerConfigIncludeDeprecatedTemplates(ConfigNodePropertyBoolean formsManagerConfigIncludeDeprecatedTemplates) {
+  public ComAdobeAemFormsndocumentsConfigAEMFormsManagerConfigurationProperties formsManagerConfigIncludeDeprecatedTemplates(@Nullable ConfigNodePropertyBoolean formsManagerConfigIncludeDeprecatedTemplates) {
     this.formsManagerConfigIncludeDeprecatedTemplates = formsManagerConfigIncludeDeprecatedTemplates;
     return this;
   }
@@ -50,22 +61,21 @@ public class ComAdobeAemFormsndocumentsConfigAEMFormsManagerConfigurationPropert
   /**
    * Get formsManagerConfigIncludeDeprecatedTemplates
    * @return formsManagerConfigIncludeDeprecatedTemplates
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getFormsManagerConfigIncludeDeprecatedTemplates() {
+   */
+  @Valid 
+  @Schema(name = "formsManagerConfig.includeDeprecatedTemplates", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("formsManagerConfig.includeDeprecatedTemplates")
+  public @Nullable ConfigNodePropertyBoolean getFormsManagerConfigIncludeDeprecatedTemplates() {
     return formsManagerConfigIncludeDeprecatedTemplates;
   }
 
-  public void setFormsManagerConfigIncludeDeprecatedTemplates(ConfigNodePropertyBoolean formsManagerConfigIncludeDeprecatedTemplates) {
+  @JsonProperty("formsManagerConfig.includeDeprecatedTemplates")
+  public void setFormsManagerConfigIncludeDeprecatedTemplates(@Nullable ConfigNodePropertyBoolean formsManagerConfigIncludeDeprecatedTemplates) {
     this.formsManagerConfigIncludeDeprecatedTemplates = formsManagerConfigIncludeDeprecatedTemplates;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -86,7 +96,6 @@ public class ComAdobeAemFormsndocumentsConfigAEMFormsManagerConfigurationPropert
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComAdobeAemFormsndocumentsConfigAEMFormsManagerConfigurationProperties {\n");
-    
     sb.append("    formsManagerConfigIncludeOOTBTemplates: ").append(toIndentedString(formsManagerConfigIncludeOOTBTemplates)).append("\n");
     sb.append("    formsManagerConfigIncludeDeprecatedTemplates: ").append(toIndentedString(formsManagerConfigIncludeDeprecatedTemplates)).append("\n");
     sb.append("}");
@@ -97,11 +106,8 @@ public class ComAdobeAemFormsndocumentsConfigAEMFormsManagerConfigurationPropert
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

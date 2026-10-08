@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqDamCommonsUtilImplAssetCacheImplProperties
 
 @Canonical
 class ComDayCqDamCommonsUtilImplAssetCacheImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqDamCommonsUtilImplAssetCacheImplProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqDamCommonsUtilImplAssetCacheImplProperties properties
 }

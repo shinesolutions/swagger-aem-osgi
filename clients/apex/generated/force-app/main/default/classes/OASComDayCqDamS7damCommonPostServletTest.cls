@@ -72,8 +72,8 @@ private class OASComDayCqDamS7damCommonPostServletTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqDamS7damCommonPostServlet comDayCqDamS7damCommonPostServletsSetModifyHandlerProperties = new OASComDayCqDamS7damCommonPostServlet();
-        Map<String, String> propertyMappings = comDayCqDamS7damCommonPostServletsSetModifyHandlerProperties.getPropertyMappings();
-        System.assertEquals('slingPostOperation', propertyMappings.get('sling.post.operation'));
-        System.assertEquals('slingServletMethods', propertyMappings.get('sling.servlet.methods'));
+        Map<String, String> x-property-mappings = comDayCqDamS7damCommonPostServletsSetModifyHandlerProperties.getx-property-mappings();
+        System.assertEquals('slingPostOperation', x-property-mappings.get('sling.post.operation'));
+        System.assertEquals('slingServletMethods', x-property-mappings.get('sling.servlet.methods'));
     }
 }

@@ -7,16 +7,16 @@ import org.openapitools.model.OrgApacheSlingEngineParametersProperties;
 
 @Canonical
 class OrgApacheSlingEngineParametersInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheSlingEngineParametersProperties properties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheSlingEngineParametersProperties properties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

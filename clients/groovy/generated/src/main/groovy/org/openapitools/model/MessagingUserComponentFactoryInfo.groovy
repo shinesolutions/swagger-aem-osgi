@@ -7,12 +7,12 @@ import org.openapitools.model.MessagingUserComponentFactoryProperties;
 
 @Canonical
 class MessagingUserComponentFactoryInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    MessagingUserComponentFactoryProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    MessagingUserComponentFactoryProperties properties
 }

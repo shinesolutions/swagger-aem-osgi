@@ -1,0 +1,22 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "scheduler_period" },
+      {"model": "scheduler_concurrent" },
+      {"model": "path" },
+      {"model": "workspace" },
+      {"model": "keywords_path" },
+      {"model": "async_entries" },
+    ]
+  }]
+}

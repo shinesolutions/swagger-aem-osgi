@@ -4,77 +4,118 @@ import apimodels.ConfigNodePropertyArray;
 import apimodels.ConfigNodePropertyBoolean;
 import apimodels.ConfigNodePropertyInteger;
 import apimodels.ConfigNodePropertyString;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties   {
   @JsonProperty("message.properties")
-  private ConfigNodePropertyArray messageProperties = null;
+  @Valid
+
+  private ConfigNodePropertyArray messageProperties;
 
   @JsonProperty("messageBoxSizeLimit")
-  private ConfigNodePropertyInteger messageBoxSizeLimit = null;
+  @Valid
+
+  private ConfigNodePropertyInteger messageBoxSizeLimit;
 
   @JsonProperty("messageCountLimit")
-  private ConfigNodePropertyInteger messageCountLimit = null;
+  @Valid
+
+  private ConfigNodePropertyInteger messageCountLimit;
 
   @JsonProperty("notifyFailure")
-  private ConfigNodePropertyBoolean notifyFailure = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean notifyFailure;
 
   @JsonProperty("failureMessageFrom")
-  private ConfigNodePropertyString failureMessageFrom = null;
+  @Valid
+
+  private ConfigNodePropertyString failureMessageFrom;
 
   @JsonProperty("failureTemplatePath")
-  private ConfigNodePropertyString failureTemplatePath = null;
+  @Valid
+
+  private ConfigNodePropertyString failureTemplatePath;
 
   @JsonProperty("maxRetries")
-  private ConfigNodePropertyInteger maxRetries = null;
+  @Valid
+
+  private ConfigNodePropertyInteger maxRetries;
 
   @JsonProperty("minWaitBetweenRetries")
-  private ConfigNodePropertyInteger minWaitBetweenRetries = null;
+  @Valid
+
+  private ConfigNodePropertyInteger minWaitBetweenRetries;
 
   @JsonProperty("countUpdatePoolSize")
-  private ConfigNodePropertyInteger countUpdatePoolSize = null;
+  @Valid
+
+  private ConfigNodePropertyInteger countUpdatePoolSize;
 
   @JsonProperty("inbox.path")
-  private ConfigNodePropertyString inboxPath = null;
+  @Valid
+
+  private ConfigNodePropertyString inboxPath;
 
   @JsonProperty("sentitems.path")
-  private ConfigNodePropertyString sentitemsPath = null;
+  @Valid
+
+  private ConfigNodePropertyString sentitemsPath;
 
   @JsonProperty("supportAttachments")
-  private ConfigNodePropertyBoolean supportAttachments = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean supportAttachments;
 
   @JsonProperty("supportGroupMessaging")
-  private ConfigNodePropertyBoolean supportGroupMessaging = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean supportGroupMessaging;
 
   @JsonProperty("maxTotalRecipients")
-  private ConfigNodePropertyInteger maxTotalRecipients = null;
+  @Valid
+
+  private ConfigNodePropertyInteger maxTotalRecipients;
 
   @JsonProperty("batchSize")
-  private ConfigNodePropertyInteger batchSize = null;
+  @Valid
+
+  private ConfigNodePropertyInteger batchSize;
 
   @JsonProperty("maxTotalAttachmentSize")
-  private ConfigNodePropertyInteger maxTotalAttachmentSize = null;
+  @Valid
+
+  private ConfigNodePropertyInteger maxTotalAttachmentSize;
 
   @JsonProperty("attachmentTypeBlacklist")
-  private ConfigNodePropertyArray attachmentTypeBlacklist = null;
+  @Valid
+
+  private ConfigNodePropertyArray attachmentTypeBlacklist;
 
   @JsonProperty("allowedAttachmentTypes")
-  private ConfigNodePropertyArray allowedAttachmentTypes = null;
+  @Valid
+
+  private ConfigNodePropertyArray allowedAttachmentTypes;
 
   @JsonProperty("serviceSelector")
-  private ConfigNodePropertyString serviceSelector = null;
+  @Valid
+
+  private ConfigNodePropertyString serviceSelector;
 
   @JsonProperty("fieldWhitelist")
-  private ConfigNodePropertyArray fieldWhitelist = null;
+  @Valid
+
+  private ConfigNodePropertyArray fieldWhitelist;
 
   public ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties messageProperties(ConfigNodePropertyArray messageProperties) {
     this.messageProperties = messageProperties;
@@ -85,7 +126,6 @@ public class ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationPrope
    * Get messageProperties
    * @return messageProperties
   **/
-  @Valid
   public ConfigNodePropertyArray getMessageProperties() {
     return messageProperties;
   }
@@ -103,7 +143,6 @@ public class ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationPrope
    * Get messageBoxSizeLimit
    * @return messageBoxSizeLimit
   **/
-  @Valid
   public ConfigNodePropertyInteger getMessageBoxSizeLimit() {
     return messageBoxSizeLimit;
   }
@@ -121,7 +160,6 @@ public class ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationPrope
    * Get messageCountLimit
    * @return messageCountLimit
   **/
-  @Valid
   public ConfigNodePropertyInteger getMessageCountLimit() {
     return messageCountLimit;
   }
@@ -139,7 +177,6 @@ public class ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationPrope
    * Get notifyFailure
    * @return notifyFailure
   **/
-  @Valid
   public ConfigNodePropertyBoolean getNotifyFailure() {
     return notifyFailure;
   }
@@ -157,7 +194,6 @@ public class ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationPrope
    * Get failureMessageFrom
    * @return failureMessageFrom
   **/
-  @Valid
   public ConfigNodePropertyString getFailureMessageFrom() {
     return failureMessageFrom;
   }
@@ -175,7 +211,6 @@ public class ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationPrope
    * Get failureTemplatePath
    * @return failureTemplatePath
   **/
-  @Valid
   public ConfigNodePropertyString getFailureTemplatePath() {
     return failureTemplatePath;
   }
@@ -193,7 +228,6 @@ public class ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationPrope
    * Get maxRetries
    * @return maxRetries
   **/
-  @Valid
   public ConfigNodePropertyInteger getMaxRetries() {
     return maxRetries;
   }
@@ -211,7 +245,6 @@ public class ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationPrope
    * Get minWaitBetweenRetries
    * @return minWaitBetweenRetries
   **/
-  @Valid
   public ConfigNodePropertyInteger getMinWaitBetweenRetries() {
     return minWaitBetweenRetries;
   }
@@ -229,7 +262,6 @@ public class ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationPrope
    * Get countUpdatePoolSize
    * @return countUpdatePoolSize
   **/
-  @Valid
   public ConfigNodePropertyInteger getCountUpdatePoolSize() {
     return countUpdatePoolSize;
   }
@@ -247,7 +279,6 @@ public class ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationPrope
    * Get inboxPath
    * @return inboxPath
   **/
-  @Valid
   public ConfigNodePropertyString getInboxPath() {
     return inboxPath;
   }
@@ -265,7 +296,6 @@ public class ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationPrope
    * Get sentitemsPath
    * @return sentitemsPath
   **/
-  @Valid
   public ConfigNodePropertyString getSentitemsPath() {
     return sentitemsPath;
   }
@@ -283,7 +313,6 @@ public class ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationPrope
    * Get supportAttachments
    * @return supportAttachments
   **/
-  @Valid
   public ConfigNodePropertyBoolean getSupportAttachments() {
     return supportAttachments;
   }
@@ -301,7 +330,6 @@ public class ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationPrope
    * Get supportGroupMessaging
    * @return supportGroupMessaging
   **/
-  @Valid
   public ConfigNodePropertyBoolean getSupportGroupMessaging() {
     return supportGroupMessaging;
   }
@@ -319,7 +347,6 @@ public class ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationPrope
    * Get maxTotalRecipients
    * @return maxTotalRecipients
   **/
-  @Valid
   public ConfigNodePropertyInteger getMaxTotalRecipients() {
     return maxTotalRecipients;
   }
@@ -337,7 +364,6 @@ public class ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationPrope
    * Get batchSize
    * @return batchSize
   **/
-  @Valid
   public ConfigNodePropertyInteger getBatchSize() {
     return batchSize;
   }
@@ -355,7 +381,6 @@ public class ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationPrope
    * Get maxTotalAttachmentSize
    * @return maxTotalAttachmentSize
   **/
-  @Valid
   public ConfigNodePropertyInteger getMaxTotalAttachmentSize() {
     return maxTotalAttachmentSize;
   }
@@ -373,7 +398,6 @@ public class ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationPrope
    * Get attachmentTypeBlacklist
    * @return attachmentTypeBlacklist
   **/
-  @Valid
   public ConfigNodePropertyArray getAttachmentTypeBlacklist() {
     return attachmentTypeBlacklist;
   }
@@ -391,7 +415,6 @@ public class ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationPrope
    * Get allowedAttachmentTypes
    * @return allowedAttachmentTypes
   **/
-  @Valid
   public ConfigNodePropertyArray getAllowedAttachmentTypes() {
     return allowedAttachmentTypes;
   }
@@ -409,7 +432,6 @@ public class ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationPrope
    * Get serviceSelector
    * @return serviceSelector
   **/
-  @Valid
   public ConfigNodePropertyString getServiceSelector() {
     return serviceSelector;
   }
@@ -427,7 +449,6 @@ public class ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationPrope
    * Get fieldWhitelist
    * @return fieldWhitelist
   **/
-  @Valid
   public ConfigNodePropertyArray getFieldWhitelist() {
     return fieldWhitelist;
   }
@@ -438,7 +459,7 @@ public class ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationPrope
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -507,11 +528,8 @@ public class ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationPrope
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

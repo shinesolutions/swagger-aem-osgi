@@ -1,3 +1,13 @@
+/*
+ * Adobe Experience Manager OSGI config (AEM) API
+ *
+ * Swagger AEM OSGI is an OpenAPI specification for Adobe Experience Manager (AEM) OSGI Configurations API
+ *
+ * OpenAPI document version: 1.0.0-pre.0
+ * Maintained by: opensource@shinesolutions.com
+ *
+ * AUTO-GENERATED FILE, DO NOT MODIFY!
+ */
 package org.openapitools.model;
 
 import java.util.Objects;
@@ -11,19 +21,19 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2019-08-05T00:56:20.785Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2026-10-07T12:53:42.280804918Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplProperties   {
   
-  private ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceMultipartuploadMinsizeName = null;
-  private ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceMultipartuploadPartsizeName = null;
-  private ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceMultipartuploadNumthreadName = null;
-  private ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceHttpReadtimeoutName = null;
-  private ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceHttpConnectiontimeoutName = null;
-  private ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceHttpMaxretrycountName = null;
-  private ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceUploadprogressIntervalName = null;
+  private ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceMultipartuploadMinsizeName;
+  private ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceMultipartuploadPartsizeName;
+  private ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceMultipartuploadNumthreadName;
+  private ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceHttpReadtimeoutName;
+  private ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceHttpConnectiontimeoutName;
+  private ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceHttpMaxretrycountName;
+  private ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceUploadprogressIntervalName;
 
   /**
-   **/
+   */
   public ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplProperties cqDamS7damVideoproxyclientserviceMultipartuploadMinsizeName(ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceMultipartuploadMinsizeName) {
     this.cqDamS7damVideoproxyclientserviceMultipartuploadMinsizeName = cqDamS7damVideoproxyclientserviceMultipartuploadMinsizeName;
     return this;
@@ -40,7 +50,7 @@ public class ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplPropertie
   }
 
   /**
-   **/
+   */
   public ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplProperties cqDamS7damVideoproxyclientserviceMultipartuploadPartsizeName(ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceMultipartuploadPartsizeName) {
     this.cqDamS7damVideoproxyclientserviceMultipartuploadPartsizeName = cqDamS7damVideoproxyclientserviceMultipartuploadPartsizeName;
     return this;
@@ -57,7 +67,7 @@ public class ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplPropertie
   }
 
   /**
-   **/
+   */
   public ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplProperties cqDamS7damVideoproxyclientserviceMultipartuploadNumthreadName(ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceMultipartuploadNumthreadName) {
     this.cqDamS7damVideoproxyclientserviceMultipartuploadNumthreadName = cqDamS7damVideoproxyclientserviceMultipartuploadNumthreadName;
     return this;
@@ -74,7 +84,7 @@ public class ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplPropertie
   }
 
   /**
-   **/
+   */
   public ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplProperties cqDamS7damVideoproxyclientserviceHttpReadtimeoutName(ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceHttpReadtimeoutName) {
     this.cqDamS7damVideoproxyclientserviceHttpReadtimeoutName = cqDamS7damVideoproxyclientserviceHttpReadtimeoutName;
     return this;
@@ -91,7 +101,7 @@ public class ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplPropertie
   }
 
   /**
-   **/
+   */
   public ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplProperties cqDamS7damVideoproxyclientserviceHttpConnectiontimeoutName(ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceHttpConnectiontimeoutName) {
     this.cqDamS7damVideoproxyclientserviceHttpConnectiontimeoutName = cqDamS7damVideoproxyclientserviceHttpConnectiontimeoutName;
     return this;
@@ -108,7 +118,7 @@ public class ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplPropertie
   }
 
   /**
-   **/
+   */
   public ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplProperties cqDamS7damVideoproxyclientserviceHttpMaxretrycountName(ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceHttpMaxretrycountName) {
     this.cqDamS7damVideoproxyclientserviceHttpMaxretrycountName = cqDamS7damVideoproxyclientserviceHttpMaxretrycountName;
     return this;
@@ -125,7 +135,7 @@ public class ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplPropertie
   }
 
   /**
-   **/
+   */
   public ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplProperties cqDamS7damVideoproxyclientserviceUploadprogressIntervalName(ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceUploadprogressIntervalName) {
     this.cqDamS7damVideoproxyclientserviceUploadprogressIntervalName = cqDamS7damVideoproxyclientserviceUploadprogressIntervalName;
     return this;
@@ -143,7 +153,7 @@ public class ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplPropertie
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -185,11 +195,8 @@ public class ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplPropertie
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

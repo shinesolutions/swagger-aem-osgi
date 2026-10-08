@@ -8,8 +8,8 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOveProperties {
-    ConfigNodePropertyBoolean enabled = null
-
-    ConfigNodePropertyInteger serviceRanking = null
-
+    
+    ConfigNodePropertyBoolean enabled
+    
+    ConfigNodePropertyInteger serviceRanking
 }

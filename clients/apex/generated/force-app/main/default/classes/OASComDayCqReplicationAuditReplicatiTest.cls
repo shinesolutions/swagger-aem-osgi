@@ -72,7 +72,7 @@ private class OASComDayCqReplicationAuditReplicatiTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqReplicationAuditReplicati comDayCqReplicationAuditReplicationEventListenerProperties = new OASComDayCqReplicationAuditReplicati();
-        Map<String, String> propertyMappings = comDayCqReplicationAuditReplicationEventListenerProperties.getPropertyMappings();
-        System.assertEquals('serviceRanking', propertyMappings.get('service.ranking'));
+        Map<String, String> x-property-mappings = comDayCqReplicationAuditReplicationEventListenerProperties.getx-property-mappings();
+        System.assertEquals('serviceRanking', x-property-mappings.get('service.ranking'));
     }
 }

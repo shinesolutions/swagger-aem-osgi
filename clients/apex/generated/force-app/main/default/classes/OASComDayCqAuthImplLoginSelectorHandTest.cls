@@ -72,13 +72,13 @@ private class OASComDayCqAuthImplLoginSelectorHandTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqAuthImplLoginSelectorHand comDayCqAuthImplLoginSelectorHandlerProperties = new OASComDayCqAuthImplLoginSelectorHand();
-        Map<String, String> propertyMappings = comDayCqAuthImplLoginSelectorHandlerProperties.getPropertyMappings();
-        System.assertEquals('serviceRanking', propertyMappings.get('service.ranking'));
-        System.assertEquals('authLoginselectorMappings', propertyMappings.get('auth.loginselector.mappings'));
-        System.assertEquals('authLoginselectorChangepwMappings', propertyMappings.get('auth.loginselector.changepw.mappings'));
-        System.assertEquals('authLoginselectorDefaultloginpage', propertyMappings.get('auth.loginselector.defaultloginpage'));
-        System.assertEquals('authLoginselectorDefaultchangepwpage', propertyMappings.get('auth.loginselector.defaultchangepwpage'));
-        System.assertEquals('authLoginselectorHandle', propertyMappings.get('auth.loginselector.handle'));
-        System.assertEquals('authLoginselectorHandleAllExtensions', propertyMappings.get('auth.loginselector.handle.all.extensions'));
+        Map<String, String> x-property-mappings = comDayCqAuthImplLoginSelectorHandlerProperties.getx-property-mappings();
+        System.assertEquals('serviceRanking', x-property-mappings.get('service.ranking'));
+        System.assertEquals('authLoginselectorMappings', x-property-mappings.get('auth.loginselector.mappings'));
+        System.assertEquals('authLoginselectorChangepwMappings', x-property-mappings.get('auth.loginselector.changepw.mappings'));
+        System.assertEquals('authLoginselectorDefaultloginpage', x-property-mappings.get('auth.loginselector.defaultloginpage'));
+        System.assertEquals('authLoginselectorDefaultchangepwpage', x-property-mappings.get('auth.loginselector.defaultchangepwpage'));
+        System.assertEquals('authLoginselectorHandle', x-property-mappings.get('auth.loginselector.handle'));
+        System.assertEquals('authLoginselectorHandleAllExtensions', x-property-mappings.get('auth.loginselector.handle.all.extensions'));
     }
 }

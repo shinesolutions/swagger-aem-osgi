@@ -7,8 +7,8 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCoProperties {
-    ConfigNodePropertyString solrHomePath = null
-
-    ConfigNodePropertyString solrCoreName = null
-
+    
+    ConfigNodePropertyString solrHomePath
+    
+    ConfigNodePropertyString solrCoreName
 }

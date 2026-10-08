@@ -3,35 +3,48 @@ package apimodels;
 import apimodels.ConfigNodePropertyBoolean;
 import apimodels.ConfigNodePropertyDropDown;
 import apimodels.ConfigNodePropertyString;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * OrgApacheSlingEngineImplLogRequestLoggerProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class OrgApacheSlingEngineImplLogRequestLoggerProperties   {
   @JsonProperty("request.log.output")
-  private ConfigNodePropertyString requestLogOutput = null;
+  @Valid
+
+  private ConfigNodePropertyString requestLogOutput;
 
   @JsonProperty("request.log.outputtype")
-  private ConfigNodePropertyDropDown requestLogOutputtype = null;
+  @Valid
+
+  private ConfigNodePropertyDropDown requestLogOutputtype;
 
   @JsonProperty("request.log.enabled")
-  private ConfigNodePropertyBoolean requestLogEnabled = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean requestLogEnabled;
 
   @JsonProperty("access.log.output")
-  private ConfigNodePropertyString accessLogOutput = null;
+  @Valid
+
+  private ConfigNodePropertyString accessLogOutput;
 
   @JsonProperty("access.log.outputtype")
-  private ConfigNodePropertyDropDown accessLogOutputtype = null;
+  @Valid
+
+  private ConfigNodePropertyDropDown accessLogOutputtype;
 
   @JsonProperty("access.log.enabled")
-  private ConfigNodePropertyBoolean accessLogEnabled = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean accessLogEnabled;
 
   public OrgApacheSlingEngineImplLogRequestLoggerProperties requestLogOutput(ConfigNodePropertyString requestLogOutput) {
     this.requestLogOutput = requestLogOutput;
@@ -42,7 +55,6 @@ public class OrgApacheSlingEngineImplLogRequestLoggerProperties   {
    * Get requestLogOutput
    * @return requestLogOutput
   **/
-  @Valid
   public ConfigNodePropertyString getRequestLogOutput() {
     return requestLogOutput;
   }
@@ -60,7 +72,6 @@ public class OrgApacheSlingEngineImplLogRequestLoggerProperties   {
    * Get requestLogOutputtype
    * @return requestLogOutputtype
   **/
-  @Valid
   public ConfigNodePropertyDropDown getRequestLogOutputtype() {
     return requestLogOutputtype;
   }
@@ -78,7 +89,6 @@ public class OrgApacheSlingEngineImplLogRequestLoggerProperties   {
    * Get requestLogEnabled
    * @return requestLogEnabled
   **/
-  @Valid
   public ConfigNodePropertyBoolean getRequestLogEnabled() {
     return requestLogEnabled;
   }
@@ -96,7 +106,6 @@ public class OrgApacheSlingEngineImplLogRequestLoggerProperties   {
    * Get accessLogOutput
    * @return accessLogOutput
   **/
-  @Valid
   public ConfigNodePropertyString getAccessLogOutput() {
     return accessLogOutput;
   }
@@ -114,7 +123,6 @@ public class OrgApacheSlingEngineImplLogRequestLoggerProperties   {
    * Get accessLogOutputtype
    * @return accessLogOutputtype
   **/
-  @Valid
   public ConfigNodePropertyDropDown getAccessLogOutputtype() {
     return accessLogOutputtype;
   }
@@ -132,7 +140,6 @@ public class OrgApacheSlingEngineImplLogRequestLoggerProperties   {
    * Get accessLogEnabled
    * @return accessLogEnabled
   **/
-  @Valid
   public ConfigNodePropertyBoolean getAccessLogEnabled() {
     return accessLogEnabled;
   }
@@ -143,7 +150,7 @@ public class OrgApacheSlingEngineImplLogRequestLoggerProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -184,11 +191,8 @@ public class OrgApacheSlingEngineImplLogRequestLoggerProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -1,50 +1,61 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComDayCqReplicationImplContentDurboDurboImportConfigurationProvProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComDayCqReplicationImplContentDurboDurboImportConfigurationProvProperties   {
-  @JsonProperty("preserve.hierarchy.nodes")
-  private ConfigNodePropertyBoolean preserveHierarchyNodes = null;
+@JsonTypeName("comDayCqReplicationImplContentDurboDurboImportConfigurationProvProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComDayCqReplicationImplContentDurboDurboImportConfigurationProvProperties {
 
-  @JsonProperty("ignore.versioning")
-  private ConfigNodePropertyBoolean ignoreVersioning = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean preserveHierarchyNodes;
 
-  @JsonProperty("import.acl")
-  private ConfigNodePropertyBoolean importAcl = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean ignoreVersioning;
 
-  @JsonProperty("save.threshold")
-  private ConfigNodePropertyInteger saveThreshold = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean importAcl;
 
-  @JsonProperty("preserve.user.paths")
-  private ConfigNodePropertyBoolean preserveUserPaths = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger saveThreshold;
 
-  @JsonProperty("preserve.uuid")
-  private ConfigNodePropertyBoolean preserveUuid = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean preserveUserPaths;
 
-  @JsonProperty("preserve.uuid.nodetypes")
-  private ConfigNodePropertyArray preserveUuidNodetypes = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean preserveUuid;
 
-  @JsonProperty("preserve.uuid.subtrees")
-  private ConfigNodePropertyArray preserveUuidSubtrees = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray preserveUuidNodetypes;
 
-  @JsonProperty("auto.commit")
-  private ConfigNodePropertyBoolean autoCommit = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray preserveUuidSubtrees;
 
-  public ComDayCqReplicationImplContentDurboDurboImportConfigurationProvProperties preserveHierarchyNodes(ConfigNodePropertyBoolean preserveHierarchyNodes) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean autoCommit;
+
+  public ComDayCqReplicationImplContentDurboDurboImportConfigurationProvProperties preserveHierarchyNodes(@Nullable ConfigNodePropertyBoolean preserveHierarchyNodes) {
     this.preserveHierarchyNodes = preserveHierarchyNodes;
     return this;
   }
@@ -52,20 +63,20 @@ public class ComDayCqReplicationImplContentDurboDurboImportConfigurationProvProp
   /**
    * Get preserveHierarchyNodes
    * @return preserveHierarchyNodes
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getPreserveHierarchyNodes() {
+   */
+  @Valid 
+  @Schema(name = "preserve.hierarchy.nodes", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("preserve.hierarchy.nodes")
+  public @Nullable ConfigNodePropertyBoolean getPreserveHierarchyNodes() {
     return preserveHierarchyNodes;
   }
 
-  public void setPreserveHierarchyNodes(ConfigNodePropertyBoolean preserveHierarchyNodes) {
+  @JsonProperty("preserve.hierarchy.nodes")
+  public void setPreserveHierarchyNodes(@Nullable ConfigNodePropertyBoolean preserveHierarchyNodes) {
     this.preserveHierarchyNodes = preserveHierarchyNodes;
   }
 
-  public ComDayCqReplicationImplContentDurboDurboImportConfigurationProvProperties ignoreVersioning(ConfigNodePropertyBoolean ignoreVersioning) {
+  public ComDayCqReplicationImplContentDurboDurboImportConfigurationProvProperties ignoreVersioning(@Nullable ConfigNodePropertyBoolean ignoreVersioning) {
     this.ignoreVersioning = ignoreVersioning;
     return this;
   }
@@ -73,20 +84,20 @@ public class ComDayCqReplicationImplContentDurboDurboImportConfigurationProvProp
   /**
    * Get ignoreVersioning
    * @return ignoreVersioning
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getIgnoreVersioning() {
+   */
+  @Valid 
+  @Schema(name = "ignore.versioning", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("ignore.versioning")
+  public @Nullable ConfigNodePropertyBoolean getIgnoreVersioning() {
     return ignoreVersioning;
   }
 
-  public void setIgnoreVersioning(ConfigNodePropertyBoolean ignoreVersioning) {
+  @JsonProperty("ignore.versioning")
+  public void setIgnoreVersioning(@Nullable ConfigNodePropertyBoolean ignoreVersioning) {
     this.ignoreVersioning = ignoreVersioning;
   }
 
-  public ComDayCqReplicationImplContentDurboDurboImportConfigurationProvProperties importAcl(ConfigNodePropertyBoolean importAcl) {
+  public ComDayCqReplicationImplContentDurboDurboImportConfigurationProvProperties importAcl(@Nullable ConfigNodePropertyBoolean importAcl) {
     this.importAcl = importAcl;
     return this;
   }
@@ -94,20 +105,20 @@ public class ComDayCqReplicationImplContentDurboDurboImportConfigurationProvProp
   /**
    * Get importAcl
    * @return importAcl
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getImportAcl() {
+   */
+  @Valid 
+  @Schema(name = "import.acl", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("import.acl")
+  public @Nullable ConfigNodePropertyBoolean getImportAcl() {
     return importAcl;
   }
 
-  public void setImportAcl(ConfigNodePropertyBoolean importAcl) {
+  @JsonProperty("import.acl")
+  public void setImportAcl(@Nullable ConfigNodePropertyBoolean importAcl) {
     this.importAcl = importAcl;
   }
 
-  public ComDayCqReplicationImplContentDurboDurboImportConfigurationProvProperties saveThreshold(ConfigNodePropertyInteger saveThreshold) {
+  public ComDayCqReplicationImplContentDurboDurboImportConfigurationProvProperties saveThreshold(@Nullable ConfigNodePropertyInteger saveThreshold) {
     this.saveThreshold = saveThreshold;
     return this;
   }
@@ -115,20 +126,20 @@ public class ComDayCqReplicationImplContentDurboDurboImportConfigurationProvProp
   /**
    * Get saveThreshold
    * @return saveThreshold
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getSaveThreshold() {
+   */
+  @Valid 
+  @Schema(name = "save.threshold", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("save.threshold")
+  public @Nullable ConfigNodePropertyInteger getSaveThreshold() {
     return saveThreshold;
   }
 
-  public void setSaveThreshold(ConfigNodePropertyInteger saveThreshold) {
+  @JsonProperty("save.threshold")
+  public void setSaveThreshold(@Nullable ConfigNodePropertyInteger saveThreshold) {
     this.saveThreshold = saveThreshold;
   }
 
-  public ComDayCqReplicationImplContentDurboDurboImportConfigurationProvProperties preserveUserPaths(ConfigNodePropertyBoolean preserveUserPaths) {
+  public ComDayCqReplicationImplContentDurboDurboImportConfigurationProvProperties preserveUserPaths(@Nullable ConfigNodePropertyBoolean preserveUserPaths) {
     this.preserveUserPaths = preserveUserPaths;
     return this;
   }
@@ -136,20 +147,20 @@ public class ComDayCqReplicationImplContentDurboDurboImportConfigurationProvProp
   /**
    * Get preserveUserPaths
    * @return preserveUserPaths
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getPreserveUserPaths() {
+   */
+  @Valid 
+  @Schema(name = "preserve.user.paths", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("preserve.user.paths")
+  public @Nullable ConfigNodePropertyBoolean getPreserveUserPaths() {
     return preserveUserPaths;
   }
 
-  public void setPreserveUserPaths(ConfigNodePropertyBoolean preserveUserPaths) {
+  @JsonProperty("preserve.user.paths")
+  public void setPreserveUserPaths(@Nullable ConfigNodePropertyBoolean preserveUserPaths) {
     this.preserveUserPaths = preserveUserPaths;
   }
 
-  public ComDayCqReplicationImplContentDurboDurboImportConfigurationProvProperties preserveUuid(ConfigNodePropertyBoolean preserveUuid) {
+  public ComDayCqReplicationImplContentDurboDurboImportConfigurationProvProperties preserveUuid(@Nullable ConfigNodePropertyBoolean preserveUuid) {
     this.preserveUuid = preserveUuid;
     return this;
   }
@@ -157,20 +168,20 @@ public class ComDayCqReplicationImplContentDurboDurboImportConfigurationProvProp
   /**
    * Get preserveUuid
    * @return preserveUuid
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getPreserveUuid() {
+   */
+  @Valid 
+  @Schema(name = "preserve.uuid", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("preserve.uuid")
+  public @Nullable ConfigNodePropertyBoolean getPreserveUuid() {
     return preserveUuid;
   }
 
-  public void setPreserveUuid(ConfigNodePropertyBoolean preserveUuid) {
+  @JsonProperty("preserve.uuid")
+  public void setPreserveUuid(@Nullable ConfigNodePropertyBoolean preserveUuid) {
     this.preserveUuid = preserveUuid;
   }
 
-  public ComDayCqReplicationImplContentDurboDurboImportConfigurationProvProperties preserveUuidNodetypes(ConfigNodePropertyArray preserveUuidNodetypes) {
+  public ComDayCqReplicationImplContentDurboDurboImportConfigurationProvProperties preserveUuidNodetypes(@Nullable ConfigNodePropertyArray preserveUuidNodetypes) {
     this.preserveUuidNodetypes = preserveUuidNodetypes;
     return this;
   }
@@ -178,20 +189,20 @@ public class ComDayCqReplicationImplContentDurboDurboImportConfigurationProvProp
   /**
    * Get preserveUuidNodetypes
    * @return preserveUuidNodetypes
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getPreserveUuidNodetypes() {
+   */
+  @Valid 
+  @Schema(name = "preserve.uuid.nodetypes", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("preserve.uuid.nodetypes")
+  public @Nullable ConfigNodePropertyArray getPreserveUuidNodetypes() {
     return preserveUuidNodetypes;
   }
 
-  public void setPreserveUuidNodetypes(ConfigNodePropertyArray preserveUuidNodetypes) {
+  @JsonProperty("preserve.uuid.nodetypes")
+  public void setPreserveUuidNodetypes(@Nullable ConfigNodePropertyArray preserveUuidNodetypes) {
     this.preserveUuidNodetypes = preserveUuidNodetypes;
   }
 
-  public ComDayCqReplicationImplContentDurboDurboImportConfigurationProvProperties preserveUuidSubtrees(ConfigNodePropertyArray preserveUuidSubtrees) {
+  public ComDayCqReplicationImplContentDurboDurboImportConfigurationProvProperties preserveUuidSubtrees(@Nullable ConfigNodePropertyArray preserveUuidSubtrees) {
     this.preserveUuidSubtrees = preserveUuidSubtrees;
     return this;
   }
@@ -199,20 +210,20 @@ public class ComDayCqReplicationImplContentDurboDurboImportConfigurationProvProp
   /**
    * Get preserveUuidSubtrees
    * @return preserveUuidSubtrees
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getPreserveUuidSubtrees() {
+   */
+  @Valid 
+  @Schema(name = "preserve.uuid.subtrees", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("preserve.uuid.subtrees")
+  public @Nullable ConfigNodePropertyArray getPreserveUuidSubtrees() {
     return preserveUuidSubtrees;
   }
 
-  public void setPreserveUuidSubtrees(ConfigNodePropertyArray preserveUuidSubtrees) {
+  @JsonProperty("preserve.uuid.subtrees")
+  public void setPreserveUuidSubtrees(@Nullable ConfigNodePropertyArray preserveUuidSubtrees) {
     this.preserveUuidSubtrees = preserveUuidSubtrees;
   }
 
-  public ComDayCqReplicationImplContentDurboDurboImportConfigurationProvProperties autoCommit(ConfigNodePropertyBoolean autoCommit) {
+  public ComDayCqReplicationImplContentDurboDurboImportConfigurationProvProperties autoCommit(@Nullable ConfigNodePropertyBoolean autoCommit) {
     this.autoCommit = autoCommit;
     return this;
   }
@@ -220,22 +231,21 @@ public class ComDayCqReplicationImplContentDurboDurboImportConfigurationProvProp
   /**
    * Get autoCommit
    * @return autoCommit
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getAutoCommit() {
+   */
+  @Valid 
+  @Schema(name = "auto.commit", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("auto.commit")
+  public @Nullable ConfigNodePropertyBoolean getAutoCommit() {
     return autoCommit;
   }
 
-  public void setAutoCommit(ConfigNodePropertyBoolean autoCommit) {
+  @JsonProperty("auto.commit")
+  public void setAutoCommit(@Nullable ConfigNodePropertyBoolean autoCommit) {
     this.autoCommit = autoCommit;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -263,7 +273,6 @@ public class ComDayCqReplicationImplContentDurboDurboImportConfigurationProvProp
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComDayCqReplicationImplContentDurboDurboImportConfigurationProvProperties {\n");
-    
     sb.append("    preserveHierarchyNodes: ").append(toIndentedString(preserveHierarchyNodes)).append("\n");
     sb.append("    ignoreVersioning: ").append(toIndentedString(ignoreVersioning)).append("\n");
     sb.append("    importAcl: ").append(toIndentedString(importAcl)).append("\n");
@@ -281,11 +290,8 @@ public class ComDayCqReplicationImplContentDurboDurboImportConfigurationProvProp
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

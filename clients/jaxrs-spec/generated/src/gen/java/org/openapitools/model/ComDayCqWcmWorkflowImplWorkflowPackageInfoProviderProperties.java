@@ -1,20 +1,31 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comDayCqWcmWorkflowImplWorkflowPackageInfoProviderProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqWcmWorkflowImplWorkflowPackageInfoProviderProperties   {
-  
-  private @Valid ConfigNodePropertyArray workflowpackageinfoproviderFilter = null;
-  private @Valid ConfigNodePropertyString workflowpackageinfoproviderFilterRootpath = null;
+  private ConfigNodePropertyArray workflowpackageinfoproviderFilter;
+  private ConfigNodePropertyString workflowpackageinfoproviderFilterRootpath;
+
+  public ComDayCqWcmWorkflowImplWorkflowPackageInfoProviderProperties() {
+  }
 
   /**
    **/
@@ -26,9 +37,11 @@ public class ComDayCqWcmWorkflowImplWorkflowPackageInfoProviderProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("workflowpackageinfoprovider.filter")
-  public ConfigNodePropertyArray getWorkflowpackageinfoproviderFilter() {
+  @Valid public ConfigNodePropertyArray getWorkflowpackageinfoproviderFilter() {
     return workflowpackageinfoproviderFilter;
   }
+
+  @JsonProperty("workflowpackageinfoprovider.filter")
   public void setWorkflowpackageinfoproviderFilter(ConfigNodePropertyArray workflowpackageinfoproviderFilter) {
     this.workflowpackageinfoproviderFilter = workflowpackageinfoproviderFilter;
   }
@@ -43,16 +56,18 @@ public class ComDayCqWcmWorkflowImplWorkflowPackageInfoProviderProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("workflowpackageinfoprovider.filter.rootpath")
-  public ConfigNodePropertyString getWorkflowpackageinfoproviderFilterRootpath() {
+  @Valid public ConfigNodePropertyString getWorkflowpackageinfoproviderFilterRootpath() {
     return workflowpackageinfoproviderFilterRootpath;
   }
+
+  @JsonProperty("workflowpackageinfoprovider.filter.rootpath")
   public void setWorkflowpackageinfoproviderFilterRootpath(ConfigNodePropertyString workflowpackageinfoproviderFilterRootpath) {
     this.workflowpackageinfoproviderFilterRootpath = workflowpackageinfoproviderFilterRootpath;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -60,8 +75,8 @@ public class ComDayCqWcmWorkflowImplWorkflowPackageInfoProviderProperties   {
       return false;
     }
     ComDayCqWcmWorkflowImplWorkflowPackageInfoProviderProperties comDayCqWcmWorkflowImplWorkflowPackageInfoProviderProperties = (ComDayCqWcmWorkflowImplWorkflowPackageInfoProviderProperties) o;
-    return Objects.equals(workflowpackageinfoproviderFilter, comDayCqWcmWorkflowImplWorkflowPackageInfoProviderProperties.workflowpackageinfoproviderFilter) &&
-        Objects.equals(workflowpackageinfoproviderFilterRootpath, comDayCqWcmWorkflowImplWorkflowPackageInfoProviderProperties.workflowpackageinfoproviderFilterRootpath);
+    return Objects.equals(this.workflowpackageinfoproviderFilter, comDayCqWcmWorkflowImplWorkflowPackageInfoProviderProperties.workflowpackageinfoproviderFilter) &&
+        Objects.equals(this.workflowpackageinfoproviderFilterRootpath, comDayCqWcmWorkflowImplWorkflowPackageInfoProviderProperties.workflowpackageinfoproviderFilterRootpath);
   }
 
   @Override
@@ -84,11 +99,9 @@ public class ComDayCqWcmWorkflowImplWorkflowPackageInfoProviderProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

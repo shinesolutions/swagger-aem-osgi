@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyString;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
@@ -15,24 +16,23 @@ import io.swagger.annotations.ApiModelProperty;
  * OrgApacheSlingJcrJackrabbitServerJndiRegistrationSupportProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingJcrJackrabbitServerJndiRegistrationSupportProperties   {
   @JsonProperty("java.naming.factory.initial")
-  private ConfigNodePropertyString javaNamingFactoryInitial = null;
+  private ConfigNodePropertyString javaNamingFactoryInitial;
 
   @JsonProperty("java.naming.provider.url")
-  private ConfigNodePropertyString javaNamingProviderUrl = null;
+  private ConfigNodePropertyString javaNamingProviderUrl;
 
   public OrgApacheSlingJcrJackrabbitServerJndiRegistrationSupportProperties javaNamingFactoryInitial(ConfigNodePropertyString javaNamingFactoryInitial) {
     this.javaNamingFactoryInitial = javaNamingFactoryInitial;
     return this;
   }
 
-   /**
+  /**
    * Get javaNamingFactoryInitial
    * @return javaNamingFactoryInitial
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getJavaNamingFactoryInitial() {
     return javaNamingFactoryInitial;
@@ -47,10 +47,10 @@ public class OrgApacheSlingJcrJackrabbitServerJndiRegistrationSupportProperties 
     return this;
   }
 
-   /**
+  /**
    * Get javaNamingProviderUrl
    * @return javaNamingProviderUrl
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getJavaNamingProviderUrl() {
     return javaNamingProviderUrl;
@@ -62,7 +62,7 @@ public class OrgApacheSlingJcrJackrabbitServerJndiRegistrationSupportProperties 
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -94,11 +94,8 @@ public class OrgApacheSlingJcrJackrabbitServerJndiRegistrationSupportProperties 
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

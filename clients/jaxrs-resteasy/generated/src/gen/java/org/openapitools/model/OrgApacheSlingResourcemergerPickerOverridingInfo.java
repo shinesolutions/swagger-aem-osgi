@@ -4,21 +4,24 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.OrgApacheSlingResourcemergerPickerOverridingProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2019-08-05T00:59:30.156Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2026-10-07T12:54:21.614735164Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingResourcemergerPickerOverridingInfo   {
   
-  private String pid = null;
-  private String title = null;
-  private String description = null;
-  private OrgApacheSlingResourcemergerPickerOverridingProperties properties = null;
-  private String additionalProperties = null;
-  private String bundleLocation = null;
-  private String serviceLocation = null;
+  private String pid;
+  private String title;
+  private String description;
+  private OrgApacheSlingResourcemergerPickerOverridingProperties properties;
+  private String additionalProperties;
+  private String bundleLocation;
+  private String serviceLocation;
 
   /**
    **/
@@ -61,6 +64,7 @@ public class OrgApacheSlingResourcemergerPickerOverridingInfo   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("properties")
+  @Valid
   public OrgApacheSlingResourcemergerPickerOverridingProperties getProperties() {
     return properties;
   }
@@ -106,7 +110,7 @@ public class OrgApacheSlingResourcemergerPickerOverridingInfo   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -114,13 +118,13 @@ public class OrgApacheSlingResourcemergerPickerOverridingInfo   {
       return false;
     }
     OrgApacheSlingResourcemergerPickerOverridingInfo orgApacheSlingResourcemergerPickerOverridingInfo = (OrgApacheSlingResourcemergerPickerOverridingInfo) o;
-    return Objects.equals(pid, orgApacheSlingResourcemergerPickerOverridingInfo.pid) &&
-        Objects.equals(title, orgApacheSlingResourcemergerPickerOverridingInfo.title) &&
-        Objects.equals(description, orgApacheSlingResourcemergerPickerOverridingInfo.description) &&
-        Objects.equals(properties, orgApacheSlingResourcemergerPickerOverridingInfo.properties) &&
-        Objects.equals(additionalProperties, orgApacheSlingResourcemergerPickerOverridingInfo.additionalProperties) &&
-        Objects.equals(bundleLocation, orgApacheSlingResourcemergerPickerOverridingInfo.bundleLocation) &&
-        Objects.equals(serviceLocation, orgApacheSlingResourcemergerPickerOverridingInfo.serviceLocation);
+    return Objects.equals(this.pid, orgApacheSlingResourcemergerPickerOverridingInfo.pid) &&
+        Objects.equals(this.title, orgApacheSlingResourcemergerPickerOverridingInfo.title) &&
+        Objects.equals(this.description, orgApacheSlingResourcemergerPickerOverridingInfo.description) &&
+        Objects.equals(this.properties, orgApacheSlingResourcemergerPickerOverridingInfo.properties) &&
+        Objects.equals(this.additionalProperties, orgApacheSlingResourcemergerPickerOverridingInfo.additionalProperties) &&
+        Objects.equals(this.bundleLocation, orgApacheSlingResourcemergerPickerOverridingInfo.bundleLocation) &&
+        Objects.equals(this.serviceLocation, orgApacheSlingResourcemergerPickerOverridingInfo.serviceLocation);
   }
 
   @Override
@@ -148,11 +152,8 @@ public class OrgApacheSlingResourcemergerPickerOverridingInfo   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

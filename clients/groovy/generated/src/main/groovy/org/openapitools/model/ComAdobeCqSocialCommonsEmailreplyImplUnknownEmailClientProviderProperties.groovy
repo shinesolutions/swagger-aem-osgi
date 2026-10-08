@@ -8,8 +8,8 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class ComAdobeCqSocialCommonsEmailreplyImplUnknownEmailClientProviderProperties {
-    ConfigNodePropertyArray replyEmailPatterns = null
-
-    ConfigNodePropertyInteger priorityOrder = null
-
+    
+    ConfigNodePropertyArray replyEmailPatterns
+    
+    ConfigNodePropertyInteger priorityOrder
 }

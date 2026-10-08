@@ -7,16 +7,16 @@ import org.openapitools.model.OrgApacheSlingXssImplXSSFilterImplProperties;
 
 @Canonical
 class OrgApacheSlingXssImplXSSFilterImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheSlingXssImplXSSFilterImplProperties properties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheSlingXssImplXSSFilterImplProperties properties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

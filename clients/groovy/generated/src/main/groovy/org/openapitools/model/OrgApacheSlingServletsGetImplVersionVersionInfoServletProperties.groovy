@@ -8,8 +8,8 @@ import org.openapitools.model.ConfigNodePropertyBoolean;
 
 @Canonical
 class OrgApacheSlingServletsGetImplVersionVersionInfoServletProperties {
-    ConfigNodePropertyArray slingServletSelectors = null
-
-    ConfigNodePropertyBoolean ecmaSuport = null
-
+    
+    ConfigNodePropertyArray slingServletSelectors
+    
+    ConfigNodePropertyBoolean ecmaSuport
 }

@@ -72,15 +72,15 @@ private class OASComAdobeCqScreensMonitoringImplScTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeCqScreensMonitoringImplSc comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProperties = new OASComAdobeCqScreensMonitoringImplSc();
-        Map<String, String> propertyMappings = comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProperties.getPropertyMappings();
-        System.assertEquals('comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProjectPath', propertyMappings.get('com.adobe.cq.screens.monitoring.impl.ScreensMonitoringServiceImpl.projectPath'));
-        System.assertEquals('comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplScheduleFrequency', propertyMappings.get('com.adobe.cq.screens.monitoring.impl.ScreensMonitoringServiceImpl.scheduleFrequency'));
-        System.assertEquals('comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplPingTimeout', propertyMappings.get('com.adobe.cq.screens.monitoring.impl.ScreensMonitoringServiceImpl.pingTimeout'));
-        System.assertEquals('comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplRecipients', propertyMappings.get('com.adobe.cq.screens.monitoring.impl.ScreensMonitoringServiceImpl.recipients'));
-        System.assertEquals('comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplSmtpserver', propertyMappings.get('com.adobe.cq.screens.monitoring.impl.ScreensMonitoringServiceImpl.smtpserver'));
-        System.assertEquals('comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplSmtpport', propertyMappings.get('com.adobe.cq.screens.monitoring.impl.ScreensMonitoringServiceImpl.smtpport'));
-        System.assertEquals('comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplUsetls', propertyMappings.get('com.adobe.cq.screens.monitoring.impl.ScreensMonitoringServiceImpl.usetls'));
-        System.assertEquals('comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplUsername', propertyMappings.get('com.adobe.cq.screens.monitoring.impl.ScreensMonitoringServiceImpl.username'));
-        System.assertEquals('comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplPassword', propertyMappings.get('com.adobe.cq.screens.monitoring.impl.ScreensMonitoringServiceImpl.password'));
+        Map<String, String> x-property-mappings = comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProperties.getx-property-mappings();
+        System.assertEquals('comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProjectPath', x-property-mappings.get('com.adobe.cq.screens.monitoring.impl.ScreensMonitoringServiceImpl.projectPath'));
+        System.assertEquals('comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplScheduleFrequency', x-property-mappings.get('com.adobe.cq.screens.monitoring.impl.ScreensMonitoringServiceImpl.scheduleFrequency'));
+        System.assertEquals('comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplPingTimeout', x-property-mappings.get('com.adobe.cq.screens.monitoring.impl.ScreensMonitoringServiceImpl.pingTimeout'));
+        System.assertEquals('comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplRecipients', x-property-mappings.get('com.adobe.cq.screens.monitoring.impl.ScreensMonitoringServiceImpl.recipients'));
+        System.assertEquals('comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplSmtpserver', x-property-mappings.get('com.adobe.cq.screens.monitoring.impl.ScreensMonitoringServiceImpl.smtpserver'));
+        System.assertEquals('comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplSmtpport', x-property-mappings.get('com.adobe.cq.screens.monitoring.impl.ScreensMonitoringServiceImpl.smtpport'));
+        System.assertEquals('comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplUsetls', x-property-mappings.get('com.adobe.cq.screens.monitoring.impl.ScreensMonitoringServiceImpl.usetls'));
+        System.assertEquals('comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplUsername', x-property-mappings.get('com.adobe.cq.screens.monitoring.impl.ScreensMonitoringServiceImpl.username'));
+        System.assertEquals('comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplPassword', x-property-mappings.get('com.adobe.cq.screens.monitoring.impl.ScreensMonitoringServiceImpl.password'));
     }
 }

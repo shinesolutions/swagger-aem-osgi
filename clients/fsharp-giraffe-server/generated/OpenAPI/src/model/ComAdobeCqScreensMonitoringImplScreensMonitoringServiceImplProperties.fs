@@ -1,0 +1,26 @@
+namespace OpenAPI.Model
+
+open System
+open System.Collections.Generic
+open OpenAPI.Model.ConfigNodePropertyArray
+open OpenAPI.Model.ConfigNodePropertyBoolean
+open OpenAPI.Model.ConfigNodePropertyInteger
+open OpenAPI.Model.ConfigNodePropertyString
+
+module ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProperties =
+
+  //#region ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProperties
+
+
+  type comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProperties = {
+    ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProjectPath : ConfigNodePropertyArray;
+    ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplScheduleFrequency : ConfigNodePropertyString;
+    ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplPingTimeout : ConfigNodePropertyInteger;
+    ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplRecipients : ConfigNodePropertyString;
+    ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplSmtpserver : ConfigNodePropertyString;
+    ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplSmtpport : ConfigNodePropertyInteger;
+    ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplUsetls : ConfigNodePropertyBoolean;
+    ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplUsername : ConfigNodePropertyString;
+    ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplPassword : ConfigNodePropertyString;
+  }
+  //#endregion

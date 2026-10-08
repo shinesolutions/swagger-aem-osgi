@@ -1,0 +1,53 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqCommonsImplExternalizerImplProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqCommonsImplExternalizerImplProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComDayCqCommonsImplExternalizerImplProperties {
+    title = ComDayCqCommonsImplExternalizerImplProperties
+    description = ComDayCqCommonsImplExternalizerImplProperties
+    derivedFrom = Root
+    properties {
+        externalizer_domains {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        externalizer_host {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        externalizer_contextpath {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        externalizer_encodedpath {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqCommonsImplExternalizerImplProperties {
+    title = ComDayCqCommonsImplExternalizerImplProperties
+    description = ComDayCqCommonsImplExternalizerImplProperties
+    implements = openapi_server.resourceTypes.ComDayCqCommonsImplExternalizerImplProperties
+
+  }
+}

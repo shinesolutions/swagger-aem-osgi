@@ -1,3 +1,13 @@
+/*
+ * Adobe Experience Manager OSGI config (AEM) API
+ *
+ * Swagger AEM OSGI is an OpenAPI specification for Adobe Experience Manager (AEM) OSGI Configurations API
+ *
+ * OpenAPI document version: 1.0.0-pre.0
+ * Maintained by: opensource@shinesolutions.com
+ *
+ * AUTO-GENERATED FILE, DO NOT MODIFY!
+ */
 package org.openapitools.model;
 
 import java.util.Objects;
@@ -14,19 +24,19 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2019-08-05T00:56:20.785Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2026-10-07T12:53:42.280804918Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingServletsPostImplSlingPostServletProperties   {
   
-  private ConfigNodePropertyArray servletPostDateFormats = null;
-  private ConfigNodePropertyArray servletPostNodeNameHints = null;
-  private ConfigNodePropertyInteger servletPostNodeNameMaxLength = null;
-  private ConfigNodePropertyBoolean servletPostCheckinNewVersionableNodes = null;
-  private ConfigNodePropertyBoolean servletPostAutoCheckout = null;
-  private ConfigNodePropertyBoolean servletPostAutoCheckin = null;
-  private ConfigNodePropertyString servletPostIgnorePattern = null;
+  private ConfigNodePropertyArray servletPostDateFormats;
+  private ConfigNodePropertyArray servletPostNodeNameHints;
+  private ConfigNodePropertyInteger servletPostNodeNameMaxLength;
+  private ConfigNodePropertyBoolean servletPostCheckinNewVersionableNodes;
+  private ConfigNodePropertyBoolean servletPostAutoCheckout;
+  private ConfigNodePropertyBoolean servletPostAutoCheckin;
+  private ConfigNodePropertyString servletPostIgnorePattern;
 
   /**
-   **/
+   */
   public OrgApacheSlingServletsPostImplSlingPostServletProperties servletPostDateFormats(ConfigNodePropertyArray servletPostDateFormats) {
     this.servletPostDateFormats = servletPostDateFormats;
     return this;
@@ -43,7 +53,7 @@ public class OrgApacheSlingServletsPostImplSlingPostServletProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingServletsPostImplSlingPostServletProperties servletPostNodeNameHints(ConfigNodePropertyArray servletPostNodeNameHints) {
     this.servletPostNodeNameHints = servletPostNodeNameHints;
     return this;
@@ -60,7 +70,7 @@ public class OrgApacheSlingServletsPostImplSlingPostServletProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingServletsPostImplSlingPostServletProperties servletPostNodeNameMaxLength(ConfigNodePropertyInteger servletPostNodeNameMaxLength) {
     this.servletPostNodeNameMaxLength = servletPostNodeNameMaxLength;
     return this;
@@ -77,7 +87,7 @@ public class OrgApacheSlingServletsPostImplSlingPostServletProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingServletsPostImplSlingPostServletProperties servletPostCheckinNewVersionableNodes(ConfigNodePropertyBoolean servletPostCheckinNewVersionableNodes) {
     this.servletPostCheckinNewVersionableNodes = servletPostCheckinNewVersionableNodes;
     return this;
@@ -94,7 +104,7 @@ public class OrgApacheSlingServletsPostImplSlingPostServletProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingServletsPostImplSlingPostServletProperties servletPostAutoCheckout(ConfigNodePropertyBoolean servletPostAutoCheckout) {
     this.servletPostAutoCheckout = servletPostAutoCheckout;
     return this;
@@ -111,7 +121,7 @@ public class OrgApacheSlingServletsPostImplSlingPostServletProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingServletsPostImplSlingPostServletProperties servletPostAutoCheckin(ConfigNodePropertyBoolean servletPostAutoCheckin) {
     this.servletPostAutoCheckin = servletPostAutoCheckin;
     return this;
@@ -128,7 +138,7 @@ public class OrgApacheSlingServletsPostImplSlingPostServletProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingServletsPostImplSlingPostServletProperties servletPostIgnorePattern(ConfigNodePropertyString servletPostIgnorePattern) {
     this.servletPostIgnorePattern = servletPostIgnorePattern;
     return this;
@@ -146,7 +156,7 @@ public class OrgApacheSlingServletsPostImplSlingPostServletProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -188,11 +198,8 @@ public class OrgApacheSlingServletsPostImplSlingPostServletProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

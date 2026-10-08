@@ -1,21 +1,32 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiProperties;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("orgApacheSlingDistributionPackagingImplExporterRemoteDistributiInfo")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiInfo   {
-  
-  private @Valid String pid = null;
-  private @Valid String title = null;
-  private @Valid String description = null;
-  private @Valid OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiProperties properties = null;
+  private String pid;
+  private String title;
+  private String description;
+  private OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiProperties properties;
+
+  public OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiInfo() {
+  }
 
   /**
    **/
@@ -30,6 +41,8 @@ public class OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiInfo
   public String getPid() {
     return pid;
   }
+
+  @JsonProperty("pid")
   public void setPid(String pid) {
     this.pid = pid;
   }
@@ -47,6 +60,8 @@ public class OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiInfo
   public String getTitle() {
     return title;
   }
+
+  @JsonProperty("title")
   public void setTitle(String title) {
     this.title = title;
   }
@@ -64,6 +79,8 @@ public class OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiInfo
   public String getDescription() {
     return description;
   }
+
+  @JsonProperty("description")
   public void setDescription(String description) {
     this.description = description;
   }
@@ -78,16 +95,18 @@ public class OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiInfo
   
   @ApiModelProperty(value = "")
   @JsonProperty("properties")
-  public OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiProperties getProperties() {
+  @Valid public OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiProperties getProperties() {
     return properties;
   }
+
+  @JsonProperty("properties")
   public void setProperties(OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiProperties properties) {
     this.properties = properties;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -95,10 +114,10 @@ public class OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiInfo
       return false;
     }
     OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiInfo orgApacheSlingDistributionPackagingImplExporterRemoteDistributiInfo = (OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiInfo) o;
-    return Objects.equals(pid, orgApacheSlingDistributionPackagingImplExporterRemoteDistributiInfo.pid) &&
-        Objects.equals(title, orgApacheSlingDistributionPackagingImplExporterRemoteDistributiInfo.title) &&
-        Objects.equals(description, orgApacheSlingDistributionPackagingImplExporterRemoteDistributiInfo.description) &&
-        Objects.equals(properties, orgApacheSlingDistributionPackagingImplExporterRemoteDistributiInfo.properties);
+    return Objects.equals(this.pid, orgApacheSlingDistributionPackagingImplExporterRemoteDistributiInfo.pid) &&
+        Objects.equals(this.title, orgApacheSlingDistributionPackagingImplExporterRemoteDistributiInfo.title) &&
+        Objects.equals(this.description, orgApacheSlingDistributionPackagingImplExporterRemoteDistributiInfo.description) &&
+        Objects.equals(this.properties, orgApacheSlingDistributionPackagingImplExporterRemoteDistributiInfo.properties);
   }
 
   @Override
@@ -123,11 +142,9 @@ public class OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiInfo
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

@@ -9,12 +9,12 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class ComDayCqSearchImplBuilderQueryBuilderImplProperties {
-    ConfigNodePropertyArray excerptProperties = null
-
-    ConfigNodePropertyInteger cacheMaxEntries = null
-
-    ConfigNodePropertyInteger cacheEntryLifetime = null
-
-    ConfigNodePropertyBoolean xpathUnion = null
-
+    
+    ConfigNodePropertyArray excerptProperties
+    
+    ConfigNodePropertyInteger cacheMaxEntries
+    
+    ConfigNodePropertyInteger cacheEntryLifetime
+    
+    ConfigNodePropertyBoolean xpathUnion
 }

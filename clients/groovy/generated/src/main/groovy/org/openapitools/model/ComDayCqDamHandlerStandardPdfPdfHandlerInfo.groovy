@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqDamHandlerStandardPdfPdfHandlerProperties;
 
 @Canonical
 class ComDayCqDamHandlerStandardPdfPdfHandlerInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqDamHandlerStandardPdfPdfHandlerProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqDamHandlerStandardPdfPdfHandlerProperties properties
 }

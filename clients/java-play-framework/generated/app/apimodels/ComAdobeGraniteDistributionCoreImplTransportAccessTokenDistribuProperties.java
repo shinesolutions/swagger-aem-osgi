@@ -1,29 +1,38 @@
 package apimodels;
 
 import apimodels.ConfigNodePropertyString;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProperties   {
   @JsonProperty("name")
-  private ConfigNodePropertyString name = null;
+  @Valid
+
+  private ConfigNodePropertyString name;
 
   @JsonProperty("serviceName")
-  private ConfigNodePropertyString serviceName = null;
+  @Valid
+
+  private ConfigNodePropertyString serviceName;
 
   @JsonProperty("userId")
-  private ConfigNodePropertyString userId = null;
+  @Valid
+
+  private ConfigNodePropertyString userId;
 
   @JsonProperty("accessTokenProvider.target")
-  private ConfigNodePropertyString accessTokenProviderTarget = null;
+  @Valid
+
+  private ConfigNodePropertyString accessTokenProviderTarget;
 
   public ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProperties name(ConfigNodePropertyString name) {
     this.name = name;
@@ -34,7 +43,6 @@ public class ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProp
    * Get name
    * @return name
   **/
-  @Valid
   public ConfigNodePropertyString getName() {
     return name;
   }
@@ -52,7 +60,6 @@ public class ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProp
    * Get serviceName
    * @return serviceName
   **/
-  @Valid
   public ConfigNodePropertyString getServiceName() {
     return serviceName;
   }
@@ -70,7 +77,6 @@ public class ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProp
    * Get userId
    * @return userId
   **/
-  @Valid
   public ConfigNodePropertyString getUserId() {
     return userId;
   }
@@ -88,7 +94,6 @@ public class ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProp
    * Get accessTokenProviderTarget
    * @return accessTokenProviderTarget
   **/
-  @Valid
   public ConfigNodePropertyString getAccessTokenProviderTarget() {
     return accessTokenProviderTarget;
   }
@@ -99,7 +104,7 @@ public class ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProp
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -136,11 +141,8 @@ public class ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProp
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

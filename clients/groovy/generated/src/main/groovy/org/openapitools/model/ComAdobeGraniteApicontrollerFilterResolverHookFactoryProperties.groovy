@@ -7,316 +7,316 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties {
-    ConfigNodePropertyString comAdobeCqCdnCdnRewriter = null
-
-    ConfigNodePropertyString comAdobeCqCloudConfigComponents = null
-
-    ConfigNodePropertyString comAdobeCqCloudConfigCore = null
-
-    ConfigNodePropertyString comAdobeCqCloudConfigUi = null
-
-    ConfigNodePropertyString comAdobeCqComAdobeCqEditor = null
-
-    ConfigNodePropertyString comAdobeCqComAdobeCqProjectsCore = null
-
-    ConfigNodePropertyString comAdobeCqComAdobeCqProjectsWcmCore = null
-
-    ConfigNodePropertyString comAdobeCqComAdobeCqUiCommons = null
-
-    ConfigNodePropertyString comAdobeCqComAdobeCqWcmStyle = null
-
-    ConfigNodePropertyString comAdobeCqCqActivitymapIntegration = null
-
-    ConfigNodePropertyString comAdobeCqCqContexthubCommons = null
-
-    ConfigNodePropertyString comAdobeCqCqDtm = null
-
-    ConfigNodePropertyString comAdobeCqCqHealthcheck = null
-
-    ConfigNodePropertyString comAdobeCqCqMultisiteTargeting = null
-
-    ConfigNodePropertyString comAdobeCqCqPreUpgradeCleanup = null
-
-    ConfigNodePropertyString comAdobeCqCqProductInfoProvider = null
-
-    ConfigNodePropertyString comAdobeCqCqRestSites = null
-
-    ConfigNodePropertyString comAdobeCqCqSecurityHc = null
-
-    ConfigNodePropertyString comAdobeCqDamCqDamSvgHandler = null
-
-    ConfigNodePropertyString comAdobeCqDamCqScene7Imaging = null
-
-    ConfigNodePropertyString comAdobeCqDtmReactorCore = null
-
-    ConfigNodePropertyString comAdobeCqDtmReactorUi = null
-
-    ConfigNodePropertyString comAdobeCqExpJspelResolver = null
-
-    ConfigNodePropertyString comAdobeCqInboxCqInbox = null
-
-    ConfigNodePropertyString comAdobeCqJsonSchemaParser = null
-
-    ConfigNodePropertyString comAdobeCqMediaCqMediaPublishingDpsFpCore = null
-
-    ConfigNodePropertyString comAdobeCqMobileCqMobileCaas = null
-
-    ConfigNodePropertyString comAdobeCqMobileCqMobileIndexBuilder = null
-
-    ConfigNodePropertyString comAdobeCqMobileCqMobilePhonegapBuild = null
-
-    ConfigNodePropertyString comAdobeCqMyspell = null
-
-    ConfigNodePropertyString comAdobeCqSampleWeRetailCore = null
-
-    ConfigNodePropertyString comAdobeCqScreensComAdobeCqScreensDcc = null
-
-    ConfigNodePropertyString comAdobeCqScreensComAdobeCqScreensMqCore = null
-
-    ConfigNodePropertyString comAdobeCqSocialCqSocialAsProvider = null
-
-    ConfigNodePropertyString comAdobeCqSocialCqSocialBadgingBasicImpl = null
-
-    ConfigNodePropertyString comAdobeCqSocialCqSocialBadgingImpl = null
-
-    ConfigNodePropertyString comAdobeCqSocialCqSocialCalendarImpl = null
-
-    ConfigNodePropertyString comAdobeCqSocialCqSocialContentFragmentsImpl = null
-
-    ConfigNodePropertyString comAdobeCqSocialCqSocialEnablementImpl = null
-
-    ConfigNodePropertyString comAdobeCqSocialCqSocialGraphImpl = null
-
-    ConfigNodePropertyString comAdobeCqSocialCqSocialIdeationImpl = null
-
-    ConfigNodePropertyString comAdobeCqSocialCqSocialJcrProvider = null
-
-    ConfigNodePropertyString comAdobeCqSocialCqSocialMembersImpl = null
-
-    ConfigNodePropertyString comAdobeCqSocialCqSocialMsProvider = null
-
-    ConfigNodePropertyString comAdobeCqSocialCqSocialNotificationsChannelsWeb = null
-
-    ConfigNodePropertyString comAdobeCqSocialCqSocialNotificationsImpl = null
-
-    ConfigNodePropertyString comAdobeCqSocialCqSocialRdbProvider = null
-
-    ConfigNodePropertyString comAdobeCqSocialCqSocialScfImpl = null
-
-    ConfigNodePropertyString comAdobeCqSocialCqSocialScoringBasicImpl = null
-
-    ConfigNodePropertyString comAdobeCqSocialCqSocialScoringImpl = null
-
-    ConfigNodePropertyString comAdobeCqSocialCqSocialServiceusersImpl = null
-
-    ConfigNodePropertyString comAdobeCqSocialCqSocialSrpImpl = null
-
-    ConfigNodePropertyString comAdobeCqSocialCqSocialUgcbaseImpl = null
-
-    ConfigNodePropertyString comAdobeDamCqDamCfmImpl = null
-
-    ConfigNodePropertyString comAdobeFormsFoundationFormsFoundationBase = null
-
-    ConfigNodePropertyString comAdobeGraniteApicontroller = null
-
-    ConfigNodePropertyString comAdobeGraniteAssetCore = null
-
-    ConfigNodePropertyString comAdobeGraniteAuthSso = null
-
-    ConfigNodePropertyString comAdobeGraniteBundlesHcImpl = null
-
-    ConfigNodePropertyString comAdobeGraniteCompatRouter = null
-
-    ConfigNodePropertyString comAdobeGraniteConf = null
-
-    ConfigNodePropertyString comAdobeGraniteConfUiCore = null
-
-    ConfigNodePropertyString comAdobeGraniteCors = null
-
-    ConfigNodePropertyString comAdobeGraniteCrxExplorer = null
-
-    ConfigNodePropertyString comAdobeGraniteCrxdeLite = null
-
-    ConfigNodePropertyString comAdobeGraniteCryptoConfig = null
-
-    ConfigNodePropertyString comAdobeGraniteCryptoExtension = null
-
-    ConfigNodePropertyString comAdobeGraniteCryptoFile = null
-
-    ConfigNodePropertyString comAdobeGraniteCryptoJcr = null
-
-    ConfigNodePropertyString comAdobeGraniteCsrf = null
-
-    ConfigNodePropertyString comAdobeGraniteDistributionCore = null
-
-    ConfigNodePropertyString comAdobeGraniteDropwizardMetrics = null
-
-    ConfigNodePropertyString comAdobeGraniteFragsImpl = null
-
-    ConfigNodePropertyString comAdobeGraniteGibson = null
-
-    ConfigNodePropertyString comAdobeGraniteInfocollector = null
-
-    ConfigNodePropertyString comAdobeGraniteInstallerFactoryPackages = null
-
-    ConfigNodePropertyString comAdobeGraniteJettySsl = null
-
-    ConfigNodePropertyString comAdobeGraniteJobsAsync = null
-
-    ConfigNodePropertyString comAdobeGraniteMaintenanceOak = null
-
-    ConfigNodePropertyString comAdobeGraniteMonitoringCore = null
-
-    ConfigNodePropertyString comAdobeGraniteQueries = null
-
-    ConfigNodePropertyString comAdobeGraniteReplicationHcImpl = null
-
-    ConfigNodePropertyString comAdobeGraniteRepositoryChecker = null
-
-    ConfigNodePropertyString comAdobeGraniteRepositoryHcImpl = null
-
-    ConfigNodePropertyString comAdobeGraniteRestAssets = null
-
-    ConfigNodePropertyString comAdobeGraniteSecurityUi = null
-
-    ConfigNodePropertyString comAdobeGraniteStartup = null
-
-    ConfigNodePropertyString comAdobeGraniteTagsoup = null
-
-    ConfigNodePropertyString comAdobeGraniteTaskmanagementCore = null
-
-    ConfigNodePropertyString comAdobeGraniteTaskmanagementWorkflow = null
-
-    ConfigNodePropertyString comAdobeGraniteUiClientlibsCompilerLess = null
-
-    ConfigNodePropertyString comAdobeGraniteUiClientlibsProcessorGcc = null
-
-    ConfigNodePropertyString comAdobeGraniteWebconsolePlugins = null
-
-    ConfigNodePropertyString comAdobeGraniteWorkflowConsole = null
-
-    ConfigNodePropertyString comAdobeXmpWorkerFilesNativeFragmentLinux = null
-
-    ConfigNodePropertyString comAdobeXmpWorkerFilesNativeFragmentMacosx = null
-
-    ConfigNodePropertyString comAdobeXmpWorkerFilesNativeFragmentWin = null
-
-    ConfigNodePropertyString comDayCommonsOsgiWrapperSimpleJndi = null
-
-    ConfigNodePropertyString comDayCqCqAuthhandler = null
-
-    ConfigNodePropertyString comDayCqCqCompatConfigupdate = null
-
-    ConfigNodePropertyString comDayCqCqLicensebranding = null
-
-    ConfigNodePropertyString comDayCqCqNotifcationImpl = null
-
-    ConfigNodePropertyString comDayCqCqReplicationAudit = null
-
-    ConfigNodePropertyString comDayCqCqSearchExt = null
-
-    ConfigNodePropertyString comDayCqDamCqDamAnnotationPrint = null
-
-    ConfigNodePropertyString comDayCqDamCqDamAssetUsage = null
-
-    ConfigNodePropertyString comDayCqDamCqDamS7dam = null
-
-    ConfigNodePropertyString comDayCqDamCqDamSimilaritysearch = null
-
-    ConfigNodePropertyString comDayCqDamDamWebdavSupport = null
-
-    ConfigNodePropertyString comDayCqPreUpgradeTasks = null
-
-    ConfigNodePropertyString comDayCqReplicationExtensions = null
-
-    ConfigNodePropertyString comDayCqWcmCqMsmCore = null
-
-    ConfigNodePropertyString comDayCqWcmCqWcmTranslation = null
-
-    ConfigNodePropertyString dayCommonsJrawio = null
-
-    ConfigNodePropertyString orgApacheAriesJmxWhiteboard = null
-
-    ConfigNodePropertyString orgApacheFelixHttpSslfilter = null
-
-    ConfigNodePropertyString orgApacheFelixOrgApacheFelixThreaddump = null
-
-    ConfigNodePropertyString orgApacheFelixWebconsolePluginsDs = null
-
-    ConfigNodePropertyString orgApacheFelixWebconsolePluginsEvent = null
-
-    ConfigNodePropertyString orgApacheFelixWebconsolePluginsMemoryusage = null
-
-    ConfigNodePropertyString orgApacheFelixWebconsolePluginsPackageadmin = null
-
-    ConfigNodePropertyString orgApacheJackrabbitOakAuthLdap = null
-
-    ConfigNodePropertyString orgApacheJackrabbitOakSegmentTar = null
-
-    ConfigNodePropertyString orgApacheJackrabbitOakSolrOsgi = null
-
-    ConfigNodePropertyString orgApacheSlingBundleresourceImpl = null
-
-    ConfigNodePropertyString orgApacheSlingCommonsFsclassloader = null
-
-    ConfigNodePropertyString orgApacheSlingCommonsLogWebconsole = null
-
-    ConfigNodePropertyString orgApacheSlingDatasource = null
-
-    ConfigNodePropertyString orgApacheSlingDiscoveryBase = null
-
-    ConfigNodePropertyString orgApacheSlingDiscoveryOak = null
-
-    ConfigNodePropertyString orgApacheSlingDiscoverySupport = null
-
-    ConfigNodePropertyString orgApacheSlingDistributionApi = null
-
-    ConfigNodePropertyString orgApacheSlingDistributionCore = null
-
-    ConfigNodePropertyString orgApacheSlingExtensionsWebconsolesecurityprovider = null
-
-    ConfigNodePropertyString orgApacheSlingHcWebconsole = null
-
-    ConfigNodePropertyString orgApacheSlingInstallerConsole = null
-
-    ConfigNodePropertyString orgApacheSlingInstallerProviderFile = null
-
-    ConfigNodePropertyString orgApacheSlingInstallerProviderJcr = null
-
-    ConfigNodePropertyString orgApacheSlingJcrDavex = null
-
-    ConfigNodePropertyString orgApacheSlingJcrResourcesecurity = null
-
-    ConfigNodePropertyString orgApacheSlingJmxProvider = null
-
-    ConfigNodePropertyString orgApacheSlingLaunchpadInstaller = null
-
-    ConfigNodePropertyString orgApacheSlingModelsImpl = null
-
-    ConfigNodePropertyString orgApacheSlingRepoinitParser = null
-
-    ConfigNodePropertyString orgApacheSlingResourceInventory = null
-
-    ConfigNodePropertyString orgApacheSlingResourceresolver = null
-
-    ConfigNodePropertyString orgApacheSlingScriptingJavascript = null
-
-    ConfigNodePropertyString orgApacheSlingScriptingJst = null
-
-    ConfigNodePropertyString orgApacheSlingScriptingSightlyJsProvider = null
-
-    ConfigNodePropertyString orgApacheSlingScriptingSightlyModelsProvider = null
-
-    ConfigNodePropertyString orgApacheSlingSecurity = null
-
-    ConfigNodePropertyString orgApacheSlingServletsCompat = null
-
-    ConfigNodePropertyString orgApacheSlingServletsGet = null
-
-    ConfigNodePropertyString orgApacheSlingStartupfilterDisabler = null
-
-    ConfigNodePropertyString orgApacheSlingTracer = null
-
-    ConfigNodePropertyString weRetailClientAppCore = null
-
+    
+    ConfigNodePropertyString comAdobeCqCdnCdnRewriter
+    
+    ConfigNodePropertyString comAdobeCqCloudConfigComponents
+    
+    ConfigNodePropertyString comAdobeCqCloudConfigCore
+    
+    ConfigNodePropertyString comAdobeCqCloudConfigUi
+    
+    ConfigNodePropertyString comAdobeCqComAdobeCqEditor
+    
+    ConfigNodePropertyString comAdobeCqComAdobeCqProjectsCore
+    
+    ConfigNodePropertyString comAdobeCqComAdobeCqProjectsWcmCore
+    
+    ConfigNodePropertyString comAdobeCqComAdobeCqUiCommons
+    
+    ConfigNodePropertyString comAdobeCqComAdobeCqWcmStyle
+    
+    ConfigNodePropertyString comAdobeCqCqActivitymapIntegration
+    
+    ConfigNodePropertyString comAdobeCqCqContexthubCommons
+    
+    ConfigNodePropertyString comAdobeCqCqDtm
+    
+    ConfigNodePropertyString comAdobeCqCqHealthcheck
+    
+    ConfigNodePropertyString comAdobeCqCqMultisiteTargeting
+    
+    ConfigNodePropertyString comAdobeCqCqPreUpgradeCleanup
+    
+    ConfigNodePropertyString comAdobeCqCqProductInfoProvider
+    
+    ConfigNodePropertyString comAdobeCqCqRestSites
+    
+    ConfigNodePropertyString comAdobeCqCqSecurityHc
+    
+    ConfigNodePropertyString comAdobeCqDamCqDamSvgHandler
+    
+    ConfigNodePropertyString comAdobeCqDamCqScene7Imaging
+    
+    ConfigNodePropertyString comAdobeCqDtmReactorCore
+    
+    ConfigNodePropertyString comAdobeCqDtmReactorUi
+    
+    ConfigNodePropertyString comAdobeCqExpJspelResolver
+    
+    ConfigNodePropertyString comAdobeCqInboxCqInbox
+    
+    ConfigNodePropertyString comAdobeCqJsonSchemaParser
+    
+    ConfigNodePropertyString comAdobeCqMediaCqMediaPublishingDpsFpCore
+    
+    ConfigNodePropertyString comAdobeCqMobileCqMobileCaas
+    
+    ConfigNodePropertyString comAdobeCqMobileCqMobileIndexBuilder
+    
+    ConfigNodePropertyString comAdobeCqMobileCqMobilePhonegapBuild
+    
+    ConfigNodePropertyString comAdobeCqMyspell
+    
+    ConfigNodePropertyString comAdobeCqSampleWeRetailCore
+    
+    ConfigNodePropertyString comAdobeCqScreensComAdobeCqScreensDcc
+    
+    ConfigNodePropertyString comAdobeCqScreensComAdobeCqScreensMqCore
+    
+    ConfigNodePropertyString comAdobeCqSocialCqSocialAsProvider
+    
+    ConfigNodePropertyString comAdobeCqSocialCqSocialBadgingBasicImpl
+    
+    ConfigNodePropertyString comAdobeCqSocialCqSocialBadgingImpl
+    
+    ConfigNodePropertyString comAdobeCqSocialCqSocialCalendarImpl
+    
+    ConfigNodePropertyString comAdobeCqSocialCqSocialContentFragmentsImpl
+    
+    ConfigNodePropertyString comAdobeCqSocialCqSocialEnablementImpl
+    
+    ConfigNodePropertyString comAdobeCqSocialCqSocialGraphImpl
+    
+    ConfigNodePropertyString comAdobeCqSocialCqSocialIdeationImpl
+    
+    ConfigNodePropertyString comAdobeCqSocialCqSocialJcrProvider
+    
+    ConfigNodePropertyString comAdobeCqSocialCqSocialMembersImpl
+    
+    ConfigNodePropertyString comAdobeCqSocialCqSocialMsProvider
+    
+    ConfigNodePropertyString comAdobeCqSocialCqSocialNotificationsChannelsWeb
+    
+    ConfigNodePropertyString comAdobeCqSocialCqSocialNotificationsImpl
+    
+    ConfigNodePropertyString comAdobeCqSocialCqSocialRdbProvider
+    
+    ConfigNodePropertyString comAdobeCqSocialCqSocialScfImpl
+    
+    ConfigNodePropertyString comAdobeCqSocialCqSocialScoringBasicImpl
+    
+    ConfigNodePropertyString comAdobeCqSocialCqSocialScoringImpl
+    
+    ConfigNodePropertyString comAdobeCqSocialCqSocialServiceusersImpl
+    
+    ConfigNodePropertyString comAdobeCqSocialCqSocialSrpImpl
+    
+    ConfigNodePropertyString comAdobeCqSocialCqSocialUgcbaseImpl
+    
+    ConfigNodePropertyString comAdobeDamCqDamCfmImpl
+    
+    ConfigNodePropertyString comAdobeFormsFoundationFormsFoundationBase
+    
+    ConfigNodePropertyString comAdobeGraniteApicontroller
+    
+    ConfigNodePropertyString comAdobeGraniteAssetCore
+    
+    ConfigNodePropertyString comAdobeGraniteAuthSso
+    
+    ConfigNodePropertyString comAdobeGraniteBundlesHcImpl
+    
+    ConfigNodePropertyString comAdobeGraniteCompatRouter
+    
+    ConfigNodePropertyString comAdobeGraniteConf
+    
+    ConfigNodePropertyString comAdobeGraniteConfUiCore
+    
+    ConfigNodePropertyString comAdobeGraniteCors
+    
+    ConfigNodePropertyString comAdobeGraniteCrxExplorer
+    
+    ConfigNodePropertyString comAdobeGraniteCrxdeLite
+    
+    ConfigNodePropertyString comAdobeGraniteCryptoConfig
+    
+    ConfigNodePropertyString comAdobeGraniteCryptoExtension
+    
+    ConfigNodePropertyString comAdobeGraniteCryptoFile
+    
+    ConfigNodePropertyString comAdobeGraniteCryptoJcr
+    
+    ConfigNodePropertyString comAdobeGraniteCsrf
+    
+    ConfigNodePropertyString comAdobeGraniteDistributionCore
+    
+    ConfigNodePropertyString comAdobeGraniteDropwizardMetrics
+    
+    ConfigNodePropertyString comAdobeGraniteFragsImpl
+    
+    ConfigNodePropertyString comAdobeGraniteGibson
+    
+    ConfigNodePropertyString comAdobeGraniteInfocollector
+    
+    ConfigNodePropertyString comAdobeGraniteInstallerFactoryPackages
+    
+    ConfigNodePropertyString comAdobeGraniteJettySsl
+    
+    ConfigNodePropertyString comAdobeGraniteJobsAsync
+    
+    ConfigNodePropertyString comAdobeGraniteMaintenanceOak
+    
+    ConfigNodePropertyString comAdobeGraniteMonitoringCore
+    
+    ConfigNodePropertyString comAdobeGraniteQueries
+    
+    ConfigNodePropertyString comAdobeGraniteReplicationHcImpl
+    
+    ConfigNodePropertyString comAdobeGraniteRepositoryChecker
+    
+    ConfigNodePropertyString comAdobeGraniteRepositoryHcImpl
+    
+    ConfigNodePropertyString comAdobeGraniteRestAssets
+    
+    ConfigNodePropertyString comAdobeGraniteSecurityUi
+    
+    ConfigNodePropertyString comAdobeGraniteStartup
+    
+    ConfigNodePropertyString comAdobeGraniteTagsoup
+    
+    ConfigNodePropertyString comAdobeGraniteTaskmanagementCore
+    
+    ConfigNodePropertyString comAdobeGraniteTaskmanagementWorkflow
+    
+    ConfigNodePropertyString comAdobeGraniteUiClientlibsCompilerLess
+    
+    ConfigNodePropertyString comAdobeGraniteUiClientlibsProcessorGcc
+    
+    ConfigNodePropertyString comAdobeGraniteWebconsolePlugins
+    
+    ConfigNodePropertyString comAdobeGraniteWorkflowConsole
+    
+    ConfigNodePropertyString comAdobeXmpWorkerFilesNativeFragmentLinux
+    
+    ConfigNodePropertyString comAdobeXmpWorkerFilesNativeFragmentMacosx
+    
+    ConfigNodePropertyString comAdobeXmpWorkerFilesNativeFragmentWin
+    
+    ConfigNodePropertyString comDayCommonsOsgiWrapperSimpleJndi
+    
+    ConfigNodePropertyString comDayCqCqAuthhandler
+    
+    ConfigNodePropertyString comDayCqCqCompatConfigupdate
+    
+    ConfigNodePropertyString comDayCqCqLicensebranding
+    
+    ConfigNodePropertyString comDayCqCqNotifcationImpl
+    
+    ConfigNodePropertyString comDayCqCqReplicationAudit
+    
+    ConfigNodePropertyString comDayCqCqSearchExt
+    
+    ConfigNodePropertyString comDayCqDamCqDamAnnotationPrint
+    
+    ConfigNodePropertyString comDayCqDamCqDamAssetUsage
+    
+    ConfigNodePropertyString comDayCqDamCqDamS7dam
+    
+    ConfigNodePropertyString comDayCqDamCqDamSimilaritysearch
+    
+    ConfigNodePropertyString comDayCqDamDamWebdavSupport
+    
+    ConfigNodePropertyString comDayCqPreUpgradeTasks
+    
+    ConfigNodePropertyString comDayCqReplicationExtensions
+    
+    ConfigNodePropertyString comDayCqWcmCqMsmCore
+    
+    ConfigNodePropertyString comDayCqWcmCqWcmTranslation
+    
+    ConfigNodePropertyString dayCommonsJrawio
+    
+    ConfigNodePropertyString orgApacheAriesJmxWhiteboard
+    
+    ConfigNodePropertyString orgApacheFelixHttpSslfilter
+    
+    ConfigNodePropertyString orgApacheFelixOrgApacheFelixThreaddump
+    
+    ConfigNodePropertyString orgApacheFelixWebconsolePluginsDs
+    
+    ConfigNodePropertyString orgApacheFelixWebconsolePluginsEvent
+    
+    ConfigNodePropertyString orgApacheFelixWebconsolePluginsMemoryusage
+    
+    ConfigNodePropertyString orgApacheFelixWebconsolePluginsPackageadmin
+    
+    ConfigNodePropertyString orgApacheJackrabbitOakAuthLdap
+    
+    ConfigNodePropertyString orgApacheJackrabbitOakSegmentTar
+    
+    ConfigNodePropertyString orgApacheJackrabbitOakSolrOsgi
+    
+    ConfigNodePropertyString orgApacheSlingBundleresourceImpl
+    
+    ConfigNodePropertyString orgApacheSlingCommonsFsclassloader
+    
+    ConfigNodePropertyString orgApacheSlingCommonsLogWebconsole
+    
+    ConfigNodePropertyString orgApacheSlingDatasource
+    
+    ConfigNodePropertyString orgApacheSlingDiscoveryBase
+    
+    ConfigNodePropertyString orgApacheSlingDiscoveryOak
+    
+    ConfigNodePropertyString orgApacheSlingDiscoverySupport
+    
+    ConfigNodePropertyString orgApacheSlingDistributionApi
+    
+    ConfigNodePropertyString orgApacheSlingDistributionCore
+    
+    ConfigNodePropertyString orgApacheSlingExtensionsWebconsolesecurityprovider
+    
+    ConfigNodePropertyString orgApacheSlingHcWebconsole
+    
+    ConfigNodePropertyString orgApacheSlingInstallerConsole
+    
+    ConfigNodePropertyString orgApacheSlingInstallerProviderFile
+    
+    ConfigNodePropertyString orgApacheSlingInstallerProviderJcr
+    
+    ConfigNodePropertyString orgApacheSlingJcrDavex
+    
+    ConfigNodePropertyString orgApacheSlingJcrResourcesecurity
+    
+    ConfigNodePropertyString orgApacheSlingJmxProvider
+    
+    ConfigNodePropertyString orgApacheSlingLaunchpadInstaller
+    
+    ConfigNodePropertyString orgApacheSlingModelsImpl
+    
+    ConfigNodePropertyString orgApacheSlingRepoinitParser
+    
+    ConfigNodePropertyString orgApacheSlingResourceInventory
+    
+    ConfigNodePropertyString orgApacheSlingResourceresolver
+    
+    ConfigNodePropertyString orgApacheSlingScriptingJavascript
+    
+    ConfigNodePropertyString orgApacheSlingScriptingJst
+    
+    ConfigNodePropertyString orgApacheSlingScriptingSightlyJsProvider
+    
+    ConfigNodePropertyString orgApacheSlingScriptingSightlyModelsProvider
+    
+    ConfigNodePropertyString orgApacheSlingSecurity
+    
+    ConfigNodePropertyString orgApacheSlingServletsCompat
+    
+    ConfigNodePropertyString orgApacheSlingServletsGet
+    
+    ConfigNodePropertyString orgApacheSlingStartupfilterDisabler
+    
+    ConfigNodePropertyString orgApacheSlingTracer
+    
+    ConfigNodePropertyString weRetailClientAppCore
 }

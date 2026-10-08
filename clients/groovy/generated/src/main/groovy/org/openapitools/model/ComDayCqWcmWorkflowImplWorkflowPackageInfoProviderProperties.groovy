@@ -8,8 +8,8 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqWcmWorkflowImplWorkflowPackageInfoProviderProperties {
-    ConfigNodePropertyArray workflowpackageinfoproviderFilter = null
-
-    ConfigNodePropertyString workflowpackageinfoproviderFilterRootpath = null
-
+    
+    ConfigNodePropertyArray workflowpackageinfoproviderFilter
+    
+    ConfigNodePropertyString workflowpackageinfoproviderFilterRootpath
 }

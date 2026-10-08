@@ -7,10 +7,10 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class OrgApacheSlingDistributionTransportImplUserCredentialsDistributiProperties {
-    ConfigNodePropertyString name = null
-
-    ConfigNodePropertyString username = null
-
-    ConfigNodePropertyString password = null
-
+    
+    ConfigNodePropertyString name
+    
+    ConfigNodePropertyString username
+    
+    ConfigNodePropertyString password
 }

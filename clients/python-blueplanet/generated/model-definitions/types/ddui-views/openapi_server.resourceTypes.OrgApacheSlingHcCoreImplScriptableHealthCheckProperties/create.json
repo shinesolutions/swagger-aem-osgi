@@ -1,0 +1,21 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "hc_name" },
+      {"model": "hc_tags" },
+      {"model": "hc_mbean_name" },
+      {"model": "expression" },
+      {"model": "language_extension" },
+    ]
+  }]
+}

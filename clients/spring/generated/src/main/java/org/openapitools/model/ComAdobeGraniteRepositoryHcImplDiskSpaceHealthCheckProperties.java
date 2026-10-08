@@ -1,31 +1,42 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyInteger;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComAdobeGraniteRepositoryHcImplDiskSpaceHealthCheckProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComAdobeGraniteRepositoryHcImplDiskSpaceHealthCheckProperties   {
-  @JsonProperty("hc.tags")
-  private ConfigNodePropertyArray hcTags = null;
+@JsonTypeName("comAdobeGraniteRepositoryHcImplDiskSpaceHealthCheckProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComAdobeGraniteRepositoryHcImplDiskSpaceHealthCheckProperties {
 
-  @JsonProperty("disk.space.warn.threshold")
-  private ConfigNodePropertyInteger diskSpaceWarnThreshold = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray hcTags;
 
-  @JsonProperty("disk.space.error.threshold")
-  private ConfigNodePropertyInteger diskSpaceErrorThreshold = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger diskSpaceWarnThreshold;
 
-  public ComAdobeGraniteRepositoryHcImplDiskSpaceHealthCheckProperties hcTags(ConfigNodePropertyArray hcTags) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger diskSpaceErrorThreshold;
+
+  public ComAdobeGraniteRepositoryHcImplDiskSpaceHealthCheckProperties hcTags(@Nullable ConfigNodePropertyArray hcTags) {
     this.hcTags = hcTags;
     return this;
   }
@@ -33,20 +44,20 @@ public class ComAdobeGraniteRepositoryHcImplDiskSpaceHealthCheckProperties   {
   /**
    * Get hcTags
    * @return hcTags
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getHcTags() {
+   */
+  @Valid 
+  @Schema(name = "hc.tags", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("hc.tags")
+  public @Nullable ConfigNodePropertyArray getHcTags() {
     return hcTags;
   }
 
-  public void setHcTags(ConfigNodePropertyArray hcTags) {
+  @JsonProperty("hc.tags")
+  public void setHcTags(@Nullable ConfigNodePropertyArray hcTags) {
     this.hcTags = hcTags;
   }
 
-  public ComAdobeGraniteRepositoryHcImplDiskSpaceHealthCheckProperties diskSpaceWarnThreshold(ConfigNodePropertyInteger diskSpaceWarnThreshold) {
+  public ComAdobeGraniteRepositoryHcImplDiskSpaceHealthCheckProperties diskSpaceWarnThreshold(@Nullable ConfigNodePropertyInteger diskSpaceWarnThreshold) {
     this.diskSpaceWarnThreshold = diskSpaceWarnThreshold;
     return this;
   }
@@ -54,20 +65,20 @@ public class ComAdobeGraniteRepositoryHcImplDiskSpaceHealthCheckProperties   {
   /**
    * Get diskSpaceWarnThreshold
    * @return diskSpaceWarnThreshold
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getDiskSpaceWarnThreshold() {
+   */
+  @Valid 
+  @Schema(name = "disk.space.warn.threshold", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("disk.space.warn.threshold")
+  public @Nullable ConfigNodePropertyInteger getDiskSpaceWarnThreshold() {
     return diskSpaceWarnThreshold;
   }
 
-  public void setDiskSpaceWarnThreshold(ConfigNodePropertyInteger diskSpaceWarnThreshold) {
+  @JsonProperty("disk.space.warn.threshold")
+  public void setDiskSpaceWarnThreshold(@Nullable ConfigNodePropertyInteger diskSpaceWarnThreshold) {
     this.diskSpaceWarnThreshold = diskSpaceWarnThreshold;
   }
 
-  public ComAdobeGraniteRepositoryHcImplDiskSpaceHealthCheckProperties diskSpaceErrorThreshold(ConfigNodePropertyInteger diskSpaceErrorThreshold) {
+  public ComAdobeGraniteRepositoryHcImplDiskSpaceHealthCheckProperties diskSpaceErrorThreshold(@Nullable ConfigNodePropertyInteger diskSpaceErrorThreshold) {
     this.diskSpaceErrorThreshold = diskSpaceErrorThreshold;
     return this;
   }
@@ -75,22 +86,21 @@ public class ComAdobeGraniteRepositoryHcImplDiskSpaceHealthCheckProperties   {
   /**
    * Get diskSpaceErrorThreshold
    * @return diskSpaceErrorThreshold
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getDiskSpaceErrorThreshold() {
+   */
+  @Valid 
+  @Schema(name = "disk.space.error.threshold", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("disk.space.error.threshold")
+  public @Nullable ConfigNodePropertyInteger getDiskSpaceErrorThreshold() {
     return diskSpaceErrorThreshold;
   }
 
-  public void setDiskSpaceErrorThreshold(ConfigNodePropertyInteger diskSpaceErrorThreshold) {
+  @JsonProperty("disk.space.error.threshold")
+  public void setDiskSpaceErrorThreshold(@Nullable ConfigNodePropertyInteger diskSpaceErrorThreshold) {
     this.diskSpaceErrorThreshold = diskSpaceErrorThreshold;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -112,7 +122,6 @@ public class ComAdobeGraniteRepositoryHcImplDiskSpaceHealthCheckProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComAdobeGraniteRepositoryHcImplDiskSpaceHealthCheckProperties {\n");
-    
     sb.append("    hcTags: ").append(toIndentedString(hcTags)).append("\n");
     sb.append("    diskSpaceWarnThreshold: ").append(toIndentedString(diskSpaceWarnThreshold)).append("\n");
     sb.append("    diskSpaceErrorThreshold: ").append(toIndentedString(diskSpaceErrorThreshold)).append("\n");
@@ -124,11 +133,8 @@ public class ComAdobeGraniteRepositoryHcImplDiskSpaceHealthCheckProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

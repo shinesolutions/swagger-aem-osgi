@@ -3,41 +3,58 @@ package apimodels;
 import apimodels.ConfigNodePropertyArray;
 import apimodels.ConfigNodePropertyBoolean;
 import apimodels.ConfigNodePropertyInteger;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * ComAdobeGraniteCorsImplCORSPolicyImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class ComAdobeGraniteCorsImplCORSPolicyImplProperties   {
   @JsonProperty("alloworigin")
-  private ConfigNodePropertyArray alloworigin = null;
+  @Valid
+
+  private ConfigNodePropertyArray alloworigin;
 
   @JsonProperty("alloworiginregexp")
-  private ConfigNodePropertyArray alloworiginregexp = null;
+  @Valid
+
+  private ConfigNodePropertyArray alloworiginregexp;
 
   @JsonProperty("allowedpaths")
-  private ConfigNodePropertyArray allowedpaths = null;
+  @Valid
+
+  private ConfigNodePropertyArray allowedpaths;
 
   @JsonProperty("exposedheaders")
-  private ConfigNodePropertyArray exposedheaders = null;
+  @Valid
+
+  private ConfigNodePropertyArray exposedheaders;
 
   @JsonProperty("maxage")
-  private ConfigNodePropertyInteger maxage = null;
+  @Valid
+
+  private ConfigNodePropertyInteger maxage;
 
   @JsonProperty("supportedheaders")
-  private ConfigNodePropertyArray supportedheaders = null;
+  @Valid
+
+  private ConfigNodePropertyArray supportedheaders;
 
   @JsonProperty("supportedmethods")
-  private ConfigNodePropertyArray supportedmethods = null;
+  @Valid
+
+  private ConfigNodePropertyArray supportedmethods;
 
   @JsonProperty("supportscredentials")
-  private ConfigNodePropertyBoolean supportscredentials = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean supportscredentials;
 
   public ComAdobeGraniteCorsImplCORSPolicyImplProperties alloworigin(ConfigNodePropertyArray alloworigin) {
     this.alloworigin = alloworigin;
@@ -48,7 +65,6 @@ public class ComAdobeGraniteCorsImplCORSPolicyImplProperties   {
    * Get alloworigin
    * @return alloworigin
   **/
-  @Valid
   public ConfigNodePropertyArray getAlloworigin() {
     return alloworigin;
   }
@@ -66,7 +82,6 @@ public class ComAdobeGraniteCorsImplCORSPolicyImplProperties   {
    * Get alloworiginregexp
    * @return alloworiginregexp
   **/
-  @Valid
   public ConfigNodePropertyArray getAlloworiginregexp() {
     return alloworiginregexp;
   }
@@ -84,7 +99,6 @@ public class ComAdobeGraniteCorsImplCORSPolicyImplProperties   {
    * Get allowedpaths
    * @return allowedpaths
   **/
-  @Valid
   public ConfigNodePropertyArray getAllowedpaths() {
     return allowedpaths;
   }
@@ -102,7 +116,6 @@ public class ComAdobeGraniteCorsImplCORSPolicyImplProperties   {
    * Get exposedheaders
    * @return exposedheaders
   **/
-  @Valid
   public ConfigNodePropertyArray getExposedheaders() {
     return exposedheaders;
   }
@@ -120,7 +133,6 @@ public class ComAdobeGraniteCorsImplCORSPolicyImplProperties   {
    * Get maxage
    * @return maxage
   **/
-  @Valid
   public ConfigNodePropertyInteger getMaxage() {
     return maxage;
   }
@@ -138,7 +150,6 @@ public class ComAdobeGraniteCorsImplCORSPolicyImplProperties   {
    * Get supportedheaders
    * @return supportedheaders
   **/
-  @Valid
   public ConfigNodePropertyArray getSupportedheaders() {
     return supportedheaders;
   }
@@ -156,7 +167,6 @@ public class ComAdobeGraniteCorsImplCORSPolicyImplProperties   {
    * Get supportedmethods
    * @return supportedmethods
   **/
-  @Valid
   public ConfigNodePropertyArray getSupportedmethods() {
     return supportedmethods;
   }
@@ -174,7 +184,6 @@ public class ComAdobeGraniteCorsImplCORSPolicyImplProperties   {
    * Get supportscredentials
    * @return supportscredentials
   **/
-  @Valid
   public ConfigNodePropertyBoolean getSupportscredentials() {
     return supportscredentials;
   }
@@ -185,7 +194,7 @@ public class ComAdobeGraniteCorsImplCORSPolicyImplProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -230,11 +239,8 @@ public class ComAdobeGraniteCorsImplCORSPolicyImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

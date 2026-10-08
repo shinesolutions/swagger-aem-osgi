@@ -1,20 +1,31 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyDropDown;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("orgApacheFelixSystemreadyImplServicesCheckProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheFelixSystemreadyImplServicesCheckProperties   {
-  
-  private @Valid ConfigNodePropertyArray servicesList = null;
-  private @Valid ConfigNodePropertyDropDown type = null;
+  private ConfigNodePropertyArray servicesList;
+  private ConfigNodePropertyDropDown type;
+
+  public OrgApacheFelixSystemreadyImplServicesCheckProperties() {
+  }
 
   /**
    **/
@@ -26,9 +37,11 @@ public class OrgApacheFelixSystemreadyImplServicesCheckProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("services.list")
-  public ConfigNodePropertyArray getServicesList() {
+  @Valid public ConfigNodePropertyArray getServicesList() {
     return servicesList;
   }
+
+  @JsonProperty("services.list")
   public void setServicesList(ConfigNodePropertyArray servicesList) {
     this.servicesList = servicesList;
   }
@@ -43,16 +56,18 @@ public class OrgApacheFelixSystemreadyImplServicesCheckProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("type")
-  public ConfigNodePropertyDropDown getType() {
+  @Valid public ConfigNodePropertyDropDown getType() {
     return type;
   }
+
+  @JsonProperty("type")
   public void setType(ConfigNodePropertyDropDown type) {
     this.type = type;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -60,8 +75,8 @@ public class OrgApacheFelixSystemreadyImplServicesCheckProperties   {
       return false;
     }
     OrgApacheFelixSystemreadyImplServicesCheckProperties orgApacheFelixSystemreadyImplServicesCheckProperties = (OrgApacheFelixSystemreadyImplServicesCheckProperties) o;
-    return Objects.equals(servicesList, orgApacheFelixSystemreadyImplServicesCheckProperties.servicesList) &&
-        Objects.equals(type, orgApacheFelixSystemreadyImplServicesCheckProperties.type);
+    return Objects.equals(this.servicesList, orgApacheFelixSystemreadyImplServicesCheckProperties.servicesList) &&
+        Objects.equals(this.type, orgApacheFelixSystemreadyImplServicesCheckProperties.type);
   }
 
   @Override
@@ -84,11 +99,9 @@ public class OrgApacheFelixSystemreadyImplServicesCheckProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

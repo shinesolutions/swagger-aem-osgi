@@ -2,18 +2,18 @@
 # OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**davPeriodroot** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**davPeriodcreateMinusabsoluteMinusuri** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**davPeriodrealm** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**collectionPeriodtypes** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**filterPeriodprefixes** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**filterPeriodtypes** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**filterPerioduris** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**typePeriodcollections** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**typePeriodnoncollections** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**typePeriodcontent** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **davRoot** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **davCreateAbsoluteUri** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **davRealm** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **collectionTypes** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **filterPrefixes** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **filterTypes** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **filterUris** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **typeCollections** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **typeNoncollections** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **typeContent** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
 
 
 

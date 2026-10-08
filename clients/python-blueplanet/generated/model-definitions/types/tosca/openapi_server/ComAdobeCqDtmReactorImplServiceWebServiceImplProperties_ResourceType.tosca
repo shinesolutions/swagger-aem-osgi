@@ -1,0 +1,47 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqDtmReactorImplServiceWebServiceImplProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqDtmReactorImplServiceWebServiceImplProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComAdobeCqDtmReactorImplServiceWebServiceImplProperties {
+    title = ComAdobeCqDtmReactorImplServiceWebServiceImplProperties
+    description = ComAdobeCqDtmReactorImplServiceWebServiceImplProperties
+    derivedFrom = Root
+    properties {
+        endpoint_uri {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        connection_timeout {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        socket_timeout {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqDtmReactorImplServiceWebServiceImplProperties {
+    title = ComAdobeCqDtmReactorImplServiceWebServiceImplProperties
+    description = ComAdobeCqDtmReactorImplServiceWebServiceImplProperties
+    implements = openapi_server.resourceTypes.ComAdobeCqDtmReactorImplServiceWebServiceImplProperties
+
+  }
+}

@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqWcmCoreImplReferencesContentContentReferen
 
 @Canonical
 class ComDayCqWcmCoreImplReferencesContentContentReferenceConfigInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqWcmCoreImplReferencesContentContentReferenceConfigProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqWcmCoreImplReferencesContentContentReferenceConfigProperties properties
 }

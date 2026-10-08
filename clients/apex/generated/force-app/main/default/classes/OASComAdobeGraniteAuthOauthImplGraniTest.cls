@@ -72,11 +72,11 @@ private class OASComAdobeGraniteAuthOauthImplGraniTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeGraniteAuthOauthImplGrani comAdobeGraniteAuthOauthImplGraniteProviderProperties = new OASComAdobeGraniteAuthOauthImplGrani();
-        Map<String, String> propertyMappings = comAdobeGraniteAuthOauthImplGraniteProviderProperties.getPropertyMappings();
-        System.assertEquals('oauthProviderId', propertyMappings.get('oauth.provider.id'));
-        System.assertEquals('oauthProviderGraniteAuthorizationUrl', propertyMappings.get('oauth.provider.granite.authorization.url'));
-        System.assertEquals('oauthProviderGraniteTokenUrl', propertyMappings.get('oauth.provider.granite.token.url'));
-        System.assertEquals('oauthProviderGraniteProfileUrl', propertyMappings.get('oauth.provider.granite.profile.url'));
-        System.assertEquals('oauthProviderGraniteExtendedDetailsUrls', propertyMappings.get('oauth.provider.granite.extended.details.urls'));
+        Map<String, String> x-property-mappings = comAdobeGraniteAuthOauthImplGraniteProviderProperties.getx-property-mappings();
+        System.assertEquals('oauthProviderId', x-property-mappings.get('oauth.provider.id'));
+        System.assertEquals('oauthProviderGraniteAuthorizationUrl', x-property-mappings.get('oauth.provider.granite.authorization.url'));
+        System.assertEquals('oauthProviderGraniteTokenUrl', x-property-mappings.get('oauth.provider.granite.token.url'));
+        System.assertEquals('oauthProviderGraniteProfileUrl', x-property-mappings.get('oauth.provider.granite.profile.url'));
+        System.assertEquals('oauthProviderGraniteExtendedDetailsUrls', x-property-mappings.get('oauth.provider.granite.extended.details.urls'));
     }
 }

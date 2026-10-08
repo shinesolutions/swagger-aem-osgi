@@ -1,36 +1,40 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
 import io.swagger.annotations.ApiModelProperty;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlType;
-import javax.xml.bind.annotation.XmlEnum;
-import javax.xml.bind.annotation.XmlEnumValue;
+import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
 
 public class ComDayCqWcmMsmImplActionsContentUpdateActionFactoryProperties  {
   
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyArray cqWcmMsmActionExcludednodetypes = null;
+
+  private ConfigNodePropertyArray cqWcmMsmActionExcludednodetypes;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyArray cqWcmMsmActionExcludedparagraphitems = null;
+
+  private ConfigNodePropertyArray cqWcmMsmActionExcludedparagraphitems;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyArray cqWcmMsmActionExcludedprops = null;
+
+  private ConfigNodePropertyArray cqWcmMsmActionExcludedprops;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyArray cqWcmMsmActionIgnoredMixin = null;
+
+  private ConfigNodePropertyArray cqWcmMsmActionIgnoredMixin;
  /**
    * Get cqWcmMsmActionExcludednodetypes
    * @return cqWcmMsmActionExcludednodetypes
@@ -103,6 +107,25 @@ public class ComDayCqWcmMsmImplActionsContentUpdateActionFactoryProperties  {
     return this;
   }
 
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    ComDayCqWcmMsmImplActionsContentUpdateActionFactoryProperties comDayCqWcmMsmImplActionsContentUpdateActionFactoryProperties = (ComDayCqWcmMsmImplActionsContentUpdateActionFactoryProperties) o;
+    return Objects.equals(this.cqWcmMsmActionExcludednodetypes, comDayCqWcmMsmImplActionsContentUpdateActionFactoryProperties.cqWcmMsmActionExcludednodetypes) &&
+        Objects.equals(this.cqWcmMsmActionExcludedparagraphitems, comDayCqWcmMsmImplActionsContentUpdateActionFactoryProperties.cqWcmMsmActionExcludedparagraphitems) &&
+        Objects.equals(this.cqWcmMsmActionExcludedprops, comDayCqWcmMsmImplActionsContentUpdateActionFactoryProperties.cqWcmMsmActionExcludedprops) &&
+        Objects.equals(this.cqWcmMsmActionIgnoredMixin, comDayCqWcmMsmImplActionsContentUpdateActionFactoryProperties.cqWcmMsmActionIgnoredMixin);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(cqWcmMsmActionExcludednodetypes, cqWcmMsmActionExcludedparagraphitems, cqWcmMsmActionExcludedprops, cqWcmMsmActionIgnoredMixin);
+  }
 
   @Override
   public String toString() {
@@ -121,11 +144,8 @@ public class ComDayCqWcmMsmImplActionsContentUpdateActionFactoryProperties  {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private static String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

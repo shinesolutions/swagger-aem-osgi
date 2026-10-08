@@ -1,0 +1,42 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqSocialScfEndpointsImplDefaultSocialGetServletProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqSocialScfEndpointsImplDefaultSocialGetServletProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComAdobeCqSocialScfEndpointsImplDefaultSocialGetServletProperties {
+    title = ComAdobeCqSocialScfEndpointsImplDefaultSocialGetServletProperties
+    description = ComAdobeCqSocialScfEndpointsImplDefaultSocialGetServletProperties
+    derivedFrom = Root
+    properties {
+        sling_servlet_selectors {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        sling_servlet_extensions {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqSocialScfEndpointsImplDefaultSocialGetServletProperties {
+    title = ComAdobeCqSocialScfEndpointsImplDefaultSocialGetServletProperties
+    description = ComAdobeCqSocialScfEndpointsImplDefaultSocialGetServletProperties
+    implements = openapi_server.resourceTypes.ComAdobeCqSocialScfEndpointsImplDefaultSocialGetServletProperties
+
+  }
+}

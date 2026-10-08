@@ -2,18 +2,19 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**whitelist_name** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
-**whitelist_bundles** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **whitelist_name** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] |
+| **whitelist_bundles** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::OrgApacheSlingJcrBaseInternalLoginAdminWhitelistFragmentProperties.new(whitelist_name: null,
-                                 whitelist_bundles: null)
+instance = SwaggerAemOsgiClient::OrgApacheSlingJcrBaseInternalLoginAdminWhitelistFragmentProperties.new(
+  whitelist_name: null,
+  whitelist_bundles: null
+)
 ```
-
 

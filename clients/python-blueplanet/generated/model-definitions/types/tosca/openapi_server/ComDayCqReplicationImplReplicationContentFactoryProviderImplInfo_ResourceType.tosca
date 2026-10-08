@@ -1,0 +1,61 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqReplicationImplReplicationContentFactoryProviderImplInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqReplicationImplReplicationContentFactoryProviderImplInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComDayCqReplicationImplReplicationContentFactoryProviderImplProperties = openapi_server.resourceTypes.ComDayCqReplicationImplReplicationContentFactoryProviderImplProperties
+}
+resourceTypes {
+
+  ComDayCqReplicationImplReplicationContentFactoryProviderImplInfo {
+    title = ComDayCqReplicationImplReplicationContentFactoryProviderImplInfo
+    description = ComDayCqReplicationImplReplicationContentFactoryProviderImplInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComDayCqReplicationImplReplicationContentFactoryProviderImplProperties
+          description = ""
+          optional = false
+        }
+        bundle_location {
+          type =  string
+          description = ""
+          optional = false
+        }
+        service_location {
+          type =  string
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqReplicationImplReplicationContentFactoryProviderImplInfo {
+    title = ComDayCqReplicationImplReplicationContentFactoryProviderImplInfo
+    description = ComDayCqReplicationImplReplicationContentFactoryProviderImplInfo
+    implements = openapi_server.resourceTypes.ComDayCqReplicationImplReplicationContentFactoryProviderImplInfo
+
+  }
+}

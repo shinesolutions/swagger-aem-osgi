@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeGraniteAuthOauthImplTwitterProviderImplPro
 
 @Canonical
 class ComAdobeGraniteAuthOauthImplTwitterProviderImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteAuthOauthImplTwitterProviderImplProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteAuthOauthImplTwitterProviderImplProperties properties
 }

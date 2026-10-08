@@ -72,9 +72,9 @@ private class OASComDayCqDamCoreImplLightboxLightbTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqDamCoreImplLightboxLightb comDayCqDamCoreImplLightboxLightboxServletProperties = new OASComDayCqDamCoreImplLightboxLightb();
-        Map<String, String> propertyMappings = comDayCqDamCoreImplLightboxLightboxServletProperties.getPropertyMappings();
-        System.assertEquals('slingServletPaths', propertyMappings.get('sling.servlet.paths'));
-        System.assertEquals('slingServletMethods', propertyMappings.get('sling.servlet.methods'));
-        System.assertEquals('cqDamEnableAnonymous', propertyMappings.get('cq.dam.enable.anonymous'));
+        Map<String, String> x-property-mappings = comDayCqDamCoreImplLightboxLightboxServletProperties.getx-property-mappings();
+        System.assertEquals('slingServletPaths', x-property-mappings.get('sling.servlet.paths'));
+        System.assertEquals('slingServletMethods', x-property-mappings.get('sling.servlet.methods'));
+        System.assertEquals('cqDamEnableAnonymous', x-property-mappings.get('cq.dam.enable.anonymous'));
     }
 }

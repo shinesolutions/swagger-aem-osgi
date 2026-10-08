@@ -1,0 +1,42 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeGraniteCompatrouterImplCompatSwitchingServiceImplProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeGraniteCompatrouterImplCompatSwitchingServiceImplProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+}
+resourceTypes {
+
+  ComAdobeGraniteCompatrouterImplCompatSwitchingServiceImplProperties {
+    title = ComAdobeGraniteCompatrouterImplCompatSwitchingServiceImplProperties
+    description = ComAdobeGraniteCompatrouterImplCompatSwitchingServiceImplProperties
+    derivedFrom = Root
+    properties {
+        compatgroups {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        enabled {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeGraniteCompatrouterImplCompatSwitchingServiceImplProperties {
+    title = ComAdobeGraniteCompatrouterImplCompatSwitchingServiceImplProperties
+    description = ComAdobeGraniteCompatrouterImplCompatSwitchingServiceImplProperties
+    implements = openapi_server.resourceTypes.ComAdobeGraniteCompatrouterImplCompatSwitchingServiceImplProperties
+
+  }
+}

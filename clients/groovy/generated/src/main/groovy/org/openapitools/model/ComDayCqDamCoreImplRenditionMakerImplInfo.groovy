@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqDamCoreImplRenditionMakerImplProperties;
 
 @Canonical
 class ComDayCqDamCoreImplRenditionMakerImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqDamCoreImplRenditionMakerImplProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqDamCoreImplRenditionMakerImplProperties properties
 }

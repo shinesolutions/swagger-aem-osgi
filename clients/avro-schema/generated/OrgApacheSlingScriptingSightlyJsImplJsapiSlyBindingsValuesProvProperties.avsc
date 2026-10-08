@@ -1,0 +1,15 @@
+{
+  "namespace": "model",
+  "type": "record",
+  "doc": "",
+  "name": "OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvProperties",
+  "fields": [
+    {
+      "name": "org.apache.sling.scripting.sightly.js.bindings",
+      "type": ["null", "model.ConfigNodePropertyArray"],
+      "doc": "",
+      "default": null
+    }
+  ]
+
+}

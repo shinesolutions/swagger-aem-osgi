@@ -8,12 +8,12 @@ import org.openapitools.model.ConfigNodePropertyBoolean;
 
 @Canonical
 class ComDayCqDamCommonsMetadataXmpFilterBlackWhiteProperties {
-    ConfigNodePropertyBoolean xmpFilterApplyWhitelist = null
-
-    ConfigNodePropertyArray xmpFilterWhitelist = null
-
-    ConfigNodePropertyBoolean xmpFilterApplyBlacklist = null
-
-    ConfigNodePropertyArray xmpFilterBlacklist = null
-
+    
+    ConfigNodePropertyBoolean xmpFilterApplyWhitelist
+    
+    ConfigNodePropertyArray xmpFilterWhitelist
+    
+    ConfigNodePropertyBoolean xmpFilterApplyBlacklist
+    
+    ConfigNodePropertyArray xmpFilterBlacklist
 }

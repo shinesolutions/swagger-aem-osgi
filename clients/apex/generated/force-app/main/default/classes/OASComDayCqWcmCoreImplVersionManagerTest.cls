@@ -72,13 +72,13 @@ private class OASComDayCqWcmCoreImplVersionManagerTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqWcmCoreImplVersionManager comDayCqWcmCoreImplVersionManagerImplProperties = new OASComDayCqWcmCoreImplVersionManager();
-        Map<String, String> propertyMappings = comDayCqWcmCoreImplVersionManagerImplProperties.getPropertyMappings();
-        System.assertEquals('versionmanagerCreateVersionOnActivation', propertyMappings.get('versionmanager.createVersionOnActivation'));
-        System.assertEquals('versionmanagerPurgingEnabled', propertyMappings.get('versionmanager.purgingEnabled'));
-        System.assertEquals('versionmanagerPurgePaths', propertyMappings.get('versionmanager.purgePaths'));
-        System.assertEquals('versionmanagerIvPaths', propertyMappings.get('versionmanager.ivPaths'));
-        System.assertEquals('versionmanagerMaxAgeDays', propertyMappings.get('versionmanager.maxAgeDays'));
-        System.assertEquals('versionmanagerMaxNumberVersions', propertyMappings.get('versionmanager.maxNumberVersions'));
-        System.assertEquals('versionmanagerMinNumberVersions', propertyMappings.get('versionmanager.minNumberVersions'));
+        Map<String, String> x-property-mappings = comDayCqWcmCoreImplVersionManagerImplProperties.getx-property-mappings();
+        System.assertEquals('versionmanagerCreateVersionOnActivation', x-property-mappings.get('versionmanager.createVersionOnActivation'));
+        System.assertEquals('versionmanagerPurgingEnabled', x-property-mappings.get('versionmanager.purgingEnabled'));
+        System.assertEquals('versionmanagerPurgePaths', x-property-mappings.get('versionmanager.purgePaths'));
+        System.assertEquals('versionmanagerIvPaths', x-property-mappings.get('versionmanager.ivPaths'));
+        System.assertEquals('versionmanagerMaxAgeDays', x-property-mappings.get('versionmanager.maxAgeDays'));
+        System.assertEquals('versionmanagerMaxNumberVersions', x-property-mappings.get('versionmanager.maxNumberVersions'));
+        System.assertEquals('versionmanagerMinNumberVersions', x-property-mappings.get('versionmanager.minNumberVersions'));
     }
 }

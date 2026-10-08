@@ -1,0 +1,20 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "cug_exempted_principals" },
+      {"model": "cug_enabled" },
+      {"model": "cug_principals_regex" },
+      {"model": "cug_principals_replacement" },
+    ]
+  }]
+}

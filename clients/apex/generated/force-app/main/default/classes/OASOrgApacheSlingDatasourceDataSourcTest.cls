@@ -72,9 +72,9 @@ private class OASOrgApacheSlingDatasourceDataSourcTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASOrgApacheSlingDatasourceDataSourc orgApacheSlingDatasourceDataSourceFactoryProperties = new OASOrgApacheSlingDatasourceDataSourc();
-        Map<String, String> propertyMappings = orgApacheSlingDatasourceDataSourceFactoryProperties.getPropertyMappings();
-        System.assertEquals('datasourceName', propertyMappings.get('datasource.name'));
-        System.assertEquals('datasourceSvcPropName', propertyMappings.get('datasource.svc.prop.name'));
-        System.assertEquals('datasourceSvcProperties', propertyMappings.get('datasource.svc.properties'));
+        Map<String, String> x-property-mappings = orgApacheSlingDatasourceDataSourceFactoryProperties.getx-property-mappings();
+        System.assertEquals('datasourceName', x-property-mappings.get('datasource.name'));
+        System.assertEquals('datasourceSvcPropName', x-property-mappings.get('datasource.svc.prop.name'));
+        System.assertEquals('datasourceSvcProperties', x-property-mappings.get('datasource.svc.properties'));
     }
 }

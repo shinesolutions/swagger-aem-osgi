@@ -1,0 +1,27 @@
+{
+  "namespace": "model",
+  "type": "record",
+  "doc": "",
+  "name": "ComAdobeCqCommercePimImplCataloggeneratorCatalogGeneratorImplProperties",
+  "fields": [
+    {
+      "name": "cq.commerce.cataloggenerator.bucketsize",
+      "type": ["null", "model.ConfigNodePropertyInteger"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "cq.commerce.cataloggenerator.bucketname",
+      "type": ["null", "model.ConfigNodePropertyString"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "cq.commerce.cataloggenerator.excludedtemplateproperties",
+      "type": ["null", "model.ConfigNodePropertyArray"],
+      "doc": "",
+      "default": null
+    }
+  ]
+
+}

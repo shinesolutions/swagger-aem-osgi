@@ -1,20 +1,31 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comDayCqDamScene7ImplScene7DamChangeEventListenerProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqDamScene7ImplScene7DamChangeEventListenerProperties   {
-  
-  private @Valid ConfigNodePropertyBoolean cqDamScene7DamchangeeventlistenerEnabled = null;
-  private @Valid ConfigNodePropertyArray cqDamScene7DamchangeeventlistenerObservedPaths = null;
+  private ConfigNodePropertyBoolean cqDamScene7DamchangeeventlistenerEnabled;
+  private ConfigNodePropertyArray cqDamScene7DamchangeeventlistenerObservedPaths;
+
+  public ComDayCqDamScene7ImplScene7DamChangeEventListenerProperties() {
+  }
 
   /**
    **/
@@ -26,9 +37,11 @@ public class ComDayCqDamScene7ImplScene7DamChangeEventListenerProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("cq.dam.scene7.damchangeeventlistener.enabled")
-  public ConfigNodePropertyBoolean getCqDamScene7DamchangeeventlistenerEnabled() {
+  @Valid public ConfigNodePropertyBoolean getCqDamScene7DamchangeeventlistenerEnabled() {
     return cqDamScene7DamchangeeventlistenerEnabled;
   }
+
+  @JsonProperty("cq.dam.scene7.damchangeeventlistener.enabled")
   public void setCqDamScene7DamchangeeventlistenerEnabled(ConfigNodePropertyBoolean cqDamScene7DamchangeeventlistenerEnabled) {
     this.cqDamScene7DamchangeeventlistenerEnabled = cqDamScene7DamchangeeventlistenerEnabled;
   }
@@ -43,16 +56,18 @@ public class ComDayCqDamScene7ImplScene7DamChangeEventListenerProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("cq.dam.scene7.damchangeeventlistener.observed.paths")
-  public ConfigNodePropertyArray getCqDamScene7DamchangeeventlistenerObservedPaths() {
+  @Valid public ConfigNodePropertyArray getCqDamScene7DamchangeeventlistenerObservedPaths() {
     return cqDamScene7DamchangeeventlistenerObservedPaths;
   }
+
+  @JsonProperty("cq.dam.scene7.damchangeeventlistener.observed.paths")
   public void setCqDamScene7DamchangeeventlistenerObservedPaths(ConfigNodePropertyArray cqDamScene7DamchangeeventlistenerObservedPaths) {
     this.cqDamScene7DamchangeeventlistenerObservedPaths = cqDamScene7DamchangeeventlistenerObservedPaths;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -60,8 +75,8 @@ public class ComDayCqDamScene7ImplScene7DamChangeEventListenerProperties   {
       return false;
     }
     ComDayCqDamScene7ImplScene7DamChangeEventListenerProperties comDayCqDamScene7ImplScene7DamChangeEventListenerProperties = (ComDayCqDamScene7ImplScene7DamChangeEventListenerProperties) o;
-    return Objects.equals(cqDamScene7DamchangeeventlistenerEnabled, comDayCqDamScene7ImplScene7DamChangeEventListenerProperties.cqDamScene7DamchangeeventlistenerEnabled) &&
-        Objects.equals(cqDamScene7DamchangeeventlistenerObservedPaths, comDayCqDamScene7ImplScene7DamChangeEventListenerProperties.cqDamScene7DamchangeeventlistenerObservedPaths);
+    return Objects.equals(this.cqDamScene7DamchangeeventlistenerEnabled, comDayCqDamScene7ImplScene7DamChangeEventListenerProperties.cqDamScene7DamchangeeventlistenerEnabled) &&
+        Objects.equals(this.cqDamScene7DamchangeeventlistenerObservedPaths, comDayCqDamScene7ImplScene7DamChangeEventListenerProperties.cqDamScene7DamchangeeventlistenerObservedPaths);
   }
 
   @Override
@@ -84,11 +99,9 @@ public class ComDayCqDamScene7ImplScene7DamChangeEventListenerProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

@@ -4,20 +4,23 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2019-08-05T00:59:30.156Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2026-10-07T12:54:21.614735164Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryInfo   {
   
-  private String pid = null;
-  private String title = null;
-  private String description = null;
-  private OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryProperties properties = null;
-  private String bundleLocation = null;
-  private String serviceLocation = null;
+  private String pid;
+  private String title;
+  private String description;
+  private OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryProperties properties;
+  private String bundleLocation;
+  private String serviceLocation;
 
   /**
    **/
@@ -60,6 +63,7 @@ public class OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryInfo   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("properties")
+  @Valid
   public OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryProperties getProperties() {
     return properties;
   }
@@ -93,7 +97,7 @@ public class OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryInfo   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -101,12 +105,12 @@ public class OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryInfo   {
       return false;
     }
     OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryInfo orgApacheSlingScriptingJavaImplJavaScriptEngineFactoryInfo = (OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryInfo) o;
-    return Objects.equals(pid, orgApacheSlingScriptingJavaImplJavaScriptEngineFactoryInfo.pid) &&
-        Objects.equals(title, orgApacheSlingScriptingJavaImplJavaScriptEngineFactoryInfo.title) &&
-        Objects.equals(description, orgApacheSlingScriptingJavaImplJavaScriptEngineFactoryInfo.description) &&
-        Objects.equals(properties, orgApacheSlingScriptingJavaImplJavaScriptEngineFactoryInfo.properties) &&
-        Objects.equals(bundleLocation, orgApacheSlingScriptingJavaImplJavaScriptEngineFactoryInfo.bundleLocation) &&
-        Objects.equals(serviceLocation, orgApacheSlingScriptingJavaImplJavaScriptEngineFactoryInfo.serviceLocation);
+    return Objects.equals(this.pid, orgApacheSlingScriptingJavaImplJavaScriptEngineFactoryInfo.pid) &&
+        Objects.equals(this.title, orgApacheSlingScriptingJavaImplJavaScriptEngineFactoryInfo.title) &&
+        Objects.equals(this.description, orgApacheSlingScriptingJavaImplJavaScriptEngineFactoryInfo.description) &&
+        Objects.equals(this.properties, orgApacheSlingScriptingJavaImplJavaScriptEngineFactoryInfo.properties) &&
+        Objects.equals(this.bundleLocation, orgApacheSlingScriptingJavaImplJavaScriptEngineFactoryInfo.bundleLocation) &&
+        Objects.equals(this.serviceLocation, orgApacheSlingScriptingJavaImplJavaScriptEngineFactoryInfo.serviceLocation);
   }
 
   @Override
@@ -133,11 +137,8 @@ public class OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryInfo   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

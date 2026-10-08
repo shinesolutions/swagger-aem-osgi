@@ -8,10 +8,10 @@ import org.openapitools.model.ConfigNodePropertyBoolean;
 
 @Canonical
 class ComDayCqDamCoreImplServletBinaryProviderServletProperties {
-    ConfigNodePropertyArray slingServletResourceTypes = null
-
-    ConfigNodePropertyArray slingServletMethods = null
-
-    ConfigNodePropertyBoolean cqDamDrmEnable = null
-
+    
+    ConfigNodePropertyArray slingServletResourceTypes
+    
+    ConfigNodePropertyArray slingServletMethods
+    
+    ConfigNodePropertyBoolean cqDamDrmEnable
 }

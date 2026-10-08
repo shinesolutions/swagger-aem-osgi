@@ -7,12 +7,12 @@ import org.openapitools.model.OrgApacheSlingEventImplJobsDefaultJobManagerProper
 
 @Canonical
 class OrgApacheSlingEventImplJobsDefaultJobManagerInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheSlingEventImplJobsDefaultJobManagerProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheSlingEventImplJobsDefaultJobManagerProperties properties
 }

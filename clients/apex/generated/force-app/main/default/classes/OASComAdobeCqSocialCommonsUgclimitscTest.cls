@@ -72,7 +72,7 @@ private class OASComAdobeCqSocialCommonsUgclimitscTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeCqSocialCommonsUgclimitsc comAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitProperties = new OASComAdobeCqSocialCommonsUgclimitsc();
-        Map<String, String> propertyMappings = comAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitProperties.getPropertyMappings();
-        System.assertEquals('ugCLimit', propertyMappings.get('UGCLimit'));
+        Map<String, String> x-property-mappings = comAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitProperties.getx-property-mappings();
+        System.assertEquals('ugCLimit', x-property-mappings.get('UGCLimit'));
     }
 }

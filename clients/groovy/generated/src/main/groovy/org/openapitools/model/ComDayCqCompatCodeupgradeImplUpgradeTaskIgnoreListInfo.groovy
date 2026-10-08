@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqCompatCodeupgradeImplUpgradeTaskIgnoreList
 
 @Canonical
 class ComDayCqCompatCodeupgradeImplUpgradeTaskIgnoreListInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqCompatCodeupgradeImplUpgradeTaskIgnoreListProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqCompatCodeupgradeImplUpgradeTaskIgnoreListProperties properties
 }

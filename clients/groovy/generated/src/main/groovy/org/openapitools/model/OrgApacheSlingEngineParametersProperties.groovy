@@ -9,18 +9,18 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class OrgApacheSlingEngineParametersProperties {
-    ConfigNodePropertyString slingDefaultParameterEncoding = null
-
-    ConfigNodePropertyInteger slingDefaultMaxParameters = null
-
-    ConfigNodePropertyString fileLocation = null
-
-    ConfigNodePropertyInteger fileThreshold = null
-
-    ConfigNodePropertyInteger fileMax = null
-
-    ConfigNodePropertyInteger requestMax = null
-
-    ConfigNodePropertyBoolean slingDefaultParameterCheckForAdditionalContainerParameters = null
-
+    
+    ConfigNodePropertyString slingDefaultParameterEncoding
+    
+    ConfigNodePropertyInteger slingDefaultMaxParameters
+    
+    ConfigNodePropertyString fileLocation
+    
+    ConfigNodePropertyInteger fileThreshold
+    
+    ConfigNodePropertyInteger fileMax
+    
+    ConfigNodePropertyInteger requestMax
+    
+    ConfigNodePropertyBoolean slingDefaultParameterCheckForAdditionalContainerParameters
 }

@@ -8,10 +8,10 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThrougProperties {
-    ConfigNodePropertyInteger serviceRanking = null
-
-    ConfigNodePropertyString tagpattern = null
-
-    ConfigNodePropertyString componentResourceType = null
-
+    
+    ConfigNodePropertyInteger serviceRanking
+    
+    ConfigNodePropertyString tagpattern
+    
+    ConfigNodePropertyString componentResourceType
 }

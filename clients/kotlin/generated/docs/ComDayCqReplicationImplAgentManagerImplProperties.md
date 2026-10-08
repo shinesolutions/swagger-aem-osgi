@@ -2,11 +2,11 @@
 # ComDayCqReplicationImplAgentManagerImplProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**jobPeriodtopics** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**serviceUserPeriodtarget** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**agentProviderPeriodtarget** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **jobTopics** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **serviceUserTarget** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **agentProviderTarget** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
 
 
 

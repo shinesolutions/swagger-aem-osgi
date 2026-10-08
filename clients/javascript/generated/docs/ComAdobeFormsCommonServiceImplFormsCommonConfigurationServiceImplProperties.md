@@ -1,9 +1,0 @@
-# NodeSwaggerAemOsgi.ComAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImplProperties
-
-## Properties
-
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**tempStorageConfig** | [**ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md) |  | [optional] 
-
-

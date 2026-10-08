@@ -10,20 +10,20 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqAuthImplLoginSelectorHandlerProperties {
-    ConfigNodePropertyString path = null
-
-    ConfigNodePropertyInteger serviceRanking = null
-
-    ConfigNodePropertyArray authLoginselectorMappings = null
-
-    ConfigNodePropertyArray authLoginselectorChangepwMappings = null
-
-    ConfigNodePropertyString authLoginselectorDefaultloginpage = null
-
-    ConfigNodePropertyString authLoginselectorDefaultchangepwpage = null
-
-    ConfigNodePropertyArray authLoginselectorHandle = null
-
-    ConfigNodePropertyBoolean authLoginselectorHandleAllExtensions = null
-
+    
+    ConfigNodePropertyString path
+    
+    ConfigNodePropertyInteger serviceRanking
+    
+    ConfigNodePropertyArray authLoginselectorMappings
+    
+    ConfigNodePropertyArray authLoginselectorChangepwMappings
+    
+    ConfigNodePropertyString authLoginselectorDefaultloginpage
+    
+    ConfigNodePropertyString authLoginselectorDefaultchangepwpage
+    
+    ConfigNodePropertyArray authLoginselectorHandle
+    
+    ConfigNodePropertyBoolean authLoginselectorHandleAllExtensions
 }

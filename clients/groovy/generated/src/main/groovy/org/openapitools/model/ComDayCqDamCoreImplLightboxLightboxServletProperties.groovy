@@ -9,10 +9,10 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqDamCoreImplLightboxLightboxServletProperties {
-    ConfigNodePropertyString slingServletPaths = null
-
-    ConfigNodePropertyArray slingServletMethods = null
-
-    ConfigNodePropertyBoolean cqDamEnableAnonymous = null
-
+    
+    ConfigNodePropertyString slingServletPaths
+    
+    ConfigNodePropertyArray slingServletMethods
+    
+    ConfigNodePropertyBoolean cqDamEnableAnonymous
 }

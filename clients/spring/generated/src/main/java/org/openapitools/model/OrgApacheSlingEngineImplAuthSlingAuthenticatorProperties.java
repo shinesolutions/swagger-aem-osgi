@@ -1,57 +1,68 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyDropDown;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties   {
-  @JsonProperty("osgi.http.whiteboard.context.select")
-  private ConfigNodePropertyString osgiHttpWhiteboardContextSelect = null;
+@JsonTypeName("orgApacheSlingEngineImplAuthSlingAuthenticatorProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties {
 
-  @JsonProperty("osgi.http.whiteboard.listener")
-  private ConfigNodePropertyString osgiHttpWhiteboardListener = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString osgiHttpWhiteboardContextSelect;
 
-  @JsonProperty("auth.sudo.cookie")
-  private ConfigNodePropertyString authSudoCookie = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString osgiHttpWhiteboardListener;
 
-  @JsonProperty("auth.sudo.parameter")
-  private ConfigNodePropertyString authSudoParameter = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString authSudoCookie;
 
-  @JsonProperty("auth.annonymous")
-  private ConfigNodePropertyBoolean authAnnonymous = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString authSudoParameter;
 
-  @JsonProperty("sling.auth.requirements")
-  private ConfigNodePropertyArray slingAuthRequirements = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean authAnnonymous;
 
-  @JsonProperty("sling.auth.anonymous.user")
-  private ConfigNodePropertyString slingAuthAnonymousUser = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray slingAuthRequirements;
 
-  @JsonProperty("sling.auth.anonymous.password")
-  private ConfigNodePropertyString slingAuthAnonymousPassword = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString slingAuthAnonymousUser;
 
-  @JsonProperty("auth.http")
-  private ConfigNodePropertyDropDown authHttp = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString slingAuthAnonymousPassword;
 
-  @JsonProperty("auth.http.realm")
-  private ConfigNodePropertyString authHttpRealm = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyDropDown authHttp;
 
-  @JsonProperty("auth.uri.suffix")
-  private ConfigNodePropertyArray authUriSuffix = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString authHttpRealm;
 
-  public OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties osgiHttpWhiteboardContextSelect(ConfigNodePropertyString osgiHttpWhiteboardContextSelect) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray authUriSuffix;
+
+  public OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties osgiHttpWhiteboardContextSelect(@Nullable ConfigNodePropertyString osgiHttpWhiteboardContextSelect) {
     this.osgiHttpWhiteboardContextSelect = osgiHttpWhiteboardContextSelect;
     return this;
   }
@@ -59,20 +70,20 @@ public class OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties   {
   /**
    * Get osgiHttpWhiteboardContextSelect
    * @return osgiHttpWhiteboardContextSelect
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getOsgiHttpWhiteboardContextSelect() {
+   */
+  @Valid 
+  @Schema(name = "osgi.http.whiteboard.context.select", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("osgi.http.whiteboard.context.select")
+  public @Nullable ConfigNodePropertyString getOsgiHttpWhiteboardContextSelect() {
     return osgiHttpWhiteboardContextSelect;
   }
 
-  public void setOsgiHttpWhiteboardContextSelect(ConfigNodePropertyString osgiHttpWhiteboardContextSelect) {
+  @JsonProperty("osgi.http.whiteboard.context.select")
+  public void setOsgiHttpWhiteboardContextSelect(@Nullable ConfigNodePropertyString osgiHttpWhiteboardContextSelect) {
     this.osgiHttpWhiteboardContextSelect = osgiHttpWhiteboardContextSelect;
   }
 
-  public OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties osgiHttpWhiteboardListener(ConfigNodePropertyString osgiHttpWhiteboardListener) {
+  public OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties osgiHttpWhiteboardListener(@Nullable ConfigNodePropertyString osgiHttpWhiteboardListener) {
     this.osgiHttpWhiteboardListener = osgiHttpWhiteboardListener;
     return this;
   }
@@ -80,20 +91,20 @@ public class OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties   {
   /**
    * Get osgiHttpWhiteboardListener
    * @return osgiHttpWhiteboardListener
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getOsgiHttpWhiteboardListener() {
+   */
+  @Valid 
+  @Schema(name = "osgi.http.whiteboard.listener", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("osgi.http.whiteboard.listener")
+  public @Nullable ConfigNodePropertyString getOsgiHttpWhiteboardListener() {
     return osgiHttpWhiteboardListener;
   }
 
-  public void setOsgiHttpWhiteboardListener(ConfigNodePropertyString osgiHttpWhiteboardListener) {
+  @JsonProperty("osgi.http.whiteboard.listener")
+  public void setOsgiHttpWhiteboardListener(@Nullable ConfigNodePropertyString osgiHttpWhiteboardListener) {
     this.osgiHttpWhiteboardListener = osgiHttpWhiteboardListener;
   }
 
-  public OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties authSudoCookie(ConfigNodePropertyString authSudoCookie) {
+  public OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties authSudoCookie(@Nullable ConfigNodePropertyString authSudoCookie) {
     this.authSudoCookie = authSudoCookie;
     return this;
   }
@@ -101,20 +112,20 @@ public class OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties   {
   /**
    * Get authSudoCookie
    * @return authSudoCookie
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getAuthSudoCookie() {
+   */
+  @Valid 
+  @Schema(name = "auth.sudo.cookie", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("auth.sudo.cookie")
+  public @Nullable ConfigNodePropertyString getAuthSudoCookie() {
     return authSudoCookie;
   }
 
-  public void setAuthSudoCookie(ConfigNodePropertyString authSudoCookie) {
+  @JsonProperty("auth.sudo.cookie")
+  public void setAuthSudoCookie(@Nullable ConfigNodePropertyString authSudoCookie) {
     this.authSudoCookie = authSudoCookie;
   }
 
-  public OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties authSudoParameter(ConfigNodePropertyString authSudoParameter) {
+  public OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties authSudoParameter(@Nullable ConfigNodePropertyString authSudoParameter) {
     this.authSudoParameter = authSudoParameter;
     return this;
   }
@@ -122,20 +133,20 @@ public class OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties   {
   /**
    * Get authSudoParameter
    * @return authSudoParameter
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getAuthSudoParameter() {
+   */
+  @Valid 
+  @Schema(name = "auth.sudo.parameter", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("auth.sudo.parameter")
+  public @Nullable ConfigNodePropertyString getAuthSudoParameter() {
     return authSudoParameter;
   }
 
-  public void setAuthSudoParameter(ConfigNodePropertyString authSudoParameter) {
+  @JsonProperty("auth.sudo.parameter")
+  public void setAuthSudoParameter(@Nullable ConfigNodePropertyString authSudoParameter) {
     this.authSudoParameter = authSudoParameter;
   }
 
-  public OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties authAnnonymous(ConfigNodePropertyBoolean authAnnonymous) {
+  public OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties authAnnonymous(@Nullable ConfigNodePropertyBoolean authAnnonymous) {
     this.authAnnonymous = authAnnonymous;
     return this;
   }
@@ -143,20 +154,20 @@ public class OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties   {
   /**
    * Get authAnnonymous
    * @return authAnnonymous
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getAuthAnnonymous() {
+   */
+  @Valid 
+  @Schema(name = "auth.annonymous", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("auth.annonymous")
+  public @Nullable ConfigNodePropertyBoolean getAuthAnnonymous() {
     return authAnnonymous;
   }
 
-  public void setAuthAnnonymous(ConfigNodePropertyBoolean authAnnonymous) {
+  @JsonProperty("auth.annonymous")
+  public void setAuthAnnonymous(@Nullable ConfigNodePropertyBoolean authAnnonymous) {
     this.authAnnonymous = authAnnonymous;
   }
 
-  public OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties slingAuthRequirements(ConfigNodePropertyArray slingAuthRequirements) {
+  public OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties slingAuthRequirements(@Nullable ConfigNodePropertyArray slingAuthRequirements) {
     this.slingAuthRequirements = slingAuthRequirements;
     return this;
   }
@@ -164,20 +175,20 @@ public class OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties   {
   /**
    * Get slingAuthRequirements
    * @return slingAuthRequirements
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getSlingAuthRequirements() {
+   */
+  @Valid 
+  @Schema(name = "sling.auth.requirements", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("sling.auth.requirements")
+  public @Nullable ConfigNodePropertyArray getSlingAuthRequirements() {
     return slingAuthRequirements;
   }
 
-  public void setSlingAuthRequirements(ConfigNodePropertyArray slingAuthRequirements) {
+  @JsonProperty("sling.auth.requirements")
+  public void setSlingAuthRequirements(@Nullable ConfigNodePropertyArray slingAuthRequirements) {
     this.slingAuthRequirements = slingAuthRequirements;
   }
 
-  public OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties slingAuthAnonymousUser(ConfigNodePropertyString slingAuthAnonymousUser) {
+  public OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties slingAuthAnonymousUser(@Nullable ConfigNodePropertyString slingAuthAnonymousUser) {
     this.slingAuthAnonymousUser = slingAuthAnonymousUser;
     return this;
   }
@@ -185,20 +196,20 @@ public class OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties   {
   /**
    * Get slingAuthAnonymousUser
    * @return slingAuthAnonymousUser
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getSlingAuthAnonymousUser() {
+   */
+  @Valid 
+  @Schema(name = "sling.auth.anonymous.user", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("sling.auth.anonymous.user")
+  public @Nullable ConfigNodePropertyString getSlingAuthAnonymousUser() {
     return slingAuthAnonymousUser;
   }
 
-  public void setSlingAuthAnonymousUser(ConfigNodePropertyString slingAuthAnonymousUser) {
+  @JsonProperty("sling.auth.anonymous.user")
+  public void setSlingAuthAnonymousUser(@Nullable ConfigNodePropertyString slingAuthAnonymousUser) {
     this.slingAuthAnonymousUser = slingAuthAnonymousUser;
   }
 
-  public OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties slingAuthAnonymousPassword(ConfigNodePropertyString slingAuthAnonymousPassword) {
+  public OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties slingAuthAnonymousPassword(@Nullable ConfigNodePropertyString slingAuthAnonymousPassword) {
     this.slingAuthAnonymousPassword = slingAuthAnonymousPassword;
     return this;
   }
@@ -206,20 +217,20 @@ public class OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties   {
   /**
    * Get slingAuthAnonymousPassword
    * @return slingAuthAnonymousPassword
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getSlingAuthAnonymousPassword() {
+   */
+  @Valid 
+  @Schema(name = "sling.auth.anonymous.password", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("sling.auth.anonymous.password")
+  public @Nullable ConfigNodePropertyString getSlingAuthAnonymousPassword() {
     return slingAuthAnonymousPassword;
   }
 
-  public void setSlingAuthAnonymousPassword(ConfigNodePropertyString slingAuthAnonymousPassword) {
+  @JsonProperty("sling.auth.anonymous.password")
+  public void setSlingAuthAnonymousPassword(@Nullable ConfigNodePropertyString slingAuthAnonymousPassword) {
     this.slingAuthAnonymousPassword = slingAuthAnonymousPassword;
   }
 
-  public OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties authHttp(ConfigNodePropertyDropDown authHttp) {
+  public OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties authHttp(@Nullable ConfigNodePropertyDropDown authHttp) {
     this.authHttp = authHttp;
     return this;
   }
@@ -227,20 +238,20 @@ public class OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties   {
   /**
    * Get authHttp
    * @return authHttp
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyDropDown getAuthHttp() {
+   */
+  @Valid 
+  @Schema(name = "auth.http", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("auth.http")
+  public @Nullable ConfigNodePropertyDropDown getAuthHttp() {
     return authHttp;
   }
 
-  public void setAuthHttp(ConfigNodePropertyDropDown authHttp) {
+  @JsonProperty("auth.http")
+  public void setAuthHttp(@Nullable ConfigNodePropertyDropDown authHttp) {
     this.authHttp = authHttp;
   }
 
-  public OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties authHttpRealm(ConfigNodePropertyString authHttpRealm) {
+  public OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties authHttpRealm(@Nullable ConfigNodePropertyString authHttpRealm) {
     this.authHttpRealm = authHttpRealm;
     return this;
   }
@@ -248,20 +259,20 @@ public class OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties   {
   /**
    * Get authHttpRealm
    * @return authHttpRealm
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getAuthHttpRealm() {
+   */
+  @Valid 
+  @Schema(name = "auth.http.realm", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("auth.http.realm")
+  public @Nullable ConfigNodePropertyString getAuthHttpRealm() {
     return authHttpRealm;
   }
 
-  public void setAuthHttpRealm(ConfigNodePropertyString authHttpRealm) {
+  @JsonProperty("auth.http.realm")
+  public void setAuthHttpRealm(@Nullable ConfigNodePropertyString authHttpRealm) {
     this.authHttpRealm = authHttpRealm;
   }
 
-  public OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties authUriSuffix(ConfigNodePropertyArray authUriSuffix) {
+  public OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties authUriSuffix(@Nullable ConfigNodePropertyArray authUriSuffix) {
     this.authUriSuffix = authUriSuffix;
     return this;
   }
@@ -269,22 +280,21 @@ public class OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties   {
   /**
    * Get authUriSuffix
    * @return authUriSuffix
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getAuthUriSuffix() {
+   */
+  @Valid 
+  @Schema(name = "auth.uri.suffix", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("auth.uri.suffix")
+  public @Nullable ConfigNodePropertyArray getAuthUriSuffix() {
     return authUriSuffix;
   }
 
-  public void setAuthUriSuffix(ConfigNodePropertyArray authUriSuffix) {
+  @JsonProperty("auth.uri.suffix")
+  public void setAuthUriSuffix(@Nullable ConfigNodePropertyArray authUriSuffix) {
     this.authUriSuffix = authUriSuffix;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -314,7 +324,6 @@ public class OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties {\n");
-    
     sb.append("    osgiHttpWhiteboardContextSelect: ").append(toIndentedString(osgiHttpWhiteboardContextSelect)).append("\n");
     sb.append("    osgiHttpWhiteboardListener: ").append(toIndentedString(osgiHttpWhiteboardListener)).append("\n");
     sb.append("    authSudoCookie: ").append(toIndentedString(authSudoCookie)).append("\n");
@@ -334,11 +343,8 @@ public class OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

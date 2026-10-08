@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyArray;
 
 @Canonical
 class ComDayCqWcmContentsyncImplHandlerPagesUpdateHandlerProperties {
-    ConfigNodePropertyArray cqPagesupdatehandlerImageresourcetypes = null
-
+    
+    ConfigNodePropertyArray cqPagesupdatehandlerImageresourcetypes
 }

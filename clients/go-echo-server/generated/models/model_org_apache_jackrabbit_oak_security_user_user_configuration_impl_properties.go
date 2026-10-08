@@ -1,0 +1,36 @@
+package models
+
+type OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties struct {
+
+	UsersPath ConfigNodePropertyString `json:"usersPath,omitempty"`
+
+	GroupsPath ConfigNodePropertyString `json:"groupsPath,omitempty"`
+
+	SystemRelativePath ConfigNodePropertyString `json:"systemRelativePath,omitempty"`
+
+	DefaultDepth ConfigNodePropertyInteger `json:"defaultDepth,omitempty"`
+
+	ImportBehavior ConfigNodePropertyDropDown `json:"importBehavior,omitempty"`
+
+	PasswordHashAlgorithm ConfigNodePropertyString `json:"passwordHashAlgorithm,omitempty"`
+
+	PasswordHashIterations ConfigNodePropertyInteger `json:"passwordHashIterations,omitempty"`
+
+	PasswordSaltSize ConfigNodePropertyInteger `json:"passwordSaltSize,omitempty"`
+
+	OmitAdminPw ConfigNodePropertyBoolean `json:"omitAdminPw,omitempty"`
+
+	SupportAutoSave ConfigNodePropertyBoolean `json:"supportAutoSave,omitempty"`
+
+	PasswordMaxAge ConfigNodePropertyInteger `json:"passwordMaxAge,omitempty"`
+
+	InitialPasswordChange ConfigNodePropertyBoolean `json:"initialPasswordChange,omitempty"`
+
+	PasswordHistorySize ConfigNodePropertyInteger `json:"passwordHistorySize,omitempty"`
+
+	PasswordExpiryForAdmin ConfigNodePropertyBoolean `json:"passwordExpiryForAdmin,omitempty"`
+
+	CacheExpiration ConfigNodePropertyInteger `json:"cacheExpiration,omitempty"`
+
+	EnableRFC7613UsercaseMappedProfile ConfigNodePropertyBoolean `json:"enableRFC7613UsercaseMappedProfile,omitempty"`
+}

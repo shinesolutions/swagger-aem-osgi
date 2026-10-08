@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWProperties = openapi_server.resourceTypes.OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWProperties
+}
+resourceTypes {
+
+  OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWInfo {
+    title = OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWInfo
+    description = OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWInfo {
+    title = OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWInfo
+    description = OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWInfo
+    implements = openapi_server.resourceTypes.OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWInfo
+
+  }
+}

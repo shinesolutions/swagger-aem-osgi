@@ -1,7 +1,9 @@
 
+
 # ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **path** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
@@ -9,6 +11,7 @@ Name | Type | Description | Notes
 **jaasRealmName** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
 **jaasRanking** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
 **oauthOfflineValidation** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
+
 
 
 

@@ -72,9 +72,9 @@ private class OASComDayCqMcmCampaignImplIntegratioTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqMcmCampaignImplIntegratio comDayCqMcmCampaignImplIntegrationConfigImplProperties = new OASComDayCqMcmCampaignImplIntegratio();
-        Map<String, String> propertyMappings = comDayCqMcmCampaignImplIntegrationConfigImplProperties.getPropertyMappings();
-        System.assertEquals('aemMcmCampaignFormConstraints', propertyMappings.get('aem.mcm.campaign.formConstraints'));
-        System.assertEquals('aemMcmCampaignPublicUrl', propertyMappings.get('aem.mcm.campaign.publicUrl'));
-        System.assertEquals('aemMcmCampaignRelaxedSSL', propertyMappings.get('aem.mcm.campaign.relaxedSSL'));
+        Map<String, String> x-property-mappings = comDayCqMcmCampaignImplIntegrationConfigImplProperties.getx-property-mappings();
+        System.assertEquals('aemMcmCampaignFormConstraints', x-property-mappings.get('aem.mcm.campaign.formConstraints'));
+        System.assertEquals('aemMcmCampaignPublicUrl', x-property-mappings.get('aem.mcm.campaign.publicUrl'));
+        System.assertEquals('aemMcmCampaignRelaxedSSL', x-property-mappings.get('aem.mcm.campaign.relaxedSSL'));
     }
 }

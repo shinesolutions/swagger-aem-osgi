@@ -72,7 +72,7 @@ private class OASComDayCqDamHandlerFfmpegLocatorImTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqDamHandlerFfmpegLocatorIm comDayCqDamHandlerFfmpegLocatorImplProperties = new OASComDayCqDamHandlerFfmpegLocatorIm();
-        Map<String, String> propertyMappings = comDayCqDamHandlerFfmpegLocatorImplProperties.getPropertyMappings();
-        System.assertEquals('executableSearchpath', propertyMappings.get('executable.searchpath'));
+        Map<String, String> x-property-mappings = comDayCqDamHandlerFfmpegLocatorImplProperties.getx-property-mappings();
+        System.assertEquals('executableSearchpath', x-property-mappings.get('executable.searchpath'));
     }
 }

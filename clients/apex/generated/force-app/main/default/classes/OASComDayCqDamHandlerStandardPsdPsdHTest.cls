@@ -72,7 +72,7 @@ private class OASComDayCqDamHandlerStandardPsdPsdHTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqDamHandlerStandardPsdPsdH comDayCqDamHandlerStandardPsdPsdHandlerProperties = new OASComDayCqDamHandlerStandardPsdPsdH();
-        Map<String, String> propertyMappings = comDayCqDamHandlerStandardPsdPsdHandlerProperties.getPropertyMappings();
-        System.assertEquals('largeFileThreshold', propertyMappings.get('large_file_threshold'));
+        Map<String, String> x-property-mappings = comDayCqDamHandlerStandardPsdPsdHandlerProperties.getx-property-mappings();
+        System.assertEquals('largeFileThreshold', x-property-mappings.get('large_file_threshold'));
     }
 }

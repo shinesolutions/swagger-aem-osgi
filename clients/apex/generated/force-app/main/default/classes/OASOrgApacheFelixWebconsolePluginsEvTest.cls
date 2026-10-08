@@ -72,7 +72,7 @@ private class OASOrgApacheFelixWebconsolePluginsEvTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASOrgApacheFelixWebconsolePluginsEv orgApacheFelixWebconsolePluginsEventInternalPluginServletProperties = new OASOrgApacheFelixWebconsolePluginsEv();
-        Map<String, String> propertyMappings = orgApacheFelixWebconsolePluginsEventInternalPluginServletProperties.getPropertyMappings();
-        System.assertEquals('maxSize', propertyMappings.get('max.size'));
+        Map<String, String> x-property-mappings = orgApacheFelixWebconsolePluginsEventInternalPluginServletProperties.getx-property-mappings();
+        System.assertEquals('maxSize', x-property-mappings.get('max.size'));
     }
 }

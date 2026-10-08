@@ -1,19 +1,30 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comAdobeCqDamIpsImplReplicationTriggerReplicateOnModifyWorkerProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeCqDamIpsImplReplicationTriggerReplicateOnModifyWorkerProperties   {
-  
-  private @Valid ConfigNodePropertyBoolean dmreplicateonmodifyEnabled = null;
-  private @Valid ConfigNodePropertyBoolean dmreplicateonmodifyForcesyncdeletes = null;
+  private ConfigNodePropertyBoolean dmreplicateonmodifyEnabled;
+  private ConfigNodePropertyBoolean dmreplicateonmodifyForcesyncdeletes;
+
+  public ComAdobeCqDamIpsImplReplicationTriggerReplicateOnModifyWorkerProperties() {
+  }
 
   /**
    **/
@@ -25,9 +36,11 @@ public class ComAdobeCqDamIpsImplReplicationTriggerReplicateOnModifyWorkerProper
   
   @ApiModelProperty(value = "")
   @JsonProperty("dmreplicateonmodify.enabled")
-  public ConfigNodePropertyBoolean getDmreplicateonmodifyEnabled() {
+  @Valid public ConfigNodePropertyBoolean getDmreplicateonmodifyEnabled() {
     return dmreplicateonmodifyEnabled;
   }
+
+  @JsonProperty("dmreplicateonmodify.enabled")
   public void setDmreplicateonmodifyEnabled(ConfigNodePropertyBoolean dmreplicateonmodifyEnabled) {
     this.dmreplicateonmodifyEnabled = dmreplicateonmodifyEnabled;
   }
@@ -42,16 +55,18 @@ public class ComAdobeCqDamIpsImplReplicationTriggerReplicateOnModifyWorkerProper
   
   @ApiModelProperty(value = "")
   @JsonProperty("dmreplicateonmodify.forcesyncdeletes")
-  public ConfigNodePropertyBoolean getDmreplicateonmodifyForcesyncdeletes() {
+  @Valid public ConfigNodePropertyBoolean getDmreplicateonmodifyForcesyncdeletes() {
     return dmreplicateonmodifyForcesyncdeletes;
   }
+
+  @JsonProperty("dmreplicateonmodify.forcesyncdeletes")
   public void setDmreplicateonmodifyForcesyncdeletes(ConfigNodePropertyBoolean dmreplicateonmodifyForcesyncdeletes) {
     this.dmreplicateonmodifyForcesyncdeletes = dmreplicateonmodifyForcesyncdeletes;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -59,8 +74,8 @@ public class ComAdobeCqDamIpsImplReplicationTriggerReplicateOnModifyWorkerProper
       return false;
     }
     ComAdobeCqDamIpsImplReplicationTriggerReplicateOnModifyWorkerProperties comAdobeCqDamIpsImplReplicationTriggerReplicateOnModifyWorkerProperties = (ComAdobeCqDamIpsImplReplicationTriggerReplicateOnModifyWorkerProperties) o;
-    return Objects.equals(dmreplicateonmodifyEnabled, comAdobeCqDamIpsImplReplicationTriggerReplicateOnModifyWorkerProperties.dmreplicateonmodifyEnabled) &&
-        Objects.equals(dmreplicateonmodifyForcesyncdeletes, comAdobeCqDamIpsImplReplicationTriggerReplicateOnModifyWorkerProperties.dmreplicateonmodifyForcesyncdeletes);
+    return Objects.equals(this.dmreplicateonmodifyEnabled, comAdobeCqDamIpsImplReplicationTriggerReplicateOnModifyWorkerProperties.dmreplicateonmodifyEnabled) &&
+        Objects.equals(this.dmreplicateonmodifyForcesyncdeletes, comAdobeCqDamIpsImplReplicationTriggerReplicateOnModifyWorkerProperties.dmreplicateonmodifyForcesyncdeletes);
   }
 
   @Override
@@ -83,11 +98,9 @@ public class ComAdobeCqDamIpsImplReplicationTriggerReplicateOnModifyWorkerProper
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

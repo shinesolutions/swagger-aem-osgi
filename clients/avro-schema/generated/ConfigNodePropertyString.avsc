@@ -1,0 +1,45 @@
+{
+  "namespace": "model",
+  "type": "record",
+  "doc": "",
+  "name": "ConfigNodePropertyString",
+  "fields": [
+    {
+      "name": "name",
+      "type": ["null", "string"],
+      "doc": "property name",
+      "default": null
+    },
+    {
+      "name": "optional",
+      "type": ["null", "boolean"],
+      "doc": "True if optional",
+      "default": null
+    },
+    {
+      "name": "is_set",
+      "type": ["null", "boolean"],
+      "doc": "True if property is set",
+      "default": null
+    },
+    {
+      "name": "type",
+      "type": ["null", "int"],
+      "doc": "Property type, 1=String, 2=Long, 3=Integer, 7=Float, 11=Boolean, 12=Secrets(String)",
+      "default": null
+    },
+    {
+      "name": "value",
+      "type": ["null", "string"],
+      "doc": "Property value",
+      "default": null
+    },
+    {
+      "name": "description",
+      "type": ["null", "string"],
+      "doc": "Property description",
+      "default": null
+    }
+  ]
+
+}

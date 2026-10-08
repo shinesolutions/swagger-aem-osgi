@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqDamCoreImplServletAssetXMPSearchServletPro
 
 @Canonical
 class ComDayCqDamCoreImplServletAssetXMPSearchServletInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqDamCoreImplServletAssetXMPSearchServletProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqDamCoreImplServletAssetXMPSearchServletProperties properties
 }

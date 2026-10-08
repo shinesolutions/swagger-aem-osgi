@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyBoolean;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
@@ -15,24 +16,23 @@ import io.swagger.annotations.ApiModelProperty;
  * ComDayCqWcmCoreImplWCMDebugFilterProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqWcmCoreImplWCMDebugFilterProperties   {
   @JsonProperty("wcmdbgfilter.enabled")
-  private ConfigNodePropertyBoolean wcmdbgfilterEnabled = null;
+  private ConfigNodePropertyBoolean wcmdbgfilterEnabled;
 
   @JsonProperty("wcmdbgfilter.jspDebug")
-  private ConfigNodePropertyBoolean wcmdbgfilterJspDebug = null;
+  private ConfigNodePropertyBoolean wcmdbgfilterJspDebug;
 
   public ComDayCqWcmCoreImplWCMDebugFilterProperties wcmdbgfilterEnabled(ConfigNodePropertyBoolean wcmdbgfilterEnabled) {
     this.wcmdbgfilterEnabled = wcmdbgfilterEnabled;
     return this;
   }
 
-   /**
+  /**
    * Get wcmdbgfilterEnabled
    * @return wcmdbgfilterEnabled
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getWcmdbgfilterEnabled() {
     return wcmdbgfilterEnabled;
@@ -47,10 +47,10 @@ public class ComDayCqWcmCoreImplWCMDebugFilterProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get wcmdbgfilterJspDebug
    * @return wcmdbgfilterJspDebug
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getWcmdbgfilterJspDebug() {
     return wcmdbgfilterJspDebug;
@@ -62,7 +62,7 @@ public class ComDayCqWcmCoreImplWCMDebugFilterProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -94,11 +94,8 @@ public class ComDayCqWcmCoreImplWCMDebugFilterProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

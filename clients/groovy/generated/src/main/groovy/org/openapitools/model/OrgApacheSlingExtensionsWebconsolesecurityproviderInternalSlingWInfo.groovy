@@ -7,12 +7,12 @@ import org.openapitools.model.OrgApacheSlingExtensionsWebconsolesecurityprovider
 
 @Canonical
 class OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWProperties properties
 }

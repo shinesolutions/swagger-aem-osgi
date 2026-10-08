@@ -1,0 +1,61 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqSecurityACLSetupInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqSecurityACLSetupInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComDayCqSecurityACLSetupProperties = openapi_server.resourceTypes.ComDayCqSecurityACLSetupProperties
+}
+resourceTypes {
+
+  ComDayCqSecurityACLSetupInfo {
+    title = ComDayCqSecurityACLSetupInfo
+    description = ComDayCqSecurityACLSetupInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComDayCqSecurityACLSetupProperties
+          description = ""
+          optional = false
+        }
+        bundle_location {
+          type =  string
+          description = ""
+          optional = false
+        }
+        service_location {
+          type =  string
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqSecurityACLSetupInfo {
+    title = ComDayCqSecurityACLSetupInfo
+    description = ComDayCqSecurityACLSetupInfo
+    implements = openapi_server.resourceTypes.ComDayCqSecurityACLSetupInfo
+
+  }
+}

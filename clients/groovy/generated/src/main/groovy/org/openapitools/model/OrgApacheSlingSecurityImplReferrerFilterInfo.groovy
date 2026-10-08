@@ -7,16 +7,16 @@ import org.openapitools.model.OrgApacheSlingSecurityImplReferrerFilterProperties
 
 @Canonical
 class OrgApacheSlingSecurityImplReferrerFilterInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheSlingSecurityImplReferrerFilterProperties properties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheSlingSecurityImplReferrerFilterProperties properties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

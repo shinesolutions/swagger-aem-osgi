@@ -8,12 +8,12 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class OrgApacheSlingJcrWebdavImplHandlerDefaultHandlerServiceProperties {
-    ConfigNodePropertyInteger serviceRanking = null
-
-    ConfigNodePropertyString typeCollections = null
-
-    ConfigNodePropertyString typeNoncollections = null
-
-    ConfigNodePropertyString typeContent = null
-
+    
+    ConfigNodePropertyInteger serviceRanking
+    
+    ConfigNodePropertyString typeCollections
+    
+    ConfigNodePropertyString typeNoncollections
+    
+    ConfigNodePropertyString typeContent
 }

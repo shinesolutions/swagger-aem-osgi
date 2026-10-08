@@ -7,8 +7,8 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class ComDayCqExtwidgetServletsImageSpriteServletProperties {
-    ConfigNodePropertyInteger maxWidth = null
-
-    ConfigNodePropertyInteger maxHeight = null
-
+    
+    ConfigNodePropertyInteger maxWidth
+    
+    ConfigNodePropertyInteger maxHeight
 }

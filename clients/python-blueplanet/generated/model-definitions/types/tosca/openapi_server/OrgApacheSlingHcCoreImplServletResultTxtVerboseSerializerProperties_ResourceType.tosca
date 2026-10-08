@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingHcCoreImplServletResultTxtVerboseSerializerProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingHcCoreImplServletResultTxtVerboseSerializerProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+}
+resourceTypes {
+
+  OrgApacheSlingHcCoreImplServletResultTxtVerboseSerializerProperties {
+    title = OrgApacheSlingHcCoreImplServletResultTxtVerboseSerializerProperties
+    description = OrgApacheSlingHcCoreImplServletResultTxtVerboseSerializerProperties
+    derivedFrom = Root
+    properties {
+        total_width {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        col_width_name {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        col_width_result {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        col_width_timing {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingHcCoreImplServletResultTxtVerboseSerializerProperties {
+    title = OrgApacheSlingHcCoreImplServletResultTxtVerboseSerializerProperties
+    description = OrgApacheSlingHcCoreImplServletResultTxtVerboseSerializerProperties
+    implements = openapi_server.resourceTypes.OrgApacheSlingHcCoreImplServletResultTxtVerboseSerializerProperties
+
+  }
+}

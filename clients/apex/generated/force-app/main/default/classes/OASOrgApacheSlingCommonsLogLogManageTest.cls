@@ -72,10 +72,10 @@ private class OASOrgApacheSlingCommonsLogLogManageTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASOrgApacheSlingCommonsLogLogManage orgApacheSlingCommonsLogLogManagerFactoryWriterProperties = new OASOrgApacheSlingCommonsLogLogManage();
-        Map<String, String> propertyMappings = orgApacheSlingCommonsLogLogManagerFactoryWriterProperties.getPropertyMappings();
-        System.assertEquals('orgApacheSlingCommonsLogFile', propertyMappings.get('org.apache.sling.commons.log.file'));
-        System.assertEquals('orgApacheSlingCommonsLogFileNumber', propertyMappings.get('org.apache.sling.commons.log.file.number'));
-        System.assertEquals('orgApacheSlingCommonsLogFileSize', propertyMappings.get('org.apache.sling.commons.log.file.size'));
-        System.assertEquals('orgApacheSlingCommonsLogFileBuffered', propertyMappings.get('org.apache.sling.commons.log.file.buffered'));
+        Map<String, String> x-property-mappings = orgApacheSlingCommonsLogLogManagerFactoryWriterProperties.getx-property-mappings();
+        System.assertEquals('orgApacheSlingCommonsLogFile', x-property-mappings.get('org.apache.sling.commons.log.file'));
+        System.assertEquals('orgApacheSlingCommonsLogFileNumber', x-property-mappings.get('org.apache.sling.commons.log.file.number'));
+        System.assertEquals('orgApacheSlingCommonsLogFileSize', x-property-mappings.get('org.apache.sling.commons.log.file.size'));
+        System.assertEquals('orgApacheSlingCommonsLogFileBuffered', x-property-mappings.get('org.apache.sling.commons.log.file.buffered'));
     }
 }

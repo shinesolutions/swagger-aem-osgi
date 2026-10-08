@@ -7,12 +7,12 @@ import org.openapitools.model.OrgApacheSlingDistributionTriggerImplRemoteEventDi
 
 @Canonical
 class OrgApacheSlingDistributionTriggerImplRemoteEventDistributionTrigInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheSlingDistributionTriggerImplRemoteEventDistributionTrigProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheSlingDistributionTriggerImplRemoteEventDistributionTrigProperties properties
 }

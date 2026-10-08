@@ -1,12 +1,13 @@
 # ComDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandleInfo
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**pid** | **String** |  | [optional] 
-**title** | **String** |  | [optional] 
-**description** | **String** |  | [optional] 
-**properties** | [***::models::ComDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandleProperties**](comDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandleProperties.md) |  | [optional] 
+**pid** | Option<**String**> |  | [optional]
+**title** | Option<**String**> |  | [optional]
+**description** | Option<**String**> |  | [optional]
+**properties** | Option<[**models::ComDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandleProperties**](ComDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandleProperties.md)> |  | [optional]
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

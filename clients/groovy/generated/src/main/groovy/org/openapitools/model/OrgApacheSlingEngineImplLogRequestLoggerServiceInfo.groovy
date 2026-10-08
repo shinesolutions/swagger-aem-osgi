@@ -7,12 +7,12 @@ import org.openapitools.model.OrgApacheSlingEngineImplLogRequestLoggerServicePro
 
 @Canonical
 class OrgApacheSlingEngineImplLogRequestLoggerServiceInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheSlingEngineImplLogRequestLoggerServiceProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheSlingEngineImplLogRequestLoggerServiceProperties properties
 }

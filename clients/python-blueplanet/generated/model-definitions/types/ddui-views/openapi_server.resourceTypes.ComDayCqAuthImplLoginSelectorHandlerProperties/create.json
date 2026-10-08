@@ -1,0 +1,24 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "path" },
+      {"model": "service_ranking" },
+      {"model": "auth_loginselector_mappings" },
+      {"model": "auth_loginselector_changepw_mappings" },
+      {"model": "auth_loginselector_defaultloginpage" },
+      {"model": "auth_loginselector_defaultchangepwpage" },
+      {"model": "auth_loginselector_handle" },
+      {"model": "auth_loginselector_handle_all_extensions" },
+    ]
+  }]
+}

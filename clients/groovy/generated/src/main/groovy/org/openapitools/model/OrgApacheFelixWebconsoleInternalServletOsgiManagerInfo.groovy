@@ -7,12 +7,12 @@ import org.openapitools.model.OrgApacheFelixWebconsoleInternalServletOsgiManager
 
 @Canonical
 class OrgApacheFelixWebconsoleInternalServletOsgiManagerInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties properties
 }

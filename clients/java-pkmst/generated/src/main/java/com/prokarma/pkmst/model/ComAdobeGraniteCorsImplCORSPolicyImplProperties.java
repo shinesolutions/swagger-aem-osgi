@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyArray;
 import com.prokarma.pkmst.model.ConfigNodePropertyBoolean;
 import com.prokarma.pkmst.model.ConfigNodePropertyInteger;
@@ -17,42 +18,41 @@ import io.swagger.annotations.ApiModelProperty;
  * ComAdobeGraniteCorsImplCORSPolicyImplProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteCorsImplCORSPolicyImplProperties   {
   @JsonProperty("alloworigin")
-  private ConfigNodePropertyArray alloworigin = null;
+  private ConfigNodePropertyArray alloworigin;
 
   @JsonProperty("alloworiginregexp")
-  private ConfigNodePropertyArray alloworiginregexp = null;
+  private ConfigNodePropertyArray alloworiginregexp;
 
   @JsonProperty("allowedpaths")
-  private ConfigNodePropertyArray allowedpaths = null;
+  private ConfigNodePropertyArray allowedpaths;
 
   @JsonProperty("exposedheaders")
-  private ConfigNodePropertyArray exposedheaders = null;
+  private ConfigNodePropertyArray exposedheaders;
 
   @JsonProperty("maxage")
-  private ConfigNodePropertyInteger maxage = null;
+  private ConfigNodePropertyInteger maxage;
 
   @JsonProperty("supportedheaders")
-  private ConfigNodePropertyArray supportedheaders = null;
+  private ConfigNodePropertyArray supportedheaders;
 
   @JsonProperty("supportedmethods")
-  private ConfigNodePropertyArray supportedmethods = null;
+  private ConfigNodePropertyArray supportedmethods;
 
   @JsonProperty("supportscredentials")
-  private ConfigNodePropertyBoolean supportscredentials = null;
+  private ConfigNodePropertyBoolean supportscredentials;
 
   public ComAdobeGraniteCorsImplCORSPolicyImplProperties alloworigin(ConfigNodePropertyArray alloworigin) {
     this.alloworigin = alloworigin;
     return this;
   }
 
-   /**
+  /**
    * Get alloworigin
    * @return alloworigin
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getAlloworigin() {
     return alloworigin;
@@ -67,10 +67,10 @@ public class ComAdobeGraniteCorsImplCORSPolicyImplProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get alloworiginregexp
    * @return alloworiginregexp
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getAlloworiginregexp() {
     return alloworiginregexp;
@@ -85,10 +85,10 @@ public class ComAdobeGraniteCorsImplCORSPolicyImplProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get allowedpaths
    * @return allowedpaths
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getAllowedpaths() {
     return allowedpaths;
@@ -103,10 +103,10 @@ public class ComAdobeGraniteCorsImplCORSPolicyImplProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get exposedheaders
    * @return exposedheaders
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getExposedheaders() {
     return exposedheaders;
@@ -121,10 +121,10 @@ public class ComAdobeGraniteCorsImplCORSPolicyImplProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get maxage
    * @return maxage
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getMaxage() {
     return maxage;
@@ -139,10 +139,10 @@ public class ComAdobeGraniteCorsImplCORSPolicyImplProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get supportedheaders
    * @return supportedheaders
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getSupportedheaders() {
     return supportedheaders;
@@ -157,10 +157,10 @@ public class ComAdobeGraniteCorsImplCORSPolicyImplProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get supportedmethods
    * @return supportedmethods
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getSupportedmethods() {
     return supportedmethods;
@@ -175,10 +175,10 @@ public class ComAdobeGraniteCorsImplCORSPolicyImplProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get supportscredentials
    * @return supportscredentials
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getSupportscredentials() {
     return supportscredentials;
@@ -190,7 +190,7 @@ public class ComAdobeGraniteCorsImplCORSPolicyImplProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -234,11 +234,8 @@ public class ComAdobeGraniteCorsImplCORSPolicyImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

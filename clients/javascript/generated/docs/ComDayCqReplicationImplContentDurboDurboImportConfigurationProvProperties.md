@@ -1,6 +1,7 @@
 # NodeSwaggerAemOsgi.ComDayCqReplicationImplContentDurboDurboImportConfigurationProvProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **preserveHierarchyNodes** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] 

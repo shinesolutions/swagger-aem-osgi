@@ -9,22 +9,22 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class OrgApacheSlingServletsGetDefaultGetServletProperties {
-    ConfigNodePropertyArray aliases = null
-
-    ConfigNodePropertyBoolean index = null
-
-    ConfigNodePropertyArray indexFiles = null
-
-    ConfigNodePropertyBoolean enableHtml = null
-
-    ConfigNodePropertyBoolean enableJson = null
-
-    ConfigNodePropertyBoolean enableTxt = null
-
-    ConfigNodePropertyBoolean enableXml = null
-
-    ConfigNodePropertyInteger jsonMaximumresults = null
-
-    ConfigNodePropertyBoolean ecmaSuport = null
-
+    
+    ConfigNodePropertyArray aliases
+    
+    ConfigNodePropertyBoolean index
+    
+    ConfigNodePropertyArray indexFiles
+    
+    ConfigNodePropertyBoolean enableHtml
+    
+    ConfigNodePropertyBoolean enableJson
+    
+    ConfigNodePropertyBoolean enableTxt
+    
+    ConfigNodePropertyBoolean enableXml
+    
+    ConfigNodePropertyInteger jsonMaximumresults
+    
+    ConfigNodePropertyBoolean ecmaSuport
 }

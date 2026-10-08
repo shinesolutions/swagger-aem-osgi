@@ -4,24 +4,21 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ComDayCqWcmCoreImplEventTemplatePostProcessorProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2019-08-05T01:00:05.540Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2026-10-07T12:54:26.576036107Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqWcmCoreImplEventTemplatePostProcessorInfo   {
   
-
-  private String pid = null;
-
-  private String title = null;
-
-  private String description = null;
-
-  private ComDayCqWcmCoreImplEventTemplatePostProcessorProperties properties = null;
+  private String pid;
+  private String title;
+  private String description;
+  private ComDayCqWcmCoreImplEventTemplatePostProcessorProperties properties;
 
   /**
    **/
@@ -81,10 +78,10 @@ public class ComDayCqWcmCoreImplEventTemplatePostProcessorInfo   {
       return false;
     }
     ComDayCqWcmCoreImplEventTemplatePostProcessorInfo comDayCqWcmCoreImplEventTemplatePostProcessorInfo = (ComDayCqWcmCoreImplEventTemplatePostProcessorInfo) o;
-    return Objects.equals(pid, comDayCqWcmCoreImplEventTemplatePostProcessorInfo.pid) &&
-        Objects.equals(title, comDayCqWcmCoreImplEventTemplatePostProcessorInfo.title) &&
-        Objects.equals(description, comDayCqWcmCoreImplEventTemplatePostProcessorInfo.description) &&
-        Objects.equals(properties, comDayCqWcmCoreImplEventTemplatePostProcessorInfo.properties);
+    return Objects.equals(this.pid, comDayCqWcmCoreImplEventTemplatePostProcessorInfo.pid) &&
+        Objects.equals(this.title, comDayCqWcmCoreImplEventTemplatePostProcessorInfo.title) &&
+        Objects.equals(this.description, comDayCqWcmCoreImplEventTemplatePostProcessorInfo.description) &&
+        Objects.equals(this.properties, comDayCqWcmCoreImplEventTemplatePostProcessorInfo.properties);
   }
 
   @Override
@@ -110,10 +107,7 @@ public class ComDayCqWcmCoreImplEventTemplatePostProcessorInfo   {
    * (except the first line).
    */
   private String toIndentedString(Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

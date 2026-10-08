@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqWcmCoreImplDevicedetectionDeviceIdentifica
 
 @Canonical
 class ComDayCqWcmCoreImplDevicedetectionDeviceIdentificationModeImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqWcmCoreImplDevicedetectionDeviceIdentificationModeImplProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqWcmCoreImplDevicedetectionDeviceIdentificationModeImplProperties properties
 }

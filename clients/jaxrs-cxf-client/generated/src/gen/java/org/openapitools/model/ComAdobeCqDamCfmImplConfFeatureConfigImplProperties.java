@@ -3,22 +3,19 @@ package org.openapitools.model;
 import org.openapitools.model.ConfigNodePropertyArray;
 
 import io.swagger.annotations.ApiModelProperty;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlType;
-import javax.xml.bind.annotation.XmlEnum;
-import javax.xml.bind.annotation.XmlEnumValue;
+import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
 
 public class ComAdobeCqDamCfmImplConfFeatureConfigImplProperties  {
   
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyArray damCfmResourceTypes = null;
+
+  private ConfigNodePropertyArray damCfmResourceTypes;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyArray damCfmReferenceProperties = null;
+
+  private ConfigNodePropertyArray damCfmReferenceProperties;
  /**
    * Get damCfmResourceTypes
    * @return damCfmResourceTypes
@@ -55,6 +52,23 @@ public class ComAdobeCqDamCfmImplConfFeatureConfigImplProperties  {
     return this;
   }
 
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    ComAdobeCqDamCfmImplConfFeatureConfigImplProperties comAdobeCqDamCfmImplConfFeatureConfigImplProperties = (ComAdobeCqDamCfmImplConfFeatureConfigImplProperties) o;
+    return Objects.equals(this.damCfmResourceTypes, comAdobeCqDamCfmImplConfFeatureConfigImplProperties.damCfmResourceTypes) &&
+        Objects.equals(this.damCfmReferenceProperties, comAdobeCqDamCfmImplConfFeatureConfigImplProperties.damCfmReferenceProperties);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(damCfmResourceTypes, damCfmReferenceProperties);
+  }
 
   @Override
   public String toString() {
@@ -71,11 +85,8 @@ public class ComAdobeCqDamCfmImplConfFeatureConfigImplProperties  {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private static String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

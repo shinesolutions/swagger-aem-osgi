@@ -1,51 +1,62 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyDropDown;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComAdobeGraniteThreaddumpThreadDumpCollectorProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComAdobeGraniteThreaddumpThreadDumpCollectorProperties   {
-  @JsonProperty("scheduler.period")
-  private ConfigNodePropertyInteger schedulerPeriod = null;
+@JsonTypeName("comAdobeGraniteThreaddumpThreadDumpCollectorProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComAdobeGraniteThreaddumpThreadDumpCollectorProperties {
 
-  @JsonProperty("scheduler.runOn")
-  private ConfigNodePropertyDropDown schedulerRunOn = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger schedulerPeriod;
 
-  @JsonProperty("granite.threaddump.enabled")
-  private ConfigNodePropertyBoolean graniteThreaddumpEnabled = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyDropDown schedulerRunOn;
 
-  @JsonProperty("granite.threaddump.dumpsPerFile")
-  private ConfigNodePropertyInteger graniteThreaddumpDumpsPerFile = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean graniteThreaddumpEnabled;
 
-  @JsonProperty("granite.threaddump.enableGzipCompression")
-  private ConfigNodePropertyBoolean graniteThreaddumpEnableGzipCompression = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger graniteThreaddumpDumpsPerFile;
 
-  @JsonProperty("granite.threaddump.enableDirectoriesCompression")
-  private ConfigNodePropertyBoolean graniteThreaddumpEnableDirectoriesCompression = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean graniteThreaddumpEnableGzipCompression;
 
-  @JsonProperty("granite.threaddump.enableJStack")
-  private ConfigNodePropertyBoolean graniteThreaddumpEnableJStack = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean graniteThreaddumpEnableDirectoriesCompression;
 
-  @JsonProperty("granite.threaddump.maxBackupDays")
-  private ConfigNodePropertyInteger graniteThreaddumpMaxBackupDays = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean graniteThreaddumpEnableJStack;
 
-  @JsonProperty("granite.threaddump.backupCleanTrigger")
-  private ConfigNodePropertyString graniteThreaddumpBackupCleanTrigger = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger graniteThreaddumpMaxBackupDays;
 
-  public ComAdobeGraniteThreaddumpThreadDumpCollectorProperties schedulerPeriod(ConfigNodePropertyInteger schedulerPeriod) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString graniteThreaddumpBackupCleanTrigger;
+
+  public ComAdobeGraniteThreaddumpThreadDumpCollectorProperties schedulerPeriod(@Nullable ConfigNodePropertyInteger schedulerPeriod) {
     this.schedulerPeriod = schedulerPeriod;
     return this;
   }
@@ -53,20 +64,20 @@ public class ComAdobeGraniteThreaddumpThreadDumpCollectorProperties   {
   /**
    * Get schedulerPeriod
    * @return schedulerPeriod
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getSchedulerPeriod() {
+   */
+  @Valid 
+  @Schema(name = "scheduler.period", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("scheduler.period")
+  public @Nullable ConfigNodePropertyInteger getSchedulerPeriod() {
     return schedulerPeriod;
   }
 
-  public void setSchedulerPeriod(ConfigNodePropertyInteger schedulerPeriod) {
+  @JsonProperty("scheduler.period")
+  public void setSchedulerPeriod(@Nullable ConfigNodePropertyInteger schedulerPeriod) {
     this.schedulerPeriod = schedulerPeriod;
   }
 
-  public ComAdobeGraniteThreaddumpThreadDumpCollectorProperties schedulerRunOn(ConfigNodePropertyDropDown schedulerRunOn) {
+  public ComAdobeGraniteThreaddumpThreadDumpCollectorProperties schedulerRunOn(@Nullable ConfigNodePropertyDropDown schedulerRunOn) {
     this.schedulerRunOn = schedulerRunOn;
     return this;
   }
@@ -74,20 +85,20 @@ public class ComAdobeGraniteThreaddumpThreadDumpCollectorProperties   {
   /**
    * Get schedulerRunOn
    * @return schedulerRunOn
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyDropDown getSchedulerRunOn() {
+   */
+  @Valid 
+  @Schema(name = "scheduler.runOn", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("scheduler.runOn")
+  public @Nullable ConfigNodePropertyDropDown getSchedulerRunOn() {
     return schedulerRunOn;
   }
 
-  public void setSchedulerRunOn(ConfigNodePropertyDropDown schedulerRunOn) {
+  @JsonProperty("scheduler.runOn")
+  public void setSchedulerRunOn(@Nullable ConfigNodePropertyDropDown schedulerRunOn) {
     this.schedulerRunOn = schedulerRunOn;
   }
 
-  public ComAdobeGraniteThreaddumpThreadDumpCollectorProperties graniteThreaddumpEnabled(ConfigNodePropertyBoolean graniteThreaddumpEnabled) {
+  public ComAdobeGraniteThreaddumpThreadDumpCollectorProperties graniteThreaddumpEnabled(@Nullable ConfigNodePropertyBoolean graniteThreaddumpEnabled) {
     this.graniteThreaddumpEnabled = graniteThreaddumpEnabled;
     return this;
   }
@@ -95,20 +106,20 @@ public class ComAdobeGraniteThreaddumpThreadDumpCollectorProperties   {
   /**
    * Get graniteThreaddumpEnabled
    * @return graniteThreaddumpEnabled
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getGraniteThreaddumpEnabled() {
+   */
+  @Valid 
+  @Schema(name = "granite.threaddump.enabled", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("granite.threaddump.enabled")
+  public @Nullable ConfigNodePropertyBoolean getGraniteThreaddumpEnabled() {
     return graniteThreaddumpEnabled;
   }
 
-  public void setGraniteThreaddumpEnabled(ConfigNodePropertyBoolean graniteThreaddumpEnabled) {
+  @JsonProperty("granite.threaddump.enabled")
+  public void setGraniteThreaddumpEnabled(@Nullable ConfigNodePropertyBoolean graniteThreaddumpEnabled) {
     this.graniteThreaddumpEnabled = graniteThreaddumpEnabled;
   }
 
-  public ComAdobeGraniteThreaddumpThreadDumpCollectorProperties graniteThreaddumpDumpsPerFile(ConfigNodePropertyInteger graniteThreaddumpDumpsPerFile) {
+  public ComAdobeGraniteThreaddumpThreadDumpCollectorProperties graniteThreaddumpDumpsPerFile(@Nullable ConfigNodePropertyInteger graniteThreaddumpDumpsPerFile) {
     this.graniteThreaddumpDumpsPerFile = graniteThreaddumpDumpsPerFile;
     return this;
   }
@@ -116,20 +127,20 @@ public class ComAdobeGraniteThreaddumpThreadDumpCollectorProperties   {
   /**
    * Get graniteThreaddumpDumpsPerFile
    * @return graniteThreaddumpDumpsPerFile
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getGraniteThreaddumpDumpsPerFile() {
+   */
+  @Valid 
+  @Schema(name = "granite.threaddump.dumpsPerFile", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("granite.threaddump.dumpsPerFile")
+  public @Nullable ConfigNodePropertyInteger getGraniteThreaddumpDumpsPerFile() {
     return graniteThreaddumpDumpsPerFile;
   }
 
-  public void setGraniteThreaddumpDumpsPerFile(ConfigNodePropertyInteger graniteThreaddumpDumpsPerFile) {
+  @JsonProperty("granite.threaddump.dumpsPerFile")
+  public void setGraniteThreaddumpDumpsPerFile(@Nullable ConfigNodePropertyInteger graniteThreaddumpDumpsPerFile) {
     this.graniteThreaddumpDumpsPerFile = graniteThreaddumpDumpsPerFile;
   }
 
-  public ComAdobeGraniteThreaddumpThreadDumpCollectorProperties graniteThreaddumpEnableGzipCompression(ConfigNodePropertyBoolean graniteThreaddumpEnableGzipCompression) {
+  public ComAdobeGraniteThreaddumpThreadDumpCollectorProperties graniteThreaddumpEnableGzipCompression(@Nullable ConfigNodePropertyBoolean graniteThreaddumpEnableGzipCompression) {
     this.graniteThreaddumpEnableGzipCompression = graniteThreaddumpEnableGzipCompression;
     return this;
   }
@@ -137,20 +148,20 @@ public class ComAdobeGraniteThreaddumpThreadDumpCollectorProperties   {
   /**
    * Get graniteThreaddumpEnableGzipCompression
    * @return graniteThreaddumpEnableGzipCompression
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getGraniteThreaddumpEnableGzipCompression() {
+   */
+  @Valid 
+  @Schema(name = "granite.threaddump.enableGzipCompression", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("granite.threaddump.enableGzipCompression")
+  public @Nullable ConfigNodePropertyBoolean getGraniteThreaddumpEnableGzipCompression() {
     return graniteThreaddumpEnableGzipCompression;
   }
 
-  public void setGraniteThreaddumpEnableGzipCompression(ConfigNodePropertyBoolean graniteThreaddumpEnableGzipCompression) {
+  @JsonProperty("granite.threaddump.enableGzipCompression")
+  public void setGraniteThreaddumpEnableGzipCompression(@Nullable ConfigNodePropertyBoolean graniteThreaddumpEnableGzipCompression) {
     this.graniteThreaddumpEnableGzipCompression = graniteThreaddumpEnableGzipCompression;
   }
 
-  public ComAdobeGraniteThreaddumpThreadDumpCollectorProperties graniteThreaddumpEnableDirectoriesCompression(ConfigNodePropertyBoolean graniteThreaddumpEnableDirectoriesCompression) {
+  public ComAdobeGraniteThreaddumpThreadDumpCollectorProperties graniteThreaddumpEnableDirectoriesCompression(@Nullable ConfigNodePropertyBoolean graniteThreaddumpEnableDirectoriesCompression) {
     this.graniteThreaddumpEnableDirectoriesCompression = graniteThreaddumpEnableDirectoriesCompression;
     return this;
   }
@@ -158,20 +169,20 @@ public class ComAdobeGraniteThreaddumpThreadDumpCollectorProperties   {
   /**
    * Get graniteThreaddumpEnableDirectoriesCompression
    * @return graniteThreaddumpEnableDirectoriesCompression
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getGraniteThreaddumpEnableDirectoriesCompression() {
+   */
+  @Valid 
+  @Schema(name = "granite.threaddump.enableDirectoriesCompression", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("granite.threaddump.enableDirectoriesCompression")
+  public @Nullable ConfigNodePropertyBoolean getGraniteThreaddumpEnableDirectoriesCompression() {
     return graniteThreaddumpEnableDirectoriesCompression;
   }
 
-  public void setGraniteThreaddumpEnableDirectoriesCompression(ConfigNodePropertyBoolean graniteThreaddumpEnableDirectoriesCompression) {
+  @JsonProperty("granite.threaddump.enableDirectoriesCompression")
+  public void setGraniteThreaddumpEnableDirectoriesCompression(@Nullable ConfigNodePropertyBoolean graniteThreaddumpEnableDirectoriesCompression) {
     this.graniteThreaddumpEnableDirectoriesCompression = graniteThreaddumpEnableDirectoriesCompression;
   }
 
-  public ComAdobeGraniteThreaddumpThreadDumpCollectorProperties graniteThreaddumpEnableJStack(ConfigNodePropertyBoolean graniteThreaddumpEnableJStack) {
+  public ComAdobeGraniteThreaddumpThreadDumpCollectorProperties graniteThreaddumpEnableJStack(@Nullable ConfigNodePropertyBoolean graniteThreaddumpEnableJStack) {
     this.graniteThreaddumpEnableJStack = graniteThreaddumpEnableJStack;
     return this;
   }
@@ -179,20 +190,20 @@ public class ComAdobeGraniteThreaddumpThreadDumpCollectorProperties   {
   /**
    * Get graniteThreaddumpEnableJStack
    * @return graniteThreaddumpEnableJStack
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getGraniteThreaddumpEnableJStack() {
+   */
+  @Valid 
+  @Schema(name = "granite.threaddump.enableJStack", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("granite.threaddump.enableJStack")
+  public @Nullable ConfigNodePropertyBoolean getGraniteThreaddumpEnableJStack() {
     return graniteThreaddumpEnableJStack;
   }
 
-  public void setGraniteThreaddumpEnableJStack(ConfigNodePropertyBoolean graniteThreaddumpEnableJStack) {
+  @JsonProperty("granite.threaddump.enableJStack")
+  public void setGraniteThreaddumpEnableJStack(@Nullable ConfigNodePropertyBoolean graniteThreaddumpEnableJStack) {
     this.graniteThreaddumpEnableJStack = graniteThreaddumpEnableJStack;
   }
 
-  public ComAdobeGraniteThreaddumpThreadDumpCollectorProperties graniteThreaddumpMaxBackupDays(ConfigNodePropertyInteger graniteThreaddumpMaxBackupDays) {
+  public ComAdobeGraniteThreaddumpThreadDumpCollectorProperties graniteThreaddumpMaxBackupDays(@Nullable ConfigNodePropertyInteger graniteThreaddumpMaxBackupDays) {
     this.graniteThreaddumpMaxBackupDays = graniteThreaddumpMaxBackupDays;
     return this;
   }
@@ -200,20 +211,20 @@ public class ComAdobeGraniteThreaddumpThreadDumpCollectorProperties   {
   /**
    * Get graniteThreaddumpMaxBackupDays
    * @return graniteThreaddumpMaxBackupDays
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getGraniteThreaddumpMaxBackupDays() {
+   */
+  @Valid 
+  @Schema(name = "granite.threaddump.maxBackupDays", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("granite.threaddump.maxBackupDays")
+  public @Nullable ConfigNodePropertyInteger getGraniteThreaddumpMaxBackupDays() {
     return graniteThreaddumpMaxBackupDays;
   }
 
-  public void setGraniteThreaddumpMaxBackupDays(ConfigNodePropertyInteger graniteThreaddumpMaxBackupDays) {
+  @JsonProperty("granite.threaddump.maxBackupDays")
+  public void setGraniteThreaddumpMaxBackupDays(@Nullable ConfigNodePropertyInteger graniteThreaddumpMaxBackupDays) {
     this.graniteThreaddumpMaxBackupDays = graniteThreaddumpMaxBackupDays;
   }
 
-  public ComAdobeGraniteThreaddumpThreadDumpCollectorProperties graniteThreaddumpBackupCleanTrigger(ConfigNodePropertyString graniteThreaddumpBackupCleanTrigger) {
+  public ComAdobeGraniteThreaddumpThreadDumpCollectorProperties graniteThreaddumpBackupCleanTrigger(@Nullable ConfigNodePropertyString graniteThreaddumpBackupCleanTrigger) {
     this.graniteThreaddumpBackupCleanTrigger = graniteThreaddumpBackupCleanTrigger;
     return this;
   }
@@ -221,22 +232,21 @@ public class ComAdobeGraniteThreaddumpThreadDumpCollectorProperties   {
   /**
    * Get graniteThreaddumpBackupCleanTrigger
    * @return graniteThreaddumpBackupCleanTrigger
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getGraniteThreaddumpBackupCleanTrigger() {
+   */
+  @Valid 
+  @Schema(name = "granite.threaddump.backupCleanTrigger", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("granite.threaddump.backupCleanTrigger")
+  public @Nullable ConfigNodePropertyString getGraniteThreaddumpBackupCleanTrigger() {
     return graniteThreaddumpBackupCleanTrigger;
   }
 
-  public void setGraniteThreaddumpBackupCleanTrigger(ConfigNodePropertyString graniteThreaddumpBackupCleanTrigger) {
+  @JsonProperty("granite.threaddump.backupCleanTrigger")
+  public void setGraniteThreaddumpBackupCleanTrigger(@Nullable ConfigNodePropertyString graniteThreaddumpBackupCleanTrigger) {
     this.graniteThreaddumpBackupCleanTrigger = graniteThreaddumpBackupCleanTrigger;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -264,7 +274,6 @@ public class ComAdobeGraniteThreaddumpThreadDumpCollectorProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComAdobeGraniteThreaddumpThreadDumpCollectorProperties {\n");
-    
     sb.append("    schedulerPeriod: ").append(toIndentedString(schedulerPeriod)).append("\n");
     sb.append("    schedulerRunOn: ").append(toIndentedString(schedulerRunOn)).append("\n");
     sb.append("    graniteThreaddumpEnabled: ").append(toIndentedString(graniteThreaddumpEnabled)).append("\n");
@@ -282,11 +291,8 @@ public class ComAdobeGraniteThreaddumpThreadDumpCollectorProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

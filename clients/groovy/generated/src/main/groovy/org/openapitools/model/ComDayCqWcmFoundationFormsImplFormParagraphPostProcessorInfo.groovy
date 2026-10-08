@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqWcmFoundationFormsImplFormParagraphPostPro
 
 @Canonical
 class ComDayCqWcmFoundationFormsImplFormParagraphPostProcessorInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqWcmFoundationFormsImplFormParagraphPostProcessorProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqWcmFoundationFormsImplFormParagraphPostProcessorProperties properties
 }

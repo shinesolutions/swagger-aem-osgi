@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqDamCoreImplJobsMetadataexportAsyncMetadata
 
 @Canonical
 class ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigProperties properties
 }

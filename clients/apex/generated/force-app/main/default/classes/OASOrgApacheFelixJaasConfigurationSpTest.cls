@@ -72,9 +72,9 @@ private class OASOrgApacheFelixJaasConfigurationSpTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASOrgApacheFelixJaasConfigurationSp orgApacheFelixJaasConfigurationSpiProperties = new OASOrgApacheFelixJaasConfigurationSp();
-        Map<String, String> propertyMappings = orgApacheFelixJaasConfigurationSpiProperties.getPropertyMappings();
-        System.assertEquals('jaasDefaultRealmName', propertyMappings.get('jaas.defaultRealmName'));
-        System.assertEquals('jaasConfigProviderName', propertyMappings.get('jaas.configProviderName'));
-        System.assertEquals('jaasGlobalConfigPolicy', propertyMappings.get('jaas.globalConfigPolicy'));
+        Map<String, String> x-property-mappings = orgApacheFelixJaasConfigurationSpiProperties.getx-property-mappings();
+        System.assertEquals('jaasDefaultRealmName', x-property-mappings.get('jaas.defaultRealmName'));
+        System.assertEquals('jaasConfigProviderName', x-property-mappings.get('jaas.configProviderName'));
+        System.assertEquals('jaasGlobalConfigPolicy', x-property-mappings.get('jaas.globalConfigPolicy'));
     }
 }

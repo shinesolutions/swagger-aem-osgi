@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqRewriterProcessorImplHtmlParserFactoryInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqRewriterProcessorImplHtmlParserFactoryInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComDayCqRewriterProcessorImplHtmlParserFactoryProperties = openapi_server.resourceTypes.ComDayCqRewriterProcessorImplHtmlParserFactoryProperties
+}
+resourceTypes {
+
+  ComDayCqRewriterProcessorImplHtmlParserFactoryInfo {
+    title = ComDayCqRewriterProcessorImplHtmlParserFactoryInfo
+    description = ComDayCqRewriterProcessorImplHtmlParserFactoryInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComDayCqRewriterProcessorImplHtmlParserFactoryProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqRewriterProcessorImplHtmlParserFactoryInfo {
+    title = ComDayCqRewriterProcessorImplHtmlParserFactoryInfo
+    description = ComDayCqRewriterProcessorImplHtmlParserFactoryInfo
+    implements = openapi_server.resourceTypes.ComDayCqRewriterProcessorImplHtmlParserFactoryInfo
+
+  }
+}

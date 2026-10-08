@@ -1,6 +1,7 @@
 # NodeSwaggerAemOsgi.ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **defaultTransportAgentToWorkerPrefix** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 

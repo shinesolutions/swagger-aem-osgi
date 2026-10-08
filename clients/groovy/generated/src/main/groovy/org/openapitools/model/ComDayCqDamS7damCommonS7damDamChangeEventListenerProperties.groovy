@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyBoolean;
 
 @Canonical
 class ComDayCqDamS7damCommonS7damDamChangeEventListenerProperties {
-    ConfigNodePropertyBoolean cqDamS7damDamchangeeventlistenerEnabled = null
-
+    
+    ConfigNodePropertyBoolean cqDamS7damDamchangeeventlistenerEnabled
 }

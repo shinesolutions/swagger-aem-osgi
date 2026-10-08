@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeOctopusNcommBootstrapProperties;
 
 @Canonical
 class ComAdobeOctopusNcommBootstrapInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeOctopusNcommBootstrapProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeOctopusNcommBootstrapProperties properties
 }

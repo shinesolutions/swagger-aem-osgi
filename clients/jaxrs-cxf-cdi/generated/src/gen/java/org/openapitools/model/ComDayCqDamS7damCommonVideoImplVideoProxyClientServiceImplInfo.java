@@ -2,27 +2,28 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplInfo   {
   
-  private String pid = null;
+  private String pid;
 
-  private String title = null;
+  private String title;
 
-  private String description = null;
+  private String description;
 
-  private ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplProperties properties = null;
-
+  private ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplProperties properties;
 
   /**
    **/
@@ -98,7 +99,7 @@ public class ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplInfo   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -106,10 +107,10 @@ public class ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplInfo   {
       return false;
     }
     ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplInfo comDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplInfo = (ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplInfo) o;
-    return Objects.equals(pid, comDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplInfo.pid) &&
-        Objects.equals(title, comDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplInfo.title) &&
-        Objects.equals(description, comDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplInfo.description) &&
-        Objects.equals(properties, comDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplInfo.properties);
+    return Objects.equals(this.pid, comDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplInfo.pid) &&
+        Objects.equals(this.title, comDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplInfo.title) &&
+        Objects.equals(this.description, comDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplInfo.description) &&
+        Objects.equals(this.properties, comDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplInfo.properties);
   }
 
   @Override
@@ -134,11 +135,8 @@ public class ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplInfo   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

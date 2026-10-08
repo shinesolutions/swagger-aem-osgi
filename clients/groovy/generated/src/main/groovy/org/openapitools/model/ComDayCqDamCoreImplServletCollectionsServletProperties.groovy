@@ -8,8 +8,8 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class ComDayCqDamCoreImplServletCollectionsServletProperties {
-    ConfigNodePropertyArray cqDamBatchCollectionsProperties = null
-
-    ConfigNodePropertyInteger cqDamBatchCollectionsLimit = null
-
+    
+    ConfigNodePropertyArray cqDamBatchCollectionsProperties
+    
+    ConfigNodePropertyInteger cqDamBatchCollectionsLimit
 }

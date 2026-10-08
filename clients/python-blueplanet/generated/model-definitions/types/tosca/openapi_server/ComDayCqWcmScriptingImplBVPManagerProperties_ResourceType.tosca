@@ -1,0 +1,36 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqWcmScriptingImplBVPManagerProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqWcmScriptingImplBVPManagerProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+}
+resourceTypes {
+
+  ComDayCqWcmScriptingImplBVPManagerProperties {
+    title = ComDayCqWcmScriptingImplBVPManagerProperties
+    description = ComDayCqWcmScriptingImplBVPManagerProperties
+    derivedFrom = Root
+    properties {
+        com_day_cq_wcm_scripting_bvp_script_engines {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqWcmScriptingImplBVPManagerProperties {
+    title = ComDayCqWcmScriptingImplBVPManagerProperties
+    description = ComDayCqWcmScriptingImplBVPManagerProperties
+    implements = openapi_server.resourceTypes.ComDayCqWcmScriptingImplBVPManagerProperties
+
+  }
+}

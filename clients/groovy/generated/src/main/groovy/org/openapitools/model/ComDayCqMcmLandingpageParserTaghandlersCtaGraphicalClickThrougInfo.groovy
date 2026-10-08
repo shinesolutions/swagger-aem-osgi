@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqMcmLandingpageParserTaghandlersCtaGraphica
 
 @Canonical
 class ComDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThrougInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThrougProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThrougProperties properties
 }

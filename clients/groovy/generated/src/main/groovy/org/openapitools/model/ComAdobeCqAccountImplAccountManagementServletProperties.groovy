@@ -7,8 +7,8 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeCqAccountImplAccountManagementServletProperties {
-    ConfigNodePropertyString cqAccountmanagerConfigInformnewaccountMail = null
-
-    ConfigNodePropertyString cqAccountmanagerConfigInformnewpwdMail = null
-
+    
+    ConfigNodePropertyString cqAccountmanagerConfigInformnewaccountMail
+    
+    ConfigNodePropertyString cqAccountmanagerConfigInformnewpwdMail
 }

@@ -72,8 +72,8 @@ private class OASComAdobeCqProjectsImplServletProjTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeCqProjectsImplServletProj comAdobeCqProjectsImplServletProjectImageServletProperties = new OASComAdobeCqProjectsImplServletProj();
-        Map<String, String> propertyMappings = comAdobeCqProjectsImplServletProjectImageServletProperties.getPropertyMappings();
-        System.assertEquals('imageQuality', propertyMappings.get('image.quality'));
-        System.assertEquals('imageSupportedResolutions', propertyMappings.get('image.supported.resolutions'));
+        Map<String, String> x-property-mappings = comAdobeCqProjectsImplServletProjectImageServletProperties.getx-property-mappings();
+        System.assertEquals('imageQuality', x-property-mappings.get('image.quality'));
+        System.assertEquals('imageSupportedResolutions', x-property-mappings.get('image.supported.resolutions'));
     }
 }

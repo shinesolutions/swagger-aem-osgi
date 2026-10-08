@@ -2,14 +2,14 @@
 # ComDayCqDamIdsImplIDSJobProcessorProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**enablePeriodmultisession** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**idsPeriodccPeriodenable** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**enablePeriodretry** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**enablePeriodretryPeriodscripterror** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**externalizerPerioddomainPeriodcqhost** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**externalizerPerioddomainPeriodhttp** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **enableMultisession** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **idsCcEnable** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **enableRetry** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **enableRetryScripterror** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **externalizerDomainCqhost** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **externalizerDomainHttp** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
 
 
 

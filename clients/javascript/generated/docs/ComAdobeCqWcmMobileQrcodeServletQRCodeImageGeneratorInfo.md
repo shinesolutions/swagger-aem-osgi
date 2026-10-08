@@ -1,6 +1,7 @@
 # NodeSwaggerAemOsgi.ComAdobeCqWcmMobileQrcodeServletQRCodeImageGeneratorInfo
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **pid** | **String** |  | [optional] 

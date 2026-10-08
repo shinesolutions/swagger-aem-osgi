@@ -1,70 +1,81 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties   {
-  @JsonProperty("cq.dam.config.annotation.pdf.document.width")
-  private ConfigNodePropertyInteger cqDamConfigAnnotationPdfDocumentWidth = null;
+@JsonTypeName("comDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties {
 
-  @JsonProperty("cq.dam.config.annotation.pdf.document.height")
-  private ConfigNodePropertyInteger cqDamConfigAnnotationPdfDocumentHeight = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger cqDamConfigAnnotationPdfDocumentWidth;
 
-  @JsonProperty("cq.dam.config.annotation.pdf.document.padding.horizontal")
-  private ConfigNodePropertyInteger cqDamConfigAnnotationPdfDocumentPaddingHorizontal = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger cqDamConfigAnnotationPdfDocumentHeight;
 
-  @JsonProperty("cq.dam.config.annotation.pdf.document.padding.vertical")
-  private ConfigNodePropertyInteger cqDamConfigAnnotationPdfDocumentPaddingVertical = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger cqDamConfigAnnotationPdfDocumentPaddingHorizontal;
 
-  @JsonProperty("cq.dam.config.annotation.pdf.font.size")
-  private ConfigNodePropertyInteger cqDamConfigAnnotationPdfFontSize = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger cqDamConfigAnnotationPdfDocumentPaddingVertical;
 
-  @JsonProperty("cq.dam.config.annotation.pdf.font.color")
-  private ConfigNodePropertyString cqDamConfigAnnotationPdfFontColor = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger cqDamConfigAnnotationPdfFontSize;
 
-  @JsonProperty("cq.dam.config.annotation.pdf.font.family")
-  private ConfigNodePropertyString cqDamConfigAnnotationPdfFontFamily = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString cqDamConfigAnnotationPdfFontColor;
 
-  @JsonProperty("cq.dam.config.annotation.pdf.font.light")
-  private ConfigNodePropertyString cqDamConfigAnnotationPdfFontLight = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString cqDamConfigAnnotationPdfFontFamily;
 
-  @JsonProperty("cq.dam.config.annotation.pdf.marginTextImage")
-  private ConfigNodePropertyInteger cqDamConfigAnnotationPdfMarginTextImage = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString cqDamConfigAnnotationPdfFontLight;
 
-  @JsonProperty("cq.dam.config.annotation.pdf.minImageHeight")
-  private ConfigNodePropertyInteger cqDamConfigAnnotationPdfMinImageHeight = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger cqDamConfigAnnotationPdfMarginTextImage;
 
-  @JsonProperty("cq.dam.config.annotation.pdf.reviewStatus.width")
-  private ConfigNodePropertyInteger cqDamConfigAnnotationPdfReviewStatusWidth = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger cqDamConfigAnnotationPdfMinImageHeight;
 
-  @JsonProperty("cq.dam.config.annotation.pdf.reviewStatus.color.approved")
-  private ConfigNodePropertyString cqDamConfigAnnotationPdfReviewStatusColorApproved = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger cqDamConfigAnnotationPdfReviewStatusWidth;
 
-  @JsonProperty("cq.dam.config.annotation.pdf.reviewStatus.color.rejected")
-  private ConfigNodePropertyString cqDamConfigAnnotationPdfReviewStatusColorRejected = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString cqDamConfigAnnotationPdfReviewStatusColorApproved;
 
-  @JsonProperty("cq.dam.config.annotation.pdf.reviewStatus.color.changesRequested")
-  private ConfigNodePropertyString cqDamConfigAnnotationPdfReviewStatusColorChangesRequested = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString cqDamConfigAnnotationPdfReviewStatusColorRejected;
 
-  @JsonProperty("cq.dam.config.annotation.pdf.annotationMarker.width")
-  private ConfigNodePropertyInteger cqDamConfigAnnotationPdfAnnotationMarkerWidth = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString cqDamConfigAnnotationPdfReviewStatusColorChangesRequested;
 
-  @JsonProperty("cq.dam.config.annotation.pdf.asset.minheight")
-  private ConfigNodePropertyInteger cqDamConfigAnnotationPdfAssetMinheight = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger cqDamConfigAnnotationPdfAnnotationMarkerWidth;
 
-  public ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties cqDamConfigAnnotationPdfDocumentWidth(ConfigNodePropertyInteger cqDamConfigAnnotationPdfDocumentWidth) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger cqDamConfigAnnotationPdfAssetMinheight;
+
+  public ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties cqDamConfigAnnotationPdfDocumentWidth(@Nullable ConfigNodePropertyInteger cqDamConfigAnnotationPdfDocumentWidth) {
     this.cqDamConfigAnnotationPdfDocumentWidth = cqDamConfigAnnotationPdfDocumentWidth;
     return this;
   }
@@ -72,20 +83,20 @@ public class ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties   {
   /**
    * Get cqDamConfigAnnotationPdfDocumentWidth
    * @return cqDamConfigAnnotationPdfDocumentWidth
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getCqDamConfigAnnotationPdfDocumentWidth() {
+   */
+  @Valid 
+  @Schema(name = "cq.dam.config.annotation.pdf.document.width", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cq.dam.config.annotation.pdf.document.width")
+  public @Nullable ConfigNodePropertyInteger getCqDamConfigAnnotationPdfDocumentWidth() {
     return cqDamConfigAnnotationPdfDocumentWidth;
   }
 
-  public void setCqDamConfigAnnotationPdfDocumentWidth(ConfigNodePropertyInteger cqDamConfigAnnotationPdfDocumentWidth) {
+  @JsonProperty("cq.dam.config.annotation.pdf.document.width")
+  public void setCqDamConfigAnnotationPdfDocumentWidth(@Nullable ConfigNodePropertyInteger cqDamConfigAnnotationPdfDocumentWidth) {
     this.cqDamConfigAnnotationPdfDocumentWidth = cqDamConfigAnnotationPdfDocumentWidth;
   }
 
-  public ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties cqDamConfigAnnotationPdfDocumentHeight(ConfigNodePropertyInteger cqDamConfigAnnotationPdfDocumentHeight) {
+  public ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties cqDamConfigAnnotationPdfDocumentHeight(@Nullable ConfigNodePropertyInteger cqDamConfigAnnotationPdfDocumentHeight) {
     this.cqDamConfigAnnotationPdfDocumentHeight = cqDamConfigAnnotationPdfDocumentHeight;
     return this;
   }
@@ -93,20 +104,20 @@ public class ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties   {
   /**
    * Get cqDamConfigAnnotationPdfDocumentHeight
    * @return cqDamConfigAnnotationPdfDocumentHeight
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getCqDamConfigAnnotationPdfDocumentHeight() {
+   */
+  @Valid 
+  @Schema(name = "cq.dam.config.annotation.pdf.document.height", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cq.dam.config.annotation.pdf.document.height")
+  public @Nullable ConfigNodePropertyInteger getCqDamConfigAnnotationPdfDocumentHeight() {
     return cqDamConfigAnnotationPdfDocumentHeight;
   }
 
-  public void setCqDamConfigAnnotationPdfDocumentHeight(ConfigNodePropertyInteger cqDamConfigAnnotationPdfDocumentHeight) {
+  @JsonProperty("cq.dam.config.annotation.pdf.document.height")
+  public void setCqDamConfigAnnotationPdfDocumentHeight(@Nullable ConfigNodePropertyInteger cqDamConfigAnnotationPdfDocumentHeight) {
     this.cqDamConfigAnnotationPdfDocumentHeight = cqDamConfigAnnotationPdfDocumentHeight;
   }
 
-  public ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties cqDamConfigAnnotationPdfDocumentPaddingHorizontal(ConfigNodePropertyInteger cqDamConfigAnnotationPdfDocumentPaddingHorizontal) {
+  public ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties cqDamConfigAnnotationPdfDocumentPaddingHorizontal(@Nullable ConfigNodePropertyInteger cqDamConfigAnnotationPdfDocumentPaddingHorizontal) {
     this.cqDamConfigAnnotationPdfDocumentPaddingHorizontal = cqDamConfigAnnotationPdfDocumentPaddingHorizontal;
     return this;
   }
@@ -114,20 +125,20 @@ public class ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties   {
   /**
    * Get cqDamConfigAnnotationPdfDocumentPaddingHorizontal
    * @return cqDamConfigAnnotationPdfDocumentPaddingHorizontal
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getCqDamConfigAnnotationPdfDocumentPaddingHorizontal() {
+   */
+  @Valid 
+  @Schema(name = "cq.dam.config.annotation.pdf.document.padding.horizontal", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cq.dam.config.annotation.pdf.document.padding.horizontal")
+  public @Nullable ConfigNodePropertyInteger getCqDamConfigAnnotationPdfDocumentPaddingHorizontal() {
     return cqDamConfigAnnotationPdfDocumentPaddingHorizontal;
   }
 
-  public void setCqDamConfigAnnotationPdfDocumentPaddingHorizontal(ConfigNodePropertyInteger cqDamConfigAnnotationPdfDocumentPaddingHorizontal) {
+  @JsonProperty("cq.dam.config.annotation.pdf.document.padding.horizontal")
+  public void setCqDamConfigAnnotationPdfDocumentPaddingHorizontal(@Nullable ConfigNodePropertyInteger cqDamConfigAnnotationPdfDocumentPaddingHorizontal) {
     this.cqDamConfigAnnotationPdfDocumentPaddingHorizontal = cqDamConfigAnnotationPdfDocumentPaddingHorizontal;
   }
 
-  public ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties cqDamConfigAnnotationPdfDocumentPaddingVertical(ConfigNodePropertyInteger cqDamConfigAnnotationPdfDocumentPaddingVertical) {
+  public ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties cqDamConfigAnnotationPdfDocumentPaddingVertical(@Nullable ConfigNodePropertyInteger cqDamConfigAnnotationPdfDocumentPaddingVertical) {
     this.cqDamConfigAnnotationPdfDocumentPaddingVertical = cqDamConfigAnnotationPdfDocumentPaddingVertical;
     return this;
   }
@@ -135,20 +146,20 @@ public class ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties   {
   /**
    * Get cqDamConfigAnnotationPdfDocumentPaddingVertical
    * @return cqDamConfigAnnotationPdfDocumentPaddingVertical
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getCqDamConfigAnnotationPdfDocumentPaddingVertical() {
+   */
+  @Valid 
+  @Schema(name = "cq.dam.config.annotation.pdf.document.padding.vertical", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cq.dam.config.annotation.pdf.document.padding.vertical")
+  public @Nullable ConfigNodePropertyInteger getCqDamConfigAnnotationPdfDocumentPaddingVertical() {
     return cqDamConfigAnnotationPdfDocumentPaddingVertical;
   }
 
-  public void setCqDamConfigAnnotationPdfDocumentPaddingVertical(ConfigNodePropertyInteger cqDamConfigAnnotationPdfDocumentPaddingVertical) {
+  @JsonProperty("cq.dam.config.annotation.pdf.document.padding.vertical")
+  public void setCqDamConfigAnnotationPdfDocumentPaddingVertical(@Nullable ConfigNodePropertyInteger cqDamConfigAnnotationPdfDocumentPaddingVertical) {
     this.cqDamConfigAnnotationPdfDocumentPaddingVertical = cqDamConfigAnnotationPdfDocumentPaddingVertical;
   }
 
-  public ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties cqDamConfigAnnotationPdfFontSize(ConfigNodePropertyInteger cqDamConfigAnnotationPdfFontSize) {
+  public ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties cqDamConfigAnnotationPdfFontSize(@Nullable ConfigNodePropertyInteger cqDamConfigAnnotationPdfFontSize) {
     this.cqDamConfigAnnotationPdfFontSize = cqDamConfigAnnotationPdfFontSize;
     return this;
   }
@@ -156,20 +167,20 @@ public class ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties   {
   /**
    * Get cqDamConfigAnnotationPdfFontSize
    * @return cqDamConfigAnnotationPdfFontSize
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getCqDamConfigAnnotationPdfFontSize() {
+   */
+  @Valid 
+  @Schema(name = "cq.dam.config.annotation.pdf.font.size", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cq.dam.config.annotation.pdf.font.size")
+  public @Nullable ConfigNodePropertyInteger getCqDamConfigAnnotationPdfFontSize() {
     return cqDamConfigAnnotationPdfFontSize;
   }
 
-  public void setCqDamConfigAnnotationPdfFontSize(ConfigNodePropertyInteger cqDamConfigAnnotationPdfFontSize) {
+  @JsonProperty("cq.dam.config.annotation.pdf.font.size")
+  public void setCqDamConfigAnnotationPdfFontSize(@Nullable ConfigNodePropertyInteger cqDamConfigAnnotationPdfFontSize) {
     this.cqDamConfigAnnotationPdfFontSize = cqDamConfigAnnotationPdfFontSize;
   }
 
-  public ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties cqDamConfigAnnotationPdfFontColor(ConfigNodePropertyString cqDamConfigAnnotationPdfFontColor) {
+  public ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties cqDamConfigAnnotationPdfFontColor(@Nullable ConfigNodePropertyString cqDamConfigAnnotationPdfFontColor) {
     this.cqDamConfigAnnotationPdfFontColor = cqDamConfigAnnotationPdfFontColor;
     return this;
   }
@@ -177,20 +188,20 @@ public class ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties   {
   /**
    * Get cqDamConfigAnnotationPdfFontColor
    * @return cqDamConfigAnnotationPdfFontColor
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getCqDamConfigAnnotationPdfFontColor() {
+   */
+  @Valid 
+  @Schema(name = "cq.dam.config.annotation.pdf.font.color", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cq.dam.config.annotation.pdf.font.color")
+  public @Nullable ConfigNodePropertyString getCqDamConfigAnnotationPdfFontColor() {
     return cqDamConfigAnnotationPdfFontColor;
   }
 
-  public void setCqDamConfigAnnotationPdfFontColor(ConfigNodePropertyString cqDamConfigAnnotationPdfFontColor) {
+  @JsonProperty("cq.dam.config.annotation.pdf.font.color")
+  public void setCqDamConfigAnnotationPdfFontColor(@Nullable ConfigNodePropertyString cqDamConfigAnnotationPdfFontColor) {
     this.cqDamConfigAnnotationPdfFontColor = cqDamConfigAnnotationPdfFontColor;
   }
 
-  public ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties cqDamConfigAnnotationPdfFontFamily(ConfigNodePropertyString cqDamConfigAnnotationPdfFontFamily) {
+  public ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties cqDamConfigAnnotationPdfFontFamily(@Nullable ConfigNodePropertyString cqDamConfigAnnotationPdfFontFamily) {
     this.cqDamConfigAnnotationPdfFontFamily = cqDamConfigAnnotationPdfFontFamily;
     return this;
   }
@@ -198,20 +209,20 @@ public class ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties   {
   /**
    * Get cqDamConfigAnnotationPdfFontFamily
    * @return cqDamConfigAnnotationPdfFontFamily
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getCqDamConfigAnnotationPdfFontFamily() {
+   */
+  @Valid 
+  @Schema(name = "cq.dam.config.annotation.pdf.font.family", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cq.dam.config.annotation.pdf.font.family")
+  public @Nullable ConfigNodePropertyString getCqDamConfigAnnotationPdfFontFamily() {
     return cqDamConfigAnnotationPdfFontFamily;
   }
 
-  public void setCqDamConfigAnnotationPdfFontFamily(ConfigNodePropertyString cqDamConfigAnnotationPdfFontFamily) {
+  @JsonProperty("cq.dam.config.annotation.pdf.font.family")
+  public void setCqDamConfigAnnotationPdfFontFamily(@Nullable ConfigNodePropertyString cqDamConfigAnnotationPdfFontFamily) {
     this.cqDamConfigAnnotationPdfFontFamily = cqDamConfigAnnotationPdfFontFamily;
   }
 
-  public ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties cqDamConfigAnnotationPdfFontLight(ConfigNodePropertyString cqDamConfigAnnotationPdfFontLight) {
+  public ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties cqDamConfigAnnotationPdfFontLight(@Nullable ConfigNodePropertyString cqDamConfigAnnotationPdfFontLight) {
     this.cqDamConfigAnnotationPdfFontLight = cqDamConfigAnnotationPdfFontLight;
     return this;
   }
@@ -219,20 +230,20 @@ public class ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties   {
   /**
    * Get cqDamConfigAnnotationPdfFontLight
    * @return cqDamConfigAnnotationPdfFontLight
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getCqDamConfigAnnotationPdfFontLight() {
+   */
+  @Valid 
+  @Schema(name = "cq.dam.config.annotation.pdf.font.light", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cq.dam.config.annotation.pdf.font.light")
+  public @Nullable ConfigNodePropertyString getCqDamConfigAnnotationPdfFontLight() {
     return cqDamConfigAnnotationPdfFontLight;
   }
 
-  public void setCqDamConfigAnnotationPdfFontLight(ConfigNodePropertyString cqDamConfigAnnotationPdfFontLight) {
+  @JsonProperty("cq.dam.config.annotation.pdf.font.light")
+  public void setCqDamConfigAnnotationPdfFontLight(@Nullable ConfigNodePropertyString cqDamConfigAnnotationPdfFontLight) {
     this.cqDamConfigAnnotationPdfFontLight = cqDamConfigAnnotationPdfFontLight;
   }
 
-  public ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties cqDamConfigAnnotationPdfMarginTextImage(ConfigNodePropertyInteger cqDamConfigAnnotationPdfMarginTextImage) {
+  public ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties cqDamConfigAnnotationPdfMarginTextImage(@Nullable ConfigNodePropertyInteger cqDamConfigAnnotationPdfMarginTextImage) {
     this.cqDamConfigAnnotationPdfMarginTextImage = cqDamConfigAnnotationPdfMarginTextImage;
     return this;
   }
@@ -240,20 +251,20 @@ public class ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties   {
   /**
    * Get cqDamConfigAnnotationPdfMarginTextImage
    * @return cqDamConfigAnnotationPdfMarginTextImage
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getCqDamConfigAnnotationPdfMarginTextImage() {
+   */
+  @Valid 
+  @Schema(name = "cq.dam.config.annotation.pdf.marginTextImage", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cq.dam.config.annotation.pdf.marginTextImage")
+  public @Nullable ConfigNodePropertyInteger getCqDamConfigAnnotationPdfMarginTextImage() {
     return cqDamConfigAnnotationPdfMarginTextImage;
   }
 
-  public void setCqDamConfigAnnotationPdfMarginTextImage(ConfigNodePropertyInteger cqDamConfigAnnotationPdfMarginTextImage) {
+  @JsonProperty("cq.dam.config.annotation.pdf.marginTextImage")
+  public void setCqDamConfigAnnotationPdfMarginTextImage(@Nullable ConfigNodePropertyInteger cqDamConfigAnnotationPdfMarginTextImage) {
     this.cqDamConfigAnnotationPdfMarginTextImage = cqDamConfigAnnotationPdfMarginTextImage;
   }
 
-  public ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties cqDamConfigAnnotationPdfMinImageHeight(ConfigNodePropertyInteger cqDamConfigAnnotationPdfMinImageHeight) {
+  public ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties cqDamConfigAnnotationPdfMinImageHeight(@Nullable ConfigNodePropertyInteger cqDamConfigAnnotationPdfMinImageHeight) {
     this.cqDamConfigAnnotationPdfMinImageHeight = cqDamConfigAnnotationPdfMinImageHeight;
     return this;
   }
@@ -261,20 +272,20 @@ public class ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties   {
   /**
    * Get cqDamConfigAnnotationPdfMinImageHeight
    * @return cqDamConfigAnnotationPdfMinImageHeight
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getCqDamConfigAnnotationPdfMinImageHeight() {
+   */
+  @Valid 
+  @Schema(name = "cq.dam.config.annotation.pdf.minImageHeight", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cq.dam.config.annotation.pdf.minImageHeight")
+  public @Nullable ConfigNodePropertyInteger getCqDamConfigAnnotationPdfMinImageHeight() {
     return cqDamConfigAnnotationPdfMinImageHeight;
   }
 
-  public void setCqDamConfigAnnotationPdfMinImageHeight(ConfigNodePropertyInteger cqDamConfigAnnotationPdfMinImageHeight) {
+  @JsonProperty("cq.dam.config.annotation.pdf.minImageHeight")
+  public void setCqDamConfigAnnotationPdfMinImageHeight(@Nullable ConfigNodePropertyInteger cqDamConfigAnnotationPdfMinImageHeight) {
     this.cqDamConfigAnnotationPdfMinImageHeight = cqDamConfigAnnotationPdfMinImageHeight;
   }
 
-  public ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties cqDamConfigAnnotationPdfReviewStatusWidth(ConfigNodePropertyInteger cqDamConfigAnnotationPdfReviewStatusWidth) {
+  public ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties cqDamConfigAnnotationPdfReviewStatusWidth(@Nullable ConfigNodePropertyInteger cqDamConfigAnnotationPdfReviewStatusWidth) {
     this.cqDamConfigAnnotationPdfReviewStatusWidth = cqDamConfigAnnotationPdfReviewStatusWidth;
     return this;
   }
@@ -282,20 +293,20 @@ public class ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties   {
   /**
    * Get cqDamConfigAnnotationPdfReviewStatusWidth
    * @return cqDamConfigAnnotationPdfReviewStatusWidth
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getCqDamConfigAnnotationPdfReviewStatusWidth() {
+   */
+  @Valid 
+  @Schema(name = "cq.dam.config.annotation.pdf.reviewStatus.width", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cq.dam.config.annotation.pdf.reviewStatus.width")
+  public @Nullable ConfigNodePropertyInteger getCqDamConfigAnnotationPdfReviewStatusWidth() {
     return cqDamConfigAnnotationPdfReviewStatusWidth;
   }
 
-  public void setCqDamConfigAnnotationPdfReviewStatusWidth(ConfigNodePropertyInteger cqDamConfigAnnotationPdfReviewStatusWidth) {
+  @JsonProperty("cq.dam.config.annotation.pdf.reviewStatus.width")
+  public void setCqDamConfigAnnotationPdfReviewStatusWidth(@Nullable ConfigNodePropertyInteger cqDamConfigAnnotationPdfReviewStatusWidth) {
     this.cqDamConfigAnnotationPdfReviewStatusWidth = cqDamConfigAnnotationPdfReviewStatusWidth;
   }
 
-  public ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties cqDamConfigAnnotationPdfReviewStatusColorApproved(ConfigNodePropertyString cqDamConfigAnnotationPdfReviewStatusColorApproved) {
+  public ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties cqDamConfigAnnotationPdfReviewStatusColorApproved(@Nullable ConfigNodePropertyString cqDamConfigAnnotationPdfReviewStatusColorApproved) {
     this.cqDamConfigAnnotationPdfReviewStatusColorApproved = cqDamConfigAnnotationPdfReviewStatusColorApproved;
     return this;
   }
@@ -303,20 +314,20 @@ public class ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties   {
   /**
    * Get cqDamConfigAnnotationPdfReviewStatusColorApproved
    * @return cqDamConfigAnnotationPdfReviewStatusColorApproved
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getCqDamConfigAnnotationPdfReviewStatusColorApproved() {
+   */
+  @Valid 
+  @Schema(name = "cq.dam.config.annotation.pdf.reviewStatus.color.approved", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cq.dam.config.annotation.pdf.reviewStatus.color.approved")
+  public @Nullable ConfigNodePropertyString getCqDamConfigAnnotationPdfReviewStatusColorApproved() {
     return cqDamConfigAnnotationPdfReviewStatusColorApproved;
   }
 
-  public void setCqDamConfigAnnotationPdfReviewStatusColorApproved(ConfigNodePropertyString cqDamConfigAnnotationPdfReviewStatusColorApproved) {
+  @JsonProperty("cq.dam.config.annotation.pdf.reviewStatus.color.approved")
+  public void setCqDamConfigAnnotationPdfReviewStatusColorApproved(@Nullable ConfigNodePropertyString cqDamConfigAnnotationPdfReviewStatusColorApproved) {
     this.cqDamConfigAnnotationPdfReviewStatusColorApproved = cqDamConfigAnnotationPdfReviewStatusColorApproved;
   }
 
-  public ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties cqDamConfigAnnotationPdfReviewStatusColorRejected(ConfigNodePropertyString cqDamConfigAnnotationPdfReviewStatusColorRejected) {
+  public ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties cqDamConfigAnnotationPdfReviewStatusColorRejected(@Nullable ConfigNodePropertyString cqDamConfigAnnotationPdfReviewStatusColorRejected) {
     this.cqDamConfigAnnotationPdfReviewStatusColorRejected = cqDamConfigAnnotationPdfReviewStatusColorRejected;
     return this;
   }
@@ -324,20 +335,20 @@ public class ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties   {
   /**
    * Get cqDamConfigAnnotationPdfReviewStatusColorRejected
    * @return cqDamConfigAnnotationPdfReviewStatusColorRejected
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getCqDamConfigAnnotationPdfReviewStatusColorRejected() {
+   */
+  @Valid 
+  @Schema(name = "cq.dam.config.annotation.pdf.reviewStatus.color.rejected", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cq.dam.config.annotation.pdf.reviewStatus.color.rejected")
+  public @Nullable ConfigNodePropertyString getCqDamConfigAnnotationPdfReviewStatusColorRejected() {
     return cqDamConfigAnnotationPdfReviewStatusColorRejected;
   }
 
-  public void setCqDamConfigAnnotationPdfReviewStatusColorRejected(ConfigNodePropertyString cqDamConfigAnnotationPdfReviewStatusColorRejected) {
+  @JsonProperty("cq.dam.config.annotation.pdf.reviewStatus.color.rejected")
+  public void setCqDamConfigAnnotationPdfReviewStatusColorRejected(@Nullable ConfigNodePropertyString cqDamConfigAnnotationPdfReviewStatusColorRejected) {
     this.cqDamConfigAnnotationPdfReviewStatusColorRejected = cqDamConfigAnnotationPdfReviewStatusColorRejected;
   }
 
-  public ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties cqDamConfigAnnotationPdfReviewStatusColorChangesRequested(ConfigNodePropertyString cqDamConfigAnnotationPdfReviewStatusColorChangesRequested) {
+  public ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties cqDamConfigAnnotationPdfReviewStatusColorChangesRequested(@Nullable ConfigNodePropertyString cqDamConfigAnnotationPdfReviewStatusColorChangesRequested) {
     this.cqDamConfigAnnotationPdfReviewStatusColorChangesRequested = cqDamConfigAnnotationPdfReviewStatusColorChangesRequested;
     return this;
   }
@@ -345,20 +356,20 @@ public class ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties   {
   /**
    * Get cqDamConfigAnnotationPdfReviewStatusColorChangesRequested
    * @return cqDamConfigAnnotationPdfReviewStatusColorChangesRequested
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getCqDamConfigAnnotationPdfReviewStatusColorChangesRequested() {
+   */
+  @Valid 
+  @Schema(name = "cq.dam.config.annotation.pdf.reviewStatus.color.changesRequested", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cq.dam.config.annotation.pdf.reviewStatus.color.changesRequested")
+  public @Nullable ConfigNodePropertyString getCqDamConfigAnnotationPdfReviewStatusColorChangesRequested() {
     return cqDamConfigAnnotationPdfReviewStatusColorChangesRequested;
   }
 
-  public void setCqDamConfigAnnotationPdfReviewStatusColorChangesRequested(ConfigNodePropertyString cqDamConfigAnnotationPdfReviewStatusColorChangesRequested) {
+  @JsonProperty("cq.dam.config.annotation.pdf.reviewStatus.color.changesRequested")
+  public void setCqDamConfigAnnotationPdfReviewStatusColorChangesRequested(@Nullable ConfigNodePropertyString cqDamConfigAnnotationPdfReviewStatusColorChangesRequested) {
     this.cqDamConfigAnnotationPdfReviewStatusColorChangesRequested = cqDamConfigAnnotationPdfReviewStatusColorChangesRequested;
   }
 
-  public ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties cqDamConfigAnnotationPdfAnnotationMarkerWidth(ConfigNodePropertyInteger cqDamConfigAnnotationPdfAnnotationMarkerWidth) {
+  public ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties cqDamConfigAnnotationPdfAnnotationMarkerWidth(@Nullable ConfigNodePropertyInteger cqDamConfigAnnotationPdfAnnotationMarkerWidth) {
     this.cqDamConfigAnnotationPdfAnnotationMarkerWidth = cqDamConfigAnnotationPdfAnnotationMarkerWidth;
     return this;
   }
@@ -366,20 +377,20 @@ public class ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties   {
   /**
    * Get cqDamConfigAnnotationPdfAnnotationMarkerWidth
    * @return cqDamConfigAnnotationPdfAnnotationMarkerWidth
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getCqDamConfigAnnotationPdfAnnotationMarkerWidth() {
+   */
+  @Valid 
+  @Schema(name = "cq.dam.config.annotation.pdf.annotationMarker.width", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cq.dam.config.annotation.pdf.annotationMarker.width")
+  public @Nullable ConfigNodePropertyInteger getCqDamConfigAnnotationPdfAnnotationMarkerWidth() {
     return cqDamConfigAnnotationPdfAnnotationMarkerWidth;
   }
 
-  public void setCqDamConfigAnnotationPdfAnnotationMarkerWidth(ConfigNodePropertyInteger cqDamConfigAnnotationPdfAnnotationMarkerWidth) {
+  @JsonProperty("cq.dam.config.annotation.pdf.annotationMarker.width")
+  public void setCqDamConfigAnnotationPdfAnnotationMarkerWidth(@Nullable ConfigNodePropertyInteger cqDamConfigAnnotationPdfAnnotationMarkerWidth) {
     this.cqDamConfigAnnotationPdfAnnotationMarkerWidth = cqDamConfigAnnotationPdfAnnotationMarkerWidth;
   }
 
-  public ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties cqDamConfigAnnotationPdfAssetMinheight(ConfigNodePropertyInteger cqDamConfigAnnotationPdfAssetMinheight) {
+  public ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties cqDamConfigAnnotationPdfAssetMinheight(@Nullable ConfigNodePropertyInteger cqDamConfigAnnotationPdfAssetMinheight) {
     this.cqDamConfigAnnotationPdfAssetMinheight = cqDamConfigAnnotationPdfAssetMinheight;
     return this;
   }
@@ -387,22 +398,21 @@ public class ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties   {
   /**
    * Get cqDamConfigAnnotationPdfAssetMinheight
    * @return cqDamConfigAnnotationPdfAssetMinheight
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getCqDamConfigAnnotationPdfAssetMinheight() {
+   */
+  @Valid 
+  @Schema(name = "cq.dam.config.annotation.pdf.asset.minheight", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cq.dam.config.annotation.pdf.asset.minheight")
+  public @Nullable ConfigNodePropertyInteger getCqDamConfigAnnotationPdfAssetMinheight() {
     return cqDamConfigAnnotationPdfAssetMinheight;
   }
 
-  public void setCqDamConfigAnnotationPdfAssetMinheight(ConfigNodePropertyInteger cqDamConfigAnnotationPdfAssetMinheight) {
+  @JsonProperty("cq.dam.config.annotation.pdf.asset.minheight")
+  public void setCqDamConfigAnnotationPdfAssetMinheight(@Nullable ConfigNodePropertyInteger cqDamConfigAnnotationPdfAssetMinheight) {
     this.cqDamConfigAnnotationPdfAssetMinheight = cqDamConfigAnnotationPdfAssetMinheight;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -437,7 +447,6 @@ public class ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties {\n");
-    
     sb.append("    cqDamConfigAnnotationPdfDocumentWidth: ").append(toIndentedString(cqDamConfigAnnotationPdfDocumentWidth)).append("\n");
     sb.append("    cqDamConfigAnnotationPdfDocumentHeight: ").append(toIndentedString(cqDamConfigAnnotationPdfDocumentHeight)).append("\n");
     sb.append("    cqDamConfigAnnotationPdfDocumentPaddingHorizontal: ").append(toIndentedString(cqDamConfigAnnotationPdfDocumentPaddingHorizontal)).append("\n");
@@ -462,11 +471,8 @@ public class ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -2,12 +2,12 @@
 # ComDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTInfo
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**pid** | **kotlin.String** |  |  [optional]
-**title** | **kotlin.String** |  |  [optional]
-**description** | **kotlin.String** |  |  [optional]
-**properties** | [**ComDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTProperties**](ComDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTProperties.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **pid** | **kotlin.String** |  |  [optional] |
+| **title** | **kotlin.String** |  |  [optional] |
+| **description** | **kotlin.String** |  |  [optional] |
+| **properties** | [**ComDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTProperties**](ComDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTProperties.md) |  |  [optional] |
 
 
 

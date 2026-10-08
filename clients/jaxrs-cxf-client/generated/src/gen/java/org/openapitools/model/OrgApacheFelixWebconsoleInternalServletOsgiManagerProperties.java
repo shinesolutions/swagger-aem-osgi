@@ -4,46 +4,51 @@ import org.openapitools.model.ConfigNodePropertyDropDown;
 import org.openapitools.model.ConfigNodePropertyString;
 
 import io.swagger.annotations.ApiModelProperty;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlType;
-import javax.xml.bind.annotation.XmlEnum;
-import javax.xml.bind.annotation.XmlEnumValue;
+import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
 
 public class OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties  {
   
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString managerRoot = null;
+
+  private ConfigNodePropertyString managerRoot;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString httpServiceFilter = null;
+
+  private ConfigNodePropertyString httpServiceFilter;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString defaultRender = null;
+
+  private ConfigNodePropertyString defaultRender;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString realm = null;
+
+  private ConfigNodePropertyString realm;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString username = null;
+
+  private ConfigNodePropertyString username;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString password = null;
+
+  private ConfigNodePropertyString password;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString category = null;
+
+  private ConfigNodePropertyString category;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString locale = null;
+
+  private ConfigNodePropertyString locale;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyDropDown loglevel = null;
+
+  private ConfigNodePropertyDropDown loglevel;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyDropDown plugins = null;
+
+  private ConfigNodePropertyDropDown plugins;
  /**
    * Get managerRoot
    * @return managerRoot
@@ -224,6 +229,31 @@ public class OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties  {
     return this;
   }
 
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties orgApacheFelixWebconsoleInternalServletOsgiManagerProperties = (OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties) o;
+    return Objects.equals(this.managerRoot, orgApacheFelixWebconsoleInternalServletOsgiManagerProperties.managerRoot) &&
+        Objects.equals(this.httpServiceFilter, orgApacheFelixWebconsoleInternalServletOsgiManagerProperties.httpServiceFilter) &&
+        Objects.equals(this.defaultRender, orgApacheFelixWebconsoleInternalServletOsgiManagerProperties.defaultRender) &&
+        Objects.equals(this.realm, orgApacheFelixWebconsoleInternalServletOsgiManagerProperties.realm) &&
+        Objects.equals(this.username, orgApacheFelixWebconsoleInternalServletOsgiManagerProperties.username) &&
+        Objects.equals(this.password, orgApacheFelixWebconsoleInternalServletOsgiManagerProperties.password) &&
+        Objects.equals(this.category, orgApacheFelixWebconsoleInternalServletOsgiManagerProperties.category) &&
+        Objects.equals(this.locale, orgApacheFelixWebconsoleInternalServletOsgiManagerProperties.locale) &&
+        Objects.equals(this.loglevel, orgApacheFelixWebconsoleInternalServletOsgiManagerProperties.loglevel) &&
+        Objects.equals(this.plugins, orgApacheFelixWebconsoleInternalServletOsgiManagerProperties.plugins);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(managerRoot, httpServiceFilter, defaultRender, realm, username, password, category, locale, loglevel, plugins);
+  }
 
   @Override
   public String toString() {
@@ -248,11 +278,8 @@ public class OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties  {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private static String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

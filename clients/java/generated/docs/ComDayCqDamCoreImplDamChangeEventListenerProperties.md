@@ -1,10 +1,13 @@
 
+
 # ComDayCqDamCoreImplDamChangeEventListenerProperties
 
+
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**changeeventlistenerObservedPaths** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
+
+| Name | Type | Description | Notes |
+|------------ | ------------- | ------------- | -------------|
+|**changeeventlistenerObservedPaths** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
 
 
 

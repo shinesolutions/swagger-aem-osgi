@@ -1,33 +1,44 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProperties   {
-  @JsonProperty("name")
-  private ConfigNodePropertyString name = null;
+@JsonTypeName("comAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProperties {
 
-  @JsonProperty("serviceName")
-  private ConfigNodePropertyString serviceName = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString name;
 
-  @JsonProperty("userId")
-  private ConfigNodePropertyString userId = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString serviceName;
 
-  @JsonProperty("accessTokenProvider.target")
-  private ConfigNodePropertyString accessTokenProviderTarget = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString userId;
 
-  public ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProperties name(ConfigNodePropertyString name) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString accessTokenProviderTarget;
+
+  public ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProperties name(@Nullable ConfigNodePropertyString name) {
     this.name = name;
     return this;
   }
@@ -35,20 +46,20 @@ public class ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProp
   /**
    * Get name
    * @return name
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getName() {
+   */
+  @Valid 
+  @Schema(name = "name", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("name")
+  public @Nullable ConfigNodePropertyString getName() {
     return name;
   }
 
-  public void setName(ConfigNodePropertyString name) {
+  @JsonProperty("name")
+  public void setName(@Nullable ConfigNodePropertyString name) {
     this.name = name;
   }
 
-  public ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProperties serviceName(ConfigNodePropertyString serviceName) {
+  public ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProperties serviceName(@Nullable ConfigNodePropertyString serviceName) {
     this.serviceName = serviceName;
     return this;
   }
@@ -56,20 +67,20 @@ public class ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProp
   /**
    * Get serviceName
    * @return serviceName
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getServiceName() {
+   */
+  @Valid 
+  @Schema(name = "serviceName", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("serviceName")
+  public @Nullable ConfigNodePropertyString getServiceName() {
     return serviceName;
   }
 
-  public void setServiceName(ConfigNodePropertyString serviceName) {
+  @JsonProperty("serviceName")
+  public void setServiceName(@Nullable ConfigNodePropertyString serviceName) {
     this.serviceName = serviceName;
   }
 
-  public ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProperties userId(ConfigNodePropertyString userId) {
+  public ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProperties userId(@Nullable ConfigNodePropertyString userId) {
     this.userId = userId;
     return this;
   }
@@ -77,20 +88,20 @@ public class ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProp
   /**
    * Get userId
    * @return userId
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getUserId() {
+   */
+  @Valid 
+  @Schema(name = "userId", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("userId")
+  public @Nullable ConfigNodePropertyString getUserId() {
     return userId;
   }
 
-  public void setUserId(ConfigNodePropertyString userId) {
+  @JsonProperty("userId")
+  public void setUserId(@Nullable ConfigNodePropertyString userId) {
     this.userId = userId;
   }
 
-  public ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProperties accessTokenProviderTarget(ConfigNodePropertyString accessTokenProviderTarget) {
+  public ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProperties accessTokenProviderTarget(@Nullable ConfigNodePropertyString accessTokenProviderTarget) {
     this.accessTokenProviderTarget = accessTokenProviderTarget;
     return this;
   }
@@ -98,22 +109,21 @@ public class ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProp
   /**
    * Get accessTokenProviderTarget
    * @return accessTokenProviderTarget
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getAccessTokenProviderTarget() {
+   */
+  @Valid 
+  @Schema(name = "accessTokenProvider.target", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("accessTokenProvider.target")
+  public @Nullable ConfigNodePropertyString getAccessTokenProviderTarget() {
     return accessTokenProviderTarget;
   }
 
-  public void setAccessTokenProviderTarget(ConfigNodePropertyString accessTokenProviderTarget) {
+  @JsonProperty("accessTokenProvider.target")
+  public void setAccessTokenProviderTarget(@Nullable ConfigNodePropertyString accessTokenProviderTarget) {
     this.accessTokenProviderTarget = accessTokenProviderTarget;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -136,7 +146,6 @@ public class ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProp
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProperties {\n");
-    
     sb.append("    name: ").append(toIndentedString(name)).append("\n");
     sb.append("    serviceName: ").append(toIndentedString(serviceName)).append("\n");
     sb.append("    userId: ").append(toIndentedString(userId)).append("\n");
@@ -149,11 +158,8 @@ public class ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProp
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

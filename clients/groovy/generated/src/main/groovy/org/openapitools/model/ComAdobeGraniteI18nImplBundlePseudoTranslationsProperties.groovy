@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyArray;
 
 @Canonical
 class ComAdobeGraniteI18nImplBundlePseudoTranslationsProperties {
-    ConfigNodePropertyArray pseudoPatterns = null
-
+    
+    ConfigNodePropertyArray pseudoPatterns
 }

@@ -7,12 +7,12 @@ import org.openapitools.model.OrgApacheSlingDiscoveryOakSynchronizedClocksHealth
 
 @Canonical
 class OrgApacheSlingDiscoveryOakSynchronizedClocksHealthCheckInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheSlingDiscoveryOakSynchronizedClocksHealthCheckProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheSlingDiscoveryOakSynchronizedClocksHealthCheckProperties properties
 }

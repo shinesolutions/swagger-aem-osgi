@@ -3,35 +3,48 @@ package apimodels;
 import apimodels.ConfigNodePropertyBoolean;
 import apimodels.ConfigNodePropertyInteger;
 import apimodels.ConfigNodePropertyString;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * ComAdobeCqDamS7imagingImplIsImageServerComponentProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class ComAdobeCqDamS7imagingImplIsImageServerComponentProperties   {
   @JsonProperty("TcpPort")
-  private ConfigNodePropertyString tcpPort = null;
+  @Valid
+
+  private ConfigNodePropertyString tcpPort;
 
   @JsonProperty("AllowRemoteAccess")
-  private ConfigNodePropertyBoolean allowRemoteAccess = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean allowRemoteAccess;
 
   @JsonProperty("MaxRenderRgnPixels")
-  private ConfigNodePropertyString maxRenderRgnPixels = null;
+  @Valid
+
+  private ConfigNodePropertyString maxRenderRgnPixels;
 
   @JsonProperty("MaxMessageSize")
-  private ConfigNodePropertyString maxMessageSize = null;
+  @Valid
+
+  private ConfigNodePropertyString maxMessageSize;
 
   @JsonProperty("RandomAccessUrlTimeout")
-  private ConfigNodePropertyInteger randomAccessUrlTimeout = null;
+  @Valid
+
+  private ConfigNodePropertyInteger randomAccessUrlTimeout;
 
   @JsonProperty("WorkerThreads")
-  private ConfigNodePropertyInteger workerThreads = null;
+  @Valid
+
+  private ConfigNodePropertyInteger workerThreads;
 
   public ComAdobeCqDamS7imagingImplIsImageServerComponentProperties tcpPort(ConfigNodePropertyString tcpPort) {
     this.tcpPort = tcpPort;
@@ -42,7 +55,6 @@ public class ComAdobeCqDamS7imagingImplIsImageServerComponentProperties   {
    * Get tcpPort
    * @return tcpPort
   **/
-  @Valid
   public ConfigNodePropertyString getTcpPort() {
     return tcpPort;
   }
@@ -60,7 +72,6 @@ public class ComAdobeCqDamS7imagingImplIsImageServerComponentProperties   {
    * Get allowRemoteAccess
    * @return allowRemoteAccess
   **/
-  @Valid
   public ConfigNodePropertyBoolean getAllowRemoteAccess() {
     return allowRemoteAccess;
   }
@@ -78,7 +89,6 @@ public class ComAdobeCqDamS7imagingImplIsImageServerComponentProperties   {
    * Get maxRenderRgnPixels
    * @return maxRenderRgnPixels
   **/
-  @Valid
   public ConfigNodePropertyString getMaxRenderRgnPixels() {
     return maxRenderRgnPixels;
   }
@@ -96,7 +106,6 @@ public class ComAdobeCqDamS7imagingImplIsImageServerComponentProperties   {
    * Get maxMessageSize
    * @return maxMessageSize
   **/
-  @Valid
   public ConfigNodePropertyString getMaxMessageSize() {
     return maxMessageSize;
   }
@@ -114,7 +123,6 @@ public class ComAdobeCqDamS7imagingImplIsImageServerComponentProperties   {
    * Get randomAccessUrlTimeout
    * @return randomAccessUrlTimeout
   **/
-  @Valid
   public ConfigNodePropertyInteger getRandomAccessUrlTimeout() {
     return randomAccessUrlTimeout;
   }
@@ -132,7 +140,6 @@ public class ComAdobeCqDamS7imagingImplIsImageServerComponentProperties   {
    * Get workerThreads
    * @return workerThreads
   **/
-  @Valid
   public ConfigNodePropertyInteger getWorkerThreads() {
     return workerThreads;
   }
@@ -143,7 +150,7 @@ public class ComAdobeCqDamS7imagingImplIsImageServerComponentProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -184,11 +191,8 @@ public class ComAdobeCqDamS7imagingImplIsImageServerComponentProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

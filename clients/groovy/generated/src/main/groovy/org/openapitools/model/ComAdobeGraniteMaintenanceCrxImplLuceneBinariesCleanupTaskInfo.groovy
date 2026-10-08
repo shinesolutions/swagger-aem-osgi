@@ -7,16 +7,16 @@ import org.openapitools.model.ComAdobeGraniteMaintenanceCrxImplLuceneBinariesCle
 
 @Canonical
 class ComAdobeGraniteMaintenanceCrxImplLuceneBinariesCleanupTaskInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteMaintenanceCrxImplLuceneBinariesCleanupTaskProperties properties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteMaintenanceCrxImplLuceneBinariesCleanupTaskProperties properties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeGraniteWorkflowCorePayloadMapCacheProperti
 
 @Canonical
 class ComAdobeGraniteWorkflowCorePayloadMapCacheInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteWorkflowCorePayloadMapCacheProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteWorkflowCorePayloadMapCacheProperties properties
 }

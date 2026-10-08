@@ -2,10 +2,10 @@
 # ComAdobeCqSecurityHcWebserverImplClickjackingHealthCheckProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**hcPeriodtags** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**webserverPeriodaddress** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **hcTags** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **webserverAddress** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
 
 
 

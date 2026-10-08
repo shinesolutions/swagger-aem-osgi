@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeGraniteAuthOauthImplFacebookProviderImplPr
 
 @Canonical
 class ComAdobeGraniteAuthOauthImplFacebookProviderImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteAuthOauthImplFacebookProviderImplProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteAuthOauthImplFacebookProviderImplProperties properties
 }

@@ -72,7 +72,7 @@ private class OASComAdobeCqAddressImplLocationLocaTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeCqAddressImplLocationLoca comAdobeCqAddressImplLocationLocationListServletProperties = new OASComAdobeCqAddressImplLocationLoca();
-        Map<String, String> propertyMappings = comAdobeCqAddressImplLocationLocationListServletProperties.getPropertyMappings();
-        System.assertEquals('cqAddressLocationDefaultMaxResults', propertyMappings.get('cq.address.location.default.maxResults'));
+        Map<String, String> x-property-mappings = comAdobeCqAddressImplLocationLocationListServletProperties.getx-property-mappings();
+        System.assertEquals('cqAddressLocationDefaultMaxResults', x-property-mappings.get('cq.address.location.default.maxResults'));
     }
 }

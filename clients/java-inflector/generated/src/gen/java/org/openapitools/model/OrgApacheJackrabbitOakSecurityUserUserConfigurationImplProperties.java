@@ -3,6 +3,7 @@ package org.openapitools.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyBoolean;
@@ -14,55 +15,55 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaInflectorServerCodegen", date = "2019-08-05T00:53:46.291Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaInflectorServerCodegen", date = "2026-10-07T12:53:12.340274163Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties   {
   @JsonProperty("usersPath")
-  private ConfigNodePropertyString usersPath = null;
+  private ConfigNodePropertyString usersPath;
 
   @JsonProperty("groupsPath")
-  private ConfigNodePropertyString groupsPath = null;
+  private ConfigNodePropertyString groupsPath;
 
   @JsonProperty("systemRelativePath")
-  private ConfigNodePropertyString systemRelativePath = null;
+  private ConfigNodePropertyString systemRelativePath;
 
   @JsonProperty("defaultDepth")
-  private ConfigNodePropertyInteger defaultDepth = null;
+  private ConfigNodePropertyInteger defaultDepth;
 
   @JsonProperty("importBehavior")
-  private ConfigNodePropertyDropDown importBehavior = null;
+  private ConfigNodePropertyDropDown importBehavior;
 
   @JsonProperty("passwordHashAlgorithm")
-  private ConfigNodePropertyString passwordHashAlgorithm = null;
+  private ConfigNodePropertyString passwordHashAlgorithm;
 
   @JsonProperty("passwordHashIterations")
-  private ConfigNodePropertyInteger passwordHashIterations = null;
+  private ConfigNodePropertyInteger passwordHashIterations;
 
   @JsonProperty("passwordSaltSize")
-  private ConfigNodePropertyInteger passwordSaltSize = null;
+  private ConfigNodePropertyInteger passwordSaltSize;
 
   @JsonProperty("omitAdminPw")
-  private ConfigNodePropertyBoolean omitAdminPw = null;
+  private ConfigNodePropertyBoolean omitAdminPw;
 
   @JsonProperty("supportAutoSave")
-  private ConfigNodePropertyBoolean supportAutoSave = null;
+  private ConfigNodePropertyBoolean supportAutoSave;
 
   @JsonProperty("passwordMaxAge")
-  private ConfigNodePropertyInteger passwordMaxAge = null;
+  private ConfigNodePropertyInteger passwordMaxAge;
 
   @JsonProperty("initialPasswordChange")
-  private ConfigNodePropertyBoolean initialPasswordChange = null;
+  private ConfigNodePropertyBoolean initialPasswordChange;
 
   @JsonProperty("passwordHistorySize")
-  private ConfigNodePropertyInteger passwordHistorySize = null;
+  private ConfigNodePropertyInteger passwordHistorySize;
 
   @JsonProperty("passwordExpiryForAdmin")
-  private ConfigNodePropertyBoolean passwordExpiryForAdmin = null;
+  private ConfigNodePropertyBoolean passwordExpiryForAdmin;
 
   @JsonProperty("cacheExpiration")
-  private ConfigNodePropertyInteger cacheExpiration = null;
+  private ConfigNodePropertyInteger cacheExpiration;
 
   @JsonProperty("enableRFC7613UsercaseMappedProfile")
-  private ConfigNodePropertyBoolean enableRFC7613UsercaseMappedProfile = null;
+  private ConfigNodePropertyBoolean enableRFC7613UsercaseMappedProfile;
 
   /**
    **/
@@ -338,7 +339,7 @@ public class OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties  
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -398,11 +399,8 @@ public class OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties  
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

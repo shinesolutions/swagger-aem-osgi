@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyInteger;
 import com.prokarma.pkmst.model.ConfigNodePropertyString;
 import io.swagger.annotations.ApiModel;
@@ -16,27 +17,26 @@ import io.swagger.annotations.ApiModelProperty;
  * ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponenProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponenProperties   {
   @JsonProperty("service.ranking")
-  private ConfigNodePropertyInteger serviceRanking = null;
+  private ConfigNodePropertyInteger serviceRanking;
 
   @JsonProperty("tagpattern")
-  private ConfigNodePropertyString tagpattern = null;
+  private ConfigNodePropertyString tagpattern;
 
   @JsonProperty("component.resourceType")
-  private ConfigNodePropertyString componentResourceType = null;
+  private ConfigNodePropertyString componentResourceType;
 
   public ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponenProperties serviceRanking(ConfigNodePropertyInteger serviceRanking) {
     this.serviceRanking = serviceRanking;
     return this;
   }
 
-   /**
+  /**
    * Get serviceRanking
    * @return serviceRanking
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getServiceRanking() {
     return serviceRanking;
@@ -51,10 +51,10 @@ public class ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponenPrope
     return this;
   }
 
-   /**
+  /**
    * Get tagpattern
    * @return tagpattern
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getTagpattern() {
     return tagpattern;
@@ -69,10 +69,10 @@ public class ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponenPrope
     return this;
   }
 
-   /**
+  /**
    * Get componentResourceType
    * @return componentResourceType
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getComponentResourceType() {
     return componentResourceType;
@@ -84,7 +84,7 @@ public class ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponenPrope
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -118,11 +118,8 @@ public class ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponenPrope
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

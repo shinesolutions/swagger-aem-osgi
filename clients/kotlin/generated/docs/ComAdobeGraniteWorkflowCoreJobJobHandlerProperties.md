@@ -2,10 +2,10 @@
 # ComAdobeGraniteWorkflowCoreJobJobHandlerProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**jobPeriodtopics** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**allowPeriodselfPeriodprocessPeriodtermination** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **jobTopics** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **allowSelfProcessTermination** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
 
 
 

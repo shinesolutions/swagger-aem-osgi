@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqWcmCoreImplServletsFindReplaceServletPrope
 
 @Canonical
 class ComDayCqWcmCoreImplServletsFindReplaceServletInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqWcmCoreImplServletsFindReplaceServletProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqWcmCoreImplServletsFindReplaceServletProperties properties
 }

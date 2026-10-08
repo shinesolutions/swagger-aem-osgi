@@ -2,23 +2,24 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class ComAdobeCqSocialScoringImplScoringEventListenerProperties   {
   
-  private ConfigNodePropertyString eventTopics = null;
+  private ConfigNodePropertyString eventTopics;
 
-  private ConfigNodePropertyString eventFilter = null;
-
+  private ConfigNodePropertyString eventFilter;
 
   /**
    **/
@@ -58,7 +59,7 @@ public class ComAdobeCqSocialScoringImplScoringEventListenerProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -66,8 +67,8 @@ public class ComAdobeCqSocialScoringImplScoringEventListenerProperties   {
       return false;
     }
     ComAdobeCqSocialScoringImplScoringEventListenerProperties comAdobeCqSocialScoringImplScoringEventListenerProperties = (ComAdobeCqSocialScoringImplScoringEventListenerProperties) o;
-    return Objects.equals(eventTopics, comAdobeCqSocialScoringImplScoringEventListenerProperties.eventTopics) &&
-        Objects.equals(eventFilter, comAdobeCqSocialScoringImplScoringEventListenerProperties.eventFilter);
+    return Objects.equals(this.eventTopics, comAdobeCqSocialScoringImplScoringEventListenerProperties.eventTopics) &&
+        Objects.equals(this.eventFilter, comAdobeCqSocialScoringImplScoringEventListenerProperties.eventFilter);
   }
 
   @Override
@@ -90,11 +91,8 @@ public class ComAdobeCqSocialScoringImplScoringEventListenerProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

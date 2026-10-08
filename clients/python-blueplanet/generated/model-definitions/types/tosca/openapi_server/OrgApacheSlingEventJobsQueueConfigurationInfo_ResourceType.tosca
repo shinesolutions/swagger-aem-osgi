@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingEventJobsQueueConfigurationInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingEventJobsQueueConfigurationInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  OrgApacheSlingEventJobsQueueConfigurationProperties = openapi_server.resourceTypes.OrgApacheSlingEventJobsQueueConfigurationProperties
+}
+resourceTypes {
+
+  OrgApacheSlingEventJobsQueueConfigurationInfo {
+    title = OrgApacheSlingEventJobsQueueConfigurationInfo
+    description = OrgApacheSlingEventJobsQueueConfigurationInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = OrgApacheSlingEventJobsQueueConfigurationProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingEventJobsQueueConfigurationInfo {
+    title = OrgApacheSlingEventJobsQueueConfigurationInfo
+    description = OrgApacheSlingEventJobsQueueConfigurationInfo
+    implements = openapi_server.resourceTypes.OrgApacheSlingEventJobsQueueConfigurationInfo
+
+  }
+}

@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqDamCoreImplMissingMetadataNotificationJobP
 
 @Canonical
 class ComDayCqDamCoreImplMissingMetadataNotificationJobInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqDamCoreImplMissingMetadataNotificationJobProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqDamCoreImplMissingMetadataNotificationJobProperties properties
 }

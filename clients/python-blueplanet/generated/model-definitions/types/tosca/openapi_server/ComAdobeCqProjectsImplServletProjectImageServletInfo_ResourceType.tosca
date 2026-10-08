@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqProjectsImplServletProjectImageServletInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqProjectsImplServletProjectImageServletInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComAdobeCqProjectsImplServletProjectImageServletProperties = openapi_server.resourceTypes.ComAdobeCqProjectsImplServletProjectImageServletProperties
+}
+resourceTypes {
+
+  ComAdobeCqProjectsImplServletProjectImageServletInfo {
+    title = ComAdobeCqProjectsImplServletProjectImageServletInfo
+    description = ComAdobeCqProjectsImplServletProjectImageServletInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComAdobeCqProjectsImplServletProjectImageServletProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqProjectsImplServletProjectImageServletInfo {
+    title = ComAdobeCqProjectsImplServletProjectImageServletInfo
+    description = ComAdobeCqProjectsImplServletProjectImageServletInfo
+    implements = openapi_server.resourceTypes.ComAdobeCqProjectsImplServletProjectImageServletInfo
+
+  }
+}

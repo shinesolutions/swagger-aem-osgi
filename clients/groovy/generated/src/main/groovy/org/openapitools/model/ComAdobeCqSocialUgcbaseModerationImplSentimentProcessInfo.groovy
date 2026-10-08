@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqSocialUgcbaseModerationImplSentimentProc
 
 @Canonical
 class ComAdobeCqSocialUgcbaseModerationImplSentimentProcessInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqSocialUgcbaseModerationImplSentimentProcessProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqSocialUgcbaseModerationImplSentimentProcessProperties properties
 }

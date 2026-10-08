@@ -72,8 +72,8 @@ private class OASComDayCqDamCoreImplProcessSendTraTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqDamCoreImplProcessSendTra comDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrProperties = new OASComDayCqDamCoreImplProcessSendTra();
-        Map<String, String> propertyMappings = comDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrProperties.getPropertyMappings();
-        System.assertEquals('processLabel', propertyMappings.get('process.label'));
-        System.assertEquals('notifyOnComplete', propertyMappings.get('Notify on Complete'));
+        Map<String, String> x-property-mappings = comDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrProperties.getx-property-mappings();
+        System.assertEquals('processLabel', x-property-mappings.get('process.label'));
+        System.assertEquals('notifyOnComplete', x-property-mappings.get('Notify on Complete'));
     }
 }

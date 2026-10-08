@@ -1,5 +1,8 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyDropDown;
@@ -7,19 +10,27 @@ import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("orgApacheSlingCommonsLogLogManagerFactoryConfigProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingCommonsLogLogManagerFactoryConfigProperties   {
-  
-  private @Valid ConfigNodePropertyDropDown orgApacheSlingCommonsLogLevel = null;
-  private @Valid ConfigNodePropertyString orgApacheSlingCommonsLogFile = null;
-  private @Valid ConfigNodePropertyString orgApacheSlingCommonsLogPattern = null;
-  private @Valid ConfigNodePropertyArray orgApacheSlingCommonsLogNames = null;
-  private @Valid ConfigNodePropertyBoolean orgApacheSlingCommonsLogAdditiv = null;
+  private ConfigNodePropertyDropDown orgApacheSlingCommonsLogLevel;
+  private ConfigNodePropertyString orgApacheSlingCommonsLogFile;
+  private ConfigNodePropertyString orgApacheSlingCommonsLogPattern;
+  private ConfigNodePropertyArray orgApacheSlingCommonsLogNames;
+  private ConfigNodePropertyBoolean orgApacheSlingCommonsLogAdditiv;
+
+  public OrgApacheSlingCommonsLogLogManagerFactoryConfigProperties() {
+  }
 
   /**
    **/
@@ -31,9 +42,11 @@ public class OrgApacheSlingCommonsLogLogManagerFactoryConfigProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("org.apache.sling.commons.log.level")
-  public ConfigNodePropertyDropDown getOrgApacheSlingCommonsLogLevel() {
+  @Valid public ConfigNodePropertyDropDown getOrgApacheSlingCommonsLogLevel() {
     return orgApacheSlingCommonsLogLevel;
   }
+
+  @JsonProperty("org.apache.sling.commons.log.level")
   public void setOrgApacheSlingCommonsLogLevel(ConfigNodePropertyDropDown orgApacheSlingCommonsLogLevel) {
     this.orgApacheSlingCommonsLogLevel = orgApacheSlingCommonsLogLevel;
   }
@@ -48,9 +61,11 @@ public class OrgApacheSlingCommonsLogLogManagerFactoryConfigProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("org.apache.sling.commons.log.file")
-  public ConfigNodePropertyString getOrgApacheSlingCommonsLogFile() {
+  @Valid public ConfigNodePropertyString getOrgApacheSlingCommonsLogFile() {
     return orgApacheSlingCommonsLogFile;
   }
+
+  @JsonProperty("org.apache.sling.commons.log.file")
   public void setOrgApacheSlingCommonsLogFile(ConfigNodePropertyString orgApacheSlingCommonsLogFile) {
     this.orgApacheSlingCommonsLogFile = orgApacheSlingCommonsLogFile;
   }
@@ -65,9 +80,11 @@ public class OrgApacheSlingCommonsLogLogManagerFactoryConfigProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("org.apache.sling.commons.log.pattern")
-  public ConfigNodePropertyString getOrgApacheSlingCommonsLogPattern() {
+  @Valid public ConfigNodePropertyString getOrgApacheSlingCommonsLogPattern() {
     return orgApacheSlingCommonsLogPattern;
   }
+
+  @JsonProperty("org.apache.sling.commons.log.pattern")
   public void setOrgApacheSlingCommonsLogPattern(ConfigNodePropertyString orgApacheSlingCommonsLogPattern) {
     this.orgApacheSlingCommonsLogPattern = orgApacheSlingCommonsLogPattern;
   }
@@ -82,9 +99,11 @@ public class OrgApacheSlingCommonsLogLogManagerFactoryConfigProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("org.apache.sling.commons.log.names")
-  public ConfigNodePropertyArray getOrgApacheSlingCommonsLogNames() {
+  @Valid public ConfigNodePropertyArray getOrgApacheSlingCommonsLogNames() {
     return orgApacheSlingCommonsLogNames;
   }
+
+  @JsonProperty("org.apache.sling.commons.log.names")
   public void setOrgApacheSlingCommonsLogNames(ConfigNodePropertyArray orgApacheSlingCommonsLogNames) {
     this.orgApacheSlingCommonsLogNames = orgApacheSlingCommonsLogNames;
   }
@@ -99,16 +118,18 @@ public class OrgApacheSlingCommonsLogLogManagerFactoryConfigProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("org.apache.sling.commons.log.additiv")
-  public ConfigNodePropertyBoolean getOrgApacheSlingCommonsLogAdditiv() {
+  @Valid public ConfigNodePropertyBoolean getOrgApacheSlingCommonsLogAdditiv() {
     return orgApacheSlingCommonsLogAdditiv;
   }
+
+  @JsonProperty("org.apache.sling.commons.log.additiv")
   public void setOrgApacheSlingCommonsLogAdditiv(ConfigNodePropertyBoolean orgApacheSlingCommonsLogAdditiv) {
     this.orgApacheSlingCommonsLogAdditiv = orgApacheSlingCommonsLogAdditiv;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -116,11 +137,11 @@ public class OrgApacheSlingCommonsLogLogManagerFactoryConfigProperties   {
       return false;
     }
     OrgApacheSlingCommonsLogLogManagerFactoryConfigProperties orgApacheSlingCommonsLogLogManagerFactoryConfigProperties = (OrgApacheSlingCommonsLogLogManagerFactoryConfigProperties) o;
-    return Objects.equals(orgApacheSlingCommonsLogLevel, orgApacheSlingCommonsLogLogManagerFactoryConfigProperties.orgApacheSlingCommonsLogLevel) &&
-        Objects.equals(orgApacheSlingCommonsLogFile, orgApacheSlingCommonsLogLogManagerFactoryConfigProperties.orgApacheSlingCommonsLogFile) &&
-        Objects.equals(orgApacheSlingCommonsLogPattern, orgApacheSlingCommonsLogLogManagerFactoryConfigProperties.orgApacheSlingCommonsLogPattern) &&
-        Objects.equals(orgApacheSlingCommonsLogNames, orgApacheSlingCommonsLogLogManagerFactoryConfigProperties.orgApacheSlingCommonsLogNames) &&
-        Objects.equals(orgApacheSlingCommonsLogAdditiv, orgApacheSlingCommonsLogLogManagerFactoryConfigProperties.orgApacheSlingCommonsLogAdditiv);
+    return Objects.equals(this.orgApacheSlingCommonsLogLevel, orgApacheSlingCommonsLogLogManagerFactoryConfigProperties.orgApacheSlingCommonsLogLevel) &&
+        Objects.equals(this.orgApacheSlingCommonsLogFile, orgApacheSlingCommonsLogLogManagerFactoryConfigProperties.orgApacheSlingCommonsLogFile) &&
+        Objects.equals(this.orgApacheSlingCommonsLogPattern, orgApacheSlingCommonsLogLogManagerFactoryConfigProperties.orgApacheSlingCommonsLogPattern) &&
+        Objects.equals(this.orgApacheSlingCommonsLogNames, orgApacheSlingCommonsLogLogManagerFactoryConfigProperties.orgApacheSlingCommonsLogNames) &&
+        Objects.equals(this.orgApacheSlingCommonsLogAdditiv, orgApacheSlingCommonsLogLogManagerFactoryConfigProperties.orgApacheSlingCommonsLogAdditiv);
   }
 
   @Override
@@ -146,11 +167,9 @@ public class OrgApacheSlingCommonsLogLogManagerFactoryConfigProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

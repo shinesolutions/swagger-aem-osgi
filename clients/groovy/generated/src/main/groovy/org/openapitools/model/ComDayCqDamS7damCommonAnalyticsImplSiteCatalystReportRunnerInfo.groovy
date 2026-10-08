@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqDamS7damCommonAnalyticsImplSiteCatalystRep
 
 @Canonical
 class ComDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerProperties properties
 }

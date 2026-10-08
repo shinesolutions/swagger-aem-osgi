@@ -3,25 +3,23 @@ package org.openapitools.model;
 import org.openapitools.model.ConfigNodePropertyArray;
 
 import io.swagger.annotations.ApiModelProperty;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlType;
-import javax.xml.bind.annotation.XmlEnum;
-import javax.xml.bind.annotation.XmlEnumValue;
+import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
 
 public class ComDayCqWcmMsmImplActionsOrderChildrenActionFactoryProperties  {
   
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyArray cqWcmMsmActionExcludednodetypes = null;
+
+  private ConfigNodePropertyArray cqWcmMsmActionExcludednodetypes;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyArray cqWcmMsmActionExcludedparagraphitems = null;
+
+  private ConfigNodePropertyArray cqWcmMsmActionExcludedparagraphitems;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyArray cqWcmMsmActionExcludedprops = null;
+
+  private ConfigNodePropertyArray cqWcmMsmActionExcludedprops;
  /**
    * Get cqWcmMsmActionExcludednodetypes
    * @return cqWcmMsmActionExcludednodetypes
@@ -76,6 +74,24 @@ public class ComDayCqWcmMsmImplActionsOrderChildrenActionFactoryProperties  {
     return this;
   }
 
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    ComDayCqWcmMsmImplActionsOrderChildrenActionFactoryProperties comDayCqWcmMsmImplActionsOrderChildrenActionFactoryProperties = (ComDayCqWcmMsmImplActionsOrderChildrenActionFactoryProperties) o;
+    return Objects.equals(this.cqWcmMsmActionExcludednodetypes, comDayCqWcmMsmImplActionsOrderChildrenActionFactoryProperties.cqWcmMsmActionExcludednodetypes) &&
+        Objects.equals(this.cqWcmMsmActionExcludedparagraphitems, comDayCqWcmMsmImplActionsOrderChildrenActionFactoryProperties.cqWcmMsmActionExcludedparagraphitems) &&
+        Objects.equals(this.cqWcmMsmActionExcludedprops, comDayCqWcmMsmImplActionsOrderChildrenActionFactoryProperties.cqWcmMsmActionExcludedprops);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(cqWcmMsmActionExcludednodetypes, cqWcmMsmActionExcludedparagraphitems, cqWcmMsmActionExcludedprops);
+  }
 
   @Override
   public String toString() {
@@ -93,11 +109,8 @@ public class ComDayCqWcmMsmImplActionsOrderChildrenActionFactoryProperties  {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private static String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -2,29 +2,30 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyDropDown;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class ComAdobeCqAuditPurgePagesProperties   {
   
-  private ConfigNodePropertyString auditlogRuleName = null;
+  private ConfigNodePropertyString auditlogRuleName;
 
-  private ConfigNodePropertyString auditlogRuleContentpath = null;
+  private ConfigNodePropertyString auditlogRuleContentpath;
 
-  private ConfigNodePropertyInteger auditlogRuleMinimumage = null;
+  private ConfigNodePropertyInteger auditlogRuleMinimumage;
 
-  private ConfigNodePropertyDropDown auditlogRuleTypes = null;
-
+  private ConfigNodePropertyDropDown auditlogRuleTypes;
 
   /**
    **/
@@ -100,7 +101,7 @@ public class ComAdobeCqAuditPurgePagesProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -108,10 +109,10 @@ public class ComAdobeCqAuditPurgePagesProperties   {
       return false;
     }
     ComAdobeCqAuditPurgePagesProperties comAdobeCqAuditPurgePagesProperties = (ComAdobeCqAuditPurgePagesProperties) o;
-    return Objects.equals(auditlogRuleName, comAdobeCqAuditPurgePagesProperties.auditlogRuleName) &&
-        Objects.equals(auditlogRuleContentpath, comAdobeCqAuditPurgePagesProperties.auditlogRuleContentpath) &&
-        Objects.equals(auditlogRuleMinimumage, comAdobeCqAuditPurgePagesProperties.auditlogRuleMinimumage) &&
-        Objects.equals(auditlogRuleTypes, comAdobeCqAuditPurgePagesProperties.auditlogRuleTypes);
+    return Objects.equals(this.auditlogRuleName, comAdobeCqAuditPurgePagesProperties.auditlogRuleName) &&
+        Objects.equals(this.auditlogRuleContentpath, comAdobeCqAuditPurgePagesProperties.auditlogRuleContentpath) &&
+        Objects.equals(this.auditlogRuleMinimumage, comAdobeCqAuditPurgePagesProperties.auditlogRuleMinimumage) &&
+        Objects.equals(this.auditlogRuleTypes, comAdobeCqAuditPurgePagesProperties.auditlogRuleTypes);
   }
 
   @Override
@@ -136,11 +137,8 @@ public class ComAdobeCqAuditPurgePagesProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

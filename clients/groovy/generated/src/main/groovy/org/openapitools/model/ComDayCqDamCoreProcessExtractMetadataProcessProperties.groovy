@@ -8,8 +8,8 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqDamCoreProcessExtractMetadataProcessProperties {
-    ConfigNodePropertyString processLabel = null
-
-    ConfigNodePropertyBoolean cqDamEnableSha1 = null
-
+    
+    ConfigNodePropertyString processLabel
+    
+    ConfigNodePropertyBoolean cqDamEnableSha1
 }

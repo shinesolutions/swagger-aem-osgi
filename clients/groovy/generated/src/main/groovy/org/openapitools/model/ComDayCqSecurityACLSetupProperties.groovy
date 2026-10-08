@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyArray;
 
 @Canonical
 class ComDayCqSecurityACLSetupProperties {
-    ConfigNodePropertyArray cqAclsetupRules = null
-
+    
+    ConfigNodePropertyArray cqAclsetupRules
 }

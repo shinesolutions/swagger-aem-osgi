@@ -4,25 +4,29 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyDropDown;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2019-08-05T00:59:30.156Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2026-10-07T12:54:21.614735164Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingEventImplJobsDefaultJobManagerProperties   {
   
-  private ConfigNodePropertyDropDown queuePriority = null;
-  private ConfigNodePropertyInteger queueRetries = null;
-  private ConfigNodePropertyInteger queueRetrydelay = null;
-  private ConfigNodePropertyInteger queueMaxparallel = null;
+  private ConfigNodePropertyDropDown queuePriority;
+  private ConfigNodePropertyInteger queueRetries;
+  private ConfigNodePropertyInteger queueRetrydelay;
+  private ConfigNodePropertyInteger queueMaxparallel;
 
   /**
    **/
   
   @ApiModelProperty(value = "")
   @JsonProperty("queue.priority")
+  @Valid
   public ConfigNodePropertyDropDown getQueuePriority() {
     return queuePriority;
   }
@@ -35,6 +39,7 @@ public class OrgApacheSlingEventImplJobsDefaultJobManagerProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("queue.retries")
+  @Valid
   public ConfigNodePropertyInteger getQueueRetries() {
     return queueRetries;
   }
@@ -47,6 +52,7 @@ public class OrgApacheSlingEventImplJobsDefaultJobManagerProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("queue.retrydelay")
+  @Valid
   public ConfigNodePropertyInteger getQueueRetrydelay() {
     return queueRetrydelay;
   }
@@ -59,6 +65,7 @@ public class OrgApacheSlingEventImplJobsDefaultJobManagerProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("queue.maxparallel")
+  @Valid
   public ConfigNodePropertyInteger getQueueMaxparallel() {
     return queueMaxparallel;
   }
@@ -68,7 +75,7 @@ public class OrgApacheSlingEventImplJobsDefaultJobManagerProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -76,10 +83,10 @@ public class OrgApacheSlingEventImplJobsDefaultJobManagerProperties   {
       return false;
     }
     OrgApacheSlingEventImplJobsDefaultJobManagerProperties orgApacheSlingEventImplJobsDefaultJobManagerProperties = (OrgApacheSlingEventImplJobsDefaultJobManagerProperties) o;
-    return Objects.equals(queuePriority, orgApacheSlingEventImplJobsDefaultJobManagerProperties.queuePriority) &&
-        Objects.equals(queueRetries, orgApacheSlingEventImplJobsDefaultJobManagerProperties.queueRetries) &&
-        Objects.equals(queueRetrydelay, orgApacheSlingEventImplJobsDefaultJobManagerProperties.queueRetrydelay) &&
-        Objects.equals(queueMaxparallel, orgApacheSlingEventImplJobsDefaultJobManagerProperties.queueMaxparallel);
+    return Objects.equals(this.queuePriority, orgApacheSlingEventImplJobsDefaultJobManagerProperties.queuePriority) &&
+        Objects.equals(this.queueRetries, orgApacheSlingEventImplJobsDefaultJobManagerProperties.queueRetries) &&
+        Objects.equals(this.queueRetrydelay, orgApacheSlingEventImplJobsDefaultJobManagerProperties.queueRetrydelay) &&
+        Objects.equals(this.queueMaxparallel, orgApacheSlingEventImplJobsDefaultJobManagerProperties.queueMaxparallel);
   }
 
   @Override
@@ -104,11 +111,8 @@ public class OrgApacheSlingEventImplJobsDefaultJobManagerProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

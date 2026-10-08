@@ -8,8 +8,8 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class OrgApacheSlingStartupfilterImplStartupFilterImplProperties {
-    ConfigNodePropertyBoolean activeByDefault = null
-
-    ConfigNodePropertyString defaultMessage = null
-
+    
+    ConfigNodePropertyBoolean activeByDefault
+    
+    ConfigNodePropertyString defaultMessage
 }

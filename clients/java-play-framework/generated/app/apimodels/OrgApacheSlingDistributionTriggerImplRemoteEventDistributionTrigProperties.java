@@ -1,26 +1,33 @@
 package apimodels;
 
 import apimodels.ConfigNodePropertyString;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * OrgApacheSlingDistributionTriggerImplRemoteEventDistributionTrigProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class OrgApacheSlingDistributionTriggerImplRemoteEventDistributionTrigProperties   {
   @JsonProperty("name")
-  private ConfigNodePropertyString name = null;
+  @Valid
+
+  private ConfigNodePropertyString name;
 
   @JsonProperty("endpoint")
-  private ConfigNodePropertyString endpoint = null;
+  @Valid
+
+  private ConfigNodePropertyString endpoint;
 
   @JsonProperty("transportSecretProvider.target")
-  private ConfigNodePropertyString transportSecretProviderTarget = null;
+  @Valid
+
+  private ConfigNodePropertyString transportSecretProviderTarget;
 
   public OrgApacheSlingDistributionTriggerImplRemoteEventDistributionTrigProperties name(ConfigNodePropertyString name) {
     this.name = name;
@@ -31,7 +38,6 @@ public class OrgApacheSlingDistributionTriggerImplRemoteEventDistributionTrigPro
    * Get name
    * @return name
   **/
-  @Valid
   public ConfigNodePropertyString getName() {
     return name;
   }
@@ -49,7 +55,6 @@ public class OrgApacheSlingDistributionTriggerImplRemoteEventDistributionTrigPro
    * Get endpoint
    * @return endpoint
   **/
-  @Valid
   public ConfigNodePropertyString getEndpoint() {
     return endpoint;
   }
@@ -67,7 +72,6 @@ public class OrgApacheSlingDistributionTriggerImplRemoteEventDistributionTrigPro
    * Get transportSecretProviderTarget
    * @return transportSecretProviderTarget
   **/
-  @Valid
   public ConfigNodePropertyString getTransportSecretProviderTarget() {
     return transportSecretProviderTarget;
   }
@@ -78,7 +82,7 @@ public class OrgApacheSlingDistributionTriggerImplRemoteEventDistributionTrigPro
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -113,11 +117,8 @@ public class OrgApacheSlingDistributionTriggerImplRemoteEventDistributionTrigPro
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

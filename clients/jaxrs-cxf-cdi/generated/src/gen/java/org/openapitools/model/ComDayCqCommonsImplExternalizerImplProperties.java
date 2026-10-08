@@ -2,29 +2,30 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class ComDayCqCommonsImplExternalizerImplProperties   {
   
-  private ConfigNodePropertyArray externalizerDomains = null;
+  private ConfigNodePropertyArray externalizerDomains;
 
-  private ConfigNodePropertyString externalizerHost = null;
+  private ConfigNodePropertyString externalizerHost;
 
-  private ConfigNodePropertyString externalizerContextpath = null;
+  private ConfigNodePropertyString externalizerContextpath;
 
-  private ConfigNodePropertyBoolean externalizerEncodedpath = null;
-
+  private ConfigNodePropertyBoolean externalizerEncodedpath;
 
   /**
    **/
@@ -100,7 +101,7 @@ public class ComDayCqCommonsImplExternalizerImplProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -108,10 +109,10 @@ public class ComDayCqCommonsImplExternalizerImplProperties   {
       return false;
     }
     ComDayCqCommonsImplExternalizerImplProperties comDayCqCommonsImplExternalizerImplProperties = (ComDayCqCommonsImplExternalizerImplProperties) o;
-    return Objects.equals(externalizerDomains, comDayCqCommonsImplExternalizerImplProperties.externalizerDomains) &&
-        Objects.equals(externalizerHost, comDayCqCommonsImplExternalizerImplProperties.externalizerHost) &&
-        Objects.equals(externalizerContextpath, comDayCqCommonsImplExternalizerImplProperties.externalizerContextpath) &&
-        Objects.equals(externalizerEncodedpath, comDayCqCommonsImplExternalizerImplProperties.externalizerEncodedpath);
+    return Objects.equals(this.externalizerDomains, comDayCqCommonsImplExternalizerImplProperties.externalizerDomains) &&
+        Objects.equals(this.externalizerHost, comDayCqCommonsImplExternalizerImplProperties.externalizerHost) &&
+        Objects.equals(this.externalizerContextpath, comDayCqCommonsImplExternalizerImplProperties.externalizerContextpath) &&
+        Objects.equals(this.externalizerEncodedpath, comDayCqCommonsImplExternalizerImplProperties.externalizerEncodedpath);
   }
 
   @Override
@@ -136,11 +137,8 @@ public class ComDayCqCommonsImplExternalizerImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

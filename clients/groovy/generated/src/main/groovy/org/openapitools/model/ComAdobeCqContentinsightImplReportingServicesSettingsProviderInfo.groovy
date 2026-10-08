@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqContentinsightImplReportingServicesSetti
 
 @Canonical
 class ComAdobeCqContentinsightImplReportingServicesSettingsProviderInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqContentinsightImplReportingServicesSettingsProviderProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqContentinsightImplReportingServicesSettingsProviderProperties properties
 }

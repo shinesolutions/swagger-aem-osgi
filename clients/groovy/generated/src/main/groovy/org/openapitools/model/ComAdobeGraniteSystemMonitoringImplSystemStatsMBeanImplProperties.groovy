@@ -7,8 +7,8 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeGraniteSystemMonitoringImplSystemStatsMBeanImplProperties {
-    ConfigNodePropertyString schedulerExpression = null
-
-    ConfigNodePropertyString jmxObjectname = null
-
+    
+    ConfigNodePropertyString schedulerExpression
+    
+    ConfigNodePropertyString jmxObjectname
 }

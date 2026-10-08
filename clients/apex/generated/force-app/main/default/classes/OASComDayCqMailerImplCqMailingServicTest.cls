@@ -72,7 +72,7 @@ private class OASComDayCqMailerImplCqMailingServicTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqMailerImplCqMailingServic comDayCqMailerImplCqMailingServiceProperties = new OASComDayCqMailerImplCqMailingServic();
-        Map<String, String> propertyMappings = comDayCqMailerImplCqMailingServiceProperties.getPropertyMappings();
-        System.assertEquals('maxRecipientCount', propertyMappings.get('max.recipient.count'));
+        Map<String, String> x-property-mappings = comDayCqMailerImplCqMailingServiceProperties.getx-property-mappings();
+        System.assertEquals('maxRecipientCount', x-property-mappings.get('max.recipient.count'));
     }
 }

@@ -72,7 +72,7 @@ private class OASComDayCqWcmDesignimporterDesignPaTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqWcmDesignimporterDesignPa comDayCqWcmDesignimporterDesignPackageImporterProperties = new OASComDayCqWcmDesignimporterDesignPa();
-        Map<String, String> propertyMappings = comDayCqWcmDesignimporterDesignPackageImporterProperties.getPropertyMappings();
-        System.assertEquals('extractFilter', propertyMappings.get('extract.filter'));
+        Map<String, String> x-property-mappings = comDayCqWcmDesignimporterDesignPackageImporterProperties.getx-property-mappings();
+        System.assertEquals('extractFilter', x-property-mappings.get('extract.filter'));
     }
 }

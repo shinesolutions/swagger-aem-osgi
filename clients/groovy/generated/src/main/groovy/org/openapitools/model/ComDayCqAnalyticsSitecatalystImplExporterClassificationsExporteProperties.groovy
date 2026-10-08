@@ -8,8 +8,8 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteProperties {
-    ConfigNodePropertyArray allowedPaths = null
-
-    ConfigNodePropertyInteger cqAnalyticsSaintExporterPagesize = null
-
+    
+    ConfigNodePropertyArray allowedPaths
+    
+    ConfigNodePropertyInteger cqAnalyticsSaintExporterPagesize
 }

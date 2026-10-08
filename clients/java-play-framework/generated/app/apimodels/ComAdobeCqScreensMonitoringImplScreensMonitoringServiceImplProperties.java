@@ -4,44 +4,63 @@ import apimodels.ConfigNodePropertyArray;
 import apimodels.ConfigNodePropertyBoolean;
 import apimodels.ConfigNodePropertyInteger;
 import apimodels.ConfigNodePropertyString;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProperties   {
   @JsonProperty("com.adobe.cq.screens.monitoring.impl.ScreensMonitoringServiceImpl.projectPath")
-  private ConfigNodePropertyArray comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProjectPath = null;
+  @Valid
+
+  private ConfigNodePropertyArray comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProjectPath;
 
   @JsonProperty("com.adobe.cq.screens.monitoring.impl.ScreensMonitoringServiceImpl.scheduleFrequency")
-  private ConfigNodePropertyString comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplScheduleFrequency = null;
+  @Valid
+
+  private ConfigNodePropertyString comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplScheduleFrequency;
 
   @JsonProperty("com.adobe.cq.screens.monitoring.impl.ScreensMonitoringServiceImpl.pingTimeout")
-  private ConfigNodePropertyInteger comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplPingTimeout = null;
+  @Valid
+
+  private ConfigNodePropertyInteger comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplPingTimeout;
 
   @JsonProperty("com.adobe.cq.screens.monitoring.impl.ScreensMonitoringServiceImpl.recipients")
-  private ConfigNodePropertyString comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplRecipients = null;
+  @Valid
+
+  private ConfigNodePropertyString comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplRecipients;
 
   @JsonProperty("com.adobe.cq.screens.monitoring.impl.ScreensMonitoringServiceImpl.smtpserver")
-  private ConfigNodePropertyString comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplSmtpserver = null;
+  @Valid
+
+  private ConfigNodePropertyString comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplSmtpserver;
 
   @JsonProperty("com.adobe.cq.screens.monitoring.impl.ScreensMonitoringServiceImpl.smtpport")
-  private ConfigNodePropertyInteger comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplSmtpport = null;
+  @Valid
+
+  private ConfigNodePropertyInteger comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplSmtpport;
 
   @JsonProperty("com.adobe.cq.screens.monitoring.impl.ScreensMonitoringServiceImpl.usetls")
-  private ConfigNodePropertyBoolean comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplUsetls = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplUsetls;
 
   @JsonProperty("com.adobe.cq.screens.monitoring.impl.ScreensMonitoringServiceImpl.username")
-  private ConfigNodePropertyString comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplUsername = null;
+  @Valid
+
+  private ConfigNodePropertyString comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplUsername;
 
   @JsonProperty("com.adobe.cq.screens.monitoring.impl.ScreensMonitoringServiceImpl.password")
-  private ConfigNodePropertyString comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplPassword = null;
+  @Valid
+
+  private ConfigNodePropertyString comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplPassword;
 
   public ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProperties comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProjectPath(ConfigNodePropertyArray comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProjectPath) {
     this.comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProjectPath = comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProjectPath;
@@ -52,7 +71,6 @@ public class ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProperti
    * Get comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProjectPath
    * @return comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProjectPath
   **/
-  @Valid
   public ConfigNodePropertyArray getComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProjectPath() {
     return comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProjectPath;
   }
@@ -70,7 +88,6 @@ public class ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProperti
    * Get comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplScheduleFrequency
    * @return comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplScheduleFrequency
   **/
-  @Valid
   public ConfigNodePropertyString getComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplScheduleFrequency() {
     return comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplScheduleFrequency;
   }
@@ -88,7 +105,6 @@ public class ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProperti
    * Get comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplPingTimeout
    * @return comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplPingTimeout
   **/
-  @Valid
   public ConfigNodePropertyInteger getComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplPingTimeout() {
     return comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplPingTimeout;
   }
@@ -106,7 +122,6 @@ public class ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProperti
    * Get comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplRecipients
    * @return comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplRecipients
   **/
-  @Valid
   public ConfigNodePropertyString getComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplRecipients() {
     return comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplRecipients;
   }
@@ -124,7 +139,6 @@ public class ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProperti
    * Get comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplSmtpserver
    * @return comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplSmtpserver
   **/
-  @Valid
   public ConfigNodePropertyString getComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplSmtpserver() {
     return comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplSmtpserver;
   }
@@ -142,7 +156,6 @@ public class ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProperti
    * Get comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplSmtpport
    * @return comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplSmtpport
   **/
-  @Valid
   public ConfigNodePropertyInteger getComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplSmtpport() {
     return comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplSmtpport;
   }
@@ -160,7 +173,6 @@ public class ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProperti
    * Get comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplUsetls
    * @return comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplUsetls
   **/
-  @Valid
   public ConfigNodePropertyBoolean getComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplUsetls() {
     return comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplUsetls;
   }
@@ -178,7 +190,6 @@ public class ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProperti
    * Get comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplUsername
    * @return comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplUsername
   **/
-  @Valid
   public ConfigNodePropertyString getComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplUsername() {
     return comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplUsername;
   }
@@ -196,7 +207,6 @@ public class ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProperti
    * Get comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplPassword
    * @return comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplPassword
   **/
-  @Valid
   public ConfigNodePropertyString getComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplPassword() {
     return comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplPassword;
   }
@@ -207,7 +217,7 @@ public class ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProperti
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -254,11 +264,8 @@ public class ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProperti
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

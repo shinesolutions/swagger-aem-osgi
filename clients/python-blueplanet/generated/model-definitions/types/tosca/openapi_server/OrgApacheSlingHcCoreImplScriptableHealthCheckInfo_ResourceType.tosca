@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingHcCoreImplScriptableHealthCheckInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingHcCoreImplScriptableHealthCheckInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  OrgApacheSlingHcCoreImplScriptableHealthCheckProperties = openapi_server.resourceTypes.OrgApacheSlingHcCoreImplScriptableHealthCheckProperties
+}
+resourceTypes {
+
+  OrgApacheSlingHcCoreImplScriptableHealthCheckInfo {
+    title = OrgApacheSlingHcCoreImplScriptableHealthCheckInfo
+    description = OrgApacheSlingHcCoreImplScriptableHealthCheckInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = OrgApacheSlingHcCoreImplScriptableHealthCheckProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingHcCoreImplScriptableHealthCheckInfo {
+    title = OrgApacheSlingHcCoreImplScriptableHealthCheckInfo
+    description = OrgApacheSlingHcCoreImplScriptableHealthCheckInfo
+    implements = openapi_server.resourceTypes.OrgApacheSlingHcCoreImplScriptableHealthCheckInfo
+
+  }
+}

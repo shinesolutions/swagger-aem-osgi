@@ -7,16 +7,16 @@ import org.openapitools.model.ComDayCqDamVideoImplServletVideoTestServletPropert
 
 @Canonical
 class ComDayCqDamVideoImplServletVideoTestServletInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqDamVideoImplServletVideoTestServletProperties properties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqDamVideoImplServletVideoTestServletProperties properties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyArray;
 import com.prokarma.pkmst.model.ConfigNodePropertyInteger;
 import io.swagger.annotations.ApiModel;
@@ -16,27 +17,26 @@ import io.swagger.annotations.ApiModelProperty;
  * ComAdobeGraniteLoggingImplLogAnalyserImplProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteLoggingImplLogAnalyserImplProperties   {
   @JsonProperty("messages.queue.size")
-  private ConfigNodePropertyInteger messagesQueueSize = null;
+  private ConfigNodePropertyInteger messagesQueueSize;
 
   @JsonProperty("logger.config")
-  private ConfigNodePropertyArray loggerConfig = null;
+  private ConfigNodePropertyArray loggerConfig;
 
   @JsonProperty("messages.size")
-  private ConfigNodePropertyInteger messagesSize = null;
+  private ConfigNodePropertyInteger messagesSize;
 
   public ComAdobeGraniteLoggingImplLogAnalyserImplProperties messagesQueueSize(ConfigNodePropertyInteger messagesQueueSize) {
     this.messagesQueueSize = messagesQueueSize;
     return this;
   }
 
-   /**
+  /**
    * Get messagesQueueSize
    * @return messagesQueueSize
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getMessagesQueueSize() {
     return messagesQueueSize;
@@ -51,10 +51,10 @@ public class ComAdobeGraniteLoggingImplLogAnalyserImplProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get loggerConfig
    * @return loggerConfig
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getLoggerConfig() {
     return loggerConfig;
@@ -69,10 +69,10 @@ public class ComAdobeGraniteLoggingImplLogAnalyserImplProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get messagesSize
    * @return messagesSize
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getMessagesSize() {
     return messagesSize;
@@ -84,7 +84,7 @@ public class ComAdobeGraniteLoggingImplLogAnalyserImplProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -118,11 +118,8 @@ public class ComAdobeGraniteLoggingImplLogAnalyserImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

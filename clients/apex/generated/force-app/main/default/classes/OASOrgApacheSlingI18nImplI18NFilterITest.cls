@@ -72,8 +72,8 @@ private class OASOrgApacheSlingI18nImplI18NFilterITest {
     @isTest
     private static void maintainRenamedProperties() {
         OASOrgApacheSlingI18nImplI18NFilterI orgApacheSlingI18nImplI18NFilterInfo = new OASOrgApacheSlingI18nImplI18NFilterI();
-        Map<String, String> propertyMappings = orgApacheSlingI18nImplI18NFilterInfo.getPropertyMappings();
-        System.assertEquals('bundleLocation', propertyMappings.get('bundle_location'));
-        System.assertEquals('serviceLocation', propertyMappings.get('service_location'));
+        Map<String, String> x-property-mappings = orgApacheSlingI18nImplI18NFilterInfo.getx-property-mappings();
+        System.assertEquals('bundleLocation', x-property-mappings.get('bundle_location'));
+        System.assertEquals('serviceLocation', x-property-mappings.get('service_location'));
     }
 }

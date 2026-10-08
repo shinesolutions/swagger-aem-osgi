@@ -1,6 +1,7 @@
 # NodeSwaggerAemOsgi.OrgApacheSlingCommonsMetricsInternalLogReporterProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **period** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  | [optional] 

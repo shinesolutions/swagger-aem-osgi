@@ -1,35 +1,46 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComDayCqPollingImporterImplPollingImporterImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComDayCqPollingImporterImplPollingImporterImplProperties   {
-  @JsonProperty("importer.min.interval")
-  private ConfigNodePropertyInteger importerMinInterval = null;
+@JsonTypeName("comDayCqPollingImporterImplPollingImporterImplProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComDayCqPollingImporterImplPollingImporterImplProperties {
 
-  @JsonProperty("importer.user")
-  private ConfigNodePropertyString importerUser = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger importerMinInterval;
 
-  @JsonProperty("exclude.paths")
-  private ConfigNodePropertyArray excludePaths = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString importerUser;
 
-  @JsonProperty("include.paths")
-  private ConfigNodePropertyArray includePaths = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray excludePaths;
 
-  public ComDayCqPollingImporterImplPollingImporterImplProperties importerMinInterval(ConfigNodePropertyInteger importerMinInterval) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray includePaths;
+
+  public ComDayCqPollingImporterImplPollingImporterImplProperties importerMinInterval(@Nullable ConfigNodePropertyInteger importerMinInterval) {
     this.importerMinInterval = importerMinInterval;
     return this;
   }
@@ -37,20 +48,20 @@ public class ComDayCqPollingImporterImplPollingImporterImplProperties   {
   /**
    * Get importerMinInterval
    * @return importerMinInterval
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getImporterMinInterval() {
+   */
+  @Valid 
+  @Schema(name = "importer.min.interval", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("importer.min.interval")
+  public @Nullable ConfigNodePropertyInteger getImporterMinInterval() {
     return importerMinInterval;
   }
 
-  public void setImporterMinInterval(ConfigNodePropertyInteger importerMinInterval) {
+  @JsonProperty("importer.min.interval")
+  public void setImporterMinInterval(@Nullable ConfigNodePropertyInteger importerMinInterval) {
     this.importerMinInterval = importerMinInterval;
   }
 
-  public ComDayCqPollingImporterImplPollingImporterImplProperties importerUser(ConfigNodePropertyString importerUser) {
+  public ComDayCqPollingImporterImplPollingImporterImplProperties importerUser(@Nullable ConfigNodePropertyString importerUser) {
     this.importerUser = importerUser;
     return this;
   }
@@ -58,20 +69,20 @@ public class ComDayCqPollingImporterImplPollingImporterImplProperties   {
   /**
    * Get importerUser
    * @return importerUser
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getImporterUser() {
+   */
+  @Valid 
+  @Schema(name = "importer.user", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("importer.user")
+  public @Nullable ConfigNodePropertyString getImporterUser() {
     return importerUser;
   }
 
-  public void setImporterUser(ConfigNodePropertyString importerUser) {
+  @JsonProperty("importer.user")
+  public void setImporterUser(@Nullable ConfigNodePropertyString importerUser) {
     this.importerUser = importerUser;
   }
 
-  public ComDayCqPollingImporterImplPollingImporterImplProperties excludePaths(ConfigNodePropertyArray excludePaths) {
+  public ComDayCqPollingImporterImplPollingImporterImplProperties excludePaths(@Nullable ConfigNodePropertyArray excludePaths) {
     this.excludePaths = excludePaths;
     return this;
   }
@@ -79,20 +90,20 @@ public class ComDayCqPollingImporterImplPollingImporterImplProperties   {
   /**
    * Get excludePaths
    * @return excludePaths
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getExcludePaths() {
+   */
+  @Valid 
+  @Schema(name = "exclude.paths", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("exclude.paths")
+  public @Nullable ConfigNodePropertyArray getExcludePaths() {
     return excludePaths;
   }
 
-  public void setExcludePaths(ConfigNodePropertyArray excludePaths) {
+  @JsonProperty("exclude.paths")
+  public void setExcludePaths(@Nullable ConfigNodePropertyArray excludePaths) {
     this.excludePaths = excludePaths;
   }
 
-  public ComDayCqPollingImporterImplPollingImporterImplProperties includePaths(ConfigNodePropertyArray includePaths) {
+  public ComDayCqPollingImporterImplPollingImporterImplProperties includePaths(@Nullable ConfigNodePropertyArray includePaths) {
     this.includePaths = includePaths;
     return this;
   }
@@ -100,22 +111,21 @@ public class ComDayCqPollingImporterImplPollingImporterImplProperties   {
   /**
    * Get includePaths
    * @return includePaths
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getIncludePaths() {
+   */
+  @Valid 
+  @Schema(name = "include.paths", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("include.paths")
+  public @Nullable ConfigNodePropertyArray getIncludePaths() {
     return includePaths;
   }
 
-  public void setIncludePaths(ConfigNodePropertyArray includePaths) {
+  @JsonProperty("include.paths")
+  public void setIncludePaths(@Nullable ConfigNodePropertyArray includePaths) {
     this.includePaths = includePaths;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -138,7 +148,6 @@ public class ComDayCqPollingImporterImplPollingImporterImplProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComDayCqPollingImporterImplPollingImporterImplProperties {\n");
-    
     sb.append("    importerMinInterval: ").append(toIndentedString(importerMinInterval)).append("\n");
     sb.append("    importerUser: ").append(toIndentedString(importerUser)).append("\n");
     sb.append("    excludePaths: ").append(toIndentedString(excludePaths)).append("\n");
@@ -151,11 +160,8 @@ public class ComDayCqPollingImporterImplPollingImporterImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

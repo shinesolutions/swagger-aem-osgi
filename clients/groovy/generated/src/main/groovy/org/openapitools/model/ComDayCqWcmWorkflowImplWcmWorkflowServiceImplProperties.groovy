@@ -10,14 +10,14 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqWcmWorkflowImplWcmWorkflowServiceImplProperties {
-    ConfigNodePropertyString eventFilter = null
-
-    ConfigNodePropertyInteger minThreadPoolSize = null
-
-    ConfigNodePropertyInteger maxThreadPoolSize = null
-
-    ConfigNodePropertyBoolean cqWcmWorkflowTerminateOnActivate = null
-
-    ConfigNodePropertyArray cqWcmWorklfowTerminateExclusionList = null
-
+    
+    ConfigNodePropertyString eventFilter
+    
+    ConfigNodePropertyInteger minThreadPoolSize
+    
+    ConfigNodePropertyInteger maxThreadPoolSize
+    
+    ConfigNodePropertyBoolean cqWcmWorkflowTerminateOnActivate
+    
+    ConfigNodePropertyArray cqWcmWorklfowTerminateExclusionList
 }

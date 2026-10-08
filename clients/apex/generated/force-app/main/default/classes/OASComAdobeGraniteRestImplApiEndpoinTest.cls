@@ -72,7 +72,7 @@ private class OASComAdobeGraniteRestImplApiEndpoinTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeGraniteRestImplApiEndpoin comAdobeGraniteRestImplApiEndpointResourceProviderFactoryImplProperties = new OASComAdobeGraniteRestImplApiEndpoin();
-        Map<String, String> propertyMappings = comAdobeGraniteRestImplApiEndpointResourceProviderFactoryImplProperties.getPropertyMappings();
-        System.assertEquals('providerRoots', propertyMappings.get('provider.roots'));
+        Map<String, String> x-property-mappings = comAdobeGraniteRestImplApiEndpointResourceProviderFactoryImplProperties.getx-property-mappings();
+        System.assertEquals('providerRoots', x-property-mappings.get('provider.roots'));
     }
 }

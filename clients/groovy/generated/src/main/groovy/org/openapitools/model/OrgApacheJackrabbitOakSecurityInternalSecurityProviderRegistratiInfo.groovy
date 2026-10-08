@@ -7,16 +7,16 @@ import org.openapitools.model.OrgApacheJackrabbitOakSecurityInternalSecurityProv
 
 @Canonical
 class OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistratiInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistratiProperties properties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistratiProperties properties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

@@ -1,7 +1,9 @@
 
+
 # OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **permissionsJr2** | [**ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md) |  |  [optional]
@@ -9,6 +11,7 @@ Name | Type | Description | Notes
 **readPaths** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
 **administrativePrincipals** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
 **configurationRanking** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
+
 
 
 

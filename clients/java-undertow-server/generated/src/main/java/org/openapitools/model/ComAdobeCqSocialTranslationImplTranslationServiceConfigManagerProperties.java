@@ -1,3 +1,13 @@
+/*
+ * Adobe Experience Manager OSGI config (AEM) API
+ *
+ * Swagger AEM OSGI is an OpenAPI specification for Adobe Experience Manager (AEM) OSGI Configurations API
+ *
+ * OpenAPI document version: 1.0.0-pre.0
+ * Maintained by: opensource@shinesolutions.com
+ *
+ * AUTO-GENERATED FILE, DO NOT MODIFY!
+ */
 package org.openapitools.model;
 
 import java.util.Objects;
@@ -13,20 +23,20 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2019-08-05T00:56:20.785Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2026-10-07T12:53:42.280804918Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerProperties   {
   
-  private ConfigNodePropertyDropDown translateLanguage = null;
-  private ConfigNodePropertyDropDown translateDisplay = null;
-  private ConfigNodePropertyBoolean translateAttribution = null;
-  private ConfigNodePropertyDropDown translateCaching = null;
-  private ConfigNodePropertyDropDown translateSmartRendering = null;
-  private ConfigNodePropertyString translateCachingDuration = null;
-  private ConfigNodePropertyString translateSessionSaveInterval = null;
-  private ConfigNodePropertyString translateSessionSaveBatchLimit = null;
+  private ConfigNodePropertyDropDown translateLanguage;
+  private ConfigNodePropertyDropDown translateDisplay;
+  private ConfigNodePropertyBoolean translateAttribution;
+  private ConfigNodePropertyDropDown translateCaching;
+  private ConfigNodePropertyDropDown translateSmartRendering;
+  private ConfigNodePropertyString translateCachingDuration;
+  private ConfigNodePropertyString translateSessionSaveInterval;
+  private ConfigNodePropertyString translateSessionSaveBatchLimit;
 
   /**
-   **/
+   */
   public ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerProperties translateLanguage(ConfigNodePropertyDropDown translateLanguage) {
     this.translateLanguage = translateLanguage;
     return this;
@@ -43,7 +53,7 @@ public class ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerPrope
   }
 
   /**
-   **/
+   */
   public ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerProperties translateDisplay(ConfigNodePropertyDropDown translateDisplay) {
     this.translateDisplay = translateDisplay;
     return this;
@@ -60,7 +70,7 @@ public class ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerPrope
   }
 
   /**
-   **/
+   */
   public ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerProperties translateAttribution(ConfigNodePropertyBoolean translateAttribution) {
     this.translateAttribution = translateAttribution;
     return this;
@@ -77,7 +87,7 @@ public class ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerPrope
   }
 
   /**
-   **/
+   */
   public ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerProperties translateCaching(ConfigNodePropertyDropDown translateCaching) {
     this.translateCaching = translateCaching;
     return this;
@@ -94,7 +104,7 @@ public class ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerPrope
   }
 
   /**
-   **/
+   */
   public ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerProperties translateSmartRendering(ConfigNodePropertyDropDown translateSmartRendering) {
     this.translateSmartRendering = translateSmartRendering;
     return this;
@@ -111,7 +121,7 @@ public class ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerPrope
   }
 
   /**
-   **/
+   */
   public ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerProperties translateCachingDuration(ConfigNodePropertyString translateCachingDuration) {
     this.translateCachingDuration = translateCachingDuration;
     return this;
@@ -128,7 +138,7 @@ public class ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerPrope
   }
 
   /**
-   **/
+   */
   public ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerProperties translateSessionSaveInterval(ConfigNodePropertyString translateSessionSaveInterval) {
     this.translateSessionSaveInterval = translateSessionSaveInterval;
     return this;
@@ -145,7 +155,7 @@ public class ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerPrope
   }
 
   /**
-   **/
+   */
   public ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerProperties translateSessionSaveBatchLimit(ConfigNodePropertyString translateSessionSaveBatchLimit) {
     this.translateSessionSaveBatchLimit = translateSessionSaveBatchLimit;
     return this;
@@ -163,7 +173,7 @@ public class ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerPrope
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -207,11 +217,8 @@ public class ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerPrope
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

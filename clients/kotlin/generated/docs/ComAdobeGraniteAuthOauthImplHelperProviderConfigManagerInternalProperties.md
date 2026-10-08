@@ -2,10 +2,10 @@
 # ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerInternalProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**oauthPeriodcookiePeriodloginPeriodtimeout** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**oauthPeriodcookiePeriodmaxPeriodage** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **oauthCookieLoginTimeout** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **oauthCookieMaxAge** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
 
 
 

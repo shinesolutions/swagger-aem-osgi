@@ -2,27 +2,28 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHInfo   {
   
-  private String pid = null;
+  private String pid;
 
-  private String title = null;
+  private String title;
 
-  private String description = null;
+  private String description;
 
-  private ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHProperties properties = null;
-
+  private ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHProperties properties;
 
   /**
    **/
@@ -98,7 +99,7 @@ public class ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHInfo 
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -106,10 +107,10 @@ public class ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHInfo 
       return false;
     }
     ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHInfo comDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHInfo = (ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHInfo) o;
-    return Objects.equals(pid, comDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHInfo.pid) &&
-        Objects.equals(title, comDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHInfo.title) &&
-        Objects.equals(description, comDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHInfo.description) &&
-        Objects.equals(properties, comDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHInfo.properties);
+    return Objects.equals(this.pid, comDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHInfo.pid) &&
+        Objects.equals(this.title, comDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHInfo.title) &&
+        Objects.equals(this.description, comDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHInfo.description) &&
+        Objects.equals(this.properties, comDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHInfo.properties);
   }
 
   @Override
@@ -134,11 +135,8 @@ public class ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHInfo 
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

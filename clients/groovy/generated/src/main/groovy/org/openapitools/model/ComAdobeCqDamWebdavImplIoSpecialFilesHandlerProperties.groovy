@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyArray;
 
 @Canonical
 class ComAdobeCqDamWebdavImplIoSpecialFilesHandlerProperties {
-    ConfigNodePropertyArray comDayCqDamCoreImplIoSpecialFilesHandlerFilepatters = null
-
+    
+    ConfigNodePropertyArray comDayCqDamCoreImplIoSpecialFilesHandlerFilepatters
 }

@@ -2,31 +2,32 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ComDayCqWcmNotificationImplNotificationManagerImplProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class ComDayCqWcmNotificationImplNotificationManagerImplInfo   {
   
-  private String pid = null;
+  private String pid;
 
-  private String title = null;
+  private String title;
 
-  private String description = null;
+  private String description;
 
-  private ComDayCqWcmNotificationImplNotificationManagerImplProperties properties = null;
+  private ComDayCqWcmNotificationImplNotificationManagerImplProperties properties;
 
-  private String bundleLocation = null;
+  private String bundleLocation;
 
-  private String serviceLocation = null;
-
+  private String serviceLocation;
 
   /**
    **/
@@ -138,7 +139,7 @@ public class ComDayCqWcmNotificationImplNotificationManagerImplInfo   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -146,12 +147,12 @@ public class ComDayCqWcmNotificationImplNotificationManagerImplInfo   {
       return false;
     }
     ComDayCqWcmNotificationImplNotificationManagerImplInfo comDayCqWcmNotificationImplNotificationManagerImplInfo = (ComDayCqWcmNotificationImplNotificationManagerImplInfo) o;
-    return Objects.equals(pid, comDayCqWcmNotificationImplNotificationManagerImplInfo.pid) &&
-        Objects.equals(title, comDayCqWcmNotificationImplNotificationManagerImplInfo.title) &&
-        Objects.equals(description, comDayCqWcmNotificationImplNotificationManagerImplInfo.description) &&
-        Objects.equals(properties, comDayCqWcmNotificationImplNotificationManagerImplInfo.properties) &&
-        Objects.equals(bundleLocation, comDayCqWcmNotificationImplNotificationManagerImplInfo.bundleLocation) &&
-        Objects.equals(serviceLocation, comDayCqWcmNotificationImplNotificationManagerImplInfo.serviceLocation);
+    return Objects.equals(this.pid, comDayCqWcmNotificationImplNotificationManagerImplInfo.pid) &&
+        Objects.equals(this.title, comDayCqWcmNotificationImplNotificationManagerImplInfo.title) &&
+        Objects.equals(this.description, comDayCqWcmNotificationImplNotificationManagerImplInfo.description) &&
+        Objects.equals(this.properties, comDayCqWcmNotificationImplNotificationManagerImplInfo.properties) &&
+        Objects.equals(this.bundleLocation, comDayCqWcmNotificationImplNotificationManagerImplInfo.bundleLocation) &&
+        Objects.equals(this.serviceLocation, comDayCqWcmNotificationImplNotificationManagerImplInfo.serviceLocation);
   }
 
   @Override
@@ -178,11 +179,8 @@ public class ComDayCqWcmNotificationImplNotificationManagerImplInfo   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

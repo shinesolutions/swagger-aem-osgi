@@ -8,8 +8,8 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class ComDayCqRewriterLinkcheckerImplLinkInfoStorageImplProperties {
-    ConfigNodePropertyInteger serviceMaxLinksPerHost = null
-
-    ConfigNodePropertyBoolean serviceSaveExternalLinkReferences = null
-
+    
+    ConfigNodePropertyInteger serviceMaxLinksPerHost
+    
+    ConfigNodePropertyBoolean serviceSaveExternalLinkReferences
 }

@@ -2,35 +2,48 @@ package apimodels;
 
 import apimodels.ConfigNodePropertyBoolean;
 import apimodels.ConfigNodePropertyInteger;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * ComDayCqRewriterLinkcheckerImplLinkCheckerTaskProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class ComDayCqRewriterLinkcheckerImplLinkCheckerTaskProperties   {
   @JsonProperty("scheduler.period")
-  private ConfigNodePropertyInteger schedulerPeriod = null;
+  @Valid
+
+  private ConfigNodePropertyInteger schedulerPeriod;
 
   @JsonProperty("scheduler.concurrent")
-  private ConfigNodePropertyBoolean schedulerConcurrent = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean schedulerConcurrent;
 
   @JsonProperty("good_link_test_interval")
-  private ConfigNodePropertyInteger goodLinkTestInterval = null;
+  @Valid
+
+  private ConfigNodePropertyInteger goodLinkTestInterval;
 
   @JsonProperty("bad_link_test_interval")
-  private ConfigNodePropertyInteger badLinkTestInterval = null;
+  @Valid
+
+  private ConfigNodePropertyInteger badLinkTestInterval;
 
   @JsonProperty("link_unused_interval")
-  private ConfigNodePropertyInteger linkUnusedInterval = null;
+  @Valid
+
+  private ConfigNodePropertyInteger linkUnusedInterval;
 
   @JsonProperty("connection.timeout")
-  private ConfigNodePropertyInteger connectionTimeout = null;
+  @Valid
+
+  private ConfigNodePropertyInteger connectionTimeout;
 
   public ComDayCqRewriterLinkcheckerImplLinkCheckerTaskProperties schedulerPeriod(ConfigNodePropertyInteger schedulerPeriod) {
     this.schedulerPeriod = schedulerPeriod;
@@ -41,7 +54,6 @@ public class ComDayCqRewriterLinkcheckerImplLinkCheckerTaskProperties   {
    * Get schedulerPeriod
    * @return schedulerPeriod
   **/
-  @Valid
   public ConfigNodePropertyInteger getSchedulerPeriod() {
     return schedulerPeriod;
   }
@@ -59,7 +71,6 @@ public class ComDayCqRewriterLinkcheckerImplLinkCheckerTaskProperties   {
    * Get schedulerConcurrent
    * @return schedulerConcurrent
   **/
-  @Valid
   public ConfigNodePropertyBoolean getSchedulerConcurrent() {
     return schedulerConcurrent;
   }
@@ -77,7 +88,6 @@ public class ComDayCqRewriterLinkcheckerImplLinkCheckerTaskProperties   {
    * Get goodLinkTestInterval
    * @return goodLinkTestInterval
   **/
-  @Valid
   public ConfigNodePropertyInteger getGoodLinkTestInterval() {
     return goodLinkTestInterval;
   }
@@ -95,7 +105,6 @@ public class ComDayCqRewriterLinkcheckerImplLinkCheckerTaskProperties   {
    * Get badLinkTestInterval
    * @return badLinkTestInterval
   **/
-  @Valid
   public ConfigNodePropertyInteger getBadLinkTestInterval() {
     return badLinkTestInterval;
   }
@@ -113,7 +122,6 @@ public class ComDayCqRewriterLinkcheckerImplLinkCheckerTaskProperties   {
    * Get linkUnusedInterval
    * @return linkUnusedInterval
   **/
-  @Valid
   public ConfigNodePropertyInteger getLinkUnusedInterval() {
     return linkUnusedInterval;
   }
@@ -131,7 +139,6 @@ public class ComDayCqRewriterLinkcheckerImplLinkCheckerTaskProperties   {
    * Get connectionTimeout
    * @return connectionTimeout
   **/
-  @Valid
   public ConfigNodePropertyInteger getConnectionTimeout() {
     return connectionTimeout;
   }
@@ -142,7 +149,7 @@ public class ComDayCqRewriterLinkcheckerImplLinkCheckerTaskProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -183,11 +190,8 @@ public class ComDayCqRewriterLinkcheckerImplLinkCheckerTaskProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

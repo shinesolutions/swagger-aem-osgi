@@ -1,20 +1,31 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comAdobeGraniteWorkflowCorePayloadmapPayloadMoveListenerProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteWorkflowCorePayloadmapPayloadMoveListenerProperties   {
-  
-  private @Valid ConfigNodePropertyArray payloadMoveWhiteList = null;
-  private @Valid ConfigNodePropertyBoolean payloadMoveHandleFromWorkflowProcess = null;
+  private ConfigNodePropertyArray payloadMoveWhiteList;
+  private ConfigNodePropertyBoolean payloadMoveHandleFromWorkflowProcess;
+
+  public ComAdobeGraniteWorkflowCorePayloadmapPayloadMoveListenerProperties() {
+  }
 
   /**
    **/
@@ -26,9 +37,11 @@ public class ComAdobeGraniteWorkflowCorePayloadmapPayloadMoveListenerProperties 
   
   @ApiModelProperty(value = "")
   @JsonProperty("payload.move.white.list")
-  public ConfigNodePropertyArray getPayloadMoveWhiteList() {
+  @Valid public ConfigNodePropertyArray getPayloadMoveWhiteList() {
     return payloadMoveWhiteList;
   }
+
+  @JsonProperty("payload.move.white.list")
   public void setPayloadMoveWhiteList(ConfigNodePropertyArray payloadMoveWhiteList) {
     this.payloadMoveWhiteList = payloadMoveWhiteList;
   }
@@ -43,16 +56,18 @@ public class ComAdobeGraniteWorkflowCorePayloadmapPayloadMoveListenerProperties 
   
   @ApiModelProperty(value = "")
   @JsonProperty("payload.move.handle.from.workflow.process")
-  public ConfigNodePropertyBoolean getPayloadMoveHandleFromWorkflowProcess() {
+  @Valid public ConfigNodePropertyBoolean getPayloadMoveHandleFromWorkflowProcess() {
     return payloadMoveHandleFromWorkflowProcess;
   }
+
+  @JsonProperty("payload.move.handle.from.workflow.process")
   public void setPayloadMoveHandleFromWorkflowProcess(ConfigNodePropertyBoolean payloadMoveHandleFromWorkflowProcess) {
     this.payloadMoveHandleFromWorkflowProcess = payloadMoveHandleFromWorkflowProcess;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -60,8 +75,8 @@ public class ComAdobeGraniteWorkflowCorePayloadmapPayloadMoveListenerProperties 
       return false;
     }
     ComAdobeGraniteWorkflowCorePayloadmapPayloadMoveListenerProperties comAdobeGraniteWorkflowCorePayloadmapPayloadMoveListenerProperties = (ComAdobeGraniteWorkflowCorePayloadmapPayloadMoveListenerProperties) o;
-    return Objects.equals(payloadMoveWhiteList, comAdobeGraniteWorkflowCorePayloadmapPayloadMoveListenerProperties.payloadMoveWhiteList) &&
-        Objects.equals(payloadMoveHandleFromWorkflowProcess, comAdobeGraniteWorkflowCorePayloadmapPayloadMoveListenerProperties.payloadMoveHandleFromWorkflowProcess);
+    return Objects.equals(this.payloadMoveWhiteList, comAdobeGraniteWorkflowCorePayloadmapPayloadMoveListenerProperties.payloadMoveWhiteList) &&
+        Objects.equals(this.payloadMoveHandleFromWorkflowProcess, comAdobeGraniteWorkflowCorePayloadmapPayloadMoveListenerProperties.payloadMoveHandleFromWorkflowProcess);
   }
 
   @Override
@@ -84,11 +99,9 @@ public class ComAdobeGraniteWorkflowCorePayloadmapPayloadMoveListenerProperties 
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

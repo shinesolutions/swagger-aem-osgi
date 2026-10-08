@@ -2,12 +2,12 @@
 # ComDayCqDamInddProcessINDDMediaExtractProcessProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**processPeriodlabel** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**cqPerioddamPeriodinddPeriodpagesPeriodregex** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**idsPeriodjobPerioddecoupled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**idsPeriodjobPeriodworkflowPeriodmodel** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **processLabel** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **cqDamInddPagesRegex** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **idsJobDecoupled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **idsJobWorkflowModel** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
 
 
 

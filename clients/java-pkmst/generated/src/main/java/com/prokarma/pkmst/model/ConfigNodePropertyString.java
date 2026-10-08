@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 /**
@@ -14,36 +15,35 @@ import io.swagger.annotations.ApiModelProperty;
  * ConfigNodePropertyString
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ConfigNodePropertyString   {
   @JsonProperty("name")
-  private String name = null;
+  private String name;
 
   @JsonProperty("optional")
-  private Boolean optional = null;
+  private Boolean optional;
 
   @JsonProperty("is_set")
-  private Boolean isSet = null;
+  private Boolean isSet;
 
   @JsonProperty("type")
-  private Integer type = null;
+  private Integer type;
 
   @JsonProperty("value")
-  private String value = null;
+  private String value;
 
   @JsonProperty("description")
-  private String description = null;
+  private String description;
 
   public ConfigNodePropertyString name(String name) {
     this.name = name;
     return this;
   }
 
-   /**
+  /**
    * property name
    * @return name
-  **/
+   */
   @ApiModelProperty(value = "property name")
   public String getName() {
     return name;
@@ -58,10 +58,10 @@ public class ConfigNodePropertyString   {
     return this;
   }
 
-   /**
+  /**
    * True if optional
    * @return optional
-  **/
+   */
   @ApiModelProperty(value = "True if optional")
   public Boolean getOptional() {
     return optional;
@@ -76,10 +76,10 @@ public class ConfigNodePropertyString   {
     return this;
   }
 
-   /**
+  /**
    * True if property is set
    * @return isSet
-  **/
+   */
   @ApiModelProperty(value = "True if property is set")
   public Boolean getIsSet() {
     return isSet;
@@ -94,10 +94,10 @@ public class ConfigNodePropertyString   {
     return this;
   }
 
-   /**
+  /**
    * Property type, 1=String, 2=Long, 3=Integer, 7=Float, 11=Boolean, 12=Secrets(String)
    * @return type
-  **/
+   */
   @ApiModelProperty(value = "Property type, 1=String, 2=Long, 3=Integer, 7=Float, 11=Boolean, 12=Secrets(String)")
   public Integer getType() {
     return type;
@@ -112,10 +112,10 @@ public class ConfigNodePropertyString   {
     return this;
   }
 
-   /**
+  /**
    * Property value
    * @return value
-  **/
+   */
   @ApiModelProperty(value = "Property value")
   public String getValue() {
     return value;
@@ -130,10 +130,10 @@ public class ConfigNodePropertyString   {
     return this;
   }
 
-   /**
+  /**
    * Property description
    * @return description
-  **/
+   */
   @ApiModelProperty(value = "Property description")
   public String getDescription() {
     return description;
@@ -145,7 +145,7 @@ public class ConfigNodePropertyString   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -185,11 +185,8 @@ public class ConfigNodePropertyString   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

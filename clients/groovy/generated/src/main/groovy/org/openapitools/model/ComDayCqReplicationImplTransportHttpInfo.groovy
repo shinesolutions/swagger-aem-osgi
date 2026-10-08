@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqReplicationImplTransportHttpProperties;
 
 @Canonical
 class ComDayCqReplicationImplTransportHttpInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqReplicationImplTransportHttpProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqReplicationImplTransportHttpProperties properties
 }

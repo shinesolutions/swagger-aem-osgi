@@ -2,16 +2,17 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**cq_searchpromote_confighandler_enabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **cq_searchpromote_confighandler_enabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComDayCqSearchpromoteImplPublishSearchPromoteConfigHandlerProperties.new(cq_searchpromote_confighandler_enabled: null)
+instance = SwaggerAemOsgiClient::ComDayCqSearchpromoteImplPublishSearchPromoteConfigHandlerProperties.new(
+  cq_searchpromote_confighandler_enabled: null
+)
 ```
-
 

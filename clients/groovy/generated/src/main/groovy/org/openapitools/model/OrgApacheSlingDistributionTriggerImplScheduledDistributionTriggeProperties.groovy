@@ -7,12 +7,12 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggeProperties {
-    ConfigNodePropertyString name = null
-
-    ConfigNodePropertyString path = null
-
-    ConfigNodePropertyString seconds = null
-
-    ConfigNodePropertyString serviceName = null
-
+    
+    ConfigNodePropertyString name
+    
+    ConfigNodePropertyString path
+    
+    ConfigNodePropertyString seconds
+    
+    ConfigNodePropertyString serviceName
 }

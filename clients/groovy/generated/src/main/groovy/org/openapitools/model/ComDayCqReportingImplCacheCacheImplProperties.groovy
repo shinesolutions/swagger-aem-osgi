@@ -8,10 +8,10 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class ComDayCqReportingImplCacheCacheImplProperties {
-    ConfigNodePropertyBoolean repcacheEnable = null
-
-    ConfigNodePropertyInteger repcacheTtl = null
-
-    ConfigNodePropertyInteger repcacheMax = null
-
+    
+    ConfigNodePropertyBoolean repcacheEnable
+    
+    ConfigNodePropertyInteger repcacheTtl
+    
+    ConfigNodePropertyInteger repcacheMax
 }

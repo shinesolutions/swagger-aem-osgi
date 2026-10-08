@@ -3,29 +3,38 @@ package apimodels;
 import apimodels.ConfigNodePropertyArray;
 import apimodels.ConfigNodePropertyInteger;
 import apimodels.ConfigNodePropertyString;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * ComDayCqPollingImporterImplPollingImporterImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class ComDayCqPollingImporterImplPollingImporterImplProperties   {
   @JsonProperty("importer.min.interval")
-  private ConfigNodePropertyInteger importerMinInterval = null;
+  @Valid
+
+  private ConfigNodePropertyInteger importerMinInterval;
 
   @JsonProperty("importer.user")
-  private ConfigNodePropertyString importerUser = null;
+  @Valid
+
+  private ConfigNodePropertyString importerUser;
 
   @JsonProperty("exclude.paths")
-  private ConfigNodePropertyArray excludePaths = null;
+  @Valid
+
+  private ConfigNodePropertyArray excludePaths;
 
   @JsonProperty("include.paths")
-  private ConfigNodePropertyArray includePaths = null;
+  @Valid
+
+  private ConfigNodePropertyArray includePaths;
 
   public ComDayCqPollingImporterImplPollingImporterImplProperties importerMinInterval(ConfigNodePropertyInteger importerMinInterval) {
     this.importerMinInterval = importerMinInterval;
@@ -36,7 +45,6 @@ public class ComDayCqPollingImporterImplPollingImporterImplProperties   {
    * Get importerMinInterval
    * @return importerMinInterval
   **/
-  @Valid
   public ConfigNodePropertyInteger getImporterMinInterval() {
     return importerMinInterval;
   }
@@ -54,7 +62,6 @@ public class ComDayCqPollingImporterImplPollingImporterImplProperties   {
    * Get importerUser
    * @return importerUser
   **/
-  @Valid
   public ConfigNodePropertyString getImporterUser() {
     return importerUser;
   }
@@ -72,7 +79,6 @@ public class ComDayCqPollingImporterImplPollingImporterImplProperties   {
    * Get excludePaths
    * @return excludePaths
   **/
-  @Valid
   public ConfigNodePropertyArray getExcludePaths() {
     return excludePaths;
   }
@@ -90,7 +96,6 @@ public class ComDayCqPollingImporterImplPollingImporterImplProperties   {
    * Get includePaths
    * @return includePaths
   **/
-  @Valid
   public ConfigNodePropertyArray getIncludePaths() {
     return includePaths;
   }
@@ -101,7 +106,7 @@ public class ComDayCqPollingImporterImplPollingImporterImplProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -138,11 +143,8 @@ public class ComDayCqPollingImporterImplPollingImporterImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

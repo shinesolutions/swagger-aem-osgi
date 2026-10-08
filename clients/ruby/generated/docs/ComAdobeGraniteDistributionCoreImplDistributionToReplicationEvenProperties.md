@@ -2,16 +2,17 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**importer_name** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **importer_name** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComAdobeGraniteDistributionCoreImplDistributionToReplicationEvenProperties.new(importer_name: null)
+instance = SwaggerAemOsgiClient::ComAdobeGraniteDistributionCoreImplDistributionToReplicationEvenProperties.new(
+  importer_name: null
+)
 ```
-
 

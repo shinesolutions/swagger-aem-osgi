@@ -1,7 +1,9 @@
 
+
 # OrgApacheSlingDistributionAgentImplQueueDistributionAgentFactoryProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **name** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
@@ -16,6 +18,7 @@ Name | Type | Description | Notes
 **packageBuilderTarget** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
 **triggersTarget** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
 **priorityQueues** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
+
 
 
 

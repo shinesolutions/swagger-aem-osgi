@@ -72,7 +72,7 @@ private class OASComDayCqReportingImplRLogAnalyzerTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqReportingImplRLogAnalyzer comDayCqReportingImplRLogAnalyzerProperties = new OASComDayCqReportingImplRLogAnalyzer();
-        Map<String, String> propertyMappings = comDayCqReportingImplRLogAnalyzerProperties.getPropertyMappings();
-        System.assertEquals('requestLogOutput', propertyMappings.get('request.log.output'));
+        Map<String, String> x-property-mappings = comDayCqReportingImplRLogAnalyzerProperties.getx-property-mappings();
+        System.assertEquals('requestLogOutput', x-property-mappings.get('request.log.output'));
     }
 }

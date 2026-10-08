@@ -7,12 +7,12 @@ import org.openapitools.model.OrgApacheSlingDistributionTriggerImplScheduledDist
 
 @Canonical
 class OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggeInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggeProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggeProperties properties
 }

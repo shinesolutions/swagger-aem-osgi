@@ -72,9 +72,9 @@ private class OASComAdobeCqSocialUserEndpointsImplTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeCqSocialUserEndpointsImpl comAdobeCqSocialUserEndpointsImplUsersGroupFromPublishServletProperties = new OASComAdobeCqSocialUserEndpointsImpl();
-        Map<String, String> propertyMappings = comAdobeCqSocialUserEndpointsImplUsersGroupFromPublishServletProperties.getPropertyMappings();
-        System.assertEquals('slingServletExtensions', propertyMappings.get('sling.servlet.extensions'));
-        System.assertEquals('slingServletPaths', propertyMappings.get('sling.servlet.paths'));
-        System.assertEquals('slingServletMethods', propertyMappings.get('sling.servlet.methods'));
+        Map<String, String> x-property-mappings = comAdobeCqSocialUserEndpointsImplUsersGroupFromPublishServletProperties.getx-property-mappings();
+        System.assertEquals('slingServletExtensions', x-property-mappings.get('sling.servlet.extensions'));
+        System.assertEquals('slingServletPaths', x-property-mappings.get('sling.servlet.paths'));
+        System.assertEquals('slingServletMethods', x-property-mappings.get('sling.servlet.methods'));
     }
 }

@@ -1,7 +1,9 @@
 
+
 # ComDayCqDamIdsImplIDSPoolManagerImplProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **maxErrorsToBlacklist** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
@@ -10,6 +12,7 @@ Name | Type | Description | Notes
 **socketTimeout** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
 **processLabel** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
 **connectionUseMax** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
+
 
 
 

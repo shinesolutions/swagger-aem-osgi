@@ -1,20 +1,31 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comDayCqWcmFoundationFormsImplFormParagraphPostProcessorProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqWcmFoundationFormsImplFormParagraphPostProcessorProperties   {
-  
-  private @Valid ConfigNodePropertyBoolean formsFormparagraphpostprocessorEnabled = null;
-  private @Valid ConfigNodePropertyArray formsFormparagraphpostprocessorFormresourcetypes = null;
+  private ConfigNodePropertyBoolean formsFormparagraphpostprocessorEnabled;
+  private ConfigNodePropertyArray formsFormparagraphpostprocessorFormresourcetypes;
+
+  public ComDayCqWcmFoundationFormsImplFormParagraphPostProcessorProperties() {
+  }
 
   /**
    **/
@@ -26,9 +37,11 @@ public class ComDayCqWcmFoundationFormsImplFormParagraphPostProcessorProperties 
   
   @ApiModelProperty(value = "")
   @JsonProperty("forms.formparagraphpostprocessor.enabled")
-  public ConfigNodePropertyBoolean getFormsFormparagraphpostprocessorEnabled() {
+  @Valid public ConfigNodePropertyBoolean getFormsFormparagraphpostprocessorEnabled() {
     return formsFormparagraphpostprocessorEnabled;
   }
+
+  @JsonProperty("forms.formparagraphpostprocessor.enabled")
   public void setFormsFormparagraphpostprocessorEnabled(ConfigNodePropertyBoolean formsFormparagraphpostprocessorEnabled) {
     this.formsFormparagraphpostprocessorEnabled = formsFormparagraphpostprocessorEnabled;
   }
@@ -43,16 +56,18 @@ public class ComDayCqWcmFoundationFormsImplFormParagraphPostProcessorProperties 
   
   @ApiModelProperty(value = "")
   @JsonProperty("forms.formparagraphpostprocessor.formresourcetypes")
-  public ConfigNodePropertyArray getFormsFormparagraphpostprocessorFormresourcetypes() {
+  @Valid public ConfigNodePropertyArray getFormsFormparagraphpostprocessorFormresourcetypes() {
     return formsFormparagraphpostprocessorFormresourcetypes;
   }
+
+  @JsonProperty("forms.formparagraphpostprocessor.formresourcetypes")
   public void setFormsFormparagraphpostprocessorFormresourcetypes(ConfigNodePropertyArray formsFormparagraphpostprocessorFormresourcetypes) {
     this.formsFormparagraphpostprocessorFormresourcetypes = formsFormparagraphpostprocessorFormresourcetypes;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -60,8 +75,8 @@ public class ComDayCqWcmFoundationFormsImplFormParagraphPostProcessorProperties 
       return false;
     }
     ComDayCqWcmFoundationFormsImplFormParagraphPostProcessorProperties comDayCqWcmFoundationFormsImplFormParagraphPostProcessorProperties = (ComDayCqWcmFoundationFormsImplFormParagraphPostProcessorProperties) o;
-    return Objects.equals(formsFormparagraphpostprocessorEnabled, comDayCqWcmFoundationFormsImplFormParagraphPostProcessorProperties.formsFormparagraphpostprocessorEnabled) &&
-        Objects.equals(formsFormparagraphpostprocessorFormresourcetypes, comDayCqWcmFoundationFormsImplFormParagraphPostProcessorProperties.formsFormparagraphpostprocessorFormresourcetypes);
+    return Objects.equals(this.formsFormparagraphpostprocessorEnabled, comDayCqWcmFoundationFormsImplFormParagraphPostProcessorProperties.formsFormparagraphpostprocessorEnabled) &&
+        Objects.equals(this.formsFormparagraphpostprocessorFormresourcetypes, comDayCqWcmFoundationFormsImplFormParagraphPostProcessorProperties.formsFormparagraphpostprocessorFormresourcetypes);
   }
 
   @Override
@@ -84,11 +99,9 @@ public class ComDayCqWcmFoundationFormsImplFormParagraphPostProcessorProperties 
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

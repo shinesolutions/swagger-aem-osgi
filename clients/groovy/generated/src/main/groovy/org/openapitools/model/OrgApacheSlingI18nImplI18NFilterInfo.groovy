@@ -7,16 +7,16 @@ import org.openapitools.model.OrgApacheSlingI18nImplI18NFilterProperties;
 
 @Canonical
 class OrgApacheSlingI18nImplI18NFilterInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheSlingI18nImplI18NFilterProperties properties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheSlingI18nImplI18NFilterProperties properties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

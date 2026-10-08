@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class OrgApacheSlingEventImplEventingThreadPoolProperties {
-    ConfigNodePropertyInteger minPoolSize = null
-
+    
+    ConfigNodePropertyInteger minPoolSize
 }

@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeGraniteBundlesHcImplJobsHealthCheckPropert
 
 @Canonical
 class ComAdobeGraniteBundlesHcImplJobsHealthCheckInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteBundlesHcImplJobsHealthCheckProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteBundlesHcImplJobsHealthCheckProperties properties
 }

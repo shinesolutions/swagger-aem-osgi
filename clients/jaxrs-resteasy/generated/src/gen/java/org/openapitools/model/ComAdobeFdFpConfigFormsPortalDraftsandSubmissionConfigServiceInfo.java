@@ -4,18 +4,21 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ComAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServiceProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2019-08-05T00:59:30.156Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2026-10-07T12:54:21.614735164Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServiceInfo   {
   
-  private String pid = null;
-  private String title = null;
-  private String description = null;
-  private ComAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServiceProperties properties = null;
+  private String pid;
+  private String title;
+  private String description;
+  private ComAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServiceProperties properties;
 
   /**
    **/
@@ -58,6 +61,7 @@ public class ComAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServiceInfo  
   
   @ApiModelProperty(value = "")
   @JsonProperty("properties")
+  @Valid
   public ComAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServiceProperties getProperties() {
     return properties;
   }
@@ -67,7 +71,7 @@ public class ComAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServiceInfo  
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -75,10 +79,10 @@ public class ComAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServiceInfo  
       return false;
     }
     ComAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServiceInfo comAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServiceInfo = (ComAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServiceInfo) o;
-    return Objects.equals(pid, comAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServiceInfo.pid) &&
-        Objects.equals(title, comAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServiceInfo.title) &&
-        Objects.equals(description, comAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServiceInfo.description) &&
-        Objects.equals(properties, comAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServiceInfo.properties);
+    return Objects.equals(this.pid, comAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServiceInfo.pid) &&
+        Objects.equals(this.title, comAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServiceInfo.title) &&
+        Objects.equals(this.description, comAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServiceInfo.description) &&
+        Objects.equals(this.properties, comAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServiceInfo.properties);
   }
 
   @Override
@@ -103,11 +107,8 @@ public class ComAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServiceInfo  
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

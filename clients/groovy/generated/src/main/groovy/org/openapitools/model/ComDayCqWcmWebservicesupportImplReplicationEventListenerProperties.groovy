@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyArray;
 
 @Canonical
 class ComDayCqWcmWebservicesupportImplReplicationEventListenerProperties {
-    ConfigNodePropertyArray flushAgents = null
-
+    
+    ConfigNodePropertyArray flushAgents
 }

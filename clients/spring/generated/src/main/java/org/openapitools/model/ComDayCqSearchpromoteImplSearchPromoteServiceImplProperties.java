@@ -1,34 +1,45 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComDayCqSearchpromoteImplSearchPromoteServiceImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComDayCqSearchpromoteImplSearchPromoteServiceImplProperties   {
-  @JsonProperty("cq.searchpromote.configuration.server.uri")
-  private ConfigNodePropertyString cqSearchpromoteConfigurationServerUri = null;
+@JsonTypeName("comDayCqSearchpromoteImplSearchPromoteServiceImplProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComDayCqSearchpromoteImplSearchPromoteServiceImplProperties {
 
-  @JsonProperty("cq.searchpromote.configuration.environment")
-  private ConfigNodePropertyString cqSearchpromoteConfigurationEnvironment = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString cqSearchpromoteConfigurationServerUri;
 
-  @JsonProperty("connection.timeout")
-  private ConfigNodePropertyInteger connectionTimeout = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString cqSearchpromoteConfigurationEnvironment;
 
-  @JsonProperty("socket.timeout")
-  private ConfigNodePropertyInteger socketTimeout = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger connectionTimeout;
 
-  public ComDayCqSearchpromoteImplSearchPromoteServiceImplProperties cqSearchpromoteConfigurationServerUri(ConfigNodePropertyString cqSearchpromoteConfigurationServerUri) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger socketTimeout;
+
+  public ComDayCqSearchpromoteImplSearchPromoteServiceImplProperties cqSearchpromoteConfigurationServerUri(@Nullable ConfigNodePropertyString cqSearchpromoteConfigurationServerUri) {
     this.cqSearchpromoteConfigurationServerUri = cqSearchpromoteConfigurationServerUri;
     return this;
   }
@@ -36,20 +47,20 @@ public class ComDayCqSearchpromoteImplSearchPromoteServiceImplProperties   {
   /**
    * Get cqSearchpromoteConfigurationServerUri
    * @return cqSearchpromoteConfigurationServerUri
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getCqSearchpromoteConfigurationServerUri() {
+   */
+  @Valid 
+  @Schema(name = "cq.searchpromote.configuration.server.uri", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cq.searchpromote.configuration.server.uri")
+  public @Nullable ConfigNodePropertyString getCqSearchpromoteConfigurationServerUri() {
     return cqSearchpromoteConfigurationServerUri;
   }
 
-  public void setCqSearchpromoteConfigurationServerUri(ConfigNodePropertyString cqSearchpromoteConfigurationServerUri) {
+  @JsonProperty("cq.searchpromote.configuration.server.uri")
+  public void setCqSearchpromoteConfigurationServerUri(@Nullable ConfigNodePropertyString cqSearchpromoteConfigurationServerUri) {
     this.cqSearchpromoteConfigurationServerUri = cqSearchpromoteConfigurationServerUri;
   }
 
-  public ComDayCqSearchpromoteImplSearchPromoteServiceImplProperties cqSearchpromoteConfigurationEnvironment(ConfigNodePropertyString cqSearchpromoteConfigurationEnvironment) {
+  public ComDayCqSearchpromoteImplSearchPromoteServiceImplProperties cqSearchpromoteConfigurationEnvironment(@Nullable ConfigNodePropertyString cqSearchpromoteConfigurationEnvironment) {
     this.cqSearchpromoteConfigurationEnvironment = cqSearchpromoteConfigurationEnvironment;
     return this;
   }
@@ -57,20 +68,20 @@ public class ComDayCqSearchpromoteImplSearchPromoteServiceImplProperties   {
   /**
    * Get cqSearchpromoteConfigurationEnvironment
    * @return cqSearchpromoteConfigurationEnvironment
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getCqSearchpromoteConfigurationEnvironment() {
+   */
+  @Valid 
+  @Schema(name = "cq.searchpromote.configuration.environment", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cq.searchpromote.configuration.environment")
+  public @Nullable ConfigNodePropertyString getCqSearchpromoteConfigurationEnvironment() {
     return cqSearchpromoteConfigurationEnvironment;
   }
 
-  public void setCqSearchpromoteConfigurationEnvironment(ConfigNodePropertyString cqSearchpromoteConfigurationEnvironment) {
+  @JsonProperty("cq.searchpromote.configuration.environment")
+  public void setCqSearchpromoteConfigurationEnvironment(@Nullable ConfigNodePropertyString cqSearchpromoteConfigurationEnvironment) {
     this.cqSearchpromoteConfigurationEnvironment = cqSearchpromoteConfigurationEnvironment;
   }
 
-  public ComDayCqSearchpromoteImplSearchPromoteServiceImplProperties connectionTimeout(ConfigNodePropertyInteger connectionTimeout) {
+  public ComDayCqSearchpromoteImplSearchPromoteServiceImplProperties connectionTimeout(@Nullable ConfigNodePropertyInteger connectionTimeout) {
     this.connectionTimeout = connectionTimeout;
     return this;
   }
@@ -78,20 +89,20 @@ public class ComDayCqSearchpromoteImplSearchPromoteServiceImplProperties   {
   /**
    * Get connectionTimeout
    * @return connectionTimeout
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getConnectionTimeout() {
+   */
+  @Valid 
+  @Schema(name = "connection.timeout", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("connection.timeout")
+  public @Nullable ConfigNodePropertyInteger getConnectionTimeout() {
     return connectionTimeout;
   }
 
-  public void setConnectionTimeout(ConfigNodePropertyInteger connectionTimeout) {
+  @JsonProperty("connection.timeout")
+  public void setConnectionTimeout(@Nullable ConfigNodePropertyInteger connectionTimeout) {
     this.connectionTimeout = connectionTimeout;
   }
 
-  public ComDayCqSearchpromoteImplSearchPromoteServiceImplProperties socketTimeout(ConfigNodePropertyInteger socketTimeout) {
+  public ComDayCqSearchpromoteImplSearchPromoteServiceImplProperties socketTimeout(@Nullable ConfigNodePropertyInteger socketTimeout) {
     this.socketTimeout = socketTimeout;
     return this;
   }
@@ -99,22 +110,21 @@ public class ComDayCqSearchpromoteImplSearchPromoteServiceImplProperties   {
   /**
    * Get socketTimeout
    * @return socketTimeout
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getSocketTimeout() {
+   */
+  @Valid 
+  @Schema(name = "socket.timeout", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("socket.timeout")
+  public @Nullable ConfigNodePropertyInteger getSocketTimeout() {
     return socketTimeout;
   }
 
-  public void setSocketTimeout(ConfigNodePropertyInteger socketTimeout) {
+  @JsonProperty("socket.timeout")
+  public void setSocketTimeout(@Nullable ConfigNodePropertyInteger socketTimeout) {
     this.socketTimeout = socketTimeout;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -137,7 +147,6 @@ public class ComDayCqSearchpromoteImplSearchPromoteServiceImplProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComDayCqSearchpromoteImplSearchPromoteServiceImplProperties {\n");
-    
     sb.append("    cqSearchpromoteConfigurationServerUri: ").append(toIndentedString(cqSearchpromoteConfigurationServerUri)).append("\n");
     sb.append("    cqSearchpromoteConfigurationEnvironment: ").append(toIndentedString(cqSearchpromoteConfigurationEnvironment)).append("\n");
     sb.append("    connectionTimeout: ").append(toIndentedString(connectionTimeout)).append("\n");
@@ -150,11 +159,8 @@ public class ComDayCqSearchpromoteImplSearchPromoteServiceImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

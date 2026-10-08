@@ -3,38 +3,53 @@ package apimodels;
 import apimodels.ConfigNodePropertyBoolean;
 import apimodels.ConfigNodePropertyInteger;
 import apimodels.ConfigNodePropertyString;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * ComDayCqDamCoreImplExpiryNotificationJobImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class ComDayCqDamCoreImplExpiryNotificationJobImplProperties   {
   @JsonProperty("cq.dam.expiry.notification.scheduler.istimebased")
-  private ConfigNodePropertyBoolean cqDamExpiryNotificationSchedulerIstimebased = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean cqDamExpiryNotificationSchedulerIstimebased;
 
   @JsonProperty("cq.dam.expiry.notification.scheduler.timebased.rule")
-  private ConfigNodePropertyString cqDamExpiryNotificationSchedulerTimebasedRule = null;
+  @Valid
+
+  private ConfigNodePropertyString cqDamExpiryNotificationSchedulerTimebasedRule;
 
   @JsonProperty("cq.dam.expiry.notification.scheduler.period.rule")
-  private ConfigNodePropertyInteger cqDamExpiryNotificationSchedulerPeriodRule = null;
+  @Valid
+
+  private ConfigNodePropertyInteger cqDamExpiryNotificationSchedulerPeriodRule;
 
   @JsonProperty("send_email")
-  private ConfigNodePropertyBoolean sendEmail = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean sendEmail;
 
   @JsonProperty("asset_expired_limit")
-  private ConfigNodePropertyInteger assetExpiredLimit = null;
+  @Valid
+
+  private ConfigNodePropertyInteger assetExpiredLimit;
 
   @JsonProperty("prior_notification_seconds")
-  private ConfigNodePropertyInteger priorNotificationSeconds = null;
+  @Valid
+
+  private ConfigNodePropertyInteger priorNotificationSeconds;
 
   @JsonProperty("cq.dam.expiry.notification.url.protocol")
-  private ConfigNodePropertyString cqDamExpiryNotificationUrlProtocol = null;
+  @Valid
+
+  private ConfigNodePropertyString cqDamExpiryNotificationUrlProtocol;
 
   public ComDayCqDamCoreImplExpiryNotificationJobImplProperties cqDamExpiryNotificationSchedulerIstimebased(ConfigNodePropertyBoolean cqDamExpiryNotificationSchedulerIstimebased) {
     this.cqDamExpiryNotificationSchedulerIstimebased = cqDamExpiryNotificationSchedulerIstimebased;
@@ -45,7 +60,6 @@ public class ComDayCqDamCoreImplExpiryNotificationJobImplProperties   {
    * Get cqDamExpiryNotificationSchedulerIstimebased
    * @return cqDamExpiryNotificationSchedulerIstimebased
   **/
-  @Valid
   public ConfigNodePropertyBoolean getCqDamExpiryNotificationSchedulerIstimebased() {
     return cqDamExpiryNotificationSchedulerIstimebased;
   }
@@ -63,7 +77,6 @@ public class ComDayCqDamCoreImplExpiryNotificationJobImplProperties   {
    * Get cqDamExpiryNotificationSchedulerTimebasedRule
    * @return cqDamExpiryNotificationSchedulerTimebasedRule
   **/
-  @Valid
   public ConfigNodePropertyString getCqDamExpiryNotificationSchedulerTimebasedRule() {
     return cqDamExpiryNotificationSchedulerTimebasedRule;
   }
@@ -81,7 +94,6 @@ public class ComDayCqDamCoreImplExpiryNotificationJobImplProperties   {
    * Get cqDamExpiryNotificationSchedulerPeriodRule
    * @return cqDamExpiryNotificationSchedulerPeriodRule
   **/
-  @Valid
   public ConfigNodePropertyInteger getCqDamExpiryNotificationSchedulerPeriodRule() {
     return cqDamExpiryNotificationSchedulerPeriodRule;
   }
@@ -99,7 +111,6 @@ public class ComDayCqDamCoreImplExpiryNotificationJobImplProperties   {
    * Get sendEmail
    * @return sendEmail
   **/
-  @Valid
   public ConfigNodePropertyBoolean getSendEmail() {
     return sendEmail;
   }
@@ -117,7 +128,6 @@ public class ComDayCqDamCoreImplExpiryNotificationJobImplProperties   {
    * Get assetExpiredLimit
    * @return assetExpiredLimit
   **/
-  @Valid
   public ConfigNodePropertyInteger getAssetExpiredLimit() {
     return assetExpiredLimit;
   }
@@ -135,7 +145,6 @@ public class ComDayCqDamCoreImplExpiryNotificationJobImplProperties   {
    * Get priorNotificationSeconds
    * @return priorNotificationSeconds
   **/
-  @Valid
   public ConfigNodePropertyInteger getPriorNotificationSeconds() {
     return priorNotificationSeconds;
   }
@@ -153,7 +162,6 @@ public class ComDayCqDamCoreImplExpiryNotificationJobImplProperties   {
    * Get cqDamExpiryNotificationUrlProtocol
    * @return cqDamExpiryNotificationUrlProtocol
   **/
-  @Valid
   public ConfigNodePropertyString getCqDamExpiryNotificationUrlProtocol() {
     return cqDamExpiryNotificationUrlProtocol;
   }
@@ -164,7 +172,7 @@ public class ComDayCqDamCoreImplExpiryNotificationJobImplProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -207,11 +215,8 @@ public class ComDayCqDamCoreImplExpiryNotificationJobImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

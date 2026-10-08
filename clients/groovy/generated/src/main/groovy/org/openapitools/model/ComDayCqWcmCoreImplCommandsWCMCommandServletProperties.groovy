@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyArray;
 
 @Canonical
 class ComDayCqWcmCoreImplCommandsWCMCommandServletProperties {
-    ConfigNodePropertyArray wcmcommandservletDeleteWhitelist = null
-
+    
+    ConfigNodePropertyArray wcmcommandservletDeleteWhitelist
 }

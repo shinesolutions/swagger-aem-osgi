@@ -9,12 +9,12 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeCqAuditPurgeDamProperties {
-    ConfigNodePropertyString auditlogRuleName = null
-
-    ConfigNodePropertyString auditlogRuleContentpath = null
-
-    ConfigNodePropertyInteger auditlogRuleMinimumage = null
-
-    ConfigNodePropertyDropDown auditlogRuleTypes = null
-
+    
+    ConfigNodePropertyString auditlogRuleName
+    
+    ConfigNodePropertyString auditlogRuleContentpath
+    
+    ConfigNodePropertyInteger auditlogRuleMinimumage
+    
+    ConfigNodePropertyDropDown auditlogRuleTypes
 }

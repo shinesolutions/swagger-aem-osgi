@@ -72,10 +72,10 @@ private class OASComAdobeCqSecurityHcDispatcherImpTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeCqSecurityHcDispatcherImp comAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheckProperties = new OASComAdobeCqSecurityHcDispatcherImp();
-        Map<String, String> propertyMappings = comAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheckProperties.getPropertyMappings();
-        System.assertEquals('hcTags', propertyMappings.get('hc.tags'));
-        System.assertEquals('dispatcherAddress', propertyMappings.get('dispatcher.address'));
-        System.assertEquals('dispatcherFilterAllowed', propertyMappings.get('dispatcher.filter.allowed'));
-        System.assertEquals('dispatcherFilterBlocked', propertyMappings.get('dispatcher.filter.blocked'));
+        Map<String, String> x-property-mappings = comAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheckProperties.getx-property-mappings();
+        System.assertEquals('hcTags', x-property-mappings.get('hc.tags'));
+        System.assertEquals('dispatcherAddress', x-property-mappings.get('dispatcher.address'));
+        System.assertEquals('dispatcherFilterAllowed', x-property-mappings.get('dispatcher.filter.allowed'));
+        System.assertEquals('dispatcherFilterBlocked', x-property-mappings.get('dispatcher.filter.blocked'));
     }
 }

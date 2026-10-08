@@ -2,9 +2,9 @@
 # ComAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullSProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**communitiesPeriodintegrationPeriodlivefyrePeriodslingPeriodeventPeriodfilter** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **communitiesIntegrationLivefyreSlingEventFilter** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
 
 
 

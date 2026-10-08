@@ -2,15 +2,15 @@
 # ComAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServiceProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**portalPeriodoutboxes** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**draftPerioddataPeriodservice** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**draftPeriodmetadataPeriodservice** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**submitPerioddataPeriodservice** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**submitPeriodmetadataPeriodservice** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**pendingSignPerioddataPeriodservice** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**pendingSignPeriodmetadataPeriodservice** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **portalOutboxes** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **draftDataService** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **draftMetadataService** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **submitDataService** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **submitMetadataService** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **pendingSignDataService** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **pendingSignMetadataService** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
 
 
 

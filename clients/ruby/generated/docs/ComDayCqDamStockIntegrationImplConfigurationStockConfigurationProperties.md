@@ -2,20 +2,21 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**name** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
-**locale** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
-**ims_config** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **name** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] |
+| **locale** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] |
+| **ims_config** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComDayCqDamStockIntegrationImplConfigurationStockConfigurationProperties.new(name: null,
-                                 locale: null,
-                                 ims_config: null)
+instance = SwaggerAemOsgiClient::ComDayCqDamStockIntegrationImplConfigurationStockConfigurationProperties.new(
+  name: null,
+  locale: null,
+  ims_config: null
+)
 ```
-
 

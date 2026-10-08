@@ -7,10 +7,10 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqDamStockIntegrationImplConfigurationStockConfigurationProperties {
-    ConfigNodePropertyString name = null
-
-    ConfigNodePropertyString locale = null
-
-    ConfigNodePropertyString imsConfig = null
-
+    
+    ConfigNodePropertyString name
+    
+    ConfigNodePropertyString locale
+    
+    ConfigNodePropertyString imsConfig
 }

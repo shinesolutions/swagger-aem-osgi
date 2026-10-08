@@ -1,17 +1,21 @@
 [package]
 name = "openapi"
-version = "1.0.0"
-authors = ["OpenAPI Generator team and contributors"]
+version = "1.0.0-pre.0"
+authors = ["opensource@shinesolutions.com"]
+description = "Swagger AEM OSGI is an OpenAPI specification for Adobe Experience Manager (AEM) OSGI Configurations API"
+# Override this license by providing a License Object in the OpenAPI.
+license = "Unlicense"
+edition = "2021"
 
 [dependencies]
-serde = "1.0"
-serde_derive = "1.0"
-serde_yaml = "0.7"
-serde_json = "1.0"
-base64 = "~0.7.0"
-futures = "0.1.16"
-hyper = "0.11.6"
-url = "1.5"
+serde = { version = "^1.0", features = ["derive"] }
+serde_with = { version = "^3.8", default-features = false, features = ["base64", "std", "macros"] }
+serde_json = "^1.0"
+serde_repr = "^0.1"
+url = "^2.5"
+reqwest = { version = "^0.13", default-features = false, features = ["json", "multipart", "query", "form"] }
 
-[dev-dependencies]
-tokio-core = "*"
+[features]
+default = ["native-tls"]
+native-tls = ["reqwest/native-tls"]
+rustls = ["reqwest/rustls"]

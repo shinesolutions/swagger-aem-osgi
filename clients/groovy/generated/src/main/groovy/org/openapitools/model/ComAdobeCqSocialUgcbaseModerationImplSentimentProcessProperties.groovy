@@ -8,12 +8,12 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeCqSocialUgcbaseModerationImplSentimentProcessProperties {
-    ConfigNodePropertyArray watchwordsPositive = null
-
-    ConfigNodePropertyArray watchwordsNegative = null
-
-    ConfigNodePropertyString watchwordsPath = null
-
-    ConfigNodePropertyString sentimentPath = null
-
+    
+    ConfigNodePropertyArray watchwordsPositive
+    
+    ConfigNodePropertyArray watchwordsNegative
+    
+    ConfigNodePropertyString watchwordsPath
+    
+    ConfigNodePropertyString sentimentPath
 }

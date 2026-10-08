@@ -9,14 +9,14 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeCqScreensAnalyticsImplScreensAnalyticsServiceImplProperties {
-    ConfigNodePropertyString comAdobeCqScreensAnalyticsImplUrl = null
-
-    ConfigNodePropertyString comAdobeCqScreensAnalyticsImplApikey = null
-
-    ConfigNodePropertyString comAdobeCqScreensAnalyticsImplProject = null
-
-    ConfigNodePropertyDropDown comAdobeCqScreensAnalyticsImplEnvironment = null
-
-    ConfigNodePropertyInteger comAdobeCqScreensAnalyticsImplSendFrequency = null
-
+    
+    ConfigNodePropertyString comAdobeCqScreensAnalyticsImplUrl
+    
+    ConfigNodePropertyString comAdobeCqScreensAnalyticsImplApikey
+    
+    ConfigNodePropertyString comAdobeCqScreensAnalyticsImplProject
+    
+    ConfigNodePropertyDropDown comAdobeCqScreensAnalyticsImplEnvironment
+    
+    ConfigNodePropertyInteger comAdobeCqScreensAnalyticsImplSendFrequency
 }

@@ -1,7 +1,9 @@
 
+
 # OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfo
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **pid** | **String** |  |  [optional]
@@ -10,6 +12,7 @@ Name | Type | Description | Notes
 **properties** | [**OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplProperties**](OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplProperties.md) |  |  [optional]
 **bundleLocation** | **String** |  |  [optional]
 **serviceLocation** | **String** |  |  [optional]
+
 
 
 

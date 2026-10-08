@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyBoolean;
 
 @Canonical
 class ComDayCqDamCoreImplServletMultipleLicenseAcceptServletProperties {
-    ConfigNodePropertyBoolean cqDamDrmEnable = null
-
+    
+    ConfigNodePropertyBoolean cqDamDrmEnable
 }

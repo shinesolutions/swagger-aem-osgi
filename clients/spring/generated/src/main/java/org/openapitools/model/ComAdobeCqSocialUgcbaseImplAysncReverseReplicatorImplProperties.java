@@ -1,33 +1,44 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyInteger;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComAdobeCqSocialUgcbaseImplAysncReverseReplicatorImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComAdobeCqSocialUgcbaseImplAysncReverseReplicatorImplProperties   {
-  @JsonProperty("poolSize")
-  private ConfigNodePropertyInteger poolSize = null;
+@JsonTypeName("comAdobeCqSocialUgcbaseImplAysncReverseReplicatorImplProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComAdobeCqSocialUgcbaseImplAysncReverseReplicatorImplProperties {
 
-  @JsonProperty("maxPoolSize")
-  private ConfigNodePropertyInteger maxPoolSize = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger poolSize;
 
-  @JsonProperty("queueSize")
-  private ConfigNodePropertyInteger queueSize = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger maxPoolSize;
 
-  @JsonProperty("keepAliveTime")
-  private ConfigNodePropertyInteger keepAliveTime = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger queueSize;
 
-  public ComAdobeCqSocialUgcbaseImplAysncReverseReplicatorImplProperties poolSize(ConfigNodePropertyInteger poolSize) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger keepAliveTime;
+
+  public ComAdobeCqSocialUgcbaseImplAysncReverseReplicatorImplProperties poolSize(@Nullable ConfigNodePropertyInteger poolSize) {
     this.poolSize = poolSize;
     return this;
   }
@@ -35,20 +46,20 @@ public class ComAdobeCqSocialUgcbaseImplAysncReverseReplicatorImplProperties   {
   /**
    * Get poolSize
    * @return poolSize
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getPoolSize() {
+   */
+  @Valid 
+  @Schema(name = "poolSize", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("poolSize")
+  public @Nullable ConfigNodePropertyInteger getPoolSize() {
     return poolSize;
   }
 
-  public void setPoolSize(ConfigNodePropertyInteger poolSize) {
+  @JsonProperty("poolSize")
+  public void setPoolSize(@Nullable ConfigNodePropertyInteger poolSize) {
     this.poolSize = poolSize;
   }
 
-  public ComAdobeCqSocialUgcbaseImplAysncReverseReplicatorImplProperties maxPoolSize(ConfigNodePropertyInteger maxPoolSize) {
+  public ComAdobeCqSocialUgcbaseImplAysncReverseReplicatorImplProperties maxPoolSize(@Nullable ConfigNodePropertyInteger maxPoolSize) {
     this.maxPoolSize = maxPoolSize;
     return this;
   }
@@ -56,20 +67,20 @@ public class ComAdobeCqSocialUgcbaseImplAysncReverseReplicatorImplProperties   {
   /**
    * Get maxPoolSize
    * @return maxPoolSize
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getMaxPoolSize() {
+   */
+  @Valid 
+  @Schema(name = "maxPoolSize", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("maxPoolSize")
+  public @Nullable ConfigNodePropertyInteger getMaxPoolSize() {
     return maxPoolSize;
   }
 
-  public void setMaxPoolSize(ConfigNodePropertyInteger maxPoolSize) {
+  @JsonProperty("maxPoolSize")
+  public void setMaxPoolSize(@Nullable ConfigNodePropertyInteger maxPoolSize) {
     this.maxPoolSize = maxPoolSize;
   }
 
-  public ComAdobeCqSocialUgcbaseImplAysncReverseReplicatorImplProperties queueSize(ConfigNodePropertyInteger queueSize) {
+  public ComAdobeCqSocialUgcbaseImplAysncReverseReplicatorImplProperties queueSize(@Nullable ConfigNodePropertyInteger queueSize) {
     this.queueSize = queueSize;
     return this;
   }
@@ -77,20 +88,20 @@ public class ComAdobeCqSocialUgcbaseImplAysncReverseReplicatorImplProperties   {
   /**
    * Get queueSize
    * @return queueSize
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getQueueSize() {
+   */
+  @Valid 
+  @Schema(name = "queueSize", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("queueSize")
+  public @Nullable ConfigNodePropertyInteger getQueueSize() {
     return queueSize;
   }
 
-  public void setQueueSize(ConfigNodePropertyInteger queueSize) {
+  @JsonProperty("queueSize")
+  public void setQueueSize(@Nullable ConfigNodePropertyInteger queueSize) {
     this.queueSize = queueSize;
   }
 
-  public ComAdobeCqSocialUgcbaseImplAysncReverseReplicatorImplProperties keepAliveTime(ConfigNodePropertyInteger keepAliveTime) {
+  public ComAdobeCqSocialUgcbaseImplAysncReverseReplicatorImplProperties keepAliveTime(@Nullable ConfigNodePropertyInteger keepAliveTime) {
     this.keepAliveTime = keepAliveTime;
     return this;
   }
@@ -98,22 +109,21 @@ public class ComAdobeCqSocialUgcbaseImplAysncReverseReplicatorImplProperties   {
   /**
    * Get keepAliveTime
    * @return keepAliveTime
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getKeepAliveTime() {
+   */
+  @Valid 
+  @Schema(name = "keepAliveTime", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("keepAliveTime")
+  public @Nullable ConfigNodePropertyInteger getKeepAliveTime() {
     return keepAliveTime;
   }
 
-  public void setKeepAliveTime(ConfigNodePropertyInteger keepAliveTime) {
+  @JsonProperty("keepAliveTime")
+  public void setKeepAliveTime(@Nullable ConfigNodePropertyInteger keepAliveTime) {
     this.keepAliveTime = keepAliveTime;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -136,7 +146,6 @@ public class ComAdobeCqSocialUgcbaseImplAysncReverseReplicatorImplProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComAdobeCqSocialUgcbaseImplAysncReverseReplicatorImplProperties {\n");
-    
     sb.append("    poolSize: ").append(toIndentedString(poolSize)).append("\n");
     sb.append("    maxPoolSize: ").append(toIndentedString(maxPoolSize)).append("\n");
     sb.append("    queueSize: ").append(toIndentedString(queueSize)).append("\n");
@@ -149,11 +158,8 @@ public class ComAdobeCqSocialUgcbaseImplAysncReverseReplicatorImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

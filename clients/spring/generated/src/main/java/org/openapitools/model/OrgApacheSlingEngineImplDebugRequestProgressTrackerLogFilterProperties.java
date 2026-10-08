@@ -1,35 +1,46 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * OrgApacheSlingEngineImplDebugRequestProgressTrackerLogFilterProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class OrgApacheSlingEngineImplDebugRequestProgressTrackerLogFilterProperties   {
-  @JsonProperty("extensions")
-  private ConfigNodePropertyArray extensions = null;
+@JsonTypeName("orgApacheSlingEngineImplDebugRequestProgressTrackerLogFilterProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class OrgApacheSlingEngineImplDebugRequestProgressTrackerLogFilterProperties {
 
-  @JsonProperty("minDurationMs")
-  private ConfigNodePropertyInteger minDurationMs = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray extensions;
 
-  @JsonProperty("maxDurationMs")
-  private ConfigNodePropertyInteger maxDurationMs = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger minDurationMs;
 
-  @JsonProperty("compactLogFormat")
-  private ConfigNodePropertyBoolean compactLogFormat = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger maxDurationMs;
 
-  public OrgApacheSlingEngineImplDebugRequestProgressTrackerLogFilterProperties extensions(ConfigNodePropertyArray extensions) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean compactLogFormat;
+
+  public OrgApacheSlingEngineImplDebugRequestProgressTrackerLogFilterProperties extensions(@Nullable ConfigNodePropertyArray extensions) {
     this.extensions = extensions;
     return this;
   }
@@ -37,20 +48,20 @@ public class OrgApacheSlingEngineImplDebugRequestProgressTrackerLogFilterPropert
   /**
    * Get extensions
    * @return extensions
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getExtensions() {
+   */
+  @Valid 
+  @Schema(name = "extensions", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("extensions")
+  public @Nullable ConfigNodePropertyArray getExtensions() {
     return extensions;
   }
 
-  public void setExtensions(ConfigNodePropertyArray extensions) {
+  @JsonProperty("extensions")
+  public void setExtensions(@Nullable ConfigNodePropertyArray extensions) {
     this.extensions = extensions;
   }
 
-  public OrgApacheSlingEngineImplDebugRequestProgressTrackerLogFilterProperties minDurationMs(ConfigNodePropertyInteger minDurationMs) {
+  public OrgApacheSlingEngineImplDebugRequestProgressTrackerLogFilterProperties minDurationMs(@Nullable ConfigNodePropertyInteger minDurationMs) {
     this.minDurationMs = minDurationMs;
     return this;
   }
@@ -58,20 +69,20 @@ public class OrgApacheSlingEngineImplDebugRequestProgressTrackerLogFilterPropert
   /**
    * Get minDurationMs
    * @return minDurationMs
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getMinDurationMs() {
+   */
+  @Valid 
+  @Schema(name = "minDurationMs", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("minDurationMs")
+  public @Nullable ConfigNodePropertyInteger getMinDurationMs() {
     return minDurationMs;
   }
 
-  public void setMinDurationMs(ConfigNodePropertyInteger minDurationMs) {
+  @JsonProperty("minDurationMs")
+  public void setMinDurationMs(@Nullable ConfigNodePropertyInteger minDurationMs) {
     this.minDurationMs = minDurationMs;
   }
 
-  public OrgApacheSlingEngineImplDebugRequestProgressTrackerLogFilterProperties maxDurationMs(ConfigNodePropertyInteger maxDurationMs) {
+  public OrgApacheSlingEngineImplDebugRequestProgressTrackerLogFilterProperties maxDurationMs(@Nullable ConfigNodePropertyInteger maxDurationMs) {
     this.maxDurationMs = maxDurationMs;
     return this;
   }
@@ -79,20 +90,20 @@ public class OrgApacheSlingEngineImplDebugRequestProgressTrackerLogFilterPropert
   /**
    * Get maxDurationMs
    * @return maxDurationMs
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getMaxDurationMs() {
+   */
+  @Valid 
+  @Schema(name = "maxDurationMs", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("maxDurationMs")
+  public @Nullable ConfigNodePropertyInteger getMaxDurationMs() {
     return maxDurationMs;
   }
 
-  public void setMaxDurationMs(ConfigNodePropertyInteger maxDurationMs) {
+  @JsonProperty("maxDurationMs")
+  public void setMaxDurationMs(@Nullable ConfigNodePropertyInteger maxDurationMs) {
     this.maxDurationMs = maxDurationMs;
   }
 
-  public OrgApacheSlingEngineImplDebugRequestProgressTrackerLogFilterProperties compactLogFormat(ConfigNodePropertyBoolean compactLogFormat) {
+  public OrgApacheSlingEngineImplDebugRequestProgressTrackerLogFilterProperties compactLogFormat(@Nullable ConfigNodePropertyBoolean compactLogFormat) {
     this.compactLogFormat = compactLogFormat;
     return this;
   }
@@ -100,22 +111,21 @@ public class OrgApacheSlingEngineImplDebugRequestProgressTrackerLogFilterPropert
   /**
    * Get compactLogFormat
    * @return compactLogFormat
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getCompactLogFormat() {
+   */
+  @Valid 
+  @Schema(name = "compactLogFormat", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("compactLogFormat")
+  public @Nullable ConfigNodePropertyBoolean getCompactLogFormat() {
     return compactLogFormat;
   }
 
-  public void setCompactLogFormat(ConfigNodePropertyBoolean compactLogFormat) {
+  @JsonProperty("compactLogFormat")
+  public void setCompactLogFormat(@Nullable ConfigNodePropertyBoolean compactLogFormat) {
     this.compactLogFormat = compactLogFormat;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -138,7 +148,6 @@ public class OrgApacheSlingEngineImplDebugRequestProgressTrackerLogFilterPropert
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class OrgApacheSlingEngineImplDebugRequestProgressTrackerLogFilterProperties {\n");
-    
     sb.append("    extensions: ").append(toIndentedString(extensions)).append("\n");
     sb.append("    minDurationMs: ").append(toIndentedString(minDurationMs)).append("\n");
     sb.append("    maxDurationMs: ").append(toIndentedString(maxDurationMs)).append("\n");
@@ -151,11 +160,8 @@ public class OrgApacheSlingEngineImplDebugRequestProgressTrackerLogFilterPropert
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

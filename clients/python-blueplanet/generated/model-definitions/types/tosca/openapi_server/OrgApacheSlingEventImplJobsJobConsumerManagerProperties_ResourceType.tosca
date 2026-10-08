@@ -1,0 +1,47 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingEventImplJobsJobConsumerManagerProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingEventImplJobsJobConsumerManagerProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+}
+resourceTypes {
+
+  OrgApacheSlingEventImplJobsJobConsumerManagerProperties {
+    title = OrgApacheSlingEventImplJobsJobConsumerManagerProperties
+    description = OrgApacheSlingEventImplJobsJobConsumerManagerProperties
+    derivedFrom = Root
+    properties {
+        org_apache_sling_installer_configuration_persist {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        job_consumermanager_whitelist {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        job_consumermanager_blacklist {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingEventImplJobsJobConsumerManagerProperties {
+    title = OrgApacheSlingEventImplJobsJobConsumerManagerProperties
+    description = OrgApacheSlingEventImplJobsJobConsumerManagerProperties
+    implements = openapi_server.resourceTypes.OrgApacheSlingEventImplJobsJobConsumerManagerProperties
+
+  }
+}

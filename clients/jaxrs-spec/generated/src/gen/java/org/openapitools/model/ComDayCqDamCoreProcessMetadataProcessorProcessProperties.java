@@ -1,22 +1,33 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comDayCqDamCoreProcessMetadataProcessorProcessProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqDamCoreProcessMetadataProcessorProcessProperties   {
-  
-  private @Valid ConfigNodePropertyString processLabel = null;
-  private @Valid ConfigNodePropertyBoolean cqDamEnableSha1 = null;
-  private @Valid ConfigNodePropertyArray cqDamMetadataXssprotectedProperties = null;
+  private ConfigNodePropertyString processLabel;
+  private ConfigNodePropertyBoolean cqDamEnableSha1;
+  private ConfigNodePropertyArray cqDamMetadataXssprotectedProperties;
+
+  public ComDayCqDamCoreProcessMetadataProcessorProcessProperties() {
+  }
 
   /**
    **/
@@ -28,9 +39,11 @@ public class ComDayCqDamCoreProcessMetadataProcessorProcessProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("process.label")
-  public ConfigNodePropertyString getProcessLabel() {
+  @Valid public ConfigNodePropertyString getProcessLabel() {
     return processLabel;
   }
+
+  @JsonProperty("process.label")
   public void setProcessLabel(ConfigNodePropertyString processLabel) {
     this.processLabel = processLabel;
   }
@@ -45,9 +58,11 @@ public class ComDayCqDamCoreProcessMetadataProcessorProcessProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("cq.dam.enable.sha1")
-  public ConfigNodePropertyBoolean getCqDamEnableSha1() {
+  @Valid public ConfigNodePropertyBoolean getCqDamEnableSha1() {
     return cqDamEnableSha1;
   }
+
+  @JsonProperty("cq.dam.enable.sha1")
   public void setCqDamEnableSha1(ConfigNodePropertyBoolean cqDamEnableSha1) {
     this.cqDamEnableSha1 = cqDamEnableSha1;
   }
@@ -62,16 +77,18 @@ public class ComDayCqDamCoreProcessMetadataProcessorProcessProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("cq.dam.metadata.xssprotected.properties")
-  public ConfigNodePropertyArray getCqDamMetadataXssprotectedProperties() {
+  @Valid public ConfigNodePropertyArray getCqDamMetadataXssprotectedProperties() {
     return cqDamMetadataXssprotectedProperties;
   }
+
+  @JsonProperty("cq.dam.metadata.xssprotected.properties")
   public void setCqDamMetadataXssprotectedProperties(ConfigNodePropertyArray cqDamMetadataXssprotectedProperties) {
     this.cqDamMetadataXssprotectedProperties = cqDamMetadataXssprotectedProperties;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -79,9 +96,9 @@ public class ComDayCqDamCoreProcessMetadataProcessorProcessProperties   {
       return false;
     }
     ComDayCqDamCoreProcessMetadataProcessorProcessProperties comDayCqDamCoreProcessMetadataProcessorProcessProperties = (ComDayCqDamCoreProcessMetadataProcessorProcessProperties) o;
-    return Objects.equals(processLabel, comDayCqDamCoreProcessMetadataProcessorProcessProperties.processLabel) &&
-        Objects.equals(cqDamEnableSha1, comDayCqDamCoreProcessMetadataProcessorProcessProperties.cqDamEnableSha1) &&
-        Objects.equals(cqDamMetadataXssprotectedProperties, comDayCqDamCoreProcessMetadataProcessorProcessProperties.cqDamMetadataXssprotectedProperties);
+    return Objects.equals(this.processLabel, comDayCqDamCoreProcessMetadataProcessorProcessProperties.processLabel) &&
+        Objects.equals(this.cqDamEnableSha1, comDayCqDamCoreProcessMetadataProcessorProcessProperties.cqDamEnableSha1) &&
+        Objects.equals(this.cqDamMetadataXssprotectedProperties, comDayCqDamCoreProcessMetadataProcessorProcessProperties.cqDamMetadataXssprotectedProperties);
   }
 
   @Override
@@ -105,11 +122,9 @@ public class ComDayCqDamCoreProcessMetadataProcessorProcessProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

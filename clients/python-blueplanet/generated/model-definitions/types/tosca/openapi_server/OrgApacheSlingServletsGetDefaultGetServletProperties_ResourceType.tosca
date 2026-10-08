@@ -1,0 +1,78 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingServletsGetDefaultGetServletProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingServletsGetDefaultGetServletProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+}
+resourceTypes {
+
+  OrgApacheSlingServletsGetDefaultGetServletProperties {
+    title = OrgApacheSlingServletsGetDefaultGetServletProperties
+    description = OrgApacheSlingServletsGetDefaultGetServletProperties
+    derivedFrom = Root
+    properties {
+        aliases {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        index {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        index_files {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        enable_html {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        enable_json {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        enable_txt {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        enable_xml {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        json_maximumresults {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        ecma_suport {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingServletsGetDefaultGetServletProperties {
+    title = OrgApacheSlingServletsGetDefaultGetServletProperties
+    description = OrgApacheSlingServletsGetDefaultGetServletProperties
+    implements = openapi_server.resourceTypes.OrgApacheSlingServletsGetDefaultGetServletProperties
+
+  }
+}

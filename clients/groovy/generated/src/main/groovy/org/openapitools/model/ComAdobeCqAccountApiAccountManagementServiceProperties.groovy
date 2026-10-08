@@ -8,10 +8,10 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeCqAccountApiAccountManagementServiceProperties {
-    ConfigNodePropertyInteger cqAccountmanagerTokenValidityPeriod = null
-
-    ConfigNodePropertyString cqAccountmanagerConfigRequestnewaccountMail = null
-
-    ConfigNodePropertyString cqAccountmanagerConfigRequestnewpwdMail = null
-
+    
+    ConfigNodePropertyInteger cqAccountmanagerTokenValidityPeriod
+    
+    ConfigNodePropertyString cqAccountmanagerConfigRequestnewaccountMail
+    
+    ConfigNodePropertyString cqAccountmanagerConfigRequestnewpwdMail
 }

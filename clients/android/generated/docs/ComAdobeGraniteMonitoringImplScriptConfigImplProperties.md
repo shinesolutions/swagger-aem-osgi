@@ -1,7 +1,9 @@
 
+
 # ComAdobeGraniteMonitoringImplScriptConfigImplProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **scriptFilename** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
@@ -10,6 +12,7 @@ Name | Type | Description | Notes
 **scriptPlatform** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
 **interval** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
 **jmxdomain** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
+
 
 
 

@@ -2,19 +2,19 @@
 # OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**osgiPeriodhttpPeriodwhiteboardPeriodcontextPeriodselect** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**osgiPeriodhttpPeriodwhiteboardPeriodlistener** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**authPeriodsudoPeriodcookie** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**authPeriodsudoPeriodparameter** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**authPeriodannonymous** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**slingPeriodauthPeriodrequirements** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**slingPeriodauthPeriodanonymousPerioduser** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**slingPeriodauthPeriodanonymousPeriodpassword** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**authPeriodhttp** | [**ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md) |  |  [optional]
-**authPeriodhttpPeriodrealm** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**authPerioduriPeriodsuffix** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **osgiHttpWhiteboardContextSelect** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **osgiHttpWhiteboardListener** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **authSudoCookie** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **authSudoParameter** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **authAnnonymous** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **slingAuthRequirements** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **slingAuthAnonymousUser** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **slingAuthAnonymousPassword** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **authHttp** | [**ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md) |  |  [optional] |
+| **authHttpRealm** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **authUriSuffix** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
 
 
 

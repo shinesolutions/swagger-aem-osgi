@@ -8,8 +8,8 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeGraniteOauthServerImplOAuth2RevocationEndpointServletProperties {
-    ConfigNodePropertyString slingServletPaths = null
-
-    ConfigNodePropertyBoolean oauthRevocationActive = null
-
+    
+    ConfigNodePropertyString slingServletPaths
+    
+    ConfigNodePropertyBoolean oauthRevocationActive
 }

@@ -1,3 +1,13 @@
+/*
+ * Adobe Experience Manager OSGI config (AEM) API
+ *
+ * Swagger AEM OSGI is an OpenAPI specification for Adobe Experience Manager (AEM) OSGI Configurations API
+ *
+ * OpenAPI document version: 1.0.0-pre.0
+ * Maintained by: opensource@shinesolutions.com
+ *
+ * AUTO-GENERATED FILE, DO NOT MODIFY!
+ */
 package org.openapitools.model;
 
 import java.util.Objects;
@@ -13,22 +23,22 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2019-08-05T00:56:20.785Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2026-10-07T12:53:42.280804918Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplProperties   {
   
-  private ConfigNodePropertyString linkExpiredPrefix = null;
-  private ConfigNodePropertyBoolean linkExpiredRemove = null;
-  private ConfigNodePropertyString linkExpiredSuffix = null;
-  private ConfigNodePropertyString linkInvalidPrefix = null;
-  private ConfigNodePropertyBoolean linkInvalidRemove = null;
-  private ConfigNodePropertyString linkInvalidSuffix = null;
-  private ConfigNodePropertyString linkPredatedPrefix = null;
-  private ConfigNodePropertyBoolean linkPredatedRemove = null;
-  private ConfigNodePropertyString linkPredatedSuffix = null;
-  private ConfigNodePropertyArray linkWcmmodes = null;
+  private ConfigNodePropertyString linkExpiredPrefix;
+  private ConfigNodePropertyBoolean linkExpiredRemove;
+  private ConfigNodePropertyString linkExpiredSuffix;
+  private ConfigNodePropertyString linkInvalidPrefix;
+  private ConfigNodePropertyBoolean linkInvalidRemove;
+  private ConfigNodePropertyString linkInvalidSuffix;
+  private ConfigNodePropertyString linkPredatedPrefix;
+  private ConfigNodePropertyBoolean linkPredatedRemove;
+  private ConfigNodePropertyString linkPredatedSuffix;
+  private ConfigNodePropertyArray linkWcmmodes;
 
   /**
-   **/
+   */
   public ComDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplProperties linkExpiredPrefix(ConfigNodePropertyString linkExpiredPrefix) {
     this.linkExpiredPrefix = linkExpiredPrefix;
     return this;
@@ -45,7 +55,7 @@ public class ComDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplProperties   
   }
 
   /**
-   **/
+   */
   public ComDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplProperties linkExpiredRemove(ConfigNodePropertyBoolean linkExpiredRemove) {
     this.linkExpiredRemove = linkExpiredRemove;
     return this;
@@ -62,7 +72,7 @@ public class ComDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplProperties   
   }
 
   /**
-   **/
+   */
   public ComDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplProperties linkExpiredSuffix(ConfigNodePropertyString linkExpiredSuffix) {
     this.linkExpiredSuffix = linkExpiredSuffix;
     return this;
@@ -79,7 +89,7 @@ public class ComDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplProperties   
   }
 
   /**
-   **/
+   */
   public ComDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplProperties linkInvalidPrefix(ConfigNodePropertyString linkInvalidPrefix) {
     this.linkInvalidPrefix = linkInvalidPrefix;
     return this;
@@ -96,7 +106,7 @@ public class ComDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplProperties   
   }
 
   /**
-   **/
+   */
   public ComDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplProperties linkInvalidRemove(ConfigNodePropertyBoolean linkInvalidRemove) {
     this.linkInvalidRemove = linkInvalidRemove;
     return this;
@@ -113,7 +123,7 @@ public class ComDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplProperties   
   }
 
   /**
-   **/
+   */
   public ComDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplProperties linkInvalidSuffix(ConfigNodePropertyString linkInvalidSuffix) {
     this.linkInvalidSuffix = linkInvalidSuffix;
     return this;
@@ -130,7 +140,7 @@ public class ComDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplProperties   
   }
 
   /**
-   **/
+   */
   public ComDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplProperties linkPredatedPrefix(ConfigNodePropertyString linkPredatedPrefix) {
     this.linkPredatedPrefix = linkPredatedPrefix;
     return this;
@@ -147,7 +157,7 @@ public class ComDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplProperties   
   }
 
   /**
-   **/
+   */
   public ComDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplProperties linkPredatedRemove(ConfigNodePropertyBoolean linkPredatedRemove) {
     this.linkPredatedRemove = linkPredatedRemove;
     return this;
@@ -164,7 +174,7 @@ public class ComDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplProperties   
   }
 
   /**
-   **/
+   */
   public ComDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplProperties linkPredatedSuffix(ConfigNodePropertyString linkPredatedSuffix) {
     this.linkPredatedSuffix = linkPredatedSuffix;
     return this;
@@ -181,7 +191,7 @@ public class ComDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplProperties   
   }
 
   /**
-   **/
+   */
   public ComDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplProperties linkWcmmodes(ConfigNodePropertyArray linkWcmmodes) {
     this.linkWcmmodes = linkWcmmodes;
     return this;
@@ -199,7 +209,7 @@ public class ComDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplProperties   
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -247,11 +257,8 @@ public class ComDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplProperties   
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

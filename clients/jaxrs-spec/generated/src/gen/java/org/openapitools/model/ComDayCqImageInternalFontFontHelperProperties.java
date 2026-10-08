@@ -1,20 +1,31 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comDayCqImageInternalFontFontHelperProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqImageInternalFontFontHelperProperties   {
-  
-  private @Valid ConfigNodePropertyArray fontpath = null;
-  private @Valid ConfigNodePropertyInteger oversamplingFactor = null;
+  private ConfigNodePropertyArray fontpath;
+  private ConfigNodePropertyInteger oversamplingFactor;
+
+  public ComDayCqImageInternalFontFontHelperProperties() {
+  }
 
   /**
    **/
@@ -26,9 +37,11 @@ public class ComDayCqImageInternalFontFontHelperProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("fontpath")
-  public ConfigNodePropertyArray getFontpath() {
+  @Valid public ConfigNodePropertyArray getFontpath() {
     return fontpath;
   }
+
+  @JsonProperty("fontpath")
   public void setFontpath(ConfigNodePropertyArray fontpath) {
     this.fontpath = fontpath;
   }
@@ -43,16 +56,18 @@ public class ComDayCqImageInternalFontFontHelperProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("oversamplingFactor")
-  public ConfigNodePropertyInteger getOversamplingFactor() {
+  @Valid public ConfigNodePropertyInteger getOversamplingFactor() {
     return oversamplingFactor;
   }
+
+  @JsonProperty("oversamplingFactor")
   public void setOversamplingFactor(ConfigNodePropertyInteger oversamplingFactor) {
     this.oversamplingFactor = oversamplingFactor;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -60,8 +75,8 @@ public class ComDayCqImageInternalFontFontHelperProperties   {
       return false;
     }
     ComDayCqImageInternalFontFontHelperProperties comDayCqImageInternalFontFontHelperProperties = (ComDayCqImageInternalFontFontHelperProperties) o;
-    return Objects.equals(fontpath, comDayCqImageInternalFontFontHelperProperties.fontpath) &&
-        Objects.equals(oversamplingFactor, comDayCqImageInternalFontFontHelperProperties.oversamplingFactor);
+    return Objects.equals(this.fontpath, comDayCqImageInternalFontFontHelperProperties.fontpath) &&
+        Objects.equals(this.oversamplingFactor, comDayCqImageInternalFontFontHelperProperties.oversamplingFactor);
   }
 
   @Override
@@ -84,11 +99,9 @@ public class ComDayCqImageInternalFontFontHelperProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

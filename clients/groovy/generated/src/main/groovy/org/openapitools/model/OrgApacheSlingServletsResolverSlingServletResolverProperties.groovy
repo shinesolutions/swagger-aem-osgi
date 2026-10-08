@@ -9,12 +9,12 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class OrgApacheSlingServletsResolverSlingServletResolverProperties {
-    ConfigNodePropertyString servletresolverServletRoot = null
-
-    ConfigNodePropertyInteger servletresolverCacheSize = null
-
-    ConfigNodePropertyArray servletresolverPaths = null
-
-    ConfigNodePropertyArray servletresolverDefaultExtensions = null
-
+    
+    ConfigNodePropertyString servletresolverServletRoot
+    
+    ConfigNodePropertyInteger servletresolverCacheSize
+    
+    ConfigNodePropertyArray servletresolverPaths
+    
+    ConfigNodePropertyArray servletresolverDefaultExtensions
 }

@@ -1,26 +1,33 @@
 package apimodels;
 
 import apimodels.ConfigNodePropertyInteger;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * ComAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class ComAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerProperties   {
   @JsonProperty("default.timeout")
-  private ConfigNodePropertyInteger defaultTimeout = null;
+  @Valid
+
+  private ConfigNodePropertyInteger defaultTimeout;
 
   @JsonProperty("max.timeout")
-  private ConfigNodePropertyInteger maxTimeout = null;
+  @Valid
+
+  private ConfigNodePropertyInteger maxTimeout;
 
   @JsonProperty("default.period")
-  private ConfigNodePropertyInteger defaultPeriod = null;
+  @Valid
+
+  private ConfigNodePropertyInteger defaultPeriod;
 
   public ComAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerProperties defaultTimeout(ConfigNodePropertyInteger defaultTimeout) {
     this.defaultTimeout = defaultTimeout;
@@ -31,7 +38,6 @@ public class ComAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerProperties  
    * Get defaultTimeout
    * @return defaultTimeout
   **/
-  @Valid
   public ConfigNodePropertyInteger getDefaultTimeout() {
     return defaultTimeout;
   }
@@ -49,7 +55,6 @@ public class ComAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerProperties  
    * Get maxTimeout
    * @return maxTimeout
   **/
-  @Valid
   public ConfigNodePropertyInteger getMaxTimeout() {
     return maxTimeout;
   }
@@ -67,7 +72,6 @@ public class ComAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerProperties  
    * Get defaultPeriod
    * @return defaultPeriod
   **/
-  @Valid
   public ConfigNodePropertyInteger getDefaultPeriod() {
     return defaultPeriod;
   }
@@ -78,7 +82,7 @@ public class ComAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerProperties  
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -113,11 +117,8 @@ public class ComAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerProperties  
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

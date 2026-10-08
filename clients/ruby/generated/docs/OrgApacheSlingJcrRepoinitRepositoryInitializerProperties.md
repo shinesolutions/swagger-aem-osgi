@@ -2,18 +2,19 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**references** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 
-**scripts** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **references** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] |
+| **scripts** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::OrgApacheSlingJcrRepoinitRepositoryInitializerProperties.new(references: null,
-                                 scripts: null)
+instance = SwaggerAemOsgiClient::OrgApacheSlingJcrRepoinitRepositoryInitializerProperties.new(
+  references: null,
+  scripts: null
+)
 ```
-
 

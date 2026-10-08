@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeGraniteAuthCertImplClientCertAuthHandlerPr
 
 @Canonical
 class ComAdobeGraniteAuthCertImplClientCertAuthHandlerInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteAuthCertImplClientCertAuthHandlerProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteAuthCertImplClientCertAuthHandlerProperties properties
 }

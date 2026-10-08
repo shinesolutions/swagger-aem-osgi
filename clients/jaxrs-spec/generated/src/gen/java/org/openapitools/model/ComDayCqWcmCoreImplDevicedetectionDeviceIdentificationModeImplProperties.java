@@ -1,20 +1,31 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyDropDown;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comDayCqWcmCoreImplDevicedetectionDeviceIdentificationModeImplProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqWcmCoreImplDevicedetectionDeviceIdentificationModeImplProperties   {
-  
-  private @Valid ConfigNodePropertyDropDown dimDefaultMode = null;
-  private @Valid ConfigNodePropertyBoolean dimAppcacheEnabled = null;
+  private ConfigNodePropertyDropDown dimDefaultMode;
+  private ConfigNodePropertyBoolean dimAppcacheEnabled;
+
+  public ComDayCqWcmCoreImplDevicedetectionDeviceIdentificationModeImplProperties() {
+  }
 
   /**
    **/
@@ -26,9 +37,11 @@ public class ComDayCqWcmCoreImplDevicedetectionDeviceIdentificationModeImplPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("dim.default.mode")
-  public ConfigNodePropertyDropDown getDimDefaultMode() {
+  @Valid public ConfigNodePropertyDropDown getDimDefaultMode() {
     return dimDefaultMode;
   }
+
+  @JsonProperty("dim.default.mode")
   public void setDimDefaultMode(ConfigNodePropertyDropDown dimDefaultMode) {
     this.dimDefaultMode = dimDefaultMode;
   }
@@ -43,16 +56,18 @@ public class ComDayCqWcmCoreImplDevicedetectionDeviceIdentificationModeImplPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("dim.appcache.enabled")
-  public ConfigNodePropertyBoolean getDimAppcacheEnabled() {
+  @Valid public ConfigNodePropertyBoolean getDimAppcacheEnabled() {
     return dimAppcacheEnabled;
   }
+
+  @JsonProperty("dim.appcache.enabled")
   public void setDimAppcacheEnabled(ConfigNodePropertyBoolean dimAppcacheEnabled) {
     this.dimAppcacheEnabled = dimAppcacheEnabled;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -60,8 +75,8 @@ public class ComDayCqWcmCoreImplDevicedetectionDeviceIdentificationModeImplPrope
       return false;
     }
     ComDayCqWcmCoreImplDevicedetectionDeviceIdentificationModeImplProperties comDayCqWcmCoreImplDevicedetectionDeviceIdentificationModeImplProperties = (ComDayCqWcmCoreImplDevicedetectionDeviceIdentificationModeImplProperties) o;
-    return Objects.equals(dimDefaultMode, comDayCqWcmCoreImplDevicedetectionDeviceIdentificationModeImplProperties.dimDefaultMode) &&
-        Objects.equals(dimAppcacheEnabled, comDayCqWcmCoreImplDevicedetectionDeviceIdentificationModeImplProperties.dimAppcacheEnabled);
+    return Objects.equals(this.dimDefaultMode, comDayCqWcmCoreImplDevicedetectionDeviceIdentificationModeImplProperties.dimDefaultMode) &&
+        Objects.equals(this.dimAppcacheEnabled, comDayCqWcmCoreImplDevicedetectionDeviceIdentificationModeImplProperties.dimAppcacheEnabled);
   }
 
   @Override
@@ -84,11 +99,9 @@ public class ComDayCqWcmCoreImplDevicedetectionDeviceIdentificationModeImplPrope
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

@@ -1,3 +1,13 @@
+/*
+ * Adobe Experience Manager OSGI config (AEM) API
+ *
+ * Swagger AEM OSGI is an OpenAPI specification for Adobe Experience Manager (AEM) OSGI Configurations API
+ *
+ * OpenAPI document version: 1.0.0-pre.0
+ * Maintained by: opensource@shinesolutions.com
+ *
+ * AUTO-GENERATED FILE, DO NOT MODIFY!
+ */
 package org.openapitools.model;
 
 import java.util.Objects;
@@ -15,24 +25,24 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2019-08-05T00:56:20.785Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2026-10-07T12:53:42.280804918Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingDistributionSerializationImplDistributionPackageBuProperties   {
   
-  private ConfigNodePropertyString name = null;
-  private ConfigNodePropertyDropDown type = null;
-  private ConfigNodePropertyString formatTarget = null;
-  private ConfigNodePropertyString tempFsFolder = null;
-  private ConfigNodePropertyInteger fileThreshold = null;
-  private ConfigNodePropertyDropDown memoryUnit = null;
-  private ConfigNodePropertyBoolean useOffHeapMemory = null;
-  private ConfigNodePropertyDropDown digestAlgorithm = null;
-  private ConfigNodePropertyInteger monitoringQueueSize = null;
-  private ConfigNodePropertyInteger cleanupDelay = null;
-  private ConfigNodePropertyArray packageFilters = null;
-  private ConfigNodePropertyArray propertyFilters = null;
+  private ConfigNodePropertyString name;
+  private ConfigNodePropertyDropDown type;
+  private ConfigNodePropertyString formatTarget;
+  private ConfigNodePropertyString tempFsFolder;
+  private ConfigNodePropertyInteger fileThreshold;
+  private ConfigNodePropertyDropDown memoryUnit;
+  private ConfigNodePropertyBoolean useOffHeapMemory;
+  private ConfigNodePropertyDropDown digestAlgorithm;
+  private ConfigNodePropertyInteger monitoringQueueSize;
+  private ConfigNodePropertyInteger cleanupDelay;
+  private ConfigNodePropertyArray packageFilters;
+  private ConfigNodePropertyArray propertyFilters;
 
   /**
-   **/
+   */
   public OrgApacheSlingDistributionSerializationImplDistributionPackageBuProperties name(ConfigNodePropertyString name) {
     this.name = name;
     return this;
@@ -49,7 +59,7 @@ public class OrgApacheSlingDistributionSerializationImplDistributionPackageBuPro
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingDistributionSerializationImplDistributionPackageBuProperties type(ConfigNodePropertyDropDown type) {
     this.type = type;
     return this;
@@ -66,7 +76,7 @@ public class OrgApacheSlingDistributionSerializationImplDistributionPackageBuPro
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingDistributionSerializationImplDistributionPackageBuProperties formatTarget(ConfigNodePropertyString formatTarget) {
     this.formatTarget = formatTarget;
     return this;
@@ -83,7 +93,7 @@ public class OrgApacheSlingDistributionSerializationImplDistributionPackageBuPro
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingDistributionSerializationImplDistributionPackageBuProperties tempFsFolder(ConfigNodePropertyString tempFsFolder) {
     this.tempFsFolder = tempFsFolder;
     return this;
@@ -100,7 +110,7 @@ public class OrgApacheSlingDistributionSerializationImplDistributionPackageBuPro
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingDistributionSerializationImplDistributionPackageBuProperties fileThreshold(ConfigNodePropertyInteger fileThreshold) {
     this.fileThreshold = fileThreshold;
     return this;
@@ -117,7 +127,7 @@ public class OrgApacheSlingDistributionSerializationImplDistributionPackageBuPro
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingDistributionSerializationImplDistributionPackageBuProperties memoryUnit(ConfigNodePropertyDropDown memoryUnit) {
     this.memoryUnit = memoryUnit;
     return this;
@@ -134,7 +144,7 @@ public class OrgApacheSlingDistributionSerializationImplDistributionPackageBuPro
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingDistributionSerializationImplDistributionPackageBuProperties useOffHeapMemory(ConfigNodePropertyBoolean useOffHeapMemory) {
     this.useOffHeapMemory = useOffHeapMemory;
     return this;
@@ -151,7 +161,7 @@ public class OrgApacheSlingDistributionSerializationImplDistributionPackageBuPro
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingDistributionSerializationImplDistributionPackageBuProperties digestAlgorithm(ConfigNodePropertyDropDown digestAlgorithm) {
     this.digestAlgorithm = digestAlgorithm;
     return this;
@@ -168,7 +178,7 @@ public class OrgApacheSlingDistributionSerializationImplDistributionPackageBuPro
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingDistributionSerializationImplDistributionPackageBuProperties monitoringQueueSize(ConfigNodePropertyInteger monitoringQueueSize) {
     this.monitoringQueueSize = monitoringQueueSize;
     return this;
@@ -185,7 +195,7 @@ public class OrgApacheSlingDistributionSerializationImplDistributionPackageBuPro
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingDistributionSerializationImplDistributionPackageBuProperties cleanupDelay(ConfigNodePropertyInteger cleanupDelay) {
     this.cleanupDelay = cleanupDelay;
     return this;
@@ -202,7 +212,7 @@ public class OrgApacheSlingDistributionSerializationImplDistributionPackageBuPro
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingDistributionSerializationImplDistributionPackageBuProperties packageFilters(ConfigNodePropertyArray packageFilters) {
     this.packageFilters = packageFilters;
     return this;
@@ -219,7 +229,7 @@ public class OrgApacheSlingDistributionSerializationImplDistributionPackageBuPro
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingDistributionSerializationImplDistributionPackageBuProperties propertyFilters(ConfigNodePropertyArray propertyFilters) {
     this.propertyFilters = propertyFilters;
     return this;
@@ -237,7 +247,7 @@ public class OrgApacheSlingDistributionSerializationImplDistributionPackageBuPro
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -289,11 +299,8 @@ public class OrgApacheSlingDistributionSerializationImplDistributionPackageBuPro
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

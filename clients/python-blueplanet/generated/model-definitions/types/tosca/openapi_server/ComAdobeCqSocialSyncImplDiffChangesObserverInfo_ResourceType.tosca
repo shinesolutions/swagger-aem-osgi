@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqSocialSyncImplDiffChangesObserverInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqSocialSyncImplDiffChangesObserverInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComAdobeCqSocialSyncImplDiffChangesObserverProperties = openapi_server.resourceTypes.ComAdobeCqSocialSyncImplDiffChangesObserverProperties
+}
+resourceTypes {
+
+  ComAdobeCqSocialSyncImplDiffChangesObserverInfo {
+    title = ComAdobeCqSocialSyncImplDiffChangesObserverInfo
+    description = ComAdobeCqSocialSyncImplDiffChangesObserverInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComAdobeCqSocialSyncImplDiffChangesObserverProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqSocialSyncImplDiffChangesObserverInfo {
+    title = ComAdobeCqSocialSyncImplDiffChangesObserverInfo
+    description = ComAdobeCqSocialSyncImplDiffChangesObserverInfo
+    implements = openapi_server.resourceTypes.ComAdobeCqSocialSyncImplDiffChangesObserverInfo
+
+  }
+}

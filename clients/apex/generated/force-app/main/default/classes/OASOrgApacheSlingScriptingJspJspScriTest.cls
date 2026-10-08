@@ -72,17 +72,17 @@ private class OASOrgApacheSlingScriptingJspJspScriTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASOrgApacheSlingScriptingJspJspScri orgApacheSlingScriptingJspJspScriptEngineFactoryProperties = new OASOrgApacheSlingScriptingJspJspScri();
-        Map<String, String> propertyMappings = orgApacheSlingScriptingJspJspScriptEngineFactoryProperties.getPropertyMappings();
-        System.assertEquals('jasperCompilerTargetVM', propertyMappings.get('jasper.compilerTargetVM'));
-        System.assertEquals('jasperCompilerSourceVM', propertyMappings.get('jasper.compilerSourceVM'));
-        System.assertEquals('jasperClassdebuginfo', propertyMappings.get('jasper.classdebuginfo'));
-        System.assertEquals('jasperEnablePooling', propertyMappings.get('jasper.enablePooling'));
-        System.assertEquals('jasperIeClassId', propertyMappings.get('jasper.ieClassId'));
-        System.assertEquals('jasperGenStringAsCharArray', propertyMappings.get('jasper.genStringAsCharArray'));
-        System.assertEquals('jasperKeepgenerated', propertyMappings.get('jasper.keepgenerated'));
-        System.assertEquals('jasperMappedfile', propertyMappings.get('jasper.mappedfile'));
-        System.assertEquals('jasperTrimSpaces', propertyMappings.get('jasper.trimSpaces'));
-        System.assertEquals('jasperDisplaySourceFragments', propertyMappings.get('jasper.displaySourceFragments'));
-        System.assertEquals('defaultIsSession', propertyMappings.get('default.is.session'));
+        Map<String, String> x-property-mappings = orgApacheSlingScriptingJspJspScriptEngineFactoryProperties.getx-property-mappings();
+        System.assertEquals('jasperCompilerTargetVM', x-property-mappings.get('jasper.compilerTargetVM'));
+        System.assertEquals('jasperCompilerSourceVM', x-property-mappings.get('jasper.compilerSourceVM'));
+        System.assertEquals('jasperClassdebuginfo', x-property-mappings.get('jasper.classdebuginfo'));
+        System.assertEquals('jasperEnablePooling', x-property-mappings.get('jasper.enablePooling'));
+        System.assertEquals('jasperIeClassId', x-property-mappings.get('jasper.ieClassId'));
+        System.assertEquals('jasperGenStringAsCharArray', x-property-mappings.get('jasper.genStringAsCharArray'));
+        System.assertEquals('jasperKeepgenerated', x-property-mappings.get('jasper.keepgenerated'));
+        System.assertEquals('jasperMappedfile', x-property-mappings.get('jasper.mappedfile'));
+        System.assertEquals('jasperTrimSpaces', x-property-mappings.get('jasper.trimSpaces'));
+        System.assertEquals('jasperDisplaySourceFragments', x-property-mappings.get('jasper.displaySourceFragments'));
+        System.assertEquals('defaultIsSession', x-property-mappings.get('default.is.session'));
     }
 }

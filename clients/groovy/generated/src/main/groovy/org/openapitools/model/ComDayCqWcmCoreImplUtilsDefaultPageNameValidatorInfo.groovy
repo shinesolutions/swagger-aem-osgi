@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqWcmCoreImplUtilsDefaultPageNameValidatorPr
 
 @Canonical
 class ComDayCqWcmCoreImplUtilsDefaultPageNameValidatorInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqWcmCoreImplUtilsDefaultPageNameValidatorProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqWcmCoreImplUtilsDefaultPageNameValidatorProperties properties
 }

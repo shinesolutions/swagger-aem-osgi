@@ -7,18 +7,18 @@ import org.openapitools.model.ComAdobeCqHistoryImplHistoryServiceImplProperties;
 
 @Canonical
 class ComAdobeCqHistoryImplHistoryServiceImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqHistoryImplHistoryServiceImplProperties properties = null
-
-    String additionalProperties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqHistoryImplHistoryServiceImplProperties properties
+    
+    String additionalProperties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

@@ -72,8 +72,8 @@ private class OASComDayCqReplicationImplReplicatioTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqReplicationImplReplicatio comDayCqReplicationImplReplicationReceiverImplProperties = new OASComDayCqReplicationImplReplicatio();
-        Map<String, String> propertyMappings = comDayCqReplicationImplReplicationReceiverImplProperties.getPropertyMappings();
-        System.assertEquals('receiverTmpfileThreshold', propertyMappings.get('receiver.tmpfile.threshold'));
-        System.assertEquals('receiverPackagesUseInstall', propertyMappings.get('receiver.packages.use.install'));
+        Map<String, String> x-property-mappings = comDayCqReplicationImplReplicationReceiverImplProperties.getx-property-mappings();
+        System.assertEquals('receiverTmpfileThreshold', x-property-mappings.get('receiver.tmpfile.threshold'));
+        System.assertEquals('receiverPackagesUseInstall', x-property-mappings.get('receiver.packages.use.install'));
     }
 }

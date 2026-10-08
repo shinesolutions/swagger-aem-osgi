@@ -1,35 +1,46 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * OrgApacheSlingCommonsLogLogManagerFactoryWriterProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class OrgApacheSlingCommonsLogLogManagerFactoryWriterProperties   {
-  @JsonProperty("org.apache.sling.commons.log.file")
-  private ConfigNodePropertyString orgApacheSlingCommonsLogFile = null;
+@JsonTypeName("orgApacheSlingCommonsLogLogManagerFactoryWriterProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class OrgApacheSlingCommonsLogLogManagerFactoryWriterProperties {
 
-  @JsonProperty("org.apache.sling.commons.log.file.number")
-  private ConfigNodePropertyInteger orgApacheSlingCommonsLogFileNumber = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString orgApacheSlingCommonsLogFile;
 
-  @JsonProperty("org.apache.sling.commons.log.file.size")
-  private ConfigNodePropertyString orgApacheSlingCommonsLogFileSize = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger orgApacheSlingCommonsLogFileNumber;
 
-  @JsonProperty("org.apache.sling.commons.log.file.buffered")
-  private ConfigNodePropertyBoolean orgApacheSlingCommonsLogFileBuffered = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString orgApacheSlingCommonsLogFileSize;
 
-  public OrgApacheSlingCommonsLogLogManagerFactoryWriterProperties orgApacheSlingCommonsLogFile(ConfigNodePropertyString orgApacheSlingCommonsLogFile) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean orgApacheSlingCommonsLogFileBuffered;
+
+  public OrgApacheSlingCommonsLogLogManagerFactoryWriterProperties orgApacheSlingCommonsLogFile(@Nullable ConfigNodePropertyString orgApacheSlingCommonsLogFile) {
     this.orgApacheSlingCommonsLogFile = orgApacheSlingCommonsLogFile;
     return this;
   }
@@ -37,20 +48,20 @@ public class OrgApacheSlingCommonsLogLogManagerFactoryWriterProperties   {
   /**
    * Get orgApacheSlingCommonsLogFile
    * @return orgApacheSlingCommonsLogFile
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getOrgApacheSlingCommonsLogFile() {
+   */
+  @Valid 
+  @Schema(name = "org.apache.sling.commons.log.file", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("org.apache.sling.commons.log.file")
+  public @Nullable ConfigNodePropertyString getOrgApacheSlingCommonsLogFile() {
     return orgApacheSlingCommonsLogFile;
   }
 
-  public void setOrgApacheSlingCommonsLogFile(ConfigNodePropertyString orgApacheSlingCommonsLogFile) {
+  @JsonProperty("org.apache.sling.commons.log.file")
+  public void setOrgApacheSlingCommonsLogFile(@Nullable ConfigNodePropertyString orgApacheSlingCommonsLogFile) {
     this.orgApacheSlingCommonsLogFile = orgApacheSlingCommonsLogFile;
   }
 
-  public OrgApacheSlingCommonsLogLogManagerFactoryWriterProperties orgApacheSlingCommonsLogFileNumber(ConfigNodePropertyInteger orgApacheSlingCommonsLogFileNumber) {
+  public OrgApacheSlingCommonsLogLogManagerFactoryWriterProperties orgApacheSlingCommonsLogFileNumber(@Nullable ConfigNodePropertyInteger orgApacheSlingCommonsLogFileNumber) {
     this.orgApacheSlingCommonsLogFileNumber = orgApacheSlingCommonsLogFileNumber;
     return this;
   }
@@ -58,20 +69,20 @@ public class OrgApacheSlingCommonsLogLogManagerFactoryWriterProperties   {
   /**
    * Get orgApacheSlingCommonsLogFileNumber
    * @return orgApacheSlingCommonsLogFileNumber
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getOrgApacheSlingCommonsLogFileNumber() {
+   */
+  @Valid 
+  @Schema(name = "org.apache.sling.commons.log.file.number", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("org.apache.sling.commons.log.file.number")
+  public @Nullable ConfigNodePropertyInteger getOrgApacheSlingCommonsLogFileNumber() {
     return orgApacheSlingCommonsLogFileNumber;
   }
 
-  public void setOrgApacheSlingCommonsLogFileNumber(ConfigNodePropertyInteger orgApacheSlingCommonsLogFileNumber) {
+  @JsonProperty("org.apache.sling.commons.log.file.number")
+  public void setOrgApacheSlingCommonsLogFileNumber(@Nullable ConfigNodePropertyInteger orgApacheSlingCommonsLogFileNumber) {
     this.orgApacheSlingCommonsLogFileNumber = orgApacheSlingCommonsLogFileNumber;
   }
 
-  public OrgApacheSlingCommonsLogLogManagerFactoryWriterProperties orgApacheSlingCommonsLogFileSize(ConfigNodePropertyString orgApacheSlingCommonsLogFileSize) {
+  public OrgApacheSlingCommonsLogLogManagerFactoryWriterProperties orgApacheSlingCommonsLogFileSize(@Nullable ConfigNodePropertyString orgApacheSlingCommonsLogFileSize) {
     this.orgApacheSlingCommonsLogFileSize = orgApacheSlingCommonsLogFileSize;
     return this;
   }
@@ -79,20 +90,20 @@ public class OrgApacheSlingCommonsLogLogManagerFactoryWriterProperties   {
   /**
    * Get orgApacheSlingCommonsLogFileSize
    * @return orgApacheSlingCommonsLogFileSize
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getOrgApacheSlingCommonsLogFileSize() {
+   */
+  @Valid 
+  @Schema(name = "org.apache.sling.commons.log.file.size", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("org.apache.sling.commons.log.file.size")
+  public @Nullable ConfigNodePropertyString getOrgApacheSlingCommonsLogFileSize() {
     return orgApacheSlingCommonsLogFileSize;
   }
 
-  public void setOrgApacheSlingCommonsLogFileSize(ConfigNodePropertyString orgApacheSlingCommonsLogFileSize) {
+  @JsonProperty("org.apache.sling.commons.log.file.size")
+  public void setOrgApacheSlingCommonsLogFileSize(@Nullable ConfigNodePropertyString orgApacheSlingCommonsLogFileSize) {
     this.orgApacheSlingCommonsLogFileSize = orgApacheSlingCommonsLogFileSize;
   }
 
-  public OrgApacheSlingCommonsLogLogManagerFactoryWriterProperties orgApacheSlingCommonsLogFileBuffered(ConfigNodePropertyBoolean orgApacheSlingCommonsLogFileBuffered) {
+  public OrgApacheSlingCommonsLogLogManagerFactoryWriterProperties orgApacheSlingCommonsLogFileBuffered(@Nullable ConfigNodePropertyBoolean orgApacheSlingCommonsLogFileBuffered) {
     this.orgApacheSlingCommonsLogFileBuffered = orgApacheSlingCommonsLogFileBuffered;
     return this;
   }
@@ -100,22 +111,21 @@ public class OrgApacheSlingCommonsLogLogManagerFactoryWriterProperties   {
   /**
    * Get orgApacheSlingCommonsLogFileBuffered
    * @return orgApacheSlingCommonsLogFileBuffered
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getOrgApacheSlingCommonsLogFileBuffered() {
+   */
+  @Valid 
+  @Schema(name = "org.apache.sling.commons.log.file.buffered", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("org.apache.sling.commons.log.file.buffered")
+  public @Nullable ConfigNodePropertyBoolean getOrgApacheSlingCommonsLogFileBuffered() {
     return orgApacheSlingCommonsLogFileBuffered;
   }
 
-  public void setOrgApacheSlingCommonsLogFileBuffered(ConfigNodePropertyBoolean orgApacheSlingCommonsLogFileBuffered) {
+  @JsonProperty("org.apache.sling.commons.log.file.buffered")
+  public void setOrgApacheSlingCommonsLogFileBuffered(@Nullable ConfigNodePropertyBoolean orgApacheSlingCommonsLogFileBuffered) {
     this.orgApacheSlingCommonsLogFileBuffered = orgApacheSlingCommonsLogFileBuffered;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -138,7 +148,6 @@ public class OrgApacheSlingCommonsLogLogManagerFactoryWriterProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class OrgApacheSlingCommonsLogLogManagerFactoryWriterProperties {\n");
-    
     sb.append("    orgApacheSlingCommonsLogFile: ").append(toIndentedString(orgApacheSlingCommonsLogFile)).append("\n");
     sb.append("    orgApacheSlingCommonsLogFileNumber: ").append(toIndentedString(orgApacheSlingCommonsLogFileNumber)).append("\n");
     sb.append("    orgApacheSlingCommonsLogFileSize: ").append(toIndentedString(orgApacheSlingCommonsLogFileSize)).append("\n");
@@ -151,11 +160,8 @@ public class OrgApacheSlingCommonsLogLogManagerFactoryWriterProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

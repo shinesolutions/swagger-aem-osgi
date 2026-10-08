@@ -1,0 +1,1 @@
+sling.max.record.requests,propertylist,$location,apply,sling.max.calls,sling.store.pattern.requests,action,post,sling.trace.allow,sling.additional.response.headers,sling.serverinfo,sling.max.inclusions,delete

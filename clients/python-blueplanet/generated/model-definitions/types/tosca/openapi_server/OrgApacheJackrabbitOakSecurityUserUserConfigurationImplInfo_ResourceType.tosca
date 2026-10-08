@@ -1,0 +1,61 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheJackrabbitOakSecurityUserUserConfigurationImplInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheJackrabbitOakSecurityUserUserConfigurationImplInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties = openapi_server.resourceTypes.OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties
+}
+resourceTypes {
+
+  OrgApacheJackrabbitOakSecurityUserUserConfigurationImplInfo {
+    title = OrgApacheJackrabbitOakSecurityUserUserConfigurationImplInfo
+    description = OrgApacheJackrabbitOakSecurityUserUserConfigurationImplInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties
+          description = ""
+          optional = false
+        }
+        bundle_location {
+          type =  string
+          description = ""
+          optional = false
+        }
+        service_location {
+          type =  string
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheJackrabbitOakSecurityUserUserConfigurationImplInfo {
+    title = OrgApacheJackrabbitOakSecurityUserUserConfigurationImplInfo
+    description = OrgApacheJackrabbitOakSecurityUserUserConfigurationImplInfo
+    implements = openapi_server.resourceTypes.OrgApacheJackrabbitOakSecurityUserUserConfigurationImplInfo
+
+  }
+}

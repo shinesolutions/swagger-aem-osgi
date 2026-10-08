@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqScreensMonitoringImplScreensMonitoringSe
 
 @Canonical
 class ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProperties properties
 }

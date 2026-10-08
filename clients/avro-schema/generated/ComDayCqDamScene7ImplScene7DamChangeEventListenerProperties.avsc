@@ -1,0 +1,21 @@
+{
+  "namespace": "model",
+  "type": "record",
+  "doc": "",
+  "name": "ComDayCqDamScene7ImplScene7DamChangeEventListenerProperties",
+  "fields": [
+    {
+      "name": "cq.dam.scene7.damchangeeventlistener.enabled",
+      "type": ["null", "model.ConfigNodePropertyBoolean"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "cq.dam.scene7.damchangeeventlistener.observed.paths",
+      "type": ["null", "model.ConfigNodePropertyArray"],
+      "doc": "",
+      "default": null
+    }
+  ]
+
+}

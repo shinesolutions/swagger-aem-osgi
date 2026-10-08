@@ -2,10 +2,10 @@
 # ComDayCqDamS7damCommonPostServletsSetModifyHandlerProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**slingPeriodpostPeriodoperation** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**slingPeriodservletPeriodmethods** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **slingPostOperation** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **slingServletMethods** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
 
 
 

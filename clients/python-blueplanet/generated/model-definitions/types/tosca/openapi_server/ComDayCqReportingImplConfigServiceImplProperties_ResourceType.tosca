@@ -1,0 +1,83 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqReportingImplConfigServiceImplProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqReportingImplConfigServiceImplProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComDayCqReportingImplConfigServiceImplProperties {
+    title = ComDayCqReportingImplConfigServiceImplProperties
+    description = ComDayCqReportingImplConfigServiceImplProperties
+    derivedFrom = Root
+    properties {
+        repconf_timezone {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        repconf_locale {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        repconf_snapshots {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        repconf_repdir {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        repconf_hourofday {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        repconf_minofhour {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        repconf_maxrows {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        repconf_fakedata {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        repconf_snapshotuser {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        repconf_enforcesnapshotuser {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqReportingImplConfigServiceImplProperties {
+    title = ComDayCqReportingImplConfigServiceImplProperties
+    description = ComDayCqReportingImplConfigServiceImplProperties
+    implements = openapi_server.resourceTypes.ComDayCqReportingImplConfigServiceImplProperties
+
+  }
+}

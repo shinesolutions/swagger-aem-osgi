@@ -1,6 +1,7 @@
 # NodeSwaggerAemOsgi.ComAdobeCqDamS7imagingImplPsPlatformServerServletProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **cacheEnable** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] 

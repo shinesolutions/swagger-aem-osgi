@@ -1,30 +1,41 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * OrgApacheSlingJcrResourcesecurityImplResourceAccessGateFactoryProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class OrgApacheSlingJcrResourcesecurityImplResourceAccessGateFactoryProperties   {
-  @JsonProperty("path")
-  private ConfigNodePropertyString path = null;
+@JsonTypeName("orgApacheSlingJcrResourcesecurityImplResourceAccessGateFactoryProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class OrgApacheSlingJcrResourcesecurityImplResourceAccessGateFactoryProperties {
 
-  @JsonProperty("checkpath.prefix")
-  private ConfigNodePropertyString checkpathPrefix = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString path;
 
-  @JsonProperty("jcrPath")
-  private ConfigNodePropertyString jcrPath = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString checkpathPrefix;
 
-  public OrgApacheSlingJcrResourcesecurityImplResourceAccessGateFactoryProperties path(ConfigNodePropertyString path) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString jcrPath;
+
+  public OrgApacheSlingJcrResourcesecurityImplResourceAccessGateFactoryProperties path(@Nullable ConfigNodePropertyString path) {
     this.path = path;
     return this;
   }
@@ -32,20 +43,20 @@ public class OrgApacheSlingJcrResourcesecurityImplResourceAccessGateFactoryPrope
   /**
    * Get path
    * @return path
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getPath() {
+   */
+  @Valid 
+  @Schema(name = "path", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("path")
+  public @Nullable ConfigNodePropertyString getPath() {
     return path;
   }
 
-  public void setPath(ConfigNodePropertyString path) {
+  @JsonProperty("path")
+  public void setPath(@Nullable ConfigNodePropertyString path) {
     this.path = path;
   }
 
-  public OrgApacheSlingJcrResourcesecurityImplResourceAccessGateFactoryProperties checkpathPrefix(ConfigNodePropertyString checkpathPrefix) {
+  public OrgApacheSlingJcrResourcesecurityImplResourceAccessGateFactoryProperties checkpathPrefix(@Nullable ConfigNodePropertyString checkpathPrefix) {
     this.checkpathPrefix = checkpathPrefix;
     return this;
   }
@@ -53,20 +64,20 @@ public class OrgApacheSlingJcrResourcesecurityImplResourceAccessGateFactoryPrope
   /**
    * Get checkpathPrefix
    * @return checkpathPrefix
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getCheckpathPrefix() {
+   */
+  @Valid 
+  @Schema(name = "checkpath.prefix", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("checkpath.prefix")
+  public @Nullable ConfigNodePropertyString getCheckpathPrefix() {
     return checkpathPrefix;
   }
 
-  public void setCheckpathPrefix(ConfigNodePropertyString checkpathPrefix) {
+  @JsonProperty("checkpath.prefix")
+  public void setCheckpathPrefix(@Nullable ConfigNodePropertyString checkpathPrefix) {
     this.checkpathPrefix = checkpathPrefix;
   }
 
-  public OrgApacheSlingJcrResourcesecurityImplResourceAccessGateFactoryProperties jcrPath(ConfigNodePropertyString jcrPath) {
+  public OrgApacheSlingJcrResourcesecurityImplResourceAccessGateFactoryProperties jcrPath(@Nullable ConfigNodePropertyString jcrPath) {
     this.jcrPath = jcrPath;
     return this;
   }
@@ -74,22 +85,21 @@ public class OrgApacheSlingJcrResourcesecurityImplResourceAccessGateFactoryPrope
   /**
    * Get jcrPath
    * @return jcrPath
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getJcrPath() {
+   */
+  @Valid 
+  @Schema(name = "jcrPath", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("jcrPath")
+  public @Nullable ConfigNodePropertyString getJcrPath() {
     return jcrPath;
   }
 
-  public void setJcrPath(ConfigNodePropertyString jcrPath) {
+  @JsonProperty("jcrPath")
+  public void setJcrPath(@Nullable ConfigNodePropertyString jcrPath) {
     this.jcrPath = jcrPath;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -111,7 +121,6 @@ public class OrgApacheSlingJcrResourcesecurityImplResourceAccessGateFactoryPrope
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class OrgApacheSlingJcrResourcesecurityImplResourceAccessGateFactoryProperties {\n");
-    
     sb.append("    path: ").append(toIndentedString(path)).append("\n");
     sb.append("    checkpathPrefix: ").append(toIndentedString(checkpathPrefix)).append("\n");
     sb.append("    jcrPath: ").append(toIndentedString(jcrPath)).append("\n");
@@ -123,11 +132,8 @@ public class OrgApacheSlingJcrResourcesecurityImplResourceAccessGateFactoryPrope
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

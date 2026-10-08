@@ -1,3 +1,13 @@
+/*
+ * Adobe Experience Manager OSGI config (AEM) API
+ *
+ * Swagger AEM OSGI is an OpenAPI specification for Adobe Experience Manager (AEM) OSGI Configurations API
+ *
+ * OpenAPI document version: 1.0.0-pre.0
+ * Maintained by: opensource@shinesolutions.com
+ *
+ * AUTO-GENERATED FILE, DO NOT MODIFY!
+ */
 package org.openapitools.model;
 
 import java.util.Objects;
@@ -14,28 +24,28 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2019-08-05T00:56:20.785Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2026-10-07T12:53:42.280804918Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties   {
   
-  private ConfigNodePropertyString usersPath = null;
-  private ConfigNodePropertyString groupsPath = null;
-  private ConfigNodePropertyString systemRelativePath = null;
-  private ConfigNodePropertyInteger defaultDepth = null;
-  private ConfigNodePropertyDropDown importBehavior = null;
-  private ConfigNodePropertyString passwordHashAlgorithm = null;
-  private ConfigNodePropertyInteger passwordHashIterations = null;
-  private ConfigNodePropertyInteger passwordSaltSize = null;
-  private ConfigNodePropertyBoolean omitAdminPw = null;
-  private ConfigNodePropertyBoolean supportAutoSave = null;
-  private ConfigNodePropertyInteger passwordMaxAge = null;
-  private ConfigNodePropertyBoolean initialPasswordChange = null;
-  private ConfigNodePropertyInteger passwordHistorySize = null;
-  private ConfigNodePropertyBoolean passwordExpiryForAdmin = null;
-  private ConfigNodePropertyInteger cacheExpiration = null;
-  private ConfigNodePropertyBoolean enableRFC7613UsercaseMappedProfile = null;
+  private ConfigNodePropertyString usersPath;
+  private ConfigNodePropertyString groupsPath;
+  private ConfigNodePropertyString systemRelativePath;
+  private ConfigNodePropertyInteger defaultDepth;
+  private ConfigNodePropertyDropDown importBehavior;
+  private ConfigNodePropertyString passwordHashAlgorithm;
+  private ConfigNodePropertyInteger passwordHashIterations;
+  private ConfigNodePropertyInteger passwordSaltSize;
+  private ConfigNodePropertyBoolean omitAdminPw;
+  private ConfigNodePropertyBoolean supportAutoSave;
+  private ConfigNodePropertyInteger passwordMaxAge;
+  private ConfigNodePropertyBoolean initialPasswordChange;
+  private ConfigNodePropertyInteger passwordHistorySize;
+  private ConfigNodePropertyBoolean passwordExpiryForAdmin;
+  private ConfigNodePropertyInteger cacheExpiration;
+  private ConfigNodePropertyBoolean enableRFC7613UsercaseMappedProfile;
 
   /**
-   **/
+   */
   public OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties usersPath(ConfigNodePropertyString usersPath) {
     this.usersPath = usersPath;
     return this;
@@ -52,7 +62,7 @@ public class OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties  
   }
 
   /**
-   **/
+   */
   public OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties groupsPath(ConfigNodePropertyString groupsPath) {
     this.groupsPath = groupsPath;
     return this;
@@ -69,7 +79,7 @@ public class OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties  
   }
 
   /**
-   **/
+   */
   public OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties systemRelativePath(ConfigNodePropertyString systemRelativePath) {
     this.systemRelativePath = systemRelativePath;
     return this;
@@ -86,7 +96,7 @@ public class OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties  
   }
 
   /**
-   **/
+   */
   public OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties defaultDepth(ConfigNodePropertyInteger defaultDepth) {
     this.defaultDepth = defaultDepth;
     return this;
@@ -103,7 +113,7 @@ public class OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties  
   }
 
   /**
-   **/
+   */
   public OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties importBehavior(ConfigNodePropertyDropDown importBehavior) {
     this.importBehavior = importBehavior;
     return this;
@@ -120,7 +130,7 @@ public class OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties  
   }
 
   /**
-   **/
+   */
   public OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties passwordHashAlgorithm(ConfigNodePropertyString passwordHashAlgorithm) {
     this.passwordHashAlgorithm = passwordHashAlgorithm;
     return this;
@@ -137,7 +147,7 @@ public class OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties  
   }
 
   /**
-   **/
+   */
   public OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties passwordHashIterations(ConfigNodePropertyInteger passwordHashIterations) {
     this.passwordHashIterations = passwordHashIterations;
     return this;
@@ -154,7 +164,7 @@ public class OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties  
   }
 
   /**
-   **/
+   */
   public OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties passwordSaltSize(ConfigNodePropertyInteger passwordSaltSize) {
     this.passwordSaltSize = passwordSaltSize;
     return this;
@@ -171,7 +181,7 @@ public class OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties  
   }
 
   /**
-   **/
+   */
   public OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties omitAdminPw(ConfigNodePropertyBoolean omitAdminPw) {
     this.omitAdminPw = omitAdminPw;
     return this;
@@ -188,7 +198,7 @@ public class OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties  
   }
 
   /**
-   **/
+   */
   public OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties supportAutoSave(ConfigNodePropertyBoolean supportAutoSave) {
     this.supportAutoSave = supportAutoSave;
     return this;
@@ -205,7 +215,7 @@ public class OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties  
   }
 
   /**
-   **/
+   */
   public OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties passwordMaxAge(ConfigNodePropertyInteger passwordMaxAge) {
     this.passwordMaxAge = passwordMaxAge;
     return this;
@@ -222,7 +232,7 @@ public class OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties  
   }
 
   /**
-   **/
+   */
   public OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties initialPasswordChange(ConfigNodePropertyBoolean initialPasswordChange) {
     this.initialPasswordChange = initialPasswordChange;
     return this;
@@ -239,7 +249,7 @@ public class OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties  
   }
 
   /**
-   **/
+   */
   public OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties passwordHistorySize(ConfigNodePropertyInteger passwordHistorySize) {
     this.passwordHistorySize = passwordHistorySize;
     return this;
@@ -256,7 +266,7 @@ public class OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties  
   }
 
   /**
-   **/
+   */
   public OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties passwordExpiryForAdmin(ConfigNodePropertyBoolean passwordExpiryForAdmin) {
     this.passwordExpiryForAdmin = passwordExpiryForAdmin;
     return this;
@@ -273,7 +283,7 @@ public class OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties  
   }
 
   /**
-   **/
+   */
   public OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties cacheExpiration(ConfigNodePropertyInteger cacheExpiration) {
     this.cacheExpiration = cacheExpiration;
     return this;
@@ -290,7 +300,7 @@ public class OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties  
   }
 
   /**
-   **/
+   */
   public OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties enableRFC7613UsercaseMappedProfile(ConfigNodePropertyBoolean enableRFC7613UsercaseMappedProfile) {
     this.enableRFC7613UsercaseMappedProfile = enableRFC7613UsercaseMappedProfile;
     return this;
@@ -308,7 +318,7 @@ public class OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties  
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -368,11 +378,8 @@ public class OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties  
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

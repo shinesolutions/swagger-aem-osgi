@@ -1,0 +1,19 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "optout_cookies" },
+      {"model": "optout_headers" },
+      {"model": "optout_whitelist_cookies" },
+    ]
+  }]
+}

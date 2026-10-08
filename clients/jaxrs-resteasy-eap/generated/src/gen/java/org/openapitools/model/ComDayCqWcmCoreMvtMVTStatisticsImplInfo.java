@@ -4,28 +4,23 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ComDayCqWcmCoreMvtMVTStatisticsImplProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2019-08-05T01:00:05.540Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2026-10-07T12:54:26.576036107Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqWcmCoreMvtMVTStatisticsImplInfo   {
   
-
-  private String pid = null;
-
-  private String title = null;
-
-  private String description = null;
-
-  private ComDayCqWcmCoreMvtMVTStatisticsImplProperties properties = null;
-
-  private String bundleLocation = null;
-
-  private String serviceLocation = null;
+  private String pid;
+  private String title;
+  private String description;
+  private ComDayCqWcmCoreMvtMVTStatisticsImplProperties properties;
+  private String bundleLocation;
+  private String serviceLocation;
 
   /**
    **/
@@ -109,12 +104,12 @@ public class ComDayCqWcmCoreMvtMVTStatisticsImplInfo   {
       return false;
     }
     ComDayCqWcmCoreMvtMVTStatisticsImplInfo comDayCqWcmCoreMvtMVTStatisticsImplInfo = (ComDayCqWcmCoreMvtMVTStatisticsImplInfo) o;
-    return Objects.equals(pid, comDayCqWcmCoreMvtMVTStatisticsImplInfo.pid) &&
-        Objects.equals(title, comDayCqWcmCoreMvtMVTStatisticsImplInfo.title) &&
-        Objects.equals(description, comDayCqWcmCoreMvtMVTStatisticsImplInfo.description) &&
-        Objects.equals(properties, comDayCqWcmCoreMvtMVTStatisticsImplInfo.properties) &&
-        Objects.equals(bundleLocation, comDayCqWcmCoreMvtMVTStatisticsImplInfo.bundleLocation) &&
-        Objects.equals(serviceLocation, comDayCqWcmCoreMvtMVTStatisticsImplInfo.serviceLocation);
+    return Objects.equals(this.pid, comDayCqWcmCoreMvtMVTStatisticsImplInfo.pid) &&
+        Objects.equals(this.title, comDayCqWcmCoreMvtMVTStatisticsImplInfo.title) &&
+        Objects.equals(this.description, comDayCqWcmCoreMvtMVTStatisticsImplInfo.description) &&
+        Objects.equals(this.properties, comDayCqWcmCoreMvtMVTStatisticsImplInfo.properties) &&
+        Objects.equals(this.bundleLocation, comDayCqWcmCoreMvtMVTStatisticsImplInfo.bundleLocation) &&
+        Objects.equals(this.serviceLocation, comDayCqWcmCoreMvtMVTStatisticsImplInfo.serviceLocation);
   }
 
   @Override
@@ -142,10 +137,7 @@ public class ComDayCqWcmCoreMvtMVTStatisticsImplInfo   {
    * (except the first line).
    */
   private String toIndentedString(Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

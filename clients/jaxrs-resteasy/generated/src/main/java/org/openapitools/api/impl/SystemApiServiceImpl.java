@@ -732,12 +732,14 @@ import org.openapitools.api.NotFoundException;
 
 import java.io.InputStream;
 
+import javax.validation.constraints.*;
+import javax.validation.Valid;
 import javax.enterprise.context.RequestScoped;
 import javax.ws.rs.core.Response;
 import javax.ws.rs.core.SecurityContext;
 
 @RequestScoped
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2019-08-05T00:59:30.156Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2026-10-07T12:54:21.614735164Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class SystemApiServiceImpl implements SystemApiService {
       public Response adaptiveFormAndInteractiveCommunicationWebChannelConfiguration(Boolean post,Boolean apply,Boolean delete,String action,String $location,List<String> propertylist,Boolean showPlaceholder,Integer maximumCacheEntries,String afScriptingCompatversion,Boolean makeFileNameUnique,Boolean generatingCompliantData,SecurityContext securityContext)
       throws NotFoundException {
@@ -2539,7 +2541,7 @@ public class SystemApiServiceImpl implements SystemApiService {
       // do some magic!
       return Response.ok().entity(new ApiResponseMessage(ApiResponseMessage.OK, "magic!")).build();
   }
-      public Response comDayCqDamCoreImplMetadataEditorSelectComponentHandler(Boolean post,Boolean apply,Boolean delete,String action,String $location,List<String> propertylist,List<String> graniteColonData,SecurityContext securityContext)
+      public Response comDayCqDamCoreImplMetadataEditorSelectComponentHandler(Boolean post,Boolean apply,Boolean delete,String action,String $location,List<String> propertylist,List<String> graniteData,SecurityContext securityContext)
       throws NotFoundException {
       // do some magic!
       return Response.ok().entity(new ApiResponseMessage(ApiResponseMessage.OK, "magic!")).build();
@@ -2619,7 +2621,7 @@ public class SystemApiServiceImpl implements SystemApiService {
       // do some magic!
       return Response.ok().entity(new ApiResponseMessage(ApiResponseMessage.OK, "magic!")).build();
   }
-      public Response comDayCqDamCoreImplServletCompanionServlet(Boolean post,Boolean apply,Boolean delete,String action,String $location,List<String> propertylist,String moreInfo,String slashMntSlashOverlaySlashDamSlashGuiSlashContentSlashAssetsSlashMoreinfoHtmlSlash$LeftCurlyBracketPathRightCurlyBracket,SecurityContext securityContext)
+      public Response comDayCqDamCoreImplServletCompanionServlet(Boolean post,Boolean apply,Boolean delete,String action,String $location,List<String> propertylist,String moreInfo,String mntOverlayDamGuiContentAssetsMoreinfoHtml$LeftCurlyBracketPathRightCurlyBracket,SecurityContext securityContext)
       throws NotFoundException {
       // do some magic!
       return Response.ok().entity(new ApiResponseMessage(ApiResponseMessage.OK, "magic!")).build();

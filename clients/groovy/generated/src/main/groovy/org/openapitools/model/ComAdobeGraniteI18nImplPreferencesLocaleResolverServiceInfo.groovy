@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeGraniteI18nImplPreferencesLocaleResolverSe
 
 @Canonical
 class ComAdobeGraniteI18nImplPreferencesLocaleResolverServiceInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteI18nImplPreferencesLocaleResolverServiceProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteI18nImplPreferencesLocaleResolverServiceProperties properties
 }

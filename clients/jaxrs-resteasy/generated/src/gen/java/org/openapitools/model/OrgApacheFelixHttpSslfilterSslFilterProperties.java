@@ -4,25 +4,29 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2019-08-05T00:59:30.156Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2026-10-07T12:54:21.614735164Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheFelixHttpSslfilterSslFilterProperties   {
   
-  private ConfigNodePropertyString sslForwardHeader = null;
-  private ConfigNodePropertyString sslForwardValue = null;
-  private ConfigNodePropertyString sslForwardCertHeader = null;
-  private ConfigNodePropertyBoolean rewriteAbsoluteUrls = null;
+  private ConfigNodePropertyString sslForwardHeader;
+  private ConfigNodePropertyString sslForwardValue;
+  private ConfigNodePropertyString sslForwardCertHeader;
+  private ConfigNodePropertyBoolean rewriteAbsoluteUrls;
 
   /**
    **/
   
   @ApiModelProperty(value = "")
   @JsonProperty("ssl-forward.header")
+  @Valid
   public ConfigNodePropertyString getSslForwardHeader() {
     return sslForwardHeader;
   }
@@ -35,6 +39,7 @@ public class OrgApacheFelixHttpSslfilterSslFilterProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("ssl-forward.value")
+  @Valid
   public ConfigNodePropertyString getSslForwardValue() {
     return sslForwardValue;
   }
@@ -47,6 +52,7 @@ public class OrgApacheFelixHttpSslfilterSslFilterProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("ssl-forward-cert.header")
+  @Valid
   public ConfigNodePropertyString getSslForwardCertHeader() {
     return sslForwardCertHeader;
   }
@@ -59,6 +65,7 @@ public class OrgApacheFelixHttpSslfilterSslFilterProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("rewrite.absolute.urls")
+  @Valid
   public ConfigNodePropertyBoolean getRewriteAbsoluteUrls() {
     return rewriteAbsoluteUrls;
   }
@@ -68,7 +75,7 @@ public class OrgApacheFelixHttpSslfilterSslFilterProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -76,10 +83,10 @@ public class OrgApacheFelixHttpSslfilterSslFilterProperties   {
       return false;
     }
     OrgApacheFelixHttpSslfilterSslFilterProperties orgApacheFelixHttpSslfilterSslFilterProperties = (OrgApacheFelixHttpSslfilterSslFilterProperties) o;
-    return Objects.equals(sslForwardHeader, orgApacheFelixHttpSslfilterSslFilterProperties.sslForwardHeader) &&
-        Objects.equals(sslForwardValue, orgApacheFelixHttpSslfilterSslFilterProperties.sslForwardValue) &&
-        Objects.equals(sslForwardCertHeader, orgApacheFelixHttpSslfilterSslFilterProperties.sslForwardCertHeader) &&
-        Objects.equals(rewriteAbsoluteUrls, orgApacheFelixHttpSslfilterSslFilterProperties.rewriteAbsoluteUrls);
+    return Objects.equals(this.sslForwardHeader, orgApacheFelixHttpSslfilterSslFilterProperties.sslForwardHeader) &&
+        Objects.equals(this.sslForwardValue, orgApacheFelixHttpSslfilterSslFilterProperties.sslForwardValue) &&
+        Objects.equals(this.sslForwardCertHeader, orgApacheFelixHttpSslfilterSslFilterProperties.sslForwardCertHeader) &&
+        Objects.equals(this.rewriteAbsoluteUrls, orgApacheFelixHttpSslfilterSslFilterProperties.rewriteAbsoluteUrls);
   }
 
   @Override
@@ -104,11 +111,8 @@ public class OrgApacheFelixHttpSslfilterSslFilterProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

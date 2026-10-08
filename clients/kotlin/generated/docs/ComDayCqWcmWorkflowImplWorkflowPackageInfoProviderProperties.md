@@ -2,10 +2,10 @@
 # ComDayCqWcmWorkflowImplWorkflowPackageInfoProviderProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**workflowpackageinfoproviderPeriodfilter** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**workflowpackageinfoproviderPeriodfilterPeriodrootpath** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **workflowpackageinfoproviderFilter** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **workflowpackageinfoproviderFilterRootpath** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
 
 
 

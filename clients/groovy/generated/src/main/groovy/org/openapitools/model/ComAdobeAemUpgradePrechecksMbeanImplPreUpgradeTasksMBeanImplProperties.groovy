@@ -7,8 +7,8 @@ import org.openapitools.model.ConfigNodePropertyArray;
 
 @Canonical
 class ComAdobeAemUpgradePrechecksMbeanImplPreUpgradeTasksMBeanImplProperties {
-    ConfigNodePropertyArray preUpgradeMaintenanceTasks = null
-
-    ConfigNodePropertyArray preUpgradeHcTags = null
-
+    
+    ConfigNodePropertyArray preUpgradeMaintenanceTasks
+    
+    ConfigNodePropertyArray preUpgradeHcTags
 }

@@ -2,27 +2,28 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ComAdobeCqDamMacSyncImplDAMSyncServiceImplProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class ComAdobeCqDamMacSyncImplDAMSyncServiceImplInfo   {
   
-  private String pid = null;
+  private String pid;
 
-  private String title = null;
+  private String title;
 
-  private String description = null;
+  private String description;
 
-  private ComAdobeCqDamMacSyncImplDAMSyncServiceImplProperties properties = null;
-
+  private ComAdobeCqDamMacSyncImplDAMSyncServiceImplProperties properties;
 
   /**
    **/
@@ -98,7 +99,7 @@ public class ComAdobeCqDamMacSyncImplDAMSyncServiceImplInfo   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -106,10 +107,10 @@ public class ComAdobeCqDamMacSyncImplDAMSyncServiceImplInfo   {
       return false;
     }
     ComAdobeCqDamMacSyncImplDAMSyncServiceImplInfo comAdobeCqDamMacSyncImplDAMSyncServiceImplInfo = (ComAdobeCqDamMacSyncImplDAMSyncServiceImplInfo) o;
-    return Objects.equals(pid, comAdobeCqDamMacSyncImplDAMSyncServiceImplInfo.pid) &&
-        Objects.equals(title, comAdobeCqDamMacSyncImplDAMSyncServiceImplInfo.title) &&
-        Objects.equals(description, comAdobeCqDamMacSyncImplDAMSyncServiceImplInfo.description) &&
-        Objects.equals(properties, comAdobeCqDamMacSyncImplDAMSyncServiceImplInfo.properties);
+    return Objects.equals(this.pid, comAdobeCqDamMacSyncImplDAMSyncServiceImplInfo.pid) &&
+        Objects.equals(this.title, comAdobeCqDamMacSyncImplDAMSyncServiceImplInfo.title) &&
+        Objects.equals(this.description, comAdobeCqDamMacSyncImplDAMSyncServiceImplInfo.description) &&
+        Objects.equals(this.properties, comAdobeCqDamMacSyncImplDAMSyncServiceImplInfo.properties);
   }
 
   @Override
@@ -134,11 +135,8 @@ public class ComAdobeCqDamMacSyncImplDAMSyncServiceImplInfo   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -72,17 +72,17 @@ private class OASComAdobeGraniteWorkflowCoreWorkflTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeGraniteWorkflowCoreWorkfl comAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties = new OASComAdobeGraniteWorkflowCoreWorkfl();
-        Map<String, String> propertyMappings = comAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties.getPropertyMappings();
-        System.assertEquals('graniteWorkflowinboxSortPropertyName', propertyMappings.get('granite.workflowinbox.sort.propertyName'));
-        System.assertEquals('graniteWorkflowinboxSortOrder', propertyMappings.get('granite.workflowinbox.sort.order'));
-        System.assertEquals('cqWorkflowJobRetry', propertyMappings.get('cq.workflow.job.retry'));
-        System.assertEquals('cqWorkflowSuperuser', propertyMappings.get('cq.workflow.superuser'));
-        System.assertEquals('graniteWorkflowInboxQuerySize', propertyMappings.get('granite.workflow.inboxQuerySize'));
-        System.assertEquals('graniteWorkflowAdminUserGroupFilter', propertyMappings.get('granite.workflow.adminUserGroupFilter'));
-        System.assertEquals('graniteWorkflowEnforceWorkitemAssigneePermissions', propertyMappings.get('granite.workflow.enforceWorkitemAssigneePermissions'));
-        System.assertEquals('graniteWorkflowEnforceWorkflowInitiatorPermissions', propertyMappings.get('granite.workflow.enforceWorkflowInitiatorPermissions'));
-        System.assertEquals('graniteWorkflowInjectTenantIdInJobTopics', propertyMappings.get('granite.workflow.injectTenantIdInJobTopics'));
-        System.assertEquals('graniteWorkflowMaxPurgeSaveThreshold', propertyMappings.get('granite.workflow.maxPurgeSaveThreshold'));
-        System.assertEquals('graniteWorkflowMaxPurgeQueryCount', propertyMappings.get('granite.workflow.maxPurgeQueryCount'));
+        Map<String, String> x-property-mappings = comAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties.getx-property-mappings();
+        System.assertEquals('graniteWorkflowinboxSortPropertyName', x-property-mappings.get('granite.workflowinbox.sort.propertyName'));
+        System.assertEquals('graniteWorkflowinboxSortOrder', x-property-mappings.get('granite.workflowinbox.sort.order'));
+        System.assertEquals('cqWorkflowJobRetry', x-property-mappings.get('cq.workflow.job.retry'));
+        System.assertEquals('cqWorkflowSuperuser', x-property-mappings.get('cq.workflow.superuser'));
+        System.assertEquals('graniteWorkflowInboxQuerySize', x-property-mappings.get('granite.workflow.inboxQuerySize'));
+        System.assertEquals('graniteWorkflowAdminUserGroupFilter', x-property-mappings.get('granite.workflow.adminUserGroupFilter'));
+        System.assertEquals('graniteWorkflowEnforceWorkitemAssigneePermissions', x-property-mappings.get('granite.workflow.enforceWorkitemAssigneePermissions'));
+        System.assertEquals('graniteWorkflowEnforceWorkflowInitiatorPermissions', x-property-mappings.get('granite.workflow.enforceWorkflowInitiatorPermissions'));
+        System.assertEquals('graniteWorkflowInjectTenantIdInJobTopics', x-property-mappings.get('granite.workflow.injectTenantIdInJobTopics'));
+        System.assertEquals('graniteWorkflowMaxPurgeSaveThreshold', x-property-mappings.get('granite.workflow.maxPurgeSaveThreshold'));
+        System.assertEquals('graniteWorkflowMaxPurgeQueryCount', x-property-mappings.get('granite.workflow.maxPurgeQueryCount'));
     }
 }

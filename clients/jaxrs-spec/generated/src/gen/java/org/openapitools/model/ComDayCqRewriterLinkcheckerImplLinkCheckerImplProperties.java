@@ -1,26 +1,37 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comDayCqRewriterLinkcheckerImplLinkCheckerImplProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqRewriterLinkcheckerImplLinkCheckerImplProperties   {
-  
-  private @Valid ConfigNodePropertyInteger schedulerPeriod = null;
-  private @Valid ConfigNodePropertyBoolean schedulerConcurrent = null;
-  private @Valid ConfigNodePropertyInteger serviceBadLinkToleranceInterval = null;
-  private @Valid ConfigNodePropertyArray serviceCheckOverridePatterns = null;
-  private @Valid ConfigNodePropertyBoolean serviceCacheBrokenInternalLinks = null;
-  private @Valid ConfigNodePropertyArray serviceSpecialLinkPrefix = null;
-  private @Valid ConfigNodePropertyArray serviceSpecialLinkPatterns = null;
+  private ConfigNodePropertyInteger schedulerPeriod;
+  private ConfigNodePropertyBoolean schedulerConcurrent;
+  private ConfigNodePropertyInteger serviceBadLinkToleranceInterval;
+  private ConfigNodePropertyArray serviceCheckOverridePatterns;
+  private ConfigNodePropertyBoolean serviceCacheBrokenInternalLinks;
+  private ConfigNodePropertyArray serviceSpecialLinkPrefix;
+  private ConfigNodePropertyArray serviceSpecialLinkPatterns;
+
+  public ComDayCqRewriterLinkcheckerImplLinkCheckerImplProperties() {
+  }
 
   /**
    **/
@@ -32,9 +43,11 @@ public class ComDayCqRewriterLinkcheckerImplLinkCheckerImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("scheduler.period")
-  public ConfigNodePropertyInteger getSchedulerPeriod() {
+  @Valid public ConfigNodePropertyInteger getSchedulerPeriod() {
     return schedulerPeriod;
   }
+
+  @JsonProperty("scheduler.period")
   public void setSchedulerPeriod(ConfigNodePropertyInteger schedulerPeriod) {
     this.schedulerPeriod = schedulerPeriod;
   }
@@ -49,9 +62,11 @@ public class ComDayCqRewriterLinkcheckerImplLinkCheckerImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("scheduler.concurrent")
-  public ConfigNodePropertyBoolean getSchedulerConcurrent() {
+  @Valid public ConfigNodePropertyBoolean getSchedulerConcurrent() {
     return schedulerConcurrent;
   }
+
+  @JsonProperty("scheduler.concurrent")
   public void setSchedulerConcurrent(ConfigNodePropertyBoolean schedulerConcurrent) {
     this.schedulerConcurrent = schedulerConcurrent;
   }
@@ -66,9 +81,11 @@ public class ComDayCqRewriterLinkcheckerImplLinkCheckerImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("service.bad_link_tolerance_interval")
-  public ConfigNodePropertyInteger getServiceBadLinkToleranceInterval() {
+  @Valid public ConfigNodePropertyInteger getServiceBadLinkToleranceInterval() {
     return serviceBadLinkToleranceInterval;
   }
+
+  @JsonProperty("service.bad_link_tolerance_interval")
   public void setServiceBadLinkToleranceInterval(ConfigNodePropertyInteger serviceBadLinkToleranceInterval) {
     this.serviceBadLinkToleranceInterval = serviceBadLinkToleranceInterval;
   }
@@ -83,9 +100,11 @@ public class ComDayCqRewriterLinkcheckerImplLinkCheckerImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("service.check_override_patterns")
-  public ConfigNodePropertyArray getServiceCheckOverridePatterns() {
+  @Valid public ConfigNodePropertyArray getServiceCheckOverridePatterns() {
     return serviceCheckOverridePatterns;
   }
+
+  @JsonProperty("service.check_override_patterns")
   public void setServiceCheckOverridePatterns(ConfigNodePropertyArray serviceCheckOverridePatterns) {
     this.serviceCheckOverridePatterns = serviceCheckOverridePatterns;
   }
@@ -100,9 +119,11 @@ public class ComDayCqRewriterLinkcheckerImplLinkCheckerImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("service.cache_broken_internal_links")
-  public ConfigNodePropertyBoolean getServiceCacheBrokenInternalLinks() {
+  @Valid public ConfigNodePropertyBoolean getServiceCacheBrokenInternalLinks() {
     return serviceCacheBrokenInternalLinks;
   }
+
+  @JsonProperty("service.cache_broken_internal_links")
   public void setServiceCacheBrokenInternalLinks(ConfigNodePropertyBoolean serviceCacheBrokenInternalLinks) {
     this.serviceCacheBrokenInternalLinks = serviceCacheBrokenInternalLinks;
   }
@@ -117,9 +138,11 @@ public class ComDayCqRewriterLinkcheckerImplLinkCheckerImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("service.special_link_prefix")
-  public ConfigNodePropertyArray getServiceSpecialLinkPrefix() {
+  @Valid public ConfigNodePropertyArray getServiceSpecialLinkPrefix() {
     return serviceSpecialLinkPrefix;
   }
+
+  @JsonProperty("service.special_link_prefix")
   public void setServiceSpecialLinkPrefix(ConfigNodePropertyArray serviceSpecialLinkPrefix) {
     this.serviceSpecialLinkPrefix = serviceSpecialLinkPrefix;
   }
@@ -134,16 +157,18 @@ public class ComDayCqRewriterLinkcheckerImplLinkCheckerImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("service.special_link_patterns")
-  public ConfigNodePropertyArray getServiceSpecialLinkPatterns() {
+  @Valid public ConfigNodePropertyArray getServiceSpecialLinkPatterns() {
     return serviceSpecialLinkPatterns;
   }
+
+  @JsonProperty("service.special_link_patterns")
   public void setServiceSpecialLinkPatterns(ConfigNodePropertyArray serviceSpecialLinkPatterns) {
     this.serviceSpecialLinkPatterns = serviceSpecialLinkPatterns;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -151,13 +176,13 @@ public class ComDayCqRewriterLinkcheckerImplLinkCheckerImplProperties   {
       return false;
     }
     ComDayCqRewriterLinkcheckerImplLinkCheckerImplProperties comDayCqRewriterLinkcheckerImplLinkCheckerImplProperties = (ComDayCqRewriterLinkcheckerImplLinkCheckerImplProperties) o;
-    return Objects.equals(schedulerPeriod, comDayCqRewriterLinkcheckerImplLinkCheckerImplProperties.schedulerPeriod) &&
-        Objects.equals(schedulerConcurrent, comDayCqRewriterLinkcheckerImplLinkCheckerImplProperties.schedulerConcurrent) &&
-        Objects.equals(serviceBadLinkToleranceInterval, comDayCqRewriterLinkcheckerImplLinkCheckerImplProperties.serviceBadLinkToleranceInterval) &&
-        Objects.equals(serviceCheckOverridePatterns, comDayCqRewriterLinkcheckerImplLinkCheckerImplProperties.serviceCheckOverridePatterns) &&
-        Objects.equals(serviceCacheBrokenInternalLinks, comDayCqRewriterLinkcheckerImplLinkCheckerImplProperties.serviceCacheBrokenInternalLinks) &&
-        Objects.equals(serviceSpecialLinkPrefix, comDayCqRewriterLinkcheckerImplLinkCheckerImplProperties.serviceSpecialLinkPrefix) &&
-        Objects.equals(serviceSpecialLinkPatterns, comDayCqRewriterLinkcheckerImplLinkCheckerImplProperties.serviceSpecialLinkPatterns);
+    return Objects.equals(this.schedulerPeriod, comDayCqRewriterLinkcheckerImplLinkCheckerImplProperties.schedulerPeriod) &&
+        Objects.equals(this.schedulerConcurrent, comDayCqRewriterLinkcheckerImplLinkCheckerImplProperties.schedulerConcurrent) &&
+        Objects.equals(this.serviceBadLinkToleranceInterval, comDayCqRewriterLinkcheckerImplLinkCheckerImplProperties.serviceBadLinkToleranceInterval) &&
+        Objects.equals(this.serviceCheckOverridePatterns, comDayCqRewriterLinkcheckerImplLinkCheckerImplProperties.serviceCheckOverridePatterns) &&
+        Objects.equals(this.serviceCacheBrokenInternalLinks, comDayCqRewriterLinkcheckerImplLinkCheckerImplProperties.serviceCacheBrokenInternalLinks) &&
+        Objects.equals(this.serviceSpecialLinkPrefix, comDayCqRewriterLinkcheckerImplLinkCheckerImplProperties.serviceSpecialLinkPrefix) &&
+        Objects.equals(this.serviceSpecialLinkPatterns, comDayCqRewriterLinkcheckerImplLinkCheckerImplProperties.serviceSpecialLinkPatterns);
   }
 
   @Override
@@ -185,11 +210,9 @@ public class ComDayCqRewriterLinkcheckerImplLinkCheckerImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

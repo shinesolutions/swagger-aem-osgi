@@ -2,22 +2,23 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**process_label** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
-**cq_dam_indd_pages_regex** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
-**ids_job_decoupled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] 
-**ids_job_workflow_model** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **process_label** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] |
+| **cq_dam_indd_pages_regex** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] |
+| **ids_job_decoupled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] |
+| **ids_job_workflow_model** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComDayCqDamInddProcessINDDMediaExtractProcessProperties.new(process_label: null,
-                                 cq_dam_indd_pages_regex: null,
-                                 ids_job_decoupled: null,
-                                 ids_job_workflow_model: null)
+instance = SwaggerAemOsgiClient::ComDayCqDamInddProcessINDDMediaExtractProcessProperties.new(
+  process_label: null,
+  cq_dam_indd_pages_regex: null,
+  ids_job_decoupled: null,
+  ids_job_workflow_model: null
+)
 ```
-
 

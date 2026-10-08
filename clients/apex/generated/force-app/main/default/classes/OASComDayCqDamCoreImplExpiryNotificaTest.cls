@@ -72,13 +72,13 @@ private class OASComDayCqDamCoreImplExpiryNotificaTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqDamCoreImplExpiryNotifica comDayCqDamCoreImplExpiryNotificationJobImplProperties = new OASComDayCqDamCoreImplExpiryNotifica();
-        Map<String, String> propertyMappings = comDayCqDamCoreImplExpiryNotificationJobImplProperties.getPropertyMappings();
-        System.assertEquals('cqDamExpiryNotificationSchedulerIstimebased', propertyMappings.get('cq.dam.expiry.notification.scheduler.istimebased'));
-        System.assertEquals('cqDamExpiryNotificationSchedulerTimebasedRule', propertyMappings.get('cq.dam.expiry.notification.scheduler.timebased.rule'));
-        System.assertEquals('cqDamExpiryNotificationSchedulerPeriodRule', propertyMappings.get('cq.dam.expiry.notification.scheduler.period.rule'));
-        System.assertEquals('sendEmail', propertyMappings.get('send_email'));
-        System.assertEquals('assetExpiredLimit', propertyMappings.get('asset_expired_limit'));
-        System.assertEquals('priorNotificationSeconds', propertyMappings.get('prior_notification_seconds'));
-        System.assertEquals('cqDamExpiryNotificationUrlProtocol', propertyMappings.get('cq.dam.expiry.notification.url.protocol'));
+        Map<String, String> x-property-mappings = comDayCqDamCoreImplExpiryNotificationJobImplProperties.getx-property-mappings();
+        System.assertEquals('cqDamExpiryNotificationSchedulerIstimebased', x-property-mappings.get('cq.dam.expiry.notification.scheduler.istimebased'));
+        System.assertEquals('cqDamExpiryNotificationSchedulerTimebasedRule', x-property-mappings.get('cq.dam.expiry.notification.scheduler.timebased.rule'));
+        System.assertEquals('cqDamExpiryNotificationSchedulerPeriodRule', x-property-mappings.get('cq.dam.expiry.notification.scheduler.period.rule'));
+        System.assertEquals('sendEmail', x-property-mappings.get('send_email'));
+        System.assertEquals('assetExpiredLimit', x-property-mappings.get('asset_expired_limit'));
+        System.assertEquals('priorNotificationSeconds', x-property-mappings.get('prior_notification_seconds'));
+        System.assertEquals('cqDamExpiryNotificationUrlProtocol', x-property-mappings.get('cq.dam.expiry.notification.url.protocol'));
     }
 }

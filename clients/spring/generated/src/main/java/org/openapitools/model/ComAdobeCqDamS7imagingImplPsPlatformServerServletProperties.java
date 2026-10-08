@@ -1,35 +1,46 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComAdobeCqDamS7imagingImplPsPlatformServerServletProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComAdobeCqDamS7imagingImplPsPlatformServerServletProperties   {
-  @JsonProperty("cache.enable")
-  private ConfigNodePropertyBoolean cacheEnable = null;
+@JsonTypeName("comAdobeCqDamS7imagingImplPsPlatformServerServletProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComAdobeCqDamS7imagingImplPsPlatformServerServletProperties {
 
-  @JsonProperty("cache.rootPaths")
-  private ConfigNodePropertyArray cacheRootPaths = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean cacheEnable;
 
-  @JsonProperty("cache.maxSize")
-  private ConfigNodePropertyInteger cacheMaxSize = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray cacheRootPaths;
 
-  @JsonProperty("cache.maxEntries")
-  private ConfigNodePropertyInteger cacheMaxEntries = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger cacheMaxSize;
 
-  public ComAdobeCqDamS7imagingImplPsPlatformServerServletProperties cacheEnable(ConfigNodePropertyBoolean cacheEnable) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger cacheMaxEntries;
+
+  public ComAdobeCqDamS7imagingImplPsPlatformServerServletProperties cacheEnable(@Nullable ConfigNodePropertyBoolean cacheEnable) {
     this.cacheEnable = cacheEnable;
     return this;
   }
@@ -37,20 +48,20 @@ public class ComAdobeCqDamS7imagingImplPsPlatformServerServletProperties   {
   /**
    * Get cacheEnable
    * @return cacheEnable
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getCacheEnable() {
+   */
+  @Valid 
+  @Schema(name = "cache.enable", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cache.enable")
+  public @Nullable ConfigNodePropertyBoolean getCacheEnable() {
     return cacheEnable;
   }
 
-  public void setCacheEnable(ConfigNodePropertyBoolean cacheEnable) {
+  @JsonProperty("cache.enable")
+  public void setCacheEnable(@Nullable ConfigNodePropertyBoolean cacheEnable) {
     this.cacheEnable = cacheEnable;
   }
 
-  public ComAdobeCqDamS7imagingImplPsPlatformServerServletProperties cacheRootPaths(ConfigNodePropertyArray cacheRootPaths) {
+  public ComAdobeCqDamS7imagingImplPsPlatformServerServletProperties cacheRootPaths(@Nullable ConfigNodePropertyArray cacheRootPaths) {
     this.cacheRootPaths = cacheRootPaths;
     return this;
   }
@@ -58,20 +69,20 @@ public class ComAdobeCqDamS7imagingImplPsPlatformServerServletProperties   {
   /**
    * Get cacheRootPaths
    * @return cacheRootPaths
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getCacheRootPaths() {
+   */
+  @Valid 
+  @Schema(name = "cache.rootPaths", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cache.rootPaths")
+  public @Nullable ConfigNodePropertyArray getCacheRootPaths() {
     return cacheRootPaths;
   }
 
-  public void setCacheRootPaths(ConfigNodePropertyArray cacheRootPaths) {
+  @JsonProperty("cache.rootPaths")
+  public void setCacheRootPaths(@Nullable ConfigNodePropertyArray cacheRootPaths) {
     this.cacheRootPaths = cacheRootPaths;
   }
 
-  public ComAdobeCqDamS7imagingImplPsPlatformServerServletProperties cacheMaxSize(ConfigNodePropertyInteger cacheMaxSize) {
+  public ComAdobeCqDamS7imagingImplPsPlatformServerServletProperties cacheMaxSize(@Nullable ConfigNodePropertyInteger cacheMaxSize) {
     this.cacheMaxSize = cacheMaxSize;
     return this;
   }
@@ -79,20 +90,20 @@ public class ComAdobeCqDamS7imagingImplPsPlatformServerServletProperties   {
   /**
    * Get cacheMaxSize
    * @return cacheMaxSize
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getCacheMaxSize() {
+   */
+  @Valid 
+  @Schema(name = "cache.maxSize", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cache.maxSize")
+  public @Nullable ConfigNodePropertyInteger getCacheMaxSize() {
     return cacheMaxSize;
   }
 
-  public void setCacheMaxSize(ConfigNodePropertyInteger cacheMaxSize) {
+  @JsonProperty("cache.maxSize")
+  public void setCacheMaxSize(@Nullable ConfigNodePropertyInteger cacheMaxSize) {
     this.cacheMaxSize = cacheMaxSize;
   }
 
-  public ComAdobeCqDamS7imagingImplPsPlatformServerServletProperties cacheMaxEntries(ConfigNodePropertyInteger cacheMaxEntries) {
+  public ComAdobeCqDamS7imagingImplPsPlatformServerServletProperties cacheMaxEntries(@Nullable ConfigNodePropertyInteger cacheMaxEntries) {
     this.cacheMaxEntries = cacheMaxEntries;
     return this;
   }
@@ -100,22 +111,21 @@ public class ComAdobeCqDamS7imagingImplPsPlatformServerServletProperties   {
   /**
    * Get cacheMaxEntries
    * @return cacheMaxEntries
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getCacheMaxEntries() {
+   */
+  @Valid 
+  @Schema(name = "cache.maxEntries", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cache.maxEntries")
+  public @Nullable ConfigNodePropertyInteger getCacheMaxEntries() {
     return cacheMaxEntries;
   }
 
-  public void setCacheMaxEntries(ConfigNodePropertyInteger cacheMaxEntries) {
+  @JsonProperty("cache.maxEntries")
+  public void setCacheMaxEntries(@Nullable ConfigNodePropertyInteger cacheMaxEntries) {
     this.cacheMaxEntries = cacheMaxEntries;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -138,7 +148,6 @@ public class ComAdobeCqDamS7imagingImplPsPlatformServerServletProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComAdobeCqDamS7imagingImplPsPlatformServerServletProperties {\n");
-    
     sb.append("    cacheEnable: ").append(toIndentedString(cacheEnable)).append("\n");
     sb.append("    cacheRootPaths: ").append(toIndentedString(cacheRootPaths)).append("\n");
     sb.append("    cacheMaxSize: ").append(toIndentedString(cacheMaxSize)).append("\n");
@@ -151,11 +160,8 @@ public class ComAdobeCqDamS7imagingImplPsPlatformServerServletProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

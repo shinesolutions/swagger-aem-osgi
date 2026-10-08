@@ -2,12 +2,12 @@
 # OrgApacheSlingModelsImplModelAdapterFactoryProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**osgiPeriodhttpPeriodwhiteboardPeriodlistener** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**osgiPeriodhttpPeriodwhiteboardPeriodcontextPeriodselect** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**maxPeriodrecursionPerioddepth** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**cleanupPeriodjobPeriodperiod** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **osgiHttpWhiteboardListener** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **osgiHttpWhiteboardContextSelect** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **maxRecursionDepth** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **cleanupJobPeriod** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
 
 
 

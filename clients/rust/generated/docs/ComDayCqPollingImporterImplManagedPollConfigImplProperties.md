@@ -1,17 +1,18 @@
 # ComDayCqPollingImporterImplManagedPollConfigImplProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**id** | [***::models::ConfigNodePropertyString**](configNodePropertyString.md) |  | [optional] 
-**enabled** | [***::models::ConfigNodePropertyBoolean**](configNodePropertyBoolean.md) |  | [optional] 
-**reference** | [***::models::ConfigNodePropertyBoolean**](configNodePropertyBoolean.md) |  | [optional] 
-**interval** | [***::models::ConfigNodePropertyInteger**](configNodePropertyInteger.md) |  | [optional] 
-**expression** | [***::models::ConfigNodePropertyString**](configNodePropertyString.md) |  | [optional] 
-**source** | [***::models::ConfigNodePropertyString**](configNodePropertyString.md) |  | [optional] 
-**target** | [***::models::ConfigNodePropertyString**](configNodePropertyString.md) |  | [optional] 
-**login** | [***::models::ConfigNodePropertyString**](configNodePropertyString.md) |  | [optional] 
-**password** | [***::models::ConfigNodePropertyString**](configNodePropertyString.md) |  | [optional] 
+**id** | Option<[**models::ConfigNodePropertyString**](ConfigNodePropertyString.md)> |  | [optional]
+**enabled** | Option<[**models::ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md)> |  | [optional]
+**reference** | Option<[**models::ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md)> |  | [optional]
+**interval** | Option<[**models::ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md)> |  | [optional]
+**expression** | Option<[**models::ConfigNodePropertyString**](ConfigNodePropertyString.md)> |  | [optional]
+**source** | Option<[**models::ConfigNodePropertyString**](ConfigNodePropertyString.md)> |  | [optional]
+**target** | Option<[**models::ConfigNodePropertyString**](ConfigNodePropertyString.md)> |  | [optional]
+**login** | Option<[**models::ConfigNodePropertyString**](ConfigNodePropertyString.md)> |  | [optional]
+**password** | Option<[**models::ConfigNodePropertyString**](ConfigNodePropertyString.md)> |  | [optional]
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

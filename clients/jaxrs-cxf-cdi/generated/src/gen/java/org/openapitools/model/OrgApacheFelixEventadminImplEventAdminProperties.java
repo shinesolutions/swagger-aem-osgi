@@ -2,34 +2,35 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyFloat;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class OrgApacheFelixEventadminImplEventAdminProperties   {
   
-  private ConfigNodePropertyInteger orgApacheFelixEventadminThreadPoolSize = null;
+  private ConfigNodePropertyInteger orgApacheFelixEventadminThreadPoolSize;
 
-  private ConfigNodePropertyFloat orgApacheFelixEventadminAsyncToSyncThreadRatio = null;
+  private ConfigNodePropertyFloat orgApacheFelixEventadminAsyncToSyncThreadRatio;
 
-  private ConfigNodePropertyInteger orgApacheFelixEventadminTimeout = null;
+  private ConfigNodePropertyInteger orgApacheFelixEventadminTimeout;
 
-  private ConfigNodePropertyBoolean orgApacheFelixEventadminRequireTopic = null;
+  private ConfigNodePropertyBoolean orgApacheFelixEventadminRequireTopic;
 
-  private ConfigNodePropertyArray orgApacheFelixEventadminIgnoreTimeout = null;
+  private ConfigNodePropertyArray orgApacheFelixEventadminIgnoreTimeout;
 
-  private ConfigNodePropertyArray orgApacheFelixEventadminIgnoreTopic = null;
-
+  private ConfigNodePropertyArray orgApacheFelixEventadminIgnoreTopic;
 
   /**
    **/
@@ -141,7 +142,7 @@ public class OrgApacheFelixEventadminImplEventAdminProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -149,12 +150,12 @@ public class OrgApacheFelixEventadminImplEventAdminProperties   {
       return false;
     }
     OrgApacheFelixEventadminImplEventAdminProperties orgApacheFelixEventadminImplEventAdminProperties = (OrgApacheFelixEventadminImplEventAdminProperties) o;
-    return Objects.equals(orgApacheFelixEventadminThreadPoolSize, orgApacheFelixEventadminImplEventAdminProperties.orgApacheFelixEventadminThreadPoolSize) &&
-        Objects.equals(orgApacheFelixEventadminAsyncToSyncThreadRatio, orgApacheFelixEventadminImplEventAdminProperties.orgApacheFelixEventadminAsyncToSyncThreadRatio) &&
-        Objects.equals(orgApacheFelixEventadminTimeout, orgApacheFelixEventadminImplEventAdminProperties.orgApacheFelixEventadminTimeout) &&
-        Objects.equals(orgApacheFelixEventadminRequireTopic, orgApacheFelixEventadminImplEventAdminProperties.orgApacheFelixEventadminRequireTopic) &&
-        Objects.equals(orgApacheFelixEventadminIgnoreTimeout, orgApacheFelixEventadminImplEventAdminProperties.orgApacheFelixEventadminIgnoreTimeout) &&
-        Objects.equals(orgApacheFelixEventadminIgnoreTopic, orgApacheFelixEventadminImplEventAdminProperties.orgApacheFelixEventadminIgnoreTopic);
+    return Objects.equals(this.orgApacheFelixEventadminThreadPoolSize, orgApacheFelixEventadminImplEventAdminProperties.orgApacheFelixEventadminThreadPoolSize) &&
+        Objects.equals(this.orgApacheFelixEventadminAsyncToSyncThreadRatio, orgApacheFelixEventadminImplEventAdminProperties.orgApacheFelixEventadminAsyncToSyncThreadRatio) &&
+        Objects.equals(this.orgApacheFelixEventadminTimeout, orgApacheFelixEventadminImplEventAdminProperties.orgApacheFelixEventadminTimeout) &&
+        Objects.equals(this.orgApacheFelixEventadminRequireTopic, orgApacheFelixEventadminImplEventAdminProperties.orgApacheFelixEventadminRequireTopic) &&
+        Objects.equals(this.orgApacheFelixEventadminIgnoreTimeout, orgApacheFelixEventadminImplEventAdminProperties.orgApacheFelixEventadminIgnoreTimeout) &&
+        Objects.equals(this.orgApacheFelixEventadminIgnoreTopic, orgApacheFelixEventadminImplEventAdminProperties.orgApacheFelixEventadminIgnoreTopic);
   }
 
   @Override
@@ -181,11 +182,8 @@ public class OrgApacheFelixEventadminImplEventAdminProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

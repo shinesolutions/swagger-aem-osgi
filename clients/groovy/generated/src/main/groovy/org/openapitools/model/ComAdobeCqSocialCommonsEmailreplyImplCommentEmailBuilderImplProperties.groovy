@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeCqSocialCommonsEmailreplyImplCommentEmailBuilderImplProperties {
-    ConfigNodePropertyString contextPath = null
-
+    
+    ConfigNodePropertyString contextPath
 }

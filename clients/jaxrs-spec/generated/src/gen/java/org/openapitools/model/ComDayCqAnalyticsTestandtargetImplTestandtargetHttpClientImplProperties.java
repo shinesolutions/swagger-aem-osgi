@@ -1,23 +1,34 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplProperties   {
-  
-  private @Valid ConfigNodePropertyString cqAnalyticsTestandtargetApiUrl = null;
-  private @Valid ConfigNodePropertyInteger cqAnalyticsTestandtargetTimeout = null;
-  private @Valid ConfigNodePropertyInteger cqAnalyticsTestandtargetSockettimeout = null;
-  private @Valid ConfigNodePropertyString cqAnalyticsTestandtargetRecommendationsUrlReplace = null;
-  private @Valid ConfigNodePropertyString cqAnalyticsTestandtargetRecommendationsUrlReplacewith = null;
+  private ConfigNodePropertyString cqAnalyticsTestandtargetApiUrl;
+  private ConfigNodePropertyInteger cqAnalyticsTestandtargetTimeout;
+  private ConfigNodePropertyInteger cqAnalyticsTestandtargetSockettimeout;
+  private ConfigNodePropertyString cqAnalyticsTestandtargetRecommendationsUrlReplace;
+  private ConfigNodePropertyString cqAnalyticsTestandtargetRecommendationsUrlReplacewith;
+
+  public ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplProperties() {
+  }
 
   /**
    **/
@@ -29,9 +40,11 @@ public class ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplProper
   
   @ApiModelProperty(value = "")
   @JsonProperty("cq.analytics.testandtarget.api.url")
-  public ConfigNodePropertyString getCqAnalyticsTestandtargetApiUrl() {
+  @Valid public ConfigNodePropertyString getCqAnalyticsTestandtargetApiUrl() {
     return cqAnalyticsTestandtargetApiUrl;
   }
+
+  @JsonProperty("cq.analytics.testandtarget.api.url")
   public void setCqAnalyticsTestandtargetApiUrl(ConfigNodePropertyString cqAnalyticsTestandtargetApiUrl) {
     this.cqAnalyticsTestandtargetApiUrl = cqAnalyticsTestandtargetApiUrl;
   }
@@ -46,9 +59,11 @@ public class ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplProper
   
   @ApiModelProperty(value = "")
   @JsonProperty("cq.analytics.testandtarget.timeout")
-  public ConfigNodePropertyInteger getCqAnalyticsTestandtargetTimeout() {
+  @Valid public ConfigNodePropertyInteger getCqAnalyticsTestandtargetTimeout() {
     return cqAnalyticsTestandtargetTimeout;
   }
+
+  @JsonProperty("cq.analytics.testandtarget.timeout")
   public void setCqAnalyticsTestandtargetTimeout(ConfigNodePropertyInteger cqAnalyticsTestandtargetTimeout) {
     this.cqAnalyticsTestandtargetTimeout = cqAnalyticsTestandtargetTimeout;
   }
@@ -63,9 +78,11 @@ public class ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplProper
   
   @ApiModelProperty(value = "")
   @JsonProperty("cq.analytics.testandtarget.sockettimeout")
-  public ConfigNodePropertyInteger getCqAnalyticsTestandtargetSockettimeout() {
+  @Valid public ConfigNodePropertyInteger getCqAnalyticsTestandtargetSockettimeout() {
     return cqAnalyticsTestandtargetSockettimeout;
   }
+
+  @JsonProperty("cq.analytics.testandtarget.sockettimeout")
   public void setCqAnalyticsTestandtargetSockettimeout(ConfigNodePropertyInteger cqAnalyticsTestandtargetSockettimeout) {
     this.cqAnalyticsTestandtargetSockettimeout = cqAnalyticsTestandtargetSockettimeout;
   }
@@ -80,9 +97,11 @@ public class ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplProper
   
   @ApiModelProperty(value = "")
   @JsonProperty("cq.analytics.testandtarget.recommendations.url.replace")
-  public ConfigNodePropertyString getCqAnalyticsTestandtargetRecommendationsUrlReplace() {
+  @Valid public ConfigNodePropertyString getCqAnalyticsTestandtargetRecommendationsUrlReplace() {
     return cqAnalyticsTestandtargetRecommendationsUrlReplace;
   }
+
+  @JsonProperty("cq.analytics.testandtarget.recommendations.url.replace")
   public void setCqAnalyticsTestandtargetRecommendationsUrlReplace(ConfigNodePropertyString cqAnalyticsTestandtargetRecommendationsUrlReplace) {
     this.cqAnalyticsTestandtargetRecommendationsUrlReplace = cqAnalyticsTestandtargetRecommendationsUrlReplace;
   }
@@ -97,16 +116,18 @@ public class ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplProper
   
   @ApiModelProperty(value = "")
   @JsonProperty("cq.analytics.testandtarget.recommendations.url.replacewith")
-  public ConfigNodePropertyString getCqAnalyticsTestandtargetRecommendationsUrlReplacewith() {
+  @Valid public ConfigNodePropertyString getCqAnalyticsTestandtargetRecommendationsUrlReplacewith() {
     return cqAnalyticsTestandtargetRecommendationsUrlReplacewith;
   }
+
+  @JsonProperty("cq.analytics.testandtarget.recommendations.url.replacewith")
   public void setCqAnalyticsTestandtargetRecommendationsUrlReplacewith(ConfigNodePropertyString cqAnalyticsTestandtargetRecommendationsUrlReplacewith) {
     this.cqAnalyticsTestandtargetRecommendationsUrlReplacewith = cqAnalyticsTestandtargetRecommendationsUrlReplacewith;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -114,11 +135,11 @@ public class ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplProper
       return false;
     }
     ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplProperties comDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplProperties = (ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplProperties) o;
-    return Objects.equals(cqAnalyticsTestandtargetApiUrl, comDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplProperties.cqAnalyticsTestandtargetApiUrl) &&
-        Objects.equals(cqAnalyticsTestandtargetTimeout, comDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplProperties.cqAnalyticsTestandtargetTimeout) &&
-        Objects.equals(cqAnalyticsTestandtargetSockettimeout, comDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplProperties.cqAnalyticsTestandtargetSockettimeout) &&
-        Objects.equals(cqAnalyticsTestandtargetRecommendationsUrlReplace, comDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplProperties.cqAnalyticsTestandtargetRecommendationsUrlReplace) &&
-        Objects.equals(cqAnalyticsTestandtargetRecommendationsUrlReplacewith, comDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplProperties.cqAnalyticsTestandtargetRecommendationsUrlReplacewith);
+    return Objects.equals(this.cqAnalyticsTestandtargetApiUrl, comDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplProperties.cqAnalyticsTestandtargetApiUrl) &&
+        Objects.equals(this.cqAnalyticsTestandtargetTimeout, comDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplProperties.cqAnalyticsTestandtargetTimeout) &&
+        Objects.equals(this.cqAnalyticsTestandtargetSockettimeout, comDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplProperties.cqAnalyticsTestandtargetSockettimeout) &&
+        Objects.equals(this.cqAnalyticsTestandtargetRecommendationsUrlReplace, comDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplProperties.cqAnalyticsTestandtargetRecommendationsUrlReplace) &&
+        Objects.equals(this.cqAnalyticsTestandtargetRecommendationsUrlReplacewith, comDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplProperties.cqAnalyticsTestandtargetRecommendationsUrlReplacewith);
   }
 
   @Override
@@ -144,11 +165,9 @@ public class ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplProper
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

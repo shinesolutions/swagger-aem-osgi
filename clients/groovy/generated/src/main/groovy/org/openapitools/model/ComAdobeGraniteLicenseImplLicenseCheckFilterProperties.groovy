@@ -9,10 +9,10 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class ComAdobeGraniteLicenseImplLicenseCheckFilterProperties {
-    ConfigNodePropertyInteger checkInternval = null
-
-    ConfigNodePropertyArray excludeIds = null
-
-    ConfigNodePropertyBoolean encryptPing = null
-
+    
+    ConfigNodePropertyInteger checkInternval
+    
+    ConfigNodePropertyArray excludeIds
+    
+    ConfigNodePropertyBoolean encryptPing
 }

@@ -1,0 +1,41 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqHistoryImplHistoryRequestFilterProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqHistoryImplHistoryRequestFilterProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+}
+resourceTypes {
+
+  ComAdobeCqHistoryImplHistoryRequestFilterProperties {
+    title = ComAdobeCqHistoryImplHistoryRequestFilterProperties
+    description = ComAdobeCqHistoryImplHistoryRequestFilterProperties
+    derivedFrom = Root
+    properties {
+        history_request_filter_excluded_selectors {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        history_request_filter_excluded_extensions {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqHistoryImplHistoryRequestFilterProperties {
+    title = ComAdobeCqHistoryImplHistoryRequestFilterProperties
+    description = ComAdobeCqHistoryImplHistoryRequestFilterProperties
+    implements = openapi_server.resourceTypes.ComAdobeCqHistoryImplHistoryRequestFilterProperties
+
+  }
+}

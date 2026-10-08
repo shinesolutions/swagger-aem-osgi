@@ -1,7 +1,4 @@
-# coding: utf-8
-
 # flake8: noqa
-from __future__ import absolute_import
 # import models into model package
 from openapi_server.models.adaptive_form_and_interactive_communication_web_channel_configuration_info import AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationInfo
 from openapi_server.models.adaptive_form_and_interactive_communication_web_channel_configuration_properties import AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationProperties

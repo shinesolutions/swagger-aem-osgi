@@ -1,84 +1,95 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties   {
-  @JsonProperty("htmllibmanager.timing")
-  private ConfigNodePropertyBoolean htmllibmanagerTiming = null;
+@JsonTypeName("comAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties {
 
-  @JsonProperty("htmllibmanager.debug.init.js")
-  private ConfigNodePropertyString htmllibmanagerDebugInitJs = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean htmllibmanagerTiming;
 
-  @JsonProperty("htmllibmanager.minify")
-  private ConfigNodePropertyBoolean htmllibmanagerMinify = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString htmllibmanagerDebugInitJs;
 
-  @JsonProperty("htmllibmanager.debug")
-  private ConfigNodePropertyBoolean htmllibmanagerDebug = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean htmllibmanagerMinify;
 
-  @JsonProperty("htmllibmanager.gzip")
-  private ConfigNodePropertyBoolean htmllibmanagerGzip = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean htmllibmanagerDebug;
 
-  @JsonProperty("htmllibmanager.maxDataUriSize")
-  private ConfigNodePropertyInteger htmllibmanagerMaxDataUriSize = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean htmllibmanagerGzip;
 
-  @JsonProperty("htmllibmanager.maxage")
-  private ConfigNodePropertyInteger htmllibmanagerMaxage = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger htmllibmanagerMaxDataUriSize;
 
-  @JsonProperty("htmllibmanager.forceCQUrlInfo")
-  private ConfigNodePropertyBoolean htmllibmanagerForceCQUrlInfo = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger htmllibmanagerMaxage;
 
-  @JsonProperty("htmllibmanager.defaultthemename")
-  private ConfigNodePropertyString htmllibmanagerDefaultthemename = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean htmllibmanagerForceCQUrlInfo;
 
-  @JsonProperty("htmllibmanager.defaultuserthemename")
-  private ConfigNodePropertyString htmllibmanagerDefaultuserthemename = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString htmllibmanagerDefaultthemename;
 
-  @JsonProperty("htmllibmanager.clientmanager")
-  private ConfigNodePropertyString htmllibmanagerClientmanager = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString htmllibmanagerDefaultuserthemename;
 
-  @JsonProperty("htmllibmanager.path.list")
-  private ConfigNodePropertyArray htmllibmanagerPathList = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString htmllibmanagerClientmanager;
 
-  @JsonProperty("htmllibmanager.excluded.path.list")
-  private ConfigNodePropertyArray htmllibmanagerExcludedPathList = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray htmllibmanagerPathList;
 
-  @JsonProperty("htmllibmanager.processor.js")
-  private ConfigNodePropertyArray htmllibmanagerProcessorJs = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray htmllibmanagerExcludedPathList;
 
-  @JsonProperty("htmllibmanager.processor.css")
-  private ConfigNodePropertyArray htmllibmanagerProcessorCss = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray htmllibmanagerProcessorJs;
 
-  @JsonProperty("htmllibmanager.longcache.patterns")
-  private ConfigNodePropertyArray htmllibmanagerLongcachePatterns = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray htmllibmanagerProcessorCss;
 
-  @JsonProperty("htmllibmanager.longcache.format")
-  private ConfigNodePropertyString htmllibmanagerLongcacheFormat = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray htmllibmanagerLongcachePatterns;
 
-  @JsonProperty("htmllibmanager.useFileSystemOutputCache")
-  private ConfigNodePropertyBoolean htmllibmanagerUseFileSystemOutputCache = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString htmllibmanagerLongcacheFormat;
 
-  @JsonProperty("htmllibmanager.fileSystemOutputCacheLocation")
-  private ConfigNodePropertyString htmllibmanagerFileSystemOutputCacheLocation = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean htmllibmanagerUseFileSystemOutputCache;
 
-  @JsonProperty("htmllibmanager.disable.replacement")
-  private ConfigNodePropertyArray htmllibmanagerDisableReplacement = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString htmllibmanagerFileSystemOutputCacheLocation;
 
-  public ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties htmllibmanagerTiming(ConfigNodePropertyBoolean htmllibmanagerTiming) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray htmllibmanagerDisableReplacement;
+
+  public ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties htmllibmanagerTiming(@Nullable ConfigNodePropertyBoolean htmllibmanagerTiming) {
     this.htmllibmanagerTiming = htmllibmanagerTiming;
     return this;
   }
@@ -86,20 +97,20 @@ public class ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties   {
   /**
    * Get htmllibmanagerTiming
    * @return htmllibmanagerTiming
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getHtmllibmanagerTiming() {
+   */
+  @Valid 
+  @Schema(name = "htmllibmanager.timing", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("htmllibmanager.timing")
+  public @Nullable ConfigNodePropertyBoolean getHtmllibmanagerTiming() {
     return htmllibmanagerTiming;
   }
 
-  public void setHtmllibmanagerTiming(ConfigNodePropertyBoolean htmllibmanagerTiming) {
+  @JsonProperty("htmllibmanager.timing")
+  public void setHtmllibmanagerTiming(@Nullable ConfigNodePropertyBoolean htmllibmanagerTiming) {
     this.htmllibmanagerTiming = htmllibmanagerTiming;
   }
 
-  public ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties htmllibmanagerDebugInitJs(ConfigNodePropertyString htmllibmanagerDebugInitJs) {
+  public ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties htmllibmanagerDebugInitJs(@Nullable ConfigNodePropertyString htmllibmanagerDebugInitJs) {
     this.htmllibmanagerDebugInitJs = htmllibmanagerDebugInitJs;
     return this;
   }
@@ -107,20 +118,20 @@ public class ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties   {
   /**
    * Get htmllibmanagerDebugInitJs
    * @return htmllibmanagerDebugInitJs
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getHtmllibmanagerDebugInitJs() {
+   */
+  @Valid 
+  @Schema(name = "htmllibmanager.debug.init.js", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("htmllibmanager.debug.init.js")
+  public @Nullable ConfigNodePropertyString getHtmllibmanagerDebugInitJs() {
     return htmllibmanagerDebugInitJs;
   }
 
-  public void setHtmllibmanagerDebugInitJs(ConfigNodePropertyString htmllibmanagerDebugInitJs) {
+  @JsonProperty("htmllibmanager.debug.init.js")
+  public void setHtmllibmanagerDebugInitJs(@Nullable ConfigNodePropertyString htmllibmanagerDebugInitJs) {
     this.htmllibmanagerDebugInitJs = htmllibmanagerDebugInitJs;
   }
 
-  public ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties htmllibmanagerMinify(ConfigNodePropertyBoolean htmllibmanagerMinify) {
+  public ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties htmllibmanagerMinify(@Nullable ConfigNodePropertyBoolean htmllibmanagerMinify) {
     this.htmllibmanagerMinify = htmllibmanagerMinify;
     return this;
   }
@@ -128,20 +139,20 @@ public class ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties   {
   /**
    * Get htmllibmanagerMinify
    * @return htmllibmanagerMinify
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getHtmllibmanagerMinify() {
+   */
+  @Valid 
+  @Schema(name = "htmllibmanager.minify", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("htmllibmanager.minify")
+  public @Nullable ConfigNodePropertyBoolean getHtmllibmanagerMinify() {
     return htmllibmanagerMinify;
   }
 
-  public void setHtmllibmanagerMinify(ConfigNodePropertyBoolean htmllibmanagerMinify) {
+  @JsonProperty("htmllibmanager.minify")
+  public void setHtmllibmanagerMinify(@Nullable ConfigNodePropertyBoolean htmllibmanagerMinify) {
     this.htmllibmanagerMinify = htmllibmanagerMinify;
   }
 
-  public ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties htmllibmanagerDebug(ConfigNodePropertyBoolean htmllibmanagerDebug) {
+  public ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties htmllibmanagerDebug(@Nullable ConfigNodePropertyBoolean htmllibmanagerDebug) {
     this.htmllibmanagerDebug = htmllibmanagerDebug;
     return this;
   }
@@ -149,20 +160,20 @@ public class ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties   {
   /**
    * Get htmllibmanagerDebug
    * @return htmllibmanagerDebug
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getHtmllibmanagerDebug() {
+   */
+  @Valid 
+  @Schema(name = "htmllibmanager.debug", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("htmllibmanager.debug")
+  public @Nullable ConfigNodePropertyBoolean getHtmllibmanagerDebug() {
     return htmllibmanagerDebug;
   }
 
-  public void setHtmllibmanagerDebug(ConfigNodePropertyBoolean htmllibmanagerDebug) {
+  @JsonProperty("htmllibmanager.debug")
+  public void setHtmllibmanagerDebug(@Nullable ConfigNodePropertyBoolean htmllibmanagerDebug) {
     this.htmllibmanagerDebug = htmllibmanagerDebug;
   }
 
-  public ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties htmllibmanagerGzip(ConfigNodePropertyBoolean htmllibmanagerGzip) {
+  public ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties htmllibmanagerGzip(@Nullable ConfigNodePropertyBoolean htmllibmanagerGzip) {
     this.htmllibmanagerGzip = htmllibmanagerGzip;
     return this;
   }
@@ -170,20 +181,20 @@ public class ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties   {
   /**
    * Get htmllibmanagerGzip
    * @return htmllibmanagerGzip
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getHtmllibmanagerGzip() {
+   */
+  @Valid 
+  @Schema(name = "htmllibmanager.gzip", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("htmllibmanager.gzip")
+  public @Nullable ConfigNodePropertyBoolean getHtmllibmanagerGzip() {
     return htmllibmanagerGzip;
   }
 
-  public void setHtmllibmanagerGzip(ConfigNodePropertyBoolean htmllibmanagerGzip) {
+  @JsonProperty("htmllibmanager.gzip")
+  public void setHtmllibmanagerGzip(@Nullable ConfigNodePropertyBoolean htmllibmanagerGzip) {
     this.htmllibmanagerGzip = htmllibmanagerGzip;
   }
 
-  public ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties htmllibmanagerMaxDataUriSize(ConfigNodePropertyInteger htmllibmanagerMaxDataUriSize) {
+  public ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties htmllibmanagerMaxDataUriSize(@Nullable ConfigNodePropertyInteger htmllibmanagerMaxDataUriSize) {
     this.htmllibmanagerMaxDataUriSize = htmllibmanagerMaxDataUriSize;
     return this;
   }
@@ -191,20 +202,20 @@ public class ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties   {
   /**
    * Get htmllibmanagerMaxDataUriSize
    * @return htmllibmanagerMaxDataUriSize
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getHtmllibmanagerMaxDataUriSize() {
+   */
+  @Valid 
+  @Schema(name = "htmllibmanager.maxDataUriSize", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("htmllibmanager.maxDataUriSize")
+  public @Nullable ConfigNodePropertyInteger getHtmllibmanagerMaxDataUriSize() {
     return htmllibmanagerMaxDataUriSize;
   }
 
-  public void setHtmllibmanagerMaxDataUriSize(ConfigNodePropertyInteger htmllibmanagerMaxDataUriSize) {
+  @JsonProperty("htmllibmanager.maxDataUriSize")
+  public void setHtmllibmanagerMaxDataUriSize(@Nullable ConfigNodePropertyInteger htmllibmanagerMaxDataUriSize) {
     this.htmllibmanagerMaxDataUriSize = htmllibmanagerMaxDataUriSize;
   }
 
-  public ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties htmllibmanagerMaxage(ConfigNodePropertyInteger htmllibmanagerMaxage) {
+  public ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties htmllibmanagerMaxage(@Nullable ConfigNodePropertyInteger htmllibmanagerMaxage) {
     this.htmllibmanagerMaxage = htmllibmanagerMaxage;
     return this;
   }
@@ -212,20 +223,20 @@ public class ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties   {
   /**
    * Get htmllibmanagerMaxage
    * @return htmllibmanagerMaxage
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getHtmllibmanagerMaxage() {
+   */
+  @Valid 
+  @Schema(name = "htmllibmanager.maxage", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("htmllibmanager.maxage")
+  public @Nullable ConfigNodePropertyInteger getHtmllibmanagerMaxage() {
     return htmllibmanagerMaxage;
   }
 
-  public void setHtmllibmanagerMaxage(ConfigNodePropertyInteger htmllibmanagerMaxage) {
+  @JsonProperty("htmllibmanager.maxage")
+  public void setHtmllibmanagerMaxage(@Nullable ConfigNodePropertyInteger htmllibmanagerMaxage) {
     this.htmllibmanagerMaxage = htmllibmanagerMaxage;
   }
 
-  public ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties htmllibmanagerForceCQUrlInfo(ConfigNodePropertyBoolean htmllibmanagerForceCQUrlInfo) {
+  public ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties htmllibmanagerForceCQUrlInfo(@Nullable ConfigNodePropertyBoolean htmllibmanagerForceCQUrlInfo) {
     this.htmllibmanagerForceCQUrlInfo = htmllibmanagerForceCQUrlInfo;
     return this;
   }
@@ -233,20 +244,20 @@ public class ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties   {
   /**
    * Get htmllibmanagerForceCQUrlInfo
    * @return htmllibmanagerForceCQUrlInfo
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getHtmllibmanagerForceCQUrlInfo() {
+   */
+  @Valid 
+  @Schema(name = "htmllibmanager.forceCQUrlInfo", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("htmllibmanager.forceCQUrlInfo")
+  public @Nullable ConfigNodePropertyBoolean getHtmllibmanagerForceCQUrlInfo() {
     return htmllibmanagerForceCQUrlInfo;
   }
 
-  public void setHtmllibmanagerForceCQUrlInfo(ConfigNodePropertyBoolean htmllibmanagerForceCQUrlInfo) {
+  @JsonProperty("htmllibmanager.forceCQUrlInfo")
+  public void setHtmllibmanagerForceCQUrlInfo(@Nullable ConfigNodePropertyBoolean htmllibmanagerForceCQUrlInfo) {
     this.htmllibmanagerForceCQUrlInfo = htmllibmanagerForceCQUrlInfo;
   }
 
-  public ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties htmllibmanagerDefaultthemename(ConfigNodePropertyString htmllibmanagerDefaultthemename) {
+  public ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties htmllibmanagerDefaultthemename(@Nullable ConfigNodePropertyString htmllibmanagerDefaultthemename) {
     this.htmllibmanagerDefaultthemename = htmllibmanagerDefaultthemename;
     return this;
   }
@@ -254,20 +265,20 @@ public class ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties   {
   /**
    * Get htmllibmanagerDefaultthemename
    * @return htmllibmanagerDefaultthemename
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getHtmllibmanagerDefaultthemename() {
+   */
+  @Valid 
+  @Schema(name = "htmllibmanager.defaultthemename", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("htmllibmanager.defaultthemename")
+  public @Nullable ConfigNodePropertyString getHtmllibmanagerDefaultthemename() {
     return htmllibmanagerDefaultthemename;
   }
 
-  public void setHtmllibmanagerDefaultthemename(ConfigNodePropertyString htmllibmanagerDefaultthemename) {
+  @JsonProperty("htmllibmanager.defaultthemename")
+  public void setHtmllibmanagerDefaultthemename(@Nullable ConfigNodePropertyString htmllibmanagerDefaultthemename) {
     this.htmllibmanagerDefaultthemename = htmllibmanagerDefaultthemename;
   }
 
-  public ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties htmllibmanagerDefaultuserthemename(ConfigNodePropertyString htmllibmanagerDefaultuserthemename) {
+  public ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties htmllibmanagerDefaultuserthemename(@Nullable ConfigNodePropertyString htmllibmanagerDefaultuserthemename) {
     this.htmllibmanagerDefaultuserthemename = htmllibmanagerDefaultuserthemename;
     return this;
   }
@@ -275,20 +286,20 @@ public class ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties   {
   /**
    * Get htmllibmanagerDefaultuserthemename
    * @return htmllibmanagerDefaultuserthemename
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getHtmllibmanagerDefaultuserthemename() {
+   */
+  @Valid 
+  @Schema(name = "htmllibmanager.defaultuserthemename", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("htmllibmanager.defaultuserthemename")
+  public @Nullable ConfigNodePropertyString getHtmllibmanagerDefaultuserthemename() {
     return htmllibmanagerDefaultuserthemename;
   }
 
-  public void setHtmllibmanagerDefaultuserthemename(ConfigNodePropertyString htmllibmanagerDefaultuserthemename) {
+  @JsonProperty("htmllibmanager.defaultuserthemename")
+  public void setHtmllibmanagerDefaultuserthemename(@Nullable ConfigNodePropertyString htmllibmanagerDefaultuserthemename) {
     this.htmllibmanagerDefaultuserthemename = htmllibmanagerDefaultuserthemename;
   }
 
-  public ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties htmllibmanagerClientmanager(ConfigNodePropertyString htmllibmanagerClientmanager) {
+  public ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties htmllibmanagerClientmanager(@Nullable ConfigNodePropertyString htmllibmanagerClientmanager) {
     this.htmllibmanagerClientmanager = htmllibmanagerClientmanager;
     return this;
   }
@@ -296,20 +307,20 @@ public class ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties   {
   /**
    * Get htmllibmanagerClientmanager
    * @return htmllibmanagerClientmanager
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getHtmllibmanagerClientmanager() {
+   */
+  @Valid 
+  @Schema(name = "htmllibmanager.clientmanager", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("htmllibmanager.clientmanager")
+  public @Nullable ConfigNodePropertyString getHtmllibmanagerClientmanager() {
     return htmllibmanagerClientmanager;
   }
 
-  public void setHtmllibmanagerClientmanager(ConfigNodePropertyString htmllibmanagerClientmanager) {
+  @JsonProperty("htmllibmanager.clientmanager")
+  public void setHtmllibmanagerClientmanager(@Nullable ConfigNodePropertyString htmllibmanagerClientmanager) {
     this.htmllibmanagerClientmanager = htmllibmanagerClientmanager;
   }
 
-  public ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties htmllibmanagerPathList(ConfigNodePropertyArray htmllibmanagerPathList) {
+  public ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties htmllibmanagerPathList(@Nullable ConfigNodePropertyArray htmllibmanagerPathList) {
     this.htmllibmanagerPathList = htmllibmanagerPathList;
     return this;
   }
@@ -317,20 +328,20 @@ public class ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties   {
   /**
    * Get htmllibmanagerPathList
    * @return htmllibmanagerPathList
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getHtmllibmanagerPathList() {
+   */
+  @Valid 
+  @Schema(name = "htmllibmanager.path.list", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("htmllibmanager.path.list")
+  public @Nullable ConfigNodePropertyArray getHtmllibmanagerPathList() {
     return htmllibmanagerPathList;
   }
 
-  public void setHtmllibmanagerPathList(ConfigNodePropertyArray htmllibmanagerPathList) {
+  @JsonProperty("htmllibmanager.path.list")
+  public void setHtmllibmanagerPathList(@Nullable ConfigNodePropertyArray htmllibmanagerPathList) {
     this.htmllibmanagerPathList = htmllibmanagerPathList;
   }
 
-  public ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties htmllibmanagerExcludedPathList(ConfigNodePropertyArray htmllibmanagerExcludedPathList) {
+  public ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties htmllibmanagerExcludedPathList(@Nullable ConfigNodePropertyArray htmllibmanagerExcludedPathList) {
     this.htmllibmanagerExcludedPathList = htmllibmanagerExcludedPathList;
     return this;
   }
@@ -338,20 +349,20 @@ public class ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties   {
   /**
    * Get htmllibmanagerExcludedPathList
    * @return htmllibmanagerExcludedPathList
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getHtmllibmanagerExcludedPathList() {
+   */
+  @Valid 
+  @Schema(name = "htmllibmanager.excluded.path.list", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("htmllibmanager.excluded.path.list")
+  public @Nullable ConfigNodePropertyArray getHtmllibmanagerExcludedPathList() {
     return htmllibmanagerExcludedPathList;
   }
 
-  public void setHtmllibmanagerExcludedPathList(ConfigNodePropertyArray htmllibmanagerExcludedPathList) {
+  @JsonProperty("htmllibmanager.excluded.path.list")
+  public void setHtmllibmanagerExcludedPathList(@Nullable ConfigNodePropertyArray htmllibmanagerExcludedPathList) {
     this.htmllibmanagerExcludedPathList = htmllibmanagerExcludedPathList;
   }
 
-  public ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties htmllibmanagerProcessorJs(ConfigNodePropertyArray htmllibmanagerProcessorJs) {
+  public ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties htmllibmanagerProcessorJs(@Nullable ConfigNodePropertyArray htmllibmanagerProcessorJs) {
     this.htmllibmanagerProcessorJs = htmllibmanagerProcessorJs;
     return this;
   }
@@ -359,20 +370,20 @@ public class ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties   {
   /**
    * Get htmllibmanagerProcessorJs
    * @return htmllibmanagerProcessorJs
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getHtmllibmanagerProcessorJs() {
+   */
+  @Valid 
+  @Schema(name = "htmllibmanager.processor.js", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("htmllibmanager.processor.js")
+  public @Nullable ConfigNodePropertyArray getHtmllibmanagerProcessorJs() {
     return htmllibmanagerProcessorJs;
   }
 
-  public void setHtmllibmanagerProcessorJs(ConfigNodePropertyArray htmllibmanagerProcessorJs) {
+  @JsonProperty("htmllibmanager.processor.js")
+  public void setHtmllibmanagerProcessorJs(@Nullable ConfigNodePropertyArray htmllibmanagerProcessorJs) {
     this.htmllibmanagerProcessorJs = htmllibmanagerProcessorJs;
   }
 
-  public ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties htmllibmanagerProcessorCss(ConfigNodePropertyArray htmllibmanagerProcessorCss) {
+  public ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties htmllibmanagerProcessorCss(@Nullable ConfigNodePropertyArray htmllibmanagerProcessorCss) {
     this.htmllibmanagerProcessorCss = htmllibmanagerProcessorCss;
     return this;
   }
@@ -380,20 +391,20 @@ public class ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties   {
   /**
    * Get htmllibmanagerProcessorCss
    * @return htmllibmanagerProcessorCss
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getHtmllibmanagerProcessorCss() {
+   */
+  @Valid 
+  @Schema(name = "htmllibmanager.processor.css", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("htmllibmanager.processor.css")
+  public @Nullable ConfigNodePropertyArray getHtmllibmanagerProcessorCss() {
     return htmllibmanagerProcessorCss;
   }
 
-  public void setHtmllibmanagerProcessorCss(ConfigNodePropertyArray htmllibmanagerProcessorCss) {
+  @JsonProperty("htmllibmanager.processor.css")
+  public void setHtmllibmanagerProcessorCss(@Nullable ConfigNodePropertyArray htmllibmanagerProcessorCss) {
     this.htmllibmanagerProcessorCss = htmllibmanagerProcessorCss;
   }
 
-  public ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties htmllibmanagerLongcachePatterns(ConfigNodePropertyArray htmllibmanagerLongcachePatterns) {
+  public ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties htmllibmanagerLongcachePatterns(@Nullable ConfigNodePropertyArray htmllibmanagerLongcachePatterns) {
     this.htmllibmanagerLongcachePatterns = htmllibmanagerLongcachePatterns;
     return this;
   }
@@ -401,20 +412,20 @@ public class ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties   {
   /**
    * Get htmllibmanagerLongcachePatterns
    * @return htmllibmanagerLongcachePatterns
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getHtmllibmanagerLongcachePatterns() {
+   */
+  @Valid 
+  @Schema(name = "htmllibmanager.longcache.patterns", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("htmllibmanager.longcache.patterns")
+  public @Nullable ConfigNodePropertyArray getHtmllibmanagerLongcachePatterns() {
     return htmllibmanagerLongcachePatterns;
   }
 
-  public void setHtmllibmanagerLongcachePatterns(ConfigNodePropertyArray htmllibmanagerLongcachePatterns) {
+  @JsonProperty("htmllibmanager.longcache.patterns")
+  public void setHtmllibmanagerLongcachePatterns(@Nullable ConfigNodePropertyArray htmllibmanagerLongcachePatterns) {
     this.htmllibmanagerLongcachePatterns = htmllibmanagerLongcachePatterns;
   }
 
-  public ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties htmllibmanagerLongcacheFormat(ConfigNodePropertyString htmllibmanagerLongcacheFormat) {
+  public ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties htmllibmanagerLongcacheFormat(@Nullable ConfigNodePropertyString htmllibmanagerLongcacheFormat) {
     this.htmllibmanagerLongcacheFormat = htmllibmanagerLongcacheFormat;
     return this;
   }
@@ -422,20 +433,20 @@ public class ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties   {
   /**
    * Get htmllibmanagerLongcacheFormat
    * @return htmllibmanagerLongcacheFormat
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getHtmllibmanagerLongcacheFormat() {
+   */
+  @Valid 
+  @Schema(name = "htmllibmanager.longcache.format", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("htmllibmanager.longcache.format")
+  public @Nullable ConfigNodePropertyString getHtmllibmanagerLongcacheFormat() {
     return htmllibmanagerLongcacheFormat;
   }
 
-  public void setHtmllibmanagerLongcacheFormat(ConfigNodePropertyString htmllibmanagerLongcacheFormat) {
+  @JsonProperty("htmllibmanager.longcache.format")
+  public void setHtmllibmanagerLongcacheFormat(@Nullable ConfigNodePropertyString htmllibmanagerLongcacheFormat) {
     this.htmllibmanagerLongcacheFormat = htmllibmanagerLongcacheFormat;
   }
 
-  public ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties htmllibmanagerUseFileSystemOutputCache(ConfigNodePropertyBoolean htmllibmanagerUseFileSystemOutputCache) {
+  public ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties htmllibmanagerUseFileSystemOutputCache(@Nullable ConfigNodePropertyBoolean htmllibmanagerUseFileSystemOutputCache) {
     this.htmllibmanagerUseFileSystemOutputCache = htmllibmanagerUseFileSystemOutputCache;
     return this;
   }
@@ -443,20 +454,20 @@ public class ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties   {
   /**
    * Get htmllibmanagerUseFileSystemOutputCache
    * @return htmllibmanagerUseFileSystemOutputCache
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getHtmllibmanagerUseFileSystemOutputCache() {
+   */
+  @Valid 
+  @Schema(name = "htmllibmanager.useFileSystemOutputCache", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("htmllibmanager.useFileSystemOutputCache")
+  public @Nullable ConfigNodePropertyBoolean getHtmllibmanagerUseFileSystemOutputCache() {
     return htmllibmanagerUseFileSystemOutputCache;
   }
 
-  public void setHtmllibmanagerUseFileSystemOutputCache(ConfigNodePropertyBoolean htmllibmanagerUseFileSystemOutputCache) {
+  @JsonProperty("htmllibmanager.useFileSystemOutputCache")
+  public void setHtmllibmanagerUseFileSystemOutputCache(@Nullable ConfigNodePropertyBoolean htmllibmanagerUseFileSystemOutputCache) {
     this.htmllibmanagerUseFileSystemOutputCache = htmllibmanagerUseFileSystemOutputCache;
   }
 
-  public ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties htmllibmanagerFileSystemOutputCacheLocation(ConfigNodePropertyString htmllibmanagerFileSystemOutputCacheLocation) {
+  public ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties htmllibmanagerFileSystemOutputCacheLocation(@Nullable ConfigNodePropertyString htmllibmanagerFileSystemOutputCacheLocation) {
     this.htmllibmanagerFileSystemOutputCacheLocation = htmllibmanagerFileSystemOutputCacheLocation;
     return this;
   }
@@ -464,20 +475,20 @@ public class ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties   {
   /**
    * Get htmllibmanagerFileSystemOutputCacheLocation
    * @return htmllibmanagerFileSystemOutputCacheLocation
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getHtmllibmanagerFileSystemOutputCacheLocation() {
+   */
+  @Valid 
+  @Schema(name = "htmllibmanager.fileSystemOutputCacheLocation", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("htmllibmanager.fileSystemOutputCacheLocation")
+  public @Nullable ConfigNodePropertyString getHtmllibmanagerFileSystemOutputCacheLocation() {
     return htmllibmanagerFileSystemOutputCacheLocation;
   }
 
-  public void setHtmllibmanagerFileSystemOutputCacheLocation(ConfigNodePropertyString htmllibmanagerFileSystemOutputCacheLocation) {
+  @JsonProperty("htmllibmanager.fileSystemOutputCacheLocation")
+  public void setHtmllibmanagerFileSystemOutputCacheLocation(@Nullable ConfigNodePropertyString htmllibmanagerFileSystemOutputCacheLocation) {
     this.htmllibmanagerFileSystemOutputCacheLocation = htmllibmanagerFileSystemOutputCacheLocation;
   }
 
-  public ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties htmllibmanagerDisableReplacement(ConfigNodePropertyArray htmllibmanagerDisableReplacement) {
+  public ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties htmllibmanagerDisableReplacement(@Nullable ConfigNodePropertyArray htmllibmanagerDisableReplacement) {
     this.htmllibmanagerDisableReplacement = htmllibmanagerDisableReplacement;
     return this;
   }
@@ -485,22 +496,21 @@ public class ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties   {
   /**
    * Get htmllibmanagerDisableReplacement
    * @return htmllibmanagerDisableReplacement
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getHtmllibmanagerDisableReplacement() {
+   */
+  @Valid 
+  @Schema(name = "htmllibmanager.disable.replacement", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("htmllibmanager.disable.replacement")
+  public @Nullable ConfigNodePropertyArray getHtmllibmanagerDisableReplacement() {
     return htmllibmanagerDisableReplacement;
   }
 
-  public void setHtmllibmanagerDisableReplacement(ConfigNodePropertyArray htmllibmanagerDisableReplacement) {
+  @JsonProperty("htmllibmanager.disable.replacement")
+  public void setHtmllibmanagerDisableReplacement(@Nullable ConfigNodePropertyArray htmllibmanagerDisableReplacement) {
     this.htmllibmanagerDisableReplacement = htmllibmanagerDisableReplacement;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -539,7 +549,6 @@ public class ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties {\n");
-    
     sb.append("    htmllibmanagerTiming: ").append(toIndentedString(htmllibmanagerTiming)).append("\n");
     sb.append("    htmllibmanagerDebugInitJs: ").append(toIndentedString(htmllibmanagerDebugInitJs)).append("\n");
     sb.append("    htmllibmanagerMinify: ").append(toIndentedString(htmllibmanagerMinify)).append("\n");
@@ -568,11 +577,8 @@ public class ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

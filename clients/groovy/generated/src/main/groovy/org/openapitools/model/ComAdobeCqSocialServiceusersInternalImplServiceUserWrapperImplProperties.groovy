@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyBoolean;
 
 @Canonical
 class ComAdobeCqSocialServiceusersInternalImplServiceUserWrapperImplProperties {
-    ConfigNodePropertyBoolean enableFallback = null
-
+    
+    ConfigNodePropertyBoolean enableFallback
 }

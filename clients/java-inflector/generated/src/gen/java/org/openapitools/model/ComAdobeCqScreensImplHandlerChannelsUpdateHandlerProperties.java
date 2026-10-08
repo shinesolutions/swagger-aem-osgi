@@ -3,6 +3,7 @@ package org.openapitools.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
@@ -11,22 +12,22 @@ import org.openapitools.model.ConfigNodePropertyArray;
 
 
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaInflectorServerCodegen", date = "2019-08-05T00:53:46.291Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaInflectorServerCodegen", date = "2026-10-07T12:53:12.340274163Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties   {
   @JsonProperty("cq.pagesupdatehandler.imageresourcetypes")
-  private ConfigNodePropertyArray cqPagesupdatehandlerImageresourcetypes = null;
+  private ConfigNodePropertyArray cqPagesupdatehandlerImageresourcetypes;
 
   @JsonProperty("cq.pagesupdatehandler.productresourcetypes")
-  private ConfigNodePropertyArray cqPagesupdatehandlerProductresourcetypes = null;
+  private ConfigNodePropertyArray cqPagesupdatehandlerProductresourcetypes;
 
   @JsonProperty("cq.pagesupdatehandler.videoresourcetypes")
-  private ConfigNodePropertyArray cqPagesupdatehandlerVideoresourcetypes = null;
+  private ConfigNodePropertyArray cqPagesupdatehandlerVideoresourcetypes;
 
   @JsonProperty("cq.pagesupdatehandler.dynamicsequenceresourcetypes")
-  private ConfigNodePropertyArray cqPagesupdatehandlerDynamicsequenceresourcetypes = null;
+  private ConfigNodePropertyArray cqPagesupdatehandlerDynamicsequenceresourcetypes;
 
   @JsonProperty("cq.pagesupdatehandler.previewmodepaths")
-  private ConfigNodePropertyArray cqPagesupdatehandlerPreviewmodepaths = null;
+  private ConfigNodePropertyArray cqPagesupdatehandlerPreviewmodepaths;
 
   /**
    **/
@@ -115,7 +116,7 @@ public class ComAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -153,11 +154,8 @@ public class ComAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

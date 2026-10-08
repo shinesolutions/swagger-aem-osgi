@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqDamCoreImplCacheCQBufferedImageCacheProper
 
 @Canonical
 class ComDayCqDamCoreImplCacheCQBufferedImageCacheInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqDamCoreImplCacheCQBufferedImageCacheProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqDamCoreImplCacheCQBufferedImageCacheProperties properties
 }

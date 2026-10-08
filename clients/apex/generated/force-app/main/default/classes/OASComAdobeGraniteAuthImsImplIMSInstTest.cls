@@ -72,7 +72,7 @@ private class OASComAdobeGraniteAuthImsImplIMSInstTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeGraniteAuthImsImplIMSInst comAdobeGraniteAuthImsImplIMSInstanceCredentialsValidatorProperties = new OASComAdobeGraniteAuthImsImplIMSInst();
-        Map<String, String> propertyMappings = comAdobeGraniteAuthImsImplIMSInstanceCredentialsValidatorProperties.getPropertyMappings();
-        System.assertEquals('oauthProviderId', propertyMappings.get('oauth.provider.id'));
+        Map<String, String> x-property-mappings = comAdobeGraniteAuthImsImplIMSInstanceCredentialsValidatorProperties.getx-property-mappings();
+        System.assertEquals('oauthProviderId', x-property-mappings.get('oauth.provider.id'));
     }
 }

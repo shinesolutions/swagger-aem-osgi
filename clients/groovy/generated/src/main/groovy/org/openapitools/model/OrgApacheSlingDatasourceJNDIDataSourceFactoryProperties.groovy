@@ -8,12 +8,12 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class OrgApacheSlingDatasourceJNDIDataSourceFactoryProperties {
-    ConfigNodePropertyString datasourceName = null
-
-    ConfigNodePropertyString datasourceSvcPropName = null
-
-    ConfigNodePropertyString datasourceJndiName = null
-
-    ConfigNodePropertyArray jndiProperties = null
-
+    
+    ConfigNodePropertyString datasourceName
+    
+    ConfigNodePropertyString datasourceSvcPropName
+    
+    ConfigNodePropertyString datasourceJndiName
+    
+    ConfigNodePropertyArray jndiProperties
 }

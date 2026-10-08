@@ -8,8 +8,8 @@ import org.openapitools.model.ConfigNodePropertyBoolean;
 
 @Canonical
 class ComDayCqDamScene7ImplScene7DamChangeEventListenerProperties {
-    ConfigNodePropertyBoolean cqDamScene7DamchangeeventlistenerEnabled = null
-
-    ConfigNodePropertyArray cqDamScene7DamchangeeventlistenerObservedPaths = null
-
+    
+    ConfigNodePropertyBoolean cqDamScene7DamchangeeventlistenerEnabled
+    
+    ConfigNodePropertyArray cqDamScene7DamchangeeventlistenerObservedPaths
 }

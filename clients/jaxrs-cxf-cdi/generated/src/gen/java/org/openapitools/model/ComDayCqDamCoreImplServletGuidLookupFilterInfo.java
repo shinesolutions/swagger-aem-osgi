@@ -2,31 +2,32 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ComDayCqDamCoreImplServletGuidLookupFilterProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class ComDayCqDamCoreImplServletGuidLookupFilterInfo   {
   
-  private String pid = null;
+  private String pid;
 
-  private String title = null;
+  private String title;
 
-  private String description = null;
+  private String description;
 
-  private ComDayCqDamCoreImplServletGuidLookupFilterProperties properties = null;
+  private ComDayCqDamCoreImplServletGuidLookupFilterProperties properties;
 
-  private String bundleLocation = null;
+  private String bundleLocation;
 
-  private String serviceLocation = null;
-
+  private String serviceLocation;
 
   /**
    **/
@@ -138,7 +139,7 @@ public class ComDayCqDamCoreImplServletGuidLookupFilterInfo   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -146,12 +147,12 @@ public class ComDayCqDamCoreImplServletGuidLookupFilterInfo   {
       return false;
     }
     ComDayCqDamCoreImplServletGuidLookupFilterInfo comDayCqDamCoreImplServletGuidLookupFilterInfo = (ComDayCqDamCoreImplServletGuidLookupFilterInfo) o;
-    return Objects.equals(pid, comDayCqDamCoreImplServletGuidLookupFilterInfo.pid) &&
-        Objects.equals(title, comDayCqDamCoreImplServletGuidLookupFilterInfo.title) &&
-        Objects.equals(description, comDayCqDamCoreImplServletGuidLookupFilterInfo.description) &&
-        Objects.equals(properties, comDayCqDamCoreImplServletGuidLookupFilterInfo.properties) &&
-        Objects.equals(bundleLocation, comDayCqDamCoreImplServletGuidLookupFilterInfo.bundleLocation) &&
-        Objects.equals(serviceLocation, comDayCqDamCoreImplServletGuidLookupFilterInfo.serviceLocation);
+    return Objects.equals(this.pid, comDayCqDamCoreImplServletGuidLookupFilterInfo.pid) &&
+        Objects.equals(this.title, comDayCqDamCoreImplServletGuidLookupFilterInfo.title) &&
+        Objects.equals(this.description, comDayCqDamCoreImplServletGuidLookupFilterInfo.description) &&
+        Objects.equals(this.properties, comDayCqDamCoreImplServletGuidLookupFilterInfo.properties) &&
+        Objects.equals(this.bundleLocation, comDayCqDamCoreImplServletGuidLookupFilterInfo.bundleLocation) &&
+        Objects.equals(this.serviceLocation, comDayCqDamCoreImplServletGuidLookupFilterInfo.serviceLocation);
   }
 
   @Override
@@ -178,11 +179,8 @@ public class ComDayCqDamCoreImplServletGuidLookupFilterInfo   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

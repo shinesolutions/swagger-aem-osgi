@@ -1,0 +1,15 @@
+{
+  "namespace": "model",
+  "type": "record",
+  "doc": "",
+  "name": "ComAdobeGraniteOauthServerImplOAuth2TokenRevocationServletProperties",
+  "fields": [
+    {
+      "name": "oauth.token.revocation.active",
+      "type": ["null", "model.ConfigNodePropertyBoolean"],
+      "doc": "",
+      "default": null
+    }
+  ]
+
+}

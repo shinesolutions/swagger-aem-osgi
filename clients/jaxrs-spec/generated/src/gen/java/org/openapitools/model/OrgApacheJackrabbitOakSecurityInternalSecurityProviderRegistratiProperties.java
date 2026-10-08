@@ -1,20 +1,31 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyDropDown;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("orgApacheJackrabbitOakSecurityInternalSecurityProviderRegistratiProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistratiProperties   {
-  
-  private @Valid ConfigNodePropertyArray requiredServicePids = null;
-  private @Valid ConfigNodePropertyDropDown authorizationCompositionType = null;
+  private ConfigNodePropertyArray requiredServicePids;
+  private ConfigNodePropertyDropDown authorizationCompositionType;
+
+  public OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistratiProperties() {
+  }
 
   /**
    **/
@@ -26,9 +37,11 @@ public class OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistratiPro
   
   @ApiModelProperty(value = "")
   @JsonProperty("requiredServicePids")
-  public ConfigNodePropertyArray getRequiredServicePids() {
+  @Valid public ConfigNodePropertyArray getRequiredServicePids() {
     return requiredServicePids;
   }
+
+  @JsonProperty("requiredServicePids")
   public void setRequiredServicePids(ConfigNodePropertyArray requiredServicePids) {
     this.requiredServicePids = requiredServicePids;
   }
@@ -43,16 +56,18 @@ public class OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistratiPro
   
   @ApiModelProperty(value = "")
   @JsonProperty("authorizationCompositionType")
-  public ConfigNodePropertyDropDown getAuthorizationCompositionType() {
+  @Valid public ConfigNodePropertyDropDown getAuthorizationCompositionType() {
     return authorizationCompositionType;
   }
+
+  @JsonProperty("authorizationCompositionType")
   public void setAuthorizationCompositionType(ConfigNodePropertyDropDown authorizationCompositionType) {
     this.authorizationCompositionType = authorizationCompositionType;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -60,8 +75,8 @@ public class OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistratiPro
       return false;
     }
     OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistratiProperties orgApacheJackrabbitOakSecurityInternalSecurityProviderRegistratiProperties = (OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistratiProperties) o;
-    return Objects.equals(requiredServicePids, orgApacheJackrabbitOakSecurityInternalSecurityProviderRegistratiProperties.requiredServicePids) &&
-        Objects.equals(authorizationCompositionType, orgApacheJackrabbitOakSecurityInternalSecurityProviderRegistratiProperties.authorizationCompositionType);
+    return Objects.equals(this.requiredServicePids, orgApacheJackrabbitOakSecurityInternalSecurityProviderRegistratiProperties.requiredServicePids) &&
+        Objects.equals(this.authorizationCompositionType, orgApacheJackrabbitOakSecurityInternalSecurityProviderRegistratiProperties.authorizationCompositionType);
   }
 
   @Override
@@ -84,11 +99,9 @@ public class OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistratiPro
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

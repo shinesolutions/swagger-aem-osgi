@@ -72,7 +72,7 @@ private class OASComDayCqDamCoreImplServletAssetStTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqDamCoreImplServletAssetSt comDayCqDamCoreImplServletAssetStatusServletProperties = new OASComDayCqDamCoreImplServletAssetSt();
-        Map<String, String> propertyMappings = comDayCqDamCoreImplServletAssetStatusServletProperties.getPropertyMappings();
-        System.assertEquals('cqDamBatchStatusMaxassets', propertyMappings.get('cq.dam.batch.status.maxassets'));
+        Map<String, String> x-property-mappings = comDayCqDamCoreImplServletAssetStatusServletProperties.getx-property-mappings();
+        System.assertEquals('cqDamBatchStatusMaxassets', x-property-mappings.get('cq.dam.batch.status.maxassets'));
     }
 }

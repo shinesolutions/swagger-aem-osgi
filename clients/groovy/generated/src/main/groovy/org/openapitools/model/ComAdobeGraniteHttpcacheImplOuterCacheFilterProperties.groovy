@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyArray;
 
 @Canonical
 class ComAdobeGraniteHttpcacheImplOuterCacheFilterProperties {
-    ConfigNodePropertyArray comAdobeGraniteHttpcacheUrlPaths = null
-
+    
+    ConfigNodePropertyArray comAdobeGraniteHttpcacheUrlPaths
 }

@@ -72,12 +72,12 @@ private class OASComDayCqWorkflowImplEmailEMailNotTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqWorkflowImplEmailEMailNot comDayCqWorkflowImplEmailEMailNotificationServiceProperties = new OASComDayCqWorkflowImplEmailEMailNot();
-        Map<String, String> propertyMappings = comDayCqWorkflowImplEmailEMailNotificationServiceProperties.getPropertyMappings();
-        System.assertEquals('fromAddress', propertyMappings.get('from.address'));
-        System.assertEquals('hostPrefix', propertyMappings.get('host.prefix'));
-        System.assertEquals('notifyOnabort', propertyMappings.get('notify.onabort'));
-        System.assertEquals('notifyOncomplete', propertyMappings.get('notify.oncomplete'));
-        System.assertEquals('notifyOncontainercomplete', propertyMappings.get('notify.oncontainercomplete'));
-        System.assertEquals('notifyUseronly', propertyMappings.get('notify.useronly'));
+        Map<String, String> x-property-mappings = comDayCqWorkflowImplEmailEMailNotificationServiceProperties.getx-property-mappings();
+        System.assertEquals('fromAddress', x-property-mappings.get('from.address'));
+        System.assertEquals('hostPrefix', x-property-mappings.get('host.prefix'));
+        System.assertEquals('notifyOnabort', x-property-mappings.get('notify.onabort'));
+        System.assertEquals('notifyOncomplete', x-property-mappings.get('notify.oncomplete'));
+        System.assertEquals('notifyOncontainercomplete', x-property-mappings.get('notify.oncontainercomplete'));
+        System.assertEquals('notifyUseronly', x-property-mappings.get('notify.useronly'));
     }
 }

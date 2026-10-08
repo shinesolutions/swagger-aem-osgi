@@ -567,6 +567,7 @@ import org.openapitools.model.ComDayCqWorkflowImplEmailTaskEMailNotificationServ
 import org.openapitools.model.ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerInfo;
 import org.openapitools.model.ComDayCrxSecurityTokenImplTokenCleanupTaskInfo;
 import org.openapitools.model.GuideLocalizationServiceInfo;
+import java.util.List;
 import org.openapitools.model.MessagingUserComponentFactoryInfo;
 import org.openapitools.model.OrgApacheAriesJmxFrameworkStateConfigInfo;
 import org.openapitools.model.OrgApacheFelixEventadminImplEventAdminInfo;
@@ -733,9 +734,9 @@ import org.openapitools.model.OrgApacheSlingTenantInternalTenantProviderImplInfo
 import org.openapitools.model.OrgApacheSlingTracerInternalLogTracerInfo;
 import org.openapitools.model.OrgApacheSlingXssImplXSSFilterImplInfo;
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaInflectorServerCodegen", date = "2019-08-05T00:53:46.291Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaInflectorServerCodegen", date = "2026-10-07T12:53:12.340274163Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class SystemController  {
-  /** 
+  /**
    * Uncomment and implement as you see fit.  These operations will map
    * Directly to operation calls from the routing logic.  Because the inflector
    * Code allows you to implement logic incrementally, they are disabled.
@@ -2902,7 +2903,7 @@ public class SystemController  {
   */
 
   /*
-    public ResponseContext comDayCqDamCoreImplMetadataEditorSelectComponentHandler(RequestContext request , Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> graniteColonData) {
+    public ResponseContext comDayCqDamCoreImplMetadataEditorSelectComponentHandler(RequestContext request , Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> graniteData) {
         return new ResponseContext().status(Status.INTERNAL_SERVER_ERROR).entity( "Not implemented" );
     }
   */
@@ -2998,7 +2999,7 @@ public class SystemController  {
   */
 
   /*
-    public ResponseContext comDayCqDamCoreImplServletCompanionServlet(RequestContext request , Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String moreInfo, String slashMntSlashOverlaySlashDamSlashGuiSlashContentSlashAssetsSlashMoreinfoHtmlSlash$LeftCurlyBracketPathRightCurlyBracket) {
+    public ResponseContext comDayCqDamCoreImplServletCompanionServlet(RequestContext request , Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String moreInfo, String mntOverlayDamGuiContentAssetsMoreinfoHtml$LeftCurlyBracketPathRightCurlyBracket) {
         return new ResponseContext().status(Status.INTERNAL_SERVER_ERROR).entity( "Not implemented" );
     }
   */
@@ -5068,4 +5069,3 @@ public class SystemController  {
   */
 
 }
-

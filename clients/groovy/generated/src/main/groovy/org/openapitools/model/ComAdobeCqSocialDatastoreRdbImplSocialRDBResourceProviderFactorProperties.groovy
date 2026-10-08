@@ -9,18 +9,18 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorProperties {
-    ConfigNodePropertyString solrZkTimeout = null
-
-    ConfigNodePropertyString solrCommit = null
-
-    ConfigNodePropertyBoolean cacheOn = null
-
-    ConfigNodePropertyInteger concurrencyLevel = null
-
-    ConfigNodePropertyInteger cacheStartSize = null
-
-    ConfigNodePropertyInteger cacheTtl = null
-
-    ConfigNodePropertyInteger cacheSize = null
-
+    
+    ConfigNodePropertyString solrZkTimeout
+    
+    ConfigNodePropertyString solrCommit
+    
+    ConfigNodePropertyBoolean cacheOn
+    
+    ConfigNodePropertyInteger concurrencyLevel
+    
+    ConfigNodePropertyInteger cacheStartSize
+    
+    ConfigNodePropertyInteger cacheTtl
+    
+    ConfigNodePropertyInteger cacheSize
 }

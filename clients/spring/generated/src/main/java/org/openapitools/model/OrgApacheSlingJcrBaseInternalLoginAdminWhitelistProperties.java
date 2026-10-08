@@ -1,28 +1,39 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * OrgApacheSlingJcrBaseInternalLoginAdminWhitelistProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class OrgApacheSlingJcrBaseInternalLoginAdminWhitelistProperties   {
-  @JsonProperty("whitelist.bypass")
-  private ConfigNodePropertyBoolean whitelistBypass = null;
+@JsonTypeName("orgApacheSlingJcrBaseInternalLoginAdminWhitelistProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class OrgApacheSlingJcrBaseInternalLoginAdminWhitelistProperties {
 
-  @JsonProperty("whitelist.bundles.regexp")
-  private ConfigNodePropertyString whitelistBundlesRegexp = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean whitelistBypass;
 
-  public OrgApacheSlingJcrBaseInternalLoginAdminWhitelistProperties whitelistBypass(ConfigNodePropertyBoolean whitelistBypass) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString whitelistBundlesRegexp;
+
+  public OrgApacheSlingJcrBaseInternalLoginAdminWhitelistProperties whitelistBypass(@Nullable ConfigNodePropertyBoolean whitelistBypass) {
     this.whitelistBypass = whitelistBypass;
     return this;
   }
@@ -30,20 +41,20 @@ public class OrgApacheSlingJcrBaseInternalLoginAdminWhitelistProperties   {
   /**
    * Get whitelistBypass
    * @return whitelistBypass
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getWhitelistBypass() {
+   */
+  @Valid 
+  @Schema(name = "whitelist.bypass", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("whitelist.bypass")
+  public @Nullable ConfigNodePropertyBoolean getWhitelistBypass() {
     return whitelistBypass;
   }
 
-  public void setWhitelistBypass(ConfigNodePropertyBoolean whitelistBypass) {
+  @JsonProperty("whitelist.bypass")
+  public void setWhitelistBypass(@Nullable ConfigNodePropertyBoolean whitelistBypass) {
     this.whitelistBypass = whitelistBypass;
   }
 
-  public OrgApacheSlingJcrBaseInternalLoginAdminWhitelistProperties whitelistBundlesRegexp(ConfigNodePropertyString whitelistBundlesRegexp) {
+  public OrgApacheSlingJcrBaseInternalLoginAdminWhitelistProperties whitelistBundlesRegexp(@Nullable ConfigNodePropertyString whitelistBundlesRegexp) {
     this.whitelistBundlesRegexp = whitelistBundlesRegexp;
     return this;
   }
@@ -51,22 +62,21 @@ public class OrgApacheSlingJcrBaseInternalLoginAdminWhitelistProperties   {
   /**
    * Get whitelistBundlesRegexp
    * @return whitelistBundlesRegexp
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getWhitelistBundlesRegexp() {
+   */
+  @Valid 
+  @Schema(name = "whitelist.bundles.regexp", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("whitelist.bundles.regexp")
+  public @Nullable ConfigNodePropertyString getWhitelistBundlesRegexp() {
     return whitelistBundlesRegexp;
   }
 
-  public void setWhitelistBundlesRegexp(ConfigNodePropertyString whitelistBundlesRegexp) {
+  @JsonProperty("whitelist.bundles.regexp")
+  public void setWhitelistBundlesRegexp(@Nullable ConfigNodePropertyString whitelistBundlesRegexp) {
     this.whitelistBundlesRegexp = whitelistBundlesRegexp;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -87,7 +97,6 @@ public class OrgApacheSlingJcrBaseInternalLoginAdminWhitelistProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class OrgApacheSlingJcrBaseInternalLoginAdminWhitelistProperties {\n");
-    
     sb.append("    whitelistBypass: ").append(toIndentedString(whitelistBypass)).append("\n");
     sb.append("    whitelistBundlesRegexp: ").append(toIndentedString(whitelistBundlesRegexp)).append("\n");
     sb.append("}");
@@ -98,11 +107,8 @@ public class OrgApacheSlingJcrBaseInternalLoginAdminWhitelistProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

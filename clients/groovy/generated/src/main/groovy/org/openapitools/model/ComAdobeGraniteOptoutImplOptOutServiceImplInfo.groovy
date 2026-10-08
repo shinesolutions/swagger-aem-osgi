@@ -7,16 +7,16 @@ import org.openapitools.model.ComAdobeGraniteOptoutImplOptOutServiceImplProperti
 
 @Canonical
 class ComAdobeGraniteOptoutImplOptOutServiceImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteOptoutImplOptOutServiceImplProperties properties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteOptoutImplOptOutServiceImplProperties properties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

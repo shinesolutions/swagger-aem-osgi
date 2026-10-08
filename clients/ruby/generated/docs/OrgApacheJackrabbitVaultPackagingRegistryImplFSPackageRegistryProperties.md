@@ -2,16 +2,17 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**home_path** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **home_path** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::OrgApacheJackrabbitVaultPackagingRegistryImplFSPackageRegistryProperties.new(home_path: null)
+instance = SwaggerAemOsgiClient::OrgApacheJackrabbitVaultPackagingRegistryImplFSPackageRegistryProperties.new(
+  home_path: null
+)
 ```
-
 

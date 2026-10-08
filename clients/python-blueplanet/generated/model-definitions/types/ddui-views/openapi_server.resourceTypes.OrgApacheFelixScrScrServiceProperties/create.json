@@ -1,0 +1,22 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "ds_loglevel" },
+      {"model": "ds_factory_enabled" },
+      {"model": "ds_delayed_keep_instances" },
+      {"model": "ds_lock_timeout_milliseconds" },
+      {"model": "ds_stop_timeout_milliseconds" },
+      {"model": "ds_global_extender" },
+    ]
+  }]
+}

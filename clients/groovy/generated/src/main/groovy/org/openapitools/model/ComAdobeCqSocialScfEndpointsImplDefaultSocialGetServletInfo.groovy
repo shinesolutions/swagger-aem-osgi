@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqSocialScfEndpointsImplDefaultSocialGetSe
 
 @Canonical
 class ComAdobeCqSocialScfEndpointsImplDefaultSocialGetServletInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqSocialScfEndpointsImplDefaultSocialGetServletProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqSocialScfEndpointsImplDefaultSocialGetServletProperties properties
 }

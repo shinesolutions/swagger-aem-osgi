@@ -7,12 +7,12 @@ import org.openapitools.model.OrgApacheJackrabbitOakPluginsBlobDatastoreDataStor
 
 @Canonical
 class OrgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProviderInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProviderProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProviderProperties properties
 }

@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportIInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportIInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportIProperties = openapi_server.resourceTypes.ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportIProperties
+}
+resourceTypes {
+
+  ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportIInfo {
+    title = ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportIInfo
+    description = ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportIInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportIProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportIInfo {
+    title = ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportIInfo
+    description = ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportIInfo
+    implements = openapi_server.resourceTypes.ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportIInfo
+
+  }
+}

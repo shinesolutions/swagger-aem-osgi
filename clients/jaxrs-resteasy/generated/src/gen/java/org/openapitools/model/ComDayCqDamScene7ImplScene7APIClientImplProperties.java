@@ -4,22 +4,26 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2019-08-05T00:59:30.156Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2026-10-07T12:54:21.614735164Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqDamScene7ImplScene7APIClientImplProperties   {
   
-  private ConfigNodePropertyInteger cqDamScene7ApiclientRecordsperpageNofilterName = null;
-  private ConfigNodePropertyInteger cqDamScene7ApiclientRecordsperpageWithfilterName = null;
+  private ConfigNodePropertyInteger cqDamScene7ApiclientRecordsperpageNofilterName;
+  private ConfigNodePropertyInteger cqDamScene7ApiclientRecordsperpageWithfilterName;
 
   /**
    **/
   
   @ApiModelProperty(value = "")
   @JsonProperty("cq.dam.scene7.apiclient.recordsperpage.nofilter.name")
+  @Valid
   public ConfigNodePropertyInteger getCqDamScene7ApiclientRecordsperpageNofilterName() {
     return cqDamScene7ApiclientRecordsperpageNofilterName;
   }
@@ -32,6 +36,7 @@ public class ComDayCqDamScene7ImplScene7APIClientImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("cq.dam.scene7.apiclient.recordsperpage.withfilter.name")
+  @Valid
   public ConfigNodePropertyInteger getCqDamScene7ApiclientRecordsperpageWithfilterName() {
     return cqDamScene7ApiclientRecordsperpageWithfilterName;
   }
@@ -41,7 +46,7 @@ public class ComDayCqDamScene7ImplScene7APIClientImplProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -49,8 +54,8 @@ public class ComDayCqDamScene7ImplScene7APIClientImplProperties   {
       return false;
     }
     ComDayCqDamScene7ImplScene7APIClientImplProperties comDayCqDamScene7ImplScene7APIClientImplProperties = (ComDayCqDamScene7ImplScene7APIClientImplProperties) o;
-    return Objects.equals(cqDamScene7ApiclientRecordsperpageNofilterName, comDayCqDamScene7ImplScene7APIClientImplProperties.cqDamScene7ApiclientRecordsperpageNofilterName) &&
-        Objects.equals(cqDamScene7ApiclientRecordsperpageWithfilterName, comDayCqDamScene7ImplScene7APIClientImplProperties.cqDamScene7ApiclientRecordsperpageWithfilterName);
+    return Objects.equals(this.cqDamScene7ApiclientRecordsperpageNofilterName, comDayCqDamScene7ImplScene7APIClientImplProperties.cqDamScene7ApiclientRecordsperpageNofilterName) &&
+        Objects.equals(this.cqDamScene7ApiclientRecordsperpageWithfilterName, comDayCqDamScene7ImplScene7APIClientImplProperties.cqDamScene7ApiclientRecordsperpageWithfilterName);
   }
 
   @Override
@@ -73,11 +78,8 @@ public class ComDayCqDamScene7ImplScene7APIClientImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

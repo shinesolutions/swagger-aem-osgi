@@ -4,24 +4,28 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2019-08-05T00:59:30.156Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2026-10-07T12:54:21.614735164Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeAemUpgradePrechecksHcImplReplicationAgentsDisabledHCProperties   {
   
-  private ConfigNodePropertyString hcName = null;
-  private ConfigNodePropertyArray hcTags = null;
-  private ConfigNodePropertyString hcMbeanName = null;
+  private ConfigNodePropertyString hcName;
+  private ConfigNodePropertyArray hcTags;
+  private ConfigNodePropertyString hcMbeanName;
 
   /**
    **/
   
   @ApiModelProperty(value = "")
   @JsonProperty("hc.name")
+  @Valid
   public ConfigNodePropertyString getHcName() {
     return hcName;
   }
@@ -34,6 +38,7 @@ public class ComAdobeAemUpgradePrechecksHcImplReplicationAgentsDisabledHCPropert
   
   @ApiModelProperty(value = "")
   @JsonProperty("hc.tags")
+  @Valid
   public ConfigNodePropertyArray getHcTags() {
     return hcTags;
   }
@@ -46,6 +51,7 @@ public class ComAdobeAemUpgradePrechecksHcImplReplicationAgentsDisabledHCPropert
   
   @ApiModelProperty(value = "")
   @JsonProperty("hc.mbean.name")
+  @Valid
   public ConfigNodePropertyString getHcMbeanName() {
     return hcMbeanName;
   }
@@ -55,7 +61,7 @@ public class ComAdobeAemUpgradePrechecksHcImplReplicationAgentsDisabledHCPropert
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -63,9 +69,9 @@ public class ComAdobeAemUpgradePrechecksHcImplReplicationAgentsDisabledHCPropert
       return false;
     }
     ComAdobeAemUpgradePrechecksHcImplReplicationAgentsDisabledHCProperties comAdobeAemUpgradePrechecksHcImplReplicationAgentsDisabledHCProperties = (ComAdobeAemUpgradePrechecksHcImplReplicationAgentsDisabledHCProperties) o;
-    return Objects.equals(hcName, comAdobeAemUpgradePrechecksHcImplReplicationAgentsDisabledHCProperties.hcName) &&
-        Objects.equals(hcTags, comAdobeAemUpgradePrechecksHcImplReplicationAgentsDisabledHCProperties.hcTags) &&
-        Objects.equals(hcMbeanName, comAdobeAemUpgradePrechecksHcImplReplicationAgentsDisabledHCProperties.hcMbeanName);
+    return Objects.equals(this.hcName, comAdobeAemUpgradePrechecksHcImplReplicationAgentsDisabledHCProperties.hcName) &&
+        Objects.equals(this.hcTags, comAdobeAemUpgradePrechecksHcImplReplicationAgentsDisabledHCProperties.hcTags) &&
+        Objects.equals(this.hcMbeanName, comAdobeAemUpgradePrechecksHcImplReplicationAgentsDisabledHCProperties.hcMbeanName);
   }
 
   @Override
@@ -89,11 +95,8 @@ public class ComAdobeAemUpgradePrechecksHcImplReplicationAgentsDisabledHCPropert
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

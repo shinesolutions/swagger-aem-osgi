@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyDropDown;
 
 @Canonical
 class ComDayCqWcmCoreWCMRequestFilterProperties {
-    ConfigNodePropertyDropDown wcmfilterMode = null
-
+    
+    ConfigNodePropertyDropDown wcmfilterMode
 }

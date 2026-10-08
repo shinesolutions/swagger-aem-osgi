@@ -7,8 +7,8 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqWcmCoreImplPagePageInfoAggregatorImplProperties {
-    ConfigNodePropertyString pageInfoProviderPropertyRegexDefault = null
-
-    ConfigNodePropertyString pageInfoProviderPropertyName = null
-
+    
+    ConfigNodePropertyString pageInfoProviderPropertyRegexDefault
+    
+    ConfigNodePropertyString pageInfoProviderPropertyName
 }

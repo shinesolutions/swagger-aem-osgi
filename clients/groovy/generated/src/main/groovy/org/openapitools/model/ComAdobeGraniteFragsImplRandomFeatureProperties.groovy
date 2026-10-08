@@ -8,14 +8,14 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeGraniteFragsImplRandomFeatureProperties {
-    ConfigNodePropertyString featureName = null
-
-    ConfigNodePropertyString featureDescription = null
-
-    ConfigNodePropertyString activePercentage = null
-
-    ConfigNodePropertyString cookieName = null
-
-    ConfigNodePropertyInteger cookieMaxAge = null
-
+    
+    ConfigNodePropertyString featureName
+    
+    ConfigNodePropertyString featureDescription
+    
+    ConfigNodePropertyString activePercentage
+    
+    ConfigNodePropertyString cookieName
+    
+    ConfigNodePropertyInteger cookieMaxAge
 }

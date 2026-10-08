@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqScreensOfflinecontentImplBulkOfflineUpda
 
 @Canonical
 class ComAdobeCqScreensOfflinecontentImplBulkOfflineUpdateServiceImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqScreensOfflinecontentImplBulkOfflineUpdateServiceImplProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqScreensOfflinecontentImplBulkOfflineUpdateServiceImplProperties properties
 }

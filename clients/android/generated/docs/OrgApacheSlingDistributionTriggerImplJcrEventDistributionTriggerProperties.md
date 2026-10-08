@@ -1,7 +1,9 @@
 
+
 # OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **name** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
@@ -9,6 +11,7 @@ Name | Type | Description | Notes
 **ignoredPathsPatterns** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
 **serviceName** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
 **deep** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
+
 
 
 

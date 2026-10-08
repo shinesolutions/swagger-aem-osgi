@@ -8,16 +8,16 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class ComDayCqRewriterLinkcheckerImplLinkCheckerTaskProperties {
-    ConfigNodePropertyInteger schedulerPeriod = null
-
-    ConfigNodePropertyBoolean schedulerConcurrent = null
-
-    ConfigNodePropertyInteger goodLinkTestInterval = null
-
-    ConfigNodePropertyInteger badLinkTestInterval = null
-
-    ConfigNodePropertyInteger linkUnusedInterval = null
-
-    ConfigNodePropertyInteger connectionTimeout = null
-
+    
+    ConfigNodePropertyInteger schedulerPeriod
+    
+    ConfigNodePropertyBoolean schedulerConcurrent
+    
+    ConfigNodePropertyInteger goodLinkTestInterval
+    
+    ConfigNodePropertyInteger badLinkTestInterval
+    
+    ConfigNodePropertyInteger linkUnusedInterval
+    
+    ConfigNodePropertyInteger connectionTimeout
 }

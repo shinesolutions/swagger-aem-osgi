@@ -1,20 +1,31 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comAdobeGraniteCompatrouterImplSwitchMappingConfigProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteCompatrouterImplSwitchMappingConfigProperties   {
-  
-  private @Valid ConfigNodePropertyString group = null;
-  private @Valid ConfigNodePropertyArray ids = null;
+  private ConfigNodePropertyString group;
+  private ConfigNodePropertyArray ids;
+
+  public ComAdobeGraniteCompatrouterImplSwitchMappingConfigProperties() {
+  }
 
   /**
    **/
@@ -26,9 +37,11 @@ public class ComAdobeGraniteCompatrouterImplSwitchMappingConfigProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("group")
-  public ConfigNodePropertyString getGroup() {
+  @Valid public ConfigNodePropertyString getGroup() {
     return group;
   }
+
+  @JsonProperty("group")
   public void setGroup(ConfigNodePropertyString group) {
     this.group = group;
   }
@@ -43,16 +56,18 @@ public class ComAdobeGraniteCompatrouterImplSwitchMappingConfigProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("ids")
-  public ConfigNodePropertyArray getIds() {
+  @Valid public ConfigNodePropertyArray getIds() {
     return ids;
   }
+
+  @JsonProperty("ids")
   public void setIds(ConfigNodePropertyArray ids) {
     this.ids = ids;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -60,8 +75,8 @@ public class ComAdobeGraniteCompatrouterImplSwitchMappingConfigProperties   {
       return false;
     }
     ComAdobeGraniteCompatrouterImplSwitchMappingConfigProperties comAdobeGraniteCompatrouterImplSwitchMappingConfigProperties = (ComAdobeGraniteCompatrouterImplSwitchMappingConfigProperties) o;
-    return Objects.equals(group, comAdobeGraniteCompatrouterImplSwitchMappingConfigProperties.group) &&
-        Objects.equals(ids, comAdobeGraniteCompatrouterImplSwitchMappingConfigProperties.ids);
+    return Objects.equals(this.group, comAdobeGraniteCompatrouterImplSwitchMappingConfigProperties.group) &&
+        Objects.equals(this.ids, comAdobeGraniteCompatrouterImplSwitchMappingConfigProperties.ids);
   }
 
   @Override
@@ -84,11 +99,9 @@ public class ComAdobeGraniteCompatrouterImplSwitchMappingConfigProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

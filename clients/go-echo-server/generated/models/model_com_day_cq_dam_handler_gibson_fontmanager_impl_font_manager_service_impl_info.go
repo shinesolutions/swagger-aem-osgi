@@ -1,0 +1,12 @@
+package models
+
+type ComDayCqDamHandlerGibsonFontmanagerImplFontManagerServiceImplInfo struct {
+
+	Pid string `json:"pid,omitempty"`
+
+	Title string `json:"title,omitempty"`
+
+	Description string `json:"description,omitempty"`
+
+	Properties ComDayCqDamHandlerGibsonFontmanagerImplFontManagerServiceImplProperties `json:"properties,omitempty"`
+}

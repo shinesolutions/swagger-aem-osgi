@@ -1,5 +1,6 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
@@ -7,32 +8,35 @@ import javax.validation.constraints.*;
 import javax.validation.Valid;
 
 import io.swagger.annotations.ApiModelProperty;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlType;
-import javax.xml.bind.annotation.XmlEnum;
-import javax.xml.bind.annotation.XmlEnumValue;
+import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
 
 public class OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterProperties  {
   
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyArray datasources = null;
+
+  private ConfigNodePropertyArray datasources;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyInteger step = null;
+
+  private ConfigNodePropertyInteger step;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyArray archives = null;
+
+  private ConfigNodePropertyArray archives;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyString path = null;
+
+  private ConfigNodePropertyString path;
  /**
    * Get datasources
    * @return datasources
@@ -105,6 +109,25 @@ public class OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterPropert
     return this;
   }
 
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterProperties orgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterProperties = (OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterProperties) o;
+    return Objects.equals(this.datasources, orgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterProperties.datasources) &&
+        Objects.equals(this.step, orgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterProperties.step) &&
+        Objects.equals(this.archives, orgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterProperties.archives) &&
+        Objects.equals(this.path, orgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterProperties.path);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(datasources, step, archives, path);
+  }
 
   @Override
   public String toString() {
@@ -123,11 +146,8 @@ public class OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterPropert
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private static String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

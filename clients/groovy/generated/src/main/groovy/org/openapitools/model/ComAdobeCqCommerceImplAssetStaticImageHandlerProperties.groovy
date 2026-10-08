@@ -8,8 +8,8 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeCqCommerceImplAssetStaticImageHandlerProperties {
-    ConfigNodePropertyBoolean cqCommerceAssetHandlerActive = null
-
-    ConfigNodePropertyString cqCommerceAssetHandlerName = null
-
+    
+    ConfigNodePropertyBoolean cqCommerceAssetHandlerActive
+    
+    ConfigNodePropertyString cqCommerceAssetHandlerName
 }

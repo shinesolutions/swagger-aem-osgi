@@ -7,16 +7,16 @@ import org.openapitools.model.ComDayCqDamScene7ImplScene7ConfigurationEventListe
 
 @Canonical
 class ComDayCqDamScene7ImplScene7ConfigurationEventListenerInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqDamScene7ImplScene7ConfigurationEventListenerProperties properties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqDamScene7ImplScene7ConfigurationEventListenerProperties properties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

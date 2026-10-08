@@ -1,112 +1,123 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyDropDown;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * OrgApacheSlingDatasourceDataSourceFactoryProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class OrgApacheSlingDatasourceDataSourceFactoryProperties   {
-  @JsonProperty("datasource.name")
-  private ConfigNodePropertyString datasourceName = null;
+@JsonTypeName("orgApacheSlingDatasourceDataSourceFactoryProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class OrgApacheSlingDatasourceDataSourceFactoryProperties {
 
-  @JsonProperty("datasource.svc.prop.name")
-  private ConfigNodePropertyString datasourceSvcPropName = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString datasourceName;
 
-  @JsonProperty("driverClassName")
-  private ConfigNodePropertyString driverClassName = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString datasourceSvcPropName;
 
-  @JsonProperty("url")
-  private ConfigNodePropertyString url = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString driverClassName;
 
-  @JsonProperty("username")
-  private ConfigNodePropertyString username = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString url;
 
-  @JsonProperty("password")
-  private ConfigNodePropertyString password = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString username;
 
-  @JsonProperty("defaultAutoCommit")
-  private ConfigNodePropertyDropDown defaultAutoCommit = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString password;
 
-  @JsonProperty("defaultReadOnly")
-  private ConfigNodePropertyDropDown defaultReadOnly = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyDropDown defaultAutoCommit;
 
-  @JsonProperty("defaultTransactionIsolation")
-  private ConfigNodePropertyDropDown defaultTransactionIsolation = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyDropDown defaultReadOnly;
 
-  @JsonProperty("defaultCatalog")
-  private ConfigNodePropertyString defaultCatalog = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyDropDown defaultTransactionIsolation;
 
-  @JsonProperty("maxActive")
-  private ConfigNodePropertyInteger maxActive = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString defaultCatalog;
 
-  @JsonProperty("maxIdle")
-  private ConfigNodePropertyInteger maxIdle = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger maxActive;
 
-  @JsonProperty("minIdle")
-  private ConfigNodePropertyInteger minIdle = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger maxIdle;
 
-  @JsonProperty("initialSize")
-  private ConfigNodePropertyInteger initialSize = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger minIdle;
 
-  @JsonProperty("maxWait")
-  private ConfigNodePropertyInteger maxWait = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger initialSize;
 
-  @JsonProperty("maxAge")
-  private ConfigNodePropertyInteger maxAge = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger maxWait;
 
-  @JsonProperty("testOnBorrow")
-  private ConfigNodePropertyBoolean testOnBorrow = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger maxAge;
 
-  @JsonProperty("testOnReturn")
-  private ConfigNodePropertyBoolean testOnReturn = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean testOnBorrow;
 
-  @JsonProperty("testWhileIdle")
-  private ConfigNodePropertyBoolean testWhileIdle = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean testOnReturn;
 
-  @JsonProperty("validationQuery")
-  private ConfigNodePropertyString validationQuery = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean testWhileIdle;
 
-  @JsonProperty("validationQueryTimeout")
-  private ConfigNodePropertyInteger validationQueryTimeout = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString validationQuery;
 
-  @JsonProperty("timeBetweenEvictionRunsMillis")
-  private ConfigNodePropertyInteger timeBetweenEvictionRunsMillis = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger validationQueryTimeout;
 
-  @JsonProperty("minEvictableIdleTimeMillis")
-  private ConfigNodePropertyInteger minEvictableIdleTimeMillis = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger timeBetweenEvictionRunsMillis;
 
-  @JsonProperty("connectionProperties")
-  private ConfigNodePropertyString connectionProperties = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger minEvictableIdleTimeMillis;
 
-  @JsonProperty("initSQL")
-  private ConfigNodePropertyString initSQL = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString connectionProperties;
 
-  @JsonProperty("jdbcInterceptors")
-  private ConfigNodePropertyString jdbcInterceptors = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString initSQL;
 
-  @JsonProperty("validationInterval")
-  private ConfigNodePropertyInteger validationInterval = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString jdbcInterceptors;
 
-  @JsonProperty("logValidationErrors")
-  private ConfigNodePropertyBoolean logValidationErrors = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger validationInterval;
 
-  @JsonProperty("datasource.svc.properties")
-  private ConfigNodePropertyArray datasourceSvcProperties = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean logValidationErrors;
 
-  public OrgApacheSlingDatasourceDataSourceFactoryProperties datasourceName(ConfigNodePropertyString datasourceName) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray datasourceSvcProperties;
+
+  public OrgApacheSlingDatasourceDataSourceFactoryProperties datasourceName(@Nullable ConfigNodePropertyString datasourceName) {
     this.datasourceName = datasourceName;
     return this;
   }
@@ -114,20 +125,20 @@ public class OrgApacheSlingDatasourceDataSourceFactoryProperties   {
   /**
    * Get datasourceName
    * @return datasourceName
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getDatasourceName() {
+   */
+  @Valid 
+  @Schema(name = "datasource.name", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("datasource.name")
+  public @Nullable ConfigNodePropertyString getDatasourceName() {
     return datasourceName;
   }
 
-  public void setDatasourceName(ConfigNodePropertyString datasourceName) {
+  @JsonProperty("datasource.name")
+  public void setDatasourceName(@Nullable ConfigNodePropertyString datasourceName) {
     this.datasourceName = datasourceName;
   }
 
-  public OrgApacheSlingDatasourceDataSourceFactoryProperties datasourceSvcPropName(ConfigNodePropertyString datasourceSvcPropName) {
+  public OrgApacheSlingDatasourceDataSourceFactoryProperties datasourceSvcPropName(@Nullable ConfigNodePropertyString datasourceSvcPropName) {
     this.datasourceSvcPropName = datasourceSvcPropName;
     return this;
   }
@@ -135,20 +146,20 @@ public class OrgApacheSlingDatasourceDataSourceFactoryProperties   {
   /**
    * Get datasourceSvcPropName
    * @return datasourceSvcPropName
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getDatasourceSvcPropName() {
+   */
+  @Valid 
+  @Schema(name = "datasource.svc.prop.name", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("datasource.svc.prop.name")
+  public @Nullable ConfigNodePropertyString getDatasourceSvcPropName() {
     return datasourceSvcPropName;
   }
 
-  public void setDatasourceSvcPropName(ConfigNodePropertyString datasourceSvcPropName) {
+  @JsonProperty("datasource.svc.prop.name")
+  public void setDatasourceSvcPropName(@Nullable ConfigNodePropertyString datasourceSvcPropName) {
     this.datasourceSvcPropName = datasourceSvcPropName;
   }
 
-  public OrgApacheSlingDatasourceDataSourceFactoryProperties driverClassName(ConfigNodePropertyString driverClassName) {
+  public OrgApacheSlingDatasourceDataSourceFactoryProperties driverClassName(@Nullable ConfigNodePropertyString driverClassName) {
     this.driverClassName = driverClassName;
     return this;
   }
@@ -156,20 +167,20 @@ public class OrgApacheSlingDatasourceDataSourceFactoryProperties   {
   /**
    * Get driverClassName
    * @return driverClassName
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getDriverClassName() {
+   */
+  @Valid 
+  @Schema(name = "driverClassName", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("driverClassName")
+  public @Nullable ConfigNodePropertyString getDriverClassName() {
     return driverClassName;
   }
 
-  public void setDriverClassName(ConfigNodePropertyString driverClassName) {
+  @JsonProperty("driverClassName")
+  public void setDriverClassName(@Nullable ConfigNodePropertyString driverClassName) {
     this.driverClassName = driverClassName;
   }
 
-  public OrgApacheSlingDatasourceDataSourceFactoryProperties url(ConfigNodePropertyString url) {
+  public OrgApacheSlingDatasourceDataSourceFactoryProperties url(@Nullable ConfigNodePropertyString url) {
     this.url = url;
     return this;
   }
@@ -177,20 +188,20 @@ public class OrgApacheSlingDatasourceDataSourceFactoryProperties   {
   /**
    * Get url
    * @return url
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getUrl() {
+   */
+  @Valid 
+  @Schema(name = "url", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("url")
+  public @Nullable ConfigNodePropertyString getUrl() {
     return url;
   }
 
-  public void setUrl(ConfigNodePropertyString url) {
+  @JsonProperty("url")
+  public void setUrl(@Nullable ConfigNodePropertyString url) {
     this.url = url;
   }
 
-  public OrgApacheSlingDatasourceDataSourceFactoryProperties username(ConfigNodePropertyString username) {
+  public OrgApacheSlingDatasourceDataSourceFactoryProperties username(@Nullable ConfigNodePropertyString username) {
     this.username = username;
     return this;
   }
@@ -198,20 +209,20 @@ public class OrgApacheSlingDatasourceDataSourceFactoryProperties   {
   /**
    * Get username
    * @return username
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getUsername() {
+   */
+  @Valid 
+  @Schema(name = "username", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("username")
+  public @Nullable ConfigNodePropertyString getUsername() {
     return username;
   }
 
-  public void setUsername(ConfigNodePropertyString username) {
+  @JsonProperty("username")
+  public void setUsername(@Nullable ConfigNodePropertyString username) {
     this.username = username;
   }
 
-  public OrgApacheSlingDatasourceDataSourceFactoryProperties password(ConfigNodePropertyString password) {
+  public OrgApacheSlingDatasourceDataSourceFactoryProperties password(@Nullable ConfigNodePropertyString password) {
     this.password = password;
     return this;
   }
@@ -219,20 +230,20 @@ public class OrgApacheSlingDatasourceDataSourceFactoryProperties   {
   /**
    * Get password
    * @return password
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getPassword() {
+   */
+  @Valid 
+  @Schema(name = "password", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("password")
+  public @Nullable ConfigNodePropertyString getPassword() {
     return password;
   }
 
-  public void setPassword(ConfigNodePropertyString password) {
+  @JsonProperty("password")
+  public void setPassword(@Nullable ConfigNodePropertyString password) {
     this.password = password;
   }
 
-  public OrgApacheSlingDatasourceDataSourceFactoryProperties defaultAutoCommit(ConfigNodePropertyDropDown defaultAutoCommit) {
+  public OrgApacheSlingDatasourceDataSourceFactoryProperties defaultAutoCommit(@Nullable ConfigNodePropertyDropDown defaultAutoCommit) {
     this.defaultAutoCommit = defaultAutoCommit;
     return this;
   }
@@ -240,20 +251,20 @@ public class OrgApacheSlingDatasourceDataSourceFactoryProperties   {
   /**
    * Get defaultAutoCommit
    * @return defaultAutoCommit
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyDropDown getDefaultAutoCommit() {
+   */
+  @Valid 
+  @Schema(name = "defaultAutoCommit", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("defaultAutoCommit")
+  public @Nullable ConfigNodePropertyDropDown getDefaultAutoCommit() {
     return defaultAutoCommit;
   }
 
-  public void setDefaultAutoCommit(ConfigNodePropertyDropDown defaultAutoCommit) {
+  @JsonProperty("defaultAutoCommit")
+  public void setDefaultAutoCommit(@Nullable ConfigNodePropertyDropDown defaultAutoCommit) {
     this.defaultAutoCommit = defaultAutoCommit;
   }
 
-  public OrgApacheSlingDatasourceDataSourceFactoryProperties defaultReadOnly(ConfigNodePropertyDropDown defaultReadOnly) {
+  public OrgApacheSlingDatasourceDataSourceFactoryProperties defaultReadOnly(@Nullable ConfigNodePropertyDropDown defaultReadOnly) {
     this.defaultReadOnly = defaultReadOnly;
     return this;
   }
@@ -261,20 +272,20 @@ public class OrgApacheSlingDatasourceDataSourceFactoryProperties   {
   /**
    * Get defaultReadOnly
    * @return defaultReadOnly
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyDropDown getDefaultReadOnly() {
+   */
+  @Valid 
+  @Schema(name = "defaultReadOnly", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("defaultReadOnly")
+  public @Nullable ConfigNodePropertyDropDown getDefaultReadOnly() {
     return defaultReadOnly;
   }
 
-  public void setDefaultReadOnly(ConfigNodePropertyDropDown defaultReadOnly) {
+  @JsonProperty("defaultReadOnly")
+  public void setDefaultReadOnly(@Nullable ConfigNodePropertyDropDown defaultReadOnly) {
     this.defaultReadOnly = defaultReadOnly;
   }
 
-  public OrgApacheSlingDatasourceDataSourceFactoryProperties defaultTransactionIsolation(ConfigNodePropertyDropDown defaultTransactionIsolation) {
+  public OrgApacheSlingDatasourceDataSourceFactoryProperties defaultTransactionIsolation(@Nullable ConfigNodePropertyDropDown defaultTransactionIsolation) {
     this.defaultTransactionIsolation = defaultTransactionIsolation;
     return this;
   }
@@ -282,20 +293,20 @@ public class OrgApacheSlingDatasourceDataSourceFactoryProperties   {
   /**
    * Get defaultTransactionIsolation
    * @return defaultTransactionIsolation
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyDropDown getDefaultTransactionIsolation() {
+   */
+  @Valid 
+  @Schema(name = "defaultTransactionIsolation", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("defaultTransactionIsolation")
+  public @Nullable ConfigNodePropertyDropDown getDefaultTransactionIsolation() {
     return defaultTransactionIsolation;
   }
 
-  public void setDefaultTransactionIsolation(ConfigNodePropertyDropDown defaultTransactionIsolation) {
+  @JsonProperty("defaultTransactionIsolation")
+  public void setDefaultTransactionIsolation(@Nullable ConfigNodePropertyDropDown defaultTransactionIsolation) {
     this.defaultTransactionIsolation = defaultTransactionIsolation;
   }
 
-  public OrgApacheSlingDatasourceDataSourceFactoryProperties defaultCatalog(ConfigNodePropertyString defaultCatalog) {
+  public OrgApacheSlingDatasourceDataSourceFactoryProperties defaultCatalog(@Nullable ConfigNodePropertyString defaultCatalog) {
     this.defaultCatalog = defaultCatalog;
     return this;
   }
@@ -303,20 +314,20 @@ public class OrgApacheSlingDatasourceDataSourceFactoryProperties   {
   /**
    * Get defaultCatalog
    * @return defaultCatalog
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getDefaultCatalog() {
+   */
+  @Valid 
+  @Schema(name = "defaultCatalog", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("defaultCatalog")
+  public @Nullable ConfigNodePropertyString getDefaultCatalog() {
     return defaultCatalog;
   }
 
-  public void setDefaultCatalog(ConfigNodePropertyString defaultCatalog) {
+  @JsonProperty("defaultCatalog")
+  public void setDefaultCatalog(@Nullable ConfigNodePropertyString defaultCatalog) {
     this.defaultCatalog = defaultCatalog;
   }
 
-  public OrgApacheSlingDatasourceDataSourceFactoryProperties maxActive(ConfigNodePropertyInteger maxActive) {
+  public OrgApacheSlingDatasourceDataSourceFactoryProperties maxActive(@Nullable ConfigNodePropertyInteger maxActive) {
     this.maxActive = maxActive;
     return this;
   }
@@ -324,20 +335,20 @@ public class OrgApacheSlingDatasourceDataSourceFactoryProperties   {
   /**
    * Get maxActive
    * @return maxActive
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getMaxActive() {
+   */
+  @Valid 
+  @Schema(name = "maxActive", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("maxActive")
+  public @Nullable ConfigNodePropertyInteger getMaxActive() {
     return maxActive;
   }
 
-  public void setMaxActive(ConfigNodePropertyInteger maxActive) {
+  @JsonProperty("maxActive")
+  public void setMaxActive(@Nullable ConfigNodePropertyInteger maxActive) {
     this.maxActive = maxActive;
   }
 
-  public OrgApacheSlingDatasourceDataSourceFactoryProperties maxIdle(ConfigNodePropertyInteger maxIdle) {
+  public OrgApacheSlingDatasourceDataSourceFactoryProperties maxIdle(@Nullable ConfigNodePropertyInteger maxIdle) {
     this.maxIdle = maxIdle;
     return this;
   }
@@ -345,20 +356,20 @@ public class OrgApacheSlingDatasourceDataSourceFactoryProperties   {
   /**
    * Get maxIdle
    * @return maxIdle
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getMaxIdle() {
+   */
+  @Valid 
+  @Schema(name = "maxIdle", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("maxIdle")
+  public @Nullable ConfigNodePropertyInteger getMaxIdle() {
     return maxIdle;
   }
 
-  public void setMaxIdle(ConfigNodePropertyInteger maxIdle) {
+  @JsonProperty("maxIdle")
+  public void setMaxIdle(@Nullable ConfigNodePropertyInteger maxIdle) {
     this.maxIdle = maxIdle;
   }
 
-  public OrgApacheSlingDatasourceDataSourceFactoryProperties minIdle(ConfigNodePropertyInteger minIdle) {
+  public OrgApacheSlingDatasourceDataSourceFactoryProperties minIdle(@Nullable ConfigNodePropertyInteger minIdle) {
     this.minIdle = minIdle;
     return this;
   }
@@ -366,20 +377,20 @@ public class OrgApacheSlingDatasourceDataSourceFactoryProperties   {
   /**
    * Get minIdle
    * @return minIdle
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getMinIdle() {
+   */
+  @Valid 
+  @Schema(name = "minIdle", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("minIdle")
+  public @Nullable ConfigNodePropertyInteger getMinIdle() {
     return minIdle;
   }
 
-  public void setMinIdle(ConfigNodePropertyInteger minIdle) {
+  @JsonProperty("minIdle")
+  public void setMinIdle(@Nullable ConfigNodePropertyInteger minIdle) {
     this.minIdle = minIdle;
   }
 
-  public OrgApacheSlingDatasourceDataSourceFactoryProperties initialSize(ConfigNodePropertyInteger initialSize) {
+  public OrgApacheSlingDatasourceDataSourceFactoryProperties initialSize(@Nullable ConfigNodePropertyInteger initialSize) {
     this.initialSize = initialSize;
     return this;
   }
@@ -387,20 +398,20 @@ public class OrgApacheSlingDatasourceDataSourceFactoryProperties   {
   /**
    * Get initialSize
    * @return initialSize
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getInitialSize() {
+   */
+  @Valid 
+  @Schema(name = "initialSize", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("initialSize")
+  public @Nullable ConfigNodePropertyInteger getInitialSize() {
     return initialSize;
   }
 
-  public void setInitialSize(ConfigNodePropertyInteger initialSize) {
+  @JsonProperty("initialSize")
+  public void setInitialSize(@Nullable ConfigNodePropertyInteger initialSize) {
     this.initialSize = initialSize;
   }
 
-  public OrgApacheSlingDatasourceDataSourceFactoryProperties maxWait(ConfigNodePropertyInteger maxWait) {
+  public OrgApacheSlingDatasourceDataSourceFactoryProperties maxWait(@Nullable ConfigNodePropertyInteger maxWait) {
     this.maxWait = maxWait;
     return this;
   }
@@ -408,20 +419,20 @@ public class OrgApacheSlingDatasourceDataSourceFactoryProperties   {
   /**
    * Get maxWait
    * @return maxWait
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getMaxWait() {
+   */
+  @Valid 
+  @Schema(name = "maxWait", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("maxWait")
+  public @Nullable ConfigNodePropertyInteger getMaxWait() {
     return maxWait;
   }
 
-  public void setMaxWait(ConfigNodePropertyInteger maxWait) {
+  @JsonProperty("maxWait")
+  public void setMaxWait(@Nullable ConfigNodePropertyInteger maxWait) {
     this.maxWait = maxWait;
   }
 
-  public OrgApacheSlingDatasourceDataSourceFactoryProperties maxAge(ConfigNodePropertyInteger maxAge) {
+  public OrgApacheSlingDatasourceDataSourceFactoryProperties maxAge(@Nullable ConfigNodePropertyInteger maxAge) {
     this.maxAge = maxAge;
     return this;
   }
@@ -429,20 +440,20 @@ public class OrgApacheSlingDatasourceDataSourceFactoryProperties   {
   /**
    * Get maxAge
    * @return maxAge
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getMaxAge() {
+   */
+  @Valid 
+  @Schema(name = "maxAge", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("maxAge")
+  public @Nullable ConfigNodePropertyInteger getMaxAge() {
     return maxAge;
   }
 
-  public void setMaxAge(ConfigNodePropertyInteger maxAge) {
+  @JsonProperty("maxAge")
+  public void setMaxAge(@Nullable ConfigNodePropertyInteger maxAge) {
     this.maxAge = maxAge;
   }
 
-  public OrgApacheSlingDatasourceDataSourceFactoryProperties testOnBorrow(ConfigNodePropertyBoolean testOnBorrow) {
+  public OrgApacheSlingDatasourceDataSourceFactoryProperties testOnBorrow(@Nullable ConfigNodePropertyBoolean testOnBorrow) {
     this.testOnBorrow = testOnBorrow;
     return this;
   }
@@ -450,20 +461,20 @@ public class OrgApacheSlingDatasourceDataSourceFactoryProperties   {
   /**
    * Get testOnBorrow
    * @return testOnBorrow
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getTestOnBorrow() {
+   */
+  @Valid 
+  @Schema(name = "testOnBorrow", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("testOnBorrow")
+  public @Nullable ConfigNodePropertyBoolean getTestOnBorrow() {
     return testOnBorrow;
   }
 
-  public void setTestOnBorrow(ConfigNodePropertyBoolean testOnBorrow) {
+  @JsonProperty("testOnBorrow")
+  public void setTestOnBorrow(@Nullable ConfigNodePropertyBoolean testOnBorrow) {
     this.testOnBorrow = testOnBorrow;
   }
 
-  public OrgApacheSlingDatasourceDataSourceFactoryProperties testOnReturn(ConfigNodePropertyBoolean testOnReturn) {
+  public OrgApacheSlingDatasourceDataSourceFactoryProperties testOnReturn(@Nullable ConfigNodePropertyBoolean testOnReturn) {
     this.testOnReturn = testOnReturn;
     return this;
   }
@@ -471,20 +482,20 @@ public class OrgApacheSlingDatasourceDataSourceFactoryProperties   {
   /**
    * Get testOnReturn
    * @return testOnReturn
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getTestOnReturn() {
+   */
+  @Valid 
+  @Schema(name = "testOnReturn", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("testOnReturn")
+  public @Nullable ConfigNodePropertyBoolean getTestOnReturn() {
     return testOnReturn;
   }
 
-  public void setTestOnReturn(ConfigNodePropertyBoolean testOnReturn) {
+  @JsonProperty("testOnReturn")
+  public void setTestOnReturn(@Nullable ConfigNodePropertyBoolean testOnReturn) {
     this.testOnReturn = testOnReturn;
   }
 
-  public OrgApacheSlingDatasourceDataSourceFactoryProperties testWhileIdle(ConfigNodePropertyBoolean testWhileIdle) {
+  public OrgApacheSlingDatasourceDataSourceFactoryProperties testWhileIdle(@Nullable ConfigNodePropertyBoolean testWhileIdle) {
     this.testWhileIdle = testWhileIdle;
     return this;
   }
@@ -492,20 +503,20 @@ public class OrgApacheSlingDatasourceDataSourceFactoryProperties   {
   /**
    * Get testWhileIdle
    * @return testWhileIdle
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getTestWhileIdle() {
+   */
+  @Valid 
+  @Schema(name = "testWhileIdle", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("testWhileIdle")
+  public @Nullable ConfigNodePropertyBoolean getTestWhileIdle() {
     return testWhileIdle;
   }
 
-  public void setTestWhileIdle(ConfigNodePropertyBoolean testWhileIdle) {
+  @JsonProperty("testWhileIdle")
+  public void setTestWhileIdle(@Nullable ConfigNodePropertyBoolean testWhileIdle) {
     this.testWhileIdle = testWhileIdle;
   }
 
-  public OrgApacheSlingDatasourceDataSourceFactoryProperties validationQuery(ConfigNodePropertyString validationQuery) {
+  public OrgApacheSlingDatasourceDataSourceFactoryProperties validationQuery(@Nullable ConfigNodePropertyString validationQuery) {
     this.validationQuery = validationQuery;
     return this;
   }
@@ -513,20 +524,20 @@ public class OrgApacheSlingDatasourceDataSourceFactoryProperties   {
   /**
    * Get validationQuery
    * @return validationQuery
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getValidationQuery() {
+   */
+  @Valid 
+  @Schema(name = "validationQuery", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("validationQuery")
+  public @Nullable ConfigNodePropertyString getValidationQuery() {
     return validationQuery;
   }
 
-  public void setValidationQuery(ConfigNodePropertyString validationQuery) {
+  @JsonProperty("validationQuery")
+  public void setValidationQuery(@Nullable ConfigNodePropertyString validationQuery) {
     this.validationQuery = validationQuery;
   }
 
-  public OrgApacheSlingDatasourceDataSourceFactoryProperties validationQueryTimeout(ConfigNodePropertyInteger validationQueryTimeout) {
+  public OrgApacheSlingDatasourceDataSourceFactoryProperties validationQueryTimeout(@Nullable ConfigNodePropertyInteger validationQueryTimeout) {
     this.validationQueryTimeout = validationQueryTimeout;
     return this;
   }
@@ -534,20 +545,20 @@ public class OrgApacheSlingDatasourceDataSourceFactoryProperties   {
   /**
    * Get validationQueryTimeout
    * @return validationQueryTimeout
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getValidationQueryTimeout() {
+   */
+  @Valid 
+  @Schema(name = "validationQueryTimeout", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("validationQueryTimeout")
+  public @Nullable ConfigNodePropertyInteger getValidationQueryTimeout() {
     return validationQueryTimeout;
   }
 
-  public void setValidationQueryTimeout(ConfigNodePropertyInteger validationQueryTimeout) {
+  @JsonProperty("validationQueryTimeout")
+  public void setValidationQueryTimeout(@Nullable ConfigNodePropertyInteger validationQueryTimeout) {
     this.validationQueryTimeout = validationQueryTimeout;
   }
 
-  public OrgApacheSlingDatasourceDataSourceFactoryProperties timeBetweenEvictionRunsMillis(ConfigNodePropertyInteger timeBetweenEvictionRunsMillis) {
+  public OrgApacheSlingDatasourceDataSourceFactoryProperties timeBetweenEvictionRunsMillis(@Nullable ConfigNodePropertyInteger timeBetweenEvictionRunsMillis) {
     this.timeBetweenEvictionRunsMillis = timeBetweenEvictionRunsMillis;
     return this;
   }
@@ -555,20 +566,20 @@ public class OrgApacheSlingDatasourceDataSourceFactoryProperties   {
   /**
    * Get timeBetweenEvictionRunsMillis
    * @return timeBetweenEvictionRunsMillis
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getTimeBetweenEvictionRunsMillis() {
+   */
+  @Valid 
+  @Schema(name = "timeBetweenEvictionRunsMillis", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("timeBetweenEvictionRunsMillis")
+  public @Nullable ConfigNodePropertyInteger getTimeBetweenEvictionRunsMillis() {
     return timeBetweenEvictionRunsMillis;
   }
 
-  public void setTimeBetweenEvictionRunsMillis(ConfigNodePropertyInteger timeBetweenEvictionRunsMillis) {
+  @JsonProperty("timeBetweenEvictionRunsMillis")
+  public void setTimeBetweenEvictionRunsMillis(@Nullable ConfigNodePropertyInteger timeBetweenEvictionRunsMillis) {
     this.timeBetweenEvictionRunsMillis = timeBetweenEvictionRunsMillis;
   }
 
-  public OrgApacheSlingDatasourceDataSourceFactoryProperties minEvictableIdleTimeMillis(ConfigNodePropertyInteger minEvictableIdleTimeMillis) {
+  public OrgApacheSlingDatasourceDataSourceFactoryProperties minEvictableIdleTimeMillis(@Nullable ConfigNodePropertyInteger minEvictableIdleTimeMillis) {
     this.minEvictableIdleTimeMillis = minEvictableIdleTimeMillis;
     return this;
   }
@@ -576,20 +587,20 @@ public class OrgApacheSlingDatasourceDataSourceFactoryProperties   {
   /**
    * Get minEvictableIdleTimeMillis
    * @return minEvictableIdleTimeMillis
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getMinEvictableIdleTimeMillis() {
+   */
+  @Valid 
+  @Schema(name = "minEvictableIdleTimeMillis", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("minEvictableIdleTimeMillis")
+  public @Nullable ConfigNodePropertyInteger getMinEvictableIdleTimeMillis() {
     return minEvictableIdleTimeMillis;
   }
 
-  public void setMinEvictableIdleTimeMillis(ConfigNodePropertyInteger minEvictableIdleTimeMillis) {
+  @JsonProperty("minEvictableIdleTimeMillis")
+  public void setMinEvictableIdleTimeMillis(@Nullable ConfigNodePropertyInteger minEvictableIdleTimeMillis) {
     this.minEvictableIdleTimeMillis = minEvictableIdleTimeMillis;
   }
 
-  public OrgApacheSlingDatasourceDataSourceFactoryProperties connectionProperties(ConfigNodePropertyString connectionProperties) {
+  public OrgApacheSlingDatasourceDataSourceFactoryProperties connectionProperties(@Nullable ConfigNodePropertyString connectionProperties) {
     this.connectionProperties = connectionProperties;
     return this;
   }
@@ -597,20 +608,20 @@ public class OrgApacheSlingDatasourceDataSourceFactoryProperties   {
   /**
    * Get connectionProperties
    * @return connectionProperties
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getConnectionProperties() {
+   */
+  @Valid 
+  @Schema(name = "connectionProperties", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("connectionProperties")
+  public @Nullable ConfigNodePropertyString getConnectionProperties() {
     return connectionProperties;
   }
 
-  public void setConnectionProperties(ConfigNodePropertyString connectionProperties) {
+  @JsonProperty("connectionProperties")
+  public void setConnectionProperties(@Nullable ConfigNodePropertyString connectionProperties) {
     this.connectionProperties = connectionProperties;
   }
 
-  public OrgApacheSlingDatasourceDataSourceFactoryProperties initSQL(ConfigNodePropertyString initSQL) {
+  public OrgApacheSlingDatasourceDataSourceFactoryProperties initSQL(@Nullable ConfigNodePropertyString initSQL) {
     this.initSQL = initSQL;
     return this;
   }
@@ -618,20 +629,20 @@ public class OrgApacheSlingDatasourceDataSourceFactoryProperties   {
   /**
    * Get initSQL
    * @return initSQL
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getInitSQL() {
+   */
+  @Valid 
+  @Schema(name = "initSQL", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("initSQL")
+  public @Nullable ConfigNodePropertyString getInitSQL() {
     return initSQL;
   }
 
-  public void setInitSQL(ConfigNodePropertyString initSQL) {
+  @JsonProperty("initSQL")
+  public void setInitSQL(@Nullable ConfigNodePropertyString initSQL) {
     this.initSQL = initSQL;
   }
 
-  public OrgApacheSlingDatasourceDataSourceFactoryProperties jdbcInterceptors(ConfigNodePropertyString jdbcInterceptors) {
+  public OrgApacheSlingDatasourceDataSourceFactoryProperties jdbcInterceptors(@Nullable ConfigNodePropertyString jdbcInterceptors) {
     this.jdbcInterceptors = jdbcInterceptors;
     return this;
   }
@@ -639,20 +650,20 @@ public class OrgApacheSlingDatasourceDataSourceFactoryProperties   {
   /**
    * Get jdbcInterceptors
    * @return jdbcInterceptors
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getJdbcInterceptors() {
+   */
+  @Valid 
+  @Schema(name = "jdbcInterceptors", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("jdbcInterceptors")
+  public @Nullable ConfigNodePropertyString getJdbcInterceptors() {
     return jdbcInterceptors;
   }
 
-  public void setJdbcInterceptors(ConfigNodePropertyString jdbcInterceptors) {
+  @JsonProperty("jdbcInterceptors")
+  public void setJdbcInterceptors(@Nullable ConfigNodePropertyString jdbcInterceptors) {
     this.jdbcInterceptors = jdbcInterceptors;
   }
 
-  public OrgApacheSlingDatasourceDataSourceFactoryProperties validationInterval(ConfigNodePropertyInteger validationInterval) {
+  public OrgApacheSlingDatasourceDataSourceFactoryProperties validationInterval(@Nullable ConfigNodePropertyInteger validationInterval) {
     this.validationInterval = validationInterval;
     return this;
   }
@@ -660,20 +671,20 @@ public class OrgApacheSlingDatasourceDataSourceFactoryProperties   {
   /**
    * Get validationInterval
    * @return validationInterval
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getValidationInterval() {
+   */
+  @Valid 
+  @Schema(name = "validationInterval", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("validationInterval")
+  public @Nullable ConfigNodePropertyInteger getValidationInterval() {
     return validationInterval;
   }
 
-  public void setValidationInterval(ConfigNodePropertyInteger validationInterval) {
+  @JsonProperty("validationInterval")
+  public void setValidationInterval(@Nullable ConfigNodePropertyInteger validationInterval) {
     this.validationInterval = validationInterval;
   }
 
-  public OrgApacheSlingDatasourceDataSourceFactoryProperties logValidationErrors(ConfigNodePropertyBoolean logValidationErrors) {
+  public OrgApacheSlingDatasourceDataSourceFactoryProperties logValidationErrors(@Nullable ConfigNodePropertyBoolean logValidationErrors) {
     this.logValidationErrors = logValidationErrors;
     return this;
   }
@@ -681,20 +692,20 @@ public class OrgApacheSlingDatasourceDataSourceFactoryProperties   {
   /**
    * Get logValidationErrors
    * @return logValidationErrors
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getLogValidationErrors() {
+   */
+  @Valid 
+  @Schema(name = "logValidationErrors", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("logValidationErrors")
+  public @Nullable ConfigNodePropertyBoolean getLogValidationErrors() {
     return logValidationErrors;
   }
 
-  public void setLogValidationErrors(ConfigNodePropertyBoolean logValidationErrors) {
+  @JsonProperty("logValidationErrors")
+  public void setLogValidationErrors(@Nullable ConfigNodePropertyBoolean logValidationErrors) {
     this.logValidationErrors = logValidationErrors;
   }
 
-  public OrgApacheSlingDatasourceDataSourceFactoryProperties datasourceSvcProperties(ConfigNodePropertyArray datasourceSvcProperties) {
+  public OrgApacheSlingDatasourceDataSourceFactoryProperties datasourceSvcProperties(@Nullable ConfigNodePropertyArray datasourceSvcProperties) {
     this.datasourceSvcProperties = datasourceSvcProperties;
     return this;
   }
@@ -702,22 +713,21 @@ public class OrgApacheSlingDatasourceDataSourceFactoryProperties   {
   /**
    * Get datasourceSvcProperties
    * @return datasourceSvcProperties
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getDatasourceSvcProperties() {
+   */
+  @Valid 
+  @Schema(name = "datasource.svc.properties", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("datasource.svc.properties")
+  public @Nullable ConfigNodePropertyArray getDatasourceSvcProperties() {
     return datasourceSvcProperties;
   }
 
-  public void setDatasourceSvcProperties(ConfigNodePropertyArray datasourceSvcProperties) {
+  @JsonProperty("datasource.svc.properties")
+  public void setDatasourceSvcProperties(@Nullable ConfigNodePropertyArray datasourceSvcProperties) {
     this.datasourceSvcProperties = datasourceSvcProperties;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -765,7 +775,6 @@ public class OrgApacheSlingDatasourceDataSourceFactoryProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class OrgApacheSlingDatasourceDataSourceFactoryProperties {\n");
-    
     sb.append("    datasourceName: ").append(toIndentedString(datasourceName)).append("\n");
     sb.append("    datasourceSvcPropName: ").append(toIndentedString(datasourceSvcPropName)).append("\n");
     sb.append("    driverClassName: ").append(toIndentedString(driverClassName)).append("\n");
@@ -803,11 +812,8 @@ public class OrgApacheSlingDatasourceDataSourceFactoryProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

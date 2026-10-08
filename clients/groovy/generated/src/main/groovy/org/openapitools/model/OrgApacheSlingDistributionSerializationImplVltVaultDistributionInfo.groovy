@@ -7,12 +7,12 @@ import org.openapitools.model.OrgApacheSlingDistributionSerializationImplVltVaul
 
 @Canonical
 class OrgApacheSlingDistributionSerializationImplVltVaultDistributionInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheSlingDistributionSerializationImplVltVaultDistributionProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheSlingDistributionSerializationImplVltVaultDistributionProperties properties
 }

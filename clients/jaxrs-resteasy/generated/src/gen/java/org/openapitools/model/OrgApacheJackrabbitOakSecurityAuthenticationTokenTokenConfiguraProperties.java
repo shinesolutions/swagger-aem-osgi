@@ -4,29 +4,33 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2019-08-05T00:59:30.156Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2026-10-07T12:54:21.614735164Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraProperties   {
   
-  private ConfigNodePropertyString tokenExpiration = null;
-  private ConfigNodePropertyString tokenLength = null;
-  private ConfigNodePropertyBoolean tokenRefresh = null;
-  private ConfigNodePropertyInteger tokenCleanupThreshold = null;
-  private ConfigNodePropertyString passwordHashAlgorithm = null;
-  private ConfigNodePropertyInteger passwordHashIterations = null;
-  private ConfigNodePropertyInteger passwordSaltSize = null;
+  private ConfigNodePropertyString tokenExpiration;
+  private ConfigNodePropertyString tokenLength;
+  private ConfigNodePropertyBoolean tokenRefresh;
+  private ConfigNodePropertyInteger tokenCleanupThreshold;
+  private ConfigNodePropertyString passwordHashAlgorithm;
+  private ConfigNodePropertyInteger passwordHashIterations;
+  private ConfigNodePropertyInteger passwordSaltSize;
 
   /**
    **/
   
   @ApiModelProperty(value = "")
   @JsonProperty("tokenExpiration")
+  @Valid
   public ConfigNodePropertyString getTokenExpiration() {
     return tokenExpiration;
   }
@@ -39,6 +43,7 @@ public class OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("tokenLength")
+  @Valid
   public ConfigNodePropertyString getTokenLength() {
     return tokenLength;
   }
@@ -51,6 +56,7 @@ public class OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("tokenRefresh")
+  @Valid
   public ConfigNodePropertyBoolean getTokenRefresh() {
     return tokenRefresh;
   }
@@ -63,6 +69,7 @@ public class OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("tokenCleanupThreshold")
+  @Valid
   public ConfigNodePropertyInteger getTokenCleanupThreshold() {
     return tokenCleanupThreshold;
   }
@@ -75,6 +82,7 @@ public class OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("passwordHashAlgorithm")
+  @Valid
   public ConfigNodePropertyString getPasswordHashAlgorithm() {
     return passwordHashAlgorithm;
   }
@@ -87,6 +95,7 @@ public class OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("passwordHashIterations")
+  @Valid
   public ConfigNodePropertyInteger getPasswordHashIterations() {
     return passwordHashIterations;
   }
@@ -99,6 +108,7 @@ public class OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("passwordSaltSize")
+  @Valid
   public ConfigNodePropertyInteger getPasswordSaltSize() {
     return passwordSaltSize;
   }
@@ -108,7 +118,7 @@ public class OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraProp
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -116,13 +126,13 @@ public class OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraProp
       return false;
     }
     OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraProperties orgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraProperties = (OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraProperties) o;
-    return Objects.equals(tokenExpiration, orgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraProperties.tokenExpiration) &&
-        Objects.equals(tokenLength, orgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraProperties.tokenLength) &&
-        Objects.equals(tokenRefresh, orgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraProperties.tokenRefresh) &&
-        Objects.equals(tokenCleanupThreshold, orgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraProperties.tokenCleanupThreshold) &&
-        Objects.equals(passwordHashAlgorithm, orgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraProperties.passwordHashAlgorithm) &&
-        Objects.equals(passwordHashIterations, orgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraProperties.passwordHashIterations) &&
-        Objects.equals(passwordSaltSize, orgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraProperties.passwordSaltSize);
+    return Objects.equals(this.tokenExpiration, orgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraProperties.tokenExpiration) &&
+        Objects.equals(this.tokenLength, orgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraProperties.tokenLength) &&
+        Objects.equals(this.tokenRefresh, orgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraProperties.tokenRefresh) &&
+        Objects.equals(this.tokenCleanupThreshold, orgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraProperties.tokenCleanupThreshold) &&
+        Objects.equals(this.passwordHashAlgorithm, orgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraProperties.passwordHashAlgorithm) &&
+        Objects.equals(this.passwordHashIterations, orgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraProperties.passwordHashIterations) &&
+        Objects.equals(this.passwordSaltSize, orgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraProperties.passwordSaltSize);
   }
 
   @Override
@@ -150,11 +160,8 @@ public class OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraProp
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

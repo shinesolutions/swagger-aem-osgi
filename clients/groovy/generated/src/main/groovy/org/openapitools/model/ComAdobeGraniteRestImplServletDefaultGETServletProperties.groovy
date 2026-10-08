@@ -8,8 +8,8 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class ComAdobeGraniteRestImplServletDefaultGETServletProperties {
-    ConfigNodePropertyInteger defaultLimit = null
-
-    ConfigNodePropertyBoolean useAbsoluteUri = null
-
+    
+    ConfigNodePropertyInteger defaultLimit
+    
+    ConfigNodePropertyBoolean useAbsoluteUri
 }

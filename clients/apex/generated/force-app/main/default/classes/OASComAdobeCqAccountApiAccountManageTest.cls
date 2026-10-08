@@ -72,9 +72,9 @@ private class OASComAdobeCqAccountApiAccountManageTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeCqAccountApiAccountManage comAdobeCqAccountApiAccountManagementServiceProperties = new OASComAdobeCqAccountApiAccountManage();
-        Map<String, String> propertyMappings = comAdobeCqAccountApiAccountManagementServiceProperties.getPropertyMappings();
-        System.assertEquals('cqAccountmanagerTokenValidityPeriod', propertyMappings.get('cq.accountmanager.token.validity.period'));
-        System.assertEquals('cqAccountmanagerConfigRequestnewaccountMail', propertyMappings.get('cq.accountmanager.config.requestnewaccount.mail'));
-        System.assertEquals('cqAccountmanagerConfigRequestnewpwdMail', propertyMappings.get('cq.accountmanager.config.requestnewpwd.mail'));
+        Map<String, String> x-property-mappings = comAdobeCqAccountApiAccountManagementServiceProperties.getx-property-mappings();
+        System.assertEquals('cqAccountmanagerTokenValidityPeriod', x-property-mappings.get('cq.accountmanager.token.validity.period'));
+        System.assertEquals('cqAccountmanagerConfigRequestnewaccountMail', x-property-mappings.get('cq.accountmanager.config.requestnewaccount.mail'));
+        System.assertEquals('cqAccountmanagerConfigRequestnewpwdMail', x-property-mappings.get('cq.accountmanager.config.requestnewpwd.mail'));
     }
 }

@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqSocialMembersEndpointsImplCommunityMembe
 
 @Canonical
 class ComAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileOInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileOProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileOProperties properties
 }

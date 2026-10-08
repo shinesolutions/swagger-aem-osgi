@@ -10,16 +10,16 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class OrgApacheHttpProxyconfiguratorProperties {
-    ConfigNodePropertyBoolean proxyEnabled = null
-
-    ConfigNodePropertyString proxyHost = null
-
-    ConfigNodePropertyInteger proxyPort = null
-
-    ConfigNodePropertyString proxyUser = null
-
-    ConfigNodePropertyString proxyPassword = null
-
-    ConfigNodePropertyArray proxyExceptions = null
-
+    
+    ConfigNodePropertyBoolean proxyEnabled
+    
+    ConfigNodePropertyString proxyHost
+    
+    ConfigNodePropertyInteger proxyPort
+    
+    ConfigNodePropertyString proxyUser
+    
+    ConfigNodePropertyString proxyPassword
+    
+    ConfigNodePropertyArray proxyExceptions
 }

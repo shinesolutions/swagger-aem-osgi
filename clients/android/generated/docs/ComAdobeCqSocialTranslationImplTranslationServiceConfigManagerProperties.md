@@ -1,7 +1,9 @@
 
+
 # ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **translateLanguage** | [**ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md) |  |  [optional]
@@ -12,6 +14,7 @@ Name | Type | Description | Notes
 **translateCachingDuration** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
 **translateSessionSaveInterval** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
 **translateSessionSaveBatchLimit** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
+
 
 
 

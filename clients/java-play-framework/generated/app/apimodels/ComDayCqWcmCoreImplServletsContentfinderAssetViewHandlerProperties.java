@@ -2,32 +2,43 @@ package apimodels;
 
 import apimodels.ConfigNodePropertyBoolean;
 import apimodels.ConfigNodePropertyString;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerProperties   {
   @JsonProperty("dam.showexpired")
-  private ConfigNodePropertyBoolean damShowexpired = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean damShowexpired;
 
   @JsonProperty("dam.showhidden")
-  private ConfigNodePropertyBoolean damShowhidden = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean damShowhidden;
 
   @JsonProperty("tagTitleSearch")
-  private ConfigNodePropertyBoolean tagTitleSearch = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean tagTitleSearch;
 
   @JsonProperty("guessTotal")
-  private ConfigNodePropertyString guessTotal = null;
+  @Valid
+
+  private ConfigNodePropertyString guessTotal;
 
   @JsonProperty("dam.expiryProperty")
-  private ConfigNodePropertyString damExpiryProperty = null;
+  @Valid
+
+  private ConfigNodePropertyString damExpiryProperty;
 
   public ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerProperties damShowexpired(ConfigNodePropertyBoolean damShowexpired) {
     this.damShowexpired = damShowexpired;
@@ -38,7 +49,6 @@ public class ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerProperties 
    * Get damShowexpired
    * @return damShowexpired
   **/
-  @Valid
   public ConfigNodePropertyBoolean getDamShowexpired() {
     return damShowexpired;
   }
@@ -56,7 +66,6 @@ public class ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerProperties 
    * Get damShowhidden
    * @return damShowhidden
   **/
-  @Valid
   public ConfigNodePropertyBoolean getDamShowhidden() {
     return damShowhidden;
   }
@@ -74,7 +83,6 @@ public class ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerProperties 
    * Get tagTitleSearch
    * @return tagTitleSearch
   **/
-  @Valid
   public ConfigNodePropertyBoolean getTagTitleSearch() {
     return tagTitleSearch;
   }
@@ -92,7 +100,6 @@ public class ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerProperties 
    * Get guessTotal
    * @return guessTotal
   **/
-  @Valid
   public ConfigNodePropertyString getGuessTotal() {
     return guessTotal;
   }
@@ -110,7 +117,6 @@ public class ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerProperties 
    * Get damExpiryProperty
    * @return damExpiryProperty
   **/
-  @Valid
   public ConfigNodePropertyString getDamExpiryProperty() {
     return damExpiryProperty;
   }
@@ -121,7 +127,7 @@ public class ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerProperties 
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -160,11 +166,8 @@ public class ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerProperties 
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

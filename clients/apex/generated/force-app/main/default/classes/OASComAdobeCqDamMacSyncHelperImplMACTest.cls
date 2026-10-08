@@ -72,7 +72,7 @@ private class OASComAdobeCqDamMacSyncHelperImplMACTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeCqDamMacSyncHelperImplMAC comAdobeCqDamMacSyncHelperImplMACSyncClientImplProperties = new OASComAdobeCqDamMacSyncHelperImplMAC();
-        Map<String, String> propertyMappings = comAdobeCqDamMacSyncHelperImplMACSyncClientImplProperties.getPropertyMappings();
-        System.assertEquals('comAdobeDamMacSyncClientSoTimeout', propertyMappings.get('com.adobe.dam.mac.sync.client.so.timeout'));
+        Map<String, String> x-property-mappings = comAdobeCqDamMacSyncHelperImplMACSyncClientImplProperties.getx-property-mappings();
+        System.assertEquals('comAdobeDamMacSyncClientSoTimeout', x-property-mappings.get('com.adobe.dam.mac.sync.client.so.timeout'));
     }
 }

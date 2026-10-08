@@ -8,12 +8,12 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeCqWcmTranslationImplTranslationPlatformConfigurationImplProperties {
-    ConfigNodePropertyString syncTranslationStateSchedulingFormat = null
-
-    ConfigNodePropertyString schedulingRepeatTranslationSchedulingFormat = null
-
-    ConfigNodePropertyString syncTranslationStateLockTimeoutInMinutes = null
-
-    ConfigNodePropertyDropDown exportFormat = null
-
+    
+    ConfigNodePropertyString syncTranslationStateSchedulingFormat
+    
+    ConfigNodePropertyString schedulingRepeatTranslationSchedulingFormat
+    
+    ConfigNodePropertyString syncTranslationStateLockTimeoutInMinutes
+    
+    ConfigNodePropertyDropDown exportFormat
 }

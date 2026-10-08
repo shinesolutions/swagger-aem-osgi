@@ -1,0 +1,21 @@
+{
+  "namespace": "model",
+  "type": "record",
+  "doc": "",
+  "name": "ComDayCqWcmWorkflowImplWorkflowPackageInfoProviderProperties",
+  "fields": [
+    {
+      "name": "workflowpackageinfoprovider.filter",
+      "type": ["null", "model.ConfigNodePropertyArray"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "workflowpackageinfoprovider.filter.rootpath",
+      "type": ["null", "model.ConfigNodePropertyString"],
+      "doc": "",
+      "default": null
+    }
+  ]
+
+}

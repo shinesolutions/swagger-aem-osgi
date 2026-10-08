@@ -8,10 +8,10 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeCqDtmReactorImplServiceWebServiceImplProperties {
-    ConfigNodePropertyString endpointUri = null
-
-    ConfigNodePropertyInteger connectionTimeout = null
-
-    ConfigNodePropertyInteger socketTimeout = null
-
+    
+    ConfigNodePropertyString endpointUri
+    
+    ConfigNodePropertyInteger connectionTimeout
+    
+    ConfigNodePropertyInteger socketTimeout
 }

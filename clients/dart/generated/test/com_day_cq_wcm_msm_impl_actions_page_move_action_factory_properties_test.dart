@@ -1,0 +1,42 @@
+//
+// AUTO-GENERATED FILE, DO NOT MODIFY!
+//
+// @dart=2.18
+
+// ignore_for_file: unused_element, unused_import
+// ignore_for_file: always_put_required_named_parameters_first
+// ignore_for_file: constant_identifier_names
+// ignore_for_file: lines_longer_than_80_chars
+
+import 'package:openapi/api.dart';
+import 'package:test/test.dart';
+
+// tests for ComDayCqWcmMsmImplActionsPageMoveActionFactoryProperties
+void main() {
+  // final instance = ComDayCqWcmMsmImplActionsPageMoveActionFactoryProperties();
+
+  group('test ComDayCqWcmMsmImplActionsPageMoveActionFactoryProperties', () {
+    // ConfigNodePropertyArray cqPeriodWcmPeriodMsmPeriodActionPeriodExcludednodetypes
+    test('to test the property `cqPeriodWcmPeriodMsmPeriodActionPeriodExcludednodetypes`', () async {
+      // TODO
+    });
+
+    // ConfigNodePropertyArray cqPeriodWcmPeriodMsmPeriodActionPeriodExcludedparagraphitems
+    test('to test the property `cqPeriodWcmPeriodMsmPeriodActionPeriodExcludedparagraphitems`', () async {
+      // TODO
+    });
+
+    // ConfigNodePropertyArray cqPeriodWcmPeriodMsmPeriodActionPeriodExcludedprops
+    test('to test the property `cqPeriodWcmPeriodMsmPeriodActionPeriodExcludedprops`', () async {
+      // TODO
+    });
+
+    // ConfigNodePropertyBoolean cqPeriodWcmPeriodMsmPeriodImplPeriodActionsPeriodPagemovePeriodPropReferenceUpdate
+    test('to test the property `cqPeriodWcmPeriodMsmPeriodImplPeriodActionsPeriodPagemovePeriodPropReferenceUpdate`', () async {
+      // TODO
+    });
+
+
+  });
+
+}

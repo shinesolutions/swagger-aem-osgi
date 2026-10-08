@@ -1,28 +1,39 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComDayCqReplicationImplReplicationContentFactoryProviderImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComDayCqReplicationImplReplicationContentFactoryProviderImplProperties   {
-  @JsonProperty("replication.content.useFileStorage")
-  private ConfigNodePropertyBoolean replicationContentUseFileStorage = null;
+@JsonTypeName("comDayCqReplicationImplReplicationContentFactoryProviderImplProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComDayCqReplicationImplReplicationContentFactoryProviderImplProperties {
 
-  @JsonProperty("replication.content.maxCommitAttempts")
-  private ConfigNodePropertyInteger replicationContentMaxCommitAttempts = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean replicationContentUseFileStorage;
 
-  public ComDayCqReplicationImplReplicationContentFactoryProviderImplProperties replicationContentUseFileStorage(ConfigNodePropertyBoolean replicationContentUseFileStorage) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger replicationContentMaxCommitAttempts;
+
+  public ComDayCqReplicationImplReplicationContentFactoryProviderImplProperties replicationContentUseFileStorage(@Nullable ConfigNodePropertyBoolean replicationContentUseFileStorage) {
     this.replicationContentUseFileStorage = replicationContentUseFileStorage;
     return this;
   }
@@ -30,20 +41,20 @@ public class ComDayCqReplicationImplReplicationContentFactoryProviderImplPropert
   /**
    * Get replicationContentUseFileStorage
    * @return replicationContentUseFileStorage
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getReplicationContentUseFileStorage() {
+   */
+  @Valid 
+  @Schema(name = "replication.content.useFileStorage", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("replication.content.useFileStorage")
+  public @Nullable ConfigNodePropertyBoolean getReplicationContentUseFileStorage() {
     return replicationContentUseFileStorage;
   }
 
-  public void setReplicationContentUseFileStorage(ConfigNodePropertyBoolean replicationContentUseFileStorage) {
+  @JsonProperty("replication.content.useFileStorage")
+  public void setReplicationContentUseFileStorage(@Nullable ConfigNodePropertyBoolean replicationContentUseFileStorage) {
     this.replicationContentUseFileStorage = replicationContentUseFileStorage;
   }
 
-  public ComDayCqReplicationImplReplicationContentFactoryProviderImplProperties replicationContentMaxCommitAttempts(ConfigNodePropertyInteger replicationContentMaxCommitAttempts) {
+  public ComDayCqReplicationImplReplicationContentFactoryProviderImplProperties replicationContentMaxCommitAttempts(@Nullable ConfigNodePropertyInteger replicationContentMaxCommitAttempts) {
     this.replicationContentMaxCommitAttempts = replicationContentMaxCommitAttempts;
     return this;
   }
@@ -51,22 +62,21 @@ public class ComDayCqReplicationImplReplicationContentFactoryProviderImplPropert
   /**
    * Get replicationContentMaxCommitAttempts
    * @return replicationContentMaxCommitAttempts
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getReplicationContentMaxCommitAttempts() {
+   */
+  @Valid 
+  @Schema(name = "replication.content.maxCommitAttempts", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("replication.content.maxCommitAttempts")
+  public @Nullable ConfigNodePropertyInteger getReplicationContentMaxCommitAttempts() {
     return replicationContentMaxCommitAttempts;
   }
 
-  public void setReplicationContentMaxCommitAttempts(ConfigNodePropertyInteger replicationContentMaxCommitAttempts) {
+  @JsonProperty("replication.content.maxCommitAttempts")
+  public void setReplicationContentMaxCommitAttempts(@Nullable ConfigNodePropertyInteger replicationContentMaxCommitAttempts) {
     this.replicationContentMaxCommitAttempts = replicationContentMaxCommitAttempts;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -87,7 +97,6 @@ public class ComDayCqReplicationImplReplicationContentFactoryProviderImplPropert
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComDayCqReplicationImplReplicationContentFactoryProviderImplProperties {\n");
-    
     sb.append("    replicationContentUseFileStorage: ").append(toIndentedString(replicationContentUseFileStorage)).append("\n");
     sb.append("    replicationContentMaxCommitAttempts: ").append(toIndentedString(replicationContentMaxCommitAttempts)).append("\n");
     sb.append("}");
@@ -98,11 +107,8 @@ public class ComDayCqReplicationImplReplicationContentFactoryProviderImplPropert
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -72,7 +72,7 @@ private class OASOrgApacheSlingCommonsMimeInternalTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASOrgApacheSlingCommonsMimeInternal orgApacheSlingCommonsMimeInternalMimeTypeServiceImplProperties = new OASOrgApacheSlingCommonsMimeInternal();
-        Map<String, String> propertyMappings = orgApacheSlingCommonsMimeInternalMimeTypeServiceImplProperties.getPropertyMappings();
-        System.assertEquals('mimeTypes', propertyMappings.get('mime.types'));
+        Map<String, String> x-property-mappings = orgApacheSlingCommonsMimeInternalMimeTypeServiceImplProperties.getx-property-mappings();
+        System.assertEquals('mimeTypes', x-property-mappings.get('mime.types'));
     }
 }

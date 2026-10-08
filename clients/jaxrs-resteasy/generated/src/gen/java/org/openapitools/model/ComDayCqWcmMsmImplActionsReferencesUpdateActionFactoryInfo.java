@@ -4,20 +4,23 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ComDayCqWcmMsmImplActionsReferencesUpdateActionFactoryProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2019-08-05T00:59:30.156Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2026-10-07T12:54:21.614735164Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqWcmMsmImplActionsReferencesUpdateActionFactoryInfo   {
   
-  private String pid = null;
-  private String title = null;
-  private String description = null;
-  private ComDayCqWcmMsmImplActionsReferencesUpdateActionFactoryProperties properties = null;
-  private String bundleLocation = null;
-  private String serviceLocation = null;
+  private String pid;
+  private String title;
+  private String description;
+  private ComDayCqWcmMsmImplActionsReferencesUpdateActionFactoryProperties properties;
+  private String bundleLocation;
+  private String serviceLocation;
 
   /**
    **/
@@ -60,6 +63,7 @@ public class ComDayCqWcmMsmImplActionsReferencesUpdateActionFactoryInfo   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("properties")
+  @Valid
   public ComDayCqWcmMsmImplActionsReferencesUpdateActionFactoryProperties getProperties() {
     return properties;
   }
@@ -93,7 +97,7 @@ public class ComDayCqWcmMsmImplActionsReferencesUpdateActionFactoryInfo   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -101,12 +105,12 @@ public class ComDayCqWcmMsmImplActionsReferencesUpdateActionFactoryInfo   {
       return false;
     }
     ComDayCqWcmMsmImplActionsReferencesUpdateActionFactoryInfo comDayCqWcmMsmImplActionsReferencesUpdateActionFactoryInfo = (ComDayCqWcmMsmImplActionsReferencesUpdateActionFactoryInfo) o;
-    return Objects.equals(pid, comDayCqWcmMsmImplActionsReferencesUpdateActionFactoryInfo.pid) &&
-        Objects.equals(title, comDayCqWcmMsmImplActionsReferencesUpdateActionFactoryInfo.title) &&
-        Objects.equals(description, comDayCqWcmMsmImplActionsReferencesUpdateActionFactoryInfo.description) &&
-        Objects.equals(properties, comDayCqWcmMsmImplActionsReferencesUpdateActionFactoryInfo.properties) &&
-        Objects.equals(bundleLocation, comDayCqWcmMsmImplActionsReferencesUpdateActionFactoryInfo.bundleLocation) &&
-        Objects.equals(serviceLocation, comDayCqWcmMsmImplActionsReferencesUpdateActionFactoryInfo.serviceLocation);
+    return Objects.equals(this.pid, comDayCqWcmMsmImplActionsReferencesUpdateActionFactoryInfo.pid) &&
+        Objects.equals(this.title, comDayCqWcmMsmImplActionsReferencesUpdateActionFactoryInfo.title) &&
+        Objects.equals(this.description, comDayCqWcmMsmImplActionsReferencesUpdateActionFactoryInfo.description) &&
+        Objects.equals(this.properties, comDayCqWcmMsmImplActionsReferencesUpdateActionFactoryInfo.properties) &&
+        Objects.equals(this.bundleLocation, comDayCqWcmMsmImplActionsReferencesUpdateActionFactoryInfo.bundleLocation) &&
+        Objects.equals(this.serviceLocation, comDayCqWcmMsmImplActionsReferencesUpdateActionFactoryInfo.serviceLocation);
   }
 
   @Override
@@ -133,11 +137,8 @@ public class ComDayCqWcmMsmImplActionsReferencesUpdateActionFactoryInfo   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

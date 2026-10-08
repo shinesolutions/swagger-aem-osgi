@@ -7,12 +7,12 @@ import org.openapitools.model.AdaptiveFormAndInteractiveCommunicationWebChannelT
 
 @Canonical
 class AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurProperties properties
 }

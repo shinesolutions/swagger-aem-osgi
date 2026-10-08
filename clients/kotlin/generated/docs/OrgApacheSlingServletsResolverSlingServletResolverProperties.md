@@ -2,12 +2,12 @@
 # OrgApacheSlingServletsResolverSlingServletResolverProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**servletresolverPeriodservletRoot** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**servletresolverPeriodcacheSize** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**servletresolverPeriodpaths** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**servletresolverPerioddefaultExtensions** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **servletresolverServletRoot** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **servletresolverCacheSize** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **servletresolverPaths** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **servletresolverDefaultExtensions** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
 
 
 

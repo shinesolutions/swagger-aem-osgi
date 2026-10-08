@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeGraniteRepositoryHcImplObservationQueueLen
 
 @Canonical
 class ComAdobeGraniteRepositoryHcImplObservationQueueLengthHealthCheckInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteRepositoryHcImplObservationQueueLengthHealthCheckProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteRepositoryHcImplObservationQueueLengthHealthCheckProperties properties
 }

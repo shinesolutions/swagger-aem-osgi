@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqDamCoreImplUnzipUnzipConfigInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqDamCoreImplUnzipUnzipConfigInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComDayCqDamCoreImplUnzipUnzipConfigProperties = openapi_server.resourceTypes.ComDayCqDamCoreImplUnzipUnzipConfigProperties
+}
+resourceTypes {
+
+  ComDayCqDamCoreImplUnzipUnzipConfigInfo {
+    title = ComDayCqDamCoreImplUnzipUnzipConfigInfo
+    description = ComDayCqDamCoreImplUnzipUnzipConfigInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComDayCqDamCoreImplUnzipUnzipConfigProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqDamCoreImplUnzipUnzipConfigInfo {
+    title = ComDayCqDamCoreImplUnzipUnzipConfigInfo
+    description = ComDayCqDamCoreImplUnzipUnzipConfigInfo
+    implements = openapi_server.resourceTypes.ComDayCqDamCoreImplUnzipUnzipConfigInfo
+
+  }
+}

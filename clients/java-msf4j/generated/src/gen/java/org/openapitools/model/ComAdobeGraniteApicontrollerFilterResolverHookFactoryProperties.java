@@ -3,6 +3,7 @@ package org.openapitools.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyString;
@@ -10,475 +11,475 @@ import org.openapitools.model.ConfigNodePropertyString;
 /**
  * ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaMSF4JServerCodegen", date = "2019-08-05T00:54:29.762Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaMSF4JServerCodegen", date = "2026-10-07T12:53:29.980508721Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
   @JsonProperty("com.adobe.cq.cdn.cdn-rewriter")
-  private ConfigNodePropertyString comAdobeCqCdnCdnRewriter = null;
+  private ConfigNodePropertyString comAdobeCqCdnCdnRewriter;
 
   @JsonProperty("com.adobe.cq.cloud-config.components")
-  private ConfigNodePropertyString comAdobeCqCloudConfigComponents = null;
+  private ConfigNodePropertyString comAdobeCqCloudConfigComponents;
 
   @JsonProperty("com.adobe.cq.cloud-config.core")
-  private ConfigNodePropertyString comAdobeCqCloudConfigCore = null;
+  private ConfigNodePropertyString comAdobeCqCloudConfigCore;
 
   @JsonProperty("com.adobe.cq.cloud-config.ui")
-  private ConfigNodePropertyString comAdobeCqCloudConfigUi = null;
+  private ConfigNodePropertyString comAdobeCqCloudConfigUi;
 
   @JsonProperty("com.adobe.cq.com.adobe.cq.editor")
-  private ConfigNodePropertyString comAdobeCqComAdobeCqEditor = null;
+  private ConfigNodePropertyString comAdobeCqComAdobeCqEditor;
 
   @JsonProperty("com.adobe.cq.com.adobe.cq.projects.core")
-  private ConfigNodePropertyString comAdobeCqComAdobeCqProjectsCore = null;
+  private ConfigNodePropertyString comAdobeCqComAdobeCqProjectsCore;
 
   @JsonProperty("com.adobe.cq.com.adobe.cq.projects.wcm.core")
-  private ConfigNodePropertyString comAdobeCqComAdobeCqProjectsWcmCore = null;
+  private ConfigNodePropertyString comAdobeCqComAdobeCqProjectsWcmCore;
 
   @JsonProperty("com.adobe.cq.com.adobe.cq.ui.commons")
-  private ConfigNodePropertyString comAdobeCqComAdobeCqUiCommons = null;
+  private ConfigNodePropertyString comAdobeCqComAdobeCqUiCommons;
 
   @JsonProperty("com.adobe.cq.com.adobe.cq.wcm.style")
-  private ConfigNodePropertyString comAdobeCqComAdobeCqWcmStyle = null;
+  private ConfigNodePropertyString comAdobeCqComAdobeCqWcmStyle;
 
   @JsonProperty("com.adobe.cq.cq-activitymap-integration")
-  private ConfigNodePropertyString comAdobeCqCqActivitymapIntegration = null;
+  private ConfigNodePropertyString comAdobeCqCqActivitymapIntegration;
 
   @JsonProperty("com.adobe.cq.cq-contexthub-commons")
-  private ConfigNodePropertyString comAdobeCqCqContexthubCommons = null;
+  private ConfigNodePropertyString comAdobeCqCqContexthubCommons;
 
   @JsonProperty("com.adobe.cq.cq-dtm")
-  private ConfigNodePropertyString comAdobeCqCqDtm = null;
+  private ConfigNodePropertyString comAdobeCqCqDtm;
 
   @JsonProperty("com.adobe.cq.cq-healthcheck")
-  private ConfigNodePropertyString comAdobeCqCqHealthcheck = null;
+  private ConfigNodePropertyString comAdobeCqCqHealthcheck;
 
   @JsonProperty("com.adobe.cq.cq-multisite-targeting")
-  private ConfigNodePropertyString comAdobeCqCqMultisiteTargeting = null;
+  private ConfigNodePropertyString comAdobeCqCqMultisiteTargeting;
 
   @JsonProperty("com.adobe.cq.cq-pre-upgrade-cleanup")
-  private ConfigNodePropertyString comAdobeCqCqPreUpgradeCleanup = null;
+  private ConfigNodePropertyString comAdobeCqCqPreUpgradeCleanup;
 
   @JsonProperty("com.adobe.cq.cq-product-info-provider")
-  private ConfigNodePropertyString comAdobeCqCqProductInfoProvider = null;
+  private ConfigNodePropertyString comAdobeCqCqProductInfoProvider;
 
   @JsonProperty("com.adobe.cq.cq-rest-sites")
-  private ConfigNodePropertyString comAdobeCqCqRestSites = null;
+  private ConfigNodePropertyString comAdobeCqCqRestSites;
 
   @JsonProperty("com.adobe.cq.cq-security-hc")
-  private ConfigNodePropertyString comAdobeCqCqSecurityHc = null;
+  private ConfigNodePropertyString comAdobeCqCqSecurityHc;
 
   @JsonProperty("com.adobe.cq.dam.cq-dam-svg-handler")
-  private ConfigNodePropertyString comAdobeCqDamCqDamSvgHandler = null;
+  private ConfigNodePropertyString comAdobeCqDamCqDamSvgHandler;
 
   @JsonProperty("com.adobe.cq.dam.cq-scene7-imaging")
-  private ConfigNodePropertyString comAdobeCqDamCqScene7Imaging = null;
+  private ConfigNodePropertyString comAdobeCqDamCqScene7Imaging;
 
   @JsonProperty("com.adobe.cq.dtm-reactor.core")
-  private ConfigNodePropertyString comAdobeCqDtmReactorCore = null;
+  private ConfigNodePropertyString comAdobeCqDtmReactorCore;
 
   @JsonProperty("com.adobe.cq.dtm-reactor.ui")
-  private ConfigNodePropertyString comAdobeCqDtmReactorUi = null;
+  private ConfigNodePropertyString comAdobeCqDtmReactorUi;
 
   @JsonProperty("com.adobe.cq.exp-jspel-resolver")
-  private ConfigNodePropertyString comAdobeCqExpJspelResolver = null;
+  private ConfigNodePropertyString comAdobeCqExpJspelResolver;
 
   @JsonProperty("com.adobe.cq.inbox.cq-inbox")
-  private ConfigNodePropertyString comAdobeCqInboxCqInbox = null;
+  private ConfigNodePropertyString comAdobeCqInboxCqInbox;
 
   @JsonProperty("com.adobe.cq.json-schema-parser")
-  private ConfigNodePropertyString comAdobeCqJsonSchemaParser = null;
+  private ConfigNodePropertyString comAdobeCqJsonSchemaParser;
 
   @JsonProperty("com.adobe.cq.media.cq-media-publishing-dps-fp-core")
-  private ConfigNodePropertyString comAdobeCqMediaCqMediaPublishingDpsFpCore = null;
+  private ConfigNodePropertyString comAdobeCqMediaCqMediaPublishingDpsFpCore;
 
   @JsonProperty("com.adobe.cq.mobile.cq-mobile-caas")
-  private ConfigNodePropertyString comAdobeCqMobileCqMobileCaas = null;
+  private ConfigNodePropertyString comAdobeCqMobileCqMobileCaas;
 
   @JsonProperty("com.adobe.cq.mobile.cq-mobile-index-builder")
-  private ConfigNodePropertyString comAdobeCqMobileCqMobileIndexBuilder = null;
+  private ConfigNodePropertyString comAdobeCqMobileCqMobileIndexBuilder;
 
   @JsonProperty("com.adobe.cq.mobile.cq-mobile-phonegap-build")
-  private ConfigNodePropertyString comAdobeCqMobileCqMobilePhonegapBuild = null;
+  private ConfigNodePropertyString comAdobeCqMobileCqMobilePhonegapBuild;
 
   @JsonProperty("com.adobe.cq.myspell")
-  private ConfigNodePropertyString comAdobeCqMyspell = null;
+  private ConfigNodePropertyString comAdobeCqMyspell;
 
   @JsonProperty("com.adobe.cq.sample.we.retail.core")
-  private ConfigNodePropertyString comAdobeCqSampleWeRetailCore = null;
+  private ConfigNodePropertyString comAdobeCqSampleWeRetailCore;
 
   @JsonProperty("com.adobe.cq.screens.com.adobe.cq.screens.dcc")
-  private ConfigNodePropertyString comAdobeCqScreensComAdobeCqScreensDcc = null;
+  private ConfigNodePropertyString comAdobeCqScreensComAdobeCqScreensDcc;
 
   @JsonProperty("com.adobe.cq.screens.com.adobe.cq.screens.mq.core")
-  private ConfigNodePropertyString comAdobeCqScreensComAdobeCqScreensMqCore = null;
+  private ConfigNodePropertyString comAdobeCqScreensComAdobeCqScreensMqCore;
 
   @JsonProperty("com.adobe.cq.social.cq-social-as-provider")
-  private ConfigNodePropertyString comAdobeCqSocialCqSocialAsProvider = null;
+  private ConfigNodePropertyString comAdobeCqSocialCqSocialAsProvider;
 
   @JsonProperty("com.adobe.cq.social.cq-social-badging-basic-impl")
-  private ConfigNodePropertyString comAdobeCqSocialCqSocialBadgingBasicImpl = null;
+  private ConfigNodePropertyString comAdobeCqSocialCqSocialBadgingBasicImpl;
 
   @JsonProperty("com.adobe.cq.social.cq-social-badging-impl")
-  private ConfigNodePropertyString comAdobeCqSocialCqSocialBadgingImpl = null;
+  private ConfigNodePropertyString comAdobeCqSocialCqSocialBadgingImpl;
 
   @JsonProperty("com.adobe.cq.social.cq-social-calendar-impl")
-  private ConfigNodePropertyString comAdobeCqSocialCqSocialCalendarImpl = null;
+  private ConfigNodePropertyString comAdobeCqSocialCqSocialCalendarImpl;
 
   @JsonProperty("com.adobe.cq.social.cq-social-content-fragments-impl")
-  private ConfigNodePropertyString comAdobeCqSocialCqSocialContentFragmentsImpl = null;
+  private ConfigNodePropertyString comAdobeCqSocialCqSocialContentFragmentsImpl;
 
   @JsonProperty("com.adobe.cq.social.cq-social-enablement-impl")
-  private ConfigNodePropertyString comAdobeCqSocialCqSocialEnablementImpl = null;
+  private ConfigNodePropertyString comAdobeCqSocialCqSocialEnablementImpl;
 
   @JsonProperty("com.adobe.cq.social.cq-social-graph-impl")
-  private ConfigNodePropertyString comAdobeCqSocialCqSocialGraphImpl = null;
+  private ConfigNodePropertyString comAdobeCqSocialCqSocialGraphImpl;
 
   @JsonProperty("com.adobe.cq.social.cq-social-ideation-impl")
-  private ConfigNodePropertyString comAdobeCqSocialCqSocialIdeationImpl = null;
+  private ConfigNodePropertyString comAdobeCqSocialCqSocialIdeationImpl;
 
   @JsonProperty("com.adobe.cq.social.cq-social-jcr-provider")
-  private ConfigNodePropertyString comAdobeCqSocialCqSocialJcrProvider = null;
+  private ConfigNodePropertyString comAdobeCqSocialCqSocialJcrProvider;
 
   @JsonProperty("com.adobe.cq.social.cq-social-members-impl")
-  private ConfigNodePropertyString comAdobeCqSocialCqSocialMembersImpl = null;
+  private ConfigNodePropertyString comAdobeCqSocialCqSocialMembersImpl;
 
   @JsonProperty("com.adobe.cq.social.cq-social-ms-provider")
-  private ConfigNodePropertyString comAdobeCqSocialCqSocialMsProvider = null;
+  private ConfigNodePropertyString comAdobeCqSocialCqSocialMsProvider;
 
   @JsonProperty("com.adobe.cq.social.cq-social-notifications-channels-web")
-  private ConfigNodePropertyString comAdobeCqSocialCqSocialNotificationsChannelsWeb = null;
+  private ConfigNodePropertyString comAdobeCqSocialCqSocialNotificationsChannelsWeb;
 
   @JsonProperty("com.adobe.cq.social.cq-social-notifications-impl")
-  private ConfigNodePropertyString comAdobeCqSocialCqSocialNotificationsImpl = null;
+  private ConfigNodePropertyString comAdobeCqSocialCqSocialNotificationsImpl;
 
   @JsonProperty("com.adobe.cq.social.cq-social-rdb-provider")
-  private ConfigNodePropertyString comAdobeCqSocialCqSocialRdbProvider = null;
+  private ConfigNodePropertyString comAdobeCqSocialCqSocialRdbProvider;
 
   @JsonProperty("com.adobe.cq.social.cq-social-scf-impl")
-  private ConfigNodePropertyString comAdobeCqSocialCqSocialScfImpl = null;
+  private ConfigNodePropertyString comAdobeCqSocialCqSocialScfImpl;
 
   @JsonProperty("com.adobe.cq.social.cq-social-scoring-basic-impl")
-  private ConfigNodePropertyString comAdobeCqSocialCqSocialScoringBasicImpl = null;
+  private ConfigNodePropertyString comAdobeCqSocialCqSocialScoringBasicImpl;
 
   @JsonProperty("com.adobe.cq.social.cq-social-scoring-impl")
-  private ConfigNodePropertyString comAdobeCqSocialCqSocialScoringImpl = null;
+  private ConfigNodePropertyString comAdobeCqSocialCqSocialScoringImpl;
 
   @JsonProperty("com.adobe.cq.social.cq-social-serviceusers-impl")
-  private ConfigNodePropertyString comAdobeCqSocialCqSocialServiceusersImpl = null;
+  private ConfigNodePropertyString comAdobeCqSocialCqSocialServiceusersImpl;
 
   @JsonProperty("com.adobe.cq.social.cq-social-srp-impl")
-  private ConfigNodePropertyString comAdobeCqSocialCqSocialSrpImpl = null;
+  private ConfigNodePropertyString comAdobeCqSocialCqSocialSrpImpl;
 
   @JsonProperty("com.adobe.cq.social.cq-social-ugcbase-impl")
-  private ConfigNodePropertyString comAdobeCqSocialCqSocialUgcbaseImpl = null;
+  private ConfigNodePropertyString comAdobeCqSocialCqSocialUgcbaseImpl;
 
   @JsonProperty("com.adobe.dam.cq-dam-cfm-impl")
-  private ConfigNodePropertyString comAdobeDamCqDamCfmImpl = null;
+  private ConfigNodePropertyString comAdobeDamCqDamCfmImpl;
 
   @JsonProperty("com.adobe.forms.foundation-forms-foundation-base")
-  private ConfigNodePropertyString comAdobeFormsFoundationFormsFoundationBase = null;
+  private ConfigNodePropertyString comAdobeFormsFoundationFormsFoundationBase;
 
   @JsonProperty("com.adobe.granite.apicontroller")
-  private ConfigNodePropertyString comAdobeGraniteApicontroller = null;
+  private ConfigNodePropertyString comAdobeGraniteApicontroller;
 
   @JsonProperty("com.adobe.granite.asset.core")
-  private ConfigNodePropertyString comAdobeGraniteAssetCore = null;
+  private ConfigNodePropertyString comAdobeGraniteAssetCore;
 
   @JsonProperty("com.adobe.granite.auth.sso")
-  private ConfigNodePropertyString comAdobeGraniteAuthSso = null;
+  private ConfigNodePropertyString comAdobeGraniteAuthSso;
 
   @JsonProperty("com.adobe.granite.bundles.hc.impl")
-  private ConfigNodePropertyString comAdobeGraniteBundlesHcImpl = null;
+  private ConfigNodePropertyString comAdobeGraniteBundlesHcImpl;
 
   @JsonProperty("com.adobe.granite.compat-router")
-  private ConfigNodePropertyString comAdobeGraniteCompatRouter = null;
+  private ConfigNodePropertyString comAdobeGraniteCompatRouter;
 
   @JsonProperty("com.adobe.granite.conf")
-  private ConfigNodePropertyString comAdobeGraniteConf = null;
+  private ConfigNodePropertyString comAdobeGraniteConf;
 
   @JsonProperty("com.adobe.granite.conf.ui.core")
-  private ConfigNodePropertyString comAdobeGraniteConfUiCore = null;
+  private ConfigNodePropertyString comAdobeGraniteConfUiCore;
 
   @JsonProperty("com.adobe.granite.cors")
-  private ConfigNodePropertyString comAdobeGraniteCors = null;
+  private ConfigNodePropertyString comAdobeGraniteCors;
 
   @JsonProperty("com.adobe.granite.crx-explorer")
-  private ConfigNodePropertyString comAdobeGraniteCrxExplorer = null;
+  private ConfigNodePropertyString comAdobeGraniteCrxExplorer;
 
   @JsonProperty("com.adobe.granite.crxde-lite")
-  private ConfigNodePropertyString comAdobeGraniteCrxdeLite = null;
+  private ConfigNodePropertyString comAdobeGraniteCrxdeLite;
 
   @JsonProperty("com.adobe.granite.crypto.config")
-  private ConfigNodePropertyString comAdobeGraniteCryptoConfig = null;
+  private ConfigNodePropertyString comAdobeGraniteCryptoConfig;
 
   @JsonProperty("com.adobe.granite.crypto.extension")
-  private ConfigNodePropertyString comAdobeGraniteCryptoExtension = null;
+  private ConfigNodePropertyString comAdobeGraniteCryptoExtension;
 
   @JsonProperty("com.adobe.granite.crypto.file")
-  private ConfigNodePropertyString comAdobeGraniteCryptoFile = null;
+  private ConfigNodePropertyString comAdobeGraniteCryptoFile;
 
   @JsonProperty("com.adobe.granite.crypto.jcr")
-  private ConfigNodePropertyString comAdobeGraniteCryptoJcr = null;
+  private ConfigNodePropertyString comAdobeGraniteCryptoJcr;
 
   @JsonProperty("com.adobe.granite.csrf")
-  private ConfigNodePropertyString comAdobeGraniteCsrf = null;
+  private ConfigNodePropertyString comAdobeGraniteCsrf;
 
   @JsonProperty("com.adobe.granite.distribution.core")
-  private ConfigNodePropertyString comAdobeGraniteDistributionCore = null;
+  private ConfigNodePropertyString comAdobeGraniteDistributionCore;
 
   @JsonProperty("com.adobe.granite.dropwizard.metrics")
-  private ConfigNodePropertyString comAdobeGraniteDropwizardMetrics = null;
+  private ConfigNodePropertyString comAdobeGraniteDropwizardMetrics;
 
   @JsonProperty("com.adobe.granite.frags.impl")
-  private ConfigNodePropertyString comAdobeGraniteFragsImpl = null;
+  private ConfigNodePropertyString comAdobeGraniteFragsImpl;
 
   @JsonProperty("com.adobe.granite.gibson")
-  private ConfigNodePropertyString comAdobeGraniteGibson = null;
+  private ConfigNodePropertyString comAdobeGraniteGibson;
 
   @JsonProperty("com.adobe.granite.infocollector")
-  private ConfigNodePropertyString comAdobeGraniteInfocollector = null;
+  private ConfigNodePropertyString comAdobeGraniteInfocollector;
 
   @JsonProperty("com.adobe.granite.installer.factory.packages")
-  private ConfigNodePropertyString comAdobeGraniteInstallerFactoryPackages = null;
+  private ConfigNodePropertyString comAdobeGraniteInstallerFactoryPackages;
 
   @JsonProperty("com.adobe.granite.jetty.ssl")
-  private ConfigNodePropertyString comAdobeGraniteJettySsl = null;
+  private ConfigNodePropertyString comAdobeGraniteJettySsl;
 
   @JsonProperty("com.adobe.granite.jobs.async")
-  private ConfigNodePropertyString comAdobeGraniteJobsAsync = null;
+  private ConfigNodePropertyString comAdobeGraniteJobsAsync;
 
   @JsonProperty("com.adobe.granite.maintenance.oak")
-  private ConfigNodePropertyString comAdobeGraniteMaintenanceOak = null;
+  private ConfigNodePropertyString comAdobeGraniteMaintenanceOak;
 
   @JsonProperty("com.adobe.granite.monitoring.core")
-  private ConfigNodePropertyString comAdobeGraniteMonitoringCore = null;
+  private ConfigNodePropertyString comAdobeGraniteMonitoringCore;
 
   @JsonProperty("com.adobe.granite.queries")
-  private ConfigNodePropertyString comAdobeGraniteQueries = null;
+  private ConfigNodePropertyString comAdobeGraniteQueries;
 
   @JsonProperty("com.adobe.granite.replication.hc.impl")
-  private ConfigNodePropertyString comAdobeGraniteReplicationHcImpl = null;
+  private ConfigNodePropertyString comAdobeGraniteReplicationHcImpl;
 
   @JsonProperty("com.adobe.granite.repository.checker")
-  private ConfigNodePropertyString comAdobeGraniteRepositoryChecker = null;
+  private ConfigNodePropertyString comAdobeGraniteRepositoryChecker;
 
   @JsonProperty("com.adobe.granite.repository.hc.impl")
-  private ConfigNodePropertyString comAdobeGraniteRepositoryHcImpl = null;
+  private ConfigNodePropertyString comAdobeGraniteRepositoryHcImpl;
 
   @JsonProperty("com.adobe.granite.rest.assets")
-  private ConfigNodePropertyString comAdobeGraniteRestAssets = null;
+  private ConfigNodePropertyString comAdobeGraniteRestAssets;
 
   @JsonProperty("com.adobe.granite.security.ui")
-  private ConfigNodePropertyString comAdobeGraniteSecurityUi = null;
+  private ConfigNodePropertyString comAdobeGraniteSecurityUi;
 
   @JsonProperty("com.adobe.granite.startup")
-  private ConfigNodePropertyString comAdobeGraniteStartup = null;
+  private ConfigNodePropertyString comAdobeGraniteStartup;
 
   @JsonProperty("com.adobe.granite.tagsoup")
-  private ConfigNodePropertyString comAdobeGraniteTagsoup = null;
+  private ConfigNodePropertyString comAdobeGraniteTagsoup;
 
   @JsonProperty("com.adobe.granite.taskmanagement.core")
-  private ConfigNodePropertyString comAdobeGraniteTaskmanagementCore = null;
+  private ConfigNodePropertyString comAdobeGraniteTaskmanagementCore;
 
   @JsonProperty("com.adobe.granite.taskmanagement.workflow")
-  private ConfigNodePropertyString comAdobeGraniteTaskmanagementWorkflow = null;
+  private ConfigNodePropertyString comAdobeGraniteTaskmanagementWorkflow;
 
   @JsonProperty("com.adobe.granite.ui.clientlibs.compiler.less")
-  private ConfigNodePropertyString comAdobeGraniteUiClientlibsCompilerLess = null;
+  private ConfigNodePropertyString comAdobeGraniteUiClientlibsCompilerLess;
 
   @JsonProperty("com.adobe.granite.ui.clientlibs.processor.gcc")
-  private ConfigNodePropertyString comAdobeGraniteUiClientlibsProcessorGcc = null;
+  private ConfigNodePropertyString comAdobeGraniteUiClientlibsProcessorGcc;
 
   @JsonProperty("com.adobe.granite.webconsole.plugins")
-  private ConfigNodePropertyString comAdobeGraniteWebconsolePlugins = null;
+  private ConfigNodePropertyString comAdobeGraniteWebconsolePlugins;
 
   @JsonProperty("com.adobe.granite.workflow.console")
-  private ConfigNodePropertyString comAdobeGraniteWorkflowConsole = null;
+  private ConfigNodePropertyString comAdobeGraniteWorkflowConsole;
 
   @JsonProperty("com.adobe.xmp.worker.files.native.fragment.linux")
-  private ConfigNodePropertyString comAdobeXmpWorkerFilesNativeFragmentLinux = null;
+  private ConfigNodePropertyString comAdobeXmpWorkerFilesNativeFragmentLinux;
 
   @JsonProperty("com.adobe.xmp.worker.files.native.fragment.macosx")
-  private ConfigNodePropertyString comAdobeXmpWorkerFilesNativeFragmentMacosx = null;
+  private ConfigNodePropertyString comAdobeXmpWorkerFilesNativeFragmentMacosx;
 
   @JsonProperty("com.adobe.xmp.worker.files.native.fragment.win")
-  private ConfigNodePropertyString comAdobeXmpWorkerFilesNativeFragmentWin = null;
+  private ConfigNodePropertyString comAdobeXmpWorkerFilesNativeFragmentWin;
 
   @JsonProperty("com.day.commons.osgi.wrapper.simple-jndi")
-  private ConfigNodePropertyString comDayCommonsOsgiWrapperSimpleJndi = null;
+  private ConfigNodePropertyString comDayCommonsOsgiWrapperSimpleJndi;
 
   @JsonProperty("com.day.cq.cq-authhandler")
-  private ConfigNodePropertyString comDayCqCqAuthhandler = null;
+  private ConfigNodePropertyString comDayCqCqAuthhandler;
 
   @JsonProperty("com.day.cq.cq-compat-configupdate")
-  private ConfigNodePropertyString comDayCqCqCompatConfigupdate = null;
+  private ConfigNodePropertyString comDayCqCqCompatConfigupdate;
 
   @JsonProperty("com.day.cq.cq-licensebranding")
-  private ConfigNodePropertyString comDayCqCqLicensebranding = null;
+  private ConfigNodePropertyString comDayCqCqLicensebranding;
 
   @JsonProperty("com.day.cq.cq-notifcation-impl")
-  private ConfigNodePropertyString comDayCqCqNotifcationImpl = null;
+  private ConfigNodePropertyString comDayCqCqNotifcationImpl;
 
   @JsonProperty("com.day.cq.cq-replication-audit")
-  private ConfigNodePropertyString comDayCqCqReplicationAudit = null;
+  private ConfigNodePropertyString comDayCqCqReplicationAudit;
 
   @JsonProperty("com.day.cq.cq-search-ext")
-  private ConfigNodePropertyString comDayCqCqSearchExt = null;
+  private ConfigNodePropertyString comDayCqCqSearchExt;
 
   @JsonProperty("com.day.cq.dam.cq-dam-annotation-print")
-  private ConfigNodePropertyString comDayCqDamCqDamAnnotationPrint = null;
+  private ConfigNodePropertyString comDayCqDamCqDamAnnotationPrint;
 
   @JsonProperty("com.day.cq.dam.cq-dam-asset-usage")
-  private ConfigNodePropertyString comDayCqDamCqDamAssetUsage = null;
+  private ConfigNodePropertyString comDayCqDamCqDamAssetUsage;
 
   @JsonProperty("com.day.cq.dam.cq-dam-s7dam")
-  private ConfigNodePropertyString comDayCqDamCqDamS7dam = null;
+  private ConfigNodePropertyString comDayCqDamCqDamS7dam;
 
   @JsonProperty("com.day.cq.dam.cq-dam-similaritysearch")
-  private ConfigNodePropertyString comDayCqDamCqDamSimilaritysearch = null;
+  private ConfigNodePropertyString comDayCqDamCqDamSimilaritysearch;
 
   @JsonProperty("com.day.cq.dam.dam-webdav-support")
-  private ConfigNodePropertyString comDayCqDamDamWebdavSupport = null;
+  private ConfigNodePropertyString comDayCqDamDamWebdavSupport;
 
   @JsonProperty("com.day.cq.pre-upgrade-tasks")
-  private ConfigNodePropertyString comDayCqPreUpgradeTasks = null;
+  private ConfigNodePropertyString comDayCqPreUpgradeTasks;
 
   @JsonProperty("com.day.cq.replication.extensions")
-  private ConfigNodePropertyString comDayCqReplicationExtensions = null;
+  private ConfigNodePropertyString comDayCqReplicationExtensions;
 
   @JsonProperty("com.day.cq.wcm.cq-msm-core")
-  private ConfigNodePropertyString comDayCqWcmCqMsmCore = null;
+  private ConfigNodePropertyString comDayCqWcmCqMsmCore;
 
   @JsonProperty("com.day.cq.wcm.cq-wcm-translation")
-  private ConfigNodePropertyString comDayCqWcmCqWcmTranslation = null;
+  private ConfigNodePropertyString comDayCqWcmCqWcmTranslation;
 
   @JsonProperty("day-commons-jrawio")
-  private ConfigNodePropertyString dayCommonsJrawio = null;
+  private ConfigNodePropertyString dayCommonsJrawio;
 
   @JsonProperty("org.apache.aries.jmx.whiteboard")
-  private ConfigNodePropertyString orgApacheAriesJmxWhiteboard = null;
+  private ConfigNodePropertyString orgApacheAriesJmxWhiteboard;
 
   @JsonProperty("org.apache.felix.http.sslfilter")
-  private ConfigNodePropertyString orgApacheFelixHttpSslfilter = null;
+  private ConfigNodePropertyString orgApacheFelixHttpSslfilter;
 
   @JsonProperty("org.apache.felix.org.apache.felix.threaddump")
-  private ConfigNodePropertyString orgApacheFelixOrgApacheFelixThreaddump = null;
+  private ConfigNodePropertyString orgApacheFelixOrgApacheFelixThreaddump;
 
   @JsonProperty("org.apache.felix.webconsole.plugins.ds")
-  private ConfigNodePropertyString orgApacheFelixWebconsolePluginsDs = null;
+  private ConfigNodePropertyString orgApacheFelixWebconsolePluginsDs;
 
   @JsonProperty("org.apache.felix.webconsole.plugins.event")
-  private ConfigNodePropertyString orgApacheFelixWebconsolePluginsEvent = null;
+  private ConfigNodePropertyString orgApacheFelixWebconsolePluginsEvent;
 
   @JsonProperty("org.apache.felix.webconsole.plugins.memoryusage")
-  private ConfigNodePropertyString orgApacheFelixWebconsolePluginsMemoryusage = null;
+  private ConfigNodePropertyString orgApacheFelixWebconsolePluginsMemoryusage;
 
   @JsonProperty("org.apache.felix.webconsole.plugins.packageadmin")
-  private ConfigNodePropertyString orgApacheFelixWebconsolePluginsPackageadmin = null;
+  private ConfigNodePropertyString orgApacheFelixWebconsolePluginsPackageadmin;
 
   @JsonProperty("org.apache.jackrabbit.oak-auth-ldap")
-  private ConfigNodePropertyString orgApacheJackrabbitOakAuthLdap = null;
+  private ConfigNodePropertyString orgApacheJackrabbitOakAuthLdap;
 
   @JsonProperty("org.apache.jackrabbit.oak-segment-tar")
-  private ConfigNodePropertyString orgApacheJackrabbitOakSegmentTar = null;
+  private ConfigNodePropertyString orgApacheJackrabbitOakSegmentTar;
 
   @JsonProperty("org.apache.jackrabbit.oak-solr-osgi")
-  private ConfigNodePropertyString orgApacheJackrabbitOakSolrOsgi = null;
+  private ConfigNodePropertyString orgApacheJackrabbitOakSolrOsgi;
 
   @JsonProperty("org.apache.sling.bundleresource.impl")
-  private ConfigNodePropertyString orgApacheSlingBundleresourceImpl = null;
+  private ConfigNodePropertyString orgApacheSlingBundleresourceImpl;
 
   @JsonProperty("org.apache.sling.commons.fsclassloader")
-  private ConfigNodePropertyString orgApacheSlingCommonsFsclassloader = null;
+  private ConfigNodePropertyString orgApacheSlingCommonsFsclassloader;
 
   @JsonProperty("org.apache.sling.commons.log.webconsole")
-  private ConfigNodePropertyString orgApacheSlingCommonsLogWebconsole = null;
+  private ConfigNodePropertyString orgApacheSlingCommonsLogWebconsole;
 
   @JsonProperty("org.apache.sling.datasource")
-  private ConfigNodePropertyString orgApacheSlingDatasource = null;
+  private ConfigNodePropertyString orgApacheSlingDatasource;
 
   @JsonProperty("org.apache.sling.discovery.base")
-  private ConfigNodePropertyString orgApacheSlingDiscoveryBase = null;
+  private ConfigNodePropertyString orgApacheSlingDiscoveryBase;
 
   @JsonProperty("org.apache.sling.discovery.oak")
-  private ConfigNodePropertyString orgApacheSlingDiscoveryOak = null;
+  private ConfigNodePropertyString orgApacheSlingDiscoveryOak;
 
   @JsonProperty("org.apache.sling.discovery.support")
-  private ConfigNodePropertyString orgApacheSlingDiscoverySupport = null;
+  private ConfigNodePropertyString orgApacheSlingDiscoverySupport;
 
   @JsonProperty("org.apache.sling.distribution.api")
-  private ConfigNodePropertyString orgApacheSlingDistributionApi = null;
+  private ConfigNodePropertyString orgApacheSlingDistributionApi;
 
   @JsonProperty("org.apache.sling.distribution.core")
-  private ConfigNodePropertyString orgApacheSlingDistributionCore = null;
+  private ConfigNodePropertyString orgApacheSlingDistributionCore;
 
   @JsonProperty("org.apache.sling.extensions.webconsolesecurityprovider")
-  private ConfigNodePropertyString orgApacheSlingExtensionsWebconsolesecurityprovider = null;
+  private ConfigNodePropertyString orgApacheSlingExtensionsWebconsolesecurityprovider;
 
   @JsonProperty("org.apache.sling.hc.webconsole")
-  private ConfigNodePropertyString orgApacheSlingHcWebconsole = null;
+  private ConfigNodePropertyString orgApacheSlingHcWebconsole;
 
   @JsonProperty("org.apache.sling.installer.console")
-  private ConfigNodePropertyString orgApacheSlingInstallerConsole = null;
+  private ConfigNodePropertyString orgApacheSlingInstallerConsole;
 
   @JsonProperty("org.apache.sling.installer.provider.file")
-  private ConfigNodePropertyString orgApacheSlingInstallerProviderFile = null;
+  private ConfigNodePropertyString orgApacheSlingInstallerProviderFile;
 
   @JsonProperty("org.apache.sling.installer.provider.jcr")
-  private ConfigNodePropertyString orgApacheSlingInstallerProviderJcr = null;
+  private ConfigNodePropertyString orgApacheSlingInstallerProviderJcr;
 
   @JsonProperty("org.apache.sling.jcr.davex")
-  private ConfigNodePropertyString orgApacheSlingJcrDavex = null;
+  private ConfigNodePropertyString orgApacheSlingJcrDavex;
 
   @JsonProperty("org.apache.sling.jcr.resourcesecurity")
-  private ConfigNodePropertyString orgApacheSlingJcrResourcesecurity = null;
+  private ConfigNodePropertyString orgApacheSlingJcrResourcesecurity;
 
   @JsonProperty("org.apache.sling.jmx.provider")
-  private ConfigNodePropertyString orgApacheSlingJmxProvider = null;
+  private ConfigNodePropertyString orgApacheSlingJmxProvider;
 
   @JsonProperty("org.apache.sling.launchpad.installer")
-  private ConfigNodePropertyString orgApacheSlingLaunchpadInstaller = null;
+  private ConfigNodePropertyString orgApacheSlingLaunchpadInstaller;
 
   @JsonProperty("org.apache.sling.models.impl")
-  private ConfigNodePropertyString orgApacheSlingModelsImpl = null;
+  private ConfigNodePropertyString orgApacheSlingModelsImpl;
 
   @JsonProperty("org.apache.sling.repoinit.parser")
-  private ConfigNodePropertyString orgApacheSlingRepoinitParser = null;
+  private ConfigNodePropertyString orgApacheSlingRepoinitParser;
 
   @JsonProperty("org.apache.sling.resource.inventory")
-  private ConfigNodePropertyString orgApacheSlingResourceInventory = null;
+  private ConfigNodePropertyString orgApacheSlingResourceInventory;
 
   @JsonProperty("org.apache.sling.resourceresolver")
-  private ConfigNodePropertyString orgApacheSlingResourceresolver = null;
+  private ConfigNodePropertyString orgApacheSlingResourceresolver;
 
   @JsonProperty("org.apache.sling.scripting.javascript")
-  private ConfigNodePropertyString orgApacheSlingScriptingJavascript = null;
+  private ConfigNodePropertyString orgApacheSlingScriptingJavascript;
 
   @JsonProperty("org.apache.sling.scripting.jst")
-  private ConfigNodePropertyString orgApacheSlingScriptingJst = null;
+  private ConfigNodePropertyString orgApacheSlingScriptingJst;
 
   @JsonProperty("org.apache.sling.scripting.sightly.js.provider")
-  private ConfigNodePropertyString orgApacheSlingScriptingSightlyJsProvider = null;
+  private ConfigNodePropertyString orgApacheSlingScriptingSightlyJsProvider;
 
   @JsonProperty("org.apache.sling.scripting.sightly.models.provider")
-  private ConfigNodePropertyString orgApacheSlingScriptingSightlyModelsProvider = null;
+  private ConfigNodePropertyString orgApacheSlingScriptingSightlyModelsProvider;
 
   @JsonProperty("org.apache.sling.security")
-  private ConfigNodePropertyString orgApacheSlingSecurity = null;
+  private ConfigNodePropertyString orgApacheSlingSecurity;
 
   @JsonProperty("org.apache.sling.servlets.compat")
-  private ConfigNodePropertyString orgApacheSlingServletsCompat = null;
+  private ConfigNodePropertyString orgApacheSlingServletsCompat;
 
   @JsonProperty("org.apache.sling.servlets.get")
-  private ConfigNodePropertyString orgApacheSlingServletsGet = null;
+  private ConfigNodePropertyString orgApacheSlingServletsGet;
 
   @JsonProperty("org.apache.sling.startupfilter.disabler")
-  private ConfigNodePropertyString orgApacheSlingStartupfilterDisabler = null;
+  private ConfigNodePropertyString orgApacheSlingStartupfilterDisabler;
 
   @JsonProperty("org.apache.sling.tracer")
-  private ConfigNodePropertyString orgApacheSlingTracer = null;
+  private ConfigNodePropertyString orgApacheSlingTracer;
 
   @JsonProperty("we.retail.client.app.core")
-  private ConfigNodePropertyString weRetailClientAppCore = null;
+  private ConfigNodePropertyString weRetailClientAppCore;
 
   public ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties comAdobeCqCdnCdnRewriter(ConfigNodePropertyString comAdobeCqCdnCdnRewriter) {
     this.comAdobeCqCdnCdnRewriter = comAdobeCqCdnCdnRewriter;
@@ -3290,7 +3291,7 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -3630,11 +3631,8 @@ public class ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

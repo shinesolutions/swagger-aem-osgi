@@ -1,0 +1,15 @@
+{
+  "namespace": "model",
+  "type": "record",
+  "doc": "",
+  "name": "ComAdobeCqScreensImplScreensChannelPostProcessorProperties",
+  "fields": [
+    {
+      "name": "screens.channels.properties.to.remove",
+      "type": ["null", "model.ConfigNodePropertyArray"],
+      "doc": "",
+      "default": null
+    }
+  ]
+
+}

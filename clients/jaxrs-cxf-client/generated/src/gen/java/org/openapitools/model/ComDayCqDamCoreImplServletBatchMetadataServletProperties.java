@@ -4,25 +4,23 @@ import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyInteger;
 
 import io.swagger.annotations.ApiModelProperty;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlType;
-import javax.xml.bind.annotation.XmlEnum;
-import javax.xml.bind.annotation.XmlEnumValue;
+import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
 
 public class ComDayCqDamCoreImplServletBatchMetadataServletProperties  {
   
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyArray cqDamBatchMetadataAssetDefault = null;
+
+  private ConfigNodePropertyArray cqDamBatchMetadataAssetDefault;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyArray cqDamBatchMetadataCollectionDefault = null;
+
+  private ConfigNodePropertyArray cqDamBatchMetadataCollectionDefault;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyInteger cqDamBatchMetadataMaxresources = null;
+
+  private ConfigNodePropertyInteger cqDamBatchMetadataMaxresources;
  /**
    * Get cqDamBatchMetadataAssetDefault
    * @return cqDamBatchMetadataAssetDefault
@@ -77,6 +75,24 @@ public class ComDayCqDamCoreImplServletBatchMetadataServletProperties  {
     return this;
   }
 
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    ComDayCqDamCoreImplServletBatchMetadataServletProperties comDayCqDamCoreImplServletBatchMetadataServletProperties = (ComDayCqDamCoreImplServletBatchMetadataServletProperties) o;
+    return Objects.equals(this.cqDamBatchMetadataAssetDefault, comDayCqDamCoreImplServletBatchMetadataServletProperties.cqDamBatchMetadataAssetDefault) &&
+        Objects.equals(this.cqDamBatchMetadataCollectionDefault, comDayCqDamCoreImplServletBatchMetadataServletProperties.cqDamBatchMetadataCollectionDefault) &&
+        Objects.equals(this.cqDamBatchMetadataMaxresources, comDayCqDamCoreImplServletBatchMetadataServletProperties.cqDamBatchMetadataMaxresources);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(cqDamBatchMetadataAssetDefault, cqDamBatchMetadataCollectionDefault, cqDamBatchMetadataMaxresources);
+  }
 
   @Override
   public String toString() {
@@ -94,11 +110,8 @@ public class ComDayCqDamCoreImplServletBatchMetadataServletProperties  {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private static String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

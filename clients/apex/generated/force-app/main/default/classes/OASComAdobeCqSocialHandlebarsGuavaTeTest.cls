@@ -72,10 +72,10 @@ private class OASComAdobeCqSocialHandlebarsGuavaTeTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeCqSocialHandlebarsGuavaTe comAdobeCqSocialHandlebarsGuavaTemplateCacheImplProperties = new OASComAdobeCqSocialHandlebarsGuavaTe();
-        Map<String, String> propertyMappings = comAdobeCqSocialHandlebarsGuavaTemplateCacheImplProperties.getPropertyMappings();
-        System.assertEquals('parameterGuavaCacheEnabled', propertyMappings.get('parameter.guava.cache.enabled'));
-        System.assertEquals('parameterGuavaCacheParams', propertyMappings.get('parameter.guava.cache.params'));
-        System.assertEquals('parameterGuavaCacheReload', propertyMappings.get('parameter.guava.cache.reload'));
-        System.assertEquals('serviceRanking', propertyMappings.get('service.ranking'));
+        Map<String, String> x-property-mappings = comAdobeCqSocialHandlebarsGuavaTemplateCacheImplProperties.getx-property-mappings();
+        System.assertEquals('parameterGuavaCacheEnabled', x-property-mappings.get('parameter.guava.cache.enabled'));
+        System.assertEquals('parameterGuavaCacheParams', x-property-mappings.get('parameter.guava.cache.params'));
+        System.assertEquals('parameterGuavaCacheReload', x-property-mappings.get('parameter.guava.cache.reload'));
+        System.assertEquals('serviceRanking', x-property-mappings.get('service.ranking'));
     }
 }

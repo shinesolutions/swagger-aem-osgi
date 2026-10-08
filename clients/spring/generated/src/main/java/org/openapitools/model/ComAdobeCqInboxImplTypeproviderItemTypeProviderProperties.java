@@ -1,37 +1,48 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComAdobeCqInboxImplTypeproviderItemTypeProviderProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComAdobeCqInboxImplTypeproviderItemTypeProviderProperties   {
-  @JsonProperty("inbox.impl.typeprovider.registrypaths")
-  private ConfigNodePropertyArray inboxImplTypeproviderRegistrypaths = null;
+@JsonTypeName("comAdobeCqInboxImplTypeproviderItemTypeProviderProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComAdobeCqInboxImplTypeproviderItemTypeProviderProperties {
 
-  @JsonProperty("inbox.impl.typeprovider.legacypaths")
-  private ConfigNodePropertyArray inboxImplTypeproviderLegacypaths = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray inboxImplTypeproviderRegistrypaths;
 
-  @JsonProperty("inbox.impl.typeprovider.defaulturl.failureitem")
-  private ConfigNodePropertyString inboxImplTypeproviderDefaulturlFailureitem = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray inboxImplTypeproviderLegacypaths;
 
-  @JsonProperty("inbox.impl.typeprovider.defaulturl.workitem")
-  private ConfigNodePropertyString inboxImplTypeproviderDefaulturlWorkitem = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString inboxImplTypeproviderDefaulturlFailureitem;
 
-  @JsonProperty("inbox.impl.typeprovider.defaulturl.task")
-  private ConfigNodePropertyString inboxImplTypeproviderDefaulturlTask = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString inboxImplTypeproviderDefaulturlWorkitem;
 
-  public ComAdobeCqInboxImplTypeproviderItemTypeProviderProperties inboxImplTypeproviderRegistrypaths(ConfigNodePropertyArray inboxImplTypeproviderRegistrypaths) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString inboxImplTypeproviderDefaulturlTask;
+
+  public ComAdobeCqInboxImplTypeproviderItemTypeProviderProperties inboxImplTypeproviderRegistrypaths(@Nullable ConfigNodePropertyArray inboxImplTypeproviderRegistrypaths) {
     this.inboxImplTypeproviderRegistrypaths = inboxImplTypeproviderRegistrypaths;
     return this;
   }
@@ -39,20 +50,20 @@ public class ComAdobeCqInboxImplTypeproviderItemTypeProviderProperties   {
   /**
    * Get inboxImplTypeproviderRegistrypaths
    * @return inboxImplTypeproviderRegistrypaths
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getInboxImplTypeproviderRegistrypaths() {
+   */
+  @Valid 
+  @Schema(name = "inbox.impl.typeprovider.registrypaths", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("inbox.impl.typeprovider.registrypaths")
+  public @Nullable ConfigNodePropertyArray getInboxImplTypeproviderRegistrypaths() {
     return inboxImplTypeproviderRegistrypaths;
   }
 
-  public void setInboxImplTypeproviderRegistrypaths(ConfigNodePropertyArray inboxImplTypeproviderRegistrypaths) {
+  @JsonProperty("inbox.impl.typeprovider.registrypaths")
+  public void setInboxImplTypeproviderRegistrypaths(@Nullable ConfigNodePropertyArray inboxImplTypeproviderRegistrypaths) {
     this.inboxImplTypeproviderRegistrypaths = inboxImplTypeproviderRegistrypaths;
   }
 
-  public ComAdobeCqInboxImplTypeproviderItemTypeProviderProperties inboxImplTypeproviderLegacypaths(ConfigNodePropertyArray inboxImplTypeproviderLegacypaths) {
+  public ComAdobeCqInboxImplTypeproviderItemTypeProviderProperties inboxImplTypeproviderLegacypaths(@Nullable ConfigNodePropertyArray inboxImplTypeproviderLegacypaths) {
     this.inboxImplTypeproviderLegacypaths = inboxImplTypeproviderLegacypaths;
     return this;
   }
@@ -60,20 +71,20 @@ public class ComAdobeCqInboxImplTypeproviderItemTypeProviderProperties   {
   /**
    * Get inboxImplTypeproviderLegacypaths
    * @return inboxImplTypeproviderLegacypaths
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getInboxImplTypeproviderLegacypaths() {
+   */
+  @Valid 
+  @Schema(name = "inbox.impl.typeprovider.legacypaths", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("inbox.impl.typeprovider.legacypaths")
+  public @Nullable ConfigNodePropertyArray getInboxImplTypeproviderLegacypaths() {
     return inboxImplTypeproviderLegacypaths;
   }
 
-  public void setInboxImplTypeproviderLegacypaths(ConfigNodePropertyArray inboxImplTypeproviderLegacypaths) {
+  @JsonProperty("inbox.impl.typeprovider.legacypaths")
+  public void setInboxImplTypeproviderLegacypaths(@Nullable ConfigNodePropertyArray inboxImplTypeproviderLegacypaths) {
     this.inboxImplTypeproviderLegacypaths = inboxImplTypeproviderLegacypaths;
   }
 
-  public ComAdobeCqInboxImplTypeproviderItemTypeProviderProperties inboxImplTypeproviderDefaulturlFailureitem(ConfigNodePropertyString inboxImplTypeproviderDefaulturlFailureitem) {
+  public ComAdobeCqInboxImplTypeproviderItemTypeProviderProperties inboxImplTypeproviderDefaulturlFailureitem(@Nullable ConfigNodePropertyString inboxImplTypeproviderDefaulturlFailureitem) {
     this.inboxImplTypeproviderDefaulturlFailureitem = inboxImplTypeproviderDefaulturlFailureitem;
     return this;
   }
@@ -81,20 +92,20 @@ public class ComAdobeCqInboxImplTypeproviderItemTypeProviderProperties   {
   /**
    * Get inboxImplTypeproviderDefaulturlFailureitem
    * @return inboxImplTypeproviderDefaulturlFailureitem
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getInboxImplTypeproviderDefaulturlFailureitem() {
+   */
+  @Valid 
+  @Schema(name = "inbox.impl.typeprovider.defaulturl.failureitem", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("inbox.impl.typeprovider.defaulturl.failureitem")
+  public @Nullable ConfigNodePropertyString getInboxImplTypeproviderDefaulturlFailureitem() {
     return inboxImplTypeproviderDefaulturlFailureitem;
   }
 
-  public void setInboxImplTypeproviderDefaulturlFailureitem(ConfigNodePropertyString inboxImplTypeproviderDefaulturlFailureitem) {
+  @JsonProperty("inbox.impl.typeprovider.defaulturl.failureitem")
+  public void setInboxImplTypeproviderDefaulturlFailureitem(@Nullable ConfigNodePropertyString inboxImplTypeproviderDefaulturlFailureitem) {
     this.inboxImplTypeproviderDefaulturlFailureitem = inboxImplTypeproviderDefaulturlFailureitem;
   }
 
-  public ComAdobeCqInboxImplTypeproviderItemTypeProviderProperties inboxImplTypeproviderDefaulturlWorkitem(ConfigNodePropertyString inboxImplTypeproviderDefaulturlWorkitem) {
+  public ComAdobeCqInboxImplTypeproviderItemTypeProviderProperties inboxImplTypeproviderDefaulturlWorkitem(@Nullable ConfigNodePropertyString inboxImplTypeproviderDefaulturlWorkitem) {
     this.inboxImplTypeproviderDefaulturlWorkitem = inboxImplTypeproviderDefaulturlWorkitem;
     return this;
   }
@@ -102,20 +113,20 @@ public class ComAdobeCqInboxImplTypeproviderItemTypeProviderProperties   {
   /**
    * Get inboxImplTypeproviderDefaulturlWorkitem
    * @return inboxImplTypeproviderDefaulturlWorkitem
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getInboxImplTypeproviderDefaulturlWorkitem() {
+   */
+  @Valid 
+  @Schema(name = "inbox.impl.typeprovider.defaulturl.workitem", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("inbox.impl.typeprovider.defaulturl.workitem")
+  public @Nullable ConfigNodePropertyString getInboxImplTypeproviderDefaulturlWorkitem() {
     return inboxImplTypeproviderDefaulturlWorkitem;
   }
 
-  public void setInboxImplTypeproviderDefaulturlWorkitem(ConfigNodePropertyString inboxImplTypeproviderDefaulturlWorkitem) {
+  @JsonProperty("inbox.impl.typeprovider.defaulturl.workitem")
+  public void setInboxImplTypeproviderDefaulturlWorkitem(@Nullable ConfigNodePropertyString inboxImplTypeproviderDefaulturlWorkitem) {
     this.inboxImplTypeproviderDefaulturlWorkitem = inboxImplTypeproviderDefaulturlWorkitem;
   }
 
-  public ComAdobeCqInboxImplTypeproviderItemTypeProviderProperties inboxImplTypeproviderDefaulturlTask(ConfigNodePropertyString inboxImplTypeproviderDefaulturlTask) {
+  public ComAdobeCqInboxImplTypeproviderItemTypeProviderProperties inboxImplTypeproviderDefaulturlTask(@Nullable ConfigNodePropertyString inboxImplTypeproviderDefaulturlTask) {
     this.inboxImplTypeproviderDefaulturlTask = inboxImplTypeproviderDefaulturlTask;
     return this;
   }
@@ -123,22 +134,21 @@ public class ComAdobeCqInboxImplTypeproviderItemTypeProviderProperties   {
   /**
    * Get inboxImplTypeproviderDefaulturlTask
    * @return inboxImplTypeproviderDefaulturlTask
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getInboxImplTypeproviderDefaulturlTask() {
+   */
+  @Valid 
+  @Schema(name = "inbox.impl.typeprovider.defaulturl.task", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("inbox.impl.typeprovider.defaulturl.task")
+  public @Nullable ConfigNodePropertyString getInboxImplTypeproviderDefaulturlTask() {
     return inboxImplTypeproviderDefaulturlTask;
   }
 
-  public void setInboxImplTypeproviderDefaulturlTask(ConfigNodePropertyString inboxImplTypeproviderDefaulturlTask) {
+  @JsonProperty("inbox.impl.typeprovider.defaulturl.task")
+  public void setInboxImplTypeproviderDefaulturlTask(@Nullable ConfigNodePropertyString inboxImplTypeproviderDefaulturlTask) {
     this.inboxImplTypeproviderDefaulturlTask = inboxImplTypeproviderDefaulturlTask;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -162,7 +172,6 @@ public class ComAdobeCqInboxImplTypeproviderItemTypeProviderProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComAdobeCqInboxImplTypeproviderItemTypeProviderProperties {\n");
-    
     sb.append("    inboxImplTypeproviderRegistrypaths: ").append(toIndentedString(inboxImplTypeproviderRegistrypaths)).append("\n");
     sb.append("    inboxImplTypeproviderLegacypaths: ").append(toIndentedString(inboxImplTypeproviderLegacypaths)).append("\n");
     sb.append("    inboxImplTypeproviderDefaulturlFailureitem: ").append(toIndentedString(inboxImplTypeproviderDefaulturlFailureitem)).append("\n");
@@ -176,11 +185,8 @@ public class ComAdobeCqInboxImplTypeproviderItemTypeProviderProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

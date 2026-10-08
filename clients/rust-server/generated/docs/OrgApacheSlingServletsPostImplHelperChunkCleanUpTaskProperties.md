@@ -1,0 +1,12 @@
+# OrgApacheSlingServletsPostImplHelperChunkCleanUpTaskProperties
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**scheduler_expression** | [***models::ConfigNodePropertyString**](configNodePropertyString.md) |  | [optional] [default to None]
+**scheduler_concurrent** | [***models::ConfigNodePropertyBoolean**](configNodePropertyBoolean.md) |  | [optional] [default to None]
+**chunk_cleanup_age** | [***models::ConfigNodePropertyInteger**](configNodePropertyInteger.md) |  | [optional] [default to None]
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+

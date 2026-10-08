@@ -7,16 +7,16 @@ import org.openapitools.model.OrgApacheAriesJmxFrameworkStateConfigProperties;
 
 @Canonical
 class OrgApacheAriesJmxFrameworkStateConfigInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheAriesJmxFrameworkStateConfigProperties properties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheAriesJmxFrameworkStateConfigProperties properties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

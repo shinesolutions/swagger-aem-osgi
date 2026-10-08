@@ -2,10 +2,10 @@
 # OrgApacheSlingDistributionPackagingImplImporterLocalDistributioProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**name** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**packageBuilderPeriodtarget** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **name** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **packageBuilderTarget** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
 
 
 

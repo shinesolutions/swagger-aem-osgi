@@ -8,115 +8,143 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
 
 import io.swagger.annotations.ApiModelProperty;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlType;
-import javax.xml.bind.annotation.XmlEnum;
-import javax.xml.bind.annotation.XmlEnumValue;
+import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
 
 public class ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties  {
   
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyInteger serviceRanking = null;
+
+  private ConfigNodePropertyInteger serviceRanking;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyInteger globalSize = null;
+
+  private ConfigNodePropertyInteger globalSize;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyInteger maxDiskUsage = null;
+
+  private ConfigNodePropertyInteger maxDiskUsage;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyBoolean persistenceEnabled = null;
+
+  private ConfigNodePropertyBoolean persistenceEnabled;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyInteger threadPoolMaxSize = null;
+
+  private ConfigNodePropertyInteger threadPoolMaxSize;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyInteger scheduledThreadPoolMaxSize = null;
+
+  private ConfigNodePropertyInteger scheduledThreadPoolMaxSize;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyInteger gracefulShutdownTimeout = null;
+
+  private ConfigNodePropertyInteger gracefulShutdownTimeout;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyArray queues = null;
+
+  private ConfigNodePropertyArray queues;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyArray topics = null;
+
+  private ConfigNodePropertyArray topics;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyInteger addressesMaxDeliveryAttempts = null;
+
+  private ConfigNodePropertyInteger addressesMaxDeliveryAttempts;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyInteger addressesExpiryDelay = null;
+
+  private ConfigNodePropertyInteger addressesExpiryDelay;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyDropDown addressesAddressFullMessagePolicy = null;
+
+  private ConfigNodePropertyDropDown addressesAddressFullMessagePolicy;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyInteger addressesMaxSizeBytes = null;
+
+  private ConfigNodePropertyInteger addressesMaxSizeBytes;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyInteger addressesPageSizeBytes = null;
+
+  private ConfigNodePropertyInteger addressesPageSizeBytes;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyInteger addressesPageCacheMaxSize = null;
+
+  private ConfigNodePropertyInteger addressesPageCacheMaxSize;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString clusterUser = null;
+
+  private ConfigNodePropertyString clusterUser;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString clusterPassword = null;
+
+  private ConfigNodePropertyString clusterPassword;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyInteger clusterCallTimeout = null;
+
+  private ConfigNodePropertyInteger clusterCallTimeout;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyInteger clusterCallFailoverTimeout = null;
+
+  private ConfigNodePropertyInteger clusterCallFailoverTimeout;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyInteger clusterClientFailureCheckPeriod = null;
+
+  private ConfigNodePropertyInteger clusterClientFailureCheckPeriod;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyInteger clusterNotificationAttempts = null;
+
+  private ConfigNodePropertyInteger clusterNotificationAttempts;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyInteger clusterNotificationInterval = null;
+
+  private ConfigNodePropertyInteger clusterNotificationInterval;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyInteger idCacheSize = null;
+
+  private ConfigNodePropertyInteger idCacheSize;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyInteger clusterConfirmationWindowSize = null;
+
+  private ConfigNodePropertyInteger clusterConfirmationWindowSize;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyInteger clusterConnectionTtl = null;
+
+  private ConfigNodePropertyInteger clusterConnectionTtl;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyBoolean clusterDuplicateDetection = null;
+
+  private ConfigNodePropertyBoolean clusterDuplicateDetection;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyInteger clusterInitialConnectAttempts = null;
+
+  private ConfigNodePropertyInteger clusterInitialConnectAttempts;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyInteger clusterMaxRetryInterval = null;
+
+  private ConfigNodePropertyInteger clusterMaxRetryInterval;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyInteger clusterMinLargeMessageSize = null;
+
+  private ConfigNodePropertyInteger clusterMinLargeMessageSize;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyInteger clusterProducerWindowSize = null;
+
+  private ConfigNodePropertyInteger clusterProducerWindowSize;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyInteger clusterReconnectAttempts = null;
+
+  private ConfigNodePropertyInteger clusterReconnectAttempts;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyInteger clusterRetryInterval = null;
+
+  private ConfigNodePropertyInteger clusterRetryInterval;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyFloat clusterRetryIntervalMultiplier = null;
+
+  private ConfigNodePropertyFloat clusterRetryIntervalMultiplier;
  /**
    * Get serviceRanking
    * @return serviceRanking
@@ -711,6 +739,54 @@ public class ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties  {
     return this;
   }
 
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties = (ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties) o;
+    return Objects.equals(this.serviceRanking, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.serviceRanking) &&
+        Objects.equals(this.globalSize, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.globalSize) &&
+        Objects.equals(this.maxDiskUsage, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.maxDiskUsage) &&
+        Objects.equals(this.persistenceEnabled, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.persistenceEnabled) &&
+        Objects.equals(this.threadPoolMaxSize, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.threadPoolMaxSize) &&
+        Objects.equals(this.scheduledThreadPoolMaxSize, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.scheduledThreadPoolMaxSize) &&
+        Objects.equals(this.gracefulShutdownTimeout, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.gracefulShutdownTimeout) &&
+        Objects.equals(this.queues, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.queues) &&
+        Objects.equals(this.topics, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.topics) &&
+        Objects.equals(this.addressesMaxDeliveryAttempts, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.addressesMaxDeliveryAttempts) &&
+        Objects.equals(this.addressesExpiryDelay, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.addressesExpiryDelay) &&
+        Objects.equals(this.addressesAddressFullMessagePolicy, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.addressesAddressFullMessagePolicy) &&
+        Objects.equals(this.addressesMaxSizeBytes, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.addressesMaxSizeBytes) &&
+        Objects.equals(this.addressesPageSizeBytes, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.addressesPageSizeBytes) &&
+        Objects.equals(this.addressesPageCacheMaxSize, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.addressesPageCacheMaxSize) &&
+        Objects.equals(this.clusterUser, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.clusterUser) &&
+        Objects.equals(this.clusterPassword, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.clusterPassword) &&
+        Objects.equals(this.clusterCallTimeout, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.clusterCallTimeout) &&
+        Objects.equals(this.clusterCallFailoverTimeout, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.clusterCallFailoverTimeout) &&
+        Objects.equals(this.clusterClientFailureCheckPeriod, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.clusterClientFailureCheckPeriod) &&
+        Objects.equals(this.clusterNotificationAttempts, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.clusterNotificationAttempts) &&
+        Objects.equals(this.clusterNotificationInterval, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.clusterNotificationInterval) &&
+        Objects.equals(this.idCacheSize, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.idCacheSize) &&
+        Objects.equals(this.clusterConfirmationWindowSize, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.clusterConfirmationWindowSize) &&
+        Objects.equals(this.clusterConnectionTtl, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.clusterConnectionTtl) &&
+        Objects.equals(this.clusterDuplicateDetection, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.clusterDuplicateDetection) &&
+        Objects.equals(this.clusterInitialConnectAttempts, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.clusterInitialConnectAttempts) &&
+        Objects.equals(this.clusterMaxRetryInterval, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.clusterMaxRetryInterval) &&
+        Objects.equals(this.clusterMinLargeMessageSize, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.clusterMinLargeMessageSize) &&
+        Objects.equals(this.clusterProducerWindowSize, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.clusterProducerWindowSize) &&
+        Objects.equals(this.clusterReconnectAttempts, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.clusterReconnectAttempts) &&
+        Objects.equals(this.clusterRetryInterval, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.clusterRetryInterval) &&
+        Objects.equals(this.clusterRetryIntervalMultiplier, comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties.clusterRetryIntervalMultiplier);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(serviceRanking, globalSize, maxDiskUsage, persistenceEnabled, threadPoolMaxSize, scheduledThreadPoolMaxSize, gracefulShutdownTimeout, queues, topics, addressesMaxDeliveryAttempts, addressesExpiryDelay, addressesAddressFullMessagePolicy, addressesMaxSizeBytes, addressesPageSizeBytes, addressesPageCacheMaxSize, clusterUser, clusterPassword, clusterCallTimeout, clusterCallFailoverTimeout, clusterClientFailureCheckPeriod, clusterNotificationAttempts, clusterNotificationInterval, idCacheSize, clusterConfirmationWindowSize, clusterConnectionTtl, clusterDuplicateDetection, clusterInitialConnectAttempts, clusterMaxRetryInterval, clusterMinLargeMessageSize, clusterProducerWindowSize, clusterReconnectAttempts, clusterRetryInterval, clusterRetryIntervalMultiplier);
+  }
 
   @Override
   public String toString() {
@@ -758,11 +834,8 @@ public class ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties  {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private static String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

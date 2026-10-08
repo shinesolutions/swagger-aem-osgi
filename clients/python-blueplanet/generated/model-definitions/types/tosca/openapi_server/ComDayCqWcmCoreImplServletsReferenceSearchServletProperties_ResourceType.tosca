@@ -1,0 +1,41 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqWcmCoreImplServletsReferenceSearchServletProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqWcmCoreImplServletsReferenceSearchServletProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+}
+resourceTypes {
+
+  ComDayCqWcmCoreImplServletsReferenceSearchServletProperties {
+    title = ComDayCqWcmCoreImplServletsReferenceSearchServletProperties
+    description = ComDayCqWcmCoreImplServletsReferenceSearchServletProperties
+    derivedFrom = Root
+    properties {
+        referencesearchservlet_max_references_per_page {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        referencesearchservlet_max_pages {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqWcmCoreImplServletsReferenceSearchServletProperties {
+    title = ComDayCqWcmCoreImplServletsReferenceSearchServletProperties
+    description = ComDayCqWcmCoreImplServletsReferenceSearchServletProperties
+    implements = openapi_server.resourceTypes.ComDayCqWcmCoreImplServletsReferenceSearchServletProperties
+
+  }
+}

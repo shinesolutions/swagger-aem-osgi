@@ -1,9 +1,10 @@
 # ComDayCqSecurityAclSetupProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**cq_aclsetup_rules** | [***::models::ConfigNodePropertyArray**](configNodePropertyArray.md) |  | [optional] 
+**cq_aclsetup_rules** | Option<[**models::ConfigNodePropertyArray**](ConfigNodePropertyArray.md)> |  | [optional]
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

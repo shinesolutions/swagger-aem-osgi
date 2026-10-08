@@ -1,3 +1,13 @@
+/*
+ * Adobe Experience Manager OSGI config (AEM) API
+ *
+ * Swagger AEM OSGI is an OpenAPI specification for Adobe Experience Manager (AEM) OSGI Configurations API
+ *
+ * OpenAPI document version: 1.0.0-pre.0
+ * Maintained by: opensource@shinesolutions.com
+ *
+ * AUTO-GENERATED FILE, DO NOT MODIFY!
+ */
 package org.openapitools.model;
 
 import java.util.Objects;
@@ -14,22 +24,22 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2019-08-05T00:56:20.785Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2026-10-07T12:53:42.280804918Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingCommonsLogLogManagerProperties   {
   
-  private ConfigNodePropertyDropDown orgApacheSlingCommonsLogLevel = null;
-  private ConfigNodePropertyString orgApacheSlingCommonsLogFile = null;
-  private ConfigNodePropertyInteger orgApacheSlingCommonsLogFileNumber = null;
-  private ConfigNodePropertyString orgApacheSlingCommonsLogFileSize = null;
-  private ConfigNodePropertyString orgApacheSlingCommonsLogPattern = null;
-  private ConfigNodePropertyString orgApacheSlingCommonsLogConfigurationFile = null;
-  private ConfigNodePropertyBoolean orgApacheSlingCommonsLogPackagingDataEnabled = null;
-  private ConfigNodePropertyInteger orgApacheSlingCommonsLogMaxCallerDataDepth = null;
-  private ConfigNodePropertyInteger orgApacheSlingCommonsLogMaxOldFileCountInDump = null;
-  private ConfigNodePropertyInteger orgApacheSlingCommonsLogNumOfLines = null;
+  private ConfigNodePropertyDropDown orgApacheSlingCommonsLogLevel;
+  private ConfigNodePropertyString orgApacheSlingCommonsLogFile;
+  private ConfigNodePropertyInteger orgApacheSlingCommonsLogFileNumber;
+  private ConfigNodePropertyString orgApacheSlingCommonsLogFileSize;
+  private ConfigNodePropertyString orgApacheSlingCommonsLogPattern;
+  private ConfigNodePropertyString orgApacheSlingCommonsLogConfigurationFile;
+  private ConfigNodePropertyBoolean orgApacheSlingCommonsLogPackagingDataEnabled;
+  private ConfigNodePropertyInteger orgApacheSlingCommonsLogMaxCallerDataDepth;
+  private ConfigNodePropertyInteger orgApacheSlingCommonsLogMaxOldFileCountInDump;
+  private ConfigNodePropertyInteger orgApacheSlingCommonsLogNumOfLines;
 
   /**
-   **/
+   */
   public OrgApacheSlingCommonsLogLogManagerProperties orgApacheSlingCommonsLogLevel(ConfigNodePropertyDropDown orgApacheSlingCommonsLogLevel) {
     this.orgApacheSlingCommonsLogLevel = orgApacheSlingCommonsLogLevel;
     return this;
@@ -46,7 +56,7 @@ public class OrgApacheSlingCommonsLogLogManagerProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingCommonsLogLogManagerProperties orgApacheSlingCommonsLogFile(ConfigNodePropertyString orgApacheSlingCommonsLogFile) {
     this.orgApacheSlingCommonsLogFile = orgApacheSlingCommonsLogFile;
     return this;
@@ -63,7 +73,7 @@ public class OrgApacheSlingCommonsLogLogManagerProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingCommonsLogLogManagerProperties orgApacheSlingCommonsLogFileNumber(ConfigNodePropertyInteger orgApacheSlingCommonsLogFileNumber) {
     this.orgApacheSlingCommonsLogFileNumber = orgApacheSlingCommonsLogFileNumber;
     return this;
@@ -80,7 +90,7 @@ public class OrgApacheSlingCommonsLogLogManagerProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingCommonsLogLogManagerProperties orgApacheSlingCommonsLogFileSize(ConfigNodePropertyString orgApacheSlingCommonsLogFileSize) {
     this.orgApacheSlingCommonsLogFileSize = orgApacheSlingCommonsLogFileSize;
     return this;
@@ -97,7 +107,7 @@ public class OrgApacheSlingCommonsLogLogManagerProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingCommonsLogLogManagerProperties orgApacheSlingCommonsLogPattern(ConfigNodePropertyString orgApacheSlingCommonsLogPattern) {
     this.orgApacheSlingCommonsLogPattern = orgApacheSlingCommonsLogPattern;
     return this;
@@ -114,7 +124,7 @@ public class OrgApacheSlingCommonsLogLogManagerProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingCommonsLogLogManagerProperties orgApacheSlingCommonsLogConfigurationFile(ConfigNodePropertyString orgApacheSlingCommonsLogConfigurationFile) {
     this.orgApacheSlingCommonsLogConfigurationFile = orgApacheSlingCommonsLogConfigurationFile;
     return this;
@@ -131,7 +141,7 @@ public class OrgApacheSlingCommonsLogLogManagerProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingCommonsLogLogManagerProperties orgApacheSlingCommonsLogPackagingDataEnabled(ConfigNodePropertyBoolean orgApacheSlingCommonsLogPackagingDataEnabled) {
     this.orgApacheSlingCommonsLogPackagingDataEnabled = orgApacheSlingCommonsLogPackagingDataEnabled;
     return this;
@@ -148,7 +158,7 @@ public class OrgApacheSlingCommonsLogLogManagerProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingCommonsLogLogManagerProperties orgApacheSlingCommonsLogMaxCallerDataDepth(ConfigNodePropertyInteger orgApacheSlingCommonsLogMaxCallerDataDepth) {
     this.orgApacheSlingCommonsLogMaxCallerDataDepth = orgApacheSlingCommonsLogMaxCallerDataDepth;
     return this;
@@ -165,7 +175,7 @@ public class OrgApacheSlingCommonsLogLogManagerProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingCommonsLogLogManagerProperties orgApacheSlingCommonsLogMaxOldFileCountInDump(ConfigNodePropertyInteger orgApacheSlingCommonsLogMaxOldFileCountInDump) {
     this.orgApacheSlingCommonsLogMaxOldFileCountInDump = orgApacheSlingCommonsLogMaxOldFileCountInDump;
     return this;
@@ -182,7 +192,7 @@ public class OrgApacheSlingCommonsLogLogManagerProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingCommonsLogLogManagerProperties orgApacheSlingCommonsLogNumOfLines(ConfigNodePropertyInteger orgApacheSlingCommonsLogNumOfLines) {
     this.orgApacheSlingCommonsLogNumOfLines = orgApacheSlingCommonsLogNumOfLines;
     return this;
@@ -200,7 +210,7 @@ public class OrgApacheSlingCommonsLogLogManagerProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -248,11 +258,8 @@ public class OrgApacheSlingCommonsLogLogManagerProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

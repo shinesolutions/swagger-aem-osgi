@@ -8,8 +8,8 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class ComAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySProperties {
-    ConfigNodePropertyInteger ranking = null
-
-    ConfigNodePropertyBoolean enable = null
-
+    
+    ConfigNodePropertyInteger ranking
+    
+    ConfigNodePropertyBoolean enable
 }

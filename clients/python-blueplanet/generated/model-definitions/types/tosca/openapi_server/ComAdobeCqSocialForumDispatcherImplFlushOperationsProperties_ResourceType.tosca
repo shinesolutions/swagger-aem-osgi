@@ -1,0 +1,42 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqSocialForumDispatcherImplFlushOperationsProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqSocialForumDispatcherImplFlushOperationsProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+}
+resourceTypes {
+
+  ComAdobeCqSocialForumDispatcherImplFlushOperationsProperties {
+    title = ComAdobeCqSocialForumDispatcherImplFlushOperationsProperties
+    description = ComAdobeCqSocialForumDispatcherImplFlushOperationsProperties
+    derivedFrom = Root
+    properties {
+        extension_order {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        flush_forumontopic {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqSocialForumDispatcherImplFlushOperationsProperties {
+    title = ComAdobeCqSocialForumDispatcherImplFlushOperationsProperties
+    description = ComAdobeCqSocialForumDispatcherImplFlushOperationsProperties
+    implements = openapi_server.resourceTypes.ComAdobeCqSocialForumDispatcherImplFlushOperationsProperties
+
+  }
+}

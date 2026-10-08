@@ -4,28 +4,23 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.OrgApacheJackrabbitOakSegmentSegmentNodeStoreMonitorServiceProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2019-08-05T01:00:05.540Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2026-10-07T12:54:26.576036107Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheJackrabbitOakSegmentSegmentNodeStoreMonitorServiceInfo   {
   
-
-  private String pid = null;
-
-  private String title = null;
-
-  private String description = null;
-
-  private OrgApacheJackrabbitOakSegmentSegmentNodeStoreMonitorServiceProperties properties = null;
-
-  private String bundleLocation = null;
-
-  private String serviceLocation = null;
+  private String pid;
+  private String title;
+  private String description;
+  private OrgApacheJackrabbitOakSegmentSegmentNodeStoreMonitorServiceProperties properties;
+  private String bundleLocation;
+  private String serviceLocation;
 
   /**
    **/
@@ -109,12 +104,12 @@ public class OrgApacheJackrabbitOakSegmentSegmentNodeStoreMonitorServiceInfo   {
       return false;
     }
     OrgApacheJackrabbitOakSegmentSegmentNodeStoreMonitorServiceInfo orgApacheJackrabbitOakSegmentSegmentNodeStoreMonitorServiceInfo = (OrgApacheJackrabbitOakSegmentSegmentNodeStoreMonitorServiceInfo) o;
-    return Objects.equals(pid, orgApacheJackrabbitOakSegmentSegmentNodeStoreMonitorServiceInfo.pid) &&
-        Objects.equals(title, orgApacheJackrabbitOakSegmentSegmentNodeStoreMonitorServiceInfo.title) &&
-        Objects.equals(description, orgApacheJackrabbitOakSegmentSegmentNodeStoreMonitorServiceInfo.description) &&
-        Objects.equals(properties, orgApacheJackrabbitOakSegmentSegmentNodeStoreMonitorServiceInfo.properties) &&
-        Objects.equals(bundleLocation, orgApacheJackrabbitOakSegmentSegmentNodeStoreMonitorServiceInfo.bundleLocation) &&
-        Objects.equals(serviceLocation, orgApacheJackrabbitOakSegmentSegmentNodeStoreMonitorServiceInfo.serviceLocation);
+    return Objects.equals(this.pid, orgApacheJackrabbitOakSegmentSegmentNodeStoreMonitorServiceInfo.pid) &&
+        Objects.equals(this.title, orgApacheJackrabbitOakSegmentSegmentNodeStoreMonitorServiceInfo.title) &&
+        Objects.equals(this.description, orgApacheJackrabbitOakSegmentSegmentNodeStoreMonitorServiceInfo.description) &&
+        Objects.equals(this.properties, orgApacheJackrabbitOakSegmentSegmentNodeStoreMonitorServiceInfo.properties) &&
+        Objects.equals(this.bundleLocation, orgApacheJackrabbitOakSegmentSegmentNodeStoreMonitorServiceInfo.bundleLocation) &&
+        Objects.equals(this.serviceLocation, orgApacheJackrabbitOakSegmentSegmentNodeStoreMonitorServiceInfo.serviceLocation);
   }
 
   @Override
@@ -142,10 +137,7 @@ public class OrgApacheJackrabbitOakSegmentSegmentNodeStoreMonitorServiceInfo   {
    * (except the first line).
    */
   private String toIndentedString(Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

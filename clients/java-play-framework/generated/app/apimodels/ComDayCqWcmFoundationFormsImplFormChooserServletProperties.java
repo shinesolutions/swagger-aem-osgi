@@ -3,32 +3,43 @@ package apimodels;
 import apimodels.ConfigNodePropertyArray;
 import apimodels.ConfigNodePropertyBoolean;
 import apimodels.ConfigNodePropertyString;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * ComDayCqWcmFoundationFormsImplFormChooserServletProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class ComDayCqWcmFoundationFormsImplFormChooserServletProperties   {
   @JsonProperty("service.name")
-  private ConfigNodePropertyString serviceName = null;
+  @Valid
+
+  private ConfigNodePropertyString serviceName;
 
   @JsonProperty("sling.servlet.resourceTypes")
-  private ConfigNodePropertyString slingServletResourceTypes = null;
+  @Valid
+
+  private ConfigNodePropertyString slingServletResourceTypes;
 
   @JsonProperty("sling.servlet.selectors")
-  private ConfigNodePropertyString slingServletSelectors = null;
+  @Valid
+
+  private ConfigNodePropertyString slingServletSelectors;
 
   @JsonProperty("sling.servlet.methods")
-  private ConfigNodePropertyArray slingServletMethods = null;
+  @Valid
+
+  private ConfigNodePropertyArray slingServletMethods;
 
   @JsonProperty("forms.formchooserservlet.advansesearch.require")
-  private ConfigNodePropertyBoolean formsFormchooserservletAdvansesearchRequire = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean formsFormchooserservletAdvansesearchRequire;
 
   public ComDayCqWcmFoundationFormsImplFormChooserServletProperties serviceName(ConfigNodePropertyString serviceName) {
     this.serviceName = serviceName;
@@ -39,7 +50,6 @@ public class ComDayCqWcmFoundationFormsImplFormChooserServletProperties   {
    * Get serviceName
    * @return serviceName
   **/
-  @Valid
   public ConfigNodePropertyString getServiceName() {
     return serviceName;
   }
@@ -57,7 +67,6 @@ public class ComDayCqWcmFoundationFormsImplFormChooserServletProperties   {
    * Get slingServletResourceTypes
    * @return slingServletResourceTypes
   **/
-  @Valid
   public ConfigNodePropertyString getSlingServletResourceTypes() {
     return slingServletResourceTypes;
   }
@@ -75,7 +84,6 @@ public class ComDayCqWcmFoundationFormsImplFormChooserServletProperties   {
    * Get slingServletSelectors
    * @return slingServletSelectors
   **/
-  @Valid
   public ConfigNodePropertyString getSlingServletSelectors() {
     return slingServletSelectors;
   }
@@ -93,7 +101,6 @@ public class ComDayCqWcmFoundationFormsImplFormChooserServletProperties   {
    * Get slingServletMethods
    * @return slingServletMethods
   **/
-  @Valid
   public ConfigNodePropertyArray getSlingServletMethods() {
     return slingServletMethods;
   }
@@ -111,7 +118,6 @@ public class ComDayCqWcmFoundationFormsImplFormChooserServletProperties   {
    * Get formsFormchooserservletAdvansesearchRequire
    * @return formsFormchooserservletAdvansesearchRequire
   **/
-  @Valid
   public ConfigNodePropertyBoolean getFormsFormchooserservletAdvansesearchRequire() {
     return formsFormchooserservletAdvansesearchRequire;
   }
@@ -122,7 +128,7 @@ public class ComDayCqWcmFoundationFormsImplFormChooserServletProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -161,11 +167,8 @@ public class ComDayCqWcmFoundationFormsImplFormChooserServletProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -1,7 +1,9 @@
 
+
 # ComDayCqDamCoreImplJmxAssetIndexUpdateMonitorProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **jmxObjectname** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
@@ -13,6 +15,7 @@ Name | Type | Description | Notes
 **fulltextName** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
 **fulltextMaxWaitMs** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
 **fulltextMaxRate** | [**ConfigNodePropertyFloat**](ConfigNodePropertyFloat.md) |  |  [optional]
+
 
 
 

@@ -72,7 +72,7 @@ private class OASComDayCqDamCoreImplServletAssetXMTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqDamCoreImplServletAssetXM comDayCqDamCoreImplServletAssetXMPSearchServletProperties = new OASComDayCqDamCoreImplServletAssetXM();
-        Map<String, String> propertyMappings = comDayCqDamCoreImplServletAssetXMPSearchServletProperties.getPropertyMappings();
-        System.assertEquals('cqDamBatchIndesignMaxassets', propertyMappings.get('cq.dam.batch.indesign.maxassets'));
+        Map<String, String> x-property-mappings = comDayCqDamCoreImplServletAssetXMPSearchServletProperties.getx-property-mappings();
+        System.assertEquals('cqDamBatchIndesignMaxassets', x-property-mappings.get('cq.dam.batch.indesign.maxassets'));
     }
 }

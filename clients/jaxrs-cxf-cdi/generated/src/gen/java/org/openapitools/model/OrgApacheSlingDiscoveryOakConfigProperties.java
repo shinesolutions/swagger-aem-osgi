@@ -2,60 +2,61 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class OrgApacheSlingDiscoveryOakConfigProperties   {
   
-  private ConfigNodePropertyInteger connectorPingTimeout = null;
+  private ConfigNodePropertyInteger connectorPingTimeout;
 
-  private ConfigNodePropertyInteger connectorPingInterval = null;
+  private ConfigNodePropertyInteger connectorPingInterval;
 
-  private ConfigNodePropertyInteger discoveryLiteCheckInterval = null;
+  private ConfigNodePropertyInteger discoveryLiteCheckInterval;
 
-  private ConfigNodePropertyInteger clusterSyncServiceTimeout = null;
+  private ConfigNodePropertyInteger clusterSyncServiceTimeout;
 
-  private ConfigNodePropertyInteger clusterSyncServiceInterval = null;
+  private ConfigNodePropertyInteger clusterSyncServiceInterval;
 
-  private ConfigNodePropertyBoolean enableSyncToken = null;
+  private ConfigNodePropertyBoolean enableSyncToken;
 
-  private ConfigNodePropertyInteger minEventDelay = null;
+  private ConfigNodePropertyInteger minEventDelay;
 
-  private ConfigNodePropertyInteger socketConnectTimeout = null;
+  private ConfigNodePropertyInteger socketConnectTimeout;
 
-  private ConfigNodePropertyInteger soTimeout = null;
+  private ConfigNodePropertyInteger soTimeout;
 
-  private ConfigNodePropertyArray topologyConnectorUrls = null;
+  private ConfigNodePropertyArray topologyConnectorUrls;
 
-  private ConfigNodePropertyArray topologyConnectorWhitelist = null;
+  private ConfigNodePropertyArray topologyConnectorWhitelist;
 
-  private ConfigNodePropertyBoolean autoStopLocalLoopEnabled = null;
+  private ConfigNodePropertyBoolean autoStopLocalLoopEnabled;
 
-  private ConfigNodePropertyBoolean gzipConnectorRequestsEnabled = null;
+  private ConfigNodePropertyBoolean gzipConnectorRequestsEnabled;
 
-  private ConfigNodePropertyBoolean hmacEnabled = null;
+  private ConfigNodePropertyBoolean hmacEnabled;
 
-  private ConfigNodePropertyBoolean enableEncryption = null;
+  private ConfigNodePropertyBoolean enableEncryption;
 
-  private ConfigNodePropertyString sharedKey = null;
+  private ConfigNodePropertyString sharedKey;
 
-  private ConfigNodePropertyInteger hmacSharedKeyTTL = null;
+  private ConfigNodePropertyInteger hmacSharedKeyTTL;
 
-  private ConfigNodePropertyString backoffStandbyFactor = null;
+  private ConfigNodePropertyString backoffStandbyFactor;
 
-  private ConfigNodePropertyString backoffStableFactor = null;
-
+  private ConfigNodePropertyString backoffStableFactor;
 
   /**
    **/
@@ -401,7 +402,7 @@ public class OrgApacheSlingDiscoveryOakConfigProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -409,25 +410,25 @@ public class OrgApacheSlingDiscoveryOakConfigProperties   {
       return false;
     }
     OrgApacheSlingDiscoveryOakConfigProperties orgApacheSlingDiscoveryOakConfigProperties = (OrgApacheSlingDiscoveryOakConfigProperties) o;
-    return Objects.equals(connectorPingTimeout, orgApacheSlingDiscoveryOakConfigProperties.connectorPingTimeout) &&
-        Objects.equals(connectorPingInterval, orgApacheSlingDiscoveryOakConfigProperties.connectorPingInterval) &&
-        Objects.equals(discoveryLiteCheckInterval, orgApacheSlingDiscoveryOakConfigProperties.discoveryLiteCheckInterval) &&
-        Objects.equals(clusterSyncServiceTimeout, orgApacheSlingDiscoveryOakConfigProperties.clusterSyncServiceTimeout) &&
-        Objects.equals(clusterSyncServiceInterval, orgApacheSlingDiscoveryOakConfigProperties.clusterSyncServiceInterval) &&
-        Objects.equals(enableSyncToken, orgApacheSlingDiscoveryOakConfigProperties.enableSyncToken) &&
-        Objects.equals(minEventDelay, orgApacheSlingDiscoveryOakConfigProperties.minEventDelay) &&
-        Objects.equals(socketConnectTimeout, orgApacheSlingDiscoveryOakConfigProperties.socketConnectTimeout) &&
-        Objects.equals(soTimeout, orgApacheSlingDiscoveryOakConfigProperties.soTimeout) &&
-        Objects.equals(topologyConnectorUrls, orgApacheSlingDiscoveryOakConfigProperties.topologyConnectorUrls) &&
-        Objects.equals(topologyConnectorWhitelist, orgApacheSlingDiscoveryOakConfigProperties.topologyConnectorWhitelist) &&
-        Objects.equals(autoStopLocalLoopEnabled, orgApacheSlingDiscoveryOakConfigProperties.autoStopLocalLoopEnabled) &&
-        Objects.equals(gzipConnectorRequestsEnabled, orgApacheSlingDiscoveryOakConfigProperties.gzipConnectorRequestsEnabled) &&
-        Objects.equals(hmacEnabled, orgApacheSlingDiscoveryOakConfigProperties.hmacEnabled) &&
-        Objects.equals(enableEncryption, orgApacheSlingDiscoveryOakConfigProperties.enableEncryption) &&
-        Objects.equals(sharedKey, orgApacheSlingDiscoveryOakConfigProperties.sharedKey) &&
-        Objects.equals(hmacSharedKeyTTL, orgApacheSlingDiscoveryOakConfigProperties.hmacSharedKeyTTL) &&
-        Objects.equals(backoffStandbyFactor, orgApacheSlingDiscoveryOakConfigProperties.backoffStandbyFactor) &&
-        Objects.equals(backoffStableFactor, orgApacheSlingDiscoveryOakConfigProperties.backoffStableFactor);
+    return Objects.equals(this.connectorPingTimeout, orgApacheSlingDiscoveryOakConfigProperties.connectorPingTimeout) &&
+        Objects.equals(this.connectorPingInterval, orgApacheSlingDiscoveryOakConfigProperties.connectorPingInterval) &&
+        Objects.equals(this.discoveryLiteCheckInterval, orgApacheSlingDiscoveryOakConfigProperties.discoveryLiteCheckInterval) &&
+        Objects.equals(this.clusterSyncServiceTimeout, orgApacheSlingDiscoveryOakConfigProperties.clusterSyncServiceTimeout) &&
+        Objects.equals(this.clusterSyncServiceInterval, orgApacheSlingDiscoveryOakConfigProperties.clusterSyncServiceInterval) &&
+        Objects.equals(this.enableSyncToken, orgApacheSlingDiscoveryOakConfigProperties.enableSyncToken) &&
+        Objects.equals(this.minEventDelay, orgApacheSlingDiscoveryOakConfigProperties.minEventDelay) &&
+        Objects.equals(this.socketConnectTimeout, orgApacheSlingDiscoveryOakConfigProperties.socketConnectTimeout) &&
+        Objects.equals(this.soTimeout, orgApacheSlingDiscoveryOakConfigProperties.soTimeout) &&
+        Objects.equals(this.topologyConnectorUrls, orgApacheSlingDiscoveryOakConfigProperties.topologyConnectorUrls) &&
+        Objects.equals(this.topologyConnectorWhitelist, orgApacheSlingDiscoveryOakConfigProperties.topologyConnectorWhitelist) &&
+        Objects.equals(this.autoStopLocalLoopEnabled, orgApacheSlingDiscoveryOakConfigProperties.autoStopLocalLoopEnabled) &&
+        Objects.equals(this.gzipConnectorRequestsEnabled, orgApacheSlingDiscoveryOakConfigProperties.gzipConnectorRequestsEnabled) &&
+        Objects.equals(this.hmacEnabled, orgApacheSlingDiscoveryOakConfigProperties.hmacEnabled) &&
+        Objects.equals(this.enableEncryption, orgApacheSlingDiscoveryOakConfigProperties.enableEncryption) &&
+        Objects.equals(this.sharedKey, orgApacheSlingDiscoveryOakConfigProperties.sharedKey) &&
+        Objects.equals(this.hmacSharedKeyTTL, orgApacheSlingDiscoveryOakConfigProperties.hmacSharedKeyTTL) &&
+        Objects.equals(this.backoffStandbyFactor, orgApacheSlingDiscoveryOakConfigProperties.backoffStandbyFactor) &&
+        Objects.equals(this.backoffStableFactor, orgApacheSlingDiscoveryOakConfigProperties.backoffStableFactor);
   }
 
   @Override
@@ -467,11 +468,8 @@ public class OrgApacheSlingDiscoveryOakConfigProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

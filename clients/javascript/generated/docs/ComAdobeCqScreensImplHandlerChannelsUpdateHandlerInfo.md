@@ -1,6 +1,7 @@
 # NodeSwaggerAemOsgi.ComAdobeCqScreensImplHandlerChannelsUpdateHandlerInfo
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **pid** | **String** |  | [optional] 

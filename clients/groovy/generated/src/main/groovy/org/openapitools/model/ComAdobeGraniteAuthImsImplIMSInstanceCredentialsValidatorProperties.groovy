@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeGraniteAuthImsImplIMSInstanceCredentialsValidatorProperties {
-    ConfigNodePropertyString oauthProviderId = null
-
+    
+    ConfigNodePropertyString oauthProviderId
 }

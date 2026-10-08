@@ -4,22 +4,19 @@ import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyString;
 
 import io.swagger.annotations.ApiModelProperty;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlType;
-import javax.xml.bind.annotation.XmlEnum;
-import javax.xml.bind.annotation.XmlEnumValue;
+import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
 
 public class ComAdobeGraniteMaintenanceCrxImplDataStoreGarbageCollectionTaskProperties  {
   
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyBoolean graniteMaintenanceMandatory = null;
+
+  private ConfigNodePropertyBoolean graniteMaintenanceMandatory;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString jobTopics = null;
+
+  private ConfigNodePropertyString jobTopics;
  /**
    * Get graniteMaintenanceMandatory
    * @return graniteMaintenanceMandatory
@@ -56,6 +53,23 @@ public class ComAdobeGraniteMaintenanceCrxImplDataStoreGarbageCollectionTaskProp
     return this;
   }
 
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    ComAdobeGraniteMaintenanceCrxImplDataStoreGarbageCollectionTaskProperties comAdobeGraniteMaintenanceCrxImplDataStoreGarbageCollectionTaskProperties = (ComAdobeGraniteMaintenanceCrxImplDataStoreGarbageCollectionTaskProperties) o;
+    return Objects.equals(this.graniteMaintenanceMandatory, comAdobeGraniteMaintenanceCrxImplDataStoreGarbageCollectionTaskProperties.graniteMaintenanceMandatory) &&
+        Objects.equals(this.jobTopics, comAdobeGraniteMaintenanceCrxImplDataStoreGarbageCollectionTaskProperties.jobTopics);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(graniteMaintenanceMandatory, jobTopics);
+  }
 
   @Override
   public String toString() {
@@ -72,11 +86,8 @@ public class ComAdobeGraniteMaintenanceCrxImplDataStoreGarbageCollectionTaskProp
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private static String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

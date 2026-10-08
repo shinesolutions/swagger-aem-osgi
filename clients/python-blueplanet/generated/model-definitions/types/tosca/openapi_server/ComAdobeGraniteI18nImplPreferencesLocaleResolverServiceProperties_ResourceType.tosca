@@ -1,0 +1,36 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeGraniteI18nImplPreferencesLocaleResolverServiceProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeGraniteI18nImplPreferencesLocaleResolverServiceProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComAdobeGraniteI18nImplPreferencesLocaleResolverServiceProperties {
+    title = ComAdobeGraniteI18nImplPreferencesLocaleResolverServiceProperties
+    description = ComAdobeGraniteI18nImplPreferencesLocaleResolverServiceProperties
+    derivedFrom = Root
+    properties {
+        security_preferences_name {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeGraniteI18nImplPreferencesLocaleResolverServiceProperties {
+    title = ComAdobeGraniteI18nImplPreferencesLocaleResolverServiceProperties
+    description = ComAdobeGraniteI18nImplPreferencesLocaleResolverServiceProperties
+    implements = openapi_server.resourceTypes.ComAdobeGraniteI18nImplPreferencesLocaleResolverServiceProperties
+
+  }
+}

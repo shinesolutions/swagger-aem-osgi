@@ -7,16 +7,16 @@ import org.openapitools.model.ComAdobeGraniteSecurityUserUserPropertiesServicePr
 
 @Canonical
 class ComAdobeGraniteSecurityUserUserPropertiesServiceInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteSecurityUserUserPropertiesServiceProperties properties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteSecurityUserUserPropertiesServiceProperties properties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

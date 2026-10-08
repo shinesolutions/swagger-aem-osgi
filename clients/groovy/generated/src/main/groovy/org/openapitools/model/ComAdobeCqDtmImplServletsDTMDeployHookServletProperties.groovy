@@ -7,8 +7,8 @@ import org.openapitools.model.ConfigNodePropertyArray;
 
 @Canonical
 class ComAdobeCqDtmImplServletsDTMDeployHookServletProperties {
-    ConfigNodePropertyArray dtmStagingIpWhitelist = null
-
-    ConfigNodePropertyArray dtmProductionIpWhitelist = null
-
+    
+    ConfigNodePropertyArray dtmStagingIpWhitelist
+    
+    ConfigNodePropertyArray dtmProductionIpWhitelist
 }

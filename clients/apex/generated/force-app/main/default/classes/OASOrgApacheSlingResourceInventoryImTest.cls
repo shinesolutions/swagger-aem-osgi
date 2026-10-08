@@ -72,8 +72,8 @@ private class OASOrgApacheSlingResourceInventoryImTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASOrgApacheSlingResourceInventoryIm orgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoProperties = new OASOrgApacheSlingResourceInventoryIm();
-        Map<String, String> propertyMappings = orgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoProperties.getPropertyMappings();
-        System.assertEquals('felixInventoryPrinterName', propertyMappings.get('felix.inventory.printer.name'));
-        System.assertEquals('felixInventoryPrinterTitle', propertyMappings.get('felix.inventory.printer.title'));
+        Map<String, String> x-property-mappings = orgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoProperties.getx-property-mappings();
+        System.assertEquals('felixInventoryPrinterName', x-property-mappings.get('felix.inventory.printer.name'));
+        System.assertEquals('felixInventoryPrinterTitle', x-property-mappings.get('felix.inventory.printer.title'));
     }
 }

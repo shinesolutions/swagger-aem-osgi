@@ -1,43 +1,54 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoProperties   {
-  @JsonProperty("default.transport.agent-to-worker.prefix")
-  private ConfigNodePropertyString defaultTransportAgentToWorkerPrefix = null;
+@JsonTypeName("comAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoProperties {
 
-  @JsonProperty("default.transport.agent-to-master.prefix")
-  private ConfigNodePropertyString defaultTransportAgentToMasterPrefix = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString defaultTransportAgentToWorkerPrefix;
 
-  @JsonProperty("default.transport.input.package")
-  private ConfigNodePropertyString defaultTransportInputPackage = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString defaultTransportAgentToMasterPrefix;
 
-  @JsonProperty("default.transport.output.package")
-  private ConfigNodePropertyString defaultTransportOutputPackage = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString defaultTransportInputPackage;
 
-  @JsonProperty("default.transport.replication.synchronous")
-  private ConfigNodePropertyBoolean defaultTransportReplicationSynchronous = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString defaultTransportOutputPackage;
 
-  @JsonProperty("default.transport.contentpackage")
-  private ConfigNodePropertyBoolean defaultTransportContentpackage = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean defaultTransportReplicationSynchronous;
 
-  @JsonProperty("offloading.transporter.default.enabled")
-  private ConfigNodePropertyBoolean offloadingTransporterDefaultEnabled = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean defaultTransportContentpackage;
 
-  public ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoProperties defaultTransportAgentToWorkerPrefix(ConfigNodePropertyString defaultTransportAgentToWorkerPrefix) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean offloadingTransporterDefaultEnabled;
+
+  public ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoProperties defaultTransportAgentToWorkerPrefix(@Nullable ConfigNodePropertyString defaultTransportAgentToWorkerPrefix) {
     this.defaultTransportAgentToWorkerPrefix = defaultTransportAgentToWorkerPrefix;
     return this;
   }
@@ -45,20 +56,20 @@ public class ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoPro
   /**
    * Get defaultTransportAgentToWorkerPrefix
    * @return defaultTransportAgentToWorkerPrefix
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getDefaultTransportAgentToWorkerPrefix() {
+   */
+  @Valid 
+  @Schema(name = "default.transport.agent-to-worker.prefix", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("default.transport.agent-to-worker.prefix")
+  public @Nullable ConfigNodePropertyString getDefaultTransportAgentToWorkerPrefix() {
     return defaultTransportAgentToWorkerPrefix;
   }
 
-  public void setDefaultTransportAgentToWorkerPrefix(ConfigNodePropertyString defaultTransportAgentToWorkerPrefix) {
+  @JsonProperty("default.transport.agent-to-worker.prefix")
+  public void setDefaultTransportAgentToWorkerPrefix(@Nullable ConfigNodePropertyString defaultTransportAgentToWorkerPrefix) {
     this.defaultTransportAgentToWorkerPrefix = defaultTransportAgentToWorkerPrefix;
   }
 
-  public ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoProperties defaultTransportAgentToMasterPrefix(ConfigNodePropertyString defaultTransportAgentToMasterPrefix) {
+  public ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoProperties defaultTransportAgentToMasterPrefix(@Nullable ConfigNodePropertyString defaultTransportAgentToMasterPrefix) {
     this.defaultTransportAgentToMasterPrefix = defaultTransportAgentToMasterPrefix;
     return this;
   }
@@ -66,20 +77,20 @@ public class ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoPro
   /**
    * Get defaultTransportAgentToMasterPrefix
    * @return defaultTransportAgentToMasterPrefix
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getDefaultTransportAgentToMasterPrefix() {
+   */
+  @Valid 
+  @Schema(name = "default.transport.agent-to-master.prefix", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("default.transport.agent-to-master.prefix")
+  public @Nullable ConfigNodePropertyString getDefaultTransportAgentToMasterPrefix() {
     return defaultTransportAgentToMasterPrefix;
   }
 
-  public void setDefaultTransportAgentToMasterPrefix(ConfigNodePropertyString defaultTransportAgentToMasterPrefix) {
+  @JsonProperty("default.transport.agent-to-master.prefix")
+  public void setDefaultTransportAgentToMasterPrefix(@Nullable ConfigNodePropertyString defaultTransportAgentToMasterPrefix) {
     this.defaultTransportAgentToMasterPrefix = defaultTransportAgentToMasterPrefix;
   }
 
-  public ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoProperties defaultTransportInputPackage(ConfigNodePropertyString defaultTransportInputPackage) {
+  public ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoProperties defaultTransportInputPackage(@Nullable ConfigNodePropertyString defaultTransportInputPackage) {
     this.defaultTransportInputPackage = defaultTransportInputPackage;
     return this;
   }
@@ -87,20 +98,20 @@ public class ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoPro
   /**
    * Get defaultTransportInputPackage
    * @return defaultTransportInputPackage
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getDefaultTransportInputPackage() {
+   */
+  @Valid 
+  @Schema(name = "default.transport.input.package", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("default.transport.input.package")
+  public @Nullable ConfigNodePropertyString getDefaultTransportInputPackage() {
     return defaultTransportInputPackage;
   }
 
-  public void setDefaultTransportInputPackage(ConfigNodePropertyString defaultTransportInputPackage) {
+  @JsonProperty("default.transport.input.package")
+  public void setDefaultTransportInputPackage(@Nullable ConfigNodePropertyString defaultTransportInputPackage) {
     this.defaultTransportInputPackage = defaultTransportInputPackage;
   }
 
-  public ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoProperties defaultTransportOutputPackage(ConfigNodePropertyString defaultTransportOutputPackage) {
+  public ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoProperties defaultTransportOutputPackage(@Nullable ConfigNodePropertyString defaultTransportOutputPackage) {
     this.defaultTransportOutputPackage = defaultTransportOutputPackage;
     return this;
   }
@@ -108,20 +119,20 @@ public class ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoPro
   /**
    * Get defaultTransportOutputPackage
    * @return defaultTransportOutputPackage
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getDefaultTransportOutputPackage() {
+   */
+  @Valid 
+  @Schema(name = "default.transport.output.package", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("default.transport.output.package")
+  public @Nullable ConfigNodePropertyString getDefaultTransportOutputPackage() {
     return defaultTransportOutputPackage;
   }
 
-  public void setDefaultTransportOutputPackage(ConfigNodePropertyString defaultTransportOutputPackage) {
+  @JsonProperty("default.transport.output.package")
+  public void setDefaultTransportOutputPackage(@Nullable ConfigNodePropertyString defaultTransportOutputPackage) {
     this.defaultTransportOutputPackage = defaultTransportOutputPackage;
   }
 
-  public ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoProperties defaultTransportReplicationSynchronous(ConfigNodePropertyBoolean defaultTransportReplicationSynchronous) {
+  public ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoProperties defaultTransportReplicationSynchronous(@Nullable ConfigNodePropertyBoolean defaultTransportReplicationSynchronous) {
     this.defaultTransportReplicationSynchronous = defaultTransportReplicationSynchronous;
     return this;
   }
@@ -129,20 +140,20 @@ public class ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoPro
   /**
    * Get defaultTransportReplicationSynchronous
    * @return defaultTransportReplicationSynchronous
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getDefaultTransportReplicationSynchronous() {
+   */
+  @Valid 
+  @Schema(name = "default.transport.replication.synchronous", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("default.transport.replication.synchronous")
+  public @Nullable ConfigNodePropertyBoolean getDefaultTransportReplicationSynchronous() {
     return defaultTransportReplicationSynchronous;
   }
 
-  public void setDefaultTransportReplicationSynchronous(ConfigNodePropertyBoolean defaultTransportReplicationSynchronous) {
+  @JsonProperty("default.transport.replication.synchronous")
+  public void setDefaultTransportReplicationSynchronous(@Nullable ConfigNodePropertyBoolean defaultTransportReplicationSynchronous) {
     this.defaultTransportReplicationSynchronous = defaultTransportReplicationSynchronous;
   }
 
-  public ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoProperties defaultTransportContentpackage(ConfigNodePropertyBoolean defaultTransportContentpackage) {
+  public ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoProperties defaultTransportContentpackage(@Nullable ConfigNodePropertyBoolean defaultTransportContentpackage) {
     this.defaultTransportContentpackage = defaultTransportContentpackage;
     return this;
   }
@@ -150,20 +161,20 @@ public class ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoPro
   /**
    * Get defaultTransportContentpackage
    * @return defaultTransportContentpackage
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getDefaultTransportContentpackage() {
+   */
+  @Valid 
+  @Schema(name = "default.transport.contentpackage", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("default.transport.contentpackage")
+  public @Nullable ConfigNodePropertyBoolean getDefaultTransportContentpackage() {
     return defaultTransportContentpackage;
   }
 
-  public void setDefaultTransportContentpackage(ConfigNodePropertyBoolean defaultTransportContentpackage) {
+  @JsonProperty("default.transport.contentpackage")
+  public void setDefaultTransportContentpackage(@Nullable ConfigNodePropertyBoolean defaultTransportContentpackage) {
     this.defaultTransportContentpackage = defaultTransportContentpackage;
   }
 
-  public ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoProperties offloadingTransporterDefaultEnabled(ConfigNodePropertyBoolean offloadingTransporterDefaultEnabled) {
+  public ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoProperties offloadingTransporterDefaultEnabled(@Nullable ConfigNodePropertyBoolean offloadingTransporterDefaultEnabled) {
     this.offloadingTransporterDefaultEnabled = offloadingTransporterDefaultEnabled;
     return this;
   }
@@ -171,22 +182,21 @@ public class ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoPro
   /**
    * Get offloadingTransporterDefaultEnabled
    * @return offloadingTransporterDefaultEnabled
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getOffloadingTransporterDefaultEnabled() {
+   */
+  @Valid 
+  @Schema(name = "offloading.transporter.default.enabled", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("offloading.transporter.default.enabled")
+  public @Nullable ConfigNodePropertyBoolean getOffloadingTransporterDefaultEnabled() {
     return offloadingTransporterDefaultEnabled;
   }
 
-  public void setOffloadingTransporterDefaultEnabled(ConfigNodePropertyBoolean offloadingTransporterDefaultEnabled) {
+  @JsonProperty("offloading.transporter.default.enabled")
+  public void setOffloadingTransporterDefaultEnabled(@Nullable ConfigNodePropertyBoolean offloadingTransporterDefaultEnabled) {
     this.offloadingTransporterDefaultEnabled = offloadingTransporterDefaultEnabled;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -212,7 +222,6 @@ public class ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoPro
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoProperties {\n");
-    
     sb.append("    defaultTransportAgentToWorkerPrefix: ").append(toIndentedString(defaultTransportAgentToWorkerPrefix)).append("\n");
     sb.append("    defaultTransportAgentToMasterPrefix: ").append(toIndentedString(defaultTransportAgentToMasterPrefix)).append("\n");
     sb.append("    defaultTransportInputPackage: ").append(toIndentedString(defaultTransportInputPackage)).append("\n");
@@ -228,11 +237,8 @@ public class ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoPro
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

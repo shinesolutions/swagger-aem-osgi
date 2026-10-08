@@ -1,0 +1,36 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqDamCoreImplServletGuidLookupFilterProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqDamCoreImplServletGuidLookupFilterProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+}
+resourceTypes {
+
+  ComDayCqDamCoreImplServletGuidLookupFilterProperties {
+    title = ComDayCqDamCoreImplServletGuidLookupFilterProperties
+    description = ComDayCqDamCoreImplServletGuidLookupFilterProperties
+    derivedFrom = Root
+    properties {
+        cq_dam_core_guidlookupfilter_enabled {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqDamCoreImplServletGuidLookupFilterProperties {
+    title = ComDayCqDamCoreImplServletGuidLookupFilterProperties
+    description = ComDayCqDamCoreImplServletGuidLookupFilterProperties
+    implements = openapi_server.resourceTypes.ComDayCqDamCoreImplServletGuidLookupFilterProperties
+
+  }
+}

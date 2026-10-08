@@ -4,28 +4,32 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2019-08-05T00:59:30.156Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2026-10-07T12:54:21.614735164Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqStatisticsImplStatisticsServiceImplProperties   {
   
-  private ConfigNodePropertyInteger schedulerPeriod = null;
-  private ConfigNodePropertyBoolean schedulerConcurrent = null;
-  private ConfigNodePropertyString path = null;
-  private ConfigNodePropertyString workspace = null;
-  private ConfigNodePropertyString keywordsPath = null;
-  private ConfigNodePropertyBoolean asyncEntries = null;
+  private ConfigNodePropertyInteger schedulerPeriod;
+  private ConfigNodePropertyBoolean schedulerConcurrent;
+  private ConfigNodePropertyString path;
+  private ConfigNodePropertyString workspace;
+  private ConfigNodePropertyString keywordsPath;
+  private ConfigNodePropertyBoolean asyncEntries;
 
   /**
    **/
   
   @ApiModelProperty(value = "")
   @JsonProperty("scheduler.period")
+  @Valid
   public ConfigNodePropertyInteger getSchedulerPeriod() {
     return schedulerPeriod;
   }
@@ -38,6 +42,7 @@ public class ComDayCqStatisticsImplStatisticsServiceImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("scheduler.concurrent")
+  @Valid
   public ConfigNodePropertyBoolean getSchedulerConcurrent() {
     return schedulerConcurrent;
   }
@@ -50,6 +55,7 @@ public class ComDayCqStatisticsImplStatisticsServiceImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("path")
+  @Valid
   public ConfigNodePropertyString getPath() {
     return path;
   }
@@ -62,6 +68,7 @@ public class ComDayCqStatisticsImplStatisticsServiceImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("workspace")
+  @Valid
   public ConfigNodePropertyString getWorkspace() {
     return workspace;
   }
@@ -74,6 +81,7 @@ public class ComDayCqStatisticsImplStatisticsServiceImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("keywordsPath")
+  @Valid
   public ConfigNodePropertyString getKeywordsPath() {
     return keywordsPath;
   }
@@ -86,6 +94,7 @@ public class ComDayCqStatisticsImplStatisticsServiceImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("asyncEntries")
+  @Valid
   public ConfigNodePropertyBoolean getAsyncEntries() {
     return asyncEntries;
   }
@@ -95,7 +104,7 @@ public class ComDayCqStatisticsImplStatisticsServiceImplProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -103,12 +112,12 @@ public class ComDayCqStatisticsImplStatisticsServiceImplProperties   {
       return false;
     }
     ComDayCqStatisticsImplStatisticsServiceImplProperties comDayCqStatisticsImplStatisticsServiceImplProperties = (ComDayCqStatisticsImplStatisticsServiceImplProperties) o;
-    return Objects.equals(schedulerPeriod, comDayCqStatisticsImplStatisticsServiceImplProperties.schedulerPeriod) &&
-        Objects.equals(schedulerConcurrent, comDayCqStatisticsImplStatisticsServiceImplProperties.schedulerConcurrent) &&
-        Objects.equals(path, comDayCqStatisticsImplStatisticsServiceImplProperties.path) &&
-        Objects.equals(workspace, comDayCqStatisticsImplStatisticsServiceImplProperties.workspace) &&
-        Objects.equals(keywordsPath, comDayCqStatisticsImplStatisticsServiceImplProperties.keywordsPath) &&
-        Objects.equals(asyncEntries, comDayCqStatisticsImplStatisticsServiceImplProperties.asyncEntries);
+    return Objects.equals(this.schedulerPeriod, comDayCqStatisticsImplStatisticsServiceImplProperties.schedulerPeriod) &&
+        Objects.equals(this.schedulerConcurrent, comDayCqStatisticsImplStatisticsServiceImplProperties.schedulerConcurrent) &&
+        Objects.equals(this.path, comDayCqStatisticsImplStatisticsServiceImplProperties.path) &&
+        Objects.equals(this.workspace, comDayCqStatisticsImplStatisticsServiceImplProperties.workspace) &&
+        Objects.equals(this.keywordsPath, comDayCqStatisticsImplStatisticsServiceImplProperties.keywordsPath) &&
+        Objects.equals(this.asyncEntries, comDayCqStatisticsImplStatisticsServiceImplProperties.asyncEntries);
   }
 
   @Override
@@ -135,11 +144,8 @@ public class ComDayCqStatisticsImplStatisticsServiceImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

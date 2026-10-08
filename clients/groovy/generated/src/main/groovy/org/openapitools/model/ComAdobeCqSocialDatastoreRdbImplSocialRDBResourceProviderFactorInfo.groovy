@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceP
 
 @Canonical
 class ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorProperties properties
 }

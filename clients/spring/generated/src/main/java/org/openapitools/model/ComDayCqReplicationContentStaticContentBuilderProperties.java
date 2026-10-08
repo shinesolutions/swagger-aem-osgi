@@ -1,28 +1,39 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComDayCqReplicationContentStaticContentBuilderProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComDayCqReplicationContentStaticContentBuilderProperties   {
-  @JsonProperty("host")
-  private ConfigNodePropertyString host = null;
+@JsonTypeName("comDayCqReplicationContentStaticContentBuilderProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComDayCqReplicationContentStaticContentBuilderProperties {
 
-  @JsonProperty("port")
-  private ConfigNodePropertyInteger port = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString host;
 
-  public ComDayCqReplicationContentStaticContentBuilderProperties host(ConfigNodePropertyString host) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger port;
+
+  public ComDayCqReplicationContentStaticContentBuilderProperties host(@Nullable ConfigNodePropertyString host) {
     this.host = host;
     return this;
   }
@@ -30,20 +41,20 @@ public class ComDayCqReplicationContentStaticContentBuilderProperties   {
   /**
    * Get host
    * @return host
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getHost() {
+   */
+  @Valid 
+  @Schema(name = "host", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("host")
+  public @Nullable ConfigNodePropertyString getHost() {
     return host;
   }
 
-  public void setHost(ConfigNodePropertyString host) {
+  @JsonProperty("host")
+  public void setHost(@Nullable ConfigNodePropertyString host) {
     this.host = host;
   }
 
-  public ComDayCqReplicationContentStaticContentBuilderProperties port(ConfigNodePropertyInteger port) {
+  public ComDayCqReplicationContentStaticContentBuilderProperties port(@Nullable ConfigNodePropertyInteger port) {
     this.port = port;
     return this;
   }
@@ -51,22 +62,21 @@ public class ComDayCqReplicationContentStaticContentBuilderProperties   {
   /**
    * Get port
    * @return port
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getPort() {
+   */
+  @Valid 
+  @Schema(name = "port", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("port")
+  public @Nullable ConfigNodePropertyInteger getPort() {
     return port;
   }
 
-  public void setPort(ConfigNodePropertyInteger port) {
+  @JsonProperty("port")
+  public void setPort(@Nullable ConfigNodePropertyInteger port) {
     this.port = port;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -87,7 +97,6 @@ public class ComDayCqReplicationContentStaticContentBuilderProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComDayCqReplicationContentStaticContentBuilderProperties {\n");
-    
     sb.append("    host: ").append(toIndentedString(host)).append("\n");
     sb.append("    port: ").append(toIndentedString(port)).append("\n");
     sb.append("}");
@@ -98,11 +107,8 @@ public class ComDayCqReplicationContentStaticContentBuilderProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

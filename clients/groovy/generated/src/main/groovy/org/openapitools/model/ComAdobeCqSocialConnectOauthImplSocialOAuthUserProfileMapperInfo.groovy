@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqSocialConnectOauthImplSocialOAuthUserPro
 
 @Canonical
 class ComAdobeCqSocialConnectOauthImplSocialOAuthUserProfileMapperInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqSocialConnectOauthImplSocialOAuthUserProfileMapperProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqSocialConnectOauthImplSocialOAuthUserProfileMapperProperties properties
 }

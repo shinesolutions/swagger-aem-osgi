@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponenInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponenInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponenProperties = openapi_server.resourceTypes.ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponenProperties
+}
+resourceTypes {
+
+  ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponenInfo {
+    title = ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponenInfo
+    description = ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponenInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponenProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponenInfo {
+    title = ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponenInfo
+    description = ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponenInfo
+    implements = openapi_server.resourceTypes.ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponenInfo
+
+  }
+}

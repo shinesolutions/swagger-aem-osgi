@@ -7,12 +7,12 @@ import org.openapitools.model.OrgApacheSlingCommonsThreadsImplDefaultThreadPoolF
 
 @Canonical
 class OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties properties
 }

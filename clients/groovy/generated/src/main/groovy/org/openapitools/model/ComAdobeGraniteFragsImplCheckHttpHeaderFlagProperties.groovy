@@ -7,12 +7,12 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeGraniteFragsImplCheckHttpHeaderFlagProperties {
-    ConfigNodePropertyString featureName = null
-
-    ConfigNodePropertyString featureDescription = null
-
-    ConfigNodePropertyString httpHeaderName = null
-
-    ConfigNodePropertyString httpHeaderValuepattern = null
-
+    
+    ConfigNodePropertyString featureName
+    
+    ConfigNodePropertyString featureDescription
+    
+    ConfigNodePropertyString httpHeaderName
+    
+    ConfigNodePropertyString httpHeaderValuepattern
 }

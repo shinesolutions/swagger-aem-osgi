@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyDropDown;
 
 @Canonical
 class OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderSeProperties {
-    ConfigNodePropertyDropDown serverType = null
-
+    
+    ConfigNodePropertyDropDown serverType
 }

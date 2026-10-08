@@ -745,7 +745,7 @@ Method | HTTP request | Description
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -833,7 +833,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -909,7 +909,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -985,7 +985,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -1062,7 +1062,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -1141,7 +1141,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -1219,7 +1219,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -1303,7 +1303,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -1386,7 +1386,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -1466,7 +1466,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -1547,7 +1547,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -1630,7 +1630,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -1709,7 +1709,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -1788,7 +1788,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -1876,7 +1876,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -1964,7 +1964,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -2053,7 +2053,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -2145,7 +2145,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -2235,7 +2235,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -2317,7 +2317,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -2394,7 +2394,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -2473,7 +2473,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -2550,7 +2550,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -2630,7 +2630,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -2709,7 +2709,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -2787,7 +2787,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -2869,7 +2869,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -2945,7 +2945,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -3021,7 +3021,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -3097,7 +3097,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -3173,7 +3173,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -3252,7 +3252,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -3338,7 +3338,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -3417,7 +3417,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -3493,7 +3493,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -3569,7 +3569,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -3645,7 +3645,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -3722,7 +3722,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -3801,7 +3801,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -3880,7 +3880,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -3967,7 +3967,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -4054,7 +4054,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -4148,7 +4148,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -4235,7 +4235,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -4319,7 +4319,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -4401,7 +4401,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -4479,7 +4479,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -4562,7 +4562,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -4642,7 +4642,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -4723,7 +4723,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -4806,7 +4806,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -4888,7 +4888,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -4974,7 +4974,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -5054,7 +5054,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -5137,7 +5137,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -5226,7 +5226,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -5312,7 +5312,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -5410,7 +5410,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -5493,7 +5493,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -5587,7 +5587,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -5681,7 +5681,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -5761,7 +5761,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -5849,7 +5849,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -5925,7 +5925,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -6001,7 +6001,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -6085,7 +6085,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -6217,7 +6217,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -6390,7 +6390,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -6469,7 +6469,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -6545,7 +6545,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -6621,7 +6621,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -6697,7 +6697,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -6776,7 +6776,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -6861,7 +6861,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -6938,7 +6938,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -7019,7 +7019,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -7101,7 +7101,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -7177,7 +7177,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -7254,7 +7254,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -7334,7 +7334,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -7414,7 +7414,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -7494,7 +7494,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -7575,7 +7575,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -7658,7 +7658,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -7737,7 +7737,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -7813,7 +7813,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -7890,7 +7890,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -7970,7 +7970,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -8049,7 +8049,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -8127,7 +8127,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -8209,7 +8209,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -8286,7 +8286,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -8365,7 +8365,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -8441,7 +8441,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -8518,7 +8518,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -8604,7 +8604,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -8711,7 +8711,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -8817,7 +8817,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -8894,7 +8894,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -8974,7 +8974,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -9054,7 +9054,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -9134,7 +9134,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -9214,7 +9214,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -9294,7 +9294,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -9374,7 +9374,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -9455,7 +9455,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -9541,7 +9541,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -9636,7 +9636,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -9734,7 +9734,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -9815,7 +9815,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -9903,7 +9903,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -9998,7 +9998,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -10083,7 +10083,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -10183,7 +10183,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -10283,7 +10283,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -10377,7 +10377,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -10453,7 +10453,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -10529,7 +10529,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -10605,7 +10605,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -10681,7 +10681,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -10758,7 +10758,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -10838,7 +10838,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -10918,7 +10918,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -10998,7 +10998,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -11080,7 +11080,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -11166,7 +11166,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -11248,7 +11248,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -11334,7 +11334,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -11414,7 +11414,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -11493,7 +11493,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -11569,7 +11569,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -11646,7 +11646,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -11744,7 +11744,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -11878,7 +11878,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -11957,7 +11957,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -12033,7 +12033,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -12110,7 +12110,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -12190,7 +12190,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -12269,7 +12269,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -12346,7 +12346,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -12426,7 +12426,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -12506,7 +12506,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -12585,7 +12585,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -12662,7 +12662,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -12742,7 +12742,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -12822,7 +12822,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -12902,7 +12902,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -12982,7 +12982,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -13061,7 +13061,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -13139,7 +13139,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -13221,7 +13221,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -13297,7 +13297,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -13373,7 +13373,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -13452,7 +13452,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -13541,7 +13541,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -13629,7 +13629,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -13709,7 +13709,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -13804,7 +13804,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -13908,7 +13908,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -14007,7 +14007,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -14092,7 +14092,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -14177,7 +14177,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -14253,7 +14253,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -14330,7 +14330,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -14412,7 +14412,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -14498,7 +14498,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -14584,7 +14584,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -14683,7 +14683,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -14769,7 +14769,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -14857,7 +14857,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -14934,7 +14934,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -15013,7 +15013,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -15091,7 +15091,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -15175,7 +15175,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -15259,7 +15259,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -15343,7 +15343,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -15428,7 +15428,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -15513,7 +15513,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -15589,7 +15589,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -15668,7 +15668,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -15759,7 +15759,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -15853,7 +15853,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -15929,7 +15929,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -16005,7 +16005,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -16083,7 +16083,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -16166,7 +16166,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -16246,7 +16246,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -16325,7 +16325,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -16401,7 +16401,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -16632,7 +16632,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -17174,7 +17174,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -17254,7 +17254,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -17333,7 +17333,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -17410,7 +17410,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -17489,7 +17489,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -17577,7 +17577,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -17692,7 +17692,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -17790,7 +17790,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -17910,7 +17910,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -18001,7 +18001,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -18077,7 +18077,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -18156,7 +18156,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -18245,7 +18245,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -18334,7 +18334,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -18414,7 +18414,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -18493,7 +18493,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -18569,7 +18569,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -18660,7 +18660,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -18781,7 +18781,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -18882,7 +18882,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -19043,7 +19043,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -19150,7 +19150,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -19229,7 +19229,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -19305,7 +19305,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -19382,7 +19382,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -19462,7 +19462,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -19541,7 +19541,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -19617,7 +19617,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -19693,7 +19693,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -19769,7 +19769,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -19845,7 +19845,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -19921,7 +19921,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -19998,7 +19998,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -20079,7 +20079,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -20162,7 +20162,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -20242,7 +20242,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -20322,7 +20322,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -20408,7 +20408,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -20508,7 +20508,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -20594,7 +20594,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -20675,7 +20675,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -20764,7 +20764,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -20863,7 +20863,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -20945,7 +20945,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -21022,7 +21022,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -21101,7 +21101,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -21180,7 +21180,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -21268,7 +21268,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -21357,7 +21357,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -21446,7 +21446,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -21525,7 +21525,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -21601,7 +21601,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -21677,7 +21677,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -21754,7 +21754,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -21838,7 +21838,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -21931,7 +21931,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -22015,7 +22015,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -22097,7 +22097,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -22174,7 +22174,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -22253,7 +22253,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -22329,7 +22329,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -22410,7 +22410,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -22505,7 +22505,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -22593,7 +22593,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -22669,7 +22669,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -22746,7 +22746,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -22828,7 +22828,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -22913,7 +22913,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -22990,7 +22990,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -23069,7 +23069,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -23145,7 +23145,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -23221,7 +23221,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -23303,7 +23303,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -23398,7 +23398,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -23479,7 +23479,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -23563,7 +23563,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -23647,7 +23647,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -23729,7 +23729,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -23805,7 +23805,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -23881,7 +23881,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -23958,7 +23958,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -24037,7 +24037,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -24113,7 +24113,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -24190,7 +24190,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -24269,7 +24269,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -24345,7 +24345,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -24423,7 +24423,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -24507,7 +24507,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -24589,7 +24589,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -24677,7 +24677,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -24791,7 +24791,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -24873,7 +24873,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -24950,7 +24950,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -25029,7 +25029,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -25106,7 +25106,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -25185,7 +25185,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -25262,7 +25262,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -25341,7 +25341,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -25419,7 +25419,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -25504,7 +25504,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -25590,7 +25590,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -25669,7 +25669,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -25747,7 +25747,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -25833,7 +25833,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -25922,7 +25922,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -26009,7 +26009,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -26117,7 +26117,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -26218,7 +26218,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -26316,7 +26316,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -26449,7 +26449,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -26525,7 +26525,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -26601,7 +26601,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -26679,7 +26679,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -26762,7 +26762,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -26841,7 +26841,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -26918,7 +26918,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -26998,7 +26998,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -27079,7 +27079,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -27171,7 +27171,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -27280,7 +27280,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -27369,7 +27369,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -27457,7 +27457,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -27536,7 +27536,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -27631,7 +27631,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -27743,7 +27743,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -27837,7 +27837,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -27914,7 +27914,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -27994,7 +27994,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -28073,7 +28073,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -28152,7 +28152,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -28237,7 +28237,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -28313,7 +28313,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -28389,7 +28389,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -28465,7 +28465,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -28543,7 +28543,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -28625,7 +28625,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -28705,7 +28705,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -28796,7 +28796,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -28888,7 +28888,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -28988,7 +28988,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -29073,7 +29073,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -29150,7 +29150,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -29229,7 +29229,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -29305,7 +29305,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -29382,7 +29382,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -29463,7 +29463,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -29548,7 +29548,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -29635,7 +29635,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -29732,7 +29732,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -29853,7 +29853,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -29929,7 +29929,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -30005,7 +30005,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -30083,7 +30083,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -30165,7 +30165,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -30245,7 +30245,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -30337,7 +30337,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -30426,7 +30426,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -30511,7 +30511,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -30605,7 +30605,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -30681,7 +30681,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -30757,7 +30757,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -30833,7 +30833,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -30911,7 +30911,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -30993,7 +30993,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -31077,7 +31077,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -31177,7 +31177,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -31254,7 +31254,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -31334,7 +31334,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -31416,7 +31416,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -31503,7 +31503,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -31579,13 +31579,13 @@ Name | Type | Description  | Notes
     action: (NSString*) action
     location: (NSString*) location
     propertylist: (NSArray<NSString*>*) propertylist
-    granitedata: (NSArray<NSString*>*) granitedata
+    graniteData: (NSArray<NSString*>*) graniteData
         completionHandler: (void (^)(OAIComDayCqDamCoreImplMetadataEditorSelectComponentHandlerInfo* output, NSError* error)) handler;
 ```
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -31599,7 +31599,7 @@ NSNumber* delete = @56; //  (optional)
 NSString* action = @"action_example"; //  (optional)
 NSString* location = @"location_example"; //  (optional)
 NSArray<NSString*>* propertylist = @[@"propertylist_example"]; //  (optional)
-NSArray<NSString*>* granitedata = @[@"granitedata_example"]; //  (optional)
+NSArray<NSString*>* graniteData = @[@"graniteData_example"]; //  (optional)
 
 OAIConfigmgrApi*apiInstance = [[OAIConfigmgrApi alloc] init];
 
@@ -31609,7 +31609,7 @@ OAIConfigmgrApi*apiInstance = [[OAIConfigmgrApi alloc] init];
               action:action
               location:location
               propertylist:propertylist
-              granitedata:granitedata
+              graniteData:graniteData
           completionHandler: ^(OAIComDayCqDamCoreImplMetadataEditorSelectComponentHandlerInfo* output, NSError* error) {
                         if (output) {
                             NSLog(@"%@", output);
@@ -31630,7 +31630,7 @@ Name | Type | Description  | Notes
  **action** | **NSString***|  | [optional] 
  **location** | **NSString***|  | [optional] 
  **propertylist** | [**NSArray&lt;NSString*&gt;***](NSString*.md)|  | [optional] 
- **granitedata** | [**NSArray&lt;NSString*&gt;***](NSString*.md)|  | [optional] 
+ **graniteData** | [**NSArray&lt;NSString*&gt;***](NSString*.md)|  | [optional] 
 
 ### Return type
 
@@ -31662,7 +31662,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -31741,7 +31741,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -31820,7 +31820,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -31906,7 +31906,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -31986,7 +31986,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -32066,7 +32066,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -32145,7 +32145,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -32224,7 +32224,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -32309,7 +32309,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -32385,7 +32385,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -32461,7 +32461,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -32539,7 +32539,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -32623,7 +32623,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -32706,7 +32706,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -32786,7 +32786,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -32860,13 +32860,13 @@ Name | Type | Description  | Notes
     location: (NSString*) location
     propertylist: (NSArray<NSString*>*) propertylist
     moreInfo: (NSString*) moreInfo
-    mntoverlaydamguicontentassetsmoreinfoHtmlpath: (NSString*) mntoverlaydamguicontentassetsmoreinfoHtmlpath
+    mntOverlayDamGuiContentAssetsMoreinfoHtmlPath: (NSString*) mntOverlayDamGuiContentAssetsMoreinfoHtmlPath
         completionHandler: (void (^)(OAIComDayCqDamCoreImplServletCompanionServletInfo* output, NSError* error)) handler;
 ```
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -32881,7 +32881,7 @@ NSString* action = @"action_example"; //  (optional)
 NSString* location = @"location_example"; //  (optional)
 NSArray<NSString*>* propertylist = @[@"propertylist_example"]; //  (optional)
 NSString* moreInfo = @"moreInfo_example"; //  (optional)
-NSString* mntoverlaydamguicontentassetsmoreinfoHtmlpath = @"mntoverlaydamguicontentassetsmoreinfoHtmlpath_example"; //  (optional)
+NSString* mntOverlayDamGuiContentAssetsMoreinfoHtmlPath = @"mntOverlayDamGuiContentAssetsMoreinfoHtmlPath_example"; //  (optional)
 
 OAIConfigmgrApi*apiInstance = [[OAIConfigmgrApi alloc] init];
 
@@ -32892,7 +32892,7 @@ OAIConfigmgrApi*apiInstance = [[OAIConfigmgrApi alloc] init];
               location:location
               propertylist:propertylist
               moreInfo:moreInfo
-              mntoverlaydamguicontentassetsmoreinfoHtmlpath:mntoverlaydamguicontentassetsmoreinfoHtmlpath
+              mntOverlayDamGuiContentAssetsMoreinfoHtmlPath:mntOverlayDamGuiContentAssetsMoreinfoHtmlPath
           completionHandler: ^(OAIComDayCqDamCoreImplServletCompanionServletInfo* output, NSError* error) {
                         if (output) {
                             NSLog(@"%@", output);
@@ -32914,7 +32914,7 @@ Name | Type | Description  | Notes
  **location** | **NSString***|  | [optional] 
  **propertylist** | [**NSArray&lt;NSString*&gt;***](NSString*.md)|  | [optional] 
  **moreInfo** | **NSString***|  | [optional] 
- **mntoverlaydamguicontentassetsmoreinfoHtmlpath** | **NSString***|  | [optional] 
+ **mntOverlayDamGuiContentAssetsMoreinfoHtmlPath** | **NSString***|  | [optional] 
 
 ### Return type
 
@@ -32945,7 +32945,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -33022,7 +33022,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -33101,7 +33101,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -33178,7 +33178,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -33260,7 +33260,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -33345,7 +33345,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -33426,7 +33426,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -33520,7 +33520,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -33606,7 +33606,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -33686,7 +33686,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -33766,7 +33766,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -33847,7 +33847,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -33929,7 +33929,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -34008,7 +34008,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -34093,7 +34093,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -34169,7 +34169,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -34245,7 +34245,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -34326,7 +34326,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -34422,7 +34422,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -34514,7 +34514,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -34593,7 +34593,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -34672,7 +34672,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -34757,7 +34757,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -34833,7 +34833,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -34909,7 +34909,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -34985,7 +34985,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -35062,7 +35062,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -35142,7 +35142,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -35222,7 +35222,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -35301,7 +35301,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -35377,7 +35377,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -35454,7 +35454,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -35539,7 +35539,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -35634,7 +35634,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -35713,7 +35713,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -35789,7 +35789,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -35866,7 +35866,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -35949,7 +35949,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -36038,7 +36038,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -36118,7 +36118,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -36199,7 +36199,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -36281,7 +36281,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -36358,7 +36358,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -36438,7 +36438,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -36519,7 +36519,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -36608,7 +36608,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -36705,7 +36705,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -36781,7 +36781,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -36860,7 +36860,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -36947,7 +36947,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -37030,7 +37030,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -37111,7 +37111,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -37194,7 +37194,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -37275,7 +37275,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -37359,7 +37359,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -37442,7 +37442,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -37522,7 +37522,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -37603,7 +37603,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -37685,7 +37685,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -37761,7 +37761,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -37845,7 +37845,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -37945,7 +37945,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -38024,7 +38024,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -38109,7 +38109,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -38186,7 +38186,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -38267,7 +38267,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -38349,7 +38349,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -38433,7 +38433,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -38534,7 +38534,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -38614,7 +38614,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -38693,7 +38693,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -38769,7 +38769,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -38846,7 +38846,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -38926,7 +38926,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -39007,7 +39007,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -39098,7 +39098,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -39201,7 +39201,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -39283,7 +39283,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -39382,7 +39382,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -39479,7 +39479,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -39574,7 +39574,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -39654,7 +39654,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -39736,7 +39736,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -39822,7 +39822,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -39901,7 +39901,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -39980,7 +39980,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -40065,7 +40065,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -40146,7 +40146,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -40237,7 +40237,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -40313,7 +40313,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -40389,7 +40389,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -40465,7 +40465,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -40546,7 +40546,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -40637,7 +40637,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -40713,7 +40713,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -40790,7 +40790,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -40869,7 +40869,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -40945,7 +40945,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -41022,7 +41022,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -41101,7 +41101,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -41178,7 +41178,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -41266,7 +41266,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -41370,7 +41370,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -41450,7 +41450,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -41529,7 +41529,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -41609,7 +41609,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -41697,7 +41697,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -41774,7 +41774,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -41853,7 +41853,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -41930,7 +41930,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -42010,7 +42010,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -42089,7 +42089,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -42165,7 +42165,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -42247,7 +42247,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -42345,7 +42345,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -42434,7 +42434,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -42513,7 +42513,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -42590,7 +42590,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -42669,7 +42669,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -42746,7 +42746,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -42825,7 +42825,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -42901,7 +42901,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -42980,7 +42980,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -43066,7 +43066,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -43146,7 +43146,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -43229,7 +43229,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -43318,7 +43318,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -43398,7 +43398,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -43478,7 +43478,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -43558,7 +43558,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -43638,7 +43638,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -43719,7 +43719,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -43802,7 +43802,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -43882,7 +43882,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -43962,7 +43962,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -44042,7 +44042,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -44122,7 +44122,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -44203,7 +44203,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -44286,7 +44286,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -44366,7 +44366,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -44447,7 +44447,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -44531,7 +44531,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -44614,7 +44614,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -44697,7 +44697,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -44786,7 +44786,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -44866,7 +44866,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -44948,7 +44948,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -45033,7 +45033,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -45114,7 +45114,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -45205,7 +45205,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -45281,7 +45281,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -45358,7 +45358,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -45444,7 +45444,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -45542,7 +45542,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -45624,7 +45624,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -45712,7 +45712,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -45799,7 +45799,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -45884,7 +45884,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -45971,7 +45971,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -46056,7 +46056,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -46144,7 +46144,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -46231,7 +46231,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -46313,7 +46313,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -46397,7 +46397,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -46498,7 +46498,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -46577,7 +46577,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -46653,7 +46653,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -46729,7 +46729,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -46813,7 +46813,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -46913,7 +46913,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -46993,7 +46993,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -47082,7 +47082,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -47174,7 +47174,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -47290,7 +47290,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -47374,7 +47374,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -47466,7 +47466,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -47549,7 +47549,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -47639,7 +47639,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -47722,7 +47722,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -47801,7 +47801,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -47877,7 +47877,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -47958,7 +47958,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -48101,7 +48101,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -48336,7 +48336,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -48425,7 +48425,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -48515,7 +48515,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -48602,7 +48602,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -48694,7 +48694,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -48776,7 +48776,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -48862,7 +48862,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -48942,7 +48942,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -49022,7 +49022,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -49101,7 +49101,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -49186,7 +49186,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -49289,7 +49289,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -49367,7 +49367,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -49454,7 +49454,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -49545,7 +49545,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -49621,7 +49621,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -49726,7 +49726,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -49889,7 +49889,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -49967,7 +49967,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -50052,7 +50052,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -50152,7 +50152,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -50274,7 +50274,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -50353,7 +50353,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -50445,7 +50445,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -50576,7 +50576,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -50673,7 +50673,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -50749,7 +50749,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -50825,7 +50825,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -50903,7 +50903,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -50988,7 +50988,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -51074,7 +51074,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -51178,7 +51178,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -51335,7 +51335,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -51433,7 +51433,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -51522,7 +51522,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -51601,7 +51601,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -51692,7 +51692,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -51817,7 +51817,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -51931,7 +51931,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -52085,7 +52085,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -52184,7 +52184,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -52337,7 +52337,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -52450,7 +52450,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -52569,7 +52569,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -52657,7 +52657,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -52735,7 +52735,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -52817,7 +52817,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -52896,7 +52896,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -52981,7 +52981,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -53057,7 +53057,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -53134,7 +53134,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -53213,7 +53213,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -53289,7 +53289,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -53366,7 +53366,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -53445,7 +53445,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -53524,7 +53524,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -53610,7 +53610,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -53690,7 +53690,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -53772,7 +53772,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -53860,7 +53860,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -53945,7 +53945,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -54030,7 +54030,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -54137,7 +54137,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -54228,7 +54228,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -54319,7 +54319,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -54416,7 +54416,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -54501,7 +54501,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -54581,7 +54581,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -54669,7 +54669,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -54755,7 +54755,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -54889,7 +54889,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -55052,7 +55052,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -55155,7 +55155,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -55287,7 +55287,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -55388,7 +55388,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -55522,7 +55522,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -55612,7 +55612,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -55734,7 +55734,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -55859,7 +55859,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -55982,7 +55982,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -56112,7 +56112,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -56200,7 +56200,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -56286,7 +56286,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -56369,7 +56369,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -56458,7 +56458,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -56539,7 +56539,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -56624,7 +56624,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -56710,7 +56710,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -56790,7 +56790,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -56880,7 +56880,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -57006,7 +57006,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -57135,7 +57135,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -57218,7 +57218,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -57301,7 +57301,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -57392,7 +57392,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -57479,7 +57479,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -57562,7 +57562,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -57644,7 +57644,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -57739,7 +57739,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -57848,7 +57848,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -57938,7 +57938,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -58032,7 +58032,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -58123,7 +58123,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -58223,7 +58223,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -58317,7 +58317,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -58396,7 +58396,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -58483,7 +58483,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -58567,7 +58567,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -58659,7 +58659,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -58766,7 +58766,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -58847,7 +58847,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -58931,7 +58931,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -59017,7 +59017,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -59109,7 +59109,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -59199,7 +59199,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -59286,7 +59286,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -59381,7 +59381,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -59471,7 +59471,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -59556,7 +59556,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -59642,7 +59642,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -59723,7 +59723,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -59811,7 +59811,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -59906,7 +59906,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -59986,7 +59986,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -60067,7 +60067,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -60150,7 +60150,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -60229,7 +60229,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -60305,7 +60305,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -60382,7 +60382,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -60481,7 +60481,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -60617,7 +60617,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -60695,7 +60695,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -60780,7 +60780,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -60865,7 +60865,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -60950,7 +60950,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -61053,7 +61053,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -61132,7 +61132,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -61217,7 +61217,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -61295,7 +61295,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -61378,7 +61378,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -61458,7 +61458,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -61538,7 +61538,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -61617,7 +61617,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -61696,7 +61696,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -61781,7 +61781,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -61867,7 +61867,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -61973,7 +61973,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -62051,7 +62051,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -62137,7 +62137,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -62228,7 +62228,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -62314,7 +62314,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -62401,7 +62401,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -62502,7 +62502,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -62583,7 +62583,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -62671,7 +62671,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -62768,7 +62768,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -62854,7 +62854,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -62934,7 +62934,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -63014,7 +63014,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -63099,7 +63099,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)
@@ -63193,7 +63193,7 @@ Name | Type | Description  | Notes
 
 
 
-### Example 
+### Example
 ```objc
 OAIDefaultConfiguration *apiConfig = [OAIDefaultConfiguration sharedConfig];
 // Configure HTTP basic authorization (authentication scheme: aemAuth)

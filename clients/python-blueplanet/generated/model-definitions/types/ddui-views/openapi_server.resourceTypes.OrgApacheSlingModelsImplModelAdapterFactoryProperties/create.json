@@ -1,0 +1,20 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "osgi_http_whiteboard_listener" },
+      {"model": "osgi_http_whiteboard_context_select" },
+      {"model": "max_recursion_depth" },
+      {"model": "cleanup_job_period" },
+    ]
+  }]
+}

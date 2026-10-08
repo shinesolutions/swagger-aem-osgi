@@ -1,10 +1,11 @@
 # ComAdobeGraniteCompatrouterImplSwitchMappingConfigProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**group** | [***::models::ConfigNodePropertyString**](configNodePropertyString.md) |  | [optional] 
-**ids** | [***::models::ConfigNodePropertyArray**](configNodePropertyArray.md) |  | [optional] 
+**group** | Option<[**models::ConfigNodePropertyString**](ConfigNodePropertyString.md)> |  | [optional]
+**ids** | Option<[**models::ConfigNodePropertyArray**](ConfigNodePropertyArray.md)> |  | [optional]
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

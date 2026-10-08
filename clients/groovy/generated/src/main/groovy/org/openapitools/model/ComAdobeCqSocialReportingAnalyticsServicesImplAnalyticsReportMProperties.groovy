@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportMProperties {
-    ConfigNodePropertyInteger reportFetchDelay = null
-
+    
+    ConfigNodePropertyInteger reportFetchDelay
 }

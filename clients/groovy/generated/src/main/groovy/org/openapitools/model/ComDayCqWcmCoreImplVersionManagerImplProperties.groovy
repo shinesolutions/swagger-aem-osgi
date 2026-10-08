@@ -9,18 +9,18 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class ComDayCqWcmCoreImplVersionManagerImplProperties {
-    ConfigNodePropertyBoolean versionmanagerCreateVersionOnActivation = null
-
-    ConfigNodePropertyBoolean versionmanagerPurgingEnabled = null
-
-    ConfigNodePropertyArray versionmanagerPurgePaths = null
-
-    ConfigNodePropertyArray versionmanagerIvPaths = null
-
-    ConfigNodePropertyInteger versionmanagerMaxAgeDays = null
-
-    ConfigNodePropertyInteger versionmanagerMaxNumberVersions = null
-
-    ConfigNodePropertyInteger versionmanagerMinNumberVersions = null
-
+    
+    ConfigNodePropertyBoolean versionmanagerCreateVersionOnActivation
+    
+    ConfigNodePropertyBoolean versionmanagerPurgingEnabled
+    
+    ConfigNodePropertyArray versionmanagerPurgePaths
+    
+    ConfigNodePropertyArray versionmanagerIvPaths
+    
+    ConfigNodePropertyInteger versionmanagerMaxAgeDays
+    
+    ConfigNodePropertyInteger versionmanagerMaxNumberVersions
+    
+    ConfigNodePropertyInteger versionmanagerMinNumberVersions
 }

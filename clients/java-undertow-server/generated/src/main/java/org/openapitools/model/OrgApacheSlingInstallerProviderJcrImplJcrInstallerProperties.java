@@ -1,3 +1,13 @@
+/*
+ * Adobe Experience Manager OSGI config (AEM) API
+ *
+ * Swagger AEM OSGI is an OpenAPI specification for Adobe Experience Manager (AEM) OSGI Configurations API
+ *
+ * OpenAPI document version: 1.0.0-pre.0
+ * Maintained by: opensource@shinesolutions.com
+ *
+ * AUTO-GENERATED FILE, DO NOT MODIFY!
+ */
 package org.openapitools.model;
 
 import java.util.Objects;
@@ -14,19 +24,19 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2019-08-05T00:56:20.785Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2026-10-07T12:53:42.280804918Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingInstallerProviderJcrImplJcrInstallerProperties   {
   
-  private ConfigNodePropertyArray handlerSchemes = null;
-  private ConfigNodePropertyString slingJcrinstallFolderNameRegexp = null;
-  private ConfigNodePropertyInteger slingJcrinstallFolderMaxDepth = null;
-  private ConfigNodePropertyArray slingJcrinstallSearchPath = null;
-  private ConfigNodePropertyString slingJcrinstallNewConfigPath = null;
-  private ConfigNodePropertyString slingJcrinstallSignalPath = null;
-  private ConfigNodePropertyBoolean slingJcrinstallEnableWriteback = null;
+  private ConfigNodePropertyArray handlerSchemes;
+  private ConfigNodePropertyString slingJcrinstallFolderNameRegexp;
+  private ConfigNodePropertyInteger slingJcrinstallFolderMaxDepth;
+  private ConfigNodePropertyArray slingJcrinstallSearchPath;
+  private ConfigNodePropertyString slingJcrinstallNewConfigPath;
+  private ConfigNodePropertyString slingJcrinstallSignalPath;
+  private ConfigNodePropertyBoolean slingJcrinstallEnableWriteback;
 
   /**
-   **/
+   */
   public OrgApacheSlingInstallerProviderJcrImplJcrInstallerProperties handlerSchemes(ConfigNodePropertyArray handlerSchemes) {
     this.handlerSchemes = handlerSchemes;
     return this;
@@ -43,7 +53,7 @@ public class OrgApacheSlingInstallerProviderJcrImplJcrInstallerProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingInstallerProviderJcrImplJcrInstallerProperties slingJcrinstallFolderNameRegexp(ConfigNodePropertyString slingJcrinstallFolderNameRegexp) {
     this.slingJcrinstallFolderNameRegexp = slingJcrinstallFolderNameRegexp;
     return this;
@@ -60,7 +70,7 @@ public class OrgApacheSlingInstallerProviderJcrImplJcrInstallerProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingInstallerProviderJcrImplJcrInstallerProperties slingJcrinstallFolderMaxDepth(ConfigNodePropertyInteger slingJcrinstallFolderMaxDepth) {
     this.slingJcrinstallFolderMaxDepth = slingJcrinstallFolderMaxDepth;
     return this;
@@ -77,7 +87,7 @@ public class OrgApacheSlingInstallerProviderJcrImplJcrInstallerProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingInstallerProviderJcrImplJcrInstallerProperties slingJcrinstallSearchPath(ConfigNodePropertyArray slingJcrinstallSearchPath) {
     this.slingJcrinstallSearchPath = slingJcrinstallSearchPath;
     return this;
@@ -94,7 +104,7 @@ public class OrgApacheSlingInstallerProviderJcrImplJcrInstallerProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingInstallerProviderJcrImplJcrInstallerProperties slingJcrinstallNewConfigPath(ConfigNodePropertyString slingJcrinstallNewConfigPath) {
     this.slingJcrinstallNewConfigPath = slingJcrinstallNewConfigPath;
     return this;
@@ -111,7 +121,7 @@ public class OrgApacheSlingInstallerProviderJcrImplJcrInstallerProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingInstallerProviderJcrImplJcrInstallerProperties slingJcrinstallSignalPath(ConfigNodePropertyString slingJcrinstallSignalPath) {
     this.slingJcrinstallSignalPath = slingJcrinstallSignalPath;
     return this;
@@ -128,7 +138,7 @@ public class OrgApacheSlingInstallerProviderJcrImplJcrInstallerProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingInstallerProviderJcrImplJcrInstallerProperties slingJcrinstallEnableWriteback(ConfigNodePropertyBoolean slingJcrinstallEnableWriteback) {
     this.slingJcrinstallEnableWriteback = slingJcrinstallEnableWriteback;
     return this;
@@ -146,7 +156,7 @@ public class OrgApacheSlingInstallerProviderJcrImplJcrInstallerProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -188,11 +198,8 @@ public class OrgApacheSlingInstallerProviderJcrImplJcrInstallerProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

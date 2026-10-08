@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqDamScene7ImplScene7FlashTemplatesServiceIm
 
 @Canonical
 class ComDayCqDamScene7ImplScene7FlashTemplatesServiceImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqDamScene7ImplScene7FlashTemplatesServiceImplProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqDamScene7ImplScene7FlashTemplatesServiceImplProperties properties
 }

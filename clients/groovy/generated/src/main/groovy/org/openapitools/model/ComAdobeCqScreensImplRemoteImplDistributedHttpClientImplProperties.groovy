@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class ComAdobeCqScreensImplRemoteImplDistributedHttpClientImplProperties {
-    ConfigNodePropertyInteger comAdobeAemScreensImplRemoteRequestTimeout = null
-
+    
+    ConfigNodePropertyInteger comAdobeAemScreensImplRemoteRequestTimeout
 }

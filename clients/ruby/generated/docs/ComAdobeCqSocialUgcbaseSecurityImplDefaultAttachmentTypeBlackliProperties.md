@@ -2,18 +2,19 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**default_attachment_type_blacklist** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 
-**baseline_attachment_type_blacklist** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **default_attachment_type_blacklist** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] |
+| **baseline_attachment_type_blacklist** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliProperties.new(default_attachment_type_blacklist: null,
-                                 baseline_attachment_type_blacklist: null)
+instance = SwaggerAemOsgiClient::ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliProperties.new(
+  default_attachment_type_blacklist: null,
+  baseline_attachment_type_blacklist: null
+)
 ```
-
 

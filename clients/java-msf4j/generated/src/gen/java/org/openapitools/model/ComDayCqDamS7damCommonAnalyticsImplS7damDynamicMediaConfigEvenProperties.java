@@ -3,6 +3,7 @@ package org.openapitools.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyBoolean;
@@ -10,10 +11,10 @@ import org.openapitools.model.ConfigNodePropertyBoolean;
 /**
  * ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaMSF4JServerCodegen", date = "2019-08-05T00:54:29.762Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaMSF4JServerCodegen", date = "2026-10-07T12:53:29.980508721Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenProperties   {
   @JsonProperty("cq.dam.s7dam.dynamicmediaconfigeventlistener.enabled")
-  private ConfigNodePropertyBoolean cqDamS7damDynamicmediaconfigeventlistenerEnabled = null;
+  private ConfigNodePropertyBoolean cqDamS7damDynamicmediaconfigeventlistenerEnabled;
 
   public ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenProperties cqDamS7damDynamicmediaconfigeventlistenerEnabled(ConfigNodePropertyBoolean cqDamS7damDynamicmediaconfigeventlistenerEnabled) {
     this.cqDamS7damDynamicmediaconfigeventlistenerEnabled = cqDamS7damDynamicmediaconfigeventlistenerEnabled;
@@ -35,7 +36,7 @@ public class ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenPrope
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -65,11 +66,8 @@ public class ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenPrope
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

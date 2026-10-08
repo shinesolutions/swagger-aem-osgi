@@ -1,19 +1,30 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comAdobeCqDtmImplServletsDTMDeployHookServletProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeCqDtmImplServletsDTMDeployHookServletProperties   {
-  
-  private @Valid ConfigNodePropertyArray dtmStagingIpWhitelist = null;
-  private @Valid ConfigNodePropertyArray dtmProductionIpWhitelist = null;
+  private ConfigNodePropertyArray dtmStagingIpWhitelist;
+  private ConfigNodePropertyArray dtmProductionIpWhitelist;
+
+  public ComAdobeCqDtmImplServletsDTMDeployHookServletProperties() {
+  }
 
   /**
    **/
@@ -25,9 +36,11 @@ public class ComAdobeCqDtmImplServletsDTMDeployHookServletProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("dtm.staging.ip.whitelist")
-  public ConfigNodePropertyArray getDtmStagingIpWhitelist() {
+  @Valid public ConfigNodePropertyArray getDtmStagingIpWhitelist() {
     return dtmStagingIpWhitelist;
   }
+
+  @JsonProperty("dtm.staging.ip.whitelist")
   public void setDtmStagingIpWhitelist(ConfigNodePropertyArray dtmStagingIpWhitelist) {
     this.dtmStagingIpWhitelist = dtmStagingIpWhitelist;
   }
@@ -42,16 +55,18 @@ public class ComAdobeCqDtmImplServletsDTMDeployHookServletProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("dtm.production.ip.whitelist")
-  public ConfigNodePropertyArray getDtmProductionIpWhitelist() {
+  @Valid public ConfigNodePropertyArray getDtmProductionIpWhitelist() {
     return dtmProductionIpWhitelist;
   }
+
+  @JsonProperty("dtm.production.ip.whitelist")
   public void setDtmProductionIpWhitelist(ConfigNodePropertyArray dtmProductionIpWhitelist) {
     this.dtmProductionIpWhitelist = dtmProductionIpWhitelist;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -59,8 +74,8 @@ public class ComAdobeCqDtmImplServletsDTMDeployHookServletProperties   {
       return false;
     }
     ComAdobeCqDtmImplServletsDTMDeployHookServletProperties comAdobeCqDtmImplServletsDTMDeployHookServletProperties = (ComAdobeCqDtmImplServletsDTMDeployHookServletProperties) o;
-    return Objects.equals(dtmStagingIpWhitelist, comAdobeCqDtmImplServletsDTMDeployHookServletProperties.dtmStagingIpWhitelist) &&
-        Objects.equals(dtmProductionIpWhitelist, comAdobeCqDtmImplServletsDTMDeployHookServletProperties.dtmProductionIpWhitelist);
+    return Objects.equals(this.dtmStagingIpWhitelist, comAdobeCqDtmImplServletsDTMDeployHookServletProperties.dtmStagingIpWhitelist) &&
+        Objects.equals(this.dtmProductionIpWhitelist, comAdobeCqDtmImplServletsDTMDeployHookServletProperties.dtmProductionIpWhitelist);
   }
 
   @Override
@@ -83,11 +98,9 @@ public class ComAdobeCqDtmImplServletsDTMDeployHookServletProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqScreensImplScreensChannelPostProcessorPr
 
 @Canonical
 class ComAdobeCqScreensImplScreensChannelPostProcessorInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqScreensImplScreensChannelPostProcessorProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqScreensImplScreensChannelPostProcessorProperties properties
 }

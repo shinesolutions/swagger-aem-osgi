@@ -72,7 +72,7 @@ private class OASComAdobeCqCommercePimImplProductfTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeCqCommercePimImplProductf comAdobeCqCommercePimImplProductfeedProductFeedServiceImplProperties = new OASComAdobeCqCommercePimImplProductf();
-        Map<String, String> propertyMappings = comAdobeCqCommercePimImplProductfeedProductFeedServiceImplProperties.getPropertyMappings();
-        System.assertEquals('feedGeneratorAlgorithm', propertyMappings.get('Feed generator algorithm'));
+        Map<String, String> x-property-mappings = comAdobeCqCommercePimImplProductfeedProductFeedServiceImplProperties.getx-property-mappings();
+        System.assertEquals('feedGeneratorAlgorithm', x-property-mappings.get('Feed generator algorithm'));
     }
 }

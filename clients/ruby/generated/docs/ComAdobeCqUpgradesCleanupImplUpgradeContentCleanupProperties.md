@@ -2,18 +2,19 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**delete_path_regexps** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 
-**delete_sql2_query** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **delete_path_regexps** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] |
+| **delete_sql2_query** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComAdobeCqUpgradesCleanupImplUpgradeContentCleanupProperties.new(delete_path_regexps: null,
-                                 delete_sql2_query: null)
+instance = SwaggerAemOsgiClient::ComAdobeCqUpgradesCleanupImplUpgradeContentCleanupProperties.new(
+  delete_path_regexps: null,
+  delete_sql2_query: null
+)
 ```
-
 

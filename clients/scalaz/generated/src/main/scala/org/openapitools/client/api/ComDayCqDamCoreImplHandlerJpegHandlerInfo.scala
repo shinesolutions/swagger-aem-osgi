@@ -7,6 +7,8 @@ import argonaut.DecodeJson._
 import org.http4s.{EntityDecoder, EntityEncoder}
 import org.http4s.argonaut._
 import org.joda.time.DateTime
+
+
 import ComDayCqDamCoreImplHandlerJpegHandlerInfo._
 
 case class ComDayCqDamCoreImplHandlerJpegHandlerInfo (

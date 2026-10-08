@@ -7,16 +7,16 @@ import org.openapitools.model.ComAdobeXmpWorkerFilesNcommXMPFilesNCommProperties
 
 @Canonical
 class ComAdobeXmpWorkerFilesNcommXMPFilesNCommInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeXmpWorkerFilesNcommXMPFilesNCommProperties properties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeXmpWorkerFilesNcommXMPFilesNCommProperties properties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

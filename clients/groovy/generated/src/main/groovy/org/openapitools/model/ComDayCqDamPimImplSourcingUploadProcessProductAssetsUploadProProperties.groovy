@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyBoolean;
 
 @Canonical
 class ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProProperties {
-    ConfigNodePropertyBoolean deleteZipFile = null
-
+    
+    ConfigNodePropertyBoolean deleteZipFile
 }

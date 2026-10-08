@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeGraniteWorkflowCoreOffloadingWorkflowOfflo
 
 @Canonical
 class ComAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumProperties properties
 }

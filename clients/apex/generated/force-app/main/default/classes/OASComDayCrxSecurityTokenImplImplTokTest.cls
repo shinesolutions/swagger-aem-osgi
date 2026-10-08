@@ -72,10 +72,10 @@ private class OASComDayCrxSecurityTokenImplImplTokTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCrxSecurityTokenImplImplTok comDayCrxSecurityTokenImplImplTokenAuthenticationHandlerProperties = new OASComDayCrxSecurityTokenImplImplTok();
-        Map<String, String> propertyMappings = comDayCrxSecurityTokenImplImplTokenAuthenticationHandlerProperties.getPropertyMappings();
-        System.assertEquals('tokenRequiredAttr', propertyMappings.get('token.required.attr'));
-        System.assertEquals('tokenAlternateUrl', propertyMappings.get('token.alternate.url'));
-        System.assertEquals('tokenEncapsulated', propertyMappings.get('token.encapsulated'));
-        System.assertEquals('skipTokenRefresh', propertyMappings.get('skip.token.refresh'));
+        Map<String, String> x-property-mappings = comDayCrxSecurityTokenImplImplTokenAuthenticationHandlerProperties.getx-property-mappings();
+        System.assertEquals('tokenRequiredAttr', x-property-mappings.get('token.required.attr'));
+        System.assertEquals('tokenAlternateUrl', x-property-mappings.get('token.alternate.url'));
+        System.assertEquals('tokenEncapsulated', x-property-mappings.get('token.encapsulated'));
+        System.assertEquals('skipTokenRefresh', x-property-mappings.get('skip.token.refresh'));
     }
 }

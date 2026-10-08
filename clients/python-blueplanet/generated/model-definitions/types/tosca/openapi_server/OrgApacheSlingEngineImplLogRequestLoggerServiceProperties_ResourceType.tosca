@@ -1,0 +1,53 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingEngineImplLogRequestLoggerServiceProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingEngineImplLogRequestLoggerServiceProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyDropDown = openapi_server.resourceTypes.ConfigNodePropertyDropDown
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  OrgApacheSlingEngineImplLogRequestLoggerServiceProperties {
+    title = OrgApacheSlingEngineImplLogRequestLoggerServiceProperties
+    description = OrgApacheSlingEngineImplLogRequestLoggerServiceProperties
+    derivedFrom = Root
+    properties {
+        request_log_service_format {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        request_log_service_output {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        request_log_service_outputtype {
+          type = ConfigNodePropertyDropDown
+          description = ""
+          optional = false
+        }
+        request_log_service_onentry {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingEngineImplLogRequestLoggerServiceProperties {
+    title = OrgApacheSlingEngineImplLogRequestLoggerServiceProperties
+    description = OrgApacheSlingEngineImplLogRequestLoggerServiceProperties
+    implements = openapi_server.resourceTypes.OrgApacheSlingEngineImplLogRequestLoggerServiceProperties
+
+  }
+}

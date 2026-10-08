@@ -1,37 +1,48 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComAdobeCqSocialSyncImplUserSyncListenerImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComAdobeCqSocialSyncImplUserSyncListenerImplProperties   {
-  @JsonProperty("nodetypes")
-  private ConfigNodePropertyArray nodetypes = null;
+@JsonTypeName("comAdobeCqSocialSyncImplUserSyncListenerImplProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComAdobeCqSocialSyncImplUserSyncListenerImplProperties {
 
-  @JsonProperty("ignorableprops")
-  private ConfigNodePropertyArray ignorableprops = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray nodetypes;
 
-  @JsonProperty("ignorablenodes")
-  private ConfigNodePropertyArray ignorablenodes = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray ignorableprops;
 
-  @JsonProperty("enabled")
-  private ConfigNodePropertyBoolean enabled = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray ignorablenodes;
 
-  @JsonProperty("distfolders")
-  private ConfigNodePropertyArray distfolders = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean enabled;
 
-  public ComAdobeCqSocialSyncImplUserSyncListenerImplProperties nodetypes(ConfigNodePropertyArray nodetypes) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray distfolders;
+
+  public ComAdobeCqSocialSyncImplUserSyncListenerImplProperties nodetypes(@Nullable ConfigNodePropertyArray nodetypes) {
     this.nodetypes = nodetypes;
     return this;
   }
@@ -39,20 +50,20 @@ public class ComAdobeCqSocialSyncImplUserSyncListenerImplProperties   {
   /**
    * Get nodetypes
    * @return nodetypes
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getNodetypes() {
+   */
+  @Valid 
+  @Schema(name = "nodetypes", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("nodetypes")
+  public @Nullable ConfigNodePropertyArray getNodetypes() {
     return nodetypes;
   }
 
-  public void setNodetypes(ConfigNodePropertyArray nodetypes) {
+  @JsonProperty("nodetypes")
+  public void setNodetypes(@Nullable ConfigNodePropertyArray nodetypes) {
     this.nodetypes = nodetypes;
   }
 
-  public ComAdobeCqSocialSyncImplUserSyncListenerImplProperties ignorableprops(ConfigNodePropertyArray ignorableprops) {
+  public ComAdobeCqSocialSyncImplUserSyncListenerImplProperties ignorableprops(@Nullable ConfigNodePropertyArray ignorableprops) {
     this.ignorableprops = ignorableprops;
     return this;
   }
@@ -60,20 +71,20 @@ public class ComAdobeCqSocialSyncImplUserSyncListenerImplProperties   {
   /**
    * Get ignorableprops
    * @return ignorableprops
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getIgnorableprops() {
+   */
+  @Valid 
+  @Schema(name = "ignorableprops", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("ignorableprops")
+  public @Nullable ConfigNodePropertyArray getIgnorableprops() {
     return ignorableprops;
   }
 
-  public void setIgnorableprops(ConfigNodePropertyArray ignorableprops) {
+  @JsonProperty("ignorableprops")
+  public void setIgnorableprops(@Nullable ConfigNodePropertyArray ignorableprops) {
     this.ignorableprops = ignorableprops;
   }
 
-  public ComAdobeCqSocialSyncImplUserSyncListenerImplProperties ignorablenodes(ConfigNodePropertyArray ignorablenodes) {
+  public ComAdobeCqSocialSyncImplUserSyncListenerImplProperties ignorablenodes(@Nullable ConfigNodePropertyArray ignorablenodes) {
     this.ignorablenodes = ignorablenodes;
     return this;
   }
@@ -81,20 +92,20 @@ public class ComAdobeCqSocialSyncImplUserSyncListenerImplProperties   {
   /**
    * Get ignorablenodes
    * @return ignorablenodes
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getIgnorablenodes() {
+   */
+  @Valid 
+  @Schema(name = "ignorablenodes", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("ignorablenodes")
+  public @Nullable ConfigNodePropertyArray getIgnorablenodes() {
     return ignorablenodes;
   }
 
-  public void setIgnorablenodes(ConfigNodePropertyArray ignorablenodes) {
+  @JsonProperty("ignorablenodes")
+  public void setIgnorablenodes(@Nullable ConfigNodePropertyArray ignorablenodes) {
     this.ignorablenodes = ignorablenodes;
   }
 
-  public ComAdobeCqSocialSyncImplUserSyncListenerImplProperties enabled(ConfigNodePropertyBoolean enabled) {
+  public ComAdobeCqSocialSyncImplUserSyncListenerImplProperties enabled(@Nullable ConfigNodePropertyBoolean enabled) {
     this.enabled = enabled;
     return this;
   }
@@ -102,20 +113,20 @@ public class ComAdobeCqSocialSyncImplUserSyncListenerImplProperties   {
   /**
    * Get enabled
    * @return enabled
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getEnabled() {
+   */
+  @Valid 
+  @Schema(name = "enabled", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("enabled")
+  public @Nullable ConfigNodePropertyBoolean getEnabled() {
     return enabled;
   }
 
-  public void setEnabled(ConfigNodePropertyBoolean enabled) {
+  @JsonProperty("enabled")
+  public void setEnabled(@Nullable ConfigNodePropertyBoolean enabled) {
     this.enabled = enabled;
   }
 
-  public ComAdobeCqSocialSyncImplUserSyncListenerImplProperties distfolders(ConfigNodePropertyArray distfolders) {
+  public ComAdobeCqSocialSyncImplUserSyncListenerImplProperties distfolders(@Nullable ConfigNodePropertyArray distfolders) {
     this.distfolders = distfolders;
     return this;
   }
@@ -123,22 +134,21 @@ public class ComAdobeCqSocialSyncImplUserSyncListenerImplProperties   {
   /**
    * Get distfolders
    * @return distfolders
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getDistfolders() {
+   */
+  @Valid 
+  @Schema(name = "distfolders", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("distfolders")
+  public @Nullable ConfigNodePropertyArray getDistfolders() {
     return distfolders;
   }
 
-  public void setDistfolders(ConfigNodePropertyArray distfolders) {
+  @JsonProperty("distfolders")
+  public void setDistfolders(@Nullable ConfigNodePropertyArray distfolders) {
     this.distfolders = distfolders;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -162,7 +172,6 @@ public class ComAdobeCqSocialSyncImplUserSyncListenerImplProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComAdobeCqSocialSyncImplUserSyncListenerImplProperties {\n");
-    
     sb.append("    nodetypes: ").append(toIndentedString(nodetypes)).append("\n");
     sb.append("    ignorableprops: ").append(toIndentedString(ignorableprops)).append("\n");
     sb.append("    ignorablenodes: ").append(toIndentedString(ignorablenodes)).append("\n");
@@ -176,11 +185,8 @@ public class ComAdobeCqSocialSyncImplUserSyncListenerImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

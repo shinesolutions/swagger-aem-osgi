@@ -72,7 +72,7 @@ private class OASComAdobeCqContentinsightImplServlTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeCqContentinsightImplServl comAdobeCqContentinsightImplServletsReportingServicesProxyServleProperties = new OASComAdobeCqContentinsightImplServl();
-        Map<String, String> propertyMappings = comAdobeCqContentinsightImplServletsReportingServicesProxyServleProperties.getPropertyMappings();
-        System.assertEquals('reportingservicesProxyWhitelist', propertyMappings.get('reportingservices.proxy.whitelist'));
+        Map<String, String> x-property-mappings = comAdobeCqContentinsightImplServletsReportingServicesProxyServleProperties.getx-property-mappings();
+        System.assertEquals('reportingservicesProxyWhitelist', x-property-mappings.get('reportingservices.proxy.whitelist'));
     }
 }

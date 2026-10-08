@@ -1,0 +1,125 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingDistributionSerializationImplVltVaultDistributionProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingDistributionSerializationImplVltVaultDistributionProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyDropDown = openapi_server.resourceTypes.ConfigNodePropertyDropDown
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  OrgApacheSlingDistributionSerializationImplVltVaultDistributionProperties {
+    title = OrgApacheSlingDistributionSerializationImplVltVaultDistributionProperties
+    description = OrgApacheSlingDistributionSerializationImplVltVaultDistributionProperties
+    derivedFrom = Root
+    properties {
+        name {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        type {
+          type = ConfigNodePropertyDropDown
+          description = ""
+          optional = false
+        }
+        import_mode {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        acl_handling {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        package_roots {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        package_filters {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        property_filters {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        temp_fs_folder {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        use_binary_references {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        auto_save_threshold {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        cleanup_delay {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        file_threshold {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        mega_bytes {
+          type = ConfigNodePropertyDropDown
+          description = ""
+          optional = false
+        }
+        use_off_heap_memory {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        digest_algorithm {
+          type = ConfigNodePropertyDropDown
+          description = ""
+          optional = false
+        }
+        monitoring_queue_size {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        paths_mapping {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        strict_import {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingDistributionSerializationImplVltVaultDistributionProperties {
+    title = OrgApacheSlingDistributionSerializationImplVltVaultDistributionProperties
+    description = OrgApacheSlingDistributionSerializationImplVltVaultDistributionProperties
+    implements = openapi_server.resourceTypes.OrgApacheSlingDistributionSerializationImplVltVaultDistributionProperties
+
+  }
+}

@@ -4,41 +4,58 @@ import apimodels.ConfigNodePropertyArray;
 import apimodels.ConfigNodePropertyBoolean;
 import apimodels.ConfigNodePropertyInteger;
 import apimodels.ConfigNodePropertyString;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * ComDayCqAuthImplLoginSelectorHandlerProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class ComDayCqAuthImplLoginSelectorHandlerProperties   {
   @JsonProperty("path")
-  private ConfigNodePropertyString path = null;
+  @Valid
+
+  private ConfigNodePropertyString path;
 
   @JsonProperty("service.ranking")
-  private ConfigNodePropertyInteger serviceRanking = null;
+  @Valid
+
+  private ConfigNodePropertyInteger serviceRanking;
 
   @JsonProperty("auth.loginselector.mappings")
-  private ConfigNodePropertyArray authLoginselectorMappings = null;
+  @Valid
+
+  private ConfigNodePropertyArray authLoginselectorMappings;
 
   @JsonProperty("auth.loginselector.changepw.mappings")
-  private ConfigNodePropertyArray authLoginselectorChangepwMappings = null;
+  @Valid
+
+  private ConfigNodePropertyArray authLoginselectorChangepwMappings;
 
   @JsonProperty("auth.loginselector.defaultloginpage")
-  private ConfigNodePropertyString authLoginselectorDefaultloginpage = null;
+  @Valid
+
+  private ConfigNodePropertyString authLoginselectorDefaultloginpage;
 
   @JsonProperty("auth.loginselector.defaultchangepwpage")
-  private ConfigNodePropertyString authLoginselectorDefaultchangepwpage = null;
+  @Valid
+
+  private ConfigNodePropertyString authLoginselectorDefaultchangepwpage;
 
   @JsonProperty("auth.loginselector.handle")
-  private ConfigNodePropertyArray authLoginselectorHandle = null;
+  @Valid
+
+  private ConfigNodePropertyArray authLoginselectorHandle;
 
   @JsonProperty("auth.loginselector.handle.all.extensions")
-  private ConfigNodePropertyBoolean authLoginselectorHandleAllExtensions = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean authLoginselectorHandleAllExtensions;
 
   public ComDayCqAuthImplLoginSelectorHandlerProperties path(ConfigNodePropertyString path) {
     this.path = path;
@@ -49,7 +66,6 @@ public class ComDayCqAuthImplLoginSelectorHandlerProperties   {
    * Get path
    * @return path
   **/
-  @Valid
   public ConfigNodePropertyString getPath() {
     return path;
   }
@@ -67,7 +83,6 @@ public class ComDayCqAuthImplLoginSelectorHandlerProperties   {
    * Get serviceRanking
    * @return serviceRanking
   **/
-  @Valid
   public ConfigNodePropertyInteger getServiceRanking() {
     return serviceRanking;
   }
@@ -85,7 +100,6 @@ public class ComDayCqAuthImplLoginSelectorHandlerProperties   {
    * Get authLoginselectorMappings
    * @return authLoginselectorMappings
   **/
-  @Valid
   public ConfigNodePropertyArray getAuthLoginselectorMappings() {
     return authLoginselectorMappings;
   }
@@ -103,7 +117,6 @@ public class ComDayCqAuthImplLoginSelectorHandlerProperties   {
    * Get authLoginselectorChangepwMappings
    * @return authLoginselectorChangepwMappings
   **/
-  @Valid
   public ConfigNodePropertyArray getAuthLoginselectorChangepwMappings() {
     return authLoginselectorChangepwMappings;
   }
@@ -121,7 +134,6 @@ public class ComDayCqAuthImplLoginSelectorHandlerProperties   {
    * Get authLoginselectorDefaultloginpage
    * @return authLoginselectorDefaultloginpage
   **/
-  @Valid
   public ConfigNodePropertyString getAuthLoginselectorDefaultloginpage() {
     return authLoginselectorDefaultloginpage;
   }
@@ -139,7 +151,6 @@ public class ComDayCqAuthImplLoginSelectorHandlerProperties   {
    * Get authLoginselectorDefaultchangepwpage
    * @return authLoginselectorDefaultchangepwpage
   **/
-  @Valid
   public ConfigNodePropertyString getAuthLoginselectorDefaultchangepwpage() {
     return authLoginselectorDefaultchangepwpage;
   }
@@ -157,7 +168,6 @@ public class ComDayCqAuthImplLoginSelectorHandlerProperties   {
    * Get authLoginselectorHandle
    * @return authLoginselectorHandle
   **/
-  @Valid
   public ConfigNodePropertyArray getAuthLoginselectorHandle() {
     return authLoginselectorHandle;
   }
@@ -175,7 +185,6 @@ public class ComDayCqAuthImplLoginSelectorHandlerProperties   {
    * Get authLoginselectorHandleAllExtensions
    * @return authLoginselectorHandleAllExtensions
   **/
-  @Valid
   public ConfigNodePropertyBoolean getAuthLoginselectorHandleAllExtensions() {
     return authLoginselectorHandleAllExtensions;
   }
@@ -186,7 +195,7 @@ public class ComDayCqAuthImplLoginSelectorHandlerProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -231,11 +240,8 @@ public class ComDayCqAuthImplLoginSelectorHandlerProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

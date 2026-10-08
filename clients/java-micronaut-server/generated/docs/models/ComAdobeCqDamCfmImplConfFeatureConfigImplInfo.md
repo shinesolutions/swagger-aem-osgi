@@ -1,0 +1,20 @@
+
+
+# ComAdobeCqDamCfmImplConfFeatureConfigImplInfo
+
+The class is defined in **[ComAdobeCqDamCfmImplConfFeatureConfigImplInfo.java](../../src/main/java/org/openapitools/model/ComAdobeCqDamCfmImplConfFeatureConfigImplInfo.java)**
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**pid** | `String` |  |  [optional property]
+**title** | `String` |  |  [optional property]
+**description** | `String` |  |  [optional property]
+**properties** | [`ComAdobeCqDamCfmImplConfFeatureConfigImplProperties`](ComAdobeCqDamCfmImplConfFeatureConfigImplProperties.md) |  |  [optional property]
+
+
+
+
+
+

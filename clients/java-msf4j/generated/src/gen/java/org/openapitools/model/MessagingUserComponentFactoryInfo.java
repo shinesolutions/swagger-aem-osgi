@@ -10,19 +10,19 @@ import org.openapitools.model.MessagingUserComponentFactoryProperties;
 /**
  * MessagingUserComponentFactoryInfo
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaMSF4JServerCodegen", date = "2019-08-05T00:54:29.762Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaMSF4JServerCodegen", date = "2026-10-07T12:53:29.980508721Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class MessagingUserComponentFactoryInfo   {
   @JsonProperty("pid")
-  private String pid = null;
+  private String pid;
 
   @JsonProperty("title")
-  private String title = null;
+  private String title;
 
   @JsonProperty("description")
-  private String description = null;
+  private String description;
 
   @JsonProperty("properties")
-  private MessagingUserComponentFactoryProperties properties = null;
+  private MessagingUserComponentFactoryProperties properties;
 
   public MessagingUserComponentFactoryInfo pid(String pid) {
     this.pid = pid;
@@ -98,7 +98,7 @@ public class MessagingUserComponentFactoryInfo   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -134,11 +134,8 @@ public class MessagingUserComponentFactoryInfo   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

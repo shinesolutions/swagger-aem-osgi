@@ -1,0 +1,15 @@
+{
+  "namespace": "model",
+  "type": "record",
+  "doc": "",
+  "name": "ComAdobeCqScreensDeviceRegistrationImplRegistrationServiceImplProperties",
+  "fields": [
+    {
+      "name": "deviceRegistrationTimeout",
+      "type": ["null", "model.ConfigNodePropertyInteger"],
+      "doc": "",
+      "default": null
+    }
+  ]
+
+}

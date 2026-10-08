@@ -72,8 +72,8 @@ private class OASOrgApacheSlingJcrDavexImplServletTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASOrgApacheSlingJcrDavexImplServlet orgApacheSlingJcrDavexImplServletsSlingDavExServletProperties = new OASOrgApacheSlingJcrDavexImplServlet();
-        Map<String, String> propertyMappings = orgApacheSlingJcrDavexImplServletsSlingDavExServletProperties.getPropertyMappings();
-        System.assertEquals('davCreateAbsoluteUri', propertyMappings.get('dav.create-absolute-uri'));
-        System.assertEquals('davProtectedhandlers', propertyMappings.get('dav.protectedhandlers'));
+        Map<String, String> x-property-mappings = orgApacheSlingJcrDavexImplServletsSlingDavExServletProperties.getx-property-mappings();
+        System.assertEquals('davCreateAbsoluteUri', x-property-mappings.get('dav.create-absolute-uri'));
+        System.assertEquals('davProtectedhandlers', x-property-mappings.get('dav.protectedhandlers'));
     }
 }

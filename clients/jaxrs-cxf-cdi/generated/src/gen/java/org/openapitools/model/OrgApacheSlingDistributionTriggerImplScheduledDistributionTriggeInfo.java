@@ -2,27 +2,28 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggeProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggeInfo   {
   
-  private String pid = null;
+  private String pid;
 
-  private String title = null;
+  private String title;
 
-  private String description = null;
+  private String description;
 
-  private OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggeProperties properties = null;
-
+  private OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggeProperties properties;
 
   /**
    **/
@@ -98,7 +99,7 @@ public class OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggeInf
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -106,10 +107,10 @@ public class OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggeInf
       return false;
     }
     OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggeInfo orgApacheSlingDistributionTriggerImplScheduledDistributionTriggeInfo = (OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggeInfo) o;
-    return Objects.equals(pid, orgApacheSlingDistributionTriggerImplScheduledDistributionTriggeInfo.pid) &&
-        Objects.equals(title, orgApacheSlingDistributionTriggerImplScheduledDistributionTriggeInfo.title) &&
-        Objects.equals(description, orgApacheSlingDistributionTriggerImplScheduledDistributionTriggeInfo.description) &&
-        Objects.equals(properties, orgApacheSlingDistributionTriggerImplScheduledDistributionTriggeInfo.properties);
+    return Objects.equals(this.pid, orgApacheSlingDistributionTriggerImplScheduledDistributionTriggeInfo.pid) &&
+        Objects.equals(this.title, orgApacheSlingDistributionTriggerImplScheduledDistributionTriggeInfo.title) &&
+        Objects.equals(this.description, orgApacheSlingDistributionTriggerImplScheduledDistributionTriggeInfo.description) &&
+        Objects.equals(this.properties, orgApacheSlingDistributionTriggerImplScheduledDistributionTriggeInfo.properties);
   }
 
   @Override
@@ -134,11 +135,8 @@ public class OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggeInf
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

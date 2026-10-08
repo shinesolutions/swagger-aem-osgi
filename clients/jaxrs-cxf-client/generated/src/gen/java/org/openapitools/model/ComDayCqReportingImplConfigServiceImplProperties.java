@@ -5,46 +5,51 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
 
 import io.swagger.annotations.ApiModelProperty;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlType;
-import javax.xml.bind.annotation.XmlEnum;
-import javax.xml.bind.annotation.XmlEnumValue;
+import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
 
 public class ComDayCqReportingImplConfigServiceImplProperties  {
   
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString repconfTimezone = null;
+
+  private ConfigNodePropertyString repconfTimezone;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString repconfLocale = null;
+
+  private ConfigNodePropertyString repconfLocale;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString repconfSnapshots = null;
+
+  private ConfigNodePropertyString repconfSnapshots;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString repconfRepdir = null;
+
+  private ConfigNodePropertyString repconfRepdir;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyInteger repconfHourofday = null;
+
+  private ConfigNodePropertyInteger repconfHourofday;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyInteger repconfMinofhour = null;
+
+  private ConfigNodePropertyInteger repconfMinofhour;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyInteger repconfMaxrows = null;
+
+  private ConfigNodePropertyInteger repconfMaxrows;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyBoolean repconfFakedata = null;
+
+  private ConfigNodePropertyBoolean repconfFakedata;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString repconfSnapshotuser = null;
+
+  private ConfigNodePropertyString repconfSnapshotuser;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyBoolean repconfEnforcesnapshotuser = null;
+
+  private ConfigNodePropertyBoolean repconfEnforcesnapshotuser;
  /**
    * Get repconfTimezone
    * @return repconfTimezone
@@ -225,6 +230,31 @@ public class ComDayCqReportingImplConfigServiceImplProperties  {
     return this;
   }
 
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    ComDayCqReportingImplConfigServiceImplProperties comDayCqReportingImplConfigServiceImplProperties = (ComDayCqReportingImplConfigServiceImplProperties) o;
+    return Objects.equals(this.repconfTimezone, comDayCqReportingImplConfigServiceImplProperties.repconfTimezone) &&
+        Objects.equals(this.repconfLocale, comDayCqReportingImplConfigServiceImplProperties.repconfLocale) &&
+        Objects.equals(this.repconfSnapshots, comDayCqReportingImplConfigServiceImplProperties.repconfSnapshots) &&
+        Objects.equals(this.repconfRepdir, comDayCqReportingImplConfigServiceImplProperties.repconfRepdir) &&
+        Objects.equals(this.repconfHourofday, comDayCqReportingImplConfigServiceImplProperties.repconfHourofday) &&
+        Objects.equals(this.repconfMinofhour, comDayCqReportingImplConfigServiceImplProperties.repconfMinofhour) &&
+        Objects.equals(this.repconfMaxrows, comDayCqReportingImplConfigServiceImplProperties.repconfMaxrows) &&
+        Objects.equals(this.repconfFakedata, comDayCqReportingImplConfigServiceImplProperties.repconfFakedata) &&
+        Objects.equals(this.repconfSnapshotuser, comDayCqReportingImplConfigServiceImplProperties.repconfSnapshotuser) &&
+        Objects.equals(this.repconfEnforcesnapshotuser, comDayCqReportingImplConfigServiceImplProperties.repconfEnforcesnapshotuser);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(repconfTimezone, repconfLocale, repconfSnapshots, repconfRepdir, repconfHourofday, repconfMinofhour, repconfMaxrows, repconfFakedata, repconfSnapshotuser, repconfEnforcesnapshotuser);
+  }
 
   @Override
   public String toString() {
@@ -249,11 +279,8 @@ public class ComDayCqReportingImplConfigServiceImplProperties  {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private static String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

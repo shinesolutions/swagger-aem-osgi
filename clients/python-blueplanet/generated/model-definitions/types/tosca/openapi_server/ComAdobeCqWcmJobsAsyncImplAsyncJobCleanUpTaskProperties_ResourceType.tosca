@@ -1,0 +1,47 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqWcmJobsAsyncImplAsyncJobCleanUpTaskProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqWcmJobsAsyncImplAsyncJobCleanUpTaskProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComAdobeCqWcmJobsAsyncImplAsyncJobCleanUpTaskProperties {
+    title = ComAdobeCqWcmJobsAsyncImplAsyncJobCleanUpTaskProperties
+    description = ComAdobeCqWcmJobsAsyncImplAsyncJobCleanUpTaskProperties
+    derivedFrom = Root
+    properties {
+        scheduler_expression {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        job_purge_threshold {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        job_purge_max_jobs {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqWcmJobsAsyncImplAsyncJobCleanUpTaskProperties {
+    title = ComAdobeCqWcmJobsAsyncImplAsyncJobCleanUpTaskProperties
+    description = ComAdobeCqWcmJobsAsyncImplAsyncJobCleanUpTaskProperties
+    implements = openapi_server.resourceTypes.ComAdobeCqWcmJobsAsyncImplAsyncJobCleanUpTaskProperties
+
+  }
+}

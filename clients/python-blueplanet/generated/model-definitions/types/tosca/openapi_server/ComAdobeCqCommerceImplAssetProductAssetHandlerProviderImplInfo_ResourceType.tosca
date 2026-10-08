@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqCommerceImplAssetProductAssetHandlerProviderImplInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqCommerceImplAssetProductAssetHandlerProviderImplInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComAdobeCqCommerceImplAssetProductAssetHandlerProviderImplProperties = openapi_server.resourceTypes.ComAdobeCqCommerceImplAssetProductAssetHandlerProviderImplProperties
+}
+resourceTypes {
+
+  ComAdobeCqCommerceImplAssetProductAssetHandlerProviderImplInfo {
+    title = ComAdobeCqCommerceImplAssetProductAssetHandlerProviderImplInfo
+    description = ComAdobeCqCommerceImplAssetProductAssetHandlerProviderImplInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComAdobeCqCommerceImplAssetProductAssetHandlerProviderImplProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqCommerceImplAssetProductAssetHandlerProviderImplInfo {
+    title = ComAdobeCqCommerceImplAssetProductAssetHandlerProviderImplInfo
+    description = ComAdobeCqCommerceImplAssetProductAssetHandlerProviderImplInfo
+    implements = openapi_server.resourceTypes.ComAdobeCqCommerceImplAssetProductAssetHandlerProviderImplInfo
+
+  }
+}

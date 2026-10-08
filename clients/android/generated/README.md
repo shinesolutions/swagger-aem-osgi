@@ -49,8 +49,8 @@ At first generate the JAR by executing:
 
 Then manually install the following JARs:
 
-* target/openapi-android-client-1.0.0.jar
-* target/lib/*.jar
+- target/openapi-android-client-1.0.0.jar
+- target/lib/*.jar
 
 ## Getting Started
 
@@ -64,17 +64,17 @@ public class ConfigmgrApiExample {
 
     public static void main(String[] args) {
         ConfigmgrApi apiInstance = new ConfigmgrApi();
-        Boolean post = true; // Boolean | 
-        Boolean apply = true; // Boolean | 
-        Boolean delete = true; // Boolean | 
-        String action = "action_example"; // String | 
-        String location = "location_example"; // String | 
-        List<String> propertylist = Arrays.asList("propertylist_example"); // List<String> | 
-        Boolean showPlaceholder = true; // Boolean | 
-        Integer maximumCacheEntries = 56; // Integer | 
-        String afScriptingCompatversion = "afScriptingCompatversion_example"; // String | 
-        Boolean makeFileNameUnique = true; // Boolean | 
-        Boolean generatingCompliantData = true; // Boolean | 
+        Boolean post = null; // Boolean | 
+        Boolean apply = null; // Boolean | 
+        Boolean delete = null; // Boolean | 
+        String action = null; // String | 
+        String location = null; // String | 
+        List<String> propertylist = null; // List<String> | 
+        Boolean showPlaceholder = null; // Boolean | 
+        Integer maximumCacheEntries = null; // Integer | 
+        String afScriptingCompatversion = null; // String | 
+        Boolean makeFileNameUnique = null; // Boolean | 
+        Boolean generatingCompliantData = null; // Boolean | 
         try {
             AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationInfo result = apiInstance.adaptiveFormAndInteractiveCommunicationWebChannelConfiguration(post, apply, delete, action, location, propertylist, showPlaceholder, maximumCacheEntries, afScriptingCompatversion, makeFileNameUnique, generatingCompliantData);
             System.out.println(result);

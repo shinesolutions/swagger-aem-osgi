@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqDamCfmImplContentRewriterPayloadFilterPr
 
 @Canonical
 class ComAdobeCqDamCfmImplContentRewriterPayloadFilterInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqDamCfmImplContentRewriterPayloadFilterProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqDamCfmImplContentRewriterPayloadFilterProperties properties
 }

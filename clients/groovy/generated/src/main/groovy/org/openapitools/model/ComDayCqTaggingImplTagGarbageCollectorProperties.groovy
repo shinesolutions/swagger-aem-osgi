@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqTaggingImplTagGarbageCollectorProperties {
-    ConfigNodePropertyString schedulerExpression = null
-
+    
+    ConfigNodePropertyString schedulerExpression
 }

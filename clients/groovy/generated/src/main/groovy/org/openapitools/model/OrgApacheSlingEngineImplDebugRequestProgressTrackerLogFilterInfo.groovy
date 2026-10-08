@@ -7,12 +7,12 @@ import org.openapitools.model.OrgApacheSlingEngineImplDebugRequestProgressTracke
 
 @Canonical
 class OrgApacheSlingEngineImplDebugRequestProgressTrackerLogFilterInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheSlingEngineImplDebugRequestProgressTrackerLogFilterProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheSlingEngineImplDebugRequestProgressTrackerLogFilterProperties properties
 }

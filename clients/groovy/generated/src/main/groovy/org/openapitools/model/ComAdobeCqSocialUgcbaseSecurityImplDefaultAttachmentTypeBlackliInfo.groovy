@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachme
 
 @Canonical
 class ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliProperties properties
 }

@@ -7,16 +7,16 @@ import org.openapitools.model.OrgApacheSlingServletsResolverSlingServletResolver
 
 @Canonical
 class OrgApacheSlingServletsResolverSlingServletResolverInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheSlingServletsResolverSlingServletResolverProperties properties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheSlingServletsResolverSlingServletResolverProperties properties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

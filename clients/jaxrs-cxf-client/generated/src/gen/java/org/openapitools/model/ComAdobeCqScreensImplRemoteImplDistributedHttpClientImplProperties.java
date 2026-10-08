@@ -3,19 +3,15 @@ package org.openapitools.model;
 import org.openapitools.model.ConfigNodePropertyInteger;
 
 import io.swagger.annotations.ApiModelProperty;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlType;
-import javax.xml.bind.annotation.XmlEnum;
-import javax.xml.bind.annotation.XmlEnumValue;
+import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
 
 public class ComAdobeCqScreensImplRemoteImplDistributedHttpClientImplProperties  {
   
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyInteger comAdobeAemScreensImplRemoteRequestTimeout = null;
+
+  private ConfigNodePropertyInteger comAdobeAemScreensImplRemoteRequestTimeout;
  /**
    * Get comAdobeAemScreensImplRemoteRequestTimeout
    * @return comAdobeAemScreensImplRemoteRequestTimeout
@@ -34,6 +30,22 @@ public class ComAdobeCqScreensImplRemoteImplDistributedHttpClientImplProperties 
     return this;
   }
 
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    ComAdobeCqScreensImplRemoteImplDistributedHttpClientImplProperties comAdobeCqScreensImplRemoteImplDistributedHttpClientImplProperties = (ComAdobeCqScreensImplRemoteImplDistributedHttpClientImplProperties) o;
+    return Objects.equals(this.comAdobeAemScreensImplRemoteRequestTimeout, comAdobeCqScreensImplRemoteImplDistributedHttpClientImplProperties.comAdobeAemScreensImplRemoteRequestTimeout);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(comAdobeAemScreensImplRemoteRequestTimeout);
+  }
 
   @Override
   public String toString() {
@@ -49,11 +61,8 @@ public class ComAdobeCqScreensImplRemoteImplDistributedHttpClientImplProperties 
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private static String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

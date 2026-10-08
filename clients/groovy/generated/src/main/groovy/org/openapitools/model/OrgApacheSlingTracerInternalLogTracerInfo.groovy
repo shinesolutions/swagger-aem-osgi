@@ -7,12 +7,12 @@ import org.openapitools.model.OrgApacheSlingTracerInternalLogTracerProperties;
 
 @Canonical
 class OrgApacheSlingTracerInternalLogTracerInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheSlingTracerInternalLogTracerProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheSlingTracerInternalLogTracerProperties properties
 }

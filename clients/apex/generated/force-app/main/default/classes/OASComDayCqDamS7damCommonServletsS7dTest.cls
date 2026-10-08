@@ -72,8 +72,8 @@ private class OASComDayCqDamS7damCommonServletsS7dTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqDamS7damCommonServletsS7d comDayCqDamS7damCommonServletsS7damProductInfoServletProperties = new OASComDayCqDamS7damCommonServletsS7d();
-        Map<String, String> propertyMappings = comDayCqDamS7damCommonServletsS7damProductInfoServletProperties.getPropertyMappings();
-        System.assertEquals('slingServletPaths', propertyMappings.get('sling.servlet.paths'));
-        System.assertEquals('slingServletMethods', propertyMappings.get('sling.servlet.methods'));
+        Map<String, String> x-property-mappings = comDayCqDamS7damCommonServletsS7damProductInfoServletProperties.getx-property-mappings();
+        System.assertEquals('slingServletPaths', x-property-mappings.get('sling.servlet.paths'));
+        System.assertEquals('slingServletMethods', x-property-mappings.get('sling.servlet.methods'));
     }
 }

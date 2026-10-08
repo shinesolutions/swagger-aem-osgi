@@ -9,14 +9,14 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiProperties {
-    ConfigNodePropertyString name = null
-
-    ConfigNodePropertyArray endpoints = null
-
-    ConfigNodePropertyInteger pullItems = null
-
-    ConfigNodePropertyString packageBuilderTarget = null
-
-    ConfigNodePropertyString transportSecretProviderTarget = null
-
+    
+    ConfigNodePropertyString name
+    
+    ConfigNodePropertyArray endpoints
+    
+    ConfigNodePropertyInteger pullItems
+    
+    ConfigNodePropertyString packageBuilderTarget
+    
+    ConfigNodePropertyString transportSecretProviderTarget
 }

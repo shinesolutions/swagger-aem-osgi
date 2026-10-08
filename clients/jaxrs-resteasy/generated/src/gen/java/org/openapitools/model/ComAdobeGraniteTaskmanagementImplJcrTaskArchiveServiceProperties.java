@@ -4,25 +4,29 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2019-08-05T00:59:30.156Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2026-10-07T12:54:21.614735164Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteTaskmanagementImplJcrTaskArchiveServiceProperties   {
   
-  private ConfigNodePropertyBoolean archivingEnabled = null;
-  private ConfigNodePropertyString schedulerExpression = null;
-  private ConfigNodePropertyInteger archiveSinceDaysCompleted = null;
+  private ConfigNodePropertyBoolean archivingEnabled;
+  private ConfigNodePropertyString schedulerExpression;
+  private ConfigNodePropertyInteger archiveSinceDaysCompleted;
 
   /**
    **/
   
   @ApiModelProperty(value = "")
   @JsonProperty("archiving.enabled")
+  @Valid
   public ConfigNodePropertyBoolean getArchivingEnabled() {
     return archivingEnabled;
   }
@@ -35,6 +39,7 @@ public class ComAdobeGraniteTaskmanagementImplJcrTaskArchiveServiceProperties   
   
   @ApiModelProperty(value = "")
   @JsonProperty("scheduler.expression")
+  @Valid
   public ConfigNodePropertyString getSchedulerExpression() {
     return schedulerExpression;
   }
@@ -47,6 +52,7 @@ public class ComAdobeGraniteTaskmanagementImplJcrTaskArchiveServiceProperties   
   
   @ApiModelProperty(value = "")
   @JsonProperty("archive.since.days.completed")
+  @Valid
   public ConfigNodePropertyInteger getArchiveSinceDaysCompleted() {
     return archiveSinceDaysCompleted;
   }
@@ -56,7 +62,7 @@ public class ComAdobeGraniteTaskmanagementImplJcrTaskArchiveServiceProperties   
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -64,9 +70,9 @@ public class ComAdobeGraniteTaskmanagementImplJcrTaskArchiveServiceProperties   
       return false;
     }
     ComAdobeGraniteTaskmanagementImplJcrTaskArchiveServiceProperties comAdobeGraniteTaskmanagementImplJcrTaskArchiveServiceProperties = (ComAdobeGraniteTaskmanagementImplJcrTaskArchiveServiceProperties) o;
-    return Objects.equals(archivingEnabled, comAdobeGraniteTaskmanagementImplJcrTaskArchiveServiceProperties.archivingEnabled) &&
-        Objects.equals(schedulerExpression, comAdobeGraniteTaskmanagementImplJcrTaskArchiveServiceProperties.schedulerExpression) &&
-        Objects.equals(archiveSinceDaysCompleted, comAdobeGraniteTaskmanagementImplJcrTaskArchiveServiceProperties.archiveSinceDaysCompleted);
+    return Objects.equals(this.archivingEnabled, comAdobeGraniteTaskmanagementImplJcrTaskArchiveServiceProperties.archivingEnabled) &&
+        Objects.equals(this.schedulerExpression, comAdobeGraniteTaskmanagementImplJcrTaskArchiveServiceProperties.schedulerExpression) &&
+        Objects.equals(this.archiveSinceDaysCompleted, comAdobeGraniteTaskmanagementImplJcrTaskArchiveServiceProperties.archiveSinceDaysCompleted);
   }
 
   @Override
@@ -90,11 +96,8 @@ public class ComAdobeGraniteTaskmanagementImplJcrTaskArchiveServiceProperties   
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

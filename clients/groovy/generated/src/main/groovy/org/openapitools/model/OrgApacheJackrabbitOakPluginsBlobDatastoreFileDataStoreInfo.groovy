@@ -7,16 +7,16 @@ import org.openapitools.model.OrgApacheJackrabbitOakPluginsBlobDatastoreFileData
 
 @Canonical
 class OrgApacheJackrabbitOakPluginsBlobDatastoreFileDataStoreInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheJackrabbitOakPluginsBlobDatastoreFileDataStoreProperties properties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheJackrabbitOakPluginsBlobDatastoreFileDataStoreProperties properties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

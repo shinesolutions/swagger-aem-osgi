@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqSocialEnablementAdaptorsEnablementResour
 
 @Canonical
 class ComAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFactoInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFactoProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFactoProperties properties
 }

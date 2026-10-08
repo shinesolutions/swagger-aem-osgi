@@ -1,23 +1,34 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comDayCqCommonsImplExternalizerImplProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqCommonsImplExternalizerImplProperties   {
-  
-  private @Valid ConfigNodePropertyArray externalizerDomains = null;
-  private @Valid ConfigNodePropertyString externalizerHost = null;
-  private @Valid ConfigNodePropertyString externalizerContextpath = null;
-  private @Valid ConfigNodePropertyBoolean externalizerEncodedpath = null;
+  private ConfigNodePropertyArray externalizerDomains;
+  private ConfigNodePropertyString externalizerHost;
+  private ConfigNodePropertyString externalizerContextpath;
+  private ConfigNodePropertyBoolean externalizerEncodedpath;
+
+  public ComDayCqCommonsImplExternalizerImplProperties() {
+  }
 
   /**
    **/
@@ -29,9 +40,11 @@ public class ComDayCqCommonsImplExternalizerImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("externalizer.domains")
-  public ConfigNodePropertyArray getExternalizerDomains() {
+  @Valid public ConfigNodePropertyArray getExternalizerDomains() {
     return externalizerDomains;
   }
+
+  @JsonProperty("externalizer.domains")
   public void setExternalizerDomains(ConfigNodePropertyArray externalizerDomains) {
     this.externalizerDomains = externalizerDomains;
   }
@@ -46,9 +59,11 @@ public class ComDayCqCommonsImplExternalizerImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("externalizer.host")
-  public ConfigNodePropertyString getExternalizerHost() {
+  @Valid public ConfigNodePropertyString getExternalizerHost() {
     return externalizerHost;
   }
+
+  @JsonProperty("externalizer.host")
   public void setExternalizerHost(ConfigNodePropertyString externalizerHost) {
     this.externalizerHost = externalizerHost;
   }
@@ -63,9 +78,11 @@ public class ComDayCqCommonsImplExternalizerImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("externalizer.contextpath")
-  public ConfigNodePropertyString getExternalizerContextpath() {
+  @Valid public ConfigNodePropertyString getExternalizerContextpath() {
     return externalizerContextpath;
   }
+
+  @JsonProperty("externalizer.contextpath")
   public void setExternalizerContextpath(ConfigNodePropertyString externalizerContextpath) {
     this.externalizerContextpath = externalizerContextpath;
   }
@@ -80,16 +97,18 @@ public class ComDayCqCommonsImplExternalizerImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("externalizer.encodedpath")
-  public ConfigNodePropertyBoolean getExternalizerEncodedpath() {
+  @Valid public ConfigNodePropertyBoolean getExternalizerEncodedpath() {
     return externalizerEncodedpath;
   }
+
+  @JsonProperty("externalizer.encodedpath")
   public void setExternalizerEncodedpath(ConfigNodePropertyBoolean externalizerEncodedpath) {
     this.externalizerEncodedpath = externalizerEncodedpath;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -97,10 +116,10 @@ public class ComDayCqCommonsImplExternalizerImplProperties   {
       return false;
     }
     ComDayCqCommonsImplExternalizerImplProperties comDayCqCommonsImplExternalizerImplProperties = (ComDayCqCommonsImplExternalizerImplProperties) o;
-    return Objects.equals(externalizerDomains, comDayCqCommonsImplExternalizerImplProperties.externalizerDomains) &&
-        Objects.equals(externalizerHost, comDayCqCommonsImplExternalizerImplProperties.externalizerHost) &&
-        Objects.equals(externalizerContextpath, comDayCqCommonsImplExternalizerImplProperties.externalizerContextpath) &&
-        Objects.equals(externalizerEncodedpath, comDayCqCommonsImplExternalizerImplProperties.externalizerEncodedpath);
+    return Objects.equals(this.externalizerDomains, comDayCqCommonsImplExternalizerImplProperties.externalizerDomains) &&
+        Objects.equals(this.externalizerHost, comDayCqCommonsImplExternalizerImplProperties.externalizerHost) &&
+        Objects.equals(this.externalizerContextpath, comDayCqCommonsImplExternalizerImplProperties.externalizerContextpath) &&
+        Objects.equals(this.externalizerEncodedpath, comDayCqCommonsImplExternalizerImplProperties.externalizerEncodedpath);
   }
 
   @Override
@@ -125,11 +144,9 @@ public class ComDayCqCommonsImplExternalizerImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

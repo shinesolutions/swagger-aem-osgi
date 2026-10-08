@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqScreensSegmentationImplSegmentationFeatu
 
 @Canonical
 class ComAdobeCqScreensSegmentationImplSegmentationFeatureFlagInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqScreensSegmentationImplSegmentationFeatureFlagProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqScreensSegmentationImplSegmentationFeatureFlagProperties properties
 }

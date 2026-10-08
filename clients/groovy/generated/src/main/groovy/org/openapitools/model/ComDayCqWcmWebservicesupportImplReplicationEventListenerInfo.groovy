@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqWcmWebservicesupportImplReplicationEventLi
 
 @Canonical
 class ComDayCqWcmWebservicesupportImplReplicationEventListenerInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqWcmWebservicesupportImplReplicationEventListenerProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqWcmWebservicesupportImplReplicationEventListenerProperties properties
 }

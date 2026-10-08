@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyArray;
 
 @Canonical
 class OrgApacheSlingCommonsHtmlInternalTagsoupHtmlParserProperties {
-    ConfigNodePropertyArray parserFeatures = null
-
+    
+    ConfigNodePropertyArray parserFeatures
 }

@@ -1,34 +1,45 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComDayCqDamHandlerGibsonFontmanagerImplFontManagerServiceImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComDayCqDamHandlerGibsonFontmanagerImplFontManagerServiceImplProperties   {
-  @JsonProperty("event.filter")
-  private ConfigNodePropertyString eventFilter = null;
+@JsonTypeName("comDayCqDamHandlerGibsonFontmanagerImplFontManagerServiceImplProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComDayCqDamHandlerGibsonFontmanagerImplFontManagerServiceImplProperties {
 
-  @JsonProperty("fontmgr.system.font.dir")
-  private ConfigNodePropertyArray fontmgrSystemFontDir = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString eventFilter;
 
-  @JsonProperty("fontmgr.adobe.font.dir")
-  private ConfigNodePropertyString fontmgrAdobeFontDir = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray fontmgrSystemFontDir;
 
-  @JsonProperty("fontmgr.customer.font.dir")
-  private ConfigNodePropertyString fontmgrCustomerFontDir = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString fontmgrAdobeFontDir;
 
-  public ComDayCqDamHandlerGibsonFontmanagerImplFontManagerServiceImplProperties eventFilter(ConfigNodePropertyString eventFilter) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString fontmgrCustomerFontDir;
+
+  public ComDayCqDamHandlerGibsonFontmanagerImplFontManagerServiceImplProperties eventFilter(@Nullable ConfigNodePropertyString eventFilter) {
     this.eventFilter = eventFilter;
     return this;
   }
@@ -36,20 +47,20 @@ public class ComDayCqDamHandlerGibsonFontmanagerImplFontManagerServiceImplProper
   /**
    * Get eventFilter
    * @return eventFilter
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getEventFilter() {
+   */
+  @Valid 
+  @Schema(name = "event.filter", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("event.filter")
+  public @Nullable ConfigNodePropertyString getEventFilter() {
     return eventFilter;
   }
 
-  public void setEventFilter(ConfigNodePropertyString eventFilter) {
+  @JsonProperty("event.filter")
+  public void setEventFilter(@Nullable ConfigNodePropertyString eventFilter) {
     this.eventFilter = eventFilter;
   }
 
-  public ComDayCqDamHandlerGibsonFontmanagerImplFontManagerServiceImplProperties fontmgrSystemFontDir(ConfigNodePropertyArray fontmgrSystemFontDir) {
+  public ComDayCqDamHandlerGibsonFontmanagerImplFontManagerServiceImplProperties fontmgrSystemFontDir(@Nullable ConfigNodePropertyArray fontmgrSystemFontDir) {
     this.fontmgrSystemFontDir = fontmgrSystemFontDir;
     return this;
   }
@@ -57,20 +68,20 @@ public class ComDayCqDamHandlerGibsonFontmanagerImplFontManagerServiceImplProper
   /**
    * Get fontmgrSystemFontDir
    * @return fontmgrSystemFontDir
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getFontmgrSystemFontDir() {
+   */
+  @Valid 
+  @Schema(name = "fontmgr.system.font.dir", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("fontmgr.system.font.dir")
+  public @Nullable ConfigNodePropertyArray getFontmgrSystemFontDir() {
     return fontmgrSystemFontDir;
   }
 
-  public void setFontmgrSystemFontDir(ConfigNodePropertyArray fontmgrSystemFontDir) {
+  @JsonProperty("fontmgr.system.font.dir")
+  public void setFontmgrSystemFontDir(@Nullable ConfigNodePropertyArray fontmgrSystemFontDir) {
     this.fontmgrSystemFontDir = fontmgrSystemFontDir;
   }
 
-  public ComDayCqDamHandlerGibsonFontmanagerImplFontManagerServiceImplProperties fontmgrAdobeFontDir(ConfigNodePropertyString fontmgrAdobeFontDir) {
+  public ComDayCqDamHandlerGibsonFontmanagerImplFontManagerServiceImplProperties fontmgrAdobeFontDir(@Nullable ConfigNodePropertyString fontmgrAdobeFontDir) {
     this.fontmgrAdobeFontDir = fontmgrAdobeFontDir;
     return this;
   }
@@ -78,20 +89,20 @@ public class ComDayCqDamHandlerGibsonFontmanagerImplFontManagerServiceImplProper
   /**
    * Get fontmgrAdobeFontDir
    * @return fontmgrAdobeFontDir
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getFontmgrAdobeFontDir() {
+   */
+  @Valid 
+  @Schema(name = "fontmgr.adobe.font.dir", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("fontmgr.adobe.font.dir")
+  public @Nullable ConfigNodePropertyString getFontmgrAdobeFontDir() {
     return fontmgrAdobeFontDir;
   }
 
-  public void setFontmgrAdobeFontDir(ConfigNodePropertyString fontmgrAdobeFontDir) {
+  @JsonProperty("fontmgr.adobe.font.dir")
+  public void setFontmgrAdobeFontDir(@Nullable ConfigNodePropertyString fontmgrAdobeFontDir) {
     this.fontmgrAdobeFontDir = fontmgrAdobeFontDir;
   }
 
-  public ComDayCqDamHandlerGibsonFontmanagerImplFontManagerServiceImplProperties fontmgrCustomerFontDir(ConfigNodePropertyString fontmgrCustomerFontDir) {
+  public ComDayCqDamHandlerGibsonFontmanagerImplFontManagerServiceImplProperties fontmgrCustomerFontDir(@Nullable ConfigNodePropertyString fontmgrCustomerFontDir) {
     this.fontmgrCustomerFontDir = fontmgrCustomerFontDir;
     return this;
   }
@@ -99,22 +110,21 @@ public class ComDayCqDamHandlerGibsonFontmanagerImplFontManagerServiceImplProper
   /**
    * Get fontmgrCustomerFontDir
    * @return fontmgrCustomerFontDir
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getFontmgrCustomerFontDir() {
+   */
+  @Valid 
+  @Schema(name = "fontmgr.customer.font.dir", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("fontmgr.customer.font.dir")
+  public @Nullable ConfigNodePropertyString getFontmgrCustomerFontDir() {
     return fontmgrCustomerFontDir;
   }
 
-  public void setFontmgrCustomerFontDir(ConfigNodePropertyString fontmgrCustomerFontDir) {
+  @JsonProperty("fontmgr.customer.font.dir")
+  public void setFontmgrCustomerFontDir(@Nullable ConfigNodePropertyString fontmgrCustomerFontDir) {
     this.fontmgrCustomerFontDir = fontmgrCustomerFontDir;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -137,7 +147,6 @@ public class ComDayCqDamHandlerGibsonFontmanagerImplFontManagerServiceImplProper
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComDayCqDamHandlerGibsonFontmanagerImplFontManagerServiceImplProperties {\n");
-    
     sb.append("    eventFilter: ").append(toIndentedString(eventFilter)).append("\n");
     sb.append("    fontmgrSystemFontDir: ").append(toIndentedString(fontmgrSystemFontDir)).append("\n");
     sb.append("    fontmgrAdobeFontDir: ").append(toIndentedString(fontmgrAdobeFontDir)).append("\n");
@@ -150,11 +159,8 @@ public class ComDayCqDamHandlerGibsonFontmanagerImplFontManagerServiceImplProper
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

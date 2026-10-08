@@ -7,12 +7,12 @@ import org.openapitools.model.OrgApacheSlingModelsJacksonexporterImplResourceMod
 
 @Canonical
 class OrgApacheSlingModelsJacksonexporterImplResourceModuleProviderInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheSlingModelsJacksonexporterImplResourceModuleProviderProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheSlingModelsJacksonexporterImplResourceModuleProviderProperties properties
 }

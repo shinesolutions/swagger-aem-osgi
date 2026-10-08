@@ -8,8 +8,8 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeGraniteCompatrouterImplSwitchMappingConfigProperties {
-    ConfigNodePropertyString group = null
-
-    ConfigNodePropertyArray ids = null
-
+    
+    ConfigNodePropertyString group
+    
+    ConfigNodePropertyArray ids
 }

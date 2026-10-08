@@ -2,24 +2,25 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class ComAdobeGraniteAcpPlatformPlatformServletProperties   {
   
-  private ConfigNodePropertyInteger queryLimit = null;
+  private ConfigNodePropertyInteger queryLimit;
 
-  private ConfigNodePropertyArray fileTypeExtensionMap = null;
-
+  private ConfigNodePropertyArray fileTypeExtensionMap;
 
   /**
    **/
@@ -59,7 +60,7 @@ public class ComAdobeGraniteAcpPlatformPlatformServletProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -67,8 +68,8 @@ public class ComAdobeGraniteAcpPlatformPlatformServletProperties   {
       return false;
     }
     ComAdobeGraniteAcpPlatformPlatformServletProperties comAdobeGraniteAcpPlatformPlatformServletProperties = (ComAdobeGraniteAcpPlatformPlatformServletProperties) o;
-    return Objects.equals(queryLimit, comAdobeGraniteAcpPlatformPlatformServletProperties.queryLimit) &&
-        Objects.equals(fileTypeExtensionMap, comAdobeGraniteAcpPlatformPlatformServletProperties.fileTypeExtensionMap);
+    return Objects.equals(this.queryLimit, comAdobeGraniteAcpPlatformPlatformServletProperties.queryLimit) &&
+        Objects.equals(this.fileTypeExtensionMap, comAdobeGraniteAcpPlatformPlatformServletProperties.fileTypeExtensionMap);
   }
 
   @Override
@@ -91,11 +92,8 @@ public class ComAdobeGraniteAcpPlatformPlatformServletProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -1,35 +1,46 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * OrgApacheSlingServiceusermappingImplServiceUserMapperImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class OrgApacheSlingServiceusermappingImplServiceUserMapperImplProperties   {
-  @JsonProperty("user.mapping")
-  private ConfigNodePropertyArray userMapping = null;
+@JsonTypeName("orgApacheSlingServiceusermappingImplServiceUserMapperImplProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class OrgApacheSlingServiceusermappingImplServiceUserMapperImplProperties {
 
-  @JsonProperty("user.default")
-  private ConfigNodePropertyString userDefault = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray userMapping;
 
-  @JsonProperty("user.enable.default.mapping")
-  private ConfigNodePropertyBoolean userEnableDefaultMapping = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString userDefault;
 
-  @JsonProperty("require.validation")
-  private ConfigNodePropertyBoolean requireValidation = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean userEnableDefaultMapping;
 
-  public OrgApacheSlingServiceusermappingImplServiceUserMapperImplProperties userMapping(ConfigNodePropertyArray userMapping) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean requireValidation;
+
+  public OrgApacheSlingServiceusermappingImplServiceUserMapperImplProperties userMapping(@Nullable ConfigNodePropertyArray userMapping) {
     this.userMapping = userMapping;
     return this;
   }
@@ -37,20 +48,20 @@ public class OrgApacheSlingServiceusermappingImplServiceUserMapperImplProperties
   /**
    * Get userMapping
    * @return userMapping
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getUserMapping() {
+   */
+  @Valid 
+  @Schema(name = "user.mapping", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("user.mapping")
+  public @Nullable ConfigNodePropertyArray getUserMapping() {
     return userMapping;
   }
 
-  public void setUserMapping(ConfigNodePropertyArray userMapping) {
+  @JsonProperty("user.mapping")
+  public void setUserMapping(@Nullable ConfigNodePropertyArray userMapping) {
     this.userMapping = userMapping;
   }
 
-  public OrgApacheSlingServiceusermappingImplServiceUserMapperImplProperties userDefault(ConfigNodePropertyString userDefault) {
+  public OrgApacheSlingServiceusermappingImplServiceUserMapperImplProperties userDefault(@Nullable ConfigNodePropertyString userDefault) {
     this.userDefault = userDefault;
     return this;
   }
@@ -58,20 +69,20 @@ public class OrgApacheSlingServiceusermappingImplServiceUserMapperImplProperties
   /**
    * Get userDefault
    * @return userDefault
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getUserDefault() {
+   */
+  @Valid 
+  @Schema(name = "user.default", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("user.default")
+  public @Nullable ConfigNodePropertyString getUserDefault() {
     return userDefault;
   }
 
-  public void setUserDefault(ConfigNodePropertyString userDefault) {
+  @JsonProperty("user.default")
+  public void setUserDefault(@Nullable ConfigNodePropertyString userDefault) {
     this.userDefault = userDefault;
   }
 
-  public OrgApacheSlingServiceusermappingImplServiceUserMapperImplProperties userEnableDefaultMapping(ConfigNodePropertyBoolean userEnableDefaultMapping) {
+  public OrgApacheSlingServiceusermappingImplServiceUserMapperImplProperties userEnableDefaultMapping(@Nullable ConfigNodePropertyBoolean userEnableDefaultMapping) {
     this.userEnableDefaultMapping = userEnableDefaultMapping;
     return this;
   }
@@ -79,20 +90,20 @@ public class OrgApacheSlingServiceusermappingImplServiceUserMapperImplProperties
   /**
    * Get userEnableDefaultMapping
    * @return userEnableDefaultMapping
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getUserEnableDefaultMapping() {
+   */
+  @Valid 
+  @Schema(name = "user.enable.default.mapping", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("user.enable.default.mapping")
+  public @Nullable ConfigNodePropertyBoolean getUserEnableDefaultMapping() {
     return userEnableDefaultMapping;
   }
 
-  public void setUserEnableDefaultMapping(ConfigNodePropertyBoolean userEnableDefaultMapping) {
+  @JsonProperty("user.enable.default.mapping")
+  public void setUserEnableDefaultMapping(@Nullable ConfigNodePropertyBoolean userEnableDefaultMapping) {
     this.userEnableDefaultMapping = userEnableDefaultMapping;
   }
 
-  public OrgApacheSlingServiceusermappingImplServiceUserMapperImplProperties requireValidation(ConfigNodePropertyBoolean requireValidation) {
+  public OrgApacheSlingServiceusermappingImplServiceUserMapperImplProperties requireValidation(@Nullable ConfigNodePropertyBoolean requireValidation) {
     this.requireValidation = requireValidation;
     return this;
   }
@@ -100,22 +111,21 @@ public class OrgApacheSlingServiceusermappingImplServiceUserMapperImplProperties
   /**
    * Get requireValidation
    * @return requireValidation
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getRequireValidation() {
+   */
+  @Valid 
+  @Schema(name = "require.validation", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("require.validation")
+  public @Nullable ConfigNodePropertyBoolean getRequireValidation() {
     return requireValidation;
   }
 
-  public void setRequireValidation(ConfigNodePropertyBoolean requireValidation) {
+  @JsonProperty("require.validation")
+  public void setRequireValidation(@Nullable ConfigNodePropertyBoolean requireValidation) {
     this.requireValidation = requireValidation;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -138,7 +148,6 @@ public class OrgApacheSlingServiceusermappingImplServiceUserMapperImplProperties
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class OrgApacheSlingServiceusermappingImplServiceUserMapperImplProperties {\n");
-    
     sb.append("    userMapping: ").append(toIndentedString(userMapping)).append("\n");
     sb.append("    userDefault: ").append(toIndentedString(userDefault)).append("\n");
     sb.append("    userEnableDefaultMapping: ").append(toIndentedString(userEnableDefaultMapping)).append("\n");
@@ -151,11 +160,8 @@ public class OrgApacheSlingServiceusermappingImplServiceUserMapperImplProperties
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

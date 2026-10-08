@@ -7,8 +7,8 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeCqProjectsImplServletProjectImageServletProperties {
-    ConfigNodePropertyString imageQuality = null
-
-    ConfigNodePropertyString imageSupportedResolutions = null
-
+    
+    ConfigNodePropertyString imageQuality
+    
+    ConfigNodePropertyString imageSupportedResolutions
 }

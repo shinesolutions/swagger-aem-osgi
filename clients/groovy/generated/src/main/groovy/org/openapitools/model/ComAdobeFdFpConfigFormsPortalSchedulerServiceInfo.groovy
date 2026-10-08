@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeFdFpConfigFormsPortalSchedulerServicePrope
 
 @Canonical
 class ComAdobeFdFpConfigFormsPortalSchedulerServiceInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeFdFpConfigFormsPortalSchedulerServiceProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeFdFpConfigFormsPortalSchedulerServiceProperties properties
 }

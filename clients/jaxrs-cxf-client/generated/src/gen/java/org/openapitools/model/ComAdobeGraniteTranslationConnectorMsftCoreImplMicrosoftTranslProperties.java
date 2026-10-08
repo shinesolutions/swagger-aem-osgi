@@ -4,43 +4,47 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
 
 import io.swagger.annotations.ApiModelProperty;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlType;
-import javax.xml.bind.annotation.XmlEnum;
-import javax.xml.bind.annotation.XmlEnumValue;
+import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
 
 public class ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslProperties  {
   
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString translationFactory = null;
+
+  private ConfigNodePropertyString translationFactory;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString defaultConnectorLabel = null;
+
+  private ConfigNodePropertyString defaultConnectorLabel;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString defaultConnectorAttribution = null;
+
+  private ConfigNodePropertyString defaultConnectorAttribution;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString defaultConnectorWorkspaceId = null;
+
+  private ConfigNodePropertyString defaultConnectorWorkspaceId;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString defaultConnectorSubscriptionKey = null;
+
+  private ConfigNodePropertyString defaultConnectorSubscriptionKey;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString languageMapLocation = null;
+
+  private ConfigNodePropertyString languageMapLocation;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString categoryMapLocation = null;
+
+  private ConfigNodePropertyString categoryMapLocation;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyInteger retryAttempts = null;
+
+  private ConfigNodePropertyInteger retryAttempts;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyInteger timeoutCount = null;
+
+  private ConfigNodePropertyInteger timeoutCount;
  /**
    * Get translationFactory
    * @return translationFactory
@@ -203,6 +207,30 @@ public class ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslPrope
     return this;
   }
 
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslProperties comAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslProperties = (ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslProperties) o;
+    return Objects.equals(this.translationFactory, comAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslProperties.translationFactory) &&
+        Objects.equals(this.defaultConnectorLabel, comAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslProperties.defaultConnectorLabel) &&
+        Objects.equals(this.defaultConnectorAttribution, comAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslProperties.defaultConnectorAttribution) &&
+        Objects.equals(this.defaultConnectorWorkspaceId, comAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslProperties.defaultConnectorWorkspaceId) &&
+        Objects.equals(this.defaultConnectorSubscriptionKey, comAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslProperties.defaultConnectorSubscriptionKey) &&
+        Objects.equals(this.languageMapLocation, comAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslProperties.languageMapLocation) &&
+        Objects.equals(this.categoryMapLocation, comAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslProperties.categoryMapLocation) &&
+        Objects.equals(this.retryAttempts, comAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslProperties.retryAttempts) &&
+        Objects.equals(this.timeoutCount, comAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslProperties.timeoutCount);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(translationFactory, defaultConnectorLabel, defaultConnectorAttribution, defaultConnectorWorkspaceId, defaultConnectorSubscriptionKey, languageMapLocation, categoryMapLocation, retryAttempts, timeoutCount);
+  }
 
   @Override
   public String toString() {
@@ -226,11 +254,8 @@ public class ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslPrope
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private static String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

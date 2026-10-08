@@ -2,10 +2,10 @@
 # ComAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**hcPeriodtags** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**excludePeriodsearchPeriodpath** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **hcTags** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **excludeSearchPath** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
 
 
 

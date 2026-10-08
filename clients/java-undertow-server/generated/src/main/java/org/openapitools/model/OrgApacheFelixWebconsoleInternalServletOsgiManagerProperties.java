@@ -1,3 +1,13 @@
+/*
+ * Adobe Experience Manager OSGI config (AEM) API
+ *
+ * Swagger AEM OSGI is an OpenAPI specification for Adobe Experience Manager (AEM) OSGI Configurations API
+ *
+ * OpenAPI document version: 1.0.0-pre.0
+ * Maintained by: opensource@shinesolutions.com
+ *
+ * AUTO-GENERATED FILE, DO NOT MODIFY!
+ */
 package org.openapitools.model;
 
 import java.util.Objects;
@@ -12,22 +22,22 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2019-08-05T00:56:20.785Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2026-10-07T12:53:42.280804918Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties   {
   
-  private ConfigNodePropertyString managerRoot = null;
-  private ConfigNodePropertyString httpServiceFilter = null;
-  private ConfigNodePropertyString defaultRender = null;
-  private ConfigNodePropertyString realm = null;
-  private ConfigNodePropertyString username = null;
-  private ConfigNodePropertyString password = null;
-  private ConfigNodePropertyString category = null;
-  private ConfigNodePropertyString locale = null;
-  private ConfigNodePropertyDropDown loglevel = null;
-  private ConfigNodePropertyDropDown plugins = null;
+  private ConfigNodePropertyString managerRoot;
+  private ConfigNodePropertyString httpServiceFilter;
+  private ConfigNodePropertyString defaultRender;
+  private ConfigNodePropertyString realm;
+  private ConfigNodePropertyString username;
+  private ConfigNodePropertyString password;
+  private ConfigNodePropertyString category;
+  private ConfigNodePropertyString locale;
+  private ConfigNodePropertyDropDown loglevel;
+  private ConfigNodePropertyDropDown plugins;
 
   /**
-   **/
+   */
   public OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties managerRoot(ConfigNodePropertyString managerRoot) {
     this.managerRoot = managerRoot;
     return this;
@@ -44,7 +54,7 @@ public class OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties httpServiceFilter(ConfigNodePropertyString httpServiceFilter) {
     this.httpServiceFilter = httpServiceFilter;
     return this;
@@ -61,7 +71,7 @@ public class OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties defaultRender(ConfigNodePropertyString defaultRender) {
     this.defaultRender = defaultRender;
     return this;
@@ -78,7 +88,7 @@ public class OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties realm(ConfigNodePropertyString realm) {
     this.realm = realm;
     return this;
@@ -95,7 +105,7 @@ public class OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties username(ConfigNodePropertyString username) {
     this.username = username;
     return this;
@@ -112,7 +122,7 @@ public class OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties password(ConfigNodePropertyString password) {
     this.password = password;
     return this;
@@ -129,7 +139,7 @@ public class OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties category(ConfigNodePropertyString category) {
     this.category = category;
     return this;
@@ -146,7 +156,7 @@ public class OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties locale(ConfigNodePropertyString locale) {
     this.locale = locale;
     return this;
@@ -163,7 +173,7 @@ public class OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties loglevel(ConfigNodePropertyDropDown loglevel) {
     this.loglevel = loglevel;
     return this;
@@ -180,7 +190,7 @@ public class OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties plugins(ConfigNodePropertyDropDown plugins) {
     this.plugins = plugins;
     return this;
@@ -198,7 +208,7 @@ public class OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -246,11 +256,8 @@ public class OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

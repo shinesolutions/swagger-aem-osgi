@@ -2,19 +2,19 @@
 # ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**granitePeriodworkflowinboxPeriodsortPeriodpropertyName** | [**ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md) |  |  [optional]
-**granitePeriodworkflowinboxPeriodsortPeriodorder** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**cqPeriodworkflowPeriodjobPeriodretry** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**cqPeriodworkflowPeriodsuperuser** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**granitePeriodworkflowPeriodinboxQuerySize** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**granitePeriodworkflowPeriodadminUserGroupFilter** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**granitePeriodworkflowPeriodenforceWorkitemAssigneePermissions** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**granitePeriodworkflowPeriodenforceWorkflowInitiatorPermissions** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**granitePeriodworkflowPeriodinjectTenantIdInJobTopics** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**granitePeriodworkflowPeriodmaxPurgeSaveThreshold** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**granitePeriodworkflowPeriodmaxPurgeQueryCount** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **graniteWorkflowinboxSortPropertyName** | [**ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md) |  |  [optional] |
+| **graniteWorkflowinboxSortOrder** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **cqWorkflowJobRetry** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **cqWorkflowSuperuser** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **graniteWorkflowInboxQuerySize** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **graniteWorkflowAdminUserGroupFilter** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **graniteWorkflowEnforceWorkitemAssigneePermissions** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **graniteWorkflowEnforceWorkflowInitiatorPermissions** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **graniteWorkflowInjectTenantIdInJobTopics** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **graniteWorkflowMaxPurgeSaveThreshold** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **graniteWorkflowMaxPurgeQueryCount** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
 
 
 

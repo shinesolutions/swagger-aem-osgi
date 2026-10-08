@@ -72,8 +72,8 @@ private class OASComDayCqDamS7damCommonAnalyticsImTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqDamS7damCommonAnalyticsIm comDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerProperties = new OASComDayCqDamS7damCommonAnalyticsIm();
-        Map<String, String> propertyMappings = comDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerProperties.getPropertyMappings();
-        System.assertEquals('schedulerExpression', propertyMappings.get('scheduler.expression'));
-        System.assertEquals('schedulerConcurrent', propertyMappings.get('scheduler.concurrent'));
+        Map<String, String> x-property-mappings = comDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerProperties.getx-property-mappings();
+        System.assertEquals('schedulerExpression', x-property-mappings.get('scheduler.expression'));
+        System.assertEquals('schedulerConcurrent', x-property-mappings.get('scheduler.concurrent'));
     }
 }

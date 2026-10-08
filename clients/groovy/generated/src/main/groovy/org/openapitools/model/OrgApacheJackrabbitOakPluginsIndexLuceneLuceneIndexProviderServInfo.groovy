@@ -7,18 +7,18 @@ import org.openapitools.model.OrgApacheJackrabbitOakPluginsIndexLuceneLuceneInde
 
 @Canonical
 class OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServProperties properties = null
-
-    String additionalProperties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServProperties properties
+    
+    String additionalProperties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

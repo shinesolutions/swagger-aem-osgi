@@ -7,8 +7,8 @@ import org.openapitools.model.ConfigNodePropertyBoolean;
 
 @Canonical
 class ComAdobeGraniteInfocollectorInfoCollectorProperties {
-    ConfigNodePropertyBoolean graniteInfocollectorIncludeThreadDumps = null
-
-    ConfigNodePropertyBoolean graniteInfocollectorIncludeHeapDump = null
-
+    
+    ConfigNodePropertyBoolean graniteInfocollectorIncludeThreadDumps
+    
+    ConfigNodePropertyBoolean graniteInfocollectorIncludeHeapDump
 }

@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class OrgApacheJackrabbitOakPluginsBlobDatastoreFileDataStoreProperties {
-    ConfigNodePropertyString path = null
-
+    
+    ConfigNodePropertyString path
 }

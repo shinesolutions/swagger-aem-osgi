@@ -1,3 +1,13 @@
+/*
+ * Adobe Experience Manager OSGI config (AEM) API
+ *
+ * Swagger AEM OSGI is an OpenAPI specification for Adobe Experience Manager (AEM) OSGI Configurations API
+ *
+ * OpenAPI document version: 1.0.0-pre.0
+ * Maintained by: opensource@shinesolutions.com
+ *
+ * AUTO-GENERATED FILE, DO NOT MODIFY!
+ */
 package org.openapitools.model;
 
 import java.util.Objects;
@@ -13,18 +23,18 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2019-08-05T00:56:20.785Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2026-10-07T12:53:42.280804918Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqStatisticsImplStatisticsServiceImplProperties   {
   
-  private ConfigNodePropertyInteger schedulerPeriod = null;
-  private ConfigNodePropertyBoolean schedulerConcurrent = null;
-  private ConfigNodePropertyString path = null;
-  private ConfigNodePropertyString workspace = null;
-  private ConfigNodePropertyString keywordsPath = null;
-  private ConfigNodePropertyBoolean asyncEntries = null;
+  private ConfigNodePropertyInteger schedulerPeriod;
+  private ConfigNodePropertyBoolean schedulerConcurrent;
+  private ConfigNodePropertyString path;
+  private ConfigNodePropertyString workspace;
+  private ConfigNodePropertyString keywordsPath;
+  private ConfigNodePropertyBoolean asyncEntries;
 
   /**
-   **/
+   */
   public ComDayCqStatisticsImplStatisticsServiceImplProperties schedulerPeriod(ConfigNodePropertyInteger schedulerPeriod) {
     this.schedulerPeriod = schedulerPeriod;
     return this;
@@ -41,7 +51,7 @@ public class ComDayCqStatisticsImplStatisticsServiceImplProperties   {
   }
 
   /**
-   **/
+   */
   public ComDayCqStatisticsImplStatisticsServiceImplProperties schedulerConcurrent(ConfigNodePropertyBoolean schedulerConcurrent) {
     this.schedulerConcurrent = schedulerConcurrent;
     return this;
@@ -58,7 +68,7 @@ public class ComDayCqStatisticsImplStatisticsServiceImplProperties   {
   }
 
   /**
-   **/
+   */
   public ComDayCqStatisticsImplStatisticsServiceImplProperties path(ConfigNodePropertyString path) {
     this.path = path;
     return this;
@@ -75,7 +85,7 @@ public class ComDayCqStatisticsImplStatisticsServiceImplProperties   {
   }
 
   /**
-   **/
+   */
   public ComDayCqStatisticsImplStatisticsServiceImplProperties workspace(ConfigNodePropertyString workspace) {
     this.workspace = workspace;
     return this;
@@ -92,7 +102,7 @@ public class ComDayCqStatisticsImplStatisticsServiceImplProperties   {
   }
 
   /**
-   **/
+   */
   public ComDayCqStatisticsImplStatisticsServiceImplProperties keywordsPath(ConfigNodePropertyString keywordsPath) {
     this.keywordsPath = keywordsPath;
     return this;
@@ -109,7 +119,7 @@ public class ComDayCqStatisticsImplStatisticsServiceImplProperties   {
   }
 
   /**
-   **/
+   */
   public ComDayCqStatisticsImplStatisticsServiceImplProperties asyncEntries(ConfigNodePropertyBoolean asyncEntries) {
     this.asyncEntries = asyncEntries;
     return this;
@@ -127,7 +137,7 @@ public class ComDayCqStatisticsImplStatisticsServiceImplProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -167,11 +177,8 @@ public class ComDayCqStatisticsImplStatisticsServiceImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

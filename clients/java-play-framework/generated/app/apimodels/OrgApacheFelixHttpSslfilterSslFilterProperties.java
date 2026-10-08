@@ -2,29 +2,38 @@ package apimodels;
 
 import apimodels.ConfigNodePropertyBoolean;
 import apimodels.ConfigNodePropertyString;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * OrgApacheFelixHttpSslfilterSslFilterProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class OrgApacheFelixHttpSslfilterSslFilterProperties   {
   @JsonProperty("ssl-forward.header")
-  private ConfigNodePropertyString sslForwardHeader = null;
+  @Valid
+
+  private ConfigNodePropertyString sslForwardHeader;
 
   @JsonProperty("ssl-forward.value")
-  private ConfigNodePropertyString sslForwardValue = null;
+  @Valid
+
+  private ConfigNodePropertyString sslForwardValue;
 
   @JsonProperty("ssl-forward-cert.header")
-  private ConfigNodePropertyString sslForwardCertHeader = null;
+  @Valid
+
+  private ConfigNodePropertyString sslForwardCertHeader;
 
   @JsonProperty("rewrite.absolute.urls")
-  private ConfigNodePropertyBoolean rewriteAbsoluteUrls = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean rewriteAbsoluteUrls;
 
   public OrgApacheFelixHttpSslfilterSslFilterProperties sslForwardHeader(ConfigNodePropertyString sslForwardHeader) {
     this.sslForwardHeader = sslForwardHeader;
@@ -35,7 +44,6 @@ public class OrgApacheFelixHttpSslfilterSslFilterProperties   {
    * Get sslForwardHeader
    * @return sslForwardHeader
   **/
-  @Valid
   public ConfigNodePropertyString getSslForwardHeader() {
     return sslForwardHeader;
   }
@@ -53,7 +61,6 @@ public class OrgApacheFelixHttpSslfilterSslFilterProperties   {
    * Get sslForwardValue
    * @return sslForwardValue
   **/
-  @Valid
   public ConfigNodePropertyString getSslForwardValue() {
     return sslForwardValue;
   }
@@ -71,7 +78,6 @@ public class OrgApacheFelixHttpSslfilterSslFilterProperties   {
    * Get sslForwardCertHeader
    * @return sslForwardCertHeader
   **/
-  @Valid
   public ConfigNodePropertyString getSslForwardCertHeader() {
     return sslForwardCertHeader;
   }
@@ -89,7 +95,6 @@ public class OrgApacheFelixHttpSslfilterSslFilterProperties   {
    * Get rewriteAbsoluteUrls
    * @return rewriteAbsoluteUrls
   **/
-  @Valid
   public ConfigNodePropertyBoolean getRewriteAbsoluteUrls() {
     return rewriteAbsoluteUrls;
   }
@@ -100,7 +105,7 @@ public class OrgApacheFelixHttpSslfilterSslFilterProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -137,11 +142,8 @@ public class OrgApacheFelixHttpSslfilterSslFilterProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

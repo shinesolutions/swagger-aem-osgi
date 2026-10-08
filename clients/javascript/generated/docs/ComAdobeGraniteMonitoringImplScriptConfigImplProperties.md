@@ -1,6 +1,7 @@
 # NodeSwaggerAemOsgi.ComAdobeGraniteMonitoringImplScriptConfigImplProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **scriptFilename** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 

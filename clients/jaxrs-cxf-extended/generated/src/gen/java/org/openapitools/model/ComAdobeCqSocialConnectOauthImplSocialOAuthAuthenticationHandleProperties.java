@@ -1,0 +1,109 @@
+package org.openapitools.model;
+
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.model.ConfigNodePropertyArray;
+import org.openapitools.model.ConfigNodePropertyInteger;
+import javax.validation.constraints.*;
+import javax.validation.Valid;
+
+import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.annotation.JsonProperty;
+
+
+public class ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandleProperties  {
+  
+  @ApiModelProperty(value = "")
+  @Valid
+  private ConfigNodePropertyArray path;
+
+  @ApiModelProperty(value = "")
+  @Valid
+  private ConfigNodePropertyInteger serviceRanking;
+ /**
+  * Get path
+  * @return path
+  */
+  @JsonProperty("path")
+  public ConfigNodePropertyArray getPath() {
+    return path;
+  }
+
+  /**
+   * Sets the <code>path</code> property.
+   */
+ public void setPath(ConfigNodePropertyArray path) {
+    this.path = path;
+  }
+
+  /**
+   * Sets the <code>path</code> property.
+   */
+  public ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandleProperties path(ConfigNodePropertyArray path) {
+    this.path = path;
+    return this;
+  }
+
+ /**
+  * Get serviceRanking
+  * @return serviceRanking
+  */
+  @JsonProperty("service.ranking")
+  public ConfigNodePropertyInteger getServiceRanking() {
+    return serviceRanking;
+  }
+
+  /**
+   * Sets the <code>serviceRanking</code> property.
+   */
+ public void setServiceRanking(ConfigNodePropertyInteger serviceRanking) {
+    this.serviceRanking = serviceRanking;
+  }
+
+  /**
+   * Sets the <code>serviceRanking</code> property.
+   */
+  public ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandleProperties serviceRanking(ConfigNodePropertyInteger serviceRanking) {
+    this.serviceRanking = serviceRanking;
+    return this;
+  }
+
+
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandleProperties comAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandleProperties = (ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandleProperties) o;
+    return Objects.equals(this.path, comAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandleProperties.path) &&
+        Objects.equals(this.serviceRanking, comAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandleProperties.serviceRanking);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(path, serviceRanking);
+  }
+
+  @Override
+  public String toString() {
+    StringBuilder sb = new StringBuilder();
+    sb.append("class ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandleProperties {\n");
+    
+    sb.append("    path: ").append(toIndentedString(path)).append("\n");
+    sb.append("    serviceRanking: ").append(toIndentedString(serviceRanking)).append("\n");
+    sb.append("}");
+    return sb.toString();
+  }
+
+  /**
+   * Convert the given object to string with each line indented by 4 spaces
+   * (except the first line).
+   */
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
+  }
+}
+

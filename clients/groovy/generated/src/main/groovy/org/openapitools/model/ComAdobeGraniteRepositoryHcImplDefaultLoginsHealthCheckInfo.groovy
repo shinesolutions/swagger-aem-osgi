@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeGraniteRepositoryHcImplDefaultLoginsHealth
 
 @Canonical
 class ComAdobeGraniteRepositoryHcImplDefaultLoginsHealthCheckInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteRepositoryHcImplDefaultLoginsHealthCheckProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteRepositoryHcImplDefaultLoginsHealthCheckProperties properties
 }

@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyArray;
 
 @Canonical
 class ComAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandleProperties {
-    ConfigNodePropertyArray flushAgents = null
-
+    
+    ConfigNodePropertyArray flushAgents
 }

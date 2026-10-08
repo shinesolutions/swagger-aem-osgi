@@ -1,0 +1,42 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqWcmCoreImplServletsThumbnailServletProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqWcmCoreImplServletsThumbnailServletProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComDayCqWcmCoreImplServletsThumbnailServletProperties {
+    title = ComDayCqWcmCoreImplServletsThumbnailServletProperties
+    description = ComDayCqWcmCoreImplServletsThumbnailServletProperties
+    derivedFrom = Root
+    properties {
+        workspace {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        dimensions {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqWcmCoreImplServletsThumbnailServletProperties {
+    title = ComDayCqWcmCoreImplServletsThumbnailServletProperties
+    description = ComDayCqWcmCoreImplServletsThumbnailServletProperties
+    implements = openapi_server.resourceTypes.ComDayCqWcmCoreImplServletsThumbnailServletProperties
+
+  }
+}

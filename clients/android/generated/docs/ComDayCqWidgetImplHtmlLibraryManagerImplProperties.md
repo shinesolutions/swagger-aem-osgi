@@ -1,7 +1,9 @@
 
+
 # ComDayCqWidgetImplHtmlLibraryManagerImplProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **htmllibmanagerClientmanager** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
@@ -18,6 +20,7 @@ Name | Type | Description | Notes
 **htmllibmanagerMinify** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
 **htmllibmanagerPathList** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
 **htmllibmanagerTiming** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
+
 
 
 

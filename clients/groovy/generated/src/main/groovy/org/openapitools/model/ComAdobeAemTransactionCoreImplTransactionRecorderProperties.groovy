@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyBoolean;
 
 @Canonical
 class ComAdobeAemTransactionCoreImplTransactionRecorderProperties {
-    ConfigNodePropertyBoolean isTransactionRecordingEnabled = null
-
+    
+    ConfigNodePropertyBoolean isTransactionRecordingEnabled
 }

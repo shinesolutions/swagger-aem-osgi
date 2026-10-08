@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyArray;
 import com.prokarma.pkmst.model.ConfigNodePropertyBoolean;
 import com.prokarma.pkmst.model.ConfigNodePropertyString;
@@ -17,36 +18,35 @@ import io.swagger.annotations.ApiModelProperty;
  * ComDayCqWcmFoundationImplHTTPAuthHandlerProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqWcmFoundationImplHTTPAuthHandlerProperties   {
   @JsonProperty("path")
-  private ConfigNodePropertyString path = null;
+  private ConfigNodePropertyString path;
 
   @JsonProperty("auth.http.nologin")
-  private ConfigNodePropertyBoolean authHttpNologin = null;
+  private ConfigNodePropertyBoolean authHttpNologin;
 
   @JsonProperty("auth.http.realm")
-  private ConfigNodePropertyString authHttpRealm = null;
+  private ConfigNodePropertyString authHttpRealm;
 
   @JsonProperty("auth.default.loginpage")
-  private ConfigNodePropertyString authDefaultLoginpage = null;
+  private ConfigNodePropertyString authDefaultLoginpage;
 
   @JsonProperty("auth.cred.form")
-  private ConfigNodePropertyArray authCredForm = null;
+  private ConfigNodePropertyArray authCredForm;
 
   @JsonProperty("auth.cred.utf8")
-  private ConfigNodePropertyArray authCredUtf8 = null;
+  private ConfigNodePropertyArray authCredUtf8;
 
   public ComDayCqWcmFoundationImplHTTPAuthHandlerProperties path(ConfigNodePropertyString path) {
     this.path = path;
     return this;
   }
 
-   /**
+  /**
    * Get path
    * @return path
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getPath() {
     return path;
@@ -61,10 +61,10 @@ public class ComDayCqWcmFoundationImplHTTPAuthHandlerProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get authHttpNologin
    * @return authHttpNologin
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getAuthHttpNologin() {
     return authHttpNologin;
@@ -79,10 +79,10 @@ public class ComDayCqWcmFoundationImplHTTPAuthHandlerProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get authHttpRealm
    * @return authHttpRealm
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getAuthHttpRealm() {
     return authHttpRealm;
@@ -97,10 +97,10 @@ public class ComDayCqWcmFoundationImplHTTPAuthHandlerProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get authDefaultLoginpage
    * @return authDefaultLoginpage
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getAuthDefaultLoginpage() {
     return authDefaultLoginpage;
@@ -115,10 +115,10 @@ public class ComDayCqWcmFoundationImplHTTPAuthHandlerProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get authCredForm
    * @return authCredForm
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getAuthCredForm() {
     return authCredForm;
@@ -133,10 +133,10 @@ public class ComDayCqWcmFoundationImplHTTPAuthHandlerProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get authCredUtf8
    * @return authCredUtf8
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getAuthCredUtf8() {
     return authCredUtf8;
@@ -148,7 +148,7 @@ public class ComDayCqWcmFoundationImplHTTPAuthHandlerProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -188,11 +188,8 @@ public class ComDayCqWcmFoundationImplHTTPAuthHandlerProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

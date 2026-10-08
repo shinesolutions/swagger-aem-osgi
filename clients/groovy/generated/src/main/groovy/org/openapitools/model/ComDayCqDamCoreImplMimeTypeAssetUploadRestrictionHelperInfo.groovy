@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqDamCoreImplMimeTypeAssetUploadRestrictionH
 
 @Canonical
 class ComDayCqDamCoreImplMimeTypeAssetUploadRestrictionHelperInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqDamCoreImplMimeTypeAssetUploadRestrictionHelperProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqDamCoreImplMimeTypeAssetUploadRestrictionHelperProperties properties
 }

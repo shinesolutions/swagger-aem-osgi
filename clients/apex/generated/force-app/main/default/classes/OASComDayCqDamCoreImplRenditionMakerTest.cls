@@ -72,8 +72,8 @@ private class OASComDayCqDamCoreImplRenditionMakerTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqDamCoreImplRenditionMaker comDayCqDamCoreImplRenditionMakerImplProperties = new OASComDayCqDamCoreImplRenditionMaker();
-        Map<String, String> propertyMappings = comDayCqDamCoreImplRenditionMakerImplProperties.getPropertyMappings();
-        System.assertEquals('xmpPropagate', propertyMappings.get('xmp.propagate'));
-        System.assertEquals('xmpExcludes', propertyMappings.get('xmp.excludes'));
+        Map<String, String> x-property-mappings = comDayCqDamCoreImplRenditionMakerImplProperties.getx-property-mappings();
+        System.assertEquals('xmpPropagate', x-property-mappings.get('xmp.propagate'));
+        System.assertEquals('xmpExcludes', x-property-mappings.get('xmp.excludes'));
     }
 }

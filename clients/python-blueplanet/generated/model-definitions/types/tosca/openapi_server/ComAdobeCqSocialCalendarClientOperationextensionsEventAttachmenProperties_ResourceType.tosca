@@ -1,0 +1,42 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmenProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmenProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmenProperties {
+    title = ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmenProperties
+    description = ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmenProperties
+    derivedFrom = Root
+    properties {
+        attachment_type_blacklist {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        extension_order {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmenProperties {
+    title = ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmenProperties
+    description = ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmenProperties
+    implements = openapi_server.resourceTypes.ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmenProperties
+
+  }
+}

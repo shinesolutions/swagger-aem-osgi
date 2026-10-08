@@ -1,24 +1,35 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyBoolean;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComDayCqTaggingImplJcrTagManagerFactoryImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComDayCqTaggingImplJcrTagManagerFactoryImplProperties   {
-  @JsonProperty("validation.enabled")
-  private ConfigNodePropertyBoolean validationEnabled = null;
+@JsonTypeName("comDayCqTaggingImplJcrTagManagerFactoryImplProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComDayCqTaggingImplJcrTagManagerFactoryImplProperties {
 
-  public ComDayCqTaggingImplJcrTagManagerFactoryImplProperties validationEnabled(ConfigNodePropertyBoolean validationEnabled) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean validationEnabled;
+
+  public ComDayCqTaggingImplJcrTagManagerFactoryImplProperties validationEnabled(@Nullable ConfigNodePropertyBoolean validationEnabled) {
     this.validationEnabled = validationEnabled;
     return this;
   }
@@ -26,22 +37,21 @@ public class ComDayCqTaggingImplJcrTagManagerFactoryImplProperties   {
   /**
    * Get validationEnabled
    * @return validationEnabled
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getValidationEnabled() {
+   */
+  @Valid 
+  @Schema(name = "validation.enabled", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("validation.enabled")
+  public @Nullable ConfigNodePropertyBoolean getValidationEnabled() {
     return validationEnabled;
   }
 
-  public void setValidationEnabled(ConfigNodePropertyBoolean validationEnabled) {
+  @JsonProperty("validation.enabled")
+  public void setValidationEnabled(@Nullable ConfigNodePropertyBoolean validationEnabled) {
     this.validationEnabled = validationEnabled;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -61,7 +71,6 @@ public class ComDayCqTaggingImplJcrTagManagerFactoryImplProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComDayCqTaggingImplJcrTagManagerFactoryImplProperties {\n");
-    
     sb.append("    validationEnabled: ").append(toIndentedString(validationEnabled)).append("\n");
     sb.append("}");
     return sb.toString();
@@ -71,11 +80,8 @@ public class ComDayCqTaggingImplJcrTagManagerFactoryImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

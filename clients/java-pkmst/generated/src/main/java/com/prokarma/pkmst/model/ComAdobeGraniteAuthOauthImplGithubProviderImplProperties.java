@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyString;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
@@ -15,30 +16,29 @@ import io.swagger.annotations.ApiModelProperty;
  * ComAdobeGraniteAuthOauthImplGithubProviderImplProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteAuthOauthImplGithubProviderImplProperties   {
   @JsonProperty("oauth.provider.id")
-  private ConfigNodePropertyString oauthProviderId = null;
+  private ConfigNodePropertyString oauthProviderId;
 
   @JsonProperty("oauth.provider.github.authorization.url")
-  private ConfigNodePropertyString oauthProviderGithubAuthorizationUrl = null;
+  private ConfigNodePropertyString oauthProviderGithubAuthorizationUrl;
 
   @JsonProperty("oauth.provider.github.token.url")
-  private ConfigNodePropertyString oauthProviderGithubTokenUrl = null;
+  private ConfigNodePropertyString oauthProviderGithubTokenUrl;
 
   @JsonProperty("oauth.provider.github.profile.url")
-  private ConfigNodePropertyString oauthProviderGithubProfileUrl = null;
+  private ConfigNodePropertyString oauthProviderGithubProfileUrl;
 
   public ComAdobeGraniteAuthOauthImplGithubProviderImplProperties oauthProviderId(ConfigNodePropertyString oauthProviderId) {
     this.oauthProviderId = oauthProviderId;
     return this;
   }
 
-   /**
+  /**
    * Get oauthProviderId
    * @return oauthProviderId
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getOauthProviderId() {
     return oauthProviderId;
@@ -53,10 +53,10 @@ public class ComAdobeGraniteAuthOauthImplGithubProviderImplProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get oauthProviderGithubAuthorizationUrl
    * @return oauthProviderGithubAuthorizationUrl
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getOauthProviderGithubAuthorizationUrl() {
     return oauthProviderGithubAuthorizationUrl;
@@ -71,10 +71,10 @@ public class ComAdobeGraniteAuthOauthImplGithubProviderImplProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get oauthProviderGithubTokenUrl
    * @return oauthProviderGithubTokenUrl
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getOauthProviderGithubTokenUrl() {
     return oauthProviderGithubTokenUrl;
@@ -89,10 +89,10 @@ public class ComAdobeGraniteAuthOauthImplGithubProviderImplProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get oauthProviderGithubProfileUrl
    * @return oauthProviderGithubProfileUrl
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getOauthProviderGithubProfileUrl() {
     return oauthProviderGithubProfileUrl;
@@ -104,7 +104,7 @@ public class ComAdobeGraniteAuthOauthImplGithubProviderImplProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -140,11 +140,8 @@ public class ComAdobeGraniteAuthOauthImplGithubProviderImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

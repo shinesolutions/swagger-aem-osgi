@@ -1,27 +1,38 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyInteger;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadProperties   {
-  @JsonProperty("numberOfDays")
-  private ConfigNodePropertyInteger numberOfDays = null;
+@JsonTypeName("comAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadProperties {
 
-  @JsonProperty("ageOfFile")
-  private ConfigNodePropertyInteger ageOfFile = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger numberOfDays;
 
-  public ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadProperties numberOfDays(ConfigNodePropertyInteger numberOfDays) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger ageOfFile;
+
+  public ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadProperties numberOfDays(@Nullable ConfigNodePropertyInteger numberOfDays) {
     this.numberOfDays = numberOfDays;
     return this;
   }
@@ -29,20 +40,20 @@ public class ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadProp
   /**
    * Get numberOfDays
    * @return numberOfDays
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getNumberOfDays() {
+   */
+  @Valid 
+  @Schema(name = "numberOfDays", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("numberOfDays")
+  public @Nullable ConfigNodePropertyInteger getNumberOfDays() {
     return numberOfDays;
   }
 
-  public void setNumberOfDays(ConfigNodePropertyInteger numberOfDays) {
+  @JsonProperty("numberOfDays")
+  public void setNumberOfDays(@Nullable ConfigNodePropertyInteger numberOfDays) {
     this.numberOfDays = numberOfDays;
   }
 
-  public ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadProperties ageOfFile(ConfigNodePropertyInteger ageOfFile) {
+  public ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadProperties ageOfFile(@Nullable ConfigNodePropertyInteger ageOfFile) {
     this.ageOfFile = ageOfFile;
     return this;
   }
@@ -50,22 +61,21 @@ public class ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadProp
   /**
    * Get ageOfFile
    * @return ageOfFile
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getAgeOfFile() {
+   */
+  @Valid 
+  @Schema(name = "ageOfFile", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("ageOfFile")
+  public @Nullable ConfigNodePropertyInteger getAgeOfFile() {
     return ageOfFile;
   }
 
-  public void setAgeOfFile(ConfigNodePropertyInteger ageOfFile) {
+  @JsonProperty("ageOfFile")
+  public void setAgeOfFile(@Nullable ConfigNodePropertyInteger ageOfFile) {
     this.ageOfFile = ageOfFile;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -86,7 +96,6 @@ public class ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadProp
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadProperties {\n");
-    
     sb.append("    numberOfDays: ").append(toIndentedString(numberOfDays)).append("\n");
     sb.append("    ageOfFile: ").append(toIndentedString(ageOfFile)).append("\n");
     sb.append("}");
@@ -97,11 +106,8 @@ public class ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadProp
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

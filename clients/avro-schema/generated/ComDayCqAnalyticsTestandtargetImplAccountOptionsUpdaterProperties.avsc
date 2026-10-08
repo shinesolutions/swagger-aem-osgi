@@ -1,0 +1,15 @@
+{
+  "namespace": "model",
+  "type": "record",
+  "doc": "",
+  "name": "ComDayCqAnalyticsTestandtargetImplAccountOptionsUpdaterProperties",
+  "fields": [
+    {
+      "name": "cq.analytics.testandtarget.accountoptionsupdater.enabled",
+      "type": ["null", "model.ConfigNodePropertyBoolean"],
+      "doc": "",
+      "default": null
+    }
+  ]
+
+}

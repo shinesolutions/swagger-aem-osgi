@@ -72,8 +72,8 @@ private class OASComAdobeGraniteAuthOauthImplHelpeTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeGraniteAuthOauthImplHelpe comAdobeGraniteAuthOauthImplHelperProviderConfigManagerInternalProperties = new OASComAdobeGraniteAuthOauthImplHelpe();
-        Map<String, String> propertyMappings = comAdobeGraniteAuthOauthImplHelperProviderConfigManagerInternalProperties.getPropertyMappings();
-        System.assertEquals('oauthCookieLoginTimeout', propertyMappings.get('oauth.cookie.login.timeout'));
-        System.assertEquals('oauthCookieMaxAge', propertyMappings.get('oauth.cookie.max.age'));
+        Map<String, String> x-property-mappings = comAdobeGraniteAuthOauthImplHelperProviderConfigManagerInternalProperties.getx-property-mappings();
+        System.assertEquals('oauthCookieLoginTimeout', x-property-mappings.get('oauth.cookie.login.timeout'));
+        System.assertEquals('oauthCookieMaxAge', x-property-mappings.get('oauth.cookie.max.age'));
     }
 }

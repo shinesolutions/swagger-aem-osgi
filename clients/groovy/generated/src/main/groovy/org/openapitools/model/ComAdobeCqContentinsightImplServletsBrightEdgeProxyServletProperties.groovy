@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeCqContentinsightImplServletsBrightEdgeProxyServletProperties {
-    ConfigNodePropertyString brightedgeUrl = null
-
+    
+    ConfigNodePropertyString brightedgeUrl
 }

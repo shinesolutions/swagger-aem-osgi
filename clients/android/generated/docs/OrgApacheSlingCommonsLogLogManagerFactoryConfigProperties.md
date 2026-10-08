@@ -1,7 +1,9 @@
 
+
 # OrgApacheSlingCommonsLogLogManagerFactoryConfigProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **orgApacheSlingCommonsLogLevel** | [**ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md) |  |  [optional]
@@ -9,6 +11,7 @@ Name | Type | Description | Notes
 **orgApacheSlingCommonsLogPattern** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
 **orgApacheSlingCommonsLogNames** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
 **orgApacheSlingCommonsLogAdditiv** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
+
 
 
 

@@ -1,19 +1,30 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comDayCqDamScene7ImplScene7UploadServiceImplProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqDamScene7ImplScene7UploadServiceImplProperties   {
-  
-  private @Valid ConfigNodePropertyInteger cqDamScene7UploadserviceActivejobtimeoutLabel = null;
-  private @Valid ConfigNodePropertyInteger cqDamScene7UploadserviceConnectionmaxperrouteLabel = null;
+  private ConfigNodePropertyInteger cqDamScene7UploadserviceActivejobtimeoutLabel;
+  private ConfigNodePropertyInteger cqDamScene7UploadserviceConnectionmaxperrouteLabel;
+
+  public ComDayCqDamScene7ImplScene7UploadServiceImplProperties() {
+  }
 
   /**
    **/
@@ -25,9 +36,11 @@ public class ComDayCqDamScene7ImplScene7UploadServiceImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("cq.dam.scene7.uploadservice.activejobtimeout.label")
-  public ConfigNodePropertyInteger getCqDamScene7UploadserviceActivejobtimeoutLabel() {
+  @Valid public ConfigNodePropertyInteger getCqDamScene7UploadserviceActivejobtimeoutLabel() {
     return cqDamScene7UploadserviceActivejobtimeoutLabel;
   }
+
+  @JsonProperty("cq.dam.scene7.uploadservice.activejobtimeout.label")
   public void setCqDamScene7UploadserviceActivejobtimeoutLabel(ConfigNodePropertyInteger cqDamScene7UploadserviceActivejobtimeoutLabel) {
     this.cqDamScene7UploadserviceActivejobtimeoutLabel = cqDamScene7UploadserviceActivejobtimeoutLabel;
   }
@@ -42,16 +55,18 @@ public class ComDayCqDamScene7ImplScene7UploadServiceImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("cq.dam.scene7.uploadservice.connectionmaxperroute.label")
-  public ConfigNodePropertyInteger getCqDamScene7UploadserviceConnectionmaxperrouteLabel() {
+  @Valid public ConfigNodePropertyInteger getCqDamScene7UploadserviceConnectionmaxperrouteLabel() {
     return cqDamScene7UploadserviceConnectionmaxperrouteLabel;
   }
+
+  @JsonProperty("cq.dam.scene7.uploadservice.connectionmaxperroute.label")
   public void setCqDamScene7UploadserviceConnectionmaxperrouteLabel(ConfigNodePropertyInteger cqDamScene7UploadserviceConnectionmaxperrouteLabel) {
     this.cqDamScene7UploadserviceConnectionmaxperrouteLabel = cqDamScene7UploadserviceConnectionmaxperrouteLabel;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -59,8 +74,8 @@ public class ComDayCqDamScene7ImplScene7UploadServiceImplProperties   {
       return false;
     }
     ComDayCqDamScene7ImplScene7UploadServiceImplProperties comDayCqDamScene7ImplScene7UploadServiceImplProperties = (ComDayCqDamScene7ImplScene7UploadServiceImplProperties) o;
-    return Objects.equals(cqDamScene7UploadserviceActivejobtimeoutLabel, comDayCqDamScene7ImplScene7UploadServiceImplProperties.cqDamScene7UploadserviceActivejobtimeoutLabel) &&
-        Objects.equals(cqDamScene7UploadserviceConnectionmaxperrouteLabel, comDayCqDamScene7ImplScene7UploadServiceImplProperties.cqDamScene7UploadserviceConnectionmaxperrouteLabel);
+    return Objects.equals(this.cqDamScene7UploadserviceActivejobtimeoutLabel, comDayCqDamScene7ImplScene7UploadServiceImplProperties.cqDamScene7UploadserviceActivejobtimeoutLabel) &&
+        Objects.equals(this.cqDamScene7UploadserviceConnectionmaxperrouteLabel, comDayCqDamScene7ImplScene7UploadServiceImplProperties.cqDamScene7UploadserviceConnectionmaxperrouteLabel);
   }
 
   @Override
@@ -83,11 +98,9 @@ public class ComDayCqDamScene7ImplScene7UploadServiceImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

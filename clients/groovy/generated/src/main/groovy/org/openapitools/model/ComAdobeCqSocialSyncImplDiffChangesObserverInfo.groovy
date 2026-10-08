@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqSocialSyncImplDiffChangesObserverPropert
 
 @Canonical
 class ComAdobeCqSocialSyncImplDiffChangesObserverInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqSocialSyncImplDiffChangesObserverProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqSocialSyncImplDiffChangesObserverProperties properties
 }

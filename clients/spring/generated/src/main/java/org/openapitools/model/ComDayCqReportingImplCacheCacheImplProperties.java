@@ -1,31 +1,42 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComDayCqReportingImplCacheCacheImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComDayCqReportingImplCacheCacheImplProperties   {
-  @JsonProperty("repcache.enable")
-  private ConfigNodePropertyBoolean repcacheEnable = null;
+@JsonTypeName("comDayCqReportingImplCacheCacheImplProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComDayCqReportingImplCacheCacheImplProperties {
 
-  @JsonProperty("repcache.ttl")
-  private ConfigNodePropertyInteger repcacheTtl = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean repcacheEnable;
 
-  @JsonProperty("repcache.max")
-  private ConfigNodePropertyInteger repcacheMax = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger repcacheTtl;
 
-  public ComDayCqReportingImplCacheCacheImplProperties repcacheEnable(ConfigNodePropertyBoolean repcacheEnable) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger repcacheMax;
+
+  public ComDayCqReportingImplCacheCacheImplProperties repcacheEnable(@Nullable ConfigNodePropertyBoolean repcacheEnable) {
     this.repcacheEnable = repcacheEnable;
     return this;
   }
@@ -33,20 +44,20 @@ public class ComDayCqReportingImplCacheCacheImplProperties   {
   /**
    * Get repcacheEnable
    * @return repcacheEnable
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getRepcacheEnable() {
+   */
+  @Valid 
+  @Schema(name = "repcache.enable", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("repcache.enable")
+  public @Nullable ConfigNodePropertyBoolean getRepcacheEnable() {
     return repcacheEnable;
   }
 
-  public void setRepcacheEnable(ConfigNodePropertyBoolean repcacheEnable) {
+  @JsonProperty("repcache.enable")
+  public void setRepcacheEnable(@Nullable ConfigNodePropertyBoolean repcacheEnable) {
     this.repcacheEnable = repcacheEnable;
   }
 
-  public ComDayCqReportingImplCacheCacheImplProperties repcacheTtl(ConfigNodePropertyInteger repcacheTtl) {
+  public ComDayCqReportingImplCacheCacheImplProperties repcacheTtl(@Nullable ConfigNodePropertyInteger repcacheTtl) {
     this.repcacheTtl = repcacheTtl;
     return this;
   }
@@ -54,20 +65,20 @@ public class ComDayCqReportingImplCacheCacheImplProperties   {
   /**
    * Get repcacheTtl
    * @return repcacheTtl
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getRepcacheTtl() {
+   */
+  @Valid 
+  @Schema(name = "repcache.ttl", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("repcache.ttl")
+  public @Nullable ConfigNodePropertyInteger getRepcacheTtl() {
     return repcacheTtl;
   }
 
-  public void setRepcacheTtl(ConfigNodePropertyInteger repcacheTtl) {
+  @JsonProperty("repcache.ttl")
+  public void setRepcacheTtl(@Nullable ConfigNodePropertyInteger repcacheTtl) {
     this.repcacheTtl = repcacheTtl;
   }
 
-  public ComDayCqReportingImplCacheCacheImplProperties repcacheMax(ConfigNodePropertyInteger repcacheMax) {
+  public ComDayCqReportingImplCacheCacheImplProperties repcacheMax(@Nullable ConfigNodePropertyInteger repcacheMax) {
     this.repcacheMax = repcacheMax;
     return this;
   }
@@ -75,22 +86,21 @@ public class ComDayCqReportingImplCacheCacheImplProperties   {
   /**
    * Get repcacheMax
    * @return repcacheMax
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getRepcacheMax() {
+   */
+  @Valid 
+  @Schema(name = "repcache.max", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("repcache.max")
+  public @Nullable ConfigNodePropertyInteger getRepcacheMax() {
     return repcacheMax;
   }
 
-  public void setRepcacheMax(ConfigNodePropertyInteger repcacheMax) {
+  @JsonProperty("repcache.max")
+  public void setRepcacheMax(@Nullable ConfigNodePropertyInteger repcacheMax) {
     this.repcacheMax = repcacheMax;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -112,7 +122,6 @@ public class ComDayCqReportingImplCacheCacheImplProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComDayCqReportingImplCacheCacheImplProperties {\n");
-    
     sb.append("    repcacheEnable: ").append(toIndentedString(repcacheEnable)).append("\n");
     sb.append("    repcacheTtl: ").append(toIndentedString(repcacheTtl)).append("\n");
     sb.append("    repcacheMax: ").append(toIndentedString(repcacheMax)).append("\n");
@@ -124,11 +133,8 @@ public class ComDayCqReportingImplCacheCacheImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

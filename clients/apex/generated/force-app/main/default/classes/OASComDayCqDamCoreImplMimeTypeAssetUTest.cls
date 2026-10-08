@@ -72,8 +72,8 @@ private class OASComDayCqDamCoreImplMimeTypeAssetUTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqDamCoreImplMimeTypeAssetU comDayCqDamCoreImplMimeTypeAssetUploadRestrictionHelperProperties = new OASComDayCqDamCoreImplMimeTypeAssetU();
-        Map<String, String> propertyMappings = comDayCqDamCoreImplMimeTypeAssetUploadRestrictionHelperProperties.getPropertyMappings();
-        System.assertEquals('cqDamAllowAllMime', propertyMappings.get('cq.dam.allow.all.mime'));
-        System.assertEquals('cqDamAllowedAssetMimes', propertyMappings.get('cq.dam.allowed.asset.mimes'));
+        Map<String, String> x-property-mappings = comDayCqDamCoreImplMimeTypeAssetUploadRestrictionHelperProperties.getx-property-mappings();
+        System.assertEquals('cqDamAllowAllMime', x-property-mappings.get('cq.dam.allow.all.mime'));
+        System.assertEquals('cqDamAllowedAssetMimes', x-property-mappings.get('cq.dam.allowed.asset.mimes'));
     }
 }

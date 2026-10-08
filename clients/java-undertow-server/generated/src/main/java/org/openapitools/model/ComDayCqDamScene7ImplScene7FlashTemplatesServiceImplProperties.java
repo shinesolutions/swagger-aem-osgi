@@ -1,3 +1,13 @@
+/*
+ * Adobe Experience Manager OSGI config (AEM) API
+ *
+ * Swagger AEM OSGI is an OpenAPI specification for Adobe Experience Manager (AEM) OSGI Configurations API
+ *
+ * OpenAPI document version: 1.0.0-pre.0
+ * Maintained by: opensource@shinesolutions.com
+ *
+ * AUTO-GENERATED FILE, DO NOT MODIFY!
+ */
 package org.openapitools.model;
 
 import java.util.Objects;
@@ -11,17 +21,17 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2019-08-05T00:56:20.785Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2026-10-07T12:53:42.280804918Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqDamScene7ImplScene7FlashTemplatesServiceImplProperties   {
   
-  private ConfigNodePropertyString scene7FlashTemplatesRti = null;
-  private ConfigNodePropertyString scene7FlashTemplatesRsi = null;
-  private ConfigNodePropertyString scene7FlashTemplatesRb = null;
-  private ConfigNodePropertyString scene7FlashTemplatesRurl = null;
-  private ConfigNodePropertyString scene7FlashTemplateUrlFormatParameter = null;
+  private ConfigNodePropertyString scene7FlashTemplatesRti;
+  private ConfigNodePropertyString scene7FlashTemplatesRsi;
+  private ConfigNodePropertyString scene7FlashTemplatesRb;
+  private ConfigNodePropertyString scene7FlashTemplatesRurl;
+  private ConfigNodePropertyString scene7FlashTemplateUrlFormatParameter;
 
   /**
-   **/
+   */
   public ComDayCqDamScene7ImplScene7FlashTemplatesServiceImplProperties scene7FlashTemplatesRti(ConfigNodePropertyString scene7FlashTemplatesRti) {
     this.scene7FlashTemplatesRti = scene7FlashTemplatesRti;
     return this;
@@ -38,7 +48,7 @@ public class ComDayCqDamScene7ImplScene7FlashTemplatesServiceImplProperties   {
   }
 
   /**
-   **/
+   */
   public ComDayCqDamScene7ImplScene7FlashTemplatesServiceImplProperties scene7FlashTemplatesRsi(ConfigNodePropertyString scene7FlashTemplatesRsi) {
     this.scene7FlashTemplatesRsi = scene7FlashTemplatesRsi;
     return this;
@@ -55,7 +65,7 @@ public class ComDayCqDamScene7ImplScene7FlashTemplatesServiceImplProperties   {
   }
 
   /**
-   **/
+   */
   public ComDayCqDamScene7ImplScene7FlashTemplatesServiceImplProperties scene7FlashTemplatesRb(ConfigNodePropertyString scene7FlashTemplatesRb) {
     this.scene7FlashTemplatesRb = scene7FlashTemplatesRb;
     return this;
@@ -72,7 +82,7 @@ public class ComDayCqDamScene7ImplScene7FlashTemplatesServiceImplProperties   {
   }
 
   /**
-   **/
+   */
   public ComDayCqDamScene7ImplScene7FlashTemplatesServiceImplProperties scene7FlashTemplatesRurl(ConfigNodePropertyString scene7FlashTemplatesRurl) {
     this.scene7FlashTemplatesRurl = scene7FlashTemplatesRurl;
     return this;
@@ -89,7 +99,7 @@ public class ComDayCqDamScene7ImplScene7FlashTemplatesServiceImplProperties   {
   }
 
   /**
-   **/
+   */
   public ComDayCqDamScene7ImplScene7FlashTemplatesServiceImplProperties scene7FlashTemplateUrlFormatParameter(ConfigNodePropertyString scene7FlashTemplateUrlFormatParameter) {
     this.scene7FlashTemplateUrlFormatParameter = scene7FlashTemplateUrlFormatParameter;
     return this;
@@ -107,7 +117,7 @@ public class ComDayCqDamScene7ImplScene7FlashTemplatesServiceImplProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -145,11 +155,8 @@ public class ComDayCqDamScene7ImplScene7FlashTemplatesServiceImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

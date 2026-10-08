@@ -3,6 +3,7 @@ package org.openapitools.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
@@ -15,106 +16,106 @@ import org.openapitools.model.ConfigNodePropertyString;
 /**
  * ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaMSF4JServerCodegen", date = "2019-08-05T00:54:29.762Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaMSF4JServerCodegen", date = "2026-10-07T12:53:29.980508721Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties   {
   @JsonProperty("service.ranking")
-  private ConfigNodePropertyInteger serviceRanking = null;
+  private ConfigNodePropertyInteger serviceRanking;
 
   @JsonProperty("global.size")
-  private ConfigNodePropertyInteger globalSize = null;
+  private ConfigNodePropertyInteger globalSize;
 
   @JsonProperty("max.disk.usage")
-  private ConfigNodePropertyInteger maxDiskUsage = null;
+  private ConfigNodePropertyInteger maxDiskUsage;
 
   @JsonProperty("persistence.enabled")
-  private ConfigNodePropertyBoolean persistenceEnabled = null;
+  private ConfigNodePropertyBoolean persistenceEnabled;
 
   @JsonProperty("thread.pool.max.size")
-  private ConfigNodePropertyInteger threadPoolMaxSize = null;
+  private ConfigNodePropertyInteger threadPoolMaxSize;
 
   @JsonProperty("scheduled.thread.pool.max.size")
-  private ConfigNodePropertyInteger scheduledThreadPoolMaxSize = null;
+  private ConfigNodePropertyInteger scheduledThreadPoolMaxSize;
 
   @JsonProperty("graceful.shutdown.timeout")
-  private ConfigNodePropertyInteger gracefulShutdownTimeout = null;
+  private ConfigNodePropertyInteger gracefulShutdownTimeout;
 
   @JsonProperty("queues")
-  private ConfigNodePropertyArray queues = null;
+  private ConfigNodePropertyArray queues;
 
   @JsonProperty("topics")
-  private ConfigNodePropertyArray topics = null;
+  private ConfigNodePropertyArray topics;
 
   @JsonProperty("addresses.max.delivery.attempts")
-  private ConfigNodePropertyInteger addressesMaxDeliveryAttempts = null;
+  private ConfigNodePropertyInteger addressesMaxDeliveryAttempts;
 
   @JsonProperty("addresses.expiry.delay")
-  private ConfigNodePropertyInteger addressesExpiryDelay = null;
+  private ConfigNodePropertyInteger addressesExpiryDelay;
 
   @JsonProperty("addresses.address.full.message.policy")
-  private ConfigNodePropertyDropDown addressesAddressFullMessagePolicy = null;
+  private ConfigNodePropertyDropDown addressesAddressFullMessagePolicy;
 
   @JsonProperty("addresses.max.size.bytes")
-  private ConfigNodePropertyInteger addressesMaxSizeBytes = null;
+  private ConfigNodePropertyInteger addressesMaxSizeBytes;
 
   @JsonProperty("addresses.page.size.bytes")
-  private ConfigNodePropertyInteger addressesPageSizeBytes = null;
+  private ConfigNodePropertyInteger addressesPageSizeBytes;
 
   @JsonProperty("addresses.page.cache.max.size")
-  private ConfigNodePropertyInteger addressesPageCacheMaxSize = null;
+  private ConfigNodePropertyInteger addressesPageCacheMaxSize;
 
   @JsonProperty("cluster.user")
-  private ConfigNodePropertyString clusterUser = null;
+  private ConfigNodePropertyString clusterUser;
 
   @JsonProperty("cluster.password")
-  private ConfigNodePropertyString clusterPassword = null;
+  private ConfigNodePropertyString clusterPassword;
 
   @JsonProperty("cluster.call.timeout")
-  private ConfigNodePropertyInteger clusterCallTimeout = null;
+  private ConfigNodePropertyInteger clusterCallTimeout;
 
   @JsonProperty("cluster.call.failover.timeout")
-  private ConfigNodePropertyInteger clusterCallFailoverTimeout = null;
+  private ConfigNodePropertyInteger clusterCallFailoverTimeout;
 
   @JsonProperty("cluster.client.failure.check.period")
-  private ConfigNodePropertyInteger clusterClientFailureCheckPeriod = null;
+  private ConfigNodePropertyInteger clusterClientFailureCheckPeriod;
 
   @JsonProperty("cluster.notification.attempts")
-  private ConfigNodePropertyInteger clusterNotificationAttempts = null;
+  private ConfigNodePropertyInteger clusterNotificationAttempts;
 
   @JsonProperty("cluster.notification.interval")
-  private ConfigNodePropertyInteger clusterNotificationInterval = null;
+  private ConfigNodePropertyInteger clusterNotificationInterval;
 
   @JsonProperty("id.cache.size")
-  private ConfigNodePropertyInteger idCacheSize = null;
+  private ConfigNodePropertyInteger idCacheSize;
 
   @JsonProperty("cluster.confirmation.window.size")
-  private ConfigNodePropertyInteger clusterConfirmationWindowSize = null;
+  private ConfigNodePropertyInteger clusterConfirmationWindowSize;
 
   @JsonProperty("cluster.connection.ttl")
-  private ConfigNodePropertyInteger clusterConnectionTtl = null;
+  private ConfigNodePropertyInteger clusterConnectionTtl;
 
   @JsonProperty("cluster.duplicate.detection")
-  private ConfigNodePropertyBoolean clusterDuplicateDetection = null;
+  private ConfigNodePropertyBoolean clusterDuplicateDetection;
 
   @JsonProperty("cluster.initial.connect.attempts")
-  private ConfigNodePropertyInteger clusterInitialConnectAttempts = null;
+  private ConfigNodePropertyInteger clusterInitialConnectAttempts;
 
   @JsonProperty("cluster.max.retry.interval")
-  private ConfigNodePropertyInteger clusterMaxRetryInterval = null;
+  private ConfigNodePropertyInteger clusterMaxRetryInterval;
 
   @JsonProperty("cluster.min.large.message.size")
-  private ConfigNodePropertyInteger clusterMinLargeMessageSize = null;
+  private ConfigNodePropertyInteger clusterMinLargeMessageSize;
 
   @JsonProperty("cluster.producer.window.size")
-  private ConfigNodePropertyInteger clusterProducerWindowSize = null;
+  private ConfigNodePropertyInteger clusterProducerWindowSize;
 
   @JsonProperty("cluster.reconnect.attempts")
-  private ConfigNodePropertyInteger clusterReconnectAttempts = null;
+  private ConfigNodePropertyInteger clusterReconnectAttempts;
 
   @JsonProperty("cluster.retry.interval")
-  private ConfigNodePropertyInteger clusterRetryInterval = null;
+  private ConfigNodePropertyInteger clusterRetryInterval;
 
   @JsonProperty("cluster.retry.interval.multiplier")
-  private ConfigNodePropertyFloat clusterRetryIntervalMultiplier = null;
+  private ConfigNodePropertyFloat clusterRetryIntervalMultiplier;
 
   public ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties serviceRanking(ConfigNodePropertyInteger serviceRanking) {
     this.serviceRanking = serviceRanking;
@@ -712,7 +713,7 @@ public class ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -806,11 +807,8 @@ public class ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -1,31 +1,42 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosProperties   {
-  @JsonProperty("enableScheduledPostsSearch")
-  private ConfigNodePropertyBoolean enableScheduledPostsSearch = null;
+@JsonTypeName("comAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosProperties {
 
-  @JsonProperty("numberOfMinutes")
-  private ConfigNodePropertyInteger numberOfMinutes = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean enableScheduledPostsSearch;
 
-  @JsonProperty("maxSearchLimit")
-  private ConfigNodePropertyInteger maxSearchLimit = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger numberOfMinutes;
 
-  public ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosProperties enableScheduledPostsSearch(ConfigNodePropertyBoolean enableScheduledPostsSearch) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger maxSearchLimit;
+
+  public ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosProperties enableScheduledPostsSearch(@Nullable ConfigNodePropertyBoolean enableScheduledPostsSearch) {
     this.enableScheduledPostsSearch = enableScheduledPostsSearch;
     return this;
   }
@@ -33,20 +44,20 @@ public class ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosPrope
   /**
    * Get enableScheduledPostsSearch
    * @return enableScheduledPostsSearch
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getEnableScheduledPostsSearch() {
+   */
+  @Valid 
+  @Schema(name = "enableScheduledPostsSearch", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("enableScheduledPostsSearch")
+  public @Nullable ConfigNodePropertyBoolean getEnableScheduledPostsSearch() {
     return enableScheduledPostsSearch;
   }
 
-  public void setEnableScheduledPostsSearch(ConfigNodePropertyBoolean enableScheduledPostsSearch) {
+  @JsonProperty("enableScheduledPostsSearch")
+  public void setEnableScheduledPostsSearch(@Nullable ConfigNodePropertyBoolean enableScheduledPostsSearch) {
     this.enableScheduledPostsSearch = enableScheduledPostsSearch;
   }
 
-  public ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosProperties numberOfMinutes(ConfigNodePropertyInteger numberOfMinutes) {
+  public ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosProperties numberOfMinutes(@Nullable ConfigNodePropertyInteger numberOfMinutes) {
     this.numberOfMinutes = numberOfMinutes;
     return this;
   }
@@ -54,20 +65,20 @@ public class ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosPrope
   /**
    * Get numberOfMinutes
    * @return numberOfMinutes
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getNumberOfMinutes() {
+   */
+  @Valid 
+  @Schema(name = "numberOfMinutes", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("numberOfMinutes")
+  public @Nullable ConfigNodePropertyInteger getNumberOfMinutes() {
     return numberOfMinutes;
   }
 
-  public void setNumberOfMinutes(ConfigNodePropertyInteger numberOfMinutes) {
+  @JsonProperty("numberOfMinutes")
+  public void setNumberOfMinutes(@Nullable ConfigNodePropertyInteger numberOfMinutes) {
     this.numberOfMinutes = numberOfMinutes;
   }
 
-  public ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosProperties maxSearchLimit(ConfigNodePropertyInteger maxSearchLimit) {
+  public ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosProperties maxSearchLimit(@Nullable ConfigNodePropertyInteger maxSearchLimit) {
     this.maxSearchLimit = maxSearchLimit;
     return this;
   }
@@ -75,22 +86,21 @@ public class ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosPrope
   /**
    * Get maxSearchLimit
    * @return maxSearchLimit
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getMaxSearchLimit() {
+   */
+  @Valid 
+  @Schema(name = "maxSearchLimit", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("maxSearchLimit")
+  public @Nullable ConfigNodePropertyInteger getMaxSearchLimit() {
     return maxSearchLimit;
   }
 
-  public void setMaxSearchLimit(ConfigNodePropertyInteger maxSearchLimit) {
+  @JsonProperty("maxSearchLimit")
+  public void setMaxSearchLimit(@Nullable ConfigNodePropertyInteger maxSearchLimit) {
     this.maxSearchLimit = maxSearchLimit;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -112,7 +122,6 @@ public class ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosPrope
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosProperties {\n");
-    
     sb.append("    enableScheduledPostsSearch: ").append(toIndentedString(enableScheduledPostsSearch)).append("\n");
     sb.append("    numberOfMinutes: ").append(toIndentedString(numberOfMinutes)).append("\n");
     sb.append("    maxSearchLimit: ").append(toIndentedString(maxSearchLimit)).append("\n");
@@ -124,11 +133,8 @@ public class ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosPrope
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

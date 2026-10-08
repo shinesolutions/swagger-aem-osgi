@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqDamScene7ImplScene7UploadServiceImplProper
 
 @Canonical
 class ComDayCqDamScene7ImplScene7UploadServiceImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqDamScene7ImplScene7UploadServiceImplProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqDamScene7ImplScene7UploadServiceImplProperties properties
 }

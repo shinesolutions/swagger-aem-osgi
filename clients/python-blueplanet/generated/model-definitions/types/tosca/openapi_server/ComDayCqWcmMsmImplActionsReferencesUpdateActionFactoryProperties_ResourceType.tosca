@@ -1,0 +1,52 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqWcmMsmImplActionsReferencesUpdateActionFactoryProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqWcmMsmImplActionsReferencesUpdateActionFactoryProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+}
+resourceTypes {
+
+  ComDayCqWcmMsmImplActionsReferencesUpdateActionFactoryProperties {
+    title = ComDayCqWcmMsmImplActionsReferencesUpdateActionFactoryProperties
+    description = ComDayCqWcmMsmImplActionsReferencesUpdateActionFactoryProperties
+    derivedFrom = Root
+    properties {
+        cq_wcm_msm_action_excludednodetypes {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        cq_wcm_msm_action_excludedparagraphitems {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        cq_wcm_msm_action_excludedprops {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        cq_wcm_msm_impl_action_referencesupdate_prop_update_nested {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqWcmMsmImplActionsReferencesUpdateActionFactoryProperties {
+    title = ComDayCqWcmMsmImplActionsReferencesUpdateActionFactoryProperties
+    description = ComDayCqWcmMsmImplActionsReferencesUpdateActionFactoryProperties
+    implements = openapi_server.resourceTypes.ComDayCqWcmMsmImplActionsReferencesUpdateActionFactoryProperties
+
+  }
+}

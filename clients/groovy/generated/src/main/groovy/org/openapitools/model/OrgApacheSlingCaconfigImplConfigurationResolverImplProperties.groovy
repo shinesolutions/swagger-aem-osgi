@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyArray;
 
 @Canonical
 class OrgApacheSlingCaconfigImplConfigurationResolverImplProperties {
-    ConfigNodePropertyArray configBucketNames = null
-
+    
+    ConfigNodePropertyArray configBucketNames
 }

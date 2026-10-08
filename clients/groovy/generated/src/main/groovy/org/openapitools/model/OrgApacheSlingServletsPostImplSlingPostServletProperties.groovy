@@ -10,18 +10,18 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class OrgApacheSlingServletsPostImplSlingPostServletProperties {
-    ConfigNodePropertyArray servletPostDateFormats = null
-
-    ConfigNodePropertyArray servletPostNodeNameHints = null
-
-    ConfigNodePropertyInteger servletPostNodeNameMaxLength = null
-
-    ConfigNodePropertyBoolean servletPostCheckinNewVersionableNodes = null
-
-    ConfigNodePropertyBoolean servletPostAutoCheckout = null
-
-    ConfigNodePropertyBoolean servletPostAutoCheckin = null
-
-    ConfigNodePropertyString servletPostIgnorePattern = null
-
+    
+    ConfigNodePropertyArray servletPostDateFormats
+    
+    ConfigNodePropertyArray servletPostNodeNameHints
+    
+    ConfigNodePropertyInteger servletPostNodeNameMaxLength
+    
+    ConfigNodePropertyBoolean servletPostCheckinNewVersionableNodes
+    
+    ConfigNodePropertyBoolean servletPostAutoCheckout
+    
+    ConfigNodePropertyBoolean servletPostAutoCheckin
+    
+    ConfigNodePropertyString servletPostIgnorePattern
 }

@@ -8,8 +8,8 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class ComAdobeGraniteBundlesHcImplJobsHealthCheckProperties {
-    ConfigNodePropertyArray hcTags = null
-
-    ConfigNodePropertyInteger maxQueuedJobs = null
-
+    
+    ConfigNodePropertyArray hcTags
+    
+    ConfigNodePropertyInteger maxQueuedJobs
 }

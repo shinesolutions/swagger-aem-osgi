@@ -4,28 +4,23 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePreProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2019-08-05T01:00:05.540Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2026-10-07T12:54:26.576036107Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePreInfo   {
   
-
-  private String pid = null;
-
-  private String title = null;
-
-  private String description = null;
-
-  private OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePreProperties properties = null;
-
-  private String bundleLocation = null;
-
-  private String serviceLocation = null;
+  private String pid;
+  private String title;
+  private String description;
+  private OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePreProperties properties;
+  private String bundleLocation;
+  private String serviceLocation;
 
   /**
    **/
@@ -109,12 +104,12 @@ public class OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePreInf
       return false;
     }
     OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePreInfo orgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePreInfo = (OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePreInfo) o;
-    return Objects.equals(pid, orgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePreInfo.pid) &&
-        Objects.equals(title, orgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePreInfo.title) &&
-        Objects.equals(description, orgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePreInfo.description) &&
-        Objects.equals(properties, orgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePreInfo.properties) &&
-        Objects.equals(bundleLocation, orgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePreInfo.bundleLocation) &&
-        Objects.equals(serviceLocation, orgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePreInfo.serviceLocation);
+    return Objects.equals(this.pid, orgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePreInfo.pid) &&
+        Objects.equals(this.title, orgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePreInfo.title) &&
+        Objects.equals(this.description, orgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePreInfo.description) &&
+        Objects.equals(this.properties, orgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePreInfo.properties) &&
+        Objects.equals(this.bundleLocation, orgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePreInfo.bundleLocation) &&
+        Objects.equals(this.serviceLocation, orgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePreInfo.serviceLocation);
   }
 
   @Override
@@ -142,10 +137,7 @@ public class OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePreInf
    * (except the first line).
    */
   private String toIndentedString(Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

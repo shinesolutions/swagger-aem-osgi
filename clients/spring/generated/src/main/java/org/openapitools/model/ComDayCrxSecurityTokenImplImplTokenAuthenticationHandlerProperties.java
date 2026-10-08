@@ -1,39 +1,50 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyDropDown;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerProperties   {
-  @JsonProperty("path")
-  private ConfigNodePropertyString path = null;
+@JsonTypeName("comDayCrxSecurityTokenImplImplTokenAuthenticationHandlerProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerProperties {
 
-  @JsonProperty("token.required.attr")
-  private ConfigNodePropertyDropDown tokenRequiredAttr = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString path;
 
-  @JsonProperty("token.alternate.url")
-  private ConfigNodePropertyString tokenAlternateUrl = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyDropDown tokenRequiredAttr;
 
-  @JsonProperty("token.encapsulated")
-  private ConfigNodePropertyBoolean tokenEncapsulated = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString tokenAlternateUrl;
 
-  @JsonProperty("skip.token.refresh")
-  private ConfigNodePropertyArray skipTokenRefresh = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean tokenEncapsulated;
 
-  public ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerProperties path(ConfigNodePropertyString path) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray skipTokenRefresh;
+
+  public ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerProperties path(@Nullable ConfigNodePropertyString path) {
     this.path = path;
     return this;
   }
@@ -41,20 +52,20 @@ public class ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerProperties 
   /**
    * Get path
    * @return path
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getPath() {
+   */
+  @Valid 
+  @Schema(name = "path", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("path")
+  public @Nullable ConfigNodePropertyString getPath() {
     return path;
   }
 
-  public void setPath(ConfigNodePropertyString path) {
+  @JsonProperty("path")
+  public void setPath(@Nullable ConfigNodePropertyString path) {
     this.path = path;
   }
 
-  public ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerProperties tokenRequiredAttr(ConfigNodePropertyDropDown tokenRequiredAttr) {
+  public ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerProperties tokenRequiredAttr(@Nullable ConfigNodePropertyDropDown tokenRequiredAttr) {
     this.tokenRequiredAttr = tokenRequiredAttr;
     return this;
   }
@@ -62,20 +73,20 @@ public class ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerProperties 
   /**
    * Get tokenRequiredAttr
    * @return tokenRequiredAttr
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyDropDown getTokenRequiredAttr() {
+   */
+  @Valid 
+  @Schema(name = "token.required.attr", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("token.required.attr")
+  public @Nullable ConfigNodePropertyDropDown getTokenRequiredAttr() {
     return tokenRequiredAttr;
   }
 
-  public void setTokenRequiredAttr(ConfigNodePropertyDropDown tokenRequiredAttr) {
+  @JsonProperty("token.required.attr")
+  public void setTokenRequiredAttr(@Nullable ConfigNodePropertyDropDown tokenRequiredAttr) {
     this.tokenRequiredAttr = tokenRequiredAttr;
   }
 
-  public ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerProperties tokenAlternateUrl(ConfigNodePropertyString tokenAlternateUrl) {
+  public ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerProperties tokenAlternateUrl(@Nullable ConfigNodePropertyString tokenAlternateUrl) {
     this.tokenAlternateUrl = tokenAlternateUrl;
     return this;
   }
@@ -83,20 +94,20 @@ public class ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerProperties 
   /**
    * Get tokenAlternateUrl
    * @return tokenAlternateUrl
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getTokenAlternateUrl() {
+   */
+  @Valid 
+  @Schema(name = "token.alternate.url", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("token.alternate.url")
+  public @Nullable ConfigNodePropertyString getTokenAlternateUrl() {
     return tokenAlternateUrl;
   }
 
-  public void setTokenAlternateUrl(ConfigNodePropertyString tokenAlternateUrl) {
+  @JsonProperty("token.alternate.url")
+  public void setTokenAlternateUrl(@Nullable ConfigNodePropertyString tokenAlternateUrl) {
     this.tokenAlternateUrl = tokenAlternateUrl;
   }
 
-  public ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerProperties tokenEncapsulated(ConfigNodePropertyBoolean tokenEncapsulated) {
+  public ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerProperties tokenEncapsulated(@Nullable ConfigNodePropertyBoolean tokenEncapsulated) {
     this.tokenEncapsulated = tokenEncapsulated;
     return this;
   }
@@ -104,20 +115,20 @@ public class ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerProperties 
   /**
    * Get tokenEncapsulated
    * @return tokenEncapsulated
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getTokenEncapsulated() {
+   */
+  @Valid 
+  @Schema(name = "token.encapsulated", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("token.encapsulated")
+  public @Nullable ConfigNodePropertyBoolean getTokenEncapsulated() {
     return tokenEncapsulated;
   }
 
-  public void setTokenEncapsulated(ConfigNodePropertyBoolean tokenEncapsulated) {
+  @JsonProperty("token.encapsulated")
+  public void setTokenEncapsulated(@Nullable ConfigNodePropertyBoolean tokenEncapsulated) {
     this.tokenEncapsulated = tokenEncapsulated;
   }
 
-  public ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerProperties skipTokenRefresh(ConfigNodePropertyArray skipTokenRefresh) {
+  public ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerProperties skipTokenRefresh(@Nullable ConfigNodePropertyArray skipTokenRefresh) {
     this.skipTokenRefresh = skipTokenRefresh;
     return this;
   }
@@ -125,22 +136,21 @@ public class ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerProperties 
   /**
    * Get skipTokenRefresh
    * @return skipTokenRefresh
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getSkipTokenRefresh() {
+   */
+  @Valid 
+  @Schema(name = "skip.token.refresh", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("skip.token.refresh")
+  public @Nullable ConfigNodePropertyArray getSkipTokenRefresh() {
     return skipTokenRefresh;
   }
 
-  public void setSkipTokenRefresh(ConfigNodePropertyArray skipTokenRefresh) {
+  @JsonProperty("skip.token.refresh")
+  public void setSkipTokenRefresh(@Nullable ConfigNodePropertyArray skipTokenRefresh) {
     this.skipTokenRefresh = skipTokenRefresh;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -164,7 +174,6 @@ public class ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerProperties 
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerProperties {\n");
-    
     sb.append("    path: ").append(toIndentedString(path)).append("\n");
     sb.append("    tokenRequiredAttr: ").append(toIndentedString(tokenRequiredAttr)).append("\n");
     sb.append("    tokenAlternateUrl: ").append(toIndentedString(tokenAlternateUrl)).append("\n");
@@ -178,11 +187,8 @@ public class ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerProperties 
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -72,15 +72,15 @@ private class OASComDayCqWcmMsmImplRolloutManagerITest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqWcmMsmImplRolloutManagerI comDayCqWcmMsmImplRolloutManagerImplProperties = new OASComDayCqWcmMsmImplRolloutManagerI();
-        Map<String, String> propertyMappings = comDayCqWcmMsmImplRolloutManagerImplProperties.getPropertyMappings();
-        System.assertEquals('eventFilter', propertyMappings.get('event.filter'));
-        System.assertEquals('rolloutmgrExcludedpropsDefault', propertyMappings.get('rolloutmgr.excludedprops.default'));
-        System.assertEquals('rolloutmgrExcludedparagraphpropsDefault', propertyMappings.get('rolloutmgr.excludedparagraphprops.default'));
-        System.assertEquals('rolloutmgrExcludednodetypesDefault', propertyMappings.get('rolloutmgr.excludednodetypes.default'));
-        System.assertEquals('rolloutmgrThreadpoolMaxsize', propertyMappings.get('rolloutmgr.threadpool.maxsize'));
-        System.assertEquals('rolloutmgrThreadpoolMaxshutdowntime', propertyMappings.get('rolloutmgr.threadpool.maxshutdowntime'));
-        System.assertEquals('rolloutmgrThreadpoolPriority', propertyMappings.get('rolloutmgr.threadpool.priority'));
-        System.assertEquals('rolloutmgrCommitSize', propertyMappings.get('rolloutmgr.commit.size'));
-        System.assertEquals('rolloutmgrConflicthandlingEnabled', propertyMappings.get('rolloutmgr.conflicthandling.enabled'));
+        Map<String, String> x-property-mappings = comDayCqWcmMsmImplRolloutManagerImplProperties.getx-property-mappings();
+        System.assertEquals('eventFilter', x-property-mappings.get('event.filter'));
+        System.assertEquals('rolloutmgrExcludedpropsDefault', x-property-mappings.get('rolloutmgr.excludedprops.default'));
+        System.assertEquals('rolloutmgrExcludedparagraphpropsDefault', x-property-mappings.get('rolloutmgr.excludedparagraphprops.default'));
+        System.assertEquals('rolloutmgrExcludednodetypesDefault', x-property-mappings.get('rolloutmgr.excludednodetypes.default'));
+        System.assertEquals('rolloutmgrThreadpoolMaxsize', x-property-mappings.get('rolloutmgr.threadpool.maxsize'));
+        System.assertEquals('rolloutmgrThreadpoolMaxshutdowntime', x-property-mappings.get('rolloutmgr.threadpool.maxshutdowntime'));
+        System.assertEquals('rolloutmgrThreadpoolPriority', x-property-mappings.get('rolloutmgr.threadpool.priority'));
+        System.assertEquals('rolloutmgrCommitSize', x-property-mappings.get('rolloutmgr.commit.size'));
+        System.assertEquals('rolloutmgrConflicthandlingEnabled', x-property-mappings.get('rolloutmgr.conflicthandling.enabled'));
     }
 }

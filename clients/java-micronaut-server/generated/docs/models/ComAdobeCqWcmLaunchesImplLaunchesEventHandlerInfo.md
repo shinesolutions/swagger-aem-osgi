@@ -1,0 +1,20 @@
+
+
+# ComAdobeCqWcmLaunchesImplLaunchesEventHandlerInfo
+
+The class is defined in **[ComAdobeCqWcmLaunchesImplLaunchesEventHandlerInfo.java](../../src/main/java/org/openapitools/model/ComAdobeCqWcmLaunchesImplLaunchesEventHandlerInfo.java)**
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**pid** | `String` |  |  [optional property]
+**title** | `String` |  |  [optional property]
+**description** | `String` |  |  [optional property]
+**properties** | [`ComAdobeCqWcmLaunchesImplLaunchesEventHandlerProperties`](ComAdobeCqWcmLaunchesImplLaunchesEventHandlerProperties.md) |  |  [optional property]
+
+
+
+
+
+

@@ -9,18 +9,18 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties {
-    ConfigNodePropertyBoolean linkcheckertransformerDisableRewriting = null
-
-    ConfigNodePropertyBoolean linkcheckertransformerDisableChecking = null
-
-    ConfigNodePropertyInteger linkcheckertransformerMapCacheSize = null
-
-    ConfigNodePropertyBoolean linkcheckertransformerStrictExtensionCheck = null
-
-    ConfigNodePropertyBoolean linkcheckertransformerStripHtmltExtension = null
-
-    ConfigNodePropertyArray linkcheckertransformerRewriteElements = null
-
-    ConfigNodePropertyArray linkcheckertransformerStripExtensionPathBlacklist = null
-
+    
+    ConfigNodePropertyBoolean linkcheckertransformerDisableRewriting
+    
+    ConfigNodePropertyBoolean linkcheckertransformerDisableChecking
+    
+    ConfigNodePropertyInteger linkcheckertransformerMapCacheSize
+    
+    ConfigNodePropertyBoolean linkcheckertransformerStrictExtensionCheck
+    
+    ConfigNodePropertyBoolean linkcheckertransformerStripHtmltExtension
+    
+    ConfigNodePropertyArray linkcheckertransformerRewriteElements
+    
+    ConfigNodePropertyArray linkcheckertransformerStripExtensionPathBlacklist
 }

@@ -1,48 +1,58 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
 import io.swagger.annotations.ApiModelProperty;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlType;
-import javax.xml.bind.annotation.XmlEnum;
-import javax.xml.bind.annotation.XmlEnumValue;
+import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
 
 public class ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplProperties  {
   
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceMultipartuploadMinsizeName = null;
+
+  private ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceMultipartuploadMinsizeName;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceMultipartuploadPartsizeName = null;
+
+  private ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceMultipartuploadPartsizeName;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceMultipartuploadNumthreadName = null;
+
+  private ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceMultipartuploadNumthreadName;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceHttpReadtimeoutName = null;
+
+  private ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceHttpReadtimeoutName;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceHttpConnectiontimeoutName = null;
+
+  private ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceHttpConnectiontimeoutName;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceHttpMaxretrycountName = null;
+
+  private ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceHttpMaxretrycountName;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceUploadprogressIntervalName = null;
+
+  private ConfigNodePropertyInteger cqDamS7damVideoproxyclientserviceUploadprogressIntervalName;
  /**
    * Get cqDamS7damVideoproxyclientserviceMultipartuploadMinsizeName
    * @return cqDamS7damVideoproxyclientserviceMultipartuploadMinsizeName
@@ -169,6 +179,28 @@ public class ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplPropertie
     return this;
   }
 
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplProperties comDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplProperties = (ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplProperties) o;
+    return Objects.equals(this.cqDamS7damVideoproxyclientserviceMultipartuploadMinsizeName, comDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplProperties.cqDamS7damVideoproxyclientserviceMultipartuploadMinsizeName) &&
+        Objects.equals(this.cqDamS7damVideoproxyclientserviceMultipartuploadPartsizeName, comDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplProperties.cqDamS7damVideoproxyclientserviceMultipartuploadPartsizeName) &&
+        Objects.equals(this.cqDamS7damVideoproxyclientserviceMultipartuploadNumthreadName, comDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplProperties.cqDamS7damVideoproxyclientserviceMultipartuploadNumthreadName) &&
+        Objects.equals(this.cqDamS7damVideoproxyclientserviceHttpReadtimeoutName, comDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplProperties.cqDamS7damVideoproxyclientserviceHttpReadtimeoutName) &&
+        Objects.equals(this.cqDamS7damVideoproxyclientserviceHttpConnectiontimeoutName, comDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplProperties.cqDamS7damVideoproxyclientserviceHttpConnectiontimeoutName) &&
+        Objects.equals(this.cqDamS7damVideoproxyclientserviceHttpMaxretrycountName, comDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplProperties.cqDamS7damVideoproxyclientserviceHttpMaxretrycountName) &&
+        Objects.equals(this.cqDamS7damVideoproxyclientserviceUploadprogressIntervalName, comDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplProperties.cqDamS7damVideoproxyclientserviceUploadprogressIntervalName);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(cqDamS7damVideoproxyclientserviceMultipartuploadMinsizeName, cqDamS7damVideoproxyclientserviceMultipartuploadPartsizeName, cqDamS7damVideoproxyclientserviceMultipartuploadNumthreadName, cqDamS7damVideoproxyclientserviceHttpReadtimeoutName, cqDamS7damVideoproxyclientserviceHttpConnectiontimeoutName, cqDamS7damVideoproxyclientserviceHttpMaxretrycountName, cqDamS7damVideoproxyclientserviceUploadprogressIntervalName);
+  }
 
   @Override
   public String toString() {
@@ -190,11 +222,8 @@ public class ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplPropertie
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private static String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

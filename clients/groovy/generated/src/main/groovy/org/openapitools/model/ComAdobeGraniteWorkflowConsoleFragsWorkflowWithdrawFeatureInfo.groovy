@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeGraniteWorkflowConsoleFragsWorkflowWithdra
 
 @Canonical
 class ComAdobeGraniteWorkflowConsoleFragsWorkflowWithdrawFeatureInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteWorkflowConsoleFragsWorkflowWithdrawFeatureProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteWorkflowConsoleFragsWorkflowWithdrawFeatureProperties properties
 }

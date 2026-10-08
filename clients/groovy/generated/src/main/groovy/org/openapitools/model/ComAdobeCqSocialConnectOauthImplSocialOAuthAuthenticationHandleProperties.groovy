@@ -8,8 +8,8 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandleProperties {
-    ConfigNodePropertyArray path = null
-
-    ConfigNodePropertyInteger serviceRanking = null
-
+    
+    ConfigNodePropertyArray path
+    
+    ConfigNodePropertyInteger serviceRanking
 }

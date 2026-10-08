@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqTaggingImplJcrTagManagerFactoryImplPropert
 
 @Canonical
 class ComDayCqTaggingImplJcrTagManagerFactoryImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqTaggingImplJcrTagManagerFactoryImplProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqTaggingImplJcrTagManagerFactoryImplProperties properties
 }

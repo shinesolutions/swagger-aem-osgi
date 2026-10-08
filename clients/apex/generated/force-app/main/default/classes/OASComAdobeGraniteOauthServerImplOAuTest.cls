@@ -72,7 +72,7 @@ private class OASComAdobeGraniteOauthServerImplOAuTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeGraniteOauthServerImplOAu comAdobeGraniteOauthServerImplOAuth2TokenRevocationServletProperties = new OASComAdobeGraniteOauthServerImplOAu();
-        Map<String, String> propertyMappings = comAdobeGraniteOauthServerImplOAuth2TokenRevocationServletProperties.getPropertyMappings();
-        System.assertEquals('oauthTokenRevocationActive', propertyMappings.get('oauth.token.revocation.active'));
+        Map<String, String> x-property-mappings = comAdobeGraniteOauthServerImplOAuth2TokenRevocationServletProperties.getx-property-mappings();
+        System.assertEquals('oauthTokenRevocationActive', x-property-mappings.get('oauth.token.revocation.active'));
     }
 }

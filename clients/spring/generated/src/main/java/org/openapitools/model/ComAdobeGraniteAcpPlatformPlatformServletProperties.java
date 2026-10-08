@@ -1,28 +1,39 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyInteger;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComAdobeGraniteAcpPlatformPlatformServletProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComAdobeGraniteAcpPlatformPlatformServletProperties   {
-  @JsonProperty("query.limit")
-  private ConfigNodePropertyInteger queryLimit = null;
+@JsonTypeName("comAdobeGraniteAcpPlatformPlatformServletProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComAdobeGraniteAcpPlatformPlatformServletProperties {
 
-  @JsonProperty("file.type.extension.map")
-  private ConfigNodePropertyArray fileTypeExtensionMap = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger queryLimit;
 
-  public ComAdobeGraniteAcpPlatformPlatformServletProperties queryLimit(ConfigNodePropertyInteger queryLimit) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray fileTypeExtensionMap;
+
+  public ComAdobeGraniteAcpPlatformPlatformServletProperties queryLimit(@Nullable ConfigNodePropertyInteger queryLimit) {
     this.queryLimit = queryLimit;
     return this;
   }
@@ -30,20 +41,20 @@ public class ComAdobeGraniteAcpPlatformPlatformServletProperties   {
   /**
    * Get queryLimit
    * @return queryLimit
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getQueryLimit() {
+   */
+  @Valid 
+  @Schema(name = "query.limit", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("query.limit")
+  public @Nullable ConfigNodePropertyInteger getQueryLimit() {
     return queryLimit;
   }
 
-  public void setQueryLimit(ConfigNodePropertyInteger queryLimit) {
+  @JsonProperty("query.limit")
+  public void setQueryLimit(@Nullable ConfigNodePropertyInteger queryLimit) {
     this.queryLimit = queryLimit;
   }
 
-  public ComAdobeGraniteAcpPlatformPlatformServletProperties fileTypeExtensionMap(ConfigNodePropertyArray fileTypeExtensionMap) {
+  public ComAdobeGraniteAcpPlatformPlatformServletProperties fileTypeExtensionMap(@Nullable ConfigNodePropertyArray fileTypeExtensionMap) {
     this.fileTypeExtensionMap = fileTypeExtensionMap;
     return this;
   }
@@ -51,22 +62,21 @@ public class ComAdobeGraniteAcpPlatformPlatformServletProperties   {
   /**
    * Get fileTypeExtensionMap
    * @return fileTypeExtensionMap
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getFileTypeExtensionMap() {
+   */
+  @Valid 
+  @Schema(name = "file.type.extension.map", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("file.type.extension.map")
+  public @Nullable ConfigNodePropertyArray getFileTypeExtensionMap() {
     return fileTypeExtensionMap;
   }
 
-  public void setFileTypeExtensionMap(ConfigNodePropertyArray fileTypeExtensionMap) {
+  @JsonProperty("file.type.extension.map")
+  public void setFileTypeExtensionMap(@Nullable ConfigNodePropertyArray fileTypeExtensionMap) {
     this.fileTypeExtensionMap = fileTypeExtensionMap;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -87,7 +97,6 @@ public class ComAdobeGraniteAcpPlatformPlatformServletProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComAdobeGraniteAcpPlatformPlatformServletProperties {\n");
-    
     sb.append("    queryLimit: ").append(toIndentedString(queryLimit)).append("\n");
     sb.append("    fileTypeExtensionMap: ").append(toIndentedString(fileTypeExtensionMap)).append("\n");
     sb.append("}");
@@ -98,11 +107,8 @@ public class ComAdobeGraniteAcpPlatformPlatformServletProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -7,12 +7,12 @@ import org.openapitools.model.OrgApacheFelixJaasConfigurationFactoryProperties;
 
 @Canonical
 class OrgApacheFelixJaasConfigurationFactoryInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheFelixJaasConfigurationFactoryProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheFelixJaasConfigurationFactoryProperties properties
 }

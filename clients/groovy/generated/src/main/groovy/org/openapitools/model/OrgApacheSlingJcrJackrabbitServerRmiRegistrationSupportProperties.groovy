@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class OrgApacheSlingJcrJackrabbitServerRmiRegistrationSupportProperties {
-    ConfigNodePropertyInteger port = null
-
+    
+    ConfigNodePropertyInteger port
 }

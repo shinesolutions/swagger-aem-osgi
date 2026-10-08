@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyArray;
 import com.prokarma.pkmst.model.ConfigNodePropertyString;
 import io.swagger.annotations.ApiModel;
@@ -16,24 +17,23 @@ import io.swagger.annotations.ApiModelProperty;
  * ComDayCqWcmWorkflowImplWorkflowPackageInfoProviderProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqWcmWorkflowImplWorkflowPackageInfoProviderProperties   {
   @JsonProperty("workflowpackageinfoprovider.filter")
-  private ConfigNodePropertyArray workflowpackageinfoproviderFilter = null;
+  private ConfigNodePropertyArray workflowpackageinfoproviderFilter;
 
   @JsonProperty("workflowpackageinfoprovider.filter.rootpath")
-  private ConfigNodePropertyString workflowpackageinfoproviderFilterRootpath = null;
+  private ConfigNodePropertyString workflowpackageinfoproviderFilterRootpath;
 
   public ComDayCqWcmWorkflowImplWorkflowPackageInfoProviderProperties workflowpackageinfoproviderFilter(ConfigNodePropertyArray workflowpackageinfoproviderFilter) {
     this.workflowpackageinfoproviderFilter = workflowpackageinfoproviderFilter;
     return this;
   }
 
-   /**
+  /**
    * Get workflowpackageinfoproviderFilter
    * @return workflowpackageinfoproviderFilter
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getWorkflowpackageinfoproviderFilter() {
     return workflowpackageinfoproviderFilter;
@@ -48,10 +48,10 @@ public class ComDayCqWcmWorkflowImplWorkflowPackageInfoProviderProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get workflowpackageinfoproviderFilterRootpath
    * @return workflowpackageinfoproviderFilterRootpath
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getWorkflowpackageinfoproviderFilterRootpath() {
     return workflowpackageinfoproviderFilterRootpath;
@@ -63,7 +63,7 @@ public class ComDayCqWcmWorkflowImplWorkflowPackageInfoProviderProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -95,11 +95,8 @@ public class ComDayCqWcmWorkflowImplWorkflowPackageInfoProviderProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

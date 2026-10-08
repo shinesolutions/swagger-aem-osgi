@@ -2,16 +2,17 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**connect_protocol** | [**ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **connect_protocol** | [**ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComAdobeCqSocialCommonsEmailreplyImplEmailReplyImporterProperties.new(connect_protocol: null)
+instance = SwaggerAemOsgiClient::ComAdobeCqSocialCommonsEmailreplyImplEmailReplyImporterProperties.new(
+  connect_protocol: null
+)
 ```
-
 

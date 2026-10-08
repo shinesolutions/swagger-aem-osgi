@@ -1,37 +1,48 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskProperties   {
-  @JsonProperty("purgeCompleted")
-  private ConfigNodePropertyBoolean purgeCompleted = null;
+@JsonTypeName("comAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskProperties {
 
-  @JsonProperty("completedAge")
-  private ConfigNodePropertyInteger completedAge = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean purgeCompleted;
 
-  @JsonProperty("purgeActive")
-  private ConfigNodePropertyBoolean purgeActive = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger completedAge;
 
-  @JsonProperty("activeAge")
-  private ConfigNodePropertyInteger activeAge = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean purgeActive;
 
-  @JsonProperty("saveThreshold")
-  private ConfigNodePropertyInteger saveThreshold = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger activeAge;
 
-  public ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskProperties purgeCompleted(ConfigNodePropertyBoolean purgeCompleted) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger saveThreshold;
+
+  public ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskProperties purgeCompleted(@Nullable ConfigNodePropertyBoolean purgeCompleted) {
     this.purgeCompleted = purgeCompleted;
     return this;
   }
@@ -39,20 +50,20 @@ public class ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskPrope
   /**
    * Get purgeCompleted
    * @return purgeCompleted
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getPurgeCompleted() {
+   */
+  @Valid 
+  @Schema(name = "purgeCompleted", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("purgeCompleted")
+  public @Nullable ConfigNodePropertyBoolean getPurgeCompleted() {
     return purgeCompleted;
   }
 
-  public void setPurgeCompleted(ConfigNodePropertyBoolean purgeCompleted) {
+  @JsonProperty("purgeCompleted")
+  public void setPurgeCompleted(@Nullable ConfigNodePropertyBoolean purgeCompleted) {
     this.purgeCompleted = purgeCompleted;
   }
 
-  public ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskProperties completedAge(ConfigNodePropertyInteger completedAge) {
+  public ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskProperties completedAge(@Nullable ConfigNodePropertyInteger completedAge) {
     this.completedAge = completedAge;
     return this;
   }
@@ -60,20 +71,20 @@ public class ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskPrope
   /**
    * Get completedAge
    * @return completedAge
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getCompletedAge() {
+   */
+  @Valid 
+  @Schema(name = "completedAge", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("completedAge")
+  public @Nullable ConfigNodePropertyInteger getCompletedAge() {
     return completedAge;
   }
 
-  public void setCompletedAge(ConfigNodePropertyInteger completedAge) {
+  @JsonProperty("completedAge")
+  public void setCompletedAge(@Nullable ConfigNodePropertyInteger completedAge) {
     this.completedAge = completedAge;
   }
 
-  public ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskProperties purgeActive(ConfigNodePropertyBoolean purgeActive) {
+  public ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskProperties purgeActive(@Nullable ConfigNodePropertyBoolean purgeActive) {
     this.purgeActive = purgeActive;
     return this;
   }
@@ -81,20 +92,20 @@ public class ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskPrope
   /**
    * Get purgeActive
    * @return purgeActive
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getPurgeActive() {
+   */
+  @Valid 
+  @Schema(name = "purgeActive", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("purgeActive")
+  public @Nullable ConfigNodePropertyBoolean getPurgeActive() {
     return purgeActive;
   }
 
-  public void setPurgeActive(ConfigNodePropertyBoolean purgeActive) {
+  @JsonProperty("purgeActive")
+  public void setPurgeActive(@Nullable ConfigNodePropertyBoolean purgeActive) {
     this.purgeActive = purgeActive;
   }
 
-  public ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskProperties activeAge(ConfigNodePropertyInteger activeAge) {
+  public ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskProperties activeAge(@Nullable ConfigNodePropertyInteger activeAge) {
     this.activeAge = activeAge;
     return this;
   }
@@ -102,20 +113,20 @@ public class ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskPrope
   /**
    * Get activeAge
    * @return activeAge
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getActiveAge() {
+   */
+  @Valid 
+  @Schema(name = "activeAge", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("activeAge")
+  public @Nullable ConfigNodePropertyInteger getActiveAge() {
     return activeAge;
   }
 
-  public void setActiveAge(ConfigNodePropertyInteger activeAge) {
+  @JsonProperty("activeAge")
+  public void setActiveAge(@Nullable ConfigNodePropertyInteger activeAge) {
     this.activeAge = activeAge;
   }
 
-  public ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskProperties saveThreshold(ConfigNodePropertyInteger saveThreshold) {
+  public ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskProperties saveThreshold(@Nullable ConfigNodePropertyInteger saveThreshold) {
     this.saveThreshold = saveThreshold;
     return this;
   }
@@ -123,22 +134,21 @@ public class ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskPrope
   /**
    * Get saveThreshold
    * @return saveThreshold
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getSaveThreshold() {
+   */
+  @Valid 
+  @Schema(name = "saveThreshold", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("saveThreshold")
+  public @Nullable ConfigNodePropertyInteger getSaveThreshold() {
     return saveThreshold;
   }
 
-  public void setSaveThreshold(ConfigNodePropertyInteger saveThreshold) {
+  @JsonProperty("saveThreshold")
+  public void setSaveThreshold(@Nullable ConfigNodePropertyInteger saveThreshold) {
     this.saveThreshold = saveThreshold;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -162,7 +172,6 @@ public class ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskPrope
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskProperties {\n");
-    
     sb.append("    purgeCompleted: ").append(toIndentedString(purgeCompleted)).append("\n");
     sb.append("    completedAge: ").append(toIndentedString(completedAge)).append("\n");
     sb.append("    purgeActive: ").append(toIndentedString(purgeActive)).append("\n");
@@ -176,11 +185,8 @@ public class ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskPrope
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

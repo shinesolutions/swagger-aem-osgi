@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeGraniteAuthOauthImplBearerAuthenticationHa
 
 @Canonical
 class ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerProperties properties
 }

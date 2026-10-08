@@ -9,5 +9,5 @@ API.Client.ComDayCqDamCoreImplMetadataEditorSelectComponentHandlerProperties = f
  * @type {!API.Client.configNodePropertyArray}
  * @export
  */
-API.Client.ComDayCqDamCoreImplMetadataEditorSelectComponentHandlerProperties.prototype.granitedata;
+API.Client.ComDayCqDamCoreImplMetadataEditorSelectComponentHandlerProperties.prototype.graniteData;
 

@@ -8,22 +8,22 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslProperties {
-    ConfigNodePropertyString translationFactory = null
-
-    ConfigNodePropertyString defaultConnectorLabel = null
-
-    ConfigNodePropertyString defaultConnectorAttribution = null
-
-    ConfigNodePropertyString defaultConnectorWorkspaceId = null
-
-    ConfigNodePropertyString defaultConnectorSubscriptionKey = null
-
-    ConfigNodePropertyString languageMapLocation = null
-
-    ConfigNodePropertyString categoryMapLocation = null
-
-    ConfigNodePropertyInteger retryAttempts = null
-
-    ConfigNodePropertyInteger timeoutCount = null
-
+    
+    ConfigNodePropertyString translationFactory
+    
+    ConfigNodePropertyString defaultConnectorLabel
+    
+    ConfigNodePropertyString defaultConnectorAttribution
+    
+    ConfigNodePropertyString defaultConnectorWorkspaceId
+    
+    ConfigNodePropertyString defaultConnectorSubscriptionKey
+    
+    ConfigNodePropertyString languageMapLocation
+    
+    ConfigNodePropertyString categoryMapLocation
+    
+    ConfigNodePropertyInteger retryAttempts
+    
+    ConfigNodePropertyInteger timeoutCount
 }

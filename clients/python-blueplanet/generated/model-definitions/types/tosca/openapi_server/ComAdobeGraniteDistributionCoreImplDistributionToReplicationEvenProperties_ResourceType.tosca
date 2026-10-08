@@ -1,0 +1,36 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeGraniteDistributionCoreImplDistributionToReplicationEvenProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeGraniteDistributionCoreImplDistributionToReplicationEvenProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+}
+resourceTypes {
+
+  ComAdobeGraniteDistributionCoreImplDistributionToReplicationEvenProperties {
+    title = ComAdobeGraniteDistributionCoreImplDistributionToReplicationEvenProperties
+    description = ComAdobeGraniteDistributionCoreImplDistributionToReplicationEvenProperties
+    derivedFrom = Root
+    properties {
+        importer_name {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeGraniteDistributionCoreImplDistributionToReplicationEvenProperties {
+    title = ComAdobeGraniteDistributionCoreImplDistributionToReplicationEvenProperties
+    description = ComAdobeGraniteDistributionCoreImplDistributionToReplicationEvenProperties
+    implements = openapi_server.resourceTypes.ComAdobeGraniteDistributionCoreImplDistributionToReplicationEvenProperties
+
+  }
+}

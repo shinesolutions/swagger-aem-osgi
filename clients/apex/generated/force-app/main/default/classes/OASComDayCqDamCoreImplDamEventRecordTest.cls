@@ -72,11 +72,11 @@ private class OASComDayCqDamCoreImplDamEventRecordTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqDamCoreImplDamEventRecord comDayCqDamCoreImplDamEventRecorderImplProperties = new OASComDayCqDamCoreImplDamEventRecord();
-        Map<String, String> propertyMappings = comDayCqDamCoreImplDamEventRecorderImplProperties.getPropertyMappings();
-        System.assertEquals('eventFilter', propertyMappings.get('event.filter'));
-        System.assertEquals('eventQueueLength', propertyMappings.get('event.queue.length'));
-        System.assertEquals('eventrecorderEnabled', propertyMappings.get('eventrecorder.enabled'));
-        System.assertEquals('eventrecorderBlacklist', propertyMappings.get('eventrecorder.blacklist'));
-        System.assertEquals('eventrecorderEventtypes', propertyMappings.get('eventrecorder.eventtypes'));
+        Map<String, String> x-property-mappings = comDayCqDamCoreImplDamEventRecorderImplProperties.getx-property-mappings();
+        System.assertEquals('eventFilter', x-property-mappings.get('event.filter'));
+        System.assertEquals('eventQueueLength', x-property-mappings.get('event.queue.length'));
+        System.assertEquals('eventrecorderEnabled', x-property-mappings.get('eventrecorder.enabled'));
+        System.assertEquals('eventrecorderBlacklist', x-property-mappings.get('eventrecorder.blacklist'));
+        System.assertEquals('eventrecorderEventtypes', x-property-mappings.get('eventrecorder.eventtypes'));
     }
 }

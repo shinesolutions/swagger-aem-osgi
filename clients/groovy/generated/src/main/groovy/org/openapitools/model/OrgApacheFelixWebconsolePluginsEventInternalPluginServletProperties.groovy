@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class OrgApacheFelixWebconsolePluginsEventInternalPluginServletProperties {
-    ConfigNodePropertyInteger maxSize = null
-
+    
+    ConfigNodePropertyInteger maxSize
 }

@@ -72,7 +72,7 @@ private class OASComDayCqDamCoreImplServletCreateATest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqDamCoreImplServletCreateA comDayCqDamCoreImplServletCreateAssetServletProperties = new OASComDayCqDamCoreImplServletCreateA();
-        Map<String, String> propertyMappings = comDayCqDamCoreImplServletCreateAssetServletProperties.getPropertyMappings();
-        System.assertEquals('detectDuplicate', propertyMappings.get('detect_duplicate'));
+        Map<String, String> x-property-mappings = comDayCqDamCoreImplServletCreateAssetServletProperties.getx-property-mappings();
+        System.assertEquals('detectDuplicate', x-property-mappings.get('detect_duplicate'));
     }
 }

@@ -7,12 +7,12 @@ import org.openapitools.model.OrgApacheFelixWebconsolePluginsEventInternalPlugin
 
 @Canonical
 class OrgApacheFelixWebconsolePluginsEventInternalPluginServletInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheFelixWebconsolePluginsEventInternalPluginServletProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheFelixWebconsolePluginsEventInternalPluginServletProperties properties
 }

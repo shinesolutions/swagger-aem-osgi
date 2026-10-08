@@ -11,110 +11,110 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class OrgApacheFelixHttpProperties {
-    ConfigNodePropertyString orgApacheFelixHttpHost = null
-
-    ConfigNodePropertyBoolean orgApacheFelixHttpEnable = null
-
-    ConfigNodePropertyInteger orgOsgiServiceHttpPort = null
-
-    ConfigNodePropertyInteger orgApacheFelixHttpTimeout = null
-
-    ConfigNodePropertyBoolean orgApacheFelixHttpsEnable = null
-
-    ConfigNodePropertyInteger orgOsgiServiceHttpPortSecure = null
-
-    ConfigNodePropertyString orgApacheFelixHttpsKeystore = null
-
-    ConfigNodePropertyString orgApacheFelixHttpsKeystorePassword = null
-
-    ConfigNodePropertyString orgApacheFelixHttpsKeystoreKeyPassword = null
-
-    ConfigNodePropertyString orgApacheFelixHttpsTruststore = null
-
-    ConfigNodePropertyString orgApacheFelixHttpsTruststorePassword = null
-
-    ConfigNodePropertyDropDown orgApacheFelixHttpsClientcertificate = null
-
-    ConfigNodePropertyString orgApacheFelixHttpContextPath = null
-
-    ConfigNodePropertyBoolean orgApacheFelixHttpMbeans = null
-
-    ConfigNodePropertyInteger orgApacheFelixHttpSessionTimeout = null
-
-    ConfigNodePropertyInteger orgApacheFelixHttpJettyThreadpoolMax = null
-
-    ConfigNodePropertyInteger orgApacheFelixHttpJettyAcceptors = null
-
-    ConfigNodePropertyInteger orgApacheFelixHttpJettySelectors = null
-
-    ConfigNodePropertyInteger orgApacheFelixHttpJettyHeaderBufferSize = null
-
-    ConfigNodePropertyInteger orgApacheFelixHttpJettyRequestBufferSize = null
-
-    ConfigNodePropertyInteger orgApacheFelixHttpJettyResponseBufferSize = null
-
-    ConfigNodePropertyInteger orgApacheFelixHttpJettyMaxFormSize = null
-
-    ConfigNodePropertyArray orgApacheFelixHttpPathExclusions = null
-
-    ConfigNodePropertyArray orgApacheFelixHttpsJettyCiphersuitesExcluded = null
-
-    ConfigNodePropertyArray orgApacheFelixHttpsJettyCiphersuitesIncluded = null
-
-    ConfigNodePropertyBoolean orgApacheFelixHttpJettySendServerHeader = null
-
-    ConfigNodePropertyArray orgApacheFelixHttpsJettyProtocolsIncluded = null
-
-    ConfigNodePropertyArray orgApacheFelixHttpsJettyProtocolsExcluded = null
-
-    ConfigNodePropertyBoolean orgApacheFelixProxyLoadBalancerConnectionEnable = null
-
-    ConfigNodePropertyBoolean orgApacheFelixHttpsJettyRenegotiateAllowed = null
-
-    ConfigNodePropertyBoolean orgApacheFelixHttpsJettySessionCookieHttpOnly = null
-
-    ConfigNodePropertyBoolean orgApacheFelixHttpsJettySessionCookieSecure = null
-
-    ConfigNodePropertyString orgEclipseJettyServletSessionIdPathParameterName = null
-
-    ConfigNodePropertyBoolean orgEclipseJettyServletCheckingRemoteSessionIdEncoding = null
-
-    ConfigNodePropertyString orgEclipseJettyServletSessionCookie = null
-
-    ConfigNodePropertyString orgEclipseJettyServletSessionDomain = null
-
-    ConfigNodePropertyString orgEclipseJettyServletSessionPath = null
-
-    ConfigNodePropertyInteger orgEclipseJettyServletMaxAge = null
-
-    ConfigNodePropertyString orgApacheFelixHttpName = null
-
-    ConfigNodePropertyBoolean orgApacheFelixJettyGziphandlerEnable = null
-
-    ConfigNodePropertyInteger orgApacheFelixJettyGzipMinGzipSize = null
-
-    ConfigNodePropertyInteger orgApacheFelixJettyGzipCompressionLevel = null
-
-    ConfigNodePropertyInteger orgApacheFelixJettyGzipInflateBufferSize = null
-
-    ConfigNodePropertyBoolean orgApacheFelixJettyGzipSyncFlush = null
-
-    ConfigNodePropertyArray orgApacheFelixJettyGzipExcludedUserAgents = null
-
-    ConfigNodePropertyArray orgApacheFelixJettyGzipIncludedMethods = null
-
-    ConfigNodePropertyArray orgApacheFelixJettyGzipExcludedMethods = null
-
-    ConfigNodePropertyArray orgApacheFelixJettyGzipIncludedPaths = null
-
-    ConfigNodePropertyArray orgApacheFelixJettyGzipExcludedPaths = null
-
-    ConfigNodePropertyArray orgApacheFelixJettyGzipIncludedMimeTypes = null
-
-    ConfigNodePropertyArray orgApacheFelixJettyGzipExcludedMimeTypes = null
-
-    ConfigNodePropertyBoolean orgApacheFelixHttpSessionInvalidate = null
-
-    ConfigNodePropertyBoolean orgApacheFelixHttpSessionUniqueid = null
-
+    
+    ConfigNodePropertyString orgApacheFelixHttpHost
+    
+    ConfigNodePropertyBoolean orgApacheFelixHttpEnable
+    
+    ConfigNodePropertyInteger orgOsgiServiceHttpPort
+    
+    ConfigNodePropertyInteger orgApacheFelixHttpTimeout
+    
+    ConfigNodePropertyBoolean orgApacheFelixHttpsEnable
+    
+    ConfigNodePropertyInteger orgOsgiServiceHttpPortSecure
+    
+    ConfigNodePropertyString orgApacheFelixHttpsKeystore
+    
+    ConfigNodePropertyString orgApacheFelixHttpsKeystorePassword
+    
+    ConfigNodePropertyString orgApacheFelixHttpsKeystoreKeyPassword
+    
+    ConfigNodePropertyString orgApacheFelixHttpsTruststore
+    
+    ConfigNodePropertyString orgApacheFelixHttpsTruststorePassword
+    
+    ConfigNodePropertyDropDown orgApacheFelixHttpsClientcertificate
+    
+    ConfigNodePropertyString orgApacheFelixHttpContextPath
+    
+    ConfigNodePropertyBoolean orgApacheFelixHttpMbeans
+    
+    ConfigNodePropertyInteger orgApacheFelixHttpSessionTimeout
+    
+    ConfigNodePropertyInteger orgApacheFelixHttpJettyThreadpoolMax
+    
+    ConfigNodePropertyInteger orgApacheFelixHttpJettyAcceptors
+    
+    ConfigNodePropertyInteger orgApacheFelixHttpJettySelectors
+    
+    ConfigNodePropertyInteger orgApacheFelixHttpJettyHeaderBufferSize
+    
+    ConfigNodePropertyInteger orgApacheFelixHttpJettyRequestBufferSize
+    
+    ConfigNodePropertyInteger orgApacheFelixHttpJettyResponseBufferSize
+    
+    ConfigNodePropertyInteger orgApacheFelixHttpJettyMaxFormSize
+    
+    ConfigNodePropertyArray orgApacheFelixHttpPathExclusions
+    
+    ConfigNodePropertyArray orgApacheFelixHttpsJettyCiphersuitesExcluded
+    
+    ConfigNodePropertyArray orgApacheFelixHttpsJettyCiphersuitesIncluded
+    
+    ConfigNodePropertyBoolean orgApacheFelixHttpJettySendServerHeader
+    
+    ConfigNodePropertyArray orgApacheFelixHttpsJettyProtocolsIncluded
+    
+    ConfigNodePropertyArray orgApacheFelixHttpsJettyProtocolsExcluded
+    
+    ConfigNodePropertyBoolean orgApacheFelixProxyLoadBalancerConnectionEnable
+    
+    ConfigNodePropertyBoolean orgApacheFelixHttpsJettyRenegotiateAllowed
+    
+    ConfigNodePropertyBoolean orgApacheFelixHttpsJettySessionCookieHttpOnly
+    
+    ConfigNodePropertyBoolean orgApacheFelixHttpsJettySessionCookieSecure
+    
+    ConfigNodePropertyString orgEclipseJettyServletSessionIdPathParameterName
+    
+    ConfigNodePropertyBoolean orgEclipseJettyServletCheckingRemoteSessionIdEncoding
+    
+    ConfigNodePropertyString orgEclipseJettyServletSessionCookie
+    
+    ConfigNodePropertyString orgEclipseJettyServletSessionDomain
+    
+    ConfigNodePropertyString orgEclipseJettyServletSessionPath
+    
+    ConfigNodePropertyInteger orgEclipseJettyServletMaxAge
+    
+    ConfigNodePropertyString orgApacheFelixHttpName
+    
+    ConfigNodePropertyBoolean orgApacheFelixJettyGziphandlerEnable
+    
+    ConfigNodePropertyInteger orgApacheFelixJettyGzipMinGzipSize
+    
+    ConfigNodePropertyInteger orgApacheFelixJettyGzipCompressionLevel
+    
+    ConfigNodePropertyInteger orgApacheFelixJettyGzipInflateBufferSize
+    
+    ConfigNodePropertyBoolean orgApacheFelixJettyGzipSyncFlush
+    
+    ConfigNodePropertyArray orgApacheFelixJettyGzipExcludedUserAgents
+    
+    ConfigNodePropertyArray orgApacheFelixJettyGzipIncludedMethods
+    
+    ConfigNodePropertyArray orgApacheFelixJettyGzipExcludedMethods
+    
+    ConfigNodePropertyArray orgApacheFelixJettyGzipIncludedPaths
+    
+    ConfigNodePropertyArray orgApacheFelixJettyGzipExcludedPaths
+    
+    ConfigNodePropertyArray orgApacheFelixJettyGzipIncludedMimeTypes
+    
+    ConfigNodePropertyArray orgApacheFelixJettyGzipExcludedMimeTypes
+    
+    ConfigNodePropertyBoolean orgApacheFelixHttpSessionInvalidate
+    
+    ConfigNodePropertyBoolean orgApacheFelixHttpSessionUniqueid
 }

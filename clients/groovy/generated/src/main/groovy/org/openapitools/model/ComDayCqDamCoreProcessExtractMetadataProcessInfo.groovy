@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqDamCoreProcessExtractMetadataProcessProper
 
 @Canonical
 class ComDayCqDamCoreProcessExtractMetadataProcessInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqDamCoreProcessExtractMetadataProcessProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqDamCoreProcessExtractMetadataProcessProperties properties
 }

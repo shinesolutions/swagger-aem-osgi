@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqSocialScoringImplScoringEventListenerPro
 
 @Canonical
 class ComAdobeCqSocialScoringImplScoringEventListenerInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqSocialScoringImplScoringEventListenerProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqSocialScoringImplScoringEventListenerProperties properties
 }

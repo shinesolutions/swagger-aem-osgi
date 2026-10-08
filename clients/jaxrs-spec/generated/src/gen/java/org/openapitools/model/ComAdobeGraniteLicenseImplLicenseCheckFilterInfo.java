@@ -1,21 +1,32 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ComAdobeGraniteLicenseImplLicenseCheckFilterProperties;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comAdobeGraniteLicenseImplLicenseCheckFilterInfo")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteLicenseImplLicenseCheckFilterInfo   {
-  
-  private @Valid String pid = null;
-  private @Valid String title = null;
-  private @Valid String description = null;
-  private @Valid ComAdobeGraniteLicenseImplLicenseCheckFilterProperties properties = null;
+  private String pid;
+  private String title;
+  private String description;
+  private ComAdobeGraniteLicenseImplLicenseCheckFilterProperties properties;
+
+  public ComAdobeGraniteLicenseImplLicenseCheckFilterInfo() {
+  }
 
   /**
    **/
@@ -30,6 +41,8 @@ public class ComAdobeGraniteLicenseImplLicenseCheckFilterInfo   {
   public String getPid() {
     return pid;
   }
+
+  @JsonProperty("pid")
   public void setPid(String pid) {
     this.pid = pid;
   }
@@ -47,6 +60,8 @@ public class ComAdobeGraniteLicenseImplLicenseCheckFilterInfo   {
   public String getTitle() {
     return title;
   }
+
+  @JsonProperty("title")
   public void setTitle(String title) {
     this.title = title;
   }
@@ -64,6 +79,8 @@ public class ComAdobeGraniteLicenseImplLicenseCheckFilterInfo   {
   public String getDescription() {
     return description;
   }
+
+  @JsonProperty("description")
   public void setDescription(String description) {
     this.description = description;
   }
@@ -78,16 +95,18 @@ public class ComAdobeGraniteLicenseImplLicenseCheckFilterInfo   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("properties")
-  public ComAdobeGraniteLicenseImplLicenseCheckFilterProperties getProperties() {
+  @Valid public ComAdobeGraniteLicenseImplLicenseCheckFilterProperties getProperties() {
     return properties;
   }
+
+  @JsonProperty("properties")
   public void setProperties(ComAdobeGraniteLicenseImplLicenseCheckFilterProperties properties) {
     this.properties = properties;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -95,10 +114,10 @@ public class ComAdobeGraniteLicenseImplLicenseCheckFilterInfo   {
       return false;
     }
     ComAdobeGraniteLicenseImplLicenseCheckFilterInfo comAdobeGraniteLicenseImplLicenseCheckFilterInfo = (ComAdobeGraniteLicenseImplLicenseCheckFilterInfo) o;
-    return Objects.equals(pid, comAdobeGraniteLicenseImplLicenseCheckFilterInfo.pid) &&
-        Objects.equals(title, comAdobeGraniteLicenseImplLicenseCheckFilterInfo.title) &&
-        Objects.equals(description, comAdobeGraniteLicenseImplLicenseCheckFilterInfo.description) &&
-        Objects.equals(properties, comAdobeGraniteLicenseImplLicenseCheckFilterInfo.properties);
+    return Objects.equals(this.pid, comAdobeGraniteLicenseImplLicenseCheckFilterInfo.pid) &&
+        Objects.equals(this.title, comAdobeGraniteLicenseImplLicenseCheckFilterInfo.title) &&
+        Objects.equals(this.description, comAdobeGraniteLicenseImplLicenseCheckFilterInfo.description) &&
+        Objects.equals(this.properties, comAdobeGraniteLicenseImplLicenseCheckFilterInfo.properties);
   }
 
   @Override
@@ -123,11 +142,9 @@ public class ComAdobeGraniteLicenseImplLicenseCheckFilterInfo   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

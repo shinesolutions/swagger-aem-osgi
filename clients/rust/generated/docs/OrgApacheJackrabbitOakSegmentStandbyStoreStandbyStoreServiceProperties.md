@@ -1,17 +1,18 @@
 # OrgApacheJackrabbitOakSegmentStandbyStoreStandbyStoreServiceProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**org_apache_sling_installer_configuration_persist** | [***::models::ConfigNodePropertyBoolean**](configNodePropertyBoolean.md) |  | [optional] 
-**mode** | [***::models::ConfigNodePropertyDropDown**](configNodePropertyDropDown.md) |  | [optional] 
-**port** | [***::models::ConfigNodePropertyInteger**](configNodePropertyInteger.md) |  | [optional] 
-**primary_host** | [***::models::ConfigNodePropertyString**](configNodePropertyString.md) |  | [optional] 
-**interval** | [***::models::ConfigNodePropertyInteger**](configNodePropertyInteger.md) |  | [optional] 
-**primary_allowed_client_ip_ranges** | [***::models::ConfigNodePropertyArray**](configNodePropertyArray.md) |  | [optional] 
-**secure** | [***::models::ConfigNodePropertyBoolean**](configNodePropertyBoolean.md) |  | [optional] 
-**standby_readtimeout** | [***::models::ConfigNodePropertyInteger**](configNodePropertyInteger.md) |  | [optional] 
-**standby_autoclean** | [***::models::ConfigNodePropertyBoolean**](configNodePropertyBoolean.md) |  | [optional] 
+**org_apache_sling_installer_configuration_persist** | Option<[**models::ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md)> |  | [optional]
+**mode** | Option<[**models::ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md)> |  | [optional]
+**port** | Option<[**models::ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md)> |  | [optional]
+**primary_host** | Option<[**models::ConfigNodePropertyString**](ConfigNodePropertyString.md)> |  | [optional]
+**interval** | Option<[**models::ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md)> |  | [optional]
+**primary_allowed_client_ip_ranges** | Option<[**models::ConfigNodePropertyArray**](ConfigNodePropertyArray.md)> |  | [optional]
+**secure** | Option<[**models::ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md)> |  | [optional]
+**standby_readtimeout** | Option<[**models::ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md)> |  | [optional]
+**standby_autoclean** | Option<[**models::ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md)> |  | [optional]
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

@@ -5,37 +5,39 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
 
 import io.swagger.annotations.ApiModelProperty;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlType;
-import javax.xml.bind.annotation.XmlEnum;
-import javax.xml.bind.annotation.XmlEnumValue;
+import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
 
 public class ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties  {
   
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString versionId = null;
+
+  private ConfigNodePropertyString versionId;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyBoolean cacheOn = null;
+
+  private ConfigNodePropertyBoolean cacheOn;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyInteger concurrencyLevel = null;
+
+  private ConfigNodePropertyInteger concurrencyLevel;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyInteger cacheStartSize = null;
+
+  private ConfigNodePropertyInteger cacheStartSize;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyInteger cacheTtl = null;
+
+  private ConfigNodePropertyInteger cacheTtl;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyInteger cacheSize = null;
+
+  private ConfigNodePropertyInteger cacheSize;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyInteger timeLimit = null;
+
+  private ConfigNodePropertyInteger timeLimit;
  /**
    * Get versionId
    * @return versionId
@@ -162,6 +164,28 @@ public class ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties 
     return this;
   }
 
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties comAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties = (ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties) o;
+    return Objects.equals(this.versionId, comAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties.versionId) &&
+        Objects.equals(this.cacheOn, comAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties.cacheOn) &&
+        Objects.equals(this.concurrencyLevel, comAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties.concurrencyLevel) &&
+        Objects.equals(this.cacheStartSize, comAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties.cacheStartSize) &&
+        Objects.equals(this.cacheTtl, comAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties.cacheTtl) &&
+        Objects.equals(this.cacheSize, comAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties.cacheSize) &&
+        Objects.equals(this.timeLimit, comAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties.timeLimit);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(versionId, cacheOn, concurrencyLevel, cacheStartSize, cacheTtl, cacheSize, timeLimit);
+  }
 
   @Override
   public String toString() {
@@ -183,11 +207,8 @@ public class ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties 
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private static String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

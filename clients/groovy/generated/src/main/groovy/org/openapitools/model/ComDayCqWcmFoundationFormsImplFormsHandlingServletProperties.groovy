@@ -8,8 +8,8 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqWcmFoundationFormsImplFormsHandlingServletProperties {
-    ConfigNodePropertyString nameWhitelist = null
-
-    ConfigNodePropertyBoolean allowExpressions = null
-
+    
+    ConfigNodePropertyString nameWhitelist
+    
+    ConfigNodePropertyBoolean allowExpressions
 }

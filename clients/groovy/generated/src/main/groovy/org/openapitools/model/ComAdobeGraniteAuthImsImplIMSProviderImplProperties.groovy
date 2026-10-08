@@ -9,30 +9,30 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeGraniteAuthImsImplIMSProviderImplProperties {
-    ConfigNodePropertyString oauthProviderId = null
-
-    ConfigNodePropertyString oauthProviderImsAuthorizationUrl = null
-
-    ConfigNodePropertyString oauthProviderImsTokenUrl = null
-
-    ConfigNodePropertyString oauthProviderImsProfileUrl = null
-
-    ConfigNodePropertyArray oauthProviderImsExtendedDetailsUrls = null
-
-    ConfigNodePropertyString oauthProviderImsValidateTokenUrl = null
-
-    ConfigNodePropertyString oauthProviderImsSessionProperty = null
-
-    ConfigNodePropertyString oauthProviderImsServiceTokenClientId = null
-
-    ConfigNodePropertyString oauthProviderImsServiceTokenClientSecret = null
-
-    ConfigNodePropertyString oauthProviderImsServiceToken = null
-
-    ConfigNodePropertyString imsOrgRef = null
-
-    ConfigNodePropertyArray imsGroupMapping = null
-
-    ConfigNodePropertyBoolean oauthProviderImsOnlyLicenseGroup = null
-
+    
+    ConfigNodePropertyString oauthProviderId
+    
+    ConfigNodePropertyString oauthProviderImsAuthorizationUrl
+    
+    ConfigNodePropertyString oauthProviderImsTokenUrl
+    
+    ConfigNodePropertyString oauthProviderImsProfileUrl
+    
+    ConfigNodePropertyArray oauthProviderImsExtendedDetailsUrls
+    
+    ConfigNodePropertyString oauthProviderImsValidateTokenUrl
+    
+    ConfigNodePropertyString oauthProviderImsSessionProperty
+    
+    ConfigNodePropertyString oauthProviderImsServiceTokenClientId
+    
+    ConfigNodePropertyString oauthProviderImsServiceTokenClientSecret
+    
+    ConfigNodePropertyString oauthProviderImsServiceToken
+    
+    ConfigNodePropertyString imsOrgRef
+    
+    ConfigNodePropertyArray imsGroupMapping
+    
+    ConfigNodePropertyBoolean oauthProviderImsOnlyLicenseGroup
 }

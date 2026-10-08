@@ -7,10 +7,10 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoProperties {
-    ConfigNodePropertyString felixInventoryPrinterName = null
-
-    ConfigNodePropertyString felixInventoryPrinterTitle = null
-
-    ConfigNodePropertyString path = null
-
+    
+    ConfigNodePropertyString felixInventoryPrinterName
+    
+    ConfigNodePropertyString felixInventoryPrinterTitle
+    
+    ConfigNodePropertyString path
 }

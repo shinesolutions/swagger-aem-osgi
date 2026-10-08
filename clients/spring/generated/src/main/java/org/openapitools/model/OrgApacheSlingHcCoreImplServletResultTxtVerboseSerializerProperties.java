@@ -1,33 +1,44 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyInteger;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * OrgApacheSlingHcCoreImplServletResultTxtVerboseSerializerProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class OrgApacheSlingHcCoreImplServletResultTxtVerboseSerializerProperties   {
-  @JsonProperty("totalWidth")
-  private ConfigNodePropertyInteger totalWidth = null;
+@JsonTypeName("orgApacheSlingHcCoreImplServletResultTxtVerboseSerializerProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class OrgApacheSlingHcCoreImplServletResultTxtVerboseSerializerProperties {
 
-  @JsonProperty("colWidthName")
-  private ConfigNodePropertyInteger colWidthName = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger totalWidth;
 
-  @JsonProperty("colWidthResult")
-  private ConfigNodePropertyInteger colWidthResult = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger colWidthName;
 
-  @JsonProperty("colWidthTiming")
-  private ConfigNodePropertyInteger colWidthTiming = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger colWidthResult;
 
-  public OrgApacheSlingHcCoreImplServletResultTxtVerboseSerializerProperties totalWidth(ConfigNodePropertyInteger totalWidth) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger colWidthTiming;
+
+  public OrgApacheSlingHcCoreImplServletResultTxtVerboseSerializerProperties totalWidth(@Nullable ConfigNodePropertyInteger totalWidth) {
     this.totalWidth = totalWidth;
     return this;
   }
@@ -35,20 +46,20 @@ public class OrgApacheSlingHcCoreImplServletResultTxtVerboseSerializerProperties
   /**
    * Get totalWidth
    * @return totalWidth
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getTotalWidth() {
+   */
+  @Valid 
+  @Schema(name = "totalWidth", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("totalWidth")
+  public @Nullable ConfigNodePropertyInteger getTotalWidth() {
     return totalWidth;
   }
 
-  public void setTotalWidth(ConfigNodePropertyInteger totalWidth) {
+  @JsonProperty("totalWidth")
+  public void setTotalWidth(@Nullable ConfigNodePropertyInteger totalWidth) {
     this.totalWidth = totalWidth;
   }
 
-  public OrgApacheSlingHcCoreImplServletResultTxtVerboseSerializerProperties colWidthName(ConfigNodePropertyInteger colWidthName) {
+  public OrgApacheSlingHcCoreImplServletResultTxtVerboseSerializerProperties colWidthName(@Nullable ConfigNodePropertyInteger colWidthName) {
     this.colWidthName = colWidthName;
     return this;
   }
@@ -56,20 +67,20 @@ public class OrgApacheSlingHcCoreImplServletResultTxtVerboseSerializerProperties
   /**
    * Get colWidthName
    * @return colWidthName
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getColWidthName() {
+   */
+  @Valid 
+  @Schema(name = "colWidthName", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("colWidthName")
+  public @Nullable ConfigNodePropertyInteger getColWidthName() {
     return colWidthName;
   }
 
-  public void setColWidthName(ConfigNodePropertyInteger colWidthName) {
+  @JsonProperty("colWidthName")
+  public void setColWidthName(@Nullable ConfigNodePropertyInteger colWidthName) {
     this.colWidthName = colWidthName;
   }
 
-  public OrgApacheSlingHcCoreImplServletResultTxtVerboseSerializerProperties colWidthResult(ConfigNodePropertyInteger colWidthResult) {
+  public OrgApacheSlingHcCoreImplServletResultTxtVerboseSerializerProperties colWidthResult(@Nullable ConfigNodePropertyInteger colWidthResult) {
     this.colWidthResult = colWidthResult;
     return this;
   }
@@ -77,20 +88,20 @@ public class OrgApacheSlingHcCoreImplServletResultTxtVerboseSerializerProperties
   /**
    * Get colWidthResult
    * @return colWidthResult
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getColWidthResult() {
+   */
+  @Valid 
+  @Schema(name = "colWidthResult", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("colWidthResult")
+  public @Nullable ConfigNodePropertyInteger getColWidthResult() {
     return colWidthResult;
   }
 
-  public void setColWidthResult(ConfigNodePropertyInteger colWidthResult) {
+  @JsonProperty("colWidthResult")
+  public void setColWidthResult(@Nullable ConfigNodePropertyInteger colWidthResult) {
     this.colWidthResult = colWidthResult;
   }
 
-  public OrgApacheSlingHcCoreImplServletResultTxtVerboseSerializerProperties colWidthTiming(ConfigNodePropertyInteger colWidthTiming) {
+  public OrgApacheSlingHcCoreImplServletResultTxtVerboseSerializerProperties colWidthTiming(@Nullable ConfigNodePropertyInteger colWidthTiming) {
     this.colWidthTiming = colWidthTiming;
     return this;
   }
@@ -98,22 +109,21 @@ public class OrgApacheSlingHcCoreImplServletResultTxtVerboseSerializerProperties
   /**
    * Get colWidthTiming
    * @return colWidthTiming
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getColWidthTiming() {
+   */
+  @Valid 
+  @Schema(name = "colWidthTiming", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("colWidthTiming")
+  public @Nullable ConfigNodePropertyInteger getColWidthTiming() {
     return colWidthTiming;
   }
 
-  public void setColWidthTiming(ConfigNodePropertyInteger colWidthTiming) {
+  @JsonProperty("colWidthTiming")
+  public void setColWidthTiming(@Nullable ConfigNodePropertyInteger colWidthTiming) {
     this.colWidthTiming = colWidthTiming;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -136,7 +146,6 @@ public class OrgApacheSlingHcCoreImplServletResultTxtVerboseSerializerProperties
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class OrgApacheSlingHcCoreImplServletResultTxtVerboseSerializerProperties {\n");
-    
     sb.append("    totalWidth: ").append(toIndentedString(totalWidth)).append("\n");
     sb.append("    colWidthName: ").append(toIndentedString(colWidthName)).append("\n");
     sb.append("    colWidthResult: ").append(toIndentedString(colWidthResult)).append("\n");
@@ -149,11 +158,8 @@ public class OrgApacheSlingHcCoreImplServletResultTxtVerboseSerializerProperties
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

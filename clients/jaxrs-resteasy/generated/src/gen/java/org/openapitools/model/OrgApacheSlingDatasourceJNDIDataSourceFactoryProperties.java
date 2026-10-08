@@ -4,25 +4,29 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2019-08-05T00:59:30.156Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2026-10-07T12:54:21.614735164Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingDatasourceJNDIDataSourceFactoryProperties   {
   
-  private ConfigNodePropertyString datasourceName = null;
-  private ConfigNodePropertyString datasourceSvcPropName = null;
-  private ConfigNodePropertyString datasourceJndiName = null;
-  private ConfigNodePropertyArray jndiProperties = null;
+  private ConfigNodePropertyString datasourceName;
+  private ConfigNodePropertyString datasourceSvcPropName;
+  private ConfigNodePropertyString datasourceJndiName;
+  private ConfigNodePropertyArray jndiProperties;
 
   /**
    **/
   
   @ApiModelProperty(value = "")
   @JsonProperty("datasource.name")
+  @Valid
   public ConfigNodePropertyString getDatasourceName() {
     return datasourceName;
   }
@@ -35,6 +39,7 @@ public class OrgApacheSlingDatasourceJNDIDataSourceFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("datasource.svc.prop.name")
+  @Valid
   public ConfigNodePropertyString getDatasourceSvcPropName() {
     return datasourceSvcPropName;
   }
@@ -47,6 +52,7 @@ public class OrgApacheSlingDatasourceJNDIDataSourceFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("datasource.jndi.name")
+  @Valid
   public ConfigNodePropertyString getDatasourceJndiName() {
     return datasourceJndiName;
   }
@@ -59,6 +65,7 @@ public class OrgApacheSlingDatasourceJNDIDataSourceFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("jndi.properties")
+  @Valid
   public ConfigNodePropertyArray getJndiProperties() {
     return jndiProperties;
   }
@@ -68,7 +75,7 @@ public class OrgApacheSlingDatasourceJNDIDataSourceFactoryProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -76,10 +83,10 @@ public class OrgApacheSlingDatasourceJNDIDataSourceFactoryProperties   {
       return false;
     }
     OrgApacheSlingDatasourceJNDIDataSourceFactoryProperties orgApacheSlingDatasourceJNDIDataSourceFactoryProperties = (OrgApacheSlingDatasourceJNDIDataSourceFactoryProperties) o;
-    return Objects.equals(datasourceName, orgApacheSlingDatasourceJNDIDataSourceFactoryProperties.datasourceName) &&
-        Objects.equals(datasourceSvcPropName, orgApacheSlingDatasourceJNDIDataSourceFactoryProperties.datasourceSvcPropName) &&
-        Objects.equals(datasourceJndiName, orgApacheSlingDatasourceJNDIDataSourceFactoryProperties.datasourceJndiName) &&
-        Objects.equals(jndiProperties, orgApacheSlingDatasourceJNDIDataSourceFactoryProperties.jndiProperties);
+    return Objects.equals(this.datasourceName, orgApacheSlingDatasourceJNDIDataSourceFactoryProperties.datasourceName) &&
+        Objects.equals(this.datasourceSvcPropName, orgApacheSlingDatasourceJNDIDataSourceFactoryProperties.datasourceSvcPropName) &&
+        Objects.equals(this.datasourceJndiName, orgApacheSlingDatasourceJNDIDataSourceFactoryProperties.datasourceJndiName) &&
+        Objects.equals(this.jndiProperties, orgApacheSlingDatasourceJNDIDataSourceFactoryProperties.jndiProperties);
   }
 
   @Override
@@ -104,11 +111,8 @@ public class OrgApacheSlingDatasourceJNDIDataSourceFactoryProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

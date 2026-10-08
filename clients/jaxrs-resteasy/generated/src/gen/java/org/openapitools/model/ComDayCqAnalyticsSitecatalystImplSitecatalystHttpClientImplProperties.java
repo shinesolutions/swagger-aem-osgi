@@ -4,25 +4,29 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2019-08-05T00:59:30.156Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2026-10-07T12:54:21.614735164Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplProperties   {
   
-  private ConfigNodePropertyArray cqAnalyticsSitecatalystServiceDatacenterUrl = null;
-  private ConfigNodePropertyArray devhostnamepatterns = null;
-  private ConfigNodePropertyInteger connectionTimeout = null;
-  private ConfigNodePropertyInteger socketTimeout = null;
+  private ConfigNodePropertyArray cqAnalyticsSitecatalystServiceDatacenterUrl;
+  private ConfigNodePropertyArray devhostnamepatterns;
+  private ConfigNodePropertyInteger connectionTimeout;
+  private ConfigNodePropertyInteger socketTimeout;
 
   /**
    **/
   
   @ApiModelProperty(value = "")
   @JsonProperty("cq.analytics.sitecatalyst.service.datacenter.url")
+  @Valid
   public ConfigNodePropertyArray getCqAnalyticsSitecatalystServiceDatacenterUrl() {
     return cqAnalyticsSitecatalystServiceDatacenterUrl;
   }
@@ -35,6 +39,7 @@ public class ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplProperti
   
   @ApiModelProperty(value = "")
   @JsonProperty("devhostnamepatterns")
+  @Valid
   public ConfigNodePropertyArray getDevhostnamepatterns() {
     return devhostnamepatterns;
   }
@@ -47,6 +52,7 @@ public class ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplProperti
   
   @ApiModelProperty(value = "")
   @JsonProperty("connection.timeout")
+  @Valid
   public ConfigNodePropertyInteger getConnectionTimeout() {
     return connectionTimeout;
   }
@@ -59,6 +65,7 @@ public class ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplProperti
   
   @ApiModelProperty(value = "")
   @JsonProperty("socket.timeout")
+  @Valid
   public ConfigNodePropertyInteger getSocketTimeout() {
     return socketTimeout;
   }
@@ -68,7 +75,7 @@ public class ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplProperti
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -76,10 +83,10 @@ public class ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplProperti
       return false;
     }
     ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplProperties comDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplProperties = (ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplProperties) o;
-    return Objects.equals(cqAnalyticsSitecatalystServiceDatacenterUrl, comDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplProperties.cqAnalyticsSitecatalystServiceDatacenterUrl) &&
-        Objects.equals(devhostnamepatterns, comDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplProperties.devhostnamepatterns) &&
-        Objects.equals(connectionTimeout, comDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplProperties.connectionTimeout) &&
-        Objects.equals(socketTimeout, comDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplProperties.socketTimeout);
+    return Objects.equals(this.cqAnalyticsSitecatalystServiceDatacenterUrl, comDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplProperties.cqAnalyticsSitecatalystServiceDatacenterUrl) &&
+        Objects.equals(this.devhostnamepatterns, comDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplProperties.devhostnamepatterns) &&
+        Objects.equals(this.connectionTimeout, comDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplProperties.connectionTimeout) &&
+        Objects.equals(this.socketTimeout, comDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplProperties.socketTimeout);
   }
 
   @Override
@@ -104,11 +111,8 @@ public class ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplProperti
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -8,14 +8,14 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplProperties {
-    ConfigNodePropertyString cqAnalyticsTestandtargetApiUrl = null
-
-    ConfigNodePropertyInteger cqAnalyticsTestandtargetTimeout = null
-
-    ConfigNodePropertyInteger cqAnalyticsTestandtargetSockettimeout = null
-
-    ConfigNodePropertyString cqAnalyticsTestandtargetRecommendationsUrlReplace = null
-
-    ConfigNodePropertyString cqAnalyticsTestandtargetRecommendationsUrlReplacewith = null
-
+    
+    ConfigNodePropertyString cqAnalyticsTestandtargetApiUrl
+    
+    ConfigNodePropertyInteger cqAnalyticsTestandtargetTimeout
+    
+    ConfigNodePropertyInteger cqAnalyticsTestandtargetSockettimeout
+    
+    ConfigNodePropertyString cqAnalyticsTestandtargetRecommendationsUrlReplace
+    
+    ConfigNodePropertyString cqAnalyticsTestandtargetRecommendationsUrlReplacewith
 }

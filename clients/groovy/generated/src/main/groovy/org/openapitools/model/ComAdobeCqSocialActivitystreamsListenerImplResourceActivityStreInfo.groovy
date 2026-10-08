@@ -7,16 +7,16 @@ import org.openapitools.model.ComAdobeCqSocialActivitystreamsListenerImplResourc
 
 @Canonical
 class ComAdobeCqSocialActivitystreamsListenerImplResourceActivityStreInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqSocialActivitystreamsListenerImplResourceActivityStreProperties properties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqSocialActivitystreamsListenerImplResourceActivityStreProperties properties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

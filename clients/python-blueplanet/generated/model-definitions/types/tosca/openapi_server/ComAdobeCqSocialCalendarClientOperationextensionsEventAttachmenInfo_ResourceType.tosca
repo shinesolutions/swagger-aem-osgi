@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmenInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmenInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmenProperties = openapi_server.resourceTypes.ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmenProperties
+}
+resourceTypes {
+
+  ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmenInfo {
+    title = ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmenInfo
+    description = ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmenInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmenProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmenInfo {
+    title = ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmenInfo
+    description = ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmenInfo
+    implements = openapi_server.resourceTypes.ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmenInfo
+
+  }
+}

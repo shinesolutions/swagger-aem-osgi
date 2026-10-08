@@ -4,23 +4,27 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2019-08-05T00:59:30.156Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2026-10-07T12:54:21.614735164Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteOauthServerImplOAuth2RevocationEndpointServletProperties   {
   
-  private ConfigNodePropertyString slingServletPaths = null;
-  private ConfigNodePropertyBoolean oauthRevocationActive = null;
+  private ConfigNodePropertyString slingServletPaths;
+  private ConfigNodePropertyBoolean oauthRevocationActive;
 
   /**
    **/
   
   @ApiModelProperty(value = "")
   @JsonProperty("sling.servlet.paths")
+  @Valid
   public ConfigNodePropertyString getSlingServletPaths() {
     return slingServletPaths;
   }
@@ -33,6 +37,7 @@ public class ComAdobeGraniteOauthServerImplOAuth2RevocationEndpointServletProper
   
   @ApiModelProperty(value = "")
   @JsonProperty("oauth.revocation.active")
+  @Valid
   public ConfigNodePropertyBoolean getOauthRevocationActive() {
     return oauthRevocationActive;
   }
@@ -42,7 +47,7 @@ public class ComAdobeGraniteOauthServerImplOAuth2RevocationEndpointServletProper
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -50,8 +55,8 @@ public class ComAdobeGraniteOauthServerImplOAuth2RevocationEndpointServletProper
       return false;
     }
     ComAdobeGraniteOauthServerImplOAuth2RevocationEndpointServletProperties comAdobeGraniteOauthServerImplOAuth2RevocationEndpointServletProperties = (ComAdobeGraniteOauthServerImplOAuth2RevocationEndpointServletProperties) o;
-    return Objects.equals(slingServletPaths, comAdobeGraniteOauthServerImplOAuth2RevocationEndpointServletProperties.slingServletPaths) &&
-        Objects.equals(oauthRevocationActive, comAdobeGraniteOauthServerImplOAuth2RevocationEndpointServletProperties.oauthRevocationActive);
+    return Objects.equals(this.slingServletPaths, comAdobeGraniteOauthServerImplOAuth2RevocationEndpointServletProperties.slingServletPaths) &&
+        Objects.equals(this.oauthRevocationActive, comAdobeGraniteOauthServerImplOAuth2RevocationEndpointServletProperties.oauthRevocationActive);
   }
 
   @Override
@@ -74,11 +79,8 @@ public class ComAdobeGraniteOauthServerImplOAuth2RevocationEndpointServletProper
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

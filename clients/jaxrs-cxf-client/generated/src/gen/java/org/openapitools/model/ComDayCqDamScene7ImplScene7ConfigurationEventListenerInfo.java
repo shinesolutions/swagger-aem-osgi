@@ -3,34 +3,35 @@ package org.openapitools.model;
 import org.openapitools.model.ComDayCqDamScene7ImplScene7ConfigurationEventListenerProperties;
 
 import io.swagger.annotations.ApiModelProperty;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlType;
-import javax.xml.bind.annotation.XmlEnum;
-import javax.xml.bind.annotation.XmlEnumValue;
+import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
 
 public class ComDayCqDamScene7ImplScene7ConfigurationEventListenerInfo  {
   
   @ApiModelProperty(value = "")
-  private String pid = null;
+
+  private String pid;
 
   @ApiModelProperty(value = "")
-  private String title = null;
+
+  private String title;
 
   @ApiModelProperty(value = "")
-  private String description = null;
+
+  private String description;
 
   @ApiModelProperty(value = "")
-  private ComDayCqDamScene7ImplScene7ConfigurationEventListenerProperties properties = null;
+
+  private ComDayCqDamScene7ImplScene7ConfigurationEventListenerProperties properties;
 
   @ApiModelProperty(value = "")
-  private String bundleLocation = null;
+
+  private String bundleLocation;
 
   @ApiModelProperty(value = "")
-  private String serviceLocation = null;
+
+  private String serviceLocation;
  /**
    * Get pid
    * @return pid
@@ -139,6 +140,27 @@ public class ComDayCqDamScene7ImplScene7ConfigurationEventListenerInfo  {
     return this;
   }
 
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    ComDayCqDamScene7ImplScene7ConfigurationEventListenerInfo comDayCqDamScene7ImplScene7ConfigurationEventListenerInfo = (ComDayCqDamScene7ImplScene7ConfigurationEventListenerInfo) o;
+    return Objects.equals(this.pid, comDayCqDamScene7ImplScene7ConfigurationEventListenerInfo.pid) &&
+        Objects.equals(this.title, comDayCqDamScene7ImplScene7ConfigurationEventListenerInfo.title) &&
+        Objects.equals(this.description, comDayCqDamScene7ImplScene7ConfigurationEventListenerInfo.description) &&
+        Objects.equals(this.properties, comDayCqDamScene7ImplScene7ConfigurationEventListenerInfo.properties) &&
+        Objects.equals(this.bundleLocation, comDayCqDamScene7ImplScene7ConfigurationEventListenerInfo.bundleLocation) &&
+        Objects.equals(this.serviceLocation, comDayCqDamScene7ImplScene7ConfigurationEventListenerInfo.serviceLocation);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(pid, title, description, properties, bundleLocation, serviceLocation);
+  }
 
   @Override
   public String toString() {
@@ -159,11 +181,8 @@ public class ComDayCqDamScene7ImplScene7ConfigurationEventListenerInfo  {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private static String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -1,6 +1,8 @@
 # ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheInfo
 
+
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **pid** | **str** |  | [optional] 
@@ -8,6 +10,23 @@ Name | Type | Description | Notes
 **description** | **str** |  | [optional] 
 **properties** | [**ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheProperties**](ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheProperties.md) |  | [optional] 
 
+## Example
+
+```python
+from swaggeraemosgi.models.com_adobe_granite_repository_hc_impl_default_access_user_profile_health_che_info import ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheInfo
+
+# TODO update the JSON string below
+json = "{}"
+# create an instance of ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheInfo from a JSON string
+com_adobe_granite_repository_hc_impl_default_access_user_profile_health_che_info_instance = ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheInfo.from_json(json)
+# print the JSON string representation of the object
+print(ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheInfo.to_json())
+
+# convert the object into a dict
+com_adobe_granite_repository_hc_impl_default_access_user_profile_health_che_info_dict = com_adobe_granite_repository_hc_impl_default_access_user_profile_health_che_info_instance.to_dict()
+# create an instance of ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheInfo from a dict
+com_adobe_granite_repository_hc_impl_default_access_user_profile_health_che_info_from_dict = ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheInfo.from_dict(com_adobe_granite_repository_hc_impl_default_access_user_profile_health_che_info_dict)
+```
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 
 

@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqDamCoreImplServletMetadataGetServletProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqDamCoreImplServletMetadataGetServletProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComDayCqDamCoreImplServletMetadataGetServletProperties {
+    title = ComDayCqDamCoreImplServletMetadataGetServletProperties
+    description = ComDayCqDamCoreImplServletMetadataGetServletProperties
+    derivedFrom = Root
+    properties {
+        sling_servlet_resource_types {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        sling_servlet_methods {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        sling_servlet_extensions {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        sling_servlet_selectors {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqDamCoreImplServletMetadataGetServletProperties {
+    title = ComDayCqDamCoreImplServletMetadataGetServletProperties
+    description = ComDayCqDamCoreImplServletMetadataGetServletProperties
+    implements = openapi_server.resourceTypes.ComDayCqDamCoreImplServletMetadataGetServletProperties
+
+  }
+}

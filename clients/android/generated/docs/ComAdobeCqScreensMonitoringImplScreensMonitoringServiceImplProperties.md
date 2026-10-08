@@ -1,7 +1,9 @@
 
+
 # ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProjectPath** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
@@ -13,6 +15,7 @@ Name | Type | Description | Notes
 **comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplUsetls** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
 **comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplUsername** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
 **comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplPassword** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
+
 
 
 

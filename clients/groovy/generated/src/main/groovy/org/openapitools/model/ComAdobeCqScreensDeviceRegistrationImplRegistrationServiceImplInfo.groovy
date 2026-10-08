@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqScreensDeviceRegistrationImplRegistratio
 
 @Canonical
 class ComAdobeCqScreensDeviceRegistrationImplRegistrationServiceImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqScreensDeviceRegistrationImplRegistrationServiceImplProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqScreensDeviceRegistrationImplRegistrationServiceImplProperties properties
 }

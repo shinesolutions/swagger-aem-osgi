@@ -72,7 +72,7 @@ private class OASComDayCqTaggingImplSearchTagPrediTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqTaggingImplSearchTagPredi comDayCqTaggingImplSearchTagPredicateEvaluatorProperties = new OASComDayCqTaggingImplSearchTagPredi();
-        Map<String, String> propertyMappings = comDayCqTaggingImplSearchTagPredicateEvaluatorProperties.getPropertyMappings();
-        System.assertEquals('ignorePath', propertyMappings.get('ignore_path'));
+        Map<String, String> x-property-mappings = comDayCqTaggingImplSearchTagPredicateEvaluatorProperties.getx-property-mappings();
+        System.assertEquals('ignorePath', x-property-mappings.get('ignore_path'));
     }
 }

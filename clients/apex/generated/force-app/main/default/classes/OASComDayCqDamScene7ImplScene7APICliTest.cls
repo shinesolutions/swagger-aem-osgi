@@ -72,8 +72,8 @@ private class OASComDayCqDamScene7ImplScene7APICliTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqDamScene7ImplScene7APICli comDayCqDamScene7ImplScene7APIClientImplProperties = new OASComDayCqDamScene7ImplScene7APICli();
-        Map<String, String> propertyMappings = comDayCqDamScene7ImplScene7APIClientImplProperties.getPropertyMappings();
-        System.assertEquals('cqDamScene7ApiclientRecordsperpageNofilterName', propertyMappings.get('cq.dam.scene7.apiclient.recordsperpage.nofilter.name'));
-        System.assertEquals('cqDamScene7ApiclientRecordsperpageWithfilterName', propertyMappings.get('cq.dam.scene7.apiclient.recordsperpage.withfilter.name'));
+        Map<String, String> x-property-mappings = comDayCqDamScene7ImplScene7APIClientImplProperties.getx-property-mappings();
+        System.assertEquals('cqDamScene7ApiclientRecordsperpageNofilterName', x-property-mappings.get('cq.dam.scene7.apiclient.recordsperpage.nofilter.name'));
+        System.assertEquals('cqDamScene7ApiclientRecordsperpageWithfilterName', x-property-mappings.get('cq.dam.scene7.apiclient.recordsperpage.withfilter.name'));
     }
 }

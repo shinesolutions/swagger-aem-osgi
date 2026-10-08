@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqDamS7damCommonServletsS7damProductInfoServ
 
 @Canonical
 class ComDayCqDamS7damCommonServletsS7damProductInfoServletInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqDamS7damCommonServletsS7damProductInfoServletProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqDamS7damCommonServletsS7damProductInfoServletProperties properties
 }

@@ -72,11 +72,11 @@ private class OASComAdobeCqScreensAnalyticsImplScrTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeCqScreensAnalyticsImplScr comAdobeCqScreensAnalyticsImplScreensAnalyticsServiceImplProperties = new OASComAdobeCqScreensAnalyticsImplScr();
-        Map<String, String> propertyMappings = comAdobeCqScreensAnalyticsImplScreensAnalyticsServiceImplProperties.getPropertyMappings();
-        System.assertEquals('comAdobeCqScreensAnalyticsImplUrl', propertyMappings.get('com.adobe.cq.screens.analytics.impl.url'));
-        System.assertEquals('comAdobeCqScreensAnalyticsImplApikey', propertyMappings.get('com.adobe.cq.screens.analytics.impl.apikey'));
-        System.assertEquals('comAdobeCqScreensAnalyticsImplProject', propertyMappings.get('com.adobe.cq.screens.analytics.impl.project'));
-        System.assertEquals('comAdobeCqScreensAnalyticsImplEnvironment', propertyMappings.get('com.adobe.cq.screens.analytics.impl.environment'));
-        System.assertEquals('comAdobeCqScreensAnalyticsImplSendFrequency', propertyMappings.get('com.adobe.cq.screens.analytics.impl.sendFrequency'));
+        Map<String, String> x-property-mappings = comAdobeCqScreensAnalyticsImplScreensAnalyticsServiceImplProperties.getx-property-mappings();
+        System.assertEquals('comAdobeCqScreensAnalyticsImplUrl', x-property-mappings.get('com.adobe.cq.screens.analytics.impl.url'));
+        System.assertEquals('comAdobeCqScreensAnalyticsImplApikey', x-property-mappings.get('com.adobe.cq.screens.analytics.impl.apikey'));
+        System.assertEquals('comAdobeCqScreensAnalyticsImplProject', x-property-mappings.get('com.adobe.cq.screens.analytics.impl.project'));
+        System.assertEquals('comAdobeCqScreensAnalyticsImplEnvironment', x-property-mappings.get('com.adobe.cq.screens.analytics.impl.environment'));
+        System.assertEquals('comAdobeCqScreensAnalyticsImplSendFrequency', x-property-mappings.get('com.adobe.cq.screens.analytics.impl.sendFrequency'));
     }
 }

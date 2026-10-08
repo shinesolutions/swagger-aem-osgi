@@ -7,12 +7,12 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeGraniteOauthServerImplOAuth2TokenEndpointServletProperties {
-    ConfigNodePropertyString oauthIssuer = null
-
-    ConfigNodePropertyString oauthAccessTokenExpiresIn = null
-
-    ConfigNodePropertyString osgiHttpWhiteboardServletPattern = null
-
-    ConfigNodePropertyString osgiHttpWhiteboardContextSelect = null
-
+    
+    ConfigNodePropertyString oauthIssuer
+    
+    ConfigNodePropertyString oauthAccessTokenExpiresIn
+    
+    ConfigNodePropertyString osgiHttpWhiteboardServletPattern
+    
+    ConfigNodePropertyString osgiHttpWhiteboardContextSelect
 }

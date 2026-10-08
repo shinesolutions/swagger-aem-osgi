@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeCqSocialSrpImplSocialSolrConnectorProperties {
-    ConfigNodePropertyString srpType = null
-
+    
+    ConfigNodePropertyString srpType
 }

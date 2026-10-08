@@ -72,8 +72,8 @@ private class OASComDayCqWcmCoreImplWarpTimeWarpFiTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqWcmCoreImplWarpTimeWarpFi comDayCqWcmCoreImplWarpTimeWarpFilterProperties = new OASComDayCqWcmCoreImplWarpTimeWarpFi();
-        Map<String, String> propertyMappings = comDayCqWcmCoreImplWarpTimeWarpFilterProperties.getPropertyMappings();
-        System.assertEquals('filterOrder', propertyMappings.get('filter.order'));
-        System.assertEquals('filterScope', propertyMappings.get('filter.scope'));
+        Map<String, String> x-property-mappings = comDayCqWcmCoreImplWarpTimeWarpFilterProperties.getx-property-mappings();
+        System.assertEquals('filterOrder', x-property-mappings.get('filter.order'));
+        System.assertEquals('filterScope', x-property-mappings.get('filter.scope'));
     }
 }

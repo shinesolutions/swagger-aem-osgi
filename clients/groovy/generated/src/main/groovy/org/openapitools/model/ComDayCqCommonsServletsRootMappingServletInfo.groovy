@@ -7,16 +7,16 @@ import org.openapitools.model.ComDayCqCommonsServletsRootMappingServletPropertie
 
 @Canonical
 class ComDayCqCommonsServletsRootMappingServletInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqCommonsServletsRootMappingServletProperties properties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqCommonsServletsRootMappingServletProperties properties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

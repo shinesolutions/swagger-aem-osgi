@@ -3,32 +3,43 @@ package apimodels;
 import apimodels.ConfigNodePropertyDropDown;
 import apimodels.ConfigNodePropertyInteger;
 import apimodels.ConfigNodePropertyString;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * ComAdobeCqScreensAnalyticsImplScreensAnalyticsServiceImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class ComAdobeCqScreensAnalyticsImplScreensAnalyticsServiceImplProperties   {
   @JsonProperty("com.adobe.cq.screens.analytics.impl.url")
-  private ConfigNodePropertyString comAdobeCqScreensAnalyticsImplUrl = null;
+  @Valid
+
+  private ConfigNodePropertyString comAdobeCqScreensAnalyticsImplUrl;
 
   @JsonProperty("com.adobe.cq.screens.analytics.impl.apikey")
-  private ConfigNodePropertyString comAdobeCqScreensAnalyticsImplApikey = null;
+  @Valid
+
+  private ConfigNodePropertyString comAdobeCqScreensAnalyticsImplApikey;
 
   @JsonProperty("com.adobe.cq.screens.analytics.impl.project")
-  private ConfigNodePropertyString comAdobeCqScreensAnalyticsImplProject = null;
+  @Valid
+
+  private ConfigNodePropertyString comAdobeCqScreensAnalyticsImplProject;
 
   @JsonProperty("com.adobe.cq.screens.analytics.impl.environment")
-  private ConfigNodePropertyDropDown comAdobeCqScreensAnalyticsImplEnvironment = null;
+  @Valid
+
+  private ConfigNodePropertyDropDown comAdobeCqScreensAnalyticsImplEnvironment;
 
   @JsonProperty("com.adobe.cq.screens.analytics.impl.sendFrequency")
-  private ConfigNodePropertyInteger comAdobeCqScreensAnalyticsImplSendFrequency = null;
+  @Valid
+
+  private ConfigNodePropertyInteger comAdobeCqScreensAnalyticsImplSendFrequency;
 
   public ComAdobeCqScreensAnalyticsImplScreensAnalyticsServiceImplProperties comAdobeCqScreensAnalyticsImplUrl(ConfigNodePropertyString comAdobeCqScreensAnalyticsImplUrl) {
     this.comAdobeCqScreensAnalyticsImplUrl = comAdobeCqScreensAnalyticsImplUrl;
@@ -39,7 +50,6 @@ public class ComAdobeCqScreensAnalyticsImplScreensAnalyticsServiceImplProperties
    * Get comAdobeCqScreensAnalyticsImplUrl
    * @return comAdobeCqScreensAnalyticsImplUrl
   **/
-  @Valid
   public ConfigNodePropertyString getComAdobeCqScreensAnalyticsImplUrl() {
     return comAdobeCqScreensAnalyticsImplUrl;
   }
@@ -57,7 +67,6 @@ public class ComAdobeCqScreensAnalyticsImplScreensAnalyticsServiceImplProperties
    * Get comAdobeCqScreensAnalyticsImplApikey
    * @return comAdobeCqScreensAnalyticsImplApikey
   **/
-  @Valid
   public ConfigNodePropertyString getComAdobeCqScreensAnalyticsImplApikey() {
     return comAdobeCqScreensAnalyticsImplApikey;
   }
@@ -75,7 +84,6 @@ public class ComAdobeCqScreensAnalyticsImplScreensAnalyticsServiceImplProperties
    * Get comAdobeCqScreensAnalyticsImplProject
    * @return comAdobeCqScreensAnalyticsImplProject
   **/
-  @Valid
   public ConfigNodePropertyString getComAdobeCqScreensAnalyticsImplProject() {
     return comAdobeCqScreensAnalyticsImplProject;
   }
@@ -93,7 +101,6 @@ public class ComAdobeCqScreensAnalyticsImplScreensAnalyticsServiceImplProperties
    * Get comAdobeCqScreensAnalyticsImplEnvironment
    * @return comAdobeCqScreensAnalyticsImplEnvironment
   **/
-  @Valid
   public ConfigNodePropertyDropDown getComAdobeCqScreensAnalyticsImplEnvironment() {
     return comAdobeCqScreensAnalyticsImplEnvironment;
   }
@@ -111,7 +118,6 @@ public class ComAdobeCqScreensAnalyticsImplScreensAnalyticsServiceImplProperties
    * Get comAdobeCqScreensAnalyticsImplSendFrequency
    * @return comAdobeCqScreensAnalyticsImplSendFrequency
   **/
-  @Valid
   public ConfigNodePropertyInteger getComAdobeCqScreensAnalyticsImplSendFrequency() {
     return comAdobeCqScreensAnalyticsImplSendFrequency;
   }
@@ -122,7 +128,7 @@ public class ComAdobeCqScreensAnalyticsImplScreensAnalyticsServiceImplProperties
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -161,11 +167,8 @@ public class ComAdobeCqScreensAnalyticsImplScreensAnalyticsServiceImplProperties
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

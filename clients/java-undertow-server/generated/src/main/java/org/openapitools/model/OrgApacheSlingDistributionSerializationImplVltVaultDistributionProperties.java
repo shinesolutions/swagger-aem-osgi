@@ -1,3 +1,13 @@
+/*
+ * Adobe Experience Manager OSGI config (AEM) API
+ *
+ * Swagger AEM OSGI is an OpenAPI specification for Adobe Experience Manager (AEM) OSGI Configurations API
+ *
+ * OpenAPI document version: 1.0.0-pre.0
+ * Maintained by: opensource@shinesolutions.com
+ *
+ * AUTO-GENERATED FILE, DO NOT MODIFY!
+ */
 package org.openapitools.model;
 
 import java.util.Objects;
@@ -15,30 +25,30 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2019-08-05T00:56:20.785Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2026-10-07T12:53:42.280804918Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingDistributionSerializationImplVltVaultDistributionProperties   {
   
-  private ConfigNodePropertyString name = null;
-  private ConfigNodePropertyDropDown type = null;
-  private ConfigNodePropertyString importMode = null;
-  private ConfigNodePropertyString aclHandling = null;
-  private ConfigNodePropertyString packageRoots = null;
-  private ConfigNodePropertyArray packageFilters = null;
-  private ConfigNodePropertyArray propertyFilters = null;
-  private ConfigNodePropertyString tempFsFolder = null;
-  private ConfigNodePropertyBoolean useBinaryReferences = null;
-  private ConfigNodePropertyInteger autoSaveThreshold = null;
-  private ConfigNodePropertyInteger cleanupDelay = null;
-  private ConfigNodePropertyInteger fileThreshold = null;
-  private ConfigNodePropertyDropDown MEGA_BYTES = null;
-  private ConfigNodePropertyBoolean useOffHeapMemory = null;
-  private ConfigNodePropertyDropDown digestAlgorithm = null;
-  private ConfigNodePropertyInteger monitoringQueueSize = null;
-  private ConfigNodePropertyArray pathsMapping = null;
-  private ConfigNodePropertyBoolean strictImport = null;
+  private ConfigNodePropertyString name;
+  private ConfigNodePropertyDropDown type;
+  private ConfigNodePropertyString importMode;
+  private ConfigNodePropertyString aclHandling;
+  private ConfigNodePropertyString packageRoots;
+  private ConfigNodePropertyArray packageFilters;
+  private ConfigNodePropertyArray propertyFilters;
+  private ConfigNodePropertyString tempFsFolder;
+  private ConfigNodePropertyBoolean useBinaryReferences;
+  private ConfigNodePropertyInteger autoSaveThreshold;
+  private ConfigNodePropertyInteger cleanupDelay;
+  private ConfigNodePropertyInteger fileThreshold;
+  private ConfigNodePropertyDropDown MEGA_BYTES;
+  private ConfigNodePropertyBoolean useOffHeapMemory;
+  private ConfigNodePropertyDropDown digestAlgorithm;
+  private ConfigNodePropertyInteger monitoringQueueSize;
+  private ConfigNodePropertyArray pathsMapping;
+  private ConfigNodePropertyBoolean strictImport;
 
   /**
-   **/
+   */
   public OrgApacheSlingDistributionSerializationImplVltVaultDistributionProperties name(ConfigNodePropertyString name) {
     this.name = name;
     return this;
@@ -55,7 +65,7 @@ public class OrgApacheSlingDistributionSerializationImplVltVaultDistributionProp
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingDistributionSerializationImplVltVaultDistributionProperties type(ConfigNodePropertyDropDown type) {
     this.type = type;
     return this;
@@ -72,7 +82,7 @@ public class OrgApacheSlingDistributionSerializationImplVltVaultDistributionProp
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingDistributionSerializationImplVltVaultDistributionProperties importMode(ConfigNodePropertyString importMode) {
     this.importMode = importMode;
     return this;
@@ -89,7 +99,7 @@ public class OrgApacheSlingDistributionSerializationImplVltVaultDistributionProp
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingDistributionSerializationImplVltVaultDistributionProperties aclHandling(ConfigNodePropertyString aclHandling) {
     this.aclHandling = aclHandling;
     return this;
@@ -106,7 +116,7 @@ public class OrgApacheSlingDistributionSerializationImplVltVaultDistributionProp
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingDistributionSerializationImplVltVaultDistributionProperties packageRoots(ConfigNodePropertyString packageRoots) {
     this.packageRoots = packageRoots;
     return this;
@@ -123,7 +133,7 @@ public class OrgApacheSlingDistributionSerializationImplVltVaultDistributionProp
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingDistributionSerializationImplVltVaultDistributionProperties packageFilters(ConfigNodePropertyArray packageFilters) {
     this.packageFilters = packageFilters;
     return this;
@@ -140,7 +150,7 @@ public class OrgApacheSlingDistributionSerializationImplVltVaultDistributionProp
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingDistributionSerializationImplVltVaultDistributionProperties propertyFilters(ConfigNodePropertyArray propertyFilters) {
     this.propertyFilters = propertyFilters;
     return this;
@@ -157,7 +167,7 @@ public class OrgApacheSlingDistributionSerializationImplVltVaultDistributionProp
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingDistributionSerializationImplVltVaultDistributionProperties tempFsFolder(ConfigNodePropertyString tempFsFolder) {
     this.tempFsFolder = tempFsFolder;
     return this;
@@ -174,7 +184,7 @@ public class OrgApacheSlingDistributionSerializationImplVltVaultDistributionProp
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingDistributionSerializationImplVltVaultDistributionProperties useBinaryReferences(ConfigNodePropertyBoolean useBinaryReferences) {
     this.useBinaryReferences = useBinaryReferences;
     return this;
@@ -191,7 +201,7 @@ public class OrgApacheSlingDistributionSerializationImplVltVaultDistributionProp
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingDistributionSerializationImplVltVaultDistributionProperties autoSaveThreshold(ConfigNodePropertyInteger autoSaveThreshold) {
     this.autoSaveThreshold = autoSaveThreshold;
     return this;
@@ -208,7 +218,7 @@ public class OrgApacheSlingDistributionSerializationImplVltVaultDistributionProp
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingDistributionSerializationImplVltVaultDistributionProperties cleanupDelay(ConfigNodePropertyInteger cleanupDelay) {
     this.cleanupDelay = cleanupDelay;
     return this;
@@ -225,7 +235,7 @@ public class OrgApacheSlingDistributionSerializationImplVltVaultDistributionProp
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingDistributionSerializationImplVltVaultDistributionProperties fileThreshold(ConfigNodePropertyInteger fileThreshold) {
     this.fileThreshold = fileThreshold;
     return this;
@@ -242,7 +252,7 @@ public class OrgApacheSlingDistributionSerializationImplVltVaultDistributionProp
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingDistributionSerializationImplVltVaultDistributionProperties MEGA_BYTES(ConfigNodePropertyDropDown MEGA_BYTES) {
     this.MEGA_BYTES = MEGA_BYTES;
     return this;
@@ -259,7 +269,7 @@ public class OrgApacheSlingDistributionSerializationImplVltVaultDistributionProp
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingDistributionSerializationImplVltVaultDistributionProperties useOffHeapMemory(ConfigNodePropertyBoolean useOffHeapMemory) {
     this.useOffHeapMemory = useOffHeapMemory;
     return this;
@@ -276,7 +286,7 @@ public class OrgApacheSlingDistributionSerializationImplVltVaultDistributionProp
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingDistributionSerializationImplVltVaultDistributionProperties digestAlgorithm(ConfigNodePropertyDropDown digestAlgorithm) {
     this.digestAlgorithm = digestAlgorithm;
     return this;
@@ -293,7 +303,7 @@ public class OrgApacheSlingDistributionSerializationImplVltVaultDistributionProp
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingDistributionSerializationImplVltVaultDistributionProperties monitoringQueueSize(ConfigNodePropertyInteger monitoringQueueSize) {
     this.monitoringQueueSize = monitoringQueueSize;
     return this;
@@ -310,7 +320,7 @@ public class OrgApacheSlingDistributionSerializationImplVltVaultDistributionProp
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingDistributionSerializationImplVltVaultDistributionProperties pathsMapping(ConfigNodePropertyArray pathsMapping) {
     this.pathsMapping = pathsMapping;
     return this;
@@ -327,7 +337,7 @@ public class OrgApacheSlingDistributionSerializationImplVltVaultDistributionProp
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingDistributionSerializationImplVltVaultDistributionProperties strictImport(ConfigNodePropertyBoolean strictImport) {
     this.strictImport = strictImport;
     return this;
@@ -345,7 +355,7 @@ public class OrgApacheSlingDistributionSerializationImplVltVaultDistributionProp
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -409,11 +419,8 @@ public class OrgApacheSlingDistributionSerializationImplVltVaultDistributionProp
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -1,19 +1,30 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comAdobeCqHistoryImplHistoryRequestFilterProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeCqHistoryImplHistoryRequestFilterProperties   {
-  
-  private @Valid ConfigNodePropertyArray historyRequestFilterExcludedSelectors = null;
-  private @Valid ConfigNodePropertyArray historyRequestFilterExcludedExtensions = null;
+  private ConfigNodePropertyArray historyRequestFilterExcludedSelectors;
+  private ConfigNodePropertyArray historyRequestFilterExcludedExtensions;
+
+  public ComAdobeCqHistoryImplHistoryRequestFilterProperties() {
+  }
 
   /**
    **/
@@ -25,9 +36,11 @@ public class ComAdobeCqHistoryImplHistoryRequestFilterProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("history.requestFilter.excludedSelectors")
-  public ConfigNodePropertyArray getHistoryRequestFilterExcludedSelectors() {
+  @Valid public ConfigNodePropertyArray getHistoryRequestFilterExcludedSelectors() {
     return historyRequestFilterExcludedSelectors;
   }
+
+  @JsonProperty("history.requestFilter.excludedSelectors")
   public void setHistoryRequestFilterExcludedSelectors(ConfigNodePropertyArray historyRequestFilterExcludedSelectors) {
     this.historyRequestFilterExcludedSelectors = historyRequestFilterExcludedSelectors;
   }
@@ -42,16 +55,18 @@ public class ComAdobeCqHistoryImplHistoryRequestFilterProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("history.requestFilter.excludedExtensions")
-  public ConfigNodePropertyArray getHistoryRequestFilterExcludedExtensions() {
+  @Valid public ConfigNodePropertyArray getHistoryRequestFilterExcludedExtensions() {
     return historyRequestFilterExcludedExtensions;
   }
+
+  @JsonProperty("history.requestFilter.excludedExtensions")
   public void setHistoryRequestFilterExcludedExtensions(ConfigNodePropertyArray historyRequestFilterExcludedExtensions) {
     this.historyRequestFilterExcludedExtensions = historyRequestFilterExcludedExtensions;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -59,8 +74,8 @@ public class ComAdobeCqHistoryImplHistoryRequestFilterProperties   {
       return false;
     }
     ComAdobeCqHistoryImplHistoryRequestFilterProperties comAdobeCqHistoryImplHistoryRequestFilterProperties = (ComAdobeCqHistoryImplHistoryRequestFilterProperties) o;
-    return Objects.equals(historyRequestFilterExcludedSelectors, comAdobeCqHistoryImplHistoryRequestFilterProperties.historyRequestFilterExcludedSelectors) &&
-        Objects.equals(historyRequestFilterExcludedExtensions, comAdobeCqHistoryImplHistoryRequestFilterProperties.historyRequestFilterExcludedExtensions);
+    return Objects.equals(this.historyRequestFilterExcludedSelectors, comAdobeCqHistoryImplHistoryRequestFilterProperties.historyRequestFilterExcludedSelectors) &&
+        Objects.equals(this.historyRequestFilterExcludedExtensions, comAdobeCqHistoryImplHistoryRequestFilterProperties.historyRequestFilterExcludedExtensions);
   }
 
   @Override
@@ -83,11 +98,9 @@ public class ComAdobeCqHistoryImplHistoryRequestFilterProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

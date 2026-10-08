@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqDamCommonsMetadataXmpFilterBlackWhitePrope
 
 @Canonical
 class ComDayCqDamCommonsMetadataXmpFilterBlackWhiteInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqDamCommonsMetadataXmpFilterBlackWhiteProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqDamCommonsMetadataXmpFilterBlackWhiteProperties properties
 }

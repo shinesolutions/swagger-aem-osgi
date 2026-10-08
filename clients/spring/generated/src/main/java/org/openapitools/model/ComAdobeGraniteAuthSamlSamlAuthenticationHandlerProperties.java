@@ -1,103 +1,114 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyDropDown;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties   {
-  @JsonProperty("path")
-  private ConfigNodePropertyArray path = null;
+@JsonTypeName("comAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties {
 
-  @JsonProperty("service.ranking")
-  private ConfigNodePropertyInteger serviceRanking = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray path;
 
-  @JsonProperty("idpUrl")
-  private ConfigNodePropertyString idpUrl = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger serviceRanking;
 
-  @JsonProperty("idpCertAlias")
-  private ConfigNodePropertyString idpCertAlias = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString idpUrl;
 
-  @JsonProperty("idpHttpRedirect")
-  private ConfigNodePropertyBoolean idpHttpRedirect = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString idpCertAlias;
 
-  @JsonProperty("serviceProviderEntityId")
-  private ConfigNodePropertyString serviceProviderEntityId = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean idpHttpRedirect;
 
-  @JsonProperty("assertionConsumerServiceURL")
-  private ConfigNodePropertyString assertionConsumerServiceURL = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString serviceProviderEntityId;
 
-  @JsonProperty("spPrivateKeyAlias")
-  private ConfigNodePropertyString spPrivateKeyAlias = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString assertionConsumerServiceURL;
 
-  @JsonProperty("keyStorePassword")
-  private ConfigNodePropertyString keyStorePassword = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString spPrivateKeyAlias;
 
-  @JsonProperty("defaultRedirectUrl")
-  private ConfigNodePropertyString defaultRedirectUrl = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString keyStorePassword;
 
-  @JsonProperty("userIDAttribute")
-  private ConfigNodePropertyString userIDAttribute = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString defaultRedirectUrl;
 
-  @JsonProperty("useEncryption")
-  private ConfigNodePropertyBoolean useEncryption = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString userIDAttribute;
 
-  @JsonProperty("createUser")
-  private ConfigNodePropertyBoolean createUser = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean useEncryption;
 
-  @JsonProperty("userIntermediatePath")
-  private ConfigNodePropertyString userIntermediatePath = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean createUser;
 
-  @JsonProperty("addGroupMemberships")
-  private ConfigNodePropertyBoolean addGroupMemberships = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString userIntermediatePath;
 
-  @JsonProperty("groupMembershipAttribute")
-  private ConfigNodePropertyString groupMembershipAttribute = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean addGroupMemberships;
 
-  @JsonProperty("defaultGroups")
-  private ConfigNodePropertyArray defaultGroups = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString groupMembershipAttribute;
 
-  @JsonProperty("nameIdFormat")
-  private ConfigNodePropertyString nameIdFormat = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray defaultGroups;
 
-  @JsonProperty("synchronizeAttributes")
-  private ConfigNodePropertyArray synchronizeAttributes = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString nameIdFormat;
 
-  @JsonProperty("handleLogout")
-  private ConfigNodePropertyBoolean handleLogout = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray synchronizeAttributes;
 
-  @JsonProperty("logoutUrl")
-  private ConfigNodePropertyString logoutUrl = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean handleLogout;
 
-  @JsonProperty("clockTolerance")
-  private ConfigNodePropertyInteger clockTolerance = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString logoutUrl;
 
-  @JsonProperty("digestMethod")
-  private ConfigNodePropertyString digestMethod = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger clockTolerance;
 
-  @JsonProperty("signatureMethod")
-  private ConfigNodePropertyString signatureMethod = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString digestMethod;
 
-  @JsonProperty("identitySyncType")
-  private ConfigNodePropertyDropDown identitySyncType = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString signatureMethod;
 
-  @JsonProperty("idpIdentifier")
-  private ConfigNodePropertyString idpIdentifier = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyDropDown identitySyncType;
 
-  public ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties path(ConfigNodePropertyArray path) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString idpIdentifier;
+
+  public ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties path(@Nullable ConfigNodePropertyArray path) {
     this.path = path;
     return this;
   }
@@ -105,20 +116,20 @@ public class ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties   {
   /**
    * Get path
    * @return path
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getPath() {
+   */
+  @Valid 
+  @Schema(name = "path", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("path")
+  public @Nullable ConfigNodePropertyArray getPath() {
     return path;
   }
 
-  public void setPath(ConfigNodePropertyArray path) {
+  @JsonProperty("path")
+  public void setPath(@Nullable ConfigNodePropertyArray path) {
     this.path = path;
   }
 
-  public ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties serviceRanking(ConfigNodePropertyInteger serviceRanking) {
+  public ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties serviceRanking(@Nullable ConfigNodePropertyInteger serviceRanking) {
     this.serviceRanking = serviceRanking;
     return this;
   }
@@ -126,20 +137,20 @@ public class ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties   {
   /**
    * Get serviceRanking
    * @return serviceRanking
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getServiceRanking() {
+   */
+  @Valid 
+  @Schema(name = "service.ranking", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("service.ranking")
+  public @Nullable ConfigNodePropertyInteger getServiceRanking() {
     return serviceRanking;
   }
 
-  public void setServiceRanking(ConfigNodePropertyInteger serviceRanking) {
+  @JsonProperty("service.ranking")
+  public void setServiceRanking(@Nullable ConfigNodePropertyInteger serviceRanking) {
     this.serviceRanking = serviceRanking;
   }
 
-  public ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties idpUrl(ConfigNodePropertyString idpUrl) {
+  public ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties idpUrl(@Nullable ConfigNodePropertyString idpUrl) {
     this.idpUrl = idpUrl;
     return this;
   }
@@ -147,20 +158,20 @@ public class ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties   {
   /**
    * Get idpUrl
    * @return idpUrl
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getIdpUrl() {
+   */
+  @Valid 
+  @Schema(name = "idpUrl", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("idpUrl")
+  public @Nullable ConfigNodePropertyString getIdpUrl() {
     return idpUrl;
   }
 
-  public void setIdpUrl(ConfigNodePropertyString idpUrl) {
+  @JsonProperty("idpUrl")
+  public void setIdpUrl(@Nullable ConfigNodePropertyString idpUrl) {
     this.idpUrl = idpUrl;
   }
 
-  public ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties idpCertAlias(ConfigNodePropertyString idpCertAlias) {
+  public ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties idpCertAlias(@Nullable ConfigNodePropertyString idpCertAlias) {
     this.idpCertAlias = idpCertAlias;
     return this;
   }
@@ -168,20 +179,20 @@ public class ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties   {
   /**
    * Get idpCertAlias
    * @return idpCertAlias
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getIdpCertAlias() {
+   */
+  @Valid 
+  @Schema(name = "idpCertAlias", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("idpCertAlias")
+  public @Nullable ConfigNodePropertyString getIdpCertAlias() {
     return idpCertAlias;
   }
 
-  public void setIdpCertAlias(ConfigNodePropertyString idpCertAlias) {
+  @JsonProperty("idpCertAlias")
+  public void setIdpCertAlias(@Nullable ConfigNodePropertyString idpCertAlias) {
     this.idpCertAlias = idpCertAlias;
   }
 
-  public ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties idpHttpRedirect(ConfigNodePropertyBoolean idpHttpRedirect) {
+  public ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties idpHttpRedirect(@Nullable ConfigNodePropertyBoolean idpHttpRedirect) {
     this.idpHttpRedirect = idpHttpRedirect;
     return this;
   }
@@ -189,20 +200,20 @@ public class ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties   {
   /**
    * Get idpHttpRedirect
    * @return idpHttpRedirect
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getIdpHttpRedirect() {
+   */
+  @Valid 
+  @Schema(name = "idpHttpRedirect", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("idpHttpRedirect")
+  public @Nullable ConfigNodePropertyBoolean getIdpHttpRedirect() {
     return idpHttpRedirect;
   }
 
-  public void setIdpHttpRedirect(ConfigNodePropertyBoolean idpHttpRedirect) {
+  @JsonProperty("idpHttpRedirect")
+  public void setIdpHttpRedirect(@Nullable ConfigNodePropertyBoolean idpHttpRedirect) {
     this.idpHttpRedirect = idpHttpRedirect;
   }
 
-  public ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties serviceProviderEntityId(ConfigNodePropertyString serviceProviderEntityId) {
+  public ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties serviceProviderEntityId(@Nullable ConfigNodePropertyString serviceProviderEntityId) {
     this.serviceProviderEntityId = serviceProviderEntityId;
     return this;
   }
@@ -210,20 +221,20 @@ public class ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties   {
   /**
    * Get serviceProviderEntityId
    * @return serviceProviderEntityId
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getServiceProviderEntityId() {
+   */
+  @Valid 
+  @Schema(name = "serviceProviderEntityId", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("serviceProviderEntityId")
+  public @Nullable ConfigNodePropertyString getServiceProviderEntityId() {
     return serviceProviderEntityId;
   }
 
-  public void setServiceProviderEntityId(ConfigNodePropertyString serviceProviderEntityId) {
+  @JsonProperty("serviceProviderEntityId")
+  public void setServiceProviderEntityId(@Nullable ConfigNodePropertyString serviceProviderEntityId) {
     this.serviceProviderEntityId = serviceProviderEntityId;
   }
 
-  public ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties assertionConsumerServiceURL(ConfigNodePropertyString assertionConsumerServiceURL) {
+  public ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties assertionConsumerServiceURL(@Nullable ConfigNodePropertyString assertionConsumerServiceURL) {
     this.assertionConsumerServiceURL = assertionConsumerServiceURL;
     return this;
   }
@@ -231,20 +242,20 @@ public class ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties   {
   /**
    * Get assertionConsumerServiceURL
    * @return assertionConsumerServiceURL
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getAssertionConsumerServiceURL() {
+   */
+  @Valid 
+  @Schema(name = "assertionConsumerServiceURL", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("assertionConsumerServiceURL")
+  public @Nullable ConfigNodePropertyString getAssertionConsumerServiceURL() {
     return assertionConsumerServiceURL;
   }
 
-  public void setAssertionConsumerServiceURL(ConfigNodePropertyString assertionConsumerServiceURL) {
+  @JsonProperty("assertionConsumerServiceURL")
+  public void setAssertionConsumerServiceURL(@Nullable ConfigNodePropertyString assertionConsumerServiceURL) {
     this.assertionConsumerServiceURL = assertionConsumerServiceURL;
   }
 
-  public ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties spPrivateKeyAlias(ConfigNodePropertyString spPrivateKeyAlias) {
+  public ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties spPrivateKeyAlias(@Nullable ConfigNodePropertyString spPrivateKeyAlias) {
     this.spPrivateKeyAlias = spPrivateKeyAlias;
     return this;
   }
@@ -252,20 +263,20 @@ public class ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties   {
   /**
    * Get spPrivateKeyAlias
    * @return spPrivateKeyAlias
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getSpPrivateKeyAlias() {
+   */
+  @Valid 
+  @Schema(name = "spPrivateKeyAlias", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("spPrivateKeyAlias")
+  public @Nullable ConfigNodePropertyString getSpPrivateKeyAlias() {
     return spPrivateKeyAlias;
   }
 
-  public void setSpPrivateKeyAlias(ConfigNodePropertyString spPrivateKeyAlias) {
+  @JsonProperty("spPrivateKeyAlias")
+  public void setSpPrivateKeyAlias(@Nullable ConfigNodePropertyString spPrivateKeyAlias) {
     this.spPrivateKeyAlias = spPrivateKeyAlias;
   }
 
-  public ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties keyStorePassword(ConfigNodePropertyString keyStorePassword) {
+  public ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties keyStorePassword(@Nullable ConfigNodePropertyString keyStorePassword) {
     this.keyStorePassword = keyStorePassword;
     return this;
   }
@@ -273,20 +284,20 @@ public class ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties   {
   /**
    * Get keyStorePassword
    * @return keyStorePassword
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getKeyStorePassword() {
+   */
+  @Valid 
+  @Schema(name = "keyStorePassword", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("keyStorePassword")
+  public @Nullable ConfigNodePropertyString getKeyStorePassword() {
     return keyStorePassword;
   }
 
-  public void setKeyStorePassword(ConfigNodePropertyString keyStorePassword) {
+  @JsonProperty("keyStorePassword")
+  public void setKeyStorePassword(@Nullable ConfigNodePropertyString keyStorePassword) {
     this.keyStorePassword = keyStorePassword;
   }
 
-  public ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties defaultRedirectUrl(ConfigNodePropertyString defaultRedirectUrl) {
+  public ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties defaultRedirectUrl(@Nullable ConfigNodePropertyString defaultRedirectUrl) {
     this.defaultRedirectUrl = defaultRedirectUrl;
     return this;
   }
@@ -294,20 +305,20 @@ public class ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties   {
   /**
    * Get defaultRedirectUrl
    * @return defaultRedirectUrl
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getDefaultRedirectUrl() {
+   */
+  @Valid 
+  @Schema(name = "defaultRedirectUrl", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("defaultRedirectUrl")
+  public @Nullable ConfigNodePropertyString getDefaultRedirectUrl() {
     return defaultRedirectUrl;
   }
 
-  public void setDefaultRedirectUrl(ConfigNodePropertyString defaultRedirectUrl) {
+  @JsonProperty("defaultRedirectUrl")
+  public void setDefaultRedirectUrl(@Nullable ConfigNodePropertyString defaultRedirectUrl) {
     this.defaultRedirectUrl = defaultRedirectUrl;
   }
 
-  public ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties userIDAttribute(ConfigNodePropertyString userIDAttribute) {
+  public ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties userIDAttribute(@Nullable ConfigNodePropertyString userIDAttribute) {
     this.userIDAttribute = userIDAttribute;
     return this;
   }
@@ -315,20 +326,20 @@ public class ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties   {
   /**
    * Get userIDAttribute
    * @return userIDAttribute
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getUserIDAttribute() {
+   */
+  @Valid 
+  @Schema(name = "userIDAttribute", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("userIDAttribute")
+  public @Nullable ConfigNodePropertyString getUserIDAttribute() {
     return userIDAttribute;
   }
 
-  public void setUserIDAttribute(ConfigNodePropertyString userIDAttribute) {
+  @JsonProperty("userIDAttribute")
+  public void setUserIDAttribute(@Nullable ConfigNodePropertyString userIDAttribute) {
     this.userIDAttribute = userIDAttribute;
   }
 
-  public ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties useEncryption(ConfigNodePropertyBoolean useEncryption) {
+  public ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties useEncryption(@Nullable ConfigNodePropertyBoolean useEncryption) {
     this.useEncryption = useEncryption;
     return this;
   }
@@ -336,20 +347,20 @@ public class ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties   {
   /**
    * Get useEncryption
    * @return useEncryption
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getUseEncryption() {
+   */
+  @Valid 
+  @Schema(name = "useEncryption", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("useEncryption")
+  public @Nullable ConfigNodePropertyBoolean getUseEncryption() {
     return useEncryption;
   }
 
-  public void setUseEncryption(ConfigNodePropertyBoolean useEncryption) {
+  @JsonProperty("useEncryption")
+  public void setUseEncryption(@Nullable ConfigNodePropertyBoolean useEncryption) {
     this.useEncryption = useEncryption;
   }
 
-  public ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties createUser(ConfigNodePropertyBoolean createUser) {
+  public ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties createUser(@Nullable ConfigNodePropertyBoolean createUser) {
     this.createUser = createUser;
     return this;
   }
@@ -357,20 +368,20 @@ public class ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties   {
   /**
    * Get createUser
    * @return createUser
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getCreateUser() {
+   */
+  @Valid 
+  @Schema(name = "createUser", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("createUser")
+  public @Nullable ConfigNodePropertyBoolean getCreateUser() {
     return createUser;
   }
 
-  public void setCreateUser(ConfigNodePropertyBoolean createUser) {
+  @JsonProperty("createUser")
+  public void setCreateUser(@Nullable ConfigNodePropertyBoolean createUser) {
     this.createUser = createUser;
   }
 
-  public ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties userIntermediatePath(ConfigNodePropertyString userIntermediatePath) {
+  public ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties userIntermediatePath(@Nullable ConfigNodePropertyString userIntermediatePath) {
     this.userIntermediatePath = userIntermediatePath;
     return this;
   }
@@ -378,20 +389,20 @@ public class ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties   {
   /**
    * Get userIntermediatePath
    * @return userIntermediatePath
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getUserIntermediatePath() {
+   */
+  @Valid 
+  @Schema(name = "userIntermediatePath", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("userIntermediatePath")
+  public @Nullable ConfigNodePropertyString getUserIntermediatePath() {
     return userIntermediatePath;
   }
 
-  public void setUserIntermediatePath(ConfigNodePropertyString userIntermediatePath) {
+  @JsonProperty("userIntermediatePath")
+  public void setUserIntermediatePath(@Nullable ConfigNodePropertyString userIntermediatePath) {
     this.userIntermediatePath = userIntermediatePath;
   }
 
-  public ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties addGroupMemberships(ConfigNodePropertyBoolean addGroupMemberships) {
+  public ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties addGroupMemberships(@Nullable ConfigNodePropertyBoolean addGroupMemberships) {
     this.addGroupMemberships = addGroupMemberships;
     return this;
   }
@@ -399,20 +410,20 @@ public class ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties   {
   /**
    * Get addGroupMemberships
    * @return addGroupMemberships
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getAddGroupMemberships() {
+   */
+  @Valid 
+  @Schema(name = "addGroupMemberships", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("addGroupMemberships")
+  public @Nullable ConfigNodePropertyBoolean getAddGroupMemberships() {
     return addGroupMemberships;
   }
 
-  public void setAddGroupMemberships(ConfigNodePropertyBoolean addGroupMemberships) {
+  @JsonProperty("addGroupMemberships")
+  public void setAddGroupMemberships(@Nullable ConfigNodePropertyBoolean addGroupMemberships) {
     this.addGroupMemberships = addGroupMemberships;
   }
 
-  public ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties groupMembershipAttribute(ConfigNodePropertyString groupMembershipAttribute) {
+  public ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties groupMembershipAttribute(@Nullable ConfigNodePropertyString groupMembershipAttribute) {
     this.groupMembershipAttribute = groupMembershipAttribute;
     return this;
   }
@@ -420,20 +431,20 @@ public class ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties   {
   /**
    * Get groupMembershipAttribute
    * @return groupMembershipAttribute
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getGroupMembershipAttribute() {
+   */
+  @Valid 
+  @Schema(name = "groupMembershipAttribute", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("groupMembershipAttribute")
+  public @Nullable ConfigNodePropertyString getGroupMembershipAttribute() {
     return groupMembershipAttribute;
   }
 
-  public void setGroupMembershipAttribute(ConfigNodePropertyString groupMembershipAttribute) {
+  @JsonProperty("groupMembershipAttribute")
+  public void setGroupMembershipAttribute(@Nullable ConfigNodePropertyString groupMembershipAttribute) {
     this.groupMembershipAttribute = groupMembershipAttribute;
   }
 
-  public ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties defaultGroups(ConfigNodePropertyArray defaultGroups) {
+  public ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties defaultGroups(@Nullable ConfigNodePropertyArray defaultGroups) {
     this.defaultGroups = defaultGroups;
     return this;
   }
@@ -441,20 +452,20 @@ public class ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties   {
   /**
    * Get defaultGroups
    * @return defaultGroups
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getDefaultGroups() {
+   */
+  @Valid 
+  @Schema(name = "defaultGroups", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("defaultGroups")
+  public @Nullable ConfigNodePropertyArray getDefaultGroups() {
     return defaultGroups;
   }
 
-  public void setDefaultGroups(ConfigNodePropertyArray defaultGroups) {
+  @JsonProperty("defaultGroups")
+  public void setDefaultGroups(@Nullable ConfigNodePropertyArray defaultGroups) {
     this.defaultGroups = defaultGroups;
   }
 
-  public ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties nameIdFormat(ConfigNodePropertyString nameIdFormat) {
+  public ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties nameIdFormat(@Nullable ConfigNodePropertyString nameIdFormat) {
     this.nameIdFormat = nameIdFormat;
     return this;
   }
@@ -462,20 +473,20 @@ public class ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties   {
   /**
    * Get nameIdFormat
    * @return nameIdFormat
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getNameIdFormat() {
+   */
+  @Valid 
+  @Schema(name = "nameIdFormat", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("nameIdFormat")
+  public @Nullable ConfigNodePropertyString getNameIdFormat() {
     return nameIdFormat;
   }
 
-  public void setNameIdFormat(ConfigNodePropertyString nameIdFormat) {
+  @JsonProperty("nameIdFormat")
+  public void setNameIdFormat(@Nullable ConfigNodePropertyString nameIdFormat) {
     this.nameIdFormat = nameIdFormat;
   }
 
-  public ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties synchronizeAttributes(ConfigNodePropertyArray synchronizeAttributes) {
+  public ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties synchronizeAttributes(@Nullable ConfigNodePropertyArray synchronizeAttributes) {
     this.synchronizeAttributes = synchronizeAttributes;
     return this;
   }
@@ -483,20 +494,20 @@ public class ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties   {
   /**
    * Get synchronizeAttributes
    * @return synchronizeAttributes
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getSynchronizeAttributes() {
+   */
+  @Valid 
+  @Schema(name = "synchronizeAttributes", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("synchronizeAttributes")
+  public @Nullable ConfigNodePropertyArray getSynchronizeAttributes() {
     return synchronizeAttributes;
   }
 
-  public void setSynchronizeAttributes(ConfigNodePropertyArray synchronizeAttributes) {
+  @JsonProperty("synchronizeAttributes")
+  public void setSynchronizeAttributes(@Nullable ConfigNodePropertyArray synchronizeAttributes) {
     this.synchronizeAttributes = synchronizeAttributes;
   }
 
-  public ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties handleLogout(ConfigNodePropertyBoolean handleLogout) {
+  public ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties handleLogout(@Nullable ConfigNodePropertyBoolean handleLogout) {
     this.handleLogout = handleLogout;
     return this;
   }
@@ -504,20 +515,20 @@ public class ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties   {
   /**
    * Get handleLogout
    * @return handleLogout
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getHandleLogout() {
+   */
+  @Valid 
+  @Schema(name = "handleLogout", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("handleLogout")
+  public @Nullable ConfigNodePropertyBoolean getHandleLogout() {
     return handleLogout;
   }
 
-  public void setHandleLogout(ConfigNodePropertyBoolean handleLogout) {
+  @JsonProperty("handleLogout")
+  public void setHandleLogout(@Nullable ConfigNodePropertyBoolean handleLogout) {
     this.handleLogout = handleLogout;
   }
 
-  public ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties logoutUrl(ConfigNodePropertyString logoutUrl) {
+  public ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties logoutUrl(@Nullable ConfigNodePropertyString logoutUrl) {
     this.logoutUrl = logoutUrl;
     return this;
   }
@@ -525,20 +536,20 @@ public class ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties   {
   /**
    * Get logoutUrl
    * @return logoutUrl
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getLogoutUrl() {
+   */
+  @Valid 
+  @Schema(name = "logoutUrl", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("logoutUrl")
+  public @Nullable ConfigNodePropertyString getLogoutUrl() {
     return logoutUrl;
   }
 
-  public void setLogoutUrl(ConfigNodePropertyString logoutUrl) {
+  @JsonProperty("logoutUrl")
+  public void setLogoutUrl(@Nullable ConfigNodePropertyString logoutUrl) {
     this.logoutUrl = logoutUrl;
   }
 
-  public ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties clockTolerance(ConfigNodePropertyInteger clockTolerance) {
+  public ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties clockTolerance(@Nullable ConfigNodePropertyInteger clockTolerance) {
     this.clockTolerance = clockTolerance;
     return this;
   }
@@ -546,20 +557,20 @@ public class ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties   {
   /**
    * Get clockTolerance
    * @return clockTolerance
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getClockTolerance() {
+   */
+  @Valid 
+  @Schema(name = "clockTolerance", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("clockTolerance")
+  public @Nullable ConfigNodePropertyInteger getClockTolerance() {
     return clockTolerance;
   }
 
-  public void setClockTolerance(ConfigNodePropertyInteger clockTolerance) {
+  @JsonProperty("clockTolerance")
+  public void setClockTolerance(@Nullable ConfigNodePropertyInteger clockTolerance) {
     this.clockTolerance = clockTolerance;
   }
 
-  public ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties digestMethod(ConfigNodePropertyString digestMethod) {
+  public ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties digestMethod(@Nullable ConfigNodePropertyString digestMethod) {
     this.digestMethod = digestMethod;
     return this;
   }
@@ -567,20 +578,20 @@ public class ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties   {
   /**
    * Get digestMethod
    * @return digestMethod
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getDigestMethod() {
+   */
+  @Valid 
+  @Schema(name = "digestMethod", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("digestMethod")
+  public @Nullable ConfigNodePropertyString getDigestMethod() {
     return digestMethod;
   }
 
-  public void setDigestMethod(ConfigNodePropertyString digestMethod) {
+  @JsonProperty("digestMethod")
+  public void setDigestMethod(@Nullable ConfigNodePropertyString digestMethod) {
     this.digestMethod = digestMethod;
   }
 
-  public ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties signatureMethod(ConfigNodePropertyString signatureMethod) {
+  public ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties signatureMethod(@Nullable ConfigNodePropertyString signatureMethod) {
     this.signatureMethod = signatureMethod;
     return this;
   }
@@ -588,20 +599,20 @@ public class ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties   {
   /**
    * Get signatureMethod
    * @return signatureMethod
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getSignatureMethod() {
+   */
+  @Valid 
+  @Schema(name = "signatureMethod", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("signatureMethod")
+  public @Nullable ConfigNodePropertyString getSignatureMethod() {
     return signatureMethod;
   }
 
-  public void setSignatureMethod(ConfigNodePropertyString signatureMethod) {
+  @JsonProperty("signatureMethod")
+  public void setSignatureMethod(@Nullable ConfigNodePropertyString signatureMethod) {
     this.signatureMethod = signatureMethod;
   }
 
-  public ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties identitySyncType(ConfigNodePropertyDropDown identitySyncType) {
+  public ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties identitySyncType(@Nullable ConfigNodePropertyDropDown identitySyncType) {
     this.identitySyncType = identitySyncType;
     return this;
   }
@@ -609,20 +620,20 @@ public class ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties   {
   /**
    * Get identitySyncType
    * @return identitySyncType
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyDropDown getIdentitySyncType() {
+   */
+  @Valid 
+  @Schema(name = "identitySyncType", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("identitySyncType")
+  public @Nullable ConfigNodePropertyDropDown getIdentitySyncType() {
     return identitySyncType;
   }
 
-  public void setIdentitySyncType(ConfigNodePropertyDropDown identitySyncType) {
+  @JsonProperty("identitySyncType")
+  public void setIdentitySyncType(@Nullable ConfigNodePropertyDropDown identitySyncType) {
     this.identitySyncType = identitySyncType;
   }
 
-  public ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties idpIdentifier(ConfigNodePropertyString idpIdentifier) {
+  public ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties idpIdentifier(@Nullable ConfigNodePropertyString idpIdentifier) {
     this.idpIdentifier = idpIdentifier;
     return this;
   }
@@ -630,22 +641,21 @@ public class ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties   {
   /**
    * Get idpIdentifier
    * @return idpIdentifier
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getIdpIdentifier() {
+   */
+  @Valid 
+  @Schema(name = "idpIdentifier", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("idpIdentifier")
+  public @Nullable ConfigNodePropertyString getIdpIdentifier() {
     return idpIdentifier;
   }
 
-  public void setIdpIdentifier(ConfigNodePropertyString idpIdentifier) {
+  @JsonProperty("idpIdentifier")
+  public void setIdpIdentifier(@Nullable ConfigNodePropertyString idpIdentifier) {
     this.idpIdentifier = idpIdentifier;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -690,7 +700,6 @@ public class ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties {\n");
-    
     sb.append("    path: ").append(toIndentedString(path)).append("\n");
     sb.append("    serviceRanking: ").append(toIndentedString(serviceRanking)).append("\n");
     sb.append("    idpUrl: ").append(toIndentedString(idpUrl)).append("\n");
@@ -725,11 +734,8 @@ public class ComAdobeGraniteAuthSamlSamlAuthenticationHandlerProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

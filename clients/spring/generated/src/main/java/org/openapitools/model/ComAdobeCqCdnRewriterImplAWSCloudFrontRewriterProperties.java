@@ -1,38 +1,49 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComAdobeCqCdnRewriterImplAWSCloudFrontRewriterProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComAdobeCqCdnRewriterImplAWSCloudFrontRewriterProperties   {
-  @JsonProperty("service.ranking")
-  private ConfigNodePropertyInteger serviceRanking = null;
+@JsonTypeName("comAdobeCqCdnRewriterImplAWSCloudFrontRewriterProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComAdobeCqCdnRewriterImplAWSCloudFrontRewriterProperties {
 
-  @JsonProperty("keypair.id")
-  private ConfigNodePropertyString keypairId = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger serviceRanking;
 
-  @JsonProperty("keypair.alias")
-  private ConfigNodePropertyString keypairAlias = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString keypairId;
 
-  @JsonProperty("cdnrewriter.attributes")
-  private ConfigNodePropertyArray cdnrewriterAttributes = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString keypairAlias;
 
-  @JsonProperty("cdn.rewriter.distribution.domain")
-  private ConfigNodePropertyString cdnRewriterDistributionDomain = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray cdnrewriterAttributes;
 
-  public ComAdobeCqCdnRewriterImplAWSCloudFrontRewriterProperties serviceRanking(ConfigNodePropertyInteger serviceRanking) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString cdnRewriterDistributionDomain;
+
+  public ComAdobeCqCdnRewriterImplAWSCloudFrontRewriterProperties serviceRanking(@Nullable ConfigNodePropertyInteger serviceRanking) {
     this.serviceRanking = serviceRanking;
     return this;
   }
@@ -40,20 +51,20 @@ public class ComAdobeCqCdnRewriterImplAWSCloudFrontRewriterProperties   {
   /**
    * Get serviceRanking
    * @return serviceRanking
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getServiceRanking() {
+   */
+  @Valid 
+  @Schema(name = "service.ranking", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("service.ranking")
+  public @Nullable ConfigNodePropertyInteger getServiceRanking() {
     return serviceRanking;
   }
 
-  public void setServiceRanking(ConfigNodePropertyInteger serviceRanking) {
+  @JsonProperty("service.ranking")
+  public void setServiceRanking(@Nullable ConfigNodePropertyInteger serviceRanking) {
     this.serviceRanking = serviceRanking;
   }
 
-  public ComAdobeCqCdnRewriterImplAWSCloudFrontRewriterProperties keypairId(ConfigNodePropertyString keypairId) {
+  public ComAdobeCqCdnRewriterImplAWSCloudFrontRewriterProperties keypairId(@Nullable ConfigNodePropertyString keypairId) {
     this.keypairId = keypairId;
     return this;
   }
@@ -61,20 +72,20 @@ public class ComAdobeCqCdnRewriterImplAWSCloudFrontRewriterProperties   {
   /**
    * Get keypairId
    * @return keypairId
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getKeypairId() {
+   */
+  @Valid 
+  @Schema(name = "keypair.id", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("keypair.id")
+  public @Nullable ConfigNodePropertyString getKeypairId() {
     return keypairId;
   }
 
-  public void setKeypairId(ConfigNodePropertyString keypairId) {
+  @JsonProperty("keypair.id")
+  public void setKeypairId(@Nullable ConfigNodePropertyString keypairId) {
     this.keypairId = keypairId;
   }
 
-  public ComAdobeCqCdnRewriterImplAWSCloudFrontRewriterProperties keypairAlias(ConfigNodePropertyString keypairAlias) {
+  public ComAdobeCqCdnRewriterImplAWSCloudFrontRewriterProperties keypairAlias(@Nullable ConfigNodePropertyString keypairAlias) {
     this.keypairAlias = keypairAlias;
     return this;
   }
@@ -82,20 +93,20 @@ public class ComAdobeCqCdnRewriterImplAWSCloudFrontRewriterProperties   {
   /**
    * Get keypairAlias
    * @return keypairAlias
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getKeypairAlias() {
+   */
+  @Valid 
+  @Schema(name = "keypair.alias", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("keypair.alias")
+  public @Nullable ConfigNodePropertyString getKeypairAlias() {
     return keypairAlias;
   }
 
-  public void setKeypairAlias(ConfigNodePropertyString keypairAlias) {
+  @JsonProperty("keypair.alias")
+  public void setKeypairAlias(@Nullable ConfigNodePropertyString keypairAlias) {
     this.keypairAlias = keypairAlias;
   }
 
-  public ComAdobeCqCdnRewriterImplAWSCloudFrontRewriterProperties cdnrewriterAttributes(ConfigNodePropertyArray cdnrewriterAttributes) {
+  public ComAdobeCqCdnRewriterImplAWSCloudFrontRewriterProperties cdnrewriterAttributes(@Nullable ConfigNodePropertyArray cdnrewriterAttributes) {
     this.cdnrewriterAttributes = cdnrewriterAttributes;
     return this;
   }
@@ -103,20 +114,20 @@ public class ComAdobeCqCdnRewriterImplAWSCloudFrontRewriterProperties   {
   /**
    * Get cdnrewriterAttributes
    * @return cdnrewriterAttributes
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getCdnrewriterAttributes() {
+   */
+  @Valid 
+  @Schema(name = "cdnrewriter.attributes", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cdnrewriter.attributes")
+  public @Nullable ConfigNodePropertyArray getCdnrewriterAttributes() {
     return cdnrewriterAttributes;
   }
 
-  public void setCdnrewriterAttributes(ConfigNodePropertyArray cdnrewriterAttributes) {
+  @JsonProperty("cdnrewriter.attributes")
+  public void setCdnrewriterAttributes(@Nullable ConfigNodePropertyArray cdnrewriterAttributes) {
     this.cdnrewriterAttributes = cdnrewriterAttributes;
   }
 
-  public ComAdobeCqCdnRewriterImplAWSCloudFrontRewriterProperties cdnRewriterDistributionDomain(ConfigNodePropertyString cdnRewriterDistributionDomain) {
+  public ComAdobeCqCdnRewriterImplAWSCloudFrontRewriterProperties cdnRewriterDistributionDomain(@Nullable ConfigNodePropertyString cdnRewriterDistributionDomain) {
     this.cdnRewriterDistributionDomain = cdnRewriterDistributionDomain;
     return this;
   }
@@ -124,22 +135,21 @@ public class ComAdobeCqCdnRewriterImplAWSCloudFrontRewriterProperties   {
   /**
    * Get cdnRewriterDistributionDomain
    * @return cdnRewriterDistributionDomain
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getCdnRewriterDistributionDomain() {
+   */
+  @Valid 
+  @Schema(name = "cdn.rewriter.distribution.domain", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cdn.rewriter.distribution.domain")
+  public @Nullable ConfigNodePropertyString getCdnRewriterDistributionDomain() {
     return cdnRewriterDistributionDomain;
   }
 
-  public void setCdnRewriterDistributionDomain(ConfigNodePropertyString cdnRewriterDistributionDomain) {
+  @JsonProperty("cdn.rewriter.distribution.domain")
+  public void setCdnRewriterDistributionDomain(@Nullable ConfigNodePropertyString cdnRewriterDistributionDomain) {
     this.cdnRewriterDistributionDomain = cdnRewriterDistributionDomain;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -163,7 +173,6 @@ public class ComAdobeCqCdnRewriterImplAWSCloudFrontRewriterProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComAdobeCqCdnRewriterImplAWSCloudFrontRewriterProperties {\n");
-    
     sb.append("    serviceRanking: ").append(toIndentedString(serviceRanking)).append("\n");
     sb.append("    keypairId: ").append(toIndentedString(keypairId)).append("\n");
     sb.append("    keypairAlias: ").append(toIndentedString(keypairAlias)).append("\n");
@@ -177,11 +186,8 @@ public class ComAdobeCqCdnRewriterImplAWSCloudFrontRewriterProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

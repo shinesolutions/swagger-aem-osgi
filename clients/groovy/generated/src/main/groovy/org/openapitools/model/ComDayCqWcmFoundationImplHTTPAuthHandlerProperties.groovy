@@ -9,16 +9,16 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqWcmFoundationImplHTTPAuthHandlerProperties {
-    ConfigNodePropertyString path = null
-
-    ConfigNodePropertyBoolean authHttpNologin = null
-
-    ConfigNodePropertyString authHttpRealm = null
-
-    ConfigNodePropertyString authDefaultLoginpage = null
-
-    ConfigNodePropertyArray authCredForm = null
-
-    ConfigNodePropertyArray authCredUtf8 = null
-
+    
+    ConfigNodePropertyString path
+    
+    ConfigNodePropertyBoolean authHttpNologin
+    
+    ConfigNodePropertyString authHttpRealm
+    
+    ConfigNodePropertyString authDefaultLoginpage
+    
+    ConfigNodePropertyArray authCredForm
+    
+    ConfigNodePropertyArray authCredUtf8
 }

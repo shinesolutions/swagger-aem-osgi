@@ -72,8 +72,8 @@ private class OASComDayCqDamCoreImplServletCollectTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqDamCoreImplServletCollect comDayCqDamCoreImplServletCollectionsServletProperties = new OASComDayCqDamCoreImplServletCollect();
-        Map<String, String> propertyMappings = comDayCqDamCoreImplServletCollectionsServletProperties.getPropertyMappings();
-        System.assertEquals('cqDamBatchCollectionsProperties', propertyMappings.get('cq.dam.batch.collections.properties'));
-        System.assertEquals('cqDamBatchCollectionsLimit', propertyMappings.get('cq.dam.batch.collections.limit'));
+        Map<String, String> x-property-mappings = comDayCqDamCoreImplServletCollectionsServletProperties.getx-property-mappings();
+        System.assertEquals('cqDamBatchCollectionsProperties', x-property-mappings.get('cq.dam.batch.collections.properties'));
+        System.assertEquals('cqDamBatchCollectionsLimit', x-property-mappings.get('cq.dam.batch.collections.limit'));
     }
 }

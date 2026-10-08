@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyString;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
@@ -15,33 +16,32 @@ import io.swagger.annotations.ApiModelProperty;
  * ComAdobeGraniteAuthOauthImplGraniteProviderProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteAuthOauthImplGraniteProviderProperties   {
   @JsonProperty("oauth.provider.id")
-  private ConfigNodePropertyString oauthProviderId = null;
+  private ConfigNodePropertyString oauthProviderId;
 
   @JsonProperty("oauth.provider.granite.authorization.url")
-  private ConfigNodePropertyString oauthProviderGraniteAuthorizationUrl = null;
+  private ConfigNodePropertyString oauthProviderGraniteAuthorizationUrl;
 
   @JsonProperty("oauth.provider.granite.token.url")
-  private ConfigNodePropertyString oauthProviderGraniteTokenUrl = null;
+  private ConfigNodePropertyString oauthProviderGraniteTokenUrl;
 
   @JsonProperty("oauth.provider.granite.profile.url")
-  private ConfigNodePropertyString oauthProviderGraniteProfileUrl = null;
+  private ConfigNodePropertyString oauthProviderGraniteProfileUrl;
 
   @JsonProperty("oauth.provider.granite.extended.details.urls")
-  private ConfigNodePropertyString oauthProviderGraniteExtendedDetailsUrls = null;
+  private ConfigNodePropertyString oauthProviderGraniteExtendedDetailsUrls;
 
   public ComAdobeGraniteAuthOauthImplGraniteProviderProperties oauthProviderId(ConfigNodePropertyString oauthProviderId) {
     this.oauthProviderId = oauthProviderId;
     return this;
   }
 
-   /**
+  /**
    * Get oauthProviderId
    * @return oauthProviderId
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getOauthProviderId() {
     return oauthProviderId;
@@ -56,10 +56,10 @@ public class ComAdobeGraniteAuthOauthImplGraniteProviderProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get oauthProviderGraniteAuthorizationUrl
    * @return oauthProviderGraniteAuthorizationUrl
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getOauthProviderGraniteAuthorizationUrl() {
     return oauthProviderGraniteAuthorizationUrl;
@@ -74,10 +74,10 @@ public class ComAdobeGraniteAuthOauthImplGraniteProviderProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get oauthProviderGraniteTokenUrl
    * @return oauthProviderGraniteTokenUrl
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getOauthProviderGraniteTokenUrl() {
     return oauthProviderGraniteTokenUrl;
@@ -92,10 +92,10 @@ public class ComAdobeGraniteAuthOauthImplGraniteProviderProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get oauthProviderGraniteProfileUrl
    * @return oauthProviderGraniteProfileUrl
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getOauthProviderGraniteProfileUrl() {
     return oauthProviderGraniteProfileUrl;
@@ -110,10 +110,10 @@ public class ComAdobeGraniteAuthOauthImplGraniteProviderProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get oauthProviderGraniteExtendedDetailsUrls
    * @return oauthProviderGraniteExtendedDetailsUrls
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getOauthProviderGraniteExtendedDetailsUrls() {
     return oauthProviderGraniteExtendedDetailsUrls;
@@ -125,7 +125,7 @@ public class ComAdobeGraniteAuthOauthImplGraniteProviderProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -163,11 +163,8 @@ public class ComAdobeGraniteAuthOauthImplGraniteProviderProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

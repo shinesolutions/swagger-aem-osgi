@@ -7,8 +7,8 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class ComAdobeCqDtmImplServiceDTMWebServiceImplProperties {
-    ConfigNodePropertyInteger connectionTimeout = null
-
-    ConfigNodePropertyInteger socketTimeout = null
-
+    
+    ConfigNodePropertyInteger connectionTimeout
+    
+    ConfigNodePropertyInteger socketTimeout
 }

@@ -7,8 +7,8 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class OrgApacheSlingJcrJackrabbitServerJndiRegistrationSupportProperties {
-    ConfigNodePropertyString javaNamingFactoryInitial = null
-
-    ConfigNodePropertyString javaNamingProviderUrl = null
-
+    
+    ConfigNodePropertyString javaNamingFactoryInitial
+    
+    ConfigNodePropertyString javaNamingProviderUrl
 }

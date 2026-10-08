@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqSocialUgcbaseDispatcherImplFlushServiceI
 
 @Canonical
 class ComAdobeCqSocialUgcbaseDispatcherImplFlushServiceImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqSocialUgcbaseDispatcherImplFlushServiceImplProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqSocialUgcbaseDispatcherImplFlushServiceImplProperties properties
 }

@@ -72,8 +72,8 @@ private class OASOrgApacheSlingDiscoveryOakConfigITest {
     @isTest
     private static void maintainRenamedProperties() {
         OASOrgApacheSlingDiscoveryOakConfigI orgApacheSlingDiscoveryOakConfigInfo = new OASOrgApacheSlingDiscoveryOakConfigI();
-        Map<String, String> propertyMappings = orgApacheSlingDiscoveryOakConfigInfo.getPropertyMappings();
-        System.assertEquals('bundleLocation', propertyMappings.get('bundle_location'));
-        System.assertEquals('serviceLocation', propertyMappings.get('service_location'));
+        Map<String, String> x-property-mappings = orgApacheSlingDiscoveryOakConfigInfo.getx-property-mappings();
+        System.assertEquals('bundleLocation', x-property-mappings.get('bundle_location'));
+        System.assertEquals('serviceLocation', x-property-mappings.get('service_location'));
     }
 }

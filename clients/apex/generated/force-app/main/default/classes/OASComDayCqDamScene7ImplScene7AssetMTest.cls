@@ -72,7 +72,7 @@ private class OASComDayCqDamScene7ImplScene7AssetMTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqDamScene7ImplScene7AssetM comDayCqDamScene7ImplScene7AssetMimeTypeServiceImplProperties = new OASComDayCqDamScene7ImplScene7AssetM();
-        Map<String, String> propertyMappings = comDayCqDamScene7ImplScene7AssetMimeTypeServiceImplProperties.getPropertyMappings();
-        System.assertEquals('cqDamScene7AssetmimetypeserviceMapping', propertyMappings.get('cq.dam.scene7.assetmimetypeservice.mapping'));
+        Map<String, String> x-property-mappings = comDayCqDamScene7ImplScene7AssetMimeTypeServiceImplProperties.getx-property-mappings();
+        System.assertEquals('cqDamScene7AssetmimetypeserviceMapping', x-property-mappings.get('cq.dam.scene7.assetmimetypeservice.mapping'));
     }
 }

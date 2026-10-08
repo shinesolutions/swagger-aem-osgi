@@ -1,7 +1,9 @@
 
+
 # OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **davRoot** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
@@ -14,6 +16,7 @@ Name | Type | Description | Notes
 **typeCollections** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
 **typeNoncollections** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
 **typeContent** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
+
 
 
 

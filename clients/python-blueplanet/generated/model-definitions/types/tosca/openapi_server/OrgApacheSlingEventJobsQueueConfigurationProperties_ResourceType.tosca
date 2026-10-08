@@ -1,0 +1,91 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingEventJobsQueueConfigurationProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingEventJobsQueueConfigurationProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyDropDown = openapi_server.resourceTypes.ConfigNodePropertyDropDown
+  ConfigNodePropertyFloat = openapi_server.resourceTypes.ConfigNodePropertyFloat
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  OrgApacheSlingEventJobsQueueConfigurationProperties {
+    title = OrgApacheSlingEventJobsQueueConfigurationProperties
+    description = OrgApacheSlingEventJobsQueueConfigurationProperties
+    derivedFrom = Root
+    properties {
+        queue_name {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        queue_topics {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        queue_type {
+          type = ConfigNodePropertyDropDown
+          description = ""
+          optional = false
+        }
+        queue_priority {
+          type = ConfigNodePropertyDropDown
+          description = ""
+          optional = false
+        }
+        queue_retries {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        queue_retrydelay {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        queue_maxparallel {
+          type = ConfigNodePropertyFloat
+          description = ""
+          optional = false
+        }
+        queue_keep_jobs {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        queue_prefer_run_on_creation_instance {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        queue_thread_pool_size {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        service_ranking {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingEventJobsQueueConfigurationProperties {
+    title = OrgApacheSlingEventJobsQueueConfigurationProperties
+    description = OrgApacheSlingEventJobsQueueConfigurationProperties
+    implements = openapi_server.resourceTypes.OrgApacheSlingEventJobsQueueConfigurationProperties
+
+  }
+}

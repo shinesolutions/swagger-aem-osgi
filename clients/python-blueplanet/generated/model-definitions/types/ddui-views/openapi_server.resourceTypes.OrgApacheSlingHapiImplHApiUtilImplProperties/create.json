@@ -1,0 +1,21 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "org_apache_sling_hapi_tools_resourcetype" },
+      {"model": "org_apache_sling_hapi_tools_collectionresourcetype" },
+      {"model": "org_apache_sling_hapi_tools_searchpaths" },
+      {"model": "org_apache_sling_hapi_tools_externalurl" },
+      {"model": "org_apache_sling_hapi_tools_enabled" },
+    ]
+  }]
+}

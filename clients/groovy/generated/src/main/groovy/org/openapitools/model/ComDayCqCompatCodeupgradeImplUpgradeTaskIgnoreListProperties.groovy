@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyArray;
 
 @Canonical
 class ComDayCqCompatCodeupgradeImplUpgradeTaskIgnoreListProperties {
-    ConfigNodePropertyArray upgradeTaskIgnoreList = null
-
+    
+    ConfigNodePropertyArray upgradeTaskIgnoreList
 }

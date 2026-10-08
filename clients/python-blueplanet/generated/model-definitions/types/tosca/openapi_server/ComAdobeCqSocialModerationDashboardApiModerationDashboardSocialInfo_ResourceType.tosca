@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialProperties = openapi_server.resourceTypes.ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialProperties
+}
+resourceTypes {
+
+  ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialInfo {
+    title = ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialInfo
+    description = ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialInfo {
+    title = ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialInfo
+    description = ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialInfo
+    implements = openapi_server.resourceTypes.ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialInfo
+
+  }
+}

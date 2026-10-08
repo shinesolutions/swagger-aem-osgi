@@ -72,15 +72,15 @@ private class OASComDayCqWcmUndoUndoConfigPropertiTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqWcmUndoUndoConfigProperti comDayCqWcmUndoUndoConfigProperties = new OASComDayCqWcmUndoUndoConfigProperti();
-        Map<String, String> propertyMappings = comDayCqWcmUndoUndoConfigProperties.getPropertyMappings();
-        System.assertEquals('cqWcmUndoEnabled', propertyMappings.get('cq.wcm.undo.enabled'));
-        System.assertEquals('cqWcmUndoPath', propertyMappings.get('cq.wcm.undo.path'));
-        System.assertEquals('cqWcmUndoValidity', propertyMappings.get('cq.wcm.undo.validity'));
-        System.assertEquals('cqWcmUndoSteps', propertyMappings.get('cq.wcm.undo.steps'));
-        System.assertEquals('cqWcmUndoPersistence', propertyMappings.get('cq.wcm.undo.persistence'));
-        System.assertEquals('cqWcmUndoPersistenceMode', propertyMappings.get('cq.wcm.undo.persistence.mode'));
-        System.assertEquals('cqWcmUndoMarkermode', propertyMappings.get('cq.wcm.undo.markermode'));
-        System.assertEquals('cqWcmUndoWhitelist', propertyMappings.get('cq.wcm.undo.whitelist'));
-        System.assertEquals('cqWcmUndoBlacklist', propertyMappings.get('cq.wcm.undo.blacklist'));
+        Map<String, String> x-property-mappings = comDayCqWcmUndoUndoConfigProperties.getx-property-mappings();
+        System.assertEquals('cqWcmUndoEnabled', x-property-mappings.get('cq.wcm.undo.enabled'));
+        System.assertEquals('cqWcmUndoPath', x-property-mappings.get('cq.wcm.undo.path'));
+        System.assertEquals('cqWcmUndoValidity', x-property-mappings.get('cq.wcm.undo.validity'));
+        System.assertEquals('cqWcmUndoSteps', x-property-mappings.get('cq.wcm.undo.steps'));
+        System.assertEquals('cqWcmUndoPersistence', x-property-mappings.get('cq.wcm.undo.persistence'));
+        System.assertEquals('cqWcmUndoPersistenceMode', x-property-mappings.get('cq.wcm.undo.persistence.mode'));
+        System.assertEquals('cqWcmUndoMarkermode', x-property-mappings.get('cq.wcm.undo.markermode'));
+        System.assertEquals('cqWcmUndoWhitelist', x-property-mappings.get('cq.wcm.undo.whitelist'));
+        System.assertEquals('cqWcmUndoBlacklist', x-property-mappings.get('cq.wcm.undo.blacklist'));
     }
 }

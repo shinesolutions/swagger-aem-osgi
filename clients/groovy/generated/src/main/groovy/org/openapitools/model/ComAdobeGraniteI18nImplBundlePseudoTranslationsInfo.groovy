@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeGraniteI18nImplBundlePseudoTranslationsPro
 
 @Canonical
 class ComAdobeGraniteI18nImplBundlePseudoTranslationsInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteI18nImplBundlePseudoTranslationsProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteI18nImplBundlePseudoTranslationsProperties properties
 }

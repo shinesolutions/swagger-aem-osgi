@@ -1,0 +1,67 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqScreensDeviceImplDeviceServiceProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqScreensDeviceImplDeviceServiceProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComAdobeCqScreensDeviceImplDeviceServiceProperties {
+    title = ComAdobeCqScreensDeviceImplDeviceServiceProperties
+    description = ComAdobeCqScreensDeviceImplDeviceServiceProperties
+    derivedFrom = Root
+    properties {
+        com_adobe_aem_screens_player_pingfrequency {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        com_adobe_aem_screens_device_pasword_specialchars {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        com_adobe_aem_screens_device_pasword_minlowercasechars {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        com_adobe_aem_screens_device_pasword_minuppercasechars {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        com_adobe_aem_screens_device_pasword_minnumberchars {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        com_adobe_aem_screens_device_pasword_minspecialchars {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        com_adobe_aem_screens_device_pasword_minlength {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqScreensDeviceImplDeviceServiceProperties {
+    title = ComAdobeCqScreensDeviceImplDeviceServiceProperties
+    description = ComAdobeCqScreensDeviceImplDeviceServiceProperties
+    implements = openapi_server.resourceTypes.ComAdobeCqScreensDeviceImplDeviceServiceProperties
+
+  }
+}

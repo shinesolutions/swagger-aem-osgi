@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeGraniteAuthOauthImplDefaultTokenValidatorImplInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeGraniteAuthOauthImplDefaultTokenValidatorImplInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComAdobeGraniteAuthOauthImplDefaultTokenValidatorImplProperties = openapi_server.resourceTypes.ComAdobeGraniteAuthOauthImplDefaultTokenValidatorImplProperties
+}
+resourceTypes {
+
+  ComAdobeGraniteAuthOauthImplDefaultTokenValidatorImplInfo {
+    title = ComAdobeGraniteAuthOauthImplDefaultTokenValidatorImplInfo
+    description = ComAdobeGraniteAuthOauthImplDefaultTokenValidatorImplInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComAdobeGraniteAuthOauthImplDefaultTokenValidatorImplProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeGraniteAuthOauthImplDefaultTokenValidatorImplInfo {
+    title = ComAdobeGraniteAuthOauthImplDefaultTokenValidatorImplInfo
+    description = ComAdobeGraniteAuthOauthImplDefaultTokenValidatorImplInfo
+    implements = openapi_server.resourceTypes.ComAdobeGraniteAuthOauthImplDefaultTokenValidatorImplInfo
+
+  }
+}

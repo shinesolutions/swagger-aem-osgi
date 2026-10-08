@@ -1,33 +1,34 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.OrgApacheSlingServiceusermappingImplServiceUserMapperImplAmendedProperties;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
 import io.swagger.annotations.ApiModelProperty;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlType;
-import javax.xml.bind.annotation.XmlEnum;
-import javax.xml.bind.annotation.XmlEnumValue;
+import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
 
 public class OrgApacheSlingServiceusermappingImplServiceUserMapperImplAmendedInfo  {
   
   @ApiModelProperty(value = "")
-  private String pid = null;
+
+  private String pid;
 
   @ApiModelProperty(value = "")
-  private String title = null;
+
+  private String title;
 
   @ApiModelProperty(value = "")
-  private String description = null;
+
+  private String description;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private OrgApacheSlingServiceusermappingImplServiceUserMapperImplAmendedProperties properties = null;
+
+  private OrgApacheSlingServiceusermappingImplServiceUserMapperImplAmendedProperties properties;
  /**
    * Get pid
    * @return pid
@@ -100,6 +101,25 @@ public class OrgApacheSlingServiceusermappingImplServiceUserMapperImplAmendedInf
     return this;
   }
 
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    OrgApacheSlingServiceusermappingImplServiceUserMapperImplAmendedInfo orgApacheSlingServiceusermappingImplServiceUserMapperImplAmendedInfo = (OrgApacheSlingServiceusermappingImplServiceUserMapperImplAmendedInfo) o;
+    return Objects.equals(this.pid, orgApacheSlingServiceusermappingImplServiceUserMapperImplAmendedInfo.pid) &&
+        Objects.equals(this.title, orgApacheSlingServiceusermappingImplServiceUserMapperImplAmendedInfo.title) &&
+        Objects.equals(this.description, orgApacheSlingServiceusermappingImplServiceUserMapperImplAmendedInfo.description) &&
+        Objects.equals(this.properties, orgApacheSlingServiceusermappingImplServiceUserMapperImplAmendedInfo.properties);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(pid, title, description, properties);
+  }
 
   @Override
   public String toString() {
@@ -118,11 +138,8 @@ public class OrgApacheSlingServiceusermappingImplServiceUserMapperImplAmendedInf
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private static String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

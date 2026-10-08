@@ -1,22 +1,33 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comDayCqWcmMsmImplActionsPageMoveActionFactoryProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqWcmMsmImplActionsPageMoveActionFactoryProperties   {
-  
-  private @Valid ConfigNodePropertyArray cqWcmMsmActionExcludednodetypes = null;
-  private @Valid ConfigNodePropertyArray cqWcmMsmActionExcludedparagraphitems = null;
-  private @Valid ConfigNodePropertyArray cqWcmMsmActionExcludedprops = null;
-  private @Valid ConfigNodePropertyBoolean cqWcmMsmImplActionsPagemovePropReferenceUpdate = null;
+  private ConfigNodePropertyArray cqWcmMsmActionExcludednodetypes;
+  private ConfigNodePropertyArray cqWcmMsmActionExcludedparagraphitems;
+  private ConfigNodePropertyArray cqWcmMsmActionExcludedprops;
+  private ConfigNodePropertyBoolean cqWcmMsmImplActionsPagemovePropReferenceUpdate;
+
+  public ComDayCqWcmMsmImplActionsPageMoveActionFactoryProperties() {
+  }
 
   /**
    **/
@@ -28,9 +39,11 @@ public class ComDayCqWcmMsmImplActionsPageMoveActionFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("cq.wcm.msm.action.excludednodetypes")
-  public ConfigNodePropertyArray getCqWcmMsmActionExcludednodetypes() {
+  @Valid public ConfigNodePropertyArray getCqWcmMsmActionExcludednodetypes() {
     return cqWcmMsmActionExcludednodetypes;
   }
+
+  @JsonProperty("cq.wcm.msm.action.excludednodetypes")
   public void setCqWcmMsmActionExcludednodetypes(ConfigNodePropertyArray cqWcmMsmActionExcludednodetypes) {
     this.cqWcmMsmActionExcludednodetypes = cqWcmMsmActionExcludednodetypes;
   }
@@ -45,9 +58,11 @@ public class ComDayCqWcmMsmImplActionsPageMoveActionFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("cq.wcm.msm.action.excludedparagraphitems")
-  public ConfigNodePropertyArray getCqWcmMsmActionExcludedparagraphitems() {
+  @Valid public ConfigNodePropertyArray getCqWcmMsmActionExcludedparagraphitems() {
     return cqWcmMsmActionExcludedparagraphitems;
   }
+
+  @JsonProperty("cq.wcm.msm.action.excludedparagraphitems")
   public void setCqWcmMsmActionExcludedparagraphitems(ConfigNodePropertyArray cqWcmMsmActionExcludedparagraphitems) {
     this.cqWcmMsmActionExcludedparagraphitems = cqWcmMsmActionExcludedparagraphitems;
   }
@@ -62,9 +77,11 @@ public class ComDayCqWcmMsmImplActionsPageMoveActionFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("cq.wcm.msm.action.excludedprops")
-  public ConfigNodePropertyArray getCqWcmMsmActionExcludedprops() {
+  @Valid public ConfigNodePropertyArray getCqWcmMsmActionExcludedprops() {
     return cqWcmMsmActionExcludedprops;
   }
+
+  @JsonProperty("cq.wcm.msm.action.excludedprops")
   public void setCqWcmMsmActionExcludedprops(ConfigNodePropertyArray cqWcmMsmActionExcludedprops) {
     this.cqWcmMsmActionExcludedprops = cqWcmMsmActionExcludedprops;
   }
@@ -79,16 +96,18 @@ public class ComDayCqWcmMsmImplActionsPageMoveActionFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("cq.wcm.msm.impl.actions.pagemove.prop_referenceUpdate")
-  public ConfigNodePropertyBoolean getCqWcmMsmImplActionsPagemovePropReferenceUpdate() {
+  @Valid public ConfigNodePropertyBoolean getCqWcmMsmImplActionsPagemovePropReferenceUpdate() {
     return cqWcmMsmImplActionsPagemovePropReferenceUpdate;
   }
+
+  @JsonProperty("cq.wcm.msm.impl.actions.pagemove.prop_referenceUpdate")
   public void setCqWcmMsmImplActionsPagemovePropReferenceUpdate(ConfigNodePropertyBoolean cqWcmMsmImplActionsPagemovePropReferenceUpdate) {
     this.cqWcmMsmImplActionsPagemovePropReferenceUpdate = cqWcmMsmImplActionsPagemovePropReferenceUpdate;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -96,10 +115,10 @@ public class ComDayCqWcmMsmImplActionsPageMoveActionFactoryProperties   {
       return false;
     }
     ComDayCqWcmMsmImplActionsPageMoveActionFactoryProperties comDayCqWcmMsmImplActionsPageMoveActionFactoryProperties = (ComDayCqWcmMsmImplActionsPageMoveActionFactoryProperties) o;
-    return Objects.equals(cqWcmMsmActionExcludednodetypes, comDayCqWcmMsmImplActionsPageMoveActionFactoryProperties.cqWcmMsmActionExcludednodetypes) &&
-        Objects.equals(cqWcmMsmActionExcludedparagraphitems, comDayCqWcmMsmImplActionsPageMoveActionFactoryProperties.cqWcmMsmActionExcludedparagraphitems) &&
-        Objects.equals(cqWcmMsmActionExcludedprops, comDayCqWcmMsmImplActionsPageMoveActionFactoryProperties.cqWcmMsmActionExcludedprops) &&
-        Objects.equals(cqWcmMsmImplActionsPagemovePropReferenceUpdate, comDayCqWcmMsmImplActionsPageMoveActionFactoryProperties.cqWcmMsmImplActionsPagemovePropReferenceUpdate);
+    return Objects.equals(this.cqWcmMsmActionExcludednodetypes, comDayCqWcmMsmImplActionsPageMoveActionFactoryProperties.cqWcmMsmActionExcludednodetypes) &&
+        Objects.equals(this.cqWcmMsmActionExcludedparagraphitems, comDayCqWcmMsmImplActionsPageMoveActionFactoryProperties.cqWcmMsmActionExcludedparagraphitems) &&
+        Objects.equals(this.cqWcmMsmActionExcludedprops, comDayCqWcmMsmImplActionsPageMoveActionFactoryProperties.cqWcmMsmActionExcludedprops) &&
+        Objects.equals(this.cqWcmMsmImplActionsPagemovePropReferenceUpdate, comDayCqWcmMsmImplActionsPageMoveActionFactoryProperties.cqWcmMsmImplActionsPagemovePropReferenceUpdate);
   }
 
   @Override
@@ -124,11 +143,9 @@ public class ComDayCqWcmMsmImplActionsPageMoveActionFactoryProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

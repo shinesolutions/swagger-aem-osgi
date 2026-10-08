@@ -7,18 +7,18 @@ import org.openapitools.model.ComDayCqWcmCoreImplAuthoringUIModeServiceImplPrope
 
 @Canonical
 class ComDayCqWcmCoreImplAuthoringUIModeServiceImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqWcmCoreImplAuthoringUIModeServiceImplProperties properties = null
-
-    String additionalProperties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqWcmCoreImplAuthoringUIModeServiceImplProperties properties
+    
+    String additionalProperties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

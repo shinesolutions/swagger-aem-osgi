@@ -1,30 +1,41 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComAdobeFormsCommonServletTempCleanUpTaskProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComAdobeFormsCommonServletTempCleanUpTaskProperties   {
-  @JsonProperty("scheduler.expression")
-  private ConfigNodePropertyString schedulerExpression = null;
+@JsonTypeName("comAdobeFormsCommonServletTempCleanUpTaskProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComAdobeFormsCommonServletTempCleanUpTaskProperties {
 
-  @JsonProperty("Duration for Temporary Storage")
-  private ConfigNodePropertyString durationForTemporaryStorage = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString schedulerExpression;
 
-  @JsonProperty("Duration for Anonymous Storage")
-  private ConfigNodePropertyString durationForAnonymousStorage = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString durationForTemporaryStorage;
 
-  public ComAdobeFormsCommonServletTempCleanUpTaskProperties schedulerExpression(ConfigNodePropertyString schedulerExpression) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString durationForAnonymousStorage;
+
+  public ComAdobeFormsCommonServletTempCleanUpTaskProperties schedulerExpression(@Nullable ConfigNodePropertyString schedulerExpression) {
     this.schedulerExpression = schedulerExpression;
     return this;
   }
@@ -32,20 +43,20 @@ public class ComAdobeFormsCommonServletTempCleanUpTaskProperties   {
   /**
    * Get schedulerExpression
    * @return schedulerExpression
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getSchedulerExpression() {
+   */
+  @Valid 
+  @Schema(name = "scheduler.expression", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("scheduler.expression")
+  public @Nullable ConfigNodePropertyString getSchedulerExpression() {
     return schedulerExpression;
   }
 
-  public void setSchedulerExpression(ConfigNodePropertyString schedulerExpression) {
+  @JsonProperty("scheduler.expression")
+  public void setSchedulerExpression(@Nullable ConfigNodePropertyString schedulerExpression) {
     this.schedulerExpression = schedulerExpression;
   }
 
-  public ComAdobeFormsCommonServletTempCleanUpTaskProperties durationForTemporaryStorage(ConfigNodePropertyString durationForTemporaryStorage) {
+  public ComAdobeFormsCommonServletTempCleanUpTaskProperties durationForTemporaryStorage(@Nullable ConfigNodePropertyString durationForTemporaryStorage) {
     this.durationForTemporaryStorage = durationForTemporaryStorage;
     return this;
   }
@@ -53,20 +64,20 @@ public class ComAdobeFormsCommonServletTempCleanUpTaskProperties   {
   /**
    * Get durationForTemporaryStorage
    * @return durationForTemporaryStorage
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getDurationForTemporaryStorage() {
+   */
+  @Valid 
+  @Schema(name = "Duration for Temporary Storage", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("Duration for Temporary Storage")
+  public @Nullable ConfigNodePropertyString getDurationForTemporaryStorage() {
     return durationForTemporaryStorage;
   }
 
-  public void setDurationForTemporaryStorage(ConfigNodePropertyString durationForTemporaryStorage) {
+  @JsonProperty("Duration for Temporary Storage")
+  public void setDurationForTemporaryStorage(@Nullable ConfigNodePropertyString durationForTemporaryStorage) {
     this.durationForTemporaryStorage = durationForTemporaryStorage;
   }
 
-  public ComAdobeFormsCommonServletTempCleanUpTaskProperties durationForAnonymousStorage(ConfigNodePropertyString durationForAnonymousStorage) {
+  public ComAdobeFormsCommonServletTempCleanUpTaskProperties durationForAnonymousStorage(@Nullable ConfigNodePropertyString durationForAnonymousStorage) {
     this.durationForAnonymousStorage = durationForAnonymousStorage;
     return this;
   }
@@ -74,22 +85,21 @@ public class ComAdobeFormsCommonServletTempCleanUpTaskProperties   {
   /**
    * Get durationForAnonymousStorage
    * @return durationForAnonymousStorage
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getDurationForAnonymousStorage() {
+   */
+  @Valid 
+  @Schema(name = "Duration for Anonymous Storage", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("Duration for Anonymous Storage")
+  public @Nullable ConfigNodePropertyString getDurationForAnonymousStorage() {
     return durationForAnonymousStorage;
   }
 
-  public void setDurationForAnonymousStorage(ConfigNodePropertyString durationForAnonymousStorage) {
+  @JsonProperty("Duration for Anonymous Storage")
+  public void setDurationForAnonymousStorage(@Nullable ConfigNodePropertyString durationForAnonymousStorage) {
     this.durationForAnonymousStorage = durationForAnonymousStorage;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -111,7 +121,6 @@ public class ComAdobeFormsCommonServletTempCleanUpTaskProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComAdobeFormsCommonServletTempCleanUpTaskProperties {\n");
-    
     sb.append("    schedulerExpression: ").append(toIndentedString(schedulerExpression)).append("\n");
     sb.append("    durationForTemporaryStorage: ").append(toIndentedString(durationForTemporaryStorage)).append("\n");
     sb.append("    durationForAnonymousStorage: ").append(toIndentedString(durationForAnonymousStorage)).append("\n");
@@ -123,11 +132,8 @@ public class ComAdobeFormsCommonServletTempCleanUpTaskProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

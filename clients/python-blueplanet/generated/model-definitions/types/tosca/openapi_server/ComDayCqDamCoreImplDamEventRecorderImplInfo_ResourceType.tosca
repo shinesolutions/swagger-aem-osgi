@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqDamCoreImplDamEventRecorderImplInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqDamCoreImplDamEventRecorderImplInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComDayCqDamCoreImplDamEventRecorderImplProperties = openapi_server.resourceTypes.ComDayCqDamCoreImplDamEventRecorderImplProperties
+}
+resourceTypes {
+
+  ComDayCqDamCoreImplDamEventRecorderImplInfo {
+    title = ComDayCqDamCoreImplDamEventRecorderImplInfo
+    description = ComDayCqDamCoreImplDamEventRecorderImplInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComDayCqDamCoreImplDamEventRecorderImplProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqDamCoreImplDamEventRecorderImplInfo {
+    title = ComDayCqDamCoreImplDamEventRecorderImplInfo
+    description = ComDayCqDamCoreImplDamEventRecorderImplInfo
+    implements = openapi_server.resourceTypes.ComDayCqDamCoreImplDamEventRecorderImplInfo
+
+  }
+}

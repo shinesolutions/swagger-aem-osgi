@@ -72,8 +72,8 @@ private class OASComDayCqDamCoreImplUnzipUnzipConfTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqDamCoreImplUnzipUnzipConf comDayCqDamCoreImplUnzipUnzipConfigProperties = new OASComDayCqDamCoreImplUnzipUnzipConf();
-        Map<String, String> propertyMappings = comDayCqDamCoreImplUnzipUnzipConfigProperties.getPropertyMappings();
-        System.assertEquals('cqDamConfigUnzipMaxuncompressedsize', propertyMappings.get('cq.dam.config.unzip.maxuncompressedsize'));
-        System.assertEquals('cqDamConfigUnzipEncoding', propertyMappings.get('cq.dam.config.unzip.encoding'));
+        Map<String, String> x-property-mappings = comDayCqDamCoreImplUnzipUnzipConfigProperties.getx-property-mappings();
+        System.assertEquals('cqDamConfigUnzipMaxuncompressedsize', x-property-mappings.get('cq.dam.config.unzip.maxuncompressedsize'));
+        System.assertEquals('cqDamConfigUnzipEncoding', x-property-mappings.get('cq.dam.config.unzip.encoding'));
     }
 }

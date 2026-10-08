@@ -1,7 +1,9 @@
 
+
 # ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **cqDamS7damVideoproxyclientserviceMultipartuploadMinsizeName** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
@@ -11,6 +13,7 @@ Name | Type | Description | Notes
 **cqDamS7damVideoproxyclientserviceHttpConnectiontimeoutName** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
 **cqDamS7damVideoproxyclientserviceHttpMaxretrycountName** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
 **cqDamS7damVideoproxyclientserviceUploadprogressIntervalName** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
+
 
 
 

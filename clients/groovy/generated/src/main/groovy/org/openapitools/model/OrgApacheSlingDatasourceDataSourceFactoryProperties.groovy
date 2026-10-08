@@ -11,62 +11,62 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class OrgApacheSlingDatasourceDataSourceFactoryProperties {
-    ConfigNodePropertyString datasourceName = null
-
-    ConfigNodePropertyString datasourceSvcPropName = null
-
-    ConfigNodePropertyString driverClassName = null
-
-    ConfigNodePropertyString url = null
-
-    ConfigNodePropertyString username = null
-
-    ConfigNodePropertyString password = null
-
-    ConfigNodePropertyDropDown defaultAutoCommit = null
-
-    ConfigNodePropertyDropDown defaultReadOnly = null
-
-    ConfigNodePropertyDropDown defaultTransactionIsolation = null
-
-    ConfigNodePropertyString defaultCatalog = null
-
-    ConfigNodePropertyInteger maxActive = null
-
-    ConfigNodePropertyInteger maxIdle = null
-
-    ConfigNodePropertyInteger minIdle = null
-
-    ConfigNodePropertyInteger initialSize = null
-
-    ConfigNodePropertyInteger maxWait = null
-
-    ConfigNodePropertyInteger maxAge = null
-
-    ConfigNodePropertyBoolean testOnBorrow = null
-
-    ConfigNodePropertyBoolean testOnReturn = null
-
-    ConfigNodePropertyBoolean testWhileIdle = null
-
-    ConfigNodePropertyString validationQuery = null
-
-    ConfigNodePropertyInteger validationQueryTimeout = null
-
-    ConfigNodePropertyInteger timeBetweenEvictionRunsMillis = null
-
-    ConfigNodePropertyInteger minEvictableIdleTimeMillis = null
-
-    ConfigNodePropertyString connectionProperties = null
-
-    ConfigNodePropertyString initSQL = null
-
-    ConfigNodePropertyString jdbcInterceptors = null
-
-    ConfigNodePropertyInteger validationInterval = null
-
-    ConfigNodePropertyBoolean logValidationErrors = null
-
-    ConfigNodePropertyArray datasourceSvcProperties = null
-
+    
+    ConfigNodePropertyString datasourceName
+    
+    ConfigNodePropertyString datasourceSvcPropName
+    
+    ConfigNodePropertyString driverClassName
+    
+    ConfigNodePropertyString url
+    
+    ConfigNodePropertyString username
+    
+    ConfigNodePropertyString password
+    
+    ConfigNodePropertyDropDown defaultAutoCommit
+    
+    ConfigNodePropertyDropDown defaultReadOnly
+    
+    ConfigNodePropertyDropDown defaultTransactionIsolation
+    
+    ConfigNodePropertyString defaultCatalog
+    
+    ConfigNodePropertyInteger maxActive
+    
+    ConfigNodePropertyInteger maxIdle
+    
+    ConfigNodePropertyInteger minIdle
+    
+    ConfigNodePropertyInteger initialSize
+    
+    ConfigNodePropertyInteger maxWait
+    
+    ConfigNodePropertyInteger maxAge
+    
+    ConfigNodePropertyBoolean testOnBorrow
+    
+    ConfigNodePropertyBoolean testOnReturn
+    
+    ConfigNodePropertyBoolean testWhileIdle
+    
+    ConfigNodePropertyString validationQuery
+    
+    ConfigNodePropertyInteger validationQueryTimeout
+    
+    ConfigNodePropertyInteger timeBetweenEvictionRunsMillis
+    
+    ConfigNodePropertyInteger minEvictableIdleTimeMillis
+    
+    ConfigNodePropertyString connectionProperties
+    
+    ConfigNodePropertyString initSQL
+    
+    ConfigNodePropertyString jdbcInterceptors
+    
+    ConfigNodePropertyInteger validationInterval
+    
+    ConfigNodePropertyBoolean logValidationErrors
+    
+    ConfigNodePropertyArray datasourceSvcProperties
 }

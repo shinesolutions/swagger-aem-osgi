@@ -7,10 +7,10 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeCqSocialUserEndpointsImplUsersGroupFromPublishServletProperties {
-    ConfigNodePropertyString slingServletExtensions = null
-
-    ConfigNodePropertyString slingServletPaths = null
-
-    ConfigNodePropertyString slingServletMethods = null
-
+    
+    ConfigNodePropertyString slingServletExtensions
+    
+    ConfigNodePropertyString slingServletPaths
+    
+    ConfigNodePropertyString slingServletMethods
 }

@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyArray;
 
 @Canonical
 class ComAdobeCqWcmMobileQrcodeServletQRCodeImageGeneratorProperties {
-    ConfigNodePropertyArray cqWcmQrcodeServletWhitelist = null
-
+    
+    ConfigNodePropertyArray cqWcmQrcodeServletWhitelist
 }

@@ -7,12 +7,12 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeXmpWorkerFilesNcommXMPFilesNCommProperties {
-    ConfigNodePropertyString maxConnections = null
-
-    ConfigNodePropertyString maxRequests = null
-
-    ConfigNodePropertyString requestTimeout = null
-
-    ConfigNodePropertyString logDir = null
-
+    
+    ConfigNodePropertyString maxConnections
+    
+    ConfigNodePropertyString maxRequests
+    
+    ConfigNodePropertyString requestTimeout
+    
+    ConfigNodePropertyString logDir
 }

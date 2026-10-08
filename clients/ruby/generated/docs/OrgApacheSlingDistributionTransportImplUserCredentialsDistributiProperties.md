@@ -2,20 +2,21 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**name** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
-**username** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
-**password** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **name** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] |
+| **username** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] |
+| **password** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::OrgApacheSlingDistributionTransportImplUserCredentialsDistributiProperties.new(name: null,
-                                 username: null,
-                                 password: null)
+instance = SwaggerAemOsgiClient::OrgApacheSlingDistributionTransportImplUserCredentialsDistributiProperties.new(
+  name: null,
+  username: null,
+  password: null
+)
 ```
-
 

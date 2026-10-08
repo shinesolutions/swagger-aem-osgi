@@ -1,3 +1,13 @@
+/*
+ * Adobe Experience Manager OSGI config (AEM) API
+ *
+ * Swagger AEM OSGI is an OpenAPI specification for Adobe Experience Manager (AEM) OSGI Configurations API
+ *
+ * OpenAPI document version: 1.0.0-pre.0
+ * Maintained by: opensource@shinesolutions.com
+ *
+ * AUTO-GENERATED FILE, DO NOT MODIFY!
+ */
 package org.openapitools.model;
 
 import java.util.Objects;
@@ -13,18 +23,18 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2019-08-05T00:56:20.785Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2026-10-07T12:53:42.280804918Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerProperties   {
   
-  private ConfigNodePropertyString path = null;
-  private ConfigNodePropertyArray oauthClientIdsAllowed = null;
-  private ConfigNodePropertyBoolean authBearerSyncIms = null;
-  private ConfigNodePropertyString authTokenRequestParameter = null;
-  private ConfigNodePropertyString oauthBearerConfigid = null;
-  private ConfigNodePropertyBoolean oauthJwtSupport = null;
+  private ConfigNodePropertyString path;
+  private ConfigNodePropertyArray oauthClientIdsAllowed;
+  private ConfigNodePropertyBoolean authBearerSyncIms;
+  private ConfigNodePropertyString authTokenRequestParameter;
+  private ConfigNodePropertyString oauthBearerConfigid;
+  private ConfigNodePropertyBoolean oauthJwtSupport;
 
   /**
-   **/
+   */
   public ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerProperties path(ConfigNodePropertyString path) {
     this.path = path;
     return this;
@@ -41,7 +51,7 @@ public class ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerProperties  
   }
 
   /**
-   **/
+   */
   public ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerProperties oauthClientIdsAllowed(ConfigNodePropertyArray oauthClientIdsAllowed) {
     this.oauthClientIdsAllowed = oauthClientIdsAllowed;
     return this;
@@ -58,7 +68,7 @@ public class ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerProperties  
   }
 
   /**
-   **/
+   */
   public ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerProperties authBearerSyncIms(ConfigNodePropertyBoolean authBearerSyncIms) {
     this.authBearerSyncIms = authBearerSyncIms;
     return this;
@@ -75,7 +85,7 @@ public class ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerProperties  
   }
 
   /**
-   **/
+   */
   public ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerProperties authTokenRequestParameter(ConfigNodePropertyString authTokenRequestParameter) {
     this.authTokenRequestParameter = authTokenRequestParameter;
     return this;
@@ -92,7 +102,7 @@ public class ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerProperties  
   }
 
   /**
-   **/
+   */
   public ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerProperties oauthBearerConfigid(ConfigNodePropertyString oauthBearerConfigid) {
     this.oauthBearerConfigid = oauthBearerConfigid;
     return this;
@@ -109,7 +119,7 @@ public class ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerProperties  
   }
 
   /**
-   **/
+   */
   public ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerProperties oauthJwtSupport(ConfigNodePropertyBoolean oauthJwtSupport) {
     this.oauthJwtSupport = oauthJwtSupport;
     return this;
@@ -127,7 +137,7 @@ public class ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerProperties  
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -167,11 +177,8 @@ public class ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerProperties  
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

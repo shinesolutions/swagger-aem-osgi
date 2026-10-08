@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqCommercePimImplProductfeedProductFeedSer
 
 @Canonical
 class ComAdobeCqCommercePimImplProductfeedProductFeedServiceImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqCommercePimImplProductfeedProductFeedServiceImplProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqCommercePimImplProductfeedProductFeedServiceImplProperties properties
 }

@@ -7,12 +7,12 @@ import org.openapitools.model.OrgApacheSlingJcrBaseInternalLoginAdminWhitelistFr
 
 @Canonical
 class OrgApacheSlingJcrBaseInternalLoginAdminWhitelistFragmentInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheSlingJcrBaseInternalLoginAdminWhitelistFragmentProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheSlingJcrBaseInternalLoginAdminWhitelistFragmentProperties properties
 }

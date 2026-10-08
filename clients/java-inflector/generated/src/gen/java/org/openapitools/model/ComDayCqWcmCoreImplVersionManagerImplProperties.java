@@ -3,6 +3,7 @@ package org.openapitools.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
@@ -13,28 +14,28 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaInflectorServerCodegen", date = "2019-08-05T00:53:46.291Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaInflectorServerCodegen", date = "2026-10-07T12:53:12.340274163Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqWcmCoreImplVersionManagerImplProperties   {
   @JsonProperty("versionmanager.createVersionOnActivation")
-  private ConfigNodePropertyBoolean versionmanagerCreateVersionOnActivation = null;
+  private ConfigNodePropertyBoolean versionmanagerCreateVersionOnActivation;
 
   @JsonProperty("versionmanager.purgingEnabled")
-  private ConfigNodePropertyBoolean versionmanagerPurgingEnabled = null;
+  private ConfigNodePropertyBoolean versionmanagerPurgingEnabled;
 
   @JsonProperty("versionmanager.purgePaths")
-  private ConfigNodePropertyArray versionmanagerPurgePaths = null;
+  private ConfigNodePropertyArray versionmanagerPurgePaths;
 
   @JsonProperty("versionmanager.ivPaths")
-  private ConfigNodePropertyArray versionmanagerIvPaths = null;
+  private ConfigNodePropertyArray versionmanagerIvPaths;
 
   @JsonProperty("versionmanager.maxAgeDays")
-  private ConfigNodePropertyInteger versionmanagerMaxAgeDays = null;
+  private ConfigNodePropertyInteger versionmanagerMaxAgeDays;
 
   @JsonProperty("versionmanager.maxNumberVersions")
-  private ConfigNodePropertyInteger versionmanagerMaxNumberVersions = null;
+  private ConfigNodePropertyInteger versionmanagerMaxNumberVersions;
 
   @JsonProperty("versionmanager.minNumberVersions")
-  private ConfigNodePropertyInteger versionmanagerMinNumberVersions = null;
+  private ConfigNodePropertyInteger versionmanagerMinNumberVersions;
 
   /**
    **/
@@ -157,7 +158,7 @@ public class ComDayCqWcmCoreImplVersionManagerImplProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -199,11 +200,8 @@ public class ComDayCqWcmCoreImplVersionManagerImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

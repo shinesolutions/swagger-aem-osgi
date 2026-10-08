@@ -1,6 +1,7 @@
 # NodeSwaggerAemOsgi.ComDayCqDamCoreImplMissingMetadataNotificationJobProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **cqDamMissingmetadataNotificationSchedulerIstimebased** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] 

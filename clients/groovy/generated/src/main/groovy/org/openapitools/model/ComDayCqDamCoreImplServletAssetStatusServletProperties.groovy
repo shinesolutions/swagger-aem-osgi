@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class ComDayCqDamCoreImplServletAssetStatusServletProperties {
-    ConfigNodePropertyInteger cqDamBatchStatusMaxassets = null
-
+    
+    ConfigNodePropertyInteger cqDamBatchStatusMaxassets
 }

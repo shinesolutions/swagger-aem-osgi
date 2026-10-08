@@ -10,22 +10,22 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeGraniteThreaddumpThreadDumpCollectorProperties {
-    ConfigNodePropertyInteger schedulerPeriod = null
-
-    ConfigNodePropertyDropDown schedulerRunOn = null
-
-    ConfigNodePropertyBoolean graniteThreaddumpEnabled = null
-
-    ConfigNodePropertyInteger graniteThreaddumpDumpsPerFile = null
-
-    ConfigNodePropertyBoolean graniteThreaddumpEnableGzipCompression = null
-
-    ConfigNodePropertyBoolean graniteThreaddumpEnableDirectoriesCompression = null
-
-    ConfigNodePropertyBoolean graniteThreaddumpEnableJStack = null
-
-    ConfigNodePropertyInteger graniteThreaddumpMaxBackupDays = null
-
-    ConfigNodePropertyString graniteThreaddumpBackupCleanTrigger = null
-
+    
+    ConfigNodePropertyInteger schedulerPeriod
+    
+    ConfigNodePropertyDropDown schedulerRunOn
+    
+    ConfigNodePropertyBoolean graniteThreaddumpEnabled
+    
+    ConfigNodePropertyInteger graniteThreaddumpDumpsPerFile
+    
+    ConfigNodePropertyBoolean graniteThreaddumpEnableGzipCompression
+    
+    ConfigNodePropertyBoolean graniteThreaddumpEnableDirectoriesCompression
+    
+    ConfigNodePropertyBoolean graniteThreaddumpEnableJStack
+    
+    ConfigNodePropertyInteger graniteThreaddumpMaxBackupDays
+    
+    ConfigNodePropertyString graniteThreaddumpBackupCleanTrigger
 }

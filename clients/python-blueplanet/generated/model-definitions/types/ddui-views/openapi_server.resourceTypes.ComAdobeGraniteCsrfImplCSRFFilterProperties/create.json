@@ -1,0 +1,20 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "filter_methods" },
+      {"model": "filter_enable_safe_user_agents" },
+      {"model": "filter_safe_user_agents" },
+      {"model": "filter_excluded_paths" },
+    ]
+  }]
+}

@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeGraniteWorkflowCoreJobExternalProcessJobHa
 
 @Canonical
 class ComAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerProperties properties
 }

@@ -8,8 +8,8 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeCqUpgradesCleanupImplUpgradeContentCleanupProperties {
-    ConfigNodePropertyArray deletePathRegexps = null
-
-    ConfigNodePropertyString deleteSql2Query = null
-
+    
+    ConfigNodePropertyArray deletePathRegexps
+    
+    ConfigNodePropertyString deleteSql2Query
 }

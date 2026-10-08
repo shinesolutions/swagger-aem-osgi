@@ -72,11 +72,11 @@ private class OASOrgApacheSlingSecurityImplReferreTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASOrgApacheSlingSecurityImplReferre orgApacheSlingSecurityImplReferrerFilterProperties = new OASOrgApacheSlingSecurityImplReferre();
-        Map<String, String> propertyMappings = orgApacheSlingSecurityImplReferrerFilterProperties.getPropertyMappings();
-        System.assertEquals('allowEmpty', propertyMappings.get('allow.empty'));
-        System.assertEquals('allowHosts', propertyMappings.get('allow.hosts'));
-        System.assertEquals('allowHostsRegexp', propertyMappings.get('allow.hosts.regexp'));
-        System.assertEquals('filterMethods', propertyMappings.get('filter.methods'));
-        System.assertEquals('excludeAgentsRegexp', propertyMappings.get('exclude.agents.regexp'));
+        Map<String, String> x-property-mappings = orgApacheSlingSecurityImplReferrerFilterProperties.getx-property-mappings();
+        System.assertEquals('allowEmpty', x-property-mappings.get('allow.empty'));
+        System.assertEquals('allowHosts', x-property-mappings.get('allow.hosts'));
+        System.assertEquals('allowHostsRegexp', x-property-mappings.get('allow.hosts.regexp'));
+        System.assertEquals('filterMethods', x-property-mappings.get('filter.methods'));
+        System.assertEquals('excludeAgentsRegexp', x-property-mappings.get('exclude.agents.regexp'));
     }
 }

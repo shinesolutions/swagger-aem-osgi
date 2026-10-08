@@ -4,28 +4,23 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ComAdobeCqSocialEnablementServicesImplAuthorMarkerImplProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2019-08-05T01:00:05.540Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2026-10-07T12:54:26.576036107Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeCqSocialEnablementServicesImplAuthorMarkerImplInfo   {
   
-
-  private String pid = null;
-
-  private String title = null;
-
-  private String description = null;
-
-  private ComAdobeCqSocialEnablementServicesImplAuthorMarkerImplProperties properties = null;
-
-  private String bundleLocation = null;
-
-  private String serviceLocation = null;
+  private String pid;
+  private String title;
+  private String description;
+  private ComAdobeCqSocialEnablementServicesImplAuthorMarkerImplProperties properties;
+  private String bundleLocation;
+  private String serviceLocation;
 
   /**
    **/
@@ -109,12 +104,12 @@ public class ComAdobeCqSocialEnablementServicesImplAuthorMarkerImplInfo   {
       return false;
     }
     ComAdobeCqSocialEnablementServicesImplAuthorMarkerImplInfo comAdobeCqSocialEnablementServicesImplAuthorMarkerImplInfo = (ComAdobeCqSocialEnablementServicesImplAuthorMarkerImplInfo) o;
-    return Objects.equals(pid, comAdobeCqSocialEnablementServicesImplAuthorMarkerImplInfo.pid) &&
-        Objects.equals(title, comAdobeCqSocialEnablementServicesImplAuthorMarkerImplInfo.title) &&
-        Objects.equals(description, comAdobeCqSocialEnablementServicesImplAuthorMarkerImplInfo.description) &&
-        Objects.equals(properties, comAdobeCqSocialEnablementServicesImplAuthorMarkerImplInfo.properties) &&
-        Objects.equals(bundleLocation, comAdobeCqSocialEnablementServicesImplAuthorMarkerImplInfo.bundleLocation) &&
-        Objects.equals(serviceLocation, comAdobeCqSocialEnablementServicesImplAuthorMarkerImplInfo.serviceLocation);
+    return Objects.equals(this.pid, comAdobeCqSocialEnablementServicesImplAuthorMarkerImplInfo.pid) &&
+        Objects.equals(this.title, comAdobeCqSocialEnablementServicesImplAuthorMarkerImplInfo.title) &&
+        Objects.equals(this.description, comAdobeCqSocialEnablementServicesImplAuthorMarkerImplInfo.description) &&
+        Objects.equals(this.properties, comAdobeCqSocialEnablementServicesImplAuthorMarkerImplInfo.properties) &&
+        Objects.equals(this.bundleLocation, comAdobeCqSocialEnablementServicesImplAuthorMarkerImplInfo.bundleLocation) &&
+        Objects.equals(this.serviceLocation, comAdobeCqSocialEnablementServicesImplAuthorMarkerImplInfo.serviceLocation);
   }
 
   @Override
@@ -142,10 +137,7 @@ public class ComAdobeCqSocialEnablementServicesImplAuthorMarkerImplInfo   {
    * (except the first line).
    */
   private String toIndentedString(Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

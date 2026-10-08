@@ -2,28 +2,28 @@
 # ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**htmllibmanagerPeriodtiming** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**htmllibmanagerPerioddebugPeriodinitPeriodjs** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**htmllibmanagerPeriodminify** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**htmllibmanagerPerioddebug** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**htmllibmanagerPeriodgzip** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**htmllibmanagerPeriodmaxDataUriSize** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**htmllibmanagerPeriodmaxage** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**htmllibmanagerPeriodforceCQUrlInfo** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**htmllibmanagerPerioddefaultthemename** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**htmllibmanagerPerioddefaultuserthemename** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**htmllibmanagerPeriodclientmanager** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**htmllibmanagerPeriodpathPeriodlist** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**htmllibmanagerPeriodexcludedPeriodpathPeriodlist** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**htmllibmanagerPeriodprocessorPeriodjs** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**htmllibmanagerPeriodprocessorPeriodcss** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**htmllibmanagerPeriodlongcachePeriodpatterns** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**htmllibmanagerPeriodlongcachePeriodformat** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**htmllibmanagerPerioduseFileSystemOutputCache** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**htmllibmanagerPeriodfileSystemOutputCacheLocation** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**htmllibmanagerPerioddisablePeriodreplacement** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **htmllibmanagerTiming** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **htmllibmanagerDebugInitJs** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **htmllibmanagerMinify** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **htmllibmanagerDebug** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **htmllibmanagerGzip** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **htmllibmanagerMaxDataUriSize** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **htmllibmanagerMaxage** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **htmllibmanagerForceCQUrlInfo** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **htmllibmanagerDefaultthemename** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **htmllibmanagerDefaultuserthemename** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **htmllibmanagerClientmanager** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **htmllibmanagerPathList** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **htmllibmanagerExcludedPathList** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **htmllibmanagerProcessorJs** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **htmllibmanagerProcessorCss** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **htmllibmanagerLongcachePatterns** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **htmllibmanagerLongcacheFormat** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **htmllibmanagerUseFileSystemOutputCache** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **htmllibmanagerFileSystemOutputCacheLocation** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **htmllibmanagerDisableReplacement** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
 
 
 

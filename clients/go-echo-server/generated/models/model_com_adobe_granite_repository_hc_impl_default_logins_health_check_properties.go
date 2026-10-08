@@ -1,0 +1,10 @@
+package models
+
+type ComAdobeGraniteRepositoryHcImplDefaultLoginsHealthCheckProperties struct {
+
+	HcTags ConfigNodePropertyArray `json:"hc.tags,omitempty"`
+
+	AccountLogins ConfigNodePropertyArray `json:"account.logins,omitempty"`
+
+	ConsoleLogins ConfigNodePropertyArray `json:"console.logins,omitempty"`
+}

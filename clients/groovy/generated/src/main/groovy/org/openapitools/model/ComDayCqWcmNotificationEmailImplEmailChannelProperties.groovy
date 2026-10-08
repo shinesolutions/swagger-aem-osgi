@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqWcmNotificationEmailImplEmailChannelProperties {
-    ConfigNodePropertyString emailFrom = null
-
+    
+    ConfigNodePropertyString emailFrom
 }

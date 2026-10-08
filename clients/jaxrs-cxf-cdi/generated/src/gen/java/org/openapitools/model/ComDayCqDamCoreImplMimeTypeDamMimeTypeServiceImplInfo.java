@@ -2,27 +2,28 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ComDayCqDamCoreImplMimeTypeDamMimeTypeServiceImplProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class ComDayCqDamCoreImplMimeTypeDamMimeTypeServiceImplInfo   {
   
-  private String pid = null;
+  private String pid;
 
-  private String title = null;
+  private String title;
 
-  private String description = null;
+  private String description;
 
-  private ComDayCqDamCoreImplMimeTypeDamMimeTypeServiceImplProperties properties = null;
-
+  private ComDayCqDamCoreImplMimeTypeDamMimeTypeServiceImplProperties properties;
 
   /**
    **/
@@ -98,7 +99,7 @@ public class ComDayCqDamCoreImplMimeTypeDamMimeTypeServiceImplInfo   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -106,10 +107,10 @@ public class ComDayCqDamCoreImplMimeTypeDamMimeTypeServiceImplInfo   {
       return false;
     }
     ComDayCqDamCoreImplMimeTypeDamMimeTypeServiceImplInfo comDayCqDamCoreImplMimeTypeDamMimeTypeServiceImplInfo = (ComDayCqDamCoreImplMimeTypeDamMimeTypeServiceImplInfo) o;
-    return Objects.equals(pid, comDayCqDamCoreImplMimeTypeDamMimeTypeServiceImplInfo.pid) &&
-        Objects.equals(title, comDayCqDamCoreImplMimeTypeDamMimeTypeServiceImplInfo.title) &&
-        Objects.equals(description, comDayCqDamCoreImplMimeTypeDamMimeTypeServiceImplInfo.description) &&
-        Objects.equals(properties, comDayCqDamCoreImplMimeTypeDamMimeTypeServiceImplInfo.properties);
+    return Objects.equals(this.pid, comDayCqDamCoreImplMimeTypeDamMimeTypeServiceImplInfo.pid) &&
+        Objects.equals(this.title, comDayCqDamCoreImplMimeTypeDamMimeTypeServiceImplInfo.title) &&
+        Objects.equals(this.description, comDayCqDamCoreImplMimeTypeDamMimeTypeServiceImplInfo.description) &&
+        Objects.equals(this.properties, comDayCqDamCoreImplMimeTypeDamMimeTypeServiceImplInfo.properties);
   }
 
   @Override
@@ -134,11 +135,8 @@ public class ComDayCqDamCoreImplMimeTypeDamMimeTypeServiceImplInfo   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

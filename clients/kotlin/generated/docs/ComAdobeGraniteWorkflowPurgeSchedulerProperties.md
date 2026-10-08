@@ -2,12 +2,12 @@
 # ComAdobeGraniteWorkflowPurgeSchedulerProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**scheduledpurgePeriodname** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**scheduledpurgePeriodworkflowStatus** | [**ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md) |  |  [optional]
-**scheduledpurgePeriodmodelIds** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**scheduledpurgePerioddaysold** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **scheduledpurgeName** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **scheduledpurgeWorkflowStatus** | [**ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md) |  |  [optional] |
+| **scheduledpurgeModelIds** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **scheduledpurgeDaysold** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
 
 
 

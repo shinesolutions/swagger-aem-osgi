@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyBoolean;
 
 @Canonical
 class ComAdobeGraniteAnalyzerScriptsCompileAllScriptsCompilerServletProperties {
-    ConfigNodePropertyBoolean disabled = null
-
+    
+    ConfigNodePropertyBoolean disabled
 }

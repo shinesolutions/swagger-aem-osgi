@@ -2,29 +2,38 @@ package apimodels;
 
 import apimodels.ConfigNodePropertyBoolean;
 import apimodels.ConfigNodePropertyString;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryProperties   {
   @JsonProperty("java.classdebuginfo")
-  private ConfigNodePropertyBoolean javaClassdebuginfo = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean javaClassdebuginfo;
 
   @JsonProperty("java.javaEncoding")
-  private ConfigNodePropertyString javaJavaEncoding = null;
+  @Valid
+
+  private ConfigNodePropertyString javaJavaEncoding;
 
   @JsonProperty("java.compilerSourceVM")
-  private ConfigNodePropertyString javaCompilerSourceVM = null;
+  @Valid
+
+  private ConfigNodePropertyString javaCompilerSourceVM;
 
   @JsonProperty("java.compilerTargetVM")
-  private ConfigNodePropertyString javaCompilerTargetVM = null;
+  @Valid
+
+  private ConfigNodePropertyString javaCompilerTargetVM;
 
   public OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryProperties javaClassdebuginfo(ConfigNodePropertyBoolean javaClassdebuginfo) {
     this.javaClassdebuginfo = javaClassdebuginfo;
@@ -35,7 +44,6 @@ public class OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryProperties   
    * Get javaClassdebuginfo
    * @return javaClassdebuginfo
   **/
-  @Valid
   public ConfigNodePropertyBoolean getJavaClassdebuginfo() {
     return javaClassdebuginfo;
   }
@@ -53,7 +61,6 @@ public class OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryProperties   
    * Get javaJavaEncoding
    * @return javaJavaEncoding
   **/
-  @Valid
   public ConfigNodePropertyString getJavaJavaEncoding() {
     return javaJavaEncoding;
   }
@@ -71,7 +78,6 @@ public class OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryProperties   
    * Get javaCompilerSourceVM
    * @return javaCompilerSourceVM
   **/
-  @Valid
   public ConfigNodePropertyString getJavaCompilerSourceVM() {
     return javaCompilerSourceVM;
   }
@@ -89,7 +95,6 @@ public class OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryProperties   
    * Get javaCompilerTargetVM
    * @return javaCompilerTargetVM
   **/
-  @Valid
   public ConfigNodePropertyString getJavaCompilerTargetVM() {
     return javaCompilerTargetVM;
   }
@@ -100,7 +105,7 @@ public class OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryProperties   
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -137,11 +142,8 @@ public class OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryProperties   
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -1,34 +1,45 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComDayCqWcmMobileCoreImplRedirectRedirectFilterProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComDayCqWcmMobileCoreImplRedirectRedirectFilterProperties   {
-  @JsonProperty("redirect.enabled")
-  private ConfigNodePropertyBoolean redirectEnabled = null;
+@JsonTypeName("comDayCqWcmMobileCoreImplRedirectRedirectFilterProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComDayCqWcmMobileCoreImplRedirectRedirectFilterProperties {
 
-  @JsonProperty("redirect.stats.enabled")
-  private ConfigNodePropertyBoolean redirectStatsEnabled = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean redirectEnabled;
 
-  @JsonProperty("redirect.extensions")
-  private ConfigNodePropertyArray redirectExtensions = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean redirectStatsEnabled;
 
-  @JsonProperty("redirect.paths")
-  private ConfigNodePropertyArray redirectPaths = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray redirectExtensions;
 
-  public ComDayCqWcmMobileCoreImplRedirectRedirectFilterProperties redirectEnabled(ConfigNodePropertyBoolean redirectEnabled) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray redirectPaths;
+
+  public ComDayCqWcmMobileCoreImplRedirectRedirectFilterProperties redirectEnabled(@Nullable ConfigNodePropertyBoolean redirectEnabled) {
     this.redirectEnabled = redirectEnabled;
     return this;
   }
@@ -36,20 +47,20 @@ public class ComDayCqWcmMobileCoreImplRedirectRedirectFilterProperties   {
   /**
    * Get redirectEnabled
    * @return redirectEnabled
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getRedirectEnabled() {
+   */
+  @Valid 
+  @Schema(name = "redirect.enabled", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("redirect.enabled")
+  public @Nullable ConfigNodePropertyBoolean getRedirectEnabled() {
     return redirectEnabled;
   }
 
-  public void setRedirectEnabled(ConfigNodePropertyBoolean redirectEnabled) {
+  @JsonProperty("redirect.enabled")
+  public void setRedirectEnabled(@Nullable ConfigNodePropertyBoolean redirectEnabled) {
     this.redirectEnabled = redirectEnabled;
   }
 
-  public ComDayCqWcmMobileCoreImplRedirectRedirectFilterProperties redirectStatsEnabled(ConfigNodePropertyBoolean redirectStatsEnabled) {
+  public ComDayCqWcmMobileCoreImplRedirectRedirectFilterProperties redirectStatsEnabled(@Nullable ConfigNodePropertyBoolean redirectStatsEnabled) {
     this.redirectStatsEnabled = redirectStatsEnabled;
     return this;
   }
@@ -57,20 +68,20 @@ public class ComDayCqWcmMobileCoreImplRedirectRedirectFilterProperties   {
   /**
    * Get redirectStatsEnabled
    * @return redirectStatsEnabled
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getRedirectStatsEnabled() {
+   */
+  @Valid 
+  @Schema(name = "redirect.stats.enabled", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("redirect.stats.enabled")
+  public @Nullable ConfigNodePropertyBoolean getRedirectStatsEnabled() {
     return redirectStatsEnabled;
   }
 
-  public void setRedirectStatsEnabled(ConfigNodePropertyBoolean redirectStatsEnabled) {
+  @JsonProperty("redirect.stats.enabled")
+  public void setRedirectStatsEnabled(@Nullable ConfigNodePropertyBoolean redirectStatsEnabled) {
     this.redirectStatsEnabled = redirectStatsEnabled;
   }
 
-  public ComDayCqWcmMobileCoreImplRedirectRedirectFilterProperties redirectExtensions(ConfigNodePropertyArray redirectExtensions) {
+  public ComDayCqWcmMobileCoreImplRedirectRedirectFilterProperties redirectExtensions(@Nullable ConfigNodePropertyArray redirectExtensions) {
     this.redirectExtensions = redirectExtensions;
     return this;
   }
@@ -78,20 +89,20 @@ public class ComDayCqWcmMobileCoreImplRedirectRedirectFilterProperties   {
   /**
    * Get redirectExtensions
    * @return redirectExtensions
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getRedirectExtensions() {
+   */
+  @Valid 
+  @Schema(name = "redirect.extensions", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("redirect.extensions")
+  public @Nullable ConfigNodePropertyArray getRedirectExtensions() {
     return redirectExtensions;
   }
 
-  public void setRedirectExtensions(ConfigNodePropertyArray redirectExtensions) {
+  @JsonProperty("redirect.extensions")
+  public void setRedirectExtensions(@Nullable ConfigNodePropertyArray redirectExtensions) {
     this.redirectExtensions = redirectExtensions;
   }
 
-  public ComDayCqWcmMobileCoreImplRedirectRedirectFilterProperties redirectPaths(ConfigNodePropertyArray redirectPaths) {
+  public ComDayCqWcmMobileCoreImplRedirectRedirectFilterProperties redirectPaths(@Nullable ConfigNodePropertyArray redirectPaths) {
     this.redirectPaths = redirectPaths;
     return this;
   }
@@ -99,22 +110,21 @@ public class ComDayCqWcmMobileCoreImplRedirectRedirectFilterProperties   {
   /**
    * Get redirectPaths
    * @return redirectPaths
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getRedirectPaths() {
+   */
+  @Valid 
+  @Schema(name = "redirect.paths", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("redirect.paths")
+  public @Nullable ConfigNodePropertyArray getRedirectPaths() {
     return redirectPaths;
   }
 
-  public void setRedirectPaths(ConfigNodePropertyArray redirectPaths) {
+  @JsonProperty("redirect.paths")
+  public void setRedirectPaths(@Nullable ConfigNodePropertyArray redirectPaths) {
     this.redirectPaths = redirectPaths;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -137,7 +147,6 @@ public class ComDayCqWcmMobileCoreImplRedirectRedirectFilterProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComDayCqWcmMobileCoreImplRedirectRedirectFilterProperties {\n");
-    
     sb.append("    redirectEnabled: ").append(toIndentedString(redirectEnabled)).append("\n");
     sb.append("    redirectStatsEnabled: ").append(toIndentedString(redirectStatsEnabled)).append("\n");
     sb.append("    redirectExtensions: ").append(toIndentedString(redirectExtensions)).append("\n");
@@ -150,11 +159,8 @@ public class ComDayCqWcmMobileCoreImplRedirectRedirectFilterProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

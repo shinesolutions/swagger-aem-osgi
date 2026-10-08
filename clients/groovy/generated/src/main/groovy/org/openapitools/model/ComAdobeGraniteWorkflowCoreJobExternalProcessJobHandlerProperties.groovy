@@ -7,10 +7,10 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class ComAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerProperties {
-    ConfigNodePropertyInteger defaultTimeout = null
-
-    ConfigNodePropertyInteger maxTimeout = null
-
-    ConfigNodePropertyInteger defaultPeriod = null
-
+    
+    ConfigNodePropertyInteger defaultTimeout
+    
+    ConfigNodePropertyInteger maxTimeout
+    
+    ConfigNodePropertyInteger defaultPeriod
 }

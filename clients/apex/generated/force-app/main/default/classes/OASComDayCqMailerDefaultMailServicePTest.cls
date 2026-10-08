@@ -72,14 +72,14 @@ private class OASComDayCqMailerDefaultMailServicePTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqMailerDefaultMailServiceP comDayCqMailerDefaultMailServiceProperties = new OASComDayCqMailerDefaultMailServiceP();
-        Map<String, String> propertyMappings = comDayCqMailerDefaultMailServiceProperties.getPropertyMappings();
-        System.assertEquals('smtpHost', propertyMappings.get('smtp.host'));
-        System.assertEquals('smtpPort', propertyMappings.get('smtp.port'));
-        System.assertEquals('smtpUser', propertyMappings.get('smtp.user'));
-        System.assertEquals('smtpPassword', propertyMappings.get('smtp.password'));
-        System.assertEquals('fromAddress', propertyMappings.get('from.address'));
-        System.assertEquals('smtpSsl', propertyMappings.get('smtp.ssl'));
-        System.assertEquals('smtpStarttls', propertyMappings.get('smtp.starttls'));
-        System.assertEquals('debugEmail', propertyMappings.get('debug.email'));
+        Map<String, String> x-property-mappings = comDayCqMailerDefaultMailServiceProperties.getx-property-mappings();
+        System.assertEquals('smtpHost', x-property-mappings.get('smtp.host'));
+        System.assertEquals('smtpPort', x-property-mappings.get('smtp.port'));
+        System.assertEquals('smtpUser', x-property-mappings.get('smtp.user'));
+        System.assertEquals('smtpPassword', x-property-mappings.get('smtp.password'));
+        System.assertEquals('fromAddress', x-property-mappings.get('from.address'));
+        System.assertEquals('smtpSsl', x-property-mappings.get('smtp.ssl'));
+        System.assertEquals('smtpStarttls', x-property-mappings.get('smtp.starttls'));
+        System.assertEquals('debugEmail', x-property-mappings.get('debug.email'));
     }
 }

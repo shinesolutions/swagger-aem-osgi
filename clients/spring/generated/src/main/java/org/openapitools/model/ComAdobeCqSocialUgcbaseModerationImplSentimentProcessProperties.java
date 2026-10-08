@@ -1,34 +1,45 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComAdobeCqSocialUgcbaseModerationImplSentimentProcessProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComAdobeCqSocialUgcbaseModerationImplSentimentProcessProperties   {
-  @JsonProperty("watchwords.positive")
-  private ConfigNodePropertyArray watchwordsPositive = null;
+@JsonTypeName("comAdobeCqSocialUgcbaseModerationImplSentimentProcessProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComAdobeCqSocialUgcbaseModerationImplSentimentProcessProperties {
 
-  @JsonProperty("watchwords.negative")
-  private ConfigNodePropertyArray watchwordsNegative = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray watchwordsPositive;
 
-  @JsonProperty("watchwords.path")
-  private ConfigNodePropertyString watchwordsPath = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray watchwordsNegative;
 
-  @JsonProperty("sentiment.path")
-  private ConfigNodePropertyString sentimentPath = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString watchwordsPath;
 
-  public ComAdobeCqSocialUgcbaseModerationImplSentimentProcessProperties watchwordsPositive(ConfigNodePropertyArray watchwordsPositive) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString sentimentPath;
+
+  public ComAdobeCqSocialUgcbaseModerationImplSentimentProcessProperties watchwordsPositive(@Nullable ConfigNodePropertyArray watchwordsPositive) {
     this.watchwordsPositive = watchwordsPositive;
     return this;
   }
@@ -36,20 +47,20 @@ public class ComAdobeCqSocialUgcbaseModerationImplSentimentProcessProperties   {
   /**
    * Get watchwordsPositive
    * @return watchwordsPositive
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getWatchwordsPositive() {
+   */
+  @Valid 
+  @Schema(name = "watchwords.positive", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("watchwords.positive")
+  public @Nullable ConfigNodePropertyArray getWatchwordsPositive() {
     return watchwordsPositive;
   }
 
-  public void setWatchwordsPositive(ConfigNodePropertyArray watchwordsPositive) {
+  @JsonProperty("watchwords.positive")
+  public void setWatchwordsPositive(@Nullable ConfigNodePropertyArray watchwordsPositive) {
     this.watchwordsPositive = watchwordsPositive;
   }
 
-  public ComAdobeCqSocialUgcbaseModerationImplSentimentProcessProperties watchwordsNegative(ConfigNodePropertyArray watchwordsNegative) {
+  public ComAdobeCqSocialUgcbaseModerationImplSentimentProcessProperties watchwordsNegative(@Nullable ConfigNodePropertyArray watchwordsNegative) {
     this.watchwordsNegative = watchwordsNegative;
     return this;
   }
@@ -57,20 +68,20 @@ public class ComAdobeCqSocialUgcbaseModerationImplSentimentProcessProperties   {
   /**
    * Get watchwordsNegative
    * @return watchwordsNegative
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getWatchwordsNegative() {
+   */
+  @Valid 
+  @Schema(name = "watchwords.negative", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("watchwords.negative")
+  public @Nullable ConfigNodePropertyArray getWatchwordsNegative() {
     return watchwordsNegative;
   }
 
-  public void setWatchwordsNegative(ConfigNodePropertyArray watchwordsNegative) {
+  @JsonProperty("watchwords.negative")
+  public void setWatchwordsNegative(@Nullable ConfigNodePropertyArray watchwordsNegative) {
     this.watchwordsNegative = watchwordsNegative;
   }
 
-  public ComAdobeCqSocialUgcbaseModerationImplSentimentProcessProperties watchwordsPath(ConfigNodePropertyString watchwordsPath) {
+  public ComAdobeCqSocialUgcbaseModerationImplSentimentProcessProperties watchwordsPath(@Nullable ConfigNodePropertyString watchwordsPath) {
     this.watchwordsPath = watchwordsPath;
     return this;
   }
@@ -78,20 +89,20 @@ public class ComAdobeCqSocialUgcbaseModerationImplSentimentProcessProperties   {
   /**
    * Get watchwordsPath
    * @return watchwordsPath
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getWatchwordsPath() {
+   */
+  @Valid 
+  @Schema(name = "watchwords.path", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("watchwords.path")
+  public @Nullable ConfigNodePropertyString getWatchwordsPath() {
     return watchwordsPath;
   }
 
-  public void setWatchwordsPath(ConfigNodePropertyString watchwordsPath) {
+  @JsonProperty("watchwords.path")
+  public void setWatchwordsPath(@Nullable ConfigNodePropertyString watchwordsPath) {
     this.watchwordsPath = watchwordsPath;
   }
 
-  public ComAdobeCqSocialUgcbaseModerationImplSentimentProcessProperties sentimentPath(ConfigNodePropertyString sentimentPath) {
+  public ComAdobeCqSocialUgcbaseModerationImplSentimentProcessProperties sentimentPath(@Nullable ConfigNodePropertyString sentimentPath) {
     this.sentimentPath = sentimentPath;
     return this;
   }
@@ -99,22 +110,21 @@ public class ComAdobeCqSocialUgcbaseModerationImplSentimentProcessProperties   {
   /**
    * Get sentimentPath
    * @return sentimentPath
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getSentimentPath() {
+   */
+  @Valid 
+  @Schema(name = "sentiment.path", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("sentiment.path")
+  public @Nullable ConfigNodePropertyString getSentimentPath() {
     return sentimentPath;
   }
 
-  public void setSentimentPath(ConfigNodePropertyString sentimentPath) {
+  @JsonProperty("sentiment.path")
+  public void setSentimentPath(@Nullable ConfigNodePropertyString sentimentPath) {
     this.sentimentPath = sentimentPath;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -137,7 +147,6 @@ public class ComAdobeCqSocialUgcbaseModerationImplSentimentProcessProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComAdobeCqSocialUgcbaseModerationImplSentimentProcessProperties {\n");
-    
     sb.append("    watchwordsPositive: ").append(toIndentedString(watchwordsPositive)).append("\n");
     sb.append("    watchwordsNegative: ").append(toIndentedString(watchwordsNegative)).append("\n");
     sb.append("    watchwordsPath: ").append(toIndentedString(watchwordsPath)).append("\n");
@@ -150,11 +159,8 @@ public class ComAdobeCqSocialUgcbaseModerationImplSentimentProcessProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

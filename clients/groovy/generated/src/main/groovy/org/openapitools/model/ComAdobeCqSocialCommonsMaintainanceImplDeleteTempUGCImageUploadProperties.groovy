@@ -7,8 +7,8 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadProperties {
-    ConfigNodePropertyInteger numberOfDays = null
-
-    ConfigNodePropertyInteger ageOfFile = null
-
+    
+    ConfigNodePropertyInteger numberOfDays
+    
+    ConfigNodePropertyInteger ageOfFile
 }

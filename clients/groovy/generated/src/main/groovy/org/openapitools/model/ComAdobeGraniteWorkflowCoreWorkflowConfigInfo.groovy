@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeGraniteWorkflowCoreWorkflowConfigPropertie
 
 @Canonical
 class ComAdobeGraniteWorkflowCoreWorkflowConfigInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteWorkflowCoreWorkflowConfigProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteWorkflowCoreWorkflowConfigProperties properties
 }

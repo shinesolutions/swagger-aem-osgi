@@ -1,5 +1,6 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyString;
@@ -7,40 +8,47 @@ import javax.validation.constraints.*;
 import javax.validation.Valid;
 
 import io.swagger.annotations.ApiModelProperty;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlType;
-import javax.xml.bind.annotation.XmlEnum;
-import javax.xml.bind.annotation.XmlEnumValue;
+import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
 
 public class ComDayCqWcmFoundationImplHTTPAuthHandlerProperties  {
   
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyString path = null;
+
+  private ConfigNodePropertyString path;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyBoolean authHttpNologin = null;
+
+  private ConfigNodePropertyBoolean authHttpNologin;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyString authHttpRealm = null;
+
+  private ConfigNodePropertyString authHttpRealm;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyString authDefaultLoginpage = null;
+
+  private ConfigNodePropertyString authDefaultLoginpage;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyArray authCredForm = null;
+
+  private ConfigNodePropertyArray authCredForm;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyArray authCredUtf8 = null;
+
+  private ConfigNodePropertyArray authCredUtf8;
  /**
    * Get path
    * @return path
@@ -149,6 +157,27 @@ public class ComDayCqWcmFoundationImplHTTPAuthHandlerProperties  {
     return this;
   }
 
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    ComDayCqWcmFoundationImplHTTPAuthHandlerProperties comDayCqWcmFoundationImplHTTPAuthHandlerProperties = (ComDayCqWcmFoundationImplHTTPAuthHandlerProperties) o;
+    return Objects.equals(this.path, comDayCqWcmFoundationImplHTTPAuthHandlerProperties.path) &&
+        Objects.equals(this.authHttpNologin, comDayCqWcmFoundationImplHTTPAuthHandlerProperties.authHttpNologin) &&
+        Objects.equals(this.authHttpRealm, comDayCqWcmFoundationImplHTTPAuthHandlerProperties.authHttpRealm) &&
+        Objects.equals(this.authDefaultLoginpage, comDayCqWcmFoundationImplHTTPAuthHandlerProperties.authDefaultLoginpage) &&
+        Objects.equals(this.authCredForm, comDayCqWcmFoundationImplHTTPAuthHandlerProperties.authCredForm) &&
+        Objects.equals(this.authCredUtf8, comDayCqWcmFoundationImplHTTPAuthHandlerProperties.authCredUtf8);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(path, authHttpNologin, authHttpRealm, authDefaultLoginpage, authCredForm, authCredUtf8);
+  }
 
   @Override
   public String toString() {
@@ -169,11 +198,8 @@ public class ComDayCqWcmFoundationImplHTTPAuthHandlerProperties  {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private static String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

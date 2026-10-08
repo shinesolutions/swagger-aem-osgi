@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqWcmCoreImplCommandsWCMCommandServletProper
 
 @Canonical
 class ComDayCqWcmCoreImplCommandsWCMCommandServletInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqWcmCoreImplCommandsWCMCommandServletProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqWcmCoreImplCommandsWCMCommandServletProperties properties
 }

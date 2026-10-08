@@ -4,50 +4,73 @@ import apimodels.ConfigNodePropertyArray;
 import apimodels.ConfigNodePropertyBoolean;
 import apimodels.ConfigNodePropertyDropDown;
 import apimodels.ConfigNodePropertyString;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties   {
   @JsonProperty("osgi.http.whiteboard.context.select")
-  private ConfigNodePropertyString osgiHttpWhiteboardContextSelect = null;
+  @Valid
+
+  private ConfigNodePropertyString osgiHttpWhiteboardContextSelect;
 
   @JsonProperty("osgi.http.whiteboard.listener")
-  private ConfigNodePropertyString osgiHttpWhiteboardListener = null;
+  @Valid
+
+  private ConfigNodePropertyString osgiHttpWhiteboardListener;
 
   @JsonProperty("auth.sudo.cookie")
-  private ConfigNodePropertyString authSudoCookie = null;
+  @Valid
+
+  private ConfigNodePropertyString authSudoCookie;
 
   @JsonProperty("auth.sudo.parameter")
-  private ConfigNodePropertyString authSudoParameter = null;
+  @Valid
+
+  private ConfigNodePropertyString authSudoParameter;
 
   @JsonProperty("auth.annonymous")
-  private ConfigNodePropertyBoolean authAnnonymous = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean authAnnonymous;
 
   @JsonProperty("sling.auth.requirements")
-  private ConfigNodePropertyArray slingAuthRequirements = null;
+  @Valid
+
+  private ConfigNodePropertyArray slingAuthRequirements;
 
   @JsonProperty("sling.auth.anonymous.user")
-  private ConfigNodePropertyString slingAuthAnonymousUser = null;
+  @Valid
+
+  private ConfigNodePropertyString slingAuthAnonymousUser;
 
   @JsonProperty("sling.auth.anonymous.password")
-  private ConfigNodePropertyString slingAuthAnonymousPassword = null;
+  @Valid
+
+  private ConfigNodePropertyString slingAuthAnonymousPassword;
 
   @JsonProperty("auth.http")
-  private ConfigNodePropertyDropDown authHttp = null;
+  @Valid
+
+  private ConfigNodePropertyDropDown authHttp;
 
   @JsonProperty("auth.http.realm")
-  private ConfigNodePropertyString authHttpRealm = null;
+  @Valid
+
+  private ConfigNodePropertyString authHttpRealm;
 
   @JsonProperty("auth.uri.suffix")
-  private ConfigNodePropertyArray authUriSuffix = null;
+  @Valid
+
+  private ConfigNodePropertyArray authUriSuffix;
 
   public OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties osgiHttpWhiteboardContextSelect(ConfigNodePropertyString osgiHttpWhiteboardContextSelect) {
     this.osgiHttpWhiteboardContextSelect = osgiHttpWhiteboardContextSelect;
@@ -58,7 +81,6 @@ public class OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties   {
    * Get osgiHttpWhiteboardContextSelect
    * @return osgiHttpWhiteboardContextSelect
   **/
-  @Valid
   public ConfigNodePropertyString getOsgiHttpWhiteboardContextSelect() {
     return osgiHttpWhiteboardContextSelect;
   }
@@ -76,7 +98,6 @@ public class OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties   {
    * Get osgiHttpWhiteboardListener
    * @return osgiHttpWhiteboardListener
   **/
-  @Valid
   public ConfigNodePropertyString getOsgiHttpWhiteboardListener() {
     return osgiHttpWhiteboardListener;
   }
@@ -94,7 +115,6 @@ public class OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties   {
    * Get authSudoCookie
    * @return authSudoCookie
   **/
-  @Valid
   public ConfigNodePropertyString getAuthSudoCookie() {
     return authSudoCookie;
   }
@@ -112,7 +132,6 @@ public class OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties   {
    * Get authSudoParameter
    * @return authSudoParameter
   **/
-  @Valid
   public ConfigNodePropertyString getAuthSudoParameter() {
     return authSudoParameter;
   }
@@ -130,7 +149,6 @@ public class OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties   {
    * Get authAnnonymous
    * @return authAnnonymous
   **/
-  @Valid
   public ConfigNodePropertyBoolean getAuthAnnonymous() {
     return authAnnonymous;
   }
@@ -148,7 +166,6 @@ public class OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties   {
    * Get slingAuthRequirements
    * @return slingAuthRequirements
   **/
-  @Valid
   public ConfigNodePropertyArray getSlingAuthRequirements() {
     return slingAuthRequirements;
   }
@@ -166,7 +183,6 @@ public class OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties   {
    * Get slingAuthAnonymousUser
    * @return slingAuthAnonymousUser
   **/
-  @Valid
   public ConfigNodePropertyString getSlingAuthAnonymousUser() {
     return slingAuthAnonymousUser;
   }
@@ -184,7 +200,6 @@ public class OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties   {
    * Get slingAuthAnonymousPassword
    * @return slingAuthAnonymousPassword
   **/
-  @Valid
   public ConfigNodePropertyString getSlingAuthAnonymousPassword() {
     return slingAuthAnonymousPassword;
   }
@@ -202,7 +217,6 @@ public class OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties   {
    * Get authHttp
    * @return authHttp
   **/
-  @Valid
   public ConfigNodePropertyDropDown getAuthHttp() {
     return authHttp;
   }
@@ -220,7 +234,6 @@ public class OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties   {
    * Get authHttpRealm
    * @return authHttpRealm
   **/
-  @Valid
   public ConfigNodePropertyString getAuthHttpRealm() {
     return authHttpRealm;
   }
@@ -238,7 +251,6 @@ public class OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties   {
    * Get authUriSuffix
    * @return authUriSuffix
   **/
-  @Valid
   public ConfigNodePropertyArray getAuthUriSuffix() {
     return authUriSuffix;
   }
@@ -249,7 +261,7 @@ public class OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -300,11 +312,8 @@ public class OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

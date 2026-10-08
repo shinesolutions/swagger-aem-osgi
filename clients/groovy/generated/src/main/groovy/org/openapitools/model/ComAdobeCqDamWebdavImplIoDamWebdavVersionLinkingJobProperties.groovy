@@ -8,10 +8,10 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class ComAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJobProperties {
-    ConfigNodePropertyBoolean cqDamWebdavVersionLinkingEnable = null
-
-    ConfigNodePropertyInteger cqDamWebdavVersionLinkingSchedulerPeriod = null
-
-    ConfigNodePropertyInteger cqDamWebdavVersionLinkingStagingTimeout = null
-
+    
+    ConfigNodePropertyBoolean cqDamWebdavVersionLinkingEnable
+    
+    ConfigNodePropertyInteger cqDamWebdavVersionLinkingSchedulerPeriod
+    
+    ConfigNodePropertyInteger cqDamWebdavVersionLinkingStagingTimeout
 }

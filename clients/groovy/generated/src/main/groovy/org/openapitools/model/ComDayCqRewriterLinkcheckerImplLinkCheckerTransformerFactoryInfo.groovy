@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqRewriterLinkcheckerImplLinkCheckerTransfor
 
 @Canonical
 class ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties properties
 }

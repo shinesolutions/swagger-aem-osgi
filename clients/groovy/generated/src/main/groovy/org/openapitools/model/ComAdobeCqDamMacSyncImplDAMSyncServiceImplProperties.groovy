@@ -10,12 +10,12 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class ComAdobeCqDamMacSyncImplDAMSyncServiceImplProperties {
-    ConfigNodePropertyArray comAdobeCqDamMacSyncDamsyncserviceRegisteredPaths = null
-
-    ConfigNodePropertyBoolean comAdobeCqDamMacSyncDamsyncserviceSyncRenditions = null
-
-    ConfigNodePropertyInteger comAdobeCqDamMacSyncDamsyncserviceReplicateThreadWaitMs = null
-
-    ConfigNodePropertyDropDown comAdobeCqDamMacSyncDamsyncservicePlatform = null
-
+    
+    ConfigNodePropertyArray comAdobeCqDamMacSyncDamsyncserviceRegisteredPaths
+    
+    ConfigNodePropertyBoolean comAdobeCqDamMacSyncDamsyncserviceSyncRenditions
+    
+    ConfigNodePropertyInteger comAdobeCqDamMacSyncDamsyncserviceReplicateThreadWaitMs
+    
+    ConfigNodePropertyDropDown comAdobeCqDamMacSyncDamsyncservicePlatform
 }

@@ -2,16 +2,17 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**cq_dam_adhoc_asset_share_prezip_maxcontentsize** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **cq_dam_adhoc_asset_share_prezip_maxcontentsize** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComDayCqDamCoreImplAssetlinkshareAdhocAssetShareProxyServletProperties.new(cq_dam_adhoc_asset_share_prezip_maxcontentsize: null)
+instance = SwaggerAemOsgiClient::ComDayCqDamCoreImplAssetlinkshareAdhocAssetShareProxyServletProperties.new(
+  cq_dam_adhoc_asset_share_prezip_maxcontentsize: null
+)
 ```
-
 

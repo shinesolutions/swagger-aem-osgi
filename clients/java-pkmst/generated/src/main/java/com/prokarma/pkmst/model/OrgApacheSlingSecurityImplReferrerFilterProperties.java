@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyArray;
 import com.prokarma.pkmst.model.ConfigNodePropertyBoolean;
 import io.swagger.annotations.ApiModel;
@@ -16,33 +17,32 @@ import io.swagger.annotations.ApiModelProperty;
  * OrgApacheSlingSecurityImplReferrerFilterProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingSecurityImplReferrerFilterProperties   {
   @JsonProperty("allow.empty")
-  private ConfigNodePropertyBoolean allowEmpty = null;
+  private ConfigNodePropertyBoolean allowEmpty;
 
   @JsonProperty("allow.hosts")
-  private ConfigNodePropertyArray allowHosts = null;
+  private ConfigNodePropertyArray allowHosts;
 
   @JsonProperty("allow.hosts.regexp")
-  private ConfigNodePropertyArray allowHostsRegexp = null;
+  private ConfigNodePropertyArray allowHostsRegexp;
 
   @JsonProperty("filter.methods")
-  private ConfigNodePropertyArray filterMethods = null;
+  private ConfigNodePropertyArray filterMethods;
 
   @JsonProperty("exclude.agents.regexp")
-  private ConfigNodePropertyArray excludeAgentsRegexp = null;
+  private ConfigNodePropertyArray excludeAgentsRegexp;
 
   public OrgApacheSlingSecurityImplReferrerFilterProperties allowEmpty(ConfigNodePropertyBoolean allowEmpty) {
     this.allowEmpty = allowEmpty;
     return this;
   }
 
-   /**
+  /**
    * Get allowEmpty
    * @return allowEmpty
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getAllowEmpty() {
     return allowEmpty;
@@ -57,10 +57,10 @@ public class OrgApacheSlingSecurityImplReferrerFilterProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get allowHosts
    * @return allowHosts
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getAllowHosts() {
     return allowHosts;
@@ -75,10 +75,10 @@ public class OrgApacheSlingSecurityImplReferrerFilterProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get allowHostsRegexp
    * @return allowHostsRegexp
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getAllowHostsRegexp() {
     return allowHostsRegexp;
@@ -93,10 +93,10 @@ public class OrgApacheSlingSecurityImplReferrerFilterProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get filterMethods
    * @return filterMethods
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getFilterMethods() {
     return filterMethods;
@@ -111,10 +111,10 @@ public class OrgApacheSlingSecurityImplReferrerFilterProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get excludeAgentsRegexp
    * @return excludeAgentsRegexp
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getExcludeAgentsRegexp() {
     return excludeAgentsRegexp;
@@ -126,7 +126,7 @@ public class OrgApacheSlingSecurityImplReferrerFilterProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -164,11 +164,8 @@ public class OrgApacheSlingSecurityImplReferrerFilterProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

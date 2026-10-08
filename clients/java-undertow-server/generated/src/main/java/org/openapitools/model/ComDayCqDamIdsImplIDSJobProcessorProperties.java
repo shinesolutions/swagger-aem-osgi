@@ -1,3 +1,13 @@
+/*
+ * Adobe Experience Manager OSGI config (AEM) API
+ *
+ * Swagger AEM OSGI is an OpenAPI specification for Adobe Experience Manager (AEM) OSGI Configurations API
+ *
+ * OpenAPI document version: 1.0.0-pre.0
+ * Maintained by: opensource@shinesolutions.com
+ *
+ * AUTO-GENERATED FILE, DO NOT MODIFY!
+ */
 package org.openapitools.model;
 
 import java.util.Objects;
@@ -12,18 +22,18 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2019-08-05T00:56:20.785Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2026-10-07T12:53:42.280804918Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqDamIdsImplIDSJobProcessorProperties   {
   
-  private ConfigNodePropertyBoolean enableMultisession = null;
-  private ConfigNodePropertyBoolean idsCcEnable = null;
-  private ConfigNodePropertyBoolean enableRetry = null;
-  private ConfigNodePropertyBoolean enableRetryScripterror = null;
-  private ConfigNodePropertyString externalizerDomainCqhost = null;
-  private ConfigNodePropertyString externalizerDomainHttp = null;
+  private ConfigNodePropertyBoolean enableMultisession;
+  private ConfigNodePropertyBoolean idsCcEnable;
+  private ConfigNodePropertyBoolean enableRetry;
+  private ConfigNodePropertyBoolean enableRetryScripterror;
+  private ConfigNodePropertyString externalizerDomainCqhost;
+  private ConfigNodePropertyString externalizerDomainHttp;
 
   /**
-   **/
+   */
   public ComDayCqDamIdsImplIDSJobProcessorProperties enableMultisession(ConfigNodePropertyBoolean enableMultisession) {
     this.enableMultisession = enableMultisession;
     return this;
@@ -40,7 +50,7 @@ public class ComDayCqDamIdsImplIDSJobProcessorProperties   {
   }
 
   /**
-   **/
+   */
   public ComDayCqDamIdsImplIDSJobProcessorProperties idsCcEnable(ConfigNodePropertyBoolean idsCcEnable) {
     this.idsCcEnable = idsCcEnable;
     return this;
@@ -57,7 +67,7 @@ public class ComDayCqDamIdsImplIDSJobProcessorProperties   {
   }
 
   /**
-   **/
+   */
   public ComDayCqDamIdsImplIDSJobProcessorProperties enableRetry(ConfigNodePropertyBoolean enableRetry) {
     this.enableRetry = enableRetry;
     return this;
@@ -74,7 +84,7 @@ public class ComDayCqDamIdsImplIDSJobProcessorProperties   {
   }
 
   /**
-   **/
+   */
   public ComDayCqDamIdsImplIDSJobProcessorProperties enableRetryScripterror(ConfigNodePropertyBoolean enableRetryScripterror) {
     this.enableRetryScripterror = enableRetryScripterror;
     return this;
@@ -91,7 +101,7 @@ public class ComDayCqDamIdsImplIDSJobProcessorProperties   {
   }
 
   /**
-   **/
+   */
   public ComDayCqDamIdsImplIDSJobProcessorProperties externalizerDomainCqhost(ConfigNodePropertyString externalizerDomainCqhost) {
     this.externalizerDomainCqhost = externalizerDomainCqhost;
     return this;
@@ -108,7 +118,7 @@ public class ComDayCqDamIdsImplIDSJobProcessorProperties   {
   }
 
   /**
-   **/
+   */
   public ComDayCqDamIdsImplIDSJobProcessorProperties externalizerDomainHttp(ConfigNodePropertyString externalizerDomainHttp) {
     this.externalizerDomainHttp = externalizerDomainHttp;
     return this;
@@ -126,7 +136,7 @@ public class ComDayCqDamIdsImplIDSJobProcessorProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -166,11 +176,8 @@ public class ComDayCqDamIdsImplIDSJobProcessorProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

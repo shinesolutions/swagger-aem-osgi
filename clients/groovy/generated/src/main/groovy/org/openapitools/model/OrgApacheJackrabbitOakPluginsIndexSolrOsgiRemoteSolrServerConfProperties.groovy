@@ -8,20 +8,20 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfProperties {
-    ConfigNodePropertyString solrHttpUrl = null
-
-    ConfigNodePropertyString solrZkHost = null
-
-    ConfigNodePropertyString solrCollection = null
-
-    ConfigNodePropertyInteger solrSocketTimeout = null
-
-    ConfigNodePropertyInteger solrConnectionTimeout = null
-
-    ConfigNodePropertyInteger solrShardsNo = null
-
-    ConfigNodePropertyInteger solrReplicationFactor = null
-
-    ConfigNodePropertyString solrConfDir = null
-
+    
+    ConfigNodePropertyString solrHttpUrl
+    
+    ConfigNodePropertyString solrZkHost
+    
+    ConfigNodePropertyString solrCollection
+    
+    ConfigNodePropertyInteger solrSocketTimeout
+    
+    ConfigNodePropertyInteger solrConnectionTimeout
+    
+    ConfigNodePropertyInteger solrShardsNo
+    
+    ConfigNodePropertyInteger solrReplicationFactor
+    
+    ConfigNodePropertyString solrConfDir
 }

@@ -1,0 +1,321 @@
+package org.openapitools.model;
+
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.model.ConfigNodePropertyArray;
+import org.openapitools.model.ConfigNodePropertyBoolean;
+import org.openapitools.model.ConfigNodePropertyInteger;
+import org.openapitools.model.ConfigNodePropertyString;
+import javax.validation.constraints.*;
+import javax.validation.Valid;
+
+import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.annotation.JsonProperty;
+
+
+public class ComDayCqWcmUndoUndoConfigProperties  {
+  
+  @ApiModelProperty(value = "")
+  @Valid
+  private ConfigNodePropertyBoolean cqWcmUndoEnabled;
+
+  @ApiModelProperty(value = "")
+  @Valid
+  private ConfigNodePropertyString cqWcmUndoPath;
+
+  @ApiModelProperty(value = "")
+  @Valid
+  private ConfigNodePropertyInteger cqWcmUndoValidity;
+
+  @ApiModelProperty(value = "")
+  @Valid
+  private ConfigNodePropertyInteger cqWcmUndoSteps;
+
+  @ApiModelProperty(value = "")
+  @Valid
+  private ConfigNodePropertyString cqWcmUndoPersistence;
+
+  @ApiModelProperty(value = "")
+  @Valid
+  private ConfigNodePropertyBoolean cqWcmUndoPersistenceMode;
+
+  @ApiModelProperty(value = "")
+  @Valid
+  private ConfigNodePropertyString cqWcmUndoMarkermode;
+
+  @ApiModelProperty(value = "")
+  @Valid
+  private ConfigNodePropertyArray cqWcmUndoWhitelist;
+
+  @ApiModelProperty(value = "")
+  @Valid
+  private ConfigNodePropertyArray cqWcmUndoBlacklist;
+ /**
+  * Get cqWcmUndoEnabled
+  * @return cqWcmUndoEnabled
+  */
+  @JsonProperty("cq.wcm.undo.enabled")
+  public ConfigNodePropertyBoolean getCqWcmUndoEnabled() {
+    return cqWcmUndoEnabled;
+  }
+
+  /**
+   * Sets the <code>cqWcmUndoEnabled</code> property.
+   */
+ public void setCqWcmUndoEnabled(ConfigNodePropertyBoolean cqWcmUndoEnabled) {
+    this.cqWcmUndoEnabled = cqWcmUndoEnabled;
+  }
+
+  /**
+   * Sets the <code>cqWcmUndoEnabled</code> property.
+   */
+  public ComDayCqWcmUndoUndoConfigProperties cqWcmUndoEnabled(ConfigNodePropertyBoolean cqWcmUndoEnabled) {
+    this.cqWcmUndoEnabled = cqWcmUndoEnabled;
+    return this;
+  }
+
+ /**
+  * Get cqWcmUndoPath
+  * @return cqWcmUndoPath
+  */
+  @JsonProperty("cq.wcm.undo.path")
+  public ConfigNodePropertyString getCqWcmUndoPath() {
+    return cqWcmUndoPath;
+  }
+
+  /**
+   * Sets the <code>cqWcmUndoPath</code> property.
+   */
+ public void setCqWcmUndoPath(ConfigNodePropertyString cqWcmUndoPath) {
+    this.cqWcmUndoPath = cqWcmUndoPath;
+  }
+
+  /**
+   * Sets the <code>cqWcmUndoPath</code> property.
+   */
+  public ComDayCqWcmUndoUndoConfigProperties cqWcmUndoPath(ConfigNodePropertyString cqWcmUndoPath) {
+    this.cqWcmUndoPath = cqWcmUndoPath;
+    return this;
+  }
+
+ /**
+  * Get cqWcmUndoValidity
+  * @return cqWcmUndoValidity
+  */
+  @JsonProperty("cq.wcm.undo.validity")
+  public ConfigNodePropertyInteger getCqWcmUndoValidity() {
+    return cqWcmUndoValidity;
+  }
+
+  /**
+   * Sets the <code>cqWcmUndoValidity</code> property.
+   */
+ public void setCqWcmUndoValidity(ConfigNodePropertyInteger cqWcmUndoValidity) {
+    this.cqWcmUndoValidity = cqWcmUndoValidity;
+  }
+
+  /**
+   * Sets the <code>cqWcmUndoValidity</code> property.
+   */
+  public ComDayCqWcmUndoUndoConfigProperties cqWcmUndoValidity(ConfigNodePropertyInteger cqWcmUndoValidity) {
+    this.cqWcmUndoValidity = cqWcmUndoValidity;
+    return this;
+  }
+
+ /**
+  * Get cqWcmUndoSteps
+  * @return cqWcmUndoSteps
+  */
+  @JsonProperty("cq.wcm.undo.steps")
+  public ConfigNodePropertyInteger getCqWcmUndoSteps() {
+    return cqWcmUndoSteps;
+  }
+
+  /**
+   * Sets the <code>cqWcmUndoSteps</code> property.
+   */
+ public void setCqWcmUndoSteps(ConfigNodePropertyInteger cqWcmUndoSteps) {
+    this.cqWcmUndoSteps = cqWcmUndoSteps;
+  }
+
+  /**
+   * Sets the <code>cqWcmUndoSteps</code> property.
+   */
+  public ComDayCqWcmUndoUndoConfigProperties cqWcmUndoSteps(ConfigNodePropertyInteger cqWcmUndoSteps) {
+    this.cqWcmUndoSteps = cqWcmUndoSteps;
+    return this;
+  }
+
+ /**
+  * Get cqWcmUndoPersistence
+  * @return cqWcmUndoPersistence
+  */
+  @JsonProperty("cq.wcm.undo.persistence")
+  public ConfigNodePropertyString getCqWcmUndoPersistence() {
+    return cqWcmUndoPersistence;
+  }
+
+  /**
+   * Sets the <code>cqWcmUndoPersistence</code> property.
+   */
+ public void setCqWcmUndoPersistence(ConfigNodePropertyString cqWcmUndoPersistence) {
+    this.cqWcmUndoPersistence = cqWcmUndoPersistence;
+  }
+
+  /**
+   * Sets the <code>cqWcmUndoPersistence</code> property.
+   */
+  public ComDayCqWcmUndoUndoConfigProperties cqWcmUndoPersistence(ConfigNodePropertyString cqWcmUndoPersistence) {
+    this.cqWcmUndoPersistence = cqWcmUndoPersistence;
+    return this;
+  }
+
+ /**
+  * Get cqWcmUndoPersistenceMode
+  * @return cqWcmUndoPersistenceMode
+  */
+  @JsonProperty("cq.wcm.undo.persistence.mode")
+  public ConfigNodePropertyBoolean getCqWcmUndoPersistenceMode() {
+    return cqWcmUndoPersistenceMode;
+  }
+
+  /**
+   * Sets the <code>cqWcmUndoPersistenceMode</code> property.
+   */
+ public void setCqWcmUndoPersistenceMode(ConfigNodePropertyBoolean cqWcmUndoPersistenceMode) {
+    this.cqWcmUndoPersistenceMode = cqWcmUndoPersistenceMode;
+  }
+
+  /**
+   * Sets the <code>cqWcmUndoPersistenceMode</code> property.
+   */
+  public ComDayCqWcmUndoUndoConfigProperties cqWcmUndoPersistenceMode(ConfigNodePropertyBoolean cqWcmUndoPersistenceMode) {
+    this.cqWcmUndoPersistenceMode = cqWcmUndoPersistenceMode;
+    return this;
+  }
+
+ /**
+  * Get cqWcmUndoMarkermode
+  * @return cqWcmUndoMarkermode
+  */
+  @JsonProperty("cq.wcm.undo.markermode")
+  public ConfigNodePropertyString getCqWcmUndoMarkermode() {
+    return cqWcmUndoMarkermode;
+  }
+
+  /**
+   * Sets the <code>cqWcmUndoMarkermode</code> property.
+   */
+ public void setCqWcmUndoMarkermode(ConfigNodePropertyString cqWcmUndoMarkermode) {
+    this.cqWcmUndoMarkermode = cqWcmUndoMarkermode;
+  }
+
+  /**
+   * Sets the <code>cqWcmUndoMarkermode</code> property.
+   */
+  public ComDayCqWcmUndoUndoConfigProperties cqWcmUndoMarkermode(ConfigNodePropertyString cqWcmUndoMarkermode) {
+    this.cqWcmUndoMarkermode = cqWcmUndoMarkermode;
+    return this;
+  }
+
+ /**
+  * Get cqWcmUndoWhitelist
+  * @return cqWcmUndoWhitelist
+  */
+  @JsonProperty("cq.wcm.undo.whitelist")
+  public ConfigNodePropertyArray getCqWcmUndoWhitelist() {
+    return cqWcmUndoWhitelist;
+  }
+
+  /**
+   * Sets the <code>cqWcmUndoWhitelist</code> property.
+   */
+ public void setCqWcmUndoWhitelist(ConfigNodePropertyArray cqWcmUndoWhitelist) {
+    this.cqWcmUndoWhitelist = cqWcmUndoWhitelist;
+  }
+
+  /**
+   * Sets the <code>cqWcmUndoWhitelist</code> property.
+   */
+  public ComDayCqWcmUndoUndoConfigProperties cqWcmUndoWhitelist(ConfigNodePropertyArray cqWcmUndoWhitelist) {
+    this.cqWcmUndoWhitelist = cqWcmUndoWhitelist;
+    return this;
+  }
+
+ /**
+  * Get cqWcmUndoBlacklist
+  * @return cqWcmUndoBlacklist
+  */
+  @JsonProperty("cq.wcm.undo.blacklist")
+  public ConfigNodePropertyArray getCqWcmUndoBlacklist() {
+    return cqWcmUndoBlacklist;
+  }
+
+  /**
+   * Sets the <code>cqWcmUndoBlacklist</code> property.
+   */
+ public void setCqWcmUndoBlacklist(ConfigNodePropertyArray cqWcmUndoBlacklist) {
+    this.cqWcmUndoBlacklist = cqWcmUndoBlacklist;
+  }
+
+  /**
+   * Sets the <code>cqWcmUndoBlacklist</code> property.
+   */
+  public ComDayCqWcmUndoUndoConfigProperties cqWcmUndoBlacklist(ConfigNodePropertyArray cqWcmUndoBlacklist) {
+    this.cqWcmUndoBlacklist = cqWcmUndoBlacklist;
+    return this;
+  }
+
+
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    ComDayCqWcmUndoUndoConfigProperties comDayCqWcmUndoUndoConfigProperties = (ComDayCqWcmUndoUndoConfigProperties) o;
+    return Objects.equals(this.cqWcmUndoEnabled, comDayCqWcmUndoUndoConfigProperties.cqWcmUndoEnabled) &&
+        Objects.equals(this.cqWcmUndoPath, comDayCqWcmUndoUndoConfigProperties.cqWcmUndoPath) &&
+        Objects.equals(this.cqWcmUndoValidity, comDayCqWcmUndoUndoConfigProperties.cqWcmUndoValidity) &&
+        Objects.equals(this.cqWcmUndoSteps, comDayCqWcmUndoUndoConfigProperties.cqWcmUndoSteps) &&
+        Objects.equals(this.cqWcmUndoPersistence, comDayCqWcmUndoUndoConfigProperties.cqWcmUndoPersistence) &&
+        Objects.equals(this.cqWcmUndoPersistenceMode, comDayCqWcmUndoUndoConfigProperties.cqWcmUndoPersistenceMode) &&
+        Objects.equals(this.cqWcmUndoMarkermode, comDayCqWcmUndoUndoConfigProperties.cqWcmUndoMarkermode) &&
+        Objects.equals(this.cqWcmUndoWhitelist, comDayCqWcmUndoUndoConfigProperties.cqWcmUndoWhitelist) &&
+        Objects.equals(this.cqWcmUndoBlacklist, comDayCqWcmUndoUndoConfigProperties.cqWcmUndoBlacklist);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(cqWcmUndoEnabled, cqWcmUndoPath, cqWcmUndoValidity, cqWcmUndoSteps, cqWcmUndoPersistence, cqWcmUndoPersistenceMode, cqWcmUndoMarkermode, cqWcmUndoWhitelist, cqWcmUndoBlacklist);
+  }
+
+  @Override
+  public String toString() {
+    StringBuilder sb = new StringBuilder();
+    sb.append("class ComDayCqWcmUndoUndoConfigProperties {\n");
+    
+    sb.append("    cqWcmUndoEnabled: ").append(toIndentedString(cqWcmUndoEnabled)).append("\n");
+    sb.append("    cqWcmUndoPath: ").append(toIndentedString(cqWcmUndoPath)).append("\n");
+    sb.append("    cqWcmUndoValidity: ").append(toIndentedString(cqWcmUndoValidity)).append("\n");
+    sb.append("    cqWcmUndoSteps: ").append(toIndentedString(cqWcmUndoSteps)).append("\n");
+    sb.append("    cqWcmUndoPersistence: ").append(toIndentedString(cqWcmUndoPersistence)).append("\n");
+    sb.append("    cqWcmUndoPersistenceMode: ").append(toIndentedString(cqWcmUndoPersistenceMode)).append("\n");
+    sb.append("    cqWcmUndoMarkermode: ").append(toIndentedString(cqWcmUndoMarkermode)).append("\n");
+    sb.append("    cqWcmUndoWhitelist: ").append(toIndentedString(cqWcmUndoWhitelist)).append("\n");
+    sb.append("    cqWcmUndoBlacklist: ").append(toIndentedString(cqWcmUndoBlacklist)).append("\n");
+    sb.append("}");
+    return sb.toString();
+  }
+
+  /**
+   * Convert the given object to string with each line indented by 4 spaces
+   * (except the first line).
+   */
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
+  }
+}
+

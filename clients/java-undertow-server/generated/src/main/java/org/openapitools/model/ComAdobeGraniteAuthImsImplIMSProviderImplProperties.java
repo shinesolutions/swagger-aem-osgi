@@ -1,3 +1,13 @@
+/*
+ * Adobe Experience Manager OSGI config (AEM) API
+ *
+ * Swagger AEM OSGI is an OpenAPI specification for Adobe Experience Manager (AEM) OSGI Configurations API
+ *
+ * OpenAPI document version: 1.0.0-pre.0
+ * Maintained by: opensource@shinesolutions.com
+ *
+ * AUTO-GENERATED FILE, DO NOT MODIFY!
+ */
 package org.openapitools.model;
 
 import java.util.Objects;
@@ -13,25 +23,25 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2019-08-05T00:56:20.785Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2026-10-07T12:53:42.280804918Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteAuthImsImplIMSProviderImplProperties   {
   
-  private ConfigNodePropertyString oauthProviderId = null;
-  private ConfigNodePropertyString oauthProviderImsAuthorizationUrl = null;
-  private ConfigNodePropertyString oauthProviderImsTokenUrl = null;
-  private ConfigNodePropertyString oauthProviderImsProfileUrl = null;
-  private ConfigNodePropertyArray oauthProviderImsExtendedDetailsUrls = null;
-  private ConfigNodePropertyString oauthProviderImsValidateTokenUrl = null;
-  private ConfigNodePropertyString oauthProviderImsSessionProperty = null;
-  private ConfigNodePropertyString oauthProviderImsServiceTokenClientId = null;
-  private ConfigNodePropertyString oauthProviderImsServiceTokenClientSecret = null;
-  private ConfigNodePropertyString oauthProviderImsServiceToken = null;
-  private ConfigNodePropertyString imsOrgRef = null;
-  private ConfigNodePropertyArray imsGroupMapping = null;
-  private ConfigNodePropertyBoolean oauthProviderImsOnlyLicenseGroup = null;
+  private ConfigNodePropertyString oauthProviderId;
+  private ConfigNodePropertyString oauthProviderImsAuthorizationUrl;
+  private ConfigNodePropertyString oauthProviderImsTokenUrl;
+  private ConfigNodePropertyString oauthProviderImsProfileUrl;
+  private ConfigNodePropertyArray oauthProviderImsExtendedDetailsUrls;
+  private ConfigNodePropertyString oauthProviderImsValidateTokenUrl;
+  private ConfigNodePropertyString oauthProviderImsSessionProperty;
+  private ConfigNodePropertyString oauthProviderImsServiceTokenClientId;
+  private ConfigNodePropertyString oauthProviderImsServiceTokenClientSecret;
+  private ConfigNodePropertyString oauthProviderImsServiceToken;
+  private ConfigNodePropertyString imsOrgRef;
+  private ConfigNodePropertyArray imsGroupMapping;
+  private ConfigNodePropertyBoolean oauthProviderImsOnlyLicenseGroup;
 
   /**
-   **/
+   */
   public ComAdobeGraniteAuthImsImplIMSProviderImplProperties oauthProviderId(ConfigNodePropertyString oauthProviderId) {
     this.oauthProviderId = oauthProviderId;
     return this;
@@ -48,7 +58,7 @@ public class ComAdobeGraniteAuthImsImplIMSProviderImplProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeGraniteAuthImsImplIMSProviderImplProperties oauthProviderImsAuthorizationUrl(ConfigNodePropertyString oauthProviderImsAuthorizationUrl) {
     this.oauthProviderImsAuthorizationUrl = oauthProviderImsAuthorizationUrl;
     return this;
@@ -65,7 +75,7 @@ public class ComAdobeGraniteAuthImsImplIMSProviderImplProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeGraniteAuthImsImplIMSProviderImplProperties oauthProviderImsTokenUrl(ConfigNodePropertyString oauthProviderImsTokenUrl) {
     this.oauthProviderImsTokenUrl = oauthProviderImsTokenUrl;
     return this;
@@ -82,7 +92,7 @@ public class ComAdobeGraniteAuthImsImplIMSProviderImplProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeGraniteAuthImsImplIMSProviderImplProperties oauthProviderImsProfileUrl(ConfigNodePropertyString oauthProviderImsProfileUrl) {
     this.oauthProviderImsProfileUrl = oauthProviderImsProfileUrl;
     return this;
@@ -99,7 +109,7 @@ public class ComAdobeGraniteAuthImsImplIMSProviderImplProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeGraniteAuthImsImplIMSProviderImplProperties oauthProviderImsExtendedDetailsUrls(ConfigNodePropertyArray oauthProviderImsExtendedDetailsUrls) {
     this.oauthProviderImsExtendedDetailsUrls = oauthProviderImsExtendedDetailsUrls;
     return this;
@@ -116,7 +126,7 @@ public class ComAdobeGraniteAuthImsImplIMSProviderImplProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeGraniteAuthImsImplIMSProviderImplProperties oauthProviderImsValidateTokenUrl(ConfigNodePropertyString oauthProviderImsValidateTokenUrl) {
     this.oauthProviderImsValidateTokenUrl = oauthProviderImsValidateTokenUrl;
     return this;
@@ -133,7 +143,7 @@ public class ComAdobeGraniteAuthImsImplIMSProviderImplProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeGraniteAuthImsImplIMSProviderImplProperties oauthProviderImsSessionProperty(ConfigNodePropertyString oauthProviderImsSessionProperty) {
     this.oauthProviderImsSessionProperty = oauthProviderImsSessionProperty;
     return this;
@@ -150,7 +160,7 @@ public class ComAdobeGraniteAuthImsImplIMSProviderImplProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeGraniteAuthImsImplIMSProviderImplProperties oauthProviderImsServiceTokenClientId(ConfigNodePropertyString oauthProviderImsServiceTokenClientId) {
     this.oauthProviderImsServiceTokenClientId = oauthProviderImsServiceTokenClientId;
     return this;
@@ -167,7 +177,7 @@ public class ComAdobeGraniteAuthImsImplIMSProviderImplProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeGraniteAuthImsImplIMSProviderImplProperties oauthProviderImsServiceTokenClientSecret(ConfigNodePropertyString oauthProviderImsServiceTokenClientSecret) {
     this.oauthProviderImsServiceTokenClientSecret = oauthProviderImsServiceTokenClientSecret;
     return this;
@@ -184,7 +194,7 @@ public class ComAdobeGraniteAuthImsImplIMSProviderImplProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeGraniteAuthImsImplIMSProviderImplProperties oauthProviderImsServiceToken(ConfigNodePropertyString oauthProviderImsServiceToken) {
     this.oauthProviderImsServiceToken = oauthProviderImsServiceToken;
     return this;
@@ -201,7 +211,7 @@ public class ComAdobeGraniteAuthImsImplIMSProviderImplProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeGraniteAuthImsImplIMSProviderImplProperties imsOrgRef(ConfigNodePropertyString imsOrgRef) {
     this.imsOrgRef = imsOrgRef;
     return this;
@@ -218,7 +228,7 @@ public class ComAdobeGraniteAuthImsImplIMSProviderImplProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeGraniteAuthImsImplIMSProviderImplProperties imsGroupMapping(ConfigNodePropertyArray imsGroupMapping) {
     this.imsGroupMapping = imsGroupMapping;
     return this;
@@ -235,7 +245,7 @@ public class ComAdobeGraniteAuthImsImplIMSProviderImplProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeGraniteAuthImsImplIMSProviderImplProperties oauthProviderImsOnlyLicenseGroup(ConfigNodePropertyBoolean oauthProviderImsOnlyLicenseGroup) {
     this.oauthProviderImsOnlyLicenseGroup = oauthProviderImsOnlyLicenseGroup;
     return this;
@@ -253,7 +263,7 @@ public class ComAdobeGraniteAuthImsImplIMSProviderImplProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -307,11 +317,8 @@ public class ComAdobeGraniteAuthImsImplIMSProviderImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

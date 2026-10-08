@@ -1,55 +1,57 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
 import io.swagger.annotations.ApiModelProperty;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlType;
-import javax.xml.bind.annotation.XmlEnum;
-import javax.xml.bind.annotation.XmlEnumValue;
+import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
 
 public class ConfigNodePropertyInteger  {
   
+ /**
+  * property name
+  */
   @ApiModelProperty(value = "property name")
- /**
-   * property name
-  **/
-  private String name = null;
 
+  private String name;
+
+ /**
+  * True if optional
+  */
   @ApiModelProperty(value = "True if optional")
- /**
-   * True if optional
-  **/
-  private Boolean optional = null;
 
+  private Boolean optional;
+
+ /**
+  * True if property is set
+  */
   @ApiModelProperty(value = "True if property is set")
- /**
-   * True if property is set
-  **/
-  private Boolean isSet = null;
 
+  private Boolean isSet;
+
+ /**
+  * Property type, 1=String, 2=Long, 3=Integer, 7=Float, 11=Boolean, 12=Secrets(String)
+  */
   @ApiModelProperty(value = "Property type, 1=String, 2=Long, 3=Integer, 7=Float, 11=Boolean, 12=Secrets(String)")
- /**
-   * Property type, 1=String, 2=Long, 3=Integer, 7=Float, 11=Boolean, 12=Secrets(String)
-  **/
-  private Integer type = null;
 
+  private Integer type;
+
+ /**
+  * Property value
+  */
   @ApiModelProperty(value = "Property value")
- /**
-   * Property value
-  **/
-  private Integer value = null;
 
-  @ApiModelProperty(value = "Property description")
+  private Integer value;
+
  /**
-   * Property description
-  **/
-  private String description = null;
+  * Property description
+  */
+  @ApiModelProperty(value = "Property description")
+
+  private String description;
  /**
    * property name
    * @return name
@@ -158,6 +160,27 @@ public class ConfigNodePropertyInteger  {
     return this;
   }
 
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    ConfigNodePropertyInteger configNodePropertyInteger = (ConfigNodePropertyInteger) o;
+    return Objects.equals(this.name, configNodePropertyInteger.name) &&
+        Objects.equals(this.optional, configNodePropertyInteger.optional) &&
+        Objects.equals(this.isSet, configNodePropertyInteger.isSet) &&
+        Objects.equals(this.type, configNodePropertyInteger.type) &&
+        Objects.equals(this.value, configNodePropertyInteger.value) &&
+        Objects.equals(this.description, configNodePropertyInteger.description);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(name, optional, isSet, type, value, description);
+  }
 
   @Override
   public String toString() {
@@ -178,11 +201,8 @@ public class ConfigNodePropertyInteger  {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private static String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

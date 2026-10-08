@@ -72,11 +72,11 @@ private class OASComAdobeGraniteFragsImplRandomFeaTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeGraniteFragsImplRandomFea comAdobeGraniteFragsImplRandomFeatureProperties = new OASComAdobeGraniteFragsImplRandomFea();
-        Map<String, String> propertyMappings = comAdobeGraniteFragsImplRandomFeatureProperties.getPropertyMappings();
-        System.assertEquals('featureName', propertyMappings.get('feature.name'));
-        System.assertEquals('featureDescription', propertyMappings.get('feature.description'));
-        System.assertEquals('activePercentage', propertyMappings.get('active.percentage'));
-        System.assertEquals('cookieName', propertyMappings.get('cookie.name'));
-        System.assertEquals('cookieMaxAge', propertyMappings.get('cookie.maxAge'));
+        Map<String, String> x-property-mappings = comAdobeGraniteFragsImplRandomFeatureProperties.getx-property-mappings();
+        System.assertEquals('featureName', x-property-mappings.get('feature.name'));
+        System.assertEquals('featureDescription', x-property-mappings.get('feature.description'));
+        System.assertEquals('activePercentage', x-property-mappings.get('active.percentage'));
+        System.assertEquals('cookieName', x-property-mappings.get('cookie.name'));
+        System.assertEquals('cookieMaxAge', x-property-mappings.get('cookie.maxAge'));
     }
 }

@@ -7,8 +7,8 @@ import org.openapitools.model.ConfigNodePropertyArray;
 
 @Canonical
 class ComDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistProperties {
-    ConfigNodePropertyArray defaultAttachmentTypeBlacklist = null
-
-    ConfigNodePropertyArray baselineAttachmentTypeBlacklist = null
-
+    
+    ConfigNodePropertyArray defaultAttachmentTypeBlacklist
+    
+    ConfigNodePropertyArray baselineAttachmentTypeBlacklist
 }

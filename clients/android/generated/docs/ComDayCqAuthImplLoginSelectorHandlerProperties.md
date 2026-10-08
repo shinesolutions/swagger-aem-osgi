@@ -1,7 +1,9 @@
 
+
 # ComDayCqAuthImplLoginSelectorHandlerProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **path** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
@@ -12,6 +14,7 @@ Name | Type | Description | Notes
 **authLoginselectorDefaultchangepwpage** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
 **authLoginselectorHandle** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
 **authLoginselectorHandleAllExtensions** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
+
 
 
 

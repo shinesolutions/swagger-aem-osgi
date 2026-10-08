@@ -1,0 +1,23 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "scheduler_period" },
+      {"model": "scheduler_concurrent" },
+      {"model": "service_bad_link_tolerance_interval" },
+      {"model": "service_check_override_patterns" },
+      {"model": "service_cache_broken_internal_links" },
+      {"model": "service_special_link_prefix" },
+      {"model": "service_special_link_patterns" },
+    ]
+  }]
+}

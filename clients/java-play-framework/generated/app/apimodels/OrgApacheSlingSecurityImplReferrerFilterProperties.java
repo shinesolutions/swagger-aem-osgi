@@ -2,32 +2,43 @@ package apimodels;
 
 import apimodels.ConfigNodePropertyArray;
 import apimodels.ConfigNodePropertyBoolean;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * OrgApacheSlingSecurityImplReferrerFilterProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class OrgApacheSlingSecurityImplReferrerFilterProperties   {
   @JsonProperty("allow.empty")
-  private ConfigNodePropertyBoolean allowEmpty = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean allowEmpty;
 
   @JsonProperty("allow.hosts")
-  private ConfigNodePropertyArray allowHosts = null;
+  @Valid
+
+  private ConfigNodePropertyArray allowHosts;
 
   @JsonProperty("allow.hosts.regexp")
-  private ConfigNodePropertyArray allowHostsRegexp = null;
+  @Valid
+
+  private ConfigNodePropertyArray allowHostsRegexp;
 
   @JsonProperty("filter.methods")
-  private ConfigNodePropertyArray filterMethods = null;
+  @Valid
+
+  private ConfigNodePropertyArray filterMethods;
 
   @JsonProperty("exclude.agents.regexp")
-  private ConfigNodePropertyArray excludeAgentsRegexp = null;
+  @Valid
+
+  private ConfigNodePropertyArray excludeAgentsRegexp;
 
   public OrgApacheSlingSecurityImplReferrerFilterProperties allowEmpty(ConfigNodePropertyBoolean allowEmpty) {
     this.allowEmpty = allowEmpty;
@@ -38,7 +49,6 @@ public class OrgApacheSlingSecurityImplReferrerFilterProperties   {
    * Get allowEmpty
    * @return allowEmpty
   **/
-  @Valid
   public ConfigNodePropertyBoolean getAllowEmpty() {
     return allowEmpty;
   }
@@ -56,7 +66,6 @@ public class OrgApacheSlingSecurityImplReferrerFilterProperties   {
    * Get allowHosts
    * @return allowHosts
   **/
-  @Valid
   public ConfigNodePropertyArray getAllowHosts() {
     return allowHosts;
   }
@@ -74,7 +83,6 @@ public class OrgApacheSlingSecurityImplReferrerFilterProperties   {
    * Get allowHostsRegexp
    * @return allowHostsRegexp
   **/
-  @Valid
   public ConfigNodePropertyArray getAllowHostsRegexp() {
     return allowHostsRegexp;
   }
@@ -92,7 +100,6 @@ public class OrgApacheSlingSecurityImplReferrerFilterProperties   {
    * Get filterMethods
    * @return filterMethods
   **/
-  @Valid
   public ConfigNodePropertyArray getFilterMethods() {
     return filterMethods;
   }
@@ -110,7 +117,6 @@ public class OrgApacheSlingSecurityImplReferrerFilterProperties   {
    * Get excludeAgentsRegexp
    * @return excludeAgentsRegexp
   **/
-  @Valid
   public ConfigNodePropertyArray getExcludeAgentsRegexp() {
     return excludeAgentsRegexp;
   }
@@ -121,7 +127,7 @@ public class OrgApacheSlingSecurityImplReferrerFilterProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -160,11 +166,8 @@ public class OrgApacheSlingSecurityImplReferrerFilterProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

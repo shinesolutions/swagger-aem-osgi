@@ -1,0 +1,23 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "cq_dam_s7dam_videoproxyclientservice_multipartupload_minsize_name" },
+      {"model": "cq_dam_s7dam_videoproxyclientservice_multipartupload_partsize_name" },
+      {"model": "cq_dam_s7dam_videoproxyclientservice_multipartupload_numthread_name" },
+      {"model": "cq_dam_s7dam_videoproxyclientservice_http_readtimeout_name" },
+      {"model": "cq_dam_s7dam_videoproxyclientservice_http_connectiontimeout_name" },
+      {"model": "cq_dam_s7dam_videoproxyclientservice_http_maxretrycount_name" },
+      {"model": "cq_dam_s7dam_videoproxyclientservice_uploadprogress_interval_name" },
+    ]
+  }]
+}

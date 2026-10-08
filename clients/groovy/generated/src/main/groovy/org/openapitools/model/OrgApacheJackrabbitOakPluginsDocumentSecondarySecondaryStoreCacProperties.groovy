@@ -9,10 +9,10 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacProperties {
-    ConfigNodePropertyArray includedPaths = null
-
-    ConfigNodePropertyBoolean enableAsyncObserver = null
-
-    ConfigNodePropertyInteger observerQueueSize = null
-
+    
+    ConfigNodePropertyArray includedPaths
+    
+    ConfigNodePropertyBoolean enableAsyncObserver
+    
+    ConfigNodePropertyInteger observerQueueSize
 }

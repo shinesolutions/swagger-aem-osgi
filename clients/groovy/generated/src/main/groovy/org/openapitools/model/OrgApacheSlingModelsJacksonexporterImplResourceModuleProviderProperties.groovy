@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class OrgApacheSlingModelsJacksonexporterImplResourceModuleProviderProperties {
-    ConfigNodePropertyInteger maxRecursionLevels = null
-
+    
+    ConfigNodePropertyInteger maxRecursionLevels
 }

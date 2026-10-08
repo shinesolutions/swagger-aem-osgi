@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeFdFpConfigFormsPortalSchedulerServiceProperties {
-    ConfigNodePropertyString formportalInterval = null
-
+    
+    ConfigNodePropertyString formportalInterval
 }

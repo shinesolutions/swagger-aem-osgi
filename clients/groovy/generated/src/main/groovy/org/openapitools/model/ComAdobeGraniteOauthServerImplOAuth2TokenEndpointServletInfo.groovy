@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeGraniteOauthServerImplOAuth2TokenEndpointS
 
 @Canonical
 class ComAdobeGraniteOauthServerImplOAuth2TokenEndpointServletInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteOauthServerImplOAuth2TokenEndpointServletProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteOauthServerImplOAuth2TokenEndpointServletProperties properties
 }

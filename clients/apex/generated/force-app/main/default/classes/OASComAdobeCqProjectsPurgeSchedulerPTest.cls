@@ -72,14 +72,14 @@ private class OASComAdobeCqProjectsPurgeSchedulerPTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeCqProjectsPurgeSchedulerP comAdobeCqProjectsPurgeSchedulerProperties = new OASComAdobeCqProjectsPurgeSchedulerP();
-        Map<String, String> propertyMappings = comAdobeCqProjectsPurgeSchedulerProperties.getPropertyMappings();
-        System.assertEquals('scheduledpurgeName', propertyMappings.get('scheduledpurge.name'));
-        System.assertEquals('scheduledpurgePurgeActive', propertyMappings.get('scheduledpurge.purgeActive'));
-        System.assertEquals('scheduledpurgeTemplates', propertyMappings.get('scheduledpurge.templates'));
-        System.assertEquals('scheduledpurgePurgeGroups', propertyMappings.get('scheduledpurge.purgeGroups'));
-        System.assertEquals('scheduledpurgePurgeAssets', propertyMappings.get('scheduledpurge.purgeAssets'));
-        System.assertEquals('scheduledpurgeTerminateRunningWorkflows', propertyMappings.get('scheduledpurge.terminateRunningWorkflows'));
-        System.assertEquals('scheduledpurgeDaysold', propertyMappings.get('scheduledpurge.daysold'));
-        System.assertEquals('scheduledpurgeSaveThreshold', propertyMappings.get('scheduledpurge.saveThreshold'));
+        Map<String, String> x-property-mappings = comAdobeCqProjectsPurgeSchedulerProperties.getx-property-mappings();
+        System.assertEquals('scheduledpurgeName', x-property-mappings.get('scheduledpurge.name'));
+        System.assertEquals('scheduledpurgePurgeActive', x-property-mappings.get('scheduledpurge.purgeActive'));
+        System.assertEquals('scheduledpurgeTemplates', x-property-mappings.get('scheduledpurge.templates'));
+        System.assertEquals('scheduledpurgePurgeGroups', x-property-mappings.get('scheduledpurge.purgeGroups'));
+        System.assertEquals('scheduledpurgePurgeAssets', x-property-mappings.get('scheduledpurge.purgeAssets'));
+        System.assertEquals('scheduledpurgeTerminateRunningWorkflows', x-property-mappings.get('scheduledpurge.terminateRunningWorkflows'));
+        System.assertEquals('scheduledpurgeDaysold', x-property-mappings.get('scheduledpurge.daysold'));
+        System.assertEquals('scheduledpurgeSaveThreshold', x-property-mappings.get('scheduledpurge.saveThreshold'));
     }
 }

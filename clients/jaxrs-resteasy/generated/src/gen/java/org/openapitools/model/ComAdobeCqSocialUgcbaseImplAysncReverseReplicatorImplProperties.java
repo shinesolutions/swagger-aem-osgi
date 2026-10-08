@@ -4,24 +4,28 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2019-08-05T00:59:30.156Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2026-10-07T12:54:21.614735164Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeCqSocialUgcbaseImplAysncReverseReplicatorImplProperties   {
   
-  private ConfigNodePropertyInteger poolSize = null;
-  private ConfigNodePropertyInteger maxPoolSize = null;
-  private ConfigNodePropertyInteger queueSize = null;
-  private ConfigNodePropertyInteger keepAliveTime = null;
+  private ConfigNodePropertyInteger poolSize;
+  private ConfigNodePropertyInteger maxPoolSize;
+  private ConfigNodePropertyInteger queueSize;
+  private ConfigNodePropertyInteger keepAliveTime;
 
   /**
    **/
   
   @ApiModelProperty(value = "")
   @JsonProperty("poolSize")
+  @Valid
   public ConfigNodePropertyInteger getPoolSize() {
     return poolSize;
   }
@@ -34,6 +38,7 @@ public class ComAdobeCqSocialUgcbaseImplAysncReverseReplicatorImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("maxPoolSize")
+  @Valid
   public ConfigNodePropertyInteger getMaxPoolSize() {
     return maxPoolSize;
   }
@@ -46,6 +51,7 @@ public class ComAdobeCqSocialUgcbaseImplAysncReverseReplicatorImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("queueSize")
+  @Valid
   public ConfigNodePropertyInteger getQueueSize() {
     return queueSize;
   }
@@ -58,6 +64,7 @@ public class ComAdobeCqSocialUgcbaseImplAysncReverseReplicatorImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("keepAliveTime")
+  @Valid
   public ConfigNodePropertyInteger getKeepAliveTime() {
     return keepAliveTime;
   }
@@ -67,7 +74,7 @@ public class ComAdobeCqSocialUgcbaseImplAysncReverseReplicatorImplProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -75,10 +82,10 @@ public class ComAdobeCqSocialUgcbaseImplAysncReverseReplicatorImplProperties   {
       return false;
     }
     ComAdobeCqSocialUgcbaseImplAysncReverseReplicatorImplProperties comAdobeCqSocialUgcbaseImplAysncReverseReplicatorImplProperties = (ComAdobeCqSocialUgcbaseImplAysncReverseReplicatorImplProperties) o;
-    return Objects.equals(poolSize, comAdobeCqSocialUgcbaseImplAysncReverseReplicatorImplProperties.poolSize) &&
-        Objects.equals(maxPoolSize, comAdobeCqSocialUgcbaseImplAysncReverseReplicatorImplProperties.maxPoolSize) &&
-        Objects.equals(queueSize, comAdobeCqSocialUgcbaseImplAysncReverseReplicatorImplProperties.queueSize) &&
-        Objects.equals(keepAliveTime, comAdobeCqSocialUgcbaseImplAysncReverseReplicatorImplProperties.keepAliveTime);
+    return Objects.equals(this.poolSize, comAdobeCqSocialUgcbaseImplAysncReverseReplicatorImplProperties.poolSize) &&
+        Objects.equals(this.maxPoolSize, comAdobeCqSocialUgcbaseImplAysncReverseReplicatorImplProperties.maxPoolSize) &&
+        Objects.equals(this.queueSize, comAdobeCqSocialUgcbaseImplAysncReverseReplicatorImplProperties.queueSize) &&
+        Objects.equals(this.keepAliveTime, comAdobeCqSocialUgcbaseImplAysncReverseReplicatorImplProperties.keepAliveTime);
   }
 
   @Override
@@ -103,11 +110,8 @@ public class ComAdobeCqSocialUgcbaseImplAysncReverseReplicatorImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

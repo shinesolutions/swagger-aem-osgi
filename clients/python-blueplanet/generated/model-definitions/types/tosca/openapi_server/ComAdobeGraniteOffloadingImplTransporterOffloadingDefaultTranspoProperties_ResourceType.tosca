@@ -1,0 +1,67 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoProperties {
+    title = ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoProperties
+    description = ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoProperties
+    derivedFrom = Root
+    properties {
+        default_transport_agent_to_worker_prefix {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        default_transport_agent_to_master_prefix {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        default_transport_input_package {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        default_transport_output_package {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        default_transport_replication_synchronous {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        default_transport_contentpackage {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        offloading_transporter_default_enabled {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoProperties {
+    title = ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoProperties
+    description = ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoProperties
+    implements = openapi_server.resourceTypes.ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoProperties
+
+  }
+}

@@ -1,0 +1,238 @@
+package org.openapitools.server.model;
+
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.server.model.ConfigNodePropertyBoolean;
+import org.openapitools.server.model.ConfigNodePropertyString;
+import jakarta.validation.constraints.*;
+import jakarta.validation.Valid;
+
+
+
+public class OrgApacheSlingScriptingJspJspScriptEngineFactoryProperties   {
+
+    private ConfigNodePropertyString jasperCompilerTargetVM;
+    private ConfigNodePropertyString jasperCompilerSourceVM;
+    private ConfigNodePropertyBoolean jasperClassdebuginfo;
+    private ConfigNodePropertyBoolean jasperEnablePooling;
+    private ConfigNodePropertyString jasperIeClassId;
+    private ConfigNodePropertyBoolean jasperGenStringAsCharArray;
+    private ConfigNodePropertyBoolean jasperKeepgenerated;
+    private ConfigNodePropertyBoolean jasperMappedfile;
+    private ConfigNodePropertyBoolean jasperTrimSpaces;
+    private ConfigNodePropertyBoolean jasperDisplaySourceFragments;
+    private ConfigNodePropertyBoolean defaultIsSession;
+
+    /**
+     * Default constructor.
+     */
+    public OrgApacheSlingScriptingJspJspScriptEngineFactoryProperties() {
+    // JSON-B / Jackson
+    }
+
+    /**
+     * Create OrgApacheSlingScriptingJspJspScriptEngineFactoryProperties.
+     *
+     * @param jasperCompilerTargetVM jasperCompilerTargetVM
+     * @param jasperCompilerSourceVM jasperCompilerSourceVM
+     * @param jasperClassdebuginfo jasperClassdebuginfo
+     * @param jasperEnablePooling jasperEnablePooling
+     * @param jasperIeClassId jasperIeClassId
+     * @param jasperGenStringAsCharArray jasperGenStringAsCharArray
+     * @param jasperKeepgenerated jasperKeepgenerated
+     * @param jasperMappedfile jasperMappedfile
+     * @param jasperTrimSpaces jasperTrimSpaces
+     * @param jasperDisplaySourceFragments jasperDisplaySourceFragments
+     * @param defaultIsSession defaultIsSession
+     */
+    public OrgApacheSlingScriptingJspJspScriptEngineFactoryProperties(
+        ConfigNodePropertyString jasperCompilerTargetVM, 
+        ConfigNodePropertyString jasperCompilerSourceVM, 
+        ConfigNodePropertyBoolean jasperClassdebuginfo, 
+        ConfigNodePropertyBoolean jasperEnablePooling, 
+        ConfigNodePropertyString jasperIeClassId, 
+        ConfigNodePropertyBoolean jasperGenStringAsCharArray, 
+        ConfigNodePropertyBoolean jasperKeepgenerated, 
+        ConfigNodePropertyBoolean jasperMappedfile, 
+        ConfigNodePropertyBoolean jasperTrimSpaces, 
+        ConfigNodePropertyBoolean jasperDisplaySourceFragments, 
+        ConfigNodePropertyBoolean defaultIsSession
+    ) {
+        this.jasperCompilerTargetVM = jasperCompilerTargetVM;
+        this.jasperCompilerSourceVM = jasperCompilerSourceVM;
+        this.jasperClassdebuginfo = jasperClassdebuginfo;
+        this.jasperEnablePooling = jasperEnablePooling;
+        this.jasperIeClassId = jasperIeClassId;
+        this.jasperGenStringAsCharArray = jasperGenStringAsCharArray;
+        this.jasperKeepgenerated = jasperKeepgenerated;
+        this.jasperMappedfile = jasperMappedfile;
+        this.jasperTrimSpaces = jasperTrimSpaces;
+        this.jasperDisplaySourceFragments = jasperDisplaySourceFragments;
+        this.defaultIsSession = defaultIsSession;
+    }
+
+
+
+    /**
+     * Get jasperCompilerTargetVM
+     * @return jasperCompilerTargetVM
+     */
+    public ConfigNodePropertyString getJasperCompilerTargetVM() {
+        return jasperCompilerTargetVM;
+    }
+
+    public void setJasperCompilerTargetVM(ConfigNodePropertyString jasperCompilerTargetVM) {
+        this.jasperCompilerTargetVM = jasperCompilerTargetVM;
+    }
+
+    /**
+     * Get jasperCompilerSourceVM
+     * @return jasperCompilerSourceVM
+     */
+    public ConfigNodePropertyString getJasperCompilerSourceVM() {
+        return jasperCompilerSourceVM;
+    }
+
+    public void setJasperCompilerSourceVM(ConfigNodePropertyString jasperCompilerSourceVM) {
+        this.jasperCompilerSourceVM = jasperCompilerSourceVM;
+    }
+
+    /**
+     * Get jasperClassdebuginfo
+     * @return jasperClassdebuginfo
+     */
+    public ConfigNodePropertyBoolean getJasperClassdebuginfo() {
+        return jasperClassdebuginfo;
+    }
+
+    public void setJasperClassdebuginfo(ConfigNodePropertyBoolean jasperClassdebuginfo) {
+        this.jasperClassdebuginfo = jasperClassdebuginfo;
+    }
+
+    /**
+     * Get jasperEnablePooling
+     * @return jasperEnablePooling
+     */
+    public ConfigNodePropertyBoolean getJasperEnablePooling() {
+        return jasperEnablePooling;
+    }
+
+    public void setJasperEnablePooling(ConfigNodePropertyBoolean jasperEnablePooling) {
+        this.jasperEnablePooling = jasperEnablePooling;
+    }
+
+    /**
+     * Get jasperIeClassId
+     * @return jasperIeClassId
+     */
+    public ConfigNodePropertyString getJasperIeClassId() {
+        return jasperIeClassId;
+    }
+
+    public void setJasperIeClassId(ConfigNodePropertyString jasperIeClassId) {
+        this.jasperIeClassId = jasperIeClassId;
+    }
+
+    /**
+     * Get jasperGenStringAsCharArray
+     * @return jasperGenStringAsCharArray
+     */
+    public ConfigNodePropertyBoolean getJasperGenStringAsCharArray() {
+        return jasperGenStringAsCharArray;
+    }
+
+    public void setJasperGenStringAsCharArray(ConfigNodePropertyBoolean jasperGenStringAsCharArray) {
+        this.jasperGenStringAsCharArray = jasperGenStringAsCharArray;
+    }
+
+    /**
+     * Get jasperKeepgenerated
+     * @return jasperKeepgenerated
+     */
+    public ConfigNodePropertyBoolean getJasperKeepgenerated() {
+        return jasperKeepgenerated;
+    }
+
+    public void setJasperKeepgenerated(ConfigNodePropertyBoolean jasperKeepgenerated) {
+        this.jasperKeepgenerated = jasperKeepgenerated;
+    }
+
+    /**
+     * Get jasperMappedfile
+     * @return jasperMappedfile
+     */
+    public ConfigNodePropertyBoolean getJasperMappedfile() {
+        return jasperMappedfile;
+    }
+
+    public void setJasperMappedfile(ConfigNodePropertyBoolean jasperMappedfile) {
+        this.jasperMappedfile = jasperMappedfile;
+    }
+
+    /**
+     * Get jasperTrimSpaces
+     * @return jasperTrimSpaces
+     */
+    public ConfigNodePropertyBoolean getJasperTrimSpaces() {
+        return jasperTrimSpaces;
+    }
+
+    public void setJasperTrimSpaces(ConfigNodePropertyBoolean jasperTrimSpaces) {
+        this.jasperTrimSpaces = jasperTrimSpaces;
+    }
+
+    /**
+     * Get jasperDisplaySourceFragments
+     * @return jasperDisplaySourceFragments
+     */
+    public ConfigNodePropertyBoolean getJasperDisplaySourceFragments() {
+        return jasperDisplaySourceFragments;
+    }
+
+    public void setJasperDisplaySourceFragments(ConfigNodePropertyBoolean jasperDisplaySourceFragments) {
+        this.jasperDisplaySourceFragments = jasperDisplaySourceFragments;
+    }
+
+    /**
+     * Get defaultIsSession
+     * @return defaultIsSession
+     */
+    public ConfigNodePropertyBoolean getDefaultIsSession() {
+        return defaultIsSession;
+    }
+
+    public void setDefaultIsSession(ConfigNodePropertyBoolean defaultIsSession) {
+        this.defaultIsSession = defaultIsSession;
+    }
+
+    /**
+      * Create a string representation of this pojo.
+    **/
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        sb.append("class OrgApacheSlingScriptingJspJspScriptEngineFactoryProperties {\n");
+        
+        sb.append("    jasperCompilerTargetVM: ").append(toIndentedString(jasperCompilerTargetVM)).append("\n");
+        sb.append("    jasperCompilerSourceVM: ").append(toIndentedString(jasperCompilerSourceVM)).append("\n");
+        sb.append("    jasperClassdebuginfo: ").append(toIndentedString(jasperClassdebuginfo)).append("\n");
+        sb.append("    jasperEnablePooling: ").append(toIndentedString(jasperEnablePooling)).append("\n");
+        sb.append("    jasperIeClassId: ").append(toIndentedString(jasperIeClassId)).append("\n");
+        sb.append("    jasperGenStringAsCharArray: ").append(toIndentedString(jasperGenStringAsCharArray)).append("\n");
+        sb.append("    jasperKeepgenerated: ").append(toIndentedString(jasperKeepgenerated)).append("\n");
+        sb.append("    jasperMappedfile: ").append(toIndentedString(jasperMappedfile)).append("\n");
+        sb.append("    jasperTrimSpaces: ").append(toIndentedString(jasperTrimSpaces)).append("\n");
+        sb.append("    jasperDisplaySourceFragments: ").append(toIndentedString(jasperDisplaySourceFragments)).append("\n");
+        sb.append("    defaultIsSession: ").append(toIndentedString(defaultIsSession)).append("\n");
+        sb.append("}");
+        return sb.toString();
+    }
+
+    /**
+     * Convert the given object to string with each line indented by 4 spaces
+     * (except the first line).
+    */
+    private static String toIndentedString(Object o) {
+        return o == null ? "null" : o.toString().replace("\n", "\n    ");
+    }
+}
+

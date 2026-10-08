@@ -72,13 +72,13 @@ private class OASComDayCqDamS7damCommonVideoImplViTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqDamS7damCommonVideoImplVi comDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplProperties = new OASComDayCqDamS7damCommonVideoImplVi();
-        Map<String, String> propertyMappings = comDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplProperties.getPropertyMappings();
-        System.assertEquals('cqDamS7damVideoproxyclientserviceMultipartuploadMinsizeName', propertyMappings.get('cq.dam.s7dam.videoproxyclientservice.multipartupload.minsize.name'));
-        System.assertEquals('cqDamS7damVideoproxyclientserviceMultipartuploadPartsizeName', propertyMappings.get('cq.dam.s7dam.videoproxyclientservice.multipartupload.partsize.name'));
-        System.assertEquals('cqDamS7damVideoproxyclientserviceMultipartuploadNumthreadName', propertyMappings.get('cq.dam.s7dam.videoproxyclientservice.multipartupload.numthread.name'));
-        System.assertEquals('cqDamS7damVideoproxyclientserviceHttpReadtimeoutName', propertyMappings.get('cq.dam.s7dam.videoproxyclientservice.http.readtimeout.name'));
-        System.assertEquals('cqDamS7damVideoproxyclientserviceHttpConnectiontimeoutName', propertyMappings.get('cq.dam.s7dam.videoproxyclientservice.http.connectiontimeout.name'));
-        System.assertEquals('cqDamS7damVideoproxyclientserviceHttpMaxretrycountName', propertyMappings.get('cq.dam.s7dam.videoproxyclientservice.http.maxretrycount.name'));
-        System.assertEquals('cqDamS7damVideoproxyclientserviceUploadprogressIntervalName', propertyMappings.get('cq.dam.s7dam.videoproxyclientservice.uploadprogress.interval.name'));
+        Map<String, String> x-property-mappings = comDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplProperties.getx-property-mappings();
+        System.assertEquals('cqDamS7damVideoproxyclientserviceMultipartuploadMinsizeName', x-property-mappings.get('cq.dam.s7dam.videoproxyclientservice.multipartupload.minsize.name'));
+        System.assertEquals('cqDamS7damVideoproxyclientserviceMultipartuploadPartsizeName', x-property-mappings.get('cq.dam.s7dam.videoproxyclientservice.multipartupload.partsize.name'));
+        System.assertEquals('cqDamS7damVideoproxyclientserviceMultipartuploadNumthreadName', x-property-mappings.get('cq.dam.s7dam.videoproxyclientservice.multipartupload.numthread.name'));
+        System.assertEquals('cqDamS7damVideoproxyclientserviceHttpReadtimeoutName', x-property-mappings.get('cq.dam.s7dam.videoproxyclientservice.http.readtimeout.name'));
+        System.assertEquals('cqDamS7damVideoproxyclientserviceHttpConnectiontimeoutName', x-property-mappings.get('cq.dam.s7dam.videoproxyclientservice.http.connectiontimeout.name'));
+        System.assertEquals('cqDamS7damVideoproxyclientserviceHttpMaxretrycountName', x-property-mappings.get('cq.dam.s7dam.videoproxyclientservice.http.maxretrycount.name'));
+        System.assertEquals('cqDamS7damVideoproxyclientserviceUploadprogressIntervalName', x-property-mappings.get('cq.dam.s7dam.videoproxyclientservice.uploadprogress.interval.name'));
     }
 }

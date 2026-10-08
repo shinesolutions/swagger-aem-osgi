@@ -1,43 +1,54 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComAdobeCqScreensDeviceImplDeviceServiceProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComAdobeCqScreensDeviceImplDeviceServiceProperties   {
-  @JsonProperty("com.adobe.aem.screens.player.pingfrequency")
-  private ConfigNodePropertyInteger comAdobeAemScreensPlayerPingfrequency = null;
+@JsonTypeName("comAdobeCqScreensDeviceImplDeviceServiceProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComAdobeCqScreensDeviceImplDeviceServiceProperties {
 
-  @JsonProperty("com.adobe.aem.screens.device.pasword.specialchars")
-  private ConfigNodePropertyString comAdobeAemScreensDevicePaswordSpecialchars = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger comAdobeAemScreensPlayerPingfrequency;
 
-  @JsonProperty("com.adobe.aem.screens.device.pasword.minlowercasechars")
-  private ConfigNodePropertyInteger comAdobeAemScreensDevicePaswordMinlowercasechars = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString comAdobeAemScreensDevicePaswordSpecialchars;
 
-  @JsonProperty("com.adobe.aem.screens.device.pasword.minuppercasechars")
-  private ConfigNodePropertyInteger comAdobeAemScreensDevicePaswordMinuppercasechars = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger comAdobeAemScreensDevicePaswordMinlowercasechars;
 
-  @JsonProperty("com.adobe.aem.screens.device.pasword.minnumberchars")
-  private ConfigNodePropertyInteger comAdobeAemScreensDevicePaswordMinnumberchars = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger comAdobeAemScreensDevicePaswordMinuppercasechars;
 
-  @JsonProperty("com.adobe.aem.screens.device.pasword.minspecialchars")
-  private ConfigNodePropertyInteger comAdobeAemScreensDevicePaswordMinspecialchars = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger comAdobeAemScreensDevicePaswordMinnumberchars;
 
-  @JsonProperty("com.adobe.aem.screens.device.pasword.minlength")
-  private ConfigNodePropertyInteger comAdobeAemScreensDevicePaswordMinlength = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger comAdobeAemScreensDevicePaswordMinspecialchars;
 
-  public ComAdobeCqScreensDeviceImplDeviceServiceProperties comAdobeAemScreensPlayerPingfrequency(ConfigNodePropertyInteger comAdobeAemScreensPlayerPingfrequency) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger comAdobeAemScreensDevicePaswordMinlength;
+
+  public ComAdobeCqScreensDeviceImplDeviceServiceProperties comAdobeAemScreensPlayerPingfrequency(@Nullable ConfigNodePropertyInteger comAdobeAemScreensPlayerPingfrequency) {
     this.comAdobeAemScreensPlayerPingfrequency = comAdobeAemScreensPlayerPingfrequency;
     return this;
   }
@@ -45,20 +56,20 @@ public class ComAdobeCqScreensDeviceImplDeviceServiceProperties   {
   /**
    * Get comAdobeAemScreensPlayerPingfrequency
    * @return comAdobeAemScreensPlayerPingfrequency
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getComAdobeAemScreensPlayerPingfrequency() {
+   */
+  @Valid 
+  @Schema(name = "com.adobe.aem.screens.player.pingfrequency", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("com.adobe.aem.screens.player.pingfrequency")
+  public @Nullable ConfigNodePropertyInteger getComAdobeAemScreensPlayerPingfrequency() {
     return comAdobeAemScreensPlayerPingfrequency;
   }
 
-  public void setComAdobeAemScreensPlayerPingfrequency(ConfigNodePropertyInteger comAdobeAemScreensPlayerPingfrequency) {
+  @JsonProperty("com.adobe.aem.screens.player.pingfrequency")
+  public void setComAdobeAemScreensPlayerPingfrequency(@Nullable ConfigNodePropertyInteger comAdobeAemScreensPlayerPingfrequency) {
     this.comAdobeAemScreensPlayerPingfrequency = comAdobeAemScreensPlayerPingfrequency;
   }
 
-  public ComAdobeCqScreensDeviceImplDeviceServiceProperties comAdobeAemScreensDevicePaswordSpecialchars(ConfigNodePropertyString comAdobeAemScreensDevicePaswordSpecialchars) {
+  public ComAdobeCqScreensDeviceImplDeviceServiceProperties comAdobeAemScreensDevicePaswordSpecialchars(@Nullable ConfigNodePropertyString comAdobeAemScreensDevicePaswordSpecialchars) {
     this.comAdobeAemScreensDevicePaswordSpecialchars = comAdobeAemScreensDevicePaswordSpecialchars;
     return this;
   }
@@ -66,20 +77,20 @@ public class ComAdobeCqScreensDeviceImplDeviceServiceProperties   {
   /**
    * Get comAdobeAemScreensDevicePaswordSpecialchars
    * @return comAdobeAemScreensDevicePaswordSpecialchars
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getComAdobeAemScreensDevicePaswordSpecialchars() {
+   */
+  @Valid 
+  @Schema(name = "com.adobe.aem.screens.device.pasword.specialchars", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("com.adobe.aem.screens.device.pasword.specialchars")
+  public @Nullable ConfigNodePropertyString getComAdobeAemScreensDevicePaswordSpecialchars() {
     return comAdobeAemScreensDevicePaswordSpecialchars;
   }
 
-  public void setComAdobeAemScreensDevicePaswordSpecialchars(ConfigNodePropertyString comAdobeAemScreensDevicePaswordSpecialchars) {
+  @JsonProperty("com.adobe.aem.screens.device.pasword.specialchars")
+  public void setComAdobeAemScreensDevicePaswordSpecialchars(@Nullable ConfigNodePropertyString comAdobeAemScreensDevicePaswordSpecialchars) {
     this.comAdobeAemScreensDevicePaswordSpecialchars = comAdobeAemScreensDevicePaswordSpecialchars;
   }
 
-  public ComAdobeCqScreensDeviceImplDeviceServiceProperties comAdobeAemScreensDevicePaswordMinlowercasechars(ConfigNodePropertyInteger comAdobeAemScreensDevicePaswordMinlowercasechars) {
+  public ComAdobeCqScreensDeviceImplDeviceServiceProperties comAdobeAemScreensDevicePaswordMinlowercasechars(@Nullable ConfigNodePropertyInteger comAdobeAemScreensDevicePaswordMinlowercasechars) {
     this.comAdobeAemScreensDevicePaswordMinlowercasechars = comAdobeAemScreensDevicePaswordMinlowercasechars;
     return this;
   }
@@ -87,20 +98,20 @@ public class ComAdobeCqScreensDeviceImplDeviceServiceProperties   {
   /**
    * Get comAdobeAemScreensDevicePaswordMinlowercasechars
    * @return comAdobeAemScreensDevicePaswordMinlowercasechars
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getComAdobeAemScreensDevicePaswordMinlowercasechars() {
+   */
+  @Valid 
+  @Schema(name = "com.adobe.aem.screens.device.pasword.minlowercasechars", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("com.adobe.aem.screens.device.pasword.minlowercasechars")
+  public @Nullable ConfigNodePropertyInteger getComAdobeAemScreensDevicePaswordMinlowercasechars() {
     return comAdobeAemScreensDevicePaswordMinlowercasechars;
   }
 
-  public void setComAdobeAemScreensDevicePaswordMinlowercasechars(ConfigNodePropertyInteger comAdobeAemScreensDevicePaswordMinlowercasechars) {
+  @JsonProperty("com.adobe.aem.screens.device.pasword.minlowercasechars")
+  public void setComAdobeAemScreensDevicePaswordMinlowercasechars(@Nullable ConfigNodePropertyInteger comAdobeAemScreensDevicePaswordMinlowercasechars) {
     this.comAdobeAemScreensDevicePaswordMinlowercasechars = comAdobeAemScreensDevicePaswordMinlowercasechars;
   }
 
-  public ComAdobeCqScreensDeviceImplDeviceServiceProperties comAdobeAemScreensDevicePaswordMinuppercasechars(ConfigNodePropertyInteger comAdobeAemScreensDevicePaswordMinuppercasechars) {
+  public ComAdobeCqScreensDeviceImplDeviceServiceProperties comAdobeAemScreensDevicePaswordMinuppercasechars(@Nullable ConfigNodePropertyInteger comAdobeAemScreensDevicePaswordMinuppercasechars) {
     this.comAdobeAemScreensDevicePaswordMinuppercasechars = comAdobeAemScreensDevicePaswordMinuppercasechars;
     return this;
   }
@@ -108,20 +119,20 @@ public class ComAdobeCqScreensDeviceImplDeviceServiceProperties   {
   /**
    * Get comAdobeAemScreensDevicePaswordMinuppercasechars
    * @return comAdobeAemScreensDevicePaswordMinuppercasechars
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getComAdobeAemScreensDevicePaswordMinuppercasechars() {
+   */
+  @Valid 
+  @Schema(name = "com.adobe.aem.screens.device.pasword.minuppercasechars", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("com.adobe.aem.screens.device.pasword.minuppercasechars")
+  public @Nullable ConfigNodePropertyInteger getComAdobeAemScreensDevicePaswordMinuppercasechars() {
     return comAdobeAemScreensDevicePaswordMinuppercasechars;
   }
 
-  public void setComAdobeAemScreensDevicePaswordMinuppercasechars(ConfigNodePropertyInteger comAdobeAemScreensDevicePaswordMinuppercasechars) {
+  @JsonProperty("com.adobe.aem.screens.device.pasword.minuppercasechars")
+  public void setComAdobeAemScreensDevicePaswordMinuppercasechars(@Nullable ConfigNodePropertyInteger comAdobeAemScreensDevicePaswordMinuppercasechars) {
     this.comAdobeAemScreensDevicePaswordMinuppercasechars = comAdobeAemScreensDevicePaswordMinuppercasechars;
   }
 
-  public ComAdobeCqScreensDeviceImplDeviceServiceProperties comAdobeAemScreensDevicePaswordMinnumberchars(ConfigNodePropertyInteger comAdobeAemScreensDevicePaswordMinnumberchars) {
+  public ComAdobeCqScreensDeviceImplDeviceServiceProperties comAdobeAemScreensDevicePaswordMinnumberchars(@Nullable ConfigNodePropertyInteger comAdobeAemScreensDevicePaswordMinnumberchars) {
     this.comAdobeAemScreensDevicePaswordMinnumberchars = comAdobeAemScreensDevicePaswordMinnumberchars;
     return this;
   }
@@ -129,20 +140,20 @@ public class ComAdobeCqScreensDeviceImplDeviceServiceProperties   {
   /**
    * Get comAdobeAemScreensDevicePaswordMinnumberchars
    * @return comAdobeAemScreensDevicePaswordMinnumberchars
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getComAdobeAemScreensDevicePaswordMinnumberchars() {
+   */
+  @Valid 
+  @Schema(name = "com.adobe.aem.screens.device.pasword.minnumberchars", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("com.adobe.aem.screens.device.pasword.minnumberchars")
+  public @Nullable ConfigNodePropertyInteger getComAdobeAemScreensDevicePaswordMinnumberchars() {
     return comAdobeAemScreensDevicePaswordMinnumberchars;
   }
 
-  public void setComAdobeAemScreensDevicePaswordMinnumberchars(ConfigNodePropertyInteger comAdobeAemScreensDevicePaswordMinnumberchars) {
+  @JsonProperty("com.adobe.aem.screens.device.pasword.minnumberchars")
+  public void setComAdobeAemScreensDevicePaswordMinnumberchars(@Nullable ConfigNodePropertyInteger comAdobeAemScreensDevicePaswordMinnumberchars) {
     this.comAdobeAemScreensDevicePaswordMinnumberchars = comAdobeAemScreensDevicePaswordMinnumberchars;
   }
 
-  public ComAdobeCqScreensDeviceImplDeviceServiceProperties comAdobeAemScreensDevicePaswordMinspecialchars(ConfigNodePropertyInteger comAdobeAemScreensDevicePaswordMinspecialchars) {
+  public ComAdobeCqScreensDeviceImplDeviceServiceProperties comAdobeAemScreensDevicePaswordMinspecialchars(@Nullable ConfigNodePropertyInteger comAdobeAemScreensDevicePaswordMinspecialchars) {
     this.comAdobeAemScreensDevicePaswordMinspecialchars = comAdobeAemScreensDevicePaswordMinspecialchars;
     return this;
   }
@@ -150,20 +161,20 @@ public class ComAdobeCqScreensDeviceImplDeviceServiceProperties   {
   /**
    * Get comAdobeAemScreensDevicePaswordMinspecialchars
    * @return comAdobeAemScreensDevicePaswordMinspecialchars
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getComAdobeAemScreensDevicePaswordMinspecialchars() {
+   */
+  @Valid 
+  @Schema(name = "com.adobe.aem.screens.device.pasword.minspecialchars", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("com.adobe.aem.screens.device.pasword.minspecialchars")
+  public @Nullable ConfigNodePropertyInteger getComAdobeAemScreensDevicePaswordMinspecialchars() {
     return comAdobeAemScreensDevicePaswordMinspecialchars;
   }
 
-  public void setComAdobeAemScreensDevicePaswordMinspecialchars(ConfigNodePropertyInteger comAdobeAemScreensDevicePaswordMinspecialchars) {
+  @JsonProperty("com.adobe.aem.screens.device.pasword.minspecialchars")
+  public void setComAdobeAemScreensDevicePaswordMinspecialchars(@Nullable ConfigNodePropertyInteger comAdobeAemScreensDevicePaswordMinspecialchars) {
     this.comAdobeAemScreensDevicePaswordMinspecialchars = comAdobeAemScreensDevicePaswordMinspecialchars;
   }
 
-  public ComAdobeCqScreensDeviceImplDeviceServiceProperties comAdobeAemScreensDevicePaswordMinlength(ConfigNodePropertyInteger comAdobeAemScreensDevicePaswordMinlength) {
+  public ComAdobeCqScreensDeviceImplDeviceServiceProperties comAdobeAemScreensDevicePaswordMinlength(@Nullable ConfigNodePropertyInteger comAdobeAemScreensDevicePaswordMinlength) {
     this.comAdobeAemScreensDevicePaswordMinlength = comAdobeAemScreensDevicePaswordMinlength;
     return this;
   }
@@ -171,22 +182,21 @@ public class ComAdobeCqScreensDeviceImplDeviceServiceProperties   {
   /**
    * Get comAdobeAemScreensDevicePaswordMinlength
    * @return comAdobeAemScreensDevicePaswordMinlength
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getComAdobeAemScreensDevicePaswordMinlength() {
+   */
+  @Valid 
+  @Schema(name = "com.adobe.aem.screens.device.pasword.minlength", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("com.adobe.aem.screens.device.pasword.minlength")
+  public @Nullable ConfigNodePropertyInteger getComAdobeAemScreensDevicePaswordMinlength() {
     return comAdobeAemScreensDevicePaswordMinlength;
   }
 
-  public void setComAdobeAemScreensDevicePaswordMinlength(ConfigNodePropertyInteger comAdobeAemScreensDevicePaswordMinlength) {
+  @JsonProperty("com.adobe.aem.screens.device.pasword.minlength")
+  public void setComAdobeAemScreensDevicePaswordMinlength(@Nullable ConfigNodePropertyInteger comAdobeAemScreensDevicePaswordMinlength) {
     this.comAdobeAemScreensDevicePaswordMinlength = comAdobeAemScreensDevicePaswordMinlength;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -212,7 +222,6 @@ public class ComAdobeCqScreensDeviceImplDeviceServiceProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComAdobeCqScreensDeviceImplDeviceServiceProperties {\n");
-    
     sb.append("    comAdobeAemScreensPlayerPingfrequency: ").append(toIndentedString(comAdobeAemScreensPlayerPingfrequency)).append("\n");
     sb.append("    comAdobeAemScreensDevicePaswordSpecialchars: ").append(toIndentedString(comAdobeAemScreensDevicePaswordSpecialchars)).append("\n");
     sb.append("    comAdobeAemScreensDevicePaswordMinlowercasechars: ").append(toIndentedString(comAdobeAemScreensDevicePaswordMinlowercasechars)).append("\n");
@@ -228,11 +237,8 @@ public class ComAdobeCqScreensDeviceImplDeviceServiceProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -1,21 +1,32 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThrougProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThrougProperties   {
-  
-  private @Valid ConfigNodePropertyInteger serviceRanking = null;
-  private @Valid ConfigNodePropertyString tagpattern = null;
-  private @Valid ConfigNodePropertyString componentResourceType = null;
+  private ConfigNodePropertyInteger serviceRanking;
+  private ConfigNodePropertyString tagpattern;
+  private ConfigNodePropertyString componentResourceType;
+
+  public ComDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThrougProperties() {
+  }
 
   /**
    **/
@@ -27,9 +38,11 @@ public class ComDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThrougPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("service.ranking")
-  public ConfigNodePropertyInteger getServiceRanking() {
+  @Valid public ConfigNodePropertyInteger getServiceRanking() {
     return serviceRanking;
   }
+
+  @JsonProperty("service.ranking")
   public void setServiceRanking(ConfigNodePropertyInteger serviceRanking) {
     this.serviceRanking = serviceRanking;
   }
@@ -44,9 +57,11 @@ public class ComDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThrougPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("tagpattern")
-  public ConfigNodePropertyString getTagpattern() {
+  @Valid public ConfigNodePropertyString getTagpattern() {
     return tagpattern;
   }
+
+  @JsonProperty("tagpattern")
   public void setTagpattern(ConfigNodePropertyString tagpattern) {
     this.tagpattern = tagpattern;
   }
@@ -61,16 +76,18 @@ public class ComDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThrougPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("component.resourceType")
-  public ConfigNodePropertyString getComponentResourceType() {
+  @Valid public ConfigNodePropertyString getComponentResourceType() {
     return componentResourceType;
   }
+
+  @JsonProperty("component.resourceType")
   public void setComponentResourceType(ConfigNodePropertyString componentResourceType) {
     this.componentResourceType = componentResourceType;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -78,9 +95,9 @@ public class ComDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThrougPrope
       return false;
     }
     ComDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThrougProperties comDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThrougProperties = (ComDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThrougProperties) o;
-    return Objects.equals(serviceRanking, comDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThrougProperties.serviceRanking) &&
-        Objects.equals(tagpattern, comDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThrougProperties.tagpattern) &&
-        Objects.equals(componentResourceType, comDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThrougProperties.componentResourceType);
+    return Objects.equals(this.serviceRanking, comDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThrougProperties.serviceRanking) &&
+        Objects.equals(this.tagpattern, comDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThrougProperties.tagpattern) &&
+        Objects.equals(this.componentResourceType, comDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThrougProperties.componentResourceType);
   }
 
   @Override
@@ -104,11 +121,9 @@ public class ComDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThrougPrope
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

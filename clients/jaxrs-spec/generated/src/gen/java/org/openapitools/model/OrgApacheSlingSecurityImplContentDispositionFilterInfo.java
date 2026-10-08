@@ -1,23 +1,34 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.OrgApacheSlingSecurityImplContentDispositionFilterProperties;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("orgApacheSlingSecurityImplContentDispositionFilterInfo")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingSecurityImplContentDispositionFilterInfo   {
-  
-  private @Valid String pid = null;
-  private @Valid String title = null;
-  private @Valid String description = null;
-  private @Valid OrgApacheSlingSecurityImplContentDispositionFilterProperties properties = null;
-  private @Valid String bundleLocation = null;
-  private @Valid String serviceLocation = null;
+  private String pid;
+  private String title;
+  private String description;
+  private OrgApacheSlingSecurityImplContentDispositionFilterProperties properties;
+  private String bundleLocation;
+  private String serviceLocation;
+
+  public OrgApacheSlingSecurityImplContentDispositionFilterInfo() {
+  }
 
   /**
    **/
@@ -32,6 +43,8 @@ public class OrgApacheSlingSecurityImplContentDispositionFilterInfo   {
   public String getPid() {
     return pid;
   }
+
+  @JsonProperty("pid")
   public void setPid(String pid) {
     this.pid = pid;
   }
@@ -49,6 +62,8 @@ public class OrgApacheSlingSecurityImplContentDispositionFilterInfo   {
   public String getTitle() {
     return title;
   }
+
+  @JsonProperty("title")
   public void setTitle(String title) {
     this.title = title;
   }
@@ -66,6 +81,8 @@ public class OrgApacheSlingSecurityImplContentDispositionFilterInfo   {
   public String getDescription() {
     return description;
   }
+
+  @JsonProperty("description")
   public void setDescription(String description) {
     this.description = description;
   }
@@ -80,9 +97,11 @@ public class OrgApacheSlingSecurityImplContentDispositionFilterInfo   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("properties")
-  public OrgApacheSlingSecurityImplContentDispositionFilterProperties getProperties() {
+  @Valid public OrgApacheSlingSecurityImplContentDispositionFilterProperties getProperties() {
     return properties;
   }
+
+  @JsonProperty("properties")
   public void setProperties(OrgApacheSlingSecurityImplContentDispositionFilterProperties properties) {
     this.properties = properties;
   }
@@ -100,6 +119,8 @@ public class OrgApacheSlingSecurityImplContentDispositionFilterInfo   {
   public String getBundleLocation() {
     return bundleLocation;
   }
+
+  @JsonProperty("bundle_location")
   public void setBundleLocation(String bundleLocation) {
     this.bundleLocation = bundleLocation;
   }
@@ -117,13 +138,15 @@ public class OrgApacheSlingSecurityImplContentDispositionFilterInfo   {
   public String getServiceLocation() {
     return serviceLocation;
   }
+
+  @JsonProperty("service_location")
   public void setServiceLocation(String serviceLocation) {
     this.serviceLocation = serviceLocation;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -131,12 +154,12 @@ public class OrgApacheSlingSecurityImplContentDispositionFilterInfo   {
       return false;
     }
     OrgApacheSlingSecurityImplContentDispositionFilterInfo orgApacheSlingSecurityImplContentDispositionFilterInfo = (OrgApacheSlingSecurityImplContentDispositionFilterInfo) o;
-    return Objects.equals(pid, orgApacheSlingSecurityImplContentDispositionFilterInfo.pid) &&
-        Objects.equals(title, orgApacheSlingSecurityImplContentDispositionFilterInfo.title) &&
-        Objects.equals(description, orgApacheSlingSecurityImplContentDispositionFilterInfo.description) &&
-        Objects.equals(properties, orgApacheSlingSecurityImplContentDispositionFilterInfo.properties) &&
-        Objects.equals(bundleLocation, orgApacheSlingSecurityImplContentDispositionFilterInfo.bundleLocation) &&
-        Objects.equals(serviceLocation, orgApacheSlingSecurityImplContentDispositionFilterInfo.serviceLocation);
+    return Objects.equals(this.pid, orgApacheSlingSecurityImplContentDispositionFilterInfo.pid) &&
+        Objects.equals(this.title, orgApacheSlingSecurityImplContentDispositionFilterInfo.title) &&
+        Objects.equals(this.description, orgApacheSlingSecurityImplContentDispositionFilterInfo.description) &&
+        Objects.equals(this.properties, orgApacheSlingSecurityImplContentDispositionFilterInfo.properties) &&
+        Objects.equals(this.bundleLocation, orgApacheSlingSecurityImplContentDispositionFilterInfo.bundleLocation) &&
+        Objects.equals(this.serviceLocation, orgApacheSlingSecurityImplContentDispositionFilterInfo.serviceLocation);
   }
 
   @Override
@@ -163,11 +186,9 @@ public class OrgApacheSlingSecurityImplContentDispositionFilterInfo   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

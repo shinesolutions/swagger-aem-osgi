@@ -1,9 +1,7 @@
 package org.openapitools.api;
 
-import javax.xml.bind.annotation.XmlTransient;
 
-@javax.xml.bind.annotation.XmlRootElement
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJerseyServerCodegen", date = "2019-08-05T00:58:47.028Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJerseyServerCodegen", date = "2026-10-07T12:54:10.605414884Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ApiResponseMessage {
     public static final int ERROR = 1;
     public static final int WARNING = 2;
@@ -42,7 +40,6 @@ public class ApiResponseMessage {
         this.message = message;
     }
 
-    @XmlTransient
     public int getCode() {
         return code;
     }

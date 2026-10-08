@@ -7,8 +7,8 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqContentsyncImplContentSyncManagerImplProperties {
-    ConfigNodePropertyString contentsyncFallbackAuthorizable = null
-
-    ConfigNodePropertyString contentsyncFallbackUpdateuser = null
-
+    
+    ConfigNodePropertyString contentsyncFallbackAuthorizable
+    
+    ConfigNodePropertyString contentsyncFallbackUpdateuser
 }

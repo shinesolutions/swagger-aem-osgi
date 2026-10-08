@@ -72,7 +72,7 @@ private class OASComDayCqDamCoreImplMimeTypeDamMimTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqDamCoreImplMimeTypeDamMim comDayCqDamCoreImplMimeTypeDamMimeTypeServiceImplProperties = new OASComDayCqDamCoreImplMimeTypeDamMim();
-        Map<String, String> propertyMappings = comDayCqDamCoreImplMimeTypeDamMimeTypeServiceImplProperties.getPropertyMappings();
-        System.assertEquals('cqDamDetectAssetMimeFromContent', propertyMappings.get('cq.dam.detect.asset.mime.from.content'));
+        Map<String, String> x-property-mappings = comDayCqDamCoreImplMimeTypeDamMimeTypeServiceImplProperties.getx-property-mappings();
+        System.assertEquals('cqDamDetectAssetMimeFromContent', x-property-mappings.get('cq.dam.detect.asset.mime.from.content'));
     }
 }

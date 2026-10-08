@@ -3,6 +3,7 @@ package org.openapitools.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
@@ -14,85 +15,85 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaInflectorServerCodegen", date = "2019-08-05T00:53:46.291Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaInflectorServerCodegen", date = "2026-10-07T12:53:12.340274163Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties   {
   @JsonProperty("provider.name")
-  private ConfigNodePropertyString providerName = null;
+  private ConfigNodePropertyString providerName;
 
   @JsonProperty("host.name")
-  private ConfigNodePropertyString hostName = null;
+  private ConfigNodePropertyString hostName;
 
   @JsonProperty("host.port")
-  private ConfigNodePropertyInteger hostPort = null;
+  private ConfigNodePropertyInteger hostPort;
 
   @JsonProperty("host.ssl")
-  private ConfigNodePropertyBoolean hostSsl = null;
+  private ConfigNodePropertyBoolean hostSsl;
 
   @JsonProperty("host.tls")
-  private ConfigNodePropertyBoolean hostTls = null;
+  private ConfigNodePropertyBoolean hostTls;
 
   @JsonProperty("host.noCertCheck")
-  private ConfigNodePropertyBoolean hostNoCertCheck = null;
+  private ConfigNodePropertyBoolean hostNoCertCheck;
 
   @JsonProperty("bind.dn")
-  private ConfigNodePropertyString bindDn = null;
+  private ConfigNodePropertyString bindDn;
 
   @JsonProperty("bind.password")
-  private ConfigNodePropertyString bindPassword = null;
+  private ConfigNodePropertyString bindPassword;
 
   @JsonProperty("searchTimeout")
-  private ConfigNodePropertyString searchTimeout = null;
+  private ConfigNodePropertyString searchTimeout;
 
   @JsonProperty("adminPool.maxActive")
-  private ConfigNodePropertyInteger adminPoolMaxActive = null;
+  private ConfigNodePropertyInteger adminPoolMaxActive;
 
   @JsonProperty("adminPool.lookupOnValidate")
-  private ConfigNodePropertyBoolean adminPoolLookupOnValidate = null;
+  private ConfigNodePropertyBoolean adminPoolLookupOnValidate;
 
   @JsonProperty("userPool.maxActive")
-  private ConfigNodePropertyInteger userPoolMaxActive = null;
+  private ConfigNodePropertyInteger userPoolMaxActive;
 
   @JsonProperty("userPool.lookupOnValidate")
-  private ConfigNodePropertyBoolean userPoolLookupOnValidate = null;
+  private ConfigNodePropertyBoolean userPoolLookupOnValidate;
 
   @JsonProperty("user.baseDN")
-  private ConfigNodePropertyString userBaseDN = null;
+  private ConfigNodePropertyString userBaseDN;
 
   @JsonProperty("user.objectclass")
-  private ConfigNodePropertyArray userObjectclass = null;
+  private ConfigNodePropertyArray userObjectclass;
 
   @JsonProperty("user.idAttribute")
-  private ConfigNodePropertyString userIdAttribute = null;
+  private ConfigNodePropertyString userIdAttribute;
 
   @JsonProperty("user.extraFilter")
-  private ConfigNodePropertyString userExtraFilter = null;
+  private ConfigNodePropertyString userExtraFilter;
 
   @JsonProperty("user.makeDnPath")
-  private ConfigNodePropertyBoolean userMakeDnPath = null;
+  private ConfigNodePropertyBoolean userMakeDnPath;
 
   @JsonProperty("group.baseDN")
-  private ConfigNodePropertyString groupBaseDN = null;
+  private ConfigNodePropertyString groupBaseDN;
 
   @JsonProperty("group.objectclass")
-  private ConfigNodePropertyArray groupObjectclass = null;
+  private ConfigNodePropertyArray groupObjectclass;
 
   @JsonProperty("group.nameAttribute")
-  private ConfigNodePropertyString groupNameAttribute = null;
+  private ConfigNodePropertyString groupNameAttribute;
 
   @JsonProperty("group.extraFilter")
-  private ConfigNodePropertyString groupExtraFilter = null;
+  private ConfigNodePropertyString groupExtraFilter;
 
   @JsonProperty("group.makeDnPath")
-  private ConfigNodePropertyBoolean groupMakeDnPath = null;
+  private ConfigNodePropertyBoolean groupMakeDnPath;
 
   @JsonProperty("group.memberAttribute")
-  private ConfigNodePropertyString groupMemberAttribute = null;
+  private ConfigNodePropertyString groupMemberAttribute;
 
   @JsonProperty("useUidForExtId")
-  private ConfigNodePropertyBoolean useUidForExtId = null;
+  private ConfigNodePropertyBoolean useUidForExtId;
 
   @JsonProperty("customattributes")
-  private ConfigNodePropertyArray customattributes = null;
+  private ConfigNodePropertyArray customattributes;
 
   /**
    **/
@@ -538,7 +539,7 @@ public class OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiPrope
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -618,11 +619,8 @@ public class OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiPrope
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -8,16 +8,16 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqDamIdsImplIDSPoolManagerImplProperties {
-    ConfigNodePropertyInteger maxErrorsToBlacklist = null
-
-    ConfigNodePropertyInteger retryIntervalToWhitelist = null
-
-    ConfigNodePropertyInteger connectTimeout = null
-
-    ConfigNodePropertyInteger socketTimeout = null
-
-    ConfigNodePropertyString processLabel = null
-
-    ConfigNodePropertyInteger connectionUseMax = null
-
+    
+    ConfigNodePropertyInteger maxErrorsToBlacklist
+    
+    ConfigNodePropertyInteger retryIntervalToWhitelist
+    
+    ConfigNodePropertyInteger connectTimeout
+    
+    ConfigNodePropertyInteger socketTimeout
+    
+    ConfigNodePropertyString processLabel
+    
+    ConfigNodePropertyInteger connectionUseMax
 }

@@ -2,32 +2,43 @@ package apimodels;
 
 import apimodels.ConfigNodePropertyBoolean;
 import apimodels.ConfigNodePropertyInteger;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskProperties   {
   @JsonProperty("purgeCompleted")
-  private ConfigNodePropertyBoolean purgeCompleted = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean purgeCompleted;
 
   @JsonProperty("completedAge")
-  private ConfigNodePropertyInteger completedAge = null;
+  @Valid
+
+  private ConfigNodePropertyInteger completedAge;
 
   @JsonProperty("purgeActive")
-  private ConfigNodePropertyBoolean purgeActive = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean purgeActive;
 
   @JsonProperty("activeAge")
-  private ConfigNodePropertyInteger activeAge = null;
+  @Valid
+
+  private ConfigNodePropertyInteger activeAge;
 
   @JsonProperty("saveThreshold")
-  private ConfigNodePropertyInteger saveThreshold = null;
+  @Valid
+
+  private ConfigNodePropertyInteger saveThreshold;
 
   public ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskProperties purgeCompleted(ConfigNodePropertyBoolean purgeCompleted) {
     this.purgeCompleted = purgeCompleted;
@@ -38,7 +49,6 @@ public class ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskPrope
    * Get purgeCompleted
    * @return purgeCompleted
   **/
-  @Valid
   public ConfigNodePropertyBoolean getPurgeCompleted() {
     return purgeCompleted;
   }
@@ -56,7 +66,6 @@ public class ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskPrope
    * Get completedAge
    * @return completedAge
   **/
-  @Valid
   public ConfigNodePropertyInteger getCompletedAge() {
     return completedAge;
   }
@@ -74,7 +83,6 @@ public class ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskPrope
    * Get purgeActive
    * @return purgeActive
   **/
-  @Valid
   public ConfigNodePropertyBoolean getPurgeActive() {
     return purgeActive;
   }
@@ -92,7 +100,6 @@ public class ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskPrope
    * Get activeAge
    * @return activeAge
   **/
-  @Valid
   public ConfigNodePropertyInteger getActiveAge() {
     return activeAge;
   }
@@ -110,7 +117,6 @@ public class ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskPrope
    * Get saveThreshold
    * @return saveThreshold
   **/
-  @Valid
   public ConfigNodePropertyInteger getSaveThreshold() {
     return saveThreshold;
   }
@@ -121,7 +127,7 @@ public class ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskPrope
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -160,11 +166,8 @@ public class ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskPrope
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

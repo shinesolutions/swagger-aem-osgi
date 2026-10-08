@@ -1,31 +1,42 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyInteger;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComAdobeGraniteLoggingImplLogAnalyserImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComAdobeGraniteLoggingImplLogAnalyserImplProperties   {
-  @JsonProperty("messages.queue.size")
-  private ConfigNodePropertyInteger messagesQueueSize = null;
+@JsonTypeName("comAdobeGraniteLoggingImplLogAnalyserImplProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComAdobeGraniteLoggingImplLogAnalyserImplProperties {
 
-  @JsonProperty("logger.config")
-  private ConfigNodePropertyArray loggerConfig = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger messagesQueueSize;
 
-  @JsonProperty("messages.size")
-  private ConfigNodePropertyInteger messagesSize = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray loggerConfig;
 
-  public ComAdobeGraniteLoggingImplLogAnalyserImplProperties messagesQueueSize(ConfigNodePropertyInteger messagesQueueSize) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger messagesSize;
+
+  public ComAdobeGraniteLoggingImplLogAnalyserImplProperties messagesQueueSize(@Nullable ConfigNodePropertyInteger messagesQueueSize) {
     this.messagesQueueSize = messagesQueueSize;
     return this;
   }
@@ -33,20 +44,20 @@ public class ComAdobeGraniteLoggingImplLogAnalyserImplProperties   {
   /**
    * Get messagesQueueSize
    * @return messagesQueueSize
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getMessagesQueueSize() {
+   */
+  @Valid 
+  @Schema(name = "messages.queue.size", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("messages.queue.size")
+  public @Nullable ConfigNodePropertyInteger getMessagesQueueSize() {
     return messagesQueueSize;
   }
 
-  public void setMessagesQueueSize(ConfigNodePropertyInteger messagesQueueSize) {
+  @JsonProperty("messages.queue.size")
+  public void setMessagesQueueSize(@Nullable ConfigNodePropertyInteger messagesQueueSize) {
     this.messagesQueueSize = messagesQueueSize;
   }
 
-  public ComAdobeGraniteLoggingImplLogAnalyserImplProperties loggerConfig(ConfigNodePropertyArray loggerConfig) {
+  public ComAdobeGraniteLoggingImplLogAnalyserImplProperties loggerConfig(@Nullable ConfigNodePropertyArray loggerConfig) {
     this.loggerConfig = loggerConfig;
     return this;
   }
@@ -54,20 +65,20 @@ public class ComAdobeGraniteLoggingImplLogAnalyserImplProperties   {
   /**
    * Get loggerConfig
    * @return loggerConfig
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getLoggerConfig() {
+   */
+  @Valid 
+  @Schema(name = "logger.config", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("logger.config")
+  public @Nullable ConfigNodePropertyArray getLoggerConfig() {
     return loggerConfig;
   }
 
-  public void setLoggerConfig(ConfigNodePropertyArray loggerConfig) {
+  @JsonProperty("logger.config")
+  public void setLoggerConfig(@Nullable ConfigNodePropertyArray loggerConfig) {
     this.loggerConfig = loggerConfig;
   }
 
-  public ComAdobeGraniteLoggingImplLogAnalyserImplProperties messagesSize(ConfigNodePropertyInteger messagesSize) {
+  public ComAdobeGraniteLoggingImplLogAnalyserImplProperties messagesSize(@Nullable ConfigNodePropertyInteger messagesSize) {
     this.messagesSize = messagesSize;
     return this;
   }
@@ -75,22 +86,21 @@ public class ComAdobeGraniteLoggingImplLogAnalyserImplProperties   {
   /**
    * Get messagesSize
    * @return messagesSize
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getMessagesSize() {
+   */
+  @Valid 
+  @Schema(name = "messages.size", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("messages.size")
+  public @Nullable ConfigNodePropertyInteger getMessagesSize() {
     return messagesSize;
   }
 
-  public void setMessagesSize(ConfigNodePropertyInteger messagesSize) {
+  @JsonProperty("messages.size")
+  public void setMessagesSize(@Nullable ConfigNodePropertyInteger messagesSize) {
     this.messagesSize = messagesSize;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -112,7 +122,6 @@ public class ComAdobeGraniteLoggingImplLogAnalyserImplProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComAdobeGraniteLoggingImplLogAnalyserImplProperties {\n");
-    
     sb.append("    messagesQueueSize: ").append(toIndentedString(messagesQueueSize)).append("\n");
     sb.append("    loggerConfig: ").append(toIndentedString(loggerConfig)).append("\n");
     sb.append("    messagesSize: ").append(toIndentedString(messagesSize)).append("\n");
@@ -124,11 +133,8 @@ public class ComAdobeGraniteLoggingImplLogAnalyserImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

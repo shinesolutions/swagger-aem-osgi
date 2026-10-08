@@ -2,16 +2,17 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**skip_bufferedcache** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **skip_bufferedcache** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComDayCqDamCoreImplGfxCommonsGfxRendererProperties.new(skip_bufferedcache: null)
+instance = SwaggerAemOsgiClient::ComDayCqDamCoreImplGfxCommonsGfxRendererProperties.new(
+  skip_bufferedcache: null
+)
 ```
-
 

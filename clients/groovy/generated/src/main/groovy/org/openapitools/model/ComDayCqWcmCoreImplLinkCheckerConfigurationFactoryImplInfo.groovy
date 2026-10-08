@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqWcmCoreImplLinkCheckerConfigurationFactory
 
 @Canonical
 class ComDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplProperties properties
 }

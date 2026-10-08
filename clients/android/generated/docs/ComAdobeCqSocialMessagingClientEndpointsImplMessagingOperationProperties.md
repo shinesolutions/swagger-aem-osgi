@@ -1,7 +1,9 @@
 
+
 # ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **messageProperties** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
@@ -24,6 +26,7 @@ Name | Type | Description | Notes
 **allowedAttachmentTypes** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
 **serviceSelector** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
 **fieldWhitelist** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
+
 
 
 

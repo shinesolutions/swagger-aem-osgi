@@ -1,33 +1,35 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
 import io.swagger.annotations.ApiModelProperty;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlType;
-import javax.xml.bind.annotation.XmlEnum;
-import javax.xml.bind.annotation.XmlEnumValue;
+import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
 
 public class ComAdobeCqAccountApiAccountManagementServiceProperties  {
   
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyInteger cqAccountmanagerTokenValidityPeriod = null;
+
+  private ConfigNodePropertyInteger cqAccountmanagerTokenValidityPeriod;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyString cqAccountmanagerConfigRequestnewaccountMail = null;
+
+  private ConfigNodePropertyString cqAccountmanagerConfigRequestnewaccountMail;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyString cqAccountmanagerConfigRequestnewpwdMail = null;
+
+  private ConfigNodePropertyString cqAccountmanagerConfigRequestnewpwdMail;
  /**
    * Get cqAccountmanagerTokenValidityPeriod
    * @return cqAccountmanagerTokenValidityPeriod
@@ -82,6 +84,24 @@ public class ComAdobeCqAccountApiAccountManagementServiceProperties  {
     return this;
   }
 
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    ComAdobeCqAccountApiAccountManagementServiceProperties comAdobeCqAccountApiAccountManagementServiceProperties = (ComAdobeCqAccountApiAccountManagementServiceProperties) o;
+    return Objects.equals(this.cqAccountmanagerTokenValidityPeriod, comAdobeCqAccountApiAccountManagementServiceProperties.cqAccountmanagerTokenValidityPeriod) &&
+        Objects.equals(this.cqAccountmanagerConfigRequestnewaccountMail, comAdobeCqAccountApiAccountManagementServiceProperties.cqAccountmanagerConfigRequestnewaccountMail) &&
+        Objects.equals(this.cqAccountmanagerConfigRequestnewpwdMail, comAdobeCqAccountApiAccountManagementServiceProperties.cqAccountmanagerConfigRequestnewpwdMail);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(cqAccountmanagerTokenValidityPeriod, cqAccountmanagerConfigRequestnewaccountMail, cqAccountmanagerConfigRequestnewpwdMail);
+  }
 
   @Override
   public String toString() {
@@ -99,11 +119,8 @@ public class ComAdobeCqAccountApiAccountManagementServiceProperties  {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private static String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

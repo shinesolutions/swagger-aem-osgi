@@ -7,12 +7,12 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeGraniteAuthImsImplImsConfigProviderImplProperties {
-    ConfigNodePropertyString oauthConfigmanagerImsConfigid = null
-
-    ConfigNodePropertyString imsOwningEntity = null
-
-    ConfigNodePropertyString aemInstanceId = null
-
-    ConfigNodePropertyString imsServiceCode = null
-
+    
+    ConfigNodePropertyString oauthConfigmanagerImsConfigid
+    
+    ConfigNodePropertyString imsOwningEntity
+    
+    ConfigNodePropertyString aemInstanceId
+    
+    ConfigNodePropertyString imsServiceCode
 }

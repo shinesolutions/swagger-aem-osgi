@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeAemUpgradePrechecksHcImplDeprecateIndexesH
 
 @Canonical
 class ComAdobeAemUpgradePrechecksHcImplDeprecateIndexesHCInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeAemUpgradePrechecksHcImplDeprecateIndexesHCProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeAemUpgradePrechecksHcImplDeprecateIndexesHCProperties properties
 }

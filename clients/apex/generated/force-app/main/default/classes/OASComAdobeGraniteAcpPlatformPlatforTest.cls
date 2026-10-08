@@ -72,8 +72,8 @@ private class OASComAdobeGraniteAcpPlatformPlatforTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeGraniteAcpPlatformPlatfor comAdobeGraniteAcpPlatformPlatformServletProperties = new OASComAdobeGraniteAcpPlatformPlatfor();
-        Map<String, String> propertyMappings = comAdobeGraniteAcpPlatformPlatformServletProperties.getPropertyMappings();
-        System.assertEquals('queryLimit', propertyMappings.get('query.limit'));
-        System.assertEquals('fileTypeExtensionMap', propertyMappings.get('file.type.extension.map'));
+        Map<String, String> x-property-mappings = comAdobeGraniteAcpPlatformPlatformServletProperties.getx-property-mappings();
+        System.assertEquals('queryLimit', x-property-mappings.get('query.limit'));
+        System.assertEquals('fileTypeExtensionMap', x-property-mappings.get('file.type.extension.map'));
     }
 }

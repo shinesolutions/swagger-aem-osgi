@@ -4,26 +4,30 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2019-08-05T00:59:30.156Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2026-10-07T12:54:21.614735164Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExProperties   {
   
-  private ConfigNodePropertyInteger jaasRanking = null;
-  private ConfigNodePropertyString jaasControlFlag = null;
-  private ConfigNodePropertyString jaasRealmName = null;
-  private ConfigNodePropertyString idpName = null;
-  private ConfigNodePropertyString syncHandlerName = null;
+  private ConfigNodePropertyInteger jaasRanking;
+  private ConfigNodePropertyString jaasControlFlag;
+  private ConfigNodePropertyString jaasRealmName;
+  private ConfigNodePropertyString idpName;
+  private ConfigNodePropertyString syncHandlerName;
 
   /**
    **/
   
   @ApiModelProperty(value = "")
   @JsonProperty("jaas.ranking")
+  @Valid
   public ConfigNodePropertyInteger getJaasRanking() {
     return jaasRanking;
   }
@@ -36,6 +40,7 @@ public class OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExProper
   
   @ApiModelProperty(value = "")
   @JsonProperty("jaas.controlFlag")
+  @Valid
   public ConfigNodePropertyString getJaasControlFlag() {
     return jaasControlFlag;
   }
@@ -48,6 +53,7 @@ public class OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExProper
   
   @ApiModelProperty(value = "")
   @JsonProperty("jaas.realmName")
+  @Valid
   public ConfigNodePropertyString getJaasRealmName() {
     return jaasRealmName;
   }
@@ -60,6 +66,7 @@ public class OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExProper
   
   @ApiModelProperty(value = "")
   @JsonProperty("idp.name")
+  @Valid
   public ConfigNodePropertyString getIdpName() {
     return idpName;
   }
@@ -72,6 +79,7 @@ public class OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExProper
   
   @ApiModelProperty(value = "")
   @JsonProperty("sync.handlerName")
+  @Valid
   public ConfigNodePropertyString getSyncHandlerName() {
     return syncHandlerName;
   }
@@ -81,7 +89,7 @@ public class OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExProper
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -89,11 +97,11 @@ public class OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExProper
       return false;
     }
     OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExProperties orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExProperties = (OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExProperties) o;
-    return Objects.equals(jaasRanking, orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExProperties.jaasRanking) &&
-        Objects.equals(jaasControlFlag, orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExProperties.jaasControlFlag) &&
-        Objects.equals(jaasRealmName, orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExProperties.jaasRealmName) &&
-        Objects.equals(idpName, orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExProperties.idpName) &&
-        Objects.equals(syncHandlerName, orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExProperties.syncHandlerName);
+    return Objects.equals(this.jaasRanking, orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExProperties.jaasRanking) &&
+        Objects.equals(this.jaasControlFlag, orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExProperties.jaasControlFlag) &&
+        Objects.equals(this.jaasRealmName, orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExProperties.jaasRealmName) &&
+        Objects.equals(this.idpName, orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExProperties.idpName) &&
+        Objects.equals(this.syncHandlerName, orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExProperties.syncHandlerName);
   }
 
   @Override
@@ -119,11 +127,8 @@ public class OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExProper
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

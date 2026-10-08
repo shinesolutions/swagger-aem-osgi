@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class OrgApacheJackrabbitVaultPackagingRegistryImplFSPackageRegistryProperties {
-    ConfigNodePropertyString homePath = null
-
+    
+    ConfigNodePropertyString homePath
 }

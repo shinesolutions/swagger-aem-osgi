@@ -4,27 +4,31 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2019-08-05T00:59:30.156Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2026-10-07T12:54:21.614735164Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingHcCoreImplJmxAttributeHealthCheckProperties   {
   
-  private ConfigNodePropertyString hcName = null;
-  private ConfigNodePropertyArray hcTags = null;
-  private ConfigNodePropertyString hcMbeanName = null;
-  private ConfigNodePropertyString mbeanName = null;
-  private ConfigNodePropertyString attributeName = null;
-  private ConfigNodePropertyString attributeValueConstraint = null;
+  private ConfigNodePropertyString hcName;
+  private ConfigNodePropertyArray hcTags;
+  private ConfigNodePropertyString hcMbeanName;
+  private ConfigNodePropertyString mbeanName;
+  private ConfigNodePropertyString attributeName;
+  private ConfigNodePropertyString attributeValueConstraint;
 
   /**
    **/
   
   @ApiModelProperty(value = "")
   @JsonProperty("hc.name")
+  @Valid
   public ConfigNodePropertyString getHcName() {
     return hcName;
   }
@@ -37,6 +41,7 @@ public class OrgApacheSlingHcCoreImplJmxAttributeHealthCheckProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("hc.tags")
+  @Valid
   public ConfigNodePropertyArray getHcTags() {
     return hcTags;
   }
@@ -49,6 +54,7 @@ public class OrgApacheSlingHcCoreImplJmxAttributeHealthCheckProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("hc.mbean.name")
+  @Valid
   public ConfigNodePropertyString getHcMbeanName() {
     return hcMbeanName;
   }
@@ -61,6 +67,7 @@ public class OrgApacheSlingHcCoreImplJmxAttributeHealthCheckProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("mbean.name")
+  @Valid
   public ConfigNodePropertyString getMbeanName() {
     return mbeanName;
   }
@@ -73,6 +80,7 @@ public class OrgApacheSlingHcCoreImplJmxAttributeHealthCheckProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("attribute.name")
+  @Valid
   public ConfigNodePropertyString getAttributeName() {
     return attributeName;
   }
@@ -85,6 +93,7 @@ public class OrgApacheSlingHcCoreImplJmxAttributeHealthCheckProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("attribute.value.constraint")
+  @Valid
   public ConfigNodePropertyString getAttributeValueConstraint() {
     return attributeValueConstraint;
   }
@@ -94,7 +103,7 @@ public class OrgApacheSlingHcCoreImplJmxAttributeHealthCheckProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -102,12 +111,12 @@ public class OrgApacheSlingHcCoreImplJmxAttributeHealthCheckProperties   {
       return false;
     }
     OrgApacheSlingHcCoreImplJmxAttributeHealthCheckProperties orgApacheSlingHcCoreImplJmxAttributeHealthCheckProperties = (OrgApacheSlingHcCoreImplJmxAttributeHealthCheckProperties) o;
-    return Objects.equals(hcName, orgApacheSlingHcCoreImplJmxAttributeHealthCheckProperties.hcName) &&
-        Objects.equals(hcTags, orgApacheSlingHcCoreImplJmxAttributeHealthCheckProperties.hcTags) &&
-        Objects.equals(hcMbeanName, orgApacheSlingHcCoreImplJmxAttributeHealthCheckProperties.hcMbeanName) &&
-        Objects.equals(mbeanName, orgApacheSlingHcCoreImplJmxAttributeHealthCheckProperties.mbeanName) &&
-        Objects.equals(attributeName, orgApacheSlingHcCoreImplJmxAttributeHealthCheckProperties.attributeName) &&
-        Objects.equals(attributeValueConstraint, orgApacheSlingHcCoreImplJmxAttributeHealthCheckProperties.attributeValueConstraint);
+    return Objects.equals(this.hcName, orgApacheSlingHcCoreImplJmxAttributeHealthCheckProperties.hcName) &&
+        Objects.equals(this.hcTags, orgApacheSlingHcCoreImplJmxAttributeHealthCheckProperties.hcTags) &&
+        Objects.equals(this.hcMbeanName, orgApacheSlingHcCoreImplJmxAttributeHealthCheckProperties.hcMbeanName) &&
+        Objects.equals(this.mbeanName, orgApacheSlingHcCoreImplJmxAttributeHealthCheckProperties.mbeanName) &&
+        Objects.equals(this.attributeName, orgApacheSlingHcCoreImplJmxAttributeHealthCheckProperties.attributeName) &&
+        Objects.equals(this.attributeValueConstraint, orgApacheSlingHcCoreImplJmxAttributeHealthCheckProperties.attributeValueConstraint);
   }
 
   @Override
@@ -134,11 +143,8 @@ public class OrgApacheSlingHcCoreImplJmxAttributeHealthCheckProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

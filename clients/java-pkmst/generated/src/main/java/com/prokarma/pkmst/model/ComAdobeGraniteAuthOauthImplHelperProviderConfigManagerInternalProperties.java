@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyString;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
@@ -15,24 +16,23 @@ import io.swagger.annotations.ApiModelProperty;
  * ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerInternalProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerInternalProperties   {
   @JsonProperty("oauth.cookie.login.timeout")
-  private ConfigNodePropertyString oauthCookieLoginTimeout = null;
+  private ConfigNodePropertyString oauthCookieLoginTimeout;
 
   @JsonProperty("oauth.cookie.max.age")
-  private ConfigNodePropertyString oauthCookieMaxAge = null;
+  private ConfigNodePropertyString oauthCookieMaxAge;
 
   public ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerInternalProperties oauthCookieLoginTimeout(ConfigNodePropertyString oauthCookieLoginTimeout) {
     this.oauthCookieLoginTimeout = oauthCookieLoginTimeout;
     return this;
   }
 
-   /**
+  /**
    * Get oauthCookieLoginTimeout
    * @return oauthCookieLoginTimeout
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getOauthCookieLoginTimeout() {
     return oauthCookieLoginTimeout;
@@ -47,10 +47,10 @@ public class ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerInternalProp
     return this;
   }
 
-   /**
+  /**
    * Get oauthCookieMaxAge
    * @return oauthCookieMaxAge
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getOauthCookieMaxAge() {
     return oauthCookieMaxAge;
@@ -62,7 +62,7 @@ public class ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerInternalProp
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -94,11 +94,8 @@ public class ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerInternalProp
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

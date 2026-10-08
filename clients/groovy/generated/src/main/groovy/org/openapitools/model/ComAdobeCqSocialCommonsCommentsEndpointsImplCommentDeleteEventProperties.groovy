@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventProperties {
-    ConfigNodePropertyInteger ranking = null
-
+    
+    ConfigNodePropertyInteger ranking
 }

@@ -1,20 +1,31 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comAdobeGraniteOauthServerImplOAuth2RevocationEndpointServletProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteOauthServerImplOAuth2RevocationEndpointServletProperties   {
-  
-  private @Valid ConfigNodePropertyString slingServletPaths = null;
-  private @Valid ConfigNodePropertyBoolean oauthRevocationActive = null;
+  private ConfigNodePropertyString slingServletPaths;
+  private ConfigNodePropertyBoolean oauthRevocationActive;
+
+  public ComAdobeGraniteOauthServerImplOAuth2RevocationEndpointServletProperties() {
+  }
 
   /**
    **/
@@ -26,9 +37,11 @@ public class ComAdobeGraniteOauthServerImplOAuth2RevocationEndpointServletProper
   
   @ApiModelProperty(value = "")
   @JsonProperty("sling.servlet.paths")
-  public ConfigNodePropertyString getSlingServletPaths() {
+  @Valid public ConfigNodePropertyString getSlingServletPaths() {
     return slingServletPaths;
   }
+
+  @JsonProperty("sling.servlet.paths")
   public void setSlingServletPaths(ConfigNodePropertyString slingServletPaths) {
     this.slingServletPaths = slingServletPaths;
   }
@@ -43,16 +56,18 @@ public class ComAdobeGraniteOauthServerImplOAuth2RevocationEndpointServletProper
   
   @ApiModelProperty(value = "")
   @JsonProperty("oauth.revocation.active")
-  public ConfigNodePropertyBoolean getOauthRevocationActive() {
+  @Valid public ConfigNodePropertyBoolean getOauthRevocationActive() {
     return oauthRevocationActive;
   }
+
+  @JsonProperty("oauth.revocation.active")
   public void setOauthRevocationActive(ConfigNodePropertyBoolean oauthRevocationActive) {
     this.oauthRevocationActive = oauthRevocationActive;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -60,8 +75,8 @@ public class ComAdobeGraniteOauthServerImplOAuth2RevocationEndpointServletProper
       return false;
     }
     ComAdobeGraniteOauthServerImplOAuth2RevocationEndpointServletProperties comAdobeGraniteOauthServerImplOAuth2RevocationEndpointServletProperties = (ComAdobeGraniteOauthServerImplOAuth2RevocationEndpointServletProperties) o;
-    return Objects.equals(slingServletPaths, comAdobeGraniteOauthServerImplOAuth2RevocationEndpointServletProperties.slingServletPaths) &&
-        Objects.equals(oauthRevocationActive, comAdobeGraniteOauthServerImplOAuth2RevocationEndpointServletProperties.oauthRevocationActive);
+    return Objects.equals(this.slingServletPaths, comAdobeGraniteOauthServerImplOAuth2RevocationEndpointServletProperties.slingServletPaths) &&
+        Objects.equals(this.oauthRevocationActive, comAdobeGraniteOauthServerImplOAuth2RevocationEndpointServletProperties.oauthRevocationActive);
   }
 
   @Override
@@ -84,11 +99,9 @@ public class ComAdobeGraniteOauthServerImplOAuth2RevocationEndpointServletProper
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

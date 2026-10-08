@@ -2,13 +2,13 @@
 # ComAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**cqPeriodpagesupdatehandlerPeriodimageresourcetypes** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**cqPeriodpagesupdatehandlerPeriodproductresourcetypes** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**cqPeriodpagesupdatehandlerPeriodvideoresourcetypes** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**cqPeriodpagesupdatehandlerPerioddynamicsequenceresourcetypes** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**cqPeriodpagesupdatehandlerPeriodpreviewmodepaths** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **cqPagesupdatehandlerImageresourcetypes** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **cqPagesupdatehandlerProductresourcetypes** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **cqPagesupdatehandlerVideoresourcetypes** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **cqPagesupdatehandlerDynamicsequenceresourcetypes** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **cqPagesupdatehandlerPreviewmodepaths** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
 
 
 

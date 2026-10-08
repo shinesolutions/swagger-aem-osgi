@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyBoolean;
 
 @Canonical
 class ComAdobeGraniteDistributionCoreImplReplicationDistributionTransProperties {
-    ConfigNodePropertyBoolean forwardRequests = null
-
+    
+    ConfigNodePropertyBoolean forwardRequests
 }

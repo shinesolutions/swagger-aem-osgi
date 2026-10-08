@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyArray;
 
 @Canonical
 class ComDayCqWcmFoundationImplAdaptiveImageComponentServletProperties {
-    ConfigNodePropertyArray adaptSupportedWidths = null
-
+    
+    ConfigNodePropertyArray adaptSupportedWidths
 }

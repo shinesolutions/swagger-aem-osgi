@@ -72,8 +72,8 @@ private class OASComDayCqWcmWorkflowImplWorkflowPaTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqWcmWorkflowImplWorkflowPa comDayCqWcmWorkflowImplWorkflowPackageInfoProviderProperties = new OASComDayCqWcmWorkflowImplWorkflowPa();
-        Map<String, String> propertyMappings = comDayCqWcmWorkflowImplWorkflowPackageInfoProviderProperties.getPropertyMappings();
-        System.assertEquals('workflowpackageinfoproviderFilter', propertyMappings.get('workflowpackageinfoprovider.filter'));
-        System.assertEquals('workflowpackageinfoproviderFilterRootpath', propertyMappings.get('workflowpackageinfoprovider.filter.rootpath'));
+        Map<String, String> x-property-mappings = comDayCqWcmWorkflowImplWorkflowPackageInfoProviderProperties.getx-property-mappings();
+        System.assertEquals('workflowpackageinfoproviderFilter', x-property-mappings.get('workflowpackageinfoprovider.filter'));
+        System.assertEquals('workflowpackageinfoproviderFilterRootpath', x-property-mappings.get('workflowpackageinfoprovider.filter.rootpath'));
     }
 }

@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeGraniteTaskmanagementImplJcrTaskAdapterFac
 
 @Canonical
 class ComAdobeGraniteTaskmanagementImplJcrTaskAdapterFactoryInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteTaskmanagementImplJcrTaskAdapterFactoryProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteTaskmanagementImplJcrTaskAdapterFactoryProperties properties
 }

@@ -8,10 +8,10 @@ import org.openapitools.model.ConfigNodePropertyBoolean;
 
 @Canonical
 class OrgApacheSlingSecurityImplContentDispositionFilterProperties {
-    ConfigNodePropertyArray slingContentDispositionPaths = null
-
-    ConfigNodePropertyArray slingContentDispositionExcludedPaths = null
-
-    ConfigNodePropertyBoolean slingContentDispositionAllPaths = null
-
+    
+    ConfigNodePropertyArray slingContentDispositionPaths
+    
+    ConfigNodePropertyArray slingContentDispositionExcludedPaths
+    
+    ConfigNodePropertyBoolean slingContentDispositionAllPaths
 }

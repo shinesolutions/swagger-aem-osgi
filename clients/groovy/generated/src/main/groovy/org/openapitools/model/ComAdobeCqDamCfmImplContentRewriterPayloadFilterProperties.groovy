@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeCqDamCfmImplContentRewriterPayloadFilterProperties {
-    ConfigNodePropertyString pipelineType = null
-
+    
+    ConfigNodePropertyString pipelineType
 }

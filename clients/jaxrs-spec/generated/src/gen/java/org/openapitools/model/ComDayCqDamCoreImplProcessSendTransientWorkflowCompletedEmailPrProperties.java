@@ -1,20 +1,31 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrProperties   {
-  
-  private @Valid ConfigNodePropertyString processLabel = null;
-  private @Valid ConfigNodePropertyBoolean notifyOnComplete = null;
+  private ConfigNodePropertyString processLabel;
+  private ConfigNodePropertyBoolean notifyOnComplete;
+
+  public ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrProperties() {
+  }
 
   /**
    **/
@@ -26,9 +37,11 @@ public class ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("process.label")
-  public ConfigNodePropertyString getProcessLabel() {
+  @Valid public ConfigNodePropertyString getProcessLabel() {
     return processLabel;
   }
+
+  @JsonProperty("process.label")
   public void setProcessLabel(ConfigNodePropertyString processLabel) {
     this.processLabel = processLabel;
   }
@@ -43,16 +56,18 @@ public class ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("Notify on Complete")
-  public ConfigNodePropertyBoolean getNotifyOnComplete() {
+  @Valid public ConfigNodePropertyBoolean getNotifyOnComplete() {
     return notifyOnComplete;
   }
+
+  @JsonProperty("Notify on Complete")
   public void setNotifyOnComplete(ConfigNodePropertyBoolean notifyOnComplete) {
     this.notifyOnComplete = notifyOnComplete;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -60,8 +75,8 @@ public class ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrProp
       return false;
     }
     ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrProperties comDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrProperties = (ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrProperties) o;
-    return Objects.equals(processLabel, comDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrProperties.processLabel) &&
-        Objects.equals(notifyOnComplete, comDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrProperties.notifyOnComplete);
+    return Objects.equals(this.processLabel, comDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrProperties.processLabel) &&
+        Objects.equals(this.notifyOnComplete, comDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrProperties.notifyOnComplete);
   }
 
   @Override
@@ -84,11 +99,9 @@ public class ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrProp
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

@@ -7,16 +7,16 @@ import org.openapitools.model.OrgApacheSlingEngineImplAuthSlingAuthenticatorProp
 
 @Canonical
 class OrgApacheSlingEngineImplAuthSlingAuthenticatorInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties properties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties properties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

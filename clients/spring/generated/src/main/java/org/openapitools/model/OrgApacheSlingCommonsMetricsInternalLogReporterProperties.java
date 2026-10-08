@@ -1,44 +1,55 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyDropDown;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * OrgApacheSlingCommonsMetricsInternalLogReporterProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class OrgApacheSlingCommonsMetricsInternalLogReporterProperties   {
-  @JsonProperty("period")
-  private ConfigNodePropertyInteger period = null;
+@JsonTypeName("orgApacheSlingCommonsMetricsInternalLogReporterProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class OrgApacheSlingCommonsMetricsInternalLogReporterProperties {
 
-  @JsonProperty("timeUnit")
-  private ConfigNodePropertyDropDown timeUnit = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger period;
 
-  @JsonProperty("level")
-  private ConfigNodePropertyDropDown level = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyDropDown timeUnit;
 
-  @JsonProperty("loggerName")
-  private ConfigNodePropertyString loggerName = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyDropDown level;
 
-  @JsonProperty("prefix")
-  private ConfigNodePropertyString prefix = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString loggerName;
 
-  @JsonProperty("pattern")
-  private ConfigNodePropertyString pattern = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString prefix;
 
-  @JsonProperty("registryName")
-  private ConfigNodePropertyString registryName = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString pattern;
 
-  public OrgApacheSlingCommonsMetricsInternalLogReporterProperties period(ConfigNodePropertyInteger period) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString registryName;
+
+  public OrgApacheSlingCommonsMetricsInternalLogReporterProperties period(@Nullable ConfigNodePropertyInteger period) {
     this.period = period;
     return this;
   }
@@ -46,20 +57,20 @@ public class OrgApacheSlingCommonsMetricsInternalLogReporterProperties   {
   /**
    * Get period
    * @return period
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getPeriod() {
+   */
+  @Valid 
+  @Schema(name = "period", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("period")
+  public @Nullable ConfigNodePropertyInteger getPeriod() {
     return period;
   }
 
-  public void setPeriod(ConfigNodePropertyInteger period) {
+  @JsonProperty("period")
+  public void setPeriod(@Nullable ConfigNodePropertyInteger period) {
     this.period = period;
   }
 
-  public OrgApacheSlingCommonsMetricsInternalLogReporterProperties timeUnit(ConfigNodePropertyDropDown timeUnit) {
+  public OrgApacheSlingCommonsMetricsInternalLogReporterProperties timeUnit(@Nullable ConfigNodePropertyDropDown timeUnit) {
     this.timeUnit = timeUnit;
     return this;
   }
@@ -67,20 +78,20 @@ public class OrgApacheSlingCommonsMetricsInternalLogReporterProperties   {
   /**
    * Get timeUnit
    * @return timeUnit
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyDropDown getTimeUnit() {
+   */
+  @Valid 
+  @Schema(name = "timeUnit", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("timeUnit")
+  public @Nullable ConfigNodePropertyDropDown getTimeUnit() {
     return timeUnit;
   }
 
-  public void setTimeUnit(ConfigNodePropertyDropDown timeUnit) {
+  @JsonProperty("timeUnit")
+  public void setTimeUnit(@Nullable ConfigNodePropertyDropDown timeUnit) {
     this.timeUnit = timeUnit;
   }
 
-  public OrgApacheSlingCommonsMetricsInternalLogReporterProperties level(ConfigNodePropertyDropDown level) {
+  public OrgApacheSlingCommonsMetricsInternalLogReporterProperties level(@Nullable ConfigNodePropertyDropDown level) {
     this.level = level;
     return this;
   }
@@ -88,20 +99,20 @@ public class OrgApacheSlingCommonsMetricsInternalLogReporterProperties   {
   /**
    * Get level
    * @return level
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyDropDown getLevel() {
+   */
+  @Valid 
+  @Schema(name = "level", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("level")
+  public @Nullable ConfigNodePropertyDropDown getLevel() {
     return level;
   }
 
-  public void setLevel(ConfigNodePropertyDropDown level) {
+  @JsonProperty("level")
+  public void setLevel(@Nullable ConfigNodePropertyDropDown level) {
     this.level = level;
   }
 
-  public OrgApacheSlingCommonsMetricsInternalLogReporterProperties loggerName(ConfigNodePropertyString loggerName) {
+  public OrgApacheSlingCommonsMetricsInternalLogReporterProperties loggerName(@Nullable ConfigNodePropertyString loggerName) {
     this.loggerName = loggerName;
     return this;
   }
@@ -109,20 +120,20 @@ public class OrgApacheSlingCommonsMetricsInternalLogReporterProperties   {
   /**
    * Get loggerName
    * @return loggerName
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getLoggerName() {
+   */
+  @Valid 
+  @Schema(name = "loggerName", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("loggerName")
+  public @Nullable ConfigNodePropertyString getLoggerName() {
     return loggerName;
   }
 
-  public void setLoggerName(ConfigNodePropertyString loggerName) {
+  @JsonProperty("loggerName")
+  public void setLoggerName(@Nullable ConfigNodePropertyString loggerName) {
     this.loggerName = loggerName;
   }
 
-  public OrgApacheSlingCommonsMetricsInternalLogReporterProperties prefix(ConfigNodePropertyString prefix) {
+  public OrgApacheSlingCommonsMetricsInternalLogReporterProperties prefix(@Nullable ConfigNodePropertyString prefix) {
     this.prefix = prefix;
     return this;
   }
@@ -130,20 +141,20 @@ public class OrgApacheSlingCommonsMetricsInternalLogReporterProperties   {
   /**
    * Get prefix
    * @return prefix
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getPrefix() {
+   */
+  @Valid 
+  @Schema(name = "prefix", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("prefix")
+  public @Nullable ConfigNodePropertyString getPrefix() {
     return prefix;
   }
 
-  public void setPrefix(ConfigNodePropertyString prefix) {
+  @JsonProperty("prefix")
+  public void setPrefix(@Nullable ConfigNodePropertyString prefix) {
     this.prefix = prefix;
   }
 
-  public OrgApacheSlingCommonsMetricsInternalLogReporterProperties pattern(ConfigNodePropertyString pattern) {
+  public OrgApacheSlingCommonsMetricsInternalLogReporterProperties pattern(@Nullable ConfigNodePropertyString pattern) {
     this.pattern = pattern;
     return this;
   }
@@ -151,20 +162,20 @@ public class OrgApacheSlingCommonsMetricsInternalLogReporterProperties   {
   /**
    * Get pattern
    * @return pattern
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getPattern() {
+   */
+  @Valid 
+  @Schema(name = "pattern", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("pattern")
+  public @Nullable ConfigNodePropertyString getPattern() {
     return pattern;
   }
 
-  public void setPattern(ConfigNodePropertyString pattern) {
+  @JsonProperty("pattern")
+  public void setPattern(@Nullable ConfigNodePropertyString pattern) {
     this.pattern = pattern;
   }
 
-  public OrgApacheSlingCommonsMetricsInternalLogReporterProperties registryName(ConfigNodePropertyString registryName) {
+  public OrgApacheSlingCommonsMetricsInternalLogReporterProperties registryName(@Nullable ConfigNodePropertyString registryName) {
     this.registryName = registryName;
     return this;
   }
@@ -172,22 +183,21 @@ public class OrgApacheSlingCommonsMetricsInternalLogReporterProperties   {
   /**
    * Get registryName
    * @return registryName
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getRegistryName() {
+   */
+  @Valid 
+  @Schema(name = "registryName", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("registryName")
+  public @Nullable ConfigNodePropertyString getRegistryName() {
     return registryName;
   }
 
-  public void setRegistryName(ConfigNodePropertyString registryName) {
+  @JsonProperty("registryName")
+  public void setRegistryName(@Nullable ConfigNodePropertyString registryName) {
     this.registryName = registryName;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -213,7 +223,6 @@ public class OrgApacheSlingCommonsMetricsInternalLogReporterProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class OrgApacheSlingCommonsMetricsInternalLogReporterProperties {\n");
-    
     sb.append("    period: ").append(toIndentedString(period)).append("\n");
     sb.append("    timeUnit: ").append(toIndentedString(timeUnit)).append("\n");
     sb.append("    level: ").append(toIndentedString(level)).append("\n");
@@ -229,11 +238,8 @@ public class OrgApacheSlingCommonsMetricsInternalLogReporterProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

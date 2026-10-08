@@ -1,0 +1,42 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqSocialCommonsEmailreplyImplOutLookEmailClientProviderProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqSocialCommonsEmailreplyImplOutLookEmailClientProviderProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+}
+resourceTypes {
+
+  ComAdobeCqSocialCommonsEmailreplyImplOutLookEmailClientProviderProperties {
+    title = ComAdobeCqSocialCommonsEmailreplyImplOutLookEmailClientProviderProperties
+    description = ComAdobeCqSocialCommonsEmailreplyImplOutLookEmailClientProviderProperties
+    derivedFrom = Root
+    properties {
+        priority_order {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        reply_email_patterns {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqSocialCommonsEmailreplyImplOutLookEmailClientProviderProperties {
+    title = ComAdobeCqSocialCommonsEmailreplyImplOutLookEmailClientProviderProperties
+    description = ComAdobeCqSocialCommonsEmailreplyImplOutLookEmailClientProviderProperties
+    implements = openapi_server.resourceTypes.ComAdobeCqSocialCommonsEmailreplyImplOutLookEmailClientProviderProperties
+
+  }
+}

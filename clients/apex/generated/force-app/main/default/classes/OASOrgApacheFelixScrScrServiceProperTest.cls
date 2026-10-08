@@ -72,12 +72,12 @@ private class OASOrgApacheFelixScrScrServiceProperTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASOrgApacheFelixScrScrServiceProper orgApacheFelixScrScrServiceProperties = new OASOrgApacheFelixScrScrServiceProper();
-        Map<String, String> propertyMappings = orgApacheFelixScrScrServiceProperties.getPropertyMappings();
-        System.assertEquals('dsLoglevel', propertyMappings.get('ds.loglevel'));
-        System.assertEquals('dsFactoryEnabled', propertyMappings.get('ds.factory.enabled'));
-        System.assertEquals('dsDelayedKeepInstances', propertyMappings.get('ds.delayed.keepInstances'));
-        System.assertEquals('dsLockTimeoutMilliseconds', propertyMappings.get('ds.lock.timeout.milliseconds'));
-        System.assertEquals('dsStopTimeoutMilliseconds', propertyMappings.get('ds.stop.timeout.milliseconds'));
-        System.assertEquals('dsGlobalExtender', propertyMappings.get('ds.global.extender'));
+        Map<String, String> x-property-mappings = orgApacheFelixScrScrServiceProperties.getx-property-mappings();
+        System.assertEquals('dsLoglevel', x-property-mappings.get('ds.loglevel'));
+        System.assertEquals('dsFactoryEnabled', x-property-mappings.get('ds.factory.enabled'));
+        System.assertEquals('dsDelayedKeepInstances', x-property-mappings.get('ds.delayed.keepInstances'));
+        System.assertEquals('dsLockTimeoutMilliseconds', x-property-mappings.get('ds.lock.timeout.milliseconds'));
+        System.assertEquals('dsStopTimeoutMilliseconds', x-property-mappings.get('ds.stop.timeout.milliseconds'));
+        System.assertEquals('dsGlobalExtender', x-property-mappings.get('ds.global.extender'));
     }
 }

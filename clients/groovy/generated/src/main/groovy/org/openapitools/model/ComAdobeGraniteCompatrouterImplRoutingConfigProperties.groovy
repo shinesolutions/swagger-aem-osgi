@@ -7,10 +7,10 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeGraniteCompatrouterImplRoutingConfigProperties {
-    ConfigNodePropertyString id = null
-
-    ConfigNodePropertyString compatPath = null
-
-    ConfigNodePropertyString newPath = null
-
+    
+    ConfigNodePropertyString id
+    
+    ConfigNodePropertyString compatPath
+    
+    ConfigNodePropertyString newPath
 }

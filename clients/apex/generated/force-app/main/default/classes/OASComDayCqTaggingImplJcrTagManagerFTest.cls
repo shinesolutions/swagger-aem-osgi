@@ -72,7 +72,7 @@ private class OASComDayCqTaggingImplJcrTagManagerFTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqTaggingImplJcrTagManagerF comDayCqTaggingImplJcrTagManagerFactoryImplProperties = new OASComDayCqTaggingImplJcrTagManagerF();
-        Map<String, String> propertyMappings = comDayCqTaggingImplJcrTagManagerFactoryImplProperties.getPropertyMappings();
-        System.assertEquals('validationEnabled', propertyMappings.get('validation.enabled'));
+        Map<String, String> x-property-mappings = comDayCqTaggingImplJcrTagManagerFactoryImplProperties.getx-property-mappings();
+        System.assertEquals('validationEnabled', x-property-mappings.get('validation.enabled'));
     }
 }

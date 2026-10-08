@@ -10,14 +10,14 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class OrgApacheSlingCommonsLogLogManagerFactoryConfigProperties {
-    ConfigNodePropertyDropDown orgApacheSlingCommonsLogLevel = null
-
-    ConfigNodePropertyString orgApacheSlingCommonsLogFile = null
-
-    ConfigNodePropertyString orgApacheSlingCommonsLogPattern = null
-
-    ConfigNodePropertyArray orgApacheSlingCommonsLogNames = null
-
-    ConfigNodePropertyBoolean orgApacheSlingCommonsLogAdditiv = null
-
+    
+    ConfigNodePropertyDropDown orgApacheSlingCommonsLogLevel
+    
+    ConfigNodePropertyString orgApacheSlingCommonsLogFile
+    
+    ConfigNodePropertyString orgApacheSlingCommonsLogPattern
+    
+    ConfigNodePropertyArray orgApacheSlingCommonsLogNames
+    
+    ConfigNodePropertyBoolean orgApacheSlingCommonsLogAdditiv
 }

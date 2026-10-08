@@ -72,7 +72,7 @@ private class OASComAdobeCqScreensImplScreensChannTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeCqScreensImplScreensChann comAdobeCqScreensImplScreensChannelPostProcessorProperties = new OASComAdobeCqScreensImplScreensChann();
-        Map<String, String> propertyMappings = comAdobeCqScreensImplScreensChannelPostProcessorProperties.getPropertyMappings();
-        System.assertEquals('screensChannelsPropertiesToRemove', propertyMappings.get('screens.channels.properties.to.remove'));
+        Map<String, String> x-property-mappings = comAdobeCqScreensImplScreensChannelPostProcessorProperties.getx-property-mappings();
+        System.assertEquals('screensChannelsPropertiesToRemove', x-property-mappings.get('screens.channels.properties.to.remove'));
     }
 }

@@ -1,0 +1,60 @@
+#ifndef adaptive_form_and_interactive_communication_web_channel_theme_configur_properties_TEST
+#define adaptive_form_and_interactive_communication_web_channel_theme_configur_properties_TEST
+
+// the following is to include only the main from the first c file
+#ifndef TEST_MAIN
+#define TEST_MAIN
+#define adaptive_form_and_interactive_communication_web_channel_theme_configur_properties_MAIN
+#endif // TEST_MAIN
+
+#include <stdlib.h>
+#include <string.h>
+#include <stdio.h>
+#include <stdbool.h>
+#include "../external/cJSON.h"
+
+#include "../model/adaptive_form_and_interactive_communication_web_channel_theme_configur_properties.h"
+adaptive_form_and_interactive_communication_web_channel_theme_configur_properties_t* instantiate_adaptive_form_and_interactive_communication_web_channel_theme_configur_properties(int include_optional);
+
+#include "test_config_node_property_array.c"
+
+
+adaptive_form_and_interactive_communication_web_channel_theme_configur_properties_t* instantiate_adaptive_form_and_interactive_communication_web_channel_theme_configur_properties(int include_optional) {
+  adaptive_form_and_interactive_communication_web_channel_theme_configur_properties_t* adaptive_form_and_interactive_communication_web_channel_theme_configur_properties = NULL;
+  if (include_optional) {
+    adaptive_form_and_interactive_communication_web_channel_theme_configur_properties = adaptive_form_and_interactive_communication_web_channel_theme_configur_properties_create(
+       // false, not to have infinite recursion
+      instantiate_config_node_property_array(0)
+    );
+  } else {
+    adaptive_form_and_interactive_communication_web_channel_theme_configur_properties = adaptive_form_and_interactive_communication_web_channel_theme_configur_properties_create(
+      NULL
+    );
+  }
+
+  return adaptive_form_and_interactive_communication_web_channel_theme_configur_properties;
+}
+
+
+#ifdef adaptive_form_and_interactive_communication_web_channel_theme_configur_properties_MAIN
+
+void test_adaptive_form_and_interactive_communication_web_channel_theme_configur_properties(int include_optional) {
+    adaptive_form_and_interactive_communication_web_channel_theme_configur_properties_t* adaptive_form_and_interactive_communication_web_channel_theme_configur_properties_1 = instantiate_adaptive_form_and_interactive_communication_web_channel_theme_configur_properties(include_optional);
+
+	cJSON* jsonadaptive_form_and_interactive_communication_web_channel_theme_configur_properties_1 = adaptive_form_and_interactive_communication_web_channel_theme_configur_properties_convertToJSON(adaptive_form_and_interactive_communication_web_channel_theme_configur_properties_1);
+	printf("adaptive_form_and_interactive_communication_web_channel_theme_configur_properties :\n%s\n", cJSON_Print(jsonadaptive_form_and_interactive_communication_web_channel_theme_configur_properties_1));
+	adaptive_form_and_interactive_communication_web_channel_theme_configur_properties_t* adaptive_form_and_interactive_communication_web_channel_theme_configur_properties_2 = adaptive_form_and_interactive_communication_web_channel_theme_configur_properties_parseFromJSON(jsonadaptive_form_and_interactive_communication_web_channel_theme_configur_properties_1);
+	cJSON* jsonadaptive_form_and_interactive_communication_web_channel_theme_configur_properties_2 = adaptive_form_and_interactive_communication_web_channel_theme_configur_properties_convertToJSON(adaptive_form_and_interactive_communication_web_channel_theme_configur_properties_2);
+	printf("repeating adaptive_form_and_interactive_communication_web_channel_theme_configur_properties:\n%s\n", cJSON_Print(jsonadaptive_form_and_interactive_communication_web_channel_theme_configur_properties_2));
+}
+
+int main() {
+  test_adaptive_form_and_interactive_communication_web_channel_theme_configur_properties(1);
+  test_adaptive_form_and_interactive_communication_web_channel_theme_configur_properties(0);
+
+  printf("Hello world \n");
+  return 0;
+}
+
+#endif // adaptive_form_and_interactive_communication_web_channel_theme_configur_properties_MAIN
+#endif // adaptive_form_and_interactive_communication_web_channel_theme_configur_properties_TEST

@@ -7,16 +7,16 @@ import org.openapitools.model.OrgApacheSlingInstallerProviderJcrImplJcrInstaller
 
 @Canonical
 class OrgApacheSlingInstallerProviderJcrImplJcrInstallerInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheSlingInstallerProviderJcrImplJcrInstallerProperties properties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheSlingInstallerProviderJcrImplJcrInstallerProperties properties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqWcmCoreImplVersionManagerImplInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqWcmCoreImplVersionManagerImplInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComDayCqWcmCoreImplVersionManagerImplProperties = openapi_server.resourceTypes.ComDayCqWcmCoreImplVersionManagerImplProperties
+}
+resourceTypes {
+
+  ComDayCqWcmCoreImplVersionManagerImplInfo {
+    title = ComDayCqWcmCoreImplVersionManagerImplInfo
+    description = ComDayCqWcmCoreImplVersionManagerImplInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComDayCqWcmCoreImplVersionManagerImplProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqWcmCoreImplVersionManagerImplInfo {
+    title = ComDayCqWcmCoreImplVersionManagerImplInfo
+    description = ComDayCqWcmCoreImplVersionManagerImplInfo
+    implements = openapi_server.resourceTypes.ComDayCqWcmCoreImplVersionManagerImplInfo
+
+  }
+}

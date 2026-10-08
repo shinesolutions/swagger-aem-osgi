@@ -3,6 +3,7 @@ package org.openapitools.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
@@ -14,94 +15,94 @@ import org.openapitools.model.ConfigNodePropertyString;
 /**
  * OrgApacheSlingDatasourceDataSourceFactoryProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaMSF4JServerCodegen", date = "2019-08-05T00:54:29.762Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaMSF4JServerCodegen", date = "2026-10-07T12:53:29.980508721Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingDatasourceDataSourceFactoryProperties   {
   @JsonProperty("datasource.name")
-  private ConfigNodePropertyString datasourceName = null;
+  private ConfigNodePropertyString datasourceName;
 
   @JsonProperty("datasource.svc.prop.name")
-  private ConfigNodePropertyString datasourceSvcPropName = null;
+  private ConfigNodePropertyString datasourceSvcPropName;
 
   @JsonProperty("driverClassName")
-  private ConfigNodePropertyString driverClassName = null;
+  private ConfigNodePropertyString driverClassName;
 
   @JsonProperty("url")
-  private ConfigNodePropertyString url = null;
+  private ConfigNodePropertyString url;
 
   @JsonProperty("username")
-  private ConfigNodePropertyString username = null;
+  private ConfigNodePropertyString username;
 
   @JsonProperty("password")
-  private ConfigNodePropertyString password = null;
+  private ConfigNodePropertyString password;
 
   @JsonProperty("defaultAutoCommit")
-  private ConfigNodePropertyDropDown defaultAutoCommit = null;
+  private ConfigNodePropertyDropDown defaultAutoCommit;
 
   @JsonProperty("defaultReadOnly")
-  private ConfigNodePropertyDropDown defaultReadOnly = null;
+  private ConfigNodePropertyDropDown defaultReadOnly;
 
   @JsonProperty("defaultTransactionIsolation")
-  private ConfigNodePropertyDropDown defaultTransactionIsolation = null;
+  private ConfigNodePropertyDropDown defaultTransactionIsolation;
 
   @JsonProperty("defaultCatalog")
-  private ConfigNodePropertyString defaultCatalog = null;
+  private ConfigNodePropertyString defaultCatalog;
 
   @JsonProperty("maxActive")
-  private ConfigNodePropertyInteger maxActive = null;
+  private ConfigNodePropertyInteger maxActive;
 
   @JsonProperty("maxIdle")
-  private ConfigNodePropertyInteger maxIdle = null;
+  private ConfigNodePropertyInteger maxIdle;
 
   @JsonProperty("minIdle")
-  private ConfigNodePropertyInteger minIdle = null;
+  private ConfigNodePropertyInteger minIdle;
 
   @JsonProperty("initialSize")
-  private ConfigNodePropertyInteger initialSize = null;
+  private ConfigNodePropertyInteger initialSize;
 
   @JsonProperty("maxWait")
-  private ConfigNodePropertyInteger maxWait = null;
+  private ConfigNodePropertyInteger maxWait;
 
   @JsonProperty("maxAge")
-  private ConfigNodePropertyInteger maxAge = null;
+  private ConfigNodePropertyInteger maxAge;
 
   @JsonProperty("testOnBorrow")
-  private ConfigNodePropertyBoolean testOnBorrow = null;
+  private ConfigNodePropertyBoolean testOnBorrow;
 
   @JsonProperty("testOnReturn")
-  private ConfigNodePropertyBoolean testOnReturn = null;
+  private ConfigNodePropertyBoolean testOnReturn;
 
   @JsonProperty("testWhileIdle")
-  private ConfigNodePropertyBoolean testWhileIdle = null;
+  private ConfigNodePropertyBoolean testWhileIdle;
 
   @JsonProperty("validationQuery")
-  private ConfigNodePropertyString validationQuery = null;
+  private ConfigNodePropertyString validationQuery;
 
   @JsonProperty("validationQueryTimeout")
-  private ConfigNodePropertyInteger validationQueryTimeout = null;
+  private ConfigNodePropertyInteger validationQueryTimeout;
 
   @JsonProperty("timeBetweenEvictionRunsMillis")
-  private ConfigNodePropertyInteger timeBetweenEvictionRunsMillis = null;
+  private ConfigNodePropertyInteger timeBetweenEvictionRunsMillis;
 
   @JsonProperty("minEvictableIdleTimeMillis")
-  private ConfigNodePropertyInteger minEvictableIdleTimeMillis = null;
+  private ConfigNodePropertyInteger minEvictableIdleTimeMillis;
 
   @JsonProperty("connectionProperties")
-  private ConfigNodePropertyString connectionProperties = null;
+  private ConfigNodePropertyString connectionProperties;
 
   @JsonProperty("initSQL")
-  private ConfigNodePropertyString initSQL = null;
+  private ConfigNodePropertyString initSQL;
 
   @JsonProperty("jdbcInterceptors")
-  private ConfigNodePropertyString jdbcInterceptors = null;
+  private ConfigNodePropertyString jdbcInterceptors;
 
   @JsonProperty("validationInterval")
-  private ConfigNodePropertyInteger validationInterval = null;
+  private ConfigNodePropertyInteger validationInterval;
 
   @JsonProperty("logValidationErrors")
-  private ConfigNodePropertyBoolean logValidationErrors = null;
+  private ConfigNodePropertyBoolean logValidationErrors;
 
   @JsonProperty("datasource.svc.properties")
-  private ConfigNodePropertyArray datasourceSvcProperties = null;
+  private ConfigNodePropertyArray datasourceSvcProperties;
 
   public OrgApacheSlingDatasourceDataSourceFactoryProperties datasourceName(ConfigNodePropertyString datasourceName) {
     this.datasourceName = datasourceName;
@@ -627,7 +628,7 @@ public class OrgApacheSlingDatasourceDataSourceFactoryProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -713,11 +714,8 @@ public class OrgApacheSlingDatasourceDataSourceFactoryProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

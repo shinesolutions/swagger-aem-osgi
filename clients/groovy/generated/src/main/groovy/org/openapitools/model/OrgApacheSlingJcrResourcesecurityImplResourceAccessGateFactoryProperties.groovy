@@ -7,10 +7,10 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class OrgApacheSlingJcrResourcesecurityImplResourceAccessGateFactoryProperties {
-    ConfigNodePropertyString path = null
-
-    ConfigNodePropertyString checkpathPrefix = null
-
-    ConfigNodePropertyString jcrPath = null
-
+    
+    ConfigNodePropertyString path
+    
+    ConfigNodePropertyString checkpathPrefix
+    
+    ConfigNodePropertyString jcrPath
 }

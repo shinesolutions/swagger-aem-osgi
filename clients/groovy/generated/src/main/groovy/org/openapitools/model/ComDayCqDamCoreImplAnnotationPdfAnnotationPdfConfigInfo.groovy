@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfi
 
 @Canonical
 class ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties properties
 }

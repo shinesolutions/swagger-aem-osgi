@@ -72,7 +72,7 @@ private class OASComAdobeGraniteBundlesHcImplWebDaTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeGraniteBundlesHcImplWebDa comAdobeGraniteBundlesHcImplWebDavBundleHealthCheckProperties = new OASComAdobeGraniteBundlesHcImplWebDa();
-        Map<String, String> propertyMappings = comAdobeGraniteBundlesHcImplWebDavBundleHealthCheckProperties.getPropertyMappings();
-        System.assertEquals('hcTags', propertyMappings.get('hc.tags'));
+        Map<String, String> x-property-mappings = comAdobeGraniteBundlesHcImplWebDavBundleHealthCheckProperties.getx-property-mappings();
+        System.assertEquals('hcTags', x-property-mappings.get('hc.tags'));
     }
 }

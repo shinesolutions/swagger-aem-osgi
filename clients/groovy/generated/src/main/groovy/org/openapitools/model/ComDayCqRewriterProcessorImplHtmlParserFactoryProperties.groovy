@@ -8,8 +8,8 @@ import org.openapitools.model.ConfigNodePropertyBoolean;
 
 @Canonical
 class ComDayCqRewriterProcessorImplHtmlParserFactoryProperties {
-    ConfigNodePropertyArray htmlparserProcessTags = null
-
-    ConfigNodePropertyBoolean htmlparserPreserveCamelCase = null
-
+    
+    ConfigNodePropertyArray htmlparserProcessTags
+    
+    ConfigNodePropertyBoolean htmlparserPreserveCamelCase
 }

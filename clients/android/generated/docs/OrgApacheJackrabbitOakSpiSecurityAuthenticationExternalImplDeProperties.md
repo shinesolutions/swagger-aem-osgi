@@ -1,7 +1,9 @@
 
+
 # OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **handlerName** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
@@ -18,6 +20,7 @@ Name | Type | Description | Notes
 **groupPropertyMapping** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
 **groupPathPrefix** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
 **enableRFC7613UsercaseMappedProfile** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
+
 
 
 

@@ -1,23 +1,34 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("orgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyProperties   {
-  
-  private @Valid ConfigNodePropertyBoolean enabled = null;
-  private @Valid ConfigNodePropertyArray configRefResourceNames = null;
-  private @Valid ConfigNodePropertyArray configRefPropertyNames = null;
-  private @Valid ConfigNodePropertyInteger serviceRanking = null;
+  private ConfigNodePropertyBoolean enabled;
+  private ConfigNodePropertyArray configRefResourceNames;
+  private ConfigNodePropertyArray configRefPropertyNames;
+  private ConfigNodePropertyInteger serviceRanking;
+
+  public OrgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyProperties() {
+  }
 
   /**
    **/
@@ -29,9 +40,11 @@ public class OrgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("enabled")
-  public ConfigNodePropertyBoolean getEnabled() {
+  @Valid public ConfigNodePropertyBoolean getEnabled() {
     return enabled;
   }
+
+  @JsonProperty("enabled")
   public void setEnabled(ConfigNodePropertyBoolean enabled) {
     this.enabled = enabled;
   }
@@ -46,9 +59,11 @@ public class OrgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("configRefResourceNames")
-  public ConfigNodePropertyArray getConfigRefResourceNames() {
+  @Valid public ConfigNodePropertyArray getConfigRefResourceNames() {
     return configRefResourceNames;
   }
+
+  @JsonProperty("configRefResourceNames")
   public void setConfigRefResourceNames(ConfigNodePropertyArray configRefResourceNames) {
     this.configRefResourceNames = configRefResourceNames;
   }
@@ -63,9 +78,11 @@ public class OrgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("configRefPropertyNames")
-  public ConfigNodePropertyArray getConfigRefPropertyNames() {
+  @Valid public ConfigNodePropertyArray getConfigRefPropertyNames() {
     return configRefPropertyNames;
   }
+
+  @JsonProperty("configRefPropertyNames")
   public void setConfigRefPropertyNames(ConfigNodePropertyArray configRefPropertyNames) {
     this.configRefPropertyNames = configRefPropertyNames;
   }
@@ -80,16 +97,18 @@ public class OrgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("service.ranking")
-  public ConfigNodePropertyInteger getServiceRanking() {
+  @Valid public ConfigNodePropertyInteger getServiceRanking() {
     return serviceRanking;
   }
+
+  @JsonProperty("service.ranking")
   public void setServiceRanking(ConfigNodePropertyInteger serviceRanking) {
     this.serviceRanking = serviceRanking;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -97,10 +116,10 @@ public class OrgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyProp
       return false;
     }
     OrgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyProperties orgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyProperties = (OrgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyProperties) o;
-    return Objects.equals(enabled, orgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyProperties.enabled) &&
-        Objects.equals(configRefResourceNames, orgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyProperties.configRefResourceNames) &&
-        Objects.equals(configRefPropertyNames, orgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyProperties.configRefPropertyNames) &&
-        Objects.equals(serviceRanking, orgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyProperties.serviceRanking);
+    return Objects.equals(this.enabled, orgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyProperties.enabled) &&
+        Objects.equals(this.configRefResourceNames, orgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyProperties.configRefResourceNames) &&
+        Objects.equals(this.configRefPropertyNames, orgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyProperties.configRefPropertyNames) &&
+        Objects.equals(this.serviceRanking, orgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyProperties.serviceRanking);
   }
 
   @Override
@@ -125,11 +144,9 @@ public class OrgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyProp
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

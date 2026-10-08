@@ -1,21 +1,32 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comAdobeCqDamProcessorNuiImplNuiAssetProcessorProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeCqDamProcessorNuiImplNuiAssetProcessorProperties   {
-  
-  private @Valid ConfigNodePropertyBoolean nuiEnabled = null;
-  private @Valid ConfigNodePropertyString nuiServiceUrl = null;
-  private @Valid ConfigNodePropertyString nuiApiKey = null;
+  private ConfigNodePropertyBoolean nuiEnabled;
+  private ConfigNodePropertyString nuiServiceUrl;
+  private ConfigNodePropertyString nuiApiKey;
+
+  public ComAdobeCqDamProcessorNuiImplNuiAssetProcessorProperties() {
+  }
 
   /**
    **/
@@ -27,9 +38,11 @@ public class ComAdobeCqDamProcessorNuiImplNuiAssetProcessorProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("nuiEnabled")
-  public ConfigNodePropertyBoolean getNuiEnabled() {
+  @Valid public ConfigNodePropertyBoolean getNuiEnabled() {
     return nuiEnabled;
   }
+
+  @JsonProperty("nuiEnabled")
   public void setNuiEnabled(ConfigNodePropertyBoolean nuiEnabled) {
     this.nuiEnabled = nuiEnabled;
   }
@@ -44,9 +57,11 @@ public class ComAdobeCqDamProcessorNuiImplNuiAssetProcessorProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("nuiServiceUrl")
-  public ConfigNodePropertyString getNuiServiceUrl() {
+  @Valid public ConfigNodePropertyString getNuiServiceUrl() {
     return nuiServiceUrl;
   }
+
+  @JsonProperty("nuiServiceUrl")
   public void setNuiServiceUrl(ConfigNodePropertyString nuiServiceUrl) {
     this.nuiServiceUrl = nuiServiceUrl;
   }
@@ -61,16 +76,18 @@ public class ComAdobeCqDamProcessorNuiImplNuiAssetProcessorProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("nuiApiKey")
-  public ConfigNodePropertyString getNuiApiKey() {
+  @Valid public ConfigNodePropertyString getNuiApiKey() {
     return nuiApiKey;
   }
+
+  @JsonProperty("nuiApiKey")
   public void setNuiApiKey(ConfigNodePropertyString nuiApiKey) {
     this.nuiApiKey = nuiApiKey;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -78,9 +95,9 @@ public class ComAdobeCqDamProcessorNuiImplNuiAssetProcessorProperties   {
       return false;
     }
     ComAdobeCqDamProcessorNuiImplNuiAssetProcessorProperties comAdobeCqDamProcessorNuiImplNuiAssetProcessorProperties = (ComAdobeCqDamProcessorNuiImplNuiAssetProcessorProperties) o;
-    return Objects.equals(nuiEnabled, comAdobeCqDamProcessorNuiImplNuiAssetProcessorProperties.nuiEnabled) &&
-        Objects.equals(nuiServiceUrl, comAdobeCqDamProcessorNuiImplNuiAssetProcessorProperties.nuiServiceUrl) &&
-        Objects.equals(nuiApiKey, comAdobeCqDamProcessorNuiImplNuiAssetProcessorProperties.nuiApiKey);
+    return Objects.equals(this.nuiEnabled, comAdobeCqDamProcessorNuiImplNuiAssetProcessorProperties.nuiEnabled) &&
+        Objects.equals(this.nuiServiceUrl, comAdobeCqDamProcessorNuiImplNuiAssetProcessorProperties.nuiServiceUrl) &&
+        Objects.equals(this.nuiApiKey, comAdobeCqDamProcessorNuiImplNuiAssetProcessorProperties.nuiApiKey);
   }
 
   @Override
@@ -104,11 +121,9 @@ public class ComAdobeCqDamProcessorNuiImplNuiAssetProcessorProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

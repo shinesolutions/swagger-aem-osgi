@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqDtmImplServletsDTMDeployHookServletPrope
 
 @Canonical
 class ComAdobeCqDtmImplServletsDTMDeployHookServletInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqDtmImplServletsDTMDeployHookServletProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqDtmImplServletsDTMDeployHookServletProperties properties
 }

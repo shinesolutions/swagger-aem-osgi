@@ -72,13 +72,13 @@ private class OASComAdobeFdFpConfigFormsPortalDrafTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeFdFpConfigFormsPortalDraf comAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServiceProperties = new OASComAdobeFdFpConfigFormsPortalDraf();
-        Map<String, String> propertyMappings = comAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServiceProperties.getPropertyMappings();
-        System.assertEquals('portalOutboxes', propertyMappings.get('portal.outboxes'));
-        System.assertEquals('draftDataService', propertyMappings.get('draft.data.service'));
-        System.assertEquals('draftMetadataService', propertyMappings.get('draft.metadata.service'));
-        System.assertEquals('submitDataService', propertyMappings.get('submit.data.service'));
-        System.assertEquals('submitMetadataService', propertyMappings.get('submit.metadata.service'));
-        System.assertEquals('pendingSignDataService', propertyMappings.get('pendingSign.data.service'));
-        System.assertEquals('pendingSignMetadataService', propertyMappings.get('pendingSign.metadata.service'));
+        Map<String, String> x-property-mappings = comAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServiceProperties.getx-property-mappings();
+        System.assertEquals('portalOutboxes', x-property-mappings.get('portal.outboxes'));
+        System.assertEquals('draftDataService', x-property-mappings.get('draft.data.service'));
+        System.assertEquals('draftMetadataService', x-property-mappings.get('draft.metadata.service'));
+        System.assertEquals('submitDataService', x-property-mappings.get('submit.data.service'));
+        System.assertEquals('submitMetadataService', x-property-mappings.get('submit.metadata.service'));
+        System.assertEquals('pendingSignDataService', x-property-mappings.get('pendingSign.data.service'));
+        System.assertEquals('pendingSignMetadataService', x-property-mappings.get('pendingSign.metadata.service'));
     }
 }

@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponenInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponenInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponenProperties = openapi_server.resourceTypes.ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponenProperties
+}
+resourceTypes {
+
+  ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponenInfo {
+    title = ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponenInfo
+    description = ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponenInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponenProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponenInfo {
+    title = ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponenInfo
+    description = ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponenInfo
+    implements = openapi_server.resourceTypes.ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponenInfo
+
+  }
+}

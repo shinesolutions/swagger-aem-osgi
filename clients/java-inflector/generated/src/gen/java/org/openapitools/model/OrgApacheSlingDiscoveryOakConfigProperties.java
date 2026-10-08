@@ -3,6 +3,7 @@ package org.openapitools.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
@@ -14,64 +15,64 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaInflectorServerCodegen", date = "2019-08-05T00:53:46.291Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaInflectorServerCodegen", date = "2026-10-07T12:53:12.340274163Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingDiscoveryOakConfigProperties   {
   @JsonProperty("connectorPingTimeout")
-  private ConfigNodePropertyInteger connectorPingTimeout = null;
+  private ConfigNodePropertyInteger connectorPingTimeout;
 
   @JsonProperty("connectorPingInterval")
-  private ConfigNodePropertyInteger connectorPingInterval = null;
+  private ConfigNodePropertyInteger connectorPingInterval;
 
   @JsonProperty("discoveryLiteCheckInterval")
-  private ConfigNodePropertyInteger discoveryLiteCheckInterval = null;
+  private ConfigNodePropertyInteger discoveryLiteCheckInterval;
 
   @JsonProperty("clusterSyncServiceTimeout")
-  private ConfigNodePropertyInteger clusterSyncServiceTimeout = null;
+  private ConfigNodePropertyInteger clusterSyncServiceTimeout;
 
   @JsonProperty("clusterSyncServiceInterval")
-  private ConfigNodePropertyInteger clusterSyncServiceInterval = null;
+  private ConfigNodePropertyInteger clusterSyncServiceInterval;
 
   @JsonProperty("enableSyncToken")
-  private ConfigNodePropertyBoolean enableSyncToken = null;
+  private ConfigNodePropertyBoolean enableSyncToken;
 
   @JsonProperty("minEventDelay")
-  private ConfigNodePropertyInteger minEventDelay = null;
+  private ConfigNodePropertyInteger minEventDelay;
 
   @JsonProperty("socketConnectTimeout")
-  private ConfigNodePropertyInteger socketConnectTimeout = null;
+  private ConfigNodePropertyInteger socketConnectTimeout;
 
   @JsonProperty("soTimeout")
-  private ConfigNodePropertyInteger soTimeout = null;
+  private ConfigNodePropertyInteger soTimeout;
 
   @JsonProperty("topologyConnectorUrls")
-  private ConfigNodePropertyArray topologyConnectorUrls = null;
+  private ConfigNodePropertyArray topologyConnectorUrls;
 
   @JsonProperty("topologyConnectorWhitelist")
-  private ConfigNodePropertyArray topologyConnectorWhitelist = null;
+  private ConfigNodePropertyArray topologyConnectorWhitelist;
 
   @JsonProperty("autoStopLocalLoopEnabled")
-  private ConfigNodePropertyBoolean autoStopLocalLoopEnabled = null;
+  private ConfigNodePropertyBoolean autoStopLocalLoopEnabled;
 
   @JsonProperty("gzipConnectorRequestsEnabled")
-  private ConfigNodePropertyBoolean gzipConnectorRequestsEnabled = null;
+  private ConfigNodePropertyBoolean gzipConnectorRequestsEnabled;
 
   @JsonProperty("hmacEnabled")
-  private ConfigNodePropertyBoolean hmacEnabled = null;
+  private ConfigNodePropertyBoolean hmacEnabled;
 
   @JsonProperty("enableEncryption")
-  private ConfigNodePropertyBoolean enableEncryption = null;
+  private ConfigNodePropertyBoolean enableEncryption;
 
   @JsonProperty("sharedKey")
-  private ConfigNodePropertyString sharedKey = null;
+  private ConfigNodePropertyString sharedKey;
 
   @JsonProperty("hmacSharedKeyTTL")
-  private ConfigNodePropertyInteger hmacSharedKeyTTL = null;
+  private ConfigNodePropertyInteger hmacSharedKeyTTL;
 
   @JsonProperty("backoffStandbyFactor")
-  private ConfigNodePropertyString backoffStandbyFactor = null;
+  private ConfigNodePropertyString backoffStandbyFactor;
 
   @JsonProperty("backoffStableFactor")
-  private ConfigNodePropertyString backoffStableFactor = null;
+  private ConfigNodePropertyString backoffStableFactor;
 
   /**
    **/
@@ -398,7 +399,7 @@ public class OrgApacheSlingDiscoveryOakConfigProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -464,11 +465,8 @@ public class OrgApacheSlingDiscoveryOakConfigProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

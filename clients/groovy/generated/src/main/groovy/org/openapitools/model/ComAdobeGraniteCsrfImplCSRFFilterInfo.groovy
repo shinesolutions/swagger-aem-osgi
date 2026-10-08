@@ -7,16 +7,16 @@ import org.openapitools.model.ComAdobeGraniteCsrfImplCSRFFilterProperties;
 
 @Canonical
 class ComAdobeGraniteCsrfImplCSRFFilterInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteCsrfImplCSRFFilterProperties properties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteCsrfImplCSRFFilterProperties properties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

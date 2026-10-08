@@ -1,0 +1,6 @@
+package models
+
+type ComAdobeGraniteWorkflowConsolePublishWorkflowPublishEventServiceProperties struct {
+
+	GraniteWorkflowWorkflowPublishEventServiceEnabled ConfigNodePropertyBoolean `json:"granite.workflow.WorkflowPublishEventService.enabled,omitempty"`
+}

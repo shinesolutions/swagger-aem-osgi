@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class ComAdobeGraniteWorkflowCoreJcrWorkflowBucketManagerProperties {
-    ConfigNodePropertyInteger bucketSize = null
-
+    
+    ConfigNodePropertyInteger bucketSize
 }

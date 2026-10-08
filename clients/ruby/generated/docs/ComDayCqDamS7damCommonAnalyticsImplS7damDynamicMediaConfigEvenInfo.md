@@ -2,22 +2,23 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**pid** | **String** |  | [optional] 
-**title** | **String** |  | [optional] 
-**description** | **String** |  | [optional] 
-**properties** | [**ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenProperties**](ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenProperties.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **pid** | **String** |  | [optional] |
+| **title** | **String** |  | [optional] |
+| **description** | **String** |  | [optional] |
+| **properties** | [**ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenProperties**](ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenProperties.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenInfo.new(pid: null,
-                                 title: null,
-                                 description: null,
-                                 properties: null)
+instance = SwaggerAemOsgiClient::ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenInfo.new(
+  pid: null,
+  title: null,
+  description: null,
+  properties: null
+)
 ```
-
 

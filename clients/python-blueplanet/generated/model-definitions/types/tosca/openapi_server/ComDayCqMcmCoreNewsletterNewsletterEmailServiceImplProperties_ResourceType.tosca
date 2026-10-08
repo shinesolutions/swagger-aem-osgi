@@ -1,0 +1,46 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqMcmCoreNewsletterNewsletterEmailServiceImplProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqMcmCoreNewsletterNewsletterEmailServiceImplProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComDayCqMcmCoreNewsletterNewsletterEmailServiceImplProperties {
+    title = ComDayCqMcmCoreNewsletterNewsletterEmailServiceImplProperties
+    description = ComDayCqMcmCoreNewsletterNewsletterEmailServiceImplProperties
+    derivedFrom = Root
+    properties {
+        from_address {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        sender_host {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        max_bounce_count {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqMcmCoreNewsletterNewsletterEmailServiceImplProperties {
+    title = ComDayCqMcmCoreNewsletterNewsletterEmailServiceImplProperties
+    description = ComDayCqMcmCoreNewsletterNewsletterEmailServiceImplProperties
+    implements = openapi_server.resourceTypes.ComDayCqMcmCoreNewsletterNewsletterEmailServiceImplProperties
+
+  }
+}

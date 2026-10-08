@@ -1,19 +1,30 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comAdobeCqHistoryImplHistoryServiceImplProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeCqHistoryImplHistoryServiceImplProperties   {
-  
-  private @Valid ConfigNodePropertyArray historyServiceResourceTypes = null;
-  private @Valid ConfigNodePropertyArray historyServicePathFilter = null;
+  private ConfigNodePropertyArray historyServiceResourceTypes;
+  private ConfigNodePropertyArray historyServicePathFilter;
+
+  public ComAdobeCqHistoryImplHistoryServiceImplProperties() {
+  }
 
   /**
    **/
@@ -25,9 +36,11 @@ public class ComAdobeCqHistoryImplHistoryServiceImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("history.service.resourceTypes")
-  public ConfigNodePropertyArray getHistoryServiceResourceTypes() {
+  @Valid public ConfigNodePropertyArray getHistoryServiceResourceTypes() {
     return historyServiceResourceTypes;
   }
+
+  @JsonProperty("history.service.resourceTypes")
   public void setHistoryServiceResourceTypes(ConfigNodePropertyArray historyServiceResourceTypes) {
     this.historyServiceResourceTypes = historyServiceResourceTypes;
   }
@@ -42,16 +55,18 @@ public class ComAdobeCqHistoryImplHistoryServiceImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("history.service.pathFilter")
-  public ConfigNodePropertyArray getHistoryServicePathFilter() {
+  @Valid public ConfigNodePropertyArray getHistoryServicePathFilter() {
     return historyServicePathFilter;
   }
+
+  @JsonProperty("history.service.pathFilter")
   public void setHistoryServicePathFilter(ConfigNodePropertyArray historyServicePathFilter) {
     this.historyServicePathFilter = historyServicePathFilter;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -59,8 +74,8 @@ public class ComAdobeCqHistoryImplHistoryServiceImplProperties   {
       return false;
     }
     ComAdobeCqHistoryImplHistoryServiceImplProperties comAdobeCqHistoryImplHistoryServiceImplProperties = (ComAdobeCqHistoryImplHistoryServiceImplProperties) o;
-    return Objects.equals(historyServiceResourceTypes, comAdobeCqHistoryImplHistoryServiceImplProperties.historyServiceResourceTypes) &&
-        Objects.equals(historyServicePathFilter, comAdobeCqHistoryImplHistoryServiceImplProperties.historyServicePathFilter);
+    return Objects.equals(this.historyServiceResourceTypes, comAdobeCqHistoryImplHistoryServiceImplProperties.historyServiceResourceTypes) &&
+        Objects.equals(this.historyServicePathFilter, comAdobeCqHistoryImplHistoryServiceImplProperties.historyServicePathFilter);
   }
 
   @Override
@@ -83,11 +98,9 @@ public class ComAdobeCqHistoryImplHistoryServiceImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

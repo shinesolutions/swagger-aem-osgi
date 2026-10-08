@@ -4,26 +4,30 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyDropDown;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2019-08-05T00:59:30.156Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2026-10-07T12:54:21.614735164Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingEngineImplLogRequestLoggerServiceProperties   {
   
-  private ConfigNodePropertyString requestLogServiceFormat = null;
-  private ConfigNodePropertyString requestLogServiceOutput = null;
-  private ConfigNodePropertyDropDown requestLogServiceOutputtype = null;
-  private ConfigNodePropertyBoolean requestLogServiceOnentry = null;
+  private ConfigNodePropertyString requestLogServiceFormat;
+  private ConfigNodePropertyString requestLogServiceOutput;
+  private ConfigNodePropertyDropDown requestLogServiceOutputtype;
+  private ConfigNodePropertyBoolean requestLogServiceOnentry;
 
   /**
    **/
   
   @ApiModelProperty(value = "")
   @JsonProperty("request.log.service.format")
+  @Valid
   public ConfigNodePropertyString getRequestLogServiceFormat() {
     return requestLogServiceFormat;
   }
@@ -36,6 +40,7 @@ public class OrgApacheSlingEngineImplLogRequestLoggerServiceProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("request.log.service.output")
+  @Valid
   public ConfigNodePropertyString getRequestLogServiceOutput() {
     return requestLogServiceOutput;
   }
@@ -48,6 +53,7 @@ public class OrgApacheSlingEngineImplLogRequestLoggerServiceProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("request.log.service.outputtype")
+  @Valid
   public ConfigNodePropertyDropDown getRequestLogServiceOutputtype() {
     return requestLogServiceOutputtype;
   }
@@ -60,6 +66,7 @@ public class OrgApacheSlingEngineImplLogRequestLoggerServiceProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("request.log.service.onentry")
+  @Valid
   public ConfigNodePropertyBoolean getRequestLogServiceOnentry() {
     return requestLogServiceOnentry;
   }
@@ -69,7 +76,7 @@ public class OrgApacheSlingEngineImplLogRequestLoggerServiceProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -77,10 +84,10 @@ public class OrgApacheSlingEngineImplLogRequestLoggerServiceProperties   {
       return false;
     }
     OrgApacheSlingEngineImplLogRequestLoggerServiceProperties orgApacheSlingEngineImplLogRequestLoggerServiceProperties = (OrgApacheSlingEngineImplLogRequestLoggerServiceProperties) o;
-    return Objects.equals(requestLogServiceFormat, orgApacheSlingEngineImplLogRequestLoggerServiceProperties.requestLogServiceFormat) &&
-        Objects.equals(requestLogServiceOutput, orgApacheSlingEngineImplLogRequestLoggerServiceProperties.requestLogServiceOutput) &&
-        Objects.equals(requestLogServiceOutputtype, orgApacheSlingEngineImplLogRequestLoggerServiceProperties.requestLogServiceOutputtype) &&
-        Objects.equals(requestLogServiceOnentry, orgApacheSlingEngineImplLogRequestLoggerServiceProperties.requestLogServiceOnentry);
+    return Objects.equals(this.requestLogServiceFormat, orgApacheSlingEngineImplLogRequestLoggerServiceProperties.requestLogServiceFormat) &&
+        Objects.equals(this.requestLogServiceOutput, orgApacheSlingEngineImplLogRequestLoggerServiceProperties.requestLogServiceOutput) &&
+        Objects.equals(this.requestLogServiceOutputtype, orgApacheSlingEngineImplLogRequestLoggerServiceProperties.requestLogServiceOutputtype) &&
+        Objects.equals(this.requestLogServiceOnentry, orgApacheSlingEngineImplLogRequestLoggerServiceProperties.requestLogServiceOnentry);
   }
 
   @Override
@@ -105,11 +112,8 @@ public class OrgApacheSlingEngineImplLogRequestLoggerServiceProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

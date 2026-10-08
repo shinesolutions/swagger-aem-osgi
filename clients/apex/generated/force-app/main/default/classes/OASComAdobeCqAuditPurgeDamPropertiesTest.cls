@@ -72,10 +72,10 @@ private class OASComAdobeCqAuditPurgeDamPropertiesTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeCqAuditPurgeDamProperties comAdobeCqAuditPurgeDamProperties = new OASComAdobeCqAuditPurgeDamProperties();
-        Map<String, String> propertyMappings = comAdobeCqAuditPurgeDamProperties.getPropertyMappings();
-        System.assertEquals('auditlogRuleName', propertyMappings.get('auditlog.rule.name'));
-        System.assertEquals('auditlogRuleContentpath', propertyMappings.get('auditlog.rule.contentpath'));
-        System.assertEquals('auditlogRuleMinimumage', propertyMappings.get('auditlog.rule.minimumage'));
-        System.assertEquals('auditlogRuleTypes', propertyMappings.get('auditlog.rule.types'));
+        Map<String, String> x-property-mappings = comAdobeCqAuditPurgeDamProperties.getx-property-mappings();
+        System.assertEquals('auditlogRuleName', x-property-mappings.get('auditlog.rule.name'));
+        System.assertEquals('auditlogRuleContentpath', x-property-mappings.get('auditlog.rule.contentpath'));
+        System.assertEquals('auditlogRuleMinimumage', x-property-mappings.get('auditlog.rule.minimumage'));
+        System.assertEquals('auditlogRuleTypes', x-property-mappings.get('auditlog.rule.types'));
     }
 }

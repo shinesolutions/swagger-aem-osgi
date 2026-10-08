@@ -3,6 +3,7 @@ package org.openapitools.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
@@ -14,22 +15,22 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaInflectorServerCodegen", date = "2019-08-05T00:53:46.291Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaInflectorServerCodegen", date = "2026-10-07T12:53:12.340274163Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerProperties   {
   @JsonProperty("path")
-  private ConfigNodePropertyString path = null;
+  private ConfigNodePropertyString path;
 
   @JsonProperty("token.required.attr")
-  private ConfigNodePropertyDropDown tokenRequiredAttr = null;
+  private ConfigNodePropertyDropDown tokenRequiredAttr;
 
   @JsonProperty("token.alternate.url")
-  private ConfigNodePropertyString tokenAlternateUrl = null;
+  private ConfigNodePropertyString tokenAlternateUrl;
 
   @JsonProperty("token.encapsulated")
-  private ConfigNodePropertyBoolean tokenEncapsulated = null;
+  private ConfigNodePropertyBoolean tokenEncapsulated;
 
   @JsonProperty("skip.token.refresh")
-  private ConfigNodePropertyArray skipTokenRefresh = null;
+  private ConfigNodePropertyArray skipTokenRefresh;
 
   /**
    **/
@@ -118,7 +119,7 @@ public class ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerProperties 
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -156,11 +157,8 @@ public class ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerProperties 
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

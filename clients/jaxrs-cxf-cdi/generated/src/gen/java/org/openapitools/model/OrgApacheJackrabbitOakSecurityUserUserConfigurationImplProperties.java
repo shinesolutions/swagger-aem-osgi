@@ -2,54 +2,55 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyDropDown;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties   {
   
-  private ConfigNodePropertyString usersPath = null;
+  private ConfigNodePropertyString usersPath;
 
-  private ConfigNodePropertyString groupsPath = null;
+  private ConfigNodePropertyString groupsPath;
 
-  private ConfigNodePropertyString systemRelativePath = null;
+  private ConfigNodePropertyString systemRelativePath;
 
-  private ConfigNodePropertyInteger defaultDepth = null;
+  private ConfigNodePropertyInteger defaultDepth;
 
-  private ConfigNodePropertyDropDown importBehavior = null;
+  private ConfigNodePropertyDropDown importBehavior;
 
-  private ConfigNodePropertyString passwordHashAlgorithm = null;
+  private ConfigNodePropertyString passwordHashAlgorithm;
 
-  private ConfigNodePropertyInteger passwordHashIterations = null;
+  private ConfigNodePropertyInteger passwordHashIterations;
 
-  private ConfigNodePropertyInteger passwordSaltSize = null;
+  private ConfigNodePropertyInteger passwordSaltSize;
 
-  private ConfigNodePropertyBoolean omitAdminPw = null;
+  private ConfigNodePropertyBoolean omitAdminPw;
 
-  private ConfigNodePropertyBoolean supportAutoSave = null;
+  private ConfigNodePropertyBoolean supportAutoSave;
 
-  private ConfigNodePropertyInteger passwordMaxAge = null;
+  private ConfigNodePropertyInteger passwordMaxAge;
 
-  private ConfigNodePropertyBoolean initialPasswordChange = null;
+  private ConfigNodePropertyBoolean initialPasswordChange;
 
-  private ConfigNodePropertyInteger passwordHistorySize = null;
+  private ConfigNodePropertyInteger passwordHistorySize;
 
-  private ConfigNodePropertyBoolean passwordExpiryForAdmin = null;
+  private ConfigNodePropertyBoolean passwordExpiryForAdmin;
 
-  private ConfigNodePropertyInteger cacheExpiration = null;
+  private ConfigNodePropertyInteger cacheExpiration;
 
-  private ConfigNodePropertyBoolean enableRFC7613UsercaseMappedProfile = null;
-
+  private ConfigNodePropertyBoolean enableRFC7613UsercaseMappedProfile;
 
   /**
    **/
@@ -341,7 +342,7 @@ public class OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties  
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -349,22 +350,22 @@ public class OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties  
       return false;
     }
     OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties orgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties = (OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties) o;
-    return Objects.equals(usersPath, orgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties.usersPath) &&
-        Objects.equals(groupsPath, orgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties.groupsPath) &&
-        Objects.equals(systemRelativePath, orgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties.systemRelativePath) &&
-        Objects.equals(defaultDepth, orgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties.defaultDepth) &&
-        Objects.equals(importBehavior, orgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties.importBehavior) &&
-        Objects.equals(passwordHashAlgorithm, orgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties.passwordHashAlgorithm) &&
-        Objects.equals(passwordHashIterations, orgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties.passwordHashIterations) &&
-        Objects.equals(passwordSaltSize, orgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties.passwordSaltSize) &&
-        Objects.equals(omitAdminPw, orgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties.omitAdminPw) &&
-        Objects.equals(supportAutoSave, orgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties.supportAutoSave) &&
-        Objects.equals(passwordMaxAge, orgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties.passwordMaxAge) &&
-        Objects.equals(initialPasswordChange, orgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties.initialPasswordChange) &&
-        Objects.equals(passwordHistorySize, orgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties.passwordHistorySize) &&
-        Objects.equals(passwordExpiryForAdmin, orgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties.passwordExpiryForAdmin) &&
-        Objects.equals(cacheExpiration, orgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties.cacheExpiration) &&
-        Objects.equals(enableRFC7613UsercaseMappedProfile, orgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties.enableRFC7613UsercaseMappedProfile);
+    return Objects.equals(this.usersPath, orgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties.usersPath) &&
+        Objects.equals(this.groupsPath, orgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties.groupsPath) &&
+        Objects.equals(this.systemRelativePath, orgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties.systemRelativePath) &&
+        Objects.equals(this.defaultDepth, orgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties.defaultDepth) &&
+        Objects.equals(this.importBehavior, orgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties.importBehavior) &&
+        Objects.equals(this.passwordHashAlgorithm, orgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties.passwordHashAlgorithm) &&
+        Objects.equals(this.passwordHashIterations, orgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties.passwordHashIterations) &&
+        Objects.equals(this.passwordSaltSize, orgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties.passwordSaltSize) &&
+        Objects.equals(this.omitAdminPw, orgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties.omitAdminPw) &&
+        Objects.equals(this.supportAutoSave, orgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties.supportAutoSave) &&
+        Objects.equals(this.passwordMaxAge, orgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties.passwordMaxAge) &&
+        Objects.equals(this.initialPasswordChange, orgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties.initialPasswordChange) &&
+        Objects.equals(this.passwordHistorySize, orgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties.passwordHistorySize) &&
+        Objects.equals(this.passwordExpiryForAdmin, orgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties.passwordExpiryForAdmin) &&
+        Objects.equals(this.cacheExpiration, orgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties.cacheExpiration) &&
+        Objects.equals(this.enableRFC7613UsercaseMappedProfile, orgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties.enableRFC7613UsercaseMappedProfile);
   }
 
   @Override
@@ -401,11 +402,8 @@ public class OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties  
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

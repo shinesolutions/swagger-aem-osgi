@@ -72,9 +72,9 @@ private class OASComAdobeCqCommercePimImplCataloggTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeCqCommercePimImplCatalogg comAdobeCqCommercePimImplCataloggeneratorCatalogGeneratorImplProperties = new OASComAdobeCqCommercePimImplCatalogg();
-        Map<String, String> propertyMappings = comAdobeCqCommercePimImplCataloggeneratorCatalogGeneratorImplProperties.getPropertyMappings();
-        System.assertEquals('cqCommerceCataloggeneratorBucketsize', propertyMappings.get('cq.commerce.cataloggenerator.bucketsize'));
-        System.assertEquals('cqCommerceCataloggeneratorBucketname', propertyMappings.get('cq.commerce.cataloggenerator.bucketname'));
-        System.assertEquals('cqCommerceCataloggeneratorExcludedtemplateproperties', propertyMappings.get('cq.commerce.cataloggenerator.excludedtemplateproperties'));
+        Map<String, String> x-property-mappings = comAdobeCqCommercePimImplCataloggeneratorCatalogGeneratorImplProperties.getx-property-mappings();
+        System.assertEquals('cqCommerceCataloggeneratorBucketsize', x-property-mappings.get('cq.commerce.cataloggenerator.bucketsize'));
+        System.assertEquals('cqCommerceCataloggeneratorBucketname', x-property-mappings.get('cq.commerce.cataloggenerator.bucketname'));
+        System.assertEquals('cqCommerceCataloggeneratorExcludedtemplateproperties', x-property-mappings.get('cq.commerce.cataloggenerator.excludedtemplateproperties'));
     }
 }

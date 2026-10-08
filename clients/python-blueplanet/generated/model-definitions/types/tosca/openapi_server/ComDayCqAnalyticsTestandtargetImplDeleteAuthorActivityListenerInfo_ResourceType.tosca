@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqAnalyticsTestandtargetImplDeleteAuthorActivityListenerInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqAnalyticsTestandtargetImplDeleteAuthorActivityListenerInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComDayCqAnalyticsTestandtargetImplDeleteAuthorActivityListenerProperties = openapi_server.resourceTypes.ComDayCqAnalyticsTestandtargetImplDeleteAuthorActivityListenerProperties
+}
+resourceTypes {
+
+  ComDayCqAnalyticsTestandtargetImplDeleteAuthorActivityListenerInfo {
+    title = ComDayCqAnalyticsTestandtargetImplDeleteAuthorActivityListenerInfo
+    description = ComDayCqAnalyticsTestandtargetImplDeleteAuthorActivityListenerInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComDayCqAnalyticsTestandtargetImplDeleteAuthorActivityListenerProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqAnalyticsTestandtargetImplDeleteAuthorActivityListenerInfo {
+    title = ComDayCqAnalyticsTestandtargetImplDeleteAuthorActivityListenerInfo
+    description = ComDayCqAnalyticsTestandtargetImplDeleteAuthorActivityListenerInfo
+    implements = openapi_server.resourceTypes.ComDayCqAnalyticsTestandtargetImplDeleteAuthorActivityListenerInfo
+
+  }
+}

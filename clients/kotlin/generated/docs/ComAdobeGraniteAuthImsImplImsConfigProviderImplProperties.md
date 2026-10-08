@@ -2,12 +2,12 @@
 # ComAdobeGraniteAuthImsImplImsConfigProviderImplProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**oauthPeriodconfigmanagerPeriodimsPeriodconfigid** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**imsPeriodowningEntity** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**aemPeriodinstanceId** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**imsPeriodserviceCode** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **oauthConfigmanagerImsConfigid** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **imsOwningEntity** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **aemInstanceId** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **imsServiceCode** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
 
 
 

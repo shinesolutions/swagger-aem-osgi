@@ -7,16 +7,16 @@ import org.openapitools.model.OrgApacheSlingJcrRepoinitImplRepositoryInitializer
 
 @Canonical
 class OrgApacheSlingJcrRepoinitImplRepositoryInitializerInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheSlingJcrRepoinitImplRepositoryInitializerProperties properties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheSlingJcrRepoinitImplRepositoryInitializerProperties properties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

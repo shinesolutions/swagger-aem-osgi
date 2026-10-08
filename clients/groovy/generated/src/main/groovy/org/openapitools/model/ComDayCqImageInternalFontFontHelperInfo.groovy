@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqImageInternalFontFontHelperProperties;
 
 @Canonical
 class ComDayCqImageInternalFontFontHelperInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqImageInternalFontFontHelperProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqImageInternalFontFontHelperProperties properties
 }

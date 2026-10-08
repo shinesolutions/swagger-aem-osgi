@@ -1,30 +1,41 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComAdobeGraniteOptoutImplOptOutServiceImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComAdobeGraniteOptoutImplOptOutServiceImplProperties   {
-  @JsonProperty("optout.cookies")
-  private ConfigNodePropertyArray optoutCookies = null;
+@JsonTypeName("comAdobeGraniteOptoutImplOptOutServiceImplProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComAdobeGraniteOptoutImplOptOutServiceImplProperties {
 
-  @JsonProperty("optout.headers")
-  private ConfigNodePropertyArray optoutHeaders = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray optoutCookies;
 
-  @JsonProperty("optout.whitelist.cookies")
-  private ConfigNodePropertyArray optoutWhitelistCookies = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray optoutHeaders;
 
-  public ComAdobeGraniteOptoutImplOptOutServiceImplProperties optoutCookies(ConfigNodePropertyArray optoutCookies) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray optoutWhitelistCookies;
+
+  public ComAdobeGraniteOptoutImplOptOutServiceImplProperties optoutCookies(@Nullable ConfigNodePropertyArray optoutCookies) {
     this.optoutCookies = optoutCookies;
     return this;
   }
@@ -32,20 +43,20 @@ public class ComAdobeGraniteOptoutImplOptOutServiceImplProperties   {
   /**
    * Get optoutCookies
    * @return optoutCookies
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getOptoutCookies() {
+   */
+  @Valid 
+  @Schema(name = "optout.cookies", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("optout.cookies")
+  public @Nullable ConfigNodePropertyArray getOptoutCookies() {
     return optoutCookies;
   }
 
-  public void setOptoutCookies(ConfigNodePropertyArray optoutCookies) {
+  @JsonProperty("optout.cookies")
+  public void setOptoutCookies(@Nullable ConfigNodePropertyArray optoutCookies) {
     this.optoutCookies = optoutCookies;
   }
 
-  public ComAdobeGraniteOptoutImplOptOutServiceImplProperties optoutHeaders(ConfigNodePropertyArray optoutHeaders) {
+  public ComAdobeGraniteOptoutImplOptOutServiceImplProperties optoutHeaders(@Nullable ConfigNodePropertyArray optoutHeaders) {
     this.optoutHeaders = optoutHeaders;
     return this;
   }
@@ -53,20 +64,20 @@ public class ComAdobeGraniteOptoutImplOptOutServiceImplProperties   {
   /**
    * Get optoutHeaders
    * @return optoutHeaders
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getOptoutHeaders() {
+   */
+  @Valid 
+  @Schema(name = "optout.headers", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("optout.headers")
+  public @Nullable ConfigNodePropertyArray getOptoutHeaders() {
     return optoutHeaders;
   }
 
-  public void setOptoutHeaders(ConfigNodePropertyArray optoutHeaders) {
+  @JsonProperty("optout.headers")
+  public void setOptoutHeaders(@Nullable ConfigNodePropertyArray optoutHeaders) {
     this.optoutHeaders = optoutHeaders;
   }
 
-  public ComAdobeGraniteOptoutImplOptOutServiceImplProperties optoutWhitelistCookies(ConfigNodePropertyArray optoutWhitelistCookies) {
+  public ComAdobeGraniteOptoutImplOptOutServiceImplProperties optoutWhitelistCookies(@Nullable ConfigNodePropertyArray optoutWhitelistCookies) {
     this.optoutWhitelistCookies = optoutWhitelistCookies;
     return this;
   }
@@ -74,22 +85,21 @@ public class ComAdobeGraniteOptoutImplOptOutServiceImplProperties   {
   /**
    * Get optoutWhitelistCookies
    * @return optoutWhitelistCookies
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getOptoutWhitelistCookies() {
+   */
+  @Valid 
+  @Schema(name = "optout.whitelist.cookies", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("optout.whitelist.cookies")
+  public @Nullable ConfigNodePropertyArray getOptoutWhitelistCookies() {
     return optoutWhitelistCookies;
   }
 
-  public void setOptoutWhitelistCookies(ConfigNodePropertyArray optoutWhitelistCookies) {
+  @JsonProperty("optout.whitelist.cookies")
+  public void setOptoutWhitelistCookies(@Nullable ConfigNodePropertyArray optoutWhitelistCookies) {
     this.optoutWhitelistCookies = optoutWhitelistCookies;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -111,7 +121,6 @@ public class ComAdobeGraniteOptoutImplOptOutServiceImplProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComAdobeGraniteOptoutImplOptOutServiceImplProperties {\n");
-    
     sb.append("    optoutCookies: ").append(toIndentedString(optoutCookies)).append("\n");
     sb.append("    optoutHeaders: ").append(toIndentedString(optoutHeaders)).append("\n");
     sb.append("    optoutWhitelistCookies: ").append(toIndentedString(optoutWhitelistCookies)).append("\n");
@@ -123,11 +132,8 @@ public class ComAdobeGraniteOptoutImplOptOutServiceImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

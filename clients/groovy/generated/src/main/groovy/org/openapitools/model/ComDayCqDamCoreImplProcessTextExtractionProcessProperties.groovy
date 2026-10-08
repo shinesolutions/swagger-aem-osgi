@@ -8,8 +8,8 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class ComDayCqDamCoreImplProcessTextExtractionProcessProperties {
-    ConfigNodePropertyArray mimeTypes = null
-
-    ConfigNodePropertyInteger maxExtract = null
-
+    
+    ConfigNodePropertyArray mimeTypes
+    
+    ConfigNodePropertyInteger maxExtract
 }

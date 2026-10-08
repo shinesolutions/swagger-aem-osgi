@@ -1,0 +1,36 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqWcmCoreWCMRequestFilterProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqWcmCoreWCMRequestFilterProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyDropDown = openapi_server.resourceTypes.ConfigNodePropertyDropDown
+}
+resourceTypes {
+
+  ComDayCqWcmCoreWCMRequestFilterProperties {
+    title = ComDayCqWcmCoreWCMRequestFilterProperties
+    description = ComDayCqWcmCoreWCMRequestFilterProperties
+    derivedFrom = Root
+    properties {
+        wcmfilter_mode {
+          type = ConfigNodePropertyDropDown
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqWcmCoreWCMRequestFilterProperties {
+    title = ComDayCqWcmCoreWCMRequestFilterProperties
+    description = ComDayCqWcmCoreWCMRequestFilterProperties
+    implements = openapi_server.resourceTypes.ComDayCqWcmCoreWCMRequestFilterProperties
+
+  }
+}

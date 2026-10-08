@@ -8,12 +8,12 @@ import org.openapitools.model.ConfigNodePropertyBoolean;
 
 @Canonical
 class ComAdobeGraniteCsrfImplCSRFFilterProperties {
-    ConfigNodePropertyArray filterMethods = null
-
-    ConfigNodePropertyBoolean filterEnableSafeUserAgents = null
-
-    ConfigNodePropertyArray filterSafeUserAgents = null
-
-    ConfigNodePropertyArray filterExcludedPaths = null
-
+    
+    ConfigNodePropertyArray filterMethods
+    
+    ConfigNodePropertyBoolean filterEnableSafeUserAgents
+    
+    ConfigNodePropertyArray filterSafeUserAgents
+    
+    ConfigNodePropertyArray filterExcludedPaths
 }

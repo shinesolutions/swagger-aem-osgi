@@ -2,27 +2,28 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ComAdobeFdFpConfigFormsPortalSchedulerServiceProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class ComAdobeFdFpConfigFormsPortalSchedulerServiceInfo   {
   
-  private String pid = null;
+  private String pid;
 
-  private String title = null;
+  private String title;
 
-  private String description = null;
+  private String description;
 
-  private ComAdobeFdFpConfigFormsPortalSchedulerServiceProperties properties = null;
-
+  private ComAdobeFdFpConfigFormsPortalSchedulerServiceProperties properties;
 
   /**
    **/
@@ -98,7 +99,7 @@ public class ComAdobeFdFpConfigFormsPortalSchedulerServiceInfo   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -106,10 +107,10 @@ public class ComAdobeFdFpConfigFormsPortalSchedulerServiceInfo   {
       return false;
     }
     ComAdobeFdFpConfigFormsPortalSchedulerServiceInfo comAdobeFdFpConfigFormsPortalSchedulerServiceInfo = (ComAdobeFdFpConfigFormsPortalSchedulerServiceInfo) o;
-    return Objects.equals(pid, comAdobeFdFpConfigFormsPortalSchedulerServiceInfo.pid) &&
-        Objects.equals(title, comAdobeFdFpConfigFormsPortalSchedulerServiceInfo.title) &&
-        Objects.equals(description, comAdobeFdFpConfigFormsPortalSchedulerServiceInfo.description) &&
-        Objects.equals(properties, comAdobeFdFpConfigFormsPortalSchedulerServiceInfo.properties);
+    return Objects.equals(this.pid, comAdobeFdFpConfigFormsPortalSchedulerServiceInfo.pid) &&
+        Objects.equals(this.title, comAdobeFdFpConfigFormsPortalSchedulerServiceInfo.title) &&
+        Objects.equals(this.description, comAdobeFdFpConfigFormsPortalSchedulerServiceInfo.description) &&
+        Objects.equals(this.properties, comAdobeFdFpConfigFormsPortalSchedulerServiceInfo.properties);
   }
 
   @Override
@@ -134,11 +135,8 @@ public class ComAdobeFdFpConfigFormsPortalSchedulerServiceInfo   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

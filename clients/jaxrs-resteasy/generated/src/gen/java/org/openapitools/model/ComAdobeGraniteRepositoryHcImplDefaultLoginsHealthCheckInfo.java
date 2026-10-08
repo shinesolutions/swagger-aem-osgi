@@ -4,18 +4,21 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ComAdobeGraniteRepositoryHcImplDefaultLoginsHealthCheckProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2019-08-05T00:59:30.156Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2026-10-07T12:54:21.614735164Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteRepositoryHcImplDefaultLoginsHealthCheckInfo   {
   
-  private String pid = null;
-  private String title = null;
-  private String description = null;
-  private ComAdobeGraniteRepositoryHcImplDefaultLoginsHealthCheckProperties properties = null;
+  private String pid;
+  private String title;
+  private String description;
+  private ComAdobeGraniteRepositoryHcImplDefaultLoginsHealthCheckProperties properties;
 
   /**
    **/
@@ -58,6 +61,7 @@ public class ComAdobeGraniteRepositoryHcImplDefaultLoginsHealthCheckInfo   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("properties")
+  @Valid
   public ComAdobeGraniteRepositoryHcImplDefaultLoginsHealthCheckProperties getProperties() {
     return properties;
   }
@@ -67,7 +71,7 @@ public class ComAdobeGraniteRepositoryHcImplDefaultLoginsHealthCheckInfo   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -75,10 +79,10 @@ public class ComAdobeGraniteRepositoryHcImplDefaultLoginsHealthCheckInfo   {
       return false;
     }
     ComAdobeGraniteRepositoryHcImplDefaultLoginsHealthCheckInfo comAdobeGraniteRepositoryHcImplDefaultLoginsHealthCheckInfo = (ComAdobeGraniteRepositoryHcImplDefaultLoginsHealthCheckInfo) o;
-    return Objects.equals(pid, comAdobeGraniteRepositoryHcImplDefaultLoginsHealthCheckInfo.pid) &&
-        Objects.equals(title, comAdobeGraniteRepositoryHcImplDefaultLoginsHealthCheckInfo.title) &&
-        Objects.equals(description, comAdobeGraniteRepositoryHcImplDefaultLoginsHealthCheckInfo.description) &&
-        Objects.equals(properties, comAdobeGraniteRepositoryHcImplDefaultLoginsHealthCheckInfo.properties);
+    return Objects.equals(this.pid, comAdobeGraniteRepositoryHcImplDefaultLoginsHealthCheckInfo.pid) &&
+        Objects.equals(this.title, comAdobeGraniteRepositoryHcImplDefaultLoginsHealthCheckInfo.title) &&
+        Objects.equals(this.description, comAdobeGraniteRepositoryHcImplDefaultLoginsHealthCheckInfo.description) &&
+        Objects.equals(this.properties, comAdobeGraniteRepositoryHcImplDefaultLoginsHealthCheckInfo.properties);
   }
 
   @Override
@@ -103,11 +107,8 @@ public class ComAdobeGraniteRepositoryHcImplDefaultLoginsHealthCheckInfo   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

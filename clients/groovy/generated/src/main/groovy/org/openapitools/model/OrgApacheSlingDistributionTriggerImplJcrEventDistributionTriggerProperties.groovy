@@ -9,14 +9,14 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerProperties {
-    ConfigNodePropertyString name = null
-
-    ConfigNodePropertyString path = null
-
-    ConfigNodePropertyArray ignoredPathsPatterns = null
-
-    ConfigNodePropertyString serviceName = null
-
-    ConfigNodePropertyBoolean deep = null
-
+    
+    ConfigNodePropertyString name
+    
+    ConfigNodePropertyString path
+    
+    ConfigNodePropertyArray ignoredPathsPatterns
+    
+    ConfigNodePropertyString serviceName
+    
+    ConfigNodePropertyBoolean deep
 }

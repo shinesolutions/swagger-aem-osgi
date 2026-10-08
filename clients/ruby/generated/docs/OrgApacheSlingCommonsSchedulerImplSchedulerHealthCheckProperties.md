@@ -2,16 +2,17 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**max_quartz_job_duration_acceptable** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **max_quartz_job_duration_acceptable** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::OrgApacheSlingCommonsSchedulerImplSchedulerHealthCheckProperties.new(max_quartz_job_duration_acceptable: null)
+instance = SwaggerAemOsgiClient::OrgApacheSlingCommonsSchedulerImplSchedulerHealthCheckProperties.new(
+  max_quartz_job_duration_acceptable: null
+)
 ```
-
 

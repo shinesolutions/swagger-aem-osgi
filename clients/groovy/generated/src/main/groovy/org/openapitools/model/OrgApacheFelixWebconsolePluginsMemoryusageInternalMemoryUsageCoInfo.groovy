@@ -7,12 +7,12 @@ import org.openapitools.model.OrgApacheFelixWebconsolePluginsMemoryusageInternal
 
 @Canonical
 class OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCoInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCoProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCoProperties properties
 }

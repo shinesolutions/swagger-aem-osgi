@@ -2,10 +2,10 @@
 # ComDayCqWidgetImplWidgetExtensionProviderImplProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**extendablePeriodwidgets** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**widgetextensionproviderPerioddebug** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **extendableWidgets** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **widgetextensionproviderDebug** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
 
 
 

@@ -72,7 +72,7 @@ private class OASOrgApacheSlingJcrWebdavImplHandleTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASOrgApacheSlingJcrWebdavImplHandle orgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServicProperties = new OASOrgApacheSlingJcrWebdavImplHandle();
-        Map<String, String> propertyMappings = orgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServicProperties.getPropertyMappings();
-        System.assertEquals('serviceRanking', propertyMappings.get('service.ranking'));
+        Map<String, String> x-property-mappings = orgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServicProperties.getx-property-mappings();
+        System.assertEquals('serviceRanking', x-property-mappings.get('service.ranking'));
     }
 }

@@ -72,7 +72,7 @@ private class OASComDayCqDamScene7ImplScene7ConfigTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqDamScene7ImplScene7Config comDayCqDamScene7ImplScene7ConfigurationEventListenerProperties = new OASComDayCqDamScene7ImplScene7Config();
-        Map<String, String> propertyMappings = comDayCqDamScene7ImplScene7ConfigurationEventListenerProperties.getPropertyMappings();
-        System.assertEquals('cqDamScene7ConfigurationeventlistenerEnabled', propertyMappings.get('cq.dam.scene7.configurationeventlistener.enabled'));
+        Map<String, String> x-property-mappings = comDayCqDamScene7ImplScene7ConfigurationEventListenerProperties.getx-property-mappings();
+        System.assertEquals('cqDamScene7ConfigurationeventlistenerEnabled', x-property-mappings.get('cq.dam.scene7.configurationeventlistener.enabled'));
     }
 }

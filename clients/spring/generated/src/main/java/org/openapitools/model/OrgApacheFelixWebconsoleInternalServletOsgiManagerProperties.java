@@ -1,52 +1,63 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyDropDown;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties   {
-  @JsonProperty("manager.root")
-  private ConfigNodePropertyString managerRoot = null;
+@JsonTypeName("orgApacheFelixWebconsoleInternalServletOsgiManagerProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties {
 
-  @JsonProperty("http.service.filter")
-  private ConfigNodePropertyString httpServiceFilter = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString managerRoot;
 
-  @JsonProperty("default.render")
-  private ConfigNodePropertyString defaultRender = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString httpServiceFilter;
 
-  @JsonProperty("realm")
-  private ConfigNodePropertyString realm = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString defaultRender;
 
-  @JsonProperty("username")
-  private ConfigNodePropertyString username = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString realm;
 
-  @JsonProperty("password")
-  private ConfigNodePropertyString password = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString username;
 
-  @JsonProperty("category")
-  private ConfigNodePropertyString category = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString password;
 
-  @JsonProperty("locale")
-  private ConfigNodePropertyString locale = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString category;
 
-  @JsonProperty("loglevel")
-  private ConfigNodePropertyDropDown loglevel = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString locale;
 
-  @JsonProperty("plugins")
-  private ConfigNodePropertyDropDown plugins = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyDropDown loglevel;
 
-  public OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties managerRoot(ConfigNodePropertyString managerRoot) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyDropDown plugins;
+
+  public OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties managerRoot(@Nullable ConfigNodePropertyString managerRoot) {
     this.managerRoot = managerRoot;
     return this;
   }
@@ -54,20 +65,20 @@ public class OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties   {
   /**
    * Get managerRoot
    * @return managerRoot
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getManagerRoot() {
+   */
+  @Valid 
+  @Schema(name = "manager.root", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("manager.root")
+  public @Nullable ConfigNodePropertyString getManagerRoot() {
     return managerRoot;
   }
 
-  public void setManagerRoot(ConfigNodePropertyString managerRoot) {
+  @JsonProperty("manager.root")
+  public void setManagerRoot(@Nullable ConfigNodePropertyString managerRoot) {
     this.managerRoot = managerRoot;
   }
 
-  public OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties httpServiceFilter(ConfigNodePropertyString httpServiceFilter) {
+  public OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties httpServiceFilter(@Nullable ConfigNodePropertyString httpServiceFilter) {
     this.httpServiceFilter = httpServiceFilter;
     return this;
   }
@@ -75,20 +86,20 @@ public class OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties   {
   /**
    * Get httpServiceFilter
    * @return httpServiceFilter
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getHttpServiceFilter() {
+   */
+  @Valid 
+  @Schema(name = "http.service.filter", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("http.service.filter")
+  public @Nullable ConfigNodePropertyString getHttpServiceFilter() {
     return httpServiceFilter;
   }
 
-  public void setHttpServiceFilter(ConfigNodePropertyString httpServiceFilter) {
+  @JsonProperty("http.service.filter")
+  public void setHttpServiceFilter(@Nullable ConfigNodePropertyString httpServiceFilter) {
     this.httpServiceFilter = httpServiceFilter;
   }
 
-  public OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties defaultRender(ConfigNodePropertyString defaultRender) {
+  public OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties defaultRender(@Nullable ConfigNodePropertyString defaultRender) {
     this.defaultRender = defaultRender;
     return this;
   }
@@ -96,20 +107,20 @@ public class OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties   {
   /**
    * Get defaultRender
    * @return defaultRender
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getDefaultRender() {
+   */
+  @Valid 
+  @Schema(name = "default.render", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("default.render")
+  public @Nullable ConfigNodePropertyString getDefaultRender() {
     return defaultRender;
   }
 
-  public void setDefaultRender(ConfigNodePropertyString defaultRender) {
+  @JsonProperty("default.render")
+  public void setDefaultRender(@Nullable ConfigNodePropertyString defaultRender) {
     this.defaultRender = defaultRender;
   }
 
-  public OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties realm(ConfigNodePropertyString realm) {
+  public OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties realm(@Nullable ConfigNodePropertyString realm) {
     this.realm = realm;
     return this;
   }
@@ -117,20 +128,20 @@ public class OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties   {
   /**
    * Get realm
    * @return realm
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getRealm() {
+   */
+  @Valid 
+  @Schema(name = "realm", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("realm")
+  public @Nullable ConfigNodePropertyString getRealm() {
     return realm;
   }
 
-  public void setRealm(ConfigNodePropertyString realm) {
+  @JsonProperty("realm")
+  public void setRealm(@Nullable ConfigNodePropertyString realm) {
     this.realm = realm;
   }
 
-  public OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties username(ConfigNodePropertyString username) {
+  public OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties username(@Nullable ConfigNodePropertyString username) {
     this.username = username;
     return this;
   }
@@ -138,20 +149,20 @@ public class OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties   {
   /**
    * Get username
    * @return username
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getUsername() {
+   */
+  @Valid 
+  @Schema(name = "username", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("username")
+  public @Nullable ConfigNodePropertyString getUsername() {
     return username;
   }
 
-  public void setUsername(ConfigNodePropertyString username) {
+  @JsonProperty("username")
+  public void setUsername(@Nullable ConfigNodePropertyString username) {
     this.username = username;
   }
 
-  public OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties password(ConfigNodePropertyString password) {
+  public OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties password(@Nullable ConfigNodePropertyString password) {
     this.password = password;
     return this;
   }
@@ -159,20 +170,20 @@ public class OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties   {
   /**
    * Get password
    * @return password
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getPassword() {
+   */
+  @Valid 
+  @Schema(name = "password", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("password")
+  public @Nullable ConfigNodePropertyString getPassword() {
     return password;
   }
 
-  public void setPassword(ConfigNodePropertyString password) {
+  @JsonProperty("password")
+  public void setPassword(@Nullable ConfigNodePropertyString password) {
     this.password = password;
   }
 
-  public OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties category(ConfigNodePropertyString category) {
+  public OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties category(@Nullable ConfigNodePropertyString category) {
     this.category = category;
     return this;
   }
@@ -180,20 +191,20 @@ public class OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties   {
   /**
    * Get category
    * @return category
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getCategory() {
+   */
+  @Valid 
+  @Schema(name = "category", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("category")
+  public @Nullable ConfigNodePropertyString getCategory() {
     return category;
   }
 
-  public void setCategory(ConfigNodePropertyString category) {
+  @JsonProperty("category")
+  public void setCategory(@Nullable ConfigNodePropertyString category) {
     this.category = category;
   }
 
-  public OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties locale(ConfigNodePropertyString locale) {
+  public OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties locale(@Nullable ConfigNodePropertyString locale) {
     this.locale = locale;
     return this;
   }
@@ -201,20 +212,20 @@ public class OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties   {
   /**
    * Get locale
    * @return locale
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getLocale() {
+   */
+  @Valid 
+  @Schema(name = "locale", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("locale")
+  public @Nullable ConfigNodePropertyString getLocale() {
     return locale;
   }
 
-  public void setLocale(ConfigNodePropertyString locale) {
+  @JsonProperty("locale")
+  public void setLocale(@Nullable ConfigNodePropertyString locale) {
     this.locale = locale;
   }
 
-  public OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties loglevel(ConfigNodePropertyDropDown loglevel) {
+  public OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties loglevel(@Nullable ConfigNodePropertyDropDown loglevel) {
     this.loglevel = loglevel;
     return this;
   }
@@ -222,20 +233,20 @@ public class OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties   {
   /**
    * Get loglevel
    * @return loglevel
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyDropDown getLoglevel() {
+   */
+  @Valid 
+  @Schema(name = "loglevel", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("loglevel")
+  public @Nullable ConfigNodePropertyDropDown getLoglevel() {
     return loglevel;
   }
 
-  public void setLoglevel(ConfigNodePropertyDropDown loglevel) {
+  @JsonProperty("loglevel")
+  public void setLoglevel(@Nullable ConfigNodePropertyDropDown loglevel) {
     this.loglevel = loglevel;
   }
 
-  public OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties plugins(ConfigNodePropertyDropDown plugins) {
+  public OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties plugins(@Nullable ConfigNodePropertyDropDown plugins) {
     this.plugins = plugins;
     return this;
   }
@@ -243,22 +254,21 @@ public class OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties   {
   /**
    * Get plugins
    * @return plugins
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyDropDown getPlugins() {
+   */
+  @Valid 
+  @Schema(name = "plugins", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("plugins")
+  public @Nullable ConfigNodePropertyDropDown getPlugins() {
     return plugins;
   }
 
-  public void setPlugins(ConfigNodePropertyDropDown plugins) {
+  @JsonProperty("plugins")
+  public void setPlugins(@Nullable ConfigNodePropertyDropDown plugins) {
     this.plugins = plugins;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -287,7 +297,6 @@ public class OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties {\n");
-    
     sb.append("    managerRoot: ").append(toIndentedString(managerRoot)).append("\n");
     sb.append("    httpServiceFilter: ").append(toIndentedString(httpServiceFilter)).append("\n");
     sb.append("    defaultRender: ").append(toIndentedString(defaultRender)).append("\n");
@@ -306,11 +315,8 @@ public class OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

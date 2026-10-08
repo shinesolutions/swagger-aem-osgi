@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqWcmFoundationImplPageImpressionsTrackerProperties {
-    ConfigNodePropertyString slingAuthRequirements = null
-
+    
+    ConfigNodePropertyString slingAuthRequirements
 }

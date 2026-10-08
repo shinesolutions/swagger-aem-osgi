@@ -7,12 +7,12 @@ import org.openapitools.model.OrgApacheSlingDistributionAgentImplSimpleDistribut
 
 @Canonical
 class OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorProperties properties
 }

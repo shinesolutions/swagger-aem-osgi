@@ -72,7 +72,7 @@ private class OASComDayCqWcmNotificationEmailImplETest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqWcmNotificationEmailImplE comDayCqWcmNotificationEmailImplEmailChannelProperties = new OASComDayCqWcmNotificationEmailImplE();
-        Map<String, String> propertyMappings = comDayCqWcmNotificationEmailImplEmailChannelProperties.getPropertyMappings();
-        System.assertEquals('emailFrom', propertyMappings.get('email.from'));
+        Map<String, String> x-property-mappings = comDayCqWcmNotificationEmailImplEmailChannelProperties.getx-property-mappings();
+        System.assertEquals('emailFrom', x-property-mappings.get('email.from'));
     }
 }

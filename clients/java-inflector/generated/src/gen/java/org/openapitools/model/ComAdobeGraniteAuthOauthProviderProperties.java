@@ -3,6 +3,7 @@ package org.openapitools.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
@@ -13,55 +14,55 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaInflectorServerCodegen", date = "2019-08-05T00:53:46.291Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaInflectorServerCodegen", date = "2026-10-07T12:53:12.340274163Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteAuthOauthProviderProperties   {
   @JsonProperty("oauth.config.id")
-  private ConfigNodePropertyString oauthConfigId = null;
+  private ConfigNodePropertyString oauthConfigId;
 
   @JsonProperty("oauth.client.id")
-  private ConfigNodePropertyString oauthClientId = null;
+  private ConfigNodePropertyString oauthClientId;
 
   @JsonProperty("oauth.client.secret")
-  private ConfigNodePropertyString oauthClientSecret = null;
+  private ConfigNodePropertyString oauthClientSecret;
 
   @JsonProperty("oauth.scope")
-  private ConfigNodePropertyArray oauthScope = null;
+  private ConfigNodePropertyArray oauthScope;
 
   @JsonProperty("oauth.config.provider.id")
-  private ConfigNodePropertyString oauthConfigProviderId = null;
+  private ConfigNodePropertyString oauthConfigProviderId;
 
   @JsonProperty("oauth.create.users")
-  private ConfigNodePropertyBoolean oauthCreateUsers = null;
+  private ConfigNodePropertyBoolean oauthCreateUsers;
 
   @JsonProperty("oauth.userid.property")
-  private ConfigNodePropertyString oauthUseridProperty = null;
+  private ConfigNodePropertyString oauthUseridProperty;
 
   @JsonProperty("force.strict.username.matching")
-  private ConfigNodePropertyBoolean forceStrictUsernameMatching = null;
+  private ConfigNodePropertyBoolean forceStrictUsernameMatching;
 
   @JsonProperty("oauth.encode.userids")
-  private ConfigNodePropertyBoolean oauthEncodeUserids = null;
+  private ConfigNodePropertyBoolean oauthEncodeUserids;
 
   @JsonProperty("oauth.hash.userids")
-  private ConfigNodePropertyBoolean oauthHashUserids = null;
+  private ConfigNodePropertyBoolean oauthHashUserids;
 
   @JsonProperty("oauth.callBackUrl")
-  private ConfigNodePropertyString oauthCallBackUrl = null;
+  private ConfigNodePropertyString oauthCallBackUrl;
 
   @JsonProperty("oauth.access.token.persist")
-  private ConfigNodePropertyBoolean oauthAccessTokenPersist = null;
+  private ConfigNodePropertyBoolean oauthAccessTokenPersist;
 
   @JsonProperty("oauth.access.token.persist.cookie")
-  private ConfigNodePropertyBoolean oauthAccessTokenPersistCookie = null;
+  private ConfigNodePropertyBoolean oauthAccessTokenPersistCookie;
 
   @JsonProperty("oauth.csrf.state.protection")
-  private ConfigNodePropertyBoolean oauthCsrfStateProtection = null;
+  private ConfigNodePropertyBoolean oauthCsrfStateProtection;
 
   @JsonProperty("oauth.redirect.request.params")
-  private ConfigNodePropertyBoolean oauthRedirectRequestParams = null;
+  private ConfigNodePropertyBoolean oauthRedirectRequestParams;
 
   @JsonProperty("oauth.config.siblings.allow")
-  private ConfigNodePropertyBoolean oauthConfigSiblingsAllow = null;
+  private ConfigNodePropertyBoolean oauthConfigSiblingsAllow;
 
   /**
    **/
@@ -337,7 +338,7 @@ public class ComAdobeGraniteAuthOauthProviderProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -397,11 +398,8 @@ public class ComAdobeGraniteAuthOauthProviderProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

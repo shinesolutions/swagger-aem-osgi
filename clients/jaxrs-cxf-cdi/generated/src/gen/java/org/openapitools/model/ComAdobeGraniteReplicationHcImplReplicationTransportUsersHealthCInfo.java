@@ -2,27 +2,28 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ComAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class ComAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCInfo   {
   
-  private String pid = null;
+  private String pid;
 
-  private String title = null;
+  private String title;
 
-  private String description = null;
+  private String description;
 
-  private ComAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCProperties properties = null;
-
+  private ComAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCProperties properties;
 
   /**
    **/
@@ -98,7 +99,7 @@ public class ComAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCInf
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -106,10 +107,10 @@ public class ComAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCInf
       return false;
     }
     ComAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCInfo comAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCInfo = (ComAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCInfo) o;
-    return Objects.equals(pid, comAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCInfo.pid) &&
-        Objects.equals(title, comAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCInfo.title) &&
-        Objects.equals(description, comAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCInfo.description) &&
-        Objects.equals(properties, comAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCInfo.properties);
+    return Objects.equals(this.pid, comAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCInfo.pid) &&
+        Objects.equals(this.title, comAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCInfo.title) &&
+        Objects.equals(this.description, comAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCInfo.description) &&
+        Objects.equals(this.properties, comAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCInfo.properties);
   }
 
   @Override
@@ -134,11 +135,8 @@ public class ComAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCInf
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

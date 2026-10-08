@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeGraniteBundlesHcImplSlingJspScriptHandlerH
 
 @Canonical
 class ComAdobeGraniteBundlesHcImplSlingJspScriptHandlerHealthCheckInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteBundlesHcImplSlingJspScriptHandlerHealthCheckProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteBundlesHcImplSlingJspScriptHandlerHealthCheckProperties properties
 }

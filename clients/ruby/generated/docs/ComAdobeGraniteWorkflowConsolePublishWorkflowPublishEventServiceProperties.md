@@ -2,16 +2,17 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**granite_workflow_workflow_publish_event_service_enabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **granite_workflow_workflow_publish_event_service_enabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComAdobeGraniteWorkflowConsolePublishWorkflowPublishEventServiceProperties.new(granite_workflow_workflow_publish_event_service_enabled: null)
+instance = SwaggerAemOsgiClient::ComAdobeGraniteWorkflowConsolePublishWorkflowPublishEventServiceProperties.new(
+  granite_workflow_workflow_publish_event_service_enabled: null
+)
 ```
-
 

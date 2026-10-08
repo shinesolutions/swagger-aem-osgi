@@ -1,9 +1,10 @@
 # OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExcluProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**principal_names** | [***::models::ConfigNodePropertyArray**](configNodePropertyArray.md) |  | [optional] 
+**principal_names** | Option<[**models::ConfigNodePropertyArray**](ConfigNodePropertyArray.md)> |  | [optional]
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

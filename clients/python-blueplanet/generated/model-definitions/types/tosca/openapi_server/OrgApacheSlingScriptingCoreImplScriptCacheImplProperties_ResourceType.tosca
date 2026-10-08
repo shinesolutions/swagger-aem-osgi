@@ -1,0 +1,42 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingScriptingCoreImplScriptCacheImplProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingScriptingCoreImplScriptCacheImplProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+}
+resourceTypes {
+
+  OrgApacheSlingScriptingCoreImplScriptCacheImplProperties {
+    title = OrgApacheSlingScriptingCoreImplScriptCacheImplProperties
+    description = OrgApacheSlingScriptingCoreImplScriptCacheImplProperties
+    derivedFrom = Root
+    properties {
+        org_apache_sling_scripting_cache_size {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        org_apache_sling_scripting_cache_additional_extensions {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingScriptingCoreImplScriptCacheImplProperties {
+    title = OrgApacheSlingScriptingCoreImplScriptCacheImplProperties
+    description = OrgApacheSlingScriptingCoreImplScriptCacheImplProperties
+    implements = openapi_server.resourceTypes.OrgApacheSlingScriptingCoreImplScriptCacheImplProperties
+
+  }
+}

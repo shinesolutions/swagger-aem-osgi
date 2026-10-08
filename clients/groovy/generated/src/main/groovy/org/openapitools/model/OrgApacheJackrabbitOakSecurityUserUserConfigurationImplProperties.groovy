@@ -10,36 +10,36 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties {
-    ConfigNodePropertyString usersPath = null
-
-    ConfigNodePropertyString groupsPath = null
-
-    ConfigNodePropertyString systemRelativePath = null
-
-    ConfigNodePropertyInteger defaultDepth = null
-
-    ConfigNodePropertyDropDown importBehavior = null
-
-    ConfigNodePropertyString passwordHashAlgorithm = null
-
-    ConfigNodePropertyInteger passwordHashIterations = null
-
-    ConfigNodePropertyInteger passwordSaltSize = null
-
-    ConfigNodePropertyBoolean omitAdminPw = null
-
-    ConfigNodePropertyBoolean supportAutoSave = null
-
-    ConfigNodePropertyInteger passwordMaxAge = null
-
-    ConfigNodePropertyBoolean initialPasswordChange = null
-
-    ConfigNodePropertyInteger passwordHistorySize = null
-
-    ConfigNodePropertyBoolean passwordExpiryForAdmin = null
-
-    ConfigNodePropertyInteger cacheExpiration = null
-
-    ConfigNodePropertyBoolean enableRFC7613UsercaseMappedProfile = null
-
+    
+    ConfigNodePropertyString usersPath
+    
+    ConfigNodePropertyString groupsPath
+    
+    ConfigNodePropertyString systemRelativePath
+    
+    ConfigNodePropertyInteger defaultDepth
+    
+    ConfigNodePropertyDropDown importBehavior
+    
+    ConfigNodePropertyString passwordHashAlgorithm
+    
+    ConfigNodePropertyInteger passwordHashIterations
+    
+    ConfigNodePropertyInteger passwordSaltSize
+    
+    ConfigNodePropertyBoolean omitAdminPw
+    
+    ConfigNodePropertyBoolean supportAutoSave
+    
+    ConfigNodePropertyInteger passwordMaxAge
+    
+    ConfigNodePropertyBoolean initialPasswordChange
+    
+    ConfigNodePropertyInteger passwordHistorySize
+    
+    ConfigNodePropertyBoolean passwordExpiryForAdmin
+    
+    ConfigNodePropertyInteger cacheExpiration
+    
+    ConfigNodePropertyBoolean enableRFC7613UsercaseMappedProfile
 }

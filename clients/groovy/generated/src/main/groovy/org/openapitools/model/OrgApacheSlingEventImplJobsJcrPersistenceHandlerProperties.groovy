@@ -8,10 +8,10 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class OrgApacheSlingEventImplJobsJcrPersistenceHandlerProperties {
-    ConfigNodePropertyBoolean jobConsumermanagerDisableDistribution = null
-
-    ConfigNodePropertyInteger startupDelay = null
-
-    ConfigNodePropertyInteger cleanupPeriod = null
-
+    
+    ConfigNodePropertyBoolean jobConsumermanagerDisableDistribution
+    
+    ConfigNodePropertyInteger startupDelay
+    
+    ConfigNodePropertyInteger cleanupPeriod
 }

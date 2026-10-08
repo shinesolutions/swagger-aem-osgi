@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMed
 
 @Canonical
 class ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenProperties properties
 }

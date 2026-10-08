@@ -1,0 +1,27 @@
+# OrgApacheSlingFeatureflagsImplConfiguredFeatureInfo
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**VarPid** | **String** |  | [optional] 
+**Title** | **String** |  | [optional] 
+**Description** | **String** |  | [optional] 
+**Properties** | [**OrgApacheSlingFeatureflagsImplConfiguredFeatureProperties**](OrgApacheSlingFeatureflagsImplConfiguredFeatureProperties.md) |  | [optional] 
+
+## Examples
+
+- Prepare the resource
+```powershell
+$OrgApacheSlingFeatureflagsImplConfiguredFeatureInfo = Initialize-PSOpenAPIToolsOrgApacheSlingFeatureflagsImplConfiguredFeatureInfo  -VarPid null `
+ -Title null `
+ -Description null `
+ -Properties null
+```
+
+- Convert the resource to JSON
+```powershell
+$OrgApacheSlingFeatureflagsImplConfiguredFeatureInfo | ConvertTo-JSON
+```
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+

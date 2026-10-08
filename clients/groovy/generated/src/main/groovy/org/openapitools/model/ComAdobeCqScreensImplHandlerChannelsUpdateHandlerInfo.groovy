@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqScreensImplHandlerChannelsUpdateHandlerP
 
 @Canonical
 class ComAdobeCqScreensImplHandlerChannelsUpdateHandlerInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties properties
 }

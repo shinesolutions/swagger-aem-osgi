@@ -1,7 +1,9 @@
 
+
 # ComDayCqRewriterLinkcheckerImplLinkCheckerImplProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **schedulerPeriod** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
@@ -11,6 +13,7 @@ Name | Type | Description | Notes
 **serviceCacheBrokenInternalLinks** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
 **serviceSpecialLinkPrefix** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
 **serviceSpecialLinkPatterns** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
+
 
 
 

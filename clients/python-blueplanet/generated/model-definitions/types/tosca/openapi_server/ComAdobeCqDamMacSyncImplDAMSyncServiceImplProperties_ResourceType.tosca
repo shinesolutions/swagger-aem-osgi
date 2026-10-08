@@ -1,0 +1,54 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqDamMacSyncImplDAMSyncServiceImplProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqDamMacSyncImplDAMSyncServiceImplProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyDropDown = openapi_server.resourceTypes.ConfigNodePropertyDropDown
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+}
+resourceTypes {
+
+  ComAdobeCqDamMacSyncImplDAMSyncServiceImplProperties {
+    title = ComAdobeCqDamMacSyncImplDAMSyncServiceImplProperties
+    description = ComAdobeCqDamMacSyncImplDAMSyncServiceImplProperties
+    derivedFrom = Root
+    properties {
+        com_adobe_cq_dam_mac_sync_damsyncservice_registered_paths {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        com_adobe_cq_dam_mac_sync_damsyncservice_sync_renditions {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        com_adobe_cq_dam_mac_sync_damsyncservice_replicate_thread_wait_ms {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        com_adobe_cq_dam_mac_sync_damsyncservice_platform {
+          type = ConfigNodePropertyDropDown
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqDamMacSyncImplDAMSyncServiceImplProperties {
+    title = ComAdobeCqDamMacSyncImplDAMSyncServiceImplProperties
+    description = ComAdobeCqDamMacSyncImplDAMSyncServiceImplProperties
+    implements = openapi_server.resourceTypes.ComAdobeCqDamMacSyncImplDAMSyncServiceImplProperties
+
+  }
+}

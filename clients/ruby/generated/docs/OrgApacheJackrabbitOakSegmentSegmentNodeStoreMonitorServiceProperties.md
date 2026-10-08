@@ -2,16 +2,17 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**commits_tracker_writer_groups** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **commits_tracker_writer_groups** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::OrgApacheJackrabbitOakSegmentSegmentNodeStoreMonitorServiceProperties.new(commits_tracker_writer_groups: null)
+instance = SwaggerAemOsgiClient::OrgApacheJackrabbitOakSegmentSegmentNodeStoreMonitorServiceProperties.new(
+  commits_tracker_writer_groups: null
+)
 ```
-
 

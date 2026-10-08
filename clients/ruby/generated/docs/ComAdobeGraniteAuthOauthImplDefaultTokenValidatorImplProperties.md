@@ -2,16 +2,17 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**auth_token_validator_type** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **auth_token_validator_type** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComAdobeGraniteAuthOauthImplDefaultTokenValidatorImplProperties.new(auth_token_validator_type: null)
+instance = SwaggerAemOsgiClient::ComAdobeGraniteAuthOauthImplDefaultTokenValidatorImplProperties.new(
+  auth_token_validator_type: null
+)
 ```
-
 

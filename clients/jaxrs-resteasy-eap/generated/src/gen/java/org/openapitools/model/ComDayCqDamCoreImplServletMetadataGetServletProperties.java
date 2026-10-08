@@ -4,24 +4,21 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2019-08-05T01:00:05.540Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2026-10-07T12:54:26.576036107Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqDamCoreImplServletMetadataGetServletProperties   {
   
-
-  private ConfigNodePropertyString slingServletResourceTypes = null;
-
-  private ConfigNodePropertyString slingServletMethods = null;
-
-  private ConfigNodePropertyString slingServletExtensions = null;
-
-  private ConfigNodePropertyString slingServletSelectors = null;
+  private ConfigNodePropertyString slingServletResourceTypes;
+  private ConfigNodePropertyString slingServletMethods;
+  private ConfigNodePropertyString slingServletExtensions;
+  private ConfigNodePropertyString slingServletSelectors;
 
   /**
    **/
@@ -81,10 +78,10 @@ public class ComDayCqDamCoreImplServletMetadataGetServletProperties   {
       return false;
     }
     ComDayCqDamCoreImplServletMetadataGetServletProperties comDayCqDamCoreImplServletMetadataGetServletProperties = (ComDayCqDamCoreImplServletMetadataGetServletProperties) o;
-    return Objects.equals(slingServletResourceTypes, comDayCqDamCoreImplServletMetadataGetServletProperties.slingServletResourceTypes) &&
-        Objects.equals(slingServletMethods, comDayCqDamCoreImplServletMetadataGetServletProperties.slingServletMethods) &&
-        Objects.equals(slingServletExtensions, comDayCqDamCoreImplServletMetadataGetServletProperties.slingServletExtensions) &&
-        Objects.equals(slingServletSelectors, comDayCqDamCoreImplServletMetadataGetServletProperties.slingServletSelectors);
+    return Objects.equals(this.slingServletResourceTypes, comDayCqDamCoreImplServletMetadataGetServletProperties.slingServletResourceTypes) &&
+        Objects.equals(this.slingServletMethods, comDayCqDamCoreImplServletMetadataGetServletProperties.slingServletMethods) &&
+        Objects.equals(this.slingServletExtensions, comDayCqDamCoreImplServletMetadataGetServletProperties.slingServletExtensions) &&
+        Objects.equals(this.slingServletSelectors, comDayCqDamCoreImplServletMetadataGetServletProperties.slingServletSelectors);
   }
 
   @Override
@@ -110,10 +107,7 @@ public class ComDayCqDamCoreImplServletMetadataGetServletProperties   {
    * (except the first line).
    */
   private String toIndentedString(Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

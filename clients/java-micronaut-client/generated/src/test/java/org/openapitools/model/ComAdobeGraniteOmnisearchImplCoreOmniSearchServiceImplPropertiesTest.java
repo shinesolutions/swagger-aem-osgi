@@ -1,0 +1,41 @@
+package org.openapitools.model;
+
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.model.ConfigNodePropertyBoolean;
+import org.openapitools.model.ConfigNodePropertyInteger;
+import io.micronaut.test.extensions.junit5.annotation.MicronautTest;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.Assertions;
+
+/**
+ * Model tests for ComAdobeGraniteOmnisearchImplCoreOmniSearchServiceImplProperties
+ */
+@MicronautTest
+public class ComAdobeGraniteOmnisearchImplCoreOmniSearchServiceImplPropertiesTest {
+    private final ComAdobeGraniteOmnisearchImplCoreOmniSearchServiceImplProperties model = null;
+
+    /**
+     * Model tests for ComAdobeGraniteOmnisearchImplCoreOmniSearchServiceImplProperties
+     */
+    @Test
+    public void testComAdobeGraniteOmnisearchImplCoreOmniSearchServiceImplProperties() {
+        // TODO: test ComAdobeGraniteOmnisearchImplCoreOmniSearchServiceImplProperties
+    }
+
+    /**
+     * Test the property 'omnisearchSuggestionRequiretextMin'
+     */
+    @Test
+    public void omnisearchSuggestionRequiretextMinTest() {
+        // TODO: test omnisearchSuggestionRequiretextMin
+    }
+
+    /**
+     * Test the property 'omnisearchSuggestionSpellcheckRequire'
+     */
+    @Test
+    public void omnisearchSuggestionSpellcheckRequireTest() {
+        // TODO: test omnisearchSuggestionSpellcheckRequire
+    }
+
+}

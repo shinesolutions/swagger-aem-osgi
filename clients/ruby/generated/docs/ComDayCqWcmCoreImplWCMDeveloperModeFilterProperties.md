@@ -2,16 +2,17 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**wcmdevmodefilter_enabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **wcmdevmodefilter_enabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComDayCqWcmCoreImplWCMDeveloperModeFilterProperties.new(wcmdevmodefilter_enabled: null)
+instance = SwaggerAemOsgiClient::ComDayCqWcmCoreImplWCMDeveloperModeFilterProperties.new(
+  wcmdevmodefilter_enabled: null
+)
 ```
-
 

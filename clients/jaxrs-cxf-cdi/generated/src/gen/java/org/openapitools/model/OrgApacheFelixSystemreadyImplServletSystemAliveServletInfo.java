@@ -2,31 +2,32 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.OrgApacheFelixSystemreadyImplServletSystemAliveServletProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class OrgApacheFelixSystemreadyImplServletSystemAliveServletInfo   {
   
-  private String pid = null;
+  private String pid;
 
-  private String title = null;
+  private String title;
 
-  private String description = null;
+  private String description;
 
-  private OrgApacheFelixSystemreadyImplServletSystemAliveServletProperties properties = null;
+  private OrgApacheFelixSystemreadyImplServletSystemAliveServletProperties properties;
 
-  private String bundleLocation = null;
+  private String bundleLocation;
 
-  private String serviceLocation = null;
-
+  private String serviceLocation;
 
   /**
    **/
@@ -138,7 +139,7 @@ public class OrgApacheFelixSystemreadyImplServletSystemAliveServletInfo   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -146,12 +147,12 @@ public class OrgApacheFelixSystemreadyImplServletSystemAliveServletInfo   {
       return false;
     }
     OrgApacheFelixSystemreadyImplServletSystemAliveServletInfo orgApacheFelixSystemreadyImplServletSystemAliveServletInfo = (OrgApacheFelixSystemreadyImplServletSystemAliveServletInfo) o;
-    return Objects.equals(pid, orgApacheFelixSystemreadyImplServletSystemAliveServletInfo.pid) &&
-        Objects.equals(title, orgApacheFelixSystemreadyImplServletSystemAliveServletInfo.title) &&
-        Objects.equals(description, orgApacheFelixSystemreadyImplServletSystemAliveServletInfo.description) &&
-        Objects.equals(properties, orgApacheFelixSystemreadyImplServletSystemAliveServletInfo.properties) &&
-        Objects.equals(bundleLocation, orgApacheFelixSystemreadyImplServletSystemAliveServletInfo.bundleLocation) &&
-        Objects.equals(serviceLocation, orgApacheFelixSystemreadyImplServletSystemAliveServletInfo.serviceLocation);
+    return Objects.equals(this.pid, orgApacheFelixSystemreadyImplServletSystemAliveServletInfo.pid) &&
+        Objects.equals(this.title, orgApacheFelixSystemreadyImplServletSystemAliveServletInfo.title) &&
+        Objects.equals(this.description, orgApacheFelixSystemreadyImplServletSystemAliveServletInfo.description) &&
+        Objects.equals(this.properties, orgApacheFelixSystemreadyImplServletSystemAliveServletInfo.properties) &&
+        Objects.equals(this.bundleLocation, orgApacheFelixSystemreadyImplServletSystemAliveServletInfo.bundleLocation) &&
+        Objects.equals(this.serviceLocation, orgApacheFelixSystemreadyImplServletSystemAliveServletInfo.serviceLocation);
   }
 
   @Override
@@ -178,11 +179,8 @@ public class OrgApacheFelixSystemreadyImplServletSystemAliveServletInfo   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

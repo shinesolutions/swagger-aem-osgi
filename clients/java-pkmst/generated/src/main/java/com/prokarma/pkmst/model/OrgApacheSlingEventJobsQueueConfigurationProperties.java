@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyArray;
 import com.prokarma.pkmst.model.ConfigNodePropertyBoolean;
 import com.prokarma.pkmst.model.ConfigNodePropertyDropDown;
@@ -20,51 +21,50 @@ import io.swagger.annotations.ApiModelProperty;
  * OrgApacheSlingEventJobsQueueConfigurationProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingEventJobsQueueConfigurationProperties   {
   @JsonProperty("queue.name")
-  private ConfigNodePropertyString queueName = null;
+  private ConfigNodePropertyString queueName;
 
   @JsonProperty("queue.topics")
-  private ConfigNodePropertyArray queueTopics = null;
+  private ConfigNodePropertyArray queueTopics;
 
   @JsonProperty("queue.type")
-  private ConfigNodePropertyDropDown queueType = null;
+  private ConfigNodePropertyDropDown queueType;
 
   @JsonProperty("queue.priority")
-  private ConfigNodePropertyDropDown queuePriority = null;
+  private ConfigNodePropertyDropDown queuePriority;
 
   @JsonProperty("queue.retries")
-  private ConfigNodePropertyInteger queueRetries = null;
+  private ConfigNodePropertyInteger queueRetries;
 
   @JsonProperty("queue.retrydelay")
-  private ConfigNodePropertyInteger queueRetrydelay = null;
+  private ConfigNodePropertyInteger queueRetrydelay;
 
   @JsonProperty("queue.maxparallel")
-  private ConfigNodePropertyFloat queueMaxparallel = null;
+  private ConfigNodePropertyFloat queueMaxparallel;
 
   @JsonProperty("queue.keepJobs")
-  private ConfigNodePropertyBoolean queueKeepJobs = null;
+  private ConfigNodePropertyBoolean queueKeepJobs;
 
   @JsonProperty("queue.preferRunOnCreationInstance")
-  private ConfigNodePropertyBoolean queuePreferRunOnCreationInstance = null;
+  private ConfigNodePropertyBoolean queuePreferRunOnCreationInstance;
 
   @JsonProperty("queue.threadPoolSize")
-  private ConfigNodePropertyInteger queueThreadPoolSize = null;
+  private ConfigNodePropertyInteger queueThreadPoolSize;
 
   @JsonProperty("service.ranking")
-  private ConfigNodePropertyInteger serviceRanking = null;
+  private ConfigNodePropertyInteger serviceRanking;
 
   public OrgApacheSlingEventJobsQueueConfigurationProperties queueName(ConfigNodePropertyString queueName) {
     this.queueName = queueName;
     return this;
   }
 
-   /**
+  /**
    * Get queueName
    * @return queueName
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getQueueName() {
     return queueName;
@@ -79,10 +79,10 @@ public class OrgApacheSlingEventJobsQueueConfigurationProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get queueTopics
    * @return queueTopics
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getQueueTopics() {
     return queueTopics;
@@ -97,10 +97,10 @@ public class OrgApacheSlingEventJobsQueueConfigurationProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get queueType
    * @return queueType
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyDropDown getQueueType() {
     return queueType;
@@ -115,10 +115,10 @@ public class OrgApacheSlingEventJobsQueueConfigurationProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get queuePriority
    * @return queuePriority
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyDropDown getQueuePriority() {
     return queuePriority;
@@ -133,10 +133,10 @@ public class OrgApacheSlingEventJobsQueueConfigurationProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get queueRetries
    * @return queueRetries
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getQueueRetries() {
     return queueRetries;
@@ -151,10 +151,10 @@ public class OrgApacheSlingEventJobsQueueConfigurationProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get queueRetrydelay
    * @return queueRetrydelay
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getQueueRetrydelay() {
     return queueRetrydelay;
@@ -169,10 +169,10 @@ public class OrgApacheSlingEventJobsQueueConfigurationProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get queueMaxparallel
    * @return queueMaxparallel
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyFloat getQueueMaxparallel() {
     return queueMaxparallel;
@@ -187,10 +187,10 @@ public class OrgApacheSlingEventJobsQueueConfigurationProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get queueKeepJobs
    * @return queueKeepJobs
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getQueueKeepJobs() {
     return queueKeepJobs;
@@ -205,10 +205,10 @@ public class OrgApacheSlingEventJobsQueueConfigurationProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get queuePreferRunOnCreationInstance
    * @return queuePreferRunOnCreationInstance
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getQueuePreferRunOnCreationInstance() {
     return queuePreferRunOnCreationInstance;
@@ -223,10 +223,10 @@ public class OrgApacheSlingEventJobsQueueConfigurationProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get queueThreadPoolSize
    * @return queueThreadPoolSize
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getQueueThreadPoolSize() {
     return queueThreadPoolSize;
@@ -241,10 +241,10 @@ public class OrgApacheSlingEventJobsQueueConfigurationProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get serviceRanking
    * @return serviceRanking
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getServiceRanking() {
     return serviceRanking;
@@ -256,7 +256,7 @@ public class OrgApacheSlingEventJobsQueueConfigurationProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -306,11 +306,8 @@ public class OrgApacheSlingEventJobsQueueConfigurationProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

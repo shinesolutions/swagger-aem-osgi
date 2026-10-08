@@ -1,0 +1,164 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties {
+    title = OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties
+    description = OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties
+    derivedFrom = Root
+    properties {
+        provider_name {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        host_name {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        host_port {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        host_ssl {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        host_tls {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        host_no_cert_check {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        bind_dn {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        bind_password {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        search_timeout {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        admin_pool_max_active {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        admin_pool_lookup_on_validate {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        user_pool_max_active {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        user_pool_lookup_on_validate {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        user_base_dn {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        user_objectclass {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        user_id_attribute {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        user_extra_filter {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        user_make_dn_path {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        group_base_dn {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        group_objectclass {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        group_name_attribute {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        group_extra_filter {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        group_make_dn_path {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        group_member_attribute {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        use_uid_for_ext_id {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        customattributes {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties {
+    title = OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties
+    description = OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties
+    implements = openapi_server.resourceTypes.OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties
+
+  }
+}

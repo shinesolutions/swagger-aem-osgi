@@ -8,16 +8,16 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorProperties {
-    ConfigNodePropertyArray cqContentsyncPathrewritertransformerMappingLinks = null
-
-    ConfigNodePropertyArray cqContentsyncPathrewritertransformerMappingClientlibs = null
-
-    ConfigNodePropertyArray cqContentsyncPathrewritertransformerMappingImages = null
-
-    ConfigNodePropertyString cqContentsyncPathrewritertransformerAttributePattern = null
-
-    ConfigNodePropertyString cqContentsyncPathrewritertransformerClientlibraryPattern = null
-
-    ConfigNodePropertyString cqContentsyncPathrewritertransformerClientlibraryReplace = null
-
+    
+    ConfigNodePropertyArray cqContentsyncPathrewritertransformerMappingLinks
+    
+    ConfigNodePropertyArray cqContentsyncPathrewritertransformerMappingClientlibs
+    
+    ConfigNodePropertyArray cqContentsyncPathrewritertransformerMappingImages
+    
+    ConfigNodePropertyString cqContentsyncPathrewritertransformerAttributePattern
+    
+    ConfigNodePropertyString cqContentsyncPathrewritertransformerClientlibraryPattern
+    
+    ConfigNodePropertyString cqContentsyncPathrewritertransformerClientlibraryReplace
 }

@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqSocialConnectOauthImplFacebookProviderIm
 
 @Canonical
 class ComAdobeCqSocialConnectOauthImplFacebookProviderImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqSocialConnectOauthImplFacebookProviderImplProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqSocialConnectOauthImplFacebookProviderImplProperties properties
 }

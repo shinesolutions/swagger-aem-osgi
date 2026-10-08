@@ -1,0 +1,61 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingSecurityImplReferrerFilterInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingSecurityImplReferrerFilterInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  OrgApacheSlingSecurityImplReferrerFilterProperties = openapi_server.resourceTypes.OrgApacheSlingSecurityImplReferrerFilterProperties
+}
+resourceTypes {
+
+  OrgApacheSlingSecurityImplReferrerFilterInfo {
+    title = OrgApacheSlingSecurityImplReferrerFilterInfo
+    description = OrgApacheSlingSecurityImplReferrerFilterInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = OrgApacheSlingSecurityImplReferrerFilterProperties
+          description = ""
+          optional = false
+        }
+        bundle_location {
+          type =  string
+          description = ""
+          optional = false
+        }
+        service_location {
+          type =  string
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingSecurityImplReferrerFilterInfo {
+    title = OrgApacheSlingSecurityImplReferrerFilterInfo
+    description = OrgApacheSlingSecurityImplReferrerFilterInfo
+    implements = openapi_server.resourceTypes.OrgApacheSlingSecurityImplReferrerFilterInfo
+
+  }
+}

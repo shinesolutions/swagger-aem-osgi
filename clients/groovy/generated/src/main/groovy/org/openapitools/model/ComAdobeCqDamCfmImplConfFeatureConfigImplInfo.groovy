@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqDamCfmImplConfFeatureConfigImplPropertie
 
 @Canonical
 class ComAdobeCqDamCfmImplConfFeatureConfigImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqDamCfmImplConfFeatureConfigImplProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqDamCfmImplConfFeatureConfigImplProperties properties
 }

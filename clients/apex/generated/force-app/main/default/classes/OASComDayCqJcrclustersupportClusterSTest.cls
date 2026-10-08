@@ -72,9 +72,9 @@ private class OASComDayCqJcrclustersupportClusterSTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqJcrclustersupportClusterS comDayCqJcrclustersupportClusterStartLevelControllerProperties = new OASComDayCqJcrclustersupportClusterS();
-        Map<String, String> propertyMappings = comDayCqJcrclustersupportClusterStartLevelControllerProperties.getPropertyMappings();
-        System.assertEquals('clusterLevelEnable', propertyMappings.get('cluster.level.enable'));
-        System.assertEquals('clusterMasterLevel', propertyMappings.get('cluster.master.level'));
-        System.assertEquals('clusterSlaveLevel', propertyMappings.get('cluster.slave.level'));
+        Map<String, String> x-property-mappings = comDayCqJcrclustersupportClusterStartLevelControllerProperties.getx-property-mappings();
+        System.assertEquals('clusterLevelEnable', x-property-mappings.get('cluster.level.enable'));
+        System.assertEquals('clusterMasterLevel', x-property-mappings.get('cluster.master.level'));
+        System.assertEquals('clusterSlaveLevel', x-property-mappings.get('cluster.slave.level'));
     }
 }

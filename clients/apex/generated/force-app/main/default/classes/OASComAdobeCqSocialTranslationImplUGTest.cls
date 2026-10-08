@@ -72,10 +72,10 @@ private class OASComAdobeCqSocialTranslationImplUGTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeCqSocialTranslationImplUG comAdobeCqSocialTranslationImplUGCLanguageDetectorProperties = new OASComAdobeCqSocialTranslationImplUG();
-        Map<String, String> propertyMappings = comAdobeCqSocialTranslationImplUGCLanguageDetectorProperties.getPropertyMappings();
-        System.assertEquals('eventTopics', propertyMappings.get('event.topics'));
-        System.assertEquals('eventFilter', propertyMappings.get('event.filter'));
-        System.assertEquals('translateListenerType', propertyMappings.get('translate.listener.type'));
-        System.assertEquals('translatePropertyList', propertyMappings.get('translate.property.list'));
+        Map<String, String> x-property-mappings = comAdobeCqSocialTranslationImplUGCLanguageDetectorProperties.getx-property-mappings();
+        System.assertEquals('eventTopics', x-property-mappings.get('event.topics'));
+        System.assertEquals('eventFilter', x-property-mappings.get('event.filter'));
+        System.assertEquals('translateListenerType', x-property-mappings.get('translate.listener.type'));
+        System.assertEquals('translatePropertyList', x-property-mappings.get('translate.property.list'));
     }
 }

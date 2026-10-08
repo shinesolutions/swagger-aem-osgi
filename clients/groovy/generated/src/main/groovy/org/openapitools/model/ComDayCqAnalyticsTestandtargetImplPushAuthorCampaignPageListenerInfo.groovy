@@ -7,16 +7,16 @@ import org.openapitools.model.ComDayCqAnalyticsTestandtargetImplPushAuthorCampai
 
 @Canonical
 class ComDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListenerInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListenerProperties properties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListenerProperties properties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

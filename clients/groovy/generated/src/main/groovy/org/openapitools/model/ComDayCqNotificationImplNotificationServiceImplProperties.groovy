@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqNotificationImplNotificationServiceImplProperties {
-    ConfigNodePropertyString eventFilter = null
-
+    
+    ConfigNodePropertyString eventFilter
 }

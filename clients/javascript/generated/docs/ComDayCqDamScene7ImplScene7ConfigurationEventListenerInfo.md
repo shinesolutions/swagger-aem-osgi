@@ -1,6 +1,7 @@
 # NodeSwaggerAemOsgi.ComDayCqDamScene7ImplScene7ConfigurationEventListenerInfo
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **pid** | **String** |  | [optional] 

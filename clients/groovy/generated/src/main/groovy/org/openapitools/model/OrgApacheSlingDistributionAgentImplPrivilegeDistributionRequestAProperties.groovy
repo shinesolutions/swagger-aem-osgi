@@ -7,8 +7,8 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAProperties {
-    ConfigNodePropertyString name = null
-
-    ConfigNodePropertyString jcrPrivilege = null
-
+    
+    ConfigNodePropertyString name
+    
+    ConfigNodePropertyString jcrPrivilege
 }

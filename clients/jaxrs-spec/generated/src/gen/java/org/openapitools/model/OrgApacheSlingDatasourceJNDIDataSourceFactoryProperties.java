@@ -1,22 +1,33 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("orgApacheSlingDatasourceJNDIDataSourceFactoryProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingDatasourceJNDIDataSourceFactoryProperties   {
-  
-  private @Valid ConfigNodePropertyString datasourceName = null;
-  private @Valid ConfigNodePropertyString datasourceSvcPropName = null;
-  private @Valid ConfigNodePropertyString datasourceJndiName = null;
-  private @Valid ConfigNodePropertyArray jndiProperties = null;
+  private ConfigNodePropertyString datasourceName;
+  private ConfigNodePropertyString datasourceSvcPropName;
+  private ConfigNodePropertyString datasourceJndiName;
+  private ConfigNodePropertyArray jndiProperties;
+
+  public OrgApacheSlingDatasourceJNDIDataSourceFactoryProperties() {
+  }
 
   /**
    **/
@@ -28,9 +39,11 @@ public class OrgApacheSlingDatasourceJNDIDataSourceFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("datasource.name")
-  public ConfigNodePropertyString getDatasourceName() {
+  @Valid public ConfigNodePropertyString getDatasourceName() {
     return datasourceName;
   }
+
+  @JsonProperty("datasource.name")
   public void setDatasourceName(ConfigNodePropertyString datasourceName) {
     this.datasourceName = datasourceName;
   }
@@ -45,9 +58,11 @@ public class OrgApacheSlingDatasourceJNDIDataSourceFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("datasource.svc.prop.name")
-  public ConfigNodePropertyString getDatasourceSvcPropName() {
+  @Valid public ConfigNodePropertyString getDatasourceSvcPropName() {
     return datasourceSvcPropName;
   }
+
+  @JsonProperty("datasource.svc.prop.name")
   public void setDatasourceSvcPropName(ConfigNodePropertyString datasourceSvcPropName) {
     this.datasourceSvcPropName = datasourceSvcPropName;
   }
@@ -62,9 +77,11 @@ public class OrgApacheSlingDatasourceJNDIDataSourceFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("datasource.jndi.name")
-  public ConfigNodePropertyString getDatasourceJndiName() {
+  @Valid public ConfigNodePropertyString getDatasourceJndiName() {
     return datasourceJndiName;
   }
+
+  @JsonProperty("datasource.jndi.name")
   public void setDatasourceJndiName(ConfigNodePropertyString datasourceJndiName) {
     this.datasourceJndiName = datasourceJndiName;
   }
@@ -79,16 +96,18 @@ public class OrgApacheSlingDatasourceJNDIDataSourceFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("jndi.properties")
-  public ConfigNodePropertyArray getJndiProperties() {
+  @Valid public ConfigNodePropertyArray getJndiProperties() {
     return jndiProperties;
   }
+
+  @JsonProperty("jndi.properties")
   public void setJndiProperties(ConfigNodePropertyArray jndiProperties) {
     this.jndiProperties = jndiProperties;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -96,10 +115,10 @@ public class OrgApacheSlingDatasourceJNDIDataSourceFactoryProperties   {
       return false;
     }
     OrgApacheSlingDatasourceJNDIDataSourceFactoryProperties orgApacheSlingDatasourceJNDIDataSourceFactoryProperties = (OrgApacheSlingDatasourceJNDIDataSourceFactoryProperties) o;
-    return Objects.equals(datasourceName, orgApacheSlingDatasourceJNDIDataSourceFactoryProperties.datasourceName) &&
-        Objects.equals(datasourceSvcPropName, orgApacheSlingDatasourceJNDIDataSourceFactoryProperties.datasourceSvcPropName) &&
-        Objects.equals(datasourceJndiName, orgApacheSlingDatasourceJNDIDataSourceFactoryProperties.datasourceJndiName) &&
-        Objects.equals(jndiProperties, orgApacheSlingDatasourceJNDIDataSourceFactoryProperties.jndiProperties);
+    return Objects.equals(this.datasourceName, orgApacheSlingDatasourceJNDIDataSourceFactoryProperties.datasourceName) &&
+        Objects.equals(this.datasourceSvcPropName, orgApacheSlingDatasourceJNDIDataSourceFactoryProperties.datasourceSvcPropName) &&
+        Objects.equals(this.datasourceJndiName, orgApacheSlingDatasourceJNDIDataSourceFactoryProperties.datasourceJndiName) &&
+        Objects.equals(this.jndiProperties, orgApacheSlingDatasourceJNDIDataSourceFactoryProperties.jndiProperties);
   }
 
   @Override
@@ -124,11 +143,9 @@ public class OrgApacheSlingDatasourceJNDIDataSourceFactoryProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

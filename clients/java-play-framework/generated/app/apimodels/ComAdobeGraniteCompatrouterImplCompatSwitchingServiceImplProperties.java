@@ -2,23 +2,28 @@ package apimodels;
 
 import apimodels.ConfigNodePropertyArray;
 import apimodels.ConfigNodePropertyBoolean;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * ComAdobeGraniteCompatrouterImplCompatSwitchingServiceImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class ComAdobeGraniteCompatrouterImplCompatSwitchingServiceImplProperties   {
   @JsonProperty("compatgroups")
-  private ConfigNodePropertyArray compatgroups = null;
+  @Valid
+
+  private ConfigNodePropertyArray compatgroups;
 
   @JsonProperty("enabled")
-  private ConfigNodePropertyBoolean enabled = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean enabled;
 
   public ComAdobeGraniteCompatrouterImplCompatSwitchingServiceImplProperties compatgroups(ConfigNodePropertyArray compatgroups) {
     this.compatgroups = compatgroups;
@@ -29,7 +34,6 @@ public class ComAdobeGraniteCompatrouterImplCompatSwitchingServiceImplProperties
    * Get compatgroups
    * @return compatgroups
   **/
-  @Valid
   public ConfigNodePropertyArray getCompatgroups() {
     return compatgroups;
   }
@@ -47,7 +51,6 @@ public class ComAdobeGraniteCompatrouterImplCompatSwitchingServiceImplProperties
    * Get enabled
    * @return enabled
   **/
-  @Valid
   public ConfigNodePropertyBoolean getEnabled() {
     return enabled;
   }
@@ -58,7 +61,7 @@ public class ComAdobeGraniteCompatrouterImplCompatSwitchingServiceImplProperties
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -91,11 +94,8 @@ public class ComAdobeGraniteCompatrouterImplCompatSwitchingServiceImplProperties
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

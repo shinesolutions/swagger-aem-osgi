@@ -72,7 +72,7 @@ private class OASComDayCqDamHandlerStandardPdfPdfHTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqDamHandlerStandardPdfPdfH comDayCqDamHandlerStandardPdfPdfHandlerProperties = new OASComDayCqDamHandlerStandardPdfPdfH();
-        Map<String, String> propertyMappings = comDayCqDamHandlerStandardPdfPdfHandlerProperties.getPropertyMappings();
-        System.assertEquals('rasterAnnotation', propertyMappings.get('raster.annotation'));
+        Map<String, String> x-property-mappings = comDayCqDamHandlerStandardPdfPdfHandlerProperties.getx-property-mappings();
+        System.assertEquals('rasterAnnotation', x-property-mappings.get('raster.annotation'));
     }
 }

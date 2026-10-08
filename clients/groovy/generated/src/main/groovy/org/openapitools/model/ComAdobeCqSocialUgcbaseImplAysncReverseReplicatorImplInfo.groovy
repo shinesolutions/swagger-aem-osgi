@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqSocialUgcbaseImplAysncReverseReplicatorI
 
 @Canonical
 class ComAdobeCqSocialUgcbaseImplAysncReverseReplicatorImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqSocialUgcbaseImplAysncReverseReplicatorImplProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqSocialUgcbaseImplAysncReverseReplicatorImplProperties properties
 }

@@ -4,20 +4,23 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.OrgApacheSlingEngineImplSlingMainServletProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2019-08-05T00:59:30.156Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2026-10-07T12:54:21.614735164Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingEngineImplSlingMainServletInfo   {
   
-  private String pid = null;
-  private String title = null;
-  private String description = null;
-  private OrgApacheSlingEngineImplSlingMainServletProperties properties = null;
-  private String bundleLocation = null;
-  private String serviceLocation = null;
+  private String pid;
+  private String title;
+  private String description;
+  private OrgApacheSlingEngineImplSlingMainServletProperties properties;
+  private String bundleLocation;
+  private String serviceLocation;
 
   /**
    **/
@@ -60,6 +63,7 @@ public class OrgApacheSlingEngineImplSlingMainServletInfo   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("properties")
+  @Valid
   public OrgApacheSlingEngineImplSlingMainServletProperties getProperties() {
     return properties;
   }
@@ -93,7 +97,7 @@ public class OrgApacheSlingEngineImplSlingMainServletInfo   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -101,12 +105,12 @@ public class OrgApacheSlingEngineImplSlingMainServletInfo   {
       return false;
     }
     OrgApacheSlingEngineImplSlingMainServletInfo orgApacheSlingEngineImplSlingMainServletInfo = (OrgApacheSlingEngineImplSlingMainServletInfo) o;
-    return Objects.equals(pid, orgApacheSlingEngineImplSlingMainServletInfo.pid) &&
-        Objects.equals(title, orgApacheSlingEngineImplSlingMainServletInfo.title) &&
-        Objects.equals(description, orgApacheSlingEngineImplSlingMainServletInfo.description) &&
-        Objects.equals(properties, orgApacheSlingEngineImplSlingMainServletInfo.properties) &&
-        Objects.equals(bundleLocation, orgApacheSlingEngineImplSlingMainServletInfo.bundleLocation) &&
-        Objects.equals(serviceLocation, orgApacheSlingEngineImplSlingMainServletInfo.serviceLocation);
+    return Objects.equals(this.pid, orgApacheSlingEngineImplSlingMainServletInfo.pid) &&
+        Objects.equals(this.title, orgApacheSlingEngineImplSlingMainServletInfo.title) &&
+        Objects.equals(this.description, orgApacheSlingEngineImplSlingMainServletInfo.description) &&
+        Objects.equals(this.properties, orgApacheSlingEngineImplSlingMainServletInfo.properties) &&
+        Objects.equals(this.bundleLocation, orgApacheSlingEngineImplSlingMainServletInfo.bundleLocation) &&
+        Objects.equals(this.serviceLocation, orgApacheSlingEngineImplSlingMainServletInfo.serviceLocation);
   }
 
   @Override
@@ -133,11 +137,8 @@ public class OrgApacheSlingEngineImplSlingMainServletInfo   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

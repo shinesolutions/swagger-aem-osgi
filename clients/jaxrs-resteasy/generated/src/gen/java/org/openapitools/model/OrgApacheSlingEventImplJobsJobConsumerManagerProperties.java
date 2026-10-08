@@ -4,24 +4,28 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2019-08-05T00:59:30.156Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2026-10-07T12:54:21.614735164Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingEventImplJobsJobConsumerManagerProperties   {
   
-  private ConfigNodePropertyBoolean orgApacheSlingInstallerConfigurationPersist = null;
-  private ConfigNodePropertyArray jobConsumermanagerWhitelist = null;
-  private ConfigNodePropertyArray jobConsumermanagerBlacklist = null;
+  private ConfigNodePropertyBoolean orgApacheSlingInstallerConfigurationPersist;
+  private ConfigNodePropertyArray jobConsumermanagerWhitelist;
+  private ConfigNodePropertyArray jobConsumermanagerBlacklist;
 
   /**
    **/
   
   @ApiModelProperty(value = "")
   @JsonProperty("org.apache.sling.installer.configuration.persist")
+  @Valid
   public ConfigNodePropertyBoolean getOrgApacheSlingInstallerConfigurationPersist() {
     return orgApacheSlingInstallerConfigurationPersist;
   }
@@ -34,6 +38,7 @@ public class OrgApacheSlingEventImplJobsJobConsumerManagerProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("job.consumermanager.whitelist")
+  @Valid
   public ConfigNodePropertyArray getJobConsumermanagerWhitelist() {
     return jobConsumermanagerWhitelist;
   }
@@ -46,6 +51,7 @@ public class OrgApacheSlingEventImplJobsJobConsumerManagerProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("job.consumermanager.blacklist")
+  @Valid
   public ConfigNodePropertyArray getJobConsumermanagerBlacklist() {
     return jobConsumermanagerBlacklist;
   }
@@ -55,7 +61,7 @@ public class OrgApacheSlingEventImplJobsJobConsumerManagerProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -63,9 +69,9 @@ public class OrgApacheSlingEventImplJobsJobConsumerManagerProperties   {
       return false;
     }
     OrgApacheSlingEventImplJobsJobConsumerManagerProperties orgApacheSlingEventImplJobsJobConsumerManagerProperties = (OrgApacheSlingEventImplJobsJobConsumerManagerProperties) o;
-    return Objects.equals(orgApacheSlingInstallerConfigurationPersist, orgApacheSlingEventImplJobsJobConsumerManagerProperties.orgApacheSlingInstallerConfigurationPersist) &&
-        Objects.equals(jobConsumermanagerWhitelist, orgApacheSlingEventImplJobsJobConsumerManagerProperties.jobConsumermanagerWhitelist) &&
-        Objects.equals(jobConsumermanagerBlacklist, orgApacheSlingEventImplJobsJobConsumerManagerProperties.jobConsumermanagerBlacklist);
+    return Objects.equals(this.orgApacheSlingInstallerConfigurationPersist, orgApacheSlingEventImplJobsJobConsumerManagerProperties.orgApacheSlingInstallerConfigurationPersist) &&
+        Objects.equals(this.jobConsumermanagerWhitelist, orgApacheSlingEventImplJobsJobConsumerManagerProperties.jobConsumermanagerWhitelist) &&
+        Objects.equals(this.jobConsumermanagerBlacklist, orgApacheSlingEventImplJobsJobConsumerManagerProperties.jobConsumermanagerBlacklist);
   }
 
   @Override
@@ -89,11 +95,8 @@ public class OrgApacheSlingEventImplJobsJobConsumerManagerProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

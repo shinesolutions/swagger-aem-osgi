@@ -1,26 +1,37 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyDropDown;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("orgApacheSlingCommonsMetricsInternalLogReporterProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingCommonsMetricsInternalLogReporterProperties   {
-  
-  private @Valid ConfigNodePropertyInteger period = null;
-  private @Valid ConfigNodePropertyDropDown timeUnit = null;
-  private @Valid ConfigNodePropertyDropDown level = null;
-  private @Valid ConfigNodePropertyString loggerName = null;
-  private @Valid ConfigNodePropertyString prefix = null;
-  private @Valid ConfigNodePropertyString pattern = null;
-  private @Valid ConfigNodePropertyString registryName = null;
+  private ConfigNodePropertyInteger period;
+  private ConfigNodePropertyDropDown timeUnit;
+  private ConfigNodePropertyDropDown level;
+  private ConfigNodePropertyString loggerName;
+  private ConfigNodePropertyString prefix;
+  private ConfigNodePropertyString pattern;
+  private ConfigNodePropertyString registryName;
+
+  public OrgApacheSlingCommonsMetricsInternalLogReporterProperties() {
+  }
 
   /**
    **/
@@ -32,9 +43,11 @@ public class OrgApacheSlingCommonsMetricsInternalLogReporterProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("period")
-  public ConfigNodePropertyInteger getPeriod() {
+  @Valid public ConfigNodePropertyInteger getPeriod() {
     return period;
   }
+
+  @JsonProperty("period")
   public void setPeriod(ConfigNodePropertyInteger period) {
     this.period = period;
   }
@@ -49,9 +62,11 @@ public class OrgApacheSlingCommonsMetricsInternalLogReporterProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("timeUnit")
-  public ConfigNodePropertyDropDown getTimeUnit() {
+  @Valid public ConfigNodePropertyDropDown getTimeUnit() {
     return timeUnit;
   }
+
+  @JsonProperty("timeUnit")
   public void setTimeUnit(ConfigNodePropertyDropDown timeUnit) {
     this.timeUnit = timeUnit;
   }
@@ -66,9 +81,11 @@ public class OrgApacheSlingCommonsMetricsInternalLogReporterProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("level")
-  public ConfigNodePropertyDropDown getLevel() {
+  @Valid public ConfigNodePropertyDropDown getLevel() {
     return level;
   }
+
+  @JsonProperty("level")
   public void setLevel(ConfigNodePropertyDropDown level) {
     this.level = level;
   }
@@ -83,9 +100,11 @@ public class OrgApacheSlingCommonsMetricsInternalLogReporterProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("loggerName")
-  public ConfigNodePropertyString getLoggerName() {
+  @Valid public ConfigNodePropertyString getLoggerName() {
     return loggerName;
   }
+
+  @JsonProperty("loggerName")
   public void setLoggerName(ConfigNodePropertyString loggerName) {
     this.loggerName = loggerName;
   }
@@ -100,9 +119,11 @@ public class OrgApacheSlingCommonsMetricsInternalLogReporterProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("prefix")
-  public ConfigNodePropertyString getPrefix() {
+  @Valid public ConfigNodePropertyString getPrefix() {
     return prefix;
   }
+
+  @JsonProperty("prefix")
   public void setPrefix(ConfigNodePropertyString prefix) {
     this.prefix = prefix;
   }
@@ -117,9 +138,11 @@ public class OrgApacheSlingCommonsMetricsInternalLogReporterProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("pattern")
-  public ConfigNodePropertyString getPattern() {
+  @Valid public ConfigNodePropertyString getPattern() {
     return pattern;
   }
+
+  @JsonProperty("pattern")
   public void setPattern(ConfigNodePropertyString pattern) {
     this.pattern = pattern;
   }
@@ -134,16 +157,18 @@ public class OrgApacheSlingCommonsMetricsInternalLogReporterProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("registryName")
-  public ConfigNodePropertyString getRegistryName() {
+  @Valid public ConfigNodePropertyString getRegistryName() {
     return registryName;
   }
+
+  @JsonProperty("registryName")
   public void setRegistryName(ConfigNodePropertyString registryName) {
     this.registryName = registryName;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -151,13 +176,13 @@ public class OrgApacheSlingCommonsMetricsInternalLogReporterProperties   {
       return false;
     }
     OrgApacheSlingCommonsMetricsInternalLogReporterProperties orgApacheSlingCommonsMetricsInternalLogReporterProperties = (OrgApacheSlingCommonsMetricsInternalLogReporterProperties) o;
-    return Objects.equals(period, orgApacheSlingCommonsMetricsInternalLogReporterProperties.period) &&
-        Objects.equals(timeUnit, orgApacheSlingCommonsMetricsInternalLogReporterProperties.timeUnit) &&
-        Objects.equals(level, orgApacheSlingCommonsMetricsInternalLogReporterProperties.level) &&
-        Objects.equals(loggerName, orgApacheSlingCommonsMetricsInternalLogReporterProperties.loggerName) &&
-        Objects.equals(prefix, orgApacheSlingCommonsMetricsInternalLogReporterProperties.prefix) &&
-        Objects.equals(pattern, orgApacheSlingCommonsMetricsInternalLogReporterProperties.pattern) &&
-        Objects.equals(registryName, orgApacheSlingCommonsMetricsInternalLogReporterProperties.registryName);
+    return Objects.equals(this.period, orgApacheSlingCommonsMetricsInternalLogReporterProperties.period) &&
+        Objects.equals(this.timeUnit, orgApacheSlingCommonsMetricsInternalLogReporterProperties.timeUnit) &&
+        Objects.equals(this.level, orgApacheSlingCommonsMetricsInternalLogReporterProperties.level) &&
+        Objects.equals(this.loggerName, orgApacheSlingCommonsMetricsInternalLogReporterProperties.loggerName) &&
+        Objects.equals(this.prefix, orgApacheSlingCommonsMetricsInternalLogReporterProperties.prefix) &&
+        Objects.equals(this.pattern, orgApacheSlingCommonsMetricsInternalLogReporterProperties.pattern) &&
+        Objects.equals(this.registryName, orgApacheSlingCommonsMetricsInternalLogReporterProperties.registryName);
   }
 
   @Override
@@ -185,11 +210,9 @@ public class OrgApacheSlingCommonsMetricsInternalLogReporterProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

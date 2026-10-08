@@ -7,12 +7,12 @@ import org.openapitools.model.OrgApacheSlingDistributionAgentImplReverseDistribu
 
 @Canonical
 class OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoProperties properties
 }

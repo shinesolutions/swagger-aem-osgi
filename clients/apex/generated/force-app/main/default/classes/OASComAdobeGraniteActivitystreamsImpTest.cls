@@ -72,8 +72,8 @@ private class OASComAdobeGraniteActivitystreamsImpTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeGraniteActivitystreamsImp comAdobeGraniteActivitystreamsImplActivityManagerImplProperties = new OASComAdobeGraniteActivitystreamsImp();
-        Map<String, String> propertyMappings = comAdobeGraniteActivitystreamsImplActivityManagerImplProperties.getPropertyMappings();
-        System.assertEquals('aggregateRelationships', propertyMappings.get('aggregate.relationships'));
-        System.assertEquals('aggregateDescendVirtual', propertyMappings.get('aggregate.descend.virtual'));
+        Map<String, String> x-property-mappings = comAdobeGraniteActivitystreamsImplActivityManagerImplProperties.getx-property-mappings();
+        System.assertEquals('aggregateRelationships', x-property-mappings.get('aggregate.relationships'));
+        System.assertEquals('aggregateDescendVirtual', x-property-mappings.get('aggregate.descend.virtual'));
     }
 }

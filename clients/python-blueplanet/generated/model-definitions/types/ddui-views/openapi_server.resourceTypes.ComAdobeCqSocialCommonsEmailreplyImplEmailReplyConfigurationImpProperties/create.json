@@ -1,0 +1,27 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "email_name" },
+      {"model": "email_create_post_from_reply" },
+      {"model": "email_add_comment_id_to" },
+      {"model": "email_subject_maximum_length" },
+      {"model": "email_reply_to_address" },
+      {"model": "email_reply_to_delimiter" },
+      {"model": "email_tracker_id_prefix_in_subject" },
+      {"model": "email_tracker_id_prefix_in_body" },
+      {"model": "email_as_html" },
+      {"model": "email_default_user_name" },
+      {"model": "email_templates_root_path" },
+    ]
+  }]
+}

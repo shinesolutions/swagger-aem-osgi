@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqDamCoreImplReportsReportPurgeServiceProper
 
 @Canonical
 class ComDayCqDamCoreImplReportsReportPurgeServiceInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqDamCoreImplReportsReportPurgeServiceProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqDamCoreImplReportsReportPurgeServiceProperties properties
 }

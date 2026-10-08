@@ -4,28 +4,23 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.OrgApacheSlingSecurityImplContentDispositionFilterProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2019-08-05T01:00:05.540Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2026-10-07T12:54:26.576036107Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingSecurityImplContentDispositionFilterInfo   {
   
-
-  private String pid = null;
-
-  private String title = null;
-
-  private String description = null;
-
-  private OrgApacheSlingSecurityImplContentDispositionFilterProperties properties = null;
-
-  private String bundleLocation = null;
-
-  private String serviceLocation = null;
+  private String pid;
+  private String title;
+  private String description;
+  private OrgApacheSlingSecurityImplContentDispositionFilterProperties properties;
+  private String bundleLocation;
+  private String serviceLocation;
 
   /**
    **/
@@ -109,12 +104,12 @@ public class OrgApacheSlingSecurityImplContentDispositionFilterInfo   {
       return false;
     }
     OrgApacheSlingSecurityImplContentDispositionFilterInfo orgApacheSlingSecurityImplContentDispositionFilterInfo = (OrgApacheSlingSecurityImplContentDispositionFilterInfo) o;
-    return Objects.equals(pid, orgApacheSlingSecurityImplContentDispositionFilterInfo.pid) &&
-        Objects.equals(title, orgApacheSlingSecurityImplContentDispositionFilterInfo.title) &&
-        Objects.equals(description, orgApacheSlingSecurityImplContentDispositionFilterInfo.description) &&
-        Objects.equals(properties, orgApacheSlingSecurityImplContentDispositionFilterInfo.properties) &&
-        Objects.equals(bundleLocation, orgApacheSlingSecurityImplContentDispositionFilterInfo.bundleLocation) &&
-        Objects.equals(serviceLocation, orgApacheSlingSecurityImplContentDispositionFilterInfo.serviceLocation);
+    return Objects.equals(this.pid, orgApacheSlingSecurityImplContentDispositionFilterInfo.pid) &&
+        Objects.equals(this.title, orgApacheSlingSecurityImplContentDispositionFilterInfo.title) &&
+        Objects.equals(this.description, orgApacheSlingSecurityImplContentDispositionFilterInfo.description) &&
+        Objects.equals(this.properties, orgApacheSlingSecurityImplContentDispositionFilterInfo.properties) &&
+        Objects.equals(this.bundleLocation, orgApacheSlingSecurityImplContentDispositionFilterInfo.bundleLocation) &&
+        Objects.equals(this.serviceLocation, orgApacheSlingSecurityImplContentDispositionFilterInfo.serviceLocation);
   }
 
   @Override
@@ -142,10 +137,7 @@ public class OrgApacheSlingSecurityImplContentDispositionFilterInfo   {
    * (except the first line).
    */
   private String toIndentedString(Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -2,10 +2,10 @@
 # ComAdobeGraniteHttpcacheFileFileCacheStoreProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**comPeriodadobePeriodgranitePeriodhttpcachePeriodfilePerioddocumentRoot** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**comPeriodadobePeriodgranitePeriodhttpcachePeriodfilePeriodincludeHost** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **comAdobeGraniteHttpcacheFileDocumentRoot** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **comAdobeGraniteHttpcacheFileIncludeHost** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
 
 
 

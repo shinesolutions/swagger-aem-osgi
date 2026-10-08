@@ -8,8 +8,8 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class ComAdobeGraniteOmnisearchImplCoreOmniSearchServiceImplProperties {
-    ConfigNodePropertyInteger omnisearchSuggestionRequiretextMin = null
-
-    ConfigNodePropertyBoolean omnisearchSuggestionSpellcheckRequire = null
-
+    
+    ConfigNodePropertyInteger omnisearchSuggestionRequiretextMin
+    
+    ConfigNodePropertyBoolean omnisearchSuggestionSpellcheckRequire
 }

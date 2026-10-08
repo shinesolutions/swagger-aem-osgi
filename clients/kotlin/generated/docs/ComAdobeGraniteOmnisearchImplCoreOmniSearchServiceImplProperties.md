@@ -2,10 +2,10 @@
 # ComAdobeGraniteOmnisearchImplCoreOmniSearchServiceImplProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**omnisearchPeriodsuggestionPeriodrequiretextPeriodmin** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**omnisearchPeriodsuggestionPeriodspellcheckPeriodrequire** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **omnisearchSuggestionRequiretextMin** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **omnisearchSuggestionSpellcheckRequire** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
 
 
 

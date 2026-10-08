@@ -9,22 +9,22 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqPollingImporterImplManagedPollConfigImplProperties {
-    ConfigNodePropertyString id = null
-
-    ConfigNodePropertyBoolean enabled = null
-
-    ConfigNodePropertyBoolean reference = null
-
-    ConfigNodePropertyInteger interval = null
-
-    ConfigNodePropertyString expression = null
-
-    ConfigNodePropertyString source = null
-
-    ConfigNodePropertyString target = null
-
-    ConfigNodePropertyString login = null
-
-    ConfigNodePropertyString password = null
-
+    
+    ConfigNodePropertyString id
+    
+    ConfigNodePropertyBoolean enabled
+    
+    ConfigNodePropertyBoolean reference
+    
+    ConfigNodePropertyInteger interval
+    
+    ConfigNodePropertyString expression
+    
+    ConfigNodePropertyString source
+    
+    ConfigNodePropertyString target
+    
+    ConfigNodePropertyString login
+    
+    ConfigNodePropertyString password
 }

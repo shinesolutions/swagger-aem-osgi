@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyBoolean;
 
 @Canonical
 class ComAdobeCqScreensOfflinecontentImplOfflineContentServiceImplProperties {
-    ConfigNodePropertyBoolean disableSmartSync = null
-
+    
+    ConfigNodePropertyBoolean disableSmartSync
 }

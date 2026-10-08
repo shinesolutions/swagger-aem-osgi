@@ -7,12 +7,12 @@ import org.openapitools.model.OrgApacheSlingResourcemergerImplMergedResourceProv
 
 @Canonical
 class OrgApacheSlingResourcemergerImplMergedResourceProviderFactoryInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheSlingResourcemergerImplMergedResourceProviderFactoryProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheSlingResourcemergerImplMergedResourceProviderFactoryProperties properties
 }

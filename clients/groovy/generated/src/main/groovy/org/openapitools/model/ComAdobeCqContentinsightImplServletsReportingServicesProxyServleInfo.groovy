@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqContentinsightImplServletsReportingServi
 
 @Canonical
 class ComAdobeCqContentinsightImplServletsReportingServicesProxyServleInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqContentinsightImplServletsReportingServicesProxyServleProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqContentinsightImplServletsReportingServicesProxyServleProperties properties
 }

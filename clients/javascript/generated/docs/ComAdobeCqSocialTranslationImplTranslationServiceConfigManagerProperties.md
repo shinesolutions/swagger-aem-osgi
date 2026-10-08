@@ -1,6 +1,7 @@
 # NodeSwaggerAemOsgi.ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **translateLanguage** | [**ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md) |  | [optional] 

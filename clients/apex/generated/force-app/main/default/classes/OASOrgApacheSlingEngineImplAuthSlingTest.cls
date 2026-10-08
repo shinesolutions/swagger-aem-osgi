@@ -72,17 +72,17 @@ private class OASOrgApacheSlingEngineImplAuthSlingTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASOrgApacheSlingEngineImplAuthSling orgApacheSlingEngineImplAuthSlingAuthenticatorProperties = new OASOrgApacheSlingEngineImplAuthSling();
-        Map<String, String> propertyMappings = orgApacheSlingEngineImplAuthSlingAuthenticatorProperties.getPropertyMappings();
-        System.assertEquals('osgiHttpWhiteboardContextSelect', propertyMappings.get('osgi.http.whiteboard.context.select'));
-        System.assertEquals('osgiHttpWhiteboardListener', propertyMappings.get('osgi.http.whiteboard.listener'));
-        System.assertEquals('authSudoCookie', propertyMappings.get('auth.sudo.cookie'));
-        System.assertEquals('authSudoParameter', propertyMappings.get('auth.sudo.parameter'));
-        System.assertEquals('authAnnonymous', propertyMappings.get('auth.annonymous'));
-        System.assertEquals('slingAuthRequirements', propertyMappings.get('sling.auth.requirements'));
-        System.assertEquals('slingAuthAnonymousUser', propertyMappings.get('sling.auth.anonymous.user'));
-        System.assertEquals('slingAuthAnonymousPassword', propertyMappings.get('sling.auth.anonymous.password'));
-        System.assertEquals('authHttp', propertyMappings.get('auth.http'));
-        System.assertEquals('authHttpRealm', propertyMappings.get('auth.http.realm'));
-        System.assertEquals('authUriSuffix', propertyMappings.get('auth.uri.suffix'));
+        Map<String, String> x-property-mappings = orgApacheSlingEngineImplAuthSlingAuthenticatorProperties.getx-property-mappings();
+        System.assertEquals('osgiHttpWhiteboardContextSelect', x-property-mappings.get('osgi.http.whiteboard.context.select'));
+        System.assertEquals('osgiHttpWhiteboardListener', x-property-mappings.get('osgi.http.whiteboard.listener'));
+        System.assertEquals('authSudoCookie', x-property-mappings.get('auth.sudo.cookie'));
+        System.assertEquals('authSudoParameter', x-property-mappings.get('auth.sudo.parameter'));
+        System.assertEquals('authAnnonymous', x-property-mappings.get('auth.annonymous'));
+        System.assertEquals('slingAuthRequirements', x-property-mappings.get('sling.auth.requirements'));
+        System.assertEquals('slingAuthAnonymousUser', x-property-mappings.get('sling.auth.anonymous.user'));
+        System.assertEquals('slingAuthAnonymousPassword', x-property-mappings.get('sling.auth.anonymous.password'));
+        System.assertEquals('authHttp', x-property-mappings.get('auth.http'));
+        System.assertEquals('authHttpRealm', x-property-mappings.get('auth.http.realm'));
+        System.assertEquals('authUriSuffix', x-property-mappings.get('auth.uri.suffix'));
     }
 }

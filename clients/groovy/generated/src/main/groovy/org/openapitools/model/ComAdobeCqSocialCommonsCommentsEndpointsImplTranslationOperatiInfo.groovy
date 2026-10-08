@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqSocialCommonsCommentsEndpointsImplTransl
 
 @Canonical
 class ComAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperatiInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperatiProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperatiProperties properties
 }

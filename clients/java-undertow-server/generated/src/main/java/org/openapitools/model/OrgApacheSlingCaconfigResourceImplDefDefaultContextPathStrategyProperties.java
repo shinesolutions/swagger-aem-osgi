@@ -1,3 +1,13 @@
+/*
+ * Adobe Experience Manager OSGI config (AEM) API
+ *
+ * Swagger AEM OSGI is an OpenAPI specification for Adobe Experience Manager (AEM) OSGI Configurations API
+ *
+ * OpenAPI document version: 1.0.0-pre.0
+ * Maintained by: opensource@shinesolutions.com
+ *
+ * AUTO-GENERATED FILE, DO NOT MODIFY!
+ */
 package org.openapitools.model;
 
 import java.util.Objects;
@@ -13,16 +23,16 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2019-08-05T00:56:20.785Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2026-10-07T12:53:42.280804918Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyProperties   {
   
-  private ConfigNodePropertyBoolean enabled = null;
-  private ConfigNodePropertyArray configRefResourceNames = null;
-  private ConfigNodePropertyArray configRefPropertyNames = null;
-  private ConfigNodePropertyInteger serviceRanking = null;
+  private ConfigNodePropertyBoolean enabled;
+  private ConfigNodePropertyArray configRefResourceNames;
+  private ConfigNodePropertyArray configRefPropertyNames;
+  private ConfigNodePropertyInteger serviceRanking;
 
   /**
-   **/
+   */
   public OrgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyProperties enabled(ConfigNodePropertyBoolean enabled) {
     this.enabled = enabled;
     return this;
@@ -39,7 +49,7 @@ public class OrgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyProp
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyProperties configRefResourceNames(ConfigNodePropertyArray configRefResourceNames) {
     this.configRefResourceNames = configRefResourceNames;
     return this;
@@ -56,7 +66,7 @@ public class OrgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyProp
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyProperties configRefPropertyNames(ConfigNodePropertyArray configRefPropertyNames) {
     this.configRefPropertyNames = configRefPropertyNames;
     return this;
@@ -73,7 +83,7 @@ public class OrgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyProp
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyProperties serviceRanking(ConfigNodePropertyInteger serviceRanking) {
     this.serviceRanking = serviceRanking;
     return this;
@@ -91,7 +101,7 @@ public class OrgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyProp
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -127,11 +137,8 @@ public class OrgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyProp
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

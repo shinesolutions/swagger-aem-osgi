@@ -7,16 +7,16 @@ import org.openapitools.model.OrgApacheJackrabbitOakSecurityUserRandomAuthorizab
 
 @Canonical
 class OrgApacheJackrabbitOakSecurityUserRandomAuthorizableNodeNameInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheJackrabbitOakSecurityUserRandomAuthorizableNodeNameProperties properties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheJackrabbitOakSecurityUserRandomAuthorizableNodeNameProperties properties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

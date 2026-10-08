@@ -72,9 +72,8 @@ private class OASConfigNodePropertyArrayTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASConfigNodePropertyArray configNodePropertyArray = new OASConfigNodePropertyArray();
-        Map<String, String> propertyMappings = configNodePropertyArray.getPropertyMappings();
-        System.assertEquals('isSet', propertyMappings.get('is_set'));
-        System.assertEquals('r_type', propertyMappings.get('type'));
+        Map<String, String> x-property-mappings = configNodePropertyArray.getx-property-mappings();
+        System.assertEquals('isSet', x-property-mappings.get('is_set'));
     }
 
     @isTest
@@ -84,7 +83,7 @@ private class OASConfigNodePropertyArrayTest {
         System.assertEquals(null, configNodePropertyArray.name);
         System.assertEquals(null, configNodePropertyArray.optional);
         System.assertEquals(null, configNodePropertyArray.isSet);
-        System.assertEquals(null, configNodePropertyArray.r_type);
+        System.assertEquals(null, configNodePropertyArray.type);
         System.assertEquals(null, configNodePropertyArray.description);
     }
 }

@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExp
 
 @Canonical
 class ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHaInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHaProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHaProperties properties
 }

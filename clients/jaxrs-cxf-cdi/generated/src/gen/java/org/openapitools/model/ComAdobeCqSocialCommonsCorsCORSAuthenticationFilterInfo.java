@@ -2,27 +2,28 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ComAdobeCqSocialCommonsCorsCORSAuthenticationFilterProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class ComAdobeCqSocialCommonsCorsCORSAuthenticationFilterInfo   {
   
-  private String pid = null;
+  private String pid;
 
-  private String title = null;
+  private String title;
 
-  private String description = null;
+  private String description;
 
-  private ComAdobeCqSocialCommonsCorsCORSAuthenticationFilterProperties properties = null;
-
+  private ComAdobeCqSocialCommonsCorsCORSAuthenticationFilterProperties properties;
 
   /**
    **/
@@ -98,7 +99,7 @@ public class ComAdobeCqSocialCommonsCorsCORSAuthenticationFilterInfo   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -106,10 +107,10 @@ public class ComAdobeCqSocialCommonsCorsCORSAuthenticationFilterInfo   {
       return false;
     }
     ComAdobeCqSocialCommonsCorsCORSAuthenticationFilterInfo comAdobeCqSocialCommonsCorsCORSAuthenticationFilterInfo = (ComAdobeCqSocialCommonsCorsCORSAuthenticationFilterInfo) o;
-    return Objects.equals(pid, comAdobeCqSocialCommonsCorsCORSAuthenticationFilterInfo.pid) &&
-        Objects.equals(title, comAdobeCqSocialCommonsCorsCORSAuthenticationFilterInfo.title) &&
-        Objects.equals(description, comAdobeCqSocialCommonsCorsCORSAuthenticationFilterInfo.description) &&
-        Objects.equals(properties, comAdobeCqSocialCommonsCorsCORSAuthenticationFilterInfo.properties);
+    return Objects.equals(this.pid, comAdobeCqSocialCommonsCorsCORSAuthenticationFilterInfo.pid) &&
+        Objects.equals(this.title, comAdobeCqSocialCommonsCorsCORSAuthenticationFilterInfo.title) &&
+        Objects.equals(this.description, comAdobeCqSocialCommonsCorsCORSAuthenticationFilterInfo.description) &&
+        Objects.equals(this.properties, comAdobeCqSocialCommonsCorsCORSAuthenticationFilterInfo.properties);
   }
 
   @Override
@@ -134,11 +135,8 @@ public class ComAdobeCqSocialCommonsCorsCORSAuthenticationFilterInfo   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

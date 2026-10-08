@@ -7,8 +7,8 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeGraniteTranslationCoreImplTranslationManagerImplProperties {
-    ConfigNodePropertyString defaultConnectorName = null
-
-    ConfigNodePropertyString defaultCategory = null
-
+    
+    ConfigNodePropertyString defaultConnectorName
+    
+    ConfigNodePropertyString defaultCategory
 }

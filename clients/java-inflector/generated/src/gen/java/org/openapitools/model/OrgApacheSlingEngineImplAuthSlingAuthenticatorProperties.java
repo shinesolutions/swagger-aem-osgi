@@ -3,6 +3,7 @@ package org.openapitools.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
@@ -14,40 +15,40 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaInflectorServerCodegen", date = "2019-08-05T00:53:46.291Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaInflectorServerCodegen", date = "2026-10-07T12:53:12.340274163Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties   {
   @JsonProperty("osgi.http.whiteboard.context.select")
-  private ConfigNodePropertyString osgiHttpWhiteboardContextSelect = null;
+  private ConfigNodePropertyString osgiHttpWhiteboardContextSelect;
 
   @JsonProperty("osgi.http.whiteboard.listener")
-  private ConfigNodePropertyString osgiHttpWhiteboardListener = null;
+  private ConfigNodePropertyString osgiHttpWhiteboardListener;
 
   @JsonProperty("auth.sudo.cookie")
-  private ConfigNodePropertyString authSudoCookie = null;
+  private ConfigNodePropertyString authSudoCookie;
 
   @JsonProperty("auth.sudo.parameter")
-  private ConfigNodePropertyString authSudoParameter = null;
+  private ConfigNodePropertyString authSudoParameter;
 
   @JsonProperty("auth.annonymous")
-  private ConfigNodePropertyBoolean authAnnonymous = null;
+  private ConfigNodePropertyBoolean authAnnonymous;
 
   @JsonProperty("sling.auth.requirements")
-  private ConfigNodePropertyArray slingAuthRequirements = null;
+  private ConfigNodePropertyArray slingAuthRequirements;
 
   @JsonProperty("sling.auth.anonymous.user")
-  private ConfigNodePropertyString slingAuthAnonymousUser = null;
+  private ConfigNodePropertyString slingAuthAnonymousUser;
 
   @JsonProperty("sling.auth.anonymous.password")
-  private ConfigNodePropertyString slingAuthAnonymousPassword = null;
+  private ConfigNodePropertyString slingAuthAnonymousPassword;
 
   @JsonProperty("auth.http")
-  private ConfigNodePropertyDropDown authHttp = null;
+  private ConfigNodePropertyDropDown authHttp;
 
   @JsonProperty("auth.http.realm")
-  private ConfigNodePropertyString authHttpRealm = null;
+  private ConfigNodePropertyString authHttpRealm;
 
   @JsonProperty("auth.uri.suffix")
-  private ConfigNodePropertyArray authUriSuffix = null;
+  private ConfigNodePropertyArray authUriSuffix;
 
   /**
    **/
@@ -238,7 +239,7 @@ public class OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -288,11 +289,8 @@ public class OrgApacheSlingEngineImplAuthSlingAuthenticatorProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

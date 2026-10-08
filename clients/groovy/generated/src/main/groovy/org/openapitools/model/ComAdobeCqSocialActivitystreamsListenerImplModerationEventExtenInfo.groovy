@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqSocialActivitystreamsListenerImplModerat
 
 @Canonical
 class ComAdobeCqSocialActivitystreamsListenerImplModerationEventExtenInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqSocialActivitystreamsListenerImplModerationEventExtenProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqSocialActivitystreamsListenerImplModerationEventExtenProperties properties
 }

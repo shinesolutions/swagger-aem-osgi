@@ -9,10 +9,10 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCrxSecurityTokenImplTokenCleanupTaskProperties {
-    ConfigNodePropertyBoolean enableTokenCleanupTask = null
-
-    ConfigNodePropertyString schedulerExpression = null
-
-    ConfigNodePropertyInteger batchSize = null
-
+    
+    ConfigNodePropertyBoolean enableTokenCleanupTask
+    
+    ConfigNodePropertyString schedulerExpression
+    
+    ConfigNodePropertyInteger batchSize
 }

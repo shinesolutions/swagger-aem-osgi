@@ -7,16 +7,16 @@ import org.openapitools.model.ComDayCqReplicationImplReplicationContentFactoryPr
 
 @Canonical
 class ComDayCqReplicationImplReplicationContentFactoryProviderImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqReplicationImplReplicationContentFactoryProviderImplProperties properties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqReplicationImplReplicationContentFactoryProviderImplProperties properties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

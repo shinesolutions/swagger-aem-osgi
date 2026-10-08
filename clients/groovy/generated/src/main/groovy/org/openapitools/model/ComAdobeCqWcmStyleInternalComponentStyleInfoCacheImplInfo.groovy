@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqWcmStyleInternalComponentStyleInfoCacheI
 
 @Canonical
 class ComAdobeCqWcmStyleInternalComponentStyleInfoCacheImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqWcmStyleInternalComponentStyleInfoCacheImplProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqWcmStyleInternalComponentStyleInfoCacheImplProperties properties
 }

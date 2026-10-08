@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqWcmCoreImplServletsReferenceSearchServletP
 
 @Canonical
 class ComDayCqWcmCoreImplServletsReferenceSearchServletInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqWcmCoreImplServletsReferenceSearchServletProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqWcmCoreImplServletsReferenceSearchServletProperties properties
 }

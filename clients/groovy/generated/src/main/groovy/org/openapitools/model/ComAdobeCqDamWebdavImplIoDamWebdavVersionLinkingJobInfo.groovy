@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJo
 
 @Canonical
 class ComAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJobInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJobProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJobProperties properties
 }

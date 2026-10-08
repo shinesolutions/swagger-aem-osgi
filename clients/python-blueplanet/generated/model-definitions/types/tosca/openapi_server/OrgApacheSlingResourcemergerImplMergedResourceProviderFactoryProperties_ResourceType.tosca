@@ -1,0 +1,42 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingResourcemergerImplMergedResourceProviderFactoryProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingResourcemergerImplMergedResourceProviderFactoryProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  OrgApacheSlingResourcemergerImplMergedResourceProviderFactoryProperties {
+    title = OrgApacheSlingResourcemergerImplMergedResourceProviderFactoryProperties
+    description = OrgApacheSlingResourcemergerImplMergedResourceProviderFactoryProperties
+    derivedFrom = Root
+    properties {
+        merge_root {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        merge_read_only {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingResourcemergerImplMergedResourceProviderFactoryProperties {
+    title = OrgApacheSlingResourcemergerImplMergedResourceProviderFactoryProperties
+    description = OrgApacheSlingResourcemergerImplMergedResourceProviderFactoryProperties
+    implements = openapi_server.resourceTypes.OrgApacheSlingResourcemergerImplMergedResourceProviderFactoryProperties
+
+  }
+}

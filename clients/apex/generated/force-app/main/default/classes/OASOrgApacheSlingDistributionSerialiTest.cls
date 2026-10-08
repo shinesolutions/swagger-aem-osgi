@@ -72,10 +72,9 @@ private class OASOrgApacheSlingDistributionSerialiTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASOrgApacheSlingDistributionSeriali orgApacheSlingDistributionSerializationImplVltVaultDistributionProperties = new OASOrgApacheSlingDistributionSeriali();
-        Map<String, String> propertyMappings = orgApacheSlingDistributionSerializationImplVltVaultDistributionProperties.getPropertyMappings();
-        System.assertEquals('r_type', propertyMappings.get('type'));
-        System.assertEquals('packageRoots', propertyMappings.get('package.roots'));
-        System.assertEquals('packageFilters', propertyMappings.get('package.filters'));
-        System.assertEquals('propertyFilters', propertyMappings.get('property.filters'));
+        Map<String, String> x-property-mappings = orgApacheSlingDistributionSerializationImplVltVaultDistributionProperties.getx-property-mappings();
+        System.assertEquals('packageRoots', x-property-mappings.get('package.roots'));
+        System.assertEquals('packageFilters', x-property-mappings.get('package.filters'));
+        System.assertEquals('propertyFilters', x-property-mappings.get('property.filters'));
     }
 }

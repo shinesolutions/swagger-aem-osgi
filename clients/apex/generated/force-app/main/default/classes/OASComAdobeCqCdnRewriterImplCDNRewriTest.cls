@@ -72,9 +72,9 @@ private class OASComAdobeCqCdnRewriterImplCDNRewriTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeCqCdnRewriterImplCDNRewri comAdobeCqCdnRewriterImplCDNRewriterProperties = new OASComAdobeCqCdnRewriterImplCDNRewri();
-        Map<String, String> propertyMappings = comAdobeCqCdnRewriterImplCDNRewriterProperties.getPropertyMappings();
-        System.assertEquals('serviceRanking', propertyMappings.get('service.ranking'));
-        System.assertEquals('cdnrewriterAttributes', propertyMappings.get('cdnrewriter.attributes'));
-        System.assertEquals('cdnRewriterDistributionDomain', propertyMappings.get('cdn.rewriter.distribution.domain'));
+        Map<String, String> x-property-mappings = comAdobeCqCdnRewriterImplCDNRewriterProperties.getx-property-mappings();
+        System.assertEquals('serviceRanking', x-property-mappings.get('service.ranking'));
+        System.assertEquals('cdnrewriterAttributes', x-property-mappings.get('cdnrewriter.attributes'));
+        System.assertEquals('cdnRewriterDistributionDomain', x-property-mappings.get('cdn.rewriter.distribution.domain'));
     }
 }

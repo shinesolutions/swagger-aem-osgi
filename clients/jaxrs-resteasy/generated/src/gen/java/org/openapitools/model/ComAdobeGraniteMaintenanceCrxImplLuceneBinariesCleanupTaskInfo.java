@@ -4,20 +4,23 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ComAdobeGraniteMaintenanceCrxImplLuceneBinariesCleanupTaskProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2019-08-05T00:59:30.156Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2026-10-07T12:54:21.614735164Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteMaintenanceCrxImplLuceneBinariesCleanupTaskInfo   {
   
-  private String pid = null;
-  private String title = null;
-  private String description = null;
-  private ComAdobeGraniteMaintenanceCrxImplLuceneBinariesCleanupTaskProperties properties = null;
-  private String bundleLocation = null;
-  private String serviceLocation = null;
+  private String pid;
+  private String title;
+  private String description;
+  private ComAdobeGraniteMaintenanceCrxImplLuceneBinariesCleanupTaskProperties properties;
+  private String bundleLocation;
+  private String serviceLocation;
 
   /**
    **/
@@ -60,6 +63,7 @@ public class ComAdobeGraniteMaintenanceCrxImplLuceneBinariesCleanupTaskInfo   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("properties")
+  @Valid
   public ComAdobeGraniteMaintenanceCrxImplLuceneBinariesCleanupTaskProperties getProperties() {
     return properties;
   }
@@ -93,7 +97,7 @@ public class ComAdobeGraniteMaintenanceCrxImplLuceneBinariesCleanupTaskInfo   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -101,12 +105,12 @@ public class ComAdobeGraniteMaintenanceCrxImplLuceneBinariesCleanupTaskInfo   {
       return false;
     }
     ComAdobeGraniteMaintenanceCrxImplLuceneBinariesCleanupTaskInfo comAdobeGraniteMaintenanceCrxImplLuceneBinariesCleanupTaskInfo = (ComAdobeGraniteMaintenanceCrxImplLuceneBinariesCleanupTaskInfo) o;
-    return Objects.equals(pid, comAdobeGraniteMaintenanceCrxImplLuceneBinariesCleanupTaskInfo.pid) &&
-        Objects.equals(title, comAdobeGraniteMaintenanceCrxImplLuceneBinariesCleanupTaskInfo.title) &&
-        Objects.equals(description, comAdobeGraniteMaintenanceCrxImplLuceneBinariesCleanupTaskInfo.description) &&
-        Objects.equals(properties, comAdobeGraniteMaintenanceCrxImplLuceneBinariesCleanupTaskInfo.properties) &&
-        Objects.equals(bundleLocation, comAdobeGraniteMaintenanceCrxImplLuceneBinariesCleanupTaskInfo.bundleLocation) &&
-        Objects.equals(serviceLocation, comAdobeGraniteMaintenanceCrxImplLuceneBinariesCleanupTaskInfo.serviceLocation);
+    return Objects.equals(this.pid, comAdobeGraniteMaintenanceCrxImplLuceneBinariesCleanupTaskInfo.pid) &&
+        Objects.equals(this.title, comAdobeGraniteMaintenanceCrxImplLuceneBinariesCleanupTaskInfo.title) &&
+        Objects.equals(this.description, comAdobeGraniteMaintenanceCrxImplLuceneBinariesCleanupTaskInfo.description) &&
+        Objects.equals(this.properties, comAdobeGraniteMaintenanceCrxImplLuceneBinariesCleanupTaskInfo.properties) &&
+        Objects.equals(this.bundleLocation, comAdobeGraniteMaintenanceCrxImplLuceneBinariesCleanupTaskInfo.bundleLocation) &&
+        Objects.equals(this.serviceLocation, comAdobeGraniteMaintenanceCrxImplLuceneBinariesCleanupTaskInfo.serviceLocation);
   }
 
   @Override
@@ -133,11 +137,8 @@ public class ComAdobeGraniteMaintenanceCrxImplLuceneBinariesCleanupTaskInfo   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

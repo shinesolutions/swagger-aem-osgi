@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class ComAdobeCqDamMacSyncHelperImplMACSyncClientImplProperties {
-    ConfigNodePropertyInteger comAdobeDamMacSyncClientSoTimeout = null
-
+    
+    ConfigNodePropertyInteger comAdobeDamMacSyncClientSoTimeout
 }

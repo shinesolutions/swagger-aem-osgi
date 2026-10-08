@@ -2,15 +2,15 @@
 # ComAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactoryProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**solrPeriodzkPeriodtimeout** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**solrPeriodcommit** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**cachePeriodon** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**concurrencyPeriodlevel** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**cachePeriodstartPeriodsize** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**cachePeriodttl** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**cachePeriodsize** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **solrZkTimeout** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **solrCommit** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **cacheOn** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **concurrencyLevel** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **cacheStartSize** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **cacheTtl** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **cacheSize** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
 
 
 

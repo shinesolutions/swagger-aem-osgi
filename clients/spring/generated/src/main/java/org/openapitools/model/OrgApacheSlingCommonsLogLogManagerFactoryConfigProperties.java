@@ -1,39 +1,50 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyDropDown;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * OrgApacheSlingCommonsLogLogManagerFactoryConfigProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class OrgApacheSlingCommonsLogLogManagerFactoryConfigProperties   {
-  @JsonProperty("org.apache.sling.commons.log.level")
-  private ConfigNodePropertyDropDown orgApacheSlingCommonsLogLevel = null;
+@JsonTypeName("orgApacheSlingCommonsLogLogManagerFactoryConfigProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class OrgApacheSlingCommonsLogLogManagerFactoryConfigProperties {
 
-  @JsonProperty("org.apache.sling.commons.log.file")
-  private ConfigNodePropertyString orgApacheSlingCommonsLogFile = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyDropDown orgApacheSlingCommonsLogLevel;
 
-  @JsonProperty("org.apache.sling.commons.log.pattern")
-  private ConfigNodePropertyString orgApacheSlingCommonsLogPattern = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString orgApacheSlingCommonsLogFile;
 
-  @JsonProperty("org.apache.sling.commons.log.names")
-  private ConfigNodePropertyArray orgApacheSlingCommonsLogNames = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString orgApacheSlingCommonsLogPattern;
 
-  @JsonProperty("org.apache.sling.commons.log.additiv")
-  private ConfigNodePropertyBoolean orgApacheSlingCommonsLogAdditiv = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray orgApacheSlingCommonsLogNames;
 
-  public OrgApacheSlingCommonsLogLogManagerFactoryConfigProperties orgApacheSlingCommonsLogLevel(ConfigNodePropertyDropDown orgApacheSlingCommonsLogLevel) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean orgApacheSlingCommonsLogAdditiv;
+
+  public OrgApacheSlingCommonsLogLogManagerFactoryConfigProperties orgApacheSlingCommonsLogLevel(@Nullable ConfigNodePropertyDropDown orgApacheSlingCommonsLogLevel) {
     this.orgApacheSlingCommonsLogLevel = orgApacheSlingCommonsLogLevel;
     return this;
   }
@@ -41,20 +52,20 @@ public class OrgApacheSlingCommonsLogLogManagerFactoryConfigProperties   {
   /**
    * Get orgApacheSlingCommonsLogLevel
    * @return orgApacheSlingCommonsLogLevel
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyDropDown getOrgApacheSlingCommonsLogLevel() {
+   */
+  @Valid 
+  @Schema(name = "org.apache.sling.commons.log.level", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("org.apache.sling.commons.log.level")
+  public @Nullable ConfigNodePropertyDropDown getOrgApacheSlingCommonsLogLevel() {
     return orgApacheSlingCommonsLogLevel;
   }
 
-  public void setOrgApacheSlingCommonsLogLevel(ConfigNodePropertyDropDown orgApacheSlingCommonsLogLevel) {
+  @JsonProperty("org.apache.sling.commons.log.level")
+  public void setOrgApacheSlingCommonsLogLevel(@Nullable ConfigNodePropertyDropDown orgApacheSlingCommonsLogLevel) {
     this.orgApacheSlingCommonsLogLevel = orgApacheSlingCommonsLogLevel;
   }
 
-  public OrgApacheSlingCommonsLogLogManagerFactoryConfigProperties orgApacheSlingCommonsLogFile(ConfigNodePropertyString orgApacheSlingCommonsLogFile) {
+  public OrgApacheSlingCommonsLogLogManagerFactoryConfigProperties orgApacheSlingCommonsLogFile(@Nullable ConfigNodePropertyString orgApacheSlingCommonsLogFile) {
     this.orgApacheSlingCommonsLogFile = orgApacheSlingCommonsLogFile;
     return this;
   }
@@ -62,20 +73,20 @@ public class OrgApacheSlingCommonsLogLogManagerFactoryConfigProperties   {
   /**
    * Get orgApacheSlingCommonsLogFile
    * @return orgApacheSlingCommonsLogFile
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getOrgApacheSlingCommonsLogFile() {
+   */
+  @Valid 
+  @Schema(name = "org.apache.sling.commons.log.file", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("org.apache.sling.commons.log.file")
+  public @Nullable ConfigNodePropertyString getOrgApacheSlingCommonsLogFile() {
     return orgApacheSlingCommonsLogFile;
   }
 
-  public void setOrgApacheSlingCommonsLogFile(ConfigNodePropertyString orgApacheSlingCommonsLogFile) {
+  @JsonProperty("org.apache.sling.commons.log.file")
+  public void setOrgApacheSlingCommonsLogFile(@Nullable ConfigNodePropertyString orgApacheSlingCommonsLogFile) {
     this.orgApacheSlingCommonsLogFile = orgApacheSlingCommonsLogFile;
   }
 
-  public OrgApacheSlingCommonsLogLogManagerFactoryConfigProperties orgApacheSlingCommonsLogPattern(ConfigNodePropertyString orgApacheSlingCommonsLogPattern) {
+  public OrgApacheSlingCommonsLogLogManagerFactoryConfigProperties orgApacheSlingCommonsLogPattern(@Nullable ConfigNodePropertyString orgApacheSlingCommonsLogPattern) {
     this.orgApacheSlingCommonsLogPattern = orgApacheSlingCommonsLogPattern;
     return this;
   }
@@ -83,20 +94,20 @@ public class OrgApacheSlingCommonsLogLogManagerFactoryConfigProperties   {
   /**
    * Get orgApacheSlingCommonsLogPattern
    * @return orgApacheSlingCommonsLogPattern
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getOrgApacheSlingCommonsLogPattern() {
+   */
+  @Valid 
+  @Schema(name = "org.apache.sling.commons.log.pattern", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("org.apache.sling.commons.log.pattern")
+  public @Nullable ConfigNodePropertyString getOrgApacheSlingCommonsLogPattern() {
     return orgApacheSlingCommonsLogPattern;
   }
 
-  public void setOrgApacheSlingCommonsLogPattern(ConfigNodePropertyString orgApacheSlingCommonsLogPattern) {
+  @JsonProperty("org.apache.sling.commons.log.pattern")
+  public void setOrgApacheSlingCommonsLogPattern(@Nullable ConfigNodePropertyString orgApacheSlingCommonsLogPattern) {
     this.orgApacheSlingCommonsLogPattern = orgApacheSlingCommonsLogPattern;
   }
 
-  public OrgApacheSlingCommonsLogLogManagerFactoryConfigProperties orgApacheSlingCommonsLogNames(ConfigNodePropertyArray orgApacheSlingCommonsLogNames) {
+  public OrgApacheSlingCommonsLogLogManagerFactoryConfigProperties orgApacheSlingCommonsLogNames(@Nullable ConfigNodePropertyArray orgApacheSlingCommonsLogNames) {
     this.orgApacheSlingCommonsLogNames = orgApacheSlingCommonsLogNames;
     return this;
   }
@@ -104,20 +115,20 @@ public class OrgApacheSlingCommonsLogLogManagerFactoryConfigProperties   {
   /**
    * Get orgApacheSlingCommonsLogNames
    * @return orgApacheSlingCommonsLogNames
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getOrgApacheSlingCommonsLogNames() {
+   */
+  @Valid 
+  @Schema(name = "org.apache.sling.commons.log.names", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("org.apache.sling.commons.log.names")
+  public @Nullable ConfigNodePropertyArray getOrgApacheSlingCommonsLogNames() {
     return orgApacheSlingCommonsLogNames;
   }
 
-  public void setOrgApacheSlingCommonsLogNames(ConfigNodePropertyArray orgApacheSlingCommonsLogNames) {
+  @JsonProperty("org.apache.sling.commons.log.names")
+  public void setOrgApacheSlingCommonsLogNames(@Nullable ConfigNodePropertyArray orgApacheSlingCommonsLogNames) {
     this.orgApacheSlingCommonsLogNames = orgApacheSlingCommonsLogNames;
   }
 
-  public OrgApacheSlingCommonsLogLogManagerFactoryConfigProperties orgApacheSlingCommonsLogAdditiv(ConfigNodePropertyBoolean orgApacheSlingCommonsLogAdditiv) {
+  public OrgApacheSlingCommonsLogLogManagerFactoryConfigProperties orgApacheSlingCommonsLogAdditiv(@Nullable ConfigNodePropertyBoolean orgApacheSlingCommonsLogAdditiv) {
     this.orgApacheSlingCommonsLogAdditiv = orgApacheSlingCommonsLogAdditiv;
     return this;
   }
@@ -125,22 +136,21 @@ public class OrgApacheSlingCommonsLogLogManagerFactoryConfigProperties   {
   /**
    * Get orgApacheSlingCommonsLogAdditiv
    * @return orgApacheSlingCommonsLogAdditiv
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getOrgApacheSlingCommonsLogAdditiv() {
+   */
+  @Valid 
+  @Schema(name = "org.apache.sling.commons.log.additiv", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("org.apache.sling.commons.log.additiv")
+  public @Nullable ConfigNodePropertyBoolean getOrgApacheSlingCommonsLogAdditiv() {
     return orgApacheSlingCommonsLogAdditiv;
   }
 
-  public void setOrgApacheSlingCommonsLogAdditiv(ConfigNodePropertyBoolean orgApacheSlingCommonsLogAdditiv) {
+  @JsonProperty("org.apache.sling.commons.log.additiv")
+  public void setOrgApacheSlingCommonsLogAdditiv(@Nullable ConfigNodePropertyBoolean orgApacheSlingCommonsLogAdditiv) {
     this.orgApacheSlingCommonsLogAdditiv = orgApacheSlingCommonsLogAdditiv;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -164,7 +174,6 @@ public class OrgApacheSlingCommonsLogLogManagerFactoryConfigProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class OrgApacheSlingCommonsLogLogManagerFactoryConfigProperties {\n");
-    
     sb.append("    orgApacheSlingCommonsLogLevel: ").append(toIndentedString(orgApacheSlingCommonsLogLevel)).append("\n");
     sb.append("    orgApacheSlingCommonsLogFile: ").append(toIndentedString(orgApacheSlingCommonsLogFile)).append("\n");
     sb.append("    orgApacheSlingCommonsLogPattern: ").append(toIndentedString(orgApacheSlingCommonsLogPattern)).append("\n");
@@ -178,11 +187,8 @@ public class OrgApacheSlingCommonsLogLogManagerFactoryConfigProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

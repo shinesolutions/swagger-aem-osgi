@@ -3,6 +3,7 @@ package org.openapitools.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyBoolean;
@@ -11,19 +12,19 @@ import org.openapitools.model.ConfigNodePropertyString;
 /**
  * ComAdobeCqSocialSyncImplDiffChangesObserverProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaMSF4JServerCodegen", date = "2019-08-05T00:54:29.762Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaMSF4JServerCodegen", date = "2026-10-07T12:53:29.980508721Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeCqSocialSyncImplDiffChangesObserverProperties   {
   @JsonProperty("enabled")
-  private ConfigNodePropertyBoolean enabled = null;
+  private ConfigNodePropertyBoolean enabled;
 
   @JsonProperty("agentName")
-  private ConfigNodePropertyString agentName = null;
+  private ConfigNodePropertyString agentName;
 
   @JsonProperty("diffPath")
-  private ConfigNodePropertyString diffPath = null;
+  private ConfigNodePropertyString diffPath;
 
   @JsonProperty("propertyNames")
-  private ConfigNodePropertyString propertyNames = null;
+  private ConfigNodePropertyString propertyNames;
 
   public ComAdobeCqSocialSyncImplDiffChangesObserverProperties enabled(ConfigNodePropertyBoolean enabled) {
     this.enabled = enabled;
@@ -99,7 +100,7 @@ public class ComAdobeCqSocialSyncImplDiffChangesObserverProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -135,11 +136,8 @@ public class ComAdobeCqSocialSyncImplDiffChangesObserverProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

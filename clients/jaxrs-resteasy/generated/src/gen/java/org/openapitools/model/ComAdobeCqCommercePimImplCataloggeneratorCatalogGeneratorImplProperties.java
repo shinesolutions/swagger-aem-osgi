@@ -4,25 +4,29 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2019-08-05T00:59:30.156Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2026-10-07T12:54:21.614735164Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeCqCommercePimImplCataloggeneratorCatalogGeneratorImplProperties   {
   
-  private ConfigNodePropertyInteger cqCommerceCataloggeneratorBucketsize = null;
-  private ConfigNodePropertyString cqCommerceCataloggeneratorBucketname = null;
-  private ConfigNodePropertyArray cqCommerceCataloggeneratorExcludedtemplateproperties = null;
+  private ConfigNodePropertyInteger cqCommerceCataloggeneratorBucketsize;
+  private ConfigNodePropertyString cqCommerceCataloggeneratorBucketname;
+  private ConfigNodePropertyArray cqCommerceCataloggeneratorExcludedtemplateproperties;
 
   /**
    **/
   
   @ApiModelProperty(value = "")
   @JsonProperty("cq.commerce.cataloggenerator.bucketsize")
+  @Valid
   public ConfigNodePropertyInteger getCqCommerceCataloggeneratorBucketsize() {
     return cqCommerceCataloggeneratorBucketsize;
   }
@@ -35,6 +39,7 @@ public class ComAdobeCqCommercePimImplCataloggeneratorCatalogGeneratorImplProper
   
   @ApiModelProperty(value = "")
   @JsonProperty("cq.commerce.cataloggenerator.bucketname")
+  @Valid
   public ConfigNodePropertyString getCqCommerceCataloggeneratorBucketname() {
     return cqCommerceCataloggeneratorBucketname;
   }
@@ -47,6 +52,7 @@ public class ComAdobeCqCommercePimImplCataloggeneratorCatalogGeneratorImplProper
   
   @ApiModelProperty(value = "")
   @JsonProperty("cq.commerce.cataloggenerator.excludedtemplateproperties")
+  @Valid
   public ConfigNodePropertyArray getCqCommerceCataloggeneratorExcludedtemplateproperties() {
     return cqCommerceCataloggeneratorExcludedtemplateproperties;
   }
@@ -56,7 +62,7 @@ public class ComAdobeCqCommercePimImplCataloggeneratorCatalogGeneratorImplProper
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -64,9 +70,9 @@ public class ComAdobeCqCommercePimImplCataloggeneratorCatalogGeneratorImplProper
       return false;
     }
     ComAdobeCqCommercePimImplCataloggeneratorCatalogGeneratorImplProperties comAdobeCqCommercePimImplCataloggeneratorCatalogGeneratorImplProperties = (ComAdobeCqCommercePimImplCataloggeneratorCatalogGeneratorImplProperties) o;
-    return Objects.equals(cqCommerceCataloggeneratorBucketsize, comAdobeCqCommercePimImplCataloggeneratorCatalogGeneratorImplProperties.cqCommerceCataloggeneratorBucketsize) &&
-        Objects.equals(cqCommerceCataloggeneratorBucketname, comAdobeCqCommercePimImplCataloggeneratorCatalogGeneratorImplProperties.cqCommerceCataloggeneratorBucketname) &&
-        Objects.equals(cqCommerceCataloggeneratorExcludedtemplateproperties, comAdobeCqCommercePimImplCataloggeneratorCatalogGeneratorImplProperties.cqCommerceCataloggeneratorExcludedtemplateproperties);
+    return Objects.equals(this.cqCommerceCataloggeneratorBucketsize, comAdobeCqCommercePimImplCataloggeneratorCatalogGeneratorImplProperties.cqCommerceCataloggeneratorBucketsize) &&
+        Objects.equals(this.cqCommerceCataloggeneratorBucketname, comAdobeCqCommercePimImplCataloggeneratorCatalogGeneratorImplProperties.cqCommerceCataloggeneratorBucketname) &&
+        Objects.equals(this.cqCommerceCataloggeneratorExcludedtemplateproperties, comAdobeCqCommercePimImplCataloggeneratorCatalogGeneratorImplProperties.cqCommerceCataloggeneratorExcludedtemplateproperties);
   }
 
   @Override
@@ -90,11 +96,8 @@ public class ComAdobeCqCommercePimImplCataloggeneratorCatalogGeneratorImplProper
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -72,10 +72,10 @@ private class OASComAdobeGraniteAuthImsImplImsConfTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeGraniteAuthImsImplImsConf comAdobeGraniteAuthImsImplImsConfigProviderImplProperties = new OASComAdobeGraniteAuthImsImplImsConf();
-        Map<String, String> propertyMappings = comAdobeGraniteAuthImsImplImsConfigProviderImplProperties.getPropertyMappings();
-        System.assertEquals('oauthConfigmanagerImsConfigid', propertyMappings.get('oauth.configmanager.ims.configid'));
-        System.assertEquals('imsOwningEntity', propertyMappings.get('ims.owningEntity'));
-        System.assertEquals('aemInstanceId', propertyMappings.get('aem.instanceId'));
-        System.assertEquals('imsServiceCode', propertyMappings.get('ims.serviceCode'));
+        Map<String, String> x-property-mappings = comAdobeGraniteAuthImsImplImsConfigProviderImplProperties.getx-property-mappings();
+        System.assertEquals('oauthConfigmanagerImsConfigid', x-property-mappings.get('oauth.configmanager.ims.configid'));
+        System.assertEquals('imsOwningEntity', x-property-mappings.get('ims.owningEntity'));
+        System.assertEquals('aemInstanceId', x-property-mappings.get('aem.instanceId'));
+        System.assertEquals('imsServiceCode', x-property-mappings.get('ims.serviceCode'));
     }
 }

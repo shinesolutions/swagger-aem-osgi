@@ -1,6 +1,7 @@
 # NodeSwaggerAemOsgi.OrgApacheSlingDiscoveryOakConfigProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **connectorPingTimeout** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  | [optional] 

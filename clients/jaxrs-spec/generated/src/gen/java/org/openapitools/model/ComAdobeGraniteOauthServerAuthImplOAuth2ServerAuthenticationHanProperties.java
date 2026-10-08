@@ -1,24 +1,35 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanProperties   {
-  
-  private @Valid ConfigNodePropertyString path = null;
-  private @Valid ConfigNodePropertyString jaasControlFlag = null;
-  private @Valid ConfigNodePropertyString jaasRealmName = null;
-  private @Valid ConfigNodePropertyInteger jaasRanking = null;
-  private @Valid ConfigNodePropertyBoolean oauthOfflineValidation = null;
+  private ConfigNodePropertyString path;
+  private ConfigNodePropertyString jaasControlFlag;
+  private ConfigNodePropertyString jaasRealmName;
+  private ConfigNodePropertyInteger jaasRanking;
+  private ConfigNodePropertyBoolean oauthOfflineValidation;
+
+  public ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanProperties() {
+  }
 
   /**
    **/
@@ -30,9 +41,11 @@ public class ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("path")
-  public ConfigNodePropertyString getPath() {
+  @Valid public ConfigNodePropertyString getPath() {
     return path;
   }
+
+  @JsonProperty("path")
   public void setPath(ConfigNodePropertyString path) {
     this.path = path;
   }
@@ -47,9 +60,11 @@ public class ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("jaas.controlFlag")
-  public ConfigNodePropertyString getJaasControlFlag() {
+  @Valid public ConfigNodePropertyString getJaasControlFlag() {
     return jaasControlFlag;
   }
+
+  @JsonProperty("jaas.controlFlag")
   public void setJaasControlFlag(ConfigNodePropertyString jaasControlFlag) {
     this.jaasControlFlag = jaasControlFlag;
   }
@@ -64,9 +79,11 @@ public class ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("jaas.realmName")
-  public ConfigNodePropertyString getJaasRealmName() {
+  @Valid public ConfigNodePropertyString getJaasRealmName() {
     return jaasRealmName;
   }
+
+  @JsonProperty("jaas.realmName")
   public void setJaasRealmName(ConfigNodePropertyString jaasRealmName) {
     this.jaasRealmName = jaasRealmName;
   }
@@ -81,9 +98,11 @@ public class ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("jaas.ranking")
-  public ConfigNodePropertyInteger getJaasRanking() {
+  @Valid public ConfigNodePropertyInteger getJaasRanking() {
     return jaasRanking;
   }
+
+  @JsonProperty("jaas.ranking")
   public void setJaasRanking(ConfigNodePropertyInteger jaasRanking) {
     this.jaasRanking = jaasRanking;
   }
@@ -98,16 +117,18 @@ public class ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("oauth.offline.validation")
-  public ConfigNodePropertyBoolean getOauthOfflineValidation() {
+  @Valid public ConfigNodePropertyBoolean getOauthOfflineValidation() {
     return oauthOfflineValidation;
   }
+
+  @JsonProperty("oauth.offline.validation")
   public void setOauthOfflineValidation(ConfigNodePropertyBoolean oauthOfflineValidation) {
     this.oauthOfflineValidation = oauthOfflineValidation;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -115,11 +136,11 @@ public class ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanProp
       return false;
     }
     ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanProperties comAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanProperties = (ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanProperties) o;
-    return Objects.equals(path, comAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanProperties.path) &&
-        Objects.equals(jaasControlFlag, comAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanProperties.jaasControlFlag) &&
-        Objects.equals(jaasRealmName, comAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanProperties.jaasRealmName) &&
-        Objects.equals(jaasRanking, comAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanProperties.jaasRanking) &&
-        Objects.equals(oauthOfflineValidation, comAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanProperties.oauthOfflineValidation);
+    return Objects.equals(this.path, comAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanProperties.path) &&
+        Objects.equals(this.jaasControlFlag, comAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanProperties.jaasControlFlag) &&
+        Objects.equals(this.jaasRealmName, comAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanProperties.jaasRealmName) &&
+        Objects.equals(this.jaasRanking, comAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanProperties.jaasRanking) &&
+        Objects.equals(this.oauthOfflineValidation, comAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanProperties.oauthOfflineValidation);
   }
 
   @Override
@@ -145,11 +166,9 @@ public class ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanProp
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

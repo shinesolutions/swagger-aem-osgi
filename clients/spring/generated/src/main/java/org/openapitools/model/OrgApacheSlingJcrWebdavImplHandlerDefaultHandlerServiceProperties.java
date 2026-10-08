@@ -1,34 +1,45 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * OrgApacheSlingJcrWebdavImplHandlerDefaultHandlerServiceProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class OrgApacheSlingJcrWebdavImplHandlerDefaultHandlerServiceProperties   {
-  @JsonProperty("service.ranking")
-  private ConfigNodePropertyInteger serviceRanking = null;
+@JsonTypeName("orgApacheSlingJcrWebdavImplHandlerDefaultHandlerServiceProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class OrgApacheSlingJcrWebdavImplHandlerDefaultHandlerServiceProperties {
 
-  @JsonProperty("type.collections")
-  private ConfigNodePropertyString typeCollections = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger serviceRanking;
 
-  @JsonProperty("type.noncollections")
-  private ConfigNodePropertyString typeNoncollections = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString typeCollections;
 
-  @JsonProperty("type.content")
-  private ConfigNodePropertyString typeContent = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString typeNoncollections;
 
-  public OrgApacheSlingJcrWebdavImplHandlerDefaultHandlerServiceProperties serviceRanking(ConfigNodePropertyInteger serviceRanking) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString typeContent;
+
+  public OrgApacheSlingJcrWebdavImplHandlerDefaultHandlerServiceProperties serviceRanking(@Nullable ConfigNodePropertyInteger serviceRanking) {
     this.serviceRanking = serviceRanking;
     return this;
   }
@@ -36,20 +47,20 @@ public class OrgApacheSlingJcrWebdavImplHandlerDefaultHandlerServiceProperties  
   /**
    * Get serviceRanking
    * @return serviceRanking
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getServiceRanking() {
+   */
+  @Valid 
+  @Schema(name = "service.ranking", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("service.ranking")
+  public @Nullable ConfigNodePropertyInteger getServiceRanking() {
     return serviceRanking;
   }
 
-  public void setServiceRanking(ConfigNodePropertyInteger serviceRanking) {
+  @JsonProperty("service.ranking")
+  public void setServiceRanking(@Nullable ConfigNodePropertyInteger serviceRanking) {
     this.serviceRanking = serviceRanking;
   }
 
-  public OrgApacheSlingJcrWebdavImplHandlerDefaultHandlerServiceProperties typeCollections(ConfigNodePropertyString typeCollections) {
+  public OrgApacheSlingJcrWebdavImplHandlerDefaultHandlerServiceProperties typeCollections(@Nullable ConfigNodePropertyString typeCollections) {
     this.typeCollections = typeCollections;
     return this;
   }
@@ -57,20 +68,20 @@ public class OrgApacheSlingJcrWebdavImplHandlerDefaultHandlerServiceProperties  
   /**
    * Get typeCollections
    * @return typeCollections
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getTypeCollections() {
+   */
+  @Valid 
+  @Schema(name = "type.collections", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("type.collections")
+  public @Nullable ConfigNodePropertyString getTypeCollections() {
     return typeCollections;
   }
 
-  public void setTypeCollections(ConfigNodePropertyString typeCollections) {
+  @JsonProperty("type.collections")
+  public void setTypeCollections(@Nullable ConfigNodePropertyString typeCollections) {
     this.typeCollections = typeCollections;
   }
 
-  public OrgApacheSlingJcrWebdavImplHandlerDefaultHandlerServiceProperties typeNoncollections(ConfigNodePropertyString typeNoncollections) {
+  public OrgApacheSlingJcrWebdavImplHandlerDefaultHandlerServiceProperties typeNoncollections(@Nullable ConfigNodePropertyString typeNoncollections) {
     this.typeNoncollections = typeNoncollections;
     return this;
   }
@@ -78,20 +89,20 @@ public class OrgApacheSlingJcrWebdavImplHandlerDefaultHandlerServiceProperties  
   /**
    * Get typeNoncollections
    * @return typeNoncollections
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getTypeNoncollections() {
+   */
+  @Valid 
+  @Schema(name = "type.noncollections", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("type.noncollections")
+  public @Nullable ConfigNodePropertyString getTypeNoncollections() {
     return typeNoncollections;
   }
 
-  public void setTypeNoncollections(ConfigNodePropertyString typeNoncollections) {
+  @JsonProperty("type.noncollections")
+  public void setTypeNoncollections(@Nullable ConfigNodePropertyString typeNoncollections) {
     this.typeNoncollections = typeNoncollections;
   }
 
-  public OrgApacheSlingJcrWebdavImplHandlerDefaultHandlerServiceProperties typeContent(ConfigNodePropertyString typeContent) {
+  public OrgApacheSlingJcrWebdavImplHandlerDefaultHandlerServiceProperties typeContent(@Nullable ConfigNodePropertyString typeContent) {
     this.typeContent = typeContent;
     return this;
   }
@@ -99,22 +110,21 @@ public class OrgApacheSlingJcrWebdavImplHandlerDefaultHandlerServiceProperties  
   /**
    * Get typeContent
    * @return typeContent
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getTypeContent() {
+   */
+  @Valid 
+  @Schema(name = "type.content", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("type.content")
+  public @Nullable ConfigNodePropertyString getTypeContent() {
     return typeContent;
   }
 
-  public void setTypeContent(ConfigNodePropertyString typeContent) {
+  @JsonProperty("type.content")
+  public void setTypeContent(@Nullable ConfigNodePropertyString typeContent) {
     this.typeContent = typeContent;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -137,7 +147,6 @@ public class OrgApacheSlingJcrWebdavImplHandlerDefaultHandlerServiceProperties  
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class OrgApacheSlingJcrWebdavImplHandlerDefaultHandlerServiceProperties {\n");
-    
     sb.append("    serviceRanking: ").append(toIndentedString(serviceRanking)).append("\n");
     sb.append("    typeCollections: ").append(toIndentedString(typeCollections)).append("\n");
     sb.append("    typeNoncollections: ").append(toIndentedString(typeNoncollections)).append("\n");
@@ -150,11 +159,8 @@ public class OrgApacheSlingJcrWebdavImplHandlerDefaultHandlerServiceProperties  
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

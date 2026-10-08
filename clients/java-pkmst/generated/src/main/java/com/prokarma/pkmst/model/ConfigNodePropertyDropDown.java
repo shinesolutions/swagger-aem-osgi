@@ -3,9 +3,11 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyDropDownType;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
+import org.openapitools.jackson.nullable.JsonNullable;
 /**
  * Response class to be returned by Api
  * @author pkmst
@@ -15,36 +17,35 @@ import io.swagger.annotations.ApiModelProperty;
  * ConfigNodePropertyDropDown
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ConfigNodePropertyDropDown   {
   @JsonProperty("name")
-  private String name = null;
+  private String name;
 
   @JsonProperty("optional")
-  private Boolean optional = null;
+  private Boolean optional;
 
   @JsonProperty("is_set")
-  private Boolean isSet = null;
+  private Boolean isSet;
 
   @JsonProperty("type")
-  private ConfigNodePropertyDropDownType type = null;
+  private ConfigNodePropertyDropDownType type;
 
   @JsonProperty("value")
   private Object value = null;
 
   @JsonProperty("description")
-  private String description = null;
+  private String description;
 
   public ConfigNodePropertyDropDown name(String name) {
     this.name = name;
     return this;
   }
 
-   /**
+  /**
    * property name
    * @return name
-  **/
+   */
   @ApiModelProperty(value = "property name")
   public String getName() {
     return name;
@@ -59,10 +60,10 @@ public class ConfigNodePropertyDropDown   {
     return this;
   }
 
-   /**
+  /**
    * True if optional
    * @return optional
-  **/
+   */
   @ApiModelProperty(value = "True if optional")
   public Boolean getOptional() {
     return optional;
@@ -77,10 +78,10 @@ public class ConfigNodePropertyDropDown   {
     return this;
   }
 
-   /**
+  /**
    * True if property is set
    * @return isSet
-  **/
+   */
   @ApiModelProperty(value = "True if property is set")
   public Boolean getIsSet() {
     return isSet;
@@ -95,10 +96,10 @@ public class ConfigNodePropertyDropDown   {
     return this;
   }
 
-   /**
+  /**
    * Get type
    * @return type
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyDropDownType getType() {
     return type;
@@ -113,10 +114,10 @@ public class ConfigNodePropertyDropDown   {
     return this;
   }
 
-   /**
+  /**
    * Property value
    * @return value
-  **/
+   */
   @ApiModelProperty(value = "Property value")
   public Object getValue() {
     return value;
@@ -131,10 +132,10 @@ public class ConfigNodePropertyDropDown   {
     return this;
   }
 
-   /**
+  /**
    * Property description
    * @return description
-  **/
+   */
   @ApiModelProperty(value = "Property description")
   public String getDescription() {
     return description;
@@ -146,7 +147,7 @@ public class ConfigNodePropertyDropDown   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -186,11 +187,8 @@ public class ConfigNodePropertyDropDown   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

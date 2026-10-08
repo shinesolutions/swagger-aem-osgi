@@ -7,16 +7,16 @@ import org.openapitools.model.ComDayCrxSecurityTokenImplImplTokenAuthenticationH
 
 @Canonical
 class ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerProperties properties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerProperties properties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

@@ -1,36 +1,47 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyDropDown;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComAdobeCqWcmLaunchesImplLaunchesEventHandlerProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComAdobeCqWcmLaunchesImplLaunchesEventHandlerProperties   {
-  @JsonProperty("event.filter")
-  private ConfigNodePropertyString eventFilter = null;
+@JsonTypeName("comAdobeCqWcmLaunchesImplLaunchesEventHandlerProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComAdobeCqWcmLaunchesImplLaunchesEventHandlerProperties {
 
-  @JsonProperty("launches.eventhandler.threadpool.maxsize")
-  private ConfigNodePropertyInteger launchesEventhandlerThreadpoolMaxsize = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString eventFilter;
 
-  @JsonProperty("launches.eventhandler.threadpool.priority")
-  private ConfigNodePropertyDropDown launchesEventhandlerThreadpoolPriority = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger launchesEventhandlerThreadpoolMaxsize;
 
-  @JsonProperty("launches.eventhandler.updatelastmodification")
-  private ConfigNodePropertyBoolean launchesEventhandlerUpdatelastmodification = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyDropDown launchesEventhandlerThreadpoolPriority;
 
-  public ComAdobeCqWcmLaunchesImplLaunchesEventHandlerProperties eventFilter(ConfigNodePropertyString eventFilter) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean launchesEventhandlerUpdatelastmodification;
+
+  public ComAdobeCqWcmLaunchesImplLaunchesEventHandlerProperties eventFilter(@Nullable ConfigNodePropertyString eventFilter) {
     this.eventFilter = eventFilter;
     return this;
   }
@@ -38,20 +49,20 @@ public class ComAdobeCqWcmLaunchesImplLaunchesEventHandlerProperties   {
   /**
    * Get eventFilter
    * @return eventFilter
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getEventFilter() {
+   */
+  @Valid 
+  @Schema(name = "event.filter", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("event.filter")
+  public @Nullable ConfigNodePropertyString getEventFilter() {
     return eventFilter;
   }
 
-  public void setEventFilter(ConfigNodePropertyString eventFilter) {
+  @JsonProperty("event.filter")
+  public void setEventFilter(@Nullable ConfigNodePropertyString eventFilter) {
     this.eventFilter = eventFilter;
   }
 
-  public ComAdobeCqWcmLaunchesImplLaunchesEventHandlerProperties launchesEventhandlerThreadpoolMaxsize(ConfigNodePropertyInteger launchesEventhandlerThreadpoolMaxsize) {
+  public ComAdobeCqWcmLaunchesImplLaunchesEventHandlerProperties launchesEventhandlerThreadpoolMaxsize(@Nullable ConfigNodePropertyInteger launchesEventhandlerThreadpoolMaxsize) {
     this.launchesEventhandlerThreadpoolMaxsize = launchesEventhandlerThreadpoolMaxsize;
     return this;
   }
@@ -59,20 +70,20 @@ public class ComAdobeCqWcmLaunchesImplLaunchesEventHandlerProperties   {
   /**
    * Get launchesEventhandlerThreadpoolMaxsize
    * @return launchesEventhandlerThreadpoolMaxsize
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getLaunchesEventhandlerThreadpoolMaxsize() {
+   */
+  @Valid 
+  @Schema(name = "launches.eventhandler.threadpool.maxsize", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("launches.eventhandler.threadpool.maxsize")
+  public @Nullable ConfigNodePropertyInteger getLaunchesEventhandlerThreadpoolMaxsize() {
     return launchesEventhandlerThreadpoolMaxsize;
   }
 
-  public void setLaunchesEventhandlerThreadpoolMaxsize(ConfigNodePropertyInteger launchesEventhandlerThreadpoolMaxsize) {
+  @JsonProperty("launches.eventhandler.threadpool.maxsize")
+  public void setLaunchesEventhandlerThreadpoolMaxsize(@Nullable ConfigNodePropertyInteger launchesEventhandlerThreadpoolMaxsize) {
     this.launchesEventhandlerThreadpoolMaxsize = launchesEventhandlerThreadpoolMaxsize;
   }
 
-  public ComAdobeCqWcmLaunchesImplLaunchesEventHandlerProperties launchesEventhandlerThreadpoolPriority(ConfigNodePropertyDropDown launchesEventhandlerThreadpoolPriority) {
+  public ComAdobeCqWcmLaunchesImplLaunchesEventHandlerProperties launchesEventhandlerThreadpoolPriority(@Nullable ConfigNodePropertyDropDown launchesEventhandlerThreadpoolPriority) {
     this.launchesEventhandlerThreadpoolPriority = launchesEventhandlerThreadpoolPriority;
     return this;
   }
@@ -80,20 +91,20 @@ public class ComAdobeCqWcmLaunchesImplLaunchesEventHandlerProperties   {
   /**
    * Get launchesEventhandlerThreadpoolPriority
    * @return launchesEventhandlerThreadpoolPriority
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyDropDown getLaunchesEventhandlerThreadpoolPriority() {
+   */
+  @Valid 
+  @Schema(name = "launches.eventhandler.threadpool.priority", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("launches.eventhandler.threadpool.priority")
+  public @Nullable ConfigNodePropertyDropDown getLaunchesEventhandlerThreadpoolPriority() {
     return launchesEventhandlerThreadpoolPriority;
   }
 
-  public void setLaunchesEventhandlerThreadpoolPriority(ConfigNodePropertyDropDown launchesEventhandlerThreadpoolPriority) {
+  @JsonProperty("launches.eventhandler.threadpool.priority")
+  public void setLaunchesEventhandlerThreadpoolPriority(@Nullable ConfigNodePropertyDropDown launchesEventhandlerThreadpoolPriority) {
     this.launchesEventhandlerThreadpoolPriority = launchesEventhandlerThreadpoolPriority;
   }
 
-  public ComAdobeCqWcmLaunchesImplLaunchesEventHandlerProperties launchesEventhandlerUpdatelastmodification(ConfigNodePropertyBoolean launchesEventhandlerUpdatelastmodification) {
+  public ComAdobeCqWcmLaunchesImplLaunchesEventHandlerProperties launchesEventhandlerUpdatelastmodification(@Nullable ConfigNodePropertyBoolean launchesEventhandlerUpdatelastmodification) {
     this.launchesEventhandlerUpdatelastmodification = launchesEventhandlerUpdatelastmodification;
     return this;
   }
@@ -101,22 +112,21 @@ public class ComAdobeCqWcmLaunchesImplLaunchesEventHandlerProperties   {
   /**
    * Get launchesEventhandlerUpdatelastmodification
    * @return launchesEventhandlerUpdatelastmodification
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getLaunchesEventhandlerUpdatelastmodification() {
+   */
+  @Valid 
+  @Schema(name = "launches.eventhandler.updatelastmodification", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("launches.eventhandler.updatelastmodification")
+  public @Nullable ConfigNodePropertyBoolean getLaunchesEventhandlerUpdatelastmodification() {
     return launchesEventhandlerUpdatelastmodification;
   }
 
-  public void setLaunchesEventhandlerUpdatelastmodification(ConfigNodePropertyBoolean launchesEventhandlerUpdatelastmodification) {
+  @JsonProperty("launches.eventhandler.updatelastmodification")
+  public void setLaunchesEventhandlerUpdatelastmodification(@Nullable ConfigNodePropertyBoolean launchesEventhandlerUpdatelastmodification) {
     this.launchesEventhandlerUpdatelastmodification = launchesEventhandlerUpdatelastmodification;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -139,7 +149,6 @@ public class ComAdobeCqWcmLaunchesImplLaunchesEventHandlerProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComAdobeCqWcmLaunchesImplLaunchesEventHandlerProperties {\n");
-    
     sb.append("    eventFilter: ").append(toIndentedString(eventFilter)).append("\n");
     sb.append("    launchesEventhandlerThreadpoolMaxsize: ").append(toIndentedString(launchesEventhandlerThreadpoolMaxsize)).append("\n");
     sb.append("    launchesEventhandlerThreadpoolPriority: ").append(toIndentedString(launchesEventhandlerThreadpoolPriority)).append("\n");
@@ -152,11 +161,8 @@ public class ComAdobeCqWcmLaunchesImplLaunchesEventHandlerProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

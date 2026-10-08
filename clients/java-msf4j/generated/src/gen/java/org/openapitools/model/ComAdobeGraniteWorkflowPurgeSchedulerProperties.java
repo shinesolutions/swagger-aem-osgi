@@ -3,6 +3,7 @@ package org.openapitools.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
@@ -13,19 +14,19 @@ import org.openapitools.model.ConfigNodePropertyString;
 /**
  * ComAdobeGraniteWorkflowPurgeSchedulerProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaMSF4JServerCodegen", date = "2019-08-05T00:54:29.762Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaMSF4JServerCodegen", date = "2026-10-07T12:53:29.980508721Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteWorkflowPurgeSchedulerProperties   {
   @JsonProperty("scheduledpurge.name")
-  private ConfigNodePropertyString scheduledpurgeName = null;
+  private ConfigNodePropertyString scheduledpurgeName;
 
   @JsonProperty("scheduledpurge.workflowStatus")
-  private ConfigNodePropertyDropDown scheduledpurgeWorkflowStatus = null;
+  private ConfigNodePropertyDropDown scheduledpurgeWorkflowStatus;
 
   @JsonProperty("scheduledpurge.modelIds")
-  private ConfigNodePropertyArray scheduledpurgeModelIds = null;
+  private ConfigNodePropertyArray scheduledpurgeModelIds;
 
   @JsonProperty("scheduledpurge.daysold")
-  private ConfigNodePropertyInteger scheduledpurgeDaysold = null;
+  private ConfigNodePropertyInteger scheduledpurgeDaysold;
 
   public ComAdobeGraniteWorkflowPurgeSchedulerProperties scheduledpurgeName(ConfigNodePropertyString scheduledpurgeName) {
     this.scheduledpurgeName = scheduledpurgeName;
@@ -101,7 +102,7 @@ public class ComAdobeGraniteWorkflowPurgeSchedulerProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -137,11 +138,8 @@ public class ComAdobeGraniteWorkflowPurgeSchedulerProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

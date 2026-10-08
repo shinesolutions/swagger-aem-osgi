@@ -3,6 +3,7 @@ package org.openapitools.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyInteger;
@@ -11,34 +12,34 @@ import org.openapitools.model.ConfigNodePropertyString;
 /**
  * ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaMSF4JServerCodegen", date = "2019-08-05T00:54:29.762Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaMSF4JServerCodegen", date = "2026-10-07T12:53:29.980508721Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslProperties   {
   @JsonProperty("translationFactory")
-  private ConfigNodePropertyString translationFactory = null;
+  private ConfigNodePropertyString translationFactory;
 
   @JsonProperty("defaultConnectorLabel")
-  private ConfigNodePropertyString defaultConnectorLabel = null;
+  private ConfigNodePropertyString defaultConnectorLabel;
 
   @JsonProperty("defaultConnectorAttribution")
-  private ConfigNodePropertyString defaultConnectorAttribution = null;
+  private ConfigNodePropertyString defaultConnectorAttribution;
 
   @JsonProperty("defaultConnectorWorkspaceId")
-  private ConfigNodePropertyString defaultConnectorWorkspaceId = null;
+  private ConfigNodePropertyString defaultConnectorWorkspaceId;
 
   @JsonProperty("defaultConnectorSubscriptionKey")
-  private ConfigNodePropertyString defaultConnectorSubscriptionKey = null;
+  private ConfigNodePropertyString defaultConnectorSubscriptionKey;
 
   @JsonProperty("languageMapLocation")
-  private ConfigNodePropertyString languageMapLocation = null;
+  private ConfigNodePropertyString languageMapLocation;
 
   @JsonProperty("categoryMapLocation")
-  private ConfigNodePropertyString categoryMapLocation = null;
+  private ConfigNodePropertyString categoryMapLocation;
 
   @JsonProperty("retryAttempts")
-  private ConfigNodePropertyInteger retryAttempts = null;
+  private ConfigNodePropertyInteger retryAttempts;
 
   @JsonProperty("timeoutCount")
-  private ConfigNodePropertyInteger timeoutCount = null;
+  private ConfigNodePropertyInteger timeoutCount;
 
   public ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslProperties translationFactory(ConfigNodePropertyString translationFactory) {
     this.translationFactory = translationFactory;
@@ -204,7 +205,7 @@ public class ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslPrope
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -250,11 +251,8 @@ public class ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslPrope
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

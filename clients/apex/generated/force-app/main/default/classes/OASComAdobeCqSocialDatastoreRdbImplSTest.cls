@@ -72,13 +72,13 @@ private class OASComAdobeCqSocialDatastoreRdbImplSTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeCqSocialDatastoreRdbImplS comAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorProperties = new OASComAdobeCqSocialDatastoreRdbImplS();
-        Map<String, String> propertyMappings = comAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorProperties.getPropertyMappings();
-        System.assertEquals('solrZkTimeout', propertyMappings.get('solr.zk.timeout'));
-        System.assertEquals('solrCommit', propertyMappings.get('solr.commit'));
-        System.assertEquals('cacheOn', propertyMappings.get('cache.on'));
-        System.assertEquals('concurrencyLevel', propertyMappings.get('concurrency.level'));
-        System.assertEquals('cacheStartSize', propertyMappings.get('cache.start.size'));
-        System.assertEquals('cacheTtl', propertyMappings.get('cache.ttl'));
-        System.assertEquals('cacheSize', propertyMappings.get('cache.size'));
+        Map<String, String> x-property-mappings = comAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorProperties.getx-property-mappings();
+        System.assertEquals('solrZkTimeout', x-property-mappings.get('solr.zk.timeout'));
+        System.assertEquals('solrCommit', x-property-mappings.get('solr.commit'));
+        System.assertEquals('cacheOn', x-property-mappings.get('cache.on'));
+        System.assertEquals('concurrencyLevel', x-property-mappings.get('concurrency.level'));
+        System.assertEquals('cacheStartSize', x-property-mappings.get('cache.start.size'));
+        System.assertEquals('cacheTtl', x-property-mappings.get('cache.ttl'));
+        System.assertEquals('cacheSize', x-property-mappings.get('cache.size'));
     }
 }

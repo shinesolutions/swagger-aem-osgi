@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqReportingImplCacheCacheImplProperties;
 
 @Canonical
 class ComDayCqReportingImplCacheCacheImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqReportingImplCacheCacheImplProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqReportingImplCacheCacheImplProperties properties
 }

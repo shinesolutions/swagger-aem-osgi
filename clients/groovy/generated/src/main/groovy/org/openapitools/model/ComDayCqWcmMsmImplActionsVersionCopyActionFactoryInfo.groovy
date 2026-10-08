@@ -7,16 +7,16 @@ import org.openapitools.model.ComDayCqWcmMsmImplActionsVersionCopyActionFactoryP
 
 @Canonical
 class ComDayCqWcmMsmImplActionsVersionCopyActionFactoryInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqWcmMsmImplActionsVersionCopyActionFactoryProperties properties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqWcmMsmImplActionsVersionCopyActionFactoryProperties properties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

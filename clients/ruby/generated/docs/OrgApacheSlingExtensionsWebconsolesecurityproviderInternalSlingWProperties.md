@@ -2,18 +2,19 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**users** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 
-**groups** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **users** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] |
+| **groups** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWProperties.new(users: null,
-                                 groups: null)
+instance = SwaggerAemOsgiClient::OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWProperties.new(
+  users: null,
+  groups: null
+)
 ```
-
 

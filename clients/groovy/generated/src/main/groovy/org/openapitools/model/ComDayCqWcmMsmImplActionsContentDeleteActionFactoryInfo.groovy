@@ -7,16 +7,16 @@ import org.openapitools.model.ComDayCqWcmMsmImplActionsContentDeleteActionFactor
 
 @Canonical
 class ComDayCqWcmMsmImplActionsContentDeleteActionFactoryInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqWcmMsmImplActionsContentDeleteActionFactoryProperties properties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqWcmMsmImplActionsContentDeleteActionFactoryProperties properties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

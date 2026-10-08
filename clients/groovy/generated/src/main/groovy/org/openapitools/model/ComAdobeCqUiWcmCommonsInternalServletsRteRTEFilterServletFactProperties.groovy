@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyArray;
 
 @Canonical
 class ComAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactProperties {
-    ConfigNodePropertyArray resourceTypes = null
-
+    
+    ConfigNodePropertyArray resourceTypes
 }

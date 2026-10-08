@@ -2,10 +2,10 @@
 # ComAdobeGraniteAuthImsImplIMSAccessTokenRequestCustomizerImplProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**authPeriodimsPeriodclientPeriodsecret** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**customizerPeriodtype** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **authImsClientSecret** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **customizerType** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
 
 
 

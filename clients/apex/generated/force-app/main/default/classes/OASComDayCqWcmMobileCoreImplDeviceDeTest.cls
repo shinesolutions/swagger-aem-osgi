@@ -72,8 +72,8 @@ private class OASComDayCqWcmMobileCoreImplDeviceDeTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqWcmMobileCoreImplDeviceDe comDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactoryProperties = new OASComDayCqWcmMobileCoreImplDeviceDe();
-        Map<String, String> propertyMappings = comDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactoryProperties.getPropertyMappings();
-        System.assertEquals('deviceInfoTransformerEnabled', propertyMappings.get('device.info.transformer.enabled'));
-        System.assertEquals('deviceInfoTransformerCssStyle', propertyMappings.get('device.info.transformer.css.style'));
+        Map<String, String> x-property-mappings = comDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactoryProperties.getx-property-mappings();
+        System.assertEquals('deviceInfoTransformerEnabled', x-property-mappings.get('device.info.transformer.enabled'));
+        System.assertEquals('deviceInfoTransformerCssStyle', x-property-mappings.get('device.info.transformer.css.style'));
     }
 }

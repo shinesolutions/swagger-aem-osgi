@@ -1,0 +1,47 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqDamCommonsHandlerStandardImageHandlerProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqDamCommonsHandlerStandardImageHandlerProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+}
+resourceTypes {
+
+  ComDayCqDamCommonsHandlerStandardImageHandlerProperties {
+    title = ComDayCqDamCommonsHandlerStandardImageHandlerProperties
+    description = ComDayCqDamCommonsHandlerStandardImageHandlerProperties
+    derivedFrom = Root
+    properties {
+        large_file_threshold {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        large_comment_threshold {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        cq_dam_enable_ext_meta_extraction {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqDamCommonsHandlerStandardImageHandlerProperties {
+    title = ComDayCqDamCommonsHandlerStandardImageHandlerProperties
+    description = ComDayCqDamCommonsHandlerStandardImageHandlerProperties
+    implements = openapi_server.resourceTypes.ComDayCqDamCommonsHandlerStandardImageHandlerProperties
+
+  }
+}

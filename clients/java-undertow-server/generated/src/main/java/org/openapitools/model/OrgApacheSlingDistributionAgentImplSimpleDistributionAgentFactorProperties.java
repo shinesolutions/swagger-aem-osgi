@@ -1,3 +1,13 @@
+/*
+ * Adobe Experience Manager OSGI config (AEM) API
+ *
+ * Swagger AEM OSGI is an OpenAPI specification for Adobe Experience Manager (AEM) OSGI Configurations API
+ *
+ * OpenAPI document version: 1.0.0-pre.0
+ * Maintained by: opensource@shinesolutions.com
+ *
+ * AUTO-GENERATED FILE, DO NOT MODIFY!
+ */
 package org.openapitools.model;
 
 import java.util.Objects;
@@ -13,23 +23,23 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2019-08-05T00:56:20.785Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2026-10-07T12:53:42.280804918Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorProperties   {
   
-  private ConfigNodePropertyString name = null;
-  private ConfigNodePropertyString title = null;
-  private ConfigNodePropertyString details = null;
-  private ConfigNodePropertyBoolean enabled = null;
-  private ConfigNodePropertyString serviceName = null;
-  private ConfigNodePropertyDropDown logLevel = null;
-  private ConfigNodePropertyBoolean queueProcessingEnabled = null;
-  private ConfigNodePropertyString packageExporterTarget = null;
-  private ConfigNodePropertyString packageImporterTarget = null;
-  private ConfigNodePropertyString requestAuthorizationStrategyTarget = null;
-  private ConfigNodePropertyString triggersTarget = null;
+  private ConfigNodePropertyString name;
+  private ConfigNodePropertyString title;
+  private ConfigNodePropertyString details;
+  private ConfigNodePropertyBoolean enabled;
+  private ConfigNodePropertyString serviceName;
+  private ConfigNodePropertyDropDown logLevel;
+  private ConfigNodePropertyBoolean queueProcessingEnabled;
+  private ConfigNodePropertyString packageExporterTarget;
+  private ConfigNodePropertyString packageImporterTarget;
+  private ConfigNodePropertyString requestAuthorizationStrategyTarget;
+  private ConfigNodePropertyString triggersTarget;
 
   /**
-   **/
+   */
   public OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorProperties name(ConfigNodePropertyString name) {
     this.name = name;
     return this;
@@ -46,7 +56,7 @@ public class OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorPro
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorProperties title(ConfigNodePropertyString title) {
     this.title = title;
     return this;
@@ -63,7 +73,7 @@ public class OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorPro
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorProperties details(ConfigNodePropertyString details) {
     this.details = details;
     return this;
@@ -80,7 +90,7 @@ public class OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorPro
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorProperties enabled(ConfigNodePropertyBoolean enabled) {
     this.enabled = enabled;
     return this;
@@ -97,7 +107,7 @@ public class OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorPro
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorProperties serviceName(ConfigNodePropertyString serviceName) {
     this.serviceName = serviceName;
     return this;
@@ -114,7 +124,7 @@ public class OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorPro
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorProperties logLevel(ConfigNodePropertyDropDown logLevel) {
     this.logLevel = logLevel;
     return this;
@@ -131,7 +141,7 @@ public class OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorPro
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorProperties queueProcessingEnabled(ConfigNodePropertyBoolean queueProcessingEnabled) {
     this.queueProcessingEnabled = queueProcessingEnabled;
     return this;
@@ -148,7 +158,7 @@ public class OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorPro
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorProperties packageExporterTarget(ConfigNodePropertyString packageExporterTarget) {
     this.packageExporterTarget = packageExporterTarget;
     return this;
@@ -165,7 +175,7 @@ public class OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorPro
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorProperties packageImporterTarget(ConfigNodePropertyString packageImporterTarget) {
     this.packageImporterTarget = packageImporterTarget;
     return this;
@@ -182,7 +192,7 @@ public class OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorPro
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorProperties requestAuthorizationStrategyTarget(ConfigNodePropertyString requestAuthorizationStrategyTarget) {
     this.requestAuthorizationStrategyTarget = requestAuthorizationStrategyTarget;
     return this;
@@ -199,7 +209,7 @@ public class OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorPro
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorProperties triggersTarget(ConfigNodePropertyString triggersTarget) {
     this.triggersTarget = triggersTarget;
     return this;
@@ -217,7 +227,7 @@ public class OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorPro
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -267,11 +277,8 @@ public class OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorPro
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

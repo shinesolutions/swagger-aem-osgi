@@ -72,7 +72,7 @@ private class OASAnalyticsComponentQueryCacheServiTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASAnalyticsComponentQueryCacheServi analyticsComponentQueryCacheServiceProperties = new OASAnalyticsComponentQueryCacheServi();
-        Map<String, String> propertyMappings = analyticsComponentQueryCacheServiceProperties.getPropertyMappings();
-        System.assertEquals('cqAnalyticsComponentQueryCacheSize', propertyMappings.get('cq.analytics.component.query.cache.size'));
+        Map<String, String> x-property-mappings = analyticsComponentQueryCacheServiceProperties.getx-property-mappings();
+        System.assertEquals('cqAnalyticsComponentQueryCacheSize', x-property-mappings.get('cq.analytics.component.query.cache.size'));
     }
 }

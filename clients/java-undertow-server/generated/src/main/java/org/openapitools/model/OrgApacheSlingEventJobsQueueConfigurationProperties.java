@@ -1,3 +1,13 @@
+/*
+ * Adobe Experience Manager OSGI config (AEM) API
+ *
+ * Swagger AEM OSGI is an OpenAPI specification for Adobe Experience Manager (AEM) OSGI Configurations API
+ *
+ * OpenAPI document version: 1.0.0-pre.0
+ * Maintained by: opensource@shinesolutions.com
+ *
+ * AUTO-GENERATED FILE, DO NOT MODIFY!
+ */
 package org.openapitools.model;
 
 import java.util.Objects;
@@ -16,23 +26,23 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2019-08-05T00:56:20.785Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2026-10-07T12:53:42.280804918Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingEventJobsQueueConfigurationProperties   {
   
-  private ConfigNodePropertyString queueName = null;
-  private ConfigNodePropertyArray queueTopics = null;
-  private ConfigNodePropertyDropDown queueType = null;
-  private ConfigNodePropertyDropDown queuePriority = null;
-  private ConfigNodePropertyInteger queueRetries = null;
-  private ConfigNodePropertyInteger queueRetrydelay = null;
-  private ConfigNodePropertyFloat queueMaxparallel = null;
-  private ConfigNodePropertyBoolean queueKeepJobs = null;
-  private ConfigNodePropertyBoolean queuePreferRunOnCreationInstance = null;
-  private ConfigNodePropertyInteger queueThreadPoolSize = null;
-  private ConfigNodePropertyInteger serviceRanking = null;
+  private ConfigNodePropertyString queueName;
+  private ConfigNodePropertyArray queueTopics;
+  private ConfigNodePropertyDropDown queueType;
+  private ConfigNodePropertyDropDown queuePriority;
+  private ConfigNodePropertyInteger queueRetries;
+  private ConfigNodePropertyInteger queueRetrydelay;
+  private ConfigNodePropertyFloat queueMaxparallel;
+  private ConfigNodePropertyBoolean queueKeepJobs;
+  private ConfigNodePropertyBoolean queuePreferRunOnCreationInstance;
+  private ConfigNodePropertyInteger queueThreadPoolSize;
+  private ConfigNodePropertyInteger serviceRanking;
 
   /**
-   **/
+   */
   public OrgApacheSlingEventJobsQueueConfigurationProperties queueName(ConfigNodePropertyString queueName) {
     this.queueName = queueName;
     return this;
@@ -49,7 +59,7 @@ public class OrgApacheSlingEventJobsQueueConfigurationProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingEventJobsQueueConfigurationProperties queueTopics(ConfigNodePropertyArray queueTopics) {
     this.queueTopics = queueTopics;
     return this;
@@ -66,7 +76,7 @@ public class OrgApacheSlingEventJobsQueueConfigurationProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingEventJobsQueueConfigurationProperties queueType(ConfigNodePropertyDropDown queueType) {
     this.queueType = queueType;
     return this;
@@ -83,7 +93,7 @@ public class OrgApacheSlingEventJobsQueueConfigurationProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingEventJobsQueueConfigurationProperties queuePriority(ConfigNodePropertyDropDown queuePriority) {
     this.queuePriority = queuePriority;
     return this;
@@ -100,7 +110,7 @@ public class OrgApacheSlingEventJobsQueueConfigurationProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingEventJobsQueueConfigurationProperties queueRetries(ConfigNodePropertyInteger queueRetries) {
     this.queueRetries = queueRetries;
     return this;
@@ -117,7 +127,7 @@ public class OrgApacheSlingEventJobsQueueConfigurationProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingEventJobsQueueConfigurationProperties queueRetrydelay(ConfigNodePropertyInteger queueRetrydelay) {
     this.queueRetrydelay = queueRetrydelay;
     return this;
@@ -134,7 +144,7 @@ public class OrgApacheSlingEventJobsQueueConfigurationProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingEventJobsQueueConfigurationProperties queueMaxparallel(ConfigNodePropertyFloat queueMaxparallel) {
     this.queueMaxparallel = queueMaxparallel;
     return this;
@@ -151,7 +161,7 @@ public class OrgApacheSlingEventJobsQueueConfigurationProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingEventJobsQueueConfigurationProperties queueKeepJobs(ConfigNodePropertyBoolean queueKeepJobs) {
     this.queueKeepJobs = queueKeepJobs;
     return this;
@@ -168,7 +178,7 @@ public class OrgApacheSlingEventJobsQueueConfigurationProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingEventJobsQueueConfigurationProperties queuePreferRunOnCreationInstance(ConfigNodePropertyBoolean queuePreferRunOnCreationInstance) {
     this.queuePreferRunOnCreationInstance = queuePreferRunOnCreationInstance;
     return this;
@@ -185,7 +195,7 @@ public class OrgApacheSlingEventJobsQueueConfigurationProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingEventJobsQueueConfigurationProperties queueThreadPoolSize(ConfigNodePropertyInteger queueThreadPoolSize) {
     this.queueThreadPoolSize = queueThreadPoolSize;
     return this;
@@ -202,7 +212,7 @@ public class OrgApacheSlingEventJobsQueueConfigurationProperties   {
   }
 
   /**
-   **/
+   */
   public OrgApacheSlingEventJobsQueueConfigurationProperties serviceRanking(ConfigNodePropertyInteger serviceRanking) {
     this.serviceRanking = serviceRanking;
     return this;
@@ -220,7 +230,7 @@ public class OrgApacheSlingEventJobsQueueConfigurationProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -270,11 +280,8 @@ public class OrgApacheSlingEventJobsQueueConfigurationProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -3,40 +3,43 @@ package org.openapitools.model;
 import org.openapitools.model.ConfigNodePropertyString;
 
 import io.swagger.annotations.ApiModelProperty;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlType;
-import javax.xml.bind.annotation.XmlEnum;
-import javax.xml.bind.annotation.XmlEnumValue;
+import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
 
 public class ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpProperties  {
   
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString patternTime = null;
+
+  private ConfigNodePropertyString patternTime;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString patternNewline = null;
+
+  private ConfigNodePropertyString patternNewline;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString patternDayOfMonth = null;
+
+  private ConfigNodePropertyString patternDayOfMonth;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString patternMonth = null;
+
+  private ConfigNodePropertyString patternMonth;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString patternYear = null;
+
+  private ConfigNodePropertyString patternYear;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString patternDate = null;
+
+  private ConfigNodePropertyString patternDate;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString patternDateTime = null;
+
+  private ConfigNodePropertyString patternDateTime;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString patternEmail = null;
+
+  private ConfigNodePropertyString patternEmail;
  /**
    * Get patternTime
    * @return patternTime
@@ -181,6 +184,29 @@ public class ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpProp
     return this;
   }
 
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpProperties comAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpProperties = (ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpProperties) o;
+    return Objects.equals(this.patternTime, comAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpProperties.patternTime) &&
+        Objects.equals(this.patternNewline, comAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpProperties.patternNewline) &&
+        Objects.equals(this.patternDayOfMonth, comAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpProperties.patternDayOfMonth) &&
+        Objects.equals(this.patternMonth, comAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpProperties.patternMonth) &&
+        Objects.equals(this.patternYear, comAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpProperties.patternYear) &&
+        Objects.equals(this.patternDate, comAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpProperties.patternDate) &&
+        Objects.equals(this.patternDateTime, comAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpProperties.patternDateTime) &&
+        Objects.equals(this.patternEmail, comAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpProperties.patternEmail);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(patternTime, patternNewline, patternDayOfMonth, patternMonth, patternYear, patternDate, patternDateTime, patternEmail);
+  }
 
   @Override
   public String toString() {
@@ -203,11 +229,8 @@ public class ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpProp
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private static String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

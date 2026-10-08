@@ -2,27 +2,28 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ComAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanupProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class ComAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanupInfo   {
   
-  private String pid = null;
+  private String pid;
 
-  private String title = null;
+  private String title;
 
-  private String description = null;
+  private String description;
 
-  private ComAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanupProperties properties = null;
-
+  private ComAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanupProperties properties;
 
   /**
    **/
@@ -98,7 +99,7 @@ public class ComAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanupInfo   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -106,10 +107,10 @@ public class ComAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanupInfo   {
       return false;
     }
     ComAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanupInfo comAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanupInfo = (ComAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanupInfo) o;
-    return Objects.equals(pid, comAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanupInfo.pid) &&
-        Objects.equals(title, comAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanupInfo.title) &&
-        Objects.equals(description, comAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanupInfo.description) &&
-        Objects.equals(properties, comAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanupInfo.properties);
+    return Objects.equals(this.pid, comAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanupInfo.pid) &&
+        Objects.equals(this.title, comAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanupInfo.title) &&
+        Objects.equals(this.description, comAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanupInfo.description) &&
+        Objects.equals(this.properties, comAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanupInfo.properties);
   }
 
   @Override
@@ -134,11 +135,8 @@ public class ComAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanupInfo   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

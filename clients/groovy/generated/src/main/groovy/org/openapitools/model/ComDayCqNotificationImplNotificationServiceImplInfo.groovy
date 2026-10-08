@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqNotificationImplNotificationServiceImplPro
 
 @Canonical
 class ComDayCqNotificationImplNotificationServiceImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqNotificationImplNotificationServiceImplProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqNotificationImplNotificationServiceImplProperties properties
 }

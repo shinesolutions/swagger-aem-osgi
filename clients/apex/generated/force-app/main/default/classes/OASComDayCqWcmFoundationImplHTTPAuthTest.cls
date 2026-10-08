@@ -72,11 +72,11 @@ private class OASComDayCqWcmFoundationImplHTTPAuthTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqWcmFoundationImplHTTPAuth comDayCqWcmFoundationImplHTTPAuthHandlerProperties = new OASComDayCqWcmFoundationImplHTTPAuth();
-        Map<String, String> propertyMappings = comDayCqWcmFoundationImplHTTPAuthHandlerProperties.getPropertyMappings();
-        System.assertEquals('authHttpNologin', propertyMappings.get('auth.http.nologin'));
-        System.assertEquals('authHttpRealm', propertyMappings.get('auth.http.realm'));
-        System.assertEquals('authDefaultLoginpage', propertyMappings.get('auth.default.loginpage'));
-        System.assertEquals('authCredForm', propertyMappings.get('auth.cred.form'));
-        System.assertEquals('authCredUtf8', propertyMappings.get('auth.cred.utf8'));
+        Map<String, String> x-property-mappings = comDayCqWcmFoundationImplHTTPAuthHandlerProperties.getx-property-mappings();
+        System.assertEquals('authHttpNologin', x-property-mappings.get('auth.http.nologin'));
+        System.assertEquals('authHttpRealm', x-property-mappings.get('auth.http.realm'));
+        System.assertEquals('authDefaultLoginpage', x-property-mappings.get('auth.default.loginpage'));
+        System.assertEquals('authCredForm', x-property-mappings.get('auth.cred.form'));
+        System.assertEquals('authCredUtf8', x-property-mappings.get('auth.cred.utf8'));
     }
 }

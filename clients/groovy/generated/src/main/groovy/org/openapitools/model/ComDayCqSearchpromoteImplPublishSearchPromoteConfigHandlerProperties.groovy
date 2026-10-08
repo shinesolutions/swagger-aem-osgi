@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyBoolean;
 
 @Canonical
 class ComDayCqSearchpromoteImplPublishSearchPromoteConfigHandlerProperties {
-    ConfigNodePropertyBoolean cqSearchpromoteConfighandlerEnabled = null
-
+    
+    ConfigNodePropertyBoolean cqSearchpromoteConfighandlerEnabled
 }

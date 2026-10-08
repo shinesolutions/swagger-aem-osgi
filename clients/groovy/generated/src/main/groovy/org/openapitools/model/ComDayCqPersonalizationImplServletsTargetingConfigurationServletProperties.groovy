@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyBoolean;
 
 @Canonical
 class ComDayCqPersonalizationImplServletsTargetingConfigurationServletProperties {
-    ConfigNodePropertyBoolean forcelocation = null
-
+    
+    ConfigNodePropertyBoolean forcelocation
 }

@@ -72,8 +72,8 @@ private class OASComDayCqWcmCoreImplLanguageManageTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqWcmCoreImplLanguageManage comDayCqWcmCoreImplLanguageManagerImplProperties = new OASComDayCqWcmCoreImplLanguageManage();
-        Map<String, String> propertyMappings = comDayCqWcmCoreImplLanguageManagerImplProperties.getPropertyMappings();
-        System.assertEquals('langmgrListPath', propertyMappings.get('langmgr.list.path'));
-        System.assertEquals('langmgrCountryDefault', propertyMappings.get('langmgr.country.default'));
+        Map<String, String> x-property-mappings = comDayCqWcmCoreImplLanguageManagerImplProperties.getx-property-mappings();
+        System.assertEquals('langmgrListPath', x-property-mappings.get('langmgr.list.path'));
+        System.assertEquals('langmgrCountryDefault', x-property-mappings.get('langmgr.country.default'));
     }
 }

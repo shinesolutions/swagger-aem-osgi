@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyArray;
 
 @Canonical
 class ComDayCqWcmFoundationImplPageRedirectServletProperties {
-    ConfigNodePropertyArray excludedResourceTypes = null
-
+    
+    ConfigNodePropertyArray excludedResourceTypes
 }

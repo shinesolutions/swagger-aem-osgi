@@ -11,14 +11,14 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqDamCoreImplDamEventRecorderImplProperties {
-    ConfigNodePropertyString eventFilter = null
-
-    ConfigNodePropertyInteger eventQueueLength = null
-
-    ConfigNodePropertyBoolean eventrecorderEnabled = null
-
-    ConfigNodePropertyArray eventrecorderBlacklist = null
-
-    ConfigNodePropertyDropDown eventrecorderEventtypes = null
-
+    
+    ConfigNodePropertyString eventFilter
+    
+    ConfigNodePropertyInteger eventQueueLength
+    
+    ConfigNodePropertyBoolean eventrecorderEnabled
+    
+    ConfigNodePropertyArray eventrecorderBlacklist
+    
+    ConfigNodePropertyDropDown eventrecorderEventtypes
 }

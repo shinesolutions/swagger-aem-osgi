@@ -1,0 +1,21 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "enable" },
+      {"model": "ugc_limit" },
+      {"model": "ugc_limit_duration" },
+      {"model": "domains" },
+      {"model": "to_list" },
+    ]
+  }]
+}

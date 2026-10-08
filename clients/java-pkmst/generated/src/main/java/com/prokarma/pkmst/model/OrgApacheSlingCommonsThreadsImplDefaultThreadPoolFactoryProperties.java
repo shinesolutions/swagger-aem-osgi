@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyBoolean;
 import com.prokarma.pkmst.model.ConfigNodePropertyDropDown;
 import com.prokarma.pkmst.model.ConfigNodePropertyInteger;
@@ -18,51 +19,50 @@ import io.swagger.annotations.ApiModelProperty;
  * OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties   {
   @JsonProperty("name")
-  private ConfigNodePropertyString name = null;
+  private ConfigNodePropertyString name;
 
   @JsonProperty("minPoolSize")
-  private ConfigNodePropertyInteger minPoolSize = null;
+  private ConfigNodePropertyInteger minPoolSize;
 
   @JsonProperty("maxPoolSize")
-  private ConfigNodePropertyInteger maxPoolSize = null;
+  private ConfigNodePropertyInteger maxPoolSize;
 
   @JsonProperty("queueSize")
-  private ConfigNodePropertyInteger queueSize = null;
+  private ConfigNodePropertyInteger queueSize;
 
   @JsonProperty("maxThreadAge")
-  private ConfigNodePropertyInteger maxThreadAge = null;
+  private ConfigNodePropertyInteger maxThreadAge;
 
   @JsonProperty("keepAliveTime")
-  private ConfigNodePropertyInteger keepAliveTime = null;
+  private ConfigNodePropertyInteger keepAliveTime;
 
   @JsonProperty("blockPolicy")
-  private ConfigNodePropertyDropDown blockPolicy = null;
+  private ConfigNodePropertyDropDown blockPolicy;
 
   @JsonProperty("shutdownGraceful")
-  private ConfigNodePropertyBoolean shutdownGraceful = null;
+  private ConfigNodePropertyBoolean shutdownGraceful;
 
   @JsonProperty("daemon")
-  private ConfigNodePropertyBoolean daemon = null;
+  private ConfigNodePropertyBoolean daemon;
 
   @JsonProperty("shutdownWaitTime")
-  private ConfigNodePropertyInteger shutdownWaitTime = null;
+  private ConfigNodePropertyInteger shutdownWaitTime;
 
   @JsonProperty("priority")
-  private ConfigNodePropertyDropDown priority = null;
+  private ConfigNodePropertyDropDown priority;
 
   public OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties name(ConfigNodePropertyString name) {
     this.name = name;
     return this;
   }
 
-   /**
+  /**
    * Get name
    * @return name
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getName() {
     return name;
@@ -77,10 +77,10 @@ public class OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties 
     return this;
   }
 
-   /**
+  /**
    * Get minPoolSize
    * @return minPoolSize
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getMinPoolSize() {
     return minPoolSize;
@@ -95,10 +95,10 @@ public class OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties 
     return this;
   }
 
-   /**
+  /**
    * Get maxPoolSize
    * @return maxPoolSize
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getMaxPoolSize() {
     return maxPoolSize;
@@ -113,10 +113,10 @@ public class OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties 
     return this;
   }
 
-   /**
+  /**
    * Get queueSize
    * @return queueSize
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getQueueSize() {
     return queueSize;
@@ -131,10 +131,10 @@ public class OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties 
     return this;
   }
 
-   /**
+  /**
    * Get maxThreadAge
    * @return maxThreadAge
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getMaxThreadAge() {
     return maxThreadAge;
@@ -149,10 +149,10 @@ public class OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties 
     return this;
   }
 
-   /**
+  /**
    * Get keepAliveTime
    * @return keepAliveTime
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getKeepAliveTime() {
     return keepAliveTime;
@@ -167,10 +167,10 @@ public class OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties 
     return this;
   }
 
-   /**
+  /**
    * Get blockPolicy
    * @return blockPolicy
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyDropDown getBlockPolicy() {
     return blockPolicy;
@@ -185,10 +185,10 @@ public class OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties 
     return this;
   }
 
-   /**
+  /**
    * Get shutdownGraceful
    * @return shutdownGraceful
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getShutdownGraceful() {
     return shutdownGraceful;
@@ -203,10 +203,10 @@ public class OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties 
     return this;
   }
 
-   /**
+  /**
    * Get daemon
    * @return daemon
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getDaemon() {
     return daemon;
@@ -221,10 +221,10 @@ public class OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties 
     return this;
   }
 
-   /**
+  /**
    * Get shutdownWaitTime
    * @return shutdownWaitTime
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getShutdownWaitTime() {
     return shutdownWaitTime;
@@ -239,10 +239,10 @@ public class OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties 
     return this;
   }
 
-   /**
+  /**
    * Get priority
    * @return priority
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyDropDown getPriority() {
     return priority;
@@ -254,7 +254,7 @@ public class OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties 
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -304,11 +304,8 @@ public class OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryProperties 
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

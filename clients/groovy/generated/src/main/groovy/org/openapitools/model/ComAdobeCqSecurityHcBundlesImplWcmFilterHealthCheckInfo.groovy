@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqSecurityHcBundlesImplWcmFilterHealthChec
 
 @Canonical
 class ComAdobeCqSecurityHcBundlesImplWcmFilterHealthCheckInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqSecurityHcBundlesImplWcmFilterHealthCheckProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqSecurityHcBundlesImplWcmFilterHealthCheckProperties properties
 }

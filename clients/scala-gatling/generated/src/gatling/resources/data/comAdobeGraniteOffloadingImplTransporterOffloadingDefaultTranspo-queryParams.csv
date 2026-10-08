@@ -1,0 +1,1 @@
+default.transport.input.package,propertylist,$location,default.transport.output.package,apply,default.transport.replication.synchronous,default.transport.contentpackage,action,post,offloading.transporter.default.enabled,default.transport.agent-to-master.prefix,default.transport.agent-to-worker.prefix,delete

@@ -8,16 +8,16 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqWorkflowImplEmailEMailNotificationServiceProperties {
-    ConfigNodePropertyString fromAddress = null
-
-    ConfigNodePropertyString hostPrefix = null
-
-    ConfigNodePropertyBoolean notifyOnabort = null
-
-    ConfigNodePropertyBoolean notifyOncomplete = null
-
-    ConfigNodePropertyBoolean notifyOncontainercomplete = null
-
-    ConfigNodePropertyBoolean notifyUseronly = null
-
+    
+    ConfigNodePropertyString fromAddress
+    
+    ConfigNodePropertyString hostPrefix
+    
+    ConfigNodePropertyBoolean notifyOnabort
+    
+    ConfigNodePropertyBoolean notifyOncomplete
+    
+    ConfigNodePropertyBoolean notifyOncontainercomplete
+    
+    ConfigNodePropertyBoolean notifyUseronly
 }

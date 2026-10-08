@@ -1,0 +1,64 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheFelixEventadminImplEventAdminProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheFelixEventadminImplEventAdminProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyFloat = openapi_server.resourceTypes.ConfigNodePropertyFloat
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+}
+resourceTypes {
+
+  OrgApacheFelixEventadminImplEventAdminProperties {
+    title = OrgApacheFelixEventadminImplEventAdminProperties
+    description = OrgApacheFelixEventadminImplEventAdminProperties
+    derivedFrom = Root
+    properties {
+        org_apache_felix_eventadmin_thread_pool_size {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        org_apache_felix_eventadmin_async_to_sync_thread_ratio {
+          type = ConfigNodePropertyFloat
+          description = ""
+          optional = false
+        }
+        org_apache_felix_eventadmin_timeout {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        org_apache_felix_eventadmin_require_topic {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        org_apache_felix_eventadmin_ignore_timeout {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        org_apache_felix_eventadmin_ignore_topic {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheFelixEventadminImplEventAdminProperties {
+    title = OrgApacheFelixEventadminImplEventAdminProperties
+    description = OrgApacheFelixEventadminImplEventAdminProperties
+    implements = openapi_server.resourceTypes.OrgApacheFelixEventadminImplEventAdminProperties
+
+  }
+}

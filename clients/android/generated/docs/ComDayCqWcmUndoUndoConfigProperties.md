@@ -1,7 +1,9 @@
 
+
 # ComDayCqWcmUndoUndoConfigProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **cqWcmUndoEnabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
@@ -13,6 +15,7 @@ Name | Type | Description | Notes
 **cqWcmUndoMarkermode** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
 **cqWcmUndoWhitelist** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
 **cqWcmUndoBlacklist** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
+
 
 
 

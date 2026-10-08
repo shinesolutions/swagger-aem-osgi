@@ -7,12 +7,12 @@ import org.openapitools.model.OrgApacheSlingDistributionPackagingImplImporterRem
 
 @Canonical
 class OrgApacheSlingDistributionPackagingImplImporterRemoteDistributiInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheSlingDistributionPackagingImplImporterRemoteDistributiProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheSlingDistributionPackagingImplImporterRemoteDistributiProperties properties
 }

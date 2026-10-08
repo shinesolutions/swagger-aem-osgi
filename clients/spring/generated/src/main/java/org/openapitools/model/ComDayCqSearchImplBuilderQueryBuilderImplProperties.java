@@ -1,35 +1,46 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComDayCqSearchImplBuilderQueryBuilderImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComDayCqSearchImplBuilderQueryBuilderImplProperties   {
-  @JsonProperty("excerpt.properties")
-  private ConfigNodePropertyArray excerptProperties = null;
+@JsonTypeName("comDayCqSearchImplBuilderQueryBuilderImplProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComDayCqSearchImplBuilderQueryBuilderImplProperties {
 
-  @JsonProperty("cache.max.entries")
-  private ConfigNodePropertyInteger cacheMaxEntries = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray excerptProperties;
 
-  @JsonProperty("cache.entry.lifetime")
-  private ConfigNodePropertyInteger cacheEntryLifetime = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger cacheMaxEntries;
 
-  @JsonProperty("xpath.union")
-  private ConfigNodePropertyBoolean xpathUnion = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger cacheEntryLifetime;
 
-  public ComDayCqSearchImplBuilderQueryBuilderImplProperties excerptProperties(ConfigNodePropertyArray excerptProperties) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean xpathUnion;
+
+  public ComDayCqSearchImplBuilderQueryBuilderImplProperties excerptProperties(@Nullable ConfigNodePropertyArray excerptProperties) {
     this.excerptProperties = excerptProperties;
     return this;
   }
@@ -37,20 +48,20 @@ public class ComDayCqSearchImplBuilderQueryBuilderImplProperties   {
   /**
    * Get excerptProperties
    * @return excerptProperties
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getExcerptProperties() {
+   */
+  @Valid 
+  @Schema(name = "excerpt.properties", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("excerpt.properties")
+  public @Nullable ConfigNodePropertyArray getExcerptProperties() {
     return excerptProperties;
   }
 
-  public void setExcerptProperties(ConfigNodePropertyArray excerptProperties) {
+  @JsonProperty("excerpt.properties")
+  public void setExcerptProperties(@Nullable ConfigNodePropertyArray excerptProperties) {
     this.excerptProperties = excerptProperties;
   }
 
-  public ComDayCqSearchImplBuilderQueryBuilderImplProperties cacheMaxEntries(ConfigNodePropertyInteger cacheMaxEntries) {
+  public ComDayCqSearchImplBuilderQueryBuilderImplProperties cacheMaxEntries(@Nullable ConfigNodePropertyInteger cacheMaxEntries) {
     this.cacheMaxEntries = cacheMaxEntries;
     return this;
   }
@@ -58,20 +69,20 @@ public class ComDayCqSearchImplBuilderQueryBuilderImplProperties   {
   /**
    * Get cacheMaxEntries
    * @return cacheMaxEntries
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getCacheMaxEntries() {
+   */
+  @Valid 
+  @Schema(name = "cache.max.entries", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cache.max.entries")
+  public @Nullable ConfigNodePropertyInteger getCacheMaxEntries() {
     return cacheMaxEntries;
   }
 
-  public void setCacheMaxEntries(ConfigNodePropertyInteger cacheMaxEntries) {
+  @JsonProperty("cache.max.entries")
+  public void setCacheMaxEntries(@Nullable ConfigNodePropertyInteger cacheMaxEntries) {
     this.cacheMaxEntries = cacheMaxEntries;
   }
 
-  public ComDayCqSearchImplBuilderQueryBuilderImplProperties cacheEntryLifetime(ConfigNodePropertyInteger cacheEntryLifetime) {
+  public ComDayCqSearchImplBuilderQueryBuilderImplProperties cacheEntryLifetime(@Nullable ConfigNodePropertyInteger cacheEntryLifetime) {
     this.cacheEntryLifetime = cacheEntryLifetime;
     return this;
   }
@@ -79,20 +90,20 @@ public class ComDayCqSearchImplBuilderQueryBuilderImplProperties   {
   /**
    * Get cacheEntryLifetime
    * @return cacheEntryLifetime
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getCacheEntryLifetime() {
+   */
+  @Valid 
+  @Schema(name = "cache.entry.lifetime", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cache.entry.lifetime")
+  public @Nullable ConfigNodePropertyInteger getCacheEntryLifetime() {
     return cacheEntryLifetime;
   }
 
-  public void setCacheEntryLifetime(ConfigNodePropertyInteger cacheEntryLifetime) {
+  @JsonProperty("cache.entry.lifetime")
+  public void setCacheEntryLifetime(@Nullable ConfigNodePropertyInteger cacheEntryLifetime) {
     this.cacheEntryLifetime = cacheEntryLifetime;
   }
 
-  public ComDayCqSearchImplBuilderQueryBuilderImplProperties xpathUnion(ConfigNodePropertyBoolean xpathUnion) {
+  public ComDayCqSearchImplBuilderQueryBuilderImplProperties xpathUnion(@Nullable ConfigNodePropertyBoolean xpathUnion) {
     this.xpathUnion = xpathUnion;
     return this;
   }
@@ -100,22 +111,21 @@ public class ComDayCqSearchImplBuilderQueryBuilderImplProperties   {
   /**
    * Get xpathUnion
    * @return xpathUnion
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getXpathUnion() {
+   */
+  @Valid 
+  @Schema(name = "xpath.union", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("xpath.union")
+  public @Nullable ConfigNodePropertyBoolean getXpathUnion() {
     return xpathUnion;
   }
 
-  public void setXpathUnion(ConfigNodePropertyBoolean xpathUnion) {
+  @JsonProperty("xpath.union")
+  public void setXpathUnion(@Nullable ConfigNodePropertyBoolean xpathUnion) {
     this.xpathUnion = xpathUnion;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -138,7 +148,6 @@ public class ComDayCqSearchImplBuilderQueryBuilderImplProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComDayCqSearchImplBuilderQueryBuilderImplProperties {\n");
-    
     sb.append("    excerptProperties: ").append(toIndentedString(excerptProperties)).append("\n");
     sb.append("    cacheMaxEntries: ").append(toIndentedString(cacheMaxEntries)).append("\n");
     sb.append("    cacheEntryLifetime: ").append(toIndentedString(cacheEntryLifetime)).append("\n");
@@ -151,11 +160,8 @@ public class ComDayCqSearchImplBuilderQueryBuilderImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

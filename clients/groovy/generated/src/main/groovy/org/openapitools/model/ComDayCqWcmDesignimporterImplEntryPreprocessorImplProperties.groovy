@@ -7,8 +7,8 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqWcmDesignimporterImplEntryPreprocessorImplProperties {
-    ConfigNodePropertyString searchPattern = null
-
-    ConfigNodePropertyString replacePattern = null
-
+    
+    ConfigNodePropertyString searchPattern
+    
+    ConfigNodePropertyString replacePattern
 }

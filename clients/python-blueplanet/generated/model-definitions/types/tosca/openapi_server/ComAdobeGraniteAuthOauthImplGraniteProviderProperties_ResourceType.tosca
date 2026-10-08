@@ -1,0 +1,56 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeGraniteAuthOauthImplGraniteProviderProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeGraniteAuthOauthImplGraniteProviderProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComAdobeGraniteAuthOauthImplGraniteProviderProperties {
+    title = ComAdobeGraniteAuthOauthImplGraniteProviderProperties
+    description = ComAdobeGraniteAuthOauthImplGraniteProviderProperties
+    derivedFrom = Root
+    properties {
+        oauth_provider_id {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        oauth_provider_granite_authorization_url {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        oauth_provider_granite_token_url {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        oauth_provider_granite_profile_url {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        oauth_provider_granite_extended_details_urls {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeGraniteAuthOauthImplGraniteProviderProperties {
+    title = ComAdobeGraniteAuthOauthImplGraniteProviderProperties
+    description = ComAdobeGraniteAuthOauthImplGraniteProviderProperties
+    implements = openapi_server.resourceTypes.ComAdobeGraniteAuthOauthImplGraniteProviderProperties
+
+  }
+}

@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyArray;
 import com.prokarma.pkmst.model.ConfigNodePropertyString;
 import io.swagger.annotations.ApiModel;
@@ -16,30 +17,29 @@ import io.swagger.annotations.ApiModelProperty;
  * ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplProperties   {
   @JsonProperty("group2member.relationship.outgoing")
-  private ConfigNodePropertyString group2memberRelationshipOutgoing = null;
+  private ConfigNodePropertyString group2memberRelationshipOutgoing;
 
   @JsonProperty("group2member.excluded.outgoing")
-  private ConfigNodePropertyArray group2memberExcludedOutgoing = null;
+  private ConfigNodePropertyArray group2memberExcludedOutgoing;
 
   @JsonProperty("group2member.relationship.incoming")
-  private ConfigNodePropertyString group2memberRelationshipIncoming = null;
+  private ConfigNodePropertyString group2memberRelationshipIncoming;
 
   @JsonProperty("group2member.excluded.incoming")
-  private ConfigNodePropertyArray group2memberExcludedIncoming = null;
+  private ConfigNodePropertyArray group2memberExcludedIncoming;
 
   public ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplProperties group2memberRelationshipOutgoing(ConfigNodePropertyString group2memberRelationshipOutgoing) {
     this.group2memberRelationshipOutgoing = group2memberRelationshipOutgoing;
     return this;
   }
 
-   /**
+  /**
    * Get group2memberRelationshipOutgoing
    * @return group2memberRelationshipOutgoing
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getGroup2memberRelationshipOutgoing() {
     return group2memberRelationshipOutgoing;
@@ -54,10 +54,10 @@ public class ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get group2memberExcludedOutgoing
    * @return group2memberExcludedOutgoing
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getGroup2memberExcludedOutgoing() {
     return group2memberExcludedOutgoing;
@@ -72,10 +72,10 @@ public class ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get group2memberRelationshipIncoming
    * @return group2memberRelationshipIncoming
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getGroup2memberRelationshipIncoming() {
     return group2memberRelationshipIncoming;
@@ -90,10 +90,10 @@ public class ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get group2memberExcludedIncoming
    * @return group2memberExcludedIncoming
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getGroup2memberExcludedIncoming() {
     return group2memberExcludedIncoming;
@@ -105,7 +105,7 @@ public class ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -141,11 +141,8 @@ public class ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -2,9 +2,9 @@
 # ComDayCqDamCoreImplMimeTypeDamMimeTypeServiceImplProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**cqPerioddamPerioddetectPeriodassetPeriodmimePeriodfromPeriodcontent** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **cqDamDetectAssetMimeFromContent** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
 
 
 

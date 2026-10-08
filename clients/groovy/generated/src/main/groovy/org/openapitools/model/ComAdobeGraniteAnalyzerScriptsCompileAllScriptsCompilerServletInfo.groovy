@@ -7,16 +7,16 @@ import org.openapitools.model.ComAdobeGraniteAnalyzerScriptsCompileAllScriptsCom
 
 @Canonical
 class ComAdobeGraniteAnalyzerScriptsCompileAllScriptsCompilerServletInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteAnalyzerScriptsCompileAllScriptsCompilerServletProperties properties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteAnalyzerScriptsCompileAllScriptsCompilerServletProperties properties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

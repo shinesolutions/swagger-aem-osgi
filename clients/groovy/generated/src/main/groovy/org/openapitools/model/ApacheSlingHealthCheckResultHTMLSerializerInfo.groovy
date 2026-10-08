@@ -7,12 +7,12 @@ import org.openapitools.model.ApacheSlingHealthCheckResultHTMLSerializerProperti
 
 @Canonical
 class ApacheSlingHealthCheckResultHTMLSerializerInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ApacheSlingHealthCheckResultHTMLSerializerProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ApacheSlingHealthCheckResultHTMLSerializerProperties properties
 }

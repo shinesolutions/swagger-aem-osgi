@@ -7,8 +7,8 @@ import org.openapitools.model.ConfigNodePropertyBoolean;
 
 @Canonical
 class ComAdobeGraniteContexthubImplContextHubImplProperties {
-    ConfigNodePropertyBoolean comAdobeGraniteContexthubSilentMode = null
-
-    ConfigNodePropertyBoolean comAdobeGraniteContexthubShowUi = null
-
+    
+    ConfigNodePropertyBoolean comAdobeGraniteContexthubSilentMode
+    
+    ConfigNodePropertyBoolean comAdobeGraniteContexthubShowUi
 }

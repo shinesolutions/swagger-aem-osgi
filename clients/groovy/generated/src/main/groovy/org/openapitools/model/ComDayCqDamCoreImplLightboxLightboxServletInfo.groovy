@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqDamCoreImplLightboxLightboxServletProperti
 
 @Canonical
 class ComDayCqDamCoreImplLightboxLightboxServletInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqDamCoreImplLightboxLightboxServletProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqDamCoreImplLightboxLightboxServletProperties properties
 }

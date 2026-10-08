@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqSocialCommonsUgclimitsconfigImplCommunit
 
 @Canonical
 class ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitProperties properties
 }

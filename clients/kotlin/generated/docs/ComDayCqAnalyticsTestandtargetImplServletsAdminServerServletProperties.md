@@ -2,9 +2,9 @@
 # ComDayCqAnalyticsTestandtargetImplServletsAdminServerServletProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**testandtargetPeriodendpointPeriodurl** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **testandtargetEndpointUrl** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
 
 
 

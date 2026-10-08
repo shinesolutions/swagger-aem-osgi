@@ -2,34 +2,35 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class OrgApacheHttpProxyconfiguratorProperties   {
   
-  private ConfigNodePropertyBoolean proxyEnabled = null;
+  private ConfigNodePropertyBoolean proxyEnabled;
 
-  private ConfigNodePropertyString proxyHost = null;
+  private ConfigNodePropertyString proxyHost;
 
-  private ConfigNodePropertyInteger proxyPort = null;
+  private ConfigNodePropertyInteger proxyPort;
 
-  private ConfigNodePropertyString proxyUser = null;
+  private ConfigNodePropertyString proxyUser;
 
-  private ConfigNodePropertyString proxyPassword = null;
+  private ConfigNodePropertyString proxyPassword;
 
-  private ConfigNodePropertyArray proxyExceptions = null;
-
+  private ConfigNodePropertyArray proxyExceptions;
 
   /**
    **/
@@ -141,7 +142,7 @@ public class OrgApacheHttpProxyconfiguratorProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -149,12 +150,12 @@ public class OrgApacheHttpProxyconfiguratorProperties   {
       return false;
     }
     OrgApacheHttpProxyconfiguratorProperties orgApacheHttpProxyconfiguratorProperties = (OrgApacheHttpProxyconfiguratorProperties) o;
-    return Objects.equals(proxyEnabled, orgApacheHttpProxyconfiguratorProperties.proxyEnabled) &&
-        Objects.equals(proxyHost, orgApacheHttpProxyconfiguratorProperties.proxyHost) &&
-        Objects.equals(proxyPort, orgApacheHttpProxyconfiguratorProperties.proxyPort) &&
-        Objects.equals(proxyUser, orgApacheHttpProxyconfiguratorProperties.proxyUser) &&
-        Objects.equals(proxyPassword, orgApacheHttpProxyconfiguratorProperties.proxyPassword) &&
-        Objects.equals(proxyExceptions, orgApacheHttpProxyconfiguratorProperties.proxyExceptions);
+    return Objects.equals(this.proxyEnabled, orgApacheHttpProxyconfiguratorProperties.proxyEnabled) &&
+        Objects.equals(this.proxyHost, orgApacheHttpProxyconfiguratorProperties.proxyHost) &&
+        Objects.equals(this.proxyPort, orgApacheHttpProxyconfiguratorProperties.proxyPort) &&
+        Objects.equals(this.proxyUser, orgApacheHttpProxyconfiguratorProperties.proxyUser) &&
+        Objects.equals(this.proxyPassword, orgApacheHttpProxyconfiguratorProperties.proxyPassword) &&
+        Objects.equals(this.proxyExceptions, orgApacheHttpProxyconfiguratorProperties.proxyExceptions);
   }
 
   @Override
@@ -181,11 +182,8 @@ public class OrgApacheHttpProxyconfiguratorProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

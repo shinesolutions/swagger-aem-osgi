@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeGraniteMonitoringImplScriptConfigImplPrope
 
 @Canonical
 class ComAdobeGraniteMonitoringImplScriptConfigImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteMonitoringImplScriptConfigImplProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteMonitoringImplScriptConfigImplProperties properties
 }

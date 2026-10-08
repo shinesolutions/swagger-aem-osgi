@@ -1,7 +1,9 @@
 
+
 # OrgApacheSlingDistributionAgentImplSyncDistributionAgentFactoryProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **name** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
@@ -22,6 +24,7 @@ Name | Type | Description | Notes
 **transportSecretProviderTarget** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
 **packageBuilderTarget** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
 **triggersTarget** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
+
 
 
 

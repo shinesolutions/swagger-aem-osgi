@@ -4,23 +4,27 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2019-08-05T00:59:30.156Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2026-10-07T12:54:21.614735164Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqDamCoreImplMimeTypeAssetUploadRestrictionHelperProperties   {
   
-  private ConfigNodePropertyBoolean cqDamAllowAllMime = null;
-  private ConfigNodePropertyArray cqDamAllowedAssetMimes = null;
+  private ConfigNodePropertyBoolean cqDamAllowAllMime;
+  private ConfigNodePropertyArray cqDamAllowedAssetMimes;
 
   /**
    **/
   
   @ApiModelProperty(value = "")
   @JsonProperty("cq.dam.allow.all.mime")
+  @Valid
   public ConfigNodePropertyBoolean getCqDamAllowAllMime() {
     return cqDamAllowAllMime;
   }
@@ -33,6 +37,7 @@ public class ComDayCqDamCoreImplMimeTypeAssetUploadRestrictionHelperProperties  
   
   @ApiModelProperty(value = "")
   @JsonProperty("cq.dam.allowed.asset.mimes")
+  @Valid
   public ConfigNodePropertyArray getCqDamAllowedAssetMimes() {
     return cqDamAllowedAssetMimes;
   }
@@ -42,7 +47,7 @@ public class ComDayCqDamCoreImplMimeTypeAssetUploadRestrictionHelperProperties  
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -50,8 +55,8 @@ public class ComDayCqDamCoreImplMimeTypeAssetUploadRestrictionHelperProperties  
       return false;
     }
     ComDayCqDamCoreImplMimeTypeAssetUploadRestrictionHelperProperties comDayCqDamCoreImplMimeTypeAssetUploadRestrictionHelperProperties = (ComDayCqDamCoreImplMimeTypeAssetUploadRestrictionHelperProperties) o;
-    return Objects.equals(cqDamAllowAllMime, comDayCqDamCoreImplMimeTypeAssetUploadRestrictionHelperProperties.cqDamAllowAllMime) &&
-        Objects.equals(cqDamAllowedAssetMimes, comDayCqDamCoreImplMimeTypeAssetUploadRestrictionHelperProperties.cqDamAllowedAssetMimes);
+    return Objects.equals(this.cqDamAllowAllMime, comDayCqDamCoreImplMimeTypeAssetUploadRestrictionHelperProperties.cqDamAllowAllMime) &&
+        Objects.equals(this.cqDamAllowedAssetMimes, comDayCqDamCoreImplMimeTypeAssetUploadRestrictionHelperProperties.cqDamAllowedAssetMimes);
   }
 
   @Override
@@ -74,11 +79,8 @@ public class ComDayCqDamCoreImplMimeTypeAssetUploadRestrictionHelperProperties  
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

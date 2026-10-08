@@ -1,30 +1,41 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * OrgApacheSlingDistributionTransportImplUserCredentialsDistributiProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class OrgApacheSlingDistributionTransportImplUserCredentialsDistributiProperties   {
-  @JsonProperty("name")
-  private ConfigNodePropertyString name = null;
+@JsonTypeName("orgApacheSlingDistributionTransportImplUserCredentialsDistributiProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class OrgApacheSlingDistributionTransportImplUserCredentialsDistributiProperties {
 
-  @JsonProperty("username")
-  private ConfigNodePropertyString username = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString name;
 
-  @JsonProperty("password")
-  private ConfigNodePropertyString password = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString username;
 
-  public OrgApacheSlingDistributionTransportImplUserCredentialsDistributiProperties name(ConfigNodePropertyString name) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString password;
+
+  public OrgApacheSlingDistributionTransportImplUserCredentialsDistributiProperties name(@Nullable ConfigNodePropertyString name) {
     this.name = name;
     return this;
   }
@@ -32,20 +43,20 @@ public class OrgApacheSlingDistributionTransportImplUserCredentialsDistributiPro
   /**
    * Get name
    * @return name
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getName() {
+   */
+  @Valid 
+  @Schema(name = "name", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("name")
+  public @Nullable ConfigNodePropertyString getName() {
     return name;
   }
 
-  public void setName(ConfigNodePropertyString name) {
+  @JsonProperty("name")
+  public void setName(@Nullable ConfigNodePropertyString name) {
     this.name = name;
   }
 
-  public OrgApacheSlingDistributionTransportImplUserCredentialsDistributiProperties username(ConfigNodePropertyString username) {
+  public OrgApacheSlingDistributionTransportImplUserCredentialsDistributiProperties username(@Nullable ConfigNodePropertyString username) {
     this.username = username;
     return this;
   }
@@ -53,20 +64,20 @@ public class OrgApacheSlingDistributionTransportImplUserCredentialsDistributiPro
   /**
    * Get username
    * @return username
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getUsername() {
+   */
+  @Valid 
+  @Schema(name = "username", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("username")
+  public @Nullable ConfigNodePropertyString getUsername() {
     return username;
   }
 
-  public void setUsername(ConfigNodePropertyString username) {
+  @JsonProperty("username")
+  public void setUsername(@Nullable ConfigNodePropertyString username) {
     this.username = username;
   }
 
-  public OrgApacheSlingDistributionTransportImplUserCredentialsDistributiProperties password(ConfigNodePropertyString password) {
+  public OrgApacheSlingDistributionTransportImplUserCredentialsDistributiProperties password(@Nullable ConfigNodePropertyString password) {
     this.password = password;
     return this;
   }
@@ -74,22 +85,21 @@ public class OrgApacheSlingDistributionTransportImplUserCredentialsDistributiPro
   /**
    * Get password
    * @return password
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getPassword() {
+   */
+  @Valid 
+  @Schema(name = "password", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("password")
+  public @Nullable ConfigNodePropertyString getPassword() {
     return password;
   }
 
-  public void setPassword(ConfigNodePropertyString password) {
+  @JsonProperty("password")
+  public void setPassword(@Nullable ConfigNodePropertyString password) {
     this.password = password;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -111,7 +121,6 @@ public class OrgApacheSlingDistributionTransportImplUserCredentialsDistributiPro
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class OrgApacheSlingDistributionTransportImplUserCredentialsDistributiProperties {\n");
-    
     sb.append("    name: ").append(toIndentedString(name)).append("\n");
     sb.append("    username: ").append(toIndentedString(username)).append("\n");
     sb.append("    password: ").append(toIndentedString(password)).append("\n");
@@ -123,11 +132,8 @@ public class OrgApacheSlingDistributionTransportImplUserCredentialsDistributiPro
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

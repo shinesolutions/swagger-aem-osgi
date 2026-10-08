@@ -1,6 +1,7 @@
 # NodeSwaggerAemOsgi.ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **cqContentsyncPathrewritertransformerMappingLinks** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 

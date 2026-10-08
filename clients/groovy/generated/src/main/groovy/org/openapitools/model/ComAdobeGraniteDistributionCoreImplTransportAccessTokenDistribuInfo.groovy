@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeGraniteDistributionCoreImplTransportAccess
 
 @Canonical
 class ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProperties properties
 }

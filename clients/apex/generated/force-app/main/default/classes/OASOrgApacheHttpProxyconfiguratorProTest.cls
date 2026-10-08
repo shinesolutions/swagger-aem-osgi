@@ -72,12 +72,12 @@ private class OASOrgApacheHttpProxyconfiguratorProTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASOrgApacheHttpProxyconfiguratorPro orgApacheHttpProxyconfiguratorProperties = new OASOrgApacheHttpProxyconfiguratorPro();
-        Map<String, String> propertyMappings = orgApacheHttpProxyconfiguratorProperties.getPropertyMappings();
-        System.assertEquals('proxyEnabled', propertyMappings.get('proxy.enabled'));
-        System.assertEquals('proxyHost', propertyMappings.get('proxy.host'));
-        System.assertEquals('proxyPort', propertyMappings.get('proxy.port'));
-        System.assertEquals('proxyUser', propertyMappings.get('proxy.user'));
-        System.assertEquals('proxyPassword', propertyMappings.get('proxy.password'));
-        System.assertEquals('proxyExceptions', propertyMappings.get('proxy.exceptions'));
+        Map<String, String> x-property-mappings = orgApacheHttpProxyconfiguratorProperties.getx-property-mappings();
+        System.assertEquals('proxyEnabled', x-property-mappings.get('proxy.enabled'));
+        System.assertEquals('proxyHost', x-property-mappings.get('proxy.host'));
+        System.assertEquals('proxyPort', x-property-mappings.get('proxy.port'));
+        System.assertEquals('proxyUser', x-property-mappings.get('proxy.user'));
+        System.assertEquals('proxyPassword', x-property-mappings.get('proxy.password'));
+        System.assertEquals('proxyExceptions', x-property-mappings.get('proxy.exceptions'));
     }
 }

@@ -1,7 +1,9 @@
 
+
 # ComAdobeGraniteFragsImplRandomFeatureProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **featureName** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
@@ -9,6 +11,7 @@ Name | Type | Description | Notes
 **activePercentage** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
 **cookieName** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
 **cookieMaxAge** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
+
 
 
 

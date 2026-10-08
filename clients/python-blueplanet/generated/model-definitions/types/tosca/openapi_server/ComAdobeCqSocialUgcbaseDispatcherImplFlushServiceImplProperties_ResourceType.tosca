@@ -1,0 +1,46 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqSocialUgcbaseDispatcherImplFlushServiceImplProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqSocialUgcbaseDispatcherImplFlushServiceImplProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+}
+resourceTypes {
+
+  ComAdobeCqSocialUgcbaseDispatcherImplFlushServiceImplProperties {
+    title = ComAdobeCqSocialUgcbaseDispatcherImplFlushServiceImplProperties
+    description = ComAdobeCqSocialUgcbaseDispatcherImplFlushServiceImplProperties
+    derivedFrom = Root
+    properties {
+        thread_pool_size {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        delay_time {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        worker_sleep_time {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqSocialUgcbaseDispatcherImplFlushServiceImplProperties {
+    title = ComAdobeCqSocialUgcbaseDispatcherImplFlushServiceImplProperties
+    description = ComAdobeCqSocialUgcbaseDispatcherImplFlushServiceImplProperties
+    implements = openapi_server.resourceTypes.ComAdobeCqSocialUgcbaseDispatcherImplFlushServiceImplProperties
+
+  }
+}

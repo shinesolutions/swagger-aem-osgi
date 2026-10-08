@@ -1,28 +1,39 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyInteger;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComAdobeGraniteBundlesHcImplJobsHealthCheckProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComAdobeGraniteBundlesHcImplJobsHealthCheckProperties   {
-  @JsonProperty("hc.tags")
-  private ConfigNodePropertyArray hcTags = null;
+@JsonTypeName("comAdobeGraniteBundlesHcImplJobsHealthCheckProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComAdobeGraniteBundlesHcImplJobsHealthCheckProperties {
 
-  @JsonProperty("max.queued.jobs")
-  private ConfigNodePropertyInteger maxQueuedJobs = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray hcTags;
 
-  public ComAdobeGraniteBundlesHcImplJobsHealthCheckProperties hcTags(ConfigNodePropertyArray hcTags) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger maxQueuedJobs;
+
+  public ComAdobeGraniteBundlesHcImplJobsHealthCheckProperties hcTags(@Nullable ConfigNodePropertyArray hcTags) {
     this.hcTags = hcTags;
     return this;
   }
@@ -30,20 +41,20 @@ public class ComAdobeGraniteBundlesHcImplJobsHealthCheckProperties   {
   /**
    * Get hcTags
    * @return hcTags
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getHcTags() {
+   */
+  @Valid 
+  @Schema(name = "hc.tags", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("hc.tags")
+  public @Nullable ConfigNodePropertyArray getHcTags() {
     return hcTags;
   }
 
-  public void setHcTags(ConfigNodePropertyArray hcTags) {
+  @JsonProperty("hc.tags")
+  public void setHcTags(@Nullable ConfigNodePropertyArray hcTags) {
     this.hcTags = hcTags;
   }
 
-  public ComAdobeGraniteBundlesHcImplJobsHealthCheckProperties maxQueuedJobs(ConfigNodePropertyInteger maxQueuedJobs) {
+  public ComAdobeGraniteBundlesHcImplJobsHealthCheckProperties maxQueuedJobs(@Nullable ConfigNodePropertyInteger maxQueuedJobs) {
     this.maxQueuedJobs = maxQueuedJobs;
     return this;
   }
@@ -51,22 +62,21 @@ public class ComAdobeGraniteBundlesHcImplJobsHealthCheckProperties   {
   /**
    * Get maxQueuedJobs
    * @return maxQueuedJobs
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getMaxQueuedJobs() {
+   */
+  @Valid 
+  @Schema(name = "max.queued.jobs", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("max.queued.jobs")
+  public @Nullable ConfigNodePropertyInteger getMaxQueuedJobs() {
     return maxQueuedJobs;
   }
 
-  public void setMaxQueuedJobs(ConfigNodePropertyInteger maxQueuedJobs) {
+  @JsonProperty("max.queued.jobs")
+  public void setMaxQueuedJobs(@Nullable ConfigNodePropertyInteger maxQueuedJobs) {
     this.maxQueuedJobs = maxQueuedJobs;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -87,7 +97,6 @@ public class ComAdobeGraniteBundlesHcImplJobsHealthCheckProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComAdobeGraniteBundlesHcImplJobsHealthCheckProperties {\n");
-    
     sb.append("    hcTags: ").append(toIndentedString(hcTags)).append("\n");
     sb.append("    maxQueuedJobs: ").append(toIndentedString(maxQueuedJobs)).append("\n");
     sb.append("}");
@@ -98,11 +107,8 @@ public class ComAdobeGraniteBundlesHcImplJobsHealthCheckProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

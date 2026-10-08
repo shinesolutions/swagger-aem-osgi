@@ -7,8 +7,8 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqSearchSuggestImplSuggestionIndexManagerImplProperties {
-    ConfigNodePropertyString pathBuilderTarget = null
-
-    ConfigNodePropertyString suggestBasepath = null
-
+    
+    ConfigNodePropertyString pathBuilderTarget
+    
+    ConfigNodePropertyString suggestBasepath
 }

@@ -2,16 +2,17 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**max_unread_notification_count** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **max_unread_notification_count** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComAdobeCqSocialNotificationsImplNotificationManagerImplProperties.new(max_unread_notification_count: null)
+instance = SwaggerAemOsgiClient::ComAdobeCqSocialNotificationsImplNotificationManagerImplProperties.new(
+  max_unread_notification_count: null
+)
 ```
-
 

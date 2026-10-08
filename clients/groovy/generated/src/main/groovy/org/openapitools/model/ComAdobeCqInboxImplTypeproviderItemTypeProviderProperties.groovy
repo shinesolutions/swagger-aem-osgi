@@ -8,14 +8,14 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeCqInboxImplTypeproviderItemTypeProviderProperties {
-    ConfigNodePropertyArray inboxImplTypeproviderRegistrypaths = null
-
-    ConfigNodePropertyArray inboxImplTypeproviderLegacypaths = null
-
-    ConfigNodePropertyString inboxImplTypeproviderDefaulturlFailureitem = null
-
-    ConfigNodePropertyString inboxImplTypeproviderDefaulturlWorkitem = null
-
-    ConfigNodePropertyString inboxImplTypeproviderDefaulturlTask = null
-
+    
+    ConfigNodePropertyArray inboxImplTypeproviderRegistrypaths
+    
+    ConfigNodePropertyArray inboxImplTypeproviderLegacypaths
+    
+    ConfigNodePropertyString inboxImplTypeproviderDefaulturlFailureitem
+    
+    ConfigNodePropertyString inboxImplTypeproviderDefaulturlWorkitem
+    
+    ConfigNodePropertyString inboxImplTypeproviderDefaulturlTask
 }

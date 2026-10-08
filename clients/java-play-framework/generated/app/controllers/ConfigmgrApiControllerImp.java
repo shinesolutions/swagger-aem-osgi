@@ -727,4333 +727,4335 @@ import play.mvc.Http;
 import java.util.List;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.LinkedHashSet;
 import java.io.FileInputStream;
+import play.libs.Files.TemporaryFile;
 import javax.validation.constraints.*;
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
-public class ConfigmgrApiControllerImp implements ConfigmgrApiControllerImpInterface {
+import javax.validation.Valid;
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ConfigmgrApiControllerImp extends ConfigmgrApiControllerImpInterface {
     @Override
-    public AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationInfo adaptiveFormAndInteractiveCommunicationWebChannelConfiguration(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean showPlaceholder, Integer maximumCacheEntries, String afScriptingCompatversion, Boolean makeFileNameUnique, Boolean generatingCompliantData) throws Exception {
+    public AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationInfo adaptiveFormAndInteractiveCommunicationWebChannelConfiguration(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean showPlaceholder, Integer maximumCacheEntries, String afScriptingCompatversion, Boolean makeFileNameUnique, Boolean generatingCompliantData) throws Exception {
         //Do your magic!!!
         return new AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationInfo();
     }
 
     @Override
-    public AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurInfo adaptiveFormAndInteractiveCommunicationWebChannelThemeConfigur(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> fontList) throws Exception {
+    public AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurInfo adaptiveFormAndInteractiveCommunicationWebChannelThemeConfigur(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> fontList) throws Exception {
         //Do your magic!!!
         return new AdaptiveFormAndInteractiveCommunicationWebChannelThemeConfigurInfo();
     }
 
     @Override
-    public AnalyticsComponentQueryCacheServiceInfo analyticsComponentQueryCacheService(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer cqAnalyticsComponentQueryCacheSize) throws Exception {
+    public AnalyticsComponentQueryCacheServiceInfo analyticsComponentQueryCacheService(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer cqAnalyticsComponentQueryCacheSize) throws Exception {
         //Do your magic!!!
         return new AnalyticsComponentQueryCacheServiceInfo();
     }
 
     @Override
-    public ApacheSlingHealthCheckResultHTMLSerializerInfo apacheSlingHealthCheckResultHTMLSerializer(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String styleString) throws Exception {
+    public ApacheSlingHealthCheckResultHTMLSerializerInfo apacheSlingHealthCheckResultHTMLSerializer(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String styleString) throws Exception {
         //Do your magic!!!
         return new ApacheSlingHealthCheckResultHTMLSerializerInfo();
     }
 
     @Override
-    public ComAdobeAemFormsndocumentsConfigAEMFormsManagerConfigurationInfo comAdobeAemFormsndocumentsConfigAEMFormsManagerConfiguration(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean formsManagerConfigIncludeOOTBTemplates, Boolean formsManagerConfigIncludeDeprecatedTemplates) throws Exception {
+    public ComAdobeAemFormsndocumentsConfigAEMFormsManagerConfigurationInfo comAdobeAemFormsndocumentsConfigAEMFormsManagerConfiguration(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean formsManagerConfigIncludeOOTBTemplates, Boolean formsManagerConfigIncludeDeprecatedTemplates) throws Exception {
         //Do your magic!!!
         return new ComAdobeAemFormsndocumentsConfigAEMFormsManagerConfigurationInfo();
     }
 
     @Override
-    public ComAdobeAemTransactionCoreImplTransactionRecorderInfo comAdobeAemTransactionCoreImplTransactionRecorder(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean isTransactionRecordingEnabled) throws Exception {
+    public ComAdobeAemTransactionCoreImplTransactionRecorderInfo comAdobeAemTransactionCoreImplTransactionRecorder(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean isTransactionRecordingEnabled) throws Exception {
         //Do your magic!!!
         return new ComAdobeAemTransactionCoreImplTransactionRecorderInfo();
     }
 
     @Override
-    public ComAdobeAemUpgradePrechecksHcImplDeprecateIndexesHCInfo comAdobeAemUpgradePrechecksHcImplDeprecateIndexesHC(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String hcName, List<String> hcTags, String hcMbeanName) throws Exception {
+    public ComAdobeAemUpgradePrechecksHcImplDeprecateIndexesHCInfo comAdobeAemUpgradePrechecksHcImplDeprecateIndexesHC(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String hcName, List<String> hcTags, String hcMbeanName) throws Exception {
         //Do your magic!!!
         return new ComAdobeAemUpgradePrechecksHcImplDeprecateIndexesHCInfo();
     }
 
     @Override
-    public ComAdobeAemUpgradePrechecksHcImplReplicationAgentsDisabledHCInfo comAdobeAemUpgradePrechecksHcImplReplicationAgentsDisabledHC(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String hcName, List<String> hcTags, String hcMbeanName) throws Exception {
+    public ComAdobeAemUpgradePrechecksHcImplReplicationAgentsDisabledHCInfo comAdobeAemUpgradePrechecksHcImplReplicationAgentsDisabledHC(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String hcName, List<String> hcTags, String hcMbeanName) throws Exception {
         //Do your magic!!!
         return new ComAdobeAemUpgradePrechecksHcImplReplicationAgentsDisabledHCInfo();
     }
 
     @Override
-    public ComAdobeAemUpgradePrechecksMbeanImplPreUpgradeTasksMBeanImplInfo comAdobeAemUpgradePrechecksMbeanImplPreUpgradeTasksMBeanImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> preUpgradeMaintenanceTasks, List<String> preUpgradeHcTags) throws Exception {
+    public ComAdobeAemUpgradePrechecksMbeanImplPreUpgradeTasksMBeanImplInfo comAdobeAemUpgradePrechecksMbeanImplPreUpgradeTasksMBeanImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> preUpgradeMaintenanceTasks, List<String> preUpgradeHcTags) throws Exception {
         //Do your magic!!!
         return new ComAdobeAemUpgradePrechecksMbeanImplPreUpgradeTasksMBeanImplInfo();
     }
 
     @Override
-    public ComAdobeAemUpgradePrechecksTasksImplConsistencyCheckTaskImplInfo comAdobeAemUpgradePrechecksTasksImplConsistencyCheckTaskImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String rootPath, Boolean fixInconsistencies) throws Exception {
+    public ComAdobeAemUpgradePrechecksTasksImplConsistencyCheckTaskImplInfo comAdobeAemUpgradePrechecksTasksImplConsistencyCheckTaskImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String rootPath, Boolean fixInconsistencies) throws Exception {
         //Do your magic!!!
         return new ComAdobeAemUpgradePrechecksTasksImplConsistencyCheckTaskImplInfo();
     }
 
     @Override
-    public ComAdobeCqAccountApiAccountManagementServiceInfo comAdobeCqAccountApiAccountManagementService(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer cqAccountmanagerTokenValidityPeriod, String cqAccountmanagerConfigRequestnewaccountMail, String cqAccountmanagerConfigRequestnewpwdMail) throws Exception {
+    public ComAdobeCqAccountApiAccountManagementServiceInfo comAdobeCqAccountApiAccountManagementService(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer cqAccountmanagerTokenValidityPeriod, String cqAccountmanagerConfigRequestnewaccountMail, String cqAccountmanagerConfigRequestnewpwdMail) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqAccountApiAccountManagementServiceInfo();
     }
 
     @Override
-    public ComAdobeCqAccountImplAccountManagementServletInfo comAdobeCqAccountImplAccountManagementServlet(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String cqAccountmanagerConfigInformnewaccountMail, String cqAccountmanagerConfigInformnewpwdMail) throws Exception {
+    public ComAdobeCqAccountImplAccountManagementServletInfo comAdobeCqAccountImplAccountManagementServlet(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String cqAccountmanagerConfigInformnewaccountMail, String cqAccountmanagerConfigInformnewpwdMail) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqAccountImplAccountManagementServletInfo();
     }
 
     @Override
-    public ComAdobeCqAddressImplLocationLocationListServletInfo comAdobeCqAddressImplLocationLocationListServlet(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer cqAddressLocationDefaultMaxResults) throws Exception {
+    public ComAdobeCqAddressImplLocationLocationListServletInfo comAdobeCqAddressImplLocationLocationListServlet(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer cqAddressLocationDefaultMaxResults) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqAddressImplLocationLocationListServletInfo();
     }
 
     @Override
-    public ComAdobeCqAuditPurgeDamInfo comAdobeCqAuditPurgeDam(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String auditlogRuleName, String auditlogRuleContentpath, Integer auditlogRuleMinimumage, String auditlogRuleTypes) throws Exception {
+    public ComAdobeCqAuditPurgeDamInfo comAdobeCqAuditPurgeDam(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String auditlogRuleName, String auditlogRuleContentpath, Integer auditlogRuleMinimumage, String auditlogRuleTypes) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqAuditPurgeDamInfo();
     }
 
     @Override
-    public ComAdobeCqAuditPurgePagesInfo comAdobeCqAuditPurgePages(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String auditlogRuleName, String auditlogRuleContentpath, Integer auditlogRuleMinimumage, String auditlogRuleTypes) throws Exception {
+    public ComAdobeCqAuditPurgePagesInfo comAdobeCqAuditPurgePages(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String auditlogRuleName, String auditlogRuleContentpath, Integer auditlogRuleMinimumage, String auditlogRuleTypes) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqAuditPurgePagesInfo();
     }
 
     @Override
-    public ComAdobeCqAuditPurgeReplicationInfo comAdobeCqAuditPurgeReplication(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String auditlogRuleName, String auditlogRuleContentpath, Integer auditlogRuleMinimumage, String auditlogRuleTypes) throws Exception {
+    public ComAdobeCqAuditPurgeReplicationInfo comAdobeCqAuditPurgeReplication(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String auditlogRuleName, String auditlogRuleContentpath, Integer auditlogRuleMinimumage, String auditlogRuleTypes) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqAuditPurgeReplicationInfo();
     }
 
     @Override
-    public ComAdobeCqCdnRewriterImplAWSCloudFrontRewriterInfo comAdobeCqCdnRewriterImplAWSCloudFrontRewriter(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer serviceRanking, String keypairId, String keypairAlias, List<String> cdnrewriterAttributes, String cdnRewriterDistributionDomain) throws Exception {
+    public ComAdobeCqCdnRewriterImplAWSCloudFrontRewriterInfo comAdobeCqCdnRewriterImplAWSCloudFrontRewriter(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer serviceRanking, String keypairId, String keypairAlias, List<String> cdnrewriterAttributes, String cdnRewriterDistributionDomain) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqCdnRewriterImplAWSCloudFrontRewriterInfo();
     }
 
     @Override
-    public ComAdobeCqCdnRewriterImplCDNConfigServiceImplInfo comAdobeCqCdnRewriterImplCDNConfigServiceImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String cdnConfigDistributionDomain, Boolean cdnConfigEnableRewriting, List<String> cdnConfigPathPrefixes, Integer cdnConfigCdnttl, String cdnConfigApplicationProtocol) throws Exception {
+    public ComAdobeCqCdnRewriterImplCDNConfigServiceImplInfo comAdobeCqCdnRewriterImplCDNConfigServiceImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String cdnConfigDistributionDomain, Boolean cdnConfigEnableRewriting, List<String> cdnConfigPathPrefixes, Integer cdnConfigCdnttl, String cdnConfigApplicationProtocol) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqCdnRewriterImplCDNConfigServiceImplInfo();
     }
 
     @Override
-    public ComAdobeCqCdnRewriterImplCDNRewriterInfo comAdobeCqCdnRewriterImplCDNRewriter(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer serviceRanking, List<String> cdnrewriterAttributes, String cdnRewriterDistributionDomain) throws Exception {
+    public ComAdobeCqCdnRewriterImplCDNRewriterInfo comAdobeCqCdnRewriterImplCDNRewriter(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer serviceRanking, List<String> cdnrewriterAttributes, String cdnRewriterDistributionDomain) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqCdnRewriterImplCDNRewriterInfo();
     }
 
     @Override
-    public ComAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandleInfo comAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandle(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> flushAgents) throws Exception {
+    public ComAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandleInfo comAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandle(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> flushAgents) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqCloudconfigCoreImplConfigurationReplicationEventHandleInfo();
     }
 
     @Override
-    public ComAdobeCqCommerceImplAssetDynamicImageHandlerInfo comAdobeCqCommerceImplAssetDynamicImageHandler(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean cqCommerceAssetHandlerActive, String cqCommerceAssetHandlerName) throws Exception {
+    public ComAdobeCqCommerceImplAssetDynamicImageHandlerInfo comAdobeCqCommerceImplAssetDynamicImageHandler(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean cqCommerceAssetHandlerActive, String cqCommerceAssetHandlerName) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqCommerceImplAssetDynamicImageHandlerInfo();
     }
 
     @Override
-    public ComAdobeCqCommerceImplAssetProductAssetHandlerProviderImplInfo comAdobeCqCommerceImplAssetProductAssetHandlerProviderImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String cqCommerceAssetHandlerFallback) throws Exception {
+    public ComAdobeCqCommerceImplAssetProductAssetHandlerProviderImplInfo comAdobeCqCommerceImplAssetProductAssetHandlerProviderImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String cqCommerceAssetHandlerFallback) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqCommerceImplAssetProductAssetHandlerProviderImplInfo();
     }
 
     @Override
-    public ComAdobeCqCommerceImplAssetStaticImageHandlerInfo comAdobeCqCommerceImplAssetStaticImageHandler(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean cqCommerceAssetHandlerActive, String cqCommerceAssetHandlerName) throws Exception {
+    public ComAdobeCqCommerceImplAssetStaticImageHandlerInfo comAdobeCqCommerceImplAssetStaticImageHandler(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean cqCommerceAssetHandlerActive, String cqCommerceAssetHandlerName) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqCommerceImplAssetStaticImageHandlerInfo();
     }
 
     @Override
-    public ComAdobeCqCommerceImplAssetVideoHandlerInfo comAdobeCqCommerceImplAssetVideoHandler(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean cqCommerceAssetHandlerActive, String cqCommerceAssetHandlerName) throws Exception {
+    public ComAdobeCqCommerceImplAssetVideoHandlerInfo comAdobeCqCommerceImplAssetVideoHandler(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean cqCommerceAssetHandlerActive, String cqCommerceAssetHandlerName) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqCommerceImplAssetVideoHandlerInfo();
     }
 
     @Override
-    public ComAdobeCqCommerceImplPromotionPromotionManagerImplInfo comAdobeCqCommerceImplPromotionPromotionManagerImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String cqCommercePromotionRoot) throws Exception {
+    public ComAdobeCqCommerceImplPromotionPromotionManagerImplInfo comAdobeCqCommerceImplPromotionPromotionManagerImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String cqCommercePromotionRoot) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqCommerceImplPromotionPromotionManagerImplInfo();
     }
 
     @Override
-    public ComAdobeCqCommercePimImplCataloggeneratorCatalogGeneratorImplInfo comAdobeCqCommercePimImplCataloggeneratorCatalogGeneratorImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer cqCommerceCataloggeneratorBucketsize, String cqCommerceCataloggeneratorBucketname, List<String> cqCommerceCataloggeneratorExcludedtemplateproperties) throws Exception {
+    public ComAdobeCqCommercePimImplCataloggeneratorCatalogGeneratorImplInfo comAdobeCqCommercePimImplCataloggeneratorCatalogGeneratorImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer cqCommerceCataloggeneratorBucketsize, String cqCommerceCataloggeneratorBucketname, List<String> cqCommerceCataloggeneratorExcludedtemplateproperties) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqCommercePimImplCataloggeneratorCatalogGeneratorImplInfo();
     }
 
     @Override
-    public ComAdobeCqCommercePimImplPageEventListenerInfo comAdobeCqCommercePimImplPageEventListener(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean cqCommercePageeventlistenerEnabled) throws Exception {
+    public ComAdobeCqCommercePimImplPageEventListenerInfo comAdobeCqCommercePimImplPageEventListener(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean cqCommercePageeventlistenerEnabled) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqCommercePimImplPageEventListenerInfo();
     }
 
     @Override
-    public ComAdobeCqCommercePimImplProductfeedProductFeedServiceImplInfo comAdobeCqCommercePimImplProductfeedProductFeedServiceImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String feedGeneratorAlgorithm) throws Exception {
+    public ComAdobeCqCommercePimImplProductfeedProductFeedServiceImplInfo comAdobeCqCommercePimImplProductfeedProductFeedServiceImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String feedGeneratorAlgorithm) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqCommercePimImplProductfeedProductFeedServiceImplInfo();
     }
 
     @Override
-    public ComAdobeCqContentinsightImplReportingServicesSettingsProviderInfo comAdobeCqContentinsightImplReportingServicesSettingsProvider(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String reportingservicesUrl) throws Exception {
+    public ComAdobeCqContentinsightImplReportingServicesSettingsProviderInfo comAdobeCqContentinsightImplReportingServicesSettingsProvider(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String reportingservicesUrl) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqContentinsightImplReportingServicesSettingsProviderInfo();
     }
 
     @Override
-    public ComAdobeCqContentinsightImplServletsBrightEdgeProxyServletInfo comAdobeCqContentinsightImplServletsBrightEdgeProxyServlet(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String brightedgeUrl) throws Exception {
+    public ComAdobeCqContentinsightImplServletsBrightEdgeProxyServletInfo comAdobeCqContentinsightImplServletsBrightEdgeProxyServlet(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String brightedgeUrl) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqContentinsightImplServletsBrightEdgeProxyServletInfo();
     }
 
     @Override
-    public ComAdobeCqContentinsightImplServletsReportingServicesProxyServleInfo comAdobeCqContentinsightImplServletsReportingServicesProxyServle(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> reportingservicesProxyWhitelist) throws Exception {
+    public ComAdobeCqContentinsightImplServletsReportingServicesProxyServleInfo comAdobeCqContentinsightImplServletsReportingServicesProxyServle(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> reportingservicesProxyWhitelist) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqContentinsightImplServletsReportingServicesProxyServleInfo();
     }
 
     @Override
-    public ComAdobeCqDamCfmImplComponentComponentConfigImplInfo comAdobeCqDamCfmImplComponentComponentConfigImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String damCfmComponentResourceType, String damCfmComponentFileReferenceProp, String damCfmComponentElementsProp, String damCfmComponentVariationProp) throws Exception {
+    public ComAdobeCqDamCfmImplComponentComponentConfigImplInfo comAdobeCqDamCfmImplComponentComponentConfigImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String damCfmComponentResourceType, String damCfmComponentFileReferenceProp, String damCfmComponentElementsProp, String damCfmComponentVariationProp) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqDamCfmImplComponentComponentConfigImplInfo();
     }
 
     @Override
-    public ComAdobeCqDamCfmImplConfFeatureConfigImplInfo comAdobeCqDamCfmImplConfFeatureConfigImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> damCfmResourceTypes, List<String> damCfmReferenceProperties) throws Exception {
+    public ComAdobeCqDamCfmImplConfFeatureConfigImplInfo comAdobeCqDamCfmImplConfFeatureConfigImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> damCfmResourceTypes, List<String> damCfmReferenceProperties) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqDamCfmImplConfFeatureConfigImplInfo();
     }
 
     @Override
-    public ComAdobeCqDamCfmImplContentRewriterAssetProcessorInfo comAdobeCqDamCfmImplContentRewriterAssetProcessor(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String pipelineType) throws Exception {
+    public ComAdobeCqDamCfmImplContentRewriterAssetProcessorInfo comAdobeCqDamCfmImplContentRewriterAssetProcessor(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String pipelineType) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqDamCfmImplContentRewriterAssetProcessorInfo();
     }
 
     @Override
-    public ComAdobeCqDamCfmImplContentRewriterParRangeFilterInfo comAdobeCqDamCfmImplContentRewriterParRangeFilter(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String pipelineType) throws Exception {
+    public ComAdobeCqDamCfmImplContentRewriterParRangeFilterInfo comAdobeCqDamCfmImplContentRewriterParRangeFilter(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String pipelineType) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqDamCfmImplContentRewriterParRangeFilterInfo();
     }
 
     @Override
-    public ComAdobeCqDamCfmImplContentRewriterPayloadFilterInfo comAdobeCqDamCfmImplContentRewriterPayloadFilter(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String pipelineType) throws Exception {
+    public ComAdobeCqDamCfmImplContentRewriterPayloadFilterInfo comAdobeCqDamCfmImplContentRewriterPayloadFilter(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String pipelineType) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqDamCfmImplContentRewriterPayloadFilterInfo();
     }
 
     @Override
-    public ComAdobeCqDamDmProcessImagePTiffManagerImplInfo comAdobeCqDamDmProcessImagePTiffManagerImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer maxMemory) throws Exception {
+    public ComAdobeCqDamDmProcessImagePTiffManagerImplInfo comAdobeCqDamDmProcessImagePTiffManagerImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer maxMemory) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqDamDmProcessImagePTiffManagerImplInfo();
     }
 
     @Override
-    public ComAdobeCqDamIpsImplReplicationTriggerReplicateOnModifyWorkerInfo comAdobeCqDamIpsImplReplicationTriggerReplicateOnModifyWorker(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean dmreplicateonmodifyEnabled, Boolean dmreplicateonmodifyForcesyncdeletes) throws Exception {
+    public ComAdobeCqDamIpsImplReplicationTriggerReplicateOnModifyWorkerInfo comAdobeCqDamIpsImplReplicationTriggerReplicateOnModifyWorker(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean dmreplicateonmodifyEnabled, Boolean dmreplicateonmodifyForcesyncdeletes) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqDamIpsImplReplicationTriggerReplicateOnModifyWorkerInfo();
     }
 
     @Override
-    public ComAdobeCqDamMacSyncHelperImplMACSyncClientImplInfo comAdobeCqDamMacSyncHelperImplMACSyncClientImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer comAdobeDamMacSyncClientSoTimeout) throws Exception {
+    public ComAdobeCqDamMacSyncHelperImplMACSyncClientImplInfo comAdobeCqDamMacSyncHelperImplMACSyncClientImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer comAdobeDamMacSyncClientSoTimeout) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqDamMacSyncHelperImplMACSyncClientImplInfo();
     }
 
     @Override
-    public ComAdobeCqDamMacSyncImplDAMSyncServiceImplInfo comAdobeCqDamMacSyncImplDAMSyncServiceImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> comAdobeCqDamMacSyncDamsyncserviceRegisteredPaths, Boolean comAdobeCqDamMacSyncDamsyncserviceSyncRenditions, Integer comAdobeCqDamMacSyncDamsyncserviceReplicateThreadWaitMs, String comAdobeCqDamMacSyncDamsyncservicePlatform) throws Exception {
+    public ComAdobeCqDamMacSyncImplDAMSyncServiceImplInfo comAdobeCqDamMacSyncImplDAMSyncServiceImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> comAdobeCqDamMacSyncDamsyncserviceRegisteredPaths, Boolean comAdobeCqDamMacSyncDamsyncserviceSyncRenditions, Integer comAdobeCqDamMacSyncDamsyncserviceReplicateThreadWaitMs, String comAdobeCqDamMacSyncDamsyncservicePlatform) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqDamMacSyncImplDAMSyncServiceImplInfo();
     }
 
     @Override
-    public ComAdobeCqDamProcessorNuiImplNuiAssetProcessorInfo comAdobeCqDamProcessorNuiImplNuiAssetProcessor(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean nuiEnabled, String nuiServiceUrl, String nuiApiKey) throws Exception {
+    public ComAdobeCqDamProcessorNuiImplNuiAssetProcessorInfo comAdobeCqDamProcessorNuiImplNuiAssetProcessor(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean nuiEnabled, String nuiServiceUrl, String nuiApiKey) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqDamProcessorNuiImplNuiAssetProcessorInfo();
     }
 
     @Override
-    public ComAdobeCqDamS7imagingImplIsImageServerComponentInfo comAdobeCqDamS7imagingImplIsImageServerComponent(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String tcpPort, Boolean allowRemoteAccess, String maxRenderRgnPixels, String maxMessageSize, Integer randomAccessUrlTimeout, Integer workerThreads) throws Exception {
+    public ComAdobeCqDamS7imagingImplIsImageServerComponentInfo comAdobeCqDamS7imagingImplIsImageServerComponent(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String tcpPort, Boolean allowRemoteAccess, String maxRenderRgnPixels, String maxMessageSize, Integer randomAccessUrlTimeout, Integer workerThreads) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqDamS7imagingImplIsImageServerComponentInfo();
     }
 
     @Override
-    public ComAdobeCqDamS7imagingImplPsPlatformServerServletInfo comAdobeCqDamS7imagingImplPsPlatformServerServlet(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean cacheEnable, List<String> cacheRootPaths, Integer cacheMaxSize, Integer cacheMaxEntries) throws Exception {
+    public ComAdobeCqDamS7imagingImplPsPlatformServerServletInfo comAdobeCqDamS7imagingImplPsPlatformServerServlet(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean cacheEnable, List<String> cacheRootPaths, Integer cacheMaxSize, Integer cacheMaxEntries) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqDamS7imagingImplPsPlatformServerServletInfo();
     }
 
     @Override
-    public ComAdobeCqDamWebdavImplIoAssetIOHandlerInfo comAdobeCqDamWebdavImplIoAssetIOHandler(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer serviceRanking, String pathPrefix, Boolean createVersion) throws Exception {
+    public ComAdobeCqDamWebdavImplIoAssetIOHandlerInfo comAdobeCqDamWebdavImplIoAssetIOHandler(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer serviceRanking, String pathPrefix, Boolean createVersion) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqDamWebdavImplIoAssetIOHandlerInfo();
     }
 
     @Override
-    public ComAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJobInfo comAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJob(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean cqDamWebdavVersionLinkingEnable, Integer cqDamWebdavVersionLinkingSchedulerPeriod, Integer cqDamWebdavVersionLinkingStagingTimeout) throws Exception {
+    public ComAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJobInfo comAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJob(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean cqDamWebdavVersionLinkingEnable, Integer cqDamWebdavVersionLinkingSchedulerPeriod, Integer cqDamWebdavVersionLinkingStagingTimeout) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqDamWebdavImplIoDamWebdavVersionLinkingJobInfo();
     }
 
     @Override
-    public ComAdobeCqDamWebdavImplIoSpecialFilesHandlerInfo comAdobeCqDamWebdavImplIoSpecialFilesHandler(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> comDayCqDamCoreImplIoSpecialFilesHandlerFilepatters) throws Exception {
+    public ComAdobeCqDamWebdavImplIoSpecialFilesHandlerInfo comAdobeCqDamWebdavImplIoSpecialFilesHandler(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> comDayCqDamCoreImplIoSpecialFilesHandlerFilepatters) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqDamWebdavImplIoSpecialFilesHandlerInfo();
     }
 
     @Override
-    public ComAdobeCqDeserfwImplDeserializationFirewallImplInfo comAdobeCqDeserfwImplDeserializationFirewallImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> firewallDeserializationWhitelist, List<String> firewallDeserializationBlacklist, String firewallDeserializationDiagnostics) throws Exception {
+    public ComAdobeCqDeserfwImplDeserializationFirewallImplInfo comAdobeCqDeserfwImplDeserializationFirewallImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> firewallDeserializationWhitelist, List<String> firewallDeserializationBlacklist, String firewallDeserializationDiagnostics) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqDeserfwImplDeserializationFirewallImplInfo();
     }
 
     @Override
-    public ComAdobeCqDtmImplServiceDTMWebServiceImplInfo comAdobeCqDtmImplServiceDTMWebServiceImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer connectionTimeout, Integer socketTimeout) throws Exception {
+    public ComAdobeCqDtmImplServiceDTMWebServiceImplInfo comAdobeCqDtmImplServiceDTMWebServiceImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer connectionTimeout, Integer socketTimeout) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqDtmImplServiceDTMWebServiceImplInfo();
     }
 
     @Override
-    public ComAdobeCqDtmImplServletsDTMDeployHookServletInfo comAdobeCqDtmImplServletsDTMDeployHookServlet(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> dtmStagingIpWhitelist, List<String> dtmProductionIpWhitelist) throws Exception {
+    public ComAdobeCqDtmImplServletsDTMDeployHookServletInfo comAdobeCqDtmImplServletsDTMDeployHookServlet(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> dtmStagingIpWhitelist, List<String> dtmProductionIpWhitelist) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqDtmImplServletsDTMDeployHookServletInfo();
     }
 
     @Override
-    public ComAdobeCqDtmReactorImplServiceWebServiceImplInfo comAdobeCqDtmReactorImplServiceWebServiceImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String endpointUri, Integer connectionTimeout, Integer socketTimeout) throws Exception {
+    public ComAdobeCqDtmReactorImplServiceWebServiceImplInfo comAdobeCqDtmReactorImplServiceWebServiceImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String endpointUri, Integer connectionTimeout, Integer socketTimeout) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqDtmReactorImplServiceWebServiceImplInfo();
     }
 
     @Override
-    public ComAdobeCqExperiencelogImplExperienceLogConfigServletInfo comAdobeCqExperiencelogImplExperienceLogConfigServlet(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean enabled, List<String> disabledForGroups) throws Exception {
+    public ComAdobeCqExperiencelogImplExperienceLogConfigServletInfo comAdobeCqExperiencelogImplExperienceLogConfigServlet(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean enabled, List<String> disabledForGroups) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqExperiencelogImplExperienceLogConfigServletInfo();
     }
 
     @Override
-    public ComAdobeCqHcContentPackagesHealthCheckInfo comAdobeCqHcContentPackagesHealthCheck(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String hcName, List<String> hcTags, String hcMbeanName, List<String> packageNames) throws Exception {
+    public ComAdobeCqHcContentPackagesHealthCheckInfo comAdobeCqHcContentPackagesHealthCheck(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String hcName, List<String> hcTags, String hcMbeanName, List<String> packageNames) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqHcContentPackagesHealthCheckInfo();
     }
 
     @Override
-    public ComAdobeCqHistoryImplHistoryRequestFilterInfo comAdobeCqHistoryImplHistoryRequestFilter(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> historyRequestFilterExcludedSelectors, List<String> historyRequestFilterExcludedExtensions) throws Exception {
+    public ComAdobeCqHistoryImplHistoryRequestFilterInfo comAdobeCqHistoryImplHistoryRequestFilter(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> historyRequestFilterExcludedSelectors, List<String> historyRequestFilterExcludedExtensions) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqHistoryImplHistoryRequestFilterInfo();
     }
 
     @Override
-    public ComAdobeCqHistoryImplHistoryServiceImplInfo comAdobeCqHistoryImplHistoryServiceImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> historyServiceResourceTypes, List<String> historyServicePathFilter) throws Exception {
+    public ComAdobeCqHistoryImplHistoryServiceImplInfo comAdobeCqHistoryImplHistoryServiceImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> historyServiceResourceTypes, List<String> historyServicePathFilter) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqHistoryImplHistoryServiceImplInfo();
     }
 
     @Override
-    public ComAdobeCqInboxImplTypeproviderItemTypeProviderInfo comAdobeCqInboxImplTypeproviderItemTypeProvider(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> inboxImplTypeproviderRegistrypaths, List<String> inboxImplTypeproviderLegacypaths, String inboxImplTypeproviderDefaulturlFailureitem, String inboxImplTypeproviderDefaulturlWorkitem, String inboxImplTypeproviderDefaulturlTask) throws Exception {
+    public ComAdobeCqInboxImplTypeproviderItemTypeProviderInfo comAdobeCqInboxImplTypeproviderItemTypeProvider(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> inboxImplTypeproviderRegistrypaths, List<String> inboxImplTypeproviderLegacypaths, String inboxImplTypeproviderDefaulturlFailureitem, String inboxImplTypeproviderDefaulturlWorkitem, String inboxImplTypeproviderDefaulturlTask) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqInboxImplTypeproviderItemTypeProviderInfo();
     }
 
     @Override
-    public ComAdobeCqProjectsImplServletProjectImageServletInfo comAdobeCqProjectsImplServletProjectImageServlet(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String imageQuality, String imageSupportedResolutions) throws Exception {
+    public ComAdobeCqProjectsImplServletProjectImageServletInfo comAdobeCqProjectsImplServletProjectImageServlet(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String imageQuality, String imageSupportedResolutions) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqProjectsImplServletProjectImageServletInfo();
     }
 
     @Override
-    public ComAdobeCqProjectsPurgeSchedulerInfo comAdobeCqProjectsPurgeScheduler(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String scheduledpurgeName, Boolean scheduledpurgePurgeActive, List<String> scheduledpurgeTemplates, Boolean scheduledpurgePurgeGroups, Boolean scheduledpurgePurgeAssets, Boolean scheduledpurgeTerminateRunningWorkflows, Integer scheduledpurgeDaysold, Integer scheduledpurgeSaveThreshold) throws Exception {
+    public ComAdobeCqProjectsPurgeSchedulerInfo comAdobeCqProjectsPurgeScheduler(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String scheduledpurgeName, Boolean scheduledpurgePurgeActive, List<String> scheduledpurgeTemplates, Boolean scheduledpurgePurgeGroups, Boolean scheduledpurgePurgeAssets, Boolean scheduledpurgeTerminateRunningWorkflows, Integer scheduledpurgeDaysold, Integer scheduledpurgeSaveThreshold) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqProjectsPurgeSchedulerInfo();
     }
 
     @Override
-    public ComAdobeCqScheduledExporterImplScheduledExporterImplInfo comAdobeCqScheduledExporterImplScheduledExporterImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> includePaths, String exporterUser) throws Exception {
+    public ComAdobeCqScheduledExporterImplScheduledExporterImplInfo comAdobeCqScheduledExporterImplScheduledExporterImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> includePaths, String exporterUser) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqScheduledExporterImplScheduledExporterImplInfo();
     }
 
     @Override
-    public ComAdobeCqScreensAnalyticsImplScreensAnalyticsServiceImplInfo comAdobeCqScreensAnalyticsImplScreensAnalyticsServiceImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String comAdobeCqScreensAnalyticsImplUrl, String comAdobeCqScreensAnalyticsImplApikey, String comAdobeCqScreensAnalyticsImplProject, String comAdobeCqScreensAnalyticsImplEnvironment, Integer comAdobeCqScreensAnalyticsImplSendFrequency) throws Exception {
+    public ComAdobeCqScreensAnalyticsImplScreensAnalyticsServiceImplInfo comAdobeCqScreensAnalyticsImplScreensAnalyticsServiceImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String comAdobeCqScreensAnalyticsImplUrl, String comAdobeCqScreensAnalyticsImplApikey, String comAdobeCqScreensAnalyticsImplProject, String comAdobeCqScreensAnalyticsImplEnvironment, Integer comAdobeCqScreensAnalyticsImplSendFrequency) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqScreensAnalyticsImplScreensAnalyticsServiceImplInfo();
     }
 
     @Override
-    public ComAdobeCqScreensDeviceImplDeviceServiceInfo comAdobeCqScreensDeviceImplDeviceService(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer comAdobeAemScreensPlayerPingfrequency, String comAdobeAemScreensDevicePaswordSpecialchars, Integer comAdobeAemScreensDevicePaswordMinlowercasechars, Integer comAdobeAemScreensDevicePaswordMinuppercasechars, Integer comAdobeAemScreensDevicePaswordMinnumberchars, Integer comAdobeAemScreensDevicePaswordMinspecialchars, Integer comAdobeAemScreensDevicePaswordMinlength) throws Exception {
+    public ComAdobeCqScreensDeviceImplDeviceServiceInfo comAdobeCqScreensDeviceImplDeviceService(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer comAdobeAemScreensPlayerPingfrequency, String comAdobeAemScreensDevicePaswordSpecialchars, Integer comAdobeAemScreensDevicePaswordMinlowercasechars, Integer comAdobeAemScreensDevicePaswordMinuppercasechars, Integer comAdobeAemScreensDevicePaswordMinnumberchars, Integer comAdobeAemScreensDevicePaswordMinspecialchars, Integer comAdobeAemScreensDevicePaswordMinlength) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqScreensDeviceImplDeviceServiceInfo();
     }
 
     @Override
-    public ComAdobeCqScreensDeviceRegistrationImplRegistrationServiceImplInfo comAdobeCqScreensDeviceRegistrationImplRegistrationServiceImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer deviceRegistrationTimeout) throws Exception {
+    public ComAdobeCqScreensDeviceRegistrationImplRegistrationServiceImplInfo comAdobeCqScreensDeviceRegistrationImplRegistrationServiceImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer deviceRegistrationTimeout) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqScreensDeviceRegistrationImplRegistrationServiceImplInfo();
     }
 
     @Override
-    public ComAdobeCqScreensImplHandlerChannelsUpdateHandlerInfo comAdobeCqScreensImplHandlerChannelsUpdateHandler(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> cqPagesupdatehandlerImageresourcetypes, List<String> cqPagesupdatehandlerProductresourcetypes, List<String> cqPagesupdatehandlerVideoresourcetypes, List<String> cqPagesupdatehandlerDynamicsequenceresourcetypes, List<String> cqPagesupdatehandlerPreviewmodepaths) throws Exception {
+    public ComAdobeCqScreensImplHandlerChannelsUpdateHandlerInfo comAdobeCqScreensImplHandlerChannelsUpdateHandler(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> cqPagesupdatehandlerImageresourcetypes, List<String> cqPagesupdatehandlerProductresourcetypes, List<String> cqPagesupdatehandlerVideoresourcetypes, List<String> cqPagesupdatehandlerDynamicsequenceresourcetypes, List<String> cqPagesupdatehandlerPreviewmodepaths) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqScreensImplHandlerChannelsUpdateHandlerInfo();
     }
 
     @Override
-    public ComAdobeCqScreensImplJobsDistributedDevicesStatiUpdateJobInfo comAdobeCqScreensImplJobsDistributedDevicesStatiUpdateJob(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String schedulerExpression) throws Exception {
+    public ComAdobeCqScreensImplJobsDistributedDevicesStatiUpdateJobInfo comAdobeCqScreensImplJobsDistributedDevicesStatiUpdateJob(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String schedulerExpression) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqScreensImplJobsDistributedDevicesStatiUpdateJobInfo();
     }
 
     @Override
-    public ComAdobeCqScreensImplRemoteImplDistributedHttpClientImplInfo comAdobeCqScreensImplRemoteImplDistributedHttpClientImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer comAdobeAemScreensImplRemoteRequestTimeout) throws Exception {
+    public ComAdobeCqScreensImplRemoteImplDistributedHttpClientImplInfo comAdobeCqScreensImplRemoteImplDistributedHttpClientImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer comAdobeAemScreensImplRemoteRequestTimeout) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqScreensImplRemoteImplDistributedHttpClientImplInfo();
     }
 
     @Override
-    public ComAdobeCqScreensImplScreensChannelPostProcessorInfo comAdobeCqScreensImplScreensChannelPostProcessor(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> screensChannelsPropertiesToRemove) throws Exception {
+    public ComAdobeCqScreensImplScreensChannelPostProcessorInfo comAdobeCqScreensImplScreensChannelPostProcessor(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> screensChannelsPropertiesToRemove) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqScreensImplScreensChannelPostProcessorInfo();
     }
 
     @Override
-    public ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplInfo comAdobeCqScreensMonitoringImplScreensMonitoringServiceImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProjectPath, String comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplScheduleFrequency, Integer comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplPingTimeout, String comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplRecipients, String comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplSmtpserver, Integer comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplSmtpport, Boolean comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplUsetls, String comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplUsername, String comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplPassword) throws Exception {
+    public ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplInfo comAdobeCqScreensMonitoringImplScreensMonitoringServiceImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProjectPath, String comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplScheduleFrequency, Integer comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplPingTimeout, String comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplRecipients, String comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplSmtpserver, Integer comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplSmtpport, Boolean comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplUsetls, String comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplUsername, String comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplPassword) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqScreensMonitoringImplScreensMonitoringServiceImplInfo();
     }
 
     @Override
-    public ComAdobeCqScreensMqActivemqImplArtemisJMSProviderInfo comAdobeCqScreensMqActivemqImplArtemisJMSProvider(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer serviceRanking, Integer globalSize, Integer maxDiskUsage, Boolean persistenceEnabled, Integer threadPoolMaxSize, Integer scheduledThreadPoolMaxSize, Integer gracefulShutdownTimeout, List<String> queues, List<String> topics, Integer addressesMaxDeliveryAttempts, Integer addressesExpiryDelay, String addressesAddressFullMessagePolicy, Integer addressesMaxSizeBytes, Integer addressesPageSizeBytes, Integer addressesPageCacheMaxSize, String clusterUser, String clusterPassword, Integer clusterCallTimeout, Integer clusterCallFailoverTimeout, Integer clusterClientFailureCheckPeriod, Integer clusterNotificationAttempts, Integer clusterNotificationInterval, Integer idCacheSize, Integer clusterConfirmationWindowSize, Integer clusterConnectionTtl, Boolean clusterDuplicateDetection, Integer clusterInitialConnectAttempts, Integer clusterMaxRetryInterval, Integer clusterMinLargeMessageSize, Integer clusterProducerWindowSize, Integer clusterReconnectAttempts, Integer clusterRetryInterval, BigDecimal clusterRetryIntervalMultiplier) throws Exception {
+    public ComAdobeCqScreensMqActivemqImplArtemisJMSProviderInfo comAdobeCqScreensMqActivemqImplArtemisJMSProvider(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer serviceRanking, Integer globalSize, Integer maxDiskUsage, Boolean persistenceEnabled, Integer threadPoolMaxSize, Integer scheduledThreadPoolMaxSize, Integer gracefulShutdownTimeout, List<String> queues, List<String> topics, Integer addressesMaxDeliveryAttempts, Integer addressesExpiryDelay, String addressesAddressFullMessagePolicy, Integer addressesMaxSizeBytes, Integer addressesPageSizeBytes, Integer addressesPageCacheMaxSize, String clusterUser, String clusterPassword, Integer clusterCallTimeout, Integer clusterCallFailoverTimeout, Integer clusterClientFailureCheckPeriod, Integer clusterNotificationAttempts, Integer clusterNotificationInterval, Integer idCacheSize, Integer clusterConfirmationWindowSize, Integer clusterConnectionTtl, Boolean clusterDuplicateDetection, Integer clusterInitialConnectAttempts, Integer clusterMaxRetryInterval, Integer clusterMinLargeMessageSize, Integer clusterProducerWindowSize, Integer clusterReconnectAttempts, Integer clusterRetryInterval, BigDecimal clusterRetryIntervalMultiplier) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqScreensMqActivemqImplArtemisJMSProviderInfo();
     }
 
     @Override
-    public ComAdobeCqScreensOfflinecontentImplBulkOfflineUpdateServiceImplInfo comAdobeCqScreensOfflinecontentImplBulkOfflineUpdateServiceImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> comAdobeCqScreensOfflinecontentImplBulkOfflineUpdateServiceImplProjectPath, String comAdobeCqScreensOfflinecontentImplBulkOfflineUpdateServiceImplScheduleFrequency) throws Exception {
+    public ComAdobeCqScreensOfflinecontentImplBulkOfflineUpdateServiceImplInfo comAdobeCqScreensOfflinecontentImplBulkOfflineUpdateServiceImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> comAdobeCqScreensOfflinecontentImplBulkOfflineUpdateServiceImplProjectPath, String comAdobeCqScreensOfflinecontentImplBulkOfflineUpdateServiceImplScheduleFrequency) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqScreensOfflinecontentImplBulkOfflineUpdateServiceImplInfo();
     }
 
     @Override
-    public ComAdobeCqScreensOfflinecontentImplOfflineContentServiceImplInfo comAdobeCqScreensOfflinecontentImplOfflineContentServiceImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean disableSmartSync) throws Exception {
+    public ComAdobeCqScreensOfflinecontentImplOfflineContentServiceImplInfo comAdobeCqScreensOfflinecontentImplOfflineContentServiceImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean disableSmartSync) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqScreensOfflinecontentImplOfflineContentServiceImplInfo();
     }
 
     @Override
-    public ComAdobeCqScreensSegmentationImplSegmentationFeatureFlagInfo comAdobeCqScreensSegmentationImplSegmentationFeatureFlag(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean enableDataTriggeredContent) throws Exception {
+    public ComAdobeCqScreensSegmentationImplSegmentationFeatureFlagInfo comAdobeCqScreensSegmentationImplSegmentationFeatureFlag(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean enableDataTriggeredContent) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqScreensSegmentationImplSegmentationFeatureFlagInfo();
     }
 
     @Override
-    public ComAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthChInfo comAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthCh(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> hcTags) throws Exception {
+    public ComAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthChInfo comAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthCh(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> hcTags) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSecurityHcBundlesImplHtmlLibraryManagerConfigHealthChInfo();
     }
 
     @Override
-    public ComAdobeCqSecurityHcBundlesImplWcmFilterHealthCheckInfo comAdobeCqSecurityHcBundlesImplWcmFilterHealthCheck(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> hcTags) throws Exception {
+    public ComAdobeCqSecurityHcBundlesImplWcmFilterHealthCheckInfo comAdobeCqSecurityHcBundlesImplWcmFilterHealthCheck(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> hcTags) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSecurityHcBundlesImplWcmFilterHealthCheckInfo();
     }
 
     @Override
-    public ComAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheckInfo comAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheck(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> hcTags, String dispatcherAddress, List<String> dispatcherFilterAllowed, List<String> dispatcherFilterBlocked) throws Exception {
+    public ComAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheckInfo comAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheck(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> hcTags, String dispatcherAddress, List<String> dispatcherFilterAllowed, List<String> dispatcherFilterBlocked) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheckInfo();
     }
 
     @Override
-    public ComAdobeCqSecurityHcPackagesImplExampleContentHealthCheckInfo comAdobeCqSecurityHcPackagesImplExampleContentHealthCheck(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> hcTags) throws Exception {
+    public ComAdobeCqSecurityHcPackagesImplExampleContentHealthCheckInfo comAdobeCqSecurityHcPackagesImplExampleContentHealthCheck(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> hcTags) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSecurityHcPackagesImplExampleContentHealthCheckInfo();
     }
 
     @Override
-    public ComAdobeCqSecurityHcWebserverImplClickjackingHealthCheckInfo comAdobeCqSecurityHcWebserverImplClickjackingHealthCheck(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> hcTags, String webserverAddress) throws Exception {
+    public ComAdobeCqSecurityHcWebserverImplClickjackingHealthCheckInfo comAdobeCqSecurityHcWebserverImplClickjackingHealthCheck(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> hcTags, String webserverAddress) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSecurityHcWebserverImplClickjackingHealthCheckInfo();
     }
 
     @Override
-    public ComAdobeCqSocialAccountverificationImplAccountManagementConfigImInfo comAdobeCqSocialAccountverificationImplAccountManagementConfigIm(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean enable, Integer ttl1, Integer ttl2) throws Exception {
+    public ComAdobeCqSocialAccountverificationImplAccountManagementConfigImInfo comAdobeCqSocialAccountverificationImplAccountManagementConfigIm(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean enable, Integer ttl1, Integer ttl2) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialAccountverificationImplAccountManagementConfigImInfo();
     }
 
     @Override
-    public ComAdobeCqSocialActivitystreamsClientImplSocialActivityComponenInfo comAdobeCqSocialActivitystreamsClientImplSocialActivityComponen(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer priority) throws Exception {
+    public ComAdobeCqSocialActivitystreamsClientImplSocialActivityComponenInfo comAdobeCqSocialActivitystreamsClientImplSocialActivityComponen(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer priority) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialActivitystreamsClientImplSocialActivityComponenInfo();
     }
 
     @Override
-    public ComAdobeCqSocialActivitystreamsClientImplSocialActivityStreamCoInfo comAdobeCqSocialActivitystreamsClientImplSocialActivityStreamCo(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer priority) throws Exception {
+    public ComAdobeCqSocialActivitystreamsClientImplSocialActivityStreamCoInfo comAdobeCqSocialActivitystreamsClientImplSocialActivityStreamCo(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer priority) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialActivitystreamsClientImplSocialActivityStreamCoInfo();
     }
 
     @Override
-    public ComAdobeCqSocialActivitystreamsListenerImplEventListenerHandlerInfo comAdobeCqSocialActivitystreamsListenerImplEventListenerHandler(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String eventTopics, String eventFilter) throws Exception {
+    public ComAdobeCqSocialActivitystreamsListenerImplEventListenerHandlerInfo comAdobeCqSocialActivitystreamsListenerImplEventListenerHandler(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String eventTopics, String eventFilter) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialActivitystreamsListenerImplEventListenerHandlerInfo();
     }
 
     @Override
-    public ComAdobeCqSocialActivitystreamsListenerImplModerationEventExtenInfo comAdobeCqSocialActivitystreamsListenerImplModerationEventExten(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean accepted, Integer ranked) throws Exception {
+    public ComAdobeCqSocialActivitystreamsListenerImplModerationEventExtenInfo comAdobeCqSocialActivitystreamsListenerImplModerationEventExten(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean accepted, Integer ranked) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialActivitystreamsListenerImplModerationEventExtenInfo();
     }
 
     @Override
-    public ComAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySInfo comAdobeCqSocialActivitystreamsListenerImplRatingEventActivityS(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer ranking, Boolean enable) throws Exception {
+    public ComAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySInfo comAdobeCqSocialActivitystreamsListenerImplRatingEventActivityS(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer ranking, Boolean enable) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialActivitystreamsListenerImplRatingEventActivitySInfo();
     }
 
     @Override
-    public ComAdobeCqSocialActivitystreamsListenerImplResourceActivityStreInfo comAdobeCqSocialActivitystreamsListenerImplResourceActivityStre(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String streamPath, String streamName) throws Exception {
+    public ComAdobeCqSocialActivitystreamsListenerImplResourceActivityStreInfo comAdobeCqSocialActivitystreamsListenerImplResourceActivityStre(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String streamPath, String streamName) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialActivitystreamsListenerImplResourceActivityStreInfo();
     }
 
     @Override
-    public ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsIInfo comAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsI(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer maxRetry, List<String> fieldWhitelist, List<String> attachmentTypeBlacklist) throws Exception {
+    public ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsIInfo comAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsI(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer maxRetry, List<String> fieldWhitelist, List<String> attachmentTypeBlacklist) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialCalendarClientEndpointsImplCalendarOperationsIInfo();
     }
 
     @Override
-    public ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmenInfo comAdobeCqSocialCalendarClientOperationextensionsEventAttachmen(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String attachmentTypeBlacklist, Integer extensionOrder) throws Exception {
+    public ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmenInfo comAdobeCqSocialCalendarClientOperationextensionsEventAttachmen(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String attachmentTypeBlacklist, Integer extensionOrder) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialCalendarClientOperationextensionsEventAttachmenInfo();
     }
 
     @Override
-    public ComAdobeCqSocialCalendarServletsTimeZoneServletInfo comAdobeCqSocialCalendarServletsTimeZoneServlet(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer timezonesExpirytime) throws Exception {
+    public ComAdobeCqSocialCalendarServletsTimeZoneServletInfo comAdobeCqSocialCalendarServletsTimeZoneServlet(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer timezonesExpirytime) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialCalendarServletsTimeZoneServletInfo();
     }
 
     @Override
-    public ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventInfo comAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEvent(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer ranking) throws Exception {
+    public ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventInfo comAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEvent(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer ranking) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialCommonsCommentsEndpointsImplCommentDeleteEventInfo();
     }
 
     @Override
-    public ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSeInfo comAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSe(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> fieldWhitelist, List<String> attachmentTypeBlacklist) throws Exception {
+    public ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSeInfo comAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSe(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> fieldWhitelist, List<String> attachmentTypeBlacklist) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialCommonsCommentsEndpointsImplCommentOperationSeInfo();
     }
 
     @Override
-    public ComAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperatiInfo comAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperati(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> fieldWhitelist, List<String> attachmentTypeBlacklist) throws Exception {
+    public ComAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperatiInfo comAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperati(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> fieldWhitelist, List<String> attachmentTypeBlacklist) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialCommonsCommentsEndpointsImplTranslationOperatiInfo();
     }
 
     @Override
-    public ComAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialCInfo comAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialC(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer numUserLimit) throws Exception {
+    public ComAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialCInfo comAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialC(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer numUserLimit) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialCInfo();
     }
 
     @Override
-    public ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosInfo comAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPos(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean enableScheduledPostsSearch, Integer numberOfMinutes, Integer maxSearchLimit) throws Exception {
+    public ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosInfo comAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPos(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean enableScheduledPostsSearch, Integer numberOfMinutes, Integer maxSearchLimit) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosInfo();
     }
 
     @Override
-    public ComAdobeCqSocialCommonsCorsCORSAuthenticationFilterInfo comAdobeCqSocialCommonsCorsCORSAuthenticationFilter(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean corsEnabling) throws Exception {
+    public ComAdobeCqSocialCommonsCorsCORSAuthenticationFilterInfo comAdobeCqSocialCommonsCorsCORSAuthenticationFilter(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean corsEnabling) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialCommonsCorsCORSAuthenticationFilterInfo();
     }
 
     @Override
-    public ComAdobeCqSocialCommonsEmailreplyImplAndroidEmailClientProviderInfo comAdobeCqSocialCommonsEmailreplyImplAndroidEmailClientProvider(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer priorityOrder, List<String> replyEmailPatterns) throws Exception {
+    public ComAdobeCqSocialCommonsEmailreplyImplAndroidEmailClientProviderInfo comAdobeCqSocialCommonsEmailreplyImplAndroidEmailClientProvider(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer priorityOrder, List<String> replyEmailPatterns) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialCommonsEmailreplyImplAndroidEmailClientProviderInfo();
     }
 
     @Override
-    public ComAdobeCqSocialCommonsEmailreplyImplCommentEmailBuilderImplInfo comAdobeCqSocialCommonsEmailreplyImplCommentEmailBuilderImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String contextPath) throws Exception {
+    public ComAdobeCqSocialCommonsEmailreplyImplCommentEmailBuilderImplInfo comAdobeCqSocialCommonsEmailreplyImplCommentEmailBuilderImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String contextPath) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialCommonsEmailreplyImplCommentEmailBuilderImplInfo();
     }
 
     @Override
-    public ComAdobeCqSocialCommonsEmailreplyImplCommentEmailEventListenerInfo comAdobeCqSocialCommonsEmailreplyImplCommentEmailEventListener(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String eventTopics) throws Exception {
+    public ComAdobeCqSocialCommonsEmailreplyImplCommentEmailEventListenerInfo comAdobeCqSocialCommonsEmailreplyImplCommentEmailEventListener(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String eventTopics) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialCommonsEmailreplyImplCommentEmailEventListenerInfo();
     }
 
     @Override
-    public ComAdobeCqSocialCommonsEmailreplyImplCustomEmailClientProviderInfo comAdobeCqSocialCommonsEmailreplyImplCustomEmailClientProvider(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer priorityOrder, List<String> replyEmailPatterns) throws Exception {
+    public ComAdobeCqSocialCommonsEmailreplyImplCustomEmailClientProviderInfo comAdobeCqSocialCommonsEmailreplyImplCustomEmailClientProvider(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer priorityOrder, List<String> replyEmailPatterns) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialCommonsEmailreplyImplCustomEmailClientProviderInfo();
     }
 
     @Override
-    public ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpInfo comAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImp(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String patternTime, String patternNewline, String patternDayOfMonth, String patternMonth, String patternYear, String patternDate, String patternDateTime, String patternEmail) throws Exception {
+    public ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpInfo comAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImp(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String patternTime, String patternNewline, String patternDayOfMonth, String patternMonth, String patternYear, String patternDate, String patternDateTime, String patternEmail) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialCommonsEmailreplyImplEmailQuotedTextPatternsImpInfo();
     }
 
     @Override
-    public ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpInfo comAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImp(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String emailName, Boolean emailCreatePostFromReply, String emailAddCommentIdTo, Integer emailSubjectMaximumLength, String emailReplyToAddress, String emailReplyToDelimiter, String emailTrackerIdPrefixInSubject, String emailTrackerIdPrefixInBody, Boolean emailAsHTML, String emailDefaultUserName, String emailTemplatesRootPath) throws Exception {
+    public ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpInfo comAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImp(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String emailName, Boolean emailCreatePostFromReply, String emailAddCommentIdTo, Integer emailSubjectMaximumLength, String emailReplyToAddress, String emailReplyToDelimiter, String emailTrackerIdPrefixInSubject, String emailTrackerIdPrefixInBody, Boolean emailAsHTML, String emailDefaultUserName, String emailTemplatesRootPath) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpInfo();
     }
 
     @Override
-    public ComAdobeCqSocialCommonsEmailreplyImplEmailReplyImporterInfo comAdobeCqSocialCommonsEmailreplyImplEmailReplyImporter(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String connectProtocol) throws Exception {
+    public ComAdobeCqSocialCommonsEmailreplyImplEmailReplyImporterInfo comAdobeCqSocialCommonsEmailreplyImplEmailReplyImporter(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String connectProtocol) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialCommonsEmailreplyImplEmailReplyImporterInfo();
     }
 
     @Override
-    public ComAdobeCqSocialCommonsEmailreplyImplGmailEmailClientProviderInfo comAdobeCqSocialCommonsEmailreplyImplGmailEmailClientProvider(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer priorityOrder, List<String> replyEmailPatterns) throws Exception {
+    public ComAdobeCqSocialCommonsEmailreplyImplGmailEmailClientProviderInfo comAdobeCqSocialCommonsEmailreplyImplGmailEmailClientProvider(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer priorityOrder, List<String> replyEmailPatterns) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialCommonsEmailreplyImplGmailEmailClientProviderInfo();
     }
 
     @Override
-    public ComAdobeCqSocialCommonsEmailreplyImplIOSEmailClientProviderInfo comAdobeCqSocialCommonsEmailreplyImplIOSEmailClientProvider(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer priorityOrder, List<String> replyEmailPatterns) throws Exception {
+    public ComAdobeCqSocialCommonsEmailreplyImplIOSEmailClientProviderInfo comAdobeCqSocialCommonsEmailreplyImplIOSEmailClientProvider(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer priorityOrder, List<String> replyEmailPatterns) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialCommonsEmailreplyImplIOSEmailClientProviderInfo();
     }
 
     @Override
-    public ComAdobeCqSocialCommonsEmailreplyImplMacmailEmailClientProviderInfo comAdobeCqSocialCommonsEmailreplyImplMacmailEmailClientProvider(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer priorityOrder, List<String> replyEmailPatterns) throws Exception {
+    public ComAdobeCqSocialCommonsEmailreplyImplMacmailEmailClientProviderInfo comAdobeCqSocialCommonsEmailreplyImplMacmailEmailClientProvider(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer priorityOrder, List<String> replyEmailPatterns) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialCommonsEmailreplyImplMacmailEmailClientProviderInfo();
     }
 
     @Override
-    public ComAdobeCqSocialCommonsEmailreplyImplOutLookEmailClientProviderInfo comAdobeCqSocialCommonsEmailreplyImplOutLookEmailClientProvider(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer priorityOrder, List<String> replyEmailPatterns) throws Exception {
+    public ComAdobeCqSocialCommonsEmailreplyImplOutLookEmailClientProviderInfo comAdobeCqSocialCommonsEmailreplyImplOutLookEmailClientProvider(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer priorityOrder, List<String> replyEmailPatterns) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialCommonsEmailreplyImplOutLookEmailClientProviderInfo();
     }
 
     @Override
-    public ComAdobeCqSocialCommonsEmailreplyImplUnknownEmailClientProviderInfo comAdobeCqSocialCommonsEmailreplyImplUnknownEmailClientProvider(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> replyEmailPatterns, Integer priorityOrder) throws Exception {
+    public ComAdobeCqSocialCommonsEmailreplyImplUnknownEmailClientProviderInfo comAdobeCqSocialCommonsEmailreplyImplUnknownEmailClientProvider(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> replyEmailPatterns, Integer priorityOrder) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialCommonsEmailreplyImplUnknownEmailClientProviderInfo();
     }
 
     @Override
-    public ComAdobeCqSocialCommonsEmailreplyImplYahooEmailClientProviderInfo comAdobeCqSocialCommonsEmailreplyImplYahooEmailClientProvider(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer priorityOrder, List<String> replyEmailPatterns) throws Exception {
+    public ComAdobeCqSocialCommonsEmailreplyImplYahooEmailClientProviderInfo comAdobeCqSocialCommonsEmailreplyImplYahooEmailClientProvider(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer priorityOrder, List<String> replyEmailPatterns) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialCommonsEmailreplyImplYahooEmailClientProviderInfo();
     }
 
     @Override
-    public ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadInfo comAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUpload(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer numberOfDays, Integer ageOfFile) throws Exception {
+    public ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadInfo comAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUpload(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer numberOfDays, Integer ageOfFile) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialCommonsMaintainanceImplDeleteTempUGCImageUploadInfo();
     }
 
     @Override
-    public ComAdobeCqSocialCommonsUgclimiterImplUGCLimiterServiceImplInfo comAdobeCqSocialCommonsUgclimiterImplUGCLimiterServiceImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String eventTopics, String eventFilter, List<String> verbs) throws Exception {
+    public ComAdobeCqSocialCommonsUgclimiterImplUGCLimiterServiceImplInfo comAdobeCqSocialCommonsUgclimiterImplUGCLimiterServiceImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String eventTopics, String eventFilter, List<String> verbs) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialCommonsUgclimiterImplUGCLimiterServiceImplInfo();
     }
 
     @Override
-    public ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitInfo comAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimit(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean enable, Integer ugCLimit, Integer ugcLimitDuration, List<String> domains, List<String> toList) throws Exception {
+    public ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitInfo comAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimit(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean enable, Integer ugCLimit, Integer ugcLimitDuration, List<String> domains, List<String> toList) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialCommonsUgclimitsconfigImplCommunityUserUGCLimitInfo();
     }
 
     @Override
-    public ComAdobeCqSocialConnectOauthImplFacebookProviderImplInfo comAdobeCqSocialConnectOauthImplFacebookProviderImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String oauthProviderId, String oauthCloudConfigRoot, String providerConfigRoot, Boolean providerConfigCreateTagsEnabled, String providerConfigUserFolder, Boolean providerConfigFacebookFetchFields, List<String> providerConfigFacebookFields, Boolean providerConfigRefreshUserdataEnabled) throws Exception {
+    public ComAdobeCqSocialConnectOauthImplFacebookProviderImplInfo comAdobeCqSocialConnectOauthImplFacebookProviderImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String oauthProviderId, String oauthCloudConfigRoot, String providerConfigRoot, Boolean providerConfigCreateTagsEnabled, String providerConfigUserFolder, Boolean providerConfigFacebookFetchFields, List<String> providerConfigFacebookFields, Boolean providerConfigRefreshUserdataEnabled) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialConnectOauthImplFacebookProviderImplInfo();
     }
 
     @Override
-    public ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandleInfo comAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandle(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> path, Integer serviceRanking) throws Exception {
+    public ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandleInfo comAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandle(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> path, Integer serviceRanking) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialConnectOauthImplSocialOAuthAuthenticationHandleInfo();
     }
 
     @Override
-    public ComAdobeCqSocialConnectOauthImplSocialOAuthUserProfileMapperInfo comAdobeCqSocialConnectOauthImplSocialOAuthUserProfileMapper(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> facebook, List<String> twitter, String providerConfigUserFolder) throws Exception {
+    public ComAdobeCqSocialConnectOauthImplSocialOAuthUserProfileMapperInfo comAdobeCqSocialConnectOauthImplSocialOAuthUserProfileMapper(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> facebook, List<String> twitter, String providerConfigUserFolder) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialConnectOauthImplSocialOAuthUserProfileMapperInfo();
     }
 
     @Override
-    public ComAdobeCqSocialConnectOauthImplTwitterProviderImplInfo comAdobeCqSocialConnectOauthImplTwitterProviderImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String oauthProviderId, String oauthCloudConfigRoot, String providerConfigRoot, String providerConfigUserFolder, Boolean providerConfigTwitterEnableParams, List<String> providerConfigTwitterParams, Boolean providerConfigRefreshUserdataEnabled) throws Exception {
+    public ComAdobeCqSocialConnectOauthImplTwitterProviderImplInfo comAdobeCqSocialConnectOauthImplTwitterProviderImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String oauthProviderId, String oauthCloudConfigRoot, String providerConfigRoot, String providerConfigUserFolder, Boolean providerConfigTwitterEnableParams, List<String> providerConfigTwitterParams, Boolean providerConfigRefreshUserdataEnabled) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialConnectOauthImplTwitterProviderImplInfo();
     }
 
     @Override
-    public ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmenInfo comAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmen(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean cqSocialContentFragmentsServicesEnabled, Integer cqSocialContentFragmentsServicesWaitTimeSeconds) throws Exception {
+    public ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmenInfo comAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmen(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean cqSocialContentFragmentsServicesEnabled, Integer cqSocialContentFragmentsServicesWaitTimeSeconds) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmenInfo();
     }
 
     @Override
-    public ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryInfo comAdobeCqSocialDatastoreAsImplASResourceProviderFactory(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String versionId, Boolean cacheOn, Integer concurrencyLevel, Integer cacheStartSize, Integer cacheTtl, Integer cacheSize, Integer timeLimit) throws Exception {
+    public ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryInfo comAdobeCqSocialDatastoreAsImplASResourceProviderFactory(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String versionId, Boolean cacheOn, Integer concurrencyLevel, Integer cacheStartSize, Integer cacheTtl, Integer cacheSize, Integer timeLimit) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryInfo();
     }
 
     @Override
-    public ComAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactoryInfo comAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactory(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String solrZkTimeout, String solrCommit, Boolean cacheOn, Integer concurrencyLevel, Integer cacheStartSize, Integer cacheTtl, Integer cacheSize) throws Exception {
+    public ComAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactoryInfo comAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactory(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String solrZkTimeout, String solrCommit, Boolean cacheOn, Integer concurrencyLevel, Integer cacheStartSize, Integer cacheTtl, Integer cacheSize) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialDatastoreOpImplSocialMSResourceProviderFactoryInfo();
     }
 
     @Override
-    public ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorInfo comAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactor(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String solrZkTimeout, String solrCommit, Boolean cacheOn, Integer concurrencyLevel, Integer cacheStartSize, Integer cacheTtl, Integer cacheSize) throws Exception {
+    public ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorInfo comAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactor(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String solrZkTimeout, String solrCommit, Boolean cacheOn, Integer concurrencyLevel, Integer cacheStartSize, Integer cacheTtl, Integer cacheSize) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialDatastoreRdbImplSocialRDBResourceProviderFactorInfo();
     }
 
     @Override
-    public ComAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorFInfo comAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorF(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean isMemberCheck) throws Exception {
+    public ComAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorFInfo comAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorF(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean isMemberCheck) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialEnablementAdaptorsEnablementLearningPathAdaptorFInfo();
     }
 
     @Override
-    public ComAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFactoInfo comAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFacto(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean isMemberCheck) throws Exception {
+    public ComAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFactoInfo comAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFacto(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean isMemberCheck) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialEnablementAdaptorsEnablementResourceAdaptorFactoInfo();
     }
 
     @Override
-    public ComAdobeCqSocialEnablementLearningpathEndpointsImplEnablementLInfo comAdobeCqSocialEnablementLearningpathEndpointsImplEnablementL(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> fieldWhitelist) throws Exception {
+    public ComAdobeCqSocialEnablementLearningpathEndpointsImplEnablementLInfo comAdobeCqSocialEnablementLearningpathEndpointsImplEnablementL(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> fieldWhitelist) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialEnablementLearningpathEndpointsImplEnablementLInfo();
     }
 
     @Override
-    public ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouInfo comAdobeCqSocialEnablementResourceEndpointsImplEnablementResou(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> fieldWhitelist) throws Exception {
+    public ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouInfo comAdobeCqSocialEnablementResourceEndpointsImplEnablementResou(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> fieldWhitelist) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouInfo();
     }
 
     @Override
-    public ComAdobeCqSocialEnablementServicesImplAuthorMarkerImplInfo comAdobeCqSocialEnablementServicesImplAuthorMarkerImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer serviceRanking) throws Exception {
+    public ComAdobeCqSocialEnablementServicesImplAuthorMarkerImplInfo comAdobeCqSocialEnablementServicesImplAuthorMarkerImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer serviceRanking) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialEnablementServicesImplAuthorMarkerImplInfo();
     }
 
     @Override
-    public ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGeInfo comAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGe(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String slingServletSelectors, String slingServletExtensions) throws Exception {
+    public ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGeInfo comAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGe(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String slingServletSelectors, String slingServletExtensions) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialFilelibraryClientEndpointsFilelibraryDownloadGeInfo();
     }
 
     @Override
-    public ComAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperaInfo comAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOpera(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> fieldWhitelist, List<String> attachmentTypeBlacklist) throws Exception {
+    public ComAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperaInfo comAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOpera(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> fieldWhitelist, List<String> attachmentTypeBlacklist) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperaInfo();
     }
 
     @Override
-    public ComAdobeCqSocialForumClientEndpointsImplForumOperationsServiceInfo comAdobeCqSocialForumClientEndpointsImplForumOperationsService(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> fieldWhitelist, List<String> attachmentTypeBlacklist) throws Exception {
+    public ComAdobeCqSocialForumClientEndpointsImplForumOperationsServiceInfo comAdobeCqSocialForumClientEndpointsImplForumOperationsService(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> fieldWhitelist, List<String> attachmentTypeBlacklist) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialForumClientEndpointsImplForumOperationsServiceInfo();
     }
 
     @Override
-    public ComAdobeCqSocialForumDispatcherImplFlushOperationsInfo comAdobeCqSocialForumDispatcherImplFlushOperations(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer extensionOrder, Boolean flushForumontopic) throws Exception {
+    public ComAdobeCqSocialForumDispatcherImplFlushOperationsInfo comAdobeCqSocialForumDispatcherImplFlushOperations(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer extensionOrder, Boolean flushForumontopic) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialForumDispatcherImplFlushOperationsInfo();
     }
 
     @Override
-    public ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenInfo comAdobeCqSocialGroupClientImplCommunityGroupCollectionComponen(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean groupListingPaginationEnable, Boolean groupListingLazyloadingEnable, Integer pageSize, Integer priority) throws Exception {
+    public ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenInfo comAdobeCqSocialGroupClientImplCommunityGroupCollectionComponen(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean groupListingPaginationEnable, Boolean groupListingLazyloadingEnable, Integer pageSize, Integer priority) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenInfo();
     }
 
     @Override
-    public ComAdobeCqSocialGroupImplGroupServiceImplInfo comAdobeCqSocialGroupImplGroupServiceImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer maxWaitTime, Integer minWaitBetweenRetries) throws Exception {
+    public ComAdobeCqSocialGroupImplGroupServiceImplInfo comAdobeCqSocialGroupImplGroupServiceImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer maxWaitTime, Integer minWaitBetweenRetries) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialGroupImplGroupServiceImplInfo();
     }
 
     @Override
-    public ComAdobeCqSocialHandlebarsGuavaTemplateCacheImplInfo comAdobeCqSocialHandlebarsGuavaTemplateCacheImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean parameterGuavaCacheEnabled, String parameterGuavaCacheParams, Boolean parameterGuavaCacheReload, Integer serviceRanking) throws Exception {
+    public ComAdobeCqSocialHandlebarsGuavaTemplateCacheImplInfo comAdobeCqSocialHandlebarsGuavaTemplateCacheImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean parameterGuavaCacheEnabled, String parameterGuavaCacheParams, Boolean parameterGuavaCacheReload, Integer serviceRanking) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialHandlebarsGuavaTemplateCacheImplInfo();
     }
 
     @Override
-    public ComAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsSInfo comAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsS(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> fieldWhitelist, List<String> attachmentTypeBlacklist) throws Exception {
+    public ComAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsSInfo comAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsS(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> fieldWhitelist, List<String> attachmentTypeBlacklist) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialIdeationClientEndpointsImplIdeationOperationsSInfo();
     }
 
     @Override
-    public ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsSerInfo comAdobeCqSocialJournalClientEndpointsImplJournalOperationsSer(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> fieldWhitelist, List<String> attachmentTypeBlacklist) throws Exception {
+    public ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsSerInfo comAdobeCqSocialJournalClientEndpointsImplJournalOperationsSer(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> fieldWhitelist, List<String> attachmentTypeBlacklist) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialJournalClientEndpointsImplJournalOperationsSerInfo();
     }
 
     @Override
-    public ComAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileInfo comAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfile(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> fieldWhitelist) throws Exception {
+    public ComAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileInfo comAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfile(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> fieldWhitelist) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialMembersEndpointsImplCommunityMemberGroupProfileInfo();
     }
 
     @Override
-    public ComAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileOInfo comAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileO(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> fieldWhitelist) throws Exception {
+    public ComAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileOInfo comAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileO(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> fieldWhitelist) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialMembersEndpointsImplCommunityMemberUserProfileOInfo();
     }
 
     @Override
-    public ComAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentFInfo comAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentF(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer everyoneLimit, Integer priority) throws Exception {
+    public ComAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentFInfo comAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentF(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer everyoneLimit, Integer priority) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialMembersImplCommunityMemberGroupProfileComponentFInfo();
     }
 
     @Override
-    public ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationInfo comAdobeCqSocialMessagingClientEndpointsImplMessagingOperation(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> messageProperties, Integer messageBoxSizeLimit, Integer messageCountLimit, Boolean notifyFailure, String failureMessageFrom, String failureTemplatePath, Integer maxRetries, Integer minWaitBetweenRetries, Integer countUpdatePoolSize, String inboxPath, String sentitemsPath, Boolean supportAttachments, Boolean supportGroupMessaging, Integer maxTotalRecipients, Integer batchSize, Integer maxTotalAttachmentSize, List<String> attachmentTypeBlacklist, List<String> allowedAttachmentTypes, String serviceSelector, List<String> fieldWhitelist) throws Exception {
+    public ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationInfo comAdobeCqSocialMessagingClientEndpointsImplMessagingOperation(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> messageProperties, Integer messageBoxSizeLimit, Integer messageCountLimit, Boolean notifyFailure, String failureMessageFrom, String failureTemplatePath, Integer maxRetries, Integer minWaitBetweenRetries, Integer countUpdatePoolSize, String inboxPath, String sentitemsPath, Boolean supportAttachments, Boolean supportGroupMessaging, Integer maxTotalRecipients, Integer batchSize, Integer maxTotalAttachmentSize, List<String> attachmentTypeBlacklist, List<String> allowedAttachmentTypes, String serviceSelector, List<String> fieldWhitelist) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialMessagingClientEndpointsImplMessagingOperationInfo();
     }
 
     @Override
-    public ComAdobeCqSocialModerationDashboardApiFilterGroupSocialComponenInfo comAdobeCqSocialModerationDashboardApiFilterGroupSocialComponen(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> resourceTypeFilters, Integer priority) throws Exception {
+    public ComAdobeCqSocialModerationDashboardApiFilterGroupSocialComponenInfo comAdobeCqSocialModerationDashboardApiFilterGroupSocialComponen(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> resourceTypeFilters, Integer priority) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialModerationDashboardApiFilterGroupSocialComponenInfo();
     }
 
     @Override
-    public ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialInfo comAdobeCqSocialModerationDashboardApiModerationDashboardSocial(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer priority) throws Exception {
+    public ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialInfo comAdobeCqSocialModerationDashboardApiModerationDashboardSocial(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer priority) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialModerationDashboardApiModerationDashboardSocialInfo();
     }
 
     @Override
-    public ComAdobeCqSocialModerationDashboardApiUserDetailsSocialComponenInfo comAdobeCqSocialModerationDashboardApiUserDetailsSocialComponen(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer priority) throws Exception {
+    public ComAdobeCqSocialModerationDashboardApiUserDetailsSocialComponenInfo comAdobeCqSocialModerationDashboardApiUserDetailsSocialComponen(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer priority) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialModerationDashboardApiUserDetailsSocialComponenInfo();
     }
 
     @Override
-    public ComAdobeCqSocialModerationDashboardInternalImplFilterGroupSociInfo comAdobeCqSocialModerationDashboardInternalImplFilterGroupSoci(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> resourceTypeFilters, Integer priority) throws Exception {
+    public ComAdobeCqSocialModerationDashboardInternalImplFilterGroupSociInfo comAdobeCqSocialModerationDashboardInternalImplFilterGroupSoci(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> resourceTypeFilters, Integer priority) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialModerationDashboardInternalImplFilterGroupSociInfo();
     }
 
     @Override
-    public ComAdobeCqSocialNotificationsImplMentionsRouterInfo comAdobeCqSocialNotificationsImplMentionsRouter(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String eventTopics, String eventFilter) throws Exception {
+    public ComAdobeCqSocialNotificationsImplMentionsRouterInfo comAdobeCqSocialNotificationsImplMentionsRouter(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String eventTopics, String eventFilter) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialNotificationsImplMentionsRouterInfo();
     }
 
     @Override
-    public ComAdobeCqSocialNotificationsImplNotificationManagerImplInfo comAdobeCqSocialNotificationsImplNotificationManagerImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer maxUnreadNotificationCount) throws Exception {
+    public ComAdobeCqSocialNotificationsImplNotificationManagerImplInfo comAdobeCqSocialNotificationsImplNotificationManagerImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer maxUnreadNotificationCount) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialNotificationsImplNotificationManagerImplInfo();
     }
 
     @Override
-    public ComAdobeCqSocialNotificationsImplNotificationsRouterInfo comAdobeCqSocialNotificationsImplNotificationsRouter(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String eventTopics, String eventFilter) throws Exception {
+    public ComAdobeCqSocialNotificationsImplNotificationsRouterInfo comAdobeCqSocialNotificationsImplNotificationsRouter(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String eventTopics, String eventFilter) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialNotificationsImplNotificationsRouterInfo();
     }
 
     @Override
-    public ComAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServicInfo comAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServic(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> fieldWhitelist, List<String> attachmentTypeBlacklist) throws Exception {
+    public ComAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServicInfo comAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServic(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> fieldWhitelist, List<String> attachmentTypeBlacklist) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialQnaClientEndpointsImplQnaForumOperationsServicInfo();
     }
 
     @Override
-    public ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportIInfo comAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportI(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer cqSocialReportingAnalyticsPollingImporterInterval, Integer cqSocialReportingAnalyticsPollingImporterPageSize) throws Exception {
+    public ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportIInfo comAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportI(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer cqSocialReportingAnalyticsPollingImporterInterval, Integer cqSocialReportingAnalyticsPollingImporterPageSize) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportIInfo();
     }
 
     @Override
-    public ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportMInfo comAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportM(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer reportFetchDelay) throws Exception {
+    public ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportMInfo comAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportM(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer reportFetchDelay) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportMInfo();
     }
 
     @Override
-    public ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSInfo comAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportS(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> cqSocialConsoleAnalyticsSitesMapping, Integer priority) throws Exception {
+    public ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSInfo comAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportS(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> cqSocialConsoleAnalyticsSitesMapping, Integer priority) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialReportingAnalyticsServicesImplSiteTrendReportSInfo();
     }
 
     @Override
-    public ComAdobeCqSocialReviewClientEndpointsImplReviewOperationsServiInfo comAdobeCqSocialReviewClientEndpointsImplReviewOperationsServi(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> fieldWhitelist, List<String> attachmentTypeBlacklist) throws Exception {
+    public ComAdobeCqSocialReviewClientEndpointsImplReviewOperationsServiInfo comAdobeCqSocialReviewClientEndpointsImplReviewOperationsServi(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> fieldWhitelist, List<String> attachmentTypeBlacklist) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialReviewClientEndpointsImplReviewOperationsServiInfo();
     }
 
     @Override
-    public ComAdobeCqSocialScfCoreOperationsImplSocialOperationsServletInfo comAdobeCqSocialScfCoreOperationsImplSocialOperationsServlet(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String slingServletSelectors, String slingServletExtensions) throws Exception {
+    public ComAdobeCqSocialScfCoreOperationsImplSocialOperationsServletInfo comAdobeCqSocialScfCoreOperationsImplSocialOperationsServlet(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String slingServletSelectors, String slingServletExtensions) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialScfCoreOperationsImplSocialOperationsServletInfo();
     }
 
     @Override
-    public ComAdobeCqSocialScfEndpointsImplDefaultSocialGetServletInfo comAdobeCqSocialScfEndpointsImplDefaultSocialGetServlet(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> slingServletSelectors, String slingServletExtensions) throws Exception {
+    public ComAdobeCqSocialScfEndpointsImplDefaultSocialGetServletInfo comAdobeCqSocialScfEndpointsImplDefaultSocialGetServlet(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> slingServletSelectors, String slingServletExtensions) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialScfEndpointsImplDefaultSocialGetServletInfo();
     }
 
     @Override
-    public ComAdobeCqSocialScoringImplScoringEventListenerInfo comAdobeCqSocialScoringImplScoringEventListener(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String eventTopics, String eventFilter) throws Exception {
+    public ComAdobeCqSocialScoringImplScoringEventListenerInfo comAdobeCqSocialScoringImplScoringEventListener(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String eventTopics, String eventFilter) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialScoringImplScoringEventListenerInfo();
     }
 
     @Override
-    public ComAdobeCqSocialServiceusersInternalImplServiceUserWrapperImplInfo comAdobeCqSocialServiceusersInternalImplServiceUserWrapperImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean enableFallback) throws Exception {
+    public ComAdobeCqSocialServiceusersInternalImplServiceUserWrapperImplInfo comAdobeCqSocialServiceusersInternalImplServiceUserWrapperImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean enableFallback) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialServiceusersInternalImplServiceUserWrapperImplInfo();
     }
 
     @Override
-    public ComAdobeCqSocialSiteEndpointsImplSiteOperationServiceInfo comAdobeCqSocialSiteEndpointsImplSiteOperationService(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> fieldWhitelist, List<String> sitePathFilters, String sitePackageGroup) throws Exception {
+    public ComAdobeCqSocialSiteEndpointsImplSiteOperationServiceInfo comAdobeCqSocialSiteEndpointsImplSiteOperationService(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> fieldWhitelist, List<String> sitePathFilters, String sitePackageGroup) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialSiteEndpointsImplSiteOperationServiceInfo();
     }
 
     @Override
-    public ComAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImInfo comAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceIm(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> cqSocialConsoleAnalyticsComponents) throws Exception {
+    public ComAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImInfo comAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceIm(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> cqSocialConsoleAnalyticsComponents) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialSiteImplAnalyticsComponentConfigurationServiceImInfo();
     }
 
     @Override
-    public ComAdobeCqSocialSiteImplSiteConfiguratorImplInfo comAdobeCqSocialSiteImplSiteConfiguratorImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> componentsUsingTags) throws Exception {
+    public ComAdobeCqSocialSiteImplSiteConfiguratorImplInfo comAdobeCqSocialSiteImplSiteConfiguratorImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> componentsUsingTags) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialSiteImplSiteConfiguratorImplInfo();
     }
 
     @Override
-    public ComAdobeCqSocialSrpImplSocialSolrConnectorInfo comAdobeCqSocialSrpImplSocialSolrConnector(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String srpType) throws Exception {
+    public ComAdobeCqSocialSrpImplSocialSolrConnectorInfo comAdobeCqSocialSrpImplSocialSolrConnector(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String srpType) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialSrpImplSocialSolrConnectorInfo();
     }
 
     @Override
-    public ComAdobeCqSocialSyncImplDiffChangesObserverInfo comAdobeCqSocialSyncImplDiffChangesObserver(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean enabled, String agentName, String diffPath, String propertyNames) throws Exception {
+    public ComAdobeCqSocialSyncImplDiffChangesObserverInfo comAdobeCqSocialSyncImplDiffChangesObserver(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean enabled, String agentName, String diffPath, String propertyNames) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialSyncImplDiffChangesObserverInfo();
     }
 
     @Override
-    public ComAdobeCqSocialSyncImplGroupSyncListenerImplInfo comAdobeCqSocialSyncImplGroupSyncListenerImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> nodetypes, List<String> ignorableprops, String ignorablenodes, Boolean enabled, String distfolders) throws Exception {
+    public ComAdobeCqSocialSyncImplGroupSyncListenerImplInfo comAdobeCqSocialSyncImplGroupSyncListenerImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> nodetypes, List<String> ignorableprops, String ignorablenodes, Boolean enabled, String distfolders) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialSyncImplGroupSyncListenerImplInfo();
     }
 
     @Override
-    public ComAdobeCqSocialSyncImplPublisherSyncServiceImplInfo comAdobeCqSocialSyncImplPublisherSyncServiceImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> activeRunModes) throws Exception {
+    public ComAdobeCqSocialSyncImplPublisherSyncServiceImplInfo comAdobeCqSocialSyncImplPublisherSyncServiceImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> activeRunModes) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialSyncImplPublisherSyncServiceImplInfo();
     }
 
     @Override
-    public ComAdobeCqSocialSyncImplUserSyncListenerImplInfo comAdobeCqSocialSyncImplUserSyncListenerImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> nodetypes, List<String> ignorableprops, List<String> ignorablenodes, Boolean enabled, List<String> distfolders) throws Exception {
+    public ComAdobeCqSocialSyncImplUserSyncListenerImplInfo comAdobeCqSocialSyncImplUserSyncListenerImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> nodetypes, List<String> ignorableprops, List<String> ignorablenodes, Boolean enabled, List<String> distfolders) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialSyncImplUserSyncListenerImplInfo();
     }
 
     @Override
-    public ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerInfo comAdobeCqSocialTranslationImplTranslationServiceConfigManager(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String translateLanguage, String translateDisplay, Boolean translateAttribution, String translateCaching, String translateSmartRendering, String translateCachingDuration, String translateSessionSaveInterval, String translateSessionSaveBatchLimit) throws Exception {
+    public ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerInfo comAdobeCqSocialTranslationImplTranslationServiceConfigManager(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String translateLanguage, String translateDisplay, Boolean translateAttribution, String translateCaching, String translateSmartRendering, String translateCachingDuration, String translateSessionSaveInterval, String translateSessionSaveBatchLimit) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerInfo();
     }
 
     @Override
-    public ComAdobeCqSocialTranslationImplUGCLanguageDetectorInfo comAdobeCqSocialTranslationImplUGCLanguageDetector(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String eventTopics, String eventFilter, List<String> translateListenerType, List<String> translatePropertyList, Integer poolSize, Integer maxPoolSize, Integer queueSize, Integer keepAliveTime) throws Exception {
+    public ComAdobeCqSocialTranslationImplUGCLanguageDetectorInfo comAdobeCqSocialTranslationImplUGCLanguageDetector(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String eventTopics, String eventFilter, List<String> translateListenerType, List<String> translatePropertyList, Integer poolSize, Integer maxPoolSize, Integer queueSize, Integer keepAliveTime) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialTranslationImplUGCLanguageDetectorInfo();
     }
 
     @Override
-    public ComAdobeCqSocialUgcbaseDispatcherImplFlushServiceImplInfo comAdobeCqSocialUgcbaseDispatcherImplFlushServiceImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer threadPoolSize, Integer delayTime, Integer workerSleepTime) throws Exception {
+    public ComAdobeCqSocialUgcbaseDispatcherImplFlushServiceImplInfo comAdobeCqSocialUgcbaseDispatcherImplFlushServiceImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer threadPoolSize, Integer delayTime, Integer workerSleepTime) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialUgcbaseDispatcherImplFlushServiceImplInfo();
     }
 
     @Override
-    public ComAdobeCqSocialUgcbaseImplAysncReverseReplicatorImplInfo comAdobeCqSocialUgcbaseImplAysncReverseReplicatorImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer poolSize, Integer maxPoolSize, Integer queueSize, Integer keepAliveTime) throws Exception {
+    public ComAdobeCqSocialUgcbaseImplAysncReverseReplicatorImplInfo comAdobeCqSocialUgcbaseImplAysncReverseReplicatorImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer poolSize, Integer maxPoolSize, Integer queueSize, Integer keepAliveTime) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialUgcbaseImplAysncReverseReplicatorImplInfo();
     }
 
     @Override
-    public ComAdobeCqSocialUgcbaseImplPublisherConfigurationImplInfo comAdobeCqSocialUgcbaseImplPublisherConfigurationImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean isPrimaryPublisher) throws Exception {
+    public ComAdobeCqSocialUgcbaseImplPublisherConfigurationImplInfo comAdobeCqSocialUgcbaseImplPublisherConfigurationImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean isPrimaryPublisher) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialUgcbaseImplPublisherConfigurationImplInfo();
     }
 
     @Override
-    public ComAdobeCqSocialUgcbaseImplSocialUtilsImplInfo comAdobeCqSocialUgcbaseImplSocialUtilsImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean legacyCloudUGCPathMapping) throws Exception {
+    public ComAdobeCqSocialUgcbaseImplSocialUtilsImplInfo comAdobeCqSocialUgcbaseImplSocialUtilsImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean legacyCloudUGCPathMapping) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialUgcbaseImplSocialUtilsImplInfo();
     }
 
     @Override
-    public ComAdobeCqSocialUgcbaseModerationImplAutoModerationImplInfo comAdobeCqSocialUgcbaseModerationImplAutoModerationImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> automoderationSequence, Boolean automoderationOnfailurestop) throws Exception {
+    public ComAdobeCqSocialUgcbaseModerationImplAutoModerationImplInfo comAdobeCqSocialUgcbaseModerationImplAutoModerationImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> automoderationSequence, Boolean automoderationOnfailurestop) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialUgcbaseModerationImplAutoModerationImplInfo();
     }
 
     @Override
-    public ComAdobeCqSocialUgcbaseModerationImplSentimentProcessInfo comAdobeCqSocialUgcbaseModerationImplSentimentProcess(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> watchwordsPositive, List<String> watchwordsNegative, String watchwordsPath, String sentimentPath) throws Exception {
+    public ComAdobeCqSocialUgcbaseModerationImplSentimentProcessInfo comAdobeCqSocialUgcbaseModerationImplSentimentProcess(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> watchwordsPositive, List<String> watchwordsNegative, String watchwordsPath, String sentimentPath) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialUgcbaseModerationImplSentimentProcessInfo();
     }
 
     @Override
-    public ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliInfo comAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackli(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> defaultAttachmentTypeBlacklist, List<String> baselineAttachmentTypeBlacklist) throws Exception {
+    public ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliInfo comAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackli(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> defaultAttachmentTypeBlacklist, List<String> baselineAttachmentTypeBlacklist) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialUgcbaseSecurityImplDefaultAttachmentTypeBlackliInfo();
     }
 
     @Override
-    public ComAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImplInfo comAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> parameterWhitelist, List<String> parameterWhitelistPrefixes, List<String> binaryParameterWhitelist, List<String> modifierWhitelist, List<String> operationWhitelist, List<String> operationWhitelistPrefixes, List<String> typehintWhitelist, List<String> resourcetypeWhitelist) throws Exception {
+    public ComAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImplInfo comAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> parameterWhitelist, List<String> parameterWhitelistPrefixes, List<String> binaryParameterWhitelist, List<String> modifierWhitelist, List<String> operationWhitelist, List<String> operationWhitelistPrefixes, List<String> typehintWhitelist, List<String> resourcetypeWhitelist) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialUgcbaseSecurityImplSaferSlingPostValidatorImplInfo();
     }
 
     @Override
-    public ComAdobeCqSocialUserEndpointsImplUsersGroupFromPublishServletInfo comAdobeCqSocialUserEndpointsImplUsersGroupFromPublishServlet(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String slingServletExtensions, String slingServletPaths, String slingServletMethods) throws Exception {
+    public ComAdobeCqSocialUserEndpointsImplUsersGroupFromPublishServletInfo comAdobeCqSocialUserEndpointsImplUsersGroupFromPublishServlet(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String slingServletExtensions, String slingServletPaths, String slingServletMethods) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialUserEndpointsImplUsersGroupFromPublishServletInfo();
     }
 
     @Override
-    public ComAdobeCqSocialUserImplTransportHttpToPublisherInfo comAdobeCqSocialUserImplTransportHttpToPublisher(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean enable, List<String> agentConfiguration, String contextPath, List<String> disabledCipherSuites, List<String> enabledCipherSuites) throws Exception {
+    public ComAdobeCqSocialUserImplTransportHttpToPublisherInfo comAdobeCqSocialUserImplTransportHttpToPublisher(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean enable, List<String> agentConfiguration, String contextPath, List<String> disabledCipherSuites, List<String> enabledCipherSuites) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqSocialUserImplTransportHttpToPublisherInfo();
     }
 
     @Override
-    public ComAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactInfo comAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFact(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> resourceTypes) throws Exception {
+    public ComAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactInfo comAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFact(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> resourceTypes) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqUiWcmCommonsInternalServletsRteRTEFilterServletFactInfo();
     }
 
     @Override
-    public ComAdobeCqUpgradesCleanupImplUpgradeContentCleanupInfo comAdobeCqUpgradesCleanupImplUpgradeContentCleanup(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> deletePathRegexps, String deleteSql2Query) throws Exception {
+    public ComAdobeCqUpgradesCleanupImplUpgradeContentCleanupInfo comAdobeCqUpgradesCleanupImplUpgradeContentCleanup(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> deletePathRegexps, String deleteSql2Query) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqUpgradesCleanupImplUpgradeContentCleanupInfo();
     }
 
     @Override
-    public ComAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanupInfo comAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanup(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> deleteNameRegexps) throws Exception {
+    public ComAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanupInfo comAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanup(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> deleteNameRegexps) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqUpgradesCleanupImplUpgradeInstallFolderCleanupInfo();
     }
 
     @Override
-    public ComAdobeCqWcmJobsAsyncImplAsyncDeleteConfigProviderServiceInfo comAdobeCqWcmJobsAsyncImplAsyncDeleteConfigProviderService(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer threshold, String jobTopicName, Boolean emailEnabled) throws Exception {
+    public ComAdobeCqWcmJobsAsyncImplAsyncDeleteConfigProviderServiceInfo comAdobeCqWcmJobsAsyncImplAsyncDeleteConfigProviderService(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer threshold, String jobTopicName, Boolean emailEnabled) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqWcmJobsAsyncImplAsyncDeleteConfigProviderServiceInfo();
     }
 
     @Override
-    public ComAdobeCqWcmJobsAsyncImplAsyncJobCleanUpTaskInfo comAdobeCqWcmJobsAsyncImplAsyncJobCleanUpTask(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String schedulerExpression, Integer jobPurgeThreshold, Integer jobPurgeMaxJobs) throws Exception {
+    public ComAdobeCqWcmJobsAsyncImplAsyncJobCleanUpTaskInfo comAdobeCqWcmJobsAsyncImplAsyncJobCleanUpTask(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String schedulerExpression, Integer jobPurgeThreshold, Integer jobPurgeMaxJobs) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqWcmJobsAsyncImplAsyncJobCleanUpTaskInfo();
     }
 
     @Override
-    public ComAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderServiceInfo comAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderService(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer threshold, String jobTopicName, Boolean emailEnabled) throws Exception {
+    public ComAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderServiceInfo comAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderService(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer threshold, String jobTopicName, Boolean emailEnabled) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderServiceInfo();
     }
 
     @Override
-    public ComAdobeCqWcmJobsAsyncImplAsyncPageMoveConfigProviderServiceInfo comAdobeCqWcmJobsAsyncImplAsyncPageMoveConfigProviderService(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer threshold, String jobTopicName, Boolean emailEnabled) throws Exception {
+    public ComAdobeCqWcmJobsAsyncImplAsyncPageMoveConfigProviderServiceInfo comAdobeCqWcmJobsAsyncImplAsyncPageMoveConfigProviderService(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer threshold, String jobTopicName, Boolean emailEnabled) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqWcmJobsAsyncImplAsyncPageMoveConfigProviderServiceInfo();
     }
 
     @Override
-    public ComAdobeCqWcmLaunchesImplLaunchesEventHandlerInfo comAdobeCqWcmLaunchesImplLaunchesEventHandler(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String eventFilter, Integer launchesEventhandlerThreadpoolMaxsize, String launchesEventhandlerThreadpoolPriority, Boolean launchesEventhandlerUpdatelastmodification) throws Exception {
+    public ComAdobeCqWcmLaunchesImplLaunchesEventHandlerInfo comAdobeCqWcmLaunchesImplLaunchesEventHandler(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String eventFilter, Integer launchesEventhandlerThreadpoolMaxsize, String launchesEventhandlerThreadpoolPriority, Boolean launchesEventhandlerUpdatelastmodification) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqWcmLaunchesImplLaunchesEventHandlerInfo();
     }
 
     @Override
-    public ComAdobeCqWcmMobileQrcodeServletQRCodeImageGeneratorInfo comAdobeCqWcmMobileQrcodeServletQRCodeImageGenerator(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> cqWcmQrcodeServletWhitelist) throws Exception {
+    public ComAdobeCqWcmMobileQrcodeServletQRCodeImageGeneratorInfo comAdobeCqWcmMobileQrcodeServletQRCodeImageGenerator(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> cqWcmQrcodeServletWhitelist) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqWcmMobileQrcodeServletQRCodeImageGeneratorInfo();
     }
 
     @Override
-    public ComAdobeCqWcmStyleInternalComponentStyleInfoCacheImplInfo comAdobeCqWcmStyleInternalComponentStyleInfoCacheImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer size) throws Exception {
+    public ComAdobeCqWcmStyleInternalComponentStyleInfoCacheImplInfo comAdobeCqWcmStyleInternalComponentStyleInfoCacheImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer size) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqWcmStyleInternalComponentStyleInfoCacheImplInfo();
     }
 
     @Override
-    public ComAdobeCqWcmTranslationImplTranslationPlatformConfigurationImplInfo comAdobeCqWcmTranslationImplTranslationPlatformConfigurationImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String syncTranslationStateSchedulingFormat, String schedulingRepeatTranslationSchedulingFormat, String syncTranslationStateLockTimeoutInMinutes, String exportFormat) throws Exception {
+    public ComAdobeCqWcmTranslationImplTranslationPlatformConfigurationImplInfo comAdobeCqWcmTranslationImplTranslationPlatformConfigurationImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String syncTranslationStateSchedulingFormat, String schedulingRepeatTranslationSchedulingFormat, String syncTranslationStateLockTimeoutInMinutes, String exportFormat) throws Exception {
         //Do your magic!!!
         return new ComAdobeCqWcmTranslationImplTranslationPlatformConfigurationImplInfo();
     }
 
     @Override
-    public ComAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServiceInfo comAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigService(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> portalOutboxes, String draftDataService, String draftMetadataService, String submitDataService, String submitMetadataService, String pendingSignDataService, String pendingSignMetadataService) throws Exception {
+    public ComAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServiceInfo comAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigService(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> portalOutboxes, String draftDataService, String draftMetadataService, String submitDataService, String submitMetadataService, String pendingSignDataService, String pendingSignMetadataService) throws Exception {
         //Do your magic!!!
         return new ComAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServiceInfo();
     }
 
     @Override
-    public ComAdobeFdFpConfigFormsPortalSchedulerServiceInfo comAdobeFdFpConfigFormsPortalSchedulerService(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String formportalInterval) throws Exception {
+    public ComAdobeFdFpConfigFormsPortalSchedulerServiceInfo comAdobeFdFpConfigFormsPortalSchedulerService(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String formportalInterval) throws Exception {
         //Do your magic!!!
         return new ComAdobeFdFpConfigFormsPortalSchedulerServiceInfo();
     }
 
     @Override
-    public ComAdobeFormsCommonServiceImplDefaultDataProviderInfo comAdobeFormsCommonServiceImplDefaultDataProvider(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> alloweddataFileLocations) throws Exception {
+    public ComAdobeFormsCommonServiceImplDefaultDataProviderInfo comAdobeFormsCommonServiceImplDefaultDataProvider(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> alloweddataFileLocations) throws Exception {
         //Do your magic!!!
         return new ComAdobeFormsCommonServiceImplDefaultDataProviderInfo();
     }
 
     @Override
-    public ComAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImpInfo comAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImp(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String tempStorageConfig) throws Exception {
+    public ComAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImpInfo comAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImp(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String tempStorageConfig) throws Exception {
         //Do your magic!!!
         return new ComAdobeFormsCommonServiceImplFormsCommonConfigurationServiceImpInfo();
     }
 
     @Override
-    public ComAdobeFormsCommonServletTempCleanUpTaskInfo comAdobeFormsCommonServletTempCleanUpTask(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String schedulerExpression, String durationForTemporaryStorage, String durationForAnonymousStorage) throws Exception {
+    public ComAdobeFormsCommonServletTempCleanUpTaskInfo comAdobeFormsCommonServletTempCleanUpTask(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String schedulerExpression, String durationForTemporaryStorage, String durationForAnonymousStorage) throws Exception {
         //Do your magic!!!
         return new ComAdobeFormsCommonServletTempCleanUpTaskInfo();
     }
 
     @Override
-    public ComAdobeGraniteAcpPlatformPlatformServletInfo comAdobeGraniteAcpPlatformPlatformServlet(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer queryLimit, List<String> fileTypeExtensionMap) throws Exception {
+    public ComAdobeGraniteAcpPlatformPlatformServletInfo comAdobeGraniteAcpPlatformPlatformServlet(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer queryLimit, List<String> fileTypeExtensionMap) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteAcpPlatformPlatformServletInfo();
     }
 
     @Override
-    public ComAdobeGraniteActivitystreamsImplActivityManagerImplInfo comAdobeGraniteActivitystreamsImplActivityManagerImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> aggregateRelationships, Boolean aggregateDescendVirtual) throws Exception {
+    public ComAdobeGraniteActivitystreamsImplActivityManagerImplInfo comAdobeGraniteActivitystreamsImplActivityManagerImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> aggregateRelationships, Boolean aggregateDescendVirtual) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteActivitystreamsImplActivityManagerImplInfo();
     }
 
     @Override
-    public ComAdobeGraniteAnalyzerBaseSystemStatusServletInfo comAdobeGraniteAnalyzerBaseSystemStatusServlet(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean disabled) throws Exception {
+    public ComAdobeGraniteAnalyzerBaseSystemStatusServletInfo comAdobeGraniteAnalyzerBaseSystemStatusServlet(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean disabled) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteAnalyzerBaseSystemStatusServletInfo();
     }
 
     @Override
-    public ComAdobeGraniteAnalyzerScriptsCompileAllScriptsCompilerServletInfo comAdobeGraniteAnalyzerScriptsCompileAllScriptsCompilerServlet(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean disabled) throws Exception {
+    public ComAdobeGraniteAnalyzerScriptsCompileAllScriptsCompilerServletInfo comAdobeGraniteAnalyzerScriptsCompileAllScriptsCompilerServlet(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean disabled) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteAnalyzerScriptsCompileAllScriptsCompilerServletInfo();
     }
 
     @Override
-    public ComAdobeGraniteApicontrollerFilterResolverHookFactoryInfo comAdobeGraniteApicontrollerFilterResolverHookFactory(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String comAdobeCqCdnCdnRewriter, String comAdobeCqCloudConfigComponents, String comAdobeCqCloudConfigCore, String comAdobeCqCloudConfigUi, String comAdobeCqComAdobeCqEditor, String comAdobeCqComAdobeCqProjectsCore, String comAdobeCqComAdobeCqProjectsWcmCore, String comAdobeCqComAdobeCqUiCommons, String comAdobeCqComAdobeCqWcmStyle, String comAdobeCqCqActivitymapIntegration, String comAdobeCqCqContexthubCommons, String comAdobeCqCqDtm, String comAdobeCqCqHealthcheck, String comAdobeCqCqMultisiteTargeting, String comAdobeCqCqPreUpgradeCleanup, String comAdobeCqCqProductInfoProvider, String comAdobeCqCqRestSites, String comAdobeCqCqSecurityHc, String comAdobeCqDamCqDamSvgHandler, String comAdobeCqDamCqScene7Imaging, String comAdobeCqDtmReactorCore, String comAdobeCqDtmReactorUi, String comAdobeCqExpJspelResolver, String comAdobeCqInboxCqInbox, String comAdobeCqJsonSchemaParser, String comAdobeCqMediaCqMediaPublishingDpsFpCore, String comAdobeCqMobileCqMobileCaas, String comAdobeCqMobileCqMobileIndexBuilder, String comAdobeCqMobileCqMobilePhonegapBuild, String comAdobeCqMyspell, String comAdobeCqSampleWeRetailCore, String comAdobeCqScreensComAdobeCqScreensDcc, String comAdobeCqScreensComAdobeCqScreensMqCore, String comAdobeCqSocialCqSocialAsProvider, String comAdobeCqSocialCqSocialBadgingBasicImpl, String comAdobeCqSocialCqSocialBadgingImpl, String comAdobeCqSocialCqSocialCalendarImpl, String comAdobeCqSocialCqSocialContentFragmentsImpl, String comAdobeCqSocialCqSocialEnablementImpl, String comAdobeCqSocialCqSocialGraphImpl, String comAdobeCqSocialCqSocialIdeationImpl, String comAdobeCqSocialCqSocialJcrProvider, String comAdobeCqSocialCqSocialMembersImpl, String comAdobeCqSocialCqSocialMsProvider, String comAdobeCqSocialCqSocialNotificationsChannelsWeb, String comAdobeCqSocialCqSocialNotificationsImpl, String comAdobeCqSocialCqSocialRdbProvider, String comAdobeCqSocialCqSocialScfImpl, String comAdobeCqSocialCqSocialScoringBasicImpl, String comAdobeCqSocialCqSocialScoringImpl, String comAdobeCqSocialCqSocialServiceusersImpl, String comAdobeCqSocialCqSocialSrpImpl, String comAdobeCqSocialCqSocialUgcbaseImpl, String comAdobeDamCqDamCfmImpl, String comAdobeFormsFoundationFormsFoundationBase, String comAdobeGraniteApicontroller, String comAdobeGraniteAssetCore, String comAdobeGraniteAuthSso, String comAdobeGraniteBundlesHcImpl, String comAdobeGraniteCompatRouter, String comAdobeGraniteConf, String comAdobeGraniteConfUiCore, String comAdobeGraniteCors, String comAdobeGraniteCrxExplorer, String comAdobeGraniteCrxdeLite, String comAdobeGraniteCryptoConfig, String comAdobeGraniteCryptoExtension, String comAdobeGraniteCryptoFile, String comAdobeGraniteCryptoJcr, String comAdobeGraniteCsrf, String comAdobeGraniteDistributionCore, String comAdobeGraniteDropwizardMetrics, String comAdobeGraniteFragsImpl, String comAdobeGraniteGibson, String comAdobeGraniteInfocollector, String comAdobeGraniteInstallerFactoryPackages, String comAdobeGraniteJettySsl, String comAdobeGraniteJobsAsync, String comAdobeGraniteMaintenanceOak, String comAdobeGraniteMonitoringCore, String comAdobeGraniteQueries, String comAdobeGraniteReplicationHcImpl, String comAdobeGraniteRepositoryChecker, String comAdobeGraniteRepositoryHcImpl, String comAdobeGraniteRestAssets, String comAdobeGraniteSecurityUi, String comAdobeGraniteStartup, String comAdobeGraniteTagsoup, String comAdobeGraniteTaskmanagementCore, String comAdobeGraniteTaskmanagementWorkflow, String comAdobeGraniteUiClientlibsCompilerLess, String comAdobeGraniteUiClientlibsProcessorGcc, String comAdobeGraniteWebconsolePlugins, String comAdobeGraniteWorkflowConsole, String comAdobeXmpWorkerFilesNativeFragmentLinux, String comAdobeXmpWorkerFilesNativeFragmentMacosx, String comAdobeXmpWorkerFilesNativeFragmentWin, String comDayCommonsOsgiWrapperSimpleJndi, String comDayCqCqAuthhandler, String comDayCqCqCompatConfigupdate, String comDayCqCqLicensebranding, String comDayCqCqNotifcationImpl, String comDayCqCqReplicationAudit, String comDayCqCqSearchExt, String comDayCqDamCqDamAnnotationPrint, String comDayCqDamCqDamAssetUsage, String comDayCqDamCqDamS7dam, String comDayCqDamCqDamSimilaritysearch, String comDayCqDamDamWebdavSupport, String comDayCqPreUpgradeTasks, String comDayCqReplicationExtensions, String comDayCqWcmCqMsmCore, String comDayCqWcmCqWcmTranslation, String dayCommonsJrawio, String orgApacheAriesJmxWhiteboard, String orgApacheFelixHttpSslfilter, String orgApacheFelixOrgApacheFelixThreaddump, String orgApacheFelixWebconsolePluginsDs, String orgApacheFelixWebconsolePluginsEvent, String orgApacheFelixWebconsolePluginsMemoryusage, String orgApacheFelixWebconsolePluginsPackageadmin, String orgApacheJackrabbitOakAuthLdap, String orgApacheJackrabbitOakSegmentTar, String orgApacheJackrabbitOakSolrOsgi, String orgApacheSlingBundleresourceImpl, String orgApacheSlingCommonsFsclassloader, String orgApacheSlingCommonsLogWebconsole, String orgApacheSlingDatasource, String orgApacheSlingDiscoveryBase, String orgApacheSlingDiscoveryOak, String orgApacheSlingDiscoverySupport, String orgApacheSlingDistributionApi, String orgApacheSlingDistributionCore, String orgApacheSlingExtensionsWebconsolesecurityprovider, String orgApacheSlingHcWebconsole, String orgApacheSlingInstallerConsole, String orgApacheSlingInstallerProviderFile, String orgApacheSlingInstallerProviderJcr, String orgApacheSlingJcrDavex, String orgApacheSlingJcrResourcesecurity, String orgApacheSlingJmxProvider, String orgApacheSlingLaunchpadInstaller, String orgApacheSlingModelsImpl, String orgApacheSlingRepoinitParser, String orgApacheSlingResourceInventory, String orgApacheSlingResourceresolver, String orgApacheSlingScriptingJavascript, String orgApacheSlingScriptingJst, String orgApacheSlingScriptingSightlyJsProvider, String orgApacheSlingScriptingSightlyModelsProvider, String orgApacheSlingSecurity, String orgApacheSlingServletsCompat, String orgApacheSlingServletsGet, String orgApacheSlingStartupfilterDisabler, String orgApacheSlingTracer, String weRetailClientAppCore) throws Exception {
+    public ComAdobeGraniteApicontrollerFilterResolverHookFactoryInfo comAdobeGraniteApicontrollerFilterResolverHookFactory(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String comAdobeCqCdnCdnRewriter, String comAdobeCqCloudConfigComponents, String comAdobeCqCloudConfigCore, String comAdobeCqCloudConfigUi, String comAdobeCqComAdobeCqEditor, String comAdobeCqComAdobeCqProjectsCore, String comAdobeCqComAdobeCqProjectsWcmCore, String comAdobeCqComAdobeCqUiCommons, String comAdobeCqComAdobeCqWcmStyle, String comAdobeCqCqActivitymapIntegration, String comAdobeCqCqContexthubCommons, String comAdobeCqCqDtm, String comAdobeCqCqHealthcheck, String comAdobeCqCqMultisiteTargeting, String comAdobeCqCqPreUpgradeCleanup, String comAdobeCqCqProductInfoProvider, String comAdobeCqCqRestSites, String comAdobeCqCqSecurityHc, String comAdobeCqDamCqDamSvgHandler, String comAdobeCqDamCqScene7Imaging, String comAdobeCqDtmReactorCore, String comAdobeCqDtmReactorUi, String comAdobeCqExpJspelResolver, String comAdobeCqInboxCqInbox, String comAdobeCqJsonSchemaParser, String comAdobeCqMediaCqMediaPublishingDpsFpCore, String comAdobeCqMobileCqMobileCaas, String comAdobeCqMobileCqMobileIndexBuilder, String comAdobeCqMobileCqMobilePhonegapBuild, String comAdobeCqMyspell, String comAdobeCqSampleWeRetailCore, String comAdobeCqScreensComAdobeCqScreensDcc, String comAdobeCqScreensComAdobeCqScreensMqCore, String comAdobeCqSocialCqSocialAsProvider, String comAdobeCqSocialCqSocialBadgingBasicImpl, String comAdobeCqSocialCqSocialBadgingImpl, String comAdobeCqSocialCqSocialCalendarImpl, String comAdobeCqSocialCqSocialContentFragmentsImpl, String comAdobeCqSocialCqSocialEnablementImpl, String comAdobeCqSocialCqSocialGraphImpl, String comAdobeCqSocialCqSocialIdeationImpl, String comAdobeCqSocialCqSocialJcrProvider, String comAdobeCqSocialCqSocialMembersImpl, String comAdobeCqSocialCqSocialMsProvider, String comAdobeCqSocialCqSocialNotificationsChannelsWeb, String comAdobeCqSocialCqSocialNotificationsImpl, String comAdobeCqSocialCqSocialRdbProvider, String comAdobeCqSocialCqSocialScfImpl, String comAdobeCqSocialCqSocialScoringBasicImpl, String comAdobeCqSocialCqSocialScoringImpl, String comAdobeCqSocialCqSocialServiceusersImpl, String comAdobeCqSocialCqSocialSrpImpl, String comAdobeCqSocialCqSocialUgcbaseImpl, String comAdobeDamCqDamCfmImpl, String comAdobeFormsFoundationFormsFoundationBase, String comAdobeGraniteApicontroller, String comAdobeGraniteAssetCore, String comAdobeGraniteAuthSso, String comAdobeGraniteBundlesHcImpl, String comAdobeGraniteCompatRouter, String comAdobeGraniteConf, String comAdobeGraniteConfUiCore, String comAdobeGraniteCors, String comAdobeGraniteCrxExplorer, String comAdobeGraniteCrxdeLite, String comAdobeGraniteCryptoConfig, String comAdobeGraniteCryptoExtension, String comAdobeGraniteCryptoFile, String comAdobeGraniteCryptoJcr, String comAdobeGraniteCsrf, String comAdobeGraniteDistributionCore, String comAdobeGraniteDropwizardMetrics, String comAdobeGraniteFragsImpl, String comAdobeGraniteGibson, String comAdobeGraniteInfocollector, String comAdobeGraniteInstallerFactoryPackages, String comAdobeGraniteJettySsl, String comAdobeGraniteJobsAsync, String comAdobeGraniteMaintenanceOak, String comAdobeGraniteMonitoringCore, String comAdobeGraniteQueries, String comAdobeGraniteReplicationHcImpl, String comAdobeGraniteRepositoryChecker, String comAdobeGraniteRepositoryHcImpl, String comAdobeGraniteRestAssets, String comAdobeGraniteSecurityUi, String comAdobeGraniteStartup, String comAdobeGraniteTagsoup, String comAdobeGraniteTaskmanagementCore, String comAdobeGraniteTaskmanagementWorkflow, String comAdobeGraniteUiClientlibsCompilerLess, String comAdobeGraniteUiClientlibsProcessorGcc, String comAdobeGraniteWebconsolePlugins, String comAdobeGraniteWorkflowConsole, String comAdobeXmpWorkerFilesNativeFragmentLinux, String comAdobeXmpWorkerFilesNativeFragmentMacosx, String comAdobeXmpWorkerFilesNativeFragmentWin, String comDayCommonsOsgiWrapperSimpleJndi, String comDayCqCqAuthhandler, String comDayCqCqCompatConfigupdate, String comDayCqCqLicensebranding, String comDayCqCqNotifcationImpl, String comDayCqCqReplicationAudit, String comDayCqCqSearchExt, String comDayCqDamCqDamAnnotationPrint, String comDayCqDamCqDamAssetUsage, String comDayCqDamCqDamS7dam, String comDayCqDamCqDamSimilaritysearch, String comDayCqDamDamWebdavSupport, String comDayCqPreUpgradeTasks, String comDayCqReplicationExtensions, String comDayCqWcmCqMsmCore, String comDayCqWcmCqWcmTranslation, String dayCommonsJrawio, String orgApacheAriesJmxWhiteboard, String orgApacheFelixHttpSslfilter, String orgApacheFelixOrgApacheFelixThreaddump, String orgApacheFelixWebconsolePluginsDs, String orgApacheFelixWebconsolePluginsEvent, String orgApacheFelixWebconsolePluginsMemoryusage, String orgApacheFelixWebconsolePluginsPackageadmin, String orgApacheJackrabbitOakAuthLdap, String orgApacheJackrabbitOakSegmentTar, String orgApacheJackrabbitOakSolrOsgi, String orgApacheSlingBundleresourceImpl, String orgApacheSlingCommonsFsclassloader, String orgApacheSlingCommonsLogWebconsole, String orgApacheSlingDatasource, String orgApacheSlingDiscoveryBase, String orgApacheSlingDiscoveryOak, String orgApacheSlingDiscoverySupport, String orgApacheSlingDistributionApi, String orgApacheSlingDistributionCore, String orgApacheSlingExtensionsWebconsolesecurityprovider, String orgApacheSlingHcWebconsole, String orgApacheSlingInstallerConsole, String orgApacheSlingInstallerProviderFile, String orgApacheSlingInstallerProviderJcr, String orgApacheSlingJcrDavex, String orgApacheSlingJcrResourcesecurity, String orgApacheSlingJmxProvider, String orgApacheSlingLaunchpadInstaller, String orgApacheSlingModelsImpl, String orgApacheSlingRepoinitParser, String orgApacheSlingResourceInventory, String orgApacheSlingResourceresolver, String orgApacheSlingScriptingJavascript, String orgApacheSlingScriptingJst, String orgApacheSlingScriptingSightlyJsProvider, String orgApacheSlingScriptingSightlyModelsProvider, String orgApacheSlingSecurity, String orgApacheSlingServletsCompat, String orgApacheSlingServletsGet, String orgApacheSlingStartupfilterDisabler, String orgApacheSlingTracer, String weRetailClientAppCore) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteApicontrollerFilterResolverHookFactoryInfo();
     }
 
     @Override
-    public ComAdobeGraniteAuthCertImplClientCertAuthHandlerInfo comAdobeGraniteAuthCertImplClientCertAuthHandler(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String path, Integer serviceRanking) throws Exception {
+    public ComAdobeGraniteAuthCertImplClientCertAuthHandlerInfo comAdobeGraniteAuthCertImplClientCertAuthHandler(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String path, Integer serviceRanking) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteAuthCertImplClientCertAuthHandlerInfo();
     }
 
     @Override
-    public ComAdobeGraniteAuthImsInfo comAdobeGraniteAuthIms(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String configid, String scope) throws Exception {
+    public ComAdobeGraniteAuthImsInfo comAdobeGraniteAuthIms(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String configid, String scope) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteAuthImsInfo();
     }
 
     @Override
-    public ComAdobeGraniteAuthImsImplExternalUserIdMappingProviderExtensionInfo comAdobeGraniteAuthImsImplExternalUserIdMappingProviderExtension(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String oauthProviderId) throws Exception {
+    public ComAdobeGraniteAuthImsImplExternalUserIdMappingProviderExtensionInfo comAdobeGraniteAuthImsImplExternalUserIdMappingProviderExtension(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String oauthProviderId) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteAuthImsImplExternalUserIdMappingProviderExtensionInfo();
     }
 
     @Override
-    public ComAdobeGraniteAuthImsImplIMSAccessTokenRequestCustomizerImplInfo comAdobeGraniteAuthImsImplIMSAccessTokenRequestCustomizerImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String authImsClientSecret, String customizerType) throws Exception {
+    public ComAdobeGraniteAuthImsImplIMSAccessTokenRequestCustomizerImplInfo comAdobeGraniteAuthImsImplIMSAccessTokenRequestCustomizerImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String authImsClientSecret, String customizerType) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteAuthImsImplIMSAccessTokenRequestCustomizerImplInfo();
     }
 
     @Override
-    public ComAdobeGraniteAuthImsImplIMSInstanceCredentialsValidatorInfo comAdobeGraniteAuthImsImplIMSInstanceCredentialsValidator(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String oauthProviderId) throws Exception {
+    public ComAdobeGraniteAuthImsImplIMSInstanceCredentialsValidatorInfo comAdobeGraniteAuthImsImplIMSInstanceCredentialsValidator(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String oauthProviderId) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteAuthImsImplIMSInstanceCredentialsValidatorInfo();
     }
 
     @Override
-    public ComAdobeGraniteAuthImsImplIMSProviderImplInfo comAdobeGraniteAuthImsImplIMSProviderImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String oauthProviderId, String oauthProviderImsAuthorizationUrl, String oauthProviderImsTokenUrl, String oauthProviderImsProfileUrl, List<String> oauthProviderImsExtendedDetailsUrls, String oauthProviderImsValidateTokenUrl, String oauthProviderImsSessionProperty, String oauthProviderImsServiceTokenClientId, String oauthProviderImsServiceTokenClientSecret, String oauthProviderImsServiceToken, String imsOrgRef, List<String> imsGroupMapping, Boolean oauthProviderImsOnlyLicenseGroup) throws Exception {
+    public ComAdobeGraniteAuthImsImplIMSProviderImplInfo comAdobeGraniteAuthImsImplIMSProviderImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String oauthProviderId, String oauthProviderImsAuthorizationUrl, String oauthProviderImsTokenUrl, String oauthProviderImsProfileUrl, List<String> oauthProviderImsExtendedDetailsUrls, String oauthProviderImsValidateTokenUrl, String oauthProviderImsSessionProperty, String oauthProviderImsServiceTokenClientId, String oauthProviderImsServiceTokenClientSecret, String oauthProviderImsServiceToken, String imsOrgRef, List<String> imsGroupMapping, Boolean oauthProviderImsOnlyLicenseGroup) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteAuthImsImplIMSProviderImplInfo();
     }
 
     @Override
-    public ComAdobeGraniteAuthImsImplImsConfigProviderImplInfo comAdobeGraniteAuthImsImplImsConfigProviderImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String oauthConfigmanagerImsConfigid, String imsOwningEntity, String aemInstanceId, String imsServiceCode) throws Exception {
+    public ComAdobeGraniteAuthImsImplImsConfigProviderImplInfo comAdobeGraniteAuthImsImplImsConfigProviderImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String oauthConfigmanagerImsConfigid, String imsOwningEntity, String aemInstanceId, String imsServiceCode) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteAuthImsImplImsConfigProviderImplInfo();
     }
 
     @Override
-    public ComAdobeGraniteAuthOauthAccesstokenProviderInfo comAdobeGraniteAuthOauthAccesstokenProvider(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String name, String authTokenProviderTitle, List<String> authTokenProviderDefaultClaims, String authTokenProviderEndpoint, String authAccessTokenRequest, String authTokenProviderKeypairAlias, Integer authTokenProviderConnTimeout, Integer authTokenProviderSoTimeout, String authTokenProviderClientId, String authTokenProviderScope, Boolean authTokenProviderReuseAccessToken, Boolean authTokenProviderRelaxedSsl, String tokenRequestCustomizerType, String authTokenValidatorType) throws Exception {
+    public ComAdobeGraniteAuthOauthAccesstokenProviderInfo comAdobeGraniteAuthOauthAccesstokenProvider(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String name, String authTokenProviderTitle, List<String> authTokenProviderDefaultClaims, String authTokenProviderEndpoint, String authAccessTokenRequest, String authTokenProviderKeypairAlias, Integer authTokenProviderConnTimeout, Integer authTokenProviderSoTimeout, String authTokenProviderClientId, String authTokenProviderScope, Boolean authTokenProviderReuseAccessToken, Boolean authTokenProviderRelaxedSsl, String tokenRequestCustomizerType, String authTokenValidatorType) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteAuthOauthAccesstokenProviderInfo();
     }
 
     @Override
-    public ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerInfo comAdobeGraniteAuthOauthImplBearerAuthenticationHandler(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String path, List<String> oauthClientIdsAllowed, Boolean authBearerSyncIms, String authTokenRequestParameter, String oauthBearerConfigid, Boolean oauthJwtSupport) throws Exception {
+    public ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerInfo comAdobeGraniteAuthOauthImplBearerAuthenticationHandler(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String path, List<String> oauthClientIdsAllowed, Boolean authBearerSyncIms, String authTokenRequestParameter, String oauthBearerConfigid, Boolean oauthJwtSupport) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerInfo();
     }
 
     @Override
-    public ComAdobeGraniteAuthOauthImplDefaultTokenValidatorImplInfo comAdobeGraniteAuthOauthImplDefaultTokenValidatorImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String authTokenValidatorType) throws Exception {
+    public ComAdobeGraniteAuthOauthImplDefaultTokenValidatorImplInfo comAdobeGraniteAuthOauthImplDefaultTokenValidatorImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String authTokenValidatorType) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteAuthOauthImplDefaultTokenValidatorImplInfo();
     }
 
     @Override
-    public ComAdobeGraniteAuthOauthImplFacebookProviderImplInfo comAdobeGraniteAuthOauthImplFacebookProviderImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String oauthProviderId) throws Exception {
+    public ComAdobeGraniteAuthOauthImplFacebookProviderImplInfo comAdobeGraniteAuthOauthImplFacebookProviderImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String oauthProviderId) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteAuthOauthImplFacebookProviderImplInfo();
     }
 
     @Override
-    public ComAdobeGraniteAuthOauthImplGithubProviderImplInfo comAdobeGraniteAuthOauthImplGithubProviderImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String oauthProviderId, String oauthProviderGithubAuthorizationUrl, String oauthProviderGithubTokenUrl, String oauthProviderGithubProfileUrl) throws Exception {
+    public ComAdobeGraniteAuthOauthImplGithubProviderImplInfo comAdobeGraniteAuthOauthImplGithubProviderImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String oauthProviderId, String oauthProviderGithubAuthorizationUrl, String oauthProviderGithubTokenUrl, String oauthProviderGithubProfileUrl) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteAuthOauthImplGithubProviderImplInfo();
     }
 
     @Override
-    public ComAdobeGraniteAuthOauthImplGraniteProviderInfo comAdobeGraniteAuthOauthImplGraniteProvider(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String oauthProviderId, String oauthProviderGraniteAuthorizationUrl, String oauthProviderGraniteTokenUrl, String oauthProviderGraniteProfileUrl, String oauthProviderGraniteExtendedDetailsUrls) throws Exception {
+    public ComAdobeGraniteAuthOauthImplGraniteProviderInfo comAdobeGraniteAuthOauthImplGraniteProvider(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String oauthProviderId, String oauthProviderGraniteAuthorizationUrl, String oauthProviderGraniteTokenUrl, String oauthProviderGraniteProfileUrl, String oauthProviderGraniteExtendedDetailsUrls) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteAuthOauthImplGraniteProviderInfo();
     }
 
     @Override
-    public ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerInfo comAdobeGraniteAuthOauthImplHelperProviderConfigManager(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String oauthCookieLoginTimeout, String oauthCookieMaxAge) throws Exception {
+    public ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerInfo comAdobeGraniteAuthOauthImplHelperProviderConfigManager(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String oauthCookieLoginTimeout, String oauthCookieMaxAge) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerInfo();
     }
 
     @Override
-    public ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerInternalInfo comAdobeGraniteAuthOauthImplHelperProviderConfigManagerInternal(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String oauthCookieLoginTimeout, String oauthCookieMaxAge) throws Exception {
+    public ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerInternalInfo comAdobeGraniteAuthOauthImplHelperProviderConfigManagerInternal(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String oauthCookieLoginTimeout, String oauthCookieMaxAge) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteAuthOauthImplHelperProviderConfigManagerInternalInfo();
     }
 
     @Override
-    public ComAdobeGraniteAuthOauthImplOAuthAuthenticationHandlerInfo comAdobeGraniteAuthOauthImplOAuthAuthenticationHandler(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String path) throws Exception {
+    public ComAdobeGraniteAuthOauthImplOAuthAuthenticationHandlerInfo comAdobeGraniteAuthOauthImplOAuthAuthenticationHandler(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String path) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteAuthOauthImplOAuthAuthenticationHandlerInfo();
     }
 
     @Override
-    public ComAdobeGraniteAuthOauthImplTwitterProviderImplInfo comAdobeGraniteAuthOauthImplTwitterProviderImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String oauthProviderId) throws Exception {
+    public ComAdobeGraniteAuthOauthImplTwitterProviderImplInfo comAdobeGraniteAuthOauthImplTwitterProviderImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String oauthProviderId) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteAuthOauthImplTwitterProviderImplInfo();
     }
 
     @Override
-    public ComAdobeGraniteAuthOauthProviderInfo comAdobeGraniteAuthOauthProvider(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String oauthConfigId, String oauthClientId, String oauthClientSecret, List<String> oauthScope, String oauthConfigProviderId, Boolean oauthCreateUsers, String oauthUseridProperty, Boolean forceStrictUsernameMatching, Boolean oauthEncodeUserids, Boolean oauthHashUserids, String oauthCallBackUrl, Boolean oauthAccessTokenPersist, Boolean oauthAccessTokenPersistCookie, Boolean oauthCsrfStateProtection, Boolean oauthRedirectRequestParams, Boolean oauthConfigSiblingsAllow) throws Exception {
+    public ComAdobeGraniteAuthOauthProviderInfo comAdobeGraniteAuthOauthProvider(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String oauthConfigId, String oauthClientId, String oauthClientSecret, List<String> oauthScope, String oauthConfigProviderId, Boolean oauthCreateUsers, String oauthUseridProperty, Boolean forceStrictUsernameMatching, Boolean oauthEncodeUserids, Boolean oauthHashUserids, String oauthCallBackUrl, Boolean oauthAccessTokenPersist, Boolean oauthAccessTokenPersistCookie, Boolean oauthCsrfStateProtection, Boolean oauthRedirectRequestParams, Boolean oauthConfigSiblingsAllow) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteAuthOauthProviderInfo();
     }
 
     @Override
-    public ComAdobeGraniteAuthRequirementImplDefaultRequirementHandlerInfo comAdobeGraniteAuthRequirementImplDefaultRequirementHandler(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> supportedPaths) throws Exception {
+    public ComAdobeGraniteAuthRequirementImplDefaultRequirementHandlerInfo comAdobeGraniteAuthRequirementImplDefaultRequirementHandler(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> supportedPaths) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteAuthRequirementImplDefaultRequirementHandlerInfo();
     }
 
     @Override
-    public ComAdobeGraniteAuthSamlSamlAuthenticationHandlerInfo comAdobeGraniteAuthSamlSamlAuthenticationHandler(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> path, Integer serviceRanking, String idpUrl, String idpCertAlias, Boolean idpHttpRedirect, String serviceProviderEntityId, String assertionConsumerServiceURL, String spPrivateKeyAlias, String keyStorePassword, String defaultRedirectUrl, String userIDAttribute, Boolean useEncryption, Boolean createUser, String userIntermediatePath, Boolean addGroupMemberships, String groupMembershipAttribute, List<String> defaultGroups, String nameIdFormat, List<String> synchronizeAttributes, Boolean handleLogout, String logoutUrl, Integer clockTolerance, String digestMethod, String signatureMethod, String identitySyncType, String idpIdentifier) throws Exception {
+    public ComAdobeGraniteAuthSamlSamlAuthenticationHandlerInfo comAdobeGraniteAuthSamlSamlAuthenticationHandler(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> path, Integer serviceRanking, String idpUrl, String idpCertAlias, Boolean idpHttpRedirect, String serviceProviderEntityId, String assertionConsumerServiceURL, String spPrivateKeyAlias, String keyStorePassword, String defaultRedirectUrl, String userIDAttribute, Boolean useEncryption, Boolean createUser, String userIntermediatePath, Boolean addGroupMemberships, String groupMembershipAttribute, List<String> defaultGroups, String nameIdFormat, List<String> synchronizeAttributes, Boolean handleLogout, String logoutUrl, Integer clockTolerance, String digestMethod, String signatureMethod, String identitySyncType, String idpIdentifier) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteAuthSamlSamlAuthenticationHandlerInfo();
     }
 
     @Override
-    public ComAdobeGraniteAuthSsoImplSsoAuthenticationHandlerInfo comAdobeGraniteAuthSsoImplSsoAuthenticationHandler(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String path, Integer serviceRanking, String jaasControlFlag, String jaasRealmName, Integer jaasRanking, List<String> headers, List<String> cookies, List<String> parameters, List<String> usermap, String format, String trustedCredentialsAttribute) throws Exception {
+    public ComAdobeGraniteAuthSsoImplSsoAuthenticationHandlerInfo comAdobeGraniteAuthSsoImplSsoAuthenticationHandler(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String path, Integer serviceRanking, String jaasControlFlag, String jaasRealmName, Integer jaasRanking, List<String> headers, List<String> cookies, List<String> parameters, List<String> usermap, String format, String trustedCredentialsAttribute) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteAuthSsoImplSsoAuthenticationHandlerInfo();
     }
 
     @Override
-    public ComAdobeGraniteBundlesHcImplCodeCacheHealthCheckInfo comAdobeGraniteBundlesHcImplCodeCacheHealthCheck(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> hcTags, Integer minimumCodeCacheSize) throws Exception {
+    public ComAdobeGraniteBundlesHcImplCodeCacheHealthCheckInfo comAdobeGraniteBundlesHcImplCodeCacheHealthCheck(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> hcTags, Integer minimumCodeCacheSize) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteBundlesHcImplCodeCacheHealthCheckInfo();
     }
 
     @Override
-    public ComAdobeGraniteBundlesHcImplCrxdeSupportBundleHealthCheckInfo comAdobeGraniteBundlesHcImplCrxdeSupportBundleHealthCheck(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> hcTags) throws Exception {
+    public ComAdobeGraniteBundlesHcImplCrxdeSupportBundleHealthCheckInfo comAdobeGraniteBundlesHcImplCrxdeSupportBundleHealthCheck(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> hcTags) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteBundlesHcImplCrxdeSupportBundleHealthCheckInfo();
     }
 
     @Override
-    public ComAdobeGraniteBundlesHcImplDavExBundleHealthCheckInfo comAdobeGraniteBundlesHcImplDavExBundleHealthCheck(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> hcTags) throws Exception {
+    public ComAdobeGraniteBundlesHcImplDavExBundleHealthCheckInfo comAdobeGraniteBundlesHcImplDavExBundleHealthCheck(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> hcTags) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteBundlesHcImplDavExBundleHealthCheckInfo();
     }
 
     @Override
-    public ComAdobeGraniteBundlesHcImplInactiveBundlesHealthCheckInfo comAdobeGraniteBundlesHcImplInactiveBundlesHealthCheck(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> hcTags, List<String> ignoredBundles) throws Exception {
+    public ComAdobeGraniteBundlesHcImplInactiveBundlesHealthCheckInfo comAdobeGraniteBundlesHcImplInactiveBundlesHealthCheck(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> hcTags, List<String> ignoredBundles) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteBundlesHcImplInactiveBundlesHealthCheckInfo();
     }
 
     @Override
-    public ComAdobeGraniteBundlesHcImplJobsHealthCheckInfo comAdobeGraniteBundlesHcImplJobsHealthCheck(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> hcTags, Integer maxQueuedJobs) throws Exception {
+    public ComAdobeGraniteBundlesHcImplJobsHealthCheckInfo comAdobeGraniteBundlesHcImplJobsHealthCheck(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> hcTags, Integer maxQueuedJobs) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteBundlesHcImplJobsHealthCheckInfo();
     }
 
     @Override
-    public ComAdobeGraniteBundlesHcImplSlingGetServletHealthCheckInfo comAdobeGraniteBundlesHcImplSlingGetServletHealthCheck(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> hcTags) throws Exception {
+    public ComAdobeGraniteBundlesHcImplSlingGetServletHealthCheckInfo comAdobeGraniteBundlesHcImplSlingGetServletHealthCheck(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> hcTags) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteBundlesHcImplSlingGetServletHealthCheckInfo();
     }
 
     @Override
-    public ComAdobeGraniteBundlesHcImplSlingJavaScriptHandlerHealthCheckInfo comAdobeGraniteBundlesHcImplSlingJavaScriptHandlerHealthCheck(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> hcTags) throws Exception {
+    public ComAdobeGraniteBundlesHcImplSlingJavaScriptHandlerHealthCheckInfo comAdobeGraniteBundlesHcImplSlingJavaScriptHandlerHealthCheck(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> hcTags) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteBundlesHcImplSlingJavaScriptHandlerHealthCheckInfo();
     }
 
     @Override
-    public ComAdobeGraniteBundlesHcImplSlingJspScriptHandlerHealthCheckInfo comAdobeGraniteBundlesHcImplSlingJspScriptHandlerHealthCheck(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> hcTags) throws Exception {
+    public ComAdobeGraniteBundlesHcImplSlingJspScriptHandlerHealthCheckInfo comAdobeGraniteBundlesHcImplSlingJspScriptHandlerHealthCheck(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> hcTags) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteBundlesHcImplSlingJspScriptHandlerHealthCheckInfo();
     }
 
     @Override
-    public ComAdobeGraniteBundlesHcImplSlingReferrerFilterHealthCheckInfo comAdobeGraniteBundlesHcImplSlingReferrerFilterHealthCheck(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> hcTags) throws Exception {
+    public ComAdobeGraniteBundlesHcImplSlingReferrerFilterHealthCheckInfo comAdobeGraniteBundlesHcImplSlingReferrerFilterHealthCheck(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> hcTags) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteBundlesHcImplSlingReferrerFilterHealthCheckInfo();
     }
 
     @Override
-    public ComAdobeGraniteBundlesHcImplWebDavBundleHealthCheckInfo comAdobeGraniteBundlesHcImplWebDavBundleHealthCheck(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> hcTags) throws Exception {
+    public ComAdobeGraniteBundlesHcImplWebDavBundleHealthCheckInfo comAdobeGraniteBundlesHcImplWebDavBundleHealthCheck(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> hcTags) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteBundlesHcImplWebDavBundleHealthCheckInfo();
     }
 
     @Override
-    public ComAdobeGraniteCommentsInternalCommentReplicationContentFilterFacInfo comAdobeGraniteCommentsInternalCommentReplicationContentFilterFac(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> replicateCommentResourceTypes) throws Exception {
+    public ComAdobeGraniteCommentsInternalCommentReplicationContentFilterFacInfo comAdobeGraniteCommentsInternalCommentReplicationContentFilterFac(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> replicateCommentResourceTypes) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteCommentsInternalCommentReplicationContentFilterFacInfo();
     }
 
     @Override
-    public ComAdobeGraniteCompatrouterImplCompatSwitchingServiceImplInfo comAdobeGraniteCompatrouterImplCompatSwitchingServiceImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> compatgroups, Boolean enabled) throws Exception {
+    public ComAdobeGraniteCompatrouterImplCompatSwitchingServiceImplInfo comAdobeGraniteCompatrouterImplCompatSwitchingServiceImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> compatgroups, Boolean enabled) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteCompatrouterImplCompatSwitchingServiceImplInfo();
     }
 
     @Override
-    public ComAdobeGraniteCompatrouterImplRoutingConfigInfo comAdobeGraniteCompatrouterImplRoutingConfig(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String id, String compatPath, String newPath) throws Exception {
+    public ComAdobeGraniteCompatrouterImplRoutingConfigInfo comAdobeGraniteCompatrouterImplRoutingConfig(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String id, String compatPath, String newPath) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteCompatrouterImplRoutingConfigInfo();
     }
 
     @Override
-    public ComAdobeGraniteCompatrouterImplSwitchMappingConfigInfo comAdobeGraniteCompatrouterImplSwitchMappingConfig(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String group, List<String> ids) throws Exception {
+    public ComAdobeGraniteCompatrouterImplSwitchMappingConfigInfo comAdobeGraniteCompatrouterImplSwitchMappingConfig(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String group, List<String> ids) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteCompatrouterImplSwitchMappingConfigInfo();
     }
 
     @Override
-    public ComAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingInfo comAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolving(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean enabled, List<String> fallbackPaths) throws Exception {
+    public ComAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingInfo comAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolving(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean enabled, List<String> fallbackPaths) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingInfo();
     }
 
     @Override
-    public ComAdobeGraniteContexthubImplContextHubImplInfo comAdobeGraniteContexthubImplContextHubImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean comAdobeGraniteContexthubSilentMode, Boolean comAdobeGraniteContexthubShowUi) throws Exception {
+    public ComAdobeGraniteContexthubImplContextHubImplInfo comAdobeGraniteContexthubImplContextHubImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean comAdobeGraniteContexthubSilentMode, Boolean comAdobeGraniteContexthubShowUi) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteContexthubImplContextHubImplInfo();
     }
 
     @Override
-    public ComAdobeGraniteCorsImplCORSPolicyImplInfo comAdobeGraniteCorsImplCORSPolicyImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> alloworigin, List<String> alloworiginregexp, List<String> allowedpaths, List<String> exposedheaders, Integer maxage, List<String> supportedheaders, List<String> supportedmethods, Boolean supportscredentials) throws Exception {
+    public ComAdobeGraniteCorsImplCORSPolicyImplInfo comAdobeGraniteCorsImplCORSPolicyImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> alloworigin, List<String> alloworiginregexp, List<String> allowedpaths, List<String> exposedheaders, Integer maxage, List<String> supportedheaders, List<String> supportedmethods, Boolean supportscredentials) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteCorsImplCORSPolicyImplInfo();
     }
 
     @Override
-    public ComAdobeGraniteCsrfImplCSRFFilterInfo comAdobeGraniteCsrfImplCSRFFilter(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> filterMethods, Boolean filterEnableSafeUserAgents, List<String> filterSafeUserAgents, List<String> filterExcludedPaths) throws Exception {
+    public ComAdobeGraniteCsrfImplCSRFFilterInfo comAdobeGraniteCsrfImplCSRFFilter(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> filterMethods, Boolean filterEnableSafeUserAgents, List<String> filterSafeUserAgents, List<String> filterExcludedPaths) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteCsrfImplCSRFFilterInfo();
     }
 
     @Override
-    public ComAdobeGraniteCsrfImplCSRFServletInfo comAdobeGraniteCsrfImplCSRFServlet(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer csrfTokenExpiresIn, String slingAuthRequirements) throws Exception {
+    public ComAdobeGraniteCsrfImplCSRFServletInfo comAdobeGraniteCsrfImplCSRFServlet(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer csrfTokenExpiresIn, String slingAuthRequirements) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteCsrfImplCSRFServletInfo();
     }
 
     @Override
-    public ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSeInfo comAdobeGraniteDistributionCoreImplCryptoDistributionTransportSe(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String name, String username, String encryptedPassword) throws Exception {
+    public ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSeInfo comAdobeGraniteDistributionCoreImplCryptoDistributionTransportSe(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String name, String username, String encryptedPassword) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteDistributionCoreImplCryptoDistributionTransportSeInfo();
     }
 
     @Override
-    public ComAdobeGraniteDistributionCoreImplDiffDiffChangesObserverInfo comAdobeGraniteDistributionCoreImplDiffDiffChangesObserver(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean enabled, String agentName, String diffPath, String observedPath, String serviceName, String propertyNames, Integer distributionDelay, String serviceUserTarget) throws Exception {
+    public ComAdobeGraniteDistributionCoreImplDiffDiffChangesObserverInfo comAdobeGraniteDistributionCoreImplDiffDiffChangesObserver(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean enabled, String agentName, String diffPath, String observedPath, String serviceName, String propertyNames, Integer distributionDelay, String serviceUserTarget) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteDistributionCoreImplDiffDiffChangesObserverInfo();
     }
 
     @Override
-    public ComAdobeGraniteDistributionCoreImplDiffDiffEventListenerInfo comAdobeGraniteDistributionCoreImplDiffDiffEventListener(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String diffPath, String serviceName, String serviceUserTarget) throws Exception {
+    public ComAdobeGraniteDistributionCoreImplDiffDiffEventListenerInfo comAdobeGraniteDistributionCoreImplDiffDiffEventListener(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String diffPath, String serviceName, String serviceUserTarget) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteDistributionCoreImplDiffDiffEventListenerInfo();
     }
 
     @Override
-    public ComAdobeGraniteDistributionCoreImplDistributionToReplicationEvenInfo comAdobeGraniteDistributionCoreImplDistributionToReplicationEven(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> importerName) throws Exception {
+    public ComAdobeGraniteDistributionCoreImplDistributionToReplicationEvenInfo comAdobeGraniteDistributionCoreImplDistributionToReplicationEven(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> importerName) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteDistributionCoreImplDistributionToReplicationEvenInfo();
     }
 
     @Override
-    public ComAdobeGraniteDistributionCoreImplReplicationAdaptersReplicatInfo comAdobeGraniteDistributionCoreImplReplicationAdaptersReplicat(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String providerName, Boolean forwardRequests) throws Exception {
+    public ComAdobeGraniteDistributionCoreImplReplicationAdaptersReplicatInfo comAdobeGraniteDistributionCoreImplReplicationAdaptersReplicat(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String providerName, Boolean forwardRequests) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteDistributionCoreImplReplicationAdaptersReplicatInfo();
     }
 
     @Override
-    public ComAdobeGraniteDistributionCoreImplReplicationDistributionTransInfo comAdobeGraniteDistributionCoreImplReplicationDistributionTrans(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean forwardRequests) throws Exception {
+    public ComAdobeGraniteDistributionCoreImplReplicationDistributionTransInfo comAdobeGraniteDistributionCoreImplReplicationDistributionTrans(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean forwardRequests) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteDistributionCoreImplReplicationDistributionTransInfo();
     }
 
     @Override
-    public ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuInfo comAdobeGraniteDistributionCoreImplTransportAccessTokenDistribu(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String name, String serviceName, String userId, String accessTokenProviderTarget) throws Exception {
+    public ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuInfo comAdobeGraniteDistributionCoreImplTransportAccessTokenDistribu(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String name, String serviceName, String userId, String accessTokenProviderTarget) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuInfo();
     }
 
     @Override
-    public ComAdobeGraniteFragsImplCheckHttpHeaderFlagInfo comAdobeGraniteFragsImplCheckHttpHeaderFlag(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String featureName, String featureDescription, String httpHeaderName, String httpHeaderValuepattern) throws Exception {
+    public ComAdobeGraniteFragsImplCheckHttpHeaderFlagInfo comAdobeGraniteFragsImplCheckHttpHeaderFlag(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String featureName, String featureDescription, String httpHeaderName, String httpHeaderValuepattern) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteFragsImplCheckHttpHeaderFlagInfo();
     }
 
     @Override
-    public ComAdobeGraniteFragsImplRandomFeatureInfo comAdobeGraniteFragsImplRandomFeature(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String featureName, String featureDescription, String activePercentage, String cookieName, Integer cookieMaxAge) throws Exception {
+    public ComAdobeGraniteFragsImplRandomFeatureInfo comAdobeGraniteFragsImplRandomFeature(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String featureName, String featureDescription, String activePercentage, String cookieName, Integer cookieMaxAge) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteFragsImplRandomFeatureInfo();
     }
 
     @Override
-    public ComAdobeGraniteHttpcacheFileFileCacheStoreInfo comAdobeGraniteHttpcacheFileFileCacheStore(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String comAdobeGraniteHttpcacheFileDocumentRoot, String comAdobeGraniteHttpcacheFileIncludeHost) throws Exception {
+    public ComAdobeGraniteHttpcacheFileFileCacheStoreInfo comAdobeGraniteHttpcacheFileFileCacheStore(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String comAdobeGraniteHttpcacheFileDocumentRoot, String comAdobeGraniteHttpcacheFileIncludeHost) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteHttpcacheFileFileCacheStoreInfo();
     }
 
     @Override
-    public ComAdobeGraniteHttpcacheImplOuterCacheFilterInfo comAdobeGraniteHttpcacheImplOuterCacheFilter(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> comAdobeGraniteHttpcacheUrlPaths) throws Exception {
+    public ComAdobeGraniteHttpcacheImplOuterCacheFilterInfo comAdobeGraniteHttpcacheImplOuterCacheFilter(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> comAdobeGraniteHttpcacheUrlPaths) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteHttpcacheImplOuterCacheFilterInfo();
     }
 
     @Override
-    public ComAdobeGraniteI18nImplBundlePseudoTranslationsInfo comAdobeGraniteI18nImplBundlePseudoTranslations(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> pseudoPatterns) throws Exception {
+    public ComAdobeGraniteI18nImplBundlePseudoTranslationsInfo comAdobeGraniteI18nImplBundlePseudoTranslations(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> pseudoPatterns) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteI18nImplBundlePseudoTranslationsInfo();
     }
 
     @Override
-    public ComAdobeGraniteI18nImplPreferencesLocaleResolverServiceInfo comAdobeGraniteI18nImplPreferencesLocaleResolverService(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String securityPreferencesName) throws Exception {
+    public ComAdobeGraniteI18nImplPreferencesLocaleResolverServiceInfo comAdobeGraniteI18nImplPreferencesLocaleResolverService(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String securityPreferencesName) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteI18nImplPreferencesLocaleResolverServiceInfo();
     }
 
     @Override
-    public ComAdobeGraniteInfocollectorInfoCollectorInfo comAdobeGraniteInfocollectorInfoCollector(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean graniteInfocollectorIncludeThreadDumps, Boolean graniteInfocollectorIncludeHeapDump) throws Exception {
+    public ComAdobeGraniteInfocollectorInfoCollectorInfo comAdobeGraniteInfocollectorInfoCollector(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean graniteInfocollectorIncludeThreadDumps, Boolean graniteInfocollectorIncludeHeapDump) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteInfocollectorInfoCollectorInfo();
     }
 
     @Override
-    public ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryInfo comAdobeGraniteJettySslInternalGraniteSslConnectorFactory(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer comAdobeGraniteJettySslPort, String comAdobeGraniteJettySslKeystoreUser, String comAdobeGraniteJettySslKeystorePassword, List<String> comAdobeGraniteJettySslCiphersuitesExcluded, List<String> comAdobeGraniteJettySslCiphersuitesIncluded, String comAdobeGraniteJettySslClientCertificate) throws Exception {
+    public ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryInfo comAdobeGraniteJettySslInternalGraniteSslConnectorFactory(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer comAdobeGraniteJettySslPort, String comAdobeGraniteJettySslKeystoreUser, String comAdobeGraniteJettySslKeystorePassword, List<String> comAdobeGraniteJettySslCiphersuitesExcluded, List<String> comAdobeGraniteJettySslCiphersuitesIncluded, String comAdobeGraniteJettySslClientCertificate) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryInfo();
     }
 
     @Override
-    public ComAdobeGraniteLicenseImplLicenseCheckFilterInfo comAdobeGraniteLicenseImplLicenseCheckFilter(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer checkInternval, List<String> excludeIds, Boolean encryptPing) throws Exception {
+    public ComAdobeGraniteLicenseImplLicenseCheckFilterInfo comAdobeGraniteLicenseImplLicenseCheckFilter(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer checkInternval, List<String> excludeIds, Boolean encryptPing) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteLicenseImplLicenseCheckFilterInfo();
     }
 
     @Override
-    public ComAdobeGraniteLoggingImplLogAnalyserImplInfo comAdobeGraniteLoggingImplLogAnalyserImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer messagesQueueSize, List<String> loggerConfig, Integer messagesSize) throws Exception {
+    public ComAdobeGraniteLoggingImplLogAnalyserImplInfo comAdobeGraniteLoggingImplLogAnalyserImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer messagesQueueSize, List<String> loggerConfig, Integer messagesSize) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteLoggingImplLogAnalyserImplInfo();
     }
 
     @Override
-    public ComAdobeGraniteLoggingImplLogErrorHealthCheckInfo comAdobeGraniteLoggingImplLogErrorHealthCheck(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> hcTags) throws Exception {
+    public ComAdobeGraniteLoggingImplLogErrorHealthCheckInfo comAdobeGraniteLoggingImplLogErrorHealthCheck(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> hcTags) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteLoggingImplLogErrorHealthCheckInfo();
     }
 
     @Override
-    public ComAdobeGraniteMaintenanceCrxImplDataStoreGarbageCollectionTaskInfo comAdobeGraniteMaintenanceCrxImplDataStoreGarbageCollectionTask(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean graniteMaintenanceMandatory, String jobTopics) throws Exception {
+    public ComAdobeGraniteMaintenanceCrxImplDataStoreGarbageCollectionTaskInfo comAdobeGraniteMaintenanceCrxImplDataStoreGarbageCollectionTask(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean graniteMaintenanceMandatory, String jobTopics) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteMaintenanceCrxImplDataStoreGarbageCollectionTaskInfo();
     }
 
     @Override
-    public ComAdobeGraniteMaintenanceCrxImplLuceneBinariesCleanupTaskInfo comAdobeGraniteMaintenanceCrxImplLuceneBinariesCleanupTask(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String jobTopics) throws Exception {
+    public ComAdobeGraniteMaintenanceCrxImplLuceneBinariesCleanupTaskInfo comAdobeGraniteMaintenanceCrxImplLuceneBinariesCleanupTask(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String jobTopics) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteMaintenanceCrxImplLuceneBinariesCleanupTaskInfo();
     }
 
     @Override
-    public ComAdobeGraniteMaintenanceCrxImplRevisionCleanupTaskInfo comAdobeGraniteMaintenanceCrxImplRevisionCleanupTask(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> fullGcDays) throws Exception {
+    public ComAdobeGraniteMaintenanceCrxImplRevisionCleanupTaskInfo comAdobeGraniteMaintenanceCrxImplRevisionCleanupTask(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> fullGcDays) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteMaintenanceCrxImplRevisionCleanupTaskInfo();
     }
 
     @Override
-    public ComAdobeGraniteMonitoringImplScriptConfigImplInfo comAdobeGraniteMonitoringImplScriptConfigImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String scriptFilename, String scriptDisplay, String scriptPath, List<String> scriptPlatform, Integer interval, String jmxdomain) throws Exception {
+    public ComAdobeGraniteMonitoringImplScriptConfigImplInfo comAdobeGraniteMonitoringImplScriptConfigImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String scriptFilename, String scriptDisplay, String scriptPath, List<String> scriptPlatform, Integer interval, String jmxdomain) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteMonitoringImplScriptConfigImplInfo();
     }
 
     @Override
-    public ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanInfo comAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHan(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String path, String jaasControlFlag, String jaasRealmName, Integer jaasRanking, Boolean oauthOfflineValidation) throws Exception {
+    public ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanInfo comAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHan(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String path, String jaasControlFlag, String jaasRealmName, Integer jaasRanking, Boolean oauthOfflineValidation) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteOauthServerAuthImplOAuth2ServerAuthenticationHanInfo();
     }
 
     @Override
-    public ComAdobeGraniteOauthServerImplAccessTokenCleanupTaskInfo comAdobeGraniteOauthServerImplAccessTokenCleanupTask(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String schedulerExpression) throws Exception {
+    public ComAdobeGraniteOauthServerImplAccessTokenCleanupTaskInfo comAdobeGraniteOauthServerImplAccessTokenCleanupTask(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String schedulerExpression) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteOauthServerImplAccessTokenCleanupTaskInfo();
     }
 
     @Override
-    public ComAdobeGraniteOauthServerImplOAuth2ClientRevocationServletInfo comAdobeGraniteOauthServerImplOAuth2ClientRevocationServlet(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean oauthClientRevocationActive) throws Exception {
+    public ComAdobeGraniteOauthServerImplOAuth2ClientRevocationServletInfo comAdobeGraniteOauthServerImplOAuth2ClientRevocationServlet(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean oauthClientRevocationActive) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteOauthServerImplOAuth2ClientRevocationServletInfo();
     }
 
     @Override
-    public ComAdobeGraniteOauthServerImplOAuth2RevocationEndpointServletInfo comAdobeGraniteOauthServerImplOAuth2RevocationEndpointServlet(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String slingServletPaths, Boolean oauthRevocationActive) throws Exception {
+    public ComAdobeGraniteOauthServerImplOAuth2RevocationEndpointServletInfo comAdobeGraniteOauthServerImplOAuth2RevocationEndpointServlet(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String slingServletPaths, Boolean oauthRevocationActive) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteOauthServerImplOAuth2RevocationEndpointServletInfo();
     }
 
     @Override
-    public ComAdobeGraniteOauthServerImplOAuth2TokenEndpointServletInfo comAdobeGraniteOauthServerImplOAuth2TokenEndpointServlet(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String oauthIssuer, String oauthAccessTokenExpiresIn, String osgiHttpWhiteboardServletPattern, String osgiHttpWhiteboardContextSelect) throws Exception {
+    public ComAdobeGraniteOauthServerImplOAuth2TokenEndpointServletInfo comAdobeGraniteOauthServerImplOAuth2TokenEndpointServlet(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String oauthIssuer, String oauthAccessTokenExpiresIn, String osgiHttpWhiteboardServletPattern, String osgiHttpWhiteboardContextSelect) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteOauthServerImplOAuth2TokenEndpointServletInfo();
     }
 
     @Override
-    public ComAdobeGraniteOauthServerImplOAuth2TokenRevocationServletInfo comAdobeGraniteOauthServerImplOAuth2TokenRevocationServlet(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean oauthTokenRevocationActive) throws Exception {
+    public ComAdobeGraniteOauthServerImplOAuth2TokenRevocationServletInfo comAdobeGraniteOauthServerImplOAuth2TokenRevocationServlet(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean oauthTokenRevocationActive) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteOauthServerImplOAuth2TokenRevocationServletInfo();
     }
 
     @Override
-    public ComAdobeGraniteOffloadingImplOffloadingConfiguratorInfo comAdobeGraniteOffloadingImplOffloadingConfigurator(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String offloadingTransporter, Boolean offloadingCleanupPayload) throws Exception {
+    public ComAdobeGraniteOffloadingImplOffloadingConfiguratorInfo comAdobeGraniteOffloadingImplOffloadingConfigurator(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String offloadingTransporter, Boolean offloadingCleanupPayload) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteOffloadingImplOffloadingConfiguratorInfo();
     }
 
     @Override
-    public ComAdobeGraniteOffloadingImplOffloadingJobClonerInfo comAdobeGraniteOffloadingImplOffloadingJobCloner(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean offloadingJobclonerEnabled) throws Exception {
+    public ComAdobeGraniteOffloadingImplOffloadingJobClonerInfo comAdobeGraniteOffloadingImplOffloadingJobCloner(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean offloadingJobclonerEnabled) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteOffloadingImplOffloadingJobClonerInfo();
     }
 
     @Override
-    public ComAdobeGraniteOffloadingImplOffloadingJobOffloaderInfo comAdobeGraniteOffloadingImplOffloadingJobOffloader(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean offloadingOffloaderEnabled) throws Exception {
+    public ComAdobeGraniteOffloadingImplOffloadingJobOffloaderInfo comAdobeGraniteOffloadingImplOffloadingJobOffloader(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean offloadingOffloaderEnabled) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteOffloadingImplOffloadingJobOffloaderInfo();
     }
 
     @Override
-    public ComAdobeGraniteOffloadingImplTransporterOffloadingAgentManagerInfo comAdobeGraniteOffloadingImplTransporterOffloadingAgentManager(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean offloadingAgentmanagerEnabled) throws Exception {
+    public ComAdobeGraniteOffloadingImplTransporterOffloadingAgentManagerInfo comAdobeGraniteOffloadingImplTransporterOffloadingAgentManager(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean offloadingAgentmanagerEnabled) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteOffloadingImplTransporterOffloadingAgentManagerInfo();
     }
 
     @Override
-    public ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoInfo comAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspo(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String defaultTransportAgentToWorkerPrefix, String defaultTransportAgentToMasterPrefix, String defaultTransportInputPackage, String defaultTransportOutputPackage, Boolean defaultTransportReplicationSynchronous, Boolean defaultTransportContentpackage, Boolean offloadingTransporterDefaultEnabled) throws Exception {
+    public ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoInfo comAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspo(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String defaultTransportAgentToWorkerPrefix, String defaultTransportAgentToMasterPrefix, String defaultTransportInputPackage, String defaultTransportOutputPackage, Boolean defaultTransportReplicationSynchronous, Boolean defaultTransportContentpackage, Boolean offloadingTransporterDefaultEnabled) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteOffloadingImplTransporterOffloadingDefaultTranspoInfo();
     }
 
     @Override
-    public ComAdobeGraniteOmnisearchImplCoreOmniSearchServiceImplInfo comAdobeGraniteOmnisearchImplCoreOmniSearchServiceImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer omnisearchSuggestionRequiretextMin, Boolean omnisearchSuggestionSpellcheckRequire) throws Exception {
+    public ComAdobeGraniteOmnisearchImplCoreOmniSearchServiceImplInfo comAdobeGraniteOmnisearchImplCoreOmniSearchServiceImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer omnisearchSuggestionRequiretextMin, Boolean omnisearchSuggestionSpellcheckRequire) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteOmnisearchImplCoreOmniSearchServiceImplInfo();
     }
 
     @Override
-    public ComAdobeGraniteOptoutImplOptOutServiceImplInfo comAdobeGraniteOptoutImplOptOutServiceImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> optoutCookies, List<String> optoutHeaders, List<String> optoutWhitelistCookies) throws Exception {
+    public ComAdobeGraniteOptoutImplOptOutServiceImplInfo comAdobeGraniteOptoutImplOptOutServiceImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> optoutCookies, List<String> optoutHeaders, List<String> optoutWhitelistCookies) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteOptoutImplOptOutServiceImplInfo();
     }
 
     @Override
-    public ComAdobeGraniteQueriesImplHcAsyncIndexHealthCheckInfo comAdobeGraniteQueriesImplHcAsyncIndexHealthCheck(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer indexingCriticalThreshold, Integer indexingWarnThreshold, List<String> hcTags) throws Exception {
+    public ComAdobeGraniteQueriesImplHcAsyncIndexHealthCheckInfo comAdobeGraniteQueriesImplHcAsyncIndexHealthCheck(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer indexingCriticalThreshold, Integer indexingWarnThreshold, List<String> hcTags) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteQueriesImplHcAsyncIndexHealthCheckInfo();
     }
 
     @Override
-    public ComAdobeGraniteQueriesImplHcLargeIndexHealthCheckInfo comAdobeGraniteQueriesImplHcLargeIndexHealthCheck(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer largeIndexCriticalThreshold, Integer largeIndexWarnThreshold, List<String> hcTags) throws Exception {
+    public ComAdobeGraniteQueriesImplHcLargeIndexHealthCheckInfo comAdobeGraniteQueriesImplHcLargeIndexHealthCheck(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer largeIndexCriticalThreshold, Integer largeIndexWarnThreshold, List<String> hcTags) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteQueriesImplHcLargeIndexHealthCheckInfo();
     }
 
     @Override
-    public ComAdobeGraniteQueriesImplHcQueriesStatusHealthCheckInfo comAdobeGraniteQueriesImplHcQueriesStatusHealthCheck(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> hcTags) throws Exception {
+    public ComAdobeGraniteQueriesImplHcQueriesStatusHealthCheckInfo comAdobeGraniteQueriesImplHcQueriesStatusHealthCheck(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> hcTags) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteQueriesImplHcQueriesStatusHealthCheckInfo();
     }
 
     @Override
-    public ComAdobeGraniteQueriesImplHcQueryHealthCheckMetricsInfo comAdobeGraniteQueriesImplHcQueryHealthCheckMetrics(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer getPeriod) throws Exception {
+    public ComAdobeGraniteQueriesImplHcQueryHealthCheckMetricsInfo comAdobeGraniteQueriesImplHcQueryHealthCheckMetrics(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer getPeriod) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteQueriesImplHcQueryHealthCheckMetricsInfo();
     }
 
     @Override
-    public ComAdobeGraniteQueriesImplHcQueryLimitsHealthCheckInfo comAdobeGraniteQueriesImplHcQueryLimitsHealthCheck(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> hcTags) throws Exception {
+    public ComAdobeGraniteQueriesImplHcQueryLimitsHealthCheckInfo comAdobeGraniteQueriesImplHcQueryLimitsHealthCheck(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> hcTags) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteQueriesImplHcQueryLimitsHealthCheckInfo();
     }
 
     @Override
-    public ComAdobeGraniteReplicationHcImplReplicationQueueHealthCheckInfo comAdobeGraniteReplicationHcImplReplicationQueueHealthCheck(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer numberOfRetriesAllowed, List<String> hcTags) throws Exception {
+    public ComAdobeGraniteReplicationHcImplReplicationQueueHealthCheckInfo comAdobeGraniteReplicationHcImplReplicationQueueHealthCheck(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer numberOfRetriesAllowed, List<String> hcTags) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteReplicationHcImplReplicationQueueHealthCheckInfo();
     }
 
     @Override
-    public ComAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCInfo comAdobeGraniteReplicationHcImplReplicationTransportUsersHealthC(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> hcTags) throws Exception {
+    public ComAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCInfo comAdobeGraniteReplicationHcImplReplicationTransportUsersHealthC(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> hcTags) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteReplicationHcImplReplicationTransportUsersHealthCInfo();
     }
 
     @Override
-    public ComAdobeGraniteRepositoryHcImplAuthorizableNodeNameHealthCheckInfo comAdobeGraniteRepositoryHcImplAuthorizableNodeNameHealthCheck(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> hcTags) throws Exception {
+    public ComAdobeGraniteRepositoryHcImplAuthorizableNodeNameHealthCheckInfo comAdobeGraniteRepositoryHcImplAuthorizableNodeNameHealthCheck(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> hcTags) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteRepositoryHcImplAuthorizableNodeNameHealthCheckInfo();
     }
 
     @Override
-    public ComAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCInfo comAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthC(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> hcTags, List<String> excludeSearchPath) throws Exception {
+    public ComAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCInfo comAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthC(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> hcTags, List<String> excludeSearchPath) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteRepositoryHcImplContentSlingSlingContentHealthCInfo();
     }
 
     @Override
-    public ComAdobeGraniteRepositoryHcImplContinuousRGCHealthCheckInfo comAdobeGraniteRepositoryHcImplContinuousRGCHealthCheck(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> hcTags) throws Exception {
+    public ComAdobeGraniteRepositoryHcImplContinuousRGCHealthCheckInfo comAdobeGraniteRepositoryHcImplContinuousRGCHealthCheck(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> hcTags) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteRepositoryHcImplContinuousRGCHealthCheckInfo();
     }
 
     @Override
-    public ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheInfo comAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthChe(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> hcTags) throws Exception {
+    public ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheInfo comAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthChe(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> hcTags) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteRepositoryHcImplDefaultAccessUserProfileHealthCheInfo();
     }
 
     @Override
-    public ComAdobeGraniteRepositoryHcImplDefaultLoginsHealthCheckInfo comAdobeGraniteRepositoryHcImplDefaultLoginsHealthCheck(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> hcTags, List<String> accountLogins, List<String> consoleLogins) throws Exception {
+    public ComAdobeGraniteRepositoryHcImplDefaultLoginsHealthCheckInfo comAdobeGraniteRepositoryHcImplDefaultLoginsHealthCheck(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> hcTags, List<String> accountLogins, List<String> consoleLogins) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteRepositoryHcImplDefaultLoginsHealthCheckInfo();
     }
 
     @Override
-    public ComAdobeGraniteRepositoryHcImplDiskSpaceHealthCheckInfo comAdobeGraniteRepositoryHcImplDiskSpaceHealthCheck(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> hcTags, Integer diskSpaceWarnThreshold, Integer diskSpaceErrorThreshold) throws Exception {
+    public ComAdobeGraniteRepositoryHcImplDiskSpaceHealthCheckInfo comAdobeGraniteRepositoryHcImplDiskSpaceHealthCheck(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> hcTags, Integer diskSpaceWarnThreshold, Integer diskSpaceErrorThreshold) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteRepositoryHcImplDiskSpaceHealthCheckInfo();
     }
 
     @Override
-    public ComAdobeGraniteRepositoryHcImplObservationQueueLengthHealthCheckInfo comAdobeGraniteRepositoryHcImplObservationQueueLengthHealthCheck(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> hcTags) throws Exception {
+    public ComAdobeGraniteRepositoryHcImplObservationQueueLengthHealthCheckInfo comAdobeGraniteRepositoryHcImplObservationQueueLengthHealthCheck(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> hcTags) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteRepositoryHcImplObservationQueueLengthHealthCheckInfo();
     }
 
     @Override
-    public ComAdobeGraniteRepositoryImplCommitStatsConfigInfo comAdobeGraniteRepositoryImplCommitStatsConfig(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean enabled, Integer intervalSeconds, Integer commitsPerIntervalThreshold, Integer maxLocationLength, Integer maxDetailsShown, Integer minDetailsPercentage, List<String> threadMatchers, Integer maxGreedyDepth, String greedyStackMatchers, List<String> stackFilters, List<String> stackMatchers, List<String> stackCategorizers, List<String> stackShorteners) throws Exception {
+    public ComAdobeGraniteRepositoryImplCommitStatsConfigInfo comAdobeGraniteRepositoryImplCommitStatsConfig(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean enabled, Integer intervalSeconds, Integer commitsPerIntervalThreshold, Integer maxLocationLength, Integer maxDetailsShown, Integer minDetailsPercentage, List<String> threadMatchers, Integer maxGreedyDepth, String greedyStackMatchers, List<String> stackFilters, List<String> stackMatchers, List<String> stackCategorizers, List<String> stackShorteners) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteRepositoryImplCommitStatsConfigInfo();
     }
 
     @Override
-    public ComAdobeGraniteRepositoryServiceUserConfigurationInfo comAdobeGraniteRepositoryServiceUserConfiguration(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer serviceRanking, Boolean serviceusersSimpleSubjectPopulation, List<String> serviceusersList) throws Exception {
+    public ComAdobeGraniteRepositoryServiceUserConfigurationInfo comAdobeGraniteRepositoryServiceUserConfiguration(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer serviceRanking, Boolean serviceusersSimpleSubjectPopulation, List<String> serviceusersList) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteRepositoryServiceUserConfigurationInfo();
     }
 
     @Override
-    public ComAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckImInfo comAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckIm(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> hcTags) throws Exception {
+    public ComAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckImInfo comAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckIm(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> hcTags) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckImInfo();
     }
 
     @Override
-    public ComAdobeGraniteResourcestatusImplCompositeStatusTypeInfo comAdobeGraniteResourcestatusImplCompositeStatusType(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String name, List<String> types) throws Exception {
+    public ComAdobeGraniteResourcestatusImplCompositeStatusTypeInfo comAdobeGraniteResourcestatusImplCompositeStatusType(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String name, List<String> types) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteResourcestatusImplCompositeStatusTypeInfo();
     }
 
     @Override
-    public ComAdobeGraniteResourcestatusImplStatusResourceProviderImplInfo comAdobeGraniteResourcestatusImplStatusResourceProviderImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String providerRoot) throws Exception {
+    public ComAdobeGraniteResourcestatusImplStatusResourceProviderImplInfo comAdobeGraniteResourcestatusImplStatusResourceProviderImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String providerRoot) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteResourcestatusImplStatusResourceProviderImplInfo();
     }
 
     @Override
-    public ComAdobeGraniteRestAssetsImplAssetContentDispositionFilterInfo comAdobeGraniteRestAssetsImplAssetContentDispositionFilter(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean mimeAllowEmpty, List<String> mimeAllowed) throws Exception {
+    public ComAdobeGraniteRestAssetsImplAssetContentDispositionFilterInfo comAdobeGraniteRestAssetsImplAssetContentDispositionFilter(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean mimeAllowEmpty, List<String> mimeAllowed) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteRestAssetsImplAssetContentDispositionFilterInfo();
     }
 
     @Override
-    public ComAdobeGraniteRestImplApiEndpointResourceProviderFactoryImplInfo comAdobeGraniteRestImplApiEndpointResourceProviderFactoryImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String providerRoots) throws Exception {
+    public ComAdobeGraniteRestImplApiEndpointResourceProviderFactoryImplInfo comAdobeGraniteRestImplApiEndpointResourceProviderFactoryImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String providerRoots) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteRestImplApiEndpointResourceProviderFactoryImplInfo();
     }
 
     @Override
-    public ComAdobeGraniteRestImplServletDefaultGETServletInfo comAdobeGraniteRestImplServletDefaultGETServlet(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer defaultLimit, Boolean useAbsoluteUri) throws Exception {
+    public ComAdobeGraniteRestImplServletDefaultGETServletInfo comAdobeGraniteRestImplServletDefaultGETServlet(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer defaultLimit, Boolean useAbsoluteUri) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteRestImplServletDefaultGETServletInfo();
     }
 
     @Override
-    public ComAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationSInfo comAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationS(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> hcTags) throws Exception {
+    public ComAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationSInfo comAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationS(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> hcTags) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteSecurityUserUiInternalServletsSSLConfigurationSInfo();
     }
 
     @Override
-    public ComAdobeGraniteSecurityUserUserPropertiesServiceInfo comAdobeGraniteSecurityUserUserPropertiesService(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String adapterCondition, List<String> graniteUserpropertiesNodetypes, List<String> graniteUserpropertiesResourcetypes) throws Exception {
+    public ComAdobeGraniteSecurityUserUserPropertiesServiceInfo comAdobeGraniteSecurityUserUserPropertiesService(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String adapterCondition, List<String> graniteUserpropertiesNodetypes, List<String> graniteUserpropertiesResourcetypes) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteSecurityUserUserPropertiesServiceInfo();
     }
 
     @Override
-    public ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplInfo comAdobeGraniteSocialgraphImplSocialGraphFactoryImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String group2memberRelationshipOutgoing, List<String> group2memberExcludedOutgoing, String group2memberRelationshipIncoming, List<String> group2memberExcludedIncoming) throws Exception {
+    public ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplInfo comAdobeGraniteSocialgraphImplSocialGraphFactoryImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String group2memberRelationshipOutgoing, List<String> group2memberExcludedOutgoing, String group2memberRelationshipIncoming, List<String> group2memberExcludedIncoming) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteSocialgraphImplSocialGraphFactoryImplInfo();
     }
 
     @Override
-    public ComAdobeGraniteSystemMonitoringImplSystemStatsMBeanImplInfo comAdobeGraniteSystemMonitoringImplSystemStatsMBeanImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String schedulerExpression, String jmxObjectname) throws Exception {
+    public ComAdobeGraniteSystemMonitoringImplSystemStatsMBeanImplInfo comAdobeGraniteSystemMonitoringImplSystemStatsMBeanImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String schedulerExpression, String jmxObjectname) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteSystemMonitoringImplSystemStatsMBeanImplInfo();
     }
 
     @Override
-    public ComAdobeGraniteTaskmanagementImplJcrTaskAdapterFactoryInfo comAdobeGraniteTaskmanagementImplJcrTaskAdapterFactory(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String adapterCondition) throws Exception {
+    public ComAdobeGraniteTaskmanagementImplJcrTaskAdapterFactoryInfo comAdobeGraniteTaskmanagementImplJcrTaskAdapterFactory(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String adapterCondition) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteTaskmanagementImplJcrTaskAdapterFactoryInfo();
     }
 
     @Override
-    public ComAdobeGraniteTaskmanagementImplJcrTaskArchiveServiceInfo comAdobeGraniteTaskmanagementImplJcrTaskArchiveService(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean archivingEnabled, String schedulerExpression, Integer archiveSinceDaysCompleted) throws Exception {
+    public ComAdobeGraniteTaskmanagementImplJcrTaskArchiveServiceInfo comAdobeGraniteTaskmanagementImplJcrTaskArchiveService(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean archivingEnabled, String schedulerExpression, Integer archiveSinceDaysCompleted) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteTaskmanagementImplJcrTaskArchiveServiceInfo();
     }
 
     @Override
-    public ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskInfo comAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTask(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean purgeCompleted, Integer completedAge, Boolean purgeActive, Integer activeAge, Integer saveThreshold) throws Exception {
+    public ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskInfo comAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTask(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean purgeCompleted, Integer completedAge, Boolean purgeActive, Integer activeAge, Integer saveThreshold) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskInfo();
     }
 
     @Override
-    public ComAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactorInfo comAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactor(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String adapterCondition, List<String> taskmanagerAdmingroups) throws Exception {
+    public ComAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactorInfo comAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactor(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String adapterCondition, List<String> taskmanagerAdmingroups) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactorInfo();
     }
 
     @Override
-    public ComAdobeGraniteThreaddumpThreadDumpCollectorInfo comAdobeGraniteThreaddumpThreadDumpCollector(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer schedulerPeriod, String schedulerRunOn, Boolean graniteThreaddumpEnabled, Integer graniteThreaddumpDumpsPerFile, Boolean graniteThreaddumpEnableGzipCompression, Boolean graniteThreaddumpEnableDirectoriesCompression, Boolean graniteThreaddumpEnableJStack, Integer graniteThreaddumpMaxBackupDays, String graniteThreaddumpBackupCleanTrigger) throws Exception {
+    public ComAdobeGraniteThreaddumpThreadDumpCollectorInfo comAdobeGraniteThreaddumpThreadDumpCollector(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer schedulerPeriod, String schedulerRunOn, Boolean graniteThreaddumpEnabled, Integer graniteThreaddumpDumpsPerFile, Boolean graniteThreaddumpEnableGzipCompression, Boolean graniteThreaddumpEnableDirectoriesCompression, Boolean graniteThreaddumpEnableJStack, Integer graniteThreaddumpMaxBackupDays, String graniteThreaddumpBackupCleanTrigger) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteThreaddumpThreadDumpCollectorInfo();
     }
 
     @Override
-    public ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslInfo comAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTransl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String translationFactory, String defaultConnectorLabel, String defaultConnectorAttribution, String defaultConnectorWorkspaceId, String defaultConnectorSubscriptionKey, String languageMapLocation, String categoryMapLocation, Integer retryAttempts, Integer timeoutCount) throws Exception {
+    public ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslInfo comAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTransl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String translationFactory, String defaultConnectorLabel, String defaultConnectorAttribution, String defaultConnectorWorkspaceId, String defaultConnectorSubscriptionKey, String languageMapLocation, String categoryMapLocation, Integer retryAttempts, Integer timeoutCount) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslInfo();
     }
 
     @Override
-    public ComAdobeGraniteTranslationCoreImplTranslationManagerImplInfo comAdobeGraniteTranslationCoreImplTranslationManagerImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String defaultConnectorName, String defaultCategory) throws Exception {
+    public ComAdobeGraniteTranslationCoreImplTranslationManagerImplInfo comAdobeGraniteTranslationCoreImplTranslationManagerImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String defaultConnectorName, String defaultCategory) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteTranslationCoreImplTranslationManagerImplInfo();
     }
 
     @Override
-    public ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplInfo comAdobeGraniteUiClientlibsImplHtmlLibraryManagerImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean htmllibmanagerTiming, String htmllibmanagerDebugInitJs, Boolean htmllibmanagerMinify, Boolean htmllibmanagerDebug, Boolean htmllibmanagerGzip, Integer htmllibmanagerMaxDataUriSize, Integer htmllibmanagerMaxage, Boolean htmllibmanagerForceCQUrlInfo, String htmllibmanagerDefaultthemename, String htmllibmanagerDefaultuserthemename, String htmllibmanagerClientmanager, List<String> htmllibmanagerPathList, List<String> htmllibmanagerExcludedPathList, List<String> htmllibmanagerProcessorJs, List<String> htmllibmanagerProcessorCss, List<String> htmllibmanagerLongcachePatterns, String htmllibmanagerLongcacheFormat, Boolean htmllibmanagerUseFileSystemOutputCache, String htmllibmanagerFileSystemOutputCacheLocation, List<String> htmllibmanagerDisableReplacement) throws Exception {
+    public ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplInfo comAdobeGraniteUiClientlibsImplHtmlLibraryManagerImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean htmllibmanagerTiming, String htmllibmanagerDebugInitJs, Boolean htmllibmanagerMinify, Boolean htmllibmanagerDebug, Boolean htmllibmanagerGzip, Integer htmllibmanagerMaxDataUriSize, Integer htmllibmanagerMaxage, Boolean htmllibmanagerForceCQUrlInfo, String htmllibmanagerDefaultthemename, String htmllibmanagerDefaultuserthemename, String htmllibmanagerClientmanager, List<String> htmllibmanagerPathList, List<String> htmllibmanagerExcludedPathList, List<String> htmllibmanagerProcessorJs, List<String> htmllibmanagerProcessorCss, List<String> htmllibmanagerLongcachePatterns, String htmllibmanagerLongcacheFormat, Boolean htmllibmanagerUseFileSystemOutputCache, String htmllibmanagerFileSystemOutputCacheLocation, List<String> htmllibmanagerDisableReplacement) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteUiClientlibsImplHtmlLibraryManagerImplInfo();
     }
 
     @Override
-    public ComAdobeGraniteWorkflowConsoleFragsWorkflowWithdrawFeatureInfo comAdobeGraniteWorkflowConsoleFragsWorkflowWithdrawFeature(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean enabled) throws Exception {
+    public ComAdobeGraniteWorkflowConsoleFragsWorkflowWithdrawFeatureInfo comAdobeGraniteWorkflowConsoleFragsWorkflowWithdrawFeature(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean enabled) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteWorkflowConsoleFragsWorkflowWithdrawFeatureInfo();
     }
 
     @Override
-    public ComAdobeGraniteWorkflowConsolePublishWorkflowPublishEventServiceInfo comAdobeGraniteWorkflowConsolePublishWorkflowPublishEventService(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean graniteWorkflowWorkflowPublishEventServiceEnabled) throws Exception {
+    public ComAdobeGraniteWorkflowConsolePublishWorkflowPublishEventServiceInfo comAdobeGraniteWorkflowConsolePublishWorkflowPublishEventService(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean graniteWorkflowWorkflowPublishEventServiceEnabled) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteWorkflowConsolePublishWorkflowPublishEventServiceInfo();
     }
 
     @Override
-    public ComAdobeGraniteWorkflowCoreJcrWorkflowBucketManagerInfo comAdobeGraniteWorkflowCoreJcrWorkflowBucketManager(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer bucketSize) throws Exception {
+    public ComAdobeGraniteWorkflowCoreJcrWorkflowBucketManagerInfo comAdobeGraniteWorkflowCoreJcrWorkflowBucketManager(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer bucketSize) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteWorkflowCoreJcrWorkflowBucketManagerInfo();
     }
 
     @Override
-    public ComAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerInfo comAdobeGraniteWorkflowCoreJobExternalProcessJobHandler(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer defaultTimeout, Integer maxTimeout, Integer defaultPeriod) throws Exception {
+    public ComAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerInfo comAdobeGraniteWorkflowCoreJobExternalProcessJobHandler(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer defaultTimeout, Integer maxTimeout, Integer defaultPeriod) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteWorkflowCoreJobExternalProcessJobHandlerInfo();
     }
 
     @Override
-    public ComAdobeGraniteWorkflowCoreJobJobHandlerInfo comAdobeGraniteWorkflowCoreJobJobHandler(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> jobTopics, Boolean allowSelfProcessTermination) throws Exception {
+    public ComAdobeGraniteWorkflowCoreJobJobHandlerInfo comAdobeGraniteWorkflowCoreJobJobHandler(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> jobTopics, Boolean allowSelfProcessTermination) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteWorkflowCoreJobJobHandlerInfo();
     }
 
     @Override
-    public ComAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumInfo comAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsum(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String jobTopics) throws Exception {
+    public ComAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumInfo comAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsum(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String jobTopics) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteWorkflowCoreOffloadingWorkflowOffloadingJobConsumInfo();
     }
 
     @Override
-    public ComAdobeGraniteWorkflowCorePayloadMapCacheInfo comAdobeGraniteWorkflowCorePayloadMapCache(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> getSystemWorkflowModels, String getPackageRootPath) throws Exception {
+    public ComAdobeGraniteWorkflowCorePayloadMapCacheInfo comAdobeGraniteWorkflowCorePayloadMapCache(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> getSystemWorkflowModels, String getPackageRootPath) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteWorkflowCorePayloadMapCacheInfo();
     }
 
     @Override
-    public ComAdobeGraniteWorkflowCorePayloadmapPayloadMoveListenerInfo comAdobeGraniteWorkflowCorePayloadmapPayloadMoveListener(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> payloadMoveWhiteList, Boolean payloadMoveHandleFromWorkflowProcess) throws Exception {
+    public ComAdobeGraniteWorkflowCorePayloadmapPayloadMoveListenerInfo comAdobeGraniteWorkflowCorePayloadmapPayloadMoveListener(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> payloadMoveWhiteList, Boolean payloadMoveHandleFromWorkflowProcess) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteWorkflowCorePayloadmapPayloadMoveListenerInfo();
     }
 
     @Override
-    public ComAdobeGraniteWorkflowCoreWorkflowConfigInfo comAdobeGraniteWorkflowCoreWorkflowConfig(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> cqWorkflowConfigWorkflowPackagesRootPath, Boolean cqWorkflowConfigWorkflowProcessLegacyMode, Boolean cqWorkflowConfigAllowLocking) throws Exception {
+    public ComAdobeGraniteWorkflowCoreWorkflowConfigInfo comAdobeGraniteWorkflowCoreWorkflowConfig(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> cqWorkflowConfigWorkflowPackagesRootPath, Boolean cqWorkflowConfigWorkflowProcessLegacyMode, Boolean cqWorkflowConfigAllowLocking) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteWorkflowCoreWorkflowConfigInfo();
     }
 
     @Override
-    public ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryInfo comAdobeGraniteWorkflowCoreWorkflowSessionFactory(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String graniteWorkflowinboxSortPropertyName, String graniteWorkflowinboxSortOrder, Integer cqWorkflowJobRetry, List<String> cqWorkflowSuperuser, Integer graniteWorkflowInboxQuerySize, Boolean graniteWorkflowAdminUserGroupFilter, Boolean graniteWorkflowEnforceWorkitemAssigneePermissions, Boolean graniteWorkflowEnforceWorkflowInitiatorPermissions, Boolean graniteWorkflowInjectTenantIdInJobTopics, Integer graniteWorkflowMaxPurgeSaveThreshold, Integer graniteWorkflowMaxPurgeQueryCount) throws Exception {
+    public ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryInfo comAdobeGraniteWorkflowCoreWorkflowSessionFactory(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String graniteWorkflowinboxSortPropertyName, String graniteWorkflowinboxSortOrder, Integer cqWorkflowJobRetry, List<String> cqWorkflowSuperuser, Integer graniteWorkflowInboxQuerySize, Boolean graniteWorkflowAdminUserGroupFilter, Boolean graniteWorkflowEnforceWorkitemAssigneePermissions, Boolean graniteWorkflowEnforceWorkflowInitiatorPermissions, Boolean graniteWorkflowInjectTenantIdInJobTopics, Integer graniteWorkflowMaxPurgeSaveThreshold, Integer graniteWorkflowMaxPurgeQueryCount) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryInfo();
     }
 
     @Override
-    public ComAdobeGraniteWorkflowPurgeSchedulerInfo comAdobeGraniteWorkflowPurgeScheduler(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String scheduledpurgeName, String scheduledpurgeWorkflowStatus, List<String> scheduledpurgeModelIds, Integer scheduledpurgeDaysold) throws Exception {
+    public ComAdobeGraniteWorkflowPurgeSchedulerInfo comAdobeGraniteWorkflowPurgeScheduler(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String scheduledpurgeName, String scheduledpurgeWorkflowStatus, List<String> scheduledpurgeModelIds, Integer scheduledpurgeDaysold) throws Exception {
         //Do your magic!!!
         return new ComAdobeGraniteWorkflowPurgeSchedulerInfo();
     }
 
     @Override
-    public ComAdobeOctopusNcommBootstrapInfo comAdobeOctopusNcommBootstrap(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer maxConnections, Integer maxRequests, Integer requestTimeout, Integer requestRetries, Integer launchTimeout) throws Exception {
+    public ComAdobeOctopusNcommBootstrapInfo comAdobeOctopusNcommBootstrap(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer maxConnections, Integer maxRequests, Integer requestTimeout, Integer requestRetries, Integer launchTimeout) throws Exception {
         //Do your magic!!!
         return new ComAdobeOctopusNcommBootstrapInfo();
     }
 
     @Override
-    public ComAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullSInfo comAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullS(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String communitiesIntegrationLivefyreSlingEventFilter) throws Exception {
+    public ComAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullSInfo comAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullS(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String communitiesIntegrationLivefyreSlingEventFilter) throws Exception {
         //Do your magic!!!
         return new ComAdobeSocialIntegrationsLivefyreUserPingforpullImplPingPullSInfo();
     }
 
     @Override
-    public ComAdobeXmpWorkerFilesNcommXMPFilesNCommInfo comAdobeXmpWorkerFilesNcommXMPFilesNComm(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String maxConnections, String maxRequests, String requestTimeout, String logDir) throws Exception {
+    public ComAdobeXmpWorkerFilesNcommXMPFilesNCommInfo comAdobeXmpWorkerFilesNcommXMPFilesNComm(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String maxConnections, String maxRequests, String requestTimeout, String logDir) throws Exception {
         //Do your magic!!!
         return new ComAdobeXmpWorkerFilesNcommXMPFilesNCommInfo();
     }
 
     @Override
-    public ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceInfo comDayCommonsDatasourceJdbcpoolJdbcPoolService(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String jdbcDriverClass, String jdbcConnectionUri, String jdbcUsername, String jdbcPassword, String jdbcValidationQuery, Boolean defaultReadonly, Boolean defaultAutocommit, Integer poolSize, Integer poolMaxWaitMsec, String datasourceName, List<String> datasourceSvcProperties) throws Exception {
+    public ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceInfo comDayCommonsDatasourceJdbcpoolJdbcPoolService(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String jdbcDriverClass, String jdbcConnectionUri, String jdbcUsername, String jdbcPassword, String jdbcValidationQuery, Boolean defaultReadonly, Boolean defaultAutocommit, Integer poolSize, Integer poolMaxWaitMsec, String datasourceName, List<String> datasourceSvcProperties) throws Exception {
         //Do your magic!!!
         return new ComDayCommonsDatasourceJdbcpoolJdbcPoolServiceInfo();
     }
 
     @Override
-    public ComDayCommonsHttpclientInfo comDayCommonsHttpclient(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean proxyEnabled, String proxyHost, String proxyUser, String proxyPassword, String proxyNtlmHost, String proxyNtlmDomain, List<String> proxyExceptions) throws Exception {
+    public ComDayCommonsHttpclientInfo comDayCommonsHttpclient(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean proxyEnabled, String proxyHost, String proxyUser, String proxyPassword, String proxyNtlmHost, String proxyNtlmDomain, List<String> proxyExceptions) throws Exception {
         //Do your magic!!!
         return new ComDayCommonsHttpclientInfo();
     }
 
     @Override
-    public ComDayCqAnalyticsImplStorePropertiesChangeListenerInfo comDayCqAnalyticsImplStorePropertiesChangeListener(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> cqStoreListenerAdditionalStorePaths) throws Exception {
+    public ComDayCqAnalyticsImplStorePropertiesChangeListenerInfo comDayCqAnalyticsImplStorePropertiesChangeListener(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> cqStoreListenerAdditionalStorePaths) throws Exception {
         //Do your magic!!!
         return new ComDayCqAnalyticsImplStorePropertiesChangeListenerInfo();
     }
 
     @Override
-    public ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteInfo comDayCqAnalyticsSitecatalystImplExporterClassificationsExporte(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> allowedPaths, Integer cqAnalyticsSaintExporterPagesize) throws Exception {
+    public ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteInfo comDayCqAnalyticsSitecatalystImplExporterClassificationsExporte(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> allowedPaths, Integer cqAnalyticsSaintExporterPagesize) throws Exception {
         //Do your magic!!!
         return new ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteInfo();
     }
 
     @Override
-    public ComDayCqAnalyticsSitecatalystImplImporterReportImporterInfo comDayCqAnalyticsSitecatalystImplImporterReportImporter(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer reportFetchAttempts, Integer reportFetchDelay) throws Exception {
+    public ComDayCqAnalyticsSitecatalystImplImporterReportImporterInfo comDayCqAnalyticsSitecatalystImplImporterReportImporter(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer reportFetchAttempts, Integer reportFetchDelay) throws Exception {
         //Do your magic!!!
         return new ComDayCqAnalyticsSitecatalystImplImporterReportImporterInfo();
     }
 
     @Override
-    public ComDayCqAnalyticsSitecatalystImplSitecatalystAdapterFactoryInfo comDayCqAnalyticsSitecatalystImplSitecatalystAdapterFactory(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> cqAnalyticsAdapterfactoryContextstores) throws Exception {
+    public ComDayCqAnalyticsSitecatalystImplSitecatalystAdapterFactoryInfo comDayCqAnalyticsSitecatalystImplSitecatalystAdapterFactory(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> cqAnalyticsAdapterfactoryContextstores) throws Exception {
         //Do your magic!!!
         return new ComDayCqAnalyticsSitecatalystImplSitecatalystAdapterFactoryInfo();
     }
 
     @Override
-    public ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfo comDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> cqAnalyticsSitecatalystServiceDatacenterUrl, List<String> devhostnamepatterns, Integer connectionTimeout, Integer socketTimeout) throws Exception {
+    public ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfo comDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> cqAnalyticsSitecatalystServiceDatacenterUrl, List<String> devhostnamepatterns, Integer connectionTimeout, Integer socketTimeout) throws Exception {
         //Do your magic!!!
         return new ComDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplInfo();
     }
 
     @Override
-    public ComDayCqAnalyticsTestandtargetImplAccountOptionsUpdaterInfo comDayCqAnalyticsTestandtargetImplAccountOptionsUpdater(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean cqAnalyticsTestandtargetAccountoptionsupdaterEnabled) throws Exception {
+    public ComDayCqAnalyticsTestandtargetImplAccountOptionsUpdaterInfo comDayCqAnalyticsTestandtargetImplAccountOptionsUpdater(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean cqAnalyticsTestandtargetAccountoptionsupdaterEnabled) throws Exception {
         //Do your magic!!!
         return new ComDayCqAnalyticsTestandtargetImplAccountOptionsUpdaterInfo();
     }
 
     @Override
-    public ComDayCqAnalyticsTestandtargetImplDeleteAuthorActivityListenerInfo comDayCqAnalyticsTestandtargetImplDeleteAuthorActivityListener(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean cqAnalyticsTestandtargetDeleteauthoractivitylistenerEnabled) throws Exception {
+    public ComDayCqAnalyticsTestandtargetImplDeleteAuthorActivityListenerInfo comDayCqAnalyticsTestandtargetImplDeleteAuthorActivityListener(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean cqAnalyticsTestandtargetDeleteauthoractivitylistenerEnabled) throws Exception {
         //Do your magic!!!
         return new ComDayCqAnalyticsTestandtargetImplDeleteAuthorActivityListenerInfo();
     }
 
     @Override
-    public ComDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListenerInfo comDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListener(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean cqAnalyticsTestandtargetPushauthorcampaignpagelistenerEnabled) throws Exception {
+    public ComDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListenerInfo comDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListener(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean cqAnalyticsTestandtargetPushauthorcampaignpagelistenerEnabled) throws Exception {
         //Do your magic!!!
         return new ComDayCqAnalyticsTestandtargetImplPushAuthorCampaignPageListenerInfo();
     }
 
     @Override
-    public ComDayCqAnalyticsTestandtargetImplSegmentImporterInfo comDayCqAnalyticsTestandtargetImplSegmentImporter(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean cqAnalyticsTestandtargetSegmentimporterEnabled) throws Exception {
+    public ComDayCqAnalyticsTestandtargetImplSegmentImporterInfo comDayCqAnalyticsTestandtargetImplSegmentImporter(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean cqAnalyticsTestandtargetSegmentimporterEnabled) throws Exception {
         //Do your magic!!!
         return new ComDayCqAnalyticsTestandtargetImplSegmentImporterInfo();
     }
 
     @Override
-    public ComDayCqAnalyticsTestandtargetImplServiceWebServiceImplInfo comDayCqAnalyticsTestandtargetImplServiceWebServiceImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String endpointUri, Integer connectionTimeout, Integer socketTimeout) throws Exception {
+    public ComDayCqAnalyticsTestandtargetImplServiceWebServiceImplInfo comDayCqAnalyticsTestandtargetImplServiceWebServiceImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String endpointUri, Integer connectionTimeout, Integer socketTimeout) throws Exception {
         //Do your magic!!!
         return new ComDayCqAnalyticsTestandtargetImplServiceWebServiceImplInfo();
     }
 
     @Override
-    public ComDayCqAnalyticsTestandtargetImplServletsAdminServerServletInfo comDayCqAnalyticsTestandtargetImplServletsAdminServerServlet(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String testandtargetEndpointUrl) throws Exception {
+    public ComDayCqAnalyticsTestandtargetImplServletsAdminServerServletInfo comDayCqAnalyticsTestandtargetImplServletsAdminServerServlet(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String testandtargetEndpointUrl) throws Exception {
         //Do your magic!!!
         return new ComDayCqAnalyticsTestandtargetImplServletsAdminServerServletInfo();
     }
 
     @Override
-    public ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplInfo comDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String cqAnalyticsTestandtargetApiUrl, Integer cqAnalyticsTestandtargetTimeout, Integer cqAnalyticsTestandtargetSockettimeout, String cqAnalyticsTestandtargetRecommendationsUrlReplace, String cqAnalyticsTestandtargetRecommendationsUrlReplacewith) throws Exception {
+    public ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplInfo comDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String cqAnalyticsTestandtargetApiUrl, Integer cqAnalyticsTestandtargetTimeout, Integer cqAnalyticsTestandtargetSockettimeout, String cqAnalyticsTestandtargetRecommendationsUrlReplace, String cqAnalyticsTestandtargetRecommendationsUrlReplacewith) throws Exception {
         //Do your magic!!!
         return new ComDayCqAnalyticsTestandtargetImplTestandtargetHttpClientImplInfo();
     }
 
     @Override
-    public ComDayCqAuthImplCugCugSupportImplInfo comDayCqAuthImplCugCugSupportImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> cugExemptedPrincipals, Boolean cugEnabled, String cugPrincipalsRegex, String cugPrincipalsReplacement) throws Exception {
+    public ComDayCqAuthImplCugCugSupportImplInfo comDayCqAuthImplCugCugSupportImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> cugExemptedPrincipals, Boolean cugEnabled, String cugPrincipalsRegex, String cugPrincipalsReplacement) throws Exception {
         //Do your magic!!!
         return new ComDayCqAuthImplCugCugSupportImplInfo();
     }
 
     @Override
-    public ComDayCqAuthImplLoginSelectorHandlerInfo comDayCqAuthImplLoginSelectorHandler(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String path, Integer serviceRanking, List<String> authLoginselectorMappings, List<String> authLoginselectorChangepwMappings, String authLoginselectorDefaultloginpage, String authLoginselectorDefaultchangepwpage, List<String> authLoginselectorHandle, Boolean authLoginselectorHandleAllExtensions) throws Exception {
+    public ComDayCqAuthImplLoginSelectorHandlerInfo comDayCqAuthImplLoginSelectorHandler(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String path, Integer serviceRanking, List<String> authLoginselectorMappings, List<String> authLoginselectorChangepwMappings, String authLoginselectorDefaultloginpage, String authLoginselectorDefaultchangepwpage, List<String> authLoginselectorHandle, Boolean authLoginselectorHandleAllExtensions) throws Exception {
         //Do your magic!!!
         return new ComDayCqAuthImplLoginSelectorHandlerInfo();
     }
 
     @Override
-    public ComDayCqCommonsImplExternalizerImplInfo comDayCqCommonsImplExternalizerImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> externalizerDomains, String externalizerHost, String externalizerContextpath, Boolean externalizerEncodedpath) throws Exception {
+    public ComDayCqCommonsImplExternalizerImplInfo comDayCqCommonsImplExternalizerImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> externalizerDomains, String externalizerHost, String externalizerContextpath, Boolean externalizerEncodedpath) throws Exception {
         //Do your magic!!!
         return new ComDayCqCommonsImplExternalizerImplInfo();
     }
 
     @Override
-    public ComDayCqCommonsServletsRootMappingServletInfo comDayCqCommonsServletsRootMappingServlet(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String rootmappingTarget) throws Exception {
+    public ComDayCqCommonsServletsRootMappingServletInfo comDayCqCommonsServletsRootMappingServlet(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String rootmappingTarget) throws Exception {
         //Do your magic!!!
         return new ComDayCqCommonsServletsRootMappingServletInfo();
     }
 
     @Override
-    public ComDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckeInfo comDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionChecke(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> codeupgradetasks, List<String> codeupgradetaskfilters) throws Exception {
+    public ComDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckeInfo comDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionChecke(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> codeupgradetasks, List<String> codeupgradetaskfilters) throws Exception {
         //Do your magic!!!
         return new ComDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckeInfo();
     }
 
     @Override
-    public ComDayCqCompatCodeupgradeImplUpgradeTaskIgnoreListInfo comDayCqCompatCodeupgradeImplUpgradeTaskIgnoreList(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> upgradeTaskIgnoreList) throws Exception {
+    public ComDayCqCompatCodeupgradeImplUpgradeTaskIgnoreListInfo comDayCqCompatCodeupgradeImplUpgradeTaskIgnoreList(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> upgradeTaskIgnoreList) throws Exception {
         //Do your magic!!!
         return new ComDayCqCompatCodeupgradeImplUpgradeTaskIgnoreListInfo();
     }
 
     @Override
-    public ComDayCqCompatCodeupgradeImplVersionRangeTaskIgnorelistInfo comDayCqCompatCodeupgradeImplVersionRangeTaskIgnorelist(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String effectiveBundleListPath) throws Exception {
+    public ComDayCqCompatCodeupgradeImplVersionRangeTaskIgnorelistInfo comDayCqCompatCodeupgradeImplVersionRangeTaskIgnorelist(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String effectiveBundleListPath) throws Exception {
         //Do your magic!!!
         return new ComDayCqCompatCodeupgradeImplVersionRangeTaskIgnorelistInfo();
     }
 
     @Override
-    public ComDayCqContentsyncImplContentSyncManagerImplInfo comDayCqContentsyncImplContentSyncManagerImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String contentsyncFallbackAuthorizable, String contentsyncFallbackUpdateuser) throws Exception {
+    public ComDayCqContentsyncImplContentSyncManagerImplInfo comDayCqContentsyncImplContentSyncManagerImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String contentsyncFallbackAuthorizable, String contentsyncFallbackUpdateuser) throws Exception {
         //Do your magic!!!
         return new ComDayCqContentsyncImplContentSyncManagerImplInfo();
     }
 
     @Override
-    public ComDayCqDamCommonsHandlerStandardImageHandlerInfo comDayCqDamCommonsHandlerStandardImageHandler(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer largeFileThreshold, Integer largeCommentThreshold, Boolean cqDamEnableExtMetaExtraction) throws Exception {
+    public ComDayCqDamCommonsHandlerStandardImageHandlerInfo comDayCqDamCommonsHandlerStandardImageHandler(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer largeFileThreshold, Integer largeCommentThreshold, Boolean cqDamEnableExtMetaExtraction) throws Exception {
         //Do your magic!!!
         return new ComDayCqDamCommonsHandlerStandardImageHandlerInfo();
     }
 
     @Override
-    public ComDayCqDamCommonsMetadataXmpFilterBlackWhiteInfo comDayCqDamCommonsMetadataXmpFilterBlackWhite(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean xmpFilterApplyWhitelist, List<String> xmpFilterWhitelist, Boolean xmpFilterApplyBlacklist, List<String> xmpFilterBlacklist) throws Exception {
+    public ComDayCqDamCommonsMetadataXmpFilterBlackWhiteInfo comDayCqDamCommonsMetadataXmpFilterBlackWhite(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean xmpFilterApplyWhitelist, List<String> xmpFilterWhitelist, Boolean xmpFilterApplyBlacklist, List<String> xmpFilterBlacklist) throws Exception {
         //Do your magic!!!
         return new ComDayCqDamCommonsMetadataXmpFilterBlackWhiteInfo();
     }
 
     @Override
-    public ComDayCqDamCommonsUtilImplAssetCacheImplInfo comDayCqDamCommonsUtilImplAssetCacheImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer largeFileMin, Boolean cacheApply, List<String> mimeTypes) throws Exception {
+    public ComDayCqDamCommonsUtilImplAssetCacheImplInfo comDayCqDamCommonsUtilImplAssetCacheImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer largeFileMin, Boolean cacheApply, List<String> mimeTypes) throws Exception {
         //Do your magic!!!
         return new ComDayCqDamCommonsUtilImplAssetCacheImplInfo();
     }
 
     @Override
-    public ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigInfo comDayCqDamCoreImplAnnotationPdfAnnotationPdfConfig(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer cqDamConfigAnnotationPdfDocumentWidth, Integer cqDamConfigAnnotationPdfDocumentHeight, Integer cqDamConfigAnnotationPdfDocumentPaddingHorizontal, Integer cqDamConfigAnnotationPdfDocumentPaddingVertical, Integer cqDamConfigAnnotationPdfFontSize, String cqDamConfigAnnotationPdfFontColor, String cqDamConfigAnnotationPdfFontFamily, String cqDamConfigAnnotationPdfFontLight, Integer cqDamConfigAnnotationPdfMarginTextImage, Integer cqDamConfigAnnotationPdfMinImageHeight, Integer cqDamConfigAnnotationPdfReviewStatusWidth, String cqDamConfigAnnotationPdfReviewStatusColorApproved, String cqDamConfigAnnotationPdfReviewStatusColorRejected, String cqDamConfigAnnotationPdfReviewStatusColorChangesRequested, Integer cqDamConfigAnnotationPdfAnnotationMarkerWidth, Integer cqDamConfigAnnotationPdfAssetMinheight) throws Exception {
+    public ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigInfo comDayCqDamCoreImplAnnotationPdfAnnotationPdfConfig(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer cqDamConfigAnnotationPdfDocumentWidth, Integer cqDamConfigAnnotationPdfDocumentHeight, Integer cqDamConfigAnnotationPdfDocumentPaddingHorizontal, Integer cqDamConfigAnnotationPdfDocumentPaddingVertical, Integer cqDamConfigAnnotationPdfFontSize, String cqDamConfigAnnotationPdfFontColor, String cqDamConfigAnnotationPdfFontFamily, String cqDamConfigAnnotationPdfFontLight, Integer cqDamConfigAnnotationPdfMarginTextImage, Integer cqDamConfigAnnotationPdfMinImageHeight, Integer cqDamConfigAnnotationPdfReviewStatusWidth, String cqDamConfigAnnotationPdfReviewStatusColorApproved, String cqDamConfigAnnotationPdfReviewStatusColorRejected, String cqDamConfigAnnotationPdfReviewStatusColorChangesRequested, Integer cqDamConfigAnnotationPdfAnnotationMarkerWidth, Integer cqDamConfigAnnotationPdfAssetMinheight) throws Exception {
         //Do your magic!!!
         return new ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigInfo();
     }
 
     @Override
-    public ComDayCqDamCoreImplAssetMoveListenerInfo comDayCqDamCoreImplAssetMoveListener(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean enabled) throws Exception {
+    public ComDayCqDamCoreImplAssetMoveListenerInfo comDayCqDamCoreImplAssetMoveListener(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean enabled) throws Exception {
         //Do your magic!!!
         return new ComDayCqDamCoreImplAssetMoveListenerInfo();
     }
 
     @Override
-    public ComDayCqDamCoreImplAssethomeAssetHomePageConfigurationInfo comDayCqDamCoreImplAssethomeAssetHomePageConfiguration(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean isEnabled) throws Exception {
+    public ComDayCqDamCoreImplAssethomeAssetHomePageConfigurationInfo comDayCqDamCoreImplAssethomeAssetHomePageConfiguration(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean isEnabled) throws Exception {
         //Do your magic!!!
         return new ComDayCqDamCoreImplAssethomeAssetHomePageConfigurationInfo();
     }
 
     @Override
-    public ComDayCqDamCoreImplAssetlinkshareAdhocAssetShareProxyServletInfo comDayCqDamCoreImplAssetlinkshareAdhocAssetShareProxyServlet(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer cqDamAdhocAssetSharePrezipMaxcontentsize) throws Exception {
+    public ComDayCqDamCoreImplAssetlinkshareAdhocAssetShareProxyServletInfo comDayCqDamCoreImplAssetlinkshareAdhocAssetShareProxyServlet(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer cqDamAdhocAssetSharePrezipMaxcontentsize) throws Exception {
         //Do your magic!!!
         return new ComDayCqDamCoreImplAssetlinkshareAdhocAssetShareProxyServletInfo();
     }
 
     @Override
-    public ComDayCqDamCoreImplCacheCQBufferedImageCacheInfo comDayCqDamCoreImplCacheCQBufferedImageCache(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer cqDamImageCacheMaxMemory, Integer cqDamImageCacheMaxAge, String cqDamImageCacheMaxDimension) throws Exception {
+    public ComDayCqDamCoreImplCacheCQBufferedImageCacheInfo comDayCqDamCoreImplCacheCQBufferedImageCache(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer cqDamImageCacheMaxMemory, Integer cqDamImageCacheMaxAge, String cqDamImageCacheMaxDimension) throws Exception {
         //Do your magic!!!
         return new ComDayCqDamCoreImplCacheCQBufferedImageCacheInfo();
     }
 
     @Override
-    public ComDayCqDamCoreImplDamChangeEventListenerInfo comDayCqDamCoreImplDamChangeEventListener(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> changeeventlistenerObservedPaths) throws Exception {
+    public ComDayCqDamCoreImplDamChangeEventListenerInfo comDayCqDamCoreImplDamChangeEventListener(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> changeeventlistenerObservedPaths) throws Exception {
         //Do your magic!!!
         return new ComDayCqDamCoreImplDamChangeEventListenerInfo();
     }
 
     @Override
-    public ComDayCqDamCoreImplDamEventPurgeServiceInfo comDayCqDamCoreImplDamEventPurgeService(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String schedulerExpression, Integer maxSavedActivities, Integer saveInterval, Boolean enableActivityPurge, String eventTypes) throws Exception {
+    public ComDayCqDamCoreImplDamEventPurgeServiceInfo comDayCqDamCoreImplDamEventPurgeService(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String schedulerExpression, Integer maxSavedActivities, Integer saveInterval, Boolean enableActivityPurge, String eventTypes) throws Exception {
         //Do your magic!!!
         return new ComDayCqDamCoreImplDamEventPurgeServiceInfo();
     }
 
     @Override
-    public ComDayCqDamCoreImplDamEventRecorderImplInfo comDayCqDamCoreImplDamEventRecorderImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String eventFilter, Integer eventQueueLength, Boolean eventrecorderEnabled, List<String> eventrecorderBlacklist, String eventrecorderEventtypes) throws Exception {
+    public ComDayCqDamCoreImplDamEventRecorderImplInfo comDayCqDamCoreImplDamEventRecorderImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String eventFilter, Integer eventQueueLength, Boolean eventrecorderEnabled, List<String> eventrecorderBlacklist, String eventrecorderEventtypes) throws Exception {
         //Do your magic!!!
         return new ComDayCqDamCoreImplDamEventRecorderImplInfo();
     }
 
     @Override
-    public ComDayCqDamCoreImplEventDamEventAuditListenerInfo comDayCqDamCoreImplEventDamEventAuditListener(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String eventFilter, Boolean enabled) throws Exception {
+    public ComDayCqDamCoreImplEventDamEventAuditListenerInfo comDayCqDamCoreImplEventDamEventAuditListener(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String eventFilter, Boolean enabled) throws Exception {
         //Do your magic!!!
         return new ComDayCqDamCoreImplEventDamEventAuditListenerInfo();
     }
 
     @Override
-    public ComDayCqDamCoreImplExpiryNotificationJobImplInfo comDayCqDamCoreImplExpiryNotificationJobImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean cqDamExpiryNotificationSchedulerIstimebased, String cqDamExpiryNotificationSchedulerTimebasedRule, Integer cqDamExpiryNotificationSchedulerPeriodRule, Boolean sendEmail, Integer assetExpiredLimit, Integer priorNotificationSeconds, String cqDamExpiryNotificationUrlProtocol) throws Exception {
+    public ComDayCqDamCoreImplExpiryNotificationJobImplInfo comDayCqDamCoreImplExpiryNotificationJobImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean cqDamExpiryNotificationSchedulerIstimebased, String cqDamExpiryNotificationSchedulerTimebasedRule, Integer cqDamExpiryNotificationSchedulerPeriodRule, Boolean sendEmail, Integer assetExpiredLimit, Integer priorNotificationSeconds, String cqDamExpiryNotificationUrlProtocol) throws Exception {
         //Do your magic!!!
         return new ComDayCqDamCoreImplExpiryNotificationJobImplInfo();
     }
 
     @Override
-    public ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatInfo comDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeat(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean isEnabled) throws Exception {
+    public ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatInfo comDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeat(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean isEnabled) throws Exception {
         //Do your magic!!!
         return new ComDayCqDamCoreImplFoldermetadataschemaFolderMetadataSchemaFeatInfo();
     }
 
     @Override
-    public ComDayCqDamCoreImplGfxCommonsGfxRendererInfo comDayCqDamCoreImplGfxCommonsGfxRenderer(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean skipBufferedcache) throws Exception {
+    public ComDayCqDamCoreImplGfxCommonsGfxRendererInfo comDayCqDamCoreImplGfxCommonsGfxRenderer(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean skipBufferedcache) throws Exception {
         //Do your magic!!!
         return new ComDayCqDamCoreImplGfxCommonsGfxRendererInfo();
     }
 
     @Override
-    public ComDayCqDamCoreImplHandlerEPSFormatHandlerInfo comDayCqDamCoreImplHandlerEPSFormatHandler(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String mimetype) throws Exception {
+    public ComDayCqDamCoreImplHandlerEPSFormatHandlerInfo comDayCqDamCoreImplHandlerEPSFormatHandler(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String mimetype) throws Exception {
         //Do your magic!!!
         return new ComDayCqDamCoreImplHandlerEPSFormatHandlerInfo();
     }
 
     @Override
-    public ComDayCqDamCoreImplHandlerIndesignFormatHandlerInfo comDayCqDamCoreImplHandlerIndesignFormatHandler(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> mimetype) throws Exception {
+    public ComDayCqDamCoreImplHandlerIndesignFormatHandlerInfo comDayCqDamCoreImplHandlerIndesignFormatHandler(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> mimetype) throws Exception {
         //Do your magic!!!
         return new ComDayCqDamCoreImplHandlerIndesignFormatHandlerInfo();
     }
 
     @Override
-    public ComDayCqDamCoreImplHandlerJpegHandlerInfo comDayCqDamCoreImplHandlerJpegHandler(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean cqDamEnableExtMetaExtraction, Integer largeFileThreshold, Integer largeCommentThreshold) throws Exception {
+    public ComDayCqDamCoreImplHandlerJpegHandlerInfo comDayCqDamCoreImplHandlerJpegHandler(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean cqDamEnableExtMetaExtraction, Integer largeFileThreshold, Integer largeCommentThreshold) throws Exception {
         //Do your magic!!!
         return new ComDayCqDamCoreImplHandlerJpegHandlerInfo();
     }
 
     @Override
-    public ComDayCqDamCoreImplHandlerXmpNCommXMPHandlerInfo comDayCqDamCoreImplHandlerXmpNCommXMPHandler(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> xmphandlerCqFormats) throws Exception {
+    public ComDayCqDamCoreImplHandlerXmpNCommXMPHandlerInfo comDayCqDamCoreImplHandlerXmpNCommXMPHandler(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> xmphandlerCqFormats) throws Exception {
         //Do your magic!!!
         return new ComDayCqDamCoreImplHandlerXmpNCommXMPHandlerInfo();
     }
 
     @Override
-    public ComDayCqDamCoreImplJmxAssetIndexUpdateMonitorInfo comDayCqDamCoreImplJmxAssetIndexUpdateMonitor(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String jmxObjectname, Boolean propertyMeasureEnabled, String propertyName, Integer propertyMaxWaitMs, BigDecimal propertyMaxRate, Boolean fulltextMeasureEnabled, String fulltextName, Integer fulltextMaxWaitMs, BigDecimal fulltextMaxRate) throws Exception {
+    public ComDayCqDamCoreImplJmxAssetIndexUpdateMonitorInfo comDayCqDamCoreImplJmxAssetIndexUpdateMonitor(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String jmxObjectname, Boolean propertyMeasureEnabled, String propertyName, Integer propertyMaxWaitMs, BigDecimal propertyMaxRate, Boolean fulltextMeasureEnabled, String fulltextName, Integer fulltextMaxWaitMs, BigDecimal fulltextMaxRate) throws Exception {
         //Do your magic!!!
         return new ComDayCqDamCoreImplJmxAssetIndexUpdateMonitorInfo();
     }
 
     @Override
-    public ComDayCqDamCoreImplJmxAssetMigrationMBeanImplInfo comDayCqDamCoreImplJmxAssetMigrationMBeanImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String jmxObjectname) throws Exception {
+    public ComDayCqDamCoreImplJmxAssetMigrationMBeanImplInfo comDayCqDamCoreImplJmxAssetMigrationMBeanImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String jmxObjectname) throws Exception {
         //Do your magic!!!
         return new ComDayCqDamCoreImplJmxAssetMigrationMBeanImplInfo();
     }
 
     @Override
-    public ComDayCqDamCoreImplJmxAssetUpdateMonitorImplInfo comDayCqDamCoreImplJmxAssetUpdateMonitorImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String jmxObjectname, Boolean active) throws Exception {
+    public ComDayCqDamCoreImplJmxAssetUpdateMonitorImplInfo comDayCqDamCoreImplJmxAssetUpdateMonitorImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String jmxObjectname, Boolean active) throws Exception {
         //Do your magic!!!
         return new ComDayCqDamCoreImplJmxAssetUpdateMonitorImplInfo();
     }
 
     @Override
-    public ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigInfo comDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfig(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String operation, Boolean emailEnabled) throws Exception {
+    public ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigInfo comDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfig(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String operation, Boolean emailEnabled) throws Exception {
         //Do your magic!!!
         return new ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigInfo();
     }
 
     @Override
-    public ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigInfo comDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfig(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String operation, String operationIcon, String topicName, Boolean emailEnabled) throws Exception {
+    public ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigInfo comDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfig(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String operation, String operationIcon, String topicName, Boolean emailEnabled) throws Exception {
         //Do your magic!!!
         return new ComDayCqDamCoreImplJobsMetadataimportAsyncMetadataImportConfigInfo();
     }
 
     @Override
-    public ComDayCqDamCoreImplLightboxLightboxServletInfo comDayCqDamCoreImplLightboxLightboxServlet(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String slingServletPaths, List<String> slingServletMethods, Boolean cqDamEnableAnonymous) throws Exception {
+    public ComDayCqDamCoreImplLightboxLightboxServletInfo comDayCqDamCoreImplLightboxLightboxServlet(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String slingServletPaths, List<String> slingServletMethods, Boolean cqDamEnableAnonymous) throws Exception {
         //Do your magic!!!
         return new ComDayCqDamCoreImplLightboxLightboxServletInfo();
     }
 
     @Override
-    public ComDayCqDamCoreImplMetadataEditorSelectComponentHandlerInfo comDayCqDamCoreImplMetadataEditorSelectComponentHandler(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> graniteColonData) throws Exception {
+    public ComDayCqDamCoreImplMetadataEditorSelectComponentHandlerInfo comDayCqDamCoreImplMetadataEditorSelectComponentHandler(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> graniteData) throws Exception {
         //Do your magic!!!
         return new ComDayCqDamCoreImplMetadataEditorSelectComponentHandlerInfo();
     }
 
     @Override
-    public ComDayCqDamCoreImplMimeTypeAssetUploadRestrictionHelperInfo comDayCqDamCoreImplMimeTypeAssetUploadRestrictionHelper(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean cqDamAllowAllMime, List<String> cqDamAllowedAssetMimes) throws Exception {
+    public ComDayCqDamCoreImplMimeTypeAssetUploadRestrictionHelperInfo comDayCqDamCoreImplMimeTypeAssetUploadRestrictionHelper(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean cqDamAllowAllMime, List<String> cqDamAllowedAssetMimes) throws Exception {
         //Do your magic!!!
         return new ComDayCqDamCoreImplMimeTypeAssetUploadRestrictionHelperInfo();
     }
 
     @Override
-    public ComDayCqDamCoreImplMimeTypeDamMimeTypeServiceImplInfo comDayCqDamCoreImplMimeTypeDamMimeTypeServiceImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean cqDamDetectAssetMimeFromContent) throws Exception {
+    public ComDayCqDamCoreImplMimeTypeDamMimeTypeServiceImplInfo comDayCqDamCoreImplMimeTypeDamMimeTypeServiceImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean cqDamDetectAssetMimeFromContent) throws Exception {
         //Do your magic!!!
         return new ComDayCqDamCoreImplMimeTypeDamMimeTypeServiceImplInfo();
     }
 
     @Override
-    public ComDayCqDamCoreImplMissingMetadataNotificationJobInfo comDayCqDamCoreImplMissingMetadataNotificationJob(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean cqDamMissingmetadataNotificationSchedulerIstimebased, String cqDamMissingmetadataNotificationSchedulerTimebasedRule, Integer cqDamMissingmetadataNotificationSchedulerPeriodRule, String cqDamMissingmetadataNotificationRecipient) throws Exception {
+    public ComDayCqDamCoreImplMissingMetadataNotificationJobInfo comDayCqDamCoreImplMissingMetadataNotificationJob(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean cqDamMissingmetadataNotificationSchedulerIstimebased, String cqDamMissingmetadataNotificationSchedulerTimebasedRule, Integer cqDamMissingmetadataNotificationSchedulerPeriodRule, String cqDamMissingmetadataNotificationRecipient) throws Exception {
         //Do your magic!!!
         return new ComDayCqDamCoreImplMissingMetadataNotificationJobInfo();
     }
 
     @Override
-    public ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrInfo comDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPr(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String processLabel, Boolean notifyOnComplete) throws Exception {
+    public ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrInfo comDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPr(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String processLabel, Boolean notifyOnComplete) throws Exception {
         //Do your magic!!!
         return new ComDayCqDamCoreImplProcessSendTransientWorkflowCompletedEmailPrInfo();
     }
 
     @Override
-    public ComDayCqDamCoreImplProcessTextExtractionProcessInfo comDayCqDamCoreImplProcessTextExtractionProcess(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> mimeTypes, Integer maxExtract) throws Exception {
+    public ComDayCqDamCoreImplProcessTextExtractionProcessInfo comDayCqDamCoreImplProcessTextExtractionProcess(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> mimeTypes, Integer maxExtract) throws Exception {
         //Do your magic!!!
         return new ComDayCqDamCoreImplProcessTextExtractionProcessInfo();
     }
 
     @Override
-    public ComDayCqDamCoreImplRenditionMakerImplInfo comDayCqDamCoreImplRenditionMakerImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean xmpPropagate, List<String> xmpExcludes) throws Exception {
+    public ComDayCqDamCoreImplRenditionMakerImplInfo comDayCqDamCoreImplRenditionMakerImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean xmpPropagate, List<String> xmpExcludes) throws Exception {
         //Do your magic!!!
         return new ComDayCqDamCoreImplRenditionMakerImplInfo();
     }
 
     @Override
-    public ComDayCqDamCoreImplReportsReportExportServiceInfo comDayCqDamCoreImplReportsReportExportService(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer queryBatchSize) throws Exception {
+    public ComDayCqDamCoreImplReportsReportExportServiceInfo comDayCqDamCoreImplReportsReportExportService(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer queryBatchSize) throws Exception {
         //Do your magic!!!
         return new ComDayCqDamCoreImplReportsReportExportServiceInfo();
     }
 
     @Override
-    public ComDayCqDamCoreImplReportsReportPurgeServiceInfo comDayCqDamCoreImplReportsReportPurgeService(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String schedulerExpression, Integer maxSavedReports, Integer timeDuration, Boolean enableReportPurge) throws Exception {
+    public ComDayCqDamCoreImplReportsReportPurgeServiceInfo comDayCqDamCoreImplReportsReportPurgeService(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String schedulerExpression, Integer maxSavedReports, Integer timeDuration, Boolean enableReportPurge) throws Exception {
         //Do your magic!!!
         return new ComDayCqDamCoreImplReportsReportPurgeServiceInfo();
     }
 
     @Override
-    public ComDayCqDamCoreImplServletAssetDownloadServletInfo comDayCqDamCoreImplServletAssetDownloadServlet(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean enabled) throws Exception {
+    public ComDayCqDamCoreImplServletAssetDownloadServletInfo comDayCqDamCoreImplServletAssetDownloadServlet(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean enabled) throws Exception {
         //Do your magic!!!
         return new ComDayCqDamCoreImplServletAssetDownloadServletInfo();
     }
 
     @Override
-    public ComDayCqDamCoreImplServletAssetStatusServletInfo comDayCqDamCoreImplServletAssetStatusServlet(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer cqDamBatchStatusMaxassets) throws Exception {
+    public ComDayCqDamCoreImplServletAssetStatusServletInfo comDayCqDamCoreImplServletAssetStatusServlet(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer cqDamBatchStatusMaxassets) throws Exception {
         //Do your magic!!!
         return new ComDayCqDamCoreImplServletAssetStatusServletInfo();
     }
 
     @Override
-    public ComDayCqDamCoreImplServletAssetXMPSearchServletInfo comDayCqDamCoreImplServletAssetXMPSearchServlet(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer cqDamBatchIndesignMaxassets) throws Exception {
+    public ComDayCqDamCoreImplServletAssetXMPSearchServletInfo comDayCqDamCoreImplServletAssetXMPSearchServlet(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer cqDamBatchIndesignMaxassets) throws Exception {
         //Do your magic!!!
         return new ComDayCqDamCoreImplServletAssetXMPSearchServletInfo();
     }
 
     @Override
-    public ComDayCqDamCoreImplServletBatchMetadataServletInfo comDayCqDamCoreImplServletBatchMetadataServlet(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> cqDamBatchMetadataAssetDefault, List<String> cqDamBatchMetadataCollectionDefault, Integer cqDamBatchMetadataMaxresources) throws Exception {
+    public ComDayCqDamCoreImplServletBatchMetadataServletInfo comDayCqDamCoreImplServletBatchMetadataServlet(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> cqDamBatchMetadataAssetDefault, List<String> cqDamBatchMetadataCollectionDefault, Integer cqDamBatchMetadataMaxresources) throws Exception {
         //Do your magic!!!
         return new ComDayCqDamCoreImplServletBatchMetadataServletInfo();
     }
 
     @Override
-    public ComDayCqDamCoreImplServletBinaryProviderServletInfo comDayCqDamCoreImplServletBinaryProviderServlet(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> slingServletResourceTypes, List<String> slingServletMethods, Boolean cqDamDrmEnable) throws Exception {
+    public ComDayCqDamCoreImplServletBinaryProviderServletInfo comDayCqDamCoreImplServletBinaryProviderServlet(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> slingServletResourceTypes, List<String> slingServletMethods, Boolean cqDamDrmEnable) throws Exception {
         //Do your magic!!!
         return new ComDayCqDamCoreImplServletBinaryProviderServletInfo();
     }
 
     @Override
-    public ComDayCqDamCoreImplServletCollectionServletInfo comDayCqDamCoreImplServletCollectionServlet(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> cqDamBatchCollectionProperties, Integer cqDamBatchCollectionMaxcollections) throws Exception {
+    public ComDayCqDamCoreImplServletCollectionServletInfo comDayCqDamCoreImplServletCollectionServlet(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> cqDamBatchCollectionProperties, Integer cqDamBatchCollectionMaxcollections) throws Exception {
         //Do your magic!!!
         return new ComDayCqDamCoreImplServletCollectionServletInfo();
     }
 
     @Override
-    public ComDayCqDamCoreImplServletCollectionsServletInfo comDayCqDamCoreImplServletCollectionsServlet(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> cqDamBatchCollectionsProperties, Integer cqDamBatchCollectionsLimit) throws Exception {
+    public ComDayCqDamCoreImplServletCollectionsServletInfo comDayCqDamCoreImplServletCollectionsServlet(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> cqDamBatchCollectionsProperties, Integer cqDamBatchCollectionsLimit) throws Exception {
         //Do your magic!!!
         return new ComDayCqDamCoreImplServletCollectionsServletInfo();
     }
 
     @Override
-    public ComDayCqDamCoreImplServletCompanionServletInfo comDayCqDamCoreImplServletCompanionServlet(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String moreInfo, String slashMntSlashOverlaySlashDamSlashGuiSlashContentSlashAssetsSlashMoreinfoHtmlSlash$LeftCurlyBracketPathRightCurlyBracket) throws Exception {
+    public ComDayCqDamCoreImplServletCompanionServletInfo comDayCqDamCoreImplServletCompanionServlet(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String moreInfo, String mntOverlayDamGuiContentAssetsMoreinfoHtml$LeftCurlyBracketPathRightCurlyBracket) throws Exception {
         //Do your magic!!!
         return new ComDayCqDamCoreImplServletCompanionServletInfo();
     }
 
     @Override
-    public ComDayCqDamCoreImplServletCreateAssetServletInfo comDayCqDamCoreImplServletCreateAssetServlet(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean detectDuplicate) throws Exception {
+    public ComDayCqDamCoreImplServletCreateAssetServletInfo comDayCqDamCoreImplServletCreateAssetServlet(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean detectDuplicate) throws Exception {
         //Do your magic!!!
         return new ComDayCqDamCoreImplServletCreateAssetServletInfo();
     }
 
     @Override
-    public ComDayCqDamCoreImplServletDamContentDispositionFilterInfo comDayCqDamCoreImplServletDamContentDispositionFilter(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> cqMimeTypeBlacklist, Boolean cqDamEmptyMime) throws Exception {
+    public ComDayCqDamCoreImplServletDamContentDispositionFilterInfo comDayCqDamCoreImplServletDamContentDispositionFilter(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> cqMimeTypeBlacklist, Boolean cqDamEmptyMime) throws Exception {
         //Do your magic!!!
         return new ComDayCqDamCoreImplServletDamContentDispositionFilterInfo();
     }
 
     @Override
-    public ComDayCqDamCoreImplServletGuidLookupFilterInfo comDayCqDamCoreImplServletGuidLookupFilter(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean cqDamCoreGuidlookupfilterEnabled) throws Exception {
+    public ComDayCqDamCoreImplServletGuidLookupFilterInfo comDayCqDamCoreImplServletGuidLookupFilter(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean cqDamCoreGuidlookupfilterEnabled) throws Exception {
         //Do your magic!!!
         return new ComDayCqDamCoreImplServletGuidLookupFilterInfo();
     }
 
     @Override
-    public ComDayCqDamCoreImplServletHealthCheckServletInfo comDayCqDamCoreImplServletHealthCheckServlet(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String cqDamSyncWorkflowId, List<String> cqDamSyncFolderTypes) throws Exception {
+    public ComDayCqDamCoreImplServletHealthCheckServletInfo comDayCqDamCoreImplServletHealthCheckServlet(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String cqDamSyncWorkflowId, List<String> cqDamSyncFolderTypes) throws Exception {
         //Do your magic!!!
         return new ComDayCqDamCoreImplServletHealthCheckServletInfo();
     }
 
     @Override
-    public ComDayCqDamCoreImplServletMetadataGetServletInfo comDayCqDamCoreImplServletMetadataGetServlet(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String slingServletResourceTypes, String slingServletMethods, String slingServletExtensions, String slingServletSelectors) throws Exception {
+    public ComDayCqDamCoreImplServletMetadataGetServletInfo comDayCqDamCoreImplServletMetadataGetServlet(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String slingServletResourceTypes, String slingServletMethods, String slingServletExtensions, String slingServletSelectors) throws Exception {
         //Do your magic!!!
         return new ComDayCqDamCoreImplServletMetadataGetServletInfo();
     }
 
     @Override
-    public ComDayCqDamCoreImplServletMultipleLicenseAcceptServletInfo comDayCqDamCoreImplServletMultipleLicenseAcceptServlet(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean cqDamDrmEnable) throws Exception {
+    public ComDayCqDamCoreImplServletMultipleLicenseAcceptServletInfo comDayCqDamCoreImplServletMultipleLicenseAcceptServlet(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean cqDamDrmEnable) throws Exception {
         //Do your magic!!!
         return new ComDayCqDamCoreImplServletMultipleLicenseAcceptServletInfo();
     }
 
     @Override
-    public ComDayCqDamCoreImplServletResourceCollectionServletInfo comDayCqDamCoreImplServletResourceCollectionServlet(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> slingServletResourceTypes, String slingServletMethods, String slingServletSelectors, String downloadConfig, String viewSelector, Boolean sendEmail) throws Exception {
+    public ComDayCqDamCoreImplServletResourceCollectionServletInfo comDayCqDamCoreImplServletResourceCollectionServlet(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> slingServletResourceTypes, String slingServletMethods, String slingServletSelectors, String downloadConfig, String viewSelector, Boolean sendEmail) throws Exception {
         //Do your magic!!!
         return new ComDayCqDamCoreImplServletResourceCollectionServletInfo();
     }
 
     @Override
-    public ComDayCqDamCoreImplUiPreviewFolderPreviewUpdaterImplInfo comDayCqDamCoreImplUiPreviewFolderPreviewUpdaterImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean createPreviewEnabled, Boolean updatePreviewEnabled, Integer queueSize, String folderPreviewRenditionRegex) throws Exception {
+    public ComDayCqDamCoreImplUiPreviewFolderPreviewUpdaterImplInfo comDayCqDamCoreImplUiPreviewFolderPreviewUpdaterImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean createPreviewEnabled, Boolean updatePreviewEnabled, Integer queueSize, String folderPreviewRenditionRegex) throws Exception {
         //Do your magic!!!
         return new ComDayCqDamCoreImplUiPreviewFolderPreviewUpdaterImplInfo();
     }
 
     @Override
-    public ComDayCqDamCoreImplUnzipUnzipConfigInfo comDayCqDamCoreImplUnzipUnzipConfig(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer cqDamConfigUnzipMaxuncompressedsize, String cqDamConfigUnzipEncoding) throws Exception {
+    public ComDayCqDamCoreImplUnzipUnzipConfigInfo comDayCqDamCoreImplUnzipUnzipConfig(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer cqDamConfigUnzipMaxuncompressedsize, String cqDamConfigUnzipEncoding) throws Exception {
         //Do your magic!!!
         return new ComDayCqDamCoreImplUnzipUnzipConfigInfo();
     }
 
     @Override
-    public ComDayCqDamCoreProcessExifToolExtractMetadataProcessInfo comDayCqDamCoreProcessExifToolExtractMetadataProcess(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String processLabel, Boolean cqDamEnableSha1) throws Exception {
+    public ComDayCqDamCoreProcessExifToolExtractMetadataProcessInfo comDayCqDamCoreProcessExifToolExtractMetadataProcess(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String processLabel, Boolean cqDamEnableSha1) throws Exception {
         //Do your magic!!!
         return new ComDayCqDamCoreProcessExifToolExtractMetadataProcessInfo();
     }
 
     @Override
-    public ComDayCqDamCoreProcessExtractMetadataProcessInfo comDayCqDamCoreProcessExtractMetadataProcess(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String processLabel, Boolean cqDamEnableSha1) throws Exception {
+    public ComDayCqDamCoreProcessExtractMetadataProcessInfo comDayCqDamCoreProcessExtractMetadataProcess(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String processLabel, Boolean cqDamEnableSha1) throws Exception {
         //Do your magic!!!
         return new ComDayCqDamCoreProcessExtractMetadataProcessInfo();
     }
 
     @Override
-    public ComDayCqDamCoreProcessMetadataProcessorProcessInfo comDayCqDamCoreProcessMetadataProcessorProcess(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String processLabel, Boolean cqDamEnableSha1, List<String> cqDamMetadataXssprotectedProperties) throws Exception {
+    public ComDayCqDamCoreProcessMetadataProcessorProcessInfo comDayCqDamCoreProcessMetadataProcessorProcess(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String processLabel, Boolean cqDamEnableSha1, List<String> cqDamMetadataXssprotectedProperties) throws Exception {
         //Do your magic!!!
         return new ComDayCqDamCoreProcessMetadataProcessorProcessInfo();
     }
 
     @Override
-    public ComDayCqDamHandlerFfmpegLocatorImplInfo comDayCqDamHandlerFfmpegLocatorImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> executableSearchpath) throws Exception {
+    public ComDayCqDamHandlerFfmpegLocatorImplInfo comDayCqDamHandlerFfmpegLocatorImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> executableSearchpath) throws Exception {
         //Do your magic!!!
         return new ComDayCqDamHandlerFfmpegLocatorImplInfo();
     }
 
     @Override
-    public ComDayCqDamHandlerGibsonFontmanagerImplFontManagerServiceImplInfo comDayCqDamHandlerGibsonFontmanagerImplFontManagerServiceImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String eventFilter, List<String> fontmgrSystemFontDir, String fontmgrAdobeFontDir, String fontmgrCustomerFontDir) throws Exception {
+    public ComDayCqDamHandlerGibsonFontmanagerImplFontManagerServiceImplInfo comDayCqDamHandlerGibsonFontmanagerImplFontManagerServiceImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String eventFilter, List<String> fontmgrSystemFontDir, String fontmgrAdobeFontDir, String fontmgrCustomerFontDir) throws Exception {
         //Do your magic!!!
         return new ComDayCqDamHandlerGibsonFontmanagerImplFontManagerServiceImplInfo();
     }
 
     @Override
-    public ComDayCqDamHandlerStandardPdfPdfHandlerInfo comDayCqDamHandlerStandardPdfPdfHandler(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean rasterAnnotation) throws Exception {
+    public ComDayCqDamHandlerStandardPdfPdfHandlerInfo comDayCqDamHandlerStandardPdfPdfHandler(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean rasterAnnotation) throws Exception {
         //Do your magic!!!
         return new ComDayCqDamHandlerStandardPdfPdfHandlerInfo();
     }
 
     @Override
-    public ComDayCqDamHandlerStandardPsPostScriptHandlerInfo comDayCqDamHandlerStandardPsPostScriptHandler(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean rasterAnnotation) throws Exception {
+    public ComDayCqDamHandlerStandardPsPostScriptHandlerInfo comDayCqDamHandlerStandardPsPostScriptHandler(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean rasterAnnotation) throws Exception {
         //Do your magic!!!
         return new ComDayCqDamHandlerStandardPsPostScriptHandlerInfo();
     }
 
     @Override
-    public ComDayCqDamHandlerStandardPsdPsdHandlerInfo comDayCqDamHandlerStandardPsdPsdHandler(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer largeFileThreshold) throws Exception {
+    public ComDayCqDamHandlerStandardPsdPsdHandlerInfo comDayCqDamHandlerStandardPsdPsdHandler(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer largeFileThreshold) throws Exception {
         //Do your magic!!!
         return new ComDayCqDamHandlerStandardPsdPsdHandlerInfo();
     }
 
     @Override
-    public ComDayCqDamIdsImplIDSJobProcessorInfo comDayCqDamIdsImplIDSJobProcessor(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean enableMultisession, Boolean idsCcEnable, Boolean enableRetry, Boolean enableRetryScripterror, String externalizerDomainCqhost, String externalizerDomainHttp) throws Exception {
+    public ComDayCqDamIdsImplIDSJobProcessorInfo comDayCqDamIdsImplIDSJobProcessor(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean enableMultisession, Boolean idsCcEnable, Boolean enableRetry, Boolean enableRetryScripterror, String externalizerDomainCqhost, String externalizerDomainHttp) throws Exception {
         //Do your magic!!!
         return new ComDayCqDamIdsImplIDSJobProcessorInfo();
     }
 
     @Override
-    public ComDayCqDamIdsImplIDSPoolManagerImplInfo comDayCqDamIdsImplIDSPoolManagerImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer maxErrorsToBlacklist, Integer retryIntervalToWhitelist, Integer connectTimeout, Integer socketTimeout, String processLabel, Integer connectionUseMax) throws Exception {
+    public ComDayCqDamIdsImplIDSPoolManagerImplInfo comDayCqDamIdsImplIDSPoolManagerImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer maxErrorsToBlacklist, Integer retryIntervalToWhitelist, Integer connectTimeout, Integer socketTimeout, String processLabel, Integer connectionUseMax) throws Exception {
         //Do your magic!!!
         return new ComDayCqDamIdsImplIDSPoolManagerImplInfo();
     }
 
     @Override
-    public ComDayCqDamInddImplHandlerIndesignXMPHandlerInfo comDayCqDamInddImplHandlerIndesignXMPHandler(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String processLabel, Boolean extractPages) throws Exception {
+    public ComDayCqDamInddImplHandlerIndesignXMPHandlerInfo comDayCqDamInddImplHandlerIndesignXMPHandler(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String processLabel, Boolean extractPages) throws Exception {
         //Do your magic!!!
         return new ComDayCqDamInddImplHandlerIndesignXMPHandlerInfo();
     }
 
     @Override
-    public ComDayCqDamInddImplServletSnippetCreationServletInfo comDayCqDamInddImplServletSnippetCreationServlet(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer snippetcreationMaxcollections) throws Exception {
+    public ComDayCqDamInddImplServletSnippetCreationServletInfo comDayCqDamInddImplServletSnippetCreationServlet(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer snippetcreationMaxcollections) throws Exception {
         //Do your magic!!!
         return new ComDayCqDamInddImplServletSnippetCreationServletInfo();
     }
 
     @Override
-    public ComDayCqDamInddProcessINDDMediaExtractProcessInfo comDayCqDamInddProcessINDDMediaExtractProcess(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String processLabel, String cqDamInddPagesRegex, Boolean idsJobDecoupled, String idsJobWorkflowModel) throws Exception {
+    public ComDayCqDamInddProcessINDDMediaExtractProcessInfo comDayCqDamInddProcessINDDMediaExtractProcess(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String processLabel, String cqDamInddPagesRegex, Boolean idsJobDecoupled, String idsJobWorkflowModel) throws Exception {
         //Do your magic!!!
         return new ComDayCqDamInddProcessINDDMediaExtractProcessInfo();
     }
 
     @Override
-    public ComDayCqDamPerformanceInternalAssetPerformanceDataHandlerImplInfo comDayCqDamPerformanceInternalAssetPerformanceDataHandlerImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer batchCommitSize) throws Exception {
+    public ComDayCqDamPerformanceInternalAssetPerformanceDataHandlerImplInfo comDayCqDamPerformanceInternalAssetPerformanceDataHandlerImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer batchCommitSize) throws Exception {
         //Do your magic!!!
         return new ComDayCqDamPerformanceInternalAssetPerformanceDataHandlerImplInfo();
     }
 
     @Override
-    public ComDayCqDamPerformanceInternalAssetPerformanceReportSyncJobInfo comDayCqDamPerformanceInternalAssetPerformanceReportSyncJob(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String schedulerExpression) throws Exception {
+    public ComDayCqDamPerformanceInternalAssetPerformanceReportSyncJobInfo comDayCqDamPerformanceInternalAssetPerformanceReportSyncJob(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String schedulerExpression) throws Exception {
         //Do your magic!!!
         return new ComDayCqDamPerformanceInternalAssetPerformanceReportSyncJobInfo();
     }
 
     @Override
-    public ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProInfo comDayCqDamPimImplSourcingUploadProcessProductAssetsUploadPro(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean deleteZipFile) throws Exception {
+    public ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProInfo comDayCqDamPimImplSourcingUploadProcessProductAssetsUploadPro(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean deleteZipFile) throws Exception {
         //Do your magic!!!
         return new ComDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProInfo();
     }
 
     @Override
-    public ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenInfo comDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEven(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean cqDamS7damDynamicmediaconfigeventlistenerEnabled) throws Exception {
+    public ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenInfo comDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEven(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean cqDamS7damDynamicmediaconfigeventlistenerEnabled) throws Exception {
         //Do your magic!!!
         return new ComDayCqDamS7damCommonAnalyticsImplS7damDynamicMediaConfigEvenInfo();
     }
 
     @Override
-    public ComDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerInfo comDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunner(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String schedulerExpression, Boolean schedulerConcurrent) throws Exception {
+    public ComDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerInfo comDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunner(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String schedulerExpression, Boolean schedulerConcurrent) throws Exception {
         //Do your magic!!!
         return new ComDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerInfo();
     }
 
     @Override
-    public ComDayCqDamS7damCommonPostServletsSetCreateHandlerInfo comDayCqDamS7damCommonPostServletsSetCreateHandler(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String slingPostOperation, String slingServletMethods) throws Exception {
+    public ComDayCqDamS7damCommonPostServletsSetCreateHandlerInfo comDayCqDamS7damCommonPostServletsSetCreateHandler(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String slingPostOperation, String slingServletMethods) throws Exception {
         //Do your magic!!!
         return new ComDayCqDamS7damCommonPostServletsSetCreateHandlerInfo();
     }
 
     @Override
-    public ComDayCqDamS7damCommonPostServletsSetModifyHandlerInfo comDayCqDamS7damCommonPostServletsSetModifyHandler(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String slingPostOperation, String slingServletMethods) throws Exception {
+    public ComDayCqDamS7damCommonPostServletsSetModifyHandlerInfo comDayCqDamS7damCommonPostServletsSetModifyHandler(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String slingPostOperation, String slingServletMethods) throws Exception {
         //Do your magic!!!
         return new ComDayCqDamS7damCommonPostServletsSetModifyHandlerInfo();
     }
 
     @Override
-    public ComDayCqDamS7damCommonProcessVideoThumbnailDownloadProcessInfo comDayCqDamS7damCommonProcessVideoThumbnailDownloadProcess(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String processLabel) throws Exception {
+    public ComDayCqDamS7damCommonProcessVideoThumbnailDownloadProcessInfo comDayCqDamS7damCommonProcessVideoThumbnailDownloadProcess(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String processLabel) throws Exception {
         //Do your magic!!!
         return new ComDayCqDamS7damCommonProcessVideoThumbnailDownloadProcessInfo();
     }
 
     @Override
-    public ComDayCqDamS7damCommonS7damDamChangeEventListenerInfo comDayCqDamS7damCommonS7damDamChangeEventListener(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean cqDamS7damDamchangeeventlistenerEnabled) throws Exception {
+    public ComDayCqDamS7damCommonS7damDamChangeEventListenerInfo comDayCqDamS7damCommonS7damDamChangeEventListener(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean cqDamS7damDamchangeeventlistenerEnabled) throws Exception {
         //Do your magic!!!
         return new ComDayCqDamS7damCommonS7damDamChangeEventListenerInfo();
     }
 
     @Override
-    public ComDayCqDamS7damCommonServletsS7damProductInfoServletInfo comDayCqDamS7damCommonServletsS7damProductInfoServlet(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String slingServletPaths, String slingServletMethods) throws Exception {
+    public ComDayCqDamS7damCommonServletsS7damProductInfoServletInfo comDayCqDamS7damCommonServletsS7damProductInfoServlet(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String slingServletPaths, String slingServletMethods) throws Exception {
         //Do your magic!!!
         return new ComDayCqDamS7damCommonServletsS7damProductInfoServletInfo();
     }
 
     @Override
-    public ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplInfo comDayCqDamS7damCommonVideoImplVideoProxyClientServiceImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer cqDamS7damVideoproxyclientserviceMultipartuploadMinsizeName, Integer cqDamS7damVideoproxyclientserviceMultipartuploadPartsizeName, Integer cqDamS7damVideoproxyclientserviceMultipartuploadNumthreadName, Integer cqDamS7damVideoproxyclientserviceHttpReadtimeoutName, Integer cqDamS7damVideoproxyclientserviceHttpConnectiontimeoutName, Integer cqDamS7damVideoproxyclientserviceHttpMaxretrycountName, Integer cqDamS7damVideoproxyclientserviceUploadprogressIntervalName) throws Exception {
+    public ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplInfo comDayCqDamS7damCommonVideoImplVideoProxyClientServiceImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer cqDamS7damVideoproxyclientserviceMultipartuploadMinsizeName, Integer cqDamS7damVideoproxyclientserviceMultipartuploadPartsizeName, Integer cqDamS7damVideoproxyclientserviceMultipartuploadNumthreadName, Integer cqDamS7damVideoproxyclientserviceHttpReadtimeoutName, Integer cqDamS7damVideoproxyclientserviceHttpConnectiontimeoutName, Integer cqDamS7damVideoproxyclientserviceHttpMaxretrycountName, Integer cqDamS7damVideoproxyclientserviceUploadprogressIntervalName) throws Exception {
         //Do your magic!!!
         return new ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplInfo();
     }
 
     @Override
-    public ComDayCqDamScene7ImplScene7APIClientImplInfo comDayCqDamScene7ImplScene7APIClientImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer cqDamScene7ApiclientRecordsperpageNofilterName, Integer cqDamScene7ApiclientRecordsperpageWithfilterName) throws Exception {
+    public ComDayCqDamScene7ImplScene7APIClientImplInfo comDayCqDamScene7ImplScene7APIClientImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer cqDamScene7ApiclientRecordsperpageNofilterName, Integer cqDamScene7ApiclientRecordsperpageWithfilterName) throws Exception {
         //Do your magic!!!
         return new ComDayCqDamScene7ImplScene7APIClientImplInfo();
     }
 
     @Override
-    public ComDayCqDamScene7ImplScene7AssetMimeTypeServiceImplInfo comDayCqDamScene7ImplScene7AssetMimeTypeServiceImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> cqDamScene7AssetmimetypeserviceMapping) throws Exception {
+    public ComDayCqDamScene7ImplScene7AssetMimeTypeServiceImplInfo comDayCqDamScene7ImplScene7AssetMimeTypeServiceImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> cqDamScene7AssetmimetypeserviceMapping) throws Exception {
         //Do your magic!!!
         return new ComDayCqDamScene7ImplScene7AssetMimeTypeServiceImplInfo();
     }
 
     @Override
-    public ComDayCqDamScene7ImplScene7ConfigurationEventListenerInfo comDayCqDamScene7ImplScene7ConfigurationEventListener(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean cqDamScene7ConfigurationeventlistenerEnabled) throws Exception {
+    public ComDayCqDamScene7ImplScene7ConfigurationEventListenerInfo comDayCqDamScene7ImplScene7ConfigurationEventListener(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean cqDamScene7ConfigurationeventlistenerEnabled) throws Exception {
         //Do your magic!!!
         return new ComDayCqDamScene7ImplScene7ConfigurationEventListenerInfo();
     }
 
     @Override
-    public ComDayCqDamScene7ImplScene7DamChangeEventListenerInfo comDayCqDamScene7ImplScene7DamChangeEventListener(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean cqDamScene7DamchangeeventlistenerEnabled, List<String> cqDamScene7DamchangeeventlistenerObservedPaths) throws Exception {
+    public ComDayCqDamScene7ImplScene7DamChangeEventListenerInfo comDayCqDamScene7ImplScene7DamChangeEventListener(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean cqDamScene7DamchangeeventlistenerEnabled, List<String> cqDamScene7DamchangeeventlistenerObservedPaths) throws Exception {
         //Do your magic!!!
         return new ComDayCqDamScene7ImplScene7DamChangeEventListenerInfo();
     }
 
     @Override
-    public ComDayCqDamScene7ImplScene7FlashTemplatesServiceImplInfo comDayCqDamScene7ImplScene7FlashTemplatesServiceImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String scene7FlashTemplatesRti, String scene7FlashTemplatesRsi, String scene7FlashTemplatesRb, String scene7FlashTemplatesRurl, String scene7FlashTemplateUrlFormatParameter) throws Exception {
+    public ComDayCqDamScene7ImplScene7FlashTemplatesServiceImplInfo comDayCqDamScene7ImplScene7FlashTemplatesServiceImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String scene7FlashTemplatesRti, String scene7FlashTemplatesRsi, String scene7FlashTemplatesRb, String scene7FlashTemplatesRurl, String scene7FlashTemplateUrlFormatParameter) throws Exception {
         //Do your magic!!!
         return new ComDayCqDamScene7ImplScene7FlashTemplatesServiceImplInfo();
     }
 
     @Override
-    public ComDayCqDamScene7ImplScene7UploadServiceImplInfo comDayCqDamScene7ImplScene7UploadServiceImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer cqDamScene7UploadserviceActivejobtimeoutLabel, Integer cqDamScene7UploadserviceConnectionmaxperrouteLabel) throws Exception {
+    public ComDayCqDamScene7ImplScene7UploadServiceImplInfo comDayCqDamScene7ImplScene7UploadServiceImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer cqDamScene7UploadserviceActivejobtimeoutLabel, Integer cqDamScene7UploadserviceConnectionmaxperrouteLabel) throws Exception {
         //Do your magic!!!
         return new ComDayCqDamScene7ImplScene7UploadServiceImplInfo();
     }
 
     @Override
-    public ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationSerInfo comDayCqDamStockIntegrationImplCacheStockCacheConfigurationSer(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String getCacheExpirationUnit, Integer getCacheExpirationValue) throws Exception {
+    public ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationSerInfo comDayCqDamStockIntegrationImplCacheStockCacheConfigurationSer(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String getCacheExpirationUnit, Integer getCacheExpirationValue) throws Exception {
         //Do your magic!!!
         return new ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationSerInfo();
     }
 
     @Override
-    public ComDayCqDamStockIntegrationImplConfigurationStockConfigurationInfo comDayCqDamStockIntegrationImplConfigurationStockConfiguration(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String name, String locale, String imsConfig) throws Exception {
+    public ComDayCqDamStockIntegrationImplConfigurationStockConfigurationInfo comDayCqDamStockIntegrationImplConfigurationStockConfiguration(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String name, String locale, String imsConfig) throws Exception {
         //Do your magic!!!
         return new ComDayCqDamStockIntegrationImplConfigurationStockConfigurationInfo();
     }
 
     @Override
-    public ComDayCqDamVideoImplServletVideoTestServletInfo comDayCqDamVideoImplServletVideoTestServlet(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean enabled) throws Exception {
+    public ComDayCqDamVideoImplServletVideoTestServletInfo comDayCqDamVideoImplServletVideoTestServlet(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean enabled) throws Exception {
         //Do your magic!!!
         return new ComDayCqDamVideoImplServletVideoTestServletInfo();
     }
 
     @Override
-    public ComDayCqExtwidgetServletsImageSpriteServletInfo comDayCqExtwidgetServletsImageSpriteServlet(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer maxWidth, Integer maxHeight) throws Exception {
+    public ComDayCqExtwidgetServletsImageSpriteServletInfo comDayCqExtwidgetServletsImageSpriteServlet(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer maxWidth, Integer maxHeight) throws Exception {
         //Do your magic!!!
         return new ComDayCqExtwidgetServletsImageSpriteServletInfo();
     }
 
     @Override
-    public ComDayCqImageInternalFontFontHelperInfo comDayCqImageInternalFontFontHelper(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> fontpath, Integer oversamplingFactor) throws Exception {
+    public ComDayCqImageInternalFontFontHelperInfo comDayCqImageInternalFontFontHelper(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> fontpath, Integer oversamplingFactor) throws Exception {
         //Do your magic!!!
         return new ComDayCqImageInternalFontFontHelperInfo();
     }
 
     @Override
-    public ComDayCqJcrclustersupportClusterStartLevelControllerInfo comDayCqJcrclustersupportClusterStartLevelController(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean clusterLevelEnable, Integer clusterMasterLevel, Integer clusterSlaveLevel) throws Exception {
+    public ComDayCqJcrclustersupportClusterStartLevelControllerInfo comDayCqJcrclustersupportClusterStartLevelController(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean clusterLevelEnable, Integer clusterMasterLevel, Integer clusterSlaveLevel) throws Exception {
         //Do your magic!!!
         return new ComDayCqJcrclustersupportClusterStartLevelControllerInfo();
     }
 
     @Override
-    public ComDayCqMailerDefaultMailServiceInfo comDayCqMailerDefaultMailService(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String smtpHost, Integer smtpPort, String smtpUser, String smtpPassword, String fromAddress, Boolean smtpSsl, Boolean smtpStarttls, Boolean debugEmail) throws Exception {
+    public ComDayCqMailerDefaultMailServiceInfo comDayCqMailerDefaultMailService(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String smtpHost, Integer smtpPort, String smtpUser, String smtpPassword, String fromAddress, Boolean smtpSsl, Boolean smtpStarttls, Boolean debugEmail) throws Exception {
         //Do your magic!!!
         return new ComDayCqMailerDefaultMailServiceInfo();
     }
 
     @Override
-    public ComDayCqMailerImplCqMailingServiceInfo comDayCqMailerImplCqMailingService(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String maxRecipientCount) throws Exception {
+    public ComDayCqMailerImplCqMailingServiceInfo comDayCqMailerImplCqMailingService(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String maxRecipientCount) throws Exception {
         //Do your magic!!!
         return new ComDayCqMailerImplCqMailingServiceInfo();
     }
 
     @Override
-    public ComDayCqMailerImplEmailCqEmailTemplateFactoryInfo comDayCqMailerImplEmailCqEmailTemplateFactory(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String mailerEmailCharset) throws Exception {
+    public ComDayCqMailerImplEmailCqEmailTemplateFactoryInfo comDayCqMailerImplEmailCqEmailTemplateFactory(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String mailerEmailCharset) throws Exception {
         //Do your magic!!!
         return new ComDayCqMailerImplEmailCqEmailTemplateFactoryInfo();
     }
 
     @Override
-    public ComDayCqMailerImplEmailCqRetrieverTemplateFactoryInfo comDayCqMailerImplEmailCqRetrieverTemplateFactory(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean mailerEmailEmbed, String mailerEmailCharset, String mailerEmailRetrieverUserID, String mailerEmailRetrieverUserPWD) throws Exception {
+    public ComDayCqMailerImplEmailCqRetrieverTemplateFactoryInfo comDayCqMailerImplEmailCqRetrieverTemplateFactory(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean mailerEmailEmbed, String mailerEmailCharset, String mailerEmailRetrieverUserID, String mailerEmailRetrieverUserPWD) throws Exception {
         //Do your magic!!!
         return new ComDayCqMailerImplEmailCqRetrieverTemplateFactoryInfo();
     }
 
     @Override
-    public ComDayCqMcmCampaignImplIntegrationConfigImplInfo comDayCqMcmCampaignImplIntegrationConfigImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> aemMcmCampaignFormConstraints, String aemMcmCampaignPublicUrl, Boolean aemMcmCampaignRelaxedSSL) throws Exception {
+    public ComDayCqMcmCampaignImplIntegrationConfigImplInfo comDayCqMcmCampaignImplIntegrationConfigImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> aemMcmCampaignFormConstraints, String aemMcmCampaignPublicUrl, Boolean aemMcmCampaignRelaxedSSL) throws Exception {
         //Do your magic!!!
         return new ComDayCqMcmCampaignImplIntegrationConfigImplInfo();
     }
 
     @Override
-    public ComDayCqMcmCampaignImporterPersonalizedTextHandlerFactoryInfo comDayCqMcmCampaignImporterPersonalizedTextHandlerFactory(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer serviceRanking, String tagpattern) throws Exception {
+    public ComDayCqMcmCampaignImporterPersonalizedTextHandlerFactoryInfo comDayCqMcmCampaignImporterPersonalizedTextHandlerFactory(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer serviceRanking, String tagpattern) throws Exception {
         //Do your magic!!!
         return new ComDayCqMcmCampaignImporterPersonalizedTextHandlerFactoryInfo();
     }
 
     @Override
-    public ComDayCqMcmCoreNewsletterNewsletterEmailServiceImplInfo comDayCqMcmCoreNewsletterNewsletterEmailServiceImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String fromAddress, String senderHost, String maxBounceCount) throws Exception {
+    public ComDayCqMcmCoreNewsletterNewsletterEmailServiceImplInfo comDayCqMcmCoreNewsletterNewsletterEmailServiceImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String fromAddress, String senderHost, String maxBounceCount) throws Exception {
         //Do your magic!!!
         return new ComDayCqMcmCoreNewsletterNewsletterEmailServiceImplInfo();
     }
 
     @Override
-    public ComDayCqMcmImplMCMConfigurationInfo comDayCqMcmImplMCMConfiguration(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> experienceIndirection, List<String> touchpointIndirection) throws Exception {
+    public ComDayCqMcmImplMCMConfigurationInfo comDayCqMcmImplMCMConfiguration(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> experienceIndirection, List<String> touchpointIndirection) throws Exception {
         //Do your magic!!!
         return new ComDayCqMcmImplMCMConfigurationInfo();
     }
 
     @Override
-    public ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponenInfo comDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponen(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer serviceRanking, String tagpattern, String componentResourceType) throws Exception {
+    public ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponenInfo comDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponen(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer serviceRanking, String tagpattern, String componentResourceType) throws Exception {
         //Do your magic!!!
         return new ComDayCqMcmLandingpageParserTaghandlersCtaClickThroughComponenInfo();
     }
 
     @Override
-    public ComDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThrougInfo comDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThroug(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer serviceRanking, String tagpattern, String componentResourceType) throws Exception {
+    public ComDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThrougInfo comDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThroug(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer serviceRanking, String tagpattern, String componentResourceType) throws Exception {
         //Do your magic!!!
         return new ComDayCqMcmLandingpageParserTaghandlersCtaGraphicalClickThrougInfo();
     }
 
     @Override
-    public ComDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentInfo comDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponent(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer serviceRanking, String tagpattern) throws Exception {
+    public ComDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentInfo comDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponent(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer serviceRanking, String tagpattern) throws Exception {
         //Do your magic!!!
         return new ComDayCqMcmLandingpageParserTaghandlersCtaLeadFormCTAComponentInfo();
     }
 
     @Override
-    public ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHaInfo comDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHa(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer serviceRanking, String tagpattern) throws Exception {
+    public ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHaInfo comDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHa(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer serviceRanking, String tagpattern) throws Exception {
         //Do your magic!!!
         return new ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHaInfo();
     }
 
     @Override
-    public ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHInfo comDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagH(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer serviceRanking, String tagpattern, String componentResourceType) throws Exception {
+    public ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHInfo comDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagH(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer serviceRanking, String tagpattern, String componentResourceType) throws Exception {
         //Do your magic!!!
         return new ComDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHInfo();
     }
 
     @Override
-    public ComDayCqNotificationImplNotificationServiceImplInfo comDayCqNotificationImplNotificationServiceImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String eventFilter) throws Exception {
+    public ComDayCqNotificationImplNotificationServiceImplInfo comDayCqNotificationImplNotificationServiceImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String eventFilter) throws Exception {
         //Do your magic!!!
         return new ComDayCqNotificationImplNotificationServiceImplInfo();
     }
 
     @Override
-    public ComDayCqPersonalizationImplServletsTargetingConfigurationServletInfo comDayCqPersonalizationImplServletsTargetingConfigurationServlet(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean forcelocation) throws Exception {
+    public ComDayCqPersonalizationImplServletsTargetingConfigurationServletInfo comDayCqPersonalizationImplServletsTargetingConfigurationServlet(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean forcelocation) throws Exception {
         //Do your magic!!!
         return new ComDayCqPersonalizationImplServletsTargetingConfigurationServletInfo();
     }
 
     @Override
-    public ComDayCqPollingImporterImplManagedPollConfigImplInfo comDayCqPollingImporterImplManagedPollConfigImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String id, Boolean enabled, Boolean reference, Integer interval, String expression, String source, String target, String login, String password) throws Exception {
+    public ComDayCqPollingImporterImplManagedPollConfigImplInfo comDayCqPollingImporterImplManagedPollConfigImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String id, Boolean enabled, Boolean reference, Integer interval, String expression, String source, String target, String login, String password) throws Exception {
         //Do your magic!!!
         return new ComDayCqPollingImporterImplManagedPollConfigImplInfo();
     }
 
     @Override
-    public ComDayCqPollingImporterImplManagedPollingImporterImplInfo comDayCqPollingImporterImplManagedPollingImporterImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String importerUser) throws Exception {
+    public ComDayCqPollingImporterImplManagedPollingImporterImplInfo comDayCqPollingImporterImplManagedPollingImporterImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String importerUser) throws Exception {
         //Do your magic!!!
         return new ComDayCqPollingImporterImplManagedPollingImporterImplInfo();
     }
 
     @Override
-    public ComDayCqPollingImporterImplPollingImporterImplInfo comDayCqPollingImporterImplPollingImporterImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer importerMinInterval, String importerUser, List<String> excludePaths, List<String> includePaths) throws Exception {
+    public ComDayCqPollingImporterImplPollingImporterImplInfo comDayCqPollingImporterImplPollingImporterImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer importerMinInterval, String importerUser, List<String> excludePaths, List<String> includePaths) throws Exception {
         //Do your magic!!!
         return new ComDayCqPollingImporterImplPollingImporterImplInfo();
     }
 
     @Override
-    public ComDayCqReplicationAuditReplicationEventListenerInfo comDayCqReplicationAuditReplicationEventListener(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer serviceRanking) throws Exception {
+    public ComDayCqReplicationAuditReplicationEventListenerInfo comDayCqReplicationAuditReplicationEventListener(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer serviceRanking) throws Exception {
         //Do your magic!!!
         return new ComDayCqReplicationAuditReplicationEventListenerInfo();
     }
 
     @Override
-    public ComDayCqReplicationContentStaticContentBuilderInfo comDayCqReplicationContentStaticContentBuilder(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String host, Integer port) throws Exception {
+    public ComDayCqReplicationContentStaticContentBuilderInfo comDayCqReplicationContentStaticContentBuilder(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String host, Integer port) throws Exception {
         //Do your magic!!!
         return new ComDayCqReplicationContentStaticContentBuilderInfo();
     }
 
     @Override
-    public ComDayCqReplicationImplAgentManagerImplInfo comDayCqReplicationImplAgentManagerImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String jobTopics, String serviceUserTarget, String agentProviderTarget) throws Exception {
+    public ComDayCqReplicationImplAgentManagerImplInfo comDayCqReplicationImplAgentManagerImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String jobTopics, String serviceUserTarget, String agentProviderTarget) throws Exception {
         //Do your magic!!!
         return new ComDayCqReplicationImplAgentManagerImplInfo();
     }
 
     @Override
-    public ComDayCqReplicationImplContentDurboBinaryLessContentBuilderInfo comDayCqReplicationImplContentDurboBinaryLessContentBuilder(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer binaryThreshold) throws Exception {
+    public ComDayCqReplicationImplContentDurboBinaryLessContentBuilderInfo comDayCqReplicationImplContentDurboBinaryLessContentBuilder(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer binaryThreshold) throws Exception {
         //Do your magic!!!
         return new ComDayCqReplicationImplContentDurboBinaryLessContentBuilderInfo();
     }
 
     @Override
-    public ComDayCqReplicationImplContentDurboDurboImportConfigurationProvInfo comDayCqReplicationImplContentDurboDurboImportConfigurationProv(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean preserveHierarchyNodes, Boolean ignoreVersioning, Boolean importAcl, Integer saveThreshold, Boolean preserveUserPaths, Boolean preserveUuid, List<String> preserveUuidNodetypes, List<String> preserveUuidSubtrees, Boolean autoCommit) throws Exception {
+    public ComDayCqReplicationImplContentDurboDurboImportConfigurationProvInfo comDayCqReplicationImplContentDurboDurboImportConfigurationProv(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean preserveHierarchyNodes, Boolean ignoreVersioning, Boolean importAcl, Integer saveThreshold, Boolean preserveUserPaths, Boolean preserveUuid, List<String> preserveUuidNodetypes, List<String> preserveUuidSubtrees, Boolean autoCommit) throws Exception {
         //Do your magic!!!
         return new ComDayCqReplicationImplContentDurboDurboImportConfigurationProvInfo();
     }
 
     @Override
-    public ComDayCqReplicationImplReplicationContentFactoryProviderImplInfo comDayCqReplicationImplReplicationContentFactoryProviderImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean replicationContentUseFileStorage, Integer replicationContentMaxCommitAttempts) throws Exception {
+    public ComDayCqReplicationImplReplicationContentFactoryProviderImplInfo comDayCqReplicationImplReplicationContentFactoryProviderImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean replicationContentUseFileStorage, Integer replicationContentMaxCommitAttempts) throws Exception {
         //Do your magic!!!
         return new ComDayCqReplicationImplReplicationContentFactoryProviderImplInfo();
     }
 
     @Override
-    public ComDayCqReplicationImplReplicationReceiverImplInfo comDayCqReplicationImplReplicationReceiverImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer receiverTmpfileThreshold, Boolean receiverPackagesUseInstall) throws Exception {
+    public ComDayCqReplicationImplReplicationReceiverImplInfo comDayCqReplicationImplReplicationReceiverImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer receiverTmpfileThreshold, Boolean receiverPackagesUseInstall) throws Exception {
         //Do your magic!!!
         return new ComDayCqReplicationImplReplicationReceiverImplInfo();
     }
 
     @Override
-    public ComDayCqReplicationImplReplicatorImplInfo comDayCqReplicationImplReplicatorImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean distributeEvents) throws Exception {
+    public ComDayCqReplicationImplReplicatorImplInfo comDayCqReplicationImplReplicatorImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean distributeEvents) throws Exception {
         //Do your magic!!!
         return new ComDayCqReplicationImplReplicatorImplInfo();
     }
 
     @Override
-    public ComDayCqReplicationImplReverseReplicatorInfo comDayCqReplicationImplReverseReplicator(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer schedulerPeriod) throws Exception {
+    public ComDayCqReplicationImplReverseReplicatorInfo comDayCqReplicationImplReverseReplicator(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer schedulerPeriod) throws Exception {
         //Do your magic!!!
         return new ComDayCqReplicationImplReverseReplicatorInfo();
     }
 
     @Override
-    public ComDayCqReplicationImplTransportBinaryLessTransportHandlerInfo comDayCqReplicationImplTransportBinaryLessTransportHandler(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> disabledCipherSuites, List<String> enabledCipherSuites) throws Exception {
+    public ComDayCqReplicationImplTransportBinaryLessTransportHandlerInfo comDayCqReplicationImplTransportBinaryLessTransportHandler(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> disabledCipherSuites, List<String> enabledCipherSuites) throws Exception {
         //Do your magic!!!
         return new ComDayCqReplicationImplTransportBinaryLessTransportHandlerInfo();
     }
 
     @Override
-    public ComDayCqReplicationImplTransportHttpInfo comDayCqReplicationImplTransportHttp(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> disabledCipherSuites, List<String> enabledCipherSuites) throws Exception {
+    public ComDayCqReplicationImplTransportHttpInfo comDayCqReplicationImplTransportHttp(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> disabledCipherSuites, List<String> enabledCipherSuites) throws Exception {
         //Do your magic!!!
         return new ComDayCqReplicationImplTransportHttpInfo();
     }
 
     @Override
-    public ComDayCqReportingImplCacheCacheImplInfo comDayCqReportingImplCacheCacheImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean repcacheEnable, Integer repcacheTtl, Integer repcacheMax) throws Exception {
+    public ComDayCqReportingImplCacheCacheImplInfo comDayCqReportingImplCacheCacheImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean repcacheEnable, Integer repcacheTtl, Integer repcacheMax) throws Exception {
         //Do your magic!!!
         return new ComDayCqReportingImplCacheCacheImplInfo();
     }
 
     @Override
-    public ComDayCqReportingImplConfigServiceImplInfo comDayCqReportingImplConfigServiceImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String repconfTimezone, String repconfLocale, String repconfSnapshots, String repconfRepdir, Integer repconfHourofday, Integer repconfMinofhour, Integer repconfMaxrows, Boolean repconfFakedata, String repconfSnapshotuser, Boolean repconfEnforcesnapshotuser) throws Exception {
+    public ComDayCqReportingImplConfigServiceImplInfo comDayCqReportingImplConfigServiceImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String repconfTimezone, String repconfLocale, String repconfSnapshots, String repconfRepdir, Integer repconfHourofday, Integer repconfMinofhour, Integer repconfMaxrows, Boolean repconfFakedata, String repconfSnapshotuser, Boolean repconfEnforcesnapshotuser) throws Exception {
         //Do your magic!!!
         return new ComDayCqReportingImplConfigServiceImplInfo();
     }
 
     @Override
-    public ComDayCqReportingImplRLogAnalyzerInfo comDayCqReportingImplRLogAnalyzer(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String requestLogOutput) throws Exception {
+    public ComDayCqReportingImplRLogAnalyzerInfo comDayCqReportingImplRLogAnalyzer(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String requestLogOutput) throws Exception {
         //Do your magic!!!
         return new ComDayCqReportingImplRLogAnalyzerInfo();
     }
 
     @Override
-    public ComDayCqRewriterLinkcheckerImplLinkCheckerImplInfo comDayCqRewriterLinkcheckerImplLinkCheckerImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer schedulerPeriod, Boolean schedulerConcurrent, Integer serviceBadLinkToleranceInterval, List<String> serviceCheckOverridePatterns, Boolean serviceCacheBrokenInternalLinks, List<String> serviceSpecialLinkPrefix, List<String> serviceSpecialLinkPatterns) throws Exception {
+    public ComDayCqRewriterLinkcheckerImplLinkCheckerImplInfo comDayCqRewriterLinkcheckerImplLinkCheckerImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer schedulerPeriod, Boolean schedulerConcurrent, Integer serviceBadLinkToleranceInterval, List<String> serviceCheckOverridePatterns, Boolean serviceCacheBrokenInternalLinks, List<String> serviceSpecialLinkPrefix, List<String> serviceSpecialLinkPatterns) throws Exception {
         //Do your magic!!!
         return new ComDayCqRewriterLinkcheckerImplLinkCheckerImplInfo();
     }
 
     @Override
-    public ComDayCqRewriterLinkcheckerImplLinkCheckerTaskInfo comDayCqRewriterLinkcheckerImplLinkCheckerTask(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer schedulerPeriod, Boolean schedulerConcurrent, Integer goodLinkTestInterval, Integer badLinkTestInterval, Integer linkUnusedInterval, Integer connectionTimeout) throws Exception {
+    public ComDayCqRewriterLinkcheckerImplLinkCheckerTaskInfo comDayCqRewriterLinkcheckerImplLinkCheckerTask(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer schedulerPeriod, Boolean schedulerConcurrent, Integer goodLinkTestInterval, Integer badLinkTestInterval, Integer linkUnusedInterval, Integer connectionTimeout) throws Exception {
         //Do your magic!!!
         return new ComDayCqRewriterLinkcheckerImplLinkCheckerTaskInfo();
     }
 
     @Override
-    public ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryInfo comDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactory(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean linkcheckertransformerDisableRewriting, Boolean linkcheckertransformerDisableChecking, Integer linkcheckertransformerMapCacheSize, Boolean linkcheckertransformerStrictExtensionCheck, Boolean linkcheckertransformerStripHtmltExtension, List<String> linkcheckertransformerRewriteElements, List<String> linkcheckertransformerStripExtensionPathBlacklist) throws Exception {
+    public ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryInfo comDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactory(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean linkcheckertransformerDisableRewriting, Boolean linkcheckertransformerDisableChecking, Integer linkcheckertransformerMapCacheSize, Boolean linkcheckertransformerStrictExtensionCheck, Boolean linkcheckertransformerStripHtmltExtension, List<String> linkcheckertransformerRewriteElements, List<String> linkcheckertransformerStripExtensionPathBlacklist) throws Exception {
         //Do your magic!!!
         return new ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryInfo();
     }
 
     @Override
-    public ComDayCqRewriterLinkcheckerImplLinkInfoStorageImplInfo comDayCqRewriterLinkcheckerImplLinkInfoStorageImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer serviceMaxLinksPerHost, Boolean serviceSaveExternalLinkReferences) throws Exception {
+    public ComDayCqRewriterLinkcheckerImplLinkInfoStorageImplInfo comDayCqRewriterLinkcheckerImplLinkInfoStorageImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer serviceMaxLinksPerHost, Boolean serviceSaveExternalLinkReferences) throws Exception {
         //Do your magic!!!
         return new ComDayCqRewriterLinkcheckerImplLinkInfoStorageImplInfo();
     }
 
     @Override
-    public ComDayCqRewriterProcessorImplHtmlParserFactoryInfo comDayCqRewriterProcessorImplHtmlParserFactory(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> htmlparserProcessTags, Boolean htmlparserPreserveCamelCase) throws Exception {
+    public ComDayCqRewriterProcessorImplHtmlParserFactoryInfo comDayCqRewriterProcessorImplHtmlParserFactory(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> htmlparserProcessTags, Boolean htmlparserPreserveCamelCase) throws Exception {
         //Do your magic!!!
         return new ComDayCqRewriterProcessorImplHtmlParserFactoryInfo();
     }
 
     @Override
-    public ComDayCqSearchImplBuilderQueryBuilderImplInfo comDayCqSearchImplBuilderQueryBuilderImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> excerptProperties, Integer cacheMaxEntries, Integer cacheEntryLifetime, Boolean xpathUnion) throws Exception {
+    public ComDayCqSearchImplBuilderQueryBuilderImplInfo comDayCqSearchImplBuilderQueryBuilderImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> excerptProperties, Integer cacheMaxEntries, Integer cacheEntryLifetime, Boolean xpathUnion) throws Exception {
         //Do your magic!!!
         return new ComDayCqSearchImplBuilderQueryBuilderImplInfo();
     }
 
     @Override
-    public ComDayCqSearchSuggestImplSuggestionIndexManagerImplInfo comDayCqSearchSuggestImplSuggestionIndexManagerImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String pathBuilderTarget, String suggestBasepath) throws Exception {
+    public ComDayCqSearchSuggestImplSuggestionIndexManagerImplInfo comDayCqSearchSuggestImplSuggestionIndexManagerImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String pathBuilderTarget, String suggestBasepath) throws Exception {
         //Do your magic!!!
         return new ComDayCqSearchSuggestImplSuggestionIndexManagerImplInfo();
     }
 
     @Override
-    public ComDayCqSearchpromoteImplPublishSearchPromoteConfigHandlerInfo comDayCqSearchpromoteImplPublishSearchPromoteConfigHandler(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean cqSearchpromoteConfighandlerEnabled) throws Exception {
+    public ComDayCqSearchpromoteImplPublishSearchPromoteConfigHandlerInfo comDayCqSearchpromoteImplPublishSearchPromoteConfigHandler(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean cqSearchpromoteConfighandlerEnabled) throws Exception {
         //Do your magic!!!
         return new ComDayCqSearchpromoteImplPublishSearchPromoteConfigHandlerInfo();
     }
 
     @Override
-    public ComDayCqSearchpromoteImplSearchPromoteServiceImplInfo comDayCqSearchpromoteImplSearchPromoteServiceImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String cqSearchpromoteConfigurationServerUri, String cqSearchpromoteConfigurationEnvironment, Integer connectionTimeout, Integer socketTimeout) throws Exception {
+    public ComDayCqSearchpromoteImplSearchPromoteServiceImplInfo comDayCqSearchpromoteImplSearchPromoteServiceImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String cqSearchpromoteConfigurationServerUri, String cqSearchpromoteConfigurationEnvironment, Integer connectionTimeout, Integer socketTimeout) throws Exception {
         //Do your magic!!!
         return new ComDayCqSearchpromoteImplSearchPromoteServiceImplInfo();
     }
 
     @Override
-    public ComDayCqSecurityACLSetupInfo comDayCqSecurityACLSetup(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> cqAclsetupRules) throws Exception {
+    public ComDayCqSecurityACLSetupInfo comDayCqSecurityACLSetup(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> cqAclsetupRules) throws Exception {
         //Do your magic!!!
         return new ComDayCqSecurityACLSetupInfo();
     }
 
     @Override
-    public ComDayCqStatisticsImplStatisticsServiceImplInfo comDayCqStatisticsImplStatisticsServiceImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer schedulerPeriod, Boolean schedulerConcurrent, String path, String workspace, String keywordsPath, Boolean asyncEntries) throws Exception {
+    public ComDayCqStatisticsImplStatisticsServiceImplInfo comDayCqStatisticsImplStatisticsServiceImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer schedulerPeriod, Boolean schedulerConcurrent, String path, String workspace, String keywordsPath, Boolean asyncEntries) throws Exception {
         //Do your magic!!!
         return new ComDayCqStatisticsImplStatisticsServiceImplInfo();
     }
 
     @Override
-    public ComDayCqTaggingImplJcrTagManagerFactoryImplInfo comDayCqTaggingImplJcrTagManagerFactoryImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean validationEnabled) throws Exception {
+    public ComDayCqTaggingImplJcrTagManagerFactoryImplInfo comDayCqTaggingImplJcrTagManagerFactoryImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean validationEnabled) throws Exception {
         //Do your magic!!!
         return new ComDayCqTaggingImplJcrTagManagerFactoryImplInfo();
     }
 
     @Override
-    public ComDayCqTaggingImplSearchTagPredicateEvaluatorInfo comDayCqTaggingImplSearchTagPredicateEvaluator(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean ignorePath) throws Exception {
+    public ComDayCqTaggingImplSearchTagPredicateEvaluatorInfo comDayCqTaggingImplSearchTagPredicateEvaluator(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean ignorePath) throws Exception {
         //Do your magic!!!
         return new ComDayCqTaggingImplSearchTagPredicateEvaluatorInfo();
     }
 
     @Override
-    public ComDayCqTaggingImplTagGarbageCollectorInfo comDayCqTaggingImplTagGarbageCollector(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String schedulerExpression) throws Exception {
+    public ComDayCqTaggingImplTagGarbageCollectorInfo comDayCqTaggingImplTagGarbageCollector(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String schedulerExpression) throws Exception {
         //Do your magic!!!
         return new ComDayCqTaggingImplTagGarbageCollectorInfo();
     }
 
     @Override
-    public ComDayCqWcmContentsyncImplHandlerPagesUpdateHandlerInfo comDayCqWcmContentsyncImplHandlerPagesUpdateHandler(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> cqPagesupdatehandlerImageresourcetypes) throws Exception {
+    public ComDayCqWcmContentsyncImplHandlerPagesUpdateHandlerInfo comDayCqWcmContentsyncImplHandlerPagesUpdateHandler(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> cqPagesupdatehandlerImageresourcetypes) throws Exception {
         //Do your magic!!!
         return new ComDayCqWcmContentsyncImplHandlerPagesUpdateHandlerInfo();
     }
 
     @Override
-    public ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorInfo comDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactor(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> cqContentsyncPathrewritertransformerMappingLinks, List<String> cqContentsyncPathrewritertransformerMappingClientlibs, List<String> cqContentsyncPathrewritertransformerMappingImages, String cqContentsyncPathrewritertransformerAttributePattern, String cqContentsyncPathrewritertransformerClientlibraryPattern, String cqContentsyncPathrewritertransformerClientlibraryReplace) throws Exception {
+    public ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorInfo comDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactor(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> cqContentsyncPathrewritertransformerMappingLinks, List<String> cqContentsyncPathrewritertransformerMappingClientlibs, List<String> cqContentsyncPathrewritertransformerMappingImages, String cqContentsyncPathrewritertransformerAttributePattern, String cqContentsyncPathrewritertransformerClientlibraryPattern, String cqContentsyncPathrewritertransformerClientlibraryReplace) throws Exception {
         //Do your magic!!!
         return new ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorInfo();
     }
 
     @Override
-    public ComDayCqWcmCoreImplAuthoringUIModeServiceImplInfo comDayCqWcmCoreImplAuthoringUIModeServiceImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String authoringUIModeServiceDefault) throws Exception {
+    public ComDayCqWcmCoreImplAuthoringUIModeServiceImplInfo comDayCqWcmCoreImplAuthoringUIModeServiceImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String authoringUIModeServiceDefault) throws Exception {
         //Do your magic!!!
         return new ComDayCqWcmCoreImplAuthoringUIModeServiceImplInfo();
     }
 
     @Override
-    public ComDayCqWcmCoreImplCommandsWCMCommandServletInfo comDayCqWcmCoreImplCommandsWCMCommandServlet(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> wcmcommandservletDeleteWhitelist) throws Exception {
+    public ComDayCqWcmCoreImplCommandsWCMCommandServletInfo comDayCqWcmCoreImplCommandsWCMCommandServlet(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> wcmcommandservletDeleteWhitelist) throws Exception {
         //Do your magic!!!
         return new ComDayCqWcmCoreImplCommandsWCMCommandServletInfo();
     }
 
     @Override
-    public ComDayCqWcmCoreImplDevicedetectionDeviceIdentificationModeImplInfo comDayCqWcmCoreImplDevicedetectionDeviceIdentificationModeImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String dimDefaultMode, Boolean dimAppcacheEnabled) throws Exception {
+    public ComDayCqWcmCoreImplDevicedetectionDeviceIdentificationModeImplInfo comDayCqWcmCoreImplDevicedetectionDeviceIdentificationModeImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String dimDefaultMode, Boolean dimAppcacheEnabled) throws Exception {
         //Do your magic!!!
         return new ComDayCqWcmCoreImplDevicedetectionDeviceIdentificationModeImplInfo();
     }
 
     @Override
-    public ComDayCqWcmCoreImplEventPageEventAuditListenerInfo comDayCqWcmCoreImplEventPageEventAuditListener(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String configured) throws Exception {
+    public ComDayCqWcmCoreImplEventPageEventAuditListenerInfo comDayCqWcmCoreImplEventPageEventAuditListener(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String configured) throws Exception {
         //Do your magic!!!
         return new ComDayCqWcmCoreImplEventPageEventAuditListenerInfo();
     }
 
     @Override
-    public ComDayCqWcmCoreImplEventPagePostProcessorInfo comDayCqWcmCoreImplEventPagePostProcessor(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> paths) throws Exception {
+    public ComDayCqWcmCoreImplEventPagePostProcessorInfo comDayCqWcmCoreImplEventPagePostProcessor(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> paths) throws Exception {
         //Do your magic!!!
         return new ComDayCqWcmCoreImplEventPagePostProcessorInfo();
     }
 
     @Override
-    public ComDayCqWcmCoreImplEventRepositoryChangeEventListenerInfo comDayCqWcmCoreImplEventRepositoryChangeEventListener(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> paths, List<String> excludedPaths) throws Exception {
+    public ComDayCqWcmCoreImplEventRepositoryChangeEventListenerInfo comDayCqWcmCoreImplEventRepositoryChangeEventListener(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> paths, List<String> excludedPaths) throws Exception {
         //Do your magic!!!
         return new ComDayCqWcmCoreImplEventRepositoryChangeEventListenerInfo();
     }
 
     @Override
-    public ComDayCqWcmCoreImplEventTemplatePostProcessorInfo comDayCqWcmCoreImplEventTemplatePostProcessor(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String paths) throws Exception {
+    public ComDayCqWcmCoreImplEventTemplatePostProcessorInfo comDayCqWcmCoreImplEventTemplatePostProcessor(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String paths) throws Exception {
         //Do your magic!!!
         return new ComDayCqWcmCoreImplEventTemplatePostProcessorInfo();
     }
 
     @Override
-    public ComDayCqWcmCoreImplLanguageManagerImplInfo comDayCqWcmCoreImplLanguageManagerImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String langmgrListPath, List<String> langmgrCountryDefault) throws Exception {
+    public ComDayCqWcmCoreImplLanguageManagerImplInfo comDayCqWcmCoreImplLanguageManagerImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String langmgrListPath, List<String> langmgrCountryDefault) throws Exception {
         //Do your magic!!!
         return new ComDayCqWcmCoreImplLanguageManagerImplInfo();
     }
 
     @Override
-    public ComDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplInfo comDayCqWcmCoreImplLinkCheckerConfigurationFactoryImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String linkExpiredPrefix, Boolean linkExpiredRemove, String linkExpiredSuffix, String linkInvalidPrefix, Boolean linkInvalidRemove, String linkInvalidSuffix, String linkPredatedPrefix, Boolean linkPredatedRemove, String linkPredatedSuffix, List<String> linkWcmmodes) throws Exception {
+    public ComDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplInfo comDayCqWcmCoreImplLinkCheckerConfigurationFactoryImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String linkExpiredPrefix, Boolean linkExpiredRemove, String linkExpiredSuffix, String linkInvalidPrefix, Boolean linkInvalidRemove, String linkInvalidSuffix, String linkPredatedPrefix, Boolean linkPredatedRemove, String linkPredatedSuffix, List<String> linkWcmmodes) throws Exception {
         //Do your magic!!!
         return new ComDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplInfo();
     }
 
     @Override
-    public ComDayCqWcmCoreImplPagePageInfoAggregatorImplInfo comDayCqWcmCoreImplPagePageInfoAggregatorImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String pageInfoProviderPropertyRegexDefault, String pageInfoProviderPropertyName) throws Exception {
+    public ComDayCqWcmCoreImplPagePageInfoAggregatorImplInfo comDayCqWcmCoreImplPagePageInfoAggregatorImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String pageInfoProviderPropertyRegexDefault, String pageInfoProviderPropertyName) throws Exception {
         //Do your magic!!!
         return new ComDayCqWcmCoreImplPagePageInfoAggregatorImplInfo();
     }
 
     @Override
-    public ComDayCqWcmCoreImplPagePageManagerFactoryImplInfo comDayCqWcmCoreImplPagePageManagerFactoryImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String illegalCharMapping, Boolean pageSubTreeActivationCheck) throws Exception {
+    public ComDayCqWcmCoreImplPagePageManagerFactoryImplInfo comDayCqWcmCoreImplPagePageManagerFactoryImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String illegalCharMapping, Boolean pageSubTreeActivationCheck) throws Exception {
         //Do your magic!!!
         return new ComDayCqWcmCoreImplPagePageManagerFactoryImplInfo();
     }
 
     @Override
-    public ComDayCqWcmCoreImplReferencesContentContentReferenceConfigInfo comDayCqWcmCoreImplReferencesContentContentReferenceConfig(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> contentReferenceConfigResourceTypes) throws Exception {
+    public ComDayCqWcmCoreImplReferencesContentContentReferenceConfigInfo comDayCqWcmCoreImplReferencesContentContentReferenceConfig(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> contentReferenceConfigResourceTypes) throws Exception {
         //Do your magic!!!
         return new ComDayCqWcmCoreImplReferencesContentContentReferenceConfigInfo();
     }
 
     @Override
-    public ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerInfo comDayCqWcmCoreImplServletsContentfinderAssetViewHandler(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean damShowexpired, Boolean damShowhidden, Boolean tagTitleSearch, String guessTotal, String damExpiryProperty) throws Exception {
+    public ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerInfo comDayCqWcmCoreImplServletsContentfinderAssetViewHandler(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean damShowexpired, Boolean damShowhidden, Boolean tagTitleSearch, String guessTotal, String damExpiryProperty) throws Exception {
         //Do your magic!!!
         return new ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerInfo();
     }
 
     @Override
-    public ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorVieInfo comDayCqWcmCoreImplServletsContentfinderConnectorConnectorVie(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> itemResourceTypes) throws Exception {
+    public ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorVieInfo comDayCqWcmCoreImplServletsContentfinderConnectorConnectorVie(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> itemResourceTypes) throws Exception {
         //Do your magic!!!
         return new ComDayCqWcmCoreImplServletsContentfinderConnectorConnectorVieInfo();
     }
 
     @Override
-    public ComDayCqWcmCoreImplServletsContentfinderPageViewHandlerInfo comDayCqWcmCoreImplServletsContentfinderPageViewHandler(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String guessTotal, Boolean tagTitleSearch) throws Exception {
+    public ComDayCqWcmCoreImplServletsContentfinderPageViewHandlerInfo comDayCqWcmCoreImplServletsContentfinderPageViewHandler(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String guessTotal, Boolean tagTitleSearch) throws Exception {
         //Do your magic!!!
         return new ComDayCqWcmCoreImplServletsContentfinderPageViewHandlerInfo();
     }
 
     @Override
-    public ComDayCqWcmCoreImplServletsFindReplaceServletInfo comDayCqWcmCoreImplServletsFindReplaceServlet(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> scope) throws Exception {
+    public ComDayCqWcmCoreImplServletsFindReplaceServletInfo comDayCqWcmCoreImplServletsFindReplaceServlet(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> scope) throws Exception {
         //Do your magic!!!
         return new ComDayCqWcmCoreImplServletsFindReplaceServletInfo();
     }
 
     @Override
-    public ComDayCqWcmCoreImplServletsReferenceSearchServletInfo comDayCqWcmCoreImplServletsReferenceSearchServlet(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer referencesearchservletMaxReferencesPerPage, Integer referencesearchservletMaxPages) throws Exception {
+    public ComDayCqWcmCoreImplServletsReferenceSearchServletInfo comDayCqWcmCoreImplServletsReferenceSearchServlet(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer referencesearchservletMaxReferencesPerPage, Integer referencesearchservletMaxPages) throws Exception {
         //Do your magic!!!
         return new ComDayCqWcmCoreImplServletsReferenceSearchServletInfo();
     }
 
     @Override
-    public ComDayCqWcmCoreImplServletsThumbnailServletInfo comDayCqWcmCoreImplServletsThumbnailServlet(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String workspace, List<String> dimensions) throws Exception {
+    public ComDayCqWcmCoreImplServletsThumbnailServletInfo comDayCqWcmCoreImplServletsThumbnailServlet(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String workspace, List<String> dimensions) throws Exception {
         //Do your magic!!!
         return new ComDayCqWcmCoreImplServletsThumbnailServletInfo();
     }
 
     @Override
-    public ComDayCqWcmCoreImplUtilsDefaultPageNameValidatorInfo comDayCqWcmCoreImplUtilsDefaultPageNameValidator(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String nonValidChars) throws Exception {
+    public ComDayCqWcmCoreImplUtilsDefaultPageNameValidatorInfo comDayCqWcmCoreImplUtilsDefaultPageNameValidator(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String nonValidChars) throws Exception {
         //Do your magic!!!
         return new ComDayCqWcmCoreImplUtilsDefaultPageNameValidatorInfo();
     }
 
     @Override
-    public ComDayCqWcmCoreImplVariantsPageVariantsProviderImplInfo comDayCqWcmCoreImplVariantsPageVariantsProviderImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String defaultExternalizerDomain) throws Exception {
+    public ComDayCqWcmCoreImplVariantsPageVariantsProviderImplInfo comDayCqWcmCoreImplVariantsPageVariantsProviderImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String defaultExternalizerDomain) throws Exception {
         //Do your magic!!!
         return new ComDayCqWcmCoreImplVariantsPageVariantsProviderImplInfo();
     }
 
     @Override
-    public ComDayCqWcmCoreImplVersionManagerImplInfo comDayCqWcmCoreImplVersionManagerImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean versionmanagerCreateVersionOnActivation, Boolean versionmanagerPurgingEnabled, List<String> versionmanagerPurgePaths, List<String> versionmanagerIvPaths, Integer versionmanagerMaxAgeDays, Integer versionmanagerMaxNumberVersions, Integer versionmanagerMinNumberVersions) throws Exception {
+    public ComDayCqWcmCoreImplVersionManagerImplInfo comDayCqWcmCoreImplVersionManagerImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean versionmanagerCreateVersionOnActivation, Boolean versionmanagerPurgingEnabled, List<String> versionmanagerPurgePaths, List<String> versionmanagerIvPaths, Integer versionmanagerMaxAgeDays, Integer versionmanagerMaxNumberVersions, Integer versionmanagerMinNumberVersions) throws Exception {
         //Do your magic!!!
         return new ComDayCqWcmCoreImplVersionManagerImplInfo();
     }
 
     @Override
-    public ComDayCqWcmCoreImplVersionPurgeTaskInfo comDayCqWcmCoreImplVersionPurgeTask(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> versionpurgePaths, Boolean versionpurgeRecursive, Integer versionpurgeMaxVersions, Integer versionpurgeMinVersions, Integer versionpurgeMaxAgeDays) throws Exception {
+    public ComDayCqWcmCoreImplVersionPurgeTaskInfo comDayCqWcmCoreImplVersionPurgeTask(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> versionpurgePaths, Boolean versionpurgeRecursive, Integer versionpurgeMaxVersions, Integer versionpurgeMinVersions, Integer versionpurgeMaxAgeDays) throws Exception {
         //Do your magic!!!
         return new ComDayCqWcmCoreImplVersionPurgeTaskInfo();
     }
 
     @Override
-    public ComDayCqWcmCoreImplWCMDebugFilterInfo comDayCqWcmCoreImplWCMDebugFilter(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean wcmdbgfilterEnabled, Boolean wcmdbgfilterJspDebug) throws Exception {
+    public ComDayCqWcmCoreImplWCMDebugFilterInfo comDayCqWcmCoreImplWCMDebugFilter(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean wcmdbgfilterEnabled, Boolean wcmdbgfilterJspDebug) throws Exception {
         //Do your magic!!!
         return new ComDayCqWcmCoreImplWCMDebugFilterInfo();
     }
 
     @Override
-    public ComDayCqWcmCoreImplWCMDeveloperModeFilterInfo comDayCqWcmCoreImplWCMDeveloperModeFilter(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean wcmdevmodefilterEnabled) throws Exception {
+    public ComDayCqWcmCoreImplWCMDeveloperModeFilterInfo comDayCqWcmCoreImplWCMDeveloperModeFilter(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean wcmdevmodefilterEnabled) throws Exception {
         //Do your magic!!!
         return new ComDayCqWcmCoreImplWCMDeveloperModeFilterInfo();
     }
 
     @Override
-    public ComDayCqWcmCoreImplWarpTimeWarpFilterInfo comDayCqWcmCoreImplWarpTimeWarpFilter(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String filterOrder, String filterScope) throws Exception {
+    public ComDayCqWcmCoreImplWarpTimeWarpFilterInfo comDayCqWcmCoreImplWarpTimeWarpFilter(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String filterOrder, String filterScope) throws Exception {
         //Do your magic!!!
         return new ComDayCqWcmCoreImplWarpTimeWarpFilterInfo();
     }
 
     @Override
-    public ComDayCqWcmCoreMvtMVTStatisticsImplInfo comDayCqWcmCoreMvtMVTStatisticsImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String mvtstatisticsTrackingurl) throws Exception {
+    public ComDayCqWcmCoreMvtMVTStatisticsImplInfo comDayCqWcmCoreMvtMVTStatisticsImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String mvtstatisticsTrackingurl) throws Exception {
         //Do your magic!!!
         return new ComDayCqWcmCoreMvtMVTStatisticsImplInfo();
     }
 
     @Override
-    public ComDayCqWcmCoreStatsPageViewStatisticsImplInfo comDayCqWcmCoreStatsPageViewStatisticsImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String pageviewstatisticsTrackingurl, String pageviewstatisticsTrackingscriptEnabled) throws Exception {
+    public ComDayCqWcmCoreStatsPageViewStatisticsImplInfo comDayCqWcmCoreStatsPageViewStatisticsImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String pageviewstatisticsTrackingurl, String pageviewstatisticsTrackingscriptEnabled) throws Exception {
         //Do your magic!!!
         return new ComDayCqWcmCoreStatsPageViewStatisticsImplInfo();
     }
 
     @Override
-    public ComDayCqWcmCoreWCMRequestFilterInfo comDayCqWcmCoreWCMRequestFilter(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String wcmfilterMode) throws Exception {
+    public ComDayCqWcmCoreWCMRequestFilterInfo comDayCqWcmCoreWCMRequestFilter(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String wcmfilterMode) throws Exception {
         //Do your magic!!!
         return new ComDayCqWcmCoreWCMRequestFilterInfo();
     }
 
     @Override
-    public ComDayCqWcmDesignimporterDesignPackageImporterInfo comDayCqWcmDesignimporterDesignPackageImporter(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> extractFilter) throws Exception {
+    public ComDayCqWcmDesignimporterDesignPackageImporterInfo comDayCqWcmDesignimporterDesignPackageImporter(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> extractFilter) throws Exception {
         //Do your magic!!!
         return new ComDayCqWcmDesignimporterDesignPackageImporterInfo();
     }
 
     @Override
-    public ComDayCqWcmDesignimporterImplCanvasBuilderImplInfo comDayCqWcmDesignimporterImplCanvasBuilderImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String filepattern, Boolean buildPageNodes, Boolean buildClientLibs, Boolean buildCanvasComponent) throws Exception {
+    public ComDayCqWcmDesignimporterImplCanvasBuilderImplInfo comDayCqWcmDesignimporterImplCanvasBuilderImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String filepattern, Boolean buildPageNodes, Boolean buildClientLibs, Boolean buildCanvasComponent) throws Exception {
         //Do your magic!!!
         return new ComDayCqWcmDesignimporterImplCanvasBuilderImplInfo();
     }
 
     @Override
-    public ComDayCqWcmDesignimporterImplCanvasPageDeleteHandlerInfo comDayCqWcmDesignimporterImplCanvasPageDeleteHandler(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer minThreadPoolSize, Integer maxThreadPoolSize) throws Exception {
+    public ComDayCqWcmDesignimporterImplCanvasPageDeleteHandlerInfo comDayCqWcmDesignimporterImplCanvasPageDeleteHandler(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer minThreadPoolSize, Integer maxThreadPoolSize) throws Exception {
         //Do your magic!!!
         return new ComDayCqWcmDesignimporterImplCanvasPageDeleteHandlerInfo();
     }
 
     @Override
-    public ComDayCqWcmDesignimporterImplEntryPreprocessorImplInfo comDayCqWcmDesignimporterImplEntryPreprocessorImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String searchPattern, String replacePattern) throws Exception {
+    public ComDayCqWcmDesignimporterImplEntryPreprocessorImplInfo comDayCqWcmDesignimporterImplEntryPreprocessorImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String searchPattern, String replacePattern) throws Exception {
         //Do your magic!!!
         return new ComDayCqWcmDesignimporterImplEntryPreprocessorImplInfo();
     }
 
     @Override
-    public ComDayCqWcmDesignimporterImplMobileCanvasBuilderImplInfo comDayCqWcmDesignimporterImplMobileCanvasBuilderImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String filepattern, List<String> deviceGroups, Boolean buildPageNodes, Boolean buildClientLibs, Boolean buildCanvasComponent) throws Exception {
+    public ComDayCqWcmDesignimporterImplMobileCanvasBuilderImplInfo comDayCqWcmDesignimporterImplMobileCanvasBuilderImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String filepattern, List<String> deviceGroups, Boolean buildPageNodes, Boolean buildClientLibs, Boolean buildCanvasComponent) throws Exception {
         //Do your magic!!!
         return new ComDayCqWcmDesignimporterImplMobileCanvasBuilderImplInfo();
     }
 
     @Override
-    public ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeInfo comDayCqWcmDesignimporterParserTaghandlersFactoryCanvasCompone(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer serviceRanking, String tagpattern) throws Exception {
+    public ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeInfo comDayCqWcmDesignimporterParserTaghandlersFactoryCanvasCompone(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer serviceRanking, String tagpattern) throws Exception {
         //Do your magic!!!
         return new ComDayCqWcmDesignimporterParserTaghandlersFactoryCanvasComponeInfo();
     }
 
     @Override
-    public ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultComponInfo comDayCqWcmDesignimporterParserTaghandlersFactoryDefaultCompon(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer serviceRanking, String tagpattern) throws Exception {
+    public ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultComponInfo comDayCqWcmDesignimporterParserTaghandlersFactoryDefaultCompon(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer serviceRanking, String tagpattern) throws Exception {
         //Do your magic!!!
         return new ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultComponInfo();
     }
 
     @Override
-    public ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHanInfo comDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHan(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer serviceRanking, String tagpattern) throws Exception {
+    public ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHanInfo comDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHan(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer serviceRanking, String tagpattern) throws Exception {
         //Do your magic!!!
         return new ComDayCqWcmDesignimporterParserTaghandlersFactoryDefaultTagHanInfo();
     }
 
     @Override
-    public ComDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandleInfo comDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandle(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer serviceRanking, String tagpattern) throws Exception {
+    public ComDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandleInfo comDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandle(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer serviceRanking, String tagpattern) throws Exception {
         //Do your magic!!!
         return new ComDayCqWcmDesignimporterParserTaghandlersFactoryHeadTagHandleInfo();
     }
 
     @Override
-    public ComDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHandInfo comDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHand(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer serviceRanking, String tagpattern) throws Exception {
+    public ComDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHandInfo comDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHand(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer serviceRanking, String tagpattern) throws Exception {
         //Do your magic!!!
         return new ComDayCqWcmDesignimporterParserTaghandlersFactoryIFrameTagHandInfo();
     }
 
     @Override
-    public ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponenInfo comDayCqWcmDesignimporterParserTaghandlersFactoryImageComponen(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer serviceRanking, String tagpattern, String componentResourceType) throws Exception {
+    public ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponenInfo comDayCqWcmDesignimporterParserTaghandlersFactoryImageComponen(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer serviceRanking, String tagpattern, String componentResourceType) throws Exception {
         //Do your magic!!!
         return new ComDayCqWcmDesignimporterParserTaghandlersFactoryImageComponenInfo();
     }
 
     @Override
-    public ComDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandlerInfo comDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandler(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer serviceRanking, String tagpattern) throws Exception {
+    public ComDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandlerInfo comDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandler(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer serviceRanking, String tagpattern) throws Exception {
         //Do your magic!!!
         return new ComDayCqWcmDesignimporterParserTaghandlersFactoryImgTagHandlerInfo();
     }
 
     @Override
-    public ComDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTInfo comDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptT(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer serviceRanking, String tagpattern) throws Exception {
+    public ComDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTInfo comDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptT(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer serviceRanking, String tagpattern) throws Exception {
         //Do your magic!!!
         return new ComDayCqWcmDesignimporterParserTaghandlersFactoryInlineScriptTInfo();
     }
 
     @Override
-    public ComDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandleInfo comDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandle(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer serviceRanking, String tagpattern) throws Exception {
+    public ComDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandleInfo comDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandle(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer serviceRanking, String tagpattern) throws Exception {
         //Do your magic!!!
         return new ComDayCqWcmDesignimporterParserTaghandlersFactoryLinkTagHandleInfo();
     }
 
     @Override
-    public ComDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandleInfo comDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandle(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer serviceRanking, String tagpattern) throws Exception {
+    public ComDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandleInfo comDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandle(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer serviceRanking, String tagpattern) throws Exception {
         //Do your magic!!!
         return new ComDayCqWcmDesignimporterParserTaghandlersFactoryMetaTagHandleInfo();
     }
 
     @Override
-    public ComDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagHInfo comDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagH(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer serviceRanking, String tagpattern) throws Exception {
+    public ComDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagHInfo comDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagH(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer serviceRanking, String tagpattern) throws Exception {
         //Do your magic!!!
         return new ComDayCqWcmDesignimporterParserTaghandlersFactoryNonScriptTagHInfo();
     }
 
     @Override
-    public ComDayCqWcmDesignimporterParserTaghandlersFactoryParsysComponeInfo comDayCqWcmDesignimporterParserTaghandlersFactoryParsysCompone(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer serviceRanking, String tagpattern, String componentResourceType) throws Exception {
+    public ComDayCqWcmDesignimporterParserTaghandlersFactoryParsysComponeInfo comDayCqWcmDesignimporterParserTaghandlersFactoryParsysCompone(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer serviceRanking, String tagpattern, String componentResourceType) throws Exception {
         //Do your magic!!!
         return new ComDayCqWcmDesignimporterParserTaghandlersFactoryParsysComponeInfo();
     }
 
     @Override
-    public ComDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandInfo comDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHand(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer serviceRanking, String tagpattern) throws Exception {
+    public ComDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandInfo comDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHand(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer serviceRanking, String tagpattern) throws Exception {
         //Do your magic!!!
         return new ComDayCqWcmDesignimporterParserTaghandlersFactoryScriptTagHandInfo();
     }
 
     @Override
-    public ComDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlInfo comDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer serviceRanking, String tagpattern) throws Exception {
+    public ComDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlInfo comDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer serviceRanking, String tagpattern) throws Exception {
         //Do your magic!!!
         return new ComDayCqWcmDesignimporterParserTaghandlersFactoryStyleTagHandlInfo();
     }
 
     @Override
-    public ComDayCqWcmDesignimporterParserTaghandlersFactoryTextComponentInfo comDayCqWcmDesignimporterParserTaghandlersFactoryTextComponent(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer serviceRanking, String tagpattern, String componentResourceType) throws Exception {
+    public ComDayCqWcmDesignimporterParserTaghandlersFactoryTextComponentInfo comDayCqWcmDesignimporterParserTaghandlersFactoryTextComponent(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer serviceRanking, String tagpattern, String componentResourceType) throws Exception {
         //Do your magic!!!
         return new ComDayCqWcmDesignimporterParserTaghandlersFactoryTextComponentInfo();
     }
 
     @Override
-    public ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponenInfo comDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponen(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer serviceRanking, String tagpattern, String componentResourceType) throws Exception {
+    public ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponenInfo comDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponen(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer serviceRanking, String tagpattern, String componentResourceType) throws Exception {
         //Do your magic!!!
         return new ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleComponenInfo();
     }
 
     @Override
-    public ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandlInfo comDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer serviceRanking, String tagpattern) throws Exception {
+    public ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandlInfo comDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer serviceRanking, String tagpattern) throws Exception {
         //Do your magic!!!
         return new ComDayCqWcmDesignimporterParserTaghandlersFactoryTitleTagHandlInfo();
     }
 
     @Override
-    public ComDayCqWcmFoundationFormsImplFormChooserServletInfo comDayCqWcmFoundationFormsImplFormChooserServlet(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String serviceName, String slingServletResourceTypes, String slingServletSelectors, List<String> slingServletMethods, Boolean formsFormchooserservletAdvansesearchRequire) throws Exception {
+    public ComDayCqWcmFoundationFormsImplFormChooserServletInfo comDayCqWcmFoundationFormsImplFormChooserServlet(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String serviceName, String slingServletResourceTypes, String slingServletSelectors, List<String> slingServletMethods, Boolean formsFormchooserservletAdvansesearchRequire) throws Exception {
         //Do your magic!!!
         return new ComDayCqWcmFoundationFormsImplFormChooserServletInfo();
     }
 
     @Override
-    public ComDayCqWcmFoundationFormsImplFormParagraphPostProcessorInfo comDayCqWcmFoundationFormsImplFormParagraphPostProcessor(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean formsFormparagraphpostprocessorEnabled, List<String> formsFormparagraphpostprocessorFormresourcetypes) throws Exception {
+    public ComDayCqWcmFoundationFormsImplFormParagraphPostProcessorInfo comDayCqWcmFoundationFormsImplFormParagraphPostProcessor(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean formsFormparagraphpostprocessorEnabled, List<String> formsFormparagraphpostprocessorFormresourcetypes) throws Exception {
         //Do your magic!!!
         return new ComDayCqWcmFoundationFormsImplFormParagraphPostProcessorInfo();
     }
 
     @Override
-    public ComDayCqWcmFoundationFormsImplFormsHandlingServletInfo comDayCqWcmFoundationFormsImplFormsHandlingServlet(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String nameWhitelist, Boolean allowExpressions) throws Exception {
+    public ComDayCqWcmFoundationFormsImplFormsHandlingServletInfo comDayCqWcmFoundationFormsImplFormsHandlingServlet(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String nameWhitelist, Boolean allowExpressions) throws Exception {
         //Do your magic!!!
         return new ComDayCqWcmFoundationFormsImplFormsHandlingServletInfo();
     }
 
     @Override
-    public ComDayCqWcmFoundationFormsImplMailServletInfo comDayCqWcmFoundationFormsImplMailServlet(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String slingServletResourceTypes, String slingServletSelectors, List<String> resourceWhitelist, String resourceBlacklist) throws Exception {
+    public ComDayCqWcmFoundationFormsImplMailServletInfo comDayCqWcmFoundationFormsImplMailServlet(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String slingServletResourceTypes, String slingServletSelectors, List<String> resourceWhitelist, String resourceBlacklist) throws Exception {
         //Do your magic!!!
         return new ComDayCqWcmFoundationFormsImplMailServletInfo();
     }
 
     @Override
-    public ComDayCqWcmFoundationImplAdaptiveImageComponentServletInfo comDayCqWcmFoundationImplAdaptiveImageComponentServlet(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> adaptSupportedWidths) throws Exception {
+    public ComDayCqWcmFoundationImplAdaptiveImageComponentServletInfo comDayCqWcmFoundationImplAdaptiveImageComponentServlet(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> adaptSupportedWidths) throws Exception {
         //Do your magic!!!
         return new ComDayCqWcmFoundationImplAdaptiveImageComponentServletInfo();
     }
 
     @Override
-    public ComDayCqWcmFoundationImplHTTPAuthHandlerInfo comDayCqWcmFoundationImplHTTPAuthHandler(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String path, Boolean authHttpNologin, String authHttpRealm, String authDefaultLoginpage, List<String> authCredForm, List<String> authCredUtf8) throws Exception {
+    public ComDayCqWcmFoundationImplHTTPAuthHandlerInfo comDayCqWcmFoundationImplHTTPAuthHandler(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String path, Boolean authHttpNologin, String authHttpRealm, String authDefaultLoginpage, List<String> authCredForm, List<String> authCredUtf8) throws Exception {
         //Do your magic!!!
         return new ComDayCqWcmFoundationImplHTTPAuthHandlerInfo();
     }
 
     @Override
-    public ComDayCqWcmFoundationImplPageImpressionsTrackerInfo comDayCqWcmFoundationImplPageImpressionsTracker(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String slingAuthRequirements) throws Exception {
+    public ComDayCqWcmFoundationImplPageImpressionsTrackerInfo comDayCqWcmFoundationImplPageImpressionsTracker(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String slingAuthRequirements) throws Exception {
         //Do your magic!!!
         return new ComDayCqWcmFoundationImplPageImpressionsTrackerInfo();
     }
 
     @Override
-    public ComDayCqWcmFoundationImplPageRedirectServletInfo comDayCqWcmFoundationImplPageRedirectServlet(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> excludedResourceTypes) throws Exception {
+    public ComDayCqWcmFoundationImplPageRedirectServletInfo comDayCqWcmFoundationImplPageRedirectServlet(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> excludedResourceTypes) throws Exception {
         //Do your magic!!!
         return new ComDayCqWcmFoundationImplPageRedirectServletInfo();
     }
 
     @Override
-    public ComDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistInfo comDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklist(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> defaultAttachmentTypeBlacklist, List<String> baselineAttachmentTypeBlacklist) throws Exception {
+    public ComDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistInfo comDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklist(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> defaultAttachmentTypeBlacklist, List<String> baselineAttachmentTypeBlacklist) throws Exception {
         //Do your magic!!!
         return new ComDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistInfo();
     }
 
     @Override
-    public ComDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplInfo comDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> parameterWhitelist, List<String> parameterWhitelistPrefixes, List<String> binaryParameterWhitelist, List<String> modifierWhitelist, List<String> operationWhitelist, List<String> operationWhitelistPrefixes, List<String> typehintWhitelist, List<String> resourcetypeWhitelist) throws Exception {
+    public ComDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplInfo comDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> parameterWhitelist, List<String> parameterWhitelistPrefixes, List<String> binaryParameterWhitelist, List<String> modifierWhitelist, List<String> operationWhitelist, List<String> operationWhitelistPrefixes, List<String> typehintWhitelist, List<String> resourcetypeWhitelist) throws Exception {
         //Do your magic!!!
         return new ComDayCqWcmFoundationSecurityImplSaferSlingPostValidatorImplInfo();
     }
 
     @Override
-    public ComDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactoryInfo comDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactory(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean deviceInfoTransformerEnabled, String deviceInfoTransformerCssStyle) throws Exception {
+    public ComDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactoryInfo comDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactory(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean deviceInfoTransformerEnabled, String deviceInfoTransformerCssStyle) throws Exception {
         //Do your magic!!!
         return new ComDayCqWcmMobileCoreImplDeviceDeviceInfoTransformerFactoryInfo();
     }
 
     @Override
-    public ComDayCqWcmMobileCoreImplRedirectRedirectFilterInfo comDayCqWcmMobileCoreImplRedirectRedirectFilter(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean redirectEnabled, Boolean redirectStatsEnabled, List<String> redirectExtensions, List<String> redirectPaths) throws Exception {
+    public ComDayCqWcmMobileCoreImplRedirectRedirectFilterInfo comDayCqWcmMobileCoreImplRedirectRedirectFilter(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean redirectEnabled, Boolean redirectStatsEnabled, List<String> redirectExtensions, List<String> redirectPaths) throws Exception {
         //Do your magic!!!
         return new ComDayCqWcmMobileCoreImplRedirectRedirectFilterInfo();
     }
 
     @Override
-    public ComDayCqWcmMsmImplActionsContentCopyActionFactoryInfo comDayCqWcmMsmImplActionsContentCopyActionFactory(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> cqWcmMsmActionExcludednodetypes, List<String> cqWcmMsmActionExcludedparagraphitems, List<String> cqWcmMsmActionExcludedprops, String contentcopyactionOrderStyle) throws Exception {
+    public ComDayCqWcmMsmImplActionsContentCopyActionFactoryInfo comDayCqWcmMsmImplActionsContentCopyActionFactory(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> cqWcmMsmActionExcludednodetypes, List<String> cqWcmMsmActionExcludedparagraphitems, List<String> cqWcmMsmActionExcludedprops, String contentcopyactionOrderStyle) throws Exception {
         //Do your magic!!!
         return new ComDayCqWcmMsmImplActionsContentCopyActionFactoryInfo();
     }
 
     @Override
-    public ComDayCqWcmMsmImplActionsContentDeleteActionFactoryInfo comDayCqWcmMsmImplActionsContentDeleteActionFactory(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> cqWcmMsmActionExcludednodetypes, List<String> cqWcmMsmActionExcludedparagraphitems, List<String> cqWcmMsmActionExcludedprops) throws Exception {
+    public ComDayCqWcmMsmImplActionsContentDeleteActionFactoryInfo comDayCqWcmMsmImplActionsContentDeleteActionFactory(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> cqWcmMsmActionExcludednodetypes, List<String> cqWcmMsmActionExcludedparagraphitems, List<String> cqWcmMsmActionExcludedprops) throws Exception {
         //Do your magic!!!
         return new ComDayCqWcmMsmImplActionsContentDeleteActionFactoryInfo();
     }
 
     @Override
-    public ComDayCqWcmMsmImplActionsContentUpdateActionFactoryInfo comDayCqWcmMsmImplActionsContentUpdateActionFactory(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> cqWcmMsmActionExcludednodetypes, List<String> cqWcmMsmActionExcludedparagraphitems, List<String> cqWcmMsmActionExcludedprops, List<String> cqWcmMsmActionIgnoredMixin) throws Exception {
+    public ComDayCqWcmMsmImplActionsContentUpdateActionFactoryInfo comDayCqWcmMsmImplActionsContentUpdateActionFactory(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> cqWcmMsmActionExcludednodetypes, List<String> cqWcmMsmActionExcludedparagraphitems, List<String> cqWcmMsmActionExcludedprops, List<String> cqWcmMsmActionIgnoredMixin) throws Exception {
         //Do your magic!!!
         return new ComDayCqWcmMsmImplActionsContentUpdateActionFactoryInfo();
     }
 
     @Override
-    public ComDayCqWcmMsmImplActionsOrderChildrenActionFactoryInfo comDayCqWcmMsmImplActionsOrderChildrenActionFactory(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> cqWcmMsmActionExcludednodetypes, List<String> cqWcmMsmActionExcludedparagraphitems, List<String> cqWcmMsmActionExcludedprops) throws Exception {
+    public ComDayCqWcmMsmImplActionsOrderChildrenActionFactoryInfo comDayCqWcmMsmImplActionsOrderChildrenActionFactory(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> cqWcmMsmActionExcludednodetypes, List<String> cqWcmMsmActionExcludedparagraphitems, List<String> cqWcmMsmActionExcludedprops) throws Exception {
         //Do your magic!!!
         return new ComDayCqWcmMsmImplActionsOrderChildrenActionFactoryInfo();
     }
 
     @Override
-    public ComDayCqWcmMsmImplActionsPageMoveActionFactoryInfo comDayCqWcmMsmImplActionsPageMoveActionFactory(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> cqWcmMsmActionExcludednodetypes, List<String> cqWcmMsmActionExcludedparagraphitems, List<String> cqWcmMsmActionExcludedprops, Boolean cqWcmMsmImplActionsPagemovePropReferenceUpdate) throws Exception {
+    public ComDayCqWcmMsmImplActionsPageMoveActionFactoryInfo comDayCqWcmMsmImplActionsPageMoveActionFactory(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> cqWcmMsmActionExcludednodetypes, List<String> cqWcmMsmActionExcludedparagraphitems, List<String> cqWcmMsmActionExcludedprops, Boolean cqWcmMsmImplActionsPagemovePropReferenceUpdate) throws Exception {
         //Do your magic!!!
         return new ComDayCqWcmMsmImplActionsPageMoveActionFactoryInfo();
     }
 
     @Override
-    public ComDayCqWcmMsmImplActionsReferencesUpdateActionFactoryInfo comDayCqWcmMsmImplActionsReferencesUpdateActionFactory(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> cqWcmMsmActionExcludednodetypes, List<String> cqWcmMsmActionExcludedparagraphitems, List<String> cqWcmMsmActionExcludedprops, Boolean cqWcmMsmImplActionReferencesupdatePropUpdateNested) throws Exception {
+    public ComDayCqWcmMsmImplActionsReferencesUpdateActionFactoryInfo comDayCqWcmMsmImplActionsReferencesUpdateActionFactory(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> cqWcmMsmActionExcludednodetypes, List<String> cqWcmMsmActionExcludedparagraphitems, List<String> cqWcmMsmActionExcludedprops, Boolean cqWcmMsmImplActionReferencesupdatePropUpdateNested) throws Exception {
         //Do your magic!!!
         return new ComDayCqWcmMsmImplActionsReferencesUpdateActionFactoryInfo();
     }
 
     @Override
-    public ComDayCqWcmMsmImplActionsVersionCopyActionFactoryInfo comDayCqWcmMsmImplActionsVersionCopyActionFactory(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> cqWcmMsmActionExcludednodetypes, List<String> cqWcmMsmActionExcludedparagraphitems, List<String> cqWcmMsmActionExcludedprops) throws Exception {
+    public ComDayCqWcmMsmImplActionsVersionCopyActionFactoryInfo comDayCqWcmMsmImplActionsVersionCopyActionFactory(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> cqWcmMsmActionExcludednodetypes, List<String> cqWcmMsmActionExcludedparagraphitems, List<String> cqWcmMsmActionExcludedprops) throws Exception {
         //Do your magic!!!
         return new ComDayCqWcmMsmImplActionsVersionCopyActionFactoryInfo();
     }
 
     @Override
-    public ComDayCqWcmMsmImplLiveRelationshipManagerImplInfo comDayCqWcmMsmImplLiveRelationshipManagerImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String liverelationshipmgrRelationsconfigDefault) throws Exception {
+    public ComDayCqWcmMsmImplLiveRelationshipManagerImplInfo comDayCqWcmMsmImplLiveRelationshipManagerImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String liverelationshipmgrRelationsconfigDefault) throws Exception {
         //Do your magic!!!
         return new ComDayCqWcmMsmImplLiveRelationshipManagerImplInfo();
     }
 
     @Override
-    public ComDayCqWcmMsmImplRolloutManagerImplInfo comDayCqWcmMsmImplRolloutManagerImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String eventFilter, List<String> rolloutmgrExcludedpropsDefault, List<String> rolloutmgrExcludedparagraphpropsDefault, List<String> rolloutmgrExcludednodetypesDefault, Integer rolloutmgrThreadpoolMaxsize, Integer rolloutmgrThreadpoolMaxshutdowntime, String rolloutmgrThreadpoolPriority, Integer rolloutmgrCommitSize, Boolean rolloutmgrConflicthandlingEnabled) throws Exception {
+    public ComDayCqWcmMsmImplRolloutManagerImplInfo comDayCqWcmMsmImplRolloutManagerImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String eventFilter, List<String> rolloutmgrExcludedpropsDefault, List<String> rolloutmgrExcludedparagraphpropsDefault, List<String> rolloutmgrExcludednodetypesDefault, Integer rolloutmgrThreadpoolMaxsize, Integer rolloutmgrThreadpoolMaxshutdowntime, String rolloutmgrThreadpoolPriority, Integer rolloutmgrCommitSize, Boolean rolloutmgrConflicthandlingEnabled) throws Exception {
         //Do your magic!!!
         return new ComDayCqWcmMsmImplRolloutManagerImplInfo();
     }
 
     @Override
-    public ComDayCqWcmMsmImplServletsAuditLogServletInfo comDayCqWcmMsmImplServletsAuditLogServlet(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer auditlogservletDefaultEventsCount, String auditlogservletDefaultPath) throws Exception {
+    public ComDayCqWcmMsmImplServletsAuditLogServletInfo comDayCqWcmMsmImplServletsAuditLogServlet(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer auditlogservletDefaultEventsCount, String auditlogservletDefaultPath) throws Exception {
         //Do your magic!!!
         return new ComDayCqWcmMsmImplServletsAuditLogServletInfo();
     }
 
     @Override
-    public ComDayCqWcmNotificationEmailImplEmailChannelInfo comDayCqWcmNotificationEmailImplEmailChannel(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String emailFrom) throws Exception {
+    public ComDayCqWcmNotificationEmailImplEmailChannelInfo comDayCqWcmNotificationEmailImplEmailChannel(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String emailFrom) throws Exception {
         //Do your magic!!!
         return new ComDayCqWcmNotificationEmailImplEmailChannelInfo();
     }
 
     @Override
-    public ComDayCqWcmNotificationImplNotificationManagerImplInfo comDayCqWcmNotificationImplNotificationManagerImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> eventTopics) throws Exception {
+    public ComDayCqWcmNotificationImplNotificationManagerImplInfo comDayCqWcmNotificationImplNotificationManagerImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> eventTopics) throws Exception {
         //Do your magic!!!
         return new ComDayCqWcmNotificationImplNotificationManagerImplInfo();
     }
 
     @Override
-    public ComDayCqWcmScriptingImplBVPManagerInfo comDayCqWcmScriptingImplBVPManager(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> comDayCqWcmScriptingBvpScriptEngines) throws Exception {
+    public ComDayCqWcmScriptingImplBVPManagerInfo comDayCqWcmScriptingImplBVPManager(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> comDayCqWcmScriptingBvpScriptEngines) throws Exception {
         //Do your magic!!!
         return new ComDayCqWcmScriptingImplBVPManagerInfo();
     }
 
     @Override
-    public ComDayCqWcmUndoUndoConfigInfo comDayCqWcmUndoUndoConfig(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean cqWcmUndoEnabled, String cqWcmUndoPath, Integer cqWcmUndoValidity, Integer cqWcmUndoSteps, String cqWcmUndoPersistence, Boolean cqWcmUndoPersistenceMode, String cqWcmUndoMarkermode, List<String> cqWcmUndoWhitelist, List<String> cqWcmUndoBlacklist) throws Exception {
+    public ComDayCqWcmUndoUndoConfigInfo comDayCqWcmUndoUndoConfig(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean cqWcmUndoEnabled, String cqWcmUndoPath, Integer cqWcmUndoValidity, Integer cqWcmUndoSteps, String cqWcmUndoPersistence, Boolean cqWcmUndoPersistenceMode, String cqWcmUndoMarkermode, List<String> cqWcmUndoWhitelist, List<String> cqWcmUndoBlacklist) throws Exception {
         //Do your magic!!!
         return new ComDayCqWcmUndoUndoConfigInfo();
     }
 
     @Override
-    public ComDayCqWcmWebservicesupportImplReplicationEventListenerInfo comDayCqWcmWebservicesupportImplReplicationEventListener(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> flushAgents) throws Exception {
+    public ComDayCqWcmWebservicesupportImplReplicationEventListenerInfo comDayCqWcmWebservicesupportImplReplicationEventListener(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> flushAgents) throws Exception {
         //Do your magic!!!
         return new ComDayCqWcmWebservicesupportImplReplicationEventListenerInfo();
     }
 
     @Override
-    public ComDayCqWcmWorkflowImplWcmWorkflowServiceImplInfo comDayCqWcmWorkflowImplWcmWorkflowServiceImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String eventFilter, Integer minThreadPoolSize, Integer maxThreadPoolSize, Boolean cqWcmWorkflowTerminateOnActivate, List<String> cqWcmWorklfowTerminateExclusionList) throws Exception {
+    public ComDayCqWcmWorkflowImplWcmWorkflowServiceImplInfo comDayCqWcmWorkflowImplWcmWorkflowServiceImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String eventFilter, Integer minThreadPoolSize, Integer maxThreadPoolSize, Boolean cqWcmWorkflowTerminateOnActivate, List<String> cqWcmWorklfowTerminateExclusionList) throws Exception {
         //Do your magic!!!
         return new ComDayCqWcmWorkflowImplWcmWorkflowServiceImplInfo();
     }
 
     @Override
-    public ComDayCqWcmWorkflowImplWorkflowPackageInfoProviderInfo comDayCqWcmWorkflowImplWorkflowPackageInfoProvider(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> workflowpackageinfoproviderFilter, String workflowpackageinfoproviderFilterRootpath) throws Exception {
+    public ComDayCqWcmWorkflowImplWorkflowPackageInfoProviderInfo comDayCqWcmWorkflowImplWorkflowPackageInfoProvider(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> workflowpackageinfoproviderFilter, String workflowpackageinfoproviderFilterRootpath) throws Exception {
         //Do your magic!!!
         return new ComDayCqWcmWorkflowImplWorkflowPackageInfoProviderInfo();
     }
 
     @Override
-    public ComDayCqWidgetImplHtmlLibraryManagerImplInfo comDayCqWidgetImplHtmlLibraryManagerImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String htmllibmanagerClientmanager, Boolean htmllibmanagerDebug, Boolean htmllibmanagerDebugConsole, String htmllibmanagerDebugInitJs, String htmllibmanagerDefaultthemename, String htmllibmanagerDefaultuserthemename, String htmllibmanagerFirebuglitePath, Boolean htmllibmanagerForceCQUrlInfo, Boolean htmllibmanagerGzip, Integer htmllibmanagerMaxage, Integer htmllibmanagerMaxDataUriSize, Boolean htmllibmanagerMinify, List<String> htmllibmanagerPathList, Boolean htmllibmanagerTiming) throws Exception {
+    public ComDayCqWidgetImplHtmlLibraryManagerImplInfo comDayCqWidgetImplHtmlLibraryManagerImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String htmllibmanagerClientmanager, Boolean htmllibmanagerDebug, Boolean htmllibmanagerDebugConsole, String htmllibmanagerDebugInitJs, String htmllibmanagerDefaultthemename, String htmllibmanagerDefaultuserthemename, String htmllibmanagerFirebuglitePath, Boolean htmllibmanagerForceCQUrlInfo, Boolean htmllibmanagerGzip, Integer htmllibmanagerMaxage, Integer htmllibmanagerMaxDataUriSize, Boolean htmllibmanagerMinify, List<String> htmllibmanagerPathList, Boolean htmllibmanagerTiming) throws Exception {
         //Do your magic!!!
         return new ComDayCqWidgetImplHtmlLibraryManagerImplInfo();
     }
 
     @Override
-    public ComDayCqWidgetImplWidgetExtensionProviderImplInfo comDayCqWidgetImplWidgetExtensionProviderImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> extendableWidgets, Boolean widgetextensionproviderDebug) throws Exception {
+    public ComDayCqWidgetImplWidgetExtensionProviderImplInfo comDayCqWidgetImplWidgetExtensionProviderImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> extendableWidgets, Boolean widgetextensionproviderDebug) throws Exception {
         //Do your magic!!!
         return new ComDayCqWidgetImplWidgetExtensionProviderImplInfo();
     }
 
     @Override
-    public ComDayCqWorkflowImplEmailEMailNotificationServiceInfo comDayCqWorkflowImplEmailEMailNotificationService(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String fromAddress, String hostPrefix, Boolean notifyOnabort, Boolean notifyOncomplete, Boolean notifyOncontainercomplete, Boolean notifyUseronly) throws Exception {
+    public ComDayCqWorkflowImplEmailEMailNotificationServiceInfo comDayCqWorkflowImplEmailEMailNotificationService(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String fromAddress, String hostPrefix, Boolean notifyOnabort, Boolean notifyOncomplete, Boolean notifyOncontainercomplete, Boolean notifyUseronly) throws Exception {
         //Do your magic!!!
         return new ComDayCqWorkflowImplEmailEMailNotificationServiceInfo();
     }
 
     @Override
-    public ComDayCqWorkflowImplEmailTaskEMailNotificationServiceInfo comDayCqWorkflowImplEmailTaskEMailNotificationService(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean notifyOnupdate, Boolean notifyOncomplete) throws Exception {
+    public ComDayCqWorkflowImplEmailTaskEMailNotificationServiceInfo comDayCqWorkflowImplEmailTaskEMailNotificationService(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean notifyOnupdate, Boolean notifyOncomplete) throws Exception {
         //Do your magic!!!
         return new ComDayCqWorkflowImplEmailTaskEMailNotificationServiceInfo();
     }
 
     @Override
-    public ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerInfo comDayCrxSecurityTokenImplImplTokenAuthenticationHandler(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String path, String tokenRequiredAttr, String tokenAlternateUrl, Boolean tokenEncapsulated, List<String> skipTokenRefresh) throws Exception {
+    public ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerInfo comDayCrxSecurityTokenImplImplTokenAuthenticationHandler(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String path, String tokenRequiredAttr, String tokenAlternateUrl, Boolean tokenEncapsulated, List<String> skipTokenRefresh) throws Exception {
         //Do your magic!!!
         return new ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerInfo();
     }
 
     @Override
-    public ComDayCrxSecurityTokenImplTokenCleanupTaskInfo comDayCrxSecurityTokenImplTokenCleanupTask(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean enableTokenCleanupTask, String schedulerExpression, Integer batchSize) throws Exception {
+    public ComDayCrxSecurityTokenImplTokenCleanupTaskInfo comDayCrxSecurityTokenImplTokenCleanupTask(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean enableTokenCleanupTask, String schedulerExpression, Integer batchSize) throws Exception {
         //Do your magic!!!
         return new ComDayCrxSecurityTokenImplTokenCleanupTaskInfo();
     }
 
     @Override
-    public GuideLocalizationServiceInfo guideLocalizationService(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> supportedLocales, List<String> localizableProperties) throws Exception {
+    public GuideLocalizationServiceInfo guideLocalizationService(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> supportedLocales, List<String> localizableProperties) throws Exception {
         //Do your magic!!!
         return new GuideLocalizationServiceInfo();
     }
 
     @Override
-    public MessagingUserComponentFactoryInfo messagingUserComponentFactory(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer priority) throws Exception {
+    public MessagingUserComponentFactoryInfo messagingUserComponentFactory(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer priority) throws Exception {
         //Do your magic!!!
         return new MessagingUserComponentFactoryInfo();
     }
 
     @Override
-    public OrgApacheAriesJmxFrameworkStateConfigInfo orgApacheAriesJmxFrameworkStateConfig(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean attributeChangeNotificationEnabled) throws Exception {
+    public OrgApacheAriesJmxFrameworkStateConfigInfo orgApacheAriesJmxFrameworkStateConfig(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean attributeChangeNotificationEnabled) throws Exception {
         //Do your magic!!!
         return new OrgApacheAriesJmxFrameworkStateConfigInfo();
     }
 
     @Override
-    public OrgApacheFelixEventadminImplEventAdminInfo orgApacheFelixEventadminImplEventAdmin(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer orgApacheFelixEventadminThreadPoolSize, BigDecimal orgApacheFelixEventadminAsyncToSyncThreadRatio, Integer orgApacheFelixEventadminTimeout, Boolean orgApacheFelixEventadminRequireTopic, List<String> orgApacheFelixEventadminIgnoreTimeout, List<String> orgApacheFelixEventadminIgnoreTopic) throws Exception {
+    public OrgApacheFelixEventadminImplEventAdminInfo orgApacheFelixEventadminImplEventAdmin(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer orgApacheFelixEventadminThreadPoolSize, BigDecimal orgApacheFelixEventadminAsyncToSyncThreadRatio, Integer orgApacheFelixEventadminTimeout, Boolean orgApacheFelixEventadminRequireTopic, List<String> orgApacheFelixEventadminIgnoreTimeout, List<String> orgApacheFelixEventadminIgnoreTopic) throws Exception {
         //Do your magic!!!
         return new OrgApacheFelixEventadminImplEventAdminInfo();
     }
 
     @Override
-    public OrgApacheFelixHttpInfo orgApacheFelixHttp(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String orgApacheFelixHttpHost, Boolean orgApacheFelixHttpEnable, Integer orgOsgiServiceHttpPort, Integer orgApacheFelixHttpTimeout, Boolean orgApacheFelixHttpsEnable, Integer orgOsgiServiceHttpPortSecure, String orgApacheFelixHttpsKeystore, String orgApacheFelixHttpsKeystorePassword, String orgApacheFelixHttpsKeystoreKeyPassword, String orgApacheFelixHttpsTruststore, String orgApacheFelixHttpsTruststorePassword, String orgApacheFelixHttpsClientcertificate, String orgApacheFelixHttpContextPath, Boolean orgApacheFelixHttpMbeans, Integer orgApacheFelixHttpSessionTimeout, Integer orgApacheFelixHttpJettyThreadpoolMax, Integer orgApacheFelixHttpJettyAcceptors, Integer orgApacheFelixHttpJettySelectors, Integer orgApacheFelixHttpJettyHeaderBufferSize, Integer orgApacheFelixHttpJettyRequestBufferSize, Integer orgApacheFelixHttpJettyResponseBufferSize, Integer orgApacheFelixHttpJettyMaxFormSize, List<String> orgApacheFelixHttpPathExclusions, List<String> orgApacheFelixHttpsJettyCiphersuitesExcluded, List<String> orgApacheFelixHttpsJettyCiphersuitesIncluded, Boolean orgApacheFelixHttpJettySendServerHeader, List<String> orgApacheFelixHttpsJettyProtocolsIncluded, List<String> orgApacheFelixHttpsJettyProtocolsExcluded, Boolean orgApacheFelixProxyLoadBalancerConnectionEnable, Boolean orgApacheFelixHttpsJettyRenegotiateAllowed, Boolean orgApacheFelixHttpsJettySessionCookieHttpOnly, Boolean orgApacheFelixHttpsJettySessionCookieSecure, String orgEclipseJettyServletSessionIdPathParameterName, Boolean orgEclipseJettyServletCheckingRemoteSessionIdEncoding, String orgEclipseJettyServletSessionCookie, String orgEclipseJettyServletSessionDomain, String orgEclipseJettyServletSessionPath, Integer orgEclipseJettyServletMaxAge, String orgApacheFelixHttpName, Boolean orgApacheFelixJettyGziphandlerEnable, Integer orgApacheFelixJettyGzipMinGzipSize, Integer orgApacheFelixJettyGzipCompressionLevel, Integer orgApacheFelixJettyGzipInflateBufferSize, Boolean orgApacheFelixJettyGzipSyncFlush, List<String> orgApacheFelixJettyGzipExcludedUserAgents, List<String> orgApacheFelixJettyGzipIncludedMethods, List<String> orgApacheFelixJettyGzipExcludedMethods, List<String> orgApacheFelixJettyGzipIncludedPaths, List<String> orgApacheFelixJettyGzipExcludedPaths, List<String> orgApacheFelixJettyGzipIncludedMimeTypes, List<String> orgApacheFelixJettyGzipExcludedMimeTypes, Boolean orgApacheFelixHttpSessionInvalidate, Boolean orgApacheFelixHttpSessionUniqueid) throws Exception {
+    public OrgApacheFelixHttpInfo orgApacheFelixHttp(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String orgApacheFelixHttpHost, Boolean orgApacheFelixHttpEnable, Integer orgOsgiServiceHttpPort, Integer orgApacheFelixHttpTimeout, Boolean orgApacheFelixHttpsEnable, Integer orgOsgiServiceHttpPortSecure, String orgApacheFelixHttpsKeystore, String orgApacheFelixHttpsKeystorePassword, String orgApacheFelixHttpsKeystoreKeyPassword, String orgApacheFelixHttpsTruststore, String orgApacheFelixHttpsTruststorePassword, String orgApacheFelixHttpsClientcertificate, String orgApacheFelixHttpContextPath, Boolean orgApacheFelixHttpMbeans, Integer orgApacheFelixHttpSessionTimeout, Integer orgApacheFelixHttpJettyThreadpoolMax, Integer orgApacheFelixHttpJettyAcceptors, Integer orgApacheFelixHttpJettySelectors, Integer orgApacheFelixHttpJettyHeaderBufferSize, Integer orgApacheFelixHttpJettyRequestBufferSize, Integer orgApacheFelixHttpJettyResponseBufferSize, Integer orgApacheFelixHttpJettyMaxFormSize, List<String> orgApacheFelixHttpPathExclusions, List<String> orgApacheFelixHttpsJettyCiphersuitesExcluded, List<String> orgApacheFelixHttpsJettyCiphersuitesIncluded, Boolean orgApacheFelixHttpJettySendServerHeader, List<String> orgApacheFelixHttpsJettyProtocolsIncluded, List<String> orgApacheFelixHttpsJettyProtocolsExcluded, Boolean orgApacheFelixProxyLoadBalancerConnectionEnable, Boolean orgApacheFelixHttpsJettyRenegotiateAllowed, Boolean orgApacheFelixHttpsJettySessionCookieHttpOnly, Boolean orgApacheFelixHttpsJettySessionCookieSecure, String orgEclipseJettyServletSessionIdPathParameterName, Boolean orgEclipseJettyServletCheckingRemoteSessionIdEncoding, String orgEclipseJettyServletSessionCookie, String orgEclipseJettyServletSessionDomain, String orgEclipseJettyServletSessionPath, Integer orgEclipseJettyServletMaxAge, String orgApacheFelixHttpName, Boolean orgApacheFelixJettyGziphandlerEnable, Integer orgApacheFelixJettyGzipMinGzipSize, Integer orgApacheFelixJettyGzipCompressionLevel, Integer orgApacheFelixJettyGzipInflateBufferSize, Boolean orgApacheFelixJettyGzipSyncFlush, List<String> orgApacheFelixJettyGzipExcludedUserAgents, List<String> orgApacheFelixJettyGzipIncludedMethods, List<String> orgApacheFelixJettyGzipExcludedMethods, List<String> orgApacheFelixJettyGzipIncludedPaths, List<String> orgApacheFelixJettyGzipExcludedPaths, List<String> orgApacheFelixJettyGzipIncludedMimeTypes, List<String> orgApacheFelixJettyGzipExcludedMimeTypes, Boolean orgApacheFelixHttpSessionInvalidate, Boolean orgApacheFelixHttpSessionUniqueid) throws Exception {
         //Do your magic!!!
         return new OrgApacheFelixHttpInfo();
     }
 
     @Override
-    public OrgApacheFelixHttpSslfilterSslFilterInfo orgApacheFelixHttpSslfilterSslFilter(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String sslForwardHeader, String sslForwardValue, String sslForwardCertHeader, Boolean rewriteAbsoluteUrls) throws Exception {
+    public OrgApacheFelixHttpSslfilterSslFilterInfo orgApacheFelixHttpSslfilterSslFilter(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String sslForwardHeader, String sslForwardValue, String sslForwardCertHeader, Boolean rewriteAbsoluteUrls) throws Exception {
         //Do your magic!!!
         return new OrgApacheFelixHttpSslfilterSslFilterInfo();
     }
 
     @Override
-    public OrgApacheFelixJaasConfigurationFactoryInfo orgApacheFelixJaasConfigurationFactory(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String jaasControlFlag, Integer jaasRanking, String jaasRealmName, String jaasClassname, List<String> jaasOptions) throws Exception {
+    public OrgApacheFelixJaasConfigurationFactoryInfo orgApacheFelixJaasConfigurationFactory(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String jaasControlFlag, Integer jaasRanking, String jaasRealmName, String jaasClassname, List<String> jaasOptions) throws Exception {
         //Do your magic!!!
         return new OrgApacheFelixJaasConfigurationFactoryInfo();
     }
 
     @Override
-    public OrgApacheFelixJaasConfigurationSpiInfo orgApacheFelixJaasConfigurationSpi(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String jaasDefaultRealmName, String jaasConfigProviderName, String jaasGlobalConfigPolicy) throws Exception {
+    public OrgApacheFelixJaasConfigurationSpiInfo orgApacheFelixJaasConfigurationSpi(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String jaasDefaultRealmName, String jaasConfigProviderName, String jaasGlobalConfigPolicy) throws Exception {
         //Do your magic!!!
         return new OrgApacheFelixJaasConfigurationSpiInfo();
     }
 
     @Override
-    public OrgApacheFelixScrScrServiceInfo orgApacheFelixScrScrService(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer dsLoglevel, Boolean dsFactoryEnabled, Boolean dsDelayedKeepInstances, Integer dsLockTimeoutMilliseconds, Integer dsStopTimeoutMilliseconds, Boolean dsGlobalExtender) throws Exception {
+    public OrgApacheFelixScrScrServiceInfo orgApacheFelixScrScrService(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer dsLoglevel, Boolean dsFactoryEnabled, Boolean dsDelayedKeepInstances, Integer dsLockTimeoutMilliseconds, Integer dsStopTimeoutMilliseconds, Boolean dsGlobalExtender) throws Exception {
         //Do your magic!!!
         return new OrgApacheFelixScrScrServiceInfo();
     }
 
     @Override
-    public OrgApacheFelixSystemreadyImplComponentsCheckInfo orgApacheFelixSystemreadyImplComponentsCheck(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> componentsList, String type) throws Exception {
+    public OrgApacheFelixSystemreadyImplComponentsCheckInfo orgApacheFelixSystemreadyImplComponentsCheck(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> componentsList, String type) throws Exception {
         //Do your magic!!!
         return new OrgApacheFelixSystemreadyImplComponentsCheckInfo();
     }
 
     @Override
-    public OrgApacheFelixSystemreadyImplFrameworkStartCheckInfo orgApacheFelixSystemreadyImplFrameworkStartCheck(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer timeout, Integer targetStartLevel, String targetStartLevelPropName, String type) throws Exception {
+    public OrgApacheFelixSystemreadyImplFrameworkStartCheckInfo orgApacheFelixSystemreadyImplFrameworkStartCheck(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer timeout, Integer targetStartLevel, String targetStartLevelPropName, String type) throws Exception {
         //Do your magic!!!
         return new OrgApacheFelixSystemreadyImplFrameworkStartCheckInfo();
     }
 
     @Override
-    public OrgApacheFelixSystemreadyImplServicesCheckInfo orgApacheFelixSystemreadyImplServicesCheck(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> servicesList, String type) throws Exception {
+    public OrgApacheFelixSystemreadyImplServicesCheckInfo orgApacheFelixSystemreadyImplServicesCheck(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> servicesList, String type) throws Exception {
         //Do your magic!!!
         return new OrgApacheFelixSystemreadyImplServicesCheckInfo();
     }
 
     @Override
-    public OrgApacheFelixSystemreadyImplServletSystemAliveServletInfo orgApacheFelixSystemreadyImplServletSystemAliveServlet(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String osgiHttpWhiteboardServletPattern, String osgiHttpWhiteboardContextSelect) throws Exception {
+    public OrgApacheFelixSystemreadyImplServletSystemAliveServletInfo orgApacheFelixSystemreadyImplServletSystemAliveServlet(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String osgiHttpWhiteboardServletPattern, String osgiHttpWhiteboardContextSelect) throws Exception {
         //Do your magic!!!
         return new OrgApacheFelixSystemreadyImplServletSystemAliveServletInfo();
     }
 
     @Override
-    public OrgApacheFelixSystemreadyImplServletSystemReadyServletInfo orgApacheFelixSystemreadyImplServletSystemReadyServlet(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String osgiHttpWhiteboardServletPattern, String osgiHttpWhiteboardContextSelect) throws Exception {
+    public OrgApacheFelixSystemreadyImplServletSystemReadyServletInfo orgApacheFelixSystemreadyImplServletSystemReadyServlet(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String osgiHttpWhiteboardServletPattern, String osgiHttpWhiteboardContextSelect) throws Exception {
         //Do your magic!!!
         return new OrgApacheFelixSystemreadyImplServletSystemReadyServletInfo();
     }
 
     @Override
-    public OrgApacheFelixSystemreadySystemReadyMonitorInfo orgApacheFelixSystemreadySystemReadyMonitor(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer pollInterval) throws Exception {
+    public OrgApacheFelixSystemreadySystemReadyMonitorInfo orgApacheFelixSystemreadySystemReadyMonitor(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer pollInterval) throws Exception {
         //Do your magic!!!
         return new OrgApacheFelixSystemreadySystemReadyMonitorInfo();
     }
 
     @Override
-    public OrgApacheFelixWebconsoleInternalServletOsgiManagerInfo orgApacheFelixWebconsoleInternalServletOsgiManager(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String managerRoot, String httpServiceFilter, String defaultRender, String realm, String username, String password, String category, String locale, Integer loglevel, String plugins) throws Exception {
+    public OrgApacheFelixWebconsoleInternalServletOsgiManagerInfo orgApacheFelixWebconsoleInternalServletOsgiManager(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String managerRoot, String httpServiceFilter, String defaultRender, String realm, String username, String password, String category, String locale, Integer loglevel, String plugins) throws Exception {
         //Do your magic!!!
         return new OrgApacheFelixWebconsoleInternalServletOsgiManagerInfo();
     }
 
     @Override
-    public OrgApacheFelixWebconsolePluginsEventInternalPluginServletInfo orgApacheFelixWebconsolePluginsEventInternalPluginServlet(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer maxSize) throws Exception {
+    public OrgApacheFelixWebconsolePluginsEventInternalPluginServletInfo orgApacheFelixWebconsolePluginsEventInternalPluginServlet(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer maxSize) throws Exception {
         //Do your magic!!!
         return new OrgApacheFelixWebconsolePluginsEventInternalPluginServletInfo();
     }
 
     @Override
-    public OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCoInfo orgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCo(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer felixMemoryusageDumpThreshold, Integer felixMemoryusageDumpInterval, String felixMemoryusageDumpLocation) throws Exception {
+    public OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCoInfo orgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCo(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer felixMemoryusageDumpThreshold, Integer felixMemoryusageDumpInterval, String felixMemoryusageDumpLocation) throws Exception {
         //Do your magic!!!
         return new OrgApacheFelixWebconsolePluginsMemoryusageInternalMemoryUsageCoInfo();
     }
 
     @Override
-    public OrgApacheHttpProxyconfiguratorInfo orgApacheHttpProxyconfigurator(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean proxyEnabled, String proxyHost, Integer proxyPort, String proxyUser, String proxyPassword, List<String> proxyExceptions) throws Exception {
+    public OrgApacheHttpProxyconfiguratorInfo orgApacheHttpProxyconfigurator(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean proxyEnabled, String proxyHost, Integer proxyPort, String proxyUser, String proxyPassword, List<String> proxyExceptions) throws Exception {
         //Do your magic!!!
         return new OrgApacheHttpProxyconfiguratorInfo();
     }
 
     @Override
-    public OrgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProviderInfo orgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProvider(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String dir) throws Exception {
+    public OrgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProviderInfo orgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProvider(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String dir) throws Exception {
         //Do your magic!!!
         return new OrgApacheJackrabbitOakPluginsBlobDatastoreDataStoreTextProviderInfo();
     }
 
     @Override
-    public OrgApacheJackrabbitOakPluginsBlobDatastoreFileDataStoreInfo orgApacheJackrabbitOakPluginsBlobDatastoreFileDataStore(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String path) throws Exception {
+    public OrgApacheJackrabbitOakPluginsBlobDatastoreFileDataStoreInfo orgApacheJackrabbitOakPluginsBlobDatastoreFileDataStore(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String path) throws Exception {
         //Do your magic!!!
         return new OrgApacheJackrabbitOakPluginsBlobDatastoreFileDataStoreInfo();
     }
 
     @Override
-    public OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceInfo orgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreService(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String mongouri, String db, Boolean socketKeepAlive, Integer cache, Integer nodeCachePercentage, Integer prevDocCachePercentage, Integer childrenCachePercentage, Integer diffCachePercentage, Integer cacheSegmentCount, Integer cacheStackMoveDistance, Integer blobCacheSize, String persistentCache, String journalCache, Boolean customBlobStore, Integer journalGCInterval, Integer journalGCMaxAge, Boolean prefetchExternalChanges, String role, Integer versionGcMaxAgeInSecs, String versionGCExpression, Integer versionGCTimeLimitInSecs, Integer blobGcMaxAgeInSecs, Integer blobTrackSnapshotIntervalInSecs, String repositoryHome, Integer maxReplicationLagInSecs, String documentStoreType, Boolean bundlingDisabled, Integer updateLimit, List<String> persistentCacheIncludes, String leaseCheckMode) throws Exception {
+    public OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceInfo orgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreService(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String mongouri, String db, Boolean socketKeepAlive, Integer cache, Integer nodeCachePercentage, Integer prevDocCachePercentage, Integer childrenCachePercentage, Integer diffCachePercentage, Integer cacheSegmentCount, Integer cacheStackMoveDistance, Integer blobCacheSize, String persistentCache, String journalCache, Boolean customBlobStore, Integer journalGCInterval, Integer journalGCMaxAge, Boolean prefetchExternalChanges, String role, Integer versionGcMaxAgeInSecs, String versionGCExpression, Integer versionGCTimeLimitInSecs, Integer blobGcMaxAgeInSecs, Integer blobTrackSnapshotIntervalInSecs, String repositoryHome, Integer maxReplicationLagInSecs, String documentStoreType, Boolean bundlingDisabled, Integer updateLimit, List<String> persistentCacheIncludes, String leaseCheckMode) throws Exception {
         //Do your magic!!!
         return new OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceInfo();
     }
 
     @Override
-    public OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePreInfo orgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePre(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> persistentCacheIncludes) throws Exception {
+    public OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePreInfo orgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePre(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> persistentCacheIncludes) throws Exception {
         //Do your magic!!!
         return new OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServicePreInfo();
     }
 
     @Override
-    public OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacInfo orgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCac(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> includedPaths, Boolean enableAsyncObserver, Integer observerQueueSize) throws Exception {
+    public OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacInfo orgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCac(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> includedPaths, Boolean enableAsyncObserver, Integer observerQueueSize) throws Exception {
         //Do your magic!!!
         return new OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacInfo();
     }
 
     @Override
-    public OrgApacheJackrabbitOakPluginsIndexAsyncIndexerServiceInfo orgApacheJackrabbitOakPluginsIndexAsyncIndexerService(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> asyncConfigs, Integer leaseTimeOutMinutes, Integer failingIndexTimeoutSeconds, Integer errorWarnIntervalSeconds) throws Exception {
+    public OrgApacheJackrabbitOakPluginsIndexAsyncIndexerServiceInfo orgApacheJackrabbitOakPluginsIndexAsyncIndexerService(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> asyncConfigs, Integer leaseTimeOutMinutes, Integer failingIndexTimeoutSeconds, Integer errorWarnIntervalSeconds) throws Exception {
         //Do your magic!!!
         return new OrgApacheJackrabbitOakPluginsIndexAsyncIndexerServiceInfo();
     }
 
     @Override
-    public OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServInfo orgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServ(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean disabled, Boolean debug, String localIndexDir, Boolean enableOpenIndexAsync, Integer threadPoolSize, Boolean prefetchIndexFiles, Integer extractedTextCacheSizeInMB, Integer extractedTextCacheExpiryInSecs, Boolean alwaysUsePreExtractedCache, Integer booleanClauseLimit, Boolean enableHybridIndexing, Integer hybridQueueSize, Boolean disableStoredIndexDefinition, Boolean deletedBlobsCollectionEnabled, Integer propIndexCleanerIntervalInSecs, Boolean enableSingleBlobIndexFiles) throws Exception {
+    public OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServInfo orgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServ(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean disabled, Boolean debug, String localIndexDir, Boolean enableOpenIndexAsync, Integer threadPoolSize, Boolean prefetchIndexFiles, Integer extractedTextCacheSizeInMB, Integer extractedTextCacheExpiryInSecs, Boolean alwaysUsePreExtractedCache, Integer booleanClauseLimit, Boolean enableHybridIndexing, Integer hybridQueueSize, Boolean disableStoredIndexDefinition, Boolean deletedBlobsCollectionEnabled, Integer propIndexCleanerIntervalInSecs, Boolean enableSingleBlobIndexFiles) throws Exception {
         //Do your magic!!!
         return new OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServInfo();
     }
 
     @Override
-    public OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCoInfo orgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCo(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String solrHomePath, String solrCoreName) throws Exception {
+    public OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCoInfo orgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCo(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String solrHomePath, String solrCoreName) throws Exception {
         //Do your magic!!!
         return new OrgApacheJackrabbitOakPluginsIndexSolrOsgiEmbeddedSolrServerCoInfo();
     }
 
     @Override
-    public OrgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersInfo orgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServers(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean enabled) throws Exception {
+    public OrgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersInfo orgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServers(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean enabled) throws Exception {
         //Do your magic!!!
         return new OrgApacheJackrabbitOakPluginsIndexSolrOsgiNodeStateSolrServersInfo();
     }
 
     @Override
-    public OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationInfo orgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfiguration(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String pathDescField, String pathChildField, String pathParentField, String pathExactField, String catchAllField, String collapsedPathField, String pathDepthField, String commitPolicy, Integer rows, Boolean pathRestrictions, Boolean propertyRestrictions, Boolean primarytypesRestrictions, List<String> ignoredProperties, List<String> usedProperties, List<String> typeMappings, List<String> propertyMappings, Boolean collapseJcrcontentNodes) throws Exception {
+    public OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationInfo orgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfiguration(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String pathDescField, String pathChildField, String pathParentField, String pathExactField, String catchAllField, String collapsedPathField, String pathDepthField, String commitPolicy, Integer rows, Boolean pathRestrictions, Boolean propertyRestrictions, Boolean primarytypesRestrictions, List<String> ignoredProperties, List<String> usedProperties, List<String> typeMappings, List<String> propertyMappings, Boolean collapseJcrcontentNodes) throws Exception {
         //Do your magic!!!
         return new OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationInfo();
     }
 
     @Override
-    public OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfInfo orgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConf(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String solrHttpUrl, String solrZkHost, String solrCollection, Integer solrSocketTimeout, Integer solrConnectionTimeout, Integer solrShardsNo, Integer solrReplicationFactor, String solrConfDir) throws Exception {
+    public OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfInfo orgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConf(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String solrHttpUrl, String solrZkHost, String solrCollection, Integer solrSocketTimeout, Integer solrConnectionTimeout, Integer solrShardsNo, Integer solrReplicationFactor, String solrConfDir) throws Exception {
         //Do your magic!!!
         return new OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfInfo();
     }
 
     @Override
-    public OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProvidInfo orgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProvid(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean queryAggregation) throws Exception {
+    public OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProvidInfo orgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProvid(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean queryAggregation) throws Exception {
         //Do your magic!!!
         return new OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrQueryIndexProvidInfo();
     }
 
     @Override
-    public OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderSeInfo orgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderSe(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String serverType) throws Exception {
+    public OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderSeInfo orgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderSe(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String serverType) throws Exception {
         //Do your magic!!!
         return new OrgApacheJackrabbitOakPluginsIndexSolrOsgiSolrServerProviderSeInfo();
     }
 
     @Override
-    public OrgApacheJackrabbitOakPluginsMetricStatisticsProviderFactoryInfo orgApacheJackrabbitOakPluginsMetricStatisticsProviderFactory(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String providerType) throws Exception {
+    public OrgApacheJackrabbitOakPluginsMetricStatisticsProviderFactoryInfo orgApacheJackrabbitOakPluginsMetricStatisticsProviderFactory(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String providerType) throws Exception {
         //Do your magic!!!
         return new OrgApacheJackrabbitOakPluginsMetricStatisticsProviderFactoryInfo();
     }
 
     @Override
-    public OrgApacheJackrabbitOakPluginsObservationChangeCollectorProviderInfo orgApacheJackrabbitOakPluginsObservationChangeCollectorProvider(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer maxItems, Integer maxPathDepth, Boolean enabled) throws Exception {
+    public OrgApacheJackrabbitOakPluginsObservationChangeCollectorProviderInfo orgApacheJackrabbitOakPluginsObservationChangeCollectorProvider(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer maxItems, Integer maxPathDepth, Boolean enabled) throws Exception {
         //Do your magic!!!
         return new OrgApacheJackrabbitOakPluginsObservationChangeCollectorProviderInfo();
     }
 
     @Override
-    public OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceInfo orgApacheJackrabbitOakQueryQueryEngineSettingsService(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer queryLimitInMemory, Integer queryLimitReads, Boolean queryFailTraversal, Boolean fastQuerySize) throws Exception {
+    public OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceInfo orgApacheJackrabbitOakQueryQueryEngineSettingsService(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer queryLimitInMemory, Integer queryLimitReads, Boolean queryFailTraversal, Boolean fastQuerySize) throws Exception {
         //Do your magic!!!
         return new OrgApacheJackrabbitOakQueryQueryEngineSettingsServiceInfo();
     }
 
     @Override
-    public OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigInfo orgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfig(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String orgApacheJackrabbitOakAuthenticationAppName, String orgApacheJackrabbitOakAuthenticationConfigSpiName) throws Exception {
+    public OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigInfo orgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfig(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String orgApacheJackrabbitOakAuthenticationAppName, String orgApacheJackrabbitOakAuthenticationConfigSpiName) throws Exception {
         //Do your magic!!!
         return new OrgApacheJackrabbitOakSecurityAuthenticationAuthenticationConfigInfo();
     }
 
     @Override
-    public OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiInfo orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdenti(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String providerName, String hostName, Integer hostPort, Boolean hostSsl, Boolean hostTls, Boolean hostNoCertCheck, String bindDn, String bindPassword, String searchTimeout, Integer adminPoolMaxActive, Boolean adminPoolLookupOnValidate, Integer userPoolMaxActive, Boolean userPoolLookupOnValidate, String userBaseDN, List<String> userObjectclass, String userIdAttribute, String userExtraFilter, Boolean userMakeDnPath, String groupBaseDN, List<String> groupObjectclass, String groupNameAttribute, String groupExtraFilter, Boolean groupMakeDnPath, String groupMemberAttribute, Boolean useUidForExtId, List<String> customattributes) throws Exception {
+    public OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiInfo orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdenti(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String providerName, String hostName, Integer hostPort, Boolean hostSsl, Boolean hostTls, Boolean hostNoCertCheck, String bindDn, String bindPassword, String searchTimeout, Integer adminPoolMaxActive, Boolean adminPoolLookupOnValidate, Integer userPoolMaxActive, Boolean userPoolLookupOnValidate, String userBaseDN, List<String> userObjectclass, String userIdAttribute, String userExtraFilter, Boolean userMakeDnPath, String groupBaseDN, List<String> groupObjectclass, String groupNameAttribute, String groupExtraFilter, Boolean groupMakeDnPath, String groupMemberAttribute, Boolean useUidForExtId, List<String> customattributes) throws Exception {
         //Do your magic!!!
         return new OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiInfo();
     }
 
     @Override
-    public OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraInfo orgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfigura(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String tokenExpiration, String tokenLength, Boolean tokenRefresh, Integer tokenCleanupThreshold, String passwordHashAlgorithm, Integer passwordHashIterations, Integer passwordSaltSize) throws Exception {
+    public OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraInfo orgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfigura(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String tokenExpiration, String tokenLength, Boolean tokenRefresh, Integer tokenCleanupThreshold, String passwordHashAlgorithm, Integer passwordHashIterations, Integer passwordSaltSize) throws Exception {
         //Do your magic!!!
         return new OrgApacheJackrabbitOakSecurityAuthenticationTokenTokenConfiguraInfo();
     }
 
     @Override
-    public OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurInfo orgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigur(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String permissionsJr2, String importBehavior, List<String> readPaths, List<String> administrativePrincipals, Integer configurationRanking) throws Exception {
+    public OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurInfo orgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigur(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String permissionsJr2, String importBehavior, List<String> readPaths, List<String> administrativePrincipals, Integer configurationRanking) throws Exception {
         //Do your magic!!!
         return new OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurInfo();
     }
 
     @Override
-    public OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistratiInfo orgApacheJackrabbitOakSecurityInternalSecurityProviderRegistrati(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> requiredServicePids, String authorizationCompositionType) throws Exception {
+    public OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistratiInfo orgApacheJackrabbitOakSecurityInternalSecurityProviderRegistrati(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> requiredServicePids, String authorizationCompositionType) throws Exception {
         //Do your magic!!!
         return new OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistratiInfo();
     }
 
     @Override
-    public OrgApacheJackrabbitOakSecurityUserRandomAuthorizableNodeNameInfo orgApacheJackrabbitOakSecurityUserRandomAuthorizableNodeName(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer length) throws Exception {
+    public OrgApacheJackrabbitOakSecurityUserRandomAuthorizableNodeNameInfo orgApacheJackrabbitOakSecurityUserRandomAuthorizableNodeName(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer length) throws Exception {
         //Do your magic!!!
         return new OrgApacheJackrabbitOakSecurityUserRandomAuthorizableNodeNameInfo();
     }
 
     @Override
-    public OrgApacheJackrabbitOakSecurityUserUserConfigurationImplInfo orgApacheJackrabbitOakSecurityUserUserConfigurationImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String usersPath, String groupsPath, String systemRelativePath, Integer defaultDepth, String importBehavior, String passwordHashAlgorithm, Integer passwordHashIterations, Integer passwordSaltSize, Boolean omitAdminPw, Boolean supportAutoSave, Integer passwordMaxAge, Boolean initialPasswordChange, Integer passwordHistorySize, Boolean passwordExpiryForAdmin, Integer cacheExpiration, Boolean enableRFC7613UsercaseMappedProfile) throws Exception {
+    public OrgApacheJackrabbitOakSecurityUserUserConfigurationImplInfo orgApacheJackrabbitOakSecurityUserUserConfigurationImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String usersPath, String groupsPath, String systemRelativePath, Integer defaultDepth, String importBehavior, String passwordHashAlgorithm, Integer passwordHashIterations, Integer passwordSaltSize, Boolean omitAdminPw, Boolean supportAutoSave, Integer passwordMaxAge, Boolean initialPasswordChange, Integer passwordHistorySize, Boolean passwordExpiryForAdmin, Integer cacheExpiration, Boolean enableRFC7613UsercaseMappedProfile) throws Exception {
         //Do your magic!!!
         return new OrgApacheJackrabbitOakSecurityUserUserConfigurationImplInfo();
     }
 
     @Override
-    public OrgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServiceInfo orgApacheJackrabbitOakSegmentAzureAzureSegmentStoreService(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String accountName, String containerName, String accessKey, String rootPath, String connectionURL) throws Exception {
+    public OrgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServiceInfo orgApacheJackrabbitOakSegmentAzureAzureSegmentStoreService(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String accountName, String containerName, String accessKey, String rootPath, String connectionURL) throws Exception {
         //Do your magic!!!
         return new OrgApacheJackrabbitOakSegmentAzureAzureSegmentStoreServiceInfo();
     }
 
     @Override
-    public OrgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryInfo orgApacheJackrabbitOakSegmentSegmentNodeStoreFactory(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String repositoryHome, String tarmkMode, Integer tarmkSize, Integer segmentCacheSize, Integer stringCacheSize, Integer templateCacheSize, Integer stringDeduplicationCacheSize, Integer templateDeduplicationCacheSize, Integer nodeDeduplicationCacheSize, Boolean pauseCompaction, Integer compactionRetryCount, Integer compactionForceTimeout, Integer compactionSizeDeltaEstimation, Boolean compactionDisableEstimation, Integer compactionRetainedGenerations, Integer compactionMemoryThreshold, Integer compactionProgressLog, Boolean standby, Boolean customBlobStore, Boolean customSegmentStore, Boolean splitPersistence, String repositoryBackupDir, Integer blobGcMaxAgeInSecs, Integer blobTrackSnapshotIntervalInSecs, String role, Boolean registerDescriptors, Boolean dispatchChanges) throws Exception {
+    public OrgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryInfo orgApacheJackrabbitOakSegmentSegmentNodeStoreFactory(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String repositoryHome, String tarmkMode, Integer tarmkSize, Integer segmentCacheSize, Integer stringCacheSize, Integer templateCacheSize, Integer stringDeduplicationCacheSize, Integer templateDeduplicationCacheSize, Integer nodeDeduplicationCacheSize, Boolean pauseCompaction, Integer compactionRetryCount, Integer compactionForceTimeout, Integer compactionSizeDeltaEstimation, Boolean compactionDisableEstimation, Integer compactionRetainedGenerations, Integer compactionMemoryThreshold, Integer compactionProgressLog, Boolean standby, Boolean customBlobStore, Boolean customSegmentStore, Boolean splitPersistence, String repositoryBackupDir, Integer blobGcMaxAgeInSecs, Integer blobTrackSnapshotIntervalInSecs, String role, Boolean registerDescriptors, Boolean dispatchChanges) throws Exception {
         //Do your magic!!!
         return new OrgApacheJackrabbitOakSegmentSegmentNodeStoreFactoryInfo();
     }
 
     @Override
-    public OrgApacheJackrabbitOakSegmentSegmentNodeStoreMonitorServiceInfo orgApacheJackrabbitOakSegmentSegmentNodeStoreMonitorService(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> commitsTrackerWriterGroups) throws Exception {
+    public OrgApacheJackrabbitOakSegmentSegmentNodeStoreMonitorServiceInfo orgApacheJackrabbitOakSegmentSegmentNodeStoreMonitorService(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> commitsTrackerWriterGroups) throws Exception {
         //Do your magic!!!
         return new OrgApacheJackrabbitOakSegmentSegmentNodeStoreMonitorServiceInfo();
     }
 
     @Override
-    public OrgApacheJackrabbitOakSegmentSegmentNodeStoreServiceInfo orgApacheJackrabbitOakSegmentSegmentNodeStoreService(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String repositoryHome, String tarmkMode, Integer tarmkSize, Integer segmentCacheSize, Integer stringCacheSize, Integer templateCacheSize, Integer stringDeduplicationCacheSize, Integer templateDeduplicationCacheSize, Integer nodeDeduplicationCacheSize, Boolean pauseCompaction, Integer compactionRetryCount, Integer compactionForceTimeout, Integer compactionSizeDeltaEstimation, Boolean compactionDisableEstimation, Integer compactionRetainedGenerations, Integer compactionMemoryThreshold, Integer compactionProgressLog, Boolean standby, Boolean customBlobStore, Boolean customSegmentStore, Boolean splitPersistence, String repositoryBackupDir, Integer blobGcMaxAgeInSecs, Integer blobTrackSnapshotIntervalInSecs) throws Exception {
+    public OrgApacheJackrabbitOakSegmentSegmentNodeStoreServiceInfo orgApacheJackrabbitOakSegmentSegmentNodeStoreService(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String repositoryHome, String tarmkMode, Integer tarmkSize, Integer segmentCacheSize, Integer stringCacheSize, Integer templateCacheSize, Integer stringDeduplicationCacheSize, Integer templateDeduplicationCacheSize, Integer nodeDeduplicationCacheSize, Boolean pauseCompaction, Integer compactionRetryCount, Integer compactionForceTimeout, Integer compactionSizeDeltaEstimation, Boolean compactionDisableEstimation, Integer compactionRetainedGenerations, Integer compactionMemoryThreshold, Integer compactionProgressLog, Boolean standby, Boolean customBlobStore, Boolean customSegmentStore, Boolean splitPersistence, String repositoryBackupDir, Integer blobGcMaxAgeInSecs, Integer blobTrackSnapshotIntervalInSecs) throws Exception {
         //Do your magic!!!
         return new OrgApacheJackrabbitOakSegmentSegmentNodeStoreServiceInfo();
     }
 
     @Override
-    public OrgApacheJackrabbitOakSegmentStandbyStoreStandbyStoreServiceInfo orgApacheJackrabbitOakSegmentStandbyStoreStandbyStoreService(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean orgApacheSlingInstallerConfigurationPersist, String mode, Integer port, String primaryHost, Integer interval, List<String> primaryAllowedClientIpRanges, Boolean secure, Integer standbyReadtimeout, Boolean standbyAutoclean) throws Exception {
+    public OrgApacheJackrabbitOakSegmentStandbyStoreStandbyStoreServiceInfo orgApacheJackrabbitOakSegmentStandbyStoreStandbyStoreService(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean orgApacheSlingInstallerConfigurationPersist, String mode, Integer port, String primaryHost, Integer interval, List<String> primaryAllowedClientIpRanges, Boolean secure, Integer standbyReadtimeout, Boolean standbyAutoclean) throws Exception {
         //Do your magic!!!
         return new OrgApacheJackrabbitOakSegmentStandbyStoreStandbyStoreServiceInfo();
     }
 
     @Override
-    public OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeInfo orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDe(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String handlerName, String userExpirationTime, List<String> userAutoMembership, List<String> userPropertyMapping, String userPathPrefix, String userMembershipExpTime, Integer userMembershipNestingDepth, Boolean userDynamicMembership, Boolean userDisableMissing, String groupExpirationTime, List<String> groupAutoMembership, List<String> groupPropertyMapping, String groupPathPrefix, Boolean enableRFC7613UsercaseMappedProfile) throws Exception {
+    public OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeInfo orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDe(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String handlerName, String userExpirationTime, List<String> userAutoMembership, List<String> userPropertyMapping, String userPathPrefix, String userMembershipExpTime, Integer userMembershipNestingDepth, Boolean userDynamicMembership, Boolean userDisableMissing, String groupExpirationTime, List<String> groupAutoMembership, List<String> groupPropertyMapping, String groupPathPrefix, Boolean enableRFC7613UsercaseMappedProfile) throws Exception {
         //Do your magic!!!
         return new OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplDeInfo();
     }
 
     @Override
-    public OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExInfo orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplEx(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer jaasRanking, String jaasControlFlag, String jaasRealmName, String idpName, String syncHandlerName) throws Exception {
+    public OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExInfo orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplEx(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer jaasRanking, String jaasControlFlag, String jaasRealmName, String idpName, String syncHandlerName) throws Exception {
         //Do your magic!!!
         return new OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplExInfo();
     }
 
     @Override
-    public OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrInfo orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPr(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean protectExternalId) throws Exception {
+    public OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrInfo orgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPr(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean protectExternalId) throws Exception {
         //Do your magic!!!
         return new OrgApacheJackrabbitOakSpiSecurityAuthenticationExternalImplPrInfo();
     }
 
     @Override
-    public OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiInfo orgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfi(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> cugSupportedPaths, Boolean cugEnabled, Integer configurationRanking) throws Exception {
+    public OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiInfo orgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfi(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> cugSupportedPaths, Boolean cugEnabled, Integer configurationRanking) throws Exception {
         //Do your magic!!!
         return new OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugConfiInfo();
     }
 
     @Override
-    public OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExcluInfo orgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExclu(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> principalNames) throws Exception {
+    public OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExcluInfo orgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExclu(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> principalNames) throws Exception {
         //Do your magic!!!
         return new OrgApacheJackrabbitOakSpiSecurityAuthorizationCugImplCugExcluInfo();
     }
 
     @Override
-    public OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableInfo orgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizable(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String enabledActions, List<String> userPrivilegeNames, List<String> groupPrivilegeNames, String constraint) throws Exception {
+    public OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableInfo orgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizable(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String enabledActions, List<String> userPrivilegeNames, List<String> groupPrivilegeNames, String constraint) throws Exception {
         //Do your magic!!!
         return new OrgApacheJackrabbitOakSpiSecurityUserActionDefaultAuthorizableInfo();
     }
 
     @Override
-    public OrgApacheJackrabbitVaultPackagingImplPackagingImplInfo orgApacheJackrabbitVaultPackagingImplPackagingImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> packageRoots) throws Exception {
+    public OrgApacheJackrabbitVaultPackagingImplPackagingImplInfo orgApacheJackrabbitVaultPackagingImplPackagingImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> packageRoots) throws Exception {
         //Do your magic!!!
         return new OrgApacheJackrabbitVaultPackagingImplPackagingImplInfo();
     }
 
     @Override
-    public OrgApacheJackrabbitVaultPackagingRegistryImplFSPackageRegistryInfo orgApacheJackrabbitVaultPackagingRegistryImplFSPackageRegistry(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String homePath) throws Exception {
+    public OrgApacheJackrabbitVaultPackagingRegistryImplFSPackageRegistryInfo orgApacheJackrabbitVaultPackagingRegistryImplFSPackageRegistry(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String homePath) throws Exception {
         //Do your magic!!!
         return new OrgApacheJackrabbitVaultPackagingRegistryImplFSPackageRegistryInfo();
     }
 
     @Override
-    public OrgApacheSlingAuthCoreImplLogoutServletInfo orgApacheSlingAuthCoreImplLogoutServlet(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> slingServletMethods, String slingServletPaths) throws Exception {
+    public OrgApacheSlingAuthCoreImplLogoutServletInfo orgApacheSlingAuthCoreImplLogoutServlet(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> slingServletMethods, String slingServletPaths) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingAuthCoreImplLogoutServletInfo();
     }
 
     @Override
-    public OrgApacheSlingCaconfigImplConfigurationBindingsValueProviderInfo orgApacheSlingCaconfigImplConfigurationBindingsValueProvider(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean enabled) throws Exception {
+    public OrgApacheSlingCaconfigImplConfigurationBindingsValueProviderInfo orgApacheSlingCaconfigImplConfigurationBindingsValueProvider(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean enabled) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingCaconfigImplConfigurationBindingsValueProviderInfo();
     }
 
     @Override
-    public OrgApacheSlingCaconfigImplConfigurationResolverImplInfo orgApacheSlingCaconfigImplConfigurationResolverImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> configBucketNames) throws Exception {
+    public OrgApacheSlingCaconfigImplConfigurationResolverImplInfo orgApacheSlingCaconfigImplConfigurationResolverImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> configBucketNames) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingCaconfigImplConfigurationResolverImplInfo();
     }
 
     @Override
-    public OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStraInfo orgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStra(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean enabled, List<String> configPropertyInheritancePropertyNames) throws Exception {
+    public OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStraInfo orgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStra(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean enabled, List<String> configPropertyInheritancePropertyNames) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingCaconfigImplDefDefaultConfigurationInheritanceStraInfo();
     }
 
     @Override
-    public OrgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStraInfo orgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStra(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean enabled) throws Exception {
+    public OrgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStraInfo orgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStra(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean enabled) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingCaconfigImplDefDefaultConfigurationPersistenceStraInfo();
     }
 
     @Override
-    public OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviInfo orgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProvi(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String description, List<String> overrides, Boolean enabled, Integer serviceRanking) throws Exception {
+    public OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviInfo orgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProvi(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String description, List<String> overrides, Boolean enabled, Integer serviceRanking) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingCaconfigImplOverrideOsgiConfigurationOverrideProviInfo();
     }
 
     @Override
-    public OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOveInfo orgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOve(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean enabled, Integer serviceRanking) throws Exception {
+    public OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOveInfo orgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOve(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean enabled, Integer serviceRanking) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingCaconfigImplOverrideSystemPropertyConfigurationOveInfo();
     }
 
     @Override
-    public OrgApacheSlingCaconfigManagementImplConfigurationManagementSettiInfo orgApacheSlingCaconfigManagementImplConfigurationManagementSetti(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> ignorePropertyNameRegex, List<String> configCollectionPropertiesResourceNames) throws Exception {
+    public OrgApacheSlingCaconfigManagementImplConfigurationManagementSettiInfo orgApacheSlingCaconfigManagementImplConfigurationManagementSetti(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> ignorePropertyNameRegex, List<String> configCollectionPropertiesResourceNames) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingCaconfigManagementImplConfigurationManagementSettiInfo();
     }
 
     @Override
-    public OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourInfo orgApacheSlingCaconfigResourceImplDefDefaultConfigurationResour(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean enabled, String configPath, List<String> fallbackPaths, List<String> configCollectionInheritancePropertyNames) throws Exception {
+    public OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourInfo orgApacheSlingCaconfigResourceImplDefDefaultConfigurationResour(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean enabled, String configPath, List<String> fallbackPaths, List<String> configCollectionInheritancePropertyNames) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourInfo();
     }
 
     @Override
-    public OrgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyInfo orgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategy(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean enabled, List<String> configRefResourceNames, List<String> configRefPropertyNames, Integer serviceRanking) throws Exception {
+    public OrgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyInfo orgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategy(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean enabled, List<String> configRefResourceNames, List<String> configRefPropertyNames, Integer serviceRanking) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingCaconfigResourceImplDefDefaultContextPathStrategyInfo();
     }
 
     @Override
-    public OrgApacheSlingCommonsHtmlInternalTagsoupHtmlParserInfo orgApacheSlingCommonsHtmlInternalTagsoupHtmlParser(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> parserFeatures) throws Exception {
+    public OrgApacheSlingCommonsHtmlInternalTagsoupHtmlParserInfo orgApacheSlingCommonsHtmlInternalTagsoupHtmlParser(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> parserFeatures) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingCommonsHtmlInternalTagsoupHtmlParserInfo();
     }
 
     @Override
-    public OrgApacheSlingCommonsLogLogManagerInfo orgApacheSlingCommonsLogLogManager(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String orgApacheSlingCommonsLogLevel, String orgApacheSlingCommonsLogFile, Integer orgApacheSlingCommonsLogFileNumber, String orgApacheSlingCommonsLogFileSize, String orgApacheSlingCommonsLogPattern, String orgApacheSlingCommonsLogConfigurationFile, Boolean orgApacheSlingCommonsLogPackagingDataEnabled, Integer orgApacheSlingCommonsLogMaxCallerDataDepth, Integer orgApacheSlingCommonsLogMaxOldFileCountInDump, Integer orgApacheSlingCommonsLogNumOfLines) throws Exception {
+    public OrgApacheSlingCommonsLogLogManagerInfo orgApacheSlingCommonsLogLogManager(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String orgApacheSlingCommonsLogLevel, String orgApacheSlingCommonsLogFile, Integer orgApacheSlingCommonsLogFileNumber, String orgApacheSlingCommonsLogFileSize, String orgApacheSlingCommonsLogPattern, String orgApacheSlingCommonsLogConfigurationFile, Boolean orgApacheSlingCommonsLogPackagingDataEnabled, Integer orgApacheSlingCommonsLogMaxCallerDataDepth, Integer orgApacheSlingCommonsLogMaxOldFileCountInDump, Integer orgApacheSlingCommonsLogNumOfLines) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingCommonsLogLogManagerInfo();
     }
 
     @Override
-    public OrgApacheSlingCommonsLogLogManagerFactoryConfigInfo orgApacheSlingCommonsLogLogManagerFactoryConfig(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String orgApacheSlingCommonsLogLevel, String orgApacheSlingCommonsLogFile, String orgApacheSlingCommonsLogPattern, List<String> orgApacheSlingCommonsLogNames, Boolean orgApacheSlingCommonsLogAdditiv) throws Exception {
+    public OrgApacheSlingCommonsLogLogManagerFactoryConfigInfo orgApacheSlingCommonsLogLogManagerFactoryConfig(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String orgApacheSlingCommonsLogLevel, String orgApacheSlingCommonsLogFile, String orgApacheSlingCommonsLogPattern, List<String> orgApacheSlingCommonsLogNames, Boolean orgApacheSlingCommonsLogAdditiv) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingCommonsLogLogManagerFactoryConfigInfo();
     }
 
     @Override
-    public OrgApacheSlingCommonsLogLogManagerFactoryWriterInfo orgApacheSlingCommonsLogLogManagerFactoryWriter(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String orgApacheSlingCommonsLogFile, Integer orgApacheSlingCommonsLogFileNumber, String orgApacheSlingCommonsLogFileSize, Boolean orgApacheSlingCommonsLogFileBuffered) throws Exception {
+    public OrgApacheSlingCommonsLogLogManagerFactoryWriterInfo orgApacheSlingCommonsLogLogManagerFactoryWriter(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String orgApacheSlingCommonsLogFile, Integer orgApacheSlingCommonsLogFileNumber, String orgApacheSlingCommonsLogFileSize, Boolean orgApacheSlingCommonsLogFileBuffered) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingCommonsLogLogManagerFactoryWriterInfo();
     }
 
     @Override
-    public OrgApacheSlingCommonsMetricsInternalLogReporterInfo orgApacheSlingCommonsMetricsInternalLogReporter(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer period, String timeUnit, String level, String loggerName, String prefix, String pattern, String registryName) throws Exception {
+    public OrgApacheSlingCommonsMetricsInternalLogReporterInfo orgApacheSlingCommonsMetricsInternalLogReporter(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer period, String timeUnit, String level, String loggerName, String prefix, String pattern, String registryName) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingCommonsMetricsInternalLogReporterInfo();
     }
 
     @Override
-    public OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterInfo orgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporter(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> datasources, Integer step, List<String> archives, String path) throws Exception {
+    public OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterInfo orgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporter(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> datasources, Integer step, List<String> archives, String path) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterInfo();
     }
 
     @Override
-    public OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfo orgApacheSlingCommonsMimeInternalMimeTypeServiceImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> mimeTypes) throws Exception {
+    public OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfo orgApacheSlingCommonsMimeInternalMimeTypeServiceImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> mimeTypes) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingCommonsMimeInternalMimeTypeServiceImplInfo();
     }
 
     @Override
-    public OrgApacheSlingCommonsSchedulerImplQuartzSchedulerInfo orgApacheSlingCommonsSchedulerImplQuartzScheduler(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String poolName, List<String> allowedPoolNames, Boolean schedulerUseleaderforsingle, List<String> metricsFilters, Integer slowThresholdMillis) throws Exception {
+    public OrgApacheSlingCommonsSchedulerImplQuartzSchedulerInfo orgApacheSlingCommonsSchedulerImplQuartzScheduler(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String poolName, List<String> allowedPoolNames, Boolean schedulerUseleaderforsingle, List<String> metricsFilters, Integer slowThresholdMillis) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingCommonsSchedulerImplQuartzSchedulerInfo();
     }
 
     @Override
-    public OrgApacheSlingCommonsSchedulerImplSchedulerHealthCheckInfo orgApacheSlingCommonsSchedulerImplSchedulerHealthCheck(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer maxQuartzJobDurationAcceptable) throws Exception {
+    public OrgApacheSlingCommonsSchedulerImplSchedulerHealthCheckInfo orgApacheSlingCommonsSchedulerImplSchedulerHealthCheck(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer maxQuartzJobDurationAcceptable) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingCommonsSchedulerImplSchedulerHealthCheckInfo();
     }
 
     @Override
-    public OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryInfo orgApacheSlingCommonsThreadsImplDefaultThreadPoolFactory(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String name, Integer minPoolSize, Integer maxPoolSize, Integer queueSize, Integer maxThreadAge, Integer keepAliveTime, String blockPolicy, Boolean shutdownGraceful, Boolean daemon, Integer shutdownWaitTime, String priority) throws Exception {
+    public OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryInfo orgApacheSlingCommonsThreadsImplDefaultThreadPoolFactory(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String name, Integer minPoolSize, Integer maxPoolSize, Integer queueSize, Integer maxThreadAge, Integer keepAliveTime, String blockPolicy, Boolean shutdownGraceful, Boolean daemon, Integer shutdownWaitTime, String priority) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingCommonsThreadsImplDefaultThreadPoolFactoryInfo();
     }
 
     @Override
-    public OrgApacheSlingDatasourceDataSourceFactoryInfo orgApacheSlingDatasourceDataSourceFactory(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String datasourceName, String datasourceSvcPropName, String driverClassName, String url, String username, String password, String defaultAutoCommit, String defaultReadOnly, String defaultTransactionIsolation, String defaultCatalog, Integer maxActive, Integer maxIdle, Integer minIdle, Integer initialSize, Integer maxWait, Integer maxAge, Boolean testOnBorrow, Boolean testOnReturn, Boolean testWhileIdle, String validationQuery, Integer validationQueryTimeout, Integer timeBetweenEvictionRunsMillis, Integer minEvictableIdleTimeMillis, String connectionProperties, String initSQL, String jdbcInterceptors, Integer validationInterval, Boolean logValidationErrors, List<String> datasourceSvcProperties) throws Exception {
+    public OrgApacheSlingDatasourceDataSourceFactoryInfo orgApacheSlingDatasourceDataSourceFactory(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String datasourceName, String datasourceSvcPropName, String driverClassName, String url, String username, String password, String defaultAutoCommit, String defaultReadOnly, String defaultTransactionIsolation, String defaultCatalog, Integer maxActive, Integer maxIdle, Integer minIdle, Integer initialSize, Integer maxWait, Integer maxAge, Boolean testOnBorrow, Boolean testOnReturn, Boolean testWhileIdle, String validationQuery, Integer validationQueryTimeout, Integer timeBetweenEvictionRunsMillis, Integer minEvictableIdleTimeMillis, String connectionProperties, String initSQL, String jdbcInterceptors, Integer validationInterval, Boolean logValidationErrors, List<String> datasourceSvcProperties) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingDatasourceDataSourceFactoryInfo();
     }
 
     @Override
-    public OrgApacheSlingDatasourceJNDIDataSourceFactoryInfo orgApacheSlingDatasourceJNDIDataSourceFactory(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String datasourceName, String datasourceSvcPropName, String datasourceJndiName, List<String> jndiProperties) throws Exception {
+    public OrgApacheSlingDatasourceJNDIDataSourceFactoryInfo orgApacheSlingDatasourceJNDIDataSourceFactory(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String datasourceName, String datasourceSvcPropName, String datasourceJndiName, List<String> jndiProperties) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingDatasourceJNDIDataSourceFactoryInfo();
     }
 
     @Override
-    public OrgApacheSlingDiscoveryOakConfigInfo orgApacheSlingDiscoveryOakConfig(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer connectorPingTimeout, Integer connectorPingInterval, Integer discoveryLiteCheckInterval, Integer clusterSyncServiceTimeout, Integer clusterSyncServiceInterval, Boolean enableSyncToken, Integer minEventDelay, Integer socketConnectTimeout, Integer soTimeout, List<String> topologyConnectorUrls, List<String> topologyConnectorWhitelist, Boolean autoStopLocalLoopEnabled, Boolean gzipConnectorRequestsEnabled, Boolean hmacEnabled, Boolean enableEncryption, String sharedKey, Integer hmacSharedKeyTTL, String backoffStandbyFactor, String backoffStableFactor) throws Exception {
+    public OrgApacheSlingDiscoveryOakConfigInfo orgApacheSlingDiscoveryOakConfig(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer connectorPingTimeout, Integer connectorPingInterval, Integer discoveryLiteCheckInterval, Integer clusterSyncServiceTimeout, Integer clusterSyncServiceInterval, Boolean enableSyncToken, Integer minEventDelay, Integer socketConnectTimeout, Integer soTimeout, List<String> topologyConnectorUrls, List<String> topologyConnectorWhitelist, Boolean autoStopLocalLoopEnabled, Boolean gzipConnectorRequestsEnabled, Boolean hmacEnabled, Boolean enableEncryption, String sharedKey, Integer hmacSharedKeyTTL, String backoffStandbyFactor, String backoffStableFactor) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingDiscoveryOakConfigInfo();
     }
 
     @Override
-    public OrgApacheSlingDiscoveryOakSynchronizedClocksHealthCheckInfo orgApacheSlingDiscoveryOakSynchronizedClocksHealthCheck(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String hcName, List<String> hcTags, String hcMbeanName) throws Exception {
+    public OrgApacheSlingDiscoveryOakSynchronizedClocksHealthCheckInfo orgApacheSlingDiscoveryOakSynchronizedClocksHealthCheck(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String hcName, List<String> hcTags, String hcMbeanName) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingDiscoveryOakSynchronizedClocksHealthCheckInfo();
     }
 
     @Override
-    public OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoInfo orgApacheSlingDistributionAgentImplForwardDistributionAgentFacto(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String name, String title, String details, Boolean enabled, String serviceName, String logLevel, List<String> allowedRoots, Boolean queueProcessingEnabled, List<String> packageImporterEndpoints, List<String> passiveQueues, List<String> priorityQueues, String retryStrategy, Integer retryAttempts, String requestAuthorizationStrategyTarget, String transportSecretProviderTarget, String packageBuilderTarget, String triggersTarget, String queueProvider, Boolean asyncDelivery, Integer httpConnTimeout) throws Exception {
+    public OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoInfo orgApacheSlingDistributionAgentImplForwardDistributionAgentFacto(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String name, String title, String details, Boolean enabled, String serviceName, String logLevel, List<String> allowedRoots, Boolean queueProcessingEnabled, List<String> packageImporterEndpoints, List<String> passiveQueues, List<String> priorityQueues, String retryStrategy, Integer retryAttempts, String requestAuthorizationStrategyTarget, String transportSecretProviderTarget, String packageBuilderTarget, String triggersTarget, String queueProvider, Boolean asyncDelivery, Integer httpConnTimeout) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoInfo();
     }
 
     @Override
-    public OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAInfo orgApacheSlingDistributionAgentImplPrivilegeDistributionRequestA(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String name, String jcrPrivilege) throws Exception {
+    public OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAInfo orgApacheSlingDistributionAgentImplPrivilegeDistributionRequestA(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String name, String jcrPrivilege) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAInfo();
     }
 
     @Override
-    public OrgApacheSlingDistributionAgentImplQueueDistributionAgentFactoryInfo orgApacheSlingDistributionAgentImplQueueDistributionAgentFactory(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String name, String title, String details, Boolean enabled, String serviceName, String logLevel, List<String> allowedRoots, String requestAuthorizationStrategyTarget, String queueProviderFactoryTarget, String packageBuilderTarget, String triggersTarget, List<String> priorityQueues) throws Exception {
+    public OrgApacheSlingDistributionAgentImplQueueDistributionAgentFactoryInfo orgApacheSlingDistributionAgentImplQueueDistributionAgentFactory(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String name, String title, String details, Boolean enabled, String serviceName, String logLevel, List<String> allowedRoots, String requestAuthorizationStrategyTarget, String queueProviderFactoryTarget, String packageBuilderTarget, String triggersTarget, List<String> priorityQueues) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingDistributionAgentImplQueueDistributionAgentFactoryInfo();
     }
 
     @Override
-    public OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoInfo orgApacheSlingDistributionAgentImplReverseDistributionAgentFacto(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String name, String title, String details, Boolean enabled, String serviceName, String logLevel, Boolean queueProcessingEnabled, List<String> packageExporterEndpoints, Integer pullItems, Integer httpConnTimeout, String requestAuthorizationStrategyTarget, String transportSecretProviderTarget, String packageBuilderTarget, String triggersTarget) throws Exception {
+    public OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoInfo orgApacheSlingDistributionAgentImplReverseDistributionAgentFacto(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String name, String title, String details, Boolean enabled, String serviceName, String logLevel, Boolean queueProcessingEnabled, List<String> packageExporterEndpoints, Integer pullItems, Integer httpConnTimeout, String requestAuthorizationStrategyTarget, String transportSecretProviderTarget, String packageBuilderTarget, String triggersTarget) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingDistributionAgentImplReverseDistributionAgentFactoInfo();
     }
 
     @Override
-    public OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorInfo orgApacheSlingDistributionAgentImplSimpleDistributionAgentFactor(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String name, String title, String details, Boolean enabled, String serviceName, String logLevel, Boolean queueProcessingEnabled, String packageExporterTarget, String packageImporterTarget, String requestAuthorizationStrategyTarget, String triggersTarget) throws Exception {
+    public OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorInfo orgApacheSlingDistributionAgentImplSimpleDistributionAgentFactor(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String name, String title, String details, Boolean enabled, String serviceName, String logLevel, Boolean queueProcessingEnabled, String packageExporterTarget, String packageImporterTarget, String requestAuthorizationStrategyTarget, String triggersTarget) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingDistributionAgentImplSimpleDistributionAgentFactorInfo();
     }
 
     @Override
-    public OrgApacheSlingDistributionAgentImplSyncDistributionAgentFactoryInfo orgApacheSlingDistributionAgentImplSyncDistributionAgentFactory(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String name, String title, String details, Boolean enabled, String serviceName, String logLevel, Boolean queueProcessingEnabled, List<String> passiveQueues, List<String> packageExporterEndpoints, List<String> packageImporterEndpoints, String retryStrategy, Integer retryAttempts, Integer pullItems, Integer httpConnTimeout, String requestAuthorizationStrategyTarget, String transportSecretProviderTarget, String packageBuilderTarget, String triggersTarget) throws Exception {
+    public OrgApacheSlingDistributionAgentImplSyncDistributionAgentFactoryInfo orgApacheSlingDistributionAgentImplSyncDistributionAgentFactory(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String name, String title, String details, Boolean enabled, String serviceName, String logLevel, Boolean queueProcessingEnabled, List<String> passiveQueues, List<String> packageExporterEndpoints, List<String> packageImporterEndpoints, String retryStrategy, Integer retryAttempts, Integer pullItems, Integer httpConnTimeout, String requestAuthorizationStrategyTarget, String transportSecretProviderTarget, String packageBuilderTarget, String triggersTarget) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingDistributionAgentImplSyncDistributionAgentFactoryInfo();
     }
 
     @Override
-    public OrgApacheSlingDistributionMonitorDistributionQueueHealthCheckInfo orgApacheSlingDistributionMonitorDistributionQueueHealthCheck(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String hcName, List<String> hcTags, String hcMbeanName, Integer numberOfRetriesAllowed) throws Exception {
+    public OrgApacheSlingDistributionMonitorDistributionQueueHealthCheckInfo orgApacheSlingDistributionMonitorDistributionQueueHealthCheck(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String hcName, List<String> hcTags, String hcMbeanName, Integer numberOfRetriesAllowed) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingDistributionMonitorDistributionQueueHealthCheckInfo();
     }
 
     @Override
-    public OrgApacheSlingDistributionPackagingImplExporterAgentDistributioInfo orgApacheSlingDistributionPackagingImplExporterAgentDistributio(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String name, String queue, Boolean dropInvalidItems, String agentTarget) throws Exception {
+    public OrgApacheSlingDistributionPackagingImplExporterAgentDistributioInfo orgApacheSlingDistributionPackagingImplExporterAgentDistributio(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String name, String queue, Boolean dropInvalidItems, String agentTarget) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingDistributionPackagingImplExporterAgentDistributioInfo();
     }
 
     @Override
-    public OrgApacheSlingDistributionPackagingImplExporterLocalDistributioInfo orgApacheSlingDistributionPackagingImplExporterLocalDistributio(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String name, String packageBuilderTarget) throws Exception {
+    public OrgApacheSlingDistributionPackagingImplExporterLocalDistributioInfo orgApacheSlingDistributionPackagingImplExporterLocalDistributio(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String name, String packageBuilderTarget) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingDistributionPackagingImplExporterLocalDistributioInfo();
     }
 
     @Override
-    public OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiInfo orgApacheSlingDistributionPackagingImplExporterRemoteDistributi(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String name, List<String> endpoints, Integer pullItems, String packageBuilderTarget, String transportSecretProviderTarget) throws Exception {
+    public OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiInfo orgApacheSlingDistributionPackagingImplExporterRemoteDistributi(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String name, List<String> endpoints, Integer pullItems, String packageBuilderTarget, String transportSecretProviderTarget) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingDistributionPackagingImplExporterRemoteDistributiInfo();
     }
 
     @Override
-    public OrgApacheSlingDistributionPackagingImplImporterLocalDistributioInfo orgApacheSlingDistributionPackagingImplImporterLocalDistributio(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String name, String packageBuilderTarget) throws Exception {
+    public OrgApacheSlingDistributionPackagingImplImporterLocalDistributioInfo orgApacheSlingDistributionPackagingImplImporterLocalDistributio(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String name, String packageBuilderTarget) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingDistributionPackagingImplImporterLocalDistributioInfo();
     }
 
     @Override
-    public OrgApacheSlingDistributionPackagingImplImporterRemoteDistributiInfo orgApacheSlingDistributionPackagingImplImporterRemoteDistributi(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String name, List<String> endpoints, String transportSecretProviderTarget) throws Exception {
+    public OrgApacheSlingDistributionPackagingImplImporterRemoteDistributiInfo orgApacheSlingDistributionPackagingImplImporterRemoteDistributi(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String name, List<String> endpoints, String transportSecretProviderTarget) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingDistributionPackagingImplImporterRemoteDistributiInfo();
     }
 
     @Override
-    public OrgApacheSlingDistributionPackagingImplImporterRepositoryDistriInfo orgApacheSlingDistributionPackagingImplImporterRepositoryDistri(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String name, String serviceName, String path, String privilegeName) throws Exception {
+    public OrgApacheSlingDistributionPackagingImplImporterRepositoryDistriInfo orgApacheSlingDistributionPackagingImplImporterRepositoryDistri(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String name, String serviceName, String path, String privilegeName) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingDistributionPackagingImplImporterRepositoryDistriInfo();
     }
 
     @Override
-    public OrgApacheSlingDistributionResourcesImplDistributionConfigurationInfo orgApacheSlingDistributionResourcesImplDistributionConfiguration(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String providerRoots, String kind) throws Exception {
+    public OrgApacheSlingDistributionResourcesImplDistributionConfigurationInfo orgApacheSlingDistributionResourcesImplDistributionConfiguration(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String providerRoots, String kind) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingDistributionResourcesImplDistributionConfigurationInfo();
     }
 
     @Override
-    public OrgApacheSlingDistributionResourcesImplDistributionServiceResourInfo orgApacheSlingDistributionResourcesImplDistributionServiceResour(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String providerRoots, String kind) throws Exception {
+    public OrgApacheSlingDistributionResourcesImplDistributionServiceResourInfo orgApacheSlingDistributionResourcesImplDistributionServiceResour(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String providerRoots, String kind) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingDistributionResourcesImplDistributionServiceResourInfo();
     }
 
     @Override
-    public OrgApacheSlingDistributionSerializationImplDistributionPackageBuInfo orgApacheSlingDistributionSerializationImplDistributionPackageBu(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String name, String type, String formatTarget, String tempFsFolder, Integer fileThreshold, String memoryUnit, Boolean useOffHeapMemory, String digestAlgorithm, Integer monitoringQueueSize, Integer cleanupDelay, List<String> packageFilters, List<String> propertyFilters) throws Exception {
+    public OrgApacheSlingDistributionSerializationImplDistributionPackageBuInfo orgApacheSlingDistributionSerializationImplDistributionPackageBu(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String name, String type, String formatTarget, String tempFsFolder, Integer fileThreshold, String memoryUnit, Boolean useOffHeapMemory, String digestAlgorithm, Integer monitoringQueueSize, Integer cleanupDelay, List<String> packageFilters, List<String> propertyFilters) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingDistributionSerializationImplDistributionPackageBuInfo();
     }
 
     @Override
-    public OrgApacheSlingDistributionSerializationImplVltVaultDistributionInfo orgApacheSlingDistributionSerializationImplVltVaultDistribution(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String name, String type, String importMode, String aclHandling, String packageRoots, List<String> packageFilters, List<String> propertyFilters, String tempFsFolder, Boolean useBinaryReferences, Integer autoSaveThreshold, Integer cleanupDelay, Integer fileThreshold, String MEGA_BYTES, Boolean useOffHeapMemory, String digestAlgorithm, Integer monitoringQueueSize, List<String> pathsMapping, Boolean strictImport) throws Exception {
+    public OrgApacheSlingDistributionSerializationImplVltVaultDistributionInfo orgApacheSlingDistributionSerializationImplVltVaultDistribution(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String name, String type, String importMode, String aclHandling, String packageRoots, List<String> packageFilters, List<String> propertyFilters, String tempFsFolder, Boolean useBinaryReferences, Integer autoSaveThreshold, Integer cleanupDelay, Integer fileThreshold, String MEGA_BYTES, Boolean useOffHeapMemory, String digestAlgorithm, Integer monitoringQueueSize, List<String> pathsMapping, Boolean strictImport) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingDistributionSerializationImplVltVaultDistributionInfo();
     }
 
     @Override
-    public OrgApacheSlingDistributionTransportImplUserCredentialsDistributiInfo orgApacheSlingDistributionTransportImplUserCredentialsDistributi(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String name, String username, String password) throws Exception {
+    public OrgApacheSlingDistributionTransportImplUserCredentialsDistributiInfo orgApacheSlingDistributionTransportImplUserCredentialsDistributi(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String name, String username, String password) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingDistributionTransportImplUserCredentialsDistributiInfo();
     }
 
     @Override
-    public OrgApacheSlingDistributionTriggerImplDistributionEventDistributeInfo orgApacheSlingDistributionTriggerImplDistributionEventDistribute(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String name, String path) throws Exception {
+    public OrgApacheSlingDistributionTriggerImplDistributionEventDistributeInfo orgApacheSlingDistributionTriggerImplDistributionEventDistribute(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String name, String path) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingDistributionTriggerImplDistributionEventDistributeInfo();
     }
 
     @Override
-    public OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerInfo orgApacheSlingDistributionTriggerImplJcrEventDistributionTrigger(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String name, String path, List<String> ignoredPathsPatterns, String serviceName, Boolean deep) throws Exception {
+    public OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerInfo orgApacheSlingDistributionTriggerImplJcrEventDistributionTrigger(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String name, String path, List<String> ignoredPathsPatterns, String serviceName, Boolean deep) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerInfo();
     }
 
     @Override
-    public OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiInfo orgApacheSlingDistributionTriggerImplPersistedJcrEventDistributi(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String name, String path, String serviceName, String nuggetsPath) throws Exception {
+    public OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiInfo orgApacheSlingDistributionTriggerImplPersistedJcrEventDistributi(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String name, String path, String serviceName, String nuggetsPath) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiInfo();
     }
 
     @Override
-    public OrgApacheSlingDistributionTriggerImplRemoteEventDistributionTrigInfo orgApacheSlingDistributionTriggerImplRemoteEventDistributionTrig(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String name, String endpoint, String transportSecretProviderTarget) throws Exception {
+    public OrgApacheSlingDistributionTriggerImplRemoteEventDistributionTrigInfo orgApacheSlingDistributionTriggerImplRemoteEventDistributionTrig(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String name, String endpoint, String transportSecretProviderTarget) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingDistributionTriggerImplRemoteEventDistributionTrigInfo();
     }
 
     @Override
-    public OrgApacheSlingDistributionTriggerImplResourceEventDistributionTrInfo orgApacheSlingDistributionTriggerImplResourceEventDistributionTr(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String name, String path) throws Exception {
+    public OrgApacheSlingDistributionTriggerImplResourceEventDistributionTrInfo orgApacheSlingDistributionTriggerImplResourceEventDistributionTr(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String name, String path) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingDistributionTriggerImplResourceEventDistributionTrInfo();
     }
 
     @Override
-    public OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggeInfo orgApacheSlingDistributionTriggerImplScheduledDistributionTrigge(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String name, String path, String seconds, String serviceName) throws Exception {
+    public OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggeInfo orgApacheSlingDistributionTriggerImplScheduledDistributionTrigge(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String name, String path, String seconds, String serviceName) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingDistributionTriggerImplScheduledDistributionTriggeInfo();
     }
 
     @Override
-    public OrgApacheSlingEngineImplAuthSlingAuthenticatorInfo orgApacheSlingEngineImplAuthSlingAuthenticator(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String osgiHttpWhiteboardContextSelect, String osgiHttpWhiteboardListener, String authSudoCookie, String authSudoParameter, Boolean authAnnonymous, List<String> slingAuthRequirements, String slingAuthAnonymousUser, String slingAuthAnonymousPassword, String authHttp, String authHttpRealm, List<String> authUriSuffix) throws Exception {
+    public OrgApacheSlingEngineImplAuthSlingAuthenticatorInfo orgApacheSlingEngineImplAuthSlingAuthenticator(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String osgiHttpWhiteboardContextSelect, String osgiHttpWhiteboardListener, String authSudoCookie, String authSudoParameter, Boolean authAnnonymous, List<String> slingAuthRequirements, String slingAuthAnonymousUser, String slingAuthAnonymousPassword, String authHttp, String authHttpRealm, List<String> authUriSuffix) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingEngineImplAuthSlingAuthenticatorInfo();
     }
 
     @Override
-    public OrgApacheSlingEngineImplDebugRequestProgressTrackerLogFilterInfo orgApacheSlingEngineImplDebugRequestProgressTrackerLogFilter(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> extensions, Integer minDurationMs, Integer maxDurationMs, Boolean compactLogFormat) throws Exception {
+    public OrgApacheSlingEngineImplDebugRequestProgressTrackerLogFilterInfo orgApacheSlingEngineImplDebugRequestProgressTrackerLogFilter(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> extensions, Integer minDurationMs, Integer maxDurationMs, Boolean compactLogFormat) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingEngineImplDebugRequestProgressTrackerLogFilterInfo();
     }
 
     @Override
-    public OrgApacheSlingEngineImplLogRequestLoggerInfo orgApacheSlingEngineImplLogRequestLogger(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String requestLogOutput, Integer requestLogOutputtype, Boolean requestLogEnabled, String accessLogOutput, Integer accessLogOutputtype, Boolean accessLogEnabled) throws Exception {
+    public OrgApacheSlingEngineImplLogRequestLoggerInfo orgApacheSlingEngineImplLogRequestLogger(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String requestLogOutput, Integer requestLogOutputtype, Boolean requestLogEnabled, String accessLogOutput, Integer accessLogOutputtype, Boolean accessLogEnabled) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingEngineImplLogRequestLoggerInfo();
     }
 
     @Override
-    public OrgApacheSlingEngineImplLogRequestLoggerServiceInfo orgApacheSlingEngineImplLogRequestLoggerService(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String requestLogServiceFormat, String requestLogServiceOutput, Integer requestLogServiceOutputtype, Boolean requestLogServiceOnentry) throws Exception {
+    public OrgApacheSlingEngineImplLogRequestLoggerServiceInfo orgApacheSlingEngineImplLogRequestLoggerService(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String requestLogServiceFormat, String requestLogServiceOutput, Integer requestLogServiceOutputtype, Boolean requestLogServiceOnentry) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingEngineImplLogRequestLoggerServiceInfo();
     }
 
     @Override
-    public OrgApacheSlingEngineImplSlingMainServletInfo orgApacheSlingEngineImplSlingMainServlet(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer slingMaxCalls, Integer slingMaxInclusions, Boolean slingTraceAllow, Integer slingMaxRecordRequests, List<String> slingStorePatternRequests, String slingServerinfo, List<String> slingAdditionalResponseHeaders) throws Exception {
+    public OrgApacheSlingEngineImplSlingMainServletInfo orgApacheSlingEngineImplSlingMainServlet(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer slingMaxCalls, Integer slingMaxInclusions, Boolean slingTraceAllow, Integer slingMaxRecordRequests, List<String> slingStorePatternRequests, String slingServerinfo, List<String> slingAdditionalResponseHeaders) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingEngineImplSlingMainServletInfo();
     }
 
     @Override
-    public OrgApacheSlingEngineParametersInfo orgApacheSlingEngineParameters(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String slingDefaultParameterEncoding, Integer slingDefaultMaxParameters, String fileLocation, Integer fileThreshold, Integer fileMax, Integer requestMax, Boolean slingDefaultParameterCheckForAdditionalContainerParameters) throws Exception {
+    public OrgApacheSlingEngineParametersInfo orgApacheSlingEngineParameters(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String slingDefaultParameterEncoding, Integer slingDefaultMaxParameters, String fileLocation, Integer fileThreshold, Integer fileMax, Integer requestMax, Boolean slingDefaultParameterCheckForAdditionalContainerParameters) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingEngineParametersInfo();
     }
 
     @Override
-    public OrgApacheSlingEventImplEventingThreadPoolInfo orgApacheSlingEventImplEventingThreadPool(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer minPoolSize) throws Exception {
+    public OrgApacheSlingEventImplEventingThreadPoolInfo orgApacheSlingEventImplEventingThreadPool(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer minPoolSize) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingEventImplEventingThreadPoolInfo();
     }
 
     @Override
-    public OrgApacheSlingEventImplJobsDefaultJobManagerInfo orgApacheSlingEventImplJobsDefaultJobManager(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String queuePriority, Integer queueRetries, Integer queueRetrydelay, Integer queueMaxparallel) throws Exception {
+    public OrgApacheSlingEventImplJobsDefaultJobManagerInfo orgApacheSlingEventImplJobsDefaultJobManager(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String queuePriority, Integer queueRetries, Integer queueRetrydelay, Integer queueMaxparallel) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingEventImplJobsDefaultJobManagerInfo();
     }
 
     @Override
-    public OrgApacheSlingEventImplJobsJcrPersistenceHandlerInfo orgApacheSlingEventImplJobsJcrPersistenceHandler(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean jobConsumermanagerDisableDistribution, Integer startupDelay, Integer cleanupPeriod) throws Exception {
+    public OrgApacheSlingEventImplJobsJcrPersistenceHandlerInfo orgApacheSlingEventImplJobsJcrPersistenceHandler(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean jobConsumermanagerDisableDistribution, Integer startupDelay, Integer cleanupPeriod) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingEventImplJobsJcrPersistenceHandlerInfo();
     }
 
     @Override
-    public OrgApacheSlingEventImplJobsJobConsumerManagerInfo orgApacheSlingEventImplJobsJobConsumerManager(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean orgApacheSlingInstallerConfigurationPersist, List<String> jobConsumermanagerWhitelist, List<String> jobConsumermanagerBlacklist) throws Exception {
+    public OrgApacheSlingEventImplJobsJobConsumerManagerInfo orgApacheSlingEventImplJobsJobConsumerManager(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean orgApacheSlingInstallerConfigurationPersist, List<String> jobConsumermanagerWhitelist, List<String> jobConsumermanagerBlacklist) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingEventImplJobsJobConsumerManagerInfo();
     }
 
     @Override
-    public OrgApacheSlingEventJobsQueueConfigurationInfo orgApacheSlingEventJobsQueueConfiguration(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String queueName, List<String> queueTopics, String queueType, String queuePriority, Integer queueRetries, Integer queueRetrydelay, BigDecimal queueMaxparallel, Boolean queueKeepJobs, Boolean queuePreferRunOnCreationInstance, Integer queueThreadPoolSize, Integer serviceRanking) throws Exception {
+    public OrgApacheSlingEventJobsQueueConfigurationInfo orgApacheSlingEventJobsQueueConfiguration(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String queueName, List<String> queueTopics, String queueType, String queuePriority, Integer queueRetries, Integer queueRetrydelay, BigDecimal queueMaxparallel, Boolean queueKeepJobs, Boolean queuePreferRunOnCreationInstance, Integer queueThreadPoolSize, Integer serviceRanking) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingEventJobsQueueConfigurationInfo();
     }
 
     @Override
-    public OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWInfo orgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingW(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> users, List<String> groups) throws Exception {
+    public OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWInfo orgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingW(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> users, List<String> groups) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingExtensionsWebconsolesecurityproviderInternalSlingWInfo();
     }
 
     @Override
-    public OrgApacheSlingFeatureflagsFeatureInfo orgApacheSlingFeatureflagsFeature(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String name, String description, Boolean enabled) throws Exception {
+    public OrgApacheSlingFeatureflagsFeatureInfo orgApacheSlingFeatureflagsFeature(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String name, String description, Boolean enabled) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingFeatureflagsFeatureInfo();
     }
 
     @Override
-    public OrgApacheSlingFeatureflagsImplConfiguredFeatureInfo orgApacheSlingFeatureflagsImplConfiguredFeature(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String name, String description, Boolean enabled) throws Exception {
+    public OrgApacheSlingFeatureflagsImplConfiguredFeatureInfo orgApacheSlingFeatureflagsImplConfiguredFeature(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String name, String description, Boolean enabled) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingFeatureflagsImplConfiguredFeatureInfo();
     }
 
     @Override
-    public OrgApacheSlingHapiImplHApiUtilImplInfo orgApacheSlingHapiImplHApiUtilImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String orgApacheSlingHapiToolsResourcetype, String orgApacheSlingHapiToolsCollectionresourcetype, List<String> orgApacheSlingHapiToolsSearchpaths, String orgApacheSlingHapiToolsExternalurl, Boolean orgApacheSlingHapiToolsEnabled) throws Exception {
+    public OrgApacheSlingHapiImplHApiUtilImplInfo orgApacheSlingHapiImplHApiUtilImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String orgApacheSlingHapiToolsResourcetype, String orgApacheSlingHapiToolsCollectionresourcetype, List<String> orgApacheSlingHapiToolsSearchpaths, String orgApacheSlingHapiToolsExternalurl, Boolean orgApacheSlingHapiToolsEnabled) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingHapiImplHApiUtilImplInfo();
     }
 
     @Override
-    public OrgApacheSlingHcCoreImplCompositeHealthCheckInfo orgApacheSlingHcCoreImplCompositeHealthCheck(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String hcName, List<String> hcTags, String hcMbeanName, List<String> filterTags, Boolean filterCombineTagsWithOr) throws Exception {
+    public OrgApacheSlingHcCoreImplCompositeHealthCheckInfo orgApacheSlingHcCoreImplCompositeHealthCheck(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String hcName, List<String> hcTags, String hcMbeanName, List<String> filterTags, Boolean filterCombineTagsWithOr) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingHcCoreImplCompositeHealthCheckInfo();
     }
 
     @Override
-    public OrgApacheSlingHcCoreImplExecutorHealthCheckExecutorImplInfo orgApacheSlingHcCoreImplExecutorHealthCheckExecutorImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer timeoutInMs, Integer longRunningFutureThresholdForCriticalMs, Integer resultCacheTtlInMs) throws Exception {
+    public OrgApacheSlingHcCoreImplExecutorHealthCheckExecutorImplInfo orgApacheSlingHcCoreImplExecutorHealthCheckExecutorImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer timeoutInMs, Integer longRunningFutureThresholdForCriticalMs, Integer resultCacheTtlInMs) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingHcCoreImplExecutorHealthCheckExecutorImplInfo();
     }
 
     @Override
-    public OrgApacheSlingHcCoreImplJmxAttributeHealthCheckInfo orgApacheSlingHcCoreImplJmxAttributeHealthCheck(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String hcName, List<String> hcTags, String hcMbeanName, String mbeanName, String attributeName, String attributeValueConstraint) throws Exception {
+    public OrgApacheSlingHcCoreImplJmxAttributeHealthCheckInfo orgApacheSlingHcCoreImplJmxAttributeHealthCheck(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String hcName, List<String> hcTags, String hcMbeanName, String mbeanName, String attributeName, String attributeValueConstraint) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingHcCoreImplJmxAttributeHealthCheckInfo();
     }
 
     @Override
-    public OrgApacheSlingHcCoreImplScriptableHealthCheckInfo orgApacheSlingHcCoreImplScriptableHealthCheck(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String hcName, List<String> hcTags, String hcMbeanName, String expression, String languageExtension) throws Exception {
+    public OrgApacheSlingHcCoreImplScriptableHealthCheckInfo orgApacheSlingHcCoreImplScriptableHealthCheck(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String hcName, List<String> hcTags, String hcMbeanName, String expression, String languageExtension) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingHcCoreImplScriptableHealthCheckInfo();
     }
 
     @Override
-    public OrgApacheSlingHcCoreImplServletHealthCheckExecutorServletInfo orgApacheSlingHcCoreImplServletHealthCheckExecutorServlet(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String servletPath, Boolean disabled, String corsAccessControlAllowOrigin) throws Exception {
+    public OrgApacheSlingHcCoreImplServletHealthCheckExecutorServletInfo orgApacheSlingHcCoreImplServletHealthCheckExecutorServlet(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String servletPath, Boolean disabled, String corsAccessControlAllowOrigin) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingHcCoreImplServletHealthCheckExecutorServletInfo();
     }
 
     @Override
-    public OrgApacheSlingHcCoreImplServletResultTxtVerboseSerializerInfo orgApacheSlingHcCoreImplServletResultTxtVerboseSerializer(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer totalWidth, Integer colWidthName, Integer colWidthResult, Integer colWidthTiming) throws Exception {
+    public OrgApacheSlingHcCoreImplServletResultTxtVerboseSerializerInfo orgApacheSlingHcCoreImplServletResultTxtVerboseSerializer(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer totalWidth, Integer colWidthName, Integer colWidthResult, Integer colWidthTiming) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingHcCoreImplServletResultTxtVerboseSerializerInfo();
     }
 
     @Override
-    public OrgApacheSlingI18nImplI18NFilterInfo orgApacheSlingI18nImplI18NFilter(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer serviceRanking, List<String> slingFilterScope) throws Exception {
+    public OrgApacheSlingI18nImplI18NFilterInfo orgApacheSlingI18nImplI18NFilter(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer serviceRanking, List<String> slingFilterScope) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingI18nImplI18NFilterInfo();
     }
 
     @Override
-    public OrgApacheSlingI18nImplJcrResourceBundleProviderInfo orgApacheSlingI18nImplJcrResourceBundleProvider(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String localeDefault, Boolean preloadBundles, Integer invalidationDelay) throws Exception {
+    public OrgApacheSlingI18nImplJcrResourceBundleProviderInfo orgApacheSlingI18nImplJcrResourceBundleProvider(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String localeDefault, Boolean preloadBundles, Integer invalidationDelay) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingI18nImplJcrResourceBundleProviderInfo();
     }
 
     @Override
-    public OrgApacheSlingInstallerProviderJcrImplJcrInstallerInfo orgApacheSlingInstallerProviderJcrImplJcrInstaller(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> handlerSchemes, String slingJcrinstallFolderNameRegexp, Integer slingJcrinstallFolderMaxDepth, List<String> slingJcrinstallSearchPath, String slingJcrinstallNewConfigPath, String slingJcrinstallSignalPath, Boolean slingJcrinstallEnableWriteback) throws Exception {
+    public OrgApacheSlingInstallerProviderJcrImplJcrInstallerInfo orgApacheSlingInstallerProviderJcrImplJcrInstaller(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> handlerSchemes, String slingJcrinstallFolderNameRegexp, Integer slingJcrinstallFolderMaxDepth, List<String> slingJcrinstallSearchPath, String slingJcrinstallNewConfigPath, String slingJcrinstallSignalPath, Boolean slingJcrinstallEnableWriteback) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingInstallerProviderJcrImplJcrInstallerInfo();
     }
 
     @Override
-    public OrgApacheSlingJcrBaseInternalLoginAdminWhitelistInfo orgApacheSlingJcrBaseInternalLoginAdminWhitelist(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean whitelistBypass, String whitelistBundlesRegexp) throws Exception {
+    public OrgApacheSlingJcrBaseInternalLoginAdminWhitelistInfo orgApacheSlingJcrBaseInternalLoginAdminWhitelist(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean whitelistBypass, String whitelistBundlesRegexp) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingJcrBaseInternalLoginAdminWhitelistInfo();
     }
 
     @Override
-    public OrgApacheSlingJcrBaseInternalLoginAdminWhitelistFragmentInfo orgApacheSlingJcrBaseInternalLoginAdminWhitelistFragment(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String whitelistName, List<String> whitelistBundles) throws Exception {
+    public OrgApacheSlingJcrBaseInternalLoginAdminWhitelistFragmentInfo orgApacheSlingJcrBaseInternalLoginAdminWhitelistFragment(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String whitelistName, List<String> whitelistBundles) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingJcrBaseInternalLoginAdminWhitelistFragmentInfo();
     }
 
     @Override
-    public OrgApacheSlingJcrDavexImplServletsSlingDavExServletInfo orgApacheSlingJcrDavexImplServletsSlingDavExServlet(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String alias, Boolean davCreateAbsoluteUri, String davProtectedhandlers) throws Exception {
+    public OrgApacheSlingJcrDavexImplServletsSlingDavExServletInfo orgApacheSlingJcrDavexImplServletsSlingDavExServlet(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String alias, Boolean davCreateAbsoluteUri, String davProtectedhandlers) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingJcrDavexImplServletsSlingDavExServletInfo();
     }
 
     @Override
-    public OrgApacheSlingJcrJackrabbitServerJndiRegistrationSupportInfo orgApacheSlingJcrJackrabbitServerJndiRegistrationSupport(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String javaNamingFactoryInitial, String javaNamingProviderUrl) throws Exception {
+    public OrgApacheSlingJcrJackrabbitServerJndiRegistrationSupportInfo orgApacheSlingJcrJackrabbitServerJndiRegistrationSupport(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String javaNamingFactoryInitial, String javaNamingProviderUrl) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingJcrJackrabbitServerJndiRegistrationSupportInfo();
     }
 
     @Override
-    public OrgApacheSlingJcrJackrabbitServerRmiRegistrationSupportInfo orgApacheSlingJcrJackrabbitServerRmiRegistrationSupport(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer port) throws Exception {
+    public OrgApacheSlingJcrJackrabbitServerRmiRegistrationSupportInfo orgApacheSlingJcrJackrabbitServerRmiRegistrationSupport(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer port) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingJcrJackrabbitServerRmiRegistrationSupportInfo();
     }
 
     @Override
-    public OrgApacheSlingJcrRepoinitImplRepositoryInitializerInfo orgApacheSlingJcrRepoinitImplRepositoryInitializer(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> references) throws Exception {
+    public OrgApacheSlingJcrRepoinitImplRepositoryInitializerInfo orgApacheSlingJcrRepoinitImplRepositoryInitializer(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> references) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingJcrRepoinitImplRepositoryInitializerInfo();
     }
 
     @Override
-    public OrgApacheSlingJcrRepoinitRepositoryInitializerInfo orgApacheSlingJcrRepoinitRepositoryInitializer(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> references, List<String> scripts) throws Exception {
+    public OrgApacheSlingJcrRepoinitRepositoryInitializerInfo orgApacheSlingJcrRepoinitRepositoryInitializer(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> references, List<String> scripts) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingJcrRepoinitRepositoryInitializerInfo();
     }
 
     @Override
-    public OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplInfo orgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> resourceResolverSearchpath, Boolean resourceResolverManglenamespaces, Boolean resourceResolverAllowDirect, List<String> resourceResolverRequiredProviders, List<String> resourceResolverRequiredProvidernames, List<String> resourceResolverVirtual, List<String> resourceResolverMapping, String resourceResolverMapLocation, List<String> resourceResolverMapObservation, Integer resourceResolverDefaultVanityRedirectStatus, Boolean resourceResolverEnableVanitypath, Integer resourceResolverVanitypathMaxEntries, Boolean resourceResolverVanitypathMaxEntriesStartup, Integer resourceResolverVanitypathBloomfilterMaxBytes, Boolean resourceResolverOptimizeAliasResolution, List<String> resourceResolverVanitypathWhitelist, List<String> resourceResolverVanitypathBlacklist, Boolean resourceResolverVanityPrecedence, Boolean resourceResolverProviderhandlingParanoid, Boolean resourceResolverLogClosing, Boolean resourceResolverLogUnclosed) throws Exception {
+    public OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplInfo orgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> resourceResolverSearchpath, Boolean resourceResolverManglenamespaces, Boolean resourceResolverAllowDirect, List<String> resourceResolverRequiredProviders, List<String> resourceResolverRequiredProvidernames, List<String> resourceResolverVirtual, List<String> resourceResolverMapping, String resourceResolverMapLocation, List<String> resourceResolverMapObservation, Integer resourceResolverDefaultVanityRedirectStatus, Boolean resourceResolverEnableVanitypath, Integer resourceResolverVanitypathMaxEntries, Boolean resourceResolverVanitypathMaxEntriesStartup, Integer resourceResolverVanitypathBloomfilterMaxBytes, Boolean resourceResolverOptimizeAliasResolution, List<String> resourceResolverVanitypathWhitelist, List<String> resourceResolverVanitypathBlacklist, Boolean resourceResolverVanityPrecedence, Boolean resourceResolverProviderhandlingParanoid, Boolean resourceResolverLogClosing, Boolean resourceResolverLogUnclosed) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplInfo();
     }
 
     @Override
-    public OrgApacheSlingJcrResourceInternalJcrSystemUserValidatorInfo orgApacheSlingJcrResourceInternalJcrSystemUserValidator(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean allowOnlySystemUser) throws Exception {
+    public OrgApacheSlingJcrResourceInternalJcrSystemUserValidatorInfo orgApacheSlingJcrResourceInternalJcrSystemUserValidator(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean allowOnlySystemUser) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingJcrResourceInternalJcrSystemUserValidatorInfo();
     }
 
     @Override
-    public OrgApacheSlingJcrResourcesecurityImplResourceAccessGateFactoryInfo orgApacheSlingJcrResourcesecurityImplResourceAccessGateFactory(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String path, String checkpathPrefix, String jcrPath) throws Exception {
+    public OrgApacheSlingJcrResourcesecurityImplResourceAccessGateFactoryInfo orgApacheSlingJcrResourcesecurityImplResourceAccessGateFactory(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String path, String checkpathPrefix, String jcrPath) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingJcrResourcesecurityImplResourceAccessGateFactoryInfo();
     }
 
     @Override
-    public OrgApacheSlingJcrWebdavImplHandlerDefaultHandlerServiceInfo orgApacheSlingJcrWebdavImplHandlerDefaultHandlerService(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer serviceRanking, String typeCollections, String typeNoncollections, String typeContent) throws Exception {
+    public OrgApacheSlingJcrWebdavImplHandlerDefaultHandlerServiceInfo orgApacheSlingJcrWebdavImplHandlerDefaultHandlerService(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer serviceRanking, String typeCollections, String typeNoncollections, String typeContent) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingJcrWebdavImplHandlerDefaultHandlerServiceInfo();
     }
 
     @Override
-    public OrgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServicInfo orgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServic(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer serviceRanking) throws Exception {
+    public OrgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServicInfo orgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServic(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer serviceRanking) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServicInfo();
     }
 
     @Override
-    public OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletInfo orgApacheSlingJcrWebdavImplServletsSimpleWebDavServlet(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String davRoot, Boolean davCreateAbsoluteUri, String davRealm, List<String> collectionTypes, List<String> filterPrefixes, String filterTypes, String filterUris, String typeCollections, String typeNoncollections, String typeContent) throws Exception {
+    public OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletInfo orgApacheSlingJcrWebdavImplServletsSimpleWebDavServlet(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String davRoot, Boolean davCreateAbsoluteUri, String davRealm, List<String> collectionTypes, List<String> filterPrefixes, String filterTypes, String filterUris, String typeCollections, String typeNoncollections, String typeContent) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletInfo();
     }
 
     @Override
-    public OrgApacheSlingJmxProviderImplJMXResourceProviderInfo orgApacheSlingJmxProviderImplJMXResourceProvider(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String providerRoots) throws Exception {
+    public OrgApacheSlingJmxProviderImplJMXResourceProviderInfo orgApacheSlingJmxProviderImplJMXResourceProvider(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String providerRoots) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingJmxProviderImplJMXResourceProviderInfo();
     }
 
     @Override
-    public OrgApacheSlingModelsImplModelAdapterFactoryInfo orgApacheSlingModelsImplModelAdapterFactory(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String osgiHttpWhiteboardListener, String osgiHttpWhiteboardContextSelect, Integer maxRecursionDepth, Integer cleanupJobPeriod) throws Exception {
+    public OrgApacheSlingModelsImplModelAdapterFactoryInfo orgApacheSlingModelsImplModelAdapterFactory(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String osgiHttpWhiteboardListener, String osgiHttpWhiteboardContextSelect, Integer maxRecursionDepth, Integer cleanupJobPeriod) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingModelsImplModelAdapterFactoryInfo();
     }
 
     @Override
-    public OrgApacheSlingModelsJacksonexporterImplResourceModuleProviderInfo orgApacheSlingModelsJacksonexporterImplResourceModuleProvider(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer maxRecursionLevels) throws Exception {
+    public OrgApacheSlingModelsJacksonexporterImplResourceModuleProviderInfo orgApacheSlingModelsJacksonexporterImplResourceModuleProvider(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer maxRecursionLevels) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingModelsJacksonexporterImplResourceModuleProviderInfo();
     }
 
     @Override
-    public OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoInfo orgApacheSlingResourceInventoryImplResourceInventoryPrinterFacto(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String felixInventoryPrinterName, String felixInventoryPrinterTitle, String path) throws Exception {
+    public OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoInfo orgApacheSlingResourceInventoryImplResourceInventoryPrinterFacto(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String felixInventoryPrinterName, String felixInventoryPrinterTitle, String path) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingResourceInventoryImplResourceInventoryPrinterFactoInfo();
     }
 
     @Override
-    public OrgApacheSlingResourcemergerImplMergedResourceProviderFactoryInfo orgApacheSlingResourcemergerImplMergedResourceProviderFactory(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String mergeRoot, Boolean mergeReadOnly) throws Exception {
+    public OrgApacheSlingResourcemergerImplMergedResourceProviderFactoryInfo orgApacheSlingResourcemergerImplMergedResourceProviderFactory(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String mergeRoot, Boolean mergeReadOnly) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingResourcemergerImplMergedResourceProviderFactoryInfo();
     }
 
     @Override
-    public OrgApacheSlingResourcemergerPickerOverridingInfo orgApacheSlingResourcemergerPickerOverriding(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String mergeRoot, Boolean mergeReadOnly) throws Exception {
+    public OrgApacheSlingResourcemergerPickerOverridingInfo orgApacheSlingResourcemergerPickerOverriding(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String mergeRoot, Boolean mergeReadOnly) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingResourcemergerPickerOverridingInfo();
     }
 
     @Override
-    public OrgApacheSlingScriptingCoreImplScriptCacheImplInfo orgApacheSlingScriptingCoreImplScriptCacheImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer orgApacheSlingScriptingCacheSize, List<String> orgApacheSlingScriptingCacheAdditionalExtensions) throws Exception {
+    public OrgApacheSlingScriptingCoreImplScriptCacheImplInfo orgApacheSlingScriptingCoreImplScriptCacheImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer orgApacheSlingScriptingCacheSize, List<String> orgApacheSlingScriptingCacheAdditionalExtensions) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingScriptingCoreImplScriptCacheImplInfo();
     }
 
     @Override
-    public OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderInfo orgApacheSlingScriptingCoreImplScriptingResourceResolverProvider(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean logStacktraceOnclose) throws Exception {
+    public OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderInfo orgApacheSlingScriptingCoreImplScriptingResourceResolverProvider(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean logStacktraceOnclose) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderInfo();
     }
 
     @Override
-    public OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryInfo orgApacheSlingScriptingJavaImplJavaScriptEngineFactory(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean javaClassdebuginfo, String javaJavaEncoding, String javaCompilerSourceVM, String javaCompilerTargetVM) throws Exception {
+    public OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryInfo orgApacheSlingScriptingJavaImplJavaScriptEngineFactory(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean javaClassdebuginfo, String javaJavaEncoding, String javaCompilerSourceVM, String javaCompilerTargetVM) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryInfo();
     }
 
     @Override
-    public OrgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFaInfo orgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFa(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer orgApacheSlingScriptingJavascriptRhinoOptLevel) throws Exception {
+    public OrgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFaInfo orgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFa(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer orgApacheSlingScriptingJavascriptRhinoOptLevel) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingScriptingJavascriptInternalRhinoJavaScriptEngineFaInfo();
     }
 
     @Override
-    public OrgApacheSlingScriptingJspJspScriptEngineFactoryInfo orgApacheSlingScriptingJspJspScriptEngineFactory(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String jasperCompilerTargetVM, String jasperCompilerSourceVM, Boolean jasperClassdebuginfo, Boolean jasperEnablePooling, String jasperIeClassId, Boolean jasperGenStringAsCharArray, Boolean jasperKeepgenerated, Boolean jasperMappedfile, Boolean jasperTrimSpaces, Boolean jasperDisplaySourceFragments, Boolean defaultIsSession) throws Exception {
+    public OrgApacheSlingScriptingJspJspScriptEngineFactoryInfo orgApacheSlingScriptingJspJspScriptEngineFactory(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String jasperCompilerTargetVM, String jasperCompilerSourceVM, Boolean jasperClassdebuginfo, Boolean jasperEnablePooling, String jasperIeClassId, Boolean jasperGenStringAsCharArray, Boolean jasperKeepgenerated, Boolean jasperMappedfile, Boolean jasperTrimSpaces, Boolean jasperDisplaySourceFragments, Boolean defaultIsSession) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingScriptingJspJspScriptEngineFactoryInfo();
     }
 
     @Override
-    public OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvInfo orgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProv(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> orgApacheSlingScriptingSightlyJsBindings) throws Exception {
+    public OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvInfo orgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProv(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> orgApacheSlingScriptingSightlyJsBindings) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvInfo();
     }
 
     @Override
-    public OrgApacheSlingSecurityImplContentDispositionFilterInfo orgApacheSlingSecurityImplContentDispositionFilter(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> slingContentDispositionPaths, List<String> slingContentDispositionExcludedPaths, Boolean slingContentDispositionAllPaths) throws Exception {
+    public OrgApacheSlingSecurityImplContentDispositionFilterInfo orgApacheSlingSecurityImplContentDispositionFilter(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> slingContentDispositionPaths, List<String> slingContentDispositionExcludedPaths, Boolean slingContentDispositionAllPaths) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingSecurityImplContentDispositionFilterInfo();
     }
 
     @Override
-    public OrgApacheSlingSecurityImplReferrerFilterInfo orgApacheSlingSecurityImplReferrerFilter(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean allowEmpty, List<String> allowHosts, List<String> allowHostsRegexp, List<String> filterMethods, List<String> excludeAgentsRegexp) throws Exception {
+    public OrgApacheSlingSecurityImplReferrerFilterInfo orgApacheSlingSecurityImplReferrerFilter(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean allowEmpty, List<String> allowHosts, List<String> allowHostsRegexp, List<String> filterMethods, List<String> excludeAgentsRegexp) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingSecurityImplReferrerFilterInfo();
     }
 
     @Override
-    public OrgApacheSlingServiceusermappingImplServiceUserMapperImplInfo orgApacheSlingServiceusermappingImplServiceUserMapperImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> userMapping, String userDefault, Boolean userEnableDefaultMapping, Boolean requireValidation) throws Exception {
+    public OrgApacheSlingServiceusermappingImplServiceUserMapperImplInfo orgApacheSlingServiceusermappingImplServiceUserMapperImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> userMapping, String userDefault, Boolean userEnableDefaultMapping, Boolean requireValidation) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingServiceusermappingImplServiceUserMapperImplInfo();
     }
 
     @Override
-    public OrgApacheSlingServiceusermappingImplServiceUserMapperImplAmendedInfo orgApacheSlingServiceusermappingImplServiceUserMapperImplAmended(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer serviceRanking, List<String> userMapping) throws Exception {
+    public OrgApacheSlingServiceusermappingImplServiceUserMapperImplAmendedInfo orgApacheSlingServiceusermappingImplServiceUserMapperImplAmended(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Integer serviceRanking, List<String> userMapping) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingServiceusermappingImplServiceUserMapperImplAmendedInfo();
     }
 
     @Override
-    public OrgApacheSlingServletsGetDefaultGetServletInfo orgApacheSlingServletsGetDefaultGetServlet(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> aliases, Boolean index, List<String> indexFiles, Boolean enableHtml, Boolean enableJson, Boolean enableTxt, Boolean enableXml, Integer jsonMaximumresults, Boolean ecmaSuport) throws Exception {
+    public OrgApacheSlingServletsGetDefaultGetServletInfo orgApacheSlingServletsGetDefaultGetServlet(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> aliases, Boolean index, List<String> indexFiles, Boolean enableHtml, Boolean enableJson, Boolean enableTxt, Boolean enableXml, Integer jsonMaximumresults, Boolean ecmaSuport) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingServletsGetDefaultGetServletInfo();
     }
 
     @Override
-    public OrgApacheSlingServletsGetImplVersionVersionInfoServletInfo orgApacheSlingServletsGetImplVersionVersionInfoServlet(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> slingServletSelectors, Boolean ecmaSuport) throws Exception {
+    public OrgApacheSlingServletsGetImplVersionVersionInfoServletInfo orgApacheSlingServletsGetImplVersionVersionInfoServlet(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> slingServletSelectors, Boolean ecmaSuport) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingServletsGetImplVersionVersionInfoServletInfo();
     }
 
     @Override
-    public OrgApacheSlingServletsPostImplHelperChunkCleanUpTaskInfo orgApacheSlingServletsPostImplHelperChunkCleanUpTask(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String schedulerExpression, Boolean schedulerConcurrent, Integer chunkCleanupAge) throws Exception {
+    public OrgApacheSlingServletsPostImplHelperChunkCleanUpTaskInfo orgApacheSlingServletsPostImplHelperChunkCleanUpTask(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String schedulerExpression, Boolean schedulerConcurrent, Integer chunkCleanupAge) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingServletsPostImplHelperChunkCleanUpTaskInfo();
     }
 
     @Override
-    public OrgApacheSlingServletsPostImplSlingPostServletInfo orgApacheSlingServletsPostImplSlingPostServlet(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> servletPostDateFormats, List<String> servletPostNodeNameHints, Integer servletPostNodeNameMaxLength, Boolean servletPostCheckinNewVersionableNodes, Boolean servletPostAutoCheckout, Boolean servletPostAutoCheckin, String servletPostIgnorePattern) throws Exception {
+    public OrgApacheSlingServletsPostImplSlingPostServletInfo orgApacheSlingServletsPostImplSlingPostServlet(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> servletPostDateFormats, List<String> servletPostNodeNameHints, Integer servletPostNodeNameMaxLength, Boolean servletPostCheckinNewVersionableNodes, Boolean servletPostAutoCheckout, Boolean servletPostAutoCheckin, String servletPostIgnorePattern) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingServletsPostImplSlingPostServletInfo();
     }
 
     @Override
-    public OrgApacheSlingServletsResolverSlingServletResolverInfo orgApacheSlingServletsResolverSlingServletResolver(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String servletresolverServletRoot, Integer servletresolverCacheSize, List<String> servletresolverPaths, List<String> servletresolverDefaultExtensions) throws Exception {
+    public OrgApacheSlingServletsResolverSlingServletResolverInfo orgApacheSlingServletsResolverSlingServletResolver(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String servletresolverServletRoot, Integer servletresolverCacheSize, List<String> servletresolverPaths, List<String> servletresolverDefaultExtensions) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingServletsResolverSlingServletResolverInfo();
     }
 
     @Override
-    public OrgApacheSlingSettingsImplSlingSettingsServiceImplInfo orgApacheSlingSettingsImplSlingSettingsServiceImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String slingName, String slingDescription) throws Exception {
+    public OrgApacheSlingSettingsImplSlingSettingsServiceImplInfo orgApacheSlingSettingsImplSlingSettingsServiceImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String slingName, String slingDescription) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingSettingsImplSlingSettingsServiceImplInfo();
     }
 
     @Override
-    public OrgApacheSlingStartupfilterImplStartupFilterImplInfo orgApacheSlingStartupfilterImplStartupFilterImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean activeByDefault, String defaultMessage) throws Exception {
+    public OrgApacheSlingStartupfilterImplStartupFilterImplInfo orgApacheSlingStartupfilterImplStartupFilterImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean activeByDefault, String defaultMessage) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingStartupfilterImplStartupFilterImplInfo();
     }
 
     @Override
-    public OrgApacheSlingTenantInternalTenantProviderImplInfo orgApacheSlingTenantInternalTenantProviderImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String tenantRoot, List<String> tenantPathMatcher) throws Exception {
+    public OrgApacheSlingTenantInternalTenantProviderImplInfo orgApacheSlingTenantInternalTenantProviderImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String tenantRoot, List<String> tenantPathMatcher) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingTenantInternalTenantProviderImplInfo();
     }
 
     @Override
-    public OrgApacheSlingTracerInternalLogTracerInfo orgApacheSlingTracerInternalLogTracer(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> tracerSets, Boolean enabled, Boolean servletEnabled, Integer recordingCacheSizeInMB, Integer recordingCacheDurationInSecs, Boolean recordingCompressionEnabled, Boolean gzipResponse) throws Exception {
+    public OrgApacheSlingTracerInternalLogTracerInfo orgApacheSlingTracerInternalLogTracer(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> tracerSets, Boolean enabled, Boolean servletEnabled, Integer recordingCacheSizeInMB, Integer recordingCacheDurationInSecs, Boolean recordingCompressionEnabled, Boolean gzipResponse) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingTracerInternalLogTracerInfo();
     }
 
     @Override
-    public OrgApacheSlingXssImplXSSFilterImplInfo orgApacheSlingXssImplXSSFilterImpl(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String policyPath) throws Exception {
+    public OrgApacheSlingXssImplXSSFilterImplInfo orgApacheSlingXssImplXSSFilterImpl(Http.Request request, Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String policyPath) throws Exception {
         //Do your magic!!!
         return new OrgApacheSlingXssImplXSSFilterImplInfo();
     }

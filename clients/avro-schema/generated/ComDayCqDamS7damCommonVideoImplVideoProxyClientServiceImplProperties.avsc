@@ -1,0 +1,51 @@
+{
+  "namespace": "model",
+  "type": "record",
+  "doc": "",
+  "name": "ComDayCqDamS7damCommonVideoImplVideoProxyClientServiceImplProperties",
+  "fields": [
+    {
+      "name": "cq.dam.s7dam.videoproxyclientservice.multipartupload.minsize.name",
+      "type": ["null", "model.ConfigNodePropertyInteger"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "cq.dam.s7dam.videoproxyclientservice.multipartupload.partsize.name",
+      "type": ["null", "model.ConfigNodePropertyInteger"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "cq.dam.s7dam.videoproxyclientservice.multipartupload.numthread.name",
+      "type": ["null", "model.ConfigNodePropertyInteger"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "cq.dam.s7dam.videoproxyclientservice.http.readtimeout.name",
+      "type": ["null", "model.ConfigNodePropertyInteger"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "cq.dam.s7dam.videoproxyclientservice.http.connectiontimeout.name",
+      "type": ["null", "model.ConfigNodePropertyInteger"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "cq.dam.s7dam.videoproxyclientservice.http.maxretrycount.name",
+      "type": ["null", "model.ConfigNodePropertyInteger"],
+      "doc": "",
+      "default": null
+    },
+    {
+      "name": "cq.dam.s7dam.videoproxyclientservice.uploadprogress.interval.name",
+      "type": ["null", "model.ConfigNodePropertyInteger"],
+      "doc": "",
+      "default": null
+    }
+  ]
+
+}

@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyDropDown;
 import com.prokarma.pkmst.model.ConfigNodePropertyString;
 import io.swagger.annotations.ApiModel;
@@ -16,48 +17,47 @@ import io.swagger.annotations.ApiModelProperty;
  * OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties   {
   @JsonProperty("manager.root")
-  private ConfigNodePropertyString managerRoot = null;
+  private ConfigNodePropertyString managerRoot;
 
   @JsonProperty("http.service.filter")
-  private ConfigNodePropertyString httpServiceFilter = null;
+  private ConfigNodePropertyString httpServiceFilter;
 
   @JsonProperty("default.render")
-  private ConfigNodePropertyString defaultRender = null;
+  private ConfigNodePropertyString defaultRender;
 
   @JsonProperty("realm")
-  private ConfigNodePropertyString realm = null;
+  private ConfigNodePropertyString realm;
 
   @JsonProperty("username")
-  private ConfigNodePropertyString username = null;
+  private ConfigNodePropertyString username;
 
   @JsonProperty("password")
-  private ConfigNodePropertyString password = null;
+  private ConfigNodePropertyString password;
 
   @JsonProperty("category")
-  private ConfigNodePropertyString category = null;
+  private ConfigNodePropertyString category;
 
   @JsonProperty("locale")
-  private ConfigNodePropertyString locale = null;
+  private ConfigNodePropertyString locale;
 
   @JsonProperty("loglevel")
-  private ConfigNodePropertyDropDown loglevel = null;
+  private ConfigNodePropertyDropDown loglevel;
 
   @JsonProperty("plugins")
-  private ConfigNodePropertyDropDown plugins = null;
+  private ConfigNodePropertyDropDown plugins;
 
   public OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties managerRoot(ConfigNodePropertyString managerRoot) {
     this.managerRoot = managerRoot;
     return this;
   }
 
-   /**
+  /**
    * Get managerRoot
    * @return managerRoot
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getManagerRoot() {
     return managerRoot;
@@ -72,10 +72,10 @@ public class OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get httpServiceFilter
    * @return httpServiceFilter
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getHttpServiceFilter() {
     return httpServiceFilter;
@@ -90,10 +90,10 @@ public class OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get defaultRender
    * @return defaultRender
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getDefaultRender() {
     return defaultRender;
@@ -108,10 +108,10 @@ public class OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get realm
    * @return realm
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getRealm() {
     return realm;
@@ -126,10 +126,10 @@ public class OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get username
    * @return username
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getUsername() {
     return username;
@@ -144,10 +144,10 @@ public class OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get password
    * @return password
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getPassword() {
     return password;
@@ -162,10 +162,10 @@ public class OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get category
    * @return category
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getCategory() {
     return category;
@@ -180,10 +180,10 @@ public class OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get locale
    * @return locale
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getLocale() {
     return locale;
@@ -198,10 +198,10 @@ public class OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get loglevel
    * @return loglevel
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyDropDown getLoglevel() {
     return loglevel;
@@ -216,10 +216,10 @@ public class OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get plugins
    * @return plugins
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyDropDown getPlugins() {
     return plugins;
@@ -231,7 +231,7 @@ public class OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -279,11 +279,8 @@ public class OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

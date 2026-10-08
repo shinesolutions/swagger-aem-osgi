@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqContentinsightImplServletsBrightEdgeProx
 
 @Canonical
 class ComAdobeCqContentinsightImplServletsBrightEdgeProxyServletInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqContentinsightImplServletsBrightEdgeProxyServletProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqContentinsightImplServletsBrightEdgeProxyServletProperties properties
 }

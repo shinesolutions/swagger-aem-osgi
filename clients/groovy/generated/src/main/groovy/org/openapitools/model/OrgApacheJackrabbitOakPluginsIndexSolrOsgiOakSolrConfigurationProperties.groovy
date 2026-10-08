@@ -11,38 +11,38 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class OrgApacheJackrabbitOakPluginsIndexSolrOsgiOakSolrConfigurationProperties {
-    ConfigNodePropertyString pathDescField = null
-
-    ConfigNodePropertyString pathChildField = null
-
-    ConfigNodePropertyString pathParentField = null
-
-    ConfigNodePropertyString pathExactField = null
-
-    ConfigNodePropertyString catchAllField = null
-
-    ConfigNodePropertyString collapsedPathField = null
-
-    ConfigNodePropertyString pathDepthField = null
-
-    ConfigNodePropertyDropDown commitPolicy = null
-
-    ConfigNodePropertyInteger rows = null
-
-    ConfigNodePropertyBoolean pathRestrictions = null
-
-    ConfigNodePropertyBoolean propertyRestrictions = null
-
-    ConfigNodePropertyBoolean primarytypesRestrictions = null
-
-    ConfigNodePropertyArray ignoredProperties = null
-
-    ConfigNodePropertyArray usedProperties = null
-
-    ConfigNodePropertyArray typeMappings = null
-
-    ConfigNodePropertyArray propertyMappings = null
-
-    ConfigNodePropertyBoolean collapseJcrcontentNodes = null
-
+    
+    ConfigNodePropertyString pathDescField
+    
+    ConfigNodePropertyString pathChildField
+    
+    ConfigNodePropertyString pathParentField
+    
+    ConfigNodePropertyString pathExactField
+    
+    ConfigNodePropertyString catchAllField
+    
+    ConfigNodePropertyString collapsedPathField
+    
+    ConfigNodePropertyString pathDepthField
+    
+    ConfigNodePropertyDropDown commitPolicy
+    
+    ConfigNodePropertyInteger rows
+    
+    ConfigNodePropertyBoolean pathRestrictions
+    
+    ConfigNodePropertyBoolean propertyRestrictions
+    
+    ConfigNodePropertyBoolean primarytypesRestrictions
+    
+    ConfigNodePropertyArray ignoredProperties
+    
+    ConfigNodePropertyArray usedProperties
+    
+    ConfigNodePropertyArray typeMappings
+    
+    ConfigNodePropertyArray propertyMappings
+    
+    ConfigNodePropertyBoolean collapseJcrcontentNodes
 }

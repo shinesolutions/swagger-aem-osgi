@@ -7,16 +7,16 @@ import org.openapitools.model.ComDayCqSearchpromoteImplPublishSearchPromoteConfi
 
 @Canonical
 class ComDayCqSearchpromoteImplPublishSearchPromoteConfigHandlerInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqSearchpromoteImplPublishSearchPromoteConfigHandlerProperties properties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqSearchpromoteImplPublishSearchPromoteConfigHandlerProperties properties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyArray;
 import com.prokarma.pkmst.model.ConfigNodePropertyBoolean;
 import com.prokarma.pkmst.model.ConfigNodePropertyInteger;
@@ -18,33 +19,32 @@ import io.swagger.annotations.ApiModelProperty;
  * ComAdobeCqCdnRewriterImplCDNConfigServiceImplProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeCqCdnRewriterImplCDNConfigServiceImplProperties   {
   @JsonProperty("cdn.config.distribution.domain")
-  private ConfigNodePropertyString cdnConfigDistributionDomain = null;
+  private ConfigNodePropertyString cdnConfigDistributionDomain;
 
   @JsonProperty("cdn.config.enable.rewriting")
-  private ConfigNodePropertyBoolean cdnConfigEnableRewriting = null;
+  private ConfigNodePropertyBoolean cdnConfigEnableRewriting;
 
   @JsonProperty("cdn.config.path.prefixes")
-  private ConfigNodePropertyArray cdnConfigPathPrefixes = null;
+  private ConfigNodePropertyArray cdnConfigPathPrefixes;
 
   @JsonProperty("cdn.config.cdnttl")
-  private ConfigNodePropertyInteger cdnConfigCdnttl = null;
+  private ConfigNodePropertyInteger cdnConfigCdnttl;
 
   @JsonProperty("cdn.config.application.protocol")
-  private ConfigNodePropertyString cdnConfigApplicationProtocol = null;
+  private ConfigNodePropertyString cdnConfigApplicationProtocol;
 
   public ComAdobeCqCdnRewriterImplCDNConfigServiceImplProperties cdnConfigDistributionDomain(ConfigNodePropertyString cdnConfigDistributionDomain) {
     this.cdnConfigDistributionDomain = cdnConfigDistributionDomain;
     return this;
   }
 
-   /**
+  /**
    * Get cdnConfigDistributionDomain
    * @return cdnConfigDistributionDomain
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getCdnConfigDistributionDomain() {
     return cdnConfigDistributionDomain;
@@ -59,10 +59,10 @@ public class ComAdobeCqCdnRewriterImplCDNConfigServiceImplProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get cdnConfigEnableRewriting
    * @return cdnConfigEnableRewriting
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getCdnConfigEnableRewriting() {
     return cdnConfigEnableRewriting;
@@ -77,10 +77,10 @@ public class ComAdobeCqCdnRewriterImplCDNConfigServiceImplProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get cdnConfigPathPrefixes
    * @return cdnConfigPathPrefixes
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getCdnConfigPathPrefixes() {
     return cdnConfigPathPrefixes;
@@ -95,10 +95,10 @@ public class ComAdobeCqCdnRewriterImplCDNConfigServiceImplProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get cdnConfigCdnttl
    * @return cdnConfigCdnttl
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getCdnConfigCdnttl() {
     return cdnConfigCdnttl;
@@ -113,10 +113,10 @@ public class ComAdobeCqCdnRewriterImplCDNConfigServiceImplProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get cdnConfigApplicationProtocol
    * @return cdnConfigApplicationProtocol
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getCdnConfigApplicationProtocol() {
     return cdnConfigApplicationProtocol;
@@ -128,7 +128,7 @@ public class ComAdobeCqCdnRewriterImplCDNConfigServiceImplProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -166,11 +166,8 @@ public class ComAdobeCqCdnRewriterImplCDNConfigServiceImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

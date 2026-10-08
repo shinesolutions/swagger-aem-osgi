@@ -2,129 +2,130 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyDropDown;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class OrgApacheFelixHttpProperties   {
   
-  private ConfigNodePropertyString orgApacheFelixHttpHost = null;
+  private ConfigNodePropertyString orgApacheFelixHttpHost;
 
-  private ConfigNodePropertyBoolean orgApacheFelixHttpEnable = null;
+  private ConfigNodePropertyBoolean orgApacheFelixHttpEnable;
 
-  private ConfigNodePropertyInteger orgOsgiServiceHttpPort = null;
+  private ConfigNodePropertyInteger orgOsgiServiceHttpPort;
 
-  private ConfigNodePropertyInteger orgApacheFelixHttpTimeout = null;
+  private ConfigNodePropertyInteger orgApacheFelixHttpTimeout;
 
-  private ConfigNodePropertyBoolean orgApacheFelixHttpsEnable = null;
+  private ConfigNodePropertyBoolean orgApacheFelixHttpsEnable;
 
-  private ConfigNodePropertyInteger orgOsgiServiceHttpPortSecure = null;
+  private ConfigNodePropertyInteger orgOsgiServiceHttpPortSecure;
 
-  private ConfigNodePropertyString orgApacheFelixHttpsKeystore = null;
+  private ConfigNodePropertyString orgApacheFelixHttpsKeystore;
 
-  private ConfigNodePropertyString orgApacheFelixHttpsKeystorePassword = null;
+  private ConfigNodePropertyString orgApacheFelixHttpsKeystorePassword;
 
-  private ConfigNodePropertyString orgApacheFelixHttpsKeystoreKeyPassword = null;
+  private ConfigNodePropertyString orgApacheFelixHttpsKeystoreKeyPassword;
 
-  private ConfigNodePropertyString orgApacheFelixHttpsTruststore = null;
+  private ConfigNodePropertyString orgApacheFelixHttpsTruststore;
 
-  private ConfigNodePropertyString orgApacheFelixHttpsTruststorePassword = null;
+  private ConfigNodePropertyString orgApacheFelixHttpsTruststorePassword;
 
-  private ConfigNodePropertyDropDown orgApacheFelixHttpsClientcertificate = null;
+  private ConfigNodePropertyDropDown orgApacheFelixHttpsClientcertificate;
 
-  private ConfigNodePropertyString orgApacheFelixHttpContextPath = null;
+  private ConfigNodePropertyString orgApacheFelixHttpContextPath;
 
-  private ConfigNodePropertyBoolean orgApacheFelixHttpMbeans = null;
+  private ConfigNodePropertyBoolean orgApacheFelixHttpMbeans;
 
-  private ConfigNodePropertyInteger orgApacheFelixHttpSessionTimeout = null;
+  private ConfigNodePropertyInteger orgApacheFelixHttpSessionTimeout;
 
-  private ConfigNodePropertyInteger orgApacheFelixHttpJettyThreadpoolMax = null;
+  private ConfigNodePropertyInteger orgApacheFelixHttpJettyThreadpoolMax;
 
-  private ConfigNodePropertyInteger orgApacheFelixHttpJettyAcceptors = null;
+  private ConfigNodePropertyInteger orgApacheFelixHttpJettyAcceptors;
 
-  private ConfigNodePropertyInteger orgApacheFelixHttpJettySelectors = null;
+  private ConfigNodePropertyInteger orgApacheFelixHttpJettySelectors;
 
-  private ConfigNodePropertyInteger orgApacheFelixHttpJettyHeaderBufferSize = null;
+  private ConfigNodePropertyInteger orgApacheFelixHttpJettyHeaderBufferSize;
 
-  private ConfigNodePropertyInteger orgApacheFelixHttpJettyRequestBufferSize = null;
+  private ConfigNodePropertyInteger orgApacheFelixHttpJettyRequestBufferSize;
 
-  private ConfigNodePropertyInteger orgApacheFelixHttpJettyResponseBufferSize = null;
+  private ConfigNodePropertyInteger orgApacheFelixHttpJettyResponseBufferSize;
 
-  private ConfigNodePropertyInteger orgApacheFelixHttpJettyMaxFormSize = null;
+  private ConfigNodePropertyInteger orgApacheFelixHttpJettyMaxFormSize;
 
-  private ConfigNodePropertyArray orgApacheFelixHttpPathExclusions = null;
+  private ConfigNodePropertyArray orgApacheFelixHttpPathExclusions;
 
-  private ConfigNodePropertyArray orgApacheFelixHttpsJettyCiphersuitesExcluded = null;
+  private ConfigNodePropertyArray orgApacheFelixHttpsJettyCiphersuitesExcluded;
 
-  private ConfigNodePropertyArray orgApacheFelixHttpsJettyCiphersuitesIncluded = null;
+  private ConfigNodePropertyArray orgApacheFelixHttpsJettyCiphersuitesIncluded;
 
-  private ConfigNodePropertyBoolean orgApacheFelixHttpJettySendServerHeader = null;
+  private ConfigNodePropertyBoolean orgApacheFelixHttpJettySendServerHeader;
 
-  private ConfigNodePropertyArray orgApacheFelixHttpsJettyProtocolsIncluded = null;
+  private ConfigNodePropertyArray orgApacheFelixHttpsJettyProtocolsIncluded;
 
-  private ConfigNodePropertyArray orgApacheFelixHttpsJettyProtocolsExcluded = null;
+  private ConfigNodePropertyArray orgApacheFelixHttpsJettyProtocolsExcluded;
 
-  private ConfigNodePropertyBoolean orgApacheFelixProxyLoadBalancerConnectionEnable = null;
+  private ConfigNodePropertyBoolean orgApacheFelixProxyLoadBalancerConnectionEnable;
 
-  private ConfigNodePropertyBoolean orgApacheFelixHttpsJettyRenegotiateAllowed = null;
+  private ConfigNodePropertyBoolean orgApacheFelixHttpsJettyRenegotiateAllowed;
 
-  private ConfigNodePropertyBoolean orgApacheFelixHttpsJettySessionCookieHttpOnly = null;
+  private ConfigNodePropertyBoolean orgApacheFelixHttpsJettySessionCookieHttpOnly;
 
-  private ConfigNodePropertyBoolean orgApacheFelixHttpsJettySessionCookieSecure = null;
+  private ConfigNodePropertyBoolean orgApacheFelixHttpsJettySessionCookieSecure;
 
-  private ConfigNodePropertyString orgEclipseJettyServletSessionIdPathParameterName = null;
+  private ConfigNodePropertyString orgEclipseJettyServletSessionIdPathParameterName;
 
-  private ConfigNodePropertyBoolean orgEclipseJettyServletCheckingRemoteSessionIdEncoding = null;
+  private ConfigNodePropertyBoolean orgEclipseJettyServletCheckingRemoteSessionIdEncoding;
 
-  private ConfigNodePropertyString orgEclipseJettyServletSessionCookie = null;
+  private ConfigNodePropertyString orgEclipseJettyServletSessionCookie;
 
-  private ConfigNodePropertyString orgEclipseJettyServletSessionDomain = null;
+  private ConfigNodePropertyString orgEclipseJettyServletSessionDomain;
 
-  private ConfigNodePropertyString orgEclipseJettyServletSessionPath = null;
+  private ConfigNodePropertyString orgEclipseJettyServletSessionPath;
 
-  private ConfigNodePropertyInteger orgEclipseJettyServletMaxAge = null;
+  private ConfigNodePropertyInteger orgEclipseJettyServletMaxAge;
 
-  private ConfigNodePropertyString orgApacheFelixHttpName = null;
+  private ConfigNodePropertyString orgApacheFelixHttpName;
 
-  private ConfigNodePropertyBoolean orgApacheFelixJettyGziphandlerEnable = null;
+  private ConfigNodePropertyBoolean orgApacheFelixJettyGziphandlerEnable;
 
-  private ConfigNodePropertyInteger orgApacheFelixJettyGzipMinGzipSize = null;
+  private ConfigNodePropertyInteger orgApacheFelixJettyGzipMinGzipSize;
 
-  private ConfigNodePropertyInteger orgApacheFelixJettyGzipCompressionLevel = null;
+  private ConfigNodePropertyInteger orgApacheFelixJettyGzipCompressionLevel;
 
-  private ConfigNodePropertyInteger orgApacheFelixJettyGzipInflateBufferSize = null;
+  private ConfigNodePropertyInteger orgApacheFelixJettyGzipInflateBufferSize;
 
-  private ConfigNodePropertyBoolean orgApacheFelixJettyGzipSyncFlush = null;
+  private ConfigNodePropertyBoolean orgApacheFelixJettyGzipSyncFlush;
 
-  private ConfigNodePropertyArray orgApacheFelixJettyGzipExcludedUserAgents = null;
+  private ConfigNodePropertyArray orgApacheFelixJettyGzipExcludedUserAgents;
 
-  private ConfigNodePropertyArray orgApacheFelixJettyGzipIncludedMethods = null;
+  private ConfigNodePropertyArray orgApacheFelixJettyGzipIncludedMethods;
 
-  private ConfigNodePropertyArray orgApacheFelixJettyGzipExcludedMethods = null;
+  private ConfigNodePropertyArray orgApacheFelixJettyGzipExcludedMethods;
 
-  private ConfigNodePropertyArray orgApacheFelixJettyGzipIncludedPaths = null;
+  private ConfigNodePropertyArray orgApacheFelixJettyGzipIncludedPaths;
 
-  private ConfigNodePropertyArray orgApacheFelixJettyGzipExcludedPaths = null;
+  private ConfigNodePropertyArray orgApacheFelixJettyGzipExcludedPaths;
 
-  private ConfigNodePropertyArray orgApacheFelixJettyGzipIncludedMimeTypes = null;
+  private ConfigNodePropertyArray orgApacheFelixJettyGzipIncludedMimeTypes;
 
-  private ConfigNodePropertyArray orgApacheFelixJettyGzipExcludedMimeTypes = null;
+  private ConfigNodePropertyArray orgApacheFelixJettyGzipExcludedMimeTypes;
 
-  private ConfigNodePropertyBoolean orgApacheFelixHttpSessionInvalidate = null;
+  private ConfigNodePropertyBoolean orgApacheFelixHttpSessionInvalidate;
 
-  private ConfigNodePropertyBoolean orgApacheFelixHttpSessionUniqueid = null;
-
+  private ConfigNodePropertyBoolean orgApacheFelixHttpSessionUniqueid;
 
   /**
    **/
@@ -1082,7 +1083,7 @@ public class OrgApacheFelixHttpProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -1090,59 +1091,59 @@ public class OrgApacheFelixHttpProperties   {
       return false;
     }
     OrgApacheFelixHttpProperties orgApacheFelixHttpProperties = (OrgApacheFelixHttpProperties) o;
-    return Objects.equals(orgApacheFelixHttpHost, orgApacheFelixHttpProperties.orgApacheFelixHttpHost) &&
-        Objects.equals(orgApacheFelixHttpEnable, orgApacheFelixHttpProperties.orgApacheFelixHttpEnable) &&
-        Objects.equals(orgOsgiServiceHttpPort, orgApacheFelixHttpProperties.orgOsgiServiceHttpPort) &&
-        Objects.equals(orgApacheFelixHttpTimeout, orgApacheFelixHttpProperties.orgApacheFelixHttpTimeout) &&
-        Objects.equals(orgApacheFelixHttpsEnable, orgApacheFelixHttpProperties.orgApacheFelixHttpsEnable) &&
-        Objects.equals(orgOsgiServiceHttpPortSecure, orgApacheFelixHttpProperties.orgOsgiServiceHttpPortSecure) &&
-        Objects.equals(orgApacheFelixHttpsKeystore, orgApacheFelixHttpProperties.orgApacheFelixHttpsKeystore) &&
-        Objects.equals(orgApacheFelixHttpsKeystorePassword, orgApacheFelixHttpProperties.orgApacheFelixHttpsKeystorePassword) &&
-        Objects.equals(orgApacheFelixHttpsKeystoreKeyPassword, orgApacheFelixHttpProperties.orgApacheFelixHttpsKeystoreKeyPassword) &&
-        Objects.equals(orgApacheFelixHttpsTruststore, orgApacheFelixHttpProperties.orgApacheFelixHttpsTruststore) &&
-        Objects.equals(orgApacheFelixHttpsTruststorePassword, orgApacheFelixHttpProperties.orgApacheFelixHttpsTruststorePassword) &&
-        Objects.equals(orgApacheFelixHttpsClientcertificate, orgApacheFelixHttpProperties.orgApacheFelixHttpsClientcertificate) &&
-        Objects.equals(orgApacheFelixHttpContextPath, orgApacheFelixHttpProperties.orgApacheFelixHttpContextPath) &&
-        Objects.equals(orgApacheFelixHttpMbeans, orgApacheFelixHttpProperties.orgApacheFelixHttpMbeans) &&
-        Objects.equals(orgApacheFelixHttpSessionTimeout, orgApacheFelixHttpProperties.orgApacheFelixHttpSessionTimeout) &&
-        Objects.equals(orgApacheFelixHttpJettyThreadpoolMax, orgApacheFelixHttpProperties.orgApacheFelixHttpJettyThreadpoolMax) &&
-        Objects.equals(orgApacheFelixHttpJettyAcceptors, orgApacheFelixHttpProperties.orgApacheFelixHttpJettyAcceptors) &&
-        Objects.equals(orgApacheFelixHttpJettySelectors, orgApacheFelixHttpProperties.orgApacheFelixHttpJettySelectors) &&
-        Objects.equals(orgApacheFelixHttpJettyHeaderBufferSize, orgApacheFelixHttpProperties.orgApacheFelixHttpJettyHeaderBufferSize) &&
-        Objects.equals(orgApacheFelixHttpJettyRequestBufferSize, orgApacheFelixHttpProperties.orgApacheFelixHttpJettyRequestBufferSize) &&
-        Objects.equals(orgApacheFelixHttpJettyResponseBufferSize, orgApacheFelixHttpProperties.orgApacheFelixHttpJettyResponseBufferSize) &&
-        Objects.equals(orgApacheFelixHttpJettyMaxFormSize, orgApacheFelixHttpProperties.orgApacheFelixHttpJettyMaxFormSize) &&
-        Objects.equals(orgApacheFelixHttpPathExclusions, orgApacheFelixHttpProperties.orgApacheFelixHttpPathExclusions) &&
-        Objects.equals(orgApacheFelixHttpsJettyCiphersuitesExcluded, orgApacheFelixHttpProperties.orgApacheFelixHttpsJettyCiphersuitesExcluded) &&
-        Objects.equals(orgApacheFelixHttpsJettyCiphersuitesIncluded, orgApacheFelixHttpProperties.orgApacheFelixHttpsJettyCiphersuitesIncluded) &&
-        Objects.equals(orgApacheFelixHttpJettySendServerHeader, orgApacheFelixHttpProperties.orgApacheFelixHttpJettySendServerHeader) &&
-        Objects.equals(orgApacheFelixHttpsJettyProtocolsIncluded, orgApacheFelixHttpProperties.orgApacheFelixHttpsJettyProtocolsIncluded) &&
-        Objects.equals(orgApacheFelixHttpsJettyProtocolsExcluded, orgApacheFelixHttpProperties.orgApacheFelixHttpsJettyProtocolsExcluded) &&
-        Objects.equals(orgApacheFelixProxyLoadBalancerConnectionEnable, orgApacheFelixHttpProperties.orgApacheFelixProxyLoadBalancerConnectionEnable) &&
-        Objects.equals(orgApacheFelixHttpsJettyRenegotiateAllowed, orgApacheFelixHttpProperties.orgApacheFelixHttpsJettyRenegotiateAllowed) &&
-        Objects.equals(orgApacheFelixHttpsJettySessionCookieHttpOnly, orgApacheFelixHttpProperties.orgApacheFelixHttpsJettySessionCookieHttpOnly) &&
-        Objects.equals(orgApacheFelixHttpsJettySessionCookieSecure, orgApacheFelixHttpProperties.orgApacheFelixHttpsJettySessionCookieSecure) &&
-        Objects.equals(orgEclipseJettyServletSessionIdPathParameterName, orgApacheFelixHttpProperties.orgEclipseJettyServletSessionIdPathParameterName) &&
-        Objects.equals(orgEclipseJettyServletCheckingRemoteSessionIdEncoding, orgApacheFelixHttpProperties.orgEclipseJettyServletCheckingRemoteSessionIdEncoding) &&
-        Objects.equals(orgEclipseJettyServletSessionCookie, orgApacheFelixHttpProperties.orgEclipseJettyServletSessionCookie) &&
-        Objects.equals(orgEclipseJettyServletSessionDomain, orgApacheFelixHttpProperties.orgEclipseJettyServletSessionDomain) &&
-        Objects.equals(orgEclipseJettyServletSessionPath, orgApacheFelixHttpProperties.orgEclipseJettyServletSessionPath) &&
-        Objects.equals(orgEclipseJettyServletMaxAge, orgApacheFelixHttpProperties.orgEclipseJettyServletMaxAge) &&
-        Objects.equals(orgApacheFelixHttpName, orgApacheFelixHttpProperties.orgApacheFelixHttpName) &&
-        Objects.equals(orgApacheFelixJettyGziphandlerEnable, orgApacheFelixHttpProperties.orgApacheFelixJettyGziphandlerEnable) &&
-        Objects.equals(orgApacheFelixJettyGzipMinGzipSize, orgApacheFelixHttpProperties.orgApacheFelixJettyGzipMinGzipSize) &&
-        Objects.equals(orgApacheFelixJettyGzipCompressionLevel, orgApacheFelixHttpProperties.orgApacheFelixJettyGzipCompressionLevel) &&
-        Objects.equals(orgApacheFelixJettyGzipInflateBufferSize, orgApacheFelixHttpProperties.orgApacheFelixJettyGzipInflateBufferSize) &&
-        Objects.equals(orgApacheFelixJettyGzipSyncFlush, orgApacheFelixHttpProperties.orgApacheFelixJettyGzipSyncFlush) &&
-        Objects.equals(orgApacheFelixJettyGzipExcludedUserAgents, orgApacheFelixHttpProperties.orgApacheFelixJettyGzipExcludedUserAgents) &&
-        Objects.equals(orgApacheFelixJettyGzipIncludedMethods, orgApacheFelixHttpProperties.orgApacheFelixJettyGzipIncludedMethods) &&
-        Objects.equals(orgApacheFelixJettyGzipExcludedMethods, orgApacheFelixHttpProperties.orgApacheFelixJettyGzipExcludedMethods) &&
-        Objects.equals(orgApacheFelixJettyGzipIncludedPaths, orgApacheFelixHttpProperties.orgApacheFelixJettyGzipIncludedPaths) &&
-        Objects.equals(orgApacheFelixJettyGzipExcludedPaths, orgApacheFelixHttpProperties.orgApacheFelixJettyGzipExcludedPaths) &&
-        Objects.equals(orgApacheFelixJettyGzipIncludedMimeTypes, orgApacheFelixHttpProperties.orgApacheFelixJettyGzipIncludedMimeTypes) &&
-        Objects.equals(orgApacheFelixJettyGzipExcludedMimeTypes, orgApacheFelixHttpProperties.orgApacheFelixJettyGzipExcludedMimeTypes) &&
-        Objects.equals(orgApacheFelixHttpSessionInvalidate, orgApacheFelixHttpProperties.orgApacheFelixHttpSessionInvalidate) &&
-        Objects.equals(orgApacheFelixHttpSessionUniqueid, orgApacheFelixHttpProperties.orgApacheFelixHttpSessionUniqueid);
+    return Objects.equals(this.orgApacheFelixHttpHost, orgApacheFelixHttpProperties.orgApacheFelixHttpHost) &&
+        Objects.equals(this.orgApacheFelixHttpEnable, orgApacheFelixHttpProperties.orgApacheFelixHttpEnable) &&
+        Objects.equals(this.orgOsgiServiceHttpPort, orgApacheFelixHttpProperties.orgOsgiServiceHttpPort) &&
+        Objects.equals(this.orgApacheFelixHttpTimeout, orgApacheFelixHttpProperties.orgApacheFelixHttpTimeout) &&
+        Objects.equals(this.orgApacheFelixHttpsEnable, orgApacheFelixHttpProperties.orgApacheFelixHttpsEnable) &&
+        Objects.equals(this.orgOsgiServiceHttpPortSecure, orgApacheFelixHttpProperties.orgOsgiServiceHttpPortSecure) &&
+        Objects.equals(this.orgApacheFelixHttpsKeystore, orgApacheFelixHttpProperties.orgApacheFelixHttpsKeystore) &&
+        Objects.equals(this.orgApacheFelixHttpsKeystorePassword, orgApacheFelixHttpProperties.orgApacheFelixHttpsKeystorePassword) &&
+        Objects.equals(this.orgApacheFelixHttpsKeystoreKeyPassword, orgApacheFelixHttpProperties.orgApacheFelixHttpsKeystoreKeyPassword) &&
+        Objects.equals(this.orgApacheFelixHttpsTruststore, orgApacheFelixHttpProperties.orgApacheFelixHttpsTruststore) &&
+        Objects.equals(this.orgApacheFelixHttpsTruststorePassword, orgApacheFelixHttpProperties.orgApacheFelixHttpsTruststorePassword) &&
+        Objects.equals(this.orgApacheFelixHttpsClientcertificate, orgApacheFelixHttpProperties.orgApacheFelixHttpsClientcertificate) &&
+        Objects.equals(this.orgApacheFelixHttpContextPath, orgApacheFelixHttpProperties.orgApacheFelixHttpContextPath) &&
+        Objects.equals(this.orgApacheFelixHttpMbeans, orgApacheFelixHttpProperties.orgApacheFelixHttpMbeans) &&
+        Objects.equals(this.orgApacheFelixHttpSessionTimeout, orgApacheFelixHttpProperties.orgApacheFelixHttpSessionTimeout) &&
+        Objects.equals(this.orgApacheFelixHttpJettyThreadpoolMax, orgApacheFelixHttpProperties.orgApacheFelixHttpJettyThreadpoolMax) &&
+        Objects.equals(this.orgApacheFelixHttpJettyAcceptors, orgApacheFelixHttpProperties.orgApacheFelixHttpJettyAcceptors) &&
+        Objects.equals(this.orgApacheFelixHttpJettySelectors, orgApacheFelixHttpProperties.orgApacheFelixHttpJettySelectors) &&
+        Objects.equals(this.orgApacheFelixHttpJettyHeaderBufferSize, orgApacheFelixHttpProperties.orgApacheFelixHttpJettyHeaderBufferSize) &&
+        Objects.equals(this.orgApacheFelixHttpJettyRequestBufferSize, orgApacheFelixHttpProperties.orgApacheFelixHttpJettyRequestBufferSize) &&
+        Objects.equals(this.orgApacheFelixHttpJettyResponseBufferSize, orgApacheFelixHttpProperties.orgApacheFelixHttpJettyResponseBufferSize) &&
+        Objects.equals(this.orgApacheFelixHttpJettyMaxFormSize, orgApacheFelixHttpProperties.orgApacheFelixHttpJettyMaxFormSize) &&
+        Objects.equals(this.orgApacheFelixHttpPathExclusions, orgApacheFelixHttpProperties.orgApacheFelixHttpPathExclusions) &&
+        Objects.equals(this.orgApacheFelixHttpsJettyCiphersuitesExcluded, orgApacheFelixHttpProperties.orgApacheFelixHttpsJettyCiphersuitesExcluded) &&
+        Objects.equals(this.orgApacheFelixHttpsJettyCiphersuitesIncluded, orgApacheFelixHttpProperties.orgApacheFelixHttpsJettyCiphersuitesIncluded) &&
+        Objects.equals(this.orgApacheFelixHttpJettySendServerHeader, orgApacheFelixHttpProperties.orgApacheFelixHttpJettySendServerHeader) &&
+        Objects.equals(this.orgApacheFelixHttpsJettyProtocolsIncluded, orgApacheFelixHttpProperties.orgApacheFelixHttpsJettyProtocolsIncluded) &&
+        Objects.equals(this.orgApacheFelixHttpsJettyProtocolsExcluded, orgApacheFelixHttpProperties.orgApacheFelixHttpsJettyProtocolsExcluded) &&
+        Objects.equals(this.orgApacheFelixProxyLoadBalancerConnectionEnable, orgApacheFelixHttpProperties.orgApacheFelixProxyLoadBalancerConnectionEnable) &&
+        Objects.equals(this.orgApacheFelixHttpsJettyRenegotiateAllowed, orgApacheFelixHttpProperties.orgApacheFelixHttpsJettyRenegotiateAllowed) &&
+        Objects.equals(this.orgApacheFelixHttpsJettySessionCookieHttpOnly, orgApacheFelixHttpProperties.orgApacheFelixHttpsJettySessionCookieHttpOnly) &&
+        Objects.equals(this.orgApacheFelixHttpsJettySessionCookieSecure, orgApacheFelixHttpProperties.orgApacheFelixHttpsJettySessionCookieSecure) &&
+        Objects.equals(this.orgEclipseJettyServletSessionIdPathParameterName, orgApacheFelixHttpProperties.orgEclipseJettyServletSessionIdPathParameterName) &&
+        Objects.equals(this.orgEclipseJettyServletCheckingRemoteSessionIdEncoding, orgApacheFelixHttpProperties.orgEclipseJettyServletCheckingRemoteSessionIdEncoding) &&
+        Objects.equals(this.orgEclipseJettyServletSessionCookie, orgApacheFelixHttpProperties.orgEclipseJettyServletSessionCookie) &&
+        Objects.equals(this.orgEclipseJettyServletSessionDomain, orgApacheFelixHttpProperties.orgEclipseJettyServletSessionDomain) &&
+        Objects.equals(this.orgEclipseJettyServletSessionPath, orgApacheFelixHttpProperties.orgEclipseJettyServletSessionPath) &&
+        Objects.equals(this.orgEclipseJettyServletMaxAge, orgApacheFelixHttpProperties.orgEclipseJettyServletMaxAge) &&
+        Objects.equals(this.orgApacheFelixHttpName, orgApacheFelixHttpProperties.orgApacheFelixHttpName) &&
+        Objects.equals(this.orgApacheFelixJettyGziphandlerEnable, orgApacheFelixHttpProperties.orgApacheFelixJettyGziphandlerEnable) &&
+        Objects.equals(this.orgApacheFelixJettyGzipMinGzipSize, orgApacheFelixHttpProperties.orgApacheFelixJettyGzipMinGzipSize) &&
+        Objects.equals(this.orgApacheFelixJettyGzipCompressionLevel, orgApacheFelixHttpProperties.orgApacheFelixJettyGzipCompressionLevel) &&
+        Objects.equals(this.orgApacheFelixJettyGzipInflateBufferSize, orgApacheFelixHttpProperties.orgApacheFelixJettyGzipInflateBufferSize) &&
+        Objects.equals(this.orgApacheFelixJettyGzipSyncFlush, orgApacheFelixHttpProperties.orgApacheFelixJettyGzipSyncFlush) &&
+        Objects.equals(this.orgApacheFelixJettyGzipExcludedUserAgents, orgApacheFelixHttpProperties.orgApacheFelixJettyGzipExcludedUserAgents) &&
+        Objects.equals(this.orgApacheFelixJettyGzipIncludedMethods, orgApacheFelixHttpProperties.orgApacheFelixJettyGzipIncludedMethods) &&
+        Objects.equals(this.orgApacheFelixJettyGzipExcludedMethods, orgApacheFelixHttpProperties.orgApacheFelixJettyGzipExcludedMethods) &&
+        Objects.equals(this.orgApacheFelixJettyGzipIncludedPaths, orgApacheFelixHttpProperties.orgApacheFelixJettyGzipIncludedPaths) &&
+        Objects.equals(this.orgApacheFelixJettyGzipExcludedPaths, orgApacheFelixHttpProperties.orgApacheFelixJettyGzipExcludedPaths) &&
+        Objects.equals(this.orgApacheFelixJettyGzipIncludedMimeTypes, orgApacheFelixHttpProperties.orgApacheFelixJettyGzipIncludedMimeTypes) &&
+        Objects.equals(this.orgApacheFelixJettyGzipExcludedMimeTypes, orgApacheFelixHttpProperties.orgApacheFelixJettyGzipExcludedMimeTypes) &&
+        Objects.equals(this.orgApacheFelixHttpSessionInvalidate, orgApacheFelixHttpProperties.orgApacheFelixHttpSessionInvalidate) &&
+        Objects.equals(this.orgApacheFelixHttpSessionUniqueid, orgApacheFelixHttpProperties.orgApacheFelixHttpSessionUniqueid);
   }
 
   @Override
@@ -1216,11 +1217,8 @@ public class OrgApacheFelixHttpProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

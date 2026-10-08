@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqSocialSrpImplSocialSolrConnectorProperti
 
 @Canonical
 class ComAdobeCqSocialSrpImplSocialSolrConnectorInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqSocialSrpImplSocialSolrConnectorProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqSocialSrpImplSocialSolrConnectorProperties properties
 }

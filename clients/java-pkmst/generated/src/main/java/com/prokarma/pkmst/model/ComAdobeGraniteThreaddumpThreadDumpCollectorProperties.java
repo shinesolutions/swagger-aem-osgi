@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyBoolean;
 import com.prokarma.pkmst.model.ConfigNodePropertyDropDown;
 import com.prokarma.pkmst.model.ConfigNodePropertyInteger;
@@ -18,45 +19,44 @@ import io.swagger.annotations.ApiModelProperty;
  * ComAdobeGraniteThreaddumpThreadDumpCollectorProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteThreaddumpThreadDumpCollectorProperties   {
   @JsonProperty("scheduler.period")
-  private ConfigNodePropertyInteger schedulerPeriod = null;
+  private ConfigNodePropertyInteger schedulerPeriod;
 
   @JsonProperty("scheduler.runOn")
-  private ConfigNodePropertyDropDown schedulerRunOn = null;
+  private ConfigNodePropertyDropDown schedulerRunOn;
 
   @JsonProperty("granite.threaddump.enabled")
-  private ConfigNodePropertyBoolean graniteThreaddumpEnabled = null;
+  private ConfigNodePropertyBoolean graniteThreaddumpEnabled;
 
   @JsonProperty("granite.threaddump.dumpsPerFile")
-  private ConfigNodePropertyInteger graniteThreaddumpDumpsPerFile = null;
+  private ConfigNodePropertyInteger graniteThreaddumpDumpsPerFile;
 
   @JsonProperty("granite.threaddump.enableGzipCompression")
-  private ConfigNodePropertyBoolean graniteThreaddumpEnableGzipCompression = null;
+  private ConfigNodePropertyBoolean graniteThreaddumpEnableGzipCompression;
 
   @JsonProperty("granite.threaddump.enableDirectoriesCompression")
-  private ConfigNodePropertyBoolean graniteThreaddumpEnableDirectoriesCompression = null;
+  private ConfigNodePropertyBoolean graniteThreaddumpEnableDirectoriesCompression;
 
   @JsonProperty("granite.threaddump.enableJStack")
-  private ConfigNodePropertyBoolean graniteThreaddumpEnableJStack = null;
+  private ConfigNodePropertyBoolean graniteThreaddumpEnableJStack;
 
   @JsonProperty("granite.threaddump.maxBackupDays")
-  private ConfigNodePropertyInteger graniteThreaddumpMaxBackupDays = null;
+  private ConfigNodePropertyInteger graniteThreaddumpMaxBackupDays;
 
   @JsonProperty("granite.threaddump.backupCleanTrigger")
-  private ConfigNodePropertyString graniteThreaddumpBackupCleanTrigger = null;
+  private ConfigNodePropertyString graniteThreaddumpBackupCleanTrigger;
 
   public ComAdobeGraniteThreaddumpThreadDumpCollectorProperties schedulerPeriod(ConfigNodePropertyInteger schedulerPeriod) {
     this.schedulerPeriod = schedulerPeriod;
     return this;
   }
 
-   /**
+  /**
    * Get schedulerPeriod
    * @return schedulerPeriod
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getSchedulerPeriod() {
     return schedulerPeriod;
@@ -71,10 +71,10 @@ public class ComAdobeGraniteThreaddumpThreadDumpCollectorProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get schedulerRunOn
    * @return schedulerRunOn
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyDropDown getSchedulerRunOn() {
     return schedulerRunOn;
@@ -89,10 +89,10 @@ public class ComAdobeGraniteThreaddumpThreadDumpCollectorProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get graniteThreaddumpEnabled
    * @return graniteThreaddumpEnabled
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getGraniteThreaddumpEnabled() {
     return graniteThreaddumpEnabled;
@@ -107,10 +107,10 @@ public class ComAdobeGraniteThreaddumpThreadDumpCollectorProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get graniteThreaddumpDumpsPerFile
    * @return graniteThreaddumpDumpsPerFile
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getGraniteThreaddumpDumpsPerFile() {
     return graniteThreaddumpDumpsPerFile;
@@ -125,10 +125,10 @@ public class ComAdobeGraniteThreaddumpThreadDumpCollectorProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get graniteThreaddumpEnableGzipCompression
    * @return graniteThreaddumpEnableGzipCompression
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getGraniteThreaddumpEnableGzipCompression() {
     return graniteThreaddumpEnableGzipCompression;
@@ -143,10 +143,10 @@ public class ComAdobeGraniteThreaddumpThreadDumpCollectorProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get graniteThreaddumpEnableDirectoriesCompression
    * @return graniteThreaddumpEnableDirectoriesCompression
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getGraniteThreaddumpEnableDirectoriesCompression() {
     return graniteThreaddumpEnableDirectoriesCompression;
@@ -161,10 +161,10 @@ public class ComAdobeGraniteThreaddumpThreadDumpCollectorProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get graniteThreaddumpEnableJStack
    * @return graniteThreaddumpEnableJStack
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getGraniteThreaddumpEnableJStack() {
     return graniteThreaddumpEnableJStack;
@@ -179,10 +179,10 @@ public class ComAdobeGraniteThreaddumpThreadDumpCollectorProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get graniteThreaddumpMaxBackupDays
    * @return graniteThreaddumpMaxBackupDays
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getGraniteThreaddumpMaxBackupDays() {
     return graniteThreaddumpMaxBackupDays;
@@ -197,10 +197,10 @@ public class ComAdobeGraniteThreaddumpThreadDumpCollectorProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get graniteThreaddumpBackupCleanTrigger
    * @return graniteThreaddumpBackupCleanTrigger
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getGraniteThreaddumpBackupCleanTrigger() {
     return graniteThreaddumpBackupCleanTrigger;
@@ -212,7 +212,7 @@ public class ComAdobeGraniteThreaddumpThreadDumpCollectorProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -258,11 +258,8 @@ public class ComAdobeGraniteThreaddumpThreadDumpCollectorProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqWcmCoreImplServletsContentfinderPageViewHa
 
 @Canonical
 class ComDayCqWcmCoreImplServletsContentfinderPageViewHandlerInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqWcmCoreImplServletsContentfinderPageViewHandlerProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqWcmCoreImplServletsContentfinderPageViewHandlerProperties properties
 }

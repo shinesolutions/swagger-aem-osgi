@@ -1,39 +1,50 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ComAdobeGraniteOffloadingImplOffloadingJobClonerProperties;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComAdobeGraniteOffloadingImplOffloadingJobClonerInfo
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComAdobeGraniteOffloadingImplOffloadingJobClonerInfo   {
-  @JsonProperty("pid")
-  private String pid = null;
+@JsonTypeName("comAdobeGraniteOffloadingImplOffloadingJobClonerInfo")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComAdobeGraniteOffloadingImplOffloadingJobClonerInfo {
 
-  @JsonProperty("title")
-  private String title = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable String pid;
 
-  @JsonProperty("description")
-  private String description = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable String title;
 
-  @JsonProperty("properties")
-  private ComAdobeGraniteOffloadingImplOffloadingJobClonerProperties properties = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable String description;
 
-  @JsonProperty("bundle_location")
-  private String bundleLocation = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ComAdobeGraniteOffloadingImplOffloadingJobClonerProperties properties;
 
-  @JsonProperty("service_location")
-  private String serviceLocation = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable String bundleLocation;
 
-  public ComAdobeGraniteOffloadingImplOffloadingJobClonerInfo pid(String pid) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable String serviceLocation;
+
+  public ComAdobeGraniteOffloadingImplOffloadingJobClonerInfo pid(@Nullable String pid) {
     this.pid = pid;
     return this;
   }
@@ -41,19 +52,20 @@ public class ComAdobeGraniteOffloadingImplOffloadingJobClonerInfo   {
   /**
    * Get pid
    * @return pid
-  **/
-  @ApiModelProperty(value = "")
-
-
-  public String getPid() {
+   */
+  
+  @Schema(name = "pid", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("pid")
+  public @Nullable String getPid() {
     return pid;
   }
 
-  public void setPid(String pid) {
+  @JsonProperty("pid")
+  public void setPid(@Nullable String pid) {
     this.pid = pid;
   }
 
-  public ComAdobeGraniteOffloadingImplOffloadingJobClonerInfo title(String title) {
+  public ComAdobeGraniteOffloadingImplOffloadingJobClonerInfo title(@Nullable String title) {
     this.title = title;
     return this;
   }
@@ -61,19 +73,20 @@ public class ComAdobeGraniteOffloadingImplOffloadingJobClonerInfo   {
   /**
    * Get title
    * @return title
-  **/
-  @ApiModelProperty(value = "")
-
-
-  public String getTitle() {
+   */
+  
+  @Schema(name = "title", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("title")
+  public @Nullable String getTitle() {
     return title;
   }
 
-  public void setTitle(String title) {
+  @JsonProperty("title")
+  public void setTitle(@Nullable String title) {
     this.title = title;
   }
 
-  public ComAdobeGraniteOffloadingImplOffloadingJobClonerInfo description(String description) {
+  public ComAdobeGraniteOffloadingImplOffloadingJobClonerInfo description(@Nullable String description) {
     this.description = description;
     return this;
   }
@@ -81,19 +94,20 @@ public class ComAdobeGraniteOffloadingImplOffloadingJobClonerInfo   {
   /**
    * Get description
    * @return description
-  **/
-  @ApiModelProperty(value = "")
-
-
-  public String getDescription() {
+   */
+  
+  @Schema(name = "description", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("description")
+  public @Nullable String getDescription() {
     return description;
   }
 
-  public void setDescription(String description) {
+  @JsonProperty("description")
+  public void setDescription(@Nullable String description) {
     this.description = description;
   }
 
-  public ComAdobeGraniteOffloadingImplOffloadingJobClonerInfo properties(ComAdobeGraniteOffloadingImplOffloadingJobClonerProperties properties) {
+  public ComAdobeGraniteOffloadingImplOffloadingJobClonerInfo properties(@Nullable ComAdobeGraniteOffloadingImplOffloadingJobClonerProperties properties) {
     this.properties = properties;
     return this;
   }
@@ -101,20 +115,20 @@ public class ComAdobeGraniteOffloadingImplOffloadingJobClonerInfo   {
   /**
    * Get properties
    * @return properties
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ComAdobeGraniteOffloadingImplOffloadingJobClonerProperties getProperties() {
+   */
+  @Valid 
+  @Schema(name = "properties", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("properties")
+  public @Nullable ComAdobeGraniteOffloadingImplOffloadingJobClonerProperties getProperties() {
     return properties;
   }
 
-  public void setProperties(ComAdobeGraniteOffloadingImplOffloadingJobClonerProperties properties) {
+  @JsonProperty("properties")
+  public void setProperties(@Nullable ComAdobeGraniteOffloadingImplOffloadingJobClonerProperties properties) {
     this.properties = properties;
   }
 
-  public ComAdobeGraniteOffloadingImplOffloadingJobClonerInfo bundleLocation(String bundleLocation) {
+  public ComAdobeGraniteOffloadingImplOffloadingJobClonerInfo bundleLocation(@Nullable String bundleLocation) {
     this.bundleLocation = bundleLocation;
     return this;
   }
@@ -122,19 +136,20 @@ public class ComAdobeGraniteOffloadingImplOffloadingJobClonerInfo   {
   /**
    * Get bundleLocation
    * @return bundleLocation
-  **/
-  @ApiModelProperty(value = "")
-
-
-  public String getBundleLocation() {
+   */
+  
+  @Schema(name = "bundle_location", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("bundle_location")
+  public @Nullable String getBundleLocation() {
     return bundleLocation;
   }
 
-  public void setBundleLocation(String bundleLocation) {
+  @JsonProperty("bundle_location")
+  public void setBundleLocation(@Nullable String bundleLocation) {
     this.bundleLocation = bundleLocation;
   }
 
-  public ComAdobeGraniteOffloadingImplOffloadingJobClonerInfo serviceLocation(String serviceLocation) {
+  public ComAdobeGraniteOffloadingImplOffloadingJobClonerInfo serviceLocation(@Nullable String serviceLocation) {
     this.serviceLocation = serviceLocation;
     return this;
   }
@@ -142,21 +157,21 @@ public class ComAdobeGraniteOffloadingImplOffloadingJobClonerInfo   {
   /**
    * Get serviceLocation
    * @return serviceLocation
-  **/
-  @ApiModelProperty(value = "")
-
-
-  public String getServiceLocation() {
+   */
+  
+  @Schema(name = "service_location", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("service_location")
+  public @Nullable String getServiceLocation() {
     return serviceLocation;
   }
 
-  public void setServiceLocation(String serviceLocation) {
+  @JsonProperty("service_location")
+  public void setServiceLocation(@Nullable String serviceLocation) {
     this.serviceLocation = serviceLocation;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -181,7 +196,6 @@ public class ComAdobeGraniteOffloadingImplOffloadingJobClonerInfo   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComAdobeGraniteOffloadingImplOffloadingJobClonerInfo {\n");
-    
     sb.append("    pid: ").append(toIndentedString(pid)).append("\n");
     sb.append("    title: ").append(toIndentedString(title)).append("\n");
     sb.append("    description: ").append(toIndentedString(description)).append("\n");
@@ -196,11 +210,8 @@ public class ComAdobeGraniteOffloadingImplOffloadingJobClonerInfo   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

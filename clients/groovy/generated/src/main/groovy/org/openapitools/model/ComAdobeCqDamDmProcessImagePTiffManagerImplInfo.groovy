@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqDamDmProcessImagePTiffManagerImplPropert
 
 @Canonical
 class ComAdobeCqDamDmProcessImagePTiffManagerImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqDamDmProcessImagePTiffManagerImplProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqDamDmProcessImagePTiffManagerImplProperties properties
 }

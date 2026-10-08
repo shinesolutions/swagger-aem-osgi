@@ -2,17 +2,17 @@
 # ComDayCqDamCoreImplJmxAssetIndexUpdateMonitorProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**jmxPeriodobjectname** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**propertyPeriodmeasurePeriodenabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**propertyPeriodname** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**propertyPeriodmaxPeriodwaitPeriodms** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**propertyPeriodmaxPeriodrate** | [**ConfigNodePropertyFloat**](ConfigNodePropertyFloat.md) |  |  [optional]
-**fulltextPeriodmeasurePeriodenabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**fulltextPeriodname** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**fulltextPeriodmaxPeriodwaitPeriodms** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**fulltextPeriodmaxPeriodrate** | [**ConfigNodePropertyFloat**](ConfigNodePropertyFloat.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **jmxObjectname** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **propertyMeasureEnabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **propertyName** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **propertyMaxWaitMs** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **propertyMaxRate** | [**ConfigNodePropertyFloat**](ConfigNodePropertyFloat.md) |  |  [optional] |
+| **fulltextMeasureEnabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **fulltextName** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **fulltextMaxWaitMs** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **fulltextMaxRate** | [**ConfigNodePropertyFloat**](ConfigNodePropertyFloat.md) |  |  [optional] |
 
 
 

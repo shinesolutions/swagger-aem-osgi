@@ -7,12 +7,12 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class OrgApacheSlingDistributionTriggerImplPersistedJcrEventDistributiProperties {
-    ConfigNodePropertyString name = null
-
-    ConfigNodePropertyString path = null
-
-    ConfigNodePropertyString serviceName = null
-
-    ConfigNodePropertyString nuggetsPath = null
-
+    
+    ConfigNodePropertyString name
+    
+    ConfigNodePropertyString path
+    
+    ConfigNodePropertyString serviceName
+    
+    ConfigNodePropertyString nuggetsPath
 }

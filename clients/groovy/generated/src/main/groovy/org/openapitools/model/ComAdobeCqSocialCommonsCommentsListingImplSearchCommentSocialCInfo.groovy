@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqSocialCommonsCommentsListingImplSearchCo
 
 @Canonical
 class ComAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialCInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialCProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqSocialCommonsCommentsListingImplSearchCommentSocialCProperties properties
 }

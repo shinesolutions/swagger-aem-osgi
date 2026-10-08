@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqSocialContentFragmentsServicesImplCommun
 
 @Canonical
 class ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmenInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmenProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmenProperties properties
 }

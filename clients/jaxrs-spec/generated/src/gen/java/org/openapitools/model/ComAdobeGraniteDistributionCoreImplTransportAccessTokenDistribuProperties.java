@@ -1,21 +1,32 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProperties   {
-  
-  private @Valid ConfigNodePropertyString name = null;
-  private @Valid ConfigNodePropertyString serviceName = null;
-  private @Valid ConfigNodePropertyString userId = null;
-  private @Valid ConfigNodePropertyString accessTokenProviderTarget = null;
+  private ConfigNodePropertyString name;
+  private ConfigNodePropertyString serviceName;
+  private ConfigNodePropertyString userId;
+  private ConfigNodePropertyString accessTokenProviderTarget;
+
+  public ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProperties() {
+  }
 
   /**
    **/
@@ -27,9 +38,11 @@ public class ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("name")
-  public ConfigNodePropertyString getName() {
+  @Valid public ConfigNodePropertyString getName() {
     return name;
   }
+
+  @JsonProperty("name")
   public void setName(ConfigNodePropertyString name) {
     this.name = name;
   }
@@ -44,9 +57,11 @@ public class ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("serviceName")
-  public ConfigNodePropertyString getServiceName() {
+  @Valid public ConfigNodePropertyString getServiceName() {
     return serviceName;
   }
+
+  @JsonProperty("serviceName")
   public void setServiceName(ConfigNodePropertyString serviceName) {
     this.serviceName = serviceName;
   }
@@ -61,9 +76,11 @@ public class ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("userId")
-  public ConfigNodePropertyString getUserId() {
+  @Valid public ConfigNodePropertyString getUserId() {
     return userId;
   }
+
+  @JsonProperty("userId")
   public void setUserId(ConfigNodePropertyString userId) {
     this.userId = userId;
   }
@@ -78,16 +95,18 @@ public class ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("accessTokenProvider.target")
-  public ConfigNodePropertyString getAccessTokenProviderTarget() {
+  @Valid public ConfigNodePropertyString getAccessTokenProviderTarget() {
     return accessTokenProviderTarget;
   }
+
+  @JsonProperty("accessTokenProvider.target")
   public void setAccessTokenProviderTarget(ConfigNodePropertyString accessTokenProviderTarget) {
     this.accessTokenProviderTarget = accessTokenProviderTarget;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -95,10 +114,10 @@ public class ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProp
       return false;
     }
     ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProperties comAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProperties = (ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProperties) o;
-    return Objects.equals(name, comAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProperties.name) &&
-        Objects.equals(serviceName, comAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProperties.serviceName) &&
-        Objects.equals(userId, comAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProperties.userId) &&
-        Objects.equals(accessTokenProviderTarget, comAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProperties.accessTokenProviderTarget);
+    return Objects.equals(this.name, comAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProperties.name) &&
+        Objects.equals(this.serviceName, comAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProperties.serviceName) &&
+        Objects.equals(this.userId, comAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProperties.userId) &&
+        Objects.equals(this.accessTokenProviderTarget, comAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProperties.accessTokenProviderTarget);
   }
 
   @Override
@@ -123,11 +142,9 @@ public class ComAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProp
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

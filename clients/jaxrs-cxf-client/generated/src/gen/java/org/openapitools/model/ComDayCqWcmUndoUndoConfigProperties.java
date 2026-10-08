@@ -6,43 +6,47 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
 
 import io.swagger.annotations.ApiModelProperty;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlType;
-import javax.xml.bind.annotation.XmlEnum;
-import javax.xml.bind.annotation.XmlEnumValue;
+import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
 
 public class ComDayCqWcmUndoUndoConfigProperties  {
   
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyBoolean cqWcmUndoEnabled = null;
+
+  private ConfigNodePropertyBoolean cqWcmUndoEnabled;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString cqWcmUndoPath = null;
+
+  private ConfigNodePropertyString cqWcmUndoPath;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyInteger cqWcmUndoValidity = null;
+
+  private ConfigNodePropertyInteger cqWcmUndoValidity;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyInteger cqWcmUndoSteps = null;
+
+  private ConfigNodePropertyInteger cqWcmUndoSteps;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString cqWcmUndoPersistence = null;
+
+  private ConfigNodePropertyString cqWcmUndoPersistence;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyBoolean cqWcmUndoPersistenceMode = null;
+
+  private ConfigNodePropertyBoolean cqWcmUndoPersistenceMode;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString cqWcmUndoMarkermode = null;
+
+  private ConfigNodePropertyString cqWcmUndoMarkermode;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyArray cqWcmUndoWhitelist = null;
+
+  private ConfigNodePropertyArray cqWcmUndoWhitelist;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyArray cqWcmUndoBlacklist = null;
+
+  private ConfigNodePropertyArray cqWcmUndoBlacklist;
  /**
    * Get cqWcmUndoEnabled
    * @return cqWcmUndoEnabled
@@ -205,6 +209,30 @@ public class ComDayCqWcmUndoUndoConfigProperties  {
     return this;
   }
 
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    ComDayCqWcmUndoUndoConfigProperties comDayCqWcmUndoUndoConfigProperties = (ComDayCqWcmUndoUndoConfigProperties) o;
+    return Objects.equals(this.cqWcmUndoEnabled, comDayCqWcmUndoUndoConfigProperties.cqWcmUndoEnabled) &&
+        Objects.equals(this.cqWcmUndoPath, comDayCqWcmUndoUndoConfigProperties.cqWcmUndoPath) &&
+        Objects.equals(this.cqWcmUndoValidity, comDayCqWcmUndoUndoConfigProperties.cqWcmUndoValidity) &&
+        Objects.equals(this.cqWcmUndoSteps, comDayCqWcmUndoUndoConfigProperties.cqWcmUndoSteps) &&
+        Objects.equals(this.cqWcmUndoPersistence, comDayCqWcmUndoUndoConfigProperties.cqWcmUndoPersistence) &&
+        Objects.equals(this.cqWcmUndoPersistenceMode, comDayCqWcmUndoUndoConfigProperties.cqWcmUndoPersistenceMode) &&
+        Objects.equals(this.cqWcmUndoMarkermode, comDayCqWcmUndoUndoConfigProperties.cqWcmUndoMarkermode) &&
+        Objects.equals(this.cqWcmUndoWhitelist, comDayCqWcmUndoUndoConfigProperties.cqWcmUndoWhitelist) &&
+        Objects.equals(this.cqWcmUndoBlacklist, comDayCqWcmUndoUndoConfigProperties.cqWcmUndoBlacklist);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(cqWcmUndoEnabled, cqWcmUndoPath, cqWcmUndoValidity, cqWcmUndoSteps, cqWcmUndoPersistence, cqWcmUndoPersistenceMode, cqWcmUndoMarkermode, cqWcmUndoWhitelist, cqWcmUndoBlacklist);
+  }
 
   @Override
   public String toString() {
@@ -228,11 +256,8 @@ public class ComDayCqWcmUndoUndoConfigProperties  {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private static String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

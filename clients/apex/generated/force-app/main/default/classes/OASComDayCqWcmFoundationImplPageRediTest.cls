@@ -72,7 +72,7 @@ private class OASComDayCqWcmFoundationImplPageRediTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqWcmFoundationImplPageRedi comDayCqWcmFoundationImplPageRedirectServletProperties = new OASComDayCqWcmFoundationImplPageRedi();
-        Map<String, String> propertyMappings = comDayCqWcmFoundationImplPageRedirectServletProperties.getPropertyMappings();
-        System.assertEquals('excludedResourceTypes', propertyMappings.get('excluded.resource.types'));
+        Map<String, String> x-property-mappings = comDayCqWcmFoundationImplPageRedirectServletProperties.getx-property-mappings();
+        System.assertEquals('excludedResourceTypes', x-property-mappings.get('excluded.resource.types'));
     }
 }

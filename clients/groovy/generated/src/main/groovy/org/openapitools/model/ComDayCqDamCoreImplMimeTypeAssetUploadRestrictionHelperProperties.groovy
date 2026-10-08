@@ -8,8 +8,8 @@ import org.openapitools.model.ConfigNodePropertyBoolean;
 
 @Canonical
 class ComDayCqDamCoreImplMimeTypeAssetUploadRestrictionHelperProperties {
-    ConfigNodePropertyBoolean cqDamAllowAllMime = null
-
-    ConfigNodePropertyArray cqDamAllowedAssetMimes = null
-
+    
+    ConfigNodePropertyBoolean cqDamAllowAllMime
+    
+    ConfigNodePropertyArray cqDamAllowedAssetMimes
 }

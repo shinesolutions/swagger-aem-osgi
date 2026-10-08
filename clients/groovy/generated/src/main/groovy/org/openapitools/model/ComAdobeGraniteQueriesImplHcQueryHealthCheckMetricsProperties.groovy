@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class ComAdobeGraniteQueriesImplHcQueryHealthCheckMetricsProperties {
-    ConfigNodePropertyInteger getPeriod = null
-
+    
+    ConfigNodePropertyInteger getPeriod
 }

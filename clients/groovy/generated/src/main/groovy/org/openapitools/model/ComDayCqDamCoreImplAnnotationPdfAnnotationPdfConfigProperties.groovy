@@ -8,36 +8,36 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqDamCoreImplAnnotationPdfAnnotationPdfConfigProperties {
-    ConfigNodePropertyInteger cqDamConfigAnnotationPdfDocumentWidth = null
-
-    ConfigNodePropertyInteger cqDamConfigAnnotationPdfDocumentHeight = null
-
-    ConfigNodePropertyInteger cqDamConfigAnnotationPdfDocumentPaddingHorizontal = null
-
-    ConfigNodePropertyInteger cqDamConfigAnnotationPdfDocumentPaddingVertical = null
-
-    ConfigNodePropertyInteger cqDamConfigAnnotationPdfFontSize = null
-
-    ConfigNodePropertyString cqDamConfigAnnotationPdfFontColor = null
-
-    ConfigNodePropertyString cqDamConfigAnnotationPdfFontFamily = null
-
-    ConfigNodePropertyString cqDamConfigAnnotationPdfFontLight = null
-
-    ConfigNodePropertyInteger cqDamConfigAnnotationPdfMarginTextImage = null
-
-    ConfigNodePropertyInteger cqDamConfigAnnotationPdfMinImageHeight = null
-
-    ConfigNodePropertyInteger cqDamConfigAnnotationPdfReviewStatusWidth = null
-
-    ConfigNodePropertyString cqDamConfigAnnotationPdfReviewStatusColorApproved = null
-
-    ConfigNodePropertyString cqDamConfigAnnotationPdfReviewStatusColorRejected = null
-
-    ConfigNodePropertyString cqDamConfigAnnotationPdfReviewStatusColorChangesRequested = null
-
-    ConfigNodePropertyInteger cqDamConfigAnnotationPdfAnnotationMarkerWidth = null
-
-    ConfigNodePropertyInteger cqDamConfigAnnotationPdfAssetMinheight = null
-
+    
+    ConfigNodePropertyInteger cqDamConfigAnnotationPdfDocumentWidth
+    
+    ConfigNodePropertyInteger cqDamConfigAnnotationPdfDocumentHeight
+    
+    ConfigNodePropertyInteger cqDamConfigAnnotationPdfDocumentPaddingHorizontal
+    
+    ConfigNodePropertyInteger cqDamConfigAnnotationPdfDocumentPaddingVertical
+    
+    ConfigNodePropertyInteger cqDamConfigAnnotationPdfFontSize
+    
+    ConfigNodePropertyString cqDamConfigAnnotationPdfFontColor
+    
+    ConfigNodePropertyString cqDamConfigAnnotationPdfFontFamily
+    
+    ConfigNodePropertyString cqDamConfigAnnotationPdfFontLight
+    
+    ConfigNodePropertyInteger cqDamConfigAnnotationPdfMarginTextImage
+    
+    ConfigNodePropertyInteger cqDamConfigAnnotationPdfMinImageHeight
+    
+    ConfigNodePropertyInteger cqDamConfigAnnotationPdfReviewStatusWidth
+    
+    ConfigNodePropertyString cqDamConfigAnnotationPdfReviewStatusColorApproved
+    
+    ConfigNodePropertyString cqDamConfigAnnotationPdfReviewStatusColorRejected
+    
+    ConfigNodePropertyString cqDamConfigAnnotationPdfReviewStatusColorChangesRequested
+    
+    ConfigNodePropertyInteger cqDamConfigAnnotationPdfAnnotationMarkerWidth
+    
+    ConfigNodePropertyInteger cqDamConfigAnnotationPdfAssetMinheight
 }

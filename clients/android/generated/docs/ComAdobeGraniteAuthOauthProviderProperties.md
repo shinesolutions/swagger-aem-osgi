@@ -1,7 +1,9 @@
 
+
 # ComAdobeGraniteAuthOauthProviderProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **oauthConfigId** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
@@ -20,6 +22,7 @@ Name | Type | Description | Notes
 **oauthCsrfStateProtection** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
 **oauthRedirectRequestParams** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
 **oauthConfigSiblingsAllow** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
+
 
 
 

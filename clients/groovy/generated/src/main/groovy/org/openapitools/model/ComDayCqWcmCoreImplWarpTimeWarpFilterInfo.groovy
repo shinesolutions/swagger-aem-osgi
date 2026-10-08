@@ -7,16 +7,16 @@ import org.openapitools.model.ComDayCqWcmCoreImplWarpTimeWarpFilterProperties;
 
 @Canonical
 class ComDayCqWcmCoreImplWarpTimeWarpFilterInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqWcmCoreImplWarpTimeWarpFilterProperties properties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqWcmCoreImplWarpTimeWarpFilterProperties properties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

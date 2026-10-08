@@ -1,72 +1,83 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyDropDown;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties   {
-  @JsonProperty("usersPath")
-  private ConfigNodePropertyString usersPath = null;
+@JsonTypeName("orgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties {
 
-  @JsonProperty("groupsPath")
-  private ConfigNodePropertyString groupsPath = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString usersPath;
 
-  @JsonProperty("systemRelativePath")
-  private ConfigNodePropertyString systemRelativePath = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString groupsPath;
 
-  @JsonProperty("defaultDepth")
-  private ConfigNodePropertyInteger defaultDepth = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString systemRelativePath;
 
-  @JsonProperty("importBehavior")
-  private ConfigNodePropertyDropDown importBehavior = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger defaultDepth;
 
-  @JsonProperty("passwordHashAlgorithm")
-  private ConfigNodePropertyString passwordHashAlgorithm = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyDropDown importBehavior;
 
-  @JsonProperty("passwordHashIterations")
-  private ConfigNodePropertyInteger passwordHashIterations = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString passwordHashAlgorithm;
 
-  @JsonProperty("passwordSaltSize")
-  private ConfigNodePropertyInteger passwordSaltSize = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger passwordHashIterations;
 
-  @JsonProperty("omitAdminPw")
-  private ConfigNodePropertyBoolean omitAdminPw = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger passwordSaltSize;
 
-  @JsonProperty("supportAutoSave")
-  private ConfigNodePropertyBoolean supportAutoSave = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean omitAdminPw;
 
-  @JsonProperty("passwordMaxAge")
-  private ConfigNodePropertyInteger passwordMaxAge = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean supportAutoSave;
 
-  @JsonProperty("initialPasswordChange")
-  private ConfigNodePropertyBoolean initialPasswordChange = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger passwordMaxAge;
 
-  @JsonProperty("passwordHistorySize")
-  private ConfigNodePropertyInteger passwordHistorySize = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean initialPasswordChange;
 
-  @JsonProperty("passwordExpiryForAdmin")
-  private ConfigNodePropertyBoolean passwordExpiryForAdmin = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger passwordHistorySize;
 
-  @JsonProperty("cacheExpiration")
-  private ConfigNodePropertyInteger cacheExpiration = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean passwordExpiryForAdmin;
 
-  @JsonProperty("enableRFC7613UsercaseMappedProfile")
-  private ConfigNodePropertyBoolean enableRFC7613UsercaseMappedProfile = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger cacheExpiration;
 
-  public OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties usersPath(ConfigNodePropertyString usersPath) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean enableRFC7613UsercaseMappedProfile;
+
+  public OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties usersPath(@Nullable ConfigNodePropertyString usersPath) {
     this.usersPath = usersPath;
     return this;
   }
@@ -74,20 +85,20 @@ public class OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties  
   /**
    * Get usersPath
    * @return usersPath
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getUsersPath() {
+   */
+  @Valid 
+  @Schema(name = "usersPath", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("usersPath")
+  public @Nullable ConfigNodePropertyString getUsersPath() {
     return usersPath;
   }
 
-  public void setUsersPath(ConfigNodePropertyString usersPath) {
+  @JsonProperty("usersPath")
+  public void setUsersPath(@Nullable ConfigNodePropertyString usersPath) {
     this.usersPath = usersPath;
   }
 
-  public OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties groupsPath(ConfigNodePropertyString groupsPath) {
+  public OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties groupsPath(@Nullable ConfigNodePropertyString groupsPath) {
     this.groupsPath = groupsPath;
     return this;
   }
@@ -95,20 +106,20 @@ public class OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties  
   /**
    * Get groupsPath
    * @return groupsPath
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getGroupsPath() {
+   */
+  @Valid 
+  @Schema(name = "groupsPath", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("groupsPath")
+  public @Nullable ConfigNodePropertyString getGroupsPath() {
     return groupsPath;
   }
 
-  public void setGroupsPath(ConfigNodePropertyString groupsPath) {
+  @JsonProperty("groupsPath")
+  public void setGroupsPath(@Nullable ConfigNodePropertyString groupsPath) {
     this.groupsPath = groupsPath;
   }
 
-  public OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties systemRelativePath(ConfigNodePropertyString systemRelativePath) {
+  public OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties systemRelativePath(@Nullable ConfigNodePropertyString systemRelativePath) {
     this.systemRelativePath = systemRelativePath;
     return this;
   }
@@ -116,20 +127,20 @@ public class OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties  
   /**
    * Get systemRelativePath
    * @return systemRelativePath
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getSystemRelativePath() {
+   */
+  @Valid 
+  @Schema(name = "systemRelativePath", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("systemRelativePath")
+  public @Nullable ConfigNodePropertyString getSystemRelativePath() {
     return systemRelativePath;
   }
 
-  public void setSystemRelativePath(ConfigNodePropertyString systemRelativePath) {
+  @JsonProperty("systemRelativePath")
+  public void setSystemRelativePath(@Nullable ConfigNodePropertyString systemRelativePath) {
     this.systemRelativePath = systemRelativePath;
   }
 
-  public OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties defaultDepth(ConfigNodePropertyInteger defaultDepth) {
+  public OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties defaultDepth(@Nullable ConfigNodePropertyInteger defaultDepth) {
     this.defaultDepth = defaultDepth;
     return this;
   }
@@ -137,20 +148,20 @@ public class OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties  
   /**
    * Get defaultDepth
    * @return defaultDepth
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getDefaultDepth() {
+   */
+  @Valid 
+  @Schema(name = "defaultDepth", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("defaultDepth")
+  public @Nullable ConfigNodePropertyInteger getDefaultDepth() {
     return defaultDepth;
   }
 
-  public void setDefaultDepth(ConfigNodePropertyInteger defaultDepth) {
+  @JsonProperty("defaultDepth")
+  public void setDefaultDepth(@Nullable ConfigNodePropertyInteger defaultDepth) {
     this.defaultDepth = defaultDepth;
   }
 
-  public OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties importBehavior(ConfigNodePropertyDropDown importBehavior) {
+  public OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties importBehavior(@Nullable ConfigNodePropertyDropDown importBehavior) {
     this.importBehavior = importBehavior;
     return this;
   }
@@ -158,20 +169,20 @@ public class OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties  
   /**
    * Get importBehavior
    * @return importBehavior
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyDropDown getImportBehavior() {
+   */
+  @Valid 
+  @Schema(name = "importBehavior", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("importBehavior")
+  public @Nullable ConfigNodePropertyDropDown getImportBehavior() {
     return importBehavior;
   }
 
-  public void setImportBehavior(ConfigNodePropertyDropDown importBehavior) {
+  @JsonProperty("importBehavior")
+  public void setImportBehavior(@Nullable ConfigNodePropertyDropDown importBehavior) {
     this.importBehavior = importBehavior;
   }
 
-  public OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties passwordHashAlgorithm(ConfigNodePropertyString passwordHashAlgorithm) {
+  public OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties passwordHashAlgorithm(@Nullable ConfigNodePropertyString passwordHashAlgorithm) {
     this.passwordHashAlgorithm = passwordHashAlgorithm;
     return this;
   }
@@ -179,20 +190,20 @@ public class OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties  
   /**
    * Get passwordHashAlgorithm
    * @return passwordHashAlgorithm
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getPasswordHashAlgorithm() {
+   */
+  @Valid 
+  @Schema(name = "passwordHashAlgorithm", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("passwordHashAlgorithm")
+  public @Nullable ConfigNodePropertyString getPasswordHashAlgorithm() {
     return passwordHashAlgorithm;
   }
 
-  public void setPasswordHashAlgorithm(ConfigNodePropertyString passwordHashAlgorithm) {
+  @JsonProperty("passwordHashAlgorithm")
+  public void setPasswordHashAlgorithm(@Nullable ConfigNodePropertyString passwordHashAlgorithm) {
     this.passwordHashAlgorithm = passwordHashAlgorithm;
   }
 
-  public OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties passwordHashIterations(ConfigNodePropertyInteger passwordHashIterations) {
+  public OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties passwordHashIterations(@Nullable ConfigNodePropertyInteger passwordHashIterations) {
     this.passwordHashIterations = passwordHashIterations;
     return this;
   }
@@ -200,20 +211,20 @@ public class OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties  
   /**
    * Get passwordHashIterations
    * @return passwordHashIterations
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getPasswordHashIterations() {
+   */
+  @Valid 
+  @Schema(name = "passwordHashIterations", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("passwordHashIterations")
+  public @Nullable ConfigNodePropertyInteger getPasswordHashIterations() {
     return passwordHashIterations;
   }
 
-  public void setPasswordHashIterations(ConfigNodePropertyInteger passwordHashIterations) {
+  @JsonProperty("passwordHashIterations")
+  public void setPasswordHashIterations(@Nullable ConfigNodePropertyInteger passwordHashIterations) {
     this.passwordHashIterations = passwordHashIterations;
   }
 
-  public OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties passwordSaltSize(ConfigNodePropertyInteger passwordSaltSize) {
+  public OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties passwordSaltSize(@Nullable ConfigNodePropertyInteger passwordSaltSize) {
     this.passwordSaltSize = passwordSaltSize;
     return this;
   }
@@ -221,20 +232,20 @@ public class OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties  
   /**
    * Get passwordSaltSize
    * @return passwordSaltSize
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getPasswordSaltSize() {
+   */
+  @Valid 
+  @Schema(name = "passwordSaltSize", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("passwordSaltSize")
+  public @Nullable ConfigNodePropertyInteger getPasswordSaltSize() {
     return passwordSaltSize;
   }
 
-  public void setPasswordSaltSize(ConfigNodePropertyInteger passwordSaltSize) {
+  @JsonProperty("passwordSaltSize")
+  public void setPasswordSaltSize(@Nullable ConfigNodePropertyInteger passwordSaltSize) {
     this.passwordSaltSize = passwordSaltSize;
   }
 
-  public OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties omitAdminPw(ConfigNodePropertyBoolean omitAdminPw) {
+  public OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties omitAdminPw(@Nullable ConfigNodePropertyBoolean omitAdminPw) {
     this.omitAdminPw = omitAdminPw;
     return this;
   }
@@ -242,20 +253,20 @@ public class OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties  
   /**
    * Get omitAdminPw
    * @return omitAdminPw
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getOmitAdminPw() {
+   */
+  @Valid 
+  @Schema(name = "omitAdminPw", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("omitAdminPw")
+  public @Nullable ConfigNodePropertyBoolean getOmitAdminPw() {
     return omitAdminPw;
   }
 
-  public void setOmitAdminPw(ConfigNodePropertyBoolean omitAdminPw) {
+  @JsonProperty("omitAdminPw")
+  public void setOmitAdminPw(@Nullable ConfigNodePropertyBoolean omitAdminPw) {
     this.omitAdminPw = omitAdminPw;
   }
 
-  public OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties supportAutoSave(ConfigNodePropertyBoolean supportAutoSave) {
+  public OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties supportAutoSave(@Nullable ConfigNodePropertyBoolean supportAutoSave) {
     this.supportAutoSave = supportAutoSave;
     return this;
   }
@@ -263,20 +274,20 @@ public class OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties  
   /**
    * Get supportAutoSave
    * @return supportAutoSave
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getSupportAutoSave() {
+   */
+  @Valid 
+  @Schema(name = "supportAutoSave", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("supportAutoSave")
+  public @Nullable ConfigNodePropertyBoolean getSupportAutoSave() {
     return supportAutoSave;
   }
 
-  public void setSupportAutoSave(ConfigNodePropertyBoolean supportAutoSave) {
+  @JsonProperty("supportAutoSave")
+  public void setSupportAutoSave(@Nullable ConfigNodePropertyBoolean supportAutoSave) {
     this.supportAutoSave = supportAutoSave;
   }
 
-  public OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties passwordMaxAge(ConfigNodePropertyInteger passwordMaxAge) {
+  public OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties passwordMaxAge(@Nullable ConfigNodePropertyInteger passwordMaxAge) {
     this.passwordMaxAge = passwordMaxAge;
     return this;
   }
@@ -284,20 +295,20 @@ public class OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties  
   /**
    * Get passwordMaxAge
    * @return passwordMaxAge
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getPasswordMaxAge() {
+   */
+  @Valid 
+  @Schema(name = "passwordMaxAge", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("passwordMaxAge")
+  public @Nullable ConfigNodePropertyInteger getPasswordMaxAge() {
     return passwordMaxAge;
   }
 
-  public void setPasswordMaxAge(ConfigNodePropertyInteger passwordMaxAge) {
+  @JsonProperty("passwordMaxAge")
+  public void setPasswordMaxAge(@Nullable ConfigNodePropertyInteger passwordMaxAge) {
     this.passwordMaxAge = passwordMaxAge;
   }
 
-  public OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties initialPasswordChange(ConfigNodePropertyBoolean initialPasswordChange) {
+  public OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties initialPasswordChange(@Nullable ConfigNodePropertyBoolean initialPasswordChange) {
     this.initialPasswordChange = initialPasswordChange;
     return this;
   }
@@ -305,20 +316,20 @@ public class OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties  
   /**
    * Get initialPasswordChange
    * @return initialPasswordChange
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getInitialPasswordChange() {
+   */
+  @Valid 
+  @Schema(name = "initialPasswordChange", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("initialPasswordChange")
+  public @Nullable ConfigNodePropertyBoolean getInitialPasswordChange() {
     return initialPasswordChange;
   }
 
-  public void setInitialPasswordChange(ConfigNodePropertyBoolean initialPasswordChange) {
+  @JsonProperty("initialPasswordChange")
+  public void setInitialPasswordChange(@Nullable ConfigNodePropertyBoolean initialPasswordChange) {
     this.initialPasswordChange = initialPasswordChange;
   }
 
-  public OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties passwordHistorySize(ConfigNodePropertyInteger passwordHistorySize) {
+  public OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties passwordHistorySize(@Nullable ConfigNodePropertyInteger passwordHistorySize) {
     this.passwordHistorySize = passwordHistorySize;
     return this;
   }
@@ -326,20 +337,20 @@ public class OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties  
   /**
    * Get passwordHistorySize
    * @return passwordHistorySize
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getPasswordHistorySize() {
+   */
+  @Valid 
+  @Schema(name = "passwordHistorySize", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("passwordHistorySize")
+  public @Nullable ConfigNodePropertyInteger getPasswordHistorySize() {
     return passwordHistorySize;
   }
 
-  public void setPasswordHistorySize(ConfigNodePropertyInteger passwordHistorySize) {
+  @JsonProperty("passwordHistorySize")
+  public void setPasswordHistorySize(@Nullable ConfigNodePropertyInteger passwordHistorySize) {
     this.passwordHistorySize = passwordHistorySize;
   }
 
-  public OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties passwordExpiryForAdmin(ConfigNodePropertyBoolean passwordExpiryForAdmin) {
+  public OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties passwordExpiryForAdmin(@Nullable ConfigNodePropertyBoolean passwordExpiryForAdmin) {
     this.passwordExpiryForAdmin = passwordExpiryForAdmin;
     return this;
   }
@@ -347,20 +358,20 @@ public class OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties  
   /**
    * Get passwordExpiryForAdmin
    * @return passwordExpiryForAdmin
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getPasswordExpiryForAdmin() {
+   */
+  @Valid 
+  @Schema(name = "passwordExpiryForAdmin", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("passwordExpiryForAdmin")
+  public @Nullable ConfigNodePropertyBoolean getPasswordExpiryForAdmin() {
     return passwordExpiryForAdmin;
   }
 
-  public void setPasswordExpiryForAdmin(ConfigNodePropertyBoolean passwordExpiryForAdmin) {
+  @JsonProperty("passwordExpiryForAdmin")
+  public void setPasswordExpiryForAdmin(@Nullable ConfigNodePropertyBoolean passwordExpiryForAdmin) {
     this.passwordExpiryForAdmin = passwordExpiryForAdmin;
   }
 
-  public OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties cacheExpiration(ConfigNodePropertyInteger cacheExpiration) {
+  public OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties cacheExpiration(@Nullable ConfigNodePropertyInteger cacheExpiration) {
     this.cacheExpiration = cacheExpiration;
     return this;
   }
@@ -368,20 +379,20 @@ public class OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties  
   /**
    * Get cacheExpiration
    * @return cacheExpiration
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getCacheExpiration() {
+   */
+  @Valid 
+  @Schema(name = "cacheExpiration", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cacheExpiration")
+  public @Nullable ConfigNodePropertyInteger getCacheExpiration() {
     return cacheExpiration;
   }
 
-  public void setCacheExpiration(ConfigNodePropertyInteger cacheExpiration) {
+  @JsonProperty("cacheExpiration")
+  public void setCacheExpiration(@Nullable ConfigNodePropertyInteger cacheExpiration) {
     this.cacheExpiration = cacheExpiration;
   }
 
-  public OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties enableRFC7613UsercaseMappedProfile(ConfigNodePropertyBoolean enableRFC7613UsercaseMappedProfile) {
+  public OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties enableRFC7613UsercaseMappedProfile(@Nullable ConfigNodePropertyBoolean enableRFC7613UsercaseMappedProfile) {
     this.enableRFC7613UsercaseMappedProfile = enableRFC7613UsercaseMappedProfile;
     return this;
   }
@@ -389,22 +400,21 @@ public class OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties  
   /**
    * Get enableRFC7613UsercaseMappedProfile
    * @return enableRFC7613UsercaseMappedProfile
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getEnableRFC7613UsercaseMappedProfile() {
+   */
+  @Valid 
+  @Schema(name = "enableRFC7613UsercaseMappedProfile", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("enableRFC7613UsercaseMappedProfile")
+  public @Nullable ConfigNodePropertyBoolean getEnableRFC7613UsercaseMappedProfile() {
     return enableRFC7613UsercaseMappedProfile;
   }
 
-  public void setEnableRFC7613UsercaseMappedProfile(ConfigNodePropertyBoolean enableRFC7613UsercaseMappedProfile) {
+  @JsonProperty("enableRFC7613UsercaseMappedProfile")
+  public void setEnableRFC7613UsercaseMappedProfile(@Nullable ConfigNodePropertyBoolean enableRFC7613UsercaseMappedProfile) {
     this.enableRFC7613UsercaseMappedProfile = enableRFC7613UsercaseMappedProfile;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -439,7 +449,6 @@ public class OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties  
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties {\n");
-    
     sb.append("    usersPath: ").append(toIndentedString(usersPath)).append("\n");
     sb.append("    groupsPath: ").append(toIndentedString(groupsPath)).append("\n");
     sb.append("    systemRelativePath: ").append(toIndentedString(systemRelativePath)).append("\n");
@@ -464,11 +473,8 @@ public class OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties  
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

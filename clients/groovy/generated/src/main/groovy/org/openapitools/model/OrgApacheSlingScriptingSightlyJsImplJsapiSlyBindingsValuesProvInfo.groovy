@@ -7,16 +7,16 @@ import org.openapitools.model.OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindin
 
 @Canonical
 class OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvProperties properties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheSlingScriptingSightlyJsImplJsapiSlyBindingsValuesProvProperties properties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

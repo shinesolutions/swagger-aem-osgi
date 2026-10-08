@@ -72,7 +72,7 @@ private class OASComAdobeGraniteI18nImplBundlePseuTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeGraniteI18nImplBundlePseu comAdobeGraniteI18nImplBundlePseudoTranslationsProperties = new OASComAdobeGraniteI18nImplBundlePseu();
-        Map<String, String> propertyMappings = comAdobeGraniteI18nImplBundlePseudoTranslationsProperties.getPropertyMappings();
-        System.assertEquals('pseudoPatterns', propertyMappings.get('pseudo.patterns'));
+        Map<String, String> x-property-mappings = comAdobeGraniteI18nImplBundlePseudoTranslationsProperties.getx-property-mappings();
+        System.assertEquals('pseudoPatterns', x-property-mappings.get('pseudo.patterns'));
     }
 }

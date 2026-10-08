@@ -1,23 +1,34 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import java.math.BigDecimal;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("configNodePropertyFloat")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ConfigNodePropertyFloat   {
-  
-  private @Valid String name = null;
-  private @Valid Boolean optional = null;
-  private @Valid Boolean isSet = null;
-  private @Valid Integer type = null;
-  private @Valid BigDecimal value = null;
-  private @Valid String description = null;
+  private String name;
+  private Boolean optional;
+  private Boolean isSet;
+  private Integer type;
+  private BigDecimal value;
+  private String description;
+
+  public ConfigNodePropertyFloat() {
+  }
 
   /**
    * property name
@@ -33,6 +44,8 @@ public class ConfigNodePropertyFloat   {
   public String getName() {
     return name;
   }
+
+  @JsonProperty("name")
   public void setName(String name) {
     this.name = name;
   }
@@ -51,6 +64,8 @@ public class ConfigNodePropertyFloat   {
   public Boolean getOptional() {
     return optional;
   }
+
+  @JsonProperty("optional")
   public void setOptional(Boolean optional) {
     this.optional = optional;
   }
@@ -69,6 +84,8 @@ public class ConfigNodePropertyFloat   {
   public Boolean getIsSet() {
     return isSet;
   }
+
+  @JsonProperty("is_set")
   public void setIsSet(Boolean isSet) {
     this.isSet = isSet;
   }
@@ -87,6 +104,8 @@ public class ConfigNodePropertyFloat   {
   public Integer getType() {
     return type;
   }
+
+  @JsonProperty("type")
   public void setType(Integer type) {
     this.type = type;
   }
@@ -102,9 +121,11 @@ public class ConfigNodePropertyFloat   {
   
   @ApiModelProperty(value = "Property value")
   @JsonProperty("value")
-  public BigDecimal getValue() {
+  @Valid public BigDecimal getValue() {
     return value;
   }
+
+  @JsonProperty("value")
   public void setValue(BigDecimal value) {
     this.value = value;
   }
@@ -123,13 +144,15 @@ public class ConfigNodePropertyFloat   {
   public String getDescription() {
     return description;
   }
+
+  @JsonProperty("description")
   public void setDescription(String description) {
     this.description = description;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -137,12 +160,12 @@ public class ConfigNodePropertyFloat   {
       return false;
     }
     ConfigNodePropertyFloat configNodePropertyFloat = (ConfigNodePropertyFloat) o;
-    return Objects.equals(name, configNodePropertyFloat.name) &&
-        Objects.equals(optional, configNodePropertyFloat.optional) &&
-        Objects.equals(isSet, configNodePropertyFloat.isSet) &&
-        Objects.equals(type, configNodePropertyFloat.type) &&
-        Objects.equals(value, configNodePropertyFloat.value) &&
-        Objects.equals(description, configNodePropertyFloat.description);
+    return Objects.equals(this.name, configNodePropertyFloat.name) &&
+        Objects.equals(this.optional, configNodePropertyFloat.optional) &&
+        Objects.equals(this.isSet, configNodePropertyFloat.isSet) &&
+        Objects.equals(this.type, configNodePropertyFloat.type) &&
+        Objects.equals(this.value, configNodePropertyFloat.value) &&
+        Objects.equals(this.description, configNodePropertyFloat.description);
   }
 
   @Override
@@ -169,11 +192,9 @@ public class ConfigNodePropertyFloat   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

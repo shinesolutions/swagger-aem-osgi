@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqPersonalizationImplServletsTargetingConfig
 
 @Canonical
 class ComDayCqPersonalizationImplServletsTargetingConfigurationServletInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqPersonalizationImplServletsTargetingConfigurationServletProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqPersonalizationImplServletsTargetingConfigurationServletProperties properties
 }

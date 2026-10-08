@@ -1,7 +1,9 @@
 
+
 # ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **eventTopics** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
@@ -12,6 +14,7 @@ Name | Type | Description | Notes
 **maxPoolSize** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
 **queueSize** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
 **keepAliveTime** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
+
 
 
 

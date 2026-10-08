@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyInteger;
 import com.prokarma.pkmst.model.ConfigNodePropertyString;
 import io.swagger.annotations.ApiModel;
@@ -16,30 +17,29 @@ import io.swagger.annotations.ApiModelProperty;
  * OrgApacheSlingJcrWebdavImplHandlerDefaultHandlerServiceProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingJcrWebdavImplHandlerDefaultHandlerServiceProperties   {
   @JsonProperty("service.ranking")
-  private ConfigNodePropertyInteger serviceRanking = null;
+  private ConfigNodePropertyInteger serviceRanking;
 
   @JsonProperty("type.collections")
-  private ConfigNodePropertyString typeCollections = null;
+  private ConfigNodePropertyString typeCollections;
 
   @JsonProperty("type.noncollections")
-  private ConfigNodePropertyString typeNoncollections = null;
+  private ConfigNodePropertyString typeNoncollections;
 
   @JsonProperty("type.content")
-  private ConfigNodePropertyString typeContent = null;
+  private ConfigNodePropertyString typeContent;
 
   public OrgApacheSlingJcrWebdavImplHandlerDefaultHandlerServiceProperties serviceRanking(ConfigNodePropertyInteger serviceRanking) {
     this.serviceRanking = serviceRanking;
     return this;
   }
 
-   /**
+  /**
    * Get serviceRanking
    * @return serviceRanking
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getServiceRanking() {
     return serviceRanking;
@@ -54,10 +54,10 @@ public class OrgApacheSlingJcrWebdavImplHandlerDefaultHandlerServiceProperties  
     return this;
   }
 
-   /**
+  /**
    * Get typeCollections
    * @return typeCollections
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getTypeCollections() {
     return typeCollections;
@@ -72,10 +72,10 @@ public class OrgApacheSlingJcrWebdavImplHandlerDefaultHandlerServiceProperties  
     return this;
   }
 
-   /**
+  /**
    * Get typeNoncollections
    * @return typeNoncollections
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getTypeNoncollections() {
     return typeNoncollections;
@@ -90,10 +90,10 @@ public class OrgApacheSlingJcrWebdavImplHandlerDefaultHandlerServiceProperties  
     return this;
   }
 
-   /**
+  /**
    * Get typeContent
    * @return typeContent
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getTypeContent() {
     return typeContent;
@@ -105,7 +105,7 @@ public class OrgApacheSlingJcrWebdavImplHandlerDefaultHandlerServiceProperties  
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -141,11 +141,8 @@ public class OrgApacheSlingJcrWebdavImplHandlerDefaultHandlerServiceProperties  
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class OrgApacheJackrabbitOakSecurityUserRandomAuthorizableNodeNameProperties {
-    ConfigNodePropertyInteger length = null
-
+    
+    ConfigNodePropertyInteger length
 }

@@ -7,49 +7,55 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
 
 import io.swagger.annotations.ApiModelProperty;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlType;
-import javax.xml.bind.annotation.XmlEnum;
-import javax.xml.bind.annotation.XmlEnumValue;
+import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
 
 public class ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties  {
   
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyDropDown graniteWorkflowinboxSortPropertyName = null;
+
+  private ConfigNodePropertyDropDown graniteWorkflowinboxSortPropertyName;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString graniteWorkflowinboxSortOrder = null;
+
+  private ConfigNodePropertyString graniteWorkflowinboxSortOrder;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyInteger cqWorkflowJobRetry = null;
+
+  private ConfigNodePropertyInteger cqWorkflowJobRetry;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyArray cqWorkflowSuperuser = null;
+
+  private ConfigNodePropertyArray cqWorkflowSuperuser;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyInteger graniteWorkflowInboxQuerySize = null;
+
+  private ConfigNodePropertyInteger graniteWorkflowInboxQuerySize;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyBoolean graniteWorkflowAdminUserGroupFilter = null;
+
+  private ConfigNodePropertyBoolean graniteWorkflowAdminUserGroupFilter;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyBoolean graniteWorkflowEnforceWorkitemAssigneePermissions = null;
+
+  private ConfigNodePropertyBoolean graniteWorkflowEnforceWorkitemAssigneePermissions;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyBoolean graniteWorkflowEnforceWorkflowInitiatorPermissions = null;
+
+  private ConfigNodePropertyBoolean graniteWorkflowEnforceWorkflowInitiatorPermissions;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyBoolean graniteWorkflowInjectTenantIdInJobTopics = null;
+
+  private ConfigNodePropertyBoolean graniteWorkflowInjectTenantIdInJobTopics;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyInteger graniteWorkflowMaxPurgeSaveThreshold = null;
+
+  private ConfigNodePropertyInteger graniteWorkflowMaxPurgeSaveThreshold;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyInteger graniteWorkflowMaxPurgeQueryCount = null;
+
+  private ConfigNodePropertyInteger graniteWorkflowMaxPurgeQueryCount;
  /**
    * Get graniteWorkflowinboxSortPropertyName
    * @return graniteWorkflowinboxSortPropertyName
@@ -248,6 +254,32 @@ public class ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties  {
     return this;
   }
 
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties comAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties = (ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties) o;
+    return Objects.equals(this.graniteWorkflowinboxSortPropertyName, comAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties.graniteWorkflowinboxSortPropertyName) &&
+        Objects.equals(this.graniteWorkflowinboxSortOrder, comAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties.graniteWorkflowinboxSortOrder) &&
+        Objects.equals(this.cqWorkflowJobRetry, comAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties.cqWorkflowJobRetry) &&
+        Objects.equals(this.cqWorkflowSuperuser, comAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties.cqWorkflowSuperuser) &&
+        Objects.equals(this.graniteWorkflowInboxQuerySize, comAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties.graniteWorkflowInboxQuerySize) &&
+        Objects.equals(this.graniteWorkflowAdminUserGroupFilter, comAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties.graniteWorkflowAdminUserGroupFilter) &&
+        Objects.equals(this.graniteWorkflowEnforceWorkitemAssigneePermissions, comAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties.graniteWorkflowEnforceWorkitemAssigneePermissions) &&
+        Objects.equals(this.graniteWorkflowEnforceWorkflowInitiatorPermissions, comAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties.graniteWorkflowEnforceWorkflowInitiatorPermissions) &&
+        Objects.equals(this.graniteWorkflowInjectTenantIdInJobTopics, comAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties.graniteWorkflowInjectTenantIdInJobTopics) &&
+        Objects.equals(this.graniteWorkflowMaxPurgeSaveThreshold, comAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties.graniteWorkflowMaxPurgeSaveThreshold) &&
+        Objects.equals(this.graniteWorkflowMaxPurgeQueryCount, comAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties.graniteWorkflowMaxPurgeQueryCount);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(graniteWorkflowinboxSortPropertyName, graniteWorkflowinboxSortOrder, cqWorkflowJobRetry, cqWorkflowSuperuser, graniteWorkflowInboxQuerySize, graniteWorkflowAdminUserGroupFilter, graniteWorkflowEnforceWorkitemAssigneePermissions, graniteWorkflowEnforceWorkflowInitiatorPermissions, graniteWorkflowInjectTenantIdInJobTopics, graniteWorkflowMaxPurgeSaveThreshold, graniteWorkflowMaxPurgeQueryCount);
+  }
 
   @Override
   public String toString() {
@@ -273,11 +305,8 @@ public class ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties  {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private static String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

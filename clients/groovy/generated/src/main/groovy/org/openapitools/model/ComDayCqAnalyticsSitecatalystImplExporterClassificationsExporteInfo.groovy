@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqAnalyticsSitecatalystImplExporterClassific
 
 @Canonical
 class ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqAnalyticsSitecatalystImplExporterClassificationsExporteProperties properties
 }

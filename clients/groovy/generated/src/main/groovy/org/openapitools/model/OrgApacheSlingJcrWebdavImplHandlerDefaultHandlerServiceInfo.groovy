@@ -7,12 +7,12 @@ import org.openapitools.model.OrgApacheSlingJcrWebdavImplHandlerDefaultHandlerSe
 
 @Canonical
 class OrgApacheSlingJcrWebdavImplHandlerDefaultHandlerServiceInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheSlingJcrWebdavImplHandlerDefaultHandlerServiceProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheSlingJcrWebdavImplHandlerDefaultHandlerServiceProperties properties
 }

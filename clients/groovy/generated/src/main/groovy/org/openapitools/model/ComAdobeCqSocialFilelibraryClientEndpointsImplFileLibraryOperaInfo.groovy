@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqSocialFilelibraryClientEndpointsImplFile
 
 @Canonical
 class ComAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperaInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperaProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqSocialFilelibraryClientEndpointsImplFileLibraryOperaProperties properties
 }

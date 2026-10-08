@@ -2,14 +2,14 @@
 # ComAdobeGraniteMonitoringImplScriptConfigImplProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**scriptPeriodfilename** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**scriptPerioddisplay** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**scriptPeriodpath** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**scriptPeriodplatform** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**interval** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**jmxdomain** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **scriptFilename** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **scriptDisplay** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **scriptPath** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **scriptPlatform** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **interval** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **jmxdomain** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
 
 
 

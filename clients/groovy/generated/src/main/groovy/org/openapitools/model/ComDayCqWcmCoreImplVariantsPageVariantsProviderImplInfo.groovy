@@ -7,16 +7,16 @@ import org.openapitools.model.ComDayCqWcmCoreImplVariantsPageVariantsProviderImp
 
 @Canonical
 class ComDayCqWcmCoreImplVariantsPageVariantsProviderImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqWcmCoreImplVariantsPageVariantsProviderImplProperties properties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqWcmCoreImplVariantsPageVariantsProviderImplProperties properties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

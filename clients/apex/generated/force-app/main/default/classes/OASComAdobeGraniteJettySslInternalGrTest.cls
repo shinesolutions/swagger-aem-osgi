@@ -72,12 +72,12 @@ private class OASComAdobeGraniteJettySslInternalGrTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeGraniteJettySslInternalGr comAdobeGraniteJettySslInternalGraniteSslConnectorFactoryProperties = new OASComAdobeGraniteJettySslInternalGr();
-        Map<String, String> propertyMappings = comAdobeGraniteJettySslInternalGraniteSslConnectorFactoryProperties.getPropertyMappings();
-        System.assertEquals('comAdobeGraniteJettySslPort', propertyMappings.get('com.adobe.granite.jetty.ssl.port'));
-        System.assertEquals('comAdobeGraniteJettySslKeystoreUser', propertyMappings.get('com.adobe.granite.jetty.ssl.keystore.user'));
-        System.assertEquals('comAdobeGraniteJettySslKeystorePassword', propertyMappings.get('com.adobe.granite.jetty.ssl.keystore.password'));
-        System.assertEquals('comAdobeGraniteJettySslCiphersuitesExcluded', propertyMappings.get('com.adobe.granite.jetty.ssl.ciphersuites.excluded'));
-        System.assertEquals('comAdobeGraniteJettySslCiphersuitesIncluded', propertyMappings.get('com.adobe.granite.jetty.ssl.ciphersuites.included'));
-        System.assertEquals('comAdobeGraniteJettySslClientCertificate', propertyMappings.get('com.adobe.granite.jetty.ssl.client.certificate'));
+        Map<String, String> x-property-mappings = comAdobeGraniteJettySslInternalGraniteSslConnectorFactoryProperties.getx-property-mappings();
+        System.assertEquals('comAdobeGraniteJettySslPort', x-property-mappings.get('com.adobe.granite.jetty.ssl.port'));
+        System.assertEquals('comAdobeGraniteJettySslKeystoreUser', x-property-mappings.get('com.adobe.granite.jetty.ssl.keystore.user'));
+        System.assertEquals('comAdobeGraniteJettySslKeystorePassword', x-property-mappings.get('com.adobe.granite.jetty.ssl.keystore.password'));
+        System.assertEquals('comAdobeGraniteJettySslCiphersuitesExcluded', x-property-mappings.get('com.adobe.granite.jetty.ssl.ciphersuites.excluded'));
+        System.assertEquals('comAdobeGraniteJettySslCiphersuitesIncluded', x-property-mappings.get('com.adobe.granite.jetty.ssl.ciphersuites.included'));
+        System.assertEquals('comAdobeGraniteJettySslClientCertificate', x-property-mappings.get('com.adobe.granite.jetty.ssl.client.certificate'));
     }
 }

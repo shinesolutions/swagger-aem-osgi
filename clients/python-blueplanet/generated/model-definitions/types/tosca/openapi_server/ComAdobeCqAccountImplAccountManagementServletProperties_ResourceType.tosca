@@ -1,0 +1,41 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqAccountImplAccountManagementServletProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqAccountImplAccountManagementServletProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComAdobeCqAccountImplAccountManagementServletProperties {
+    title = ComAdobeCqAccountImplAccountManagementServletProperties
+    description = ComAdobeCqAccountImplAccountManagementServletProperties
+    derivedFrom = Root
+    properties {
+        cq_accountmanager_config_informnewaccount_mail {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        cq_accountmanager_config_informnewpwd_mail {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqAccountImplAccountManagementServletProperties {
+    title = ComAdobeCqAccountImplAccountManagementServletProperties
+    description = ComAdobeCqAccountImplAccountManagementServletProperties
+    implements = openapi_server.resourceTypes.ComAdobeCqAccountImplAccountManagementServletProperties
+
+  }
+}

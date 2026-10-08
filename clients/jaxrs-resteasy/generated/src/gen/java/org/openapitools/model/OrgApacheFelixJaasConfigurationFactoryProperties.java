@@ -4,28 +4,32 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyDropDown;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2019-08-05T00:59:30.156Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2026-10-07T12:54:21.614735164Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheFelixJaasConfigurationFactoryProperties   {
   
-  private ConfigNodePropertyDropDown jaasControlFlag = null;
-  private ConfigNodePropertyInteger jaasRanking = null;
-  private ConfigNodePropertyString jaasRealmName = null;
-  private ConfigNodePropertyString jaasClassname = null;
-  private ConfigNodePropertyArray jaasOptions = null;
+  private ConfigNodePropertyDropDown jaasControlFlag;
+  private ConfigNodePropertyInteger jaasRanking;
+  private ConfigNodePropertyString jaasRealmName;
+  private ConfigNodePropertyString jaasClassname;
+  private ConfigNodePropertyArray jaasOptions;
 
   /**
    **/
   
   @ApiModelProperty(value = "")
   @JsonProperty("jaas.controlFlag")
+  @Valid
   public ConfigNodePropertyDropDown getJaasControlFlag() {
     return jaasControlFlag;
   }
@@ -38,6 +42,7 @@ public class OrgApacheFelixJaasConfigurationFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("jaas.ranking")
+  @Valid
   public ConfigNodePropertyInteger getJaasRanking() {
     return jaasRanking;
   }
@@ -50,6 +55,7 @@ public class OrgApacheFelixJaasConfigurationFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("jaas.realmName")
+  @Valid
   public ConfigNodePropertyString getJaasRealmName() {
     return jaasRealmName;
   }
@@ -62,6 +68,7 @@ public class OrgApacheFelixJaasConfigurationFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("jaas.classname")
+  @Valid
   public ConfigNodePropertyString getJaasClassname() {
     return jaasClassname;
   }
@@ -74,6 +81,7 @@ public class OrgApacheFelixJaasConfigurationFactoryProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("jaas.options")
+  @Valid
   public ConfigNodePropertyArray getJaasOptions() {
     return jaasOptions;
   }
@@ -83,7 +91,7 @@ public class OrgApacheFelixJaasConfigurationFactoryProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -91,11 +99,11 @@ public class OrgApacheFelixJaasConfigurationFactoryProperties   {
       return false;
     }
     OrgApacheFelixJaasConfigurationFactoryProperties orgApacheFelixJaasConfigurationFactoryProperties = (OrgApacheFelixJaasConfigurationFactoryProperties) o;
-    return Objects.equals(jaasControlFlag, orgApacheFelixJaasConfigurationFactoryProperties.jaasControlFlag) &&
-        Objects.equals(jaasRanking, orgApacheFelixJaasConfigurationFactoryProperties.jaasRanking) &&
-        Objects.equals(jaasRealmName, orgApacheFelixJaasConfigurationFactoryProperties.jaasRealmName) &&
-        Objects.equals(jaasClassname, orgApacheFelixJaasConfigurationFactoryProperties.jaasClassname) &&
-        Objects.equals(jaasOptions, orgApacheFelixJaasConfigurationFactoryProperties.jaasOptions);
+    return Objects.equals(this.jaasControlFlag, orgApacheFelixJaasConfigurationFactoryProperties.jaasControlFlag) &&
+        Objects.equals(this.jaasRanking, orgApacheFelixJaasConfigurationFactoryProperties.jaasRanking) &&
+        Objects.equals(this.jaasRealmName, orgApacheFelixJaasConfigurationFactoryProperties.jaasRealmName) &&
+        Objects.equals(this.jaasClassname, orgApacheFelixJaasConfigurationFactoryProperties.jaasClassname) &&
+        Objects.equals(this.jaasOptions, orgApacheFelixJaasConfigurationFactoryProperties.jaasOptions);
   }
 
   @Override
@@ -121,11 +129,8 @@ public class OrgApacheFelixJaasConfigurationFactoryProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

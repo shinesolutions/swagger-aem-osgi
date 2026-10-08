@@ -72,7 +72,7 @@ private class OASComDayCqDamCoreImplHandlerXmpNComTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqDamCoreImplHandlerXmpNCom comDayCqDamCoreImplHandlerXmpNCommXMPHandlerProperties = new OASComDayCqDamCoreImplHandlerXmpNCom();
-        Map<String, String> propertyMappings = comDayCqDamCoreImplHandlerXmpNCommXMPHandlerProperties.getPropertyMappings();
-        System.assertEquals('xmphandlerCqFormats', propertyMappings.get('xmphandler.cq.formats'));
+        Map<String, String> x-property-mappings = comDayCqDamCoreImplHandlerXmpNCommXMPHandlerProperties.getx-property-mappings();
+        System.assertEquals('xmphandlerCqFormats', x-property-mappings.get('xmphandler.cq.formats'));
     }
 }

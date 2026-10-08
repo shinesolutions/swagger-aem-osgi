@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqSocialCommonsEmailreplyImplMacmailEmailClientProviderInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqSocialCommonsEmailreplyImplMacmailEmailClientProviderInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComAdobeCqSocialCommonsEmailreplyImplMacmailEmailClientProviderProperties = openapi_server.resourceTypes.ComAdobeCqSocialCommonsEmailreplyImplMacmailEmailClientProviderProperties
+}
+resourceTypes {
+
+  ComAdobeCqSocialCommonsEmailreplyImplMacmailEmailClientProviderInfo {
+    title = ComAdobeCqSocialCommonsEmailreplyImplMacmailEmailClientProviderInfo
+    description = ComAdobeCqSocialCommonsEmailreplyImplMacmailEmailClientProviderInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComAdobeCqSocialCommonsEmailreplyImplMacmailEmailClientProviderProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqSocialCommonsEmailreplyImplMacmailEmailClientProviderInfo {
+    title = ComAdobeCqSocialCommonsEmailreplyImplMacmailEmailClientProviderInfo
+    description = ComAdobeCqSocialCommonsEmailreplyImplMacmailEmailClientProviderInfo
+    implements = openapi_server.resourceTypes.ComAdobeCqSocialCommonsEmailreplyImplMacmailEmailClientProviderInfo
+
+  }
+}

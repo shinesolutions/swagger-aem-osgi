@@ -3,29 +3,38 @@ package apimodels;
 import apimodels.ConfigNodePropertyDropDown;
 import apimodels.ConfigNodePropertyInteger;
 import apimodels.ConfigNodePropertyString;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * ComAdobeCqAuditPurgePagesProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class ComAdobeCqAuditPurgePagesProperties   {
   @JsonProperty("auditlog.rule.name")
-  private ConfigNodePropertyString auditlogRuleName = null;
+  @Valid
+
+  private ConfigNodePropertyString auditlogRuleName;
 
   @JsonProperty("auditlog.rule.contentpath")
-  private ConfigNodePropertyString auditlogRuleContentpath = null;
+  @Valid
+
+  private ConfigNodePropertyString auditlogRuleContentpath;
 
   @JsonProperty("auditlog.rule.minimumage")
-  private ConfigNodePropertyInteger auditlogRuleMinimumage = null;
+  @Valid
+
+  private ConfigNodePropertyInteger auditlogRuleMinimumage;
 
   @JsonProperty("auditlog.rule.types")
-  private ConfigNodePropertyDropDown auditlogRuleTypes = null;
+  @Valid
+
+  private ConfigNodePropertyDropDown auditlogRuleTypes;
 
   public ComAdobeCqAuditPurgePagesProperties auditlogRuleName(ConfigNodePropertyString auditlogRuleName) {
     this.auditlogRuleName = auditlogRuleName;
@@ -36,7 +45,6 @@ public class ComAdobeCqAuditPurgePagesProperties   {
    * Get auditlogRuleName
    * @return auditlogRuleName
   **/
-  @Valid
   public ConfigNodePropertyString getAuditlogRuleName() {
     return auditlogRuleName;
   }
@@ -54,7 +62,6 @@ public class ComAdobeCqAuditPurgePagesProperties   {
    * Get auditlogRuleContentpath
    * @return auditlogRuleContentpath
   **/
-  @Valid
   public ConfigNodePropertyString getAuditlogRuleContentpath() {
     return auditlogRuleContentpath;
   }
@@ -72,7 +79,6 @@ public class ComAdobeCqAuditPurgePagesProperties   {
    * Get auditlogRuleMinimumage
    * @return auditlogRuleMinimumage
   **/
-  @Valid
   public ConfigNodePropertyInteger getAuditlogRuleMinimumage() {
     return auditlogRuleMinimumage;
   }
@@ -90,7 +96,6 @@ public class ComAdobeCqAuditPurgePagesProperties   {
    * Get auditlogRuleTypes
    * @return auditlogRuleTypes
   **/
-  @Valid
   public ConfigNodePropertyDropDown getAuditlogRuleTypes() {
     return auditlogRuleTypes;
   }
@@ -101,7 +106,7 @@ public class ComAdobeCqAuditPurgePagesProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -138,11 +143,8 @@ public class ComAdobeCqAuditPurgePagesProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

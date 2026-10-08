@@ -1,0 +1,42 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqWcmCoreImplDevicedetectionDeviceIdentificationModeImplProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqWcmCoreImplDevicedetectionDeviceIdentificationModeImplProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyDropDown = openapi_server.resourceTypes.ConfigNodePropertyDropDown
+}
+resourceTypes {
+
+  ComDayCqWcmCoreImplDevicedetectionDeviceIdentificationModeImplProperties {
+    title = ComDayCqWcmCoreImplDevicedetectionDeviceIdentificationModeImplProperties
+    description = ComDayCqWcmCoreImplDevicedetectionDeviceIdentificationModeImplProperties
+    derivedFrom = Root
+    properties {
+        dim_default_mode {
+          type = ConfigNodePropertyDropDown
+          description = ""
+          optional = false
+        }
+        dim_appcache_enabled {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqWcmCoreImplDevicedetectionDeviceIdentificationModeImplProperties {
+    title = ComDayCqWcmCoreImplDevicedetectionDeviceIdentificationModeImplProperties
+    description = ComDayCqWcmCoreImplDevicedetectionDeviceIdentificationModeImplProperties
+    implements = openapi_server.resourceTypes.ComDayCqWcmCoreImplDevicedetectionDeviceIdentificationModeImplProperties
+
+  }
+}

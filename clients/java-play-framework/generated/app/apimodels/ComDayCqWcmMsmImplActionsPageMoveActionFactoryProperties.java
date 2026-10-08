@@ -2,29 +2,38 @@ package apimodels;
 
 import apimodels.ConfigNodePropertyArray;
 import apimodels.ConfigNodePropertyBoolean;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * ComDayCqWcmMsmImplActionsPageMoveActionFactoryProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class ComDayCqWcmMsmImplActionsPageMoveActionFactoryProperties   {
   @JsonProperty("cq.wcm.msm.action.excludednodetypes")
-  private ConfigNodePropertyArray cqWcmMsmActionExcludednodetypes = null;
+  @Valid
+
+  private ConfigNodePropertyArray cqWcmMsmActionExcludednodetypes;
 
   @JsonProperty("cq.wcm.msm.action.excludedparagraphitems")
-  private ConfigNodePropertyArray cqWcmMsmActionExcludedparagraphitems = null;
+  @Valid
+
+  private ConfigNodePropertyArray cqWcmMsmActionExcludedparagraphitems;
 
   @JsonProperty("cq.wcm.msm.action.excludedprops")
-  private ConfigNodePropertyArray cqWcmMsmActionExcludedprops = null;
+  @Valid
+
+  private ConfigNodePropertyArray cqWcmMsmActionExcludedprops;
 
   @JsonProperty("cq.wcm.msm.impl.actions.pagemove.prop_referenceUpdate")
-  private ConfigNodePropertyBoolean cqWcmMsmImplActionsPagemovePropReferenceUpdate = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean cqWcmMsmImplActionsPagemovePropReferenceUpdate;
 
   public ComDayCqWcmMsmImplActionsPageMoveActionFactoryProperties cqWcmMsmActionExcludednodetypes(ConfigNodePropertyArray cqWcmMsmActionExcludednodetypes) {
     this.cqWcmMsmActionExcludednodetypes = cqWcmMsmActionExcludednodetypes;
@@ -35,7 +44,6 @@ public class ComDayCqWcmMsmImplActionsPageMoveActionFactoryProperties   {
    * Get cqWcmMsmActionExcludednodetypes
    * @return cqWcmMsmActionExcludednodetypes
   **/
-  @Valid
   public ConfigNodePropertyArray getCqWcmMsmActionExcludednodetypes() {
     return cqWcmMsmActionExcludednodetypes;
   }
@@ -53,7 +61,6 @@ public class ComDayCqWcmMsmImplActionsPageMoveActionFactoryProperties   {
    * Get cqWcmMsmActionExcludedparagraphitems
    * @return cqWcmMsmActionExcludedparagraphitems
   **/
-  @Valid
   public ConfigNodePropertyArray getCqWcmMsmActionExcludedparagraphitems() {
     return cqWcmMsmActionExcludedparagraphitems;
   }
@@ -71,7 +78,6 @@ public class ComDayCqWcmMsmImplActionsPageMoveActionFactoryProperties   {
    * Get cqWcmMsmActionExcludedprops
    * @return cqWcmMsmActionExcludedprops
   **/
-  @Valid
   public ConfigNodePropertyArray getCqWcmMsmActionExcludedprops() {
     return cqWcmMsmActionExcludedprops;
   }
@@ -89,7 +95,6 @@ public class ComDayCqWcmMsmImplActionsPageMoveActionFactoryProperties   {
    * Get cqWcmMsmImplActionsPagemovePropReferenceUpdate
    * @return cqWcmMsmImplActionsPagemovePropReferenceUpdate
   **/
-  @Valid
   public ConfigNodePropertyBoolean getCqWcmMsmImplActionsPagemovePropReferenceUpdate() {
     return cqWcmMsmImplActionsPagemovePropReferenceUpdate;
   }
@@ -100,7 +105,7 @@ public class ComDayCqWcmMsmImplActionsPageMoveActionFactoryProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -137,11 +142,8 @@ public class ComDayCqWcmMsmImplActionsPageMoveActionFactoryProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyBoolean;
 
 @Canonical
 class ComDayCqWcmCoreImplWCMDeveloperModeFilterProperties {
-    ConfigNodePropertyBoolean wcmdevmodefilterEnabled = null
-
+    
+    ConfigNodePropertyBoolean wcmdevmodefilterEnabled
 }

@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeGraniteTaskmanagementImplServiceTaskManage
 
 @Canonical
 class ComAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactorInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactorProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactorProperties properties
 }

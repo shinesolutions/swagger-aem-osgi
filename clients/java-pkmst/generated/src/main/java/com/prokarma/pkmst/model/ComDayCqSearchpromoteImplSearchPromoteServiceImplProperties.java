@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyInteger;
 import com.prokarma.pkmst.model.ConfigNodePropertyString;
 import io.swagger.annotations.ApiModel;
@@ -16,30 +17,29 @@ import io.swagger.annotations.ApiModelProperty;
  * ComDayCqSearchpromoteImplSearchPromoteServiceImplProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqSearchpromoteImplSearchPromoteServiceImplProperties   {
   @JsonProperty("cq.searchpromote.configuration.server.uri")
-  private ConfigNodePropertyString cqSearchpromoteConfigurationServerUri = null;
+  private ConfigNodePropertyString cqSearchpromoteConfigurationServerUri;
 
   @JsonProperty("cq.searchpromote.configuration.environment")
-  private ConfigNodePropertyString cqSearchpromoteConfigurationEnvironment = null;
+  private ConfigNodePropertyString cqSearchpromoteConfigurationEnvironment;
 
   @JsonProperty("connection.timeout")
-  private ConfigNodePropertyInteger connectionTimeout = null;
+  private ConfigNodePropertyInteger connectionTimeout;
 
   @JsonProperty("socket.timeout")
-  private ConfigNodePropertyInteger socketTimeout = null;
+  private ConfigNodePropertyInteger socketTimeout;
 
   public ComDayCqSearchpromoteImplSearchPromoteServiceImplProperties cqSearchpromoteConfigurationServerUri(ConfigNodePropertyString cqSearchpromoteConfigurationServerUri) {
     this.cqSearchpromoteConfigurationServerUri = cqSearchpromoteConfigurationServerUri;
     return this;
   }
 
-   /**
+  /**
    * Get cqSearchpromoteConfigurationServerUri
    * @return cqSearchpromoteConfigurationServerUri
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getCqSearchpromoteConfigurationServerUri() {
     return cqSearchpromoteConfigurationServerUri;
@@ -54,10 +54,10 @@ public class ComDayCqSearchpromoteImplSearchPromoteServiceImplProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get cqSearchpromoteConfigurationEnvironment
    * @return cqSearchpromoteConfigurationEnvironment
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getCqSearchpromoteConfigurationEnvironment() {
     return cqSearchpromoteConfigurationEnvironment;
@@ -72,10 +72,10 @@ public class ComDayCqSearchpromoteImplSearchPromoteServiceImplProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get connectionTimeout
    * @return connectionTimeout
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getConnectionTimeout() {
     return connectionTimeout;
@@ -90,10 +90,10 @@ public class ComDayCqSearchpromoteImplSearchPromoteServiceImplProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get socketTimeout
    * @return socketTimeout
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getSocketTimeout() {
     return socketTimeout;
@@ -105,7 +105,7 @@ public class ComDayCqSearchpromoteImplSearchPromoteServiceImplProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -141,11 +141,8 @@ public class ComDayCqSearchpromoteImplSearchPromoteServiceImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

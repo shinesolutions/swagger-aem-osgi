@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqWcmFoundationSecurityImplDefaultAttachment
 
 @Canonical
 class ComDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqWcmFoundationSecurityImplDefaultAttachmentTypeBlacklistProperties properties
 }

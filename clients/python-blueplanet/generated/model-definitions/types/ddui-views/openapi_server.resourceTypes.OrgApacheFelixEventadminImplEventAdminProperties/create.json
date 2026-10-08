@@ -1,0 +1,22 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "org_apache_felix_eventadmin_thread_pool_size" },
+      {"model": "org_apache_felix_eventadmin_async_to_sync_thread_ratio" },
+      {"model": "org_apache_felix_eventadmin_timeout" },
+      {"model": "org_apache_felix_eventadmin_require_topic" },
+      {"model": "org_apache_felix_eventadmin_ignore_timeout" },
+      {"model": "org_apache_felix_eventadmin_ignore_topic" },
+    ]
+  }]
+}

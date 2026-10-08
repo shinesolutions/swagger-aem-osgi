@@ -7,8 +7,8 @@ import org.openapitools.model.ConfigNodePropertyBoolean;
 
 @Canonical
 class ComAdobeAemFormsndocumentsConfigAEMFormsManagerConfigurationProperties {
-    ConfigNodePropertyBoolean formsManagerConfigIncludeOOTBTemplates = null
-
-    ConfigNodePropertyBoolean formsManagerConfigIncludeDeprecatedTemplates = null
-
+    
+    ConfigNodePropertyBoolean formsManagerConfigIncludeOOTBTemplates
+    
+    ConfigNodePropertyBoolean formsManagerConfigIncludeDeprecatedTemplates
 }

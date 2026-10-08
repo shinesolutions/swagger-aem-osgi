@@ -1,24 +1,35 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ComDayCqWcmCoreImplWCMDeveloperModeFilterProperties;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comDayCqWcmCoreImplWCMDeveloperModeFilterInfo")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqWcmCoreImplWCMDeveloperModeFilterInfo   {
-  
-  private @Valid String pid = null;
-  private @Valid String title = null;
-  private @Valid String description = null;
-  private @Valid ComDayCqWcmCoreImplWCMDeveloperModeFilterProperties properties = null;
-  private @Valid String additionalProperties = null;
-  private @Valid String bundleLocation = null;
-  private @Valid String serviceLocation = null;
+  private String pid;
+  private String title;
+  private String description;
+  private ComDayCqWcmCoreImplWCMDeveloperModeFilterProperties properties;
+  private String additionalProperties;
+  private String bundleLocation;
+  private String serviceLocation;
+
+  public ComDayCqWcmCoreImplWCMDeveloperModeFilterInfo() {
+  }
 
   /**
    **/
@@ -33,6 +44,8 @@ public class ComDayCqWcmCoreImplWCMDeveloperModeFilterInfo   {
   public String getPid() {
     return pid;
   }
+
+  @JsonProperty("pid")
   public void setPid(String pid) {
     this.pid = pid;
   }
@@ -50,6 +63,8 @@ public class ComDayCqWcmCoreImplWCMDeveloperModeFilterInfo   {
   public String getTitle() {
     return title;
   }
+
+  @JsonProperty("title")
   public void setTitle(String title) {
     this.title = title;
   }
@@ -67,6 +82,8 @@ public class ComDayCqWcmCoreImplWCMDeveloperModeFilterInfo   {
   public String getDescription() {
     return description;
   }
+
+  @JsonProperty("description")
   public void setDescription(String description) {
     this.description = description;
   }
@@ -81,9 +98,11 @@ public class ComDayCqWcmCoreImplWCMDeveloperModeFilterInfo   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("properties")
-  public ComDayCqWcmCoreImplWCMDeveloperModeFilterProperties getProperties() {
+  @Valid public ComDayCqWcmCoreImplWCMDeveloperModeFilterProperties getProperties() {
     return properties;
   }
+
+  @JsonProperty("properties")
   public void setProperties(ComDayCqWcmCoreImplWCMDeveloperModeFilterProperties properties) {
     this.properties = properties;
   }
@@ -101,6 +120,8 @@ public class ComDayCqWcmCoreImplWCMDeveloperModeFilterInfo   {
   public String getAdditionalProperties() {
     return additionalProperties;
   }
+
+  @JsonProperty("additionalProperties")
   public void setAdditionalProperties(String additionalProperties) {
     this.additionalProperties = additionalProperties;
   }
@@ -118,6 +139,8 @@ public class ComDayCqWcmCoreImplWCMDeveloperModeFilterInfo   {
   public String getBundleLocation() {
     return bundleLocation;
   }
+
+  @JsonProperty("bundle_location")
   public void setBundleLocation(String bundleLocation) {
     this.bundleLocation = bundleLocation;
   }
@@ -135,13 +158,15 @@ public class ComDayCqWcmCoreImplWCMDeveloperModeFilterInfo   {
   public String getServiceLocation() {
     return serviceLocation;
   }
+
+  @JsonProperty("service_location")
   public void setServiceLocation(String serviceLocation) {
     this.serviceLocation = serviceLocation;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -149,13 +174,13 @@ public class ComDayCqWcmCoreImplWCMDeveloperModeFilterInfo   {
       return false;
     }
     ComDayCqWcmCoreImplWCMDeveloperModeFilterInfo comDayCqWcmCoreImplWCMDeveloperModeFilterInfo = (ComDayCqWcmCoreImplWCMDeveloperModeFilterInfo) o;
-    return Objects.equals(pid, comDayCqWcmCoreImplWCMDeveloperModeFilterInfo.pid) &&
-        Objects.equals(title, comDayCqWcmCoreImplWCMDeveloperModeFilterInfo.title) &&
-        Objects.equals(description, comDayCqWcmCoreImplWCMDeveloperModeFilterInfo.description) &&
-        Objects.equals(properties, comDayCqWcmCoreImplWCMDeveloperModeFilterInfo.properties) &&
-        Objects.equals(additionalProperties, comDayCqWcmCoreImplWCMDeveloperModeFilterInfo.additionalProperties) &&
-        Objects.equals(bundleLocation, comDayCqWcmCoreImplWCMDeveloperModeFilterInfo.bundleLocation) &&
-        Objects.equals(serviceLocation, comDayCqWcmCoreImplWCMDeveloperModeFilterInfo.serviceLocation);
+    return Objects.equals(this.pid, comDayCqWcmCoreImplWCMDeveloperModeFilterInfo.pid) &&
+        Objects.equals(this.title, comDayCqWcmCoreImplWCMDeveloperModeFilterInfo.title) &&
+        Objects.equals(this.description, comDayCqWcmCoreImplWCMDeveloperModeFilterInfo.description) &&
+        Objects.equals(this.properties, comDayCqWcmCoreImplWCMDeveloperModeFilterInfo.properties) &&
+        Objects.equals(this.additionalProperties, comDayCqWcmCoreImplWCMDeveloperModeFilterInfo.additionalProperties) &&
+        Objects.equals(this.bundleLocation, comDayCqWcmCoreImplWCMDeveloperModeFilterInfo.bundleLocation) &&
+        Objects.equals(this.serviceLocation, comDayCqWcmCoreImplWCMDeveloperModeFilterInfo.serviceLocation);
   }
 
   @Override
@@ -183,11 +208,9 @@ public class ComDayCqWcmCoreImplWCMDeveloperModeFilterInfo   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

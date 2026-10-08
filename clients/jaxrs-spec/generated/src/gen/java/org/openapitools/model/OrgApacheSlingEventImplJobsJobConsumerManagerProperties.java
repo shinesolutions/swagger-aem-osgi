@@ -1,21 +1,32 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("orgApacheSlingEventImplJobsJobConsumerManagerProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingEventImplJobsJobConsumerManagerProperties   {
-  
-  private @Valid ConfigNodePropertyBoolean orgApacheSlingInstallerConfigurationPersist = null;
-  private @Valid ConfigNodePropertyArray jobConsumermanagerWhitelist = null;
-  private @Valid ConfigNodePropertyArray jobConsumermanagerBlacklist = null;
+  private ConfigNodePropertyBoolean orgApacheSlingInstallerConfigurationPersist;
+  private ConfigNodePropertyArray jobConsumermanagerWhitelist;
+  private ConfigNodePropertyArray jobConsumermanagerBlacklist;
+
+  public OrgApacheSlingEventImplJobsJobConsumerManagerProperties() {
+  }
 
   /**
    **/
@@ -27,9 +38,11 @@ public class OrgApacheSlingEventImplJobsJobConsumerManagerProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("org.apache.sling.installer.configuration.persist")
-  public ConfigNodePropertyBoolean getOrgApacheSlingInstallerConfigurationPersist() {
+  @Valid public ConfigNodePropertyBoolean getOrgApacheSlingInstallerConfigurationPersist() {
     return orgApacheSlingInstallerConfigurationPersist;
   }
+
+  @JsonProperty("org.apache.sling.installer.configuration.persist")
   public void setOrgApacheSlingInstallerConfigurationPersist(ConfigNodePropertyBoolean orgApacheSlingInstallerConfigurationPersist) {
     this.orgApacheSlingInstallerConfigurationPersist = orgApacheSlingInstallerConfigurationPersist;
   }
@@ -44,9 +57,11 @@ public class OrgApacheSlingEventImplJobsJobConsumerManagerProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("job.consumermanager.whitelist")
-  public ConfigNodePropertyArray getJobConsumermanagerWhitelist() {
+  @Valid public ConfigNodePropertyArray getJobConsumermanagerWhitelist() {
     return jobConsumermanagerWhitelist;
   }
+
+  @JsonProperty("job.consumermanager.whitelist")
   public void setJobConsumermanagerWhitelist(ConfigNodePropertyArray jobConsumermanagerWhitelist) {
     this.jobConsumermanagerWhitelist = jobConsumermanagerWhitelist;
   }
@@ -61,16 +76,18 @@ public class OrgApacheSlingEventImplJobsJobConsumerManagerProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("job.consumermanager.blacklist")
-  public ConfigNodePropertyArray getJobConsumermanagerBlacklist() {
+  @Valid public ConfigNodePropertyArray getJobConsumermanagerBlacklist() {
     return jobConsumermanagerBlacklist;
   }
+
+  @JsonProperty("job.consumermanager.blacklist")
   public void setJobConsumermanagerBlacklist(ConfigNodePropertyArray jobConsumermanagerBlacklist) {
     this.jobConsumermanagerBlacklist = jobConsumermanagerBlacklist;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -78,9 +95,9 @@ public class OrgApacheSlingEventImplJobsJobConsumerManagerProperties   {
       return false;
     }
     OrgApacheSlingEventImplJobsJobConsumerManagerProperties orgApacheSlingEventImplJobsJobConsumerManagerProperties = (OrgApacheSlingEventImplJobsJobConsumerManagerProperties) o;
-    return Objects.equals(orgApacheSlingInstallerConfigurationPersist, orgApacheSlingEventImplJobsJobConsumerManagerProperties.orgApacheSlingInstallerConfigurationPersist) &&
-        Objects.equals(jobConsumermanagerWhitelist, orgApacheSlingEventImplJobsJobConsumerManagerProperties.jobConsumermanagerWhitelist) &&
-        Objects.equals(jobConsumermanagerBlacklist, orgApacheSlingEventImplJobsJobConsumerManagerProperties.jobConsumermanagerBlacklist);
+    return Objects.equals(this.orgApacheSlingInstallerConfigurationPersist, orgApacheSlingEventImplJobsJobConsumerManagerProperties.orgApacheSlingInstallerConfigurationPersist) &&
+        Objects.equals(this.jobConsumermanagerWhitelist, orgApacheSlingEventImplJobsJobConsumerManagerProperties.jobConsumermanagerWhitelist) &&
+        Objects.equals(this.jobConsumermanagerBlacklist, orgApacheSlingEventImplJobsJobConsumerManagerProperties.jobConsumermanagerBlacklist);
   }
 
   @Override
@@ -104,11 +121,9 @@ public class OrgApacheSlingEventImplJobsJobConsumerManagerProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

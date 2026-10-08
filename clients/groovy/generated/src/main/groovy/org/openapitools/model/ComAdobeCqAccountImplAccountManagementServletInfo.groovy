@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqAccountImplAccountManagementServletPrope
 
 @Canonical
 class ComAdobeCqAccountImplAccountManagementServletInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqAccountImplAccountManagementServletProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqAccountImplAccountManagementServletProperties properties
 }

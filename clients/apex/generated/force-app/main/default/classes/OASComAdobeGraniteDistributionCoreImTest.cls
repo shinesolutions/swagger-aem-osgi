@@ -72,7 +72,7 @@ private class OASComAdobeGraniteDistributionCoreImTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeGraniteDistributionCoreIm comAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProperties = new OASComAdobeGraniteDistributionCoreIm();
-        Map<String, String> propertyMappings = comAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProperties.getPropertyMappings();
-        System.assertEquals('accessTokenProviderTarget', propertyMappings.get('accessTokenProvider.target'));
+        Map<String, String> x-property-mappings = comAdobeGraniteDistributionCoreImplTransportAccessTokenDistribuProperties.getx-property-mappings();
+        System.assertEquals('accessTokenProviderTarget', x-property-mappings.get('accessTokenProvider.target'));
     }
 }

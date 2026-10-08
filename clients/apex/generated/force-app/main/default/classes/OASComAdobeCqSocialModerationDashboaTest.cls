@@ -72,7 +72,7 @@ private class OASComAdobeCqSocialModerationDashboaTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeCqSocialModerationDashboa comAdobeCqSocialModerationDashboardInternalImplFilterGroupSociProperties = new OASComAdobeCqSocialModerationDashboa();
-        Map<String, String> propertyMappings = comAdobeCqSocialModerationDashboardInternalImplFilterGroupSociProperties.getPropertyMappings();
-        System.assertEquals('resourceTypeFilters', propertyMappings.get('resourceType.filters'));
+        Map<String, String> x-property-mappings = comAdobeCqSocialModerationDashboardInternalImplFilterGroupSociProperties.getx-property-mappings();
+        System.assertEquals('resourceTypeFilters', x-property-mappings.get('resourceType.filters'));
     }
 }

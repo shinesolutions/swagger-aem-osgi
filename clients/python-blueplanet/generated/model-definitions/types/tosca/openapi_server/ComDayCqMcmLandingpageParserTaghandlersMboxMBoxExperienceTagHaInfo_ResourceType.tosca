@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHaInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHaInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHaProperties = openapi_server.resourceTypes.ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHaProperties
+}
+resourceTypes {
+
+  ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHaInfo {
+    title = ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHaInfo
+    description = ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHaInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHaProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHaInfo {
+    title = ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHaInfo
+    description = ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHaInfo
+    implements = openapi_server.resourceTypes.ComDayCqMcmLandingpageParserTaghandlersMboxMBoxExperienceTagHaInfo
+
+  }
+}

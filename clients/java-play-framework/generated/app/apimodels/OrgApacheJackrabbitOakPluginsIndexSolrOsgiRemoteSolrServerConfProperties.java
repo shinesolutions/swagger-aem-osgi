@@ -2,41 +2,58 @@ package apimodels;
 
 import apimodels.ConfigNodePropertyInteger;
 import apimodels.ConfigNodePropertyString;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfProperties   {
   @JsonProperty("solr.http.url")
-  private ConfigNodePropertyString solrHttpUrl = null;
+  @Valid
+
+  private ConfigNodePropertyString solrHttpUrl;
 
   @JsonProperty("solr.zk.host")
-  private ConfigNodePropertyString solrZkHost = null;
+  @Valid
+
+  private ConfigNodePropertyString solrZkHost;
 
   @JsonProperty("solr.collection")
-  private ConfigNodePropertyString solrCollection = null;
+  @Valid
+
+  private ConfigNodePropertyString solrCollection;
 
   @JsonProperty("solr.socket.timeout")
-  private ConfigNodePropertyInteger solrSocketTimeout = null;
+  @Valid
+
+  private ConfigNodePropertyInteger solrSocketTimeout;
 
   @JsonProperty("solr.connection.timeout")
-  private ConfigNodePropertyInteger solrConnectionTimeout = null;
+  @Valid
+
+  private ConfigNodePropertyInteger solrConnectionTimeout;
 
   @JsonProperty("solr.shards.no")
-  private ConfigNodePropertyInteger solrShardsNo = null;
+  @Valid
+
+  private ConfigNodePropertyInteger solrShardsNo;
 
   @JsonProperty("solr.replication.factor")
-  private ConfigNodePropertyInteger solrReplicationFactor = null;
+  @Valid
+
+  private ConfigNodePropertyInteger solrReplicationFactor;
 
   @JsonProperty("solr.conf.dir")
-  private ConfigNodePropertyString solrConfDir = null;
+  @Valid
+
+  private ConfigNodePropertyString solrConfDir;
 
   public OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfProperties solrHttpUrl(ConfigNodePropertyString solrHttpUrl) {
     this.solrHttpUrl = solrHttpUrl;
@@ -47,7 +64,6 @@ public class OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfPrope
    * Get solrHttpUrl
    * @return solrHttpUrl
   **/
-  @Valid
   public ConfigNodePropertyString getSolrHttpUrl() {
     return solrHttpUrl;
   }
@@ -65,7 +81,6 @@ public class OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfPrope
    * Get solrZkHost
    * @return solrZkHost
   **/
-  @Valid
   public ConfigNodePropertyString getSolrZkHost() {
     return solrZkHost;
   }
@@ -83,7 +98,6 @@ public class OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfPrope
    * Get solrCollection
    * @return solrCollection
   **/
-  @Valid
   public ConfigNodePropertyString getSolrCollection() {
     return solrCollection;
   }
@@ -101,7 +115,6 @@ public class OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfPrope
    * Get solrSocketTimeout
    * @return solrSocketTimeout
   **/
-  @Valid
   public ConfigNodePropertyInteger getSolrSocketTimeout() {
     return solrSocketTimeout;
   }
@@ -119,7 +132,6 @@ public class OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfPrope
    * Get solrConnectionTimeout
    * @return solrConnectionTimeout
   **/
-  @Valid
   public ConfigNodePropertyInteger getSolrConnectionTimeout() {
     return solrConnectionTimeout;
   }
@@ -137,7 +149,6 @@ public class OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfPrope
    * Get solrShardsNo
    * @return solrShardsNo
   **/
-  @Valid
   public ConfigNodePropertyInteger getSolrShardsNo() {
     return solrShardsNo;
   }
@@ -155,7 +166,6 @@ public class OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfPrope
    * Get solrReplicationFactor
    * @return solrReplicationFactor
   **/
-  @Valid
   public ConfigNodePropertyInteger getSolrReplicationFactor() {
     return solrReplicationFactor;
   }
@@ -173,7 +183,6 @@ public class OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfPrope
    * Get solrConfDir
    * @return solrConfDir
   **/
-  @Valid
   public ConfigNodePropertyString getSolrConfDir() {
     return solrConfDir;
   }
@@ -184,7 +193,7 @@ public class OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfPrope
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -229,11 +238,8 @@ public class OrgApacheJackrabbitOakPluginsIndexSolrOsgiRemoteSolrServerConfPrope
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

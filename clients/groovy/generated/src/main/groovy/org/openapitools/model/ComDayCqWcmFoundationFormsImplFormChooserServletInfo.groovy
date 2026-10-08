@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqWcmFoundationFormsImplFormChooserServletPr
 
 @Canonical
 class ComDayCqWcmFoundationFormsImplFormChooserServletInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqWcmFoundationFormsImplFormChooserServletProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqWcmFoundationFormsImplFormChooserServletProperties properties
 }

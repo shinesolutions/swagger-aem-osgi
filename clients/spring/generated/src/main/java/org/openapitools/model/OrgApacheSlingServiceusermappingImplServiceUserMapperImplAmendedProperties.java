@@ -1,28 +1,39 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyInteger;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * OrgApacheSlingServiceusermappingImplServiceUserMapperImplAmendedProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class OrgApacheSlingServiceusermappingImplServiceUserMapperImplAmendedProperties   {
-  @JsonProperty("service.ranking")
-  private ConfigNodePropertyInteger serviceRanking = null;
+@JsonTypeName("orgApacheSlingServiceusermappingImplServiceUserMapperImplAmendedProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class OrgApacheSlingServiceusermappingImplServiceUserMapperImplAmendedProperties {
 
-  @JsonProperty("user.mapping")
-  private ConfigNodePropertyArray userMapping = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger serviceRanking;
 
-  public OrgApacheSlingServiceusermappingImplServiceUserMapperImplAmendedProperties serviceRanking(ConfigNodePropertyInteger serviceRanking) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray userMapping;
+
+  public OrgApacheSlingServiceusermappingImplServiceUserMapperImplAmendedProperties serviceRanking(@Nullable ConfigNodePropertyInteger serviceRanking) {
     this.serviceRanking = serviceRanking;
     return this;
   }
@@ -30,20 +41,20 @@ public class OrgApacheSlingServiceusermappingImplServiceUserMapperImplAmendedPro
   /**
    * Get serviceRanking
    * @return serviceRanking
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getServiceRanking() {
+   */
+  @Valid 
+  @Schema(name = "service.ranking", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("service.ranking")
+  public @Nullable ConfigNodePropertyInteger getServiceRanking() {
     return serviceRanking;
   }
 
-  public void setServiceRanking(ConfigNodePropertyInteger serviceRanking) {
+  @JsonProperty("service.ranking")
+  public void setServiceRanking(@Nullable ConfigNodePropertyInteger serviceRanking) {
     this.serviceRanking = serviceRanking;
   }
 
-  public OrgApacheSlingServiceusermappingImplServiceUserMapperImplAmendedProperties userMapping(ConfigNodePropertyArray userMapping) {
+  public OrgApacheSlingServiceusermappingImplServiceUserMapperImplAmendedProperties userMapping(@Nullable ConfigNodePropertyArray userMapping) {
     this.userMapping = userMapping;
     return this;
   }
@@ -51,22 +62,21 @@ public class OrgApacheSlingServiceusermappingImplServiceUserMapperImplAmendedPro
   /**
    * Get userMapping
    * @return userMapping
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getUserMapping() {
+   */
+  @Valid 
+  @Schema(name = "user.mapping", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("user.mapping")
+  public @Nullable ConfigNodePropertyArray getUserMapping() {
     return userMapping;
   }
 
-  public void setUserMapping(ConfigNodePropertyArray userMapping) {
+  @JsonProperty("user.mapping")
+  public void setUserMapping(@Nullable ConfigNodePropertyArray userMapping) {
     this.userMapping = userMapping;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -87,7 +97,6 @@ public class OrgApacheSlingServiceusermappingImplServiceUserMapperImplAmendedPro
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class OrgApacheSlingServiceusermappingImplServiceUserMapperImplAmendedProperties {\n");
-    
     sb.append("    serviceRanking: ").append(toIndentedString(serviceRanking)).append("\n");
     sb.append("    userMapping: ").append(toIndentedString(userMapping)).append("\n");
     sb.append("}");
@@ -98,11 +107,8 @@ public class OrgApacheSlingServiceusermappingImplServiceUserMapperImplAmendedPro
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

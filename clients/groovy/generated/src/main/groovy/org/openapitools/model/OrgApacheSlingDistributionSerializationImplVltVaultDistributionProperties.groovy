@@ -11,40 +11,40 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class OrgApacheSlingDistributionSerializationImplVltVaultDistributionProperties {
-    ConfigNodePropertyString name = null
-
-    ConfigNodePropertyDropDown type = null
-
-    ConfigNodePropertyString importMode = null
-
-    ConfigNodePropertyString aclHandling = null
-
-    ConfigNodePropertyString packageRoots = null
-
-    ConfigNodePropertyArray packageFilters = null
-
-    ConfigNodePropertyArray propertyFilters = null
-
-    ConfigNodePropertyString tempFsFolder = null
-
-    ConfigNodePropertyBoolean useBinaryReferences = null
-
-    ConfigNodePropertyInteger autoSaveThreshold = null
-
-    ConfigNodePropertyInteger cleanupDelay = null
-
-    ConfigNodePropertyInteger fileThreshold = null
-
-    ConfigNodePropertyDropDown MEGA_BYTES = null
-
-    ConfigNodePropertyBoolean useOffHeapMemory = null
-
-    ConfigNodePropertyDropDown digestAlgorithm = null
-
-    ConfigNodePropertyInteger monitoringQueueSize = null
-
-    ConfigNodePropertyArray pathsMapping = null
-
-    ConfigNodePropertyBoolean strictImport = null
-
+    
+    ConfigNodePropertyString name
+    
+    ConfigNodePropertyDropDown type
+    
+    ConfigNodePropertyString importMode
+    
+    ConfigNodePropertyString aclHandling
+    
+    ConfigNodePropertyString packageRoots
+    
+    ConfigNodePropertyArray packageFilters
+    
+    ConfigNodePropertyArray propertyFilters
+    
+    ConfigNodePropertyString tempFsFolder
+    
+    ConfigNodePropertyBoolean useBinaryReferences
+    
+    ConfigNodePropertyInteger autoSaveThreshold
+    
+    ConfigNodePropertyInteger cleanupDelay
+    
+    ConfigNodePropertyInteger fileThreshold
+    
+    ConfigNodePropertyDropDown MEGA_BYTES
+    
+    ConfigNodePropertyBoolean useOffHeapMemory
+    
+    ConfigNodePropertyDropDown digestAlgorithm
+    
+    ConfigNodePropertyInteger monitoringQueueSize
+    
+    ConfigNodePropertyArray pathsMapping
+    
+    ConfigNodePropertyBoolean strictImport
 }

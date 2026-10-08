@@ -2,11 +2,11 @@
 # OrgApacheFelixJaasConfigurationSpiProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**jaasPerioddefaultRealmName** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**jaasPeriodconfigProviderName** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**jaasPeriodglobalConfigPolicy** | [**ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **jaasDefaultRealmName** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **jaasConfigProviderName** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **jaasGlobalConfigPolicy** | [**ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md) |  |  [optional] |
 
 
 

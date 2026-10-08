@@ -72,8 +72,8 @@ private class OASComDayCqMcmImplMCMConfigurationPrTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqMcmImplMCMConfigurationPr comDayCqMcmImplMCMConfigurationProperties = new OASComDayCqMcmImplMCMConfigurationPr();
-        Map<String, String> propertyMappings = comDayCqMcmImplMCMConfigurationProperties.getPropertyMappings();
-        System.assertEquals('experienceIndirection', propertyMappings.get('experience.indirection'));
-        System.assertEquals('touchpointIndirection', propertyMappings.get('touchpoint.indirection'));
+        Map<String, String> x-property-mappings = comDayCqMcmImplMCMConfigurationProperties.getx-property-mappings();
+        System.assertEquals('experienceIndirection', x-property-mappings.get('experience.indirection'));
+        System.assertEquals('touchpointIndirection', x-property-mappings.get('touchpoint.indirection'));
     }
 }

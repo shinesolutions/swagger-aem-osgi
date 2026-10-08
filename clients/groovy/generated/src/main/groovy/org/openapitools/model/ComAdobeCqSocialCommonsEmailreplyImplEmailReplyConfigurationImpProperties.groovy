@@ -10,26 +10,26 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeCqSocialCommonsEmailreplyImplEmailReplyConfigurationImpProperties {
-    ConfigNodePropertyString emailName = null
-
-    ConfigNodePropertyBoolean emailCreatePostFromReply = null
-
-    ConfigNodePropertyDropDown emailAddCommentIdTo = null
-
-    ConfigNodePropertyInteger emailSubjectMaximumLength = null
-
-    ConfigNodePropertyString emailReplyToAddress = null
-
-    ConfigNodePropertyString emailReplyToDelimiter = null
-
-    ConfigNodePropertyString emailTrackerIdPrefixInSubject = null
-
-    ConfigNodePropertyString emailTrackerIdPrefixInBody = null
-
-    ConfigNodePropertyBoolean emailAsHTML = null
-
-    ConfigNodePropertyString emailDefaultUserName = null
-
-    ConfigNodePropertyString emailTemplatesRootPath = null
-
+    
+    ConfigNodePropertyString emailName
+    
+    ConfigNodePropertyBoolean emailCreatePostFromReply
+    
+    ConfigNodePropertyDropDown emailAddCommentIdTo
+    
+    ConfigNodePropertyInteger emailSubjectMaximumLength
+    
+    ConfigNodePropertyString emailReplyToAddress
+    
+    ConfigNodePropertyString emailReplyToDelimiter
+    
+    ConfigNodePropertyString emailTrackerIdPrefixInSubject
+    
+    ConfigNodePropertyString emailTrackerIdPrefixInBody
+    
+    ConfigNodePropertyBoolean emailAsHTML
+    
+    ConfigNodePropertyString emailDefaultUserName
+    
+    ConfigNodePropertyString emailTemplatesRootPath
 }

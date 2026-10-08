@@ -7,8 +7,8 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class ComAdobeCqSocialGroupImplGroupServiceImplProperties {
-    ConfigNodePropertyInteger maxWaitTime = null
-
-    ConfigNodePropertyInteger minWaitBetweenRetries = null
-
+    
+    ConfigNodePropertyInteger maxWaitTime
+    
+    ConfigNodePropertyInteger minWaitBetweenRetries
 }

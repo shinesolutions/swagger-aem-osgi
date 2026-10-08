@@ -72,16 +72,16 @@ private class OASComDayCqWcmCoreImplLinkCheckerConTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqWcmCoreImplLinkCheckerCon comDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplProperties = new OASComDayCqWcmCoreImplLinkCheckerCon();
-        Map<String, String> propertyMappings = comDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplProperties.getPropertyMappings();
-        System.assertEquals('linkExpiredPrefix', propertyMappings.get('link.expired.prefix'));
-        System.assertEquals('linkExpiredRemove', propertyMappings.get('link.expired.remove'));
-        System.assertEquals('linkExpiredSuffix', propertyMappings.get('link.expired.suffix'));
-        System.assertEquals('linkInvalidPrefix', propertyMappings.get('link.invalid.prefix'));
-        System.assertEquals('linkInvalidRemove', propertyMappings.get('link.invalid.remove'));
-        System.assertEquals('linkInvalidSuffix', propertyMappings.get('link.invalid.suffix'));
-        System.assertEquals('linkPredatedPrefix', propertyMappings.get('link.predated.prefix'));
-        System.assertEquals('linkPredatedRemove', propertyMappings.get('link.predated.remove'));
-        System.assertEquals('linkPredatedSuffix', propertyMappings.get('link.predated.suffix'));
-        System.assertEquals('linkWcmmodes', propertyMappings.get('link.wcmmodes'));
+        Map<String, String> x-property-mappings = comDayCqWcmCoreImplLinkCheckerConfigurationFactoryImplProperties.getx-property-mappings();
+        System.assertEquals('linkExpiredPrefix', x-property-mappings.get('link.expired.prefix'));
+        System.assertEquals('linkExpiredRemove', x-property-mappings.get('link.expired.remove'));
+        System.assertEquals('linkExpiredSuffix', x-property-mappings.get('link.expired.suffix'));
+        System.assertEquals('linkInvalidPrefix', x-property-mappings.get('link.invalid.prefix'));
+        System.assertEquals('linkInvalidRemove', x-property-mappings.get('link.invalid.remove'));
+        System.assertEquals('linkInvalidSuffix', x-property-mappings.get('link.invalid.suffix'));
+        System.assertEquals('linkPredatedPrefix', x-property-mappings.get('link.predated.prefix'));
+        System.assertEquals('linkPredatedRemove', x-property-mappings.get('link.predated.remove'));
+        System.assertEquals('linkPredatedSuffix', x-property-mappings.get('link.predated.suffix'));
+        System.assertEquals('linkWcmmodes', x-property-mappings.get('link.wcmmodes'));
     }
 }

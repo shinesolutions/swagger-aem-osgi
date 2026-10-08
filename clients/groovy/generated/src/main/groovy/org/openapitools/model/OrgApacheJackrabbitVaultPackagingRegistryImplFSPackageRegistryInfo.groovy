@@ -7,12 +7,12 @@ import org.openapitools.model.OrgApacheJackrabbitVaultPackagingRegistryImplFSPac
 
 @Canonical
 class OrgApacheJackrabbitVaultPackagingRegistryImplFSPackageRegistryInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheJackrabbitVaultPackagingRegistryImplFSPackageRegistryProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheJackrabbitVaultPackagingRegistryImplFSPackageRegistryProperties properties
 }

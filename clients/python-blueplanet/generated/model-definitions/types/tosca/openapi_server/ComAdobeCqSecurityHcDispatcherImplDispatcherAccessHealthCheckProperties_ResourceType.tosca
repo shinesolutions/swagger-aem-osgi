@@ -1,0 +1,52 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheckProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheckProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheckProperties {
+    title = ComAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheckProperties
+    description = ComAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheckProperties
+    derivedFrom = Root
+    properties {
+        hc_tags {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        dispatcher_address {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        dispatcher_filter_allowed {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        dispatcher_filter_blocked {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheckProperties {
+    title = ComAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheckProperties
+    description = ComAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheckProperties
+    implements = openapi_server.resourceTypes.ComAdobeCqSecurityHcDispatcherImplDispatcherAccessHealthCheckProperties
+
+  }
+}

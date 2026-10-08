@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqRewriterLinkcheckerImplLinkCheckerTaskProp
 
 @Canonical
 class ComDayCqRewriterLinkcheckerImplLinkCheckerTaskInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqRewriterLinkcheckerImplLinkCheckerTaskProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqRewriterLinkcheckerImplLinkCheckerTaskProperties properties
 }

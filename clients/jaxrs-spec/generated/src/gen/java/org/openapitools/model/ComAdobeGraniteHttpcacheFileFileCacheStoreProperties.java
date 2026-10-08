@@ -1,19 +1,30 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comAdobeGraniteHttpcacheFileFileCacheStoreProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteHttpcacheFileFileCacheStoreProperties   {
-  
-  private @Valid ConfigNodePropertyString comAdobeGraniteHttpcacheFileDocumentRoot = null;
-  private @Valid ConfigNodePropertyString comAdobeGraniteHttpcacheFileIncludeHost = null;
+  private ConfigNodePropertyString comAdobeGraniteHttpcacheFileDocumentRoot;
+  private ConfigNodePropertyString comAdobeGraniteHttpcacheFileIncludeHost;
+
+  public ComAdobeGraniteHttpcacheFileFileCacheStoreProperties() {
+  }
 
   /**
    **/
@@ -25,9 +36,11 @@ public class ComAdobeGraniteHttpcacheFileFileCacheStoreProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.granite.httpcache.file.documentRoot")
-  public ConfigNodePropertyString getComAdobeGraniteHttpcacheFileDocumentRoot() {
+  @Valid public ConfigNodePropertyString getComAdobeGraniteHttpcacheFileDocumentRoot() {
     return comAdobeGraniteHttpcacheFileDocumentRoot;
   }
+
+  @JsonProperty("com.adobe.granite.httpcache.file.documentRoot")
   public void setComAdobeGraniteHttpcacheFileDocumentRoot(ConfigNodePropertyString comAdobeGraniteHttpcacheFileDocumentRoot) {
     this.comAdobeGraniteHttpcacheFileDocumentRoot = comAdobeGraniteHttpcacheFileDocumentRoot;
   }
@@ -42,16 +55,18 @@ public class ComAdobeGraniteHttpcacheFileFileCacheStoreProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("com.adobe.granite.httpcache.file.includeHost")
-  public ConfigNodePropertyString getComAdobeGraniteHttpcacheFileIncludeHost() {
+  @Valid public ConfigNodePropertyString getComAdobeGraniteHttpcacheFileIncludeHost() {
     return comAdobeGraniteHttpcacheFileIncludeHost;
   }
+
+  @JsonProperty("com.adobe.granite.httpcache.file.includeHost")
   public void setComAdobeGraniteHttpcacheFileIncludeHost(ConfigNodePropertyString comAdobeGraniteHttpcacheFileIncludeHost) {
     this.comAdobeGraniteHttpcacheFileIncludeHost = comAdobeGraniteHttpcacheFileIncludeHost;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -59,8 +74,8 @@ public class ComAdobeGraniteHttpcacheFileFileCacheStoreProperties   {
       return false;
     }
     ComAdobeGraniteHttpcacheFileFileCacheStoreProperties comAdobeGraniteHttpcacheFileFileCacheStoreProperties = (ComAdobeGraniteHttpcacheFileFileCacheStoreProperties) o;
-    return Objects.equals(comAdobeGraniteHttpcacheFileDocumentRoot, comAdobeGraniteHttpcacheFileFileCacheStoreProperties.comAdobeGraniteHttpcacheFileDocumentRoot) &&
-        Objects.equals(comAdobeGraniteHttpcacheFileIncludeHost, comAdobeGraniteHttpcacheFileFileCacheStoreProperties.comAdobeGraniteHttpcacheFileIncludeHost);
+    return Objects.equals(this.comAdobeGraniteHttpcacheFileDocumentRoot, comAdobeGraniteHttpcacheFileFileCacheStoreProperties.comAdobeGraniteHttpcacheFileDocumentRoot) &&
+        Objects.equals(this.comAdobeGraniteHttpcacheFileIncludeHost, comAdobeGraniteHttpcacheFileFileCacheStoreProperties.comAdobeGraniteHttpcacheFileIncludeHost);
   }
 
   @Override
@@ -83,11 +98,9 @@ public class ComAdobeGraniteHttpcacheFileFileCacheStoreProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

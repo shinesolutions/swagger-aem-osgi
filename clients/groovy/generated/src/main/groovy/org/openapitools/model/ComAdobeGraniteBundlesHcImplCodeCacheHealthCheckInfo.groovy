@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeGraniteBundlesHcImplCodeCacheHealthCheckPr
 
 @Canonical
 class ComAdobeGraniteBundlesHcImplCodeCacheHealthCheckInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteBundlesHcImplCodeCacheHealthCheckProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteBundlesHcImplCodeCacheHealthCheckProperties properties
 }

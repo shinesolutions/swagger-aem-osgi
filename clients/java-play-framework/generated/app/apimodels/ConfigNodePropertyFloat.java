@@ -1,35 +1,43 @@
 package apimodels;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import java.math.BigDecimal;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * ConfigNodePropertyFloat
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class ConfigNodePropertyFloat   {
   @JsonProperty("name")
-  private String name = null;
+  
+  private String name;
 
   @JsonProperty("optional")
-  private Boolean optional = null;
+  
+  private Boolean optional;
 
   @JsonProperty("is_set")
-  private Boolean isSet = null;
+  
+  private Boolean isSet;
 
   @JsonProperty("type")
-  private Integer type = null;
+  
+  private Integer type;
 
   @JsonProperty("value")
-  private BigDecimal value = null;
+  @Valid
+
+  private BigDecimal value;
 
   @JsonProperty("description")
-  private String description = null;
+  
+  private String description;
 
   public ConfigNodePropertyFloat name(String name) {
     this.name = name;
@@ -40,7 +48,7 @@ public class ConfigNodePropertyFloat   {
    * property name
    * @return name
   **/
-    public String getName() {
+  public String getName() {
     return name;
   }
 
@@ -57,7 +65,7 @@ public class ConfigNodePropertyFloat   {
    * True if optional
    * @return optional
   **/
-    public Boolean getOptional() {
+  public Boolean getOptional() {
     return optional;
   }
 
@@ -74,7 +82,7 @@ public class ConfigNodePropertyFloat   {
    * True if property is set
    * @return isSet
   **/
-    public Boolean getIsSet() {
+  public Boolean getIsSet() {
     return isSet;
   }
 
@@ -91,7 +99,7 @@ public class ConfigNodePropertyFloat   {
    * Property type, 1=String, 2=Long, 3=Integer, 7=Float, 11=Boolean, 12=Secrets(String)
    * @return type
   **/
-    public Integer getType() {
+  public Integer getType() {
     return type;
   }
 
@@ -108,7 +116,6 @@ public class ConfigNodePropertyFloat   {
    * Property value
    * @return value
   **/
-  @Valid
   public BigDecimal getValue() {
     return value;
   }
@@ -126,7 +133,7 @@ public class ConfigNodePropertyFloat   {
    * Property description
    * @return description
   **/
-    public String getDescription() {
+  public String getDescription() {
     return description;
   }
 
@@ -136,7 +143,7 @@ public class ConfigNodePropertyFloat   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -177,11 +184,8 @@ public class ConfigNodePropertyFloat   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

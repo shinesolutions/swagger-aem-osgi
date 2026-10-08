@@ -1,7 +1,9 @@
 
+
 # ComDayCqWcmFoundationFormsImplFormChooserServletProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **serviceName** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
@@ -9,6 +11,7 @@ Name | Type | Description | Notes
 **slingServletSelectors** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
 **slingServletMethods** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
 **formsFormchooserservletAdvansesearchRequire** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
+
 
 
 

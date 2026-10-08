@@ -1,0 +1,41 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheSlingCaconfigManagementImplConfigurationManagementSettiProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheSlingCaconfigManagementImplConfigurationManagementSettiProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+}
+resourceTypes {
+
+  OrgApacheSlingCaconfigManagementImplConfigurationManagementSettiProperties {
+    title = OrgApacheSlingCaconfigManagementImplConfigurationManagementSettiProperties
+    description = OrgApacheSlingCaconfigManagementImplConfigurationManagementSettiProperties
+    derivedFrom = Root
+    properties {
+        ignore_property_name_regex {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        config_collection_properties_resource_names {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheSlingCaconfigManagementImplConfigurationManagementSettiProperties {
+    title = OrgApacheSlingCaconfigManagementImplConfigurationManagementSettiProperties
+    description = OrgApacheSlingCaconfigManagementImplConfigurationManagementSettiProperties
+    implements = openapi_server.resourceTypes.OrgApacheSlingCaconfigManagementImplConfigurationManagementSettiProperties
+
+  }
+}

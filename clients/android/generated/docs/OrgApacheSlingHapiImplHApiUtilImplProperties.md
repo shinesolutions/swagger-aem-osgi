@@ -1,7 +1,9 @@
 
+
 # OrgApacheSlingHapiImplHApiUtilImplProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **orgApacheSlingHapiToolsResourcetype** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
@@ -9,6 +11,7 @@ Name | Type | Description | Notes
 **orgApacheSlingHapiToolsSearchpaths** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
 **orgApacheSlingHapiToolsExternalurl** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
 **orgApacheSlingHapiToolsEnabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
+
 
 
 

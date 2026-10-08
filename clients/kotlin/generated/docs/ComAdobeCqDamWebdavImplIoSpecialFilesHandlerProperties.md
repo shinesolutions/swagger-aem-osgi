@@ -2,9 +2,9 @@
 # ComAdobeCqDamWebdavImplIoSpecialFilesHandlerProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**comPerioddayPeriodcqPerioddamPeriodcorePeriodimplPeriodioPeriodSpecialFilesHandlerPeriodfilepatters** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **comDayCqDamCoreImplIoSpecialFilesHandlerFilepatters** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
 
 
 

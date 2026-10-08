@@ -72,7 +72,7 @@ private class OASComAdobeGraniteMaintenanceCrxImplTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeGraniteMaintenanceCrxImpl comAdobeGraniteMaintenanceCrxImplRevisionCleanupTaskProperties = new OASComAdobeGraniteMaintenanceCrxImpl();
-        Map<String, String> propertyMappings = comAdobeGraniteMaintenanceCrxImplRevisionCleanupTaskProperties.getPropertyMappings();
-        System.assertEquals('fullGcDays', propertyMappings.get('full.gc.days'));
+        Map<String, String> x-property-mappings = comAdobeGraniteMaintenanceCrxImplRevisionCleanupTaskProperties.getx-property-mappings();
+        System.assertEquals('fullGcDays', x-property-mappings.get('full.gc.days'));
     }
 }

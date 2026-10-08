@@ -72,7 +72,7 @@ private class OASComDayCqDamCoreImplServletGuidLooTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqDamCoreImplServletGuidLoo comDayCqDamCoreImplServletGuidLookupFilterProperties = new OASComDayCqDamCoreImplServletGuidLoo();
-        Map<String, String> propertyMappings = comDayCqDamCoreImplServletGuidLookupFilterProperties.getPropertyMappings();
-        System.assertEquals('cqDamCoreGuidlookupfilterEnabled', propertyMappings.get('cq.dam.core.guidlookupfilter.enabled'));
+        Map<String, String> x-property-mappings = comDayCqDamCoreImplServletGuidLookupFilterProperties.getx-property-mappings();
+        System.assertEquals('cqDamCoreGuidlookupfilterEnabled', x-property-mappings.get('cq.dam.core.guidlookupfilter.enabled'));
     }
 }

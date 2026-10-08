@@ -72,8 +72,8 @@ private class OASComDayCqDamCoreProcessExtractMetaTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqDamCoreProcessExtractMeta comDayCqDamCoreProcessExtractMetadataProcessProperties = new OASComDayCqDamCoreProcessExtractMeta();
-        Map<String, String> propertyMappings = comDayCqDamCoreProcessExtractMetadataProcessProperties.getPropertyMappings();
-        System.assertEquals('processLabel', propertyMappings.get('process.label'));
-        System.assertEquals('cqDamEnableSha1', propertyMappings.get('cq.dam.enable.sha1'));
+        Map<String, String> x-property-mappings = comDayCqDamCoreProcessExtractMetadataProcessProperties.getx-property-mappings();
+        System.assertEquals('processLabel', x-property-mappings.get('process.label'));
+        System.assertEquals('cqDamEnableSha1', x-property-mappings.get('cq.dam.enable.sha1'));
     }
 }

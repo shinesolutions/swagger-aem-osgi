@@ -1,7 +1,9 @@
 
+
 # ComAdobeGraniteWorkflowCoreWorkflowSessionFactoryProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **graniteWorkflowinboxSortPropertyName** | [**ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md) |  |  [optional]
@@ -15,6 +17,7 @@ Name | Type | Description | Notes
 **graniteWorkflowInjectTenantIdInJobTopics** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
 **graniteWorkflowMaxPurgeSaveThreshold** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
 **graniteWorkflowMaxPurgeQueryCount** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
+
 
 
 

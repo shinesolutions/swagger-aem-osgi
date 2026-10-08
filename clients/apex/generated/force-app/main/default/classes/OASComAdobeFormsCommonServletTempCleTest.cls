@@ -72,9 +72,9 @@ private class OASComAdobeFormsCommonServletTempCleTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeFormsCommonServletTempCle comAdobeFormsCommonServletTempCleanUpTaskProperties = new OASComAdobeFormsCommonServletTempCle();
-        Map<String, String> propertyMappings = comAdobeFormsCommonServletTempCleanUpTaskProperties.getPropertyMappings();
-        System.assertEquals('schedulerExpression', propertyMappings.get('scheduler.expression'));
-        System.assertEquals('durationForTemporaryStorage', propertyMappings.get('Duration for Temporary Storage'));
-        System.assertEquals('durationForAnonymousStorage', propertyMappings.get('Duration for Anonymous Storage'));
+        Map<String, String> x-property-mappings = comAdobeFormsCommonServletTempCleanUpTaskProperties.getx-property-mappings();
+        System.assertEquals('schedulerExpression', x-property-mappings.get('scheduler.expression'));
+        System.assertEquals('durationForTemporaryStorage', x-property-mappings.get('Duration for Temporary Storage'));
+        System.assertEquals('durationForAnonymousStorage', x-property-mappings.get('Duration for Anonymous Storage'));
     }
 }

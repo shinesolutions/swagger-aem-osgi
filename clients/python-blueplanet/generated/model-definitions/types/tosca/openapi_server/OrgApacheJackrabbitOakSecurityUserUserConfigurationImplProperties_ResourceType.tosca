@@ -1,0 +1,114 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyDropDown = openapi_server.resourceTypes.ConfigNodePropertyDropDown
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties {
+    title = OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties
+    description = OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties
+    derivedFrom = Root
+    properties {
+        users_path {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        groups_path {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        system_relative_path {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        default_depth {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        import_behavior {
+          type = ConfigNodePropertyDropDown
+          description = ""
+          optional = false
+        }
+        password_hash_algorithm {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        password_hash_iterations {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        password_salt_size {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        omit_admin_pw {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        support_auto_save {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        password_max_age {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        initial_password_change {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        password_history_size {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        password_expiry_for_admin {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        cache_expiration {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        enable_rfc7613_usercase_mapped_profile {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties {
+    title = OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties
+    description = OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties
+    implements = openapi_server.resourceTypes.OrgApacheJackrabbitOakSecurityUserUserConfigurationImplProperties
+
+  }
+}

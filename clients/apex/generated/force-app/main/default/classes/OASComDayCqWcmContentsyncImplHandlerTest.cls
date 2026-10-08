@@ -72,7 +72,7 @@ private class OASComDayCqWcmContentsyncImplHandlerTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqWcmContentsyncImplHandler comDayCqWcmContentsyncImplHandlerPagesUpdateHandlerProperties = new OASComDayCqWcmContentsyncImplHandler();
-        Map<String, String> propertyMappings = comDayCqWcmContentsyncImplHandlerPagesUpdateHandlerProperties.getPropertyMappings();
-        System.assertEquals('cqPagesupdatehandlerImageresourcetypes', propertyMappings.get('cq.pagesupdatehandler.imageresourcetypes'));
+        Map<String, String> x-property-mappings = comDayCqWcmContentsyncImplHandlerPagesUpdateHandlerProperties.getx-property-mappings();
+        System.assertEquals('cqPagesupdatehandlerImageresourcetypes', x-property-mappings.get('cq.pagesupdatehandler.imageresourcetypes'));
     }
 }

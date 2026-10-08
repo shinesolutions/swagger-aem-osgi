@@ -8,8 +8,8 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class ComAdobeGraniteBundlesHcImplCodeCacheHealthCheckProperties {
-    ConfigNodePropertyArray hcTags = null
-
-    ConfigNodePropertyInteger minimumCodeCacheSize = null
-
+    
+    ConfigNodePropertyArray hcTags
+    
+    ConfigNodePropertyInteger minimumCodeCacheSize
 }

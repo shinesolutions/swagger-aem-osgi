@@ -2,15 +2,15 @@
 # ComDayCommonsHttpclientProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**proxyPeriodenabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**proxyPeriodhost** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**proxyPerioduser** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**proxyPeriodpassword** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**proxyPeriodntlmPeriodhost** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**proxyPeriodntlmPerioddomain** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**proxyPeriodexceptions** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **proxyEnabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **proxyHost** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **proxyUser** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **proxyPassword** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **proxyNtlmHost** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **proxyNtlmDomain** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **proxyExceptions** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
 
 
 

@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqSocialSyncImplPublisherSyncServiceImplPr
 
 @Canonical
 class ComAdobeCqSocialSyncImplPublisherSyncServiceImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqSocialSyncImplPublisherSyncServiceImplProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqSocialSyncImplPublisherSyncServiceImplProperties properties
 }

@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyArray;
 import com.prokarma.pkmst.model.ConfigNodePropertyString;
 import io.swagger.annotations.ApiModel;
@@ -16,36 +17,35 @@ import io.swagger.annotations.ApiModelProperty;
  * OrgApacheSlingHcCoreImplJmxAttributeHealthCheckProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingHcCoreImplJmxAttributeHealthCheckProperties   {
   @JsonProperty("hc.name")
-  private ConfigNodePropertyString hcName = null;
+  private ConfigNodePropertyString hcName;
 
   @JsonProperty("hc.tags")
-  private ConfigNodePropertyArray hcTags = null;
+  private ConfigNodePropertyArray hcTags;
 
   @JsonProperty("hc.mbean.name")
-  private ConfigNodePropertyString hcMbeanName = null;
+  private ConfigNodePropertyString hcMbeanName;
 
   @JsonProperty("mbean.name")
-  private ConfigNodePropertyString mbeanName = null;
+  private ConfigNodePropertyString mbeanName;
 
   @JsonProperty("attribute.name")
-  private ConfigNodePropertyString attributeName = null;
+  private ConfigNodePropertyString attributeName;
 
   @JsonProperty("attribute.value.constraint")
-  private ConfigNodePropertyString attributeValueConstraint = null;
+  private ConfigNodePropertyString attributeValueConstraint;
 
   public OrgApacheSlingHcCoreImplJmxAttributeHealthCheckProperties hcName(ConfigNodePropertyString hcName) {
     this.hcName = hcName;
     return this;
   }
 
-   /**
+  /**
    * Get hcName
    * @return hcName
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getHcName() {
     return hcName;
@@ -60,10 +60,10 @@ public class OrgApacheSlingHcCoreImplJmxAttributeHealthCheckProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get hcTags
    * @return hcTags
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getHcTags() {
     return hcTags;
@@ -78,10 +78,10 @@ public class OrgApacheSlingHcCoreImplJmxAttributeHealthCheckProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get hcMbeanName
    * @return hcMbeanName
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getHcMbeanName() {
     return hcMbeanName;
@@ -96,10 +96,10 @@ public class OrgApacheSlingHcCoreImplJmxAttributeHealthCheckProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get mbeanName
    * @return mbeanName
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getMbeanName() {
     return mbeanName;
@@ -114,10 +114,10 @@ public class OrgApacheSlingHcCoreImplJmxAttributeHealthCheckProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get attributeName
    * @return attributeName
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getAttributeName() {
     return attributeName;
@@ -132,10 +132,10 @@ public class OrgApacheSlingHcCoreImplJmxAttributeHealthCheckProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get attributeValueConstraint
    * @return attributeValueConstraint
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getAttributeValueConstraint() {
     return attributeValueConstraint;
@@ -147,7 +147,7 @@ public class OrgApacheSlingHcCoreImplJmxAttributeHealthCheckProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -187,11 +187,8 @@ public class OrgApacheSlingHcCoreImplJmxAttributeHealthCheckProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

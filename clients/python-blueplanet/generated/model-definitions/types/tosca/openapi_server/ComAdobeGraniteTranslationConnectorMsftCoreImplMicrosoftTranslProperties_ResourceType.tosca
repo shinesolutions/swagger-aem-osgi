@@ -1,0 +1,77 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslProperties {
+    title = ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslProperties
+    description = ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslProperties
+    derivedFrom = Root
+    properties {
+        translation_factory {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        default_connector_label {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        default_connector_attribution {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        default_connector_workspace_id {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        default_connector_subscription_key {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        language_map_location {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        category_map_location {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        retry_attempts {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        timeout_count {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslProperties {
+    title = ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslProperties
+    description = ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslProperties
+    implements = openapi_server.resourceTypes.ComAdobeGraniteTranslationConnectorMsftCoreImplMicrosoftTranslProperties
+
+  }
+}

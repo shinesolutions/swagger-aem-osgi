@@ -1,0 +1,36 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+}
+resourceTypes {
+
+  ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouProperties {
+    title = ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouProperties
+    description = ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouProperties
+    derivedFrom = Root
+    properties {
+        field_whitelist {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouProperties {
+    title = ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouProperties
+    description = ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouProperties
+    implements = openapi_server.resourceTypes.ComAdobeCqSocialEnablementResourceEndpointsImplEnablementResouProperties
+
+  }
+}

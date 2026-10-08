@@ -2,24 +2,24 @@
 # ComAdobeGraniteAuthOauthProviderProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**oauthPeriodconfigPeriodid** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**oauthPeriodclientPeriodid** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**oauthPeriodclientPeriodsecret** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**oauthPeriodscope** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**oauthPeriodconfigPeriodproviderPeriodid** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**oauthPeriodcreatePeriodusers** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**oauthPerioduseridPeriodproperty** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**forcePeriodstrictPeriodusernamePeriodmatching** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**oauthPeriodencodePerioduserids** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**oauthPeriodhashPerioduserids** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**oauthPeriodcallBackUrl** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**oauthPeriodaccessPeriodtokenPeriodpersist** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**oauthPeriodaccessPeriodtokenPeriodpersistPeriodcookie** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**oauthPeriodcsrfPeriodstatePeriodprotection** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**oauthPeriodredirectPeriodrequestPeriodparams** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**oauthPeriodconfigPeriodsiblingsPeriodallow** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **oauthConfigId** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **oauthClientId** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **oauthClientSecret** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **oauthScope** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **oauthConfigProviderId** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **oauthCreateUsers** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **oauthUseridProperty** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **forceStrictUsernameMatching** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **oauthEncodeUserids** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **oauthHashUserids** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **oauthCallBackUrl** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **oauthAccessTokenPersist** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **oauthAccessTokenPersistCookie** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **oauthCsrfStateProtection** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **oauthRedirectRequestParams** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **oauthConfigSiblingsAllow** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
 
 
 

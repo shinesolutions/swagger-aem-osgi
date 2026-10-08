@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyArray;
 import com.prokarma.pkmst.model.ConfigNodePropertyBoolean;
 import com.prokarma.pkmst.model.ConfigNodePropertyDropDown;
@@ -19,105 +20,104 @@ import io.swagger.annotations.ApiModelProperty;
  * OrgApacheSlingDatasourceDataSourceFactoryProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingDatasourceDataSourceFactoryProperties   {
   @JsonProperty("datasource.name")
-  private ConfigNodePropertyString datasourceName = null;
+  private ConfigNodePropertyString datasourceName;
 
   @JsonProperty("datasource.svc.prop.name")
-  private ConfigNodePropertyString datasourceSvcPropName = null;
+  private ConfigNodePropertyString datasourceSvcPropName;
 
   @JsonProperty("driverClassName")
-  private ConfigNodePropertyString driverClassName = null;
+  private ConfigNodePropertyString driverClassName;
 
   @JsonProperty("url")
-  private ConfigNodePropertyString url = null;
+  private ConfigNodePropertyString url;
 
   @JsonProperty("username")
-  private ConfigNodePropertyString username = null;
+  private ConfigNodePropertyString username;
 
   @JsonProperty("password")
-  private ConfigNodePropertyString password = null;
+  private ConfigNodePropertyString password;
 
   @JsonProperty("defaultAutoCommit")
-  private ConfigNodePropertyDropDown defaultAutoCommit = null;
+  private ConfigNodePropertyDropDown defaultAutoCommit;
 
   @JsonProperty("defaultReadOnly")
-  private ConfigNodePropertyDropDown defaultReadOnly = null;
+  private ConfigNodePropertyDropDown defaultReadOnly;
 
   @JsonProperty("defaultTransactionIsolation")
-  private ConfigNodePropertyDropDown defaultTransactionIsolation = null;
+  private ConfigNodePropertyDropDown defaultTransactionIsolation;
 
   @JsonProperty("defaultCatalog")
-  private ConfigNodePropertyString defaultCatalog = null;
+  private ConfigNodePropertyString defaultCatalog;
 
   @JsonProperty("maxActive")
-  private ConfigNodePropertyInteger maxActive = null;
+  private ConfigNodePropertyInteger maxActive;
 
   @JsonProperty("maxIdle")
-  private ConfigNodePropertyInteger maxIdle = null;
+  private ConfigNodePropertyInteger maxIdle;
 
   @JsonProperty("minIdle")
-  private ConfigNodePropertyInteger minIdle = null;
+  private ConfigNodePropertyInteger minIdle;
 
   @JsonProperty("initialSize")
-  private ConfigNodePropertyInteger initialSize = null;
+  private ConfigNodePropertyInteger initialSize;
 
   @JsonProperty("maxWait")
-  private ConfigNodePropertyInteger maxWait = null;
+  private ConfigNodePropertyInteger maxWait;
 
   @JsonProperty("maxAge")
-  private ConfigNodePropertyInteger maxAge = null;
+  private ConfigNodePropertyInteger maxAge;
 
   @JsonProperty("testOnBorrow")
-  private ConfigNodePropertyBoolean testOnBorrow = null;
+  private ConfigNodePropertyBoolean testOnBorrow;
 
   @JsonProperty("testOnReturn")
-  private ConfigNodePropertyBoolean testOnReturn = null;
+  private ConfigNodePropertyBoolean testOnReturn;
 
   @JsonProperty("testWhileIdle")
-  private ConfigNodePropertyBoolean testWhileIdle = null;
+  private ConfigNodePropertyBoolean testWhileIdle;
 
   @JsonProperty("validationQuery")
-  private ConfigNodePropertyString validationQuery = null;
+  private ConfigNodePropertyString validationQuery;
 
   @JsonProperty("validationQueryTimeout")
-  private ConfigNodePropertyInteger validationQueryTimeout = null;
+  private ConfigNodePropertyInteger validationQueryTimeout;
 
   @JsonProperty("timeBetweenEvictionRunsMillis")
-  private ConfigNodePropertyInteger timeBetweenEvictionRunsMillis = null;
+  private ConfigNodePropertyInteger timeBetweenEvictionRunsMillis;
 
   @JsonProperty("minEvictableIdleTimeMillis")
-  private ConfigNodePropertyInteger minEvictableIdleTimeMillis = null;
+  private ConfigNodePropertyInteger minEvictableIdleTimeMillis;
 
   @JsonProperty("connectionProperties")
-  private ConfigNodePropertyString connectionProperties = null;
+  private ConfigNodePropertyString connectionProperties;
 
   @JsonProperty("initSQL")
-  private ConfigNodePropertyString initSQL = null;
+  private ConfigNodePropertyString initSQL;
 
   @JsonProperty("jdbcInterceptors")
-  private ConfigNodePropertyString jdbcInterceptors = null;
+  private ConfigNodePropertyString jdbcInterceptors;
 
   @JsonProperty("validationInterval")
-  private ConfigNodePropertyInteger validationInterval = null;
+  private ConfigNodePropertyInteger validationInterval;
 
   @JsonProperty("logValidationErrors")
-  private ConfigNodePropertyBoolean logValidationErrors = null;
+  private ConfigNodePropertyBoolean logValidationErrors;
 
   @JsonProperty("datasource.svc.properties")
-  private ConfigNodePropertyArray datasourceSvcProperties = null;
+  private ConfigNodePropertyArray datasourceSvcProperties;
 
   public OrgApacheSlingDatasourceDataSourceFactoryProperties datasourceName(ConfigNodePropertyString datasourceName) {
     this.datasourceName = datasourceName;
     return this;
   }
 
-   /**
+  /**
    * Get datasourceName
    * @return datasourceName
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getDatasourceName() {
     return datasourceName;
@@ -132,10 +132,10 @@ public class OrgApacheSlingDatasourceDataSourceFactoryProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get datasourceSvcPropName
    * @return datasourceSvcPropName
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getDatasourceSvcPropName() {
     return datasourceSvcPropName;
@@ -150,10 +150,10 @@ public class OrgApacheSlingDatasourceDataSourceFactoryProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get driverClassName
    * @return driverClassName
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getDriverClassName() {
     return driverClassName;
@@ -168,10 +168,10 @@ public class OrgApacheSlingDatasourceDataSourceFactoryProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get url
    * @return url
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getUrl() {
     return url;
@@ -186,10 +186,10 @@ public class OrgApacheSlingDatasourceDataSourceFactoryProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get username
    * @return username
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getUsername() {
     return username;
@@ -204,10 +204,10 @@ public class OrgApacheSlingDatasourceDataSourceFactoryProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get password
    * @return password
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getPassword() {
     return password;
@@ -222,10 +222,10 @@ public class OrgApacheSlingDatasourceDataSourceFactoryProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get defaultAutoCommit
    * @return defaultAutoCommit
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyDropDown getDefaultAutoCommit() {
     return defaultAutoCommit;
@@ -240,10 +240,10 @@ public class OrgApacheSlingDatasourceDataSourceFactoryProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get defaultReadOnly
    * @return defaultReadOnly
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyDropDown getDefaultReadOnly() {
     return defaultReadOnly;
@@ -258,10 +258,10 @@ public class OrgApacheSlingDatasourceDataSourceFactoryProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get defaultTransactionIsolation
    * @return defaultTransactionIsolation
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyDropDown getDefaultTransactionIsolation() {
     return defaultTransactionIsolation;
@@ -276,10 +276,10 @@ public class OrgApacheSlingDatasourceDataSourceFactoryProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get defaultCatalog
    * @return defaultCatalog
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getDefaultCatalog() {
     return defaultCatalog;
@@ -294,10 +294,10 @@ public class OrgApacheSlingDatasourceDataSourceFactoryProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get maxActive
    * @return maxActive
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getMaxActive() {
     return maxActive;
@@ -312,10 +312,10 @@ public class OrgApacheSlingDatasourceDataSourceFactoryProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get maxIdle
    * @return maxIdle
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getMaxIdle() {
     return maxIdle;
@@ -330,10 +330,10 @@ public class OrgApacheSlingDatasourceDataSourceFactoryProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get minIdle
    * @return minIdle
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getMinIdle() {
     return minIdle;
@@ -348,10 +348,10 @@ public class OrgApacheSlingDatasourceDataSourceFactoryProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get initialSize
    * @return initialSize
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getInitialSize() {
     return initialSize;
@@ -366,10 +366,10 @@ public class OrgApacheSlingDatasourceDataSourceFactoryProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get maxWait
    * @return maxWait
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getMaxWait() {
     return maxWait;
@@ -384,10 +384,10 @@ public class OrgApacheSlingDatasourceDataSourceFactoryProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get maxAge
    * @return maxAge
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getMaxAge() {
     return maxAge;
@@ -402,10 +402,10 @@ public class OrgApacheSlingDatasourceDataSourceFactoryProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get testOnBorrow
    * @return testOnBorrow
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getTestOnBorrow() {
     return testOnBorrow;
@@ -420,10 +420,10 @@ public class OrgApacheSlingDatasourceDataSourceFactoryProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get testOnReturn
    * @return testOnReturn
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getTestOnReturn() {
     return testOnReturn;
@@ -438,10 +438,10 @@ public class OrgApacheSlingDatasourceDataSourceFactoryProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get testWhileIdle
    * @return testWhileIdle
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getTestWhileIdle() {
     return testWhileIdle;
@@ -456,10 +456,10 @@ public class OrgApacheSlingDatasourceDataSourceFactoryProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get validationQuery
    * @return validationQuery
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getValidationQuery() {
     return validationQuery;
@@ -474,10 +474,10 @@ public class OrgApacheSlingDatasourceDataSourceFactoryProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get validationQueryTimeout
    * @return validationQueryTimeout
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getValidationQueryTimeout() {
     return validationQueryTimeout;
@@ -492,10 +492,10 @@ public class OrgApacheSlingDatasourceDataSourceFactoryProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get timeBetweenEvictionRunsMillis
    * @return timeBetweenEvictionRunsMillis
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getTimeBetweenEvictionRunsMillis() {
     return timeBetweenEvictionRunsMillis;
@@ -510,10 +510,10 @@ public class OrgApacheSlingDatasourceDataSourceFactoryProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get minEvictableIdleTimeMillis
    * @return minEvictableIdleTimeMillis
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getMinEvictableIdleTimeMillis() {
     return minEvictableIdleTimeMillis;
@@ -528,10 +528,10 @@ public class OrgApacheSlingDatasourceDataSourceFactoryProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get connectionProperties
    * @return connectionProperties
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getConnectionProperties() {
     return connectionProperties;
@@ -546,10 +546,10 @@ public class OrgApacheSlingDatasourceDataSourceFactoryProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get initSQL
    * @return initSQL
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getInitSQL() {
     return initSQL;
@@ -564,10 +564,10 @@ public class OrgApacheSlingDatasourceDataSourceFactoryProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get jdbcInterceptors
    * @return jdbcInterceptors
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getJdbcInterceptors() {
     return jdbcInterceptors;
@@ -582,10 +582,10 @@ public class OrgApacheSlingDatasourceDataSourceFactoryProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get validationInterval
    * @return validationInterval
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getValidationInterval() {
     return validationInterval;
@@ -600,10 +600,10 @@ public class OrgApacheSlingDatasourceDataSourceFactoryProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get logValidationErrors
    * @return logValidationErrors
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getLogValidationErrors() {
     return logValidationErrors;
@@ -618,10 +618,10 @@ public class OrgApacheSlingDatasourceDataSourceFactoryProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get datasourceSvcProperties
    * @return datasourceSvcProperties
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getDatasourceSvcProperties() {
     return datasourceSvcProperties;
@@ -633,7 +633,7 @@ public class OrgApacheSlingDatasourceDataSourceFactoryProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -719,11 +719,8 @@ public class OrgApacheSlingDatasourceDataSourceFactoryProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

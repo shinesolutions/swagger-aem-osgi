@@ -4,19 +4,22 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2019-08-05T00:59:30.156Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2026-10-07T12:54:21.614735164Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ConfigNodePropertyString   {
   
-  private String name = null;
-  private Boolean optional = null;
-  private Boolean isSet = null;
-  private Integer type = null;
-  private String value = null;
-  private String description = null;
+  private String name;
+  private Boolean optional;
+  private Boolean isSet;
+  private Integer type;
+  private String value;
+  private String description;
 
   /**
    * property name
@@ -98,7 +101,7 @@ public class ConfigNodePropertyString   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -106,12 +109,12 @@ public class ConfigNodePropertyString   {
       return false;
     }
     ConfigNodePropertyString configNodePropertyString = (ConfigNodePropertyString) o;
-    return Objects.equals(name, configNodePropertyString.name) &&
-        Objects.equals(optional, configNodePropertyString.optional) &&
-        Objects.equals(isSet, configNodePropertyString.isSet) &&
-        Objects.equals(type, configNodePropertyString.type) &&
-        Objects.equals(value, configNodePropertyString.value) &&
-        Objects.equals(description, configNodePropertyString.description);
+    return Objects.equals(this.name, configNodePropertyString.name) &&
+        Objects.equals(this.optional, configNodePropertyString.optional) &&
+        Objects.equals(this.isSet, configNodePropertyString.isSet) &&
+        Objects.equals(this.type, configNodePropertyString.type) &&
+        Objects.equals(this.value, configNodePropertyString.value) &&
+        Objects.equals(this.description, configNodePropertyString.description);
   }
 
   @Override
@@ -138,11 +141,8 @@ public class ConfigNodePropertyString   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -8,10 +8,10 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeCqSocialCommonsUgclimiterImplUGCLimiterServiceImplProperties {
-    ConfigNodePropertyString eventTopics = null
-
-    ConfigNodePropertyString eventFilter = null
-
-    ConfigNodePropertyArray verbs = null
-
+    
+    ConfigNodePropertyString eventTopics
+    
+    ConfigNodePropertyString eventFilter
+    
+    ConfigNodePropertyArray verbs
 }

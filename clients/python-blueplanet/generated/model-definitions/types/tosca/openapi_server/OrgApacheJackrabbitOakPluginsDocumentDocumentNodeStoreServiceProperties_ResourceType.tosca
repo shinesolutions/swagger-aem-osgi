@@ -1,0 +1,185 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyDropDown = openapi_server.resourceTypes.ConfigNodePropertyDropDown
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceProperties {
+    title = OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceProperties
+    description = OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceProperties
+    derivedFrom = Root
+    properties {
+        mongouri {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        db {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        socket_keep_alive {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        cache {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        node_cache_percentage {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        prev_doc_cache_percentage {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        children_cache_percentage {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        diff_cache_percentage {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        cache_segment_count {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        cache_stack_move_distance {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        blob_cache_size {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        persistent_cache {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        journal_cache {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        custom_blob_store {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        journal_gc_interval {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        journal_gc_max_age {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        prefetch_external_changes {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        role {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        version_gc_max_age_in_secs {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        version_gc_expression {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        version_gc_time_limit_in_secs {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        blob_gc_max_age_in_secs {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        blob_track_snapshot_interval_in_secs {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        repository_home {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        max_replication_lag_in_secs {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        document_store_type {
+          type = ConfigNodePropertyDropDown
+          description = ""
+          optional = false
+        }
+        bundling_disabled {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        update_limit {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        persistent_cache_includes {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        lease_check_mode {
+          type = ConfigNodePropertyDropDown
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceProperties {
+    title = OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceProperties
+    description = OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceProperties
+    implements = openapi_server.resourceTypes.OrgApacheJackrabbitOakPluginsDocumentDocumentNodeStoreServiceProperties
+
+  }
+}

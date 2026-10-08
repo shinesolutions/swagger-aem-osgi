@@ -1,27 +1,38 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComDayCqWcmCoreImplPagePageInfoAggregatorImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComDayCqWcmCoreImplPagePageInfoAggregatorImplProperties   {
-  @JsonProperty("page.info.provider.property.regex.default")
-  private ConfigNodePropertyString pageInfoProviderPropertyRegexDefault = null;
+@JsonTypeName("comDayCqWcmCoreImplPagePageInfoAggregatorImplProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComDayCqWcmCoreImplPagePageInfoAggregatorImplProperties {
 
-  @JsonProperty("page.info.provider.property.name")
-  private ConfigNodePropertyString pageInfoProviderPropertyName = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString pageInfoProviderPropertyRegexDefault;
 
-  public ComDayCqWcmCoreImplPagePageInfoAggregatorImplProperties pageInfoProviderPropertyRegexDefault(ConfigNodePropertyString pageInfoProviderPropertyRegexDefault) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString pageInfoProviderPropertyName;
+
+  public ComDayCqWcmCoreImplPagePageInfoAggregatorImplProperties pageInfoProviderPropertyRegexDefault(@Nullable ConfigNodePropertyString pageInfoProviderPropertyRegexDefault) {
     this.pageInfoProviderPropertyRegexDefault = pageInfoProviderPropertyRegexDefault;
     return this;
   }
@@ -29,20 +40,20 @@ public class ComDayCqWcmCoreImplPagePageInfoAggregatorImplProperties   {
   /**
    * Get pageInfoProviderPropertyRegexDefault
    * @return pageInfoProviderPropertyRegexDefault
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getPageInfoProviderPropertyRegexDefault() {
+   */
+  @Valid 
+  @Schema(name = "page.info.provider.property.regex.default", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("page.info.provider.property.regex.default")
+  public @Nullable ConfigNodePropertyString getPageInfoProviderPropertyRegexDefault() {
     return pageInfoProviderPropertyRegexDefault;
   }
 
-  public void setPageInfoProviderPropertyRegexDefault(ConfigNodePropertyString pageInfoProviderPropertyRegexDefault) {
+  @JsonProperty("page.info.provider.property.regex.default")
+  public void setPageInfoProviderPropertyRegexDefault(@Nullable ConfigNodePropertyString pageInfoProviderPropertyRegexDefault) {
     this.pageInfoProviderPropertyRegexDefault = pageInfoProviderPropertyRegexDefault;
   }
 
-  public ComDayCqWcmCoreImplPagePageInfoAggregatorImplProperties pageInfoProviderPropertyName(ConfigNodePropertyString pageInfoProviderPropertyName) {
+  public ComDayCqWcmCoreImplPagePageInfoAggregatorImplProperties pageInfoProviderPropertyName(@Nullable ConfigNodePropertyString pageInfoProviderPropertyName) {
     this.pageInfoProviderPropertyName = pageInfoProviderPropertyName;
     return this;
   }
@@ -50,22 +61,21 @@ public class ComDayCqWcmCoreImplPagePageInfoAggregatorImplProperties   {
   /**
    * Get pageInfoProviderPropertyName
    * @return pageInfoProviderPropertyName
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getPageInfoProviderPropertyName() {
+   */
+  @Valid 
+  @Schema(name = "page.info.provider.property.name", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("page.info.provider.property.name")
+  public @Nullable ConfigNodePropertyString getPageInfoProviderPropertyName() {
     return pageInfoProviderPropertyName;
   }
 
-  public void setPageInfoProviderPropertyName(ConfigNodePropertyString pageInfoProviderPropertyName) {
+  @JsonProperty("page.info.provider.property.name")
+  public void setPageInfoProviderPropertyName(@Nullable ConfigNodePropertyString pageInfoProviderPropertyName) {
     this.pageInfoProviderPropertyName = pageInfoProviderPropertyName;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -86,7 +96,6 @@ public class ComDayCqWcmCoreImplPagePageInfoAggregatorImplProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComDayCqWcmCoreImplPagePageInfoAggregatorImplProperties {\n");
-    
     sb.append("    pageInfoProviderPropertyRegexDefault: ").append(toIndentedString(pageInfoProviderPropertyRegexDefault)).append("\n");
     sb.append("    pageInfoProviderPropertyName: ").append(toIndentedString(pageInfoProviderPropertyName)).append("\n");
     sb.append("}");
@@ -97,11 +106,8 @@ public class ComDayCqWcmCoreImplPagePageInfoAggregatorImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

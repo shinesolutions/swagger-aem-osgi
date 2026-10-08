@@ -1,21 +1,32 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("orgApacheSlingSecurityImplContentDispositionFilterProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingSecurityImplContentDispositionFilterProperties   {
-  
-  private @Valid ConfigNodePropertyArray slingContentDispositionPaths = null;
-  private @Valid ConfigNodePropertyArray slingContentDispositionExcludedPaths = null;
-  private @Valid ConfigNodePropertyBoolean slingContentDispositionAllPaths = null;
+  private ConfigNodePropertyArray slingContentDispositionPaths;
+  private ConfigNodePropertyArray slingContentDispositionExcludedPaths;
+  private ConfigNodePropertyBoolean slingContentDispositionAllPaths;
+
+  public OrgApacheSlingSecurityImplContentDispositionFilterProperties() {
+  }
 
   /**
    **/
@@ -27,9 +38,11 @@ public class OrgApacheSlingSecurityImplContentDispositionFilterProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("sling.content.disposition.paths")
-  public ConfigNodePropertyArray getSlingContentDispositionPaths() {
+  @Valid public ConfigNodePropertyArray getSlingContentDispositionPaths() {
     return slingContentDispositionPaths;
   }
+
+  @JsonProperty("sling.content.disposition.paths")
   public void setSlingContentDispositionPaths(ConfigNodePropertyArray slingContentDispositionPaths) {
     this.slingContentDispositionPaths = slingContentDispositionPaths;
   }
@@ -44,9 +57,11 @@ public class OrgApacheSlingSecurityImplContentDispositionFilterProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("sling.content.disposition.excluded.paths")
-  public ConfigNodePropertyArray getSlingContentDispositionExcludedPaths() {
+  @Valid public ConfigNodePropertyArray getSlingContentDispositionExcludedPaths() {
     return slingContentDispositionExcludedPaths;
   }
+
+  @JsonProperty("sling.content.disposition.excluded.paths")
   public void setSlingContentDispositionExcludedPaths(ConfigNodePropertyArray slingContentDispositionExcludedPaths) {
     this.slingContentDispositionExcludedPaths = slingContentDispositionExcludedPaths;
   }
@@ -61,16 +76,18 @@ public class OrgApacheSlingSecurityImplContentDispositionFilterProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("sling.content.disposition.all.paths")
-  public ConfigNodePropertyBoolean getSlingContentDispositionAllPaths() {
+  @Valid public ConfigNodePropertyBoolean getSlingContentDispositionAllPaths() {
     return slingContentDispositionAllPaths;
   }
+
+  @JsonProperty("sling.content.disposition.all.paths")
   public void setSlingContentDispositionAllPaths(ConfigNodePropertyBoolean slingContentDispositionAllPaths) {
     this.slingContentDispositionAllPaths = slingContentDispositionAllPaths;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -78,9 +95,9 @@ public class OrgApacheSlingSecurityImplContentDispositionFilterProperties   {
       return false;
     }
     OrgApacheSlingSecurityImplContentDispositionFilterProperties orgApacheSlingSecurityImplContentDispositionFilterProperties = (OrgApacheSlingSecurityImplContentDispositionFilterProperties) o;
-    return Objects.equals(slingContentDispositionPaths, orgApacheSlingSecurityImplContentDispositionFilterProperties.slingContentDispositionPaths) &&
-        Objects.equals(slingContentDispositionExcludedPaths, orgApacheSlingSecurityImplContentDispositionFilterProperties.slingContentDispositionExcludedPaths) &&
-        Objects.equals(slingContentDispositionAllPaths, orgApacheSlingSecurityImplContentDispositionFilterProperties.slingContentDispositionAllPaths);
+    return Objects.equals(this.slingContentDispositionPaths, orgApacheSlingSecurityImplContentDispositionFilterProperties.slingContentDispositionPaths) &&
+        Objects.equals(this.slingContentDispositionExcludedPaths, orgApacheSlingSecurityImplContentDispositionFilterProperties.slingContentDispositionExcludedPaths) &&
+        Objects.equals(this.slingContentDispositionAllPaths, orgApacheSlingSecurityImplContentDispositionFilterProperties.slingContentDispositionAllPaths);
   }
 
   @Override
@@ -104,11 +121,9 @@ public class OrgApacheSlingSecurityImplContentDispositionFilterProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

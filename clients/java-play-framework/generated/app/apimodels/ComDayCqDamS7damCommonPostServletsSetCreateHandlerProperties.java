@@ -1,23 +1,28 @@
 package apimodels;
 
 import apimodels.ConfigNodePropertyString;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * ComDayCqDamS7damCommonPostServletsSetCreateHandlerProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class ComDayCqDamS7damCommonPostServletsSetCreateHandlerProperties   {
   @JsonProperty("sling.post.operation")
-  private ConfigNodePropertyString slingPostOperation = null;
+  @Valid
+
+  private ConfigNodePropertyString slingPostOperation;
 
   @JsonProperty("sling.servlet.methods")
-  private ConfigNodePropertyString slingServletMethods = null;
+  @Valid
+
+  private ConfigNodePropertyString slingServletMethods;
 
   public ComDayCqDamS7damCommonPostServletsSetCreateHandlerProperties slingPostOperation(ConfigNodePropertyString slingPostOperation) {
     this.slingPostOperation = slingPostOperation;
@@ -28,7 +33,6 @@ public class ComDayCqDamS7damCommonPostServletsSetCreateHandlerProperties   {
    * Get slingPostOperation
    * @return slingPostOperation
   **/
-  @Valid
   public ConfigNodePropertyString getSlingPostOperation() {
     return slingPostOperation;
   }
@@ -46,7 +50,6 @@ public class ComDayCqDamS7damCommonPostServletsSetCreateHandlerProperties   {
    * Get slingServletMethods
    * @return slingServletMethods
   **/
-  @Valid
   public ConfigNodePropertyString getSlingServletMethods() {
     return slingServletMethods;
   }
@@ -57,7 +60,7 @@ public class ComDayCqDamS7damCommonPostServletsSetCreateHandlerProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -90,11 +93,8 @@ public class ComDayCqDamS7damCommonPostServletsSetCreateHandlerProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

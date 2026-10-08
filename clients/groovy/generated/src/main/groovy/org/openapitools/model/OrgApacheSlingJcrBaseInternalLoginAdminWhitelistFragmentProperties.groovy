@@ -8,8 +8,8 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class OrgApacheSlingJcrBaseInternalLoginAdminWhitelistFragmentProperties {
-    ConfigNodePropertyString whitelistName = null
-
-    ConfigNodePropertyArray whitelistBundles = null
-
+    
+    ConfigNodePropertyString whitelistName
+    
+    ConfigNodePropertyArray whitelistBundles
 }

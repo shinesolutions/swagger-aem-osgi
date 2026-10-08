@@ -1,7 +1,9 @@
 
+
 # ComAdobeGraniteAuthSsoImplSsoAuthenticationHandlerProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **path** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
@@ -15,6 +17,7 @@ Name | Type | Description | Notes
 **usermap** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
 **format** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
 **trustedCredentialsAttribute** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
+
 
 
 

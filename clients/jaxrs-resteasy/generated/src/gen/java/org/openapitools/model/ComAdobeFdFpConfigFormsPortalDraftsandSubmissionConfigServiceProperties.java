@@ -4,28 +4,32 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2019-08-05T00:59:30.156Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2026-10-07T12:54:21.614735164Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServiceProperties   {
   
-  private ConfigNodePropertyArray portalOutboxes = null;
-  private ConfigNodePropertyString draftDataService = null;
-  private ConfigNodePropertyString draftMetadataService = null;
-  private ConfigNodePropertyString submitDataService = null;
-  private ConfigNodePropertyString submitMetadataService = null;
-  private ConfigNodePropertyString pendingSignDataService = null;
-  private ConfigNodePropertyString pendingSignMetadataService = null;
+  private ConfigNodePropertyArray portalOutboxes;
+  private ConfigNodePropertyString draftDataService;
+  private ConfigNodePropertyString draftMetadataService;
+  private ConfigNodePropertyString submitDataService;
+  private ConfigNodePropertyString submitMetadataService;
+  private ConfigNodePropertyString pendingSignDataService;
+  private ConfigNodePropertyString pendingSignMetadataService;
 
   /**
    **/
   
   @ApiModelProperty(value = "")
   @JsonProperty("portal.outboxes")
+  @Valid
   public ConfigNodePropertyArray getPortalOutboxes() {
     return portalOutboxes;
   }
@@ -38,6 +42,7 @@ public class ComAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServiceProper
   
   @ApiModelProperty(value = "")
   @JsonProperty("draft.data.service")
+  @Valid
   public ConfigNodePropertyString getDraftDataService() {
     return draftDataService;
   }
@@ -50,6 +55,7 @@ public class ComAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServiceProper
   
   @ApiModelProperty(value = "")
   @JsonProperty("draft.metadata.service")
+  @Valid
   public ConfigNodePropertyString getDraftMetadataService() {
     return draftMetadataService;
   }
@@ -62,6 +68,7 @@ public class ComAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServiceProper
   
   @ApiModelProperty(value = "")
   @JsonProperty("submit.data.service")
+  @Valid
   public ConfigNodePropertyString getSubmitDataService() {
     return submitDataService;
   }
@@ -74,6 +81,7 @@ public class ComAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServiceProper
   
   @ApiModelProperty(value = "")
   @JsonProperty("submit.metadata.service")
+  @Valid
   public ConfigNodePropertyString getSubmitMetadataService() {
     return submitMetadataService;
   }
@@ -86,6 +94,7 @@ public class ComAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServiceProper
   
   @ApiModelProperty(value = "")
   @JsonProperty("pendingSign.data.service")
+  @Valid
   public ConfigNodePropertyString getPendingSignDataService() {
     return pendingSignDataService;
   }
@@ -98,6 +107,7 @@ public class ComAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServiceProper
   
   @ApiModelProperty(value = "")
   @JsonProperty("pendingSign.metadata.service")
+  @Valid
   public ConfigNodePropertyString getPendingSignMetadataService() {
     return pendingSignMetadataService;
   }
@@ -107,7 +117,7 @@ public class ComAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServiceProper
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -115,13 +125,13 @@ public class ComAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServiceProper
       return false;
     }
     ComAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServiceProperties comAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServiceProperties = (ComAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServiceProperties) o;
-    return Objects.equals(portalOutboxes, comAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServiceProperties.portalOutboxes) &&
-        Objects.equals(draftDataService, comAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServiceProperties.draftDataService) &&
-        Objects.equals(draftMetadataService, comAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServiceProperties.draftMetadataService) &&
-        Objects.equals(submitDataService, comAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServiceProperties.submitDataService) &&
-        Objects.equals(submitMetadataService, comAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServiceProperties.submitMetadataService) &&
-        Objects.equals(pendingSignDataService, comAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServiceProperties.pendingSignDataService) &&
-        Objects.equals(pendingSignMetadataService, comAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServiceProperties.pendingSignMetadataService);
+    return Objects.equals(this.portalOutboxes, comAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServiceProperties.portalOutboxes) &&
+        Objects.equals(this.draftDataService, comAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServiceProperties.draftDataService) &&
+        Objects.equals(this.draftMetadataService, comAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServiceProperties.draftMetadataService) &&
+        Objects.equals(this.submitDataService, comAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServiceProperties.submitDataService) &&
+        Objects.equals(this.submitMetadataService, comAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServiceProperties.submitMetadataService) &&
+        Objects.equals(this.pendingSignDataService, comAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServiceProperties.pendingSignDataService) &&
+        Objects.equals(this.pendingSignMetadataService, comAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServiceProperties.pendingSignMetadataService);
   }
 
   @Override
@@ -149,11 +159,8 @@ public class ComAdobeFdFpConfigFormsPortalDraftsandSubmissionConfigServiceProper
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

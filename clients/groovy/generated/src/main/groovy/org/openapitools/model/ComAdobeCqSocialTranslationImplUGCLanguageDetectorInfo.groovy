@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqSocialTranslationImplUGCLanguageDetector
 
 @Canonical
 class ComAdobeCqSocialTranslationImplUGCLanguageDetectorInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqSocialTranslationImplUGCLanguageDetectorProperties properties
 }

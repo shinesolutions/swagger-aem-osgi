@@ -5,46 +5,51 @@ import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyString;
 
 import io.swagger.annotations.ApiModelProperty;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlType;
-import javax.xml.bind.annotation.XmlEnum;
-import javax.xml.bind.annotation.XmlEnumValue;
+import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
 
 public class OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletProperties  {
   
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString davRoot = null;
+
+  private ConfigNodePropertyString davRoot;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyBoolean davCreateAbsoluteUri = null;
+
+  private ConfigNodePropertyBoolean davCreateAbsoluteUri;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString davRealm = null;
+
+  private ConfigNodePropertyString davRealm;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyArray collectionTypes = null;
+
+  private ConfigNodePropertyArray collectionTypes;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyArray filterPrefixes = null;
+
+  private ConfigNodePropertyArray filterPrefixes;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString filterTypes = null;
+
+  private ConfigNodePropertyString filterTypes;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString filterUris = null;
+
+  private ConfigNodePropertyString filterUris;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString typeCollections = null;
+
+  private ConfigNodePropertyString typeCollections;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString typeNoncollections = null;
+
+  private ConfigNodePropertyString typeNoncollections;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString typeContent = null;
+
+  private ConfigNodePropertyString typeContent;
  /**
    * Get davRoot
    * @return davRoot
@@ -225,6 +230,31 @@ public class OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletProperties  {
     return this;
   }
 
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletProperties orgApacheSlingJcrWebdavImplServletsSimpleWebDavServletProperties = (OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletProperties) o;
+    return Objects.equals(this.davRoot, orgApacheSlingJcrWebdavImplServletsSimpleWebDavServletProperties.davRoot) &&
+        Objects.equals(this.davCreateAbsoluteUri, orgApacheSlingJcrWebdavImplServletsSimpleWebDavServletProperties.davCreateAbsoluteUri) &&
+        Objects.equals(this.davRealm, orgApacheSlingJcrWebdavImplServletsSimpleWebDavServletProperties.davRealm) &&
+        Objects.equals(this.collectionTypes, orgApacheSlingJcrWebdavImplServletsSimpleWebDavServletProperties.collectionTypes) &&
+        Objects.equals(this.filterPrefixes, orgApacheSlingJcrWebdavImplServletsSimpleWebDavServletProperties.filterPrefixes) &&
+        Objects.equals(this.filterTypes, orgApacheSlingJcrWebdavImplServletsSimpleWebDavServletProperties.filterTypes) &&
+        Objects.equals(this.filterUris, orgApacheSlingJcrWebdavImplServletsSimpleWebDavServletProperties.filterUris) &&
+        Objects.equals(this.typeCollections, orgApacheSlingJcrWebdavImplServletsSimpleWebDavServletProperties.typeCollections) &&
+        Objects.equals(this.typeNoncollections, orgApacheSlingJcrWebdavImplServletsSimpleWebDavServletProperties.typeNoncollections) &&
+        Objects.equals(this.typeContent, orgApacheSlingJcrWebdavImplServletsSimpleWebDavServletProperties.typeContent);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(davRoot, davCreateAbsoluteUri, davRealm, collectionTypes, filterPrefixes, filterTypes, filterUris, typeCollections, typeNoncollections, typeContent);
+  }
 
   @Override
   public String toString() {
@@ -249,11 +279,8 @@ public class OrgApacheSlingJcrWebdavImplServletsSimpleWebDavServletProperties  {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private static String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -12,26 +12,26 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class OrgApacheSlingEventJobsQueueConfigurationProperties {
-    ConfigNodePropertyString queueName = null
-
-    ConfigNodePropertyArray queueTopics = null
-
-    ConfigNodePropertyDropDown queueType = null
-
-    ConfigNodePropertyDropDown queuePriority = null
-
-    ConfigNodePropertyInteger queueRetries = null
-
-    ConfigNodePropertyInteger queueRetrydelay = null
-
-    ConfigNodePropertyFloat queueMaxparallel = null
-
-    ConfigNodePropertyBoolean queueKeepJobs = null
-
-    ConfigNodePropertyBoolean queuePreferRunOnCreationInstance = null
-
-    ConfigNodePropertyInteger queueThreadPoolSize = null
-
-    ConfigNodePropertyInteger serviceRanking = null
-
+    
+    ConfigNodePropertyString queueName
+    
+    ConfigNodePropertyArray queueTopics
+    
+    ConfigNodePropertyDropDown queueType
+    
+    ConfigNodePropertyDropDown queuePriority
+    
+    ConfigNodePropertyInteger queueRetries
+    
+    ConfigNodePropertyInteger queueRetrydelay
+    
+    ConfigNodePropertyFloat queueMaxparallel
+    
+    ConfigNodePropertyBoolean queueKeepJobs
+    
+    ConfigNodePropertyBoolean queuePreferRunOnCreationInstance
+    
+    ConfigNodePropertyInteger queueThreadPoolSize
+    
+    ConfigNodePropertyInteger serviceRanking
 }

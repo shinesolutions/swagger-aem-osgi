@@ -1,27 +1,38 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComDayCqReplicationImplTransportHttpProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComDayCqReplicationImplTransportHttpProperties   {
-  @JsonProperty("disabled.cipher.suites")
-  private ConfigNodePropertyArray disabledCipherSuites = null;
+@JsonTypeName("comDayCqReplicationImplTransportHttpProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComDayCqReplicationImplTransportHttpProperties {
 
-  @JsonProperty("enabled.cipher.suites")
-  private ConfigNodePropertyArray enabledCipherSuites = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray disabledCipherSuites;
 
-  public ComDayCqReplicationImplTransportHttpProperties disabledCipherSuites(ConfigNodePropertyArray disabledCipherSuites) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray enabledCipherSuites;
+
+  public ComDayCqReplicationImplTransportHttpProperties disabledCipherSuites(@Nullable ConfigNodePropertyArray disabledCipherSuites) {
     this.disabledCipherSuites = disabledCipherSuites;
     return this;
   }
@@ -29,20 +40,20 @@ public class ComDayCqReplicationImplTransportHttpProperties   {
   /**
    * Get disabledCipherSuites
    * @return disabledCipherSuites
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getDisabledCipherSuites() {
+   */
+  @Valid 
+  @Schema(name = "disabled.cipher.suites", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("disabled.cipher.suites")
+  public @Nullable ConfigNodePropertyArray getDisabledCipherSuites() {
     return disabledCipherSuites;
   }
 
-  public void setDisabledCipherSuites(ConfigNodePropertyArray disabledCipherSuites) {
+  @JsonProperty("disabled.cipher.suites")
+  public void setDisabledCipherSuites(@Nullable ConfigNodePropertyArray disabledCipherSuites) {
     this.disabledCipherSuites = disabledCipherSuites;
   }
 
-  public ComDayCqReplicationImplTransportHttpProperties enabledCipherSuites(ConfigNodePropertyArray enabledCipherSuites) {
+  public ComDayCqReplicationImplTransportHttpProperties enabledCipherSuites(@Nullable ConfigNodePropertyArray enabledCipherSuites) {
     this.enabledCipherSuites = enabledCipherSuites;
     return this;
   }
@@ -50,22 +61,21 @@ public class ComDayCqReplicationImplTransportHttpProperties   {
   /**
    * Get enabledCipherSuites
    * @return enabledCipherSuites
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getEnabledCipherSuites() {
+   */
+  @Valid 
+  @Schema(name = "enabled.cipher.suites", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("enabled.cipher.suites")
+  public @Nullable ConfigNodePropertyArray getEnabledCipherSuites() {
     return enabledCipherSuites;
   }
 
-  public void setEnabledCipherSuites(ConfigNodePropertyArray enabledCipherSuites) {
+  @JsonProperty("enabled.cipher.suites")
+  public void setEnabledCipherSuites(@Nullable ConfigNodePropertyArray enabledCipherSuites) {
     this.enabledCipherSuites = enabledCipherSuites;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -86,7 +96,6 @@ public class ComDayCqReplicationImplTransportHttpProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComDayCqReplicationImplTransportHttpProperties {\n");
-    
     sb.append("    disabledCipherSuites: ").append(toIndentedString(disabledCipherSuites)).append("\n");
     sb.append("    enabledCipherSuites: ").append(toIndentedString(enabledCipherSuites)).append("\n");
     sb.append("}");
@@ -97,11 +106,8 @@ public class ComDayCqReplicationImplTransportHttpProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

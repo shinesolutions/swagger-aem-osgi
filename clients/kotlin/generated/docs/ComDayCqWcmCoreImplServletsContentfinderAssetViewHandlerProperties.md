@@ -2,13 +2,13 @@
 # ComDayCqWcmCoreImplServletsContentfinderAssetViewHandlerProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**damPeriodshowexpired** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**damPeriodshowhidden** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**tagTitleSearch** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
-**guessTotal** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**damPeriodexpiryProperty** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **damShowexpired** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **damShowhidden** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **tagTitleSearch** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
+| **guessTotal** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **damExpiryProperty** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
 
 
 

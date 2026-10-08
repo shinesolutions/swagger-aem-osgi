@@ -1,0 +1,63 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqWcmFoundationImplHTTPAuthHandlerProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqWcmFoundationImplHTTPAuthHandlerProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComDayCqWcmFoundationImplHTTPAuthHandlerProperties {
+    title = ComDayCqWcmFoundationImplHTTPAuthHandlerProperties
+    description = ComDayCqWcmFoundationImplHTTPAuthHandlerProperties
+    derivedFrom = Root
+    properties {
+        path {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        auth_http_nologin {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        auth_http_realm {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        auth_default_loginpage {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        auth_cred_form {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        auth_cred_utf8 {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqWcmFoundationImplHTTPAuthHandlerProperties {
+    title = ComDayCqWcmFoundationImplHTTPAuthHandlerProperties
+    description = ComDayCqWcmFoundationImplHTTPAuthHandlerProperties
+    implements = openapi_server.resourceTypes.ComDayCqWcmFoundationImplHTTPAuthHandlerProperties
+
+  }
+}

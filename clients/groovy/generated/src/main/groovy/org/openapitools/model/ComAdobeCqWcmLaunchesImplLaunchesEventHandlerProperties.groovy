@@ -10,12 +10,12 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeCqWcmLaunchesImplLaunchesEventHandlerProperties {
-    ConfigNodePropertyString eventFilter = null
-
-    ConfigNodePropertyInteger launchesEventhandlerThreadpoolMaxsize = null
-
-    ConfigNodePropertyDropDown launchesEventhandlerThreadpoolPriority = null
-
-    ConfigNodePropertyBoolean launchesEventhandlerUpdatelastmodification = null
-
+    
+    ConfigNodePropertyString eventFilter
+    
+    ConfigNodePropertyInteger launchesEventhandlerThreadpoolMaxsize
+    
+    ConfigNodePropertyDropDown launchesEventhandlerThreadpoolPriority
+    
+    ConfigNodePropertyBoolean launchesEventhandlerUpdatelastmodification
 }

@@ -72,13 +72,13 @@ private class OASOrgApacheSlingServletsPostImplSliTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASOrgApacheSlingServletsPostImplSli orgApacheSlingServletsPostImplSlingPostServletProperties = new OASOrgApacheSlingServletsPostImplSli();
-        Map<String, String> propertyMappings = orgApacheSlingServletsPostImplSlingPostServletProperties.getPropertyMappings();
-        System.assertEquals('servletPostDateFormats', propertyMappings.get('servlet.post.dateFormats'));
-        System.assertEquals('servletPostNodeNameHints', propertyMappings.get('servlet.post.nodeNameHints'));
-        System.assertEquals('servletPostNodeNameMaxLength', propertyMappings.get('servlet.post.nodeNameMaxLength'));
-        System.assertEquals('servletPostCheckinNewVersionableNodes', propertyMappings.get('servlet.post.checkinNewVersionableNodes'));
-        System.assertEquals('servletPostAutoCheckout', propertyMappings.get('servlet.post.autoCheckout'));
-        System.assertEquals('servletPostAutoCheckin', propertyMappings.get('servlet.post.autoCheckin'));
-        System.assertEquals('servletPostIgnorePattern', propertyMappings.get('servlet.post.ignorePattern'));
+        Map<String, String> x-property-mappings = orgApacheSlingServletsPostImplSlingPostServletProperties.getx-property-mappings();
+        System.assertEquals('servletPostDateFormats', x-property-mappings.get('servlet.post.dateFormats'));
+        System.assertEquals('servletPostNodeNameHints', x-property-mappings.get('servlet.post.nodeNameHints'));
+        System.assertEquals('servletPostNodeNameMaxLength', x-property-mappings.get('servlet.post.nodeNameMaxLength'));
+        System.assertEquals('servletPostCheckinNewVersionableNodes', x-property-mappings.get('servlet.post.checkinNewVersionableNodes'));
+        System.assertEquals('servletPostAutoCheckout', x-property-mappings.get('servlet.post.autoCheckout'));
+        System.assertEquals('servletPostAutoCheckin', x-property-mappings.get('servlet.post.autoCheckin'));
+        System.assertEquals('servletPostIgnorePattern', x-property-mappings.get('servlet.post.ignorePattern'));
     }
 }

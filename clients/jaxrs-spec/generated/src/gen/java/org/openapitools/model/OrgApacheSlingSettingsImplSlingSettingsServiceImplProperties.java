@@ -1,19 +1,30 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("orgApacheSlingSettingsImplSlingSettingsServiceImplProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingSettingsImplSlingSettingsServiceImplProperties   {
-  
-  private @Valid ConfigNodePropertyString slingName = null;
-  private @Valid ConfigNodePropertyString slingDescription = null;
+  private ConfigNodePropertyString slingName;
+  private ConfigNodePropertyString slingDescription;
+
+  public OrgApacheSlingSettingsImplSlingSettingsServiceImplProperties() {
+  }
 
   /**
    **/
@@ -25,9 +36,11 @@ public class OrgApacheSlingSettingsImplSlingSettingsServiceImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("sling.name")
-  public ConfigNodePropertyString getSlingName() {
+  @Valid public ConfigNodePropertyString getSlingName() {
     return slingName;
   }
+
+  @JsonProperty("sling.name")
   public void setSlingName(ConfigNodePropertyString slingName) {
     this.slingName = slingName;
   }
@@ -42,16 +55,18 @@ public class OrgApacheSlingSettingsImplSlingSettingsServiceImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("sling.description")
-  public ConfigNodePropertyString getSlingDescription() {
+  @Valid public ConfigNodePropertyString getSlingDescription() {
     return slingDescription;
   }
+
+  @JsonProperty("sling.description")
   public void setSlingDescription(ConfigNodePropertyString slingDescription) {
     this.slingDescription = slingDescription;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -59,8 +74,8 @@ public class OrgApacheSlingSettingsImplSlingSettingsServiceImplProperties   {
       return false;
     }
     OrgApacheSlingSettingsImplSlingSettingsServiceImplProperties orgApacheSlingSettingsImplSlingSettingsServiceImplProperties = (OrgApacheSlingSettingsImplSlingSettingsServiceImplProperties) o;
-    return Objects.equals(slingName, orgApacheSlingSettingsImplSlingSettingsServiceImplProperties.slingName) &&
-        Objects.equals(slingDescription, orgApacheSlingSettingsImplSlingSettingsServiceImplProperties.slingDescription);
+    return Objects.equals(this.slingName, orgApacheSlingSettingsImplSlingSettingsServiceImplProperties.slingName) &&
+        Objects.equals(this.slingDescription, orgApacheSlingSettingsImplSlingSettingsServiceImplProperties.slingDescription);
   }
 
   @Override
@@ -83,11 +98,9 @@ public class OrgApacheSlingSettingsImplSlingSettingsServiceImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

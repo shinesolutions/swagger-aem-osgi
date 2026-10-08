@@ -72,7 +72,7 @@ private class OASComAdobeGraniteCommentsInternalCoTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeGraniteCommentsInternalCo comAdobeGraniteCommentsInternalCommentReplicationContentFilterFacProperties = new OASComAdobeGraniteCommentsInternalCo();
-        Map<String, String> propertyMappings = comAdobeGraniteCommentsInternalCommentReplicationContentFilterFacProperties.getPropertyMappings();
-        System.assertEquals('replicateCommentResourceTypes', propertyMappings.get('replicate.comment.resourceTypes'));
+        Map<String, String> x-property-mappings = comAdobeGraniteCommentsInternalCommentReplicationContentFilterFacProperties.getx-property-mappings();
+        System.assertEquals('replicateCommentResourceTypes', x-property-mappings.get('replicate.comment.resourceTypes'));
     }
 }

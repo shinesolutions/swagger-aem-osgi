@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeGraniteTranslationCoreImplTranslationManag
 
 @Canonical
 class ComAdobeGraniteTranslationCoreImplTranslationManagerImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteTranslationCoreImplTranslationManagerImplProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteTranslationCoreImplTranslationManagerImplProperties properties
 }

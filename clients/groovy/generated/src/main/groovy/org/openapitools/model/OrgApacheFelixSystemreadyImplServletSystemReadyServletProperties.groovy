@@ -7,8 +7,8 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class OrgApacheFelixSystemreadyImplServletSystemReadyServletProperties {
-    ConfigNodePropertyString osgiHttpWhiteboardServletPattern = null
-
-    ConfigNodePropertyString osgiHttpWhiteboardContextSelect = null
-
+    
+    ConfigNodePropertyString osgiHttpWhiteboardServletPattern
+    
+    ConfigNodePropertyString osgiHttpWhiteboardContextSelect
 }

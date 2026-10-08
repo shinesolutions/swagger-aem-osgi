@@ -72,7 +72,7 @@ private class OASComDayCqDamPimImplSourcingUploadPTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqDamPimImplSourcingUploadP comDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProProperties = new OASComDayCqDamPimImplSourcingUploadP();
-        Map<String, String> propertyMappings = comDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProProperties.getPropertyMappings();
-        System.assertEquals('deleteZipFile', propertyMappings.get('delete.zip.file'));
+        Map<String, String> x-property-mappings = comDayCqDamPimImplSourcingUploadProcessProductAssetsUploadProProperties.getx-property-mappings();
+        System.assertEquals('deleteZipFile', x-property-mappings.get('delete.zip.file'));
     }
 }

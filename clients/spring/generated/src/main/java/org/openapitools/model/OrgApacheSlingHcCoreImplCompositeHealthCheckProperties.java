@@ -1,38 +1,49 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * OrgApacheSlingHcCoreImplCompositeHealthCheckProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class OrgApacheSlingHcCoreImplCompositeHealthCheckProperties   {
-  @JsonProperty("hc.name")
-  private ConfigNodePropertyString hcName = null;
+@JsonTypeName("orgApacheSlingHcCoreImplCompositeHealthCheckProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class OrgApacheSlingHcCoreImplCompositeHealthCheckProperties {
 
-  @JsonProperty("hc.tags")
-  private ConfigNodePropertyArray hcTags = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString hcName;
 
-  @JsonProperty("hc.mbean.name")
-  private ConfigNodePropertyString hcMbeanName = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray hcTags;
 
-  @JsonProperty("filter.tags")
-  private ConfigNodePropertyArray filterTags = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString hcMbeanName;
 
-  @JsonProperty("filter.combineTagsWithOr")
-  private ConfigNodePropertyBoolean filterCombineTagsWithOr = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray filterTags;
 
-  public OrgApacheSlingHcCoreImplCompositeHealthCheckProperties hcName(ConfigNodePropertyString hcName) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean filterCombineTagsWithOr;
+
+  public OrgApacheSlingHcCoreImplCompositeHealthCheckProperties hcName(@Nullable ConfigNodePropertyString hcName) {
     this.hcName = hcName;
     return this;
   }
@@ -40,20 +51,20 @@ public class OrgApacheSlingHcCoreImplCompositeHealthCheckProperties   {
   /**
    * Get hcName
    * @return hcName
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getHcName() {
+   */
+  @Valid 
+  @Schema(name = "hc.name", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("hc.name")
+  public @Nullable ConfigNodePropertyString getHcName() {
     return hcName;
   }
 
-  public void setHcName(ConfigNodePropertyString hcName) {
+  @JsonProperty("hc.name")
+  public void setHcName(@Nullable ConfigNodePropertyString hcName) {
     this.hcName = hcName;
   }
 
-  public OrgApacheSlingHcCoreImplCompositeHealthCheckProperties hcTags(ConfigNodePropertyArray hcTags) {
+  public OrgApacheSlingHcCoreImplCompositeHealthCheckProperties hcTags(@Nullable ConfigNodePropertyArray hcTags) {
     this.hcTags = hcTags;
     return this;
   }
@@ -61,20 +72,20 @@ public class OrgApacheSlingHcCoreImplCompositeHealthCheckProperties   {
   /**
    * Get hcTags
    * @return hcTags
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getHcTags() {
+   */
+  @Valid 
+  @Schema(name = "hc.tags", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("hc.tags")
+  public @Nullable ConfigNodePropertyArray getHcTags() {
     return hcTags;
   }
 
-  public void setHcTags(ConfigNodePropertyArray hcTags) {
+  @JsonProperty("hc.tags")
+  public void setHcTags(@Nullable ConfigNodePropertyArray hcTags) {
     this.hcTags = hcTags;
   }
 
-  public OrgApacheSlingHcCoreImplCompositeHealthCheckProperties hcMbeanName(ConfigNodePropertyString hcMbeanName) {
+  public OrgApacheSlingHcCoreImplCompositeHealthCheckProperties hcMbeanName(@Nullable ConfigNodePropertyString hcMbeanName) {
     this.hcMbeanName = hcMbeanName;
     return this;
   }
@@ -82,20 +93,20 @@ public class OrgApacheSlingHcCoreImplCompositeHealthCheckProperties   {
   /**
    * Get hcMbeanName
    * @return hcMbeanName
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getHcMbeanName() {
+   */
+  @Valid 
+  @Schema(name = "hc.mbean.name", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("hc.mbean.name")
+  public @Nullable ConfigNodePropertyString getHcMbeanName() {
     return hcMbeanName;
   }
 
-  public void setHcMbeanName(ConfigNodePropertyString hcMbeanName) {
+  @JsonProperty("hc.mbean.name")
+  public void setHcMbeanName(@Nullable ConfigNodePropertyString hcMbeanName) {
     this.hcMbeanName = hcMbeanName;
   }
 
-  public OrgApacheSlingHcCoreImplCompositeHealthCheckProperties filterTags(ConfigNodePropertyArray filterTags) {
+  public OrgApacheSlingHcCoreImplCompositeHealthCheckProperties filterTags(@Nullable ConfigNodePropertyArray filterTags) {
     this.filterTags = filterTags;
     return this;
   }
@@ -103,20 +114,20 @@ public class OrgApacheSlingHcCoreImplCompositeHealthCheckProperties   {
   /**
    * Get filterTags
    * @return filterTags
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getFilterTags() {
+   */
+  @Valid 
+  @Schema(name = "filter.tags", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("filter.tags")
+  public @Nullable ConfigNodePropertyArray getFilterTags() {
     return filterTags;
   }
 
-  public void setFilterTags(ConfigNodePropertyArray filterTags) {
+  @JsonProperty("filter.tags")
+  public void setFilterTags(@Nullable ConfigNodePropertyArray filterTags) {
     this.filterTags = filterTags;
   }
 
-  public OrgApacheSlingHcCoreImplCompositeHealthCheckProperties filterCombineTagsWithOr(ConfigNodePropertyBoolean filterCombineTagsWithOr) {
+  public OrgApacheSlingHcCoreImplCompositeHealthCheckProperties filterCombineTagsWithOr(@Nullable ConfigNodePropertyBoolean filterCombineTagsWithOr) {
     this.filterCombineTagsWithOr = filterCombineTagsWithOr;
     return this;
   }
@@ -124,22 +135,21 @@ public class OrgApacheSlingHcCoreImplCompositeHealthCheckProperties   {
   /**
    * Get filterCombineTagsWithOr
    * @return filterCombineTagsWithOr
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getFilterCombineTagsWithOr() {
+   */
+  @Valid 
+  @Schema(name = "filter.combineTagsWithOr", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("filter.combineTagsWithOr")
+  public @Nullable ConfigNodePropertyBoolean getFilterCombineTagsWithOr() {
     return filterCombineTagsWithOr;
   }
 
-  public void setFilterCombineTagsWithOr(ConfigNodePropertyBoolean filterCombineTagsWithOr) {
+  @JsonProperty("filter.combineTagsWithOr")
+  public void setFilterCombineTagsWithOr(@Nullable ConfigNodePropertyBoolean filterCombineTagsWithOr) {
     this.filterCombineTagsWithOr = filterCombineTagsWithOr;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -163,7 +173,6 @@ public class OrgApacheSlingHcCoreImplCompositeHealthCheckProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class OrgApacheSlingHcCoreImplCompositeHealthCheckProperties {\n");
-    
     sb.append("    hcName: ").append(toIndentedString(hcName)).append("\n");
     sb.append("    hcTags: ").append(toIndentedString(hcTags)).append("\n");
     sb.append("    hcMbeanName: ").append(toIndentedString(hcMbeanName)).append("\n");
@@ -177,11 +186,8 @@ public class OrgApacheSlingHcCoreImplCompositeHealthCheckProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

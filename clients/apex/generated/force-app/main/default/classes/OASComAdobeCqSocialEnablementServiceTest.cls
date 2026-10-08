@@ -72,7 +72,7 @@ private class OASComAdobeCqSocialEnablementServiceTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeCqSocialEnablementService comAdobeCqSocialEnablementServicesImplAuthorMarkerImplProperties = new OASComAdobeCqSocialEnablementService();
-        Map<String, String> propertyMappings = comAdobeCqSocialEnablementServicesImplAuthorMarkerImplProperties.getPropertyMappings();
-        System.assertEquals('serviceRanking', propertyMappings.get('service.ranking'));
+        Map<String, String> x-property-mappings = comAdobeCqSocialEnablementServicesImplAuthorMarkerImplProperties.getx-property-mappings();
+        System.assertEquals('serviceRanking', x-property-mappings.get('service.ranking'));
     }
 }

@@ -8,8 +8,8 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeGraniteTaskmanagementImplServiceTaskManagerAdapterFactorProperties {
-    ConfigNodePropertyString adapterCondition = null
-
-    ConfigNodePropertyArray taskmanagerAdmingroups = null
-
+    
+    ConfigNodePropertyString adapterCondition
+    
+    ConfigNodePropertyArray taskmanagerAdmingroups
 }

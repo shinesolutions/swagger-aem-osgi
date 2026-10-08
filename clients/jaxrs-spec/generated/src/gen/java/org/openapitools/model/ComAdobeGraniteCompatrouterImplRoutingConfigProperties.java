@@ -1,20 +1,31 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comAdobeGraniteCompatrouterImplRoutingConfigProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteCompatrouterImplRoutingConfigProperties   {
-  
-  private @Valid ConfigNodePropertyString id = null;
-  private @Valid ConfigNodePropertyString compatPath = null;
-  private @Valid ConfigNodePropertyString newPath = null;
+  private ConfigNodePropertyString id;
+  private ConfigNodePropertyString compatPath;
+  private ConfigNodePropertyString newPath;
+
+  public ComAdobeGraniteCompatrouterImplRoutingConfigProperties() {
+  }
 
   /**
    **/
@@ -26,9 +37,11 @@ public class ComAdobeGraniteCompatrouterImplRoutingConfigProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("id")
-  public ConfigNodePropertyString getId() {
+  @Valid public ConfigNodePropertyString getId() {
     return id;
   }
+
+  @JsonProperty("id")
   public void setId(ConfigNodePropertyString id) {
     this.id = id;
   }
@@ -43,9 +56,11 @@ public class ComAdobeGraniteCompatrouterImplRoutingConfigProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("compatPath")
-  public ConfigNodePropertyString getCompatPath() {
+  @Valid public ConfigNodePropertyString getCompatPath() {
     return compatPath;
   }
+
+  @JsonProperty("compatPath")
   public void setCompatPath(ConfigNodePropertyString compatPath) {
     this.compatPath = compatPath;
   }
@@ -60,16 +75,18 @@ public class ComAdobeGraniteCompatrouterImplRoutingConfigProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("newPath")
-  public ConfigNodePropertyString getNewPath() {
+  @Valid public ConfigNodePropertyString getNewPath() {
     return newPath;
   }
+
+  @JsonProperty("newPath")
   public void setNewPath(ConfigNodePropertyString newPath) {
     this.newPath = newPath;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -77,9 +94,9 @@ public class ComAdobeGraniteCompatrouterImplRoutingConfigProperties   {
       return false;
     }
     ComAdobeGraniteCompatrouterImplRoutingConfigProperties comAdobeGraniteCompatrouterImplRoutingConfigProperties = (ComAdobeGraniteCompatrouterImplRoutingConfigProperties) o;
-    return Objects.equals(id, comAdobeGraniteCompatrouterImplRoutingConfigProperties.id) &&
-        Objects.equals(compatPath, comAdobeGraniteCompatrouterImplRoutingConfigProperties.compatPath) &&
-        Objects.equals(newPath, comAdobeGraniteCompatrouterImplRoutingConfigProperties.newPath);
+    return Objects.equals(this.id, comAdobeGraniteCompatrouterImplRoutingConfigProperties.id) &&
+        Objects.equals(this.compatPath, comAdobeGraniteCompatrouterImplRoutingConfigProperties.compatPath) &&
+        Objects.equals(this.newPath, comAdobeGraniteCompatrouterImplRoutingConfigProperties.newPath);
   }
 
   @Override
@@ -103,11 +120,9 @@ public class ComAdobeGraniteCompatrouterImplRoutingConfigProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

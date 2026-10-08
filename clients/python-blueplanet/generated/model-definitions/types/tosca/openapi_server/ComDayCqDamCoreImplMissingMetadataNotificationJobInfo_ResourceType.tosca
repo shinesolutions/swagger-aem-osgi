@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqDamCoreImplMissingMetadataNotificationJobInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqDamCoreImplMissingMetadataNotificationJobInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComDayCqDamCoreImplMissingMetadataNotificationJobProperties = openapi_server.resourceTypes.ComDayCqDamCoreImplMissingMetadataNotificationJobProperties
+}
+resourceTypes {
+
+  ComDayCqDamCoreImplMissingMetadataNotificationJobInfo {
+    title = ComDayCqDamCoreImplMissingMetadataNotificationJobInfo
+    description = ComDayCqDamCoreImplMissingMetadataNotificationJobInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComDayCqDamCoreImplMissingMetadataNotificationJobProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqDamCoreImplMissingMetadataNotificationJobInfo {
+    title = ComDayCqDamCoreImplMissingMetadataNotificationJobInfo
+    description = ComDayCqDamCoreImplMissingMetadataNotificationJobInfo
+    implements = openapi_server.resourceTypes.ComDayCqDamCoreImplMissingMetadataNotificationJobInfo
+
+  }
+}

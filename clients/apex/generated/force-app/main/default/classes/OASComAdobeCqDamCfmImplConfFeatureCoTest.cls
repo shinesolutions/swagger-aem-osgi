@@ -72,8 +72,8 @@ private class OASComAdobeCqDamCfmImplConfFeatureCoTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeCqDamCfmImplConfFeatureCo comAdobeCqDamCfmImplConfFeatureConfigImplProperties = new OASComAdobeCqDamCfmImplConfFeatureCo();
-        Map<String, String> propertyMappings = comAdobeCqDamCfmImplConfFeatureConfigImplProperties.getPropertyMappings();
-        System.assertEquals('damCfmResourceTypes', propertyMappings.get('dam.cfm.resourceTypes'));
-        System.assertEquals('damCfmReferenceProperties', propertyMappings.get('dam.cfm.referenceProperties'));
+        Map<String, String> x-property-mappings = comAdobeCqDamCfmImplConfFeatureConfigImplProperties.getx-property-mappings();
+        System.assertEquals('damCfmResourceTypes', x-property-mappings.get('dam.cfm.resourceTypes'));
+        System.assertEquals('damCfmReferenceProperties', x-property-mappings.get('dam.cfm.referenceProperties'));
     }
 }

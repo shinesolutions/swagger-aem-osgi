@@ -1,7 +1,9 @@
 
+
 # ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **path** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
@@ -10,6 +12,7 @@ Name | Type | Description | Notes
 **authTokenRequestParameter** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
 **oauthBearerConfigid** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
 **oauthJwtSupport** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
+
 
 
 

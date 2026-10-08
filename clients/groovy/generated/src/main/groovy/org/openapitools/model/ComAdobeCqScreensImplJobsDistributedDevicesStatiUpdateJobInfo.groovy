@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqScreensImplJobsDistributedDevicesStatiUp
 
 @Canonical
 class ComAdobeCqScreensImplJobsDistributedDevicesStatiUpdateJobInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqScreensImplJobsDistributedDevicesStatiUpdateJobProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqScreensImplJobsDistributedDevicesStatiUpdateJobProperties properties
 }

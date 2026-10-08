@@ -1,0 +1,21 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "permissions_jr2" },
+      {"model": "import_behavior" },
+      {"model": "read_paths" },
+      {"model": "administrative_principals" },
+      {"model": "configuration_ranking" },
+    ]
+  }]
+}

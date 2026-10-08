@@ -1,0 +1,21 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "scene7_flash_templates_rti" },
+      {"model": "scene7_flash_templates_rsi" },
+      {"model": "scene7_flash_templates_rb" },
+      {"model": "scene7_flash_templates_rurl" },
+      {"model": "scene7_flash_template_url_format_parameter" },
+    ]
+  }]
+}

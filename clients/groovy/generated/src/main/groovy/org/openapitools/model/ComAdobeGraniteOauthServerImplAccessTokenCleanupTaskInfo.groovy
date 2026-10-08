@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeGraniteOauthServerImplAccessTokenCleanupTa
 
 @Canonical
 class ComAdobeGraniteOauthServerImplAccessTokenCleanupTaskInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteOauthServerImplAccessTokenCleanupTaskProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteOauthServerImplAccessTokenCleanupTaskProperties properties
 }

@@ -1,125 +1,136 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyDropDown;
 import org.openapitools.model.ConfigNodePropertyFloat;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties   {
-  @JsonProperty("service.ranking")
-  private ConfigNodePropertyInteger serviceRanking = null;
+@JsonTypeName("comAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties {
 
-  @JsonProperty("global.size")
-  private ConfigNodePropertyInteger globalSize = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger serviceRanking;
 
-  @JsonProperty("max.disk.usage")
-  private ConfigNodePropertyInteger maxDiskUsage = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger globalSize;
 
-  @JsonProperty("persistence.enabled")
-  private ConfigNodePropertyBoolean persistenceEnabled = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger maxDiskUsage;
 
-  @JsonProperty("thread.pool.max.size")
-  private ConfigNodePropertyInteger threadPoolMaxSize = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean persistenceEnabled;
 
-  @JsonProperty("scheduled.thread.pool.max.size")
-  private ConfigNodePropertyInteger scheduledThreadPoolMaxSize = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger threadPoolMaxSize;
 
-  @JsonProperty("graceful.shutdown.timeout")
-  private ConfigNodePropertyInteger gracefulShutdownTimeout = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger scheduledThreadPoolMaxSize;
 
-  @JsonProperty("queues")
-  private ConfigNodePropertyArray queues = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger gracefulShutdownTimeout;
 
-  @JsonProperty("topics")
-  private ConfigNodePropertyArray topics = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray queues;
 
-  @JsonProperty("addresses.max.delivery.attempts")
-  private ConfigNodePropertyInteger addressesMaxDeliveryAttempts = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray topics;
 
-  @JsonProperty("addresses.expiry.delay")
-  private ConfigNodePropertyInteger addressesExpiryDelay = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger addressesMaxDeliveryAttempts;
 
-  @JsonProperty("addresses.address.full.message.policy")
-  private ConfigNodePropertyDropDown addressesAddressFullMessagePolicy = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger addressesExpiryDelay;
 
-  @JsonProperty("addresses.max.size.bytes")
-  private ConfigNodePropertyInteger addressesMaxSizeBytes = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyDropDown addressesAddressFullMessagePolicy;
 
-  @JsonProperty("addresses.page.size.bytes")
-  private ConfigNodePropertyInteger addressesPageSizeBytes = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger addressesMaxSizeBytes;
 
-  @JsonProperty("addresses.page.cache.max.size")
-  private ConfigNodePropertyInteger addressesPageCacheMaxSize = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger addressesPageSizeBytes;
 
-  @JsonProperty("cluster.user")
-  private ConfigNodePropertyString clusterUser = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger addressesPageCacheMaxSize;
 
-  @JsonProperty("cluster.password")
-  private ConfigNodePropertyString clusterPassword = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString clusterUser;
 
-  @JsonProperty("cluster.call.timeout")
-  private ConfigNodePropertyInteger clusterCallTimeout = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString clusterPassword;
 
-  @JsonProperty("cluster.call.failover.timeout")
-  private ConfigNodePropertyInteger clusterCallFailoverTimeout = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger clusterCallTimeout;
 
-  @JsonProperty("cluster.client.failure.check.period")
-  private ConfigNodePropertyInteger clusterClientFailureCheckPeriod = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger clusterCallFailoverTimeout;
 
-  @JsonProperty("cluster.notification.attempts")
-  private ConfigNodePropertyInteger clusterNotificationAttempts = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger clusterClientFailureCheckPeriod;
 
-  @JsonProperty("cluster.notification.interval")
-  private ConfigNodePropertyInteger clusterNotificationInterval = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger clusterNotificationAttempts;
 
-  @JsonProperty("id.cache.size")
-  private ConfigNodePropertyInteger idCacheSize = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger clusterNotificationInterval;
 
-  @JsonProperty("cluster.confirmation.window.size")
-  private ConfigNodePropertyInteger clusterConfirmationWindowSize = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger idCacheSize;
 
-  @JsonProperty("cluster.connection.ttl")
-  private ConfigNodePropertyInteger clusterConnectionTtl = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger clusterConfirmationWindowSize;
 
-  @JsonProperty("cluster.duplicate.detection")
-  private ConfigNodePropertyBoolean clusterDuplicateDetection = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger clusterConnectionTtl;
 
-  @JsonProperty("cluster.initial.connect.attempts")
-  private ConfigNodePropertyInteger clusterInitialConnectAttempts = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean clusterDuplicateDetection;
 
-  @JsonProperty("cluster.max.retry.interval")
-  private ConfigNodePropertyInteger clusterMaxRetryInterval = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger clusterInitialConnectAttempts;
 
-  @JsonProperty("cluster.min.large.message.size")
-  private ConfigNodePropertyInteger clusterMinLargeMessageSize = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger clusterMaxRetryInterval;
 
-  @JsonProperty("cluster.producer.window.size")
-  private ConfigNodePropertyInteger clusterProducerWindowSize = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger clusterMinLargeMessageSize;
 
-  @JsonProperty("cluster.reconnect.attempts")
-  private ConfigNodePropertyInteger clusterReconnectAttempts = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger clusterProducerWindowSize;
 
-  @JsonProperty("cluster.retry.interval")
-  private ConfigNodePropertyInteger clusterRetryInterval = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger clusterReconnectAttempts;
 
-  @JsonProperty("cluster.retry.interval.multiplier")
-  private ConfigNodePropertyFloat clusterRetryIntervalMultiplier = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger clusterRetryInterval;
 
-  public ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties serviceRanking(ConfigNodePropertyInteger serviceRanking) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyFloat clusterRetryIntervalMultiplier;
+
+  public ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties serviceRanking(@Nullable ConfigNodePropertyInteger serviceRanking) {
     this.serviceRanking = serviceRanking;
     return this;
   }
@@ -127,20 +138,20 @@ public class ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties   {
   /**
    * Get serviceRanking
    * @return serviceRanking
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getServiceRanking() {
+   */
+  @Valid 
+  @Schema(name = "service.ranking", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("service.ranking")
+  public @Nullable ConfigNodePropertyInteger getServiceRanking() {
     return serviceRanking;
   }
 
-  public void setServiceRanking(ConfigNodePropertyInteger serviceRanking) {
+  @JsonProperty("service.ranking")
+  public void setServiceRanking(@Nullable ConfigNodePropertyInteger serviceRanking) {
     this.serviceRanking = serviceRanking;
   }
 
-  public ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties globalSize(ConfigNodePropertyInteger globalSize) {
+  public ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties globalSize(@Nullable ConfigNodePropertyInteger globalSize) {
     this.globalSize = globalSize;
     return this;
   }
@@ -148,20 +159,20 @@ public class ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties   {
   /**
    * Get globalSize
    * @return globalSize
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getGlobalSize() {
+   */
+  @Valid 
+  @Schema(name = "global.size", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("global.size")
+  public @Nullable ConfigNodePropertyInteger getGlobalSize() {
     return globalSize;
   }
 
-  public void setGlobalSize(ConfigNodePropertyInteger globalSize) {
+  @JsonProperty("global.size")
+  public void setGlobalSize(@Nullable ConfigNodePropertyInteger globalSize) {
     this.globalSize = globalSize;
   }
 
-  public ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties maxDiskUsage(ConfigNodePropertyInteger maxDiskUsage) {
+  public ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties maxDiskUsage(@Nullable ConfigNodePropertyInteger maxDiskUsage) {
     this.maxDiskUsage = maxDiskUsage;
     return this;
   }
@@ -169,20 +180,20 @@ public class ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties   {
   /**
    * Get maxDiskUsage
    * @return maxDiskUsage
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getMaxDiskUsage() {
+   */
+  @Valid 
+  @Schema(name = "max.disk.usage", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("max.disk.usage")
+  public @Nullable ConfigNodePropertyInteger getMaxDiskUsage() {
     return maxDiskUsage;
   }
 
-  public void setMaxDiskUsage(ConfigNodePropertyInteger maxDiskUsage) {
+  @JsonProperty("max.disk.usage")
+  public void setMaxDiskUsage(@Nullable ConfigNodePropertyInteger maxDiskUsage) {
     this.maxDiskUsage = maxDiskUsage;
   }
 
-  public ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties persistenceEnabled(ConfigNodePropertyBoolean persistenceEnabled) {
+  public ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties persistenceEnabled(@Nullable ConfigNodePropertyBoolean persistenceEnabled) {
     this.persistenceEnabled = persistenceEnabled;
     return this;
   }
@@ -190,20 +201,20 @@ public class ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties   {
   /**
    * Get persistenceEnabled
    * @return persistenceEnabled
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getPersistenceEnabled() {
+   */
+  @Valid 
+  @Schema(name = "persistence.enabled", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("persistence.enabled")
+  public @Nullable ConfigNodePropertyBoolean getPersistenceEnabled() {
     return persistenceEnabled;
   }
 
-  public void setPersistenceEnabled(ConfigNodePropertyBoolean persistenceEnabled) {
+  @JsonProperty("persistence.enabled")
+  public void setPersistenceEnabled(@Nullable ConfigNodePropertyBoolean persistenceEnabled) {
     this.persistenceEnabled = persistenceEnabled;
   }
 
-  public ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties threadPoolMaxSize(ConfigNodePropertyInteger threadPoolMaxSize) {
+  public ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties threadPoolMaxSize(@Nullable ConfigNodePropertyInteger threadPoolMaxSize) {
     this.threadPoolMaxSize = threadPoolMaxSize;
     return this;
   }
@@ -211,20 +222,20 @@ public class ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties   {
   /**
    * Get threadPoolMaxSize
    * @return threadPoolMaxSize
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getThreadPoolMaxSize() {
+   */
+  @Valid 
+  @Schema(name = "thread.pool.max.size", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("thread.pool.max.size")
+  public @Nullable ConfigNodePropertyInteger getThreadPoolMaxSize() {
     return threadPoolMaxSize;
   }
 
-  public void setThreadPoolMaxSize(ConfigNodePropertyInteger threadPoolMaxSize) {
+  @JsonProperty("thread.pool.max.size")
+  public void setThreadPoolMaxSize(@Nullable ConfigNodePropertyInteger threadPoolMaxSize) {
     this.threadPoolMaxSize = threadPoolMaxSize;
   }
 
-  public ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties scheduledThreadPoolMaxSize(ConfigNodePropertyInteger scheduledThreadPoolMaxSize) {
+  public ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties scheduledThreadPoolMaxSize(@Nullable ConfigNodePropertyInteger scheduledThreadPoolMaxSize) {
     this.scheduledThreadPoolMaxSize = scheduledThreadPoolMaxSize;
     return this;
   }
@@ -232,20 +243,20 @@ public class ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties   {
   /**
    * Get scheduledThreadPoolMaxSize
    * @return scheduledThreadPoolMaxSize
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getScheduledThreadPoolMaxSize() {
+   */
+  @Valid 
+  @Schema(name = "scheduled.thread.pool.max.size", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("scheduled.thread.pool.max.size")
+  public @Nullable ConfigNodePropertyInteger getScheduledThreadPoolMaxSize() {
     return scheduledThreadPoolMaxSize;
   }
 
-  public void setScheduledThreadPoolMaxSize(ConfigNodePropertyInteger scheduledThreadPoolMaxSize) {
+  @JsonProperty("scheduled.thread.pool.max.size")
+  public void setScheduledThreadPoolMaxSize(@Nullable ConfigNodePropertyInteger scheduledThreadPoolMaxSize) {
     this.scheduledThreadPoolMaxSize = scheduledThreadPoolMaxSize;
   }
 
-  public ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties gracefulShutdownTimeout(ConfigNodePropertyInteger gracefulShutdownTimeout) {
+  public ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties gracefulShutdownTimeout(@Nullable ConfigNodePropertyInteger gracefulShutdownTimeout) {
     this.gracefulShutdownTimeout = gracefulShutdownTimeout;
     return this;
   }
@@ -253,20 +264,20 @@ public class ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties   {
   /**
    * Get gracefulShutdownTimeout
    * @return gracefulShutdownTimeout
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getGracefulShutdownTimeout() {
+   */
+  @Valid 
+  @Schema(name = "graceful.shutdown.timeout", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("graceful.shutdown.timeout")
+  public @Nullable ConfigNodePropertyInteger getGracefulShutdownTimeout() {
     return gracefulShutdownTimeout;
   }
 
-  public void setGracefulShutdownTimeout(ConfigNodePropertyInteger gracefulShutdownTimeout) {
+  @JsonProperty("graceful.shutdown.timeout")
+  public void setGracefulShutdownTimeout(@Nullable ConfigNodePropertyInteger gracefulShutdownTimeout) {
     this.gracefulShutdownTimeout = gracefulShutdownTimeout;
   }
 
-  public ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties queues(ConfigNodePropertyArray queues) {
+  public ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties queues(@Nullable ConfigNodePropertyArray queues) {
     this.queues = queues;
     return this;
   }
@@ -274,20 +285,20 @@ public class ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties   {
   /**
    * Get queues
    * @return queues
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getQueues() {
+   */
+  @Valid 
+  @Schema(name = "queues", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("queues")
+  public @Nullable ConfigNodePropertyArray getQueues() {
     return queues;
   }
 
-  public void setQueues(ConfigNodePropertyArray queues) {
+  @JsonProperty("queues")
+  public void setQueues(@Nullable ConfigNodePropertyArray queues) {
     this.queues = queues;
   }
 
-  public ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties topics(ConfigNodePropertyArray topics) {
+  public ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties topics(@Nullable ConfigNodePropertyArray topics) {
     this.topics = topics;
     return this;
   }
@@ -295,20 +306,20 @@ public class ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties   {
   /**
    * Get topics
    * @return topics
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getTopics() {
+   */
+  @Valid 
+  @Schema(name = "topics", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("topics")
+  public @Nullable ConfigNodePropertyArray getTopics() {
     return topics;
   }
 
-  public void setTopics(ConfigNodePropertyArray topics) {
+  @JsonProperty("topics")
+  public void setTopics(@Nullable ConfigNodePropertyArray topics) {
     this.topics = topics;
   }
 
-  public ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties addressesMaxDeliveryAttempts(ConfigNodePropertyInteger addressesMaxDeliveryAttempts) {
+  public ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties addressesMaxDeliveryAttempts(@Nullable ConfigNodePropertyInteger addressesMaxDeliveryAttempts) {
     this.addressesMaxDeliveryAttempts = addressesMaxDeliveryAttempts;
     return this;
   }
@@ -316,20 +327,20 @@ public class ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties   {
   /**
    * Get addressesMaxDeliveryAttempts
    * @return addressesMaxDeliveryAttempts
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getAddressesMaxDeliveryAttempts() {
+   */
+  @Valid 
+  @Schema(name = "addresses.max.delivery.attempts", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("addresses.max.delivery.attempts")
+  public @Nullable ConfigNodePropertyInteger getAddressesMaxDeliveryAttempts() {
     return addressesMaxDeliveryAttempts;
   }
 
-  public void setAddressesMaxDeliveryAttempts(ConfigNodePropertyInteger addressesMaxDeliveryAttempts) {
+  @JsonProperty("addresses.max.delivery.attempts")
+  public void setAddressesMaxDeliveryAttempts(@Nullable ConfigNodePropertyInteger addressesMaxDeliveryAttempts) {
     this.addressesMaxDeliveryAttempts = addressesMaxDeliveryAttempts;
   }
 
-  public ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties addressesExpiryDelay(ConfigNodePropertyInteger addressesExpiryDelay) {
+  public ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties addressesExpiryDelay(@Nullable ConfigNodePropertyInteger addressesExpiryDelay) {
     this.addressesExpiryDelay = addressesExpiryDelay;
     return this;
   }
@@ -337,20 +348,20 @@ public class ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties   {
   /**
    * Get addressesExpiryDelay
    * @return addressesExpiryDelay
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getAddressesExpiryDelay() {
+   */
+  @Valid 
+  @Schema(name = "addresses.expiry.delay", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("addresses.expiry.delay")
+  public @Nullable ConfigNodePropertyInteger getAddressesExpiryDelay() {
     return addressesExpiryDelay;
   }
 
-  public void setAddressesExpiryDelay(ConfigNodePropertyInteger addressesExpiryDelay) {
+  @JsonProperty("addresses.expiry.delay")
+  public void setAddressesExpiryDelay(@Nullable ConfigNodePropertyInteger addressesExpiryDelay) {
     this.addressesExpiryDelay = addressesExpiryDelay;
   }
 
-  public ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties addressesAddressFullMessagePolicy(ConfigNodePropertyDropDown addressesAddressFullMessagePolicy) {
+  public ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties addressesAddressFullMessagePolicy(@Nullable ConfigNodePropertyDropDown addressesAddressFullMessagePolicy) {
     this.addressesAddressFullMessagePolicy = addressesAddressFullMessagePolicy;
     return this;
   }
@@ -358,20 +369,20 @@ public class ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties   {
   /**
    * Get addressesAddressFullMessagePolicy
    * @return addressesAddressFullMessagePolicy
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyDropDown getAddressesAddressFullMessagePolicy() {
+   */
+  @Valid 
+  @Schema(name = "addresses.address.full.message.policy", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("addresses.address.full.message.policy")
+  public @Nullable ConfigNodePropertyDropDown getAddressesAddressFullMessagePolicy() {
     return addressesAddressFullMessagePolicy;
   }
 
-  public void setAddressesAddressFullMessagePolicy(ConfigNodePropertyDropDown addressesAddressFullMessagePolicy) {
+  @JsonProperty("addresses.address.full.message.policy")
+  public void setAddressesAddressFullMessagePolicy(@Nullable ConfigNodePropertyDropDown addressesAddressFullMessagePolicy) {
     this.addressesAddressFullMessagePolicy = addressesAddressFullMessagePolicy;
   }
 
-  public ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties addressesMaxSizeBytes(ConfigNodePropertyInteger addressesMaxSizeBytes) {
+  public ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties addressesMaxSizeBytes(@Nullable ConfigNodePropertyInteger addressesMaxSizeBytes) {
     this.addressesMaxSizeBytes = addressesMaxSizeBytes;
     return this;
   }
@@ -379,20 +390,20 @@ public class ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties   {
   /**
    * Get addressesMaxSizeBytes
    * @return addressesMaxSizeBytes
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getAddressesMaxSizeBytes() {
+   */
+  @Valid 
+  @Schema(name = "addresses.max.size.bytes", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("addresses.max.size.bytes")
+  public @Nullable ConfigNodePropertyInteger getAddressesMaxSizeBytes() {
     return addressesMaxSizeBytes;
   }
 
-  public void setAddressesMaxSizeBytes(ConfigNodePropertyInteger addressesMaxSizeBytes) {
+  @JsonProperty("addresses.max.size.bytes")
+  public void setAddressesMaxSizeBytes(@Nullable ConfigNodePropertyInteger addressesMaxSizeBytes) {
     this.addressesMaxSizeBytes = addressesMaxSizeBytes;
   }
 
-  public ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties addressesPageSizeBytes(ConfigNodePropertyInteger addressesPageSizeBytes) {
+  public ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties addressesPageSizeBytes(@Nullable ConfigNodePropertyInteger addressesPageSizeBytes) {
     this.addressesPageSizeBytes = addressesPageSizeBytes;
     return this;
   }
@@ -400,20 +411,20 @@ public class ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties   {
   /**
    * Get addressesPageSizeBytes
    * @return addressesPageSizeBytes
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getAddressesPageSizeBytes() {
+   */
+  @Valid 
+  @Schema(name = "addresses.page.size.bytes", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("addresses.page.size.bytes")
+  public @Nullable ConfigNodePropertyInteger getAddressesPageSizeBytes() {
     return addressesPageSizeBytes;
   }
 
-  public void setAddressesPageSizeBytes(ConfigNodePropertyInteger addressesPageSizeBytes) {
+  @JsonProperty("addresses.page.size.bytes")
+  public void setAddressesPageSizeBytes(@Nullable ConfigNodePropertyInteger addressesPageSizeBytes) {
     this.addressesPageSizeBytes = addressesPageSizeBytes;
   }
 
-  public ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties addressesPageCacheMaxSize(ConfigNodePropertyInteger addressesPageCacheMaxSize) {
+  public ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties addressesPageCacheMaxSize(@Nullable ConfigNodePropertyInteger addressesPageCacheMaxSize) {
     this.addressesPageCacheMaxSize = addressesPageCacheMaxSize;
     return this;
   }
@@ -421,20 +432,20 @@ public class ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties   {
   /**
    * Get addressesPageCacheMaxSize
    * @return addressesPageCacheMaxSize
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getAddressesPageCacheMaxSize() {
+   */
+  @Valid 
+  @Schema(name = "addresses.page.cache.max.size", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("addresses.page.cache.max.size")
+  public @Nullable ConfigNodePropertyInteger getAddressesPageCacheMaxSize() {
     return addressesPageCacheMaxSize;
   }
 
-  public void setAddressesPageCacheMaxSize(ConfigNodePropertyInteger addressesPageCacheMaxSize) {
+  @JsonProperty("addresses.page.cache.max.size")
+  public void setAddressesPageCacheMaxSize(@Nullable ConfigNodePropertyInteger addressesPageCacheMaxSize) {
     this.addressesPageCacheMaxSize = addressesPageCacheMaxSize;
   }
 
-  public ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties clusterUser(ConfigNodePropertyString clusterUser) {
+  public ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties clusterUser(@Nullable ConfigNodePropertyString clusterUser) {
     this.clusterUser = clusterUser;
     return this;
   }
@@ -442,20 +453,20 @@ public class ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties   {
   /**
    * Get clusterUser
    * @return clusterUser
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getClusterUser() {
+   */
+  @Valid 
+  @Schema(name = "cluster.user", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cluster.user")
+  public @Nullable ConfigNodePropertyString getClusterUser() {
     return clusterUser;
   }
 
-  public void setClusterUser(ConfigNodePropertyString clusterUser) {
+  @JsonProperty("cluster.user")
+  public void setClusterUser(@Nullable ConfigNodePropertyString clusterUser) {
     this.clusterUser = clusterUser;
   }
 
-  public ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties clusterPassword(ConfigNodePropertyString clusterPassword) {
+  public ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties clusterPassword(@Nullable ConfigNodePropertyString clusterPassword) {
     this.clusterPassword = clusterPassword;
     return this;
   }
@@ -463,20 +474,20 @@ public class ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties   {
   /**
    * Get clusterPassword
    * @return clusterPassword
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getClusterPassword() {
+   */
+  @Valid 
+  @Schema(name = "cluster.password", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cluster.password")
+  public @Nullable ConfigNodePropertyString getClusterPassword() {
     return clusterPassword;
   }
 
-  public void setClusterPassword(ConfigNodePropertyString clusterPassword) {
+  @JsonProperty("cluster.password")
+  public void setClusterPassword(@Nullable ConfigNodePropertyString clusterPassword) {
     this.clusterPassword = clusterPassword;
   }
 
-  public ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties clusterCallTimeout(ConfigNodePropertyInteger clusterCallTimeout) {
+  public ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties clusterCallTimeout(@Nullable ConfigNodePropertyInteger clusterCallTimeout) {
     this.clusterCallTimeout = clusterCallTimeout;
     return this;
   }
@@ -484,20 +495,20 @@ public class ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties   {
   /**
    * Get clusterCallTimeout
    * @return clusterCallTimeout
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getClusterCallTimeout() {
+   */
+  @Valid 
+  @Schema(name = "cluster.call.timeout", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cluster.call.timeout")
+  public @Nullable ConfigNodePropertyInteger getClusterCallTimeout() {
     return clusterCallTimeout;
   }
 
-  public void setClusterCallTimeout(ConfigNodePropertyInteger clusterCallTimeout) {
+  @JsonProperty("cluster.call.timeout")
+  public void setClusterCallTimeout(@Nullable ConfigNodePropertyInteger clusterCallTimeout) {
     this.clusterCallTimeout = clusterCallTimeout;
   }
 
-  public ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties clusterCallFailoverTimeout(ConfigNodePropertyInteger clusterCallFailoverTimeout) {
+  public ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties clusterCallFailoverTimeout(@Nullable ConfigNodePropertyInteger clusterCallFailoverTimeout) {
     this.clusterCallFailoverTimeout = clusterCallFailoverTimeout;
     return this;
   }
@@ -505,20 +516,20 @@ public class ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties   {
   /**
    * Get clusterCallFailoverTimeout
    * @return clusterCallFailoverTimeout
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getClusterCallFailoverTimeout() {
+   */
+  @Valid 
+  @Schema(name = "cluster.call.failover.timeout", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cluster.call.failover.timeout")
+  public @Nullable ConfigNodePropertyInteger getClusterCallFailoverTimeout() {
     return clusterCallFailoverTimeout;
   }
 
-  public void setClusterCallFailoverTimeout(ConfigNodePropertyInteger clusterCallFailoverTimeout) {
+  @JsonProperty("cluster.call.failover.timeout")
+  public void setClusterCallFailoverTimeout(@Nullable ConfigNodePropertyInteger clusterCallFailoverTimeout) {
     this.clusterCallFailoverTimeout = clusterCallFailoverTimeout;
   }
 
-  public ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties clusterClientFailureCheckPeriod(ConfigNodePropertyInteger clusterClientFailureCheckPeriod) {
+  public ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties clusterClientFailureCheckPeriod(@Nullable ConfigNodePropertyInteger clusterClientFailureCheckPeriod) {
     this.clusterClientFailureCheckPeriod = clusterClientFailureCheckPeriod;
     return this;
   }
@@ -526,20 +537,20 @@ public class ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties   {
   /**
    * Get clusterClientFailureCheckPeriod
    * @return clusterClientFailureCheckPeriod
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getClusterClientFailureCheckPeriod() {
+   */
+  @Valid 
+  @Schema(name = "cluster.client.failure.check.period", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cluster.client.failure.check.period")
+  public @Nullable ConfigNodePropertyInteger getClusterClientFailureCheckPeriod() {
     return clusterClientFailureCheckPeriod;
   }
 
-  public void setClusterClientFailureCheckPeriod(ConfigNodePropertyInteger clusterClientFailureCheckPeriod) {
+  @JsonProperty("cluster.client.failure.check.period")
+  public void setClusterClientFailureCheckPeriod(@Nullable ConfigNodePropertyInteger clusterClientFailureCheckPeriod) {
     this.clusterClientFailureCheckPeriod = clusterClientFailureCheckPeriod;
   }
 
-  public ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties clusterNotificationAttempts(ConfigNodePropertyInteger clusterNotificationAttempts) {
+  public ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties clusterNotificationAttempts(@Nullable ConfigNodePropertyInteger clusterNotificationAttempts) {
     this.clusterNotificationAttempts = clusterNotificationAttempts;
     return this;
   }
@@ -547,20 +558,20 @@ public class ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties   {
   /**
    * Get clusterNotificationAttempts
    * @return clusterNotificationAttempts
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getClusterNotificationAttempts() {
+   */
+  @Valid 
+  @Schema(name = "cluster.notification.attempts", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cluster.notification.attempts")
+  public @Nullable ConfigNodePropertyInteger getClusterNotificationAttempts() {
     return clusterNotificationAttempts;
   }
 
-  public void setClusterNotificationAttempts(ConfigNodePropertyInteger clusterNotificationAttempts) {
+  @JsonProperty("cluster.notification.attempts")
+  public void setClusterNotificationAttempts(@Nullable ConfigNodePropertyInteger clusterNotificationAttempts) {
     this.clusterNotificationAttempts = clusterNotificationAttempts;
   }
 
-  public ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties clusterNotificationInterval(ConfigNodePropertyInteger clusterNotificationInterval) {
+  public ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties clusterNotificationInterval(@Nullable ConfigNodePropertyInteger clusterNotificationInterval) {
     this.clusterNotificationInterval = clusterNotificationInterval;
     return this;
   }
@@ -568,20 +579,20 @@ public class ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties   {
   /**
    * Get clusterNotificationInterval
    * @return clusterNotificationInterval
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getClusterNotificationInterval() {
+   */
+  @Valid 
+  @Schema(name = "cluster.notification.interval", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cluster.notification.interval")
+  public @Nullable ConfigNodePropertyInteger getClusterNotificationInterval() {
     return clusterNotificationInterval;
   }
 
-  public void setClusterNotificationInterval(ConfigNodePropertyInteger clusterNotificationInterval) {
+  @JsonProperty("cluster.notification.interval")
+  public void setClusterNotificationInterval(@Nullable ConfigNodePropertyInteger clusterNotificationInterval) {
     this.clusterNotificationInterval = clusterNotificationInterval;
   }
 
-  public ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties idCacheSize(ConfigNodePropertyInteger idCacheSize) {
+  public ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties idCacheSize(@Nullable ConfigNodePropertyInteger idCacheSize) {
     this.idCacheSize = idCacheSize;
     return this;
   }
@@ -589,20 +600,20 @@ public class ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties   {
   /**
    * Get idCacheSize
    * @return idCacheSize
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getIdCacheSize() {
+   */
+  @Valid 
+  @Schema(name = "id.cache.size", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("id.cache.size")
+  public @Nullable ConfigNodePropertyInteger getIdCacheSize() {
     return idCacheSize;
   }
 
-  public void setIdCacheSize(ConfigNodePropertyInteger idCacheSize) {
+  @JsonProperty("id.cache.size")
+  public void setIdCacheSize(@Nullable ConfigNodePropertyInteger idCacheSize) {
     this.idCacheSize = idCacheSize;
   }
 
-  public ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties clusterConfirmationWindowSize(ConfigNodePropertyInteger clusterConfirmationWindowSize) {
+  public ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties clusterConfirmationWindowSize(@Nullable ConfigNodePropertyInteger clusterConfirmationWindowSize) {
     this.clusterConfirmationWindowSize = clusterConfirmationWindowSize;
     return this;
   }
@@ -610,20 +621,20 @@ public class ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties   {
   /**
    * Get clusterConfirmationWindowSize
    * @return clusterConfirmationWindowSize
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getClusterConfirmationWindowSize() {
+   */
+  @Valid 
+  @Schema(name = "cluster.confirmation.window.size", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cluster.confirmation.window.size")
+  public @Nullable ConfigNodePropertyInteger getClusterConfirmationWindowSize() {
     return clusterConfirmationWindowSize;
   }
 
-  public void setClusterConfirmationWindowSize(ConfigNodePropertyInteger clusterConfirmationWindowSize) {
+  @JsonProperty("cluster.confirmation.window.size")
+  public void setClusterConfirmationWindowSize(@Nullable ConfigNodePropertyInteger clusterConfirmationWindowSize) {
     this.clusterConfirmationWindowSize = clusterConfirmationWindowSize;
   }
 
-  public ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties clusterConnectionTtl(ConfigNodePropertyInteger clusterConnectionTtl) {
+  public ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties clusterConnectionTtl(@Nullable ConfigNodePropertyInteger clusterConnectionTtl) {
     this.clusterConnectionTtl = clusterConnectionTtl;
     return this;
   }
@@ -631,20 +642,20 @@ public class ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties   {
   /**
    * Get clusterConnectionTtl
    * @return clusterConnectionTtl
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getClusterConnectionTtl() {
+   */
+  @Valid 
+  @Schema(name = "cluster.connection.ttl", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cluster.connection.ttl")
+  public @Nullable ConfigNodePropertyInteger getClusterConnectionTtl() {
     return clusterConnectionTtl;
   }
 
-  public void setClusterConnectionTtl(ConfigNodePropertyInteger clusterConnectionTtl) {
+  @JsonProperty("cluster.connection.ttl")
+  public void setClusterConnectionTtl(@Nullable ConfigNodePropertyInteger clusterConnectionTtl) {
     this.clusterConnectionTtl = clusterConnectionTtl;
   }
 
-  public ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties clusterDuplicateDetection(ConfigNodePropertyBoolean clusterDuplicateDetection) {
+  public ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties clusterDuplicateDetection(@Nullable ConfigNodePropertyBoolean clusterDuplicateDetection) {
     this.clusterDuplicateDetection = clusterDuplicateDetection;
     return this;
   }
@@ -652,20 +663,20 @@ public class ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties   {
   /**
    * Get clusterDuplicateDetection
    * @return clusterDuplicateDetection
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getClusterDuplicateDetection() {
+   */
+  @Valid 
+  @Schema(name = "cluster.duplicate.detection", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cluster.duplicate.detection")
+  public @Nullable ConfigNodePropertyBoolean getClusterDuplicateDetection() {
     return clusterDuplicateDetection;
   }
 
-  public void setClusterDuplicateDetection(ConfigNodePropertyBoolean clusterDuplicateDetection) {
+  @JsonProperty("cluster.duplicate.detection")
+  public void setClusterDuplicateDetection(@Nullable ConfigNodePropertyBoolean clusterDuplicateDetection) {
     this.clusterDuplicateDetection = clusterDuplicateDetection;
   }
 
-  public ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties clusterInitialConnectAttempts(ConfigNodePropertyInteger clusterInitialConnectAttempts) {
+  public ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties clusterInitialConnectAttempts(@Nullable ConfigNodePropertyInteger clusterInitialConnectAttempts) {
     this.clusterInitialConnectAttempts = clusterInitialConnectAttempts;
     return this;
   }
@@ -673,20 +684,20 @@ public class ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties   {
   /**
    * Get clusterInitialConnectAttempts
    * @return clusterInitialConnectAttempts
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getClusterInitialConnectAttempts() {
+   */
+  @Valid 
+  @Schema(name = "cluster.initial.connect.attempts", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cluster.initial.connect.attempts")
+  public @Nullable ConfigNodePropertyInteger getClusterInitialConnectAttempts() {
     return clusterInitialConnectAttempts;
   }
 
-  public void setClusterInitialConnectAttempts(ConfigNodePropertyInteger clusterInitialConnectAttempts) {
+  @JsonProperty("cluster.initial.connect.attempts")
+  public void setClusterInitialConnectAttempts(@Nullable ConfigNodePropertyInteger clusterInitialConnectAttempts) {
     this.clusterInitialConnectAttempts = clusterInitialConnectAttempts;
   }
 
-  public ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties clusterMaxRetryInterval(ConfigNodePropertyInteger clusterMaxRetryInterval) {
+  public ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties clusterMaxRetryInterval(@Nullable ConfigNodePropertyInteger clusterMaxRetryInterval) {
     this.clusterMaxRetryInterval = clusterMaxRetryInterval;
     return this;
   }
@@ -694,20 +705,20 @@ public class ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties   {
   /**
    * Get clusterMaxRetryInterval
    * @return clusterMaxRetryInterval
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getClusterMaxRetryInterval() {
+   */
+  @Valid 
+  @Schema(name = "cluster.max.retry.interval", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cluster.max.retry.interval")
+  public @Nullable ConfigNodePropertyInteger getClusterMaxRetryInterval() {
     return clusterMaxRetryInterval;
   }
 
-  public void setClusterMaxRetryInterval(ConfigNodePropertyInteger clusterMaxRetryInterval) {
+  @JsonProperty("cluster.max.retry.interval")
+  public void setClusterMaxRetryInterval(@Nullable ConfigNodePropertyInteger clusterMaxRetryInterval) {
     this.clusterMaxRetryInterval = clusterMaxRetryInterval;
   }
 
-  public ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties clusterMinLargeMessageSize(ConfigNodePropertyInteger clusterMinLargeMessageSize) {
+  public ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties clusterMinLargeMessageSize(@Nullable ConfigNodePropertyInteger clusterMinLargeMessageSize) {
     this.clusterMinLargeMessageSize = clusterMinLargeMessageSize;
     return this;
   }
@@ -715,20 +726,20 @@ public class ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties   {
   /**
    * Get clusterMinLargeMessageSize
    * @return clusterMinLargeMessageSize
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getClusterMinLargeMessageSize() {
+   */
+  @Valid 
+  @Schema(name = "cluster.min.large.message.size", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cluster.min.large.message.size")
+  public @Nullable ConfigNodePropertyInteger getClusterMinLargeMessageSize() {
     return clusterMinLargeMessageSize;
   }
 
-  public void setClusterMinLargeMessageSize(ConfigNodePropertyInteger clusterMinLargeMessageSize) {
+  @JsonProperty("cluster.min.large.message.size")
+  public void setClusterMinLargeMessageSize(@Nullable ConfigNodePropertyInteger clusterMinLargeMessageSize) {
     this.clusterMinLargeMessageSize = clusterMinLargeMessageSize;
   }
 
-  public ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties clusterProducerWindowSize(ConfigNodePropertyInteger clusterProducerWindowSize) {
+  public ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties clusterProducerWindowSize(@Nullable ConfigNodePropertyInteger clusterProducerWindowSize) {
     this.clusterProducerWindowSize = clusterProducerWindowSize;
     return this;
   }
@@ -736,20 +747,20 @@ public class ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties   {
   /**
    * Get clusterProducerWindowSize
    * @return clusterProducerWindowSize
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getClusterProducerWindowSize() {
+   */
+  @Valid 
+  @Schema(name = "cluster.producer.window.size", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cluster.producer.window.size")
+  public @Nullable ConfigNodePropertyInteger getClusterProducerWindowSize() {
     return clusterProducerWindowSize;
   }
 
-  public void setClusterProducerWindowSize(ConfigNodePropertyInteger clusterProducerWindowSize) {
+  @JsonProperty("cluster.producer.window.size")
+  public void setClusterProducerWindowSize(@Nullable ConfigNodePropertyInteger clusterProducerWindowSize) {
     this.clusterProducerWindowSize = clusterProducerWindowSize;
   }
 
-  public ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties clusterReconnectAttempts(ConfigNodePropertyInteger clusterReconnectAttempts) {
+  public ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties clusterReconnectAttempts(@Nullable ConfigNodePropertyInteger clusterReconnectAttempts) {
     this.clusterReconnectAttempts = clusterReconnectAttempts;
     return this;
   }
@@ -757,20 +768,20 @@ public class ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties   {
   /**
    * Get clusterReconnectAttempts
    * @return clusterReconnectAttempts
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getClusterReconnectAttempts() {
+   */
+  @Valid 
+  @Schema(name = "cluster.reconnect.attempts", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cluster.reconnect.attempts")
+  public @Nullable ConfigNodePropertyInteger getClusterReconnectAttempts() {
     return clusterReconnectAttempts;
   }
 
-  public void setClusterReconnectAttempts(ConfigNodePropertyInteger clusterReconnectAttempts) {
+  @JsonProperty("cluster.reconnect.attempts")
+  public void setClusterReconnectAttempts(@Nullable ConfigNodePropertyInteger clusterReconnectAttempts) {
     this.clusterReconnectAttempts = clusterReconnectAttempts;
   }
 
-  public ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties clusterRetryInterval(ConfigNodePropertyInteger clusterRetryInterval) {
+  public ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties clusterRetryInterval(@Nullable ConfigNodePropertyInteger clusterRetryInterval) {
     this.clusterRetryInterval = clusterRetryInterval;
     return this;
   }
@@ -778,20 +789,20 @@ public class ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties   {
   /**
    * Get clusterRetryInterval
    * @return clusterRetryInterval
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getClusterRetryInterval() {
+   */
+  @Valid 
+  @Schema(name = "cluster.retry.interval", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cluster.retry.interval")
+  public @Nullable ConfigNodePropertyInteger getClusterRetryInterval() {
     return clusterRetryInterval;
   }
 
-  public void setClusterRetryInterval(ConfigNodePropertyInteger clusterRetryInterval) {
+  @JsonProperty("cluster.retry.interval")
+  public void setClusterRetryInterval(@Nullable ConfigNodePropertyInteger clusterRetryInterval) {
     this.clusterRetryInterval = clusterRetryInterval;
   }
 
-  public ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties clusterRetryIntervalMultiplier(ConfigNodePropertyFloat clusterRetryIntervalMultiplier) {
+  public ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties clusterRetryIntervalMultiplier(@Nullable ConfigNodePropertyFloat clusterRetryIntervalMultiplier) {
     this.clusterRetryIntervalMultiplier = clusterRetryIntervalMultiplier;
     return this;
   }
@@ -799,22 +810,21 @@ public class ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties   {
   /**
    * Get clusterRetryIntervalMultiplier
    * @return clusterRetryIntervalMultiplier
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyFloat getClusterRetryIntervalMultiplier() {
+   */
+  @Valid 
+  @Schema(name = "cluster.retry.interval.multiplier", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cluster.retry.interval.multiplier")
+  public @Nullable ConfigNodePropertyFloat getClusterRetryIntervalMultiplier() {
     return clusterRetryIntervalMultiplier;
   }
 
-  public void setClusterRetryIntervalMultiplier(ConfigNodePropertyFloat clusterRetryIntervalMultiplier) {
+  @JsonProperty("cluster.retry.interval.multiplier")
+  public void setClusterRetryIntervalMultiplier(@Nullable ConfigNodePropertyFloat clusterRetryIntervalMultiplier) {
     this.clusterRetryIntervalMultiplier = clusterRetryIntervalMultiplier;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -866,7 +876,6 @@ public class ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties {\n");
-    
     sb.append("    serviceRanking: ").append(toIndentedString(serviceRanking)).append("\n");
     sb.append("    globalSize: ").append(toIndentedString(globalSize)).append("\n");
     sb.append("    maxDiskUsage: ").append(toIndentedString(maxDiskUsage)).append("\n");
@@ -908,11 +917,8 @@ public class ComAdobeCqScreensMqActivemqImplArtemisJMSProviderProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

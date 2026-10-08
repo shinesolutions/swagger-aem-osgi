@@ -5,28 +5,27 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
 
 import io.swagger.annotations.ApiModelProperty;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlType;
-import javax.xml.bind.annotation.XmlEnum;
-import javax.xml.bind.annotation.XmlEnumValue;
+import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
 
 public class ComAdobeCqSocialHandlebarsGuavaTemplateCacheImplProperties  {
   
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyBoolean parameterGuavaCacheEnabled = null;
+
+  private ConfigNodePropertyBoolean parameterGuavaCacheEnabled;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString parameterGuavaCacheParams = null;
+
+  private ConfigNodePropertyString parameterGuavaCacheParams;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyBoolean parameterGuavaCacheReload = null;
+
+  private ConfigNodePropertyBoolean parameterGuavaCacheReload;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyInteger serviceRanking = null;
+
+  private ConfigNodePropertyInteger serviceRanking;
  /**
    * Get parameterGuavaCacheEnabled
    * @return parameterGuavaCacheEnabled
@@ -99,6 +98,25 @@ public class ComAdobeCqSocialHandlebarsGuavaTemplateCacheImplProperties  {
     return this;
   }
 
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    ComAdobeCqSocialHandlebarsGuavaTemplateCacheImplProperties comAdobeCqSocialHandlebarsGuavaTemplateCacheImplProperties = (ComAdobeCqSocialHandlebarsGuavaTemplateCacheImplProperties) o;
+    return Objects.equals(this.parameterGuavaCacheEnabled, comAdobeCqSocialHandlebarsGuavaTemplateCacheImplProperties.parameterGuavaCacheEnabled) &&
+        Objects.equals(this.parameterGuavaCacheParams, comAdobeCqSocialHandlebarsGuavaTemplateCacheImplProperties.parameterGuavaCacheParams) &&
+        Objects.equals(this.parameterGuavaCacheReload, comAdobeCqSocialHandlebarsGuavaTemplateCacheImplProperties.parameterGuavaCacheReload) &&
+        Objects.equals(this.serviceRanking, comAdobeCqSocialHandlebarsGuavaTemplateCacheImplProperties.serviceRanking);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(parameterGuavaCacheEnabled, parameterGuavaCacheParams, parameterGuavaCacheReload, serviceRanking);
+  }
 
   @Override
   public String toString() {
@@ -117,11 +135,8 @@ public class ComAdobeCqSocialHandlebarsGuavaTemplateCacheImplProperties  {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private static String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

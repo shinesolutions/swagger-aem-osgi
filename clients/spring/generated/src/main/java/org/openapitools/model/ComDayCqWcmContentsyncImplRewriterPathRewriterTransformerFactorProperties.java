@@ -1,40 +1,51 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorProperties   {
-  @JsonProperty("cq.contentsync.pathrewritertransformer.mapping.links")
-  private ConfigNodePropertyArray cqContentsyncPathrewritertransformerMappingLinks = null;
+@JsonTypeName("comDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorProperties {
 
-  @JsonProperty("cq.contentsync.pathrewritertransformer.mapping.clientlibs")
-  private ConfigNodePropertyArray cqContentsyncPathrewritertransformerMappingClientlibs = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray cqContentsyncPathrewritertransformerMappingLinks;
 
-  @JsonProperty("cq.contentsync.pathrewritertransformer.mapping.images")
-  private ConfigNodePropertyArray cqContentsyncPathrewritertransformerMappingImages = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray cqContentsyncPathrewritertransformerMappingClientlibs;
 
-  @JsonProperty("cq.contentsync.pathrewritertransformer.attribute.pattern")
-  private ConfigNodePropertyString cqContentsyncPathrewritertransformerAttributePattern = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray cqContentsyncPathrewritertransformerMappingImages;
 
-  @JsonProperty("cq.contentsync.pathrewritertransformer.clientlibrary.pattern")
-  private ConfigNodePropertyString cqContentsyncPathrewritertransformerClientlibraryPattern = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString cqContentsyncPathrewritertransformerAttributePattern;
 
-  @JsonProperty("cq.contentsync.pathrewritertransformer.clientlibrary.replace")
-  private ConfigNodePropertyString cqContentsyncPathrewritertransformerClientlibraryReplace = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString cqContentsyncPathrewritertransformerClientlibraryPattern;
 
-  public ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorProperties cqContentsyncPathrewritertransformerMappingLinks(ConfigNodePropertyArray cqContentsyncPathrewritertransformerMappingLinks) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString cqContentsyncPathrewritertransformerClientlibraryReplace;
+
+  public ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorProperties cqContentsyncPathrewritertransformerMappingLinks(@Nullable ConfigNodePropertyArray cqContentsyncPathrewritertransformerMappingLinks) {
     this.cqContentsyncPathrewritertransformerMappingLinks = cqContentsyncPathrewritertransformerMappingLinks;
     return this;
   }
@@ -42,20 +53,20 @@ public class ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorProp
   /**
    * Get cqContentsyncPathrewritertransformerMappingLinks
    * @return cqContentsyncPathrewritertransformerMappingLinks
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getCqContentsyncPathrewritertransformerMappingLinks() {
+   */
+  @Valid 
+  @Schema(name = "cq.contentsync.pathrewritertransformer.mapping.links", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cq.contentsync.pathrewritertransformer.mapping.links")
+  public @Nullable ConfigNodePropertyArray getCqContentsyncPathrewritertransformerMappingLinks() {
     return cqContentsyncPathrewritertransformerMappingLinks;
   }
 
-  public void setCqContentsyncPathrewritertransformerMappingLinks(ConfigNodePropertyArray cqContentsyncPathrewritertransformerMappingLinks) {
+  @JsonProperty("cq.contentsync.pathrewritertransformer.mapping.links")
+  public void setCqContentsyncPathrewritertransformerMappingLinks(@Nullable ConfigNodePropertyArray cqContentsyncPathrewritertransformerMappingLinks) {
     this.cqContentsyncPathrewritertransformerMappingLinks = cqContentsyncPathrewritertransformerMappingLinks;
   }
 
-  public ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorProperties cqContentsyncPathrewritertransformerMappingClientlibs(ConfigNodePropertyArray cqContentsyncPathrewritertransformerMappingClientlibs) {
+  public ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorProperties cqContentsyncPathrewritertransformerMappingClientlibs(@Nullable ConfigNodePropertyArray cqContentsyncPathrewritertransformerMappingClientlibs) {
     this.cqContentsyncPathrewritertransformerMappingClientlibs = cqContentsyncPathrewritertransformerMappingClientlibs;
     return this;
   }
@@ -63,20 +74,20 @@ public class ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorProp
   /**
    * Get cqContentsyncPathrewritertransformerMappingClientlibs
    * @return cqContentsyncPathrewritertransformerMappingClientlibs
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getCqContentsyncPathrewritertransformerMappingClientlibs() {
+   */
+  @Valid 
+  @Schema(name = "cq.contentsync.pathrewritertransformer.mapping.clientlibs", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cq.contentsync.pathrewritertransformer.mapping.clientlibs")
+  public @Nullable ConfigNodePropertyArray getCqContentsyncPathrewritertransformerMappingClientlibs() {
     return cqContentsyncPathrewritertransformerMappingClientlibs;
   }
 
-  public void setCqContentsyncPathrewritertransformerMappingClientlibs(ConfigNodePropertyArray cqContentsyncPathrewritertransformerMappingClientlibs) {
+  @JsonProperty("cq.contentsync.pathrewritertransformer.mapping.clientlibs")
+  public void setCqContentsyncPathrewritertransformerMappingClientlibs(@Nullable ConfigNodePropertyArray cqContentsyncPathrewritertransformerMappingClientlibs) {
     this.cqContentsyncPathrewritertransformerMappingClientlibs = cqContentsyncPathrewritertransformerMappingClientlibs;
   }
 
-  public ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorProperties cqContentsyncPathrewritertransformerMappingImages(ConfigNodePropertyArray cqContentsyncPathrewritertransformerMappingImages) {
+  public ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorProperties cqContentsyncPathrewritertransformerMappingImages(@Nullable ConfigNodePropertyArray cqContentsyncPathrewritertransformerMappingImages) {
     this.cqContentsyncPathrewritertransformerMappingImages = cqContentsyncPathrewritertransformerMappingImages;
     return this;
   }
@@ -84,20 +95,20 @@ public class ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorProp
   /**
    * Get cqContentsyncPathrewritertransformerMappingImages
    * @return cqContentsyncPathrewritertransformerMappingImages
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getCqContentsyncPathrewritertransformerMappingImages() {
+   */
+  @Valid 
+  @Schema(name = "cq.contentsync.pathrewritertransformer.mapping.images", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cq.contentsync.pathrewritertransformer.mapping.images")
+  public @Nullable ConfigNodePropertyArray getCqContentsyncPathrewritertransformerMappingImages() {
     return cqContentsyncPathrewritertransformerMappingImages;
   }
 
-  public void setCqContentsyncPathrewritertransformerMappingImages(ConfigNodePropertyArray cqContentsyncPathrewritertransformerMappingImages) {
+  @JsonProperty("cq.contentsync.pathrewritertransformer.mapping.images")
+  public void setCqContentsyncPathrewritertransformerMappingImages(@Nullable ConfigNodePropertyArray cqContentsyncPathrewritertransformerMappingImages) {
     this.cqContentsyncPathrewritertransformerMappingImages = cqContentsyncPathrewritertransformerMappingImages;
   }
 
-  public ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorProperties cqContentsyncPathrewritertransformerAttributePattern(ConfigNodePropertyString cqContentsyncPathrewritertransformerAttributePattern) {
+  public ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorProperties cqContentsyncPathrewritertransformerAttributePattern(@Nullable ConfigNodePropertyString cqContentsyncPathrewritertransformerAttributePattern) {
     this.cqContentsyncPathrewritertransformerAttributePattern = cqContentsyncPathrewritertransformerAttributePattern;
     return this;
   }
@@ -105,20 +116,20 @@ public class ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorProp
   /**
    * Get cqContentsyncPathrewritertransformerAttributePattern
    * @return cqContentsyncPathrewritertransformerAttributePattern
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getCqContentsyncPathrewritertransformerAttributePattern() {
+   */
+  @Valid 
+  @Schema(name = "cq.contentsync.pathrewritertransformer.attribute.pattern", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cq.contentsync.pathrewritertransformer.attribute.pattern")
+  public @Nullable ConfigNodePropertyString getCqContentsyncPathrewritertransformerAttributePattern() {
     return cqContentsyncPathrewritertransformerAttributePattern;
   }
 
-  public void setCqContentsyncPathrewritertransformerAttributePattern(ConfigNodePropertyString cqContentsyncPathrewritertransformerAttributePattern) {
+  @JsonProperty("cq.contentsync.pathrewritertransformer.attribute.pattern")
+  public void setCqContentsyncPathrewritertransformerAttributePattern(@Nullable ConfigNodePropertyString cqContentsyncPathrewritertransformerAttributePattern) {
     this.cqContentsyncPathrewritertransformerAttributePattern = cqContentsyncPathrewritertransformerAttributePattern;
   }
 
-  public ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorProperties cqContentsyncPathrewritertransformerClientlibraryPattern(ConfigNodePropertyString cqContentsyncPathrewritertransformerClientlibraryPattern) {
+  public ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorProperties cqContentsyncPathrewritertransformerClientlibraryPattern(@Nullable ConfigNodePropertyString cqContentsyncPathrewritertransformerClientlibraryPattern) {
     this.cqContentsyncPathrewritertransformerClientlibraryPattern = cqContentsyncPathrewritertransformerClientlibraryPattern;
     return this;
   }
@@ -126,20 +137,20 @@ public class ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorProp
   /**
    * Get cqContentsyncPathrewritertransformerClientlibraryPattern
    * @return cqContentsyncPathrewritertransformerClientlibraryPattern
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getCqContentsyncPathrewritertransformerClientlibraryPattern() {
+   */
+  @Valid 
+  @Schema(name = "cq.contentsync.pathrewritertransformer.clientlibrary.pattern", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cq.contentsync.pathrewritertransformer.clientlibrary.pattern")
+  public @Nullable ConfigNodePropertyString getCqContentsyncPathrewritertransformerClientlibraryPattern() {
     return cqContentsyncPathrewritertransformerClientlibraryPattern;
   }
 
-  public void setCqContentsyncPathrewritertransformerClientlibraryPattern(ConfigNodePropertyString cqContentsyncPathrewritertransformerClientlibraryPattern) {
+  @JsonProperty("cq.contentsync.pathrewritertransformer.clientlibrary.pattern")
+  public void setCqContentsyncPathrewritertransformerClientlibraryPattern(@Nullable ConfigNodePropertyString cqContentsyncPathrewritertransformerClientlibraryPattern) {
     this.cqContentsyncPathrewritertransformerClientlibraryPattern = cqContentsyncPathrewritertransformerClientlibraryPattern;
   }
 
-  public ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorProperties cqContentsyncPathrewritertransformerClientlibraryReplace(ConfigNodePropertyString cqContentsyncPathrewritertransformerClientlibraryReplace) {
+  public ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorProperties cqContentsyncPathrewritertransformerClientlibraryReplace(@Nullable ConfigNodePropertyString cqContentsyncPathrewritertransformerClientlibraryReplace) {
     this.cqContentsyncPathrewritertransformerClientlibraryReplace = cqContentsyncPathrewritertransformerClientlibraryReplace;
     return this;
   }
@@ -147,22 +158,21 @@ public class ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorProp
   /**
    * Get cqContentsyncPathrewritertransformerClientlibraryReplace
    * @return cqContentsyncPathrewritertransformerClientlibraryReplace
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getCqContentsyncPathrewritertransformerClientlibraryReplace() {
+   */
+  @Valid 
+  @Schema(name = "cq.contentsync.pathrewritertransformer.clientlibrary.replace", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cq.contentsync.pathrewritertransformer.clientlibrary.replace")
+  public @Nullable ConfigNodePropertyString getCqContentsyncPathrewritertransformerClientlibraryReplace() {
     return cqContentsyncPathrewritertransformerClientlibraryReplace;
   }
 
-  public void setCqContentsyncPathrewritertransformerClientlibraryReplace(ConfigNodePropertyString cqContentsyncPathrewritertransformerClientlibraryReplace) {
+  @JsonProperty("cq.contentsync.pathrewritertransformer.clientlibrary.replace")
+  public void setCqContentsyncPathrewritertransformerClientlibraryReplace(@Nullable ConfigNodePropertyString cqContentsyncPathrewritertransformerClientlibraryReplace) {
     this.cqContentsyncPathrewritertransformerClientlibraryReplace = cqContentsyncPathrewritertransformerClientlibraryReplace;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -187,7 +197,6 @@ public class ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorProp
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorProperties {\n");
-    
     sb.append("    cqContentsyncPathrewritertransformerMappingLinks: ").append(toIndentedString(cqContentsyncPathrewritertransformerMappingLinks)).append("\n");
     sb.append("    cqContentsyncPathrewritertransformerMappingClientlibs: ").append(toIndentedString(cqContentsyncPathrewritertransformerMappingClientlibs)).append("\n");
     sb.append("    cqContentsyncPathrewritertransformerMappingImages: ").append(toIndentedString(cqContentsyncPathrewritertransformerMappingImages)).append("\n");
@@ -202,11 +211,8 @@ public class ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorProp
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

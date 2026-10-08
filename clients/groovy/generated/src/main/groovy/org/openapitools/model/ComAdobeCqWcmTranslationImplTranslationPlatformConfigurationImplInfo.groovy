@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqWcmTranslationImplTranslationPlatformCon
 
 @Canonical
 class ComAdobeCqWcmTranslationImplTranslationPlatformConfigurationImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqWcmTranslationImplTranslationPlatformConfigurationImplProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqWcmTranslationImplTranslationPlatformConfigurationImplProperties properties
 }

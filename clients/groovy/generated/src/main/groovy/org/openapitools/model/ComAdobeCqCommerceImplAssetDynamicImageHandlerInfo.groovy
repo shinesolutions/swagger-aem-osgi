@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqCommerceImplAssetDynamicImageHandlerProp
 
 @Canonical
 class ComAdobeCqCommerceImplAssetDynamicImageHandlerInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqCommerceImplAssetDynamicImageHandlerProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqCommerceImplAssetDynamicImageHandlerProperties properties
 }

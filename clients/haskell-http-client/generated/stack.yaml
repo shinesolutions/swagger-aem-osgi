@@ -1,8 +1,7 @@
-resolver: lts-10.10
+resolver: lts-24.42
 build:
   haddock-arguments:
     haddock-args:
     - "--odir=./docs"
-extra-deps: []
 packages:
 - '.'

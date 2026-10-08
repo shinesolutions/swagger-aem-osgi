@@ -1,85 +1,96 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyDropDown;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties   {
-  @JsonProperty("name")
-  private ConfigNodePropertyString name = null;
+@JsonTypeName("orgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties {
 
-  @JsonProperty("title")
-  private ConfigNodePropertyString title = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString name;
 
-  @JsonProperty("details")
-  private ConfigNodePropertyString details = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString title;
 
-  @JsonProperty("enabled")
-  private ConfigNodePropertyBoolean enabled = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString details;
 
-  @JsonProperty("serviceName")
-  private ConfigNodePropertyString serviceName = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean enabled;
 
-  @JsonProperty("log.level")
-  private ConfigNodePropertyDropDown logLevel = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString serviceName;
 
-  @JsonProperty("allowed.roots")
-  private ConfigNodePropertyArray allowedRoots = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyDropDown logLevel;
 
-  @JsonProperty("queue.processing.enabled")
-  private ConfigNodePropertyBoolean queueProcessingEnabled = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray allowedRoots;
 
-  @JsonProperty("packageImporter.endpoints")
-  private ConfigNodePropertyArray packageImporterEndpoints = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean queueProcessingEnabled;
 
-  @JsonProperty("passiveQueues")
-  private ConfigNodePropertyArray passiveQueues = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray packageImporterEndpoints;
 
-  @JsonProperty("priorityQueues")
-  private ConfigNodePropertyArray priorityQueues = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray passiveQueues;
 
-  @JsonProperty("retry.strategy")
-  private ConfigNodePropertyDropDown retryStrategy = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray priorityQueues;
 
-  @JsonProperty("retry.attempts")
-  private ConfigNodePropertyInteger retryAttempts = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyDropDown retryStrategy;
 
-  @JsonProperty("requestAuthorizationStrategy.target")
-  private ConfigNodePropertyString requestAuthorizationStrategyTarget = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger retryAttempts;
 
-  @JsonProperty("transportSecretProvider.target")
-  private ConfigNodePropertyString transportSecretProviderTarget = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString requestAuthorizationStrategyTarget;
 
-  @JsonProperty("packageBuilder.target")
-  private ConfigNodePropertyString packageBuilderTarget = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString transportSecretProviderTarget;
 
-  @JsonProperty("triggers.target")
-  private ConfigNodePropertyString triggersTarget = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString packageBuilderTarget;
 
-  @JsonProperty("queue.provider")
-  private ConfigNodePropertyDropDown queueProvider = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString triggersTarget;
 
-  @JsonProperty("async.delivery")
-  private ConfigNodePropertyBoolean asyncDelivery = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyDropDown queueProvider;
 
-  @JsonProperty("http.conn.timeout")
-  private ConfigNodePropertyInteger httpConnTimeout = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean asyncDelivery;
 
-  public OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties name(ConfigNodePropertyString name) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger httpConnTimeout;
+
+  public OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties name(@Nullable ConfigNodePropertyString name) {
     this.name = name;
     return this;
   }
@@ -87,20 +98,20 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
   /**
    * Get name
    * @return name
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getName() {
+   */
+  @Valid 
+  @Schema(name = "name", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("name")
+  public @Nullable ConfigNodePropertyString getName() {
     return name;
   }
 
-  public void setName(ConfigNodePropertyString name) {
+  @JsonProperty("name")
+  public void setName(@Nullable ConfigNodePropertyString name) {
     this.name = name;
   }
 
-  public OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties title(ConfigNodePropertyString title) {
+  public OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties title(@Nullable ConfigNodePropertyString title) {
     this.title = title;
     return this;
   }
@@ -108,20 +119,20 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
   /**
    * Get title
    * @return title
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getTitle() {
+   */
+  @Valid 
+  @Schema(name = "title", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("title")
+  public @Nullable ConfigNodePropertyString getTitle() {
     return title;
   }
 
-  public void setTitle(ConfigNodePropertyString title) {
+  @JsonProperty("title")
+  public void setTitle(@Nullable ConfigNodePropertyString title) {
     this.title = title;
   }
 
-  public OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties details(ConfigNodePropertyString details) {
+  public OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties details(@Nullable ConfigNodePropertyString details) {
     this.details = details;
     return this;
   }
@@ -129,20 +140,20 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
   /**
    * Get details
    * @return details
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getDetails() {
+   */
+  @Valid 
+  @Schema(name = "details", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("details")
+  public @Nullable ConfigNodePropertyString getDetails() {
     return details;
   }
 
-  public void setDetails(ConfigNodePropertyString details) {
+  @JsonProperty("details")
+  public void setDetails(@Nullable ConfigNodePropertyString details) {
     this.details = details;
   }
 
-  public OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties enabled(ConfigNodePropertyBoolean enabled) {
+  public OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties enabled(@Nullable ConfigNodePropertyBoolean enabled) {
     this.enabled = enabled;
     return this;
   }
@@ -150,20 +161,20 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
   /**
    * Get enabled
    * @return enabled
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getEnabled() {
+   */
+  @Valid 
+  @Schema(name = "enabled", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("enabled")
+  public @Nullable ConfigNodePropertyBoolean getEnabled() {
     return enabled;
   }
 
-  public void setEnabled(ConfigNodePropertyBoolean enabled) {
+  @JsonProperty("enabled")
+  public void setEnabled(@Nullable ConfigNodePropertyBoolean enabled) {
     this.enabled = enabled;
   }
 
-  public OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties serviceName(ConfigNodePropertyString serviceName) {
+  public OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties serviceName(@Nullable ConfigNodePropertyString serviceName) {
     this.serviceName = serviceName;
     return this;
   }
@@ -171,20 +182,20 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
   /**
    * Get serviceName
    * @return serviceName
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getServiceName() {
+   */
+  @Valid 
+  @Schema(name = "serviceName", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("serviceName")
+  public @Nullable ConfigNodePropertyString getServiceName() {
     return serviceName;
   }
 
-  public void setServiceName(ConfigNodePropertyString serviceName) {
+  @JsonProperty("serviceName")
+  public void setServiceName(@Nullable ConfigNodePropertyString serviceName) {
     this.serviceName = serviceName;
   }
 
-  public OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties logLevel(ConfigNodePropertyDropDown logLevel) {
+  public OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties logLevel(@Nullable ConfigNodePropertyDropDown logLevel) {
     this.logLevel = logLevel;
     return this;
   }
@@ -192,20 +203,20 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
   /**
    * Get logLevel
    * @return logLevel
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyDropDown getLogLevel() {
+   */
+  @Valid 
+  @Schema(name = "log.level", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("log.level")
+  public @Nullable ConfigNodePropertyDropDown getLogLevel() {
     return logLevel;
   }
 
-  public void setLogLevel(ConfigNodePropertyDropDown logLevel) {
+  @JsonProperty("log.level")
+  public void setLogLevel(@Nullable ConfigNodePropertyDropDown logLevel) {
     this.logLevel = logLevel;
   }
 
-  public OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties allowedRoots(ConfigNodePropertyArray allowedRoots) {
+  public OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties allowedRoots(@Nullable ConfigNodePropertyArray allowedRoots) {
     this.allowedRoots = allowedRoots;
     return this;
   }
@@ -213,20 +224,20 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
   /**
    * Get allowedRoots
    * @return allowedRoots
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getAllowedRoots() {
+   */
+  @Valid 
+  @Schema(name = "allowed.roots", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("allowed.roots")
+  public @Nullable ConfigNodePropertyArray getAllowedRoots() {
     return allowedRoots;
   }
 
-  public void setAllowedRoots(ConfigNodePropertyArray allowedRoots) {
+  @JsonProperty("allowed.roots")
+  public void setAllowedRoots(@Nullable ConfigNodePropertyArray allowedRoots) {
     this.allowedRoots = allowedRoots;
   }
 
-  public OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties queueProcessingEnabled(ConfigNodePropertyBoolean queueProcessingEnabled) {
+  public OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties queueProcessingEnabled(@Nullable ConfigNodePropertyBoolean queueProcessingEnabled) {
     this.queueProcessingEnabled = queueProcessingEnabled;
     return this;
   }
@@ -234,20 +245,20 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
   /**
    * Get queueProcessingEnabled
    * @return queueProcessingEnabled
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getQueueProcessingEnabled() {
+   */
+  @Valid 
+  @Schema(name = "queue.processing.enabled", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("queue.processing.enabled")
+  public @Nullable ConfigNodePropertyBoolean getQueueProcessingEnabled() {
     return queueProcessingEnabled;
   }
 
-  public void setQueueProcessingEnabled(ConfigNodePropertyBoolean queueProcessingEnabled) {
+  @JsonProperty("queue.processing.enabled")
+  public void setQueueProcessingEnabled(@Nullable ConfigNodePropertyBoolean queueProcessingEnabled) {
     this.queueProcessingEnabled = queueProcessingEnabled;
   }
 
-  public OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties packageImporterEndpoints(ConfigNodePropertyArray packageImporterEndpoints) {
+  public OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties packageImporterEndpoints(@Nullable ConfigNodePropertyArray packageImporterEndpoints) {
     this.packageImporterEndpoints = packageImporterEndpoints;
     return this;
   }
@@ -255,20 +266,20 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
   /**
    * Get packageImporterEndpoints
    * @return packageImporterEndpoints
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getPackageImporterEndpoints() {
+   */
+  @Valid 
+  @Schema(name = "packageImporter.endpoints", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("packageImporter.endpoints")
+  public @Nullable ConfigNodePropertyArray getPackageImporterEndpoints() {
     return packageImporterEndpoints;
   }
 
-  public void setPackageImporterEndpoints(ConfigNodePropertyArray packageImporterEndpoints) {
+  @JsonProperty("packageImporter.endpoints")
+  public void setPackageImporterEndpoints(@Nullable ConfigNodePropertyArray packageImporterEndpoints) {
     this.packageImporterEndpoints = packageImporterEndpoints;
   }
 
-  public OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties passiveQueues(ConfigNodePropertyArray passiveQueues) {
+  public OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties passiveQueues(@Nullable ConfigNodePropertyArray passiveQueues) {
     this.passiveQueues = passiveQueues;
     return this;
   }
@@ -276,20 +287,20 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
   /**
    * Get passiveQueues
    * @return passiveQueues
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getPassiveQueues() {
+   */
+  @Valid 
+  @Schema(name = "passiveQueues", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("passiveQueues")
+  public @Nullable ConfigNodePropertyArray getPassiveQueues() {
     return passiveQueues;
   }
 
-  public void setPassiveQueues(ConfigNodePropertyArray passiveQueues) {
+  @JsonProperty("passiveQueues")
+  public void setPassiveQueues(@Nullable ConfigNodePropertyArray passiveQueues) {
     this.passiveQueues = passiveQueues;
   }
 
-  public OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties priorityQueues(ConfigNodePropertyArray priorityQueues) {
+  public OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties priorityQueues(@Nullable ConfigNodePropertyArray priorityQueues) {
     this.priorityQueues = priorityQueues;
     return this;
   }
@@ -297,20 +308,20 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
   /**
    * Get priorityQueues
    * @return priorityQueues
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getPriorityQueues() {
+   */
+  @Valid 
+  @Schema(name = "priorityQueues", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("priorityQueues")
+  public @Nullable ConfigNodePropertyArray getPriorityQueues() {
     return priorityQueues;
   }
 
-  public void setPriorityQueues(ConfigNodePropertyArray priorityQueues) {
+  @JsonProperty("priorityQueues")
+  public void setPriorityQueues(@Nullable ConfigNodePropertyArray priorityQueues) {
     this.priorityQueues = priorityQueues;
   }
 
-  public OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties retryStrategy(ConfigNodePropertyDropDown retryStrategy) {
+  public OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties retryStrategy(@Nullable ConfigNodePropertyDropDown retryStrategy) {
     this.retryStrategy = retryStrategy;
     return this;
   }
@@ -318,20 +329,20 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
   /**
    * Get retryStrategy
    * @return retryStrategy
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyDropDown getRetryStrategy() {
+   */
+  @Valid 
+  @Schema(name = "retry.strategy", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("retry.strategy")
+  public @Nullable ConfigNodePropertyDropDown getRetryStrategy() {
     return retryStrategy;
   }
 
-  public void setRetryStrategy(ConfigNodePropertyDropDown retryStrategy) {
+  @JsonProperty("retry.strategy")
+  public void setRetryStrategy(@Nullable ConfigNodePropertyDropDown retryStrategy) {
     this.retryStrategy = retryStrategy;
   }
 
-  public OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties retryAttempts(ConfigNodePropertyInteger retryAttempts) {
+  public OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties retryAttempts(@Nullable ConfigNodePropertyInteger retryAttempts) {
     this.retryAttempts = retryAttempts;
     return this;
   }
@@ -339,20 +350,20 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
   /**
    * Get retryAttempts
    * @return retryAttempts
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getRetryAttempts() {
+   */
+  @Valid 
+  @Schema(name = "retry.attempts", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("retry.attempts")
+  public @Nullable ConfigNodePropertyInteger getRetryAttempts() {
     return retryAttempts;
   }
 
-  public void setRetryAttempts(ConfigNodePropertyInteger retryAttempts) {
+  @JsonProperty("retry.attempts")
+  public void setRetryAttempts(@Nullable ConfigNodePropertyInteger retryAttempts) {
     this.retryAttempts = retryAttempts;
   }
 
-  public OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties requestAuthorizationStrategyTarget(ConfigNodePropertyString requestAuthorizationStrategyTarget) {
+  public OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties requestAuthorizationStrategyTarget(@Nullable ConfigNodePropertyString requestAuthorizationStrategyTarget) {
     this.requestAuthorizationStrategyTarget = requestAuthorizationStrategyTarget;
     return this;
   }
@@ -360,20 +371,20 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
   /**
    * Get requestAuthorizationStrategyTarget
    * @return requestAuthorizationStrategyTarget
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getRequestAuthorizationStrategyTarget() {
+   */
+  @Valid 
+  @Schema(name = "requestAuthorizationStrategy.target", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("requestAuthorizationStrategy.target")
+  public @Nullable ConfigNodePropertyString getRequestAuthorizationStrategyTarget() {
     return requestAuthorizationStrategyTarget;
   }
 
-  public void setRequestAuthorizationStrategyTarget(ConfigNodePropertyString requestAuthorizationStrategyTarget) {
+  @JsonProperty("requestAuthorizationStrategy.target")
+  public void setRequestAuthorizationStrategyTarget(@Nullable ConfigNodePropertyString requestAuthorizationStrategyTarget) {
     this.requestAuthorizationStrategyTarget = requestAuthorizationStrategyTarget;
   }
 
-  public OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties transportSecretProviderTarget(ConfigNodePropertyString transportSecretProviderTarget) {
+  public OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties transportSecretProviderTarget(@Nullable ConfigNodePropertyString transportSecretProviderTarget) {
     this.transportSecretProviderTarget = transportSecretProviderTarget;
     return this;
   }
@@ -381,20 +392,20 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
   /**
    * Get transportSecretProviderTarget
    * @return transportSecretProviderTarget
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getTransportSecretProviderTarget() {
+   */
+  @Valid 
+  @Schema(name = "transportSecretProvider.target", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("transportSecretProvider.target")
+  public @Nullable ConfigNodePropertyString getTransportSecretProviderTarget() {
     return transportSecretProviderTarget;
   }
 
-  public void setTransportSecretProviderTarget(ConfigNodePropertyString transportSecretProviderTarget) {
+  @JsonProperty("transportSecretProvider.target")
+  public void setTransportSecretProviderTarget(@Nullable ConfigNodePropertyString transportSecretProviderTarget) {
     this.transportSecretProviderTarget = transportSecretProviderTarget;
   }
 
-  public OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties packageBuilderTarget(ConfigNodePropertyString packageBuilderTarget) {
+  public OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties packageBuilderTarget(@Nullable ConfigNodePropertyString packageBuilderTarget) {
     this.packageBuilderTarget = packageBuilderTarget;
     return this;
   }
@@ -402,20 +413,20 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
   /**
    * Get packageBuilderTarget
    * @return packageBuilderTarget
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getPackageBuilderTarget() {
+   */
+  @Valid 
+  @Schema(name = "packageBuilder.target", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("packageBuilder.target")
+  public @Nullable ConfigNodePropertyString getPackageBuilderTarget() {
     return packageBuilderTarget;
   }
 
-  public void setPackageBuilderTarget(ConfigNodePropertyString packageBuilderTarget) {
+  @JsonProperty("packageBuilder.target")
+  public void setPackageBuilderTarget(@Nullable ConfigNodePropertyString packageBuilderTarget) {
     this.packageBuilderTarget = packageBuilderTarget;
   }
 
-  public OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties triggersTarget(ConfigNodePropertyString triggersTarget) {
+  public OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties triggersTarget(@Nullable ConfigNodePropertyString triggersTarget) {
     this.triggersTarget = triggersTarget;
     return this;
   }
@@ -423,20 +434,20 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
   /**
    * Get triggersTarget
    * @return triggersTarget
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getTriggersTarget() {
+   */
+  @Valid 
+  @Schema(name = "triggers.target", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("triggers.target")
+  public @Nullable ConfigNodePropertyString getTriggersTarget() {
     return triggersTarget;
   }
 
-  public void setTriggersTarget(ConfigNodePropertyString triggersTarget) {
+  @JsonProperty("triggers.target")
+  public void setTriggersTarget(@Nullable ConfigNodePropertyString triggersTarget) {
     this.triggersTarget = triggersTarget;
   }
 
-  public OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties queueProvider(ConfigNodePropertyDropDown queueProvider) {
+  public OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties queueProvider(@Nullable ConfigNodePropertyDropDown queueProvider) {
     this.queueProvider = queueProvider;
     return this;
   }
@@ -444,20 +455,20 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
   /**
    * Get queueProvider
    * @return queueProvider
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyDropDown getQueueProvider() {
+   */
+  @Valid 
+  @Schema(name = "queue.provider", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("queue.provider")
+  public @Nullable ConfigNodePropertyDropDown getQueueProvider() {
     return queueProvider;
   }
 
-  public void setQueueProvider(ConfigNodePropertyDropDown queueProvider) {
+  @JsonProperty("queue.provider")
+  public void setQueueProvider(@Nullable ConfigNodePropertyDropDown queueProvider) {
     this.queueProvider = queueProvider;
   }
 
-  public OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties asyncDelivery(ConfigNodePropertyBoolean asyncDelivery) {
+  public OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties asyncDelivery(@Nullable ConfigNodePropertyBoolean asyncDelivery) {
     this.asyncDelivery = asyncDelivery;
     return this;
   }
@@ -465,20 +476,20 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
   /**
    * Get asyncDelivery
    * @return asyncDelivery
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getAsyncDelivery() {
+   */
+  @Valid 
+  @Schema(name = "async.delivery", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("async.delivery")
+  public @Nullable ConfigNodePropertyBoolean getAsyncDelivery() {
     return asyncDelivery;
   }
 
-  public void setAsyncDelivery(ConfigNodePropertyBoolean asyncDelivery) {
+  @JsonProperty("async.delivery")
+  public void setAsyncDelivery(@Nullable ConfigNodePropertyBoolean asyncDelivery) {
     this.asyncDelivery = asyncDelivery;
   }
 
-  public OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties httpConnTimeout(ConfigNodePropertyInteger httpConnTimeout) {
+  public OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties httpConnTimeout(@Nullable ConfigNodePropertyInteger httpConnTimeout) {
     this.httpConnTimeout = httpConnTimeout;
     return this;
   }
@@ -486,22 +497,21 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
   /**
    * Get httpConnTimeout
    * @return httpConnTimeout
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getHttpConnTimeout() {
+   */
+  @Valid 
+  @Schema(name = "http.conn.timeout", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("http.conn.timeout")
+  public @Nullable ConfigNodePropertyInteger getHttpConnTimeout() {
     return httpConnTimeout;
   }
 
-  public void setHttpConnTimeout(ConfigNodePropertyInteger httpConnTimeout) {
+  @JsonProperty("http.conn.timeout")
+  public void setHttpConnTimeout(@Nullable ConfigNodePropertyInteger httpConnTimeout) {
     this.httpConnTimeout = httpConnTimeout;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -540,7 +550,6 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoProperties {\n");
-    
     sb.append("    name: ").append(toIndentedString(name)).append("\n");
     sb.append("    title: ").append(toIndentedString(title)).append("\n");
     sb.append("    details: ").append(toIndentedString(details)).append("\n");
@@ -569,11 +578,8 @@ public class OrgApacheSlingDistributionAgentImplForwardDistributionAgentFactoPro
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -2,27 +2,28 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ComDayCqWcmCoreImplVersionPurgeTaskProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class ComDayCqWcmCoreImplVersionPurgeTaskInfo   {
   
-  private String pid = null;
+  private String pid;
 
-  private String title = null;
+  private String title;
 
-  private String description = null;
+  private String description;
 
-  private ComDayCqWcmCoreImplVersionPurgeTaskProperties properties = null;
-
+  private ComDayCqWcmCoreImplVersionPurgeTaskProperties properties;
 
   /**
    **/
@@ -98,7 +99,7 @@ public class ComDayCqWcmCoreImplVersionPurgeTaskInfo   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -106,10 +107,10 @@ public class ComDayCqWcmCoreImplVersionPurgeTaskInfo   {
       return false;
     }
     ComDayCqWcmCoreImplVersionPurgeTaskInfo comDayCqWcmCoreImplVersionPurgeTaskInfo = (ComDayCqWcmCoreImplVersionPurgeTaskInfo) o;
-    return Objects.equals(pid, comDayCqWcmCoreImplVersionPurgeTaskInfo.pid) &&
-        Objects.equals(title, comDayCqWcmCoreImplVersionPurgeTaskInfo.title) &&
-        Objects.equals(description, comDayCqWcmCoreImplVersionPurgeTaskInfo.description) &&
-        Objects.equals(properties, comDayCqWcmCoreImplVersionPurgeTaskInfo.properties);
+    return Objects.equals(this.pid, comDayCqWcmCoreImplVersionPurgeTaskInfo.pid) &&
+        Objects.equals(this.title, comDayCqWcmCoreImplVersionPurgeTaskInfo.title) &&
+        Objects.equals(this.description, comDayCqWcmCoreImplVersionPurgeTaskInfo.description) &&
+        Objects.equals(this.properties, comDayCqWcmCoreImplVersionPurgeTaskInfo.properties);
   }
 
   @Override
@@ -134,11 +135,8 @@ public class ComDayCqWcmCoreImplVersionPurgeTaskInfo   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

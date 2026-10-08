@@ -1,0 +1,20 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "com_adobe_cq_dam_mac_sync_damsyncservice_registered_paths" },
+      {"model": "com_adobe_cq_dam_mac_sync_damsyncservice_sync_renditions" },
+      {"model": "com_adobe_cq_dam_mac_sync_damsyncservice_replicate_thread_wait_ms" },
+      {"model": "com_adobe_cq_dam_mac_sync_damsyncservice_platform" },
+    ]
+  }]
+}

@@ -72,9 +72,9 @@ private class OASComDayCqAnalyticsSitecatalystImplTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqAnalyticsSitecatalystImpl comDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplProperties = new OASComDayCqAnalyticsSitecatalystImpl();
-        Map<String, String> propertyMappings = comDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplProperties.getPropertyMappings();
-        System.assertEquals('cqAnalyticsSitecatalystServiceDatacenterUrl', propertyMappings.get('cq.analytics.sitecatalyst.service.datacenter.url'));
-        System.assertEquals('connectionTimeout', propertyMappings.get('connection.timeout'));
-        System.assertEquals('socketTimeout', propertyMappings.get('socket.timeout'));
+        Map<String, String> x-property-mappings = comDayCqAnalyticsSitecatalystImplSitecatalystHttpClientImplProperties.getx-property-mappings();
+        System.assertEquals('cqAnalyticsSitecatalystServiceDatacenterUrl', x-property-mappings.get('cq.analytics.sitecatalyst.service.datacenter.url'));
+        System.assertEquals('connectionTimeout', x-property-mappings.get('connection.timeout'));
+        System.assertEquals('socketTimeout', x-property-mappings.get('socket.timeout'));
     }
 }

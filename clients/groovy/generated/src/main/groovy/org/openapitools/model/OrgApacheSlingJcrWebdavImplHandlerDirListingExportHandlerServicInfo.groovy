@@ -7,12 +7,12 @@ import org.openapitools.model.OrgApacheSlingJcrWebdavImplHandlerDirListingExport
 
 @Canonical
 class OrgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServicInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServicProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServicProperties properties
 }

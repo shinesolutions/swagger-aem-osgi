@@ -2,28 +2,29 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class ComAdobeCqSocialSyncImplDiffChangesObserverProperties   {
   
-  private ConfigNodePropertyBoolean enabled = null;
+  private ConfigNodePropertyBoolean enabled;
 
-  private ConfigNodePropertyString agentName = null;
+  private ConfigNodePropertyString agentName;
 
-  private ConfigNodePropertyString diffPath = null;
+  private ConfigNodePropertyString diffPath;
 
-  private ConfigNodePropertyString propertyNames = null;
-
+  private ConfigNodePropertyString propertyNames;
 
   /**
    **/
@@ -99,7 +100,7 @@ public class ComAdobeCqSocialSyncImplDiffChangesObserverProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -107,10 +108,10 @@ public class ComAdobeCqSocialSyncImplDiffChangesObserverProperties   {
       return false;
     }
     ComAdobeCqSocialSyncImplDiffChangesObserverProperties comAdobeCqSocialSyncImplDiffChangesObserverProperties = (ComAdobeCqSocialSyncImplDiffChangesObserverProperties) o;
-    return Objects.equals(enabled, comAdobeCqSocialSyncImplDiffChangesObserverProperties.enabled) &&
-        Objects.equals(agentName, comAdobeCqSocialSyncImplDiffChangesObserverProperties.agentName) &&
-        Objects.equals(diffPath, comAdobeCqSocialSyncImplDiffChangesObserverProperties.diffPath) &&
-        Objects.equals(propertyNames, comAdobeCqSocialSyncImplDiffChangesObserverProperties.propertyNames);
+    return Objects.equals(this.enabled, comAdobeCqSocialSyncImplDiffChangesObserverProperties.enabled) &&
+        Objects.equals(this.agentName, comAdobeCqSocialSyncImplDiffChangesObserverProperties.agentName) &&
+        Objects.equals(this.diffPath, comAdobeCqSocialSyncImplDiffChangesObserverProperties.diffPath) &&
+        Objects.equals(this.propertyNames, comAdobeCqSocialSyncImplDiffChangesObserverProperties.propertyNames);
   }
 
   @Override
@@ -135,11 +136,8 @@ public class ComAdobeCqSocialSyncImplDiffChangesObserverProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

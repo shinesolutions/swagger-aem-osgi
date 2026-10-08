@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqProjectsPurgeSchedulerProperties;
 
 @Canonical
 class ComAdobeCqProjectsPurgeSchedulerInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqProjectsPurgeSchedulerProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqProjectsPurgeSchedulerProperties properties
 }

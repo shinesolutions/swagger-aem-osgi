@@ -7,12 +7,12 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class OrgApacheSlingHcCoreImplServletResultTxtVerboseSerializerProperties {
-    ConfigNodePropertyInteger totalWidth = null
-
-    ConfigNodePropertyInteger colWidthName = null
-
-    ConfigNodePropertyInteger colWidthResult = null
-
-    ConfigNodePropertyInteger colWidthTiming = null
-
+    
+    ConfigNodePropertyInteger totalWidth
+    
+    ConfigNodePropertyInteger colWidthName
+    
+    ConfigNodePropertyInteger colWidthResult
+    
+    ConfigNodePropertyInteger colWidthTiming
 }

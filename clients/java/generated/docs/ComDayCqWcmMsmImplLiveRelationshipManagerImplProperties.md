@@ -1,10 +1,13 @@
 
+
 # ComDayCqWcmMsmImplLiveRelationshipManagerImplProperties
 
+
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**liverelationshipmgrRelationsconfigDefault** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
+
+| Name | Type | Description | Notes |
+|------------ | ------------- | ------------- | -------------|
+|**liverelationshipmgrRelationsconfigDefault** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
 
 
 

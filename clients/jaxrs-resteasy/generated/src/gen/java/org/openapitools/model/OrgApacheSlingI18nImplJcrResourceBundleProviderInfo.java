@@ -4,21 +4,24 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.OrgApacheSlingI18nImplJcrResourceBundleProviderProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2019-08-05T00:59:30.156Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2026-10-07T12:54:21.614735164Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingI18nImplJcrResourceBundleProviderInfo   {
   
-  private String pid = null;
-  private String title = null;
-  private String description = null;
-  private OrgApacheSlingI18nImplJcrResourceBundleProviderProperties properties = null;
-  private String additionalProperties = null;
-  private String bundleLocation = null;
-  private String serviceLocation = null;
+  private String pid;
+  private String title;
+  private String description;
+  private OrgApacheSlingI18nImplJcrResourceBundleProviderProperties properties;
+  private String additionalProperties;
+  private String bundleLocation;
+  private String serviceLocation;
 
   /**
    **/
@@ -61,6 +64,7 @@ public class OrgApacheSlingI18nImplJcrResourceBundleProviderInfo   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("properties")
+  @Valid
   public OrgApacheSlingI18nImplJcrResourceBundleProviderProperties getProperties() {
     return properties;
   }
@@ -106,7 +110,7 @@ public class OrgApacheSlingI18nImplJcrResourceBundleProviderInfo   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -114,13 +118,13 @@ public class OrgApacheSlingI18nImplJcrResourceBundleProviderInfo   {
       return false;
     }
     OrgApacheSlingI18nImplJcrResourceBundleProviderInfo orgApacheSlingI18nImplJcrResourceBundleProviderInfo = (OrgApacheSlingI18nImplJcrResourceBundleProviderInfo) o;
-    return Objects.equals(pid, orgApacheSlingI18nImplJcrResourceBundleProviderInfo.pid) &&
-        Objects.equals(title, orgApacheSlingI18nImplJcrResourceBundleProviderInfo.title) &&
-        Objects.equals(description, orgApacheSlingI18nImplJcrResourceBundleProviderInfo.description) &&
-        Objects.equals(properties, orgApacheSlingI18nImplJcrResourceBundleProviderInfo.properties) &&
-        Objects.equals(additionalProperties, orgApacheSlingI18nImplJcrResourceBundleProviderInfo.additionalProperties) &&
-        Objects.equals(bundleLocation, orgApacheSlingI18nImplJcrResourceBundleProviderInfo.bundleLocation) &&
-        Objects.equals(serviceLocation, orgApacheSlingI18nImplJcrResourceBundleProviderInfo.serviceLocation);
+    return Objects.equals(this.pid, orgApacheSlingI18nImplJcrResourceBundleProviderInfo.pid) &&
+        Objects.equals(this.title, orgApacheSlingI18nImplJcrResourceBundleProviderInfo.title) &&
+        Objects.equals(this.description, orgApacheSlingI18nImplJcrResourceBundleProviderInfo.description) &&
+        Objects.equals(this.properties, orgApacheSlingI18nImplJcrResourceBundleProviderInfo.properties) &&
+        Objects.equals(this.additionalProperties, orgApacheSlingI18nImplJcrResourceBundleProviderInfo.additionalProperties) &&
+        Objects.equals(this.bundleLocation, orgApacheSlingI18nImplJcrResourceBundleProviderInfo.bundleLocation) &&
+        Objects.equals(this.serviceLocation, orgApacheSlingI18nImplJcrResourceBundleProviderInfo.serviceLocation);
   }
 
   @Override
@@ -148,11 +152,8 @@ public class OrgApacheSlingI18nImplJcrResourceBundleProviderInfo   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

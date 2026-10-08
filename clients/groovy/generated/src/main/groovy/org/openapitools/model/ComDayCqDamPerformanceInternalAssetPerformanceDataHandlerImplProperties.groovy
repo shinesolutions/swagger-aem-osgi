@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class ComDayCqDamPerformanceInternalAssetPerformanceDataHandlerImplProperties {
-    ConfigNodePropertyInteger batchCommitSize = null
-
+    
+    ConfigNodePropertyInteger batchCommitSize
 }

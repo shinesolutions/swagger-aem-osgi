@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties = openapi_server.resourceTypes.ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties
+}
+resourceTypes {
+
+  ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryInfo {
+    title = ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryInfo
+    description = ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryInfo {
+    title = ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryInfo
+    description = ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryInfo
+    implements = openapi_server.resourceTypes.ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryInfo
+
+  }
+}

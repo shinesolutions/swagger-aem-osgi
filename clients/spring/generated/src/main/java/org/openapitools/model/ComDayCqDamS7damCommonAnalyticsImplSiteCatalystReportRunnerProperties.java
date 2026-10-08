@@ -1,28 +1,39 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerProperties   {
-  @JsonProperty("scheduler.expression")
-  private ConfigNodePropertyString schedulerExpression = null;
+@JsonTypeName("comDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerProperties {
 
-  @JsonProperty("scheduler.concurrent")
-  private ConfigNodePropertyBoolean schedulerConcurrent = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString schedulerExpression;
 
-  public ComDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerProperties schedulerExpression(ConfigNodePropertyString schedulerExpression) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean schedulerConcurrent;
+
+  public ComDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerProperties schedulerExpression(@Nullable ConfigNodePropertyString schedulerExpression) {
     this.schedulerExpression = schedulerExpression;
     return this;
   }
@@ -30,20 +41,20 @@ public class ComDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerProperti
   /**
    * Get schedulerExpression
    * @return schedulerExpression
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getSchedulerExpression() {
+   */
+  @Valid 
+  @Schema(name = "scheduler.expression", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("scheduler.expression")
+  public @Nullable ConfigNodePropertyString getSchedulerExpression() {
     return schedulerExpression;
   }
 
-  public void setSchedulerExpression(ConfigNodePropertyString schedulerExpression) {
+  @JsonProperty("scheduler.expression")
+  public void setSchedulerExpression(@Nullable ConfigNodePropertyString schedulerExpression) {
     this.schedulerExpression = schedulerExpression;
   }
 
-  public ComDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerProperties schedulerConcurrent(ConfigNodePropertyBoolean schedulerConcurrent) {
+  public ComDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerProperties schedulerConcurrent(@Nullable ConfigNodePropertyBoolean schedulerConcurrent) {
     this.schedulerConcurrent = schedulerConcurrent;
     return this;
   }
@@ -51,22 +62,21 @@ public class ComDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerProperti
   /**
    * Get schedulerConcurrent
    * @return schedulerConcurrent
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getSchedulerConcurrent() {
+   */
+  @Valid 
+  @Schema(name = "scheduler.concurrent", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("scheduler.concurrent")
+  public @Nullable ConfigNodePropertyBoolean getSchedulerConcurrent() {
     return schedulerConcurrent;
   }
 
-  public void setSchedulerConcurrent(ConfigNodePropertyBoolean schedulerConcurrent) {
+  @JsonProperty("scheduler.concurrent")
+  public void setSchedulerConcurrent(@Nullable ConfigNodePropertyBoolean schedulerConcurrent) {
     this.schedulerConcurrent = schedulerConcurrent;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -87,7 +97,6 @@ public class ComDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerProperti
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerProperties {\n");
-    
     sb.append("    schedulerExpression: ").append(toIndentedString(schedulerExpression)).append("\n");
     sb.append("    schedulerConcurrent: ").append(toIndentedString(schedulerConcurrent)).append("\n");
     sb.append("}");
@@ -98,11 +107,8 @@ public class ComDayCqDamS7damCommonAnalyticsImplSiteCatalystReportRunnerProperti
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

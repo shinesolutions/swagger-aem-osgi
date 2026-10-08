@@ -9,14 +9,14 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class OrgApacheJackrabbitOakSecurityAuthorizationAuthorizationConfigurProperties {
-    ConfigNodePropertyDropDown permissionsJr2 = null
-
-    ConfigNodePropertyDropDown importBehavior = null
-
-    ConfigNodePropertyArray readPaths = null
-
-    ConfigNodePropertyArray administrativePrincipals = null
-
-    ConfigNodePropertyInteger configurationRanking = null
-
+    
+    ConfigNodePropertyDropDown permissionsJr2
+    
+    ConfigNodePropertyDropDown importBehavior
+    
+    ConfigNodePropertyArray readPaths
+    
+    ConfigNodePropertyArray administrativePrincipals
+    
+    ConfigNodePropertyInteger configurationRanking
 }

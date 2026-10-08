@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeGraniteActivitystreamsImplActivityManagerI
 
 @Canonical
 class ComAdobeGraniteActivitystreamsImplActivityManagerImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteActivitystreamsImplActivityManagerImplProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteActivitystreamsImplActivityManagerImplProperties properties
 }

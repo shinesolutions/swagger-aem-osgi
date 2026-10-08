@@ -1,32 +1,43 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * OrgApacheSlingI18nImplJcrResourceBundleProviderProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class OrgApacheSlingI18nImplJcrResourceBundleProviderProperties   {
-  @JsonProperty("locale.default")
-  private ConfigNodePropertyString localeDefault = null;
+@JsonTypeName("orgApacheSlingI18nImplJcrResourceBundleProviderProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class OrgApacheSlingI18nImplJcrResourceBundleProviderProperties {
 
-  @JsonProperty("preload.bundles")
-  private ConfigNodePropertyBoolean preloadBundles = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString localeDefault;
 
-  @JsonProperty("invalidation.delay")
-  private ConfigNodePropertyInteger invalidationDelay = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean preloadBundles;
 
-  public OrgApacheSlingI18nImplJcrResourceBundleProviderProperties localeDefault(ConfigNodePropertyString localeDefault) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger invalidationDelay;
+
+  public OrgApacheSlingI18nImplJcrResourceBundleProviderProperties localeDefault(@Nullable ConfigNodePropertyString localeDefault) {
     this.localeDefault = localeDefault;
     return this;
   }
@@ -34,20 +45,20 @@ public class OrgApacheSlingI18nImplJcrResourceBundleProviderProperties   {
   /**
    * Get localeDefault
    * @return localeDefault
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getLocaleDefault() {
+   */
+  @Valid 
+  @Schema(name = "locale.default", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("locale.default")
+  public @Nullable ConfigNodePropertyString getLocaleDefault() {
     return localeDefault;
   }
 
-  public void setLocaleDefault(ConfigNodePropertyString localeDefault) {
+  @JsonProperty("locale.default")
+  public void setLocaleDefault(@Nullable ConfigNodePropertyString localeDefault) {
     this.localeDefault = localeDefault;
   }
 
-  public OrgApacheSlingI18nImplJcrResourceBundleProviderProperties preloadBundles(ConfigNodePropertyBoolean preloadBundles) {
+  public OrgApacheSlingI18nImplJcrResourceBundleProviderProperties preloadBundles(@Nullable ConfigNodePropertyBoolean preloadBundles) {
     this.preloadBundles = preloadBundles;
     return this;
   }
@@ -55,20 +66,20 @@ public class OrgApacheSlingI18nImplJcrResourceBundleProviderProperties   {
   /**
    * Get preloadBundles
    * @return preloadBundles
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getPreloadBundles() {
+   */
+  @Valid 
+  @Schema(name = "preload.bundles", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("preload.bundles")
+  public @Nullable ConfigNodePropertyBoolean getPreloadBundles() {
     return preloadBundles;
   }
 
-  public void setPreloadBundles(ConfigNodePropertyBoolean preloadBundles) {
+  @JsonProperty("preload.bundles")
+  public void setPreloadBundles(@Nullable ConfigNodePropertyBoolean preloadBundles) {
     this.preloadBundles = preloadBundles;
   }
 
-  public OrgApacheSlingI18nImplJcrResourceBundleProviderProperties invalidationDelay(ConfigNodePropertyInteger invalidationDelay) {
+  public OrgApacheSlingI18nImplJcrResourceBundleProviderProperties invalidationDelay(@Nullable ConfigNodePropertyInteger invalidationDelay) {
     this.invalidationDelay = invalidationDelay;
     return this;
   }
@@ -76,22 +87,21 @@ public class OrgApacheSlingI18nImplJcrResourceBundleProviderProperties   {
   /**
    * Get invalidationDelay
    * @return invalidationDelay
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getInvalidationDelay() {
+   */
+  @Valid 
+  @Schema(name = "invalidation.delay", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("invalidation.delay")
+  public @Nullable ConfigNodePropertyInteger getInvalidationDelay() {
     return invalidationDelay;
   }
 
-  public void setInvalidationDelay(ConfigNodePropertyInteger invalidationDelay) {
+  @JsonProperty("invalidation.delay")
+  public void setInvalidationDelay(@Nullable ConfigNodePropertyInteger invalidationDelay) {
     this.invalidationDelay = invalidationDelay;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -113,7 +123,6 @@ public class OrgApacheSlingI18nImplJcrResourceBundleProviderProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class OrgApacheSlingI18nImplJcrResourceBundleProviderProperties {\n");
-    
     sb.append("    localeDefault: ").append(toIndentedString(localeDefault)).append("\n");
     sb.append("    preloadBundles: ").append(toIndentedString(preloadBundles)).append("\n");
     sb.append("    invalidationDelay: ").append(toIndentedString(invalidationDelay)).append("\n");
@@ -125,11 +134,8 @@ public class OrgApacheSlingI18nImplJcrResourceBundleProviderProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

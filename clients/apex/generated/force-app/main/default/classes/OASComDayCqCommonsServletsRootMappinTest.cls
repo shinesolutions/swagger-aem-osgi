@@ -72,7 +72,7 @@ private class OASComDayCqCommonsServletsRootMappinTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqCommonsServletsRootMappin comDayCqCommonsServletsRootMappingServletProperties = new OASComDayCqCommonsServletsRootMappin();
-        Map<String, String> propertyMappings = comDayCqCommonsServletsRootMappingServletProperties.getPropertyMappings();
-        System.assertEquals('rootmappingTarget', propertyMappings.get('rootmapping.target'));
+        Map<String, String> x-property-mappings = comDayCqCommonsServletsRootMappingServletProperties.getx-property-mappings();
+        System.assertEquals('rootmappingTarget', x-property-mappings.get('rootmapping.target'));
     }
 }

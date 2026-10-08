@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqDamCoreImplDamEventRecorderImplProperties;
 
 @Canonical
 class ComDayCqDamCoreImplDamEventRecorderImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqDamCoreImplDamEventRecorderImplProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqDamCoreImplDamEventRecorderImplProperties properties
 }

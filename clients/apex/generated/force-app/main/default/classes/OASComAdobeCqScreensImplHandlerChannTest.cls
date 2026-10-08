@@ -72,11 +72,11 @@ private class OASComAdobeCqScreensImplHandlerChannTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeCqScreensImplHandlerChann comAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties = new OASComAdobeCqScreensImplHandlerChann();
-        Map<String, String> propertyMappings = comAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties.getPropertyMappings();
-        System.assertEquals('cqPagesupdatehandlerImageresourcetypes', propertyMappings.get('cq.pagesupdatehandler.imageresourcetypes'));
-        System.assertEquals('cqPagesupdatehandlerProductresourcetypes', propertyMappings.get('cq.pagesupdatehandler.productresourcetypes'));
-        System.assertEquals('cqPagesupdatehandlerVideoresourcetypes', propertyMappings.get('cq.pagesupdatehandler.videoresourcetypes'));
-        System.assertEquals('cqPagesupdatehandlerDynamicsequenceresourcetypes', propertyMappings.get('cq.pagesupdatehandler.dynamicsequenceresourcetypes'));
-        System.assertEquals('cqPagesupdatehandlerPreviewmodepaths', propertyMappings.get('cq.pagesupdatehandler.previewmodepaths'));
+        Map<String, String> x-property-mappings = comAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties.getx-property-mappings();
+        System.assertEquals('cqPagesupdatehandlerImageresourcetypes', x-property-mappings.get('cq.pagesupdatehandler.imageresourcetypes'));
+        System.assertEquals('cqPagesupdatehandlerProductresourcetypes', x-property-mappings.get('cq.pagesupdatehandler.productresourcetypes'));
+        System.assertEquals('cqPagesupdatehandlerVideoresourcetypes', x-property-mappings.get('cq.pagesupdatehandler.videoresourcetypes'));
+        System.assertEquals('cqPagesupdatehandlerDynamicsequenceresourcetypes', x-property-mappings.get('cq.pagesupdatehandler.dynamicsequenceresourcetypes'));
+        System.assertEquals('cqPagesupdatehandlerPreviewmodepaths', x-property-mappings.get('cq.pagesupdatehandler.previewmodepaths'));
     }
 }

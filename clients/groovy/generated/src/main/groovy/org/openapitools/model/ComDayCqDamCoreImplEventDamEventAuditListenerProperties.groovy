@@ -8,8 +8,8 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqDamCoreImplEventDamEventAuditListenerProperties {
-    ConfigNodePropertyString eventFilter = null
-
-    ConfigNodePropertyBoolean enabled = null
-
+    
+    ConfigNodePropertyString eventFilter
+    
+    ConfigNodePropertyBoolean enabled
 }

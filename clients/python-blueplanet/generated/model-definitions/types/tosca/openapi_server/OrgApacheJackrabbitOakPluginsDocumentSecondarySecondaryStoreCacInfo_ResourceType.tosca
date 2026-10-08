@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacProperties = openapi_server.resourceTypes.OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacProperties
+}
+resourceTypes {
+
+  OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacInfo {
+    title = OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacInfo
+    description = OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacInfo {
+    title = OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacInfo
+    description = OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacInfo
+    implements = openapi_server.resourceTypes.OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacInfo
+
+  }
+}

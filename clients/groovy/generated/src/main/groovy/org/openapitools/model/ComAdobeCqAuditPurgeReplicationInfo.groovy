@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqAuditPurgeReplicationProperties;
 
 @Canonical
 class ComAdobeCqAuditPurgeReplicationInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqAuditPurgeReplicationProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqAuditPurgeReplicationProperties properties
 }

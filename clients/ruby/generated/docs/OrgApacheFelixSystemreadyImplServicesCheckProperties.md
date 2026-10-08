@@ -2,18 +2,19 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**services_list** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] 
-**type** | [**ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **services_list** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  | [optional] |
+| **type** | [**ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::OrgApacheFelixSystemreadyImplServicesCheckProperties.new(services_list: null,
-                                 type: null)
+instance = SwaggerAemOsgiClient::OrgApacheFelixSystemreadyImplServicesCheckProperties.new(
+  services_list: null,
+  type: null
+)
 ```
-
 

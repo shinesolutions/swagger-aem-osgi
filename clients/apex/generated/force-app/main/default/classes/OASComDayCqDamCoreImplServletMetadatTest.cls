@@ -72,10 +72,10 @@ private class OASComDayCqDamCoreImplServletMetadatTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqDamCoreImplServletMetadat comDayCqDamCoreImplServletMetadataGetServletProperties = new OASComDayCqDamCoreImplServletMetadat();
-        Map<String, String> propertyMappings = comDayCqDamCoreImplServletMetadataGetServletProperties.getPropertyMappings();
-        System.assertEquals('slingServletResourceTypes', propertyMappings.get('sling.servlet.resourceTypes'));
-        System.assertEquals('slingServletMethods', propertyMappings.get('sling.servlet.methods'));
-        System.assertEquals('slingServletExtensions', propertyMappings.get('sling.servlet.extensions'));
-        System.assertEquals('slingServletSelectors', propertyMappings.get('sling.servlet.selectors'));
+        Map<String, String> x-property-mappings = comDayCqDamCoreImplServletMetadataGetServletProperties.getx-property-mappings();
+        System.assertEquals('slingServletResourceTypes', x-property-mappings.get('sling.servlet.resourceTypes'));
+        System.assertEquals('slingServletMethods', x-property-mappings.get('sling.servlet.methods'));
+        System.assertEquals('slingServletExtensions', x-property-mappings.get('sling.servlet.extensions'));
+        System.assertEquals('slingServletSelectors', x-property-mappings.get('sling.servlet.selectors'));
     }
 }

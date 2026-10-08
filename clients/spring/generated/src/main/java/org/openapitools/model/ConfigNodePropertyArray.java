@@ -1,41 +1,52 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ConfigNodePropertyArray
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ConfigNodePropertyArray   {
-  @JsonProperty("name")
-  private String name = null;
+@JsonTypeName("configNodePropertyArray")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ConfigNodePropertyArray {
 
-  @JsonProperty("optional")
-  private Boolean optional = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable String name;
 
-  @JsonProperty("is_set")
-  private Boolean isSet = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable Boolean optional;
 
-  @JsonProperty("type")
-  private Integer type = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable Boolean isSet;
 
-  @JsonProperty("values")
-  @Valid
-  private List<String> values = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable Integer type;
 
-  @JsonProperty("description")
-  private String description = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private List<String> values = new ArrayList<>();
 
-  public ConfigNodePropertyArray name(String name) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable String description;
+
+  public ConfigNodePropertyArray name(@Nullable String name) {
     this.name = name;
     return this;
   }
@@ -43,19 +54,20 @@ public class ConfigNodePropertyArray   {
   /**
    * property name
    * @return name
-  **/
-  @ApiModelProperty(value = "property name")
-
-
-  public String getName() {
+   */
+  
+  @Schema(name = "name", description = "property name", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("name")
+  public @Nullable String getName() {
     return name;
   }
 
-  public void setName(String name) {
+  @JsonProperty("name")
+  public void setName(@Nullable String name) {
     this.name = name;
   }
 
-  public ConfigNodePropertyArray optional(Boolean optional) {
+  public ConfigNodePropertyArray optional(@Nullable Boolean optional) {
     this.optional = optional;
     return this;
   }
@@ -63,19 +75,20 @@ public class ConfigNodePropertyArray   {
   /**
    * True if optional
    * @return optional
-  **/
-  @ApiModelProperty(value = "True if optional")
-
-
-  public Boolean getOptional() {
+   */
+  
+  @Schema(name = "optional", description = "True if optional", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("optional")
+  public @Nullable Boolean getOptional() {
     return optional;
   }
 
-  public void setOptional(Boolean optional) {
+  @JsonProperty("optional")
+  public void setOptional(@Nullable Boolean optional) {
     this.optional = optional;
   }
 
-  public ConfigNodePropertyArray isSet(Boolean isSet) {
+  public ConfigNodePropertyArray isSet(@Nullable Boolean isSet) {
     this.isSet = isSet;
     return this;
   }
@@ -83,19 +96,20 @@ public class ConfigNodePropertyArray   {
   /**
    * True if property is set
    * @return isSet
-  **/
-  @ApiModelProperty(value = "True if property is set")
-
-
-  public Boolean getIsSet() {
+   */
+  
+  @Schema(name = "is_set", description = "True if property is set", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("is_set")
+  public @Nullable Boolean getIsSet() {
     return isSet;
   }
 
-  public void setIsSet(Boolean isSet) {
+  @JsonProperty("is_set")
+  public void setIsSet(@Nullable Boolean isSet) {
     this.isSet = isSet;
   }
 
-  public ConfigNodePropertyArray type(Integer type) {
+  public ConfigNodePropertyArray type(@Nullable Integer type) {
     this.type = type;
     return this;
   }
@@ -103,15 +117,16 @@ public class ConfigNodePropertyArray   {
   /**
    * Property type, 1=String, 2=Long, 3=Integer, 7=Float, 11=Boolean, 12=Secrets(String)
    * @return type
-  **/
-  @ApiModelProperty(value = "Property type, 1=String, 2=Long, 3=Integer, 7=Float, 11=Boolean, 12=Secrets(String)")
-
-
-  public Integer getType() {
+   */
+  
+  @Schema(name = "type", description = "Property type, 1=String, 2=Long, 3=Integer, 7=Float, 11=Boolean, 12=Secrets(String)", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("type")
+  public @Nullable Integer getType() {
     return type;
   }
 
-  public void setType(Integer type) {
+  @JsonProperty("type")
+  public void setType(@Nullable Integer type) {
     this.type = type;
   }
 
@@ -131,19 +146,20 @@ public class ConfigNodePropertyArray   {
   /**
    * Property value
    * @return values
-  **/
-  @ApiModelProperty(value = "Property value")
-
-
+   */
+  
+  @Schema(name = "values", description = "Property value", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("values")
   public List<String> getValues() {
     return values;
   }
 
+  @JsonProperty("values")
   public void setValues(List<String> values) {
     this.values = values;
   }
 
-  public ConfigNodePropertyArray description(String description) {
+  public ConfigNodePropertyArray description(@Nullable String description) {
     this.description = description;
     return this;
   }
@@ -151,21 +167,21 @@ public class ConfigNodePropertyArray   {
   /**
    * Property description
    * @return description
-  **/
-  @ApiModelProperty(value = "Property description")
-
-
-  public String getDescription() {
+   */
+  
+  @Schema(name = "description", description = "Property description", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("description")
+  public @Nullable String getDescription() {
     return description;
   }
 
-  public void setDescription(String description) {
+  @JsonProperty("description")
+  public void setDescription(@Nullable String description) {
     this.description = description;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -190,7 +206,6 @@ public class ConfigNodePropertyArray   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ConfigNodePropertyArray {\n");
-    
     sb.append("    name: ").append(toIndentedString(name)).append("\n");
     sb.append("    optional: ").append(toIndentedString(optional)).append("\n");
     sb.append("    isSet: ").append(toIndentedString(isSet)).append("\n");
@@ -205,11 +220,8 @@ public class ConfigNodePropertyArray   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

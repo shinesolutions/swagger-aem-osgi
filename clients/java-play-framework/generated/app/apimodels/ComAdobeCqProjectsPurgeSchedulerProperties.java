@@ -4,41 +4,58 @@ import apimodels.ConfigNodePropertyArray;
 import apimodels.ConfigNodePropertyBoolean;
 import apimodels.ConfigNodePropertyInteger;
 import apimodels.ConfigNodePropertyString;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * ComAdobeCqProjectsPurgeSchedulerProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class ComAdobeCqProjectsPurgeSchedulerProperties   {
   @JsonProperty("scheduledpurge.name")
-  private ConfigNodePropertyString scheduledpurgeName = null;
+  @Valid
+
+  private ConfigNodePropertyString scheduledpurgeName;
 
   @JsonProperty("scheduledpurge.purgeActive")
-  private ConfigNodePropertyBoolean scheduledpurgePurgeActive = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean scheduledpurgePurgeActive;
 
   @JsonProperty("scheduledpurge.templates")
-  private ConfigNodePropertyArray scheduledpurgeTemplates = null;
+  @Valid
+
+  private ConfigNodePropertyArray scheduledpurgeTemplates;
 
   @JsonProperty("scheduledpurge.purgeGroups")
-  private ConfigNodePropertyBoolean scheduledpurgePurgeGroups = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean scheduledpurgePurgeGroups;
 
   @JsonProperty("scheduledpurge.purgeAssets")
-  private ConfigNodePropertyBoolean scheduledpurgePurgeAssets = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean scheduledpurgePurgeAssets;
 
   @JsonProperty("scheduledpurge.terminateRunningWorkflows")
-  private ConfigNodePropertyBoolean scheduledpurgeTerminateRunningWorkflows = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean scheduledpurgeTerminateRunningWorkflows;
 
   @JsonProperty("scheduledpurge.daysold")
-  private ConfigNodePropertyInteger scheduledpurgeDaysold = null;
+  @Valid
+
+  private ConfigNodePropertyInteger scheduledpurgeDaysold;
 
   @JsonProperty("scheduledpurge.saveThreshold")
-  private ConfigNodePropertyInteger scheduledpurgeSaveThreshold = null;
+  @Valid
+
+  private ConfigNodePropertyInteger scheduledpurgeSaveThreshold;
 
   public ComAdobeCqProjectsPurgeSchedulerProperties scheduledpurgeName(ConfigNodePropertyString scheduledpurgeName) {
     this.scheduledpurgeName = scheduledpurgeName;
@@ -49,7 +66,6 @@ public class ComAdobeCqProjectsPurgeSchedulerProperties   {
    * Get scheduledpurgeName
    * @return scheduledpurgeName
   **/
-  @Valid
   public ConfigNodePropertyString getScheduledpurgeName() {
     return scheduledpurgeName;
   }
@@ -67,7 +83,6 @@ public class ComAdobeCqProjectsPurgeSchedulerProperties   {
    * Get scheduledpurgePurgeActive
    * @return scheduledpurgePurgeActive
   **/
-  @Valid
   public ConfigNodePropertyBoolean getScheduledpurgePurgeActive() {
     return scheduledpurgePurgeActive;
   }
@@ -85,7 +100,6 @@ public class ComAdobeCqProjectsPurgeSchedulerProperties   {
    * Get scheduledpurgeTemplates
    * @return scheduledpurgeTemplates
   **/
-  @Valid
   public ConfigNodePropertyArray getScheduledpurgeTemplates() {
     return scheduledpurgeTemplates;
   }
@@ -103,7 +117,6 @@ public class ComAdobeCqProjectsPurgeSchedulerProperties   {
    * Get scheduledpurgePurgeGroups
    * @return scheduledpurgePurgeGroups
   **/
-  @Valid
   public ConfigNodePropertyBoolean getScheduledpurgePurgeGroups() {
     return scheduledpurgePurgeGroups;
   }
@@ -121,7 +134,6 @@ public class ComAdobeCqProjectsPurgeSchedulerProperties   {
    * Get scheduledpurgePurgeAssets
    * @return scheduledpurgePurgeAssets
   **/
-  @Valid
   public ConfigNodePropertyBoolean getScheduledpurgePurgeAssets() {
     return scheduledpurgePurgeAssets;
   }
@@ -139,7 +151,6 @@ public class ComAdobeCqProjectsPurgeSchedulerProperties   {
    * Get scheduledpurgeTerminateRunningWorkflows
    * @return scheduledpurgeTerminateRunningWorkflows
   **/
-  @Valid
   public ConfigNodePropertyBoolean getScheduledpurgeTerminateRunningWorkflows() {
     return scheduledpurgeTerminateRunningWorkflows;
   }
@@ -157,7 +168,6 @@ public class ComAdobeCqProjectsPurgeSchedulerProperties   {
    * Get scheduledpurgeDaysold
    * @return scheduledpurgeDaysold
   **/
-  @Valid
   public ConfigNodePropertyInteger getScheduledpurgeDaysold() {
     return scheduledpurgeDaysold;
   }
@@ -175,7 +185,6 @@ public class ComAdobeCqProjectsPurgeSchedulerProperties   {
    * Get scheduledpurgeSaveThreshold
    * @return scheduledpurgeSaveThreshold
   **/
-  @Valid
   public ConfigNodePropertyInteger getScheduledpurgeSaveThreshold() {
     return scheduledpurgeSaveThreshold;
   }
@@ -186,7 +195,7 @@ public class ComAdobeCqProjectsPurgeSchedulerProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -231,11 +240,8 @@ public class ComAdobeCqProjectsPurgeSchedulerProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

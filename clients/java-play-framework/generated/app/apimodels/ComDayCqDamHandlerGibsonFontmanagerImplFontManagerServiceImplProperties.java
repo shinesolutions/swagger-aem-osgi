@@ -2,29 +2,38 @@ package apimodels;
 
 import apimodels.ConfigNodePropertyArray;
 import apimodels.ConfigNodePropertyString;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * ComDayCqDamHandlerGibsonFontmanagerImplFontManagerServiceImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class ComDayCqDamHandlerGibsonFontmanagerImplFontManagerServiceImplProperties   {
   @JsonProperty("event.filter")
-  private ConfigNodePropertyString eventFilter = null;
+  @Valid
+
+  private ConfigNodePropertyString eventFilter;
 
   @JsonProperty("fontmgr.system.font.dir")
-  private ConfigNodePropertyArray fontmgrSystemFontDir = null;
+  @Valid
+
+  private ConfigNodePropertyArray fontmgrSystemFontDir;
 
   @JsonProperty("fontmgr.adobe.font.dir")
-  private ConfigNodePropertyString fontmgrAdobeFontDir = null;
+  @Valid
+
+  private ConfigNodePropertyString fontmgrAdobeFontDir;
 
   @JsonProperty("fontmgr.customer.font.dir")
-  private ConfigNodePropertyString fontmgrCustomerFontDir = null;
+  @Valid
+
+  private ConfigNodePropertyString fontmgrCustomerFontDir;
 
   public ComDayCqDamHandlerGibsonFontmanagerImplFontManagerServiceImplProperties eventFilter(ConfigNodePropertyString eventFilter) {
     this.eventFilter = eventFilter;
@@ -35,7 +44,6 @@ public class ComDayCqDamHandlerGibsonFontmanagerImplFontManagerServiceImplProper
    * Get eventFilter
    * @return eventFilter
   **/
-  @Valid
   public ConfigNodePropertyString getEventFilter() {
     return eventFilter;
   }
@@ -53,7 +61,6 @@ public class ComDayCqDamHandlerGibsonFontmanagerImplFontManagerServiceImplProper
    * Get fontmgrSystemFontDir
    * @return fontmgrSystemFontDir
   **/
-  @Valid
   public ConfigNodePropertyArray getFontmgrSystemFontDir() {
     return fontmgrSystemFontDir;
   }
@@ -71,7 +78,6 @@ public class ComDayCqDamHandlerGibsonFontmanagerImplFontManagerServiceImplProper
    * Get fontmgrAdobeFontDir
    * @return fontmgrAdobeFontDir
   **/
-  @Valid
   public ConfigNodePropertyString getFontmgrAdobeFontDir() {
     return fontmgrAdobeFontDir;
   }
@@ -89,7 +95,6 @@ public class ComDayCqDamHandlerGibsonFontmanagerImplFontManagerServiceImplProper
    * Get fontmgrCustomerFontDir
    * @return fontmgrCustomerFontDir
   **/
-  @Valid
   public ConfigNodePropertyString getFontmgrCustomerFontDir() {
     return fontmgrCustomerFontDir;
   }
@@ -100,7 +105,7 @@ public class ComDayCqDamHandlerGibsonFontmanagerImplFontManagerServiceImplProper
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -137,11 +142,8 @@ public class ComDayCqDamHandlerGibsonFontmanagerImplFontManagerServiceImplProper
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

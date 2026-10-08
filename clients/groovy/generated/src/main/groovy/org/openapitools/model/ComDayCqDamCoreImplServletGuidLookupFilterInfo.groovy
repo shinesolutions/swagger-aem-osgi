@@ -7,16 +7,16 @@ import org.openapitools.model.ComDayCqDamCoreImplServletGuidLookupFilterProperti
 
 @Canonical
 class ComDayCqDamCoreImplServletGuidLookupFilterInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqDamCoreImplServletGuidLookupFilterProperties properties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqDamCoreImplServletGuidLookupFilterProperties properties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

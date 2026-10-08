@@ -8,8 +8,8 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class OrgApacheSlingI18nImplI18NFilterProperties {
-    ConfigNodePropertyInteger serviceRanking = null
-
-    ConfigNodePropertyArray slingFilterScope = null
-
+    
+    ConfigNodePropertyInteger serviceRanking
+    
+    ConfigNodePropertyArray slingFilterScope
 }

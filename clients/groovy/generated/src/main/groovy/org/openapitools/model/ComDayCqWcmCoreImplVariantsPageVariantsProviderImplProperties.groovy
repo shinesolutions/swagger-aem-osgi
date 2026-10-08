@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqWcmCoreImplVariantsPageVariantsProviderImplProperties {
-    ConfigNodePropertyString defaultExternalizerDomain = null
-
+    
+    ConfigNodePropertyString defaultExternalizerDomain
 }

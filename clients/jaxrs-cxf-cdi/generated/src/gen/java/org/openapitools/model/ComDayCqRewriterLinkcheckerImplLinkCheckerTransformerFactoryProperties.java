@@ -2,35 +2,36 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties   {
   
-  private ConfigNodePropertyBoolean linkcheckertransformerDisableRewriting = null;
+  private ConfigNodePropertyBoolean linkcheckertransformerDisableRewriting;
 
-  private ConfigNodePropertyBoolean linkcheckertransformerDisableChecking = null;
+  private ConfigNodePropertyBoolean linkcheckertransformerDisableChecking;
 
-  private ConfigNodePropertyInteger linkcheckertransformerMapCacheSize = null;
+  private ConfigNodePropertyInteger linkcheckertransformerMapCacheSize;
 
-  private ConfigNodePropertyBoolean linkcheckertransformerStrictExtensionCheck = null;
+  private ConfigNodePropertyBoolean linkcheckertransformerStrictExtensionCheck;
 
-  private ConfigNodePropertyBoolean linkcheckertransformerStripHtmltExtension = null;
+  private ConfigNodePropertyBoolean linkcheckertransformerStripHtmltExtension;
 
-  private ConfigNodePropertyArray linkcheckertransformerRewriteElements = null;
+  private ConfigNodePropertyArray linkcheckertransformerRewriteElements;
 
-  private ConfigNodePropertyArray linkcheckertransformerStripExtensionPathBlacklist = null;
-
+  private ConfigNodePropertyArray linkcheckertransformerStripExtensionPathBlacklist;
 
   /**
    **/
@@ -160,7 +161,7 @@ public class ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryPropert
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -168,13 +169,13 @@ public class ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryPropert
       return false;
     }
     ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties comDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties = (ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties) o;
-    return Objects.equals(linkcheckertransformerDisableRewriting, comDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties.linkcheckertransformerDisableRewriting) &&
-        Objects.equals(linkcheckertransformerDisableChecking, comDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties.linkcheckertransformerDisableChecking) &&
-        Objects.equals(linkcheckertransformerMapCacheSize, comDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties.linkcheckertransformerMapCacheSize) &&
-        Objects.equals(linkcheckertransformerStrictExtensionCheck, comDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties.linkcheckertransformerStrictExtensionCheck) &&
-        Objects.equals(linkcheckertransformerStripHtmltExtension, comDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties.linkcheckertransformerStripHtmltExtension) &&
-        Objects.equals(linkcheckertransformerRewriteElements, comDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties.linkcheckertransformerRewriteElements) &&
-        Objects.equals(linkcheckertransformerStripExtensionPathBlacklist, comDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties.linkcheckertransformerStripExtensionPathBlacklist);
+    return Objects.equals(this.linkcheckertransformerDisableRewriting, comDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties.linkcheckertransformerDisableRewriting) &&
+        Objects.equals(this.linkcheckertransformerDisableChecking, comDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties.linkcheckertransformerDisableChecking) &&
+        Objects.equals(this.linkcheckertransformerMapCacheSize, comDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties.linkcheckertransformerMapCacheSize) &&
+        Objects.equals(this.linkcheckertransformerStrictExtensionCheck, comDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties.linkcheckertransformerStrictExtensionCheck) &&
+        Objects.equals(this.linkcheckertransformerStripHtmltExtension, comDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties.linkcheckertransformerStripHtmltExtension) &&
+        Objects.equals(this.linkcheckertransformerRewriteElements, comDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties.linkcheckertransformerRewriteElements) &&
+        Objects.equals(this.linkcheckertransformerStripExtensionPathBlacklist, comDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties.linkcheckertransformerStripExtensionPathBlacklist);
   }
 
   @Override
@@ -202,11 +203,8 @@ public class ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryPropert
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

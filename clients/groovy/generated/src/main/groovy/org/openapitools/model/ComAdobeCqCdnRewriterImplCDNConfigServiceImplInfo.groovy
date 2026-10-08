@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqCdnRewriterImplCDNConfigServiceImplPrope
 
 @Canonical
 class ComAdobeCqCdnRewriterImplCDNConfigServiceImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqCdnRewriterImplCDNConfigServiceImplProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqCdnRewriterImplCDNConfigServiceImplProperties properties
 }

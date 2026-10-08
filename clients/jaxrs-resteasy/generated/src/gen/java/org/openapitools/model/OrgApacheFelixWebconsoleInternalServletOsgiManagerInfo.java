@@ -4,18 +4,21 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2019-08-05T00:59:30.156Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2026-10-07T12:54:21.614735164Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheFelixWebconsoleInternalServletOsgiManagerInfo   {
   
-  private String pid = null;
-  private String title = null;
-  private String description = null;
-  private OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties properties = null;
+  private String pid;
+  private String title;
+  private String description;
+  private OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties properties;
 
   /**
    **/
@@ -58,6 +61,7 @@ public class OrgApacheFelixWebconsoleInternalServletOsgiManagerInfo   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("properties")
+  @Valid
   public OrgApacheFelixWebconsoleInternalServletOsgiManagerProperties getProperties() {
     return properties;
   }
@@ -67,7 +71,7 @@ public class OrgApacheFelixWebconsoleInternalServletOsgiManagerInfo   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -75,10 +79,10 @@ public class OrgApacheFelixWebconsoleInternalServletOsgiManagerInfo   {
       return false;
     }
     OrgApacheFelixWebconsoleInternalServletOsgiManagerInfo orgApacheFelixWebconsoleInternalServletOsgiManagerInfo = (OrgApacheFelixWebconsoleInternalServletOsgiManagerInfo) o;
-    return Objects.equals(pid, orgApacheFelixWebconsoleInternalServletOsgiManagerInfo.pid) &&
-        Objects.equals(title, orgApacheFelixWebconsoleInternalServletOsgiManagerInfo.title) &&
-        Objects.equals(description, orgApacheFelixWebconsoleInternalServletOsgiManagerInfo.description) &&
-        Objects.equals(properties, orgApacheFelixWebconsoleInternalServletOsgiManagerInfo.properties);
+    return Objects.equals(this.pid, orgApacheFelixWebconsoleInternalServletOsgiManagerInfo.pid) &&
+        Objects.equals(this.title, orgApacheFelixWebconsoleInternalServletOsgiManagerInfo.title) &&
+        Objects.equals(this.description, orgApacheFelixWebconsoleInternalServletOsgiManagerInfo.description) &&
+        Objects.equals(this.properties, orgApacheFelixWebconsoleInternalServletOsgiManagerInfo.properties);
   }
 
   @Override
@@ -103,11 +107,8 @@ public class OrgApacheFelixWebconsoleInternalServletOsgiManagerInfo   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

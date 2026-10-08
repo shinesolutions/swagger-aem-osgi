@@ -1,24 +1,35 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyDropDown;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("adaptiveFormAndInteractiveCommunicationWebChannelConfigurationProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationProperties   {
-  
-  private @Valid ConfigNodePropertyBoolean showPlaceholder = null;
-  private @Valid ConfigNodePropertyInteger maximumCacheEntries = null;
-  private @Valid ConfigNodePropertyDropDown afScriptingCompatversion = null;
-  private @Valid ConfigNodePropertyBoolean makeFileNameUnique = null;
-  private @Valid ConfigNodePropertyBoolean generatingCompliantData = null;
+  private ConfigNodePropertyBoolean showPlaceholder;
+  private ConfigNodePropertyInteger maximumCacheEntries;
+  private ConfigNodePropertyDropDown afScriptingCompatversion;
+  private ConfigNodePropertyBoolean makeFileNameUnique;
+  private ConfigNodePropertyBoolean generatingCompliantData;
+
+  public AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationProperties() {
+  }
 
   /**
    **/
@@ -30,9 +41,11 @@ public class AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("showPlaceholder")
-  public ConfigNodePropertyBoolean getShowPlaceholder() {
+  @Valid public ConfigNodePropertyBoolean getShowPlaceholder() {
     return showPlaceholder;
   }
+
+  @JsonProperty("showPlaceholder")
   public void setShowPlaceholder(ConfigNodePropertyBoolean showPlaceholder) {
     this.showPlaceholder = showPlaceholder;
   }
@@ -47,9 +60,11 @@ public class AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("maximumCacheEntries")
-  public ConfigNodePropertyInteger getMaximumCacheEntries() {
+  @Valid public ConfigNodePropertyInteger getMaximumCacheEntries() {
     return maximumCacheEntries;
   }
+
+  @JsonProperty("maximumCacheEntries")
   public void setMaximumCacheEntries(ConfigNodePropertyInteger maximumCacheEntries) {
     this.maximumCacheEntries = maximumCacheEntries;
   }
@@ -64,9 +79,11 @@ public class AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("af.scripting.compatversion")
-  public ConfigNodePropertyDropDown getAfScriptingCompatversion() {
+  @Valid public ConfigNodePropertyDropDown getAfScriptingCompatversion() {
     return afScriptingCompatversion;
   }
+
+  @JsonProperty("af.scripting.compatversion")
   public void setAfScriptingCompatversion(ConfigNodePropertyDropDown afScriptingCompatversion) {
     this.afScriptingCompatversion = afScriptingCompatversion;
   }
@@ -81,9 +98,11 @@ public class AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("makeFileNameUnique")
-  public ConfigNodePropertyBoolean getMakeFileNameUnique() {
+  @Valid public ConfigNodePropertyBoolean getMakeFileNameUnique() {
     return makeFileNameUnique;
   }
+
+  @JsonProperty("makeFileNameUnique")
   public void setMakeFileNameUnique(ConfigNodePropertyBoolean makeFileNameUnique) {
     this.makeFileNameUnique = makeFileNameUnique;
   }
@@ -98,16 +117,18 @@ public class AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("generatingCompliantData")
-  public ConfigNodePropertyBoolean getGeneratingCompliantData() {
+  @Valid public ConfigNodePropertyBoolean getGeneratingCompliantData() {
     return generatingCompliantData;
   }
+
+  @JsonProperty("generatingCompliantData")
   public void setGeneratingCompliantData(ConfigNodePropertyBoolean generatingCompliantData) {
     this.generatingCompliantData = generatingCompliantData;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -115,11 +136,11 @@ public class AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationPrope
       return false;
     }
     AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationProperties adaptiveFormAndInteractiveCommunicationWebChannelConfigurationProperties = (AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationProperties) o;
-    return Objects.equals(showPlaceholder, adaptiveFormAndInteractiveCommunicationWebChannelConfigurationProperties.showPlaceholder) &&
-        Objects.equals(maximumCacheEntries, adaptiveFormAndInteractiveCommunicationWebChannelConfigurationProperties.maximumCacheEntries) &&
-        Objects.equals(afScriptingCompatversion, adaptiveFormAndInteractiveCommunicationWebChannelConfigurationProperties.afScriptingCompatversion) &&
-        Objects.equals(makeFileNameUnique, adaptiveFormAndInteractiveCommunicationWebChannelConfigurationProperties.makeFileNameUnique) &&
-        Objects.equals(generatingCompliantData, adaptiveFormAndInteractiveCommunicationWebChannelConfigurationProperties.generatingCompliantData);
+    return Objects.equals(this.showPlaceholder, adaptiveFormAndInteractiveCommunicationWebChannelConfigurationProperties.showPlaceholder) &&
+        Objects.equals(this.maximumCacheEntries, adaptiveFormAndInteractiveCommunicationWebChannelConfigurationProperties.maximumCacheEntries) &&
+        Objects.equals(this.afScriptingCompatversion, adaptiveFormAndInteractiveCommunicationWebChannelConfigurationProperties.afScriptingCompatversion) &&
+        Objects.equals(this.makeFileNameUnique, adaptiveFormAndInteractiveCommunicationWebChannelConfigurationProperties.makeFileNameUnique) &&
+        Objects.equals(this.generatingCompliantData, adaptiveFormAndInteractiveCommunicationWebChannelConfigurationProperties.generatingCompliantData);
   }
 
   @Override
@@ -145,11 +166,9 @@ public class AdaptiveFormAndInteractiveCommunicationWebChannelConfigurationPrope
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

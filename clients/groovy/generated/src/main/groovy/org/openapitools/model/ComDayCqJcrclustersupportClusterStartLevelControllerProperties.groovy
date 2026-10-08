@@ -8,10 +8,10 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class ComDayCqJcrclustersupportClusterStartLevelControllerProperties {
-    ConfigNodePropertyBoolean clusterLevelEnable = null
-
-    ConfigNodePropertyInteger clusterMasterLevel = null
-
-    ConfigNodePropertyInteger clusterSlaveLevel = null
-
+    
+    ConfigNodePropertyBoolean clusterLevelEnable
+    
+    ConfigNodePropertyInteger clusterMasterLevel
+    
+    ConfigNodePropertyInteger clusterSlaveLevel
 }

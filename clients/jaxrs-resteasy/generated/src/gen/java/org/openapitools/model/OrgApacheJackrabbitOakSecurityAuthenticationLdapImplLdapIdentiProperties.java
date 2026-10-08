@@ -4,49 +4,53 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2019-08-05T00:59:30.156Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2026-10-07T12:54:21.614735164Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties   {
   
-  private ConfigNodePropertyString providerName = null;
-  private ConfigNodePropertyString hostName = null;
-  private ConfigNodePropertyInteger hostPort = null;
-  private ConfigNodePropertyBoolean hostSsl = null;
-  private ConfigNodePropertyBoolean hostTls = null;
-  private ConfigNodePropertyBoolean hostNoCertCheck = null;
-  private ConfigNodePropertyString bindDn = null;
-  private ConfigNodePropertyString bindPassword = null;
-  private ConfigNodePropertyString searchTimeout = null;
-  private ConfigNodePropertyInteger adminPoolMaxActive = null;
-  private ConfigNodePropertyBoolean adminPoolLookupOnValidate = null;
-  private ConfigNodePropertyInteger userPoolMaxActive = null;
-  private ConfigNodePropertyBoolean userPoolLookupOnValidate = null;
-  private ConfigNodePropertyString userBaseDN = null;
-  private ConfigNodePropertyArray userObjectclass = null;
-  private ConfigNodePropertyString userIdAttribute = null;
-  private ConfigNodePropertyString userExtraFilter = null;
-  private ConfigNodePropertyBoolean userMakeDnPath = null;
-  private ConfigNodePropertyString groupBaseDN = null;
-  private ConfigNodePropertyArray groupObjectclass = null;
-  private ConfigNodePropertyString groupNameAttribute = null;
-  private ConfigNodePropertyString groupExtraFilter = null;
-  private ConfigNodePropertyBoolean groupMakeDnPath = null;
-  private ConfigNodePropertyString groupMemberAttribute = null;
-  private ConfigNodePropertyBoolean useUidForExtId = null;
-  private ConfigNodePropertyArray customattributes = null;
+  private ConfigNodePropertyString providerName;
+  private ConfigNodePropertyString hostName;
+  private ConfigNodePropertyInteger hostPort;
+  private ConfigNodePropertyBoolean hostSsl;
+  private ConfigNodePropertyBoolean hostTls;
+  private ConfigNodePropertyBoolean hostNoCertCheck;
+  private ConfigNodePropertyString bindDn;
+  private ConfigNodePropertyString bindPassword;
+  private ConfigNodePropertyString searchTimeout;
+  private ConfigNodePropertyInteger adminPoolMaxActive;
+  private ConfigNodePropertyBoolean adminPoolLookupOnValidate;
+  private ConfigNodePropertyInteger userPoolMaxActive;
+  private ConfigNodePropertyBoolean userPoolLookupOnValidate;
+  private ConfigNodePropertyString userBaseDN;
+  private ConfigNodePropertyArray userObjectclass;
+  private ConfigNodePropertyString userIdAttribute;
+  private ConfigNodePropertyString userExtraFilter;
+  private ConfigNodePropertyBoolean userMakeDnPath;
+  private ConfigNodePropertyString groupBaseDN;
+  private ConfigNodePropertyArray groupObjectclass;
+  private ConfigNodePropertyString groupNameAttribute;
+  private ConfigNodePropertyString groupExtraFilter;
+  private ConfigNodePropertyBoolean groupMakeDnPath;
+  private ConfigNodePropertyString groupMemberAttribute;
+  private ConfigNodePropertyBoolean useUidForExtId;
+  private ConfigNodePropertyArray customattributes;
 
   /**
    **/
   
   @ApiModelProperty(value = "")
   @JsonProperty("provider.name")
+  @Valid
   public ConfigNodePropertyString getProviderName() {
     return providerName;
   }
@@ -59,6 +63,7 @@ public class OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("host.name")
+  @Valid
   public ConfigNodePropertyString getHostName() {
     return hostName;
   }
@@ -71,6 +76,7 @@ public class OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("host.port")
+  @Valid
   public ConfigNodePropertyInteger getHostPort() {
     return hostPort;
   }
@@ -83,6 +89,7 @@ public class OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("host.ssl")
+  @Valid
   public ConfigNodePropertyBoolean getHostSsl() {
     return hostSsl;
   }
@@ -95,6 +102,7 @@ public class OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("host.tls")
+  @Valid
   public ConfigNodePropertyBoolean getHostTls() {
     return hostTls;
   }
@@ -107,6 +115,7 @@ public class OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("host.noCertCheck")
+  @Valid
   public ConfigNodePropertyBoolean getHostNoCertCheck() {
     return hostNoCertCheck;
   }
@@ -119,6 +128,7 @@ public class OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("bind.dn")
+  @Valid
   public ConfigNodePropertyString getBindDn() {
     return bindDn;
   }
@@ -131,6 +141,7 @@ public class OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("bind.password")
+  @Valid
   public ConfigNodePropertyString getBindPassword() {
     return bindPassword;
   }
@@ -143,6 +154,7 @@ public class OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("searchTimeout")
+  @Valid
   public ConfigNodePropertyString getSearchTimeout() {
     return searchTimeout;
   }
@@ -155,6 +167,7 @@ public class OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("adminPool.maxActive")
+  @Valid
   public ConfigNodePropertyInteger getAdminPoolMaxActive() {
     return adminPoolMaxActive;
   }
@@ -167,6 +180,7 @@ public class OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("adminPool.lookupOnValidate")
+  @Valid
   public ConfigNodePropertyBoolean getAdminPoolLookupOnValidate() {
     return adminPoolLookupOnValidate;
   }
@@ -179,6 +193,7 @@ public class OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("userPool.maxActive")
+  @Valid
   public ConfigNodePropertyInteger getUserPoolMaxActive() {
     return userPoolMaxActive;
   }
@@ -191,6 +206,7 @@ public class OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("userPool.lookupOnValidate")
+  @Valid
   public ConfigNodePropertyBoolean getUserPoolLookupOnValidate() {
     return userPoolLookupOnValidate;
   }
@@ -203,6 +219,7 @@ public class OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("user.baseDN")
+  @Valid
   public ConfigNodePropertyString getUserBaseDN() {
     return userBaseDN;
   }
@@ -215,6 +232,7 @@ public class OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("user.objectclass")
+  @Valid
   public ConfigNodePropertyArray getUserObjectclass() {
     return userObjectclass;
   }
@@ -227,6 +245,7 @@ public class OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("user.idAttribute")
+  @Valid
   public ConfigNodePropertyString getUserIdAttribute() {
     return userIdAttribute;
   }
@@ -239,6 +258,7 @@ public class OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("user.extraFilter")
+  @Valid
   public ConfigNodePropertyString getUserExtraFilter() {
     return userExtraFilter;
   }
@@ -251,6 +271,7 @@ public class OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("user.makeDnPath")
+  @Valid
   public ConfigNodePropertyBoolean getUserMakeDnPath() {
     return userMakeDnPath;
   }
@@ -263,6 +284,7 @@ public class OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("group.baseDN")
+  @Valid
   public ConfigNodePropertyString getGroupBaseDN() {
     return groupBaseDN;
   }
@@ -275,6 +297,7 @@ public class OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("group.objectclass")
+  @Valid
   public ConfigNodePropertyArray getGroupObjectclass() {
     return groupObjectclass;
   }
@@ -287,6 +310,7 @@ public class OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("group.nameAttribute")
+  @Valid
   public ConfigNodePropertyString getGroupNameAttribute() {
     return groupNameAttribute;
   }
@@ -299,6 +323,7 @@ public class OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("group.extraFilter")
+  @Valid
   public ConfigNodePropertyString getGroupExtraFilter() {
     return groupExtraFilter;
   }
@@ -311,6 +336,7 @@ public class OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("group.makeDnPath")
+  @Valid
   public ConfigNodePropertyBoolean getGroupMakeDnPath() {
     return groupMakeDnPath;
   }
@@ -323,6 +349,7 @@ public class OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("group.memberAttribute")
+  @Valid
   public ConfigNodePropertyString getGroupMemberAttribute() {
     return groupMemberAttribute;
   }
@@ -335,6 +362,7 @@ public class OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("useUidForExtId")
+  @Valid
   public ConfigNodePropertyBoolean getUseUidForExtId() {
     return useUidForExtId;
   }
@@ -347,6 +375,7 @@ public class OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiPrope
   
   @ApiModelProperty(value = "")
   @JsonProperty("customattributes")
+  @Valid
   public ConfigNodePropertyArray getCustomattributes() {
     return customattributes;
   }
@@ -356,7 +385,7 @@ public class OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiPrope
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -364,32 +393,32 @@ public class OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiPrope
       return false;
     }
     OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties = (OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties) o;
-    return Objects.equals(providerName, orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties.providerName) &&
-        Objects.equals(hostName, orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties.hostName) &&
-        Objects.equals(hostPort, orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties.hostPort) &&
-        Objects.equals(hostSsl, orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties.hostSsl) &&
-        Objects.equals(hostTls, orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties.hostTls) &&
-        Objects.equals(hostNoCertCheck, orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties.hostNoCertCheck) &&
-        Objects.equals(bindDn, orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties.bindDn) &&
-        Objects.equals(bindPassword, orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties.bindPassword) &&
-        Objects.equals(searchTimeout, orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties.searchTimeout) &&
-        Objects.equals(adminPoolMaxActive, orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties.adminPoolMaxActive) &&
-        Objects.equals(adminPoolLookupOnValidate, orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties.adminPoolLookupOnValidate) &&
-        Objects.equals(userPoolMaxActive, orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties.userPoolMaxActive) &&
-        Objects.equals(userPoolLookupOnValidate, orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties.userPoolLookupOnValidate) &&
-        Objects.equals(userBaseDN, orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties.userBaseDN) &&
-        Objects.equals(userObjectclass, orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties.userObjectclass) &&
-        Objects.equals(userIdAttribute, orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties.userIdAttribute) &&
-        Objects.equals(userExtraFilter, orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties.userExtraFilter) &&
-        Objects.equals(userMakeDnPath, orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties.userMakeDnPath) &&
-        Objects.equals(groupBaseDN, orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties.groupBaseDN) &&
-        Objects.equals(groupObjectclass, orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties.groupObjectclass) &&
-        Objects.equals(groupNameAttribute, orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties.groupNameAttribute) &&
-        Objects.equals(groupExtraFilter, orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties.groupExtraFilter) &&
-        Objects.equals(groupMakeDnPath, orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties.groupMakeDnPath) &&
-        Objects.equals(groupMemberAttribute, orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties.groupMemberAttribute) &&
-        Objects.equals(useUidForExtId, orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties.useUidForExtId) &&
-        Objects.equals(customattributes, orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties.customattributes);
+    return Objects.equals(this.providerName, orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties.providerName) &&
+        Objects.equals(this.hostName, orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties.hostName) &&
+        Objects.equals(this.hostPort, orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties.hostPort) &&
+        Objects.equals(this.hostSsl, orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties.hostSsl) &&
+        Objects.equals(this.hostTls, orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties.hostTls) &&
+        Objects.equals(this.hostNoCertCheck, orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties.hostNoCertCheck) &&
+        Objects.equals(this.bindDn, orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties.bindDn) &&
+        Objects.equals(this.bindPassword, orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties.bindPassword) &&
+        Objects.equals(this.searchTimeout, orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties.searchTimeout) &&
+        Objects.equals(this.adminPoolMaxActive, orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties.adminPoolMaxActive) &&
+        Objects.equals(this.adminPoolLookupOnValidate, orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties.adminPoolLookupOnValidate) &&
+        Objects.equals(this.userPoolMaxActive, orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties.userPoolMaxActive) &&
+        Objects.equals(this.userPoolLookupOnValidate, orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties.userPoolLookupOnValidate) &&
+        Objects.equals(this.userBaseDN, orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties.userBaseDN) &&
+        Objects.equals(this.userObjectclass, orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties.userObjectclass) &&
+        Objects.equals(this.userIdAttribute, orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties.userIdAttribute) &&
+        Objects.equals(this.userExtraFilter, orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties.userExtraFilter) &&
+        Objects.equals(this.userMakeDnPath, orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties.userMakeDnPath) &&
+        Objects.equals(this.groupBaseDN, orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties.groupBaseDN) &&
+        Objects.equals(this.groupObjectclass, orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties.groupObjectclass) &&
+        Objects.equals(this.groupNameAttribute, orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties.groupNameAttribute) &&
+        Objects.equals(this.groupExtraFilter, orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties.groupExtraFilter) &&
+        Objects.equals(this.groupMakeDnPath, orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties.groupMakeDnPath) &&
+        Objects.equals(this.groupMemberAttribute, orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties.groupMemberAttribute) &&
+        Objects.equals(this.useUidForExtId, orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties.useUidForExtId) &&
+        Objects.equals(this.customattributes, orgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiProperties.customattributes);
   }
 
   @Override
@@ -436,11 +465,8 @@ public class OrgApacheJackrabbitOakSecurityAuthenticationLdapImplLdapIdentiPrope
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

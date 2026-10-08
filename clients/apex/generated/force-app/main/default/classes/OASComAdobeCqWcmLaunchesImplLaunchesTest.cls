@@ -72,10 +72,10 @@ private class OASComAdobeCqWcmLaunchesImplLaunchesTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeCqWcmLaunchesImplLaunches comAdobeCqWcmLaunchesImplLaunchesEventHandlerProperties = new OASComAdobeCqWcmLaunchesImplLaunches();
-        Map<String, String> propertyMappings = comAdobeCqWcmLaunchesImplLaunchesEventHandlerProperties.getPropertyMappings();
-        System.assertEquals('eventFilter', propertyMappings.get('event.filter'));
-        System.assertEquals('launchesEventhandlerThreadpoolMaxsize', propertyMappings.get('launches.eventhandler.threadpool.maxsize'));
-        System.assertEquals('launchesEventhandlerThreadpoolPriority', propertyMappings.get('launches.eventhandler.threadpool.priority'));
-        System.assertEquals('launchesEventhandlerUpdatelastmodification', propertyMappings.get('launches.eventhandler.updatelastmodification'));
+        Map<String, String> x-property-mappings = comAdobeCqWcmLaunchesImplLaunchesEventHandlerProperties.getx-property-mappings();
+        System.assertEquals('eventFilter', x-property-mappings.get('event.filter'));
+        System.assertEquals('launchesEventhandlerThreadpoolMaxsize', x-property-mappings.get('launches.eventhandler.threadpool.maxsize'));
+        System.assertEquals('launchesEventhandlerThreadpoolPriority', x-property-mappings.get('launches.eventhandler.threadpool.priority'));
+        System.assertEquals('launchesEventhandlerUpdatelastmodification', x-property-mappings.get('launches.eventhandler.updatelastmodification'));
     }
 }

@@ -8,8 +8,8 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeGraniteOffloadingImplOffloadingConfiguratorProperties {
-    ConfigNodePropertyString offloadingTransporter = null
-
-    ConfigNodePropertyBoolean offloadingCleanupPayload = null
-
+    
+    ConfigNodePropertyString offloadingTransporter
+    
+    ConfigNodePropertyBoolean offloadingCleanupPayload
 }

@@ -3,29 +3,38 @@ package apimodels;
 import apimodels.ConfigNodePropertyArray;
 import apimodels.ConfigNodePropertyBoolean;
 import apimodels.ConfigNodePropertyString;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourProperties   {
   @JsonProperty("enabled")
-  private ConfigNodePropertyBoolean enabled = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean enabled;
 
   @JsonProperty("configPath")
-  private ConfigNodePropertyString configPath = null;
+  @Valid
+
+  private ConfigNodePropertyString configPath;
 
   @JsonProperty("fallbackPaths")
-  private ConfigNodePropertyArray fallbackPaths = null;
+  @Valid
+
+  private ConfigNodePropertyArray fallbackPaths;
 
   @JsonProperty("configCollectionInheritancePropertyNames")
-  private ConfigNodePropertyArray configCollectionInheritancePropertyNames = null;
+  @Valid
+
+  private ConfigNodePropertyArray configCollectionInheritancePropertyNames;
 
   public OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourProperties enabled(ConfigNodePropertyBoolean enabled) {
     this.enabled = enabled;
@@ -36,7 +45,6 @@ public class OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourProp
    * Get enabled
    * @return enabled
   **/
-  @Valid
   public ConfigNodePropertyBoolean getEnabled() {
     return enabled;
   }
@@ -54,7 +62,6 @@ public class OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourProp
    * Get configPath
    * @return configPath
   **/
-  @Valid
   public ConfigNodePropertyString getConfigPath() {
     return configPath;
   }
@@ -72,7 +79,6 @@ public class OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourProp
    * Get fallbackPaths
    * @return fallbackPaths
   **/
-  @Valid
   public ConfigNodePropertyArray getFallbackPaths() {
     return fallbackPaths;
   }
@@ -90,7 +96,6 @@ public class OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourProp
    * Get configCollectionInheritancePropertyNames
    * @return configCollectionInheritancePropertyNames
   **/
-  @Valid
   public ConfigNodePropertyArray getConfigCollectionInheritancePropertyNames() {
     return configCollectionInheritancePropertyNames;
   }
@@ -101,7 +106,7 @@ public class OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourProp
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -138,11 +143,8 @@ public class OrgApacheSlingCaconfigResourceImplDefDefaultConfigurationResourProp
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

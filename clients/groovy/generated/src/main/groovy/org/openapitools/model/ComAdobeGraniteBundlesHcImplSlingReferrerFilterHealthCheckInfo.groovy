@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeGraniteBundlesHcImplSlingReferrerFilterHea
 
 @Canonical
 class ComAdobeGraniteBundlesHcImplSlingReferrerFilterHealthCheckInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteBundlesHcImplSlingReferrerFilterHealthCheckProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteBundlesHcImplSlingReferrerFilterHealthCheckProperties properties
 }

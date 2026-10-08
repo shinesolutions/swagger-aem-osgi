@@ -3,6 +3,7 @@ package org.openapitools.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
@@ -14,49 +15,49 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaInflectorServerCodegen", date = "2019-08-05T00:53:46.291Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaInflectorServerCodegen", date = "2026-10-07T12:53:12.340274163Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteAuthOauthAccesstokenProviderProperties   {
   @JsonProperty("name")
-  private ConfigNodePropertyString name = null;
+  private ConfigNodePropertyString name;
 
   @JsonProperty("auth.token.provider.title")
-  private ConfigNodePropertyString authTokenProviderTitle = null;
+  private ConfigNodePropertyString authTokenProviderTitle;
 
   @JsonProperty("auth.token.provider.default.claims")
-  private ConfigNodePropertyArray authTokenProviderDefaultClaims = null;
+  private ConfigNodePropertyArray authTokenProviderDefaultClaims;
 
   @JsonProperty("auth.token.provider.endpoint")
-  private ConfigNodePropertyString authTokenProviderEndpoint = null;
+  private ConfigNodePropertyString authTokenProviderEndpoint;
 
   @JsonProperty("auth.access.token.request")
-  private ConfigNodePropertyString authAccessTokenRequest = null;
+  private ConfigNodePropertyString authAccessTokenRequest;
 
   @JsonProperty("auth.token.provider.keypair.alias")
-  private ConfigNodePropertyString authTokenProviderKeypairAlias = null;
+  private ConfigNodePropertyString authTokenProviderKeypairAlias;
 
   @JsonProperty("auth.token.provider.conn.timeout")
-  private ConfigNodePropertyInteger authTokenProviderConnTimeout = null;
+  private ConfigNodePropertyInteger authTokenProviderConnTimeout;
 
   @JsonProperty("auth.token.provider.so.timeout")
-  private ConfigNodePropertyInteger authTokenProviderSoTimeout = null;
+  private ConfigNodePropertyInteger authTokenProviderSoTimeout;
 
   @JsonProperty("auth.token.provider.client.id")
-  private ConfigNodePropertyString authTokenProviderClientId = null;
+  private ConfigNodePropertyString authTokenProviderClientId;
 
   @JsonProperty("auth.token.provider.scope")
-  private ConfigNodePropertyString authTokenProviderScope = null;
+  private ConfigNodePropertyString authTokenProviderScope;
 
   @JsonProperty("auth.token.provider.reuse.access.token")
-  private ConfigNodePropertyBoolean authTokenProviderReuseAccessToken = null;
+  private ConfigNodePropertyBoolean authTokenProviderReuseAccessToken;
 
   @JsonProperty("auth.token.provider.relaxed.ssl")
-  private ConfigNodePropertyBoolean authTokenProviderRelaxedSsl = null;
+  private ConfigNodePropertyBoolean authTokenProviderRelaxedSsl;
 
   @JsonProperty("token.request.customizer.type")
-  private ConfigNodePropertyString tokenRequestCustomizerType = null;
+  private ConfigNodePropertyString tokenRequestCustomizerType;
 
   @JsonProperty("auth.token.validator.type")
-  private ConfigNodePropertyString authTokenValidatorType = null;
+  private ConfigNodePropertyString authTokenValidatorType;
 
   /**
    **/
@@ -298,7 +299,7 @@ public class ComAdobeGraniteAuthOauthAccesstokenProviderProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -354,11 +355,8 @@ public class ComAdobeGraniteAuthOauthAccesstokenProviderProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

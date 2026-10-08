@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqContentsyncImplContentSyncManagerImplPrope
 
 @Canonical
 class ComDayCqContentsyncImplContentSyncManagerImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqContentsyncImplContentSyncManagerImplProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqContentsyncImplContentSyncManagerImplProperties properties
 }

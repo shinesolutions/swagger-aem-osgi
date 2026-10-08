@@ -8,12 +8,12 @@ import org.openapitools.model.ConfigNodePropertyBoolean;
 
 @Canonical
 class ComDayCqWcmMobileCoreImplRedirectRedirectFilterProperties {
-    ConfigNodePropertyBoolean redirectEnabled = null
-
-    ConfigNodePropertyBoolean redirectStatsEnabled = null
-
-    ConfigNodePropertyArray redirectExtensions = null
-
-    ConfigNodePropertyArray redirectPaths = null
-
+    
+    ConfigNodePropertyBoolean redirectEnabled
+    
+    ConfigNodePropertyBoolean redirectStatsEnabled
+    
+    ConfigNodePropertyArray redirectExtensions
+    
+    ConfigNodePropertyArray redirectPaths
 }

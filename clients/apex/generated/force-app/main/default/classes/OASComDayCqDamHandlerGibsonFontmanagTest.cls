@@ -72,10 +72,10 @@ private class OASComDayCqDamHandlerGibsonFontmanagTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqDamHandlerGibsonFontmanag comDayCqDamHandlerGibsonFontmanagerImplFontManagerServiceImplProperties = new OASComDayCqDamHandlerGibsonFontmanag();
-        Map<String, String> propertyMappings = comDayCqDamHandlerGibsonFontmanagerImplFontManagerServiceImplProperties.getPropertyMappings();
-        System.assertEquals('eventFilter', propertyMappings.get('event.filter'));
-        System.assertEquals('fontmgrSystemFontDir', propertyMappings.get('fontmgr.system.font.dir'));
-        System.assertEquals('fontmgrAdobeFontDir', propertyMappings.get('fontmgr.adobe.font.dir'));
-        System.assertEquals('fontmgrCustomerFontDir', propertyMappings.get('fontmgr.customer.font.dir'));
+        Map<String, String> x-property-mappings = comDayCqDamHandlerGibsonFontmanagerImplFontManagerServiceImplProperties.getx-property-mappings();
+        System.assertEquals('eventFilter', x-property-mappings.get('event.filter'));
+        System.assertEquals('fontmgrSystemFontDir', x-property-mappings.get('fontmgr.system.font.dir'));
+        System.assertEquals('fontmgrAdobeFontDir', x-property-mappings.get('fontmgr.adobe.font.dir'));
+        System.assertEquals('fontmgrCustomerFontDir', x-property-mappings.get('fontmgr.customer.font.dir'));
     }
 }

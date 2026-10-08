@@ -72,11 +72,11 @@ private class OASComAdobeCqCdnRewriterImplCDNConfiTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeCqCdnRewriterImplCDNConfi comAdobeCqCdnRewriterImplCDNConfigServiceImplProperties = new OASComAdobeCqCdnRewriterImplCDNConfi();
-        Map<String, String> propertyMappings = comAdobeCqCdnRewriterImplCDNConfigServiceImplProperties.getPropertyMappings();
-        System.assertEquals('cdnConfigDistributionDomain', propertyMappings.get('cdn.config.distribution.domain'));
-        System.assertEquals('cdnConfigEnableRewriting', propertyMappings.get('cdn.config.enable.rewriting'));
-        System.assertEquals('cdnConfigPathPrefixes', propertyMappings.get('cdn.config.path.prefixes'));
-        System.assertEquals('cdnConfigCdnttl', propertyMappings.get('cdn.config.cdnttl'));
-        System.assertEquals('cdnConfigApplicationProtocol', propertyMappings.get('cdn.config.application.protocol'));
+        Map<String, String> x-property-mappings = comAdobeCqCdnRewriterImplCDNConfigServiceImplProperties.getx-property-mappings();
+        System.assertEquals('cdnConfigDistributionDomain', x-property-mappings.get('cdn.config.distribution.domain'));
+        System.assertEquals('cdnConfigEnableRewriting', x-property-mappings.get('cdn.config.enable.rewriting'));
+        System.assertEquals('cdnConfigPathPrefixes', x-property-mappings.get('cdn.config.path.prefixes'));
+        System.assertEquals('cdnConfigCdnttl', x-property-mappings.get('cdn.config.cdnttl'));
+        System.assertEquals('cdnConfigApplicationProtocol', x-property-mappings.get('cdn.config.application.protocol'));
     }
 }

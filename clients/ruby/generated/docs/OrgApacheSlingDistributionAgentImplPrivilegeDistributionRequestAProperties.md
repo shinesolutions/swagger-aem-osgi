@@ -2,18 +2,19 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**name** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
-**jcr_privilege** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **name** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] |
+| **jcr_privilege** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAProperties.new(name: null,
-                                 jcr_privilege: null)
+instance = SwaggerAemOsgiClient::OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAProperties.new(
+  name: null,
+  jcr_privilege: null
+)
 ```
-
 

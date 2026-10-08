@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ComDayCqWcmCoreImplWCMDeveloperModeFilterProperties;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
@@ -15,39 +16,38 @@ import io.swagger.annotations.ApiModelProperty;
  * ComDayCqWcmCoreImplWCMDeveloperModeFilterInfo
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqWcmCoreImplWCMDeveloperModeFilterInfo   {
   @JsonProperty("pid")
-  private String pid = null;
+  private String pid;
 
   @JsonProperty("title")
-  private String title = null;
+  private String title;
 
   @JsonProperty("description")
-  private String description = null;
+  private String description;
 
   @JsonProperty("properties")
-  private ComDayCqWcmCoreImplWCMDeveloperModeFilterProperties properties = null;
+  private ComDayCqWcmCoreImplWCMDeveloperModeFilterProperties properties;
 
   @JsonProperty("additionalProperties")
-  private String additionalProperties = null;
+  private String additionalProperties;
 
   @JsonProperty("bundle_location")
-  private String bundleLocation = null;
+  private String bundleLocation;
 
   @JsonProperty("service_location")
-  private String serviceLocation = null;
+  private String serviceLocation;
 
   public ComDayCqWcmCoreImplWCMDeveloperModeFilterInfo pid(String pid) {
     this.pid = pid;
     return this;
   }
 
-   /**
+  /**
    * Get pid
    * @return pid
-  **/
+   */
   @ApiModelProperty(value = "")
   public String getPid() {
     return pid;
@@ -62,10 +62,10 @@ public class ComDayCqWcmCoreImplWCMDeveloperModeFilterInfo   {
     return this;
   }
 
-   /**
+  /**
    * Get title
    * @return title
-  **/
+   */
   @ApiModelProperty(value = "")
   public String getTitle() {
     return title;
@@ -80,10 +80,10 @@ public class ComDayCqWcmCoreImplWCMDeveloperModeFilterInfo   {
     return this;
   }
 
-   /**
+  /**
    * Get description
    * @return description
-  **/
+   */
   @ApiModelProperty(value = "")
   public String getDescription() {
     return description;
@@ -98,10 +98,10 @@ public class ComDayCqWcmCoreImplWCMDeveloperModeFilterInfo   {
     return this;
   }
 
-   /**
+  /**
    * Get properties
    * @return properties
-  **/
+   */
   @ApiModelProperty(value = "")
   public ComDayCqWcmCoreImplWCMDeveloperModeFilterProperties getProperties() {
     return properties;
@@ -116,10 +116,10 @@ public class ComDayCqWcmCoreImplWCMDeveloperModeFilterInfo   {
     return this;
   }
 
-   /**
+  /**
    * Get additionalProperties
    * @return additionalProperties
-  **/
+   */
   @ApiModelProperty(value = "")
   public String getAdditionalProperties() {
     return additionalProperties;
@@ -134,10 +134,10 @@ public class ComDayCqWcmCoreImplWCMDeveloperModeFilterInfo   {
     return this;
   }
 
-   /**
+  /**
    * Get bundleLocation
    * @return bundleLocation
-  **/
+   */
   @ApiModelProperty(value = "")
   public String getBundleLocation() {
     return bundleLocation;
@@ -152,10 +152,10 @@ public class ComDayCqWcmCoreImplWCMDeveloperModeFilterInfo   {
     return this;
   }
 
-   /**
+  /**
    * Get serviceLocation
    * @return serviceLocation
-  **/
+   */
   @ApiModelProperty(value = "")
   public String getServiceLocation() {
     return serviceLocation;
@@ -167,7 +167,7 @@ public class ComDayCqWcmCoreImplWCMDeveloperModeFilterInfo   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -209,11 +209,8 @@ public class ComDayCqWcmCoreImplWCMDeveloperModeFilterInfo   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

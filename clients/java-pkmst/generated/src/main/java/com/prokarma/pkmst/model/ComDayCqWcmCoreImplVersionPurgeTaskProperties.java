@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyArray;
 import com.prokarma.pkmst.model.ConfigNodePropertyBoolean;
 import com.prokarma.pkmst.model.ConfigNodePropertyInteger;
@@ -17,33 +18,32 @@ import io.swagger.annotations.ApiModelProperty;
  * ComDayCqWcmCoreImplVersionPurgeTaskProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqWcmCoreImplVersionPurgeTaskProperties   {
   @JsonProperty("versionpurge.paths")
-  private ConfigNodePropertyArray versionpurgePaths = null;
+  private ConfigNodePropertyArray versionpurgePaths;
 
   @JsonProperty("versionpurge.recursive")
-  private ConfigNodePropertyBoolean versionpurgeRecursive = null;
+  private ConfigNodePropertyBoolean versionpurgeRecursive;
 
   @JsonProperty("versionpurge.maxVersions")
-  private ConfigNodePropertyInteger versionpurgeMaxVersions = null;
+  private ConfigNodePropertyInteger versionpurgeMaxVersions;
 
   @JsonProperty("versionpurge.minVersions")
-  private ConfigNodePropertyInteger versionpurgeMinVersions = null;
+  private ConfigNodePropertyInteger versionpurgeMinVersions;
 
   @JsonProperty("versionpurge.maxAgeDays")
-  private ConfigNodePropertyInteger versionpurgeMaxAgeDays = null;
+  private ConfigNodePropertyInteger versionpurgeMaxAgeDays;
 
   public ComDayCqWcmCoreImplVersionPurgeTaskProperties versionpurgePaths(ConfigNodePropertyArray versionpurgePaths) {
     this.versionpurgePaths = versionpurgePaths;
     return this;
   }
 
-   /**
+  /**
    * Get versionpurgePaths
    * @return versionpurgePaths
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getVersionpurgePaths() {
     return versionpurgePaths;
@@ -58,10 +58,10 @@ public class ComDayCqWcmCoreImplVersionPurgeTaskProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get versionpurgeRecursive
    * @return versionpurgeRecursive
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getVersionpurgeRecursive() {
     return versionpurgeRecursive;
@@ -76,10 +76,10 @@ public class ComDayCqWcmCoreImplVersionPurgeTaskProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get versionpurgeMaxVersions
    * @return versionpurgeMaxVersions
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getVersionpurgeMaxVersions() {
     return versionpurgeMaxVersions;
@@ -94,10 +94,10 @@ public class ComDayCqWcmCoreImplVersionPurgeTaskProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get versionpurgeMinVersions
    * @return versionpurgeMinVersions
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getVersionpurgeMinVersions() {
     return versionpurgeMinVersions;
@@ -112,10 +112,10 @@ public class ComDayCqWcmCoreImplVersionPurgeTaskProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get versionpurgeMaxAgeDays
    * @return versionpurgeMaxAgeDays
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getVersionpurgeMaxAgeDays() {
     return versionpurgeMaxAgeDays;
@@ -127,7 +127,7 @@ public class ComDayCqWcmCoreImplVersionPurgeTaskProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -165,11 +165,8 @@ public class ComDayCqWcmCoreImplVersionPurgeTaskProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

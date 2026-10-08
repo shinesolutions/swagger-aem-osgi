@@ -1,0 +1,62 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqDamIdsImplIDSPoolManagerImplProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqDamIdsImplIDSPoolManagerImplProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComDayCqDamIdsImplIDSPoolManagerImplProperties {
+    title = ComDayCqDamIdsImplIDSPoolManagerImplProperties
+    description = ComDayCqDamIdsImplIDSPoolManagerImplProperties
+    derivedFrom = Root
+    properties {
+        max_errors_to_blacklist {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        retry_interval_to_whitelist {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        connect_timeout {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        socket_timeout {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        process_label {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        connection_use_max {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqDamIdsImplIDSPoolManagerImplProperties {
+    title = ComDayCqDamIdsImplIDSPoolManagerImplProperties
+    description = ComDayCqDamIdsImplIDSPoolManagerImplProperties
+    implements = openapi_server.resourceTypes.ComDayCqDamIdsImplIDSPoolManagerImplProperties
+
+  }
+}

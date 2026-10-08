@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyInteger;
 import com.prokarma.pkmst.model.ConfigNodePropertyString;
 import io.swagger.annotations.ApiModel;
@@ -16,27 +17,26 @@ import io.swagger.annotations.ApiModelProperty;
  * ComAdobeCqAccountApiAccountManagementServiceProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeCqAccountApiAccountManagementServiceProperties   {
   @JsonProperty("cq.accountmanager.token.validity.period")
-  private ConfigNodePropertyInteger cqAccountmanagerTokenValidityPeriod = null;
+  private ConfigNodePropertyInteger cqAccountmanagerTokenValidityPeriod;
 
   @JsonProperty("cq.accountmanager.config.requestnewaccount.mail")
-  private ConfigNodePropertyString cqAccountmanagerConfigRequestnewaccountMail = null;
+  private ConfigNodePropertyString cqAccountmanagerConfigRequestnewaccountMail;
 
   @JsonProperty("cq.accountmanager.config.requestnewpwd.mail")
-  private ConfigNodePropertyString cqAccountmanagerConfigRequestnewpwdMail = null;
+  private ConfigNodePropertyString cqAccountmanagerConfigRequestnewpwdMail;
 
   public ComAdobeCqAccountApiAccountManagementServiceProperties cqAccountmanagerTokenValidityPeriod(ConfigNodePropertyInteger cqAccountmanagerTokenValidityPeriod) {
     this.cqAccountmanagerTokenValidityPeriod = cqAccountmanagerTokenValidityPeriod;
     return this;
   }
 
-   /**
+  /**
    * Get cqAccountmanagerTokenValidityPeriod
    * @return cqAccountmanagerTokenValidityPeriod
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getCqAccountmanagerTokenValidityPeriod() {
     return cqAccountmanagerTokenValidityPeriod;
@@ -51,10 +51,10 @@ public class ComAdobeCqAccountApiAccountManagementServiceProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get cqAccountmanagerConfigRequestnewaccountMail
    * @return cqAccountmanagerConfigRequestnewaccountMail
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getCqAccountmanagerConfigRequestnewaccountMail() {
     return cqAccountmanagerConfigRequestnewaccountMail;
@@ -69,10 +69,10 @@ public class ComAdobeCqAccountApiAccountManagementServiceProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get cqAccountmanagerConfigRequestnewpwdMail
    * @return cqAccountmanagerConfigRequestnewpwdMail
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getCqAccountmanagerConfigRequestnewpwdMail() {
     return cqAccountmanagerConfigRequestnewpwdMail;
@@ -84,7 +84,7 @@ public class ComAdobeCqAccountApiAccountManagementServiceProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -118,11 +118,8 @@ public class ComAdobeCqAccountApiAccountManagementServiceProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

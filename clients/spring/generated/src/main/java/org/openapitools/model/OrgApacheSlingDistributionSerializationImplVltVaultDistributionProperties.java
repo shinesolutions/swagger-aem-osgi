@@ -1,79 +1,90 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyDropDown;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * OrgApacheSlingDistributionSerializationImplVltVaultDistributionProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class OrgApacheSlingDistributionSerializationImplVltVaultDistributionProperties   {
-  @JsonProperty("name")
-  private ConfigNodePropertyString name = null;
+@JsonTypeName("orgApacheSlingDistributionSerializationImplVltVaultDistributionProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class OrgApacheSlingDistributionSerializationImplVltVaultDistributionProperties {
 
-  @JsonProperty("type")
-  private ConfigNodePropertyDropDown type = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString name;
 
-  @JsonProperty("importMode")
-  private ConfigNodePropertyString importMode = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyDropDown type;
 
-  @JsonProperty("aclHandling")
-  private ConfigNodePropertyString aclHandling = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString importMode;
 
-  @JsonProperty("package.roots")
-  private ConfigNodePropertyString packageRoots = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString aclHandling;
 
-  @JsonProperty("package.filters")
-  private ConfigNodePropertyArray packageFilters = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString packageRoots;
 
-  @JsonProperty("property.filters")
-  private ConfigNodePropertyArray propertyFilters = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray packageFilters;
 
-  @JsonProperty("tempFsFolder")
-  private ConfigNodePropertyString tempFsFolder = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray propertyFilters;
 
-  @JsonProperty("useBinaryReferences")
-  private ConfigNodePropertyBoolean useBinaryReferences = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString tempFsFolder;
 
-  @JsonProperty("autoSaveThreshold")
-  private ConfigNodePropertyInteger autoSaveThreshold = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean useBinaryReferences;
 
-  @JsonProperty("cleanupDelay")
-  private ConfigNodePropertyInteger cleanupDelay = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger autoSaveThreshold;
 
-  @JsonProperty("fileThreshold")
-  private ConfigNodePropertyInteger fileThreshold = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger cleanupDelay;
 
-  @JsonProperty("MEGA_BYTES")
-  private ConfigNodePropertyDropDown MEGA_BYTES = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger fileThreshold;
 
-  @JsonProperty("useOffHeapMemory")
-  private ConfigNodePropertyBoolean useOffHeapMemory = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyDropDown MEGA_BYTES;
 
-  @JsonProperty("digestAlgorithm")
-  private ConfigNodePropertyDropDown digestAlgorithm = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean useOffHeapMemory;
 
-  @JsonProperty("monitoringQueueSize")
-  private ConfigNodePropertyInteger monitoringQueueSize = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyDropDown digestAlgorithm;
 
-  @JsonProperty("pathsMapping")
-  private ConfigNodePropertyArray pathsMapping = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger monitoringQueueSize;
 
-  @JsonProperty("strictImport")
-  private ConfigNodePropertyBoolean strictImport = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray pathsMapping;
 
-  public OrgApacheSlingDistributionSerializationImplVltVaultDistributionProperties name(ConfigNodePropertyString name) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean strictImport;
+
+  public OrgApacheSlingDistributionSerializationImplVltVaultDistributionProperties name(@Nullable ConfigNodePropertyString name) {
     this.name = name;
     return this;
   }
@@ -81,20 +92,20 @@ public class OrgApacheSlingDistributionSerializationImplVltVaultDistributionProp
   /**
    * Get name
    * @return name
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getName() {
+   */
+  @Valid 
+  @Schema(name = "name", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("name")
+  public @Nullable ConfigNodePropertyString getName() {
     return name;
   }
 
-  public void setName(ConfigNodePropertyString name) {
+  @JsonProperty("name")
+  public void setName(@Nullable ConfigNodePropertyString name) {
     this.name = name;
   }
 
-  public OrgApacheSlingDistributionSerializationImplVltVaultDistributionProperties type(ConfigNodePropertyDropDown type) {
+  public OrgApacheSlingDistributionSerializationImplVltVaultDistributionProperties type(@Nullable ConfigNodePropertyDropDown type) {
     this.type = type;
     return this;
   }
@@ -102,20 +113,20 @@ public class OrgApacheSlingDistributionSerializationImplVltVaultDistributionProp
   /**
    * Get type
    * @return type
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyDropDown getType() {
+   */
+  @Valid 
+  @Schema(name = "type", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("type")
+  public @Nullable ConfigNodePropertyDropDown getType() {
     return type;
   }
 
-  public void setType(ConfigNodePropertyDropDown type) {
+  @JsonProperty("type")
+  public void setType(@Nullable ConfigNodePropertyDropDown type) {
     this.type = type;
   }
 
-  public OrgApacheSlingDistributionSerializationImplVltVaultDistributionProperties importMode(ConfigNodePropertyString importMode) {
+  public OrgApacheSlingDistributionSerializationImplVltVaultDistributionProperties importMode(@Nullable ConfigNodePropertyString importMode) {
     this.importMode = importMode;
     return this;
   }
@@ -123,20 +134,20 @@ public class OrgApacheSlingDistributionSerializationImplVltVaultDistributionProp
   /**
    * Get importMode
    * @return importMode
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getImportMode() {
+   */
+  @Valid 
+  @Schema(name = "importMode", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("importMode")
+  public @Nullable ConfigNodePropertyString getImportMode() {
     return importMode;
   }
 
-  public void setImportMode(ConfigNodePropertyString importMode) {
+  @JsonProperty("importMode")
+  public void setImportMode(@Nullable ConfigNodePropertyString importMode) {
     this.importMode = importMode;
   }
 
-  public OrgApacheSlingDistributionSerializationImplVltVaultDistributionProperties aclHandling(ConfigNodePropertyString aclHandling) {
+  public OrgApacheSlingDistributionSerializationImplVltVaultDistributionProperties aclHandling(@Nullable ConfigNodePropertyString aclHandling) {
     this.aclHandling = aclHandling;
     return this;
   }
@@ -144,20 +155,20 @@ public class OrgApacheSlingDistributionSerializationImplVltVaultDistributionProp
   /**
    * Get aclHandling
    * @return aclHandling
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getAclHandling() {
+   */
+  @Valid 
+  @Schema(name = "aclHandling", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("aclHandling")
+  public @Nullable ConfigNodePropertyString getAclHandling() {
     return aclHandling;
   }
 
-  public void setAclHandling(ConfigNodePropertyString aclHandling) {
+  @JsonProperty("aclHandling")
+  public void setAclHandling(@Nullable ConfigNodePropertyString aclHandling) {
     this.aclHandling = aclHandling;
   }
 
-  public OrgApacheSlingDistributionSerializationImplVltVaultDistributionProperties packageRoots(ConfigNodePropertyString packageRoots) {
+  public OrgApacheSlingDistributionSerializationImplVltVaultDistributionProperties packageRoots(@Nullable ConfigNodePropertyString packageRoots) {
     this.packageRoots = packageRoots;
     return this;
   }
@@ -165,20 +176,20 @@ public class OrgApacheSlingDistributionSerializationImplVltVaultDistributionProp
   /**
    * Get packageRoots
    * @return packageRoots
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getPackageRoots() {
+   */
+  @Valid 
+  @Schema(name = "package.roots", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("package.roots")
+  public @Nullable ConfigNodePropertyString getPackageRoots() {
     return packageRoots;
   }
 
-  public void setPackageRoots(ConfigNodePropertyString packageRoots) {
+  @JsonProperty("package.roots")
+  public void setPackageRoots(@Nullable ConfigNodePropertyString packageRoots) {
     this.packageRoots = packageRoots;
   }
 
-  public OrgApacheSlingDistributionSerializationImplVltVaultDistributionProperties packageFilters(ConfigNodePropertyArray packageFilters) {
+  public OrgApacheSlingDistributionSerializationImplVltVaultDistributionProperties packageFilters(@Nullable ConfigNodePropertyArray packageFilters) {
     this.packageFilters = packageFilters;
     return this;
   }
@@ -186,20 +197,20 @@ public class OrgApacheSlingDistributionSerializationImplVltVaultDistributionProp
   /**
    * Get packageFilters
    * @return packageFilters
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getPackageFilters() {
+   */
+  @Valid 
+  @Schema(name = "package.filters", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("package.filters")
+  public @Nullable ConfigNodePropertyArray getPackageFilters() {
     return packageFilters;
   }
 
-  public void setPackageFilters(ConfigNodePropertyArray packageFilters) {
+  @JsonProperty("package.filters")
+  public void setPackageFilters(@Nullable ConfigNodePropertyArray packageFilters) {
     this.packageFilters = packageFilters;
   }
 
-  public OrgApacheSlingDistributionSerializationImplVltVaultDistributionProperties propertyFilters(ConfigNodePropertyArray propertyFilters) {
+  public OrgApacheSlingDistributionSerializationImplVltVaultDistributionProperties propertyFilters(@Nullable ConfigNodePropertyArray propertyFilters) {
     this.propertyFilters = propertyFilters;
     return this;
   }
@@ -207,20 +218,20 @@ public class OrgApacheSlingDistributionSerializationImplVltVaultDistributionProp
   /**
    * Get propertyFilters
    * @return propertyFilters
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getPropertyFilters() {
+   */
+  @Valid 
+  @Schema(name = "property.filters", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("property.filters")
+  public @Nullable ConfigNodePropertyArray getPropertyFilters() {
     return propertyFilters;
   }
 
-  public void setPropertyFilters(ConfigNodePropertyArray propertyFilters) {
+  @JsonProperty("property.filters")
+  public void setPropertyFilters(@Nullable ConfigNodePropertyArray propertyFilters) {
     this.propertyFilters = propertyFilters;
   }
 
-  public OrgApacheSlingDistributionSerializationImplVltVaultDistributionProperties tempFsFolder(ConfigNodePropertyString tempFsFolder) {
+  public OrgApacheSlingDistributionSerializationImplVltVaultDistributionProperties tempFsFolder(@Nullable ConfigNodePropertyString tempFsFolder) {
     this.tempFsFolder = tempFsFolder;
     return this;
   }
@@ -228,20 +239,20 @@ public class OrgApacheSlingDistributionSerializationImplVltVaultDistributionProp
   /**
    * Get tempFsFolder
    * @return tempFsFolder
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getTempFsFolder() {
+   */
+  @Valid 
+  @Schema(name = "tempFsFolder", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("tempFsFolder")
+  public @Nullable ConfigNodePropertyString getTempFsFolder() {
     return tempFsFolder;
   }
 
-  public void setTempFsFolder(ConfigNodePropertyString tempFsFolder) {
+  @JsonProperty("tempFsFolder")
+  public void setTempFsFolder(@Nullable ConfigNodePropertyString tempFsFolder) {
     this.tempFsFolder = tempFsFolder;
   }
 
-  public OrgApacheSlingDistributionSerializationImplVltVaultDistributionProperties useBinaryReferences(ConfigNodePropertyBoolean useBinaryReferences) {
+  public OrgApacheSlingDistributionSerializationImplVltVaultDistributionProperties useBinaryReferences(@Nullable ConfigNodePropertyBoolean useBinaryReferences) {
     this.useBinaryReferences = useBinaryReferences;
     return this;
   }
@@ -249,20 +260,20 @@ public class OrgApacheSlingDistributionSerializationImplVltVaultDistributionProp
   /**
    * Get useBinaryReferences
    * @return useBinaryReferences
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getUseBinaryReferences() {
+   */
+  @Valid 
+  @Schema(name = "useBinaryReferences", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("useBinaryReferences")
+  public @Nullable ConfigNodePropertyBoolean getUseBinaryReferences() {
     return useBinaryReferences;
   }
 
-  public void setUseBinaryReferences(ConfigNodePropertyBoolean useBinaryReferences) {
+  @JsonProperty("useBinaryReferences")
+  public void setUseBinaryReferences(@Nullable ConfigNodePropertyBoolean useBinaryReferences) {
     this.useBinaryReferences = useBinaryReferences;
   }
 
-  public OrgApacheSlingDistributionSerializationImplVltVaultDistributionProperties autoSaveThreshold(ConfigNodePropertyInteger autoSaveThreshold) {
+  public OrgApacheSlingDistributionSerializationImplVltVaultDistributionProperties autoSaveThreshold(@Nullable ConfigNodePropertyInteger autoSaveThreshold) {
     this.autoSaveThreshold = autoSaveThreshold;
     return this;
   }
@@ -270,20 +281,20 @@ public class OrgApacheSlingDistributionSerializationImplVltVaultDistributionProp
   /**
    * Get autoSaveThreshold
    * @return autoSaveThreshold
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getAutoSaveThreshold() {
+   */
+  @Valid 
+  @Schema(name = "autoSaveThreshold", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("autoSaveThreshold")
+  public @Nullable ConfigNodePropertyInteger getAutoSaveThreshold() {
     return autoSaveThreshold;
   }
 
-  public void setAutoSaveThreshold(ConfigNodePropertyInteger autoSaveThreshold) {
+  @JsonProperty("autoSaveThreshold")
+  public void setAutoSaveThreshold(@Nullable ConfigNodePropertyInteger autoSaveThreshold) {
     this.autoSaveThreshold = autoSaveThreshold;
   }
 
-  public OrgApacheSlingDistributionSerializationImplVltVaultDistributionProperties cleanupDelay(ConfigNodePropertyInteger cleanupDelay) {
+  public OrgApacheSlingDistributionSerializationImplVltVaultDistributionProperties cleanupDelay(@Nullable ConfigNodePropertyInteger cleanupDelay) {
     this.cleanupDelay = cleanupDelay;
     return this;
   }
@@ -291,20 +302,20 @@ public class OrgApacheSlingDistributionSerializationImplVltVaultDistributionProp
   /**
    * Get cleanupDelay
    * @return cleanupDelay
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getCleanupDelay() {
+   */
+  @Valid 
+  @Schema(name = "cleanupDelay", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("cleanupDelay")
+  public @Nullable ConfigNodePropertyInteger getCleanupDelay() {
     return cleanupDelay;
   }
 
-  public void setCleanupDelay(ConfigNodePropertyInteger cleanupDelay) {
+  @JsonProperty("cleanupDelay")
+  public void setCleanupDelay(@Nullable ConfigNodePropertyInteger cleanupDelay) {
     this.cleanupDelay = cleanupDelay;
   }
 
-  public OrgApacheSlingDistributionSerializationImplVltVaultDistributionProperties fileThreshold(ConfigNodePropertyInteger fileThreshold) {
+  public OrgApacheSlingDistributionSerializationImplVltVaultDistributionProperties fileThreshold(@Nullable ConfigNodePropertyInteger fileThreshold) {
     this.fileThreshold = fileThreshold;
     return this;
   }
@@ -312,20 +323,20 @@ public class OrgApacheSlingDistributionSerializationImplVltVaultDistributionProp
   /**
    * Get fileThreshold
    * @return fileThreshold
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getFileThreshold() {
+   */
+  @Valid 
+  @Schema(name = "fileThreshold", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("fileThreshold")
+  public @Nullable ConfigNodePropertyInteger getFileThreshold() {
     return fileThreshold;
   }
 
-  public void setFileThreshold(ConfigNodePropertyInteger fileThreshold) {
+  @JsonProperty("fileThreshold")
+  public void setFileThreshold(@Nullable ConfigNodePropertyInteger fileThreshold) {
     this.fileThreshold = fileThreshold;
   }
 
-  public OrgApacheSlingDistributionSerializationImplVltVaultDistributionProperties MEGA_BYTES(ConfigNodePropertyDropDown MEGA_BYTES) {
+  public OrgApacheSlingDistributionSerializationImplVltVaultDistributionProperties MEGA_BYTES(@Nullable ConfigNodePropertyDropDown MEGA_BYTES) {
     this.MEGA_BYTES = MEGA_BYTES;
     return this;
   }
@@ -333,20 +344,20 @@ public class OrgApacheSlingDistributionSerializationImplVltVaultDistributionProp
   /**
    * Get MEGA_BYTES
    * @return MEGA_BYTES
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyDropDown getMEGABYTES() {
+   */
+  @Valid 
+  @Schema(name = "MEGA_BYTES", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("MEGA_BYTES")
+  public @Nullable ConfigNodePropertyDropDown getMEGABYTES() {
     return MEGA_BYTES;
   }
 
-  public void setMEGABYTES(ConfigNodePropertyDropDown MEGA_BYTES) {
+  @JsonProperty("MEGA_BYTES")
+  public void setMEGABYTES(@Nullable ConfigNodePropertyDropDown MEGA_BYTES) {
     this.MEGA_BYTES = MEGA_BYTES;
   }
 
-  public OrgApacheSlingDistributionSerializationImplVltVaultDistributionProperties useOffHeapMemory(ConfigNodePropertyBoolean useOffHeapMemory) {
+  public OrgApacheSlingDistributionSerializationImplVltVaultDistributionProperties useOffHeapMemory(@Nullable ConfigNodePropertyBoolean useOffHeapMemory) {
     this.useOffHeapMemory = useOffHeapMemory;
     return this;
   }
@@ -354,20 +365,20 @@ public class OrgApacheSlingDistributionSerializationImplVltVaultDistributionProp
   /**
    * Get useOffHeapMemory
    * @return useOffHeapMemory
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getUseOffHeapMemory() {
+   */
+  @Valid 
+  @Schema(name = "useOffHeapMemory", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("useOffHeapMemory")
+  public @Nullable ConfigNodePropertyBoolean getUseOffHeapMemory() {
     return useOffHeapMemory;
   }
 
-  public void setUseOffHeapMemory(ConfigNodePropertyBoolean useOffHeapMemory) {
+  @JsonProperty("useOffHeapMemory")
+  public void setUseOffHeapMemory(@Nullable ConfigNodePropertyBoolean useOffHeapMemory) {
     this.useOffHeapMemory = useOffHeapMemory;
   }
 
-  public OrgApacheSlingDistributionSerializationImplVltVaultDistributionProperties digestAlgorithm(ConfigNodePropertyDropDown digestAlgorithm) {
+  public OrgApacheSlingDistributionSerializationImplVltVaultDistributionProperties digestAlgorithm(@Nullable ConfigNodePropertyDropDown digestAlgorithm) {
     this.digestAlgorithm = digestAlgorithm;
     return this;
   }
@@ -375,20 +386,20 @@ public class OrgApacheSlingDistributionSerializationImplVltVaultDistributionProp
   /**
    * Get digestAlgorithm
    * @return digestAlgorithm
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyDropDown getDigestAlgorithm() {
+   */
+  @Valid 
+  @Schema(name = "digestAlgorithm", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("digestAlgorithm")
+  public @Nullable ConfigNodePropertyDropDown getDigestAlgorithm() {
     return digestAlgorithm;
   }
 
-  public void setDigestAlgorithm(ConfigNodePropertyDropDown digestAlgorithm) {
+  @JsonProperty("digestAlgorithm")
+  public void setDigestAlgorithm(@Nullable ConfigNodePropertyDropDown digestAlgorithm) {
     this.digestAlgorithm = digestAlgorithm;
   }
 
-  public OrgApacheSlingDistributionSerializationImplVltVaultDistributionProperties monitoringQueueSize(ConfigNodePropertyInteger monitoringQueueSize) {
+  public OrgApacheSlingDistributionSerializationImplVltVaultDistributionProperties monitoringQueueSize(@Nullable ConfigNodePropertyInteger monitoringQueueSize) {
     this.monitoringQueueSize = monitoringQueueSize;
     return this;
   }
@@ -396,20 +407,20 @@ public class OrgApacheSlingDistributionSerializationImplVltVaultDistributionProp
   /**
    * Get monitoringQueueSize
    * @return monitoringQueueSize
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getMonitoringQueueSize() {
+   */
+  @Valid 
+  @Schema(name = "monitoringQueueSize", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("monitoringQueueSize")
+  public @Nullable ConfigNodePropertyInteger getMonitoringQueueSize() {
     return monitoringQueueSize;
   }
 
-  public void setMonitoringQueueSize(ConfigNodePropertyInteger monitoringQueueSize) {
+  @JsonProperty("monitoringQueueSize")
+  public void setMonitoringQueueSize(@Nullable ConfigNodePropertyInteger monitoringQueueSize) {
     this.monitoringQueueSize = monitoringQueueSize;
   }
 
-  public OrgApacheSlingDistributionSerializationImplVltVaultDistributionProperties pathsMapping(ConfigNodePropertyArray pathsMapping) {
+  public OrgApacheSlingDistributionSerializationImplVltVaultDistributionProperties pathsMapping(@Nullable ConfigNodePropertyArray pathsMapping) {
     this.pathsMapping = pathsMapping;
     return this;
   }
@@ -417,20 +428,20 @@ public class OrgApacheSlingDistributionSerializationImplVltVaultDistributionProp
   /**
    * Get pathsMapping
    * @return pathsMapping
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getPathsMapping() {
+   */
+  @Valid 
+  @Schema(name = "pathsMapping", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("pathsMapping")
+  public @Nullable ConfigNodePropertyArray getPathsMapping() {
     return pathsMapping;
   }
 
-  public void setPathsMapping(ConfigNodePropertyArray pathsMapping) {
+  @JsonProperty("pathsMapping")
+  public void setPathsMapping(@Nullable ConfigNodePropertyArray pathsMapping) {
     this.pathsMapping = pathsMapping;
   }
 
-  public OrgApacheSlingDistributionSerializationImplVltVaultDistributionProperties strictImport(ConfigNodePropertyBoolean strictImport) {
+  public OrgApacheSlingDistributionSerializationImplVltVaultDistributionProperties strictImport(@Nullable ConfigNodePropertyBoolean strictImport) {
     this.strictImport = strictImport;
     return this;
   }
@@ -438,22 +449,21 @@ public class OrgApacheSlingDistributionSerializationImplVltVaultDistributionProp
   /**
    * Get strictImport
    * @return strictImport
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getStrictImport() {
+   */
+  @Valid 
+  @Schema(name = "strictImport", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("strictImport")
+  public @Nullable ConfigNodePropertyBoolean getStrictImport() {
     return strictImport;
   }
 
-  public void setStrictImport(ConfigNodePropertyBoolean strictImport) {
+  @JsonProperty("strictImport")
+  public void setStrictImport(@Nullable ConfigNodePropertyBoolean strictImport) {
     this.strictImport = strictImport;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -490,7 +500,6 @@ public class OrgApacheSlingDistributionSerializationImplVltVaultDistributionProp
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class OrgApacheSlingDistributionSerializationImplVltVaultDistributionProperties {\n");
-    
     sb.append("    name: ").append(toIndentedString(name)).append("\n");
     sb.append("    type: ").append(toIndentedString(type)).append("\n");
     sb.append("    importMode: ").append(toIndentedString(importMode)).append("\n");
@@ -517,11 +526,8 @@ public class OrgApacheSlingDistributionSerializationImplVltVaultDistributionProp
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

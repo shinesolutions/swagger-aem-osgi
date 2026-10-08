@@ -7,14 +7,14 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class ComAdobeOctopusNcommBootstrapProperties {
-    ConfigNodePropertyInteger maxConnections = null
-
-    ConfigNodePropertyInteger maxRequests = null
-
-    ConfigNodePropertyInteger requestTimeout = null
-
-    ConfigNodePropertyInteger requestRetries = null
-
-    ConfigNodePropertyInteger launchTimeout = null
-
+    
+    ConfigNodePropertyInteger maxConnections
+    
+    ConfigNodePropertyInteger maxRequests
+    
+    ConfigNodePropertyInteger requestTimeout
+    
+    ConfigNodePropertyInteger requestRetries
+    
+    ConfigNodePropertyInteger launchTimeout
 }

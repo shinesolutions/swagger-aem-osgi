@@ -1,0 +1,53 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqPollingImporterImplPollingImporterImplProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqPollingImporterImplPollingImporterImplProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComDayCqPollingImporterImplPollingImporterImplProperties {
+    title = ComDayCqPollingImporterImplPollingImporterImplProperties
+    description = ComDayCqPollingImporterImplPollingImporterImplProperties
+    derivedFrom = Root
+    properties {
+        importer_min_interval {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        importer_user {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        exclude_paths {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        include_paths {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqPollingImporterImplPollingImporterImplProperties {
+    title = ComDayCqPollingImporterImplPollingImporterImplProperties
+    description = ComDayCqPollingImporterImplPollingImporterImplProperties
+    implements = openapi_server.resourceTypes.ComDayCqPollingImporterImplPollingImporterImplProperties
+
+  }
+}

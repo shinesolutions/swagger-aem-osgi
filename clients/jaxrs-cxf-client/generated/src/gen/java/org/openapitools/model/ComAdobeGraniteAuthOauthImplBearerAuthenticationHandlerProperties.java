@@ -5,34 +5,35 @@ import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyString;
 
 import io.swagger.annotations.ApiModelProperty;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlType;
-import javax.xml.bind.annotation.XmlEnum;
-import javax.xml.bind.annotation.XmlEnumValue;
+import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
 
 public class ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerProperties  {
   
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString path = null;
+
+  private ConfigNodePropertyString path;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyArray oauthClientIdsAllowed = null;
+
+  private ConfigNodePropertyArray oauthClientIdsAllowed;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyBoolean authBearerSyncIms = null;
+
+  private ConfigNodePropertyBoolean authBearerSyncIms;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString authTokenRequestParameter = null;
+
+  private ConfigNodePropertyString authTokenRequestParameter;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString oauthBearerConfigid = null;
+
+  private ConfigNodePropertyString oauthBearerConfigid;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyBoolean oauthJwtSupport = null;
+
+  private ConfigNodePropertyBoolean oauthJwtSupport;
  /**
    * Get path
    * @return path
@@ -141,6 +142,27 @@ public class ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerProperties  
     return this;
   }
 
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerProperties comAdobeGraniteAuthOauthImplBearerAuthenticationHandlerProperties = (ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerProperties) o;
+    return Objects.equals(this.path, comAdobeGraniteAuthOauthImplBearerAuthenticationHandlerProperties.path) &&
+        Objects.equals(this.oauthClientIdsAllowed, comAdobeGraniteAuthOauthImplBearerAuthenticationHandlerProperties.oauthClientIdsAllowed) &&
+        Objects.equals(this.authBearerSyncIms, comAdobeGraniteAuthOauthImplBearerAuthenticationHandlerProperties.authBearerSyncIms) &&
+        Objects.equals(this.authTokenRequestParameter, comAdobeGraniteAuthOauthImplBearerAuthenticationHandlerProperties.authTokenRequestParameter) &&
+        Objects.equals(this.oauthBearerConfigid, comAdobeGraniteAuthOauthImplBearerAuthenticationHandlerProperties.oauthBearerConfigid) &&
+        Objects.equals(this.oauthJwtSupport, comAdobeGraniteAuthOauthImplBearerAuthenticationHandlerProperties.oauthJwtSupport);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(path, oauthClientIdsAllowed, authBearerSyncIms, authTokenRequestParameter, oauthBearerConfigid, oauthJwtSupport);
+  }
 
   @Override
   public String toString() {
@@ -161,11 +183,8 @@ public class ComAdobeGraniteAuthOauthImplBearerAuthenticationHandlerProperties  
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private static String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

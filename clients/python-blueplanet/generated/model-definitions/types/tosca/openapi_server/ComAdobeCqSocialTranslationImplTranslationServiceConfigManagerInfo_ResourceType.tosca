@@ -1,0 +1,51 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerInfo"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerInfo"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerProperties = openapi_server.resourceTypes.ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerProperties
+}
+resourceTypes {
+
+  ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerInfo {
+    title = ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerInfo
+    description = ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerInfo
+    derivedFrom = Root
+    properties {
+        pid {
+          type =  string
+          description = ""
+          optional = false
+        }
+        title {
+          type =  string
+          description = ""
+          optional = false
+        }
+        description {
+          type =  string
+          description = ""
+          optional = false
+        }
+        properties {
+          type = ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerProperties
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerInfo {
+    title = ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerInfo
+    description = ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerInfo
+    implements = openapi_server.resourceTypes.ComAdobeCqSocialTranslationImplTranslationServiceConfigManagerInfo
+
+  }
+}

@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyArray;
 import com.prokarma.pkmst.model.ConfigNodePropertyBoolean;
 import com.prokarma.pkmst.model.ConfigNodePropertyInteger;
@@ -17,39 +18,38 @@ import io.swagger.annotations.ApiModelProperty;
  * ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties   {
   @JsonProperty("linkcheckertransformer.disableRewriting")
-  private ConfigNodePropertyBoolean linkcheckertransformerDisableRewriting = null;
+  private ConfigNodePropertyBoolean linkcheckertransformerDisableRewriting;
 
   @JsonProperty("linkcheckertransformer.disableChecking")
-  private ConfigNodePropertyBoolean linkcheckertransformerDisableChecking = null;
+  private ConfigNodePropertyBoolean linkcheckertransformerDisableChecking;
 
   @JsonProperty("linkcheckertransformer.mapCacheSize")
-  private ConfigNodePropertyInteger linkcheckertransformerMapCacheSize = null;
+  private ConfigNodePropertyInteger linkcheckertransformerMapCacheSize;
 
   @JsonProperty("linkcheckertransformer.strictExtensionCheck")
-  private ConfigNodePropertyBoolean linkcheckertransformerStrictExtensionCheck = null;
+  private ConfigNodePropertyBoolean linkcheckertransformerStrictExtensionCheck;
 
   @JsonProperty("linkcheckertransformer.stripHtmltExtension")
-  private ConfigNodePropertyBoolean linkcheckertransformerStripHtmltExtension = null;
+  private ConfigNodePropertyBoolean linkcheckertransformerStripHtmltExtension;
 
   @JsonProperty("linkcheckertransformer.rewriteElements")
-  private ConfigNodePropertyArray linkcheckertransformerRewriteElements = null;
+  private ConfigNodePropertyArray linkcheckertransformerRewriteElements;
 
   @JsonProperty("linkcheckertransformer.stripExtensionPathBlacklist")
-  private ConfigNodePropertyArray linkcheckertransformerStripExtensionPathBlacklist = null;
+  private ConfigNodePropertyArray linkcheckertransformerStripExtensionPathBlacklist;
 
   public ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryProperties linkcheckertransformerDisableRewriting(ConfigNodePropertyBoolean linkcheckertransformerDisableRewriting) {
     this.linkcheckertransformerDisableRewriting = linkcheckertransformerDisableRewriting;
     return this;
   }
 
-   /**
+  /**
    * Get linkcheckertransformerDisableRewriting
    * @return linkcheckertransformerDisableRewriting
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getLinkcheckertransformerDisableRewriting() {
     return linkcheckertransformerDisableRewriting;
@@ -64,10 +64,10 @@ public class ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryPropert
     return this;
   }
 
-   /**
+  /**
    * Get linkcheckertransformerDisableChecking
    * @return linkcheckertransformerDisableChecking
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getLinkcheckertransformerDisableChecking() {
     return linkcheckertransformerDisableChecking;
@@ -82,10 +82,10 @@ public class ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryPropert
     return this;
   }
 
-   /**
+  /**
    * Get linkcheckertransformerMapCacheSize
    * @return linkcheckertransformerMapCacheSize
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getLinkcheckertransformerMapCacheSize() {
     return linkcheckertransformerMapCacheSize;
@@ -100,10 +100,10 @@ public class ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryPropert
     return this;
   }
 
-   /**
+  /**
    * Get linkcheckertransformerStrictExtensionCheck
    * @return linkcheckertransformerStrictExtensionCheck
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getLinkcheckertransformerStrictExtensionCheck() {
     return linkcheckertransformerStrictExtensionCheck;
@@ -118,10 +118,10 @@ public class ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryPropert
     return this;
   }
 
-   /**
+  /**
    * Get linkcheckertransformerStripHtmltExtension
    * @return linkcheckertransformerStripHtmltExtension
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getLinkcheckertransformerStripHtmltExtension() {
     return linkcheckertransformerStripHtmltExtension;
@@ -136,10 +136,10 @@ public class ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryPropert
     return this;
   }
 
-   /**
+  /**
    * Get linkcheckertransformerRewriteElements
    * @return linkcheckertransformerRewriteElements
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getLinkcheckertransformerRewriteElements() {
     return linkcheckertransformerRewriteElements;
@@ -154,10 +154,10 @@ public class ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryPropert
     return this;
   }
 
-   /**
+  /**
    * Get linkcheckertransformerStripExtensionPathBlacklist
    * @return linkcheckertransformerStripExtensionPathBlacklist
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyArray getLinkcheckertransformerStripExtensionPathBlacklist() {
     return linkcheckertransformerStripExtensionPathBlacklist;
@@ -169,7 +169,7 @@ public class ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryPropert
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -211,11 +211,8 @@ public class ComDayCqRewriterLinkcheckerImplLinkCheckerTransformerFactoryPropert
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

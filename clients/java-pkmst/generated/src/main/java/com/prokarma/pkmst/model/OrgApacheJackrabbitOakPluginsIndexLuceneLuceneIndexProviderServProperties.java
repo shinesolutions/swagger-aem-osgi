@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyBoolean;
 import com.prokarma.pkmst.model.ConfigNodePropertyInteger;
 import com.prokarma.pkmst.model.ConfigNodePropertyString;
@@ -17,66 +18,65 @@ import io.swagger.annotations.ApiModelProperty;
  * OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServProperties   {
   @JsonProperty("disabled")
-  private ConfigNodePropertyBoolean disabled = null;
+  private ConfigNodePropertyBoolean disabled;
 
   @JsonProperty("debug")
-  private ConfigNodePropertyBoolean debug = null;
+  private ConfigNodePropertyBoolean debug;
 
   @JsonProperty("localIndexDir")
-  private ConfigNodePropertyString localIndexDir = null;
+  private ConfigNodePropertyString localIndexDir;
 
   @JsonProperty("enableOpenIndexAsync")
-  private ConfigNodePropertyBoolean enableOpenIndexAsync = null;
+  private ConfigNodePropertyBoolean enableOpenIndexAsync;
 
   @JsonProperty("threadPoolSize")
-  private ConfigNodePropertyInteger threadPoolSize = null;
+  private ConfigNodePropertyInteger threadPoolSize;
 
   @JsonProperty("prefetchIndexFiles")
-  private ConfigNodePropertyBoolean prefetchIndexFiles = null;
+  private ConfigNodePropertyBoolean prefetchIndexFiles;
 
   @JsonProperty("extractedTextCacheSizeInMB")
-  private ConfigNodePropertyInteger extractedTextCacheSizeInMB = null;
+  private ConfigNodePropertyInteger extractedTextCacheSizeInMB;
 
   @JsonProperty("extractedTextCacheExpiryInSecs")
-  private ConfigNodePropertyInteger extractedTextCacheExpiryInSecs = null;
+  private ConfigNodePropertyInteger extractedTextCacheExpiryInSecs;
 
   @JsonProperty("alwaysUsePreExtractedCache")
-  private ConfigNodePropertyBoolean alwaysUsePreExtractedCache = null;
+  private ConfigNodePropertyBoolean alwaysUsePreExtractedCache;
 
   @JsonProperty("booleanClauseLimit")
-  private ConfigNodePropertyInteger booleanClauseLimit = null;
+  private ConfigNodePropertyInteger booleanClauseLimit;
 
   @JsonProperty("enableHybridIndexing")
-  private ConfigNodePropertyBoolean enableHybridIndexing = null;
+  private ConfigNodePropertyBoolean enableHybridIndexing;
 
   @JsonProperty("hybridQueueSize")
-  private ConfigNodePropertyInteger hybridQueueSize = null;
+  private ConfigNodePropertyInteger hybridQueueSize;
 
   @JsonProperty("disableStoredIndexDefinition")
-  private ConfigNodePropertyBoolean disableStoredIndexDefinition = null;
+  private ConfigNodePropertyBoolean disableStoredIndexDefinition;
 
   @JsonProperty("deletedBlobsCollectionEnabled")
-  private ConfigNodePropertyBoolean deletedBlobsCollectionEnabled = null;
+  private ConfigNodePropertyBoolean deletedBlobsCollectionEnabled;
 
   @JsonProperty("propIndexCleanerIntervalInSecs")
-  private ConfigNodePropertyInteger propIndexCleanerIntervalInSecs = null;
+  private ConfigNodePropertyInteger propIndexCleanerIntervalInSecs;
 
   @JsonProperty("enableSingleBlobIndexFiles")
-  private ConfigNodePropertyBoolean enableSingleBlobIndexFiles = null;
+  private ConfigNodePropertyBoolean enableSingleBlobIndexFiles;
 
   public OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServProperties disabled(ConfigNodePropertyBoolean disabled) {
     this.disabled = disabled;
     return this;
   }
 
-   /**
+  /**
    * Get disabled
    * @return disabled
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getDisabled() {
     return disabled;
@@ -91,10 +91,10 @@ public class OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServProp
     return this;
   }
 
-   /**
+  /**
    * Get debug
    * @return debug
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getDebug() {
     return debug;
@@ -109,10 +109,10 @@ public class OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServProp
     return this;
   }
 
-   /**
+  /**
    * Get localIndexDir
    * @return localIndexDir
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getLocalIndexDir() {
     return localIndexDir;
@@ -127,10 +127,10 @@ public class OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServProp
     return this;
   }
 
-   /**
+  /**
    * Get enableOpenIndexAsync
    * @return enableOpenIndexAsync
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getEnableOpenIndexAsync() {
     return enableOpenIndexAsync;
@@ -145,10 +145,10 @@ public class OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServProp
     return this;
   }
 
-   /**
+  /**
    * Get threadPoolSize
    * @return threadPoolSize
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getThreadPoolSize() {
     return threadPoolSize;
@@ -163,10 +163,10 @@ public class OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServProp
     return this;
   }
 
-   /**
+  /**
    * Get prefetchIndexFiles
    * @return prefetchIndexFiles
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getPrefetchIndexFiles() {
     return prefetchIndexFiles;
@@ -181,10 +181,10 @@ public class OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServProp
     return this;
   }
 
-   /**
+  /**
    * Get extractedTextCacheSizeInMB
    * @return extractedTextCacheSizeInMB
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getExtractedTextCacheSizeInMB() {
     return extractedTextCacheSizeInMB;
@@ -199,10 +199,10 @@ public class OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServProp
     return this;
   }
 
-   /**
+  /**
    * Get extractedTextCacheExpiryInSecs
    * @return extractedTextCacheExpiryInSecs
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getExtractedTextCacheExpiryInSecs() {
     return extractedTextCacheExpiryInSecs;
@@ -217,10 +217,10 @@ public class OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServProp
     return this;
   }
 
-   /**
+  /**
    * Get alwaysUsePreExtractedCache
    * @return alwaysUsePreExtractedCache
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getAlwaysUsePreExtractedCache() {
     return alwaysUsePreExtractedCache;
@@ -235,10 +235,10 @@ public class OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServProp
     return this;
   }
 
-   /**
+  /**
    * Get booleanClauseLimit
    * @return booleanClauseLimit
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getBooleanClauseLimit() {
     return booleanClauseLimit;
@@ -253,10 +253,10 @@ public class OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServProp
     return this;
   }
 
-   /**
+  /**
    * Get enableHybridIndexing
    * @return enableHybridIndexing
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getEnableHybridIndexing() {
     return enableHybridIndexing;
@@ -271,10 +271,10 @@ public class OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServProp
     return this;
   }
 
-   /**
+  /**
    * Get hybridQueueSize
    * @return hybridQueueSize
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getHybridQueueSize() {
     return hybridQueueSize;
@@ -289,10 +289,10 @@ public class OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServProp
     return this;
   }
 
-   /**
+  /**
    * Get disableStoredIndexDefinition
    * @return disableStoredIndexDefinition
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getDisableStoredIndexDefinition() {
     return disableStoredIndexDefinition;
@@ -307,10 +307,10 @@ public class OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServProp
     return this;
   }
 
-   /**
+  /**
    * Get deletedBlobsCollectionEnabled
    * @return deletedBlobsCollectionEnabled
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getDeletedBlobsCollectionEnabled() {
     return deletedBlobsCollectionEnabled;
@@ -325,10 +325,10 @@ public class OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServProp
     return this;
   }
 
-   /**
+  /**
    * Get propIndexCleanerIntervalInSecs
    * @return propIndexCleanerIntervalInSecs
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getPropIndexCleanerIntervalInSecs() {
     return propIndexCleanerIntervalInSecs;
@@ -343,10 +343,10 @@ public class OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServProp
     return this;
   }
 
-   /**
+  /**
    * Get enableSingleBlobIndexFiles
    * @return enableSingleBlobIndexFiles
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getEnableSingleBlobIndexFiles() {
     return enableSingleBlobIndexFiles;
@@ -358,7 +358,7 @@ public class OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServProp
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -418,11 +418,8 @@ public class OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServProp
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

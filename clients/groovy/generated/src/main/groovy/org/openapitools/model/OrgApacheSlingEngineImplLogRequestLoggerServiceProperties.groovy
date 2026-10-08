@@ -9,12 +9,12 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class OrgApacheSlingEngineImplLogRequestLoggerServiceProperties {
-    ConfigNodePropertyString requestLogServiceFormat = null
-
-    ConfigNodePropertyString requestLogServiceOutput = null
-
-    ConfigNodePropertyDropDown requestLogServiceOutputtype = null
-
-    ConfigNodePropertyBoolean requestLogServiceOnentry = null
-
+    
+    ConfigNodePropertyString requestLogServiceFormat
+    
+    ConfigNodePropertyString requestLogServiceOutput
+    
+    ConfigNodePropertyDropDown requestLogServiceOutputtype
+    
+    ConfigNodePropertyBoolean requestLogServiceOnentry
 }

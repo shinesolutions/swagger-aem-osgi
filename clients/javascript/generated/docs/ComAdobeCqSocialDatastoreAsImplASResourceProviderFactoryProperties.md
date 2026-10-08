@@ -1,6 +1,7 @@
 # NodeSwaggerAemOsgi.ComAdobeCqSocialDatastoreAsImplASResourceProviderFactoryProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **versionId** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 

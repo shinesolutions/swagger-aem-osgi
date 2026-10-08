@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqCompatCodeupgradeImplCodeUpgradeExecutionC
 
 @Canonical
 class ComDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckeInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckeProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqCompatCodeupgradeImplCodeUpgradeExecutionConditionCheckeProperties properties
 }

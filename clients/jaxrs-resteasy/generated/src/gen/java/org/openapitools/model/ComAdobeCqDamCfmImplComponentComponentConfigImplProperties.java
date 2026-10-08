@@ -4,24 +4,28 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2019-08-05T00:59:30.156Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2026-10-07T12:54:21.614735164Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeCqDamCfmImplComponentComponentConfigImplProperties   {
   
-  private ConfigNodePropertyString damCfmComponentResourceType = null;
-  private ConfigNodePropertyString damCfmComponentFileReferenceProp = null;
-  private ConfigNodePropertyString damCfmComponentElementsProp = null;
-  private ConfigNodePropertyString damCfmComponentVariationProp = null;
+  private ConfigNodePropertyString damCfmComponentResourceType;
+  private ConfigNodePropertyString damCfmComponentFileReferenceProp;
+  private ConfigNodePropertyString damCfmComponentElementsProp;
+  private ConfigNodePropertyString damCfmComponentVariationProp;
 
   /**
    **/
   
   @ApiModelProperty(value = "")
   @JsonProperty("dam.cfm.component.resourceType")
+  @Valid
   public ConfigNodePropertyString getDamCfmComponentResourceType() {
     return damCfmComponentResourceType;
   }
@@ -34,6 +38,7 @@ public class ComAdobeCqDamCfmImplComponentComponentConfigImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("dam.cfm.component.fileReferenceProp")
+  @Valid
   public ConfigNodePropertyString getDamCfmComponentFileReferenceProp() {
     return damCfmComponentFileReferenceProp;
   }
@@ -46,6 +51,7 @@ public class ComAdobeCqDamCfmImplComponentComponentConfigImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("dam.cfm.component.elementsProp")
+  @Valid
   public ConfigNodePropertyString getDamCfmComponentElementsProp() {
     return damCfmComponentElementsProp;
   }
@@ -58,6 +64,7 @@ public class ComAdobeCqDamCfmImplComponentComponentConfigImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("dam.cfm.component.variationProp")
+  @Valid
   public ConfigNodePropertyString getDamCfmComponentVariationProp() {
     return damCfmComponentVariationProp;
   }
@@ -67,7 +74,7 @@ public class ComAdobeCqDamCfmImplComponentComponentConfigImplProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -75,10 +82,10 @@ public class ComAdobeCqDamCfmImplComponentComponentConfigImplProperties   {
       return false;
     }
     ComAdobeCqDamCfmImplComponentComponentConfigImplProperties comAdobeCqDamCfmImplComponentComponentConfigImplProperties = (ComAdobeCqDamCfmImplComponentComponentConfigImplProperties) o;
-    return Objects.equals(damCfmComponentResourceType, comAdobeCqDamCfmImplComponentComponentConfigImplProperties.damCfmComponentResourceType) &&
-        Objects.equals(damCfmComponentFileReferenceProp, comAdobeCqDamCfmImplComponentComponentConfigImplProperties.damCfmComponentFileReferenceProp) &&
-        Objects.equals(damCfmComponentElementsProp, comAdobeCqDamCfmImplComponentComponentConfigImplProperties.damCfmComponentElementsProp) &&
-        Objects.equals(damCfmComponentVariationProp, comAdobeCqDamCfmImplComponentComponentConfigImplProperties.damCfmComponentVariationProp);
+    return Objects.equals(this.damCfmComponentResourceType, comAdobeCqDamCfmImplComponentComponentConfigImplProperties.damCfmComponentResourceType) &&
+        Objects.equals(this.damCfmComponentFileReferenceProp, comAdobeCqDamCfmImplComponentComponentConfigImplProperties.damCfmComponentFileReferenceProp) &&
+        Objects.equals(this.damCfmComponentElementsProp, comAdobeCqDamCfmImplComponentComponentConfigImplProperties.damCfmComponentElementsProp) &&
+        Objects.equals(this.damCfmComponentVariationProp, comAdobeCqDamCfmImplComponentComponentConfigImplProperties.damCfmComponentVariationProp);
   }
 
   @Override
@@ -103,11 +110,8 @@ public class ComAdobeCqDamCfmImplComponentComponentConfigImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

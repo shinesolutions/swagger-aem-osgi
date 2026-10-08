@@ -2,9 +2,9 @@
 # ComAdobeCqCommerceImplAssetProductAssetHandlerProviderImplProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**cqPeriodcommercePeriodassetPeriodhandlerPeriodfallback** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **cqCommerceAssetHandlerFallback** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
 
 
 

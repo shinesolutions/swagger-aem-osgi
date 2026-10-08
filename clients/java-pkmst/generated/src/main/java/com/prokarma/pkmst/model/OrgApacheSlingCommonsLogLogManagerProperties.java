@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyBoolean;
 import com.prokarma.pkmst.model.ConfigNodePropertyDropDown;
 import com.prokarma.pkmst.model.ConfigNodePropertyInteger;
@@ -18,48 +19,47 @@ import io.swagger.annotations.ApiModelProperty;
  * OrgApacheSlingCommonsLogLogManagerProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingCommonsLogLogManagerProperties   {
   @JsonProperty("org.apache.sling.commons.log.level")
-  private ConfigNodePropertyDropDown orgApacheSlingCommonsLogLevel = null;
+  private ConfigNodePropertyDropDown orgApacheSlingCommonsLogLevel;
 
   @JsonProperty("org.apache.sling.commons.log.file")
-  private ConfigNodePropertyString orgApacheSlingCommonsLogFile = null;
+  private ConfigNodePropertyString orgApacheSlingCommonsLogFile;
 
   @JsonProperty("org.apache.sling.commons.log.file.number")
-  private ConfigNodePropertyInteger orgApacheSlingCommonsLogFileNumber = null;
+  private ConfigNodePropertyInteger orgApacheSlingCommonsLogFileNumber;
 
   @JsonProperty("org.apache.sling.commons.log.file.size")
-  private ConfigNodePropertyString orgApacheSlingCommonsLogFileSize = null;
+  private ConfigNodePropertyString orgApacheSlingCommonsLogFileSize;
 
   @JsonProperty("org.apache.sling.commons.log.pattern")
-  private ConfigNodePropertyString orgApacheSlingCommonsLogPattern = null;
+  private ConfigNodePropertyString orgApacheSlingCommonsLogPattern;
 
   @JsonProperty("org.apache.sling.commons.log.configurationFile")
-  private ConfigNodePropertyString orgApacheSlingCommonsLogConfigurationFile = null;
+  private ConfigNodePropertyString orgApacheSlingCommonsLogConfigurationFile;
 
   @JsonProperty("org.apache.sling.commons.log.packagingDataEnabled")
-  private ConfigNodePropertyBoolean orgApacheSlingCommonsLogPackagingDataEnabled = null;
+  private ConfigNodePropertyBoolean orgApacheSlingCommonsLogPackagingDataEnabled;
 
   @JsonProperty("org.apache.sling.commons.log.maxCallerDataDepth")
-  private ConfigNodePropertyInteger orgApacheSlingCommonsLogMaxCallerDataDepth = null;
+  private ConfigNodePropertyInteger orgApacheSlingCommonsLogMaxCallerDataDepth;
 
   @JsonProperty("org.apache.sling.commons.log.maxOldFileCountInDump")
-  private ConfigNodePropertyInteger orgApacheSlingCommonsLogMaxOldFileCountInDump = null;
+  private ConfigNodePropertyInteger orgApacheSlingCommonsLogMaxOldFileCountInDump;
 
   @JsonProperty("org.apache.sling.commons.log.numOfLines")
-  private ConfigNodePropertyInteger orgApacheSlingCommonsLogNumOfLines = null;
+  private ConfigNodePropertyInteger orgApacheSlingCommonsLogNumOfLines;
 
   public OrgApacheSlingCommonsLogLogManagerProperties orgApacheSlingCommonsLogLevel(ConfigNodePropertyDropDown orgApacheSlingCommonsLogLevel) {
     this.orgApacheSlingCommonsLogLevel = orgApacheSlingCommonsLogLevel;
     return this;
   }
 
-   /**
+  /**
    * Get orgApacheSlingCommonsLogLevel
    * @return orgApacheSlingCommonsLogLevel
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyDropDown getOrgApacheSlingCommonsLogLevel() {
     return orgApacheSlingCommonsLogLevel;
@@ -74,10 +74,10 @@ public class OrgApacheSlingCommonsLogLogManagerProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get orgApacheSlingCommonsLogFile
    * @return orgApacheSlingCommonsLogFile
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getOrgApacheSlingCommonsLogFile() {
     return orgApacheSlingCommonsLogFile;
@@ -92,10 +92,10 @@ public class OrgApacheSlingCommonsLogLogManagerProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get orgApacheSlingCommonsLogFileNumber
    * @return orgApacheSlingCommonsLogFileNumber
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getOrgApacheSlingCommonsLogFileNumber() {
     return orgApacheSlingCommonsLogFileNumber;
@@ -110,10 +110,10 @@ public class OrgApacheSlingCommonsLogLogManagerProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get orgApacheSlingCommonsLogFileSize
    * @return orgApacheSlingCommonsLogFileSize
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getOrgApacheSlingCommonsLogFileSize() {
     return orgApacheSlingCommonsLogFileSize;
@@ -128,10 +128,10 @@ public class OrgApacheSlingCommonsLogLogManagerProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get orgApacheSlingCommonsLogPattern
    * @return orgApacheSlingCommonsLogPattern
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getOrgApacheSlingCommonsLogPattern() {
     return orgApacheSlingCommonsLogPattern;
@@ -146,10 +146,10 @@ public class OrgApacheSlingCommonsLogLogManagerProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get orgApacheSlingCommonsLogConfigurationFile
    * @return orgApacheSlingCommonsLogConfigurationFile
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getOrgApacheSlingCommonsLogConfigurationFile() {
     return orgApacheSlingCommonsLogConfigurationFile;
@@ -164,10 +164,10 @@ public class OrgApacheSlingCommonsLogLogManagerProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get orgApacheSlingCommonsLogPackagingDataEnabled
    * @return orgApacheSlingCommonsLogPackagingDataEnabled
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getOrgApacheSlingCommonsLogPackagingDataEnabled() {
     return orgApacheSlingCommonsLogPackagingDataEnabled;
@@ -182,10 +182,10 @@ public class OrgApacheSlingCommonsLogLogManagerProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get orgApacheSlingCommonsLogMaxCallerDataDepth
    * @return orgApacheSlingCommonsLogMaxCallerDataDepth
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getOrgApacheSlingCommonsLogMaxCallerDataDepth() {
     return orgApacheSlingCommonsLogMaxCallerDataDepth;
@@ -200,10 +200,10 @@ public class OrgApacheSlingCommonsLogLogManagerProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get orgApacheSlingCommonsLogMaxOldFileCountInDump
    * @return orgApacheSlingCommonsLogMaxOldFileCountInDump
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getOrgApacheSlingCommonsLogMaxOldFileCountInDump() {
     return orgApacheSlingCommonsLogMaxOldFileCountInDump;
@@ -218,10 +218,10 @@ public class OrgApacheSlingCommonsLogLogManagerProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get orgApacheSlingCommonsLogNumOfLines
    * @return orgApacheSlingCommonsLogNumOfLines
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getOrgApacheSlingCommonsLogNumOfLines() {
     return orgApacheSlingCommonsLogNumOfLines;
@@ -233,7 +233,7 @@ public class OrgApacheSlingCommonsLogLogManagerProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -281,11 +281,8 @@ public class OrgApacheSlingCommonsLogLogManagerProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -1,13 +1,14 @@
 # OrgApacheSlingDistributionTriggerImplJcrEventDistributionTriggerProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**name** | [***::models::ConfigNodePropertyString**](configNodePropertyString.md) |  | [optional] 
-**path** | [***::models::ConfigNodePropertyString**](configNodePropertyString.md) |  | [optional] 
-**ignored_paths_patterns** | [***::models::ConfigNodePropertyArray**](configNodePropertyArray.md) |  | [optional] 
-**service_name** | [***::models::ConfigNodePropertyString**](configNodePropertyString.md) |  | [optional] 
-**deep** | [***::models::ConfigNodePropertyBoolean**](configNodePropertyBoolean.md) |  | [optional] 
+**name** | Option<[**models::ConfigNodePropertyString**](ConfigNodePropertyString.md)> |  | [optional]
+**path** | Option<[**models::ConfigNodePropertyString**](ConfigNodePropertyString.md)> |  | [optional]
+**ignored_paths_patterns** | Option<[**models::ConfigNodePropertyArray**](ConfigNodePropertyArray.md)> |  | [optional]
+**service_name** | Option<[**models::ConfigNodePropertyString**](ConfigNodePropertyString.md)> |  | [optional]
+**deep** | Option<[**models::ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md)> |  | [optional]
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

@@ -8,8 +8,8 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class OrgApacheSlingScriptingCoreImplScriptCacheImplProperties {
-    ConfigNodePropertyInteger orgApacheSlingScriptingCacheSize = null
-
-    ConfigNodePropertyArray orgApacheSlingScriptingCacheAdditionalExtensions = null
-
+    
+    ConfigNodePropertyInteger orgApacheSlingScriptingCacheSize
+    
+    ConfigNodePropertyArray orgApacheSlingScriptingCacheAdditionalExtensions
 }

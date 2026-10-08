@@ -72,10 +72,10 @@ private class OASComDayCqWcmFoundationFormsImplMaiTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqWcmFoundationFormsImplMai comDayCqWcmFoundationFormsImplMailServletProperties = new OASComDayCqWcmFoundationFormsImplMai();
-        Map<String, String> propertyMappings = comDayCqWcmFoundationFormsImplMailServletProperties.getPropertyMappings();
-        System.assertEquals('slingServletResourceTypes', propertyMappings.get('sling.servlet.resourceTypes'));
-        System.assertEquals('slingServletSelectors', propertyMappings.get('sling.servlet.selectors'));
-        System.assertEquals('resourceWhitelist', propertyMappings.get('resource.whitelist'));
-        System.assertEquals('resourceBlacklist', propertyMappings.get('resource.blacklist'));
+        Map<String, String> x-property-mappings = comDayCqWcmFoundationFormsImplMailServletProperties.getx-property-mappings();
+        System.assertEquals('slingServletResourceTypes', x-property-mappings.get('sling.servlet.resourceTypes'));
+        System.assertEquals('slingServletSelectors', x-property-mappings.get('sling.servlet.selectors'));
+        System.assertEquals('resourceWhitelist', x-property-mappings.get('resource.whitelist'));
+        System.assertEquals('resourceBlacklist', x-property-mappings.get('resource.blacklist'));
     }
 }

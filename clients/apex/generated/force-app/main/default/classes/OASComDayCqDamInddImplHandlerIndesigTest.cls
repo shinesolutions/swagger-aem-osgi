@@ -72,8 +72,8 @@ private class OASComDayCqDamInddImplHandlerIndesigTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqDamInddImplHandlerIndesig comDayCqDamInddImplHandlerIndesignXMPHandlerProperties = new OASComDayCqDamInddImplHandlerIndesig();
-        Map<String, String> propertyMappings = comDayCqDamInddImplHandlerIndesignXMPHandlerProperties.getPropertyMappings();
-        System.assertEquals('processLabel', propertyMappings.get('process.label'));
-        System.assertEquals('extractPages', propertyMappings.get('extract.pages'));
+        Map<String, String> x-property-mappings = comDayCqDamInddImplHandlerIndesignXMPHandlerProperties.getx-property-mappings();
+        System.assertEquals('processLabel', x-property-mappings.get('process.label'));
+        System.assertEquals('extractPages', x-property-mappings.get('extract.pages'));
     }
 }

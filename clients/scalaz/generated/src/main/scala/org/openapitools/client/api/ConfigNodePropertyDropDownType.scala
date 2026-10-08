@@ -7,13 +7,15 @@ import argonaut.DecodeJson._
 import org.http4s.{EntityDecoder, EntityEncoder}
 import org.http4s.argonaut._
 import org.joda.time.DateTime
+
+
 import ConfigNodePropertyDropDownType._
 
 case class ConfigNodePropertyDropDownType (
   /* Drop Down label */
-  labels: Option[Any],
+  labels: Option[AnyType],
 /* Drown Down value */
-  values: Option[Any])
+  values: Option[AnyType])
 
 object ConfigNodePropertyDropDownType {
   import DateTimeCodecs._

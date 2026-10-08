@@ -1,0 +1,169 @@
+package org.openapitools.model;
+
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.model.ConfigNodePropertyBoolean;
+import org.openapitools.model.ConfigNodePropertyString;
+import javax.validation.constraints.*;
+import javax.validation.Valid;
+
+import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.annotation.JsonProperty;
+
+
+public class OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryProperties  {
+  
+  @ApiModelProperty(value = "")
+  @Valid
+  private ConfigNodePropertyBoolean javaClassdebuginfo;
+
+  @ApiModelProperty(value = "")
+  @Valid
+  private ConfigNodePropertyString javaJavaEncoding;
+
+  @ApiModelProperty(value = "")
+  @Valid
+  private ConfigNodePropertyString javaCompilerSourceVM;
+
+  @ApiModelProperty(value = "")
+  @Valid
+  private ConfigNodePropertyString javaCompilerTargetVM;
+ /**
+  * Get javaClassdebuginfo
+  * @return javaClassdebuginfo
+  */
+  @JsonProperty("java.classdebuginfo")
+  public ConfigNodePropertyBoolean getJavaClassdebuginfo() {
+    return javaClassdebuginfo;
+  }
+
+  /**
+   * Sets the <code>javaClassdebuginfo</code> property.
+   */
+ public void setJavaClassdebuginfo(ConfigNodePropertyBoolean javaClassdebuginfo) {
+    this.javaClassdebuginfo = javaClassdebuginfo;
+  }
+
+  /**
+   * Sets the <code>javaClassdebuginfo</code> property.
+   */
+  public OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryProperties javaClassdebuginfo(ConfigNodePropertyBoolean javaClassdebuginfo) {
+    this.javaClassdebuginfo = javaClassdebuginfo;
+    return this;
+  }
+
+ /**
+  * Get javaJavaEncoding
+  * @return javaJavaEncoding
+  */
+  @JsonProperty("java.javaEncoding")
+  public ConfigNodePropertyString getJavaJavaEncoding() {
+    return javaJavaEncoding;
+  }
+
+  /**
+   * Sets the <code>javaJavaEncoding</code> property.
+   */
+ public void setJavaJavaEncoding(ConfigNodePropertyString javaJavaEncoding) {
+    this.javaJavaEncoding = javaJavaEncoding;
+  }
+
+  /**
+   * Sets the <code>javaJavaEncoding</code> property.
+   */
+  public OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryProperties javaJavaEncoding(ConfigNodePropertyString javaJavaEncoding) {
+    this.javaJavaEncoding = javaJavaEncoding;
+    return this;
+  }
+
+ /**
+  * Get javaCompilerSourceVM
+  * @return javaCompilerSourceVM
+  */
+  @JsonProperty("java.compilerSourceVM")
+  public ConfigNodePropertyString getJavaCompilerSourceVM() {
+    return javaCompilerSourceVM;
+  }
+
+  /**
+   * Sets the <code>javaCompilerSourceVM</code> property.
+   */
+ public void setJavaCompilerSourceVM(ConfigNodePropertyString javaCompilerSourceVM) {
+    this.javaCompilerSourceVM = javaCompilerSourceVM;
+  }
+
+  /**
+   * Sets the <code>javaCompilerSourceVM</code> property.
+   */
+  public OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryProperties javaCompilerSourceVM(ConfigNodePropertyString javaCompilerSourceVM) {
+    this.javaCompilerSourceVM = javaCompilerSourceVM;
+    return this;
+  }
+
+ /**
+  * Get javaCompilerTargetVM
+  * @return javaCompilerTargetVM
+  */
+  @JsonProperty("java.compilerTargetVM")
+  public ConfigNodePropertyString getJavaCompilerTargetVM() {
+    return javaCompilerTargetVM;
+  }
+
+  /**
+   * Sets the <code>javaCompilerTargetVM</code> property.
+   */
+ public void setJavaCompilerTargetVM(ConfigNodePropertyString javaCompilerTargetVM) {
+    this.javaCompilerTargetVM = javaCompilerTargetVM;
+  }
+
+  /**
+   * Sets the <code>javaCompilerTargetVM</code> property.
+   */
+  public OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryProperties javaCompilerTargetVM(ConfigNodePropertyString javaCompilerTargetVM) {
+    this.javaCompilerTargetVM = javaCompilerTargetVM;
+    return this;
+  }
+
+
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryProperties orgApacheSlingScriptingJavaImplJavaScriptEngineFactoryProperties = (OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryProperties) o;
+    return Objects.equals(this.javaClassdebuginfo, orgApacheSlingScriptingJavaImplJavaScriptEngineFactoryProperties.javaClassdebuginfo) &&
+        Objects.equals(this.javaJavaEncoding, orgApacheSlingScriptingJavaImplJavaScriptEngineFactoryProperties.javaJavaEncoding) &&
+        Objects.equals(this.javaCompilerSourceVM, orgApacheSlingScriptingJavaImplJavaScriptEngineFactoryProperties.javaCompilerSourceVM) &&
+        Objects.equals(this.javaCompilerTargetVM, orgApacheSlingScriptingJavaImplJavaScriptEngineFactoryProperties.javaCompilerTargetVM);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(javaClassdebuginfo, javaJavaEncoding, javaCompilerSourceVM, javaCompilerTargetVM);
+  }
+
+  @Override
+  public String toString() {
+    StringBuilder sb = new StringBuilder();
+    sb.append("class OrgApacheSlingScriptingJavaImplJavaScriptEngineFactoryProperties {\n");
+    
+    sb.append("    javaClassdebuginfo: ").append(toIndentedString(javaClassdebuginfo)).append("\n");
+    sb.append("    javaJavaEncoding: ").append(toIndentedString(javaJavaEncoding)).append("\n");
+    sb.append("    javaCompilerSourceVM: ").append(toIndentedString(javaCompilerSourceVM)).append("\n");
+    sb.append("    javaCompilerTargetVM: ").append(toIndentedString(javaCompilerTargetVM)).append("\n");
+    sb.append("}");
+    return sb.toString();
+  }
+
+  /**
+   * Convert the given object to string with each line indented by 4 spaces
+   * (except the first line).
+   */
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
+  }
+}
+

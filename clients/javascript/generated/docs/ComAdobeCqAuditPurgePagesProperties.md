@@ -1,6 +1,7 @@
 # NodeSwaggerAemOsgi.ComAdobeCqAuditPurgePagesProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **auditlogRuleName** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 

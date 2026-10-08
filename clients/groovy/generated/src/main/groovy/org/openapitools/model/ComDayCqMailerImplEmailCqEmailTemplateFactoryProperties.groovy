@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqMailerImplEmailCqEmailTemplateFactoryProperties {
-    ConfigNodePropertyString mailerEmailCharset = null
-
+    
+    ConfigNodePropertyString mailerEmailCharset
 }

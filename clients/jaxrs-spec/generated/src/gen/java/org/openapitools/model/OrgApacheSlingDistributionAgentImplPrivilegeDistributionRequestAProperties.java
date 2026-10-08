@@ -1,19 +1,30 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("orgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAProperties   {
-  
-  private @Valid ConfigNodePropertyString name = null;
-  private @Valid ConfigNodePropertyString jcrPrivilege = null;
+  private ConfigNodePropertyString name;
+  private ConfigNodePropertyString jcrPrivilege;
+
+  public OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAProperties() {
+  }
 
   /**
    **/
@@ -25,9 +36,11 @@ public class OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAPro
   
   @ApiModelProperty(value = "")
   @JsonProperty("name")
-  public ConfigNodePropertyString getName() {
+  @Valid public ConfigNodePropertyString getName() {
     return name;
   }
+
+  @JsonProperty("name")
   public void setName(ConfigNodePropertyString name) {
     this.name = name;
   }
@@ -42,16 +55,18 @@ public class OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAPro
   
   @ApiModelProperty(value = "")
   @JsonProperty("jcrPrivilege")
-  public ConfigNodePropertyString getJcrPrivilege() {
+  @Valid public ConfigNodePropertyString getJcrPrivilege() {
     return jcrPrivilege;
   }
+
+  @JsonProperty("jcrPrivilege")
   public void setJcrPrivilege(ConfigNodePropertyString jcrPrivilege) {
     this.jcrPrivilege = jcrPrivilege;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -59,8 +74,8 @@ public class OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAPro
       return false;
     }
     OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAProperties orgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAProperties = (OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAProperties) o;
-    return Objects.equals(name, orgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAProperties.name) &&
-        Objects.equals(jcrPrivilege, orgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAProperties.jcrPrivilege);
+    return Objects.equals(this.name, orgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAProperties.name) &&
+        Objects.equals(this.jcrPrivilege, orgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAProperties.jcrPrivilege);
   }
 
   @Override
@@ -83,11 +98,9 @@ public class OrgApacheSlingDistributionAgentImplPrivilegeDistributionRequestAPro
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

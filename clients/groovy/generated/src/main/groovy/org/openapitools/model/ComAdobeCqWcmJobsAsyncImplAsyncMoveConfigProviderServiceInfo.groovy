@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderS
 
 @Canonical
 class ComAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderServiceInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderServiceProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqWcmJobsAsyncImplAsyncMoveConfigProviderServiceProperties properties
 }

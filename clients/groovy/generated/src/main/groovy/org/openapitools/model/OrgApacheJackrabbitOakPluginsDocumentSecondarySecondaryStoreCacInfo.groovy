@@ -7,12 +7,12 @@ import org.openapitools.model.OrgApacheJackrabbitOakPluginsDocumentSecondarySeco
 
 @Canonical
 class OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheJackrabbitOakPluginsDocumentSecondarySecondaryStoreCacProperties properties
 }

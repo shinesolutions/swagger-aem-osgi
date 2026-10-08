@@ -1,0 +1,16 @@
+# org_apache_sling_i18n_impl_jcr_resource_bundle_provider_info_t
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**pid** | **char \*** |  | [optional] 
+**title** | **char \*** |  | [optional] 
+**description** | **char \*** |  | [optional] 
+**properties** | [**org_apache_sling_i18n_impl_jcr_resource_bundle_provider_properties_t**](org_apache_sling_i18n_impl_jcr_resource_bundle_provider_properties.md) \* |  | [optional] 
+**additional_properties** | **char \*** |  | [optional] 
+**bundle_location** | **char \*** |  | [optional] 
+**service_location** | **char \*** |  | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+

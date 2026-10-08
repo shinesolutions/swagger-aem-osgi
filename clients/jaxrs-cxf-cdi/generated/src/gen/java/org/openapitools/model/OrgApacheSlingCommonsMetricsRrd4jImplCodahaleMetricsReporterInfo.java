@@ -2,31 +2,32 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterInfo   {
   
-  private String pid = null;
+  private String pid;
 
-  private String title = null;
+  private String title;
 
-  private String description = null;
+  private String description;
 
-  private OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterProperties properties = null;
+  private OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterProperties properties;
 
-  private String bundleLocation = null;
+  private String bundleLocation;
 
-  private String serviceLocation = null;
-
+  private String serviceLocation;
 
   /**
    **/
@@ -138,7 +139,7 @@ public class OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterInfo   
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -146,12 +147,12 @@ public class OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterInfo   
       return false;
     }
     OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterInfo orgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterInfo = (OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterInfo) o;
-    return Objects.equals(pid, orgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterInfo.pid) &&
-        Objects.equals(title, orgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterInfo.title) &&
-        Objects.equals(description, orgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterInfo.description) &&
-        Objects.equals(properties, orgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterInfo.properties) &&
-        Objects.equals(bundleLocation, orgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterInfo.bundleLocation) &&
-        Objects.equals(serviceLocation, orgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterInfo.serviceLocation);
+    return Objects.equals(this.pid, orgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterInfo.pid) &&
+        Objects.equals(this.title, orgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterInfo.title) &&
+        Objects.equals(this.description, orgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterInfo.description) &&
+        Objects.equals(this.properties, orgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterInfo.properties) &&
+        Objects.equals(this.bundleLocation, orgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterInfo.bundleLocation) &&
+        Objects.equals(this.serviceLocation, orgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterInfo.serviceLocation);
   }
 
   @Override
@@ -178,11 +179,8 @@ public class OrgApacheSlingCommonsMetricsRrd4jImplCodahaleMetricsReporterInfo   
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

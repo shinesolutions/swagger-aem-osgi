@@ -8,8 +8,8 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeCqSecurityHcWebserverImplClickjackingHealthCheckProperties {
-    ConfigNodePropertyArray hcTags = null
-
-    ConfigNodePropertyString webserverAddress = null
-
+    
+    ConfigNodePropertyArray hcTags
+    
+    ConfigNodePropertyString webserverAddress
 }

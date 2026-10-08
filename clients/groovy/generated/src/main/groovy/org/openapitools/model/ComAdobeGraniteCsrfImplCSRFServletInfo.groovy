@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeGraniteCsrfImplCSRFServletProperties;
 
 @Canonical
 class ComAdobeGraniteCsrfImplCSRFServletInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteCsrfImplCSRFServletProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteCsrfImplCSRFServletProperties properties
 }

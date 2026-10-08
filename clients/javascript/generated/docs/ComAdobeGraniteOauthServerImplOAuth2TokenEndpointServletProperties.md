@@ -1,6 +1,7 @@
 # NodeSwaggerAemOsgi.ComAdobeGraniteOauthServerImplOAuth2TokenEndpointServletProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **oauthIssuer** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 

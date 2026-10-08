@@ -10,14 +10,14 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCrxSecurityTokenImplImplTokenAuthenticationHandlerProperties {
-    ConfigNodePropertyString path = null
-
-    ConfigNodePropertyDropDown tokenRequiredAttr = null
-
-    ConfigNodePropertyString tokenAlternateUrl = null
-
-    ConfigNodePropertyBoolean tokenEncapsulated = null
-
-    ConfigNodePropertyArray skipTokenRefresh = null
-
+    
+    ConfigNodePropertyString path
+    
+    ConfigNodePropertyDropDown tokenRequiredAttr
+    
+    ConfigNodePropertyString tokenAlternateUrl
+    
+    ConfigNodePropertyBoolean tokenEncapsulated
+    
+    ConfigNodePropertyArray skipTokenRefresh
 }

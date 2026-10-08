@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeGraniteDistributionCoreImplDiffDiffChanges
 
 @Canonical
 class ComAdobeGraniteDistributionCoreImplDiffDiffChangesObserverInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteDistributionCoreImplDiffDiffChangesObserverProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteDistributionCoreImplDiffDiffChangesObserverProperties properties
 }

@@ -7,12 +7,12 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeCqDamCfmImplComponentComponentConfigImplProperties {
-    ConfigNodePropertyString damCfmComponentResourceType = null
-
-    ConfigNodePropertyString damCfmComponentFileReferenceProp = null
-
-    ConfigNodePropertyString damCfmComponentElementsProp = null
-
-    ConfigNodePropertyString damCfmComponentVariationProp = null
-
+    
+    ConfigNodePropertyString damCfmComponentResourceType
+    
+    ConfigNodePropertyString damCfmComponentFileReferenceProp
+    
+    ConfigNodePropertyString damCfmComponentElementsProp
+    
+    ConfigNodePropertyString damCfmComponentVariationProp
 }

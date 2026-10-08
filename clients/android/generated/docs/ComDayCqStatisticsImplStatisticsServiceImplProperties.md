@@ -1,7 +1,9 @@
 
+
 # ComDayCqStatisticsImplStatisticsServiceImplProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **schedulerPeriod** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
@@ -10,6 +12,7 @@ Name | Type | Description | Notes
 **workspace** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
 **keywordsPath** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
 **asyncEntries** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
+
 
 
 

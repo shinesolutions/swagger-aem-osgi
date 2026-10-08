@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyBoolean;
 import com.prokarma.pkmst.model.ConfigNodePropertyInteger;
 import com.prokarma.pkmst.model.ConfigNodePropertyString;
@@ -17,42 +18,41 @@ import io.swagger.annotations.ApiModelProperty;
  * ComDayCqMailerDefaultMailServiceProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqMailerDefaultMailServiceProperties   {
   @JsonProperty("smtp.host")
-  private ConfigNodePropertyString smtpHost = null;
+  private ConfigNodePropertyString smtpHost;
 
   @JsonProperty("smtp.port")
-  private ConfigNodePropertyInteger smtpPort = null;
+  private ConfigNodePropertyInteger smtpPort;
 
   @JsonProperty("smtp.user")
-  private ConfigNodePropertyString smtpUser = null;
+  private ConfigNodePropertyString smtpUser;
 
   @JsonProperty("smtp.password")
-  private ConfigNodePropertyString smtpPassword = null;
+  private ConfigNodePropertyString smtpPassword;
 
   @JsonProperty("from.address")
-  private ConfigNodePropertyString fromAddress = null;
+  private ConfigNodePropertyString fromAddress;
 
   @JsonProperty("smtp.ssl")
-  private ConfigNodePropertyBoolean smtpSsl = null;
+  private ConfigNodePropertyBoolean smtpSsl;
 
   @JsonProperty("smtp.starttls")
-  private ConfigNodePropertyBoolean smtpStarttls = null;
+  private ConfigNodePropertyBoolean smtpStarttls;
 
   @JsonProperty("debug.email")
-  private ConfigNodePropertyBoolean debugEmail = null;
+  private ConfigNodePropertyBoolean debugEmail;
 
   public ComDayCqMailerDefaultMailServiceProperties smtpHost(ConfigNodePropertyString smtpHost) {
     this.smtpHost = smtpHost;
     return this;
   }
 
-   /**
+  /**
    * Get smtpHost
    * @return smtpHost
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getSmtpHost() {
     return smtpHost;
@@ -67,10 +67,10 @@ public class ComDayCqMailerDefaultMailServiceProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get smtpPort
    * @return smtpPort
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getSmtpPort() {
     return smtpPort;
@@ -85,10 +85,10 @@ public class ComDayCqMailerDefaultMailServiceProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get smtpUser
    * @return smtpUser
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getSmtpUser() {
     return smtpUser;
@@ -103,10 +103,10 @@ public class ComDayCqMailerDefaultMailServiceProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get smtpPassword
    * @return smtpPassword
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getSmtpPassword() {
     return smtpPassword;
@@ -121,10 +121,10 @@ public class ComDayCqMailerDefaultMailServiceProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get fromAddress
    * @return fromAddress
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getFromAddress() {
     return fromAddress;
@@ -139,10 +139,10 @@ public class ComDayCqMailerDefaultMailServiceProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get smtpSsl
    * @return smtpSsl
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getSmtpSsl() {
     return smtpSsl;
@@ -157,10 +157,10 @@ public class ComDayCqMailerDefaultMailServiceProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get smtpStarttls
    * @return smtpStarttls
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getSmtpStarttls() {
     return smtpStarttls;
@@ -175,10 +175,10 @@ public class ComDayCqMailerDefaultMailServiceProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get debugEmail
    * @return debugEmail
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getDebugEmail() {
     return debugEmail;
@@ -190,7 +190,7 @@ public class ComDayCqMailerDefaultMailServiceProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -234,11 +234,8 @@ public class ComDayCqMailerDefaultMailServiceProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

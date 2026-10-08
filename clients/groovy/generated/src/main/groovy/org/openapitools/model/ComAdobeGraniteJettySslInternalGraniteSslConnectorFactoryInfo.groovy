@@ -7,18 +7,18 @@ import org.openapitools.model.ComAdobeGraniteJettySslInternalGraniteSslConnector
 
 @Canonical
 class ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryProperties properties = null
-
-    String additionalProperties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteJettySslInternalGraniteSslConnectorFactoryProperties properties
+    
+    String additionalProperties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

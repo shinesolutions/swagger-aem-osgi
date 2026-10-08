@@ -1,0 +1,42 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComAdobeGraniteResourcestatusImplCompositeStatusTypeProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComAdobeGraniteResourcestatusImplCompositeStatusTypeProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  ComAdobeGraniteResourcestatusImplCompositeStatusTypeProperties {
+    title = ComAdobeGraniteResourcestatusImplCompositeStatusTypeProperties
+    description = ComAdobeGraniteResourcestatusImplCompositeStatusTypeProperties
+    derivedFrom = Root
+    properties {
+        name {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        types {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComAdobeGraniteResourcestatusImplCompositeStatusTypeProperties {
+    title = ComAdobeGraniteResourcestatusImplCompositeStatusTypeProperties
+    description = ComAdobeGraniteResourcestatusImplCompositeStatusTypeProperties
+    implements = openapi_server.resourceTypes.ComAdobeGraniteResourcestatusImplCompositeStatusTypeProperties
+
+  }
+}

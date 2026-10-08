@@ -8,10 +8,10 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class ComAdobeCqSocialCommonsCommentsSchedulerImplSearchScheduledPosProperties {
-    ConfigNodePropertyBoolean enableScheduledPostsSearch = null
-
-    ConfigNodePropertyInteger numberOfMinutes = null
-
-    ConfigNodePropertyInteger maxSearchLimit = null
-
+    
+    ConfigNodePropertyBoolean enableScheduledPostsSearch
+    
+    ConfigNodePropertyInteger numberOfMinutes
+    
+    ConfigNodePropertyInteger maxSearchLimit
 }

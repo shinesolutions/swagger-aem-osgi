@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqWcmFoundationImplPageImpressionsTrackerPro
 
 @Canonical
 class ComDayCqWcmFoundationImplPageImpressionsTrackerInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqWcmFoundationImplPageImpressionsTrackerProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqWcmFoundationImplPageImpressionsTrackerProperties properties
 }

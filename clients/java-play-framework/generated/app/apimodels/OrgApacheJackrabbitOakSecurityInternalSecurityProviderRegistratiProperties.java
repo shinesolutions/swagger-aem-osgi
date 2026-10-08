@@ -2,23 +2,28 @@ package apimodels;
 
 import apimodels.ConfigNodePropertyArray;
 import apimodels.ConfigNodePropertyDropDown;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistratiProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistratiProperties   {
   @JsonProperty("requiredServicePids")
-  private ConfigNodePropertyArray requiredServicePids = null;
+  @Valid
+
+  private ConfigNodePropertyArray requiredServicePids;
 
   @JsonProperty("authorizationCompositionType")
-  private ConfigNodePropertyDropDown authorizationCompositionType = null;
+  @Valid
+
+  private ConfigNodePropertyDropDown authorizationCompositionType;
 
   public OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistratiProperties requiredServicePids(ConfigNodePropertyArray requiredServicePids) {
     this.requiredServicePids = requiredServicePids;
@@ -29,7 +34,6 @@ public class OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistratiPro
    * Get requiredServicePids
    * @return requiredServicePids
   **/
-  @Valid
   public ConfigNodePropertyArray getRequiredServicePids() {
     return requiredServicePids;
   }
@@ -47,7 +51,6 @@ public class OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistratiPro
    * Get authorizationCompositionType
    * @return authorizationCompositionType
   **/
-  @Valid
   public ConfigNodePropertyDropDown getAuthorizationCompositionType() {
     return authorizationCompositionType;
   }
@@ -58,7 +61,7 @@ public class OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistratiPro
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -91,11 +94,8 @@ public class OrgApacheJackrabbitOakSecurityInternalSecurityProviderRegistratiPro
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

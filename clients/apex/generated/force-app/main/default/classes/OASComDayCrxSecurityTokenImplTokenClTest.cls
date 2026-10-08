@@ -72,9 +72,9 @@ private class OASComDayCrxSecurityTokenImplTokenClTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCrxSecurityTokenImplTokenCl comDayCrxSecurityTokenImplTokenCleanupTaskProperties = new OASComDayCrxSecurityTokenImplTokenCl();
-        Map<String, String> propertyMappings = comDayCrxSecurityTokenImplTokenCleanupTaskProperties.getPropertyMappings();
-        System.assertEquals('enableTokenCleanupTask', propertyMappings.get('enable.token.cleanup.task'));
-        System.assertEquals('schedulerExpression', propertyMappings.get('scheduler.expression'));
-        System.assertEquals('batchSize', propertyMappings.get('batch.size'));
+        Map<String, String> x-property-mappings = comDayCrxSecurityTokenImplTokenCleanupTaskProperties.getx-property-mappings();
+        System.assertEquals('enableTokenCleanupTask', x-property-mappings.get('enable.token.cleanup.task'));
+        System.assertEquals('schedulerExpression', x-property-mappings.get('scheduler.expression'));
+        System.assertEquals('batchSize', x-property-mappings.get('batch.size'));
     }
 }

@@ -1,38 +1,49 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComAdobeCqSocialUserImplTransportHttpToPublisherProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComAdobeCqSocialUserImplTransportHttpToPublisherProperties   {
-  @JsonProperty("enable")
-  private ConfigNodePropertyBoolean enable = null;
+@JsonTypeName("comAdobeCqSocialUserImplTransportHttpToPublisherProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComAdobeCqSocialUserImplTransportHttpToPublisherProperties {
 
-  @JsonProperty("agent.configuration")
-  private ConfigNodePropertyArray agentConfiguration = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean enable;
 
-  @JsonProperty("context.path")
-  private ConfigNodePropertyString contextPath = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray agentConfiguration;
 
-  @JsonProperty("disabled.cipher.suites")
-  private ConfigNodePropertyArray disabledCipherSuites = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString contextPath;
 
-  @JsonProperty("enabled.cipher.suites")
-  private ConfigNodePropertyArray enabledCipherSuites = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray disabledCipherSuites;
 
-  public ComAdobeCqSocialUserImplTransportHttpToPublisherProperties enable(ConfigNodePropertyBoolean enable) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray enabledCipherSuites;
+
+  public ComAdobeCqSocialUserImplTransportHttpToPublisherProperties enable(@Nullable ConfigNodePropertyBoolean enable) {
     this.enable = enable;
     return this;
   }
@@ -40,20 +51,20 @@ public class ComAdobeCqSocialUserImplTransportHttpToPublisherProperties   {
   /**
    * Get enable
    * @return enable
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getEnable() {
+   */
+  @Valid 
+  @Schema(name = "enable", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("enable")
+  public @Nullable ConfigNodePropertyBoolean getEnable() {
     return enable;
   }
 
-  public void setEnable(ConfigNodePropertyBoolean enable) {
+  @JsonProperty("enable")
+  public void setEnable(@Nullable ConfigNodePropertyBoolean enable) {
     this.enable = enable;
   }
 
-  public ComAdobeCqSocialUserImplTransportHttpToPublisherProperties agentConfiguration(ConfigNodePropertyArray agentConfiguration) {
+  public ComAdobeCqSocialUserImplTransportHttpToPublisherProperties agentConfiguration(@Nullable ConfigNodePropertyArray agentConfiguration) {
     this.agentConfiguration = agentConfiguration;
     return this;
   }
@@ -61,20 +72,20 @@ public class ComAdobeCqSocialUserImplTransportHttpToPublisherProperties   {
   /**
    * Get agentConfiguration
    * @return agentConfiguration
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getAgentConfiguration() {
+   */
+  @Valid 
+  @Schema(name = "agent.configuration", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("agent.configuration")
+  public @Nullable ConfigNodePropertyArray getAgentConfiguration() {
     return agentConfiguration;
   }
 
-  public void setAgentConfiguration(ConfigNodePropertyArray agentConfiguration) {
+  @JsonProperty("agent.configuration")
+  public void setAgentConfiguration(@Nullable ConfigNodePropertyArray agentConfiguration) {
     this.agentConfiguration = agentConfiguration;
   }
 
-  public ComAdobeCqSocialUserImplTransportHttpToPublisherProperties contextPath(ConfigNodePropertyString contextPath) {
+  public ComAdobeCqSocialUserImplTransportHttpToPublisherProperties contextPath(@Nullable ConfigNodePropertyString contextPath) {
     this.contextPath = contextPath;
     return this;
   }
@@ -82,20 +93,20 @@ public class ComAdobeCqSocialUserImplTransportHttpToPublisherProperties   {
   /**
    * Get contextPath
    * @return contextPath
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getContextPath() {
+   */
+  @Valid 
+  @Schema(name = "context.path", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("context.path")
+  public @Nullable ConfigNodePropertyString getContextPath() {
     return contextPath;
   }
 
-  public void setContextPath(ConfigNodePropertyString contextPath) {
+  @JsonProperty("context.path")
+  public void setContextPath(@Nullable ConfigNodePropertyString contextPath) {
     this.contextPath = contextPath;
   }
 
-  public ComAdobeCqSocialUserImplTransportHttpToPublisherProperties disabledCipherSuites(ConfigNodePropertyArray disabledCipherSuites) {
+  public ComAdobeCqSocialUserImplTransportHttpToPublisherProperties disabledCipherSuites(@Nullable ConfigNodePropertyArray disabledCipherSuites) {
     this.disabledCipherSuites = disabledCipherSuites;
     return this;
   }
@@ -103,20 +114,20 @@ public class ComAdobeCqSocialUserImplTransportHttpToPublisherProperties   {
   /**
    * Get disabledCipherSuites
    * @return disabledCipherSuites
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getDisabledCipherSuites() {
+   */
+  @Valid 
+  @Schema(name = "disabled.cipher.suites", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("disabled.cipher.suites")
+  public @Nullable ConfigNodePropertyArray getDisabledCipherSuites() {
     return disabledCipherSuites;
   }
 
-  public void setDisabledCipherSuites(ConfigNodePropertyArray disabledCipherSuites) {
+  @JsonProperty("disabled.cipher.suites")
+  public void setDisabledCipherSuites(@Nullable ConfigNodePropertyArray disabledCipherSuites) {
     this.disabledCipherSuites = disabledCipherSuites;
   }
 
-  public ComAdobeCqSocialUserImplTransportHttpToPublisherProperties enabledCipherSuites(ConfigNodePropertyArray enabledCipherSuites) {
+  public ComAdobeCqSocialUserImplTransportHttpToPublisherProperties enabledCipherSuites(@Nullable ConfigNodePropertyArray enabledCipherSuites) {
     this.enabledCipherSuites = enabledCipherSuites;
     return this;
   }
@@ -124,22 +135,21 @@ public class ComAdobeCqSocialUserImplTransportHttpToPublisherProperties   {
   /**
    * Get enabledCipherSuites
    * @return enabledCipherSuites
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getEnabledCipherSuites() {
+   */
+  @Valid 
+  @Schema(name = "enabled.cipher.suites", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("enabled.cipher.suites")
+  public @Nullable ConfigNodePropertyArray getEnabledCipherSuites() {
     return enabledCipherSuites;
   }
 
-  public void setEnabledCipherSuites(ConfigNodePropertyArray enabledCipherSuites) {
+  @JsonProperty("enabled.cipher.suites")
+  public void setEnabledCipherSuites(@Nullable ConfigNodePropertyArray enabledCipherSuites) {
     this.enabledCipherSuites = enabledCipherSuites;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -163,7 +173,6 @@ public class ComAdobeCqSocialUserImplTransportHttpToPublisherProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComAdobeCqSocialUserImplTransportHttpToPublisherProperties {\n");
-    
     sb.append("    enable: ").append(toIndentedString(enable)).append("\n");
     sb.append("    agentConfiguration: ").append(toIndentedString(agentConfiguration)).append("\n");
     sb.append("    contextPath: ").append(toIndentedString(contextPath)).append("\n");
@@ -177,11 +186,8 @@ public class ComAdobeCqSocialUserImplTransportHttpToPublisherProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

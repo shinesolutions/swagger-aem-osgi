@@ -1,49 +1,63 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
 import io.swagger.annotations.ApiModelProperty;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlType;
-import javax.xml.bind.annotation.XmlEnum;
-import javax.xml.bind.annotation.XmlEnumValue;
+import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
 
 public class ComDayCqDamCoreImplMetadataEditorSelectComponentHandlerProperties  {
   
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyArray graniteColonData = null;
+
+  private ConfigNodePropertyArray graniteData;
  /**
-   * Get graniteColonData
-   * @return graniteColonData
+   * Get graniteData
+   * @return graniteData
   **/
   @JsonProperty("granite:data")
-  public ConfigNodePropertyArray getGraniteColonData() {
-    return graniteColonData;
+  public ConfigNodePropertyArray getGraniteData() {
+    return graniteData;
   }
 
-  public void setGraniteColonData(ConfigNodePropertyArray graniteColonData) {
-    this.graniteColonData = graniteColonData;
+  public void setGraniteData(ConfigNodePropertyArray graniteData) {
+    this.graniteData = graniteData;
   }
 
-  public ComDayCqDamCoreImplMetadataEditorSelectComponentHandlerProperties graniteColonData(ConfigNodePropertyArray graniteColonData) {
-    this.graniteColonData = graniteColonData;
+  public ComDayCqDamCoreImplMetadataEditorSelectComponentHandlerProperties graniteData(ConfigNodePropertyArray graniteData) {
+    this.graniteData = graniteData;
     return this;
   }
 
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    ComDayCqDamCoreImplMetadataEditorSelectComponentHandlerProperties comDayCqDamCoreImplMetadataEditorSelectComponentHandlerProperties = (ComDayCqDamCoreImplMetadataEditorSelectComponentHandlerProperties) o;
+    return Objects.equals(this.graniteData, comDayCqDamCoreImplMetadataEditorSelectComponentHandlerProperties.graniteData);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(graniteData);
+  }
 
   @Override
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComDayCqDamCoreImplMetadataEditorSelectComponentHandlerProperties {\n");
     
-    sb.append("    graniteColonData: ").append(toIndentedString(graniteColonData)).append("\n");
+    sb.append("    graniteData: ").append(toIndentedString(graniteData)).append("\n");
     sb.append("}");
     return sb.toString();
   }
@@ -52,11 +66,8 @@ public class ComDayCqDamCoreImplMetadataEditorSelectComponentHandlerProperties  
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private static String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

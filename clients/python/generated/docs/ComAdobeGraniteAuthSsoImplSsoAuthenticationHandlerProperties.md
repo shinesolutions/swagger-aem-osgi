@@ -1,6 +1,8 @@
 # ComAdobeGraniteAuthSsoImplSsoAuthenticationHandlerProperties
 
+
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **path** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
@@ -15,6 +17,23 @@ Name | Type | Description | Notes
 **format** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
 **trusted_credentials_attribute** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
 
+## Example
+
+```python
+from swaggeraemosgi.models.com_adobe_granite_auth_sso_impl_sso_authentication_handler_properties import ComAdobeGraniteAuthSsoImplSsoAuthenticationHandlerProperties
+
+# TODO update the JSON string below
+json = "{}"
+# create an instance of ComAdobeGraniteAuthSsoImplSsoAuthenticationHandlerProperties from a JSON string
+com_adobe_granite_auth_sso_impl_sso_authentication_handler_properties_instance = ComAdobeGraniteAuthSsoImplSsoAuthenticationHandlerProperties.from_json(json)
+# print the JSON string representation of the object
+print(ComAdobeGraniteAuthSsoImplSsoAuthenticationHandlerProperties.to_json())
+
+# convert the object into a dict
+com_adobe_granite_auth_sso_impl_sso_authentication_handler_properties_dict = com_adobe_granite_auth_sso_impl_sso_authentication_handler_properties_instance.to_dict()
+# create an instance of ComAdobeGraniteAuthSsoImplSsoAuthenticationHandlerProperties from a dict
+com_adobe_granite_auth_sso_impl_sso_authentication_handler_properties_from_dict = ComAdobeGraniteAuthSsoImplSsoAuthenticationHandlerProperties.from_dict(com_adobe_granite_auth_sso_impl_sso_authentication_handler_properties_dict)
+```
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 
 

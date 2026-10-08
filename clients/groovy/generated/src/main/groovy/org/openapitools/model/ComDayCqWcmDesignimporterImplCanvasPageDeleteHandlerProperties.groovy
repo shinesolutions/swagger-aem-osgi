@@ -7,8 +7,8 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class ComDayCqWcmDesignimporterImplCanvasPageDeleteHandlerProperties {
-    ConfigNodePropertyInteger minThreadPoolSize = null
-
-    ConfigNodePropertyInteger maxThreadPoolSize = null
-
+    
+    ConfigNodePropertyInteger minThreadPoolSize
+    
+    ConfigNodePropertyInteger maxThreadPoolSize
 }

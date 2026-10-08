@@ -1,7 +1,9 @@
 
+
 # OrgApacheJackrabbitOakSegmentSegmentNodeStoreServiceProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **repositoryHome** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
@@ -28,6 +30,7 @@ Name | Type | Description | Notes
 **repositoryBackupDir** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
 **blobGcMaxAgeInSecs** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
 **blobTrackSnapshotIntervalInSecs** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
+
 
 
 

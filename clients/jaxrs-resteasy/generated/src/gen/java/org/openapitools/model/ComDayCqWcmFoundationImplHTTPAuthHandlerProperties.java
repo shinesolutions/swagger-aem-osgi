@@ -4,28 +4,32 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2019-08-05T00:59:30.156Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2026-10-07T12:54:21.614735164Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqWcmFoundationImplHTTPAuthHandlerProperties   {
   
-  private ConfigNodePropertyString path = null;
-  private ConfigNodePropertyBoolean authHttpNologin = null;
-  private ConfigNodePropertyString authHttpRealm = null;
-  private ConfigNodePropertyString authDefaultLoginpage = null;
-  private ConfigNodePropertyArray authCredForm = null;
-  private ConfigNodePropertyArray authCredUtf8 = null;
+  private ConfigNodePropertyString path;
+  private ConfigNodePropertyBoolean authHttpNologin;
+  private ConfigNodePropertyString authHttpRealm;
+  private ConfigNodePropertyString authDefaultLoginpage;
+  private ConfigNodePropertyArray authCredForm;
+  private ConfigNodePropertyArray authCredUtf8;
 
   /**
    **/
   
   @ApiModelProperty(value = "")
   @JsonProperty("path")
+  @Valid
   public ConfigNodePropertyString getPath() {
     return path;
   }
@@ -38,6 +42,7 @@ public class ComDayCqWcmFoundationImplHTTPAuthHandlerProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("auth.http.nologin")
+  @Valid
   public ConfigNodePropertyBoolean getAuthHttpNologin() {
     return authHttpNologin;
   }
@@ -50,6 +55,7 @@ public class ComDayCqWcmFoundationImplHTTPAuthHandlerProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("auth.http.realm")
+  @Valid
   public ConfigNodePropertyString getAuthHttpRealm() {
     return authHttpRealm;
   }
@@ -62,6 +68,7 @@ public class ComDayCqWcmFoundationImplHTTPAuthHandlerProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("auth.default.loginpage")
+  @Valid
   public ConfigNodePropertyString getAuthDefaultLoginpage() {
     return authDefaultLoginpage;
   }
@@ -74,6 +81,7 @@ public class ComDayCqWcmFoundationImplHTTPAuthHandlerProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("auth.cred.form")
+  @Valid
   public ConfigNodePropertyArray getAuthCredForm() {
     return authCredForm;
   }
@@ -86,6 +94,7 @@ public class ComDayCqWcmFoundationImplHTTPAuthHandlerProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("auth.cred.utf8")
+  @Valid
   public ConfigNodePropertyArray getAuthCredUtf8() {
     return authCredUtf8;
   }
@@ -95,7 +104,7 @@ public class ComDayCqWcmFoundationImplHTTPAuthHandlerProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -103,12 +112,12 @@ public class ComDayCqWcmFoundationImplHTTPAuthHandlerProperties   {
       return false;
     }
     ComDayCqWcmFoundationImplHTTPAuthHandlerProperties comDayCqWcmFoundationImplHTTPAuthHandlerProperties = (ComDayCqWcmFoundationImplHTTPAuthHandlerProperties) o;
-    return Objects.equals(path, comDayCqWcmFoundationImplHTTPAuthHandlerProperties.path) &&
-        Objects.equals(authHttpNologin, comDayCqWcmFoundationImplHTTPAuthHandlerProperties.authHttpNologin) &&
-        Objects.equals(authHttpRealm, comDayCqWcmFoundationImplHTTPAuthHandlerProperties.authHttpRealm) &&
-        Objects.equals(authDefaultLoginpage, comDayCqWcmFoundationImplHTTPAuthHandlerProperties.authDefaultLoginpage) &&
-        Objects.equals(authCredForm, comDayCqWcmFoundationImplHTTPAuthHandlerProperties.authCredForm) &&
-        Objects.equals(authCredUtf8, comDayCqWcmFoundationImplHTTPAuthHandlerProperties.authCredUtf8);
+    return Objects.equals(this.path, comDayCqWcmFoundationImplHTTPAuthHandlerProperties.path) &&
+        Objects.equals(this.authHttpNologin, comDayCqWcmFoundationImplHTTPAuthHandlerProperties.authHttpNologin) &&
+        Objects.equals(this.authHttpRealm, comDayCqWcmFoundationImplHTTPAuthHandlerProperties.authHttpRealm) &&
+        Objects.equals(this.authDefaultLoginpage, comDayCqWcmFoundationImplHTTPAuthHandlerProperties.authDefaultLoginpage) &&
+        Objects.equals(this.authCredForm, comDayCqWcmFoundationImplHTTPAuthHandlerProperties.authCredForm) &&
+        Objects.equals(this.authCredUtf8, comDayCqWcmFoundationImplHTTPAuthHandlerProperties.authCredUtf8);
   }
 
   @Override
@@ -135,11 +144,8 @@ public class ComDayCqWcmFoundationImplHTTPAuthHandlerProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

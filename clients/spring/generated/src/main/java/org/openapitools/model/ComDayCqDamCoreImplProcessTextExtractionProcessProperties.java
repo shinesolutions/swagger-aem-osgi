@@ -1,28 +1,39 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyInteger;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComDayCqDamCoreImplProcessTextExtractionProcessProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComDayCqDamCoreImplProcessTextExtractionProcessProperties   {
-  @JsonProperty("mimeTypes")
-  private ConfigNodePropertyArray mimeTypes = null;
+@JsonTypeName("comDayCqDamCoreImplProcessTextExtractionProcessProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComDayCqDamCoreImplProcessTextExtractionProcessProperties {
 
-  @JsonProperty("maxExtract")
-  private ConfigNodePropertyInteger maxExtract = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray mimeTypes;
 
-  public ComDayCqDamCoreImplProcessTextExtractionProcessProperties mimeTypes(ConfigNodePropertyArray mimeTypes) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger maxExtract;
+
+  public ComDayCqDamCoreImplProcessTextExtractionProcessProperties mimeTypes(@Nullable ConfigNodePropertyArray mimeTypes) {
     this.mimeTypes = mimeTypes;
     return this;
   }
@@ -30,20 +41,20 @@ public class ComDayCqDamCoreImplProcessTextExtractionProcessProperties   {
   /**
    * Get mimeTypes
    * @return mimeTypes
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getMimeTypes() {
+   */
+  @Valid 
+  @Schema(name = "mimeTypes", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("mimeTypes")
+  public @Nullable ConfigNodePropertyArray getMimeTypes() {
     return mimeTypes;
   }
 
-  public void setMimeTypes(ConfigNodePropertyArray mimeTypes) {
+  @JsonProperty("mimeTypes")
+  public void setMimeTypes(@Nullable ConfigNodePropertyArray mimeTypes) {
     this.mimeTypes = mimeTypes;
   }
 
-  public ComDayCqDamCoreImplProcessTextExtractionProcessProperties maxExtract(ConfigNodePropertyInteger maxExtract) {
+  public ComDayCqDamCoreImplProcessTextExtractionProcessProperties maxExtract(@Nullable ConfigNodePropertyInteger maxExtract) {
     this.maxExtract = maxExtract;
     return this;
   }
@@ -51,22 +62,21 @@ public class ComDayCqDamCoreImplProcessTextExtractionProcessProperties   {
   /**
    * Get maxExtract
    * @return maxExtract
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getMaxExtract() {
+   */
+  @Valid 
+  @Schema(name = "maxExtract", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("maxExtract")
+  public @Nullable ConfigNodePropertyInteger getMaxExtract() {
     return maxExtract;
   }
 
-  public void setMaxExtract(ConfigNodePropertyInteger maxExtract) {
+  @JsonProperty("maxExtract")
+  public void setMaxExtract(@Nullable ConfigNodePropertyInteger maxExtract) {
     this.maxExtract = maxExtract;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -87,7 +97,6 @@ public class ComDayCqDamCoreImplProcessTextExtractionProcessProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComDayCqDamCoreImplProcessTextExtractionProcessProperties {\n");
-    
     sb.append("    mimeTypes: ").append(toIndentedString(mimeTypes)).append("\n");
     sb.append("    maxExtract: ").append(toIndentedString(maxExtract)).append("\n");
     sb.append("}");
@@ -98,11 +107,8 @@ public class ComDayCqDamCoreImplProcessTextExtractionProcessProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -4,25 +4,22 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyDropDown;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2019-08-05T01:00:05.540Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyEapServerCodegen", date = "2026-10-07T12:54:26.576036107Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqWcmMsmImplActionsContentCopyActionFactoryProperties   {
   
-
-  private ConfigNodePropertyArray cqWcmMsmActionExcludednodetypes = null;
-
-  private ConfigNodePropertyArray cqWcmMsmActionExcludedparagraphitems = null;
-
-  private ConfigNodePropertyArray cqWcmMsmActionExcludedprops = null;
-
-  private ConfigNodePropertyDropDown contentcopyactionOrderStyle = null;
+  private ConfigNodePropertyArray cqWcmMsmActionExcludednodetypes;
+  private ConfigNodePropertyArray cqWcmMsmActionExcludedparagraphitems;
+  private ConfigNodePropertyArray cqWcmMsmActionExcludedprops;
+  private ConfigNodePropertyDropDown contentcopyactionOrderStyle;
 
   /**
    **/
@@ -82,10 +79,10 @@ public class ComDayCqWcmMsmImplActionsContentCopyActionFactoryProperties   {
       return false;
     }
     ComDayCqWcmMsmImplActionsContentCopyActionFactoryProperties comDayCqWcmMsmImplActionsContentCopyActionFactoryProperties = (ComDayCqWcmMsmImplActionsContentCopyActionFactoryProperties) o;
-    return Objects.equals(cqWcmMsmActionExcludednodetypes, comDayCqWcmMsmImplActionsContentCopyActionFactoryProperties.cqWcmMsmActionExcludednodetypes) &&
-        Objects.equals(cqWcmMsmActionExcludedparagraphitems, comDayCqWcmMsmImplActionsContentCopyActionFactoryProperties.cqWcmMsmActionExcludedparagraphitems) &&
-        Objects.equals(cqWcmMsmActionExcludedprops, comDayCqWcmMsmImplActionsContentCopyActionFactoryProperties.cqWcmMsmActionExcludedprops) &&
-        Objects.equals(contentcopyactionOrderStyle, comDayCqWcmMsmImplActionsContentCopyActionFactoryProperties.contentcopyactionOrderStyle);
+    return Objects.equals(this.cqWcmMsmActionExcludednodetypes, comDayCqWcmMsmImplActionsContentCopyActionFactoryProperties.cqWcmMsmActionExcludednodetypes) &&
+        Objects.equals(this.cqWcmMsmActionExcludedparagraphitems, comDayCqWcmMsmImplActionsContentCopyActionFactoryProperties.cqWcmMsmActionExcludedparagraphitems) &&
+        Objects.equals(this.cqWcmMsmActionExcludedprops, comDayCqWcmMsmImplActionsContentCopyActionFactoryProperties.cqWcmMsmActionExcludedprops) &&
+        Objects.equals(this.contentcopyactionOrderStyle, comDayCqWcmMsmImplActionsContentCopyActionFactoryProperties.contentcopyactionOrderStyle);
   }
 
   @Override
@@ -111,10 +108,7 @@ public class ComDayCqWcmMsmImplActionsContentCopyActionFactoryProperties   {
    * (except the first line).
    */
   private String toIndentedString(Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

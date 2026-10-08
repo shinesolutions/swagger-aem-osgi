@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyBoolean;
 
 @Canonical
 class ComDayCqAnalyticsTestandtargetImplAccountOptionsUpdaterProperties {
-    ConfigNodePropertyBoolean cqAnalyticsTestandtargetAccountoptionsupdaterEnabled = null
-
+    
+    ConfigNodePropertyBoolean cqAnalyticsTestandtargetAccountoptionsupdaterEnabled
 }

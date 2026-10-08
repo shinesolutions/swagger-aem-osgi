@@ -5,32 +5,43 @@ import apimodels.ConfigNodePropertyBoolean;
 import apimodels.ConfigNodePropertyDropDown;
 import apimodels.ConfigNodePropertyInteger;
 import apimodels.ConfigNodePropertyString;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * ComDayCqDamCoreImplDamEventRecorderImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class ComDayCqDamCoreImplDamEventRecorderImplProperties   {
   @JsonProperty("event.filter")
-  private ConfigNodePropertyString eventFilter = null;
+  @Valid
+
+  private ConfigNodePropertyString eventFilter;
 
   @JsonProperty("event.queue.length")
-  private ConfigNodePropertyInteger eventQueueLength = null;
+  @Valid
+
+  private ConfigNodePropertyInteger eventQueueLength;
 
   @JsonProperty("eventrecorder.enabled")
-  private ConfigNodePropertyBoolean eventrecorderEnabled = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean eventrecorderEnabled;
 
   @JsonProperty("eventrecorder.blacklist")
-  private ConfigNodePropertyArray eventrecorderBlacklist = null;
+  @Valid
+
+  private ConfigNodePropertyArray eventrecorderBlacklist;
 
   @JsonProperty("eventrecorder.eventtypes")
-  private ConfigNodePropertyDropDown eventrecorderEventtypes = null;
+  @Valid
+
+  private ConfigNodePropertyDropDown eventrecorderEventtypes;
 
   public ComDayCqDamCoreImplDamEventRecorderImplProperties eventFilter(ConfigNodePropertyString eventFilter) {
     this.eventFilter = eventFilter;
@@ -41,7 +52,6 @@ public class ComDayCqDamCoreImplDamEventRecorderImplProperties   {
    * Get eventFilter
    * @return eventFilter
   **/
-  @Valid
   public ConfigNodePropertyString getEventFilter() {
     return eventFilter;
   }
@@ -59,7 +69,6 @@ public class ComDayCqDamCoreImplDamEventRecorderImplProperties   {
    * Get eventQueueLength
    * @return eventQueueLength
   **/
-  @Valid
   public ConfigNodePropertyInteger getEventQueueLength() {
     return eventQueueLength;
   }
@@ -77,7 +86,6 @@ public class ComDayCqDamCoreImplDamEventRecorderImplProperties   {
    * Get eventrecorderEnabled
    * @return eventrecorderEnabled
   **/
-  @Valid
   public ConfigNodePropertyBoolean getEventrecorderEnabled() {
     return eventrecorderEnabled;
   }
@@ -95,7 +103,6 @@ public class ComDayCqDamCoreImplDamEventRecorderImplProperties   {
    * Get eventrecorderBlacklist
    * @return eventrecorderBlacklist
   **/
-  @Valid
   public ConfigNodePropertyArray getEventrecorderBlacklist() {
     return eventrecorderBlacklist;
   }
@@ -113,7 +120,6 @@ public class ComDayCqDamCoreImplDamEventRecorderImplProperties   {
    * Get eventrecorderEventtypes
    * @return eventrecorderEventtypes
   **/
-  @Valid
   public ConfigNodePropertyDropDown getEventrecorderEventtypes() {
     return eventrecorderEventtypes;
   }
@@ -124,7 +130,7 @@ public class ComDayCqDamCoreImplDamEventRecorderImplProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -163,11 +169,8 @@ public class ComDayCqDamCoreImplDamEventRecorderImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

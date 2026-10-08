@@ -72,8 +72,8 @@ private class OASComDayCqMcmLandingpageParserTaghaTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqMcmLandingpageParserTagha comDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHProperties = new OASComDayCqMcmLandingpageParserTagha();
-        Map<String, String> propertyMappings = comDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHProperties.getPropertyMappings();
-        System.assertEquals('serviceRanking', propertyMappings.get('service.ranking'));
-        System.assertEquals('componentResourceType', propertyMappings.get('component.resourceType'));
+        Map<String, String> x-property-mappings = comDayCqMcmLandingpageParserTaghandlersMboxTargetComponentTagHProperties.getx-property-mappings();
+        System.assertEquals('serviceRanking', x-property-mappings.get('service.ranking'));
+        System.assertEquals('componentResourceType', x-property-mappings.get('component.resourceType'));
     }
 }

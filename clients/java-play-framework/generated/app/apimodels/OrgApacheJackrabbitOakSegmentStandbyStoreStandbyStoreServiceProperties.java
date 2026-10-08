@@ -5,44 +5,63 @@ import apimodels.ConfigNodePropertyBoolean;
 import apimodels.ConfigNodePropertyDropDown;
 import apimodels.ConfigNodePropertyInteger;
 import apimodels.ConfigNodePropertyString;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * OrgApacheJackrabbitOakSegmentStandbyStoreStandbyStoreServiceProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class OrgApacheJackrabbitOakSegmentStandbyStoreStandbyStoreServiceProperties   {
   @JsonProperty("org.apache.sling.installer.configuration.persist")
-  private ConfigNodePropertyBoolean orgApacheSlingInstallerConfigurationPersist = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean orgApacheSlingInstallerConfigurationPersist;
 
   @JsonProperty("mode")
-  private ConfigNodePropertyDropDown mode = null;
+  @Valid
+
+  private ConfigNodePropertyDropDown mode;
 
   @JsonProperty("port")
-  private ConfigNodePropertyInteger port = null;
+  @Valid
+
+  private ConfigNodePropertyInteger port;
 
   @JsonProperty("primary.host")
-  private ConfigNodePropertyString primaryHost = null;
+  @Valid
+
+  private ConfigNodePropertyString primaryHost;
 
   @JsonProperty("interval")
-  private ConfigNodePropertyInteger interval = null;
+  @Valid
+
+  private ConfigNodePropertyInteger interval;
 
   @JsonProperty("primary.allowed-client-ip-ranges")
-  private ConfigNodePropertyArray primaryAllowedClientIpRanges = null;
+  @Valid
+
+  private ConfigNodePropertyArray primaryAllowedClientIpRanges;
 
   @JsonProperty("secure")
-  private ConfigNodePropertyBoolean secure = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean secure;
 
   @JsonProperty("standby.readtimeout")
-  private ConfigNodePropertyInteger standbyReadtimeout = null;
+  @Valid
+
+  private ConfigNodePropertyInteger standbyReadtimeout;
 
   @JsonProperty("standby.autoclean")
-  private ConfigNodePropertyBoolean standbyAutoclean = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean standbyAutoclean;
 
   public OrgApacheJackrabbitOakSegmentStandbyStoreStandbyStoreServiceProperties orgApacheSlingInstallerConfigurationPersist(ConfigNodePropertyBoolean orgApacheSlingInstallerConfigurationPersist) {
     this.orgApacheSlingInstallerConfigurationPersist = orgApacheSlingInstallerConfigurationPersist;
@@ -53,7 +72,6 @@ public class OrgApacheJackrabbitOakSegmentStandbyStoreStandbyStoreServicePropert
    * Get orgApacheSlingInstallerConfigurationPersist
    * @return orgApacheSlingInstallerConfigurationPersist
   **/
-  @Valid
   public ConfigNodePropertyBoolean getOrgApacheSlingInstallerConfigurationPersist() {
     return orgApacheSlingInstallerConfigurationPersist;
   }
@@ -71,7 +89,6 @@ public class OrgApacheJackrabbitOakSegmentStandbyStoreStandbyStoreServicePropert
    * Get mode
    * @return mode
   **/
-  @Valid
   public ConfigNodePropertyDropDown getMode() {
     return mode;
   }
@@ -89,7 +106,6 @@ public class OrgApacheJackrabbitOakSegmentStandbyStoreStandbyStoreServicePropert
    * Get port
    * @return port
   **/
-  @Valid
   public ConfigNodePropertyInteger getPort() {
     return port;
   }
@@ -107,7 +123,6 @@ public class OrgApacheJackrabbitOakSegmentStandbyStoreStandbyStoreServicePropert
    * Get primaryHost
    * @return primaryHost
   **/
-  @Valid
   public ConfigNodePropertyString getPrimaryHost() {
     return primaryHost;
   }
@@ -125,7 +140,6 @@ public class OrgApacheJackrabbitOakSegmentStandbyStoreStandbyStoreServicePropert
    * Get interval
    * @return interval
   **/
-  @Valid
   public ConfigNodePropertyInteger getInterval() {
     return interval;
   }
@@ -143,7 +157,6 @@ public class OrgApacheJackrabbitOakSegmentStandbyStoreStandbyStoreServicePropert
    * Get primaryAllowedClientIpRanges
    * @return primaryAllowedClientIpRanges
   **/
-  @Valid
   public ConfigNodePropertyArray getPrimaryAllowedClientIpRanges() {
     return primaryAllowedClientIpRanges;
   }
@@ -161,7 +174,6 @@ public class OrgApacheJackrabbitOakSegmentStandbyStoreStandbyStoreServicePropert
    * Get secure
    * @return secure
   **/
-  @Valid
   public ConfigNodePropertyBoolean getSecure() {
     return secure;
   }
@@ -179,7 +191,6 @@ public class OrgApacheJackrabbitOakSegmentStandbyStoreStandbyStoreServicePropert
    * Get standbyReadtimeout
    * @return standbyReadtimeout
   **/
-  @Valid
   public ConfigNodePropertyInteger getStandbyReadtimeout() {
     return standbyReadtimeout;
   }
@@ -197,7 +208,6 @@ public class OrgApacheJackrabbitOakSegmentStandbyStoreStandbyStoreServicePropert
    * Get standbyAutoclean
    * @return standbyAutoclean
   **/
-  @Valid
   public ConfigNodePropertyBoolean getStandbyAutoclean() {
     return standbyAutoclean;
   }
@@ -208,7 +218,7 @@ public class OrgApacheJackrabbitOakSegmentStandbyStoreStandbyStoreServicePropert
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -255,11 +265,8 @@ public class OrgApacheJackrabbitOakSegmentStandbyStoreStandbyStoreServicePropert
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

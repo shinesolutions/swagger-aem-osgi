@@ -1,7 +1,9 @@
 
+
 # ComAdobeGraniteAuthOauthAccesstokenProviderProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **name** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
@@ -18,6 +20,7 @@ Name | Type | Description | Notes
 **authTokenProviderRelaxedSsl** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
 **tokenRequestCustomizerType** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
 **authTokenValidatorType** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
+
 
 
 

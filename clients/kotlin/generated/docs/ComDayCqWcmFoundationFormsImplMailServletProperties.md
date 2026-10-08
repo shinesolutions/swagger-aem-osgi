@@ -2,12 +2,12 @@
 # ComDayCqWcmFoundationFormsImplMailServletProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**slingPeriodservletPeriodresourceTypes** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**slingPeriodservletPeriodselectors** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**resourcePeriodwhitelist** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
-**resourcePeriodblacklist** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **slingServletResourceTypes** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **slingServletSelectors** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **resourceWhitelist** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional] |
+| **resourceBlacklist** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
 
 
 

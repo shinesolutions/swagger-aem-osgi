@@ -7,12 +7,12 @@ import org.openapitools.model.OrgApacheFelixSystemreadyImplComponentsCheckProper
 
 @Canonical
 class OrgApacheFelixSystemreadyImplComponentsCheckInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheFelixSystemreadyImplComponentsCheckProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheFelixSystemreadyImplComponentsCheckProperties properties
 }

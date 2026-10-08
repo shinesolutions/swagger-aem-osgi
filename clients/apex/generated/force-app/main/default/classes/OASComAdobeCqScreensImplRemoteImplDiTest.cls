@@ -72,7 +72,7 @@ private class OASComAdobeCqScreensImplRemoteImplDiTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeCqScreensImplRemoteImplDi comAdobeCqScreensImplRemoteImplDistributedHttpClientImplProperties = new OASComAdobeCqScreensImplRemoteImplDi();
-        Map<String, String> propertyMappings = comAdobeCqScreensImplRemoteImplDistributedHttpClientImplProperties.getPropertyMappings();
-        System.assertEquals('comAdobeAemScreensImplRemoteRequestTimeout', propertyMappings.get('com.adobe.aem.screens.impl.remote.request_timeout'));
+        Map<String, String> x-property-mappings = comAdobeCqScreensImplRemoteImplDistributedHttpClientImplProperties.getx-property-mappings();
+        System.assertEquals('comAdobeAemScreensImplRemoteRequestTimeout', x-property-mappings.get('com.adobe.aem.screens.impl.remote.request_timeout'));
     }
 }

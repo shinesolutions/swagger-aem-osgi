@@ -1,6 +1,8 @@
 # OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServProperties
 
+
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **disabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] 
@@ -20,6 +22,23 @@ Name | Type | Description | Notes
 **prop_index_cleaner_interval_in_secs** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  | [optional] 
 **enable_single_blob_index_files** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] 
 
+## Example
+
+```python
+from swaggeraemosgi.models.org_apache_jackrabbit_oak_plugins_index_lucene_lucene_index_provider_serv_properties import OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServProperties
+
+# TODO update the JSON string below
+json = "{}"
+# create an instance of OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServProperties from a JSON string
+org_apache_jackrabbit_oak_plugins_index_lucene_lucene_index_provider_serv_properties_instance = OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServProperties.from_json(json)
+# print the JSON string representation of the object
+print(OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServProperties.to_json())
+
+# convert the object into a dict
+org_apache_jackrabbit_oak_plugins_index_lucene_lucene_index_provider_serv_properties_dict = org_apache_jackrabbit_oak_plugins_index_lucene_lucene_index_provider_serv_properties_instance.to_dict()
+# create an instance of OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServProperties from a dict
+org_apache_jackrabbit_oak_plugins_index_lucene_lucene_index_provider_serv_properties_from_dict = OrgApacheJackrabbitOakPluginsIndexLuceneLuceneIndexProviderServProperties.from_dict(org_apache_jackrabbit_oak_plugins_index_lucene_lucene_index_provider_serv_properties_dict)
+```
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 
 

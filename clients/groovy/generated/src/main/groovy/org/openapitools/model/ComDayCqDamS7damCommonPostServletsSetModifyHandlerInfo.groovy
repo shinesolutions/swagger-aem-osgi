@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqDamS7damCommonPostServletsSetModifyHandler
 
 @Canonical
 class ComDayCqDamS7damCommonPostServletsSetModifyHandlerInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqDamS7damCommonPostServletsSetModifyHandlerProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqDamS7damCommonPostServletsSetModifyHandlerProperties properties
 }

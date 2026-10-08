@@ -1,5 +1,8 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
@@ -7,35 +10,43 @@ import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("orgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties   {
-  
-  private @Valid ConfigNodePropertyArray resourceResolverSearchpath = null;
-  private @Valid ConfigNodePropertyBoolean resourceResolverManglenamespaces = null;
-  private @Valid ConfigNodePropertyBoolean resourceResolverAllowDirect = null;
-  private @Valid ConfigNodePropertyArray resourceResolverRequiredProviders = null;
-  private @Valid ConfigNodePropertyArray resourceResolverRequiredProvidernames = null;
-  private @Valid ConfigNodePropertyArray resourceResolverVirtual = null;
-  private @Valid ConfigNodePropertyArray resourceResolverMapping = null;
-  private @Valid ConfigNodePropertyString resourceResolverMapLocation = null;
-  private @Valid ConfigNodePropertyArray resourceResolverMapObservation = null;
-  private @Valid ConfigNodePropertyInteger resourceResolverDefaultVanityRedirectStatus = null;
-  private @Valid ConfigNodePropertyBoolean resourceResolverEnableVanitypath = null;
-  private @Valid ConfigNodePropertyInteger resourceResolverVanitypathMaxEntries = null;
-  private @Valid ConfigNodePropertyBoolean resourceResolverVanitypathMaxEntriesStartup = null;
-  private @Valid ConfigNodePropertyInteger resourceResolverVanitypathBloomfilterMaxBytes = null;
-  private @Valid ConfigNodePropertyBoolean resourceResolverOptimizeAliasResolution = null;
-  private @Valid ConfigNodePropertyArray resourceResolverVanitypathWhitelist = null;
-  private @Valid ConfigNodePropertyArray resourceResolverVanitypathBlacklist = null;
-  private @Valid ConfigNodePropertyBoolean resourceResolverVanityPrecedence = null;
-  private @Valid ConfigNodePropertyBoolean resourceResolverProviderhandlingParanoid = null;
-  private @Valid ConfigNodePropertyBoolean resourceResolverLogClosing = null;
-  private @Valid ConfigNodePropertyBoolean resourceResolverLogUnclosed = null;
+  private ConfigNodePropertyArray resourceResolverSearchpath;
+  private ConfigNodePropertyBoolean resourceResolverManglenamespaces;
+  private ConfigNodePropertyBoolean resourceResolverAllowDirect;
+  private ConfigNodePropertyArray resourceResolverRequiredProviders;
+  private ConfigNodePropertyArray resourceResolverRequiredProvidernames;
+  private ConfigNodePropertyArray resourceResolverVirtual;
+  private ConfigNodePropertyArray resourceResolverMapping;
+  private ConfigNodePropertyString resourceResolverMapLocation;
+  private ConfigNodePropertyArray resourceResolverMapObservation;
+  private ConfigNodePropertyInteger resourceResolverDefaultVanityRedirectStatus;
+  private ConfigNodePropertyBoolean resourceResolverEnableVanitypath;
+  private ConfigNodePropertyInteger resourceResolverVanitypathMaxEntries;
+  private ConfigNodePropertyBoolean resourceResolverVanitypathMaxEntriesStartup;
+  private ConfigNodePropertyInteger resourceResolverVanitypathBloomfilterMaxBytes;
+  private ConfigNodePropertyBoolean resourceResolverOptimizeAliasResolution;
+  private ConfigNodePropertyArray resourceResolverVanitypathWhitelist;
+  private ConfigNodePropertyArray resourceResolverVanitypathBlacklist;
+  private ConfigNodePropertyBoolean resourceResolverVanityPrecedence;
+  private ConfigNodePropertyBoolean resourceResolverProviderhandlingParanoid;
+  private ConfigNodePropertyBoolean resourceResolverLogClosing;
+  private ConfigNodePropertyBoolean resourceResolverLogUnclosed;
+
+  public OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties() {
+  }
 
   /**
    **/
@@ -47,9 +58,11 @@ public class OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("resource.resolver.searchpath")
-  public ConfigNodePropertyArray getResourceResolverSearchpath() {
+  @Valid public ConfigNodePropertyArray getResourceResolverSearchpath() {
     return resourceResolverSearchpath;
   }
+
+  @JsonProperty("resource.resolver.searchpath")
   public void setResourceResolverSearchpath(ConfigNodePropertyArray resourceResolverSearchpath) {
     this.resourceResolverSearchpath = resourceResolverSearchpath;
   }
@@ -64,9 +77,11 @@ public class OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("resource.resolver.manglenamespaces")
-  public ConfigNodePropertyBoolean getResourceResolverManglenamespaces() {
+  @Valid public ConfigNodePropertyBoolean getResourceResolverManglenamespaces() {
     return resourceResolverManglenamespaces;
   }
+
+  @JsonProperty("resource.resolver.manglenamespaces")
   public void setResourceResolverManglenamespaces(ConfigNodePropertyBoolean resourceResolverManglenamespaces) {
     this.resourceResolverManglenamespaces = resourceResolverManglenamespaces;
   }
@@ -81,9 +96,11 @@ public class OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("resource.resolver.allowDirect")
-  public ConfigNodePropertyBoolean getResourceResolverAllowDirect() {
+  @Valid public ConfigNodePropertyBoolean getResourceResolverAllowDirect() {
     return resourceResolverAllowDirect;
   }
+
+  @JsonProperty("resource.resolver.allowDirect")
   public void setResourceResolverAllowDirect(ConfigNodePropertyBoolean resourceResolverAllowDirect) {
     this.resourceResolverAllowDirect = resourceResolverAllowDirect;
   }
@@ -98,9 +115,11 @@ public class OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("resource.resolver.required.providers")
-  public ConfigNodePropertyArray getResourceResolverRequiredProviders() {
+  @Valid public ConfigNodePropertyArray getResourceResolverRequiredProviders() {
     return resourceResolverRequiredProviders;
   }
+
+  @JsonProperty("resource.resolver.required.providers")
   public void setResourceResolverRequiredProviders(ConfigNodePropertyArray resourceResolverRequiredProviders) {
     this.resourceResolverRequiredProviders = resourceResolverRequiredProviders;
   }
@@ -115,9 +134,11 @@ public class OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("resource.resolver.required.providernames")
-  public ConfigNodePropertyArray getResourceResolverRequiredProvidernames() {
+  @Valid public ConfigNodePropertyArray getResourceResolverRequiredProvidernames() {
     return resourceResolverRequiredProvidernames;
   }
+
+  @JsonProperty("resource.resolver.required.providernames")
   public void setResourceResolverRequiredProvidernames(ConfigNodePropertyArray resourceResolverRequiredProvidernames) {
     this.resourceResolverRequiredProvidernames = resourceResolverRequiredProvidernames;
   }
@@ -132,9 +153,11 @@ public class OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("resource.resolver.virtual")
-  public ConfigNodePropertyArray getResourceResolverVirtual() {
+  @Valid public ConfigNodePropertyArray getResourceResolverVirtual() {
     return resourceResolverVirtual;
   }
+
+  @JsonProperty("resource.resolver.virtual")
   public void setResourceResolverVirtual(ConfigNodePropertyArray resourceResolverVirtual) {
     this.resourceResolverVirtual = resourceResolverVirtual;
   }
@@ -149,9 +172,11 @@ public class OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("resource.resolver.mapping")
-  public ConfigNodePropertyArray getResourceResolverMapping() {
+  @Valid public ConfigNodePropertyArray getResourceResolverMapping() {
     return resourceResolverMapping;
   }
+
+  @JsonProperty("resource.resolver.mapping")
   public void setResourceResolverMapping(ConfigNodePropertyArray resourceResolverMapping) {
     this.resourceResolverMapping = resourceResolverMapping;
   }
@@ -166,9 +191,11 @@ public class OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("resource.resolver.map.location")
-  public ConfigNodePropertyString getResourceResolverMapLocation() {
+  @Valid public ConfigNodePropertyString getResourceResolverMapLocation() {
     return resourceResolverMapLocation;
   }
+
+  @JsonProperty("resource.resolver.map.location")
   public void setResourceResolverMapLocation(ConfigNodePropertyString resourceResolverMapLocation) {
     this.resourceResolverMapLocation = resourceResolverMapLocation;
   }
@@ -183,9 +210,11 @@ public class OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("resource.resolver.map.observation")
-  public ConfigNodePropertyArray getResourceResolverMapObservation() {
+  @Valid public ConfigNodePropertyArray getResourceResolverMapObservation() {
     return resourceResolverMapObservation;
   }
+
+  @JsonProperty("resource.resolver.map.observation")
   public void setResourceResolverMapObservation(ConfigNodePropertyArray resourceResolverMapObservation) {
     this.resourceResolverMapObservation = resourceResolverMapObservation;
   }
@@ -200,9 +229,11 @@ public class OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("resource.resolver.default.vanity.redirect.status")
-  public ConfigNodePropertyInteger getResourceResolverDefaultVanityRedirectStatus() {
+  @Valid public ConfigNodePropertyInteger getResourceResolverDefaultVanityRedirectStatus() {
     return resourceResolverDefaultVanityRedirectStatus;
   }
+
+  @JsonProperty("resource.resolver.default.vanity.redirect.status")
   public void setResourceResolverDefaultVanityRedirectStatus(ConfigNodePropertyInteger resourceResolverDefaultVanityRedirectStatus) {
     this.resourceResolverDefaultVanityRedirectStatus = resourceResolverDefaultVanityRedirectStatus;
   }
@@ -217,9 +248,11 @@ public class OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("resource.resolver.enable.vanitypath")
-  public ConfigNodePropertyBoolean getResourceResolverEnableVanitypath() {
+  @Valid public ConfigNodePropertyBoolean getResourceResolverEnableVanitypath() {
     return resourceResolverEnableVanitypath;
   }
+
+  @JsonProperty("resource.resolver.enable.vanitypath")
   public void setResourceResolverEnableVanitypath(ConfigNodePropertyBoolean resourceResolverEnableVanitypath) {
     this.resourceResolverEnableVanitypath = resourceResolverEnableVanitypath;
   }
@@ -234,9 +267,11 @@ public class OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("resource.resolver.vanitypath.maxEntries")
-  public ConfigNodePropertyInteger getResourceResolverVanitypathMaxEntries() {
+  @Valid public ConfigNodePropertyInteger getResourceResolverVanitypathMaxEntries() {
     return resourceResolverVanitypathMaxEntries;
   }
+
+  @JsonProperty("resource.resolver.vanitypath.maxEntries")
   public void setResourceResolverVanitypathMaxEntries(ConfigNodePropertyInteger resourceResolverVanitypathMaxEntries) {
     this.resourceResolverVanitypathMaxEntries = resourceResolverVanitypathMaxEntries;
   }
@@ -251,9 +286,11 @@ public class OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("resource.resolver.vanitypath.maxEntries.startup")
-  public ConfigNodePropertyBoolean getResourceResolverVanitypathMaxEntriesStartup() {
+  @Valid public ConfigNodePropertyBoolean getResourceResolverVanitypathMaxEntriesStartup() {
     return resourceResolverVanitypathMaxEntriesStartup;
   }
+
+  @JsonProperty("resource.resolver.vanitypath.maxEntries.startup")
   public void setResourceResolverVanitypathMaxEntriesStartup(ConfigNodePropertyBoolean resourceResolverVanitypathMaxEntriesStartup) {
     this.resourceResolverVanitypathMaxEntriesStartup = resourceResolverVanitypathMaxEntriesStartup;
   }
@@ -268,9 +305,11 @@ public class OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("resource.resolver.vanitypath.bloomfilter.maxBytes")
-  public ConfigNodePropertyInteger getResourceResolverVanitypathBloomfilterMaxBytes() {
+  @Valid public ConfigNodePropertyInteger getResourceResolverVanitypathBloomfilterMaxBytes() {
     return resourceResolverVanitypathBloomfilterMaxBytes;
   }
+
+  @JsonProperty("resource.resolver.vanitypath.bloomfilter.maxBytes")
   public void setResourceResolverVanitypathBloomfilterMaxBytes(ConfigNodePropertyInteger resourceResolverVanitypathBloomfilterMaxBytes) {
     this.resourceResolverVanitypathBloomfilterMaxBytes = resourceResolverVanitypathBloomfilterMaxBytes;
   }
@@ -285,9 +324,11 @@ public class OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("resource.resolver.optimize.alias.resolution")
-  public ConfigNodePropertyBoolean getResourceResolverOptimizeAliasResolution() {
+  @Valid public ConfigNodePropertyBoolean getResourceResolverOptimizeAliasResolution() {
     return resourceResolverOptimizeAliasResolution;
   }
+
+  @JsonProperty("resource.resolver.optimize.alias.resolution")
   public void setResourceResolverOptimizeAliasResolution(ConfigNodePropertyBoolean resourceResolverOptimizeAliasResolution) {
     this.resourceResolverOptimizeAliasResolution = resourceResolverOptimizeAliasResolution;
   }
@@ -302,9 +343,11 @@ public class OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("resource.resolver.vanitypath.whitelist")
-  public ConfigNodePropertyArray getResourceResolverVanitypathWhitelist() {
+  @Valid public ConfigNodePropertyArray getResourceResolverVanitypathWhitelist() {
     return resourceResolverVanitypathWhitelist;
   }
+
+  @JsonProperty("resource.resolver.vanitypath.whitelist")
   public void setResourceResolverVanitypathWhitelist(ConfigNodePropertyArray resourceResolverVanitypathWhitelist) {
     this.resourceResolverVanitypathWhitelist = resourceResolverVanitypathWhitelist;
   }
@@ -319,9 +362,11 @@ public class OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("resource.resolver.vanitypath.blacklist")
-  public ConfigNodePropertyArray getResourceResolverVanitypathBlacklist() {
+  @Valid public ConfigNodePropertyArray getResourceResolverVanitypathBlacklist() {
     return resourceResolverVanitypathBlacklist;
   }
+
+  @JsonProperty("resource.resolver.vanitypath.blacklist")
   public void setResourceResolverVanitypathBlacklist(ConfigNodePropertyArray resourceResolverVanitypathBlacklist) {
     this.resourceResolverVanitypathBlacklist = resourceResolverVanitypathBlacklist;
   }
@@ -336,9 +381,11 @@ public class OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("resource.resolver.vanity.precedence")
-  public ConfigNodePropertyBoolean getResourceResolverVanityPrecedence() {
+  @Valid public ConfigNodePropertyBoolean getResourceResolverVanityPrecedence() {
     return resourceResolverVanityPrecedence;
   }
+
+  @JsonProperty("resource.resolver.vanity.precedence")
   public void setResourceResolverVanityPrecedence(ConfigNodePropertyBoolean resourceResolverVanityPrecedence) {
     this.resourceResolverVanityPrecedence = resourceResolverVanityPrecedence;
   }
@@ -353,9 +400,11 @@ public class OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("resource.resolver.providerhandling.paranoid")
-  public ConfigNodePropertyBoolean getResourceResolverProviderhandlingParanoid() {
+  @Valid public ConfigNodePropertyBoolean getResourceResolverProviderhandlingParanoid() {
     return resourceResolverProviderhandlingParanoid;
   }
+
+  @JsonProperty("resource.resolver.providerhandling.paranoid")
   public void setResourceResolverProviderhandlingParanoid(ConfigNodePropertyBoolean resourceResolverProviderhandlingParanoid) {
     this.resourceResolverProviderhandlingParanoid = resourceResolverProviderhandlingParanoid;
   }
@@ -370,9 +419,11 @@ public class OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("resource.resolver.log.closing")
-  public ConfigNodePropertyBoolean getResourceResolverLogClosing() {
+  @Valid public ConfigNodePropertyBoolean getResourceResolverLogClosing() {
     return resourceResolverLogClosing;
   }
+
+  @JsonProperty("resource.resolver.log.closing")
   public void setResourceResolverLogClosing(ConfigNodePropertyBoolean resourceResolverLogClosing) {
     this.resourceResolverLogClosing = resourceResolverLogClosing;
   }
@@ -387,16 +438,18 @@ public class OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("resource.resolver.log.unclosed")
-  public ConfigNodePropertyBoolean getResourceResolverLogUnclosed() {
+  @Valid public ConfigNodePropertyBoolean getResourceResolverLogUnclosed() {
     return resourceResolverLogUnclosed;
   }
+
+  @JsonProperty("resource.resolver.log.unclosed")
   public void setResourceResolverLogUnclosed(ConfigNodePropertyBoolean resourceResolverLogUnclosed) {
     this.resourceResolverLogUnclosed = resourceResolverLogUnclosed;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -404,27 +457,27 @@ public class OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProp
       return false;
     }
     OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties orgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties = (OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties) o;
-    return Objects.equals(resourceResolverSearchpath, orgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties.resourceResolverSearchpath) &&
-        Objects.equals(resourceResolverManglenamespaces, orgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties.resourceResolverManglenamespaces) &&
-        Objects.equals(resourceResolverAllowDirect, orgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties.resourceResolverAllowDirect) &&
-        Objects.equals(resourceResolverRequiredProviders, orgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties.resourceResolverRequiredProviders) &&
-        Objects.equals(resourceResolverRequiredProvidernames, orgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties.resourceResolverRequiredProvidernames) &&
-        Objects.equals(resourceResolverVirtual, orgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties.resourceResolverVirtual) &&
-        Objects.equals(resourceResolverMapping, orgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties.resourceResolverMapping) &&
-        Objects.equals(resourceResolverMapLocation, orgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties.resourceResolverMapLocation) &&
-        Objects.equals(resourceResolverMapObservation, orgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties.resourceResolverMapObservation) &&
-        Objects.equals(resourceResolverDefaultVanityRedirectStatus, orgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties.resourceResolverDefaultVanityRedirectStatus) &&
-        Objects.equals(resourceResolverEnableVanitypath, orgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties.resourceResolverEnableVanitypath) &&
-        Objects.equals(resourceResolverVanitypathMaxEntries, orgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties.resourceResolverVanitypathMaxEntries) &&
-        Objects.equals(resourceResolverVanitypathMaxEntriesStartup, orgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties.resourceResolverVanitypathMaxEntriesStartup) &&
-        Objects.equals(resourceResolverVanitypathBloomfilterMaxBytes, orgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties.resourceResolverVanitypathBloomfilterMaxBytes) &&
-        Objects.equals(resourceResolverOptimizeAliasResolution, orgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties.resourceResolverOptimizeAliasResolution) &&
-        Objects.equals(resourceResolverVanitypathWhitelist, orgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties.resourceResolverVanitypathWhitelist) &&
-        Objects.equals(resourceResolverVanitypathBlacklist, orgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties.resourceResolverVanitypathBlacklist) &&
-        Objects.equals(resourceResolverVanityPrecedence, orgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties.resourceResolverVanityPrecedence) &&
-        Objects.equals(resourceResolverProviderhandlingParanoid, orgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties.resourceResolverProviderhandlingParanoid) &&
-        Objects.equals(resourceResolverLogClosing, orgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties.resourceResolverLogClosing) &&
-        Objects.equals(resourceResolverLogUnclosed, orgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties.resourceResolverLogUnclosed);
+    return Objects.equals(this.resourceResolverSearchpath, orgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties.resourceResolverSearchpath) &&
+        Objects.equals(this.resourceResolverManglenamespaces, orgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties.resourceResolverManglenamespaces) &&
+        Objects.equals(this.resourceResolverAllowDirect, orgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties.resourceResolverAllowDirect) &&
+        Objects.equals(this.resourceResolverRequiredProviders, orgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties.resourceResolverRequiredProviders) &&
+        Objects.equals(this.resourceResolverRequiredProvidernames, orgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties.resourceResolverRequiredProvidernames) &&
+        Objects.equals(this.resourceResolverVirtual, orgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties.resourceResolverVirtual) &&
+        Objects.equals(this.resourceResolverMapping, orgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties.resourceResolverMapping) &&
+        Objects.equals(this.resourceResolverMapLocation, orgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties.resourceResolverMapLocation) &&
+        Objects.equals(this.resourceResolverMapObservation, orgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties.resourceResolverMapObservation) &&
+        Objects.equals(this.resourceResolverDefaultVanityRedirectStatus, orgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties.resourceResolverDefaultVanityRedirectStatus) &&
+        Objects.equals(this.resourceResolverEnableVanitypath, orgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties.resourceResolverEnableVanitypath) &&
+        Objects.equals(this.resourceResolverVanitypathMaxEntries, orgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties.resourceResolverVanitypathMaxEntries) &&
+        Objects.equals(this.resourceResolverVanitypathMaxEntriesStartup, orgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties.resourceResolverVanitypathMaxEntriesStartup) &&
+        Objects.equals(this.resourceResolverVanitypathBloomfilterMaxBytes, orgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties.resourceResolverVanitypathBloomfilterMaxBytes) &&
+        Objects.equals(this.resourceResolverOptimizeAliasResolution, orgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties.resourceResolverOptimizeAliasResolution) &&
+        Objects.equals(this.resourceResolverVanitypathWhitelist, orgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties.resourceResolverVanitypathWhitelist) &&
+        Objects.equals(this.resourceResolverVanitypathBlacklist, orgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties.resourceResolverVanitypathBlacklist) &&
+        Objects.equals(this.resourceResolverVanityPrecedence, orgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties.resourceResolverVanityPrecedence) &&
+        Objects.equals(this.resourceResolverProviderhandlingParanoid, orgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties.resourceResolverProviderhandlingParanoid) &&
+        Objects.equals(this.resourceResolverLogClosing, orgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties.resourceResolverLogClosing) &&
+        Objects.equals(this.resourceResolverLogUnclosed, orgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProperties.resourceResolverLogUnclosed);
   }
 
   @Override
@@ -466,11 +519,9 @@ public class OrgApacheSlingJcrResourceInternalJcrResourceResolverFactoryImplProp
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

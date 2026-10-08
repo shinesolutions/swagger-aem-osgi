@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyBoolean;
 import com.prokarma.pkmst.model.ConfigNodePropertyInteger;
 import io.swagger.annotations.ApiModel;
@@ -16,33 +17,32 @@ import io.swagger.annotations.ApiModelProperty;
  * ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskProperties   {
   @JsonProperty("purgeCompleted")
-  private ConfigNodePropertyBoolean purgeCompleted = null;
+  private ConfigNodePropertyBoolean purgeCompleted;
 
   @JsonProperty("completedAge")
-  private ConfigNodePropertyInteger completedAge = null;
+  private ConfigNodePropertyInteger completedAge;
 
   @JsonProperty("purgeActive")
-  private ConfigNodePropertyBoolean purgeActive = null;
+  private ConfigNodePropertyBoolean purgeActive;
 
   @JsonProperty("activeAge")
-  private ConfigNodePropertyInteger activeAge = null;
+  private ConfigNodePropertyInteger activeAge;
 
   @JsonProperty("saveThreshold")
-  private ConfigNodePropertyInteger saveThreshold = null;
+  private ConfigNodePropertyInteger saveThreshold;
 
   public ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskProperties purgeCompleted(ConfigNodePropertyBoolean purgeCompleted) {
     this.purgeCompleted = purgeCompleted;
     return this;
   }
 
-   /**
+  /**
    * Get purgeCompleted
    * @return purgeCompleted
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getPurgeCompleted() {
     return purgeCompleted;
@@ -57,10 +57,10 @@ public class ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskPrope
     return this;
   }
 
-   /**
+  /**
    * Get completedAge
    * @return completedAge
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getCompletedAge() {
     return completedAge;
@@ -75,10 +75,10 @@ public class ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskPrope
     return this;
   }
 
-   /**
+  /**
    * Get purgeActive
    * @return purgeActive
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyBoolean getPurgeActive() {
     return purgeActive;
@@ -93,10 +93,10 @@ public class ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskPrope
     return this;
   }
 
-   /**
+  /**
    * Get activeAge
    * @return activeAge
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getActiveAge() {
     return activeAge;
@@ -111,10 +111,10 @@ public class ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskPrope
     return this;
   }
 
-   /**
+  /**
    * Get saveThreshold
    * @return saveThreshold
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyInteger getSaveThreshold() {
     return saveThreshold;
@@ -126,7 +126,7 @@ public class ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskPrope
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -164,11 +164,8 @@ public class ComAdobeGraniteTaskmanagementImplPurgeTaskPurgeMaintenanceTaskPrope
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

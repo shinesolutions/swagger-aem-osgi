@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class OrgApacheSlingJcrWebdavImplHandlerDirListingExportHandlerServicProperties {
-    ConfigNodePropertyInteger serviceRanking = null
-
+    
+    ConfigNodePropertyInteger serviceRanking
 }

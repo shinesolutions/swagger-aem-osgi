@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeGraniteRequestsLoggingImplHcRequestsStatus
 
 @Canonical
 class ComAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckImInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckImProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteRequestsLoggingImplHcRequestsStatusHealthCheckImProperties properties
 }

@@ -1,6 +1,8 @@
 # ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties
 
+
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **com_adobe_cq_cdn_cdn_rewriter** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
@@ -160,6 +162,23 @@ Name | Type | Description | Notes
 **org_apache_sling_tracer** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
 **we_retail_client_app_core** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  | [optional] 
 
+## Example
+
+```python
+from swaggeraemosgi.models.com_adobe_granite_apicontroller_filter_resolver_hook_factory_properties import ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties
+
+# TODO update the JSON string below
+json = "{}"
+# create an instance of ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties from a JSON string
+com_adobe_granite_apicontroller_filter_resolver_hook_factory_properties_instance = ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.from_json(json)
+# print the JSON string representation of the object
+print(ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.to_json())
+
+# convert the object into a dict
+com_adobe_granite_apicontroller_filter_resolver_hook_factory_properties_dict = com_adobe_granite_apicontroller_filter_resolver_hook_factory_properties_instance.to_dict()
+# create an instance of ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties from a dict
+com_adobe_granite_apicontroller_filter_resolver_hook_factory_properties_from_dict = ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties.from_dict(com_adobe_granite_apicontroller_filter_resolver_hook_factory_properties_dict)
+```
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 
 

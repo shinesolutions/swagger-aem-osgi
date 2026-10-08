@@ -7,8 +7,8 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class ComDayCqWcmCoreImplServletsReferenceSearchServletProperties {
-    ConfigNodePropertyInteger referencesearchservletMaxReferencesPerPage = null
-
-    ConfigNodePropertyInteger referencesearchservletMaxPages = null
-
+    
+    ConfigNodePropertyInteger referencesearchservletMaxReferencesPerPage
+    
+    ConfigNodePropertyInteger referencesearchservletMaxPages
 }

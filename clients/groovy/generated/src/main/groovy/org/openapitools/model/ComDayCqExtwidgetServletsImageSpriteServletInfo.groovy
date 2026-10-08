@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqExtwidgetServletsImageSpriteServletPropert
 
 @Canonical
 class ComDayCqExtwidgetServletsImageSpriteServletInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqExtwidgetServletsImageSpriteServletProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqExtwidgetServletsImageSpriteServletProperties properties
 }

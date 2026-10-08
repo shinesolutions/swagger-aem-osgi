@@ -2,29 +2,30 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class ComAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties   {
   
-  private ConfigNodePropertyArray cqPagesupdatehandlerImageresourcetypes = null;
+  private ConfigNodePropertyArray cqPagesupdatehandlerImageresourcetypes;
 
-  private ConfigNodePropertyArray cqPagesupdatehandlerProductresourcetypes = null;
+  private ConfigNodePropertyArray cqPagesupdatehandlerProductresourcetypes;
 
-  private ConfigNodePropertyArray cqPagesupdatehandlerVideoresourcetypes = null;
+  private ConfigNodePropertyArray cqPagesupdatehandlerVideoresourcetypes;
 
-  private ConfigNodePropertyArray cqPagesupdatehandlerDynamicsequenceresourcetypes = null;
+  private ConfigNodePropertyArray cqPagesupdatehandlerDynamicsequenceresourcetypes;
 
-  private ConfigNodePropertyArray cqPagesupdatehandlerPreviewmodepaths = null;
-
+  private ConfigNodePropertyArray cqPagesupdatehandlerPreviewmodepaths;
 
   /**
    **/
@@ -118,7 +119,7 @@ public class ComAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -126,11 +127,11 @@ public class ComAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties   {
       return false;
     }
     ComAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties comAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties = (ComAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties) o;
-    return Objects.equals(cqPagesupdatehandlerImageresourcetypes, comAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties.cqPagesupdatehandlerImageresourcetypes) &&
-        Objects.equals(cqPagesupdatehandlerProductresourcetypes, comAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties.cqPagesupdatehandlerProductresourcetypes) &&
-        Objects.equals(cqPagesupdatehandlerVideoresourcetypes, comAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties.cqPagesupdatehandlerVideoresourcetypes) &&
-        Objects.equals(cqPagesupdatehandlerDynamicsequenceresourcetypes, comAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties.cqPagesupdatehandlerDynamicsequenceresourcetypes) &&
-        Objects.equals(cqPagesupdatehandlerPreviewmodepaths, comAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties.cqPagesupdatehandlerPreviewmodepaths);
+    return Objects.equals(this.cqPagesupdatehandlerImageresourcetypes, comAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties.cqPagesupdatehandlerImageresourcetypes) &&
+        Objects.equals(this.cqPagesupdatehandlerProductresourcetypes, comAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties.cqPagesupdatehandlerProductresourcetypes) &&
+        Objects.equals(this.cqPagesupdatehandlerVideoresourcetypes, comAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties.cqPagesupdatehandlerVideoresourcetypes) &&
+        Objects.equals(this.cqPagesupdatehandlerDynamicsequenceresourcetypes, comAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties.cqPagesupdatehandlerDynamicsequenceresourcetypes) &&
+        Objects.equals(this.cqPagesupdatehandlerPreviewmodepaths, comAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties.cqPagesupdatehandlerPreviewmodepaths);
   }
 
   @Override
@@ -156,11 +157,8 @@ public class ComAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

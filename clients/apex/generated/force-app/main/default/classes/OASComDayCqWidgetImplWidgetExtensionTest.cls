@@ -72,8 +72,8 @@ private class OASComDayCqWidgetImplWidgetExtensionTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqWidgetImplWidgetExtension comDayCqWidgetImplWidgetExtensionProviderImplProperties = new OASComDayCqWidgetImplWidgetExtension();
-        Map<String, String> propertyMappings = comDayCqWidgetImplWidgetExtensionProviderImplProperties.getPropertyMappings();
-        System.assertEquals('extendableWidgets', propertyMappings.get('extendable.widgets'));
-        System.assertEquals('widgetextensionproviderDebug', propertyMappings.get('widgetextensionprovider.debug'));
+        Map<String, String> x-property-mappings = comDayCqWidgetImplWidgetExtensionProviderImplProperties.getx-property-mappings();
+        System.assertEquals('extendableWidgets', x-property-mappings.get('extendable.widgets'));
+        System.assertEquals('widgetextensionproviderDebug', x-property-mappings.get('widgetextensionprovider.debug'));
     }
 }

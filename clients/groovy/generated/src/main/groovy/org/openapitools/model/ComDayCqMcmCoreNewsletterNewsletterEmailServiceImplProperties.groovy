@@ -7,10 +7,10 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqMcmCoreNewsletterNewsletterEmailServiceImplProperties {
-    ConfigNodePropertyString fromAddress = null
-
-    ConfigNodePropertyString senderHost = null
-
-    ConfigNodePropertyString maxBounceCount = null
-
+    
+    ConfigNodePropertyString fromAddress
+    
+    ConfigNodePropertyString senderHost
+    
+    ConfigNodePropertyString maxBounceCount
 }

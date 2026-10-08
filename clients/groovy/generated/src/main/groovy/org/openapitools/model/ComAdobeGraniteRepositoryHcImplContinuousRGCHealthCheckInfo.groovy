@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeGraniteRepositoryHcImplContinuousRGCHealth
 
 @Canonical
 class ComAdobeGraniteRepositoryHcImplContinuousRGCHealthCheckInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteRepositoryHcImplContinuousRGCHealthCheckProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteRepositoryHcImplContinuousRGCHealthCheckProperties properties
 }

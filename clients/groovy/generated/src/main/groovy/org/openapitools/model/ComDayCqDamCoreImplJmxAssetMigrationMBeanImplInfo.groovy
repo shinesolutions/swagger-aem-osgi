@@ -7,16 +7,16 @@ import org.openapitools.model.ComDayCqDamCoreImplJmxAssetMigrationMBeanImplPrope
 
 @Canonical
 class ComDayCqDamCoreImplJmxAssetMigrationMBeanImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqDamCoreImplJmxAssetMigrationMBeanImplProperties properties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqDamCoreImplJmxAssetMigrationMBeanImplProperties properties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

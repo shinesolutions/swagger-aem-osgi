@@ -1,41 +1,52 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComAdobeCqDamS7imagingImplIsImageServerComponentProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComAdobeCqDamS7imagingImplIsImageServerComponentProperties   {
-  @JsonProperty("TcpPort")
-  private ConfigNodePropertyString tcpPort = null;
+@JsonTypeName("comAdobeCqDamS7imagingImplIsImageServerComponentProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComAdobeCqDamS7imagingImplIsImageServerComponentProperties {
 
-  @JsonProperty("AllowRemoteAccess")
-  private ConfigNodePropertyBoolean allowRemoteAccess = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString tcpPort;
 
-  @JsonProperty("MaxRenderRgnPixels")
-  private ConfigNodePropertyString maxRenderRgnPixels = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean allowRemoteAccess;
 
-  @JsonProperty("MaxMessageSize")
-  private ConfigNodePropertyString maxMessageSize = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString maxRenderRgnPixels;
 
-  @JsonProperty("RandomAccessUrlTimeout")
-  private ConfigNodePropertyInteger randomAccessUrlTimeout = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString maxMessageSize;
 
-  @JsonProperty("WorkerThreads")
-  private ConfigNodePropertyInteger workerThreads = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger randomAccessUrlTimeout;
 
-  public ComAdobeCqDamS7imagingImplIsImageServerComponentProperties tcpPort(ConfigNodePropertyString tcpPort) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger workerThreads;
+
+  public ComAdobeCqDamS7imagingImplIsImageServerComponentProperties tcpPort(@Nullable ConfigNodePropertyString tcpPort) {
     this.tcpPort = tcpPort;
     return this;
   }
@@ -43,20 +54,20 @@ public class ComAdobeCqDamS7imagingImplIsImageServerComponentProperties   {
   /**
    * Get tcpPort
    * @return tcpPort
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getTcpPort() {
+   */
+  @Valid 
+  @Schema(name = "TcpPort", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("TcpPort")
+  public @Nullable ConfigNodePropertyString getTcpPort() {
     return tcpPort;
   }
 
-  public void setTcpPort(ConfigNodePropertyString tcpPort) {
+  @JsonProperty("TcpPort")
+  public void setTcpPort(@Nullable ConfigNodePropertyString tcpPort) {
     this.tcpPort = tcpPort;
   }
 
-  public ComAdobeCqDamS7imagingImplIsImageServerComponentProperties allowRemoteAccess(ConfigNodePropertyBoolean allowRemoteAccess) {
+  public ComAdobeCqDamS7imagingImplIsImageServerComponentProperties allowRemoteAccess(@Nullable ConfigNodePropertyBoolean allowRemoteAccess) {
     this.allowRemoteAccess = allowRemoteAccess;
     return this;
   }
@@ -64,20 +75,20 @@ public class ComAdobeCqDamS7imagingImplIsImageServerComponentProperties   {
   /**
    * Get allowRemoteAccess
    * @return allowRemoteAccess
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getAllowRemoteAccess() {
+   */
+  @Valid 
+  @Schema(name = "AllowRemoteAccess", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("AllowRemoteAccess")
+  public @Nullable ConfigNodePropertyBoolean getAllowRemoteAccess() {
     return allowRemoteAccess;
   }
 
-  public void setAllowRemoteAccess(ConfigNodePropertyBoolean allowRemoteAccess) {
+  @JsonProperty("AllowRemoteAccess")
+  public void setAllowRemoteAccess(@Nullable ConfigNodePropertyBoolean allowRemoteAccess) {
     this.allowRemoteAccess = allowRemoteAccess;
   }
 
-  public ComAdobeCqDamS7imagingImplIsImageServerComponentProperties maxRenderRgnPixels(ConfigNodePropertyString maxRenderRgnPixels) {
+  public ComAdobeCqDamS7imagingImplIsImageServerComponentProperties maxRenderRgnPixels(@Nullable ConfigNodePropertyString maxRenderRgnPixels) {
     this.maxRenderRgnPixels = maxRenderRgnPixels;
     return this;
   }
@@ -85,20 +96,20 @@ public class ComAdobeCqDamS7imagingImplIsImageServerComponentProperties   {
   /**
    * Get maxRenderRgnPixels
    * @return maxRenderRgnPixels
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getMaxRenderRgnPixels() {
+   */
+  @Valid 
+  @Schema(name = "MaxRenderRgnPixels", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("MaxRenderRgnPixels")
+  public @Nullable ConfigNodePropertyString getMaxRenderRgnPixels() {
     return maxRenderRgnPixels;
   }
 
-  public void setMaxRenderRgnPixels(ConfigNodePropertyString maxRenderRgnPixels) {
+  @JsonProperty("MaxRenderRgnPixels")
+  public void setMaxRenderRgnPixels(@Nullable ConfigNodePropertyString maxRenderRgnPixels) {
     this.maxRenderRgnPixels = maxRenderRgnPixels;
   }
 
-  public ComAdobeCqDamS7imagingImplIsImageServerComponentProperties maxMessageSize(ConfigNodePropertyString maxMessageSize) {
+  public ComAdobeCqDamS7imagingImplIsImageServerComponentProperties maxMessageSize(@Nullable ConfigNodePropertyString maxMessageSize) {
     this.maxMessageSize = maxMessageSize;
     return this;
   }
@@ -106,20 +117,20 @@ public class ComAdobeCqDamS7imagingImplIsImageServerComponentProperties   {
   /**
    * Get maxMessageSize
    * @return maxMessageSize
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getMaxMessageSize() {
+   */
+  @Valid 
+  @Schema(name = "MaxMessageSize", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("MaxMessageSize")
+  public @Nullable ConfigNodePropertyString getMaxMessageSize() {
     return maxMessageSize;
   }
 
-  public void setMaxMessageSize(ConfigNodePropertyString maxMessageSize) {
+  @JsonProperty("MaxMessageSize")
+  public void setMaxMessageSize(@Nullable ConfigNodePropertyString maxMessageSize) {
     this.maxMessageSize = maxMessageSize;
   }
 
-  public ComAdobeCqDamS7imagingImplIsImageServerComponentProperties randomAccessUrlTimeout(ConfigNodePropertyInteger randomAccessUrlTimeout) {
+  public ComAdobeCqDamS7imagingImplIsImageServerComponentProperties randomAccessUrlTimeout(@Nullable ConfigNodePropertyInteger randomAccessUrlTimeout) {
     this.randomAccessUrlTimeout = randomAccessUrlTimeout;
     return this;
   }
@@ -127,20 +138,20 @@ public class ComAdobeCqDamS7imagingImplIsImageServerComponentProperties   {
   /**
    * Get randomAccessUrlTimeout
    * @return randomAccessUrlTimeout
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getRandomAccessUrlTimeout() {
+   */
+  @Valid 
+  @Schema(name = "RandomAccessUrlTimeout", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("RandomAccessUrlTimeout")
+  public @Nullable ConfigNodePropertyInteger getRandomAccessUrlTimeout() {
     return randomAccessUrlTimeout;
   }
 
-  public void setRandomAccessUrlTimeout(ConfigNodePropertyInteger randomAccessUrlTimeout) {
+  @JsonProperty("RandomAccessUrlTimeout")
+  public void setRandomAccessUrlTimeout(@Nullable ConfigNodePropertyInteger randomAccessUrlTimeout) {
     this.randomAccessUrlTimeout = randomAccessUrlTimeout;
   }
 
-  public ComAdobeCqDamS7imagingImplIsImageServerComponentProperties workerThreads(ConfigNodePropertyInteger workerThreads) {
+  public ComAdobeCqDamS7imagingImplIsImageServerComponentProperties workerThreads(@Nullable ConfigNodePropertyInteger workerThreads) {
     this.workerThreads = workerThreads;
     return this;
   }
@@ -148,22 +159,21 @@ public class ComAdobeCqDamS7imagingImplIsImageServerComponentProperties   {
   /**
    * Get workerThreads
    * @return workerThreads
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getWorkerThreads() {
+   */
+  @Valid 
+  @Schema(name = "WorkerThreads", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("WorkerThreads")
+  public @Nullable ConfigNodePropertyInteger getWorkerThreads() {
     return workerThreads;
   }
 
-  public void setWorkerThreads(ConfigNodePropertyInteger workerThreads) {
+  @JsonProperty("WorkerThreads")
+  public void setWorkerThreads(@Nullable ConfigNodePropertyInteger workerThreads) {
     this.workerThreads = workerThreads;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -188,7 +198,6 @@ public class ComAdobeCqDamS7imagingImplIsImageServerComponentProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComAdobeCqDamS7imagingImplIsImageServerComponentProperties {\n");
-    
     sb.append("    tcpPort: ").append(toIndentedString(tcpPort)).append("\n");
     sb.append("    allowRemoteAccess: ").append(toIndentedString(allowRemoteAccess)).append("\n");
     sb.append("    maxRenderRgnPixels: ").append(toIndentedString(maxRenderRgnPixels)).append("\n");
@@ -203,11 +212,8 @@ public class ComAdobeCqDamS7imagingImplIsImageServerComponentProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyBoolean;
 
 @Canonical
 class ComAdobeGraniteOauthServerImplOAuth2TokenRevocationServletProperties {
-    ConfigNodePropertyBoolean oauthTokenRevocationActive = null
-
+    
+    ConfigNodePropertyBoolean oauthTokenRevocationActive
 }

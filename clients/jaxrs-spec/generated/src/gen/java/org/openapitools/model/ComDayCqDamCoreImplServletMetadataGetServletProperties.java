@@ -1,21 +1,32 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comDayCqDamCoreImplServletMetadataGetServletProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqDamCoreImplServletMetadataGetServletProperties   {
-  
-  private @Valid ConfigNodePropertyString slingServletResourceTypes = null;
-  private @Valid ConfigNodePropertyString slingServletMethods = null;
-  private @Valid ConfigNodePropertyString slingServletExtensions = null;
-  private @Valid ConfigNodePropertyString slingServletSelectors = null;
+  private ConfigNodePropertyString slingServletResourceTypes;
+  private ConfigNodePropertyString slingServletMethods;
+  private ConfigNodePropertyString slingServletExtensions;
+  private ConfigNodePropertyString slingServletSelectors;
+
+  public ComDayCqDamCoreImplServletMetadataGetServletProperties() {
+  }
 
   /**
    **/
@@ -27,9 +38,11 @@ public class ComDayCqDamCoreImplServletMetadataGetServletProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("sling.servlet.resourceTypes")
-  public ConfigNodePropertyString getSlingServletResourceTypes() {
+  @Valid public ConfigNodePropertyString getSlingServletResourceTypes() {
     return slingServletResourceTypes;
   }
+
+  @JsonProperty("sling.servlet.resourceTypes")
   public void setSlingServletResourceTypes(ConfigNodePropertyString slingServletResourceTypes) {
     this.slingServletResourceTypes = slingServletResourceTypes;
   }
@@ -44,9 +57,11 @@ public class ComDayCqDamCoreImplServletMetadataGetServletProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("sling.servlet.methods")
-  public ConfigNodePropertyString getSlingServletMethods() {
+  @Valid public ConfigNodePropertyString getSlingServletMethods() {
     return slingServletMethods;
   }
+
+  @JsonProperty("sling.servlet.methods")
   public void setSlingServletMethods(ConfigNodePropertyString slingServletMethods) {
     this.slingServletMethods = slingServletMethods;
   }
@@ -61,9 +76,11 @@ public class ComDayCqDamCoreImplServletMetadataGetServletProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("sling.servlet.extensions")
-  public ConfigNodePropertyString getSlingServletExtensions() {
+  @Valid public ConfigNodePropertyString getSlingServletExtensions() {
     return slingServletExtensions;
   }
+
+  @JsonProperty("sling.servlet.extensions")
   public void setSlingServletExtensions(ConfigNodePropertyString slingServletExtensions) {
     this.slingServletExtensions = slingServletExtensions;
   }
@@ -78,16 +95,18 @@ public class ComDayCqDamCoreImplServletMetadataGetServletProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("sling.servlet.selectors")
-  public ConfigNodePropertyString getSlingServletSelectors() {
+  @Valid public ConfigNodePropertyString getSlingServletSelectors() {
     return slingServletSelectors;
   }
+
+  @JsonProperty("sling.servlet.selectors")
   public void setSlingServletSelectors(ConfigNodePropertyString slingServletSelectors) {
     this.slingServletSelectors = slingServletSelectors;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -95,10 +114,10 @@ public class ComDayCqDamCoreImplServletMetadataGetServletProperties   {
       return false;
     }
     ComDayCqDamCoreImplServletMetadataGetServletProperties comDayCqDamCoreImplServletMetadataGetServletProperties = (ComDayCqDamCoreImplServletMetadataGetServletProperties) o;
-    return Objects.equals(slingServletResourceTypes, comDayCqDamCoreImplServletMetadataGetServletProperties.slingServletResourceTypes) &&
-        Objects.equals(slingServletMethods, comDayCqDamCoreImplServletMetadataGetServletProperties.slingServletMethods) &&
-        Objects.equals(slingServletExtensions, comDayCqDamCoreImplServletMetadataGetServletProperties.slingServletExtensions) &&
-        Objects.equals(slingServletSelectors, comDayCqDamCoreImplServletMetadataGetServletProperties.slingServletSelectors);
+    return Objects.equals(this.slingServletResourceTypes, comDayCqDamCoreImplServletMetadataGetServletProperties.slingServletResourceTypes) &&
+        Objects.equals(this.slingServletMethods, comDayCqDamCoreImplServletMetadataGetServletProperties.slingServletMethods) &&
+        Objects.equals(this.slingServletExtensions, comDayCqDamCoreImplServletMetadataGetServletProperties.slingServletExtensions) &&
+        Objects.equals(this.slingServletSelectors, comDayCqDamCoreImplServletMetadataGetServletProperties.slingServletSelectors);
   }
 
   @Override
@@ -123,11 +142,9 @@ public class ComDayCqDamCoreImplServletMetadataGetServletProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

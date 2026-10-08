@@ -8,8 +8,8 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqDamInddImplHandlerIndesignXMPHandlerProperties {
-    ConfigNodePropertyString processLabel = null
-
-    ConfigNodePropertyBoolean extractPages = null
-
+    
+    ConfigNodePropertyString processLabel
+    
+    ConfigNodePropertyBoolean extractPages
 }

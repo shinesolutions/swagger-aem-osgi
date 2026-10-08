@@ -1,28 +1,39 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComAdobeAemUpgradePrechecksTasksImplConsistencyCheckTaskImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComAdobeAemUpgradePrechecksTasksImplConsistencyCheckTaskImplProperties   {
-  @JsonProperty("root.path")
-  private ConfigNodePropertyString rootPath = null;
+@JsonTypeName("comAdobeAemUpgradePrechecksTasksImplConsistencyCheckTaskImplProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComAdobeAemUpgradePrechecksTasksImplConsistencyCheckTaskImplProperties {
 
-  @JsonProperty("fix.inconsistencies")
-  private ConfigNodePropertyBoolean fixInconsistencies = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString rootPath;
 
-  public ComAdobeAemUpgradePrechecksTasksImplConsistencyCheckTaskImplProperties rootPath(ConfigNodePropertyString rootPath) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean fixInconsistencies;
+
+  public ComAdobeAemUpgradePrechecksTasksImplConsistencyCheckTaskImplProperties rootPath(@Nullable ConfigNodePropertyString rootPath) {
     this.rootPath = rootPath;
     return this;
   }
@@ -30,20 +41,20 @@ public class ComAdobeAemUpgradePrechecksTasksImplConsistencyCheckTaskImplPropert
   /**
    * Get rootPath
    * @return rootPath
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getRootPath() {
+   */
+  @Valid 
+  @Schema(name = "root.path", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("root.path")
+  public @Nullable ConfigNodePropertyString getRootPath() {
     return rootPath;
   }
 
-  public void setRootPath(ConfigNodePropertyString rootPath) {
+  @JsonProperty("root.path")
+  public void setRootPath(@Nullable ConfigNodePropertyString rootPath) {
     this.rootPath = rootPath;
   }
 
-  public ComAdobeAemUpgradePrechecksTasksImplConsistencyCheckTaskImplProperties fixInconsistencies(ConfigNodePropertyBoolean fixInconsistencies) {
+  public ComAdobeAemUpgradePrechecksTasksImplConsistencyCheckTaskImplProperties fixInconsistencies(@Nullable ConfigNodePropertyBoolean fixInconsistencies) {
     this.fixInconsistencies = fixInconsistencies;
     return this;
   }
@@ -51,22 +62,21 @@ public class ComAdobeAemUpgradePrechecksTasksImplConsistencyCheckTaskImplPropert
   /**
    * Get fixInconsistencies
    * @return fixInconsistencies
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getFixInconsistencies() {
+   */
+  @Valid 
+  @Schema(name = "fix.inconsistencies", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("fix.inconsistencies")
+  public @Nullable ConfigNodePropertyBoolean getFixInconsistencies() {
     return fixInconsistencies;
   }
 
-  public void setFixInconsistencies(ConfigNodePropertyBoolean fixInconsistencies) {
+  @JsonProperty("fix.inconsistencies")
+  public void setFixInconsistencies(@Nullable ConfigNodePropertyBoolean fixInconsistencies) {
     this.fixInconsistencies = fixInconsistencies;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -87,7 +97,6 @@ public class ComAdobeAemUpgradePrechecksTasksImplConsistencyCheckTaskImplPropert
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComAdobeAemUpgradePrechecksTasksImplConsistencyCheckTaskImplProperties {\n");
-    
     sb.append("    rootPath: ").append(toIndentedString(rootPath)).append("\n");
     sb.append("    fixInconsistencies: ").append(toIndentedString(fixInconsistencies)).append("\n");
     sb.append("}");
@@ -98,11 +107,8 @@ public class ComAdobeAemUpgradePrechecksTasksImplConsistencyCheckTaskImplPropert
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

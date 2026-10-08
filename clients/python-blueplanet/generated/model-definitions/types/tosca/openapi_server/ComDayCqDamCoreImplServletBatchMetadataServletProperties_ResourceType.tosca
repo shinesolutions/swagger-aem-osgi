@@ -1,0 +1,47 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server ComDayCqDamCoreImplServletBatchMetadataServletProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a ComDayCqDamCoreImplServletBatchMetadataServletProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+}
+resourceTypes {
+
+  ComDayCqDamCoreImplServletBatchMetadataServletProperties {
+    title = ComDayCqDamCoreImplServletBatchMetadataServletProperties
+    description = ComDayCqDamCoreImplServletBatchMetadataServletProperties
+    derivedFrom = Root
+    properties {
+        cq_dam_batch_metadata_asset_default {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        cq_dam_batch_metadata_collection_default {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        cq_dam_batch_metadata_maxresources {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  ComDayCqDamCoreImplServletBatchMetadataServletProperties {
+    title = ComDayCqDamCoreImplServletBatchMetadataServletProperties
+    description = ComDayCqDamCoreImplServletBatchMetadataServletProperties
+    implements = openapi_server.resourceTypes.ComDayCqDamCoreImplServletBatchMetadataServletProperties
+
+  }
+}

@@ -72,8 +72,8 @@ private class OASComDayCqWcmCoreImplWCMDebugFilterTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqWcmCoreImplWCMDebugFilter comDayCqWcmCoreImplWCMDebugFilterProperties = new OASComDayCqWcmCoreImplWCMDebugFilter();
-        Map<String, String> propertyMappings = comDayCqWcmCoreImplWCMDebugFilterProperties.getPropertyMappings();
-        System.assertEquals('wcmdbgfilterEnabled', propertyMappings.get('wcmdbgfilter.enabled'));
-        System.assertEquals('wcmdbgfilterJspDebug', propertyMappings.get('wcmdbgfilter.jspDebug'));
+        Map<String, String> x-property-mappings = comDayCqWcmCoreImplWCMDebugFilterProperties.getx-property-mappings();
+        System.assertEquals('wcmdbgfilterEnabled', x-property-mappings.get('wcmdbgfilter.enabled'));
+        System.assertEquals('wcmdbgfilterJspDebug', x-property-mappings.get('wcmdbgfilter.jspDebug'));
     }
 }

@@ -7,6 +7,6 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeGraniteAuthOauthImplFacebookProviderImplProperties {
-    ConfigNodePropertyString oauthProviderId = null
-
+    
+    ConfigNodePropertyString oauthProviderId
 }

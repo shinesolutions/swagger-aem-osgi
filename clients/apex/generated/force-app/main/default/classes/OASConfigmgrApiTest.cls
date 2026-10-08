@@ -13,17 +13,17 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'showPlaceholder' => Boolean.getExample(),
-            'maximumCacheEntries' => Integer.getExample(),
+            'showPlaceholder' => '',
+            'maximumCacheEntries' => '',
             'afScriptingCompatversion' => 'null',
-            'makeFileNameUnique' => Boolean.getExample(),
-            'generatingCompliantData' => Boolean.getExample()
+            'makeFileNameUnique' => '',
+            'generatingCompliantData' => ''
         };
 
         OASClient client;
@@ -56,9 +56,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -95,13 +95,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'cqAnalyticsComponentQueryCacheSize' => Integer.getExample()
+            'cqAnalyticsComponentQueryCacheSize' => ''
         };
 
         OASClient client;
@@ -134,9 +134,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -173,14 +173,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'formsManagerConfigIncludeOOTBTemplates' => Boolean.getExample(),
-            'formsManagerConfigIncludeDeprecatedTemplates' => Boolean.getExample()
+            'formsManagerConfigIncludeOOTBTemplates' => '',
+            'formsManagerConfigIncludeDeprecatedTemplates' => ''
         };
 
         OASClient client;
@@ -213,13 +213,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'isTransactionRecordingEnabled' => Boolean.getExample()
+            'isTransactionRecordingEnabled' => ''
         };
 
         OASClient client;
@@ -252,9 +252,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -293,9 +293,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -334,9 +334,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -374,14 +374,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'rootPath' => 'null',
-            'fixInconsistencies' => Boolean.getExample()
+            'fixInconsistencies' => ''
         };
 
         OASClient client;
@@ -414,13 +414,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'cqAccountmanagerTokenValidityPeriod' => Integer.getExample(),
+            'cqAccountmanagerTokenValidityPeriod' => '',
             'cqAccountmanagerConfigRequestnewaccountMail' => 'null',
             'cqAccountmanagerConfigRequestnewpwdMail' => 'null'
         };
@@ -455,9 +455,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -495,13 +495,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'cqAddressLocationDefaultMaxResults' => Integer.getExample()
+            'cqAddressLocationDefaultMaxResults' => ''
         };
 
         OASClient client;
@@ -534,15 +534,15 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'auditlogRuleName' => 'null',
             'auditlogRuleContentpath' => 'null',
-            'auditlogRuleMinimumage' => Integer.getExample(),
+            'auditlogRuleMinimumage' => '',
             'auditlogRuleTypes' => 'null'
         };
 
@@ -576,15 +576,15 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'auditlogRuleName' => 'null',
             'auditlogRuleContentpath' => 'null',
-            'auditlogRuleMinimumage' => Integer.getExample(),
+            'auditlogRuleMinimumage' => '',
             'auditlogRuleTypes' => 'null'
         };
 
@@ -618,15 +618,15 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'auditlogRuleName' => 'null',
             'auditlogRuleContentpath' => 'null',
-            'auditlogRuleMinimumage' => Integer.getExample(),
+            'auditlogRuleMinimumage' => '',
             'auditlogRuleTypes' => 'null'
         };
 
@@ -660,13 +660,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'serviceRanking' => Integer.getExample(),
+            'serviceRanking' => '',
             'keypairId' => 'null',
             'keypairAlias' => 'null',
             'cdnrewriterAttributes' => new List<String>{''},
@@ -703,16 +703,16 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'cdnConfigDistributionDomain' => 'null',
-            'cdnConfigEnableRewriting' => Boolean.getExample(),
+            'cdnConfigEnableRewriting' => '',
             'cdnConfigPathPrefixes' => new List<String>{''},
-            'cdnConfigCdnttl' => Integer.getExample(),
+            'cdnConfigCdnttl' => '',
             'cdnConfigApplicationProtocol' => 'null'
         };
 
@@ -746,13 +746,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'serviceRanking' => Integer.getExample(),
+            'serviceRanking' => '',
             'cdnrewriterAttributes' => new List<String>{''},
             'cdnRewriterDistributionDomain' => 'null'
         };
@@ -787,9 +787,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -826,13 +826,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'cqCommerceAssetHandlerActive' => Boolean.getExample(),
+            'cqCommerceAssetHandlerActive' => '',
             'cqCommerceAssetHandlerName' => 'null'
         };
 
@@ -866,9 +866,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -905,13 +905,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'cqCommerceAssetHandlerActive' => Boolean.getExample(),
+            'cqCommerceAssetHandlerActive' => '',
             'cqCommerceAssetHandlerName' => 'null'
         };
 
@@ -945,13 +945,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'cqCommerceAssetHandlerActive' => Boolean.getExample(),
+            'cqCommerceAssetHandlerActive' => '',
             'cqCommerceAssetHandlerName' => 'null'
         };
 
@@ -985,9 +985,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -1024,13 +1024,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'cqCommerceCataloggeneratorBucketsize' => Integer.getExample(),
+            'cqCommerceCataloggeneratorBucketsize' => '',
             'cqCommerceCataloggeneratorBucketname' => 'null',
             'cqCommerceCataloggeneratorExcludedtemplateproperties' => new List<String>{''}
         };
@@ -1065,13 +1065,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'cqCommercePageeventlistenerEnabled' => Boolean.getExample()
+            'cqCommercePageeventlistenerEnabled' => ''
         };
 
         OASClient client;
@@ -1104,9 +1104,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -1143,9 +1143,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -1182,9 +1182,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -1221,9 +1221,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -1260,9 +1260,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -1302,9 +1302,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -1342,9 +1342,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -1381,9 +1381,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -1420,9 +1420,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -1459,13 +1459,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'maxMemory' => Integer.getExample()
+            'maxMemory' => ''
         };
 
         OASClient client;
@@ -1498,14 +1498,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'dmreplicateonmodifyEnabled' => Boolean.getExample(),
-            'dmreplicateonmodifyForcesyncdeletes' => Boolean.getExample()
+            'dmreplicateonmodifyEnabled' => '',
+            'dmreplicateonmodifyForcesyncdeletes' => ''
         };
 
         OASClient client;
@@ -1538,13 +1538,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'comAdobeDamMacSyncClientSoTimeout' => Integer.getExample()
+            'comAdobeDamMacSyncClientSoTimeout' => ''
         };
 
         OASClient client;
@@ -1577,15 +1577,15 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'comAdobeCqDamMacSyncDamsyncserviceRegisteredPaths' => new List<String>{''},
-            'comAdobeCqDamMacSyncDamsyncserviceSyncRenditions' => Boolean.getExample(),
-            'comAdobeCqDamMacSyncDamsyncserviceReplicateThreadWaitMs' => Integer.getExample(),
+            'comAdobeCqDamMacSyncDamsyncserviceSyncRenditions' => '',
+            'comAdobeCqDamMacSyncDamsyncserviceReplicateThreadWaitMs' => '',
             'comAdobeCqDamMacSyncDamsyncservicePlatform' => 'null'
         };
 
@@ -1619,13 +1619,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'nuiEnabled' => Boolean.getExample(),
+            'nuiEnabled' => '',
             'nuiServiceUrl' => 'null',
             'nuiApiKey' => 'null'
         };
@@ -1660,18 +1660,18 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'tcpPort' => 'null',
-            'allowRemoteAccess' => Boolean.getExample(),
+            'allowRemoteAccess' => '',
             'maxRenderRgnPixels' => 'null',
             'maxMessageSize' => 'null',
-            'randomAccessUrlTimeout' => Integer.getExample(),
-            'workerThreads' => Integer.getExample()
+            'randomAccessUrlTimeout' => '',
+            'workerThreads' => ''
         };
 
         OASClient client;
@@ -1704,16 +1704,16 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'cacheEnable' => Boolean.getExample(),
+            'cacheEnable' => '',
             'cacheRootPaths' => new List<String>{''},
-            'cacheMaxSize' => Integer.getExample(),
-            'cacheMaxEntries' => Integer.getExample()
+            'cacheMaxSize' => '',
+            'cacheMaxEntries' => ''
         };
 
         OASClient client;
@@ -1746,15 +1746,15 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'serviceRanking' => Integer.getExample(),
+            'serviceRanking' => '',
             'pathPrefix' => 'null',
-            'createVersion' => Boolean.getExample()
+            'createVersion' => ''
         };
 
         OASClient client;
@@ -1787,15 +1787,15 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'cqDamWebdavVersionLinkingEnable' => Boolean.getExample(),
-            'cqDamWebdavVersionLinkingSchedulerPeriod' => Integer.getExample(),
-            'cqDamWebdavVersionLinkingStagingTimeout' => Integer.getExample()
+            'cqDamWebdavVersionLinkingEnable' => '',
+            'cqDamWebdavVersionLinkingSchedulerPeriod' => '',
+            'cqDamWebdavVersionLinkingStagingTimeout' => ''
         };
 
         OASClient client;
@@ -1828,9 +1828,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -1867,9 +1867,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -1908,14 +1908,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'connectionTimeout' => Integer.getExample(),
-            'socketTimeout' => Integer.getExample()
+            'connectionTimeout' => '',
+            'socketTimeout' => ''
         };
 
         OASClient client;
@@ -1948,9 +1948,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -1988,15 +1988,15 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'endpointUri' => 'null',
-            'connectionTimeout' => Integer.getExample(),
-            'socketTimeout' => Integer.getExample()
+            'connectionTimeout' => '',
+            'socketTimeout' => ''
         };
 
         OASClient client;
@@ -2029,13 +2029,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'enabled' => Boolean.getExample(),
+            'enabled' => '',
             'disabledForGroups' => new List<String>{''}
         };
 
@@ -2069,9 +2069,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -2111,9 +2111,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -2151,9 +2151,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -2191,9 +2191,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -2234,9 +2234,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -2274,20 +2274,20 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'scheduledpurgeName' => 'null',
-            'scheduledpurgePurgeActive' => Boolean.getExample(),
+            'scheduledpurgePurgeActive' => '',
             'scheduledpurgeTemplates' => new List<String>{''},
-            'scheduledpurgePurgeGroups' => Boolean.getExample(),
-            'scheduledpurgePurgeAssets' => Boolean.getExample(),
-            'scheduledpurgeTerminateRunningWorkflows' => Boolean.getExample(),
-            'scheduledpurgeDaysold' => Integer.getExample(),
-            'scheduledpurgeSaveThreshold' => Integer.getExample()
+            'scheduledpurgePurgeGroups' => '',
+            'scheduledpurgePurgeAssets' => '',
+            'scheduledpurgeTerminateRunningWorkflows' => '',
+            'scheduledpurgeDaysold' => '',
+            'scheduledpurgeSaveThreshold' => ''
         };
 
         OASClient client;
@@ -2320,9 +2320,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -2360,9 +2360,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -2370,7 +2370,7 @@ private class OASConfigmgrApiTest {
             'comAdobeCqScreensAnalyticsImplApikey' => 'null',
             'comAdobeCqScreensAnalyticsImplProject' => 'null',
             'comAdobeCqScreensAnalyticsImplEnvironment' => 'null',
-            'comAdobeCqScreensAnalyticsImplSendFrequency' => Integer.getExample()
+            'comAdobeCqScreensAnalyticsImplSendFrequency' => ''
         };
 
         OASClient client;
@@ -2403,19 +2403,19 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'comAdobeAemScreensPlayerPingfrequency' => Integer.getExample(),
+            'comAdobeAemScreensPlayerPingfrequency' => '',
             'comAdobeAemScreensDevicePaswordSpecialchars' => 'null',
-            'comAdobeAemScreensDevicePaswordMinlowercasechars' => Integer.getExample(),
-            'comAdobeAemScreensDevicePaswordMinuppercasechars' => Integer.getExample(),
-            'comAdobeAemScreensDevicePaswordMinnumberchars' => Integer.getExample(),
-            'comAdobeAemScreensDevicePaswordMinspecialchars' => Integer.getExample(),
-            'comAdobeAemScreensDevicePaswordMinlength' => Integer.getExample()
+            'comAdobeAemScreensDevicePaswordMinlowercasechars' => '',
+            'comAdobeAemScreensDevicePaswordMinuppercasechars' => '',
+            'comAdobeAemScreensDevicePaswordMinnumberchars' => '',
+            'comAdobeAemScreensDevicePaswordMinspecialchars' => '',
+            'comAdobeAemScreensDevicePaswordMinlength' => ''
         };
 
         OASClient client;
@@ -2448,13 +2448,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'deviceRegistrationTimeout' => Integer.getExample()
+            'deviceRegistrationTimeout' => ''
         };
 
         OASClient client;
@@ -2487,9 +2487,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -2530,9 +2530,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -2569,13 +2569,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'comAdobeAemScreensImplRemoteRequestTimeout' => Integer.getExample()
+            'comAdobeAemScreensImplRemoteRequestTimeout' => ''
         };
 
         OASClient client;
@@ -2608,9 +2608,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -2647,19 +2647,19 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplProjectPath' => new List<String>{''},
             'comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplScheduleFrequency' => 'null',
-            'comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplPingTimeout' => Integer.getExample(),
+            'comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplPingTimeout' => '',
             'comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplRecipients' => 'null',
             'comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplSmtpserver' => 'null',
-            'comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplSmtpport' => Integer.getExample(),
-            'comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplUsetls' => Boolean.getExample(),
+            'comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplSmtpport' => '',
+            'comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplUsetls' => '',
             'comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplUsername' => 'null',
             'comAdobeCqScreensMonitoringImplScreensMonitoringServiceImplPassword' => 'null'
         };
@@ -2694,45 +2694,45 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'serviceRanking' => Integer.getExample(),
-            'globalSize' => Integer.getExample(),
-            'maxDiskUsage' => Integer.getExample(),
-            'persistenceEnabled' => Boolean.getExample(),
-            'threadPoolMaxSize' => Integer.getExample(),
-            'scheduledThreadPoolMaxSize' => Integer.getExample(),
-            'gracefulShutdownTimeout' => Integer.getExample(),
+            'serviceRanking' => '',
+            'globalSize' => '',
+            'maxDiskUsage' => '',
+            'persistenceEnabled' => '',
+            'threadPoolMaxSize' => '',
+            'scheduledThreadPoolMaxSize' => '',
+            'gracefulShutdownTimeout' => '',
             'queues' => new List<String>{''},
             'topics' => new List<String>{''},
-            'addressesMaxDeliveryAttempts' => Integer.getExample(),
-            'addressesExpiryDelay' => Integer.getExample(),
+            'addressesMaxDeliveryAttempts' => '',
+            'addressesExpiryDelay' => '',
             'addressesAddressFullMessagePolicy' => 'null',
-            'addressesMaxSizeBytes' => Integer.getExample(),
-            'addressesPageSizeBytes' => Integer.getExample(),
-            'addressesPageCacheMaxSize' => Integer.getExample(),
+            'addressesMaxSizeBytes' => '',
+            'addressesPageSizeBytes' => '',
+            'addressesPageCacheMaxSize' => '',
             'clusterUser' => 'null',
             'clusterPassword' => 'null',
-            'clusterCallTimeout' => Integer.getExample(),
-            'clusterCallFailoverTimeout' => Integer.getExample(),
-            'clusterClientFailureCheckPeriod' => Integer.getExample(),
-            'clusterNotificationAttempts' => Integer.getExample(),
-            'clusterNotificationInterval' => Integer.getExample(),
-            'idCacheSize' => Integer.getExample(),
-            'clusterConfirmationWindowSize' => Integer.getExample(),
-            'clusterConnectionTtl' => Integer.getExample(),
-            'clusterDuplicateDetection' => Boolean.getExample(),
-            'clusterInitialConnectAttempts' => Integer.getExample(),
-            'clusterMaxRetryInterval' => Integer.getExample(),
-            'clusterMinLargeMessageSize' => Integer.getExample(),
-            'clusterProducerWindowSize' => Integer.getExample(),
-            'clusterReconnectAttempts' => Integer.getExample(),
-            'clusterRetryInterval' => Integer.getExample(),
-            'clusterRetryIntervalMultiplier' => Double.getExample()
+            'clusterCallTimeout' => '',
+            'clusterCallFailoverTimeout' => '',
+            'clusterClientFailureCheckPeriod' => '',
+            'clusterNotificationAttempts' => '',
+            'clusterNotificationInterval' => '',
+            'idCacheSize' => '',
+            'clusterConfirmationWindowSize' => '',
+            'clusterConnectionTtl' => '',
+            'clusterDuplicateDetection' => '',
+            'clusterInitialConnectAttempts' => '',
+            'clusterMaxRetryInterval' => '',
+            'clusterMinLargeMessageSize' => '',
+            'clusterProducerWindowSize' => '',
+            'clusterReconnectAttempts' => '',
+            'clusterRetryInterval' => '',
+            'clusterRetryIntervalMultiplier' => ''
         };
 
         OASClient client;
@@ -2765,9 +2765,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -2805,13 +2805,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'disableSmartSync' => Boolean.getExample()
+            'disableSmartSync' => ''
         };
 
         OASClient client;
@@ -2844,13 +2844,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'enableDataTriggeredContent' => Boolean.getExample()
+            'enableDataTriggeredContent' => ''
         };
 
         OASClient client;
@@ -2883,9 +2883,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -2922,9 +2922,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -2961,9 +2961,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -3003,9 +3003,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -3042,9 +3042,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -3082,15 +3082,15 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'enable' => Boolean.getExample(),
-            'ttl1' => Integer.getExample(),
-            'ttl2' => Integer.getExample()
+            'enable' => '',
+            'ttl1' => '',
+            'ttl2' => ''
         };
 
         OASClient client;
@@ -3123,13 +3123,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'priority' => Integer.getExample()
+            'priority' => ''
         };
 
         OASClient client;
@@ -3162,13 +3162,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'priority' => Integer.getExample()
+            'priority' => ''
         };
 
         OASClient client;
@@ -3201,9 +3201,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -3241,14 +3241,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'accepted' => Boolean.getExample(),
-            'ranked' => Integer.getExample()
+            'accepted' => '',
+            'ranked' => ''
         };
 
         OASClient client;
@@ -3281,14 +3281,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'ranking' => Integer.getExample(),
-            'enable' => Boolean.getExample()
+            'ranking' => '',
+            'enable' => ''
         };
 
         OASClient client;
@@ -3321,9 +3321,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -3361,13 +3361,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'maxRetry' => Integer.getExample(),
+            'maxRetry' => '',
             'fieldWhitelist' => new List<String>{''},
             'attachmentTypeBlacklist' => new List<String>{''}
         };
@@ -3402,14 +3402,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'attachmentTypeBlacklist' => 'null',
-            'extensionOrder' => Integer.getExample()
+            'extensionOrder' => ''
         };
 
         OASClient client;
@@ -3442,13 +3442,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'timezonesExpirytime' => Integer.getExample()
+            'timezonesExpirytime' => ''
         };
 
         OASClient client;
@@ -3481,13 +3481,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'ranking' => Integer.getExample()
+            'ranking' => ''
         };
 
         OASClient client;
@@ -3520,9 +3520,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -3560,9 +3560,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -3600,13 +3600,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'numUserLimit' => Integer.getExample()
+            'numUserLimit' => ''
         };
 
         OASClient client;
@@ -3639,15 +3639,15 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'enableScheduledPostsSearch' => Boolean.getExample(),
-            'numberOfMinutes' => Integer.getExample(),
-            'maxSearchLimit' => Integer.getExample()
+            'enableScheduledPostsSearch' => '',
+            'numberOfMinutes' => '',
+            'maxSearchLimit' => ''
         };
 
         OASClient client;
@@ -3680,13 +3680,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'corsEnabling' => Boolean.getExample()
+            'corsEnabling' => ''
         };
 
         OASClient client;
@@ -3719,13 +3719,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'priorityOrder' => Integer.getExample(),
+            'priorityOrder' => '',
             'replyEmailPatterns' => new List<String>{''}
         };
 
@@ -3759,9 +3759,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -3798,9 +3798,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -3837,13 +3837,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'priorityOrder' => Integer.getExample(),
+            'priorityOrder' => '',
             'replyEmailPatterns' => new List<String>{''}
         };
 
@@ -3877,9 +3877,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -3923,21 +3923,21 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'emailName' => 'null',
-            'emailCreatePostFromReply' => Boolean.getExample(),
+            'emailCreatePostFromReply' => '',
             'emailAddCommentIdTo' => 'null',
-            'emailSubjectMaximumLength' => Integer.getExample(),
+            'emailSubjectMaximumLength' => '',
             'emailReplyToAddress' => 'null',
             'emailReplyToDelimiter' => 'null',
             'emailTrackerIdPrefixInSubject' => 'null',
             'emailTrackerIdPrefixInBody' => 'null',
-            'emailAsHTML' => Boolean.getExample(),
+            'emailAsHTML' => '',
             'emailDefaultUserName' => 'null',
             'emailTemplatesRootPath' => 'null'
         };
@@ -3972,9 +3972,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -4011,13 +4011,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'priorityOrder' => Integer.getExample(),
+            'priorityOrder' => '',
             'replyEmailPatterns' => new List<String>{''}
         };
 
@@ -4051,13 +4051,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'priorityOrder' => Integer.getExample(),
+            'priorityOrder' => '',
             'replyEmailPatterns' => new List<String>{''}
         };
 
@@ -4091,13 +4091,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'priorityOrder' => Integer.getExample(),
+            'priorityOrder' => '',
             'replyEmailPatterns' => new List<String>{''}
         };
 
@@ -4131,13 +4131,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'priorityOrder' => Integer.getExample(),
+            'priorityOrder' => '',
             'replyEmailPatterns' => new List<String>{''}
         };
 
@@ -4171,14 +4171,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'replyEmailPatterns' => new List<String>{''},
-            'priorityOrder' => Integer.getExample()
+            'priorityOrder' => ''
         };
 
         OASClient client;
@@ -4211,13 +4211,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'priorityOrder' => Integer.getExample(),
+            'priorityOrder' => '',
             'replyEmailPatterns' => new List<String>{''}
         };
 
@@ -4251,14 +4251,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'numberOfDays' => Integer.getExample(),
-            'ageOfFile' => Integer.getExample()
+            'numberOfDays' => '',
+            'ageOfFile' => ''
         };
 
         OASClient client;
@@ -4291,9 +4291,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -4332,15 +4332,15 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'enable' => Boolean.getExample(),
-            'ugCLimit' => Integer.getExample(),
-            'ugcLimitDuration' => Integer.getExample(),
+            'enable' => '',
+            'ugCLimit' => '',
+            'ugcLimitDuration' => '',
             'domains' => new List<String>{''},
             'toList' => new List<String>{''}
         };
@@ -4375,20 +4375,20 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'oauthProviderId' => 'null',
             'oauthCloudConfigRoot' => 'null',
             'providerConfigRoot' => 'null',
-            'providerConfigCreateTagsEnabled' => Boolean.getExample(),
+            'providerConfigCreateTagsEnabled' => '',
             'providerConfigUserFolder' => 'null',
-            'providerConfigFacebookFetchFields' => Boolean.getExample(),
+            'providerConfigFacebookFetchFields' => '',
             'providerConfigFacebookFields' => new List<String>{''},
-            'providerConfigRefreshUserdataEnabled' => Boolean.getExample()
+            'providerConfigRefreshUserdataEnabled' => ''
         };
 
         OASClient client;
@@ -4421,14 +4421,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'path' => new List<String>{''},
-            'serviceRanking' => Integer.getExample()
+            'serviceRanking' => ''
         };
 
         OASClient client;
@@ -4461,9 +4461,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -4502,9 +4502,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -4512,9 +4512,9 @@ private class OASConfigmgrApiTest {
             'oauthCloudConfigRoot' => 'null',
             'providerConfigRoot' => 'null',
             'providerConfigUserFolder' => 'null',
-            'providerConfigTwitterEnableParams' => Boolean.getExample(),
+            'providerConfigTwitterEnableParams' => '',
             'providerConfigTwitterParams' => new List<String>{''},
-            'providerConfigRefreshUserdataEnabled' => Boolean.getExample()
+            'providerConfigRefreshUserdataEnabled' => ''
         };
 
         OASClient client;
@@ -4547,14 +4547,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'cqSocialContentFragmentsServicesEnabled' => Boolean.getExample(),
-            'cqSocialContentFragmentsServicesWaitTimeSeconds' => Integer.getExample()
+            'cqSocialContentFragmentsServicesEnabled' => '',
+            'cqSocialContentFragmentsServicesWaitTimeSeconds' => ''
         };
 
         OASClient client;
@@ -4587,19 +4587,19 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'versionId' => 'null',
-            'cacheOn' => Boolean.getExample(),
-            'concurrencyLevel' => Integer.getExample(),
-            'cacheStartSize' => Integer.getExample(),
-            'cacheTtl' => Integer.getExample(),
-            'cacheSize' => Integer.getExample(),
-            'timeLimit' => Integer.getExample()
+            'cacheOn' => '',
+            'concurrencyLevel' => '',
+            'cacheStartSize' => '',
+            'cacheTtl' => '',
+            'cacheSize' => '',
+            'timeLimit' => ''
         };
 
         OASClient client;
@@ -4632,19 +4632,19 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'solrZkTimeout' => 'null',
             'solrCommit' => 'null',
-            'cacheOn' => Boolean.getExample(),
-            'concurrencyLevel' => Integer.getExample(),
-            'cacheStartSize' => Integer.getExample(),
-            'cacheTtl' => Integer.getExample(),
-            'cacheSize' => Integer.getExample()
+            'cacheOn' => '',
+            'concurrencyLevel' => '',
+            'cacheStartSize' => '',
+            'cacheTtl' => '',
+            'cacheSize' => ''
         };
 
         OASClient client;
@@ -4677,19 +4677,19 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'solrZkTimeout' => 'null',
             'solrCommit' => 'null',
-            'cacheOn' => Boolean.getExample(),
-            'concurrencyLevel' => Integer.getExample(),
-            'cacheStartSize' => Integer.getExample(),
-            'cacheTtl' => Integer.getExample(),
-            'cacheSize' => Integer.getExample()
+            'cacheOn' => '',
+            'concurrencyLevel' => '',
+            'cacheStartSize' => '',
+            'cacheTtl' => '',
+            'cacheSize' => ''
         };
 
         OASClient client;
@@ -4722,13 +4722,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'isMemberCheck' => Boolean.getExample()
+            'isMemberCheck' => ''
         };
 
         OASClient client;
@@ -4761,13 +4761,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'isMemberCheck' => Boolean.getExample()
+            'isMemberCheck' => ''
         };
 
         OASClient client;
@@ -4800,9 +4800,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -4839,9 +4839,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -4878,13 +4878,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'serviceRanking' => Integer.getExample()
+            'serviceRanking' => ''
         };
 
         OASClient client;
@@ -4917,9 +4917,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -4957,9 +4957,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -4997,9 +4997,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -5037,14 +5037,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'extensionOrder' => Integer.getExample(),
-            'flushForumontopic' => Boolean.getExample()
+            'extensionOrder' => '',
+            'flushForumontopic' => ''
         };
 
         OASClient client;
@@ -5077,16 +5077,16 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'groupListingPaginationEnable' => Boolean.getExample(),
-            'groupListingLazyloadingEnable' => Boolean.getExample(),
-            'pageSize' => Integer.getExample(),
-            'priority' => Integer.getExample()
+            'groupListingPaginationEnable' => '',
+            'groupListingLazyloadingEnable' => '',
+            'pageSize' => '',
+            'priority' => ''
         };
 
         OASClient client;
@@ -5119,14 +5119,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'maxWaitTime' => Integer.getExample(),
-            'minWaitBetweenRetries' => Integer.getExample()
+            'maxWaitTime' => '',
+            'minWaitBetweenRetries' => ''
         };
 
         OASClient client;
@@ -5159,16 +5159,16 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'parameterGuavaCacheEnabled' => Boolean.getExample(),
+            'parameterGuavaCacheEnabled' => '',
             'parameterGuavaCacheParams' => 'null',
-            'parameterGuavaCacheReload' => Boolean.getExample(),
-            'serviceRanking' => Integer.getExample()
+            'parameterGuavaCacheReload' => '',
+            'serviceRanking' => ''
         };
 
         OASClient client;
@@ -5201,9 +5201,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -5241,9 +5241,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -5281,9 +5281,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -5320,9 +5320,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -5359,14 +5359,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'everyoneLimit' => Integer.getExample(),
-            'priority' => Integer.getExample()
+            'everyoneLimit' => '',
+            'priority' => ''
         };
 
         OASClient client;
@@ -5399,28 +5399,28 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'messageProperties' => new List<String>{''},
-            'messageBoxSizeLimit' => Integer.getExample(),
-            'messageCountLimit' => Integer.getExample(),
-            'notifyFailure' => Boolean.getExample(),
+            'messageBoxSizeLimit' => '',
+            'messageCountLimit' => '',
+            'notifyFailure' => '',
             'failureMessageFrom' => 'null',
             'failureTemplatePath' => 'null',
-            'maxRetries' => Integer.getExample(),
-            'minWaitBetweenRetries' => Integer.getExample(),
-            'countUpdatePoolSize' => Integer.getExample(),
+            'maxRetries' => '',
+            'minWaitBetweenRetries' => '',
+            'countUpdatePoolSize' => '',
             'inboxPath' => 'null',
             'sentitemsPath' => 'null',
-            'supportAttachments' => Boolean.getExample(),
-            'supportGroupMessaging' => Boolean.getExample(),
-            'maxTotalRecipients' => Integer.getExample(),
-            'batchSize' => Integer.getExample(),
-            'maxTotalAttachmentSize' => Integer.getExample(),
+            'supportAttachments' => '',
+            'supportGroupMessaging' => '',
+            'maxTotalRecipients' => '',
+            'batchSize' => '',
+            'maxTotalAttachmentSize' => '',
             'attachmentTypeBlacklist' => new List<String>{''},
             'allowedAttachmentTypes' => new List<String>{''},
             'serviceSelector' => 'null',
@@ -5457,14 +5457,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'resourceTypeFilters' => new List<String>{''},
-            'priority' => Integer.getExample()
+            'priority' => ''
         };
 
         OASClient client;
@@ -5497,13 +5497,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'priority' => Integer.getExample()
+            'priority' => ''
         };
 
         OASClient client;
@@ -5536,13 +5536,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'priority' => Integer.getExample()
+            'priority' => ''
         };
 
         OASClient client;
@@ -5575,14 +5575,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'resourceTypeFilters' => new List<String>{''},
-            'priority' => Integer.getExample()
+            'priority' => ''
         };
 
         OASClient client;
@@ -5615,9 +5615,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -5655,13 +5655,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'maxUnreadNotificationCount' => Integer.getExample()
+            'maxUnreadNotificationCount' => ''
         };
 
         OASClient client;
@@ -5694,9 +5694,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -5734,9 +5734,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -5774,14 +5774,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'cqSocialReportingAnalyticsPollingImporterInterval' => Integer.getExample(),
-            'cqSocialReportingAnalyticsPollingImporterPageSize' => Integer.getExample()
+            'cqSocialReportingAnalyticsPollingImporterInterval' => '',
+            'cqSocialReportingAnalyticsPollingImporterPageSize' => ''
         };
 
         OASClient client;
@@ -5814,13 +5814,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'reportFetchDelay' => Integer.getExample()
+            'reportFetchDelay' => ''
         };
 
         OASClient client;
@@ -5853,14 +5853,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'cqSocialConsoleAnalyticsSitesMapping' => new List<String>{''},
-            'priority' => Integer.getExample()
+            'priority' => ''
         };
 
         OASClient client;
@@ -5893,9 +5893,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -5933,9 +5933,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -5973,9 +5973,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -6013,9 +6013,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -6053,13 +6053,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'enableFallback' => Boolean.getExample()
+            'enableFallback' => ''
         };
 
         OASClient client;
@@ -6092,9 +6092,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -6133,9 +6133,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -6172,9 +6172,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -6211,9 +6211,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -6250,13 +6250,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'enabled' => Boolean.getExample(),
+            'enabled' => '',
             'agentName' => 'null',
             'diffPath' => 'null',
             'propertyNames' => 'null'
@@ -6292,16 +6292,16 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'nodetypes' => new List<String>{''},
             'ignorableprops' => new List<String>{''},
             'ignorablenodes' => 'null',
-            'enabled' => Boolean.getExample(),
+            'enabled' => '',
             'distfolders' => 'null'
         };
 
@@ -6335,9 +6335,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -6374,16 +6374,16 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'nodetypes' => new List<String>{''},
             'ignorableprops' => new List<String>{''},
             'ignorablenodes' => new List<String>{''},
-            'enabled' => Boolean.getExample(),
+            'enabled' => '',
             'distfolders' => new List<String>{''}
         };
 
@@ -6417,15 +6417,15 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'translateLanguage' => 'null',
             'translateDisplay' => 'null',
-            'translateAttribution' => Boolean.getExample(),
+            'translateAttribution' => '',
             'translateCaching' => 'null',
             'translateSmartRendering' => 'null',
             'translateCachingDuration' => 'null',
@@ -6463,9 +6463,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -6473,10 +6473,10 @@ private class OASConfigmgrApiTest {
             'eventFilter' => 'null',
             'translateListenerType' => new List<String>{''},
             'translatePropertyList' => new List<String>{''},
-            'poolSize' => Integer.getExample(),
-            'maxPoolSize' => Integer.getExample(),
-            'queueSize' => Integer.getExample(),
-            'keepAliveTime' => Integer.getExample()
+            'poolSize' => '',
+            'maxPoolSize' => '',
+            'queueSize' => '',
+            'keepAliveTime' => ''
         };
 
         OASClient client;
@@ -6509,15 +6509,15 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'threadPoolSize' => Integer.getExample(),
-            'delayTime' => Integer.getExample(),
-            'workerSleepTime' => Integer.getExample()
+            'threadPoolSize' => '',
+            'delayTime' => '',
+            'workerSleepTime' => ''
         };
 
         OASClient client;
@@ -6550,16 +6550,16 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'poolSize' => Integer.getExample(),
-            'maxPoolSize' => Integer.getExample(),
-            'queueSize' => Integer.getExample(),
-            'keepAliveTime' => Integer.getExample()
+            'poolSize' => '',
+            'maxPoolSize' => '',
+            'queueSize' => '',
+            'keepAliveTime' => ''
         };
 
         OASClient client;
@@ -6592,13 +6592,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'isPrimaryPublisher' => Boolean.getExample()
+            'isPrimaryPublisher' => ''
         };
 
         OASClient client;
@@ -6631,13 +6631,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'legacyCloudUGCPathMapping' => Boolean.getExample()
+            'legacyCloudUGCPathMapping' => ''
         };
 
         OASClient client;
@@ -6670,14 +6670,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'automoderationSequence' => new List<String>{''},
-            'automoderationOnfailurestop' => Boolean.getExample()
+            'automoderationOnfailurestop' => ''
         };
 
         OASClient client;
@@ -6710,9 +6710,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -6752,9 +6752,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -6792,9 +6792,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -6838,9 +6838,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -6879,13 +6879,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'enable' => Boolean.getExample(),
+            'enable' => '',
             'agentConfiguration' => new List<String>{''},
             'contextPath' => 'null',
             'disabledCipherSuites' => new List<String>{''},
@@ -6922,9 +6922,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -6961,9 +6961,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -7001,9 +7001,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -7040,15 +7040,15 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'threshold' => Integer.getExample(),
+            'threshold' => '',
             'jobTopicName' => 'null',
-            'emailEnabled' => Boolean.getExample()
+            'emailEnabled' => ''
         };
 
         OASClient client;
@@ -7081,15 +7081,15 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'schedulerExpression' => 'null',
-            'jobPurgeThreshold' => Integer.getExample(),
-            'jobPurgeMaxJobs' => Integer.getExample()
+            'jobPurgeThreshold' => '',
+            'jobPurgeMaxJobs' => ''
         };
 
         OASClient client;
@@ -7122,15 +7122,15 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'threshold' => Integer.getExample(),
+            'threshold' => '',
             'jobTopicName' => 'null',
-            'emailEnabled' => Boolean.getExample()
+            'emailEnabled' => ''
         };
 
         OASClient client;
@@ -7163,15 +7163,15 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'threshold' => Integer.getExample(),
+            'threshold' => '',
             'jobTopicName' => 'null',
-            'emailEnabled' => Boolean.getExample()
+            'emailEnabled' => ''
         };
 
         OASClient client;
@@ -7204,16 +7204,16 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'eventFilter' => 'null',
-            'launchesEventhandlerThreadpoolMaxsize' => Integer.getExample(),
+            'launchesEventhandlerThreadpoolMaxsize' => '',
             'launchesEventhandlerThreadpoolPriority' => 'null',
-            'launchesEventhandlerUpdatelastmodification' => Boolean.getExample()
+            'launchesEventhandlerUpdatelastmodification' => ''
         };
 
         OASClient client;
@@ -7246,9 +7246,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -7285,13 +7285,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'size' => Integer.getExample()
+            'size' => ''
         };
 
         OASClient client;
@@ -7324,9 +7324,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -7366,9 +7366,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -7411,9 +7411,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -7450,9 +7450,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -7489,9 +7489,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -7528,9 +7528,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -7569,13 +7569,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'queryLimit' => Integer.getExample(),
+            'queryLimit' => '',
             'fileTypeExtensionMap' => new List<String>{''}
         };
 
@@ -7609,14 +7609,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'aggregateRelationships' => new List<String>{''},
-            'aggregateDescendVirtual' => Boolean.getExample()
+            'aggregateDescendVirtual' => ''
         };
 
         OASClient client;
@@ -7649,13 +7649,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'disabled' => Boolean.getExample()
+            'disabled' => ''
         };
 
         OASClient client;
@@ -7688,13 +7688,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'disabled' => Boolean.getExample()
+            'disabled' => ''
         };
 
         OASClient client;
@@ -7727,9 +7727,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -7921,14 +7921,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'path' => 'null',
-            'serviceRanking' => Integer.getExample()
+            'serviceRanking' => ''
         };
 
         OASClient client;
@@ -7961,9 +7961,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -8001,9 +8001,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -8040,9 +8040,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -8080,9 +8080,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -8119,9 +8119,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -8137,7 +8137,7 @@ private class OASConfigmgrApiTest {
             'oauthProviderImsServiceToken' => 'null',
             'imsOrgRef' => 'null',
             'imsGroupMapping' => new List<String>{''},
-            'oauthProviderImsOnlyLicenseGroup' => Boolean.getExample()
+            'oauthProviderImsOnlyLicenseGroup' => ''
         };
 
         OASClient client;
@@ -8170,9 +8170,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -8212,9 +8212,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -8224,12 +8224,12 @@ private class OASConfigmgrApiTest {
             'authTokenProviderEndpoint' => 'null',
             'authAccessTokenRequest' => 'null',
             'authTokenProviderKeypairAlias' => 'null',
-            'authTokenProviderConnTimeout' => Integer.getExample(),
-            'authTokenProviderSoTimeout' => Integer.getExample(),
+            'authTokenProviderConnTimeout' => '',
+            'authTokenProviderSoTimeout' => '',
             'authTokenProviderClientId' => 'null',
             'authTokenProviderScope' => 'null',
-            'authTokenProviderReuseAccessToken' => Boolean.getExample(),
-            'authTokenProviderRelaxedSsl' => Boolean.getExample(),
+            'authTokenProviderReuseAccessToken' => '',
+            'authTokenProviderRelaxedSsl' => '',
             'tokenRequestCustomizerType' => 'null',
             'authTokenValidatorType' => 'null'
         };
@@ -8264,18 +8264,18 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'path' => 'null',
             'oauthClientIdsAllowed' => new List<String>{''},
-            'authBearerSyncIms' => Boolean.getExample(),
+            'authBearerSyncIms' => '',
             'authTokenRequestParameter' => 'null',
             'oauthBearerConfigid' => 'null',
-            'oauthJwtSupport' => Boolean.getExample()
+            'oauthJwtSupport' => ''
         };
 
         OASClient client;
@@ -8308,9 +8308,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -8347,9 +8347,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -8386,9 +8386,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -8428,9 +8428,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -8471,9 +8471,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -8511,9 +8511,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -8551,9 +8551,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -8590,9 +8590,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -8629,9 +8629,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -8640,17 +8640,17 @@ private class OASConfigmgrApiTest {
             'oauthClientSecret' => 'null',
             'oauthScope' => new List<String>{''},
             'oauthConfigProviderId' => 'null',
-            'oauthCreateUsers' => Boolean.getExample(),
+            'oauthCreateUsers' => '',
             'oauthUseridProperty' => 'null',
-            'forceStrictUsernameMatching' => Boolean.getExample(),
-            'oauthEncodeUserids' => Boolean.getExample(),
-            'oauthHashUserids' => Boolean.getExample(),
+            'forceStrictUsernameMatching' => '',
+            'oauthEncodeUserids' => '',
+            'oauthHashUserids' => '',
             'oauthCallBackUrl' => 'null',
-            'oauthAccessTokenPersist' => Boolean.getExample(),
-            'oauthAccessTokenPersistCookie' => Boolean.getExample(),
-            'oauthCsrfStateProtection' => Boolean.getExample(),
-            'oauthRedirectRequestParams' => Boolean.getExample(),
-            'oauthConfigSiblingsAllow' => Boolean.getExample()
+            'oauthAccessTokenPersist' => '',
+            'oauthAccessTokenPersistCookie' => '',
+            'oauthCsrfStateProtection' => '',
+            'oauthRedirectRequestParams' => '',
+            'oauthConfigSiblingsAllow' => ''
         };
 
         OASClient client;
@@ -8683,9 +8683,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -8722,34 +8722,34 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'path' => new List<String>{''},
-            'serviceRanking' => Integer.getExample(),
+            'serviceRanking' => '',
             'idpUrl' => 'null',
             'idpCertAlias' => 'null',
-            'idpHttpRedirect' => Boolean.getExample(),
+            'idpHttpRedirect' => '',
             'serviceProviderEntityId' => 'null',
             'assertionConsumerServiceURL' => 'null',
             'spPrivateKeyAlias' => 'null',
             'keyStorePassword' => 'null',
             'defaultRedirectUrl' => 'null',
             'userIDAttribute' => 'null',
-            'useEncryption' => Boolean.getExample(),
-            'createUser' => Boolean.getExample(),
+            'useEncryption' => '',
+            'createUser' => '',
             'userIntermediatePath' => 'null',
-            'addGroupMemberships' => Boolean.getExample(),
+            'addGroupMemberships' => '',
             'groupMembershipAttribute' => 'null',
             'defaultGroups' => new List<String>{''},
             'nameIdFormat' => 'null',
             'synchronizeAttributes' => new List<String>{''},
-            'handleLogout' => Boolean.getExample(),
+            'handleLogout' => '',
             'logoutUrl' => 'null',
-            'clockTolerance' => Integer.getExample(),
+            'clockTolerance' => '',
             'digestMethod' => 'null',
             'signatureMethod' => 'null',
             'identitySyncType' => 'null',
@@ -8786,17 +8786,17 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'path' => 'null',
-            'serviceRanking' => Integer.getExample(),
+            'serviceRanking' => '',
             'jaasControlFlag' => 'null',
             'jaasRealmName' => 'null',
-            'jaasRanking' => Integer.getExample(),
+            'jaasRanking' => '',
             'headers' => new List<String>{''},
             'cookies' => new List<String>{''},
             'parameters' => new List<String>{''},
@@ -8835,14 +8835,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'hcTags' => new List<String>{''},
-            'minimumCodeCacheSize' => Integer.getExample()
+            'minimumCodeCacheSize' => ''
         };
 
         OASClient client;
@@ -8875,9 +8875,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -8914,9 +8914,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -8953,9 +8953,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -8993,14 +8993,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'hcTags' => new List<String>{''},
-            'maxQueuedJobs' => Integer.getExample()
+            'maxQueuedJobs' => ''
         };
 
         OASClient client;
@@ -9033,9 +9033,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -9072,9 +9072,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -9111,9 +9111,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -9150,9 +9150,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -9189,9 +9189,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -9228,9 +9228,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -9267,14 +9267,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'compatgroups' => new List<String>{''},
-            'enabled' => Boolean.getExample()
+            'enabled' => ''
         };
 
         OASClient client;
@@ -9307,9 +9307,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -9348,9 +9348,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -9388,13 +9388,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'enabled' => Boolean.getExample(),
+            'enabled' => '',
             'fallbackPaths' => new List<String>{''}
         };
 
@@ -9428,14 +9428,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'comAdobeGraniteContexthubSilentMode' => Boolean.getExample(),
-            'comAdobeGraniteContexthubShowUi' => Boolean.getExample()
+            'comAdobeGraniteContexthubSilentMode' => '',
+            'comAdobeGraniteContexthubShowUi' => ''
         };
 
         OASClient client;
@@ -9468,9 +9468,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -9478,10 +9478,10 @@ private class OASConfigmgrApiTest {
             'alloworiginregexp' => new List<String>{''},
             'allowedpaths' => new List<String>{''},
             'exposedheaders' => new List<String>{''},
-            'maxage' => Integer.getExample(),
+            'maxage' => '',
             'supportedheaders' => new List<String>{''},
             'supportedmethods' => new List<String>{''},
-            'supportscredentials' => Boolean.getExample()
+            'supportscredentials' => ''
         };
 
         OASClient client;
@@ -9514,14 +9514,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'filterMethods' => new List<String>{''},
-            'filterEnableSafeUserAgents' => Boolean.getExample(),
+            'filterEnableSafeUserAgents' => '',
             'filterSafeUserAgents' => new List<String>{''},
             'filterExcludedPaths' => new List<String>{''}
         };
@@ -9556,13 +9556,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'csrfTokenExpiresIn' => Integer.getExample(),
+            'csrfTokenExpiresIn' => '',
             'slingAuthRequirements' => 'null'
         };
 
@@ -9596,9 +9596,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -9637,19 +9637,19 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'enabled' => Boolean.getExample(),
+            'enabled' => '',
             'agentName' => 'null',
             'diffPath' => 'null',
             'observedPath' => 'null',
             'serviceName' => 'null',
             'propertyNames' => 'null',
-            'distributionDelay' => Integer.getExample(),
+            'distributionDelay' => '',
             'serviceUserTarget' => 'null'
         };
 
@@ -9683,9 +9683,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -9724,9 +9724,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -9763,14 +9763,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'providerName' => 'null',
-            'forwardRequests' => Boolean.getExample()
+            'forwardRequests' => ''
         };
 
         OASClient client;
@@ -9803,13 +9803,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'forwardRequests' => Boolean.getExample()
+            'forwardRequests' => ''
         };
 
         OASClient client;
@@ -9842,9 +9842,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -9884,9 +9884,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -9926,9 +9926,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -9936,7 +9936,7 @@ private class OASConfigmgrApiTest {
             'featureDescription' => 'null',
             'activePercentage' => 'null',
             'cookieName' => 'null',
-            'cookieMaxAge' => Integer.getExample()
+            'cookieMaxAge' => ''
         };
 
         OASClient client;
@@ -9969,9 +9969,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -10009,9 +10009,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -10048,9 +10048,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -10087,9 +10087,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -10126,14 +10126,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'graniteInfocollectorIncludeThreadDumps' => Boolean.getExample(),
-            'graniteInfocollectorIncludeHeapDump' => Boolean.getExample()
+            'graniteInfocollectorIncludeThreadDumps' => '',
+            'graniteInfocollectorIncludeHeapDump' => ''
         };
 
         OASClient client;
@@ -10166,13 +10166,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'comAdobeGraniteJettySslPort' => Integer.getExample(),
+            'comAdobeGraniteJettySslPort' => '',
             'comAdobeGraniteJettySslKeystoreUser' => 'null',
             'comAdobeGraniteJettySslKeystorePassword' => 'null',
             'comAdobeGraniteJettySslCiphersuitesExcluded' => new List<String>{''},
@@ -10210,15 +10210,15 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'checkInternval' => Integer.getExample(),
+            'checkInternval' => '',
             'excludeIds' => new List<String>{''},
-            'encryptPing' => Boolean.getExample()
+            'encryptPing' => ''
         };
 
         OASClient client;
@@ -10251,15 +10251,15 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'messagesQueueSize' => Integer.getExample(),
+            'messagesQueueSize' => '',
             'loggerConfig' => new List<String>{''},
-            'messagesSize' => Integer.getExample()
+            'messagesSize' => ''
         };
 
         OASClient client;
@@ -10292,9 +10292,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -10331,13 +10331,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'graniteMaintenanceMandatory' => Boolean.getExample(),
+            'graniteMaintenanceMandatory' => '',
             'jobTopics' => 'null'
         };
 
@@ -10371,9 +10371,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -10410,9 +10410,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -10449,9 +10449,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -10459,7 +10459,7 @@ private class OASConfigmgrApiTest {
             'scriptDisplay' => 'null',
             'scriptPath' => 'null',
             'scriptPlatform' => new List<String>{''},
-            'interval' => Integer.getExample(),
+            'interval' => '',
             'jmxdomain' => 'null'
         };
 
@@ -10493,17 +10493,17 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'path' => 'null',
             'jaasControlFlag' => 'null',
             'jaasRealmName' => 'null',
-            'jaasRanking' => Integer.getExample(),
-            'oauthOfflineValidation' => Boolean.getExample()
+            'jaasRanking' => '',
+            'oauthOfflineValidation' => ''
         };
 
         OASClient client;
@@ -10536,9 +10536,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -10575,13 +10575,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'oauthClientRevocationActive' => Boolean.getExample()
+            'oauthClientRevocationActive' => ''
         };
 
         OASClient client;
@@ -10614,14 +10614,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'slingServletPaths' => 'null',
-            'oauthRevocationActive' => Boolean.getExample()
+            'oauthRevocationActive' => ''
         };
 
         OASClient client;
@@ -10654,9 +10654,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -10696,13 +10696,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'oauthTokenRevocationActive' => Boolean.getExample()
+            'oauthTokenRevocationActive' => ''
         };
 
         OASClient client;
@@ -10735,14 +10735,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'offloadingTransporter' => 'null',
-            'offloadingCleanupPayload' => Boolean.getExample()
+            'offloadingCleanupPayload' => ''
         };
 
         OASClient client;
@@ -10775,13 +10775,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'offloadingJobclonerEnabled' => Boolean.getExample()
+            'offloadingJobclonerEnabled' => ''
         };
 
         OASClient client;
@@ -10814,13 +10814,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'offloadingOffloaderEnabled' => Boolean.getExample()
+            'offloadingOffloaderEnabled' => ''
         };
 
         OASClient client;
@@ -10853,13 +10853,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'offloadingAgentmanagerEnabled' => Boolean.getExample()
+            'offloadingAgentmanagerEnabled' => ''
         };
 
         OASClient client;
@@ -10892,9 +10892,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -10902,9 +10902,9 @@ private class OASConfigmgrApiTest {
             'defaultTransportAgentToMasterPrefix' => 'null',
             'defaultTransportInputPackage' => 'null',
             'defaultTransportOutputPackage' => 'null',
-            'defaultTransportReplicationSynchronous' => Boolean.getExample(),
-            'defaultTransportContentpackage' => Boolean.getExample(),
-            'offloadingTransporterDefaultEnabled' => Boolean.getExample()
+            'defaultTransportReplicationSynchronous' => '',
+            'defaultTransportContentpackage' => '',
+            'offloadingTransporterDefaultEnabled' => ''
         };
 
         OASClient client;
@@ -10937,14 +10937,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'omnisearchSuggestionRequiretextMin' => Integer.getExample(),
-            'omnisearchSuggestionSpellcheckRequire' => Boolean.getExample()
+            'omnisearchSuggestionRequiretextMin' => '',
+            'omnisearchSuggestionSpellcheckRequire' => ''
         };
 
         OASClient client;
@@ -10977,9 +10977,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -11018,14 +11018,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'indexingCriticalThreshold' => Integer.getExample(),
-            'indexingWarnThreshold' => Integer.getExample(),
+            'indexingCriticalThreshold' => '',
+            'indexingWarnThreshold' => '',
             'hcTags' => new List<String>{''}
         };
 
@@ -11059,14 +11059,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'largeIndexCriticalThreshold' => Integer.getExample(),
-            'largeIndexWarnThreshold' => Integer.getExample(),
+            'largeIndexCriticalThreshold' => '',
+            'largeIndexWarnThreshold' => '',
             'hcTags' => new List<String>{''}
         };
 
@@ -11100,9 +11100,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -11139,13 +11139,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'getPeriod' => Integer.getExample()
+            'getPeriod' => ''
         };
 
         OASClient client;
@@ -11178,9 +11178,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -11217,13 +11217,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'numberOfRetriesAllowed' => Integer.getExample(),
+            'numberOfRetriesAllowed' => '',
             'hcTags' => new List<String>{''}
         };
 
@@ -11257,9 +11257,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -11296,9 +11296,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -11335,9 +11335,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -11375,9 +11375,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -11414,9 +11414,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -11453,9 +11453,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -11494,15 +11494,15 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'hcTags' => new List<String>{''},
-            'diskSpaceWarnThreshold' => Integer.getExample(),
-            'diskSpaceErrorThreshold' => Integer.getExample()
+            'diskSpaceWarnThreshold' => '',
+            'diskSpaceErrorThreshold' => ''
         };
 
         OASClient client;
@@ -11535,9 +11535,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -11574,20 +11574,20 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'enabled' => Boolean.getExample(),
-            'intervalSeconds' => Integer.getExample(),
-            'commitsPerIntervalThreshold' => Integer.getExample(),
-            'maxLocationLength' => Integer.getExample(),
-            'maxDetailsShown' => Integer.getExample(),
-            'minDetailsPercentage' => Integer.getExample(),
+            'enabled' => '',
+            'intervalSeconds' => '',
+            'commitsPerIntervalThreshold' => '',
+            'maxLocationLength' => '',
+            'maxDetailsShown' => '',
+            'minDetailsPercentage' => '',
             'threadMatchers' => new List<String>{''},
-            'maxGreedyDepth' => Integer.getExample(),
+            'maxGreedyDepth' => '',
             'greedyStackMatchers' => 'null',
             'stackFilters' => new List<String>{''},
             'stackMatchers' => new List<String>{''},
@@ -11625,14 +11625,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'serviceRanking' => Integer.getExample(),
-            'serviceusersSimpleSubjectPopulation' => Boolean.getExample(),
+            'serviceRanking' => '',
+            'serviceusersSimpleSubjectPopulation' => '',
             'serviceusersList' => new List<String>{''}
         };
 
@@ -11666,9 +11666,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -11705,9 +11705,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -11745,9 +11745,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -11784,13 +11784,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'mimeAllowEmpty' => Boolean.getExample(),
+            'mimeAllowEmpty' => '',
             'mimeAllowed' => new List<String>{''}
         };
 
@@ -11824,9 +11824,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -11863,14 +11863,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'defaultLimit' => Integer.getExample(),
-            'useAbsoluteUri' => Boolean.getExample()
+            'defaultLimit' => '',
+            'useAbsoluteUri' => ''
         };
 
         OASClient client;
@@ -11903,9 +11903,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -11942,9 +11942,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -11983,9 +11983,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -12025,9 +12025,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -12065,9 +12065,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -12104,15 +12104,15 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'archivingEnabled' => Boolean.getExample(),
+            'archivingEnabled' => '',
             'schedulerExpression' => 'null',
-            'archiveSinceDaysCompleted' => Integer.getExample()
+            'archiveSinceDaysCompleted' => ''
         };
 
         OASClient client;
@@ -12145,17 +12145,17 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'purgeCompleted' => Boolean.getExample(),
-            'completedAge' => Integer.getExample(),
-            'purgeActive' => Boolean.getExample(),
-            'activeAge' => Integer.getExample(),
-            'saveThreshold' => Integer.getExample()
+            'purgeCompleted' => '',
+            'completedAge' => '',
+            'purgeActive' => '',
+            'activeAge' => '',
+            'saveThreshold' => ''
         };
 
         OASClient client;
@@ -12188,9 +12188,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -12228,20 +12228,20 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'schedulerPeriod' => Integer.getExample(),
+            'schedulerPeriod' => '',
             'schedulerRunOn' => 'null',
-            'graniteThreaddumpEnabled' => Boolean.getExample(),
-            'graniteThreaddumpDumpsPerFile' => Integer.getExample(),
-            'graniteThreaddumpEnableGzipCompression' => Boolean.getExample(),
-            'graniteThreaddumpEnableDirectoriesCompression' => Boolean.getExample(),
-            'graniteThreaddumpEnableJStack' => Boolean.getExample(),
-            'graniteThreaddumpMaxBackupDays' => Integer.getExample(),
+            'graniteThreaddumpEnabled' => '',
+            'graniteThreaddumpDumpsPerFile' => '',
+            'graniteThreaddumpEnableGzipCompression' => '',
+            'graniteThreaddumpEnableDirectoriesCompression' => '',
+            'graniteThreaddumpEnableJStack' => '',
+            'graniteThreaddumpMaxBackupDays' => '',
             'graniteThreaddumpBackupCleanTrigger' => 'null'
         };
 
@@ -12275,9 +12275,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -12288,8 +12288,8 @@ private class OASConfigmgrApiTest {
             'defaultConnectorSubscriptionKey' => 'null',
             'languageMapLocation' => 'null',
             'categoryMapLocation' => 'null',
-            'retryAttempts' => Integer.getExample(),
-            'timeoutCount' => Integer.getExample()
+            'retryAttempts' => '',
+            'timeoutCount' => ''
         };
 
         OASClient client;
@@ -12322,9 +12322,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -12362,20 +12362,20 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'htmllibmanagerTiming' => Boolean.getExample(),
+            'htmllibmanagerTiming' => '',
             'htmllibmanagerDebugInitJs' => 'null',
-            'htmllibmanagerMinify' => Boolean.getExample(),
-            'htmllibmanagerDebug' => Boolean.getExample(),
-            'htmllibmanagerGzip' => Boolean.getExample(),
-            'htmllibmanagerMaxDataUriSize' => Integer.getExample(),
-            'htmllibmanagerMaxage' => Integer.getExample(),
-            'htmllibmanagerForceCQUrlInfo' => Boolean.getExample(),
+            'htmllibmanagerMinify' => '',
+            'htmllibmanagerDebug' => '',
+            'htmllibmanagerGzip' => '',
+            'htmllibmanagerMaxDataUriSize' => '',
+            'htmllibmanagerMaxage' => '',
+            'htmllibmanagerForceCQUrlInfo' => '',
             'htmllibmanagerDefaultthemename' => 'null',
             'htmllibmanagerDefaultuserthemename' => 'null',
             'htmllibmanagerClientmanager' => 'null',
@@ -12385,7 +12385,7 @@ private class OASConfigmgrApiTest {
             'htmllibmanagerProcessorCss' => new List<String>{''},
             'htmllibmanagerLongcachePatterns' => new List<String>{''},
             'htmllibmanagerLongcacheFormat' => 'null',
-            'htmllibmanagerUseFileSystemOutputCache' => Boolean.getExample(),
+            'htmllibmanagerUseFileSystemOutputCache' => '',
             'htmllibmanagerFileSystemOutputCacheLocation' => 'null',
             'htmllibmanagerDisableReplacement' => new List<String>{''}
         };
@@ -12420,13 +12420,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'enabled' => Boolean.getExample()
+            'enabled' => ''
         };
 
         OASClient client;
@@ -12459,13 +12459,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'graniteWorkflowWorkflowPublishEventServiceEnabled' => Boolean.getExample()
+            'graniteWorkflowWorkflowPublishEventServiceEnabled' => ''
         };
 
         OASClient client;
@@ -12498,13 +12498,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'bucketSize' => Integer.getExample()
+            'bucketSize' => ''
         };
 
         OASClient client;
@@ -12537,15 +12537,15 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'defaultTimeout' => Integer.getExample(),
-            'maxTimeout' => Integer.getExample(),
-            'defaultPeriod' => Integer.getExample()
+            'defaultTimeout' => '',
+            'maxTimeout' => '',
+            'defaultPeriod' => ''
         };
 
         OASClient client;
@@ -12578,14 +12578,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'jobTopics' => new List<String>{''},
-            'allowSelfProcessTermination' => Boolean.getExample()
+            'allowSelfProcessTermination' => ''
         };
 
         OASClient client;
@@ -12618,9 +12618,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -12657,9 +12657,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -12697,14 +12697,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'payloadMoveWhiteList' => new List<String>{''},
-            'payloadMoveHandleFromWorkflowProcess' => Boolean.getExample()
+            'payloadMoveHandleFromWorkflowProcess' => ''
         };
 
         OASClient client;
@@ -12737,15 +12737,15 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'cqWorkflowConfigWorkflowPackagesRootPath' => new List<String>{''},
-            'cqWorkflowConfigWorkflowProcessLegacyMode' => Boolean.getExample(),
-            'cqWorkflowConfigAllowLocking' => Boolean.getExample()
+            'cqWorkflowConfigWorkflowProcessLegacyMode' => '',
+            'cqWorkflowConfigAllowLocking' => ''
         };
 
         OASClient client;
@@ -12778,23 +12778,23 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'graniteWorkflowinboxSortPropertyName' => 'null',
             'graniteWorkflowinboxSortOrder' => 'null',
-            'cqWorkflowJobRetry' => Integer.getExample(),
+            'cqWorkflowJobRetry' => '',
             'cqWorkflowSuperuser' => new List<String>{''},
-            'graniteWorkflowInboxQuerySize' => Integer.getExample(),
-            'graniteWorkflowAdminUserGroupFilter' => Boolean.getExample(),
-            'graniteWorkflowEnforceWorkitemAssigneePermissions' => Boolean.getExample(),
-            'graniteWorkflowEnforceWorkflowInitiatorPermissions' => Boolean.getExample(),
-            'graniteWorkflowInjectTenantIdInJobTopics' => Boolean.getExample(),
-            'graniteWorkflowMaxPurgeSaveThreshold' => Integer.getExample(),
-            'graniteWorkflowMaxPurgeQueryCount' => Integer.getExample()
+            'graniteWorkflowInboxQuerySize' => '',
+            'graniteWorkflowAdminUserGroupFilter' => '',
+            'graniteWorkflowEnforceWorkitemAssigneePermissions' => '',
+            'graniteWorkflowEnforceWorkflowInitiatorPermissions' => '',
+            'graniteWorkflowInjectTenantIdInJobTopics' => '',
+            'graniteWorkflowMaxPurgeSaveThreshold' => '',
+            'graniteWorkflowMaxPurgeQueryCount' => ''
         };
 
         OASClient client;
@@ -12827,16 +12827,16 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'scheduledpurgeName' => 'null',
             'scheduledpurgeWorkflowStatus' => 'null',
             'scheduledpurgeModelIds' => new List<String>{''},
-            'scheduledpurgeDaysold' => Integer.getExample()
+            'scheduledpurgeDaysold' => ''
         };
 
         OASClient client;
@@ -12869,17 +12869,17 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'maxConnections' => Integer.getExample(),
-            'maxRequests' => Integer.getExample(),
-            'requestTimeout' => Integer.getExample(),
-            'requestRetries' => Integer.getExample(),
-            'launchTimeout' => Integer.getExample()
+            'maxConnections' => '',
+            'maxRequests' => '',
+            'requestTimeout' => '',
+            'requestRetries' => '',
+            'launchTimeout' => ''
         };
 
         OASClient client;
@@ -12912,9 +12912,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -12951,9 +12951,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -12993,9 +12993,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -13004,10 +13004,10 @@ private class OASConfigmgrApiTest {
             'jdbcUsername' => 'null',
             'jdbcPassword' => 'null',
             'jdbcValidationQuery' => 'null',
-            'defaultReadonly' => Boolean.getExample(),
-            'defaultAutocommit' => Boolean.getExample(),
-            'poolSize' => Integer.getExample(),
-            'poolMaxWaitMsec' => Integer.getExample(),
+            'defaultReadonly' => '',
+            'defaultAutocommit' => '',
+            'poolSize' => '',
+            'poolMaxWaitMsec' => '',
             'datasourceName' => 'null',
             'datasourceSvcProperties' => new List<String>{''}
         };
@@ -13042,13 +13042,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'proxyEnabled' => Boolean.getExample(),
+            'proxyEnabled' => '',
             'proxyHost' => 'null',
             'proxyUser' => 'null',
             'proxyPassword' => 'null',
@@ -13087,9 +13087,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -13126,14 +13126,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'allowedPaths' => new List<String>{''},
-            'cqAnalyticsSaintExporterPagesize' => Integer.getExample()
+            'cqAnalyticsSaintExporterPagesize' => ''
         };
 
         OASClient client;
@@ -13166,14 +13166,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'reportFetchAttempts' => Integer.getExample(),
-            'reportFetchDelay' => Integer.getExample()
+            'reportFetchAttempts' => '',
+            'reportFetchDelay' => ''
         };
 
         OASClient client;
@@ -13206,9 +13206,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -13245,16 +13245,16 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'cqAnalyticsSitecatalystServiceDatacenterUrl' => new List<String>{''},
             'devhostnamepatterns' => new List<String>{''},
-            'connectionTimeout' => Integer.getExample(),
-            'socketTimeout' => Integer.getExample()
+            'connectionTimeout' => '',
+            'socketTimeout' => ''
         };
 
         OASClient client;
@@ -13287,13 +13287,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'cqAnalyticsTestandtargetAccountoptionsupdaterEnabled' => Boolean.getExample()
+            'cqAnalyticsTestandtargetAccountoptionsupdaterEnabled' => ''
         };
 
         OASClient client;
@@ -13326,13 +13326,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'cqAnalyticsTestandtargetDeleteauthoractivitylistenerEnabled' => Boolean.getExample()
+            'cqAnalyticsTestandtargetDeleteauthoractivitylistenerEnabled' => ''
         };
 
         OASClient client;
@@ -13365,13 +13365,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'cqAnalyticsTestandtargetPushauthorcampaignpagelistenerEnabled' => Boolean.getExample()
+            'cqAnalyticsTestandtargetPushauthorcampaignpagelistenerEnabled' => ''
         };
 
         OASClient client;
@@ -13404,13 +13404,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'cqAnalyticsTestandtargetSegmentimporterEnabled' => Boolean.getExample()
+            'cqAnalyticsTestandtargetSegmentimporterEnabled' => ''
         };
 
         OASClient client;
@@ -13443,15 +13443,15 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'endpointUri' => 'null',
-            'connectionTimeout' => Integer.getExample(),
-            'socketTimeout' => Integer.getExample()
+            'connectionTimeout' => '',
+            'socketTimeout' => ''
         };
 
         OASClient client;
@@ -13484,9 +13484,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -13523,15 +13523,15 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'cqAnalyticsTestandtargetApiUrl' => 'null',
-            'cqAnalyticsTestandtargetTimeout' => Integer.getExample(),
-            'cqAnalyticsTestandtargetSockettimeout' => Integer.getExample(),
+            'cqAnalyticsTestandtargetTimeout' => '',
+            'cqAnalyticsTestandtargetSockettimeout' => '',
             'cqAnalyticsTestandtargetRecommendationsUrlReplace' => 'null',
             'cqAnalyticsTestandtargetRecommendationsUrlReplacewith' => 'null'
         };
@@ -13566,14 +13566,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'cugExemptedPrincipals' => new List<String>{''},
-            'cugEnabled' => Boolean.getExample(),
+            'cugEnabled' => '',
             'cugPrincipalsRegex' => 'null',
             'cugPrincipalsReplacement' => 'null'
         };
@@ -13608,20 +13608,20 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'path' => 'null',
-            'serviceRanking' => Integer.getExample(),
+            'serviceRanking' => '',
             'authLoginselectorMappings' => new List<String>{''},
             'authLoginselectorChangepwMappings' => new List<String>{''},
             'authLoginselectorDefaultloginpage' => 'null',
             'authLoginselectorDefaultchangepwpage' => 'null',
             'authLoginselectorHandle' => new List<String>{''},
-            'authLoginselectorHandleAllExtensions' => Boolean.getExample()
+            'authLoginselectorHandleAllExtensions' => ''
         };
 
         OASClient client;
@@ -13654,16 +13654,16 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'externalizerDomains' => new List<String>{''},
             'externalizerHost' => 'null',
             'externalizerContextpath' => 'null',
-            'externalizerEncodedpath' => Boolean.getExample()
+            'externalizerEncodedpath' => ''
         };
 
         OASClient client;
@@ -13696,9 +13696,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -13735,9 +13735,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -13775,9 +13775,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -13814,9 +13814,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -13853,9 +13853,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -13893,15 +13893,15 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'largeFileThreshold' => Integer.getExample(),
-            'largeCommentThreshold' => Integer.getExample(),
-            'cqDamEnableExtMetaExtraction' => Boolean.getExample()
+            'largeFileThreshold' => '',
+            'largeCommentThreshold' => '',
+            'cqDamEnableExtMetaExtraction' => ''
         };
 
         OASClient client;
@@ -13934,15 +13934,15 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'xmpFilterApplyWhitelist' => Boolean.getExample(),
+            'xmpFilterApplyWhitelist' => '',
             'xmpFilterWhitelist' => new List<String>{''},
-            'xmpFilterApplyBlacklist' => Boolean.getExample(),
+            'xmpFilterApplyBlacklist' => '',
             'xmpFilterBlacklist' => new List<String>{''}
         };
 
@@ -13976,14 +13976,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'largeFileMin' => Integer.getExample(),
-            'cacheApply' => Boolean.getExample(),
+            'largeFileMin' => '',
+            'cacheApply' => '',
             'mimeTypes' => new List<String>{''}
         };
 
@@ -14017,28 +14017,28 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'cqDamConfigAnnotationPdfDocumentWidth' => Integer.getExample(),
-            'cqDamConfigAnnotationPdfDocumentHeight' => Integer.getExample(),
-            'cqDamConfigAnnotationPdfDocumentPaddingHorizontal' => Integer.getExample(),
-            'cqDamConfigAnnotationPdfDocumentPaddingVertical' => Integer.getExample(),
-            'cqDamConfigAnnotationPdfFontSize' => Integer.getExample(),
+            'cqDamConfigAnnotationPdfDocumentWidth' => '',
+            'cqDamConfigAnnotationPdfDocumentHeight' => '',
+            'cqDamConfigAnnotationPdfDocumentPaddingHorizontal' => '',
+            'cqDamConfigAnnotationPdfDocumentPaddingVertical' => '',
+            'cqDamConfigAnnotationPdfFontSize' => '',
             'cqDamConfigAnnotationPdfFontColor' => 'null',
             'cqDamConfigAnnotationPdfFontFamily' => 'null',
             'cqDamConfigAnnotationPdfFontLight' => 'null',
-            'cqDamConfigAnnotationPdfMarginTextImage' => Integer.getExample(),
-            'cqDamConfigAnnotationPdfMinImageHeight' => Integer.getExample(),
-            'cqDamConfigAnnotationPdfReviewStatusWidth' => Integer.getExample(),
+            'cqDamConfigAnnotationPdfMarginTextImage' => '',
+            'cqDamConfigAnnotationPdfMinImageHeight' => '',
+            'cqDamConfigAnnotationPdfReviewStatusWidth' => '',
             'cqDamConfigAnnotationPdfReviewStatusColorApproved' => 'null',
             'cqDamConfigAnnotationPdfReviewStatusColorRejected' => 'null',
             'cqDamConfigAnnotationPdfReviewStatusColorChangesRequested' => 'null',
-            'cqDamConfigAnnotationPdfAnnotationMarkerWidth' => Integer.getExample(),
-            'cqDamConfigAnnotationPdfAssetMinheight' => Integer.getExample()
+            'cqDamConfigAnnotationPdfAnnotationMarkerWidth' => '',
+            'cqDamConfigAnnotationPdfAssetMinheight' => ''
         };
 
         OASClient client;
@@ -14071,13 +14071,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'enabled' => Boolean.getExample()
+            'enabled' => ''
         };
 
         OASClient client;
@@ -14110,13 +14110,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'isEnabled' => Boolean.getExample()
+            'isEnabled' => ''
         };
 
         OASClient client;
@@ -14149,13 +14149,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'cqDamAdhocAssetSharePrezipMaxcontentsize' => Integer.getExample()
+            'cqDamAdhocAssetSharePrezipMaxcontentsize' => ''
         };
 
         OASClient client;
@@ -14188,14 +14188,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'cqDamImageCacheMaxMemory' => Integer.getExample(),
-            'cqDamImageCacheMaxAge' => Integer.getExample(),
+            'cqDamImageCacheMaxMemory' => '',
+            'cqDamImageCacheMaxAge' => '',
             'cqDamImageCacheMaxDimension' => 'null'
         };
 
@@ -14229,9 +14229,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -14268,16 +14268,16 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'schedulerExpression' => 'null',
-            'maxSavedActivities' => Integer.getExample(),
-            'saveInterval' => Integer.getExample(),
-            'enableActivityPurge' => Boolean.getExample(),
+            'maxSavedActivities' => '',
+            'saveInterval' => '',
+            'enableActivityPurge' => '',
             'eventTypes' => 'null'
         };
 
@@ -14311,15 +14311,15 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'eventFilter' => 'null',
-            'eventQueueLength' => Integer.getExample(),
-            'eventrecorderEnabled' => Boolean.getExample(),
+            'eventQueueLength' => '',
+            'eventrecorderEnabled' => '',
             'eventrecorderBlacklist' => new List<String>{''},
             'eventrecorderEventtypes' => 'null'
         };
@@ -14354,14 +14354,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'eventFilter' => 'null',
-            'enabled' => Boolean.getExample()
+            'enabled' => ''
         };
 
         OASClient client;
@@ -14394,18 +14394,18 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'cqDamExpiryNotificationSchedulerIstimebased' => Boolean.getExample(),
+            'cqDamExpiryNotificationSchedulerIstimebased' => '',
             'cqDamExpiryNotificationSchedulerTimebasedRule' => 'null',
-            'cqDamExpiryNotificationSchedulerPeriodRule' => Integer.getExample(),
-            'sendEmail' => Boolean.getExample(),
-            'assetExpiredLimit' => Integer.getExample(),
-            'priorNotificationSeconds' => Integer.getExample(),
+            'cqDamExpiryNotificationSchedulerPeriodRule' => '',
+            'sendEmail' => '',
+            'assetExpiredLimit' => '',
+            'priorNotificationSeconds' => '',
             'cqDamExpiryNotificationUrlProtocol' => 'null'
         };
 
@@ -14439,13 +14439,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'isEnabled' => Boolean.getExample()
+            'isEnabled' => ''
         };
 
         OASClient client;
@@ -14478,13 +14478,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'skipBufferedcache' => Boolean.getExample()
+            'skipBufferedcache' => ''
         };
 
         OASClient client;
@@ -14517,9 +14517,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -14556,9 +14556,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -14595,15 +14595,15 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'cqDamEnableExtMetaExtraction' => Boolean.getExample(),
-            'largeFileThreshold' => Integer.getExample(),
-            'largeCommentThreshold' => Integer.getExample()
+            'cqDamEnableExtMetaExtraction' => '',
+            'largeFileThreshold' => '',
+            'largeCommentThreshold' => ''
         };
 
         OASClient client;
@@ -14636,9 +14636,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -14675,21 +14675,21 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'jmxObjectname' => 'null',
-            'propertyMeasureEnabled' => Boolean.getExample(),
+            'propertyMeasureEnabled' => '',
             'propertyName' => 'null',
-            'propertyMaxWaitMs' => Integer.getExample(),
-            'propertyMaxRate' => Double.getExample(),
-            'fulltextMeasureEnabled' => Boolean.getExample(),
+            'propertyMaxWaitMs' => '',
+            'propertyMaxRate' => '',
+            'fulltextMeasureEnabled' => '',
             'fulltextName' => 'null',
-            'fulltextMaxWaitMs' => Integer.getExample(),
-            'fulltextMaxRate' => Double.getExample()
+            'fulltextMaxWaitMs' => '',
+            'fulltextMaxRate' => ''
         };
 
         OASClient client;
@@ -14722,9 +14722,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -14761,14 +14761,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'jmxObjectname' => 'null',
-            'active' => Boolean.getExample()
+            'active' => ''
         };
 
         OASClient client;
@@ -14801,14 +14801,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'operation' => 'null',
-            'emailEnabled' => Boolean.getExample()
+            'emailEnabled' => ''
         };
 
         OASClient client;
@@ -14841,16 +14841,16 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'operation' => 'null',
             'operationIcon' => 'null',
             'topicName' => 'null',
-            'emailEnabled' => Boolean.getExample()
+            'emailEnabled' => ''
         };
 
         OASClient client;
@@ -14883,15 +14883,15 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'slingServletPaths' => 'null',
             'slingServletMethods' => new List<String>{''},
-            'cqDamEnableAnonymous' => Boolean.getExample()
+            'cqDamEnableAnonymous' => ''
         };
 
         OASClient client;
@@ -14924,13 +14924,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'granitedata' => new List<String>{''}
+            'graniteData' => new List<String>{''}
         };
 
         OASClient client;
@@ -14963,13 +14963,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'cqDamAllowAllMime' => Boolean.getExample(),
+            'cqDamAllowAllMime' => '',
             'cqDamAllowedAssetMimes' => new List<String>{''}
         };
 
@@ -15003,13 +15003,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'cqDamDetectAssetMimeFromContent' => Boolean.getExample()
+            'cqDamDetectAssetMimeFromContent' => ''
         };
 
         OASClient client;
@@ -15042,15 +15042,15 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'cqDamMissingmetadataNotificationSchedulerIstimebased' => Boolean.getExample(),
+            'cqDamMissingmetadataNotificationSchedulerIstimebased' => '',
             'cqDamMissingmetadataNotificationSchedulerTimebasedRule' => 'null',
-            'cqDamMissingmetadataNotificationSchedulerPeriodRule' => Integer.getExample(),
+            'cqDamMissingmetadataNotificationSchedulerPeriodRule' => '',
             'cqDamMissingmetadataNotificationRecipient' => 'null'
         };
 
@@ -15084,14 +15084,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'processLabel' => 'null',
-            'notifyOnComplete' => Boolean.getExample()
+            'notifyOnComplete' => ''
         };
 
         OASClient client;
@@ -15124,14 +15124,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'mimeTypes' => new List<String>{''},
-            'maxExtract' => Integer.getExample()
+            'maxExtract' => ''
         };
 
         OASClient client;
@@ -15164,13 +15164,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'xmpPropagate' => Boolean.getExample(),
+            'xmpPropagate' => '',
             'xmpExcludes' => new List<String>{''}
         };
 
@@ -15204,13 +15204,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'queryBatchSize' => Integer.getExample()
+            'queryBatchSize' => ''
         };
 
         OASClient client;
@@ -15243,16 +15243,16 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'schedulerExpression' => 'null',
-            'maxSavedReports' => Integer.getExample(),
-            'timeDuration' => Integer.getExample(),
-            'enableReportPurge' => Boolean.getExample()
+            'maxSavedReports' => '',
+            'timeDuration' => '',
+            'enableReportPurge' => ''
         };
 
         OASClient client;
@@ -15285,13 +15285,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'enabled' => Boolean.getExample()
+            'enabled' => ''
         };
 
         OASClient client;
@@ -15324,13 +15324,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'cqDamBatchStatusMaxassets' => Integer.getExample()
+            'cqDamBatchStatusMaxassets' => ''
         };
 
         OASClient client;
@@ -15363,13 +15363,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'cqDamBatchIndesignMaxassets' => Integer.getExample()
+            'cqDamBatchIndesignMaxassets' => ''
         };
 
         OASClient client;
@@ -15402,15 +15402,15 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'cqDamBatchMetadataAssetDefault' => new List<String>{''},
             'cqDamBatchMetadataCollectionDefault' => new List<String>{''},
-            'cqDamBatchMetadataMaxresources' => Integer.getExample()
+            'cqDamBatchMetadataMaxresources' => ''
         };
 
         OASClient client;
@@ -15443,15 +15443,15 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'slingServletResourceTypes' => new List<String>{''},
             'slingServletMethods' => new List<String>{''},
-            'cqDamDrmEnable' => Boolean.getExample()
+            'cqDamDrmEnable' => ''
         };
 
         OASClient client;
@@ -15484,14 +15484,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'cqDamBatchCollectionProperties' => new List<String>{''},
-            'cqDamBatchCollectionMaxcollections' => Integer.getExample()
+            'cqDamBatchCollectionMaxcollections' => ''
         };
 
         OASClient client;
@@ -15524,14 +15524,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'cqDamBatchCollectionsProperties' => new List<String>{''},
-            'cqDamBatchCollectionsLimit' => Integer.getExample()
+            'cqDamBatchCollectionsLimit' => ''
         };
 
         OASClient client;
@@ -15564,14 +15564,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'moreInfo' => 'null',
-            'mntoverlaydamguicontentassetsmoreinfoHtmlpath' => 'null'
+            'mntOverlayDamGuiContentAssetsMoreinfoHtmlPath' => 'null'
         };
 
         OASClient client;
@@ -15604,13 +15604,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'detectDuplicate' => Boolean.getExample()
+            'detectDuplicate' => ''
         };
 
         OASClient client;
@@ -15643,14 +15643,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'cqMimeTypeBlacklist' => new List<String>{''},
-            'cqDamEmptyMime' => Boolean.getExample()
+            'cqDamEmptyMime' => ''
         };
 
         OASClient client;
@@ -15683,13 +15683,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'cqDamCoreGuidlookupfilterEnabled' => Boolean.getExample()
+            'cqDamCoreGuidlookupfilterEnabled' => ''
         };
 
         OASClient client;
@@ -15722,9 +15722,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -15762,9 +15762,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -15804,13 +15804,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'cqDamDrmEnable' => Boolean.getExample()
+            'cqDamDrmEnable' => ''
         };
 
         OASClient client;
@@ -15843,9 +15843,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -15854,7 +15854,7 @@ private class OASConfigmgrApiTest {
             'slingServletSelectors' => 'null',
             'downloadConfig' => 'null',
             'viewSelector' => 'null',
-            'sendEmail' => Boolean.getExample()
+            'sendEmail' => ''
         };
 
         OASClient client;
@@ -15887,15 +15887,15 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'createPreviewEnabled' => Boolean.getExample(),
-            'updatePreviewEnabled' => Boolean.getExample(),
-            'queueSize' => Integer.getExample(),
+            'createPreviewEnabled' => '',
+            'updatePreviewEnabled' => '',
+            'queueSize' => '',
             'folderPreviewRenditionRegex' => 'null'
         };
 
@@ -15929,13 +15929,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'cqDamConfigUnzipMaxuncompressedsize' => Integer.getExample(),
+            'cqDamConfigUnzipMaxuncompressedsize' => '',
             'cqDamConfigUnzipEncoding' => 'null'
         };
 
@@ -15969,14 +15969,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'processLabel' => 'null',
-            'cqDamEnableSha1' => Boolean.getExample()
+            'cqDamEnableSha1' => ''
         };
 
         OASClient client;
@@ -16009,14 +16009,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'processLabel' => 'null',
-            'cqDamEnableSha1' => Boolean.getExample()
+            'cqDamEnableSha1' => ''
         };
 
         OASClient client;
@@ -16049,14 +16049,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'processLabel' => 'null',
-            'cqDamEnableSha1' => Boolean.getExample(),
+            'cqDamEnableSha1' => '',
             'cqDamMetadataXssprotectedProperties' => new List<String>{''}
         };
 
@@ -16090,9 +16090,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -16129,9 +16129,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -16171,13 +16171,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'rasterAnnotation' => Boolean.getExample()
+            'rasterAnnotation' => ''
         };
 
         OASClient client;
@@ -16210,13 +16210,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'rasterAnnotation' => Boolean.getExample()
+            'rasterAnnotation' => ''
         };
 
         OASClient client;
@@ -16249,13 +16249,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'largeFileThreshold' => Integer.getExample()
+            'largeFileThreshold' => ''
         };
 
         OASClient client;
@@ -16288,16 +16288,16 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'enableMultisession' => Boolean.getExample(),
-            'idsCcEnable' => Boolean.getExample(),
-            'enableRetry' => Boolean.getExample(),
-            'enableRetryScripterror' => Boolean.getExample(),
+            'enableMultisession' => '',
+            'idsCcEnable' => '',
+            'enableRetry' => '',
+            'enableRetryScripterror' => '',
             'externalizerDomainCqhost' => 'null',
             'externalizerDomainHttp' => 'null'
         };
@@ -16332,18 +16332,18 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'maxErrorsToBlacklist' => Integer.getExample(),
-            'retryIntervalToWhitelist' => Integer.getExample(),
-            'connectTimeout' => Integer.getExample(),
-            'socketTimeout' => Integer.getExample(),
+            'maxErrorsToBlacklist' => '',
+            'retryIntervalToWhitelist' => '',
+            'connectTimeout' => '',
+            'socketTimeout' => '',
             'processLabel' => 'null',
-            'connectionUseMax' => Integer.getExample()
+            'connectionUseMax' => ''
         };
 
         OASClient client;
@@ -16376,14 +16376,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'processLabel' => 'null',
-            'extractPages' => Boolean.getExample()
+            'extractPages' => ''
         };
 
         OASClient client;
@@ -16416,13 +16416,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'snippetcreationMaxcollections' => Integer.getExample()
+            'snippetcreationMaxcollections' => ''
         };
 
         OASClient client;
@@ -16455,15 +16455,15 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'processLabel' => 'null',
             'cqDamInddPagesRegex' => 'null',
-            'idsJobDecoupled' => Boolean.getExample(),
+            'idsJobDecoupled' => '',
             'idsJobWorkflowModel' => 'null'
         };
 
@@ -16497,13 +16497,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'batchCommitSize' => Integer.getExample()
+            'batchCommitSize' => ''
         };
 
         OASClient client;
@@ -16536,9 +16536,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -16575,13 +16575,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'deleteZipFile' => Boolean.getExample()
+            'deleteZipFile' => ''
         };
 
         OASClient client;
@@ -16614,13 +16614,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'cqDamS7damDynamicmediaconfigeventlistenerEnabled' => Boolean.getExample()
+            'cqDamS7damDynamicmediaconfigeventlistenerEnabled' => ''
         };
 
         OASClient client;
@@ -16653,14 +16653,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'schedulerExpression' => 'null',
-            'schedulerConcurrent' => Boolean.getExample()
+            'schedulerConcurrent' => ''
         };
 
         OASClient client;
@@ -16693,9 +16693,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -16733,9 +16733,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -16773,9 +16773,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -16812,13 +16812,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'cqDamS7damDamchangeeventlistenerEnabled' => Boolean.getExample()
+            'cqDamS7damDamchangeeventlistenerEnabled' => ''
         };
 
         OASClient client;
@@ -16851,9 +16851,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -16891,19 +16891,19 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'cqDamS7damVideoproxyclientserviceMultipartuploadMinsizeName' => Integer.getExample(),
-            'cqDamS7damVideoproxyclientserviceMultipartuploadPartsizeName' => Integer.getExample(),
-            'cqDamS7damVideoproxyclientserviceMultipartuploadNumthreadName' => Integer.getExample(),
-            'cqDamS7damVideoproxyclientserviceHttpReadtimeoutName' => Integer.getExample(),
-            'cqDamS7damVideoproxyclientserviceHttpConnectiontimeoutName' => Integer.getExample(),
-            'cqDamS7damVideoproxyclientserviceHttpMaxretrycountName' => Integer.getExample(),
-            'cqDamS7damVideoproxyclientserviceUploadprogressIntervalName' => Integer.getExample()
+            'cqDamS7damVideoproxyclientserviceMultipartuploadMinsizeName' => '',
+            'cqDamS7damVideoproxyclientserviceMultipartuploadPartsizeName' => '',
+            'cqDamS7damVideoproxyclientserviceMultipartuploadNumthreadName' => '',
+            'cqDamS7damVideoproxyclientserviceHttpReadtimeoutName' => '',
+            'cqDamS7damVideoproxyclientserviceHttpConnectiontimeoutName' => '',
+            'cqDamS7damVideoproxyclientserviceHttpMaxretrycountName' => '',
+            'cqDamS7damVideoproxyclientserviceUploadprogressIntervalName' => ''
         };
 
         OASClient client;
@@ -16936,14 +16936,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'cqDamScene7ApiclientRecordsperpageNofilterName' => Integer.getExample(),
-            'cqDamScene7ApiclientRecordsperpageWithfilterName' => Integer.getExample()
+            'cqDamScene7ApiclientRecordsperpageNofilterName' => '',
+            'cqDamScene7ApiclientRecordsperpageWithfilterName' => ''
         };
 
         OASClient client;
@@ -16976,9 +16976,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -17015,13 +17015,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'cqDamScene7ConfigurationeventlistenerEnabled' => Boolean.getExample()
+            'cqDamScene7ConfigurationeventlistenerEnabled' => ''
         };
 
         OASClient client;
@@ -17054,13 +17054,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'cqDamScene7DamchangeeventlistenerEnabled' => Boolean.getExample(),
+            'cqDamScene7DamchangeeventlistenerEnabled' => '',
             'cqDamScene7DamchangeeventlistenerObservedPaths' => new List<String>{''}
         };
 
@@ -17094,9 +17094,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -17137,14 +17137,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'cqDamScene7UploadserviceActivejobtimeoutLabel' => Integer.getExample(),
-            'cqDamScene7UploadserviceConnectionmaxperrouteLabel' => Integer.getExample()
+            'cqDamScene7UploadserviceActivejobtimeoutLabel' => '',
+            'cqDamScene7UploadserviceConnectionmaxperrouteLabel' => ''
         };
 
         OASClient client;
@@ -17177,14 +17177,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'getCacheExpirationUnit' => 'null',
-            'getCacheExpirationValue' => Integer.getExample()
+            'getCacheExpirationValue' => ''
         };
 
         OASClient client;
@@ -17217,9 +17217,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -17258,13 +17258,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'enabled' => Boolean.getExample()
+            'enabled' => ''
         };
 
         OASClient client;
@@ -17297,14 +17297,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'maxWidth' => Integer.getExample(),
-            'maxHeight' => Integer.getExample()
+            'maxWidth' => '',
+            'maxHeight' => ''
         };
 
         OASClient client;
@@ -17337,14 +17337,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'fontpath' => new List<String>{''},
-            'oversamplingFactor' => Integer.getExample()
+            'oversamplingFactor' => ''
         };
 
         OASClient client;
@@ -17377,15 +17377,15 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'clusterLevelEnable' => Boolean.getExample(),
-            'clusterMasterLevel' => Integer.getExample(),
-            'clusterSlaveLevel' => Integer.getExample()
+            'clusterLevelEnable' => '',
+            'clusterMasterLevel' => '',
+            'clusterSlaveLevel' => ''
         };
 
         OASClient client;
@@ -17418,20 +17418,20 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'smtpHost' => 'null',
-            'smtpPort' => Integer.getExample(),
+            'smtpPort' => '',
             'smtpUser' => 'null',
             'smtpPassword' => 'null',
             'fromAddress' => 'null',
-            'smtpSsl' => Boolean.getExample(),
-            'smtpStarttls' => Boolean.getExample(),
-            'debugEmail' => Boolean.getExample()
+            'smtpSsl' => '',
+            'smtpStarttls' => '',
+            'debugEmail' => ''
         };
 
         OASClient client;
@@ -17464,9 +17464,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -17503,9 +17503,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -17542,13 +17542,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'mailerEmailEmbed' => Boolean.getExample(),
+            'mailerEmailEmbed' => '',
             'mailerEmailCharset' => 'null',
             'mailerEmailRetrieverUserID' => 'null',
             'mailerEmailRetrieverUserPWD' => 'null'
@@ -17584,15 +17584,15 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'aemMcmCampaignFormConstraints' => new List<String>{''},
             'aemMcmCampaignPublicUrl' => 'null',
-            'aemMcmCampaignRelaxedSSL' => Boolean.getExample()
+            'aemMcmCampaignRelaxedSSL' => ''
         };
 
         OASClient client;
@@ -17625,13 +17625,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'serviceRanking' => Integer.getExample(),
+            'serviceRanking' => '',
             'tagpattern' => 'null'
         };
 
@@ -17665,9 +17665,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -17706,9 +17706,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -17746,13 +17746,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'serviceRanking' => Integer.getExample(),
+            'serviceRanking' => '',
             'tagpattern' => 'null',
             'componentResourceType' => 'null'
         };
@@ -17787,13 +17787,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'serviceRanking' => Integer.getExample(),
+            'serviceRanking' => '',
             'tagpattern' => 'null',
             'componentResourceType' => 'null'
         };
@@ -17828,13 +17828,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'serviceRanking' => Integer.getExample(),
+            'serviceRanking' => '',
             'tagpattern' => 'null'
         };
 
@@ -17868,13 +17868,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'serviceRanking' => Integer.getExample(),
+            'serviceRanking' => '',
             'tagpattern' => 'null'
         };
 
@@ -17908,13 +17908,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'serviceRanking' => Integer.getExample(),
+            'serviceRanking' => '',
             'tagpattern' => 'null',
             'componentResourceType' => 'null'
         };
@@ -17949,9 +17949,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -17988,13 +17988,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'forcelocation' => Boolean.getExample()
+            'forcelocation' => ''
         };
 
         OASClient client;
@@ -18027,16 +18027,16 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'id' => 'null',
-            'enabled' => Boolean.getExample(),
-            'reference' => Boolean.getExample(),
-            'interval' => Integer.getExample(),
+            'enabled' => '',
+            'reference' => '',
+            'interval' => '',
             'expression' => 'null',
             'source' => 'null',
             'target' => 'null',
@@ -18074,9 +18074,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -18113,13 +18113,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'importerMinInterval' => Integer.getExample(),
+            'importerMinInterval' => '',
             'importerUser' => 'null',
             'excludePaths' => new List<String>{''},
             'includePaths' => new List<String>{''}
@@ -18155,13 +18155,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'serviceRanking' => Integer.getExample()
+            'serviceRanking' => ''
         };
 
         OASClient client;
@@ -18194,14 +18194,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'host' => 'null',
-            'port' => Integer.getExample()
+            'port' => ''
         };
 
         OASClient client;
@@ -18234,9 +18234,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -18275,13 +18275,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'binaryThreshold' => Integer.getExample()
+            'binaryThreshold' => ''
         };
 
         OASClient client;
@@ -18314,21 +18314,21 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'preserveHierarchyNodes' => Boolean.getExample(),
-            'ignoreVersioning' => Boolean.getExample(),
-            'importAcl' => Boolean.getExample(),
-            'saveThreshold' => Integer.getExample(),
-            'preserveUserPaths' => Boolean.getExample(),
-            'preserveUuid' => Boolean.getExample(),
+            'preserveHierarchyNodes' => '',
+            'ignoreVersioning' => '',
+            'importAcl' => '',
+            'saveThreshold' => '',
+            'preserveUserPaths' => '',
+            'preserveUuid' => '',
             'preserveUuidNodetypes' => new List<String>{''},
             'preserveUuidSubtrees' => new List<String>{''},
-            'autoCommit' => Boolean.getExample()
+            'autoCommit' => ''
         };
 
         OASClient client;
@@ -18361,14 +18361,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'replicationContentUseFileStorage' => Boolean.getExample(),
-            'replicationContentMaxCommitAttempts' => Integer.getExample()
+            'replicationContentUseFileStorage' => '',
+            'replicationContentMaxCommitAttempts' => ''
         };
 
         OASClient client;
@@ -18401,14 +18401,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'receiverTmpfileThreshold' => Integer.getExample(),
-            'receiverPackagesUseInstall' => Boolean.getExample()
+            'receiverTmpfileThreshold' => '',
+            'receiverPackagesUseInstall' => ''
         };
 
         OASClient client;
@@ -18441,13 +18441,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'distributeEvents' => Boolean.getExample()
+            'distributeEvents' => ''
         };
 
         OASClient client;
@@ -18480,13 +18480,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'schedulerPeriod' => Integer.getExample()
+            'schedulerPeriod' => ''
         };
 
         OASClient client;
@@ -18519,9 +18519,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -18559,9 +18559,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -18599,15 +18599,15 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'repcacheEnable' => Boolean.getExample(),
-            'repcacheTtl' => Integer.getExample(),
-            'repcacheMax' => Integer.getExample()
+            'repcacheEnable' => '',
+            'repcacheTtl' => '',
+            'repcacheMax' => ''
         };
 
         OASClient client;
@@ -18640,9 +18640,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -18650,12 +18650,12 @@ private class OASConfigmgrApiTest {
             'repconfLocale' => 'null',
             'repconfSnapshots' => 'null',
             'repconfRepdir' => 'null',
-            'repconfHourofday' => Integer.getExample(),
-            'repconfMinofhour' => Integer.getExample(),
-            'repconfMaxrows' => Integer.getExample(),
-            'repconfFakedata' => Boolean.getExample(),
+            'repconfHourofday' => '',
+            'repconfMinofhour' => '',
+            'repconfMaxrows' => '',
+            'repconfFakedata' => '',
             'repconfSnapshotuser' => 'null',
-            'repconfEnforcesnapshotuser' => Boolean.getExample()
+            'repconfEnforcesnapshotuser' => ''
         };
 
         OASClient client;
@@ -18688,9 +18688,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -18727,17 +18727,17 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'schedulerPeriod' => Integer.getExample(),
-            'schedulerConcurrent' => Boolean.getExample(),
-            'serviceBadLinkToleranceInterval' => Integer.getExample(),
+            'schedulerPeriod' => '',
+            'schedulerConcurrent' => '',
+            'serviceBadLinkToleranceInterval' => '',
             'serviceCheckOverridePatterns' => new List<String>{''},
-            'serviceCacheBrokenInternalLinks' => Boolean.getExample(),
+            'serviceCacheBrokenInternalLinks' => '',
             'serviceSpecialLinkPrefix' => new List<String>{''},
             'serviceSpecialLinkPatterns' => new List<String>{''}
         };
@@ -18772,18 +18772,18 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'schedulerPeriod' => Integer.getExample(),
-            'schedulerConcurrent' => Boolean.getExample(),
-            'goodLinkTestInterval' => Integer.getExample(),
-            'badLinkTestInterval' => Integer.getExample(),
-            'linkUnusedInterval' => Integer.getExample(),
-            'connectionTimeout' => Integer.getExample()
+            'schedulerPeriod' => '',
+            'schedulerConcurrent' => '',
+            'goodLinkTestInterval' => '',
+            'badLinkTestInterval' => '',
+            'linkUnusedInterval' => '',
+            'connectionTimeout' => ''
         };
 
         OASClient client;
@@ -18816,17 +18816,17 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'linkcheckertransformerDisableRewriting' => Boolean.getExample(),
-            'linkcheckertransformerDisableChecking' => Boolean.getExample(),
-            'linkcheckertransformerMapCacheSize' => Integer.getExample(),
-            'linkcheckertransformerStrictExtensionCheck' => Boolean.getExample(),
-            'linkcheckertransformerStripHtmltExtension' => Boolean.getExample(),
+            'linkcheckertransformerDisableRewriting' => '',
+            'linkcheckertransformerDisableChecking' => '',
+            'linkcheckertransformerMapCacheSize' => '',
+            'linkcheckertransformerStrictExtensionCheck' => '',
+            'linkcheckertransformerStripHtmltExtension' => '',
             'linkcheckertransformerRewriteElements' => new List<String>{''},
             'linkcheckertransformerStripExtensionPathBlacklist' => new List<String>{''}
         };
@@ -18861,14 +18861,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'serviceMaxLinksPerHost' => Integer.getExample(),
-            'serviceSaveExternalLinkReferences' => Boolean.getExample()
+            'serviceMaxLinksPerHost' => '',
+            'serviceSaveExternalLinkReferences' => ''
         };
 
         OASClient client;
@@ -18901,14 +18901,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'htmlparserProcessTags' => new List<String>{''},
-            'htmlparserPreserveCamelCase' => Boolean.getExample()
+            'htmlparserPreserveCamelCase' => ''
         };
 
         OASClient client;
@@ -18941,16 +18941,16 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'excerptProperties' => new List<String>{''},
-            'cacheMaxEntries' => Integer.getExample(),
-            'cacheEntryLifetime' => Integer.getExample(),
-            'xpathUnion' => Boolean.getExample()
+            'cacheMaxEntries' => '',
+            'cacheEntryLifetime' => '',
+            'xpathUnion' => ''
         };
 
         OASClient client;
@@ -18983,9 +18983,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -19023,13 +19023,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'cqSearchpromoteConfighandlerEnabled' => Boolean.getExample()
+            'cqSearchpromoteConfighandlerEnabled' => ''
         };
 
         OASClient client;
@@ -19062,16 +19062,16 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'cqSearchpromoteConfigurationServerUri' => 'null',
             'cqSearchpromoteConfigurationEnvironment' => 'null',
-            'connectionTimeout' => Integer.getExample(),
-            'socketTimeout' => Integer.getExample()
+            'connectionTimeout' => '',
+            'socketTimeout' => ''
         };
 
         OASClient client;
@@ -19104,9 +19104,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -19143,18 +19143,18 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'schedulerPeriod' => Integer.getExample(),
-            'schedulerConcurrent' => Boolean.getExample(),
+            'schedulerPeriod' => '',
+            'schedulerConcurrent' => '',
             'path' => 'null',
             'workspace' => 'null',
             'keywordsPath' => 'null',
-            'asyncEntries' => Boolean.getExample()
+            'asyncEntries' => ''
         };
 
         OASClient client;
@@ -19187,13 +19187,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'validationEnabled' => Boolean.getExample()
+            'validationEnabled' => ''
         };
 
         OASClient client;
@@ -19226,13 +19226,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'ignorePath' => Boolean.getExample()
+            'ignorePath' => ''
         };
 
         OASClient client;
@@ -19265,9 +19265,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -19304,9 +19304,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -19343,9 +19343,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -19387,9 +19387,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -19426,9 +19426,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -19465,14 +19465,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'dimDefaultMode' => 'null',
-            'dimAppcacheEnabled' => Boolean.getExample()
+            'dimAppcacheEnabled' => ''
         };
 
         OASClient client;
@@ -19505,9 +19505,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -19544,9 +19544,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -19583,9 +19583,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -19623,9 +19623,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -19662,9 +19662,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -19702,20 +19702,20 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'linkExpiredPrefix' => 'null',
-            'linkExpiredRemove' => Boolean.getExample(),
+            'linkExpiredRemove' => '',
             'linkExpiredSuffix' => 'null',
             'linkInvalidPrefix' => 'null',
-            'linkInvalidRemove' => Boolean.getExample(),
+            'linkInvalidRemove' => '',
             'linkInvalidSuffix' => 'null',
             'linkPredatedPrefix' => 'null',
-            'linkPredatedRemove' => Boolean.getExample(),
+            'linkPredatedRemove' => '',
             'linkPredatedSuffix' => 'null',
             'linkWcmmodes' => new List<String>{''}
         };
@@ -19750,9 +19750,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -19790,14 +19790,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'illegalCharMapping' => 'null',
-            'pageSubTreeActivationCheck' => Boolean.getExample()
+            'pageSubTreeActivationCheck' => ''
         };
 
         OASClient client;
@@ -19830,9 +19830,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -19869,15 +19869,15 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'damShowexpired' => Boolean.getExample(),
-            'damShowhidden' => Boolean.getExample(),
-            'tagTitleSearch' => Boolean.getExample(),
+            'damShowexpired' => '',
+            'damShowhidden' => '',
+            'tagTitleSearch' => '',
             'guessTotal' => 'null',
             'damExpiryProperty' => 'null'
         };
@@ -19912,9 +19912,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -19951,14 +19951,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'guessTotal' => 'null',
-            'tagTitleSearch' => Boolean.getExample()
+            'tagTitleSearch' => ''
         };
 
         OASClient client;
@@ -19991,9 +19991,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -20030,14 +20030,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'referencesearchservletMaxReferencesPerPage' => Integer.getExample(),
-            'referencesearchservletMaxPages' => Integer.getExample()
+            'referencesearchservletMaxReferencesPerPage' => '',
+            'referencesearchservletMaxPages' => ''
         };
 
         OASClient client;
@@ -20070,9 +20070,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -20110,9 +20110,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -20149,9 +20149,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -20188,19 +20188,19 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'versionmanagerCreateVersionOnActivation' => Boolean.getExample(),
-            'versionmanagerPurgingEnabled' => Boolean.getExample(),
+            'versionmanagerCreateVersionOnActivation' => '',
+            'versionmanagerPurgingEnabled' => '',
             'versionmanagerPurgePaths' => new List<String>{''},
             'versionmanagerIvPaths' => new List<String>{''},
-            'versionmanagerMaxAgeDays' => Integer.getExample(),
-            'versionmanagerMaxNumberVersions' => Integer.getExample(),
-            'versionmanagerMinNumberVersions' => Integer.getExample()
+            'versionmanagerMaxAgeDays' => '',
+            'versionmanagerMaxNumberVersions' => '',
+            'versionmanagerMinNumberVersions' => ''
         };
 
         OASClient client;
@@ -20233,17 +20233,17 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'versionpurgePaths' => new List<String>{''},
-            'versionpurgeRecursive' => Boolean.getExample(),
-            'versionpurgeMaxVersions' => Integer.getExample(),
-            'versionpurgeMinVersions' => Integer.getExample(),
-            'versionpurgeMaxAgeDays' => Integer.getExample()
+            'versionpurgeRecursive' => '',
+            'versionpurgeMaxVersions' => '',
+            'versionpurgeMinVersions' => '',
+            'versionpurgeMaxAgeDays' => ''
         };
 
         OASClient client;
@@ -20276,14 +20276,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'wcmdbgfilterEnabled' => Boolean.getExample(),
-            'wcmdbgfilterJspDebug' => Boolean.getExample()
+            'wcmdbgfilterEnabled' => '',
+            'wcmdbgfilterJspDebug' => ''
         };
 
         OASClient client;
@@ -20316,13 +20316,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'wcmdevmodefilterEnabled' => Boolean.getExample()
+            'wcmdevmodefilterEnabled' => ''
         };
 
         OASClient client;
@@ -20355,9 +20355,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -20395,9 +20395,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -20434,9 +20434,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -20474,9 +20474,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -20513,9 +20513,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -20552,16 +20552,16 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'filepattern' => 'null',
-            'buildPageNodes' => Boolean.getExample(),
-            'buildClientLibs' => Boolean.getExample(),
-            'buildCanvasComponent' => Boolean.getExample()
+            'buildPageNodes' => '',
+            'buildClientLibs' => '',
+            'buildCanvasComponent' => ''
         };
 
         OASClient client;
@@ -20594,14 +20594,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'minThreadPoolSize' => Integer.getExample(),
-            'maxThreadPoolSize' => Integer.getExample()
+            'minThreadPoolSize' => '',
+            'maxThreadPoolSize' => ''
         };
 
         OASClient client;
@@ -20634,9 +20634,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -20674,17 +20674,17 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'filepattern' => 'null',
             'deviceGroups' => new List<String>{''},
-            'buildPageNodes' => Boolean.getExample(),
-            'buildClientLibs' => Boolean.getExample(),
-            'buildCanvasComponent' => Boolean.getExample()
+            'buildPageNodes' => '',
+            'buildClientLibs' => '',
+            'buildCanvasComponent' => ''
         };
 
         OASClient client;
@@ -20717,13 +20717,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'serviceRanking' => Integer.getExample(),
+            'serviceRanking' => '',
             'tagpattern' => 'null'
         };
 
@@ -20757,13 +20757,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'serviceRanking' => Integer.getExample(),
+            'serviceRanking' => '',
             'tagpattern' => 'null'
         };
 
@@ -20797,13 +20797,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'serviceRanking' => Integer.getExample(),
+            'serviceRanking' => '',
             'tagpattern' => 'null'
         };
 
@@ -20837,13 +20837,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'serviceRanking' => Integer.getExample(),
+            'serviceRanking' => '',
             'tagpattern' => 'null'
         };
 
@@ -20877,13 +20877,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'serviceRanking' => Integer.getExample(),
+            'serviceRanking' => '',
             'tagpattern' => 'null'
         };
 
@@ -20917,13 +20917,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'serviceRanking' => Integer.getExample(),
+            'serviceRanking' => '',
             'tagpattern' => 'null',
             'componentResourceType' => 'null'
         };
@@ -20958,13 +20958,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'serviceRanking' => Integer.getExample(),
+            'serviceRanking' => '',
             'tagpattern' => 'null'
         };
 
@@ -20998,13 +20998,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'serviceRanking' => Integer.getExample(),
+            'serviceRanking' => '',
             'tagpattern' => 'null'
         };
 
@@ -21038,13 +21038,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'serviceRanking' => Integer.getExample(),
+            'serviceRanking' => '',
             'tagpattern' => 'null'
         };
 
@@ -21078,13 +21078,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'serviceRanking' => Integer.getExample(),
+            'serviceRanking' => '',
             'tagpattern' => 'null'
         };
 
@@ -21118,13 +21118,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'serviceRanking' => Integer.getExample(),
+            'serviceRanking' => '',
             'tagpattern' => 'null'
         };
 
@@ -21158,13 +21158,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'serviceRanking' => Integer.getExample(),
+            'serviceRanking' => '',
             'tagpattern' => 'null',
             'componentResourceType' => 'null'
         };
@@ -21199,13 +21199,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'serviceRanking' => Integer.getExample(),
+            'serviceRanking' => '',
             'tagpattern' => 'null'
         };
 
@@ -21239,13 +21239,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'serviceRanking' => Integer.getExample(),
+            'serviceRanking' => '',
             'tagpattern' => 'null'
         };
 
@@ -21279,13 +21279,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'serviceRanking' => Integer.getExample(),
+            'serviceRanking' => '',
             'tagpattern' => 'null',
             'componentResourceType' => 'null'
         };
@@ -21320,13 +21320,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'serviceRanking' => Integer.getExample(),
+            'serviceRanking' => '',
             'tagpattern' => 'null',
             'componentResourceType' => 'null'
         };
@@ -21361,13 +21361,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'serviceRanking' => Integer.getExample(),
+            'serviceRanking' => '',
             'tagpattern' => 'null'
         };
 
@@ -21401,9 +21401,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -21411,7 +21411,7 @@ private class OASConfigmgrApiTest {
             'slingServletResourceTypes' => 'null',
             'slingServletSelectors' => 'null',
             'slingServletMethods' => new List<String>{''},
-            'formsFormchooserservletAdvansesearchRequire' => Boolean.getExample()
+            'formsFormchooserservletAdvansesearchRequire' => ''
         };
 
         OASClient client;
@@ -21444,13 +21444,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'formsFormparagraphpostprocessorEnabled' => Boolean.getExample(),
+            'formsFormparagraphpostprocessorEnabled' => '',
             'formsFormparagraphpostprocessorFormresourcetypes' => new List<String>{''}
         };
 
@@ -21484,14 +21484,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'nameWhitelist' => 'null',
-            'allowExpressions' => Boolean.getExample()
+            'allowExpressions' => ''
         };
 
         OASClient client;
@@ -21524,9 +21524,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -21566,9 +21566,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -21605,14 +21605,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'path' => 'null',
-            'authHttpNologin' => Boolean.getExample(),
+            'authHttpNologin' => '',
             'authHttpRealm' => 'null',
             'authDefaultLoginpage' => 'null',
             'authCredForm' => new List<String>{''},
@@ -21649,9 +21649,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -21688,9 +21688,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -21727,9 +21727,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -21767,9 +21767,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -21813,13 +21813,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'deviceInfoTransformerEnabled' => Boolean.getExample(),
+            'deviceInfoTransformerEnabled' => '',
             'deviceInfoTransformerCssStyle' => 'null'
         };
 
@@ -21853,14 +21853,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'redirectEnabled' => Boolean.getExample(),
-            'redirectStatsEnabled' => Boolean.getExample(),
+            'redirectEnabled' => '',
+            'redirectStatsEnabled' => '',
             'redirectExtensions' => new List<String>{''},
             'redirectPaths' => new List<String>{''}
         };
@@ -21895,9 +21895,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -21937,9 +21937,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -21978,9 +21978,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -22020,9 +22020,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -22061,16 +22061,16 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'cqWcmMsmActionExcludednodetypes' => new List<String>{''},
             'cqWcmMsmActionExcludedparagraphitems' => new List<String>{''},
             'cqWcmMsmActionExcludedprops' => new List<String>{''},
-            'cqWcmMsmImplActionsPagemovePropReferenceUpdate' => Boolean.getExample()
+            'cqWcmMsmImplActionsPagemovePropReferenceUpdate' => ''
         };
 
         OASClient client;
@@ -22103,16 +22103,16 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'cqWcmMsmActionExcludednodetypes' => new List<String>{''},
             'cqWcmMsmActionExcludedparagraphitems' => new List<String>{''},
             'cqWcmMsmActionExcludedprops' => new List<String>{''},
-            'cqWcmMsmImplActionReferencesupdatePropUpdateNested' => Boolean.getExample()
+            'cqWcmMsmImplActionReferencesupdatePropUpdateNested' => ''
         };
 
         OASClient client;
@@ -22145,9 +22145,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -22186,9 +22186,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -22225,9 +22225,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -22235,11 +22235,11 @@ private class OASConfigmgrApiTest {
             'rolloutmgrExcludedpropsDefault' => new List<String>{''},
             'rolloutmgrExcludedparagraphpropsDefault' => new List<String>{''},
             'rolloutmgrExcludednodetypesDefault' => new List<String>{''},
-            'rolloutmgrThreadpoolMaxsize' => Integer.getExample(),
-            'rolloutmgrThreadpoolMaxshutdowntime' => Integer.getExample(),
+            'rolloutmgrThreadpoolMaxsize' => '',
+            'rolloutmgrThreadpoolMaxshutdowntime' => '',
             'rolloutmgrThreadpoolPriority' => 'null',
-            'rolloutmgrCommitSize' => Integer.getExample(),
-            'rolloutmgrConflicthandlingEnabled' => Boolean.getExample()
+            'rolloutmgrCommitSize' => '',
+            'rolloutmgrConflicthandlingEnabled' => ''
         };
 
         OASClient client;
@@ -22272,13 +22272,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'auditlogservletDefaultEventsCount' => Integer.getExample(),
+            'auditlogservletDefaultEventsCount' => '',
             'auditlogservletDefaultPath' => 'null'
         };
 
@@ -22312,9 +22312,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -22351,9 +22351,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -22390,9 +22390,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -22429,18 +22429,18 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'cqWcmUndoEnabled' => Boolean.getExample(),
+            'cqWcmUndoEnabled' => '',
             'cqWcmUndoPath' => 'null',
-            'cqWcmUndoValidity' => Integer.getExample(),
-            'cqWcmUndoSteps' => Integer.getExample(),
+            'cqWcmUndoValidity' => '',
+            'cqWcmUndoSteps' => '',
             'cqWcmUndoPersistence' => 'null',
-            'cqWcmUndoPersistenceMode' => Boolean.getExample(),
+            'cqWcmUndoPersistenceMode' => '',
             'cqWcmUndoMarkermode' => 'null',
             'cqWcmUndoWhitelist' => new List<String>{''},
             'cqWcmUndoBlacklist' => new List<String>{''}
@@ -22476,9 +22476,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -22515,16 +22515,16 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'eventFilter' => 'null',
-            'minThreadPoolSize' => Integer.getExample(),
-            'maxThreadPoolSize' => Integer.getExample(),
-            'cqWcmWorkflowTerminateOnActivate' => Boolean.getExample(),
+            'minThreadPoolSize' => '',
+            'maxThreadPoolSize' => '',
+            'cqWcmWorkflowTerminateOnActivate' => '',
             'cqWcmWorklfowTerminateExclusionList' => new List<String>{''}
         };
 
@@ -22558,9 +22558,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -22598,26 +22598,26 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'htmllibmanagerClientmanager' => 'null',
-            'htmllibmanagerDebug' => Boolean.getExample(),
-            'htmllibmanagerDebugConsole' => Boolean.getExample(),
+            'htmllibmanagerDebug' => '',
+            'htmllibmanagerDebugConsole' => '',
             'htmllibmanagerDebugInitJs' => 'null',
             'htmllibmanagerDefaultthemename' => 'null',
             'htmllibmanagerDefaultuserthemename' => 'null',
             'htmllibmanagerFirebuglitePath' => 'null',
-            'htmllibmanagerForceCQUrlInfo' => Boolean.getExample(),
-            'htmllibmanagerGzip' => Boolean.getExample(),
-            'htmllibmanagerMaxage' => Integer.getExample(),
-            'htmllibmanagerMaxDataUriSize' => Integer.getExample(),
-            'htmllibmanagerMinify' => Boolean.getExample(),
+            'htmllibmanagerForceCQUrlInfo' => '',
+            'htmllibmanagerGzip' => '',
+            'htmllibmanagerMaxage' => '',
+            'htmllibmanagerMaxDataUriSize' => '',
+            'htmllibmanagerMinify' => '',
             'htmllibmanagerPathList' => new List<String>{''},
-            'htmllibmanagerTiming' => Boolean.getExample()
+            'htmllibmanagerTiming' => ''
         };
 
         OASClient client;
@@ -22650,14 +22650,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'extendableWidgets' => new List<String>{''},
-            'widgetextensionproviderDebug' => Boolean.getExample()
+            'widgetextensionproviderDebug' => ''
         };
 
         OASClient client;
@@ -22690,18 +22690,18 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'fromAddress' => 'null',
             'hostPrefix' => 'null',
-            'notifyOnabort' => Boolean.getExample(),
-            'notifyOncomplete' => Boolean.getExample(),
-            'notifyOncontainercomplete' => Boolean.getExample(),
-            'notifyUseronly' => Boolean.getExample()
+            'notifyOnabort' => '',
+            'notifyOncomplete' => '',
+            'notifyOncontainercomplete' => '',
+            'notifyUseronly' => ''
         };
 
         OASClient client;
@@ -22734,14 +22734,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'notifyOnupdate' => Boolean.getExample(),
-            'notifyOncomplete' => Boolean.getExample()
+            'notifyOnupdate' => '',
+            'notifyOncomplete' => ''
         };
 
         OASClient client;
@@ -22774,16 +22774,16 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'path' => 'null',
             'tokenRequiredAttr' => 'null',
             'tokenAlternateUrl' => 'null',
-            'tokenEncapsulated' => Boolean.getExample(),
+            'tokenEncapsulated' => '',
             'skipTokenRefresh' => new List<String>{''}
         };
 
@@ -22817,15 +22817,15 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'enableTokenCleanupTask' => Boolean.getExample(),
+            'enableTokenCleanupTask' => '',
             'schedulerExpression' => 'null',
-            'batchSize' => Integer.getExample()
+            'batchSize' => ''
         };
 
         OASClient client;
@@ -22858,9 +22858,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -22898,13 +22898,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'priority' => Integer.getExample()
+            'priority' => ''
         };
 
         OASClient client;
@@ -22937,13 +22937,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'attributeChangeNotificationEnabled' => Boolean.getExample()
+            'attributeChangeNotificationEnabled' => ''
         };
 
         OASClient client;
@@ -22976,16 +22976,16 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'orgApacheFelixEventadminThreadPoolSize' => Integer.getExample(),
-            'orgApacheFelixEventadminAsyncToSyncThreadRatio' => Double.getExample(),
-            'orgApacheFelixEventadminTimeout' => Integer.getExample(),
-            'orgApacheFelixEventadminRequireTopic' => Boolean.getExample(),
+            'orgApacheFelixEventadminThreadPoolSize' => '',
+            'orgApacheFelixEventadminAsyncToSyncThreadRatio' => '',
+            'orgApacheFelixEventadminTimeout' => '',
+            'orgApacheFelixEventadminRequireTopic' => '',
             'orgApacheFelixEventadminIgnoreTimeout' => new List<String>{''},
             'orgApacheFelixEventadminIgnoreTopic' => new List<String>{''}
         };
@@ -23020,18 +23020,18 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'orgApacheFelixHttpHost' => 'null',
-            'orgApacheFelixHttpEnable' => Boolean.getExample(),
-            'orgOsgiServiceHttpPort' => Integer.getExample(),
-            'orgApacheFelixHttpTimeout' => Integer.getExample(),
-            'orgApacheFelixHttpsEnable' => Boolean.getExample(),
-            'orgOsgiServiceHttpPortSecure' => Integer.getExample(),
+            'orgApacheFelixHttpEnable' => '',
+            'orgOsgiServiceHttpPort' => '',
+            'orgApacheFelixHttpTimeout' => '',
+            'orgApacheFelixHttpsEnable' => '',
+            'orgOsgiServiceHttpPortSecure' => '',
             'orgApacheFelixHttpsKeystore' => 'null',
             'orgApacheFelixHttpsKeystorePassword' => 'null',
             'orgApacheFelixHttpsKeystoreKeyPassword' => 'null',
@@ -23039,37 +23039,37 @@ private class OASConfigmgrApiTest {
             'orgApacheFelixHttpsTruststorePassword' => 'null',
             'orgApacheFelixHttpsClientcertificate' => 'null',
             'orgApacheFelixHttpContextPath' => 'null',
-            'orgApacheFelixHttpMbeans' => Boolean.getExample(),
-            'orgApacheFelixHttpSessionTimeout' => Integer.getExample(),
-            'orgApacheFelixHttpJettyThreadpoolMax' => Integer.getExample(),
-            'orgApacheFelixHttpJettyAcceptors' => Integer.getExample(),
-            'orgApacheFelixHttpJettySelectors' => Integer.getExample(),
-            'orgApacheFelixHttpJettyHeaderBufferSize' => Integer.getExample(),
-            'orgApacheFelixHttpJettyRequestBufferSize' => Integer.getExample(),
-            'orgApacheFelixHttpJettyResponseBufferSize' => Integer.getExample(),
-            'orgApacheFelixHttpJettyMaxFormSize' => Integer.getExample(),
+            'orgApacheFelixHttpMbeans' => '',
+            'orgApacheFelixHttpSessionTimeout' => '',
+            'orgApacheFelixHttpJettyThreadpoolMax' => '',
+            'orgApacheFelixHttpJettyAcceptors' => '',
+            'orgApacheFelixHttpJettySelectors' => '',
+            'orgApacheFelixHttpJettyHeaderBufferSize' => '',
+            'orgApacheFelixHttpJettyRequestBufferSize' => '',
+            'orgApacheFelixHttpJettyResponseBufferSize' => '',
+            'orgApacheFelixHttpJettyMaxFormSize' => '',
             'orgApacheFelixHttpPathExclusions' => new List<String>{''},
             'orgApacheFelixHttpsJettyCiphersuitesExcluded' => new List<String>{''},
             'orgApacheFelixHttpsJettyCiphersuitesIncluded' => new List<String>{''},
-            'orgApacheFelixHttpJettySendServerHeader' => Boolean.getExample(),
+            'orgApacheFelixHttpJettySendServerHeader' => '',
             'orgApacheFelixHttpsJettyProtocolsIncluded' => new List<String>{''},
             'orgApacheFelixHttpsJettyProtocolsExcluded' => new List<String>{''},
-            'orgApacheFelixProxyLoadBalancerConnectionEnable' => Boolean.getExample(),
-            'orgApacheFelixHttpsJettyRenegotiateAllowed' => Boolean.getExample(),
-            'orgApacheFelixHttpsJettySessionCookieHttpOnly' => Boolean.getExample(),
-            'orgApacheFelixHttpsJettySessionCookieSecure' => Boolean.getExample(),
+            'orgApacheFelixProxyLoadBalancerConnectionEnable' => '',
+            'orgApacheFelixHttpsJettyRenegotiateAllowed' => '',
+            'orgApacheFelixHttpsJettySessionCookieHttpOnly' => '',
+            'orgApacheFelixHttpsJettySessionCookieSecure' => '',
             'orgEclipseJettyServletSessionIdPathParameterName' => 'null',
-            'orgEclipseJettyServletCheckingRemoteSessionIdEncoding' => Boolean.getExample(),
+            'orgEclipseJettyServletCheckingRemoteSessionIdEncoding' => '',
             'orgEclipseJettyServletSessionCookie' => 'null',
             'orgEclipseJettyServletSessionDomain' => 'null',
             'orgEclipseJettyServletSessionPath' => 'null',
-            'orgEclipseJettyServletMaxAge' => Integer.getExample(),
+            'orgEclipseJettyServletMaxAge' => '',
             'orgApacheFelixHttpName' => 'null',
-            'orgApacheFelixJettyGziphandlerEnable' => Boolean.getExample(),
-            'orgApacheFelixJettyGzipMinGzipSize' => Integer.getExample(),
-            'orgApacheFelixJettyGzipCompressionLevel' => Integer.getExample(),
-            'orgApacheFelixJettyGzipInflateBufferSize' => Integer.getExample(),
-            'orgApacheFelixJettyGzipSyncFlush' => Boolean.getExample(),
+            'orgApacheFelixJettyGziphandlerEnable' => '',
+            'orgApacheFelixJettyGzipMinGzipSize' => '',
+            'orgApacheFelixJettyGzipCompressionLevel' => '',
+            'orgApacheFelixJettyGzipInflateBufferSize' => '',
+            'orgApacheFelixJettyGzipSyncFlush' => '',
             'orgApacheFelixJettyGzipExcludedUserAgents' => new List<String>{''},
             'orgApacheFelixJettyGzipIncludedMethods' => new List<String>{''},
             'orgApacheFelixJettyGzipExcludedMethods' => new List<String>{''},
@@ -23077,8 +23077,8 @@ private class OASConfigmgrApiTest {
             'orgApacheFelixJettyGzipExcludedPaths' => new List<String>{''},
             'orgApacheFelixJettyGzipIncludedMimeTypes' => new List<String>{''},
             'orgApacheFelixJettyGzipExcludedMimeTypes' => new List<String>{''},
-            'orgApacheFelixHttpSessionInvalidate' => Boolean.getExample(),
-            'orgApacheFelixHttpSessionUniqueid' => Boolean.getExample()
+            'orgApacheFelixHttpSessionInvalidate' => '',
+            'orgApacheFelixHttpSessionUniqueid' => ''
         };
 
         OASClient client;
@@ -23111,16 +23111,16 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'sslForwardHeader' => 'null',
             'sslForwardValue' => 'null',
             'sslForwardCertHeader' => 'null',
-            'rewriteAbsoluteUrls' => Boolean.getExample()
+            'rewriteAbsoluteUrls' => ''
         };
 
         OASClient client;
@@ -23153,14 +23153,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'jaasControlFlag' => 'null',
-            'jaasRanking' => Integer.getExample(),
+            'jaasRanking' => '',
             'jaasRealmName' => 'null',
             'jaasClassname' => 'null',
             'jaasOptions' => new List<String>{''}
@@ -23196,9 +23196,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -23237,18 +23237,18 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'dsLoglevel' => Integer.getExample(),
-            'dsFactoryEnabled' => Boolean.getExample(),
-            'dsDelayedKeepInstances' => Boolean.getExample(),
-            'dsLockTimeoutMilliseconds' => Integer.getExample(),
-            'dsStopTimeoutMilliseconds' => Integer.getExample(),
-            'dsGlobalExtender' => Boolean.getExample()
+            'dsLoglevel' => '',
+            'dsFactoryEnabled' => '',
+            'dsDelayedKeepInstances' => '',
+            'dsLockTimeoutMilliseconds' => '',
+            'dsStopTimeoutMilliseconds' => '',
+            'dsGlobalExtender' => ''
         };
 
         OASClient client;
@@ -23281,14 +23281,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'componentsList' => new List<String>{''},
-            'r_type' => 'null'
+            'type' => 'null'
         };
 
         OASClient client;
@@ -23321,16 +23321,16 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'timeout' => Integer.getExample(),
-            'targetStartLevel' => Integer.getExample(),
+            'timeout' => '',
+            'targetStartLevel' => '',
             'targetStartLevelPropName' => 'null',
-            'r_type' => 'null'
+            'type' => 'null'
         };
 
         OASClient client;
@@ -23363,14 +23363,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'servicesList' => new List<String>{''},
-            'r_type' => 'null'
+            'type' => 'null'
         };
 
         OASClient client;
@@ -23403,9 +23403,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -23443,9 +23443,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -23483,13 +23483,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'pollInterval' => Integer.getExample()
+            'pollInterval' => ''
         };
 
         OASClient client;
@@ -23522,9 +23522,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -23536,7 +23536,7 @@ private class OASConfigmgrApiTest {
             'password' => 'null',
             'category' => 'null',
             'locale' => 'null',
-            'loglevel' => Integer.getExample(),
+            'loglevel' => '',
             'plugins' => 'null'
         };
 
@@ -23570,13 +23570,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'maxSize' => Integer.getExample()
+            'maxSize' => ''
         };
 
         OASClient client;
@@ -23609,14 +23609,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'felixMemoryusageDumpThreshold' => Integer.getExample(),
-            'felixMemoryusageDumpInterval' => Integer.getExample(),
+            'felixMemoryusageDumpThreshold' => '',
+            'felixMemoryusageDumpInterval' => '',
             'felixMemoryusageDumpLocation' => 'null'
         };
 
@@ -23650,15 +23650,15 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'proxyEnabled' => Boolean.getExample(),
+            'proxyEnabled' => '',
             'proxyHost' => 'null',
-            'proxyPort' => Integer.getExample(),
+            'proxyPort' => '',
             'proxyUser' => 'null',
             'proxyPassword' => 'null',
             'proxyExceptions' => new List<String>{''}
@@ -23694,9 +23694,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -23733,9 +23733,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -23772,40 +23772,40 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'mongouri' => 'null',
             'db' => 'null',
-            'socketKeepAlive' => Boolean.getExample(),
-            'cache' => Integer.getExample(),
-            'nodeCachePercentage' => Integer.getExample(),
-            'prevDocCachePercentage' => Integer.getExample(),
-            'childrenCachePercentage' => Integer.getExample(),
-            'diffCachePercentage' => Integer.getExample(),
-            'cacheSegmentCount' => Integer.getExample(),
-            'cacheStackMoveDistance' => Integer.getExample(),
-            'blobCacheSize' => Integer.getExample(),
+            'socketKeepAlive' => '',
+            'cache' => '',
+            'nodeCachePercentage' => '',
+            'prevDocCachePercentage' => '',
+            'childrenCachePercentage' => '',
+            'diffCachePercentage' => '',
+            'cacheSegmentCount' => '',
+            'cacheStackMoveDistance' => '',
+            'blobCacheSize' => '',
             'persistentCache' => 'null',
             'journalCache' => 'null',
-            'customBlobStore' => Boolean.getExample(),
-            'journalGCInterval' => Integer.getExample(),
-            'journalGCMaxAge' => Integer.getExample(),
-            'prefetchExternalChanges' => Boolean.getExample(),
+            'customBlobStore' => '',
+            'journalGCInterval' => '',
+            'journalGCMaxAge' => '',
+            'prefetchExternalChanges' => '',
             'role' => 'null',
-            'versionGcMaxAgeInSecs' => Integer.getExample(),
+            'versionGcMaxAgeInSecs' => '',
             'versionGCExpression' => 'null',
-            'versionGCTimeLimitInSecs' => Integer.getExample(),
-            'blobGcMaxAgeInSecs' => Integer.getExample(),
-            'blobTrackSnapshotIntervalInSecs' => Integer.getExample(),
+            'versionGCTimeLimitInSecs' => '',
+            'blobGcMaxAgeInSecs' => '',
+            'blobTrackSnapshotIntervalInSecs' => '',
             'repositoryHome' => 'null',
-            'maxReplicationLagInSecs' => Integer.getExample(),
+            'maxReplicationLagInSecs' => '',
             'documentStoreType' => 'null',
-            'bundlingDisabled' => Boolean.getExample(),
-            'updateLimit' => Integer.getExample(),
+            'bundlingDisabled' => '',
+            'updateLimit' => '',
             'persistentCacheIncludes' => new List<String>{''},
             'leaseCheckMode' => 'null'
         };
@@ -23840,9 +23840,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -23879,15 +23879,15 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'includedPaths' => new List<String>{''},
-            'enableAsyncObserver' => Boolean.getExample(),
-            'observerQueueSize' => Integer.getExample()
+            'enableAsyncObserver' => '',
+            'observerQueueSize' => ''
         };
 
         OASClient client;
@@ -23920,16 +23920,16 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'asyncConfigs' => new List<String>{''},
-            'leaseTimeOutMinutes' => Integer.getExample(),
-            'failingIndexTimeoutSeconds' => Integer.getExample(),
-            'errorWarnIntervalSeconds' => Integer.getExample()
+            'leaseTimeOutMinutes' => '',
+            'failingIndexTimeoutSeconds' => '',
+            'errorWarnIntervalSeconds' => ''
         };
 
         OASClient client;
@@ -23962,28 +23962,28 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'disabled' => Boolean.getExample(),
-            'debug' => Boolean.getExample(),
+            'disabled' => '',
+            'debug' => '',
             'localIndexDir' => 'null',
-            'enableOpenIndexAsync' => Boolean.getExample(),
-            'threadPoolSize' => Integer.getExample(),
-            'prefetchIndexFiles' => Boolean.getExample(),
-            'extractedTextCacheSizeInMB' => Integer.getExample(),
-            'extractedTextCacheExpiryInSecs' => Integer.getExample(),
-            'alwaysUsePreExtractedCache' => Boolean.getExample(),
-            'booleanClauseLimit' => Integer.getExample(),
-            'enableHybridIndexing' => Boolean.getExample(),
-            'hybridQueueSize' => Integer.getExample(),
-            'disableStoredIndexDefinition' => Boolean.getExample(),
-            'deletedBlobsCollectionEnabled' => Boolean.getExample(),
-            'propIndexCleanerIntervalInSecs' => Integer.getExample(),
-            'enableSingleBlobIndexFiles' => Boolean.getExample()
+            'enableOpenIndexAsync' => '',
+            'threadPoolSize' => '',
+            'prefetchIndexFiles' => '',
+            'extractedTextCacheSizeInMB' => '',
+            'extractedTextCacheExpiryInSecs' => '',
+            'alwaysUsePreExtractedCache' => '',
+            'booleanClauseLimit' => '',
+            'enableHybridIndexing' => '',
+            'hybridQueueSize' => '',
+            'disableStoredIndexDefinition' => '',
+            'deletedBlobsCollectionEnabled' => '',
+            'propIndexCleanerIntervalInSecs' => '',
+            'enableSingleBlobIndexFiles' => ''
         };
 
         OASClient client;
@@ -24016,9 +24016,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -24056,13 +24056,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'enabled' => Boolean.getExample()
+            'enabled' => ''
         };
 
         OASClient client;
@@ -24095,9 +24095,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -24109,15 +24109,15 @@ private class OASConfigmgrApiTest {
             'collapsedPathField' => 'null',
             'pathDepthField' => 'null',
             'commitPolicy' => 'null',
-            'rows' => Integer.getExample(),
-            'pathRestrictions' => Boolean.getExample(),
-            'propertyRestrictions' => Boolean.getExample(),
-            'primarytypesRestrictions' => Boolean.getExample(),
+            'rows' => '',
+            'pathRestrictions' => '',
+            'propertyRestrictions' => '',
+            'primarytypesRestrictions' => '',
             'ignoredProperties' => new List<String>{''},
             'usedProperties' => new List<String>{''},
             'typeMappings' => new List<String>{''},
             'propertyMappings' => new List<String>{''},
-            'collapseJcrcontentNodes' => Boolean.getExample()
+            'collapseJcrcontentNodes' => ''
         };
 
         OASClient client;
@@ -24150,19 +24150,19 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'solrHttpUrl' => 'null',
             'solrZkHost' => 'null',
             'solrCollection' => 'null',
-            'solrSocketTimeout' => Integer.getExample(),
-            'solrConnectionTimeout' => Integer.getExample(),
-            'solrShardsNo' => Integer.getExample(),
-            'solrReplicationFactor' => Integer.getExample(),
+            'solrSocketTimeout' => '',
+            'solrConnectionTimeout' => '',
+            'solrShardsNo' => '',
+            'solrReplicationFactor' => '',
             'solrConfDir' => 'null'
         };
 
@@ -24196,13 +24196,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'queryAggregation' => Boolean.getExample()
+            'queryAggregation' => ''
         };
 
         OASClient client;
@@ -24235,9 +24235,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -24274,9 +24274,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -24313,15 +24313,15 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'maxItems' => Integer.getExample(),
-            'maxPathDepth' => Integer.getExample(),
-            'enabled' => Boolean.getExample()
+            'maxItems' => '',
+            'maxPathDepth' => '',
+            'enabled' => ''
         };
 
         OASClient client;
@@ -24354,16 +24354,16 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'queryLimitInMemory' => Integer.getExample(),
-            'queryLimitReads' => Integer.getExample(),
-            'queryFailTraversal' => Boolean.getExample(),
-            'fastQuerySize' => Boolean.getExample()
+            'queryLimitInMemory' => '',
+            'queryLimitReads' => '',
+            'queryFailTraversal' => '',
+            'fastQuerySize' => ''
         };
 
         OASClient client;
@@ -24396,9 +24396,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -24436,37 +24436,37 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'providerName' => 'null',
             'hostName' => 'null',
-            'hostPort' => Integer.getExample(),
-            'hostSsl' => Boolean.getExample(),
-            'hostTls' => Boolean.getExample(),
-            'hostNoCertCheck' => Boolean.getExample(),
+            'hostPort' => '',
+            'hostSsl' => '',
+            'hostTls' => '',
+            'hostNoCertCheck' => '',
             'bindDn' => 'null',
             'bindPassword' => 'null',
             'searchTimeout' => 'null',
-            'adminPoolMaxActive' => Integer.getExample(),
-            'adminPoolLookupOnValidate' => Boolean.getExample(),
-            'userPoolMaxActive' => Integer.getExample(),
-            'userPoolLookupOnValidate' => Boolean.getExample(),
+            'adminPoolMaxActive' => '',
+            'adminPoolLookupOnValidate' => '',
+            'userPoolMaxActive' => '',
+            'userPoolLookupOnValidate' => '',
             'userBaseDN' => 'null',
             'userObjectclass' => new List<String>{''},
             'userIdAttribute' => 'null',
             'userExtraFilter' => 'null',
-            'userMakeDnPath' => Boolean.getExample(),
+            'userMakeDnPath' => '',
             'groupBaseDN' => 'null',
             'groupObjectclass' => new List<String>{''},
             'groupNameAttribute' => 'null',
             'groupExtraFilter' => 'null',
-            'groupMakeDnPath' => Boolean.getExample(),
+            'groupMakeDnPath' => '',
             'groupMemberAttribute' => 'null',
-            'useUidForExtId' => Boolean.getExample(),
+            'useUidForExtId' => '',
             'customattributes' => new List<String>{''}
         };
 
@@ -24500,19 +24500,19 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'tokenExpiration' => 'null',
             'tokenLength' => 'null',
-            'tokenRefresh' => Boolean.getExample(),
-            'tokenCleanupThreshold' => Integer.getExample(),
+            'tokenRefresh' => '',
+            'tokenCleanupThreshold' => '',
             'passwordHashAlgorithm' => 'null',
-            'passwordHashIterations' => Integer.getExample(),
-            'passwordSaltSize' => Integer.getExample()
+            'passwordHashIterations' => '',
+            'passwordSaltSize' => ''
         };
 
         OASClient client;
@@ -24545,9 +24545,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -24555,7 +24555,7 @@ private class OASConfigmgrApiTest {
             'importBehavior' => 'null',
             'readPaths' => new List<String>{''},
             'administrativePrincipals' => new List<String>{''},
-            'configurationRanking' => Integer.getExample()
+            'configurationRanking' => ''
         };
 
         OASClient client;
@@ -24588,9 +24588,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -24628,13 +24628,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'length' => Integer.getExample()
+            'length' => ''
         };
 
         OASClient client;
@@ -24667,28 +24667,28 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'usersPath' => 'null',
             'groupsPath' => 'null',
             'systemRelativePath' => 'null',
-            'defaultDepth' => Integer.getExample(),
+            'defaultDepth' => '',
             'importBehavior' => 'null',
             'passwordHashAlgorithm' => 'null',
-            'passwordHashIterations' => Integer.getExample(),
-            'passwordSaltSize' => Integer.getExample(),
-            'omitAdminPw' => Boolean.getExample(),
-            'supportAutoSave' => Boolean.getExample(),
-            'passwordMaxAge' => Integer.getExample(),
-            'initialPasswordChange' => Boolean.getExample(),
-            'passwordHistorySize' => Integer.getExample(),
-            'passwordExpiryForAdmin' => Boolean.getExample(),
-            'cacheExpiration' => Integer.getExample(),
-            'enableRFC7613UsercaseMappedProfile' => Boolean.getExample()
+            'passwordHashIterations' => '',
+            'passwordSaltSize' => '',
+            'omitAdminPw' => '',
+            'supportAutoSave' => '',
+            'passwordMaxAge' => '',
+            'initialPasswordChange' => '',
+            'passwordHistorySize' => '',
+            'passwordExpiryForAdmin' => '',
+            'cacheExpiration' => '',
+            'enableRFC7613UsercaseMappedProfile' => ''
         };
 
         OASClient client;
@@ -24721,9 +24721,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -24764,39 +24764,39 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'repositoryHome' => 'null',
             'tarmkMode' => 'null',
-            'tarmkSize' => Integer.getExample(),
-            'segmentCacheSize' => Integer.getExample(),
-            'stringCacheSize' => Integer.getExample(),
-            'templateCacheSize' => Integer.getExample(),
-            'stringDeduplicationCacheSize' => Integer.getExample(),
-            'templateDeduplicationCacheSize' => Integer.getExample(),
-            'nodeDeduplicationCacheSize' => Integer.getExample(),
-            'pauseCompaction' => Boolean.getExample(),
-            'compactionRetryCount' => Integer.getExample(),
-            'compactionForceTimeout' => Integer.getExample(),
-            'compactionSizeDeltaEstimation' => Integer.getExample(),
-            'compactionDisableEstimation' => Boolean.getExample(),
-            'compactionRetainedGenerations' => Integer.getExample(),
-            'compactionMemoryThreshold' => Integer.getExample(),
-            'compactionProgressLog' => Integer.getExample(),
-            'standby' => Boolean.getExample(),
-            'customBlobStore' => Boolean.getExample(),
-            'customSegmentStore' => Boolean.getExample(),
-            'splitPersistence' => Boolean.getExample(),
+            'tarmkSize' => '',
+            'segmentCacheSize' => '',
+            'stringCacheSize' => '',
+            'templateCacheSize' => '',
+            'stringDeduplicationCacheSize' => '',
+            'templateDeduplicationCacheSize' => '',
+            'nodeDeduplicationCacheSize' => '',
+            'pauseCompaction' => '',
+            'compactionRetryCount' => '',
+            'compactionForceTimeout' => '',
+            'compactionSizeDeltaEstimation' => '',
+            'compactionDisableEstimation' => '',
+            'compactionRetainedGenerations' => '',
+            'compactionMemoryThreshold' => '',
+            'compactionProgressLog' => '',
+            'standby' => '',
+            'customBlobStore' => '',
+            'customSegmentStore' => '',
+            'splitPersistence' => '',
             'repositoryBackupDir' => 'null',
-            'blobGcMaxAgeInSecs' => Integer.getExample(),
-            'blobTrackSnapshotIntervalInSecs' => Integer.getExample(),
+            'blobGcMaxAgeInSecs' => '',
+            'blobTrackSnapshotIntervalInSecs' => '',
             'role' => 'null',
-            'registerDescriptors' => Boolean.getExample(),
-            'dispatchChanges' => Boolean.getExample()
+            'registerDescriptors' => '',
+            'dispatchChanges' => ''
         };
 
         OASClient client;
@@ -24829,9 +24829,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -24868,36 +24868,36 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'repositoryHome' => 'null',
             'tarmkMode' => 'null',
-            'tarmkSize' => Integer.getExample(),
-            'segmentCacheSize' => Integer.getExample(),
-            'stringCacheSize' => Integer.getExample(),
-            'templateCacheSize' => Integer.getExample(),
-            'stringDeduplicationCacheSize' => Integer.getExample(),
-            'templateDeduplicationCacheSize' => Integer.getExample(),
-            'nodeDeduplicationCacheSize' => Integer.getExample(),
-            'pauseCompaction' => Boolean.getExample(),
-            'compactionRetryCount' => Integer.getExample(),
-            'compactionForceTimeout' => Integer.getExample(),
-            'compactionSizeDeltaEstimation' => Integer.getExample(),
-            'compactionDisableEstimation' => Boolean.getExample(),
-            'compactionRetainedGenerations' => Integer.getExample(),
-            'compactionMemoryThreshold' => Integer.getExample(),
-            'compactionProgressLog' => Integer.getExample(),
-            'standby' => Boolean.getExample(),
-            'customBlobStore' => Boolean.getExample(),
-            'customSegmentStore' => Boolean.getExample(),
-            'splitPersistence' => Boolean.getExample(),
+            'tarmkSize' => '',
+            'segmentCacheSize' => '',
+            'stringCacheSize' => '',
+            'templateCacheSize' => '',
+            'stringDeduplicationCacheSize' => '',
+            'templateDeduplicationCacheSize' => '',
+            'nodeDeduplicationCacheSize' => '',
+            'pauseCompaction' => '',
+            'compactionRetryCount' => '',
+            'compactionForceTimeout' => '',
+            'compactionSizeDeltaEstimation' => '',
+            'compactionDisableEstimation' => '',
+            'compactionRetainedGenerations' => '',
+            'compactionMemoryThreshold' => '',
+            'compactionProgressLog' => '',
+            'standby' => '',
+            'customBlobStore' => '',
+            'customSegmentStore' => '',
+            'splitPersistence' => '',
             'repositoryBackupDir' => 'null',
-            'blobGcMaxAgeInSecs' => Integer.getExample(),
-            'blobTrackSnapshotIntervalInSecs' => Integer.getExample()
+            'blobGcMaxAgeInSecs' => '',
+            'blobTrackSnapshotIntervalInSecs' => ''
         };
 
         OASClient client;
@@ -24930,21 +24930,21 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'orgApacheSlingInstallerConfigurationPersist' => Boolean.getExample(),
+            'orgApacheSlingInstallerConfigurationPersist' => '',
             'mode' => 'null',
-            'port' => Integer.getExample(),
+            'port' => '',
             'primaryHost' => 'null',
-            'interval' => Integer.getExample(),
+            'interval' => '',
             'primaryAllowedClientIpRanges' => new List<String>{''},
-            'secure' => Boolean.getExample(),
-            'standbyReadtimeout' => Integer.getExample(),
-            'standbyAutoclean' => Boolean.getExample()
+            'secure' => '',
+            'standbyReadtimeout' => '',
+            'standbyAutoclean' => ''
         };
 
         OASClient client;
@@ -24977,9 +24977,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -24989,14 +24989,14 @@ private class OASConfigmgrApiTest {
             'userPropertyMapping' => new List<String>{''},
             'userPathPrefix' => 'null',
             'userMembershipExpTime' => 'null',
-            'userMembershipNestingDepth' => Integer.getExample(),
-            'userDynamicMembership' => Boolean.getExample(),
-            'userDisableMissing' => Boolean.getExample(),
+            'userMembershipNestingDepth' => '',
+            'userDynamicMembership' => '',
+            'userDisableMissing' => '',
             'groupExpirationTime' => 'null',
             'groupAutoMembership' => new List<String>{''},
             'groupPropertyMapping' => new List<String>{''},
             'groupPathPrefix' => 'null',
-            'enableRFC7613UsercaseMappedProfile' => Boolean.getExample()
+            'enableRFC7613UsercaseMappedProfile' => ''
         };
 
         OASClient client;
@@ -25029,13 +25029,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'jaasRanking' => Integer.getExample(),
+            'jaasRanking' => '',
             'jaasControlFlag' => 'null',
             'jaasRealmName' => 'null',
             'idpName' => 'null',
@@ -25072,13 +25072,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'protectExternalId' => Boolean.getExample()
+            'protectExternalId' => ''
         };
 
         OASClient client;
@@ -25111,15 +25111,15 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'cugSupportedPaths' => new List<String>{''},
-            'cugEnabled' => Boolean.getExample(),
-            'configurationRanking' => Integer.getExample()
+            'cugEnabled' => '',
+            'configurationRanking' => ''
         };
 
         OASClient client;
@@ -25152,9 +25152,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -25191,9 +25191,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -25233,9 +25233,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -25272,9 +25272,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -25311,9 +25311,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -25351,13 +25351,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'enabled' => Boolean.getExample()
+            'enabled' => ''
         };
 
         OASClient client;
@@ -25390,9 +25390,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -25429,13 +25429,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'enabled' => Boolean.getExample(),
+            'enabled' => '',
             'configPropertyInheritancePropertyNames' => new List<String>{''}
         };
 
@@ -25469,13 +25469,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'enabled' => Boolean.getExample()
+            'enabled' => ''
         };
 
         OASClient client;
@@ -25508,16 +25508,16 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'description' => 'null',
             'overrides' => new List<String>{''},
-            'enabled' => Boolean.getExample(),
-            'serviceRanking' => Integer.getExample()
+            'enabled' => '',
+            'serviceRanking' => ''
         };
 
         OASClient client;
@@ -25550,14 +25550,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'enabled' => Boolean.getExample(),
-            'serviceRanking' => Integer.getExample()
+            'enabled' => '',
+            'serviceRanking' => ''
         };
 
         OASClient client;
@@ -25590,9 +25590,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -25630,13 +25630,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'enabled' => Boolean.getExample(),
+            'enabled' => '',
             'configPath' => 'null',
             'fallbackPaths' => new List<String>{''},
             'configCollectionInheritancePropertyNames' => new List<String>{''}
@@ -25672,16 +25672,16 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'enabled' => Boolean.getExample(),
+            'enabled' => '',
             'configRefResourceNames' => new List<String>{''},
             'configRefPropertyNames' => new List<String>{''},
-            'serviceRanking' => Integer.getExample()
+            'serviceRanking' => ''
         };
 
         OASClient client;
@@ -25714,9 +25714,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -25753,22 +25753,22 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'orgApacheSlingCommonsLogLevel' => 'null',
             'orgApacheSlingCommonsLogFile' => 'null',
-            'orgApacheSlingCommonsLogFileNumber' => Integer.getExample(),
+            'orgApacheSlingCommonsLogFileNumber' => '',
             'orgApacheSlingCommonsLogFileSize' => 'null',
             'orgApacheSlingCommonsLogPattern' => 'null',
             'orgApacheSlingCommonsLogConfigurationFile' => 'null',
-            'orgApacheSlingCommonsLogPackagingDataEnabled' => Boolean.getExample(),
-            'orgApacheSlingCommonsLogMaxCallerDataDepth' => Integer.getExample(),
-            'orgApacheSlingCommonsLogMaxOldFileCountInDump' => Integer.getExample(),
-            'orgApacheSlingCommonsLogNumOfLines' => Integer.getExample()
+            'orgApacheSlingCommonsLogPackagingDataEnabled' => '',
+            'orgApacheSlingCommonsLogMaxCallerDataDepth' => '',
+            'orgApacheSlingCommonsLogMaxOldFileCountInDump' => '',
+            'orgApacheSlingCommonsLogNumOfLines' => ''
         };
 
         OASClient client;
@@ -25801,9 +25801,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -25811,7 +25811,7 @@ private class OASConfigmgrApiTest {
             'orgApacheSlingCommonsLogFile' => 'null',
             'orgApacheSlingCommonsLogPattern' => 'null',
             'orgApacheSlingCommonsLogNames' => new List<String>{''},
-            'orgApacheSlingCommonsLogAdditiv' => Boolean.getExample()
+            'orgApacheSlingCommonsLogAdditiv' => ''
         };
 
         OASClient client;
@@ -25844,16 +25844,16 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'orgApacheSlingCommonsLogFile' => 'null',
-            'orgApacheSlingCommonsLogFileNumber' => Integer.getExample(),
+            'orgApacheSlingCommonsLogFileNumber' => '',
             'orgApacheSlingCommonsLogFileSize' => 'null',
-            'orgApacheSlingCommonsLogFileBuffered' => Boolean.getExample()
+            'orgApacheSlingCommonsLogFileBuffered' => ''
         };
 
         OASClient client;
@@ -25886,13 +25886,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'period' => Integer.getExample(),
+            'period' => '',
             'timeUnit' => 'null',
             'level' => 'null',
             'loggerName' => 'null',
@@ -25931,14 +25931,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'datasources' => new List<String>{''},
-            'step' => Integer.getExample(),
+            'step' => '',
             'archives' => new List<String>{''},
             'path' => 'null'
         };
@@ -25973,9 +25973,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -26012,17 +26012,17 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'poolName' => 'null',
             'allowedPoolNames' => new List<String>{''},
-            'schedulerUseleaderforsingle' => Boolean.getExample(),
+            'schedulerUseleaderforsingle' => '',
             'metricsFilters' => new List<String>{''},
-            'slowThresholdMillis' => Integer.getExample()
+            'slowThresholdMillis' => ''
         };
 
         OASClient client;
@@ -26055,13 +26055,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'maxQuartzJobDurationAcceptable' => Integer.getExample()
+            'maxQuartzJobDurationAcceptable' => ''
         };
 
         OASClient client;
@@ -26094,22 +26094,22 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'name' => 'null',
-            'minPoolSize' => Integer.getExample(),
-            'maxPoolSize' => Integer.getExample(),
-            'queueSize' => Integer.getExample(),
-            'maxThreadAge' => Integer.getExample(),
-            'keepAliveTime' => Integer.getExample(),
+            'minPoolSize' => '',
+            'maxPoolSize' => '',
+            'queueSize' => '',
+            'maxThreadAge' => '',
+            'keepAliveTime' => '',
             'blockPolicy' => 'null',
-            'shutdownGraceful' => Boolean.getExample(),
-            'daemon' => Boolean.getExample(),
-            'shutdownWaitTime' => Integer.getExample(),
+            'shutdownGraceful' => '',
+            'daemon' => '',
+            'shutdownWaitTime' => '',
             'priority' => 'null'
         };
 
@@ -26143,9 +26143,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -26159,24 +26159,24 @@ private class OASConfigmgrApiTest {
             'defaultReadOnly' => 'null',
             'defaultTransactionIsolation' => 'null',
             'defaultCatalog' => 'null',
-            'maxActive' => Integer.getExample(),
-            'maxIdle' => Integer.getExample(),
-            'minIdle' => Integer.getExample(),
-            'initialSize' => Integer.getExample(),
-            'maxWait' => Integer.getExample(),
-            'maxAge' => Integer.getExample(),
-            'testOnBorrow' => Boolean.getExample(),
-            'testOnReturn' => Boolean.getExample(),
-            'testWhileIdle' => Boolean.getExample(),
+            'maxActive' => '',
+            'maxIdle' => '',
+            'minIdle' => '',
+            'initialSize' => '',
+            'maxWait' => '',
+            'maxAge' => '',
+            'testOnBorrow' => '',
+            'testOnReturn' => '',
+            'testWhileIdle' => '',
             'validationQuery' => 'null',
-            'validationQueryTimeout' => Integer.getExample(),
-            'timeBetweenEvictionRunsMillis' => Integer.getExample(),
-            'minEvictableIdleTimeMillis' => Integer.getExample(),
+            'validationQueryTimeout' => '',
+            'timeBetweenEvictionRunsMillis' => '',
+            'minEvictableIdleTimeMillis' => '',
             'connectionProperties' => 'null',
             'initSQL' => 'null',
             'jdbcInterceptors' => 'null',
-            'validationInterval' => Integer.getExample(),
-            'logValidationErrors' => Boolean.getExample(),
+            'validationInterval' => '',
+            'logValidationErrors' => '',
             'datasourceSvcProperties' => new List<String>{''}
         };
 
@@ -26210,9 +26210,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -26252,29 +26252,29 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'connectorPingTimeout' => Integer.getExample(),
-            'connectorPingInterval' => Integer.getExample(),
-            'discoveryLiteCheckInterval' => Integer.getExample(),
-            'clusterSyncServiceTimeout' => Integer.getExample(),
-            'clusterSyncServiceInterval' => Integer.getExample(),
-            'enableSyncToken' => Boolean.getExample(),
-            'minEventDelay' => Integer.getExample(),
-            'socketConnectTimeout' => Integer.getExample(),
-            'soTimeout' => Integer.getExample(),
+            'connectorPingTimeout' => '',
+            'connectorPingInterval' => '',
+            'discoveryLiteCheckInterval' => '',
+            'clusterSyncServiceTimeout' => '',
+            'clusterSyncServiceInterval' => '',
+            'enableSyncToken' => '',
+            'minEventDelay' => '',
+            'socketConnectTimeout' => '',
+            'soTimeout' => '',
             'topologyConnectorUrls' => new List<String>{''},
             'topologyConnectorWhitelist' => new List<String>{''},
-            'autoStopLocalLoopEnabled' => Boolean.getExample(),
-            'gzipConnectorRequestsEnabled' => Boolean.getExample(),
-            'hmacEnabled' => Boolean.getExample(),
-            'enableEncryption' => Boolean.getExample(),
+            'autoStopLocalLoopEnabled' => '',
+            'gzipConnectorRequestsEnabled' => '',
+            'hmacEnabled' => '',
+            'enableEncryption' => '',
             'sharedKey' => 'null',
-            'hmacSharedKeyTTL' => Integer.getExample(),
+            'hmacSharedKeyTTL' => '',
             'backoffStandbyFactor' => 'null',
             'backoffStableFactor' => 'null'
         };
@@ -26309,9 +26309,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -26350,32 +26350,32 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'name' => 'null',
             'title' => 'null',
             'details' => 'null',
-            'enabled' => Boolean.getExample(),
+            'enabled' => '',
             'serviceName' => 'null',
             'logLevel' => 'null',
             'allowedRoots' => new List<String>{''},
-            'queueProcessingEnabled' => Boolean.getExample(),
+            'queueProcessingEnabled' => '',
             'packageImporterEndpoints' => new List<String>{''},
             'passiveQueues' => new List<String>{''},
             'priorityQueues' => new List<String>{''},
             'retryStrategy' => 'null',
-            'retryAttempts' => Integer.getExample(),
+            'retryAttempts' => '',
             'requestAuthorizationStrategyTarget' => 'null',
             'transportSecretProviderTarget' => 'null',
             'packageBuilderTarget' => 'null',
             'triggersTarget' => 'null',
             'queueProvider' => 'null',
-            'asyncDelivery' => Boolean.getExample(),
-            'httpConnTimeout' => Integer.getExample()
+            'asyncDelivery' => '',
+            'httpConnTimeout' => ''
         };
 
         OASClient client;
@@ -26408,9 +26408,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -26448,16 +26448,16 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'name' => 'null',
             'title' => 'null',
             'details' => 'null',
-            'enabled' => Boolean.getExample(),
+            'enabled' => '',
             'serviceName' => 'null',
             'logLevel' => 'null',
             'allowedRoots' => new List<String>{''},
@@ -26498,22 +26498,22 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'name' => 'null',
             'title' => 'null',
             'details' => 'null',
-            'enabled' => Boolean.getExample(),
+            'enabled' => '',
             'serviceName' => 'null',
             'logLevel' => 'null',
-            'queueProcessingEnabled' => Boolean.getExample(),
+            'queueProcessingEnabled' => '',
             'packageExporterEndpoints' => new List<String>{''},
-            'pullItems' => Integer.getExample(),
-            'httpConnTimeout' => Integer.getExample(),
+            'pullItems' => '',
+            'httpConnTimeout' => '',
             'requestAuthorizationStrategyTarget' => 'null',
             'transportSecretProviderTarget' => 'null',
             'packageBuilderTarget' => 'null',
@@ -26550,19 +26550,19 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'name' => 'null',
             'title' => 'null',
             'details' => 'null',
-            'enabled' => Boolean.getExample(),
+            'enabled' => '',
             'serviceName' => 'null',
             'logLevel' => 'null',
-            'queueProcessingEnabled' => Boolean.getExample(),
+            'queueProcessingEnabled' => '',
             'packageExporterTarget' => 'null',
             'packageImporterTarget' => 'null',
             'requestAuthorizationStrategyTarget' => 'null',
@@ -26599,26 +26599,26 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'name' => 'null',
             'title' => 'null',
             'details' => 'null',
-            'enabled' => Boolean.getExample(),
+            'enabled' => '',
             'serviceName' => 'null',
             'logLevel' => 'null',
-            'queueProcessingEnabled' => Boolean.getExample(),
+            'queueProcessingEnabled' => '',
             'passiveQueues' => new List<String>{''},
             'packageExporterEndpoints' => new List<String>{''},
             'packageImporterEndpoints' => new List<String>{''},
             'retryStrategy' => 'null',
-            'retryAttempts' => Integer.getExample(),
-            'pullItems' => Integer.getExample(),
-            'httpConnTimeout' => Integer.getExample(),
+            'retryAttempts' => '',
+            'pullItems' => '',
+            'httpConnTimeout' => '',
             'requestAuthorizationStrategyTarget' => 'null',
             'transportSecretProviderTarget' => 'null',
             'packageBuilderTarget' => 'null',
@@ -26655,16 +26655,16 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'hcName' => 'null',
             'hcTags' => new List<String>{''},
             'hcMbeanName' => 'null',
-            'numberOfRetriesAllowed' => Integer.getExample()
+            'numberOfRetriesAllowed' => ''
         };
 
         OASClient client;
@@ -26697,15 +26697,15 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'name' => 'null',
             'queue' => 'null',
-            'dropInvalidItems' => Boolean.getExample(),
+            'dropInvalidItems' => '',
             'agentTarget' => 'null'
         };
 
@@ -26739,9 +26739,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -26779,15 +26779,15 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'name' => 'null',
             'endpoints' => new List<String>{''},
-            'pullItems' => Integer.getExample(),
+            'pullItems' => '',
             'packageBuilderTarget' => 'null',
             'transportSecretProviderTarget' => 'null'
         };
@@ -26822,9 +26822,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -26862,9 +26862,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -26903,9 +26903,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -26945,9 +26945,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -26985,9 +26985,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -27025,22 +27025,22 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'name' => 'null',
-            'r_type' => 'null',
+            'type' => 'null',
             'formatTarget' => 'null',
             'tempFsFolder' => 'null',
-            'fileThreshold' => Integer.getExample(),
+            'fileThreshold' => '',
             'memoryUnit' => 'null',
-            'useOffHeapMemory' => Boolean.getExample(),
+            'useOffHeapMemory' => '',
             'digestAlgorithm' => 'null',
-            'monitoringQueueSize' => Integer.getExample(),
-            'cleanupDelay' => Integer.getExample(),
+            'monitoringQueueSize' => '',
+            'cleanupDelay' => '',
             'packageFilters' => new List<String>{''},
             'propertyFilters' => new List<String>{''}
         };
@@ -27075,30 +27075,30 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'name' => 'null',
-            'r_type' => 'null',
+            'type' => 'null',
             'importMode' => 'null',
             'aclHandling' => 'null',
             'packageRoots' => 'null',
             'packageFilters' => new List<String>{''},
             'propertyFilters' => new List<String>{''},
             'tempFsFolder' => 'null',
-            'useBinaryReferences' => Boolean.getExample(),
-            'autoSaveThreshold' => Integer.getExample(),
-            'cleanupDelay' => Integer.getExample(),
-            'fileThreshold' => Integer.getExample(),
+            'useBinaryReferences' => '',
+            'autoSaveThreshold' => '',
+            'cleanupDelay' => '',
+            'fileThreshold' => '',
             'MEGA_BYTES' => 'null',
-            'useOffHeapMemory' => Boolean.getExample(),
+            'useOffHeapMemory' => '',
             'digestAlgorithm' => 'null',
-            'monitoringQueueSize' => Integer.getExample(),
+            'monitoringQueueSize' => '',
             'pathsMapping' => new List<String>{''},
-            'strictImport' => Boolean.getExample()
+            'strictImport' => ''
         };
 
         OASClient client;
@@ -27131,9 +27131,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -27172,9 +27172,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -27212,9 +27212,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -27222,7 +27222,7 @@ private class OASConfigmgrApiTest {
             'path' => 'null',
             'ignoredPathsPatterns' => new List<String>{''},
             'serviceName' => 'null',
-            'deep' => Boolean.getExample()
+            'deep' => ''
         };
 
         OASClient client;
@@ -27255,9 +27255,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -27297,9 +27297,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -27338,9 +27338,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -27378,9 +27378,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -27420,9 +27420,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -27430,7 +27430,7 @@ private class OASConfigmgrApiTest {
             'osgiHttpWhiteboardListener' => 'null',
             'authSudoCookie' => 'null',
             'authSudoParameter' => 'null',
-            'authAnnonymous' => Boolean.getExample(),
+            'authAnnonymous' => '',
             'slingAuthRequirements' => new List<String>{''},
             'slingAuthAnonymousUser' => 'null',
             'slingAuthAnonymousPassword' => 'null',
@@ -27469,16 +27469,16 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'extensions' => new List<String>{''},
-            'minDurationMs' => Integer.getExample(),
-            'maxDurationMs' => Integer.getExample(),
-            'compactLogFormat' => Boolean.getExample()
+            'minDurationMs' => '',
+            'maxDurationMs' => '',
+            'compactLogFormat' => ''
         };
 
         OASClient client;
@@ -27511,18 +27511,18 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'requestLogOutput' => 'null',
-            'requestLogOutputtype' => Integer.getExample(),
-            'requestLogEnabled' => Boolean.getExample(),
+            'requestLogOutputtype' => '',
+            'requestLogEnabled' => '',
             'accessLogOutput' => 'null',
-            'accessLogOutputtype' => Integer.getExample(),
-            'accessLogEnabled' => Boolean.getExample()
+            'accessLogOutputtype' => '',
+            'accessLogEnabled' => ''
         };
 
         OASClient client;
@@ -27555,16 +27555,16 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'requestLogServiceFormat' => 'null',
             'requestLogServiceOutput' => 'null',
-            'requestLogServiceOutputtype' => Integer.getExample(),
-            'requestLogServiceOnentry' => Boolean.getExample()
+            'requestLogServiceOutputtype' => '',
+            'requestLogServiceOnentry' => ''
         };
 
         OASClient client;
@@ -27597,16 +27597,16 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'slingMaxCalls' => Integer.getExample(),
-            'slingMaxInclusions' => Integer.getExample(),
-            'slingTraceAllow' => Boolean.getExample(),
-            'slingMaxRecordRequests' => Integer.getExample(),
+            'slingMaxCalls' => '',
+            'slingMaxInclusions' => '',
+            'slingTraceAllow' => '',
+            'slingMaxRecordRequests' => '',
             'slingStorePatternRequests' => new List<String>{''},
             'slingServerinfo' => 'null',
             'slingAdditionalResponseHeaders' => new List<String>{''}
@@ -27642,19 +27642,19 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'slingDefaultParameterEncoding' => 'null',
-            'slingDefaultMaxParameters' => Integer.getExample(),
+            'slingDefaultMaxParameters' => '',
             'fileLocation' => 'null',
-            'fileThreshold' => Integer.getExample(),
-            'fileMax' => Integer.getExample(),
-            'requestMax' => Integer.getExample(),
-            'slingDefaultParameterCheckForAdditionalContainerParameters' => Boolean.getExample()
+            'fileThreshold' => '',
+            'fileMax' => '',
+            'requestMax' => '',
+            'slingDefaultParameterCheckForAdditionalContainerParameters' => ''
         };
 
         OASClient client;
@@ -27687,13 +27687,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'minPoolSize' => Integer.getExample()
+            'minPoolSize' => ''
         };
 
         OASClient client;
@@ -27726,16 +27726,16 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'queuePriority' => 'null',
-            'queueRetries' => Integer.getExample(),
-            'queueRetrydelay' => Integer.getExample(),
-            'queueMaxparallel' => Integer.getExample()
+            'queueRetries' => '',
+            'queueRetrydelay' => '',
+            'queueMaxparallel' => ''
         };
 
         OASClient client;
@@ -27768,15 +27768,15 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'jobConsumermanagerDisableDistribution' => Boolean.getExample(),
-            'startupDelay' => Integer.getExample(),
-            'cleanupPeriod' => Integer.getExample()
+            'jobConsumermanagerDisableDistribution' => '',
+            'startupDelay' => '',
+            'cleanupPeriod' => ''
         };
 
         OASClient client;
@@ -27809,13 +27809,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'orgApacheSlingInstallerConfigurationPersist' => Boolean.getExample(),
+            'orgApacheSlingInstallerConfigurationPersist' => '',
             'jobConsumermanagerWhitelist' => new List<String>{''},
             'jobConsumermanagerBlacklist' => new List<String>{''}
         };
@@ -27850,9 +27850,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -27860,13 +27860,13 @@ private class OASConfigmgrApiTest {
             'queueTopics' => new List<String>{''},
             'queueType' => 'null',
             'queuePriority' => 'null',
-            'queueRetries' => Integer.getExample(),
-            'queueRetrydelay' => Integer.getExample(),
-            'queueMaxparallel' => Double.getExample(),
-            'queueKeepJobs' => Boolean.getExample(),
-            'queuePreferRunOnCreationInstance' => Boolean.getExample(),
-            'queueThreadPoolSize' => Integer.getExample(),
-            'serviceRanking' => Integer.getExample()
+            'queueRetries' => '',
+            'queueRetrydelay' => '',
+            'queueMaxparallel' => '',
+            'queueKeepJobs' => '',
+            'queuePreferRunOnCreationInstance' => '',
+            'queueThreadPoolSize' => '',
+            'serviceRanking' => ''
         };
 
         OASClient client;
@@ -27899,9 +27899,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -27939,15 +27939,15 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'name' => 'null',
             'description' => 'null',
-            'enabled' => Boolean.getExample()
+            'enabled' => ''
         };
 
         OASClient client;
@@ -27980,15 +27980,15 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'name' => 'null',
             'description' => 'null',
-            'enabled' => Boolean.getExample()
+            'enabled' => ''
         };
 
         OASClient client;
@@ -28021,9 +28021,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -28031,7 +28031,7 @@ private class OASConfigmgrApiTest {
             'orgApacheSlingHapiToolsCollectionresourcetype' => 'null',
             'orgApacheSlingHapiToolsSearchpaths' => new List<String>{''},
             'orgApacheSlingHapiToolsExternalurl' => 'null',
-            'orgApacheSlingHapiToolsEnabled' => Boolean.getExample()
+            'orgApacheSlingHapiToolsEnabled' => ''
         };
 
         OASClient client;
@@ -28064,9 +28064,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -28074,7 +28074,7 @@ private class OASConfigmgrApiTest {
             'hcTags' => new List<String>{''},
             'hcMbeanName' => 'null',
             'filterTags' => new List<String>{''},
-            'filterCombineTagsWithOr' => Boolean.getExample()
+            'filterCombineTagsWithOr' => ''
         };
 
         OASClient client;
@@ -28107,15 +28107,15 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'timeoutInMs' => Integer.getExample(),
-            'longRunningFutureThresholdForCriticalMs' => Integer.getExample(),
-            'resultCacheTtlInMs' => Integer.getExample()
+            'timeoutInMs' => '',
+            'longRunningFutureThresholdForCriticalMs' => '',
+            'resultCacheTtlInMs' => ''
         };
 
         OASClient client;
@@ -28148,9 +28148,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -28192,9 +28192,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -28235,14 +28235,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'servletPath' => 'null',
-            'disabled' => Boolean.getExample(),
+            'disabled' => '',
             'corsAccessControlAllowOrigin' => 'null'
         };
 
@@ -28276,16 +28276,16 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'totalWidth' => Integer.getExample(),
-            'colWidthName' => Integer.getExample(),
-            'colWidthResult' => Integer.getExample(),
-            'colWidthTiming' => Integer.getExample()
+            'totalWidth' => '',
+            'colWidthName' => '',
+            'colWidthResult' => '',
+            'colWidthTiming' => ''
         };
 
         OASClient client;
@@ -28318,13 +28318,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'serviceRanking' => Integer.getExample(),
+            'serviceRanking' => '',
             'slingFilterScope' => new List<String>{''}
         };
 
@@ -28358,15 +28358,15 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'localeDefault' => 'null',
-            'preloadBundles' => Boolean.getExample(),
-            'invalidationDelay' => Integer.getExample()
+            'preloadBundles' => '',
+            'invalidationDelay' => ''
         };
 
         OASClient client;
@@ -28399,19 +28399,19 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'handlerSchemes' => new List<String>{''},
             'slingJcrinstallFolderNameRegexp' => 'null',
-            'slingJcrinstallFolderMaxDepth' => Integer.getExample(),
+            'slingJcrinstallFolderMaxDepth' => '',
             'slingJcrinstallSearchPath' => new List<String>{''},
             'slingJcrinstallNewConfigPath' => 'null',
             'slingJcrinstallSignalPath' => 'null',
-            'slingJcrinstallEnableWriteback' => Boolean.getExample()
+            'slingJcrinstallEnableWriteback' => ''
         };
 
         OASClient client;
@@ -28444,13 +28444,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'whitelistBypass' => Boolean.getExample(),
+            'whitelistBypass' => '',
             'whitelistBundlesRegexp' => 'null'
         };
 
@@ -28484,9 +28484,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -28524,14 +28524,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'alias' => 'null',
-            'davCreateAbsoluteUri' => Boolean.getExample(),
+            'davCreateAbsoluteUri' => '',
             'davProtectedhandlers' => 'null'
         };
 
@@ -28565,9 +28565,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -28605,13 +28605,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'port' => Integer.getExample()
+            'port' => ''
         };
 
         OASClient client;
@@ -28644,9 +28644,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -28683,9 +28683,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -28723,33 +28723,33 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'resourceResolverSearchpath' => new List<String>{''},
-            'resourceResolverManglenamespaces' => Boolean.getExample(),
-            'resourceResolverAllowDirect' => Boolean.getExample(),
+            'resourceResolverManglenamespaces' => '',
+            'resourceResolverAllowDirect' => '',
             'resourceResolverRequiredProviders' => new List<String>{''},
             'resourceResolverRequiredProvidernames' => new List<String>{''},
             'resourceResolverVirtual' => new List<String>{''},
             'resourceResolverMapping' => new List<String>{''},
             'resourceResolverMapLocation' => 'null',
             'resourceResolverMapObservation' => new List<String>{''},
-            'resourceResolverDefaultVanityRedirectStatus' => Integer.getExample(),
-            'resourceResolverEnableVanitypath' => Boolean.getExample(),
-            'resourceResolverVanitypathMaxEntries' => Integer.getExample(),
-            'resourceResolverVanitypathMaxEntriesStartup' => Boolean.getExample(),
-            'resourceResolverVanitypathBloomfilterMaxBytes' => Integer.getExample(),
-            'resourceResolverOptimizeAliasResolution' => Boolean.getExample(),
+            'resourceResolverDefaultVanityRedirectStatus' => '',
+            'resourceResolverEnableVanitypath' => '',
+            'resourceResolverVanitypathMaxEntries' => '',
+            'resourceResolverVanitypathMaxEntriesStartup' => '',
+            'resourceResolverVanitypathBloomfilterMaxBytes' => '',
+            'resourceResolverOptimizeAliasResolution' => '',
             'resourceResolverVanitypathWhitelist' => new List<String>{''},
             'resourceResolverVanitypathBlacklist' => new List<String>{''},
-            'resourceResolverVanityPrecedence' => Boolean.getExample(),
-            'resourceResolverProviderhandlingParanoid' => Boolean.getExample(),
-            'resourceResolverLogClosing' => Boolean.getExample(),
-            'resourceResolverLogUnclosed' => Boolean.getExample()
+            'resourceResolverVanityPrecedence' => '',
+            'resourceResolverProviderhandlingParanoid' => '',
+            'resourceResolverLogClosing' => '',
+            'resourceResolverLogUnclosed' => ''
         };
 
         OASClient client;
@@ -28782,13 +28782,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'allowOnlySystemUser' => Boolean.getExample()
+            'allowOnlySystemUser' => ''
         };
 
         OASClient client;
@@ -28821,9 +28821,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -28862,13 +28862,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'serviceRanking' => Integer.getExample(),
+            'serviceRanking' => '',
             'typeCollections' => 'null',
             'typeNoncollections' => 'null',
             'typeContent' => 'null'
@@ -28904,13 +28904,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'serviceRanking' => Integer.getExample()
+            'serviceRanking' => ''
         };
 
         OASClient client;
@@ -28943,14 +28943,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'davRoot' => 'null',
-            'davCreateAbsoluteUri' => Boolean.getExample(),
+            'davCreateAbsoluteUri' => '',
             'davRealm' => 'null',
             'collectionTypes' => new List<String>{''},
             'filterPrefixes' => new List<String>{''},
@@ -28991,9 +28991,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -29030,16 +29030,16 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'osgiHttpWhiteboardListener' => 'null',
             'osgiHttpWhiteboardContextSelect' => 'null',
-            'maxRecursionDepth' => Integer.getExample(),
-            'cleanupJobPeriod' => Integer.getExample()
+            'maxRecursionDepth' => '',
+            'cleanupJobPeriod' => ''
         };
 
         OASClient client;
@@ -29072,13 +29072,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'maxRecursionLevels' => Integer.getExample()
+            'maxRecursionLevels' => ''
         };
 
         OASClient client;
@@ -29111,9 +29111,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -29152,14 +29152,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'mergeRoot' => 'null',
-            'mergeReadOnly' => Boolean.getExample()
+            'mergeReadOnly' => ''
         };
 
         OASClient client;
@@ -29192,14 +29192,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'mergeRoot' => 'null',
-            'mergeReadOnly' => Boolean.getExample()
+            'mergeReadOnly' => ''
         };
 
         OASClient client;
@@ -29232,13 +29232,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'orgApacheSlingScriptingCacheSize' => Integer.getExample(),
+            'orgApacheSlingScriptingCacheSize' => '',
             'orgApacheSlingScriptingCacheAdditionalExtensions' => new List<String>{''}
         };
 
@@ -29272,13 +29272,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'logStacktraceOnclose' => Boolean.getExample()
+            'logStacktraceOnclose' => ''
         };
 
         OASClient client;
@@ -29311,13 +29311,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'javaClassdebuginfo' => Boolean.getExample(),
+            'javaClassdebuginfo' => '',
             'javaJavaEncoding' => 'null',
             'javaCompilerSourceVM' => 'null',
             'javaCompilerTargetVM' => 'null'
@@ -29353,13 +29353,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'orgApacheSlingScriptingJavascriptRhinoOptLevel' => Integer.getExample()
+            'orgApacheSlingScriptingJavascriptRhinoOptLevel' => ''
         };
 
         OASClient client;
@@ -29392,23 +29392,23 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'jasperCompilerTargetVM' => 'null',
             'jasperCompilerSourceVM' => 'null',
-            'jasperClassdebuginfo' => Boolean.getExample(),
-            'jasperEnablePooling' => Boolean.getExample(),
+            'jasperClassdebuginfo' => '',
+            'jasperEnablePooling' => '',
             'jasperIeClassId' => 'null',
-            'jasperGenStringAsCharArray' => Boolean.getExample(),
-            'jasperKeepgenerated' => Boolean.getExample(),
-            'jasperMappedfile' => Boolean.getExample(),
-            'jasperTrimSpaces' => Boolean.getExample(),
-            'jasperDisplaySourceFragments' => Boolean.getExample(),
-            'defaultIsSession' => Boolean.getExample()
+            'jasperGenStringAsCharArray' => '',
+            'jasperKeepgenerated' => '',
+            'jasperMappedfile' => '',
+            'jasperTrimSpaces' => '',
+            'jasperDisplaySourceFragments' => '',
+            'defaultIsSession' => ''
         };
 
         OASClient client;
@@ -29441,9 +29441,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -29480,15 +29480,15 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'slingContentDispositionPaths' => new List<String>{''},
             'slingContentDispositionExcludedPaths' => new List<String>{''},
-            'slingContentDispositionAllPaths' => Boolean.getExample()
+            'slingContentDispositionAllPaths' => ''
         };
 
         OASClient client;
@@ -29521,13 +29521,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'allowEmpty' => Boolean.getExample(),
+            'allowEmpty' => '',
             'allowHosts' => new List<String>{''},
             'allowHostsRegexp' => new List<String>{''},
             'filterMethods' => new List<String>{''},
@@ -29564,16 +29564,16 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'userMapping' => new List<String>{''},
             'userDefault' => 'null',
-            'userEnableDefaultMapping' => Boolean.getExample(),
-            'requireValidation' => Boolean.getExample()
+            'userEnableDefaultMapping' => '',
+            'requireValidation' => ''
         };
 
         OASClient client;
@@ -29606,13 +29606,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'serviceRanking' => Integer.getExample(),
+            'serviceRanking' => '',
             'userMapping' => new List<String>{''}
         };
 
@@ -29646,21 +29646,21 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'aliases' => new List<String>{''},
-            'index' => Boolean.getExample(),
+            'index' => '',
             'indexFiles' => new List<String>{''},
-            'enableHtml' => Boolean.getExample(),
-            'enableJson' => Boolean.getExample(),
-            'enableTxt' => Boolean.getExample(),
-            'enableXml' => Boolean.getExample(),
-            'jsonMaximumresults' => Integer.getExample(),
-            'ecmaSuport' => Boolean.getExample()
+            'enableHtml' => '',
+            'enableJson' => '',
+            'enableTxt' => '',
+            'enableXml' => '',
+            'jsonMaximumresults' => '',
+            'ecmaSuport' => ''
         };
 
         OASClient client;
@@ -29693,14 +29693,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'slingServletSelectors' => new List<String>{''},
-            'ecmaSuport' => Boolean.getExample()
+            'ecmaSuport' => ''
         };
 
         OASClient client;
@@ -29733,15 +29733,15 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'schedulerExpression' => 'null',
-            'schedulerConcurrent' => Boolean.getExample(),
-            'chunkCleanupAge' => Integer.getExample()
+            'schedulerConcurrent' => '',
+            'chunkCleanupAge' => ''
         };
 
         OASClient client;
@@ -29774,18 +29774,18 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'servletPostDateFormats' => new List<String>{''},
             'servletPostNodeNameHints' => new List<String>{''},
-            'servletPostNodeNameMaxLength' => Integer.getExample(),
-            'servletPostCheckinNewVersionableNodes' => Boolean.getExample(),
-            'servletPostAutoCheckout' => Boolean.getExample(),
-            'servletPostAutoCheckin' => Boolean.getExample(),
+            'servletPostNodeNameMaxLength' => '',
+            'servletPostCheckinNewVersionableNodes' => '',
+            'servletPostAutoCheckout' => '',
+            'servletPostAutoCheckin' => '',
             'servletPostIgnorePattern' => 'null'
         };
 
@@ -29819,14 +29819,14 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'servletresolverServletRoot' => 'null',
-            'servletresolverCacheSize' => Integer.getExample(),
+            'servletresolverCacheSize' => '',
             'servletresolverPaths' => new List<String>{''},
             'servletresolverDefaultExtensions' => new List<String>{''}
         };
@@ -29861,9 +29861,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -29901,13 +29901,13 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
-            'activeByDefault' => Boolean.getExample(),
+            'activeByDefault' => '',
             'defaultMessage' => 'null'
         };
 
@@ -29941,9 +29941,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
@@ -29981,19 +29981,19 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},
             'tracerSets' => new List<String>{''},
-            'enabled' => Boolean.getExample(),
-            'servletEnabled' => Boolean.getExample(),
-            'recordingCacheSizeInMB' => Integer.getExample(),
-            'recordingCacheDurationInSecs' => Integer.getExample(),
-            'recordingCompressionEnabled' => Boolean.getExample(),
-            'gzipResponse' => Boolean.getExample()
+            'enabled' => '',
+            'servletEnabled' => '',
+            'recordingCacheSizeInMB' => '',
+            'recordingCacheDurationInSecs' => '',
+            'recordingCompressionEnabled' => '',
+            'gzipResponse' => ''
         };
 
         OASClient client;
@@ -30026,9 +30026,9 @@ private class OASConfigmgrApiTest {
         Test.setMock(HttpCalloutMock.class, new OASResponseMock(res));
 
         Map<String, Object> params = new Map<String, Object>{
-            'post' => Boolean.getExample(),
-            'apply' => Boolean.getExample(),
-            'r_delete' => Boolean.getExample(),
+            'post' => '',
+            'apply' => '',
+            'r_delete' => '',
             'action' => 'null',
             'location' => 'null',
             'propertylist' => new List<String>{''},

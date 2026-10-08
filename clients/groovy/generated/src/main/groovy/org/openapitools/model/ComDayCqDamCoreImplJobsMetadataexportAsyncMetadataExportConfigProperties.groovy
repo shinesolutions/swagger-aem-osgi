@@ -8,8 +8,8 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqDamCoreImplJobsMetadataexportAsyncMetadataExportConfigProperties {
-    ConfigNodePropertyString operation = null
-
-    ConfigNodePropertyBoolean emailEnabled = null
-
+    
+    ConfigNodePropertyString operation
+    
+    ConfigNodePropertyBoolean emailEnabled
 }

@@ -1,22 +1,33 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenProperties   {
-  
-  private @Valid ConfigNodePropertyBoolean groupListingPaginationEnable = null;
-  private @Valid ConfigNodePropertyBoolean groupListingLazyloadingEnable = null;
-  private @Valid ConfigNodePropertyInteger pageSize = null;
-  private @Valid ConfigNodePropertyInteger priority = null;
+  private ConfigNodePropertyBoolean groupListingPaginationEnable;
+  private ConfigNodePropertyBoolean groupListingLazyloadingEnable;
+  private ConfigNodePropertyInteger pageSize;
+  private ConfigNodePropertyInteger priority;
+
+  public ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenProperties() {
+  }
 
   /**
    **/
@@ -28,9 +39,11 @@ public class ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("group.listing.pagination.enable")
-  public ConfigNodePropertyBoolean getGroupListingPaginationEnable() {
+  @Valid public ConfigNodePropertyBoolean getGroupListingPaginationEnable() {
     return groupListingPaginationEnable;
   }
+
+  @JsonProperty("group.listing.pagination.enable")
   public void setGroupListingPaginationEnable(ConfigNodePropertyBoolean groupListingPaginationEnable) {
     this.groupListingPaginationEnable = groupListingPaginationEnable;
   }
@@ -45,9 +58,11 @@ public class ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("group.listing.lazyloading.enable")
-  public ConfigNodePropertyBoolean getGroupListingLazyloadingEnable() {
+  @Valid public ConfigNodePropertyBoolean getGroupListingLazyloadingEnable() {
     return groupListingLazyloadingEnable;
   }
+
+  @JsonProperty("group.listing.lazyloading.enable")
   public void setGroupListingLazyloadingEnable(ConfigNodePropertyBoolean groupListingLazyloadingEnable) {
     this.groupListingLazyloadingEnable = groupListingLazyloadingEnable;
   }
@@ -62,9 +77,11 @@ public class ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("page.size")
-  public ConfigNodePropertyInteger getPageSize() {
+  @Valid public ConfigNodePropertyInteger getPageSize() {
     return pageSize;
   }
+
+  @JsonProperty("page.size")
   public void setPageSize(ConfigNodePropertyInteger pageSize) {
     this.pageSize = pageSize;
   }
@@ -79,16 +96,18 @@ public class ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("priority")
-  public ConfigNodePropertyInteger getPriority() {
+  @Valid public ConfigNodePropertyInteger getPriority() {
     return priority;
   }
+
+  @JsonProperty("priority")
   public void setPriority(ConfigNodePropertyInteger priority) {
     this.priority = priority;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -96,10 +115,10 @@ public class ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenProp
       return false;
     }
     ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenProperties comAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenProperties = (ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenProperties) o;
-    return Objects.equals(groupListingPaginationEnable, comAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenProperties.groupListingPaginationEnable) &&
-        Objects.equals(groupListingLazyloadingEnable, comAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenProperties.groupListingLazyloadingEnable) &&
-        Objects.equals(pageSize, comAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenProperties.pageSize) &&
-        Objects.equals(priority, comAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenProperties.priority);
+    return Objects.equals(this.groupListingPaginationEnable, comAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenProperties.groupListingPaginationEnable) &&
+        Objects.equals(this.groupListingLazyloadingEnable, comAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenProperties.groupListingLazyloadingEnable) &&
+        Objects.equals(this.pageSize, comAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenProperties.pageSize) &&
+        Objects.equals(this.priority, comAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenProperties.priority);
   }
 
   @Override
@@ -124,11 +143,9 @@ public class ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenProp
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

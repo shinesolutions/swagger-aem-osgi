@@ -10,14 +10,14 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class OrgApacheFelixJaasConfigurationFactoryProperties {
-    ConfigNodePropertyDropDown jaasControlFlag = null
-
-    ConfigNodePropertyInteger jaasRanking = null
-
-    ConfigNodePropertyString jaasRealmName = null
-
-    ConfigNodePropertyString jaasClassname = null
-
-    ConfigNodePropertyArray jaasOptions = null
-
+    
+    ConfigNodePropertyDropDown jaasControlFlag
+    
+    ConfigNodePropertyInteger jaasRanking
+    
+    ConfigNodePropertyString jaasRealmName
+    
+    ConfigNodePropertyString jaasClassname
+    
+    ConfigNodePropertyArray jaasOptions
 }

@@ -8,12 +8,12 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 
 @Canonical
 class ComAdobeCqSocialGroupClientImplCommunityGroupCollectionComponenProperties {
-    ConfigNodePropertyBoolean groupListingPaginationEnable = null
-
-    ConfigNodePropertyBoolean groupListingLazyloadingEnable = null
-
-    ConfigNodePropertyInteger pageSize = null
-
-    ConfigNodePropertyInteger priority = null
-
+    
+    ConfigNodePropertyBoolean groupListingPaginationEnable
+    
+    ConfigNodePropertyBoolean groupListingLazyloadingEnable
+    
+    ConfigNodePropertyInteger pageSize
+    
+    ConfigNodePropertyInteger priority
 }

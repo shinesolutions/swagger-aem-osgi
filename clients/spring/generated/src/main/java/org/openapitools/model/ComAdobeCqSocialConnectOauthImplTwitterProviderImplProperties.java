@@ -1,45 +1,56 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyDropDown;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComAdobeCqSocialConnectOauthImplTwitterProviderImplProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComAdobeCqSocialConnectOauthImplTwitterProviderImplProperties   {
-  @JsonProperty("oauth.provider.id")
-  private ConfigNodePropertyString oauthProviderId = null;
+@JsonTypeName("comAdobeCqSocialConnectOauthImplTwitterProviderImplProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComAdobeCqSocialConnectOauthImplTwitterProviderImplProperties {
 
-  @JsonProperty("oauth.cloud.config.root")
-  private ConfigNodePropertyString oauthCloudConfigRoot = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString oauthProviderId;
 
-  @JsonProperty("provider.config.root")
-  private ConfigNodePropertyString providerConfigRoot = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString oauthCloudConfigRoot;
 
-  @JsonProperty("provider.config.user.folder")
-  private ConfigNodePropertyDropDown providerConfigUserFolder = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString providerConfigRoot;
 
-  @JsonProperty("provider.config.twitter.enable.params")
-  private ConfigNodePropertyBoolean providerConfigTwitterEnableParams = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyDropDown providerConfigUserFolder;
 
-  @JsonProperty("provider.config.twitter.params")
-  private ConfigNodePropertyArray providerConfigTwitterParams = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean providerConfigTwitterEnableParams;
 
-  @JsonProperty("provider.config.refresh.userdata.enabled")
-  private ConfigNodePropertyBoolean providerConfigRefreshUserdataEnabled = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray providerConfigTwitterParams;
 
-  public ComAdobeCqSocialConnectOauthImplTwitterProviderImplProperties oauthProviderId(ConfigNodePropertyString oauthProviderId) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean providerConfigRefreshUserdataEnabled;
+
+  public ComAdobeCqSocialConnectOauthImplTwitterProviderImplProperties oauthProviderId(@Nullable ConfigNodePropertyString oauthProviderId) {
     this.oauthProviderId = oauthProviderId;
     return this;
   }
@@ -47,20 +58,20 @@ public class ComAdobeCqSocialConnectOauthImplTwitterProviderImplProperties   {
   /**
    * Get oauthProviderId
    * @return oauthProviderId
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getOauthProviderId() {
+   */
+  @Valid 
+  @Schema(name = "oauth.provider.id", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("oauth.provider.id")
+  public @Nullable ConfigNodePropertyString getOauthProviderId() {
     return oauthProviderId;
   }
 
-  public void setOauthProviderId(ConfigNodePropertyString oauthProviderId) {
+  @JsonProperty("oauth.provider.id")
+  public void setOauthProviderId(@Nullable ConfigNodePropertyString oauthProviderId) {
     this.oauthProviderId = oauthProviderId;
   }
 
-  public ComAdobeCqSocialConnectOauthImplTwitterProviderImplProperties oauthCloudConfigRoot(ConfigNodePropertyString oauthCloudConfigRoot) {
+  public ComAdobeCqSocialConnectOauthImplTwitterProviderImplProperties oauthCloudConfigRoot(@Nullable ConfigNodePropertyString oauthCloudConfigRoot) {
     this.oauthCloudConfigRoot = oauthCloudConfigRoot;
     return this;
   }
@@ -68,20 +79,20 @@ public class ComAdobeCqSocialConnectOauthImplTwitterProviderImplProperties   {
   /**
    * Get oauthCloudConfigRoot
    * @return oauthCloudConfigRoot
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getOauthCloudConfigRoot() {
+   */
+  @Valid 
+  @Schema(name = "oauth.cloud.config.root", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("oauth.cloud.config.root")
+  public @Nullable ConfigNodePropertyString getOauthCloudConfigRoot() {
     return oauthCloudConfigRoot;
   }
 
-  public void setOauthCloudConfigRoot(ConfigNodePropertyString oauthCloudConfigRoot) {
+  @JsonProperty("oauth.cloud.config.root")
+  public void setOauthCloudConfigRoot(@Nullable ConfigNodePropertyString oauthCloudConfigRoot) {
     this.oauthCloudConfigRoot = oauthCloudConfigRoot;
   }
 
-  public ComAdobeCqSocialConnectOauthImplTwitterProviderImplProperties providerConfigRoot(ConfigNodePropertyString providerConfigRoot) {
+  public ComAdobeCqSocialConnectOauthImplTwitterProviderImplProperties providerConfigRoot(@Nullable ConfigNodePropertyString providerConfigRoot) {
     this.providerConfigRoot = providerConfigRoot;
     return this;
   }
@@ -89,20 +100,20 @@ public class ComAdobeCqSocialConnectOauthImplTwitterProviderImplProperties   {
   /**
    * Get providerConfigRoot
    * @return providerConfigRoot
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getProviderConfigRoot() {
+   */
+  @Valid 
+  @Schema(name = "provider.config.root", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("provider.config.root")
+  public @Nullable ConfigNodePropertyString getProviderConfigRoot() {
     return providerConfigRoot;
   }
 
-  public void setProviderConfigRoot(ConfigNodePropertyString providerConfigRoot) {
+  @JsonProperty("provider.config.root")
+  public void setProviderConfigRoot(@Nullable ConfigNodePropertyString providerConfigRoot) {
     this.providerConfigRoot = providerConfigRoot;
   }
 
-  public ComAdobeCqSocialConnectOauthImplTwitterProviderImplProperties providerConfigUserFolder(ConfigNodePropertyDropDown providerConfigUserFolder) {
+  public ComAdobeCqSocialConnectOauthImplTwitterProviderImplProperties providerConfigUserFolder(@Nullable ConfigNodePropertyDropDown providerConfigUserFolder) {
     this.providerConfigUserFolder = providerConfigUserFolder;
     return this;
   }
@@ -110,20 +121,20 @@ public class ComAdobeCqSocialConnectOauthImplTwitterProviderImplProperties   {
   /**
    * Get providerConfigUserFolder
    * @return providerConfigUserFolder
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyDropDown getProviderConfigUserFolder() {
+   */
+  @Valid 
+  @Schema(name = "provider.config.user.folder", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("provider.config.user.folder")
+  public @Nullable ConfigNodePropertyDropDown getProviderConfigUserFolder() {
     return providerConfigUserFolder;
   }
 
-  public void setProviderConfigUserFolder(ConfigNodePropertyDropDown providerConfigUserFolder) {
+  @JsonProperty("provider.config.user.folder")
+  public void setProviderConfigUserFolder(@Nullable ConfigNodePropertyDropDown providerConfigUserFolder) {
     this.providerConfigUserFolder = providerConfigUserFolder;
   }
 
-  public ComAdobeCqSocialConnectOauthImplTwitterProviderImplProperties providerConfigTwitterEnableParams(ConfigNodePropertyBoolean providerConfigTwitterEnableParams) {
+  public ComAdobeCqSocialConnectOauthImplTwitterProviderImplProperties providerConfigTwitterEnableParams(@Nullable ConfigNodePropertyBoolean providerConfigTwitterEnableParams) {
     this.providerConfigTwitterEnableParams = providerConfigTwitterEnableParams;
     return this;
   }
@@ -131,20 +142,20 @@ public class ComAdobeCqSocialConnectOauthImplTwitterProviderImplProperties   {
   /**
    * Get providerConfigTwitterEnableParams
    * @return providerConfigTwitterEnableParams
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getProviderConfigTwitterEnableParams() {
+   */
+  @Valid 
+  @Schema(name = "provider.config.twitter.enable.params", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("provider.config.twitter.enable.params")
+  public @Nullable ConfigNodePropertyBoolean getProviderConfigTwitterEnableParams() {
     return providerConfigTwitterEnableParams;
   }
 
-  public void setProviderConfigTwitterEnableParams(ConfigNodePropertyBoolean providerConfigTwitterEnableParams) {
+  @JsonProperty("provider.config.twitter.enable.params")
+  public void setProviderConfigTwitterEnableParams(@Nullable ConfigNodePropertyBoolean providerConfigTwitterEnableParams) {
     this.providerConfigTwitterEnableParams = providerConfigTwitterEnableParams;
   }
 
-  public ComAdobeCqSocialConnectOauthImplTwitterProviderImplProperties providerConfigTwitterParams(ConfigNodePropertyArray providerConfigTwitterParams) {
+  public ComAdobeCqSocialConnectOauthImplTwitterProviderImplProperties providerConfigTwitterParams(@Nullable ConfigNodePropertyArray providerConfigTwitterParams) {
     this.providerConfigTwitterParams = providerConfigTwitterParams;
     return this;
   }
@@ -152,20 +163,20 @@ public class ComAdobeCqSocialConnectOauthImplTwitterProviderImplProperties   {
   /**
    * Get providerConfigTwitterParams
    * @return providerConfigTwitterParams
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getProviderConfigTwitterParams() {
+   */
+  @Valid 
+  @Schema(name = "provider.config.twitter.params", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("provider.config.twitter.params")
+  public @Nullable ConfigNodePropertyArray getProviderConfigTwitterParams() {
     return providerConfigTwitterParams;
   }
 
-  public void setProviderConfigTwitterParams(ConfigNodePropertyArray providerConfigTwitterParams) {
+  @JsonProperty("provider.config.twitter.params")
+  public void setProviderConfigTwitterParams(@Nullable ConfigNodePropertyArray providerConfigTwitterParams) {
     this.providerConfigTwitterParams = providerConfigTwitterParams;
   }
 
-  public ComAdobeCqSocialConnectOauthImplTwitterProviderImplProperties providerConfigRefreshUserdataEnabled(ConfigNodePropertyBoolean providerConfigRefreshUserdataEnabled) {
+  public ComAdobeCqSocialConnectOauthImplTwitterProviderImplProperties providerConfigRefreshUserdataEnabled(@Nullable ConfigNodePropertyBoolean providerConfigRefreshUserdataEnabled) {
     this.providerConfigRefreshUserdataEnabled = providerConfigRefreshUserdataEnabled;
     return this;
   }
@@ -173,22 +184,21 @@ public class ComAdobeCqSocialConnectOauthImplTwitterProviderImplProperties   {
   /**
    * Get providerConfigRefreshUserdataEnabled
    * @return providerConfigRefreshUserdataEnabled
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getProviderConfigRefreshUserdataEnabled() {
+   */
+  @Valid 
+  @Schema(name = "provider.config.refresh.userdata.enabled", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("provider.config.refresh.userdata.enabled")
+  public @Nullable ConfigNodePropertyBoolean getProviderConfigRefreshUserdataEnabled() {
     return providerConfigRefreshUserdataEnabled;
   }
 
-  public void setProviderConfigRefreshUserdataEnabled(ConfigNodePropertyBoolean providerConfigRefreshUserdataEnabled) {
+  @JsonProperty("provider.config.refresh.userdata.enabled")
+  public void setProviderConfigRefreshUserdataEnabled(@Nullable ConfigNodePropertyBoolean providerConfigRefreshUserdataEnabled) {
     this.providerConfigRefreshUserdataEnabled = providerConfigRefreshUserdataEnabled;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -214,7 +224,6 @@ public class ComAdobeCqSocialConnectOauthImplTwitterProviderImplProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComAdobeCqSocialConnectOauthImplTwitterProviderImplProperties {\n");
-    
     sb.append("    oauthProviderId: ").append(toIndentedString(oauthProviderId)).append("\n");
     sb.append("    oauthCloudConfigRoot: ").append(toIndentedString(oauthCloudConfigRoot)).append("\n");
     sb.append("    providerConfigRoot: ").append(toIndentedString(providerConfigRoot)).append("\n");
@@ -230,11 +239,8 @@ public class ComAdobeCqSocialConnectOauthImplTwitterProviderImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

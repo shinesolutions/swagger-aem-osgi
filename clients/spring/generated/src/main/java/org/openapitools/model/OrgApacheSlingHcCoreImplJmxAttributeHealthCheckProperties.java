@@ -1,40 +1,51 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * OrgApacheSlingHcCoreImplJmxAttributeHealthCheckProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class OrgApacheSlingHcCoreImplJmxAttributeHealthCheckProperties   {
-  @JsonProperty("hc.name")
-  private ConfigNodePropertyString hcName = null;
+@JsonTypeName("orgApacheSlingHcCoreImplJmxAttributeHealthCheckProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class OrgApacheSlingHcCoreImplJmxAttributeHealthCheckProperties {
 
-  @JsonProperty("hc.tags")
-  private ConfigNodePropertyArray hcTags = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString hcName;
 
-  @JsonProperty("hc.mbean.name")
-  private ConfigNodePropertyString hcMbeanName = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray hcTags;
 
-  @JsonProperty("mbean.name")
-  private ConfigNodePropertyString mbeanName = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString hcMbeanName;
 
-  @JsonProperty("attribute.name")
-  private ConfigNodePropertyString attributeName = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString mbeanName;
 
-  @JsonProperty("attribute.value.constraint")
-  private ConfigNodePropertyString attributeValueConstraint = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString attributeName;
 
-  public OrgApacheSlingHcCoreImplJmxAttributeHealthCheckProperties hcName(ConfigNodePropertyString hcName) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString attributeValueConstraint;
+
+  public OrgApacheSlingHcCoreImplJmxAttributeHealthCheckProperties hcName(@Nullable ConfigNodePropertyString hcName) {
     this.hcName = hcName;
     return this;
   }
@@ -42,20 +53,20 @@ public class OrgApacheSlingHcCoreImplJmxAttributeHealthCheckProperties   {
   /**
    * Get hcName
    * @return hcName
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getHcName() {
+   */
+  @Valid 
+  @Schema(name = "hc.name", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("hc.name")
+  public @Nullable ConfigNodePropertyString getHcName() {
     return hcName;
   }
 
-  public void setHcName(ConfigNodePropertyString hcName) {
+  @JsonProperty("hc.name")
+  public void setHcName(@Nullable ConfigNodePropertyString hcName) {
     this.hcName = hcName;
   }
 
-  public OrgApacheSlingHcCoreImplJmxAttributeHealthCheckProperties hcTags(ConfigNodePropertyArray hcTags) {
+  public OrgApacheSlingHcCoreImplJmxAttributeHealthCheckProperties hcTags(@Nullable ConfigNodePropertyArray hcTags) {
     this.hcTags = hcTags;
     return this;
   }
@@ -63,20 +74,20 @@ public class OrgApacheSlingHcCoreImplJmxAttributeHealthCheckProperties   {
   /**
    * Get hcTags
    * @return hcTags
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getHcTags() {
+   */
+  @Valid 
+  @Schema(name = "hc.tags", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("hc.tags")
+  public @Nullable ConfigNodePropertyArray getHcTags() {
     return hcTags;
   }
 
-  public void setHcTags(ConfigNodePropertyArray hcTags) {
+  @JsonProperty("hc.tags")
+  public void setHcTags(@Nullable ConfigNodePropertyArray hcTags) {
     this.hcTags = hcTags;
   }
 
-  public OrgApacheSlingHcCoreImplJmxAttributeHealthCheckProperties hcMbeanName(ConfigNodePropertyString hcMbeanName) {
+  public OrgApacheSlingHcCoreImplJmxAttributeHealthCheckProperties hcMbeanName(@Nullable ConfigNodePropertyString hcMbeanName) {
     this.hcMbeanName = hcMbeanName;
     return this;
   }
@@ -84,20 +95,20 @@ public class OrgApacheSlingHcCoreImplJmxAttributeHealthCheckProperties   {
   /**
    * Get hcMbeanName
    * @return hcMbeanName
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getHcMbeanName() {
+   */
+  @Valid 
+  @Schema(name = "hc.mbean.name", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("hc.mbean.name")
+  public @Nullable ConfigNodePropertyString getHcMbeanName() {
     return hcMbeanName;
   }
 
-  public void setHcMbeanName(ConfigNodePropertyString hcMbeanName) {
+  @JsonProperty("hc.mbean.name")
+  public void setHcMbeanName(@Nullable ConfigNodePropertyString hcMbeanName) {
     this.hcMbeanName = hcMbeanName;
   }
 
-  public OrgApacheSlingHcCoreImplJmxAttributeHealthCheckProperties mbeanName(ConfigNodePropertyString mbeanName) {
+  public OrgApacheSlingHcCoreImplJmxAttributeHealthCheckProperties mbeanName(@Nullable ConfigNodePropertyString mbeanName) {
     this.mbeanName = mbeanName;
     return this;
   }
@@ -105,20 +116,20 @@ public class OrgApacheSlingHcCoreImplJmxAttributeHealthCheckProperties   {
   /**
    * Get mbeanName
    * @return mbeanName
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getMbeanName() {
+   */
+  @Valid 
+  @Schema(name = "mbean.name", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("mbean.name")
+  public @Nullable ConfigNodePropertyString getMbeanName() {
     return mbeanName;
   }
 
-  public void setMbeanName(ConfigNodePropertyString mbeanName) {
+  @JsonProperty("mbean.name")
+  public void setMbeanName(@Nullable ConfigNodePropertyString mbeanName) {
     this.mbeanName = mbeanName;
   }
 
-  public OrgApacheSlingHcCoreImplJmxAttributeHealthCheckProperties attributeName(ConfigNodePropertyString attributeName) {
+  public OrgApacheSlingHcCoreImplJmxAttributeHealthCheckProperties attributeName(@Nullable ConfigNodePropertyString attributeName) {
     this.attributeName = attributeName;
     return this;
   }
@@ -126,20 +137,20 @@ public class OrgApacheSlingHcCoreImplJmxAttributeHealthCheckProperties   {
   /**
    * Get attributeName
    * @return attributeName
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getAttributeName() {
+   */
+  @Valid 
+  @Schema(name = "attribute.name", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("attribute.name")
+  public @Nullable ConfigNodePropertyString getAttributeName() {
     return attributeName;
   }
 
-  public void setAttributeName(ConfigNodePropertyString attributeName) {
+  @JsonProperty("attribute.name")
+  public void setAttributeName(@Nullable ConfigNodePropertyString attributeName) {
     this.attributeName = attributeName;
   }
 
-  public OrgApacheSlingHcCoreImplJmxAttributeHealthCheckProperties attributeValueConstraint(ConfigNodePropertyString attributeValueConstraint) {
+  public OrgApacheSlingHcCoreImplJmxAttributeHealthCheckProperties attributeValueConstraint(@Nullable ConfigNodePropertyString attributeValueConstraint) {
     this.attributeValueConstraint = attributeValueConstraint;
     return this;
   }
@@ -147,22 +158,21 @@ public class OrgApacheSlingHcCoreImplJmxAttributeHealthCheckProperties   {
   /**
    * Get attributeValueConstraint
    * @return attributeValueConstraint
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getAttributeValueConstraint() {
+   */
+  @Valid 
+  @Schema(name = "attribute.value.constraint", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("attribute.value.constraint")
+  public @Nullable ConfigNodePropertyString getAttributeValueConstraint() {
     return attributeValueConstraint;
   }
 
-  public void setAttributeValueConstraint(ConfigNodePropertyString attributeValueConstraint) {
+  @JsonProperty("attribute.value.constraint")
+  public void setAttributeValueConstraint(@Nullable ConfigNodePropertyString attributeValueConstraint) {
     this.attributeValueConstraint = attributeValueConstraint;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -187,7 +197,6 @@ public class OrgApacheSlingHcCoreImplJmxAttributeHealthCheckProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class OrgApacheSlingHcCoreImplJmxAttributeHealthCheckProperties {\n");
-    
     sb.append("    hcName: ").append(toIndentedString(hcName)).append("\n");
     sb.append("    hcTags: ").append(toIndentedString(hcTags)).append("\n");
     sb.append("    hcMbeanName: ").append(toIndentedString(hcMbeanName)).append("\n");
@@ -202,11 +211,8 @@ public class OrgApacheSlingHcCoreImplJmxAttributeHealthCheckProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

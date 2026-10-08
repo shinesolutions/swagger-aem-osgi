@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqCommerceImplAssetVideoHandlerProperties;
 
 @Canonical
 class ComAdobeCqCommerceImplAssetVideoHandlerInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqCommerceImplAssetVideoHandlerProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqCommerceImplAssetVideoHandlerProperties properties
 }

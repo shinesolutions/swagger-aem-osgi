@@ -4,25 +4,29 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2019-08-05T00:59:30.156Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2026-10-07T12:54:21.614735164Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqWcmDesignimporterImplCanvasBuilderImplProperties   {
   
-  private ConfigNodePropertyString filepattern = null;
-  private ConfigNodePropertyBoolean buildPageNodes = null;
-  private ConfigNodePropertyBoolean buildClientLibs = null;
-  private ConfigNodePropertyBoolean buildCanvasComponent = null;
+  private ConfigNodePropertyString filepattern;
+  private ConfigNodePropertyBoolean buildPageNodes;
+  private ConfigNodePropertyBoolean buildClientLibs;
+  private ConfigNodePropertyBoolean buildCanvasComponent;
 
   /**
    **/
   
   @ApiModelProperty(value = "")
   @JsonProperty("filepattern")
+  @Valid
   public ConfigNodePropertyString getFilepattern() {
     return filepattern;
   }
@@ -35,6 +39,7 @@ public class ComDayCqWcmDesignimporterImplCanvasBuilderImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("build.page.nodes")
+  @Valid
   public ConfigNodePropertyBoolean getBuildPageNodes() {
     return buildPageNodes;
   }
@@ -47,6 +52,7 @@ public class ComDayCqWcmDesignimporterImplCanvasBuilderImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("build.client.libs")
+  @Valid
   public ConfigNodePropertyBoolean getBuildClientLibs() {
     return buildClientLibs;
   }
@@ -59,6 +65,7 @@ public class ComDayCqWcmDesignimporterImplCanvasBuilderImplProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("build.canvas.component")
+  @Valid
   public ConfigNodePropertyBoolean getBuildCanvasComponent() {
     return buildCanvasComponent;
   }
@@ -68,7 +75,7 @@ public class ComDayCqWcmDesignimporterImplCanvasBuilderImplProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -76,10 +83,10 @@ public class ComDayCqWcmDesignimporterImplCanvasBuilderImplProperties   {
       return false;
     }
     ComDayCqWcmDesignimporterImplCanvasBuilderImplProperties comDayCqWcmDesignimporterImplCanvasBuilderImplProperties = (ComDayCqWcmDesignimporterImplCanvasBuilderImplProperties) o;
-    return Objects.equals(filepattern, comDayCqWcmDesignimporterImplCanvasBuilderImplProperties.filepattern) &&
-        Objects.equals(buildPageNodes, comDayCqWcmDesignimporterImplCanvasBuilderImplProperties.buildPageNodes) &&
-        Objects.equals(buildClientLibs, comDayCqWcmDesignimporterImplCanvasBuilderImplProperties.buildClientLibs) &&
-        Objects.equals(buildCanvasComponent, comDayCqWcmDesignimporterImplCanvasBuilderImplProperties.buildCanvasComponent);
+    return Objects.equals(this.filepattern, comDayCqWcmDesignimporterImplCanvasBuilderImplProperties.filepattern) &&
+        Objects.equals(this.buildPageNodes, comDayCqWcmDesignimporterImplCanvasBuilderImplProperties.buildPageNodes) &&
+        Objects.equals(this.buildClientLibs, comDayCqWcmDesignimporterImplCanvasBuilderImplProperties.buildClientLibs) &&
+        Objects.equals(this.buildCanvasComponent, comDayCqWcmDesignimporterImplCanvasBuilderImplProperties.buildCanvasComponent);
   }
 
   @Override
@@ -104,11 +111,8 @@ public class ComDayCqWcmDesignimporterImplCanvasBuilderImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

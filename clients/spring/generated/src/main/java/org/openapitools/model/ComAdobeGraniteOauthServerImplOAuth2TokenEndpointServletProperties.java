@@ -1,33 +1,44 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyString;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComAdobeGraniteOauthServerImplOAuth2TokenEndpointServletProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComAdobeGraniteOauthServerImplOAuth2TokenEndpointServletProperties   {
-  @JsonProperty("oauth.issuer")
-  private ConfigNodePropertyString oauthIssuer = null;
+@JsonTypeName("comAdobeGraniteOauthServerImplOAuth2TokenEndpointServletProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComAdobeGraniteOauthServerImplOAuth2TokenEndpointServletProperties {
 
-  @JsonProperty("oauth.access.token.expires.in")
-  private ConfigNodePropertyString oauthAccessTokenExpiresIn = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString oauthIssuer;
 
-  @JsonProperty("osgi.http.whiteboard.servlet.pattern")
-  private ConfigNodePropertyString osgiHttpWhiteboardServletPattern = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString oauthAccessTokenExpiresIn;
 
-  @JsonProperty("osgi.http.whiteboard.context.select")
-  private ConfigNodePropertyString osgiHttpWhiteboardContextSelect = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString osgiHttpWhiteboardServletPattern;
 
-  public ComAdobeGraniteOauthServerImplOAuth2TokenEndpointServletProperties oauthIssuer(ConfigNodePropertyString oauthIssuer) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyString osgiHttpWhiteboardContextSelect;
+
+  public ComAdobeGraniteOauthServerImplOAuth2TokenEndpointServletProperties oauthIssuer(@Nullable ConfigNodePropertyString oauthIssuer) {
     this.oauthIssuer = oauthIssuer;
     return this;
   }
@@ -35,20 +46,20 @@ public class ComAdobeGraniteOauthServerImplOAuth2TokenEndpointServletProperties 
   /**
    * Get oauthIssuer
    * @return oauthIssuer
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getOauthIssuer() {
+   */
+  @Valid 
+  @Schema(name = "oauth.issuer", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("oauth.issuer")
+  public @Nullable ConfigNodePropertyString getOauthIssuer() {
     return oauthIssuer;
   }
 
-  public void setOauthIssuer(ConfigNodePropertyString oauthIssuer) {
+  @JsonProperty("oauth.issuer")
+  public void setOauthIssuer(@Nullable ConfigNodePropertyString oauthIssuer) {
     this.oauthIssuer = oauthIssuer;
   }
 
-  public ComAdobeGraniteOauthServerImplOAuth2TokenEndpointServletProperties oauthAccessTokenExpiresIn(ConfigNodePropertyString oauthAccessTokenExpiresIn) {
+  public ComAdobeGraniteOauthServerImplOAuth2TokenEndpointServletProperties oauthAccessTokenExpiresIn(@Nullable ConfigNodePropertyString oauthAccessTokenExpiresIn) {
     this.oauthAccessTokenExpiresIn = oauthAccessTokenExpiresIn;
     return this;
   }
@@ -56,20 +67,20 @@ public class ComAdobeGraniteOauthServerImplOAuth2TokenEndpointServletProperties 
   /**
    * Get oauthAccessTokenExpiresIn
    * @return oauthAccessTokenExpiresIn
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getOauthAccessTokenExpiresIn() {
+   */
+  @Valid 
+  @Schema(name = "oauth.access.token.expires.in", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("oauth.access.token.expires.in")
+  public @Nullable ConfigNodePropertyString getOauthAccessTokenExpiresIn() {
     return oauthAccessTokenExpiresIn;
   }
 
-  public void setOauthAccessTokenExpiresIn(ConfigNodePropertyString oauthAccessTokenExpiresIn) {
+  @JsonProperty("oauth.access.token.expires.in")
+  public void setOauthAccessTokenExpiresIn(@Nullable ConfigNodePropertyString oauthAccessTokenExpiresIn) {
     this.oauthAccessTokenExpiresIn = oauthAccessTokenExpiresIn;
   }
 
-  public ComAdobeGraniteOauthServerImplOAuth2TokenEndpointServletProperties osgiHttpWhiteboardServletPattern(ConfigNodePropertyString osgiHttpWhiteboardServletPattern) {
+  public ComAdobeGraniteOauthServerImplOAuth2TokenEndpointServletProperties osgiHttpWhiteboardServletPattern(@Nullable ConfigNodePropertyString osgiHttpWhiteboardServletPattern) {
     this.osgiHttpWhiteboardServletPattern = osgiHttpWhiteboardServletPattern;
     return this;
   }
@@ -77,20 +88,20 @@ public class ComAdobeGraniteOauthServerImplOAuth2TokenEndpointServletProperties 
   /**
    * Get osgiHttpWhiteboardServletPattern
    * @return osgiHttpWhiteboardServletPattern
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getOsgiHttpWhiteboardServletPattern() {
+   */
+  @Valid 
+  @Schema(name = "osgi.http.whiteboard.servlet.pattern", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("osgi.http.whiteboard.servlet.pattern")
+  public @Nullable ConfigNodePropertyString getOsgiHttpWhiteboardServletPattern() {
     return osgiHttpWhiteboardServletPattern;
   }
 
-  public void setOsgiHttpWhiteboardServletPattern(ConfigNodePropertyString osgiHttpWhiteboardServletPattern) {
+  @JsonProperty("osgi.http.whiteboard.servlet.pattern")
+  public void setOsgiHttpWhiteboardServletPattern(@Nullable ConfigNodePropertyString osgiHttpWhiteboardServletPattern) {
     this.osgiHttpWhiteboardServletPattern = osgiHttpWhiteboardServletPattern;
   }
 
-  public ComAdobeGraniteOauthServerImplOAuth2TokenEndpointServletProperties osgiHttpWhiteboardContextSelect(ConfigNodePropertyString osgiHttpWhiteboardContextSelect) {
+  public ComAdobeGraniteOauthServerImplOAuth2TokenEndpointServletProperties osgiHttpWhiteboardContextSelect(@Nullable ConfigNodePropertyString osgiHttpWhiteboardContextSelect) {
     this.osgiHttpWhiteboardContextSelect = osgiHttpWhiteboardContextSelect;
     return this;
   }
@@ -98,22 +109,21 @@ public class ComAdobeGraniteOauthServerImplOAuth2TokenEndpointServletProperties 
   /**
    * Get osgiHttpWhiteboardContextSelect
    * @return osgiHttpWhiteboardContextSelect
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyString getOsgiHttpWhiteboardContextSelect() {
+   */
+  @Valid 
+  @Schema(name = "osgi.http.whiteboard.context.select", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("osgi.http.whiteboard.context.select")
+  public @Nullable ConfigNodePropertyString getOsgiHttpWhiteboardContextSelect() {
     return osgiHttpWhiteboardContextSelect;
   }
 
-  public void setOsgiHttpWhiteboardContextSelect(ConfigNodePropertyString osgiHttpWhiteboardContextSelect) {
+  @JsonProperty("osgi.http.whiteboard.context.select")
+  public void setOsgiHttpWhiteboardContextSelect(@Nullable ConfigNodePropertyString osgiHttpWhiteboardContextSelect) {
     this.osgiHttpWhiteboardContextSelect = osgiHttpWhiteboardContextSelect;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -136,7 +146,6 @@ public class ComAdobeGraniteOauthServerImplOAuth2TokenEndpointServletProperties 
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComAdobeGraniteOauthServerImplOAuth2TokenEndpointServletProperties {\n");
-    
     sb.append("    oauthIssuer: ").append(toIndentedString(oauthIssuer)).append("\n");
     sb.append("    oauthAccessTokenExpiresIn: ").append(toIndentedString(oauthAccessTokenExpiresIn)).append("\n");
     sb.append("    osgiHttpWhiteboardServletPattern: ").append(toIndentedString(osgiHttpWhiteboardServletPattern)).append("\n");
@@ -149,11 +158,8 @@ public class ComAdobeGraniteOauthServerImplOAuth2TokenEndpointServletProperties 
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -1,12 +1,13 @@
 # OrgApacheSlingServiceusermappingImplServiceUserMapperImplProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**user_mapping** | [***::models::ConfigNodePropertyArray**](configNodePropertyArray.md) |  | [optional] 
-**user_default** | [***::models::ConfigNodePropertyString**](configNodePropertyString.md) |  | [optional] 
-**user_enable_default_mapping** | [***::models::ConfigNodePropertyBoolean**](configNodePropertyBoolean.md) |  | [optional] 
-**require_validation** | [***::models::ConfigNodePropertyBoolean**](configNodePropertyBoolean.md) |  | [optional] 
+**user_mapping** | Option<[**models::ConfigNodePropertyArray**](ConfigNodePropertyArray.md)> |  | [optional]
+**user_default** | Option<[**models::ConfigNodePropertyString**](ConfigNodePropertyString.md)> |  | [optional]
+**user_enable_default_mapping** | Option<[**models::ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md)> |  | [optional]
+**require_validation** | Option<[**models::ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md)> |  | [optional]
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

@@ -2,10 +2,10 @@
 # ComAdobeGraniteOffloadingImplOffloadingConfiguratorProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**offloadingPeriodtransporter** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**offloadingPeriodcleanupPeriodpayload** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **offloadingTransporter** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **offloadingCleanupPayload** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
 
 
 

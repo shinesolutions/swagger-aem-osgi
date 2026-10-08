@@ -1,0 +1,36 @@
+{
+  "type": "form",
+  "version": "2.0",
+  "cells": [{
+    "label": "General",
+    "children": [
+      {"model": "label"},
+      {"model": "description"}
+    ]
+  },{
+    "label": "Details",
+    "model": "properties",
+    "children": [
+      {"model": "htmllibmanager_timing" },
+      {"model": "htmllibmanager_debug_init_js" },
+      {"model": "htmllibmanager_minify" },
+      {"model": "htmllibmanager_debug" },
+      {"model": "htmllibmanager_gzip" },
+      {"model": "htmllibmanager_max_data_uri_size" },
+      {"model": "htmllibmanager_maxage" },
+      {"model": "htmllibmanager_force_cq_url_info" },
+      {"model": "htmllibmanager_defaultthemename" },
+      {"model": "htmllibmanager_defaultuserthemename" },
+      {"model": "htmllibmanager_clientmanager" },
+      {"model": "htmllibmanager_path_list" },
+      {"model": "htmllibmanager_excluded_path_list" },
+      {"model": "htmllibmanager_processor_js" },
+      {"model": "htmllibmanager_processor_css" },
+      {"model": "htmllibmanager_longcache_patterns" },
+      {"model": "htmllibmanager_longcache_format" },
+      {"model": "htmllibmanager_use_file_system_output_cache" },
+      {"model": "htmllibmanager_file_system_output_cache_location" },
+      {"model": "htmllibmanager_disable_replacement" },
+    ]
+  }]
+}

@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeGraniteRestAssetsImplAssetContentDispositi
 
 @Canonical
 class ComAdobeGraniteRestAssetsImplAssetContentDispositionFilterInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteRestAssetsImplAssetContentDispositionFilterProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteRestAssetsImplAssetContentDispositionFilterProperties properties
 }

@@ -72,7 +72,7 @@ private class OASComDayCqWcmCoreMvtMVTStatisticsImTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqWcmCoreMvtMVTStatisticsIm comDayCqWcmCoreMvtMVTStatisticsImplProperties = new OASComDayCqWcmCoreMvtMVTStatisticsIm();
-        Map<String, String> propertyMappings = comDayCqWcmCoreMvtMVTStatisticsImplProperties.getPropertyMappings();
-        System.assertEquals('mvtstatisticsTrackingurl', propertyMappings.get('mvtstatistics.trackingurl'));
+        Map<String, String> x-property-mappings = comDayCqWcmCoreMvtMVTStatisticsImplProperties.getx-property-mappings();
+        System.assertEquals('mvtstatisticsTrackingurl', x-property-mappings.get('mvtstatistics.trackingurl'));
     }
 }

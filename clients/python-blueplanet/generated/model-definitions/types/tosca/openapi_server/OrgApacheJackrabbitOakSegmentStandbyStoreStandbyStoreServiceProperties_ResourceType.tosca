@@ -1,0 +1,80 @@
+"$schema"   = "http://cyaninc.com/json-schemas/tosca-lite-v1/definition-module#"
+title       = "openapi_server OrgApacheJackrabbitOakSegmentStandbyStoreStandbyStoreServiceProperties"
+package     = openapi_server
+version     = "1.0"
+description = "Defines a OrgApacheJackrabbitOakSegmentStandbyStoreStandbyStoreServiceProperties"
+authors     = ["F. Bar (foo@bar.baz)"]
+
+imports {
+  Root = tosca.resourceTypes.Root
+  ConfigNodePropertyArray = openapi_server.resourceTypes.ConfigNodePropertyArray
+  ConfigNodePropertyBoolean = openapi_server.resourceTypes.ConfigNodePropertyBoolean
+  ConfigNodePropertyDropDown = openapi_server.resourceTypes.ConfigNodePropertyDropDown
+  ConfigNodePropertyInteger = openapi_server.resourceTypes.ConfigNodePropertyInteger
+  ConfigNodePropertyString = openapi_server.resourceTypes.ConfigNodePropertyString
+}
+resourceTypes {
+
+  OrgApacheJackrabbitOakSegmentStandbyStoreStandbyStoreServiceProperties {
+    title = OrgApacheJackrabbitOakSegmentStandbyStoreStandbyStoreServiceProperties
+    description = OrgApacheJackrabbitOakSegmentStandbyStoreStandbyStoreServiceProperties
+    derivedFrom = Root
+    properties {
+        org_apache_sling_installer_configuration_persist {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        mode {
+          type = ConfigNodePropertyDropDown
+          description = ""
+          optional = false
+        }
+        port {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        primary_host {
+          type = ConfigNodePropertyString
+          description = ""
+          optional = false
+        }
+        interval {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        primary_allowed_client_ip_ranges {
+          type = ConfigNodePropertyArray
+          description = ""
+          optional = false
+        }
+        secure {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+        standby_readtimeout {
+          type = ConfigNodePropertyInteger
+          description = ""
+          optional = false
+        }
+        standby_autoclean {
+          type = ConfigNodePropertyBoolean
+          description = ""
+          optional = false
+        }
+    }
+  }
+}
+
+serviceTemplates {
+
+  OrgApacheJackrabbitOakSegmentStandbyStoreStandbyStoreServiceProperties {
+    title = OrgApacheJackrabbitOakSegmentStandbyStoreStandbyStoreServiceProperties
+    description = OrgApacheJackrabbitOakSegmentStandbyStoreStandbyStoreServiceProperties
+    implements = openapi_server.resourceTypes.OrgApacheJackrabbitOakSegmentStandbyStoreStandbyStoreServiceProperties
+
+  }
+}

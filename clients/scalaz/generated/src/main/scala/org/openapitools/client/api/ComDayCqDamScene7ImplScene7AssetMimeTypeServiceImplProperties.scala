@@ -7,6 +7,8 @@ import argonaut.DecodeJson._
 import org.http4s.{EntityDecoder, EntityEncoder}
 import org.http4s.argonaut._
 import org.joda.time.DateTime
+
+
 import ComDayCqDamScene7ImplScene7AssetMimeTypeServiceImplProperties._
 
 case class ComDayCqDamScene7ImplScene7AssetMimeTypeServiceImplProperties (

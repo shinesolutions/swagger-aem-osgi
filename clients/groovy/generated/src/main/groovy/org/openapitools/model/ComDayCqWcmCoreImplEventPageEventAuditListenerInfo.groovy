@@ -7,16 +7,16 @@ import org.openapitools.model.ComDayCqWcmCoreImplEventPageEventAuditListenerProp
 
 @Canonical
 class ComDayCqWcmCoreImplEventPageEventAuditListenerInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqWcmCoreImplEventPageEventAuditListenerProperties properties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqWcmCoreImplEventPageEventAuditListenerProperties properties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

@@ -72,8 +72,8 @@ private class OASOrgApacheSlingResourcemergerImplMTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASOrgApacheSlingResourcemergerImplM orgApacheSlingResourcemergerImplMergedResourceProviderFactoryProperties = new OASOrgApacheSlingResourcemergerImplM();
-        Map<String, String> propertyMappings = orgApacheSlingResourcemergerImplMergedResourceProviderFactoryProperties.getPropertyMappings();
-        System.assertEquals('mergeRoot', propertyMappings.get('merge.root'));
-        System.assertEquals('mergeReadOnly', propertyMappings.get('merge.readOnly'));
+        Map<String, String> x-property-mappings = orgApacheSlingResourcemergerImplMergedResourceProviderFactoryProperties.getx-property-mappings();
+        System.assertEquals('mergeRoot', x-property-mappings.get('merge.root'));
+        System.assertEquals('mergeReadOnly', x-property-mappings.get('merge.readOnly'));
     }
 }

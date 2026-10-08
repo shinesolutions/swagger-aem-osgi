@@ -2,18 +2,19 @@
 
 ## Properties
 
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**cq_social_content_fragments_services_enabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] 
-**cq_social_content_fragments_services_wait_time_seconds** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  | [optional] 
+| Name | Type | Description | Notes |
+| ---- | ---- | ----------- | ----- |
+| **cq_social_content_fragments_services_enabled** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  | [optional] |
+| **cq_social_content_fragments_services_wait_time_seconds** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  | [optional] |
 
-## Code Sample
+## Example
 
 ```ruby
-require 'SwaggerAemOsgiClient'
+require 'swagger_aem_osgi'
 
-instance = SwaggerAemOsgiClient::ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmenProperties.new(cq_social_content_fragments_services_enabled: null,
-                                 cq_social_content_fragments_services_wait_time_seconds: null)
+instance = SwaggerAemOsgiClient::ComAdobeCqSocialContentFragmentsServicesImplCommunitiesFragmenProperties.new(
+  cq_social_content_fragments_services_enabled: null,
+  cq_social_content_fragments_services_wait_time_seconds: null
+)
 ```
-
 

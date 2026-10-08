@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqWcmNotificationEmailImplEmailChannelProper
 
 @Canonical
 class ComDayCqWcmNotificationEmailImplEmailChannelInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqWcmNotificationEmailImplEmailChannelProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqWcmNotificationEmailImplEmailChannelProperties properties
 }

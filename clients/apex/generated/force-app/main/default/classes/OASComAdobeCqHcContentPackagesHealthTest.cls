@@ -72,10 +72,10 @@ private class OASComAdobeCqHcContentPackagesHealthTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComAdobeCqHcContentPackagesHealth comAdobeCqHcContentPackagesHealthCheckProperties = new OASComAdobeCqHcContentPackagesHealth();
-        Map<String, String> propertyMappings = comAdobeCqHcContentPackagesHealthCheckProperties.getPropertyMappings();
-        System.assertEquals('hcName', propertyMappings.get('hc.name'));
-        System.assertEquals('hcTags', propertyMappings.get('hc.tags'));
-        System.assertEquals('hcMbeanName', propertyMappings.get('hc.mbean.name'));
-        System.assertEquals('packageNames', propertyMappings.get('package.names'));
+        Map<String, String> x-property-mappings = comAdobeCqHcContentPackagesHealthCheckProperties.getx-property-mappings();
+        System.assertEquals('hcName', x-property-mappings.get('hc.name'));
+        System.assertEquals('hcTags', x-property-mappings.get('hc.tags'));
+        System.assertEquals('hcMbeanName', x-property-mappings.get('hc.mbean.name'));
+        System.assertEquals('packageNames', x-property-mappings.get('package.names'));
     }
 }

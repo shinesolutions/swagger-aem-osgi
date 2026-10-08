@@ -2,26 +2,33 @@ package apimodels;
 
 import apimodels.ConfigNodePropertyBoolean;
 import apimodels.ConfigNodePropertyInteger;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * OrgApacheJackrabbitOakPluginsObservationChangeCollectorProviderProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class OrgApacheJackrabbitOakPluginsObservationChangeCollectorProviderProperties   {
   @JsonProperty("maxItems")
-  private ConfigNodePropertyInteger maxItems = null;
+  @Valid
+
+  private ConfigNodePropertyInteger maxItems;
 
   @JsonProperty("maxPathDepth")
-  private ConfigNodePropertyInteger maxPathDepth = null;
+  @Valid
+
+  private ConfigNodePropertyInteger maxPathDepth;
 
   @JsonProperty("enabled")
-  private ConfigNodePropertyBoolean enabled = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean enabled;
 
   public OrgApacheJackrabbitOakPluginsObservationChangeCollectorProviderProperties maxItems(ConfigNodePropertyInteger maxItems) {
     this.maxItems = maxItems;
@@ -32,7 +39,6 @@ public class OrgApacheJackrabbitOakPluginsObservationChangeCollectorProviderProp
    * Get maxItems
    * @return maxItems
   **/
-  @Valid
   public ConfigNodePropertyInteger getMaxItems() {
     return maxItems;
   }
@@ -50,7 +56,6 @@ public class OrgApacheJackrabbitOakPluginsObservationChangeCollectorProviderProp
    * Get maxPathDepth
    * @return maxPathDepth
   **/
-  @Valid
   public ConfigNodePropertyInteger getMaxPathDepth() {
     return maxPathDepth;
   }
@@ -68,7 +73,6 @@ public class OrgApacheJackrabbitOakPluginsObservationChangeCollectorProviderProp
    * Get enabled
    * @return enabled
   **/
-  @Valid
   public ConfigNodePropertyBoolean getEnabled() {
     return enabled;
   }
@@ -79,7 +83,7 @@ public class OrgApacheJackrabbitOakPluginsObservationChangeCollectorProviderProp
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -114,11 +118,8 @@ public class OrgApacheJackrabbitOakPluginsObservationChangeCollectorProviderProp
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

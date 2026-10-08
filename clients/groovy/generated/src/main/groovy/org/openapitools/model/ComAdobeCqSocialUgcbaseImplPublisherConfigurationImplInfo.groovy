@@ -7,12 +7,12 @@ import org.openapitools.model.ComAdobeCqSocialUgcbaseImplPublisherConfigurationI
 
 @Canonical
 class ComAdobeCqSocialUgcbaseImplPublisherConfigurationImplInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeCqSocialUgcbaseImplPublisherConfigurationImplProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeCqSocialUgcbaseImplPublisherConfigurationImplProperties properties
 }

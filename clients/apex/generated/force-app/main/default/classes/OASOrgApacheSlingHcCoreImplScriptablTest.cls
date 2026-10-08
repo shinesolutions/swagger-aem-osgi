@@ -72,10 +72,10 @@ private class OASOrgApacheSlingHcCoreImplScriptablTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASOrgApacheSlingHcCoreImplScriptabl orgApacheSlingHcCoreImplScriptableHealthCheckProperties = new OASOrgApacheSlingHcCoreImplScriptabl();
-        Map<String, String> propertyMappings = orgApacheSlingHcCoreImplScriptableHealthCheckProperties.getPropertyMappings();
-        System.assertEquals('hcName', propertyMappings.get('hc.name'));
-        System.assertEquals('hcTags', propertyMappings.get('hc.tags'));
-        System.assertEquals('hcMbeanName', propertyMappings.get('hc.mbean.name'));
-        System.assertEquals('languageExtension', propertyMappings.get('language.extension'));
+        Map<String, String> x-property-mappings = orgApacheSlingHcCoreImplScriptableHealthCheckProperties.getx-property-mappings();
+        System.assertEquals('hcName', x-property-mappings.get('hc.name'));
+        System.assertEquals('hcTags', x-property-mappings.get('hc.tags'));
+        System.assertEquals('hcMbeanName', x-property-mappings.get('hc.mbean.name'));
+        System.assertEquals('languageExtension', x-property-mappings.get('language.extension'));
     }
 }

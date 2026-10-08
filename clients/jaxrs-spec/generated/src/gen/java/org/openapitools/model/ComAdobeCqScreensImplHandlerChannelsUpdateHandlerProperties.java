@@ -1,22 +1,33 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties   {
-  
-  private @Valid ConfigNodePropertyArray cqPagesupdatehandlerImageresourcetypes = null;
-  private @Valid ConfigNodePropertyArray cqPagesupdatehandlerProductresourcetypes = null;
-  private @Valid ConfigNodePropertyArray cqPagesupdatehandlerVideoresourcetypes = null;
-  private @Valid ConfigNodePropertyArray cqPagesupdatehandlerDynamicsequenceresourcetypes = null;
-  private @Valid ConfigNodePropertyArray cqPagesupdatehandlerPreviewmodepaths = null;
+  private ConfigNodePropertyArray cqPagesupdatehandlerImageresourcetypes;
+  private ConfigNodePropertyArray cqPagesupdatehandlerProductresourcetypes;
+  private ConfigNodePropertyArray cqPagesupdatehandlerVideoresourcetypes;
+  private ConfigNodePropertyArray cqPagesupdatehandlerDynamicsequenceresourcetypes;
+  private ConfigNodePropertyArray cqPagesupdatehandlerPreviewmodepaths;
+
+  public ComAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties() {
+  }
 
   /**
    **/
@@ -28,9 +39,11 @@ public class ComAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("cq.pagesupdatehandler.imageresourcetypes")
-  public ConfigNodePropertyArray getCqPagesupdatehandlerImageresourcetypes() {
+  @Valid public ConfigNodePropertyArray getCqPagesupdatehandlerImageresourcetypes() {
     return cqPagesupdatehandlerImageresourcetypes;
   }
+
+  @JsonProperty("cq.pagesupdatehandler.imageresourcetypes")
   public void setCqPagesupdatehandlerImageresourcetypes(ConfigNodePropertyArray cqPagesupdatehandlerImageresourcetypes) {
     this.cqPagesupdatehandlerImageresourcetypes = cqPagesupdatehandlerImageresourcetypes;
   }
@@ -45,9 +58,11 @@ public class ComAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("cq.pagesupdatehandler.productresourcetypes")
-  public ConfigNodePropertyArray getCqPagesupdatehandlerProductresourcetypes() {
+  @Valid public ConfigNodePropertyArray getCqPagesupdatehandlerProductresourcetypes() {
     return cqPagesupdatehandlerProductresourcetypes;
   }
+
+  @JsonProperty("cq.pagesupdatehandler.productresourcetypes")
   public void setCqPagesupdatehandlerProductresourcetypes(ConfigNodePropertyArray cqPagesupdatehandlerProductresourcetypes) {
     this.cqPagesupdatehandlerProductresourcetypes = cqPagesupdatehandlerProductresourcetypes;
   }
@@ -62,9 +77,11 @@ public class ComAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("cq.pagesupdatehandler.videoresourcetypes")
-  public ConfigNodePropertyArray getCqPagesupdatehandlerVideoresourcetypes() {
+  @Valid public ConfigNodePropertyArray getCqPagesupdatehandlerVideoresourcetypes() {
     return cqPagesupdatehandlerVideoresourcetypes;
   }
+
+  @JsonProperty("cq.pagesupdatehandler.videoresourcetypes")
   public void setCqPagesupdatehandlerVideoresourcetypes(ConfigNodePropertyArray cqPagesupdatehandlerVideoresourcetypes) {
     this.cqPagesupdatehandlerVideoresourcetypes = cqPagesupdatehandlerVideoresourcetypes;
   }
@@ -79,9 +96,11 @@ public class ComAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("cq.pagesupdatehandler.dynamicsequenceresourcetypes")
-  public ConfigNodePropertyArray getCqPagesupdatehandlerDynamicsequenceresourcetypes() {
+  @Valid public ConfigNodePropertyArray getCqPagesupdatehandlerDynamicsequenceresourcetypes() {
     return cqPagesupdatehandlerDynamicsequenceresourcetypes;
   }
+
+  @JsonProperty("cq.pagesupdatehandler.dynamicsequenceresourcetypes")
   public void setCqPagesupdatehandlerDynamicsequenceresourcetypes(ConfigNodePropertyArray cqPagesupdatehandlerDynamicsequenceresourcetypes) {
     this.cqPagesupdatehandlerDynamicsequenceresourcetypes = cqPagesupdatehandlerDynamicsequenceresourcetypes;
   }
@@ -96,16 +115,18 @@ public class ComAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties   {
   
   @ApiModelProperty(value = "")
   @JsonProperty("cq.pagesupdatehandler.previewmodepaths")
-  public ConfigNodePropertyArray getCqPagesupdatehandlerPreviewmodepaths() {
+  @Valid public ConfigNodePropertyArray getCqPagesupdatehandlerPreviewmodepaths() {
     return cqPagesupdatehandlerPreviewmodepaths;
   }
+
+  @JsonProperty("cq.pagesupdatehandler.previewmodepaths")
   public void setCqPagesupdatehandlerPreviewmodepaths(ConfigNodePropertyArray cqPagesupdatehandlerPreviewmodepaths) {
     this.cqPagesupdatehandlerPreviewmodepaths = cqPagesupdatehandlerPreviewmodepaths;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -113,11 +134,11 @@ public class ComAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties   {
       return false;
     }
     ComAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties comAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties = (ComAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties) o;
-    return Objects.equals(cqPagesupdatehandlerImageresourcetypes, comAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties.cqPagesupdatehandlerImageresourcetypes) &&
-        Objects.equals(cqPagesupdatehandlerProductresourcetypes, comAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties.cqPagesupdatehandlerProductresourcetypes) &&
-        Objects.equals(cqPagesupdatehandlerVideoresourcetypes, comAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties.cqPagesupdatehandlerVideoresourcetypes) &&
-        Objects.equals(cqPagesupdatehandlerDynamicsequenceresourcetypes, comAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties.cqPagesupdatehandlerDynamicsequenceresourcetypes) &&
-        Objects.equals(cqPagesupdatehandlerPreviewmodepaths, comAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties.cqPagesupdatehandlerPreviewmodepaths);
+    return Objects.equals(this.cqPagesupdatehandlerImageresourcetypes, comAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties.cqPagesupdatehandlerImageresourcetypes) &&
+        Objects.equals(this.cqPagesupdatehandlerProductresourcetypes, comAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties.cqPagesupdatehandlerProductresourcetypes) &&
+        Objects.equals(this.cqPagesupdatehandlerVideoresourcetypes, comAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties.cqPagesupdatehandlerVideoresourcetypes) &&
+        Objects.equals(this.cqPagesupdatehandlerDynamicsequenceresourcetypes, comAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties.cqPagesupdatehandlerDynamicsequenceresourcetypes) &&
+        Objects.equals(this.cqPagesupdatehandlerPreviewmodepaths, comAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties.cqPagesupdatehandlerPreviewmodepaths);
   }
 
   @Override
@@ -143,11 +164,9 @@ public class ComAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

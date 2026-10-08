@@ -8,10 +8,10 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqDamCoreImplCacheCQBufferedImageCacheProperties {
-    ConfigNodePropertyInteger cqDamImageCacheMaxMemory = null
-
-    ConfigNodePropertyInteger cqDamImageCacheMaxAge = null
-
-    ConfigNodePropertyString cqDamImageCacheMaxDimension = null
-
+    
+    ConfigNodePropertyInteger cqDamImageCacheMaxMemory
+    
+    ConfigNodePropertyInteger cqDamImageCacheMaxAge
+    
+    ConfigNodePropertyString cqDamImageCacheMaxDimension
 }

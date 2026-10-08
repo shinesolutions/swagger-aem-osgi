@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqDamCoreImplGfxCommonsGfxRendererProperties
 
 @Canonical
 class ComDayCqDamCoreImplGfxCommonsGfxRendererInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqDamCoreImplGfxCommonsGfxRendererProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqDamCoreImplGfxCommonsGfxRendererProperties properties
 }

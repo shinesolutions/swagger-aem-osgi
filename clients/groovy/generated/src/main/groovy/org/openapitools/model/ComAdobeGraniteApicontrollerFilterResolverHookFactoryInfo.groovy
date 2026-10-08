@@ -7,16 +7,16 @@ import org.openapitools.model.ComAdobeGraniteApicontrollerFilterResolverHookFact
 
 @Canonical
 class ComAdobeGraniteApicontrollerFilterResolverHookFactoryInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties properties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComAdobeGraniteApicontrollerFilterResolverHookFactoryProperties properties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

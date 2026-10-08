@@ -1,5 +1,6 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
@@ -7,40 +8,47 @@ import javax.validation.constraints.*;
 import javax.validation.Valid;
 
 import io.swagger.annotations.ApiModelProperty;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlType;
-import javax.xml.bind.annotation.XmlEnum;
-import javax.xml.bind.annotation.XmlEnumValue;
+import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
 
 public class ComAdobeGraniteMonitoringImplScriptConfigImplProperties  {
   
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyString scriptFilename = null;
+
+  private ConfigNodePropertyString scriptFilename;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyString scriptDisplay = null;
+
+  private ConfigNodePropertyString scriptDisplay;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyString scriptPath = null;
+
+  private ConfigNodePropertyString scriptPath;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyArray scriptPlatform = null;
+
+  private ConfigNodePropertyArray scriptPlatform;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyInteger interval = null;
+
+  private ConfigNodePropertyInteger interval;
 
   @ApiModelProperty(value = "")
+
   @Valid
-  private ConfigNodePropertyString jmxdomain = null;
+
+  private ConfigNodePropertyString jmxdomain;
  /**
    * Get scriptFilename
    * @return scriptFilename
@@ -149,6 +157,27 @@ public class ComAdobeGraniteMonitoringImplScriptConfigImplProperties  {
     return this;
   }
 
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    ComAdobeGraniteMonitoringImplScriptConfigImplProperties comAdobeGraniteMonitoringImplScriptConfigImplProperties = (ComAdobeGraniteMonitoringImplScriptConfigImplProperties) o;
+    return Objects.equals(this.scriptFilename, comAdobeGraniteMonitoringImplScriptConfigImplProperties.scriptFilename) &&
+        Objects.equals(this.scriptDisplay, comAdobeGraniteMonitoringImplScriptConfigImplProperties.scriptDisplay) &&
+        Objects.equals(this.scriptPath, comAdobeGraniteMonitoringImplScriptConfigImplProperties.scriptPath) &&
+        Objects.equals(this.scriptPlatform, comAdobeGraniteMonitoringImplScriptConfigImplProperties.scriptPlatform) &&
+        Objects.equals(this.interval, comAdobeGraniteMonitoringImplScriptConfigImplProperties.interval) &&
+        Objects.equals(this.jmxdomain, comAdobeGraniteMonitoringImplScriptConfigImplProperties.jmxdomain);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(scriptFilename, scriptDisplay, scriptPath, scriptPlatform, interval, jmxdomain);
+  }
 
   @Override
   public String toString() {
@@ -169,11 +198,8 @@ public class ComAdobeGraniteMonitoringImplScriptConfigImplProperties  {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private static String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

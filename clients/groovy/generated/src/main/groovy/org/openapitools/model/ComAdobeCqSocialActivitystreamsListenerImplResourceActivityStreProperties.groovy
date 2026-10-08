@@ -7,8 +7,8 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeCqSocialActivitystreamsListenerImplResourceActivityStreProperties {
-    ConfigNodePropertyString streamPath = null
-
-    ConfigNodePropertyString streamName = null
-
+    
+    ConfigNodePropertyString streamPath
+    
+    ConfigNodePropertyString streamName
 }

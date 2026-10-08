@@ -1,7 +1,9 @@
 
+
 # OrgApacheFelixEventadminImplEventAdminProperties
 
 ## Properties
+
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **orgApacheFelixEventadminThreadPoolSize** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
@@ -10,6 +12,7 @@ Name | Type | Description | Notes
 **orgApacheFelixEventadminRequireTopic** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
 **orgApacheFelixEventadminIgnoreTimeout** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
 **orgApacheFelixEventadminIgnoreTopic** | [**ConfigNodePropertyArray**](ConfigNodePropertyArray.md) |  |  [optional]
+
 
 
 

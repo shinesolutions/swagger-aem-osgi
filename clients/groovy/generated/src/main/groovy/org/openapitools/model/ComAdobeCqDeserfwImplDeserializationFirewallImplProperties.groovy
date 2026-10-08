@@ -8,10 +8,10 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComAdobeCqDeserfwImplDeserializationFirewallImplProperties {
-    ConfigNodePropertyArray firewallDeserializationWhitelist = null
-
-    ConfigNodePropertyArray firewallDeserializationBlacklist = null
-
-    ConfigNodePropertyString firewallDeserializationDiagnostics = null
-
+    
+    ConfigNodePropertyArray firewallDeserializationWhitelist
+    
+    ConfigNodePropertyArray firewallDeserializationBlacklist
+    
+    ConfigNodePropertyString firewallDeserializationDiagnostics
 }

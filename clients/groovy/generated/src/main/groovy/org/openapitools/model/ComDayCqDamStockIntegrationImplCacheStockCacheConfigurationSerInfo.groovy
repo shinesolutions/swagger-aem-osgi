@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqDamStockIntegrationImplCacheStockCacheConf
 
 @Canonical
 class ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationSerInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationSerProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqDamStockIntegrationImplCacheStockCacheConfigurationSerProperties properties
 }

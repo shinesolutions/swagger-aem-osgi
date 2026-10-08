@@ -732,12 +732,15 @@ import java.util.List;
 
 import java.io.InputStream;
 
+import javax.validation.constraints.*;
+import javax.validation.Valid;
+
 import javax.enterprise.context.RequestScoped;
 import javax.ws.rs.core.Response;
 import javax.ws.rs.core.SecurityContext;
 
 @RequestScoped
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSCXFCDIServerCodegen", date = "2019-08-05T00:58:05.920Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSCXFCDIServerCodegen", date = "2026-10-07T12:54:05.120862681Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class SystemApiServiceImpl implements SystemApiService {
       @Override
       public Response adaptiveFormAndInteractiveCommunicationWebChannelConfiguration(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, Boolean showPlaceholder, Integer maximumCacheEntries, String afScriptingCompatversion, Boolean makeFileNameUnique, Boolean generatingCompliantData, SecurityContext securityContext) {
@@ -2540,7 +2543,7 @@ public class SystemApiServiceImpl implements SystemApiService {
       return Response.ok().entity("magic!").build();
   }
       @Override
-      public Response comDayCqDamCoreImplMetadataEditorSelectComponentHandler(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> graniteColonData, SecurityContext securityContext) {
+      public Response comDayCqDamCoreImplMetadataEditorSelectComponentHandler(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, List<String> graniteData, SecurityContext securityContext) {
       // do some magic!
       return Response.ok().entity("magic!").build();
   }
@@ -2620,7 +2623,7 @@ public class SystemApiServiceImpl implements SystemApiService {
       return Response.ok().entity("magic!").build();
   }
       @Override
-      public Response comDayCqDamCoreImplServletCompanionServlet(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String moreInfo, String slashMntSlashOverlaySlashDamSlashGuiSlashContentSlashAssetsSlashMoreinfoHtmlSlash$LeftCurlyBracketPathRightCurlyBracket, SecurityContext securityContext) {
+      public Response comDayCqDamCoreImplServletCompanionServlet(Boolean post, Boolean apply, Boolean delete, String action, String $location, List<String> propertylist, String moreInfo, String mntOverlayDamGuiContentAssetsMoreinfoHtml$LeftCurlyBracketPathRightCurlyBracket, SecurityContext securityContext) {
       // do some magic!
       return Response.ok().entity("magic!").build();
   }

@@ -4,25 +4,29 @@ import java.util.Objects;
 import java.util.ArrayList;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 import io.swagger.annotations.*;
 
-
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2019-08-05T00:59:30.156Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaResteasyServerCodegen", date = "2026-10-07T12:54:21.614735164Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComDayCqWcmMsmImplActionsReferencesUpdateActionFactoryProperties   {
   
-  private ConfigNodePropertyArray cqWcmMsmActionExcludednodetypes = null;
-  private ConfigNodePropertyArray cqWcmMsmActionExcludedparagraphitems = null;
-  private ConfigNodePropertyArray cqWcmMsmActionExcludedprops = null;
-  private ConfigNodePropertyBoolean cqWcmMsmImplActionReferencesupdatePropUpdateNested = null;
+  private ConfigNodePropertyArray cqWcmMsmActionExcludednodetypes;
+  private ConfigNodePropertyArray cqWcmMsmActionExcludedparagraphitems;
+  private ConfigNodePropertyArray cqWcmMsmActionExcludedprops;
+  private ConfigNodePropertyBoolean cqWcmMsmImplActionReferencesupdatePropUpdateNested;
 
   /**
    **/
   
   @ApiModelProperty(value = "")
   @JsonProperty("cq.wcm.msm.action.excludednodetypes")
+  @Valid
   public ConfigNodePropertyArray getCqWcmMsmActionExcludednodetypes() {
     return cqWcmMsmActionExcludednodetypes;
   }
@@ -35,6 +39,7 @@ public class ComDayCqWcmMsmImplActionsReferencesUpdateActionFactoryProperties   
   
   @ApiModelProperty(value = "")
   @JsonProperty("cq.wcm.msm.action.excludedparagraphitems")
+  @Valid
   public ConfigNodePropertyArray getCqWcmMsmActionExcludedparagraphitems() {
     return cqWcmMsmActionExcludedparagraphitems;
   }
@@ -47,6 +52,7 @@ public class ComDayCqWcmMsmImplActionsReferencesUpdateActionFactoryProperties   
   
   @ApiModelProperty(value = "")
   @JsonProperty("cq.wcm.msm.action.excludedprops")
+  @Valid
   public ConfigNodePropertyArray getCqWcmMsmActionExcludedprops() {
     return cqWcmMsmActionExcludedprops;
   }
@@ -59,6 +65,7 @@ public class ComDayCqWcmMsmImplActionsReferencesUpdateActionFactoryProperties   
   
   @ApiModelProperty(value = "")
   @JsonProperty("cq.wcm.msm.impl.action.referencesupdate.prop_updateNested")
+  @Valid
   public ConfigNodePropertyBoolean getCqWcmMsmImplActionReferencesupdatePropUpdateNested() {
     return cqWcmMsmImplActionReferencesupdatePropUpdateNested;
   }
@@ -68,7 +75,7 @@ public class ComDayCqWcmMsmImplActionsReferencesUpdateActionFactoryProperties   
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -76,10 +83,10 @@ public class ComDayCqWcmMsmImplActionsReferencesUpdateActionFactoryProperties   
       return false;
     }
     ComDayCqWcmMsmImplActionsReferencesUpdateActionFactoryProperties comDayCqWcmMsmImplActionsReferencesUpdateActionFactoryProperties = (ComDayCqWcmMsmImplActionsReferencesUpdateActionFactoryProperties) o;
-    return Objects.equals(cqWcmMsmActionExcludednodetypes, comDayCqWcmMsmImplActionsReferencesUpdateActionFactoryProperties.cqWcmMsmActionExcludednodetypes) &&
-        Objects.equals(cqWcmMsmActionExcludedparagraphitems, comDayCqWcmMsmImplActionsReferencesUpdateActionFactoryProperties.cqWcmMsmActionExcludedparagraphitems) &&
-        Objects.equals(cqWcmMsmActionExcludedprops, comDayCqWcmMsmImplActionsReferencesUpdateActionFactoryProperties.cqWcmMsmActionExcludedprops) &&
-        Objects.equals(cqWcmMsmImplActionReferencesupdatePropUpdateNested, comDayCqWcmMsmImplActionsReferencesUpdateActionFactoryProperties.cqWcmMsmImplActionReferencesupdatePropUpdateNested);
+    return Objects.equals(this.cqWcmMsmActionExcludednodetypes, comDayCqWcmMsmImplActionsReferencesUpdateActionFactoryProperties.cqWcmMsmActionExcludednodetypes) &&
+        Objects.equals(this.cqWcmMsmActionExcludedparagraphitems, comDayCqWcmMsmImplActionsReferencesUpdateActionFactoryProperties.cqWcmMsmActionExcludedparagraphitems) &&
+        Objects.equals(this.cqWcmMsmActionExcludedprops, comDayCqWcmMsmImplActionsReferencesUpdateActionFactoryProperties.cqWcmMsmActionExcludedprops) &&
+        Objects.equals(this.cqWcmMsmImplActionReferencesupdatePropUpdateNested, comDayCqWcmMsmImplActionsReferencesUpdateActionFactoryProperties.cqWcmMsmImplActionReferencesupdatePropUpdateNested);
   }
 
   @Override
@@ -104,11 +111,8 @@ public class ComDayCqWcmMsmImplActionsReferencesUpdateActionFactoryProperties   
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

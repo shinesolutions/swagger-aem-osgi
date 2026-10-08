@@ -3,6 +3,7 @@ package com.prokarma.pkmst.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.prokarma.pkmst.model.ConfigNodePropertyString;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
@@ -15,30 +16,29 @@ import io.swagger.annotations.ApiModelProperty;
  * ComAdobeGraniteAuthImsImplImsConfigProviderImplProperties
  */
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2019-08-05T00:55:06.958Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPKMSTServerCodegen", date = "2026-10-07T12:53:33.786893092Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteAuthImsImplImsConfigProviderImplProperties   {
   @JsonProperty("oauth.configmanager.ims.configid")
-  private ConfigNodePropertyString oauthConfigmanagerImsConfigid = null;
+  private ConfigNodePropertyString oauthConfigmanagerImsConfigid;
 
   @JsonProperty("ims.owningEntity")
-  private ConfigNodePropertyString imsOwningEntity = null;
+  private ConfigNodePropertyString imsOwningEntity;
 
   @JsonProperty("aem.instanceId")
-  private ConfigNodePropertyString aemInstanceId = null;
+  private ConfigNodePropertyString aemInstanceId;
 
   @JsonProperty("ims.serviceCode")
-  private ConfigNodePropertyString imsServiceCode = null;
+  private ConfigNodePropertyString imsServiceCode;
 
   public ComAdobeGraniteAuthImsImplImsConfigProviderImplProperties oauthConfigmanagerImsConfigid(ConfigNodePropertyString oauthConfigmanagerImsConfigid) {
     this.oauthConfigmanagerImsConfigid = oauthConfigmanagerImsConfigid;
     return this;
   }
 
-   /**
+  /**
    * Get oauthConfigmanagerImsConfigid
    * @return oauthConfigmanagerImsConfigid
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getOauthConfigmanagerImsConfigid() {
     return oauthConfigmanagerImsConfigid;
@@ -53,10 +53,10 @@ public class ComAdobeGraniteAuthImsImplImsConfigProviderImplProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get imsOwningEntity
    * @return imsOwningEntity
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getImsOwningEntity() {
     return imsOwningEntity;
@@ -71,10 +71,10 @@ public class ComAdobeGraniteAuthImsImplImsConfigProviderImplProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get aemInstanceId
    * @return aemInstanceId
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getAemInstanceId() {
     return aemInstanceId;
@@ -89,10 +89,10 @@ public class ComAdobeGraniteAuthImsImplImsConfigProviderImplProperties   {
     return this;
   }
 
-   /**
+  /**
    * Get imsServiceCode
    * @return imsServiceCode
-  **/
+   */
   @ApiModelProperty(value = "")
   public ConfigNodePropertyString getImsServiceCode() {
     return imsServiceCode;
@@ -104,7 +104,7 @@ public class ComAdobeGraniteAuthImsImplImsConfigProviderImplProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -140,11 +140,8 @@ public class ComAdobeGraniteAuthImsImplImsConfigProviderImplProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

@@ -1,20 +1,31 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comAdobeCqSocialUgcbaseModerationImplAutoModerationImplProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeCqSocialUgcbaseModerationImplAutoModerationImplProperties   {
-  
-  private @Valid ConfigNodePropertyArray automoderationSequence = null;
-  private @Valid ConfigNodePropertyBoolean automoderationOnfailurestop = null;
+  private ConfigNodePropertyArray automoderationSequence;
+  private ConfigNodePropertyBoolean automoderationOnfailurestop;
+
+  public ComAdobeCqSocialUgcbaseModerationImplAutoModerationImplProperties() {
+  }
 
   /**
    **/
@@ -26,9 +37,11 @@ public class ComAdobeCqSocialUgcbaseModerationImplAutoModerationImplProperties  
   
   @ApiModelProperty(value = "")
   @JsonProperty("automoderation.sequence")
-  public ConfigNodePropertyArray getAutomoderationSequence() {
+  @Valid public ConfigNodePropertyArray getAutomoderationSequence() {
     return automoderationSequence;
   }
+
+  @JsonProperty("automoderation.sequence")
   public void setAutomoderationSequence(ConfigNodePropertyArray automoderationSequence) {
     this.automoderationSequence = automoderationSequence;
   }
@@ -43,16 +56,18 @@ public class ComAdobeCqSocialUgcbaseModerationImplAutoModerationImplProperties  
   
   @ApiModelProperty(value = "")
   @JsonProperty("automoderation.onfailurestop")
-  public ConfigNodePropertyBoolean getAutomoderationOnfailurestop() {
+  @Valid public ConfigNodePropertyBoolean getAutomoderationOnfailurestop() {
     return automoderationOnfailurestop;
   }
+
+  @JsonProperty("automoderation.onfailurestop")
   public void setAutomoderationOnfailurestop(ConfigNodePropertyBoolean automoderationOnfailurestop) {
     this.automoderationOnfailurestop = automoderationOnfailurestop;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -60,8 +75,8 @@ public class ComAdobeCqSocialUgcbaseModerationImplAutoModerationImplProperties  
       return false;
     }
     ComAdobeCqSocialUgcbaseModerationImplAutoModerationImplProperties comAdobeCqSocialUgcbaseModerationImplAutoModerationImplProperties = (ComAdobeCqSocialUgcbaseModerationImplAutoModerationImplProperties) o;
-    return Objects.equals(automoderationSequence, comAdobeCqSocialUgcbaseModerationImplAutoModerationImplProperties.automoderationSequence) &&
-        Objects.equals(automoderationOnfailurestop, comAdobeCqSocialUgcbaseModerationImplAutoModerationImplProperties.automoderationOnfailurestop);
+    return Objects.equals(this.automoderationSequence, comAdobeCqSocialUgcbaseModerationImplAutoModerationImplProperties.automoderationSequence) &&
+        Objects.equals(this.automoderationOnfailurestop, comAdobeCqSocialUgcbaseModerationImplAutoModerationImplProperties.automoderationOnfailurestop);
   }
 
   @Override
@@ -84,11 +99,9 @@ public class ComAdobeCqSocialUgcbaseModerationImplAutoModerationImplProperties  
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

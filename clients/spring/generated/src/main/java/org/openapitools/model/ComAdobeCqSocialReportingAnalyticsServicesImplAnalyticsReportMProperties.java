@@ -1,24 +1,35 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyInteger;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportMProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportMProperties   {
-  @JsonProperty("report.fetch.delay")
-  private ConfigNodePropertyInteger reportFetchDelay = null;
+@JsonTypeName("comAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportMProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportMProperties {
 
-  public ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportMProperties reportFetchDelay(ConfigNodePropertyInteger reportFetchDelay) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger reportFetchDelay;
+
+  public ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportMProperties reportFetchDelay(@Nullable ConfigNodePropertyInteger reportFetchDelay) {
     this.reportFetchDelay = reportFetchDelay;
     return this;
   }
@@ -26,22 +37,21 @@ public class ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportMPrope
   /**
    * Get reportFetchDelay
    * @return reportFetchDelay
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getReportFetchDelay() {
+   */
+  @Valid 
+  @Schema(name = "report.fetch.delay", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("report.fetch.delay")
+  public @Nullable ConfigNodePropertyInteger getReportFetchDelay() {
     return reportFetchDelay;
   }
 
-  public void setReportFetchDelay(ConfigNodePropertyInteger reportFetchDelay) {
+  @JsonProperty("report.fetch.delay")
+  public void setReportFetchDelay(@Nullable ConfigNodePropertyInteger reportFetchDelay) {
     this.reportFetchDelay = reportFetchDelay;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -61,7 +71,6 @@ public class ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportMPrope
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportMProperties {\n");
-    
     sb.append("    reportFetchDelay: ").append(toIndentedString(reportFetchDelay)).append("\n");
     sb.append("}");
     return sb.toString();
@@ -71,11 +80,8 @@ public class ComAdobeCqSocialReportingAnalyticsServicesImplAnalyticsReportMPrope
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

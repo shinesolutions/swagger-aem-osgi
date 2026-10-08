@@ -1,21 +1,32 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("orgApacheSlingDistributionPackagingImplImporterRepositoryDistriProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class OrgApacheSlingDistributionPackagingImplImporterRepositoryDistriProperties   {
-  
-  private @Valid ConfigNodePropertyString name = null;
-  private @Valid ConfigNodePropertyString serviceName = null;
-  private @Valid ConfigNodePropertyString path = null;
-  private @Valid ConfigNodePropertyString privilegeName = null;
+  private ConfigNodePropertyString name;
+  private ConfigNodePropertyString serviceName;
+  private ConfigNodePropertyString path;
+  private ConfigNodePropertyString privilegeName;
+
+  public OrgApacheSlingDistributionPackagingImplImporterRepositoryDistriProperties() {
+  }
 
   /**
    **/
@@ -27,9 +38,11 @@ public class OrgApacheSlingDistributionPackagingImplImporterRepositoryDistriProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("name")
-  public ConfigNodePropertyString getName() {
+  @Valid public ConfigNodePropertyString getName() {
     return name;
   }
+
+  @JsonProperty("name")
   public void setName(ConfigNodePropertyString name) {
     this.name = name;
   }
@@ -44,9 +57,11 @@ public class OrgApacheSlingDistributionPackagingImplImporterRepositoryDistriProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("service.name")
-  public ConfigNodePropertyString getServiceName() {
+  @Valid public ConfigNodePropertyString getServiceName() {
     return serviceName;
   }
+
+  @JsonProperty("service.name")
   public void setServiceName(ConfigNodePropertyString serviceName) {
     this.serviceName = serviceName;
   }
@@ -61,9 +76,11 @@ public class OrgApacheSlingDistributionPackagingImplImporterRepositoryDistriProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("path")
-  public ConfigNodePropertyString getPath() {
+  @Valid public ConfigNodePropertyString getPath() {
     return path;
   }
+
+  @JsonProperty("path")
   public void setPath(ConfigNodePropertyString path) {
     this.path = path;
   }
@@ -78,16 +95,18 @@ public class OrgApacheSlingDistributionPackagingImplImporterRepositoryDistriProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("privilege.name")
-  public ConfigNodePropertyString getPrivilegeName() {
+  @Valid public ConfigNodePropertyString getPrivilegeName() {
     return privilegeName;
   }
+
+  @JsonProperty("privilege.name")
   public void setPrivilegeName(ConfigNodePropertyString privilegeName) {
     this.privilegeName = privilegeName;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -95,10 +114,10 @@ public class OrgApacheSlingDistributionPackagingImplImporterRepositoryDistriProp
       return false;
     }
     OrgApacheSlingDistributionPackagingImplImporterRepositoryDistriProperties orgApacheSlingDistributionPackagingImplImporterRepositoryDistriProperties = (OrgApacheSlingDistributionPackagingImplImporterRepositoryDistriProperties) o;
-    return Objects.equals(name, orgApacheSlingDistributionPackagingImplImporterRepositoryDistriProperties.name) &&
-        Objects.equals(serviceName, orgApacheSlingDistributionPackagingImplImporterRepositoryDistriProperties.serviceName) &&
-        Objects.equals(path, orgApacheSlingDistributionPackagingImplImporterRepositoryDistriProperties.path) &&
-        Objects.equals(privilegeName, orgApacheSlingDistributionPackagingImplImporterRepositoryDistriProperties.privilegeName);
+    return Objects.equals(this.name, orgApacheSlingDistributionPackagingImplImporterRepositoryDistriProperties.name) &&
+        Objects.equals(this.serviceName, orgApacheSlingDistributionPackagingImplImporterRepositoryDistriProperties.serviceName) &&
+        Objects.equals(this.path, orgApacheSlingDistributionPackagingImplImporterRepositoryDistriProperties.path) &&
+        Objects.equals(this.privilegeName, orgApacheSlingDistributionPackagingImplImporterRepositoryDistriProperties.privilegeName);
   }
 
   @Override
@@ -123,11 +142,9 @@ public class OrgApacheSlingDistributionPackagingImplImporterRepositoryDistriProp
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

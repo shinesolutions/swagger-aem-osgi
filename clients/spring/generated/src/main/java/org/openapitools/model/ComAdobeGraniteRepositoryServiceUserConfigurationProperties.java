@@ -1,32 +1,43 @@
 package org.openapitools.model;
 
+import java.net.URI;
 import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
-import io.swagger.annotations.ApiModel;
-import io.swagger.annotations.ApiModelProperty;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import org.openapitools.model.ConfigNodePropertyArray;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyInteger;
-import javax.validation.Valid;
-import javax.validation.constraints.*;
+import org.springframework.lang.Nullable;
+import org.openapitools.jackson.nullable.JsonNullable;
+import java.time.OffsetDateTime;
+import jakarta.validation.Valid;
+import jakarta.validation.constraints.*;
+import io.swagger.v3.oas.annotations.media.Schema;
+
+
+import java.util.*;
+import jakarta.annotation.Generated;
 
 /**
  * ComAdobeGraniteRepositoryServiceUserConfigurationProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2019-08-05T01:13:37.880Z[GMT]")
 
-public class ComAdobeGraniteRepositoryServiceUserConfigurationProperties   {
-  @JsonProperty("service.ranking")
-  private ConfigNodePropertyInteger serviceRanking = null;
+@JsonTypeName("comAdobeGraniteRepositoryServiceUserConfigurationProperties")
+@Generated(value = "org.openapitools.codegen.languages.SpringCodegen", date = "2026-10-07T13:01:07.358715110Z[Etc/UTC]", comments = "Generator version: 7.24.0")
+public class ComAdobeGraniteRepositoryServiceUserConfigurationProperties {
 
-  @JsonProperty("serviceusers.simpleSubjectPopulation")
-  private ConfigNodePropertyBoolean serviceusersSimpleSubjectPopulation = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyInteger serviceRanking;
 
-  @JsonProperty("serviceusers.list")
-  private ConfigNodePropertyArray serviceusersList = null;
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyBoolean serviceusersSimpleSubjectPopulation;
 
-  public ComAdobeGraniteRepositoryServiceUserConfigurationProperties serviceRanking(ConfigNodePropertyInteger serviceRanking) {
+  @JsonInclude(JsonInclude.Include.NON_NULL)
+  private @Nullable ConfigNodePropertyArray serviceusersList;
+
+  public ComAdobeGraniteRepositoryServiceUserConfigurationProperties serviceRanking(@Nullable ConfigNodePropertyInteger serviceRanking) {
     this.serviceRanking = serviceRanking;
     return this;
   }
@@ -34,20 +45,20 @@ public class ComAdobeGraniteRepositoryServiceUserConfigurationProperties   {
   /**
    * Get serviceRanking
    * @return serviceRanking
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyInteger getServiceRanking() {
+   */
+  @Valid 
+  @Schema(name = "service.ranking", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("service.ranking")
+  public @Nullable ConfigNodePropertyInteger getServiceRanking() {
     return serviceRanking;
   }
 
-  public void setServiceRanking(ConfigNodePropertyInteger serviceRanking) {
+  @JsonProperty("service.ranking")
+  public void setServiceRanking(@Nullable ConfigNodePropertyInteger serviceRanking) {
     this.serviceRanking = serviceRanking;
   }
 
-  public ComAdobeGraniteRepositoryServiceUserConfigurationProperties serviceusersSimpleSubjectPopulation(ConfigNodePropertyBoolean serviceusersSimpleSubjectPopulation) {
+  public ComAdobeGraniteRepositoryServiceUserConfigurationProperties serviceusersSimpleSubjectPopulation(@Nullable ConfigNodePropertyBoolean serviceusersSimpleSubjectPopulation) {
     this.serviceusersSimpleSubjectPopulation = serviceusersSimpleSubjectPopulation;
     return this;
   }
@@ -55,20 +66,20 @@ public class ComAdobeGraniteRepositoryServiceUserConfigurationProperties   {
   /**
    * Get serviceusersSimpleSubjectPopulation
    * @return serviceusersSimpleSubjectPopulation
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyBoolean getServiceusersSimpleSubjectPopulation() {
+   */
+  @Valid 
+  @Schema(name = "serviceusers.simpleSubjectPopulation", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("serviceusers.simpleSubjectPopulation")
+  public @Nullable ConfigNodePropertyBoolean getServiceusersSimpleSubjectPopulation() {
     return serviceusersSimpleSubjectPopulation;
   }
 
-  public void setServiceusersSimpleSubjectPopulation(ConfigNodePropertyBoolean serviceusersSimpleSubjectPopulation) {
+  @JsonProperty("serviceusers.simpleSubjectPopulation")
+  public void setServiceusersSimpleSubjectPopulation(@Nullable ConfigNodePropertyBoolean serviceusersSimpleSubjectPopulation) {
     this.serviceusersSimpleSubjectPopulation = serviceusersSimpleSubjectPopulation;
   }
 
-  public ComAdobeGraniteRepositoryServiceUserConfigurationProperties serviceusersList(ConfigNodePropertyArray serviceusersList) {
+  public ComAdobeGraniteRepositoryServiceUserConfigurationProperties serviceusersList(@Nullable ConfigNodePropertyArray serviceusersList) {
     this.serviceusersList = serviceusersList;
     return this;
   }
@@ -76,22 +87,21 @@ public class ComAdobeGraniteRepositoryServiceUserConfigurationProperties   {
   /**
    * Get serviceusersList
    * @return serviceusersList
-  **/
-  @ApiModelProperty(value = "")
-
-  @Valid
-
-  public ConfigNodePropertyArray getServiceusersList() {
+   */
+  @Valid 
+  @Schema(name = "serviceusers.list", requiredMode = Schema.RequiredMode.NOT_REQUIRED)
+  @JsonProperty("serviceusers.list")
+  public @Nullable ConfigNodePropertyArray getServiceusersList() {
     return serviceusersList;
   }
 
-  public void setServiceusersList(ConfigNodePropertyArray serviceusersList) {
+  @JsonProperty("serviceusers.list")
+  public void setServiceusersList(@Nullable ConfigNodePropertyArray serviceusersList) {
     this.serviceusersList = serviceusersList;
   }
 
-
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -113,7 +123,6 @@ public class ComAdobeGraniteRepositoryServiceUserConfigurationProperties   {
   public String toString() {
     StringBuilder sb = new StringBuilder();
     sb.append("class ComAdobeGraniteRepositoryServiceUserConfigurationProperties {\n");
-    
     sb.append("    serviceRanking: ").append(toIndentedString(serviceRanking)).append("\n");
     sb.append("    serviceusersSimpleSubjectPopulation: ").append(toIndentedString(serviceusersSimpleSubjectPopulation)).append("\n");
     sb.append("    serviceusersList: ").append(toIndentedString(serviceusersList)).append("\n");
@@ -125,11 +134,8 @@ public class ComAdobeGraniteRepositoryServiceUserConfigurationProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(@Nullable Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

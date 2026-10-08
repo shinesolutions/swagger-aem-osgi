@@ -72,10 +72,10 @@ private class OASComDayCqDamCommonsMetadataXmpFiltTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqDamCommonsMetadataXmpFilt comDayCqDamCommonsMetadataXmpFilterBlackWhiteProperties = new OASComDayCqDamCommonsMetadataXmpFilt();
-        Map<String, String> propertyMappings = comDayCqDamCommonsMetadataXmpFilterBlackWhiteProperties.getPropertyMappings();
-        System.assertEquals('xmpFilterApplyWhitelist', propertyMappings.get('xmp.filter.apply_whitelist'));
-        System.assertEquals('xmpFilterWhitelist', propertyMappings.get('xmp.filter.whitelist'));
-        System.assertEquals('xmpFilterApplyBlacklist', propertyMappings.get('xmp.filter.apply_blacklist'));
-        System.assertEquals('xmpFilterBlacklist', propertyMappings.get('xmp.filter.blacklist'));
+        Map<String, String> x-property-mappings = comDayCqDamCommonsMetadataXmpFilterBlackWhiteProperties.getx-property-mappings();
+        System.assertEquals('xmpFilterApplyWhitelist', x-property-mappings.get('xmp.filter.apply_whitelist'));
+        System.assertEquals('xmpFilterWhitelist', x-property-mappings.get('xmp.filter.whitelist'));
+        System.assertEquals('xmpFilterApplyBlacklist', x-property-mappings.get('xmp.filter.apply_blacklist'));
+        System.assertEquals('xmpFilterBlacklist', x-property-mappings.get('xmp.filter.blacklist'));
     }
 }

@@ -8,8 +8,8 @@ import org.openapitools.model.ConfigNodePropertyBoolean;
 
 @Canonical
 class ComAdobeGraniteConfImplRuntimeAwareConfigurationResourceResolvingProperties {
-    ConfigNodePropertyBoolean enabled = null
-
-    ConfigNodePropertyArray fallbackPaths = null
-
+    
+    ConfigNodePropertyBoolean enabled
+    
+    ConfigNodePropertyArray fallbackPaths
 }

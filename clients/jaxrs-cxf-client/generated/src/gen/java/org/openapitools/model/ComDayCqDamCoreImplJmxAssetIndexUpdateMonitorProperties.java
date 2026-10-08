@@ -6,43 +6,47 @@ import org.openapitools.model.ConfigNodePropertyInteger;
 import org.openapitools.model.ConfigNodePropertyString;
 
 import io.swagger.annotations.ApiModelProperty;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
-import javax.xml.bind.annotation.XmlAccessType;
-import javax.xml.bind.annotation.XmlAccessorType;
-import javax.xml.bind.annotation.XmlType;
-import javax.xml.bind.annotation.XmlEnum;
-import javax.xml.bind.annotation.XmlEnumValue;
+import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+
 
 public class ComDayCqDamCoreImplJmxAssetIndexUpdateMonitorProperties  {
   
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString jmxObjectname = null;
+
+  private ConfigNodePropertyString jmxObjectname;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyBoolean propertyMeasureEnabled = null;
+
+  private ConfigNodePropertyBoolean propertyMeasureEnabled;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString propertyName = null;
+
+  private ConfigNodePropertyString propertyName;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyInteger propertyMaxWaitMs = null;
+
+  private ConfigNodePropertyInteger propertyMaxWaitMs;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyFloat propertyMaxRate = null;
+
+  private ConfigNodePropertyFloat propertyMaxRate;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyBoolean fulltextMeasureEnabled = null;
+
+  private ConfigNodePropertyBoolean fulltextMeasureEnabled;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyString fulltextName = null;
+
+  private ConfigNodePropertyString fulltextName;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyInteger fulltextMaxWaitMs = null;
+
+  private ConfigNodePropertyInteger fulltextMaxWaitMs;
 
   @ApiModelProperty(value = "")
-  private ConfigNodePropertyFloat fulltextMaxRate = null;
+
+  private ConfigNodePropertyFloat fulltextMaxRate;
  /**
    * Get jmxObjectname
    * @return jmxObjectname
@@ -205,6 +209,30 @@ public class ComDayCqDamCoreImplJmxAssetIndexUpdateMonitorProperties  {
     return this;
   }
 
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    ComDayCqDamCoreImplJmxAssetIndexUpdateMonitorProperties comDayCqDamCoreImplJmxAssetIndexUpdateMonitorProperties = (ComDayCqDamCoreImplJmxAssetIndexUpdateMonitorProperties) o;
+    return Objects.equals(this.jmxObjectname, comDayCqDamCoreImplJmxAssetIndexUpdateMonitorProperties.jmxObjectname) &&
+        Objects.equals(this.propertyMeasureEnabled, comDayCqDamCoreImplJmxAssetIndexUpdateMonitorProperties.propertyMeasureEnabled) &&
+        Objects.equals(this.propertyName, comDayCqDamCoreImplJmxAssetIndexUpdateMonitorProperties.propertyName) &&
+        Objects.equals(this.propertyMaxWaitMs, comDayCqDamCoreImplJmxAssetIndexUpdateMonitorProperties.propertyMaxWaitMs) &&
+        Objects.equals(this.propertyMaxRate, comDayCqDamCoreImplJmxAssetIndexUpdateMonitorProperties.propertyMaxRate) &&
+        Objects.equals(this.fulltextMeasureEnabled, comDayCqDamCoreImplJmxAssetIndexUpdateMonitorProperties.fulltextMeasureEnabled) &&
+        Objects.equals(this.fulltextName, comDayCqDamCoreImplJmxAssetIndexUpdateMonitorProperties.fulltextName) &&
+        Objects.equals(this.fulltextMaxWaitMs, comDayCqDamCoreImplJmxAssetIndexUpdateMonitorProperties.fulltextMaxWaitMs) &&
+        Objects.equals(this.fulltextMaxRate, comDayCqDamCoreImplJmxAssetIndexUpdateMonitorProperties.fulltextMaxRate);
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(jmxObjectname, propertyMeasureEnabled, propertyName, propertyMaxWaitMs, propertyMaxRate, fulltextMeasureEnabled, fulltextName, fulltextMaxWaitMs, fulltextMaxRate);
+  }
 
   @Override
   public String toString() {
@@ -228,11 +256,8 @@ public class ComDayCqDamCoreImplJmxAssetIndexUpdateMonitorProperties  {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private static String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private static String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

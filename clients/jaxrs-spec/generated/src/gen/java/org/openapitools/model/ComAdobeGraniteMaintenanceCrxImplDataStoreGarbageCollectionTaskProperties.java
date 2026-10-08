@@ -1,20 +1,31 @@
 package org.openapitools.model;
 
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ConfigNodePropertyBoolean;
 import org.openapitools.model.ConfigNodePropertyString;
 import javax.validation.constraints.*;
 import javax.validation.Valid;
 
-
 import io.swagger.annotations.*;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import org.openapitools.jackson.nullable.JsonNullable;
 
 
+
+@JsonTypeName("comAdobeGraniteMaintenanceCrxImplDataStoreGarbageCollectionTaskProperties")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaJAXRSSpecServerCodegen", date = "2026-10-07T12:54:30.880189742Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteMaintenanceCrxImplDataStoreGarbageCollectionTaskProperties   {
-  
-  private @Valid ConfigNodePropertyBoolean graniteMaintenanceMandatory = null;
-  private @Valid ConfigNodePropertyString jobTopics = null;
+  private ConfigNodePropertyBoolean graniteMaintenanceMandatory;
+  private ConfigNodePropertyString jobTopics;
+
+  public ComAdobeGraniteMaintenanceCrxImplDataStoreGarbageCollectionTaskProperties() {
+  }
 
   /**
    **/
@@ -26,9 +37,11 @@ public class ComAdobeGraniteMaintenanceCrxImplDataStoreGarbageCollectionTaskProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("granite.maintenance.mandatory")
-  public ConfigNodePropertyBoolean getGraniteMaintenanceMandatory() {
+  @Valid public ConfigNodePropertyBoolean getGraniteMaintenanceMandatory() {
     return graniteMaintenanceMandatory;
   }
+
+  @JsonProperty("granite.maintenance.mandatory")
   public void setGraniteMaintenanceMandatory(ConfigNodePropertyBoolean graniteMaintenanceMandatory) {
     this.graniteMaintenanceMandatory = graniteMaintenanceMandatory;
   }
@@ -43,16 +56,18 @@ public class ComAdobeGraniteMaintenanceCrxImplDataStoreGarbageCollectionTaskProp
   
   @ApiModelProperty(value = "")
   @JsonProperty("job.topics")
-  public ConfigNodePropertyString getJobTopics() {
+  @Valid public ConfigNodePropertyString getJobTopics() {
     return jobTopics;
   }
+
+  @JsonProperty("job.topics")
   public void setJobTopics(ConfigNodePropertyString jobTopics) {
     this.jobTopics = jobTopics;
   }
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -60,8 +75,8 @@ public class ComAdobeGraniteMaintenanceCrxImplDataStoreGarbageCollectionTaskProp
       return false;
     }
     ComAdobeGraniteMaintenanceCrxImplDataStoreGarbageCollectionTaskProperties comAdobeGraniteMaintenanceCrxImplDataStoreGarbageCollectionTaskProperties = (ComAdobeGraniteMaintenanceCrxImplDataStoreGarbageCollectionTaskProperties) o;
-    return Objects.equals(graniteMaintenanceMandatory, comAdobeGraniteMaintenanceCrxImplDataStoreGarbageCollectionTaskProperties.graniteMaintenanceMandatory) &&
-        Objects.equals(jobTopics, comAdobeGraniteMaintenanceCrxImplDataStoreGarbageCollectionTaskProperties.jobTopics);
+    return Objects.equals(this.graniteMaintenanceMandatory, comAdobeGraniteMaintenanceCrxImplDataStoreGarbageCollectionTaskProperties.graniteMaintenanceMandatory) &&
+        Objects.equals(this.jobTopics, comAdobeGraniteMaintenanceCrxImplDataStoreGarbageCollectionTaskProperties.jobTopics);
   }
 
   @Override
@@ -84,11 +99,9 @@ public class ComAdobeGraniteMaintenanceCrxImplDataStoreGarbageCollectionTaskProp
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
-}
 
+
+}

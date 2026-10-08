@@ -4,32 +4,43 @@ import apimodels.ConfigNodePropertyArray;
 import apimodels.ConfigNodePropertyBoolean;
 import apimodels.ConfigNodePropertyInteger;
 import apimodels.ConfigNodePropertyString;
+import com.fasterxml.jackson.annotation.JsonTypeName;
 import com.fasterxml.jackson.annotation.*;
 import java.util.Set;
 import javax.validation.*;
 import java.util.Objects;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 /**
  * OrgApacheSlingCommonsSchedulerImplQuartzSchedulerProperties
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2019-08-05T00:55:42.601Z[GMT]")
-
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaPlayFrameworkCodegen", date = "2026-10-07T12:53:38.087254368Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 @SuppressWarnings({"UnusedReturnValue", "WeakerAccess"})
 public class OrgApacheSlingCommonsSchedulerImplQuartzSchedulerProperties   {
   @JsonProperty("poolName")
-  private ConfigNodePropertyString poolName = null;
+  @Valid
+
+  private ConfigNodePropertyString poolName;
 
   @JsonProperty("allowedPoolNames")
-  private ConfigNodePropertyArray allowedPoolNames = null;
+  @Valid
+
+  private ConfigNodePropertyArray allowedPoolNames;
 
   @JsonProperty("scheduler.useleaderforsingle")
-  private ConfigNodePropertyBoolean schedulerUseleaderforsingle = null;
+  @Valid
+
+  private ConfigNodePropertyBoolean schedulerUseleaderforsingle;
 
   @JsonProperty("metrics.filters")
-  private ConfigNodePropertyArray metricsFilters = null;
+  @Valid
+
+  private ConfigNodePropertyArray metricsFilters;
 
   @JsonProperty("slowThresholdMillis")
-  private ConfigNodePropertyInteger slowThresholdMillis = null;
+  @Valid
+
+  private ConfigNodePropertyInteger slowThresholdMillis;
 
   public OrgApacheSlingCommonsSchedulerImplQuartzSchedulerProperties poolName(ConfigNodePropertyString poolName) {
     this.poolName = poolName;
@@ -40,7 +51,6 @@ public class OrgApacheSlingCommonsSchedulerImplQuartzSchedulerProperties   {
    * Get poolName
    * @return poolName
   **/
-  @Valid
   public ConfigNodePropertyString getPoolName() {
     return poolName;
   }
@@ -58,7 +68,6 @@ public class OrgApacheSlingCommonsSchedulerImplQuartzSchedulerProperties   {
    * Get allowedPoolNames
    * @return allowedPoolNames
   **/
-  @Valid
   public ConfigNodePropertyArray getAllowedPoolNames() {
     return allowedPoolNames;
   }
@@ -76,7 +85,6 @@ public class OrgApacheSlingCommonsSchedulerImplQuartzSchedulerProperties   {
    * Get schedulerUseleaderforsingle
    * @return schedulerUseleaderforsingle
   **/
-  @Valid
   public ConfigNodePropertyBoolean getSchedulerUseleaderforsingle() {
     return schedulerUseleaderforsingle;
   }
@@ -94,7 +102,6 @@ public class OrgApacheSlingCommonsSchedulerImplQuartzSchedulerProperties   {
    * Get metricsFilters
    * @return metricsFilters
   **/
-  @Valid
   public ConfigNodePropertyArray getMetricsFilters() {
     return metricsFilters;
   }
@@ -112,7 +119,6 @@ public class OrgApacheSlingCommonsSchedulerImplQuartzSchedulerProperties   {
    * Get slowThresholdMillis
    * @return slowThresholdMillis
   **/
-  @Valid
   public ConfigNodePropertyInteger getSlowThresholdMillis() {
     return slowThresholdMillis;
   }
@@ -123,7 +129,7 @@ public class OrgApacheSlingCommonsSchedulerImplQuartzSchedulerProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -162,11 +168,8 @@ public class OrgApacheSlingCommonsSchedulerImplQuartzSchedulerProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

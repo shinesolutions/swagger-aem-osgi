@@ -72,10 +72,10 @@ private class OASComDayCqSearchImplBuilderQueryBuiTest {
     @isTest
     private static void maintainRenamedProperties() {
         OASComDayCqSearchImplBuilderQueryBui comDayCqSearchImplBuilderQueryBuilderImplProperties = new OASComDayCqSearchImplBuilderQueryBui();
-        Map<String, String> propertyMappings = comDayCqSearchImplBuilderQueryBuilderImplProperties.getPropertyMappings();
-        System.assertEquals('excerptProperties', propertyMappings.get('excerpt.properties'));
-        System.assertEquals('cacheMaxEntries', propertyMappings.get('cache.max.entries'));
-        System.assertEquals('cacheEntryLifetime', propertyMappings.get('cache.entry.lifetime'));
-        System.assertEquals('xpathUnion', propertyMappings.get('xpath.union'));
+        Map<String, String> x-property-mappings = comDayCqSearchImplBuilderQueryBuilderImplProperties.getx-property-mappings();
+        System.assertEquals('excerptProperties', x-property-mappings.get('excerpt.properties'));
+        System.assertEquals('cacheMaxEntries', x-property-mappings.get('cache.max.entries'));
+        System.assertEquals('cacheEntryLifetime', x-property-mappings.get('cache.entry.lifetime'));
+        System.assertEquals('xpathUnion', x-property-mappings.get('xpath.union'));
     }
 }

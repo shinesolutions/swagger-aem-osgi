@@ -7,12 +7,12 @@ import org.openapitools.model.ComDayCqWcmContentsyncImplRewriterPathRewriterTran
 
 @Canonical
 class ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqWcmContentsyncImplRewriterPathRewriterTransformerFactorProperties properties
 }

@@ -9,16 +9,16 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 @Canonical
 class ComDayCqStatisticsImplStatisticsServiceImplProperties {
-    ConfigNodePropertyInteger schedulerPeriod = null
-
-    ConfigNodePropertyBoolean schedulerConcurrent = null
-
-    ConfigNodePropertyString path = null
-
-    ConfigNodePropertyString workspace = null
-
-    ConfigNodePropertyString keywordsPath = null
-
-    ConfigNodePropertyBoolean asyncEntries = null
-
+    
+    ConfigNodePropertyInteger schedulerPeriod
+    
+    ConfigNodePropertyBoolean schedulerConcurrent
+    
+    ConfigNodePropertyString path
+    
+    ConfigNodePropertyString workspace
+    
+    ConfigNodePropertyString keywordsPath
+    
+    ConfigNodePropertyBoolean asyncEntries
 }

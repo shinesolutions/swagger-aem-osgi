@@ -2,12 +2,12 @@
 # ComAdobeCqWcmLaunchesImplLaunchesEventHandlerProperties
 
 ## Properties
-Name | Type | Description | Notes
------------- | ------------- | ------------- | -------------
-**eventPeriodfilter** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional]
-**launchesPeriodeventhandlerPeriodthreadpoolPeriodmaxsize** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional]
-**launchesPeriodeventhandlerPeriodthreadpoolPeriodpriority** | [**ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md) |  |  [optional]
-**launchesPeriodeventhandlerPeriodupdatelastmodification** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional]
+| Name | Type | Description | Notes |
+| ------------ | ------------- | ------------- | ------------- |
+| **eventFilter** | [**ConfigNodePropertyString**](ConfigNodePropertyString.md) |  |  [optional] |
+| **launchesEventhandlerThreadpoolMaxsize** | [**ConfigNodePropertyInteger**](ConfigNodePropertyInteger.md) |  |  [optional] |
+| **launchesEventhandlerThreadpoolPriority** | [**ConfigNodePropertyDropDown**](ConfigNodePropertyDropDown.md) |  |  [optional] |
+| **launchesEventhandlerUpdatelastmodification** | [**ConfigNodePropertyBoolean**](ConfigNodePropertyBoolean.md) |  |  [optional] |
 
 
 

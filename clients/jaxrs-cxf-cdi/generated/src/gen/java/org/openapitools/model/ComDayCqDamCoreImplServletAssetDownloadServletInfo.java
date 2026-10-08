@@ -2,31 +2,32 @@ package org.openapitools.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonTypeName;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 import org.openapitools.model.ComDayCqDamCoreImplServletAssetDownloadServletProperties;
 import javax.validation.constraints.*;
+import javax.validation.Valid;
 
 
 import io.swagger.annotations.*;
 import java.util.Objects;
 
-import javax.xml.bind.annotation.*;
-
 
 
 public class ComDayCqDamCoreImplServletAssetDownloadServletInfo   {
   
-  private String pid = null;
+  private String pid;
 
-  private String title = null;
+  private String title;
 
-  private String description = null;
+  private String description;
 
-  private ComDayCqDamCoreImplServletAssetDownloadServletProperties properties = null;
+  private ComDayCqDamCoreImplServletAssetDownloadServletProperties properties;
 
-  private String bundleLocation = null;
+  private String bundleLocation;
 
-  private String serviceLocation = null;
-
+  private String serviceLocation;
 
   /**
    **/
@@ -138,7 +139,7 @@ public class ComDayCqDamCoreImplServletAssetDownloadServletInfo   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -146,12 +147,12 @@ public class ComDayCqDamCoreImplServletAssetDownloadServletInfo   {
       return false;
     }
     ComDayCqDamCoreImplServletAssetDownloadServletInfo comDayCqDamCoreImplServletAssetDownloadServletInfo = (ComDayCqDamCoreImplServletAssetDownloadServletInfo) o;
-    return Objects.equals(pid, comDayCqDamCoreImplServletAssetDownloadServletInfo.pid) &&
-        Objects.equals(title, comDayCqDamCoreImplServletAssetDownloadServletInfo.title) &&
-        Objects.equals(description, comDayCqDamCoreImplServletAssetDownloadServletInfo.description) &&
-        Objects.equals(properties, comDayCqDamCoreImplServletAssetDownloadServletInfo.properties) &&
-        Objects.equals(bundleLocation, comDayCqDamCoreImplServletAssetDownloadServletInfo.bundleLocation) &&
-        Objects.equals(serviceLocation, comDayCqDamCoreImplServletAssetDownloadServletInfo.serviceLocation);
+    return Objects.equals(this.pid, comDayCqDamCoreImplServletAssetDownloadServletInfo.pid) &&
+        Objects.equals(this.title, comDayCqDamCoreImplServletAssetDownloadServletInfo.title) &&
+        Objects.equals(this.description, comDayCqDamCoreImplServletAssetDownloadServletInfo.description) &&
+        Objects.equals(this.properties, comDayCqDamCoreImplServletAssetDownloadServletInfo.properties) &&
+        Objects.equals(this.bundleLocation, comDayCqDamCoreImplServletAssetDownloadServletInfo.bundleLocation) &&
+        Objects.equals(this.serviceLocation, comDayCqDamCoreImplServletAssetDownloadServletInfo.serviceLocation);
   }
 
   @Override
@@ -178,11 +179,8 @@ public class ComDayCqDamCoreImplServletAssetDownloadServletInfo   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

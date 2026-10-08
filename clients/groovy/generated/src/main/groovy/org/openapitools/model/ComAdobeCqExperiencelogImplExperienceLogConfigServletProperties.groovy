@@ -8,8 +8,8 @@ import org.openapitools.model.ConfigNodePropertyBoolean;
 
 @Canonical
 class ComAdobeCqExperiencelogImplExperienceLogConfigServletProperties {
-    ConfigNodePropertyBoolean enabled = null
-
-    ConfigNodePropertyArray disabledForGroups = null
-
+    
+    ConfigNodePropertyBoolean enabled
+    
+    ConfigNodePropertyArray disabledForGroups
 }

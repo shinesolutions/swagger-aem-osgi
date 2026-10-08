@@ -7,14 +7,14 @@ import org.openapitools.model.ConfigNodePropertyArray;
 
 @Canonical
 class ComAdobeCqScreensImplHandlerChannelsUpdateHandlerProperties {
-    ConfigNodePropertyArray cqPagesupdatehandlerImageresourcetypes = null
-
-    ConfigNodePropertyArray cqPagesupdatehandlerProductresourcetypes = null
-
-    ConfigNodePropertyArray cqPagesupdatehandlerVideoresourcetypes = null
-
-    ConfigNodePropertyArray cqPagesupdatehandlerDynamicsequenceresourcetypes = null
-
-    ConfigNodePropertyArray cqPagesupdatehandlerPreviewmodepaths = null
-
+    
+    ConfigNodePropertyArray cqPagesupdatehandlerImageresourcetypes
+    
+    ConfigNodePropertyArray cqPagesupdatehandlerProductresourcetypes
+    
+    ConfigNodePropertyArray cqPagesupdatehandlerVideoresourcetypes
+    
+    ConfigNodePropertyArray cqPagesupdatehandlerDynamicsequenceresourcetypes
+    
+    ConfigNodePropertyArray cqPagesupdatehandlerPreviewmodepaths
 }

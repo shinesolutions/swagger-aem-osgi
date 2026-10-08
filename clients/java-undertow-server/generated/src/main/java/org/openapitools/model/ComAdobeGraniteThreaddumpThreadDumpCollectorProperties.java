@@ -1,3 +1,13 @@
+/*
+ * Adobe Experience Manager OSGI config (AEM) API
+ *
+ * Swagger AEM OSGI is an OpenAPI specification for Adobe Experience Manager (AEM) OSGI Configurations API
+ *
+ * OpenAPI document version: 1.0.0-pre.0
+ * Maintained by: opensource@shinesolutions.com
+ *
+ * AUTO-GENERATED FILE, DO NOT MODIFY!
+ */
 package org.openapitools.model;
 
 import java.util.Objects;
@@ -14,21 +24,21 @@ import org.openapitools.model.ConfigNodePropertyString;
 
 
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2019-08-05T00:56:20.785Z[GMT]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaUndertowServerCodegen", date = "2026-10-07T12:53:42.280804918Z[Etc/UTC]", comments = "Generator version: 7.24.0")
 public class ComAdobeGraniteThreaddumpThreadDumpCollectorProperties   {
   
-  private ConfigNodePropertyInteger schedulerPeriod = null;
-  private ConfigNodePropertyDropDown schedulerRunOn = null;
-  private ConfigNodePropertyBoolean graniteThreaddumpEnabled = null;
-  private ConfigNodePropertyInteger graniteThreaddumpDumpsPerFile = null;
-  private ConfigNodePropertyBoolean graniteThreaddumpEnableGzipCompression = null;
-  private ConfigNodePropertyBoolean graniteThreaddumpEnableDirectoriesCompression = null;
-  private ConfigNodePropertyBoolean graniteThreaddumpEnableJStack = null;
-  private ConfigNodePropertyInteger graniteThreaddumpMaxBackupDays = null;
-  private ConfigNodePropertyString graniteThreaddumpBackupCleanTrigger = null;
+  private ConfigNodePropertyInteger schedulerPeriod;
+  private ConfigNodePropertyDropDown schedulerRunOn;
+  private ConfigNodePropertyBoolean graniteThreaddumpEnabled;
+  private ConfigNodePropertyInteger graniteThreaddumpDumpsPerFile;
+  private ConfigNodePropertyBoolean graniteThreaddumpEnableGzipCompression;
+  private ConfigNodePropertyBoolean graniteThreaddumpEnableDirectoriesCompression;
+  private ConfigNodePropertyBoolean graniteThreaddumpEnableJStack;
+  private ConfigNodePropertyInteger graniteThreaddumpMaxBackupDays;
+  private ConfigNodePropertyString graniteThreaddumpBackupCleanTrigger;
 
   /**
-   **/
+   */
   public ComAdobeGraniteThreaddumpThreadDumpCollectorProperties schedulerPeriod(ConfigNodePropertyInteger schedulerPeriod) {
     this.schedulerPeriod = schedulerPeriod;
     return this;
@@ -45,7 +55,7 @@ public class ComAdobeGraniteThreaddumpThreadDumpCollectorProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeGraniteThreaddumpThreadDumpCollectorProperties schedulerRunOn(ConfigNodePropertyDropDown schedulerRunOn) {
     this.schedulerRunOn = schedulerRunOn;
     return this;
@@ -62,7 +72,7 @@ public class ComAdobeGraniteThreaddumpThreadDumpCollectorProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeGraniteThreaddumpThreadDumpCollectorProperties graniteThreaddumpEnabled(ConfigNodePropertyBoolean graniteThreaddumpEnabled) {
     this.graniteThreaddumpEnabled = graniteThreaddumpEnabled;
     return this;
@@ -79,7 +89,7 @@ public class ComAdobeGraniteThreaddumpThreadDumpCollectorProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeGraniteThreaddumpThreadDumpCollectorProperties graniteThreaddumpDumpsPerFile(ConfigNodePropertyInteger graniteThreaddumpDumpsPerFile) {
     this.graniteThreaddumpDumpsPerFile = graniteThreaddumpDumpsPerFile;
     return this;
@@ -96,7 +106,7 @@ public class ComAdobeGraniteThreaddumpThreadDumpCollectorProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeGraniteThreaddumpThreadDumpCollectorProperties graniteThreaddumpEnableGzipCompression(ConfigNodePropertyBoolean graniteThreaddumpEnableGzipCompression) {
     this.graniteThreaddumpEnableGzipCompression = graniteThreaddumpEnableGzipCompression;
     return this;
@@ -113,7 +123,7 @@ public class ComAdobeGraniteThreaddumpThreadDumpCollectorProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeGraniteThreaddumpThreadDumpCollectorProperties graniteThreaddumpEnableDirectoriesCompression(ConfigNodePropertyBoolean graniteThreaddumpEnableDirectoriesCompression) {
     this.graniteThreaddumpEnableDirectoriesCompression = graniteThreaddumpEnableDirectoriesCompression;
     return this;
@@ -130,7 +140,7 @@ public class ComAdobeGraniteThreaddumpThreadDumpCollectorProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeGraniteThreaddumpThreadDumpCollectorProperties graniteThreaddumpEnableJStack(ConfigNodePropertyBoolean graniteThreaddumpEnableJStack) {
     this.graniteThreaddumpEnableJStack = graniteThreaddumpEnableJStack;
     return this;
@@ -147,7 +157,7 @@ public class ComAdobeGraniteThreaddumpThreadDumpCollectorProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeGraniteThreaddumpThreadDumpCollectorProperties graniteThreaddumpMaxBackupDays(ConfigNodePropertyInteger graniteThreaddumpMaxBackupDays) {
     this.graniteThreaddumpMaxBackupDays = graniteThreaddumpMaxBackupDays;
     return this;
@@ -164,7 +174,7 @@ public class ComAdobeGraniteThreaddumpThreadDumpCollectorProperties   {
   }
 
   /**
-   **/
+   */
   public ComAdobeGraniteThreaddumpThreadDumpCollectorProperties graniteThreaddumpBackupCleanTrigger(ConfigNodePropertyString graniteThreaddumpBackupCleanTrigger) {
     this.graniteThreaddumpBackupCleanTrigger = graniteThreaddumpBackupCleanTrigger;
     return this;
@@ -182,7 +192,7 @@ public class ComAdobeGraniteThreaddumpThreadDumpCollectorProperties   {
 
 
   @Override
-  public boolean equals(java.lang.Object o) {
+  public boolean equals(Object o) {
     if (this == o) {
       return true;
     }
@@ -228,11 +238,8 @@ public class ComAdobeGraniteThreaddumpThreadDumpCollectorProperties   {
    * Convert the given object to string with each line indented by 4 spaces
    * (except the first line).
    */
-  private String toIndentedString(java.lang.Object o) {
-    if (o == null) {
-      return "null";
-    }
-    return o.toString().replace("\n", "\n    ");
+  private String toIndentedString(Object o) {
+    return o == null ? "null" : o.toString().replace("\n", "\n    ");
   }
 }
 

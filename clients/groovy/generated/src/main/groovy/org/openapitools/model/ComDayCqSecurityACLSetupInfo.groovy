@@ -7,16 +7,16 @@ import org.openapitools.model.ComDayCqSecurityACLSetupProperties;
 
 @Canonical
 class ComDayCqSecurityACLSetupInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    ComDayCqSecurityACLSetupProperties properties = null
-
-    String bundleLocation = null
-
-    String serviceLocation = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    ComDayCqSecurityACLSetupProperties properties
+    
+    String bundleLocation
+    
+    String serviceLocation
 }

@@ -7,12 +7,12 @@ import org.openapitools.model.OrgApacheSlingScriptingCoreImplScriptingResourceRe
 
 @Canonical
 class OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderInfo {
-    String pid = null
-
-    String title = null
-
-    String description = null
-
-    OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderProperties properties = null
-
+    
+    String pid
+    
+    String title
+    
+    String description
+    
+    OrgApacheSlingScriptingCoreImplScriptingResourceResolverProviderProperties properties
 }
